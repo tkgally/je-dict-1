@@ -1651,3 +1651,24 @@ homograph-list truncation.)_
   official documents", 米飯 "a formal or written term", おつまみ "the polite form of つまみ". The
   reviewer is evidently not weighting the notes field it was given. Feeding the notes' own register
   sentence back into the prompt as the thing to agree or disagree with would kill this family.
+
+- [entry] **19274 `板に着く` uses non-standard kanji for the idiom `板につく`.** Discovered by a
+  duplicate probe in the 2026-09-02 candidates run: the probe for `板につく` (いたにつく) reported
+  the homophone `板に着く` (19274). The standard orthography for this theatrical idiom ("to look
+  natural in a role") is **板に付く** or kana `板につく`; 着く is not the form dictionaries list.
+  The entry's own notes correctly explain the stage-boards etymology, which is the 付く sense.
+  Suggested fix during a polish pass over the 19000 block: change the headword to `{板|いた}につく`
+  (or `{板|いた}に{付|つ}く`), keep the ID and romaji, and note the orthography in the entry.
+
+- [pattern] **Candidate-lens saturation re-measured at 30,584 entries; idioms and proverbs are now
+  the fertile lenses, not common vocabulary.** Duplicate-check probes before proposing anything
+  (2026-09-02 candidates run, 163 words probed): health/medical thematic sweep **0%** survival
+  (0 usable of 28 — the one "new" word was an okurigana variant of an existing entry); four-character
+  idioms **17%** (4 of 24); proper nouns, modern/institutional slice **12%** (4 of 34 after applying
+  the G7 richness gate); body-part and other 慣用句 **47%** (29 of 60); proverbs **48%** (11 of 23);
+  proper nouns, a fresh cultural-sites/canonical-figures slice **47%** (15 of 32 after G7). This
+  updates the 2026-08-11 finding: proper nouns are no longer uniformly ~80% fertile — the easy
+  slices are worked out and the survival rate now depends entirely on which slice is probed. The
+  cheap probe-first workflow (`check_duplicate.py --batch` before writing any glosses) is what makes
+  a saturated lens cost seconds instead of a wasted half-run, and should be the documented default
+  in `newcandidates.md`.

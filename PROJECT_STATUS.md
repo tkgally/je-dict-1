@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-08-28
+**Last updated**: 2026-09-02
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~30,544 |
+| Total entries | ~30,584 |
 | Basic tier | 801 (closed) |
 | Core tier | ~1,982 (closed) |
-| General tier | ~27,741 (open) |
-| Candidate words | ~142 (all vetted; queue cleaned 2026-08-11) |
+| General tier | ~27,781 (open) |
+| Candidate words | ~195 (all vetted; queue cleaned 2026-08-11) |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,46 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-02 (Routine v2: candidates — 55 Vetted Words Added, Queue 140 → 195)
+
+Restocked the candidate queue, which had fallen to 140 words (the selector schedules this mode
+below 150). No entries were created or changed; the candidate list is the material the
+`new-entries` mode draws on, and every word on it is meant to be ready to write up without further
+screening.
+
+**The run probed before it proposed.** Rather than writing glosses first and discovering later that
+the word already had an entry, it ran 163 words through the duplicate checker in bulk and only then
+vetted the survivors. That measured how much room is left in each source of new words at 30,584
+entries: the health-and-medical sweep returned **nothing usable** (0 of 28); four-character idioms
+returned 17%; a modern institutions/landmarks slice of proper nouns returned 12%; but **body-part
+and other idioms (47%), proverbs (48%), and a fresh slice of proper nouns covering cultural sites
+and canonical historical figures (47%)** are still productive. This revises the 2026-08-11 finding
+that proper nouns are uniformly fertile — the easy slices are worked out, and yield now depends
+entirely on which slice is probed.
+
+**55 words added** (C23288–C23342), all passing the individual reality/lemma/reading/gloss gates:
+26 idioms ({気|き}が{置|お}けない, {白羽|しらは}の{矢|や}が{立|た}つ, {拍車|はくしゃ}をかける,
+{棚|たな}に{上|あ}げる …), 10 proverbs ({覆水盆|ふくすいぼん}に{返|かえ}らず,
+{案|あん}ずるより{産|う}むが{易|やす}し, {住|す}めば{都|みやこ} …), 4 four-character idioms
+({温故知新|おんこちしん}, {千載一遇|せんざいいちぐう} …), and **15 proper nouns** (27% of the
+batch, within the 20–40% target): {厳島神社|いつくしまじんじゃ}, {天橋立|あまのはしだて},
+{松島|まつしま}, {兼六園|けんろくえん}, {銀閣寺|ぎんかくじ}, {阿蘇山|あそさん},
+{清少納言|せいしょうなごん}, {歌川広重|うたがわひろしげ}, {津田梅子|つだうめこ},
+{信州|しんしゅう}, {阪神|はんしん}, {山陰|さんいん}, {厚生労働省|こうせいろうどうしょう},
+{三越|みつこし}, セブンイレブン. Words that survived the duplicate check but were merely
+referential — an ordinary landmark with no cultural weight — were dropped under the richness gate
+rather than added.
+
+**One existing-entry problem found and logged**: a duplicate probe surfaced 19274 `板に着く`, which
+writes the theatrical idiom いたにつく with the wrong kanji (standard is {板|いた}に{付|つ}く or
+kana). Recorded as an `[entry]` observation for a polish pass over the 19000 block; not fixed here,
+since this mode does not change entries.
+
+**Lenses for next time**: idioms and proverbs still have depth; the proper-noun lens should keep
+rotating to unworked slices. Common-vocabulary thematic sweeps (health, office, administrative)
+are exhausted and should be skipped unless probed first.
+
 
 ### 2026-08-31 (Routine v2: new-entries — 20 New Entries, IDs 30774–30793)
 
@@ -102,14 +142,3 @@ Created 20 general-tier entries. **Fifteen came from the "seen in entry" lane** 
 **Curator note**: the 2026-08-20 run deliberately left {脂漏|しろう} in the queue, judging a standalone entry a poor fit for a technical dermatology term. This run wrote it anyway, on the reading that a short entry which names the register and points at the everyday alternative serves a learner who meets the word on a prescription. If that call was wrong, the entry is easy to delete.
 
 **Queue note**: the candidate 思いつき was removed as a stale duplicate — the same word as the existing entry 27771 {思|おも}い{付|つ}き, differing only in okurigana. Four new candidates were captured from words the new entries reference but do not define: {手繰|たぐ}る, {牛|ぎゅう}タン, {洋館|ようかん}, {祈念|きねん}. Candidate queue now 149, just below the 150-word mark at which a `candidates` restock run stops being suppressed.
-
-
-### 2026-08-20 (Routine v2: new-entries — 20 New Entries, IDs 30694–30713)
-
-Created 20 general-tier entries. **Twelve came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined — which empties that lane except for one word left deliberately unclaimed (see the queue note). Those twelve: ことごとく (the formal "every one without exception", noted as attaching mostly to unfortunate outcomes), {街宣車|がいせんしゃ} (the loudspeaker van, with its right-wing association explained and the neutral {選挙|せんきょ}カー offered as the alternative), {養成所|ようせいじょ} (distinguished from {専門学校|せんもんがっこう} and {研修所|けんしゅうじょ}), {協和音|きょうわおん} (cross-linked as the antonym of the existing {不協和音|ふきょうわおん}), コーンスープ and ポタージュ (written as a pair, since Japanese uses ポタージュ specifically for the thick style against clear コンソメ), {名様|めいさま} (the service-industry counter, with the point that staff use it about customers and customers do not use it about themselves), クレカ (casual-only, with クレジットカード named as the form to use in a shop), プリペイドカード, {出|で}だし (the opening of a text, song, or race), {人妻|ひとづま} (with a register note that it is not a neutral way to say a woman is married), and {思|おも}いとどまる (the deliberate decision not to go through with something, contrasted with あきらめる).
-
-**The other eight are proper nouns** — the category opened up on 2026-08-11 — each written so the explanation carries the connotations, not just the referent: the Tokyo districts {池袋|いけぶくろ}, {品川|しながわ}, and {六本木|ろっぽんぎ} (crowds, business travel, and money respectively), the {山手線|やまのてせん} (with {内回|うちまわ}り/{外回|そとまわ}り and "inside the loop" as shorthand for central Tokyo), {神戸|こうべ}, {鎌倉|かまくら} (both the seaside town and the history-class period name), {箱根|はこね} (hot springs and the New Year's ekiden), and {軽井沢|かるいざわ} (a name that signals money and taste more than a location). One godan conjugation table added. No new kanji.
-
-**§4 cross-model self-check on all 21 changed entries: 1 flag, rejected, 0 sent to the curator.** All 20 new entries came back clean. The single flag was on the pre-existing entry 19680 {耐|た}え{難|がた}い, where the model wanted the `formal` register label changed to `neutral`; the entry's own notes describe it as a literary and formal expression, so project policy declines that swap. Cost $0.009.
-
-**Queue note**: the candidate 耐えがたい was removed as a stale duplicate — it is the same word as 19680 {耐|た}え{難|がた}い written with がたい in kana — and 19680's notes now record that spelling. One "seen in entry" candidate was deliberately left in the queue: 脂漏 (seborrhea), harvested from the eczema entry, is a technical dermatology term that a standalone learner entry serves poorly; the reasoning is logged as an observation. Three new candidates were captured from words the new entries reference but do not define: {駅伝|えきでん}, {異人館|いじんかん}, コンソメ. Candidate queue now 154.
