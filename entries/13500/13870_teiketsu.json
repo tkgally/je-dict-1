@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13870_teiketsu_ex1",
-      "japanese": "{条約|じょうやく}を{締結|ていけつ}する。",
+      "japanese": "⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦を→を：00422_wo⟧{締結|ていけつ}⟦する→する：00392_suru⟧。",
       "english": "Conclude a treaty.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13870_teiketsu_ex2",
-      "japanese": "{両国|りょうこく}は{平和条約|へいわじょうやく}を{締結|ていけつ}した。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧{平和条約|へいわじょうやく}⟦を→を：00422_wo⟧{締結|ていけつ}⟦した→する：00392_suru⟧。",
       "english": "The two countries concluded a peace treaty.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13870_teiketsu_ex3",
-      "japanese": "{企業|きぎょう}との{業務提携|ぎょうむていけい}{契約|けいやく}を{締結|ていけつ}するために{弁護士|べんごし}に{相談|そうだん}した。",
+      "japanese": "⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{業務提携|ぎょうむていけい}→業務提携：22907_gyoumuteikei⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{締結|ていけつ}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧。",
       "english": "I consulted a lawyer to conclude a business partnership agreement with the company.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal term used in legal, diplomatic, and business contexts. The object is always a formal agreement — treaties ({条約|じょうやく}), contracts ({契約|けいやく}), or pacts ({協定|きょうてい}). Not used for informal agreements or promises.\n\nSIMILAR WORDS:\n- {調印|ちょういん}: signing (physical act of putting one's signature)\n- {契約|けいやく}: contract (the agreement itself, not the act of concluding it)\n- {合意|ごうい}: agreement, consensus (reaching mutual understanding)\n\nCOMMON COLLOCATIONS:\n- {条約|じょうやく}を{締結|ていけつ}する: conclude a treaty\n- {契約|けいやく}を{締結|ていけつ}する: enter into a contract\n- {協定|きょうてい}を{締結|ていけつ}する: conclude an agreement\n- {締結|ていけつ}{国|こく}: signatory nation",
+  "notes": "USAGE:\nA formal term used in legal, diplomatic, and business contexts. The object is always a formal agreement — treaties (⟦{条約|じょうやく}→条約：04912_jouyaku⟧), contracts (⟦{契約|けいやく}→契約：02698_keiyaku⟧), or pacts (⟦{協定|きょうてい}→協定：05320_kyoutei⟧). Not used for informal agreements or promises.\n\nSIMILAR WORDS:\n- ⟦{調印|ちょういん}→調印：14252_chouin⟧: signing (physical act of putting one's signature)\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧: contract (the agreement itself, not the act of concluding it)\n- ⟦{合意|ごうい}→合意：05093_goui⟧: agreement, consensus (reaching mutual understanding)\n\nCOMMON COLLOCATIONS:\n- ⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦を→を：00422_wo⟧{締結|ていけつ}⟦する→する：00392_suru⟧: conclude a treaty\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{締結|ていけつ}⟦する→する：00392_suru⟧: enter into a contract\n- ⟦{協定|きょうてい}→協定：05320_kyoutei⟧⟦を→を：00422_wo⟧{締結|ていけつ}⟦する→する：00392_suru⟧: conclude an agreement\n- {締結|ていけつ}{国|こく}: signatory nation",
   "cross_references": [
     {
       "type": "related",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T05:49:23Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +183,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

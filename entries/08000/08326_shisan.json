@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08326_shisan_ex1",
-      "japanese": "{費用|ひよう}を{試算|しさん}してみた。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{試算|しさん}⟦して→する：00392_suru⟧みた。",
       "english": "I did a preliminary cost calculation.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08326_shisan_ex2",
-      "japanese": "{試算|しさん}では{年間|ねんかん}{一億円|いちおくえん}の{削減|さくげん}になる。",
+      "japanese": "{試算|しさん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{年間|ねんかん}→年間：00974_nenkan⟧{一億円|いちおくえん}⟦の→の：09472_no⟧⟦{削減|さくげん}→削減：11789_sakugen⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "According to preliminary calculations, it would result in annual savings of 100 million yen.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08326_shisan_ex3",
-      "japanese": "{政府|せいふ}は{経済効果|けいざいこうか}を{試算|しさん}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{経済効果|けいざいこうか}→経済効果：27193_keizaikouka⟧⟦を→を：00422_wo⟧{試算|しさん}⟦した→する：00392_suru⟧。",
       "english": "The government calculated a preliminary estimate of the economic impact.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMS:\n{試|し} (trial, test) + {算|さん} (calculation) → trial calculation\n\nCAN FUNCTION AS:\n- Noun: {試算|しさん}を{行|おこな}う (to conduct a trial calculation)\n- Suru-verb: {試算|しさん}する (to make a trial calculation)\n\nCOMMON EXPRESSIONS:\n- {試算|しさん}{表|ひょう} (trial balance - accounting term)\n- {試算|しさん}{結果|けっか} (results of trial calculation)\n- ～と{試算|しさん}される (to be estimated at ~)\n\nUSAGE:\nCommonly used in:\n- Government policy announcements\n- Business planning and budgeting\n- Financial analysis\n- Project feasibility studies\n\nRELATED WORDS:\n- {概算|がいさん} (rough estimate)\n- {見積|みつも}り (estimate, quotation)\n- {計算|けいさん} (calculation - general)\n- {精算|せいさん} (exact calculation, settlement)",
+  "notes": "FORMS:\n{試|し} (trial, test) + {算|さん} (calculation) → trial calculation\n\nCAN FUNCTION AS:\n- Noun: {試算|しさん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to conduct a trial calculation)\n- Suru-verb: {試算|しさん}⟦する→する：00392_suru⟧ (to make a trial calculation)\n\nCOMMON EXPRESSIONS:\n- {試算|しさん}{表|ひょう} (trial balance - accounting term)\n- {試算|しさん}⟦{結果|けっか}→結果：02486_kekka⟧ (results of trial calculation)\n- ～⟦と→と：00512_to⟧{試算|しさん}⟦される→する：00392_suru⟧ (to be estimated at ~)\n\nUSAGE:\nCommonly used in:\n- Government policy announcements\n- Business planning and budgeting\n- Financial analysis\n- Project feasibility studies\n\nRELATED WORDS:\n- ⟦{概算|がいさん}→概算：08312_gaisan⟧ (rough estimate)\n- ⟦{見積|みつも}り→見積り：04699_mitsumori⟧ (estimate, quotation)\n- ⟦{計算|けいさん}→計算：02697_keisan⟧ (calculation - general)\n- ⟦{精算|せいさん}→精算：10899_seisan⟧ (exact calculation, settlement)",
   "cross_references": [
     {
       "type": "contrast",
@@ -185,9 +185,10 @@
         "finance",
         "calculation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-25T23:18:05Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

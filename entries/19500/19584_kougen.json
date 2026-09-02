@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19584_kougen_ex1",
-      "japanese": "{彼|かれ}はそれを{公言|こうげん}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦それ→それ：00994_sore⟧⟦を→を：00422_wo⟧{公言|こうげん}⟦している→する：00392_suru⟧。",
       "english": "He openly declares that.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19584_kougen_ex2",
-      "japanese": "{自分|じぶん}の{意見|いけん}を{公言|こうげん}するのは{勇気|ゆうき}がいる。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{公言|こうげん}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{勇気|ゆうき}→勇気：02499_yuuki⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "It takes courage to state your opinion publicly.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19584_kougen_ex3",
-      "japanese": "{彼女|かのじょ}は{反対|はんたい}の{立場|たちば}を{公言|こうげん}してはばからなかった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦の→の：09472_no⟧⟦{立場|たちば}→立場：03403_tachiba⟧⟦を→を：00422_wo⟧{公言|こうげん}⟦して→する：00392_suru⟧はばからなかった。",
       "english": "She openly declared her opposition without hesitation.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A する noun composed of {公|こう} (public) and {言|げん} (speech, statement). Implies a deliberate, open declaration of something that might otherwise be kept private. Often used when someone boldly or proudly states their position.\n\nUSAGE:\nFrequently appears in the pattern {公言|こうげん}してはばからない (to declare openly without hesitation). Can carry either a positive nuance (frankness, honesty) or a negative one (brazenness), depending on context.\n\nCOMMON COLLOCATIONS:\n- {意見|いけん}を{公言|こうげん}する — to state one's opinion publicly\n- {立場|たちば}を{公言|こうげん}する — to declare one's position openly\n- {公言|こうげん}してはばからない — to declare without hesitation\n- {公言|こうげん}どおり — as publicly stated\n\nSIMILAR WORDS:\n- {宣言|せんげん} — declaration; more formal and official, often used for institutional or ceremonial declarations\n- {明言|めいげん} — clear statement; emphasizes clarity and definiteness rather than the public nature of the statement",
+  "notes": "A ⟦する→する：00392_suru⟧ noun composed of {公|こう} (public) and {言|げん} (speech, statement). Implies a deliberate, open declaration of something that might otherwise be kept private. Often used when someone boldly or proudly states their position.\n\nUSAGE:\nFrequently appears in the pattern {公言|こうげん}⟦して→する：00392_suru⟧はばからない (to declare openly without hesitation). Can carry either a positive nuance (frankness, honesty) or a negative one (brazenness), depending on context.\n\nCOMMON COLLOCATIONS:\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{公言|こうげん}⟦する→する：00392_suru⟧ — to state one's opinion publicly\n- ⟦{立場|たちば}→立場：03403_tachiba⟧⟦を→を：00422_wo⟧{公言|こうげん}⟦する→する：00392_suru⟧ — to declare one's position openly\n- {公言|こうげん}⟦して→する：00392_suru⟧はばからない — to declare without hesitation\n- {公言|こうげん}⟦どおり→どおり：09884_doori⟧ — as publicly stated\n\nSIMILAR WORDS:\n- ⟦{宣言|せんげん}→宣言：12284_sengen⟧ — declaration; more formal and official, often used for institutional or ceremonial declarations\n- ⟦{明言|めいげん}→明言：13050_meigen⟧ — clear statement; emphasizes clarity and definiteness rather than the public nature of the statement",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -178,9 +178,10 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T07:24:05Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21064_sanpu_ex1",
-      "japanese": "{農薬|のうやく}を{散布|さんぷ}した。",
+      "japanese": "⟦{農薬|のうやく}→農薬：04295_nouyaku⟧⟦を→を：00422_wo⟧{散布|さんぷ}⟦した→する：00392_suru⟧。",
       "english": "They sprayed pesticide.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21064_sanpu_ex2",
-      "japanese": "ヘリコプターで{除草剤|じょそうざい}を{散布|さんぷ}する。",
+      "japanese": "⟦ヘリコプター→ヘリコプター：05117_herikoputaa⟧⟦で→で：00502_de⟧⟦{除草剤|じょそうざい}→除草剤：24124_josouzai⟧⟦を→を：00422_wo⟧{散布|さんぷ}⟦する→する：00392_suru⟧。",
       "english": "They spray herbicide from a helicopter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21064_sanpu_ex3",
-      "japanese": "{冬|ふゆ}になると、{道路|どうろ}に{融雪剤|ゆうせつざい}が{散布|さんぷ}される。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{道路|どうろ}→道路：01481_douro⟧⟦に→に：00314_ni⟧{融雪剤|ゆうせつざい}⟦が→が：00051_ga⟧{散布|さんぷ}⟦される→する：00392_suru⟧。",
       "english": "In winter, de-icing agents are spread on roads.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Most commonly used in agricultural and environmental contexts for spraying or spreading substances. Used as a suru-verb ({散布|さんぷ}する).\n\nCOMMON COLLOCATIONS:\n- {農薬|のうやく}を{散布|さんぷ}する: to spray pesticide\n- {除草剤|じょそうざい}を{散布|さんぷ}する: to spray herbicide\n- {肥料|ひりょう}を{散布|さんぷ}する: to spread fertilizer\n- {散布|さんぷ}{作業|さぎょう}: spraying work\n- {空中|くうちゅう}{散布|さんぷ}: aerial spraying\n\nSIMILAR WORDS:\n- {噴霧|ふんむ}: misting, atomizing — finer spray, like a mist\n- {撒|ま}く: to scatter, to sprinkle — everyday verb for scattering anything\n- {散布|さんぷ}: formal/technical, specifically for systematic spraying or spreading",
+  "notes": "Most commonly used in agricultural and environmental contexts for spraying or spreading substances. Used as a suru-verb ({散布|さんぷ}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{農薬|のうやく}→農薬：04295_nouyaku⟧⟦を→を：00422_wo⟧{散布|さんぷ}⟦する→する：00392_suru⟧: to spray pesticide\n- ⟦{除草剤|じょそうざい}→除草剤：24124_josouzai⟧⟦を→を：00422_wo⟧{散布|さんぷ}⟦する→する：00392_suru⟧: to spray herbicide\n- ⟦{肥料|ひりょう}→肥料：06102_hiryou⟧⟦を→を：00422_wo⟧{散布|さんぷ}⟦する→する：00392_suru⟧: to spread fertilizer\n- {散布|さんぷ}⟦{作業|さぎょう}→作業：02775_sagyou⟧: spraying work\n- ⟦{空中|くうちゅう}→空中：21842_kuuchuu⟧{散布|さんぷ}: aerial spraying\n\nSIMILAR WORDS:\n- ⟦{噴霧|ふんむ}→噴霧：21104_funmu⟧: misting, atomizing — finer spray, like a mist\n- ⟦{撒|ま}く→撒く：12711_maku⟧: to scatter, to sprinkle — everyday verb for scattering anything\n- {散布|さんぷ}: formal/technical, specifically for systematic spraying or spreading",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,10 +88,11 @@
       "semantic": [
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T16:22:33Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

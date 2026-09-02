@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30475_rokusen_ex1",
-      "japanese": "{六千|ろくせん}{円|えん}{払|はら}った。",
+      "japanese": "{六千|ろくせん}⟦{円|えん}→円：00774_en⟧⟦{払|はら}った→払う：00535_harau⟧。",
       "english": "I paid six thousand yen.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30475_rokusen_ex2",
-      "japanese": "この{島|しま}には{六千|ろくせん}{人|にん}が{住|す}んでいる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{島|しま}→島：00885_shima⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{六千|ろくせん}⟦{人|にん}→〜人：00658_nin⟧⟦が→が：00051_ga⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "Six thousand people live on this island.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30475_rokusen_ex3",
-      "japanese": "{日本|にほん}には{六千|ろくせん}{以上|いじょう}の{島|しま}があると{言|い}われている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{六千|ろくせん}⟦{以上|いじょう}→以上：01308_ijou⟧⟦の→の：09472_no⟧⟦{島|しま}→島：00885_shima⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Japan is said to have more than six thousand islands.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed as {六|ろく} × {千|せん}. Note the contrast with the hundreds: {六百|ろっぴゃく} changes sound, but {六千|ろくせん} does not.\n\nSOUND CHANGES IN THE THOUSANDS:\n- {三千|さんぜん}: 3,000 — せん voices to ぜん\n- {八千|はっせん}: 8,000 — はち shortens to はっ\n- {一千|いっせん}: 1,000 — いち shortens to いっ\n- {四千|よんせん}, {五千|ごせん}, {六千|ろくせん}, {七千|ななせん}, {九千|きゅうせん}: regular\n\nCOMMON EXPRESSIONS:\n- {六千|ろくせん}{円|えん}: six thousand yen\n- {六千|ろくせん}{人|にん}: six thousand people\n- {六千|ろくせん}{年|ねん}{前|まえ}: six thousand years ago",
+  "notes": "Formed as ⟦{六|ろく}→六：00747_roku⟧ × ⟦{千|せん}→千：00809_sen⟧. Note the contrast with the hundreds: ⟦{六百|ろっぴゃく}→六百：30450_roppyaku⟧ changes sound, but {六千|ろくせん} does not.\n\nSOUND CHANGES IN THE THOUSANDS:\n- ⟦{三千|さんぜん}→三千：00985_sanzen⟧: 3,000 — せん voices to ぜん\n- ⟦{八千|はっせん}→八千：30471_hassen⟧: 8,000 — はち shortens to はっ\n- ⟦{一千|いっせん}→一千：30472_issen⟧: 1,000 — いち shortens to いっ\n- ⟦{四千|よんせん}→四千：30474_yonsen⟧, ⟦{五千|ごせん}→五千：30470_gosen⟧, {六千|ろくせん}, ⟦{七千|ななせん}→七千：30476_nanasen⟧, ⟦{九千|きゅうせん}→九千：30477_kyuusen⟧: regular\n\nCOMMON EXPRESSIONS:\n- {六千|ろくせん}⟦{円|えん}→円：00774_en⟧: six thousand yen\n- {六千|ろくせん}⟦{人|にん}→〜人：00658_nin⟧: six thousand people\n- {六千|ろくせん}⟦{年|ねん}→年：09876_nen⟧⟦{前|まえ}→前：02255_mae⟧: six thousand years ago",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +61,6 @@
       "domain": []
     },
     "created": "2026-08-07T18:18:04Z",
-    "modified": "2026-09-02T02:55:22Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

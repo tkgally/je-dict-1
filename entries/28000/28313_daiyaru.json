@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28313_daiyaru_ex1",
-      "japanese": "ダイヤルを{回|まわ}した。",
+      "japanese": "ダイヤル⟦を→を：00422_wo⟧⟦{回|まわ}した→回す：01158_mawasu⟧。",
       "english": "I turned the dial.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28313_daiyaru_ex2",
-      "japanese": "{番号|ばんごう}をダイヤルしてください。",
+      "japanese": "⟦{番号|ばんごう}→番号：02939_bangou⟧⟦を→を：00422_wo⟧ダイヤル⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please dial the number.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28313_daiyaru_ex3",
-      "japanese": "{昔|むかし}の{電話|でんわ}はダイヤルを{回|まわ}して{電話|でんわ}をかけた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦は→は：00079_ha⟧ダイヤル⟦を→を：00422_wo⟧⟦{回|まわ}して→回す：01158_mawasu⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "Old telephones were used by turning the dial to make calls.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "From English \"dial.\" Can be used as a noun for the physical control or with する as a verb meaning to dial a number.\n\nCOMMON COLLOCATIONS:\n- ダイヤルを{回|まわ}す: to turn the dial\n- ダイヤルする: to dial (a number)\n- ダイヤル{式|しき}{電話|でんわ}: rotary phone\n- {音量|おんりょう}のダイヤル: volume dial\n\nSIMILAR WORDS:\n- ボタン: button — press, not rotate\n- つまみ: knob — native term, often used for radio/oven controls",
+  "notes": "From English \"dial.\" Can be used as a noun for the physical control or with ⟦する→する：00392_suru⟧ as a verb meaning to dial a number.\n\nCOMMON COLLOCATIONS:\n- ダイヤル⟦を→を：00422_wo⟧⟦{回|まわ}す→回す：01158_mawasu⟧: to turn the dial\n- ダイヤル⟦する→する：00392_suru⟧: to dial (a number)\n- ダイヤル{式|しき}⟦{電話|でんわ}→電話：01471_denwa⟧: rotary phone\n- ⟦{音量|おんりょう}→音量：10009_onryou⟧⟦の→の：09472_no⟧ダイヤル: volume dial\n\nSIMILAR WORDS:\n- ⟦ボタン→ボタン：02963_botan⟧: button — press, not rotate\n- ⟦つまみ→つまみ：16139_tsumami⟧: knob — native term, often used for radio/oven controls",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -68,10 +68,11 @@
         "technology"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-29T02:09:47Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "suru",

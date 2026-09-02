@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29748_kashitsu_ex1",
-      "japanese": "{部屋|へや}を{加湿|かしつ}する。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{加湿|かしつ}⟦する→する：00392_suru⟧。",
       "english": "Humidify the room.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29748_kashitsu_ex2",
-      "japanese": "{冬|ふゆ}は{加湿|かしつ}が{大切|たいせつ}だ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{加湿|かしつ}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Humidification is important in winter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29748_kashitsu_ex3",
-      "japanese": "{乾燥|かんそう}する{季節|きせつ}には、{加湿器|かしつき}で{部屋|へや}を{加湿|かしつ}するとよい。",
+      "japanese": "⟦{乾燥|かんそう}→乾燥：00184_kansou⟧⟦する→する：00392_suru⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{加湿器|かしつき}→加湿器：06491_kashitsuki⟧⟦で→で：00502_de⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{加湿|かしつ}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧よい。",
       "english": "In the dry season, it is good to humidify the room with a humidifier.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{加|くわ}える (to add) + {湿|しめ}り (moisture). Raising the humidity of a space, usually for comfort and health in dry conditions.\n\nCOMMON COLLOCATIONS:\n- {加湿器|かしつき}: humidifier\n- {加湿|かしつ}{機能|きのう}: humidifying function\n- {部屋|へや}を{加湿|かしつ}する: to humidify a room\n\nSIMILAR WORDS:\n- {除湿|じょしつ}: dehumidification — the opposite; removing moisture from the air",
+  "notes": "⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to add) + {湿|しめ}り (moisture). Raising the humidity of a space, usually for comfort and health in dry conditions.\n\nCOMMON COLLOCATIONS:\n- ⟦{加湿器|かしつき}→加湿器：06491_kashitsuki⟧: humidifier\n- {加湿|かしつ}⟦{機能|きのう}→機能：13165_kinou⟧: humidifying function\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{加湿|かしつ}⟦する→する：00392_suru⟧: to humidify a room\n\nSIMILAR WORDS:\n- ⟦{除湿|じょしつ}→除湿：09623_joshitsu⟧: dehumidification — the opposite; removing moisture from the air",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "daily-life"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-10T12:26:59Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22993_fukayomisuru_ex1",
-      "japanese": "{深読|ふかよ}みしすぎだよ。",
+      "japanese": "{深読|ふかよ}みしすぎだ⟦よ→よ：09475_yo⟧。",
       "english": "You're reading too much into it.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22993_fukayomisuru_ex2",
-      "japanese": "{彼|かれ}のメールを{深読|ふかよ}みして、{不安|ふあん}になった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{深読|ふかよ}みして、⟦{不安|ふあん}→不安：00836_fuan⟧になった。",
       "english": "I overinterpreted his email and got anxious.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22993_fukayomisuru_ex3",
-      "japanese": "{相手|あいて}の{言葉|ことば}を{深読|ふかよ}みせずに、{素直|すなお}に{受|う}け{止|と}めたほうがいい。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧{深読|ふかよ}みせず⟦に→に：00314_ni⟧、⟦{素直|すなお}→素直：00391_sunao⟧⟦に→に：00314_ni⟧⟦{受|う}け{止|と}めた→受け止める：05756_uketomeru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "It's better to take the other person's words at face value rather than reading too much into them.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes the tendency to overanalyze words, actions, or situations and find meanings that were not intended. Very common in everyday conversation, especially about interpersonal communication.\n\nCOMMON COLLOCATIONS:\n- {深読|ふかよ}みしすぎる: to read way too much into something\n- {深読|ふかよ}みしすぎ: overthinking it (casual)\n- {言葉|ことば}を{深読|ふかよ}みする: to overinterpret someone's words\n- {深読|ふかよ}みは{禁物|きんもつ}: overthinking is counterproductive\n\nSIMILAR WORDS:\n- {考|かんが}えすぎる: to overthink — broader; covers worrying or analyzing too much about anything, not just interpreting meaning\n- {勘|かん}ぐる: to be suspicious, read motives into — implies suspicion about someone's intentions\n- {邪推|じゃすい}する: to be cynically suspicious — to assume the worst about someone's motives\n\nUSAGE:\nOften used self-referentially when someone realizes they have been overthinking ({深読|ふかよ}みしてたかも — 'Maybe I was reading too much into it').",
+  "notes": "Describes the tendency to overanalyze words, actions, or situations and find meanings that were not intended. Very common in everyday conversation, especially about interpersonal communication.\n\nCOMMON COLLOCATIONS:\n- {深読|ふかよ}みしすぎる: to read way too much into something\n- {深読|ふかよ}みしすぎ: overthinking it (casual)\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧{深読|ふかよ}みする: to overinterpret someone's words\n- ⟦{深読|ふかよ}み→深読み：13306_fukayomi⟧⟦は→は：00079_ha⟧⟦{禁物|きんもつ}→禁物：13738_kinmotsu⟧: overthinking is counterproductive\n\nSIMILAR WORDS:\n- ⟦{考|かんが}え→考える：00856_kangaeru⟧すぎる: to overthink — broader; covers worrying or analyzing too much about anything, not just interpreting meaning\n- {勘|かん}ぐる: to be suspicious, read motives into — implies suspicion about someone's intentions\n- {邪推|じゃすい}⟦する→する：00392_suru⟧: to be cynically suspicious — to assume the worst about someone's motives\n\nUSAGE:\nOften used self-referentially when someone realizes they have been overthinking ({深読|ふかよ}みしてた⟦か→か：09473_ka⟧⟦も→も：00484_mo⟧ — 'Maybe I was reading too much into it').",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -67,10 +67,11 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T15:33:08Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

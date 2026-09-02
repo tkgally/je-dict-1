@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12586_sokoage_ex1",
-      "japanese": "{全体|ぜんたい}の{学力|がくりょく}を{底上|そこあ}げする。",
+      "japanese": "⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧⟦{学力|がくりょく}→学力：08551_gakuryoku⟧⟦を→を：00422_wo⟧{底上|そこあ}げ⟦する→する：00392_suru⟧。",
       "english": "To raise the overall academic level.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12586_sokoage_ex2",
-      "japanese": "{研修|けんしゅう}でチームの{技術|ぎじゅつ}{力|りょく}を{底上|そこあ}げした。",
+      "japanese": "⟦{研修|けんしゅう}→研修：05322_kenshuu⟧⟦で→で：00502_de⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{力|りょく}⟦を→を：00422_wo⟧{底上|そこあ}げ⟦した→する：00392_suru⟧。",
       "english": "We boosted the team's technical skills through training.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12586_sokoage_ex3",
-      "japanese": "{賃金|ちんぎん}の{底上|そこあ}げは{経済|けいざい}{全体|ぜんたい}の{活性化|かっせいか}につながる。",
+      "japanese": "⟦{賃金|ちんぎん}→賃金：04842_chingin⟧⟦の→の：09472_no⟧{底上|そこあ}げ⟦は→は：00079_ha⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧⟦{活性化|かっせいか}→活性化：07563_kasseika⟧⟦に→に：00314_ni⟧つながる。",
       "english": "Raising the baseline of wages leads to the revitalization of the entire economy.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nEmphasizes lifting the bottom or minimum level, not the top. When a company does {底上|そこあ}げ of employee skills, it focuses on improving the weakest performers rather than making the best even better.\n\nCOMMON COLLOCATIONS:\n- {学力|がくりょく}の{底上|そこあ}げ: raising the academic baseline\n- {賃金|ちんぎん}の{底上|そこあ}げ: raising the wage floor\n- {技術|ぎじゅつ}{力|りょく}の{底上|そこあ}げ: boosting technical capabilities\n- {全体|ぜんたい}を{底上|そこあ}げする: to raise the overall level",
+  "notes": "USAGE:\nEmphasizes lifting the bottom or minimum level, not the top. When a company does {底上|そこあ}げ of employee skills, it focuses on improving the weakest performers rather than making the best even better.\n\nCOMMON COLLOCATIONS:\n- ⟦{学力|がくりょく}→学力：08551_gakuryoku⟧⟦の→の：09472_no⟧{底上|そこあ}げ: raising the academic baseline\n- ⟦{賃金|ちんぎん}→賃金：04842_chingin⟧⟦の→の：09472_no⟧{底上|そこあ}げ: raising the wage floor\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{力|りょく}⟦の→の：09472_no⟧{底上|そこあ}げ: boosting technical capabilities\n- ⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦を→を：00422_wo⟧{底上|そこあ}げ⟦する→する：00392_suru⟧: to raise the overall level",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-22T04:02:12Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20424_chougou_ex1",
-      "japanese": "{薬|くすり}を{調合|ちょうごう}する。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{調合|ちょうごう}⟦する→する：00392_suru⟧。",
       "english": "To compound medicine.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20424_chougou_ex2",
-      "japanese": "{色|いろ}を{調合|ちょうごう}して{好|す}みの{色合|いろあ}いを{作|つく}った。",
+      "japanese": "⟦{色|いろ}→色：00849_iro⟧⟦を→を：00422_wo⟧{調合|ちょうごう}⟦して→する：00392_suru⟧{好|す}み⟦の→の：09472_no⟧⟦{色合|いろあ}い→色合い：13950_iroai⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I mixed colors to create the shade I wanted.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20424_chougou_ex3",
-      "japanese": "{薬剤師|やくざいし}が{処方箋|しょほうせん}に{基|もと}づいて{薬|くすり}を{調合|ちょうごう}してくれた。",
+      "japanese": "⟦{薬剤師|やくざいし}→薬剤師：07030_yakuzaishi⟧⟦が→が：00051_ga⟧⟦{処方箋|しょほうせん}→処方箋：06496_shohousen⟧⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{調合|ちょうごう}⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The pharmacist compounded the medicine based on the prescription.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {調|ちょう} (regulate, adjust) + {合|ごう} (combine, mix). Originally a pharmaceutical term, now used broadly for any careful mixing of ingredients.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}を{調合|ちょうごう}する: to compound medicine\n- {色|いろ}を{調合|ちょうごう}する: to mix colors/paints\n- {調合|ちょうごう}{済|ず}み: pre-mixed, already compounded\n- {調合|ちょうごう}{比率|ひりつ}: mixing ratio\n\nMODERN USAGE:\nPopular in video game contexts, especially RPGs, where players {調合|ちょうごう} items (craft potions, mix ingredients). This has made the word familiar to younger generations through gaming.\n\nSIMILAR WORDS:\n- {配合|はいごう}: blending, formulation — emphasizes the proportions and recipe\n- {混合|こんごう}: mixing — more general, any combining of substances\n- {調剤|ちょうざい}: dispensing (medicine) — specifically pharmaceutical preparation",
+  "notes": "Composed of {調|ちょう} (regulate, adjust) + ⟦{合|ごう}→合：27628_gou⟧ (combine, mix). Originally a pharmaceutical term, now used broadly for any careful mixing of ingredients.\n\nCOMMON COLLOCATIONS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{調合|ちょうごう}⟦する→する：00392_suru⟧: to compound medicine\n- ⟦{色|いろ}→色：00849_iro⟧⟦を→を：00422_wo⟧{調合|ちょうごう}⟦する→する：00392_suru⟧: to mix colors/paints\n- {調合|ちょうごう}⟦{済|ず}み→〜済み：04013_zumi⟧: pre-mixed, already compounded\n- {調合|ちょうごう}⟦{比率|ひりつ}→比率：06727_hiritsu⟧: mixing ratio\n\nMODERN USAGE:\nPopular in video game contexts, especially RPGs, where players {調合|ちょうごう} items (craft potions, mix ingredients). This has made the word familiar to younger generations through gaming.\n\nSIMILAR WORDS:\n- ⟦{配合|はいごう}→配合：16196_haigou⟧: blending, formulation — emphasizes the proportions and recipe\n- ⟦{混合|こんごう}→混合：04154_kongou⟧: mixing — more general, any combining of substances\n- ⟦{調剤|ちょうざい}→調剤：18821_chouzai⟧: dispensing (medicine) — specifically pharmaceutical preparation",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,10 +89,11 @@
         "manufacturing",
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-29T13:05:15Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "conjugation": {
     "type": "suru",

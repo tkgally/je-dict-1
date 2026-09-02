@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "30327_nanpun_ex1",
-      "japanese": "{何分|なんぷん}かかりますか。",
+      "japanese": "{何分|なんぷん}⟦かかります→かかる：00711_kakaru⟧⟦か→か：09473_ka⟧。",
       "english": "How many minutes does it take?",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "30327_nanpun_ex2",
-      "japanese": "{駅|えき}まで{何分|なんぷん}くらいですか。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦まで→まで：00490_made⟧{何分|なんぷん}くらいです⟦か→か：09473_ka⟧。",
       "english": "About how many minutes is it to the station?",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "30327_nanpun_ex3",
-      "japanese": "{会議|かいぎ}が{始|はじ}まるまで、あと{何分|なんぷん}{残|のこ}っていますか。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧⟦まで→まで：00490_made⟧、あと{何分|なんぷん}⟦{残|のこ}っています→残る：01187_nokoru⟧⟦か→か：09473_ka⟧。",
       "english": "How many minutes are left until the meeting starts?",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "30327_nanpun_ex4",
-      "japanese": "{今|いま}、{何時|なんじ}{何分|なんぷん}ですか。",
+      "japanese": "⟦{今|いま}→今：00945_ima⟧、⟦{何時|なんじ}→何時：00973_nanji⟧{何分|なんぷん}です⟦か→か：09473_ka⟧。",
       "english": "What time is it now, to the minute?",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "30327_nanpun_ex5",
-      "japanese": "{出発|しゅっぱつ}は{九時|くじ}{何分|なんぷん}でしたか。",
+      "japanese": "⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧⟦は→は：00079_ha⟧⟦{九時|くじ}→九時：10980_kuji⟧{何分|なんぷん}でした⟦か→か：09473_ka⟧。",
       "english": "What was the departure time — nine what?",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "30327_nanpun_ex6",
-      "japanese": "{時計|とけい}が{見|み}えないので、{今|いま}{何時|なんじ}{何分|なんぷん}か{教|おし}えてください。",
+      "japanese": "⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧⟦{見|み}えない→見える：01165_mieru⟧⟦の→の：09472_no⟧で、⟦{今|いま}→今：00945_ima⟧⟦{何時|なんじ}→何時：00973_nanji⟧{何分|なんぷん}⟦か→か：09473_ka⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "I can't see the clock, so please tell me exactly what time it is.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "The interrogative {何|なん} plus the counter 〜{分|ふん} (minutes), which becomes ぷん after ん.\n\nCOMMON PATTERNS:\n- {何分|なんぷん}かかる: to take how many minutes\n- {何時|なんじ}{何分|なんぷん}: what time exactly (hour and minute)\n- {何分|なんぷん}{間|かん}: for how many minutes (duration, explicitly marked)\n- あと{何分|なんぷん}: how many minutes remain\n\nPRONUNCIATION:\nThe counter alternates between ふん and ぷん depending on the number: {一分|いっぷん}, {二分|にふん}, {三分|さんぷん}, {四分|よんぷん}, {五分|ごふん}. The interrogative always takes ぷん.\n\nSIMILAR WORDS:\n- {何分|なにぶん}: same kanji, different reading and meaning — \"anyway, given the circumstances\"",
+  "notes": "The interrogative ⟦{何|なん}→何〜：03100_nan⟧ plus the counter 〜⟦{分|ふん}→分：00928_fun⟧ (minutes), which becomes ぷん after ん.\n\nCOMMON PATTERNS:\n- {何分|なんぷん}⟦かかる→かかる：00711_kakaru⟧: to take how many minutes\n- ⟦{何時|なんじ}→何時：00973_nanji⟧{何分|なんぷん}: what time exactly (hour and minute)\n- {何分|なんぷん}{間|かん}: for how many minutes (duration, explicitly marked)\n- あと{何分|なんぷん}: how many minutes remain\n\nPRONUNCIATION:\nThe counter alternates between ふん and ぷん depending on the number: ⟦{一分|いっぷん}→一分：30314_ippun⟧, {二分|にふん}, {三分|さんぷん}, {四分|よんぷん}, ⟦{五分|ごふん}→五分：09573_gofun⟧. The interrogative always takes ぷん.\n\nSIMILAR WORDS:\n- {何分|なにぶん}: same kanji, different reading and meaning — \"anyway, given the circumstances\"",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -105,6 +105,6 @@
       "domain": []
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

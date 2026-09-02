@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22370_henseisuru_ex1",
-      "japanese": "チームを{編成|へんせい}する。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{編成|へんせい}する。",
       "english": "To form a team.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22370_henseisuru_ex2",
-      "japanese": "{予算|よさん}を{編成|へんせい}する{作業|さぎょう}が{始|はじ}まった。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{編成|へんせい}する⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The work of putting together the budget has begun.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22370_henseisuru_ex3",
-      "japanese": "{専門家|せんもんか}を{集|あつ}めて{調査|ちょうさ}{委員会|いいんかい}を{編成|へんせい}した。",
+      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦を→を：00422_wo⟧⟦{集|あつ}めて→集める：01170_atsumeru⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦{委員会|いいんかい}→委員会：12234_iinkai⟧⟦を→を：00422_wo⟧{編成|へんせい}した。",
       "english": "They gathered experts and formed an investigation committee.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes the deliberate assembly and arrangement of components into an organized whole. The resulting group has structure and purpose, not just a random collection.\n\nCOMMON COLLOCATIONS:\n- チームを{編成|へんせい}する: to form a team\n- {予算|よさん}を{編成|へんせい}する: to draw up a budget\n- {部隊|ぶたい}を{編成|へんせい}する: to organize a military unit\n- {番組|ばんぐみ}{編成|へんせい}: program scheduling (TV/radio)\n- {列車|れっしゃ}{編成|へんせい}: train composition/formation\n- {編成|へんせい}{替|が}え: reorganization\n\nSIMILAR WORDS:\n- {組織|そしき}する: to organize — broader, focuses on creating an organizational structure\n- {結成|けっせい}する: to form / to establish — for newly creating a group, party, or alliance\n- {構成|こうせい}する: to compose / to make up — focuses on what elements something consists of\n\nREGISTER:\nFormal. Standard in administrative, military, and media contexts. In casual speech, people more often say チームを{作|つく}る or グループを{組|く}む.",
+  "notes": "Emphasizes the deliberate assembly and arrangement of components into an organized whole. The resulting group has structure and purpose, not just a random collection.\n\nCOMMON COLLOCATIONS:\n- ⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{編成|へんせい}する: to form a team\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{編成|へんせい}する: to draw up a budget\n- ⟦{部隊|ぶたい}→部隊：28119_butai⟧⟦を→を：00422_wo⟧{編成|へんせい}する: to organize a military unit\n- ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦{編成|へんせい}→編成：20615_hensei⟧: program scheduling (TV/radio)\n- ⟦{列車|れっしゃ}→列車：01670_ressha⟧⟦{編成|へんせい}→編成：20615_hensei⟧: train composition/formation\n- ⟦{編成|へんせい}→編成：20615_hensei⟧{替|が}え: reorganization\n\nSIMILAR WORDS:\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦する→する：00392_suru⟧: to organize — broader, focuses on creating an organizational structure\n- ⟦{結成|けっせい}→結成：13809_kessei⟧⟦する→する：00392_suru⟧: to form / to establish — for newly creating a group, party, or alliance\n- ⟦{構成|こうせい}→構成：02729_kousei⟧⟦する→する：00392_suru⟧: to compose / to make up — focuses on what elements something consists of\n\nREGISTER:\nFormal. Standard in administrative, military, and media contexts. In casual speech, people more often say ⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ or ⟦グループ→グループ：03840_guruupu⟧⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -80,10 +80,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T20:08:14Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

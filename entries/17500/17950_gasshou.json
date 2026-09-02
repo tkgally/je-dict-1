@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17950_gasshou_ex1",
-      "japanese": "{仏前|ぶつぜん}で{合掌|がっしょう}した。",
+      "japanese": "⟦{仏前|ぶつぜん}→仏前：29524_butsuzen⟧⟦で→で：00502_de⟧{合掌|がっしょう}⟦した→する：00392_suru⟧。",
       "english": "I pressed my palms together in front of the Buddhist altar.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17950_gasshou_ex2",
-      "japanese": "「いただきます」と{言|い}って{合掌|がっしょう}してから{食|た}べ{始|はじ}めた。",
+      "japanese": "「⟦いただきます→いただく：01326_itadaku⟧」⟦と→と：00512_to⟧⟦{言|い}って→言う：00515_iu⟧{合掌|がっしょう}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{食|た}べ→食べる：00396_taberu⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I said 'itadakimasu,' pressed my palms together, and began eating.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17950_gasshou_ex3",
-      "japanese": "{彼女|かのじょ}は{合掌|がっしょう}して「お{願|ねが}い！」と{頼|たの}んできた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{合掌|がっしょう}⟦して→する：00392_suru⟧「⟦お{願|ねが}い→お願い：10299_onegai⟧！」⟦と→と：00512_to⟧⟦{頼|たの}んで→頼む：01104_tanomu⟧きた。",
       "english": "She pressed her palms together and begged, 'Please!'",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nIn Japan, {合掌|がっしょう} is seen in Buddhist prayer, before and after meals (with いただきます and ごちそうさま), and as a casual gesture when making a request or apology. It differs from the Western prayer gesture in that fingers are held straight and together.\n\nCOMMON COLLOCATIONS:\n- {合掌|がっしょう}する (press palms together)\n- {合掌|がっしょう}{礼拝|らいはい} (prayer and worship)\n- {合掌|がっしょう}{造|づく}り (gassho-style architecture — steep thatched roofs resembling pressed palms)\n\nUSAGE:\nDo not confuse with {合唱|がっしょう} (chorus, singing together), which is a homophone with a completely different meaning.",
+  "notes": "CULTURAL NOTE:\nIn Japan, {合掌|がっしょう} is seen in Buddhist prayer, before and after meals (with ⟦いただきます→いただく：01326_itadaku⟧ and ⟦ごちそうさま→ごちそうさま：00929_gochisousama⟧), and as a casual gesture when making a request or apology. It differs from the Western prayer gesture in that fingers are held straight and together.\n\nCOMMON COLLOCATIONS:\n- {合掌|がっしょう}⟦する→する：00392_suru⟧ (press palms together)\n- {合掌|がっしょう}{礼拝|らいはい} (prayer and worship)\n- {合掌|がっしょう}{造|づく}り (gassho-style architecture — steep thatched roofs resembling pressed palms)\n\nUSAGE:\nDo not confuse with ⟦{合唱|がっしょう}→合唱：04900_gasshou⟧ (chorus, singing together), which is a homophone with a completely different meaning.",
   "cross_references": [
     {
       "type": "homophone",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-19T09:57:51Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "action",
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12979_senshi_ex1",
-      "japanese": "{祖父|そふ}は{戦死|せんし}した。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{戦死|せんし}⟦した→する：00392_suru⟧。",
       "english": "My grandfather was killed in battle.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12979_senshi_ex2",
-      "japanese": "{多|おお}くの{兵士|へいし}が{戦死|せんし}した{戦場|せんじょう}を{訪|おとず}れた。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{兵士|へいし}→兵士：11680_heishi⟧⟦が→が：00051_ga⟧{戦死|せんし}⟦した→する：00392_suru⟧⟦{戦場|せんじょう}→戦場：12746_senjou⟧⟦を→を：00422_wo⟧⟦{訪|おとず}れた→訪れる：07678_otozureru⟧。",
       "english": "I visited the battlefield where many soldiers were killed in action.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12979_senshi_ex3",
-      "japanese": "{戦死|せんし}した{父|ちち}の{遺品|いひん}が{家族|かぞく}のもとに{届|とど}けられた。",
+      "japanese": "{戦死|せんし}⟦した→する：00392_suru⟧⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧{遺品|いひん}⟦が→が：00051_ga⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧もと⟦に→に：00314_ni⟧⟦{届|とど}けられた→届ける：01248_todokeru⟧。",
       "english": "The personal effects of my father, who died in battle, were delivered to the family.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed specifically for death in military combat. Not used for civilian casualties or deaths in peacetime. The suru verb form {戦死|せんし}する means \"to be killed in battle.\"\n\nCOMMON COLLOCATIONS:\n- {戦死|せんし}する: to die in battle\n- {戦死|せんし}した{兵士|へいし}: soldiers killed in action\n- {戦死|せんし}{者|しゃ}: war dead, those killed in battle\n\nSIMILAR WORDS:\n- {戦没|せんぼつ}: death in war (more formal, often used in memorial contexts)\n- {殉職|じゅんしょく}: death in the line of duty (not limited to military)",
+  "notes": "USAGE:\nUsed specifically for death in military combat. Not used for civilian casualties or deaths in peacetime. The suru verb form {戦死|せんし}⟦する→する：00392_suru⟧ means \"to be killed in battle.\"\n\nCOMMON COLLOCATIONS:\n- {戦死|せんし}⟦する→する：00392_suru⟧: to die in battle\n- {戦死|せんし}⟦した→する：00392_suru⟧⟦{兵士|へいし}→兵士：11680_heishi⟧: soldiers killed in action\n- {戦死|せんし}⟦{者|しゃ}→〜者：04662_sha⟧: war dead, those killed in battle\n\nSIMILAR WORDS:\n- {戦没|せんぼつ}: death in war (more formal, often used in memorial contexts)\n- {殉職|じゅんしょく}: death in the line of duty (not limited to military)",
   "cross_references": [
     {
       "type": "related",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-23T05:05:27Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
         "military",
         "existence"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

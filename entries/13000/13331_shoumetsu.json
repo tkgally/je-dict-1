@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13331_shoumetsu_ex1",
-      "japanese": "その{文明|ぶんめい}は{消滅|しょうめつ}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{文明|ぶんめい}→文明：03611_bunmei⟧⟦は→は：00079_ha⟧{消滅|しょうめつ}⟦した→する：00392_suru⟧。",
       "english": "That civilization disappeared.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13331_shoumetsu_ex2",
-      "japanese": "{多|おお}くの{言語|げんご}が{消滅|しょうめつ}の{危機|きき}にある。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{言語|げんご}→言語：02717_gengo⟧⟦が→が：00051_ga⟧{消滅|しょうめつ}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "Many languages are in danger of extinction.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13331_shoumetsu_ex3",
-      "japanese": "{時効|じこう}が{成立|せいりつ}すると、{請求権|せいきゅうけん}は{消滅|しょうめつ}する。",
+      "japanese": "{時効|じこう}⟦が→が：00051_ga⟧⟦{成立|せいりつ}する→成立する：25497_seiritsusuru⟧⟦と→と：00512_to⟧、{請求権|せいきゅうけん}⟦は→は：00079_ha⟧{消滅|しょうめつ}⟦する→する：00392_suru⟧。",
       "english": "When the statute of limitations is reached, the right to claim is extinguished.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word with a strong sense of finality — something ceasing to exist completely. More absolute than {消失|しょうしつ} (disappearance), which can imply something simply vanishing from view. {消滅|しょうめつ} implies permanent, irreversible disappearance.\n\nIn legal contexts, used for the termination or expiration of rights, contracts, or obligations.\n\nCOMMON COLLOCATIONS:\n- {消滅|しょうめつ}する: to become extinct, to disappear\n- {消滅|しょうめつ}の{危機|きき}: danger of extinction\n- {時効|じこう}{消滅|しょうめつ}: expiration by statute of limitations\n- {権利|けんり}が{消滅|しょうめつ}する: a right is extinguished",
+  "notes": "USAGE:\nA formal word with a strong sense of finality — something ceasing to exist completely. More absolute than ⟦{消失|しょうしつ}→消失：13351_shoushitsu⟧ (disappearance), which can imply something simply vanishing from view. {消滅|しょうめつ} implies permanent, irreversible disappearance.\n\nIn legal contexts, used for the termination or expiration of rights, contracts, or obligations.\n\nCOMMON COLLOCATIONS:\n- {消滅|しょうめつ}⟦する→する：00392_suru⟧: to become extinct, to disappear\n- {消滅|しょうめつ}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧: danger of extinction\n- {時効|じこう}{消滅|しょうめつ}: expiration by statute of limitations\n- ⟦{権利|けんり}→権利：02711_kenri⟧⟦が→が：00051_ga⟧{消滅|しょうめつ}⟦する→する：00392_suru⟧: a right is extinguished",
   "cross_references": [
     {
       "type": "related",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
         "change",
         "existence"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

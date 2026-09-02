@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10058_haretsu_ex1",
-      "japanese": "{水道|すいどう}パイプが{破裂|はれつ}した。",
+      "japanese": "⟦{水道|すいどう}→水道：01058_suidou⟧⟦パイプ→パイプ：00338_paipu⟧⟦が→が：00051_ga⟧{破裂|はれつ}⟦した→する：00392_suru⟧。",
       "english": "The water pipe burst.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "10058_haretsu_ex2",
-      "japanese": "{風船|ふうせん}が{破裂|はれつ}した。",
+      "japanese": "⟦{風船|ふうせん}→風船：14623_fuusen⟧⟦が→が：00051_ga⟧{破裂|はれつ}⟦した→する：00392_suru⟧。",
       "english": "The balloon burst.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "10058_haretsu_ex3",
-      "japanese": "タイヤが{破裂|はれつ}して{事故|じこ}になった。",
+      "japanese": "⟦タイヤ→タイヤ：06330_taiya⟧⟦が→が：00051_ga⟧{破裂|はれつ}⟦して→する：00392_suru⟧⟦{事故|じこ}→事故：00851_jiko⟧になった。",
       "english": "The tire burst and caused an accident.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{破裂|はれつ} describes a sudden, violent bursting or rupturing, typically of something under pressure. The kanji combine {破|は} (break) + {裂|れつ} (split, tear).\n\nCOMMON PATTERNS:\n- 〜が{破裂|はれつ}する: ~ bursts/ruptures\n- {破裂|はれつ}{音|おん}: bursting sound, popping sound\n- {破裂|はれつ}させる: to cause to burst (causative)\n\nTYPICAL SUBJECTS:\n- {風船|ふうせん}が{破裂|はれつ}する: a balloon bursts\n- パイプが{破裂|はれつ}する: a pipe bursts\n- タイヤが{破裂|はれつ}する: a tire blows out\n- {血管|けっかん}が{破裂|はれつ}する: a blood vessel ruptures (medical)\n\nSIMILAR WORDS:\n- {爆発|ばくはつ}: explosion (intentional or chemical reaction)\n- {破裂|はれつ}: burst/rupture (from internal pressure)\n- {崩壊|ほうかい}: collapse, disintegration (structural failure)",
+  "notes": "{破裂|はれつ} describes a sudden, violent bursting or rupturing, typically of something under pressure. The kanji combine {破|は} (break) + {裂|れつ} (split, tear).\n\nCOMMON PATTERNS:\n- 〜⟦が→が：00051_ga⟧{破裂|はれつ}⟦する→する：00392_suru⟧: ~ bursts/ruptures\n- {破裂|はれつ}{音|おん}: bursting sound, popping sound\n- {破裂|はれつ}⟦させる→する：00392_suru⟧: to cause to burst (causative)\n\nTYPICAL SUBJECTS:\n- ⟦{風船|ふうせん}→風船：14623_fuusen⟧⟦が→が：00051_ga⟧{破裂|はれつ}⟦する→する：00392_suru⟧: a balloon bursts\n- ⟦パイプ→パイプ：00338_paipu⟧⟦が→が：00051_ga⟧{破裂|はれつ}⟦する→する：00392_suru⟧: a pipe bursts\n- ⟦タイヤ→タイヤ：06330_taiya⟧⟦が→が：00051_ga⟧{破裂|はれつ}⟦する→する：00392_suru⟧: a tire blows out\n- ⟦{血管|けっかん}→血管：02742_kekkan⟧⟦が→が：00051_ga⟧{破裂|はれつ}⟦する→する：00392_suru⟧: a blood vessel ruptures (medical)\n\nSIMILAR WORDS:\n- ⟦{爆発|ばくはつ}→爆発：03575_bakuhatsu⟧: explosion (intentional or chemical reaction)\n- {破裂|はれつ}: burst/rupture (from internal pressure)\n- ⟦{崩壊|ほうかい}→崩壊：09067_houkai⟧: collapse, disintegration (structural failure)",
   "cross_references": [
     {
       "type": "contrast",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-02-05T02:14:44Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +165,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

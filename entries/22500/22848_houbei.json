@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22848_houbei_ex1",
-      "japanese": "{首相|しゅしょう}が{訪米|ほうべい}した。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦が→が：00051_ga⟧{訪米|ほうべい}⟦した→する：00392_suru⟧。",
       "english": "The prime minister visited the United States.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22848_houbei_ex2",
-      "japanese": "{訪米|ほうべい}{中|ちゅう}に{大統領|だいとうりょう}と{会談|かいだん}した。",
+      "japanese": "{訪米|ほうべい}⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦と→と：00512_to⟧⟦{会談|かいだん}→会談：11542_kaidan⟧⟦した→する：00392_suru⟧。",
       "english": "During the visit to the US, there was a meeting with the president.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22848_houbei_ex3",
-      "japanese": "{外務大臣|がいむだいじん}の{訪米|ほうべい}は{来月|らいげつ}に{予定|よてい}されている。",
+      "japanese": "{外務大臣|がいむだいじん}⟦の→の：09472_no⟧{訪米|ほうべい}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦に→に：00314_ni⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦されている→する：00392_suru⟧。",
       "english": "The foreign minister's visit to the US is scheduled for next month.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {訪|ほう} (visit) and {米|べい} (America, from {米国|べいこく}). This word formation pattern — {訪|ほう} + country abbreviation — is productive in Japanese news and diplomatic language.\n\nCOMMON COLLOCATIONS:\n- {訪米|ほうべい}する: to visit the US\n- {訪米|ほうべい}{中|ちゅう}: during a visit to the US\n- {訪米|ほうべい}{日程|にってい}: itinerary for a US visit\n\nRELATED PATTERN ({訪|ほう} + country):\n- {訪日|ほうにち}: visit to Japan\n- {訪中|ほうちゅう}: visit to China\n- {訪韓|ほうかん}: visit to South Korea\n- {訪英|ほうえい}: visit to the UK\n- {訪仏|ほうふつ}: visit to France\n- {訪独|ほうどく}: visit to Germany\n\nUSAGE:\nPrimarily used in news reporting and formal contexts to describe official or diplomatic visits. For casual travel, Japanese speakers would say アメリカに{行|い}く rather than {訪米|ほうべい}する.",
+  "notes": "A compound of {訪|ほう} (visit) and ⟦{米|べい}→米：28297_bei⟧ (America, from ⟦{米国|べいこく}→米国：19596_beikoku⟧). This word formation pattern — {訪|ほう} + country abbreviation — is productive in Japanese news and diplomatic language.\n\nCOMMON COLLOCATIONS:\n- {訪米|ほうべい}⟦する→する：00392_suru⟧: to visit the US\n- {訪米|ほうべい}⟦{中|ちゅう}→〜中：09840_chuu⟧: during a visit to the US\n- {訪米|ほうべい}⟦{日程|にってい}→日程：04289_nittei⟧: itinerary for a US visit\n\nRELATED PATTERN ({訪|ほう} + country):\n- ⟦{訪日|ほうにち}→訪日：14197_hounichi⟧: visit to Japan\n- {訪中|ほうちゅう}: visit to China\n- {訪韓|ほうかん}: visit to South Korea\n- {訪英|ほうえい}: visit to the UK\n- {訪仏|ほうふつ}: visit to France\n- {訪独|ほうどく}: visit to Germany\n\nUSAGE:\nPrimarily used in news reporting and formal contexts to describe official or diplomatic visits. For casual travel, Japanese speakers would say ⟦アメリカ→アメリカ：01769_amerika⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ rather than {訪米|ほうべい}⟦する→する：00392_suru⟧.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
         "politics",
         "travel"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-07T18:24:01Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

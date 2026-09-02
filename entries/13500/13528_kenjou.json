@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13528_kenjou_ex1",
-      "japanese": "{天皇|てんのう}に{献上|けんじょう}する。",
+      "japanese": "⟦{天皇|てんのう}→天皇：04546_tennou⟧⟦に→に：00314_ni⟧{献上|けんじょう}⟦する→する：00392_suru⟧。",
       "english": "To present an offering to the Emperor.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13528_kenjou_ex2",
-      "japanese": "{地元|じもと}の{特産品|とくさんひん}が{皇室|こうしつ}に{献上|けんじょう}された。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{特産品|とくさんひん}→特産品：13483_tokusanhin⟧⟦が→が：00051_ga⟧⟦{皇室|こうしつ}→皇室：11339_koushitsu⟧⟦に→に：00314_ni⟧{献上|けんじょう}⟦された→する：00392_suru⟧。",
       "english": "Local specialties were presented to the Imperial Family.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13528_kenjou_ex3",
-      "japanese": "この{茶園|ちゃえん}の{抹茶|まっちゃ}は{江戸時代|えどじだい}から{将軍|しょうぐん}に{献上|けんじょう}されていた{由緒|ゆいしょ}ある{品|しな}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{茶園|ちゃえん}⟦の→の：09472_no⟧⟦{抹茶|まっちゃ}→抹茶：10574_maccha⟧⟦は→は：00079_ha⟧⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧⟦から→から：00504_kara⟧⟦{将軍|しょうぐん}→将軍：12386_shougun⟧⟦に→に：00314_ni⟧{献上|けんじょう}⟦されていた→する：00392_suru⟧⟦{由緒|ゆいしょ}→由緒：13567_yuisho⟧⟦ある→ある：00006_aru⟧⟦{品|しな}→品：03192_shina⟧だ。",
       "english": "The matcha from this tea garden is a distinguished product that has been presented to the shogun since the Edo period.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word used when presenting something to a person of very high status, particularly the Emperor, the Imperial Family, or (historically) the shogun. In modern usage, it also appears in marketing to indicate premium quality — products labeled {献上|けんじょう}{品|ひん} suggest they are of a caliber worthy of being presented to royalty.\n\nCOMMON PATTERNS:\n- ～に{献上|けんじょう}する: to present to ~\n- {献上|けんじょう}される: to be presented (passive, often used in descriptions)\n- {献上|けんじょう}{品|ひん}: a tribute gift, an offering\n\nCOMMON COLLOCATIONS:\n- {献上|けんじょう}{品|ひん}: tribute gift, offering\n- {献上|けんじょう}{米|まい}: rice presented to the Emperor\n- ～に{献上|けんじょう}する: to present to ~",
+  "notes": "USAGE:\nA formal word used when presenting something to a person of very high status, particularly the Emperor, the Imperial Family, or (historically) the shogun. In modern usage, it also appears in marketing to indicate premium quality — products labeled {献上|けんじょう}⟦{品|ひん}→品：03712_hin⟧ suggest they are of a caliber worthy of being presented to royalty.\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧{献上|けんじょう}⟦する→する：00392_suru⟧: to present to ~\n- {献上|けんじょう}⟦される→する：00392_suru⟧: to be presented (passive, often used in descriptions)\n- {献上|けんじょう}⟦{品|ひん}→品：03712_hin⟧: a tribute gift, an offering\n\nCOMMON COLLOCATIONS:\n- {献上|けんじょう}⟦{品|ひん}→品：03712_hin⟧: tribute gift, offering\n- {献上|けんじょう}{米|まい}: rice presented to the Emperor\n- ～⟦に→に：00314_ni⟧{献上|けんじょう}⟦する→する：00392_suru⟧: to present to ~",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-25T13:59:08Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

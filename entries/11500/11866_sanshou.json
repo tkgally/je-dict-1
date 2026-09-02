@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11866_sanshou_ex1",
-      "japanese": "{詳|くわ}しくは{下記|かき}を{参照|さんしょう}してください。",
+      "japanese": "⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧⟦は→は：00079_ha⟧⟦{下記|かき}→下記：11376_kaki⟧⟦を→を：00422_wo⟧{参照|さんしょう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please refer to the information below for details.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11866_sanshou_ex2",
-      "japanese": "{資料|しりょう}を{参照|さんしょう}しながらレポートを{書|か}いた。",
+      "japanese": "⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{参照|さんしょう}し⟦ながら→ながら：10530_nagara⟧⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote the report while consulting the reference materials.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11866_sanshou_ex3",
-      "japanese": "{添付|てんぷ}ファイルをご{参照|さんしょう}ください。",
+      "japanese": "⟦{添付|てんぷ}ファイル→添付ファイル：24475_tenpufairu⟧⟦を→を：00422_wo⟧ご{参照|さんしょう}⟦ください→ください：02899_kudasai⟧。",
       "english": "Please see the attached file.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Also functions as a する verb ({参照|さんしょう}する). Very common in business emails, academic writing, technical documentation, and manuals. Often seen in parenthetical directions such as （{下記|かき}{参照|さんしょう}）meaning '(see below).'\n\nCOMMON COLLOCATIONS:\n- {参照|さんしょう}してください — please refer to\n- ご{参照|さんしょう}ください — please see (polite)\n- {資料|しりょう}を{参照|さんしょう}する — to consult materials\n- {参照|さんしょう}{先|さき} — reference destination/source\n\nSIMILAR WORDS:\n- {参考|さんこう} — reference, for one's information (broader, more casual)\n- {閲覧|えつらん} — viewing, browsing (formal, for documents)",
+  "notes": "Also functions as a ⟦する→する：00392_suru⟧ verb ({参照|さんしょう}⟦する→する：00392_suru⟧). Very common in business emails, academic writing, technical documentation, and manuals. Often seen in parenthetical directions such as （⟦{下記|かき}→下記：11376_kaki⟧{参照|さんしょう}）meaning '(see below).'\n\nCOMMON COLLOCATIONS:\n- {参照|さんしょう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧ — please refer to\n- ご{参照|さんしょう}⟦ください→ください：02899_kudasai⟧ — please see (polite)\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{参照|さんしょう}⟦する→する：00392_suru⟧ — to consult materials\n- {参照|さんしょう}{先|さき} — reference destination/source\n\nSIMILAR WORDS:\n- ⟦{参考|さんこう}→参考：02828_sankou⟧ — reference, for one's information (broader, more casual)\n- ⟦{閲覧|えつらん}→閲覧：17691_etsuran⟧ — viewing, browsing (formal, for documents)",
   "cross_references": [
     {
       "type": "contrast",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-18T13:42:33Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -183,7 +183,8 @@
         "business",
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

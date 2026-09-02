@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19612_hitsudoku_ex1",
-      "japanese": "この{本|ほん}は{必読|ひつどく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧{必読|ひつどく}だ。",
       "english": "This book is a must-read.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19612_hitsudoku_ex2",
-      "japanese": "{日本|にほん}の{歴史|れきし}に{興味|きょうみ}がある{人|ひと}には{必読|ひつどく}の{一冊|いっさつ}です。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦に→に：00314_ni⟧⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{必読|ひつどく}⟦の→の：09472_no⟧⟦{一冊|いっさつ}→一冊：23149_issatsu⟧です。",
       "english": "It's a must-read for anyone interested in Japanese history.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19612_hitsudoku_ex3",
-      "japanese": "{新入|しんにゅう}{社員|しゃいん}には、まずこの{社内|しゃない}マニュアルを{必読|ひつどく}{書|しょ}として{配|くば}っている。",
+      "japanese": "⟦{新入|しんにゅう}{社員|しゃいん}→新入社員：15536_shinnyuushain⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦まず→まず：00796_mazu⟧⟦この→この：00962_kono⟧⟦{社内|しゃない}→社内：13731_shanai⟧⟦マニュアル→マニュアル：26993_manyuaru⟧⟦を→を：00422_wo⟧{必読|ひつどく}{書|しょ}⟦として→として：06802_toshite⟧⟦{配|くば}っている→配る：03921_kubaru⟧。",
       "english": "We distribute this internal manual to new employees as required reading.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines {必|ひつ} (must/necessarily) and {読|どく} (read), literally meaning \"must read.\" Functions primarily as a noun modifier, often appearing before {書|しょ} (book) or {本|ほん}.\n\nCOMMON COLLOCATIONS:\n- {必読|ひつどく}{書|しょ}: must-read book\n- {必読|ひつどく}の{一冊|いっさつ}: a must-read volume\n- {必読|ひつどく}{文献|ぶんけん}: required reading (academic)\n- {必読|ひつどく}リスト: required reading list\n\nCOMPOUNDS:\nThe {必|ひつ}〜 pattern appears in many similar compounds meaning \"must-X\":\n- {必見|ひっけん}: must-see\n- {必修|ひっしゅう}: required (course/subject)\n- {必携|ひっけい}: must-have; indispensable\n\nSIMILAR WORDS:\n- {推薦|すいせん}{図書|としょ}: recommended book — a suggestion rather than a strong imperative\n- {課題|かだい}{図書|としょ}: assigned reading — specifically assigned by a teacher or institution, not a general recommendation",
+  "notes": "Combines {必|ひつ} (must/necessarily) and {読|どく} (read), literally meaning \"must read.\" Functions primarily as a noun modifier, often appearing before ⟦{書|しょ}→〜書：28467_sho⟧ (book) or {本|ほん}.\n\nCOMMON COLLOCATIONS:\n- {必読|ひつどく}{書|しょ}: must-read book\n- {必読|ひつどく}⟦の→の：09472_no⟧⟦{一冊|いっさつ}→一冊：23149_issatsu⟧: a must-read volume\n- {必読|ひつどく}⟦{文献|ぶんけん}→文献：12885_bunken⟧: required reading (academic)\n- {必読|ひつどく}⟦リスト→リスト：09786_risuto⟧: required reading list\n\nCOMPOUNDS:\nThe {必|ひつ}〜 pattern appears in many similar compounds meaning \"must-X\":\n- {必見|ひっけん}: must-see\n- ⟦{必修|ひっしゅう}→必修：08641_hisshuu⟧: required (course/subject)\n- {必携|ひっけい}: must-have; indispensable\n\nSIMILAR WORDS:\n- ⟦{推薦|すいせん}→推薦：03358_suisen⟧⟦{図書|としょ}→図書：03459_tosho⟧: recommended book — a suggestion rather than a strong imperative\n- ⟦{課題|かだい}→課題：00132_kadai⟧⟦{図書|としょ}→図書：03459_tosho⟧: assigned reading — specifically assigned by a teacher or institution, not a general recommendation",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +60,6 @@
       ]
     },
     "created": "2026-03-26T08:31:46Z",
-    "modified": "2026-09-02T02:55:10Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

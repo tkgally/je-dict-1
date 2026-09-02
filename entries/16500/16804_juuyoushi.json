@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16804_juuyoushi_ex1",
-      "japanese": "この{会社|かいしゃ}は{安全|あんぜん}を{重要視|じゅうようし}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧{重要視|じゅうようし}⟦している→する：00392_suru⟧。",
       "english": "This company places great importance on safety.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16804_juuyoushi_ex2",
-      "japanese": "{教育|きょういく}を{重要視|じゅうようし}する{国|くに}は{経済|けいざい}も{発展|はってん}しやすい。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦を→を：00422_wo⟧{重要視|じゅうようし}⟦する→する：00392_suru⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦も→も：00484_mo⟧⟦{発展|はってん}→発展：03561_hatten⟧しやすい。",
       "english": "Countries that prioritize education tend to develop economically as well.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16804_juuyoushi_ex3",
-      "japanese": "{近年|きんねん}、ワークライフバランスが{重要視|じゅうようし}されるようになってきた。",
+      "japanese": "⟦{近年|きんねん}→近年：14349_kinnen⟧、⟦ワークライフバランス→ワークライフバランス：07111_waakuraifubaransu⟧⟦が→が：00051_ga⟧{重要視|じゅうようし}⟦される→する：00392_suru⟧ようになってきた。",
       "english": "In recent years, work-life balance has come to be regarded as important.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {重要|じゅうよう} (important) + {視|し} (to regard/view). The passive form {重要視|じゅうようし}される (to be regarded as important) is very common.\n\nCOMMON COLLOCATIONS:\n- {重要視|じゅうようし}する (to regard as important)\n- {重要視|じゅうようし}される (to be regarded as important)\n- {重要視|じゅうようし}されている (is considered important)\n\nSIMILAR WORDS:\n- {重視|じゅうし}する: to emphasize, to value — shorter and more common synonym\n- {大切|たいせつ}にする: to value, to cherish — more everyday/casual",
+  "notes": "USAGE:\nA compound of ⟦{重要|じゅうよう}→重要：01575_juuyou⟧ (important) + {視|し} (to regard/view). The passive form {重要視|じゅうようし}⟦される→する：00392_suru⟧ (to be regarded as important) is very common.\n\nCOMMON COLLOCATIONS:\n- {重要視|じゅうようし}⟦する→する：00392_suru⟧ (to regard as important)\n- {重要視|じゅうようし}⟦される→する：00392_suru⟧ (to be regarded as important)\n- {重要視|じゅうようし}⟦されている→する：00392_suru⟧ (is considered important)\n\nSIMILAR WORDS:\n- ⟦{重視|じゅうし}する→重視する：26832_juushisuru⟧: to emphasize, to value — shorter and more common synonym\n- ⟦{大切|たいせつ}にする→大切にする：26940_taisetsunisuru⟧: to value, to cherish — more everyday/casual",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
         "evaluation",
         "attitude"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

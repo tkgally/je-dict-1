@@ -15,40 +15,51 @@
   "examples": [
     {
       "id": "22321_baken_ex1",
-      "japanese": "{馬券|ばけん}を{買|か}う。",
+      "japanese": "{馬券|ばけん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy a horse racing ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22321_baken_ex2",
-      "japanese": "{馬券|ばけん}が{当|あ}たって{大喜|おおよろこ}びした。",
+      "japanese": "{馬券|ばけん}⟦が→が：00051_ga⟧⟦{当|あ}たって→当たる：01860_ataru⟧⟦{大喜|おおよろこ}び→大喜び：28880_ooyorokobi⟧⟦した→する：00392_suru⟧。",
       "english": "I was overjoyed when my racing bet won.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22321_baken_ex3",
-      "japanese": "{父|ちち}は{毎週|まいしゅう}{日曜日|にちようび}に{競馬場|けいばじょう}に{行|い}って{馬券|ばけん}を{買|か}うのが{楽|たの}しみだ。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧⟦に→に：00314_ni⟧{競馬場|けいばじょう}⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧{馬券|ばけん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だ。",
       "english": "My father's weekly pleasure is going to the racetrack on Sundays to buy betting tickets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {馬|ば} (horse) + {券|けん} (ticket/voucher). Formally called {勝馬投票券|かちうまとうひょうけん} (winning horse voting ticket). Horse racing ({競馬|けいば}) is one of the major forms of legalized gambling in Japan, along with bicycle racing, boat racing, and motorcycle racing.\n\nCOMMON COLLOCATIONS:\n- {馬券|ばけん}を{買|か}う: to buy a racing ticket\n- {馬券|ばけん}が{当|あ}たる: to win on a racing bet\n- {馬券|ばけん}を{外|はず}す: to lose a racing bet\n- {馬券|ばけん}{売|う}り{場|ば}: ticket-selling area at a racetrack\n\nTYPES OF BETS:\n- {単勝|たんしょう}: win (picking the first-place horse)\n- {複勝|ふくしょう}: place (picking a top-three horse)\n- {馬連|うまれん}: quinella (picking first and second in any order)\n- {三連単|さんれんたん}: trifecta (first, second, third in exact order)\n\nCULTURAL NOTE:\nHorse racing is regulated by the JRA ({日本|にほん}{中央|ちゅうおう}{競馬会|けいばかい}) and local governments. {馬券|ばけん} can be purchased at racetracks, off-track betting facilities, and online.",
+  "notes": "Composed of {馬|ば} (horse) + ⟦{券|けん}→券：02150_ken⟧ (ticket/voucher). Formally called {勝馬投票券|かちうまとうひょうけん} (winning horse voting ticket). Horse racing (⟦{競馬|けいば}→競馬：00207_keiba⟧) is one of the major forms of legalized gambling in Japan, along with bicycle racing, boat racing, and motorcycle racing.\n\nCOMMON COLLOCATIONS:\n- {馬券|ばけん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a racing ticket\n- {馬券|ばけん}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧: to win on a racing bet\n- {馬券|ばけん}⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to lose a racing bet\n- {馬券|ばけん}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧: ticket-selling area at a racetrack\n\nTYPES OF BETS:\n- {単勝|たんしょう}: win (picking the first-place horse)\n- {複勝|ふくしょう}: place (picking a top-three horse)\n- {馬連|うまれん}: quinella (picking first and second in any order)\n- {三連単|さんれんたん}: trifecta (first, second, third in exact order)\n\nCULTURAL NOTE:\nHorse racing is regulated by the JRA (⟦{日本|にほん}→日本：03876_nihon⟧⟦{中央|ちゅうおう}→中央：03475_chuuou⟧{競馬会|けいばかい}) and local governments. {馬券|ばけん} can be purchased at racetracks, off-track betting facilities, and online.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure", "culture"]
+      "semantic": [
+        "leisure",
+        "culture"
+      ]
     },
     "created": "2026-04-05T18:27:48Z",
-    "modified": "2026-04-05T18:27:48Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

@@ -115,7 +115,7 @@
   "examples": [
     {
       "id": "14437_you_ex1",
-      "japanese": "ビールを{三杯|さんばい}{飲|の}んで{酔|よ}った。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧{三杯|さんばい}⟦{飲|の}んで→飲む：00322_nomu⟧{酔|よ}った。",
       "english": "I got drunk after three beers.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14437_you_ex2",
-      "japanese": "{彼|かれ}は{酔|よ}うと{陽気|ようき}になる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{酔|よ}う⟦と→と：00512_to⟧⟦{陽気|ようき}→陽気：03657_youki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "He becomes cheerful when he gets drunk.",
       "notes": null,
       "has_audio": false,
@@ -135,7 +135,7 @@
     },
     {
       "id": "14437_you_ex3",
-      "japanese": "お{酒|さけ}に{酔|よ}って、{終電|しゅうでん}を{逃|のが}してしまった。",
+      "japanese": "⟦お{酒|さけ}→お酒：01045_osake⟧⟦に→に：00314_ni⟧{酔|よ}って、⟦{終電|しゅうでん}→終電：05296_shuuden⟧⟦を→を：00422_wo⟧⟦{逃|のが}して→逃す：04611_nogasu⟧しまった。",
       "english": "I got drunk and missed the last train.",
       "notes": null,
       "has_audio": false,
@@ -145,7 +145,7 @@
     },
     {
       "id": "14437_you_ex4",
-      "japanese": "{車|くるま}に{酔|よ}った。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦に→に：00314_ni⟧{酔|よ}った。",
       "english": "I got carsick.",
       "notes": null,
       "has_audio": false,
@@ -155,7 +155,7 @@
     },
     {
       "id": "14437_you_ex5",
-      "japanese": "{船|ふね}に{酔|よ}いやすい{人|ひと}は{薬|くすり}を{飲|の}んでおいたほうがいい。",
+      "japanese": "⟦{船|ふね}→船：00775_fune⟧⟦に→に：00314_ni⟧{酔|よ}いやすい⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}んで→飲む：00322_nomu⟧おいた⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "People who get seasick easily should take medicine beforehand.",
       "notes": null,
       "has_audio": false,
@@ -165,7 +165,7 @@
     },
     {
       "id": "14437_you_ex6",
-      "japanese": "{長時間|ちょうじかん}のバスで{酔|よ}って{気持|きも}ち{悪|わる}くなった。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦の→の：09472_no⟧⟦バス→バス：00769_basu⟧⟦で→で：00502_de⟧{酔|よ}って⟦{気持|きも}ち{悪|わる}く→気持ち悪い：07154_kimochiwarui⟧⟦なった→なる：01970_naru⟧。",
       "english": "I got motion sick and felt nauseous from the long bus ride.",
       "notes": null,
       "has_audio": false,
@@ -175,7 +175,7 @@
     },
     {
       "id": "14437_you_ex7",
-      "japanese": "{美|うつく}しい{音楽|おんがく}に{酔|よ}った。",
+      "japanese": "⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦に→に：00314_ni⟧{酔|よ}った。",
       "english": "I was entranced by the beautiful music.",
       "notes": null,
       "has_audio": false,
@@ -185,7 +185,7 @@
     },
     {
       "id": "14437_you_ex8",
-      "japanese": "{勝利|しょうり}に{酔|よ}いしれて{油断|ゆだん}してはいけない。",
+      "japanese": "⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦に→に：00314_ni⟧{酔|よ}いしれて⟦{油断|ゆだん}して→油断する：25389_yudansuru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not let your guard down by getting intoxicated with victory.",
       "notes": null,
       "has_audio": false,
@@ -195,7 +195,7 @@
     },
     {
       "id": "14437_you_ex9",
-      "japanese": "{自分|じぶん}の{言葉|ことば}に{酔|よ}っている{人|ひと}は{信用|しんよう}できない。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧{酔|よ}って⟦いる→いる：00495_iru⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{信用|しんよう}できない→信用する：25371_shinyousuru⟧。",
       "english": "You can't trust people who are intoxicated by their own words.",
       "notes": null,
       "has_audio": false,
@@ -204,7 +204,7 @@
       ]
     }
   ],
-  "notes": "Godan verb. Conjugates as {酔|よ}う・{酔|よ}って・{酔|よ}った. The particle に marks the cause of intoxication or motion sickness.\n\nCOMMON COLLOCATIONS:\n- お{酒|さけ}に{酔|よ}う (to get drunk on alcohol)\n- {車|くるま}に{酔|よ}う (to get carsick)\n- {船|ふね}に{酔|よ}う (to get seasick)\n- ～に{酔|よ}いしれる (to be intoxicated/entranced by ~)\n- {酔|よ}いが{回|まわ}る (the alcohol goes to one's head)\n- {酔|よ}いが{覚|さ}める (to sober up)\n\nThe te-form {酔|よ}って is often used as an adjective meaning \"drunk.\" The related noun {酔|よ}い means \"drunkenness\" or \"intoxication.\" For motion sickness, ～{酔|よ}い forms compounds: {車酔|くるまよ}い (carsickness), {船酔|ふなよ}い (seasickness).",
+  "notes": "Godan verb. Conjugates as {酔|よ}う・{酔|よ}って・{酔|よ}った. The particle ⟦に→に：00314_ni⟧ marks the cause of intoxication or motion sickness.\n\nCOMMON COLLOCATIONS:\n- ⟦お{酒|さけ}→お酒：01045_osake⟧⟦に→に：00314_ni⟧{酔|よ}う (to get drunk on alcohol)\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦に→に：00314_ni⟧{酔|よ}う (to get carsick)\n- ⟦{船|ふね}→船：00775_fune⟧⟦に→に：00314_ni⟧{酔|よ}う (to get seasick)\n- ～⟦に→に：00314_ni⟧{酔|よ}いしれる (to be intoxicated/entranced by ~)\n- {酔|よ}い⟦が→が：00051_ga⟧⟦{回|まわ}る→回る：01150_mawaru⟧ (the alcohol goes to one's head)\n- {酔|よ}い⟦が→が：00051_ga⟧⟦{覚|さ}める→覚める：02058_sameru⟧ (to sober up)\n\nThe te-form {酔|よ}って is often used as an adjective meaning \"drunk.\" The related noun {酔|よ}い means \"drunkenness\" or \"intoxication.\" For motion sickness, ～{酔|よ}い forms compounds: ⟦{車酔|くるまよ}い→車酔い：14733_kurumayoi⟧ (carsickness), ⟦{船酔|ふなよ}い→船酔い：30619_funayoi⟧ (seasickness).",
   "cross_references": [
     {
       "type": "related",
@@ -237,7 +237,7 @@
   ],
   "metadata": {
     "created": "2026-03-01T09:35:11Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25487_riseki_ex1",
-      "japanese": "ただいま{離席|りせき}しております。",
+      "japanese": "⟦ただいま→ただいま：01062_tadaima⟧{離席|りせき}⟦して→する：00392_suru⟧⟦おります→おる：01324_oru⟧。",
       "english": "I am currently away from my desk.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25487_riseki_ex2",
-      "japanese": "{会議中|かいぎちゅう}に{離席|りせき}するのは{失礼|しつれい}だ。",
+      "japanese": "⟦{会議中|かいぎちゅう}→会議中：16781_kaigichuu⟧⟦に→に：00314_ni⟧{離席|りせき}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{失礼|しつれい}→失礼：01247_shitsurei⟧だ。",
       "english": "It is rude to leave your seat during a meeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25487_riseki_ex3",
-      "japanese": "{電話|でんわ}をいただいたのですが、{担当者|たんとうしゃ}が{離席|りせき}しておりますので、{折|お}り{返|かえ}しご{連絡|れんらく}いたします。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧⟦いただいた→いただく：01326_itadaku⟧⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧、⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦が→が：00051_ga⟧{離席|りせき}⟦して→する：00392_suru⟧⟦おります→おる：01324_oru⟧⟦の→の：09472_no⟧で、⟦{折|お}り{返|かえ}し→折り返す：21024_orikaesu⟧ご⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "We received your call, but the person in charge is away from their desk, so we will call you back.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {離|り} (to leave; to separate) and {席|せき} (seat). Very commonly used in Japanese office culture, especially when answering phone calls for someone who has stepped away. Also appears as a status indicator in chat applications and online meeting tools.\n\nCOMMON COLLOCATIONS:\n- {離席|りせき}する: to leave one's seat; to step away\n- {離席|りせき}している: to be away from one's desk\n- {離席|りせき}{中|ちゅう}: away (status indicator)\n- {一時|いちじ}{離席|りせき}: stepping away briefly\n\nSIMILAR WORDS:\n- {席|せき}を{外|はず}す: to step away from one's seat — the more colloquial equivalent, used in everyday speech\n- {不在|ふざい}: absence — broader term; being away from the office entirely, not just from one's desk\n- {着席|ちゃくせき}: taking one's seat — the opposite action, sitting down",
+  "notes": "A compound of {離|り} (to leave; to separate) and ⟦{席|せき}→席：02215_seki⟧ (seat). Very commonly used in Japanese office culture, especially when answering phone calls for someone who has stepped away. Also appears as a status indicator in chat applications and online meeting tools.\n\nCOMMON COLLOCATIONS:\n- {離席|りせき}⟦する→する：00392_suru⟧: to leave one's seat; to step away\n- {離席|りせき}⟦している→する：00392_suru⟧: to be away from one's desk\n- {離席|りせき}{中|ちゅう}: away (status indicator)\n- ⟦{一時|いちじ}→一時：01799_ichiji⟧{離席|りせき}: stepping away briefly\n\nSIMILAR WORDS:\n- ⟦{席|せき}を{外|はず}す→席を外す：25832_sekiwohazusu⟧: to step away from one's seat — the more colloquial equivalent, used in everyday speech\n- ⟦{不在|ふざい}→不在：11302_fuzai⟧: absence — broader term; being away from the office entirely, not just from one's desk\n- ⟦{着席|ちゃくせき}→着席：18472_chakuseki⟧: taking one's seat — the opposite action, sitting down",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
         "business",
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-25T14:21:03Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25500_yogensuru_ex1",
-      "japanese": "{彼|かれ}はこの{結果|けっか}を{予言|よげん}していた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{予言|よげん}して⟦いた→いる：00495_iru⟧。",
       "english": "He had predicted this outcome.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25500_yogensuru_ex2",
-      "japanese": "{科学者|かがくしゃ}が{地震|じしん}の{発生|はっせい}を{予言|よげん}した。",
+      "japanese": "⟦{科学者|かがくしゃ}→科学者：19378_kagakusha⟧⟦が→が：00051_ga⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧⟦{発生|はっせい}→発生：03133_hassei⟧⟦を→を：00422_wo⟧{予言|よげん}した。",
       "english": "A scientist predicted the occurrence of the earthquake.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25500_yogensuru_ex3",
-      "japanese": "{古|ふる}い{書物|しょもつ}にはこの{時代|じだい}の{混乱|こんらん}を{予言|よげん}するような{記述|きじゅつ}がある。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{書物|しょもつ}→書物：03683_shomotsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧⟦{混乱|こんらん}→混乱：02811_konran⟧⟦を→を：00422_wo⟧{予言|よげん}するような⟦{記述|きじゅつ}→記述：05819_kijutsu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In old texts, there are passages that seem to prophesy the turmoil of this era.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {予言|よげん} (prophecy; prediction) + する. Carries a stronger, more dramatic nuance than simple prediction — often implies foresight, prophetic vision, or an uncanny ability to see the future. Frequently used in contexts involving religious prophecy, science fiction, and dramatic claims about the future.\n\nCOMMON COLLOCATIONS:\n- {未来|みらい}を{予言|よげん}する: to prophesy the future\n- {予言|よげん}が{当|あ}たる: a prophecy comes true\n- {予言|よげん}が{外|はず}れる: a prophecy fails to come true\n- {予言者|よげんしゃ}: prophet; seer\n- {予言|よげん}の{書|しょ}: book of prophecy\n\nSIMILAR WORDS:\n- {予測|よそく}する: to predict; to forecast — more scientific and data-based, neutral in tone\n- {予想|よそう}する: to expect; to anticipate — the most common everyday word for predicting outcomes\n- {預言|よげん}する: to deliver a prophecy — same pronunciation but specifically religious prophecy (biblical context); {予言|よげん} is the general term",
+  "notes": "Composed of ⟦{予言|よげん}→予言：20803_yogen⟧ (prophecy; prediction) + ⟦する→する：00392_suru⟧. Carries a stronger, more dramatic nuance than simple prediction — often implies foresight, prophetic vision, or an uncanny ability to see the future. Frequently used in contexts involving religious prophecy, science fiction, and dramatic claims about the future.\n\nCOMMON COLLOCATIONS:\n- ⟦{未来|みらい}→未来：03748_mirai⟧⟦を→を：00422_wo⟧{予言|よげん}する: to prophesy the future\n- ⟦{予言|よげん}→予言：20803_yogen⟧⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧: a prophecy comes true\n- ⟦{予言|よげん}→予言：20803_yogen⟧⟦が→が：00051_ga⟧⟦{外|はず}れる→外れる：02395_hazureru⟧: a prophecy fails to come true\n- {予言者|よげんしゃ}: prophet; seer\n- ⟦{予言|よげん}→予言：20803_yogen⟧⟦の→の：09472_no⟧⟦{書|しょ}→〜書：28467_sho⟧: book of prophecy\n\nSIMILAR WORDS:\n- ⟦{予測|よそく}する→予測する：19654_yosokusuru⟧: to predict; to forecast — more scientific and data-based, neutral in tone\n- ⟦{予想|よそう}する→予想する：06064_yosousuru⟧: to expect; to anticipate — the most common everyday word for predicting outcomes\n- {預言|よげん}⟦する→する：00392_suru⟧: to deliver a prophecy — same pronunciation but specifically religious prophecy (biblical context); ⟦{予言|よげん}→予言：20803_yogen⟧ is the general term",
   "cross_references": [
     {
       "type": "contrast",
@@ -81,10 +81,11 @@
         "communication",
         "religion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-25T15:12:31Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

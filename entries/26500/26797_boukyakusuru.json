@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26797_boukyakusuru_ex1",
-      "japanese": "{過去|かこ}を{忘却|ぼうきゃく}する。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦を→を：00422_wo⟧{忘却|ぼうきゃく}する。",
       "english": "To forget the past completely.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26797_boukyakusuru_ex2",
-      "japanese": "{戦争|せんそう}の{悲惨|ひさん}さを{忘却|ぼうきゃく}してはならない。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧⟦{悲惨|ひさん}→悲惨：12633_hisan⟧さ⟦を→を：00422_wo⟧{忘却|ぼうきゃく}して⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "We must not forget the horrors of war.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26797_boukyakusuru_ex3",
-      "japanese": "{時間|じかん}の{経過|けいか}とともに、あの{出来事|できごと}は{人々|ひとびと}の{記憶|きおく}から{忘却|ぼうきゃく}されていった。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧⟦{経過|けいか}→経過：05578_keika⟧⟦とともに→とともに：30485_totomoni⟧、⟦あの→あの：00915_ano⟧⟦{出来事|できごと}→出来事：03446_dekigoto⟧⟦は→は：00079_ha⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦の→の：09472_no⟧⟦{記憶|きおく}→記憶：00234_kioku⟧⟦から→から：00504_kara⟧{忘却|ぼうきゃく}されていった。",
       "english": "With the passage of time, that event faded from people's memories.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A literary and formal word for forgetting. Much more elevated in register than {忘|わす}れる. Often used in philosophical, historical, or emotional contexts where the act of forgetting carries weight or significance.\n\nCOMMON COLLOCATIONS:\n- {忘却|ぼうきゃく}の{彼方|かなた}に: beyond the realm of memory; into oblivion\n- {記憶|きおく}から{忘却|ぼうきゃく}される: to be forgotten from memory\n- {歴史|れきし}の{忘却|ぼうきゃく}: the forgetting of history\n- {忘却|ぼうきゃく}{曲線|きょくせん}: forgetting curve (psychology)\n\nSIMILAR WORDS:\n- {忘|わす}れる: to forget — the standard everyday word\n- {失念|しつねん}する: to slip one's mind — polite/formal; used to apologize for forgetting\n- {風化|ふうか}する: to weather away; to fade from memory — implies gradual loss through neglect",
+  "notes": "A literary and formal word for forgetting. Much more elevated in register than ⟦{忘|わす}れる→忘れる：00474_wasureru⟧. Often used in philosophical, historical, or emotional contexts where the act of forgetting carries weight or significance.\n\nCOMMON COLLOCATIONS:\n- ⟦{忘却|ぼうきゃく}→忘却：19281_boukyaku⟧⟦の→の：09472_no⟧{彼方|かなた}⟦に→に：00314_ni⟧: beyond the realm of memory; into oblivion\n- ⟦{記憶|きおく}→記憶：00234_kioku⟧⟦から→から：00504_kara⟧{忘却|ぼうきゃく}される: to be forgotten from memory\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{忘却|ぼうきゃく}→忘却：19281_boukyaku⟧: the forgetting of history\n- ⟦{忘却|ぼうきゃく}→忘却：19281_boukyaku⟧⟦{曲線|きょくせん}→曲線：05441_kyokusen⟧: forgetting curve (psychology)\n\nSIMILAR WORDS:\n- ⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget — the standard everyday word\n- ⟦{失念|しつねん}→失念：16319_shitsunen⟧⟦する→する：00392_suru⟧: to slip one's mind — polite/formal; used to apologize for forgetting\n- ⟦{風化|ふうか}→風化：17583_fuuka⟧⟦する→する：00392_suru⟧: to weather away; to fade from memory — implies gradual loss through neglect",
   "cross_references": [
     {
       "type": "contrast",
@@ -81,10 +81,11 @@
         "cognition"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T11:11:06Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

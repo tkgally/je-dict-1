@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10579_bengo_ex1",
-      "japanese": "{彼|かれ}を{弁護|べんご}する。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦を→を：00422_wo⟧{弁護|べんご}⟦する→する：00392_suru⟧。",
       "english": "To defend him.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10579_bengo_ex2",
-      "japanese": "{弁護士|べんごし}が{被告|ひこく}を{弁護|べんご}した。",
+      "japanese": "⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦が→が：00051_ga⟧⟦{被告|ひこく}→被告：11080_hikoku⟧⟦を→を：00422_wo⟧{弁護|べんご}⟦した→する：00392_suru⟧。",
       "english": "The lawyer defended the defendant.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10579_bengo_ex3",
-      "japanese": "{友達|ともだち}が{批判|ひはん}されたとき、{誰|だれ}も{弁護|べんご}してくれなかった。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦された→する：00392_suru⟧とき、⟦{誰|だれ}も→誰も：18610_daremo⟧{弁護|べんご}⟦して→する：00392_suru⟧⟦くれなかった→くれる：00724_kureru⟧。",
       "english": "When my friend was criticized, nobody came to their defense.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a する verb: {弁護|べんご}する (to defend, to advocate for). Can refer to legal defense or everyday defense of someone's character or actions.\n\nCOMMON COLLOCATIONS:\n- {弁護|べんご}する: to defend, to advocate for\n- {弁護士|べんごし}: lawyer, attorney\n- {弁護|べんご}{団|だん}: defense team\n- {弁護|べんご}{側|がわ}: the defense (side)\n- {国選|こくせん}{弁護人|べんごにん}: court-appointed defense attorney\n\nRELATED WORDS:\n{弁護士|べんごし} (lawyer) is one of the most commonly known compounds using this word.",
+  "notes": "USAGE:\nUsed as a ⟦する→する：00392_suru⟧ verb: {弁護|べんご}⟦する→する：00392_suru⟧ (to defend, to advocate for). Can refer to legal defense or everyday defense of someone's character or actions.\n\nCOMMON COLLOCATIONS:\n- {弁護|べんご}⟦する→する：00392_suru⟧: to defend, to advocate for\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧: lawyer, attorney\n- {弁護|べんご}{団|だん}: defense team\n- {弁護|べんご}⟦{側|がわ}→〜側：03090_gawa⟧: the defense (side)\n- {国選|こくせん}{弁護人|べんごにん}: court-appointed defense attorney\n\nRELATED WORDS:\n⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧ (lawyer) is one of the most commonly known compounds using this word.",
   "cross_references": [
     {
       "type": "related",
@@ -159,7 +159,7 @@
   ],
   "metadata": {
     "created": "2026-02-08T05:27:45Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -175,7 +175,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

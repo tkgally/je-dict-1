@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19585_miayamaru_ex1",
-      "japanese": "{状況|じょうきょう}を{見誤|みあやま}った。",
+      "japanese": "⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{見誤|みあやま}った。",
       "english": "I misjudged the situation.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19585_miayamaru_ex2",
-      "japanese": "{相手|あいて}の{実力|じつりょく}を{見誤|みあやま}ってはいけない。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦を→を：00422_wo⟧{見誤|みあやま}って⟦は→は：00079_ha⟧いけない。",
       "english": "You must not misjudge your opponent's ability.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19585_miayamaru_ex3",
-      "japanese": "タイミングを{見誤|みあやま}ったせいで、{大|おお}きなチャンスを{逃|のが}してしまった。",
+      "japanese": "⟦タイミング→タイミング：17683_taimingu⟧⟦を→を：00422_wo⟧{見誤|みあやま}ったせい⟦で→で：00502_de⟧、⟦{大|おお}きな→大きな：02849_ookina⟧⟦チャンス→チャンス：03857_chansu⟧⟦を→を：00422_wo⟧⟦{逃|のが}して→逃す：04611_nogasu⟧しまった。",
       "english": "Because I misread the timing, I missed a great opportunity.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound godan verb formed from {見|み} (to see, to judge) + {誤|あやま}る (to err). Describes an error in perception or judgment rather than a visual mistake. Common in discussions of strategy, business decisions, and interpersonal assessment.\n\nCOMMON COLLOCATIONS:\n- {状況|じょうきょう}を{見誤|みあやま}る — to misjudge the situation\n- {時期|じき}を{見誤|みあやま}る — to misjudge the timing\n- {相手|あいて}を{見誤|みあやま}る — to misjudge one's opponent\n- {方向性|ほうこうせい}を{見誤|みあやま}る — to misjudge the direction\n\nSIMILAR WORDS:\n- {見間違|みまちが}える — to mistake one thing for another visually; a concrete visual error, while {見誤|みあやま}る is about judgment\n- {読|よ}み{間違|まちが}える — to misread; refers to misreading text, while {見誤|みあやま}る refers to misjudging a situation",
+  "notes": "A compound godan verb formed from ⟦{見|み}→見る：00283_miru⟧ (to see, to judge) + ⟦{誤|あやま}る→誤る：27433_ayamaru⟧ (to err). Describes an error in perception or judgment rather than a visual mistake. Common in discussions of strategy, business decisions, and interpersonal assessment.\n\nCOMMON COLLOCATIONS:\n- ⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{見誤|みあやま}る — to misjudge the situation\n- ⟦{時期|じき}→時期：03269_jiki⟧⟦を→を：00422_wo⟧{見誤|みあやま}る — to misjudge the timing\n- ⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{見誤|みあやま}る — to misjudge one's opponent\n- ⟦{方向性|ほうこうせい}→方向性：28189_houkousei⟧⟦を→を：00422_wo⟧{見誤|みあやま}る — to misjudge the direction\n\nSIMILAR WORDS:\n- ⟦{見間違|みまちが}える→見間違える：21106_mimachigaeru⟧ — to mistake one thing for another visually; a concrete visual error, while {見誤|みあやま}る is about judgment\n- ⟦{読|よ}み→読む：00426_yomu⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧ — to misread; refers to misreading text, while {見誤|みあやま}る refers to misjudging a situation",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -156,9 +156,10 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T07:24:25Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25032_kounyuuyoyaku_ex1",
-      "japanese": "{新作|しんさく}ゲームを{購入予約|こうにゅうよやく}した。",
+      "japanese": "⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦を→を：00422_wo⟧{購入予約|こうにゅうよやく}⟦した→する：00392_suru⟧。",
       "english": "I pre-ordered the new game.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25032_kounyuuyoyaku_ex2",
-      "japanese": "{購入予約|こうにゅうよやく}は{公式|こうしき}サイトから{受|う}け{付|つ}けています。",
+      "japanese": "{購入予約|こうにゅうよやく}⟦は→は：00079_ha⟧⟦{公式|こうしき}→公式：04167_koushiki⟧⟦サイト→サイト：05603_saito⟧⟦から→から：00504_kara⟧⟦{受|う}け{付|つ}けています→受け付ける：05683_uketsukeru⟧。",
       "english": "Pre-orders are accepted through the official website.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25032_kounyuuyoyaku_ex3",
-      "japanese": "{限定版|げんていばん}は{購入予約|こうにゅうよやく}しないと{手|て}に{入|はい}らないかもしれない。",
+      "japanese": "⟦{限定版|げんていばん}→限定版：17391_genteiban⟧⟦は→は：00079_ha⟧{購入予約|こうにゅうよやく}⟦しない→する：00392_suru⟧⟦と→と：00512_to⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|はい}らない→入る：00494_hairu⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "You might not be able to get the limited edition unless you pre-order it.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {購入|こうにゅう} (purchase) + {予約|よやく} (reservation). Used in both online and physical retail contexts. In Japan, pre-ordering is common for manga, video games, concert merchandise, and seasonal items like {福袋|ふくぶくろ} (lucky bags).\n\nCOMMON COLLOCATIONS:\n- {購入予約|こうにゅうよやく}する: pre-order\n- {購入予約|こうにゅうよやく}を{受|う}け{付|つ}ける: accept pre-orders\n- {購入予約|こうにゅうよやく}{特典|とくてん}: pre-order bonus\n- {購入予約|こうにゅうよやく}を{取|と}り{消|け}す: cancel a pre-order\n\nSIMILAR WORDS:\n- {予約|よやく}: reservation; booking — broader term that includes restaurant and hotel reservations\n- {先行予約|せんこうよやく}: advance reservation — priority pre-ordering, often for fans or members\n- {取|と}り{置|お}き: holding; setting aside — reserving an existing item at a store",
+  "notes": "Composed of ⟦{購入|こうにゅう}→購入：03057_kounyuu⟧ (purchase) + ⟦{予約|よやく}→予約：01522_yoyaku⟧ (reservation). Used in both online and physical retail contexts. In Japan, pre-ordering is common for manga, video games, concert merchandise, and seasonal items like ⟦{福袋|ふくぶくろ}→福袋：08159_fukubukuro⟧ (lucky bags).\n\nCOMMON COLLOCATIONS:\n- {購入予約|こうにゅうよやく}⟦する→する：00392_suru⟧: pre-order\n- {購入予約|こうにゅうよやく}⟦を→を：00422_wo⟧⟦{受|う}け{付|つ}ける→受け付ける：05683_uketsukeru⟧: accept pre-orders\n- {購入予約|こうにゅうよやく}⟦{特典|とくてん}→特典：13469_tokuten⟧: pre-order bonus\n- {購入予約|こうにゅうよやく}⟦を→を：00422_wo⟧⟦{取|と}り{消|け}す→取り消す：04224_torikesu⟧: cancel a pre-order\n\nSIMILAR WORDS:\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧: reservation; booking — broader term that includes restaurant and hotel reservations\n- ⟦{先行予約|せんこうよやく}→先行予約：17983_senkouyoyaku⟧: advance reservation — priority pre-ordering, often for fans or members\n- {取|と}り{置|お}き: holding; setting aside — reserving an existing item at a store",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "shopping",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-22T11:27:53Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

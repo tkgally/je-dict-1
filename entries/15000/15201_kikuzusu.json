@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15201_kikuzusu_ex1",
-      "japanese": "ネクタイを{緩|ゆる}めて{着崩|きくず}す。",
+      "japanese": "⟦ネクタイ→ネクタイ：01040_nekutai⟧⟦を→を：00422_wo⟧⟦{緩|ゆる}めて→緩める：15263_yurumeru⟧{着崩|きくず}す。",
       "english": "I loosen my tie and wear my clothes more casually.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15201_kikuzusu_ex2",
-      "japanese": "{制服|せいふく}を{着崩|きくず}している{生徒|せいと}が{多|おお}い。",
+      "japanese": "⟦{制服|せいふく}→制服：03086_seifuku⟧⟦を→を：00422_wo⟧{着崩|きくず}して⟦いる→いる：00495_iru⟧⟦{生徒|せいと}→生徒：01051_seito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many students wear their uniforms in a sloppy way.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15201_kikuzusu_ex3",
-      "japanese": "スーツを{上手|じょうず}に{着崩|きくず}すのがおしゃれだと{言|い}われている。",
+      "japanese": "⟦スーツ→スーツ：01367_suutsu⟧⟦を→を：00422_wo⟧⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧{着崩|きくず}す⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦おしゃれ→おしゃれ：02515_oshare⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It's said that wearing a suit in a stylishly relaxed way is fashionable.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{着崩|きくず}す can carry either a positive nuance (fashionably relaxed) or a negative one (sloppy, disheveled) depending on context. When describing fashion-conscious adults, it often implies deliberate stylish casualness. When describing students or uniformed workers, it often implies rule-breaking sloppiness.\n\nCOMMON COLLOCATIONS:\n- {制服|せいふく}を{着崩|きくず}す (to wear a uniform sloppily)\n- スーツを{着崩|きくず}す (to wear a suit in a relaxed style)\n- おしゃれに{着崩|きくず}す (to dress down stylishly)",
+  "notes": "USAGE:\n{着崩|きくず}す can carry either a positive nuance (fashionably relaxed) or a negative one (sloppy, disheveled) depending on context. When describing fashion-conscious adults, it often implies deliberate stylish casualness. When describing students or uniformed workers, it often implies rule-breaking sloppiness.\n\nCOMMON COLLOCATIONS:\n- ⟦{制服|せいふく}→制服：03086_seifuku⟧⟦を→を：00422_wo⟧{着崩|きくず}す (to wear a uniform sloppily)\n- ⟦スーツ→スーツ：01367_suutsu⟧⟦を→を：00422_wo⟧{着崩|きくず}す (to wear a suit in a relaxed style)\n- ⟦おしゃれ→おしゃれ：02515_oshare⟧⟦に→に：00314_ni⟧{着崩|きくず}す (to dress down stylishly)",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-05T09:33:43Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,7 +158,8 @@
       "semantic": [
         "clothing"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12825_houki_ex1",
-      "japanese": "{権利|けんり}を{放棄|ほうき}する。",
+      "japanese": "⟦{権利|けんり}→権利：02711_kenri⟧⟦を→を：00422_wo⟧{放棄|ほうき}⟦する→する：00392_suru⟧。",
       "english": "To renounce a right.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12825_houki_ex2",
-      "japanese": "{途中|とちゅう}で{試合|しあい}を{放棄|ほうき}した。",
+      "japanese": "⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧{放棄|ほうき}⟦した→する：00392_suru⟧。",
       "english": "They forfeited the match midway.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12825_houki_ex3",
-      "japanese": "{日本国|にほんこく}{憲法|けんぽう}は{戦争|せんそう}の{放棄|ほうき}を{定|さだ}めている。",
+      "japanese": "{日本国|にほんこく}⟦{憲法|けんぽう}→憲法：02744_kenpou⟧⟦は→は：00079_ha⟧⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{放棄|ほうき}⟦を→を：00422_wo⟧⟦{定|さだ}めている→定める：10448_sadameru⟧。",
       "english": "The Japanese constitution stipulates the renunciation of war.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{放棄|ほうき} is a formal word commonly used in legal, political, and official contexts. It implies a deliberate, often irreversible decision to give something up. The most famous usage is in Article 9 of the Japanese Constitution: {戦争|せんそう}の{放棄|ほうき} (renunciation of war).\n\nCOMMON COLLOCATIONS:\n- {権利|けんり}を{放棄|ほうき}する: to renounce a right\n- {戦争|せんそう}{放棄|ほうき}: renunciation of war\n- {責任|せきにん}{放棄|ほうき}: abandonment of responsibility\n- {試合|しあい}{放棄|ほうき}: forfeiture of a match\n- {相続|そうぞく}{放棄|ほうき}: renunciation of inheritance",
+  "notes": "USAGE:\n{放棄|ほうき} is a formal word commonly used in legal, political, and official contexts. It implies a deliberate, often irreversible decision to give something up. The most famous usage is in Article 9 of the Japanese Constitution: ⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{放棄|ほうき} (renunciation of war).\n\nCOMMON COLLOCATIONS:\n- ⟦{権利|けんり}→権利：02711_kenri⟧⟦を→を：00422_wo⟧{放棄|ほうき}⟦する→する：00392_suru⟧: to renounce a right\n- ⟦{戦争|せんそう}→戦争：01450_sensou⟧{放棄|ほうき}: renunciation of war\n- ⟦{責任|せきにん}→責任：03298_sekinin⟧{放棄|ほうき}: abandonment of responsibility\n- ⟦{試合|しあい}→試合：01601_shiai⟧{放棄|ほうき}: forfeiture of a match\n- ⟦{相続|そうぞく}→相続：03690_souzoku⟧{放棄|ほうき}: renunciation of inheritance",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T11:11:49Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +183,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

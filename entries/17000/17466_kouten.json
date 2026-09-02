@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17466_kouten_ex1",
-      "japanese": "{病状|びょうじょう}が{好転|こうてん}した。",
+      "japanese": "⟦{病状|びょうじょう}→病状：21011_byoujou⟧⟦が→が：00051_ga⟧{好転|こうてん}⟦した→する：00392_suru⟧。",
       "english": "The patient's condition improved.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17466_kouten_ex2",
-      "japanese": "{景気|けいき}が{好転|こうてん}する{兆|きざ}しが{見|み}えてきた。",
+      "japanese": "⟦{景気|けいき}→景気：02694_keiki⟧⟦が→が：00051_ga⟧{好転|こうてん}⟦する→する：00392_suru⟧⟦{兆|きざ}し→兆し：06633_kizashi⟧⟦が→が：00051_ga⟧⟦{見|み}えて→見える：01165_mieru⟧きた。",
       "english": "Signs that the economy is taking a turn for the better have become visible.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17466_kouten_ex3",
-      "japanese": "{交渉|こうしょう}が{難航|なんこう}していたが、{新|あたら}しい{担当者|たんとうしゃ}に{変|か}わってから{状況|じょうきょう}が{好転|こうてん}した。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧⟦{難航|なんこう}していた→難航する：19360_nankousuru⟧⟦が→が：00051_ga⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦に→に：00314_ni⟧⟦{変|か}わって→変わる：00714_kawaru⟧⟦から→から：00504_kara⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦が→が：00051_ga⟧{好転|こうてん}⟦した→する：00392_suru⟧。",
       "english": "The negotiations were stalled, but after a new person took over, the situation improved.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in somewhat formal contexts — news, business, and medical reports. Implies a meaningful, noticeable improvement in a previously bad situation.\n\nCOMMON COLLOCATIONS:\n- {状況|じょうきょう}が{好転|こうてん}する (the situation improves)\n- {病状|びょうじょう}が{好転|こうてん}する (the condition improves)\n- {景気|けいき}が{好転|こうてん}する (the economy improves)\n- {好転|こうてん}の{兆|きざ}し (signs of improvement)\n\nSIMILAR WORDS:\n- {改善|かいぜん}: improvement — implies active effort to make things better\n- {回復|かいふく}: recovery — returning to a previous good state\n- {悪化|あっか}: deterioration — the opposite of {好転|こうてん}",
+  "notes": "USAGE:\nUsed in somewhat formal contexts — news, business, and medical reports. Implies a meaningful, noticeable improvement in a previously bad situation.\n\nCOMMON COLLOCATIONS:\n- ⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦が→が：00051_ga⟧{好転|こうてん}⟦する→する：00392_suru⟧ (the situation improves)\n- ⟦{病状|びょうじょう}→病状：21011_byoujou⟧⟦が→が：00051_ga⟧{好転|こうてん}⟦する→する：00392_suru⟧ (the condition improves)\n- ⟦{景気|けいき}→景気：02694_keiki⟧⟦が→が：00051_ga⟧{好転|こうてん}⟦する→する：00392_suru⟧ (the economy improves)\n- {好転|こうてん}⟦の→の：09472_no⟧⟦{兆|きざ}し→兆し：06633_kizashi⟧ (signs of improvement)\n\nSIMILAR WORDS:\n- ⟦{改善|かいぜん}→改善：00144_kaizen⟧: improvement — implies active effort to make things better\n- ⟦{回復|かいふく}→回復：03812_kaifuku⟧: recovery — returning to a previous good state\n- ⟦{悪化|あっか}→悪化：11077_akka⟧: deterioration — the opposite of {好転|こうてん}",
   "prominent_see_also": [
     {
       "target_id": "16432_kouten",
@@ -168,7 +168,7 @@
   ],
   "metadata": {
     "created": "2026-03-18T02:07:38Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

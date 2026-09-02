@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30018_tatemashi_ex1",
-      "japanese": "{部屋|へや}を{建|た}て{増|ま}しする。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{建|た}て{増|ま}し⟦する→する：00392_suru⟧。",
       "english": "To add on a room.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30018_tatemashi_ex2",
-      "japanese": "{子供|こども}が{増|ふ}えたので、{家|いえ}を{建|た}て{増|ま}しした。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧⟦の→の：09472_no⟧で、⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧{建|た}て{増|ま}し⟦した→する：00392_suru⟧。",
       "english": "Since we had more children, we built an addition onto the house.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30018_tatemashi_ex3",
-      "japanese": "{建|た}て{増|ま}しを{繰|く}り{返|かえ}した{結果|けっか}、{家|いえ}の{中|なか}が{迷路|めいろ}のようになってしまった。",
+      "japanese": "{建|た}て{増|ま}し⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}した→繰り返す：02051_kurikaesu⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦が→が：00051_ga⟧⟦{迷路|めいろ}→迷路：09384_meiro⟧⟦のように→のように：30291_noyouni⟧⟦なって→なる：01970_naru⟧しまった。",
       "english": "As a result of repeated additions, the inside of the house ended up like a maze.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The everyday word for enlarging a house by building on. {増築|ぞうちく} is the more formal, technical term used on permits and in construction contexts.\n\nCOMMON COLLOCATIONS:\n- {部屋|へや}を{建|た}て{増|ま}しする: to add on a room\n- {建|た}て{増|ま}しを{繰|く}り{返|かえ}す: to keep adding on\n- {二階|にかい}を{建|た}て{増|ま}しする: to add a second floor\n\nSIMILAR WORDS:\n- {増築|ぞうちく}: extension/addition — the formal, technical equivalent\n- {改築|かいちく}: rebuilding/remodeling — reconstructing an existing structure, not enlarging it",
+  "notes": "The everyday word for enlarging a house by building on. ⟦{増築|ぞうちく}→増築：06568_zouchiku⟧ is the more formal, technical term used on permits and in construction contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{建|た}て{増|ま}し⟦する→する：00392_suru⟧: to add on a room\n- {建|た}て{増|ま}し⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧: to keep adding on\n- ⟦{二階|にかい}→二階：27513_nikai⟧⟦を→を：00422_wo⟧{建|た}て{増|ま}し⟦する→する：00392_suru⟧: to add a second floor\n\nSIMILAR WORDS:\n- ⟦{増築|ぞうちく}→増築：06568_zouchiku⟧: extension/addition — the formal, technical equivalent\n- ⟦{改築|かいちく}→改築：06224_kaichiku⟧: rebuilding/remodeling — reconstructing an existing structure, not enlarging it",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "building"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

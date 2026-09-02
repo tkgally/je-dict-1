@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27531_reido_ex1",
-      "japanese": "{今朝|けさ}の{気温|きおん}は{零度|れいど}だった。",
+      "japanese": "⟦{今朝|けさ}→今朝：02877_kesa⟧⟦の→の：09472_no⟧⟦{気温|きおん}→気温：00235_kion⟧⟦は→は：00079_ha⟧{零度|れいど}だった。",
       "english": "This morning's temperature was zero degrees.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27531_reido_ex2",
-      "japanese": "{水|みず}は{零度|れいど}で{凍|こお}る。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦は→は：00079_ha⟧{零度|れいど}⟦で→で：00502_de⟧⟦{凍|こお}る→凍る：02100_kooru⟧。",
       "english": "Water freezes at zero degrees.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27531_reido_ex3",
-      "japanese": "{今夜|こんや}は{零度|れいど}を{下回|したまわ}る{予想|よそう}なので、{道路|どうろ}が{凍|こお}るかもしれない。",
+      "japanese": "⟦{今夜|こんや}→今夜：01411_konya⟧⟦は→は：00079_ha⟧{零度|れいど}⟦を→を：00422_wo⟧⟦{下回|したまわ}る→下回る：07649_shitamawaru⟧⟦{予想|よそう}→予想：03664_yosou⟧な⟦の→の：09472_no⟧で、⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧⟦{凍|こお}る→凍る：02100_kooru⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Tonight is forecast to drop below zero degrees, so the roads may freeze.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {零|れい} (zero) + {度|ど} (degree). Default reference is Celsius; specify with {摂氏|せっし}{零度|れいど} or {華氏|かし}{零度|れいど} if needed.\n\nCOMMON COLLOCATIONS:\n- {零度|れいど}{以下|いか}: below zero\n- {零度|れいど}を{下回|したまわ}る: to drop below zero\n- {零度|れいど}に{達|たっ}する: to reach zero degrees\n- {氷点下|ひょうてんか}: sub-zero (literally 'below freezing point')\n\nSIMILAR WORDS:\n- {氷点|ひょうてん}: freezing point — refers to the point at which water freezes, often used in {氷点下|ひょうてんか}\n- マイナス: minus / negative — マイナス{五度|ごど} = minus five degrees, very common in weather speech",
+  "notes": "Composed of ⟦{零|れい}→零：00983_rei⟧ (zero) + ⟦{度|ど}→〜度：09845_do⟧ (degree). Default reference is Celsius; specify with ⟦{摂氏|せっし}→摂氏：12906_sesshi⟧{零度|れいど} or ⟦{華氏|かし}→華氏：28130_kashi⟧{零度|れいど} if needed.\n\nCOMMON COLLOCATIONS:\n- {零度|れいど}⟦{以下|いか}→以下：01294_ika⟧: below zero\n- {零度|れいど}⟦を→を：00422_wo⟧⟦{下回|したまわ}る→下回る：07649_shitamawaru⟧: to drop below zero\n- {零度|れいど}⟦に→に：00314_ni⟧⟦{達|たっ}する→達する：02129_tassuru⟧: to reach zero degrees\n- ⟦{氷点下|ひょうてんか}→氷点下：07669_hyoutenka⟧: sub-zero (literally 'below freezing point')\n\nSIMILAR WORDS:\n- {氷点|ひょうてん}: freezing point — refers to the point at which water freezes, often used in ⟦{氷点下|ひょうてんか}→氷点下：07669_hyoutenka⟧\n- ⟦マイナス→マイナス：00268_mainasu⟧: minus / negative — ⟦マイナス→マイナス：00268_mainasu⟧{五度|ごど} = minus five degrees, very common in weather speech",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -70,6 +70,6 @@
       "domain": []
     },
     "created": "2026-05-13T04:08:29Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

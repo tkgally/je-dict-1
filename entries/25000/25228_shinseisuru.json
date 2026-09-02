@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25228_shinseisuru_ex1",
-      "japanese": "ビザを{申請|しんせい}する。",
+      "japanese": "⟦ビザ→ビザ：08283_biza⟧⟦を→を：00422_wo⟧{申請|しんせい}する。",
       "english": "I apply for a visa.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25228_shinseisuru_ex2",
-      "japanese": "{有給|ゆうきゅう}{休暇|きゅうか}を{申請|しんせい}した。",
+      "japanese": "⟦{有給|ゆうきゅう}{休暇|きゅうか}→有給休暇：06996_yuukyuukyuuka⟧⟦を→を：00422_wo⟧{申請|しんせい}した。",
       "english": "I applied for paid leave.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25228_shinseisuru_ex3",
-      "japanese": "{助成金|じょせいきん}の{申請|しんせい}{期限|きげん}は{来月末|らいげつまつ}までだ。",
+      "japanese": "⟦{助成金|じょせいきん}→助成金：11343_joseikin⟧⟦の→の：09472_no⟧⟦{申請|しんせい}→申請：04207_shinsei⟧⟦{期限|きげん}→期限：12861_kigen⟧⟦は→は：00079_ha⟧{来月末|らいげつまつ}⟦まで→まで：00490_made⟧だ。",
       "english": "The deadline for applying for the subsidy is the end of next month.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25228_shinseisuru_ex4",
-      "japanese": "{必要|ひつよう}{書類|しょるい}を{揃|そろ}えてから{窓口|まどぐち}で{申請|しんせい}してください。",
+      "japanese": "⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{揃|そろ}えて→揃える：01952_soroeru⟧⟦から→から：00504_kara⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦で→で：00502_de⟧{申請|しんせい}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please gather the required documents before applying at the counter.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers to formally requesting permission, approval, or benefits from an authority or institution. The process typically involves submitting documents. Common in bureaucratic, workplace, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {申請|しんせい}{書|しょ}: application form\n- {申請|しんせい}{手続|てつづ}き: application procedure\n- {申請|しんせい}{期限|きげん}: application deadline\n- {許可|きょか}を{申請|しんせい}する: apply for permission\n- パスポートを{申請|しんせい}する: apply for a passport\n- {申請|しんせい}が{通|とお}る: an application is approved\n\nSIMILAR WORDS:\n- {届|とど}け{出|で}る: to file a notification — used for submitting required notices (marriage, divorce, address change) where approval is not needed\n- {応募|おうぼ}する: to apply (for a position or contest) — used for job applications, competitions, or campaigns rather than official permissions\n- {請求|せいきゅう}する: to claim; to request payment — involves demanding something owed, such as a refund or insurance claim",
+  "notes": "Refers to formally requesting permission, approval, or benefits from an authority or institution. The process typically involves submitting documents. Common in bureaucratic, workplace, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{申請|しんせい}{書|しょ}→申請書：07486_shinseisho⟧: application form\n- ⟦{申請|しんせい}→申請：04207_shinsei⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: application procedure\n- ⟦{申請|しんせい}→申請：04207_shinsei⟧⟦{期限|きげん}→期限：12861_kigen⟧: application deadline\n- ⟦{許可|きょか}→許可：00259_kyoka⟧⟦を→を：00422_wo⟧{申請|しんせい}する: apply for permission\n- ⟦パスポート→パスポート：00341_pasupooto⟧⟦を→を：00422_wo⟧{申請|しんせい}する: apply for a passport\n- ⟦{申請|しんせい}→申請：04207_shinsei⟧⟦が→が：00051_ga⟧⟦{通|とお}る→通る：01243_tooru⟧: an application is approved\n\nSIMILAR WORDS:\n- ⟦{届|とど}け{出|で}る→届け出る：05910_todokederu⟧: to file a notification — used for submitting required notices (marriage, divorce, address change) where approval is not needed\n- ⟦{応募|おうぼ}→応募：03014_oubo⟧⟦する→する：00392_suru⟧: to apply (for a position or contest) — used for job applications, competitions, or campaigns rather than official permissions\n- ⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧: to claim; to request payment — involves demanding something owed, such as a refund or insurance claim",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -103,10 +103,11 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T11:25:30Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

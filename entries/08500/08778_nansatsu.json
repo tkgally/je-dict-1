@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08778_nansatsu_ex1",
-      "japanese": "{本|ほん}を{何冊|なんさつ}{読|よ}みましたか。",
+      "japanese": "{本|ほん}⟦を→を：00422_wo⟧{何冊|なんさつ}⟦{読|よ}みました→読む：00426_yomu⟧⟦か→か：09473_ka⟧。",
       "english": "How many books did you read?",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08778_nansatsu_ex2",
-      "japanese": "ノートを{何冊|なんさつ}{買|か}いますか。",
+      "japanese": "⟦ノート→ノート：00738_nooto⟧⟦を→を：00422_wo⟧{何冊|なんさつ}⟦{買|か}います→買う：00489_kau⟧⟦か→か：09473_ka⟧。",
       "english": "How many notebooks will you buy?",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08778_nansatsu_ex3",
-      "japanese": "この{漫画|まんが}は{何冊|なんさつ}{出|で}ていますか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{漫画|まんが}→漫画：01511_manga⟧⟦は→は：00079_ha⟧{何冊|なんさつ}⟦{出|で}ています→出る：00513_deru⟧⟦か→か：09473_ka⟧。",
       "english": "How many volumes of this manga have been released?",
       "sense_numbers": [
         1
@@ -59,7 +59,7 @@
       "label": "how many (cups)"
     }
   ],
-  "notes": "COUNTER QUESTION:\n{何冊|なんさつ} combines {何|なん} (what/how many) with the counter {冊|さつ} for bound volumes.\n\nOBJECTS COUNTED WITH {冊|さつ}:\n- {本|ほん} - books\n- {雑誌|ざっし} - magazines\n- ノート - notebooks\n- {漫画|まんが} - manga volumes\n- {辞書|じしょ} - dictionaries\n- アルバム - albums (photo albums)\n\nCOUNTING PATTERNS:\n- {一冊|いっさつ} - one book\n- {二冊|にさつ} - two books\n- {三冊|さんさつ} - three books\n- {何冊|なんさつ} - how many books?\n\nRELATED COUNTER QUESTIONS:\n- {何枚|なんまい} - how many (flat objects)\n- {何部|なんぶ} - how many copies (of a publication)\n- {何巻|なんかん} - what volume number",
+  "notes": "COUNTER QUESTION:\n{何冊|なんさつ} combines ⟦{何|なん}→何〜：03100_nan⟧ (what/how many) with the counter ⟦{冊|さつ}→〜冊：00666_satsu⟧ for bound volumes.\n\nOBJECTS COUNTED WITH {冊|さつ}:\n- {本|ほん} - books\n- ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧ - magazines\n- ⟦ノート→ノート：00738_nooto⟧ - notebooks\n- ⟦{漫画|まんが}→漫画：01511_manga⟧ - manga volumes\n- ⟦{辞書|じしょ}→辞書：04707_jisho⟧ - dictionaries\n- ⟦アルバム→アルバム：03831_arubamu⟧ - albums (photo albums)\n\nCOUNTING PATTERNS:\n- ⟦{一冊|いっさつ}→一冊：23149_issatsu⟧ - one book\n- {二冊|にさつ} - two books\n- {三冊|さんさつ} - three books\n- {何冊|なんさつ} - how many books?\n\nRELATED COUNTER QUESTIONS:\n- ⟦{何枚|なんまい}→何枚：08777_nanmai⟧ - how many (flat objects)\n- {何部|なんぶ} - how many copies (of a publication)\n- {何巻|なんかん} - what volume number",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +74,6 @@
       ]
     },
     "created": "2026-01-28T04:51:23Z",
-    "modified": "2026-09-02T02:55:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05939_jitojito_ex1",
-      "japanese": "⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧じとじとする。",
+      "japanese": "⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧じとじと⟦する→する：00392_suru⟧。",
       "english": "My hands are clammy.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05939_jitojito_ex2",
-      "japanese": "⟦{汗|あせ}→汗：02173_ase⟧⟦で→で：00502_de⟧⟦シャツ→シャツ：01052_shatsu⟧⟦が→が：00051_ga⟧じとじとしている。",
+      "japanese": "⟦{汗|あせ}→汗：02173_ase⟧⟦で→で：00502_de⟧⟦シャツ→シャツ：01052_shatsu⟧⟦が→が：00051_ga⟧じとじと⟦している→する：00392_suru⟧。",
       "english": "My shirt is damp with sweat.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "05939_jitojito_ex4",
-      "japanese": "じとじとした⟦{汗|あせ}→汗：02173_ase⟧⟦が→が：00051_ga⟧⟦{気持|きも}ち{悪|わる}い→気持ち悪い：07154_kimochiwarui⟧。",
+      "japanese": "じとじと⟦した→する：00392_suru⟧⟦{汗|あせ}→汗：02173_ase⟧⟦が→が：00051_ga⟧⟦{気持|きも}ち{悪|わる}い→気持ち悪い：07154_kimochiwarui⟧。",
       "english": "The clammy sweat feels unpleasant.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "05939_jitojito_ex5",
-      "japanese": "⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧⟦{何|なに}もかも→何もかも：26777_nanimokamo⟧じとじとして、⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦も→も：00484_mo⟧⟦{乾|かわ}かない→乾く：00786_kawaku⟧。",
+      "japanese": "⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧⟦{何|なに}もかも→何もかも：26777_nanimokamo⟧じとじと⟦して→する：00392_suru⟧、⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦も→も：00484_mo⟧⟦{乾|かわ}かない→乾く：00786_kawaku⟧。",
       "english": "During the rainy season everything is damp, and the laundry won't dry either.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "じとじと describes an unpleasant damp or clammy feeling, often from sweat or humidity. It emphasizes the sticky, uncomfortable sensation more than just wetness.\n\nRELATED WORDS:\n- ⟦むしむし→むしむし：05938_mushimushi⟧: muggy (heat + humidity)\n- ⟦じめじめ→じめじめ：05789_jimejime⟧: damp (environmental moisture)\n- ⟦べたべた→べたべた：05171_betabeta⟧: sticky (adhesive quality)\n\nCOMMON PATTERNS:\n- じとじとする: to be damp/clammy\n- じとじとした⟦{汗|あせ}→汗：02173_ase⟧: clammy sweat\n\nSIMILAR WORDS:\n- じとじと emphasizes the uncomfortable clammy feeling\n- じめじめ emphasizes the dampness of an environment\n- Both are negative, but じとじと is more about personal discomfort",
+  "notes": "じとじと describes an unpleasant damp or clammy feeling, often from sweat or humidity. It emphasizes the sticky, uncomfortable sensation more than just wetness.\n\nRELATED WORDS:\n- ⟦むしむし→むしむし：05938_mushimushi⟧: muggy (heat + humidity)\n- ⟦じめじめ→じめじめ：05789_jimejime⟧: damp (environmental moisture)\n- ⟦べたべた→べたべた：05171_betabeta⟧: sticky (adhesive quality)\n\nCOMMON PATTERNS:\n- じとじと⟦する→する：00392_suru⟧: to be damp/clammy\n- じとじと⟦した→する：00392_suru⟧⟦{汗|あせ}→汗：02173_ase⟧: clammy sweat\n\nSIMILAR WORDS:\n- じとじと emphasizes the uncomfortable clammy feeling\n- ⟦じめじめ→じめじめ：05789_jimejime⟧ emphasizes the dampness of an environment\n- Both are negative, but じとじと is more about personal discomfort",
   "cross_references": [
     {
       "type": "related",
@@ -179,7 +179,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T17:20:39Z",
-    "modified": "2026-09-02T02:55:10Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -192,7 +192,8 @@
       "semantic": [
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "08642_haki_ex1",
-      "japanese": "{機密|きみつ}{書類|しょるい}を{破棄|はき}する。",
+      "japanese": "⟦{機密|きみつ}→機密：13179_kimitsu⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{破棄|はき}⟦する→する：00392_suru⟧。",
       "english": "I destroy confidential documents.",
       "sense_numbers": [
         1
@@ -119,7 +119,7 @@
     },
     {
       "id": "08642_haki_ex2",
-      "japanese": "{個人情報|こじんじょうほう}は{適切|てきせつ}に{破棄|はき}してください。",
+      "japanese": "⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦は→は：00079_ha⟧⟦{適切|てきせつ}→適切：01621_tekisetsu⟧⟦に→に：00314_ni⟧{破棄|はき}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please dispose of personal information properly.",
       "sense_numbers": [
         1
@@ -129,7 +129,7 @@
     },
     {
       "id": "08642_haki_ex3",
-      "japanese": "{不要|ふよう}なファイルを{破棄|はき}した。",
+      "japanese": "⟦{不要|ふよう}→不要：02527_fuyou⟧な⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧{破棄|はき}⟦した→する：00392_suru⟧。",
       "english": "I deleted the unnecessary files.",
       "sense_numbers": [
         1
@@ -139,7 +139,7 @@
     },
     {
       "id": "08642_haki_ex4",
-      "japanese": "{契約|けいやく}を{破棄|はき}する。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{破棄|はき}⟦する→する：00392_suru⟧。",
       "english": "To cancel a contract.",
       "sense_numbers": [
         2
@@ -149,7 +149,7 @@
     },
     {
       "id": "08642_haki_ex5",
-      "japanese": "{判決|はんけつ}が{破棄|はき}された。",
+      "japanese": "⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦が→が：00051_ga⟧{破棄|はき}⟦された→する：00392_suru⟧。",
       "english": "The verdict was overturned.",
       "sense_numbers": [
         2
@@ -159,7 +159,7 @@
     },
     {
       "id": "08642_haki_ex6",
-      "japanese": "{条約|じょうやく}の{破棄|はき}を{通告|つうこく}した。",
+      "japanese": "⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦の→の：09472_no⟧{破棄|はき}⟦を→を：00422_wo⟧⟦{通告|つうこく}→通告：20432_tsuukoku⟧⟦した→する：00392_suru⟧。",
       "english": "They announced the termination of the treaty.",
       "sense_numbers": [
         2
@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMAL VOCABULARY:\n{破棄|はき} is a formal term used in legal, business, and technical contexts.\n\nSENSE 1 (DESTRUCTION):\nUsed for proper disposal of documents, data, evidence, etc.\n- {書類|しょるい}の{破棄|はき} - document destruction\n- データの{破棄|はき} - data deletion\n\nSENSE 2 (ANNULMENT):\nUsed in legal and diplomatic contexts.\n- {契約|けいやく}{破棄|はき} - contract annulment\n- {判決|はんけつ}{破棄|はき} - reversal of verdict (appellate court)\n- {条約|じょうやく}{破棄|はき} - treaty abrogation\n\nRELATED WORDS:\n- {廃棄|はいき} - disposal, scrapping (similar to sense 1)\n- {取|と}り{消|け}し - cancellation (more general)\n- {解約|かいやく} - termination (of contract)\n- {無効|むこう} - invalid, null",
+  "notes": "FORMAL VOCABULARY:\n{破棄|はき} is a formal term used in legal, business, and technical contexts.\n\nSENSE 1 (DESTRUCTION):\nUsed for proper disposal of documents, data, evidence, etc.\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦の→の：09472_no⟧{破棄|はき} - document destruction\n- ⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{破棄|はき} - data deletion\n\nSENSE 2 (ANNULMENT):\nUsed in legal and diplomatic contexts.\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧{破棄|はき} - contract annulment\n- ⟦{判決|はんけつ}→判決：05906_hanketsu⟧{破棄|はき} - reversal of verdict (appellate court)\n- ⟦{条約|じょうやく}→条約：04912_jouyaku⟧{破棄|はき} - treaty abrogation\n\nRELATED WORDS:\n- ⟦{廃棄|はいき}→廃棄：12482_haiki⟧ - disposal, scrapping (similar to sense 1)\n- {取|と}り{消|け}し - cancellation (more general)\n- ⟦{解約|かいやく}→解約：06129_kaiyaku⟧ - termination (of contract)\n- ⟦{無効|むこう}→無効：13385_mukou⟧ - invalid, null",
   "cross_references": [
     {
       "type": "related",
@@ -198,10 +198,11 @@
         "legal",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-27T13:18:36Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "prominent_see_also": [
     {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28906_terikaesu_ex1",
-      "japanese": "アスファルトが{熱|ねつ}を{照|て}り{返|かえ}す。",
+      "japanese": "⟦アスファルト→アスファルト：10736_asufaruto⟧⟦が→が：00051_ga⟧⟦{熱|ねつ}→熱：01690_netsu⟧⟦を→を：00422_wo⟧{照|て}り{返|かえ}す。",
       "english": "The asphalt reflects heat back.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28906_terikaesu_ex2",
-      "japanese": "{雪|ゆき}{道|みち}が{日差|ひざ}しを{強|つよ}く{照|て}り{返|かえ}している。",
+      "japanese": "{雪|ゆき}{道|みち}⟦が→が：00051_ga⟧⟦{日差|ひざ}し→日差し：00107_hizashi⟧⟦を→を：00422_wo⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧{照|て}り{返|かえ}して⟦いる→いる：00495_iru⟧。",
       "english": "The snowy road is strongly reflecting the sunlight.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28906_terikaesu_ex3",
-      "japanese": "{夏場|なつば}はビルの{窓|まど}が{太陽光|たいようこう}を{照|て}り{返|かえ}して、{街|まち}{全体|ぜんたい}が{暑|あつ}くなる。",
+      "japanese": "⟦{夏場|なつば}→夏場：28060_natsuba⟧⟦は→は：00079_ha⟧⟦ビル→ビル：01500_biru⟧⟦の→の：09472_no⟧⟦{窓|まど}→窓：02254_mado⟧⟦が→が：00051_ga⟧⟦{太陽光|たいようこう}→太陽光：06209_taiyoukou⟧⟦を→を：00422_wo⟧{照|て}り{返|かえ}して、⟦{街|まち}→街：17306_machi⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧⟦{暑|あつ}く→暑い：00619_atsui⟧⟦なる→なる：01970_naru⟧。",
       "english": "In summer, the windows of buildings reflect sunlight, making the whole town hot.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {照|て}る (to shine) + {返|かえ}す (to send back). Describes a surface bouncing back light or heat — not a person's action.\n\nTRANSITIVITY:\nTransitive (takes を). The subject is the reflecting surface; the object is what is reflected ({光|ひかり}, {熱|ねつ}, {日差|ひざ}し).\n\nCOMMON COLLOCATIONS:\n- {日差|ひざ}しを{照|て}り{返|かえ}す: to reflect the sunlight\n- {熱|ねつ}を{照|て}り{返|かえ}す: to reflect heat\n- {光|ひかり}を{照|て}り{返|かえ}す: to reflect light\n\nSIMILAR WORDS:\n- {反射|はんしゃ}する: to reflect — more technical/scientific term\n- {跳|は}ね{返|かえ}す: to bounce back — applies to objects, sound, light",
+  "notes": "Compound of ⟦{照|て}る→照る：00404_teru⟧ (to shine) + ⟦{返|かえ}す→返す：09648_kaesu⟧ (to send back). Describes a surface bouncing back light or heat — not a person's action.\n\nTRANSITIVITY:\nTransitive (takes ⟦を→を：00422_wo⟧). The subject is the reflecting surface; the object is what is reflected (⟦{光|ひかり}→光：01707_hikari⟧, ⟦{熱|ねつ}→熱：01690_netsu⟧, ⟦{日差|ひざ}し→日差し：00107_hizashi⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{日差|ひざ}し→日差し：00107_hizashi⟧⟦を→を：00422_wo⟧{照|て}り{返|かえ}す: to reflect the sunlight\n- ⟦{熱|ねつ}→熱：01690_netsu⟧⟦を→を：00422_wo⟧{照|て}り{返|かえ}す: to reflect heat\n- ⟦{光|ひかり}→光：01707_hikari⟧⟦を→を：00422_wo⟧{照|て}り{返|かえ}す: to reflect light\n\nSIMILAR WORDS:\n- ⟦{反射|はんしゃ}する→反射する：19650_hanshasuru⟧: to reflect — more technical/scientific term\n- ⟦{跳|は}ね{返|かえ}す→跳ね返す：30745_hanekaesu⟧: to bounce back — applies to objects, sound, light",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,10 +74,11 @@
         "nature"
       ],
       "domain": [],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "godan",

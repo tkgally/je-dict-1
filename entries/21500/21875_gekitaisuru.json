@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21875_gekitaisuru_ex1",
-      "japanese": "{敵|てき}を{撃退|げきたい}する。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦を→を：00422_wo⟧{撃退|げきたい}する。",
       "english": "To repel the enemy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21875_gekitaisuru_ex2",
-      "japanese": "{侵入者|しんにゅうしゃ}を{見事|みごと}に{撃退|げきたい}した。",
+      "japanese": "⟦{侵入者|しんにゅうしゃ}→侵入者：19521_shinnyuusha⟧⟦を→を：00422_wo⟧⟦{見事|みごと}→見事：03744_migoto⟧⟦に→に：00314_ni⟧{撃退|げきたい}した。",
       "english": "They splendidly drove back the intruder.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21875_gekitaisuru_ex3",
-      "japanese": "{害虫|がいちゅう}を{撃退|げきたい}するために、{新|あたら}しい{方法|ほうほう}が{開発|かいはつ}された。",
+      "japanese": "⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧⟦を→を：00422_wo⟧{撃退|げきたい}する⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦が→が：00051_ga⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦された→する：00392_suru⟧。",
       "english": "A new method was developed to repel pests.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {撃|げき} (strike/attack) + {退|たい} (retreat), meaning to strike something so that it retreats. Used in military, sports, and everyday contexts.\n\nCOMMON COLLOCATIONS:\n- {敵|てき}を{撃退|げきたい}する: to repel the enemy\n- {害虫|がいちゅう}を{撃退|げきたい}する: to repel pests\n- {侵入者|しんにゅうしゃ}を{撃退|げきたい}する: to drive back an intruder\n- {風邪|かぜ}を{撃退|げきたい}する: to fight off a cold (figurative)\n\nSIMILAR WORDS:\n- {追|お}い{払|はら}う: to chase away — more colloquial\n- {退治|たいじ}する: to exterminate/slay — implies defeating completely\n- {撃破|げきは}する: to crush/destroy — stronger, implies total defeat",
+  "notes": "Composed of {撃|げき} (strike/attack) + {退|たい} (retreat), meaning to strike something so that it retreats. Used in military, sports, and everyday contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{敵|てき}→敵：03546_teki⟧⟦を→を：00422_wo⟧{撃退|げきたい}する: to repel the enemy\n- ⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧⟦を→を：00422_wo⟧{撃退|げきたい}する: to repel pests\n- ⟦{侵入者|しんにゅうしゃ}→侵入者：19521_shinnyuusha⟧⟦を→を：00422_wo⟧{撃退|げきたい}する: to drive back an intruder\n- ⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧{撃退|げきたい}する: to fight off a cold (figurative)\n\nSIMILAR WORDS:\n- ⟦{追|お}い{払|はら}う→追い払う：06347_oiharau⟧: to chase away — more colloquial\n- ⟦{退治|たいじ}する→退治する：25396_taijisuru⟧: to exterminate/slay — implies defeating completely\n- ⟦{撃破|げきは}→撃破：13440_gekiha⟧⟦する→する：00392_suru⟧: to crush/destroy — stronger, implies total defeat",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -80,10 +80,11 @@
       "semantic": [
         "military"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-03T20:22:22Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
   "conjugation": {
     "type": "suru",

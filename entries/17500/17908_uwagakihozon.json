@@ -15,42 +15,54 @@
   "examples": [
     {
       "id": "17908_uwagakihozon_ex1",
-      "japanese": "{上書|うわが}き{保存|ほぞん}しますか？",
+      "japanese": "{上書|うわが}き{保存|ほぞん}⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧？",
       "english": "Do you want to overwrite and save?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17908_uwagakihozon_ex2",
-      "japanese": "Ctrl+Sで{上書|うわが}き{保存|ほぞん}ができます。",
+      "japanese": "Ctrl+S⟦で→で：00502_de⟧{上書|うわが}き{保存|ほぞん}⟦が→が：00051_ga⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "You can overwrite save with Ctrl+S.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17908_uwagakihozon_ex3",
-      "japanese": "{間違|まちが}えて{上書|うわが}き{保存|ほぞん}してしまい、{元|もと}のファイルが{消|き}えてしまった。",
+      "japanese": "⟦{間違|まちが}えて→間違える：01109_machigaeru⟧{上書|うわが}き{保存|ほぞん}⟦して→する：00392_suru⟧しまい、⟦{元|もと}→元：03878_moto⟧⟦の→の：09472_no⟧⟦ファイル→ファイル：05280_fairu⟧⟦が→が：00051_ga⟧⟦{消|き}えて→消える：02520_kieru⟧しまった。",
       "english": "I accidentally overwrote the file and the original was lost.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {上書|うわが}き (overwriting) and {保存|ほぞん} (saving, preservation). This is the Japanese equivalent of the \"Save\" function in most software menus.\n\nCOMMON COLLOCATIONS:\n- {上書|うわが}き{保存|ほぞん}する (to overwrite save)\n- {上書|うわが}き{保存|ほぞん}しますか？ (Do you want to save?)\n\nRELATED WORDS:\n- {名前|なまえ}を{付|つ}けて{保存|ほぞん}: Save As\n- {自動保存|じどうほぞん}: auto-save\n- {上書|うわが}き: overwriting",
+  "notes": "USAGE:\nA compound of ⟦{上書|うわが}き→上書き：16330_uwagaki⟧ (overwriting) and ⟦{保存|ほぞん}→保存：03626_hozon⟧ (saving, preservation). This is the Japanese equivalent of the \"Save\" function in most software menus.\n\nCOMMON COLLOCATIONS:\n- {上書|うわが}き{保存|ほぞん}⟦する→する：00392_suru⟧ (to overwrite save)\n- {上書|うわが}き{保存|ほぞん}⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧？ (Do you want to save?)\n\nRELATED WORDS:\n- ⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{付|つ}けて→付ける：00761_tsukeru⟧⟦{保存|ほぞん}→保存：03626_hozon⟧: Save As\n- {自動保存|じどうほぞん}: auto-save\n- ⟦{上書|うわが}き→上書き：16330_uwagaki⟧: overwriting",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-19T08:34:04Z",
-    "modified": "2026-03-19T08:34:04Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"],
-      "domain": ["technical"]
+      "semantic": [
+        "electronics"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

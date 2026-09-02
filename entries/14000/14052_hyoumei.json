@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14052_hyoumei_ex1",
-      "japanese": "{首相|しゅしょう}が{辞任|じにん}の{意向|いこう}を{表明|ひょうめい}した。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦が→が：00051_ga⟧⟦{辞任|じにん}→辞任：10144_jinin⟧⟦の→の：09472_no⟧⟦{意向|いこう}→意向：12624_ikou⟧⟦を→を：00422_wo⟧{表明|ひょうめい}⟦した→する：00392_suru⟧。",
       "english": "The prime minister expressed his intention to resign.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14052_hyoumei_ex2",
-      "japanese": "{会社|かいしゃ}は{新|あたら}しいプロジェクトへの{参加|さんか}を{正式|せいしき}に{表明|ひょうめい}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{参加|さんか}→参加：02498_sanka⟧⟦を→を：00422_wo⟧⟦{正式|せいしき}→正式：03376_seishiki⟧⟦に→に：00314_ni⟧{表明|ひょうめい}⟦した→する：00392_suru⟧。",
       "english": "The company formally announced its participation in the new project.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14052_hyoumei_ex3",
-      "japanese": "{各国|かっこく}の{首脳|しゅのう}が{気候|きこう}{変動|へんどう}への{対策|たいさく}を{強化|きょうか}する{意思|いし}を{共同|きょうどう}で{表明|ひょうめい}した。",
+      "japanese": "⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦の→の：09472_no⟧⟦{首脳|しゅのう}→首脳：15631_shunou⟧⟦が→が：00051_ga⟧⟦{気候|きこう}{変動|へんどう}→気候変動：04627_kikouhendou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：25344_kyoukasuru⟧⟦{意思|いし}→意思：12742_ishi⟧⟦を→を：00422_wo⟧⟦{共同|きょうどう}→共同：02591_kyoudou⟧⟦で→で：00502_de⟧{表明|ひょうめい}⟦した→する：00392_suru⟧。",
       "english": "Leaders of each nation jointly declared their intention to strengthen measures against climate change.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word used primarily in news, politics, and business. The most common patterns involve expressing an intention, position, or opinion publicly.\n\nCOMMON COLLOCATIONS:\n- {意思|いし}を{表明|ひょうめい}する: to express one's will/intention\n- {意向|いこう}を{表明|ひょうめい}する: to express one's intention\n- {立場|たちば}を{表明|ひょうめい}する: to state one's position\n- {反対|はんたい}を{表明|ひょうめい}する: to express opposition\n- {支持|しじ}を{表明|ひょうめい}する: to express support",
+  "notes": "USAGE:\nA formal word used primarily in news, politics, and business. The most common patterns involve expressing an intention, position, or opinion publicly.\n\nCOMMON COLLOCATIONS:\n- ⟦{意思|いし}→意思：12742_ishi⟧⟦を→を：00422_wo⟧{表明|ひょうめい}⟦する→する：00392_suru⟧: to express one's will/intention\n- ⟦{意向|いこう}→意向：12624_ikou⟧⟦を→を：00422_wo⟧{表明|ひょうめい}⟦する→する：00392_suru⟧: to express one's intention\n- ⟦{立場|たちば}→立場：03403_tachiba⟧⟦を→を：00422_wo⟧{表明|ひょうめい}⟦する→する：00392_suru⟧: to state one's position\n- ⟦{反対|はんたい}→反対：01497_hantai⟧⟦を→を：00422_wo⟧{表明|ひょうめい}⟦する→する：00392_suru⟧: to express opposition\n- ⟦{支持|しじ}→支持：12933_shiji⟧⟦を→を：00422_wo⟧{表明|ひょうめい}⟦する→する：00392_suru⟧: to express support",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T10:16:46Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +183,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13050_meigen_ex1",
-      "japanese": "{社長|しゃちょう}は{辞任|じにん}を{明言|めいげん}した。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧⟦{辞任|じにん}→辞任：10144_jinin⟧⟦を→を：00422_wo⟧{明言|めいげん}⟦した→する：00392_suru⟧。",
       "english": "The president explicitly stated his resignation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13050_meigen_ex2",
-      "japanese": "{大臣|だいじん}は{増税|ぞうぜい}について{明言|めいげん}を{避|さ}けた。",
+      "japanese": "⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦は→は：00079_ha⟧⟦{増税|ぞうぜい}→増税：12091_zouzei⟧⟦について→〜について：03103_nitsuite⟧{明言|めいげん}⟦を→を：00422_wo⟧⟦{避|さ}けた→避ける：02109_sakeru⟧。",
       "english": "The minister avoided making a clear statement about the tax increase.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13050_meigen_ex3",
-      "japanese": "{彼|かれ}は{記者|きしゃ}{会見|かいけん}で、{来季|らいき}も{チームに{残|のこ}ることを{明言|めいげん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{記者|きしゃ}{会見|かいけん}→記者会見：19954_kishakaiken⟧⟦で→で：00502_de⟧、{来季|らいき}⟦も→も：00484_mo⟧{チームに{残|のこ}ることを{明言|めいげん}した。",
       "english": "At the press conference, he clearly stated that he would remain with the team next season.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{明言|めいげん}する is used when someone makes an unambiguous, definitive statement, especially in formal or public contexts. The negative pattern {明言|めいげん}を{避|さ}ける (to avoid making a clear statement) or {明言|めいげん}しない (to not state clearly) is also very common, particularly in political and diplomatic reporting.\n\nCOMMON COLLOCATIONS:\n- {明言|めいげん}する: to state clearly\n- {明言|めいげん}を{避|さ}ける: to avoid a clear statement\n- {明言|めいげん}を{控|ひか}える: to refrain from stating clearly\n- はっきりと{明言|めいげん}する: to state explicitly",
+  "notes": "USAGE:\n{明言|めいげん}⟦する→する：00392_suru⟧ is used when someone makes an unambiguous, definitive statement, especially in formal or public contexts. The negative pattern {明言|めいげん}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧ (to avoid making a clear statement) or {明言|めいげん}⟦しない→する：00392_suru⟧ (to not state clearly) is also very common, particularly in political and diplomatic reporting.\n\nCOMMON COLLOCATIONS:\n- {明言|めいげん}⟦する→する：00392_suru⟧: to state clearly\n- {明言|めいげん}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid a clear statement\n- {明言|めいげん}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧: to refrain from stating clearly\n- ⟦はっきり→はっきり：01228_hakkiri⟧⟦と→と：00512_to⟧{明言|めいげん}⟦する→する：00392_suru⟧: to state explicitly",
   "cross_references": [
     {
       "type": "contrast",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-23T10:02:46Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

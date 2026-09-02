@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14185_kaidoku_ex1",
-      "japanese": "{暗号|あんごう}を{解読|かいどく}する。",
+      "japanese": "⟦{暗号|あんごう}→暗号：04868_angou⟧⟦を→を：00422_wo⟧{解読|かいどく}⟦する→する：00392_suru⟧。",
       "english": "To decipher a code.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14185_kaidoku_ex2",
-      "japanese": "{古代|こだい}{文字|もじ}の{解読|かいどく}に{成功|せいこう}した。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦{文字|もじ}→文字：03632_moji⟧⟦の→の：09472_no⟧{解読|かいどく}⟦に→に：00314_ni⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "They succeeded in deciphering the ancient script.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14185_kaidoku_ex3",
-      "japanese": "DNA{情報|じょうほう}の{解読|かいどく}によって、{新|あたら}しい{治療法|ちりょうほう}が{開発|かいはつ}された。",
+      "japanese": "DNA⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧{解読|かいどく}⟦によって→によって：06801_niyotte⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{治療法|ちりょうほう}→治療法：27941_chiryouhou⟧⟦が→が：00051_ga⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦された→する：00392_suru⟧。",
       "english": "New treatments were developed through the decoding of DNA information.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {暗号|あんごう}を{解読|かいどく}する: to decipher a code/cipher\n- {古文書|こもんじょ}を{解読|かいどく}する: to decipher old documents\n- {解読|かいどく}に{成功|せいこう}する: to succeed in deciphering\n- {解読|かいどく}{不能|ふのう}: undecipherable, impossible to decode\n- ゲノムの{解読|かいどく}: genome decoding\n\nUSAGE:\nUsed for any situation requiring effort to extract meaning from something hard to read or understand. Common contexts include cryptography, archaeology, genetics, and even reading someone's difficult handwriting. The nuance is always that the source material is obscure or encoded in some way.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{暗号|あんごう}→暗号：04868_angou⟧⟦を→を：00422_wo⟧{解読|かいどく}⟦する→する：00392_suru⟧: to decipher a code/cipher\n- ⟦{古文書|こもんじょ}→古文書：15839_komonjo⟧⟦を→を：00422_wo⟧{解読|かいどく}⟦する→する：00392_suru⟧: to decipher old documents\n- {解読|かいどく}⟦に→に：00314_ni⟧⟦{成功|せいこう}する→成功する：21445_seikousuru⟧: to succeed in deciphering\n- {解読|かいどく}⟦{不能|ふのう}→不能：28353_funou⟧: undecipherable, impossible to decode\n- ゲノム⟦の→の：09472_no⟧{解読|かいどく}: genome decoding\n\nUSAGE:\nUsed for any situation requiring effort to extract meaning from something hard to read or understand. Common contexts include cryptography, archaeology, genetics, and even reading someone's difficult handwriting. The nuance is always that the source material is obscure or encoded in some way.",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-28T02:15:28Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

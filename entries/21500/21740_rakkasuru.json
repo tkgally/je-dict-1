@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21740_rakkasuru_ex1",
-      "japanese": "{物|もの}が{落下|らっか}した。",
+      "japanese": "⟦{物|もの}→物：02259_mono⟧⟦が→が：00051_ga⟧{落下|らっか}した。",
       "english": "An object fell.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21740_rakkasuru_ex2",
-      "japanese": "{看板|かんばん}が{強風|きょうふう}で{落下|らっか}する{危険|きけん}がある。",
+      "japanese": "⟦{看板|かんばん}→看板：00166_kanban⟧⟦が→が：00051_ga⟧⟦{強風|きょうふう}→強風：15269_kyoufuu⟧⟦で→で：00502_de⟧{落下|らっか}する⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a danger of signs falling due to strong wind.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21740_rakkasuru_ex3",
-      "japanese": "{工事|こうじ}{現場|げんば}から{資材|しざい}が{落下|らっか}して、{下|した}を{歩|ある}いていた{人|ひと}がけがをした。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦から→から：00504_kara⟧⟦{資材|しざい}→資材：19470_shizai⟧⟦が→が：00051_ga⟧{落下|らっか}して、⟦{下|した}→下：00670_shita⟧⟦を→を：00422_wo⟧⟦{歩|ある}いていた→歩く：00538_aruku⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦けが→けが：00787_kega⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "Materials fell from the construction site and injured a person walking below.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat formal or technical term for falling. It specifically describes objects falling downward due to gravity, often from a considerable height. It is commonly used in news reports, scientific contexts, and safety warnings.\n\nUSAGE:\n- Intransitive: {物|もの}が{落下|らっか}する\n- Often used for dangerous or newsworthy falling events\n- The noun {落下|らっか} is used in physics for gravitational fall\n\nCOMMON COLLOCATIONS:\n- {落下|らっか}{物|ぶつ}: falling object\n- {落下|らっか}{事故|じこ}: falling accident\n- {自由|じゆう}{落下|らっか}: free fall\n- {落下|らっか}{速度|そくど}: falling speed\n- {落下|らっか}{防止|ぼうし}: fall prevention\n- {落下|らっか}{地点|ちてん}: point of impact\n\nSIMILAR WORDS:\n- {落|お}ちる: to fall — the most common everyday word for falling\n- {転落|てんらく}する: to fall, to tumble — implies falling from an edge or elevated place, often with injury\n- {墜落|ついらく}する: to crash, to plummet — used for aircraft crashes or dramatic plunges from great heights",
+  "notes": "A somewhat formal or technical term for falling. It specifically describes objects falling downward due to gravity, often from a considerable height. It is commonly used in news reports, scientific contexts, and safety warnings.\n\nUSAGE:\n- Intransitive: ⟦{物|もの}→物：02259_mono⟧⟦が→が：00051_ga⟧{落下|らっか}する\n- Often used for dangerous or newsworthy falling events\n- The noun ⟦{落下|らっか}→落下：14051_rakka⟧ is used in physics for gravitational fall\n\nCOMMON COLLOCATIONS:\n- ⟦{落下|らっか}{物|ぶつ}→落下物：22008_rakkabutsu⟧: falling object\n- ⟦{落下|らっか}→落下：14051_rakka⟧⟦{事故|じこ}→事故：00851_jiko⟧: falling accident\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦{落下|らっか}→落下：14051_rakka⟧: free fall\n- ⟦{落下|らっか}→落下：14051_rakka⟧⟦{速度|そくど}→速度：03319_sokudo⟧: falling speed\n- ⟦{落下|らっか}→落下：14051_rakka⟧⟦{防止|ぼうし}→防止：14571_boushi⟧: fall prevention\n- ⟦{落下|らっか}→落下：14051_rakka⟧⟦{地点|ちてん}→地点：04058_chiten⟧: point of impact\n\nSIMILAR WORDS:\n- ⟦{落|お}ちる→落ちる：01242_ochiru⟧: to fall — the most common everyday word for falling\n- ⟦{転落|てんらく}→転落：19790_tenraku⟧⟦する→する：00392_suru⟧: to fall, to tumble — implies falling from an edge or elevated place, often with injury\n- ⟦{墜落|ついらく}する→墜落する：21423_tsuirakusuru⟧: to crash, to plummet — used for aircraft crashes or dramatic plunges from great heights",
   "cross_references": [
     {
       "type": "contrast",
@@ -88,9 +88,10 @@
         "formal"
       ],
       "usage": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

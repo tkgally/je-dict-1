@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14685_miryou_ex1",
-      "japanese": "{観客|かんきゃく}を{魅了|みりょう}した。",
+      "japanese": "⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦を→を：00422_wo⟧{魅了|みりょう}⟦した→する：00392_suru⟧。",
       "english": "It captivated the audience.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14685_miryou_ex2",
-      "japanese": "{彼女|かのじょ}の{歌声|うたごえ}は{世界中|せかいじゅう}の{人|ひと}を{魅了|みりょう}している。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{歌声|うたごえ}→歌声：20116_utagoe⟧⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{魅了|みりょう}⟦している→する：00392_suru⟧。",
       "english": "Her singing voice captivates people all over the world.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14685_miryou_ex3",
-      "japanese": "{初|はじ}めて{京都|きょうと}を{訪|おとず}れた{時|とき}、{古|ふる}い{寺院|じいん}の{美|うつく}しさにすっかり{魅了|みりょう}された。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{京都|きょうと}→京都：09484_kyouto⟧⟦を→を：00422_wo⟧⟦{訪|おとず}れた→訪れる：07678_otozureru⟧{時|とき}、⟦{古|ふる}い→古い：00488_furui⟧⟦{寺院|じいん}→寺院：00122_jiin⟧⟦の→の：09472_no⟧{美|うつく}しさ⟦に→に：00314_ni⟧⟦すっかり→すっかり：01270_sukkari⟧{魅了|みりょう}⟦された→する：00392_suru⟧。",
       "english": "When I first visited Kyoto, I was completely enchanted by the beauty of the old temples.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Often used in the passive form {魅了|みりょう}される (to be fascinated/captivated). A formal and somewhat literary word.\n\nCOMMON PATTERNS:\n- ～を{魅了|みりょう}する (to fascinate/captivate someone)\n- ～に{魅了|みりょう}される (to be fascinated by something)\n\nCOMMON COLLOCATIONS:\n- {観客|かんきゃく}を{魅了|みりょう}する (captivate the audience)\n- {世界|せかい}を{魅了|みりょう}する (captivate the world)\n- すっかり{魅了|みりょう}される (be completely enchanted)\n\nSIMILAR WORDS:\n- {魅力|みりょく} is the noun meaning charm/appeal\n- {魅了|みりょう} is the act of captivating\n- {虜|とりこ}にする also means to captivate (more informal)",
+  "notes": "Often used in the passive form {魅了|みりょう}⟦される→する：00392_suru⟧ (to be fascinated/captivated). A formal and somewhat literary word.\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{魅了|みりょう}⟦する→する：00392_suru⟧ (to fascinate/captivate someone)\n- ～⟦に→に：00314_ni⟧{魅了|みりょう}⟦される→する：00392_suru⟧ (to be fascinated by something)\n\nCOMMON COLLOCATIONS:\n- ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦を→を：00422_wo⟧{魅了|みりょう}⟦する→する：00392_suru⟧ (captivate the audience)\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧{魅了|みりょう}⟦する→する：00392_suru⟧ (captivate the world)\n- ⟦すっかり→すっかり：01270_sukkari⟧{魅了|みりょう}⟦される→する：00392_suru⟧ (be completely enchanted)\n\nSIMILAR WORDS:\n- ⟦{魅力|みりょく}→魅力：03749_miryoku⟧ is the noun meaning charm/appeal\n- {魅了|みりょう} is the act of captivating\n- ⟦{虜|とりこ}→虜：19350_toriko⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ also means to captivate (more informal)",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-02T11:03:59Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29985_hasshin_ex1",
-      "japanese": "{車|くるま}が{発進|はっしん}した。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{発進|はっしん}⟦した→する：00392_suru⟧。",
       "english": "The car pulled away.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29985_hasshin_ex2",
-      "japanese": "{信号|しんごう}が{青|あお}になって{発進|はっしん}する。",
+      "japanese": "⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧⟦{青|あお}→青：02841_ao⟧になって{発進|はっしん}⟦する→する：00392_suru⟧。",
       "english": "The light turns green and I move off.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29985_hasshin_ex3",
-      "japanese": "アクセルを{踏|ふ}みすぎると{急発進|きゅうはっしん}して{危|あぶ}ない。",
+      "japanese": "⟦アクセル→アクセル：06332_akuseru⟧⟦を→を：00422_wo⟧⟦{踏|ふ}み→踏む：01197_fumu⟧すぎる⟦と→と：00512_to⟧{急発進|きゅうはっしん}⟦して→する：00392_suru⟧⟦{危|あぶ}ない→危ない：00768_abunai⟧。",
       "english": "Pressing the accelerator too hard causes a sudden start, which is dangerous.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The counterpart to {停止|ていし} (stopping); refers to a vehicle beginning to move, not a person setting out.\n\nCOMMON COLLOCATIONS:\n- {発進|はっしん}する: to move off; to pull away\n- {急発進|きゅうはっしん}: sudden start\n- スムーズに{発進|はっしん}する: to move off smoothly\n\nSIMILAR WORDS:\n- {出発|しゅっぱつ}: departure — the broader word for setting out on a journey, used of people and scheduled services\n- {発車|はっしゃ}: (a train or bus) departing from a stop",
+  "notes": "The counterpart to ⟦{停止|ていし}→停止：04067_teishi⟧ (stopping); refers to a vehicle beginning to move, not a person setting out.\n\nCOMMON COLLOCATIONS:\n- {発進|はっしん}⟦する→する：00392_suru⟧: to move off; to pull away\n- {急発進|きゅうはっしん}: sudden start\n- ⟦スムーズ→スムーズ：11024_sumuuzu⟧⟦に→に：00314_ni⟧{発進|はっしん}⟦する→する：00392_suru⟧: to move off smoothly\n\nSIMILAR WORDS:\n- ⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧: departure — the broader word for setting out on a journey, used of people and scheduled services\n- ⟦{発車|はっしゃ}→発車：03694_hassha⟧: (a train or bus) departing from a stop",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "transportation"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

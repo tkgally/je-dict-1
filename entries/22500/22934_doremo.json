@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22934_doremo_ex1",
-      "japanese": "どれも{美味|おい}しい。",
+      "japanese": "どれも⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "They're all delicious.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22934_doremo_ex2",
-      "japanese": "どれも{同|おな}じに{見|み}える。",
+      "japanese": "どれも⟦{同|おな}じ→同じ：02857_onaji⟧⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "They all look the same to me.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22934_doremo_ex3",
-      "japanese": "{商品|しょうひん}はどれも{品質|ひんしつ}が{高|たか}いので、{安心|あんしん}して{買|か}えます。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧どれも⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦の→の：09472_no⟧で、⟦{安心|あんしん}して→安心する：06067_anshinsuru⟧⟦{買|か}えます→買う：00489_kau⟧。",
       "english": "All the products are high quality, so you can buy them with confidence.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines the interrogative pronoun どれ (which one) with the inclusive particle も to mean \"all of them\" or \"every single one.\" Used when referring to multiple items or options and indicating that the same judgment applies to each.\n\nCOMMON PATTERNS:\n- どれも〜ない: none of them (with negative verb)\n- どれも{同|おな}じ: they're all the same\n- どれもこれも: each and every one (emphatic)\n\nCOMMON COLLOCATIONS:\n- どれも{美味|おい}しい: they're all delicious\n- どれも{素晴|すば}らしい: they're all wonderful\n- どれも{気|き}に{入|い}らない: I don't like any of them\n\nSIMILAR WORDS:\n- どちらも: both (used for two items)\n- どれでも: any one of them / whichever (implies choosing one)\n- {全部|ぜんぶ}: all, everything — more general; どれも emphasizes individual items within a visible group",
+  "notes": "Combines the interrogative pronoun ⟦どれ→どれ：00547_dore⟧ (which one) with the inclusive particle ⟦も→も：00484_mo⟧ to mean \"all of them\" or \"every single one.\" Used when referring to multiple items or options and indicating that the same judgment applies to each.\n\nCOMMON PATTERNS:\n- どれも〜⟦ない→ない：01118_nai⟧: none of them (with negative verb)\n- どれも⟦{同|おな}じ→同じ：02857_onaji⟧: they're all the same\n- どれも⟦これ→これ：00963_kore⟧⟦も→も：00484_mo⟧: each and every one (emphatic)\n\nCOMMON COLLOCATIONS:\n- どれも⟦{美味|おい}しい→美味しい：00740_oishii⟧: they're all delicious\n- どれも⟦{素晴|すば}らしい→素晴らしい：01119_subarashii⟧: they're all wonderful\n- どれも⟦{気|き}に{入|い}らない→気に入る：02047_kiniiru⟧: I don't like any of them\n\nSIMILAR WORDS:\n- ⟦どちらも→どちらも：08721_dochiramo⟧: both (used for two items)\n- ⟦どれ→どれ：00547_dore⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧: any one of them / whichever (implies choosing one)\n- ⟦{全部|ぜんぶ}→全部：02888_zenbu⟧: all, everything — more general; どれも emphasizes individual items within a visible group",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -82,6 +82,6 @@
       "formality": "neutral"
     },
     "created": "2026-04-08T07:42:20Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

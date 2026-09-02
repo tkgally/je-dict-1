@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19119_hounin_ex1",
-      "japanese": "{子|こ}どもを{放任|ほうにん}する。",
+      "japanese": "{子|こ}ども⟦を→を：00422_wo⟧{放任|ほうにん}⟦する→する：00392_suru⟧。",
       "english": "To leave children to their own devices.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19119_hounin_ex2",
-      "japanese": "{放任|ほうにん}{主義|しゅぎ}の{教育|きょういく}にはメリットもデメリットもある。",
+      "japanese": "{放任|ほうにん}{主義|しゅぎ}⟦の→の：09472_no⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦メリット→メリット：06848_meritto⟧⟦も→も：00484_mo⟧⟦デメリット→デメリット：06849_demeritto⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "A laissez-faire approach to education has both merits and demerits.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19119_hounin_ex3",
-      "japanese": "{問題|もんだい}を{放任|ほうにん}していたら、{取|と}り{返|かえ}しのつかないことになる。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{放任|ほうにん}⟦していたら→する：00392_suru⟧、{取|と}り{返|かえ}し⟦の→の：09472_no⟧つかないこと⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you leave the problem alone, it will become irreversible.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{放任|ほうにん} means deliberately not intervening — letting someone or something take its own course. Composed of {放|ほう} (release) + {任|にん} (entrust).\n\nUSAGE:\nThe connotation depends on context. In parenting, it often implies neglect. In economics or management, it can be neutral or positive (laissez-faire).\n\nCOMMON EXPRESSIONS:\n- {放任|ほうにん}{主義|しゅぎ}: laissez-faire approach/philosophy\n- {放任|ほうにん}{教育|きょういく}: permissive/hands-off education\n- {放任|ほうにん}する: to leave alone, to let be\n\nSIMILAR WORDS:\n- {放置|ほうち}: to leave something unattended (focus on abandoning)\n- {放任|ほうにん}: to deliberately not interfere (focus on non-intervention policy)",
+  "notes": "{放任|ほうにん} means deliberately not intervening — letting someone or something take its own course. Composed of {放|ほう} (release) + {任|にん} (entrust).\n\nUSAGE:\nThe connotation depends on context. In parenting, it often implies neglect. In economics or management, it can be neutral or positive (laissez-faire).\n\nCOMMON EXPRESSIONS:\n- {放任|ほうにん}{主義|しゅぎ}: laissez-faire approach/philosophy\n- {放任|ほうにん}⟦{教育|きょういく}→教育：01313_kyouiku⟧: permissive/hands-off education\n- {放任|ほうにん}⟦する→する：00392_suru⟧: to leave alone, to let be\n\nSIMILAR WORDS:\n- ⟦{放置|ほうち}→放置：12826_houchi⟧: to leave something unattended (focus on abandoning)\n- {放任|ほうにん}: to deliberately not interfere (focus on non-intervention policy)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -157,9 +157,10 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-24T10:00:15Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

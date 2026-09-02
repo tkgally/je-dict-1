@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30272_kaisetsusuru_ex1",
-      "japanese": "{口座|こうざ}を{開設|かいせつ}する。",
+      "japanese": "⟦{口座|こうざ}→口座：05419_kouza⟧⟦を→を：00422_wo⟧{開設|かいせつ}する。",
       "english": "To open an account.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30272_kaisetsusuru_ex2",
-      "japanese": "{市|し}は{体育館|たいいくかん}に{避難所|ひなんじょ}を{開設|かいせつ}した。",
+      "japanese": "⟦{市|し}→市：01599_shi⟧⟦は→は：00079_ha⟧⟦{体育館|たいいくかん}→体育館：03111_taiikukan⟧⟦に→に：00314_ni⟧⟦{避難所|ひなんじょ}→避難所：07374_hinanjo⟧⟦を→を：00422_wo⟧{開設|かいせつ}した。",
       "english": "The city set up an evacuation shelter in the gymnasium.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30272_kaisetsusuru_ex3",
-      "japanese": "{相談|そうだん}を{受|う}け{付|つ}けるため、{専用|せんよう}の{窓口|まどぐち}を{開設|かいせつ}することになった。",
+      "japanese": "⟦{相談|そうだん}→相談：02089_soudan⟧⟦を→を：00422_wo⟧⟦{受|う}け{付|つ}ける→受け付ける：05683_uketsukeru⟧⟦ため→ため：01145_tame⟧、⟦{専用|せんよう}→専用：12385_senyou⟧⟦の→の：09472_no⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦を→を：00422_wo⟧{開設|かいせつ}することになった。",
       "english": "It has been decided to set up a dedicated help desk to receive inquiries.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\nTransitive; the thing opened takes を. The plain noun {開設|かいせつ} is common in notices: {窓口|まどぐち}{開設|かいせつ}のお{知|し}らせ.\n\nCOMMON COLLOCATIONS:\n- {口座|こうざ}を{開設|かいせつ}する: to open a bank account\n- {避難所|ひなんじょ}を{開設|かいせつ}する: to set up an evacuation shelter\n- ホームページを{開設|かいせつ}する: to launch a website\n- {窓口|まどぐち}を{開設|かいせつ}する: to open a service counter\n\nSIMILAR WORDS:\n- {設立|せつりつ}する: to found, establish — used of organizations and companies as legal entities\n- {開業|かいぎょう}する: to open for business — of a shop or practice starting trade\n- {開|ひら}く: to open — the everyday verb, from doors to meetings",
+  "notes": "TRANSITIVITY:\nTransitive; the thing opened takes ⟦を→を：00422_wo⟧. The plain noun ⟦{開設|かいせつ}→開設：14595_kaisetsu⟧ is common in notices: ⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦{開設|かいせつ}→開設：14595_kaisetsu⟧⟦の→の：09472_no⟧⟦お{知|し}らせ→お知らせ：18843_oshirase⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{口座|こうざ}→口座：05419_kouza⟧⟦を→を：00422_wo⟧{開設|かいせつ}する: to open a bank account\n- ⟦{避難所|ひなんじょ}→避難所：07374_hinanjo⟧⟦を→を：00422_wo⟧{開設|かいせつ}する: to set up an evacuation shelter\n- ⟦ホームページ→ホームページ：05869_hoomupeeji⟧⟦を→を：00422_wo⟧{開設|かいせつ}する: to launch a website\n- ⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦を→を：00422_wo⟧{開設|かいせつ}する: to open a service counter\n\nSIMILAR WORDS:\n- ⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧: to found, establish — used of organizations and companies as legal entities\n- ⟦{開業|かいぎょう}→開業：14570_kaigyou⟧⟦する→する：00392_suru⟧: to open for business — of a shop or practice starting trade\n- ⟦{開|ひら}く→開く：01979_hiraku⟧: to open — the everyday verb, from doors to meetings",
   "prominent_see_also": [
     {
       "target_id": "17850_kaisetsusuru",
@@ -91,10 +91,11 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:39Z"
   },
   "conjugation": {
     "type": "suru",

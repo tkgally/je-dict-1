@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "09292_bibiru_ex1",
-      "japanese": "{急|きゅう}にびびった。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧びびった。",
       "english": "I suddenly got startled.",
       "has_audio": false,
       "sense_numbers": [
@@ -118,7 +118,7 @@
     },
     {
       "id": "09292_bibiru_ex2",
-      "japanese": "{大|おお}きな{音|おと}にびびった。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧⟦{音|おと}→音：00743_oto⟧⟦に→に：00314_ni⟧びびった。",
       "english": "I got scared by the loud noise.",
       "has_audio": false,
       "sense_numbers": [
@@ -127,7 +127,7 @@
     },
     {
       "id": "09292_bibiru_ex3",
-      "japanese": "{暗|くら}い{道|みち}を{歩|ある}いていたらびびった。",
+      "japanese": "⟦{暗|くら}い→暗い：00647_kurai⟧⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{歩|ある}いていたら→歩く：00538_aruku⟧びびった。",
       "english": "I got scared while walking down the dark road.",
       "has_audio": false,
       "sense_numbers": [
@@ -136,7 +136,7 @@
     },
     {
       "id": "09292_bibiru_ex4",
-      "japanese": "びびるなよ。",
+      "japanese": "びびるな⟦よ→よ：09475_yo⟧。",
       "english": "Don't be scared.",
       "has_audio": false,
       "sense_numbers": [
@@ -145,7 +145,7 @@
     },
     {
       "id": "09292_bibiru_ex5",
-      "japanese": "{試合|しあい}{前|まえ}にびびっている。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧びびって⟦いる→いる：00495_iru⟧。",
       "english": "I'm getting nervous before the match.",
       "has_audio": false,
       "sense_numbers": [
@@ -154,7 +154,7 @@
     },
     {
       "id": "09292_bibiru_ex6",
-      "japanese": "{相手|あいて}の{迫力|はくりょく}にびびってしまった。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{迫力|はくりょく}→迫力：14310_hakuryoku⟧⟦に→に：00314_ni⟧びびってしまった。",
       "english": "I lost my nerve from the opponent's intimidating presence.",
       "has_audio": false,
       "sense_numbers": [
@@ -162,7 +162,7 @@
       ]
     }
   ],
-  "notes": "びびる is a colloquial godan verb used in casual speech. It originated from onomatopoeia describing trembling or shaking with fear.\n\nREGISTER:\nThis is an informal/colloquial word not appropriate for formal situations. Use {驚|おどろ}く or {怖|こわ}がる in formal contexts.\n\nCOMMON PATTERNS:\n- ～にびびる: to be scared/nervous about something\n- びびるな: don't be scared/nervous\n- びびっている: being scared/nervous (state)\n\nASPECT (ている):\nびびっている indicates an ongoing state of being scared or nervous.",
+  "notes": "びびる is a colloquial godan verb used in casual speech. It originated from onomatopoeia describing trembling or shaking with fear.\n\nREGISTER:\nThis is an informal/colloquial word not appropriate for formal situations. Use ⟦{驚|おどろ}く→驚く：01255_odoroku⟧ or {怖|こわ}⟦がる→〜がる：03089_garu⟧ in formal contexts.\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧びびる: to be scared/nervous about something\n- びびるな: don't be scared/nervous\n- びびって⟦いる→いる：00495_iru⟧: being scared/nervous (state)\n\nASPECT (ている):\nびびって⟦いる→いる：00495_iru⟧ indicates an ongoing state of being scared or nervous.",
   "cross_references": [
     {
       "type": "related",
@@ -181,7 +181,7 @@
   ],
   "metadata": {
     "created": "2026-02-01T07:05:08Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -195,7 +195,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     }
   }
 }

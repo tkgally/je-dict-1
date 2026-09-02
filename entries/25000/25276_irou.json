@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25276_irou_ex1",
-      "japanese": "{社員|しゃいん}を{慰労|いろう}する。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧{慰労|いろう}⟦する→する：00392_suru⟧。",
       "english": "To show appreciation to the employees for their hard work.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25276_irou_ex2",
-      "japanese": "{慰労|いろう}{会|かい}でスタッフの{労|ろう}をねぎらった。",
+      "japanese": "{慰労|いろう}{会|かい}⟦で→で：00502_de⟧⟦スタッフ→スタッフ：11046_sutaffu⟧⟦の→の：09472_no⟧{労|ろう}⟦を→を：00422_wo⟧ねぎらった。",
       "english": "We thanked the staff for their hard work at the appreciation party.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25276_irou_ex3",
-      "japanese": "{長年|ながねん}の{功績|こうせき}に{対|たい}して{慰労|いろう}{金|きん}が{支給|しきゅう}された。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{功績|こうせき}→功績：04143_kouseki⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧{慰労|いろう}{金|きん}⟦が→が：00051_ga⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦された→する：00392_suru⟧。",
       "english": "A recognition bonus was given for years of distinguished service.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {慰|い} (comfort, console) + {労|ろう} (labor, toil). Expresses gratitude and comfort to those who have worked hard or endured hardship. Commonly used in workplace and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {慰労|いろう}{会|かい}: appreciation party; thank-you gathering\n- {慰労|いろう}{金|きん}: recognition bonus; gratuity for service\n- {慰労|いろう}の{言葉|ことば}: words of appreciation\n- {慰労|いろう}{旅行|りょこう}: appreciation trip (reward trip for employees)\n\nSIMILAR WORDS:\n- ねぎらう: to thank/appreciate someone's effort — a verb with similar meaning, used more in everyday speech\n- {慰安|いあん}: comfort, consolation — focuses more on providing relief and pleasure than recognizing effort\n- {労|ろう}をねぎらう: to appreciate someone's labor — a common expression with overlapping meaning",
+  "notes": "Composed of {慰|い} (comfort, console) + {労|ろう} (labor, toil). Expresses gratitude and comfort to those who have worked hard or endured hardship. Commonly used in workplace and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {慰労|いろう}{会|かい}: appreciation party; thank-you gathering\n- {慰労|いろう}{金|きん}: recognition bonus; gratuity for service\n- {慰労|いろう}⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧: words of appreciation\n- {慰労|いろう}⟦{旅行|りょこう}→旅行：00748_ryokou⟧: appreciation trip (reward trip for employees)\n\nSIMILAR WORDS:\n- ねぎらう: to thank/appreciate someone's effort — a verb with similar meaning, used more in everyday speech\n- ⟦{慰安|いあん}→慰安：27804_ian⟧: comfort, consolation — focuses more on providing relief and pleasure than recognizing effort\n- {労|ろう}⟦を→を：00422_wo⟧ねぎらう: to appreciate someone's labor — a common expression with overlapping meaning",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,10 +89,11 @@
         "work",
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T13:13:00Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

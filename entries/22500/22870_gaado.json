@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "22870_gaado_ex1",
-      "japanese": "ガードを{固|かた}める。",
+      "japanese": "ガード⟦を→を：00422_wo⟧⟦{固|かた}める→固める：01929_katameru⟧。",
       "english": "To strengthen one's guard.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "22870_gaado_ex2",
-      "japanese": "{彼|かれ}はガードが{堅|かた}くて{隙|すき}がない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧ガード⟦が→が：00051_ga⟧⟦{堅|かた}くて→堅い：18753_katai⟧⟦{隙|すき}→隙：10999_suki_gap⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "His guard is solid with no openings.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "22870_gaado_ex3",
-      "japanese": "{相手|あいて}のパンチをガードする。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦パンチ→パンチ：11258_panchi⟧⟦を→を：00422_wo⟧ガード⟦する→する：00392_suru⟧。",
       "english": "To guard against the opponent's punch.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "22870_gaado_ex4",
-      "japanese": "ガード{下|した}の{居酒屋|いざかや}に{入|はい}った。",
+      "japanese": "ガード⟦{下|した}→下：00670_shita⟧⟦の→の：09472_no⟧⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "We went into an izakaya under the railway overpass.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "22870_gaado_ex5",
-      "japanese": "{線路|せんろ}のガードをくぐって{向|む}こう{側|がわ}に{出|で}た。",
+      "japanese": "⟦{線路|せんろ}→線路：04041_senro⟧⟦の→の：09472_no⟧ガード⟦を→を：00422_wo⟧くぐって⟦{向|む}こう{側|がわ}→向こう側：08504_mukougawa⟧⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "We passed under the railway overpass and came out on the other side.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "22870_gaado_ex6",
-      "japanese": "このガード{下|した}は{背|せ}の{高|たか}いトラックは{通|とお}れない。",
+      "japanese": "⟦この→この：00962_kono⟧ガード⟦{下|した}→下：00670_shita⟧⟦は→は：00079_ha⟧⟦{背|せ}→背：02907_se⟧⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧⟦トラック→トラック：03863_torakku⟧⟦は→は：00079_ha⟧⟦{通|とお}れない→通る：01243_tooru⟧。",
       "english": "Tall trucks can't pass under this railway overpass.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "From English \"guard.\" Has developed a meaning unique to Japanese: a railway overpass or elevated track bridge over a road.\n\nCOMMON COLLOCATIONS:\n- ガードが{堅|かた}い: to have a tight guard; to be guarded (also figuratively: hard to approach emotionally)\n- ガードを{固|かた}める: to strengthen one's guard\n- ガードする: to guard; to defend\n- ガード{下|した}: under the railway overpass (a common location for small shops and bars)\n\nSIMILAR WORDS:\n- {防御|ぼうぎょ}: defense — the native Japanese word for defense or protection\n- {高架|こうか}: elevated structure — a more formal term for an overpass or viaduct\n- {陸橋|りっきょう}: overpass, footbridge — can refer to pedestrian overpasses as well",
+  "notes": "From English \"guard.\" Has developed a meaning unique to Japanese: a railway overpass or elevated track bridge over a road.\n\nCOMMON COLLOCATIONS:\n- ガード⟦が→が：00051_ga⟧⟦{堅|かた}い→堅い：18753_katai⟧: to have a tight guard; to be guarded (also figuratively: hard to approach emotionally)\n- ガード⟦を→を：00422_wo⟧⟦{固|かた}める→固める：01929_katameru⟧: to strengthen one's guard\n- ガード⟦する→する：00392_suru⟧: to guard; to defend\n- ガード⟦{下|した}→下：00670_shita⟧: under the railway overpass (a common location for small shops and bars)\n\nSIMILAR WORDS:\n- ⟦{防御|ぼうぎょ}→防御：14575_bougyo⟧: defense — the native Japanese word for defense or protection\n- {高架|こうか}: elevated structure — a more formal term for an overpass or viaduct\n- {陸橋|りっきょう}: overpass, footbridge — can refer to pedestrian overpasses as well",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -103,10 +103,11 @@
         "sports",
         "transportation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

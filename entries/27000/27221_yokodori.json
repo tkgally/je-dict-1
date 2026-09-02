@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27221_yokodori_ex1",
-      "japanese": "{手柄|てがら}を{横取|よこど}りされた。",
+      "japanese": "⟦{手柄|てがら}→手柄：10562_tegara⟧⟦を→を：00422_wo⟧{横取|よこど}り⟦された→する：00392_suru⟧。",
       "english": "Someone stole the credit for my work.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27221_yokodori_ex2",
-      "japanese": "{猫|ねこ}に{魚|さかな}を{横取|よこど}りされた。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦に→に：00314_ni⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{横取|よこど}り⟦された→する：00392_suru⟧。",
       "english": "The cat snatched my fish.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27221_yokodori_ex3",
-      "japanese": "{彼|かれ}はいつも{人|ひと}のアイデアを{横取|よこど}りして{自分|じぶん}のものにする。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦アイデア→アイデア：10161_aidea⟧⟦を→を：00422_wo⟧{横取|よこど}り⟦して→する：00392_suru⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧もの⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "He always steals other people's ideas and claims them as his own.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "From {横|よこ} (side/lateral) + {取|と}り (taking). The image is of someone coming from the side to snatch something away — an unexpected, unfair taking. Can be used with する as a suru-verb. Always carries a negative nuance of unfairness.\n\nCOMMON COLLOCATIONS:\n- {手柄|てがら}を{横取|よこど}りする: to steal credit\n- {獲物|えもの}を{横取|よこど}りする: to steal someone's prey/prize\n- {客|きゃく}を{横取|よこど}りする: to poach a customer\n- ～に{横取|よこど}りされる: to have something snatched by...\n\nSIMILAR WORDS:\n- {奪|うば}う: to seize; to rob — a more forceful, direct taking\n- {掠|かす}め{取|と}る: to snatch; to swipe — emphasizes speed and stealth\n- {盗|ぬす}む: to steal — the general word for stealing\n- {横領|おうりょう}: embezzlement — a legal/formal term for misappropriating entrusted assets",
+  "notes": "From ⟦{横|よこ}→横：02984_yoko⟧ (side/lateral) + ⟦{取|と}り→取る：00565_toru⟧ (taking). The image is of someone coming from the side to snatch something away — an unexpected, unfair taking. Can be used with ⟦する→する：00392_suru⟧ as a suru-verb. Always carries a negative nuance of unfairness.\n\nCOMMON COLLOCATIONS:\n- ⟦{手柄|てがら}→手柄：10562_tegara⟧⟦を→を：00422_wo⟧{横取|よこど}り⟦する→する：00392_suru⟧: to steal credit\n- ⟦{獲物|えもの}→獲物：08638_emono⟧⟦を→を：00422_wo⟧{横取|よこど}り⟦する→する：00392_suru⟧: to steal someone's prey/prize\n- ⟦{客|きゃく}→客：00865_kyaku⟧⟦を→を：00422_wo⟧{横取|よこど}り⟦する→する：00392_suru⟧: to poach a customer\n- ～⟦に→に：00314_ni⟧{横取|よこど}り⟦される→する：00392_suru⟧: to have something snatched by...\n\nSIMILAR WORDS:\n- ⟦{奪|うば}う→奪う：01895_ubau⟧: to seize; to rob — a more forceful, direct taking\n- {掠|かす}め{取|と}る: to snatch; to swipe — emphasizes speed and stealth\n- ⟦{盗|ぬす}む→盗む：01166_nusumu⟧: to steal — the general word for stealing\n- ⟦{横領|おうりょう}→横領：09001_ouryou⟧: embezzlement — a legal/formal term for misappropriating entrusted assets",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -82,10 +82,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-07T16:20:32Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "suru",

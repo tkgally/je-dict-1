@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16085_hisan_ex1",
-      "japanese": "{花粉|かふん}が{飛散|ひさん}している。",
+      "japanese": "⟦{花粉|かふん}→花粉：04372_kafun⟧⟦が→が：00051_ga⟧{飛散|ひさん}⟦している→する：00392_suru⟧。",
       "english": "Pollen is being dispersed in the air.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16085_hisan_ex2",
-      "japanese": "{今年|ことし}は{花粉|かふん}の{飛散|ひさん}{量|りょう}が{多|おお}い。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧⟦{花粉|かふん}→花粉：04372_kafun⟧⟦の→の：09472_no⟧{飛散|ひさん}⟦{量|りょう}→量：03799_ryou⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "The amount of pollen dispersal is high this year.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16085_hisan_ex3",
-      "japanese": "ガラスの{破片|はへん}が{飛散|ひさん}して{危険|きけん}なので、{近|ちか}づかないでください。",
+      "japanese": "⟦ガラス→ガラス：01777_garasu⟧⟦の→の：09472_no⟧⟦{破片|はへん}→破片：00082_hahen⟧⟦が→が：00051_ga⟧{飛散|ひさん}⟦して→する：00392_suru⟧⟦{危険|きけん}→危険：01141_kiken⟧な⟦の→の：09472_no⟧で、⟦{近|ちか}づかないで→近づく：01958_chikazuku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Glass fragments have scattered and it's dangerous, so please stay away.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly encountered in news and weather reports about pollen season ({花粉|かふん}{飛散|ひさん}). Also used for debris from explosions, accidents, or construction. Used as a suru-verb ({飛散|ひさん}する).\n\nCOMMON COLLOCATIONS:\n- {花粉|かふん}{飛散|ひさん} (pollen dispersal)\n- {飛散|ひさん}{防止|ぼうし} (prevention of scattering)\n- {飛散|ひさん}{量|りょう} (amount of dispersal)\n\nSIMILAR WORDS:\n- {散乱|さんらん}: scattering, being strewn about — for objects on the ground rather than in the air\n- {拡散|かくさん}: diffusion, spreading — broader dispersal over a wider area",
+  "notes": "USAGE:\nMost commonly encountered in news and weather reports about pollen season (⟦{花粉|かふん}→花粉：04372_kafun⟧{飛散|ひさん}). Also used for debris from explosions, accidents, or construction. Used as a suru-verb ({飛散|ひさん}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{花粉|かふん}→花粉：04372_kafun⟧{飛散|ひさん} (pollen dispersal)\n- {飛散|ひさん}⟦{防止|ぼうし}→防止：14571_boushi⟧ (prevention of scattering)\n- {飛散|ひさん}⟦{量|りょう}→量：03799_ryou⟧ (amount of dispersal)\n\nSIMILAR WORDS:\n- ⟦{散乱|さんらん}→散乱：21487_sanran⟧: scattering, being strewn about — for objects on the ground rather than in the air\n- ⟦{拡散|かくさん}→拡散：08178_kakusan⟧: diffusion, spreading — broader dispersal over a wider area",
   "cross_references": [
     {
       "type": "synonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-09T12:21:25Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
         "nature",
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

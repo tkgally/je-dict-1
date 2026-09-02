@@ -139,7 +139,7 @@
     },
     {
       "id": "04335_seizon_ex4",
-      "japanese": "⟦その→その：00993_sono⟧⟦{種|しゅ}→種：noentry⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{生存|せいぞん}している。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{種|しゅ}→種：noentry⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{生存|せいぞん}⟦している→する：00392_suru⟧。",
       "english": "That species still exists.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "04335_seizon_ex6",
-      "japanese": "⟦{宇宙|うちゅう}→宇宙：01861_uchuu⟧⟦に→に：00314_ni⟧⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦{以外|いがい}→以外：01297_igai⟧⟦の→の：09472_no⟧⟦{生命|せいめい}→生命：03296_seimei⟧⟦が→が：00051_ga⟧{生存|せいぞん}している⟦か→か：09473_ka⟧どうか⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
+      "japanese": "⟦{宇宙|うちゅう}→宇宙：01861_uchuu⟧⟦に→に：00314_ni⟧⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦{以外|いがい}→以外：01297_igai⟧⟦の→の：09472_no⟧⟦{生命|せいめい}→生命：03296_seimei⟧⟦が→が：00051_ga⟧{生存|せいぞん}⟦している→する：00392_suru⟧⟦か→か：09473_ka⟧⟦どう→どう：00543_dou⟧⟦か→か：09473_ka⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "It's still unknown whether life exists anywhere in the universe besides Earth.",
       "notes": null,
       "has_audio": false,
@@ -201,7 +201,7 @@
   ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -217,7 +217,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

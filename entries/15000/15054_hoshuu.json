@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15054_hoshuu_ex1",
-      "japanese": "{道路|どうろ}の{補修|ほしゅう}{工事|こうじ}が{始|はじ}まった。",
+      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧{補修|ほしゅう}⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Road repair work has begun.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15054_hoshuu_ex2",
-      "japanese": "{屋根|やね}を{補修|ほしゅう}してもらった。",
+      "japanese": "⟦{屋根|やね}→屋根：02264_yane⟧⟦を→を：00422_wo⟧{補修|ほしゅう}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had the roof repaired.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15054_hoshuu_ex3",
-      "japanese": "{老朽化|ろうきゅうか}した{校舎|こうしゃ}の{補修|ほしゅう}に{多額|たがく}の{費用|ひよう}がかかる。",
+      "japanese": "⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦した→する：00392_suru⟧⟦{校舎|こうしゃ}→校舎：02801_kousha⟧⟦の→の：09472_no⟧{補修|ほしゅう}⟦に→に：00314_ni⟧⟦{多額|たがく}→多額：12309_tagaku⟧⟦の→の：09472_no⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Repairing the aging school building will cost a large amount.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{補修|ほしゅう} refers to repairing things that have deteriorated over time, particularly structures and infrastructure. It implies restoring something to a functional state rather than replacing it entirely.\n\nCOMMON COLLOCATIONS:\n- {補修|ほしゅう}{工事|こうじ} (repair work/construction)\n- {補修|ほしゅう}{費用|ひよう} (repair costs)\n- {道路|どうろ}の{補修|ほしゅう} (road repair)\n- {補修|ほしゅう}する (to repair)\n\nSIMILAR WORDS:\n{修理|しゅうり} is a broader term for fixing broken items (appliances, machines). {補修|ほしゅう} focuses on maintaining or patching up structures and facilities. {修繕|しゅうぜん} is more formal and often used for building maintenance.",
+  "notes": "USAGE:\n{補修|ほしゅう} refers to repairing things that have deteriorated over time, particularly structures and infrastructure. It implies restoring something to a functional state rather than replacing it entirely.\n\nCOMMON COLLOCATIONS:\n- {補修|ほしゅう}⟦{工事|こうじ}→工事：00244_kouji⟧ (repair work/construction)\n- {補修|ほしゅう}{費用|ひよう} (repair costs)\n- ⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧{補修|ほしゅう} (road repair)\n- {補修|ほしゅう}⟦する→する：00392_suru⟧ (to repair)\n\nSIMILAR WORDS:\n⟦{修理|しゅうり}→修理：03214_shuuri⟧ is a broader term for fixing broken items (appliances, machines). {補修|ほしゅう} focuses on maintaining or patching up structures and facilities. ⟦{修繕|しゅうぜん}→修繕：06569_shuuzen⟧ is more formal and often used for building maintenance.",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-05T06:20:34Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

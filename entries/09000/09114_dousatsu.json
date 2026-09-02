@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09114_dousatsu_ex1",
-      "japanese": "{鋭|するど}い{洞察力|どうさつりょく}",
+      "japanese": "⟦{鋭|するど}い→鋭い：02347_surudoi⟧⟦{洞察力|どうさつりょく}→洞察力：08523_dousatsuryoku⟧",
       "english": "keen insight",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09114_dousatsu_ex2",
-      "japanese": "{彼|かれ}は{人|ひと}の{心|こころ}を{洞察|どうさつ}する{力|ちから}がある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧{洞察|どうさつ}⟦する→する：00392_suru⟧⟦{力|ちから}→力：01661_chikara⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "He has the ability to see through people's hearts.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09114_dousatsu_ex3",
-      "japanese": "この{小説|しょうせつ}には{人間|にんげん}{心理|しんり}への{深|ふか}い{洞察|どうさつ}が{見|み}られる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{人間|にんげん}→人間：03523_ningen⟧⟦{心理|しんり}→心理：03332_shinri⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{深|ふか}い→深い：01211_fukai⟧{洞察|どうさつ}⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "Deep insight into human psychology can be seen in this novel.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE: {洞察|どうさつ} implies seeing beyond the surface to understand underlying truths. Often used with {力|りょく} to form {洞察力|どうさつりょく} (insight, perceptiveness).\n\nCOMMON COLLOCATIONS:\n- {洞察力|どうさつりょく} (insight, perceptiveness)\n- {鋭|するど}い{洞察|どうさつ} (keen/sharp insight)\n- {深|ふか}い{洞察|どうさつ} (deep insight)\n- {洞察|どうさつ}を{得|え}る (to gain insight)\n\nRELATED WORDS:\n- {観察|かんさつ} (observation - more external, empirical)\n- {察知|さっち} (perception - detecting/sensing)\n- {見抜|みぬ}く (to see through - verb form)",
+  "notes": "USAGE: {洞察|どうさつ} implies seeing beyond the surface to understand underlying truths. Often used with {力|りょく} to form ⟦{洞察力|どうさつりょく}→洞察力：08523_dousatsuryoku⟧ (insight, perceptiveness).\n\nCOMMON COLLOCATIONS:\n- ⟦{洞察力|どうさつりょく}→洞察力：08523_dousatsuryoku⟧ (insight, perceptiveness)\n- ⟦{鋭|するど}い→鋭い：02347_surudoi⟧{洞察|どうさつ} (keen/sharp insight)\n- ⟦{深|ふか}い→深い：01211_fukai⟧{洞察|どうさつ} (deep insight)\n- {洞察|どうさつ}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧ (to gain insight)\n\nRELATED WORDS:\n- ⟦{観察|かんさつ}→観察：02558_kansatsu⟧ (observation - more external, empirical)\n- ⟦{察知|さっち}→察知：21208_sacchi⟧ (perception - detecting/sensing)\n- ⟦{見抜|みぬ}く→見抜く：06975_minuku⟧ (to see through - verb form)",
   "cross_references": [
     {
       "type": "synonym",
@@ -173,7 +173,7 @@
   ],
   "metadata": {
     "created": "2026-01-31T10:43:39Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -186,7 +186,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

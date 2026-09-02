@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14037_hojuu_ex1",
-      "japanese": "{在庫|ざいこ}を{補充|ほじゅう}する。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦を→を：00422_wo⟧{補充|ほじゅう}⟦する→する：00392_suru⟧。",
       "english": "Restock the inventory.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14037_hojuu_ex2",
-      "japanese": "{人手|ひとで}が{足|た}りないので、{人員|じんいん}を{補充|ほじゅう}する{必要|ひつよう}がある。",
+      "japanese": "⟦{人手|ひとで}→人手：25438_hitode⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧⟦の→の：09472_no⟧で、⟦{人員|じんいん}→人員：17843_jinin⟧⟦を→を：00422_wo⟧{補充|ほじゅう}⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We're short-staffed, so we need to bring in additional personnel.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14037_hojuu_ex3",
-      "japanese": "{自動販売機|じどうはんばいき}の{飲|の}み{物|もの}を{定期的|ていきてき}に{補充|ほじゅう}するのが{私|わたし}の{仕事|しごと}です。",
+      "japanese": "⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧⟦の→の：09472_no⟧⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦を→を：00422_wo⟧⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧{補充|ほじゅう}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧です。",
       "english": "My job is to regularly restock the drinks in the vending machines.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA practical word common in business and daily life. Used for restocking goods, replenishing supplies, and filling personnel vacancies.\n\nSIMILAR WORDS:\n- {補給|ほきゅう}: supply, replenishment (often military or large-scale logistics)\n- {補充|ほじゅう}: replenishment, restocking (general filling of shortages)\n- {補填|ほてん}: compensation, making up for a deficit (especially financial)\n\nCOMMON COLLOCATIONS:\n- {在庫|ざいこ}を{補充|ほじゅう}する: to restock inventory\n- {人員|じんいん}を{補充|ほじゅう}する: to supplement personnel\n- {補充|ほじゅう}{要員|よういん}: replacement personnel",
+  "notes": "USAGE:\nA practical word common in business and daily life. Used for restocking goods, replenishing supplies, and filling personnel vacancies.\n\nSIMILAR WORDS:\n- ⟦{補給|ほきゅう}→補給：14055_hokyuu⟧: supply, replenishment (often military or large-scale logistics)\n- {補充|ほじゅう}: replenishment, restocking (general filling of shortages)\n- ⟦{補填|ほてん}→補填：16968_hoten⟧: compensation, making up for a deficit (especially financial)\n\nCOMMON COLLOCATIONS:\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦を→を：00422_wo⟧{補充|ほじゅう}⟦する→する：00392_suru⟧: to restock inventory\n- ⟦{人員|じんいん}→人員：17843_jinin⟧⟦を→を：00422_wo⟧{補充|ほじゅう}⟦する→する：00392_suru⟧: to supplement personnel\n- {補充|ほじゅう}{要員|よういん}: replacement personnel",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T10:11:05Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +183,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

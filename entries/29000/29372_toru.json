@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "29372_toru_ex1",
-      "japanese": "{栄養|えいよう}を{摂|と}る。",
+      "japanese": "⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧{摂|と}る。",
       "english": "To take in nutrition.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "29372_toru_ex2",
-      "japanese": "{水分|すいぶん}をこまめに{摂|と}りましょう。",
+      "japanese": "⟦{水分|すいぶん}→水分：04302_suibun⟧⟦を→を：00422_wo⟧⟦こまめ→こまめ：10325_komame⟧⟦に→に：00314_ni⟧{摂|と}りましょう。",
       "english": "Let's take in fluids frequently.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "29372_toru_ex3",
-      "japanese": "{忙|いそが}しくても、{朝食|ちょうしょく}はしっかり{摂|と}るようにしている。",
+      "japanese": "⟦{忙|いそが}しくて→忙しい：00591_isogashii⟧⟦も→も：00484_mo⟧、⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧⟦は→は：00079_ha⟧⟦しっかり→しっかり：01272_shikkari⟧{摂|と}るようにして⟦いる→いる：00495_iru⟧。",
       "english": "Even when I'm busy, I make sure to eat a proper breakfast.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nTransitive; the thing consumed is marked with を. Common objects are {栄養|えいよう} (nutrition), {水分|すいぶん} (fluids), カロリー (calories), {食事|しょくじ} (a meal), and {睡眠|すいみん} (sleep).\n\nThis is one of several verbs read とる. {摂|と}る is reserved for taking nutrients, food, or sleep into the body. For grabbing or picking up objects use {取|と}る, and the general kana spelling とる covers all of these readings in casual writing.\n\nCOMMON COLLOCATIONS:\n- {栄養|えいよう}を{摂|と}る: to take in nutrition\n- {水分|すいぶん}を{摂|と}る: to stay hydrated\n- {睡眠|すいみん}を{摂|と}る: to get sleep",
+  "notes": "TRANSITIVITY:\nTransitive; the thing consumed is marked with ⟦を→を：00422_wo⟧. Common objects are ⟦{栄養|えいよう}→栄養：01882_eiyou⟧ (nutrition), ⟦{水分|すいぶん}→水分：04302_suibun⟧ (fluids), ⟦カロリー→カロリー：06109_karorii⟧ (calories), ⟦{食事|しょくじ}→食事：02087_shokuji⟧ (a meal), and ⟦{睡眠|すいみん}→睡眠：03359_suimin⟧ (sleep).\n\nThis is one of several verbs read とる. {摂|と}る is reserved for taking nutrients, food, or sleep into the body. For grabbing or picking up objects use ⟦{取|と}る→取る：00565_toru⟧, and the general kana spelling とる covers all of these readings in casual writing.\n\nCOMMON COLLOCATIONS:\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧{摂|と}る: to take in nutrition\n- ⟦{水分|すいぶん}→水分：04302_suibun⟧⟦を→を：00422_wo⟧{摂|と}る: to stay hydrated\n- ⟦{睡眠|すいみん}→睡眠：03359_suimin⟧⟦を→を：00422_wo⟧{摂|と}る: to get sleep",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +58,11 @@
         "consumption"
       ],
       "domain": [],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-06-20T18:18:01Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "conjugation": {
     "type": "godan",

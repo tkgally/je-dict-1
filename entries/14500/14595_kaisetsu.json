@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14595_kaisetsu_ex1",
-      "japanese": "{銀行|ぎんこう}{口座|こうざ}を{開設|かいせつ}する。",
+      "japanese": "⟦{銀行|ぎんこう}{口座|こうざ}→銀行口座：27021_ginkoukouza⟧⟦を→を：00422_wo⟧{開設|かいせつ}⟦する→する：00392_suru⟧。",
       "english": "To open a bank account.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14595_kaisetsu_ex2",
-      "japanese": "{会社|かいしゃ}のホームページを{開設|かいせつ}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦ホームページ→ホームページ：05869_hoomupeeji⟧⟦を→を：00422_wo⟧{開設|かいせつ}⟦した→する：00392_suru⟧。",
       "english": "We set up the company's website.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14595_kaisetsu_ex3",
-      "japanese": "{市|し}は{災害|さいがい}{時|じ}の{避難所|ひなんじょ}として、{新|あたら}しい{施設|しせつ}を{開設|かいせつ}することを{決定|けってい}した。",
+      "japanese": "⟦{市|し}→市：01599_shi⟧⟦は→は：00079_ha⟧⟦{災害|さいがい}→災害：09636_saigai⟧⟦{時|じ}→時：09869_ji⟧⟦の→の：09472_no⟧⟦{避難所|ひなんじょ}→避難所：07374_hinanjo⟧⟦として→として：06802_toshite⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦を→を：00422_wo⟧{開設|かいせつ}⟦する→する：00392_suru⟧こと⟦を→を：00422_wo⟧⟦{決定|けってい}した→決定する：21022_ketteisuru⟧。",
       "english": "The city decided to establish a new facility to serve as an evacuation shelter in times of disaster.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{開設|かいせつ} is used for creating or opening something institutional or systematic — bank accounts, websites, offices, courses, facilities. It is more formal than simply {開|ひら}く and implies official establishment.\n\nCOMMON COLLOCATIONS:\n- {口座|こうざ}を{開設|かいせつ}する (to open an account)\n- ホームページを{開設|かいせつ}する (to set up a website)\n- {事務所|じむしょ}を{開設|かいせつ}する (to open an office)\n- {講座|こうざ}を{開設|かいせつ}する (to establish a course)\n- {窓口|まどぐち}を{開設|かいせつ}する (to open a service counter)\n\nWATCH OUT:\n{解説|かいせつ} (explanation, commentary) shares the same reading but has a completely different meaning and kanji.",
+  "notes": "USAGE:\n{開設|かいせつ} is used for creating or opening something institutional or systematic — bank accounts, websites, offices, courses, facilities. It is more formal than simply ⟦{開|ひら}く→開く：01979_hiraku⟧ and implies official establishment.\n\nCOMMON COLLOCATIONS:\n- ⟦{口座|こうざ}→口座：05419_kouza⟧⟦を→を：00422_wo⟧{開設|かいせつ}⟦する→する：00392_suru⟧ (to open an account)\n- ⟦ホームページ→ホームページ：05869_hoomupeeji⟧⟦を→を：00422_wo⟧{開設|かいせつ}⟦する→する：00392_suru⟧ (to set up a website)\n- ⟦{事務所|じむしょ}→事務所：01032_jimusho⟧⟦を→を：00422_wo⟧{開設|かいせつ}⟦する→する：00392_suru⟧ (to open an office)\n- ⟦{講座|こうざ}→講座：09790_kouza⟧⟦を→を：00422_wo⟧{開設|かいせつ}⟦する→する：00392_suru⟧ (to establish a course)\n- ⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦を→を：00422_wo⟧{開設|かいせつ}⟦する→する：00392_suru⟧ (to open a service counter)\n\nWATCH OUT:\n⟦{解説|かいせつ}→解説：00138_kaisetsu⟧ (explanation, commentary) shares the same reading but has a completely different meaning and kanji.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-02T07:50:31Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

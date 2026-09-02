@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24539_teisen_ex1",
-      "japanese": "{両国|りょうこく}は{停戦|ていせん}した。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧{停戦|ていせん}⟦した→する：00392_suru⟧。",
       "english": "The two countries agreed to a ceasefire.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24539_teisen_ex2",
-      "japanese": "{停戦|ていせん}{協定|きょうてい}が{結|むす}ばれた。",
+      "japanese": "{停戦|ていせん}⟦{協定|きょうてい}→協定：05320_kyoutei⟧⟦が→が：00051_ga⟧⟦{結|むす}ばれた→結ぶ：02308_musubu⟧。",
       "english": "A ceasefire agreement was signed.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24539_teisen_ex3",
-      "japanese": "{国連|こくれん}は{即時|そくじ}{停戦|ていせん}を{求|もと}める{決議|けつぎ}を{採択|さいたく}した。",
+      "japanese": "⟦{国連|こくれん}→国連：12035_kokuren⟧⟦は→は：00079_ha⟧⟦{即時|そくじ}→即時：22475_sokuji⟧{停戦|ていせん}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧⟦{決議|けつぎ}→決議：16467_ketsugi⟧⟦を→を：00422_wo⟧⟦{採択|さいたく}→採択：06784_saitaku⟧⟦した→する：00392_suru⟧。",
       "english": "The United Nations adopted a resolution calling for an immediate ceasefire.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers to a temporary or permanent halt in fighting between opposing forces. Unlike {終戦|しゅうせん} (end of war), {停戦|ていせん} implies a pause that may or may not lead to permanent peace.\n\nCOMMON COLLOCATIONS:\n- {停戦|ていせん}{協定|きょうてい}: ceasefire agreement\n- {停戦|ていせん}{交渉|こうしょう}: ceasefire negotiations\n- {停戦|ていせん}{合意|ごうい}: ceasefire accord\n- {即時|そくじ}{停戦|ていせん}: immediate ceasefire\n- {停戦|ていせん}ライン: ceasefire line\n- {停戦|ていせん}{違反|いはん}: ceasefire violation\n\nSIMILAR WORDS:\n- {休戦|きゅうせん}: armistice — slightly more formal, often used for longer-term truces\n- {終戦|しゅうせん}: end of war — refers to the final conclusion of hostilities, not a temporary halt\n- {講和|こうわ}: peace — refers to formal peace negotiations or treaties after conflict ends",
+  "notes": "Refers to a temporary or permanent halt in fighting between opposing forces. Unlike ⟦{終戦|しゅうせん}→終戦：18973_shuusen⟧ (end of war), {停戦|ていせん} implies a pause that may or may not lead to permanent peace.\n\nCOMMON COLLOCATIONS:\n- {停戦|ていせん}⟦{協定|きょうてい}→協定：05320_kyoutei⟧: ceasefire agreement\n- {停戦|ていせん}⟦{交渉|こうしょう}→交渉：02727_koushou⟧: ceasefire negotiations\n- {停戦|ていせん}⟦{合意|ごうい}→合意：05093_goui⟧: ceasefire accord\n- ⟦{即時|そくじ}→即時：22475_sokuji⟧{停戦|ていせん}: immediate ceasefire\n- {停戦|ていせん}ライン: ceasefire line\n- {停戦|ていせん}⟦{違反|いはん}→違反：01824_ihan⟧: ceasefire violation\n\nSIMILAR WORDS:\n- ⟦{休戦|きゅうせん}→休戦：14815_kyuusen⟧: armistice — slightly more formal, often used for longer-term truces\n- ⟦{終戦|しゅうせん}→終戦：18973_shuusen⟧: end of war — refers to the final conclusion of hostilities, not a temporary halt\n- ⟦{講和|こうわ}→講和：24540_kouwa⟧: peace — refers to formal peace negotiations or treaties after conflict ends",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,7 +71,7 @@
   ],
   "metadata": {
     "created": "2026-04-19T14:12:41Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -83,7 +83,8 @@
       "semantic": [
         "military"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "conjugation": {

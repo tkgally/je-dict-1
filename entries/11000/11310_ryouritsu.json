@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11310_ryouritsu_ex1",
-      "japanese": "{仕事|しごと}と{育児|いくじ}を{両立|りょうりつ}させる。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦と→と：00512_to⟧⟦{育児|いくじ}→育児：03998_ikuji⟧⟦を→を：00422_wo⟧{両立|りょうりつ}⟦させる→する：00392_suru⟧。",
       "english": "Balance work and child-rearing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11310_ryouritsu_ex2",
-      "japanese": "{勉強|べんきょう}と{部活|ぶかつ}の{両立|りょうりつ}は{大変|たいへん}だ。",
+      "japanese": "⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦と→と：00512_to⟧⟦{部活|ぶかつ}→部活：05377_bukatsu⟧⟦の→の：09472_no⟧{両立|りょうりつ}⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "Balancing studies and club activities is tough.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11310_ryouritsu_ex3",
-      "japanese": "{経済|けいざい}{成長|せいちょう}と{環境|かんきょう}{保護|ほご}の{両立|りょうりつ}は{現代|げんだい}{社会|しゃかい}の{大|おお}きな{課題|かだい}だ。",
+      "japanese": "⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦と→と：00512_to⟧⟦{環境|かんきょう}{保護|ほご}→環境保護：15308_kankyouhogo⟧⟦の→の：09472_no⟧{両立|りょうりつ}⟦は→は：00079_ha⟧⟦{現代|げんだい}{社会|しゃかい}→現代社会：11501_gendaishakai⟧⟦の→の：09472_no⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{課題|かだい}→課題：00132_kadai⟧だ。",
       "english": "Balancing economic growth and environmental protection is a major challenge for modern society.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{両立|りょうりつ} implies successfully managing two things that are typically hard to combine.\n\nCOMMON COLLOCATIONS:\n- AとBを{両立|りょうりつ}させる (balance A and B)\n- AとBの{両立|りょうりつ} (the coexistence of A and B)\n- {両立|りょうりつ}が{難|むずか}しい (hard to balance both)\n- {両立|りょうりつ}できる (can balance both)\n\nFREQUENT PAIRS:\n- {仕事|しごと}と{家庭|かてい} (work and family)\n- {仕事|しごと}と{育児|いくじ} (work and child-rearing)\n- {勉強|べんきょう}と{部活|ぶかつ} (studies and club activities)\n- {経済|けいざい}と{環境|かんきょう} (economy and environment)",
+  "notes": "{両立|りょうりつ} implies successfully managing two things that are typically hard to combine.\n\nCOMMON COLLOCATIONS:\n- A⟦と→と：00512_to⟧B⟦を→を：00422_wo⟧{両立|りょうりつ}⟦させる→する：00392_suru⟧ (balance A and B)\n- A⟦と→と：00512_to⟧B⟦の→の：09472_no⟧{両立|りょうりつ} (the coexistence of A and B)\n- {両立|りょうりつ}⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧ (hard to balance both)\n- {両立|りょうりつ}⟦できる→できる：00557_dekiru⟧ (can balance both)\n\nFREQUENT PAIRS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦と→と：00512_to⟧⟦{家庭|かてい}→家庭：12315_katei⟧ (work and family)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦と→と：00512_to⟧⟦{育児|いくじ}→育児：03998_ikuji⟧ (work and child-rearing)\n- ⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦と→と：00512_to⟧⟦{部活|ぶかつ}→部活：05377_bukatsu⟧ (studies and club activities)\n- ⟦{経済|けいざい}→経済：01394_keizai⟧⟦と→と：00512_to⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧ (economy and environment)",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-15T22:40:44Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -165,7 +165,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

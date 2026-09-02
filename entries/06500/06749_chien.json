@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "06749_chien_ex1",
-      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{遅延|ちえん}している。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{遅延|ちえん}⟦している→する：00392_suru⟧。",
       "english": "The train is delayed.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "06749_chien_ex3",
-      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧⟦{30分|さんじゅっぷん}→三十分：09672_sanjuppun⟧{遅延|ちえん}している。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧⟦{30分|さんじゅっぷん}→三十分：09672_sanjuppun⟧{遅延|ちえん}⟦している→する：00392_suru⟧。",
       "english": "The train is delayed 30 minutes due to an accident.",
       "notes": null,
       "has_audio": false,
@@ -276,7 +276,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -293,7 +293,8 @@
         "action",
         "time-general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

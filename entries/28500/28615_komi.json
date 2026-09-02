@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28615_komi_ex1",
-      "japanese": "{送料|そうりょう}{込|こ}みで5000{円|えん}です。",
+      "japanese": "⟦{送料|そうりょう}→送料：06128_souryou⟧{込|こ}み⟦で→で：00502_de⟧5000⟦{円|えん}→円：00774_en⟧です。",
       "english": "5,000 yen, shipping included.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28615_komi_ex2",
-      "japanese": "サービス{料込|りょうこ}みの{料金|りょうきん}を{表示|ひょうじ}しています。",
+      "japanese": "⟦サービス→サービス：01531_saabisu⟧{料込|りょうこ}み⟦の→の：09472_no⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦を→を：00422_wo⟧⟦{表示|ひょうじ}しています→表示する：26973_hyoujisuru⟧。",
       "english": "Prices are shown with the service charge included.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28615_komi_ex3",
-      "japanese": "{彼|かれ}の{欠点|けってん}も{込|こ}みで{好|す}きだと{彼女|かのじょ}は{言|い}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{欠点|けってん}→欠点：02702_ketten⟧⟦も→も：00484_mo⟧{込|こ}み⟦で→で：00502_de⟧⟦{好|す}き→好き：02355_suki⟧だ⟦と→と：00512_to⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{言|い}った→言う：00515_iu⟧。",
       "english": "She said she loves him, his flaws included.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Noun-suffix form of the verb {込|こ}む 'to include, to be packed in'. Attaches directly to a noun to mean 'with ~ included in the total'. Very productive in pricing and packaging contexts.\n\nCOMPOUNDS:\n- {税込|ぜいこみ}: tax included\n- {送料込|そうりょうこみ}: shipping included\n- {込|こ}みの{値段|ねだん}: the all-in price\n- {全部|ぜんぶ}{込|こ}み: all-inclusive\n\nUSAGE:\nUsed both as a suffix ({税込|ぜいこみ}) and as a standalone modifier after particles ({税|ぜい}・{送料込|そうりょうこみ}で). The opposite is {別|べつ} (separate), as in {税別|ぜいべつ} (tax not included).",
+  "notes": "Noun-suffix form of the verb ⟦{込|こ}む→込む：00719_komu⟧ 'to include, to be packed in'. Attaches directly to a noun to mean 'with ~ included in the total'. Very productive in pricing and packaging contexts.\n\nCOMPOUNDS:\n- ⟦{税込|ぜいこみ}→税込：09559_zeikomi⟧: tax included\n- {送料込|そうりょうこみ}: shipping included\n- {込|こ}み⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧: the all-in price\n- ⟦{全部|ぜんぶ}→全部：02888_zenbu⟧{込|こ}み: all-inclusive\n\nUSAGE:\nUsed both as a suffix (⟦{税込|ぜいこみ}→税込：09559_zeikomi⟧) and as a standalone modifier after particles (⟦{税|ぜい}→税：03767_zei⟧・{送料込|そうりょうこみ}⟦で→で：00502_de⟧). The opposite is ⟦{別|べつ}→別：01216_betsu⟧ (separate), as in ⟦{税別|ぜいべつ}→税別：28617_zeibetsu⟧ (tax not included).",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -70,6 +70,6 @@
       "domain": []
     },
     "created": "2026-06-03T02:08:21Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

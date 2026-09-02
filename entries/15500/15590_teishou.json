@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15590_teishou_ex1",
-      "japanese": "{新|あたら}しい{理論|りろん}を{提唱|ていしょう}する。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{理論|りろん}→理論：04708_riron⟧⟦を→を：00422_wo⟧{提唱|ていしょう}⟦する→する：00392_suru⟧。",
       "english": "To propose a new theory.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15590_teishou_ex2",
-      "japanese": "{彼女|かのじょ}は{環境|かんきょう}{保護|ほご}の{重要性|じゅうようせい}を{提唱|ていしょう}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{環境|かんきょう}{保護|ほご}→環境保護：15308_kankyouhogo⟧⟦の→の：09472_no⟧⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦を→を：00422_wo⟧{提唱|ていしょう}⟦した→する：00392_suru⟧。",
       "english": "She advocated the importance of environmental protection.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15590_teishou_ex3",
-      "japanese": "この{学説|がくせつ}は{十九世紀|じゅうきゅうせいき}にヨーロッパの{学者|がくしゃ}によって{提唱|ていしょう}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{学説|がくせつ}→学説：08102_gakusetsu⟧⟦は→は：00079_ha⟧{十九世紀|じゅうきゅうせいき}⟦に→に：00314_ni⟧⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦の→の：09472_no⟧⟦{学者|がくしゃ}→学者：02544_gakusha⟧⟦によって→によって：06801_niyotte⟧{提唱|ていしょう}⟦された→する：00392_suru⟧。",
       "english": "This theory was proposed by a European scholar in the nineteenth century.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{提唱|ていしょう}する is used when someone puts forward an idea, theory, or policy for others to consider. It carries a sense of intellectual weight and is more formal than {提案|ていあん}する.\n\nCOMMON COLLOCATIONS:\n- {理論|りろん}を{提唱|ていしょう}する (to propose a theory)\n- {改革|かいかく}を{提唱|ていしょう}する (to advocate reform)\n- {提唱者|ていしょうしゃ} (proponent, advocate)\n\nSIMILAR WORDS:\n{提案|ていあん} is a practical suggestion or proposal for action, while {提唱|ていしょう} is advocating for ideas, principles, or theories at a more conceptual level.",
+  "notes": "USAGE:\n{提唱|ていしょう}⟦する→する：00392_suru⟧ is used when someone puts forward an idea, theory, or policy for others to consider. It carries a sense of intellectual weight and is more formal than ⟦{提案|ていあん}する→提案する：06057_teiansuru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{理論|りろん}→理論：04708_riron⟧⟦を→を：00422_wo⟧{提唱|ていしょう}⟦する→する：00392_suru⟧ (to propose a theory)\n- ⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧{提唱|ていしょう}⟦する→する：00392_suru⟧ (to advocate reform)\n- ⟦{提唱者|ていしょうしゃ}→提唱者：30342_teishousha⟧ (proponent, advocate)\n\nSIMILAR WORDS:\n⟦{提案|ていあん}→提案：03536_teian⟧ is a practical suggestion or proposal for action, while {提唱|ていしょう} is advocating for ideas, principles, or theories at a more conceptual level.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:01:33Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

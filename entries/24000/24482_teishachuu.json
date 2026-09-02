@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24482_teishachuu_ex1",
-      "japanese": "バスが{停車中|ていしゃちゅう}です。",
+      "japanese": "⟦バス→バス：00769_basu⟧⟦が→が：00051_ga⟧{停車中|ていしゃちゅう}です。",
       "english": "The bus is stopped.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24482_teishachuu_ex2",
-      "japanese": "{停車中|ていしゃちゅう}の{車|くるま}にぶつかった。",
+      "japanese": "{停車中|ていしゃちゅう}⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧⟦に→に：00314_ni⟧⟦ぶつかった→ぶつかる：02412_butsukaru⟧。",
       "english": "I bumped into a parked car.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24482_teishachuu_ex3",
-      "japanese": "{電車|でんしゃ}が{駅|えき}に{停車中|ていしゃちゅう}の{間|あいだ}に、{急|いそ}いで{乗|の}り{込|こ}んだ。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧{停車中|ていしゃちゅう}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧、⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{乗|の}り{込|こ}んだ→乗り込む：04618_norikomu⟧。",
       "english": "While the train was stopped at the station, I hurried aboard.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {停車|ていしゃ} (stopping a vehicle) and {中|ちゅう} (during/in the middle of). The suffix {中|ちゅう} turns a noun into an ongoing-state indicator, similar to English \"-ing\" in signs. This pattern is extremely productive in Japanese: {工事中|こうじちゅう} (under construction), {営業中|えいぎょうちゅう} (open for business), {準備中|じゅんびちゅう} (preparing).\n\nCOMMON COLLOCATIONS:\n- {停車中|ていしゃちゅう}の{車両|しゃりょう}: stationary vehicle\n- {停車中|ていしゃちゅう}に{降|お}りる: to get off while stopped\n- ただいま{停車中|ていしゃちゅう}: currently stopped (announcement)\n\nSIMILAR WORDS:\n- {駐車中|ちゅうしゃちゅう}: parked (for longer-term parking, as opposed to a brief stop)\n- {停車|ていしゃ}: the act of stopping a vehicle",
+  "notes": "A compound of ⟦{停車|ていしゃ}→停車：04534_teisha⟧ (stopping a vehicle) and ⟦{中|ちゅう}→〜中：09840_chuu⟧ (during/in the middle of). The suffix ⟦{中|ちゅう}→〜中：09840_chuu⟧ turns a noun into an ongoing-state indicator, similar to English \"-ing\" in signs. This pattern is extremely productive in Japanese: ⟦{工事中|こうじちゅう}→工事中：09625_koujichuu⟧ (under construction), ⟦{営業中|えいぎょうちゅう}→営業中：09539_eigyouchuu⟧ (open for business), ⟦{準備中|じゅんびちゅう}→準備中：09540_junbichuu⟧ (preparing).\n\nCOMMON COLLOCATIONS:\n- {停車中|ていしゃちゅう}⟦の→の：09472_no⟧⟦{車両|しゃりょう}→車両：05297_sharyou⟧: stationary vehicle\n- {停車中|ていしゃちゅう}⟦に→に：00314_ni⟧⟦{降|お}りる→降りる：00568_oriru⟧: to get off while stopped\n- ⟦ただいま→ただいま：01062_tadaima⟧{停車中|ていしゃちゅう}: currently stopped (announcement)\n\nSIMILAR WORDS:\n- {駐車中|ちゅうしゃちゅう}: parked (for longer-term parking, as opposed to a brief stop)\n- ⟦{停車|ていしゃ}→停車：04534_teisha⟧: the act of stopping a vehicle",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -68,6 +68,6 @@
       ]
     },
     "created": "2026-04-19T12:27:25Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

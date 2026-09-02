@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16200_tenka_ex1",
-      "japanese": "ガスコンロに{点火|てんか}する。",
+      "japanese": "ガスコンロ⟦に→に：00314_ni⟧{点火|てんか}⟦する→する：00392_suru⟧。",
       "english": "To light the gas stove.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16200_tenka_ex2",
-      "japanese": "{花火|はなび}に{点火|てんか}するときは{注意|ちゅうい}してください。",
+      "japanese": "⟦{花火|はなび}→花火：00087_hanabi⟧⟦に→に：00314_ni⟧{点火|てんか}⟦する→する：00392_suru⟧とき⟦は→は：00079_ha⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful when lighting fireworks.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16200_tenka_ex3",
-      "japanese": "オリンピックの{聖火|せいか}に{点火|てんか}する{瞬間|しゅんかん}は、{会場|かいじょう}{全体|ぜんたい}が{歓声|かんせい}に{包|つつ}まれた。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦の→の：09472_no⟧⟦{聖火|せいか}→聖火：16179_seika⟧⟦に→に：00314_ni⟧{点火|てんか}⟦する→する：00392_suru⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧⟦は→は：00079_ha⟧、⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧⟦{歓声|かんせい}→歓声：02686_kansei⟧⟦に→に：00314_ni⟧⟦{包|つつ}まれた→包む：01226_tsutsumu⟧。",
       "english": "The moment the Olympic flame was lit, the entire venue erupted in cheers.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{点火|てんか} is used for deliberately lighting or igniting something. It can be used literally (lighting a stove, firework) or ceremonially (lighting a torch).\n\nCOMMON COLLOCATIONS:\n- {点火|てんか}する: to ignite, to light\n- {点火|てんか}{装置|そうち}: ignition device\n- {聖火|せいか}に{点火|てんか}する: to light the sacred flame\n- エンジンを{点火|てんか}する: to start an engine\n\nFORMS:\n{点|てん} (light, ignite) + {火|か} (fire).",
+  "notes": "USAGE:\n{点火|てんか} is used for deliberately lighting or igniting something. It can be used literally (lighting a stove, firework) or ceremonially (lighting a torch).\n\nCOMMON COLLOCATIONS:\n- {点火|てんか}⟦する→する：00392_suru⟧: to ignite, to light\n- {点火|てんか}⟦{装置|そうち}→装置：03318_souchi⟧: ignition device\n- ⟦{聖火|せいか}→聖火：16179_seika⟧⟦に→に：00314_ni⟧{点火|てんか}⟦する→する：00392_suru⟧: to light the sacred flame\n- ⟦エンジン→エンジン：03835_enjin⟧⟦を→を：00422_wo⟧{点火|てんか}⟦する→する：00392_suru⟧: to start an engine\n\nFORMS:\n⟦{点|てん}→点：01553_ten⟧ (light, ignite) + {火|か} (fire).",
   "cross_references": [
     {
       "type": "antonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-11T04:32:18Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -179,7 +179,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22427_junbisuru_ex1",
-      "japanese": "{旅行|りょこう}の{準備|じゅんび}をする。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To prepare for a trip.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22427_junbisuru_ex2",
-      "japanese": "{明日|あした}の{会議|かいぎ}の{資料|しりょう}を{準備|じゅんび}した。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{準備|じゅんび}した。",
       "english": "I prepared the materials for tomorrow's meeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22427_junbisuru_ex3",
-      "japanese": "{災害|さいがい}に{備|そな}えて、{非常食|ひじょうしょく}や{水|みず}を{準備|じゅんび}しておいたほうがいい。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧、⟦{非常食|ひじょうしょく}→非常食：18765_hijoushoku⟧や⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{準備|じゅんび}しておいた⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should prepare emergency food and water in case of a disaster.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "One of the most frequently used verbs in daily Japanese. Used broadly for any kind of advance preparation, from packing for a trip to setting up a meeting room. Often takes the pattern {準備|じゅんび}をする (with を particle) as well as {準備|じゅんび}する.\n\nCOMMON COLLOCATIONS:\n- {準備|じゅんび}が{整|ととの}う: preparations are complete\n- {準備|じゅんび}ができる: to be ready\n- {準備|じゅんび}{不足|ぶそく}: lack of preparation\n- {準備|じゅんび}{期間|きかん}: preparation period\n- {心|こころ}の{準備|じゅんび}: mental preparation\n\nSIMILAR WORDS:\n- {用意|ようい}する: to prepare / to arrange — focuses on having things ready and at hand; more concrete and immediate\n- {支度|したく}する: to get ready — focuses on personal preparation like getting dressed or packing\n- {備|そな}える: to prepare for / to provide against — emphasizes precaution against future events\n\nUSAGE:\n{準備|じゅんび}する is the most general and versatile preparation verb. It works for both concrete tasks (preparing materials) and abstract contexts (preparing mentally). {用意|ようい}する is more about having specific items ready, while {準備|じゅんび}する covers the broader process of getting ready.",
+  "notes": "One of the most frequently used verbs in daily Japanese. Used broadly for any kind of advance preparation, from packing for a trip to setting up a meeting room. Often takes the pattern ⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (with ⟦を→を：00422_wo⟧ particle) as well as {準備|じゅんび}する.\n\nCOMMON COLLOCATIONS:\n- ⟦{準備|じゅんび}→準備：01431_junbi⟧⟦が→が：00051_ga⟧⟦{整|ととの}う→整う：03935_totonou⟧: preparations are complete\n- ⟦{準備|じゅんび}→準備：01431_junbi⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧: to be ready\n- ⟦{準備|じゅんび}{不足|ぶそく}→準備不足：27105_junbibusoku⟧: lack of preparation\n- ⟦{準備|じゅんび}→準備：01431_junbi⟧⟦{期間|きかん}→期間：00229_kikan⟧: preparation period\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧: mental preparation\n\nSIMILAR WORDS:\n- ⟦{用意|ようい}する→用意する：22428_youisuru⟧: to prepare / to arrange — focuses on having things ready and at hand; more concrete and immediate\n- ⟦{支度|したく}する→支度する：01828_shitakusuru⟧: to get ready — focuses on personal preparation like getting dressed or packing\n- ⟦{備|そな}える→備える：02125_sonaeru⟧: to prepare for / to provide against — emphasizes precaution against future events\n\nUSAGE:\n{準備|じゅんび}する is the most general and versatile preparation verb. It works for both concrete tasks (preparing materials) and abstract contexts (preparing mentally). ⟦{用意|ようい}する→用意する：22428_youisuru⟧ is more about having specific items ready, while {準備|じゅんび}する covers the broader process of getting ready.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T10:36:48Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

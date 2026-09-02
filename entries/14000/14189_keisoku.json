@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14189_keisoku_ex1",
-      "japanese": "{温度|おんど}を{計測|けいそく}する。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧{計測|けいそく}⟦する→する：00392_suru⟧。",
       "english": "To measure the temperature.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14189_keisoku_ex2",
-      "japanese": "{計測|けいそく}{結果|けっか}をグラフにまとめた。",
+      "japanese": "{計測|けいそく}⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦グラフ→グラフ：04864_gurafu⟧⟦に→に：00314_ni⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "I compiled the measurement results into a graph.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14189_keisoku_ex3",
-      "japanese": "センサーを{使|つか}って{振動|しんどう}を{自動的|じどうてき}に{計測|けいそく}するシステムが{導入|どうにゅう}された。",
+      "japanese": "⟦センサー→センサー：29781_sensaa⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{振動|しんどう}→振動：08179_shindou⟧⟦を→を：00422_wo⟧⟦{自動的|じどうてき}→自動的：25589_jidouteki⟧⟦に→に：00314_ni⟧{計測|けいそく}⟦する→する：00392_suru⟧⟦システム→システム：08428_shisutemu⟧⟦が→が：00051_ga⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦された→する：00392_suru⟧。",
       "english": "A system was introduced that automatically measures vibrations using sensors.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {計測|けいそく}{機器|きき}: measuring instruments\n- {計測|けいそく}{結果|けっか}: measurement results\n- {計測|けいそく}データ: measurement data\n- {計測|けいそく}{技術|ぎじゅつ}: measurement technology\n- {精密|せいみつ}{計測|けいそく}: precision measurement\n\nSIMILAR WORDS:\n- {測定|そくてい}: measurement (more common in scientific/laboratory contexts; largely interchangeable)\n- {計量|けいりょう}: weighing, measuring (often for weight or volume, especially in trade and commerce)",
+  "notes": "COMMON COLLOCATIONS:\n- {計測|けいそく}{機器|きき}: measuring instruments\n- {計測|けいそく}⟦{結果|けっか}→結果：02486_kekka⟧: measurement results\n- {計測|けいそく}⟦データ→データ：03944_deeta⟧: measurement data\n- {計測|けいそく}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: measurement technology\n- ⟦{精密|せいみつ}→精密：13775_seimitsu⟧{計測|けいそく}: precision measurement\n\nSIMILAR WORDS:\n- ⟦{測定|そくてい}→測定：04398_sokutei⟧: measurement (more common in scientific/laboratory contexts; largely interchangeable)\n- ⟦{計量|けいりょう}→計量：14797_keiryou⟧: weighing, measuring (often for weight or volume, especially in trade and commerce)",
   "cross_references": [
     {
       "type": "synonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-28T02:17:01Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -190,7 +190,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

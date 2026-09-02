@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22615_shinikakeru_ex1",
-      "japanese": "{交通事故|こうつうじこ}で{死|し}にかけた。",
+      "japanese": "⟦{交通事故|こうつうじこ}→交通事故：21255_koutsuujiko⟧⟦で→で：00502_de⟧⟦{死|し}に→死ぬ：00669_shinu⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I nearly died in a traffic accident.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22615_shinikakeru_ex2",
-      "japanese": "{暑|あつ}さで{死|し}にかけている。",
+      "japanese": "⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦で→で：00502_de⟧⟦{死|し}に→死ぬ：00669_shinu⟧⟦かけている→かける：00854_kakeru⟧。",
       "english": "I'm dying from the heat. (hyperbolic)",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22615_shinikakeru_ex3",
-      "japanese": "{子供|こども}のころ{川|かわ}で{溺|おぼ}れて{死|し}にかけた{経験|けいけん}がある。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧⟦{川|かわ}→川：02186_kawa⟧⟦で→で：00502_de⟧⟦{溺|おぼ}れて→溺れる：02026_oboreru⟧⟦{死|し}に→死ぬ：00669_shinu⟧⟦かけた→かける：00854_kakeru⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "As a child, I once nearly drowned to death in a river.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {死|し}ぬ (to die) + かける (to be about to; to be on the verge of). The auxiliary verb 〜かける attaches to the masu-stem of verbs to express that an action has started but not completed, or is about to happen. Common in both serious and exaggerated/humorous contexts.\n\nCOMMON COLLOCATIONS:\n- {死|し}にかけた{経験|けいけん}: a near-death experience\n- {死|し}にかけている: to be on the verge of death; to be dying (literal or hyperbolic)\n- {暑|あつ}さで{死|し}にかける: to nearly die from the heat\n\nCOMMON PATTERNS:\nThe 〜かける pattern is productive and can attach to many verbs to mean \"about to\" or \"half-\": {食|た}べかける (to start eating), {読|よ}みかける (to start reading), {壊|こわ}れかける (to be about to break).\n\nUSAGE:\nThis is an ichidan verb. Past: {死|し}にかけた. Te-form: {死|し}にかけて. Progressive: {死|し}にかけている.",
+  "notes": "A compound verb formed from ⟦{死|し}ぬ→死ぬ：00669_shinu⟧ (to die) + かける (to be about to; to be on the verge of). The auxiliary verb 〜かける attaches to the masu-stem of verbs to express that an action has started but not completed, or is about to happen. Common in both serious and exaggerated/humorous contexts.\n\nCOMMON COLLOCATIONS:\n- {死|し}にかけた⟦{経験|けいけん}→経験：01179_keiken⟧: a near-death experience\n- {死|し}にかけて⟦いる→いる：00495_iru⟧: to be on the verge of death; to be dying (literal or hyperbolic)\n- ⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦で→で：00502_de⟧{死|し}にかける: to nearly die from the heat\n\nCOMMON PATTERNS:\nThe 〜かける pattern is productive and can attach to many verbs to mean \"about to\" or \"half-\": {食|た}べかける (to start eating), {読|よ}みかける (to start reading), ⟦{壊|こわ}れ→壊れる：00791_kowareru⟧⟦かける→かける：00854_kakeru⟧ (to be about to break).\n\nUSAGE:\nThis is an ichidan verb. Past: {死|し}にかけた. Te-form: {死|し}にかけて. Progressive: {死|し}にかけて⟦いる→いる：00495_iru⟧.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -57,10 +57,11 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-06T19:21:49Z",
-    "modified": "2026-09-02T02:55:16Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "ichidan",

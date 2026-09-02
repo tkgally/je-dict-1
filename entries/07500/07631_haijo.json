@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07631_haijo_ex1",
-      "japanese": "{障害物|しょうがいぶつ}を{排除|はいじょ}する。",
+      "japanese": "⟦{障害物|しょうがいぶつ}→障害物：15606_shougaibutsu⟧⟦を→を：00422_wo⟧{排除|はいじょ}⟦する→する：00392_suru⟧。",
       "english": "To remove obstacles.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07631_haijo_ex2",
-      "japanese": "{不正|ふせい}を{排除|はいじょ}するための{対策|たいさく}。",
+      "japanese": "⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧{排除|はいじょ}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{対策|たいさく}→対策：02511_taisaku⟧。",
       "english": "Measures to eliminate misconduct.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07631_haijo_ex3",
-      "japanese": "このグループからは{異論|いろん}が{排除|はいじょ}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦グループ→グループ：03840_guruupu⟧⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧⟦{異論|いろん}→異論：13551_iron⟧⟦が→が：00051_ga⟧{排除|はいじょ}⟦されている→する：00392_suru⟧。",
       "english": "Dissenting opinions are excluded from this group.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {障害|しょうがい}を{排除|はいじょ}する - to remove obstacles\n- {不正|ふせい}を{排除|はいじょ}する - to eliminate misconduct\n- {危険|きけん}を{排除|はいじょ}する - to eliminate danger\n- {可能性|かのうせい}を{排除|はいじょ}する - to rule out a possibility\n\nUSAGE:\nPattern: Xを{排除|はいじょ}する (to exclude/remove X)\nCan refer to physical removal or abstract exclusion (of ideas, possibilities, etc.).\n\nSIMILAR WORDS:\n- {除外|じょがい} - exclusion (from a group/list)\n- {削除|さくじょ} - deletion (of data, text)\n- {除去|じょきょ} - removal (physical)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{障害|しょうがい}→障害：03228_shougai⟧⟦を→を：00422_wo⟧{排除|はいじょ}⟦する→する：00392_suru⟧ - to remove obstacles\n- ⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧{排除|はいじょ}⟦する→する：00392_suru⟧ - to eliminate misconduct\n- ⟦{危険|きけん}→危険：01141_kiken⟧⟦を→を：00422_wo⟧{排除|はいじょ}⟦する→する：00392_suru⟧ - to eliminate danger\n- ⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦を→を：00422_wo⟧{排除|はいじょ}⟦する→する：00392_suru⟧ - to rule out a possibility\n\nUSAGE:\nPattern: X⟦を→を：00422_wo⟧{排除|はいじょ}⟦する→する：00392_suru⟧ (to exclude/remove X)\nCan refer to physical removal or abstract exclusion (of ideas, possibilities, etc.).\n\nSIMILAR WORDS:\n- ⟦{除外|じょがい}→除外：16375_jogai⟧ - exclusion (from a group/list)\n- ⟦{削除|さくじょ}→削除：04171_sakujo⟧ - deletion (of data, text)\n- ⟦{除去|じょきょ}→除去：14567_jokyo⟧ - removal (physical)",
   "cross_references": [
     {
       "type": "synonym",
@@ -205,7 +205,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -220,7 +220,8 @@
         "society"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

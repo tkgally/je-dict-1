@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19959_gyakuryuu_ex1",
-      "japanese": "{下水|げすい}が{逆流|ぎゃくりゅう}した。",
+      "japanese": "⟦{下水|げすい}→下水：00069_gesui⟧⟦が→が：00051_ga⟧{逆流|ぎゃくりゅう}⟦した→する：00392_suru⟧。",
       "english": "The sewage backed up.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19959_gyakuryuu_ex2",
-      "japanese": "{大雨|おおあめ}で{川|かわ}の{水|みず}が{逆流|ぎゃくりゅう}した。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦で→で：00502_de⟧⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{逆流|ぎゃくりゅう}⟦した→する：00392_suru⟧。",
       "english": "The river water flowed backward due to heavy rain.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19959_gyakuryuu_ex3",
-      "japanese": "{時代|じだい}の{流|なが}れに{逆流|ぎゃくりゅう}するような{政策|せいさく}だと{批判|ひはん}された。",
+      "japanese": "⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧⟦{流|なが}れ→流れ：03504_nagare⟧⟦に→に：00314_ni⟧{逆流|ぎゃくりゅう}⟦する→する：00392_suru⟧ような⟦{政策|せいさく}→政策：10070_seisaku⟧だ⟦と→と：00512_to⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦された→する：00392_suru⟧。",
       "english": "The policy was criticized as going against the flow of the times.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {逆|ぎゃく} (reverse, opposite) + {流|りゅう} (flow, current). Used as both a noun and a する verb. Common in contexts involving plumbing, natural disasters, medicine (acid reflux), and figurative descriptions of going against trends.\n\nCOMMON COLLOCATIONS:\n- {逆流|ぎゃくりゅう}する: to flow backward\n- {逆流|ぎゃくりゅう}を{防|ふせ}ぐ: to prevent backflow\n- {胃酸|いさん}の{逆流|ぎゃくりゅう}: acid reflux (stomach acid flowing back up)\n- {逆流|ぎゃくりゅう}{防止|ぼうし}: backflow prevention\n\nSIMILAR WORDS:\n- {還流|かんりゅう}: reflux, return flow (technical/scientific term)\n- {氾濫|はんらん}: flooding, overflow (water exceeding its banks, not necessarily reversing)",
+  "notes": "Composed of ⟦{逆|ぎゃく}→逆：02649_gyaku⟧ (reverse, opposite) + {流|りゅう} (flow, current). Used as both a noun and a ⟦する→する：00392_suru⟧ verb. Common in contexts involving plumbing, natural disasters, medicine (acid reflux), and figurative descriptions of going against trends.\n\nCOMMON COLLOCATIONS:\n- {逆流|ぎゃくりゅう}⟦する→する：00392_suru⟧: to flow backward\n- {逆流|ぎゃくりゅう}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent backflow\n- {胃酸|いさん}⟦の→の：09472_no⟧{逆流|ぎゃくりゅう}: acid reflux (stomach acid flowing back up)\n- {逆流|ぎゃくりゅう}⟦{防止|ぼうし}→防止：14571_boushi⟧: backflow prevention\n\nSIMILAR WORDS:\n- {還流|かんりゅう}: reflux, return flow (technical/scientific term)\n- ⟦{氾濫|はんらん}→氾濫：09256_hanran⟧: flooding, overflow (water exceeding its banks, not necessarily reversing)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -158,9 +158,10 @@
         "nature",
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-27T07:18:35Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

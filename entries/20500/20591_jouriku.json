@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20591_jouriku_ex1",
-      "japanese": "{台風|たいふう}が{上陸|じょうりく}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧{上陸|じょうりく}⟦した→する：00392_suru⟧。",
       "english": "The typhoon made landfall.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "20591_jouriku_ex2",
-      "japanese": "{兵士|へいし}たちは{夜明|よあ}けに{海岸|かいがん}に{上陸|じょうりく}した。",
+      "japanese": "⟦{兵士|へいし}→兵士：11680_heishi⟧たち⟦は→は：00079_ha⟧⟦{夜明|よあ}け→夜明け：03655_yoake⟧⟦に→に：00314_ni⟧⟦{海岸|かいがん}→海岸：00852_kaigan⟧⟦に→に：00314_ni⟧{上陸|じょうりく}⟦した→する：00392_suru⟧。",
       "english": "The soldiers landed on the beach at dawn.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20591_jouriku_ex3",
-      "japanese": "{大型|おおがた}の{台風|たいふう}が{九州|きゅうしゅう}に{上陸|じょうりく}する{見込|みこ}みで、{各地|かくち}で{警戒|けいかい}が{強|つよ}まっている。",
+      "japanese": "⟦{大型|おおがた}→大型：03016_oogata⟧⟦の→の：09472_no⟧⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{九州|きゅうしゅう}→九州：15647_kyuushuu⟧⟦に→に：00314_ni⟧{上陸|じょうりく}⟦する→する：00392_suru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧で、⟦{各地|かくち}→各地：00155_kakuchi⟧⟦で→で：00502_de⟧⟦{警戒|けいかい}→警戒：14224_keikai⟧⟦が→が：00051_ga⟧⟦{強|つよ}まっている→強まる：02295_tsuyomaru⟧。",
       "english": "A large typhoon is expected to make landfall in Kyushu, and warnings are being heightened across the region.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Composed of {上|じょう} (up, onto) + {陸|りく} (land). Most commonly encountered in weather reports about typhoons making landfall and in historical or military contexts about troop landings.\n\nCOMMON COLLOCATIONS:\n- {台風|たいふう}が{上陸|じょうりく}する (a typhoon makes landfall)\n- {海岸|かいがん}に{上陸|じょうりく}する (land on a coast)\n- {島|しま}に{上陸|じょうりく}する (land on an island)\n- {上陸|じょうりく}{地点|ちてん} (landing point)\n- {上陸|じょうりく}{作戦|さくせん} (landing operation)\n\nSIMILAR WORDS:\n- {着陸|ちゃくりく} — landing (of an aircraft, not from sea)\n- {入港|にゅうこう} — entering port (ship arriving at harbor)\n- {下船|げせん} — disembarkation (getting off a ship)",
+  "notes": "Composed of ⟦{上|じょう}→〜上：30365_jou⟧ (up, onto) + ⟦{陸|りく}→陸：03675_riku⟧ (land). Most commonly encountered in weather reports about typhoons making landfall and in historical or military contexts about troop landings.\n\nCOMMON COLLOCATIONS:\n- ⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧{上陸|じょうりく}⟦する→する：00392_suru⟧ (a typhoon makes landfall)\n- ⟦{海岸|かいがん}→海岸：00852_kaigan⟧⟦に→に：00314_ni⟧{上陸|じょうりく}⟦する→する：00392_suru⟧ (land on a coast)\n- ⟦{島|しま}→島：00885_shima⟧⟦に→に：00314_ni⟧{上陸|じょうりく}⟦する→する：00392_suru⟧ (land on an island)\n- {上陸|じょうりく}⟦{地点|ちてん}→地点：04058_chiten⟧ (landing point)\n- {上陸|じょうりく}⟦{作戦|さくせん}→作戦：09673_sakusen⟧ (landing operation)\n\nSIMILAR WORDS:\n- ⟦{着陸|ちゃくりく}→着陸：05982_chakuriku⟧ — landing (of an aircraft, not from sea)\n- ⟦{入港|にゅうこう}→入港：14771_nyuukou⟧ — entering port (ship arriving at harbor)\n- ⟦{下船|げせん}→下船：21593_gesen⟧ — disembarkation (getting off a ship)",
   "cross_references": [
     {
       "type": "contrast",
@@ -70,7 +70,7 @@
   ],
   "metadata": {
     "created": "2026-03-29T19:19:02Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -84,7 +84,8 @@
         "movement",
         "weather"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "conjugation": {

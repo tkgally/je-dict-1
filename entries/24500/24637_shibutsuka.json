@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24637_shibutsuka_ex1",
-      "japanese": "{会社|かいしゃ}の{備品|びひん}を{私物化|しぶつか}する。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{備品|びひん}→備品：16253_bihin⟧⟦を→を：00422_wo⟧{私物化|しぶつか}⟦する→する：00392_suru⟧。",
       "english": "To treat company supplies as one's own.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24637_shibutsuka_ex2",
-      "japanese": "{公共|こうきょう}の{施設|しせつ}を{私物化|しぶつか}するのは{許|ゆる}されない。",
+      "japanese": "⟦{公共|こうきょう}→公共：11652_koukyou⟧⟦の→の：09472_no⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦を→を：00422_wo⟧{私物化|しぶつか}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "It is unacceptable to appropriate public facilities for personal use.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24637_shibutsuka_ex3",
-      "japanese": "{社長|しゃちょう}が{会社|かいしゃ}の{資金|しきん}を{私物化|しぶつか}していたことが{発覚|はっかく}し、{大|おお}きなスキャンダルになった。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧{私物化|しぶつか}⟦していた→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{発覚|はっかく}→発覚：07629_hakkaku⟧し、⟦{大|おお}きな→大きな：02849_ookina⟧スキャンダルになった。",
       "english": "It came to light that the president had been appropriating company funds for personal use, and it became a major scandal.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {私物|しぶつ} (personal belongings) and {化|か} (transformation into). Describes the act of making something communal or organizational into one's personal property.\n\nUSAGE:\nAlmost always used critically. Common in news, politics, and corporate governance contexts. The word implies that someone in a position of power is abusing their authority by treating shared resources as their own. Often used with する to form a verb.\n\nCOMMON COLLOCATIONS:\n- {会社|かいしゃ}の{私物化|しぶつか}: appropriating company assets\n- {公金|こうきん}の{私物化|しぶつか}: misappropriation of public funds\n- {権力|けんりょく}の{私物化|しぶつか}: abuse of power for personal gain\n- {私物化|しぶつか}する: to treat as one's own / to appropriate\n- {組織|そしき}を{私物化|しぶつか}する: to treat an organization as one's personal domain\n\nSIMILAR WORDS:\n- {横領|おうりょう}: embezzlement — a legal term for misappropriating entrusted funds, while {私物化|しぶつか} is broader and includes non-monetary appropriation\n- {着服|ちゃくふく}: pocketing; embezzlement — specifically taking money dishonestly\n- {流用|りゅうよう}: diversion of funds — redirecting resources to a different purpose, not necessarily personal",
+  "notes": "Composed of ⟦{私物|しぶつ}→私物：15208_shibutsu⟧ (personal belongings) and ⟦{化|か}→〜化：28335_ka⟧ (transformation into). Describes the act of making something communal or organizational into one's personal property.\n\nUSAGE:\nAlmost always used critically. Common in news, politics, and corporate governance contexts. The word implies that someone in a position of power is abusing their authority by treating shared resources as their own. Often used with ⟦する→する：00392_suru⟧ to form a verb.\n\nCOMMON COLLOCATIONS:\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{私物化|しぶつか}: appropriating company assets\n- ⟦{公金|こうきん}→公金：29287_koukin⟧⟦の→の：09472_no⟧{私物化|しぶつか}: misappropriation of public funds\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦の→の：09472_no⟧{私物化|しぶつか}: abuse of power for personal gain\n- {私物化|しぶつか}⟦する→する：00392_suru⟧: to treat as one's own / to appropriate\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦を→を：00422_wo⟧{私物化|しぶつか}⟦する→する：00392_suru⟧: to treat an organization as one's personal domain\n\nSIMILAR WORDS:\n- ⟦{横領|おうりょう}→横領：09001_ouryou⟧: embezzlement — a legal term for misappropriating entrusted funds, while {私物化|しぶつか} is broader and includes non-monetary appropriation\n- ⟦{着服|ちゃくふく}→着服：21564_chakufuku⟧: pocketing; embezzlement — specifically taking money dishonestly\n- ⟦{流用|りゅうよう}→流用：13393_ryuuyou⟧: diversion of funds — redirecting resources to a different purpose, not necessarily personal",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -85,10 +85,11 @@
         "society",
         "politics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-20T10:26:11Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08416_fukugou_ex1",
-      "japanese": "{暗号|あんごう}を{復号|ふくごう}する。",
+      "japanese": "⟦{暗号|あんごう}→暗号：04868_angou⟧⟦を→を：00422_wo⟧{復号|ふくごう}⟦する→する：00392_suru⟧。",
       "english": "Decrypt the code.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08416_fukugou_ex2",
-      "japanese": "{正|ただ}しい{鍵|かぎ}がないと{復号|ふくごう}できない。",
+      "japanese": "⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧{復号|ふくごう}⟦できない→できる：00557_dekiru⟧。",
       "english": "You cannot decrypt without the correct key.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08416_fukugou_ex3",
-      "japanese": "データの{復号|ふくごう}に{時間|じかん}がかかった。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{復号|ふくごう}⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took time to decrypt the data.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMS:\n{復|ふく} (restore, return) + {号|ごう} (code, signal) → restoring from code\n{復号|ふくごう}する (to decrypt, to decode)\n\nSIMILAR WORDS:\n{暗号化|あんごうか} (encryption)\n\nTECHNICAL TERMS:\n- {復号|ふくごう}{鍵|かぎ} (decryption key)\n- {復号化|ふくごうか} (decryption - alternative form)\n- {復号|ふくごう}アルゴリズム (decryption algorithm)\n\nPROCESS:\n{暗号化|あんごうか} (encryption) ↔ {復号|ふくごう} (decryption)\n\nRELATED WORDS:\n- {暗号|あんごう} (cipher, code)\n- {暗号化|あんごうか} (encryption)\n- {解読|かいどく} (deciphering, breaking a code)",
+  "notes": "FORMS:\n{復|ふく} (restore, return) + {号|ごう} (code, signal) → restoring from code\n{復号|ふくごう}⟦する→する：00392_suru⟧ (to decrypt, to decode)\n\nSIMILAR WORDS:\n⟦{暗号化|あんごうか}→暗号化：08415_angouka⟧ (encryption)\n\nTECHNICAL TERMS:\n- {復号|ふくごう}⟦{鍵|かぎ}→鍵：02189_kagi⟧ (decryption key)\n- {復号化|ふくごうか} (decryption - alternative form)\n- {復号|ふくごう}⟦アルゴリズム→アルゴリズム：04716_arugorizumu⟧ (decryption algorithm)\n\nPROCESS:\n⟦{暗号化|あんごうか}→暗号化：08415_angouka⟧ (encryption) ↔ {復号|ふくごう} (decryption)\n\nRELATED WORDS:\n- ⟦{暗号|あんごう}→暗号：04868_angou⟧ (cipher, code)\n- ⟦{暗号化|あんごうか}→暗号化：08415_angouka⟧ (encryption)\n- ⟦{解読|かいどく}→解読：14185_kaidoku⟧ (deciphering, breaking a code)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -146,10 +146,11 @@
       "semantic": [
         "technology"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {

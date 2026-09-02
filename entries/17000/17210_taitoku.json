@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17210_taitoku_ex1",
-      "japanese": "{技術|ぎじゅつ}を{体得|たいとく}する。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧{体得|たいとく}⟦する→する：00392_suru⟧。",
       "english": "To master a skill through practice.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17210_taitoku_ex2",
-      "japanese": "{長年|ながねん}の{経験|けいけん}で{体得|たいとく}したコツがある。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦で→で：00502_de⟧{体得|たいとく}⟦した→する：00392_suru⟧⟦コツ→コツ：06658_kotsu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are tricks I've learned through years of experience.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17210_taitoku_ex3",
-      "japanese": "{料理|りょうり}の{基本|きほん}は{本|ほん}で{学|まな}ぶだけでなく、{実際|じっさい}に{作|つく}って{体得|たいとく}するのが{一番|いちばん}だ。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧⟦{基本|きほん}→基本：00226_kihon⟧⟦は→は：00079_ha⟧{本|ほん}⟦で→で：00502_de⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦{作|つく}って→作る：00481_tsukuru⟧{体得|たいとく}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧だ。",
       "english": "The best way to learn the basics of cooking is not just from books, but by actually cooking and learning through experience.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed with する to form a verb: {体得|たいとく}する. Emphasizes that the knowledge or skill has been internalized through practice rather than mere intellectual understanding.\n\nFORMS:\n{体|たい} (body) + {得|とく} (to gain). Literally 'to gain with the body,' reflecting the idea of embodied learning.\n\nCOMMON COLLOCATIONS:\n- {技術|ぎじゅつ}を{体得|たいとく}する (to master a technique)\n- コツを{体得|たいとく}する (to learn the knack of something)\n- {経験|けいけん}を{通|とお}じて{体得|たいとく}する (to learn through experience)\n\nSIMILAR WORDS:\n- {習得|しゅうとく}: acquisition of a skill — more general, can include study\n- {会得|えとく}: to grasp, to comprehend — focuses on understanding rather than physical mastery\n- {身|み}に{付|つ}ける: to acquire, to learn — everyday expression for the same idea",
+  "notes": "USAGE:\nUsed with ⟦する→する：00392_suru⟧ to form a verb: {体得|たいとく}⟦する→する：00392_suru⟧. Emphasizes that the knowledge or skill has been internalized through practice rather than mere intellectual understanding.\n\nFORMS:\n⟦{体|たい}→体：09872_tai⟧ (body) + ⟦{得|とく}→得：12563_toku⟧ (to gain). Literally 'to gain with the body,' reflecting the idea of embodied learning.\n\nCOMMON COLLOCATIONS:\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧{体得|たいとく}⟦する→する：00392_suru⟧ (to master a technique)\n- ⟦コツ→コツ：06658_kotsu⟧⟦を→を：00422_wo⟧{体得|たいとく}⟦する→する：00392_suru⟧ (to learn the knack of something)\n- ⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧{通|とお}じて{体得|たいとく}⟦する→する：00392_suru⟧ (to learn through experience)\n\nSIMILAR WORDS:\n- ⟦{習得|しゅうとく}→習得：13903_shuutoku⟧: acquisition of a skill — more general, can include study\n- {会得|えとく}: to grasp, to comprehend — focuses on understanding rather than physical mastery\n- ⟦{身|み}→身：01764_mi⟧⟦に→に：00314_ni⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to acquire, to learn — everyday expression for the same idea",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-09-02T02:55:10Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

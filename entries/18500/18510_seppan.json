@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18510_seppan_ex1",
-      "japanese": "{費用|ひよう}を{折半|せっぱん}する。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{折半|せっぱん}⟦する→する：00392_suru⟧。",
       "english": "We split the cost in half.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18510_seppan_ex2",
-      "japanese": "{家賃|やちん}はルームメイトと{折半|せっぱん}している。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦は→は：00079_ha⟧⟦ルームメイト→ルームメイト：24411_ruumumeito⟧⟦と→と：00512_to⟧{折半|せっぱん}⟦している→する：00392_suru⟧。",
       "english": "I split the rent with my roommate.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18510_seppan_ex3",
-      "japanese": "{旅行|りょこう}の{交通費|こうつうひ}は{二人|ふたり}で{折半|せっぱん}することにした。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧⟦は→は：00079_ha⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦で→で：00502_de⟧{折半|せっぱん}⟦する→する：00392_suru⟧ことにした。",
       "english": "We decided to split the travel expenses between the two of us.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'breaking in half.' {折半|せっぱん} always implies an exact 50-50 split between two parties.\n\nCOMMON PATTERNS:\n- {費用|ひよう}を{折半|せっぱん}する: to split the cost\n- {家賃|やちん}を{折半|せっぱん}する: to split the rent\n- ～と{折半|せっぱん}する: to go halves with someone\n\nCONTRAST WITH {割|わ}り{勘|かん}:\n- {折半|せっぱん}: general term for splitting any expense equally (rent, travel, project costs)\n- {割|わ}り{勘|かん}: specifically splitting a restaurant or drinking bill among a group (can be more than two people)\n\nUSAGE:\nCommon in both casual and business contexts. Often used for recurring shared expenses like rent or utilities, not just one-time payments.",
+  "notes": "Literally 'breaking in half.' {折半|せっぱん} always implies an exact 50-50 split between two parties.\n\nCOMMON PATTERNS:\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{折半|せっぱん}⟦する→する：00392_suru⟧: to split the cost\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧⟦を→を：00422_wo⟧{折半|せっぱん}⟦する→する：00392_suru⟧: to split the rent\n- ～⟦と→と：00512_to⟧{折半|せっぱん}⟦する→する：00392_suru⟧: to go halves with someone\n\nCONTRAST WITH {割|わ}り{勘|かん}:\n- {折半|せっぱん}: general term for splitting any expense equally (rent, travel, project costs)\n- ⟦{割|わ}り{勘|かん}→割り勘：08156_warikan⟧: specifically splitting a restaurant or drinking bill among a group (can be more than two people)\n\nUSAGE:\nCommon in both casual and business contexts. Often used for recurring shared expenses like rent or utilities, not just one-time payments.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,10 +148,11 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-22T04:37:53Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {

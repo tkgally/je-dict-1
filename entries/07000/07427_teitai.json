@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07427_teitai_ex1",
-      "japanese": "{経済|けいざい}が{長期間|ちょうきかん}{停滞|ていたい}している。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦が→が：00051_ga⟧⟦{長期間|ちょうきかん}→長期間：25696_choukikan⟧{停滞|ていたい}⟦している→する：00392_suru⟧。",
       "english": "The economy has been stagnating for a long period.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07427_teitai_ex2",
-      "japanese": "{交渉|こうしょう}は{停滞|ていたい}{状態|じょうたい}に{陥|おちい}った。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦は→は：00079_ha⟧{停滞|ていたい}⟦{状態|じょうたい}→状態：03345_joutai⟧⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧。",
       "english": "The negotiations have reached a deadlock.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07427_teitai_ex3",
-      "japanese": "{前線|ぜんせん}の{影響|えいきょう}で{雲|くも}が{停滞|ていたい}している。",
+      "japanese": "⟦{前線|ぜんせん}→前線：11791_zensen⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{雲|くも}→雲：02202_kumo⟧⟦が→が：00051_ga⟧{停滞|ていたい}⟦している→する：00392_suru⟧。",
       "english": "The clouds are stagnating due to the front.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WRITING:\n- {停|てい} - stop, halt\n- {滞|たい} - stagnate, be delayed\n\nCOMMON COLLOCATIONS:\n- {経済|けいざい}の{停滞|ていたい} - economic stagnation\n- {停滞|ていたい}{状態|じょうたい} - state of stagnation\n- {停滞|ていたい}{前線|ぜんせん} - stationary front (weather)\n- {停滞|ていたい}が{続|つづ}く - stagnation continues\n- {停滞|ていたい}を{打破|だは}する - to break through stagnation\n\nWEATHER TERM:\n{停滞前線|ていたいぜんせん} - stationary front. A weather front that has stopped moving, often causing prolonged rain.\n\nCONTRASTING TERMS:\n- {躍進|やくしん} - rapid advance (opposite)\n- {発展|はってん} - development, progress\n- {成長|せいちょう} - growth\n\nRELATED WORDS:\n- {滞|とどこお}る - to stagnate (verb)\n- {行|い}き{詰|づ}まり - deadlock, impasse\n- {膠着|こうちゃく} - deadlock, stalemate\n\nREGISTER:\nNeutral to formal. Common in news, economics, and weather reports.",
+  "notes": "WRITING:\n- {停|てい} - stop, halt\n- {滞|たい} - stagnate, be delayed\n\nCOMMON COLLOCATIONS:\n- ⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{停滞|ていたい} - economic stagnation\n- {停滞|ていたい}⟦{状態|じょうたい}→状態：03345_joutai⟧ - state of stagnation\n- {停滞|ていたい}⟦{前線|ぜんせん}→前線：11791_zensen⟧ - stationary front (weather)\n- {停滞|ていたい}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ - stagnation continues\n- {停滞|ていたい}⟦を→を：00422_wo⟧⟦{打破|だは}→打破：12808_daha⟧⟦する→する：00392_suru⟧ - to break through stagnation\n\nWEATHER TERM:\n{停滞前線|ていたいぜんせん} - stationary front. A weather front that has stopped moving, often causing prolonged rain.\n\nCONTRASTING TERMS:\n- ⟦{躍進|やくしん}→躍進：07429_yakushin⟧ - rapid advance (opposite)\n- ⟦{発展|はってん}→発展：03561_hatten⟧ - development, progress\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧ - growth\n\nRELATED WORDS:\n- ⟦{滞|とどこお}る→滞る：07387_todokooru⟧ - to stagnate (verb)\n- ⟦{行|い}き{詰|づ}まり→行き詰まり：08033_ikizumari⟧ - deadlock, impasse\n- ⟦{膠着|こうちゃく}→膠着：13935_kouchaku⟧ - deadlock, stalemate\n\nREGISTER:\nNeutral to formal. Common in news, economics, and weather reports.",
   "cross_references": [
     {
       "type": "antonym",
@@ -219,7 +219,7 @@
   ],
   "metadata": {
     "created": "2026-01-19T08:15:08Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -233,7 +233,8 @@
         "change",
         "existence"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

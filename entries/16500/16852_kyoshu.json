@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16852_kyoshu_ex1",
-      "japanese": "{賛成|さんせい}の{方|かた}は{挙手|きょしゅ}してください。",
+      "japanese": "⟦{賛成|さんせい}→賛成：02829_sansei⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧{挙手|きょしゅ}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Those in favor, please raise your hand.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16852_kyoshu_ex2",
-      "japanese": "{挙手|きょしゅ}で{採決|さいけつ}を{取|と}った。",
+      "japanese": "{挙手|きょしゅ}⟦で→で：00502_de⟧⟦{採決|さいけつ}→採決：08395_saiketsu⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "A vote was taken by a show of hands.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16852_kyoshu_ex3",
-      "japanese": "{質問|しつもん}がある{人|ひと}は{挙手|きょしゅ}をお{願|ねが}いします。",
+      "japanese": "⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧{挙手|きょしゅ}⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "If you have a question, please raise your hand.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{挙手|きょしゅ} is a formal word for raising one's hand, used in structured settings like meetings, classrooms, and assemblies. Composed of {挙|きょ} (raise) + {手|しゅ} (hand).\n\nUSAGE:\nUsed as a する verb: {挙手|きょしゅ}する. In casual speech, {手|て}を{挙|あ}げる is more natural. {挙手|きょしゅ} sounds official and is typically used by the person calling for a vote or response, not by the person raising their hand.\n\nCOMMON PATTERNS:\n- {挙手|きょしゅ}をお{願|ねが}いします: please raise your hand (polite request)\n- {挙手|きょしゅ}で{採決|さいけつ}を{取|と}る: to take a vote by show of hands\n- {挙手|きょしゅ}する: to raise one's hand\n- {賛成|さんせい}の{方|かた}は{挙手|きょしゅ}: those in favor, raise your hand\n\nSIMILAR WORDS:\n- {手|て}を{挙|あ}げる: raise one's hand (everyday, casual)\n- {挙手|きょしゅ}: raise one's hand (formal, procedural)",
+  "notes": "{挙手|きょしゅ} is a formal word for raising one's hand, used in structured settings like meetings, classrooms, and assemblies. Composed of {挙|きょ} (raise) + {手|しゅ} (hand).\n\nUSAGE:\nUsed as a ⟦する→する：00392_suru⟧ verb: {挙手|きょしゅ}⟦する→する：00392_suru⟧. In casual speech, ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧ is more natural. {挙手|きょしゅ} sounds official and is typically used by the person calling for a vote or response, not by the person raising their hand.\n\nCOMMON PATTERNS:\n- {挙手|きょしゅ}⟦を→を：00422_wo⟧お{願|ねが}いします: please raise your hand (polite request)\n- {挙手|きょしゅ}⟦で→で：00502_de⟧⟦{採決|さいけつ}→採決：08395_saiketsu⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take a vote by show of hands\n- {挙手|きょしゅ}⟦する→する：00392_suru⟧: to raise one's hand\n- ⟦{賛成|さんせい}→賛成：02829_sansei⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧{挙手|きょしゅ}: those in favor, raise your hand\n\nSIMILAR WORDS:\n- ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧: raise one's hand (everyday, casual)\n- {挙手|きょしゅ}: raise one's hand (formal, procedural)",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-14T13:08:29Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "action",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

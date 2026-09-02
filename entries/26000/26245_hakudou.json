@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26245_hakudou_ex1",
-      "japanese": "{心臓|しんぞう}が{拍動|はくどう}している。",
+      "japanese": "⟦{心臓|しんぞう}→心臓：03262_shinzou⟧⟦が→が：00051_ga⟧{拍動|はくどう}⟦している→する：00392_suru⟧。",
       "english": "The heart is beating.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26245_hakudou_ex2",
-      "japanese": "{拍動|はくどう}が{速|はや}くなってきた。",
+      "japanese": "{拍動|はくどう}⟦が→が：00051_ga⟧⟦{速|はや}く→速い：00514_hayai⟧⟦なって→なる：01970_naru⟧きた。",
       "english": "The pulse is getting faster.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26245_hakudou_ex3",
-      "japanese": "{医師|いし}は{患者|かんじゃ}の{心臓|しんぞう}の{拍動|はくどう}が{正常|せいじょう}かどうかを{確認|かくにん}した。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦は→は：00079_ha⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧⟦{心臓|しんぞう}→心臓：03262_shinzou⟧⟦の→の：09472_no⟧{拍動|はくどう}⟦が→が：00051_ga⟧⟦{正常|せいじょう}→正常：03085_seijou⟧⟦かどうか→かどうか：28299_kadouka⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "The doctor checked whether the patient's heartbeat was normal.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {拍|はく} (beat; clap; rhythm) and {動|どう} (movement). Specifically refers to the rhythmic beating of the heart and blood vessels, making it more technical and narrower in scope than the related word {鼓動|こどう}.\n\nCOMMON COLLOCATIONS:\n- {心臓|しんぞう}の{拍動|はくどう}: heartbeat\n- {拍動|はくどう}{数|すう}: pulse rate\n- {拍動|はくどう}が{速|はや}い: pulse is fast\n- {拍動|はくどう}が{弱|よわ}い: pulse is weak\n- {不規則|ふきそく}な{拍動|はくどう}: irregular heartbeat\n\nSIMILAR WORDS:\n- {鼓動|こどう}: heartbeat; throbbing — more literary and emotional; often used figuratively ({胸|むね}の{鼓動|こどう} \"the beating of one's heart\" can imply excitement or emotion)\n- {脈拍|みゃくはく}: pulse — the measurable pulse rate, often used with numbers ({脈拍|みゃくはく}{数|すう} \"pulse rate\")\n- {律動|りつどう}: rhythmic movement — broader term for any regular cyclical motion, not limited to the heart\n- {動悸|どうき}: palpitations — specifically abnormal or noticeable heartbeat, often associated with anxiety or illness",
+  "notes": "Composed of ⟦{拍|はく}→拍：30066_haku⟧ (beat; clap; rhythm) and {動|どう} (movement). Specifically refers to the rhythmic beating of the heart and blood vessels, making it more technical and narrower in scope than the related word ⟦{鼓動|こどう}→鼓動：19609_kodou⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{心臓|しんぞう}→心臓：03262_shinzou⟧⟦の→の：09472_no⟧{拍動|はくどう}: heartbeat\n- {拍動|はくどう}⟦{数|すう}→数：03360_suu⟧: pulse rate\n- {拍動|はくどう}⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧: pulse is fast\n- {拍動|はくどう}⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧: pulse is weak\n- ⟦{不規則|ふきそく}→不規則：15651_fukisoku⟧な{拍動|はくどう}: irregular heartbeat\n\nSIMILAR WORDS:\n- ⟦{鼓動|こどう}→鼓動：19609_kodou⟧: heartbeat; throbbing — more literary and emotional; often used figuratively (⟦{胸|むね}→胸：00972_mune⟧⟦の→の：09472_no⟧⟦{鼓動|こどう}→鼓動：19609_kodou⟧ \"the beating of one's heart\" can imply excitement or emotion)\n- ⟦{脈拍|みゃくはく}→脈拍：17839_myakuhaku⟧: pulse — the measurable pulse rate, often used with numbers (⟦{脈拍|みゃくはく}→脈拍：17839_myakuhaku⟧⟦{数|すう}→数：03360_suu⟧ \"pulse rate\")\n- ⟦{律動|りつどう}→律動：26244_ritsudou⟧: rhythmic movement — broader term for any regular cyclical motion, not limited to the heart\n- ⟦{動悸|どうき}→動悸：06299_douki⟧: palpitations — specifically abnormal or noticeable heartbeat, often associated with anxiety or illness",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -91,10 +91,11 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-30T13:35:48Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "suru",

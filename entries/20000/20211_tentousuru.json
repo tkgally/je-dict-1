@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20211_tentousuru_ex1",
-      "japanese": "{街灯|がいとう}が{点灯|てんとう}した。",
+      "japanese": "⟦{街灯|がいとう}→街灯：14025_gaitou⟧⟦が→が：00051_ga⟧{点灯|てんとう}した。",
       "english": "The streetlights turned on.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20211_tentousuru_ex2",
-      "japanese": "クリスマスツリーのイルミネーションが{点灯|てんとう}された。",
+      "japanese": "⟦クリスマスツリー→クリスマスツリー：28315_kurisumasutsurii⟧⟦の→の：09472_no⟧⟦イルミネーション→イルミネーション：29122_irumineeshon⟧⟦が→が：00051_ga⟧{点灯|てんとう}された。",
       "english": "The Christmas tree illumination was lit.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20211_tentousuru_ex3",
-      "japanese": "{夕方|ゆうがた}になると{自動的|じどうてき}にセンサーが{反応|はんのう}して、{庭|にわ}のライトが{点灯|てんとう}する{仕組|しく}みになっている。",
+      "japanese": "⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{自動的|じどうてき}→自動的：25589_jidouteki⟧⟦に→に：00314_ni⟧⟦センサー→センサー：29781_sensaa⟧⟦が→が：00051_ga⟧⟦{反応|はんのう}して→反応する：20204_hannousuru⟧、⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦ライト→ライト：13631_raito⟧⟦が→が：00051_ga⟧{点灯|てんとう}する⟦{仕組|しく}み→仕組み：07168_shikumi⟧になっている。",
       "english": "In the evening, the sensor activates automatically and the garden lights turn on.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat formal word for turning on lights. In everyday speech, {電気|でんき}をつける (to turn on the light) is more common. {点灯|てんとう}する is preferred in technical, official, and ceremonial contexts such as illumination events.\n\nCOMMON COLLOCATIONS:\n- {点灯|てんとう}{式|しき}: lighting ceremony\n- {点灯|てんとう}{時間|じかん}: lighting time\n- {点灯|てんとう}{確認|かくにん}: light check\n- ランプが{点灯|てんとう}する: a lamp lights up\n- {警告灯|けいこくとう}が{点灯|てんとう}する: a warning light comes on\n\nSIMILAR WORDS:\n- つける: to turn on — everyday word for lights and appliances\n- {点|つ}く: to come on (intransitive) — the light turns on by itself\n- {消灯|しょうとう}する: to turn off lights — the antonym",
+  "notes": "A somewhat formal word for turning on lights. In everyday speech, ⟦{電気|でんき}→電気：09780_denki⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to turn on the light) is more common. {点灯|てんとう}する is preferred in technical, official, and ceremonial contexts such as illumination events.\n\nCOMMON COLLOCATIONS:\n- ⟦{点灯|てんとう}→点灯：17477_tentou⟧{式|しき}: lighting ceremony\n- ⟦{点灯|てんとう}→点灯：17477_tentou⟧⟦{時間|じかん}→時間：00468_jikan⟧: lighting time\n- ⟦{点灯|てんとう}→点灯：17477_tentou⟧⟦{確認|かくにん}→確認：00158_kakunin⟧: light check\n- ⟦ランプ→ランプ：11260_ranpu⟧⟦が→が：00051_ga⟧{点灯|てんとう}する: a lamp lights up\n- {警告灯|けいこくとう}⟦が→が：00051_ga⟧{点灯|てんとう}する: a warning light comes on\n\nSIMILAR WORDS:\n- ⟦つける→つける：00562_tsukeru⟧: to turn on — everyday word for lights and appliances\n- {点|つ}く: to come on (intransitive) — the light turns on by itself\n- ⟦{消灯|しょうとう}→消灯：18944_shoutou⟧⟦する→する：00392_suru⟧: to turn off lights — the antonym",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -157,9 +157,10 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-03-28T17:10:31Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

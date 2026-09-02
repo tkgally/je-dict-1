@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16968_hoten_ex1",
-      "japanese": "{赤字|あかじ}を{補填|ほてん}する。",
+      "japanese": "⟦{赤字|あかじ}→赤字：04712_akaji⟧⟦を→を：00422_wo⟧{補填|ほてん}⟦する→する：00392_suru⟧。",
       "english": "To cover the deficit.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16968_hoten_ex2",
-      "japanese": "{損失|そんしつ}の{補填|ほてん}に{税金|ぜいきん}が{使|つか}われた。",
+      "japanese": "⟦{損失|そんしつ}→損失：04875_sonshitsu⟧⟦の→の：09472_no⟧{補填|ほてん}⟦に→に：00314_ni⟧⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦が→が：00051_ga⟧⟦{使|つか}われた→使う：00473_tsukau⟧。",
       "english": "Tax money was used to cover the losses.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16968_hoten_ex3",
-      "japanese": "{人手|ひとで}{不足|ぶそく}を{補填|ほてん}するためにアルバイトを{雇|やと}った。",
+      "japanese": "⟦{人手|ひとで}{不足|ぶそく}→人手不足：11436_hitodebusoku⟧⟦を→を：00422_wo⟧{補填|ほてん}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧⟦{雇|やと}った→雇う：02320_yatou⟧。",
       "english": "We hired part-time workers to make up for the labor shortage.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word commonly used in business, finance, and government contexts. It implies making up for something that is missing or deficient. The kanji {填|てん} means to fill in.\n\nCOMMON COLLOCATIONS:\n- {赤字|あかじ}{補填|ほてん} (deficit coverage)\n- {損失|そんしつ}{補填|ほてん} (loss compensation)\n- {財源|ざいげん}の{補填|ほてん} (filling a funding gap)\n- {人員|じんいん}の{補填|ほてん} (filling a personnel shortage)\n\nSIMILAR WORDS:\n- {補充|ほじゅう}: replenishment — restocking or adding more of something\n- {補償|ほしょう}: compensation — making amends for damage or injury",
+  "notes": "USAGE:\nA formal word commonly used in business, finance, and government contexts. It implies making up for something that is missing or deficient. The kanji {填|てん} means to fill in.\n\nCOMMON COLLOCATIONS:\n- ⟦{赤字|あかじ}→赤字：04712_akaji⟧{補填|ほてん} (deficit coverage)\n- ⟦{損失|そんしつ}→損失：04875_sonshitsu⟧{補填|ほてん} (loss compensation)\n- {財源|ざいげん}⟦の→の：09472_no⟧{補填|ほてん} (filling a funding gap)\n- ⟦{人員|じんいん}→人員：17843_jinin⟧⟦の→の：09472_no⟧{補填|ほてん} (filling a personnel shortage)\n\nSIMILAR WORDS:\n- ⟦{補充|ほじゅう}→補充：14037_hojuu⟧: replenishment — restocking or adding more of something\n- ⟦{補償|ほしょう}→補償：03720_hoshou⟧: compensation — making amends for damage or injury",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-15T04:35:18Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

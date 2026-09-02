@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22362_kokemusu_ex1",
-      "japanese": "{庭|にわ}の{石|いし}が{苔|こけ}むしている。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{石|いし}→石：02177_ishi⟧⟦が→が：00051_ga⟧{苔|こけ}むして⟦いる→いる：00495_iru⟧。",
       "english": "The stones in the garden are covered in moss.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22362_kokemusu_ex2",
-      "japanese": "{古|ふる}い{石段|いしだん}が{苔|こけ}むして{滑|すべ}りやすくなっている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{石段|いしだん}⟦が→が：00051_ga⟧{苔|こけ}むして⟦{滑|すべ}りやすく→滑りやすい：27611_suberiyasui⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The old stone steps have become mossy and slippery.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22362_kokemusu_ex3",
-      "japanese": "{何百年|なんびゃくねん}も{経|た}った{石垣|いしがき}が{苔|こけ}むして、{歴史|れきし}の{重|おも}みを{感|かん}じさせる。",
+      "japanese": "{何百年|なんびゃくねん}⟦も→も：00484_mo⟧⟦{経|た}った→経つ：09892_tatsu⟧⟦{石垣|いしがき}→石垣：19673_ishigaki⟧⟦が→が：00051_ga⟧{苔|こけ}むして、⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{重|おも}み→重み：14503_omomi⟧⟦を→を：00422_wo⟧⟦{感|かん}じさせる→感じる：02044_kanjiru⟧。",
       "english": "The stone wall, hundreds of years old, is covered in moss, giving a sense of the weight of history.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A poetic and literary verb evoking the passage of time and natural beauty. Famous from the Japanese national anthem {君|きみ}が{代|よ}: \"{苔|こけ}のむすまで\" (until the pebbles grow into moss-covered boulders).\n\nCOMMON COLLOCATIONS:\n- {苔|こけ}むした{石|いし}: a moss-covered stone\n- {苔|こけ}むした{屋根|やね}: a mossy roof\n- {苔|こけ}むすまで: until moss grows (i.e., for an eternity)\n\nCULTURAL NOTE:\nMoss holds special aesthetic value in Japanese culture, symbolizing age, tranquility, and wabi-sabi. {苔|こけ}{寺|でら} (Saihoji temple in Kyoto) is famous for its moss garden.\n\nCOMMON PATTERNS:\nGodan verb (す row). Conjugates: {苔|こけ}むさない, {苔|こけ}むして, {苔|こけ}むします. The past participle {苔|こけ}むした is commonly used as a modifier.",
+  "notes": "A poetic and literary verb evoking the passage of time and natural beauty. Famous from the Japanese national anthem {君|きみ}が{代|よ}: \"⟦{苔|こけ}→苔：04991_koke⟧⟦の→の：09472_no⟧むす⟦まで→まで：00490_made⟧\" (until the pebbles grow into moss-covered boulders).\n\nCOMMON COLLOCATIONS:\n- {苔|こけ}むした⟦{石|いし}→石：02177_ishi⟧: a moss-covered stone\n- {苔|こけ}むした⟦{屋根|やね}→屋根：02264_yane⟧: a mossy roof\n- {苔|こけ}むす⟦まで→まで：00490_made⟧: until moss grows (i.e., for an eternity)\n\nCULTURAL NOTE:\nMoss holds special aesthetic value in Japanese culture, symbolizing age, tranquility, and wabi-sabi. ⟦{苔|こけ}→苔：04991_koke⟧{寺|でら} (Saihoji temple in Kyoto) is famous for its moss garden.\n\nCOMMON PATTERNS:\nGodan verb (す row). Conjugates: {苔|こけ}むさない, {苔|こけ}むして, {苔|こけ}むします. The past participle {苔|こけ}むした is commonly used as a modifier.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -57,10 +57,11 @@
       "semantic": [
         "nature"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-05T19:26:12Z",
-    "modified": "2026-09-02T02:55:10Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "godan",

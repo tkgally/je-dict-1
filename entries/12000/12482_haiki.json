@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12482_haiki_ex1",
-      "japanese": "{古|ふる}いパソコンを{廃棄|はいき}する。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{廃棄|はいき}⟦する→する：00392_suru⟧。",
       "english": "Dispose of an old computer.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12482_haiki_ex2",
-      "japanese": "{機密|きみつ}{文書|ぶんしょ}は{適切|てきせつ}に{廃棄|はいき}しなければならない。",
+      "japanese": "⟦{機密|きみつ}→機密：13179_kimitsu⟧⟦{文書|ぶんしょ}→文書：12947_bunsho⟧⟦は→は：00079_ha⟧⟦{適切|てきせつ}→適切：01621_tekisetsu⟧⟦に→に：00314_ni⟧{廃棄|はいき}し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "Confidential documents must be disposed of properly.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12482_haiki_ex3",
-      "japanese": "{賞味|しょうみ}{期限|きげん}が{切|き}れた{食品|しょくひん}は{廃棄|はいき}{処分|しょぶん}になるため、フードロスが{問題|もんだい}になっている。",
+      "japanese": "⟦{賞味|しょうみ}{期限|きげん}→賞味期限：06076_shoumikigen⟧⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦は→は：00079_ha⟧{廃棄|はいき}⟦{処分|しょぶん}→処分：05520_shobun⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦ため→ため：01145_tame⟧、フードロス⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "Food past its best-before date is disposed of, which is why food waste has become a problem.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a suru-verb: {廃棄|はいき}する. A formal term; in everyday speech, {捨|す}てる (throw away) is more common. {廃棄|はいき} implies an official or systematic process of disposal. Can also apply to treaties or agreements: {条約|じょうやく}を{廃棄|はいき}する (abrogate a treaty).\n\nCOMMON COLLOCATIONS:\n- {廃棄|はいき}{処分|しょぶん}: disposal (formal compound)\n- {廃棄|はいき}{物|ぶつ}: waste, discarded materials\n- {核|かく}{廃棄|はいき}: nuclear disarmament\n- {産業|さんぎょう}{廃棄|はいき}{物|ぶつ}: industrial waste",
+  "notes": "USAGE:\nUsed as a suru-verb: {廃棄|はいき}⟦する→する：00392_suru⟧. A formal term; in everyday speech, ⟦{捨|す}てる→捨てる：00892_suteru⟧ (throw away) is more common. {廃棄|はいき} implies an official or systematic process of disposal. Can also apply to treaties or agreements: ⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦を→を：00422_wo⟧{廃棄|はいき}⟦する→する：00392_suru⟧ (abrogate a treaty).\n\nCOMMON COLLOCATIONS:\n- {廃棄|はいき}⟦{処分|しょぶん}→処分：05520_shobun⟧: disposal (formal compound)\n- {廃棄|はいき}{物|ぶつ}: waste, discarded materials\n- ⟦{核|かく}→核：13127_kaku⟧{廃棄|はいき}: nuclear disarmament\n- {産業|さんぎょう}{廃棄|はいき}{物|ぶつ}: industrial waste",
   "cross_references": [
     {
       "type": "homophone",
@@ -181,7 +181,7 @@
   ],
   "metadata": {
     "created": "2026-02-21T10:34:14Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -194,7 +194,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

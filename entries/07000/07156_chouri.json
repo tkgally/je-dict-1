@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07156_chouri_ex1",
-      "japanese": "{野菜|やさい}を{調理|ちょうり}する。",
+      "japanese": "⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧{調理|ちょうり}⟦する→する：00392_suru⟧。",
       "english": "To cook vegetables.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "07156_chouri_ex2",
-      "japanese": "この{魚|さかな}は{調理|ちょうり}{方法|ほうほう}によって{味|あじ}が{変|か}わる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦は→は：00079_ha⟧{調理|ちょうり}⟦{方法|ほうほう}→方法：03621_houhou⟧⟦によって→によって：06801_niyotte⟧⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The taste of this fish changes depending on the cooking method.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "07156_chouri_ex3",
-      "japanese": "{調理|ちょうり}{時間|じかん}は{約|やく}30{分|ぷん}です。",
+      "japanese": "{調理|ちょうり}⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧30{分|ぷん}です。",
       "english": "The cooking time is about 30 minutes.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\n{調|ちょう} (arrange/prepare) + {理|り} (manage/reason)\n\nCOMMON COLLOCATIONS:\n- {調理|ちょうり}する - to cook, to prepare\n- {調理|ちょうり}{器具|きぐ} - cooking utensils\n- {調理|ちょうり}{方法|ほうほう} - cooking method\n- {調理|ちょうり}{時間|じかん} - cooking time\n- {調理|ちょうり}{済|ず}み - pre-cooked\n- {調理|ちょうり}{師|し} - chef (licensed)\n\nSIMILAR WORDS:\n- {料理|りょうり} - cooking, dish, cuisine (broader; includes the result)\n- {調理|ちょうり} focuses on the process/technique; {料理|りょうり} can mean both the act and the finished dish\n\nREGISTER:\nSlightly formal/technical. Common in recipes, professional contexts, and product labels.",
+  "notes": "FORMS:\n{調|ちょう} (arrange/prepare) + {理|り} (manage/reason)\n\nCOMMON COLLOCATIONS:\n- {調理|ちょうり}⟦する→する：00392_suru⟧ - to cook, to prepare\n- {調理|ちょうり}{器具|きぐ} - cooking utensils\n- {調理|ちょうり}⟦{方法|ほうほう}→方法：03621_houhou⟧ - cooking method\n- {調理|ちょうり}⟦{時間|じかん}→時間：00468_jikan⟧ - cooking time\n- {調理|ちょうり}⟦{済|ず}み→〜済み：04013_zumi⟧ - pre-cooked\n- {調理|ちょうり}{師|し} - chef (licensed)\n\nSIMILAR WORDS:\n- ⟦{料理|りょうり}→料理：01523_ryouri⟧ - cooking, dish, cuisine (broader; includes the result)\n- {調理|ちょうり} focuses on the process/technique; ⟦{料理|りょうり}→料理：01523_ryouri⟧ can mean both the act and the finished dish\n\nREGISTER:\nSlightly formal/technical. Common in recipes, professional contexts, and product labels.",
   "cross_references": [
     {
       "type": "related",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-01-19T02:58:14Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -161,7 +161,8 @@
       "semantic": [
         "cooking"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

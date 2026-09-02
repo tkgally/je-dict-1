@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29571_suberioriru_ex1",
-      "japanese": "{滑|すべ}り{台|だい}を{滑|すべ}り{降|お}りた。",
+      "japanese": "⟦{滑|すべ}り{台|だい}→滑り台：06325_suberidai⟧⟦を→を：00422_wo⟧{滑|すべ}り{降|お}りた。",
       "english": "I slid down the slide.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29571_suberioriru_ex2",
-      "japanese": "{子供|こども}たちは{雪|ゆき}の{斜面|しゃめん}を{滑|すべ}り{降|お}りて{遊|あそ}んだ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧⟦{雪|ゆき}→雪：00584_yuki⟧⟦の→の：09472_no⟧⟦{斜面|しゃめん}→斜面：12870_shamen⟧⟦を→を：00422_wo⟧{滑|すべ}り{降|お}りて⟦{遊|あそ}んだ→遊ぶ：00550_asobu⟧。",
       "english": "The children played by sliding down the snowy slope.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29571_suberioriru_ex3",
-      "japanese": "{消防士|しょうぼうし}はポールを{滑|すべ}り{降|お}りて{現場|げんば}へ{向|む}かった。",
+      "japanese": "⟦{消防士|しょうぼうし}→消防士：05057_shouboushi⟧⟦は→は：00079_ha⟧ポール⟦を→を：00422_wo⟧{滑|すべ}り{降|お}りて⟦{現場|げんば}→現場：02723_genba⟧⟦へ→へ：02473_he⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "The firefighter slid down the pole and headed to the scene.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Intransitive compound verb: {滑|すべ}る (to slide) + {降|お}りる (to descend). Describes sliding downward along a surface under one's own weight.\n\nTRANSITIVITY: Intransitive. The surface slid down is marked with を as a path (the を of traversal), as in {滑|すべ}り{台|だい}を{滑|すべ}り{降|お}りる.\n\nCOMMON COLLOCATIONS:\n- {滑|すべ}り{台|だい}を{滑|すべ}り{降|お}りる: to slide down a slide\n- {斜面|しゃめん}を{滑|すべ}り{降|お}りる: to slide down a slope\n- ロープを{滑|すべ}り{降|お}りる: to slide down a rope",
+  "notes": "Intransitive compound verb: ⟦{滑|すべ}る→滑る：01230_suberu⟧ (to slide) + ⟦{降|お}りる→降りる：00568_oriru⟧ (to descend). Describes sliding downward along a surface under one's own weight.\n\nTRANSITIVITY: Intransitive. The surface slid down is marked with ⟦を→を：00422_wo⟧ as a path (the ⟦を→を：00422_wo⟧ of traversal), as in ⟦{滑|すべ}り{台|だい}→滑り台：06325_suberidai⟧⟦を→を：00422_wo⟧{滑|すべ}り{降|お}りる.\n\nCOMMON COLLOCATIONS:\n- ⟦{滑|すべ}り{台|だい}→滑り台：06325_suberidai⟧⟦を→を：00422_wo⟧{滑|すべ}り{降|お}りる: to slide down a slide\n- ⟦{斜面|しゃめん}→斜面：12870_shamen⟧⟦を→を：00422_wo⟧{滑|すべ}り{降|お}りる: to slide down a slope\n- ⟦ロープ→ロープ：27860_roopu⟧⟦を→を：00422_wo⟧{滑|すべ}り{降|お}りる: to slide down a rope",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
         "movement"
       ],
       "domain": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-29T18:19:55Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "ichidan",

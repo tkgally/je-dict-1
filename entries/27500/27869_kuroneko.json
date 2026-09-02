@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27869_kuroneko_ex1",
-      "japanese": "{黒猫|くろねこ}が{道|みち}を{横切|よこぎ}った。",
+      "japanese": "{黒猫|くろねこ}⟦が→が：00051_ga⟧⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{横切|よこぎ}った→横切る：02326_yokogiru⟧。",
       "english": "A black cat crossed the road.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27869_kuroneko_ex2",
-      "japanese": "{夜道|よみち}で{黒猫|くろねこ}に{出会|であ}うと、なんとなくどきっとする。",
+      "japanese": "⟦{夜道|よみち}→夜道：17541_yomichi⟧⟦で→で：00502_de⟧{黒猫|くろねこ}⟦に→に：00314_ni⟧⟦{出会|であ}う→出会う：02298_deau⟧⟦と→と：00512_to⟧、なんとなくどきっ⟦と→と：00512_to⟧⟦する→する：00392_suru⟧。",
       "english": "Running into a black cat on a dark road gives you a bit of a start.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27869_kuroneko_ex3",
-      "japanese": "{彼女|かのじょ}は{黒猫|くろねこ}を{一匹|いっぴき}{飼|か}っていて、まるで{家族|かぞく}のように{大切|たいせつ}にしている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{黒猫|くろねこ}⟦を→を：00422_wo⟧⟦{一匹|いっぴき}→一匹：08930_ippiki⟧⟦{飼|か}っていて→飼う：08151_kau⟧、⟦まるで→まるで：03739_marude⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦のように→のように：30291_noyouni⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "She keeps a black cat and treats it like a member of the family.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A black-furred cat. In Japanese tradition a black cat crossing one's path is unlucky in some regions, while in others black cats are said to ward off evil and bring fortune.\n\nCOMMON COLLOCATIONS:\n- {黒猫|くろねこ}が{横切|よこぎ}る: a black cat crosses (one's path)\n- {黒猫|くろねこ}を{飼|か}う: to keep a black cat\n\nCULTURAL NOTE:\nA black cat (クロネコ) is also the well-known logo of the courier company Yamato Transport, known as クロネコヤマト.",
+  "notes": "A black-furred cat. In Japanese tradition a black cat crossing one's path is unlucky in some regions, while in others black cats are said to ward off evil and bring fortune.\n\nCOMMON COLLOCATIONS:\n- {黒猫|くろねこ}⟦が→が：00051_ga⟧⟦{横切|よこぎ}る→横切る：02326_yokogiru⟧: a black cat crosses (one's path)\n- {黒猫|くろねこ}⟦を→を：00422_wo⟧⟦{飼|か}う→飼う：08151_kau⟧: to keep a black cat\n\nCULTURAL NOTE:\nA black cat (クロネコ) is also the well-known logo of the courier company Yamato Transport, known as クロネコヤマト.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +61,6 @@
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

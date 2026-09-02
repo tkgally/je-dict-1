@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07496_bureekaa_ex1",
-      "japanese": "ブレーカーが{落|お}ちた。",
+      "japanese": "ブレーカー⟦が→が：00051_ga⟧⟦{落|お}ちた→落ちる：01242_ochiru⟧。",
       "english": "The breaker tripped.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07496_bureekaa_ex2",
-      "japanese": "ブレーカーを{上|あ}げてください。",
+      "japanese": "ブレーカー⟦を→を：00422_wo⟧⟦{上|あ}げて→上げる：02443_ageru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please flip the breaker back on.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07496_bureekaa_ex3",
-      "japanese": "エアコンとドライヤーを{同時|どうじ}に{使|つか}うとブレーカーが{落|お}ちる。",
+      "japanese": "⟦エアコン→エアコン：05282_eakon⟧⟦と→と：00512_to⟧⟦ドライヤー→ドライヤー：05076_doraiyaa⟧⟦を→を：00422_wo⟧⟦{同時|どうじ}→同時：01592_douji⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧ブレーカー⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧。",
       "english": "The breaker trips if you use the air conditioner and hair dryer at the same time.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "LOANWORD:\nFrom English \"breaker\" (short for circuit breaker)\n\nHOW IT WORKS:\nブレーカー automatically \"trips\" ({落|お}ちる) when:\n- Too many appliances draw power simultaneously\n- {過電流|かでんりゅう} - overcurrent detected\n- {漏電|ろうでん} - electrical leak detected\n- {短絡|たんらく}/ショート - short circuit occurs\n\nCOMMON EXPRESSIONS:\n- ブレーカーが{落|お}ちる - breaker trips/goes off\n- ブレーカーを{上|あ}げる - to flip breaker back on\n- ブレーカーを{下|さ}げる - to turn breaker off\n- ブレーカーを{確認|かくにん}する - to check the breaker\n\nTYPES IN JAPANESE HOMES:\n- {漏電|ろうでん}ブレーカー - ground fault breaker (main)\n- {安全|あんぜん}ブレーカー - safety breaker (individual circuits)\n- アンペアブレーカー - amperage breaker (contract capacity)\n\nTROUBLESHOOTING:\nIf ブレーカー keeps tripping:\n1. Reduce number of appliances in use\n2. Check for damaged cords\n3. Call an electrician if problem persists",
+  "notes": "LOANWORD:\nFrom English \"breaker\" (short for circuit breaker)\n\nHOW IT WORKS:\nブレーカー automatically \"trips\" (⟦{落|お}ちる→落ちる：01242_ochiru⟧) when:\n- Too many appliances draw power simultaneously\n- {過電流|かでんりゅう} - overcurrent detected\n- ⟦{漏電|ろうでん}→漏電：07965_rouden⟧ - electrical leak detected\n- ⟦{短絡|たんらく}→短絡：16366_tanraku⟧/⟦ショート→ショート：10951_shooto⟧ - short circuit occurs\n\nCOMMON EXPRESSIONS:\n- ブレーカー⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧ - breaker trips/goes off\n- ブレーカー⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ - to flip breaker back on\n- ブレーカー⟦を→を：00422_wo⟧⟦{下|さ}げる→下げる：00807_sageru⟧ - to turn breaker off\n- ブレーカー⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ - to check the breaker\n\nTYPES IN JAPANESE HOMES:\n- ⟦{漏電|ろうでん}→漏電：07965_rouden⟧ブレーカー - ground fault breaker (main)\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧ブレーカー - safety breaker (individual circuits)\n- アンペアブレーカー - amperage breaker (contract capacity)\n\nTROUBLESHOOTING:\nIf ブレーカー keeps tripping:\n1. Reduce number of appliances in use\n2. Check for damaged cords\n3. Call an electrician if problem persists",
   "cross_references": [
     {
       "type": "related",
@@ -66,7 +66,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

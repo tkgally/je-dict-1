@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13989_wakate_ex1",
-      "japanese": "{若手|わかて}{社員|しゃいん}が{活躍|かつやく}している。",
+      "japanese": "{若手|わかて}⟦{社員|しゃいん}→社員：03065_shain⟧⟦が→が：00051_ga⟧⟦{活躍|かつやく}している→活躍する：25354_katsuyakusuru⟧。",
       "english": "The young employees are doing well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13989_wakate_ex2",
-      "japanese": "{若手|わかて}の{俳優|はいゆう}がこの{映画|えいが}で{注目|ちゅうもく}された。",
+      "japanese": "{若手|わかて}⟦の→の：09472_no⟧⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦で→で：00502_de⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦された→する：00392_suru⟧。",
       "english": "A young actor attracted attention with this film.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13989_wakate_ex3",
-      "japanese": "うちの{会社|かいしゃ}は{若手|わかて}の{育成|いくせい}に{力|ちから}を{入|い}れている。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{若手|わかて}⟦の→の：09472_no⟧⟦{育成|いくせい}→育成：13928_ikusei⟧⟦に→に：00314_ni⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れている→入れる：01098_ireru⟧。",
       "english": "Our company puts a lot of effort into developing young talent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{若手|わかて} is relative to the context — a 35-year-old may be {若手|わかて} in politics but not in professional sports. The word implies that the person is on the younger end within their specific world. Often carries positive connotations of freshness and potential.\n\nCOMMON COLLOCATIONS:\n- {若手|わかて}{社員|しゃいん}: young employee\n- {若手|わかて}{俳優|はいゆう}: young actor\n- {若手|わかて}{選手|せんしゅ}: young player/athlete\n- {若手|わかて}の{育成|いくせい}: development of young talent\n- {若手|わかて}の{台頭|たいとう}: rise of young talent\n- {若手|わかて}ホープ: promising young talent",
+  "notes": "USAGE:\n{若手|わかて} is relative to the context — a 35-year-old may be {若手|わかて} in politics but not in professional sports. The word implies that the person is on the younger end within their specific world. Often carries positive connotations of freshness and potential.\n\nCOMMON COLLOCATIONS:\n- {若手|わかて}⟦{社員|しゃいん}→社員：03065_shain⟧: young employee\n- {若手|わかて}⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧: young actor\n- {若手|わかて}⟦{選手|せんしゅ}→選手：03823_senshu⟧: young player/athlete\n- {若手|わかて}⟦の→の：09472_no⟧⟦{育成|いくせい}→育成：13928_ikusei⟧: development of young talent\n- {若手|わかて}⟦の→の：09472_no⟧⟦{台頭|たいとう}→台頭：07595_taitou⟧: rise of young talent\n- {若手|わかて}ホープ: promising young talent",
   "cross_references": [
     {
       "type": "antonym",
@@ -50,14 +56,19 @@
   ],
   "metadata": {
     "created": "2026-02-27T08:34:56Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

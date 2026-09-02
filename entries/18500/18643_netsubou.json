@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18643_netsubou_ex1",
-      "japanese": "{平和|へいわ}を{熱望|ねつぼう}する。",
+      "japanese": "⟦{平和|へいわ}→平和：01507_heiwa⟧⟦を→を：00422_wo⟧{熱望|ねつぼう}⟦する→する：00392_suru⟧。",
       "english": "To fervently desire peace.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18643_netsubou_ex2",
-      "japanese": "ファンが{続編|ぞくへん}を{熱望|ねつぼう}している。",
+      "japanese": "⟦ファン→ファン：10065_fan⟧⟦が→が：00051_ga⟧⟦{続編|ぞくへん}→続編：13818_zokuhen⟧⟦を→を：00422_wo⟧{熱望|ねつぼう}⟦している→する：00392_suru⟧。",
       "english": "Fans are eagerly hoping for a sequel.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18643_netsubou_ex3",
-      "japanese": "{長年|ながねん}{熱望|ねつぼう}していた{海外|かいがい}{留学|りゅうがく}がついに{実現|じつげん}した。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧{熱望|ねつぼう}⟦していた→する：00392_suru⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦が→が：00051_ga⟧ついに⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧。",
       "english": "The study abroad that I had fervently wished for over many years finally came true.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "A compound of {熱|ねつ} (heat, passion) + {望|ぼう} (hope, desire). Conveys an intense, burning desire — much stronger than ordinary wanting.\n\nREGISTER:\nFormal and literary. Common in news, essays, and written narrative. Rarely used in casual conversation.\n\nCOMMON PATTERNS:\n- {熱望|ねつぼう}する: to ardently desire\n- {熱望|ねつぼう}されている: to be eagerly awaited\n- {長年|ながねん}の{熱望|ねつぼう}: long-held ardent wish\n\nSIMILAR WORDS (intensity scale):\n- {希望|きぼう}: hope, wish (neutral)\n- {願望|がんぼう}: desire, aspiration (stronger)\n- {渇望|かつぼう}: craving, yearning (desperate)\n- {熱望|ねつぼう}: fervent desire (passionate, burning)",
+  "notes": "A compound of ⟦{熱|ねつ}→熱：01690_netsu⟧ (heat, passion) + {望|ぼう} (hope, desire). Conveys an intense, burning desire — much stronger than ordinary wanting.\n\nREGISTER:\nFormal and literary. Common in news, essays, and written narrative. Rarely used in casual conversation.\n\nCOMMON PATTERNS:\n- {熱望|ねつぼう}⟦する→する：00392_suru⟧: to ardently desire\n- {熱望|ねつぼう}⟦されている→する：00392_suru⟧: to be eagerly awaited\n- ⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{熱望|ねつぼう}: long-held ardent wish\n\nSIMILAR WORDS (intensity scale):\n- ⟦{希望|きぼう}→希望：00221_kibou⟧: hope, wish (neutral)\n- ⟦{願望|がんぼう}→願望：05085_ganbou⟧: desire, aspiration (stronger)\n- ⟦{渇望|かつぼう}→渇望：05999_katsubou⟧: craving, yearning (desperate)\n- {熱望|ねつぼう}: fervent desire (passionate, burning)",
   "cross_references": [
     {
       "type": "contrast",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

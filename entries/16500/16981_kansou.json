@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16981_kansou_ex1",
-      "japanese": "マラソンを{完走|かんそう}した。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦を→を：00422_wo⟧{完走|かんそう}⟦した→する：00392_suru⟧。",
       "english": "I finished the marathon.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16981_kansou_ex2",
-      "japanese": "{完走|かんそう}できるか{不安|ふあん}だった。",
+      "japanese": "{完走|かんそう}⟦できる→できる：00557_dekiru⟧⟦か→か：09473_ka⟧⟦{不安|ふあん}→不安：00836_fuan⟧だった。",
       "english": "I was worried about whether I could finish the race.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16981_kansou_ex3",
-      "japanese": "{初|はじ}めてのフルマラソンで{完走|かんそう}できたときは{本当|ほんとう}に{嬉|うれ}しかった。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧フルマラソン⟦で→で：00502_de⟧{完走|かんそう}⟦できた→できる：00557_dekiru⟧とき⟦は→は：00079_ha⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧⟦{嬉|うれ}しかった→嬉しい：00822_ureshii⟧。",
       "english": "I was truly happy when I finished my first full marathon.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPrimarily used for running races (marathons, relays) and motorsport (F1, car rallies). The focus is on completing the course, not on placement. For many amateur runners, {完走|かんそう} itself is the goal.\n\nCOMMON COLLOCATIONS:\n- マラソンを{完走|かんそう}する (to finish a marathon)\n- {完走|かんそう}{証|しょう} (completion certificate)\n- {完走|かんそう}タイム (finishing time)\n- {完走|かんそう}{率|りつ} (completion rate)\n\nSIMILAR WORDS:\n- ゴール: goal, finish line — the physical endpoint\n- {完|かん}{走|そう} vs {感想|かんそう} vs {乾燥|かんそう}: these are homophones — be careful with context",
+  "notes": "USAGE:\nPrimarily used for running races (marathons, relays) and motorsport (F1, car rallies). The focus is on completing the course, not on placement. For many amateur runners, {完走|かんそう} itself is the goal.\n\nCOMMON COLLOCATIONS:\n- ⟦マラソン→マラソン：04732_marason⟧⟦を→を：00422_wo⟧{完走|かんそう}⟦する→する：00392_suru⟧ (to finish a marathon)\n- {完走|かんそう}{証|しょう} (completion certificate)\n- {完走|かんそう}⟦タイム→タイム：23539_taimu⟧ (finishing time)\n- {完走|かんそう}⟦{率|りつ}→率：03802_ritsu⟧ (completion rate)\n\nSIMILAR WORDS:\n- ⟦ゴール→ゴール：03845_gooru⟧: goal, finish line — the physical endpoint\n- {完|かん}{走|そう} vs ⟦{感想|かんそう}→感想：00450_kansou⟧ vs ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧: these are homophones — be careful with context",
   "prominent_see_also": [
     {
       "target_id": "15643_kansousuru",
@@ -168,7 +168,7 @@
   ],
   "metadata": {
     "created": "2026-03-15T04:40:24Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
       "semantic": [
         "sports"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

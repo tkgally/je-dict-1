@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13860_zokushutsu_ex1",
-      "japanese": "{事故|じこ}が{続出|ぞくしゅつ}している。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{続出|ぞくしゅつ}⟦している→する：00392_suru⟧。",
       "english": "Accidents are occurring one after another.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13860_zokushutsu_ex2",
-      "japanese": "{不祥事|ふしょうじ}が{続出|ぞくしゅつ}して{信頼|しんらい}を{失|うしな}った。",
+      "japanese": "⟦{不祥事|ふしょうじ}→不祥事：14981_fushouji⟧⟦が→が：00051_ga⟧{続出|ぞくしゅつ}⟦して→する：00392_suru⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦を→を：00422_wo⟧⟦{失|うしな}った→失う：01887_ushinau⟧。",
       "english": "Scandals kept occurring one after another and trust was lost.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13860_zokushutsu_ex3",
-      "japanese": "{猛暑|もうしょ}の{影響|えいきょう}で{熱中症|ねっちゅうしょう}の{患者|かんじゃ}が{続出|ぞくしゅつ}した。",
+      "japanese": "⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{熱中症|ねっちゅうしょう}→熱中症：08330_necchuushou⟧⟦の→の：09472_no⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦が→が：00051_ga⟧{続出|ぞくしゅつ}⟦した→する：00392_suru⟧。",
       "english": "Due to the extreme heat, heatstroke patients appeared one after another.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nTypically used with negative or noteworthy events — accidents, scandals, problems, complaints. Can also be used neutrally for a series of notable occurrences. The pattern is subject + が + {続出|ぞくしゅつ}する.\n\nFORMS:\n{続|ぞく} (continue, follow) + {出|しゅつ} (appear, emerge).\n\nSIMILAR WORDS:\n- {頻発|ひんぱつ}: occurring frequently\n- {多発|たはつ}: occurring in large numbers\n- {相次|あいつ}ぐ: to occur one after another (verb)\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}が{続出|ぞくしゅつ}する: accidents occur in succession\n- {苦情|くじょう}が{続出|ぞくしゅつ}する: complaints pour in\n- {被害|ひがい}が{続出|ぞくしゅつ}する: damage cases keep appearing\n- {問題|もんだい}が{続出|ぞくしゅつ}する: problems keep arising",
+  "notes": "USAGE:\nTypically used with negative or noteworthy events — accidents, scandals, problems, complaints. Can also be used neutrally for a series of notable occurrences. The pattern is subject + ⟦が→が：00051_ga⟧ + {続出|ぞくしゅつ}⟦する→する：00392_suru⟧.\n\nFORMS:\n{続|ぞく} (continue, follow) + {出|しゅつ} (appear, emerge).\n\nSIMILAR WORDS:\n- ⟦{頻発|ひんぱつ}→頻発：14670_hinpatsu⟧: occurring frequently\n- ⟦{多発|たはつ}→多発：20508_tahatsu⟧: occurring in large numbers\n- ⟦{相次|あいつ}ぐ→相次ぐ：14869_aitsugu⟧: to occur one after another (verb)\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{続出|ぞくしゅつ}⟦する→する：00392_suru⟧: accidents occur in succession\n- ⟦{苦情|くじょう}→苦情：00252_kujou⟧⟦が→が：00051_ga⟧{続出|ぞくしゅつ}⟦する→する：00392_suru⟧: complaints pour in\n- ⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧{続出|ぞくしゅつ}⟦する→する：00392_suru⟧: damage cases keep appearing\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{続出|ぞくしゅつ}⟦する→する：00392_suru⟧: problems keep arising",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T05:45:40Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

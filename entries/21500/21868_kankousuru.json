@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21868_kankousuru_ex1",
-      "japanese": "{大規模|だいきぼ}な{改革|かいかく}を{敢行|かんこう}する。",
+      "japanese": "⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧な⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧{敢行|かんこう}する。",
       "english": "To push ahead with large-scale reform.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21868_kankousuru_ex2",
-      "japanese": "{悪天候|あくてんこう}の{中|なか}、{登山|とざん}を{敢行|かんこう}した。",
+      "japanese": "⟦{悪天候|あくてんこう}→悪天候：16184_akutenkou⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧、⟦{登山|とざん}→登山：03457_tozan⟧⟦を→を：00422_wo⟧{敢行|かんこう}した。",
       "english": "They went ahead with the mountain climb despite the bad weather.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21868_kankousuru_ex3",
-      "japanese": "{反対|はんたい}{意見|いけん}が{多|おお}かったが、{社長|しゃちょう}は{人事|じんじ}{異動|いどう}を{敢行|かんこう}した。",
+      "japanese": "⟦{反対|はんたい}{意見|いけん}→反対意見：24246_hantaiiken⟧⟦が→が：00051_ga⟧⟦{多|おお}かった→多い：01127_ooi⟧⟦が→が：00051_ga⟧、⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧⟦{人事|じんじ}{異動|いどう}→人事異動：18627_jinjiidou⟧⟦を→を：00422_wo⟧{敢行|かんこう}した。",
       "english": "There was much opposition, but the company president pushed ahead with the personnel reshuffle.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Conveys bold, decisive action in the face of difficulty or opposition. The {敢|かん} character means 'dare' or 'boldly,' emphasizing that the action requires courage or determination.\n\nCOMMON COLLOCATIONS:\n- {改革|かいかく}を{敢行|かんこう}する: to push ahead with reform\n- {実験|じっけん}を{敢行|かんこう}する: to carry out an experiment (boldly)\n- {強行|きょうこう}{突破|とっぱ}を{敢行|かんこう}する: to force one's way through\n- {作戦|さくせん}を{敢行|かんこう}する: to carry out an operation/mission\n\nSIMILAR WORDS:\n- {実行|じっこう}する: to execute/carry out — neutral, no nuance of difficulty\n- {断行|だんこう}する: to carry out decisively — similar but emphasizes decisiveness over courage\n- {強行|きょうこう}する: to force through — implies pushing against strong resistance",
+  "notes": "Conveys bold, decisive action in the face of difficulty or opposition. The {敢|かん} character means 'dare' or 'boldly,' emphasizing that the action requires courage or determination.\n\nCOMMON COLLOCATIONS:\n- ⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧{敢行|かんこう}する: to push ahead with reform\n- ⟦{実験|じっけん}→実験：03273_jikken⟧⟦を→を：00422_wo⟧{敢行|かんこう}する: to carry out an experiment (boldly)\n- ⟦{強行|きょうこう}→強行：12559_kyoukou⟧⟦{突破|とっぱ}→突破：13755_toppa⟧⟦を→を：00422_wo⟧{敢行|かんこう}する: to force one's way through\n- ⟦{作戦|さくせん}→作戦：09673_sakusen⟧⟦を→を：00422_wo⟧{敢行|かんこう}する: to carry out an operation/mission\n\nSIMILAR WORDS:\n- ⟦{実行|じっこう}する→実行する：22146_jikkousuru⟧: to execute/carry out — neutral, no nuance of difficulty\n- ⟦{断行|だんこう}→断行：15618_dankou⟧⟦する→する：00392_suru⟧: to carry out decisively — similar but emphasizes decisiveness over courage\n- ⟦{強行|きょうこう}→強行：12559_kyoukou⟧⟦する→する：00392_suru⟧: to force through — implies pushing against strong resistance",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -80,10 +80,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-03T20:19:45Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
   "conjugation": {
     "type": "suru",

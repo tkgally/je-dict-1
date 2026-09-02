@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17665_ryo_ex1",
-      "japanese": "「{明日|あした}10{時|じ}ね」「りょ」",
+      "japanese": "「⟦{明日|あした}→明日：00501_ashita⟧10⟦{時|じ}→時：09869_ji⟧⟦ね→ね：09474_ne⟧」「りょ」",
       "english": "\"Tomorrow at 10, okay?\" \"Got it.\"",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17665_ryo_ex2",
-      "japanese": "「{駅|えき}に{着|つ}いたら{連絡|れんらく}して」「りょ！」",
+      "japanese": "「⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧⟦{着|つ}いたら→着く：00680_tsuku⟧⟦{連絡|れんらく}して→連絡する：20202_renrakusuru⟧」「りょ！」",
       "english": "\"Let me know when you get to the station.\" \"Roger!\"",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17665_ryo_ex3",
-      "japanese": "「お{弁当|べんとう}{買|か}ってきて」「りょ。なに{味|あじ}がいい？」",
+      "japanese": "「⟦お{弁当|べんとう}→お弁当：02864_obentou⟧⟦{買|か}って→買う：00489_kau⟧きて」「りょ。なに⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧？」",
       "english": "\"Buy a bento on the way.\" \"Got it. What kind?\"",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,11 @@
       ]
     }
   ],
-  "notes": "りょ is the ultimate abbreviation of {了解|りょうかい} (understood/roger). It represents the trend in Japanese texting culture to shorten acknowledgment words as much as possible.\n\nABBREVIATION CHAIN:\n{了解|りょうかい} → りょうかい → {了解|りょうかい} → りょーかい → りょ\n\nSome speakers even abbreviate further to り, though this is less common.\n\nREGISTER:\nExtremely casual. Used exclusively in texting, messaging apps (LINE, etc.), and very casual spoken interactions among close friends. Using りょ with superiors, in business, or with people you don't know well would be inappropriate.\n\nACKNOWLEDGMENT SCALE (casual to formal):\n- りょ / り: ultra-casual texting\n- おっけー / おけ: casual\n- {了解|りょうかい}: casual to neutral\n- {了解|りょうかい}です: polite casual\n- {承知|しょうち}しました: formal/business\n- かしこまりました: very formal/service industry",
+  "notes": "りょ is the ultimate abbreviation of ⟦{了解|りょうかい}→了解：05091_ryoukai⟧ (understood/roger). It represents the trend in Japanese texting culture to shorten acknowledgment words as much as possible.\n\nABBREVIATION CHAIN:\n⟦{了解|りょうかい}→了解：05091_ryoukai⟧ → りょう⟦か→か：09473_ka⟧い → ⟦{了解|りょうかい}→了解：05091_ryoukai⟧ → りょーかい → りょ\n\nSome speakers even abbreviate further to り, though this is less common.\n\nREGISTER:\nExtremely casual. Used exclusively in texting, messaging apps (LINE, etc.), and very casual spoken interactions among close friends. Using りょ with superiors, in business, or with people you don't know well would be inappropriate.\n\nACKNOWLEDGMENT SCALE (casual to formal):\n- りょ / り: ultra-casual texting\n- ⟦おっけー→オッケー：08757_okkee⟧ / おけ: casual\n- ⟦{了解|りょうかい}→了解：05091_ryoukai⟧: casual to neutral\n- ⟦{了解|りょうかい}→了解：05091_ryoukai⟧です: polite casual\n- ⟦{承知|しょうち}しました→承知する：01835_shouchisuru⟧: formal/business\n- かしこまりました: very formal/service industry",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-12T07:55:57Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

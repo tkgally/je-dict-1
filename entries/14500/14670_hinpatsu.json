@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14670_hinpatsu_ex1",
-      "japanese": "{事故|じこ}が{頻発|ひんぱつ}している。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{頻発|ひんぱつ}⟦している→する：00392_suru⟧。",
       "english": "Accidents are occurring frequently.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14670_hinpatsu_ex2",
-      "japanese": "この{交差点|こうさてん}では{交通|こうつう}{事故|じこ}が{頻発|ひんぱつ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{交差点|こうさてん}→交差点：01404_kousaten⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{交通|こうつう}{事故|じこ}→交通事故：21255_koutsuujiko⟧⟦が→が：00051_ga⟧{頻発|ひんぱつ}⟦している→する：00392_suru⟧。",
       "english": "Traffic accidents occur frequently at this intersection.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14670_hinpatsu_ex3",
-      "japanese": "{近年|きんねん}、{異常|いじょう}{気象|きしょう}による{自然|しぜん}{災害|さいがい}が{頻発|ひんぱつ}しており、{対策|たいさく}が{急|きゅう}がれている。",
+      "japanese": "⟦{近年|きんねん}→近年：14349_kinnen⟧、⟦{異常|いじょう}{気象|きしょう}→異常気象：18874_ijoukishou⟧⟦による→による：28349_niyoru⟧⟦{自然|しぜん}{災害|さいがい}→自然災害：29290_shizensaigai⟧⟦が→が：00051_ga⟧{頻発|ひんぱつ}⟦して→する：00392_suru⟧おり、⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧{急|きゅう}がれて⟦いる→いる：00495_iru⟧。",
       "english": "In recent years, natural disasters caused by abnormal weather have been occurring frequently, and countermeasures are urgently needed.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Almost exclusively used for negative events — accidents, crimes, disasters, problems. Would not normally be used for positive occurrences.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}が{頻発|ひんぱつ}する (accidents occur frequently)\n- {犯罪|はんざい}が{頻発|ひんぱつ}する (crimes occur frequently)\n- {災害|さいがい}が{頻発|ひんぱつ}する (disasters occur frequently)\n- トラブルが{頻発|ひんぱつ}する (problems occur frequently)\n\nSIMILAR WORDS:\n- {多発|たはつ} also means frequent occurrence but is slightly more neutral\n- {頻繁|ひんぱん} (frequent) is an adjective and applies to both positive and negative things",
+  "notes": "Almost exclusively used for negative events — accidents, crimes, disasters, problems. Would not normally be used for positive occurrences.\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{頻発|ひんぱつ}⟦する→する：00392_suru⟧ (accidents occur frequently)\n- ⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦が→が：00051_ga⟧{頻発|ひんぱつ}⟦する→する：00392_suru⟧ (crimes occur frequently)\n- ⟦{災害|さいがい}→災害：09636_saigai⟧⟦が→が：00051_ga⟧{頻発|ひんぱつ}⟦する→する：00392_suru⟧ (disasters occur frequently)\n- ⟦トラブル→トラブル：07061_toraburu⟧⟦が→が：00051_ga⟧{頻発|ひんぱつ}⟦する→する：00392_suru⟧ (problems occur frequently)\n\nSIMILAR WORDS:\n- ⟦{多発|たはつ}→多発：20508_tahatsu⟧ also means frequent occurrence but is slightly more neutral\n- ⟦{頻繁|ひんぱん}→頻繁：08631_hinpan⟧ (frequent) is an adjective and applies to both positive and negative things",
   "cross_references": [
     {
       "type": "synonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-02T10:57:53Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -187,7 +187,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

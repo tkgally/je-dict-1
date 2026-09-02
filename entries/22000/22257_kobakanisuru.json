@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22257_kobakanisuru_ex1",
-      "japanese": "{人|ひと}を{小馬鹿|こばか}にするな。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{小馬鹿|こばか}にするな。",
       "english": "Don't make fun of people.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22257_kobakanisuru_ex2",
-      "japanese": "{小馬鹿|こばか}にしたような{態度|たいど}を{取|と}る。",
+      "japanese": "{小馬鹿|こばか}にしたような⟦{態度|たいど}→態度：03396_taido⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To take a condescending attitude.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22257_kobakanisuru_ex3",
-      "japanese": "あの{上司|じょうし}はいつも{部下|ぶか}を{小馬鹿|こばか}にした{言|い}い{方|かた}をする。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{上司|じょうし}→上司：03286_joushi⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦を→を：00422_wo⟧{小馬鹿|こばか}にした⟦{言|い}い{方|かた}→言い方：14165_iikata⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "That boss always speaks to subordinates in a belittling way.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22257_kobakanisuru_ex4",
-      "japanese": "{小馬鹿|こばか}にされて、とても{悔|くや}しかった。",
+      "japanese": "{小馬鹿|こばか}にされて、⟦とても→とても：00593_totemo⟧⟦{悔|くや}しかった→悔しい：02343_kuyashii⟧。",
       "english": "I was made fun of and felt very frustrated.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Expresses a mild but clear form of mockery or condescension. The {小|こ} prefix softens {馬鹿|ばか} (fool/stupid), but paradoxically this makes the expression more cutting — it implies the speaker considers the target not worth taking seriously.\n\nCOMMON PATTERNS:\n- {小馬鹿|こばか}にする: to belittle, make fun of\n- {小馬鹿|こばか}にされる: to be made fun of (passive)\n- {小馬鹿|こばか}にしたような{笑|わら}い: a mocking laugh\n- {小馬鹿|こばか}にしたような{態度|たいど}: a condescending attitude\n- {小馬鹿|こばか}にした{口調|くちょう}: a sneering tone\n\nSIMILAR WORDS:\n- {馬鹿|ばか}にする: to make a fool of — stronger and more directly insulting\n- {見下|みくだ}す: to look down on — more about perceived superiority\n- {嘲笑|ちょうしょう}する: to ridicule — more formal/literary\n\nFORMS:\n{小|こ} (small, slight) + {馬鹿|ばか} (fool) + にする (to treat as). The {小|こ} prefix creates a sense of dismissive, casual contempt.",
+  "notes": "Expresses a mild but clear form of mockery or condescension. The ⟦{小|こ}→小〜：00240_ko⟧ prefix softens ⟦{馬鹿|ばか}→馬鹿：03574_baka⟧ (fool/stupid), but paradoxically this makes the expression more cutting — it implies the speaker considers the target not worth taking seriously.\n\nCOMMON PATTERNS:\n- {小馬鹿|こばか}にする: to belittle, make fun of\n- {小馬鹿|こばか}にされる: to be made fun of (passive)\n- {小馬鹿|こばか}にしたような⟦{笑|わら}い→笑い：02641_warai⟧: a mocking laugh\n- {小馬鹿|こばか}にしたような⟦{態度|たいど}→態度：03396_taido⟧: a condescending attitude\n- {小馬鹿|こばか}にした⟦{口調|くちょう}→口調：11803_kuchou⟧: a sneering tone\n\nSIMILAR WORDS:\n- ⟦{馬鹿|ばか}→馬鹿：03574_baka⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to make a fool of — stronger and more directly insulting\n- ⟦{見下|みくだ}す→見下す：09911_mikudasu⟧: to look down on — more about perceived superiority\n- ⟦{嘲笑|ちょうしょう}→嘲笑：09026_choushou⟧⟦する→する：00392_suru⟧: to ridicule — more formal/literary\n\nFORMS:\n⟦{小|こ}→小〜：00240_ko⟧ (small, slight) + ⟦{馬鹿|ばか}→馬鹿：03574_baka⟧ (fool) + ⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to treat as). The ⟦{小|こ}→小〜：00240_ko⟧ prefix creates a sense of dismissive, casual contempt.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -92,10 +92,11 @@
         "emotion",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T16:24:03Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

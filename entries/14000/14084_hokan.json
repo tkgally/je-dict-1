@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14084_hokan_ex1",
-      "japanese": "{不足|ふそく}{分|ぶん}を{補完|ほかん}する。",
+      "japanese": "⟦{不足|ふそく}→不足：03598_fusoku⟧⟦{分|ぶん}→分：26216_bun⟧⟦を→を：00422_wo⟧{補完|ほかん}⟦する→する：00392_suru⟧。",
       "english": "To supplement what is lacking.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14084_hokan_ex2",
-      "japanese": "{二人|ふたり}の{能力|のうりょく}は{互|たが}いに{補完|ほかん}し{合|あ}っている。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦は→は：00079_ha⟧⟦{互|たが}い→互い：03402_tagai⟧⟦に→に：00314_ni⟧{補完|ほかん}し⟦{合|あ}っている→合う：10466_au⟧。",
       "english": "Their abilities complement each other.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14084_hokan_ex3",
-      "japanese": "このデータベースは{欠落|けつらく}した{部分|ぶぶん}を{別|べつ}の{資料|しりょう}で{補完|ほかん}することで、より{正確|せいかく}な{分析|ぶんせき}が{可能|かのう}になる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦データベース→データベース：04720_deetabeesu⟧⟦は→は：00079_ha⟧⟦{欠落|けつらく}→欠落：21121_ketsuraku⟧⟦した→する：00392_suru⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦を→を：00422_wo⟧⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦で→で：00502_de⟧{補完|ほかん}⟦する→する：00392_suru⟧ことで、より⟦{正確|せいかく}→正確：03372_seikaku⟧な⟦{分析|ぶんせき}→分析：03610_bunseki⟧⟦が→が：00051_ga⟧⟦{可能|かのう}→可能：00175_kanou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "By supplementing the missing parts of this database with other materials, more accurate analysis becomes possible.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly used in business, academic, and technical contexts. The pattern {互|たが}いに{補完|ほかん}する (to complement each other) is especially frequent. Also appears in computing contexts such as {自動|じどう}{補完|ほかん} (autocomplete).\n\nSIMILAR WORDS:\n- {補足|ほそく}: supplementary explanation, additional note\n- {補充|ほじゅう}: replenishment, filling a vacancy\n- {補填|ほてん}: compensation, making up a deficit\n\nCOMMON COLLOCATIONS:\n- {互|たが}いに{補完|ほかん}する: to complement each other\n- {補完|ほかん}{関係|かんけい}: complementary relationship\n- {補完|ほかん}{的|てき}: complementary\n- {自動|じどう}{補完|ほかん}: autocomplete",
+  "notes": "USAGE:\nCommonly used in business, academic, and technical contexts. The pattern ⟦{互|たが}い→互い：03402_tagai⟧⟦に→に：00314_ni⟧{補完|ほかん}⟦する→する：00392_suru⟧ (to complement each other) is especially frequent. Also appears in computing contexts such as {自動|じどう}{補完|ほかん} (autocomplete).\n\nSIMILAR WORDS:\n- ⟦{補足|ほそく}→補足：08386_hosoku⟧: supplementary explanation, additional note\n- ⟦{補充|ほじゅう}→補充：14037_hojuu⟧: replenishment, filling a vacancy\n- ⟦{補填|ほてん}→補填：16968_hoten⟧: compensation, making up a deficit\n\nCOMMON COLLOCATIONS:\n- ⟦{互|たが}い→互い：03402_tagai⟧⟦に→に：00314_ni⟧{補完|ほかん}⟦する→する：00392_suru⟧: to complement each other\n- {補完|ほかん}⟦{関係|かんけい}→関係：01298_kankei⟧: complementary relationship\n- {補完|ほかん}⟦{的|てき}→〜的：09839_teki⟧: complementary\n- {自動|じどう}{補完|ほかん}: autocomplete",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T23:14:33Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

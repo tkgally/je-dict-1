@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25281_dasshusuru_ex1",
-      "japanese": "{政権|せいけん}を{奪取|だっしゅ}する。",
+      "japanese": "⟦{政権|せいけん}→政権：12883_seiken⟧⟦を→を：00422_wo⟧{奪取|だっしゅ}する。",
       "english": "To seize political power.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25281_dasshusuru_ex2",
-      "japanese": "{選手|せんしゅ}はついにチャンピオンベルトを{奪取|だっしゅ}した。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧ついに⟦チャンピオン→チャンピオン：19399_chanpion⟧⟦ベルト→ベルト：01508_beruto⟧⟦を→を：00422_wo⟧{奪取|だっしゅ}した。",
       "english": "The fighter finally captured the championship belt.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25281_dasshusuru_ex3",
-      "japanese": "{革命軍|かくめいぐん}は{首都|しゅと}を{奪取|だっしゅ}して{新|あたら}しい{政府|せいふ}を{樹立|じゅりつ}した。",
+      "japanese": "{革命軍|かくめいぐん}⟦は→は：00079_ha⟧⟦{首都|しゅと}→首都：03224_shuto⟧⟦を→を：00422_wo⟧{奪取|だっしゅ}して⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{政府|せいふ}→政府：03294_seifu⟧⟦を→を：00422_wo⟧⟦{樹立|じゅりつ}→樹立：13232_juritsu⟧⟦した→する：00392_suru⟧。",
       "english": "The revolutionary forces seized the capital and established a new government.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {奪|だつ} (seize, rob) + {取|しゅ} (take). A strong word implying forcible or aggressive acquisition, often used for political power, military objectives, or championship titles.\n\nCOMMON COLLOCATIONS:\n- {政権|せいけん}{奪取|だっしゅ}: seizure of power\n- {王座|おうざ}{奪取|だっしゅ}: capturing the throne/championship\n- タイトル{奪取|だっしゅ}: winning/capturing a title\n- {領土|りょうど}{奪取|だっしゅ}: territorial seizure\n- {利権|りけん}を{奪取|だっしゅ}する: to seize concessions/interests\n\nSIMILAR WORDS:\n- {奪|うば}う: to snatch, steal — a more common verb for taking by force, used in everyday contexts\n- {略奪|りゃくだつ}する: to plunder — implies looting and pillaging\n- {獲得|かくとく}する: to acquire, obtain — neutral; does not imply force",
+  "notes": "Composed of {奪|だつ} (seize, rob) + {取|しゅ} (take). A strong word implying forcible or aggressive acquisition, often used for political power, military objectives, or championship titles.\n\nCOMMON COLLOCATIONS:\n- ⟦{政権|せいけん}→政権：12883_seiken⟧⟦{奪取|だっしゅ}→奪取：12214_dasshu⟧: seizure of power\n- ⟦{王座|おうざ}→王座：21328_ouza⟧⟦{奪取|だっしゅ}→奪取：12214_dasshu⟧: capturing the throne/championship\n- ⟦タイトル→タイトル：03855_taitoru⟧⟦{奪取|だっしゅ}→奪取：12214_dasshu⟧: winning/capturing a title\n- ⟦{領土|りょうど}→領土：15711_ryoudo⟧⟦{奪取|だっしゅ}→奪取：12214_dasshu⟧: territorial seizure\n- {利権|りけん}⟦を→を：00422_wo⟧{奪取|だっしゅ}する: to seize concessions/interests\n\nSIMILAR WORDS:\n- ⟦{奪|うば}う→奪う：01895_ubau⟧: to snatch, steal — a more common verb for taking by force, used in everyday contexts\n- ⟦{略奪|りゃくだつ}→略奪：13576_ryakudatsu⟧⟦する→する：00392_suru⟧: to plunder — implies looting and pillaging\n- ⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦する→する：00392_suru⟧: to acquire, obtain — neutral; does not imply force",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
         "politics",
         "military"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T13:15:24Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

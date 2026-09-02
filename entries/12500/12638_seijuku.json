@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12638_seijuku_ex1",
-      "japanese": "{果実|かじつ}が{成熟|せいじゅく}する。",
+      "japanese": "⟦{果実|かじつ}→果実：00146_kajitsu⟧⟦が→が：00051_ga⟧{成熟|せいじゅく}⟦する→する：00392_suru⟧。",
       "english": "The fruit ripens.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12638_seijuku_ex2",
-      "japanese": "{成熟|せいじゅく}した{社会|しゃかい}では{多様性|たようせい}が{尊重|そんちょう}される。",
+      "japanese": "{成熟|せいじゅく}⟦した→する：00392_suru⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{多様性|たようせい}→多様性：04825_tayousei⟧⟦が→が：00051_ga⟧⟦{尊重|そんちょう}される→尊重する：17456_sonchousuru⟧。",
       "english": "In a mature society, diversity is respected.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12638_seijuku_ex3",
-      "japanese": "{経済|けいざい}が{成熟|せいじゅく}するにつれて、{成長率|せいちょうりつ}は{緩|ゆる}やかになる{傾向|けいこう}がある。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦が→が：00051_ga⟧{成熟|せいじゅく}⟦する→する：00392_suru⟧⟦につれて→につれて：28400_nitsurete⟧、⟦{成長率|せいちょうりつ}→成長率：30165_seichouritsu⟧⟦は→は：00079_ha⟧⟦{緩|ゆる}やか→緩やか：13813_yuruyaka⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{傾向|けいこう}→傾向：02695_keikou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "As an economy matures, growth rates tend to slow.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{成熟|せいじゅく} is used for both literal biological ripening and figurative maturation.\n\nCOMMON COLLOCATIONS:\n- {成熟|せいじゅく}する: to mature, to ripen\n- {成熟|せいじゅく}した～: mature, fully developed ~\n- {成熟|せいじゅく}{社会|しゃかい}: mature society\n- {成熟|せいじゅく}{期|き}: period of maturation\n- {性的|せいてき}{成熟|せいじゅく}: sexual maturity\n\nSIMILAR WORDS:\n- {成熟|せいじゅく}: maturity (biological or figurative, fully developed state)\n- {成長|せいちょう}: growth (the process of growing, not necessarily reaching full development)\n- {熟成|じゅくせい}: aging, fermentation (especially for food and beverages like wine or cheese)\n- {円熟|えんじゅく}: full maturity, mellowing (of a person's skills or character, implies polish and refinement)",
+  "notes": "{成熟|せいじゅく} is used for both literal biological ripening and figurative maturation.\n\nCOMMON COLLOCATIONS:\n- {成熟|せいじゅく}⟦する→する：00392_suru⟧: to mature, to ripen\n- {成熟|せいじゅく}⟦した→する：00392_suru⟧～: mature, fully developed ~\n- {成熟|せいじゅく}⟦{社会|しゃかい}→社会：01427_shakai⟧: mature society\n- {成熟|せいじゅく}{期|き}: period of maturation\n- ⟦{性的|せいてき}→性的：23798_seiteki⟧{成熟|せいじゅく}: sexual maturity\n\nSIMILAR WORDS:\n- {成熟|せいじゅく}: maturity (biological or figurative, fully developed state)\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧: growth (the process of growing, not necessarily reaching full development)\n- ⟦{熟成|じゅくせい}→熟成：13414_jukusei⟧: aging, fermentation (especially for food and beverages like wine or cheese)\n- ⟦{円熟|えんじゅく}→円熟：09112_enjuku⟧: full maturity, mellowing (of a person's skills or character, implies polish and refinement)",
   "cross_references": [
     {
       "type": "antonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T04:39:34Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -187,7 +187,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

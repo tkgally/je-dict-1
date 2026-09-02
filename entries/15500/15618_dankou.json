@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15618_dankou_ex1",
-      "japanese": "{改革|かいかく}を{断行|だんこう}する。",
+      "japanese": "⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧{断行|だんこう}⟦する→する：00392_suru⟧。",
       "english": "To carry out reform decisively.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15618_dankou_ex2",
-      "japanese": "{社長|しゃちょう}は{反対|はんたい}を{押|お}し{切|き}ってリストラを{断行|だんこう}した。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦を→を：00422_wo⟧⟦{押|お}し{切|き}って→押し切る：06793_oshikiru⟧⟦リストラ→リストラ：04689_risutora⟧⟦を→を：00422_wo⟧{断行|だんこう}⟦した→する：00392_suru⟧。",
       "english": "The company president pushed through the restructuring despite opposition.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15618_dankou_ex3",
-      "japanese": "{困難|こんなん}な{状況|じょうきょう}でも{必要|ひつよう}な{措置|そち}を{断行|だんこう}する{覚悟|かくご}が{求|もと}められる。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧な⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{措置|そち}→措置：05519_sochi⟧⟦を→を：00422_wo⟧{断行|だんこう}⟦する→する：00392_suru⟧⟦{覚悟|かくご}→覚悟：02551_kakugo⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Even in difficult situations, one must have the resolve to take necessary measures decisively.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{断行|だんこう} implies that the action requires courage or determination, often because it is unpopular, risky, or faces resistance. It is commonly used in political and business contexts.\n\nCOMMON COLLOCATIONS:\n- {改革|かいかく}を{断行|だんこう}する (to push through reform)\n- {値上|ねあ}げを{断行|だんこう}する (to decisively implement a price increase)\n- {断行|だんこう}する{覚悟|かくご} (the resolve to take decisive action)\n\nSIMILAR WORDS:\n{実行|じっこう} (execution, carrying out) is neutral and does not imply difficulty. {決行|けっこう} means to go ahead with something despite obstacles (like bad weather), but is less focused on the boldness of the decision.",
+  "notes": "USAGE:\n{断行|だんこう} implies that the action requires courage or determination, often because it is unpopular, risky, or faces resistance. It is commonly used in political and business contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧{断行|だんこう}⟦する→する：00392_suru⟧ (to push through reform)\n- ⟦{値上|ねあ}げ→値上げ：07582_neage⟧⟦を→を：00422_wo⟧{断行|だんこう}⟦する→する：00392_suru⟧ (to decisively implement a price increase)\n- {断行|だんこう}⟦する→する：00392_suru⟧⟦{覚悟|かくご}→覚悟：02551_kakugo⟧ (the resolve to take decisive action)\n\nSIMILAR WORDS:\n⟦{実行|じっこう}→実行：03274_jikkou⟧ (execution, carrying out) is neutral and does not imply difficulty. ⟦{決行|けっこう}→決行：02794_kekkou⟧ means to go ahead with something despite obstacles (like bad weather), but is less focused on the boldness of the decision.",
   "cross_references": [
     {
       "type": "synonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:12:06Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -187,7 +187,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

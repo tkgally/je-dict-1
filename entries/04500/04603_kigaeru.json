@@ -124,7 +124,7 @@
     },
     {
       "id": "04603_kigaeru_ex3",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{着替|きが}えさせてから⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{着替|きが}えさせて⟦から→から：00504_kara⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "I got the child changed before going out.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "04603_kigaeru_ex4",
-      "japanese": "⟦{制服|せいふく}→制服：03086_seifuku⟧⟦に→に：00314_ni⟧{着替|きが}えてから⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
+      "japanese": "⟦{制服|せいふく}→制服：03086_seifuku⟧⟦に→に：00314_ni⟧{着替|きが}えて⟦から→から：00504_kara⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I change into my uniform before going to school.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "04603_kigaeru_ex5",
-      "japanese": "⟦{更衣室|こういしつ}→更衣室：07042_kouishitsu⟧⟦で→で：00502_de⟧{着替|きが}えて、プール⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
+      "japanese": "⟦{更衣室|こういしつ}→更衣室：07042_kouishitsu⟧⟦で→で：00502_de⟧{着替|きが}えて、⟦プール→プール：02958_puuru⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I changed in the locker room and got in the pool.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{着替|きが}える is both transitive and intransitive. It can mean \"to change one's own clothes\" (intransitive use) or \"to change [specific clothing]\" (transitive use).\n\nASPECT (ている):\n{着替|きが}えている typically indicates an ongoing action of changing clothes.\n\nCOMMON PATTERNS:\n- ⟦{服|ふく}→服：00695_fuku⟧⟦に→に：00314_ni⟧{着替|きが}える - to change into clothes\n- {着替|きが}えさせる - to change someone's clothes (causative)\n- ⟦{着替|きが}え→着替え：16045_kigae⟧ - change of clothes (noun form)\n- [clothing]⟦に→に：00314_ni⟧{着替|きが}える - to change into [clothing]\n- [clothing]⟦を→を：00422_wo⟧{着替|きが}える - to change [specific clothing item]\n\nRELATED WORDS:\n- ⟦{着替|きが}え→着替え：16045_kigae⟧: spare clothes, change of clothes\n- ⟦{更衣室|こういしつ}→更衣室：07042_kouishitsu⟧: changing room, locker room",
+  "notes": "{着替|きが}える is both transitive and intransitive. It can mean \"to change one's own clothes\" (intransitive use) or \"to change [specific clothing]\" (transitive use).\n\nASPECT (ている):\n{着替|きが}えて⟦いる→いる：00495_iru⟧ typically indicates an ongoing action of changing clothes.\n\nCOMMON PATTERNS:\n- ⟦{服|ふく}→服：00695_fuku⟧⟦に→に：00314_ni⟧{着替|きが}える - to change into clothes\n- {着替|きが}えさせる - to change someone's clothes (causative)\n- ⟦{着替|きが}え→着替え：16045_kigae⟧ - change of clothes (noun form)\n- [clothing]⟦に→に：00314_ni⟧{着替|きが}える - to change into [clothing]\n- [clothing]⟦を→を：00422_wo⟧{着替|きが}える - to change [specific clothing item]\n\nRELATED WORDS:\n- ⟦{着替|きが}え→着替え：16045_kigae⟧: spare clothes, change of clothes\n- ⟦{更衣室|こういしつ}→更衣室：07042_kouishitsu⟧: changing room, locker room",
   "prominent_see_also": [
     {
       "target_id": "16045_kigae",
@@ -187,7 +187,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T11:30:36Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:05Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
@@ -198,7 +198,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     }
   }
 }

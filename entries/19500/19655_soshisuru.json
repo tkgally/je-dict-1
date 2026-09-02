@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19655_soshisuru_ex1",
-      "japanese": "{犯罪|はんざい}を{阻止|そし}する。",
+      "japanese": "⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦を→を：00422_wo⟧{阻止|そし}する。",
       "english": "To prevent crime.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19655_soshisuru_ex2",
-      "japanese": "{計画|けいかく}は{住民|じゅうみん}の{反対|はんたい}で{阻止|そし}された。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦の→の：09472_no⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦で→で：00502_de⟧{阻止|そし}された。",
       "english": "The plan was blocked by opposition from residents.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19655_soshisuru_ex3",
-      "japanese": "テロを{未然|みぜん}に{阻止|そし}するために、{警備|けいび}が{強化|きょうか}された。",
+      "japanese": "テロ⟦を→を：00422_wo⟧⟦{未然|みぜん}→未然：13084_mizen⟧⟦に→に：00314_ni⟧{阻止|そし}する⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{警備|けいび}→警備：00208_keibi⟧⟦が→が：00051_ga⟧⟦{強化|きょうか}→強化：00260_kyouka⟧⟦された→する：00392_suru⟧。",
       "english": "Security was strengthened to prevent terrorism before it could happen.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A relatively strong word implying active, deliberate prevention. Common in news and political contexts.\n\nCOMMON COLLOCATIONS:\n- {未然|みぜん}に{阻止|そし}する: to nip in the bud, to prevent before it happens\n- {計画|けいかく}を{阻止|そし}する: to block a plan\n- {侵入|しんにゅう}を{阻止|そし}する: to prevent intrusion\n- {拡大|かくだい}を{阻止|そし}する: to prevent spread/expansion\n\nSIMILAR WORDS:\n- {防|ふせ}ぐ: to prevent, to protect against — general everyday word\n- {阻止|そし}する: to block, to thwart — stronger, implies actively stopping someone's action or plan\n- {妨|さまた}げる: to hinder, to obstruct — implies getting in the way and slowing progress",
+  "notes": "A relatively strong word implying active, deliberate prevention. Common in news and political contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{未然|みぜん}→未然：13084_mizen⟧⟦に→に：00314_ni⟧{阻止|そし}する: to nip in the bud, to prevent before it happens\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{阻止|そし}する: to block a plan\n- ⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧⟦を→を：00422_wo⟧{阻止|そし}する: to prevent intrusion\n- ⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦を→を：00422_wo⟧{阻止|そし}する: to prevent spread/expansion\n\nSIMILAR WORDS:\n- ⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent, to protect against — general everyday word\n- {阻止|そし}する: to block, to thwart — stronger, implies actively stopping someone's action or plan\n- ⟦{妨|さまた}げる→妨げる：12223_samatageru⟧: to hinder, to obstruct — implies getting in the way and slowing progress",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-26T09:42:25Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -164,7 +164,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

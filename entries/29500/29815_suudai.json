@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29815_suudai_ex1",
-      "japanese": "{車|くるま}が{数台|すうだい}{止|と}まっている。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{数台|すうだい}⟦{止|と}まっている→止まる：00555_tomaru⟧。",
       "english": "Several cars are parked.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29815_suudai_ex2",
-      "japanese": "{会場|かいじょう}にパソコンが{数台|すうだい}{並|なら}んでいた。",
+      "japanese": "⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦に→に：00314_ni⟧⟦パソコン→パソコン：01538_pasokon⟧⟦が→が：00051_ga⟧{数台|すうだい}⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "Several computers were lined up at the venue.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29815_suudai_ex3",
-      "japanese": "{工事|こうじ}のため、{道路|どうろ}に{重機|じゅうき}が{数台|すうだい}{入|はい}っている。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{道路|どうろ}→道路：01481_douro⟧⟦に→に：00314_ni⟧{重機|じゅうき}⟦が→が：00051_ga⟧{数台|すうだい}⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "Several pieces of heavy machinery are on the road for the construction work.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The prefix {数|すう} attaches to a counter to mean \"several\" or \"a few\" (typically two to eight or so). With {台|だい}, the counter for vehicles and machines, {数台|すうだい} means several cars, computers, appliances, and the like.\n\nTHE {数|すう}〜 PATTERN:\n- {数人|すうにん}: several people\n- {数回|すうかい}: several times\n- {数日|すうじつ}: several days\n\nUse {数台|すうだい} only for things counted with {台|だい}; switch the counter to match other kinds of objects.",
+  "notes": "The prefix ⟦{数|すう}→数：03360_suu⟧ attaches to a counter to mean \"several\" or \"a few\" (typically two to eight or so). With {台|だい}, the counter for vehicles and machines, {数台|すうだい} means several cars, computers, appliances, and the like.\n\nTHE {数|すう}〜 PATTERN:\n- ⟦{数人|すうにん}→数人：18787_suunin⟧: several people\n- ⟦{数回|すうかい}→数回：29820_suukai⟧: several times\n- ⟦{数日|すうじつ}→数日：20517_suujitsu⟧: several days\n\nUse {数台|すうだい} only for things counted with {台|だい}; switch the counter to match other kinds of objects.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -69,6 +69,6 @@
       "domain": []
     },
     "created": "2026-07-13T12:21:17Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -129,7 +129,7 @@
     },
     {
       "id": "03727_bonyari_ex3",
-      "japanese": "⟦{霧|きり}→霧：02200_kiri⟧⟦で→で：00502_de⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦が→が：00051_ga⟧ぼんやりしている。",
+      "japanese": "⟦{霧|きり}→霧：02200_kiri⟧⟦で→で：00502_de⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦が→が：00051_ga⟧ぼんやり⟦している→する：00392_suru⟧。",
       "english": "The scenery looks hazy because of the fog.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "03727_bonyari_ex5",
-      "japanese": "ぼんやりしていて⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧⟦{乗|の}り{過|す}ごした→乗り過ごす：07928_norisugosu⟧。",
+      "japanese": "ぼんやり⟦していて→する：00392_suru⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧⟦{乗|の}り{過|す}ごした→乗り過ごす：07928_norisugosu⟧。",
       "english": "I was spacing out and missed my train stop.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "An onomatopoeic word with multiple related uses.\n\nCOMMON PATTERNS:\n- ぼんやり(と)⟦する→する：00392_suru⟧ (to space out, to be vague)\n- ぼんやり(と)⟦{見|み}える→見える：01165_mieru⟧ (to be dimly visible)\n- ぼんやりした + noun (vague, hazy)\n\nCOMMON COLLOCATIONS:\n- ぼんやりした⟦{記憶|きおく}→記憶：00234_kioku⟧ (vague memory)\n- ぼんやりした⟦{輪郭|りんかく}→輪郭：14295_rinkaku⟧ (blurry outline)\n- ぼんやり⟦{過|す}ごす→過ごす：02062_sugosu⟧ (to spend time idly)\n\nSIMILAR WORDS:\n- ⟦うっかり→うっかり：01863_ukkari⟧ - carelessly (implies a mistake)\n- ぼんやり - absent-mindedly (implies lack of focus)\n- ⟦ぼーっと→ぼーっと：05269_bootto⟧ - spaced out, zoning out",
+  "notes": "An onomatopoeic word with multiple related uses.\n\nCOMMON PATTERNS:\n- ぼんやり(⟦と→と：00512_to⟧)⟦する→する：00392_suru⟧ (to space out, to be vague)\n- ぼんやり(⟦と→と：00512_to⟧)⟦{見|み}える→見える：01165_mieru⟧ (to be dimly visible)\n- ぼんやり⟦した→する：00392_suru⟧ + noun (vague, hazy)\n\nCOMMON COLLOCATIONS:\n- ぼんやり⟦した→する：00392_suru⟧⟦{記憶|きおく}→記憶：00234_kioku⟧ (vague memory)\n- ぼんやり⟦した→する：00392_suru⟧⟦{輪郭|りんかく}→輪郭：14295_rinkaku⟧ (blurry outline)\n- ぼんやり⟦{過|す}ごす→過ごす：02062_sugosu⟧ (to spend time idly)\n\nSIMILAR WORDS:\n- ⟦うっかり→うっかり：01863_ukkari⟧ - carelessly (implies a mistake)\n- ぼんやり - absent-mindedly (implies lack of focus)\n- ⟦ぼーっと→ぼーっと：05269_bootto⟧ - spaced out, zoning out",
   "cross_references": [
     {
       "type": "contrast",
@@ -242,7 +242,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -257,7 +257,8 @@
         "action",
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22410_chuunyuu_ex1",
-      "japanese": "{資金|しきん}を{注入|ちゅうにゅう}する。",
+      "japanese": "⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧{注入|ちゅうにゅう}⟦する→する：00392_suru⟧。",
       "english": "To inject funds.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22410_chuunyuu_ex2",
-      "japanese": "{新|あら}たなエネルギーを{注入|ちゅうにゅう}する{必要|ひつよう}がある。",
+      "japanese": "⟦{新|あら}た→新た：01697_arata⟧な⟦エネルギー→エネルギー：03834_enerugii⟧⟦を→を：00422_wo⟧{注入|ちゅうにゅう}⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to inject new energy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22410_chuunyuu_ex3",
-      "japanese": "{政府|せいふ}は{経済|けいざい}{危機|きき}に{対応|たいおう}するため、{大量|たいりょう}の{公的|こうてき}{資金|しきん}を{銀行|ぎんこう}に{注入|ちゅうにゅう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦{危機|きき}→危機：11798_kiki⟧⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦{公的|こうてき}→公的：06349_kouteki⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦に→に：00314_ni⟧{注入|ちゅうにゅう}⟦した→する：00392_suru⟧。",
       "english": "The government injected a large amount of public funds into the banks to respond to the economic crisis.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {注|ちゅう} (pour) and {入|にゅう} (enter/put in). Used both literally (pouring liquid into something) and figuratively (injecting capital, energy, ideas, etc.). The figurative usage is very common in business and news contexts.\n\nCOMMON COLLOCATIONS:\n- {資金|しきん}{注入|ちゅうにゅう}: capital injection\n- {注入|ちゅうにゅう}する: to inject, to infuse\n- {公的|こうてき}{資金|しきん}の{注入|ちゅうにゅう}: injection of public funds\n- {注入|ちゅうにゅう}{量|りょう}: amount injected\n\nSIMILAR WORDS:\n- {注射|ちゅうしゃ}: injection (medical) — specifically a needle injection into the body\n- {投入|とうにゅう}: input / commitment — putting resources into something, broader than {注入|ちゅうにゅう}\n- {注|そそ}ぐ: to pour — the everyday verb for pouring liquids",
+  "notes": "Composed of ⟦{注|ちゅう}→注：03434_chuu⟧ (pour) and {入|にゅう} (enter/put in). Used both literally (pouring liquid into something) and figuratively (injecting capital, energy, ideas, etc.). The figurative usage is very common in business and news contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{資金|しきん}→資金：09937_shikin⟧{注入|ちゅうにゅう}: capital injection\n- {注入|ちゅうにゅう}⟦する→する：00392_suru⟧: to inject, to infuse\n- ⟦{公的|こうてき}→公的：06349_kouteki⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦の→の：09472_no⟧{注入|ちゅうにゅう}: injection of public funds\n- {注入|ちゅうにゅう}⟦{量|りょう}→量：03799_ryou⟧: amount injected\n\nSIMILAR WORDS:\n- ⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧: injection (medical) — specifically a needle injection into the body\n- ⟦{投入|とうにゅう}→投入：12895_tounyuu⟧: input / commitment — putting resources into something, broader than {注入|ちゅうにゅう}\n- ⟦{注|そそ}ぐ→注ぐ：02124_sosogu⟧: to pour — the everyday verb for pouring liquids",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -82,10 +82,11 @@
         "action",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22523_musousuru_ex1",
-      "japanese": "{世界|せかい}{平和|へいわ}を{夢想|むそう}する。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦を→を：00422_wo⟧{夢想|むそう}する。",
       "english": "To dream of world peace.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22523_musousuru_ex2",
-      "japanese": "{子|こ}どもの{頃|ころ}、{宇宙|うちゅう}{飛行士|ひこうし}になることを{夢想|むそう}していた。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}、⟦{宇宙|うちゅう}{飛行士|ひこうし}→宇宙飛行士：28176_uchuuhikoushi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦を→を：00422_wo⟧{夢想|むそう}して⟦いた→いる：00495_iru⟧。",
       "english": "As a child, I used to fantasize about becoming an astronaut.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22523_musousuru_ex3",
-      "japanese": "{彼|かれ}はいつも{窓|まど}の{外|そと}を{見|み}ながら{遠|とお}い{国|くに}での{生活|せいかつ}を{夢想|むそう}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧⟦{遠|とお}い→遠い：00529_tooi⟧⟦{国|くに}→国：02204_kuni⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧{夢想|むそう}して⟦いる→いる：00495_iru⟧。",
       "english": "He is always gazing out the window, fantasizing about life in a faraway country.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A literary word that implies idle, unrealistic daydreaming or fantasizing. It often carries a slightly romantic or impractical nuance — the thing being dreamed of is typically distant, grand, or unlikely. The noun form {夢想|むそう} appears in compounds like {夢想家|むそうか} (dreamer, fantasist).\n\nCOMMON COLLOCATIONS:\n- {夢想|むそう}にふける: to be lost in daydreams\n- {夢想家|むそうか}: a dreamer; a fantasist\n- {夢想|むそう}の{世界|せかい}: a world of fantasy\n- {壮大|そうだい}な{夢想|むそう}: a grand fantasy\n\nSIMILAR WORDS:\n- {夢|ゆめ}を{見|み}る: to dream (while sleeping) — literal dreaming during sleep\n- {空想|くうそう}する: to daydream; to imagine — similar but more neutral; less literary than {夢想|むそう}\n- {妄想|もうそう}する: to have delusions; to fantasize — carries a more negative connotation of irrational or obsessive fantasy",
+  "notes": "A literary word that implies idle, unrealistic daydreaming or fantasizing. It often carries a slightly romantic or impractical nuance — the thing being dreamed of is typically distant, grand, or unlikely. The noun form ⟦{夢想|むそう}→夢想：21442_musou⟧ appears in compounds like {夢想家|むそうか} (dreamer, fantasist).\n\nCOMMON COLLOCATIONS:\n- ⟦{夢想|むそう}→夢想：21442_musou⟧⟦に→に：00314_ni⟧⟦ふける→ふける：09960_fukeru⟧: to be lost in daydreams\n- {夢想家|むそうか}: a dreamer; a fantasist\n- ⟦{夢想|むそう}→夢想：21442_musou⟧⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧: a world of fantasy\n- ⟦{壮大|そうだい}→壮大：10900_soudai⟧な⟦{夢想|むそう}→夢想：21442_musou⟧: a grand fantasy\n\nSIMILAR WORDS:\n- ⟦{夢|ゆめ}→夢：01519_yume⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to dream (while sleeping) — literal dreaming during sleep\n- ⟦{空想|くうそう}する→空想する：19649_kuusousuru⟧: to daydream; to imagine — similar but more neutral; less literary than ⟦{夢想|むそう}→夢想：21442_musou⟧\n- ⟦{妄想|もうそう}する→妄想する：21911_mousousuru⟧: to have delusions; to fantasize — carries a more negative connotation of irrational or obsessive fantasy",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,10 +74,11 @@
       "domain": [],
       "formality": "formal",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T17:00:01Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

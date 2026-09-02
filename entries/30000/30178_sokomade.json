@@ -21,7 +21,7 @@
   "examples": [
     {
       "id": "30178_sokomade_ex1",
-      "japanese": "そこまで{歩|ある}こう。",
+      "japanese": "そこまで⟦{歩|ある}こう→歩く：00538_aruku⟧。",
       "english": "Let's walk that far.",
       "sense_numbers": [
         1
@@ -31,7 +31,7 @@
     },
     {
       "id": "30178_sokomade_ex2",
-      "japanese": "そこまで{行|い}けばバス{停|てい}が{見|み}える。",
+      "japanese": "そこまで⟦{行|い}けば→行く：00119_iku⟧⟦バス{停|てい}→バス停：05295_basutei⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "If you go that far, you'll see the bus stop.",
       "sense_numbers": [
         1
@@ -41,7 +41,7 @@
     },
     {
       "id": "30178_sokomade_ex3",
-      "japanese": "{今日|きょう}はそこまでにして、{残|のこ}りは{明日|あした}{続|つづ}けましょう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧そこまでにして、⟦{残|のこ}り→残り：01622_nokori⟧⟦は→は：00079_ha⟧⟦{明日|あした}→明日：00501_ashita⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧ましょう。",
       "english": "Let's stop there for today and continue the rest tomorrow.",
       "sense_numbers": [
         1
@@ -51,7 +51,7 @@
     },
     {
       "id": "30178_sokomade_ex4",
-      "japanese": "そこまで{心配|しんぱい}しなくていいよ。",
+      "japanese": "そこまで⟦{心配|しんぱい}しなくて→心配する：06066_shinpaisuru⟧⟦いい→いい：00118_ii⟧⟦よ→よ：09475_yo⟧。",
       "english": "You don't need to worry that much.",
       "sense_numbers": [
         2
@@ -61,7 +61,7 @@
     },
     {
       "id": "30178_sokomade_ex5",
-      "japanese": "{辛|から}いと{聞|き}いていたが、そこまでではなかった。",
+      "japanese": "⟦{辛|から}い→辛い：00638_karai⟧⟦と→と：00512_to⟧⟦{聞|き}いていた→聞く：00483_kiku⟧⟦が→が：00051_ga⟧、そこまで⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦なかった→ない：01118_nai⟧。",
       "english": "I'd heard it was spicy, but it wasn't that bad.",
       "sense_numbers": [
         2
@@ -71,7 +71,7 @@
     },
     {
       "id": "30178_sokomade_ex6",
-      "japanese": "そこまで{言|い}うなら、{一度|いちど}{試|ため}してみようという{気|き}になった。",
+      "japanese": "そこまで⟦{言|い}う→言う：00515_iu⟧なら、⟦{一度|いちど}→一度：01312_ichido⟧⟦{試|ため}して→試す：02130_tamesu⟧みよう⟦という→という：09577_toiu⟧⟦{気|き}になった→気になる：03027_kininaru⟧。",
       "english": "If you're going to insist that strongly, I feel like giving it a try.",
       "sense_numbers": [
         2
@@ -80,7 +80,7 @@
       "notes": null
     }
   ],
-  "notes": "The degree sense (2) is far more common in conversation than the literal one, and it always measures against something the other person has just said or implied.\n\nCOMMON EXPRESSIONS:\n- そこまでではない: it's not that bad; not to that degree\n- そこまでにする: to stop there, to leave it at that\n- そこまで{言|い}わなくても: you didn't have to go that far (in what you said)\n- そこまでする{必要|ひつよう}はない: there's no need to go that far\n\nSIMILAR WORDS:\n- それほど: not that much — used almost exclusively with negatives, and only about degree\n- あそこまで: that far — refers to something distant from both speakers, rather than near the listener",
+  "notes": "The degree sense (2) is far more common in conversation than the literal one, and it always measures against something the other person has just said or implied.\n\nCOMMON EXPRESSIONS:\n- そこまで⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: it's not that bad; not to that degree\n- そこまで⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to stop there, to leave it at that\n- そこまで⟦{言|い}わなくて→言う：00515_iu⟧⟦も→も：00484_mo⟧: you didn't have to go that far (in what you said)\n- そこまで⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: there's no need to go that far\n\nSIMILAR WORDS:\n- ⟦それ→それ：00994_sore⟧ほど: not that much — used almost exclusively with negatives, and only about degree\n- あそこまで: that far — refers to something distant from both speakers, rather than near the listener",
   "cross_references": [
     {
       "type": "contrast",
@@ -105,6 +105,6 @@
       "domain": []
     },
     "created": "2026-07-27T21:18:32Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

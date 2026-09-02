@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16306_geigi_ex1",
-      "japanese": "{芸妓|げいぎ}が{三味線|しゃみせん}を{弾|ひ}いた。",
+      "japanese": "{芸妓|げいぎ}⟦が→が：00051_ga⟧⟦{三味線|しゃみせん}→三味線：04464_shamisen⟧⟦を→を：00422_wo⟧⟦{弾|ひ}いた→弾く：02444_hiku⟧。",
       "english": "The geisha played the shamisen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16306_geigi_ex2",
-      "japanese": "{祇園|ぎおん}では{芸妓|げいぎ}のことを{芸子|げいこ}と{呼|よ}ぶ。",
+      "japanese": "{祇園|ぎおん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{芸妓|げいぎ}⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧{芸子|げいこ}⟦と→と：00512_to⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧。",
       "english": "In Gion, geisha are called geiko.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16306_geigi_ex3",
-      "japanese": "{芸妓|げいぎ}になるには{長年|ながねん}の{厳|きび}しい{修行|しゅぎょう}が{必要|ひつよう}だ。",
+      "japanese": "{芸妓|げいぎ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{修行|しゅぎょう}→修行：05522_shugyou⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Becoming a geisha requires many years of rigorous training.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{芸妓|げいぎ} is the formal, literary term for a geisha. In everyday speech, {芸者|げいしゃ} is more common. In Kyoto's {花街|かがい} (geisha districts), the local term is {芸子|げいこ}. A trainee geisha is called a {舞妓|まいこ} in Kyoto or {半玉|はんぎょく} in Tokyo.\n\nREGIONAL TERMS:\n- {芸者|げいしゃ} — standard/Tokyo term (most common nationwide)\n- {芸妓|げいぎ} — formal/literary term\n- {芸子|げいこ} — Kyoto term\n\nCOMMON COLLOCATIONS:\n- {芸妓|げいぎ}の{舞|まい} (a geisha's dance)\n- {芸妓|げいぎ}を{呼|よ}ぶ (to call for a geisha)\n- {芸妓|げいぎ}{置屋|おきや} (geisha house, where geisha are registered)",
+  "notes": "USAGE:\n{芸妓|げいぎ} is the formal, literary term for a geisha. In everyday speech, ⟦{芸者|げいしゃ}→芸者：14149_geisha⟧ is more common. In Kyoto's ⟦{花街|かがい}→花街：17224_kagai⟧ (geisha districts), the local term is {芸子|げいこ}. A trainee geisha is called a ⟦{舞妓|まいこ}→舞妓：15099_maiko⟧ in Kyoto or {半玉|はんぎょく} in Tokyo.\n\nREGIONAL TERMS:\n- ⟦{芸者|げいしゃ}→芸者：14149_geisha⟧ — standard/Tokyo term (most common nationwide)\n- {芸妓|げいぎ} — formal/literary term\n- {芸子|げいこ} — Kyoto term\n\nCOMMON COLLOCATIONS:\n- {芸妓|げいぎ}⟦の→の：09472_no⟧{舞|まい} (a geisha's dance)\n- {芸妓|げいぎ}⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧ (to call for a geisha)\n- {芸妓|げいぎ}⟦{置屋|おきや}→置屋：22957_okiya⟧ (geisha house, where geisha are registered)",
   "prominent_see_also": [
     {
       "target_id": "14149_geisha",
@@ -50,15 +56,21 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-03-11T14:09:00Z",
-    "modified": "2026-05-03T08:15:02Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation"],
-      "style": ["literary"]
+      "semantic": [
+        "occupation"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

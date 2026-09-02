@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20232_mokugekisuru_ex1",
-      "japanese": "{事故|じこ}を{目撃|もくげき}した。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{目撃|もくげき}した。",
       "english": "I witnessed an accident.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20232_mokugekisuru_ex2",
-      "japanese": "{犯行|はんこう}の{瞬間|しゅんかん}を{目撃|もくげき}した{人|ひと}はいますか。",
+      "japanese": "⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦の→の：09472_no⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧⟦を→を：00422_wo⟧{目撃|もくげき}した⟦{人|ひと}→人：00476_hito⟧はいます⟦か→か：09473_ka⟧。",
       "english": "Is there anyone who witnessed the moment of the crime?",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20232_mokugekisuru_ex3",
-      "japanese": "{通行人|つうこうにん}が{車|くるま}の{衝突|しょうとつ}を{目撃|もくげき}して、すぐに{警察|けいさつ}に{通報|つうほう}した。",
+      "japanese": "⟦{通行人|つうこうにん}→通行人：28570_tsuukounin⟧⟦が→が：00051_ga⟧⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧⟦{衝突|しょうとつ}→衝突：03235_shoutotsu⟧⟦を→を：00422_wo⟧{目撃|もくげき}して、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦した→する：00392_suru⟧。",
       "english": "A passerby witnessed the car collision and immediately reported it to the police.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"to strike the eye\" — composed of {目|もく} (eye) + {撃|げき} (strike, hit). Used for personally seeing an incident, crime, or noteworthy event. Carries a stronger nuance than simply \"seeing\" — implies the event is significant or unexpected.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}を{目撃|もくげき}する: to witness an accident\n- {犯行|はんこう}を{目撃|もくげき}する: to witness a crime\n- {現場|げんば}を{目撃|もくげき}する: to witness the scene\n- {目撃者|もくげきしゃ}: eyewitness\n- {目撃|もくげき}{情報|じょうほう}: eyewitness information\n- {目撃|もくげき}{証言|しょうげん}: eyewitness testimony\n\nSIMILAR WORDS:\n- {見|み}る: to see, to look — general-purpose word with no connotation of incidents\n- {目|ま}の{当|あ}たりにする: to witness firsthand — emphasizes emotional impact of seeing something up close",
+  "notes": "Literally \"to strike the eye\" — composed of {目|もく} (eye) + {撃|げき} (strike, hit). Used for personally seeing an incident, crime, or noteworthy event. Carries a stronger nuance than simply \"seeing\" — implies the event is significant or unexpected.\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{目撃|もくげき}する: to witness an accident\n- ⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦を→を：00422_wo⟧{目撃|もくげき}する: to witness a crime\n- ⟦{現場|げんば}→現場：02723_genba⟧⟦を→を：00422_wo⟧{目撃|もくげき}する: to witness the scene\n- ⟦{目撃者|もくげきしゃ}→目撃者：09652_mokugekisha⟧: eyewitness\n- ⟦{目撃|もくげき}→目撃：13627_mokugeki⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧: eyewitness information\n- ⟦{目撃|もくげき}→目撃：13627_mokugeki⟧⟦{証言|しょうげん}→証言：11088_shougen⟧: eyewitness testimony\n\nSIMILAR WORDS:\n- ⟦{見|み}る→見る：00283_miru⟧: to see, to look — general-purpose word with no connotation of incidents\n- ⟦{目|ま}の{当|あ}たり→目の当たり：13743_manoatari⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to witness firsthand — emphasizes emotional impact of seeing something up close",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -172,9 +172,10 @@
         "perception",
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T18:03:46Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

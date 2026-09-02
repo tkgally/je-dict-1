@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14950_fusai_ex1",
-      "japanese": "{会社|かいしゃ}の{負債|ふさい}が{増|ふ}えている。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{負債|ふさい}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The company's debts are increasing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14950_fusai_ex2",
-      "japanese": "{負債|ふさい}{総額|そうがく}は{一億円|いちおくえん}を{超|こ}えた。",
+      "japanese": "{負債|ふさい}⟦{総額|そうがく}→総額：05472_sougaku⟧⟦は→は：00079_ha⟧{一億円|いちおくえん}⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "The total liabilities exceeded 100 million yen.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14950_fusai_ex3",
-      "japanese": "{多額|たがく}の{負債|ふさい}を{抱|かか}えたまま{倒産|とうさん}した{企業|きぎょう}もある。",
+      "japanese": "⟦{多額|たがく}→多額：12309_tagaku⟧⟦の→の：09472_no⟧{負債|ふさい}⟦を→を：00422_wo⟧⟦{抱|かか}えた→抱える：02031_kakaeru⟧まま⟦{倒産|とうさん}した→倒産する：26990_tousansuru⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Some companies have gone bankrupt while carrying massive debts.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A formal, financial term. In accounting, {負債|ふさい} appears on the balance sheet opposite {資産|しさん} (assets).\n\nCOMMON COLLOCATIONS:\n- {負債|ふさい}を{抱|かか}える (to carry debt)\n- {負債|ふさい}{総額|そうがく} (total liabilities)\n- {負債|ふさい}を{返済|へんさい}する (to repay debts)\n- {資産|しさん}と{負債|ふさい} (assets and liabilities)\n\nUSAGE:\n{負債|ふさい} is more formal than {借金|しゃっきん} (borrowed money, personal debt). {借金|しゃっきん} is everyday language for owing money, while {負債|ふさい} is the standard term in business, accounting, and legal contexts.",
+  "notes": "A formal, financial term. In accounting, {負債|ふさい} appears on the balance sheet opposite ⟦{資産|しさん}→資産：15655_shisan⟧ (assets).\n\nCOMMON COLLOCATIONS:\n- {負債|ふさい}⟦を→を：00422_wo⟧⟦{抱|かか}える→抱える：02031_kakaeru⟧ (to carry debt)\n- {負債|ふさい}⟦{総額|そうがく}→総額：05472_sougaku⟧ (total liabilities)\n- {負債|ふさい}⟦を→を：00422_wo⟧⟦{返済|へんさい}→返済：04776_hensai⟧⟦する→する：00392_suru⟧ (to repay debts)\n- ⟦{資産|しさん}→資産：15655_shisan⟧⟦と→と：00512_to⟧{負債|ふさい} (assets and liabilities)\n\nUSAGE:\n{負債|ふさい} is more formal than ⟦{借金|しゃっきん}→借金：03203_shakkin⟧ (borrowed money, personal debt). ⟦{借金|しゃっきん}→借金：03203_shakkin⟧ is everyday language for owing money, while {負債|ふさい} is the standard term in business, accounting, and legal contexts.",
   "cross_references": [
     {
       "type": "antonym",
@@ -91,7 +91,7 @@
   ],
   "metadata": {
     "created": "2026-03-04T07:26:18Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

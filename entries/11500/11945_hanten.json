@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11945_hanten_ex1",
-      "japanese": "{画像|がぞう}を{反転|はんてん}する。",
+      "japanese": "⟦{画像|がぞう}→画像：13549_gazou⟧⟦を→を：00422_wo⟧{反転|はんてん}⟦する→する：00392_suru⟧。",
       "english": "Flip the image.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11945_hanten_ex2",
-      "japanese": "{左右|さゆう}{反転|はんてん}で{写真|しゃしん}を{保存|ほぞん}した。",
+      "japanese": "⟦{左右|さゆう}→左右：02826_sayuu⟧{反転|はんてん}⟦で→で：00502_de⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦した→する：00392_suru⟧。",
       "english": "I saved the photo with a horizontal flip.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11945_hanten_ex3",
-      "japanese": "{試合|しあい}の{流|なが}れが{一気|いっき}に{反転|はんてん}した。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧⟦{流|なが}れ→流れ：03504_nagare⟧⟦が→が：00051_ga⟧⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧{反転|はんてん}⟦した→する：00392_suru⟧。",
       "english": "The momentum of the game reversed all at once.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,11 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {左右|さゆう}{反転|はんてん} (horizontal flip / mirror image)\n- {上下|じょうげ}{反転|はんてん} (vertical flip)\n- {反転|はんてん}{攻勢|こうせい} (turning to the offensive)\n- {白黒|しろくろ}{反転|はんてん} (black-and-white inversion)\n\nUSAGE:\nVery common in digital image editing, photography, and design contexts. Also used in sports and news to describe a dramatic turnaround in circumstances. The homophone {斑点|はんてん} (spot, speckle) is a different word.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{左右|さゆう}→左右：02826_sayuu⟧{反転|はんてん} (horizontal flip / mirror image)\n- ⟦{上下|じょうげ}→上下：04282_jouge⟧{反転|はんてん} (vertical flip)\n- {反転|はんてん}{攻勢|こうせい} (turning to the offensive)\n- ⟦{白黒|しろくろ}→白黒：13642_shirokuro⟧{反転|はんてん} (black-and-white inversion)\n\nUSAGE:\nVery common in digital image editing, photography, and design contexts. Also used in sports and news to describe a dramatic turnaround in circumstances. The homophone ⟦{斑点|はんてん}→斑点：06787_hanten⟧ (spot, speckle) is a different word.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-19T10:51:31Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -151,7 +151,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23436_haiju_ex1",
-      "japanese": "お{手紙|てがみ}{拝受|はいじゅ}いたしました。",
+      "japanese": "お⟦{手紙|てがみ}→手紙：00675_tegami⟧{拝受|はいじゅ}⟦いたしました→いたす：01314_itasu⟧。",
       "english": "I have received your letter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23436_haiju_ex2",
-      "japanese": "{資料|しりょう}を{拝受|はいじゅ}しましたので、ご{報告|ほうこく}いたします。",
+      "japanese": "⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{拝受|はいじゅ}⟦しました→する：00392_suru⟧⟦の→の：09472_no⟧で、ご⟦{報告|ほうこく}→報告：03618_houkoku⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "I am reporting that I have received the documents.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23436_haiju_ex3",
-      "japanese": "{先日|せんじつ}お{送|おく}りいただいたお{品物|しなもの}、{確|たし}かに{拝受|はいじゅ}いたしました。",
+      "japanese": "⟦{先日|せんじつ}→先日：03305_senjitsu⟧お⟦{送|おく}り→送る：00742_okuru⟧⟦いただいた→いただく：01326_itadaku⟧お⟦{品物|しなもの}→品物：00886_shinamono⟧、⟦{確|たし}か→確か：00894_tashika⟧⟦に→に：00314_ni⟧{拝受|はいじゅ}⟦いたしました→いたす：01314_itasu⟧。",
       "english": "I can confirm that I have received the item you kindly sent the other day.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A humble (kenjoogo) expression for receiving something. It is the humble counterpart of {受|う}け{取|と}る and is considerably more formal. Used primarily in written correspondence, especially business emails and formal letters.\n\nCOMMON COLLOCATIONS:\n- {拝受|はいじゅ}いたしました: I have (humbly) received\n- {拝受|はいじゅ}しました: I have received (slightly less formal)\n- お{手紙|てがみ}{拝受|はいじゅ}: receipt of your letter\n- {確|たし}かに{拝受|はいじゅ}: confirmed receipt\n\nSIMILAR WORDS:\n- {受領|じゅりょう}: receipt — formal but not humble; used in official/administrative contexts\n- {受|う}け{取|と}る: to receive — neutral, everyday term\n- {頂戴|ちょうだい}する: to receive (humble) — less formal than {拝受|はいじゅ}, also used in speech\n- {賜|たまわ}る: to be granted (humble/respectful) — used when receiving from someone of very high status\n\nREGISTER:\nThis is one of the most formal ways to say 'I received.' It appears almost exclusively in written Japanese, particularly in business email and official correspondence. In spoken Japanese, {頂|いただ}きました or {受|う}け{取|と}りました are preferred.",
+  "notes": "A humble (kenjoogo) expression for receiving something. It is the humble counterpart of ⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧ and is considerably more formal. Used primarily in written correspondence, especially business emails and formal letters.\n\nCOMMON COLLOCATIONS:\n- {拝受|はいじゅ}⟦いたしました→いたす：01314_itasu⟧: I have (humbly) received\n- {拝受|はいじゅ}⟦しました→する：00392_suru⟧: I have received (slightly less formal)\n- お⟦{手紙|てがみ}→手紙：00675_tegami⟧{拝受|はいじゅ}: receipt of your letter\n- ⟦{確|たし}か→確か：00894_tashika⟧⟦に→に：00314_ni⟧{拝受|はいじゅ}: confirmed receipt\n\nSIMILAR WORDS:\n- ⟦{受領|じゅりょう}→受領：20050_juryou⟧: receipt — formal but not humble; used in official/administrative contexts\n- ⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive — neutral, everyday term\n- ⟦{頂戴|ちょうだい}する→頂戴する：05913_choudaisuru⟧: to receive (humble) — less formal than {拝受|はいじゅ}, also used in speech\n- ⟦{賜|たまわ}る→賜る：07659_tamawaru⟧: to be granted (humble/respectful) — used when receiving from someone of very high status\n\nREGISTER:\nThis is one of the most formal ways to say 'I received.' It appears almost exclusively in written Japanese, particularly in business email and official correspondence. In spoken Japanese, {頂|いただ}きました or ⟦{受|う}け{取|と}りました→受け取る：01883_uketoru⟧ are preferred.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,10 +88,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-12T06:52:17Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:12Z"
   },
   "conjugation": {
     "type": "suru",

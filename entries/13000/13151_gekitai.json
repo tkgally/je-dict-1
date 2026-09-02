@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13151_gekitai_ex1",
-      "japanese": "{敵|てき}を{撃退|げきたい}した。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦を→を：00422_wo⟧{撃退|げきたい}⟦した→する：00392_suru⟧。",
       "english": "We repelled the enemy.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13151_gekitai_ex2",
-      "japanese": "{害虫|がいちゅう}{撃退|げきたい}グッズが{人気|にんき}だ。",
+      "japanese": "⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧{撃退|げきたい}⟦グッズ→グッズ：10800_guzzu⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Pest repelling products are popular.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13151_gekitai_ex3",
-      "japanese": "{城|しろ}を{守|まも}る{兵士|へいし}たちは、{何度|なんど}も{攻|せ}めてくる{敵軍|てきぐん}を{撃退|げきたい}し{続|つづ}けた。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦{兵士|へいし}→兵士：11680_heishi⟧たち⟦は→は：00079_ha⟧、⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{攻|せ}めて→攻める：02123_semeru⟧くる{敵軍|てきぐん}⟦を→を：00422_wo⟧{撃退|げきたい}し⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "The soldiers defending the castle continued to repel the enemy forces that attacked again and again.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOriginally a military term meaning to drive back an attacking force. In modern everyday use, also commonly applied to repelling pests, burglars, or other unwanted things. The pattern 〜を{撃退|げきたい}する is standard.\n\nCOMMON COLLOCATIONS:\n- {敵|てき}を{撃退|げきたい}する: to repel the enemy\n- {害虫|がいちゅう}{撃退|げきたい}: pest repelling\n- {不審者|ふしんしゃ}を{撃退|げきたい}する: to drive off a suspicious person\n- {撃退|げきたい}に{成功|せいこう}する: to succeed in repelling",
+  "notes": "USAGE:\nOriginally a military term meaning to drive back an attacking force. In modern everyday use, also commonly applied to repelling pests, burglars, or other unwanted things. The pattern 〜⟦を→を：00422_wo⟧{撃退|げきたい}⟦する→する：00392_suru⟧ is standard.\n\nCOMMON COLLOCATIONS:\n- ⟦{敵|てき}→敵：03546_teki⟧⟦を→を：00422_wo⟧{撃退|げきたい}⟦する→する：00392_suru⟧: to repel the enemy\n- ⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧{撃退|げきたい}: pest repelling\n- ⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧⟦を→を：00422_wo⟧{撃退|げきたい}⟦する→する：00392_suru⟧: to drive off a suspicious person\n- {撃退|げきたい}⟦に→に：00314_ni⟧⟦{成功|せいこう}する→成功する：21445_seikousuru⟧: to succeed in repelling",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-23T11:51:30Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +152,8 @@
         "action",
         "military"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

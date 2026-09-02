@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13906_kouan_ex1",
-      "japanese": "{新|あたら}しいメニューを{考案|こうあん}する。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦メニュー→メニュー：11166_menyuu⟧⟦を→を：00422_wo⟧{考案|こうあん}⟦する→する：00392_suru⟧。",
       "english": "To devise a new menu.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13906_kouan_ex2",
-      "japanese": "この{装置|そうち}は{日本人|にほんじん}の{技術者|ぎじゅつしゃ}が{考案|こうあん}したものだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{装置|そうち}→装置：03318_souchi⟧⟦は→は：00079_ha⟧⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦の→の：09472_no⟧⟦{技術者|ぎじゅつしゃ}→技術者：17049_gijutsusha⟧⟦が→が：00051_ga⟧{考案|こうあん}⟦した→する：00392_suru⟧ものだ。",
       "english": "This device was invented by a Japanese engineer.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13906_kouan_ex3",
-      "japanese": "チームで{話|はな}し{合|あ}い、{子供|こども}でも{楽|たの}しめる{新|あたら}しいゲームのルールを{考案|こうあん}した。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦で→で：00502_de⟧⟦{話|はな}し{合|あ}い→話し合う：02396_hanashiau⟧、⟦{子供|こども}→子供：00554_kodomo⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧{考案|こうあん}⟦した→する：00392_suru⟧。",
       "english": "The team discussed and devised new game rules that even children could enjoy.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nSlightly more formal than {考|かんが}え{出|だ}す (to think up) and implies a more systematic, deliberate creative process. Often used for recipes, products, teaching methods, and technical solutions.\n\nCOMMON COLLOCATIONS:\n- ～を{考案|こうあん}する: to devise ~\n- {考案|こうあん}した{方法|ほうほう}: a devised method\n- {考案|こうあん}した{料理|りょうり}: a devised dish/recipe\n- {独自|どくじ}に{考案|こうあん}する: to devise independently",
+  "notes": "USAGE:\nSlightly more formal than ⟦{考|かんが}え{出|だ}す→考え出す：21026_kangaedasu⟧ (to think up) and implies a more systematic, deliberate creative process. Often used for recipes, products, teaching methods, and technical solutions.\n\nCOMMON COLLOCATIONS:\n- ～⟦を→を：00422_wo⟧{考案|こうあん}⟦する→する：00392_suru⟧: to devise ~\n- {考案|こうあん}⟦した→する：00392_suru⟧⟦{方法|ほうほう}→方法：03621_houhou⟧: a devised method\n- {考案|こうあん}⟦した→する：00392_suru⟧⟦{料理|りょうり}→料理：01523_ryouri⟧: a devised dish/recipe\n- ⟦{独自|どくじ}→独自：05614_dokuji⟧⟦に→に：00314_ni⟧{考案|こうあん}⟦する→する：00392_suru⟧: to devise independently",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-27T06:38:03Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

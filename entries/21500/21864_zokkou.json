@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21864_zokkou_ex1",
-      "japanese": "{試合|しあい}を{続行|ぞっこう}する。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧{続行|ぞっこう}⟦する→する：00392_suru⟧。",
       "english": "To continue the game.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21864_zokkou_ex2",
-      "japanese": "{雨|あめ}が{止|や}んだので、{工事|こうじ}を{続行|ぞっこう}した。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{止|や}んだ→止む：01153_yamu⟧⟦の→の：09472_no⟧で、⟦{工事|こうじ}→工事：00244_kouji⟧⟦を→を：00422_wo⟧{続行|ぞっこう}⟦した→する：00392_suru⟧。",
       "english": "Since the rain stopped, they resumed construction.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21864_zokkou_ex3",
-      "japanese": "{反対|はんたい}の{声|こえ}があったが、{計画|けいかく}は{続行|ぞっこう}されることになった。",
+      "japanese": "⟦{反対|はんたい}→反対：01497_hantai⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧{続行|ぞっこう}⟦される→する：00392_suru⟧ことになった。",
       "english": "There were voices of opposition, but it was decided that the plan would be carried on.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers to continuing or resuming an action or process, especially one that has been interrupted or is facing obstacles. More formal than {続|つづ}ける.\n\nCOMMON COLLOCATIONS:\n- {試合|しあい}を{続行|ぞっこう}する: to continue a game/match\n- {工事|こうじ}を{続行|ぞっこう}する: to continue construction\n- {審議|しんぎ}を{続行|ぞっこう}する: to continue deliberation\n- {計画|けいかく}を{続行|ぞっこう}する: to carry on with a plan\n- {捜査|そうさ}を{続行|ぞっこう}する: to continue an investigation\n\nSIMILAR WORDS:\n- {継続|けいぞく}: continuation — emphasizes ongoing duration, more general\n- {続|つづ}ける: to continue — the everyday verb form, less formal\n- {再開|さいかい}: resumption — specifically restarting after a stop",
+  "notes": "Refers to continuing or resuming an action or process, especially one that has been interrupted or is facing obstacles. More formal than ⟦{続|つづ}ける→続く：00903_tsuzuku⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧{続行|ぞっこう}⟦する→する：00392_suru⟧: to continue a game/match\n- ⟦{工事|こうじ}→工事：00244_kouji⟧⟦を→を：00422_wo⟧{続行|ぞっこう}⟦する→する：00392_suru⟧: to continue construction\n- ⟦{審議|しんぎ}→審議：19112_shingi⟧⟦を→を：00422_wo⟧{続行|ぞっこう}⟦する→する：00392_suru⟧: to continue deliberation\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{続行|ぞっこう}⟦する→する：00392_suru⟧: to carry on with a plan\n- ⟦{捜査|そうさ}→捜査：03688_sousa⟧⟦を→を：00422_wo⟧{続行|ぞっこう}⟦する→する：00392_suru⟧: to continue an investigation\n\nSIMILAR WORDS:\n- ⟦{継続|けいぞく}→継続：00213_keizoku⟧: continuation — emphasizes ongoing duration, more general\n- ⟦{続|つづ}ける→続く：00903_tsuzuku⟧: to continue — the everyday verb form, less formal\n- ⟦{再開|さいかい}→再開：05219_saikai⟧: resumption — specifically restarting after a stop",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-03T20:17:57Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
   "conjugation": {
     "type": "suru",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08305_zaikogire_ex1",
-      "japanese": "その{商品|しょうひん}は{在庫切|ざいこぎ}れです。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧{在庫切|ざいこぎ}れです。",
       "english": "That product is out of stock.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08305_zaikogire_ex2",
-      "japanese": "{人気|にんき}{商品|しょうひん}はすぐ{在庫切|ざいこぎ}れになる。",
+      "japanese": "⟦{人気|にんき}{商品|しょうひん}→人気商品：21609_ninkishouhin⟧⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧{在庫切|ざいこぎ}れ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Popular products quickly go out of stock.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08305_zaikogire_ex3",
-      "japanese": "{在庫切|ざいこぎ}れで{注文|ちゅうもん}を{受|う}け{付|つ}けられません。",
+      "japanese": "{在庫切|ざいこぎ}れ⟦で→で：00502_de⟧⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦を→を：00422_wo⟧⟦{受|う}け{付|つ}けられません→受け付ける：05683_uketsukeru⟧。",
       "english": "We cannot accept orders due to being out of stock.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMS:\n{在庫|ざいこ} (inventory, stock) + {切|き}れ (running out, depletion)\n\nCOMMON PATTERNS:\n- {在庫切|ざいこぎ}れになる (to go out of stock)\n- {在庫切|ざいこぎ}れで... (because of being out of stock)\n\nRELATED WORDS:\n- {在庫|ざいこ}あり (in stock)\n- {在庫|ざいこ}{確認|かくにん} (stock check)\n- {品切|しなぎ}れ (sold out - synonym)\n- {再入荷|さいにゅうか} (restocking)\n\nSIMILAR WORDS:\n{品切|しなぎ}れ is used interchangeably and is slightly more common in casual speech.",
+  "notes": "FORMS:\n⟦{在庫|ざいこ}→在庫：04701_zaiko⟧ (inventory, stock) + {切|き}れ (running out, depletion)\n\nCOMMON PATTERNS:\n- {在庫切|ざいこぎ}れ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to go out of stock)\n- {在庫切|ざいこぎ}れ⟦で→で：00502_de⟧... (because of being out of stock)\n\nRELATED WORDS:\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧あり (in stock)\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦{確認|かくにん}→確認：00158_kakunin⟧ (stock check)\n- ⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧ (sold out - synonym)\n- ⟦{再入荷|さいにゅうか}→再入荷：08768_sainyuuka⟧ (restocking)\n\nSIMILAR WORDS:\n⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧ is used interchangeably and is slightly more common in casual speech.",
   "cross_references": [
     {
       "type": "related",
@@ -88,6 +88,6 @@
       ]
     },
     "created": "2026-01-25T23:10:08Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

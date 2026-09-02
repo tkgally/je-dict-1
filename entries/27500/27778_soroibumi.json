@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27778_soroibumi_ex1",
-      "japanese": "スターが{揃|そろ}い{踏|ぶ}みした。",
+      "japanese": "⟦スター→スター：00393_sutaa⟧⟦が→が：00051_ga⟧{揃|そろ}い{踏|ぶ}み⟦した→する：00392_suru⟧。",
       "english": "The stars all appeared together.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27778_soroibumi_ex2",
-      "japanese": "{人気|にんき}{選手|せんしゅ}の{揃|そろ}い{踏|ぶ}みに{観客|かんきゃく}が{沸|わ}いた。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦の→の：09472_no⟧{揃|そろ}い{踏|ぶ}み⟦に→に：00314_ni⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦が→が：00051_ga⟧⟦{沸|わ}いた→沸く：01122_waku⟧。",
       "english": "The crowd was thrilled by the lineup of popular players.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27778_soroibumi_ex3",
-      "japanese": "{今回|こんかい}の{会議|かいぎ}には{各国|かっこく}の{首脳|しゅのう}が{揃|そろ}い{踏|ぶ}みした。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦の→の：09472_no⟧⟦{首脳|しゅのう}→首脳：15631_shunou⟧⟦が→が：00051_ga⟧{揃|そろ}い{踏|ぶ}み⟦した→する：00392_suru⟧。",
       "english": "At this conference, the leaders of every country appeared together.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Originally a sumo term for the ceremonial stamping ({四股|しこ}) that wrestlers perform together before a bout. Now used broadly when all the notable or expected figures gather in one place. Takes する to form a verb.\n\nCOMMON COLLOCATIONS:\n- {揃|そろ}い{踏|ぶ}みする: to all appear together\n- {豪華|ごうか}な{揃|そろ}い{踏|ぶ}み: a star-studded lineup\n\nSIMILAR WORDS:\n- {勢揃|せいぞろ}い: a full gathering — similar, emphasizing a complete assembly of people\n- ラインナップ: lineup — loanword, used for a planned roster of products or members",
+  "notes": "Originally a sumo term for the ceremonial stamping ({四股|しこ}) that wrestlers perform together before a bout. Now used broadly when all the notable or expected figures gather in one place. Takes ⟦する→する：00392_suru⟧ to form a verb.\n\nCOMMON COLLOCATIONS:\n- {揃|そろ}い{踏|ぶ}み⟦する→する：00392_suru⟧: to all appear together\n- ⟦{豪華|ごうか}→豪華：02815_gouka⟧な{揃|そろ}い{踏|ぶ}み: a star-studded lineup\n\nSIMILAR WORDS:\n- {勢揃|せいぞろ}い: a full gathering — similar, emphasizing a complete assembly of people\n- ラインナップ: lineup — loanword, used for a planned roster of products or members",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -68,10 +68,11 @@
         "general"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "suru",

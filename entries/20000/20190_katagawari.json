@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20190_katagawari_ex1",
-      "japanese": "{借金|しゃっきん}を{肩代|かたが}わりする。",
+      "japanese": "⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧{肩代|かたが}わり⟦する→する：00392_suru⟧。",
       "english": "To take over someone's debt.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20190_katagawari_ex2",
-      "japanese": "{親|おや}が{子|こ}どもの{学費|がくひ}を{肩代|かたが}わりした。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦が→が：00051_ga⟧{子|こ}ども⟦の→の：09472_no⟧⟦{学費|がくひ}→学費：04706_gakuhi⟧⟦を→を：00422_wo⟧{肩代|かたが}わり⟦した→する：00392_suru⟧。",
       "english": "The parents covered their child's tuition.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20190_katagawari_ex3",
-      "japanese": "{会社|かいしゃ}が{従業員|じゅうぎょういん}の{引|ひ}っ{越|こ}し{費用|ひよう}を{肩代|かたが}わりしてくれることになった。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧⟦{従業員|じゅうぎょういん}→従業員：10018_juugyouin⟧⟦の→の：09472_no⟧{引|ひ}っ{越|こ}し⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{肩代|かたが}わり⟦して→する：00392_suru⟧⟦くれる→くれる：00724_kureru⟧ことになった。",
       "english": "The company agreed to cover the employees' moving expenses.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"replacing shoulders\" ({肩|かた} shoulder + {代|か}わり replacement), evoking the image of shifting a burden from one person's shoulders to another's.\n\nCOMMON COLLOCATIONS:\n- {借金|しゃっきん}の{肩代|かたが}わり: taking over a debt\n- {費用|ひよう}を{肩代|かたが}わりする: to cover expenses for someone\n- {責任|せきにん}を{肩代|かたが}わりする: to take over responsibility\n\nSIMILAR WORDS:\n- {立|た}て{替|か}える: to pay on someone's behalf (with the expectation of being repaid)\n- {負担|ふたん}する: to bear a cost or burden — more general\n\n{肩代|かたが}わり implies permanently assuming a burden, while {立|た}て{替|か}える implies a temporary advance that will be repaid.",
+  "notes": "Literally \"replacing shoulders\" (⟦{肩|かた}→肩：02192_kata⟧ shoulder + ⟦{代|か}わり→代わり：01296_kawari⟧ replacement), evoking the image of shifting a burden from one person's shoulders to another's.\n\nCOMMON COLLOCATIONS:\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦の→の：09472_no⟧{肩代|かたが}わり: taking over a debt\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{肩代|かたが}わり⟦する→する：00392_suru⟧: to cover expenses for someone\n- ⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧{肩代|かたが}わり⟦する→する：00392_suru⟧: to take over responsibility\n\nSIMILAR WORDS:\n- ⟦{立|た}て{替|か}える→立て替える：05759_tatekaeru⟧: to pay on someone's behalf (with the expectation of being repaid)\n- ⟦{負担|ふたん}→負担：09752_futan⟧⟦する→する：00392_suru⟧: to bear a cost or burden — more general\n\n{肩代|かたが}わり implies permanently assuming a burden, while ⟦{立|た}て{替|か}える→立て替える：05759_tatekaeru⟧ implies a temporary advance that will be repaid.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -165,9 +165,10 @@
         "finance",
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T16:18:13Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

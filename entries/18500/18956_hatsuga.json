@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18956_hatsuga_ex1",
-      "japanese": "{種|たね}が{発芽|はつが}した。",
+      "japanese": "⟦{種|たね}→種：02157_tane⟧⟦が→が：00051_ga⟧{発芽|はつが}⟦した→する：00392_suru⟧。",
       "english": "The seeds have sprouted.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18956_hatsuga_ex2",
-      "japanese": "{発芽|はつが}するまで{毎日|まいにち}{水|みず}をやった。",
+      "japanese": "{発芽|はつが}⟦する→する：00392_suru⟧⟦まで→まで：00490_made⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦やった→やる：02980_yaru⟧。",
       "english": "I watered them every day until they sprouted.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18956_hatsuga_ex3",
-      "japanese": "この{植物|しょくぶつ}は{発芽|はつが}に{適|てき}した{温度|おんど}が{二十度|にじゅうど}{前後|ぜんご}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦は→は：00079_ha⟧{発芽|はつが}⟦に→に：00314_ni⟧⟦{適|てき}した→適する：02297_tekisuru⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦が→が：00051_ga⟧{二十度|にじゅうど}⟦{前後|ぜんご}→前後：04042_zengo⟧だ。",
       "english": "The ideal temperature for this plant's germination is around 20 degrees.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {発|はつ} (emit, produce) + {芽|が} (bud, sprout). Used in gardening, agriculture, and biology contexts.\n\nCOMMON COLLOCATIONS:\n- {発芽|はつが}{率|りつ}: germination rate\n- {発芽|はつが}{玄米|げんまい}: germinated brown rice (a health food)\n- {発芽|はつが}{条件|じょうけん}: germination conditions\n- {発芽|はつが}する: to germinate, to sprout\n\nSIMILAR WORDS:\n- {芽|め}が{出|で}る: to sprout (more colloquial; also used figuratively for \"showing promise\")\n- {発根|はっこん}: root emergence (a later stage of growth)\n\nUSAGE:\nThe three conditions for germination are commonly taught as {水|みず} (water), {温度|おんど} (temperature), and {空気|くうき} (air).",
+  "notes": "Composed of ⟦{発|はつ}→〜発：04026_hatsu⟧ (emit, produce) + {芽|が} (bud, sprout). Used in gardening, agriculture, and biology contexts.\n\nCOMMON COLLOCATIONS:\n- {発芽|はつが}⟦{率|りつ}→率：03802_ritsu⟧: germination rate\n- {発芽|はつが}⟦{玄米|げんまい}→玄米：06100_genmai⟧: germinated brown rice (a health food)\n- {発芽|はつが}⟦{条件|じょうけん}→条件：03285_jouken⟧: germination conditions\n- {発芽|はつが}⟦する→する：00392_suru⟧: to germinate, to sprout\n\nSIMILAR WORDS:\n- ⟦{芽|め}→芽：02141_me⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: to sprout (more colloquial; also used figuratively for \"showing promise\")\n- ⟦{発根|はっこん}→発根：24451_hakkon⟧: root emergence (a later stage of growth)\n\nUSAGE:\nThe three conditions for germination are commonly taught as ⟦{水|みず}→水：02258_mizu⟧ (water), ⟦{温度|おんど}→温度：00333_ondo⟧ (temperature), and ⟦{空気|くうき}→空気：01390_kuuki⟧ (air).",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -157,9 +157,10 @@
       "semantic": [
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-23T10:21:22Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12214_dasshu_ex1",
-      "japanese": "{政権|せいけん}を{奪取|だっしゅ}した。",
+      "japanese": "⟦{政権|せいけん}→政権：12883_seiken⟧⟦を→を：00422_wo⟧{奪取|だっしゅ}⟦した→する：00392_suru⟧。",
       "english": "They seized power.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12214_dasshu_ex2",
-      "japanese": "チームは{優勝|ゆうしょう}タイトルの{奪取|だっしゅ}を{目指|めざ}している。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦タイトル→タイトル：03855_taitoru⟧⟦の→の：09472_no⟧{奪取|だっしゅ}⟦を→を：00422_wo⟧⟦{目指|めざ}している→目指す：10528_mezasu⟧。",
       "english": "The team is aiming to capture the championship title.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12214_dasshu_ex3",
-      "japanese": "{革命軍|かくめいぐん}が{首都|しゅと}の{奪取|だっしゅ}に{成功|せいこう}し、{旧|きゅう}{政権|せいけん}は{崩壊|ほうかい}した。",
+      "japanese": "{革命軍|かくめいぐん}⟦が→が：00051_ga⟧⟦{首都|しゅと}→首都：03224_shuto⟧⟦の→の：09472_no⟧{奪取|だっしゅ}⟦に→に：00314_ni⟧⟦{成功|せいこう}→成功：02638_seikou⟧し、⟦{旧|きゅう}→旧：19346_kyuu⟧⟦{政権|せいけん}→政権：12883_seiken⟧⟦は→は：00079_ha⟧⟦{崩壊|ほうかい}→崩壊：09067_houkai⟧⟦した→する：00392_suru⟧。",
       "english": "The revolutionary army succeeded in capturing the capital, and the old regime collapsed.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {政権|せいけん}{奪取|だっしゅ}: seizure of power\n- タイトル{奪取|だっしゅ}: winning/taking a title\n- {奪取|だっしゅ}に{成功|せいこう}する: to succeed in capturing\n- {首位|しゅい}{奪取|だっしゅ}: seizing first place\n\nUSAGE:\nA strong, assertive word implying force or determined effort. In sports journalism, it is commonly used for winning titles or taking the lead, carrying a sense of aggressive competition. In political and military contexts, it implies overthrowing or seizing control.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{政権|せいけん}→政権：12883_seiken⟧{奪取|だっしゅ}: seizure of power\n- ⟦タイトル→タイトル：03855_taitoru⟧{奪取|だっしゅ}: winning/taking a title\n- {奪取|だっしゅ}⟦に→に：00314_ni⟧⟦{成功|せいこう}する→成功する：21445_seikousuru⟧: to succeed in capturing\n- ⟦{首位|しゅい}→首位：14677_shui⟧{奪取|だっしゅ}: seizing first place\n\nUSAGE:\nA strong, assertive word implying force or determined effort. In sports journalism, it is commonly used for winning titles or taking the lead, carrying a sense of aggressive competition. In political and military contexts, it implies overthrowing or seizing control.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T13:06:30Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

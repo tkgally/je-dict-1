@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30472_issen_ex1",
-      "japanese": "{一千万|いっせんまん}{円|えん}。",
+      "japanese": "{一千万|いっせんまん}⟦{円|えん}→円：00774_en⟧。",
       "english": "Ten million yen.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30472_issen_ex2",
-      "japanese": "{被害額|ひがいがく}は{一千|いっせん}{億|おく}{円|えん}に{達|たっ}した。",
+      "japanese": "⟦{被害額|ひがいがく}→被害額：30556_higaigaku⟧⟦は→は：00079_ha⟧{一千|いっせん}{億|おく}⟦{円|えん}→円：00774_en⟧⟦に→に：00314_ni⟧⟦{達|たっ}した→達する：02129_tassuru⟧。",
       "english": "The damages reached one hundred billion yen.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30472_issen_ex3",
-      "japanese": "{一千|いっせん}{年|ねん}{以上|いじょう}{前|まえ}に{書|か}かれたこの{作品|さくひん}は、{今|いま}も{読|よ}み{継|つ}がれている。",
+      "japanese": "{一千|いっせん}⟦{年|ねん}→年：09876_nen⟧⟦{以上|いじょう}→以上：01308_ijou⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{書|か}かれた→書く：00477_kaku⟧⟦この→この：00962_kono⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦は→は：00079_ha⟧、⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧{読|よ}み{継|つ}がれて⟦いる→いる：00495_iru⟧。",
       "english": "This work, written more than a thousand years ago, is still read today.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{一|いち} shortens to いっ before {千|せん}. Unlike {一万|いちまん}, where the {一|いち} is obligatory, the {一|いち} in {一千|いっせん} is optional — plain {千|せん} is the default in speech and everyday writing.\n\nWHEN {一千|いっせん} IS PREFERRED:\n- Inside larger figures: {一千万|いっせんまん} (10,000,000), {一千|いっせん}{億|おく} (100,000,000,000)\n- Formal and journalistic writing, where the {一|いち} makes the magnitude unmistakable\n- Rhetorical spans of time: {一千|いっせん}{年|ねん} (a thousand years)\n\nSIMILAR WORDS:\n- {千円|せんえん}: one thousand yen — the everyday form; {一千|いっせん}{円|えん} would sound stilted\n- {一千万|いっせんまん}{円|えん}: ten million yen — here {千万|せんまん} alone is not used",
+  "notes": "⟦{一|いち}→一：00705_ichi⟧ shortens to いっ before ⟦{千|せん}→千：00809_sen⟧. Unlike ⟦{一万|いちまん}→一万：27599_ichiman⟧, where the ⟦{一|いち}→一：00705_ichi⟧ is obligatory, the ⟦{一|いち}→一：00705_ichi⟧ in {一千|いっせん} is optional — plain ⟦{千|せん}→千：00809_sen⟧ is the default in speech and everyday writing.\n\nWHEN {一千|いっせん} IS PREFERRED:\n- Inside larger figures: {一千万|いっせんまん} (10,000,000), {一千|いっせん}{億|おく} (100,000,000,000)\n- Formal and journalistic writing, where the ⟦{一|いち}→一：00705_ichi⟧ makes the magnitude unmistakable\n- Rhetorical spans of time: {一千|いっせん}⟦{年|ねん}→年：09876_nen⟧ (a thousand years)\n\nSIMILAR WORDS:\n- ⟦{千円|せんえん}→千円：08980_senen⟧: one thousand yen — the everyday form; {一千|いっせん}⟦{円|えん}→円：00774_en⟧ would sound stilted\n- {一千万|いっせんまん}⟦{円|えん}→円：00774_en⟧: ten million yen — here ⟦{千万|せんまん}→千万：28267_senman⟧ alone is not used",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -70,6 +70,6 @@
       "domain": []
     },
     "created": "2026-08-07T00:23:55Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18185_maruutsushi_ex1",
-      "japanese": "{友達|ともだち}の{宿題|しゅくだい}を{丸写|まるうつ}しした。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦の→の：09472_no⟧⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦を→を：00422_wo⟧{丸写|まるうつ}し⟦した→する：00392_suru⟧。",
       "english": "I copied my friend's homework word for word.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18185_maruutsushi_ex2",
-      "japanese": "ネットの{記事|きじ}を{丸写|まるうつ}しにしたレポートは{不合格|ふごうかく}になる。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦の→の：09472_no⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦を→を：00422_wo⟧{丸写|まるうつ}しにした⟦レポート→レポート：01543_repooto⟧⟦は→は：00079_ha⟧⟦{不合格|ふごうかく}→不合格：05139_fugoukaku⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "A report that's a wholesale copy of an online article will get a failing grade.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18185_maruutsushi_ex3",
-      "japanese": "{参考書|さんこうしょ}の{丸写|まるうつ}しではなく、{自分|じぶん}の{言葉|ことば}でまとめることが{大事|だいじ}だ。",
+      "japanese": "⟦{参考書|さんこうしょ}→参考書：05142_sankousho⟧⟦の→の：09472_no⟧{丸写|まるうつ}し⟦ではなく→ではなく：09578_dehanaku⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧⟦まとめる→まとめる：02424_matomeru⟧こと⟦が→が：00051_ga⟧⟦{大事|だいじ}→大事：01253_daiji⟧だ。",
       "english": "It's important to summarize things in your own words rather than just copying the reference book verbatim.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used negatively, implying someone took a shortcut instead of doing their own work. Very common in school and academic contexts. Can be used as a noun ({丸写|まるうつ}し) or with する ({丸写|まるうつ}しにする / {丸写|まるうつ}しする).\n\nCOMMON COLLOCATIONS:\n- {丸写|まるうつ}しにする (to copy verbatim)\n- {丸写|まるうつ}しのレポート (a word-for-word copied report)\n- {答|こた}えを{丸写|まるうつ}しする (to copy answers wholesale)\n\nSIMILAR WORDS:\n- コピペ: copy-paste — modern slang for copying digital text\n- {盗用|とうよう}: plagiarism — more formal and severe",
+  "notes": "USAGE:\nAlmost always used negatively, implying someone took a shortcut instead of doing their own work. Very common in school and academic contexts. Can be used as a noun ({丸写|まるうつ}し) or with ⟦する→する：00392_suru⟧ ({丸写|まるうつ}し⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ / {丸写|まるうつ}し⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {丸写|まるうつ}し⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to copy verbatim)\n- {丸写|まるうつ}し⟦の→の：09472_no⟧⟦レポート→レポート：01543_repooto⟧ (a word-for-word copied report)\n- ⟦{答|こた}え→答え：00790_kotae⟧⟦を→を：00422_wo⟧{丸写|まるうつ}し⟦する→する：00392_suru⟧ (to copy answers wholesale)\n\nSIMILAR WORDS:\n- コピペ: copy-paste — modern slang for copying digital text\n- ⟦{盗用|とうよう}→盗用：23322_touyou⟧: plagiarism — more formal and severe",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-20T09:04:37Z",
-    "modified": "2026-05-08T07:08:06Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

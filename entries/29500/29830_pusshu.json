@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29830_pusshu_ex1",
-      "japanese": "ボタンをプッシュする。",
+      "japanese": "⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧プッシュ⟦する→する：00392_suru⟧。",
       "english": "Push the button.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29830_pusshu_ex2",
-      "japanese": "{新商品|しんしょうひん}をプッシュする。",
+      "japanese": "⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦を→を：00422_wo⟧プッシュ⟦する→する：00392_suru⟧。",
       "english": "We're pushing the new product.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29830_pusshu_ex3",
-      "japanese": "プッシュ{通知|つうち}をオンにして{最新|さいしん}{情報|じょうほう}を{受|う}け{取|と}る。",
+      "japanese": "プッシュ⟦{通知|つうち}→通知：04061_tsuuchi⟧⟦を→を：00422_wo⟧⟦オン→オン：29843_on⟧にして⟦{最新|さいしん}→最新：04831_saishin⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧。",
       "english": "Turn on push notifications to receive the latest information.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"push\". Two common uses: physically pressing, and promoting or strongly backing something.\n\nCOMMON COLLOCATIONS:\n- プッシュ{通知|つうち}: push notification\n- {強|つよ}くプッシュする: to push hard, to strongly promote\n- ボタンをプッシュ: to push a button",
+  "notes": "Loanword from English \"push\". Two common uses: physically pressing, and promoting or strongly backing something.\n\nCOMMON COLLOCATIONS:\n- プッシュ⟦{通知|つうち}→通知：04061_tsuuchi⟧: push notification\n- ⟦{強|つよ}く→強い：00820_tsuyoi⟧プッシュ⟦する→する：00392_suru⟧: to push hard, to strongly promote\n- ⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧プッシュ: to push a button",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,10 +59,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

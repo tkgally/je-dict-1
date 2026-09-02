@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12918_kyuushutsu_ex1",
-      "japanese": "{人質|ひとじち}を{救出|きゅうしゅつ}する。",
+      "japanese": "⟦{人質|ひとじち}→人質：09678_hitojichi⟧⟦を→を：00422_wo⟧{救出|きゅうしゅつ}⟦する→する：00392_suru⟧。",
       "english": "To rescue the hostages.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12918_kyuushutsu_ex2",
-      "japanese": "{消防隊|しょうぼうたい}が{火事|かじ}の{中|なか}から{住民|じゅうみん}を{救出|きゅうしゅつ}した。",
+      "japanese": "⟦{消防隊|しょうぼうたい}→消防隊：29848_shouboutai⟧⟦が→が：00051_ga⟧⟦{火事|かじ}→火事：01283_kaji⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦を→を：00422_wo⟧{救出|きゅうしゅつ}⟦した→する：00392_suru⟧。",
       "english": "The fire brigade rescued residents from the fire.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12918_kyuushutsu_ex3",
-      "japanese": "{地震|じしん}で{倒壊|とうかい}した{建物|たてもの}の{下|した}から、{発生|はっせい}から72{時間後|じかんご}に{生存者|せいぞんしゃ}が{救出|きゅうしゅつ}された。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧⟦{倒壊|とうかい}→倒壊：25308_toukai⟧⟦した→する：00392_suru⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧⟦から→から：00504_kara⟧、⟦{発生|はっせい}→発生：03133_hassei⟧⟦から→から：00504_kara⟧72{時間後|じかんご}⟦に→に：00314_ni⟧⟦{生存者|せいぞんしゃ}→生存者：21241_seizonsha⟧⟦が→が：00051_ga⟧{救出|きゅうしゅつ}⟦された→する：00392_suru⟧。",
       "english": "A survivor was rescued from under a collapsed building 72 hours after the earthquake struck.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Often appears in news reports about disasters, accidents, and hostage situations. The word emphasizes actively extracting someone from danger, as opposed to simply helping or assisting. The subject performing the rescue is typically a professional team (fire brigade, military, police, etc.).\n\nCOMMON COLLOCATIONS:\n- {救出|きゅうしゅつ}する: to rescue\n- {救出|きゅうしゅつ}{作戦|さくせん}: rescue operation\n- {救出|きゅうしゅつ}{活動|かつどう}: rescue activities\n- {救出|きゅうしゅつ}{劇|げき}: dramatic rescue\n\nSIMILAR WORDS:\n- {救助|きゅうじょ}: rescue, relief (broader; includes search-and-rescue)\n- {救済|きゅうさい}: relief, salvation (abstract; financial or spiritual relief)",
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Often appears in news reports about disasters, accidents, and hostage situations. The word emphasizes actively extracting someone from danger, as opposed to simply helping or assisting. The subject performing the rescue is typically a professional team (fire brigade, military, police, etc.).\n\nCOMMON COLLOCATIONS:\n- {救出|きゅうしゅつ}⟦する→する：00392_suru⟧: to rescue\n- {救出|きゅうしゅつ}⟦{作戦|さくせん}→作戦：09673_sakusen⟧: rescue operation\n- {救出|きゅうしゅつ}⟦{活動|かつどう}→活動：00201_katsudou⟧: rescue activities\n- {救出|きゅうしゅつ}⟦{劇|げき}→劇：02713_geki⟧: dramatic rescue\n\nSIMILAR WORDS:\n- ⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧: rescue, relief (broader; includes search-and-rescue)\n- ⟦{救済|きゅうさい}→救済：12928_kyuusai⟧: relief, salvation (abstract; financial or spiritual relief)",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T14:31:00Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

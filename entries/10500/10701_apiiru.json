@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10701_apiiru_ex1",
-      "japanese": "{自分|じぶん}をアピールする。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦を→を：00422_wo⟧アピール⟦する→する：00392_suru⟧。",
       "english": "To promote oneself.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10701_apiiru_ex2",
-      "japanese": "{面接|めんせつ}で{強|つよ}みをアピールした。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦で→で：00502_de⟧⟦{強|つよ}み→強み：12499_tsuyomi⟧⟦を→を：00422_wo⟧アピール⟦した→する：00392_suru⟧。",
       "english": "I highlighted my strengths in the interview.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10701_apiiru_ex3",
-      "japanese": "この{商品|しょうひん}のアピールポイントは、{軽|かる}くて{丈夫|じょうぶ}なところです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧アピール⟦ポイント→ポイント：11283_pointo⟧⟦は→は：00079_ha⟧、⟦{軽|かる}くて→軽い：00785_karui⟧⟦{丈夫|じょうぶ}→丈夫：01156_joubu⟧な⟦ところ→ところ：01137_tokoro⟧です。",
       "english": "The selling point of this product is that it is light and durable.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese, アピール emphasizes actively presenting or showcasing something positive. Unlike English \"appeal\" (which can mean a plea or request), the Japanese usage centers on self-promotion and highlighting merits. It is especially common in job-hunting ({就活|しゅうかつ}) and marketing.\n\nCOMMON COLLOCATIONS:\n- {自己|じこ}アピール: self-promotion, self-introduction\n- アピールポイント: selling point, strong point\n- アピール{力|りょく}: ability to promote/present\n- {魅力|みりょく}をアピールする: to showcase one's appeal",
+  "notes": "USAGE:\nIn Japanese, アピール emphasizes actively presenting or showcasing something positive. Unlike English \"appeal\" (which can mean a plea or request), the Japanese usage centers on self-promotion and highlighting merits. It is especially common in job-hunting (⟦{就活|しゅうかつ}→就活：05832_shuukatsu⟧) and marketing.\n\nCOMMON COLLOCATIONS:\n- ⟦{自己|じこ}→自己：23357_jiko⟧アピール: self-promotion, self-introduction\n- アピール⟦ポイント→ポイント：11283_pointo⟧: selling point, strong point\n- アピール{力|りょく}: ability to promote/present\n- ⟦{魅力|みりょく}→魅力：03749_miryoku⟧⟦を→を：00422_wo⟧アピール⟦する→する：00392_suru⟧: to showcase one's appeal",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20933_shisshin_ex1",
-      "japanese": "{暑|あつ}さで{失神|しっしん}した。",
+      "japanese": "⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦で→で：00502_de⟧{失神|しっしん}⟦した→する：00392_suru⟧。",
       "english": "I fainted from the heat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20933_shisshin_ex2",
-      "japanese": "{彼女|かのじょ}は{突然|とつぜん}{失神|しっしん}して{倒|たお}れた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{突然|とつぜん}→突然：00409_totsuzen⟧{失神|しっしん}⟦して→する：00392_suru⟧⟦{倒|たお}れた→倒れる：01160_taoreru⟧。",
       "english": "She suddenly lost consciousness and collapsed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20933_shisshin_ex3",
-      "japanese": "{試合中|しあいちゅう}に{選手|せんしゅ}が{失神|しっしん}し、すぐに{救急車|きゅうきゅうしゃ}が{呼|よ}ばれた。",
+      "japanese": "{試合中|しあいちゅう}⟦に→に：00314_ni⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦が→が：00051_ga⟧{失神|しっしん}し、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦が→が：00051_ga⟧⟦{呼|よ}ばれた→呼ぶ：00766_yobu⟧。",
       "english": "A player lost consciousness during the match, and an ambulance was called immediately.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {失|しつ} (lose) + {神|しん} (spirit/consciousness). Refers to a temporary loss of consciousness. Often used with する to form the verb {失神|しっしん}する (to faint, to pass out).\n\nCOMMON COLLOCATIONS:\n- {失神|しっしん}する: to faint, to lose consciousness\n- {失神|しっしん}して{倒|たお}れる: to collapse unconscious\n- {一時的|いちじてき}な{失神|しっしん}: temporary fainting\n- {失神|しっしん}から{回復|かいふく}する: to recover from fainting\n\nSIMILAR WORDS:\n- {気絶|きぜつ}: fainting — very similar meaning, slightly more colloquial\n- {意識|いしき}を{失|うしな}う: to lose consciousness — more descriptive phrase\n- {卒倒|そっとう}: collapsing in a faint — emphasizes the falling aspect\n- {貧血|ひんけつ}: anemia — sometimes used colloquially to mean lightheadedness",
+  "notes": "Composed of {失|しつ} (lose) + {神|しん} (spirit/consciousness). Refers to a temporary loss of consciousness. Often used with ⟦する→する：00392_suru⟧ to form the verb {失神|しっしん}⟦する→する：00392_suru⟧ (to faint, to pass out).\n\nCOMMON COLLOCATIONS:\n- {失神|しっしん}⟦する→する：00392_suru⟧: to faint, to lose consciousness\n- {失神|しっしん}⟦して→する：00392_suru⟧⟦{倒|たお}れる→倒れる：01160_taoreru⟧: to collapse unconscious\n- ⟦{一時的|いちじてき}→一時的：05846_ichijiteki⟧な{失神|しっしん}: temporary fainting\n- {失神|しっしん}⟦から→から：00504_kara⟧⟦{回復|かいふく}する→回復する：21330_kaifukusuru⟧: to recover from fainting\n\nSIMILAR WORDS:\n- ⟦{気絶|きぜつ}→気絶：19929_kizetsu⟧: fainting — very similar meaning, slightly more colloquial\n- ⟦{意識|いしき}→意識：01714_ishiki⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose consciousness — more descriptive phrase\n- ⟦{卒倒|そっとう}→卒倒：23022_sottou⟧: collapsing in a faint — emphasizes the falling aspect\n- ⟦{貧血|ひんけつ}→貧血：07019_hinketsu⟧: anemia — sometimes used colloquially to mean lightheadedness",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -103,10 +103,11 @@
         "health",
         "body-internal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-30T21:35:23Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

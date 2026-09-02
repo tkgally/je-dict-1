@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07978_kanka_ex1",
-      "japanese": "この{問題|もんだい}は{看過|かんか}できない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧{看過|かんか}⟦できない→できる：00557_dekiru⟧。",
       "english": "This problem cannot be overlooked.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07978_kanka_ex2",
-      "japanese": "{不正|ふせい}を{看過|かんか}するわけにはいかない。",
+      "japanese": "⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧{看過|かんか}⟦する→する：00392_suru⟧わけ⟦に→に：00314_ni⟧はいかない。",
       "english": "We cannot let wrongdoing pass.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07978_kanka_ex3",
-      "japanese": "{経営陣|けいえいじん}は{従業員|じゅうぎょういん}の{訴|うった}えを{看過|かんか}し{続|つづ}けた{結果|けっか}、{大|おお}きな{問題|もんだい}に{発展|はってん}した。",
+      "japanese": "⟦{経営陣|けいえいじん}→経営陣：20535_keieijin⟧⟦は→は：00079_ha⟧⟦{従業員|じゅうぎょういん}→従業員：10018_juugyouin⟧⟦の→の：09472_no⟧⟦{訴|うった}え→訴え：14187_uttae⟧⟦を→を：00422_wo⟧{看過|かんか}し⟦{続|つづ}け→続く：00903_tsuzuku⟧た⟦{結果|けっか}→結果：02486_kekka⟧、⟦{大|おお}きな→大きな：02849_ookina⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦{発展|はってん}した→発展する：25331_hattensuru⟧。",
       "english": "As a result of management continuing to ignore employee complaints, it developed into a major problem.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{看過|かんか} means to overlook or ignore something, often used critically to indicate negligence.\n\nWRITING:\n- {看|かん} (watch, look)\n- {過|か} (pass by, exceed)\n\nUSAGE:\n- {看過|かんか}する (to overlook - suru verb)\n- {看過|かんか}できない (cannot overlook)\n- {看過|かんか}し{得|え}ない (cannot be allowed to pass)\n- Often used in negative contexts\n- Implies criticism of inaction\n- Formal/written style\n\nCOMMON PATTERNS:\n- 〜を{看過|かんか}できない (cannot overlook ~)\n- {看過|かんか}するわけにはいかない (cannot let it pass)\n- {看過|かんか}し{難|がた}い{問題|もんだい} (a problem difficult to ignore)\n\nREGISTER:\n- Literary/formal expression\n- Common in news, official statements\n\nRELATED WORDS:\n- {見過|みす}ごす (to overlook - less formal)\n- {黙認|もくにん} (tacit approval)\n- {無視|むし}する (to ignore)",
+  "notes": "{看過|かんか} means to overlook or ignore something, often used critically to indicate negligence.\n\nWRITING:\n- {看|かん} (watch, look)\n- {過|か} (pass by, exceed)\n\nUSAGE:\n- {看過|かんか}⟦する→する：00392_suru⟧ (to overlook - suru verb)\n- {看過|かんか}⟦できない→できる：00557_dekiru⟧ (cannot overlook)\n- {看過|かんか}し⟦{得|え}ない→得る：02014_eru⟧ (cannot be allowed to pass)\n- Often used in negative contexts\n- Implies criticism of inaction\n- Formal/written style\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{看過|かんか}⟦できない→できる：00557_dekiru⟧ (cannot overlook ~)\n- {看過|かんか}⟦する→する：00392_suru⟧わけ⟦に→に：00314_ni⟧はいかない (cannot let it pass)\n- {看過|かんか}し⟦{難|がた}い→難い：17198_gatai⟧⟦{問題|もんだい}→問題：00797_mondai⟧ (a problem difficult to ignore)\n\nREGISTER:\n- Literary/formal expression\n- Common in news, official statements\n\nRELATED WORDS:\n- ⟦{見過|みす}ごす→見過ごす：06053_misugosu⟧ (to overlook - less formal)\n- ⟦{黙認|もくにん}→黙認：07944_mokunin⟧ (tacit approval)\n- ⟦{無視|むし}する→無視する：17288_mushisuru⟧ (to ignore)",
   "cross_references": [
     {
       "type": "synonym",
@@ -170,9 +170,10 @@
         "cognition",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-23T10:50:51Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

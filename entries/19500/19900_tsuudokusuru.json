@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "19900_tsuudokusuru_ex1",
-      "japanese": "{契約書|けいやくしょ}を{通読|つうどく}する。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦を→を：00422_wo⟧{通読|つうどく}する。",
       "english": "To read through the contract.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "19900_tsuudokusuru_ex2",
-      "japanese": "まず{全体|ぜんたい}を{通読|つうどく}してから{細部|さいぶ}を{確認|かくにん}した。",
+      "japanese": "⟦まず→まず：00796_mazu⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦を→を：00422_wo⟧{通読|つうどく}して⟦から→から：00504_kara⟧⟦{細部|さいぶ}→細部：20562_saibu⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I first read through the whole thing, then checked the details.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "19900_tsuudokusuru_ex3",
-      "japanese": "この{小説|しょうせつ}は{一気|いっき}に{通読|つうどく}できるほど{面白|おもしろ}かった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧{通読|つうどく}できるほど⟦{面白|おもしろ}かった→面白い：00589_omoshiroi⟧。",
       "english": "This novel was so interesting that I could read it straight through in one sitting.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Emphasizes reading a text in its entirety without skipping. Often used in academic, professional, or literary contexts to describe thorough reading.\n\nCOMMON COLLOCATIONS:\n- {一気|いっき}に{通読|つうどく}する: to read through in one sitting\n- {全文|ぜんぶん}を{通読|つうどく}する: to read the full text through\n- {通読|つうどく}に{値|あたい}する: worth reading through\n\nSIMILAR WORDS:\n- {読破|どくは}する: to finish reading — emphasizes completing a challenging or long text\n- {精読|せいどく}する: to read carefully — emphasizes close, detailed analysis\n- {速読|そくどく}する: to speed-read — emphasizes reading quickly\n- {斜|なな}め{読|よ}み: skimming — the opposite approach; reading selectively",
+  "notes": "Emphasizes reading a text in its entirety without skipping. Often used in academic, professional, or literary contexts to describe thorough reading.\n\nCOMMON COLLOCATIONS:\n- ⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧{通読|つうどく}する: to read through in one sitting\n- ⟦{全文|ぜんぶん}→全文：11672_zenbun⟧⟦を→を：00422_wo⟧{通読|つうどく}する: to read the full text through\n- ⟦{通読|つうどく}→通読：19800_tsuudoku⟧⟦に→に：00314_ni⟧⟦{値|あたい}する→値する：25545_ataisuru⟧: worth reading through\n\nSIMILAR WORDS:\n- ⟦{読破|どくは}する→読破する：20895_dokuhasuru⟧: to finish reading — emphasizes completing a challenging or long text\n- ⟦{精読|せいどく}→精読：15982_seidoku⟧⟦する→する：00392_suru⟧: to read carefully — emphasizes close, detailed analysis\n- ⟦{速読|そくどく}→速読：22402_sokudoku⟧⟦する→する：00392_suru⟧: to speed-read — emphasizes reading quickly\n- ⟦{斜|なな}め{読|よ}み→斜め読み：22744_nanameyomi⟧: skimming — the opposite approach; reading selectively",
   "cross_references": [
     {
       "type": "contrast",
@@ -166,7 +166,7 @@
   ],
   "metadata": {
     "created": "2026-03-27T05:32:00Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
@@ -179,7 +179,8 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

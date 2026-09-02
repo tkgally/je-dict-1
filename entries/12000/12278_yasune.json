@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12278_yasune_ex1",
-      "japanese": "{安値|やすね}で{買|か}えた。",
+      "japanese": "{安値|やすね}⟦で→で：00502_de⟧⟦{買|か}えた→買う：00489_kau⟧。",
       "english": "I was able to buy it at a low price.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12278_yasune_ex2",
-      "japanese": "{株価|かぶか}が{年初来|ねんしょらい}{安値|やすね}を{更新|こうしん}した。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{年初来|ねんしょらい}{安値|やすね}⟦を→を：00422_wo⟧⟦{更新|こうしん}した→更新する：27994_koushinsuru⟧。",
       "english": "The stock price hit a new year-to-date low.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12278_yasune_ex3",
-      "japanese": "{円|えん}{安|やす}の{影響|えいきょう}で{輸入品|ゆにゅうひん}が{安値|やすね}では{手|て}に{入|はい}らなくなった。",
+      "japanese": "⟦{円|えん}{安|やす}→円安：04854_enyasu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{輸入品|ゆにゅうひん}→輸入品：11505_yunyuuhin⟧⟦が→が：00051_ga⟧{安値|やすね}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|はい}らなく→入る：00494_hairu⟧⟦なった→なる：01970_naru⟧。",
       "english": "Due to the weak yen, imported goods are no longer available at low prices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nEspecially common in financial reporting and market analysis. Often appears with superlative-like expressions: {最安値|さいやすね} (lowest price), {年初来|ねんしょらい}{安値|やすね} (year-to-date low), {史上|しじょう}{最安値|さいやすね} (all-time low).\n\nSIMILAR WORDS:\nThe opposite is {高値|たかね} (high price). For everyday shopping, {安|やす}い (cheap) is more common; {安値|やすね} has a more financial or market-oriented tone.\n\nCOMMON COLLOCATIONS:\n- {安値|やすね}で{買|か}う: to buy at a low price\n- {安値|やすね}を{更新|こうしん}する: to hit a new low\n- {最安値|さいやすね}: lowest price, all-time low\n- {年初来|ねんしょらい}{安値|やすね}: year-to-date low\n- {安値|やすね}{圏|けん}: low price range",
+  "notes": "USAGE:\nEspecially common in financial reporting and market analysis. Often appears with superlative-like expressions: ⟦{最安値|さいやすね}→最安値：13443_saiyasune⟧ (lowest price), {年初来|ねんしょらい}{安値|やすね} (year-to-date low), ⟦{史上|しじょう}→史上：11806_shijou⟧⟦{最安値|さいやすね}→最安値：13443_saiyasune⟧ (all-time low).\n\nSIMILAR WORDS:\nThe opposite is ⟦{高値|たかね}→高値：14703_takane⟧ (high price). For everyday shopping, ⟦{安|やす}い→安い：00464_yasui⟧ (cheap) is more common; {安値|やすね} has a more financial or market-oriented tone.\n\nCOMMON COLLOCATIONS:\n- {安値|やすね}⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧: to buy at a low price\n- {安値|やすね}⟦を→を：00422_wo⟧⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧: to hit a new low\n- ⟦{最安値|さいやすね}→最安値：13443_saiyasune⟧: lowest price, all-time low\n- {年初来|ねんしょらい}{安値|やすね}: year-to-date low\n- {安値|やすね}⟦{圏|けん}→圏：21183_ken⟧: low price range",
   "cross_references": [
     {
       "type": "antonym",
@@ -50,15 +56,21 @@
   ],
   "metadata": {
     "created": "2026-02-20T15:06:11Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

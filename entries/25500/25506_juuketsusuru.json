@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25506_juuketsusuru_ex1",
-      "japanese": "{目|め}が{充血|じゅうけつ}している。",
+      "japanese": "⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{充血|じゅうけつ}して⟦いる→いる：00495_iru⟧。",
       "english": "My eyes are bloodshot.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25506_juuketsusuru_ex2",
-      "japanese": "{寝不足|ねぶそく}で{目|め}が{充血|じゅうけつ}してしまった。",
+      "japanese": "⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧⟦で→で：00502_de⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{充血|じゅうけつ}してしまった。",
       "english": "My eyes got bloodshot from lack of sleep.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25506_juuketsusuru_ex3",
-      "japanese": "{花粉症|かふんしょう}の{季節|きせつ}になると{目|め}が{充血|じゅうけつ}して{痒|かゆ}くなる。",
+      "japanese": "⟦{花粉症|かふんしょう}→花粉症：04409_kafunshou⟧⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{充血|じゅうけつ}して{痒|かゆ}く⟦なる→なる：01970_naru⟧。",
       "english": "During hay fever season, my eyes get bloodshot and itchy.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {充血|じゅうけつ} (congestion; hyperemia) + する. Most commonly used to describe bloodshot eyes, though medically it can refer to blood congestion in any body part. The noun {充血|じゅうけつ} is also common in medical contexts.\n\nCOMMON COLLOCATIONS:\n- {目|め}が{充血|じゅうけつ}する: eyes become bloodshot\n- {充血|じゅうけつ}した{目|め}: bloodshot eyes\n- {充血|じゅうけつ}を{抑|おさ}える: to reduce redness/congestion\n- {目薬|めぐすり}で{充血|じゅうけつ}を{取|と}る: to relieve bloodshot eyes with eye drops\n\nSIMILAR WORDS:\n- うっ{血|けつ}する: to become congested (blood pooling) — implies stagnation rather than active swelling; used for venous congestion\n- {赤|あか}くなる: to turn red — general redness from any cause, not specifically blood congestion",
+  "notes": "Composed of ⟦{充血|じゅうけつ}→充血：18535_juuketsu⟧ (congestion; hyperemia) + ⟦する→する：00392_suru⟧. Most commonly used to describe bloodshot eyes, though medically it can refer to blood congestion in any body part. The noun ⟦{充血|じゅうけつ}→充血：18535_juuketsu⟧ is also common in medical contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{充血|じゅうけつ}する: eyes become bloodshot\n- {充血|じゅうけつ}した⟦{目|め}→目：00525_me⟧: bloodshot eyes\n- ⟦{充血|じゅうけつ}→充血：18535_juuketsu⟧⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to reduce redness/congestion\n- ⟦{目薬|めぐすり}→目薬：09714_megusuri⟧⟦で→で：00502_de⟧⟦{充血|じゅうけつ}→充血：18535_juuketsu⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to relieve bloodshot eyes with eye drops\n\nSIMILAR WORDS:\n- うっ{血|けつ}⟦する→する：00392_suru⟧: to become congested (blood pooling) — implies stagnation rather than active swelling; used for venous congestion\n- ⟦{赤|あか}く→赤い：00585_akai⟧⟦なる→なる：01970_naru⟧: to turn red — general redness from any cause, not specifically blood congestion",
   "cross_references": [],
   "schema_version": "2.0",
   "metadata": {
@@ -59,10 +59,11 @@
         "body-internal",
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-25T15:14:55Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

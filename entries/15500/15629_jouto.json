@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15629_jouto_ex1",
-      "japanese": "{株式|かぶしき}を{譲渡|じょうと}する。",
+      "japanese": "⟦{株式|かぶしき}→株式：04772_kabushiki⟧⟦を→を：00422_wo⟧{譲渡|じょうと}⟦する→する：00392_suru⟧。",
       "english": "Transfer the shares.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15629_jouto_ex2",
-      "japanese": "{土地|とち}の{譲渡|じょうと}には{契約書|けいやくしょ}が{必要|ひつよう}だ。",
+      "japanese": "⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧{譲渡|じょうと}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "A contract is required for the transfer of land.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15629_jouto_ex3",
-      "japanese": "{特許|とっきょ}の{譲渡|じょうと}{手続|てつづ}きが{完了|かんりょう}し、{新|あたら}しい{所有者|しょゆうしゃ}に{権利|けんり}が{移|うつ}った。",
+      "japanese": "⟦{特許|とっきょ}→特許：13467_tokkyo⟧⟦の→の：09472_no⟧{譲渡|じょうと}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧し、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{所有者|しょゆうしゃ}→所有者：21212_shoyuusha⟧⟦に→に：00314_ni⟧⟦{権利|けんり}→権利：02711_kenri⟧⟦が→が：00051_ga⟧⟦{移|うつ}った→移る：01232_utsuru⟧。",
       "english": "The patent transfer procedure was completed, and the rights passed to the new owner.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{譲渡|じょうと} is a formal, legal term. It is used for official transfers of property, rights, shares, or assets. In casual speech, {譲|ゆず}る (to hand over, to yield) is preferred.\n\nCOMMON COLLOCATIONS:\n- {譲渡|じょうと}{所得|しょとく} (capital gains from transfer)\n- {譲渡|じょうと}{契約|けいやく} (transfer agreement)\n- {株式|かぶしき}{譲渡|じょうと} (share transfer)\n- {権利|けんり}の{譲渡|じょうと} (assignment of rights)\n- {譲渡|じょうと}{益|えき} (transfer profit)\n\nSIMILAR WORDS:\n- {譲|ゆず}る: to hand over, to yield (general, less formal)\n- {移転|いてん}: transfer, relocation (broader usage)",
+  "notes": "USAGE:\n{譲渡|じょうと} is a formal, legal term. It is used for official transfers of property, rights, shares, or assets. In casual speech, ⟦{譲|ゆず}る→譲る：02323_yuzuru⟧ (to hand over, to yield) is preferred.\n\nCOMMON COLLOCATIONS:\n- {譲渡|じょうと}{所得|しょとく} (capital gains from transfer)\n- {譲渡|じょうと}⟦{契約|けいやく}→契約：02698_keiyaku⟧ (transfer agreement)\n- {株式|かぶしき}{譲渡|じょうと} (share transfer)\n- ⟦{権利|けんり}→権利：02711_kenri⟧⟦の→の：09472_no⟧{譲渡|じょうと} (assignment of rights)\n- {譲渡|じょうと}⟦{益|えき}→益：02275_eki⟧ (transfer profit)\n\nSIMILAR WORDS:\n- ⟦{譲|ゆず}る→譲る：02323_yuzuru⟧: to hand over, to yield (general, less formal)\n- ⟦{移転|いてん}→移転：04000_iten⟧: transfer, relocation (broader usage)",
   "cross_references": [
     {
       "type": "synonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -188,7 +188,8 @@
         "law",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

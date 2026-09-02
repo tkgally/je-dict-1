@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14901_issou_ex1",
-      "japanese": "{不安|ふあん}を{一掃|いっそう}する。",
+      "japanese": "⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{一掃|いっそう}⟦する→する：00392_suru⟧。",
       "english": "To sweep away one's anxiety.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14901_issou_ex2",
-      "japanese": "{政府|せいふ}は{汚職|おしょく}の{一掃|いっそう}を{目指|めざ}している。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{汚職|おしょく}→汚職：17399_oshoku⟧⟦の→の：09472_no⟧{一掃|いっそう}⟦を→を：00422_wo⟧⟦{目指|めざ}している→目指す：10528_mezasu⟧。",
       "english": "The government aims to eradicate corruption.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14901_issou_ex3",
-      "japanese": "{大掃除|おおそうじ}で{部屋|へや}の{不用品|ふようひん}を{一掃|いっそう}して、すっきりした{気分|きぶん}になった。",
+      "japanese": "⟦{大掃除|おおそうじ}→大掃除：08347_oosouji⟧⟦で→で：00502_de⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{不用品|ふようひん}→不用品：03146_fuyouhin⟧⟦を→を：00422_wo⟧{一掃|いっそう}⟦して→する：00392_suru⟧、⟦すっきり→すっきり：05180_sukkiri⟧⟦した→する：00392_suru⟧⟦{気分|きぶん}→気分：01306_kibun⟧になった。",
       "english": "I cleared out all the unnecessary items in my room during the big cleanup and felt refreshed.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{一掃|いっそう} is used as both a noun and a する verb. It emphasizes thoroughness — not just removing something, but eliminating it completely. The target is always something undesirable or unwanted.\n\nCOMMON COLLOCATIONS:\n- {不安|ふあん}を{一掃|いっそう}する (to sweep away anxiety)\n- {汚職|おしょく}を{一掃|いっそう}する (to eradicate corruption)\n- {疑惑|ぎわく}を{一掃|いっそう}する (to dispel suspicion)\n- {悪習|あくしゅう}を{一掃|いっそう}する (to stamp out bad practices)\n\nWATCH OUT:\nDo not confuse with the adverb {一層|いっそう} (even more, all the more), which is a completely different word with the same reading.",
+  "notes": "USAGE:\n{一掃|いっそう} is used as both a noun and a ⟦する→する：00392_suru⟧ verb. It emphasizes thoroughness — not just removing something, but eliminating it completely. The target is always something undesirable or unwanted.\n\nCOMMON COLLOCATIONS:\n- ⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{一掃|いっそう}⟦する→する：00392_suru⟧ (to sweep away anxiety)\n- ⟦{汚職|おしょく}→汚職：17399_oshoku⟧⟦を→を：00422_wo⟧{一掃|いっそう}⟦する→する：00392_suru⟧ (to eradicate corruption)\n- ⟦{疑惑|ぎわく}→疑惑：13602_giwaku⟧⟦を→を：00422_wo⟧{一掃|いっそう}⟦する→する：00392_suru⟧ (to dispel suspicion)\n- {悪習|あくしゅう}⟦を→を：00422_wo⟧{一掃|いっそう}⟦する→する：00392_suru⟧ (to stamp out bad practices)\n\nWATCH OUT:\nDo not confuse with the adverb ⟦{一層|いっそう}→一層：01730_issou⟧ (even more, all the more), which is a completely different word with the same reading.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-04T05:49:52Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16196_haigou_ex1",
-      "japanese": "{薬|くすり}を{配合|はいごう}する。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{配合|はいごう}⟦する→する：00392_suru⟧。",
       "english": "To compound medicine.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16196_haigou_ex2",
-      "japanese": "ビタミンCが{配合|はいごう}された{化粧水|けしょうすい}を{使|つか}っている。",
+      "japanese": "⟦ビタミン→ビタミン：09770_bitamin⟧C⟦が→が：00051_ga⟧{配合|はいごう}⟦された→する：00392_suru⟧⟦{化粧水|けしょうすい}→化粧水：15802_keshousui⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I use a lotion formulated with vitamin C.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16196_haigou_ex3",
-      "japanese": "{原料|げんりょう}の{配合|はいごう}{比率|ひりつ}を{変|か}えたら、{味|あじ}が{大|おお}きく{変|か}わった。",
+      "japanese": "⟦{原料|げんりょう}→原料：11802_genryou⟧⟦の→の：09472_no⟧{配合|はいごう}⟦{比率|ひりつ}→比率：06727_hiritsu⟧⟦を→を：00422_wo⟧⟦{変|か}えたら→変える：01089_kaeru⟧、⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "When we changed the blending ratio of the ingredients, the flavor changed dramatically.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{配合|はいごう} emphasizes mixing in precise proportions, unlike general mixing ({混|ま}ぜる). It is common in product descriptions, recipes, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {配合|はいごう}する: to blend / to compound\n- {配合|はいごう}{比率|ひりつ}: blending ratio\n- {配合|はいごう}{量|りょう}: amount blended in\n- 〜が{配合|はいごう}された: formulated with ~\n\nFORMS:\n{配|はい} (distribute) + {合|ごう} (combine).",
+  "notes": "USAGE:\n{配合|はいごう} emphasizes mixing in precise proportions, unlike general mixing (⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧). It is common in product descriptions, recipes, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {配合|はいごう}⟦する→する：00392_suru⟧: to blend / to compound\n- {配合|はいごう}⟦{比率|ひりつ}→比率：06727_hiritsu⟧: blending ratio\n- {配合|はいごう}⟦{量|りょう}→量：03799_ryou⟧: amount blended in\n- 〜⟦が→が：00051_ga⟧{配合|はいごう}⟦された→する：00392_suru⟧: formulated with ~\n\nFORMS:\n{配|はい} (distribute) + ⟦{合|ごう}→合：27628_gou⟧ (combine).",
   "cross_references": [
     {
       "type": "contrast",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-11T04:31:04Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -186,7 +186,8 @@
       "semantic": [
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

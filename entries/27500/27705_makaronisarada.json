@@ -15,43 +15,59 @@
   "examples": [
     {
       "id": "27705_makaronisarada_ex1",
-      "japanese": "マカロニサラダが{好|す}きだ。",
+      "japanese": "マカロニサラダ⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like macaroni salad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27705_makaronisarada_ex2",
-      "japanese": "{今晩|こんばん}のおかずにマカロニサラダを{作|つく}った。",
+      "japanese": "⟦{今晩|こんばん}→今晩：02882_konban⟧⟦の→の：09472_no⟧⟦おかず→おかず：08272_okazu⟧⟦に→に：00314_ni⟧マカロニサラダ⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made macaroni salad as a side dish for tonight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27705_makaronisarada_ex3",
-      "japanese": "マカロニサラダはポテトサラダと{並|なら}んで{総菜|そうざい}コーナーの{定番|ていばん}だ。",
+      "japanese": "マカロニサラダ⟦は→は：00079_ha⟧⟦ポテトサラダ→ポテトサラダ：27703_potetosarada⟧⟦と→と：00512_to⟧⟦{並|なら}んで→並ぶ：00605_narabu⟧⟦{総菜|そうざい}→総菜：16739_souzai⟧⟦コーナー→コーナー：10865_koonaa⟧⟦の→の：09472_no⟧⟦{定番|ていばん}→定番：12265_teiban⟧だ。",
       "english": "Macaroni salad, alongside potato salad, is a staple of the deli section.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A mayonnaise-based salad using macaroni; similar in style to ポテトサラダ but with pasta instead of potato.\n\nCOMMON COLLOCATIONS:\n- マカロニサラダを{作|つく}る: to make macaroni salad\n- マカロニサラダを{添|そ}える: to serve macaroni salad as a side\n\nSIMILAR WORDS:\n- ポテトサラダ: potato salad — the potato-based counterpart, equally common\n- パスタサラダ: pasta salad — uses other pasta shapes and often a non-mayonnaise dressing",
+  "notes": "A mayonnaise-based salad using macaroni; similar in style to ⟦ポテトサラダ→ポテトサラダ：27703_potetosarada⟧ but with pasta instead of potato.\n\nCOMMON COLLOCATIONS:\n- マカロニサラダ⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make macaroni salad\n- マカロニサラダ⟦を→を：00422_wo⟧⟦{添|そ}える→添える：13315_soeru⟧: to serve macaroni salad as a side\n\nSIMILAR WORDS:\n- ⟦ポテトサラダ→ポテトサラダ：27703_potetosarada⟧: potato salad — the potato-based counterpart, equally common\n- ⟦パスタ→パスタ：06768_pasuta⟧⟦サラダ→サラダ：01364_sarada⟧: pasta salad — uses other pasta shapes and often a non-mayonnaise dressing",
   "cross_references": [
-    {"type": "related", "target_id": "27703_potetosarada", "reading": "ぽてとさらだ", "headword": "ポテトサラダ", "label": "potato salad"}
+    {
+      "type": "related",
+      "target_id": "27703_potetosarada",
+      "reading": "ぽてとさらだ",
+      "headword": "ポテトサラダ",
+      "label": "potato salad"
+    }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-05-17T03:10:36Z",
-    "modified": "2026-05-17T03:10:36Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22592_nomisugiru_ex1",
-      "japanese": "ビールを{飲|の}み{過|す}ぎた。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧{飲|の}み{過|す}ぎた。",
       "english": "I drank too much beer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22592_nomisugiru_ex2",
-      "japanese": "{昨日|きのう}{飲|の}み{過|す}ぎて、{頭|あたま}が{痛|いた}い。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧{飲|の}み{過|す}ぎて、⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "I drank too much yesterday and have a headache.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22592_nomisugiru_ex3",
-      "japanese": "コーヒーを{飲|の}み{過|す}ぎると{夜|よる}{眠|ねむ}れなくなるので{気|き}をつけている。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧{飲|の}み{過|す}ぎる⟦と→と：00512_to⟧⟦{夜|よる}→夜：00487_yoru⟧⟦{眠|ねむ}れなく→眠れる：15166_nemureru⟧⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧で⟦{気|き}をつけている→気をつける：09771_kiwotsukeru⟧。",
       "english": "I'm careful because drinking too much coffee keeps me from sleeping at night.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {飲|の}む (to drink) + {過|す}ぎる (to exceed). While it can apply to any beverage, it is most commonly used about alcohol. The pattern 〜{過|す}ぎる is productive and can attach to many verbs to mean \"too much\" (e.g., {食|た}べ{過|す}ぎる \"to eat too much\").\n\nCOMMON COLLOCATIONS:\n- お{酒|さけ}を{飲|の}み{過|す}ぎる: to drink too much alcohol\n- {飲|の}み{過|す}ぎて{気持|きも}ち{悪|わる}い: feeling sick from drinking too much\n- {飲|の}み{過|す}ぎに{注意|ちゅうい}する: to be careful about overdrinking\n- {飲|の}み{過|す}ぎで{二日酔|ふつかよ}い: a hangover from drinking too much\n\nUSAGE:\nThis is an ichidan verb. The negative is {飲|の}み{過|す}ぎない, the past is {飲|の}み{過|す}ぎた, and the te-form is {飲|の}み{過|す}ぎて.",
+  "notes": "A compound verb formed from ⟦{飲|の}む→飲む：00322_nomu⟧ (to drink) + ⟦{過|す}ぎる→過ぎる：01219_sugiru⟧ (to exceed). While it can apply to any beverage, it is most commonly used about alcohol. The pattern 〜⟦{過|す}ぎる→過ぎる：01219_sugiru⟧ is productive and can attach to many verbs to mean \"too much\" (e.g., ⟦{食|た}べ{過|す}ぎる→食べ過ぎる：21686_tabesugiru⟧ \"to eat too much\").\n\nCOMMON COLLOCATIONS:\n- ⟦お{酒|さけ}→お酒：01045_osake⟧⟦を→を：00422_wo⟧{飲|の}み{過|す}ぎる: to drink too much alcohol\n- {飲|の}み{過|す}ぎて⟦{気持|きも}ち{悪|わる}い→気持ち悪い：07154_kimochiwarui⟧: feeling sick from drinking too much\n- ⟦{飲|の}み→飲む：00322_nomu⟧{過|す}ぎ⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧: to be careful about overdrinking\n- {飲|の}み{過|す}ぎで⟦{二日酔|ふつかよ}い→二日酔い：08331_futsukayoi⟧: a hangover from drinking too much\n\nUSAGE:\nThis is an ichidan verb. The negative is {飲|の}み{過|す}ぎない, the past is {飲|の}み{過|す}ぎた, and the te-form is {飲|の}み{過|す}ぎて.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T19:13:23Z",
-    "modified": "2026-09-02T02:55:16Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "ichidan",

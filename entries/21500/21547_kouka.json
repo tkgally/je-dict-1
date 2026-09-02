@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21547_kouka_ex1",
-      "japanese": "{気温|きおん}が{降下|こうか}する。",
+      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{降下|こうか}⟦する→する：00392_suru⟧。",
       "english": "The temperature drops.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21547_kouka_ex2",
-      "japanese": "パラシュートで{降下|こうか}する{訓練|くんれん}を{行|おこな}った。",
+      "japanese": "パラシュート⟦で→で：00502_de⟧{降下|こうか}⟦する→する：00392_suru⟧⟦{訓練|くんれん}→訓練：02673_kunren⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "They conducted parachute descent training.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21547_kouka_ex3",
-      "japanese": "{血圧|けつあつ}が{急激|きゅうげき}に{降下|こうか}したため、すぐに{病院|びょういん}に{運|はこ}ばれた。",
+      "japanese": "⟦{血圧|けつあつ}→血圧：00218_ketsuatsu⟧⟦が→が：00051_ga⟧⟦{急激|きゅうげき}→急激：02633_kyuugeki⟧⟦に→に：00314_ni⟧{降下|こうか}⟦した→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{運|はこ}ばれた→運ぶ：01088_hakobu⟧。",
       "english": "Because blood pressure dropped sharply, the patient was immediately taken to the hospital.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {降|こう} (descend) and {下|か} (down). Describes a downward movement or decrease, used in both physical and measurable contexts.\n\nCOMMON COLLOCATIONS:\n- {気温|きおん}の{降下|こうか}: temperature drop\n- {血圧|けつあつ}の{降下|こうか}: blood pressure drop\n- {降下|こうか}{訓練|くんれん}: descent training (parachute)\n- {急降下|きゅうこうか}: nosedive, steep descent\n- {落下傘|らっかさん}{降下|こうか}: parachute descent\n\nSIMILAR WORDS:\n- {低下|ていか}: decline, deterioration — used for quality, ability, or levels declining over time\n- {降下|こうか}: descent, drop — emphasizes physical downward movement or sudden decrease\n- {下降|かこう}: descent, going down — more neutral term for downward movement\n- {落下|らっか}: falling — an object dropping due to gravity\n\nREGISTER:\nFormal and technical. Common in news reports, medical contexts, and military terminology. In everyday speech, {下|さ}がる is more natural for describing drops in temperature or pressure.",
+  "notes": "Composed of {降|こう} (descend) and {下|か} (down). Describes a downward movement or decrease, used in both physical and measurable contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{気温|きおん}→気温：00235_kion⟧⟦の→の：09472_no⟧{降下|こうか}: temperature drop\n- ⟦{血圧|けつあつ}→血圧：00218_ketsuatsu⟧⟦の→の：09472_no⟧{降下|こうか}: blood pressure drop\n- {降下|こうか}⟦{訓練|くんれん}→訓練：02673_kunren⟧: descent training (parachute)\n- ⟦{急降下|きゅうこうか}→急降下：25672_kyuukouka⟧: nosedive, steep descent\n- {落下傘|らっかさん}{降下|こうか}: parachute descent\n\nSIMILAR WORDS:\n- ⟦{低下|ていか}→低下：04065_teika⟧: decline, deterioration — used for quality, ability, or levels declining over time\n- {降下|こうか}: descent, drop — emphasizes physical downward movement or sudden decrease\n- ⟦{下降|かこう}→下降：00153_kakou⟧: descent, going down — more neutral term for downward movement\n- ⟦{落下|らっか}→落下：14051_rakka⟧: falling — an object dropping due to gravity\n\nREGISTER:\nFormal and technical. Common in news reports, medical contexts, and military terminology. In everyday speech, ⟦{下|さ}がる→下がる：01188_sagaru⟧ is more natural for describing drops in temperature or pressure.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -82,10 +82,11 @@
         "movement",
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-02T16:13:16Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

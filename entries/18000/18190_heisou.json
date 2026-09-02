@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18190_heisou_ex1",
-      "japanese": "{二台|にだい}の{車|くるま}が{並走|へいそう}している。",
+      "japanese": "{二台|にだい}⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{並走|へいそう}⟦している→する：00392_suru⟧。",
       "english": "Two cars are running side by side.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18190_heisou_ex2",
-      "japanese": "マラソンの{最終|さいしゅう}コーナーで{二人|ふたり}が{並走|へいそう}していた。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦の→の：09472_no⟧⟦{最終|さいしゅう}→最終：02820_saishuu⟧⟦コーナー→コーナー：10865_koonaa⟧⟦で→で：00502_de⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦が→が：00051_ga⟧{並走|へいそう}⟦していた→する：00392_suru⟧。",
       "english": "Two runners were running neck and neck at the final corner of the marathon.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18190_heisou_ex3",
-      "japanese": "{線路|せんろ}と{並走|へいそう}する{道路|どうろ}を{走|はし}っていたら、ちょうど{電車|でんしゃ}が{横|よこ}を{通|とお}り{過|す}ぎた。",
+      "japanese": "⟦{線路|せんろ}→線路：04041_senro⟧⟦と→と：00512_to⟧{並走|へいそう}⟦する→する：00392_suru⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦を→を：00422_wo⟧⟦{走|はし}っていたら→走る：00519_hashiru⟧、⟦ちょうど→ちょうど：02916_choudo⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{横|よこ}→横：02984_yoko⟧⟦を→を：00422_wo⟧⟦{通|とお}り{過|す}ぎた→通り過ぎる：02372_toorisugiru⟧。",
       "english": "I was driving on a road that runs parallel to the train tracks, and a train happened to pass right beside me.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for vehicles, runners, roads, train lines, and figuratively for concurrent projects or efforts. In business contexts, {並走|へいそう} can describe running two systems or processes simultaneously during a transition period.\n\nCOMMON COLLOCATIONS:\n- {並走|へいそう}する (to run alongside; to run in parallel)\n- {並走|へいそう}{区間|くかん} (parallel section — where road and rail run side by side)\n- {並走|へいそう}{期間|きかん} (parallel operation period — during system transitions)\n\nSIMILAR WORDS:\n- {併走|へいそう}: running together — written with a different kanji but essentially the same meaning\n- {伴走|ばんそう}: pacing; running alongside — specifically running alongside someone to support them",
+  "notes": "USAGE:\nUsed for vehicles, runners, roads, train lines, and figuratively for concurrent projects or efforts. In business contexts, {並走|へいそう} can describe running two systems or processes simultaneously during a transition period.\n\nCOMMON COLLOCATIONS:\n- {並走|へいそう}⟦する→する：00392_suru⟧ (to run alongside; to run in parallel)\n- {並走|へいそう}⟦{区間|くかん}→区間：18759_kukan⟧ (parallel section — where road and rail run side by side)\n- {並走|へいそう}⟦{期間|きかん}→期間：00229_kikan⟧ (parallel operation period — during system transitions)\n\nSIMILAR WORDS:\n- {併走|へいそう}: running together — written with a different kanji but essentially the same meaning\n- {伴走|ばんそう}: pacing; running alongside — specifically running alongside someone to support them",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-20T09:06:47Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

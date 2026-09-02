@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12889_shozou_ex1",
-      "japanese": "この{美術館|びじゅつかん}は{多|おお}くの{名画|めいが}を{所蔵|しょぞう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{名画|めいが}→名画：17385_meiga⟧⟦を→を：00422_wo⟧{所蔵|しょぞう}⟦している→する：00392_suru⟧。",
       "english": "This art museum holds many masterpiece paintings.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12889_shozou_ex2",
-      "japanese": "{図書館|としょかん}の{所蔵|しょぞう}リストを{確認|かくにん}してください。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦の→の：09472_no⟧{所蔵|しょぞう}⟦リスト→リスト：09786_risuto⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the library's holdings list.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12889_shozou_ex3",
-      "japanese": "{個人|こじん}が{所蔵|しょぞう}していた{古文書|こもんじょ}が{博物館|はくぶつかん}に{寄贈|きぞう}された。",
+      "japanese": "⟦{個人|こじん}→個人：02758_kojin⟧⟦が→が：00051_ga⟧{所蔵|しょぞう}⟦していた→する：00392_suru⟧⟦{古文書|こもんじょ}→古文書：15839_komonjo⟧⟦が→が：00051_ga⟧⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧⟦{寄贈|きぞう}→寄贈：12345_kizou⟧⟦された→する：00392_suru⟧。",
       "english": "Old documents held in a private collection were donated to the museum.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Primarily describes the holding of valuable or culturally significant items such as artworks, books, and historical artifacts. Not used for everyday personal possessions — for those, {所有|しょゆう} or {持|も}つ are more appropriate.\n\nCOMMON COLLOCATIONS:\n- {所蔵|しょぞう}する: to hold, to possess (in a collection)\n- {所蔵品|しょぞうひん}: items in a collection, holdings\n- {所蔵|しょぞう}リスト: holdings list, catalog\n\nSIMILAR WORDS:\n- {所有|しょゆう}: ownership, possession (broader, applies to any property)\n- {収蔵|しゅうぞう}: storage, keeping in a repository (emphasizes preservation)",
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Primarily describes the holding of valuable or culturally significant items such as artworks, books, and historical artifacts. Not used for everyday personal possessions — for those, ⟦{所有|しょゆう}→所有：12752_shoyuu⟧ or ⟦{持|も}つ→持つ：00478_motsu⟧ are more appropriate.\n\nCOMMON COLLOCATIONS:\n- {所蔵|しょぞう}⟦する→する：00392_suru⟧: to hold, to possess (in a collection)\n- {所蔵品|しょぞうひん}: items in a collection, holdings\n- {所蔵|しょぞう}⟦リスト→リスト：09786_risuto⟧: holdings list, catalog\n\nSIMILAR WORDS:\n- ⟦{所有|しょゆう}→所有：12752_shoyuu⟧: ownership, possession (broader, applies to any property)\n- {収蔵|しゅうぞう}: storage, keeping in a repository (emphasizes preservation)",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T14:19:33Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

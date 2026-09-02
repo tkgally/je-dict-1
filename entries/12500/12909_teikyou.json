@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12909_teikyou_ex1",
-      "japanese": "{情報|じょうほう}を{提供|ていきょう}する。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{提供|ていきょう}⟦する→する：00392_suru⟧。",
       "english": "To provide information.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12909_teikyou_ex2",
-      "japanese": "この{番組|ばんぐみ}は○○の{提供|ていきょう}でお{送|おく}りします。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦は→は：00079_ha⟧○○⟦の→の：09472_no⟧{提供|ていきょう}⟦で→で：00502_de⟧お⟦{送|おく}り→送る：00742_okuru⟧⟦します→する：00392_suru⟧。",
       "english": "This program is brought to you by ○○.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12909_teikyou_ex3",
-      "japanese": "{地域|ちいき}の{住民|じゅうみん}に{質|しつ}の{高|たか}い{医療|いりょう}サービスを{提供|ていきょう}することが{病院|びょういん}の{使命|しめい}だ。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦に→に：00314_ni⟧⟦{質|しつ}→質：01425_shitsu⟧⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧⟦{医療|いりょう}→医療：01836_iryou⟧⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧{提供|ていきょう}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦の→の：09472_no⟧⟦{使命|しめい}→使命：11445_shimei⟧だ。",
       "english": "It is the hospital's mission to provide high-quality medical services to local residents.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOne of the most versatile and common formal verbs in Japanese. Used as both a noun and a suru verb. The phrase 「この{番組|ばんぐみ}は〜の{提供|ていきょう}でお{送|おく}りします」 is a familiar formula heard at the start or end of TV and radio programs, meaning \"This program is sponsored by ~.\"\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}を{提供|ていきょう}する: to provide information\n- サービスを{提供|ていきょう}する: to provide a service\n- {提供|ていきょう}{元|もと}: provider, source\n- {無料|むりょう}で{提供|ていきょう}する: to provide free of charge\n- {番組|ばんぐみ}{提供|ていきょう}: program sponsorship\n\nSIMILAR WORDS:\n- {供給|きょうきゅう}: supply (of goods, resources — economic term)\n- {支給|しきゅう}: provision, payment (institutional, such as wages or benefits)",
+  "notes": "USAGE:\nOne of the most versatile and common formal verbs in Japanese. Used as both a noun and a suru verb. The phrase 「⟦この→この：00962_kono⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦は→は：00079_ha⟧〜⟦の→の：09472_no⟧{提供|ていきょう}⟦で→で：00502_de⟧お⟦{送|おく}り→送る：00742_okuru⟧⟦します→する：00392_suru⟧」 is a familiar formula heard at the start or end of TV and radio programs, meaning \"This program is sponsored by ~.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{提供|ていきょう}⟦する→する：00392_suru⟧: to provide information\n- ⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧{提供|ていきょう}⟦する→する：00392_suru⟧: to provide a service\n- {提供|ていきょう}⟦{元|もと}→元：03878_moto⟧: provider, source\n- ⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧{提供|ていきょう}⟦する→する：00392_suru⟧: to provide free of charge\n- ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧{提供|ていきょう}: program sponsorship\n\nSIMILAR WORDS:\n- ⟦{供給|きょうきゅう}→供給：02599_kyoukyuu⟧: supply (of goods, resources — economic term)\n- ⟦{支給|しきゅう}→支給：02835_shikyuu⟧: provision, payment (institutional, such as wages or benefits)",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T14:27:33Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

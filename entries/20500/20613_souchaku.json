@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20613_souchaku_ex1",
-      "japanese": "ヘルメットを{装着|そうちゃく}する。",
+      "japanese": "⟦ヘルメット→ヘルメット：11325_herumetto⟧⟦を→を：00422_wo⟧{装着|そうちゃく}⟦する→する：00392_suru⟧。",
       "english": "To put on a helmet.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "20613_souchaku_ex2",
-      "japanese": "シートベルトの{装着|そうちゃく}は{義務|ぎむ}です。",
+      "japanese": "⟦シートベルト→シートベルト：29083_shiitoberuto⟧⟦の→の：09472_no⟧{装着|そうちゃく}⟦は→は：00079_ha⟧⟦{義務|ぎむ}→義務：02647_gimu⟧です。",
       "english": "Wearing a seatbelt is mandatory.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20613_souchaku_ex3",
-      "japanese": "{新|あたら}しいレンズをカメラに{装着|そうちゃく}してから{撮影|さつえい}を{始|はじ}めた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦レンズ→レンズ：07808_renzu⟧⟦を→を：00422_wo⟧⟦カメラ→カメラ：04417_kamera⟧⟦に→に：00314_ni⟧{装着|そうちゃく}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{撮影|さつえい}→撮影：04175_satsuei⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started shooting after attaching the new lens to the camera.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Composed of {装|そう} (wear, equip) + {着|ちゃく} (attach, arrive). Refers to the physical act of putting on or attaching equipment, devices, or gear. More formal and technical than simply {着|つ}ける or {付|つ}ける.\n\nCOMMON COLLOCATIONS:\n- ヘルメットを{装着|そうちゃく}する (to put on a helmet)\n- マスクを{装着|そうちゃく}する (to wear a mask)\n- {部品|ぶひん}を{装着|そうちゃく}する (to attach a part)\n- {装着|そうちゃく}{方法|ほうほう} (method of attachment)\n- {装着|そうちゃく}{完了|かんりょう} (attachment complete)\n\nSIMILAR WORDS:\n- {着用|ちゃくよう} — wearing (clothing, uniforms); focuses on clothing and accessories worn on the body\n- {取|と}り{付|つ}ける — to install, attach; more everyday and less formal\n- {付|つ}ける — to attach; the most general everyday verb\n\nUSAGE:\n{装着|そうちゃく} is commonly used in technical contexts (equipment manuals, safety instructions) and for protective gear. It implies a deliberate, often mechanical act of fitting something into place, whereas {着用|ちゃくよう} is used more for clothing and uniforms.",
+  "notes": "Composed of {装|そう} (wear, equip) + ⟦{着|ちゃく}→着：27655_chaku⟧ (attach, arrive). Refers to the physical act of putting on or attaching equipment, devices, or gear. More formal and technical than simply ⟦{着|つ}ける→着く：00680_tsuku⟧ or ⟦{付|つ}ける→付ける：00761_tsukeru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦ヘルメット→ヘルメット：11325_herumetto⟧⟦を→を：00422_wo⟧{装着|そうちゃく}⟦する→する：00392_suru⟧ (to put on a helmet)\n- ⟦マスク→マスク：05075_masuku⟧⟦を→を：00422_wo⟧{装着|そうちゃく}⟦する→する：00392_suru⟧ (to wear a mask)\n- ⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧{装着|そうちゃく}⟦する→する：00392_suru⟧ (to attach a part)\n- {装着|そうちゃく}⟦{方法|ほうほう}→方法：03621_houhou⟧ (method of attachment)\n- {装着|そうちゃく}⟦{完了|かんりょう}→完了：02560_kanryou⟧ (attachment complete)\n\nSIMILAR WORDS:\n- ⟦{着用|ちゃくよう}→着用：13693_chakuyou⟧ — wearing (clothing, uniforms); focuses on clothing and accessories worn on the body\n- ⟦{取|と}り{付|つ}ける→取り付ける：06797_toritsukeru⟧ — to install, attach; more everyday and less formal\n- ⟦{付|つ}ける→付ける：00761_tsukeru⟧ — to attach; the most general everyday verb\n\nUSAGE:\n{装着|そうちゃく} is commonly used in technical contexts (equipment manuals, safety instructions) and for protective gear. It implies a deliberate, often mechanical act of fitting something into place, whereas ⟦{着用|ちゃくよう}→着用：13693_chakuyou⟧ is used more for clothing and uniforms.",
   "cross_references": [
     {
       "type": "contrast",
@@ -70,7 +70,7 @@
   ],
   "metadata": {
     "created": "2026-03-29T20:03:45Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -84,7 +84,8 @@
         "equipment",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "conjugation": {

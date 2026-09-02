@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20661_kifusuru_ex1",
-      "japanese": "{被災地|ひさいち}に{寄付|きふ}した。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧{寄付|きふ}した。",
       "english": "I donated to the disaster area.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20661_kifusuru_ex2",
-      "japanese": "NPOに{毎月|まいつき}{千円|せんえん}を{寄付|きふ}している。",
+      "japanese": "NPO⟦に→に：00314_ni⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{千円|せんえん}→千円：08980_senen⟧⟦を→を：00422_wo⟧{寄付|きふ}して⟦いる→いる：00495_iru⟧。",
       "english": "I donate a thousand yen every month to an NPO.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20661_kifusuru_ex3",
-      "japanese": "{多|おお}くの{市民|しみん}が{図書館|としょかん}の{建設|けんせつ}{資金|しきん}として{寄付|きふ}を{呼|よ}びかけに{応|おう}じた。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{市民|しみん}→市民：01426_shimin⟧⟦が→が：00051_ga⟧⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦の→の：09472_no⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦として→として：06802_toshite⟧⟦{寄付|きふ}→寄付：02584_kifu⟧⟦を→を：00422_wo⟧⟦{呼|よ}びかけ→呼びかけ：11855_yobikake⟧⟦に→に：00314_ni⟧⟦{応|おう}じた→応じる：02018_oujiru⟧。",
       "english": "Many citizens responded to the call for donations toward the construction of the library.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The standard word for making charitable donations. Can be used as both a noun ({寄付|きふ}) and a verb ({寄付|きふ}する). In Japan, donation culture has grown significantly, especially after major natural disasters.\n\nCOMMON COLLOCATIONS:\n- {寄付|きふ}を{募|つの}る: to solicit donations\n- {寄付|きふ}{金|きん}: donation money\n- {寄付|きふ}を{受|う}け{付|つ}ける: to accept donations\n- {匿名|とくめい}で{寄付|きふ}する: to donate anonymously\n- ふるさと{納税|のうぜい}: hometown tax donation (a popular tax-deductible donation system)\n\nSIMILAR WORDS:\n- {寄贈|きぞう}する: to donate (goods, especially books or artworks) — focuses on physical items given to institutions\n- {献金|けんきん}する: to make a monetary contribution — often political or religious\n- {募金|ぼきん}する: to collect donations — refers to the act of fundraising, not giving",
+  "notes": "The standard word for making charitable donations. Can be used as both a noun (⟦{寄付|きふ}→寄付：02584_kifu⟧) and a verb ({寄付|きふ}する). In Japan, donation culture has grown significantly, especially after major natural disasters.\n\nCOMMON COLLOCATIONS:\n- ⟦{寄付|きふ}→寄付：02584_kifu⟧⟦を→を：00422_wo⟧⟦{募|つの}る→募る：10878_tsunoru⟧: to solicit donations\n- ⟦{寄付|きふ}→寄付：02584_kifu⟧{金|きん}: donation money\n- ⟦{寄付|きふ}→寄付：02584_kifu⟧⟦を→を：00422_wo⟧⟦{受|う}け{付|つ}ける→受け付ける：05683_uketsukeru⟧: to accept donations\n- ⟦{匿名|とくめい}→匿名：11797_tokumei⟧⟦で→で：00502_de⟧{寄付|きふ}する: to donate anonymously\n- ⟦ふるさと{納税|のうぜい}→ふるさと納税：17628_furusatonouzei⟧: hometown tax donation (a popular tax-deductible donation system)\n\nSIMILAR WORDS:\n- ⟦{寄贈|きぞう}→寄贈：12345_kizou⟧⟦する→する：00392_suru⟧: to donate (goods, especially books or artworks) — focuses on physical items given to institutions\n- ⟦{献金|けんきん}→献金：13497_kenkin⟧⟦する→する：00392_suru⟧: to make a monetary contribution — often political or religious\n- ⟦{募金|ぼきん}→募金：11830_bokin⟧⟦する→する：00392_suru⟧: to collect donations — refers to the act of fundraising, not giving",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
         "society",
         "money"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-30T06:31:43Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

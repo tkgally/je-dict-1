@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20231_shukuhakusuru_ex1",
-      "japanese": "ホテルに{宿泊|しゅくはく}した。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦に→に：00314_ni⟧{宿泊|しゅくはく}した。",
       "english": "I stayed at a hotel.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20231_shukuhakusuru_ex2",
-      "japanese": "{温泉|おんせん}{旅館|りょかん}に{一泊|いっぱく}{宿泊|しゅくはく}する{予定|よてい}です。",
+      "japanese": "⟦{温泉|おんせん}{旅館|りょかん}→温泉旅館：25209_onsenryokan⟧⟦に→に：00314_ni⟧⟦{一泊|いっぱく}→一泊：08892_ippaku⟧{宿泊|しゅくはく}する⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "I plan to stay one night at a hot spring inn.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20231_shukuhakusuru_ex3",
-      "japanese": "{出張|しゅっちょう}で{大阪|おおさか}のビジネスホテルに{三泊|さんぱく}{宿泊|しゅくはく}することになった。",
+      "japanese": "⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦で→で：00502_de⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦の→の：09472_no⟧⟦ビジネスホテル→ビジネスホテル：25688_bijinesuhoteru⟧⟦に→に：00314_ni⟧{三泊|さんぱく}{宿泊|しゅくはく}することになった。",
       "english": "I ended up staying three nights at a business hotel in Osaka for a work trip.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for staying overnight at an accommodation. More formal than {泊|と}まる, which is the everyday equivalent. {宿泊|しゅくはく}する is commonly used in hotel and travel contexts, on booking websites, and in written announcements.\n\nCOMMON COLLOCATIONS:\n- ホテルに{宿泊|しゅくはく}する: to stay at a hotel\n- {旅館|りょかん}に{宿泊|しゅくはく}する: to stay at a Japanese inn\n- {一泊|いっぱく}{宿泊|しゅくはく}: one-night stay\n- {宿泊|しゅくはく}{料金|りょうきん}: accommodation fee\n- {宿泊|しゅくはく}{予約|よやく}: accommodation reservation\n- {宿泊|しゅくはく}{施設|しせつ}: lodging facility\n- {宿泊|しゅくはく}{客|きゃく}: hotel guest\n\nSIMILAR WORDS:\n- {泊|と}まる: to stay overnight — everyday word, used in casual speech\n- {滞在|たいざい}する: to stay, to reside — focuses on the duration of a stay, not specifically overnight",
+  "notes": "A formal word for staying overnight at an accommodation. More formal than ⟦{泊|と}まる→泊まる：10445_tomaru⟧, which is the everyday equivalent. {宿泊|しゅくはく}する is commonly used in hotel and travel contexts, on booking websites, and in written announcements.\n\nCOMMON COLLOCATIONS:\n- ⟦ホテル→ホテル：01027_hoteru⟧⟦に→に：00314_ni⟧{宿泊|しゅくはく}する: to stay at a hotel\n- ⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦に→に：00314_ni⟧{宿泊|しゅくはく}する: to stay at a Japanese inn\n- ⟦{一泊|いっぱく}→一泊：08892_ippaku⟧⟦{宿泊|しゅくはく}→宿泊：03216_shukuhaku⟧: one-night stay\n- ⟦{宿泊|しゅくはく}→宿泊：03216_shukuhaku⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧: accommodation fee\n- ⟦{宿泊|しゅくはく}→宿泊：03216_shukuhaku⟧⟦{予約|よやく}→予約：01522_yoyaku⟧: accommodation reservation\n- ⟦{宿泊|しゅくはく}{施設|しせつ}→宿泊施設：16474_shukuhakushisetsu⟧: lodging facility\n- ⟦{宿泊|しゅくはく}{客|きゃく}→宿泊客：30262_shukuhakukyaku⟧: hotel guest\n\nSIMILAR WORDS:\n- ⟦{泊|と}まる→泊まる：10445_tomaru⟧: to stay overnight — everyday word, used in casual speech\n- ⟦{滞在|たいざい}する→滞在する：26834_taizaisuru⟧: to stay, to reside — focuses on the duration of a stay, not specifically overnight",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -168,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T18:03:26Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

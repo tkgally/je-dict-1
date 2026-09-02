@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07724_tenuki_ex1",
-      "japanese": "{手抜|てぬ}き{工事|こうじ}が{問題|もんだい}になった。",
+      "japanese": "{手抜|てぬ}き⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になった。",
       "english": "Shoddy construction work became a problem.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07724_tenuki_ex2",
-      "japanese": "{掃除|そうじ}を{手抜|てぬ}きしてしまった。",
+      "japanese": "⟦{掃除|そうじ}→掃除：02889_souji⟧⟦を→を：00422_wo⟧{手抜|てぬ}き⟦して→する：00392_suru⟧しまった。",
       "english": "I cut corners on the cleaning.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07724_tenuki_ex3",
-      "japanese": "{手抜|てぬ}き{料理|りょうり}でも{美味|おい}しくできる。",
+      "japanese": "{手抜|てぬ}き⟦{料理|りょうり}→料理：01523_ryouri⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{美味|おい}しく→美味しい：00740_oishii⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Even easy-prep meals can turn out delicious.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{手|て} (hand) + {抜|ぬ}き (omitting, skipping) - literally removing hands from the work.\n\nUSAGE:\nCan be:\n- Negative: implying sloppy or irresponsible work\n- Neutral/positive: when referring to efficient shortcuts ({手抜|てぬ}き{料理|りょうり} = easy recipes)\n\nCOMPOUNDS:\n- {手抜|てぬ}き{工事|こうじ} - shoddy construction\n- {手抜|てぬ}き{料理|りょうり} - easy-prep cooking\n\nCOMMON COLLOCATIONS:\n- {手抜|てぬ}きをする - to cut corners\n- {手抜|てぬ}きが{見|み}つかる - corner-cutting is discovered",
+  "notes": "ETYMOLOGY:\n⟦{手|て}→手：00569_te⟧ (hand) + ⟦{抜|ぬ}き→抜き：23505_nuki⟧ (omitting, skipping) - literally removing hands from the work.\n\nUSAGE:\nCan be:\n- Negative: implying sloppy or irresponsible work\n- Neutral/positive: when referring to efficient shortcuts ({手抜|てぬ}き⟦{料理|りょうり}→料理：01523_ryouri⟧ = easy recipes)\n\nCOMPOUNDS:\n- {手抜|てぬ}き⟦{工事|こうじ}→工事：00244_kouji⟧ - shoddy construction\n- {手抜|てぬ}き⟦{料理|りょうり}→料理：01523_ryouri⟧ - easy-prep cooking\n\nCOMMON COLLOCATIONS:\n- {手抜|てぬ}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ - to cut corners\n- {手抜|てぬ}き⟦が→が：00051_ga⟧⟦{見|み}つかる→見つかる：01173_mitsukaru⟧ - corner-cutting is discovered",
   "metadata": {
     "created": "2026-01-21T00:25:02Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -147,7 +147,8 @@
         "work",
         "evaluation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "cross_references": [

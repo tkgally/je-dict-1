@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07618_sansaku_ex1",
-      "japanese": "{公園|こうえん}を{散策|さんさく}する。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦を→を：00422_wo⟧{散策|さんさく}⟦する→する：00392_suru⟧。",
       "english": "To take a stroll in the park.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07618_sansaku_ex2",
-      "japanese": "{京都|きょうと}の{町並|まちな}みを{散策|さんさく}した。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧⟦{町並|まちな}み→町並み：10435_machinami⟧⟦を→を：00422_wo⟧{散策|さんさく}⟦した→する：00392_suru⟧。",
       "english": "I strolled through the streets of Kyoto.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07618_sansaku_ex3",
-      "japanese": "{天気|てんき}がいいので、{散策|さんさく}に{出|で}かけよう。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦の→の：09472_no⟧で、{散策|さんさく}⟦に→に：00314_ni⟧⟦{出|で}かけよう→出かける：00833_dekakeru⟧。",
       "english": "The weather is nice, so let's go for a walk.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{散|さん} (scatter, leisurely) + {策|さく} (plan, scheme) - originally meant planning while walking around\n\nUSAGE:\n{散策|さんさく} implies a leisurely, enjoyable walk, often to appreciate scenery or surroundings. More elegant/literary than {散歩|さんぽ}.\n\nCOMMON COLLOCATIONS:\n- {散策|さんさく}コース - walking course/trail\n- {街|まち}を{散策|さんさく}する - to stroll around town\n- {散策|さんさく}{路|ろ} - promenade, walking path\n\nRELATED WORDS:\n- {散歩|さんぽ} - walk (more everyday)\n- ぶらぶら（する）- to wander around (casual)\n- {行楽|こうらく} - outing, excursion",
+  "notes": "ETYMOLOGY:\n{散|さん} (scatter, leisurely) + ⟦{策|さく}→策：09997_saku⟧ (plan, scheme) - originally meant planning while walking around\n\nUSAGE:\n{散策|さんさく} implies a leisurely, enjoyable walk, often to appreciate scenery or surroundings. More elegant/literary than ⟦{散歩|さんぽ}→散歩：02885_sanpo⟧.\n\nCOMMON COLLOCATIONS:\n- {散策|さんさく}⟦コース→コース：10864_koosu⟧ - walking course/trail\n- ⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧{散策|さんさく}⟦する→する：00392_suru⟧ - to stroll around town\n- {散策|さんさく}{路|ろ} - promenade, walking path\n\nRELATED WORDS:\n- ⟦{散歩|さんぽ}→散歩：02885_sanpo⟧ - walk (more everyday)\n- ⟦ぶらぶら→ぶらぶら：05167_burabura⟧（⟦する→する：00392_suru⟧）- to wander around (casual)\n- ⟦{行楽|こうらく}→行楽：07788_kouraku⟧ - outing, excursion",
   "cross_references": [
     {
       "type": "related",
@@ -177,7 +177,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -192,7 +192,8 @@
         "movement"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

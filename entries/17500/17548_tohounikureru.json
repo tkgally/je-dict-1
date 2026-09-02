@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17548_tohounikureru_ex1",
-      "japanese": "{財布|さいふ}をなくして{途方|とほう}に{暮|く}れた。",
+      "japanese": "⟦{財布|さいふ}→財布：00663_saifu⟧⟦を→を：00422_wo⟧なくして{途方|とほう}に{暮|く}れた。",
       "english": "I lost my wallet and was at a complete loss.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17548_tohounikureru_ex2",
-      "japanese": "{外国|がいこく}で{道|みち}に{迷|まよ}って{途方|とほう}に{暮|く}れた。",
+      "japanese": "⟦{外国|がいこく}→外国：02868_gaikoku⟧⟦で→で：00502_de⟧⟦{道|みち}→道：00505_michi⟧⟦に→に：00314_ni⟧⟦{迷|まよ}って→迷う：02426_mayou⟧{途方|とほう}に{暮|く}れた。",
       "english": "I got lost in a foreign country and was at my wit's end.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17548_tohounikureru_ex3",
-      "japanese": "{突然|とつぜん}{会社|かいしゃ}が{倒産|とうさん}して、{社員|しゃいん}たちは{途方|とほう}に{暮|く}れている。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧⟦{倒産|とうさん}して→倒産する：26990_tousansuru⟧、⟦{社員|しゃいん}→社員：03065_shain⟧たち⟦は→は：00079_ha⟧{途方|とほう}に{暮|く}れて⟦いる→いる：00495_iru⟧。",
       "english": "The company suddenly went bankrupt, and the employees are at a loss for what to do.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA common idiomatic expression. {途方|とほう} means \"way\" or \"method,\" and {暮|く}れる here means \"to be overwhelmed\" or \"to be consumed by.\" The whole phrase describes the state of being so overwhelmed by a problem that one cannot think of any solution. Often used when someone faces an unexpected crisis or is stranded.\n\nCOMMON PATTERNS:\n- ～して{途方|とほう}に{暮|く}れる (to do ~ and be at a loss)\n- {途方|とほう}に{暮|く}れた{顔|かお} (a bewildered face)\n- {途方|とほう}に{暮|く}れている (to be standing there helplessly)\n\nSIMILAR WORDS:\n- {困|こま}り{果|は}てる: to be completely at a loss — similar intensity\n- {手|て}も{足|あし}も{出|で}ない: to be completely helpless — emphasizes inability to act\n- {八方塞|はっぽうふさ}がり: blocked in all directions — emphasizes no options remaining\n- {困|こま}る: to be troubled — milder, everyday difficulty",
+  "notes": "USAGE:\nA common idiomatic expression. ⟦{途方|とほう}→途方：09447_tohou⟧ means \"way\" or \"method,\" and {暮|く}れる here means \"to be overwhelmed\" or \"to be consumed by.\" The whole phrase describes the state of being so overwhelmed by a problem that one cannot think of any solution. Often used when someone faces an unexpected crisis or is stranded.\n\nCOMMON PATTERNS:\n- ～⟦して→する：00392_suru⟧{途方|とほう}に{暮|く}れる (to do ~ and be at a loss)\n- {途方|とほう}に{暮|く}れた⟦{顔|かお}→顔：00558_kao⟧ (a bewildered face)\n- {途方|とほう}に{暮|く}れて⟦いる→いる：00495_iru⟧ (to be standing there helplessly)\n\nSIMILAR WORDS:\n- ⟦{困|こま}り→困る：00861_komaru⟧⟦{果|は}てる→果てる：28565_hateru⟧: to be completely at a loss — similar intensity\n- ⟦{手|て}→手：00569_te⟧⟦も→も：00484_mo⟧⟦{足|あし}→足：00575_ashi⟧⟦も→も：00484_mo⟧⟦{出|で}ない→出る：00513_deru⟧: to be completely helpless — emphasizes inability to act\n- ⟦{八方塞|はっぽうふさ}がり→八方塞がり：07741_happoufusagari⟧: blocked in all directions — emphasizes no options remaining\n- ⟦{困|こま}る→困る：00861_komaru⟧: to be troubled — milder, everyday difficulty",
   "cross_references": [
     {
       "type": "related",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-18T08:09:01Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
         "emotion",
         "cognition"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     }
   }
 }

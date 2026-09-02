@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21277_hougou_ex1",
-      "japanese": "{傷口|きずぐち}を{縫合|ほうごう}した。",
+      "japanese": "⟦{傷口|きずぐち}→傷口：09517_kizuguchi⟧⟦を→を：00422_wo⟧{縫合|ほうごう}⟦した→する：00392_suru⟧。",
       "english": "The wound was sutured.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21277_hougou_ex2",
-      "japanese": "{手術|しゅじゅつ}の{最後|さいご}に{切開部|せっかいぶ}を{縫合|ほうごう}する。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧{切開部|せっかいぶ}⟦を→を：00422_wo⟧{縫合|ほうごう}⟦する→する：00392_suru⟧。",
       "english": "At the end of the surgery, the incision is sutured closed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21277_hougou_ex3",
-      "japanese": "{縫合|ほうごう}した{部分|ぶぶん}の{糸|いと}は{一週間後|いっしゅうかんご}に{抜|ぬ}く{予定|よてい}だ。",
+      "japanese": "{縫合|ほうごう}⟦した→する：00392_suru⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦の→の：09472_no⟧⟦{糸|いと}→糸：01315_ito⟧⟦は→は：00079_ha⟧{一週間後|いっしゅうかんご}⟦に→に：00314_ni⟧⟦{抜|ぬ}く→抜く：02384_nuku⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "The stitches in the sutured area are scheduled to be removed in one week.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {縫|ほう} (to sew) and {合|ごう} (to join together). A medical term used in hospitals and clinics. While it is a technical word, it is commonly understood by the general public since stitching wounds is a familiar medical procedure.\n\nCOMMON COLLOCATIONS:\n- {縫合|ほうごう}する: to suture\n- {縫合|ほうごう}{糸|し}: suture thread\n- {傷口|きずぐち}を{縫合|ほうごう}する: to stitch a wound\n- {縫合|ほうごう}を{解|と}く: to remove stitches\n\nRELATED WORDS:\n- {抜糸|ばっし}: removal of stitches — the follow-up procedure after {縫合|ほうごう}\n- {切開|せっかい}: incision — cutting open tissue, the opposite action\n- {傷口|きずぐち}: wound, cut — what gets sutured",
+  "notes": "A compound of {縫|ほう} (to sew) and ⟦{合|ごう}→合：27628_gou⟧ (to join together). A medical term used in hospitals and clinics. While it is a technical word, it is commonly understood by the general public since stitching wounds is a familiar medical procedure.\n\nCOMMON COLLOCATIONS:\n- {縫合|ほうごう}⟦する→する：00392_suru⟧: to suture\n- {縫合|ほうごう}{糸|し}: suture thread\n- ⟦{傷口|きずぐち}→傷口：09517_kizuguchi⟧⟦を→を：00422_wo⟧{縫合|ほうごう}⟦する→する：00392_suru⟧: to stitch a wound\n- {縫合|ほうごう}⟦を→を：00422_wo⟧⟦{解|と}く→解く：02301_toku⟧: to remove stitches\n\nRELATED WORDS:\n- ⟦{抜糸|ばっし}→抜糸：17775_basshi⟧: removal of stitches — the follow-up procedure after {縫合|ほうごう}\n- {切開|せっかい}: incision — cutting open tissue, the opposite action\n- ⟦{傷口|きずぐち}→傷口：09517_kizuguchi⟧: wound, cut — what gets sutured",
   "cross_references": [
     {
       "type": "related",
@@ -77,10 +77,11 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-01T16:16:56Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

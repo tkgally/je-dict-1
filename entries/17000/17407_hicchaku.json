@@ -15,41 +15,52 @@
   "examples": [
     {
       "id": "17407_hicchaku_ex1",
-      "japanese": "{応募|おうぼ}は{十月|じゅうがつ}{三十一日|さんじゅういちにち}{必着|ひっちゃく}です。",
+      "japanese": "⟦{応募|おうぼ}→応募：03014_oubo⟧⟦は→は：00079_ha⟧⟦{十月|じゅうがつ}→十月：00634_juugatsu⟧{三十一日|さんじゅういちにち}{必着|ひっちゃく}です。",
       "english": "Applications must arrive by October 31.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17407_hicchaku_ex2",
-      "japanese": "{書類|しょるい}は{金曜日|きんようび}{必着|ひっちゃく}でお{送|おく}りください。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦は→は：00079_ha⟧⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧{必着|ひっちゃく}⟦で→で：00502_de⟧お⟦{送|おく}り→送る：00742_okuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please send the documents so they arrive by Friday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17407_hicchaku_ex3",
-      "japanese": "{必着|ひっちゃく}の{締|し}め{切|き}りに{間|ま}に{合|あ}うよう、{速達|そくたつ}で{送|おく}った。",
+      "japanese": "{必着|ひっちゃく}⟦の→の：09472_no⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}う→間に合う：01142_maniau⟧よう、⟦{速達|そくたつ}→速達：04393_sokutatsu⟧⟦で→で：00502_de⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "I sent it by express mail to make the must-arrive deadline.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {必|ひっ} (must, certainly) and {着|ちゃく} (arrival). Very common in application deadlines for jobs, contests, government forms, and university admissions. Always used with a date to specify when the item must arrive.\n\nIMPORTANT CONTRAST:\n- {必着|ひっちゃく}: the item must physically arrive by the date\n- {消印有効|けしいんゆうこう}: valid if postmarked by the date — more lenient, as only the mailing date matters\n\nCOMMON COLLOCATIONS:\n- 〜{日|にち}{必着|ひっちゃく} (must arrive by ~ date)\n- {必着|ひっちゃく}で{送|おく}る (to send for required arrival)\n- {必着|ひっちゃく}の{締|し}め{切|き}り (a must-arrive deadline)",
+  "notes": "USAGE:\nA compound of {必|ひっ} (must, certainly) and ⟦{着|ちゃく}→着：27655_chaku⟧ (arrival). Very common in application deadlines for jobs, contests, government forms, and university admissions. Always used with a date to specify when the item must arrive.\n\nIMPORTANT CONTRAST:\n- {必着|ひっちゃく}: the item must physically arrive by the date\n- {消印有効|けしいんゆうこう}: valid if postmarked by the date — more lenient, as only the mailing date matters\n\nCOMMON COLLOCATIONS:\n- 〜⟦{日|にち}→日：12732_nichi⟧{必着|ひっちゃく} (must arrive by ~ date)\n- {必着|ひっちゃく}⟦で→で：00502_de⟧⟦{送|おく}る→送る：00742_okuru⟧ (to send for required arrival)\n- {必着|ひっちゃく}⟦の→の：09472_no⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧ (a must-arrive deadline)",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general", "daily-life"]
+      "semantic": [
+        "time-general",
+        "daily-life"
+      ]
     }
   }
 }

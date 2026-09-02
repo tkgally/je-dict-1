@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10262_sotozei_ex1",
-      "japanese": "{価格|かかく}は{外税|そとぜい}です。",
+      "japanese": "⟦{価格|かかく}→価格：00147_kakaku⟧⟦は→は：00079_ha⟧{外税|そとぜい}です。",
       "english": "The price is tax-exclusive.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10262_sotozei_ex2",
-      "japanese": "{外税|そとぜい}だと{実際|じっさい}の{支払|しはら}い{額|がく}が{分|わ}かりにくい。",
+      "japanese": "{外税|そとぜい}だ⟦と→と：00512_to⟧⟦{実際|じっさい}→実際：02502_jissai⟧⟦の→の：09472_no⟧{支払|しはら}い{額|がく}⟦が→が：00051_ga⟧⟦{分|わ}かり→分かる：00463_wakaru⟧にくい。",
       "english": "With tax-exclusive pricing, it's hard to know the actual amount to pay.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10262_sotozei_ex3",
-      "japanese": "{外税|そとぜい}{表示|ひょうじ}の{場合|ばあい}、レジで{消費税|しょうひぜい}が{加算|かさん}される。",
+      "japanese": "{外税|そとぜい}⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧、⟦レジ→レジ：00879_reji⟧⟦で→で：00502_de⟧⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧⟦が→が：00051_ga⟧⟦{加算|かさん}→加算：24884_kasan⟧⟦される→する：00392_suru⟧。",
       "english": "With tax-exclusive display, consumption tax is added at the register.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{外税|そとぜい} means the displayed price does not include {消費税|しょうひぜい} (consumption tax), which is added at checkout. The kanji literally mean 'outside tax.'\n\nSIMILAR WORDS:\n- {外税|そとぜい}: tax-exclusive (tax added at register)\n- {内税|うちぜい}: tax-inclusive (displayed price includes tax)\n- {税抜|ぜいぬ}き: tax-excluded (more common in everyday speech)\n- {税別|ぜいべつ}: tax not included (seen on price tags)\n\nJAPAN CONTEXT:\nSince 2021, Japan requires {総額表示|そうがくひょうじ} (total price display including tax) as the primary displayed price. However, {外税|そとぜい} may still appear as supplementary information on price tags.",
+  "notes": "{外税|そとぜい} means the displayed price does not include ⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧ (consumption tax), which is added at checkout. The kanji literally mean 'outside tax.'\n\nSIMILAR WORDS:\n- {外税|そとぜい}: tax-exclusive (tax added at register)\n- ⟦{内税|うちぜい}→内税：10261_uchizei⟧: tax-inclusive (displayed price includes tax)\n- {税抜|ぜいぬ}き: tax-excluded (more common in everyday speech)\n- ⟦{税別|ぜいべつ}→税別：28617_zeibetsu⟧: tax not included (seen on price tags)\n\nJAPAN CONTEXT:\nSince 2021, Japan requires ⟦{総額表示|そうがくひょうじ}→総額表示：24007_sougakuhyouji⟧ (total price display including tax) as the primary displayed price. However, {外税|そとぜい} may still appear as supplementary information on price tags.",
   "cross_references": [
     {
       "type": "antonym",
@@ -62,7 +62,7 @@
   ],
   "metadata": {
     "created": "2026-02-05T15:05:56Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

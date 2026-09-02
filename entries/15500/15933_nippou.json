@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15933_nippou_ex1",
-      "japanese": "{毎日|まいにち}{日報|にっぽう}を{書|か}いている。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{日報|にっぽう}⟦を→を：00422_wo⟧⟦{書|か}いている→書く：00477_kaku⟧。",
       "english": "I write a daily report every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15933_nippou_ex2",
-      "japanese": "{日報|にっぽう}を{上司|じょうし}に{提出|ていしゅつ}するのを{忘|わす}れた。",
+      "japanese": "{日報|にっぽう}⟦を→を：00422_wo⟧⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{忘|わす}れた→忘れる：00474_wasureru⟧。",
       "english": "I forgot to submit my daily report to my boss.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15933_nippou_ex3",
-      "japanese": "{工事|こうじ}{現場|げんば}では{安全|あんぜん}{管理|かんり}のために{日報|にっぽう}をつけることが{義務|ぎむ}づけられている。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{安全|あんぜん}{管理|かんり}→安全管理：23551_anzenkanri⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{日報|にっぽう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧こと⟦が→が：00051_ga⟧⟦{義務|ぎむ}→義務：02647_gimu⟧づけられて⟦いる→いる：00495_iru⟧。",
       "english": "At construction sites, keeping a daily log is mandatory for safety management.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{日報|にっぽう} is standard workplace vocabulary in Japan. Many companies require employees to submit daily reports summarizing their work. It can also refer to daily logs kept at construction sites, medical facilities, or schools.\n\nCOMMON COLLOCATIONS:\n- {日報|にっぽう}を{書|か}く (to write a daily report)\n- {日報|にっぽう}を{提出|ていしゅつ}する (to submit a daily report)\n- {業務|ぎょうむ}{日報|にっぽう} (work daily report)\n- {日報|にっぽう}をつける (to keep a daily log)\n\nRELATED WORDS:\n{週報|しゅうほう} is a weekly report, {月報|げっぽう} is a monthly report, and {年報|ねんぽう} is an annual report.",
+  "notes": "USAGE:\n{日報|にっぽう} is standard workplace vocabulary in Japan. Many companies require employees to submit daily reports summarizing their work. It can also refer to daily logs kept at construction sites, medical facilities, or schools.\n\nCOMMON COLLOCATIONS:\n- {日報|にっぽう}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write a daily report)\n- {日報|にっぽう}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ (to submit a daily report)\n- {業務|ぎょうむ}{日報|にっぽう} (work daily report)\n- {日報|にっぽう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to keep a daily log)\n\nRELATED WORDS:\n⟦{週報|しゅうほう}→週報：24168_shuuhou⟧ is a weekly report, ⟦{月報|げっぽう}→月報：23024_geppou⟧ is a monthly report, and {年報|ねんぽう} is an annual report.",
   "cross_references": [
     {
       "type": "related",
@@ -57,15 +63,21 @@
   ],
   "metadata": {
     "created": "2026-03-09T00:39:28Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

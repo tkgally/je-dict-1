@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19724_chakugan_ex1",
-      "japanese": "{船|ふね}が{着岸|ちゃくがん}した。",
+      "japanese": "⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧{着岸|ちゃくがん}⟦した→する：00392_suru⟧。",
       "english": "The ship docked.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19724_chakugan_ex2",
-      "japanese": "フェリーは{予定|よてい}どおりに{着岸|ちゃくがん}した。",
+      "japanese": "⟦フェリー→フェリー：11168_ferii⟧⟦は→は：00079_ha⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦どおり→どおり：09884_doori⟧⟦に→に：00314_ni⟧{着岸|ちゃくがん}⟦した→する：00392_suru⟧。",
       "english": "The ferry docked on schedule.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19724_chakugan_ex3",
-      "japanese": "{強風|きょうふう}のため、{大型|おおがた}{客船|きゃくせん}の{着岸|ちゃくがん}が{遅|おく}れている。",
+      "japanese": "⟦{強風|きょうふう}→強風：15269_kyoufuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{大型|おおがた}→大型：03016_oogata⟧⟦{客船|きゃくせん}→客船：16792_kyakusen⟧⟦の→の：09472_no⟧{着岸|ちゃくがん}⟦が→が：00051_ga⟧⟦{遅|おく}れている→遅れる：00741_okureru⟧。",
       "english": "Due to strong winds, the docking of the large cruise ship is delayed.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {着|ちゃく} (to arrive) + {岸|がん} (shore, bank). A nautical term describing the moment a ship reaches and secures itself to a pier or wharf. The opposite is {離岸|りがん} (leaving the pier, casting off).\n\nCOMMON COLLOCATIONS:\n- {着岸|ちゃくがん}する — to dock, to berth\n- {着岸|ちゃくがん}{予定|よてい} — scheduled docking time\n- {着岸|ちゃくがん}{作業|さぎょう} — docking operations\n\nSIMILAR WORDS:\n- {接岸|せつがん} — coming alongside a pier; very close synonym, slightly more technical\n- {入港|にゅうこう} — entering a port; broader, refers to arriving in the harbor area\n- {離岸|りがん} — leaving the pier; the opposite action",
+  "notes": "Composed of ⟦{着|ちゃく}→着：27655_chaku⟧ (to arrive) + {岸|がん} (shore, bank). A nautical term describing the moment a ship reaches and secures itself to a pier or wharf. The opposite is {離岸|りがん} (leaving the pier, casting off).\n\nCOMMON COLLOCATIONS:\n- {着岸|ちゃくがん}⟦する→する：00392_suru⟧ — to dock, to berth\n- {着岸|ちゃくがん}⟦{予定|よてい}→予定：00824_yotei⟧ — scheduled docking time\n- {着岸|ちゃくがん}⟦{作業|さぎょう}→作業：02775_sagyou⟧ — docking operations\n\nSIMILAR WORDS:\n- ⟦{接岸|せつがん}→接岸：24377_setsugan⟧ — coming alongside a pier; very close synonym, slightly more technical\n- ⟦{入港|にゅうこう}→入港：14771_nyuukou⟧ — entering a port; broader, refers to arriving in the harbor area\n- {離岸|りがん} — leaving the pier; the opposite action",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -164,9 +164,10 @@
       "semantic": [
         "transportation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T14:35:09Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

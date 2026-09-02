@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14571_boushi_ex1",
-      "japanese": "{事故|じこ}を{防止|ぼうし}する。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{防止|ぼうし}⟦する→する：00392_suru⟧。",
       "english": "To prevent an accident.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14571_boushi_ex2",
-      "japanese": "{感染|かんせん}{防止|ぼうし}のためにマスクを{着用|ちゃくよう}してください。",
+      "japanese": "⟦{感染|かんせん}→感染：05977_kansen⟧{防止|ぼうし}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦マスク→マスク：05075_masuku⟧⟦を→を：00422_wo⟧⟦{着用|ちゃくよう}して→着用する：26849_chakuyousuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wear a mask to prevent infection.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14571_boushi_ex3",
-      "japanese": "{犯罪|はんざい}{防止|ぼうし}に{向|む}けた{新|あたら}しい{対策|たいさく}が{発表|はっぴょう}された。",
+      "japanese": "⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧{防止|ぼうし}⟦に→に：00314_ni⟧⟦{向|む}けた→向ける：02306_mukeru⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "New measures aimed at crime prevention were announced.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{防止|ぼうし} is almost always used as a compound modifier ({防止|ぼうし} + noun) or with する. It sounds formal and is common in official contexts, signage, and policy language.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}{防止|ぼうし} (accident prevention)\n- {犯罪|はんざい}{防止|ぼうし} (crime prevention)\n- {再発|さいはつ}{防止|ぼうし} (prevention of recurrence)\n- {感染|かんせん}{防止|ぼうし} (infection prevention)\n- {防止|ぼうし}{策|さく} (preventive measure)\n\nSIMILAR WORDS:\n- {防止|ぼうし}: prevention (stopping something before it happens; formal, policy-oriented)\n- {予防|よぼう}: prevention (proactive measures, especially medical; {予防|よぼう}{接種|せっしゅ} = vaccination)\n- {阻止|そし}: blocking, thwarting (stopping something already in motion)",
+  "notes": "USAGE:\n{防止|ぼうし} is almost always used as a compound modifier ({防止|ぼうし} + noun) or with ⟦する→する：00392_suru⟧. It sounds formal and is common in official contexts, signage, and policy language.\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧{防止|ぼうし} (accident prevention)\n- ⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧{防止|ぼうし} (crime prevention)\n- {再発|さいはつ}{防止|ぼうし} (prevention of recurrence)\n- ⟦{感染|かんせん}→感染：05977_kansen⟧{防止|ぼうし} (infection prevention)\n- {防止|ぼうし}{策|さく} (preventive measure)\n\nSIMILAR WORDS:\n- {防止|ぼうし}: prevention (stopping something before it happens; formal, policy-oriented)\n- ⟦{予防|よぼう}→予防：03669_yobou⟧: prevention (proactive measures, especially medical; ⟦{予防|よぼう}{接種|せっしゅ}→予防接種：11068_yobousesshu⟧ = vaccination)\n- ⟦{阻止|そし}→阻止：07633_soshi⟧: blocking, thwarting (stopping something already in motion)",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-02T07:41:13Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

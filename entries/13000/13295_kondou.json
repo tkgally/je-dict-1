@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13295_kondou_ex1",
-      "japanese": "{事実|じじつ}と{意見|いけん}を{混同|こんどう}してはいけない。",
+      "japanese": "⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦と→と：00512_to⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{混同|こんどう}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not confuse facts with opinions.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13295_kondou_ex2",
-      "japanese": "{二|ふた}つの{概念|がいねん}を{混同|こんどう}しやすい。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{概念|がいねん}→概念：04709_gainen⟧⟦を→を：00422_wo⟧{混同|こんどう}しやすい。",
       "english": "It is easy to mix up the two concepts.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13295_kondou_ex3",
-      "japanese": "{公私|こうし}を{混同|こんどう}する{人|ひと}は{職場|しょくば}で{信頼|しんらい}を{失|うしな}う。",
+      "japanese": "⟦{公私|こうし}→公私：21213_koushi⟧⟦を→を：00422_wo⟧{混同|こんどう}⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{職場|しょくば}→職場：04164_shokuba⟧⟦で→で：00502_de⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧。",
       "english": "People who mix up public and private matters lose trust at work.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nTypically used with する: AとBを{混同|こんどう}する (to confuse A with B / to conflate A and B). The を particle marks the two things being confused, and と connects them.\n\nThe phrase {公私|こうし}{混同|こんどう} (mixing public and private) is a set compound meaning failure to separate one's professional and personal roles.\n\nCOMMON COLLOCATIONS:\n- AとBを{混同|こんどう}する: to confuse A with B\n- {公私|こうし}{混同|こんどう}: mixing public and private matters\n- {混同|こんどう}しやすい: easy to confuse\n- {混同|こんどう}を{避|さ}ける: to avoid confusion",
+  "notes": "USAGE:\nTypically used with ⟦する→する：00392_suru⟧: A⟦と→と：00512_to⟧B⟦を→を：00422_wo⟧{混同|こんどう}⟦する→する：00392_suru⟧ (to confuse A with B / to conflate A and B). The ⟦を→を：00422_wo⟧ particle marks the two things being confused, and ⟦と→と：00512_to⟧ connects them.\n\nThe phrase ⟦{公私|こうし}→公私：21213_koushi⟧{混同|こんどう} (mixing public and private) is a set compound meaning failure to separate one's professional and personal roles.\n\nCOMMON COLLOCATIONS:\n- A⟦と→と：00512_to⟧B⟦を→を：00422_wo⟧{混同|こんどう}⟦する→する：00392_suru⟧: to confuse A with B\n- ⟦{公私|こうし}→公私：21213_koushi⟧{混同|こんどう}: mixing public and private matters\n- {混同|こんどう}しやすい: easy to confuse\n- {混同|こんどう}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid confusion",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-24T08:57:26Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

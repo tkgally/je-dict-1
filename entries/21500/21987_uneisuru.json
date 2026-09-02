@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "21987_uneisuru_ex1",
-      "japanese": "NPOを{運営|うんえい}する。",
+      "japanese": "NPO⟦を→を：00422_wo⟧{運営|うんえい}する。",
       "english": "To run an NPO.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "21987_uneisuru_ex2",
-      "japanese": "{彼女|かのじょ}は{一人|ひとり}でカフェを{運営|うんえい}している。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦カフェ→カフェ：06767_kafe⟧⟦を→を：00422_wo⟧{運営|うんえい}して⟦いる→いる：00495_iru⟧。",
       "english": "She runs a café by herself.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "21987_uneisuru_ex3",
-      "japanese": "{学校|がっこう}を{円滑|えんかつ}に{運営|うんえい}するためには、{保護者|ほごしゃ}の{協力|きょうりょく}が{欠|か}かせない。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦を→を：00422_wo⟧⟦{円滑|えんかつ}→円滑：10146_enkatsu⟧⟦に→に：00314_ni⟧{運営|うんえい}する⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{保護者|ほごしゃ}→保護者：11564_hogosha⟧⟦の→の：09472_no⟧⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Cooperation from parents is essential for running a school smoothly.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the ongoing management and operation of organizations, businesses, events, or systems. Emphasizes keeping things running smoothly rather than establishing or founding them.\n\nCOMMON COLLOCATIONS:\n- {会社|かいしゃ}を{運営|うんえい}する: to run a company\n- サイトを{運営|うんえい}する: to operate a website\n- イベントを{運営|うんえい}する: to manage an event\n- {運営|うんえい}{費|ひ}: operating costs\n- {運営|うんえい}{委員会|いいんかい}: management committee\n- {運営|うんえい}{方針|ほうしん}: management policy\n\nSIMILAR WORDS:\n- {経営|けいえい}する: to manage (a business) — focuses on business strategy and profit\n- {管理|かんり}する: to manage, administer — focuses on control and maintenance\n- {運用|うんよう}する: to operate, utilize — often used for funds, systems, or rules",
+  "notes": "Refers to the ongoing management and operation of organizations, businesses, events, or systems. Emphasizes keeping things running smoothly rather than establishing or founding them.\n\nCOMMON COLLOCATIONS:\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧{運営|うんえい}する: to run a company\n- ⟦サイト→サイト：05603_saito⟧⟦を→を：00422_wo⟧{運営|うんえい}する: to operate a website\n- ⟦イベント→イベント：09594_ibento⟧⟦を→を：00422_wo⟧{運営|うんえい}する: to manage an event\n- ⟦{運営|うんえい}→運営：05096_unei⟧⟦{費|ひ}→費：09877_hi⟧: operating costs\n- ⟦{運営|うんえい}→運営：05096_unei⟧⟦{委員会|いいんかい}→委員会：12234_iinkai⟧: management committee\n- ⟦{運営|うんえい}→運営：05096_unei⟧⟦{方針|ほうしん}→方針：04871_houshin⟧: management policy\n\nSIMILAR WORDS:\n- ⟦{経営|けいえい}→経営：02740_keiei⟧⟦する→する：00392_suru⟧: to manage (a business) — focuses on business strategy and profit\n- ⟦{管理|かんり}する→管理する：21910_kanrisuru⟧: to manage, administer — focuses on control and maintenance\n- ⟦{運用|うんよう}→運用：06811_unyou⟧⟦する→する：00392_suru⟧: to operate, utilize — often used for funds, systems, or rules",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -172,9 +172,10 @@
         "work",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-04T19:28:03Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

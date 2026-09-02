@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20692_dansen_ex1",
-      "japanese": "ケーブルが{断線|だんせん}した。",
+      "japanese": "⟦ケーブル→ケーブル：04432_keeburu⟧⟦が→が：00051_ga⟧{断線|だんせん}⟦した→する：00392_suru⟧。",
       "english": "The cable broke.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20692_dansen_ex2",
-      "japanese": "イヤホンの{断線|だんせん}で{片方|かたほう}から{音|おと}が{出|で}なくなった。",
+      "japanese": "⟦イヤホン→イヤホン：04421_iyahon⟧⟦の→の：09472_no⟧{断線|だんせん}⟦で→で：00502_de⟧⟦{片方|かたほう}→片方：03044_katahou⟧⟦から→から：00504_kara⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{出|で}なく→出る：00513_deru⟧⟦なった→なる：01970_naru⟧。",
       "english": "Due to a broken wire in the earphones, sound stopped coming from one side.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20692_dansen_ex3",
-      "japanese": "{台風|たいふう}の{影響|えいきょう}で{送電線|そうでんせん}が{断線|だんせん}し、{広|ひろ}い{範囲|はんい}で{停電|ていでん}が{発生|はっせい}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{送電線|そうでんせん}→送電線：09776_soudensen⟧⟦が→が：00051_ga⟧{断線|だんせん}し、⟦{広|ひろ}い→広い：00704_hiroi⟧⟦{範囲|はんい}→範囲：03567_hani⟧⟦で→で：00502_de⟧⟦{停電|ていでん}→停電：03544_teiden⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "Due to the typhoon, power lines were severed, causing widespread power outages.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {断|だん} (sever/cut) + {線|せん} (line/wire). Refers to the physical breaking of a wire or cable, whether in small electronics or large infrastructure.\n\nCOMMON COLLOCATIONS:\n- {断線|だんせん}する: to break/disconnect (as a verb with する)\n- ケーブルの{断線|だんせん}: cable breakage\n- {送電線|そうでんせん}の{断線|だんせん}: power line break\n- {断線|だんせん}{箇所|かしょ}: point of disconnection\n- {断線|だんせん}を{修理|しゅうり}する: to repair a broken wire\n\nSIMILAR WORDS:\n- {切断|せつだん}: severance, cutting — a more general term for cutting, not limited to wires\n- {停電|ていでん}: power outage — the result of power line {断線|だんせん}, but can also be caused by other factors\n- {接触不良|せっしょくふりょう}: poor contact — a different type of electrical problem where the wire is not broken but the connection is loose\n\nUSAGE:\nIn everyday life, {断線|だんせん} most commonly occurs with earphone/headphone cables and charging cables. It is also used in news reports about damage from natural disasters.",
+  "notes": "Composed of {断|だん} (sever/cut) + ⟦{線|せん}→線：09901_sen⟧ (line/wire). Refers to the physical breaking of a wire or cable, whether in small electronics or large infrastructure.\n\nCOMMON COLLOCATIONS:\n- {断線|だんせん}⟦する→する：00392_suru⟧: to break/disconnect (as a verb with ⟦する→する：00392_suru⟧)\n- ⟦ケーブル→ケーブル：04432_keeburu⟧⟦の→の：09472_no⟧{断線|だんせん}: cable breakage\n- ⟦{送電線|そうでんせん}→送電線：09776_soudensen⟧⟦の→の：09472_no⟧{断線|だんせん}: power line break\n- {断線|だんせん}⟦{箇所|かしょ}→箇所：00196_kasho⟧: point of disconnection\n- {断線|だんせん}⟦を→を：00422_wo⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦する→する：00392_suru⟧: to repair a broken wire\n\nSIMILAR WORDS:\n- ⟦{切断|せつだん}→切断：20497_setsudan⟧: severance, cutting — a more general term for cutting, not limited to wires\n- ⟦{停電|ていでん}→停電：03544_teiden⟧: power outage — the result of power line {断線|だんせん}, but can also be caused by other factors\n- ⟦{接触不良|せっしょくふりょう}→接触不良：16550_sesshokufuryou⟧: poor contact — a different type of electrical problem where the wire is not broken but the connection is loose\n\nUSAGE:\nIn everyday life, {断線|だんせん} most commonly occurs with earphone/headphone cables and charging cables. It is also used in news reports about damage from natural disasters.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "technology"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-30T07:48:12Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

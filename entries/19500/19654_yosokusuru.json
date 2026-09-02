@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19654_yosokusuru_ex1",
-      "japanese": "{結果|けっか}を{予測|よそく}する。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{予測|よそく}する。",
       "english": "To predict the outcome.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19654_yosokusuru_ex2",
-      "japanese": "{地震|じしん}を{正確|せいかく}に{予測|よそく}するのは{難|むずか}しい。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦を→を：00422_wo⟧⟦{正確|せいかく}→正確：03372_seikaku⟧⟦に→に：00314_ni⟧{予測|よそく}する⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It is difficult to predict earthquakes accurately.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19654_yosokusuru_ex3",
-      "japanese": "AIを{使|つか}って{需要|じゅよう}を{予測|よそく}するシステムが{開発|かいはつ}された。",
+      "japanese": "AI⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{需要|じゅよう}→需要：02616_juyou⟧⟦を→を：00422_wo⟧{予測|よそく}する⟦システム→システム：08428_shisutemu⟧⟦が→が：00051_ga⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦された→する：00392_suru⟧。",
       "english": "A system that uses AI to forecast demand was developed.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Implies a more analytical or data-based approach to predicting than {予想|よそう}. Commonly used in scientific, technical, and business contexts.\n\nCOMMON COLLOCATIONS:\n- {予測|よそく}{不能|ふのう}: unpredictable\n- {予測|よそく}{変換|へんかん}: predictive text (input)\n- {予測|よそく}{精度|せいど}: prediction accuracy\n- {予測|よそく}モデル: prediction model\n- {予測|よそく}{値|ち}: predicted value\n\nSIMILAR WORDS:\n- {予想|よそう}する: to expect, to anticipate — more subjective, based on intuition or general judgment\n- {予測|よそく}する: to predict, to forecast — more objective, based on data or scientific analysis\n- {予報|よほう}する: to forecast — specifically for weather and other official forecasts",
+  "notes": "Implies a more analytical or data-based approach to predicting than ⟦{予想|よそう}→予想：03664_yosou⟧. Commonly used in scientific, technical, and business contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{予測|よそく}→予測：03665_yosoku⟧⟦{不能|ふのう}→不能：28353_funou⟧: unpredictable\n- ⟦{予測|よそく}→予測：03665_yosoku⟧⟦{変換|へんかん}→変換：12085_henkan⟧: predictive text (input)\n- ⟦{予測|よそく}→予測：03665_yosoku⟧⟦{精度|せいど}→精度：13787_seido⟧: prediction accuracy\n- ⟦{予測|よそく}→予測：03665_yosoku⟧⟦モデル→モデル：05112_moderu⟧: prediction model\n- ⟦{予測|よそく}→予測：03665_yosoku⟧{値|ち}: predicted value\n\nSIMILAR WORDS:\n- ⟦{予想|よそう}する→予想する：06064_yosousuru⟧: to expect, to anticipate — more subjective, based on intuition or general judgment\n- {予測|よそく}する: to predict, to forecast — more objective, based on data or scientific analysis\n- ⟦{予報|よほう}→予報：03668_yohou⟧⟦する→する：00392_suru⟧: to forecast — specifically for weather and other official forecasts",
   "cross_references": [
     {
       "type": "contrast",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-26T09:42:07Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -186,7 +186,8 @@
         "cognition",
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

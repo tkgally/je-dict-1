@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20953_shigaikyokuban_ex1",
-      "japanese": "{東京|とうきょう}の{市外局番|しがいきょくばん}は03だ。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦の→の：09472_no⟧{市外局番|しがいきょくばん}⟦は→は：00079_ha⟧03だ。",
       "english": "Tokyo's area code is 03.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20953_shigaikyokuban_ex2",
-      "japanese": "{市外局番|しがいきょくばん}から{掛|か}けてください。",
+      "japanese": "{市外局番|しがいきょくばん}⟦から→から：00504_kara⟧{掛|か}けて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please dial from the area code.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20953_shigaikyokuban_ex3",
-      "japanese": "{携帯電話|けいたいでんわ}からかける{場合|ばあい}は、{市外局番|しがいきょくばん}を{付|つ}ける{必要|ひつよう}がある。",
+      "japanese": "⟦{携帯電話|けいたいでんわ}→携帯電話：04433_keitaidenwa⟧⟦から→から：00504_kara⟧⟦かける→かける：00854_kakeru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、{市外局番|しがいきょくばん}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When calling from a mobile phone, you need to include the area code.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'outside-the-city exchange number.' Japanese area codes start with 0 and vary in length from 2 to 5 digits. Major cities have shorter codes (e.g., 03 for {東京|とうきょう}, 06 for {大阪|おおさか}), while rural areas have longer ones.\n\nCOMMON COLLOCATIONS:\n- {市外局番|しがいきょくばん}なし: without area code (local call)\n- {市外局番|しがいきょくばん}から{掛|か}ける: to dial with the area code\n- {市外局番|しがいきょくばん}を{付|つ}ける: to add the area code\n\nRELATED WORDS:\n- {市内局番|しないきょくばん}: local exchange number — the digits after the area code\n- {国番号|くにばんごう}: country code — the international dialing prefix\n- {電話番号|でんわばんごう}: telephone number — the full number\n- {内線|ないせん}: extension — internal phone number",
+  "notes": "Literally 'outside-the-city exchange number.' Japanese area codes start with 0 and vary in length from 2 to 5 digits. Major cities have shorter codes (e.g., 03 for ⟦{東京|とうきょう}→東京：09564_toukyou⟧, 06 for ⟦{大阪|おおさか}→大阪：09779_oosaka⟧), while rural areas have longer ones.\n\nCOMMON COLLOCATIONS:\n- {市外局番|しがいきょくばん}なし: without area code (local call)\n- {市外局番|しがいきょくばん}⟦から→から：00504_kara⟧{掛|か}ける: to dial with the area code\n- {市外局番|しがいきょくばん}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to add the area code\n\nRELATED WORDS:\n- {市内局番|しないきょくばん}: local exchange number — the digits after the area code\n- ⟦{国番号|くにばんごう}→国番号：30192_kunibangou⟧: country code — the international dialing prefix\n- ⟦{電話番号|でんわばんごう}→電話番号：10159_denwabangou⟧: telephone number — the full number\n- ⟦{内線|ないせん}→内線：04279_naisen⟧: extension — internal phone number",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -82,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T22:20:52Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

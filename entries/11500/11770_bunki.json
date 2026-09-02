@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11770_bunki_ex1",
-      "japanese": "{道|みち}が{二手|ふたて}に{分岐|ぶんき}している。",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{二手|ふたて}⟦に→に：00314_ni⟧{分岐|ぶんき}⟦している→する：00392_suru⟧。",
       "english": "The road forks into two paths.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11770_bunki_ex2",
-      "japanese": "ここが{運命|うんめい}の{分岐|ぶんき}{点|てん}だった。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦が→が：00051_ga⟧⟦{運命|うんめい}→運命：06879_unmei⟧⟦の→の：09472_no⟧{分岐|ぶんき}{点|てん}だった。",
       "english": "This was the turning point of fate.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11770_bunki_ex3",
-      "japanese": "{線路|せんろ}が{分岐|ぶんき}する{地点|ちてん}にポイントが{設置|せっち}されている。",
+      "japanese": "⟦{線路|せんろ}→線路：04041_senro⟧⟦が→が：00051_ga⟧{分岐|ぶんき}⟦する→する：00392_suru⟧⟦{地点|ちてん}→地点：04058_chiten⟧⟦に→に：00314_ni⟧⟦ポイント→ポイント：11283_pointo⟧⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されている→する：00392_suru⟧。",
       "english": "A switch is installed at the point where the tracks diverge.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{分岐|ぶんき} describes the point where something splits into two or more paths. Used both literally (roads, railways, rivers) and figuratively (decisions, turning points in life).\n\nCOMMON COLLOCATIONS:\n- {分岐|ぶんき}{点|てん}: branching point, turning point\n- {分岐|ぶんき}する: to branch, to fork, to diverge\n- {分岐|ぶんき}{路|ろ}: forked road\n- {分岐|ぶんき}{器|き}: splitter (technical device)\n\nUSAGE:\nThe figurative meaning of \"critical juncture\" or \"turning point\" is very common: {人生|じんせい}の{分岐|ぶんき}{点|てん} (turning point in life), {運命|うんめい}の{分岐|ぶんき}{点|てん} (turning point of fate).\n\nFORMS:\n{分|ぶん} (divide) + {岐|き} (fork, branch). The kanji {岐|き} specifically means \"branching path\" and also appears in {岐路|きろ} (crossroads).",
+  "notes": "{分岐|ぶんき} describes the point where something splits into two or more paths. Used both literally (roads, railways, rivers) and figuratively (decisions, turning points in life).\n\nCOMMON COLLOCATIONS:\n- {分岐|ぶんき}{点|てん}: branching point, turning point\n- {分岐|ぶんき}⟦する→する：00392_suru⟧: to branch, to fork, to diverge\n- {分岐|ぶんき}{路|ろ}: forked road\n- {分岐|ぶんき}{器|き}: splitter (technical device)\n\nUSAGE:\nThe figurative meaning of \"critical juncture\" or \"turning point\" is very common: ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{分岐|ぶんき}{点|てん} (turning point in life), ⟦{運命|うんめい}→運命：06879_unmei⟧⟦の→の：09472_no⟧{分岐|ぶんき}{点|てん} (turning point of fate).\n\nFORMS:\n⟦{分|ぶん}→分：26216_bun⟧ (divide) + {岐|き} (fork, branch). The kanji {岐|き} specifically means \"branching path\" and also appears in ⟦{岐路|きろ}→岐路：19820_kiro⟧ (crossroads).",
   "cross_references": [
     {
       "type": "synonym",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -166,7 +166,8 @@
       "semantic": [
         "direction"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

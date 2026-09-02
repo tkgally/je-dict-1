@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11549_fuchaku_ex1",
-      "japanese": "{汚|よご}れが{付着|ふちゃく}した。",
+      "japanese": "⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦が→が：00051_ga⟧{付着|ふちゃく}⟦した→する：00392_suru⟧。",
       "english": "Dirt adhered to the surface.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11549_fuchaku_ex2",
-      "japanese": "{花粉|かふん}が{衣服|いふく}に{付着|ふちゃく}しやすい{季節|きせつ}だ。",
+      "japanese": "⟦{花粉|かふん}→花粉：04372_kafun⟧⟦が→が：00051_ga⟧⟦{衣服|いふく}→衣服：01825_ifuku⟧⟦に→に：00314_ni⟧{付着|ふちゃく}しやすい⟦{季節|きせつ}→季節：01304_kisetsu⟧だ。",
       "english": "It's a season when pollen easily sticks to clothing.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11549_fuchaku_ex3",
-      "japanese": "{壁|かべ}に{付着|ふちゃく}した{塗料|とりょう}を{丁寧|ていねい}に{剥|は}がした。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧{付着|ふちゃく}⟦した→する：00392_suru⟧⟦{塗料|とりょう}→塗料：24548_toryou⟧⟦を→を：00422_wo⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{剥|は}がした→剥がす：00081_hagasu⟧。",
       "english": "I carefully peeled off the paint that had stuck to the wall.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A relatively formal word used in technical, scientific, and news contexts. In everyday speech, くっつく or つく is more natural. The particle に marks the surface something sticks to, while が marks the substance that adheres.\n\nCOMMON COLLOCATIONS:\n- {汚|よご}れが{付着|ふちゃく}する (dirt sticks to)\n- {細菌|さいきん}が{付着|ふちゃく}する (bacteria adhere to)\n- {付着|ふちゃく}{物|ぶつ} (adhered substance, deposit)\n- {付着|ふちゃく}{力|りょく} (adhesive force)",
+  "notes": "A relatively formal word used in technical, scientific, and news contexts. In everyday speech, ⟦くっつく→くっつく：10317_kuttsuku⟧ or つく is more natural. The particle ⟦に→に：00314_ni⟧ marks the surface something sticks to, while ⟦が→が：00051_ga⟧ marks the substance that adheres.\n\nCOMMON COLLOCATIONS:\n- ⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦が→が：00051_ga⟧{付着|ふちゃく}⟦する→する：00392_suru⟧ (dirt sticks to)\n- ⟦{細菌|さいきん}→細菌：13791_saikin⟧⟦が→が：00051_ga⟧{付着|ふちゃく}⟦する→する：00392_suru⟧ (bacteria adhere to)\n- {付着|ふちゃく}⟦{物|ぶつ}→〜物：28336_butsu⟧ (adhered substance, deposit)\n- {付着|ふちゃく}{力|りょく} (adhesive force)",
   "cross_references": [
     {
       "type": "contrast",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-02-17T13:14:19Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -159,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

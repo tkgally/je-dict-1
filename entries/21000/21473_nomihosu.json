@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21473_nomihosu_ex1",
-      "japanese": "ビールを{一気|いっき}に{飲|の}み{干|ほ}した。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧{飲|の}み{干|ほ}した。",
       "english": "I drained the beer in one gulp.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21473_nomihosu_ex2",
-      "japanese": "{冷|つめ}たい{水|みず}をコップ{一杯|いっぱい}{飲|の}み{干|ほ}した。",
+      "japanese": "⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦コップ→コップ：00862_koppu⟧⟦{一杯|いっぱい}→一杯：01793_ippai⟧{飲|の}み{干|ほ}した。",
       "english": "I drank up a whole glass of cold water.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21473_nomihosu_ex3",
-      "japanese": "{彼|かれ}は{残|のこ}っていたワインを{最後|さいご}の{一滴|いってき}まで{飲|の}み{干|ほ}してからグラスを{置|お}いた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{残|のこ}っていた→残る：01187_nokoru⟧⟦ワイン→ワイン：01067_wain⟧⟦を→を：00422_wo⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧⟦{一滴|いってき}→一滴：08893_itteki⟧⟦まで→まで：00490_made⟧{飲|の}み{干|ほ}して⟦から→から：00504_kara⟧⟦グラス→グラス：00076_gurasu⟧⟦を→を：00422_wo⟧⟦{置|お}いた→置く：01092_oku⟧。",
       "english": "He drained the remaining wine to the last drop before setting down his glass.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {飲|の}む (to drink) + {干|ほ}す (to dry out). The {干|ほ}す component adds the meaning of completely finishing or emptying a container of liquid.\n\nUSAGE:\n- Emphasizes drinking everything without leaving any behind\n- Often used with {一気|いっき}に (in one go) for dramatic effect\n- Can imply a bold or determined manner of drinking\n\nCOMMON COLLOCATIONS:\n- ビールを{飲|の}み{干|ほ}す: to drain a beer\n- {一気|いっき}に{飲|の}み{干|ほ}す: to chug; to drain in one gulp\n- {最後|さいご}の{一滴|いってき}まで{飲|の}み{干|ほ}す: to drink to the last drop\n- グラスを{飲|の}み{干|ほ}す: to empty a glass\n\nSIMILAR WORDS:\n- {飲|の}む: the basic verb for drinking; does not imply finishing\n- {飲|の}み{切|き}る: to drink completely; similar meaning but less vivid\n- がぶ{飲|の}みする: to gulp down; emphasizes the rough manner of drinking rather than completeness",
+  "notes": "A compound verb formed from ⟦{飲|の}む→飲む：00322_nomu⟧ (to drink) + ⟦{干|ほ}す→干す：00115_hosu⟧ (to dry out). The ⟦{干|ほ}す→干す：00115_hosu⟧ component adds the meaning of completely finishing or emptying a container of liquid.\n\nUSAGE:\n- Emphasizes drinking everything without leaving any behind\n- Often used with ⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧ (in one go) for dramatic effect\n- Can imply a bold or determined manner of drinking\n\nCOMMON COLLOCATIONS:\n- ⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧{飲|の}み{干|ほ}す: to drain a beer\n- ⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧{飲|の}み{干|ほ}す: to chug; to drain in one gulp\n- ⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧⟦{一滴|いってき}→一滴：08893_itteki⟧⟦まで→まで：00490_made⟧{飲|の}み{干|ほ}す: to drink to the last drop\n- ⟦グラス→グラス：00076_gurasu⟧⟦を→を：00422_wo⟧{飲|の}み{干|ほ}す: to empty a glass\n\nSIMILAR WORDS:\n- ⟦{飲|の}む→飲む：00322_nomu⟧: the basic verb for drinking; does not imply finishing\n- ⟦{飲|の}み{切|き}る→飲み切る：26965_nomikiru⟧: to drink completely; similar meaning but less vivid\n- がぶ{飲|の}み⟦する→する：00392_suru⟧: to gulp down; emphasizes the rough manner of drinking rather than completeness",
   "cross_references": [
     {
       "type": "contrast",
@@ -91,9 +91,10 @@
       ],
       "register": [],
       "usage": [],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "godan",

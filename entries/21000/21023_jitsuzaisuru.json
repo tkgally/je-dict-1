@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21023_jitsuzaisuru_ex1",
-      "japanese": "この{人物|じんぶつ}は{実在|じつざい}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦は→は：00079_ha⟧{実在|じつざい}する。",
       "english": "This person actually exists.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21023_jitsuzaisuru_ex2",
-      "japanese": "{実在|じつざい}した{事件|じけん}をもとにした{映画|えいが}です。",
+      "japanese": "{実在|じつざい}した⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧もとにした⟦{映画|えいが}→映画：02273_eiga⟧です。",
       "english": "It's a movie based on a real incident.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21023_jitsuzaisuru_ex3",
-      "japanese": "この{小説|しょうせつ}に{登場|とうじょう}する{町|まち}は{実在|じつざい}しないが、モデルとなった{場所|ばしょ}はある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦に→に：00314_ni⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦する→する：00392_suru⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧{実在|じつざい}しない⟦が→が：00051_ga⟧、⟦モデル→モデル：05112_moderu⟧⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦は→は：00079_ha⟧⟦ある→ある：00006_aru⟧。",
       "english": "The town in this novel doesn't actually exist, but there is a place it was modeled on.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes that something exists in the real world rather than being fictional or imaginary. The noun form {実在|じつざい} is also commonly used as a modifier.\n\nCOMMON COLLOCATIONS:\n- {実在|じつざい}の{人物|じんぶつ}: a real person\n- {実在|じつざい}の{事件|じけん}: a real incident\n- {実在|じつざい}する{場所|ばしょ}: a place that actually exists\n- {実在|じつざい}した{歴史上|れきしじょう}の{人物|じんぶつ}: a historical person who actually lived\n\nSIMILAR WORDS:\n- {存在|そんざい}する: to exist — broader and more general; simply states that something exists without the emphasis on being real vs. fictional\n- {現存|げんそん}する: to still exist, to survive — emphasizes that something from the past continues to exist today\n\nUSAGE:\nVery common in discussions of fiction, historical writing, and journalism, where the distinction between real and fictional is important. Often seen in disclaimers: この{物語|ものがたり}は{実在|じつざい}の{人物|じんぶつ}・{団体|だんたい}とは{関係|かんけい}ありません (This story has no connection to real persons or organizations).",
+  "notes": "Emphasizes that something exists in the real world rather than being fictional or imaginary. The noun form ⟦{実在|じつざい}→実在：12299_jitsuzai⟧ is also commonly used as a modifier.\n\nCOMMON COLLOCATIONS:\n- ⟦{実在|じつざい}→実在：12299_jitsuzai⟧⟦の→の：09472_no⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: a real person\n- ⟦{実在|じつざい}→実在：12299_jitsuzai⟧⟦の→の：09472_no⟧⟦{事件|じけん}→事件：01568_jiken⟧: a real incident\n- {実在|じつざい}する⟦{場所|ばしょ}→場所：00829_basho⟧: a place that actually exists\n- {実在|じつざい}した⟦{歴史上|れきしじょう}→歴史上：24044_rekishijou⟧⟦の→の：09472_no⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: a historical person who actually lived\n\nSIMILAR WORDS:\n- ⟦{存在|そんざい}する→存在する：17185_sonzaisuru⟧: to exist — broader and more general; simply states that something exists without the emphasis on being real vs. fictional\n- ⟦{現存|げんそん}→現存：13544_genson⟧⟦する→する：00392_suru⟧: to still exist, to survive — emphasizes that something from the past continues to exist today\n\nUSAGE:\nVery common in discussions of fiction, historical writing, and journalism, where the distinction between real and fictional is important. Often seen in disclaimers: ⟦この→この：00962_kono⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧⟦{実在|じつざい}→実在：12299_jitsuzai⟧⟦の→の：09472_no⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧・⟦{団体|だんたい}→団体：03426_dantai⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦ありません→ある：00006_aru⟧ (This story has no connection to real persons or organizations).",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,10 +74,11 @@
       "semantic": [
         "existence"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-31T15:27:29Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

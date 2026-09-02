@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19210_shittou_ex1",
-      "japanese": "{名医|めいい}が{執刀|しっとう}した。",
+      "japanese": "⟦{名医|めいい}→名医：30719_meii⟧⟦が→が：00051_ga⟧{執刀|しっとう}⟦した→する：00392_suru⟧。",
       "english": "A renowned doctor performed the surgery.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19210_shittou_ex2",
-      "japanese": "{執刀医|しっとうい}は{経験|けいけん}{豊富|ほうふ}な{外科医|げかい}だ。",
+      "japanese": "⟦{執刀医|しっとうい}→執刀医：17895_shittoui⟧⟦は→は：00079_ha⟧⟦{経験|けいけん}{豊富|ほうふ}→経験豊富：19017_keikenhoufu⟧な⟦{外科医|げかい}→外科医：21001_gekai⟧だ。",
       "english": "The lead surgeon is an experienced surgeon.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19210_shittou_ex3",
-      "japanese": "12{時間|じかん}にわたる{大手術|だいしゅじゅつ}を{執刀|しっとう}し、{患者|かんじゃ}の{命|いのち}を{救|すく}った。",
+      "japanese": "12⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧わたる{大手術|だいしゅじゅつ}⟦を→を：00422_wo⟧{執刀|しっとう}し、⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧⟦{救|すく}った→救う：02063_sukuu⟧。",
       "english": "The surgeon performed a 12-hour major operation and saved the patient's life.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {執|しつ} (carry out, execute) + {刀|とう} (blade, sword — here referring to the surgical scalpel). The term literally means 'to take up the blade.' Common collocations: {執刀|しっとう}する (to perform surgery), {執刀医|しっとうい} (lead surgeon/operating surgeon), {執刀|しっとう}を{担当|たんとう}する (to be in charge of the operation). {執刀医|しっとうい} specifically refers to the lead surgeon who performs the actual cutting, distinct from {助手|じょしゅ} (surgical assistant) and {麻酔科医|ますいかい} (anesthesiologist). Commonly seen in medical dramas and news reports about surgeries.",
+  "notes": "Composed of {執|しつ} (carry out, execute) + {刀|とう} (blade, sword — here referring to the surgical scalpel). The term literally means 'to take up the blade.' Common collocations: {執刀|しっとう}⟦する→する：00392_suru⟧ (to perform surgery), ⟦{執刀医|しっとうい}→執刀医：17895_shittoui⟧ (lead surgeon/operating surgeon), {執刀|しっとう}⟦を→を：00422_wo⟧⟦{担当|たんとう}→担当：02567_tantou⟧⟦する→する：00392_suru⟧ (to be in charge of the operation). ⟦{執刀医|しっとうい}→執刀医：17895_shittoui⟧ specifically refers to the lead surgeon who performs the actual cutting, distinct from ⟦{助手|じょしゅ}→助手：03352_joshu⟧ (surgical assistant) and {麻酔科医|ますいかい} (anesthesiologist). Commonly seen in medical dramas and news reports about surgeries.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -155,6 +155,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T14:04:17Z",
-    "modified": "2026-09-02T02:55:16Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

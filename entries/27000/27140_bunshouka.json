@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27140_bunshouka_ex1",
-      "japanese": "{会議|かいぎ}の{内容|ないよう}を{文章化|ぶんしょうか}する。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧{文章化|ぶんしょうか}⟦する→する：00392_suru⟧。",
       "english": "To put the meeting's contents into writing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27140_bunshouka_ex2",
-      "japanese": "{口頭|こうとう}での{約束|やくそく}を{文章化|ぶんしょうか}しておいた{方|ほう}がいい。",
+      "japanese": "⟦{口頭|こうとう}→口頭：11892_koutou⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧{文章化|ぶんしょうか}⟦して→する：00392_suru⟧おいた⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "It's better to put verbal agreements into writing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27140_bunshouka_ex3",
-      "japanese": "{暗黙|あんもく}のルールを{文章化|ぶんしょうか}して{全員|ぜんいん}に{共有|きょうゆう}した。",
+      "japanese": "⟦{暗黙|あんもく}→暗黙：12876_anmoku⟧⟦の→の：09472_no⟧⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧{文章化|ぶんしょうか}⟦して→する：00392_suru⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦に→に：00314_ni⟧⟦{共有|きょうゆう}した→共有する：19639_kyouyuusuru⟧。",
       "english": "We documented the unwritten rules and shared them with everyone.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines {文章|ぶんしょう} (writing/text) and {化|か} (transformation/conversion). The {化|か} suffix is highly productive and creates verbs meaning \"to convert to\" or \"to make into.\" {文章化|ぶんしょうか} is commonly used in business and organizational contexts when formalizing rules, procedures, or agreements.\n\nCOMMON COLLOCATIONS:\n- {文章化|ぶんしょうか}する: to put into writing, to document\n- ルールを{文章化|ぶんしょうか}する: to document rules\n- {文章化|ぶんしょうか}された{規則|きそく}: documented rules\n\nSIMILAR WORDS:\n- {文書化|ぶんしょか}: documentation — very close synonym, slightly more formal/bureaucratic\n- {書面化|しょめんか}: putting into written form — emphasizes the official document\n- {言語化|げんごか}: verbalization — putting thoughts into words (spoken or written)",
+  "notes": "Combines ⟦{文章|ぶんしょう}→文章：02957_bunshou⟧ (writing/text) and ⟦{化|か}→〜化：28335_ka⟧ (transformation/conversion). The ⟦{化|か}→〜化：28335_ka⟧ suffix is highly productive and creates verbs meaning \"to convert to\" or \"to make into.\" {文章化|ぶんしょうか} is commonly used in business and organizational contexts when formalizing rules, procedures, or agreements.\n\nCOMMON COLLOCATIONS:\n- {文章化|ぶんしょうか}⟦する→する：00392_suru⟧: to put into writing, to document\n- ⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧{文章化|ぶんしょうか}⟦する→する：00392_suru⟧: to document rules\n- {文章化|ぶんしょうか}⟦された→する：00392_suru⟧⟦{規則|きそく}→規則：01382_kisoku⟧: documented rules\n\nSIMILAR WORDS:\n- ⟦{文書化|ぶんしょか}→文書化：23170_bunshoka⟧: documentation — very close synonym, slightly more formal/bureaucratic\n- {書面化|しょめんか}: putting into written form — emphasizes the official document\n- ⟦{言語化|げんごか}→言語化：20608_gengoka⟧: verbalization — putting thoughts into words (spoken or written)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "communication",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-07T12:20:58Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "suru",

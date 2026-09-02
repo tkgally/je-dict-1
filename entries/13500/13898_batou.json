@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13898_batou_ex1",
-      "japanese": "{相手|あいて}を{罵倒|ばとう}する。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{罵倒|ばとう}⟦する→する：00392_suru⟧。",
       "english": "To verbally abuse one's opponent.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13898_batou_ex2",
-      "japanese": "{彼|かれ}は{審判|しんぱん}の{判定|はんてい}に{怒|おこ}り、{罵倒|ばとう}の{言葉|ことば}を{浴|あ}びせた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{審判|しんぱん}→審判：03331_shinpan⟧⟦の→の：09472_no⟧⟦{判定|はんてい}→判定：09767_hantei⟧⟦に→に：00314_ni⟧⟦{怒|おこ}り→怒る：00876_okoru⟧、{罵倒|ばとう}⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧{浴|あ}びせた。",
       "english": "He was angry at the referee's call and showered him with abusive language.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13898_batou_ex3",
-      "japanese": "ネット{上|じょう}で{見知|みし}らぬ{人|ひと}を{罵倒|ばとう}するような{行為|こうい}は{決|けっ}して{許|ゆる}されるべきではない。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦{上|じょう}→〜上：30365_jou⟧⟦で→で：00502_de⟧⟦{見知|みし}らぬ{人|ひと}→見知らぬ人：26016_mishiranuhito⟧⟦を→を：00422_wo⟧{罵倒|ばとう}⟦する→する：00392_suru⟧ような⟦{行為|こうい}→行為：10021_koui⟧⟦は→は：00079_ha⟧⟦{決|けっ}して→決して：01254_kesshite⟧⟦{許|ゆる}される→許す：02325_yurusu⟧べきで⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Verbally abusing strangers online should never be tolerated.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA strong word that implies intense verbal aggression. More severe than {批判|ひはん} (criticism) or {非難|ひなん} (blame/condemnation). Often appears in news reports about confrontations, online harassment, or heated arguments.\n\nCOMMON COLLOCATIONS:\n- {罵倒|ばとう}する: to verbally abuse\n- {罵倒|ばとう}の{言葉|ことば}: abusive words\n- {罵倒|ばとう}を{浴|あ}びせる: to hurl abuse at\n- {罵倒|ばとう}を{受|う}ける: to be subjected to verbal abuse",
+  "notes": "USAGE:\nA strong word that implies intense verbal aggression. More severe than ⟦{批判|ひはん}→批判：03580_hihan⟧ (criticism) or ⟦{非難|ひなん}→非難：14616_hinan⟧ (blame/condemnation). Often appears in news reports about confrontations, online harassment, or heated arguments.\n\nCOMMON COLLOCATIONS:\n- {罵倒|ばとう}⟦する→する：00392_suru⟧: to verbally abuse\n- {罵倒|ばとう}⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧: abusive words\n- {罵倒|ばとう}⟦を→を：00422_wo⟧{浴|あ}びせる: to hurl abuse at\n- {罵倒|ばとう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to be subjected to verbal abuse",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T06:30:51Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27744_sekitsuidoubutsu_ex1",
-      "japanese": "{魚|さかな}は{脊椎|せきつい}{動物|どうぶつ}だ。",
+      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦は→は：00079_ha⟧{脊椎|せきつい}{動物|どうぶつ}だ。",
       "english": "Fish are vertebrates.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27744_sekitsuidoubutsu_ex2",
-      "japanese": "{脊椎|せきつい}{動物|どうぶつ}には{背骨|せぼね}がある。",
+      "japanese": "{脊椎|せきつい}{動物|どうぶつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{背骨|せぼね}→背骨：17397_sebone⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Vertebrates have a backbone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27744_sekitsuidoubutsu_ex3",
-      "japanese": "{鳥|とり}や{哺乳類|ほにゅうるい}はすべて{脊椎|せきつい}{動物|どうぶつ}に{分類|ぶんるい}される。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧や⟦{哺乳類|ほにゅうるい}→哺乳類：04920_honyuurui⟧⟦は→は：00079_ha⟧すべて{脊椎|せきつい}{動物|どうぶつ}⟦に→に：00314_ni⟧⟦{分類|ぶんるい}される→分類する：25224_bunruisuru⟧。",
       "english": "Birds and mammals are all classified as vertebrates.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {脊椎|せきつい} (spine, vertebrae) + {動物|どうぶつ} (animal). A biology term for animals that have an internal backbone.\n\nRELATED WORDS:\n- {無脊椎|むせきつい}{動物|どうぶつ}: invertebrate — animals without a backbone, such as insects and shellfish; the direct antonym\n- {背骨|せぼね}: backbone; spine\n- {哺乳類|ほにゅうるい}: mammals — one group of vertebrates",
+  "notes": "Composed of ⟦{脊椎|せきつい}→脊椎：06006_sekitsui⟧ (spine, vertebrae) + ⟦{動物|どうぶつ}→動物：01480_doubutsu⟧ (animal). A biology term for animals that have an internal backbone.\n\nRELATED WORDS:\n- ⟦{無脊椎|むせきつい}{動物|どうぶつ}→無脊椎動物：30037_musekitsuidoubutsu⟧: invertebrate — animals without a backbone, such as insects and shellfish; the direct antonym\n- ⟦{背骨|せぼね}→背骨：17397_sebone⟧: backbone; spine\n- ⟦{哺乳類|ほにゅうるい}→哺乳類：04920_honyuurui⟧: mammals — one group of vertebrates",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -85,6 +85,6 @@
       ]
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

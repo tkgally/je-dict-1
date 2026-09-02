@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28803_shutsudou_ex1",
-      "japanese": "{消防車|しょうぼうしゃ}が{出動|しゅつどう}した。",
+      "japanese": "⟦{消防車|しょうぼうしゃ}→消防車：05078_shoubousha⟧⟦が→が：00051_ga⟧{出動|しゅつどう}⟦した→する：00392_suru⟧。",
       "english": "A fire truck was dispatched.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28803_shutsudou_ex2",
-      "japanese": "パトカーが{現場|げんば}に{出動|しゅつどう}した。",
+      "japanese": "⟦パトカー→パトカー：05079_patokaa⟧⟦が→が：00051_ga⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧{出動|しゅつどう}⟦した→する：00392_suru⟧。",
       "english": "A patrol car was deployed to the scene.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28803_shutsudou_ex3",
-      "japanese": "{昨年度|さくねんど}の{救急車|きゅうきゅうしゃ}{出動件数|しゅつどうけんすう}は{過去最高|かこさいこう}を{記録|きろく}した。",
+      "japanese": "{昨年度|さくねんど}⟦の→の：09472_no⟧⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧{出動件数|しゅつどうけんすう}⟦は→は：00079_ha⟧{過去最高|かこさいこう}⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "The number of ambulance dispatches last fiscal year hit an all-time high.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {出|しゅつ} (go out) + {動|どう} (move, act). Used with する to form a suru-verb. The subject is typically the responding vehicle or unit ({救急車|きゅうきゅうしゃ}が{出動|しゅつどう}する), not the individual responder.\n\nCOMMON COLLOCATIONS:\n- {現場|げんば}に{出動|しゅつどう}する: to be deployed to the scene\n- {出動|しゅつどう}{要請|ようせい}: a request for dispatch\n- {出動件数|しゅつどうけんすう}: number of dispatches (statistic)\n- {緊急|きんきゅう}{出動|しゅつどう}: emergency dispatch\n\nTYPICAL SUBJECTS:\n- {救急車|きゅうきゅうしゃ} (ambulance), {消防車|しょうぼうしゃ} (fire truck), パトカー (patrol car), {自衛隊|じえいたい} (Self-Defense Forces)",
+  "notes": "Compound of {出|しゅつ} (go out) + {動|どう} (move, act). Used with ⟦する→する：00392_suru⟧ to form a suru-verb. The subject is typically the responding vehicle or unit (⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦が→が：00051_ga⟧{出動|しゅつどう}⟦する→する：00392_suru⟧), not the individual responder.\n\nCOMMON COLLOCATIONS:\n- ⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧{出動|しゅつどう}⟦する→する：00392_suru⟧: to be deployed to the scene\n- {出動|しゅつどう}⟦{要請|ようせい}→要請：05463_yousei⟧: a request for dispatch\n- {出動件数|しゅつどうけんすう}: number of dispatches (statistic)\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{出動|しゅつどう}: emergency dispatch\n\nTYPICAL SUBJECTS:\n- ⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧ (ambulance), ⟦{消防車|しょうぼうしゃ}→消防車：05078_shoubousha⟧ (fire truck), ⟦パトカー→パトカー：05079_patokaa⟧ (patrol car), ⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧ (Self-Defense Forces)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-05T04:08:23Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

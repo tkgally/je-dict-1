@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07645_keigaika_ex1",
-      "japanese": "{規則|きそく}が{形骸化|けいがいか}している。",
+      "japanese": "⟦{規則|きそく}→規則：01382_kisoku⟧⟦が→が：00051_ga⟧{形骸化|けいがいか}⟦している→する：00392_suru⟧。",
       "english": "The rules have become nominal.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07645_keigaika_ex2",
-      "japanese": "{会議|かいぎ}が{形骸化|けいがいか}して{意味|いみ}がなくなった。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧{形骸化|けいがいか}⟦して→する：00392_suru⟧⟦{意味|いみ}→意味：01155_imi⟧⟦が→が：00051_ga⟧なくなった。",
       "english": "The meetings have become empty formalities and lost their meaning.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07645_keigaika_ex3",
-      "japanese": "{伝統|でんとう}{行事|ぎょうじ}の{形骸化|けいがいか}を{防|ふせ}ぐ。",
+      "japanese": "⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦{行事|ぎょうじ}→行事：00078_gyouji⟧⟦の→の：09472_no⟧{形骸化|けいがいか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧。",
       "english": "To prevent traditional events from becoming mere formalities.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {規則|きそく}の{形骸化|けいがいか} - rules becoming nominal\n- {制度|せいど}の{形骸化|けいがいか} - system becoming an empty shell\n- {形骸化|けいがいか}を{防|ふせ}ぐ - to prevent from becoming hollow\n- {形骸化|けいがいか}した{組織|そしき} - an organization that has lost its substance\n\nETYMOLOGY:\n{形骸|けいがい} means \"skeleton\" or \"mere shell,\" so {形骸化|けいがいか} literally means \"to become a skeleton/shell.\"\n\nUSAGE:\nAlways negative - implies something has degenerated from meaningful to meaningless.\n\nRELATED -{化|か} WORDS:\n- {空洞化|くうどうか} - hollowing out\n- {陳腐化|ちんぷか} - becoming obsolete",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{規則|きそく}→規則：01382_kisoku⟧⟦の→の：09472_no⟧{形骸化|けいがいか} - rules becoming nominal\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧{形骸化|けいがいか} - system becoming an empty shell\n- {形骸化|けいがいか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ - to prevent from becoming hollow\n- {形骸化|けいがいか}⟦した→する：00392_suru⟧⟦{組織|そしき}→組織：03320_soshiki⟧ - an organization that has lost its substance\n\nETYMOLOGY:\n{形骸|けいがい} means \"skeleton\" or \"mere shell,\" so {形骸化|けいがいか} literally means \"to become a skeleton/shell.\"\n\nUSAGE:\nAlways negative - implies something has degenerated from meaningful to meaningless.\n\nRELATED -{化|か} WORDS:\n- ⟦{空洞化|くうどうか}→空洞化：08025_kuudouka⟧ - hollowing out\n- ⟦{陳腐化|ちんぷか}→陳腐化：08027_chinpuka⟧ - becoming obsolete",
   "cross_references": [
     {
       "type": "related",
@@ -170,7 +170,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -186,7 +186,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

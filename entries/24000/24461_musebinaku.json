@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24461_musebinaku_ex1",
-      "japanese": "{彼女|かのじょ}はむせび{泣|な}いた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧むせび{泣|な}いた。",
       "english": "She sobbed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24461_musebinaku_ex2",
-      "japanese": "{悲|かな}しみのあまり、むせび{泣|な}く{声|こえ}が{聞|き}こえた。",
+      "japanese": "⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧⟦の→の：09472_no⟧あまり、むせび{泣|な}く⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "Overcome with grief, the sound of sobbing could be heard.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24461_musebinaku_ex3",
-      "japanese": "{母親|ははおや}は{息子|むすこ}の{手紙|てがみ}を{読|よ}みながら、{静|しず}かにむせび{泣|な}いていた。",
+      "japanese": "⟦{母親|ははおや}→母親：03564_hahaoya⟧⟦は→は：00079_ha⟧⟦{息子|むすこ}→息子：00799_musuko⟧⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦{読|よ}み→読む：00426_yomu⟧⟦ながら→ながら：10530_nagara⟧、⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧むせび{泣|な}いて⟦いた→いる：00495_iru⟧。",
       "english": "The mother was quietly sobbing as she read her son's letter.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of むせぶ (to choke, to be choked with emotion) and {泣|な}く (to cry). Describes intense crying where emotion constricts the throat, causing gasping or choking between sobs. Frequently used in literature and emotional narration.\n\nCOMMON COLLOCATIONS:\n- むせび{泣|な}く{声|こえ}: the sound of sobbing\n- {静|しず}かにむせび{泣|な}く: to sob quietly\n- {悲|かな}しみにむせび{泣|な}く: to sob with grief\n\nSIMILAR WORDS:\n- {泣|な}く: to cry (general, neutral)\n- すすり{泣|な}く: to sniffle, cry softly (quieter, more restrained)\n- {号泣|ごうきゅう}する: to wail, cry loudly (louder and more dramatic)\n- しくしく{泣|な}く: to cry softly and continuously (onomatopoeic)",
+  "notes": "A compound of むせぶ (to choke, to be choked with emotion) and ⟦{泣|な}く→泣く：00655_naku⟧ (to cry). Describes intense crying where emotion constricts the throat, causing gasping or choking between sobs. Frequently used in literature and emotional narration.\n\nCOMMON COLLOCATIONS:\n- むせび{泣|な}く⟦{声|こえ}→声：02207_koe⟧: the sound of sobbing\n- ⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧むせび{泣|な}く: to sob quietly\n- ⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧⟦に→に：00314_ni⟧むせび{泣|な}く: to sob with grief\n\nSIMILAR WORDS:\n- ⟦{泣|な}く→泣く：00655_naku⟧: to cry (general, neutral)\n- ⟦すすり{泣|な}く→すすり泣く：16789_susurinaku⟧: to sniffle, cry softly (quieter, more restrained)\n- ⟦{号泣|ごうきゅう}する→号泣する：18377_goukyuusuru⟧: to wail, cry loudly (louder and more dramatic)\n- ⟦しくしく→しくしく：05373_shikushiku⟧⟦{泣|な}く→泣く：00655_naku⟧: to cry softly and continuously (onomatopoeic)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -80,10 +80,11 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-19T11:14:18Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "godan",

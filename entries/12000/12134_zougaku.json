@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12134_zougaku_ex1",
-      "japanese": "{予算|よさん}を{増額|ぞうがく}する。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{増額|ぞうがく}⟦する→する：00392_suru⟧。",
       "english": "To increase the budget.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12134_zougaku_ex2",
-      "japanese": "{給与|きゅうよ}の{増額|ぞうがく}を{要求|ようきゅう}した。",
+      "japanese": "⟦{給与|きゅうよ}→給与：00264_kyuuyo⟧⟦の→の：09472_no⟧{増額|ぞうがく}⟦を→を：00422_wo⟧⟦{要求|ようきゅう}した→要求する：25533_youkyuusuru⟧。",
       "english": "I requested a salary increase.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12134_zougaku_ex3",
-      "japanese": "{政府|せいふ}は{防衛費|ぼうえいひ}の{大幅|おおはば}な{増額|ぞうがく}を{決定|けってい}し、{国会|こっかい}で{議論|ぎろん}を{呼|よ}んでいる。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{防衛費|ぼうえいひ}⟦の→の：09472_no⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{増額|ぞうがく}⟦を→を：00422_wo⟧⟦{決定|けってい}→決定：02701_kettei⟧し、⟦{国会|こっかい}→国会：02761_kokkai⟧⟦で→で：00502_de⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦を→を：00422_wo⟧⟦{呼|よ}んでいる→呼ぶ：00766_yobu⟧。",
       "english": "The government decided on a significant increase in defense spending, sparking debate in parliament.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{増額|ぞうがく} refers specifically to increases in monetary amounts. It is distinct from {増加|ぞうか} (general increase in quantity) and {値上|ねあ}げ (price hike for consumers). {増額|ぞうがく} is used for budgets, salaries, investments, and other financial figures.\n\nCOMMON COLLOCATIONS:\n- {予算|よさん}の{増額|ぞうがく}: budget increase\n- {給与|きゅうよ}の{増額|ぞうがく}: salary increase\n- {大幅|おおはば}な{増額|ぞうがく}: significant increase\n- {増額|ぞうがく}を{要求|ようきゅう}する: to demand an increase",
+  "notes": "USAGE:\n{増額|ぞうがく} refers specifically to increases in monetary amounts. It is distinct from ⟦{増加|ぞうか}→増加：03329_zouka⟧ (general increase in quantity) and ⟦{値上|ねあ}げ→値上げ：07582_neage⟧ (price hike for consumers). {増額|ぞうがく} is used for budgets, salaries, investments, and other financial figures.\n\nCOMMON COLLOCATIONS:\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧{増額|ぞうがく}: budget increase\n- ⟦{給与|きゅうよ}→給与：00264_kyuuyo⟧⟦の→の：09472_no⟧{増額|ぞうがく}: salary increase\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{増額|ぞうがく}: significant increase\n- {増額|ぞうがく}⟦を→を：00422_wo⟧⟦{要求|ようきゅう}する→要求する：25533_youkyuusuru⟧: to demand an increase",
   "cross_references": [
     {
       "type": "antonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T08:56:51Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -176,7 +176,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

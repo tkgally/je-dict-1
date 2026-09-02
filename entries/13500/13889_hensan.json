@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13889_hensan_ex1",
-      "japanese": "{辞書|じしょ}を{編纂|へんさん}する。",
+      "japanese": "⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦を→を：00422_wo⟧{編纂|へんさん}⟦する→する：00392_suru⟧。",
       "english": "To compile a dictionary.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13889_hensan_ex2",
-      "japanese": "この{百科事典|ひゃっかじてん}の{編纂|へんさん}には{十年|じゅうねん}かかった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{百科事典|ひゃっかじてん}→百科事典：05144_hyakkajiten⟧⟦の→の：09472_no⟧{編纂|へんさん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{十年|じゅうねん}⟦かかった→かかる：00711_kakaru⟧。",
       "english": "The compilation of this encyclopedia took ten years.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13889_hensan_ex3",
-      "japanese": "{大学|だいがく}の{研究|けんきゅう}チームが{地域|ちいき}の{歴史|れきし}{資料|しりょう}を{集|あつ}めて{郷土史|きょうどし}を{編纂|へんさん}している。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧⟦{集|あつ}めて→集める：01170_atsumeru⟧{郷土史|きょうどし}⟦を→を：00422_wo⟧{編纂|へんさん}⟦している→する：00392_suru⟧。",
       "english": "A university research team is compiling a local history by collecting regional historical materials.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, literary word associated with large-scale scholarly projects. Implies a more systematic and authoritative effort than simple {編集|へんしゅう} (editing). Typically used for dictionaries, encyclopedias, histories, and other reference works.\n\nCOMMON COLLOCATIONS:\n- {辞書|じしょ}を{編纂|へんさん}する: to compile a dictionary\n- {百科事典|ひゃっかじてん}の{編纂|へんさん}: compilation of an encyclopedia\n- {歴史|れきし}を{編纂|へんさん}する: to compile a history\n- {編纂|へんさん}{委員会|いいんかい}: editorial/compilation committee",
+  "notes": "USAGE:\nA formal, literary word associated with large-scale scholarly projects. Implies a more systematic and authoritative effort than simple ⟦{編集|へんしゅう}→編集：04439_henshuu⟧ (editing). Typically used for dictionaries, encyclopedias, histories, and other reference works.\n\nCOMMON COLLOCATIONS:\n- ⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦を→を：00422_wo⟧{編纂|へんさん}⟦する→する：00392_suru⟧: to compile a dictionary\n- ⟦{百科事典|ひゃっかじてん}→百科事典：05144_hyakkajiten⟧⟦の→の：09472_no⟧{編纂|へんさん}: compilation of an encyclopedia\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧{編纂|へんさん}⟦する→する：00392_suru⟧: to compile a history\n- {編纂|へんさん}⟦{委員会|いいんかい}→委員会：12234_iinkai⟧: editorial/compilation committee",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-27T06:27:25Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -157,7 +157,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09863_kisosuru_ex1",
-      "japanese": "{過失|かしつ}{致死|ちし}で{起訴|きそ}された。",
+      "japanese": "⟦{過失|かしつ}→過失：00194_kashitsu⟧⟦{致死|ちし}→致死：10002_chishi⟧⟦で→で：00502_de⟧{起訴|きそ}された。",
       "english": "They were indicted for involuntary manslaughter.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09863_kisosuru_ex2",
-      "japanese": "{検察|けんさつ}は{容疑者|ようぎしゃ}を{起訴|きそ}した。",
+      "japanese": "⟦{検察|けんさつ}→検察：11086_kensatsu⟧⟦は→は：00079_ha⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦を→を：00422_wo⟧{起訴|きそ}した。",
       "english": "The prosecution indicted the suspect.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09863_kisosuru_ex3",
-      "japanese": "{証拠|しょうこ}{不十分|ふじゅうぶん}で{不起訴|ふきそ}になった。",
+      "japanese": "⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦{不十分|ふじゅうぶん}→不十分：05616_fujuubun⟧で⟦{不起訴|ふきそ}→不起訴：23352_fukiso⟧になった。",
       "english": "The case was dropped due to insufficient evidence.",
       "notes": "{不起訴|ふきそ} means non-prosecution/not indicted.",
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{起訴|きそ}する means to indict or prosecute someone in a legal context.\n\nCOMMON PATTERNS:\n- 〜で{起訴|きそ}される: to be indicted for\n- 〜を{起訴|きそ}する: to indict (someone)\n\nRELATED WORDS:\n- {起訴|きそ}: indictment, prosecution (noun)\n- {不起訴|ふきそ}: non-prosecution, dropping charges\n- {起訴猶予|きそゆうよ}: suspended prosecution\n- {検察|けんさつ}: prosecution\n- {被告|ひこく}: defendant\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: 〜を{起訴|きそ}する / 〜で{起訴|きそ}される",
+  "notes": "{起訴|きそ}する means to indict or prosecute someone in a legal context.\n\nCOMMON PATTERNS:\n- 〜⟦で→で：00502_de⟧{起訴|きそ}される: to be indicted for\n- 〜⟦を→を：00422_wo⟧{起訴|きそ}する: to indict (someone)\n\nRELATED WORDS:\n- ⟦{起訴|きそ}→起訴：10577_kiso⟧: indictment, prosecution (noun)\n- ⟦{不起訴|ふきそ}→不起訴：23352_fukiso⟧: non-prosecution, dropping charges\n- {起訴猶予|きそゆうよ}: suspended prosecution\n- ⟦{検察|けんさつ}→検察：11086_kensatsu⟧: prosecution\n- ⟦{被告|ひこく}→被告：11080_hikoku⟧: defendant\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: 〜⟦を→を：00422_wo⟧{起訴|きそ}する / 〜⟦で→で：00502_de⟧{起訴|きそ}される",
   "cross_references": [
     {
       "type": "related",
@@ -173,7 +173,7 @@
   ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

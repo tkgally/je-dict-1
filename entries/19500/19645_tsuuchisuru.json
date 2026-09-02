@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19645_tsuuchisuru_ex1",
-      "japanese": "{結果|けっか}を{通知|つうち}する。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{通知|つうち}する。",
       "english": "To notify of the results.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19645_tsuuchisuru_ex2",
-      "japanese": "{合格者|ごうかくしゃ}にはメールで{通知|つうち}します。",
+      "japanese": "{合格者|ごうかくしゃ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦メール→メール：04435_meeru⟧⟦で→で：00502_de⟧{通知|つうち}します。",
       "english": "Successful applicants will be notified by email.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19645_tsuuchisuru_ex3",
-      "japanese": "アプリの{通知|つうち}をオフにしたら、{大事|だいじ}な{連絡|れんらく}を{見逃|みのが}してしまった。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦の→の：09472_no⟧⟦{通知|つうち}→通知：04061_tsuuchi⟧⟦を→を：00422_wo⟧⟦オフ→オフ：10733_ofu⟧にしたら、⟦{大事|だいじ}→大事：01253_daiji⟧な⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦を→を：00422_wo⟧⟦{見逃|みのが}して→見逃す：04576_minogasu⟧しまった。",
       "english": "After I turned off app notifications, I missed an important message.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal word used in official contexts as well as in technology (push notifications). The noun form {通知|つうち} is very common in both traditional and modern digital contexts.\n\nCOMMON COLLOCATIONS:\n- {通知|つうち}{書|しょ}: notice, notification letter\n- {通知|つうち}{表|ひょう}: report card (school)\n- プッシュ{通知|つうち}: push notification\n- {事前|じぜん}{通知|つうち}: advance notice\n- {通知|つうち}{設定|せってい}: notification settings\n\nSIMILAR WORDS:\n- {知|し}らせる: to inform, to let know — everyday native Japanese word\n- {通知|つうち}する: to notify — formal, used for official or systematic notifications\n- {連絡|れんらく}する: to contact — broader, includes any kind of getting in touch",
+  "notes": "A formal word used in official contexts as well as in technology (push notifications). The noun form ⟦{通知|つうち}→通知：04061_tsuuchi⟧ is very common in both traditional and modern digital contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{通知|つうち}{書|しょ}→通知書：23842_tsuuchisho⟧: notice, notification letter\n- ⟦{通知|つうち}{表|ひょう}→通知表：08604_tsuuchihyou⟧: report card (school)\n- ⟦プッシュ{通知|つうち}→プッシュ通知：06477_pusshutsuuchi⟧: push notification\n- ⟦{事前|じぜん}→事前：07580_jizen⟧⟦{通知|つうち}→通知：04061_tsuuchi⟧: advance notice\n- ⟦{通知|つうち}{設定|せってい}→通知設定：22571_tsuuchisettei⟧: notification settings\n\nSIMILAR WORDS:\n- ⟦{知|し}らせる→知る：00458_shiru⟧: to inform, to let know — everyday native Japanese word\n- {通知|つうち}する: to notify — formal, used for official or systematic notifications\n- ⟦{連絡|れんらく}する→連絡する：20202_renrakusuru⟧: to contact — broader, includes any kind of getting in touch",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-26T09:39:18Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -164,7 +164,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

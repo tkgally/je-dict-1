@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22505_shiikusuru_ex1",
-      "japanese": "{熱帯魚|ねったいぎょ}を{飼育|しいく}している。",
+      "japanese": "⟦{熱帯魚|ねったいぎょ}→熱帯魚：19146_nettaigyo⟧⟦を→を：00422_wo⟧{飼育|しいく}して⟦いる→いる：00495_iru⟧。",
       "english": "I keep tropical fish.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22505_shiikusuru_ex2",
-      "japanese": "この{動物園|どうぶつえん}では{希少|きしょう}な{動物|どうぶつ}を{飼育|しいく}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{希少|きしょう}→希少：12444_kishou⟧な⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦を→を：00422_wo⟧{飼育|しいく}して⟦いる→いる：00495_iru⟧。",
       "english": "This zoo keeps rare animals.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22505_shiikusuru_ex3",
-      "japanese": "{牛|うし}を{飼育|しいく}するには{広|ひろ}い{土地|とち}と{十分|じゅうぶん}な{飼料|しりょう}が{必要|ひつよう}だ。",
+      "japanese": "⟦{牛|うし}→牛：01857_ushi⟧⟦を→を：00422_wo⟧{飼育|しいく}する⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{広|ひろ}い→広い：00704_hiroi⟧⟦{土地|とち}→土地：02226_tochi⟧⟦と→と：00512_to⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧な⟦{飼料|しりょう}→飼料：19666_shiryou⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Raising cattle requires ample land and sufficient feed.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat formal word for raising or keeping animals. It implies ongoing care and management, and is used more broadly than {飼|か}う, which is the everyday word for keeping a pet. {飼育|しいく}する is preferred in professional, institutional, and scientific contexts such as zoos, farms, and research facilities.\n\nCOMMON COLLOCATIONS:\n- {動物|どうぶつ}を{飼育|しいく}する: to raise animals\n- {家畜|かちく}を{飼育|しいく}する: to raise livestock\n- {飼育|しいく}{環境|かんきょう}: breeding environment\n- {飼育|しいく}{員|いん}: animal caretaker, zookeeper\n- {飼育|しいく}{方法|ほうほう}: rearing method\n\nSIMILAR WORDS:\n- {飼|か}う: to keep (a pet) — the everyday, casual word for having a pet at home\n- {養殖|ようしょく}する: to farm; to cultivate — used for aquaculture (fish, shellfish, seaweed)\n- {育|そだ}てる: to raise; to bring up — a general word that applies to children, plants, and animals alike",
+  "notes": "A somewhat formal word for raising or keeping animals. It implies ongoing care and management, and is used more broadly than ⟦{飼|か}う→飼う：08151_kau⟧, which is the everyday word for keeping a pet. {飼育|しいく}する is preferred in professional, institutional, and scientific contexts such as zoos, farms, and research facilities.\n\nCOMMON COLLOCATIONS:\n- ⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦を→を：00422_wo⟧{飼育|しいく}する: to raise animals\n- ⟦{家畜|かちく}→家畜：06431_kachiku⟧⟦を→を：00422_wo⟧{飼育|しいく}する: to raise livestock\n- ⟦{飼育|しいく}→飼育：06422_shiiku⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧: breeding environment\n- ⟦{飼育|しいく}{員|いん}→飼育員：17861_shiikuin⟧: animal caretaker, zookeeper\n- ⟦{飼育|しいく}→飼育：06422_shiiku⟧⟦{方法|ほうほう}→方法：03621_houhou⟧: rearing method\n\nSIMILAR WORDS:\n- ⟦{飼|か}う→飼う：08151_kau⟧: to keep (a pet) — the everyday, casual word for having a pet at home\n- ⟦{養殖|ようしょく}→養殖：08648_youshoku⟧⟦する→する：00392_suru⟧: to farm; to cultivate — used for aquaculture (fish, shellfish, seaweed)\n- ⟦{育|そだ}てる→育てる：01235_sodateru⟧: to raise; to bring up — a general word that applies to children, plants, and animals alike",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -83,10 +83,11 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T16:51:05Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

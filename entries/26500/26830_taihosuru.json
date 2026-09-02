@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26830_taihosuru_ex1",
-      "japanese": "{容疑者|ようぎしゃ}を{逮捕|たいほ}する。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦を→を：00422_wo⟧{逮捕|たいほ}する。",
       "english": "To arrest the suspect.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26830_taihosuru_ex2",
-      "japanese": "{警察|けいさつ}は{犯人|はんにん}をその{場|ば}で{逮捕|たいほ}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦で→で：00502_de⟧{逮捕|たいほ}した。",
       "english": "The police arrested the culprit on the spot.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26830_taihosuru_ex3",
-      "japanese": "{詐欺|さぎ}の{疑|うたが}いで{男|おとこ}が{逮捕|たいほ}された。",
+      "japanese": "⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦の→の：09472_no⟧⟦{疑|うたが}い→疑い：09757_utagai⟧⟦で→で：00502_de⟧⟦{男|おとこ}→男：00561_otoko⟧⟦が→が：00051_ga⟧{逮捕|たいほ}された。",
       "english": "A man was arrested on suspicion of fraud.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26830_taihosuru_ex4",
-      "japanese": "{飲酒|いんしゅ}{運転|うんてん}で{逮捕|たいほ}されると、{免許|めんきょ}が{取|と}り{消|け}しになる。",
+      "japanese": "⟦{飲酒|いんしゅ}{運転|うんてん}→飲酒運転：18486_inshuunten⟧⟦で→で：00502_de⟧{逮捕|たいほ}される⟦と→と：00512_to⟧、⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦が→が：00051_ga⟧{取|と}り{消|け}し⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you are arrested for drunk driving, your license will be revoked.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Extremely common in news broadcasts and newspaper articles. The passive form {逮捕|たいほ}される (to be arrested) appears more frequently than the active form in news reporting.\n\nCOMMON COLLOCATIONS:\n- {現行犯|げんこうはん}{逮捕|たいほ}: caught in the act\n- {緊急|きんきゅう}{逮捕|たいほ}: emergency arrest\n- {逮捕|たいほ}{状|じょう}: arrest warrant\n- {逮捕|たいほ}{容疑|ようぎ}: charges at arrest\n- {不当|ふとう}{逮捕|たいほ}: wrongful arrest\n\nSIMILAR WORDS:\n- {捕|つか}まえる: to catch — general catching, not necessarily by authorities\n- {検挙|けんきょ}する: to apprehend — police term focusing on detection and arrest\n- {拘束|こうそく}する: to detain — broader term for restricting someone's freedom",
+  "notes": "Extremely common in news broadcasts and newspaper articles. The passive form {逮捕|たいほ}される (to be arrested) appears more frequently than the active form in news reporting.\n\nCOMMON COLLOCATIONS:\n- ⟦{現行犯|げんこうはん}→現行犯：15108_genkouhan⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧: caught in the act\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧: emergency arrest\n- ⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦{状|じょう}→状：09878_jou⟧: arrest warrant\n- ⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧: charges at arrest\n- ⟦{不当|ふとう}→不当：11319_futou⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧: wrongful arrest\n\nSIMILAR WORDS:\n- ⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧: to catch — general catching, not necessarily by authorities\n- {検挙|けんきょ}⟦する→する：00392_suru⟧: to apprehend — police term focusing on detection and arrest\n- ⟦{拘束|こうそく}する→拘束する：20938_kousokusuru⟧: to detain — broader term for restricting someone's freedom",
   "cross_references": [
     {
       "type": "contrast",
@@ -90,10 +90,11 @@
       "semantic": [
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T13:05:23Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

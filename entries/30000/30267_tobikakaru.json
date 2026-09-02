@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30267_tobikakaru_ex1",
-      "japanese": "{猫|ねこ}がネズミに{飛|と}び{掛|か}かった。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧ネズミ⟦に→に：00314_ni⟧{飛|と}び{掛|か}かった。",
       "english": "The cat pounced on the mouse.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30267_tobikakaru_ex2",
-      "japanese": "{犬|いぬ}が{急|きゅう}に{飛|と}び{掛|か}かってきて{驚|おどろ}いた。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧{飛|と}び{掛|か}かってきて⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "The dog suddenly lunged at me and startled me.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30267_tobikakaru_ex3",
-      "japanese": "{相手|あいて}に{飛|と}び{掛|か}かろうとした{男|おとこ}を、{周|まわ}りの{人|ひと}たちが{必死|ひっし}で{止|と}めた。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦に→に：00314_ni⟧{飛|と}び{掛|か}かろうとした⟦{男|おとこ}→男：00561_otoko⟧⟦を→を：00422_wo⟧、⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧たち⟦が→が：00051_ga⟧⟦{必死|ひっし}→必死：03705_hisshi⟧で⟦{止|と}めた→止める：00678_tomeru⟧。",
       "english": "The people around desperately stopped the man as he was about to lunge at his opponent.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\nIntransitive. The target is marked with に, never を: {犬|いぬ}に{飛|と}び{掛|か}かる (to pounce on the dog).\n\nCOMMON COLLOCATIONS:\n- {獲物|えもの}に{飛|と}び{掛|か}かる: to pounce on prey\n- {飛|と}び{掛|か}かってくる: to come lunging at one\n- いきなり{飛|と}び{掛|か}かる: to lunge without warning\n\nSIMILAR WORDS:\n- {襲|おそ}う: to attack — the general word, with no implication of a leap\n- {飛|と}び{込|こ}む: to jump in — into a place, not at a person\n- {掴|つか}みかかる: to grab at someone — seizing with the hands rather than leaping",
+  "notes": "TRANSITIVITY:\nIntransitive. The target is marked with ⟦に→に：00314_ni⟧, never ⟦を→を：00422_wo⟧: ⟦{犬|いぬ}→犬：00632_inu⟧⟦に→に：00314_ni⟧{飛|と}び{掛|か}かる (to pounce on the dog).\n\nCOMMON COLLOCATIONS:\n- ⟦{獲物|えもの}→獲物：08638_emono⟧⟦に→に：00314_ni⟧{飛|と}び{掛|か}かる: to pounce on prey\n- {飛|と}び{掛|か}かってくる: to come lunging at one\n- ⟦いきなり→いきなり：09379_ikinari⟧{飛|と}び{掛|か}かる: to lunge without warning\n\nSIMILAR WORDS:\n- ⟦{襲|おそ}う→襲う：01915_osou⟧: to attack — the general word, with no implication of a leap\n- ⟦{飛|と}び{込|こ}む→飛び込む：04614_tobikomu⟧: to jump in — into a place, not at a person\n- {掴|つか}みかかる: to grab at someone — seizing with the hands rather than leaping",
   "cross_references": [
     {
       "type": "contrast",
@@ -73,10 +73,11 @@
         "movement"
       ],
       "domain": [],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:39Z"
   },
   "conjugation": {
     "type": "godan",

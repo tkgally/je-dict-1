@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "08178_kakusan_ex1",
-      "japanese": "{気体|きたい}が{拡散|かくさん}する。",
+      "japanese": "⟦{気体|きたい}→気体：02632_kitai⟧⟦が→が：00051_ga⟧{拡散|かくさん}⟦する→する：00392_suru⟧。",
       "english": "The gas diffuses.",
       "sense_numbers": [
         1
@@ -119,7 +119,7 @@
     },
     {
       "id": "08178_kakusan_ex2",
-      "japanese": "{熱|ねつ}の{拡散|かくさん}を{防|ふせ}ぐ。",
+      "japanese": "⟦{熱|ねつ}→熱：01690_netsu⟧⟦の→の：09472_no⟧{拡散|かくさん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧。",
       "english": "To prevent the diffusion of heat.",
       "sense_numbers": [
         1
@@ -129,7 +129,7 @@
     },
     {
       "id": "08178_kakusan_ex3",
-      "japanese": "{分子|ぶんし}が{水中|すいちゅう}で{拡散|かくさん}する。",
+      "japanese": "⟦{分子|ぶんし}→分子：11769_bunshi⟧⟦が→が：00051_ga⟧⟦{水中|すいちゅう}→水中：13310_suichuu⟧⟦で→で：00502_de⟧{拡散|かくさん}⟦する→する：00392_suru⟧。",
       "english": "Molecules diffuse in water.",
       "sense_numbers": [
         1
@@ -139,7 +139,7 @@
     },
     {
       "id": "08178_kakusan_ex4",
-      "japanese": "ニュースがSNSで{拡散|かくさん}された。",
+      "japanese": "⟦ニュース→ニュース：04437_nyuusu⟧⟦が→が：00051_ga⟧SNS⟦で→で：00502_de⟧{拡散|かくさん}⟦された→する：00392_suru⟧。",
       "english": "The news spread on social media.",
       "sense_numbers": [
         2
@@ -149,7 +149,7 @@
     },
     {
       "id": "08178_kakusan_ex5",
-      "japanese": "{核|かく}{拡散|かくさん}{防止|ぼうし}が{重要|じゅうよう}だ。",
+      "japanese": "⟦{核|かく}→核：13127_kaku⟧{拡散|かくさん}⟦{防止|ぼうし}→防止：14571_boushi⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Nuclear non-proliferation is important.",
       "sense_numbers": [
         2
@@ -159,7 +159,7 @@
     },
     {
       "id": "08178_kakusan_ex6",
-      "japanese": "{情報|じょうほう}の{拡散|かくさん}が{速|はや}い{時代|じだい}だ。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧{拡散|かくさん}⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧⟦{時代|じだい}→時代：01424_jidai⟧だ。",
       "english": "It's an era of rapid information spread.",
       "sense_numbers": [
         2
@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "SENSE 1 - SCIENCE:\n- {拡散|かくさん}{現象|げんしょう} (diffusion phenomenon)\n- {拡散|かくさん}{速度|そくど} (rate of diffusion)\n- Used in physics, chemistry, biology\n\nSENSE 2 - GENERAL SPREAD:\n- {情報|じょうほう}{拡散|かくさん} (information spread)\n- {核|かく}{拡散|かくさん} (nuclear proliferation)\n- SNSで{拡散|かくさん}する (to spread on social media)\n- {拡散|かくさん}{希望|きぼう} (please share - social media phrase)\n\nUSAGE:\nUsed as a suru-verb: {拡散|かくさん}する (to diffuse/spread)\n\nMODERN USAGE:\nVery common on social media to mean 'share' or 'retweet.'",
+  "notes": "SENSE 1 - SCIENCE:\n- {拡散|かくさん}⟦{現象|げんしょう}→現象：02718_genshou⟧ (diffusion phenomenon)\n- {拡散|かくさん}⟦{速度|そくど}→速度：03319_sokudo⟧ (rate of diffusion)\n- Used in physics, chemistry, biology\n\nSENSE 2 - GENERAL SPREAD:\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{拡散|かくさん} (information spread)\n- ⟦{核|かく}→核：13127_kaku⟧{拡散|かくさん} (nuclear proliferation)\n- SNS⟦で→で：00502_de⟧{拡散|かくさん}⟦する→する：00392_suru⟧ (to spread on social media)\n- {拡散|かくさん}⟦{希望|きぼう}→希望：00221_kibou⟧ (please share - social media phrase)\n\nUSAGE:\nUsed as a suru-verb: {拡散|かくさん}⟦する→する：00392_suru⟧ (to diffuse/spread)\n\nMODERN USAGE:\nVery common on social media to mean 'share' or 'retweet.'",
   "cross_references": [
     {
       "type": "related",
@@ -205,9 +205,10 @@
         "science",
         "social media"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

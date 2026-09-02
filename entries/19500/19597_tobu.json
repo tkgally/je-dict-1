@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19597_tobu_ex1",
-      "japanese": "{高|たか}く{跳|と}んだ。",
+      "japanese": "⟦{高|たか}く→高い：00500_takai⟧{跳|と}んだ。",
       "english": "I jumped high.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19597_tobu_ex2",
-      "japanese": "{子供|こども}たちが{縄跳|なわと}びで{跳|と}んでいる。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{縄跳|なわと}び→縄跳び：06323_nawatobi⟧⟦で→で：00502_de⟧{跳|と}んで⟦いる→いる：00495_iru⟧。",
       "english": "The children are jumping rope.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19597_tobu_ex3",
-      "japanese": "{選手|せんしゅ}は{力強|ちからづよ}く{踏|ふ}み{切|き}って{遠|とお}くへ{跳|と}んだ。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧⟦{力強|ちからづよ}く→力強い：03119_chikarazuyoi⟧⟦{踏|ふ}み{切|き}って→踏み切る：06237_fumikiru⟧{遠|とお}く⟦へ→へ：02473_he⟧{跳|と}んだ。",
       "english": "The athlete pushed off powerfully and leaped far.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb (ぶ row) that is a homophone of {飛|と}ぶ (to fly). The kanji {跳|と}ぶ specifically means to jump or leap (using one's legs), while {飛|と}ぶ means to fly through the air. In practice, {飛|と}ぶ is sometimes used for jumping as well, but {跳|と}ぶ is the precise kanji choice for leaping.\n\nWRITING:\n{跳|ちょう} contains the {足|あし} radical, reflecting its meaning of jumping with one's legs. Compare with {飛|ひ}, which shows a bird in flight.\n\nCOMMON COLLOCATIONS:\n- {高|たか}く{跳|と}ぶ — to jump high\n- {遠|とお}くへ{跳|と}ぶ — to leap far\n- {縄|なわ}{跳|と}び — jump rope\n- {跳|と}び{箱|ばこ} — vaulting box (gym equipment)\n\nSIMILAR WORDS:\n- {飛|と}ぶ — to fly; also covers jumping in casual usage, but the primary meaning is flying or soaring\n- {跳|は}ねる — to bounce, to spring; emphasizes a bouncing or springing motion, while {跳|と}ぶ is a single upward leap",
+  "notes": "A godan verb (ぶ row) that is a homophone of ⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧ (to fly). The kanji {跳|と}ぶ specifically means to jump or leap (using one's legs), while ⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧ means to fly through the air. In practice, ⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧ is sometimes used for jumping as well, but {跳|と}ぶ is the precise kanji choice for leaping.\n\nWRITING:\n{跳|ちょう} contains the ⟦{足|あし}→足：00575_ashi⟧ radical, reflecting its meaning of jumping with one's legs. Compare with {飛|ひ}, which shows a bird in flight.\n\nCOMMON COLLOCATIONS:\n- ⟦{高|たか}く→高い：00500_takai⟧{跳|と}ぶ — to jump high\n- {遠|とお}く⟦へ→へ：02473_he⟧{跳|と}ぶ — to leap far\n- ⟦{縄|なわ}{跳|と}び→縄跳び：06323_nawatobi⟧ — jump rope\n- ⟦{跳|と}び{箱|ばこ}→跳び箱：22338_tobibako⟧ — vaulting box (gym equipment)\n\nSIMILAR WORDS:\n- ⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧ — to fly; also covers jumping in casual usage, but the primary meaning is flying or soaring\n- ⟦{跳|は}ねる→跳ねる：04378_haneru⟧ — to bounce, to spring; emphasizes a bouncing or springing motion, while {跳|と}ぶ is a single upward leap",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,10 +148,11 @@
         "movement",
         "sports"
       ],
-      "verb_class": "godan-bu"
+      "verb_class": "godan-bu",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T07:28:39Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   },
   "cross_references": [
     {

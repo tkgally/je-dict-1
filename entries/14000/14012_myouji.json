@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14012_myouji_ex1",
-      "japanese": "{苗字|みょうじ}は{何|なん}ですか。",
+      "japanese": "{苗字|みょうじ}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What is your last name?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14012_myouji_ex2",
-      "japanese": "{結婚|けっこん}して{苗字|みょうじ}が{変|か}わった。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦して→する：00392_suru⟧{苗字|みょうじ}⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "My last name changed when I got married.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14012_myouji_ex3",
-      "japanese": "{日本|にほん}で{一番|いちばん}{多|おお}い{苗字|みょうじ}は{佐藤|さとう}だと{言|い}われている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{多|おお}い→多い：01127_ooi⟧{苗字|みょうじ}⟦は→は：00079_ha⟧⟦{佐藤|さとう}→佐藤：27597_satou⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It's said that the most common surname in Japan is Sato.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{苗字|みょうじ} and {名字|みょうじ} are variant spellings of the same word; both are common. The more formal synonym is {姓|せい}.\n\nCOMMON COLLOCATIONS:\n- {苗字|みょうじ}が{変|か}わる (one's surname changes)\n- {苗字|みょうじ}で{呼|よ}ぶ (call someone by their surname)\n- {珍|めずら}しい{苗字|みょうじ} (unusual surname)\n\nIn Japan, married couples must share a single {苗字|みょうじ} by law, which in practice almost always means the wife takes the husband's name. The question of allowing {夫婦別姓|ふうふべっせい} (separate surnames for married couples) is a recurring topic of social debate.",
+  "notes": "{苗字|みょうじ} and {名字|みょうじ} are variant spellings of the same word; both are common. The more formal synonym is ⟦{姓|せい}→姓：15390_sei⟧.\n\nCOMMON COLLOCATIONS:\n- {苗字|みょうじ}⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧ (one's surname changes)\n- {苗字|みょうじ}⟦で→で：00502_de⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧ (call someone by their surname)\n- ⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧{苗字|みょうじ} (unusual surname)\n\nIn Japan, married couples must share a single {苗字|みょうじ} by law, which in practice almost always means the wife takes the husband's name. The question of allowing {夫婦別姓|ふうふべっせい} (separate surnames for married couples) is a recurring topic of social debate.",
   "cross_references": [
     {
       "type": "synonym",
@@ -50,14 +56,18 @@
   ],
   "metadata": {
     "created": "2026-02-27T09:14:25Z",
-    "modified": "2026-04-29T10:05:34Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

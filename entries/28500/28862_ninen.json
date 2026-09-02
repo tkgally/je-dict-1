@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "28862_ninen_ex1",
-      "japanese": "{二年|にねん}{前|まえ}に{結婚|けっこん}した。",
+      "japanese": "{二年|にねん}⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦した→する：00392_suru⟧。",
       "english": "I got married two years ago.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "28862_ninen_ex2",
-      "japanese": "{彼|かれ}は{二年|にねん}でこの{仕事|しごと}を{覚|おぼ}えた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{二年|にねん}⟦で→で：00502_de⟧⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{覚|おぼ}えた→覚える：00739_oboeru⟧。",
       "english": "He learned this job in two years.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "28862_ninen_ex3",
-      "japanese": "プロジェクトの{完成|かんせい}までに{二年|にねん}かかる{予定|よてい}です。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧⟦{完成|かんせい}→完成：01550_kansei⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{二年|にねん}⟦かかる→かかる：00711_kakaru⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "The project is expected to take two years to complete.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "28862_ninen_ex4",
-      "japanese": "{高校|こうこう}{二年|にねん}のときに{初|はじ}めて{海外|かいがい}に{行|い}った。",
+      "japanese": "⟦{高校|こうこう}→高校：01083_koukou⟧{二年|にねん}⟦の→の：09472_no⟧とき⟦に→に：00314_ni⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went abroad for the first time in my second year of high school.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "28862_ninen_ex5",
-      "japanese": "{娘|むすめ}は{大学|だいがく}{二年生|にねんせい}です。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦{二年生|にねんせい}→二年生：27586_ninensei⟧です。",
       "english": "My daughter is a second-year university student.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
       "notes": null
     }
   ],
-  "notes": "Means either 'two years' (duration) or 'second year' (ordinal position).\n\nCOMMON PATTERNS:\n- {二年|にねん}{前|まえ}: two years ago\n- {二年|にねん}{後|ご}: two years from now\n- {二年間|にねんかん}: for two years (emphasizes duration)\n- {二年|にねん}{目|め}: the second year (ordinal)\n- {二年生|にねんせい}: second-year student\n\nYEAR COUNTING:\nYears use {年|ねん}: {一年|いちねん}, {二年|にねん}, {三年|さんねん}, {四年|よねん} (note: {四|よ}, not し), {五年|ごねん}.",
+  "notes": "Means either 'two years' (duration) or 'second year' (ordinal position).\n\nCOMMON PATTERNS:\n- {二年|にねん}⟦{前|まえ}→前：02255_mae⟧: two years ago\n- {二年|にねん}⟦{後|ご}→後：30157_go⟧: two years from now\n- ⟦{二年間|にねんかん}→二年間：28883_ninenkan⟧: for two years (emphasizes duration)\n- {二年|にねん}⟦{目|め}→目：00525_me⟧: the second year (ordinal)\n- ⟦{二年生|にねんせい}→二年生：27586_ninensei⟧: second-year student\n\nYEAR COUNTING:\nYears use ⟦{年|ねん}→年：09876_nen⟧: ⟦{一年|いちねん}→一年：10994_ichinen⟧, {二年|にねん}, ⟦{三年|さんねん}→三年：10984_sannen⟧, {四年|よねん} (note: {四|よ}, not し), {五年|ごねん}.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -85,6 +85,6 @@
       "domain": []
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14575_bougyo_ex1",
-      "japanese": "{敵|てき}の{攻撃|こうげき}を{防御|ぼうぎょ}する。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦を→を：00422_wo⟧{防御|ぼうぎょ}⟦する→する：00392_suru⟧。",
       "english": "To defend against the enemy's attack.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14575_bougyo_ex2",
-      "japanese": "このチームは{防御|ぼうぎょ}{力|りょく}が{高|たか}くて{点|てん}を{取|と}られにくい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧{防御|ぼうぎょ}{力|りょく}⟦が→が：00051_ga⟧⟦{高|たか}くて→高い：00500_takai⟧⟦{点|てん}→点：01553_ten⟧⟦を→を：00422_wo⟧⟦{取|と}られ→取る：00565_toru⟧にくい。",
       "english": "This team has strong defense and doesn't give up points easily.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14575_bougyo_ex3",
-      "japanese": "サイバー{攻撃|こうげき}に{対|たい}する{防御|ぼうぎょ}{体制|たいせい}を{強化|きょうか}する{必要|ひつよう}がある。",
+      "japanese": "⟦サイバー→サイバー：28281_saibaa⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{防御|ぼうぎょ}⟦{体制|たいせい}→体制：04490_taisei⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：25344_kyoukasuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to strengthen our defense systems against cyberattacks.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{防御|ぼうぎょ} focuses on the active act of defending — blocking or repelling an attack. It is used in military, sports, gaming, and cybersecurity contexts.\n\nCOMMON COLLOCATIONS:\n- {防御|ぼうぎょ}する (to defend)\n- {防御|ぼうぎょ}{力|りょく} (defensive power/ability)\n- {防御|ぼうぎょ}{体制|たいせい} (defense posture/system)\n- {防御|ぼうぎょ}{線|せん} (line of defense)\n- {防御|ぼうぎょ}{率|りつ} (defensive rate — in baseball)\n\nSIMILAR WORDS:\n- {防御|ぼうぎょ}: defense (actively blocking or repelling attacks)\n- {防衛|ぼうえい}: defense (protecting territory or sovereignty; {自衛隊|じえいたい} uses {防衛|ぼうえい})\n- {守備|しゅび}: defense (sports positioning and fielding)\n- {防護|ぼうご}: protection (shielding from harm, often physical barriers)",
+  "notes": "USAGE:\n{防御|ぼうぎょ} focuses on the active act of defending — blocking or repelling an attack. It is used in military, sports, gaming, and cybersecurity contexts.\n\nCOMMON COLLOCATIONS:\n- {防御|ぼうぎょ}⟦する→する：00392_suru⟧ (to defend)\n- {防御|ぼうぎょ}{力|りょく} (defensive power/ability)\n- {防御|ぼうぎょ}⟦{体制|たいせい}→体制：04490_taisei⟧ (defense posture/system)\n- {防御|ぼうぎょ}⟦{線|せん}→線：09901_sen⟧ (line of defense)\n- {防御|ぼうぎょ}{率|りつ} (defensive rate — in baseball)\n\nSIMILAR WORDS:\n- {防御|ぼうぎょ}: defense (actively blocking or repelling attacks)\n- ⟦{防衛|ぼうえい}→防衛：09783_bouei⟧: defense (protecting territory or sovereignty; ⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧ uses ⟦{防衛|ぼうえい}→防衛：09783_bouei⟧)\n- ⟦{守備|しゅび}→守備：15509_shubi⟧: defense (sports positioning and fielding)\n- ⟦{防護|ぼうご}→防護：23019_bougo⟧: protection (shielding from harm, often physical barriers)",
   "cross_references": [
     {
       "type": "antonym",
@@ -202,7 +202,7 @@
   ],
   "metadata": {
     "created": "2026-03-02T07:42:45Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -215,7 +215,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15643_kansousuru_ex1",
-      "japanese": "マラソンを{完走|かんそう}した。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦を→を：00422_wo⟧{完走|かんそう}した。",
       "english": "I finished the marathon.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15643_kansousuru_ex2",
-      "japanese": "{初|はじ}めてのフルマラソンで{完走|かんそう}できて{嬉|うれ}しい。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧フルマラソン⟦で→で：00502_de⟧⟦{完走|かんそう}→完走：16981_kansou⟧⟦できて→できる：00557_dekiru⟧⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧。",
       "english": "I'm happy that I was able to finish my first full marathon.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15643_kansousuru_ex3",
-      "japanese": "{途中|とちゅう}で{足|あし}を{痛|いた}めたが、{何|なん}とか{完走|かんそう}することができた。",
+      "japanese": "⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧⟦{痛|いた}めた→痛める：13613_itameru⟧⟦が→が：00051_ga⟧、⟦{何|なん}→何〜：03100_nan⟧⟦と→と：00512_to⟧⟦か→か：09473_ka⟧{完走|かんそう}すること⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I hurt my leg partway through, but I managed to finish the race.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{完走|かんそう} emphasizes completing the full distance rather than winning. It is a significant achievement in long-distance events like marathons, triathlons, and ultramarathons. Also used figuratively for completing a long project or series.\n\nCOMMON COLLOCATIONS:\n- マラソンを{完走|かんそう}する (to finish a marathon)\n- {完走|かんそう}{者|しゃ} (finisher)\n- {完走|かんそう}{率|りつ} (completion rate)\n- {完走|かんそう}タイム (finishing time)\n\nSIMILAR WORDS:\n- {完走|かんそう}: completion of a race (noun form)\n- ゴールする: to reach the goal, to finish\n- リタイアする: to retire, to drop out (antonym)",
+  "notes": "USAGE:\n⟦{完走|かんそう}→完走：16981_kansou⟧ emphasizes completing the full distance rather than winning. It is a significant achievement in long-distance events like marathons, triathlons, and ultramarathons. Also used figuratively for completing a long project or series.\n\nCOMMON COLLOCATIONS:\n- ⟦マラソン→マラソン：04732_marason⟧⟦を→を：00422_wo⟧{完走|かんそう}する (to finish a marathon)\n- ⟦{完走|かんそう}→完走：16981_kansou⟧⟦{者|しゃ}→〜者：04662_sha⟧ (finisher)\n- ⟦{完走|かんそう}→完走：16981_kansou⟧⟦{率|りつ}→率：03802_ritsu⟧ (completion rate)\n- ⟦{完走|かんそう}→完走：16981_kansou⟧⟦タイム→タイム：23539_taimu⟧ (finishing time)\n\nSIMILAR WORDS:\n- ⟦{完走|かんそう}→完走：16981_kansou⟧: completion of a race (noun form)\n- ⟦ゴール→ゴール：03845_gooru⟧⟦する→する：00392_suru⟧: to reach the goal, to finish\n- リタイア⟦する→する：00392_suru⟧: to retire, to drop out (antonym)",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "sports"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28923_tsuieru_ex1",
-      "japanese": "{夢|ゆめ}が{潰|つい}えた。",
+      "japanese": "⟦{夢|ゆめ}→夢：01519_yume⟧⟦が→が：00051_ga⟧{潰|つい}えた。",
       "english": "My dream was dashed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28923_tsuieru_ex2",
-      "japanese": "{敗北|はいぼく}で{計画|けいかく}は{完全|かんぜん}に{潰|つい}えた。",
+      "japanese": "⟦{敗北|はいぼく}→敗北：12872_haiboku⟧⟦で→で：00502_de⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧{潰|つい}えた。",
       "english": "With the defeat, the plan completely fell apart.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28923_tsuieru_ex3",
-      "japanese": "{長年|ながねん}{温|あたた}めてきた{構想|こうそう}が、{資金|しきん}{不足|ぶそく}で{潰|つい}えてしまった。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{温|あたた}めて→温める：02096_atatameru⟧きた⟦{構想|こうそう}→構想：13163_kousou⟧⟦が→が：00051_ga⟧、⟦{資金|しきん}→資金：09937_shikin⟧{不足|ぶそく}⟦で→で：00502_de⟧{潰|つい}えてしまった。",
       "english": "The plan he had nurtured for years collapsed due to lack of funding.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A literary intransitive verb. Note that the kanji {潰} is shared with {潰|つぶ}れる (\"to be crushed\"), but the readings and nuances differ: {潰|つい}える is reserved for abstract things — dreams, plans, military forces — collapsing irrecoverably.\n\nTRANSITIVITY:\nIntransitive. The corresponding transitive verb is {潰|つい}やす (to waste, e.g., {時間|じかん}を{潰|つい}やす).\n\nCOMMON COLLOCATIONS:\n- {夢|ゆめ}が{潰|つい}える: a dream is dashed\n- {計画|けいかく}が{潰|つい}える: a plan falls apart\n- {希望|きぼう}が{潰|つい}える: hope is crushed\n- {野望|やぼう}が{潰|つい}える: an ambition collapses\n\nSIMILAR WORDS:\n- {潰|つぶ}れる: to be crushed; to go bankrupt — physical or business contexts\n- {崩|くず}れる: to collapse; to crumble — physical or systemic collapse\n- {挫|ざ}{折|せつ}する: to be frustrated; to fail — emphasizes setback rather than total ruin",
+  "notes": "A literary intransitive verb. Note that the kanji {潰} is shared with ⟦{潰|つぶ}れる→潰れる：04249_tsubureru⟧ (\"to be crushed\"), but the readings and nuances differ: {潰|つい}える is reserved for abstract things — dreams, plans, military forces — collapsing irrecoverably.\n\nTRANSITIVITY:\nIntransitive. The corresponding transitive verb is {潰|つい}やす (to waste, e.g., ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{潰|つい}やす).\n\nCOMMON COLLOCATIONS:\n- ⟦{夢|ゆめ}→夢：01519_yume⟧⟦が→が：00051_ga⟧{潰|つい}える: a dream is dashed\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧{潰|つい}える: a plan falls apart\n- ⟦{希望|きぼう}→希望：00221_kibou⟧⟦が→が：00051_ga⟧{潰|つい}える: hope is crushed\n- ⟦{野望|やぼう}→野望：05528_yabou⟧⟦が→が：00051_ga⟧{潰|つい}える: an ambition collapses\n\nSIMILAR WORDS:\n- ⟦{潰|つぶ}れる→潰れる：04249_tsubureru⟧: to be crushed; to go bankrupt — physical or business contexts\n- ⟦{崩|くず}れる→崩れる：04248_kuzureru⟧: to collapse; to crumble — physical or systemic collapse\n- ⟦{挫|ざ}{折|せつ}→挫折：08992_zasetsu⟧⟦する→する：00392_suru⟧: to be frustrated; to fail — emphasizes setback rather than total ruin",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
         "change"
       ],
       "domain": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "ichidan",

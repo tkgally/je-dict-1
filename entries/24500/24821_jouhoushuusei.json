@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24821_jouhoushuusei_ex1",
-      "japanese": "{業績|ぎょうせき}{予想|よそう}を{上方|じょうほう}{修正|しゅうせい}した。",
+      "japanese": "⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧⟦{予想|よそう}→予想：03664_yosou⟧⟦を→を：00422_wo⟧{上方|じょうほう}{修正|しゅうせい}⟦した→する：00392_suru⟧。",
       "english": "The earnings forecast was revised upward.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24821_jouhoushuusei_ex2",
-      "japanese": "GDP{成長率|せいちょうりつ}が{上方|じょうほう}{修正|しゅうせい}された。",
+      "japanese": "GDP⟦{成長率|せいちょうりつ}→成長率：30165_seichouritsu⟧⟦が→が：00051_ga⟧{上方|じょうほう}{修正|しゅうせい}⟦された→する：00392_suru⟧。",
       "english": "The GDP growth rate was revised upward.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24821_jouhoushuusei_ex3",
-      "japanese": "{好調|こうちょう}な{売上|うりあげ}を{受|う}け、{会社|かいしゃ}は{通期|つうき}{見通|みとお}しの{上方|じょうほう}{修正|しゅうせい}を{発表|はっぴょう}した。",
+      "japanese": "⟦{好調|こうちょう}→好調：12209_kouchou⟧な⟦{売上|うりあげ}→売上：04102_uriage⟧⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{通期|つうき}⟦{見通|みとお}し→見通し：10566_mitooshi⟧⟦の→の：09472_no⟧{上方|じょうほう}{修正|しゅうせい}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "In response to strong sales, the company announced an upward revision of its full-year outlook.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A business and economics term meaning to revise a numerical estimate or forecast to a higher value. Composed of {上方|じょうほう} (upward) + {修正|しゅうせい} (revision, correction). Very frequently seen in financial news, earnings announcements, and government economic reports.\n\nCOMMON COLLOCATIONS:\n- {業績|ぎょうせき}の{上方|じょうほう}{修正|しゅうせい} — upward revision of earnings\n- {上方|じょうほう}{修正|しゅうせい}する — to revise upward\n- {上方|じょうほう}{修正|しゅうせい}を{発表|はっぴょう}する — to announce an upward revision\n- {大幅|おおはば}な{上方|じょうほう}{修正|しゅうせい} — a significant upward revision\n\nSIMILAR WORDS:\n- {下方|かほう}{修正|しゅうせい} — downward revision (the opposite)\n- {見直|みなお}し — review, reassessment (broader; not necessarily numerical)\n- {改定|かいてい} — revision (of rules, rates, or standards)",
+  "notes": "A business and economics term meaning to revise a numerical estimate or forecast to a higher value. Composed of {上方|じょうほう} (upward) + ⟦{修正|しゅうせい}→修正：03210_shuusei⟧ (revision, correction). Very frequently seen in financial news, earnings announcements, and government economic reports.\n\nCOMMON COLLOCATIONS:\n- ⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧⟦の→の：09472_no⟧{上方|じょうほう}{修正|しゅうせい} — upward revision of earnings\n- {上方|じょうほう}{修正|しゅうせい}⟦する→する：00392_suru⟧ — to revise upward\n- {上方|じょうほう}{修正|しゅうせい}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧ — to announce an upward revision\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{上方|じょうほう}{修正|しゅうせい} — a significant upward revision\n\nSIMILAR WORDS:\n- ⟦{下方|かほう}{修正|しゅうせい}→下方修正：19864_kahoushuusei⟧ — downward revision (the opposite)\n- ⟦{見直|みなお}し→見直し：09340_minaoshi⟧ — review, reassessment (broader; not necessarily numerical)\n- ⟦{改定|かいてい}→改定：13036_kaitei⟧ — revision (of rules, rates, or standards)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -85,10 +85,11 @@
       "usage": [
         "formal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-21T09:14:14Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

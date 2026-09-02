@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "19902_toriokonau_ex1",
-      "japanese": "{結婚式|けっこんしき}を{執|と}り{行|おこな}う。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦を→を：00422_wo⟧{執|と}り{行|おこな}う。",
       "english": "To hold a wedding ceremony.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "19902_toriokonau_ex2",
-      "japanese": "{葬儀|そうぎ}は{来週|らいしゅう}{執|と}り{行|おこな}われる{予定|よてい}です。",
+      "japanese": "⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧{執|と}り{行|おこな}われる⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "The funeral is scheduled to be held next week.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "19902_toriokonau_ex3",
-      "japanese": "{神社|じんじゃ}で{厳|おごそ}かに{祭典|さいてん}が{執|と}り{行|おこな}われた。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦で→で：00502_de⟧⟦{厳|おごそ}か→厳か：11864_ogosoka⟧⟦に→に：00314_ni⟧⟦{祭典|さいてん}→祭典：17745_saiten⟧⟦が→が：00051_ga⟧{執|と}り{行|おこな}われた。",
       "english": "A festival was solemnly conducted at the shrine.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A formal, elevated verb used almost exclusively for ceremonies, rituals, and official events. Not used for casual gatherings or everyday activities.\n\nCOMMON COLLOCATIONS:\n- {式|しき}を{執|と}り{行|おこな}う: to hold a ceremony\n- {結婚式|けっこんしき}を{執|と}り{行|おこな}う: to hold a wedding\n- {葬儀|そうぎ}を{執|と}り{行|おこな}う: to hold a funeral\n- {儀式|ぎしき}を{執|と}り{行|おこな}う: to perform a ritual\n- {祭典|さいてん}を{執|と}り{行|おこな}う: to conduct a festival\n\nSIMILAR WORDS:\n- {行|おこな}う: to carry out, to do — neutral and general-purpose\n- {催|もよお}す: to hold, to organize — for events, exhibitions, or parties\n- {挙行|きょこう}する: to hold (a ceremony) — formal written synonym, often used in announcements",
+  "notes": "A formal, elevated verb used almost exclusively for ceremonies, rituals, and official events. Not used for casual gatherings or everyday activities.\n\nCOMMON COLLOCATIONS:\n- {式|しき}⟦を→を：00422_wo⟧{執|と}り{行|おこな}う: to hold a ceremony\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦を→を：00422_wo⟧{執|と}り{行|おこな}う: to hold a wedding\n- ⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦を→を：00422_wo⟧{執|と}り{行|おこな}う: to hold a funeral\n- ⟦{儀式|ぎしき}→儀式：00071_gishiki⟧⟦を→を：00422_wo⟧{執|と}り{行|おこな}う: to perform a ritual\n- ⟦{祭典|さいてん}→祭典：17745_saiten⟧⟦を→を：00422_wo⟧{執|と}り{行|おこな}う: to conduct a festival\n\nSIMILAR WORDS:\n- ⟦{行|おこな}う→行う：01238_okonau⟧: to carry out, to do — neutral and general-purpose\n- ⟦{催|もよお}す→催す：11517_moyoosu⟧: to hold, to organize — for events, exhibitions, or parties\n- {挙行|きょこう}⟦する→する：00392_suru⟧: to hold (a ceremony) — formal written synonym, often used in announcements",
   "cross_references": [
     {
       "type": "contrast",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-03-27T05:32:45Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
@@ -158,7 +158,8 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "godan-u"
+      "verb_class": "godan-u",
+      "transitivity": "transitive"
     }
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25040_kaizai_ex1",
-      "japanese": "{第三者|だいさんしゃ}が{介在|かいざい}する。",
+      "japanese": "⟦{第三者|だいさんしゃ}→第三者：26789_daisansha⟧⟦が→が：00051_ga⟧{介在|かいざい}⟦する→する：00392_suru⟧。",
       "english": "A third party intervenes.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "25040_kaizai_ex2",
-      "japanese": "{両者|りょうしゃ}の{間|あいだ}に{誤解|ごかい}が{介在|かいざい}している。",
+      "japanese": "⟦{両者|りょうしゃ}→両者：11357_ryousha⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦{誤解|ごかい}→誤解：02769_gokai⟧⟦が→が：00051_ga⟧{介在|かいざい}⟦している→する：00392_suru⟧。",
       "english": "A misunderstanding lies between the two parties.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "25040_kaizai_ex3",
-      "japanese": "{政治的|せいじてき}な{思惑|おもわく}が{介在|かいざい}しているのではないかと{疑|うたが}われている。",
+      "japanese": "⟦{政治的|せいじてき}→政治的：05684_seijiteki⟧な⟦{思惑|おもわく}→思惑：12574_omowaku⟧⟦が→が：00051_ga⟧{介在|かいざい}⟦している→する：00392_suru⟧⟦の→の：09472_no⟧⟦ではないか→ではないか：30627_dehanaika⟧⟦と→と：00512_to⟧⟦{疑|うたが}われている→疑う：01889_utagau⟧。",
       "english": "It is suspected that political motives are at play behind the scenes.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "25040_kaizai_ex4",
-      "japanese": "この{取引|とりひき}には{仲介業者|ちゅうかいぎょうしゃ}が{介在|かいざい}しているため、{手数料|てすうりょう}がかかる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{取引|とりひき}→取引：04700_torihiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{仲介業者|ちゅうかいぎょうしゃ}⟦が→が：00051_ga⟧{介在|かいざい}⟦している→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Because a broker is involved in this transaction, there is a commission fee.",
       "sense_numbers": [
         1
@@ -53,7 +53,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes something or someone positioned between two things, acting as an intermediary or intervening force. Often used in formal writing and news to describe hidden factors or middlemen in a situation.\n\nCOMMON COLLOCATIONS:\n- {第三者|だいさんしゃ}が{介在|かいざい}する: a third party intervenes\n- {利害|りがい}が{介在|かいざい}する: interests are involved\n- {感情|かんじょう}が{介在|かいざい}する: emotions come into play\n- {仲介者|ちゅうかいしゃ}の{介在|かいざい}: involvement of a mediator\n\nSIMILAR WORDS:\n- {仲介|ちゅうかい}: mediation, brokerage — focuses on actively facilitating between parties\n- {介入|かいにゅう}: intervention — implies more forceful or deliberate involvement\n- {媒介|ばいかい}: transmission, mediation — often used for disease vectors or agents that convey something",
+  "notes": "Describes something or someone positioned between two things, acting as an intermediary or intervening force. Often used in formal writing and news to describe hidden factors or middlemen in a situation.\n\nCOMMON COLLOCATIONS:\n- ⟦{第三者|だいさんしゃ}→第三者：26789_daisansha⟧⟦が→が：00051_ga⟧{介在|かいざい}⟦する→する：00392_suru⟧: a third party intervenes\n- ⟦{利害|りがい}→利害：04091_rigai⟧⟦が→が：00051_ga⟧{介在|かいざい}⟦する→する：00392_suru⟧: interests are involved\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦が→が：00051_ga⟧{介在|かいざい}⟦する→する：00392_suru⟧: emotions come into play\n- ⟦{仲介者|ちゅうかいしゃ}→仲介者：23919_chuukaisha⟧⟦の→の：09472_no⟧{介在|かいざい}: involvement of a mediator\n\nSIMILAR WORDS:\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧: mediation, brokerage — focuses on actively facilitating between parties\n- ⟦{介入|かいにゅう}→介入：07425_kainyuu⟧: intervention — implies more forceful or deliberate involvement\n- ⟦{媒介|ばいかい}→媒介：15990_baikai⟧: transmission, mediation — often used for disease vectors or agents that convey something",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,10 +89,11 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-22T12:36:31Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

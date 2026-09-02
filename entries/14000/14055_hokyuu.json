@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14055_hokyuu_ex1",
-      "japanese": "{水分|すいぶん}を{補給|ほきゅう}してください。",
+      "japanese": "⟦{水分|すいぶん}→水分：04302_suibun⟧⟦を→を：00422_wo⟧{補給|ほきゅう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please replenish your fluids.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14055_hokyuu_ex2",
-      "japanese": "マラソンの{途中|とちゅう}でエネルギーを{補給|ほきゅう}する。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦の→の：09472_no⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦エネルギー→エネルギー：03834_enerugii⟧⟦を→を：00422_wo⟧{補給|ほきゅう}⟦する→する：00392_suru⟧。",
       "english": "Replenish energy during the marathon.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14055_hokyuu_ex3",
-      "japanese": "{補給|ほきゅう}{路|ろ}が{断|た}たれたため、{前線|ぜんせん}の{部隊|ぶたい}は{物資|ぶっし}{不足|ぶそく}に{陥|おちい}った。",
+      "japanese": "{補給|ほきゅう}{路|ろ}⟦が→が：00051_ga⟧⟦{断|た}たれた→断つ：27885_tatsu⟧⟦ため→ため：01145_tame⟧、⟦{前線|ぜんせん}→前線：11791_zensen⟧⟦の→の：09472_no⟧⟦{部隊|ぶたい}→部隊：28119_butai⟧⟦は→は：00079_ha⟧⟦{物資|ぶっし}→物資：07863_busshi⟧{不足|ぶそく}⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧。",
       "english": "Because the supply line was cut, the frontline troops fell into a shortage of supplies.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in both everyday and specialized contexts. In daily life, most commonly heard as {水分|すいぶん}{補給|ほきゅう} (hydration) and {栄養|えいよう}{補給|ほきゅう} (nutrition replenishment). In military and logistics contexts, refers to supply lines and provisioning.\n\nCOMMON COLLOCATIONS:\n- {水分|すいぶん}{補給|ほきゅう}: hydration, fluid replenishment\n- {栄養|えいよう}{補給|ほきゅう}: nutrition replenishment\n- {補給|ほきゅう}{路|ろ}: supply route/line\n- {補給|ほきゅう}{基地|きち}: supply base\n- {補給|ほきゅう}{物資|ぶっし}: supplies, provisions",
+  "notes": "USAGE:\nUsed in both everyday and specialized contexts. In daily life, most commonly heard as ⟦{水分|すいぶん}→水分：04302_suibun⟧{補給|ほきゅう} (hydration) and ⟦{栄養|えいよう}→栄養：01882_eiyou⟧{補給|ほきゅう} (nutrition replenishment). In military and logistics contexts, refers to supply lines and provisioning.\n\nCOMMON COLLOCATIONS:\n- ⟦{水分|すいぶん}→水分：04302_suibun⟧{補給|ほきゅう}: hydration, fluid replenishment\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧{補給|ほきゅう}: nutrition replenishment\n- {補給|ほきゅう}{路|ろ}: supply route/line\n- {補給|ほきゅう}⟦{基地|きち}→基地：03982_kichi⟧: supply base\n- {補給|ほきゅう}⟦{物資|ぶっし}→物資：07863_busshi⟧: supplies, provisions",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T10:17:55Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

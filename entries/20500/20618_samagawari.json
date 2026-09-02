@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20618_samagawari_ex1",
-      "japanese": "{街|まち}がすっかり{様変|さまが}わりした。",
+      "japanese": "⟦{街|まち}→街：17306_machi⟧⟦が→が：00051_ga⟧⟦すっかり→すっかり：01270_sukkari⟧{様変|さまが}わり⟦した→する：00392_suru⟧。",
       "english": "The town has completely transformed.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "20618_samagawari_ex2",
-      "japanese": "ここ{十年|じゅうねん}で{教育|きょういく}の{現場|げんば}は{様変|さまが}わりしている。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧{十年|じゅうねん}⟦で→で：00502_de⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦の→の：09472_no⟧⟦{現場|げんば}→現場：02723_genba⟧⟦は→は：00079_ha⟧{様変|さまが}わり⟦している→する：00392_suru⟧。",
       "english": "The education landscape has been transformed over the past ten years.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20618_samagawari_ex3",
-      "japanese": "スマートフォンの{普及|ふきゅう}で{人|ひと}々の{生活|せいかつ}は{大|おお}きく{様変|さまが}わりした。",
+      "japanese": "⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦の→の：09472_no⟧⟦{普及|ふきゅう}→普及：07592_fukyuu⟧⟦で→で：00502_de⟧{人|ひと}々⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧{様変|さまが}わり⟦した→する：00392_suru⟧。",
       "english": "People's lifestyles have changed dramatically with the spread of smartphones.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Composed of {様|さま} (appearance, manner) + {変|か}わり (change). Literally means the appearance or state of something has changed. Implies a visible, often dramatic transformation.\n\nCOMMON COLLOCATIONS:\n- すっかり{様変|さまが}わりする (to change completely)\n- {大|おお}きく{様変|さまが}わりする (to change dramatically)\n- {街|まち}が{様変|さまが}わりする (for a town to transform)\n- {時代|じだい}とともに{様変|さまが}わりする (to transform with the times)\n\nSIMILAR WORDS:\n- {一変|いっぺん} — a sudden, complete change; emphasizes the abruptness\n- {変貌|へんぼう} — transformation, metamorphosis; more literary and dramatic\n- {変化|へんか} — change; the most general and neutral term\n\nUSAGE:\n{様変|さまが}わり is commonly used in news and commentary to describe how places, industries, or customs have been transformed over time. It often carries a tone of observation or reflection rather than judgment.",
+  "notes": "Composed of ⟦{様|さま}→様：01549_sama⟧ (appearance, manner) + {変|か}わり (change). Literally means the appearance or state of something has changed. Implies a visible, often dramatic transformation.\n\nCOMMON COLLOCATIONS:\n- ⟦すっかり→すっかり：01270_sukkari⟧{様変|さまが}わり⟦する→する：00392_suru⟧ (to change completely)\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{様変|さまが}わり⟦する→する：00392_suru⟧ (to change dramatically)\n- ⟦{街|まち}→街：17306_machi⟧⟦が→が：00051_ga⟧{様変|さまが}わり⟦する→する：00392_suru⟧ (for a town to transform)\n- ⟦{時代|じだい}→時代：01424_jidai⟧⟦とともに→とともに：30485_totomoni⟧{様変|さまが}わり⟦する→する：00392_suru⟧ (to transform with the times)\n\nSIMILAR WORDS:\n- ⟦{一変|いっぺん}→一変：11203_ippen⟧ — a sudden, complete change; emphasizes the abruptness\n- ⟦{変貌|へんぼう}→変貌：12117_henbou⟧ — transformation, metamorphosis; more literary and dramatic\n- ⟦{変化|へんか}→変化：03615_henka⟧ — change; the most general and neutral term\n\nUSAGE:\n{様変|さまが}わり is commonly used in news and commentary to describe how places, industries, or customs have been transformed over time. It often carries a tone of observation or reflection rather than judgment.",
   "cross_references": [
     {
       "type": "contrast",
@@ -70,7 +70,7 @@
   ],
   "metadata": {
     "created": "2026-03-29T20:05:38Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -84,7 +84,8 @@
         "change",
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "conjugation": {

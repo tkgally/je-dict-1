@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "30689_tsuubun_ex1",
-      "japanese": "この{二|ふた}つの{分数|ぶんすう}を{通分|つうぶん}しよう。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{分数|ぶんすう}→分数：06952_bunsuu⟧⟦を→を：00422_wo⟧{通分|つうぶん}⟦しよう→する：00392_suru⟧。",
       "english": "Let's put these two fractions over a common denominator.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "30689_tsuubun_ex2",
-      "japanese": "{足|た}し{算|ざん}の{前|まえ}に{通分|つうぶん}を{忘|わす}れないように。",
+      "japanese": "⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{通分|つうぶん}⟦を→を：00422_wo⟧⟦{忘|わす}れない→忘れる：00474_wasureru⟧よう⟦に→に：00314_ni⟧。",
       "english": "Don't forget to convert to a common denominator before adding.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "30689_tsuubun_ex3",
-      "japanese": "{分母|ぶんぼ}が{違|ちが}う{分数|ぶんすう}は、{通分|つうぶん}してから{大|おお}きさを{比|くら}べる。",
+      "japanese": "⟦{分母|ぶんぼ}→分母：15936_bunbo⟧⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧⟦{分数|ぶんすう}→分数：06952_bunsuu⟧⟦は→は：00079_ha⟧、{通分|つうぶん}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{大|おお}きさ→大きさ：10969_ookisa⟧⟦を→を：00422_wo⟧⟦{比|くら}べる→比べる：01237_kuraberu⟧。",
       "english": "With fractions that have different denominators, you convert them to a common denominator and then compare their sizes.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{通|つう} (to make common, to pass through) + {分|ぶん} (fraction part). Used as a noun and with する.\n\nCOMMON COLLOCATIONS:\n- {通分|つうぶん}する: to convert to a common denominator\n- {通分|つうぶん}して{計算|けいさん}する: to calculate after finding a common denominator\n- {最小公倍数|さいしょうこうばいすう}で{通分|つうぶん}する: to use the least common multiple as the common denominator\n\nSIMILAR WORDS:\n- {約分|やくぶん}: reducing a fraction to lowest terms — the opposite operation, dividing top and bottom by a common factor\n- {分母|ぶんぼ}: denominator\n- {分数|ぶんすう}: fraction",
+  "notes": "⟦{通|つう}→〜通：04025_tsuu⟧ (to make common, to pass through) + ⟦{分|ぶん}→分：26216_bun⟧ (fraction part). Used as a noun and with ⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {通分|つうぶん}⟦する→する：00392_suru⟧: to convert to a common denominator\n- {通分|つうぶん}⟦して→する：00392_suru⟧⟦{計算|けいさん}する→計算する：25526_keisansuru⟧: to calculate after finding a common denominator\n- {最小公倍数|さいしょうこうばいすう}⟦で→で：00502_de⟧{通分|つうぶん}⟦する→する：00392_suru⟧: to use the least common multiple as the common denominator\n\nSIMILAR WORDS:\n- ⟦{約分|やくぶん}→約分：30690_yakubun⟧: reducing a fraction to lowest terms — the opposite operation, dividing top and bottom by a common factor\n- ⟦{分母|ぶんぼ}→分母：15936_bunbo⟧: denominator\n- ⟦{分数|ぶんすう}→分数：06952_bunsuu⟧: fraction",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -84,10 +84,11 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:41Z"
   },
   "conjugation": {
     "type": "suru",

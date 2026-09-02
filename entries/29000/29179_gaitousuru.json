@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "29179_gaitousuru_ex1",
-      "japanese": "{条件|じょうけん}に{該当|がいとう}する{方|かた}はお{申|もう}し{出|で}ください。",
+      "japanese": "⟦{条件|じょうけん}→条件：03285_jouken⟧⟦に→に：00314_ni⟧{該当|がいとう}する⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧お⟦{申|もう}し{出|で}→申し出る：10465_moushideru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Those who meet the conditions, please come forward.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "29179_gaitousuru_ex2",
-      "japanese": "{以下|いか}のいずれかに{該当|がいとう}する{場合|ばあい}は、ご{連絡|れんらく}ください。",
+      "japanese": "⟦{以下|いか}→以下：01294_ika⟧⟦の→の：09472_no⟧⟦いずれか→いずれか：22057_izureka⟧⟦に→に：00314_ni⟧{該当|がいとう}する⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、ご⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please contact us if any of the following applies.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "29179_gaitousuru_ex3",
-      "japanese": "この{規定|きてい}は{我々|われわれ}には{該当|がいとう}しないと{判断|はんだん}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{規定|きてい}→規定：14136_kitei⟧⟦は→は：00079_ha⟧⟦{我々|われわれ}→我々：03795_wareware⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{該当|がいとう}しない⟦と→と：00512_to⟧⟦{判断|はんだん}した→判断する：06062_handansuru⟧。",
       "english": "We determined that this regulation does not apply to us.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMMON PATTERNS:\n- 〜に{該当|がいとう}する: to fall under ~; to apply to ~\n- 〜が{該当|がいとう}する: ~ applies/qualifies\n- {該当|がいとう}しない: not applicable; does not apply\n- {該当|がいとう}する{場合|ばあい}: when applicable; if this applies\n\nFrequently seen on official forms, regulations, and notices. Often appears as 「{該当|がいとう}する{項目|こうもく}に{丸|まる}をつけてください」 (Please circle the applicable item).\n\nSIMILAR WORDS:\n- {当|あ}てはまる: to apply; to fit — more everyday; used for general matching\n- {適用|てきよう}する: to apply (a rule, law, etc.) — used when actively applying something",
+  "notes": "COMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{該当|がいとう}する: to fall under ~; to apply to ~\n- 〜⟦が→が：00051_ga⟧{該当|がいとう}する: ~ applies/qualifies\n- {該当|がいとう}しない: not applicable; does not apply\n- {該当|がいとう}する⟦{場合|ばあい}→場合：01704_baai⟧: when applicable; if this applies\n\nFrequently seen on official forms, regulations, and notices. Often appears as 「{該当|がいとう}する⟦{項目|こうもく}→項目：04150_koumoku⟧⟦に→に：00314_ni⟧⟦{丸|まる}→丸：02167_maru⟧⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧⟦ください→ください：02899_kudasai⟧」 (Please circle the applicable item).\n\nSIMILAR WORDS:\n- ⟦{当|あ}てはまる→当てはまる：10212_atehamaru⟧: to apply; to fit — more everyday; used for general matching\n- ⟦{適用|てきよう}する→適用する：21739_tekiyousuru⟧: to apply (a rule, law, etc.) — used when actively applying something",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -84,7 +84,7 @@
   ],
   "metadata": {
     "created": "2026-06-12T08:59:17Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -97,7 +97,8 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "conjugation": {

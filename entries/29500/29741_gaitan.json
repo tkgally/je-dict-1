@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29741_gaitan_ex1",
-      "japanese": "{現状|げんじょう}を{慨嘆|がいたん}する。",
+      "japanese": "⟦{現状|げんじょう}→現状：02721_genjou⟧⟦を→を：00422_wo⟧{慨嘆|がいたん}⟦する→する：00392_suru⟧。",
       "english": "to lament the current situation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29741_gaitan_ex2",
-      "japanese": "{彼|かれ}は{世|よ}の{乱|みだ}れを{慨嘆|がいたん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{世|よ}→世：00424_yo⟧⟦の→の：09472_no⟧⟦{乱|みだ}れ→乱れ：11413_midare⟧⟦を→を：00422_wo⟧{慨嘆|がいたん}⟦した→する：00392_suru⟧。",
       "english": "He deplored the disorder of the world.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29741_gaitan_ex3",
-      "japanese": "{老人|ろうじん}は{若者|わかもの}の{礼儀|れいぎ}のなさを{慨嘆|がいたん}した。",
+      "japanese": "⟦{老人|ろうじん}→老人：03784_roujin⟧⟦は→は：00079_ha⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦の→の：09472_no⟧⟦{礼儀|れいぎ}→礼儀：03780_reigi⟧⟦の→の：09472_no⟧なさ⟦を→を：00422_wo⟧{慨嘆|がいたん}⟦した→する：00392_suru⟧。",
       "english": "The old man lamented the lack of manners among young people.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal, somewhat literary word for grieving over and deploring something regrettable, such as social decline or injustice. Combines sorrow with a note of indignation.\n\nCOMMON COLLOCATIONS:\n- {世相|せそう}を{慨嘆|がいたん}する: to lament the state of society\n- {慨嘆|がいたん}の{声|こえ}: voices of lamentation\n\nSIMILAR WORDS:\n- {嘆|なげ}く: to grieve, lament — everyday word, broader\n- {憤慨|ふんがい}: indignation — emphasizes anger rather than sorrow",
+  "notes": "A formal, somewhat literary word for grieving over and deploring something regrettable, such as social decline or injustice. Combines sorrow with a note of indignation.\n\nCOMMON COLLOCATIONS:\n- ⟦{世相|せそう}→世相：20654_sesou⟧⟦を→を：00422_wo⟧{慨嘆|がいたん}⟦する→する：00392_suru⟧: to lament the state of society\n- {慨嘆|がいたん}⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧: voices of lamentation\n\nSIMILAR WORDS:\n- ⟦{嘆|なげ}く→嘆く：11814_nageku⟧: to grieve, lament — everyday word, broader\n- ⟦{憤慨|ふんがい}→憤慨：06436_fungai⟧: indignation — emphasizes anger rather than sorrow",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "emotion"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-09T21:19:28Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

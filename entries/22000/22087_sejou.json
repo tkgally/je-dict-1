@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22087_sejou_ex1",
-      "japanese": "{施錠|せじょう}を{忘|わす}れた。",
+      "japanese": "{施錠|せじょう}⟦を→を：00422_wo⟧⟦{忘|わす}れた→忘れる：00474_wasureru⟧。",
       "english": "I forgot to lock up.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22087_sejou_ex2",
-      "japanese": "{外出|がいしゅつ}する{前|まえ}に{施錠|せじょう}を{確認|かくにん}する。",
+      "japanese": "⟦{外出|がいしゅつ}する→外出する：26841_gaishutsusuru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{施錠|せじょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "I check that the door is locked before going out.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22087_sejou_ex3",
-      "japanese": "{閉店|へいてん}{後|ご}は{全|すべ}ての{出入口|でいりぐち}を{施錠|せじょう}してください。",
+      "japanese": "⟦{閉店|へいてん}→閉店：09698_heiten⟧⟦{後|ご}→後：30157_go⟧⟦は→は：00079_ha⟧⟦{全|すべ}て→全て：03822_subete⟧⟦の→の：09472_no⟧{出入口|でいりぐち}⟦を→を：00422_wo⟧{施錠|せじょう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please lock all entrances after the store closes.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for the act of locking. While {鍵|かぎ}をかける is the everyday expression for locking a door, {施錠|せじょう} is preferred in written notices, instructions, and formal speech.\n\nCOMMON COLLOCATIONS:\n- {施錠|せじょう}する: to lock\n- {施錠|せじょう}を{確認|かくにん}する: to confirm the lock\n- {施錠|せじょう}を{忘|わす}れる: to forget to lock\n- {自動|じどう}{施錠|せじょう}: automatic locking\n- {施錠|せじょう}{管理|かんり}: lock management\n\nSIMILAR WORDS:\n- {鍵|かぎ}をかける: to lock — the everyday colloquial expression\n- {解錠|かいじょう}: unlocking — the formal antonym of {施錠|せじょう}\n- {戸締|とじ}まり: locking up (the house) — focuses on securing the whole house before leaving or sleeping",
+  "notes": "A formal word for the act of locking. While ⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ is the everyday expression for locking a door, {施錠|せじょう} is preferred in written notices, instructions, and formal speech.\n\nCOMMON COLLOCATIONS:\n- {施錠|せじょう}⟦する→する：00392_suru⟧: to lock\n- {施錠|せじょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to confirm the lock\n- {施錠|せじょう}⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget to lock\n- ⟦{自動|じどう}→自動：03339_jidou⟧{施錠|せじょう}: automatic locking\n- {施錠|せじょう}⟦{管理|かんり}→管理：00178_kanri⟧: lock management\n\nSIMILAR WORDS:\n- ⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to lock — the everyday colloquial expression\n- {解錠|かいじょう}: unlocking — the formal antonym of {施錠|せじょう}\n- ⟦{戸締|とじ}まり→戸締まり：17821_tojimari⟧: locking up (the house) — focuses on securing the whole house before leaving or sleeping",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,10 +74,11 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

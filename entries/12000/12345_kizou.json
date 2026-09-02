@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12345_kizou_ex1",
-      "japanese": "{図書館|としょかん}に{本|ほん}を{寄贈|きぞう}した。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦に→に：00314_ni⟧{本|ほん}⟦を→を：00422_wo⟧{寄贈|きぞう}⟦した→する：00392_suru⟧。",
       "english": "I donated books to the library.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12345_kizou_ex2",
-      "japanese": "{美術館|びじゅつかん}に{絵画|かいが}が{寄贈|きぞう}された。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦に→に：00314_ni⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦が→が：00051_ga⟧{寄贈|きぞう}⟦された→する：00392_suru⟧。",
       "english": "Paintings were donated to the art museum.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12345_kizou_ex3",
-      "japanese": "この{建物|たてもの}は{地元|じもと}の{企業|きぎょう}から{寄贈|きぞう}されたものです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦から→から：00504_kara⟧{寄贈|きぞう}⟦された→する：00392_suru⟧ものです。",
       "english": "This building was donated by a local company.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{寄贈|きぞう} is a formal term used primarily for donating items (not money) to public institutions like libraries, museums, schools, or hospitals. For monetary donations, {寄付|きふ} is more appropriate.\n\nCOMMON COLLOCATIONS:\n- {本|ほん}を{寄贈|きぞう}する — to donate books\n- {寄贈|きぞう}{図書|としょ} — donated books\n- {寄贈|きぞう}を{受|う}ける — to receive a donation\n- {寄贈|きぞう}{品|ひん} — donated item\n\nSIMILAR WORDS:\n{寄付|きふ} is the general term for donation, especially of money. {贈呈|ぞうてい} is a formal presentation or bestowal, often ceremonial. {寄贈|きぞう} specifically refers to donating physical items to institutions.",
+  "notes": "USAGE:\n{寄贈|きぞう} is a formal term used primarily for donating items (not money) to public institutions like libraries, museums, schools, or hospitals. For monetary donations, ⟦{寄付|きふ}→寄付：02584_kifu⟧ is more appropriate.\n\nCOMMON COLLOCATIONS:\n- {本|ほん}⟦を→を：00422_wo⟧{寄贈|きぞう}⟦する→する：00392_suru⟧ — to donate books\n- {寄贈|きぞう}⟦{図書|としょ}→図書：03459_tosho⟧ — donated books\n- {寄贈|きぞう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ — to receive a donation\n- {寄贈|きぞう}⟦{品|ひん}→品：03712_hin⟧ — donated item\n\nSIMILAR WORDS:\n⟦{寄付|きふ}→寄付：02584_kifu⟧ is the general term for donation, especially of money. ⟦{贈呈|ぞうてい}→贈呈：16752_zoutei⟧ is a formal presentation or bestowal, often ceremonial. {寄贈|きぞう} specifically refers to donating physical items to institutions.",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-21T05:20:05Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11927_douin_ex1",
-      "japanese": "{全員|ぜんいん}を{動員|どういん}した。",
+      "japanese": "⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦を→を：00422_wo⟧{動員|どういん}⟦した→する：00392_suru⟧。",
       "english": "We mobilized everyone.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11927_douin_ex2",
-      "japanese": "イベントに{大勢|おおぜい}の{観客|かんきゃく}を{動員|どういん}できた。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦に→に：00314_ni⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦を→を：00422_wo⟧{動員|どういん}⟦できた→できる：00557_dekiru⟧。",
       "english": "We were able to draw a large audience to the event.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11927_douin_ex3",
-      "japanese": "{災害|さいがい}{復旧|ふっきゅう}のために{自衛隊|じえいたい}が{動員|どういん}された。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧⟦が→が：00051_ga⟧{動員|どういん}⟦された→する：00392_suru⟧。",
       "english": "The Self-Defense Forces were mobilized for disaster recovery.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Originally a military term meaning to assemble troops, now commonly used in civilian contexts for gathering people for events, projects, or emergencies. Also used for box office/attendance figures.\n\nCOMMON PATTERNS:\n- {動員|どういん}する (to mobilize)\n- {動員|どういん}される (to be mobilized)\n- {動員|どういん}をかける (to call for mobilization)\n- {観客|かんきゃく}{動員|どういん}{数|すう} (audience attendance numbers)\n- {総|そう}{動員|どういん} (total mobilization)",
+  "notes": "Originally a military term meaning to assemble troops, now commonly used in civilian contexts for gathering people for events, projects, or emergencies. Also used for box office/attendance figures.\n\nCOMMON PATTERNS:\n- {動員|どういん}⟦する→する：00392_suru⟧ (to mobilize)\n- {動員|どういん}⟦される→する：00392_suru⟧ (to be mobilized)\n- {動員|どういん}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to call for mobilization)\n- ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧{動員|どういん}{数|すう} (audience attendance numbers)\n- {総|そう}{動員|どういん} (total mobilization)",
   "cross_references": [
     {
       "type": "contrast",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-02-18T14:19:13Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -159,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

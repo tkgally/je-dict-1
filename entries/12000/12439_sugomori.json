@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12439_sugomori_ex1",
-      "japanese": "{休日|きゅうじつ}は{巣|す}ごもりする。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦は→は：00079_ha⟧{巣|す}ごもり⟦する→する：00392_suru⟧。",
       "english": "I stay home on my days off.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12439_sugomori_ex2",
-      "japanese": "{巣|す}ごもり{需要|じゅよう}でネット{通販|つうはん}が{伸|の}びた。",
+      "japanese": "{巣|す}ごもり⟦{需要|じゅよう}→需要：02616_juyou⟧⟦で→で：00502_de⟧⟦ネット{通販|つうはん}→ネット通販：22847_nettotsuuhan⟧⟦が→が：00051_ga⟧⟦{伸|の}びた→伸びる：01974_nobiru⟧。",
       "english": "Online shopping grew due to stay-at-home demand.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12439_sugomori_ex3",
-      "japanese": "{長|なが}い{巣|す}ごもり{生活|せいかつ}で{運動不足|うんどうぶそく}になり、{体重|たいじゅう}が{増|ふ}えてしまった。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧{巣|す}ごもり⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦で→で：00502_de⟧⟦{運動不足|うんどうぶそく}→運動不足：08567_undoubusoku⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧しまった。",
       "english": "The long period of staying home led to lack of exercise, and I gained weight.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOriginally a nature term for birds nesting ({巣|す} = nest + {籠|こ}もる = to stay inside), this word became a buzzword during the COVID-19 pandemic. {巣|す}ごもり{消費|しょうひ} and {巣|す}ごもり{需要|じゅよう} became common in business and media to describe the shift in consumer behavior toward home-based activities and purchases.\n\nCOMMON COLLOCATIONS:\n- {巣|す}ごもり{需要|じゅよう}: stay-at-home demand\n- {巣|す}ごもり{消費|しょうひ}: stay-at-home spending\n- {巣|す}ごもり{生活|せいかつ}: stay-at-home lifestyle\n- {巣|す}ごもり{期間|きかん}: period of staying home",
+  "notes": "USAGE:\nOriginally a nature term for birds nesting (⟦{巣|す}→巣：02140_su⟧ = nest + ⟦{籠|こ}もる→籠もる：07414_komoru⟧ = to stay inside), this word became a buzzword during the COVID-19 pandemic. {巣|す}ごもり⟦{消費|しょうひ}→消費：03240_shouhi⟧ and {巣|す}ごもり⟦{需要|じゅよう}→需要：02616_juyou⟧ became common in business and media to describe the shift in consumer behavior toward home-based activities and purchases.\n\nCOMMON COLLOCATIONS:\n- {巣|す}ごもり⟦{需要|じゅよう}→需要：02616_juyou⟧: stay-at-home demand\n- {巣|す}ごもり⟦{消費|しょうひ}→消費：03240_shouhi⟧: stay-at-home spending\n- {巣|す}ごもり⟦{生活|せいかつ}→生活：01443_seikatsu⟧: stay-at-home lifestyle\n- {巣|す}ごもり⟦{期間|きかん}→期間：00229_kikan⟧: period of staying home",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

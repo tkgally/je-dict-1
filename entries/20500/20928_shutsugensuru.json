@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20928_shutsugensuru_ex1",
-      "japanese": "{新|あたら}しい{技術|ぎじゅつ}が{出現|しゅつげん}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧{出現|しゅつげん}した。",
       "english": "A new technology has emerged.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20928_shutsugensuru_ex2",
-      "japanese": "{突然|とつぜん}、{目|め}の{前|まえ}に{大|おお}きな{影|かげ}が{出現|しゅつげん}した。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧、⟦{目|め}の{前|まえ}→目の前：22588_menomae⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{影|かげ}→影：02191_kage⟧⟦が→が：00051_ga⟧{出現|しゅつげん}した。",
       "english": "Suddenly, a large shadow appeared before my eyes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20928_shutsugensuru_ex3",
-      "japanese": "インターネットの{普及|ふきゅう}によって、{新|あたら}しいビジネスモデルが{次々|つぎつぎ}と{出現|しゅつげん}している。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦の→の：09472_no⟧⟦{普及|ふきゅう}→普及：07592_fukyuu⟧⟦によって→によって：06801_niyotte⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ビジネスモデル→ビジネスモデル：29260_bijinesumoderu⟧⟦が→が：00051_ga⟧⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧{出現|しゅつげん}して⟦いる→いる：00495_iru⟧。",
       "english": "With the spread of the internet, new business models are emerging one after another.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A する verb composed of {出|しゅつ} (out) + {現|げん} (appear). Describes the appearance or emergence of something, often with a sense of significance or novelty. More formal than {現|あらわ}れる.\n\nCOMMON COLLOCATIONS:\n- {新種|しんしゅ}が{出現|しゅつげん}する: a new species appears\n- {問題|もんだい}が{出現|しゅつげん}する: a problem emerges\n- {症状|しょうじょう}が{出現|しゅつげん}する: symptoms appear\n- {出現|しゅつげん}{頻度|ひんど}: frequency of occurrence\n\nSIMILAR WORDS:\n- {現|あらわ}れる: to appear — more common in everyday speech\n- {登場|とうじょう}する: to appear (on stage), to enter — for people or characters making an entrance\n- {発生|はっせい}する: to occur, to arise — focuses on the onset of events or phenomena",
+  "notes": "A ⟦する→する：00392_suru⟧ verb composed of {出|しゅつ} (out) + ⟦{現|げん}→現〜：03950_gen⟧ (appear). Describes the appearance or emergence of something, often with a sense of significance or novelty. More formal than ⟦{現|あらわ}れる→現れる：01870_arawareru⟧.\n\nCOMMON COLLOCATIONS:\n- {新種|しんしゅ}⟦が→が：00051_ga⟧{出現|しゅつげん}する: a new species appears\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{出現|しゅつげん}する: a problem emerges\n- ⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦が→が：00051_ga⟧{出現|しゅつげん}する: symptoms appear\n- ⟦{出現|しゅつげん}{頻度|ひんど}→出現頻度：24681_shutsugenhindo⟧: frequency of occurrence\n\nSIMILAR WORDS:\n- ⟦{現|あらわ}れる→現れる：01870_arawareru⟧: to appear — more common in everyday speech\n- ⟦{登場|とうじょう}→登場：13625_toujou⟧⟦する→する：00392_suru⟧: to appear (on stage), to enter — for people or characters making an entrance\n- ⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧: to occur, to arise — focuses on the onset of events or phenomena",
   "conjugation_type": "suru",
   "schema_version": "2.0",
   "cross_references": [
@@ -88,10 +88,11 @@
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-30T21:33:51Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

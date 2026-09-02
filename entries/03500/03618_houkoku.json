@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03618_houkoku_ex1",
-      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{報告|ほうこく}する。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{報告|ほうこく}⟦する→する：00392_suru⟧。",
       "english": "To report the results to my boss.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "03618_houkoku_ex2",
-      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧してください。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit a report.",
       "notes": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧ = written report",
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {報告|ほうこく} is commonly used in business and official contexts for formal reporting.\n\nCOMMON PATTERNS:\n- {報告|ほうこく}する (to report)\n- {報告|ほうこく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a report)\n- ⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧ (written report)\n- {報告|ほうこく}⟦{会|かい}→〜会：noentry⟧ (report meeting)\n- ⟦{進捗|しんちょく}→進捗：07377_shinchoku⟧{報告|ほうこく} (progress report)\n- ⟦{中間|ちゅうかん}→中間：05458_chuukan⟧{報告|ほうこく} (interim report)\n\nBUSINESS NOTE: In Japanese workplaces, ほうれんそう ({報告|ほうこく}・⟦{連絡|れんらく}→連絡：01524_renraku⟧・⟦{相談|そうだん}→相談：02089_soudan⟧) is an important concept emphasizing reporting, communication, and consultation.",
+  "notes": "USAGE: {報告|ほうこく} is commonly used in business and official contexts for formal reporting.\n\nCOMMON PATTERNS:\n- {報告|ほうこく}⟦する→する：00392_suru⟧ (to report)\n- {報告|ほうこく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a report)\n- ⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧ (written report)\n- {報告|ほうこく}⟦{会|かい}→〜会：noentry⟧ (report meeting)\n- ⟦{進捗|しんちょく}→進捗：07377_shinchoku⟧{報告|ほうこく} (progress report)\n- ⟦{中間|ちゅうかん}→中間：05458_chuukan⟧{報告|ほうこく} (interim report)\n\nBUSINESS NOTE: In Japanese workplaces, ほうれんそう ({報告|ほうこく}・⟦{連絡|れんらく}→連絡：01524_renraku⟧・⟦{相談|そうだん}→相談：02089_soudan⟧) is an important concept emphasizing reporting, communication, and consultation.",
   "cross_references": [
     {
       "type": "contrast",
@@ -173,7 +173,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T15:36:00Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -192,7 +192,8 @@
         "education",
         "transportation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

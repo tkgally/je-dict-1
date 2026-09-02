@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13828_chokuritsu_ex1",
-      "japanese": "{兵士|へいし}が{直立|ちょくりつ}して{敬礼|けいれい}した。",
+      "japanese": "⟦{兵士|へいし}→兵士：11680_heishi⟧⟦が→が：00051_ga⟧{直立|ちょくりつ}⟦して→する：00392_suru⟧⟦{敬礼|けいれい}→敬礼：19877_keirei⟧⟦した→する：00392_suru⟧。",
       "english": "The soldier stood at attention and saluted.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13828_chokuritsu_ex2",
-      "japanese": "{直立|ちょくりつ}{不動|ふどう}の{姿勢|しせい}で{待|ま}っていた。",
+      "japanese": "{直立|ちょくりつ}⟦{不動|ふどう}→不動：11632_fudou⟧⟦の→の：09472_no⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦で→で：00502_de⟧⟦{待|ま}っていた→待つ：00469_matsu⟧。",
       "english": "He was waiting standing rigidly at attention.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13828_chokuritsu_ex3",
-      "japanese": "{人類|じんるい}が{直立|ちょくりつ}{二足歩行|にそくほこう}を{始|はじ}めたのは、{数百万年|すうひゃくまんねん}{前|まえ}のことだ。",
+      "japanese": "⟦{人類|じんるい}→人類：01578_jinrui⟧⟦が→が：00051_ga⟧{直立|ちょくりつ}⟦{二足歩行|にそくほこう}→二足歩行：29490_nisokuhokou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、{数百万年|すうひゃくまんねん}⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧ことだ。",
       "english": "Humans began upright bipedal walking several million years ago.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in the set phrase {直立|ちょくりつ}{不動|ふどう} (standing rigidly at attention), which describes a military-style posture of standing perfectly still and upright. Also commonly used in scientific contexts when discussing human evolution and bipedal locomotion.\n\nCOMMON COLLOCATIONS:\n- {直立|ちょくりつ}{不動|ふどう}: standing rigidly at attention\n- {直立|ちょくりつ}{二足歩行|にそくほこう}: upright bipedal walking\n- {直立|ちょくりつ}{姿勢|しせい}: upright posture\n- {直立|ちょくりつ}する: to stand upright",
+  "notes": "USAGE:\nOften used in the set phrase {直立|ちょくりつ}⟦{不動|ふどう}→不動：11632_fudou⟧ (standing rigidly at attention), which describes a military-style posture of standing perfectly still and upright. Also commonly used in scientific contexts when discussing human evolution and bipedal locomotion.\n\nCOMMON COLLOCATIONS:\n- {直立|ちょくりつ}⟦{不動|ふどう}→不動：11632_fudou⟧: standing rigidly at attention\n- {直立|ちょくりつ}⟦{二足歩行|にそくほこう}→二足歩行：29490_nisokuhokou⟧: upright bipedal walking\n- {直立|ちょくりつ}⟦{姿勢|しせい}→姿勢：00371_shisei⟧: upright posture\n- {直立|ちょくりつ}⟦する→する：00392_suru⟧: to stand upright",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-27T05:07:56Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

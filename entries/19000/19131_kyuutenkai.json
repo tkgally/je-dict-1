@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19131_kyuutenkai_ex1",
-      "japanese": "{事態|じたい}が{急展開|きゅうてんかい}した。",
+      "japanese": "⟦{事態|じたい}→事態：10151_jitai⟧⟦が→が：00051_ga⟧{急展開|きゅうてんかい}⟦した→する：00392_suru⟧。",
       "english": "The situation took a sudden turn.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19131_kyuutenkai_ex2",
-      "japanese": "ドラマの{最終回|さいしゅうかい}で{急展開|きゅうてんかい}があった。",
+      "japanese": "⟦ドラマ→ドラマ：03867_dorama⟧⟦の→の：09472_no⟧⟦{最終回|さいしゅうかい}→最終回：26891_saishuukai⟧⟦で→で：00502_de⟧{急展開|きゅうてんかい}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a dramatic twist in the final episode of the drama.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19131_kyuutenkai_ex3",
-      "japanese": "{交渉|こうしょう}が{急展開|きゅうてんかい}を{見|み}せ、{予想外|よそうがい}の{合意|ごうい}に{至|いた}った。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{急展開|きゅうてんかい}⟦を→を：00422_wo⟧⟦{見|み}せ→見せる：01988_miseru⟧、⟦{予想外|よそうがい}→予想外：03188_yosougai⟧⟦の→の：09472_no⟧⟦{合意|ごうい}→合意：05093_goui⟧⟦に→に：00314_ni⟧⟦{至|いた}った→至る：02009_itaru⟧。",
       "english": "The negotiations took a sudden turn and led to an unexpected agreement.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {急|きゅう} (sudden) + {展開|てんかい} (development, unfolding). Describes situations that change rapidly and unexpectedly.\n\nCOMMON PATTERNS:\n- {急展開|きゅうてんかい}する: to develop rapidly\n- {急展開|きゅうてんかい}を{見|み}せる: to show a sudden development\n- {急展開|きゅうてんかい}を{迎|むか}える: to reach a sudden turning point\n- {急展開|きゅうてんかい}を{遂|と}げる: to undergo a rapid change\n\nUSAGE:\n- News: {事件|じけん}が{急展開|きゅうてんかい}した (the case took a sudden turn)\n- Stories/drama: plot twists and surprise revelations\n- Business: {交渉|こうしょう}が{急展開|きゅうてんかい}した (negotiations took a dramatic turn)\n\nFrequently used in news headlines and story narration. Carries a nuance of surprise — the development was not anticipated.",
+  "notes": "Compound of ⟦{急|きゅう}→急：13042_kyuu⟧ (sudden) + ⟦{展開|てんかい}→展開：04542_tenkai⟧ (development, unfolding). Describes situations that change rapidly and unexpectedly.\n\nCOMMON PATTERNS:\n- {急展開|きゅうてんかい}⟦する→する：00392_suru⟧: to develop rapidly\n- {急展開|きゅうてんかい}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧: to show a sudden development\n- {急展開|きゅうてんかい}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to reach a sudden turning point\n- {急展開|きゅうてんかい}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧: to undergo a rapid change\n\nUSAGE:\n- News: ⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧{急展開|きゅうてんかい}⟦した→する：00392_suru⟧ (the case took a sudden turn)\n- Stories/drama: plot twists and surprise revelations\n- Business: ⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{急展開|きゅうてんかい}⟦した→する：00392_suru⟧ (negotiations took a dramatic turn)\n\nFrequently used in news headlines and story narration. Carries a nuance of surprise — the development was not anticipated.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,9 +148,10 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-24T10:03:41Z",
-    "modified": "2026-09-02T02:55:16Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

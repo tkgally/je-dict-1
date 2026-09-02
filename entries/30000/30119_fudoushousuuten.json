@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30119_fudoushousuuten_ex1",
-      "japanese": "{浮動小数点|ふどうしょうすうてん}{数|すう}で{計算|けいさん}する。",
+      "japanese": "{浮動小数点|ふどうしょうすうてん}{数|すう}⟦で→で：00502_de⟧⟦{計算|けいさん}する→計算する：25526_keisansuru⟧。",
       "english": "To calculate using floating-point numbers.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30119_fudoushousuuten_ex2",
-      "japanese": "{浮動小数点|ふどうしょうすうてん}{演算|えんざん}には{誤差|ごさ}が{生|しょう}じる。",
+      "japanese": "{浮動小数点|ふどうしょうすうてん}⟦{演算|えんざん}→演算：05150_enzan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{誤差|ごさ}→誤差：17417_gosa⟧⟦が→が：00051_ga⟧⟦{生|しょう}じる→生じる：02118_shoujiru⟧。",
       "english": "Floating-point arithmetic produces rounding errors.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30119_fudoushousuuten_ex3",
-      "japanese": "{金額|きんがく}の{計算|けいさん}に{浮動小数点|ふどうしょうすうてん}を{使|つか}うと、わずかな{誤差|ごさ}が{積|つ}み{重|かさ}なることがある。",
+      "japanese": "⟦{金額|きんがく}→金額：02665_kingaku⟧⟦の→の：09472_no⟧⟦{計算|けいさん}→計算：02697_keisan⟧⟦に→に：00314_ni⟧{浮動小数点|ふどうしょうすうてん}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧、わずかな⟦{誤差|ごさ}→誤差：17417_gosa⟧⟦が→が：00051_ga⟧⟦{積|つ}み{重|かさ}なる→積み重なる：19542_tsumikasanaru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you use floating point for monetary calculations, tiny errors can accumulate.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Almost always appears as part of a longer compound rather than on its own.\n\nCOMPOUNDS:\n- {浮動小数点|ふどうしょうすうてん}{数|すう}: floating-point number\n- {浮動小数点|ふどうしょうすうてん}{演算|えんざん}: floating-point arithmetic\n- {浮動小数点|ふどうしょうすうてん}{型|がた}: floating-point type (in programming)\n\nSIMILAR WORDS:\n- {固定|こてい}{小数点|しょうすうてん}: fixed point — the decimal point stays in one place; used where exactness matters\n- {整数|せいすう}: integer — a whole number, with no fractional part at all",
+  "notes": "Almost always appears as part of a longer compound rather than on its own.\n\nCOMPOUNDS:\n- {浮動小数点|ふどうしょうすうてん}{数|すう}: floating-point number\n- {浮動小数点|ふどうしょうすうてん}⟦{演算|えんざん}→演算：05150_enzan⟧: floating-point arithmetic\n- {浮動小数点|ふどうしょうすうてん}{型|がた}: floating-point type (in programming)\n\nSIMILAR WORDS:\n- ⟦{固定|こてい}→固定：10996_kotei⟧⟦{小数点|しょうすうてん}→小数点：30724_shousuuten⟧: fixed point — the decimal point stays in one place; used where exactness matters\n- ⟦{整数|せいすう}→整数：04328_seisuu⟧: integer — a whole number, with no fractional part at all",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -71,6 +71,6 @@
       ]
     },
     "created": "2026-07-25T18:20:39Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

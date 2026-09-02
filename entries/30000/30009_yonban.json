@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "30009_yonban_ex1",
-      "japanese": "{私|わたし}の{席|せき}は{四番|よんばん}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧⟦は→は：00079_ha⟧{四番|よんばん}です。",
       "english": "My seat is number four.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "30009_yonban_ex2",
-      "japanese": "{四番|よんばん}のバスに{乗|の}ってください。",
+      "japanese": "{四番|よんばん}⟦の→の：09472_no⟧⟦バス→バス：00769_basu⟧⟦に→に：00314_ni⟧⟦{乗|の}って→乗る：00511_noru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take the number four bus.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "30009_yonban_ex3",
-      "japanese": "{四番|よんばん}{窓口|まどぐち}で{手続|てつづ}きをしてください。",
+      "japanese": "{四番|よんばん}⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦で→で：00502_de⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please do the paperwork at counter number four.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "30009_yonban_ex4",
-      "japanese": "{彼|かれ}はチームの{四番|よんばん}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{四番|よんばん}だ。",
       "english": "He is the team's cleanup hitter.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "30009_yonban_ex5",
-      "japanese": "{四番|よんばん}バッターがホームランを{打|う}った。",
+      "japanese": "{四番|よんばん}⟦バッター→バッター：27284_battaa⟧⟦が→が：00051_ga⟧⟦ホームラン→ホームラン：20814_hoomuran⟧⟦を→を：00422_wo⟧⟦{打|う}った→打つ：01221_utsu⟧。",
       "english": "The cleanup hitter hit a home run.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "30009_yonban_ex6",
-      "japanese": "{四番|よんばん}は{打線|だせん}の{中心|ちゅうしん}で、{最|もっと}も{力|ちから}のある{打者|だしゃ}が{務|つと}める。",
+      "japanese": "{四番|よんばん}⟦は→は：00079_ha⟧⟦{打線|だせん}→打線：30021_dasen⟧⟦の→の：09472_no⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦で→で：00502_de⟧、⟦{最|もっと}も→最も：01736_mottomo⟧⟦{力|ちから}→力：01661_chikara⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{打者|だしゃ}→打者：06564_dasha⟧⟦が→が：00051_ga⟧⟦{務|つと}める→務める：10446_tsutomeru⟧。",
       "english": "The cleanup spot is the heart of the lineup, filled by the most powerful hitter.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "{四|よん} (four) + the counter {番|ばん} (number in a sequence). In baseball, the fourth batter — the {四番|よんばん} — is by tradition the team's strongest hitter, so the word alone often means 'cleanup hitter.'\n\nCOMMON COLLOCATIONS:\n- {四番|よんばん}バッター: cleanup hitter\n- {四番|よんばん}{打者|だしゃ}: fourth batter; cleanup hitter\n- {四番|よんばん}を{打|う}つ: to bat cleanup",
+  "notes": "⟦{四|よん}→四：00767_yon⟧ (four) + the counter ⟦{番|ばん}→番：09873_ban⟧ (number in a sequence). In baseball, the fourth batter — the {四番|よんばん} — is by tradition the team's strongest hitter, so the word alone often means 'cleanup hitter.'\n\nCOMMON COLLOCATIONS:\n- {四番|よんばん}⟦バッター→バッター：27284_battaa⟧: cleanup hitter\n- {四番|よんばん}⟦{打者|だしゃ}→打者：06564_dasha⟧: fourth batter; cleanup hitter\n- {四番|よんばん}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: to bat cleanup",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -96,6 +96,6 @@
       "domain": []
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

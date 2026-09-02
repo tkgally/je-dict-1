@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29046_taorekomu_ex1",
-      "japanese": "{疲|つか}れてベッドに{倒|たお}れ{込|こ}んだ。",
+      "japanese": "⟦{疲|つか}れて→疲れる：00901_tsukareru⟧⟦ベッド→ベッド：04501_beddo⟧⟦に→に：00314_ni⟧{倒|たお}れ{込|こ}んだ。",
       "english": "I was so tired I collapsed onto the bed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29046_taorekomu_ex2",
-      "japanese": "{彼女|かのじょ}は{部屋|へや}に{入|はい}るなり、ソファに{倒|たお}れ{込|こ}んだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦なり→なり：09883_nari⟧、⟦ソファ→ソファ：04485_sofa⟧⟦に→に：00314_ni⟧{倒|たお}れ{込|こ}んだ。",
       "english": "As soon as she entered the room, she collapsed onto the sofa.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29046_taorekomu_ex3",
-      "japanese": "{走|はし}り{終|お}えた{選手|せんしゅ}はその{場|ば}に{倒|たお}れ{込|こ}み、しばらく{動|うご}けなかった。",
+      "japanese": "⟦{走|はし}り→走る：00519_hashiru⟧⟦{終|お}えた→終える：02019_oeru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦に→に：00314_ni⟧{倒|たお}れ{込|こ}み、⟦しばらく→しばらく：01267_shibaraku⟧⟦{動|うご}けなかった→動く：00904_ugoku⟧。",
       "english": "The athlete who had finished running collapsed on the spot and couldn't move for a while.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {倒|たお}れる (to fall, to collapse) + {込|こ}む (directional suffix meaning 'into'). The ～込む suffix adds the sense of falling completely into or onto a space, often due to exhaustion or sudden loss of strength.\n\nCOMMON COLLOCATIONS:\n- ベッドに{倒|たお}れ{込|こ}む: to collapse onto the bed\n- ソファに{倒|たお}れ{込|こ}む: to fall onto the sofa\n- その{場|ば}に{倒|たお}れ{込|こ}む: to collapse right there\n- {疲|つか}れて{倒|たお}れ{込|こ}む: to collapse from exhaustion\n\nSIMILAR WORDS:\n- {倒|たお}れる: to fall, to collapse — the base verb, without the implication of landing inside/onto something\n- ぶっ{倒|たお}れる: to drop, to keel over — more sudden, can imply illness or shock\n- {崩|くず}れ{落|お}ちる: to crumble and fall — usually of structures, not people",
+  "notes": "Compound of ⟦{倒|たお}れる→倒れる：01160_taoreru⟧ (to fall, to collapse) + ⟦{込|こ}む→込む：00719_komu⟧ (directional suffix meaning 'into'). The ～込む suffix adds the sense of falling completely into or onto a space, often due to exhaustion or sudden loss of strength.\n\nCOMMON COLLOCATIONS:\n- ⟦ベッド→ベッド：04501_beddo⟧⟦に→に：00314_ni⟧{倒|たお}れ{込|こ}む: to collapse onto the bed\n- ⟦ソファ→ソファ：04485_sofa⟧⟦に→に：00314_ni⟧{倒|たお}れ{込|こ}む: to fall onto the sofa\n- ⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦に→に：00314_ni⟧{倒|たお}れ{込|こ}む: to collapse right there\n- ⟦{疲|つか}れて→疲れる：00901_tsukareru⟧{倒|たお}れ{込|こ}む: to collapse from exhaustion\n\nSIMILAR WORDS:\n- ⟦{倒|たお}れる→倒れる：01160_taoreru⟧: to fall, to collapse — the base verb, without the implication of landing inside/onto something\n- ぶっ{倒|たお}れる: to drop, to keel over — more sudden, can imply illness or shock\n- {崩|くず}れ{落|お}ちる: to crumble and fall — usually of structures, not people",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -67,10 +67,11 @@
         "movement"
       ],
       "domain": [],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-09T17:36:40Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "godan",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19587_akinau_ex1",
-      "japanese": "{魚|さかな}を{商|あきな}う{店|みせ}だ。",
+      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{商|あきな}う⟦{店|みせ}→店：00497_mise⟧だ。",
       "english": "It's a shop that deals in fish.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19587_akinau_ex2",
-      "japanese": "{代々|だいだい}{呉服|ごふく}を{商|あきな}ってきた{家|いえ}だ。",
+      "japanese": "⟦{代々|だいだい}→代々：05899_daidai⟧{呉服|ごふく}⟦を→を：00422_wo⟧{商|あきな}ってきた⟦{家|いえ}→家：00612_ie⟧だ。",
       "english": "It's a family that has dealt in kimono fabrics for generations.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19587_akinau_ex3",
-      "japanese": "{江戸時代|えどじだい}、この{通|とお}りでは{多|おお}くの{商人|しょうにん}が{絹|きぬ}や{茶|ちゃ}を{商|あきな}っていた。",
+      "japanese": "⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧、⟦この→この：00962_kono⟧⟦{通|とお}り→通り：01475_toori⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{商人|しょうにん}→商人：03236_shounin⟧⟦が→が：00051_ga⟧⟦{絹|きぬ}→絹：01383_kinu⟧や⟦{茶|ちゃ}→茶：03433_cha⟧⟦を→を：00422_wo⟧{商|あきな}って⟦いた→いる：00495_iru⟧。",
       "english": "In the Edo period, many merchants traded in silk and tea along this street.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb (う row) meaning to trade or sell goods. More literary and traditional than {売|う}る or {販売|はんばい}する. Often used when describing established businesses, family trades, or historical commerce. Related to the noun {商|あきな}い (trade, business).\n\nETYMOLOGY:\nDerived from {秋|あき}なう, originally referring to the harvest-season trade that took place in autumn. The kanji {商|しょう} (commerce) is used as an ateji.\n\nCOMMON COLLOCATIONS:\n- {魚|さかな}を{商|あきな}う — to deal in fish\n- {呉服|ごふく}を{商|あきな}う — to deal in kimono fabrics\n- {酒|さけ}を{商|あきな}う — to deal in sake\n- {代々|だいだい}{商|あきな}う — to trade for generations\n\nSIMILAR WORDS:\n- {売|う}る — to sell; the everyday word for selling, while {商|あきな}う implies running a trade as an ongoing business\n- {商売|しょうばい}する — to do business; more general and modern, while {商|あきな}う has a traditional flavor",
+  "notes": "A godan verb (う row) meaning to trade or sell goods. More literary and traditional than ⟦{売|う}る→売る：00906_uru⟧ or ⟦{販売|はんばい}→販売：03573_hanbai⟧⟦する→する：00392_suru⟧. Often used when describing established businesses, family trades, or historical commerce. Related to the noun ⟦{商|あきな}い→商い：17167_akinai⟧ (trade, business).\n\nETYMOLOGY:\nDerived from ⟦{秋|あき}→秋：02276_aki⟧なう, originally referring to the harvest-season trade that took place in autumn. The kanji ⟦{商|しょう}→商：26727_shou⟧ (commerce) is used as an ateji.\n\nCOMMON COLLOCATIONS:\n- ⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{商|あきな}う — to deal in fish\n- {呉服|ごふく}⟦を→を：00422_wo⟧{商|あきな}う — to deal in kimono fabrics\n- ⟦{酒|さけ}→酒：02211_sake⟧⟦を→を：00422_wo⟧{商|あきな}う — to deal in sake\n- ⟦{代々|だいだい}→代々：05899_daidai⟧{商|あきな}う — to trade for generations\n\nSIMILAR WORDS:\n- ⟦{売|う}る→売る：00906_uru⟧ — to sell; the everyday word for selling, while {商|あきな}う implies running a trade as an ongoing business\n- ⟦{商売|しょうばい}→商売：03239_shoubai⟧⟦する→する：00392_suru⟧ — to do business; more general and modern, while {商|あきな}う has a traditional flavor",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -163,9 +163,10 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "godan-u"
+      "verb_class": "godan-u",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T07:25:06Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

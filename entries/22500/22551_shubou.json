@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22551_shubou_ex1",
-      "japanese": "{事件|じけん}の{首謀者|しゅぼうしゃ}が{逮捕|たいほ}された。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦{首謀者|しゅぼうしゃ}→首謀者：19171_shubousha⟧⟦が→が：00051_ga⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The mastermind of the incident was arrested.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22551_shubou_ex2",
-      "japanese": "{彼|かれ}がクーデターを{首謀|しゅぼう}したと{言|い}われている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦が→が：00051_ga⟧クーデター⟦を→を：00422_wo⟧{首謀|しゅぼう}⟦した→する：00392_suru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "He is said to have masterminded the coup.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22551_shubou_ex3",
-      "japanese": "{詐欺|さぎ}グループの{首謀者|しゅぼうしゃ}は{長年|ながねん}にわたって{捜査|そうさ}の{手|て}を{逃|のが}れていた。",
+      "japanese": "⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦グループ→グループ：03840_guruupu⟧⟦の→の：09472_no⟧⟦{首謀者|しゅぼうしゃ}→首謀者：19171_shubousha⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたって⟦{捜査|そうさ}→捜査：03688_sousa⟧⟦の→の：09472_no⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{逃|のが}れていた→逃れる：10425_nogareru⟧。",
       "english": "The ringleader of the fraud group had evaded investigation for many years.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {首|しゅ} (head, chief) + {謀|ぼう} (plot, scheme). Most commonly encountered in the compound {首謀者|しゅぼうしゃ} (mastermind, ringleader). The word is strongly negative, associated with criminal plots, conspiracies, rebellions, and organized wrongdoing.\n\nCOMMON COLLOCATIONS:\n- {首謀者|しゅぼうしゃ}: mastermind, ringleader\n- {首謀|しゅぼう}する: to mastermind, to plot\n- {事件|じけん}の{首謀者|しゅぼうしゃ}: the mastermind behind the incident\n- テロの{首謀者|しゅぼうしゃ}: the mastermind of the terrorist attack\n\nSIMILAR WORDS:\n- {黒幕|くろまく}: mastermind behind the scenes — implies pulling strings from a hidden position\n- {主犯|しゅはん}: principal offender — the legal term for the main perpetrator\n- {張本人|ちょうほんにん}: the person responsible — the one who is the root cause of trouble",
+  "notes": "Composed of {首|しゅ} (head, chief) + {謀|ぼう} (plot, scheme). Most commonly encountered in the compound ⟦{首謀者|しゅぼうしゃ}→首謀者：19171_shubousha⟧ (mastermind, ringleader). The word is strongly negative, associated with criminal plots, conspiracies, rebellions, and organized wrongdoing.\n\nCOMMON COLLOCATIONS:\n- ⟦{首謀者|しゅぼうしゃ}→首謀者：19171_shubousha⟧: mastermind, ringleader\n- {首謀|しゅぼう}⟦する→する：00392_suru⟧: to mastermind, to plot\n- ⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦{首謀者|しゅぼうしゃ}→首謀者：19171_shubousha⟧: the mastermind behind the incident\n- テロ⟦の→の：09472_no⟧⟦{首謀者|しゅぼうしゃ}→首謀者：19171_shubousha⟧: the mastermind of the terrorist attack\n\nSIMILAR WORDS:\n- ⟦{黒幕|くろまく}→黒幕：15478_kuromaku⟧: mastermind behind the scenes — implies pulling strings from a hidden position\n- ⟦{主犯|しゅはん}→主犯：18011_shuhan⟧: principal offender — the legal term for the main perpetrator\n- ⟦{張本人|ちょうほんにん}→張本人：26787_chouhonnin⟧: the person responsible — the one who is the root cause of trouble",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T17:35:18Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

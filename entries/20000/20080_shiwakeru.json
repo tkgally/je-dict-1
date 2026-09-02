@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20080_shiwakeru_ex1",
-      "japanese": "ゴミを{種類|しゅるい}ごとに{仕分|しわ}ける。",
+      "japanese": "⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧⟦{種類|しゅるい}→種類：01560_shurui⟧ごと⟦に→に：00314_ni⟧{仕分|しわ}ける。",
       "english": "To sort garbage by type.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20080_shiwakeru_ex2",
-      "japanese": "{届|とど}いた{荷物|にもつ}を{配達先|はいたつさき}ごとに{仕分|しわ}けた。",
+      "japanese": "⟦{届|とど}いた→届く：00899_todoku⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{配達先|はいたつさき}→配達先：27129_haitatsusaki⟧ごと⟦に→に：00314_ni⟧{仕分|しわ}けた。",
       "english": "I sorted the delivered packages by destination.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20080_shiwakeru_ex3",
-      "japanese": "{予算|よさん}を{項目|こうもく}ごとに{仕分|しわ}けて、{無駄|むだ}な{支出|ししゅつ}がないか{確認|かくにん}した。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{項目|こうもく}→項目：04150_koumoku⟧ごと⟦に→に：00314_ni⟧{仕分|しわ}けて、⟦{無駄|むだ}→無駄：02512_muda⟧な⟦{支出|ししゅつ}→支出：03169_shishutsu⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I sorted the budget by category and checked for wasteful spending.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "An ichidan (る) verb. The noun form {仕分|しわ}け is also very common, especially in compound forms.\n\nTRANSITIVITY:\nTransitive. The thing being sorted is marked with を.\n\nCOMMON COLLOCATIONS:\n- ゴミを{仕分|しわ}ける: to sort garbage\n- {荷物|にもつ}を{仕分|しわ}ける: to sort packages\n- {予算|よさん}を{仕分|しわ}ける: to screen/sort budgets\n- {郵便物|ゆうびんぶつ}を{仕分|しわ}ける: to sort mail\n\nUSAGE:\nThe noun form {仕分|しわ}け gained prominence in Japanese politics through the {事業|じぎょう}{仕分|しわ}け (project screening) process, where government spending programs were publicly reviewed and categorized for cutting.\n\nSIMILAR WORDS:\n- {分類|ぶんるい}する: to classify — more formal and systematic; used for academic or scientific categorization\n- {分|わ}ける: to divide, to separate — more general; doesn't necessarily imply categorization\n- {選別|せんべつ}する: to sort out, to screen — implies selecting good from bad",
+  "notes": "An ichidan (る) verb. The noun form {仕分|しわ}け is also very common, especially in compound forms.\n\nTRANSITIVITY:\nTransitive. The thing being sorted is marked with ⟦を→を：00422_wo⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧{仕分|しわ}ける: to sort garbage\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{仕分|しわ}ける: to sort packages\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{仕分|しわ}ける: to screen/sort budgets\n- ⟦{郵便物|ゆうびんぶつ}→郵便物：18044_yuubinbutsu⟧⟦を→を：00422_wo⟧{仕分|しわ}ける: to sort mail\n\nUSAGE:\nThe noun form {仕分|しわ}け gained prominence in Japanese politics through the ⟦{事業|じぎょう}→事業：11421_jigyou⟧{仕分|しわ}け (project screening) process, where government spending programs were publicly reviewed and categorized for cutting.\n\nSIMILAR WORDS:\n- ⟦{分類|ぶんるい}する→分類する：25224_bunruisuru⟧: to classify — more formal and systematic; used for academic or scientific categorization\n- ⟦{分|わ}ける→分ける：02333_wakeru⟧: to divide, to separate — more general; doesn't necessarily imply categorization\n- ⟦{選別|せんべつ}→選別：09616_senbetsu⟧⟦する→する：00392_suru⟧: to sort out, to screen — implies selecting good from bad",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -167,6 +167,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-28T07:38:37Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

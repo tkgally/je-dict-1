@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20734_taikaisuru_ex1",
-      "japanese": "ジムを{退会|たいかい}する。",
+      "japanese": "⟦ジム→ジム：04735_jimu⟧⟦を→を：00422_wo⟧{退会|たいかい}する。",
       "english": "To cancel one's gym membership.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20734_taikaisuru_ex2",
-      "japanese": "サービスを{退会|たいかい}するには{手続|てつづ}きが{必要|ひつよう}だ。",
+      "japanese": "⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧{退会|たいかい}する⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "You need to go through a procedure to cancel the service.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20734_taikaisuru_ex3",
-      "japanese": "{利用|りよう}しなくなったので、{会員|かいいん}サイトを{退会|たいかい}した。",
+      "japanese": "⟦{利用|りよう}→利用：01752_riyou⟧⟦しなく→する：00392_suru⟧⟦なった→なる：01970_naru⟧⟦の→の：09472_no⟧で、⟦{会員|かいいん}→会員：02535_kaiin⟧⟦サイト→サイト：05603_saito⟧⟦を→を：00422_wo⟧{退会|たいかい}した。",
       "english": "Since I stopped using it, I cancelled my membership on the site.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A する verb composed of {退|たい} (withdraw/retreat) + {会|かい} (association/group). Very common in modern life for cancelling subscriptions, gym memberships, online services, and club memberships.\n\nCOMMON COLLOCATIONS:\n- {退会|たいかい}{手続|てつづ}き: withdrawal procedure\n- {退会|たいかい}{届|とどけ}: withdrawal notice/form\n- {退会|たいかい}を{申|もう}し{出|で}る: to apply for withdrawal\n- {退会|たいかい}{済|ず}み: already cancelled/withdrawn\n\nUSAGE:\nFrequently encountered on websites and apps where users manage their accounts. The {退会|たいかい} button on Japanese websites is the equivalent of 'Delete Account' or 'Cancel Membership.'\n\nSIMILAR WORDS:\n- {入会|にゅうかい}する: to join, to sign up — the direct opposite\n- {脱退|だったい}する: to withdraw, to secede — stronger; used for leaving political parties, unions, or international organizations\n- {解約|かいやく}する: to cancel (a contract) — specifically about terminating a contract or subscription",
+  "notes": "A ⟦する→する：00392_suru⟧ verb composed of {退|たい} (withdraw/retreat) + ⟦{会|かい}→会：27493_kai⟧ (association/group). Very common in modern life for cancelling subscriptions, gym memberships, online services, and club memberships.\n\nCOMMON COLLOCATIONS:\n- ⟦{退会|たいかい}→退会：16082_taikai⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: withdrawal procedure\n- ⟦{退会|たいかい}→退会：16082_taikai⟧{届|とどけ}: withdrawal notice/form\n- ⟦{退会|たいかい}→退会：16082_taikai⟧⟦を→を：00422_wo⟧⟦{申|もう}し{出|で}る→申し出る：10465_moushideru⟧: to apply for withdrawal\n- ⟦{退会|たいかい}→退会：16082_taikai⟧⟦{済|ず}み→〜済み：04013_zumi⟧: already cancelled/withdrawn\n\nUSAGE:\nFrequently encountered on websites and apps where users manage their accounts. The ⟦{退会|たいかい}→退会：16082_taikai⟧ button on Japanese websites is the equivalent of 'Delete Account' or 'Cancel Membership.'\n\nSIMILAR WORDS:\n- ⟦{入会|にゅうかい}する→入会する：19522_nyuukaisuru⟧: to join, to sign up — the direct opposite\n- ⟦{脱退|だったい}→脱退：05770_dattai⟧⟦する→する：00392_suru⟧: to withdraw, to secede — stronger; used for leaving political parties, unions, or international organizations\n- ⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦する→する：00392_suru⟧: to cancel (a contract) — specifically about terminating a contract or subscription",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -80,10 +80,11 @@
       "semantic": [
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-30T14:29:56Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

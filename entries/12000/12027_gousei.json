@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12027_gousei_ex1",
-      "japanese": "{写真|しゃしん}を{合成|ごうせい}する。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{合成|ごうせい}⟦する→する：00392_suru⟧。",
       "english": "To composite photographs.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12027_gousei_ex2",
-      "japanese": "この{素材|そざい}は{合成|ごうせい}{繊維|せんい}でできている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦は→は：00079_ha⟧{合成|ごうせい}⟦{繊維|せんい}→繊維：13857_seni⟧⟦で→で：00502_de⟧⟦できている→できる：00557_dekiru⟧。",
       "english": "This material is made of synthetic fiber.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12027_gousei_ex3",
-      "japanese": "AIを{使|つか}って{音声|おんせい}を{合成|ごうせい}する{技術|ぎじゅつ}が{進歩|しんぽ}している。",
+      "japanese": "AI⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{音声|おんせい}→音声：04445_onsei⟧⟦を→を：00422_wo⟧{合成|ごうせい}⟦する→する：00392_suru⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧⟦{進歩|しんぽ}→進歩：03265_shinpo⟧⟦している→する：00392_suru⟧。",
       "english": "Technology for synthesizing speech using AI is advancing.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAs a noun, {合成|ごうせい} often modifies other nouns to mean \"synthetic\" or \"composite\": {合成|ごうせい}{樹脂|じゅし} (synthetic resin), {合成|ごうせい}{着色料|ちゃくしょくりょう} (synthetic coloring). As a する verb, it means to synthesize or composite.\n\nCOMMON COLLOCATIONS:\n- {合成|ごうせい}{写真|しゃしん}: composite photograph\n- {合成|ごうせい}{繊維|せんい}: synthetic fiber\n- {音声|おんせい}{合成|ごうせい}: speech synthesis\n- {化学|かがく}{合成|ごうせい}: chemical synthesis\n- {合成|ごうせい}{着色料|ちゃくしょくりょう}: artificial coloring",
+  "notes": "USAGE:\nAs a noun, {合成|ごうせい} often modifies other nouns to mean \"synthetic\" or \"composite\": {合成|ごうせい}⟦{樹脂|じゅし}→樹脂：17424_jushi⟧ (synthetic resin), {合成|ごうせい}⟦{着色料|ちゃくしょくりょう}→着色料：19751_chakushokuryou⟧ (synthetic coloring). As a ⟦する→する：00392_suru⟧ verb, it means to synthesize or composite.\n\nCOMMON COLLOCATIONS:\n- {合成|ごうせい}{写真|しゃしん}: composite photograph\n- {合成|ごうせい}⟦{繊維|せんい}→繊維：13857_seni⟧: synthetic fiber\n- ⟦{音声|おんせい}→音声：04445_onsei⟧{合成|ごうせい}: speech synthesis\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{合成|ごうせい}: chemical synthesis\n- {合成|ごうせい}⟦{着色料|ちゃくしょくりょう}→着色料：19751_chakushokuryou⟧: artificial coloring",
   "cross_references": [
     {
       "type": "antonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-19T13:30:56Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -169,7 +169,8 @@
       "semantic": [
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

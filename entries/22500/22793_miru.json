@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22793_miru_ex1",
-      "japanese": "{映画|えいが}を{観|み}に{行|い}く。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{観|み}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "To go watch a movie.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22793_miru_ex2",
-      "japanese": "{昨日|きのう}テレビでドラマを{観|み}た。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦テレビ→テレビ：01536_terebi⟧⟦で→で：00502_de⟧⟦ドラマ→ドラマ：03867_dorama⟧⟦を→を：00422_wo⟧{観|み}た。",
       "english": "I watched a drama on TV yesterday.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22793_miru_ex3",
-      "japanese": "{歌舞伎|かぶき}を{観|み}るのは{初|はじ}めてだったので、とても{感動|かんどう}した。",
+      "japanese": "⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧⟦を→を：00422_wo⟧{観|み}る⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧だった⟦の→の：09472_no⟧で、⟦とても→とても：00593_totemo⟧⟦{感動|かんどう}した→感動する：21603_kandousuru⟧。",
       "english": "It was my first time watching kabuki, so I was very moved.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The kanji {観|み}る specifically refers to watching as a spectator — viewing performances, shows, films, and spectacles. While {見|み}る is the general-purpose \"to see/look at,\" {観|み}る implies appreciating or taking in something meant to be watched.\n\nWRITING:\n- {見|み}る: general seeing, looking at anything\n- {観|み}る: watching performances, shows, movies, spectacles\n- {診|み}る: examining (medical)\n- {視|み}る: inspecting, observing (formal)\n\nIn casual writing, {見|み}る or hiragana みる is often used for all meanings. {観|み}る is preferred in more careful or literary writing when referring to entertainment.\n\nCOMMON COLLOCATIONS:\n- {映画|えいが}を{観|み}る: to watch a movie\n- {芝居|しばい}を{観|み}る: to watch a play\n- {試合|しあい}を{観|み}る: to watch a game\n- お{花見|はなみ}: flower viewing (uses the same {観|み} concept)\n\nSIMILAR WORDS:\n- {見|み}る: to see, to look at — the general-purpose verb; covers all types of seeing\n- {鑑賞|かんしょう}する: to appreciate (art, music) — more formal; emphasizes aesthetic appreciation\n- {観覧|かんらん}する: to view, to watch — formal; used for exhibitions and public events",
+  "notes": "The kanji {観|み}る specifically refers to watching as a spectator — viewing performances, shows, films, and spectacles. While ⟦{見|み}る→見る：00283_miru⟧ is the general-purpose \"to see/look at,\" {観|み}る implies appreciating or taking in something meant to be watched.\n\nWRITING:\n- ⟦{見|み}る→見る：00283_miru⟧: general seeing, looking at anything\n- {観|み}る: watching performances, shows, movies, spectacles\n- ⟦{診|み}る→診る：09798_miru⟧: examining (medical)\n- {視|み}る: inspecting, observing (formal)\n\nIn casual writing, ⟦{見|み}る→見る：00283_miru⟧ or hiragana みる is often used for all meanings. {観|み}る is preferred in more careful or literary writing when referring to entertainment.\n\nCOMMON COLLOCATIONS:\n- ⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{観|み}る: to watch a movie\n- ⟦{芝居|しばい}→芝居：03195_shibai⟧⟦を→を：00422_wo⟧{観|み}る: to watch a play\n- ⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧{観|み}る: to watch a game\n- ⟦お{花見|はなみ}→お花見：17953_ohanami⟧: flower viewing (uses the same {観|み} concept)\n\nSIMILAR WORDS:\n- ⟦{見|み}る→見る：00283_miru⟧: to see, to look at — the general-purpose verb; covers all types of seeing\n- ⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧⟦する→する：00392_suru⟧: to appreciate (art, music) — more formal; emphasizes aesthetic appreciation\n- ⟦{観覧|かんらん}→観覧：08382_kanran⟧⟦する→する：00392_suru⟧: to view, to watch — formal; used for exhibitions and public events",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,10 +60,11 @@
       "domain": [],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-07T16:42:21Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "ichidan",

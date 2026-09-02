@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10861_kontorooru_ex1",
-      "japanese": "{感情|かんじょう}をコントロールする。",
+      "japanese": "⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦を→を：00422_wo⟧コントロール⟦する→する：00392_suru⟧。",
       "english": "I control my emotions.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10861_kontorooru_ex2",
-      "japanese": "ボールのコントロールがいい。",
+      "japanese": "⟦ボール→ボール：00017_booru⟧⟦の→の：09472_no⟧コントロール⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "His ball control is good.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10861_kontorooru_ex3",
-      "japanese": "ストレスをうまくコントロールすることが{健康|けんこう}にとって{大切|たいせつ}だ。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦を→を：00422_wo⟧⟦うまく→うまい：01279_umai⟧コントロール⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦にとって→にとって：06803_nitotte⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Managing stress well is important for health.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "コントロール comes from English \"control\" and is used as both a noun and a suru verb.\n\nCOMMON COLLOCATIONS:\n- Xをコントロールする: to control X\n- コントロールが{効|き}く: to have control, to be controllable\n- コントロールを{失|うしな}う: to lose control\n- セルフコントロール: self-control\n- リモコン (リモートコントロール): remote control\n\nSIMILAR WORDS:\n- {制御|せいぎょ}: control (technical, mechanical/systems context)\n- {管理|かんり}: management, administration (organizational context)\n- {支配|しはい}: domination, control (over people or territory)\n- コントロール is the most versatile and casual, covering emotions, physical skills, and general management.",
+  "notes": "コントロール comes from English \"control\" and is used as both a noun and a suru verb.\n\nCOMMON COLLOCATIONS:\n- X⟦を→を：00422_wo⟧コントロール⟦する→する：00392_suru⟧: to control X\n- コントロール⟦が→が：00051_ga⟧⟦{効|き}く→効く：01932_kiku⟧: to have control, to be controllable\n- コントロール⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose control\n- セルフコントロール: self-control\n- ⟦リモコン→リモコン：05284_rimokon⟧ (リモートコントロール): remote control\n\nSIMILAR WORDS:\n- ⟦{制御|せいぎょ}→制御：11816_seigyo⟧: control (technical, mechanical/systems context)\n- ⟦{管理|かんり}→管理：00178_kanri⟧: management, administration (organizational context)\n- ⟦{支配|しはい}→支配：01421_shihai⟧: domination, control (over people or territory)\n- コントロール is the most versatile and casual, covering emotions, physical skills, and general management.",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-11T06:44:08Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:22Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -172,7 +172,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

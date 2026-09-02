@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15360_jishi_ex1",
-      "japanese": "{友人|ゆうじん}が{自死|じし}した。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦が→が：00051_ga⟧{自死|じし}⟦した→する：00392_suru⟧。",
       "english": "A friend died by suicide.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15360_jishi_ex2",
-      "japanese": "{自死|じし}{遺族|いぞく}への{支援|しえん}が{必要|ひつよう}だ。",
+      "japanese": "{自死|じし}⟦{遺族|いぞく}→遺族：14886_izoku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Support for families bereaved by suicide is needed.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15360_jishi_ex3",
-      "japanese": "{報道|ほうどう}では「{自殺|じさつ}」ではなく「{自死|じし}」という{表現|ひょうげん}が{使|つか}われることが{増|ふ}えている。",
+      "japanese": "⟦{報道|ほうどう}→報道：04438_houdou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧「⟦{自殺|じさつ}→自殺：03336_jisatsu⟧」⟦では→では：02945_deha⟧⟦なく→ない：01118_nai⟧「{自死|じし}」⟦という→という：09577_toiu⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦が→が：00051_ga⟧⟦{使|つか}われる→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "In media reporting, the term 'jishi' is increasingly used instead of 'jisatsu.'",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {自死|じし} is a gentler alternative to {自殺|じさつ}. The word {自殺|じさつ} literally contains {殺|ころ}す (to kill), which can feel harsh or judgmental. {自死|じし} uses {死|し} (death) instead, framing the act more neutrally.\n\nMany bereavement support groups and government agencies in Japan have adopted {自死|じし} as the preferred term. Some media organizations now use it in their style guides.\n\nCOMMON COLLOCATIONS:\n- {自死|じし}{遺族|いぞく}: families bereaved by suicide\n- {自死|じし}{予防|よぼう}: suicide prevention\n- {自死|じし}を{選|えら}ぶ: to choose to end one's life\n\nSIMILAR WORDS:\n- {自死|じし}: suicide (euphemistic, compassionate framing)\n- {自殺|じさつ}: suicide (direct, standard term)\n- {自害|じがい}: suicide (historical/literary, often refers to samurai ritual)",
+  "notes": "USAGE: {自死|じし} is a gentler alternative to ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧. The word ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧ literally contains ⟦{殺|ころ}す→殺す：01944_korosu⟧ (to kill), which can feel harsh or judgmental. {自死|じし} uses ⟦{死|し}→死：13248_shi⟧ (death) instead, framing the act more neutrally.\n\nMany bereavement support groups and government agencies in Japan have adopted {自死|じし} as the preferred term. Some media organizations now use it in their style guides.\n\nCOMMON COLLOCATIONS:\n- {自死|じし}⟦{遺族|いぞく}→遺族：14886_izoku⟧: families bereaved by suicide\n- {自死|じし}⟦{予防|よぼう}→予防：03669_yobou⟧: suicide prevention\n- {自死|じし}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose to end one's life\n\nSIMILAR WORDS:\n- {自死|じし}: suicide (euphemistic, compassionate framing)\n- ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧: suicide (direct, standard term)\n- ⟦{自害|じがい}→自害：15377_jigai⟧: suicide (historical/literary, often refers to samurai ritual)",
   "cross_references": [
     {
       "type": "synonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-06T11:47:42Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -165,7 +165,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

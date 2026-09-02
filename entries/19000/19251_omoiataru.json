@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19251_omoiataru_ex1",
-      "japanese": "{何|なに}か{思|おも}い{当|あ}たることはありますか。",
+      "japanese": "⟦{何|なに}か→何か：03873_nanika⟧{思|おも}い{当|あ}たること⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Can you think of anything (relevant)?",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19251_omoiataru_ex2",
-      "japanese": "{原因|げんいん}に{思|おも}い{当|あ}たる{節|ふし}がある。",
+      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧{思|おも}い{当|あ}たる⟦{節|ふし}→節：03713_fushi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have an idea of what the cause might be.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19251_omoiataru_ex3",
-      "japanese": "{彼|かれ}の{態度|たいど}が{変|か}わった{理由|りゆう}に{思|おも}い{当|あ}たるものがない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦に→に：00314_ni⟧{思|おも}い{当|あ}たるもの⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "I can't think of any reason why his attitude changed.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Used when something relevant comes to mind, especially a cause, reason, or explanation. Often appears in investigative or reflective contexts — a doctor asking a patient, a detective asking a witness, or someone trying to figure out why something happened.\n\nCOMMON COLLOCATIONS:\n- {思|おも}い{当|あ}たる{節|ふし}がある: to have an inkling, to have a hunch about something\n- {思|おも}い{当|あ}たることがない: to have no idea, nothing comes to mind\n- {何|なに}か{思|おも}い{当|あ}たることは?: can you think of anything?\n\nSIMILAR WORDS:\n- {思|おも}いつく: to come up with, to think of — broader usage, includes creative ideas and inventions\n- {心当|こころあ}たり: a clue, an idea (noun) — the noun form of a similar concept\n\nCOMMON PATTERNS:\nIntransitive verb. The thing that comes to mind is marked with に or が.",
+  "notes": "Used when something relevant comes to mind, especially a cause, reason, or explanation. Often appears in investigative or reflective contexts — a doctor asking a patient, a detective asking a witness, or someone trying to figure out why something happened.\n\nCOMMON COLLOCATIONS:\n- {思|おも}い{当|あ}たる⟦{節|ふし}→節：03713_fushi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have an inkling, to have a hunch about something\n- {思|おも}い{当|あ}たること⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: to have no idea, nothing comes to mind\n- ⟦{何|なに}か→何か：03873_nanika⟧{思|おも}い{当|あ}たること⟦は→は：00079_ha⟧?: can you think of anything?\n\nSIMILAR WORDS:\n- {思|おも}いつく: to come up with, to think of — broader usage, includes creative ideas and inventions\n- ⟦{心当|こころあ}たり→心当たり：15534_kokoroatari⟧: a clue, an idea (noun) — the noun form of a similar concept\n\nCOMMON PATTERNS:\nIntransitive verb. The thing that comes to mind is marked with ⟦に→に：00314_ni⟧ or が.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -156,9 +156,10 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

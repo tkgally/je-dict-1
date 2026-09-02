@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11775_seppuku_ex1",
-      "japanese": "{武士|ぶし}が{切腹|せっぷく}した。",
+      "japanese": "⟦{武士|ぶし}→武士：03989_bushi⟧⟦が→が：00051_ga⟧{切腹|せっぷく}⟦した→する：00392_suru⟧。",
       "english": "The samurai committed seppuku.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11775_seppuku_ex2",
-      "japanese": "{殿様|とのさま}から{切腹|せっぷく}を{命|めい}じられた。",
+      "japanese": "⟦{殿様|とのさま}→殿様：10455_tonosama⟧⟦から→から：00504_kara⟧{切腹|せっぷく}⟦を→を：00422_wo⟧⟦{命|めい}じられた→命じる：02309_meijiru⟧。",
       "english": "He was ordered by his lord to commit seppuku.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11775_seppuku_ex3",
-      "japanese": "{赤穂浪士|あこうろうし}たちは{討|う}ち{入|い}りの{後|あと}、{切腹|せっぷく}を{命|めい}じられた。",
+      "japanese": "{赤穂浪士|あこうろうし}たち⟦は→は：00079_ha⟧{討|う}ち{入|い}り⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{切腹|せっぷく}⟦を→を：00422_wo⟧⟦{命|めい}じられた→命じる：02309_meijiru⟧。",
       "english": "The Ako ronin were ordered to commit seppuku after their raid.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Also known as {腹切|はらき}り, though {切腹|せっぷく} is the more formal and respectful term. {腹切|はらき}り is the same kanji in reversed order and is the term more commonly used in Western languages.\n\nThe practice was formalized during the Edo period and could be either voluntary (to preserve honor) or ordered (as punishment). A {介錯人|かいしゃくにん} (second) would typically deliver a finishing blow.\n\nCOMMON COLLOCATIONS:\n- {切腹|せっぷく}する (to commit seppuku)\n- {切腹|せっぷく}を{命|めい}じる (to order seppuku)\n- {切腹|せっぷく}を{申|もう}しつける (to be sentenced to seppuku)",
+  "notes": "Also known as {腹切|はらき}り, though {切腹|せっぷく} is the more formal and respectful term. {腹切|はらき}り is the same kanji in reversed order and is the term more commonly used in Western languages.\n\nThe practice was formalized during the Edo period and could be either voluntary (to preserve honor) or ordered (as punishment). A {介錯人|かいしゃくにん} (second) would typically deliver a finishing blow.\n\nCOMMON COLLOCATIONS:\n- {切腹|せっぷく}⟦する→する：00392_suru⟧ (to commit seppuku)\n- {切腹|せっぷく}⟦を→を：00422_wo⟧⟦{命|めい}じる→命じる：02309_meijiru⟧ (to order seppuku)\n- {切腹|せっぷく}⟦を→を：00422_wo⟧{申|もう}しつける (to be sentenced to seppuku)",
   "cross_references": [
     {
       "type": "contrast",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -160,7 +160,8 @@
         "history",
         "culture"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17003_kokushi_ex1",
-      "japanese": "{体|からだ}を{酷使|こくし}してはいけない。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{酷使|こくし}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't overwork your body.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17003_kokushi_ex2",
-      "japanese": "{目|め}を{酷使|こくし}したせいで、{視力|しりょく}が{落|お}ちた。",
+      "japanese": "⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{酷使|こくし}⟦した→する：00392_suru⟧せい⟦で→で：00502_de⟧、⟦{視力|しりょく}→視力：05033_shiryoku⟧⟦が→が：00051_ga⟧⟦{落|お}ちた→落ちる：01242_ochiru⟧。",
       "english": "My eyesight deteriorated because I strained my eyes too much.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17003_kokushi_ex3",
-      "japanese": "{長年|ながねん}{酷使|こくし}してきたエンジンが、ついに{壊|こわ}れてしまった。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧{酷使|こくし}してきた⟦エンジン→エンジン：03835_enjin⟧⟦が→が：00051_ga⟧、ついに⟦{壊|こわ}れて→壊れる：00791_kowareru⟧しまった。",
       "english": "The engine, which had been used harshly for many years, finally broke down.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both as a noun and as a する verb ({酷使|こくし}する). Common objects of {酷使|こくし} include {体|からだ} (body), {目|め} (eyes), {声帯|せいたい} (vocal cords), and machinery. Always has a negative connotation.\n\nCOMMON COLLOCATIONS:\n- {体|からだ}を{酷使|こくし}する (to overwork one's body)\n- {目|め}を{酷使|こくし}する (to strain one's eyes)\n- {労働者|ろうどうしゃ}を{酷使|こくし}する (to overwork laborers)\n\nSIMILAR WORDS:\n- {使|つか}い{過|す}ぎ: overuse — milder and more neutral than {酷使|こくし}, which implies cruelty or mercilessness",
+  "notes": "USAGE:\nUsed both as a noun and as a ⟦する→する：00392_suru⟧ verb ({酷使|こくし}⟦する→する：00392_suru⟧). Common objects of {酷使|こくし} include ⟦{体|からだ}→体：00784_karada⟧ (body), ⟦{目|め}→目：00525_me⟧ (eyes), ⟦{声帯|せいたい}→声帯：12156_seitai⟧ (vocal cords), and machinery. Always has a negative connotation.\n\nCOMMON COLLOCATIONS:\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{酷使|こくし}⟦する→する：00392_suru⟧ (to overwork one's body)\n- ⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{酷使|こくし}⟦する→する：00392_suru⟧ (to strain one's eyes)\n- ⟦{労働者|ろうどうしゃ}→労働者：23971_roudousha⟧⟦を→を：00422_wo⟧{酷使|こくし}⟦する→する：00392_suru⟧ (to overwork laborers)\n\nSIMILAR WORDS:\n- ⟦{使|つか}い→使う：00473_tsukau⟧{過|す}ぎ: overuse — milder and more neutral than {酷使|こくし}, which implies cruelty or mercilessness",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "work",
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

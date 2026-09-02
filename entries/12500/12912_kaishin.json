@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12912_kaishin_ex1",
-      "japanese": "{彼|かれ}はようやく{改心|かいしん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧ようやく{改心|かいしん}⟦した→する：00392_suru⟧。",
       "english": "He finally had a change of heart.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12912_kaishin_ex2",
-      "japanese": "{犯罪者|はんざいしゃ}が{改心|かいしん}して{社会|しゃかい}に{戻|もど}ることは{可能|かのう}だろうか。",
+      "japanese": "⟦{犯罪者|はんざいしゃ}→犯罪者：19219_hanzaisha⟧⟦が→が：00051_ga⟧{改心|かいしん}⟦して→する：00392_suru⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧⟦{戻|もど}る→戻る：01117_modoru⟧こと⟦は→は：00079_ha⟧⟦{可能|かのう}→可能：00175_kanou⟧だろう⟦か→か：09473_ka⟧。",
       "english": "Is it possible for a criminal to reform and return to society?",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12912_kaishin_ex3",
-      "japanese": "{何度|なんど}{注意|ちゅうい}しても{改心|かいしん}の{様子|ようす}が{見|み}られず、{周囲|しゅうい}はあきれている。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧{改心|かいしん}⟦の→の：09472_no⟧⟦{様子|ようす}→様子：01521_yousu⟧⟦が→が：00051_ga⟧⟦{見|み}られ→見る：00283_miru⟧ず、⟦{周囲|しゅうい}→周囲：03206_shuui⟧⟦は→は：00079_ha⟧あきれて⟦いる→いる：00495_iru⟧。",
       "english": "Even after being warned repeatedly, there is no sign of reform, and those around him are exasperated.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Describes a moral or behavioral transformation — a person who was doing wrong sees the error of their ways and changes. Often used when discussing criminals, delinquents, or people with bad habits. Carries a somewhat serious, literary tone.\n\nCOMMON COLLOCATIONS:\n- {改心|かいしん}する: to reform, to repent\n- {改心|かいしん}の{余地|よち}: room for reform\n- {改心|かいしん}の{様子|ようす}が{見|み}られない: showing no signs of reform\n\nSIMILAR WORDS:\n- {更生|こうせい}: rehabilitation, reformation (especially of criminals; institutional)\n- {反省|はんせい}: reflection, remorse (less deep; examining one's actions)",
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Describes a moral or behavioral transformation — a person who was doing wrong sees the error of their ways and changes. Often used when discussing criminals, delinquents, or people with bad habits. Carries a somewhat serious, literary tone.\n\nCOMMON COLLOCATIONS:\n- {改心|かいしん}⟦する→する：00392_suru⟧: to reform, to repent\n- {改心|かいしん}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧: room for reform\n- {改心|かいしん}⟦の→の：09472_no⟧⟦{様子|ようす}→様子：01521_yousu⟧⟦が→が：00051_ga⟧⟦{見|み}られない→見る：00283_miru⟧: showing no signs of reform\n\nSIMILAR WORDS:\n- ⟦{更生|こうせい}→更生：18057_kousei⟧: rehabilitation, reformation (especially of criminals; institutional)\n- ⟦{反省|はんせい}→反省：03570_hansei⟧: reflection, remorse (less deep; examining one's actions)",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T14:28:41Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

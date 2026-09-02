@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14790_fukazake_ex1",
-      "japanese": "{昨夜|ゆうべ}は{深酒|ふかざけ}してしまった。",
+      "japanese": "{昨夜|ゆうべ}⟦は→は：00079_ha⟧{深酒|ふかざけ}⟦して→する：00392_suru⟧しまった。",
       "english": "I drank too much last night.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14790_fukazake_ex2",
-      "japanese": "{深酒|ふかざけ}のせいで{頭|あたま}が{痛|いた}い。",
+      "japanese": "{深酒|ふかざけ}⟦の→の：09472_no⟧せい⟦で→で：00502_de⟧⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "I have a headache from drinking too much.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14790_fukazake_ex3",
-      "japanese": "{明日|あした}{早|はや}いから{深酒|ふかざけ}はやめておこう。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦{早|はや}い→早い：00514_hayai⟧⟦から→から：00504_kara⟧{深酒|ふかざけ}はやめておこう。",
       "english": "I have an early morning tomorrow, so I'll avoid drinking too much.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Refers to excessive drinking on a specific occasion, not habitual alcoholism. For chronic heavy drinking, {大酒|おおざけ}{飲|の}み or アルコール{依存症|いぞんしょう} would be more appropriate.\n\nCOMMON COLLOCATIONS:\n- {深酒|ふかざけ}する (to drink excessively)\n- {深酒|ふかざけ}がたたる (to suffer the consequences of heavy drinking)\n- {深酒|ふかざけ}を{控|ひか}える (to refrain from heavy drinking)\n\nUSAGE:\n{深酒|ふかざけ} typically describes a single occasion of overdrinking rather than a pattern. It often appears in the context of regretting the next morning.",
+  "notes": "Refers to excessive drinking on a specific occasion, not habitual alcoholism. For chronic heavy drinking, {大酒|おおざけ}{飲|の}み or ⟦アルコール→アルコール：01771_arukooru⟧⟦{依存症|いぞんしょう}→依存症：17964_izonshou⟧ would be more appropriate.\n\nCOMMON COLLOCATIONS:\n- {深酒|ふかざけ}⟦する→する：00392_suru⟧ (to drink excessively)\n- {深酒|ふかざけ}⟦が→が：00051_ga⟧たたる (to suffer the consequences of heavy drinking)\n- {深酒|ふかざけ}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧ (to refrain from heavy drinking)\n\nUSAGE:\n{深酒|ふかざけ} typically describes a single occasion of overdrinking rather than a pattern. It often appears in the context of regretting the next morning.",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-03T12:49:02Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "consumption"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

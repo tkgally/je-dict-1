@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15086_yuukizukeru_ex1",
-      "japanese": "{友達|ともだち}を{勇気|ゆうき}づけた。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧{勇気|ゆうき}づけた。",
       "english": "I encouraged my friend.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15086_yuukizukeru_ex2",
-      "japanese": "{彼|かれ}の{言葉|ことば}に{勇気|ゆうき}づけられた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧{勇気|ゆうき}づけられた。",
       "english": "I was encouraged by his words.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15086_yuukizukeru_ex3",
-      "japanese": "{落|お}ち{込|こ}んでいる{後輩|こうはい}を{勇気|ゆうき}づけるために{声|こえ}をかけた。",
+      "japanese": "⟦{落|お}ち{込|こ}んでいる→落ち込む：05750_ochikomu⟧⟦{後輩|こうはい}→後輩：02501_kouhai⟧⟦を→を：00422_wo⟧{勇気|ゆうき}づける⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I spoke to my junior to encourage them when they were feeling down.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{勇気|ゆうき}づける is an ichidan (ru-verb) that means to give someone courage. The passive form {勇気|ゆうき}づけられる (to be encouraged) is very common.\n\nSIMILAR WORDS:\n{励|はげ}ます also means to encourage, but has a broader scope and is more commonly used in everyday speech. {勇気|ゆうき}づける specifically emphasizes giving someone courage or bravery.",
+  "notes": "USAGE:\n{勇気|ゆうき}づける is an ichidan (ru-verb) that means to give someone courage. The passive form {勇気|ゆうき}づけられる (to be encouraged) is very common.\n\nSIMILAR WORDS:\n⟦{励|はげ}ます→励ます：05304_hagemasu⟧ also means to encourage, but has a broader scope and is more commonly used in everyday speech. {勇気|ゆうき}づける specifically emphasizes giving someone courage or bravery.",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
         "emotion",
         "communication"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     }
   }
 }

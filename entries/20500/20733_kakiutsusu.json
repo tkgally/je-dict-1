@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20733_kakiutsusu_ex1",
-      "japanese": "{黒板|こくばん}の{内容|ないよう}を{書|か}き{写|うつ}す。",
+      "japanese": "⟦{黒板|こくばん}→黒板：02756_kokuban⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧{書|か}き{写|うつ}す。",
       "english": "To copy down what's on the blackboard.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20733_kakiutsusu_ex2",
-      "japanese": "ノートに{教科書|きょうかしょ}の{文|ぶん}を{書|か}き{写|うつ}した。",
+      "japanese": "⟦ノート→ノート：00738_nooto⟧⟦に→に：00314_ni⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦の→の：09472_no⟧⟦{文|ぶん}→文：03716_bun⟧⟦を→を：00422_wo⟧{書|か}き{写|うつ}した。",
       "english": "I copied the sentences from the textbook into my notebook.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20733_kakiutsusu_ex3",
-      "japanese": "{古|ふる}い{手紙|てがみ}を{丁寧|ていねい}に{書|か}き{写|うつ}して{記録|きろく}に{残|のこ}した。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧{書|か}き{写|うつ}して⟦{記録|きろく}→記録：02490_kiroku⟧⟦に→に：00314_ni⟧⟦{残|のこ}した→残す：01975_nokosu⟧。",
       "english": "I carefully transcribed the old letters and preserved them as a record.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound godan verb ({書|か}く + {写|うつ}す) meaning to copy text by writing it out. Implies manual handwriting rather than mechanical or digital copying.\n\nCOMMON COLLOCATIONS:\n- {黒板|こくばん}を{書|か}き{写|うつ}す: to copy from the blackboard\n- ノートに{書|か}き{写|うつ}す: to copy into a notebook\n- {丁寧|ていねい}に{書|か}き{写|うつ}す: to carefully transcribe\n- {原文|げんぶん}を{書|か}き{写|うつ}す: to copy the original text\n\nSIMILAR WORDS:\n- {写|うつ}す: to copy — the base verb; broader meaning including photographing and copying by any means\n- {書|か}き{取|と}る: to write down, to take dictation — writing from spoken words rather than from a written source\n- {転記|てんき}する: to transcribe, to transfer (data) — more formal; used for transferring information between records or documents\n- {模写|もしゃ}する: to copy, to reproduce — used for copying artwork or visual materials, not just text",
+  "notes": "A compound godan verb (⟦{書|か}く→書く：00477_kaku⟧ + ⟦{写|うつ}す→写す：01227_utsusu⟧) meaning to copy text by writing it out. Implies manual handwriting rather than mechanical or digital copying.\n\nCOMMON COLLOCATIONS:\n- ⟦{黒板|こくばん}→黒板：02756_kokuban⟧⟦を→を：00422_wo⟧{書|か}き{写|うつ}す: to copy from the blackboard\n- ⟦ノート→ノート：00738_nooto⟧⟦に→に：00314_ni⟧{書|か}き{写|うつ}す: to copy into a notebook\n- ⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧{書|か}き{写|うつ}す: to carefully transcribe\n- ⟦{原文|げんぶん}→原文：20563_genbun⟧⟦を→を：00422_wo⟧{書|か}き{写|うつ}す: to copy the original text\n\nSIMILAR WORDS:\n- ⟦{写|うつ}す→写す：01227_utsusu⟧: to copy — the base verb; broader meaning including photographing and copying by any means\n- {書|か}き{取|と}る: to write down, to take dictation — writing from spoken words rather than from a written source\n- {転記|てんき}⟦する→する：00392_suru⟧: to transcribe, to transfer (data) — more formal; used for transferring information between records or documents\n- ⟦{模写|もしゃ}→模写：19473_mosha⟧⟦する→する：00392_suru⟧: to copy, to reproduce — used for copying artwork or visual materials, not just text",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -73,10 +73,11 @@
       "semantic": [
         "language"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-03-30T14:29:36Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "godan",

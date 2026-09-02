@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14169_kisai_ex1",
-      "japanese": "{住所|じゅうしょ}を{記載|きさい}してください。",
+      "japanese": "⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧{記載|きさい}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write down your address.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14169_kisai_ex2",
-      "japanese": "{記載|きさい}{内容|ないよう}に{間違|まちが}いがないか{確認|かくにん}した。",
+      "japanese": "{記載|きさい}{内容|ないよう}⟦に→に：00314_ni⟧⟦{間違|まちが}い→間違い：03733_machigai⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked whether the written information was correct.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14169_kisai_ex3",
-      "japanese": "{契約書|けいやくしょ}に{記載|きさい}されている{条件|じょうけん}をよく{読|よ}んでから{署名|しょめい}した。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦に→に：00314_ni⟧{記載|きさい}⟦されている→する：00392_suru⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦から→から：00504_kara⟧⟦{署名|しょめい}した→署名する：22432_shomeisuru⟧。",
       "english": "I read the conditions listed in the contract carefully before signing.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{記載|きさい} is used in formal, written contexts — documents, forms, contracts, and official records. It is more formal than {書|か}く (to write) and implies recording information in an organized, official manner. The passive form {記載|きさい}されている (is listed/recorded) is particularly common when referring to information already written in a document.\n\nCOMMON COLLOCATIONS:\n- {記載|きさい}する: to record, to list\n- {記載|きさい}{事項|じこう}: items to be recorded\n- {記載|きさい}{内容|ないよう}: recorded content\n- {記載|きさい}{漏|も}れ: omission in recording",
+  "notes": "USAGE:\n{記載|きさい} is used in formal, written contexts — documents, forms, contracts, and official records. It is more formal than ⟦{書|か}く→書く：00477_kaku⟧ (to write) and implies recording information in an organized, official manner. The passive form {記載|きさい}⟦されている→する：00392_suru⟧ (is listed/recorded) is particularly common when referring to information already written in a document.\n\nCOMMON COLLOCATIONS:\n- {記載|きさい}⟦する→する：00392_suru⟧: to record, to list\n- {記載|きさい}{事項|じこう}: items to be recorded\n- {記載|きさい}{内容|ないよう}: recorded content\n- {記載|きさい}{漏|も}れ: omission in recording",
   "cross_references": [
     {
       "type": "synonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-28T01:53:03Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -190,7 +190,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

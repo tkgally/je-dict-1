@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27262_omatase_ex1",
-      "japanese": "お{待|ま}たせ！{遅|おく}れてごめん。",
+      "japanese": "お{待|ま}たせ！⟦{遅|おく}れて→遅れる：00741_okureru⟧ごめん。",
       "english": "Sorry for the wait! Sorry I'm late.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27262_omatase_ex2",
-      "japanese": "お{待|ま}たせしました。ご{注文|ちゅうもん}の{品|しな}です。",
+      "japanese": "お{待|ま}たせ⟦しました→する：00392_suru⟧。ご⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦の→の：09472_no⟧⟦{品|しな}→品：03192_shina⟧です。",
       "english": "Thank you for waiting. Here is your order.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27262_omatase_ex3",
-      "japanese": "{大変|たいへん}お{待|ま}たせいたしました。ただいまお{席|せき}にご{案内|あんない}いたします。",
+      "japanese": "⟦{大変|たいへん}→大変：00594_taihen⟧お{待|ま}たせ⟦いたしました→いたす：01314_itasu⟧。⟦ただいま→ただいま：01062_tadaima⟧お⟦{席|せき}→席：02215_seki⟧⟦に→に：00314_ni⟧ご⟦{案内|あんない}→案内：01291_annai⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "I'm very sorry to have kept you waiting. I will show you to your seat now.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Shortened form of お{待|ま}たせしました. The casual form お{待|ま}たせ is used between friends and family, while お{待|ま}たせしました is standard polite, and {大変|たいへん}お{待|ま}たせいたしました is humble/formal.\n\nPOLITENESS LEVELS:\n- お{待|ま}たせ: casual, among friends\n- お{待|ま}たせしました: standard polite, used in shops and restaurants\n- {大変|たいへん}お{待|ま}たせいたしました: very formal, used in business or upscale service\n\nUSAGE:\nUsed in two main contexts:\n- When you arrive and someone has been waiting for you\n- When service staff deliver something to a customer (food, documents, etc.)\n\nThe phrase is almost automatic in service contexts. Even if the wait was very short, staff will say お{待|ま}たせしました as a courtesy.\n\nSIMILAR WORDS:\n- {遅|おく}れてすみません: sorry for being late — a direct apology for lateness, not used in service contexts\n- お{待|ま}ちください: please wait — the requesting side, not the apologizing side",
+  "notes": "Shortened form of お{待|ま}たせ⟦しました→する：00392_suru⟧. The casual form お{待|ま}たせ is used between friends and family, while お{待|ま}たせ⟦しました→する：00392_suru⟧ is standard polite, and ⟦{大変|たいへん}→大変：00594_taihen⟧お{待|ま}たせ⟦いたしました→いたす：01314_itasu⟧ is humble/formal.\n\nPOLITENESS LEVELS:\n- お{待|ま}たせ: casual, among friends\n- お{待|ま}たせ⟦しました→する：00392_suru⟧: standard polite, used in shops and restaurants\n- ⟦{大変|たいへん}→大変：00594_taihen⟧お{待|ま}たせ⟦いたしました→いたす：01314_itasu⟧: very formal, used in business or upscale service\n\nUSAGE:\nUsed in two main contexts:\n- When you arrive and someone has been waiting for you\n- When service staff deliver something to a customer (food, documents, etc.)\n\nThe phrase is almost automatic in service contexts. Even if the wait was very short, staff will say お{待|ま}たせ⟦しました→する：00392_suru⟧ as a courtesy.\n\nSIMILAR WORDS:\n- ⟦{遅|おく}れて→遅れる：00741_okureru⟧すみません: sorry for being late — a direct apology for lateness, not used in service contexts\n- お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧: please wait — the requesting side, not the apologizing side",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +60,6 @@
       "domain": []
     },
     "created": "2026-05-08T12:09:00Z",
-    "modified": "2026-05-08T12:09:00Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09458_kokatsu_ex1",
-      "japanese": "{資金|しきん}が{枯渇|こかつ}する。",
+      "japanese": "⟦{資金|しきん}→資金：09937_shikin⟧⟦が→が：00051_ga⟧{枯渇|こかつ}⟦する→する：00392_suru⟧。",
       "english": "Funds are running dry.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09458_kokatsu_ex2",
-      "japanese": "{水源|すいげん}の{枯渇|こかつ}が{心配|しんぱい}される。",
+      "japanese": "⟦{水源|すいげん}→水源：09255_suigen⟧⟦の→の：09472_no⟧{枯渇|こかつ}⟦が→が：00051_ga⟧⟦{心配|しんぱい}される→心配する：06066_shinpaisuru⟧。",
       "english": "There are concerns about the depletion of water sources.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09458_kokatsu_ex3",
-      "japanese": "アイデアが{枯渇|こかつ}してしまった。",
+      "japanese": "⟦アイデア→アイデア：10161_aidea⟧⟦が→が：00051_ga⟧{枯渇|こかつ}⟦して→する：00392_suru⟧しまった。",
       "english": "I've run out of ideas.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09458_kokatsu_ex4",
-      "japanese": "{石油|せきゆ}{資源|しげん}の{枯渇|こかつ}が{懸念|けねん}されている。",
+      "japanese": "⟦{石油|せきゆ}→石油：01448_sekiyu⟧⟦{資源|しげん}→資源：03167_shigen⟧⟦の→の：09472_no⟧{枯渇|こかつ}⟦が→が：00051_ga⟧⟦{懸念|けねん}→懸念：05622_kenen⟧⟦されている→する：00392_suru⟧。",
       "english": "The depletion of oil resources is a concern.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{枯渇|こかつ} combines {枯|か}れる (to wither, dry up) and {渇|かわ}く (to dry up, be thirsty), creating a strong image of complete depletion.\n\nUsage:\n- {枯渇|こかつ}する (to become depleted, run dry)\n- {枯渇|こかつ}させる (to deplete, exhaust)\n\nCommonly used with:\n- {資源|しげん} (resources)\n- {資金|しきん} (funds)\n- {水源|すいげん} (water sources)\n- アイデア (ideas)\n- {体力|たいりょく} (physical energy)\n\nRelated words:\n- {底|そこ}をつく: to run out, be exhausted\n- {尽|つ}きる: to be used up\n- {払底|ふってい}: running out, becoming scarce",
+  "notes": "{枯渇|こかつ} combines ⟦{枯|か}れる→枯れる：04589_kareru⟧ (to wither, dry up) and ⟦{渇|かわ}く→渇く：10965_kawaku⟧ (to dry up, be thirsty), creating a strong image of complete depletion.\n\nUsage:\n- {枯渇|こかつ}⟦する→する：00392_suru⟧ (to become depleted, run dry)\n- {枯渇|こかつ}⟦させる→する：00392_suru⟧ (to deplete, exhaust)\n\nCommonly used with:\n- ⟦{資源|しげん}→資源：03167_shigen⟧ (resources)\n- ⟦{資金|しきん}→資金：09937_shikin⟧ (funds)\n- ⟦{水源|すいげん}→水源：09255_suigen⟧ (water sources)\n- ⟦アイデア→アイデア：10161_aidea⟧ (ideas)\n- ⟦{体力|たいりょく}→体力：05318_tairyoku⟧ (physical energy)\n\nRelated words:\n- ⟦{底|そこ}→底：12560_soko⟧⟦を→を：00422_wo⟧つく: to run out, be exhausted\n- ⟦{尽|つ}きる→尽きる：12365_tsukiru⟧: to be used up\n- {払底|ふってい}: running out, becoming scarce",
   "metadata": {
     "created": "2026-02-01T15:16:41Z",
-    "modified": "2026-09-02T02:55:19Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -164,7 +164,8 @@
         "written",
         "spoken"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "cross_references": [

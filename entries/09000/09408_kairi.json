@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09408_kairi_ex1",
-      "japanese": "{理想|りそう}と{現実|げんじつ}の{乖離|かいり}。",
+      "japanese": "⟦{理想|りそう}→理想：03676_risou⟧⟦と→と：00512_to⟧⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦の→の：09472_no⟧{乖離|かいり}。",
       "english": "The gap between ideal and reality.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09408_kairi_ex2",
-      "japanese": "{世論|せろん}と{政策|せいさく}が{乖離|かいり}している。",
+      "japanese": "⟦{世論|せろん}→世論：05315_seron⟧⟦と→と：00512_to⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦が→が：00051_ga⟧{乖離|かいり}⟦している→する：00392_suru⟧。",
       "english": "Public opinion and policy are diverging.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09408_kairi_ex3",
-      "japanese": "{株価|かぶか}と{実体経済|じったいけいざい}の{乖離|かいり}が{指摘|してき}されている。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦と→と：00512_to⟧{実体経済|じったいけいざい}⟦の→の：09472_no⟧{乖離|かいり}⟦が→が：00051_ga⟧⟦{指摘|してき}→指摘：05630_shiteki⟧⟦されている→する：00392_suru⟧。",
       "english": "The divergence between stock prices and the real economy is being pointed out.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09408_kairi_ex4",
-      "japanese": "{両者|りょうしゃ}の{認識|にんしき}には{大|おお}きな{乖離|かいり}がある。",
+      "japanese": "⟦{両者|りょうしゃ}→両者：11357_ryousha⟧⟦の→の：09472_no⟧⟦{認識|にんしき}→認識：05090_ninshiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{乖離|かいり}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a significant gap in the understanding of both parties.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{乖離|かいり} is a formal term often used in academic, business, and political contexts. It suggests things that should be connected or aligned have drifted apart.\n\nCommon collocations:\n- {乖離|かいり}が{生|しょう}じる: a gap emerges\n- {乖離|かいり}が{大|おお}きい: a large gap\n- 〜と〜の{乖離|かいり}: gap between ~ and ~\n\nRelated terms:\n- {隔|へだ}たり: gap, distance\n- ずれ: discrepancy, gap\n- {齟齬|そご}: discrepancy, mismatch",
+  "notes": "{乖離|かいり} is a formal term often used in academic, business, and political contexts. It suggests things that should be connected or aligned have drifted apart.\n\nCommon collocations:\n- {乖離|かいり}⟦が→が：00051_ga⟧⟦{生|しょう}じる→生じる：02118_shoujiru⟧: a gap emerges\n- {乖離|かいり}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧: a large gap\n- 〜⟦と→と：00512_to⟧〜⟦の→の：09472_no⟧{乖離|かいり}: gap between ~ and ~\n\nRelated terms:\n- ⟦{隔|へだ}たり→隔たり：09618_hedatari⟧: gap, distance\n- ⟦ずれ→ずれ：10044_zure⟧: discrepancy, gap\n- ⟦{齟齬|そご}→齟齬：09407_sogo⟧: discrepancy, mismatch",
   "metadata": {
     "created": "2026-02-01T09:18:38Z",
-    "modified": "2026-09-02T02:55:22Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "cross_references": [

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12290_yorimichi_ex1",
-      "japanese": "{帰|かえ}りに{寄|よ}り{道|みち}した。",
+      "japanese": "⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦に→に：00314_ni⟧{寄|よ}り{道|みち}⟦した→する：00392_suru⟧。",
       "english": "I made a stop on the way home.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12290_yorimichi_ex2",
-      "japanese": "{学校|がっこう}の{帰|かえ}りに{寄|よ}り{道|みち}しないで{帰|かえ}りなさい。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦に→に：00314_ni⟧{寄|よ}り{道|みち}⟦しないで→する：00392_suru⟧⟦{帰|かえ}り→帰る：00508_kaeru⟧⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Come straight home from school without making any detours.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12290_yorimichi_ex3",
-      "japanese": "{出張|しゅっちょう}の{帰|かえ}りに{京都|きょうと}で{寄|よ}り{道|みち}して、{観光|かんこう}を{楽|たの}しんだ。",
+      "japanese": "⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦の→の：09472_no⟧⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦に→に：00314_ni⟧⟦{京都|きょうと}→京都：09484_kyouto⟧⟦で→で：00502_de⟧{寄|よ}り{道|みち}⟦して→する：00392_suru⟧、⟦{観光|かんこう}→観光：00173_kankou⟧⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "On the way back from a business trip, I made a side trip to Kyoto and enjoyed some sightseeing.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA warm, everyday word. Parents commonly tell children {寄|よ}り{道|みち}しないで (don't make detours / come straight home). Also used figuratively: {話|はなし}が{寄|よ}り{道|みち}する (the conversation goes off on a tangent). The word conveys a casual, unhurried feeling — the detour is usually for pleasure or curiosity rather than necessity.\n\nCOMMON COLLOCATIONS:\n- {寄|よ}り{道|みち}する: to make a detour, to stop by\n- {寄|よ}り{道|みち}しないで: without making detours\n- {帰|かえ}りに{寄|よ}り{道|みち}する: to stop somewhere on the way home\n- ちょっと{寄|よ}り{道|みち}: a little side trip",
+  "notes": "USAGE:\nA warm, everyday word. Parents commonly tell children {寄|よ}り{道|みち}⟦しないで→する：00392_suru⟧ (don't make detours / come straight home). Also used figuratively: ⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧{寄|よ}り{道|みち}⟦する→する：00392_suru⟧ (the conversation goes off on a tangent). The word conveys a casual, unhurried feeling — the detour is usually for pleasure or curiosity rather than necessity.\n\nCOMMON COLLOCATIONS:\n- {寄|よ}り{道|みち}⟦する→する：00392_suru⟧: to make a detour, to stop by\n- {寄|よ}り{道|みち}⟦しないで→する：00392_suru⟧: without making detours\n- ⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦に→に：00314_ni⟧{寄|よ}り{道|みち}⟦する→する：00392_suru⟧: to stop somewhere on the way home\n- ⟦ちょっと→ちょっと：00595_chotto⟧{寄|よ}り{道|みち}: a little side trip",
   "cross_references": [
     {
       "type": "related",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T15:11:11Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

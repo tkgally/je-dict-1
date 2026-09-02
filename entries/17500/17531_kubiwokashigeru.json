@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17531_kubiwokashigeru_ex1",
-      "japanese": "{彼|かれ}の{説明|せつめい}に{首|くび}を{傾|かし}げた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦に→に：00314_ni⟧{首|くび}を{傾|かし}げた。",
       "english": "I tilted my head in puzzlement at his explanation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17531_kubiwokashigeru_ex2",
-      "japanese": "{不思議|ふしぎ}に{思|おも}って{首|くび}を{傾|かし}げた。",
+      "japanese": "⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧⟦に→に：00314_ni⟧⟦{思|おも}って→思う：00492_omou⟧{首|くび}を{傾|かし}げた。",
       "english": "I tilted my head, finding it strange.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17531_kubiwokashigeru_ex3",
-      "japanese": "{専門家|せんもんか}でさえ{首|くび}を{傾|かし}げるような{難問|なんもん}だった。",
+      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧でさえ{首|くび}を{傾|かし}げるような⟦{難問|なんもん}→難問：18031_nanmon⟧だった。",
       "english": "It was such a difficult problem that even experts were puzzled.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA common idiomatic expression that combines the physical gesture of head-tilting with the mental state of doubt or confusion. Can describe the actual physical action or be used figuratively to mean \"to have doubts about.\" The variant {首|くび}をひねる has a similar meaning but implies more active thinking or struggling with a problem.\n\nCOMMON PATTERNS:\n- ～に{首|くび}を{傾|かし}げる (to be puzzled by ~)\n- {首|くび}を{傾|かし}げざるを{得|え}ない (cannot help but wonder)\n\nSIMILAR WORDS:\n- {首|くび}をひねる: to puzzle over — implies more active deliberation\n- {疑問|ぎもん}に{思|おも}う: to find doubtful — more straightforward\n- {腑|ふ}に{落|お}ちない: to not make sense — stronger dissatisfaction",
+  "notes": "USAGE:\nA common idiomatic expression that combines the physical gesture of head-tilting with the mental state of doubt or confusion. Can describe the actual physical action or be used figuratively to mean \"to have doubts about.\" The variant ⟦{首|くび}→首：00792_kubi⟧⟦を→を：00422_wo⟧ひねる has a similar meaning but implies more active thinking or struggling with a problem.\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧{首|くび}を{傾|かし}げる (to be puzzled by ~)\n- {首|くび}を{傾|かし}げざる⟦を→を：00422_wo⟧⟦{得|え}ない→得る：02014_eru⟧ (cannot help but wonder)\n\nSIMILAR WORDS:\n- ⟦{首|くび}→首：00792_kubi⟧⟦を→を：00422_wo⟧ひねる: to puzzle over — implies more active deliberation\n- ⟦{疑問|ぎもん}→疑問：02648_gimon⟧⟦に→に：00314_ni⟧⟦{思|おも}う→思う：00492_omou⟧: to find doubtful — more straightforward\n- {腑|ふ}に{落|お}ちない: to not make sense — stronger dissatisfaction",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-18T08:02:52Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "cognition",
         "body-part"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     }
   }
 }

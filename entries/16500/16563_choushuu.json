@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16563_choushuu_ex1",
-      "japanese": "{税金|ぜいきん}を{徴収|ちょうしゅう}する。",
+      "japanese": "⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦を→を：00422_wo⟧{徴収|ちょうしゅう}⟦する→する：00392_suru⟧。",
       "english": "To collect taxes.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16563_choushuu_ex2",
-      "japanese": "{入場料|にゅうじょうりょう}は{当日|とうじつ}{徴収|ちょうしゅう}します。",
+      "japanese": "⟦{入場料|にゅうじょうりょう}→入場料：07056_nyuujouryou⟧⟦は→は：00079_ha⟧⟦{当日|とうじつ}→当日：04558_toujitsu⟧{徴収|ちょうしゅう}⟦します→する：00392_suru⟧。",
       "english": "The admission fee will be collected on the day.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16563_choushuu_ex3",
-      "japanese": "{未払|みばら}いの{会費|かいひ}を{徴収|ちょうしゅう}するために{通知|つうち}を{送|おく}った。",
+      "japanese": "⟦{未払|みばら}い→未払い：18029_mibarai⟧⟦の→の：09472_no⟧⟦{会費|かいひ}→会費：08469_kaihi⟧⟦を→を：00422_wo⟧{徴収|ちょうしゅう}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{通知|つうち}→通知：04061_tsuuchi⟧⟦を→を：00422_wo⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "We sent a notice to collect the unpaid membership fees.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word used for official or institutional collection of money. The collector is usually a government body, organization, or institution — not an individual collecting a personal debt. Common in administrative, legal, and financial contexts.\n\nCOMMON COLLOCATIONS:\n- {税金|ぜいきん}を{徴収|ちょうしゅう}する (to collect taxes)\n- {源泉|げんせん}{徴収|ちょうしゅう} (tax withholding at source)\n- {徴収|ちょうしゅう}{額|がく} (amount collected)\n- {強制|きょうせい}{徴収|ちょうしゅう} (compulsory collection, garnishment)\n- {会費|かいひ}を{徴収|ちょうしゅう}する (to collect membership fees)\n\nSIMILAR WORDS:\n- {集金|しゅうきん}: collecting money — less formal, used for everyday payment collection (e.g., newspaper delivery fees)\n- {回収|かいしゅう}: recovery, collection — broader meaning including collecting objects, not just money",
+  "notes": "USAGE:\nA formal word used for official or institutional collection of money. The collector is usually a government body, organization, or institution — not an individual collecting a personal debt. Common in administrative, legal, and financial contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦を→を：00422_wo⟧{徴収|ちょうしゅう}⟦する→する：00392_suru⟧ (to collect taxes)\n- {源泉|げんせん}{徴収|ちょうしゅう} (tax withholding at source)\n- {徴収|ちょうしゅう}{額|がく} (amount collected)\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧{徴収|ちょうしゅう} (compulsory collection, garnishment)\n- ⟦{会費|かいひ}→会費：08469_kaihi⟧⟦を→を：00422_wo⟧{徴収|ちょうしゅう}⟦する→する：00392_suru⟧ (to collect membership fees)\n\nSIMILAR WORDS:\n- ⟦{集金|しゅうきん}→集金：20644_shuukin⟧: collecting money — less formal, used for everyday payment collection (e.g., newspaper delivery fees)\n- ⟦{回収|かいしゅう}→回収：03019_kaishuu⟧: recovery, collection — broader meaning including collecting objects, not just money",
   "cross_references": [
     {
       "type": "synonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-13T23:56:21Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -190,7 +190,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

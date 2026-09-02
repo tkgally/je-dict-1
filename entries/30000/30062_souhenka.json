@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30062_souhenka_ex1",
-      "japanese": "{水|みず}が{相変化|そうへんか}する。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{相変化|そうへんか}⟦する→する：00392_suru⟧。",
       "english": "Water undergoes a phase change.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30062_souhenka_ex2",
-      "japanese": "{温度|おんど}が{上|あ}がると、{物質|ぶっしつ}は{相変化|そうへんか}を{起|お}こす。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧⟦と→と：00512_to⟧、⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧⟦は→は：00079_ha⟧{相変化|そうへんか}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧。",
       "english": "As the temperature rises, a substance undergoes a phase change.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30062_souhenka_ex3",
-      "japanese": "{氷|こおり}が{水|みず}になるのは、{固体|こたい}から{液体|えきたい}への{相変化|そうへんか}である。",
+      "japanese": "⟦{氷|こおり}→氷：02753_koori⟧⟦が→が：00051_ga⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、⟦{固体|こたい}→固体：14852_kotai⟧⟦から→から：00504_kara⟧⟦{液体|えきたい}→液体：04134_ekitai⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{相変化|そうへんか}⟦である→である：09855_dearu⟧。",
       "english": "Ice turning into water is a phase change from solid to liquid.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines {相|そう} (phase) with {変化|へんか} (change). A physics and chemistry term for a transition between solid, liquid, gas, and other phases. Used with する.\n\nCOMMON COLLOCATIONS:\n- {相変化|そうへんか}を{起|お}こす: to undergo a phase change\n- {相変化|そうへんか}{温度|おんど}: phase-transition temperature\n\nSIMILAR WORDS:\n- {状態変化|じょうたいへんか}: change of state — a near-synonym common in school science\n- {融解|ゆうかい}: melting — one specific phase change",
+  "notes": "Combines {相|そう} (phase) with ⟦{変化|へんか}→変化：03615_henka⟧ (change). A physics and chemistry term for a transition between solid, liquid, gas, and other phases. Used with ⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {相変化|そうへんか}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to undergo a phase change\n- {相変化|そうへんか}⟦{温度|おんど}→温度：00333_ondo⟧: phase-transition temperature\n\nSIMILAR WORDS:\n- ⟦{状態変化|じょうたいへんか}→状態変化：30065_joutaihenka⟧: change of state — a near-synonym common in school science\n- ⟦{融解|ゆうかい}→融解：08404_yuukai⟧: melting — one specific phase change",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -77,10 +77,11 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

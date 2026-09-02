@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20432_tsuukoku_ex1",
-      "japanese": "{解雇|かいこ}を{通告|つうこく}された。",
+      "japanese": "⟦{解雇|かいこ}→解雇：04561_kaiko⟧⟦を→を：00422_wo⟧{通告|つうこく}⟦された→する：00392_suru⟧。",
       "english": "I was given notice of dismissal.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20432_tsuukoku_ex2",
-      "japanese": "{会社|かいしゃ}から{契約|けいやく}{終了|しゅうりょう}の{通告|つうこく}を{受|う}けた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦から→から：00504_kara⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧⟦の→の：09472_no⟧{通告|つうこく}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received notification of contract termination from the company.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20432_tsuukoku_ex3",
-      "japanese": "{政府|せいふ}は{相手国|あいてこく}に{最後通告|さいごつうこく}を{突|つ}きつけた。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{相手国|あいてこく}⟦に→に：00314_ni⟧{最後通告|さいごつうこく}⟦を→を：00422_wo⟧⟦{突|つ}きつけた→突きつける：10542_tsukitsukeru⟧。",
       "english": "The government delivered an ultimatum to the other country.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {通|つう} (communicate, pass through) + {告|こく} (announce, tell). A formal word used in business, legal, diplomatic, and military contexts. Implies authority and finality — the sender has the power to make the decision being communicated.\n\nCOMMON COLLOCATIONS:\n- {通告|つうこく}する: to give notice, to notify formally\n- {通告|つうこく}を{受|う}ける: to receive notification\n- {解雇|かいこ}{通告|つうこく}: notice of dismissal\n- {最後通告|さいごつうこく}: ultimatum (literally \"final notice\")\n- {事前|じぜん}{通告|つうこく}: advance notice\n\nSIMILAR WORDS:\n- {通知|つうち}: notification — more general and neutral, used in everyday contexts\n- {告知|こくち}: announcement, disclosure — often used for medical diagnoses or public announcements\n- {宣告|せんこく}: declaration, sentencing — very formal, often legal (e.g., {判決|はんけつ}を{宣告|せんこく}する)\n- {通達|つうたつ}: directive, circular — an official instruction from a superior authority",
+  "notes": "Composed of ⟦{通|つう}→〜通：04025_tsuu⟧ (communicate, pass through) + {告|こく} (announce, tell). A formal word used in business, legal, diplomatic, and military contexts. Implies authority and finality — the sender has the power to make the decision being communicated.\n\nCOMMON COLLOCATIONS:\n- {通告|つうこく}⟦する→する：00392_suru⟧: to give notice, to notify formally\n- {通告|つうこく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive notification\n- ⟦{解雇|かいこ}→解雇：04561_kaiko⟧{通告|つうこく}: notice of dismissal\n- {最後通告|さいごつうこく}: ultimatum (literally \"final notice\")\n- ⟦{事前|じぜん}→事前：07580_jizen⟧{通告|つうこく}: advance notice\n\nSIMILAR WORDS:\n- ⟦{通知|つうち}→通知：04061_tsuuchi⟧: notification — more general and neutral, used in everyday contexts\n- ⟦{告知|こくち}→告知：17348_kokuchi⟧: announcement, disclosure — often used for medical diagnoses or public announcements\n- ⟦{宣告|せんこく}→宣告：06819_senkoku⟧: declaration, sentencing — very formal, often legal (e.g., ⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦を→を：00422_wo⟧⟦{宣告|せんこく}→宣告：06819_senkoku⟧⟦する→する：00392_suru⟧)\n- ⟦{通達|つうたつ}→通達：22238_tsuutatsu⟧: directive, circular — an official instruction from a superior authority",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -99,10 +99,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-29T13:08:04Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "conjugation": {
     "type": "suru",

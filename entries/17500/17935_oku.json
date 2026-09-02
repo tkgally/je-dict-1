@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17935_oku_ex1",
-      "japanese": "{世界|せかい}の{人口|じんこう}は80{億|おく}{人|にん}を{超|こ}えた。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦は→は：00079_ha⟧80{億|おく}⟦{人|にん}→〜人：00658_nin⟧⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "The world population has exceeded 8 billion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17935_oku_ex2",
-      "japanese": "その{会社|かいしゃ}の{売上|うりあげ}は{年間|ねんかん}10{億|おく}{円|えん}を{超|こ}える。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{売上|うりあげ}→売上：04102_uriage⟧⟦は→は：00079_ha⟧⟦{年間|ねんかん}→年間：00974_nenkan⟧10{億|おく}⟦{円|えん}→円：00774_en⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧。",
       "english": "That company's annual sales exceed one billion yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17935_oku_ex3",
-      "japanese": "{何億年|なんおくねん}も{前|まえ}に{恐竜|きょうりゅう}は{地球|ちきゅう}に{生|い}きていた。",
+      "japanese": "{何億年|なんおくねん}⟦も→も：00484_mo⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{恐竜|きょうりゅう}→恐竜：10428_kyouryuu⟧⟦は→は：00079_ha⟧⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦に→に：00314_ni⟧⟦{生|い}きていた→生きる：01184_ikiru⟧。",
       "english": "Hundreds of millions of years ago, dinosaurs lived on Earth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nJapanese groups large numbers by ten-thousands, not by thousands as in English. This means 1{億|おく} = 10,000 × 10,000 = 100,000,000. When converting between Japanese and English number expressions, this shift is a common source of confusion.\n\nNumber scale:\n- {万|まん} = 10,000\n- {億|おく} = 100,000,000 (= 10,000{万|まん})\n- {兆|ちょう} = 1,000,000,000,000 (= 10,000{億|おく})\n\nCOMMON COLLOCATIONS:\n- 1{億円|おくえん} (100 million yen)\n- {数億円|すうおくえん} (several hundred million yen)\n- {何億|なんおく}もの〜 (hundreds of millions of ~)",
+  "notes": "USAGE:\nJapanese groups large numbers by ten-thousands, not by thousands as in English. This means 1{億|おく} = 10,000 × 10,000 = 100,000,000. When converting between Japanese and English number expressions, this shift is a common source of confusion.\n\nNumber scale:\n- ⟦{万|まん}→万：00795_man⟧ = 10,000\n- {億|おく} = 100,000,000 (= 10,000{万|まん})\n- ⟦{兆|ちょう}→兆：17936_chou⟧ = 1,000,000,000,000 (= 10,000{億|おく})\n\nCOMMON COLLOCATIONS:\n- 1{億円|おくえん} (100 million yen)\n- {数億円|すうおくえん} (several hundred million yen)\n- {何億|なんおく}もの〜 (hundreds of millions of ~)",
   "prominent_see_also": [
     {
       "target_id": "17936_chou",
@@ -56,14 +62,19 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-03-19T09:16:54Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["number", "noun"],
+      "pos": [
+        "number",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number"],
+      "semantic": [
+        "number"
+      ],
       "domain": []
     }
   }

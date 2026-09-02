@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "05654_onegaisuru_ex1",
-      "japanese": "お{願|ねが}い⟦が→が：00051_ga⟧⟦あるんですが→ある：00006_aru⟧。",
+      "japanese": "⟦お{願|ねが}い→お願い：10299_onegai⟧⟦が→が：00051_ga⟧⟦あるんですが→ある：00006_aru⟧。",
       "english": "I have a favor to ask.",
       "notes": "Common way to introduce a request",
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "05654_onegaisuru_ex5",
-      "japanese": "⟦{忙|いそが}しい→忙しい：00591_isogashii⟧⟦ところ→ところ：01137_tokoro⟧お{願|ねが}い⟦して→する：00392_suru⟧⟦{申|もう}し{訳|わけ}ない→申し訳ない：20352_moushiwakenai⟧のですが、⟦この→この：00962_kono⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦いただけますか→いただく：01326_itadaku⟧。",
+      "japanese": "⟦{忙|いそが}しい→忙しい：00591_isogashii⟧⟦ところ→ところ：01137_tokoro⟧お{願|ねが}い⟦して→する：00392_suru⟧⟦{申|もう}し{訳|わけ}ない→申し訳ない：20352_moushiwakenai⟧⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧、⟦この→この：00962_kono⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦いただけますか→いただく：01326_itadaku⟧。",
       "english": "I'm sorry to trouble you when you're busy, but could you check this document?",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "お{願|ねが}いする is the polite way to make a request. It is the honorific form of ⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask/request) and is essential for daily polite communication.\n\nCOMMON EXPRESSIONS:\n- お{願|ねが}いします: Please / I'd like to request this (extremely common)\n- ⟦よろしくお{願|ねが}いします→よろしくお願いします：23566_yoroshikuonegaishimasu⟧: Please take care of this / Nice to meet you / I look forward to working with you\n- お{願|ねが}いがあるのですが: I have a favor to ask\n- ⟦ぜひ→ぜひ：00911_zehi⟧お{願|ねが}いしたい: I'd really like to ask you\n\nSENSE 2 (PRAYER):\nAt shrines and temples, お{願|ねが}いする means to pray for something or make a wish: ⟦{神様|かみさま}→神様：00161_kamisama⟧にお{願|ねが}いする (to pray to God/the gods).\n\nREGISTER:\nお{願|ねが}いする is polite and appropriate in most situations. For casual requests, use ⟦{頼|たの}む→頼む：01104_tanomu⟧ instead. For very formal written requests, {依頼|いらい}する is used.",
+  "notes": "お{願|ねが}いする is the polite way to make a request. It is the honorific form of ⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask/request) and is essential for daily polite communication.\n\nCOMMON EXPRESSIONS:\n- お{願|ねが}いします: Please / I'd like to request this (extremely common)\n- ⟦よろしくお{願|ねが}いします→よろしくお願いします：23566_yoroshikuonegaishimasu⟧: Please take care of this / Nice to meet you / I look forward to working with you\n- ⟦お{願|ねが}い→お願い：10299_onegai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧: I have a favor to ask\n- ⟦ぜひ→ぜひ：00911_zehi⟧お{願|ねが}いしたい: I'd really like to ask you\n\nSENSE 2 (PRAYER):\nAt shrines and temples, お{願|ねが}いする means to pray for something or make a wish: ⟦{神様|かみさま}→神様：00161_kamisama⟧⟦に→に：00314_ni⟧お{願|ねが}いする (to pray to God/the gods).\n\nREGISTER:\nお{願|ねが}いする is polite and appropriate in most situations. For casual requests, use ⟦{頼|たの}む→頼む：01104_tanomu⟧ instead. For very formal written requests, ⟦{依頼|いらい}する→依頼する：21376_irai⟧ is used.",
   "cross_references": [
     {
       "type": "related",
@@ -227,7 +227,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T08:34:03Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -239,7 +239,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

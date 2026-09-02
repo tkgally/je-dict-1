@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18187_ouda_ex1",
-      "japanese": "{被害者|ひがいしゃ}は{頭部|とうぶ}を{殴打|おうだ}された。",
+      "japanese": "⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦は→は：00079_ha⟧{頭部|とうぶ}⟦を→を：00422_wo⟧{殴打|おうだ}⟦された→する：00392_suru⟧。",
       "english": "The victim was struck on the head.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18187_ouda_ex2",
-      "japanese": "{殴打|おうだ}による{傷害|しょうがい}で{逮捕|たいほ}された。",
+      "japanese": "{殴打|おうだ}⟦による→による：28349_niyoru⟧⟦{傷害|しょうがい}→傷害：22910_shougai⟧⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested for assault causing injury.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18187_ouda_ex3",
-      "japanese": "{防犯|ぼうはん}カメラの{映像|えいぞう}に、{容疑者|ようぎしゃ}が{被害者|ひがいしゃ}を{殴打|おうだ}する{場面|ばめん}が{映|うつ}っていた。",
+      "japanese": "⟦{防犯|ぼうはん}カメラ→防犯カメラ：07137_bouhankamera⟧⟦の→の：09472_no⟧⟦{映像|えいぞう}→映像：04444_eizou⟧⟦に→に：00314_ni⟧、⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦が→が：00051_ga⟧⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦を→を：00422_wo⟧{殴打|おうだ}⟦する→する：00392_suru⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦が→が：00051_ga⟧⟦{映|うつ}っていた→映る：12964_utsuru⟧。",
       "english": "The security camera footage showed the suspect striking the victim.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word that appears almost exclusively in news reports, police records, and legal documents. In everyday speech, {殴|なぐ}る (to punch) or {叩|たた}く (to hit) are used instead. Often seen in crime reporting alongside terms like {傷害|しょうがい} (injury/assault).\n\nCOMMON COLLOCATIONS:\n- {殴打|おうだ}する (to strike, to beat)\n- {殴打|おうだ}による{死亡|しぼう} (death by beating)\n- {頭部|とうぶ}を{殴打|おうだ}する (to strike on the head)\n\nSIMILAR WORDS:\n- {殴|なぐ}る: to punch, to hit — everyday word for striking someone\n- {暴行|ぼうこう}: assault, violence — broader legal term covering various types of physical attack",
+  "notes": "USAGE:\nA formal word that appears almost exclusively in news reports, police records, and legal documents. In everyday speech, ⟦{殴|なぐ}る→殴る：02378_naguru⟧ (to punch) or ⟦{叩|たた}く→叩く：02072_tataku⟧ (to hit) are used instead. Often seen in crime reporting alongside terms like ⟦{傷害|しょうがい}→傷害：22910_shougai⟧ (injury/assault).\n\nCOMMON COLLOCATIONS:\n- {殴打|おうだ}⟦する→する：00392_suru⟧ (to strike, to beat)\n- {殴打|おうだ}⟦による→による：28349_niyoru⟧⟦{死亡|しぼう}→死亡：03198_shibou⟧ (death by beating)\n- {頭部|とうぶ}⟦を→を：00422_wo⟧{殴打|おうだ}⟦する→する：00392_suru⟧ (to strike on the head)\n\nSIMILAR WORDS:\n- ⟦{殴|なぐ}る→殴る：02378_naguru⟧: to punch, to hit — everyday word for striking someone\n- ⟦{暴行|ぼうこう}→暴行：27862_boukou⟧: assault, violence — broader legal term covering various types of physical attack",
   "cross_references": [
     {
       "type": "synonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-20T09:05:36Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -169,7 +169,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

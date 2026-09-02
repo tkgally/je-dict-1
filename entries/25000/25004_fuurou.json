@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25004_fuurou_ex1",
-      "japanese": "{風浪|ふうろう}が{高|たか}い。",
+      "japanese": "{風浪|ふうろう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The wind-driven waves are high.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25004_fuurou_ex2",
-      "japanese": "{風浪|ふうろう}{注意報|ちゅういほう}が{出|で}ているので{出港|しゅっこう}は{見合|みあ}わせた。",
+      "japanese": "{風浪|ふうろう}⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧⟦の→の：09472_no⟧で⟦{出港|しゅっこう}→出港：11764_shukkou⟧⟦は→は：00079_ha⟧⟦{見合|みあ}わせた→見合わせる：09450_miawaseru⟧。",
       "english": "A wind wave advisory was issued, so we postponed departure.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25004_fuurou_ex3",
-      "japanese": "{台風|たいふう}の{接近|せっきん}に{伴|ともな}い{風浪|ふうろう}が{次第|しだい}に{強|つよ}まり、{沿岸|えんがん}の{漁船|ぎょせん}はすべて{港|みなと}に{避難|ひなん}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{接近|せっきん}→接近：04365_sekkin⟧⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧{風浪|ふうろう}⟦が→が：00051_ga⟧⟦{次第|しだい}→次第：03175_shidai⟧⟦に→に：00314_ni⟧⟦{強|つよ}まり→強まる：02295_tsuyomaru⟧、⟦{沿岸|えんがん}→沿岸：13280_engan⟧⟦の→の：09472_no⟧⟦{漁船|ぎょせん}→漁船：22594_gyosen⟧⟦は→は：00079_ha⟧すべて⟦{港|みなと}→港：01512_minato⟧⟦に→に：00314_ni⟧⟦{避難|ひなん}した→避難する：26827_hinansuru⟧。",
       "english": "As the typhoon approached, the wind-driven waves gradually strengthened, and all fishing boats along the coast took shelter in port.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {風|ふう} (wind) and {浪|ろう} (wave). This is a meteorological and maritime term distinguishing waves caused by local wind ({風浪|ふうろう}) from swell (うねり), which arrives from distant storms. Japanese weather forecasts regularly use this term when reporting sea conditions.\n\nCOMMON COLLOCATIONS:\n- {風浪|ふうろう}が{高|たか}い: wind waves are high\n- {風浪|ふうろう}{注意報|ちゅういほう}: wind wave advisory\n- {風浪|ふうろう}{警報|けいほう}: wind wave warning\n- {風浪|ふうろう}が{強|つよ}まる: wind waves intensify\n\nSIMILAR WORDS:\n- {波浪|はろう}: waves (general) — covers all types of ocean waves, often used in forecasts as {波浪|はろう}{注意報|ちゅういほう}\n- うねり: swell — long-period waves from distant weather systems, distinct from local wind waves\n- {高波|たかなみ}: high waves — describes the height of waves regardless of cause\n- {荒波|あらなみ}: rough waves; stormy seas — emphasizes the violent, dangerous character of waves",
+  "notes": "A compound of {風|ふう} (wind) and {浪|ろう} (wave). This is a meteorological and maritime term distinguishing waves caused by local wind ({風浪|ふうろう}) from swell (⟦うねり→うねり：26821_uneri⟧), which arrives from distant storms. Japanese weather forecasts regularly use this term when reporting sea conditions.\n\nCOMMON COLLOCATIONS:\n- {風浪|ふうろう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: wind waves are high\n- {風浪|ふうろう}⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧: wind wave advisory\n- {風浪|ふうろう}⟦{警報|けいほう}→警報：09515_keihou⟧: wind wave warning\n- {風浪|ふうろう}⟦が→が：00051_ga⟧⟦{強|つよ}まる→強まる：02295_tsuyomaru⟧: wind waves intensify\n\nSIMILAR WORDS:\n- ⟦{波浪|はろう}→波浪：18154_harou⟧: waves (general) — covers all types of ocean waves, often used in forecasts as ⟦{波浪|はろう}→波浪：18154_harou⟧⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧\n- ⟦うねり→うねり：26821_uneri⟧: swell — long-period waves from distant weather systems, distinct from local wind waves\n- ⟦{高波|たかなみ}→高波：19938_takanami⟧: high waves — describes the height of waves regardless of cause\n- ⟦{荒波|あらなみ}→荒波：14026_aranami⟧: rough waves; stormy seas — emphasizes the violent, dangerous character of waves",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,6 +89,6 @@
       ]
     },
     "created": "2026-04-22T10:15:45Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

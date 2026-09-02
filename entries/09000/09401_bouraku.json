@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09401_bouraku_ex1",
-      "japanese": "{株|かぶ}が{暴落|ぼうらく}した。",
+      "japanese": "⟦{株|かぶ}→株：02592_kabu⟧⟦が→が：00051_ga⟧{暴落|ぼうらく}⟦した→する：00392_suru⟧。",
       "english": "Stocks crashed.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09401_bouraku_ex2",
-      "japanese": "{仮想通貨|かそうつうか}の{暴落|ぼうらく}で{大損|おおぞん}した。",
+      "japanese": "⟦{仮想通貨|かそうつうか}→仮想通貨：06400_kasoutsuuka⟧⟦の→の：09472_no⟧{暴落|ぼうらく}⟦で→で：00502_de⟧{大損|おおぞん}⟦した→する：00392_suru⟧。",
       "english": "I suffered huge losses from the cryptocurrency crash.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09401_bouraku_ex3",
-      "japanese": "{市場|しじょう}の{暴落|ぼうらく}で{投資家|とうしか}は{恐怖|きょうふ}に{陥|おちい}った。",
+      "japanese": "⟦{市場|しじょう}→市場：09685_shijou⟧⟦の→の：09472_no⟧{暴落|ぼうらく}⟦で→で：00502_de⟧⟦{投資家|とうしか}→投資家：16242_toushika⟧⟦は→は：00079_ha⟧⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧。",
       "english": "Investors fell into panic due to the market crash.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09401_bouraku_ex4",
-      "japanese": "{不動産|ふどうさん}{価格|かかく}の{暴落|ぼうらく}がバブル{崩壊|ほうかい}を{招|まね}いた。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦の→の：09472_no⟧{暴落|ぼうらく}⟦が→が：00051_ga⟧⟦バブル→バブル：11120_baburu⟧⟦{崩壊|ほうかい}→崩壊：09067_houkai⟧⟦を→を：00422_wo⟧⟦{招|まね}いた→招く：02425_maneku⟧。",
       "english": "The collapse in real estate prices caused the bubble to burst.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{暴落|ぼうらく} indicates an extreme, often catastrophic price collapse. It's more severe than {急落|きゅうらく} and often describes market crashes. The opposite is {暴騰|ぼうとう}.\n\n{暴落|ぼうらく} vs. {急落|きゅうらく}:\n- {急落|きゅうらく}: sharp drop (significant decline)\n- {暴落|ぼうらく}: crash, collapse (extreme, often panic-driven)\n\nRelated terms:\n- {暴騰|ぼうとう}: skyrocketing\n- {急落|きゅうらく}: sharp drop\n- {大暴落|だいぼうらく}: major crash",
+  "notes": "{暴落|ぼうらく} indicates an extreme, often catastrophic price collapse. It's more severe than ⟦{急落|きゅうらく}→急落：09399_kyuuraku⟧ and often describes market crashes. The opposite is ⟦{暴騰|ぼうとう}→暴騰：09400_boutou⟧.\n\n{暴落|ぼうらく} vs. ⟦{急落|きゅうらく}→急落：09399_kyuuraku⟧:\n- ⟦{急落|きゅうらく}→急落：09399_kyuuraku⟧: sharp drop (significant decline)\n- {暴落|ぼうらく}: crash, collapse (extreme, often panic-driven)\n\nRelated terms:\n- ⟦{暴騰|ぼうとう}→暴騰：09400_boutou⟧: skyrocketing\n- ⟦{急落|きゅうらく}→急落：09399_kyuuraku⟧: sharp drop\n- {大暴落|だいぼうらく}: major crash",
   "metadata": {
     "created": "2026-02-01T09:16:04Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "business",
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "cross_references": [

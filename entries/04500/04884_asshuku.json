@@ -139,7 +139,7 @@
     },
     {
       "id": "04884_asshuku_ex4",
-      "japanese": "⟦エンジン→エンジン：03835_enjin⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{燃料|ねんりょう}→燃料：13461_nenryou⟧⟦が→が：00051_ga⟧{圧縮|あっしゅく}されて⟦{爆発|ばくはつ}→爆発：03575_bakuhatsu⟧⟦する→する：00392_suru⟧。",
+      "japanese": "⟦エンジン→エンジン：03835_enjin⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{燃料|ねんりょう}→燃料：13461_nenryou⟧⟦が→が：00051_ga⟧{圧縮|あっしゅく}⟦されて→する：00392_suru⟧⟦{爆発|ばくはつ}→爆発：03575_bakuhatsu⟧⟦する→する：00392_suru⟧。",
       "english": "Inside the engine, fuel is compressed and ignited.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T00:35:11Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -221,7 +221,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

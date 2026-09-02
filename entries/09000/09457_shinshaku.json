@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09457_shinshaku_ex1",
-      "japanese": "{事情|じじょう}を{斟酌|しんしゃく}する。",
+      "japanese": "⟦{事情|じじょう}→事情：03272_jijou⟧⟦を→を：00422_wo⟧{斟酌|しんしゃく}⟦する→する：00392_suru⟧。",
       "english": "To take the circumstances into consideration.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09457_shinshaku_ex2",
-      "japanese": "{相手|あいて}の{立場|たちば}を{斟酌|しんしゃく}してほしい。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{立場|たちば}→立場：03403_tachiba⟧⟦を→を：00422_wo⟧{斟酌|しんしゃく}⟦して→する：00392_suru⟧ほしい。",
       "english": "I want you to consider the other person's position.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09457_shinshaku_ex3",
-      "japanese": "{斟酌|しんしゃく}の{余地|よち}がない。",
+      "japanese": "{斟酌|しんしゃく}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "There is no room for consideration/leniency.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09457_shinshaku_ex4",
-      "japanese": "{諸事情|しょじじょう}を{斟酌|しんしゃく}した{上|うえ}で{判断|はんだん}する。",
+      "japanese": "⟦{諸事情|しょじじょう}→諸事情：21955_shojijou⟧⟦を→を：00422_wo⟧{斟酌|しんしゃく}⟦した→する：00392_suru⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧。",
       "english": "To make a judgment after taking all circumstances into consideration.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{斟酌|しんしゃく} originally meant pouring drinks (the kanji literally mean \"to pour/ladle\" and \"to pour sake\"), but it came to mean carefully weighing and considering matters.\n\nUsage:\n- {斟酌|しんしゃく}する (to take into consideration)\n- {斟酌|しんしゃく}の{余地|よち} (room for consideration)\n- 〜を{斟酌|しんしゃく}して (taking ~ into account)\n\nThis is a formal word often used in:\n- Legal and judicial contexts\n- Business decisions\n- Academic or official settings\n\nRelated words:\n- {考慮|こうりょ}する: to consider, take into account\n- {配慮|はいりょ}する: to show consideration\n- {勘案|かんあん}する: to take into consideration (very formal)",
+  "notes": "{斟酌|しんしゃく} originally meant pouring drinks (the kanji literally mean \"to pour/ladle\" and \"to pour sake\"), but it came to mean carefully weighing and considering matters.\n\nUsage:\n- {斟酌|しんしゃく}⟦する→する：00392_suru⟧ (to take into consideration)\n- {斟酌|しんしゃく}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧ (room for consideration)\n- 〜⟦を→を：00422_wo⟧{斟酌|しんしゃく}⟦して→する：00392_suru⟧ (taking ~ into account)\n\nThis is a formal word often used in:\n- Legal and judicial contexts\n- Business decisions\n- Academic or official settings\n\nRelated words:\n- ⟦{考慮|こうりょ}する→考慮する：06061_kouryosuru⟧: to consider, take into account\n- ⟦{配慮|はいりょ}する→配慮する：26831_hairyosuru⟧: to show consideration\n- {勘案|かんあん}⟦する→する：00392_suru⟧: to take into consideration (very formal)",
   "metadata": {
     "created": "2026-02-01T15:16:20Z",
-    "modified": "2026-09-02T02:55:19Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

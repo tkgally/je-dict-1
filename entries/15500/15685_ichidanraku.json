@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15685_ichidanraku_ex1",
-      "japanese": "{仕事|しごと}が{一段落|いちだんらく}した。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{一段落|いちだんらく}⟦した→する：00392_suru⟧。",
       "english": "Work has reached a stopping point.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15685_ichidanraku_ex2",
-      "japanese": "{引|ひ}っ{越|こ}しの{準備|じゅんび}が{一段落|いちだんらく}ついた。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦が→が：00051_ga⟧{一段落|いちだんらく}ついた。",
       "english": "The moving preparations have settled down.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15685_ichidanraku_ex3",
-      "japanese": "プロジェクトが{一段落|いちだんらく}したら、{少|すこ}し{休|やす}もうと{思|おも}う。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦が→が：00051_ga⟧{一段落|いちだんらく}⟦したら→する：00392_suru⟧、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{休|やす}もう→休む：00606_yasumu⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "Once the project reaches a stopping point, I think I'll take a short break.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used with する or つく to mean \"to reach a stopping point.\" Does not mean the work is fully completed, but rather that a natural break or milestone has been reached. Very common in workplace and daily life contexts.\n\nCOMMON PATTERNS:\n- {一段落|いちだんらく}する (to reach a stopping point)\n- {一段落|いちだんらく}がつく (to come to a pause)\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}が{一段落|いちだんらく}する (work settles down)\n- {一段落|いちだんらく}ついたら (once things settle down)\n\nPRONUNCIATION:\nThe standard reading is いちだんらく. The reading ひとだんらく is sometimes heard colloquially but is considered nonstandard.",
+  "notes": "USAGE:\nOften used with ⟦する→する：00392_suru⟧ or つく to mean \"to reach a stopping point.\" Does not mean the work is fully completed, but rather that a natural break or milestone has been reached. Very common in workplace and daily life contexts.\n\nCOMMON PATTERNS:\n- {一段落|いちだんらく}⟦する→する：00392_suru⟧ (to reach a stopping point)\n- {一段落|いちだんらく}⟦が→が：00051_ga⟧つく (to come to a pause)\n\nCOMMON COLLOCATIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{一段落|いちだんらく}⟦する→する：00392_suru⟧ (work settles down)\n- {一段落|いちだんらく}ついたら (once things settle down)\n\nPRONUNCIATION:\nThe standard reading is いちだんらく. The reading ひとだんらく is sometimes heard colloquially but is considered nonstandard.",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T07:34:01Z",
-    "modified": "2026-09-02T02:55:10Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

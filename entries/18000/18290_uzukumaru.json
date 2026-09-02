@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18290_uzukumaru_ex1",
-      "japanese": "{道端|みちばた}でうずくまっている{人|ひと}がいた。",
+      "japanese": "⟦{道端|みちばた}→道端：28126_michibata⟧⟦で→で：00502_de⟧うずくまって⟦いる→いる：00495_iru⟧⟦{人|ひと}→人：00476_hito⟧がいた。",
       "english": "There was a person crouching on the side of the road.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18290_uzukumaru_ex2",
-      "japanese": "おなかが{痛|いた}くてうずくまった。",
+      "japanese": "おなか⟦が→が：00051_ga⟧⟦{痛|いた}くて→痛い：01108_itai⟧うずくまった。",
       "english": "I crouched down because of a stomachache.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18290_uzukumaru_ex3",
-      "japanese": "{寒|さむ}さに{耐|た}えきれず、{壁際|かべぎわ}にうずくまって{体|からだ}を{丸|まる}めた。",
+      "japanese": "⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦に→に：00314_ni⟧⟦{耐|た}え→耐える：12087_taeru⟧きれず、⟦{壁際|かべぎわ}→壁際：17428_kabegiwa⟧⟦に→に：00314_ni⟧うずくまって⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{丸|まる}めた→丸める：11313_marumeru⟧。",
       "english": "Unable to bear the cold, I huddled against the wall and curled up.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsually written in hiragana. The kanji form {蹲|うずくま}る exists but is rarely used. Often describes someone who is in distress (pain, cold, exhaustion) and sinks to the ground, or an animal making itself small.\n\nCOMMON COLLOCATIONS:\n- {道端|みちばた}にうずくまる (to crouch on the roadside)\n- うずくまって{泣|な}く (to cry while crouched down)\n- {地面|じめん}にうずくまる (to crouch on the ground)\n\nSIMILAR WORDS:\n- しゃがむ: to squat — a more casual or purposeful squatting position\n- かがむ: to bend down — bending forward, not necessarily curling up",
+  "notes": "USAGE:\nUsually written in hiragana. The kanji form {蹲|うずくま}る exists but is rarely used. Often describes someone who is in distress (pain, cold, exhaustion) and sinks to the ground, or an animal making itself small.\n\nCOMMON COLLOCATIONS:\n- ⟦{道端|みちばた}→道端：28126_michibata⟧⟦に→に：00314_ni⟧うずくまる (to crouch on the roadside)\n- うずくまって⟦{泣|な}く→泣く：00655_naku⟧ (to cry while crouched down)\n- ⟦{地面|じめん}→地面：00125_jimen⟧⟦に→に：00314_ni⟧うずくまる (to crouch on the ground)\n\nSIMILAR WORDS:\n- ⟦しゃがむ→しゃがむ：05535_shagamu⟧: to squat — a more casual or purposeful squatting position\n- かがむ: to bend down — bending forward, not necessarily curling up",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-21T01:17:23Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
         "body-part",
         "movement"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     }
   }
 }

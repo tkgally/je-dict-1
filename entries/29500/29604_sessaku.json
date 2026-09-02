@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29604_sessaku_ex1",
-      "japanese": "{金属|きんぞく}を{切削|せっさく}する。",
+      "japanese": "⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦を→を：00422_wo⟧{切削|せっさく}⟦する→する：00392_suru⟧。",
       "english": "To machine metal.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29604_sessaku_ex2",
-      "japanese": "{切削|せっさく}のときには{油|あぶら}を{使|つか}う。",
+      "japanese": "{切削|せっさく}⟦の→の：09472_no⟧とき⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{油|あぶら}→油：01693_abura⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Oil is used during cutting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29604_sessaku_ex3",
-      "japanese": "この{機械|きかい}は{硬|かた}い{金属|きんぞく}でも{正確|せいかく}に{切削|せっさく}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦は→は：00079_ha⟧⟦{硬|かた}い→硬い：01116_katai⟧⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{正確|せいかく}→正確：03372_seikaku⟧⟦に→に：00314_ni⟧{切削|せっさく}⟦できる→できる：00557_dekiru⟧。",
       "english": "This machine can precisely machine even hard metals.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Removing material from a workpiece with a cutting tool to shape it. Covers turning, milling, drilling, and similar processes.\n\nCOMMON COLLOCATIONS:\n- {切削|せっさく}{加工|かこう}: machining; cutting work\n- {切削|せっさく}{工具|こうぐ}: a cutting tool\n- {切削|せっさく}する: to machine; to cut\n\nRELATED WORDS:\n- {旋削|せんさく}: turning — cutting on a lathe, one type of {切削|せっさく}",
+  "notes": "Removing material from a workpiece with a cutting tool to shape it. Covers turning, milling, drilling, and similar processes.\n\nCOMMON COLLOCATIONS:\n- {切削|せっさく}⟦{加工|かこう}→加工：11793_kakou⟧: machining; cutting work\n- {切削|せっさく}⟦{工具|こうぐ}→工具：01401_kougu⟧: a cutting tool\n- {切削|せっさく}⟦する→する：00392_suru⟧: to machine; to cut\n\nRELATED WORDS:\n- ⟦{旋削|せんさく}→旋削：29605_sensaku⟧: turning — cutting on a lathe, one type of {切削|せっさく}",
   "cross_references": [
     {
       "type": "related",
@@ -69,10 +69,11 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-01T00:20:08Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

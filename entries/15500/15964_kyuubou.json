@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15964_kyuubou_ex1",
-      "japanese": "{戦後|せんご}は{窮乏|きゅうぼう}した{生活|せいかつ}が{続|つづ}いた。",
+      "japanese": "⟦{戦後|せんご}→戦後：12853_sengo⟧⟦は→は：00079_ha⟧{窮乏|きゅうぼう}⟦した→する：00392_suru⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "After the war, a life of destitution continued.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15964_kyuubou_ex2",
-      "japanese": "{長引|ながび}く{不況|ふきょう}で{国民|こくみん}の{窮乏|きゅうぼう}が{深|ふか}まった。",
+      "japanese": "⟦{長引|ながび}く→長引く：14473_nagabiku⟧⟦{不況|ふきょう}→不況：04844_fukyou⟧⟦で→で：00502_de⟧⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧{窮乏|きゅうぼう}⟦が→が：00051_ga⟧⟦{深|ふか}まった→深まる：02406_fukamaru⟧。",
       "english": "The prolonged recession deepened the poverty of the people.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15964_kyuubou_ex3",
-      "japanese": "{窮乏|きゅうぼう}の{中|なか}でも{人々|ひとびと}は{助|たす}け{合|あ}い、{困難|こんなん}を{乗|の}り{越|こ}えた。",
+      "japanese": "{窮乏|きゅうぼう}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧⟦{助|たす}け{合|あ}い→助け合う：04654_tasukeau⟧、⟦{困難|こんなん}→困難：01410_konnan⟧⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えた→乗り越える：04620_norikoeru⟧。",
       "english": "Even in the midst of destitution, people helped one another and overcame hardship.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal noun that also functions as a する verb: {窮乏|きゅうぼう}する (to become destitute). Often used in historical writing about wartime or post-war Japan, and in descriptions of economic hardship.\n\nCOMMON COLLOCATIONS:\n- {窮乏|きゅうぼう}した{生活|せいかつ} (a destitute life)\n- {窮乏|きゅうぼう}に{耐|た}える (to endure poverty)\n- {窮乏|きゅうぼう}が{深|ふか}まる (poverty deepens)\n- {窮乏|きゅうぼう}から{抜|ぬ}け{出|だ}す (to escape from poverty)\n\nSIMILAR WORDS:\n{貧困|ひんこん} (poverty) is the most common neutral term. {窮乏|きゅうぼう} emphasizes severe, pressing want and is more literary.",
+  "notes": "USAGE:\nA formal noun that also functions as a ⟦する→する：00392_suru⟧ verb: {窮乏|きゅうぼう}⟦する→する：00392_suru⟧ (to become destitute). Often used in historical writing about wartime or post-war Japan, and in descriptions of economic hardship.\n\nCOMMON COLLOCATIONS:\n- {窮乏|きゅうぼう}⟦した→する：00392_suru⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (a destitute life)\n- {窮乏|きゅうぼう}⟦に→に：00314_ni⟧⟦{耐|た}える→耐える：12087_taeru⟧ (to endure poverty)\n- {窮乏|きゅうぼう}⟦が→が：00051_ga⟧⟦{深|ふか}まる→深まる：02406_fukamaru⟧ (poverty deepens)\n- {窮乏|きゅうぼう}⟦から→から：00504_kara⟧⟦{抜|ぬ}け{出|だ}す→抜け出す：06040_nukedasu⟧ (to escape from poverty)\n\nSIMILAR WORDS:\n⟦{貧困|ひんこん}→貧困：04836_hinkon⟧ (poverty) is the most common neutral term. {窮乏|きゅうぼう} emphasizes severe, pressing want and is more literary.",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-09T03:53:13Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "economics",
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

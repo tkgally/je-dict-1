@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09554_shiyouchuu_ex1",
-      "japanese": "トイレは{使用中|しようちゅう}です。",
+      "japanese": "⟦トイレ→トイレ：00818_toire⟧⟦は→は：00079_ha⟧{使用中|しようちゅう}です。",
       "english": "The toilet is occupied.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09554_shiyouchuu_ex2",
-      "japanese": "{会議室|かいぎしつ}が{使用中|しようちゅう}になっている。",
+      "japanese": "⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧⟦が→が：00051_ga⟧{使用中|しようちゅう}になっている。",
       "english": "The meeting room is in use.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09554_shiyouchuu_ex3",
-      "japanese": "{使用中|しようちゅう}のランプが{点灯|てんとう}している。",
+      "japanese": "{使用中|しようちゅう}⟦の→の：09472_no⟧⟦ランプ→ランプ：11260_ranpu⟧⟦が→が：00051_ga⟧⟦{点灯|てんとう}している→点灯する：20211_tentousuru⟧。",
       "english": "The 'in use' light is on.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "A compound of {使用|しよう} (use) + {中|ちゅう} (during). Functions as a status indicator meaning \"currently in use\" or \"occupied.\"\n\nUSAGE:\n- トイレ/お{手洗|てあら}い: restroom (the most common context)\n- {会議室|かいぎしつ}: meeting rooms\n- コピー{機|き}: copy machines\n- {更衣室|こういしつ}: changing rooms\n\nCOMMON COLLOCATIONS:\n- {使用中|しようちゅう}の{表示|ひょうじ}: \"in use\" indicator\n- {使用中|しようちゅう}になる: to become occupied\n- {使用中|しようちゅう}のランプ: \"in use\" light\n\nRELATED 〜{中|ちゅう} EXPRESSIONS:\n- {故障中|こしょうちゅう}: out of order\n- {営業中|えいぎょうちゅう}: open for business\n- {準備中|じゅんびちゅう}: in preparation / closed for setup\n- {清掃中|せいそうちゅう}: being cleaned\n\nSIMILAR WORDS:\n- {空|あ}き/{空室|くうしつ}: vacant, available",
+  "notes": "A compound of ⟦{使用|しよう}→使用：01637_shiyou⟧ (use) + ⟦{中|ちゅう}→〜中：09840_chuu⟧ (during). Functions as a status indicator meaning \"currently in use\" or \"occupied.\"\n\nUSAGE:\n- ⟦トイレ→トイレ：00818_toire⟧/⟦お{手洗|てあら}い→お手洗い：02861_otearai⟧: restroom (the most common context)\n- ⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧: meeting rooms\n- ⟦コピー{機|き}→コピー機：23548_kopiiki⟧: copy machines\n- ⟦{更衣室|こういしつ}→更衣室：07042_kouishitsu⟧: changing rooms\n\nCOMMON COLLOCATIONS:\n- {使用中|しようちゅう}⟦の→の：09472_no⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧: \"in use\" indicator\n- {使用中|しようちゅう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become occupied\n- {使用中|しようちゅう}⟦の→の：09472_no⟧⟦ランプ→ランプ：11260_ranpu⟧: \"in use\" light\n\nRELATED 〜{中|ちゅう} EXPRESSIONS:\n- ⟦{故障中|こしょうちゅう}→故障中：09555_koshouchuu⟧: out of order\n- ⟦{営業中|えいぎょうちゅう}→営業中：09539_eigyouchuu⟧: open for business\n- ⟦{準備中|じゅんびちゅう}→準備中：09540_junbichuu⟧: in preparation / closed for setup\n- ⟦{清掃中|せいそうちゅう}→清掃中：10260_seisouchuu⟧: being cleaned\n\nSIMILAR WORDS:\n- ⟦{空|あ}き→空く：11062_aku⟧/⟦{空室|くうしつ}→空室：14798_kuushitsu⟧: vacant, available",
   "cross_references": [
     {
       "type": "related",
@@ -101,7 +101,7 @@
   ],
   "metadata": {
     "created": "2026-02-02T10:42:08Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

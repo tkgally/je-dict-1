@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20050_juryou_ex1",
-      "japanese": "{書類|しょるい}を{受領|じゅりょう}した。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{受領|じゅりょう}⟦した→する：00392_suru⟧。",
       "english": "I received the documents.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20050_juryou_ex2",
-      "japanese": "{荷物|にもつ}の{受領|じゅりょう}にはサインが{必要|ひつよう}です。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧{受領|じゅりょう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦サイン→サイン：03846_sain⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "A signature is required to receive the package.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20050_juryou_ex3",
-      "japanese": "{受領|じゅりょう}{確認|かくにん}のメールを{送|おく}りましたので、ご{確認|かくにん}ください。",
+      "japanese": "{受領|じゅりょう}⟦{確認|かくにん}→確認：00158_kakunin⟧⟦の→の：09472_no⟧⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧⟦{送|おく}りました→送る：00742_okuru⟧⟦の→の：09472_no⟧で、⟦ご{確認|かくにん}→ご確認：23544_gokakunin⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "I sent a receipt confirmation email, so please check it.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for the act of receiving goods, documents, or payments. Used primarily in business and official contexts. Much more formal than {受|う}け{取|と}る.\n\nCOMMON COLLOCATIONS:\n- {受領|じゅりょう}する: to receive (formal)\n- {受領書|じゅりょうしょ}: receipt (document)\n- {受領証|じゅりょうしょう}: certificate of receipt\n- {受領|じゅりょう}{確認|かくにん}: receipt confirmation\n- {受領|じゅりょう}{日|び}: date of receipt\n\nSIMILAR WORDS:\n- {受|う}け{取|と}る: to receive — the everyday, general word for receiving\n- {受理|じゅり}: acceptance/receipt — specifically for official applications and documents being formally accepted by an authority\n- {領収|りょうしゅう}: receipt (of payment) — specifically for money; {領収書|りょうしゅうしょ} is the standard word for a payment receipt",
+  "notes": "A formal term for the act of receiving goods, documents, or payments. Used primarily in business and official contexts. Much more formal than ⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧.\n\nCOMMON COLLOCATIONS:\n- {受領|じゅりょう}⟦する→する：00392_suru⟧: to receive (formal)\n- {受領書|じゅりょうしょ}: receipt (document)\n- {受領証|じゅりょうしょう}: certificate of receipt\n- {受領|じゅりょう}⟦{確認|かくにん}→確認：00158_kakunin⟧: receipt confirmation\n- {受領|じゅりょう}{日|び}: date of receipt\n\nSIMILAR WORDS:\n- ⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive — the everyday, general word for receiving\n- ⟦{受理|じゅり}→受理：12032_juri⟧: acceptance/receipt — specifically for official applications and documents being formally accepted by an authority\n- ⟦{領収|りょうしゅう}→領収：08640_ryoushuu⟧: receipt (of payment) — specifically for money; ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧ is the standard word for a payment receipt",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -178,9 +178,10 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T06:11:27Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

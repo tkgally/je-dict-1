@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13804_kani_ex1",
-      "japanese": "{簡易|かんい}ベッドを{設置|せっち}した。",
+      "japanese": "{簡易|かんい}⟦ベッド→ベッド：04501_beddo⟧⟦を→を：00422_wo⟧⟦{設置|せっち}した→設置する：26989_secchisuru⟧。",
       "english": "We set up a simple bed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13804_kani_ex2",
-      "japanese": "{災害|さいがい}{時|じ}に{簡易|かんい}トイレが{配|くば}られた。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧{簡易|かんい}⟦トイレ→トイレ：00818_toire⟧⟦が→が：00051_ga⟧⟦{配|くば}られた→配る：03921_kubaru⟧。",
       "english": "Portable toilets were distributed during the disaster.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13804_kani_ex3",
-      "japanese": "まずは{簡易|かんい}な{検査|けんさ}を{行|おこな}い、{必要|ひつよう}に{応|おう}じて{精密|せいみつ}{検査|けんさ}をする。",
+      "japanese": "⟦まず→まず：00796_mazu⟧⟦は→は：00079_ha⟧{簡易|かんい}な⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{行|おこな}い→行う：01238_okonau⟧、⟦{必要|ひつよう}に{応|おう}じて→必要に応じて：22822_hitsuyounioujite⟧⟦{精密|せいみつ}{検査|けんさ}→精密検査：20629_seimitsukensa⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "First a simple test is done, and a detailed examination is performed if necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used as a modifier in compounds: {簡易|かんい} + noun. Implies a functional but basic version of something, often temporary or portable. Not typically used as a predicate ({簡易|かんい}だ is uncommon).\n\nCOMMON COLLOCATIONS:\n- {簡易|かんい}トイレ: portable toilet\n- {簡易|かんい}ベッド: cot, simple bed\n- {簡易|かんい}{検査|けんさ}: simple test/screening\n- {簡易|かんい}{包装|ほうそう}: simple packaging\n- {簡易|かんい}{裁判所|さいばんしょ}: summary court\n- {簡易|かんい}{保険|ほけん}: postal life insurance (simplified)\n\nSIMILAR WORDS:\n{簡単|かんたん} (easy, simple) is more commonly used in everyday speech and covers both \"easy to do\" and \"simple.\" {簡易|かんい} specifically means \"simplified\" or \"basic version\" and is more formal.",
+  "notes": "USAGE:\nMost commonly used as a modifier in compounds: {簡易|かんい} + noun. Implies a functional but basic version of something, often temporary or portable. Not typically used as a predicate ({簡易|かんい}だ is uncommon).\n\nCOMMON COLLOCATIONS:\n- {簡易|かんい}⟦トイレ→トイレ：00818_toire⟧: portable toilet\n- {簡易|かんい}⟦ベッド→ベッド：04501_beddo⟧: cot, simple bed\n- {簡易|かんい}⟦{検査|けんさ}→検査：02707_kensa⟧: simple test/screening\n- {簡易|かんい}⟦{包装|ほうそう}→包装：11932_housou⟧: simple packaging\n- {簡易|かんい}{裁判所|さいばんしょ}: summary court\n- {簡易|かんい}{保険|ほけん}: postal life insurance (simplified)\n\nSIMILAR WORDS:\n⟦{簡単|かんたん}→簡単：00713_kantan⟧ (easy, simple) is more commonly used in everyday speech and covers both \"easy to do\" and \"simple.\" {簡易|かんい} specifically means \"simplified\" or \"basic version\" and is more formal.",
   "cross_references": [
     {
       "type": "contrast",
@@ -50,14 +56,18 @@
   ],
   "metadata": {
     "created": "2026-02-27T04:15:36Z",
-    "modified": "2026-04-29T08:23:01Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

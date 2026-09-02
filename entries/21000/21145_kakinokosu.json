@@ -17,7 +17,7 @@
   "examples": [
     {
       "id": "21145_kakinokosu_ex1",
-      "japanese": "{日記|にっき}に{書|か}き{残|のこ}した。",
+      "japanese": "⟦{日記|にっき}→日記：01486_nikki⟧⟦に→に：00314_ni⟧{書|か}き{残|のこ}した。",
       "english": "I left it written in my diary.",
       "sense_numbers": [
         1
@@ -27,7 +27,7 @@
     },
     {
       "id": "21145_kakinokosu_ex2",
-      "japanese": "{祖父|そふ}が{書|か}き{残|のこ}した{手紙|てがみ}が{見|み}つかった。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦が→が：00051_ga⟧{書|か}き{残|のこ}した⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "A letter that my grandfather left behind was found.",
       "sense_numbers": [
         1
@@ -37,7 +37,7 @@
     },
     {
       "id": "21145_kakinokosu_ex3",
-      "japanese": "{彼|かれ}はその{体験|たいけん}を{後世|こうせい}のために{書|か}き{残|のこ}そうと{決心|けっしん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦その→その：00993_sono⟧⟦{体験|たいけん}→体験：11443_taiken⟧⟦を→を：00422_wo⟧{後世|こうせい}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{書|か}き{残|のこ}そう⟦と→と：00512_to⟧⟦{決心|けっしん}→決心：02700_kesshin⟧⟦した→する：00392_suru⟧。",
       "english": "He decided to write down his experiences for future generations.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb combining {書|か}く (to write) and {残|のこ}す (to leave behind). It emphasizes that the writing survives or endures, often implying the author has since passed away or that the record is meant for posterity.\n\nCOMMON COLLOCATIONS:\n- {記録|きろく}を{書|か}き{残|のこ}す: to leave a written record\n- {遺言|ゆいごん}を{書|か}き{残|のこ}す: to leave a will in writing\n- {後世|こうせい}に{書|か}き{残|のこ}す: to write down for posterity\n\nSIMILAR WORDS:\n- {記|しる}す: to write down; to record — more literary, focuses on the act of recording\n- {残|のこ}す: to leave behind — broader, not limited to writing\n- {書|か}き{留|と}める: to jot down; to note — focuses on capturing information in the moment",
+  "notes": "A compound verb combining ⟦{書|か}く→書く：00477_kaku⟧ (to write) and ⟦{残|のこ}す→残す：01975_nokosu⟧ (to leave behind). It emphasizes that the writing survives or endures, often implying the author has since passed away or that the record is meant for posterity.\n\nCOMMON COLLOCATIONS:\n- ⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{書|か}き{残|のこ}す: to leave a written record\n- ⟦{遺言|ゆいごん}→遺言：10896_yuigon⟧⟦を→を：00422_wo⟧{書|か}き{残|のこ}す: to leave a will in writing\n- {後世|こうせい}⟦に→に：00314_ni⟧{書|か}き{残|のこ}す: to write down for posterity\n\nSIMILAR WORDS:\n- ⟦{記|しる}す→記す：14238_shirusu⟧: to write down; to record — more literary, focuses on the act of recording\n- ⟦{残|のこ}す→残す：01975_nokosu⟧: to leave behind — broader, not limited to writing\n- ⟦{書|か}き{留|と}める→書き留める：06730_kakitomeru⟧: to jot down; to note — focuses on capturing information in the moment",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T21:33:55Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "godan",

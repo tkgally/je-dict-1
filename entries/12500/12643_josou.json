@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12643_josou_ex1",
-      "japanese": "{彼|かれ}は{女装|じょそう}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{女装|じょそう}⟦している→する：00392_suru⟧。",
       "english": "He is dressed as a woman.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12643_josou_ex2",
-      "japanese": "{文化祭|ぶんかさい}で{男子|だんし}{生徒|せいと}が{女装|じょそう}して{劇|げき}に{出|で}た。",
+      "japanese": "⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧⟦で→で：00502_de⟧⟦{男子|だんし}→男子：03425_danshi⟧⟦{生徒|せいと}→生徒：01051_seito⟧⟦が→が：00051_ga⟧{女装|じょそう}⟦して→する：00392_suru⟧⟦{劇|げき}→劇：02713_geki⟧⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Male students dressed as women and appeared in a play at the school festival.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12643_josou_ex3",
-      "japanese": "{女装|じょそう}があまりにも{上手|じょうず}で、{誰|だれ}も{男性|だんせい}だと{気|き}づかなかった。",
+      "japanese": "{女装|じょそう}⟦が→が：00051_ga⟧あまり⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{上手|じょうず}→上手：00707_jouzu⟧で、⟦{誰|だれ}も→誰も：18610_daremo⟧⟦{男性|だんせい}→男性：01655_dansei⟧だ⟦と→と：00512_to⟧{気|き}づかなかった。",
       "english": "His cross-dressing was so convincing that nobody noticed he was male.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{女装|じょそう} specifically refers to a male dressing as a female. The reverse — a female dressing as a male — is {男装|だんそう}.\n\nThe word is used neutrally in Japanese and appears in theatrical, cosplay, comedy, and everyday contexts without necessarily carrying negative connotations.\n\nCOMMON COLLOCATIONS:\n- {女装|じょそう}する: to cross-dress (as a woman)\n- {女装|じょそう}{姿|すがた}: appearance in women's clothing\n- {女装|じょそう}コンテスト: cross-dressing contest\n- {完璧|かんぺき}な{女装|じょそう}: perfect female disguise",
+  "notes": "USAGE:\n{女装|じょそう} specifically refers to a male dressing as a female. The reverse — a female dressing as a male — is ⟦{男装|だんそう}→男装：23925_dansou⟧.\n\nThe word is used neutrally in Japanese and appears in theatrical, cosplay, comedy, and everyday contexts without necessarily carrying negative connotations.\n\nCOMMON COLLOCATIONS:\n- {女装|じょそう}⟦する→する：00392_suru⟧: to cross-dress (as a woman)\n- {女装|じょそう}⟦{姿|すがた}→姿：03363_sugata⟧: appearance in women's clothing\n- {女装|じょそう}⟦コンテスト→コンテスト：03843_kontesuto⟧: cross-dressing contest\n- ⟦{完璧|かんぺき}→完璧：09505_kanpeki⟧な{女装|じょそう}: perfect female disguise",
   "cross_references": [
     {
       "type": "antonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T05:19:49Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "clothing"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

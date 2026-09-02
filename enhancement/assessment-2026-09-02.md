@@ -1,6 +1,6 @@
 # je-dict-1 — Fresh Assessment of the Dictionary and the Routine (2026-09-02)
 
-**Status**: proposal for the curator. Nothing in this document has been implemented.
+**Status**: proposal for the curator, approved and implemented the same day (see §9 at the end).
 **Scope**: the dictionary content as it stands (30,584 entries), the twice-daily
 unattended Routine (`prompts/routine2.md`), its instruments, the generated site, and
 the tooling. Every number below was measured in this session from the repository at
@@ -566,3 +566,39 @@ After phase 2 the polish mode becomes what its name says, and the accuracy sweep
 becomes the whole-dictionary correctness instrument it was designed to be. After phase
 3 a learner can find 食べる by typing 食べた or `eat`, and can see the links the
 Routine has been building for months.
+
+---
+
+## 9. Implementation status (2026-09-02, same day)
+
+The curator approved every proposal (growth → internal closure; wiki → trigger-only; tokenizer
+allowed; site build in CI without a history rewrite; notes cap and header list at my discretion;
+Routine model → Sonnet 5). Implemented in this session, on the branch of PR #3253:
+
+| Proposal | Status |
+|---|---|
+| A1 polish re-aimed | done: `prompts/comprehensive_polish.md` rewritten (judgment only, 25–40 entries, notes cap) |
+| A2 priority re-ranked | done: `score_note_quality.py` rubric (content signals, alias-aware headers), `prioritize_polishing.py` substantive signals, bare-kanji bug fixed, priority files regenerated |
+| A3 reweight, wiki trigger-only | done: `pipeline/routine-config.json`, `routine_next.py` floors/trigger |
+| A4 slim instructions, drop no-ops | done: CLAUDE.md 5,553 → ~1,900 words with `build/COMMANDS.md`; `routine2.md` v3; lock and unused params removed; legacy prompts carry a dated note |
+| A5 model switch | curator: set the Routine's model to Sonnet 5 in the Routine settings |
+| B1 auto-linker | done and applied: `build/auto_link.py` (SudachiPy), every entry linked, 1,007,002 links; `build/check_link_newcomers.py` for later homographs |
+| B2 cross-reference harvest | done and applied: `build/harvest_crossrefs.py`, 58,103 references (SIMILAR WORDS bullets typed `contrast`, rendered "Compare") |
+| B3 metadata ratchets | done: `validate.py --changed-only --ratchet` in CI; `normalize_pos.py`, `backfill_register.py`, `fix_furigana_format.py` applied |
+| B4 header vocabulary | done: `build/data/note_headers.json`, `normalize_notes.py` applied, `check_note_headers.py --gate` in CI with baseline |
+| B5 transitivity | done in part: `review_transitivity.py` + `apply_transitivity_agreement.py`; 1,683 tags applied on two-model agreement with example evidence; 2,369 verbs queued (`reviews/transitivity/disagreements.jsonl`, backlog item `transitivity-review-queue`) |
+| C1 reviewer rebuilt | done: `review_accuracy.py` prompt v4 with code-side off-vocabulary detection, post-filters, family field, `reviews/accuracy_flags.jsonl` |
+| C2 notes dimension | done (same script) |
+| C3 furigana screener retired | done in the Routine; parse failures no longer count as flags; screening status rebuilt (22,922 entries) |
+| C4 neighbours verified | done (prompt) |
+| D1 internal closure | done: `prompts/newcandidates.md`, `newentries.md`, selector params |
+| E1–E8 site | done except recorded audio (speech synthesis button instead); PROJECT_STATUS audio claim removed |
+| F1 site built in CI | done: `.github/workflows/pages.yml`; `docs/` untracked; history not rewritten |
+| F2 idempotent build, compact reviews | done: kanji JSON timestamps removed; per-entry review files untracked; `screening_status.json` and `accuracy_flags.jsonl` tracked |
+| F3 tests in CI, hooks | done: `validate.yml` runs the suite (384 tests); `make test`, `make install-hooks` |
+| F4 stale documents, dead code | done: ten scripts moved to `build/archive/`, legacy cursors archived, counts fixed |
+
+Not done, deliberately: the five duplicate entry pairs (curator decision, `reviews/needs_curator.txt`);
+the 6,938 entries with non-canonical topical headers (baselined; backlog item
+`notes-unknown-headers-fold`); the 906 register hold-outs and 152 part-of-speech hold-outs
+(backlog items); a git history rewrite.

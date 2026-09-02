@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12821_suisoku_ex1",
-      "japanese": "{原因|げんいん}を{推測|すいそく}する。",
+      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{推測|すいそく}⟦する→する：00392_suru⟧。",
       "english": "To speculate about the cause.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12821_suisoku_ex2",
-      "japanese": "{彼|かれ}の{行動|こうどう}から{推測|すいそく}すると、{何|なに}か{隠|かく}しているようだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦から→から：00504_kara⟧{推測|すいそく}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{何|なに}か→何か：03873_nanika⟧⟦{隠|かく}している→隠す：02034_kakusu⟧ようだ。",
       "english": "Judging from his behavior, he seems to be hiding something.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12821_suisoku_ex3",
-      "japanese": "{推測|すいそく}の{域|いき}を{出|で}ないが、{犯人|はんにん}は{内部|ないぶ}の{人間|にんげん}ではないかと{思|おも}う。",
+      "japanese": "{推測|すいそく}⟦の→の：09472_no⟧{域|いき}⟦を→を：00422_wo⟧⟦{出|で}ない→出る：00513_deru⟧⟦が→が：00051_ga⟧、⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{内部|ないぶ}→内部：05583_naibu⟧⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧⟦ではないか→ではないか：30627_dehanaika⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "This is only speculation, but I think the culprit may be someone inside the organization.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe expression {推測|すいそく}の{域|いき}を{出|で}ない (\"does not go beyond speculation\") is a set phrase used to acknowledge that something is just a guess. {推測|すいそく} is more formal than {予想|よそう} (prediction) and implies reasoning from indirect evidence.\n\nCOMPARISON WITH SIMILAR WORDS:\n- {推測|すいそく}: inference from indirect evidence; formal\n- {推定|すいてい}: estimation based on data; more technical\n- {憶測|おくそく}: speculation; often negative nuance (unfounded guessing)\n- {予想|よそう}: prediction; forward-looking, less analytical\n\nCOMMON COLLOCATIONS:\n- {推測|すいそく}の{域|いき}を{出|で}ない: to be nothing more than speculation\n- {推測|すいそく}が{当|あ}たる: one's guess proves correct\n- {推測|すいそく}にすぎない: to be merely speculation\n- ～と{推測|すいそく}される: it is speculated that ~",
+  "notes": "USAGE:\nThe expression {推測|すいそく}⟦の→の：09472_no⟧{域|いき}⟦を→を：00422_wo⟧⟦{出|で}ない→出る：00513_deru⟧ (\"does not go beyond speculation\") is a set phrase used to acknowledge that something is just a guess. {推測|すいそく} is more formal than ⟦{予想|よそう}→予想：03664_yosou⟧ (prediction) and implies reasoning from indirect evidence.\n\nCOMPARISON WITH SIMILAR WORDS:\n- {推測|すいそく}: inference from indirect evidence; formal\n- ⟦{推定|すいてい}→推定：04293_suitei⟧: estimation based on data; more technical\n- ⟦{憶測|おくそく}→憶測：16398_okusoku⟧: speculation; often negative nuance (unfounded guessing)\n- ⟦{予想|よそう}→予想：03664_yosou⟧: prediction; forward-looking, less analytical\n\nCOMMON COLLOCATIONS:\n- {推測|すいそく}⟦の→の：09472_no⟧{域|いき}⟦を→を：00422_wo⟧⟦{出|で}ない→出る：00513_deru⟧: to be nothing more than speculation\n- {推測|すいそく}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧: one's guess proves correct\n- {推測|すいそく}⟦に→に：00314_ni⟧すぎない: to be merely speculation\n- ～⟦と→と：00512_to⟧{推測|すいそく}⟦される→する：00392_suru⟧: it is speculated that ~",
   "cross_references": [
     {
       "type": "synonym",
@@ -202,7 +202,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T11:10:14Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -215,7 +215,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

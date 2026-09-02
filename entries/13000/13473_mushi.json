@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13473_mushi_ex1",
-      "japanese": "{彼女|かのじょ}に{無視|むし}された。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧{無視|むし}⟦された→する：00392_suru⟧。",
       "english": "She ignored me.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13473_mushi_ex2",
-      "japanese": "ルールを{無視|むし}して{行動|こうどう}するのはよくない。",
+      "japanese": "⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧{無視|むし}⟦して→する：00392_suru⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦よくない→いい：00118_ii⟧。",
       "english": "It's not good to act while ignoring the rules.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13473_mushi_ex3",
-      "japanese": "{何度|なんど}メッセージを{送|おく}っても{無視|むし}されて、とても{悲|かな}しかった。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦メッセージ→メッセージ：03828_messeeji⟧⟦を→を：00422_wo⟧⟦{送|おく}って→送る：00742_okuru⟧⟦も→も：00484_mo⟧{無視|むし}⟦されて→する：00392_suru⟧、⟦とても→とても：00593_totemo⟧⟦{悲|かな}しかった→悲しい：00783_kanashii⟧。",
       "english": "No matter how many messages I sent, I was ignored, and it was very sad.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA very common everyday word. Used both for interpersonal ignoring (giving someone the silent treatment) and for disregarding rules, facts, or opinions. In social media and messaging contexts, {無視|むし}する often refers to not replying to messages (similar to \"leaving someone on read\"). Not to be confused with the homophone {虫|むし} (insect).\n\nCOMMON COLLOCATIONS:\n- {無視|むし}する: to ignore\n- {無視|むし}できない: cannot be ignored\n- {完全|かんぜん}{無視|むし}: complete disregard\n- {信号|しんごう}{無視|むし}: running a red light\n- ～を{無視|むし}して: ignoring ~, in disregard of ~",
+  "notes": "USAGE:\nA very common everyday word. Used both for interpersonal ignoring (giving someone the silent treatment) and for disregarding rules, facts, or opinions. In social media and messaging contexts, {無視|むし}⟦する→する：00392_suru⟧ often refers to not replying to messages (similar to \"leaving someone on read\"). Not to be confused with the homophone ⟦{虫|むし}→虫：02262_mushi⟧ (insect).\n\nCOMMON COLLOCATIONS:\n- {無視|むし}⟦する→する：00392_suru⟧: to ignore\n- {無視|むし}⟦できない→できる：00557_dekiru⟧: cannot be ignored\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧{無視|むし}: complete disregard\n- ⟦{信号|しんごう}→信号：03258_shingou⟧{無視|むし}: running a red light\n- ～⟦を→を：00422_wo⟧{無視|むし}⟦して→する：00392_suru⟧: ignoring ~, in disregard of ~",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

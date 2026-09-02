@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28924_kagameru_ex1",
-      "japanese": "{身|み}を{屈|かが}めた。",
+      "japanese": "⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{屈|かが}め→屈む：05537_kagamu⟧た。",
       "english": "I bent down.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28924_kagameru_ex2",
-      "japanese": "{低|ひく}い{戸口|とぐち}で{頭|あたま}を{屈|かが}めて{入|はい}った。",
+      "japanese": "⟦{低|ひく}い→低い：02947_hikui⟧{戸口|とぐち}⟦で→で：00502_de⟧⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧⟦{屈|かが}め→屈む：05537_kagamu⟧て⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I ducked my head to enter through the low doorway.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28924_kagameru_ex3",
-      "japanese": "{祖父|そふ}は{腰|こし}を{屈|かが}めて{庭|にわ}の{雑草|ざっそう}を{抜|ぬ}いている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{腰|こし}→腰：02210_koshi⟧⟦を→を：00422_wo⟧⟦{屈|かが}め→屈む：05537_kagamu⟧て⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦を→を：00422_wo⟧⟦{抜|ぬ}いている→抜く：02384_nuku⟧。",
       "english": "My grandfather is stooping over and pulling weeds in the garden.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Transitive counterpart of {屈|かが}む (to crouch, to stoop). Where {屈|かが}む describes the body crouching as a whole, {屈|かが}める takes a specific body part as object.\n\nTRANSITIVITY:\nTransitive (takes を). The object is always one's own body part — {身|み}, {腰|こし}, {頭|あたま}, {膝|ひざ}.\n\nCOMMON COLLOCATIONS:\n- {身|み}を{屈|かが}める: to bend one's body; to crouch down\n- {腰|こし}を{屈|かが}める: to bend at the waist; to stoop\n- {頭|あたま}を{屈|かが}める: to duck one's head\n- {膝|ひざ}を{屈|かが}める: to bend one's knees\n\nSIMILAR WORDS:\n- {屈|かが}む: to crouch; to stoop — intransitive pair\n- {曲|ま}げる: to bend (something) — general, can take any object\n- しゃがむ: to squat down — fully lower to a squatting position",
+  "notes": "Transitive counterpart of ⟦{屈|かが}む→屈む：05537_kagamu⟧ (to crouch, to stoop). Where ⟦{屈|かが}む→屈む：05537_kagamu⟧ describes the body crouching as a whole, {屈|かが}める takes a specific body part as object.\n\nTRANSITIVITY:\nTransitive (takes ⟦を→を：00422_wo⟧). The object is always one's own body part — ⟦{身|み}→身：01764_mi⟧, ⟦{腰|こし}→腰：02210_koshi⟧, ⟦{頭|あたま}→頭：00574_atama⟧, ⟦{膝|ひざ}→膝：00940_hiza⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧{屈|かが}める: to bend one's body; to crouch down\n- ⟦{腰|こし}→腰：02210_koshi⟧⟦を→を：00422_wo⟧{屈|かが}める: to bend at the waist; to stoop\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧{屈|かが}める: to duck one's head\n- ⟦{膝|ひざ}→膝：00940_hiza⟧⟦を→を：00422_wo⟧{屈|かが}める: to bend one's knees\n\nSIMILAR WORDS:\n- ⟦{屈|かが}む→屈む：05537_kagamu⟧: to crouch; to stoop — intransitive pair\n- ⟦{曲|ま}げる→曲げる：02529_mageru⟧: to bend (something) — general, can take any object\n- ⟦しゃがむ→しゃがむ：05535_shagamu⟧: to squat down — fully lower to a squatting position",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "ichidan",

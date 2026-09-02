@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29077_enchaku_ex1",
-      "japanese": "{電車|でんしゃ}が{延着|えんちゃく}した。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{延着|えんちゃく}⟦した→する：00392_suru⟧。",
       "english": "The train arrived late.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29077_enchaku_ex2",
-      "japanese": "{大雪|おおゆき}で{飛行機|ひこうき}が{延着|えんちゃく}した。",
+      "japanese": "⟦{大雪|おおゆき}→大雪：03017_ooyuki⟧⟦で→で：00502_de⟧⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{延着|えんちゃく}⟦した→する：00392_suru⟧。",
       "english": "The plane arrived late because of heavy snow.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29077_enchaku_ex3",
-      "japanese": "{事故|じこ}の{影響|えいきょう}で{特急|とっきゅう}が{一時間|いちじかん}{延着|えんちゃく}し、{乗客|じょうきゃく}は{駅|えき}で{待|ま}たされた。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧⟦が→が：00051_ga⟧⟦{一時間|いちじかん}→一時間：00941_ichijikan⟧{延着|えんちゃく}し、⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦は→は：00079_ha⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{待|ま}たされた。",
       "english": "Due to an accident, the express train arrived an hour late, and passengers were kept waiting at the station.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Arrival later than the scheduled time — used for trains, planes, buses, and deliveries. The opposite event, departing late, is {延発|えんぱつ}.\n\nCOMMON COLLOCATIONS:\n- {電車|でんしゃ}が{延着|えんちゃく}する: the train arrives late\n- {一時間|いちじかん}の{延着|えんちゃく}: a one-hour delay in arrival\n\nSIMILAR WORDS:\n- {遅延|ちえん}: delay — the general word for a transport delay, more common in station announcements\n- {延着|えんちゃく}: focuses specifically on the late arrival itself",
+  "notes": "Arrival later than the scheduled time — used for trains, planes, buses, and deliveries. The opposite event, departing late, is ⟦{延発|えんぱつ}→延発：29094_enpatsu⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{延着|えんちゃく}⟦する→する：00392_suru⟧: the train arrives late\n- ⟦{一時間|いちじかん}→一時間：00941_ichijikan⟧⟦の→の：09472_no⟧{延着|えんちゃく}: a one-hour delay in arrival\n\nSIMILAR WORDS:\n- ⟦{遅延|ちえん}→遅延：06749_chien⟧: delay — the general word for a transport delay, more common in station announcements\n- {延着|えんちゃく}: focuses specifically on the late arrival itself",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -67,10 +67,11 @@
       "semantic": [
         "transportation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-10T01:34:18Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

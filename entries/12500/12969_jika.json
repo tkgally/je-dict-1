@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12969_jika_ex1",
-      "japanese": "この{魚|さかな}は{時価|じか}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦は→は：00079_ha⟧{時価|じか}です。",
       "english": "This fish is at market price.",
       "notes": "Common at sushi restaurants for premium items",
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12969_jika_ex2",
-      "japanese": "{土地|とち}の{時価|じか}が{大幅|おおはば}に{上昇|じょうしょう}した。",
+      "japanese": "⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧{時価|じか}⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{上昇|じょうしょう}した→上昇する：21681_joushousuru⟧。",
       "english": "The market price of the land rose significantly.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12969_jika_ex3",
-      "japanese": "{株式|かぶしき}の{時価|じか}{総額|そうがく}で{国内|こくない}トップ10に{入|はい}る{企業|きぎょう}が{発表|はっぴょう}された。",
+      "japanese": "⟦{株式|かぶしき}→株式：04772_kabushiki⟧⟦の→の：09472_no⟧{時価|じか}{総額|そうがく}⟦で→で：00502_de⟧⟦{国内|こくない}→国内：02998_kokunai⟧⟦トップ→トップ：03862_toppu⟧10⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The companies in the top 10 domestically by market capitalization were announced.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly seen in two contexts: (1) restaurant menus, where {時価|じか} means the price fluctuates daily (especially for fresh seafood at sushi restaurants), and (2) finance and real estate, where it refers to the current market valuation of assets.\n\nCOMMON COLLOCATIONS:\n- {時価|じか}{総額|そうがく}: market capitalization\n- {時価|じか}{評価|ひょうか}: mark-to-market valuation\n- {時価|じか}で: at market price\n\nSIMILAR WORDS:\n- {定価|ていか}: list price, retail price (fixed)\n- {相場|そうば}: market price, going rate\n- {原価|げんか}: cost price",
+  "notes": "USAGE:\nCommonly seen in two contexts: (1) restaurant menus, where {時価|じか} means the price fluctuates daily (especially for fresh seafood at sushi restaurants), and (2) finance and real estate, where it refers to the current market valuation of assets.\n\nCOMMON COLLOCATIONS:\n- {時価|じか}{総額|そうがく}: market capitalization\n- {時価|じか}⟦{評価|ひょうか}→評価：03583_hyouka⟧: mark-to-market valuation\n- {時価|じか}⟦で→で：00502_de⟧: at market price\n\nSIMILAR WORDS:\n- ⟦{定価|ていか}→定価：04066_teika⟧: list price, retail price (fixed)\n- ⟦{相場|そうば}→相場：07668_souba⟧: market price, going rate\n- ⟦{原価|げんか}→原価：05470_genka⟧: cost price",
   "cross_references": [
     {
       "type": "contrast",
@@ -84,7 +84,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T23:43:50Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

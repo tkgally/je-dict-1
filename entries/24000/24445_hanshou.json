@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24445_hanshou_ex1",
-      "japanese": "{隣|となり}の{家|いえ}が{半焼|はんしょう}した。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦が→が：00051_ga⟧{半焼|はんしょう}⟦した→する：00392_suru⟧。",
       "english": "The neighboring house was partially burned.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24445_hanshou_ex2",
-      "japanese": "{火事|かじ}で{住宅|じゅうたく}が{半焼|はんしょう}し、{二人|ふたり}が{病院|びょういん}に{運|はこ}ばれた。",
+      "japanese": "⟦{火事|かじ}→火事：01283_kaji⟧⟦で→で：00502_de⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦が→が：00051_ga⟧{半焼|はんしょう}し、⟦{二人|ふたり}→二人：00622_futari⟧⟦が→が：00051_ga⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{運|はこ}ばれた→運ぶ：01088_hakobu⟧。",
       "english": "A house was partially burned in the fire and two people were taken to the hospital.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24445_hanshou_ex3",
-      "japanese": "{消防|しょうぼう}{署|しょ}の{発表|はっぴょう}によると、{全焼|ぜんしょう}{三棟|さんとう}、{半焼|はんしょう}{五棟|ごとう}の{被害|ひがい}が{出|で}た。",
+      "japanese": "⟦{消防|しょうぼう}{署|しょ}→消防署：06454_shoubousho⟧⟦の→の：09472_no⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦によると→〜によると：03104_niyoruto⟧、⟦{全焼|ぜんしょう}→全焼：17094_zenshou⟧{三棟|さんとう}、{半焼|はんしょう}{五棟|ごとう}⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "According to the fire department's announcement, three buildings were fully destroyed and five were partially burned.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "A term used in fire reports and news to describe buildings that have been partially destroyed by fire. In Japanese fire damage classification, structures are categorized as {全焼|ぜんしょう} (fully burned), {半焼|はんしょう} (partially burned), or {部分焼|ぶぶんしょう} (minor fire damage).\n\nCOMMON COLLOCATIONS:\n- {住宅|じゅうたく}が{半焼|はんしょう}する: a house is partially burned\n- {半焼|はんしょう}{被害|ひがい}: partial fire damage\n- {半焼|はんしょう}{状態|じょうたい}: partially burned condition\n\nSIMILAR WORDS:\n- {全焼|ぜんしょう}: total fire destruction — the building is completely destroyed by fire\n- {部分焼|ぶぶんしょう}: minor fire damage — less severe than {半焼|はんしょう}\n- {焼失|しょうしつ}: destruction by fire — general term for loss due to fire\n- {類焼|るいしょう}: fire spreading from another building — damage from a fire that started elsewhere",
+  "notes": "A term used in fire reports and news to describe buildings that have been partially destroyed by fire. In Japanese fire damage classification, structures are categorized as ⟦{全焼|ぜんしょう}→全焼：17094_zenshou⟧ (fully burned), {半焼|はんしょう} (partially burned), or {部分焼|ぶぶんしょう} (minor fire damage).\n\nCOMMON COLLOCATIONS:\n- ⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦が→が：00051_ga⟧{半焼|はんしょう}⟦する→する：00392_suru⟧: a house is partially burned\n- {半焼|はんしょう}⟦{被害|ひがい}→被害：02572_higai⟧: partial fire damage\n- {半焼|はんしょう}⟦{状態|じょうたい}→状態：03345_joutai⟧: partially burned condition\n\nSIMILAR WORDS:\n- ⟦{全焼|ぜんしょう}→全焼：17094_zenshou⟧: total fire destruction — the building is completely destroyed by fire\n- {部分焼|ぶぶんしょう}: minor fire damage — less severe than {半焼|はんしょう}\n- ⟦{焼失|しょうしつ}→焼失：13480_shoushitsu⟧: destruction by fire — general term for loss due to fire\n- ⟦{類焼|るいしょう}→類焼：18581_ruishou⟧: fire spreading from another building — damage from a fire that started elsewhere",
   "cross_references": [
     {
       "type": "antonym",
@@ -81,10 +81,11 @@
       "semantic": [
         "building"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-19T10:12:27Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

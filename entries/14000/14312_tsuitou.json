@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14312_tsuitou_ex1",
-      "japanese": "{故人|こじん}を{追悼|ついとう}する。",
+      "japanese": "⟦{故人|こじん}→故人：02807_kojin⟧⟦を→を：00422_wo⟧{追悼|ついとう}⟦する→する：00392_suru⟧。",
       "english": "To mourn the deceased.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14312_tsuitou_ex2",
-      "japanese": "{追悼|ついとう}{式|しき}に{多|おお}くの{人|ひと}が{参列|さんれつ}した。",
+      "japanese": "{追悼|ついとう}{式|しき}⟦に→に：00314_ni⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{参列|さんれつ}→参列：11888_sanretsu⟧⟦した→する：00392_suru⟧。",
       "english": "Many people attended the memorial ceremony.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14312_tsuitou_ex3",
-      "japanese": "{犠牲者|ぎせいしゃ}への{追悼|ついとう}の{意|い}を{込|こ}めて、{一分間|いっぷんかん}の{黙祷|もくとう}が{捧|ささ}げられた。",
+      "japanese": "⟦{犠牲者|ぎせいしゃ}→犠牲者：18769_giseisha⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{追悼|ついとう}⟦の→の：09472_no⟧⟦{意|い}→意：30489_i⟧⟦を→を：00422_wo⟧⟦{込|こ}めて→込める：01945_komeru⟧、{一分間|いっぷんかん}⟦の→の：09472_no⟧⟦{黙祷|もくとう}→黙祷：17408_mokutou⟧⟦が→が：00051_ga⟧⟦{捧|ささ}げられた→捧げる：02055_sasageru⟧。",
       "english": "A moment of silence was observed in tribute to the victims.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "A formal word used in solemn contexts to express grief and honor for someone who has passed away.\n\nCOMMON COLLOCATIONS:\n- {追悼|ついとう}{式|しき} (memorial ceremony)\n- {追悼|ついとう}{演説|えんぜつ} (memorial speech, eulogy)\n- {追悼|ついとう}の{意|い} (sentiment of mourning)\n- {追悼|ついとう}{文|ぶん} (tribute, memorial essay)\n- {追悼|ついとう}する (to mourn, to pay tribute to)\n\nUsed in news coverage of funerals, memorial events, and anniversary commemorations. More formal and public than {悲|かな}しむ (to grieve) or {偲|しの}ぶ (to fondly remember).",
+  "notes": "A formal word used in solemn contexts to express grief and honor for someone who has passed away.\n\nCOMMON COLLOCATIONS:\n- {追悼|ついとう}{式|しき} (memorial ceremony)\n- {追悼|ついとう}⟦{演説|えんぜつ}→演説：01894_enzetsu⟧ (memorial speech, eulogy)\n- {追悼|ついとう}⟦の→の：09472_no⟧⟦{意|い}→意：30489_i⟧ (sentiment of mourning)\n- {追悼|ついとう}{文|ぶん} (tribute, memorial essay)\n- {追悼|ついとう}⟦する→する：00392_suru⟧ (to mourn, to pay tribute to)\n\nUsed in news coverage of funerals, memorial events, and anniversary commemorations. More formal and public than ⟦{悲|かな}しむ→悲しむ：02042_kanashimu⟧ (to grieve) or ⟦{偲|しの}ぶ→偲ぶ：30130_shinobu⟧ (to fondly remember).",
   "cross_references": [
     {
       "type": "related",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-28T10:59:36Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -184,7 +184,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

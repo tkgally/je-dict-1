@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18954_kanbai_ex1",
-      "japanese": "チケットは{完売|かんばい}した。",
+      "japanese": "⟦チケット→チケット：11014_chiketto⟧⟦は→は：00079_ha⟧{完売|かんばい}⟦した→する：00392_suru⟧。",
       "english": "The tickets are sold out.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18954_kanbai_ex2",
-      "japanese": "{限定|げんてい}{商品|しょうひん}は{発売|はつばい}{初日|しょにち}に{完売|かんばい}した。",
+      "japanese": "⟦{限定|げんてい}→限定：10997_gentei⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦{初日|しょにち}→初日：11741_shonichi⟧⟦に→に：00314_ni⟧{完売|かんばい}⟦した→する：00392_suru⟧。",
       "english": "The limited-edition product sold out on the first day of release.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18954_kanbai_ex3",
-      "japanese": "{人気|にんき}のコンサートだったので、チケットは{発売|はつばい}{開始|かいし}{数分|すうふん}で{完売|かんばい}になった。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦コンサート→コンサート：01360_konsaato⟧だった⟦の→の：09472_no⟧で、⟦チケット→チケット：11014_chiketto⟧⟦は→は：00079_ha⟧⟦{発売|はつばい}{開始|かいし}→発売開始：22166_hatsubaikaishi⟧⟦{数分|すうふん}→数分：21623_suufun⟧⟦で→で：00502_de⟧{完売|かんばい}になった。",
       "english": "Since it was a popular concert, tickets sold out within minutes of going on sale.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {完|かん} (complete) + {売|ばい} (sell). Indicates that all stock or tickets have been sold with none remaining.\n\nCOMMON PATTERNS:\n- {完売|かんばい}する: to sell out (active)\n- {完売|かんばい}になる: to become sold out (change of state)\n- {完売|かんばい}{済|ず}み: sold out (already completed)\n- {完売|かんばい}{御礼|おんれい}: thank you, sold out (seen on signs)\n\nCOMMON COLLOCATIONS:\n- チケットが{完売|かんばい}する: tickets sell out\n- {即日|そくじつ}{完売|かんばい}: sold out the same day\n- {発売|はつばい}{開始|かいし}{直後|ちょくご}に{完売|かんばい}: sold out immediately after going on sale\n\nSIMILAR WORDS:\n- {売|う}り{切|き}れ: sold out (more colloquial, used in everyday speech and shop signs)\n- {品切|しなぎ}れ: out of stock (focuses on availability rather than sales)\n\nREGISTER:\n{完売|かんばい} is more formal than {売|う}り{切|き}れ and is commonly used in business, event, and media contexts.",
+  "notes": "Composed of {完|かん} (complete) + {売|ばい} (sell). Indicates that all stock or tickets have been sold with none remaining.\n\nCOMMON PATTERNS:\n- {完売|かんばい}⟦する→する：00392_suru⟧: to sell out (active)\n- {完売|かんばい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become sold out (change of state)\n- {完売|かんばい}⟦{済|ず}み→〜済み：04013_zumi⟧: sold out (already completed)\n- {完売|かんばい}{御礼|おんれい}: thank you, sold out (seen on signs)\n\nCOMMON COLLOCATIONS:\n- ⟦チケット→チケット：11014_chiketto⟧⟦が→が：00051_ga⟧{完売|かんばい}⟦する→する：00392_suru⟧: tickets sell out\n- ⟦{即日|そくじつ}→即日：09661_sokujitsu⟧{完売|かんばい}: sold out the same day\n- ⟦{発売|はつばい}{開始|かいし}→発売開始：22166_hatsubaikaishi⟧⟦{直後|ちょくご}→直後：04525_chokugo⟧⟦に→に：00314_ni⟧{完売|かんばい}: sold out immediately after going on sale\n\nSIMILAR WORDS:\n- ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧: sold out (more colloquial, used in everyday speech and shop signs)\n- ⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧: out of stock (focuses on availability rather than sales)\n\nREGISTER:\n{完売|かんばい} is more formal than ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧ and is commonly used in business, event, and media contexts.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -185,9 +185,10 @@
       "semantic": [
         "shopping"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-23T10:20:50Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

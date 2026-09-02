@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10734_autoputto_ex1",
-      "japanese": "アウトプットが{大事|だいじ}だ。",
+      "japanese": "アウトプット⟦が→が：00051_ga⟧⟦{大事|だいじ}→大事：01253_daiji⟧だ。",
       "english": "Output is important.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10734_autoputto_ex2",
-      "japanese": "{学|まな}んだことをアウトプットする{習慣|しゅうかん}をつけよう。",
+      "japanese": "⟦{学|まな}んだ→学ぶ：01987_manabu⟧こと⟦を→を：00422_wo⟧アウトプット⟦する→する：00392_suru⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦を→を：00422_wo⟧⟦つけよう→つける：00562_tsukeru⟧。",
       "english": "Let's build a habit of outputting what we've learned.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10734_autoputto_ex3",
-      "japanese": "インプットだけでなくアウトプットも{意識|いしき}しないと{語学|ごがく}は{上達|じょうたつ}しない。",
+      "japanese": "⟦インプット→インプット：10735_inputto⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧アウトプット⟦も→も：00484_mo⟧⟦{意識|いしき}しない→意識する：17974_ishikisuru⟧⟦と→と：00512_to⟧⟦{語学|ごがく}→語学：02770_gogaku⟧⟦は→は：00079_ha⟧⟦{上達|じょうたつ}しない→上達する：17981_joutatsusuru⟧。",
       "english": "Language skills won't improve unless you focus on output as well as input.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "アウトプット means output — producing or expressing knowledge, ideas, or results. From English \"output.\"\n\nアウトプット VS インプット:\nThese are commonly paired. In education and self-improvement contexts, the pair emphasizes that actively producing (writing, speaking, creating) is as important as passively absorbing (reading, listening). アウトプット{重視|じゅうし} (emphasis on output) is a common educational philosophy.\n\nCOMMON COLLOCATIONS:\n- アウトプットする: to output, to produce\n- アウトプットの{量|りょう}: amount of output\n- アウトプットを{増|ふ}やす: to increase output\n- アウトプット{力|りょく}: output ability\n\nUSAGE:\nUsed in business (project deliverables), education ({学習|がくしゅう}のアウトプット), and IT/technology contexts. Also used casually: {今日|きょう}のアウトプット (today's output/productivity).",
+  "notes": "アウトプット means output — producing or expressing knowledge, ideas, or results. From English \"output.\"\n\nアウトプット VS インプット:\nThese are commonly paired. In education and self-improvement contexts, the pair emphasizes that actively producing (writing, speaking, creating) is as important as passively absorbing (reading, listening). アウトプット⟦{重視|じゅうし}→重視：03341_juushi⟧ (emphasis on output) is a common educational philosophy.\n\nCOMMON COLLOCATIONS:\n- アウトプット⟦する→する：00392_suru⟧: to output, to produce\n- アウトプット⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧: amount of output\n- アウトプット⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧: to increase output\n- アウトプット{力|りょく}: output ability\n\nUSAGE:\nUsed in business (project deliverables), education (⟦{学習|がくしゅう}→学習：02623_gakushuu⟧⟦の→の：09472_no⟧アウトプット), and IT/technology contexts. Also used casually: ⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧アウトプット (today's output/productivity).",
   "cross_references": [
     {
       "type": "antonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-09T15:58:39Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

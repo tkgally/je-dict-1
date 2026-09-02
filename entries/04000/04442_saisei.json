@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "04442_saisei_ex1",
-      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧{再生|さいせい}する。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧{再生|さいせい}⟦する→する：00392_suru⟧。",
       "english": "I play the video.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "04442_saisei_ex2",
-      "japanese": "⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧{再生|さいせい}する。",
+      "japanese": "⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧{再生|さいせい}⟦する→する：00392_suru⟧。",
       "english": "I play music.",
       "notes": null,
       "has_audio": false,
@@ -199,7 +199,7 @@
     },
     {
       "id": "04442_saisei_ex10",
-      "japanese": "⟦{荒|あ}れた→荒れる：04577_areru⟧⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{再生|さいせい}して⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦{荒|あ}れた→荒れる：04577_areru⟧⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{再生|さいせい}⟦して→する：00392_suru⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a plan to revitalize the wasteland and turn it into a park.",
       "notes": null,
       "has_audio": false,
@@ -234,7 +234,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T14:59:53Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -247,7 +247,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

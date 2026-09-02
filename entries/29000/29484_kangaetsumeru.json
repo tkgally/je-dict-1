@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29484_kangaetsumeru_ex1",
-      "japanese": "{一人|ひとり}で{考|かんが}え{詰|つ}める。",
+      "japanese": "⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧{考|かんが}え{詰|つ}める。",
       "english": "Brood over it alone.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29484_kangaetsumeru_ex2",
-      "japanese": "{問題|もんだい}を{考|かんが}え{詰|つ}めすぎて{眠|ねむ}れない。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{考|かんが}え{詰|つ}めすぎて⟦{眠|ねむ}れない→眠れる：15166_nemureru⟧。",
       "english": "I thought so hard about the problem that I couldn't sleep.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29484_kangaetsumeru_ex3",
-      "japanese": "{悩|なや}みを{一人|ひとり}で{考|かんが}え{詰|つ}めると、かえって{出口|でぐち}が{見|み}えなくなる。",
+      "japanese": "⟦{悩|なや}み→悩み：06650_nayami⟧⟦を→を：00422_wo⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧{考|かんが}え{詰|つ}める⟦と→と：00512_to⟧、かえって⟦{出口|でぐち}→出口：02508_deguchi⟧⟦が→が：00051_ga⟧⟦{見|み}えなく→見える：01165_mieru⟧⟦なる→なる：01970_naru⟧。",
       "english": "When you brood over a worry by yourself, you paradoxically lose sight of the way out.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {考|かんが}える (to think) + {詰|つ}める (to do to the limit). Less common than its near-synonym {思|おも}い{詰|つ}める; somewhat literary.\n\nTRANSITIVITY:\nTransitive, taking を for the matter dwelt on, though it is often used intransitively with no object.\n\nSIMILAR WORDS:\n- {思|おも}い{詰|つ}める: to brood/obsess — the everyday word for dwelling on a worry; more common\n- {突|つ}き{詰|つ}める: to get to the bottom of — implies pursuing a question to a clear conclusion, not anxious brooding",
+  "notes": "Compound of ⟦{考|かんが}える→考える：00856_kangaeru⟧ (to think) + ⟦{詰|つ}める→詰める：02078_tsumeru⟧ (to do to the limit). Less common than its near-synonym {思|おも}い{詰|つ}める; somewhat literary.\n\nTRANSITIVITY:\nTransitive, taking ⟦を→を：00422_wo⟧ for the matter dwelt on, though it is often used intransitively with no object.\n\nSIMILAR WORDS:\n- {思|おも}い{詰|つ}める: to brood/obsess — the everyday word for dwelling on a worry; more common\n- ⟦{突|つ}き{詰|つ}める→突き詰める：06267_tsukitsumeru⟧: to get to the bottom of — implies pursuing a question to a clear conclusion, not anxious brooding",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -67,10 +67,11 @@
         "cognition"
       ],
       "domain": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-06-25T18:22:26Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "ichidan",

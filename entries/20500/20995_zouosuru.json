@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20995_zouosuru_ex1",
-      "japanese": "{暴力|ぼうりょく}を{憎悪|ぞうお}する。",
+      "japanese": "⟦{暴力|ぼうりょく}→暴力：02528_bouryoku⟧⟦を→を：00422_wo⟧{憎悪|ぞうお}する。",
       "english": "To detest violence.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20995_zouosuru_ex2",
-      "japanese": "{彼|かれ}は{不正|ふせい}を{憎悪|ぞうお}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧{憎悪|ぞうお}して⟦いる→いる：00495_iru⟧。",
       "english": "He abhors injustice.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20995_zouosuru_ex3",
-      "japanese": "{戦争|せんそう}を{経験|けいけん}した{人々|ひとびと}は、{心|こころ}の{底|そこ}から{争|あらそ}いを{憎悪|ぞうお}している。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦を→を：00422_wo⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦した→する：00392_suru⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧、⟦{心|こころ}の{底|そこ}→心の底：16535_kokoronosoko⟧⟦から→から：00504_kara⟧⟦{争|あらそ}い→争い：09992_arasoi⟧⟦を→を：00422_wo⟧{憎悪|ぞうお}して⟦いる→いる：00495_iru⟧。",
       "english": "People who experienced war hate conflict from the bottom of their hearts.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A する verb composed of {憎|ぞう} (hate) + {悪|お} (evil, loathe). Expresses deep, intense hatred — stronger than {嫌|きら}う or {憎|にく}む. Often used in literary, journalistic, or formal contexts.\n\nCOMMON COLLOCATIONS:\n- {憎悪|ぞうお}の{感情|かんじょう}: feelings of hatred\n- {憎悪|ぞうお}を{抱|いだ}く: to harbor hatred\n- {憎悪|ぞうお}{犯罪|はんざい}: hate crime\n- {人種|じんしゅ}{憎悪|ぞうお}: racial hatred\n\nSIMILAR WORDS:\n- {憎|にく}む: to hate — everyday word; less intense\n- {嫌|きら}う: to dislike, to hate — milder; common in daily conversation\n- {嫌悪|けんお}する: to feel disgust/aversion — emphasizes revulsion rather than hatred\n- {毛嫌|けぎら}いする: to have an irrational dislike for — instinctive, often unfounded dislike",
+  "notes": "A ⟦する→する：00392_suru⟧ verb composed of {憎|ぞう} (hate) + {悪|お} (evil, loathe). Expresses deep, intense hatred — stronger than ⟦{嫌|きら}う→嫌う：02048_kirau⟧ or ⟦{憎|にく}む→憎む：00318_nikumu⟧. Often used in literary, journalistic, or formal contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{憎悪|ぞうお}→憎悪：04865_zouo⟧⟦の→の：09472_no⟧⟦{感情|かんじょう}→感情：00171_kanjou⟧: feelings of hatred\n- ⟦{憎悪|ぞうお}→憎悪：04865_zouo⟧⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧: to harbor hatred\n- ⟦{憎悪|ぞうお}→憎悪：04865_zouo⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧: hate crime\n- ⟦{人種|じんしゅ}→人種：03354_jinshu⟧⟦{憎悪|ぞうお}→憎悪：04865_zouo⟧: racial hatred\n\nSIMILAR WORDS:\n- ⟦{憎|にく}む→憎む：00318_nikumu⟧: to hate — everyday word; less intense\n- ⟦{嫌|きら}う→嫌う：02048_kirau⟧: to dislike, to hate — milder; common in daily conversation\n- ⟦{嫌悪|けんお}→嫌悪：05998_keno⟧⟦する→する：00392_suru⟧: to feel disgust/aversion — emphasizes revulsion rather than hatred\n- ⟦{毛嫌|けぎら}い→毛嫌い：13216_kegirai⟧⟦する→する：00392_suru⟧: to have an irrational dislike for — instinctive, often unfounded dislike",
   "conjugation_type": "suru",
   "schema_version": "2.0",
   "cross_references": [
@@ -88,10 +88,11 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T09:51:43Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

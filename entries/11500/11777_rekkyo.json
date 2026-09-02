@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11777_rekkyo_ex1",
-      "japanese": "{理由|りゆう}を{列挙|れっきょ}する。",
+      "japanese": "⟦{理由|りゆう}→理由：01102_riyuu⟧⟦を→を：00422_wo⟧{列挙|れっきょ}⟦する→する：00392_suru⟧。",
       "english": "List the reasons.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11777_rekkyo_ex2",
-      "japanese": "{問題点|もんだいてん}を{一|ひと}つずつ{列挙|れっきょ}した。",
+      "japanese": "⟦{問題点|もんだいてん}→問題点：20619_mondaiten⟧⟦を→を：00422_wo⟧⟦{一|ひと}つずつ→一つずつ：24348_hitotsuzutsu⟧{列挙|れっきょ}⟦した→する：00392_suru⟧。",
       "english": "I listed the issues one by one.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11777_rekkyo_ex3",
-      "japanese": "レポートでは{具体的|ぐたいてき}な{事例|じれい}を{列挙|れっきょ}して{論点|ろんてん}を{裏付|うらづ}けた。",
+      "japanese": "⟦レポート→レポート：01543_repooto⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{具体的|ぐたいてき}→具体的：04781_gutaiteki⟧な⟦{事例|じれい}→事例：11417_jirei⟧⟦を→を：00422_wo⟧{列挙|れっきょ}⟦して→する：00392_suru⟧⟦{論点|ろんてん}→論点：21049_ronten⟧⟦を→を：00422_wo⟧⟦{裏付|うらづ}けた→裏付ける：14050_urazukeru⟧。",
       "english": "In the report, specific examples were listed to support the argument.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{列挙|れっきょ} means listing items systematically, one by one. Composed of {列|れつ} (row/line) + {挙|きょ} (to raise/cite).\n\nCOMMON COLLOCATIONS:\n- {理由|りゆう}を{列挙|れっきょ}する: to list reasons\n- {条件|じょうけん}を{列挙|れっきょ}する: to enumerate conditions\n- {事例|じれい}を{列挙|れっきょ}する: to list examples\n- {問題点|もんだいてん}を{列挙|れっきょ}する: to enumerate problems\n\nSIMILAR WORDS:\n- {羅列|られつ}: listing without organization (often implies a disorganized list)\n- {挙|あ}げる: to cite, to give (examples) — more casual\n- リストアップする: to list up (loanword, more casual)\n\nREGISTER:\n{列挙|れっきょ} is a formal, written-style word common in academic papers, legal documents, and business reports. In conversation, {挙|あ}げる is more natural.",
+  "notes": "{列挙|れっきょ} means listing items systematically, one by one. Composed of ⟦{列|れつ}→列：02171_retsu⟧ (row/line) + {挙|きょ} (to raise/cite).\n\nCOMMON COLLOCATIONS:\n- ⟦{理由|りゆう}→理由：01102_riyuu⟧⟦を→を：00422_wo⟧{列挙|れっきょ}⟦する→する：00392_suru⟧: to list reasons\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧⟦を→を：00422_wo⟧{列挙|れっきょ}⟦する→する：00392_suru⟧: to enumerate conditions\n- ⟦{事例|じれい}→事例：11417_jirei⟧⟦を→を：00422_wo⟧{列挙|れっきょ}⟦する→する：00392_suru⟧: to list examples\n- ⟦{問題点|もんだいてん}→問題点：20619_mondaiten⟧⟦を→を：00422_wo⟧{列挙|れっきょ}⟦する→する：00392_suru⟧: to enumerate problems\n\nSIMILAR WORDS:\n- {羅列|られつ}: listing without organization (often implies a disorganized list)\n- ⟦{挙|あ}げる→挙げる：27889_ageru⟧: to cite, to give (examples) — more casual\n- ⟦リストアップ→リストアップ：13632_risutoappu⟧⟦する→する：00392_suru⟧: to list up (loanword, more casual)\n\nREGISTER:\n{列挙|れっきょ} is a formal, written-style word common in academic papers, legal documents, and business reports. In conversation, ⟦{挙|あ}げる→挙げる：27889_ageru⟧ is more natural.",
   "cross_references": [
     {
       "type": "contrast",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -159,7 +159,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

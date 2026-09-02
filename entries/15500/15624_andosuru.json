@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15624_andosuru_ex1",
-      "japanese": "{無事|ぶじ}だと{聞|き}いて{安堵|あんど}した。",
+      "japanese": "⟦{無事|ぶじ}→無事：01602_buji⟧だ⟦と→と：00512_to⟧⟦{聞|き}いて→聞く：00483_kiku⟧{安堵|あんど}した。",
       "english": "I was relieved to hear that everyone was safe.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15624_andosuru_ex2",
-      "japanese": "{試験|しけん}に{合格|ごうかく}して、やっと{安堵|あんど}の{表情|ひょうじょう}を{見|み}せた。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{合格|ごうかく}して→合格する：27949_goukakusuru⟧、⟦やっと→やっと：01561_yatto⟧⟦{安堵|あんど}→安堵：05818_ando⟧⟦の→の：09472_no⟧⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦を→を：00422_wo⟧⟦{見|み}せた→見せる：01988_miseru⟧。",
       "english": "Having passed the exam, she finally showed a look of relief.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15624_andosuru_ex3",
-      "japanese": "{手術|しゅじゅつ}が{成功|せいこう}したという{知|し}らせに、{家族|かぞく}{全員|ぜんいん}が{安堵|あんど}した。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦が→が：00051_ga⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧⟦という→という：09577_toiu⟧⟦{知|し}らせ→知らせ：03252_shirase⟧⟦に→に：00314_ni⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧{安堵|あんど}した。",
       "english": "The whole family was relieved at the news that the surgery was successful.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{安堵|あんど}する is somewhat formal and literary compared to ほっとする, which is the more colloquial equivalent. {安堵|あんど} is frequently used as a noun modifier, as in {安堵|あんど}の{表情|ひょうじょう} (expression of relief) or {安堵|あんど}{感|かん} (sense of relief).\n\nCOMMON COLLOCATIONS:\n- {安堵|あんど}の{表情|ひょうじょう} (expression of relief)\n- {安堵|あんど}{感|かん} (sense of relief)\n- {安堵|あんど}の{溜|た}め{息|いき} (sigh of relief)\n- {安堵|あんど}の{色|いろ}を{浮|う}かべる (to show signs of relief)\n\nSIMILAR WORDS:\n- ほっとする: to feel relieved (casual, everyday)\n- {安心|あんしん}する: to feel at ease, to be reassured",
+  "notes": "USAGE:\n{安堵|あんど}する is somewhat formal and literary compared to ⟦ほっとする→ほっとする：07652_hottosuru⟧, which is the more colloquial equivalent. ⟦{安堵|あんど}→安堵：05818_ando⟧ is frequently used as a noun modifier, as in ⟦{安堵|あんど}→安堵：05818_ando⟧⟦の→の：09472_no⟧⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧ (expression of relief) or ⟦{安堵|あんど}{感|かん}→安堵感：19956_andokan⟧ (sense of relief).\n\nCOMMON COLLOCATIONS:\n- ⟦{安堵|あんど}→安堵：05818_ando⟧⟦の→の：09472_no⟧⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧ (expression of relief)\n- ⟦{安堵|あんど}{感|かん}→安堵感：19956_andokan⟧ (sense of relief)\n- ⟦{安堵|あんど}→安堵：05818_ando⟧⟦の→の：09472_no⟧{溜|た}め{息|いき} (sigh of relief)\n- ⟦{安堵|あんど}→安堵：05818_ando⟧⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦を→を：00422_wo⟧⟦{浮|う}かべる→浮かべる：13314_ukaberu⟧ (to show signs of relief)\n\nSIMILAR WORDS:\n- ⟦ほっとする→ほっとする：07652_hottosuru⟧: to feel relieved (casual, everyday)\n- ⟦{安心|あんしん}する→安心する：06067_anshinsuru⟧: to feel at ease, to be reassured",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

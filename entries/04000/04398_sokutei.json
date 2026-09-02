@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04398_sokutei_ex1",
-      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦を→を：00422_wo⟧{測定|そくてい}する。",
+      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦を→を：00422_wo⟧{測定|そくてい}⟦する→する：00392_suru⟧。",
       "english": "To measure the temperature.",
       "notes": null,
       "has_audio": false,
@@ -166,7 +166,7 @@
   ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +183,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

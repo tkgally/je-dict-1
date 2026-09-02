@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25253_nazomeku_ex1",
-      "japanese": "{謎|なぞ}めいた{笑|え}みを{浮|う}かべた。",
+      "japanese": "{謎|なぞ}めいた⟦{笑|え}み→笑み：13768_emi⟧⟦を→を：00422_wo⟧⟦{浮|う}かべた→浮かべる：13314_ukaberu⟧。",
       "english": "She wore an enigmatic smile.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25253_nazomeku_ex2",
-      "japanese": "{彼|かれ}の{言葉|ことば}は{謎|なぞ}めいていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦は→は：00079_ha⟧{謎|なぞ}めいて⟦いた→いる：00495_iru⟧。",
       "english": "His words were mysterious.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25253_nazomeku_ex3",
-      "japanese": "その{古|ふる}い{屋敷|やしき}には{謎|なぞ}めいた{雰囲気|ふんいき}が{漂|ただよ}っていた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{古|ふる}い→古い：00488_furui⟧⟦{屋敷|やしき}→屋敷：12395_yashiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{謎|なぞ}めいた⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦{漂|ただよ}っていた→漂う：04356_tadayou⟧。",
       "english": "An air of mystery hung about the old mansion.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25253_nazomeku_ex4",
-      "japanese": "{事件|じけん}は{謎|なぞ}めいたまま{未解決|みかいけつ}となった。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦は→は：00079_ha⟧{謎|なぞ}めいたまま⟦{未解決|みかいけつ}→未解決：17292_mikaiketsu⟧⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "The case remained mysterious and unsolved.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb formed with the suffix めく (to have the appearance of, to seem like), attached to {謎|なぞ} (riddle, mystery). Almost always used in the て-form ({謎|なぞ}めいて) or た-form ({謎|なぞ}めいた) as a modifier.\n\nCOMMON COLLOCATIONS:\n- {謎|なぞ}めいた{笑|え}み: an enigmatic smile\n- {謎|なぞ}めいた{雰囲気|ふんいき}: a mysterious atmosphere\n- {謎|なぞ}めいた{言葉|ことば}: cryptic words\n- {謎|なぞ}めいた{人物|じんぶつ}: a mysterious figure\n\nCOMMON PATTERNS:\nThe suffix めく attaches to nouns to create godan verbs meaning \"to have the quality of ~.\" Other examples include {春|はる}めく (to become spring-like), {色|いろ}めく (to become excited/colorful), and {時|とき}めく (to feel a thrill).\n\nSIMILAR WORDS:\n- {不思議|ふしぎ}な: mysterious or strange; a more common, general-purpose adjective\n- {神秘的|しんぴてき}な: mystical, spiritual; carries a more sacred or awe-inspiring nuance than {謎|なぞ}めく",
+  "notes": "A godan verb formed with the suffix めく (to have the appearance of, to seem like), attached to ⟦{謎|なぞ}→謎：03505_nazo⟧ (riddle, mystery). Almost always used in the て-form ({謎|なぞ}めいて) or た-form ({謎|なぞ}めいた) as a modifier.\n\nCOMMON COLLOCATIONS:\n- {謎|なぞ}めいた⟦{笑|え}み→笑み：13768_emi⟧: an enigmatic smile\n- {謎|なぞ}めいた⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: a mysterious atmosphere\n- {謎|なぞ}めいた⟦{言葉|ことば}→言葉：02880_kotoba⟧: cryptic words\n- {謎|なぞ}めいた⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: a mysterious figure\n\nCOMMON PATTERNS:\nThe suffix めく attaches to nouns to create godan verbs meaning \"to have the quality of ~.\" Other examples include ⟦{春|はる}→春：00627_haru⟧めく (to become spring-like), ⟦{色|いろ}→色：00849_iro⟧めく (to become excited/colorful), and {時|とき}めく (to feel a thrill).\n\nSIMILAR WORDS:\n- ⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧な: mysterious or strange; a more common, general-purpose adjective\n- ⟦{神秘的|しんぴてき}→神秘的：21894_shinpiteki⟧な: mystical, spiritual; carries a more sacred or awe-inspiring nuance than {謎|なぞ}めく",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -83,10 +83,11 @@
       "semantic": [
         "descriptive"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T12:12:38Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "godan",

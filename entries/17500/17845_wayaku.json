@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17845_wayaku_ex1",
-      "japanese": "この{文|ぶん}を{和訳|わやく}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{文|ぶん}→文：03716_bun⟧⟦を→を：00422_wo⟧{和訳|わやく}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please translate this sentence into Japanese.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17845_wayaku_ex2",
-      "japanese": "{英語|えいご}の{記事|きじ}の{和訳|わやく}を{読|よ}んだ。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦の→の：09472_no⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦の→の：09472_no⟧{和訳|わやく}⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00426_yomu⟧。",
       "english": "I read the Japanese translation of the English article.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17845_wayaku_ex3",
-      "japanese": "{契約書|けいやくしょ}の{和訳|わやく}を{用意|ようい}するのに{時間|じかん}がかかった。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦の→の：09472_no⟧{和訳|わやく}⟦を→を：00422_wo⟧⟦{用意|ようい}する→用意する：22428_youisuru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took time to prepare the Japanese translation of the contract.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCan be used as a noun or as a suru verb ({和訳|わやく}する). Commonly contrasted with {英訳|えいやく} (translation into English).\n\nCOMMON COLLOCATIONS:\n- {和訳|わやく}する (to translate into Japanese)\n- {和訳|わやく}{版|ばん} (Japanese-translated version)\n- {直訳|ちょくやく}と{和訳|わやく} (literal translation and Japanese translation)\n\nSIMILAR WORDS:\n- {英訳|えいやく}: translation into English\n- {意訳|いやく}: free or liberal translation\n- {直訳|ちょくやく}: literal translation",
+  "notes": "USAGE:\nCan be used as a noun or as a suru verb ({和訳|わやく}⟦する→する：00392_suru⟧). Commonly contrasted with ⟦{英訳|えいやく}→英訳：16317_eiyaku⟧ (translation into English).\n\nCOMMON COLLOCATIONS:\n- {和訳|わやく}⟦する→する：00392_suru⟧ (to translate into Japanese)\n- {和訳|わやく}{版|ばん} (Japanese-translated version)\n- ⟦{直訳|ちょくやく}→直訳：13629_chokuyaku⟧⟦と→と：00512_to⟧{和訳|わやく} (literal translation and Japanese translation)\n\nSIMILAR WORDS:\n- ⟦{英訳|えいやく}→英訳：16317_eiyaku⟧: translation into English\n- ⟦{意訳|いやく}→意訳：17846_iyaku⟧: free or liberal translation\n- ⟦{直訳|ちょくやく}→直訳：13629_chokuyaku⟧: literal translation",
   "cross_references": [
     {
       "type": "antonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -174,7 +174,8 @@
         "language",
         "translation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

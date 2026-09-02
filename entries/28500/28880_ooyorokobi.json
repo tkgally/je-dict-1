@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28880_ooyorokobi_ex1",
-      "japanese": "プレゼントに{大喜|おおよろこ}びだった。",
+      "japanese": "⟦プレゼント→プレゼント：01791_purezento⟧⟦に→に：00314_ni⟧{大喜|おおよろこ}びだった。",
       "english": "He was overjoyed by the present.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28880_ooyorokobi_ex2",
-      "japanese": "{合格|ごうかく}の{知|し}らせに{家族|かぞく}みんなが{大喜|おおよろこ}びした。",
+      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦の→の：09472_no⟧⟦{知|し}らせ→知らせ：03252_shirase⟧⟦に→に：00314_ni⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦みんな→みんな：02972_minna⟧⟦が→が：00051_ga⟧{大喜|おおよろこ}び⟦した→する：00392_suru⟧。",
       "english": "The whole family was overjoyed at the news of his passing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28880_ooyorokobi_ex3",
-      "japanese": "{犬|いぬ}は{飼|か}い{主|ぬし}が{帰|かえ}ってくると、しっぽを{振|ふ}って{大喜|おおよろこ}びする。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦は→は：00079_ha⟧⟦{飼|か}い{主|ぬし}→飼い主：15281_kainushi⟧⟦が→が：00051_ga⟧⟦{帰|かえ}って→帰る：00508_kaeru⟧くる⟦と→と：00512_to⟧、⟦しっぽ→しっぽ：09089_shippo⟧⟦を→を：00422_wo⟧⟦{振|ふ}って→振る：01983_furu⟧{大喜|おおよろこ}び⟦する→する：00392_suru⟧。",
       "english": "When the owner comes home, the dog wags its tail in delight.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{大|おお} (big) + {喜|よろこ}び (joy). Used both as a noun and with する as a verb ({大喜|おおよろこ}びする).\n\nCOMMON COLLOCATIONS:\n- {大喜|おおよろこ}びする: to be overjoyed\n- {大喜|おおよろこ}びで: with great delight (adverbial)\n- ～に{大喜|おおよろこ}び: overjoyed at ～\n\nSIMILAR WORDS:\n- {喜|よろこ}び: joy — neutral; lower intensity\n- {歓喜|かんき}: rapture; great joy — more formal/literary; sometimes used for collective joy (e.g., a stadium of fans)\n- {狂喜|きょうき}: wild/frantic joy — even stronger, sometimes with a connotation of being beside oneself",
+  "notes": "{大|おお} (big) + ⟦{喜|よろこ}び→喜び：03672_yorokobi⟧ (joy). Used both as a noun and with ⟦する→する：00392_suru⟧ as a verb ({大喜|おおよろこ}び⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {大喜|おおよろこ}び⟦する→する：00392_suru⟧: to be overjoyed\n- {大喜|おおよろこ}びで: with great delight (adverbial)\n- ～⟦に→に：00314_ni⟧{大喜|おおよろこ}び: overjoyed at ～\n\nSIMILAR WORDS:\n- ⟦{喜|よろこ}び→喜び：03672_yorokobi⟧: joy — neutral; lower intensity\n- ⟦{歓喜|かんき}→歓喜：13172_kanki⟧: rapture; great joy — more formal/literary; sometimes used for collective joy (e.g., a stadium of fans)\n- ⟦{狂喜|きょうき}→狂喜：06435_kyouki⟧: wild/frantic joy — even stronger, sometimes with a connotation of being beside oneself",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "emotion"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

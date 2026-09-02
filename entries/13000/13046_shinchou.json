@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13046_shinchou_ex1",
-      "japanese": "スーツを{新調|しんちょう}する。",
+      "japanese": "⟦スーツ→スーツ：01367_suutsu⟧⟦を→を：00422_wo⟧{新調|しんちょう}⟦する→する：00392_suru⟧。",
       "english": "To get a new suit.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13046_shinchou_ex2",
-      "japanese": "{入学式|にゅうがくしき}に{合|あ}わせて{靴|くつ}を{新調|しんちょう}した。",
+      "japanese": "⟦{入学式|にゅうがくしき}→入学式：05495_nyuugakushiki⟧⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧{新調|しんちょう}⟦した→する：00392_suru⟧。",
       "english": "I got new shoes in time for the entrance ceremony.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13046_shinchou_ex3",
-      "japanese": "{古|ふる}くなったカーテンを{新調|しんちょう}しようと{思|おも}って、いくつかの{店|みせ}を{見|み}て{回|まわ}った。",
+      "japanese": "⟦{古|ふる}く→古い：00488_furui⟧⟦なった→なる：01970_naru⟧⟦カーテン→カーテン：01342_kaaten⟧⟦を→を：00422_wo⟧{新調|しんちょう}⟦しよう→する：00392_suru⟧⟦と→と：00512_to⟧⟦{思|おも}って→思う：00492_omou⟧、いくつ⟦か→か：09473_ka⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦{回|まわ}った→回る：01150_mawaru⟧。",
       "english": "I went around several stores, thinking about getting new curtains to replace the old ones.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{新調|しんちょう}する implies purposefully acquiring something new, often with a sense of replacing something old or preparing for an occasion. It is most commonly used for clothing, accessories, and household items.\nUnlike simply \"buying\" ({買|か}う), {新調|しんちょう}する carries the nuance of replacing something or preparing something fresh for an occasion. It can also imply having something custom-made rather than buying off the shelf.\n\nCOMMON COLLOCATIONS:\n- スーツを{新調|しんちょう}する: to get a new suit\n- {着物|きもの}を{新調|しんちょう}する: to get a new kimono\n- {家具|かぐ}を{新調|しんちょう}する: to get new furniture\n- {制服|せいふく}を{新調|しんちょう}する: to get a new uniform",
+  "notes": "USAGE:\n{新調|しんちょう}⟦する→する：00392_suru⟧ implies purposefully acquiring something new, often with a sense of replacing something old or preparing for an occasion. It is most commonly used for clothing, accessories, and household items.\nUnlike simply \"buying\" (⟦{買|か}う→買う：00489_kau⟧), {新調|しんちょう}⟦する→する：00392_suru⟧ carries the nuance of replacing something or preparing something fresh for an occasion. It can also imply having something custom-made rather than buying off the shelf.\n\nCOMMON COLLOCATIONS:\n- ⟦スーツ→スーツ：01367_suutsu⟧⟦を→を：00422_wo⟧{新調|しんちょう}⟦する→する：00392_suru⟧: to get a new suit\n- ⟦{着物|きもの}→着物：01309_kimono⟧⟦を→を：00422_wo⟧{新調|しんちょう}⟦する→する：00392_suru⟧: to get a new kimono\n- ⟦{家具|かぐ}→家具：12314_kagu⟧⟦を→を：00422_wo⟧{新調|しんちょう}⟦する→する：00392_suru⟧: to get new furniture\n- ⟦{制服|せいふく}→制服：03086_seifuku⟧⟦を→を：00422_wo⟧{新調|しんちょう}⟦する→する：00392_suru⟧: to get a new uniform",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-23T10:01:02Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

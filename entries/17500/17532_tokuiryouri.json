@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17532_tokuiryouri_ex1",
-      "japanese": "{得意料理|とくいりょうり}はカレーです。",
+      "japanese": "{得意料理|とくいりょうり}⟦は→は：00079_ha⟧⟦カレー→カレー：02898_karee⟧です。",
       "english": "My specialty dish is curry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17532_tokuiryouri_ex2",
-      "japanese": "{母|はは}の{得意料理|とくいりょうり}は{肉|にく}じゃがだ。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧{得意料理|とくいりょうり}⟦は→は：00079_ha⟧⟦{肉|にく}じゃが→肉じゃが：17620_nikujaga⟧だ。",
       "english": "My mother's specialty dish is nikujaga (meat and potato stew).",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17532_tokuiryouri_ex3",
-      "japanese": "{友達|ともだち}を{招|まね}いて{得意料理|とくいりょうり}を{振|ふ}る{舞|ま}った。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧⟦{招|まね}いて→招く：02425_maneku⟧{得意料理|とくいりょうり}⟦を→を：00422_wo⟧⟦{振|ふ}る{舞|ま}った→振る舞う：04233_furumau⟧。",
       "english": "I invited friends over and served them my specialty dish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {得意|とくい} (strong point, specialty) and {料理|りょうり} (cooking, dish). Commonly asked about in conversation, especially when getting to know someone: {得意料理|とくいりょうり}は{何|なん}ですか？ (What's your specialty dish?)\n\nCOMMON COLLOCATIONS:\n- {得意料理|とくいりょうり}は{何|なん}ですか (What's your specialty dish?)\n- {得意料理|とくいりょうり}を{振|ふ}る{舞|ま}う (to serve one's specialty dish)\n- {得意料理|とくいりょうり}を{作|つく}る (to make one's specialty dish)\n\nSIMILAR WORDS:\n- {自慢|じまん}の{料理|りょうり}: dish one is proud of — emphasizes pride\n- {十八番|おはこ}: one's forte — broader, not limited to cooking",
+  "notes": "USAGE:\nA compound of ⟦{得意|とくい}→得意：03455_tokui⟧ (strong point, specialty) and ⟦{料理|りょうり}→料理：01523_ryouri⟧ (cooking, dish). Commonly asked about in conversation, especially when getting to know someone: {得意料理|とくいりょうり}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧？ (What's your specialty dish?)\n\nCOMMON COLLOCATIONS:\n- {得意料理|とくいりょうり}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧ (What's your specialty dish?)\n- {得意料理|とくいりょうり}⟦を→を：00422_wo⟧⟦{振|ふ}る{舞|ま}う→振る舞う：04233_furumau⟧ (to serve one's specialty dish)\n- {得意料理|とくいりょうり}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to make one's specialty dish)\n\nSIMILAR WORDS:\n- ⟦{自慢|じまん}→自慢：03278_jiman⟧⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧: dish one is proud of — emphasizes pride\n- ⟦{十八番|おはこ}→十八番：10919_ohako⟧: one's forte — broader, not limited to cooking",
   "cross_references": [
     {
       "type": "related",
@@ -57,14 +63,18 @@
   ],
   "metadata": {
     "created": "2026-03-18T08:03:12Z",
-    "modified": "2026-05-06T09:07:22Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

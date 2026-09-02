@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22672_shinkokukasuru_ex1",
-      "japanese": "{問題|もんだい}が{深刻化|しんこくか}している。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{深刻化|しんこくか}して⟦いる→いる：00495_iru⟧。",
       "english": "The problem is getting worse.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22672_shinkokukasuru_ex2",
-      "japanese": "{人手|ひとで}{不足|ぶそく}が{年々|ねんねん}{深刻化|しんこくか}している。",
+      "japanese": "⟦{人手|ひとで}{不足|ぶそく}→人手不足：11436_hitodebusoku⟧⟦が→が：00051_ga⟧⟦{年々|ねんねん}→年々：10417_nennen⟧{深刻化|しんこくか}して⟦いる→いる：00495_iru⟧。",
       "english": "The labor shortage is worsening year by year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22672_shinkokukasuru_ex3",
-      "japanese": "{対策|たいさく}を{取|と}らなければ、{環境|かんきょう}{汚染|おせん}はさらに{深刻化|しんこくか}するだろう。",
+      "japanese": "⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{取|と}らなければ→取る：00565_toru⟧、⟦{環境|かんきょう}{汚染|おせん}→環境汚染：21102_kankyouosen⟧⟦は→は：00079_ha⟧さらに{深刻化|しんこくか}するだろう。",
       "english": "If measures are not taken, environmental pollution will likely become even more serious.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {深刻|しんこく} (serious, grave) + {化|か} (transformation) + する. Describes a situation deteriorating or escalating in severity. Very common in news reporting and formal discussions about social issues.\n\nCOMMON COLLOCATIONS:\n- {問題|もんだい}が{深刻化|しんこくか}する: a problem becomes serious\n- {事態|じたい}が{深刻化|しんこくか}する: the situation worsens\n- {被害|ひがい}が{深刻化|しんこくか}する: damage intensifies\n- ますます{深刻化|しんこくか}する: to become increasingly serious\n\nSIMILAR WORDS:\n- {悪化|あっか}する: to worsen — more general, can describe any deterioration including health or weather, while {深刻化|しんこくか}する specifically implies reaching a critical or alarming level\n- {激化|げきか}する: to intensify — emphasizes growing violence or fierceness, often used for conflicts or competition",
+  "notes": "A compound verb formed from ⟦{深刻|しんこく}→深刻：01567_shinkoku⟧ (serious, grave) + ⟦{化|か}→〜化：28335_ka⟧ (transformation) + ⟦する→する：00392_suru⟧. Describes a situation deteriorating or escalating in severity. Very common in news reporting and formal discussions about social issues.\n\nCOMMON COLLOCATIONS:\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{深刻化|しんこくか}する: a problem becomes serious\n- ⟦{事態|じたい}→事態：10151_jitai⟧⟦が→が：00051_ga⟧{深刻化|しんこくか}する: the situation worsens\n- ⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧{深刻化|しんこくか}する: damage intensifies\n- ⟦ますます→ますます：01604_masumasu⟧{深刻化|しんこくか}する: to become increasingly serious\n\nSIMILAR WORDS:\n- ⟦{悪化|あっか}する→悪化する：18844_akkasuru⟧: to worsen — more general, can describe any deterioration including health or weather, while {深刻化|しんこくか}する specifically implies reaching a critical or alarming level\n- ⟦{激化|げきか}→激化：13372_gekika⟧⟦する→する：00392_suru⟧: to intensify — emphasizes growing violence or fierceness, often used for conflicts or competition",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,10 +74,11 @@
       "domain": [],
       "formality": "formal",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-07T00:50:39Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12153_gaichuu_ex1",
-      "japanese": "デザインを{外注|がいちゅう}する。",
+      "japanese": "⟦デザイン→デザイン：03860_dezain⟧⟦を→を：00422_wo⟧{外注|がいちゅう}⟦する→する：00392_suru⟧。",
       "english": "To outsource the design work.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12153_gaichuu_ex2",
-      "japanese": "{人手|ひとで}が{足|た}りないので、{一部|いちぶ}の{業務|ぎょうむ}を{外注|がいちゅう}に{出|だ}した。",
+      "japanese": "⟦{人手|ひとで}→人手：25438_hitode⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧⟦の→の：09472_no⟧で、⟦{一部|いちぶ}→一部：06783_ichibu⟧⟦の→の：09472_no⟧⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦を→を：00422_wo⟧{外注|がいちゅう}⟦に→に：00314_ni⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "Since we're short-staffed, we outsourced some of the work.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12153_gaichuu_ex3",
-      "japanese": "{外注|がいちゅう}{先|さき}との{連絡|れんらく}がうまくいかず、{納期|のうき}に{間|ま}に{合|あ}わなかった。",
+      "japanese": "{外注|がいちゅう}⟦{先|さき}→先：02883_saki⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦うまく→うまい：01279_umai⟧いかず、⟦{納期|のうき}→納期：07772_nouki⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}わなかった→間に合う：01142_maniau⟧。",
       "english": "Communication with the subcontractor didn't go well, and we missed the deadline.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{外注|がいちゅう} means outsourcing or subcontracting — ordering work from an external company or individual rather than handling it in-house.\n\nFORMS:\n{外|がい} (outside) + {注|ちゅう} (order). Literally \"outside order.\"\n\nCOMMON PATTERNS:\n- {外注|がいちゅう}する: to outsource\n- {外注|がいちゅう}に{出|だ}す: to send out for outsourcing (very common)\n- {外注|がいちゅう}{先|さき}: subcontractor, outsourcing partner\n- {外注|がいちゅう}{費|ひ}: outsourcing costs\n- {外注|がいちゅう}{管理|かんり}: outsourcing management\n\nUSAGE:\nVery common in business Japanese, especially in IT, manufacturing, and creative industries. Freelancers (フリーランス) are often hired through {外注|がいちゅう}.\n\nSIMILAR WORDS:\n- {外注|がいちゅう}: outsourcing (specific work ordered from outside)\n- {委託|いたく}: commissioning, entrusting (broader, more formal)\n- {下請|したう}け: subcontracting (emphasizes the subordinate relationship)",
+  "notes": "{外注|がいちゅう} means outsourcing or subcontracting — ordering work from an external company or individual rather than handling it in-house.\n\nFORMS:\n⟦{外|がい}→外〜：03948_gai⟧ (outside) + ⟦{注|ちゅう}→注：03434_chuu⟧ (order). Literally \"outside order.\"\n\nCOMMON PATTERNS:\n- {外注|がいちゅう}⟦する→する：00392_suru⟧: to outsource\n- {外注|がいちゅう}⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧: to send out for outsourcing (very common)\n- {外注|がいちゅう}⟦{先|さき}→先：02883_saki⟧: subcontractor, outsourcing partner\n- {外注|がいちゅう}⟦{費|ひ}→費：09877_hi⟧: outsourcing costs\n- {外注|がいちゅう}⟦{管理|かんり}→管理：00178_kanri⟧: outsourcing management\n\nUSAGE:\nVery common in business Japanese, especially in IT, manufacturing, and creative industries. Freelancers (⟦フリーランス→フリーランス：06152_furiiransu⟧) are often hired through {外注|がいちゅう}.\n\nSIMILAR WORDS:\n- {外注|がいちゅう}: outsourcing (specific work ordered from outside)\n- ⟦{委託|いたく}→委託：05620_itaku⟧: commissioning, entrusting (broader, more formal)\n- ⟦{下請|したう}け→下請け：10898_shitauke⟧: subcontracting (emphasizes the subordinate relationship)",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T09:50:41Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -169,7 +169,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

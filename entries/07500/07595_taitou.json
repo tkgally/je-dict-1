@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07595_taitou_ex1",
-      "japanese": "{新|あたら}しい{勢力|せいりょく}が{台頭|たいとう}してきた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧⟦が→が：00051_ga⟧{台頭|たいとう}してきた。",
       "english": "A new power has risen to prominence.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07595_taitou_ex2",
-      "japanese": "AIの{台頭|たいとう}により、{働|はたら}き{方|かた}が{大|おお}きく{変|か}わった。",
+      "japanese": "AI⟦の→の：09472_no⟧{台頭|たいとう}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{働|はたら}き{方|かた}→働き方：25439_hatarakikata⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "The rise of AI has greatly changed the way we work.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07595_taitou_ex3",
-      "japanese": "{若手|わかて}アーティストの{台頭|たいとう}が{目立|めだ}つ。",
+      "japanese": "⟦{若手|わかて}→若手：13989_wakate⟧⟦アーティスト→アーティスト：10712_aatisuto⟧⟦の→の：09472_no⟧{台頭|たいとう}⟦が→が：00051_ga⟧⟦{目立|めだ}つ→目立つ：02431_medatsu⟧。",
       "english": "The emergence of young artists is noticeable.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n- {台頭|たいとう}する - to rise, emerge, come to prominence\n- {台頭|たいとう}してくる - to begin rising (emerging trend)\nOften used for significant historical, political, or social changes. Has a somewhat formal, journalistic tone.\n\nETYMOLOGY:\n{台|たい} (platform, pedestal) + {頭|とう} (head) - literally \"head rising above the platform\"\n\nCOMMON COLLOCATIONS:\n- {新興|しんこう}{国|こく}の{台頭|たいとう} - rise of emerging nations\n- ナショナリズムの{台頭|たいとう} - rise of nationalism\n- {若手|わかて}の{台頭|たいとう} - emergence of young talent",
+  "notes": "USAGE:\n- {台頭|たいとう}⟦する→する：00392_suru⟧ - to rise, emerge, come to prominence\n- {台頭|たいとう}⟦して→する：00392_suru⟧くる - to begin rising (emerging trend)\nOften used for significant historical, political, or social changes. Has a somewhat formal, journalistic tone.\n\nETYMOLOGY:\n{台|たい} (platform, pedestal) + ⟦{頭|とう}→頭：18067_tou⟧ (head) - literally \"head rising above the platform\"\n\nCOMMON COLLOCATIONS:\n- ⟦{新興|しんこう}{国|こく}→新興国：21746_shinkoukoku⟧⟦の→の：09472_no⟧{台頭|たいとう} - rise of emerging nations\n- ナショナリズム⟦の→の：09472_no⟧{台頭|たいとう} - rise of nationalism\n- ⟦{若手|わかて}→若手：13989_wakate⟧⟦の→の：09472_no⟧{台頭|たいとう} - emergence of young talent",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,7 +142,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "business",
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

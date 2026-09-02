@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12823_gijinka_ex1",
-      "japanese": "{動物|どうぶつ}を{擬人化|ぎじんか}した{物語|ものがたり}だ。",
+      "japanese": "⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦を→を：00422_wo⟧{擬人化|ぎじんか}⟦した→する：00392_suru⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧だ。",
       "english": "It is a story with anthropomorphized animals.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12823_gijinka_ex2",
-      "japanese": "{日本|にほん}では{刀|かたな}や{電車|でんしゃ}まで{擬人化|ぎじんか}される。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{刀|かたな}→刀：02194_katana⟧や⟦{電車|でんしゃ}→電車：00522_densha⟧⟦まで→まで：00490_made⟧{擬人化|ぎじんか}⟦される→する：00392_suru⟧。",
       "english": "In Japan, even swords and trains get personified.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12823_gijinka_ex3",
-      "japanese": "{擬人化|ぎじんか}は{文学|ぶんがく}における{重要|じゅうよう}な{修辞|しゅうじ}{技法|ぎほう}の{一|ひと}つだ。",
+      "japanese": "{擬人化|ぎじんか}⟦は→は：00079_ha⟧⟦{文学|ぶんがく}→文学：01505_bungaku⟧⟦における→〜における：21802_niokeru⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{修辞|しゅうじ}⟦{技法|ぎほう}→技法：12800_gihou⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Personification is one of the important rhetorical techniques in literature.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{擬人化|ぎじんか} is used both as a literary term (personification as a rhetorical device) and in pop culture contexts (turning non-human things into humanoid characters). In Japanese otaku culture, {擬人化|ぎじんか} is extremely popular — countries, historical items, food, and even computer operating systems have been turned into anime-style characters.\n\nCOMMON COLLOCATIONS:\n- {擬人化|ぎじんか}キャラ: anthropomorphized character\n- {擬人化|ぎじんか}する: to personify, to anthropomorphize\n- {擬人化|ぎじんか}{表現|ひょうげん}: personification (as expression)",
+  "notes": "USAGE:\n{擬人化|ぎじんか} is used both as a literary term (personification as a rhetorical device) and in pop culture contexts (turning non-human things into humanoid characters). In Japanese otaku culture, {擬人化|ぎじんか} is extremely popular — countries, historical items, food, and even computer operating systems have been turned into anime-style characters.\n\nCOMMON COLLOCATIONS:\n- {擬人化|ぎじんか}⟦キャラ→キャラ：08916_kyara⟧: anthropomorphized character\n- {擬人化|ぎじんか}⟦する→する：00392_suru⟧: to personify, to anthropomorphize\n- {擬人化|ぎじんか}⟦{表現|ひょうげん}→表現：03584_hyougen⟧: personification (as expression)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-22T11:11:04Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

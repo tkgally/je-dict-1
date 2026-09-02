@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17085_onchuu_ex1",
-      "japanese": "○○{株式会社|かぶしきがいしゃ} {御中|おんちゅう}",
+      "japanese": "○○⟦{株式会社|かぶしきがいしゃ}→株式会社：19101_kabushikigaisha⟧ {御中|おんちゅう}",
       "english": "Dear XX Corporation",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17085_onchuu_ex2",
-      "japanese": "{封筒|ふうとう}に「{人事部|じんじぶ} {御中|おんちゅう}」と{書|か}いた。",
+      "japanese": "⟦{封筒|ふうとう}→封筒：02952_fuutou⟧⟦に→に：00314_ni⟧「⟦{人事部|じんじぶ}→人事部：20638_jinjibu⟧ {御中|おんちゅう}」⟦と→と：00512_to⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote 'Human Resources Department' (with the honorific address) on the envelope.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17085_onchuu_ex3",
-      "japanese": "{個人名|こじんめい}がわかる{場合|ばあい}は{御中|おんちゅう}ではなく「{様|さま}」を{使|つか}う。",
+      "japanese": "{個人名|こじんめい}⟦が→が：00051_ga⟧わかる⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧{御中|おんちゅう}⟦ではなく→ではなく：09578_dehanaku⟧「⟦{様|さま}→様：01549_sama⟧」⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "When you know the individual's name, use 'sama' instead of 'onchuu.'",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed exclusively in written correspondence — letters, envelopes, faxes, and business emails. Never used in spoken Japanese. It replaces {様|さま} when addressing an organization rather than a person.\n\nRULES:\n- Use {御中|おんちゅう} when writing to a company or department without a specific person's name\n- Use {様|さま} when writing to a specific individual\n- Never combine both: ○○{会社|かいしゃ} {御中|おんちゅう} {田中|たなか}{様|さま} is INCORRECT\n- The correct form is: ○○{会社|かいしゃ} {田中|たなか}{様|さま}\n\nCOMMON COLLOCATIONS:\n- ○○{株式会社|かぶしきがいしゃ} {御中|おんちゅう} (Dear XX Corporation)\n- ○○{部|ぶ} {御中|おんちゅう} (Dear XX Department)\n- ○○{事務局|じむきょく} {御中|おんちゅう} (Dear XX Secretariat)",
+  "notes": "USAGE:\nUsed exclusively in written correspondence — letters, envelopes, faxes, and business emails. Never used in spoken Japanese. It replaces ⟦{様|さま}→様：01549_sama⟧ when addressing an organization rather than a person.\n\nRULES:\n- Use {御中|おんちゅう} when writing to a company or department without a specific person's name\n- Use ⟦{様|さま}→様：01549_sama⟧ when writing to a specific individual\n- Never combine both: ○○⟦{会社|かいしゃ}→会社：00607_kaisha⟧ {御中|おんちゅう} ⟦{田中|たなか}→田中：09528_tanaka⟧⟦{様|さま}→様：01549_sama⟧ is INCORRECT\n- The correct form is: ○○⟦{会社|かいしゃ}→会社：00607_kaisha⟧ ⟦{田中|たなか}→田中：09528_tanaka⟧⟦{様|さま}→様：01549_sama⟧\n\nCOMMON COLLOCATIONS:\n- ○○⟦{株式会社|かぶしきがいしゃ}→株式会社：19101_kabushikigaisha⟧ {御中|おんちゅう} (Dear XX Corporation)\n- ○○⟦{部|ぶ}→〜部：00440_bu⟧ {御中|おんちゅう} (Dear XX Department)\n- ○○⟦{事務局|じむきょく}→事務局：17056_jimukyoku⟧ {御中|おんちゅう} (Dear XX Secretariat)",
   "cross_references": [
     {
       "type": "contrast",
@@ -56,7 +56,7 @@
   ],
   "metadata": {
     "created": "2026-03-15T09:54:25Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

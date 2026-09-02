@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11614_shinkou_ex1",
-      "japanese": "{敵|てき}が{侵攻|しんこう}してきた。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦が→が：00051_ga⟧{侵攻|しんこう}してきた。",
       "english": "The enemy has invaded.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11614_shinkou_ex2",
-      "japanese": "{隣国|りんごく}への{侵攻|しんこう}は{国際法|こくさいほう}{違反|いはん}だ。",
+      "japanese": "⟦{隣国|りんごく}→隣国：19116_ringoku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{侵攻|しんこう}⟦は→は：00079_ha⟧{国際法|こくさいほう}⟦{違反|いはん}→違反：01824_ihan⟧だ。",
       "english": "The invasion of a neighboring country is a violation of international law.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11614_shinkou_ex3",
-      "japanese": "{国連|こくれん}は{軍事|ぐんじ}{侵攻|しんこう}を{強|つよ}く{非難|ひなん}する{決議|けつぎ}を{採択|さいたく}した。",
+      "japanese": "⟦{国連|こくれん}→国連：12035_kokuren⟧⟦は→は：00079_ha⟧⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{侵攻|しんこう}⟦を→を：00422_wo⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦{非難|ひなん}→非難：14616_hinan⟧⟦する→する：00392_suru⟧⟦{決議|けつぎ}→決議：16467_ketsugi⟧⟦を→を：00422_wo⟧⟦{採択|さいたく}→採択：06784_saitaku⟧⟦した→する：00392_suru⟧。",
       "english": "The United Nations adopted a resolution strongly condemning the military invasion.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Specifically refers to military aggression — the act of invading another country's territory by armed force. More aggressive in tone than {侵入|しんにゅう} (intrusion/entry), which can refer to non-military trespassing.\n\nOften appears in news reporting about armed conflicts and international affairs.\n\nCOMMON COLLOCATIONS:\n- {軍事|ぐんじ}{侵攻|しんこう} — military invasion\n- {侵攻|しんこう}を{開始|かいし}する — to launch an invasion\n- {侵攻|しんこう}を{受|う}ける — to be invaded\n- {大規模|だいきぼ}な{侵攻|しんこう} — a large-scale invasion",
+  "notes": "Specifically refers to military aggression — the act of invading another country's territory by armed force. More aggressive in tone than ⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧ (intrusion/entry), which can refer to non-military trespassing.\n\nOften appears in news reporting about armed conflicts and international affairs.\n\nCOMMON COLLOCATIONS:\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{侵攻|しんこう} — military invasion\n- {侵攻|しんこう}⟦を→を：00422_wo⟧⟦{開始|かいし}する→開始する：26826_kaishisuru⟧ — to launch an invasion\n- {侵攻|しんこう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ — to be invaded\n- ⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧な{侵攻|しんこう} — a large-scale invasion",
   "cross_references": [
     {
       "type": "contrast",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-02-17T14:37:44Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -169,7 +169,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

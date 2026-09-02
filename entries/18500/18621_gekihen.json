@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18621_gekihen_ex1",
-      "japanese": "{環境|かんきょう}が{激変|げきへん}した。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦が→が：00051_ga⟧{激変|げきへん}⟦した→する：00392_suru⟧。",
       "english": "The environment changed drastically.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18621_gekihen_ex2",
-      "japanese": "ここ{数年|すうねん}で{業界|ぎょうかい}は{激変|げきへん}を{遂|と}げた。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦{数年|すうねん}→数年：28206_suunen⟧⟦で→で：00502_de⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦は→は：00079_ha⟧{激変|げきへん}⟦を→を：00422_wo⟧⟦{遂|と}げた→遂げる：14323_togeru⟧。",
       "english": "The industry has undergone drastic changes in recent years.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18621_gekihen_ex3",
-      "japanese": "{社会|しゃかい}の{激変|げきへん}に{対応|たいおう}できる{柔軟|じゅうなん}さが{求|もと}められている。",
+      "japanese": "⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧{激変|げきへん}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦できる→できる：00557_dekiru⟧⟦{柔軟|じゅうなん}→柔軟：13101_juunan⟧さ⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "The flexibility to adapt to drastic societal changes is being demanded.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nEmphasizes the speed and magnitude of change. Stronger than {変化|へんか} (change) or {変動|へんどう} (fluctuation). Often appears in news and commentary about society, politics, and technology.\n\nCOMMON COLLOCATIONS:\n- {激変|げきへん}する (to change drastically)\n- {激変|げきへん}を{遂|と}げる (to undergo drastic change)\n- {環境|かんきょう}の{激変|げきへん} (drastic environmental change)\n- {激変|げきへん}{期|き} (period of upheaval)",
+  "notes": "USAGE:\nEmphasizes the speed and magnitude of change. Stronger than ⟦{変化|へんか}→変化：03615_henka⟧ (change) or ⟦{変動|へんどう}→変動：09936_hendou⟧ (fluctuation). Often appears in news and commentary about society, politics, and technology.\n\nCOMMON COLLOCATIONS:\n- {激変|げきへん}⟦する→する：00392_suru⟧ (to change drastically)\n- {激変|げきへん}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧ (to undergo drastic change)\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦の→の：09472_no⟧{激変|げきへん} (drastic environmental change)\n- {激変|げきへん}{期|き} (period of upheaval)",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

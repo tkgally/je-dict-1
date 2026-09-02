@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29505_kinsetsu_ex1",
-      "japanese": "{二|ふた}つの{街|まち}は{近接|きんせつ}している。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{街|まち}→街：17306_machi⟧⟦は→は：00079_ha⟧{近接|きんせつ}⟦している→する：00392_suru⟧。",
       "english": "The two towns are close to each other.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29505_kinsetsu_ex2",
-      "japanese": "{台風|たいふう}が{本州|ほんしゅう}に{近接|きんせつ}してきた。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{本州|ほんしゅう}→本州：18528_honshuu⟧⟦に→に：00314_ni⟧{近接|きんせつ}してきた。",
       "english": "The typhoon has drawn close to Honshu.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29505_kinsetsu_ex3",
-      "japanese": "{住宅|じゅうたく}{街|がい}に{近接|きんせつ}した{工場|こうじょう}では、{騒音|そうおん}が{問題|もんだい}になりやすい。",
+      "japanese": "⟦{住宅|じゅうたく}{街|がい}→住宅街：09394_juutakugai⟧⟦に→に：00314_ni⟧{近接|きんせつ}⟦した→する：00392_suru⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{騒音|そうおん}→騒音：03315_souon⟧⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧やすい。",
       "english": "At factories close to residential areas, noise tends to become a problem.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines {近|きん} (near) + {接|せつ} (touch, adjoin). Being or coming close to something in space or time; a formal alternative to {近|ちか}づく.\n\nCOMMON COLLOCATIONS:\n- ～に{近接|きんせつ}する: to be adjacent to ～\n- {近接|きんせつ}{戦|せん}: close-quarters combat\n- {近接|きんせつ}{撮影|さつえい}: close-up photography\n\nSIMILAR WORDS:\n- {隣接|りんせつ}: adjoining — specifically sharing a border, right next to\n- {接近|せっきん}: approach — emphasizes the movement of drawing nearer",
+  "notes": "Combines {近|きん} (near) + {接|せつ} (touch, adjoin). Being or coming close to something in space or time; a formal alternative to ⟦{近|ちか}づく→近づく：01958_chikazuku⟧.\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{近接|きんせつ}⟦する→する：00392_suru⟧: to be adjacent to ～\n- {近接|きんせつ}⟦{戦|せん}→〜戦：28346_sen⟧: close-quarters combat\n- {近接|きんせつ}⟦{撮影|さつえい}→撮影：04175_satsuei⟧: close-up photography\n\nSIMILAR WORDS:\n- ⟦{隣接|りんせつ}→隣接：14578_rinsetsu⟧: adjoining — specifically sharing a border, right next to\n- ⟦{接近|せっきん}→接近：04365_sekkin⟧: approach — emphasizes the movement of drawing nearer",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "abstract"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22544_kyuushuu_ex1",
-      "japanese": "{敵|てき}の{陣地|じんち}を{急襲|きゅうしゅう}した。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{陣地|じんち}→陣地：30721_jinchi⟧⟦を→を：00422_wo⟧{急襲|きゅうしゅう}⟦した→する：00392_suru⟧。",
       "english": "They raided the enemy's position.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22544_kyuushuu_ex2",
-      "japanese": "{夜明|よあ}け{前|まえ}に{急襲|きゅうしゅう}をかけた。",
+      "japanese": "⟦{夜明|よあ}け→夜明け：03655_yoake⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{急襲|きゅうしゅう}⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "They launched a surprise attack before dawn.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22544_kyuushuu_ex3",
-      "japanese": "{警察|けいさつ}は{犯罪|はんざい}グループのアジトを{急襲|きゅうしゅう}し、{大量|たいりょう}の{証拠品|しょうこひん}を{押収|おうしゅう}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦グループ→グループ：03840_guruupu⟧⟦の→の：09472_no⟧アジト⟦を→を：00422_wo⟧{急襲|きゅうしゅう}し、⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧{証拠品|しょうこひん}⟦を→を：00422_wo⟧⟦{押収|おうしゅう}→押収：19033_oushuu⟧⟦した→する：00392_suru⟧。",
       "english": "The police raided the crime group's hideout and seized a large amount of evidence.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {急|きゅう} (sudden, urgent) + {襲|しゅう} (attack, assail). Emphasizes the element of surprise and speed. Can be used as a noun or with する as a verb. Common in news reports about police operations and in historical or military descriptions.\n\nCOMMON COLLOCATIONS:\n- {急襲|きゅうしゅう}する: to raid, to launch a surprise attack\n- {急襲|きゅうしゅう}をかける: to carry out a raid\n- {急襲|きゅうしゅう}{作戦|さくせん}: raid operation\n- {夜間|やかん}{急襲|きゅうしゅう}: nighttime raid\n\nSIMILAR WORDS:\n- {奇襲|きしゅう}: surprise attack — emphasizes the unexpected, deceptive nature of the attack\n- {襲撃|しゅうげき}: assault, raid — a more general term for attacking\n- {強襲|きょうしゅう}: forced assault — an attack carried out by force despite enemy resistance\n- {突撃|とつげき}: charge — rushing directly at the enemy in a frontal attack",
+  "notes": "Composed of ⟦{急|きゅう}→急：13042_kyuu⟧ (sudden, urgent) + {襲|しゅう} (attack, assail). Emphasizes the element of surprise and speed. Can be used as a noun or with ⟦する→する：00392_suru⟧ as a verb. Common in news reports about police operations and in historical or military descriptions.\n\nCOMMON COLLOCATIONS:\n- {急襲|きゅうしゅう}⟦する→する：00392_suru⟧: to raid, to launch a surprise attack\n- {急襲|きゅうしゅう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to carry out a raid\n- {急襲|きゅうしゅう}⟦{作戦|さくせん}→作戦：09673_sakusen⟧: raid operation\n- ⟦{夜間|やかん}→夜間：04133_yakan⟧{急襲|きゅうしゅう}: nighttime raid\n\nSIMILAR WORDS:\n- ⟦{奇襲|きしゅう}→奇襲：12193_kishuu⟧: surprise attack — emphasizes the unexpected, deceptive nature of the attack\n- ⟦{襲撃|しゅうげき}→襲撃：14127_shuugeki⟧: assault, raid — a more general term for attacking\n- {強襲|きょうしゅう}: forced assault — an attack carried out by force despite enemy resistance\n- ⟦{突撃|とつげき}→突撃：19005_totsugeki⟧: charge — rushing directly at the enemy in a frontal attack",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "military"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T17:32:16Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

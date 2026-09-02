@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16547_eikyouwooyobosu_ex1",
-      "japanese": "{健康|けんこう}に{影響|えいきょう}を{及|およ}ぼす。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧{影響|えいきょう}を{及|およ}ぼす。",
       "english": "It affects one's health.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16547_eikyouwooyobosu_ex2",
-      "japanese": "{環境|かんきょう}に{悪|わる}い{影響|えいきょう}を{及|およ}ぼす{恐|おそ}れがある。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧⟦{悪|わる}い→悪い：00908_warui⟧{影響|えいきょう}を{及|およ}ぼす{恐|おそ}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a risk of having a negative effect on the environment.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16547_eikyouwooyobosu_ex3",
-      "japanese": "この{政策|せいさく}は{経済|けいざい}{全体|ぜんたい}に{大|おお}きな{影響|えいきょう}を{及|およ}ぼすと{予想|よそう}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦は→は：00079_ha⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧{影響|えいきょう}を{及|およ}ぼす⟦と→と：00512_to⟧⟦{予想|よそう}→予想：03664_yosou⟧⟦されている→する：00392_suru⟧。",
       "english": "This policy is expected to have a major impact on the economy as a whole.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal expression frequently used in written Japanese, news, and academic contexts. The verb {及|およ}ぼす specifically means to extend or reach, giving the expression a sense of influence spreading outward. Often modified with {良|よ}い/{悪|わる}い (good/bad) or {大|おお}きな (large) to specify the nature of the impact.\n\nCOMMON COLLOCATIONS:\n- {悪|わる}い{影響|えいきょう}を{及|およ}ぼす (to have a bad effect)\n- {良|よ}い{影響|えいきょう}を{及|およ}ぼす (to have a good effect)\n- {大|おお}きな{影響|えいきょう}を{及|およ}ぼす (to have a major impact)\n- {深刻|しんこく}な{影響|えいきょう}を{及|およ}ぼす (to have a serious impact)\n\nSIMILAR WORDS:\n- {影響|えいきょう}を{与|あた}える: to give influence — a slightly less formal synonym\n- {影響|えいきょう}する: to influence — the simplest way to express this",
+  "notes": "USAGE:\nA formal expression frequently used in written Japanese, news, and academic contexts. The verb ⟦{及|およ}ぼす→及ぼす：02028_oyobosu⟧ specifically means to extend or reach, giving the expression a sense of influence spreading outward. Often modified with ⟦{良|よ}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧ (good/bad) or ⟦{大|おお}きな→大きな：02849_ookina⟧ (large) to specify the nature of the impact.\n\nCOMMON COLLOCATIONS:\n- ⟦{悪|わる}い→悪い：00908_warui⟧{影響|えいきょう}を{及|およ}ぼす (to have a bad effect)\n- ⟦{良|よ}い→良い：02350_yoi⟧{影響|えいきょう}を{及|およ}ぼす (to have a good effect)\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{影響|えいきょう}を{及|およ}ぼす (to have a major impact)\n- ⟦{深刻|しんこく}→深刻：01567_shinkoku⟧な{影響|えいきょう}を{及|およ}ぼす (to have a serious impact)\n\nSIMILAR WORDS:\n- ⟦{影響|えいきょう}を{与|あた}える→影響を与える：26072_eikyouwoataeru⟧: to give influence — a slightly less formal synonym\n- ⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦する→する：00392_suru⟧: to influence — the simplest way to express this",
   "cross_references": [
     {
       "type": "related",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-13T06:49:34Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -169,7 +169,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28608_taresagaru_ex1",
-      "japanese": "ロープが{垂|た}れ{下|さ}がっている。",
+      "japanese": "⟦ロープ→ロープ：27860_roopu⟧⟦が→が：00051_ga⟧{垂|た}れ{下|さ}がって⟦いる→いる：00495_iru⟧。",
       "english": "A rope is hanging down.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28608_taresagaru_ex2",
-      "japanese": "{長|なが}い{髪|かみ}が{肩|かた}まで{垂|た}れ{下|さ}がっている。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧⟦{肩|かた}→肩：02192_kata⟧⟦まで→まで：00490_made⟧{垂|た}れ{下|さ}がって⟦いる→いる：00495_iru⟧。",
       "english": "Her long hair hangs down to her shoulders.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28608_taresagaru_ex3",
-      "japanese": "{雪|ゆき}の{重|おも}みで{松|まつ}の{枝|えだ}が{地面|じめん}まで{垂|た}れ{下|さ}がっている。",
+      "japanese": "⟦{雪|ゆき}→雪：00584_yuki⟧⟦の→の：09472_no⟧⟦{重|おも}み→重み：14503_omomi⟧⟦で→で：00502_de⟧⟦{松|まつ}→松：02256_matsu⟧⟦の→の：09472_no⟧⟦{枝|えだ}→枝：02181_eda⟧⟦が→が：00051_ga⟧⟦{地面|じめん}→地面：00125_jimen⟧⟦まで→まで：00490_made⟧{垂|た}れ{下|さ}がって⟦いる→いる：00495_iru⟧。",
       "english": "Under the weight of the snow, the pine branches are hanging down to the ground.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {垂|た}れる (to hang/drip) + {下|さ}がる (to descend). Intransitive, describing a state or process — usually paired with ている for the resulting state.\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is {垂|た}らす (to let dangle, to hang down) or the compound {垂|た}れ{下|さ}げる.\n\nCOMMON COLLOCATIONS:\n- {髪|かみ}が{垂|た}れ{下|さ}がる: hair hangs down\n- {枝|えだ}が{垂|た}れ{下|さ}がる: branches droop\n- {汗|あせ}が{垂|た}れ{下|さ}がる: sweat trickles down\n- {紐|ひも}が{垂|た}れ{下|さ}がる: a string dangles\n\nSIMILAR WORDS:\n- {垂|た}れる: to hang, to drip — more general; often used for liquids\n- ぶら{下|さ}がる: to dangle — emphasizes hanging from a fixed point, often with swinging motion",
+  "notes": "Compound of ⟦{垂|た}れる→垂れる：10075_tareru⟧ (to hang/drip) + ⟦{下|さ}がる→下がる：01188_sagaru⟧ (to descend). Intransitive, describing a state or process — usually paired with て⟦いる→いる：00495_iru⟧ for the resulting state.\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is ⟦{垂|た}らす→垂らす：05339_tarasu⟧ (to let dangle, to hang down) or the compound {垂|た}れ{下|さ}げる.\n\nCOMMON COLLOCATIONS:\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{垂|た}れ{下|さ}がる: hair hangs down\n- ⟦{枝|えだ}→枝：02181_eda⟧⟦が→が：00051_ga⟧{垂|た}れ{下|さ}がる: branches droop\n- ⟦{汗|あせ}→汗：02173_ase⟧⟦が→が：00051_ga⟧{垂|た}れ{下|さ}がる: sweat trickles down\n- ⟦{紐|ひも}→紐：02251_himo⟧⟦が→が：00051_ga⟧{垂|た}れ{下|さ}がる: a string dangles\n\nSIMILAR WORDS:\n- ⟦{垂|た}れる→垂れる：10075_tareru⟧: to hang, to drip — more general; often used for liquids\n- ⟦ぶら{下|さ}がる→ぶら下がる：05541_burasagaru⟧: to dangle — emphasizes hanging from a fixed point, often with swinging motion",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,10 +74,11 @@
         "movement"
       ],
       "domain": [],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "godan",

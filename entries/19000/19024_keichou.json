@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19024_keichou_ex1",
-      "japanese": "{相手|あいて}の{話|はなし}を{傾聴|けいちょう}する。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{傾聴|けいちょう}⟦する→する：00392_suru⟧。",
       "english": "To listen attentively to the other person.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "19024_keichou_ex2",
-      "japanese": "{傾聴|けいちょう}は{信頼関係|しんらいかんけい}を{築|きず}く{基本|きほん}だ。",
+      "japanese": "{傾聴|けいちょう}⟦は→は：00079_ha⟧⟦{信頼関係|しんらいかんけい}→信頼関係：16095_shinraikankei⟧⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧⟦{基本|きほん}→基本：00226_kihon⟧だ。",
       "english": "Active listening is fundamental to building trust.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "19024_keichou_ex3",
-      "japanese": "カウンセラーは{傾聴|けいちょう}の{技術|ぎじゅつ}を{身|み}につける{必要|ひつよう}がある。",
+      "japanese": "カウンセラー⟦は→は：00079_ha⟧{傾聴|けいちょう}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Counselors need to acquire active listening skills.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nLiterally \"to incline one's ear\" ({傾|かたむ}ける + {聴|き}く). Has become a buzzword in business and counseling. {傾聴|けいちょう} implies more than just hearing — it involves empathy, attention, and engagement with the speaker.\n\nCOMMON COLLOCATIONS:\n- {傾聴|けいちょう}する: to listen attentively\n- {傾聴|けいちょう}の{姿勢|しせい}: attitude of active listening\n- {傾聴|けいちょう}{力|りょく}: listening ability\n- {傾聴|けいちょう}スキル: active listening skills",
+  "notes": "USAGE:\nLiterally \"to incline one's ear\" (⟦{傾|かたむ}ける→傾ける：11516_katamukeru⟧ + ⟦{聴|き}く→聴く：30010_kiku⟧). Has become a buzzword in business and counseling. {傾聴|けいちょう} implies more than just hearing — it involves empathy, attention, and engagement with the speaker.\n\nCOMMON COLLOCATIONS:\n- {傾聴|けいちょう}⟦する→する：00392_suru⟧: to listen attentively\n- {傾聴|けいちょう}⟦の→の：09472_no⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧: attitude of active listening\n- {傾聴|けいちょう}{力|りょく}: listening ability\n- {傾聴|けいちょう}⟦スキル→スキル：08815_sukiru⟧: active listening skills",
   "cross_references": [
     {
       "type": "related",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-24T01:02:03Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

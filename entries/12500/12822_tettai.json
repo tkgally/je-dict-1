@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12822_tettai_ex1",
-      "japanese": "{軍|ぐん}が{撤退|てったい}した。",
+      "japanese": "⟦{軍|ぐん}→軍：02677_gun⟧⟦が→が：00051_ga⟧{撤退|てったい}⟦した→する：00392_suru⟧。",
       "english": "The army withdrew.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12822_tettai_ex2",
-      "japanese": "{企業|きぎょう}が{海外|かいがい}{市場|しじょう}から{撤退|てったい}した。",
+      "japanese": "⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦から→から：00504_kara⟧{撤退|てったい}⟦した→する：00392_suru⟧。",
       "english": "The company withdrew from the overseas market.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12822_tettai_ex3",
-      "japanese": "{被害|ひがい}が{拡大|かくだい}する{前|まえ}に、{速|すみ}やかに{撤退|てったい}する{判断|はんだん}が{必要|ひつよう}だった。",
+      "japanese": "⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦する→する：00392_suru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦{速|すみ}やか→速やか：15283_sumiyaka⟧⟦に→に：00314_ni⟧{撤退|てったい}⟦する→する：00392_suru⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だった。",
       "english": "A decision to withdraw promptly was needed before the damage spread.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOriginally a military term, {撤退|てったい} is now widely used in business for exiting a market, closing operations, or pulling out of a venture. It implies an organized, deliberate withdrawal rather than a chaotic retreat.\n\nCOMPARISON WITH SIMILAR WORDS:\n- {撤退|てったい}: organized withdrawal (military or business)\n- {退却|たいきゃく}: retreat (more military, sometimes implies defeat)\n- {撤収|てっしゅう}: removal, cleanup; pulling out equipment/personnel\n\nCOMMON COLLOCATIONS:\n- {市場|しじょう}から{撤退|てったい}する: to withdraw from a market\n- {撤退|てったい}を{決|き}める: to decide to withdraw\n- {全面|ぜんめん}{撤退|てったい}: full withdrawal\n- {撤退|てったい}{戦略|せんりゃく}: withdrawal strategy",
+  "notes": "USAGE:\nOriginally a military term, {撤退|てったい} is now widely used in business for exiting a market, closing operations, or pulling out of a venture. It implies an organized, deliberate withdrawal rather than a chaotic retreat.\n\nCOMPARISON WITH SIMILAR WORDS:\n- {撤退|てったい}: organized withdrawal (military or business)\n- ⟦{退却|たいきゃく}→退却：21243_taikyaku⟧: retreat (more military, sometimes implies defeat)\n- ⟦{撤収|てっしゅう}→撤収：12922_tesshuu⟧: removal, cleanup; pulling out equipment/personnel\n\nCOMMON COLLOCATIONS:\n- ⟦{市場|しじょう}→市場：09685_shijou⟧⟦から→から：00504_kara⟧{撤退|てったい}⟦する→する：00392_suru⟧: to withdraw from a market\n- {撤退|てったい}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to decide to withdraw\n- ⟦{全面|ぜんめん}→全面：22735_zenmen⟧{撤退|てったい}: full withdrawal\n- {撤退|てったい}⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧: withdrawal strategy",
   "cross_references": [
     {
       "type": "antonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T11:10:44Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

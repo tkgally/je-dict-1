@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12368_shuunin_ex1",
-      "japanese": "{新|あたら}しい{社長|しゃちょう}が{就任|しゅうにん}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧{就任|しゅうにん}⟦した→する：00392_suru⟧。",
       "english": "A new president took office.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12368_shuunin_ex2",
-      "japanese": "{就任|しゅうにん}のあいさつで{今後|こんご}の{方針|ほうしん}を{述|の}べた。",
+      "japanese": "{就任|しゅうにん}⟦の→の：09472_no⟧あいさつ⟦で→で：00502_de⟧⟦{今後|こんご}→今後：02808_kongo⟧⟦の→の：09472_no⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦を→を：00422_wo⟧⟦{述|の}べた→述べる：02389_noberu⟧。",
       "english": "In the inauguration speech, the future policy was laid out.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12368_shuunin_ex3",
-      "japanese": "{彼女|かのじょ}は{史上|しじょう}{最年少|さいねんしょう}で{大臣|だいじん}に{就任|しゅうにん}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{史上|しじょう}→史上：11806_shijou⟧{最年少|さいねんしょう}⟦で→で：00502_de⟧⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦に→に：00314_ni⟧{就任|しゅうにん}⟦した→する：00392_suru⟧。",
       "english": "She became the youngest minister in history.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\nThe pattern is [position]に{就任|しゅうにん}する (to assume the position of ...). The position is marked with に.\n\nCOMMON COLLOCATIONS:\n- {社長|しゃちょう}に{就任|しゅうにん}する — to become president\n- {大臣|だいじん}に{就任|しゅうにん}する — to become minister\n- {就任|しゅうにん}{演説|えんぜつ} — inauguration speech\n- {就任|しゅうにん}あいさつ — inauguration greeting\n- {就任|しゅうにん}{式|しき} — inauguration ceremony\n\nSIMILAR WORDS:\n{着任|ちゃくにん} means arriving at and starting a new post, especially when relocation is involved. {赴任|ふにん} means going to take up a new post at a different location. {就任|しゅうにん} focuses on the formal assumption of the position itself. The opposite is {辞任|じにん} (resignation).",
+  "notes": "COMMON PATTERNS:\nThe pattern is [position]⟦に→に：00314_ni⟧{就任|しゅうにん}⟦する→する：00392_suru⟧ (to assume the position of ...). The position is marked with ⟦に→に：00314_ni⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦に→に：00314_ni⟧{就任|しゅうにん}⟦する→する：00392_suru⟧ — to become president\n- ⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦に→に：00314_ni⟧{就任|しゅうにん}⟦する→する：00392_suru⟧ — to become minister\n- {就任|しゅうにん}⟦{演説|えんぜつ}→演説：01894_enzetsu⟧ — inauguration speech\n- {就任|しゅうにん}あいさつ — inauguration greeting\n- {就任|しゅうにん}{式|しき} — inauguration ceremony\n\nSIMILAR WORDS:\n⟦{着任|ちゃくにん}→着任：14905_chakunin⟧ means arriving at and starting a new post, especially when relocation is involved. ⟦{赴任|ふにん}→赴任：10601_funin⟧ means going to take up a new post at a different location. {就任|しゅうにん} focuses on the formal assumption of the position itself. The opposite is ⟦{辞任|じにん}→辞任：10144_jinin⟧ (resignation).",
   "cross_references": [
     {
       "type": "antonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-21T05:28:32Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

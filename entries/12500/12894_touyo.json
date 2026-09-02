@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12894_touyo_ex1",
-      "japanese": "{薬|くすり}を{投与|とうよ}する。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{投与|とうよ}⟦する→する：00392_suru⟧。",
       "english": "To administer medicine.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12894_touyo_ex2",
-      "japanese": "{医師|いし}が{患者|かんじゃ}に{抗生物質|こうせいぶっしつ}を{投与|とうよ}した。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦が→が：00051_ga⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦に→に：00314_ni⟧⟦{抗生物質|こうせいぶっしつ}→抗生物質：11089_kouseibusshitsu⟧⟦を→を：00422_wo⟧{投与|とうよ}⟦した→する：00392_suru⟧。",
       "english": "The doctor administered antibiotics to the patient.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12894_touyo_ex3",
-      "japanese": "ワクチンの{投与|とうよ}{回数|かいすう}は{年齢|ねんれい}によって{異|こと}なるため、{事前|じぜん}に{確認|かくにん}してください。",
+      "japanese": "⟦ワクチン→ワクチン：05074_wakuchin⟧⟦の→の：09472_no⟧{投与|とうよ}⟦{回数|かいすう}→回数：00139_kaisuu⟧⟦は→は：00079_ha⟧⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦によって→によって：06801_niyotte⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧⟦ため→ため：01145_tame⟧、⟦{事前|じぜん}→事前：07580_jizen⟧⟦に→に：00314_ni⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "The number of vaccine doses varies by age, so please check in advance.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal medical and pharmaceutical term. Used as both a noun and a suru verb. The subject is typically a medical professional, and the object is a medicine or drug. Not used for self-medication in everyday speech — {飲|の}む (to take/drink) or {服用|ふくよう}する (to take medicine) are used instead.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}を{投与|とうよ}する: to administer medicine\n- {投与量|とうよりょう}: dosage, dose amount\n- {投与|とうよ}{回数|かいすう}: number of doses\n- {経口|けいこう}{投与|とうよ}: oral administration\n\nSIMILAR WORDS:\n- {服用|ふくよう}: taking medicine (from the patient's perspective)\n- {処方|しょほう}: prescription (the doctor's act of prescribing)",
+  "notes": "USAGE:\nA formal medical and pharmaceutical term. Used as both a noun and a suru verb. The subject is typically a medical professional, and the object is a medicine or drug. Not used for self-medication in everyday speech — ⟦{飲|の}む→飲む：00322_nomu⟧ (to take/drink) or ⟦{服用|ふくよう}する→服用する：21605_fukuyousuru⟧ (to take medicine) are used instead.\n\nCOMMON COLLOCATIONS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{投与|とうよ}⟦する→する：00392_suru⟧: to administer medicine\n- ⟦{投与量|とうよりょう}→投与量：26485_touyoryou⟧: dosage, dose amount\n- {投与|とうよ}⟦{回数|かいすう}→回数：00139_kaisuu⟧: number of doses\n- {経口|けいこう}{投与|とうよ}: oral administration\n\nSIMILAR WORDS:\n- ⟦{服用|ふくよう}→服用：15267_fukuyou⟧: taking medicine (from the patient's perspective)\n- ⟦{処方|しょほう}→処方：05976_shohou⟧: prescription (the doctor's act of prescribing)",
   "cross_references": [
     {
       "type": "related",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T14:21:41Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -190,7 +190,8 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

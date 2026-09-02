@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15725_danketsu_ex1",
-      "japanese": "チームの{団結|だんけつ}が{大切|たいせつ}だ。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{団結|だんけつ}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Team unity is important.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15725_danketsu_ex2",
-      "japanese": "{住民|じゅうみん}が{団結|だんけつ}して{反対|はんたい}{運動|うんどう}を{起|お}こした。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧{団結|だんけつ}⟦して→する：00392_suru⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧。",
       "english": "The residents banded together and launched a protest movement.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15725_danketsu_ex3",
-      "japanese": "{困難|こんなん}な{状況|じょうきょう}の{中|なか}で、{社員|しゃいん}たちの{団結|だんけつ}{力|りょく}が{試|ため}された。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧な⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧、⟦{社員|しゃいん}→社員：03065_shain⟧たち⟦の→の：09472_no⟧{団結|だんけつ}{力|りょく}⟦が→が：00051_ga⟧⟦{試|ため}された→試す：02130_tamesu⟧。",
       "english": "In the difficult situation, the employees' solidarity was put to the test.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both as a noun and as a suru-verb ({団結|だんけつ}する). Common in contexts involving labor unions, community action, sports teams, and political movements.\n\nCOMMON COLLOCATIONS:\n- {団結|だんけつ}する (to unite, to band together)\n- {団結|だんけつ}{力|りょく} (solidarity, power of unity)\n- {団結|だんけつ}を{固|かた}める (to strengthen unity)\n- {団結|だんけつ}{権|けん} (right to organize — a labor rights term)",
+  "notes": "USAGE:\nUsed both as a noun and as a suru-verb ({団結|だんけつ}⟦する→する：00392_suru⟧). Common in contexts involving labor unions, community action, sports teams, and political movements.\n\nCOMMON COLLOCATIONS:\n- {団結|だんけつ}⟦する→する：00392_suru⟧ (to unite, to band together)\n- {団結|だんけつ}{力|りょく} (solidarity, power of unity)\n- {団結|だんけつ}⟦を→を：00422_wo⟧⟦{固|かた}める→固める：01929_katameru⟧ (to strengthen unity)\n- {団結|だんけつ}{権|けん} (right to organize — a labor rights term)",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T08:51:02Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
         "society",
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

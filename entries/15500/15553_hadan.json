@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15553_hadan_ex1",
-      "japanese": "{婚約|こんやく}が{破談|はだん}になった。",
+      "japanese": "⟦{婚約|こんやく}→婚約：02810_konyaku⟧⟦が→が：00051_ga⟧{破談|はだん}になった。",
       "english": "The engagement was called off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15553_hadan_ex2",
-      "japanese": "{条件|じょうけん}が{合|あ}わず、{商談|しょうだん}は{破談|はだん}に{終|お}わった。",
+      "japanese": "⟦{条件|じょうけん}→条件：03285_jouken⟧⟦が→が：00051_ga⟧⟦{合|あ}わ→合う：10466_au⟧ず、⟦{商談|しょうだん}→商談：04877_shoudan⟧⟦は→は：00079_ha⟧{破談|はだん}⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "The terms didn't match, and the business negotiation fell through.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15553_hadan_ex3",
-      "japanese": "{相手|あいて}の{家族|かぞく}の{反対|はんたい}で{縁談|えんだん}が{破談|はだん}になることもある。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦で→で：00502_de⟧⟦{縁談|えんだん}→縁談：13847_endan⟧⟦が→が：00051_ga⟧{破談|はだん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "A marriage proposal can fall through due to opposition from the other party's family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlmost always appears in the pattern {破談|はだん}になる (to fall through, to be called off). Most commonly associated with marriage arrangements ({縁談|えんだん}, {婚約|こんやく}) but also used for business deals ({商談|しょうだん}).\n\nCOMMON PATTERNS:\n- {破談|はだん}になる (to fall through)\n- {破談|はだん}に{終|お}わる (to end in failure)\n- {破談|はだん}にする (to call off — active)\n\nSIMILAR WORDS:\n{破局|はきょく} (breakup) refers to a romantic relationship ending, while {破談|はだん} specifically refers to a formal arrangement or negotiation collapsing before completion. {決裂|けつれつ} (rupture/breakdown) is used for negotiations breaking down acrimoniously.",
+  "notes": "USAGE:\nAlmost always appears in the pattern {破談|はだん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to fall through, to be called off). Most commonly associated with marriage arrangements (⟦{縁談|えんだん}→縁談：13847_endan⟧, ⟦{婚約|こんやく}→婚約：02810_konyaku⟧) but also used for business deals (⟦{商談|しょうだん}→商談：04877_shoudan⟧).\n\nCOMMON PATTERNS:\n- {破談|はだん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to fall through)\n- {破談|はだん}⟦に→に：00314_ni⟧{終|お}わる (to end in failure)\n- {破談|はだん}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to call off — active)\n\nSIMILAR WORDS:\n⟦{破局|はきょく}→破局：08373_hakyoku⟧ (breakup) refers to a romantic relationship ending, while {破談|はだん} specifically refers to a formal arrangement or negotiation collapsing before completion. ⟦{決裂|けつれつ}→決裂：14895_ketsuretsu⟧ (rupture/breakdown) is used for negotiations breaking down acrimoniously.",
   "cross_references": [
     {
       "type": "contrast",
@@ -57,14 +63,18 @@
   ],
   "metadata": {
     "created": "2026-03-07T10:12:36Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

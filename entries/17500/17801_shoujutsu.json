@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17801_shoujutsu_ex1",
-      "japanese": "{経緯|けいい}を{詳述|しょうじゅつ}した。",
+      "japanese": "⟦{経緯|けいい}→経緯：02782_keii⟧⟦を→を：00422_wo⟧{詳述|しょうじゅつ}⟦した→する：00392_suru⟧。",
       "english": "I described the circumstances in detail.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17801_shoujutsu_ex2",
-      "japanese": "この{点|てん}については{後|のち}ほど{詳述|しょうじゅつ}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{点|てん}→点：01553_ten⟧⟦について→〜について：03103_nitsuite⟧⟦は→は：00079_ha⟧{後|のち}ほど{詳述|しょうじゅつ}⟦する→する：00392_suru⟧。",
       "english": "I will elaborate on this point later.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17801_shoujutsu_ex3",
-      "japanese": "{報告書|ほうこくしょ}には{調査|ちょうさ}{結果|けっか}が{詳述|しょうじゅつ}されている。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧{詳述|しょうじゅつ}⟦されている→する：00392_suru⟧。",
       "english": "The survey results are described in detail in the report.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {詳|しょう} (detailed) + {述|じゅつ} (to state). Primarily used in formal writing — reports, academic papers, and official documents. Typically used as a suru verb ({詳述|しょうじゅつ}する).\n\nCOMMON COLLOCATIONS:\n- {詳述|しょうじゅつ}する (to describe in detail)\n- {以下|いか}に{詳述|しょうじゅつ}する (to elaborate below)\n- {詳述|しょうじゅつ}は{省|はぶ}く (to omit detailed explanation)\n\nSIMILAR WORDS:\n- {詳細|しょうさい}に{述|の}べる: to describe in detail — a more everyday phrasing\n- {略述|りゃくじゅつ}: brief description — the opposite, summarizing briefly",
+  "notes": "USAGE:\nA compound of {詳|しょう} (detailed) + {述|じゅつ} (to state). Primarily used in formal writing — reports, academic papers, and official documents. Typically used as a suru verb ({詳述|しょうじゅつ}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {詳述|しょうじゅつ}⟦する→する：00392_suru⟧ (to describe in detail)\n- ⟦{以下|いか}→以下：01294_ika⟧⟦に→に：00314_ni⟧{詳述|しょうじゅつ}⟦する→する：00392_suru⟧ (to elaborate below)\n- {詳述|しょうじゅつ}⟦は→は：00079_ha⟧⟦{省|はぶ}く→省く：02398_habuku⟧ (to omit detailed explanation)\n\nSIMILAR WORDS:\n- ⟦{詳細|しょうさい}→詳細：02523_shousai⟧⟦に→に：00314_ni⟧⟦{述|の}べる→述べる：02389_noberu⟧: to describe in detail — a more everyday phrasing\n- {略述|りゃくじゅつ}: brief description — the opposite, summarizing briefly",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-19T04:03:03Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

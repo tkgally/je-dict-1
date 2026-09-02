@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27633_juugonichi_ex1",
-      "japanese": "{今日|きょう}は{五月|ごがつ}{十五日|じゅうごにち}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{五月|ごがつ}→五月：00625_gogatsu⟧{十五日|じゅうごにち}だ。",
       "english": "Today is May 15th.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27633_juugonichi_ex2",
-      "japanese": "{締|し}め{切|き}りは{来月|らいげつ}の{十五日|じゅうごにち}です。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦の→の：09472_no⟧{十五日|じゅうごにち}です。",
       "english": "The deadline is the 15th of next month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27633_juugonichi_ex3",
-      "japanese": "{出張|しゅっちょう}は{十五日|じゅうごにち}{間|かん}{続|つづ}く{予定|よてい}だ。",
+      "japanese": "⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦は→は：00079_ha⟧{十五日|じゅうごにち}{間|かん}⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "The business trip is scheduled to last fifteen days.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Follows the standard pattern for dates: number + {日|にち} (or special readings for 1st–10th, 14th, 20th, 24th).\n\nDISAMBIGUATION:\n- For 'the 15th day of the month': used alone or with the month name ({五月|ごがつ}{十五日|じゅうごにち}).\n- For 'fifteen days' (duration): typically add {間|かん} → {十五日間|じゅうごにちかん}.\n\nCULTURAL NOTE: The 15th of the month historically marked the full moon in the lunar calendar; {十五夜|じゅうごや} (lit. 'night of the 15th') refers to the harvest moon festival.\n\nRELATED WORDS:\n- {十四日|じゅうよっか}: the 14th — note the irregular reading よっか\n- {十六日|じゅうろくにち}: the 16th\n- {半月|はんつき}: half a month — roughly equivalent in duration",
+  "notes": "Follows the standard pattern for dates: number + ⟦{日|にち}→日：12732_nichi⟧ (or special readings for 1st–10th, 14th, 20th, 24th).\n\nDISAMBIGUATION:\n- For 'the 15th day of the month': used alone or with the month name (⟦{五月|ごがつ}→五月：00625_gogatsu⟧{十五日|じゅうごにち}).\n- For 'fifteen days' (duration): typically add ⟦{間|かん}→〜間：28469_kan⟧ → {十五日間|じゅうごにちかん}.\n\nCULTURAL NOTE: The 15th of the month historically marked the full moon in the lunar calendar; ⟦{十五夜|じゅうごや}→十五夜：24745_juugoya⟧ (lit. 'night of the 15th') refers to the harvest moon festival.\n\nRELATED WORDS:\n- ⟦{十四日|じゅうよっか}→十四日：30216_juuyokka⟧: the 14th — note the irregular reading よっ⟦か→か：09473_ka⟧\n- {十六日|じゅうろくにち}: the 16th\n- ⟦{半月|はんつき}→半月：15662_hantsuki⟧: half a month — roughly equivalent in duration",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -76,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

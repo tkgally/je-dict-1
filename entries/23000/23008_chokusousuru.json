@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23008_chokusousuru_ex1",
-      "japanese": "{産地|さんち}から{直送|ちょくそう}する。",
+      "japanese": "⟦{産地|さんち}→産地：04031_sanchi⟧⟦から→から：00504_kara⟧{直送|ちょくそう}する。",
       "english": "To ship directly from the production area.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23008_chokusousuru_ex2",
-      "japanese": "{北海道|ほっかいどう}から{新鮮|しんせん}な{海産物|かいさんぶつ}を{直送|ちょくそう}します。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦から→から：00504_kara⟧⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な⟦{海産物|かいさんぶつ}→海産物：13394_kaisanbutsu⟧⟦を→を：00422_wo⟧{直送|ちょくそう}します。",
       "english": "We ship fresh seafood directly from Hokkaido.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23008_chokusousuru_ex3",
-      "japanese": "{工場|こうじょう}から{直送|ちょくそう}された{商品|しょうひん}なので、{中間|ちゅうかん}マージンがかからない。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦から→から：00504_kara⟧{直送|ちょくそう}された⟦{商品|しょうひん}→商品：01436_shouhin⟧な⟦の→の：09472_no⟧で、⟦{中間|ちゅうかん}→中間：05458_chuukan⟧マージン⟦が→が：00051_ga⟧⟦かからない→かかる：00711_kakaru⟧。",
       "english": "Since the products are shipped directly from the factory, there's no middleman markup.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A common word in commerce and food marketing. Very frequently seen on food packaging and restaurant advertising to emphasize freshness and quality by highlighting the direct-from-source supply chain.\n\nCOMMON COLLOCATIONS:\n- {産地|さんち}{直送|ちょくそう}: shipped straight from the production area\n- {工場|こうじょう}{直送|ちょくそう}: factory-direct shipping\n- {漁港|ぎょこう}{直送|ちょくそう}: shipped straight from the fishing port\n- {農家|のうか}{直送|ちょくそう}: shipped directly from the farm\n- {直送|ちょくそう}{便|びん}: direct shipment service\n\nSIMILAR WORDS:\n- {発送|はっそう}する: to ship, dispatch — general word for sending out goods; does not imply direct sourcing\n- {配送|はいそう}する: to deliver — focuses on the delivery process rather than the directness of the route\n- {直販|ちょくはん}する: to sell directly — selling directly to consumers, not just shipping\n\nUSAGE:\nThe noun form {産地|さんち}{直送|ちょくそう} is extremely common in advertising and menus, functioning almost as a quality label.",
+  "notes": "A common word in commerce and food marketing. Very frequently seen on food packaging and restaurant advertising to emphasize freshness and quality by highlighting the direct-from-source supply chain.\n\nCOMMON COLLOCATIONS:\n- ⟦{産地|さんち}→産地：04031_sanchi⟧⟦{直送|ちょくそう}→直送：13824_chokusou⟧: shipped straight from the production area\n- ⟦{工場|こうじょう}→工場：01082_koujou⟧⟦{直送|ちょくそう}→直送：13824_chokusou⟧: factory-direct shipping\n- ⟦{漁港|ぎょこう}→漁港：20623_gyokou⟧⟦{直送|ちょくそう}→直送：13824_chokusou⟧: shipped straight from the fishing port\n- ⟦{農家|のうか}→農家：03539_nouka⟧⟦{直送|ちょくそう}→直送：13824_chokusou⟧: shipped directly from the farm\n- ⟦{直送|ちょくそう}→直送：13824_chokusou⟧⟦{便|びん}→便：28160_bin⟧: direct shipment service\n\nSIMILAR WORDS:\n- ⟦{発送|はっそう}する→発送する：21737_hassousuru⟧: to ship, dispatch — general word for sending out goods; does not imply direct sourcing\n- ⟦{配送|はいそう}する→配送する：21738_haisousuru⟧: to deliver — focuses on the delivery process rather than the directness of the route\n- {直販|ちょくはん}⟦する→する：00392_suru⟧: to sell directly — selling directly to consumers, not just shipping\n\nUSAGE:\nThe noun form ⟦{産地|さんち}→産地：04031_sanchi⟧⟦{直送|ちょくそう}→直送：13824_chokusou⟧ is extremely common in advertising and menus, functioning almost as a quality label.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "action",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T15:40:16Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

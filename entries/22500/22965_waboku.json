@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22965_waboku_ex1",
-      "japanese": "{両国|りょうこく}が{和睦|わぼく}した。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦が→が：00051_ga⟧{和睦|わぼく}⟦した→する：00392_suru⟧。",
       "english": "The two countries made peace.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22965_waboku_ex2",
-      "japanese": "{長|なが}い{戦|たたか}いの{末|すえ}に{和睦|わぼく}が{成立|せいりつ}した。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{戦|たたか}い→戦い：02070_tatakai⟧⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧⟦に→に：00314_ni⟧{和睦|わぼく}⟦が→が：00051_ga⟧⟦{成立|せいりつ}した→成立する：25497_seiritsusuru⟧。",
       "english": "After a long battle, a peace settlement was reached.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22965_waboku_ex3",
-      "japanese": "{敵|てき}との{和睦|わぼく}を{求|もと}める{声|こえ}が{国内|こくない}で{高|たか}まった。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{和睦|わぼく}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{国内|こくない}→国内：02998_kokunai⟧⟦で→で：00502_de⟧⟦{高|たか}まった→高まる：02066_takamaru⟧。",
       "english": "Calls for making peace with the enemy grew louder within the country.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal and somewhat literary word for making peace, especially after armed conflict. Frequently encountered in historical texts describing the end of wars between feudal lords or nations.\n\nCOMMON COLLOCATIONS:\n- {和睦|わぼく}する: to make peace\n- {和睦|わぼく}が{成立|せいりつ}する: a peace agreement is reached\n- {和睦|わぼく}を{求|もと}める: to seek peace\n- {和睦|わぼく}{交渉|こうしょう}: peace negotiations\n\nSIMILAR WORDS:\n- {和解|わかい}: reconciliation; settlement — more commonly used in modern contexts, including legal settlements\n- {講和|こうわ}: peace (treaty) — specifically refers to formal peace treaties between nations\n- {仲直|なかなお}り: making up; patching things up — casual, used for personal relationships\n\nREGISTER:\nFormal and literary. More common in written language, historical narratives, and period dramas than in everyday conversation.",
+  "notes": "A formal and somewhat literary word for making peace, especially after armed conflict. Frequently encountered in historical texts describing the end of wars between feudal lords or nations.\n\nCOMMON COLLOCATIONS:\n- {和睦|わぼく}⟦する→する：00392_suru⟧: to make peace\n- {和睦|わぼく}⟦が→が：00051_ga⟧⟦{成立|せいりつ}する→成立する：25497_seiritsusuru⟧: a peace agreement is reached\n- {和睦|わぼく}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to seek peace\n- {和睦|わぼく}⟦{交渉|こうしょう}→交渉：02727_koushou⟧: peace negotiations\n\nSIMILAR WORDS:\n- ⟦{和解|わかい}→和解：10578_wakai⟧: reconciliation; settlement — more commonly used in modern contexts, including legal settlements\n- ⟦{講和|こうわ}→講和：24540_kouwa⟧: peace (treaty) — specifically refers to formal peace treaties between nations\n- ⟦{仲直|なかなお}り→仲直り：03127_nakanaori⟧: making up; patching things up — casual, used for personal relationships\n\nREGISTER:\nFormal and literary. More common in written language, historical narratives, and period dramas than in everyday conversation.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -82,10 +82,11 @@
         "politics",
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-08T14:13:52Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

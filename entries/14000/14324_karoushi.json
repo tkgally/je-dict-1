@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14324_karoushi_ex1",
-      "japanese": "{過労死|かろうし}が{社会問題|しゃかいもんだい}になっている。",
+      "japanese": "{過労死|かろうし}⟦が→が：00051_ga⟧⟦{社会問題|しゃかいもんだい}→社会問題：25686_shakaimondai⟧になっている。",
       "english": "Death from overwork has become a social issue.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14324_karoushi_ex2",
-      "japanese": "{過労死|かろうし}を{防|ふせ}ぐために{労働時間|ろうどうじかん}の{規制|きせい}が{強化|きょうか}された。",
+      "japanese": "{過労死|かろうし}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{労働時間|ろうどうじかん}→労働時間：22198_roudoujikan⟧⟦の→の：09472_no⟧⟦{規制|きせい}→規制：02598_kisei⟧⟦が→が：00051_ga⟧⟦{強化|きょうか}→強化：00260_kyouka⟧⟦された→する：00392_suru⟧。",
       "english": "Regulations on working hours were strengthened to prevent death from overwork.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14324_karoushi_ex3",
-      "japanese": "{若|わか}い{社員|しゃいん}が{過労死|かろうし}したニュースをきっかけに、{会社|かいしゃ}の{働|はたら}き{方|かた}が{見直|みなお}された。",
+      "japanese": "{若|わか}い⟦{社員|しゃいん}→社員：03065_shain⟧⟦が→が：00051_ga⟧{過労死|かろうし}⟦した→する：00392_suru⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦を→を：00422_wo⟧⟦きっかけ→きっかけ：10309_kikkake⟧⟦に→に：00314_ni⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{働|はたら}き{方|かた}→働き方：25439_hatarakikata⟧⟦が→が：00051_ga⟧⟦{見直|みなお}された→見直す：04579_minaosu⟧。",
       "english": "The news of a young employee's death from overwork prompted a review of the company's work practices.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "A compound of {過労|かろう} (overwork) + {死|し} (death). This word has been borrowed into English as \"karoshi\" because the concept became internationally known through Japan.\n\nCOMMON COLLOCATIONS:\n- {過労死|かろうし}ライン (karoshi line — the threshold of overtime hours considered dangerous, generally 80 hours/month)\n- {過労死|かろうし}を{防|ふせ}ぐ (prevent death from overwork)\n- {過労死|かろうし}{等|とう}{防止|ぼうし}{対策|たいさく}{推進法|すいしんほう} (Karoshi Prevention Act)\n- {過労死|かろうし}{認定|にんてい} (official recognition as karoshi)\n\nJapan enacted the {過労死|かろうし}{等|とう}{防止|ぼうし}{対策|たいさく}{推進法|すいしんほう} in 2014 to address this issue. Cases include both physical death from cardiovascular disease and suicide due to work-related mental illness ({過労|かろう}{自殺|じさつ}).",
+  "notes": "A compound of ⟦{過労|かろう}→過労：08563_karou⟧ (overwork) + ⟦{死|し}→死：13248_shi⟧ (death). This word has been borrowed into English as \"karoshi\" because the concept became internationally known through Japan.\n\nCOMMON COLLOCATIONS:\n- {過労死|かろうし}ライン (karoshi line — the threshold of overtime hours considered dangerous, generally 80 hours/month)\n- {過労死|かろうし}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (prevent death from overwork)\n- {過労死|かろうし}{等|とう}{防止|ぼうし}{対策|たいさく}{推進法|すいしんほう} (Karoshi Prevention Act)\n- {過労死|かろうし}⟦{認定|にんてい}→認定：06108_nintei⟧ (official recognition as karoshi)\n\nJapan enacted the {過労死|かろうし}{等|とう}{防止|ぼうし}{対策|たいさく}{推進法|すいしんほう} in 2014 to address this issue. Cases include both physical death from cardiovascular disease and suicide due to work-related mental illness (⟦{過労|かろう}→過労：08563_karou⟧⟦{自殺|じさつ}→自殺：03336_jisatsu⟧).",
   "cross_references": [
     {
       "type": "related",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-28T11:04:05Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -188,7 +188,8 @@
         "society",
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

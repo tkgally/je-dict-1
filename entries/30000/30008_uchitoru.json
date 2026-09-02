@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30008_uchitoru_ex1",
-      "japanese": "{投手|とうしゅ}は{打者|だしゃ}を{打|う}ち{取|と}った。",
+      "japanese": "⟦{投手|とうしゅ}→投手：06563_toushu⟧⟦は→は：00079_ha⟧⟦{打者|だしゃ}→打者：06564_dasha⟧⟦を→を：00422_wo⟧{打|う}ち{取|と}った。",
       "english": "The pitcher retired the batter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30008_uchitoru_ex2",
-      "japanese": "{内野|ないや}ゴロで{打者|だしゃ}を{打|う}ち{取|と}る。",
+      "japanese": "⟦{内野|ないや}→内野：09267_naiya⟧ゴロ⟦で→で：00502_de⟧⟦{打者|だしゃ}→打者：06564_dasha⟧⟦を→を：00422_wo⟧{打|う}ち{取|と}る。",
       "english": "To retire the batter with an infield grounder.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30008_uchitoru_ex3",
-      "japanese": "エースは{最後|さいご}の{打者|だしゃ}をピッチャーゴロに{打|う}ち{取|と}って{試合|しあい}を{締|し}めた。",
+      "japanese": "⟦エース→エース：28537_eesu⟧⟦は→は：00079_ha⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧⟦{打者|だしゃ}→打者：06564_dasha⟧⟦を→を：00422_wo⟧ピッチャーゴロ⟦に→に：00314_ni⟧{打|う}ち{取|と}って⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧⟦{締|し}めた→締める：10057_shimeru⟧。",
       "english": "The ace retired the last batter with a grounder to the mound, closing out the game.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Transitive; takes the retired batter as the を object.\n\nA baseball term for getting a batter out. Often specifies how the out was made:\n- {内野|ないや}ゴロに{打|う}ち{取|と}る: to retire with an infield grounder\n- {凡打|ぼんだ}に{打|う}ち{取|と}る: to induce an easy out\n\nSIMILAR WORDS:\n- {討|う}ち{取|と}る: to slay; to defeat (an enemy in battle) — a homophone written with a different kanji",
+  "notes": "TRANSITIVITY: Transitive; takes the retired batter as the ⟦を→を：00422_wo⟧ object.\n\nA baseball term for getting a batter out. Often specifies how the out was made:\n- ⟦{内野|ないや}→内野：09267_naiya⟧ゴロ⟦に→に：00314_ni⟧{打|う}ち{取|と}る: to retire with an infield grounder\n- ⟦{凡打|ぼんだ}→凡打：30024_bonda⟧⟦に→に：00314_ni⟧{打|う}ち{取|と}る: to induce an easy out\n\nSIMILAR WORDS:\n- {討|う}ち{取|と}る: to slay; to defeat (an enemy in battle) — a homophone written with a different kanji",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
         "sports"
       ],
       "domain": [],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-09-02T02:55:22Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "godan",

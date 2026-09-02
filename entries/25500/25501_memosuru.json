@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25501_memosuru_ex1",
-      "japanese": "{電話|でんわ}{番号|ばんごう}をメモした。",
+      "japanese": "⟦{電話|でんわ}{番号|ばんごう}→電話番号：10159_denwabangou⟧⟦を→を：00422_wo⟧メモした。",
       "english": "I jotted down the phone number.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25501_memosuru_ex2",
-      "japanese": "{会議|かいぎ}の{内容|ないよう}をメモしておいてください。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧メモしておいて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take notes on the contents of the meeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25501_memosuru_ex3",
-      "japanese": "{大事|だいじ}なことはすぐにメモする{習慣|しゅうかん}をつけたほうがいい。",
+      "japanese": "⟦{大事|だいじ}→大事：01253_daiji⟧なこと⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧メモする⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦を→を：00422_wo⟧⟦つけた→つける：00562_tsukeru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "It's good to build a habit of jotting down important things right away.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "From English \"memo\" + する. One of the most common loanword + する combinations in everyday Japanese. Used casually for quick, informal note-taking — writing on sticky notes, typing into a phone, scribbling on paper. More casual than {記録|きろく}する or {書|か}き{留|と}める.\n\nCOMMON COLLOCATIONS:\n- メモを{取|と}る: to take notes (noun + {取|と}る form is equally common)\n- メモ{帳|ちょう}: memo pad; notepad\n- メモ{用紙|ようし}: memo paper\n- {付箋|ふせん}にメモする: to write a memo on a sticky note\n\nSIMILAR WORDS:\n- {記録|きろく}する: to record — more formal and thorough; implies an official or complete record\n- {書|か}き{留|と}める: to write down; to note — slightly more formal than メモする\n- ノートを{取|と}る: to take notes — specifically in a notebook, often in lectures or classes",
+  "notes": "From English \"memo\" + ⟦する→する：00392_suru⟧. One of the most common loanword + ⟦する→する：00392_suru⟧ combinations in everyday Japanese. Used casually for quick, informal note-taking — writing on sticky notes, typing into a phone, scribbling on paper. More casual than ⟦{記録|きろく}する→記録する：25341_kirokusuru⟧ or ⟦{書|か}き{留|と}める→書き留める：06730_kakitomeru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦メモ→メモ：00274_memo⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take notes (noun + ⟦{取|と}る→取る：00565_toru⟧ form is equally common)\n- ⟦メモ{帳|ちょう}→メモ帳：11241_memochou⟧: memo pad; notepad\n- ⟦メモ{用紙|ようし}→メモ用紙：29326_memoyoushi⟧: memo paper\n- ⟦{付箋|ふせん}→付箋：08245_fusen⟧⟦に→に：00314_ni⟧メモする: to write a memo on a sticky note\n\nSIMILAR WORDS:\n- ⟦{記録|きろく}する→記録する：25341_kirokusuru⟧: to record — more formal and thorough; implies an official or complete record\n- ⟦{書|か}き{留|と}める→書き留める：06730_kakitomeru⟧: to write down; to note — slightly more formal than メモする\n- ⟦ノート→ノート：00738_nooto⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take notes — specifically in a notebook, often in lectures or classes",
   "cross_references": [
     {
       "type": "related",
@@ -73,10 +73,11 @@
         "daily-life",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-25T15:12:59Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30298_getsuyou_ex1",
-      "japanese": "{月曜|げつよう}は{休|やす}みです。",
+      "japanese": "{月曜|げつよう}⟦は→は：00079_ha⟧⟦{休|やす}み→休み：02266_yasumi⟧です。",
       "english": "Monday is a day off.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30298_getsuyou_ex2",
-      "japanese": "{会議|かいぎ}は{月曜|げつよう}の{朝|あさ}に{変|か}わった。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧{月曜|げつよう}⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧⟦に→に：00314_ni⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "The meeting was moved to Monday morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30298_getsuyou_ex3",
-      "japanese": "この{店|みせ}は{月曜|げつよう}から{金曜|きんよう}まで{営業|えいぎょう}しています。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{月曜|げつよう}⟦から→から：00504_kara⟧{金曜|きんよう}⟦まで→まで：00490_made⟧⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦しています→する：00392_suru⟧。",
       "english": "This shop is open from Monday through Friday.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Shortened from {月曜日|げつようび} by dropping {日|び}. The full form is the default in careful speech and writing; the short form appears where space is tight or the context is obvious.\n\nCOMMON COLLOCATIONS:\n- {月曜|げつよう}から{金曜|きんよう}まで: from Monday to Friday\n- {毎週|まいしゅう}{月曜|げつよう}: every Monday\n- {月曜|げつよう}の{朝|あさ}: Monday morning\n- {隔週|かくしゅう}{月曜|げつよう}: every other Monday\n\nUSAGE:\nAll seven days clip the same way ({火曜|かよう}, {水曜|すいよう}, {木曜|もくよう}, {金曜|きんよう}, {土曜|どよう}, {日曜|にちよう}). In tables and signs the reading is often abbreviated further to the single kanji {月|げつ}.",
+  "notes": "Shortened from ⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧ by dropping {日|び}. The full form is the default in careful speech and writing; the short form appears where space is tight or the context is obvious.\n\nCOMMON COLLOCATIONS:\n- {月曜|げつよう}⟦から→から：00504_kara⟧{金曜|きんよう}⟦まで→まで：00490_made⟧: from Monday to Friday\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{月曜|げつよう}: every Monday\n- {月曜|げつよう}⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧: Monday morning\n- ⟦{隔週|かくしゅう}→隔週：15282_kakushuu⟧{月曜|げつよう}: every other Monday\n\nUSAGE:\nAll seven days clip the same way (⟦{火曜|かよう}→火曜：13459_kayou⟧, ⟦{水曜|すいよう}→水曜：30304_suiyou⟧, ⟦{木曜|もくよう}→木曜：03163_mokuyou⟧, {金曜|きんよう}, ⟦{土曜|どよう}→土曜：22529_doyou⟧, ⟦{日曜|にちよう}→日曜：22837_nichiyou⟧). In tables and signs the reading is often abbreviated further to the single kanji {月|げつ}.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +60,6 @@
       "domain": []
     },
     "created": "2026-08-01T15:17:17Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

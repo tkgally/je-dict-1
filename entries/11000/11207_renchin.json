@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11207_renchin_ex1",
-      "japanese": "レンチンするだけでいい。",
+      "japanese": "レンチン⟦する→する：00392_suru⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦いい→いい：00118_ii⟧。",
       "english": "You just need to microwave it.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "11207_renchin_ex2",
-      "japanese": "お{弁当|べんとう}をレンチンした。",
+      "japanese": "⟦お{弁当|べんとう}→お弁当：02864_obentou⟧⟦を→を：00422_wo⟧レンチン⟦した→する：00392_suru⟧。",
       "english": "I microwaved my bento.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "11207_renchin_ex3",
-      "japanese": "{冷凍|れいとう}ご{飯|はん}をレンチンして{食|た}べるのが{一番|いちばん}{楽|らく}だ。",
+      "japanese": "⟦{冷凍|れいとう}→冷凍：11730_reitou⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧レンチン⟦して→する：00392_suru⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{楽|らく}→楽：02169_raku⟧だ。",
       "english": "The easiest option is to microwave frozen rice and eat that.",
       "sense_numbers": [
         1
@@ -134,11 +134,11 @@
       "notes": null
     }
   ],
-  "notes": "レンチン is a casual compound word formed from レンジ (microwave oven) + チン (the ding sound a microwave makes when done). It is used as both a noun and a suru verb.\n\nFORMS:\nレンジ (microwave) + チン (ding sound) → レンチン\n\nCOMMON COLLOCATIONS:\n- レンチンする: to microwave\n- レンチンするだけ: just microwave it\n- レンチン{料理|りょうり}: microwave cooking\n\nUSAGE:\nThis word is casual and commonly used in everyday conversation and on social media. In more formal contexts, {電子|でんし}レンジで{温|あたた}める is preferred.",
+  "notes": "レンチン is a casual compound word formed from ⟦レンジ→レンジ：01047_renji⟧ (microwave oven) + チン (the ding sound a microwave makes when done). It is used as both a noun and a suru verb.\n\nFORMS:\n⟦レンジ→レンジ：01047_renji⟧ (microwave) + チン (ding sound) → レンチン\n\nCOMMON COLLOCATIONS:\n- レンチン⟦する→する：00392_suru⟧: to microwave\n- レンチン⟦する→する：00392_suru⟧⟦だけ→〜だけ：03093_dake⟧: just microwave it\n- レンチン⟦{料理|りょうり}→料理：01523_ryouri⟧: microwave cooking\n\nUSAGE:\nThis word is casual and commonly used in everyday conversation and on social media. In more formal contexts, ⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧⟦で→で：00502_de⟧⟦{温|あたた}める→温める：02096_atatameru⟧ is preferred.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-15T02:43:51Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "domain": [
         "colloquial"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

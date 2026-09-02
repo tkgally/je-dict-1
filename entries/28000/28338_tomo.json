@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28338_tomo_ex1",
-      "japanese": "{二人|ふたり}とも{学生|がくせい}だ。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧とも⟦{学生|がくせい}→学生：00610_gakusei⟧だ。",
       "english": "Both of them are students.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28338_tomo_ex2",
-      "japanese": "{二|ふた}つとも{好|す}きです。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧とも⟦{好|す}き→好き：02355_suki⟧です。",
       "english": "I like both of them.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28338_tomo_ex3",
-      "japanese": "{三人|さんにん}ともテストに{合格|ごうかく}した。",
+      "japanese": "⟦{三人|さんにん}→三人：10978_sannin⟧とも⟦テスト→テスト：01065_tesuto⟧⟦に→に：00314_ni⟧⟦{合格|ごうかく}した→合格する：27949_goukakusuru⟧。",
       "english": "All three of them passed the test.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Attaches directly to a counting expression to mean 'every one of that number'. The group must be specific and small (typically 2–5 members), and the speaker is asserting that the predicate holds for each member without exception.\n\nCOMMON PATTERNS:\n- {二人|ふたり}とも: both people\n- {二|ふた}つとも: both things\n- {三人|さんにん}とも: all three people\n- {両方|りょうほう}とも: both (of two options)\n- {全員|ぜんいん}とも (less common; usually just {全員|ぜんいん})\n\nSIMILAR WORDS:\n- {両方|りょうほう}: both — refers to two specific items as a pair\n- みんな: everyone — for larger or vaguer groups\n- {全部|ぜんぶ}: all; entirely — for things, not typically people",
+  "notes": "Attaches directly to a counting expression to mean 'every one of that number'. The group must be specific and small (typically 2–5 members), and the speaker is asserting that the predicate holds for each member without exception.\n\nCOMMON PATTERNS:\n- ⟦{二人|ふたり}→二人：00622_futari⟧とも: both people\n- ⟦{二|ふた}つ→二つ：02953_futatsu⟧とも: both things\n- ⟦{三人|さんにん}→三人：10978_sannin⟧とも: all three people\n- ⟦{両方|りょうほう}→両方：01750_ryouhou⟧とも: both (of two options)\n- ⟦{全員|ぜんいん}→全員：03310_zenin⟧とも (less common; usually just ⟦{全員|ぜんいん}→全員：03310_zenin⟧)\n\nSIMILAR WORDS:\n- ⟦{両方|りょうほう}→両方：01750_ryouhou⟧: both — refers to two specific items as a pair\n- ⟦みんな→みんな：02972_minna⟧: everyone — for larger or vaguer groups\n- ⟦{全部|ぜんぶ}→全部：02888_zenbu⟧: all; entirely — for things, not typically people",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -76,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

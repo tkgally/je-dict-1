@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12826_houchi_ex1",
-      "japanese": "{自転車|じてんしゃ}を{放置|ほうち}しないでください。",
+      "japanese": "⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦を→を：00422_wo⟧{放置|ほうち}⟦しないで→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please do not leave your bicycle unattended.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12826_houchi_ex2",
-      "japanese": "{問題|もんだい}を{放置|ほうち}すると、{悪化|あっか}する{恐|おそ}れがある。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{放置|ほうち}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{悪化|あっか}する→悪化する：18844_akkasuru⟧{恐|おそ}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you leave the problem unaddressed, it may get worse.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12826_houchi_ex3",
-      "japanese": "{空|あ}き{家|や}が{長年|ながねん}{放置|ほうち}されて、{老朽化|ろうきゅうか}が{進|すす}んでいる。",
+      "japanese": "⟦{空|あ}き{家|や}→空き家：03007_akiya⟧⟦が→が：00051_ga⟧⟦{長年|ながねん}→長年：09684_naganen⟧{放置|ほうち}⟦されて→する：00392_suru⟧、⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "The vacant house has been left neglected for years, and deterioration has progressed.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{放置|ほうち} usually carries a negative nuance — it implies something should have been dealt with but was ignored. It is commonly seen on signs (e.g., {放置|ほうち}{自転車|じてんしゃ} = abandoned/illegally parked bicycles) and in discussions of social problems.\n\nIn gaming culture, {放置|ほうち}ゲーム or {放置|ほうち}ゲー refers to \"idle games\" — games that progress while the player is away.\n\nCOMMON COLLOCATIONS:\n- {放置|ほうち}{自転車|じてんしゃ}: abandoned bicycle (illegally parked)\n- {放置|ほうち}{駐車|ちゅうしゃ}: illegally parked/abandoned car\n- {問題|もんだい}を{放置|ほうち}する: to leave a problem unattended\n- そのまま{放置|ほうち}する: to leave as is",
+  "notes": "USAGE:\n{放置|ほうち} usually carries a negative nuance — it implies something should have been dealt with but was ignored. It is commonly seen on signs (e.g., {放置|ほうち}⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧ = abandoned/illegally parked bicycles) and in discussions of social problems.\n\nIn gaming culture, {放置|ほうち}⟦ゲーム→ゲーム：03842_geemu⟧ or {放置|ほうち}ゲー refers to \"idle games\" — games that progress while the player is away.\n\nCOMMON COLLOCATIONS:\n- {放置|ほうち}⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧: abandoned bicycle (illegally parked)\n- {放置|ほうち}⟦{駐車|ちゅうしゃ}→駐車：01466_chuusha⟧: illegally parked/abandoned car\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{放置|ほうち}⟦する→する：00392_suru⟧: to leave a problem unattended\n- ⟦そのまま→そのまま：03322_sonomama⟧{放置|ほうち}⟦する→する：00392_suru⟧: to leave as is",
   "cross_references": [
     {
       "type": "related",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T11:12:13Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

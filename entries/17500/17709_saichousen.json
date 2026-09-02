@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17709_saichousen_ex1",
-      "japanese": "{来年|らいねん}{再挑戦|さいちょうせん}するつもりだ。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧{再挑戦|さいちょうせん}⟦する→する：00392_suru⟧⟦つもり→つもり：01152_tsumori⟧だ。",
       "english": "I plan to try again next year.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17709_saichousen_ex2",
-      "japanese": "{試験|しけん}に{落|お}ちたが、すぐに{再挑戦|さいちょうせん}を{決意|けつい}した。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{落|お}ちた→落ちる：01242_ochiru⟧⟦が→が：00051_ga⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{再挑戦|さいちょうせん}⟦を→を：00422_wo⟧⟦{決意|けつい}した→決意する：28116_ketsuisuru⟧。",
       "english": "I failed the exam, but immediately resolved to try again.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17709_saichousen_ex3",
-      "japanese": "{何度|なんど}{失敗|しっぱい}しても{再挑戦|さいちょうせん}する{姿勢|しせい}が{大切|たいせつ}だと、コーチに{教|おし}わった。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧{再挑戦|さいちょうせん}⟦する→する：00392_suru⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ⟦と→と：00512_to⟧、⟦コーチ→コーチ：03844_koochi⟧⟦に→に：00314_ni⟧{教|おし}わった。",
       "english": "My coach taught me that the attitude of trying again no matter how many times you fail is what matters.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{再挑戦|さいちょうせん} means attempting something again after a previous failure. It carries a positive, determined nuance — the speaker refuses to give up.\n\nFORMS:\n{再|さい} (again, re-) + {挑戦|ちょうせん} (challenge, attempt). The prefix {再|さい} is productive and creates many similar compounds:\n- {再|さい}{開|かい}: reopening\n- {再|さい}{試験|しけん}: retake (of an exam)\n- {再|さい}{出発|しゅっぱつ}: fresh start\n\nCOMMON COLLOCATIONS:\n- {再挑戦|さいちょうせん}する: to try again\n- {再挑戦|さいちょうせん}の{機会|きかい}: opportunity to try again\n- {再挑戦|さいちょうせん}を{決意|けつい}する: to resolve to try again\n\nUSAGE:\nOften used for exams, competitions, certifications, and personal goals. Implies admirable perseverance rather than foolish repetition.",
+  "notes": "{再挑戦|さいちょうせん} means attempting something again after a previous failure. It carries a positive, determined nuance — the speaker refuses to give up.\n\nFORMS:\n⟦{再|さい}→再〜：03953_sai⟧ (again, re-) + ⟦{挑戦|ちょうせん}→挑戦：03495_chousen⟧ (challenge, attempt). The prefix ⟦{再|さい}→再〜：03953_sai⟧ is productive and creates many similar compounds:\n- ⟦{再|さい}{開|かい}→再開：05219_saikai⟧: reopening\n- ⟦{再|さい}{試験|しけん}→再試験：09972_saishiken⟧: retake (of an exam)\n- ⟦{再|さい}{出発|しゅっぱつ}→再出発：19676_saishuppatsu⟧: fresh start\n\nCOMMON COLLOCATIONS:\n- {再挑戦|さいちょうせん}⟦する→する：00392_suru⟧: to try again\n- {再挑戦|さいちょうせん}⟦の→の：09472_no⟧⟦{機会|きかい}→機会：01302_kikai⟧: opportunity to try again\n- {再挑戦|さいちょうせん}⟦を→を：00422_wo⟧⟦{決意|けつい}する→決意する：28116_ketsuisuru⟧: to resolve to try again\n\nUSAGE:\nOften used for exams, competitions, certifications, and personal goals. Implies admirable perseverance rather than foolish repetition.",
   "cross_references": [
     {
       "type": "related",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-03-18T14:36:48Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,7 +158,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

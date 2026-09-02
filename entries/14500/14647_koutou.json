@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14647_koutou_ex1",
-      "japanese": "{物価|ぶっか}が{高騰|こうとう}している。",
+      "japanese": "⟦{物価|ぶっか}→物価：03607_bukka⟧⟦が→が：00051_ga⟧{高騰|こうとう}⟦している→する：00392_suru⟧。",
       "english": "Prices are soaring.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14647_koutou_ex2",
-      "japanese": "{原油|げんゆ}{価格|かかく}の{高騰|こうとう}が{続|つづ}いている。",
+      "japanese": "⟦{原油|げんゆ}→原油：21637_genyu⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦の→の：09472_no⟧{高騰|こうとう}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The surge in crude oil prices continues.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14647_koutou_ex3",
-      "japanese": "{食料品|しょくりょうひん}の{高騰|こうとう}で{家計|かけい}が{圧迫|あっぱく}されている{家庭|かてい}も{多|おお}い。",
+      "japanese": "⟦{食料品|しょくりょうひん}→食料品：01439_shokuryouhin⟧⟦の→の：09472_no⟧{高騰|こうとう}⟦で→で：00502_de⟧⟦{家計|かけい}→家計：12287_kakei⟧⟦が→が：00051_ga⟧⟦{圧迫|あっぱく}→圧迫：12013_appaku⟧⟦されている→する：00392_suru⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many households are under financial pressure due to soaring food prices.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{高騰|こうとう}する functions as a suru-verb meaning \"to soar\" or \"to skyrocket.\"\n\nCOMMON COLLOCATIONS:\n- {物価|ぶっか}が{高騰|こうとう}する (prices soar)\n- {地価|ちか}の{高騰|こうとう} (soaring land prices)\n- {株価|かぶか}が{高騰|こうとう}する (stock prices surge)\n- {原油|げんゆ}{価格|かかく}の{高騰|こうとう} (surge in oil prices)\n\nStronger than {値上|ねあ}がり (price increase), which can be moderate. {高騰|こうとう} implies a sharp, dramatic rise. The opposite is {暴落|ぼうらく} (crash, plunge).",
+  "notes": "{高騰|こうとう}⟦する→する：00392_suru⟧ functions as a suru-verb meaning \"to soar\" or \"to skyrocket.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{物価|ぶっか}→物価：03607_bukka⟧⟦が→が：00051_ga⟧{高騰|こうとう}⟦する→する：00392_suru⟧ (prices soar)\n- ⟦{地価|ちか}→地価：12130_chika⟧⟦の→の：09472_no⟧{高騰|こうとう} (soaring land prices)\n- ⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{高騰|こうとう}⟦する→する：00392_suru⟧ (stock prices surge)\n- ⟦{原油|げんゆ}→原油：21637_genyu⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦の→の：09472_no⟧{高騰|こうとう} (surge in oil prices)\n\nStronger than ⟦{値上|ねあ}がり→値上がり：11538_neagari⟧ (price increase), which can be moderate. {高騰|こうとう} implies a sharp, dramatic rise. The opposite is ⟦{暴落|ぼうらく}→暴落：09401_bouraku⟧ (crash, plunge).",
   "cross_references": [
     {
       "type": "antonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-02T09:33:50Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "economics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

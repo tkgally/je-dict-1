@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09475_yo_ex1",
-      "japanese": "{雨|あめ}が{降|ふ}っているよ。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}っている→降る：00839_furu⟧よ。",
       "english": "It's raining, you know.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "09475_yo_ex2",
-      "japanese": "もう{時間|じかん}だよ。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{時間|じかん}→時間：00468_jikan⟧だよ。",
       "english": "It's time already!",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "09475_yo_ex3",
-      "japanese": "これ、おいしいよ。",
+      "japanese": "⟦これ→これ：00963_kore⟧、おいしいよ。",
       "english": "This is delicious, you know.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "09475_yo_ex4",
-      "japanese": "{早|はや}く{起|お}きなさいよ。",
+      "japanese": "⟦{早|はや}く→早い：00514_hayai⟧⟦{起|お}き→起きる：00521_okiru⟧⟦なさい→なさる：01307_nasaru⟧よ。",
       "english": "Wake up early!",
       "notes": null,
       "has_audio": false,
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "notes": "よ is used to assert or emphasize information.\n\nFUNCTIONS:\n1. Assertion: {知|し}ってるよ (I know [assertive])\n2. New information: {電車|でんしゃ}が{来|き}たよ (The train has come!)\n3. Emphasis: {本当|ほんとう}だよ (It's true!)\n4. Advice/urging: {食|た}べなよ (Go ahead and eat)\n\nCONTRAST: よ vs ね\n- よ: asserts information the listener may not know\n- ね: seeks agreement, confirms shared knowledge\n\nCOMBINATION: よね\n- Combines assertion with seeking agreement: そうだよね (That's right, you know?)",
+  "notes": "よ is used to assert or emphasize information.\n\nFUNCTIONS:\n1. Assertion: ⟦{知|し}っ→知る：00458_shiru⟧てるよ (I know [assertive])\n2. New information: ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧よ (The train has come!)\n3. Emphasis: ⟦{本当|ほんとう}→本当：00779_hontou⟧だよ (It's true!)\n4. Advice/urging: ⟦{食|た}べ→食べる：00396_taberu⟧なよ (Go ahead and eat)\n\nCONTRAST: よ vs ⟦ね→ね：09474_ne⟧\n- よ: asserts information the listener may not know\n- ⟦ね→ね：09474_ne⟧: seeks agreement, confirms shared knowledge\n\nCOMBINATION: よ⟦ね→ね：09474_ne⟧\n- Combines assertion with seeking agreement: そうだよ⟦ね→ね：09474_ne⟧ (That's right, you know?)",
   "cross_references": [
     {
       "type": "contrast",
@@ -100,7 +100,7 @@
   ],
   "metadata": {
     "created": "2026-02-02T05:41:32Z",
-    "modified": "2026-09-02T02:55:10Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

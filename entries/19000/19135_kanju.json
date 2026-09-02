@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19135_kanju_ex1",
-      "japanese": "{結果|けっか}を{甘受|かんじゅ}する。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{甘受|かんじゅ}⟦する→する：00392_suru⟧。",
       "english": "To accept the consequences.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19135_kanju_ex2",
-      "japanese": "{批判|ひはん}は{甘受|かんじゅ}しなければならない。",
+      "japanese": "⟦{批判|ひはん}→批判：03580_hihan⟧⟦は→は：00079_ha⟧{甘受|かんじゅ}し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "One must accept the criticism.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19135_kanju_ex3",
-      "japanese": "{自分|じぶん}の{選択|せんたく}の{結果|けっか}である{以上|いじょう}、この{不便|ふべん}さは{甘受|かんじゅ}するしかない。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{選択|せんたく}→選択：03306_sentaku⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦である→である：09855_dearu⟧⟦{以上|いじょう}→以上：01308_ijou⟧、⟦この→この：00962_kono⟧⟦{不便|ふべん}→不便：01501_fuben⟧さ⟦は→は：00079_ha⟧{甘受|かんじゅ}⟦する→する：00392_suru⟧⟦しかない→〜しかない：30533_shikanai⟧。",
       "english": "Since this is the result of my own choice, I have no choice but to accept this inconvenience.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{甘受|かんじゅ} means accepting something unpleasant without resistance. It implies resignation or willingness to endure hardship.\n\nWRITING:\nThe character {甘|かん} here means \"willingly\" or \"contentedly,\" not its more common meaning of \"sweet.\"\n\nCOMMON OBJECTS (always negative):\n- {批判|ひはん}を{甘受|かんじゅ}する: to accept criticism\n- {処分|しょぶん}を{甘受|かんじゅ}する: to accept punishment\n- {不利益|ふりえき}を{甘受|かんじゅ}する: to accept disadvantage\n- {結果|けっか}を{甘受|かんじゅ}する: to accept consequences\n\nSIMILAR WORDS:\n- {受|う}け{入|い}れる: to accept (neutral; broader use)\n- {我慢|がまん}する: to endure, put up with (focuses on the suffering)\n- {諦|あきら}める: to give up, resign oneself (focuses on abandoning hope)\n\nREGISTER:\nFormal and literary. Common in written Japanese, legal contexts, and serious discussion. Rarely used in casual conversation.",
+  "notes": "{甘受|かんじゅ} means accepting something unpleasant without resistance. It implies resignation or willingness to endure hardship.\n\nWRITING:\nThe character {甘|かん} here means \"willingly\" or \"contentedly,\" not its more common meaning of \"sweet.\"\n\nCOMMON OBJECTS (always negative):\n- ⟦{批判|ひはん}→批判：03580_hihan⟧⟦を→を：00422_wo⟧{甘受|かんじゅ}⟦する→する：00392_suru⟧: to accept criticism\n- ⟦{処分|しょぶん}→処分：05520_shobun⟧⟦を→を：00422_wo⟧{甘受|かんじゅ}⟦する→する：00392_suru⟧: to accept punishment\n- ⟦{不利益|ふりえき}→不利益：11481_furieki⟧⟦を→を：00422_wo⟧{甘受|かんじゅ}⟦する→する：00392_suru⟧: to accept disadvantage\n- ⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{甘受|かんじゅ}⟦する→する：00392_suru⟧: to accept consequences\n\nSIMILAR WORDS:\n- ⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧: to accept (neutral; broader use)\n- ⟦{我慢|がまん}する→我慢する：25343_gamansuru⟧: to endure, put up with (focuses on the suffering)\n- ⟦{諦|あきら}める→諦める：01813_akirameru⟧: to give up, resign oneself (focuses on abandoning hope)\n\nREGISTER:\nFormal and literary. Common in written Japanese, legal contexts, and serious discussion. Rarely used in casual conversation.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -174,9 +174,10 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-24T10:04:47Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

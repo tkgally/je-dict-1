@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21039_zokuhatsusuru_ex1",
-      "japanese": "{事故|じこ}が{続発|ぞくはつ}している。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}して⟦いる→いる：00495_iru⟧。",
       "english": "Accidents are happening one after another.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21039_zokuhatsusuru_ex2",
-      "japanese": "この{地域|ちいき}では{窃盗|せっとう}{事件|じけん}が{続発|ぞくはつ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{窃盗|せっとう}→窃盗：15280_settou⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}して⟦いる→いる：00495_iru⟧。",
       "english": "Theft incidents have been occurring one after another in this area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21039_zokuhatsusuru_ex3",
-      "japanese": "{食中毒|しょくちゅうどく}が{続発|ぞくはつ}したため、{保健所|ほけんじょ}が{調査|ちょうさ}に{乗|の}り{出|だ}した。",
+      "japanese": "⟦{食中毒|しょくちゅうどく}→食中毒：07020_shokuchuudoku⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}した⟦ため→ため：01145_tame⟧、{保健所|ほけんじょ}⟦が→が：00051_ga⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦に→に：00314_ni⟧⟦{乗|の}り{出|だ}した→乗り出す：05760_noridasu⟧。",
       "english": "After food poisoning cases occurred in succession, the health center launched an investigation.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {続|ぞく} (continue, follow) + {発|はつ} (occur, emit). Used almost exclusively for negative events — accidents, crimes, disasters, and problems happening in series.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}が{続発|ぞくはつ}する: accidents occur in succession\n- {事件|じけん}が{続発|ぞくはつ}する: incidents happen one after another\n- {被害|ひがい}が{続発|ぞくはつ}する: damage occurs repeatedly\n- トラブルが{続発|ぞくはつ}する: troubles keep arising\n\nSIMILAR WORDS:\n- {連発|れんぱつ}する: to occur in rapid succession — can be positive or negative; emphasizes rapid repetition\n- {頻発|ひんぱつ}する: to occur frequently — emphasizes high frequency rather than sequential occurrence\n- {相次|あいつ}ぐ: to follow one after another — similar meaning and nuance, slightly more literary\n\nREGISTER:\nCommon in news reports and formal writing. Typically appears in headlines and news stories about crime, accidents, and public health issues.",
+  "notes": "Composed of {続|ぞく} (continue, follow) + ⟦{発|はつ}→〜発：04026_hatsu⟧ (occur, emit). Used almost exclusively for negative events — accidents, crimes, disasters, and problems happening in series.\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}する: accidents occur in succession\n- ⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}する: incidents happen one after another\n- ⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}する: damage occurs repeatedly\n- ⟦トラブル→トラブル：07061_toraburu⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}する: troubles keep arising\n\nSIMILAR WORDS:\n- ⟦{連発|れんぱつ}する→連発する：21028_renpatsusuru⟧: to occur in rapid succession — can be positive or negative; emphasizes rapid repetition\n- ⟦{頻発|ひんぱつ}する→頻発する：22178_hinpatsusuru⟧: to occur frequently — emphasizes high frequency rather than sequential occurrence\n- ⟦{相次|あいつ}ぐ→相次ぐ：14869_aitsugu⟧: to follow one after another — similar meaning and nuance, slightly more literary\n\nREGISTER:\nCommon in news reports and formal writing. Typically appears in headlines and news stories about crime, accidents, and public health issues.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-31T15:33:24Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

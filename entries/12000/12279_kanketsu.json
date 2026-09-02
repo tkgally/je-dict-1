@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12279_kanketsu_ex1",
-      "japanese": "{物語|ものがたり}が{完結|かんけつ}した。",
+      "japanese": "⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦が→が：00051_ga⟧{完結|かんけつ}⟦した→する：00392_suru⟧。",
       "english": "The story concluded.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12279_kanketsu_ex2",
-      "japanese": "{連載|れんさい}{十年|じゅうねん}のマンガがついに{完結|かんけつ}した。",
+      "japanese": "⟦{連載|れんさい}→連載：14320_rensai⟧{十年|じゅうねん}⟦の→の：09472_no⟧マンガ⟦が→が：00051_ga⟧ついに{完結|かんけつ}⟦した→する：00392_suru⟧。",
       "english": "The manga that had been serialized for ten years finally concluded.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12279_kanketsu_ex3",
-      "japanese": "このシリーズは{全|ぜん}{五巻|ごかん}で{完結|かんけつ}する{予定|よてい}だが、{延長|えんちょう}の{可能性|かのうせい}もある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦シリーズ→シリーズ：10942_shiriizu⟧⟦は→は：00079_ha⟧⟦{全|ぜん}→全〜：28337_zen⟧{五巻|ごかん}⟦で→で：00502_de⟧{完結|かんけつ}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ⟦が→が：00051_ga⟧、⟦{延長|えんちょう}→延長：06447_enchou⟧⟦の→の：09472_no⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "This series is planned to conclude in five volumes, but there is also a possibility of extension.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nVery common in discussions about manga, anime, novels, and TV dramas. Fans eagerly discuss whether a series has {完結|かんけつ} (finished) or is still {連載中|れんさいちゅう} (currently serialized). Also used in business and project management for the conclusion of a project or process.\n\nCOMMON COLLOCATIONS:\n- {完結|かんけつ}{編|へん}: final arc, concluding chapter\n- {完結|かんけつ}{済|ず}み: completed, already concluded\n- {一巻|いっかん}{完結|かんけつ}: standalone volume, self-contained\n- シリーズが{完結|かんけつ}する: a series concludes\n- {全|ぜん}〜{巻|かん}で{完結|かんけつ}: concludes in ~ volumes",
+  "notes": "USAGE:\nVery common in discussions about manga, anime, novels, and TV dramas. Fans eagerly discuss whether a series has {完結|かんけつ} (finished) or is still ⟦{連載中|れんさいちゅう}→連載中：22580_rensaichuu⟧ (currently serialized). Also used in business and project management for the conclusion of a project or process.\n\nCOMMON COLLOCATIONS:\n- {完結|かんけつ}⟦{編|へん}→〜編：28472_hen⟧: final arc, concluding chapter\n- {完結|かんけつ}⟦{済|ず}み→〜済み：04013_zumi⟧: completed, already concluded\n- {一巻|いっかん}{完結|かんけつ}: standalone volume, self-contained\n- ⟦シリーズ→シリーズ：10942_shiriizu⟧⟦が→が：00051_ga⟧{完結|かんけつ}⟦する→する：00392_suru⟧: a series concludes\n- ⟦{全|ぜん}→全〜：28337_zen⟧〜{巻|かん}⟦で→で：00502_de⟧{完結|かんけつ}: concludes in ~ volumes",
   "cross_references": [
     {
       "type": "synonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T15:06:34Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -187,7 +187,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

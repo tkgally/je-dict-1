@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "21997_hakozumesuru_ex1",
-      "japanese": "みかんを{箱詰|はこづ}めする。",
+      "japanese": "みかん⟦を→を：00422_wo⟧{箱詰|はこづ}めする。",
       "english": "To pack oranges in a box.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "21997_hakozumesuru_ex2",
-      "japanese": "お{菓子|かし}を{箱詰|はこづ}めにして{贈|おく}る。",
+      "japanese": "⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧⟦{箱詰|はこづ}め→箱詰め：19030_hakozume⟧にして⟦{贈|おく}る→贈る：09862_okuru⟧。",
       "english": "To box up sweets and give them as a gift.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "21997_hakozumesuru_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しのために{荷物|にもつ}を{箱詰|はこづ}めする{作業|さぎょう}に{丸|まる}1{日|にち}かかった。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{箱詰|はこづ}めする⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦に→に：00314_ni⟧⟦{丸|まる}→丸：02167_maru⟧1{日|にち}⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took a whole day to pack up the belongings in boxes for the move.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Often used as a noun ({箱詰|はこづ}め) to describe boxed goods, especially food products sold as gifts.\n\nCOMMON COLLOCATIONS:\n- {箱詰|はこづ}めにする: to box up\n- {箱詰|はこづ}めの{果物|くだもの}: boxed fruit\n- {箱詰|はこづ}めギフト: boxed gift set\n- {箱詰|はこづ}め{作業|さぎょう}: packing work\n\nSIMILAR WORDS:\n- {梱包|こんぽう}する: to pack, package — more formal, used for shipping\n- {詰|つ}める: to pack, stuff — general verb for filling a container\n- {包装|ほうそう}する: to wrap, package — focuses on wrapping",
+  "notes": "Often used as a noun (⟦{箱詰|はこづ}め→箱詰め：19030_hakozume⟧) to describe boxed goods, especially food products sold as gifts.\n\nCOMMON COLLOCATIONS:\n- ⟦{箱詰|はこづ}め→箱詰め：19030_hakozume⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to box up\n- ⟦{箱詰|はこづ}め→箱詰め：19030_hakozume⟧⟦の→の：09472_no⟧⟦{果物|くだもの}→果物：00509_kudamono⟧: boxed fruit\n- ⟦{箱詰|はこづ}め→箱詰め：19030_hakozume⟧⟦ギフト→ギフト：10824_gifuto⟧: boxed gift set\n- ⟦{箱詰|はこづ}め→箱詰め：19030_hakozume⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧: packing work\n\nSIMILAR WORDS:\n- ⟦{梱包|こんぽう}→梱包：07937_konpou⟧⟦する→する：00392_suru⟧: to pack, package — more formal, used for shipping\n- ⟦{詰|つ}める→詰める：02078_tsumeru⟧: to pack, stuff — general verb for filling a container\n- ⟦{包装|ほうそう}する→包装する：17300_housousuru⟧: to wrap, package — focuses on wrapping",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -171,9 +171,10 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-04T19:32:00Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

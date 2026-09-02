@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11543_shinryaku_ex1",
-      "japanese": "{他国|たこく}を{侵略|しんりゃく}する。",
+      "japanese": "⟦{他国|たこく}→他国：28893_takoku⟧⟦を→を：00422_wo⟧{侵略|しんりゃく}⟦する→する：00392_suru⟧。",
       "english": "Invade another country.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11543_shinryaku_ex2",
-      "japanese": "{侵略|しんりゃく}{戦争|せんそう}は{国際法|こくさいほう}で{禁|きん}じられている。",
+      "japanese": "{侵略|しんりゃく}⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦は→は：00079_ha⟧{国際法|こくさいほう}⟦で→で：00502_de⟧⟦{禁|きん}じられている→禁ずる：19600_kinzuru⟧。",
       "english": "Wars of aggression are prohibited under international law.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11543_shinryaku_ex3",
-      "japanese": "{歴史|れきし}の{授業|じゅぎょう}で{植民地|しょくみんち}{侵略|しんりゃく}の{影響|えいきょう}について{学|まな}んだ。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧⟦{植民地|しょくみんち}→植民地：16073_shokuminchi⟧{侵略|しんりゃく}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦について→〜について：03103_nitsuite⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "In history class, we studied the impact of colonial aggression.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{侵略|しんりゃく} is a loaded term that implies blame and moral judgment. It is distinct from {侵攻|しんこう} (military offensive/incursion), which is more neutral and descriptive. In Japanese historical and political discourse, the choice between these terms is often significant.\n\nCOMMON COLLOCATIONS:\n- {侵略|しんりゃく}{戦争|せんそう} (war of aggression)\n- {侵略|しんりゃく}{者|しゃ} (invader, aggressor)\n- {侵略|しんりゃく}を{受|う}ける (be invaded)\n- {外国|がいこく}の{侵略|しんりゃく} (foreign invasion)",
+  "notes": "{侵略|しんりゃく} is a loaded term that implies blame and moral judgment. It is distinct from ⟦{侵攻|しんこう}→侵攻：11614_shinkou⟧ (military offensive/incursion), which is more neutral and descriptive. In Japanese historical and political discourse, the choice between these terms is often significant.\n\nCOMMON COLLOCATIONS:\n- {侵略|しんりゃく}⟦{戦争|せんそう}→戦争：01450_sensou⟧ (war of aggression)\n- {侵略|しんりゃく}{者|しゃ} (invader, aggressor)\n- {侵略|しんりゃく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (be invaded)\n- ⟦{外国|がいこく}→外国：02868_gaikoku⟧⟦の→の：09472_no⟧{侵略|しんりゃく} (foreign invasion)",
   "cross_references": [
     {
       "type": "contrast",
@@ -166,7 +166,7 @@
   ],
   "metadata": {
     "created": "2026-02-17T02:59:28Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -184,7 +184,8 @@
         "military",
         "politics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

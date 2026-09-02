@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "17575_yojiru_ex1",
-      "japanese": "{体|からだ}をよじって{逃|に}げようとした。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧よじって⟦{逃|に}げよう→逃げる：01151_nigeru⟧とした。",
       "english": "I tried to escape by twisting my body.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "17575_yojiru_ex2",
-      "japanese": "{笑|わら}いすぎてお{腹|なか}をよじった。",
+      "japanese": "⟦{笑|わら}いすぎ→笑いすぎ：08974_waraisugi⟧て⟦お{腹|なか}→お腹：00805_onaka⟧⟦を→を：00422_wo⟧よじった。",
       "english": "I laughed so hard my stomach hurt (I twisted my belly from laughing).",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "17575_yojiru_ex3",
-      "japanese": "{腕|うで}をよじられて{痛|いた}かった。",
+      "japanese": "⟦{腕|うで}→腕：01006_ude⟧⟦を→を：00422_wo⟧よじられて⟦{痛|いた}かった→痛い：01108_itai⟧。",
       "english": "My arm was twisted and it hurt.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n- {身|み}をよじる - to twist one's body (often from pain, tickling, or trying to escape)\n- {腹|はら}/お{腹|なか}をよじる - to twist one's belly (from laughing hard)\n- {腕|うで}をよじる - to twist someone's arm\n\nCONJUGATION NOTE:\nGodan verb conjugating with る. Dictionary form: よじる\n\nRELATED WORDS:\n- {捻|ひね}る - to twist, turn (more general)\n- {絞|しぼ}る - to wring, squeeze\n- よじ{登|のぼ}る - to climb (by twisting one's body)",
+  "notes": "COMMON EXPRESSIONS:\n- ⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧よじる - to twist one's body (often from pain, tickling, or trying to escape)\n- ⟦{腹|はら}→腹：02165_hara⟧/⟦お{腹|なか}→お腹：00805_onaka⟧⟦を→を：00422_wo⟧よじる - to twist one's belly (from laughing hard)\n- ⟦{腕|うで}→腕：01006_ude⟧⟦を→を：00422_wo⟧よじる - to twist someone's arm\n\nCONJUGATION NOTE:\nGodan verb conjugating with る. Dictionary form: よじる\n\nRELATED WORDS:\n- ⟦{捻|ひね}る→捻る：00102_hineru⟧ - to twist, turn (more general)\n- ⟦{絞|しぼ}る→絞る：03926_shiboru⟧ - to wring, squeeze\n- よじ{登|のぼ}る - to climb (by twisting one's body)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,7 +149,7 @@
   ],
   "metadata": {
     "created": "2026-01-22T23:40:24Z",
-    "modified": "2026-09-02T02:55:19Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +165,8 @@
       "domain": [
         "colloquial"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     }
   }
 }

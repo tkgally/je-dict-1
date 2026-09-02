@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09339_marunage_ex1",
-      "japanese": "{仕事|しごと}を{丸投|まるな}げする。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{丸投|まるな}げ⟦する→する：00392_suru⟧。",
       "english": "To dump work entirely onto someone else.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09339_marunage_ex2",
-      "japanese": "{外注|がいちゅう}{先|さき}に{丸投|まるな}げしてはいけない。",
+      "japanese": "⟦{外注|がいちゅう}→外注：12153_gaichuu⟧⟦{先|さき}→先：02883_saki⟧⟦に→に：00314_ni⟧{丸投|まるな}げ⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't just hand everything off to the outsourcing company.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09339_marunage_ex3",
-      "japanese": "{責任|せきにん}を{部下|ぶか}に{丸投|まるな}げするのは{上司|じょうし}として{失格|しっかく}だ。",
+      "japanese": "⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦に→に：00314_ni⟧{丸投|まるな}げ⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{上司|じょうし}→上司：03286_joushi⟧⟦として→として：06802_toshite⟧⟦{失格|しっかく}→失格：12195_shikkaku⟧だ。",
       "english": "A boss who dumps responsibility entirely on subordinates is unfit for the role.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,11 @@
       ]
     }
   ],
-  "notes": "{丸投|まるな}げ describes complete delegation without proper involvement.\n\nORIGIN: {丸|まる} (whole, entire) + {投|な}げる (to throw) - literally \"throwing the whole thing.\"\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}を{丸投|まるな}げする (dump work on someone)\n- {丸投|まるな}げ{体質|たいしつ} (culture of passing the buck)\n- {丸投|まるな}げ{委託|いたく} (complete outsourcing)\n\nUSAGE NOTE: Has a negative connotation, implying irresponsibility or laziness. More neutral terms like {委託|いたく} (commission) or {任|まか}せる (entrust) exist for appropriate delegation.",
+  "notes": "{丸投|まるな}げ describes complete delegation without proper involvement.\n\nORIGIN: ⟦{丸|まる}→丸：02167_maru⟧ (whole, entire) + ⟦{投|な}げる→投げる：01135_nageru⟧ (to throw) - literally \"throwing the whole thing.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{丸投|まるな}げ⟦する→する：00392_suru⟧ (dump work on someone)\n- {丸投|まるな}げ⟦{体質|たいしつ}→体質：08243_taishitsu⟧ (culture of passing the buck)\n- {丸投|まるな}げ⟦{委託|いたく}→委託：05620_itaku⟧ (complete outsourcing)\n\nUSAGE NOTE: Has a negative connotation, implying irresponsibility or laziness. More neutral terms like ⟦{委託|いたく}→委託：05620_itaku⟧ (commission) or ⟦{任|まか}せる→任せる：02417_makaseru⟧ (entrust) exist for appropriate delegation.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-01T07:48:44Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,7 +150,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

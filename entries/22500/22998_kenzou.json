@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22998_kenzou_ex1",
-      "japanese": "{新|あたら}しい{船|ふね}を{建造|けんぞう}する。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{船|ふね}→船：00775_fune⟧⟦を→を：00422_wo⟧{建造|けんぞう}⟦する→する：00392_suru⟧。",
       "english": "They are building a new ship.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22998_kenzou_ex2",
-      "japanese": "この{城|しろ}は{十七|じゅうなな}{世紀|せいき}に{建造|けんぞう}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{城|しろ}→城：03255_shiro⟧⟦は→は：00079_ha⟧⟦{十七|じゅうなな}→十七：00951_juunana⟧⟦{世紀|せいき}→世紀：03373_seiki⟧⟦に→に：00314_ni⟧{建造|けんぞう}⟦された→する：00392_suru⟧。",
       "english": "This castle was built in the seventeenth century.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22998_kenzou_ex3",
-      "japanese": "{建造|けんぞう}に{十年|じゅうねん}もかかった{大聖堂|だいせいどう}が、ついに{完成|かんせい}した。",
+      "japanese": "{建造|けんぞう}⟦に→に：00314_ni⟧{十年|じゅうねん}⟦も→も：00484_mo⟧⟦かかった→かかる：00711_kakaru⟧⟦{大聖堂|だいせいどう}→大聖堂：20731_daiseidou⟧⟦が→が：00051_ga⟧、ついに⟦{完成|かんせい}した→完成する：25528_kanseisuru⟧。",
       "english": "The cathedral, which took ten years to build, was finally completed.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Used specifically for large, significant construction projects. Most commonly associated with shipbuilding, but also used for castles, bridges, temples, and other monumental structures.\n\nCOMMON COLLOCATIONS:\n- {船|ふね}を{建造|けんぞう}する: to build a ship\n- {建造|けんぞう}{物|ぶつ}: a structure; a building\n- {建造|けんぞう}{費|ひ}: construction cost\n- {建造|けんぞう}{中|ちゅう}: under construction\n\nSIMILAR WORDS:\n- {建設|けんせつ}する: to construct — the most general word for construction; used for buildings, roads, dams, and infrastructure\n- {建築|けんちく}する: to build (architecture) — focuses on architectural construction of buildings specifically\n- {造船|ぞうせん}: shipbuilding — specifically and only for ships\n\nUSAGE:\nWhile {建設|けんせつ} is the general-purpose word for construction, {建造|けんぞう} carries a sense of grandeur and is the standard term in shipbuilding contexts.",
+  "notes": "Used specifically for large, significant construction projects. Most commonly associated with shipbuilding, but also used for castles, bridges, temples, and other monumental structures.\n\nCOMMON COLLOCATIONS:\n- ⟦{船|ふね}→船：00775_fune⟧⟦を→を：00422_wo⟧{建造|けんぞう}⟦する→する：00392_suru⟧: to build a ship\n- {建造|けんぞう}{物|ぶつ}: a structure; a building\n- {建造|けんぞう}⟦{費|ひ}→費：09877_hi⟧: construction cost\n- {建造|けんぞう}⟦{中|ちゅう}→〜中：09840_chuu⟧: under construction\n\nSIMILAR WORDS:\n- ⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦する→する：00392_suru⟧: to construct — the most general word for construction; used for buildings, roads, dams, and infrastructure\n- ⟦{建築|けんちく}→建築：02709_kenchiku⟧⟦する→する：00392_suru⟧: to build (architecture) — focuses on architectural construction of buildings specifically\n- ⟦{造船|ぞうせん}→造船：04484_zousen⟧: shipbuilding — specifically and only for ships\n\nUSAGE:\nWhile ⟦{建設|けんせつ}→建設：02708_kensetsu⟧ is the general-purpose word for construction, {建造|けんぞう} carries a sense of grandeur and is the standard term in shipbuilding contexts.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,10 +88,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T15:35:10Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

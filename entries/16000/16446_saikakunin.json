@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16446_saikakunin_ex1",
-      "japanese": "{予約|よやく}の{再確認|さいかくにん}をする。",
+      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦の→の：09472_no⟧{再確認|さいかくにん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To reconfirm a reservation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16446_saikakunin_ex2",
-      "japanese": "{出発|しゅっぱつ}{前|まえ}に{持|も}ち{物|もの}を{再確認|さいかくにん}した。",
+      "japanese": "⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{持|も}ち{物|もの}→持ち物：03165_mochimono⟧⟦を→を：00422_wo⟧{再確認|さいかくにん}⟦した→する：00392_suru⟧。",
       "english": "I double-checked my belongings before departure.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16446_saikakunin_ex3",
-      "japanese": "{安全|あんぜん}{対策|たいさく}の{重要性|じゅうようせい}を{改|あらた}めて{再確認|さいかくにん}する{必要|ひつよう}がある。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦の→の：09472_no⟧⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦を→を：00422_wo⟧{改|あらた}めて{再確認|さいかくにん}⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to reconfirm the importance of safety measures once more.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Compound noun: {再|さい} (again) + {確認|かくにん} (confirmation). Used when verifying something a second time because accuracy or safety matters.\n\nCOMMON COLLOCATIONS:\n- {再確認|さいかくにん}する: to reconfirm, to double-check\n- {予約|よやく}の{再確認|さいかくにん}: reconfirmation of a reservation\n- {事実|じじつ}を{再確認|さいかくにん}する: to reconfirm the facts\n- {安全|あんぜん}を{再確認|さいかくにん}する: to double-check safety\n\nUSAGE:\nOften used in business, travel, and safety contexts where errors could cause problems. Unlike simple {確認|かくにん}, {再確認|さいかくにん} implies that the information was checked before and is being verified again for certainty.",
+  "notes": "Compound noun: ⟦{再|さい}→再〜：03953_sai⟧ (again) + ⟦{確認|かくにん}→確認：00158_kakunin⟧ (confirmation). Used when verifying something a second time because accuracy or safety matters.\n\nCOMMON COLLOCATIONS:\n- {再確認|さいかくにん}⟦する→する：00392_suru⟧: to reconfirm, to double-check\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦の→の：09472_no⟧{再確認|さいかくにん}: reconfirmation of a reservation\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{再確認|さいかくにん}⟦する→する：00392_suru⟧: to reconfirm the facts\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧{再確認|さいかくにん}⟦する→する：00392_suru⟧: to double-check safety\n\nUSAGE:\nOften used in business, travel, and safety contexts where errors could cause problems. Unlike simple ⟦{確認|かくにん}→確認：00158_kakunin⟧, {再確認|さいかくにん} implies that the information was checked before and is being verified again for certainty.",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-12T23:50:48Z",
-    "modified": "2026-05-03T10:12:13Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

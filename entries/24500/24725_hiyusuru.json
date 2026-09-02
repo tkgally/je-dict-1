@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24725_hiyusuru_ex1",
-      "japanese": "{人生|じんせい}を{旅|たび}に{比喩|ひゆ}する。",
+      "japanese": "⟦{人生|じんせい}→人生：03355_jinsei⟧⟦を→を：00422_wo⟧⟦{旅|たび}→旅：03407_tabi⟧⟦に→に：00314_ni⟧{比喩|ひゆ}する。",
       "english": "To liken life to a journey.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24725_hiyusuru_ex2",
-      "japanese": "{彼|かれ}は{社会|しゃかい}を{機械|きかい}に{比喩|ひゆ}して{説明|せつめい}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦を→を：00422_wo⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦に→に：00314_ni⟧{比喩|ひゆ}して⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "He explained society by likening it to a machine.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24725_hiyusuru_ex3",
-      "japanese": "{時間|じかん}の{流|なが}れを{川|かわ}の{流|なが}れに{比喩|ひゆ}するのは、{古|ふる}くからある{表現|ひょうげん}だ。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧⟦{流|なが}れ→流れ：03504_nagare⟧⟦を→を：00422_wo⟧⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧⟦{流|なが}れ→流れ：03504_nagare⟧⟦に→に：00314_ni⟧{比喩|ひゆ}する⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、⟦{古|ふる}く→古い：00488_furui⟧⟦から→から：00504_kara⟧⟦ある→ある：00006_aru⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧だ。",
       "english": "Comparing the passage of time to the flow of a river is an expression that has existed since ancient times.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The verb form of the noun {比喩|ひゆ} (metaphor, simile, figure of speech). The pattern is typically AをBに{比喩|ひゆ}する (to liken A to B). More formal and literary than {例|たと}える.\n\nCOMMON COLLOCATIONS:\n- AをBに{比喩|ひゆ}する: to liken A to B\n- {比喩|ひゆ}して{言|い}えば: speaking metaphorically\n- {比喩|ひゆ}される: to be compared to (passive)\n\nSIMILAR WORDS:\n- {例|たと}える: to compare, to liken — more common in everyday speech\n- {喩|たと}える: variant kanji of the above, literary\n- なぞらえる: to compare, to liken — literary, often implies modeling after something",
+  "notes": "The verb form of the noun ⟦{比喩|ひゆ}→比喩：13204_hiyu⟧ (metaphor, simile, figure of speech). The pattern is typically A⟦を→を：00422_wo⟧B⟦に→に：00314_ni⟧{比喩|ひゆ}する (to liken A to B). More formal and literary than ⟦{例|たと}える→例える：10365_tatoeru⟧.\n\nCOMMON COLLOCATIONS:\n- A⟦を→を：00422_wo⟧B⟦に→に：00314_ni⟧{比喩|ひゆ}する: to liken A to B\n- {比喩|ひゆ}して⟦{言|い}えば→言う：00515_iu⟧: speaking metaphorically\n- {比喩|ひゆ}される: to be compared to (passive)\n\nSIMILAR WORDS:\n- ⟦{例|たと}える→例える：10365_tatoeru⟧: to compare, to liken — more common in everyday speech\n- {喩|たと}える: variant kanji of the above, literary\n- ⟦なぞらえる→なぞらえる：10610_nazoraeru⟧: to compare, to liken — literary, often implies modeling after something",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -77,10 +77,11 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-20T13:12:53Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

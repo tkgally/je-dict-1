@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18649_sairiyou_ex1",
-      "japanese": "ペットボトルを{再利用|さいりよう}する。",
+      "japanese": "⟦ペットボトル→ペットボトル：05605_pettobotoru⟧⟦を→を：00422_wo⟧{再利用|さいりよう}⟦する→する：00392_suru⟧。",
       "english": "To reuse plastic bottles.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18649_sairiyou_ex2",
-      "japanese": "{古|ふる}い{家具|かぐ}を{再利用|さいりよう}してリメイクした。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{家具|かぐ}→家具：12314_kagu⟧⟦を→を：00422_wo⟧{再利用|さいりよう}⟦して→する：00392_suru⟧リメイク⟦した→する：00392_suru⟧。",
       "english": "I remade old furniture by repurposing it.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18649_sairiyou_ex3",
-      "japanese": "{資源|しげん}の{再利用|さいりよう}は{環境|かんきょう}{保護|ほご}の{観点|かんてん}から{重要|じゅうよう}だ。",
+      "japanese": "⟦{資源|しげん}→資源：03167_shigen⟧⟦の→の：09472_no⟧{再利用|さいりよう}⟦は→は：00079_ha⟧⟦{環境|かんきょう}{保護|ほご}→環境保護：15308_kankyouhogo⟧⟦の→の：09472_no⟧⟦{観点|かんてん}→観点：05582_kanten⟧⟦から→から：00504_kara⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Reuse of resources is important from an environmental protection perspective.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPart of the 3R concept commonly promoted in Japan: リデュース (reduce), リユース (reuse), リサイクル (recycle). {再利用|さいりよう} is the Japanese equivalent of reuse. Distinct from リサイクル, which involves processing materials into new products.\n\nCOMMON COLLOCATIONS:\n- {再利用|さいりよう}する (to reuse)\n- {再利用|さいりよう}{可能|かのう} (reusable)\n- {資源|しげん}の{再利用|さいりよう} (resource reuse)\n- {再利用|さいりよう}を{促進|そくしん}する (to promote reuse)",
+  "notes": "USAGE:\nPart of the 3R concept commonly promoted in Japan: ⟦リデュース→リデュース：26364_ridyuusu⟧ (reduce), ⟦リユース→リユース：25681_riyuusu⟧ (reuse), ⟦リサイクル→リサイクル：04624_risaikuru⟧ (recycle). {再利用|さいりよう} is the Japanese equivalent of reuse. Distinct from ⟦リサイクル→リサイクル：04624_risaikuru⟧, which involves processing materials into new products.\n\nCOMMON COLLOCATIONS:\n- {再利用|さいりよう}⟦する→する：00392_suru⟧ (to reuse)\n- {再利用|さいりよう}⟦{可能|かのう}→可能：00175_kanou⟧ (reusable)\n- ⟦{資源|しげん}→資源：03167_shigen⟧⟦の→の：09472_no⟧{再利用|さいりよう} (resource reuse)\n- {再利用|さいりよう}⟦を→を：00422_wo⟧⟦{促進|そくしん}する→促進する：19632_sokushinsuru⟧ (to promote reuse)",
   "cross_references": [
     {
       "type": "related",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -174,7 +174,8 @@
         "nature",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

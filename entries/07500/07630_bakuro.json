@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07630_bakuro_ex1",
-      "japanese": "{秘密|ひみつ}を{暴露|ばくろ}する。",
+      "japanese": "⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧{暴露|ばくろ}⟦する→する：00392_suru⟧。",
       "english": "To expose a secret.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07630_bakuro_ex2",
-      "japanese": "{内部|ないぶ}{告発|こくはつ}{者|しゃ}が{不正|ふせい}を{暴露|ばくろ}した。",
+      "japanese": "⟦{内部|ないぶ}{告発|こくはつ}→内部告発：24691_naibukokuhatsu⟧⟦{者|しゃ}→〜者：04662_sha⟧⟦が→が：00051_ga⟧⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧{暴露|ばくろ}⟦した→する：00392_suru⟧。",
       "english": "A whistleblower exposed the misconduct.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07630_bakuro_ex3",
-      "japanese": "{暴露|ばくろ}{本|ぼん}がベストセラーになった。",
+      "japanese": "{暴露|ばくろ}{本|ぼん}⟦が→が：00051_ga⟧⟦ベストセラー→ベストセラー：11289_besutoseraa⟧になった。",
       "english": "The tell-all book became a bestseller.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {秘密|ひみつ}を{暴露|ばくろ}する - to expose a secret\n- {真実|しんじつ}を{暴露|ばくろ}する - to reveal the truth\n- {暴露|ばくろ}{本|ぼん} - tell-all book, exposé\n- {暴露|ばくろ}{記事|きじ} - exposé article\n\nUSAGE:\nOften implies sensational or scandalous revelation. Used frequently in media and tabloid contexts.\n\nRELATED WORDS:\n- {発覚|はっかく} - coming to light (passive discovery)\n- {隠蔽|いんぺい} - concealment (opposite action)\n- {告発|こくはつ} - accusation, disclosure (formal/legal)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧{暴露|ばくろ}⟦する→する：00392_suru⟧ - to expose a secret\n- ⟦{真実|しんじつ}→真実：05316_shinjitsu⟧⟦を→を：00422_wo⟧{暴露|ばくろ}⟦する→する：00392_suru⟧ - to reveal the truth\n- {暴露|ばくろ}{本|ぼん} - tell-all book, exposé\n- {暴露|ばくろ}⟦{記事|きじ}→記事：00227_kiji⟧ - exposé article\n\nUSAGE:\nOften implies sensational or scandalous revelation. Used frequently in media and tabloid contexts.\n\nRELATED WORDS:\n- ⟦{発覚|はっかく}→発覚：07629_hakkaku⟧ - coming to light (passive discovery)\n- ⟦{隠蔽|いんぺい}→隠蔽：07627_inpei⟧ - concealment (opposite action)\n- ⟦{告発|こくはつ}→告発：07999_kokuhatsu⟧ - accusation, disclosure (formal/legal)",
   "cross_references": [
     {
       "type": "antonym",
@@ -177,7 +177,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -191,7 +191,8 @@
         "communication"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27114_hanayagu_ex1",
-      "japanese": "{会場|かいじょう}が{華|はな}やいだ。",
+      "japanese": "⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦が→が：00051_ga⟧{華|はな}やいだ。",
       "english": "The venue became lively and festive.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27114_hanayagu_ex2",
-      "japanese": "{春|はる}になると{街|まち}が{華|はな}やぐ。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{街|まち}→街：17306_machi⟧⟦が→が：00051_ga⟧{華|はな}やぐ。",
       "english": "The town brightens up when spring comes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27114_hanayagu_ex3",
-      "japanese": "{彼女|かのじょ}がいるだけで{場|ば}の{雰囲気|ふんいき}が{華|はな}やぐ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{場|ば}→場：03699_ba⟧⟦の→の：09472_no⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧{華|はな}やぐ。",
       "english": "Just having her there makes the atmosphere brighter and more glamorous.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "27114_hanayagu_ex4",
-      "japanese": "{花|はな}を{飾|かざ}ると{部屋|へや}が{華|はな}やいだ{感|かん}じになる。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧⟦と→と：00512_to⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦が→が：00051_ga⟧{華|はな}やいだ⟦{感|かん}じ→感じ：02555_kanji⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Decorating with flowers gives the room a brighter, more elegant feel.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "An intransitive godan verb meaning to become bright, glamorous, or festive. Often used to describe how a place, event, or atmosphere gains vibrancy and elegance. The past participle {華|はな}やいだ is frequently used as a modifier meaning \"vibrant\" or \"gorgeous.\"\n\nCOMMON COLLOCATIONS:\n- {場|ば}が{華|はな}やぐ: the atmosphere brightens up\n- {華|はな}やいだ{雰囲気|ふんいき}: a vibrant atmosphere\n- {華|はな}やいだ{笑顔|えがお}: a radiant smile\n- {華|はな}やいだ{気分|きぶん}: a festive mood\n\nRELATED WORDS:\n- {華|はな}やか: gorgeous, glamorous — the adjective form describing the same quality\n- {賑|にぎ}わう: to be lively/bustling — emphasizes crowds and activity rather than elegance",
+  "notes": "An intransitive godan verb meaning to become bright, glamorous, or festive. Often used to describe how a place, event, or atmosphere gains vibrancy and elegance. The past participle {華|はな}やいだ is frequently used as a modifier meaning \"vibrant\" or \"gorgeous.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{場|ば}→場：03699_ba⟧⟦が→が：00051_ga⟧{華|はな}やぐ: the atmosphere brightens up\n- {華|はな}やいだ⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: a vibrant atmosphere\n- {華|はな}やいだ⟦{笑顔|えがお}→笑顔：01884_egao⟧: a radiant smile\n- {華|はな}やいだ⟦{気分|きぶん}→気分：01306_kibun⟧: a festive mood\n\nRELATED WORDS:\n- ⟦{華|はな}やか→華やか：06070_hanayaka⟧: gorgeous, glamorous — the adjective form describing the same quality\n- ⟦{賑|にぎ}わう→賑わう：14235_nigiwau⟧: to be lively/bustling — emphasizes crowds and activity rather than elegance",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -84,10 +84,11 @@
         "appearance",
         "emotion"
       ],
-      "verb_class": "godan-gu"
+      "verb_class": "godan-gu",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-07T12:11:30Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "godan",

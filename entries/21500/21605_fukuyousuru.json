@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21605_fukuyousuru_ex1",
-      "japanese": "{薬|くすり}を{服用|ふくよう}する。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{服用|ふくよう}する。",
       "english": "To take medicine.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21605_fukuyousuru_ex2",
-      "japanese": "{食後|しょくご}に{一錠|いちじょう}{服用|ふくよう}してください。",
+      "japanese": "⟦{食後|しょくご}→食後：09499_shokugo⟧⟦に→に：00314_ni⟧{一錠|いちじょう}{服用|ふくよう}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take one tablet after meals.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21605_fukuyousuru_ex3",
-      "japanese": "この{薬|くすり}は{長期|ちょうき}{服用|ふくよう}すると{副作用|ふくさよう}が{出|で}ることがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧⟦{長期|ちょうき}→長期：03487_chouki⟧{服用|ふくよう}する⟦と→と：00512_to⟧⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Long-term use of this medicine can cause side effects.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal, medical term for taking medication orally. Found on medicine packaging, in doctor's instructions, and in pharmaceutical literature.\n\nCOMMON COLLOCATIONS:\n- {服用|ふくよう}{量|りょう}: dosage\n- {服用|ふくよう}{方法|ほうほう}: how to take (the medicine)\n- {服用|ふくよう}{期間|きかん}: period of administration\n- {長期|ちょうき}{服用|ふくよう}: long-term use\n- {食前|しょくぜん}/{食後|しょくご}に{服用|ふくよう}: take before/after meals\n\nSIMILAR WORDS:\n- {飲|の}む: to drink/take (medicine) — everyday, conversational\n- {投与|とうよ}する: to administer (medicine) — from the doctor/nurse's perspective\n- {摂取|せっしゅ}する: to ingest — broader, includes food and nutrients\n\nREGISTER:\nMore formal than {飲|の}む. In daily conversation, people say {薬|くすり}を{飲|の}む rather than {服用|ふくよう}する. {服用|ふくよう} appears on prescription labels, medicine inserts, and in medical instructions.",
+  "notes": "A formal, medical term for taking medication orally. Found on medicine packaging, in doctor's instructions, and in pharmaceutical literature.\n\nCOMMON COLLOCATIONS:\n- ⟦{服用|ふくよう}{量|りょう}→服用量：25128_fukuyouryou⟧: dosage\n- ⟦{服用|ふくよう}→服用：15267_fukuyou⟧⟦{方法|ほうほう}→方法：03621_houhou⟧: how to take (the medicine)\n- ⟦{服用|ふくよう}→服用：15267_fukuyou⟧⟦{期間|きかん}→期間：00229_kikan⟧: period of administration\n- ⟦{長期|ちょうき}→長期：03487_chouki⟧⟦{服用|ふくよう}→服用：15267_fukuyou⟧: long-term use\n- ⟦{食前|しょくぜん}→食前：20726_shokuzen⟧/⟦{食後|しょくご}→食後：09499_shokugo⟧⟦に→に：00314_ni⟧⟦{服用|ふくよう}→服用：15267_fukuyou⟧: take before/after meals\n\nSIMILAR WORDS:\n- ⟦{飲|の}む→飲む：00322_nomu⟧: to drink/take (medicine) — everyday, conversational\n- ⟦{投与|とうよ}→投与：12894_touyo⟧⟦する→する：00392_suru⟧: to administer (medicine) — from the doctor/nurse's perspective\n- ⟦{摂取|せっしゅ}→摂取：09322_sesshu⟧⟦する→する：00392_suru⟧: to ingest — broader, includes food and nutrients\n\nREGISTER:\nMore formal than ⟦{飲|の}む→飲む：00322_nomu⟧. In daily conversation, people say ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧ rather than {服用|ふくよう}する. ⟦{服用|ふくよう}→服用：15267_fukuyou⟧ appears on prescription labels, medicine inserts, and in medical instructions.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T18:11:30Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

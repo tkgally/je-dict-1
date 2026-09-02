@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16374_kujo_ex1",
-      "japanese": "ゴキブリを{駆除|くじょ}する。",
+      "japanese": "⟦ゴキブリ→ゴキブリ：05131_gokiburi⟧⟦を→を：00422_wo⟧{駆除|くじょ}⟦する→する：00392_suru⟧。",
       "english": "To exterminate cockroaches.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16374_kujo_ex2",
-      "japanese": "{害虫|がいちゅう}{駆除|くじょ}の{業者|ぎょうしゃ}に{依頼|いらい}した。",
+      "japanese": "⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧{駆除|くじょ}⟦の→の：09472_no⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦に→に：00314_ni⟧⟦{依頼|いらい}した→依頼する：21376_irai⟧。",
       "english": "I hired a pest control company.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16374_kujo_ex3",
-      "japanese": "この{地域|ちいき}では{外来種|がいらいしゅ}の{駆除|くじょ}が{大|おお}きな{課題|かだい}になっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{外来種|がいらいしゅ}→外来種：23243_gairaishu⟧⟦の→の：09472_no⟧{駆除|くじょ}⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{課題|かだい}→課題：00132_kadai⟧になっている。",
       "english": "In this region, eradicating invasive species has become a major challenge.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{駆除|くじょ} is used both as a noun and with する to form a verb. It applies primarily to pests and unwanted organisms, not to people or abstract concepts.\n\nCOMMON COLLOCATIONS:\n- {害虫|がいちゅう}{駆除|くじょ} (pest extermination)\n- ネズミの{駆除|くじょ} (rat extermination)\n- {駆除|くじょ}{業者|ぎょうしゃ} (extermination company)\n- {外来種|がいらいしゅ}を{駆除|くじょ}する (to eradicate invasive species)\n- {駆除|くじょ}{作業|さぎょう} (extermination work)\n\nSIMILAR WORDS:\n{退治|たいじ} also means to exterminate or get rid of pests, but has a broader, sometimes more dramatic connotation (e.g., {鬼退治|おにたいじ}, slaying demons). {駆除|くじょ} is more technical and practical.",
+  "notes": "USAGE:\n{駆除|くじょ} is used both as a noun and with ⟦する→する：00392_suru⟧ to form a verb. It applies primarily to pests and unwanted organisms, not to people or abstract concepts.\n\nCOMMON COLLOCATIONS:\n- ⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧{駆除|くじょ} (pest extermination)\n- ネズミ⟦の→の：09472_no⟧{駆除|くじょ} (rat extermination)\n- {駆除|くじょ}⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧ (extermination company)\n- ⟦{外来種|がいらいしゅ}→外来種：23243_gairaishu⟧⟦を→を：00422_wo⟧{駆除|くじょ}⟦する→する：00392_suru⟧ (to eradicate invasive species)\n- {駆除|くじょ}⟦{作業|さぎょう}→作業：02775_sagyou⟧ (extermination work)\n\nSIMILAR WORDS:\n⟦{退治|たいじ}→退治：14314_taiji⟧ also means to exterminate or get rid of pests, but has a broader, sometimes more dramatic connotation (e.g., {鬼退治|おにたいじ}, slaying demons). {駆除|くじょ} is more technical and practical.",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-12T05:09:58Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22653_sendou_ex1",
-      "japanese": "パレードを{先導|せんどう}する。",
+      "japanese": "⟦パレード→パレード：11293_pareedo⟧⟦を→を：00422_wo⟧{先導|せんどう}⟦する→する：00392_suru⟧。",
       "english": "To lead a parade.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22653_sendou_ex2",
-      "japanese": "{警察|けいさつ}の{車両|しゃりょう}が{先導|せんどう}して{進|すす}んだ。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦の→の：09472_no⟧⟦{車両|しゃりょう}→車両：05297_sharyou⟧⟦が→が：00051_ga⟧{先導|せんどう}⟦して→する：00392_suru⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "A police vehicle led the way.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22653_sendou_ex3",
-      "japanese": "{彼女|かのじょ}はプロジェクトの{先導|せんどう}{役|やく}を{務|つと}め、チーム{全体|ぜんたい}をまとめた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧{先導|せんどう}⟦{役|やく}→役：12557_yaku⟧⟦を→を：00422_wo⟧⟦{務|つと}め→務める：10446_tsutomeru⟧、⟦チーム→チーム：03858_chiimu⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦を→を：00422_wo⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "She served as the project leader and brought the whole team together.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {先|せん} (ahead/first) and {導|どう} (guide/lead). Implies physically or figuratively going ahead to show the way for others to follow.\n\nCOMMON COLLOCATIONS:\n- {先導|せんどう}する: to lead, to guide\n- {先導|せんどう}{役|やく}: leader, guide (role)\n- {先導|せんどう}{車|しゃ}: lead vehicle, escort car\n- {先導|せんどう}のもとに: under the guidance of\n\nSIMILAR WORDS:\n- {案内|あんない}: guidance — more everyday; implies showing around or giving directions\n- {指導|しどう}: instruction, coaching — implies teaching or supervising rather than going ahead\n- {誘導|ゆうどう}: guidance, leading — implies directing or channeling movement, often in a controlled manner\n- {船頭|せんどう}: boatman — a homophone with an unrelated meaning",
+  "notes": "A compound of {先|せん} (ahead/first) and {導|どう} (guide/lead). Implies physically or figuratively going ahead to show the way for others to follow.\n\nCOMMON COLLOCATIONS:\n- {先導|せんどう}⟦する→する：00392_suru⟧: to lead, to guide\n- {先導|せんどう}⟦{役|やく}→役：12557_yaku⟧: leader, guide (role)\n- {先導|せんどう}⟦{車|しゃ}→車：09874_sha⟧: lead vehicle, escort car\n- {先導|せんどう}⟦の→の：09472_no⟧もと⟦に→に：00314_ni⟧: under the guidance of\n\nSIMILAR WORDS:\n- ⟦{案内|あんない}→案内：01291_annai⟧: guidance — more everyday; implies showing around or giving directions\n- ⟦{指導|しどう}→指導：03190_shidou⟧: instruction, coaching — implies teaching or supervising rather than going ahead\n- ⟦{誘導|ゆうどう}→誘導：16951_yuudou⟧: guidance, leading — implies directing or channeling movement, often in a controlled manner\n- ⟦{船頭|せんどう}→船頭：13986_sendou⟧: boatman — a homophone with an unrelated meaning",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,10 +89,11 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T21:24:48Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22228_nesagari_ex1",
-      "japanese": "{株|かぶ}が{値下|ねさ}がりした。",
+      "japanese": "⟦{株|かぶ}→株：02592_kabu⟧⟦が→が：00051_ga⟧{値下|ねさ}がり⟦した→する：00392_suru⟧。",
       "english": "The stocks dropped in price.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22228_nesagari_ex2",
-      "japanese": "{野菜|やさい}の{値下|ねさ}がりが{続|つづ}いている。",
+      "japanese": "⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧{値下|ねさ}がり⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The drop in vegetable prices is continuing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22228_nesagari_ex3",
-      "japanese": "{円安|えんやす}の{影響|えいきょう}で{輸入品|ゆにゅうひん}の{値下|ねさ}がりは{期待|きたい}できない。",
+      "japanese": "⟦{円安|えんやす}→円安：04854_enyasu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{輸入品|ゆにゅうひん}→輸入品：11505_yunyuuhin⟧⟦の→の：09472_no⟧{値下|ねさ}がり⟦は→は：00079_ha⟧⟦{期待|きたい}できない→期待する：06065_kitaisuru⟧。",
       "english": "Due to the weak yen, we can't expect a drop in import prices.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22228_nesagari_ex4",
-      "japanese": "{不動産|ふどうさん}の{値下|ねさ}がりを{待|ま}ってから{家|いえ}を{買|か}おうと{思|おも}っている。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦の→の：09472_no⟧{値下|ねさ}がり⟦を→を：00422_wo⟧⟦{待|ま}って→待つ：00469_matsu⟧⟦から→から：00504_kara⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{買|か}おう→買う：00489_kau⟧⟦と→と：00512_to⟧⟦{思|おも}っている→思う：00492_omou⟧。",
       "english": "I'm thinking of waiting for real estate prices to drop before buying a house.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {値|ね} (price) and {下|さ}がり (drop). Used as both a noun and a verb with する ({値下|ねさ}がりする). Very common in economic and everyday commercial contexts.\n\nCOMMON COLLOCATIONS:\n- {値下|ねさ}がりする: to drop in price\n- {大幅|おおはば}な{値下|ねさ}がり: a significant price drop\n- {値下|ねさ}がりが{続|つづ}く: price drops continue\n- {値下|ねさ}がりを{待|ま}つ: to wait for prices to drop\n\nSIMILAR WORDS:\n- {値上|ねあ}がり: price increase — the opposite\n- {値下|ねさ}げ: price reduction — an intentional reduction by a seller, whereas {値下|ねさ}がり is a natural market decline\n- {下落|げらく}: decline; fall — more formal, used in financial and economic writing\n- {暴落|ぼうらく}: crash; plunge — a sudden, dramatic drop",
+  "notes": "Compound of ⟦{値|ね}→値：03527_ne⟧ (price) and {下|さ}がり (drop). Used as both a noun and a verb with ⟦する→する：00392_suru⟧ ({値下|ねさ}がり⟦する→する：00392_suru⟧). Very common in economic and everyday commercial contexts.\n\nCOMMON COLLOCATIONS:\n- {値下|ねさ}がり⟦する→する：00392_suru⟧: to drop in price\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{値下|ねさ}がり: a significant price drop\n- {値下|ねさ}がり⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: price drops continue\n- {値下|ねさ}がり⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧: to wait for prices to drop\n\nSIMILAR WORDS:\n- ⟦{値上|ねあ}がり→値上がり：11538_neagari⟧: price increase — the opposite\n- ⟦{値下|ねさ}げ→値下げ：07583_nesage⟧: price reduction — an intentional reduction by a seller, whereas {値下|ねさ}がり is a natural market decline\n- ⟦{下落|げらく}→下落：11321_geraku⟧: decline; fall — more formal, used in financial and economic writing\n- ⟦{暴落|ぼうらく}→暴落：09401_bouraku⟧: crash; plunge — a sudden, dramatic drop",
   "cross_references": [
     {
       "type": "antonym",
@@ -99,10 +99,11 @@
         "economics",
         "commerce"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24720_geisha_ex1",
-      "japanese": "あのタクシーは{迎車|げいしゃ}だから{止|と}められない。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦タクシー→タクシー：00816_takushii⟧⟦は→は：00079_ha⟧{迎車|げいしゃ}だ⟦から→から：00504_kara⟧⟦{止|と}められない→止める：00678_tomeru⟧。",
       "english": "That taxi is on a pickup call, so we can't flag it down.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24720_geisha_ex2",
-      "japanese": "{迎車|げいしゃ}{料金|りょうきん}は{会社|かいしゃ}によって{異|こと}なる。",
+      "japanese": "{迎車|げいしゃ}⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦によって→によって：06801_niyotte⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "The dispatch fee varies by taxi company.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24720_geisha_ex3",
-      "japanese": "アプリでタクシーを{呼|よ}んだら、すぐに{迎車|げいしゃ}の{表示|ひょうじ}が{出|で}て{安心|あんしん}した。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦で→で：00502_de⟧⟦タクシー→タクシー：00816_takushii⟧⟦を→を：00422_wo⟧⟦{呼|よ}んだら→呼ぶ：00766_yobu⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{迎車|げいしゃ}⟦の→の：09472_no⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧⟦{安心|あんしん}した→安心する：06067_anshinsuru⟧。",
       "english": "When I called a taxi through the app, the dispatched status immediately appeared and I felt relieved.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {迎|むか}える (to meet/pick up) + {車|しゃ} (vehicle). A taxi-industry term commonly seen on taxi roof signs and meter displays in Japan. When a taxi shows {迎車|げいしゃ}, it means someone has already called it and it cannot accept other passengers.\n\nCOMMON COLLOCATIONS:\n- {迎車|げいしゃ}{料金|りょうきん}: dispatch fee (typically 300-500 yen)\n- {迎車|げいしゃ}{表示|ひょうじ}: dispatched display (on the meter)\n- {迎車|げいしゃ}で{来|く}る: to come as a dispatched taxi\n\nUSAGE:\nNot to be confused with the homophone {芸者|げいしゃ} (geisha, traditional entertainer). The kanji make the meaning clear in writing, but in speech context is needed to distinguish them.",
+  "notes": "Composed of ⟦{迎|むか}える→迎える：01193_mukaeru⟧ (to meet/pick up) + ⟦{車|しゃ}→車：09874_sha⟧ (vehicle). A taxi-industry term commonly seen on taxi roof signs and meter displays in Japan. When a taxi shows {迎車|げいしゃ}, it means someone has already called it and it cannot accept other passengers.\n\nCOMMON COLLOCATIONS:\n- {迎車|げいしゃ}⟦{料金|りょうきん}→料金：03797_ryoukin⟧: dispatch fee (typically 300-500 yen)\n- {迎車|げいしゃ}⟦{表示|ひょうじ}→表示：03143_hyouji⟧: dispatched display (on the meter)\n- {迎車|げいしゃ}⟦で→で：00502_de⟧⟦{来|く}る→来る：00254_kuru⟧: to come as a dispatched taxi\n\nUSAGE:\nNot to be confused with the homophone ⟦{芸者|げいしゃ}→芸者：14149_geisha⟧ (geisha, traditional entertainer). The kanji make the meaning clear in writing, but in speech context is needed to distinguish them.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +63,6 @@
       ]
     },
     "created": "2026-04-20T13:11:03Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

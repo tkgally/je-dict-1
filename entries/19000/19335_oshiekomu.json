@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19335_oshiekomu_ex1",
-      "japanese": "{子供|こども}にマナーを{教|おし}え{込|こ}む。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦マナー→マナー：11139_manaa⟧⟦を→を：00422_wo⟧{教|おし}え{込|こ}む。",
       "english": "To instill manners in a child.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19335_oshiekomu_ex2",
-      "japanese": "{基本|きほん}を{徹底的|てっていてき}に{教|おし}え{込|こ}まれた。",
+      "japanese": "⟦{基本|きほん}→基本：00226_kihon⟧⟦を→を：00422_wo⟧⟦{徹底的|てっていてき}→徹底的：06827_tetteiteki⟧⟦に→に：00314_ni⟧{教|おし}え{込|こ}まれた。",
       "english": "The basics were thoroughly drilled into me.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19335_oshiekomu_ex3",
-      "japanese": "{祖母|そぼ}に{小|ちい}さい{頃|ころ}から「{感謝|かんしゃ}の{気持|きも}ちを{忘|わす}れるな」と{教|おし}え{込|こ}まれた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦に→に：00314_ni⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧{頃|ころ}⟦から→から：00504_kara⟧「⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦の→の：09472_no⟧{気持|きも}ち⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧な」⟦と→と：00512_to⟧{教|おし}え{込|こ}まれた。",
       "english": "My grandmother drilled into me from a young age to never forget to be grateful.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb: {教|おし}える (to teach) + {込|こ}む (into, thoroughly). The ～{込|こ}む suffix conveys the idea of something being driven in deeply through repetition.\n\nCOMMON COLLOCATIONS:\n- マナーを{教|おし}え{込|こ}む — to instill manners\n- {基本|きほん}を{教|おし}え{込|こ}む — to drill in the basics\n- {小|ちい}さい{頃|ころ}から{教|おし}え{込|こ}まれる — to have something drilled in from childhood\n\nUSAGE:\nOften used in the passive ({教|おし}え{込|こ}まれる) to describe values or skills that were instilled by parents, teachers, or mentors. Can have a slightly forceful nuance — the teaching is persistent and thorough, not casual.\n\nSIMILAR WORDS:\n- {教|おし}える — to teach (neutral; {教|おし}え{込|こ}む implies repeated, thorough instruction)\n- {叩|たた}き{込|こ}む — to hammer in, to beat into (stronger, more physical nuance)\n- {仕込|しこ}む — to train, to coach (often used for apprentices or animals)",
+  "notes": "A compound verb: ⟦{教|おし}える→教える：00526_oshieru⟧ (to teach) + ⟦{込|こ}む→込む：00719_komu⟧ (into, thoroughly). The ～⟦{込|こ}む→込む：00719_komu⟧ suffix conveys the idea of something being driven in deeply through repetition.\n\nCOMMON COLLOCATIONS:\n- ⟦マナー→マナー：11139_manaa⟧⟦を→を：00422_wo⟧{教|おし}え{込|こ}む — to instill manners\n- ⟦{基本|きほん}→基本：00226_kihon⟧⟦を→を：00422_wo⟧{教|おし}え{込|こ}む — to drill in the basics\n- ⟦{小|ちい}さい→小さい：00025_chiisai⟧{頃|ころ}⟦から→から：00504_kara⟧{教|おし}え{込|こ}まれる — to have something drilled in from childhood\n\nUSAGE:\nOften used in the passive ({教|おし}え{込|こ}まれる) to describe values or skills that were instilled by parents, teachers, or mentors. Can have a slightly forceful nuance — the teaching is persistent and thorough, not casual.\n\nSIMILAR WORDS:\n- ⟦{教|おし}える→教える：00526_oshieru⟧ — to teach (neutral; {教|おし}え{込|こ}む implies repeated, thorough instruction)\n- ⟦{叩|たた}き{込|こ}む→叩き込む：06052_tatakikomu⟧ — to hammer in, to beat into (stronger, more physical nuance)\n- ⟦{仕込|しこ}む→仕込む：04244_shikomu⟧ — to train, to coach (often used for apprentices or animals)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -170,9 +170,10 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "transitive"
     },
     "created": "2026-03-25T08:41:46Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

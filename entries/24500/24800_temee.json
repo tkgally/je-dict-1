@@ -26,7 +26,7 @@
   "examples": [
     {
       "id": "24800_temee_ex1",
-      "japanese": "てめえ、{何|なに}やってんだ！",
+      "japanese": "てめえ、⟦{何|なに}→何：00498_nani⟧⟦やっ→やる：02980_yaru⟧てんだ！",
       "english": "What the hell are you doing!",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24800_temee_ex2",
-      "japanese": "てめえに{関係|かんけい}ねえだろ。",
+      "japanese": "てめえ⟦に→に：00314_ni⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦ねえ→ねえ：06913_nee⟧だろ。",
       "english": "It's none of your damn business.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "24800_temee_ex3",
-      "japanese": "てめえのやったこと、{分|わ}かってんのか。",
+      "japanese": "てめえ⟦の→の：09472_no⟧⟦やった→やる：02980_yaru⟧こと、⟦{分|わ}かっ→分かる：00463_wakaru⟧てん⟦の→の：09472_no⟧⟦か→か：09473_ka⟧。",
       "english": "Do you even understand what you've done?",
       "sense_numbers": [
         1
@@ -56,7 +56,7 @@
     },
     {
       "id": "24800_temee_ex4",
-      "japanese": "てめえのことはてめえでやれ。",
+      "japanese": "てめえ⟦の→の：09472_no⟧こと⟦は→は：00079_ha⟧てめえ⟦で→で：00502_de⟧⟦やれ→やる：02980_yaru⟧。",
       "english": "Handle your own business yourself.",
       "sense_numbers": [
         2
@@ -66,7 +66,7 @@
     },
     {
       "id": "24800_temee_ex5",
-      "japanese": "てめえで{蒔|ま}いた{種|たね}だろ。",
+      "japanese": "てめえ⟦で→で：00502_de⟧⟦{蒔|ま}いた→蒔く：02419_maku⟧⟦{種|たね}→種：02157_tane⟧だろ。",
       "english": "You reap what you sow. (Literally: Those are seeds you sowed yourself.)",
       "sense_numbers": [
         2
@@ -76,7 +76,7 @@
     },
     {
       "id": "24800_temee_ex6",
-      "japanese": "てめえの{力|ちから}で{何|なん}とかしろ。",
+      "japanese": "てめえ⟦の→の：09472_no⟧⟦{力|ちから}→力：01661_chikara⟧⟦で→で：00502_de⟧⟦{何|なん}→何〜：03100_nan⟧⟦と→と：00512_to⟧⟦か→か：09473_ka⟧⟦しろ→する：00392_suru⟧。",
       "english": "Figure it out with your own strength.",
       "sense_numbers": [
         2
@@ -85,7 +85,7 @@
       "notes": null
     }
   ],
-  "notes": "A contraction of {手前|てまえ} (literally \"in front of one's hands\"), which originally meant \"myself\" as a humble first-person pronoun. Over time the second-person usage became dominant, and the pronunciation shifted to てめえ. Now primarily used as a hostile way to address someone, expressing anger, contempt, or threat.\n\nETYMOLOGY:\n{手前|てまえ} → てめえ (phonetic contraction). The shift from humble self-reference to aggressive second-person address parallels a similar evolution in {貴様|きさま}.\n\nUSAGE:\n- Extremely rude as a second-person pronoun — carries a threatening tone\n- Common in anime, manga, and yakuza films, but rarely used in real-life conversation outside of genuine confrontations\n- The self-referential sense (\"oneself\") survives in set phrases like てめえのことはてめえでやれ\n\nSIMILAR WORDS:\n- {貴様|きさま} — you (similarly hostile, but more archaic-sounding)\n- お{前|まえ} — you (rough but not as aggressive as てめえ)\n- あんた — you (casual/blunt, much milder)",
+  "notes": "A contraction of ⟦{手前|てまえ}→手前：01001_temae⟧ (literally \"in front of one's hands\"), which originally meant \"myself\" as a humble first-person pronoun. Over time the second-person usage became dominant, and the pronunciation shifted to てめえ. Now primarily used as a hostile way to address someone, expressing anger, contempt, or threat.\n\nETYMOLOGY:\n⟦{手前|てまえ}→手前：01001_temae⟧ → てめえ (phonetic contraction). The shift from humble self-reference to aggressive second-person address parallels a similar evolution in ⟦{貴様|きさま}→貴様：18458_kisama⟧.\n\nUSAGE:\n- Extremely rude as a second-person pronoun — carries a threatening tone\n- Common in anime, manga, and yakuza films, but rarely used in real-life conversation outside of genuine confrontations\n- The self-referential sense (\"oneself\") survives in set phrases like てめえ⟦の→の：09472_no⟧こと⟦は→は：00079_ha⟧てめえ⟦で→で：00502_de⟧⟦やれ→やる：02980_yaru⟧\n\nSIMILAR WORDS:\n- ⟦{貴様|きさま}→貴様：18458_kisama⟧ — you (similarly hostile, but more archaic-sounding)\n- ⟦お{前|まえ}→お前：02533_omae⟧ — you (rough but not as aggressive as てめえ)\n- ⟦あんた→あんた：27721_anta⟧ — you (casual/blunt, much milder)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -125,6 +125,6 @@
       ]
     },
     "created": "2026-04-20T16:21:53Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

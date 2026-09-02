@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "30685_datosuruto_ex1",
-      "japanese": "だとすると、{犯人|はんにん}は{内部|ないぶ}の{人間|にんげん}だ。",
+      "japanese": "だとすると、⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{内部|ないぶ}→内部：05583_naibu⟧⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧だ。",
       "english": "If that's the case, the culprit is someone on the inside.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "30685_datosuruto_ex2",
-      "japanese": "{電車|でんしゃ}が{止|と}まっているのか。だとすると{今日|きょう}は{間|ま}に{合|あ}わないな。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まっている→止まる：00555_tomaru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧。だとすると⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧な。",
       "english": "So the trains are stopped? In that case I won't make it today.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "30685_datosuruto_ex3",
-      "japanese": "{報告書|ほうこくしょ}の{数字|すうじ}が{正|ただ}しいとすれば、この{計画|けいかく}は{赤字|あかじ}になる。だとすると、{予算|よさん}を{組|く}み{直|なお}す{必要|ひつよう}がある。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦の→の：09472_no⟧⟦{数字|すうじ}→数字：03361_suuji⟧⟦が→が：00051_ga⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦と→と：00512_to⟧⟦すれば→する：00392_suru⟧、⟦この→この：00962_kono⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧⟦{赤字|あかじ}→赤字：04712_akaji⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。だとすると、⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{組|く}み{直|なお}す⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If the figures in the report are correct, this plan will run at a loss. That being so, we need to redo the budget.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "だ (copula) + と + する (to take as) + と (conditional): \"if we take it to be so.\" Usually stands at the head of a sentence, referring back to the previous one.\n\nSIMILAR WORDS:\n- ということは: that means — draws out what the previous statement necessarily implies, with more confidence\n- だとしたら: nearly identical; slightly more hypothetical, and readier for premises the speaker doubts\n- そうすると: then, in that case — about what happens next rather than what must be true\n- それなら: in that case — used to respond with a decision or suggestion, not a deduction",
+  "notes": "だ (copula) + ⟦と→と：00512_to⟧ + ⟦する→する：00392_suru⟧ (to take as) + ⟦と→と：00512_to⟧ (conditional): \"if we take it to be so.\" Usually stands at the head of a sentence, referring back to the previous one.\n\nSIMILAR WORDS:\n- ⟦ということは→ということは：30686_toiukotoha⟧: that means — draws out what the previous statement necessarily implies, with more confidence\n- だとしたら: nearly identical; slightly more hypothetical, and readier for premises the speaker doubts\n- ⟦そうすると→そうすると：06943_sousuruto⟧: then, in that case — about what happens next rather than what must be true\n- ⟦それ→それ：00994_sore⟧なら: in that case — used to respond with a decision or suggestion, not a deduction",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -83,6 +83,6 @@
       "domain": []
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16491_shunkou_ex1",
-      "japanese": "ビルが{竣工|しゅんこう}した。",
+      "japanese": "⟦ビル→ビル：01500_biru⟧⟦が→が：00051_ga⟧{竣工|しゅんこう}⟦した→する：00392_suru⟧。",
       "english": "The building was completed.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16491_shunkou_ex2",
-      "japanese": "{新|あたら}しい{橋|はし}は{来年|らいねん}{竣工|しゅんこう}の{予定|よてい}だ。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{橋|はし}→橋：02163_hashi⟧⟦は→は：00079_ha⟧⟦{来年|らいねん}→来年：00745_rainen⟧{竣工|しゅんこう}⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "The new bridge is scheduled for completion next year.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16491_shunkou_ex3",
-      "japanese": "マンションの{竣工|しゅんこう}{予定日|よていび}が{三|さん}か{月|げつ}{遅|おく}れると{発表|はっぴょう}された。",
+      "japanese": "⟦マンション→マンション：01035_manshon⟧⟦の→の：09472_no⟧{竣工|しゅんこう}{予定日|よていび}⟦が→が：00051_ga⟧⟦{三|さん}→三：00749_san⟧か{月|げつ}⟦{遅|おく}れる→遅れる：00741_okureru⟧⟦と→と：00512_to⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "It was announced that the condominium's completion date would be delayed by three months.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal and technical term common in real estate and construction. Often seen in property listings, construction announcements, and news about infrastructure projects. The {竣工|しゅんこう}{式|しき} (completion ceremony) is held to celebrate the finishing of a major construction project.\n\nCOMMON COLLOCATIONS:\n- {竣工|しゅんこう}{予定|よてい} (scheduled completion)\n- {竣工|しゅんこう}{式|しき} (completion ceremony)\n- {竣工|しゅんこう}{年月|ねんげつ} (completion date)\n\nSIMILAR WORDS:\n- {完成|かんせい}: completion — a more general term for finishing anything, not limited to construction\n- {着工|ちゃっこう}: start of construction — the opposite; the beginning of a building project\n- {落成|らくせい}: completion of a building — similar to {竣工|しゅんこう} but slightly more ceremonial",
+  "notes": "USAGE:\nA formal and technical term common in real estate and construction. Often seen in property listings, construction announcements, and news about infrastructure projects. The {竣工|しゅんこう}{式|しき} (completion ceremony) is held to celebrate the finishing of a major construction project.\n\nCOMMON COLLOCATIONS:\n- {竣工|しゅんこう}⟦{予定|よてい}→予定：00824_yotei⟧ (scheduled completion)\n- {竣工|しゅんこう}{式|しき} (completion ceremony)\n- {竣工|しゅんこう}⟦{年月|ねんげつ}→年月：00310_nengetsu⟧ (completion date)\n\nSIMILAR WORDS:\n- ⟦{完成|かんせい}→完成：01550_kansei⟧: completion — a more general term for finishing anything, not limited to construction\n- ⟦{着工|ちゃっこう}→着工：11101_chakkou⟧: start of construction — the opposite; the beginning of a building project\n- ⟦{落成|らくせい}→落成：24161_rakusei⟧: completion of a building — similar to {竣工|しゅんこう} but slightly more ceremonial",
   "cross_references": [
     {
       "type": "antonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-13T02:11:30Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +183,8 @@
       "semantic": [
         "building"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

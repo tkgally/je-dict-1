@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20640_shiasatte_ex1",
-      "japanese": "{明明後日|しあさって}は{金曜日|きんようび}だ。",
+      "japanese": "{明明後日|しあさって}⟦は→は：00079_ha⟧⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧だ。",
       "english": "Three days from now is Friday.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "20640_shiasatte_ex2",
-      "japanese": "{明明後日|しあさって}までに{届|とど}きますか？",
+      "japanese": "{明明後日|しあさって}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{届|とど}きます→届く：00899_todoku⟧⟦か→か：09473_ka⟧？",
       "english": "Will it arrive within three days?",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20640_shiasatte_ex3",
-      "japanese": "{試験|しけん}は{明明後日|しあさって}だから、あと{三日|みっか}しかない。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦は→は：00079_ha⟧{明明後日|しあさって}だ⟦から→から：00504_kara⟧、あと⟦{三日|みっか}→三日：02969_mikka⟧⟦しかない→〜しかない：30533_shikanai⟧。",
       "english": "The exam is three days from now, so there are only three days left.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Also written in hiragana as しあさって. Composed of し (an intensifying prefix) + {明後日|あさって} (the day after tomorrow). Part of the Japanese temporal sequence:\n- {今日|きょう} (today)\n- {明日|あした} (tomorrow)\n- {明後日|あさって} (day after tomorrow)\n- {明明後日|しあさって} (three days from now)\n\nSIMILAR WORDS:\n- {明後日|あさって} — the day after tomorrow; the preceding day in the sequence\n- {明日|あした}/{明日|あす} — tomorrow\n- {一昨日|おととい} — the day before yesterday\n\nREGIONAL NOTE:\nIn some regions of Japan (particularly parts of Kansai), しあさって means four days from now, while {明明後日|ささって} or やのあさって refers to three days from now. The standard/Tokyo meaning is three days from now. This regional difference can cause confusion, so when precision matters, it is safer to specify the actual date.",
+  "notes": "Also written in hiragana as しあさって. Composed of し (an intensifying prefix) + {明後日|あさって} (the day after tomorrow). Part of the Japanese temporal sequence:\n- ⟦{今日|きょう}→今日：00496_kyou⟧ (today)\n- ⟦{明日|あした}→明日：00501_ashita⟧ (tomorrow)\n- {明後日|あさって} (day after tomorrow)\n- {明明後日|しあさって} (three days from now)\n\nSIMILAR WORDS:\n- {明後日|あさって} — the day after tomorrow; the preceding day in the sequence\n- ⟦{明日|あした}→明日：00501_ashita⟧/{明日|あす} — tomorrow\n- {一昨日|おととい} — the day before yesterday\n\nREGIONAL NOTE:\nIn some regions of Japan (particularly parts of Kansai), しあさって means four days from now, while {明明後日|ささって} or やのあさって refers to three days from now. The standard/Tokyo meaning is three days from now. This regional difference can cause confusion, so when precision matters, it is safer to specify the actual date.",
   "cross_references": [
     {
       "type": "related",
@@ -63,7 +63,7 @@
   ],
   "metadata": {
     "created": "2026-03-29T20:13:14Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17461_tanken_ex1",
-      "japanese": "{子|こ}どもたちが{森|もり}を{探検|たんけん}した。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧⟦{森|もり}→森：02260_mori⟧⟦を→を：00422_wo⟧{探検|たんけん}⟦した→する：00392_suru⟧。",
       "english": "The children explored the forest.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17461_tanken_ex2",
-      "japanese": "{南極|なんきょく}{探検|たんけん}の{歴史|れきし}について{本|ほん}を{読|よ}んだ。",
+      "japanese": "⟦{南極|なんきょく}→南極：11936_nankyoku⟧{探検|たんけん}⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦について→〜について：03103_nitsuite⟧{本|ほん}⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00426_yomu⟧。",
       "english": "I read a book about the history of Antarctic exploration.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17461_tanken_ex3",
-      "japanese": "{廃墟|はいきょ}を{探検|たんけん}するのが{趣味|しゅみ}だという{友人|ゆうじん}に{誘|さそ}われて、{古|ふる}い{工場|こうじょう}に{入|はい}った。",
+      "japanese": "⟦{廃墟|はいきょ}→廃墟：12453_haikyo⟧⟦を→を：00422_wo⟧{探検|たんけん}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧だ⟦という→という：09577_toiu⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧⟦{誘|さそ}われて→誘う：01947_sasou⟧、⟦{古|ふる}い→古い：00488_furui⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "A friend whose hobby is exploring ruins invited me, and we entered an old factory.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for both serious expeditions (geographical, scientific) and casual adventures. Children going on neighborhood explorations and professional explorers both use this word.\n\nThe variant {探険|たんけん} (with {険|けん} meaning danger) is also used, though {探検|たんけん} (with {検|けん} meaning examine) is more standard.\n\nCOMMON COLLOCATIONS:\n- {探検|たんけん}する (to explore)\n- {探検|たんけん}{隊|たい} (expedition team)\n- {探検|たんけん}{家|か} (explorer)\n- {洞窟|どうくつ}{探検|たんけん} (cave exploration)\n- {秘境|ひきょう}{探検|たんけん} (exploration of hidden regions)\n\nSIMILAR WORDS:\n- {冒険|ぼうけん}: adventure — emphasizes risk and excitement rather than discovery\n- {調査|ちょうさ}: investigation — more systematic and scientific, less adventurous",
+  "notes": "USAGE:\nUsed for both serious expeditions (geographical, scientific) and casual adventures. Children going on neighborhood explorations and professional explorers both use this word.\n\nThe variant {探険|たんけん} (with {険|けん} meaning danger) is also used, though {探検|たんけん} (with {検|けん} meaning examine) is more standard.\n\nCOMMON COLLOCATIONS:\n- {探検|たんけん}⟦する→する：00392_suru⟧ (to explore)\n- {探検|たんけん}⟦{隊|たい}→隊：03383_tai⟧ (expedition team)\n- {探検|たんけん}{家|か} (explorer)\n- ⟦{洞窟|どうくつ}→洞窟：05038_doukutsu⟧{探検|たんけん} (cave exploration)\n- ⟦{秘境|ひきょう}→秘境：16500_hikyou⟧{探検|たんけん} (exploration of hidden regions)\n\nSIMILAR WORDS:\n- ⟦{冒険|ぼうけん}→冒険：03629_bouken⟧: adventure — emphasizes risk and excitement rather than discovery\n- ⟦{調査|ちょうさ}→調査：03489_chousa⟧: investigation — more systematic and scientific, less adventurous",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-18T02:05:41Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
         "movement",
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

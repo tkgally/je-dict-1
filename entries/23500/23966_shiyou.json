@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23966_shiyou_ex1",
-      "japanese": "ソフトを{試用|しよう}する。",
+      "japanese": "⟦ソフト→ソフト：01532_sofuto⟧⟦を→を：00422_wo⟧{試用|しよう}⟦する→する：00392_suru⟧。",
       "english": "To try out the software.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23966_shiyou_ex2",
-      "japanese": "{新製品|しんせいひん}の{試用|しよう}レポートを{書|か}いた。",
+      "japanese": "⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧⟦の→の：09472_no⟧{試用|しよう}⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote a report on trying out the new product.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23966_shiyou_ex3",
-      "japanese": "{購入前|こうにゅうまえ}に30{日間|にちかん}の{試用|しよう}{期間|きかん}を{設|もう}けております。",
+      "japanese": "{購入前|こうにゅうまえ}⟦に→に：00314_ni⟧30{日間|にちかん}⟦の→の：09472_no⟧{試用|しよう}{期間|きかん}⟦を→を：00422_wo⟧⟦{設|もう}けて→設ける：14220_moukeru⟧⟦おります→おる：01324_oru⟧。",
       "english": "We provide a 30-day trial period before purchase.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {試|し} ('try; test') and {用|よう} ('use'). Note that the reading しよう is shared by several common homophones — {使用|しよう} ('use'), {仕様|しよう} ('specifications'), {私用|しよう} ('personal use') — so context and kanji matter.\n\nUSAGE:\n- Used as a noun and with する to form a verb: {試用|しよう}する ('to try out').\n- Frequent in product marketing (free trials), software contexts, and HR (probationary employment).\n- Note: for HR use, {試用期間|しようきかん} ('probation period') is standard.\n\nCOMMON COLLOCATIONS:\n- {試用|しよう}する: to try out; to use on a trial basis\n- {試用|しよう}{期間|きかん}: trial period; probation period\n- {試用版|しようばん}: trial version (of software)\n- {無料|むりょう}{試用|しよう}: free trial\n- {試用|しよう}レポート: trial/review report\n\nSIMILAR WORDS:\n- {使用|しよう}: use; usage — everyday 'using'; not necessarily trial-based.\n- {試|ため}し: trial; test — native Japanese reading; more casual, e.g., お{試|ため}し ('a trial; giving it a go').\n- {体験|たいけん}: experience; trial experience — emphasizes first-hand experience, as in {体験版|たいけんばん} ('demo version').\n- テスト: test — a general katakana word, used for testing in many contexts.",
+  "notes": "Compound of {試|し} ('try; test') and ⟦{用|よう}→〜用：09842_you⟧ ('use'). Note that the reading ⟦しよう→する：00392_suru⟧ is shared by several common homophones — ⟦{使用|しよう}→使用：01637_shiyou⟧ ('use'), ⟦{仕様|しよう}→仕様：00472_shiyou⟧ ('specifications'), ⟦{私用|しよう}→私用：00459_shiyou⟧ ('personal use') — so context and kanji matter.\n\nUSAGE:\n- Used as a noun and with ⟦する→する：00392_suru⟧ to form a verb: {試用|しよう}⟦する→する：00392_suru⟧ ('to try out').\n- Frequent in product marketing (free trials), software contexts, and HR (probationary employment).\n- Note: for HR use, ⟦{試用期間|しようきかん}→試用期間：15675_shiyoukikan⟧ ('probation period') is standard.\n\nCOMMON COLLOCATIONS:\n- {試用|しよう}⟦する→する：00392_suru⟧: to try out; to use on a trial basis\n- {試用|しよう}{期間|きかん}: trial period; probation period\n- {試用版|しようばん}: trial version (of software)\n- ⟦{無料|むりょう}→無料：01662_muryou⟧{試用|しよう}: free trial\n- {試用|しよう}⟦レポート→レポート：01543_repooto⟧: trial/review report\n\nSIMILAR WORDS:\n- ⟦{使用|しよう}→使用：01637_shiyou⟧: use; usage — everyday 'using'; not necessarily trial-based.\n- ⟦{試|ため}し→試し：03410_tameshi⟧: trial; test — native Japanese reading; more casual, e.g., ⟦お{試|ため}し→お試し：09820_otameshi⟧ ('a trial; giving it a go').\n- ⟦{体験|たいけん}→体験：11443_taiken⟧: experience; trial experience — emphasizes first-hand experience, as in {体験版|たいけんばん} ('demo version').\n- ⟦テスト→テスト：01065_tesuto⟧: test — a general katakana word, used for testing in many contexts.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -96,10 +96,11 @@
         "action",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-15T16:25:02Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:16Z"
   },
   "conjugation": {
     "type": "suru",

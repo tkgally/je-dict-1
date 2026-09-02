@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09090_onbu_ex1",
-      "japanese": "おんぶして。",
+      "japanese": "おんぶ⟦して→する：00392_suru⟧。",
       "english": "Give me a piggyback ride.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09090_onbu_ex2",
-      "japanese": "{赤|あか}ちゃんをおんぶする。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦を→を：00422_wo⟧おんぶ⟦する→する：00392_suru⟧。",
       "english": "To carry a baby on one's back.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09090_onbu_ex3",
-      "japanese": "おばあちゃんに{小|ちい}さい{頃|ころ}よくおんぶしてもらった。",
+      "japanese": "⟦おばあちゃん→おばあちゃん：10968_obaachan⟧⟦に→に：00314_ni⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧{頃|ころ}⟦よく→よく：00601_yoku⟧おんぶ⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "Grandma often gave me piggyback rides when I was little.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE: Functions as a noun and as a する verb (おんぶする).\n\nCOMMON EXPRESSIONS:\n- おんぶする (to carry on one's back)\n- おんぶしてもらう (to get a piggyback ride)\n- おんぶ{紐|ひも} (baby carrier strap)\n\nRELATED WORDS: {抱|だ}っこ (carrying in one's arms, front-carry), {肩車|かたぐるま} (carrying on shoulders).\n\nIDIOM: おんぶに{抱|だ}っこ literally means 'piggyback and front-carry' but idiomatically means 'completely dependent on someone' or 'leaving everything to someone else'.",
+  "notes": "USAGE: Functions as a noun and as a ⟦する→する：00392_suru⟧ verb (おんぶ⟦する→する：00392_suru⟧).\n\nCOMMON EXPRESSIONS:\n- おんぶ⟦する→する：00392_suru⟧ (to carry on one's back)\n- おんぶ⟦して→する：00392_suru⟧⟦もらう→もらう：00520_morau⟧ (to get a piggyback ride)\n- おんぶ⟦{紐|ひも}→紐：02251_himo⟧ (baby carrier strap)\n\nRELATED WORDS: {抱|だ}っこ (carrying in one's arms, front-carry), ⟦{肩車|かたぐるま}→肩車：16181_kataguruma⟧ (carrying on shoulders).\n\nIDIOM: おんぶ⟦に→に：00314_ni⟧{抱|だ}っこ literally means 'piggyback and front-carry' but idiomatically means 'completely dependent on someone' or 'leaving everything to someone else'.",
   "cross_references": [
     {
       "type": "contrast",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
         "daily-life",
         "family"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

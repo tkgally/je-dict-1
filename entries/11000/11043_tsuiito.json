@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11043_tsuiito_ex1",
-      "japanese": "{面白|おもしろ}い{記事|きじ}をツイートした。",
+      "japanese": "⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦を→を：00422_wo⟧ツイート⟦した→する：00392_suru⟧。",
       "english": "I tweeted an interesting article.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11043_tsuiito_ex2",
-      "japanese": "あのツイートがバズった。",
+      "japanese": "⟦あの→あの：00915_ano⟧ツイート⟦が→が：00051_ga⟧⟦バズった→バズる：04734_bazuru⟧。",
       "english": "That tweet went viral.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11043_tsuiito_ex3",
-      "japanese": "{有名人|ゆうめいじん}のツイートが{炎上|えんじょう}して{大|おお}きな{話題|わだい}になった。",
+      "japanese": "⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦の→の：09472_no⟧ツイート⟦が→が：00051_ga⟧⟦{炎上|えんじょう}して→炎上する：23204_enjousuru⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{話題|わだい}→話題：03793_wadai⟧になった。",
       "english": "A celebrity's tweet caused a firestorm and became a major topic of discussion.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlthough the platform formerly known as Twitter was renamed to X, the term ツイート remains widely used in Japanese for posts on that platform. The verb form is ツイートする.\n\nリツイート (retweet) means to share someone else's post. {引用|いんよう}ツイート (quote tweet) means to share with added commentary.\n\nCOMMON COLLOCATIONS:\n- ツイートする: to tweet, to post\n- リツイート: retweet\n- {引用|いんよう}ツイート: quote tweet\n- ツイートが{炎上|えんじょう}する: a tweet catches fire (causes backlash)\n- ツイートを{削除|さくじょ}する: to delete a tweet",
+  "notes": "USAGE:\nAlthough the platform formerly known as Twitter was renamed to X, the term ツイート remains widely used in Japanese for posts on that platform. The verb form is ツイート⟦する→する：00392_suru⟧.\n\nリツイート (retweet) means to share someone else's post. ⟦{引用|いんよう}→引用：01850_inyou⟧ツイート (quote tweet) means to share with added commentary.\n\nCOMMON COLLOCATIONS:\n- ツイート⟦する→する：00392_suru⟧: to tweet, to post\n- リツイート: retweet\n- ⟦{引用|いんよう}→引用：01850_inyou⟧ツイート: quote tweet\n- ツイート⟦が→が：00051_ga⟧⟦{炎上|えんじょう}する→炎上する：23204_enjousuru⟧: a tweet catches fire (causes backlash)\n- ツイート⟦を→を：00422_wo⟧⟦{削除|さくじょ}→削除：04171_sakujo⟧⟦する→する：00392_suru⟧: to delete a tweet",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

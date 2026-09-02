@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25574_nukigaki_ex1",
-      "japanese": "{本|ほん}から{大事|だいじ}な{部分|ぶぶん}を{抜|ぬ}き{書|が}きした。",
+      "japanese": "{本|ほん}⟦から→から：00504_kara⟧⟦{大事|だいじ}→大事：01253_daiji⟧な⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦を→を：00422_wo⟧{抜|ぬ}き{書|が}き⟦した→する：00392_suru⟧。",
       "english": "I copied out the important parts from the book.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25574_nukigaki_ex2",
-      "japanese": "{会議|かいぎ}の{議事録|ぎじろく}から{要点|ようてん}を{抜|ぬ}き{書|が}きにまとめた。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{議事録|ぎじろく}→議事録：07482_gijiroku⟧⟦から→から：00504_kara⟧⟦{要点|ようてん}→要点：01668_youten⟧⟦を→を：00422_wo⟧{抜|ぬ}き{書|が}き⟦に→に：00314_ni⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "I compiled an extract of key points from the meeting minutes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25574_nukigaki_ex3",
-      "japanese": "{論文|ろんぶん}の{抜|ぬ}き{書|が}きをノートに{残|のこ}しておくと{復習|ふくしゅう}に{役立|やくだ}つ。",
+      "japanese": "⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧{抜|ぬ}き{書|が}き⟦を→を：00422_wo⟧⟦ノート→ノート：00738_nooto⟧⟦に→に：00314_ni⟧⟦{残|のこ}して→残す：01975_nokosu⟧おく⟦と→と：00512_to⟧⟦{復習|ふくしゅう}→復習：01718_fukushuu⟧⟦に→に：00314_ni⟧⟦{役立|やくだ}つ→役立つ：03168_yakudatsu⟧。",
       "english": "Keeping excerpts from papers in a notebook is useful for review.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the act of selecting and copying out important passages from a text, or the resulting collection of excerpts. A useful study and research technique.\n\nCOMMON COLLOCATIONS:\n- {抜|ぬ}き{書|が}きする: to make an extract, to copy out selected parts\n- {抜|ぬ}き{書|が}きノート: notebook of excerpts\n- {要点|ようてん}の{抜|ぬ}き{書|が}き: extract of key points\n\nETYMOLOGY:\nComposed of {抜|ぬ}き (pulling out, selecting) and {書|が}き (writing). Literally, writing by pulling out selected parts.\n\nSIMILAR WORDS:\n- {引用|いんよう}: quotation, citation — a formal attribution of someone else's words, with the source specified\n- {抜粋|ばっすい}: excerpt, extract — more formal, often used for officially selected portions of documents\n- {要約|ようやく}: summary — condenses the content into fewer words rather than copying verbatim",
+  "notes": "Refers to the act of selecting and copying out important passages from a text, or the resulting collection of excerpts. A useful study and research technique.\n\nCOMMON COLLOCATIONS:\n- {抜|ぬ}き{書|が}き⟦する→する：00392_suru⟧: to make an extract, to copy out selected parts\n- {抜|ぬ}き{書|が}き⟦ノート→ノート：00738_nooto⟧: notebook of excerpts\n- ⟦{要点|ようてん}→要点：01668_youten⟧⟦の→の：09472_no⟧{抜|ぬ}き{書|が}き: extract of key points\n\nETYMOLOGY:\nComposed of ⟦{抜|ぬ}き→抜き：23505_nuki⟧ (pulling out, selecting) and {書|が}き (writing). Literally, writing by pulling out selected parts.\n\nSIMILAR WORDS:\n- ⟦{引用|いんよう}→引用：01850_inyou⟧: quotation, citation — a formal attribution of someone else's words, with the source specified\n- ⟦{抜粋|ばっすい}→抜粋：15277_bassui⟧: excerpt, extract — more formal, often used for officially selected portions of documents\n- ⟦{要約|ようやく}→要約：14128_youyaku⟧: summary — condenses the content into fewer words rather than copying verbatim",
   "cross_references": [
     {
       "type": "contrast",
@@ -88,10 +88,11 @@
         "education",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-26T11:22:20Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "suru",

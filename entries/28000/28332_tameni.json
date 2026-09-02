@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "28332_tameni_ex1",
-      "japanese": "{家族|かぞく}のためにがんばる。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧ためにがんばる。",
       "english": "I work hard for my family.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "28332_tameni_ex2",
-      "japanese": "{試験|しけん}に{合格|ごうかく}するために{勉強|べんきょう}している。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{合格|ごうかく}する→合格する：27949_goukakusuru⟧ために⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I'm studying in order to pass the exam.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "28332_tameni_ex3",
-      "japanese": "{将来|しょうらい}のためにお{金|かね}を{貯|た}めている。",
+      "japanese": "⟦{将来|しょうらい}→将来：01438_shourai⟧⟦の→の：09472_no⟧ために⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{貯|た}めている→貯める：27801_tameru⟧。",
       "english": "I'm saving money for the future.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "28332_tameni_ex4",
-      "japanese": "{雨|あめ}のために{試合|しあい}が{中止|ちゅうし}になった。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧ために⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧になった。",
       "english": "The match was cancelled because of the rain.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "28332_tameni_ex5",
-      "japanese": "{寝坊|ねぼう}したために{電車|でんしゃ}に{乗|の}り{遅|おく}れた。",
+      "japanese": "⟦{寝坊|ねぼう}した→寝坊する：16731_nebousuru⟧ために⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}り{遅|おく}れた→乗り遅れる：04621_noriokureru⟧。",
       "english": "Because I overslept, I missed the train.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "28332_tameni_ex6",
-      "japanese": "{台風|たいふう}が{近|ちか}づいているために、{多|おお}くの{店|みせ}が{閉|し}まっている。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{近|ちか}づいている→近づく：01958_chikazuku⟧ために、{多|おお}く⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧⟦{閉|し}まっている→閉まる：00754_shimaru⟧。",
       "english": "Because a typhoon is approaching, many shops are closed.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "The に form of the noun {為|ため} (sake, benefit), grammaticalized as a connective. The purpose sense (1) is the most common; the cause sense (2) is more formal and often appears in written language.\n\nCOMMON PATTERNS:\n- Noun + のために: for the sake of (noun)\n- Verb (dictionary form) + ために: in order to (verb)\n- Verb (past) + ために: because (verb happened)\n\nDISAMBIGUATION:\nThe purpose and cause senses are usually clear from context. With dictionary-form verbs, purpose is dominant; with past-tense verbs or stative expressions, cause is dominant.\n\nSIMILAR WORDS:\n- ように: in order to — used with verbs the speaker does not directly control (potential, intransitive)\n- ので / から: because — more conversational; ために sounds formal/written\n- せいで: because of — implies blame for a negative outcome",
+  "notes": "The ⟦に→に：00314_ni⟧ form of the noun {為|ため} (sake, benefit), grammaticalized as a connective. The purpose sense (1) is the most common; the cause sense (2) is more formal and often appears in written language.\n\nCOMMON PATTERNS:\n- Noun + ⟦の→の：09472_no⟧ために: for the sake of (noun)\n- Verb (dictionary form) + ために: in order to (verb)\n- Verb (past) + ために: because (verb happened)\n\nDISAMBIGUATION:\nThe purpose and cause senses are usually clear from context. With dictionary-form verbs, purpose is dominant; with past-tense verbs or stative expressions, cause is dominant.\n\nSIMILAR WORDS:\n- よう⟦に→に：00314_ni⟧: in order to — used with verbs the speaker does not directly control (potential, intransitive)\n- ⟦の→の：09472_no⟧で / から: because — more conversational; ために sounds formal/written\n- せい⟦で→で：00502_de⟧: because of — implies blame for a negative outcome",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -118,6 +118,6 @@
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "19897_hyoukai_ex1",
-      "japanese": "{疑問|ぎもん}が{氷解|ひょうかい}した。",
+      "japanese": "⟦{疑問|ぎもん}→疑問：02648_gimon⟧⟦が→が：00051_ga⟧{氷解|ひょうかい}⟦した→する：00392_suru⟧。",
       "english": "My doubts cleared up completely.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "19897_hyoukai_ex2",
-      "japanese": "{説明|せつめい}を{聞|き}いて{誤解|ごかい}が{氷解|ひょうかい}した。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦{誤解|ごかい}→誤解：02769_gokai⟧⟦が→が：00051_ga⟧{氷解|ひょうかい}⟦した→する：00392_suru⟧。",
       "english": "After hearing the explanation, the misunderstanding melted away.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "19897_hyoukai_ex3",
-      "japanese": "{長年|ながねん}の{謎|なぞ}がついに{氷解|ひょうかい}し、{真相|しんそう}が{明|あき}らかになった。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{謎|なぞ}→謎：03505_nazo⟧⟦が→が：00051_ga⟧ついに{氷解|ひょうかい}し、⟦{真相|しんそう}→真相：17447_shinsou⟧⟦が→が：00051_ga⟧⟦{明|あき}らか→明らか：02351_akiraka⟧になった。",
       "english": "The mystery of many years finally dissolved, and the truth became clear.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A literary metaphor: just as ice melts and disappears, so do doubts and confusion. The literal meaning is 'melting of ice,' but it is almost always used figuratively.\n\nCOMMON COLLOCATIONS:\n- {疑問|ぎもん}が{氷解|ひょうかい}する: doubts clear up\n- {誤解|ごかい}が{氷解|ひょうかい}する: misunderstandings dissolve\n- {謎|なぞ}が{氷解|ひょうかい}する: a mystery is resolved\n- {不信感|ふしんかん}が{氷解|ひょうかい}する: distrust melts away\n\nSIMILAR WORDS:\n- {解消|かいしょう}: resolution, elimination — broader and more neutral; used for problems, stress, or contracts\n- {払拭|ふっしょく}: wiping away, dispelling — often used for negative impressions or anxiety\n- {晴|は}れる: to clear up — also metaphorical (doubts clear like weather) but more conversational",
+  "notes": "A literary metaphor: just as ice melts and disappears, so do doubts and confusion. The literal meaning is 'melting of ice,' but it is almost always used figuratively.\n\nCOMMON COLLOCATIONS:\n- ⟦{疑問|ぎもん}→疑問：02648_gimon⟧⟦が→が：00051_ga⟧{氷解|ひょうかい}⟦する→する：00392_suru⟧: doubts clear up\n- ⟦{誤解|ごかい}→誤解：02769_gokai⟧⟦が→が：00051_ga⟧{氷解|ひょうかい}⟦する→する：00392_suru⟧: misunderstandings dissolve\n- ⟦{謎|なぞ}→謎：03505_nazo⟧⟦が→が：00051_ga⟧{氷解|ひょうかい}⟦する→する：00392_suru⟧: a mystery is resolved\n- ⟦{不信感|ふしんかん}→不信感：16762_fushinkan⟧⟦が→が：00051_ga⟧{氷解|ひょうかい}⟦する→する：00392_suru⟧: distrust melts away\n\nSIMILAR WORDS:\n- ⟦{解消|かいしょう}→解消：14143_kaishou⟧: resolution, elimination — broader and more neutral; used for problems, stress, or contracts\n- ⟦{払拭|ふっしょく}→払拭：09461_fusshoku⟧: wiping away, dispelling — often used for negative impressions or anxiety\n- ⟦{晴|は}れる→晴れる：00701_hareru⟧: to clear up — also metaphorical (doubts clear like weather) but more conversational",
   "cross_references": [
     {
       "type": "contrast",
@@ -159,7 +159,7 @@
   ],
   "metadata": {
     "created": "2026-03-27T05:30:59Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
@@ -173,7 +173,8 @@
         "cognition"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

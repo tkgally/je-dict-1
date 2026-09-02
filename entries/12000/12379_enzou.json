@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12379_enzou_ex1",
-      "japanese": "{魚|さかな}を{塩蔵|えんぞう}する。",
+      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{塩蔵|えんぞう}⟦する→する：00392_suru⟧。",
       "english": "To salt-preserve fish.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12379_enzou_ex2",
-      "japanese": "{塩蔵|えんぞう}わかめは{水|みず}で{戻|もど}してから{使|つか}う。",
+      "japanese": "{塩蔵|えんぞう}⟦わかめ→わかめ：10654_wakame⟧⟦は→は：00079_ha⟧⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧⟦{戻|もど}して→戻す：02317_modosu⟧⟦から→から：00504_kara⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Rehydrate salt-preserved wakame in water before using it.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12379_enzou_ex3",
-      "japanese": "{冷蔵庫|れいぞうこ}のなかった{時代|じだい}には、{塩蔵|えんぞう}は{食品|しょくひん}{保存|ほぞん}の{重要|じゅうよう}な{方法|ほうほう}だった。",
+      "japanese": "⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧⟦の→の：09472_no⟧⟦なかった→ない：01118_nai⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{塩蔵|えんぞう}⟦は→は：00079_ha⟧⟦{食品|しょくひん}{保存|ほぞん}→食品保存：24935_shokuhinhozon⟧⟦の→の：09472_no⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{方法|ほうほう}→方法：03621_houhou⟧だった。",
       "english": "In the era before refrigerators, salt preservation was an important method of food storage.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n{塩|えん} (salt) + {蔵|ぞう} (storage, preservation). Also used as a する verb ({塩蔵|えんぞう}する) and as a modifier ({塩蔵|えんぞう}~ for salt-preserved items).\n\nUSAGE:\n{塩蔵|えんぞう} is a somewhat technical term. In everyday cooking, {塩漬|しおづ}け (salt pickling) is more commonly used. {塩蔵|えんぞう} tends to appear in food industry and historical contexts.\n\nSIMILAR WORDS:\n- {塩漬|しおづ}け: salt pickling (more everyday)\n- {干物|ひもの}: dried fish\n- {燻製|くんせい}: smoking (food preservation)\n\nCOMMON COLLOCATIONS:\n- {塩蔵|えんぞう}わかめ: salt-preserved wakame\n- {塩蔵|えんぞう}{品|ひん}: salt-preserved goods\n- {塩蔵|えんぞう}する: to salt-preserve",
+  "notes": "COMMON PATTERNS:\n{塩|えん} (salt) + {蔵|ぞう} (storage, preservation). Also used as a ⟦する→する：00392_suru⟧ verb ({塩蔵|えんぞう}⟦する→する：00392_suru⟧) and as a modifier ({塩蔵|えんぞう}~ for salt-preserved items).\n\nUSAGE:\n{塩蔵|えんぞう} is a somewhat technical term. In everyday cooking, ⟦{塩漬|しおづ}け→塩漬け：09008_shiozuke⟧ (salt pickling) is more commonly used. {塩蔵|えんぞう} tends to appear in food industry and historical contexts.\n\nSIMILAR WORDS:\n- ⟦{塩漬|しおづ}け→塩漬け：09008_shiozuke⟧: salt pickling (more everyday)\n- ⟦{干物|ひもの}→干物：12423_himono⟧: dried fish\n- ⟦{燻製|くんせい}→燻製：13478_kunsei⟧: smoking (food preservation)\n\nCOMMON COLLOCATIONS:\n- {塩蔵|えんぞう}⟦わかめ→わかめ：10654_wakame⟧: salt-preserved wakame\n- {塩蔵|えんぞう}⟦{品|ひん}→品：03712_hin⟧: salt-preserved goods\n- {塩蔵|えんぞう}⟦する→する：00392_suru⟧: to salt-preserve",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-21T05:46:57Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "food"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

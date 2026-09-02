@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16826_sennou_ex1",
-      "japanese": "それは{洗脳|せんのう}だ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{洗脳|せんのう}だ。",
       "english": "That's brainwashing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16826_sennou_ex2",
-      "japanese": "テレビCMに{洗脳|せんのう}されて、つい{買|か}ってしまった。",
+      "japanese": "⟦テレビ→テレビ：01536_terebi⟧CM⟦に→に：00314_ni⟧{洗脳|せんのう}⟦されて→する：00392_suru⟧、つい⟦{買|か}って→買う：00489_kau⟧しまった。",
       "english": "I was brainwashed by the TV commercial and ended up buying it.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16826_sennou_ex3",
-      "japanese": "カルト{団体|だんたい}による{洗脳|せんのう}から{抜|ぬ}け{出|だ}すのは{簡単|かんたん}ではない。",
+      "japanese": "⟦カルト→カルト：12829_karuto⟧⟦{団体|だんたい}→団体：03426_dantai⟧⟦による→による：28349_niyoru⟧{洗脳|せんのう}⟦から→から：00504_kara⟧⟦{抜|ぬ}け{出|だ}す→抜け出す：06040_nukedasu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "It's not easy to escape brainwashing by a cult organization.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used as a suru-verb: {洗脳|せんのう}する (to brainwash). In casual speech, frequently used hyperbolically to describe being strongly influenced, e.g., by advertisements, catchy songs, or persuasive people.\n\nETYMOLOGY:\nLiterally \"brain-washing\" — {洗|あら}う (to wash) + {脳|のう} (brain). A calque from the English term.\n\nCOMMON COLLOCATIONS:\n- {洗脳|せんのう}する (to brainwash)\n- {洗脳|せんのう}される (to be brainwashed)\n- {洗脳|せんのう}を{解|と}く (to deprogram)",
+  "notes": "USAGE:\nOften used as a suru-verb: {洗脳|せんのう}⟦する→する：00392_suru⟧ (to brainwash). In casual speech, frequently used hyperbolically to describe being strongly influenced, e.g., by advertisements, catchy songs, or persuasive people.\n\nETYMOLOGY:\nLiterally \"brain-washing\" — ⟦{洗|あら}う→洗う：00827_arau⟧ (to wash) + ⟦{脳|のう}→脳：03537_nou⟧ (brain). A calque from the English term.\n\nCOMMON COLLOCATIONS:\n- {洗脳|せんのう}⟦する→する：00392_suru⟧ (to brainwash)\n- {洗脳|せんのう}⟦される→する：00392_suru⟧ (to be brainwashed)\n- {洗脳|せんのう}⟦を→を：00422_wo⟧⟦{解|と}く→解く：02301_toku⟧ (to deprogram)",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-14T12:59:29Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

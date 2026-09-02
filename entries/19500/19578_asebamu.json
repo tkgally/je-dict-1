@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19578_asebamu_ex1",
-      "japanese": "{額|ひたい}が{汗|あせ}ばんでいる。",
+      "japanese": "⟦{額|ひたい}→額：03579_hitai⟧⟦が→が：00051_ga⟧{汗|あせ}ばんで⟦いる→いる：00495_iru⟧。",
       "english": "My forehead is getting sweaty.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19578_asebamu_ex2",
-      "japanese": "{少|すこ}し{歩|ある}いただけで{汗|あせ}ばんだ。",
+      "japanese": "⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{歩|ある}いた→歩く：00538_aruku⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧{汗|あせ}ばんだ。",
       "english": "I started sweating just from walking a little.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19578_asebamu_ex3",
-      "japanese": "{汗|あせ}ばむ{季節|きせつ}になると、{着替|きが}えを{多|おお}めに{持|も}ち{歩|ある}く。",
+      "japanese": "{汗|あせ}ばむ⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{着替|きが}え→着替え：16045_kigae⟧⟦を→を：00422_wo⟧⟦{多|おお}め→多め：28421_oome⟧⟦に→に：00314_ni⟧⟦{持|も}ち{歩|ある}く→持ち歩く：05739_mochiaruku⟧。",
       "english": "When the sweaty season arrives, I carry extra changes of clothes.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb (む row) derived from {汗|あせ} (sweat). Describes the onset of light perspiration rather than heavy sweating. Often used in descriptive or literary writing to convey physical sensation.\n\nUSAGE:\nThe ている form ({汗|あせ}ばんでいる) describes an ongoing state of being slightly sweaty. The attributive form ({汗|あせ}ばむ{肌|はだ}, sweaty skin) is common in descriptive prose.\n\nCOMMON COLLOCATIONS:\n- {額|ひたい}が{汗|あせ}ばむ — one's forehead gets sweaty\n- {手|て}が{汗|あせ}ばむ — one's hands get sweaty\n- {汗|あせ}ばむ{陽気|ようき} — sweaty weather\n- うっすら{汗|あせ}ばむ — to perspire faintly\n\nSIMILAR WORDS:\n- {汗|あせ}をかく — to sweat; the most common everyday expression for sweating, while {汗|あせ}ばむ emphasizes the gradual onset and lighter degree",
+  "notes": "A godan verb (む row) derived from ⟦{汗|あせ}→汗：02173_ase⟧ (sweat). Describes the onset of light perspiration rather than heavy sweating. Often used in descriptive or literary writing to convey physical sensation.\n\nUSAGE:\nThe て⟦いる→いる：00495_iru⟧ form ({汗|あせ}ばんで⟦いる→いる：00495_iru⟧) describes an ongoing state of being slightly sweaty. The attributive form ({汗|あせ}ばむ⟦{肌|はだ}→肌：02243_hada⟧, sweaty skin) is common in descriptive prose.\n\nCOMMON COLLOCATIONS:\n- ⟦{額|ひたい}→額：03579_hitai⟧⟦が→が：00051_ga⟧{汗|あせ}ばむ — one's forehead gets sweaty\n- ⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧{汗|あせ}ばむ — one's hands get sweaty\n- {汗|あせ}ばむ⟦{陽気|ようき}→陽気：03657_youki⟧ — sweaty weather\n- ⟦うっすら→うっすら：10236_ussura⟧{汗|あせ}ばむ — to perspire faintly\n\nSIMILAR WORDS:\n- ⟦{汗|あせ}をかく→汗をかく：16925_asewokaku⟧ — to sweat; the most common everyday expression for sweating, while {汗|あせ}ばむ emphasizes the gradual onset and lighter degree",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -156,9 +156,10 @@
       "semantic": [
         "health"
       ],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T07:22:00Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

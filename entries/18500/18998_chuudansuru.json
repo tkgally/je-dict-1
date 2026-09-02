@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18998_chuudansuru_ex1",
-      "japanese": "{工事|こうじ}が{中断|ちゅうだん}された。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧{中断|ちゅうだん}された。",
       "english": "Construction was suspended.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18998_chuudansuru_ex2",
-      "japanese": "{雨|あめ}で{試合|しあい}が{中断|ちゅうだん}した。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧{中断|ちゅうだん}した。",
       "english": "The game was interrupted by rain.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18998_chuudansuru_ex3",
-      "japanese": "サーバーの{障害|しょうがい}により、サービスが{一時的|いちじてき}に{中断|ちゅうだん}しております。",
+      "japanese": "⟦サーバー→サーバー：04755_saabaa⟧⟦の→の：09472_no⟧⟦{障害|しょうがい}→障害：03228_shougai⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦サービス→サービス：01531_saabisu⟧⟦が→が：00051_ga⟧⟦{一時的|いちじてき}→一時的：05846_ichijiteki⟧⟦に→に：00314_ni⟧{中断|ちゅうだん}して⟦おります→おる：01324_oru⟧。",
       "english": "Due to a server failure, the service has been temporarily suspended.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "Used both transitively ({作業|さぎょう}を{中断|ちゅうだん}する, to suspend work) and intransitively ({作業|さぎょう}が{中断|ちゅうだん}する, work is suspended). Unlike {中止|ちゅうし} (cancellation, permanent stop), {中断|ちゅうだん} implies the activity may be resumed. Common collocations: {一時|いちじ}{中断|ちゅうだん} (temporary interruption), {中断|ちゅうだん}なく (without interruption), {中断|ちゅうだん}を{余儀|よぎ}なくされる (to be forced to suspend).",
+  "notes": "Used both transitively (⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧{中断|ちゅうだん}する, to suspend work) and intransitively (⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧{中断|ちゅうだん}する, work is suspended). Unlike ⟦{中止|ちゅうし}→中止：03481_chuushi⟧ (cancellation, permanent stop), ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧ implies the activity may be resumed. Common collocations: ⟦{一時|いちじ}→一時：01799_ichiji⟧⟦{中断|ちゅうだん}→中断：05218_chuudan⟧ (temporary interruption), ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧⟦なく→ない：01118_nai⟧ (without interruption), ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧⟦を→を：00422_wo⟧⟦{余儀|よぎ}なく→余儀なく：28255_yoginaku⟧⟦される→する：00392_suru⟧ (to be forced to suspend).",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -167,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T12:14:22Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

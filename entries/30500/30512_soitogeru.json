@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30512_soitogeru_ex1",
-      "japanese": "{二人|ふたり}は{添|そ}い{遂|と}げた。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{添|そ}い{遂|と}げた。",
       "english": "The two stayed together for life.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30512_soitogeru_ex2",
-      "japanese": "{祖父母|そふぼ}は{六十年|ろくじゅうねん}{添|そ}い{遂|と}げた。",
+      "japanese": "⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧⟦は→は：00079_ha⟧{六十年|ろくじゅうねん}{添|そ}い{遂|と}げた。",
       "english": "My grandparents were together for sixty years.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30512_soitogeru_ex3",
-      "japanese": "{周|まわ}りに{反対|はんたい}されたが、{最後|さいご}まで{添|そ}い{遂|と}げることができた。",
+      "japanese": "⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦された→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧{添|そ}い{遂|と}げること⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Everyone around them was opposed, but they managed to stay together to the end.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {添|そ}う (to accompany, to be married to) + {遂|と}げる (to carry through to the end). The verb describes the whole span of a marriage, not a moment, so it is rarely used in the plain present tense about oneself except as a wish or vow.\n\nCOMMON COLLOCATIONS:\n- {最後|さいご}まで{添|そ}い{遂|と}げる: to stay together to the very end\n- {添|そ}い{遂|と}げたい: to want to spend one's life with someone\n- {添|そ}い{遂|と}げられなかった: to have been unable to stay together\n\nSIMILAR WORDS:\n- {結婚|けっこん}する: to marry — the event of marrying, not the lifelong course\n- {連|つ}れ{添|そ}う: to be married to, to live as a couple — the ongoing state, without the \"until death\" implication",
+  "notes": "Formed from ⟦{添|そ}う→添う：13344_sou⟧ (to accompany, to be married to) + ⟦{遂|と}げる→遂げる：14323_togeru⟧ (to carry through to the end). The verb describes the whole span of a marriage, not a moment, so it is rarely used in the plain present tense about oneself except as a wish or vow.\n\nCOMMON COLLOCATIONS:\n- ⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧{添|そ}い{遂|と}げる: to stay together to the very end\n- {添|そ}い{遂|と}げたい: to want to spend one's life with someone\n- {添|そ}い{遂|と}げられなかった: to have been unable to stay together\n\nSIMILAR WORDS:\n- ⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦する→する：00392_suru⟧: to marry — the event of marrying, not the lifelong course\n- ⟦{連|つ}れ{添|そ}う→連れ添う：30494_tsuresou⟧: to be married to, to live as a couple — the ongoing state, without the \"until death\" implication",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,10 +74,11 @@
         "family"
       ],
       "domain": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-08-09T03:19:08Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:40Z"
   },
   "conjugation": {
     "type": "ichidan",

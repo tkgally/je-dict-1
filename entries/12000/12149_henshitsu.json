@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12149_henshitsu_ex1",
-      "japanese": "{食品|しょくひん}が{変質|へんしつ}した。",
+      "japanese": "⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦が→が：00051_ga⟧{変質|へんしつ}⟦した→する：00392_suru⟧。",
       "english": "The food deteriorated in quality.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12149_henshitsu_ex2",
-      "japanese": "{高温|こうおん}{多湿|たしつ}の{環境|かんきょう}では{薬|くすり}が{変質|へんしつ}しやすい。",
+      "japanese": "⟦{高温|こうおん}{多湿|たしつ}→高温多湿：22197_kouontashitsu⟧⟦の→の：09472_no⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦が→が：00051_ga⟧{変質|へんしつ}しやすい。",
       "english": "Medicines are prone to deterioration in hot and humid environments.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12149_henshitsu_ex3",
-      "japanese": "{長年|ながねん}のうちに{組織|そしき}の{性格|せいかく}が{変質|へんしつ}し、{当初|とうしょ}の{理念|りねん}が{失|うしな}われた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧のうち⟦に→に：00314_ni⟧⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧⟦{性格|せいかく}→性格：03371_seikaku⟧⟦が→が：00051_ga⟧{変質|へんしつ}し、⟦{当初|とうしょ}→当初：12503_tousho⟧⟦の→の：09472_no⟧⟦{理念|りねん}→理念：06027_rinen⟧⟦が→が：00051_ga⟧⟦{失|うしな}われた→失う：01887_ushinau⟧。",
       "english": "Over the years, the character of the organization changed, and its original ideals were lost.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften carries a negative connotation, implying degradation rather than improvement. For physical substances, it suggests spoilage or chemical breakdown. For abstract concepts, it suggests corruption or loss of original character.\n\nRELATED WORDS:\n{変質者|へんしつしゃ} means a pervert or deviant — a completely different usage from the base word. This compound should not be confused with the general meaning of {変質|へんしつ}.\n\nCOMMON COLLOCATIONS:\n- {変質|へんしつ}する: to deteriorate, to undergo a change in quality\n- {変質|へんしつ}を{防|ふせ}ぐ: to prevent deterioration\n- {変質|へんしつ}{防止|ぼうし}: prevention of deterioration",
+  "notes": "USAGE:\nOften carries a negative connotation, implying degradation rather than improvement. For physical substances, it suggests spoilage or chemical breakdown. For abstract concepts, it suggests corruption or loss of original character.\n\nRELATED WORDS:\n{変質者|へんしつしゃ} means a pervert or deviant — a completely different usage from the base word. This compound should not be confused with the general meaning of {変質|へんしつ}.\n\nCOMMON COLLOCATIONS:\n- {変質|へんしつ}⟦する→する：00392_suru⟧: to deteriorate, to undergo a change in quality\n- {変質|へんしつ}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent deterioration\n- {変質|へんしつ}⟦{防止|ぼうし}→防止：14571_boushi⟧: prevention of deterioration",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T09:49:16Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

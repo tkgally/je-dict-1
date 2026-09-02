@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08188_sashizu_ex1",
-      "japanese": "{人|ひと}に{指図|さしず}するな。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{指図|さしず}⟦する→する：00392_suru⟧な。",
       "english": "Don't boss people around.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08188_sashizu_ex2",
-      "japanese": "{上司|じょうし}の{指図|さしず}に{従|したが}った。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧{指図|さしず}⟦に→に：00314_ni⟧⟦{従|したが}った→従う：02059_shitagau⟧。",
       "english": "I followed my boss's orders.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08188_sashizu_ex3",
-      "japanese": "{誰|だれ}にも{指図|さしず}されたくない。",
+      "japanese": "⟦{誰|だれ}→誰：00534_dare⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{指図|さしず}⟦されたくない→する：00392_suru⟧。",
       "english": "I don't want to be told what to do by anyone.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {指図|さしず}する (to give orders, to direct)\n- {指図|さしず}を{受|う}ける (to receive orders)\n- {人|ひと}に{指図|さしず}するな (don't boss people around)\nOften carries a negative connotation of being bossy or authoritarian. Used when someone is giving commands in an overbearing manner.\n\nSIMILAR WORDS:\n- {指示|しじ} - instructions (neutral, professional)\n- {命令|めいれい} - order, command (stronger, more formal)\n- {指図|さしず} - instructions (can imply bossiness)",
+  "notes": "USAGE:\n- {指図|さしず}⟦する→する：00392_suru⟧ (to give orders, to direct)\n- {指図|さしず}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive orders)\n- ⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{指図|さしず}⟦する→する：00392_suru⟧な (don't boss people around)\nOften carries a negative connotation of being bossy or authoritarian. Used when someone is giving commands in an overbearing manner.\n\nSIMILAR WORDS:\n- ⟦{指示|しじ}→指示：09674_shiji⟧ - instructions (neutral, professional)\n- ⟦{命令|めいれい}→命令：03754_meirei⟧ - order, command (stronger, more formal)\n- {指図|さしず} - instructions (can imply bossiness)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,10 +147,11 @@
         "communication",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-25T08:01:01Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {

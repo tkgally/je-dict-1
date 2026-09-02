@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14953_yougo_ex1",
-      "japanese": "{人権|じんけん}を{擁護|ようご}する。",
+      "japanese": "⟦{人権|じんけん}→人権：05416_jinken⟧⟦を→を：00422_wo⟧{擁護|ようご}⟦する→する：00392_suru⟧。",
       "english": "To defend human rights.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14953_yougo_ex2",
-      "japanese": "{彼|かれ}は{憲法|けんぽう}{改正|かいせい}に{反対|はんたい}し、{現行|げんこう}{憲法|けんぽう}の{擁護|ようご}を{訴|うった}えた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{憲法|けんぽう}→憲法：02744_kenpou⟧⟦{改正|かいせい}→改正：00446_kaisei⟧⟦に→に：00314_ni⟧⟦{反対|はんたい}→反対：01497_hantai⟧し、⟦{現行|げんこう}→現行：13503_genkou⟧⟦{憲法|けんぽう}→憲法：02744_kenpou⟧⟦の→の：09472_no⟧{擁護|ようご}⟦を→を：00422_wo⟧⟦{訴|うった}えた→訴える：01891_uttaeru⟧。",
       "english": "He opposed the constitutional amendment and called for the defense of the current constitution.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14953_yougo_ex3",
-      "japanese": "スキャンダルの{中|なか}でも{社長|しゃちょう}を{擁護|ようご}する{社員|しゃいん}がいた。",
+      "japanese": "スキャンダル⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦を→を：00422_wo⟧{擁護|ようご}⟦する→する：00392_suru⟧⟦{社員|しゃいん}→社員：03065_shain⟧がいた。",
       "english": "Even in the midst of the scandal, some employees defended the president.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "A formal word often used in legal, political, and human rights contexts.\n\nCOMMON COLLOCATIONS:\n- {人権|じんけん}{擁護|ようご} (human rights advocacy)\n- {憲法|けんぽう}{擁護|ようご} (defending the constitution)\n- {擁護|ようご}{派|は} (supporters, defenders — a faction)\n- {擁護|ようご}する{立場|たちば} (a position of defending/supporting)\n\nUSAGE:\n{擁護|ようご} implies taking a stance and actively defending something against attack or criticism. It is stronger than {支持|しじ} (support), which can be passive. {弁護|べんご} (legal defense) is more specific to courtroom settings.",
+  "notes": "A formal word often used in legal, political, and human rights contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{人権|じんけん}→人権：05416_jinken⟧{擁護|ようご} (human rights advocacy)\n- ⟦{憲法|けんぽう}→憲法：02744_kenpou⟧{擁護|ようご} (defending the constitution)\n- {擁護|ようご}⟦{派|は}→派：28356_ha⟧ (supporters, defenders — a faction)\n- {擁護|ようご}⟦する→する：00392_suru⟧⟦{立場|たちば}→立場：03403_tachiba⟧ (a position of defending/supporting)\n\nUSAGE:\n{擁護|ようご} implies taking a stance and actively defending something against attack or criticism. It is stronger than ⟦{支持|しじ}→支持：12933_shiji⟧ (support), which can be passive. ⟦{弁護|べんご}→弁護：10579_bengo⟧ (legal defense) is more specific to courtroom settings.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-04T07:27:33Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

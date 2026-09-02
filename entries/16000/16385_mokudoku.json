@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16385_mokudoku_ex1",
-      "japanese": "この{文章|ぶんしょう}を{黙読|もくどく}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦を→を：00422_wo⟧{黙読|もくどく}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please read this passage silently.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16385_mokudoku_ex2",
-      "japanese": "{図書館|としょかん}では{黙読|もくどく}がマナーだ。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{黙読|もくどく}⟦が→が：00051_ga⟧⟦マナー→マナー：11139_manaa⟧だ。",
       "english": "Reading silently is the proper etiquette in the library.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16385_mokudoku_ex3",
-      "japanese": "{音読|おんどく}より{黙読|もくどく}のほうが{速|はや}く{読|よ}める。",
+      "japanese": "⟦{音読|おんどく}→音読：15825_ondoku⟧⟦より→より：09476_yori⟧{黙読|もくどく}⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{速|はや}く→速い：00514_hayai⟧⟦{読|よ}める→読む：00426_yomu⟧。",
       "english": "You can read faster with silent reading than reading aloud.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n{黙読|もくどく} (silent reading) is the opposite of {音読|おんどく} (reading aloud). In Japanese schools, both are practiced. {音読|おんどく} is emphasized in language learning because it helps with pronunciation and retention, while {黙読|もくどく} is used for comprehension exercises.\n\nCOMMON COLLOCATIONS:\n- {黙読|もくどく}する (to read silently)\n- {黙読|もくどく}で{読|よ}む (to read by silent reading)\n- {黙読|もくどく}の{時間|じかん} (silent reading time)\n\nWRITING:\n{黙|もく} means silence, as in {沈黙|ちんもく} (silence). {読|どく} means reading.",
+  "notes": "SIMILAR WORDS:\n{黙読|もくどく} (silent reading) is the opposite of ⟦{音読|おんどく}→音読：15825_ondoku⟧ (reading aloud). In Japanese schools, both are practiced. ⟦{音読|おんどく}→音読：15825_ondoku⟧ is emphasized in language learning because it helps with pronunciation and retention, while {黙読|もくどく} is used for comprehension exercises.\n\nCOMMON COLLOCATIONS:\n- {黙読|もくどく}⟦する→する：00392_suru⟧ (to read silently)\n- {黙読|もくどく}⟦で→で：00502_de⟧⟦{読|よ}む→読む：00426_yomu⟧ (to read by silent reading)\n- {黙読|もくどく}⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧ (silent reading time)\n\nWRITING:\n{黙|もく} means silence, as in ⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧ (silence). {読|どく} means reading.",
   "cross_references": [
     {
       "type": "antonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-12T05:14:16Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
         "education",
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

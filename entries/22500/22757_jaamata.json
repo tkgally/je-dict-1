@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22757_jaamata_ex1",
-      "japanese": "じゃあまた{明日|あした}。",
+      "japanese": "じゃあまた⟦{明日|あした}→明日：00501_ashita⟧。",
       "english": "See you tomorrow, then.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22757_jaamata_ex2",
-      "japanese": "じゃあまたね。{気|き}をつけてね。",
+      "japanese": "じゃあまた⟦ね→ね：09474_ne⟧。{気|き}をつけて⟦ね→ね：09474_ne⟧。",
       "english": "See you later. Take care.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22757_jaamata_ex3",
-      "japanese": "{楽|たの}しかったよ。じゃあまた{今度|こんど}{遊|あそ}ぼう。",
+      "japanese": "⟦{楽|たの}しかった→楽しい：00817_tanoshii⟧⟦よ→よ：09475_yo⟧。じゃあまた⟦{今度|こんど}→今度：01327_kondo⟧⟦{遊|あそ}ぼう→遊ぶ：00550_asobu⟧。",
       "english": "That was fun. Well then, let's hang out again sometime.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A very common informal goodbye. Composed of じゃあ ('well then') and また ('again'). Often followed by a time expression: じゃあまた{明日|あした} ('see you tomorrow'), じゃあまた{来週|らいしゅう} ('see you next week'). Adding ね at the end (じゃあまたね) makes it softer and more friendly.\n\nFORMS:\n- じゃあまたね: see you later (softer, friendlier)\n- じゃあね: bye then (shorter, very casual)\n- ではまた: see you later (slightly more formal)\n- じゃ、また: same meaning, sometimes written with a comma\n\nSIMILAR WORDS:\n- またね: see you — even more casual shortening\n- さようなら: goodbye — formal; carries a more final, distant nuance\n- バイバイ: bye-bye — very casual, often used by younger speakers\n- お{疲|つか}れさまでした: good work / goodbye — used when leaving a workplace",
+  "notes": "A very common informal goodbye. Composed of ⟦じゃあ→じゃあ：02989_jaa⟧ ('well then') and ⟦また→また：00969_mata⟧ ('again'). Often followed by a time expression: じゃあまた⟦{明日|あした}→明日：00501_ashita⟧ ('see you tomorrow'), じゃあまた⟦{来週|らいしゅう}→来週：00746_raishuu⟧ ('see you next week'). Adding ⟦ね→ね：09474_ne⟧ at the end (じゃあまた⟦ね→ね：09474_ne⟧) makes it softer and more friendly.\n\nFORMS:\n- じゃあまた⟦ね→ね：09474_ne⟧: see you later (softer, friendlier)\n- ⟦じゃあ→じゃあ：02989_jaa⟧⟦ね→ね：09474_ne⟧: bye then (shorter, very casual)\n- ⟦では→では：02945_deha⟧⟦また→また：00969_mata⟧: see you later (slightly more formal)\n- ⟦じゃ→じゃ：03040_ja⟧、⟦また→また：00969_mata⟧: same meaning, sometimes written with a comma\n\nSIMILAR WORDS:\n- ⟦また→また：00969_mata⟧⟦ね→ね：09474_ne⟧: see you — even more casual shortening\n- ⟦さようなら→さようなら：10531_sayounara⟧: goodbye — formal; carries a more final, distant nuance\n- バイバイ: bye-bye — very casual, often used by younger speakers\n- お{疲|つか}れさまでした: good work / goodbye — used when leaving a workplace",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -82,6 +82,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T14:19:47Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

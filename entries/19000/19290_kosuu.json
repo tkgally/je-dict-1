@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19290_kosuu_ex1",
-      "japanese": "{個数|こすう}を{確認|かくにん}してください。",
+      "japanese": "{個数|こすう}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please confirm the number of items.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19290_kosuu_ex2",
-      "japanese": "{購入|こうにゅう}{個数|こすう}に{制限|せいげん}がある。",
+      "japanese": "⟦{購入|こうにゅう}→購入：03057_kounyuu⟧{個数|こすう}⟦に→に：00314_ni⟧⟦{制限|せいげん}→制限：03375_seigen⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a limit on the number of items you can purchase.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19290_kosuu_ex3",
-      "japanese": "{在庫|ざいこ}の{個数|こすう}が{合|あ}わないので、もう{一度|いちど}{数|かぞ}え{直|なお}してほしい。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦の→の：09472_no⟧{個数|こすう}⟦が→が：00051_ga⟧⟦{合|あ}わない→合う：10466_au⟧⟦の→の：09472_no⟧で、⟦もう{一度|いちど}→もう一度：02976_mouichido⟧⟦{数|かぞ}え→数える：01926_kazoeru⟧⟦{直|なお}して→直す：00869_naosu⟧ほしい。",
       "english": "The inventory count doesn't match, so I'd like you to recount.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {個|こ} (individual item counter) + {数|すう} (number). A precise term for counting discrete items, commonly found in business, retail, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {個数|こすう}{制限|せいげん} — quantity limit\n- {購入|こうにゅう}{個数|こすう} — purchase quantity\n- {個数|こすう}を{数|かぞ}える — to count the number of items\n- {個数|こすう}を{入力|にゅうりょく}する — to enter the quantity\n\nSIMILAR WORDS:\n- {数量|すうりょう} — quantity (broader, includes weight and volume)\n- {数|かず} — number, count (everyday word)\n- {点数|てんすう} — number of items (often in retail or scoring)",
+  "notes": "Compound of ⟦{個|こ}→〜個：00645_ko⟧ (individual item counter) + ⟦{数|すう}→数：03360_suu⟧ (number). A precise term for counting discrete items, commonly found in business, retail, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {個数|こすう}⟦{制限|せいげん}→制限：03375_seigen⟧ — quantity limit\n- ⟦{購入|こうにゅう}→購入：03057_kounyuu⟧{個数|こすう} — purchase quantity\n- {個数|こすう}⟦を→を：00422_wo⟧⟦{数|かぞ}える→数える：01926_kazoeru⟧ — to count the number of items\n- {個数|こすう}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力する：28127_nyuuryokusuru⟧ — to enter the quantity\n\nSIMILAR WORDS:\n- ⟦{数量|すうりょう}→数量：05473_suuryou⟧ — quantity (broader, includes weight and volume)\n- ⟦{数|かず}→数：00204_kazu⟧ — number, count (everyday word)\n- ⟦{点数|てんすう}→点数：04543_tensuu⟧ — number of items (often in retail or scoring)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,6 +75,6 @@
       ]
     },
     "created": "2026-03-25T04:46:24Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

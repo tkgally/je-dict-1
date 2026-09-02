@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16003_kyuunyuu_ex1",
-      "japanese": "{薬|くすり}を{吸入|きゅうにゅう}する。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{吸入|きゅうにゅう}⟦する→する：00392_suru⟧。",
       "english": "Inhale the medication.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16003_kyuunyuu_ex2",
-      "japanese": "{喘息|ぜんそく}の{治療|ちりょう}には{吸入|きゅうにゅう}{薬|やく}が{使|つか}われる。",
+      "japanese": "⟦{喘息|ぜんそく}→喘息：08444_zensoku⟧⟦の→の：09472_no⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{吸入|きゅうにゅう}{薬|やく}⟦が→が：00051_ga⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Inhaled medication is used to treat asthma.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16003_kyuunyuu_ex3",
-      "japanese": "{有毒|ゆうどく}ガスを{吸入|きゅうにゅう}しないように、マスクを{着用|ちゃくよう}してください。",
+      "japanese": "⟦{有毒|ゆうどく}→有毒：23801_yuudoku⟧⟦ガス→ガス：01344_gasu⟧⟦を→を：00422_wo⟧{吸入|きゅうにゅう}⟦しない→する：00392_suru⟧よう⟦に→に：00314_ni⟧、⟦マスク→マスク：05075_masuku⟧⟦を→を：00422_wo⟧⟦{着用|ちゃくよう}して→着用する：26849_chakuyousuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wear a mask so you don't inhale toxic gas.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used with する as {吸入|きゅうにゅう}する. Frequently appears in medical and safety contexts. The related compound {吸入器|きゅうにゅうき} means \"inhaler.\"\n\nCOMMON COLLOCATIONS:\n- {吸入|きゅうにゅう}する (to inhale)\n- {吸入|きゅうにゅう}{器|き} (inhaler)\n- {吸入|きゅうにゅう}{薬|やく} (inhaled medication)\n- {酸素|さんそ}{吸入|きゅうにゅう} (oxygen inhalation)\n\nSIMILAR WORDS:\n- {呼吸|こきゅう}: breathing, respiration — the general process of breathing in and out\n- {吸引|きゅういん}: suction, aspiration — drawing in by suction force",
+  "notes": "USAGE:\nMost commonly used with ⟦する→する：00392_suru⟧ as {吸入|きゅうにゅう}⟦する→する：00392_suru⟧. Frequently appears in medical and safety contexts. The related compound ⟦{吸入器|きゅうにゅうき}→吸入器：16305_kyuunyuuki⟧ means \"inhaler.\"\n\nCOMMON COLLOCATIONS:\n- {吸入|きゅうにゅう}⟦する→する：00392_suru⟧ (to inhale)\n- {吸入|きゅうにゅう}{器|き} (inhaler)\n- {吸入|きゅうにゅう}{薬|やく} (inhaled medication)\n- ⟦{酸素|さんそ}→酸素：02830_sanso⟧{吸入|きゅうにゅう} (oxygen inhalation)\n\nSIMILAR WORDS:\n- ⟦{呼吸|こきゅう}→呼吸：02754_kokyuu⟧: breathing, respiration — the general process of breathing in and out\n- ⟦{吸引|きゅういん}→吸引：24162_kyuuin⟧: suction, aspiration — drawing in by suction force",
   "cross_references": [
     {
       "type": "related",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-09T06:22:48Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -169,7 +169,8 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

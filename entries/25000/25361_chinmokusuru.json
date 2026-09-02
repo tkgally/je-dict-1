@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25361_chinmokusuru_ex1",
-      "japanese": "{彼|かれ}は{沈黙|ちんもく}を{守|まも}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧⟦を→を：00422_wo⟧⟦{守|まも}った→守る：01986_mamoru⟧。",
       "english": "He maintained his silence.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25361_chinmokusuru_ex2",
-      "japanese": "その{質問|しつもん}に{対|たい}して、{全員|ぜんいん}が{沈黙|ちんもく}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧、⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧{沈黙|ちんもく}した。",
       "english": "Everyone fell silent at that question.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25361_chinmokusuru_ex3",
-      "japanese": "{沈黙|ちんもく}は{金|きん}なり。",
+      "japanese": "⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧⟦は→は：00079_ha⟧{金|きん}なり。",
       "english": "Silence is golden. (proverb)",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25361_chinmokusuru_ex4",
-      "japanese": "{不正|ふせい}を{見|み}ても{沈黙|ちんもく}することは、{加担|かたん}しているのと{同|おな}じだ。",
+      "japanese": "⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦も→も：00484_mo⟧{沈黙|ちんもく}すること⟦は→は：00079_ha⟧、{加担|かたん}⟦している→する：00392_suru⟧⟦の→の：09472_no⟧⟦と→と：00512_to⟧⟦{同|おな}じ→同じ：02857_onaji⟧だ。",
       "english": "Remaining silent even when you see wrongdoing is the same as being complicit.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Implies a deliberate, often weighted silence — not simply being quiet. The noun {沈黙|ちんもく} is used even more frequently than the verb form. Often carries dramatic or serious overtones.\n\nCOMMON COLLOCATIONS:\n- {沈黙|ちんもく}を{守|まも}る: to maintain silence\n- {沈黙|ちんもく}を{破|やぶ}る: to break the silence\n- {沈黙|ちんもく}が{流|なが}れる: silence falls (over a room)\n- {長|なが}い{沈黙|ちんもく}: a long silence\n- {重|おも}い{沈黙|ちんもく}: a heavy silence\n\nSIMILAR WORDS:\n- {黙|だま}る: to become silent — more colloquial and everyday\n- {無言|むごん}: wordlessness — describes the state of not speaking rather than the act\n- {黙秘|もくひ}する: to remain silent (legal) — specifically exercising the right to silence",
+  "notes": "Implies a deliberate, often weighted silence — not simply being quiet. The noun ⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧ is used even more frequently than the verb form. Often carries dramatic or serious overtones.\n\nCOMMON COLLOCATIONS:\n- ⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to maintain silence\n- ⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧⟦を→を：00422_wo⟧⟦{破|やぶ}る→破る：02321_yaburu⟧: to break the silence\n- ⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧⟦が→が：00051_ga⟧⟦{流|なが}れる→流れる：01969_nagareru⟧: silence falls (over a room)\n- ⟦{長|なが}い→長い：00491_nagai⟧⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧: a long silence\n- ⟦{重|おも}い→重い：00804_omoi⟧⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧: a heavy silence\n\nSIMILAR WORDS:\n- ⟦{黙|だま}る→黙る：02287_damaru⟧: to become silent — more colloquial and everyday\n- ⟦{無言|むごん}→無言：13384_mugon⟧: wordlessness — describes the state of not speaking rather than the act\n- ⟦{黙秘|もくひ}→黙秘：08393_mokuhi⟧⟦する→する：00392_suru⟧: to remain silent (legal) — specifically exercising the right to silence",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -99,10 +99,11 @@
         "communication",
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T16:10:59Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

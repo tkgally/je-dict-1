@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18535_juuketsu_ex1",
-      "japanese": "{目|め}が{充血|じゅうけつ}している。",
+      "japanese": "⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{充血|じゅうけつ}⟦している→する：00392_suru⟧。",
       "english": "My eyes are bloodshot.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18535_juuketsu_ex2",
-      "japanese": "{寝不足|ねぶそく}で{目|め}が{充血|じゅうけつ}してしまった。",
+      "japanese": "⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧⟦で→で：00502_de⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{充血|じゅうけつ}⟦して→する：00392_suru⟧しまった。",
       "english": "My eyes became bloodshot from lack of sleep.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18535_juuketsu_ex3",
-      "japanese": "{花粉症|かふんしょう}のせいで{目|め}がかゆくて{充血|じゅうけつ}がひどい。",
+      "japanese": "⟦{花粉症|かふんしょう}→花粉症：04409_kafunshou⟧⟦の→の：09472_no⟧せい⟦で→で：00502_de⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦かゆくて→かゆい：02340_kayui⟧{充血|じゅうけつ}⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "Due to hay fever, my eyes are itchy and severely bloodshot.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {充|じゅう} (fill, be full) + {血|けつ} (blood). Functions as a suru verb: {充血|じゅうけつ}する.\n\nMOST COMMON USE:\n{目|め}が{充血|じゅうけつ}する (eyes become bloodshot) is by far the most frequent context.\n\nCOMMON CAUSES:\n- {寝不足|ねぶそく}: lack of sleep\n- {花粉症|かふんしょう}: hay fever\n- {疲|つか}れ{目|め}: eye strain\n- アレルギー: allergies\n- {長時間|ちょうじかん}のパソコン{作業|さぎょう}: long computer work\n\nCOMMON COLLOCATIONS:\n- {目|め}が{充血|じゅうけつ}している: eyes are bloodshot\n- {充血|じゅうけつ}がひどい: severely bloodshot\n- {充血|じゅうけつ}を{抑|おさ}える: to reduce redness\n\nMEDICAL CONTEXT:\nIn medical terminology, {充血|じゅうけつ} (hyperemia) can refer to blood congestion in any body part, not just eyes.",
+  "notes": "Composed of {充|じゅう} (fill, be full) + {血|けつ} (blood). Functions as a suru verb: {充血|じゅうけつ}⟦する→する：00392_suru⟧.\n\nMOST COMMON USE:\n⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{充血|じゅうけつ}⟦する→する：00392_suru⟧ (eyes become bloodshot) is by far the most frequent context.\n\nCOMMON CAUSES:\n- ⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧: lack of sleep\n- ⟦{花粉症|かふんしょう}→花粉症：04409_kafunshou⟧: hay fever\n- {疲|つか}れ{目|め}: eye strain\n- ⟦アレルギー→アレルギー：04645_arerugii⟧: allergies\n- ⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦の→の：09472_no⟧⟦パソコン→パソコン：01538_pasokon⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧: long computer work\n\nCOMMON COLLOCATIONS:\n- ⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{充血|じゅうけつ}⟦している→する：00392_suru⟧: eyes are bloodshot\n- {充血|じゅうけつ}⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧: severely bloodshot\n- {充血|じゅうけつ}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to reduce redness\n\nMEDICAL CONTEXT:\nIn medical terminology, {充血|じゅうけつ} (hyperemia) can refer to blood congestion in any body part, not just eyes.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -151,9 +151,10 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-22T04:44:30Z",
-    "modified": "2026-09-02T02:55:16Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

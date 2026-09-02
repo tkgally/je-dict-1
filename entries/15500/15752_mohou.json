@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15752_mohou_ex1",
-      "japanese": "{子供|こども}は{大人|おとな}を{模倣|もほう}して{学|まな}ぶ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦は→は：00079_ha⟧⟦{大人|おとな}→大人：02856_otona⟧⟦を→を：00422_wo⟧{模倣|もほう}⟦して→する：00392_suru⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "Children learn by imitating adults.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15752_mohou_ex2",
-      "japanese": "この{作品|さくひん}は{有名|ゆうめい}な{画家|がか}の{模倣|もほう}にすぎない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧{模倣|もほう}⟦に→に：00314_ni⟧すぎない。",
       "english": "This work is nothing more than an imitation of a famous painter.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15752_mohou_ex3",
-      "japanese": "{模倣|もほう}{犯罪|はんざい}を{防|ふせ}ぐために、{報道|ほうどう}の{仕方|しかた}にも{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "{模倣|もほう}⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{報道|ほうどう}→報道：04438_houdou⟧⟦の→の：09472_no⟧⟦{仕方|しかた}→仕方：01603_shikata⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Care must be taken in how things are reported in order to prevent copycat crimes.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{模倣|もほう} is more formal than {真似|まね} (imitation/mimicry). It is commonly used in academic, artistic, and media contexts. It can function as a suru-verb: {模倣|もほう}する (to imitate).\n\nCOMMON COLLOCATIONS:\n- {模倣|もほう}する (to imitate)\n- {模倣|もほう}{犯罪|はんざい} (copycat crime)\n- {模倣|もほう}{品|ひん} (imitation product, counterfeit)\n- {模倣|もほう}{者|しゃ} (imitator)\n- {模倣|もほう}から{始|はじ}まる (start from imitation)\n\nSIMILAR WORDS:\n{真似|まね} is the everyday word for \"imitation\" or \"mimicry\" and is less formal. {模写|もしゃ} specifically refers to copying a painting or artwork. {偽造|ぎぞう} means \"forgery\" or \"counterfeiting\" and implies illegal intent.",
+  "notes": "USAGE:\n{模倣|もほう} is more formal than ⟦{真似|まね}→真似：03736_mane⟧ (imitation/mimicry). It is commonly used in academic, artistic, and media contexts. It can function as a suru-verb: {模倣|もほう}⟦する→する：00392_suru⟧ (to imitate).\n\nCOMMON COLLOCATIONS:\n- {模倣|もほう}⟦する→する：00392_suru⟧ (to imitate)\n- {模倣|もほう}⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧ (copycat crime)\n- {模倣|もほう}{品|ひん} (imitation product, counterfeit)\n- {模倣|もほう}⟦{者|しゃ}→〜者：04662_sha⟧ (imitator)\n- {模倣|もほう}⟦から→から：00504_kara⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧ (start from imitation)\n\nSIMILAR WORDS:\n⟦{真似|まね}→真似：03736_mane⟧ is the everyday word for \"imitation\" or \"mimicry\" and is less formal. ⟦{模写|もしゃ}→模写：19473_mosha⟧ specifically refers to copying a painting or artwork. ⟦{偽造|ぎぞう}→偽造：11524_gizou⟧ means \"forgery\" or \"counterfeiting\" and implies illegal intent.",
   "cross_references": [
     {
       "type": "synonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T09:11:56Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -188,7 +188,8 @@
         "action",
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

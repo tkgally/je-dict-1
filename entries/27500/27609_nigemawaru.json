@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27609_nigemawaru_ex1",
-      "japanese": "{犬|いぬ}が{家中|いえじゅう}を{逃|に}げ{回|まわ}った。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧{家中|いえじゅう}⟦を→を：00422_wo⟧{逃|に}げ{回|まわ}った。",
       "english": "The dog ran around the house trying to escape.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27609_nigemawaru_ex2",
-      "japanese": "{犯人|はんにん}は{警察|けいさつ}から{逃|に}げ{回|まわ}っている。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦から→から：00504_kara⟧{逃|に}げ{回|まわ}って⟦いる→いる：00495_iru⟧。",
       "english": "The suspect is running around trying to evade the police.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27609_nigemawaru_ex3",
-      "japanese": "{借金|しゃっきん}{取|と}りから{逃|に}げ{回|まわ}る{生活|せいかつ}にはもう{疲|つか}れた。",
+      "japanese": "⟦{借金|しゃっきん}→借金：03203_shakkin⟧{取|と}り⟦から→から：00504_kara⟧{逃|に}げ{回|まわ}る⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{疲|つか}れた→疲れる：00901_tsukareru⟧。",
       "english": "I'm tired of a life spent dodging debt collectors.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Intransitive godan verb. Compound of {逃|に}げる (to flee) + {回|まわ}る (to go around). The 〜{回|まわ}る suffix adds a sense of doing the action repeatedly or all over.\n\nCOMMON COLLOCATIONS:\n- 〜から{逃|に}げ{回|まわ}る: to keep running from ~\n- {責任|せきにん}から{逃|に}げ{回|まわ}る: to keep dodging responsibility\n- あちこち{逃|に}げ{回|まわ}る: to run around here and there\n\nSIMILAR WORDS:\n- {逃|に}げる: to flee — single act of escaping; no sense of repeated movement\n- {逃|に}げ{出|だ}す: to break out, run away — emphasizes the start of fleeing\n- {振|ふ}り{切|き}る: to shake off — succeed in escaping a pursuer",
+  "notes": "TRANSITIVITY: Intransitive godan verb. Compound of ⟦{逃|に}げる→逃げる：01151_nigeru⟧ (to flee) + ⟦{回|まわ}る→回る：01150_mawaru⟧ (to go around). The 〜⟦{回|まわ}る→回る：01150_mawaru⟧ suffix adds a sense of doing the action repeatedly or all over.\n\nCOMMON COLLOCATIONS:\n- 〜⟦から→から：00504_kara⟧{逃|に}げ{回|まわ}る: to keep running from ~\n- ⟦{責任|せきにん}→責任：03298_sekinin⟧⟦から→から：00504_kara⟧{逃|に}げ{回|まわ}る: to keep dodging responsibility\n- ⟦あちこち→あちこち：01687_achikochi⟧{逃|に}げ{回|まわ}る: to run around here and there\n\nSIMILAR WORDS:\n- ⟦{逃|に}げる→逃げる：01151_nigeru⟧: to flee — single act of escaping; no sense of repeated movement\n- ⟦{逃|に}げ{出|だ}す→逃げ出す：06041_nigedasu⟧: to break out, run away — emphasizes the start of fleeing\n- ⟦{振|ふ}り{切|き}る→振り切る：06703_furikiru⟧: to shake off — succeed in escaping a pursuer",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -82,10 +82,11 @@
         "movement"
       ],
       "domain": [],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-15T03:09:54Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "godan",

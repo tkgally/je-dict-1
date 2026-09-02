@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14905_chakunin_ex1",
-      "japanese": "{新|しん}{大使|たいし}が{着任|ちゃくにん}した。",
+      "japanese": "{新|しん}⟦{大使|たいし}→大使：03391_taishi⟧⟦が→が：00051_ga⟧{着任|ちゃくにん}⟦した→する：00392_suru⟧。",
       "english": "The new ambassador took up his post.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14905_chakunin_ex2",
-      "japanese": "{来月|らいげつ}{着任|ちゃくにん}{予定|よてい}の{校長|こうちょう}を{紹介|しょうかい}します。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧{着任|ちゃくにん}⟦{予定|よてい}→予定：00824_yotei⟧⟦の→の：09472_no⟧⟦{校長|こうちょう}→校長：01582_kouchou⟧⟦を→を：00422_wo⟧⟦{紹介|しょうかい}します→紹介する：05641_shoukaisuru⟧。",
       "english": "I will introduce the principal who is scheduled to take up the position next month.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14905_chakunin_ex3",
-      "japanese": "{海外|かいがい}{支社|ししゃ}に{着任|ちゃくにん}して{最初|さいしょ}の{一週間|いっしゅうかん}は、{現地|げんち}スタッフとの{顔合|かおあ}わせに{追|お}われた。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧{支社|ししゃ}⟦に→に：00314_ni⟧{着任|ちゃくにん}⟦して→する：00392_suru⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦は→は：00079_ha⟧、⟦{現地|げんち}→現地：13502_genchi⟧⟦スタッフ→スタッフ：11046_sutaffu⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{顔合|かおあ}わせ→顔合わせ：10685_kaoawase⟧⟦に→に：00314_ni⟧⟦{追|お}われた→追う：02016_ou⟧。",
       "english": "During my first week after taking up my post at the overseas branch, I was busy meeting all the local staff.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{着任|ちゃくにん} is a formal word used in business, government, and diplomatic contexts. It emphasizes the act of arriving at and beginning a new role, often after being transferred or appointed. The antonym is {離任|りにん} (leaving a post).\n\nCOMMON COLLOCATIONS:\n- {着任|ちゃくにん}する (to take up a post)\n- {着任|ちゃくにん}{挨拶|あいさつ} (greeting upon assuming a new post)\n- {着任|ちゃくにん}{早々|そうそう} (soon after taking up a post)\n- {着任|ちゃくにん}{予定|よてい} (scheduled to take up a post)\n\nSIMILAR WORDS:\n- {着任|ちゃくにん}: taking up a post (arrival and start at a new position)\n- {就任|しゅうにん}: inauguration (formal assumption of a high-level position)\n- {赴任|ふにん}: proceeding to a new post (emphasis on traveling to the location)\n- {退任|たいにん}: leaving office (opposite of {着任|ちゃくにん})",
+  "notes": "USAGE:\n{着任|ちゃくにん} is a formal word used in business, government, and diplomatic contexts. It emphasizes the act of arriving at and beginning a new role, often after being transferred or appointed. The antonym is {離任|りにん} (leaving a post).\n\nCOMMON COLLOCATIONS:\n- {着任|ちゃくにん}⟦する→する：00392_suru⟧ (to take up a post)\n- {着任|ちゃくにん}⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧ (greeting upon assuming a new post)\n- {着任|ちゃくにん}⟦{早々|そうそう}→早々：12959_sousou⟧ (soon after taking up a post)\n- {着任|ちゃくにん}⟦{予定|よてい}→予定：00824_yotei⟧ (scheduled to take up a post)\n\nSIMILAR WORDS:\n- {着任|ちゃくにん}: taking up a post (arrival and start at a new position)\n- ⟦{就任|しゅうにん}→就任：12368_shuunin⟧: inauguration (formal assumption of a high-level position)\n- ⟦{赴任|ふにん}→赴任：10601_funin⟧: proceeding to a new post (emphasis on traveling to the location)\n- ⟦{退任|たいにん}→退任：14904_tainin⟧: leaving office (opposite of {着任|ちゃくにん})",
   "cross_references": [
     {
       "type": "antonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-04T05:51:12Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

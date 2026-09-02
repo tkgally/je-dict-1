@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15735_ikishouchin_ex1",
-      "japanese": "チームは{意気消沈|いきしょうちん}していた。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧{意気消沈|いきしょうちん}⟦していた→する：00392_suru⟧。",
       "english": "The team was dispirited.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15735_ikishouchin_ex2",
-      "japanese": "{試合|しあい}に{負|ま}けて{意気消沈|いきしょうちん}する{選手|せんしゅ}たちを{励|はげ}ました。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦{負|ま}けて→負ける：01134_makeru⟧{意気消沈|いきしょうちん}⟦する→する：00392_suru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦を→を：00422_wo⟧⟦{励|はげ}ました→励ます：05304_hagemasu⟧。",
       "english": "I encouraged the players who were dejected after losing the game.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15735_ikishouchin_ex3",
-      "japanese": "プロジェクトの{中止|ちゅうし}が{決|き}まり、{部署|ぶしょ}{全体|ぜんたい}が{意気消沈|いきしょうちん}してしまった。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦が→が：00051_ga⟧⟦{決|き}まり→決まる：01233_kimaru⟧、⟦{部署|ぶしょ}→部署：08187_busho⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧{意気消沈|いきしょうちん}⟦して→する：00392_suru⟧しまった。",
       "english": "When the project cancellation was decided, the entire department became demoralized.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{意気消沈|いきしょうちん} is a {四字熟語|よじじゅくご} (four-character compound) meaning dejection or loss of morale. Composed of {意気|いき} (spirit, morale) + {消沈|しょうちん} (sinking, fading).\n\nCOMMON PATTERNS:\n- {意気消沈|いきしょうちん}する: to become dejected\n- {意気消沈|いきしょうちん}している: to be in low spirits\n- すっかり{意気消沈|いきしょうちん}する: to become completely dispirited\n\nSIMILAR WORDS:\n- {意気揚々|いきようよう}: in high spirits, triumphant (opposite)\n- {意気投合|いきとうごう}: hitting it off, seeing eye to eye\n- {意気込|いきご}む: to be enthusiastic, to be fired up\n\nREGISTER:\nSomewhat formal and literary. In casual speech, {落|お}ち{込|こ}む (to feel down) or がっかりする (to be disappointed) are more natural.",
+  "notes": "{意気消沈|いきしょうちん} is a ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧ (four-character compound) meaning dejection or loss of morale. Composed of ⟦{意気|いき}→意気：29669_iki⟧ (spirit, morale) + {消沈|しょうちん} (sinking, fading).\n\nCOMMON PATTERNS:\n- {意気消沈|いきしょうちん}⟦する→する：00392_suru⟧: to become dejected\n- {意気消沈|いきしょうちん}⟦している→する：00392_suru⟧: to be in low spirits\n- ⟦すっかり→すっかり：01270_sukkari⟧{意気消沈|いきしょうちん}⟦する→する：00392_suru⟧: to become completely dispirited\n\nSIMILAR WORDS:\n- ⟦{意気揚々|いきようよう}→意気揚々：12683_ikiyouyou⟧: in high spirits, triumphant (opposite)\n- ⟦{意気投合|いきとうごう}→意気投合：06392_ikitougou⟧: hitting it off, seeing eye to eye\n- {意気込|いきご}む: to be enthusiastic, to be fired up\n\nREGISTER:\nSomewhat formal and literary. In casual speech, ⟦{落|お}ち{込|こ}む→落ち込む：05750_ochikomu⟧ (to feel down) or ⟦がっかりする→がっかりする：21758_gakkarisuru⟧ (to be disappointed) are more natural.",
   "cross_references": [
     {
       "type": "antonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T08:54:34Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

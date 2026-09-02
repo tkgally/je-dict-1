@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17226_kakikuzusu_ex1",
-      "japanese": "{漢字|かんじ}を{書|か}き{崩|くず}して{書|か}く。",
+      "japanese": "⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦を→を：00422_wo⟧{書|か}き{崩|くず}して⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "To write kanji in cursive style.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17226_kakikuzusu_ex2",
-      "japanese": "{書|か}き{崩|くず}した{字|じ}は{読|よ}みにくい。",
+      "japanese": "{書|か}き{崩|くず}した⟦{字|じ}→字：01606_ji⟧⟦は→は：00079_ha⟧⟦{読|よ}み→読む：00426_yomu⟧にくい。",
       "english": "Loosely written characters are hard to read.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17226_kakikuzusu_ex3",
-      "japanese": "{祖父|そふ}の{手紙|てがみ}は{書|か}き{崩|くず}してあって、{何|なに}が{書|か}いてあるか{分|わ}からなかった。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦は→は：00079_ha⟧{書|か}き{崩|くず}して⟦あって→ある：00006_aru⟧、⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧⟦{書|か}いてある→書く：00477_kaku⟧⟦か→か：09473_ka⟧⟦{分|わ}からなかった→分かる：00463_wakaru⟧。",
       "english": "My grandfather's letter was written in such a loose hand that I couldn't tell what it said.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "FORMS:\n{書|か}く (to write) + {崩|くず}す (to break down, to simplify). Literally 'to break down the writing,' meaning to simplify character strokes.\n\nUSAGE:\nIn calligraphy, {書|か}き{崩|くず}す can be a positive term describing artistic cursive ({草書|そうしょ} or {行書|ぎょうしょ} style). In everyday contexts, it often describes handwriting that is too loose or messy to read easily.\n\nCOMMON COLLOCATIONS:\n- {字|じ}を{書|か}き{崩|くず}す (to write characters loosely)\n- {書|か}き{崩|くず}した{文字|もじ} (loosely written characters)\n- {達筆|たっぴつ}で{書|か}き{崩|くず}してある (written in skilled cursive)\n\nSIMILAR WORDS:\n- {崩|くず}し{字|じ}: cursive characters — the noun form for characters written in simplified style",
+  "notes": "FORMS:\n⟦{書|か}く→書く：00477_kaku⟧ (to write) + ⟦{崩|くず}す→崩す：03919_kuzusu⟧ (to break down, to simplify). Literally 'to break down the writing,' meaning to simplify character strokes.\n\nUSAGE:\nIn calligraphy, {書|か}き{崩|くず}す can be a positive term describing artistic cursive (⟦{草書|そうしょ}→草書：19196_sousho⟧ or ⟦{行書|ぎょうしょ}→行書：19195_gyousho⟧ style). In everyday contexts, it often describes handwriting that is too loose or messy to read easily.\n\nCOMMON COLLOCATIONS:\n- ⟦{字|じ}→字：01606_ji⟧⟦を→を：00422_wo⟧{書|か}き{崩|くず}す (to write characters loosely)\n- {書|か}き{崩|くず}した⟦{文字|もじ}→文字：03632_moji⟧ (loosely written characters)\n- ⟦{達筆|たっぴつ}→達筆：26860_tappitsu⟧⟦で→で：00502_de⟧{書|か}き{崩|くず}して⟦ある→ある：00006_aru⟧ (written in skilled cursive)\n\nSIMILAR WORDS:\n- {崩|くず}し{字|じ}: cursive characters — the noun form for characters written in simplified style",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
         "communication",
         "art"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     }
   }
 }

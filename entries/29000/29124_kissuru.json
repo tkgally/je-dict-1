@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29124_kissuru_ex1",
-      "japanese": "{敗北|はいぼく}を{喫|きっ}した。",
+      "japanese": "⟦{敗北|はいぼく}→敗北：12872_haiboku⟧⟦を→を：00422_wo⟧{喫|きっ}した。",
       "english": "They suffered a defeat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29124_kissuru_ex2",
-      "japanese": "チームは{惨敗|ざんぱい}を{喫|きっ}してシーズンを{終|お}えた。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{惨敗|ざんぱい}→惨敗：08236_zanpai⟧⟦を→を：00422_wo⟧{喫|きっ}して⟦シーズン→シーズン：10944_shiizun⟧⟦を→を：00422_wo⟧⟦{終|お}えた→終える：02019_oeru⟧。",
       "english": "The team ended the season having suffered a crushing defeat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29124_kissuru_ex3",
-      "japanese": "{強豪校|きょうごうこう}に{完封負|かんぷうま}けを{喫|きっ}し、{選手|せんしゅ}たちは{言葉|ことば}を{失|うしな}った。",
+      "japanese": "{強豪校|きょうごうこう}⟦に→に：00314_ni⟧{完封負|かんぷうま}け⟦を→を：00422_wo⟧{喫|きっ}し、⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{失|うしな}った→失う：01887_ushinau⟧。",
       "english": "Having suffered a shutout loss to a powerhouse school, the players were left speechless.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Primarily used in the fixed phrase ～を{喫|きっ}する to mean \"to suffer ~\". Mostly seen in sports reporting, news, and formal writing.\n\nCOMMON COLLOCATIONS:\n- {敗北|はいぼく}を{喫|きっ}する: to suffer a defeat\n- {惨敗|ざんぱい}を{喫|きっ}する: to suffer a crushing defeat\n- {完封負|かんぷうま}けを{喫|きっ}する: to suffer a shutout loss\n- {逆転負|ぎゃくてんま}けを{喫|きっ}する: to suffer a come-from-behind loss\n\nThe kanji {喫|きっ} also appears in {喫茶|きっさ} (coffee shop) and {喫煙|きつえん} (smoking), where it carries the sense of \"taking in\" or \"consuming\".",
+  "notes": "Primarily used in the fixed phrase ～⟦を→を：00422_wo⟧{喫|きっ}する to mean \"to suffer ~\". Mostly seen in sports reporting, news, and formal writing.\n\nCOMMON COLLOCATIONS:\n- ⟦{敗北|はいぼく}→敗北：12872_haiboku⟧⟦を→を：00422_wo⟧{喫|きっ}する: to suffer a defeat\n- ⟦{惨敗|ざんぱい}→惨敗：08236_zanpai⟧⟦を→を：00422_wo⟧{喫|きっ}する: to suffer a crushing defeat\n- {完封負|かんぷうま}け⟦を→を：00422_wo⟧{喫|きっ}する: to suffer a shutout loss\n- ⟦{逆転負|ぎゃくてんま}け→逆転負け：16452_gyakutenmake⟧⟦を→を：00422_wo⟧{喫|きっ}する: to suffer a come-from-behind loss\n\nThe kanji {喫|きっ} also appears in ⟦{喫茶|きっさ}→喫茶：28984_kissa⟧ (coffee shop) and ⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧ (smoking), where it carries the sense of \"taking in\" or \"consuming\".",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-06-11T11:37:14Z",
-    "modified": "2026-09-02T02:55:22Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "21989_kansatsusuru_ex1",
-      "japanese": "{鳥|とり}を{観察|かんさつ}する。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦を→を：00422_wo⟧{観察|かんさつ}する。",
       "english": "To observe birds.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "21989_kansatsusuru_ex2",
-      "japanese": "{子|こ}どもたちが{虫|むし}を{観察|かんさつ}している。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧{観察|かんさつ}して⟦いる→いる：00495_iru⟧。",
       "english": "The children are observing insects.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "21989_kansatsusuru_ex3",
-      "japanese": "{患者|かんじゃ}の{様子|ようす}を{注意深|ちゅういぶか}く{観察|かんさつ}して、{変化|へんか}があれば{報告|ほうこく}してください。",
+      "japanese": "⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧⟦{様子|ようす}→様子：01521_yousu⟧⟦を→を：00422_wo⟧⟦{注意深|ちゅういぶか}く→注意深い：16848_chuuibukai⟧{観察|かんさつ}して、⟦{変化|へんか}→変化：03615_henka⟧⟦が→が：00051_ga⟧⟦あれば→ある：00006_aru⟧⟦{報告|ほうこく}して→報告する：05644_houkokusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please observe the patient carefully and report any changes.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Implies systematic, purposeful watching — not casual looking. Commonly used in science education, nature study, and medical/clinical contexts.\n\nCOMMON COLLOCATIONS:\n- {自然|しぜん}を{観察|かんさつ}する: to observe nature\n- {行動|こうどう}を{観察|かんさつ}する: to observe behavior\n- {観察|かんさつ}{力|りょく}: powers of observation\n- {観察|かんさつ}{日記|にっき}: observation diary (common school assignment)\n- {経過|けいか}{観察|かんさつ}: follow-up observation (medical)\n\nSIMILAR WORDS:\n- {見|み}る: to look, see — general and casual\n- {注目|ちゅうもく}する: to pay attention to, focus on — emphasizes directing attention\n- {監視|かんし}する: to monitor, surveil — implies watching for security or control purposes\n- {観測|かんそく}する: to observe (scientific instruments) — used for weather, astronomy",
+  "notes": "Implies systematic, purposeful watching — not casual looking. Commonly used in science education, nature study, and medical/clinical contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦を→を：00422_wo⟧{観察|かんさつ}する: to observe nature\n- ⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧{観察|かんさつ}する: to observe behavior\n- ⟦{観察|かんさつ}{力|りょく}→観察力：08524_kansatsuryoku⟧: powers of observation\n- ⟦{観察|かんさつ}→観察：02558_kansatsu⟧⟦{日記|にっき}→日記：01486_nikki⟧: observation diary (common school assignment)\n- ⟦{経過|けいか}{観察|かんさつ}→経過観察：09019_keikakansatsu⟧: follow-up observation (medical)\n\nSIMILAR WORDS:\n- ⟦{見|み}る→見る：00283_miru⟧: to look, see — general and casual\n- ⟦{注目|ちゅうもく}する→注目する：25530_chuumokusuru⟧: to pay attention to, focus on — emphasizes directing attention\n- ⟦{監視|かんし}→監視：05521_kanshi⟧⟦する→する：00392_suru⟧: to monitor, surveil — implies watching for security or control purposes\n- ⟦{観測|かんそく}→観測：00183_kansoku⟧⟦する→する：00392_suru⟧: to observe (scientific instruments) — used for weather, astronomy",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -179,9 +179,10 @@
         "science",
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-04T19:28:45Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

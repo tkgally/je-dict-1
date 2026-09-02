@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18940_rikisetsu_ex1",
-      "japanese": "{教育|きょういく}の{重要性|じゅうようせい}を{力説|りきせつ}した。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦の→の：09472_no⟧⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦を→を：00422_wo⟧{力説|りきせつ}⟦した→する：00392_suru⟧。",
       "english": "He emphasized the importance of education.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18940_rikisetsu_ex2",
-      "japanese": "{社長|しゃちょう}は{会議|かいぎ}で{改革|かいかく}の{必要性|ひつようせい}を{力説|りきせつ}した。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦の→の：09472_no⟧⟦{必要性|ひつようせい}→必要性：04821_hitsuyousei⟧⟦を→を：00422_wo⟧{力説|りきせつ}⟦した→する：00392_suru⟧。",
       "english": "The president stressed the need for reform at the meeting.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18940_rikisetsu_ex3",
-      "japanese": "{彼女|かのじょ}は{環境保護|かんきょうほご}の{大切|たいせつ}さを{繰|く}り{返|かえ}し{力説|りきせつ}してきた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{環境保護|かんきょうほご}→環境保護：15308_kankyouhogo⟧⟦の→の：09472_no⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧さ⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}し→繰り返す：02051_kurikaesu⟧{力説|りきせつ}してきた。",
       "english": "She has repeatedly insisted on the importance of environmental protection.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{力説|りきせつ} means to argue or state something forcefully with conviction. Composed of {力|りき} (force) + {説|せつ} (explanation).\n\nCOMMON PATTERN:\n〜を{力説|りきせつ}する: to strongly emphasize ~\n- {重要性|じゅうようせい}を{力説|りきせつ}する: to stress the importance\n- {必要性|ひつようせい}を{力説|りきせつ}する: to insist on the necessity\n- {正当性|せいとうせい}を{力説|りきせつ}する: to argue the legitimacy\n\nSIMILAR WORDS:\n- {強調|きょうちょう}する: to emphasize (neutral, factual emphasis)\n- {力説|りきせつ}する: to stress with personal conviction and persuasive effort\n- {主張|しゅちょう}する: to assert, to claim (stating one's position)\n\nREGISTER:\nFormal. Common in news reporting, speeches, and meeting contexts. Often describes someone passionately advocating for something.",
+  "notes": "{力説|りきせつ} means to argue or state something forcefully with conviction. Composed of {力|りき} (force) + ⟦{説|せつ}→説：00360_setsu⟧ (explanation).\n\nCOMMON PATTERN:\n〜⟦を→を：00422_wo⟧{力説|りきせつ}⟦する→する：00392_suru⟧: to strongly emphasize ~\n- ⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦を→を：00422_wo⟧{力説|りきせつ}⟦する→する：00392_suru⟧: to stress the importance\n- ⟦{必要性|ひつようせい}→必要性：04821_hitsuyousei⟧⟦を→を：00422_wo⟧{力説|りきせつ}⟦する→する：00392_suru⟧: to insist on the necessity\n- ⟦{正当性|せいとうせい}→正当性：29028_seitousei⟧⟦を→を：00422_wo⟧{力説|りきせつ}⟦する→する：00392_suru⟧: to argue the legitimacy\n\nSIMILAR WORDS:\n- ⟦{強調|きょうちょう}する→強調する：21684_kyouchousuru⟧: to emphasize (neutral, factual emphasis)\n- {力説|りきせつ}⟦する→する：00392_suru⟧: to stress with personal conviction and persuasive effort\n- ⟦{主張|しゅちょう}する→主張する：25380_shuchousuru⟧: to assert, to claim (stating one's position)\n\nREGISTER:\nFormal. Common in news reporting, speeches, and meeting contexts. Often describes someone passionately advocating for something.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -171,9 +171,10 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-23T10:16:46Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

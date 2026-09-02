@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24722_kurikkusuru_ex1",
-      "japanese": "ここをクリックしてください。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦を→を：00422_wo⟧クリックして⟦ください→ください：02899_kudasai⟧。",
       "english": "Please click here.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24722_kurikkusuru_ex2",
-      "japanese": "リンクをクリックすると{別|べつ}のページが{開|ひら}く。",
+      "japanese": "⟦リンク→リンク：07341_rinku⟧⟦を→を：00422_wo⟧クリックする⟦と→と：00512_to⟧⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦ページ→ページ：02961_peeji⟧⟦が→が：00051_ga⟧⟦{開|ひら}く→開く：01979_hiraku⟧。",
       "english": "When you click the link, a different page opens.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24722_kurikkusuru_ex3",
-      "japanese": "{間違|まちが}えてそのボタンをクリックしてしまい、データが{消|き}えてしまった。",
+      "japanese": "⟦{間違|まちが}えて→間違える：01109_machigaeru⟧⟦その→その：00993_sono⟧⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧クリックしてしまい、⟦データ→データ：03944_deeta⟧⟦が→が：00051_ga⟧⟦{消|き}えて→消える：02520_kieru⟧しまった。",
       "english": "I accidentally clicked that button and the data was deleted.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "From English \"click.\" One of the most common computer-related loanword verbs in Japanese. Used with する to form a verb.\n\nCOMMON COLLOCATIONS:\n- ダブルクリックする: to double-click\n- {右|みぎ}クリックする: to right-click\n- リンクをクリックする: to click a link\n- ボタンをクリックする: to click a button\n- クリックして{開|ひら}く: to click and open\n\nSIMILAR WORDS:\n- タップする: to tap — used for touchscreens rather than mouse input\n- {押|お}す: to press — the native Japanese word for pressing buttons, but not used for mouse actions\n- {選択|せんたく}する: to select — more formal/technical term for choosing an item on screen",
+  "notes": "From English \"click.\" One of the most common computer-related loanword verbs in Japanese. Used with ⟦する→する：00392_suru⟧ to form a verb.\n\nCOMMON COLLOCATIONS:\n- ダブルクリックする: to double-click\n- ⟦{右|みぎ}→右：02257_migi⟧クリックする: to right-click\n- ⟦リンク→リンク：07341_rinku⟧⟦を→を：00422_wo⟧クリックする: to click a link\n- ⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧クリックする: to click a button\n- クリックして⟦{開|ひら}く→開く：01979_hiraku⟧: to click and open\n\nSIMILAR WORDS:\n- ⟦タップ→タップ：05395_tappu⟧⟦する→する：00392_suru⟧: to tap — used for touchscreens rather than mouse input\n- ⟦{押|お}す→押す：02854_osu⟧: to press — the native Japanese word for pressing buttons, but not used for mouse actions\n- ⟦{選択|せんたく}→選択：03306_sentaku⟧⟦する→する：00392_suru⟧: to select — more formal/technical term for choosing an item on screen",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -77,10 +77,11 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-20T13:11:53Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

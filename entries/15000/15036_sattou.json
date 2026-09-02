@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15036_sattou_ex1",
-      "japanese": "{注文|ちゅうもん}が{殺到|さっとう}した。",
+      "japanese": "⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦が→が：00051_ga⟧{殺到|さっとう}⟦した→する：00392_suru⟧。",
       "english": "Orders came flooding in.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15036_sattou_ex2",
-      "japanese": "クレームが{殺到|さっとう}して{対応|たいおう}が{追|お}いつかない。",
+      "japanese": "⟦クレーム→クレーム：27399_kureemu⟧⟦が→が：00051_ga⟧{殺到|さっとう}⟦して→する：00392_suru⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦が→が：00051_ga⟧{追|お}いつかない。",
       "english": "Complaints have poured in and we can't keep up.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15036_sattou_ex3",
-      "japanese": "セールの{初日|しょにち}に{客|きゃく}が{殺到|さっとう}して、{店内|てんない}は{大混雑|だいこんざつ}だった。",
+      "japanese": "⟦セール→セール：07780_seeru⟧⟦の→の：09472_no⟧⟦{初日|しょにち}→初日：11741_shonichi⟧⟦に→に：00314_ni⟧⟦{客|きゃく}→客：00865_kyaku⟧⟦が→が：00051_ga⟧{殺到|さっとう}⟦して→する：00392_suru⟧、⟦{店内|てんない}→店内：03124_tennai⟧⟦は→は：00079_ha⟧{大混雑|だいこんざつ}だった。",
       "english": "Customers swarmed in on the first day of the sale, and the store was packed.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE: Implies an overwhelming quantity arriving simultaneously. Common in news reports and business contexts.\n\nCOMMON COLLOCATIONS:\n- {注文|ちゅうもん}が{殺到|さっとう}する: to be flooded with orders\n- {問|と}い{合|あ}わせが{殺到|さっとう}する: to be inundated with inquiries\n- クレームが{殺到|さっとう}する: to be swamped with complaints\n- {応募|おうぼ}が{殺到|さっとう}する: to receive an overwhelming number of applications\n\nETYMOLOGY: Literally {殺|さつ} (kill/rush) + {到|とう} (arrive), suggesting a forceful rush that arrives all at once.",
+  "notes": "USAGE: Implies an overwhelming quantity arriving simultaneously. Common in news reports and business contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦が→が：00051_ga⟧{殺到|さっとう}⟦する→する：00392_suru⟧: to be flooded with orders\n- ⟦{問|と}い{合|あ}わせ→問い合わせ：06131_toiawase⟧⟦が→が：00051_ga⟧{殺到|さっとう}⟦する→する：00392_suru⟧: to be inundated with inquiries\n- ⟦クレーム→クレーム：27399_kureemu⟧⟦が→が：00051_ga⟧{殺到|さっとう}⟦する→する：00392_suru⟧: to be swamped with complaints\n- ⟦{応募|おうぼ}→応募：03014_oubo⟧⟦が→が：00051_ga⟧{殺到|さっとう}⟦する→する：00392_suru⟧: to receive an overwhelming number of applications\n\nETYMOLOGY: Literally {殺|さつ} (kill/rush) + {到|とう} (arrive), suggesting a forceful rush that arrives all at once.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-05T05:38:48Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:39Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -158,7 +158,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

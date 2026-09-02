@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16507_zousui_ex1",
-      "japanese": "{大雨|おおあめ}で{川|かわ}が{増水|ぞうすい}した。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦で→で：00502_de⟧⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧{増水|ぞうすい}⟦した→する：00392_suru⟧。",
       "english": "The river rose due to heavy rain.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16507_zousui_ex2",
-      "japanese": "{増水|ぞうすい}した{川|かわ}には{絶対|ぜったい}に{近|ちか}づかないでください。",
+      "japanese": "{増水|ぞうすい}⟦した→する：00392_suru⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{絶対|ぜったい}→絶対：00435_zettai⟧⟦に→に：00314_ni⟧⟦{近|ちか}づかないで→近づく：01958_chikazuku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please absolutely do not go near the swollen river.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16507_zousui_ex3",
-      "japanese": "{台風|たいふう}の{影響|えいきょう}で{上流|じょうりゅう}が{増水|ぞうすい}しており、{下流|かりゅう}でも{氾濫|はんらん}の{恐|おそ}れがあると{警告|けいこく}された。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{上流|じょうりゅう}→上流：15028_jouryuu⟧⟦が→が：00051_ga⟧{増水|ぞうすい}⟦して→する：00392_suru⟧おり、⟦{下流|かりゅう}→下流：15029_karyuu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{氾濫|はんらん}→氾濫：09256_hanran⟧⟦の→の：09472_no⟧{恐|おそ}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{警告|けいこく}→警告：02696_keikoku⟧⟦された→する：00392_suru⟧。",
       "english": "Due to the typhoon, the upstream area has swollen, and a warning was issued that flooding may also occur downstream.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する. Frequently heard in weather reports and disaster warnings during the rainy season ({梅雨|つゆ}) and typhoon season. The opposite is {減水|げんすい} (receding water).\n\nCOMMON COLLOCATIONS:\n- {川|かわ}が{増水|ぞうすい}する (a river swells)\n- {増水|ぞうすい}{注意報|ちゅういほう} (rising water advisory)\n- {急激|きゅうげき}な{増水|ぞうすい} (sudden rise in water level)\n- {増水|ぞうすい}した{川|かわ} (a swollen river)\n\nSIMILAR WORDS:\n- {氾濫|はんらん}: flooding — when water overflows its banks, a more severe condition than rising water\n- {洪水|こうずい}: flood — a large-scale inundation",
+  "notes": "USAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧. Frequently heard in weather reports and disaster warnings during the rainy season (⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧) and typhoon season. The opposite is ⟦{減水|げんすい}→減水：23823_gensui⟧ (receding water).\n\nCOMMON COLLOCATIONS:\n- ⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧{増水|ぞうすい}⟦する→する：00392_suru⟧ (a river swells)\n- {増水|ぞうすい}⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧ (rising water advisory)\n- ⟦{急激|きゅうげき}→急激：02633_kyuugeki⟧な{増水|ぞうすい} (sudden rise in water level)\n- {増水|ぞうすい}⟦した→する：00392_suru⟧⟦{川|かわ}→川：02186_kawa⟧ (a swollen river)\n\nSIMILAR WORDS:\n- ⟦{氾濫|はんらん}→氾濫：09256_hanran⟧: flooding — when water overflows its banks, a more severe condition than rising water\n- ⟦{洪水|こうずい}→洪水：05065_kouzui⟧: flood — a large-scale inundation",
   "prominent_see_also": [
     {
       "target_id": "04986_zousui",
@@ -168,7 +168,7 @@
   ],
   "metadata": {
     "created": "2026-03-13T03:50:54Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -182,7 +182,8 @@
         "nature",
         "weather"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

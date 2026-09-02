@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26828_kaizensuru_ex1",
-      "japanese": "{生活|せいかつ}{習慣|しゅうかん}を{改善|かいぜん}する。",
+      "japanese": "⟦{生活|せいかつ}{習慣|しゅうかん}→生活習慣：19568_seikatsushuukan⟧⟦を→を：00422_wo⟧{改善|かいぜん}する。",
       "english": "To improve one's lifestyle habits.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26828_kaizensuru_ex2",
-      "japanese": "{労働|ろうどう}{環境|かんきょう}を{改善|かいぜん}するために{会議|かいぎ}を{開|ひら}いた。",
+      "japanese": "⟦{労働|ろうどう}→労働：03785_roudou⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦を→を：00422_wo⟧{改善|かいぜん}する⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "We held a meeting to improve the working environment.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26828_kaizensuru_ex3",
-      "japanese": "{食事|しょくじ}と{運動|うんどう}で{体調|たいちょう}が{大|おお}きく{改善|かいぜん}した。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦と→と：00512_to⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦で→で：00502_de⟧⟦{体調|たいちょう}→体調：04644_taichou⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧{改善|かいぜん}した。",
       "english": "My physical condition improved greatly through diet and exercise.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26828_kaizensuru_ex4",
-      "japanese": "この{問題|もんだい}を{改善|かいぜん}しなければ、お{客|きゃく}さんの{満足度|まんぞくど}は{上|あ}がらない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{改善|かいぜん}しなければ、⟦お{客|きゃく}さん→お客さん：10253_okyakusan⟧⟦の→の：09472_no⟧{満足度|まんぞくど}⟦は→は：00079_ha⟧⟦{上|あ}がらない→上がる：00615_agaru⟧。",
       "english": "If we don't improve this problem, customer satisfaction won't increase.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "One of the most well-known Japanese business concepts internationally. The noun {改善|かいぜん} (kaizen) refers to continuous, incremental improvement and is widely used as a loanword in English business contexts, particularly in manufacturing and lean management.\n\nCOMMON COLLOCATIONS:\n- {業務|ぎょうむ}{改善|かいぜん}: operational improvement\n- {体質|たいしつ}{改善|かいぜん}: constitutional improvement\n- {環境|かんきょう}{改善|かいぜん}: environmental improvement\n- {改善|かいぜん}{策|さく}: improvement measure\n- {改善|かいぜん}{点|てん}: point of improvement\n\nSIMILAR WORDS:\n- {直|なお}す: to fix — corrects something broken rather than making something better\n- {向上|こうじょう}する: to improve — emphasizes raising quality or level upward\n- {是正|ぜせい}する: to correct — fixing something wrong or unjust, more formal",
+  "notes": "One of the most well-known Japanese business concepts internationally. The noun ⟦{改善|かいぜん}→改善：00144_kaizen⟧ (kaizen) refers to continuous, incremental improvement and is widely used as a loanword in English business contexts, particularly in manufacturing and lean management.\n\nCOMMON COLLOCATIONS:\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦{改善|かいぜん}→改善：00144_kaizen⟧: operational improvement\n- ⟦{体質|たいしつ}→体質：08243_taishitsu⟧⟦{改善|かいぜん}→改善：00144_kaizen⟧: constitutional improvement\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦{改善|かいぜん}→改善：00144_kaizen⟧: environmental improvement\n- ⟦{改善|かいぜん}→改善：00144_kaizen⟧⟦{策|さく}→策：09997_saku⟧: improvement measure\n- ⟦{改善|かいぜん}→改善：00144_kaizen⟧⟦{点|てん}→点：01553_ten⟧: point of improvement\n\nSIMILAR WORDS:\n- {直|なお}す: to fix — corrects something broken rather than making something better\n- ⟦{向上|こうじょう}する→向上する：18997_koujousuru⟧: to improve — emphasizes raising quality or level upward\n- ⟦{是正|ぜせい}→是正：05631_zesei⟧⟦する→する：00392_suru⟧: to correct — fixing something wrong or unjust, more formal",
   "cross_references": [
     {
       "type": "contrast",
@@ -111,10 +111,11 @@
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T13:04:34Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

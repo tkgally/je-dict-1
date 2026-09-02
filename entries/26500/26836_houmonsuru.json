@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26836_houmonsuru_ex1",
-      "japanese": "{取引先|とりひきさき}を{訪問|ほうもん}する。",
+      "japanese": "⟦{取引先|とりひきさき}→取引先：11083_torihikisaki⟧⟦を→を：00422_wo⟧{訪問|ほうもん}する。",
       "english": "To visit a business client.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26836_houmonsuru_ex2",
-      "japanese": "{午後|ごご}にお{宅|たく}を{訪問|ほうもん}してもよろしいですか。",
+      "japanese": "⟦{午後|ごご}→午後：00544_gogo⟧⟦に→に：00314_ni⟧⟦お{宅|たく}→お宅：01569_otaku⟧⟦を→を：00422_wo⟧{訪問|ほうもん}して⟦も→も：00484_mo⟧⟦よろしい→よろしい：01176_yoroshii⟧です⟦か→か：09473_ka⟧。",
       "english": "May I visit your home this afternoon?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26836_houmonsuru_ex3",
-      "japanese": "{医師|いし}が{患者|かんじゃ}の{自宅|じたく}を{訪問|ほうもん}して{診察|しんさつ}する。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦が→が：00051_ga⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦を→を：00422_wo⟧{訪問|ほうもん}して⟦{診察|しんさつ}→診察：03259_shinsatsu⟧⟦する→する：00392_suru⟧。",
       "english": "The doctor visits the patient's home to examine them.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26836_houmonsuru_ex4",
-      "japanese": "{大臣|だいじん}が{被災地|ひさいち}を{訪問|ほうもん}し、{住民|じゅうみん}を{激励|げきれい}した。",
+      "japanese": "⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦が→が：00051_ga⟧⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦を→を：00422_wo⟧{訪問|ほうもん}し、⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦を→を：00422_wo⟧⟦{激励|げきれい}→激励：15022_gekirei⟧⟦した→する：00392_suru⟧。",
       "english": "The minister visited the disaster-stricken area and encouraged the residents.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for visiting that implies purpose and intent. Common in business, medical, and official contexts. The noun {訪問|ほうもん} appears in many compound terms for professional services.\n\nCOMMON COLLOCATIONS:\n- {訪問|ほうもん}{販売|はんばい}: door-to-door sales\n- {訪問|ほうもん}{看護|かんご}: home nursing care\n- {訪問|ほうもん}{介護|かいご}: home care service\n- {訪問|ほうもん}{者|しゃ}: visitor\n- {家庭|かてい}{訪問|ほうもん}: home visit (by teacher)\n\nSIMILAR WORDS:\n- {訪|たず}ねる: to visit — slightly less formal, can be used for places or people\n- {伺|うかが}う: to visit (humble) — humble form used when visiting someone of higher status\n- {見舞|みま}う: to visit (the sick) — specifically visiting someone who is ill or in hospital",
+  "notes": "A formal word for visiting that implies purpose and intent. Common in business, medical, and official contexts. The noun ⟦{訪問|ほうもん}→訪問：03622_houmon⟧ appears in many compound terms for professional services.\n\nCOMMON COLLOCATIONS:\n- ⟦{訪問|ほうもん}→訪問：03622_houmon⟧⟦{販売|はんばい}→販売：03573_hanbai⟧: door-to-door sales\n- ⟦{訪問|ほうもん}→訪問：03622_houmon⟧⟦{看護|かんご}→看護：13668_kango⟧: home nursing care\n- ⟦{訪問|ほうもん}{介護|かいご}→訪問介護：24515_houmonkaigo⟧: home care service\n- ⟦{訪問|ほうもん}{者|しゃ}→訪問者：20148_houmonsha⟧: visitor\n- ⟦{家庭|かてい}{訪問|ほうもん}→家庭訪問：28190_kateihoumon⟧: home visit (by teacher)\n\nSIMILAR WORDS:\n- ⟦{訪|たず}ねる→訪ねる：01182_tazuneru⟧: to visit — slightly less formal, can be used for places or people\n- {伺|うかが}う: to visit (humble) — humble form used when visiting someone of higher status\n- ⟦{見舞|みま}う→見舞う：14133_mimau⟧: to visit (the sick) — specifically visiting someone who is ill or in hospital",
   "cross_references": [
     {
       "type": "contrast",
@@ -90,10 +90,11 @@
       "semantic": [
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T13:07:41Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

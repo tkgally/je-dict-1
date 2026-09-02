@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25260_funshoku_ex1",
-      "japanese": "{粉飾|ふんしょく}{決算|けっさん}が{発覚|はっかく}した。",
+      "japanese": "{粉飾|ふんしょく}{決算|けっさん}⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "The falsified financial statements were discovered.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25260_funshoku_ex2",
-      "japanese": "{事実|じじつ}を{粉飾|ふんしょく}してはいけない。",
+      "japanese": "⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{粉飾|ふんしょく}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not embellish the facts.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25260_funshoku_ex3",
-      "japanese": "その{企業|きぎょう}は{長年|ながねん}にわたって{粉飾|ふんしょく}{決算|けっさん}を{行|おこな}っていた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたって{粉飾|ふんしょく}{決算|けっさん}⟦を→を：00422_wo⟧⟦{行|おこな}っていた→行う：01238_okonau⟧。",
       "english": "That company had been cooking the books for many years.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25260_funshoku_ex4",
-      "japanese": "{経歴|けいれき}の{粉飾|ふんしょく}は{信用|しんよう}を{失|うしな}う{原因|げんいん}になる。",
+      "japanese": "⟦{経歴|けいれき}→経歴：13795_keireki⟧⟦の→の：09472_no⟧{粉飾|ふんしょく}⟦は→は：00079_ha⟧⟦{信用|しんよう}→信用：03267_shinyou⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Embellishing your background can lead to losing people's trust.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Literally means applying powder ({粉|こ}) and decoration ({飾|かざ}り) — making up the surface to hide what lies beneath. Most often used in business and legal contexts to describe accounting fraud or deliberate misrepresentation.\n\nCOMMON COLLOCATIONS:\n- {粉飾|ふんしょく}{決算|けっさん}: accounting fraud / window-dressing of financial statements\n- {事実|じじつ}を{粉飾|ふんしょく}する: to embellish the facts\n- {経歴|けいれき}の{粉飾|ふんしょく}: padding one's resume\n- {粉飾|ふんしょく}が{発覚|はっかく}する: falsification is discovered\n\nSIMILAR WORDS:\n- {偽装|ぎそう}: disguise or camouflage; implies more deliberate deception about identity or nature\n- {捏造|ねつぞう}: fabrication; creating something entirely false, whereas {粉飾|ふんしょく} typically involves distorting or exaggerating existing facts\n- {改竄|かいざん}: tampering or falsification of documents; focuses on unauthorized alteration of records\n\nETYMOLOGY:\nFrom {粉|ふん} (powder, as in cosmetic powder) + {飾|しょく} (decoration). The metaphor is of applying makeup to disguise the true appearance.",
+  "notes": "Literally means applying powder ({粉|こ}) and decoration (⟦{飾|かざ}り→飾り：02539_kazari⟧) — making up the surface to hide what lies beneath. Most often used in business and legal contexts to describe accounting fraud or deliberate misrepresentation.\n\nCOMMON COLLOCATIONS:\n- {粉飾|ふんしょく}{決算|けっさん}: accounting fraud / window-dressing of financial statements\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{粉飾|ふんしょく}⟦する→する：00392_suru⟧: to embellish the facts\n- ⟦{経歴|けいれき}→経歴：13795_keireki⟧⟦の→の：09472_no⟧{粉飾|ふんしょく}: padding one's resume\n- {粉飾|ふんしょく}⟦が→が：00051_ga⟧⟦{発覚|はっかく}する→発覚する：15423_hakkakusuru⟧: falsification is discovered\n\nSIMILAR WORDS:\n- ⟦{偽装|ぎそう}→偽装：09151_gisou⟧: disguise or camouflage; implies more deliberate deception about identity or nature\n- ⟦{捏造|ねつぞう}→捏造：07628_netsuzou⟧: fabrication; creating something entirely false, whereas {粉飾|ふんしょく} typically involves distorting or exaggerating existing facts\n- ⟦{改竄|かいざん}→改竄：07943_kaizan⟧: tampering or falsification of documents; focuses on unauthorized alteration of records\n\nETYMOLOGY:\nFrom {粉|ふん} (powder, as in cosmetic powder) + {飾|しょく} (decoration). The metaphor is of applying makeup to disguise the true appearance.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -92,10 +92,11 @@
         "business",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T12:15:43Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

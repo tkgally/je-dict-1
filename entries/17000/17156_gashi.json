@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17156_gashi_ex1",
-      "japanese": "{餓死|がし}する{人|ひと}がまだいる。",
+      "japanese": "{餓死|がし}⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are still people who die of starvation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17156_gashi_ex2",
-      "japanese": "{戦時中|せんじちゅう}、{多|おお}くの{兵士|へいし}が{餓死|がし}した。",
+      "japanese": "⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧、{多|おお}く⟦の→の：09472_no⟧⟦{兵士|へいし}→兵士：11680_heishi⟧⟦が→が：00051_ga⟧{餓死|がし}⟦した→する：00392_suru⟧。",
       "english": "During the war, many soldiers starved to death.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17156_gashi_ex3",
-      "japanese": "{干|かん}ばつによる{食糧|しょくりょう}{不足|ぶそく}で、{餓死者|がししゃ}が{出|で}ていると{報告|ほうこく}されている。",
+      "japanese": "⟦{干|かん}ばつ→干ばつ：05122_kanbatsu⟧⟦による→による：28349_niyoru⟧⟦{食糧|しょくりょう}{不足|ぶそく}→食糧不足：23776_shokuryoubusoku⟧で、{餓死者|がししゃ}⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧⟦と→と：00512_to⟧⟦{報告|ほうこく}→報告：03618_houkoku⟧⟦されている→する：00392_suru⟧。",
       "english": "It is reported that deaths from starvation are occurring due to food shortages caused by drought.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {餓|が} (starve, hunger) + {死|し} (death). Used as a suru verb ({餓死|がし}する). A serious and somewhat formal term.\n\nCOMMON COLLOCATIONS:\n- {餓死|がし}する (to starve to death)\n- {餓死者|がししゃ} (people who died of starvation)\n- {餓死|がし}{寸前|すんぜん} (on the verge of starvation)\n\nSIMILAR WORDS:\n- {飢|う}え: hunger, starvation — the state of being hungry or starving\n- {飢餓|きが}: famine, starvation — a widespread severe shortage of food",
+  "notes": "USAGE:\nA compound of {餓|が} (starve, hunger) + ⟦{死|し}→死：13248_shi⟧ (death). Used as a suru verb ({餓死|がし}⟦する→する：00392_suru⟧). A serious and somewhat formal term.\n\nCOMMON COLLOCATIONS:\n- {餓死|がし}⟦する→する：00392_suru⟧ (to starve to death)\n- {餓死者|がししゃ} (people who died of starvation)\n- {餓死|がし}⟦{寸前|すんぜん}→寸前：12356_sunzen⟧ (on the verge of starvation)\n\nSIMILAR WORDS:\n- ⟦{飢|う}え→飢え：19826_ue⟧: hunger, starvation — the state of being hungry or starving\n- ⟦{飢餓|きが}→飢餓：18841_kiga⟧: famine, starvation — a widespread severe shortage of food",
   "cross_references": [
     {
       "type": "related",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-16T03:18:39Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -187,7 +187,8 @@
       "semantic": [
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

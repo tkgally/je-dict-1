@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22006_byoushi_ex1",
-      "japanese": "{父|ちち}は{病死|びょうし}した。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{病死|びょうし}⟦した→する：00392_suru⟧。",
       "english": "My father died of illness.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22006_byoushi_ex2",
-      "japanese": "{死因|しいん}は{病死|びょうし}と{判断|はんだん}された。",
+      "japanese": "⟦{死因|しいん}→死因：13224_shiin⟧⟦は→は：00079_ha⟧{病死|びょうし}⟦と→と：00512_to⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦された→する：00392_suru⟧。",
       "english": "The cause of death was determined to be illness.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22006_byoushi_ex3",
-      "japanese": "{戦時中|せんじちゅう}は{戦死|せんし}だけでなく、{栄養|えいよう}{失調|しっちょう}による{病死|びょうし}も{多|おお}かった。",
+      "japanese": "⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧⟦は→は：00079_ha⟧⟦{戦死|せんし}→戦死：12979_senshi⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、⟦{栄養|えいよう}{失調|しっちょう}→栄養失調：21221_eiyoushicchou⟧⟦による→による：28349_niyoru⟧{病死|びょうし}⟦も→も：00484_mo⟧⟦{多|おお}かった→多い：01127_ooi⟧。",
       "english": "During the war, there were many deaths not only from combat but also from illness caused by malnutrition.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal term used in official, medical, and legal contexts to classify the manner of death. Often contrasted with other causes of death such as {事故死|じこし} (accidental death) or {自殺|じさつ} (suicide).\n\nCOMMON COLLOCATIONS:\n- {病死|びょうし}する: to die of illness\n- {病死|びょうし}と{認定|にんてい}される: to be classified as death from illness\n- {死因|しいん}は{病死|びょうし}: the cause of death is illness\n\nSIMILAR WORDS:\n- {病没|びょうぼつ}: death from illness — more literary or formal; often used for notable figures\n- {事故死|じこし}: accidental death — death caused by an accident\n- {戦死|せんし}: death in battle — killed in combat\n- {老衰|ろうすい}: death from old age — natural death due to aging\n- {急死|きゅうし}: sudden death — dying suddenly and unexpectedly",
+  "notes": "A formal term used in official, medical, and legal contexts to classify the manner of death. Often contrasted with other causes of death such as ⟦{事故死|じこし}→事故死：23678_jikoshi⟧ (accidental death) or ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧ (suicide).\n\nCOMMON COLLOCATIONS:\n- {病死|びょうし}⟦する→する：00392_suru⟧: to die of illness\n- {病死|びょうし}⟦と→と：00512_to⟧⟦{認定|にんてい}→認定：06108_nintei⟧⟦される→する：00392_suru⟧: to be classified as death from illness\n- ⟦{死因|しいん}→死因：13224_shiin⟧⟦は→は：00079_ha⟧{病死|びょうし}: the cause of death is illness\n\nSIMILAR WORDS:\n- {病没|びょうぼつ}: death from illness — more literary or formal; often used for notable figures\n- ⟦{事故死|じこし}→事故死：23678_jikoshi⟧: accidental death — death caused by an accident\n- ⟦{戦死|せんし}→戦死：12979_senshi⟧: death in battle — killed in combat\n- ⟦{老衰|ろうすい}→老衰：13982_rousui⟧: death from old age — natural death due to aging\n- ⟦{急死|きゅうし}→急死：18189_kyuushi⟧: sudden death — dying suddenly and unexpectedly",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,10 +89,11 @@
         "health",
         "death"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-04T20:20:57Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

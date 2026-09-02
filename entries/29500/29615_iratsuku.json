@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29615_iratsuku_ex1",
-      "japanese": "{少|すこ}しイラつく。",
+      "japanese": "⟦{少|すこ}し→少し：00596_sukoshi⟧イラつく。",
       "english": "I'm a little irritated.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29615_iratsuku_ex2",
-      "japanese": "{長|なが}い{間|あいだ}{待|ま}たされてイラついた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{間|あいだ}→間：00914_aida⟧{待|ま}たされてイラついた。",
       "english": "I got annoyed at being kept waiting so long.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29615_iratsuku_ex3",
-      "japanese": "{彼|かれ}の{偉|えら}そうな{態度|たいど}にイラつくことがある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{偉|えら}そうな⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧イラつくこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Sometimes his arrogant attitude irritates me.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE: イラつく is a casual, colloquial verb meaning to become irritated or annoyed. It is derived from the mimetic イライラ and is common in everyday speech and informal writing.\n\nCONJUGATION: A godan verb — イラつく → イラついた (past), イラつかない (negative), イラついて (te-form).\n\nSIMILAR WORDS:\n- イライラする: to be irritated — the standard, slightly less blunt equivalent\n- むかつく: to be pissed off — stronger; can also mean to feel nauseous",
+  "notes": "USAGE: イラつく is a casual, colloquial verb meaning to become irritated or annoyed. It is derived from the mimetic イライラ and is common in everyday speech and informal writing.\n\nCONJUGATION: A godan verb — イラつく → イラついた (past), イラつかない (negative), イラついて (te-form).\n\nSIMILAR WORDS:\n- イライラ⟦する→する：00392_suru⟧: to be irritated — the standard, slightly less blunt equivalent\n- ⟦むかつく→ムカつく：06357_mukatsuku⟧: to be pissed off — stronger; can also mean to feel nauseous",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -69,10 +69,11 @@
       "domain": [
         "colloquial"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "godan",

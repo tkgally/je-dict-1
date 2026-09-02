@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13614_tsuukan_ex1",
-      "japanese": "{自分|じぶん}の{未熟|みじゅく}さを{痛感|つうかん}した。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{未熟|みじゅく}→未熟：13015_mijuku⟧さ⟦を→を：00422_wo⟧{痛感|つうかん}⟦した→する：00392_suru⟧。",
       "english": "I keenly felt my own immaturity.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13614_tsuukan_ex2",
-      "japanese": "{海外|かいがい}に{住|す}んで、{日本語|にほんご}の{大切|たいせつ}さを{痛感|つうかん}した。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧⟦{住|す}んで→住む：00673_sumu⟧、⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧さ⟦を→を：00422_wo⟧{痛感|つうかん}⟦した→する：00392_suru⟧。",
       "english": "Living abroad, I came to keenly appreciate the importance of Japanese.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13614_tsuukan_ex3",
-      "japanese": "{今回|こんかい}の{失敗|しっぱい}で、{準備|じゅんび}の{大切|たいせつ}さを{痛感|つうかん}させられた。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦で→で：00502_de⟧、⟦{準備|じゅんび}→準備：01431_junbi⟧⟦の→の：09472_no⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧さ⟦を→を：00422_wo⟧{痛感|つうかん}⟦させられた→する：00392_suru⟧。",
       "english": "This failure made me painfully aware of the importance of preparation.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFunctions as a する verb: {痛感|つうかん}する (to keenly feel/realize). Often used reflexively about one's own realizations. The causative form {痛感|つうかん}させられる (to be made to keenly feel) is also common.\nStronger than simply {感|かん}じる (to feel) or {実感|じっかん}する (to really feel). {痛感|つうかん} carries the nuance of {痛|つう} (pain) — the realization is sharp, sometimes uncomfortable, and impossible to ignore.\n\nCOMMON COLLOCATIONS:\n- {必要性|ひつようせい}を{痛感|つうかん}する: to keenly feel the necessity of\n- {重要性|じゅうようせい}を{痛感|つうかん}する: to acutely realize the importance of\n- {不足|ふそく}を{痛感|つうかん}する: to keenly feel a lack of\n- {限界|げんかい}を{痛感|つうかん}する: to painfully realize the limits of",
+  "notes": "USAGE:\nFunctions as a ⟦する→する：00392_suru⟧ verb: {痛感|つうかん}⟦する→する：00392_suru⟧ (to keenly feel/realize). Often used reflexively about one's own realizations. The causative form {痛感|つうかん}⟦させられる→する：00392_suru⟧ (to be made to keenly feel) is also common.\nStronger than simply ⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to feel) or ⟦{実感|じっかん}→実感：04213_jikkan⟧⟦する→する：00392_suru⟧ (to really feel). {痛感|つうかん} carries the nuance of {痛|つう} (pain) — the realization is sharp, sometimes uncomfortable, and impossible to ignore.\n\nCOMMON COLLOCATIONS:\n- ⟦{必要性|ひつようせい}→必要性：04821_hitsuyousei⟧⟦を→を：00422_wo⟧{痛感|つうかん}⟦する→する：00392_suru⟧: to keenly feel the necessity of\n- ⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦を→を：00422_wo⟧{痛感|つうかん}⟦する→する：00392_suru⟧: to acutely realize the importance of\n- ⟦{不足|ふそく}→不足：03598_fusoku⟧⟦を→を：00422_wo⟧{痛感|つうかん}⟦する→する：00392_suru⟧: to keenly feel a lack of\n- ⟦{限界|げんかい}→限界：02715_genkai⟧⟦を→を：00422_wo⟧{痛感|つうかん}⟦する→する：00392_suru⟧: to painfully realize the limits of",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-26T10:32:12Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

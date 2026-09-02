@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22409_shoukyaku_ex1",
-      "japanese": "ごみを{焼却|しょうきゃく}する。",
+      "japanese": "⟦ごみ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧{焼却|しょうきゃく}⟦する→する：00392_suru⟧。",
       "english": "To incinerate garbage.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22409_shoukyaku_ex2",
-      "japanese": "{機密|きみつ}{書類|しょるい}を{焼却|しょうきゃく}{処分|しょぶん}した。",
+      "japanese": "⟦{機密|きみつ}→機密：13179_kimitsu⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{焼却|しょうきゃく}⟦{処分|しょぶん}→処分：05520_shobun⟧⟦した→する：00392_suru⟧。",
       "english": "The confidential documents were disposed of by incineration.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22409_shoukyaku_ex3",
-      "japanese": "この{地域|ちいき}では{家庭|かてい}ごみの{焼却|しょうきゃく}は{禁止|きんし}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦ごみ→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧{焼却|しょうきゃく}⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦されている→する：00392_suru⟧。",
       "english": "In this area, burning household garbage is prohibited.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {焼|しょう} (burn) and {却|きゃく} (dispose of). A formal term for burning things to destroy them, most commonly associated with waste disposal. In Japan, incineration is a major method of waste management, and {焼却炉|しょうきゃくろ} (incinerators) are found in many municipalities.\n\nCOMMON COLLOCATIONS:\n- {焼却|しょうきゃく}する: to incinerate\n- {焼却炉|しょうきゃくろ}: incinerator\n- {焼却|しょうきゃく}{処分|しょぶん}: disposal by incineration\n- {焼却|しょうきゃく}{施設|しせつ}: incineration facility\n- ごみ{焼却|しょうきゃく}{場|じょう}: waste incineration plant\n\nSIMILAR WORDS:\n- {燃|も}やす: to burn — everyday verb, less formal\n- {消却|しょうきゃく}: write-off / amortization — a homophone with completely different meaning (financial)\n- {廃棄|はいき}: disposal / scrapping — broader term for disposing of things, not limited to burning",
+  "notes": "Composed of {焼|しょう} (burn) and {却|きゃく} (dispose of). A formal term for burning things to destroy them, most commonly associated with waste disposal. In Japan, incineration is a major method of waste management, and ⟦{焼却炉|しょうきゃくろ}→焼却炉：23880_shoukyakuro⟧ (incinerators) are found in many municipalities.\n\nCOMMON COLLOCATIONS:\n- {焼却|しょうきゃく}⟦する→する：00392_suru⟧: to incinerate\n- ⟦{焼却炉|しょうきゃくろ}→焼却炉：23880_shoukyakuro⟧: incinerator\n- {焼却|しょうきゃく}⟦{処分|しょぶん}→処分：05520_shobun⟧: disposal by incineration\n- {焼却|しょうきゃく}⟦{施設|しせつ}→施設：02503_shisetsu⟧: incineration facility\n- ⟦ごみ→ゴミ：00840_gomi⟧{焼却|しょうきゃく}{場|じょう}: waste incineration plant\n\nSIMILAR WORDS:\n- ⟦{燃|も}やす→燃やす：02318_moyasu⟧: to burn — everyday verb, less formal\n- {消却|しょうきゃく}: write-off / amortization — a homophone with completely different meaning (financial)\n- ⟦{廃棄|はいき}→廃棄：12482_haiki⟧: disposal / scrapping — broader term for disposing of things, not limited to burning",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "nature",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

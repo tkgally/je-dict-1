@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22989_yoyakusuru_ex1",
-      "japanese": "ホテルを{予約|よやく}した。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦を→を：00422_wo⟧{予約|よやく}した。",
       "english": "I booked a hotel.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22989_yoyakusuru_ex2",
-      "japanese": "{来週|らいしゅう}の{金曜日|きんようび}に{歯医者|はいしゃ}を{予約|よやく}してある。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧⟦に→に：00314_ni⟧⟦{歯医者|はいしゃ}→歯医者：01696_haisha⟧⟦を→を：00422_wo⟧{予約|よやく}して⟦ある→ある：00006_aru⟧。",
       "english": "I have a dentist appointment booked for next Friday.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22989_yoyakusuru_ex3",
-      "japanese": "{人気|にんき}のレストランなので、{一|いっ}か{月|げつ}{前|まえ}から{予約|よやく}しないと{入|はい}れない。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦レストラン→レストラン：01048_resutoran⟧な⟦の→の：09472_no⟧で、{一|いっ}か{月|げつ}⟦{前|まえ}→前：02255_mae⟧⟦から→から：00504_kara⟧{予約|よやく}しない⟦と→と：00512_to⟧⟦{入|はい}れない→入る：00494_hairu⟧。",
       "english": "It's such a popular restaurant that you can't get in unless you reserve a month in advance.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "An essential everyday word for making reservations and appointments. Used for hotels, restaurants, doctor visits, tickets, and any service that requires advance booking.\n\nCOMMON COLLOCATIONS:\n- {予約|よやく}を{取|と}る: to make a reservation\n- {予約|よやく}を{入|い}れる: to put in a reservation\n- {予約|よやく}を{取|と}り{消|け}す: to cancel a reservation\n- {予約|よやく}{済|ず}み: reserved; already booked\n- {予約|よやく}{制|せい}: reservation-only (system)\n- {完全|かんぜん}{予約|よやく}{制|せい}: by reservation only\n\nSIMILAR WORDS:\n- {申|もう}し{込|こ}む: to apply, sign up — used when registering for events, memberships, or services rather than reserving a spot\n- {取|と}り{置|お}く: to set aside, hold — used when asking a store to hold an item for you\n\nUSAGE:\nBoth {予約|よやく}する and {予約|よやく}を{取|と}る are natural. The noun {予約|よやく} is also used alone, as in {予約|よやく}なしで ({without a reservation}). Online booking is often called ネット{予約|よやく}.",
+  "notes": "An essential everyday word for making reservations and appointments. Used for hotels, restaurants, doctor visits, tickets, and any service that requires advance booking.\n\nCOMMON COLLOCATIONS:\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to make a reservation\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in a reservation\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧⟦{取|と}り{消|け}す→取り消す：04224_torikesu⟧: to cancel a reservation\n- ⟦{予約|よやく}{済|ず}み→予約済み：21797_yoyakuzumi⟧: reserved; already booked\n- ⟦{予約|よやく}{制|せい}→予約制：07058_yoyakusei⟧: reservation-only (system)\n- ⟦{完全|かんぜん}{予約|よやく}{制|せい}→完全予約制：17022_kanzenyoyakusei⟧: by reservation only\n\nSIMILAR WORDS:\n- ⟦{申|もう}し{込|こ}む→申し込む：02311_moushikomu⟧: to apply, sign up — used when registering for events, memberships, or services rather than reserving a spot\n- {取|と}り{置|お}く: to set aside, hold — used when asking a store to hold an item for you\n\nUSAGE:\nBoth {予約|よやく}する and ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ are natural. The noun ⟦{予約|よやく}→予約：01522_yoyaku⟧ is also used alone, as in ⟦{予約|よやく}→予約：01522_yoyaku⟧なし⟦で→で：00502_de⟧ ({without a reservation}). Online booking is often called ⟦ネット→ネット：05279_netto⟧⟦{予約|よやく}→予約：01522_yoyaku⟧.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -68,10 +68,11 @@
         "action",
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T15:31:39Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

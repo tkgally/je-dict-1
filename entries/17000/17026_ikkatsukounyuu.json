@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17026_ikkatsukounyuu_ex1",
-      "japanese": "スマホを{一括購入|いっかつこうにゅう}した。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧{一括購入|いっかつこうにゅう}⟦した→する：00392_suru⟧。",
       "english": "I bought the smartphone with a lump-sum payment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17026_ikkatsukounyuu_ex2",
-      "japanese": "{一括購入|いっかつこうにゅう}すると{割引|わりびき}が{受|う}けられる。",
+      "japanese": "{一括購入|いっかつこうにゅう}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{割引|わりびき}→割引：01526_waribiki⟧⟦が→が：00051_ga⟧⟦{受|う}けられる→受ける：01215_ukeru⟧。",
       "english": "You can get a discount by purchasing in bulk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17026_ikkatsukounyuu_ex3",
-      "japanese": "{会社|かいしゃ}では{事務用品|じむようひん}を{一括購入|いっかつこうにゅう}してコストを{抑|おさ}えている。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{事務用品|じむようひん}→事務用品：17436_jimuyouhin⟧⟦を→を：00422_wo⟧{一括購入|いっかつこうにゅう}⟦して→する：00392_suru⟧⟦コスト→コスト：06666_kosuto⟧⟦を→を：00422_wo⟧⟦{抑|おさ}えている→抑える：12806_osaeru⟧。",
       "english": "The company keeps costs down by purchasing office supplies in bulk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed in two main contexts: (1) buying in large quantities for a discount, and (2) paying the full price at once instead of in installments (as with smartphones or electronics). Often contrasted with installment payments ({分割払|ぶんかつばら}い).\n\nCOMMON COLLOCATIONS:\n- {一括購入|いっかつこうにゅう}する (to purchase in bulk / all at once)\n- {一括購入|いっかつこうにゅう}{割引|わりびき} (bulk purchase discount)\n- {一括購入|いっかつこうにゅう}と{分割払|ぶんかつばら}い (lump-sum vs. installment payment)",
+  "notes": "USAGE:\nUsed in two main contexts: (1) buying in large quantities for a discount, and (2) paying the full price at once instead of in installments (as with smartphones or electronics). Often contrasted with installment payments (⟦{分割払|ぶんかつばら}い→分割払い：17607_bunkatsubarai⟧).\n\nCOMMON COLLOCATIONS:\n- {一括購入|いっかつこうにゅう}⟦する→する：00392_suru⟧ (to purchase in bulk / all at once)\n- {一括購入|いっかつこうにゅう}⟦{割引|わりびき}→割引：01526_waribiki⟧ (bulk purchase discount)\n- {一括購入|いっかつこうにゅう}⟦と→と：00512_to⟧⟦{分割払|ぶんかつばら}い→分割払い：17607_bunkatsubarai⟧ (lump-sum vs. installment payment)",
   "cross_references": [
     {
       "type": "antonym",
@@ -57,14 +63,19 @@
   ],
   "metadata": {
     "created": "2026-03-15T07:20:58Z",
-    "modified": "2026-05-05T07:03:24Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "shopping"]
+      "semantic": [
+        "business",
+        "shopping"
+      ]
     }
   }
 }

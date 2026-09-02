@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14875_roudoku_ex1",
-      "japanese": "{詩|し}を{朗読|ろうどく}する。",
+      "japanese": "⟦{詩|し}→詩：02139_shi⟧⟦を→を：00422_wo⟧{朗読|ろうどく}⟦する→する：00392_suru⟧。",
       "english": "To read a poem aloud.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14875_roudoku_ex2",
-      "japanese": "{先生|せんせい}が{物語|ものがたり}を{朗読|ろうどく}してくれた。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦を→を：00422_wo⟧{朗読|ろうどく}⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The teacher read us a story aloud.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14875_roudoku_ex3",
-      "japanese": "{図書館|としょかん}で{絵本|えほん}の{朗読|ろうどく}イベントが{開|ひら}かれた。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦で→で：00502_de⟧⟦{絵本|えほん}→絵本：10429_ehon⟧⟦の→の：09472_no⟧{朗読|ろうどく}⟦イベント→イベント：09594_ibento⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "A picture-book reading event was held at the library.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{朗読|ろうどく} is a noun that also functions as a suru-verb ({朗読|ろうどく}する). It implies reading with expression and projection, not simply reading text out loud.\n\nCOMMON COLLOCATIONS:\n- {詩|し}を{朗読|ろうどく}する (to recite a poem)\n- {朗読|ろうどく}する (to read aloud)\n- {朗読|ろうどく}{会|かい} (a reading/recitation event)\n- {朗読|ろうどく}ボランティア (volunteer reader)\n\nRELATED WORDS:\n{音読|おんどく} is reading aloud for practice or study (often in classrooms), while {朗読|ろうどく} implies a more polished, performative reading with attention to expression and delivery. {黙読|もくどく} is silent reading.",
+  "notes": "{朗読|ろうどく} is a noun that also functions as a suru-verb ({朗読|ろうどく}⟦する→する：00392_suru⟧). It implies reading with expression and projection, not simply reading text out loud.\n\nCOMMON COLLOCATIONS:\n- ⟦{詩|し}→詩：02139_shi⟧⟦を→を：00422_wo⟧{朗読|ろうどく}⟦する→する：00392_suru⟧ (to recite a poem)\n- {朗読|ろうどく}⟦する→する：00392_suru⟧ (to read aloud)\n- {朗読|ろうどく}{会|かい} (a reading/recitation event)\n- {朗読|ろうどく}⟦ボランティア→ボランティア：04834_borantia⟧ (volunteer reader)\n\nRELATED WORDS:\n⟦{音読|おんどく}→音読：15825_ondoku⟧ is reading aloud for practice or study (often in classrooms), while {朗読|ろうどく} implies a more polished, performative reading with attention to expression and delivery. ⟦{黙読|もくどく}→黙読：16385_mokudoku⟧ is silent reading.",
   "cross_references": [
     {
       "type": "contrast",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-04T05:23:07Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -187,7 +187,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

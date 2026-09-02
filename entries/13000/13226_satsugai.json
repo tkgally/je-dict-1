@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13226_satsugai_ex1",
-      "japanese": "{容疑者|ようぎしゃ}が{殺害|さつがい}を{認|みと}めた。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦が→が：00051_ga⟧{殺害|さつがい}⟦を→を：00422_wo⟧⟦{認|みと}めた→認める：02429_mitomeru⟧。",
       "english": "The suspect admitted to the killing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13226_satsugai_ex2",
-      "japanese": "{被害者|ひがいしゃ}は{自宅|じたく}で{殺害|さつがい}されたとみられる。",
+      "japanese": "⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦は→は：00079_ha⟧⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦で→で：00502_de⟧{殺害|さつがい}⟦された→する：00392_suru⟧とみられる。",
       "english": "The victim is believed to have been killed at home.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13226_satsugai_ex3",
-      "japanese": "{事件|じけん}の{背景|はいけい}には、{金銭|きんせん}をめぐるトラブルがあり、{計画的|けいかくてき}に{殺害|さつがい}されたと{警察|けいさつ}は{見|み}ている。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦{背景|はいけい}→背景：28348_haikei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{金銭|きんせん}→金銭：02684_kinsen⟧⟦を→を：00422_wo⟧めぐる⟦トラブル→トラブル：07061_toraburu⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{計画的|けいかくてき}→計画的：21003_keikakuteki⟧⟦に→に：00314_ni⟧{殺害|さつがい}⟦された→する：00392_suru⟧⟦と→と：00512_to⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧⟦{見|み}ている→見る：00283_miru⟧。",
       "english": "Police believe the victim was killed in a premeditated act, with a financial dispute behind the incident.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal term used in news reporting and legal contexts. Functions as both a noun and a suru verb ({殺害|さつがい}する = to kill). The passive form {殺害|さつがい}される (to be killed) is extremely common in news reports.\n\nSIMILAR WORDS:\n{殺人|さつじん} is a legal/criminal term meaning 'murder' or 'homicide' (the crime itself). {殺害|さつがい} describes the act of killing more broadly and objectively.\n\nCOMMON COLLOCATIONS:\n- {殺害|さつがい}される: to be killed\n- {殺害|さつがい}{事件|じけん}: murder case\n- {殺害|さつがい}を{認|みと}める: to admit to killing\n- {計画的|けいかくてき}な{殺害|さつがい}: premeditated killing",
+  "notes": "USAGE:\nA formal term used in news reporting and legal contexts. Functions as both a noun and a suru verb ({殺害|さつがい}⟦する→する：00392_suru⟧ = to kill). The passive form {殺害|さつがい}⟦される→する：00392_suru⟧ (to be killed) is extremely common in news reports.\n\nSIMILAR WORDS:\n⟦{殺人|さつじん}→殺人：13236_satsujin⟧ is a legal/criminal term meaning 'murder' or 'homicide' (the crime itself). {殺害|さつがい} describes the act of killing more broadly and objectively.\n\nCOMMON COLLOCATIONS:\n- {殺害|さつがい}⟦される→する：00392_suru⟧: to be killed\n- {殺害|さつがい}⟦{事件|じけん}→事件：01568_jiken⟧: murder case\n- {殺害|さつがい}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧: to admit to killing\n- ⟦{計画的|けいかくてき}→計画的：21003_keikakuteki⟧な{殺害|さつがい}: premeditated killing",
   "cross_references": [
     {
       "type": "related",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-24T06:41:37Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -187,7 +187,8 @@
         "existence",
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

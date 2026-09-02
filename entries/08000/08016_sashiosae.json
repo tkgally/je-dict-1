@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08016_sashiosae_ex1",
-      "japanese": "{財産|ざいさん}を{差|さ}し{押|お}さえる。",
+      "japanese": "⟦{財産|ざいさん}→財産：01635_zaisan⟧⟦を→を：00422_wo⟧{差|さ}し{押|お}さえる。",
       "english": "To seize property.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08016_sashiosae_ex2",
-      "japanese": "{給料|きゅうりょう}の{差|さ}し{押|お}さえを{受|う}けた。",
+      "japanese": "⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦の→の：09472_no⟧{差|さ}し{押|お}さえ⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "My salary was garnished.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08016_sashiosae_ex3",
-      "japanese": "{裁判所|さいばんしょ}から{差|さ}し{押|お}さえ{命令|めいれい}が{出|で}た。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦から→から：00504_kara⟧{差|さ}し{押|お}さえ⟦{命令|めいれい}→命令：03754_meirei⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A seizure order was issued by the court.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{差|さ}し{押|お}さえ is a legal term for court-ordered seizure of assets.\n\nVERB FORMATION:\n- {差|さ}し{押|お}さえる (to seize - ichidan verb)\n\nCOMMON TARGETS OF SEIZURE:\n- {財産|ざいさん} (property)\n- {預金|よきん} (bank deposits)\n- {給料|きゅうりょう}/{給与|きゅうよ} (salary)\n- {不動産|ふどうさん} (real estate)\n- {動産|どうさん} (movable property)\n\nLEGAL COLLOCATIONS:\n- {差|さ}し{押|お}さえ{命令|めいれい} (seizure order)\n- {仮|かり}{差|さ}し{押|お}さえ (provisional seizure)\n- {差|さ}し{押|お}さえ{解除|かいじょ} (release of seizure)\n- {差|さ}し{押|お}さえ{禁止|きんし} (prohibition of seizure)\n\nUSAGE:\n- {差|さ}し{押|お}さえを{受|う}ける (to have assets seized)\n- {差|さ}し{押|お}さえられる (to be seized)\nUsed in contexts of debt collection, legal judgments, and tax enforcement.",
+  "notes": "{差|さ}し{押|お}さえ is a legal term for court-ordered seizure of assets.\n\nVERB FORMATION:\n- {差|さ}し{押|お}さえる (to seize - ichidan verb)\n\nCOMMON TARGETS OF SEIZURE:\n- ⟦{財産|ざいさん}→財産：01635_zaisan⟧ (property)\n- ⟦{預金|よきん}→預金：05420_yokin⟧ (bank deposits)\n- ⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧/⟦{給与|きゅうよ}→給与：00264_kyuuyo⟧ (salary)\n- ⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧ (real estate)\n- ⟦{動産|どうさん}→動産：30308_dousan⟧ (movable property)\n\nLEGAL COLLOCATIONS:\n- {差|さ}し{押|お}さえ⟦{命令|めいれい}→命令：03754_meirei⟧ (seizure order)\n- ⟦{仮|かり}→仮：11551_kari⟧{差|さ}し{押|お}さえ (provisional seizure)\n- {差|さ}し{押|お}さえ⟦{解除|かいじょ}→解除：05762_kaijo⟧ (release of seizure)\n- {差|さ}し{押|お}さえ⟦{禁止|きんし}→禁止：02643_kinshi⟧ (prohibition of seizure)\n\nUSAGE:\n- {差|さ}し{押|お}さえ⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to have assets seized)\n- {差|さ}し{押|お}さえられる (to be seized)\nUsed in contexts of debt collection, legal judgments, and tax enforcement.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,9 +60,10 @@
         "law",
         "finance"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-01-25T00:30:04Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

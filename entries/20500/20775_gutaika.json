@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20775_gutaika_ex1",
-      "japanese": "{計画|けいかく}を{具体化|ぐたいか}する。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{具体化|ぐたいか}⟦する→する：00392_suru⟧。",
       "english": "To make a plan concrete.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20775_gutaika_ex2",
-      "japanese": "アイデアが{具体化|ぐたいか}してきた。",
+      "japanese": "⟦アイデア→アイデア：10161_aidea⟧⟦が→が：00051_ga⟧{具体化|ぐたいか}してきた。",
       "english": "The idea has started to take shape.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20775_gutaika_ex3",
-      "japanese": "{政策|せいさく}の{具体化|ぐたいか}に{向|む}けて{議論|ぎろん}が{進|すす}んでいる。",
+      "japanese": "⟦{政策|せいさく}→政策：10070_seisaku⟧⟦の→の：09472_no⟧{具体化|ぐたいか}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Discussions are progressing toward making the policy concrete.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {具体|ぐたい} (concrete, tangible) + {化|か} (transformation suffix). Used when abstract ideas, plans, or proposals are developed into specific, actionable form.\n\nCOMMON COLLOCATIONS:\n- {計画|けいかく}を{具体化|ぐたいか}する: to make a plan concrete\n- {案|あん}を{具体化|ぐたいか}する: to flesh out a proposal\n- {具体化|ぐたいか}に{向|む}けて: toward concretization\n- {具体化|ぐたいか}が{進|すす}む: concretization progresses\n\nSIMILAR WORDS:\n- {実現|じつげん}: realization — focuses on actually achieving or accomplishing something\n- {現実化|げんじつか}: actualization — making something real, similar but emphasizes becoming reality\n- {明確化|めいかくか}: clarification — making something clear, not necessarily actionable",
+  "notes": "Formed from ⟦{具体|ぐたい}→具体：02675_gutai⟧ (concrete, tangible) + ⟦{化|か}→〜化：28335_ka⟧ (transformation suffix). Used when abstract ideas, plans, or proposals are developed into specific, actionable form.\n\nCOMMON COLLOCATIONS:\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{具体化|ぐたいか}⟦する→する：00392_suru⟧: to make a plan concrete\n- ⟦{案|あん}→案：01776_an⟧⟦を→を：00422_wo⟧{具体化|ぐたいか}⟦する→する：00392_suru⟧: to flesh out a proposal\n- {具体化|ぐたいか}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧: toward concretization\n- {具体化|ぐたいか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: concretization progresses\n\nSIMILAR WORDS:\n- ⟦{実現|じつげん}→実現：03276_jitsugen⟧: realization — focuses on actually achieving or accomplishing something\n- ⟦{現実化|げんじつか}→現実化：21661_genjitsuka⟧: actualization — making something real, similar but emphasizes becoming reality\n- {明確化|めいかくか}: clarification — making something clear, not necessarily actionable",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -95,10 +95,11 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-03-30T16:07:51Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

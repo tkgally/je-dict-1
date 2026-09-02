@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28567_yuriokosu_ex1",
-      "japanese": "{弟|おとうと}を{揺|ゆ}り{起|お}こした。",
+      "japanese": "⟦{弟|おとうと}→弟：00572_otouto⟧⟦を→を：00422_wo⟧{揺|ゆ}り{起|お}こした。",
       "english": "I shook my little brother awake.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28567_yuriokosu_ex2",
-      "japanese": "{地震|じしん}に{気付|きづ}かない{父|ちち}を{母|はは}が{揺|ゆ}り{起|お}こした。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦に→に：00314_ni⟧⟦{気付|きづ}かない→気付く：01933_kizuku⟧⟦{父|ちち}→父：00566_chichi⟧⟦を→を：00422_wo⟧⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧{揺|ゆ}り{起|お}こした。",
       "english": "My mother shook my father awake when he didn't notice the earthquake.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28567_yuriokosu_ex3",
-      "japanese": "{電車|でんしゃ}が{終点|しゅうてん}に{着|つ}いたので、{駅員|えきいん}が{眠|ねむ}っている{乗客|じょうきゃく}を{揺|ゆ}り{起|お}こしている。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{終点|しゅうてん}→終点：05457_shuuten⟧⟦に→に：00314_ni⟧⟦{着|つ}いた→着く：00680_tsuku⟧⟦の→の：09472_no⟧で、⟦{駅員|えきいん}→駅員：05503_ekiin⟧⟦が→が：00051_ga⟧⟦{眠|ねむ}っている→眠る：01181_nemuru⟧⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦を→を：00422_wo⟧{揺|ゆ}り{起|お}こして⟦いる→いる：00495_iru⟧。",
       "english": "Since the train has arrived at the last stop, the station staff are shaking the sleeping passengers awake.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {揺|ゆ}する (to shake) + {起|お}こす (to wake). Specifically refers to waking by physical shaking, distinguishing it from waking by voice or alarm.\n\nTRANSITIVITY:\nTransitive (takes を). The object is always a person.\n\nCOMMON COLLOCATIONS:\n- {肩|かた}を{揺|ゆ}り{起|お}こす: to shake by the shoulder to wake\n- {子供|こども}を{揺|ゆ}り{起|お}こす: to shake a child awake\n- {寝|ね}ている{人|ひと}を{揺|ゆ}り{起|お}こす: to shake a sleeping person awake\n\nSIMILAR WORDS:\n- {起|お}こす: to wake up (someone) — general, by any means\n- {揺|ゆ}する: to shake — just the shaking action\n- {目覚|めざ}めさせる: to make wake up — broader, includes mental awakening (figurative use too)",
+  "notes": "Compound of ⟦{揺|ゆ}する→揺する：04598_yusuru⟧ (to shake) + ⟦{起|お}こす→起こす：01234_okosu⟧ (to wake). Specifically refers to waking by physical shaking, distinguishing it from waking by voice or alarm.\n\nTRANSITIVITY:\nTransitive (takes ⟦を→を：00422_wo⟧). The object is always a person.\n\nCOMMON COLLOCATIONS:\n- ⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧{揺|ゆ}り{起|お}こす: to shake by the shoulder to wake\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{揺|ゆ}り{起|お}こす: to shake a child awake\n- ⟦{寝|ね}ている→寝る：00470_neru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{揺|ゆ}り{起|お}こす: to shake a sleeping person awake\n\nSIMILAR WORDS:\n- ⟦{起|お}こす→起こす：01234_okosu⟧: to wake up (someone) — general, by any means\n- ⟦{揺|ゆ}する→揺する：04598_yusuru⟧: to shake — just the shaking action\n- ⟦{目覚|めざ}めさせる→目覚める：04649_mezameru⟧: to make wake up — broader, includes mental awakening (figurative use too)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -67,10 +67,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "godan",

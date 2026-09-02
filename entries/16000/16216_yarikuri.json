@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16216_yarikuri_ex1",
-      "japanese": "{家計|かけい}をやりくりする。",
+      "japanese": "⟦{家計|かけい}→家計：12287_kakei⟧⟦を→を：00422_wo⟧やりくり⟦する→する：00392_suru⟧。",
       "english": "To manage the household finances.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16216_yarikuri_ex2",
-      "japanese": "{時間|じかん}をやりくりして{勉強|べんきょう}している。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧やりくり⟦して→する：00392_suru⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I'm juggling my time to make room for studying.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16216_yarikuri_ex3",
-      "japanese": "{給料|きゅうりょう}が{少|すく}ないので、{毎月|まいつき}のやりくりが{大変|たいへん}だ。",
+      "japanese": "⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦の→の：09472_no⟧で、⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦の→の：09472_no⟧やりくり⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "My salary is low, so managing finances every month is tough.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nやりくり is most commonly used for household budgeting and financial management but can also apply to time and schedule management. It always implies resourcefulness under constraints.\n\nCOMMON COLLOCATIONS:\n- やりくりする: to manage, to make do\n- {家計|かけい}のやりくり: household budget management\n- やりくり{上手|じょうず}: good at managing money\n- {時間|じかん}のやりくり: time management\n\nSIMILAR WORDS:\n{節約|せつやく} means \"economizing\" or \"saving\" and focuses on cutting costs. やりくり is broader — it means managing overall, including finding creative solutions to make ends meet.",
+  "notes": "USAGE:\nやりくり is most commonly used for household budgeting and financial management but can also apply to time and schedule management. It always implies resourcefulness under constraints.\n\nCOMMON COLLOCATIONS:\n- やりくり⟦する→する：00392_suru⟧: to manage, to make do\n- ⟦{家計|かけい}→家計：12287_kakei⟧⟦の→の：09472_no⟧やりくり: household budget management\n- やりくり⟦{上手|じょうず}→上手：00707_jouzu⟧: good at managing money\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧やりくり: time management\n\nSIMILAR WORDS:\n⟦{節約|せつやく}→節約：03302_setsuyaku⟧ means \"economizing\" or \"saving\" and focuses on cutting costs. やりくり is broader — it means managing overall, including finding creative solutions to make ends meet.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-11T04:38:13Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -150,7 +150,8 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

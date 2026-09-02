@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29790_suuryouka_ex1",
-      "japanese": "{効果|こうか}を{数量化|すうりょうか}する。",
+      "japanese": "⟦{効果|こうか}→効果：02726_kouka⟧⟦を→を：00422_wo⟧{数量化|すうりょうか}⟦する→する：00392_suru⟧。",
       "english": "I quantify the effect.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29790_suuryouka_ex2",
-      "japanese": "{満足度|まんぞくど}を{数量化|すうりょうか}するのは{難|むずか}しい。",
+      "japanese": "{満足度|まんぞくど}⟦を→を：00422_wo⟧{数量化|すうりょうか}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Quantifying satisfaction is difficult.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29790_suuryouka_ex3",
-      "japanese": "{調査|ちょうさ}の{結果|けっか}を{数量化|すうりょうか}することで、{変化|へんか}が{比較|ひかく}しやすくなる。",
+      "japanese": "⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{数量化|すうりょうか}⟦する→する：00392_suru⟧ことで、⟦{変化|へんか}→変化：03615_henka⟧⟦が→が：00051_ga⟧⟦{比較|ひかく}→比較：03576_hikaku⟧しやすく⟦なる→なる：01970_naru⟧。",
       "english": "By quantifying the survey results, changes become easier to compare.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {数量|すうりょう} (quantity) + the suffix {化|か} (-ization). Takes する to form a verb: {数量化|すうりょうか}する (to quantify).\n\nCOMMON COLLOCATIONS:\n- {数量化|すうりょうか}する: to quantify\n- {数量化|すうりょうか}が{難|むずか}しい: hard to quantify\n\nSIMILAR WORDS:\n- {定量化|ていりょうか}: quantification — near-synonym, more common in scientific writing.\n- {数値化|すうちか}: converting into numerical values — emphasizes assigning specific figures.",
+  "notes": "Formed from ⟦{数量|すうりょう}→数量：05473_suuryou⟧ (quantity) + the suffix ⟦{化|か}→〜化：28335_ka⟧ (-ization). Takes ⟦する→する：00392_suru⟧ to form a verb: {数量化|すうりょうか}⟦する→する：00392_suru⟧ (to quantify).\n\nCOMMON COLLOCATIONS:\n- {数量化|すうりょうか}⟦する→する：00392_suru⟧: to quantify\n- {数量化|すうりょうか}⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧: hard to quantify\n\nSIMILAR WORDS:\n- ⟦{定量化|ていりょうか}→定量化：22613_teiryouka⟧: quantification — near-synonym, more common in scientific writing.\n- ⟦{数値化|すうちか}→数値化：16461_suuchika⟧: converting into numerical values — emphasizes assigning specific figures.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -76,10 +76,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

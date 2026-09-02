@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18818_osoban_ex1",
-      "japanese": "{今日|きょう}は{遅番|おそばん}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{遅番|おそばん}だ。",
       "english": "I'm on the late shift today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18818_osoban_ex2",
-      "japanese": "{来週|らいしゅう}は{遅番|おそばん}のシフトになっている。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦は→は：00079_ha⟧{遅番|おそばん}⟦の→の：09472_no⟧⟦シフト→シフト：10934_shifuto⟧になっている。",
       "english": "I'm scheduled for the late shift next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18818_osoban_ex3",
-      "japanese": "{遅番|おそばん}の{日|ひ}は{朝|あさ}ゆっくりできるが、{帰|かえ}りが{遅|おそ}くなる。",
+      "japanese": "{遅番|おそばん}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦ゆっくり→ゆっくり：00910_yukkuri⟧⟦できる→できる：00557_dekiru⟧⟦が→が：00051_ga⟧、⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦が→が：00051_ga⟧⟦{遅|おそ}く→遅い：00533_osoi⟧⟦なる→なる：01970_naru⟧。",
       "english": "On late shift days, I can take my time in the morning, but I get home late.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A work shift that starts later in the day, typically in the afternoon or evening. Common in retail, nursing, hospitality, and other service industries with rotating schedules.\n\nSHIFT SYSTEM:\n- {早番|はやばん}: early shift (morning start)\n- {中番|なかばん}: middle shift\n- {遅番|おそばん}: late shift (afternoon/evening start)\n\nCOMMON PATTERNS:\n- {遅番|おそばん}に{入|はい}る: to work the late shift\n- {遅番|おそばん}と{早番|はやばん}を{交代|こうたい}する: to alternate between late and early shifts\n\nAlso read as おそばん, not *ちばん. The kanji {遅|おそ} retains its kun'yomi reading in this compound.",
+  "notes": "A work shift that starts later in the day, typically in the afternoon or evening. Common in retail, nursing, hospitality, and other service industries with rotating schedules.\n\nSHIFT SYSTEM:\n- ⟦{早番|はやばん}→早番：17358_hayaban⟧: early shift (morning start)\n- {中番|なかばん}: middle shift\n- {遅番|おそばん}: late shift (afternoon/evening start)\n\nCOMMON PATTERNS:\n- {遅番|おそばん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to work the late shift\n- {遅番|おそばん}⟦と→と：00512_to⟧⟦{早番|はやばん}→早番：17358_hayaban⟧⟦を→を：00422_wo⟧⟦{交代|こうたい}→交代：14943_koutai⟧⟦する→する：00392_suru⟧: to alternate between late and early shifts\n\nAlso read as おそばん, not *ちばん. The kanji {遅|おそ} retains its kun'yomi reading in this compound.",
   "cross_references": [
     {
       "type": "antonym",
@@ -66,12 +72,17 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "time-general"]
+      "semantic": [
+        "work",
+        "time-general"
+      ]
     },
     "created": "2026-03-23T04:44:03Z",
-    "modified": "2026-05-06T07:07:17Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

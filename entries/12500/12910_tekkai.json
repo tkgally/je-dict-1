@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12910_tekkai_ex1",
-      "japanese": "{発言|はつげん}を{撤回|てっかい}する。",
+      "japanese": "⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{撤回|てっかい}⟦する→する：00392_suru⟧。",
       "english": "To retract one's statement.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12910_tekkai_ex2",
-      "japanese": "{野党|やとう}は{法案|ほうあん}の{撤回|てっかい}を{求|もと}めた。",
+      "japanese": "⟦{野党|やとう}→野党：02438_yatou⟧⟦は→は：00079_ha⟧⟦{法案|ほうあん}→法案：09758_houan⟧⟦の→の：09472_no⟧{撤回|てっかい}⟦を→を：00422_wo⟧⟦{求|もと}めた→求める：02316_motomeru⟧。",
       "english": "The opposition party demanded the withdrawal of the bill.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12910_tekkai_ex3",
-      "japanese": "{批判|ひはん}を{受|う}けて、{大臣|だいじん}は{不適切|ふてきせつ}な{発言|はつげん}を{撤回|てっかい}し、{謝罪|しゃざい}した。",
+      "japanese": "⟦{批判|ひはん}→批判：03580_hihan⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧、⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦は→は：00079_ha⟧⟦{不適切|ふてきせつ}→不適切：11359_futekisetsu⟧な⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{撤回|てっかい}し、⟦{謝罪|しゃざい}した→謝罪する：19520_shazaisuru⟧。",
       "english": "Under criticism, the minister retracted the inappropriate remarks and apologized.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Implies a formal, often public act of taking back something previously stated or proposed. The retraction is usually made under pressure, criticism, or upon realizing an error. The word carries serious connotations — it is not used for casual changes of mind.\n\nCOMMON COLLOCATIONS:\n- {発言|はつげん}を{撤回|てっかい}する: to retract a statement\n- {提案|ていあん}を{撤回|てっかい}する: to withdraw a proposal\n- {法案|ほうあん}の{撤回|てっかい}: withdrawal of a bill\n- {撤回|てっかい}を{求|もと}める: to demand retraction\n\nSIMILAR WORDS:\n- {取|と}り{消|け}す: to cancel, to revoke (broader, everyday usage)\n- {撤退|てったい}: withdrawal, retreat (physical withdrawal, as of troops or business)",
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Implies a formal, often public act of taking back something previously stated or proposed. The retraction is usually made under pressure, criticism, or upon realizing an error. The word carries serious connotations — it is not used for casual changes of mind.\n\nCOMMON COLLOCATIONS:\n- ⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{撤回|てっかい}⟦する→する：00392_suru⟧: to retract a statement\n- ⟦{提案|ていあん}→提案：03536_teian⟧⟦を→を：00422_wo⟧{撤回|てっかい}⟦する→する：00392_suru⟧: to withdraw a proposal\n- ⟦{法案|ほうあん}→法案：09758_houan⟧⟦の→の：09472_no⟧{撤回|てっかい}: withdrawal of a bill\n- {撤回|てっかい}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to demand retraction\n\nSIMILAR WORDS:\n- ⟦{取|と}り{消|け}す→取り消す：04224_torikesu⟧: to cancel, to revoke (broader, everyday usage)\n- ⟦{撤退|てったい}→撤退：12822_tettai⟧: withdrawal, retreat (physical withdrawal, as of troops or business)",
   "cross_references": [
     {
       "type": "related",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T14:27:54Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -187,7 +187,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

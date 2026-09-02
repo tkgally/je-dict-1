@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "12326_kitaeru_ex1",
-      "japanese": "{毎日|まいにち}{体|からだ}を{鍛|きた}えている。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{鍛|きた}えて⟦いる→いる：00495_iru⟧。",
       "english": "I train my body every day.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "12326_kitaeru_ex2",
-      "japanese": "{水泳|すいえい}で{足腰|あしこし}を{鍛|きた}える。",
+      "japanese": "⟦{水泳|すいえい}→水泳：01623_suiei⟧⟦で→で：00502_de⟧⟦{足腰|あしこし}→足腰：22811_ashikoshi⟧⟦を→を：00422_wo⟧{鍛|きた}える。",
       "english": "I strengthen my legs and lower back through swimming.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "12326_kitaeru_ex3",
-      "japanese": "{厳|きび}しい{練習|れんしゅう}で{精神力|せいしんりょく}を{鍛|きた}えた。",
+      "japanese": "⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦で→で：00502_de⟧⟦{精神力|せいしんりょく}→精神力：17976_seishinryoku⟧⟦を→を：00422_wo⟧{鍛|きた}えた。",
       "english": "I built up my mental strength through rigorous practice.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "12326_kitaeru_ex4",
-      "japanese": "{刀|かたな}を{鍛|きた}える{職人|しょくにん}は{少|すく}なくなった。",
+      "japanese": "⟦{刀|かたな}→刀：02194_katana⟧⟦を→を：00422_wo⟧{鍛|きた}える⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦は→は：00079_ha⟧⟦{少|すく}なく→少ない：01136_sukunai⟧⟦なった→なる：01970_naru⟧。",
       "english": "There are fewer craftspeople who forge swords now.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
       ]
     }
   ],
-  "notes": "{鍛|きた}える originally meant to forge metal, but in modern Japanese it most commonly means to train or strengthen the body or mind.\n\nIchidan verb.\n- Negative: {鍛|きた}えない\n- Polite: {鍛|きた}えます\n- Te-form: {鍛|きた}えて\n- Past: {鍛|きた}えた\n- Passive: {鍛|きた}えられる\n\nCOMMON COLLOCATIONS:\n- {体|からだ}を{鍛|きた}える: to train one's body\n- {足腰|あしこし}を{鍛|きた}える: to strengthen one's legs and back\n- {精神|せいしん}を{鍛|きた}える: to discipline one's mind\n- {筋肉|きんにく}を{鍛|きた}える: to build muscle",
+  "notes": "{鍛|きた}える originally meant to forge metal, but in modern Japanese it most commonly means to train or strengthen the body or mind.\n\nIchidan verb.\n- Negative: {鍛|きた}えない\n- Polite: {鍛|きた}えます\n- Te-form: {鍛|きた}えて\n- Past: {鍛|きた}えた\n- Passive: {鍛|きた}えられる\n\nCOMMON COLLOCATIONS:\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{鍛|きた}える: to train one's body\n- ⟦{足腰|あしこし}→足腰：22811_ashikoshi⟧⟦を→を：00422_wo⟧{鍛|きた}える: to strengthen one's legs and back\n- ⟦{精神|せいしん}→精神：03377_seishin⟧⟦を→を：00422_wo⟧{鍛|きた}える: to discipline one's mind\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦を→を：00422_wo⟧{鍛|きた}える: to build muscle",
   "cross_references": [
     {
       "type": "related",
@@ -168,7 +168,7 @@
   ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     }
   }
 }

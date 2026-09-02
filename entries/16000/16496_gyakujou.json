@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16496_gyakujou_ex1",
-      "japanese": "{彼|かれ}は{逆上|ぎゃくじょう}して{叫|さけ}んだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{逆上|ぎゃくじょう}⟦して→する：00392_suru⟧⟦{叫|さけ}んだ→叫ぶ：02108_sakebu⟧。",
       "english": "He flew into a frenzy and screamed.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16496_gyakujou_ex2",
-      "japanese": "{犯人|はんにん}は{逆上|ぎゃくじょう}して{刃物|はもの}を{振|ふ}り{回|まわ}した。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧{逆上|ぎゃくじょう}⟦して→する：00392_suru⟧⟦{刃物|はもの}→刃物：11752_hamono⟧⟦を→を：00422_wo⟧⟦{振|ふ}り{回|まわ}した→振り回す：06051_furimawasu⟧。",
       "english": "The culprit lost control and swung a knife around.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16496_gyakujou_ex3",
-      "japanese": "{冷静|れいせい}に{話|はな}し{合|あ}おうとしたが、{相手|あいて}が{逆上|ぎゃくじょう}してしまい、{話|はなし}にならなかった。",
+      "japanese": "⟦{冷静|れいせい}→冷静：03781_reisei⟧⟦に→に：00314_ni⟧⟦{話|はな}し{合|あ}おう→話し合う：02396_hanashiau⟧とした⟦が→が：00051_ga⟧、⟦{相手|あいて}→相手：01677_aite⟧⟦が→が：00051_ga⟧{逆上|ぎゃくじょう}⟦して→する：00392_suru⟧しまい、⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦ならなかった→なる：01970_naru⟧。",
       "english": "I tried to have a calm discussion, but the other person flew into a rage and it was impossible to talk.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する. Describes an extreme emotional state where someone loses rational control. Often appears in crime reports, dramatic narratives, and descriptions of conflict. Stronger than simply being angry — implies a loss of self-control.\n\nCOMMON COLLOCATIONS:\n- {逆上|ぎゃくじょう}する (to fly into a frenzy)\n- {逆上|ぎゃくじょう}した{犯人|はんにん} (a frenzied culprit)\n- {逆上|ぎゃくじょう}して{暴|あば}れる (to go on a rampage in a frenzy)\n\nSIMILAR WORDS:\n- {激怒|げきど}: fury — intense anger, but doesn't necessarily imply loss of rational control\n- {錯乱|さくらん}: derangement — mental confusion, broader than anger-driven frenzy",
+  "notes": "USAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧. Describes an extreme emotional state where someone loses rational control. Often appears in crime reports, dramatic narratives, and descriptions of conflict. Stronger than simply being angry — implies a loss of self-control.\n\nCOMMON COLLOCATIONS:\n- {逆上|ぎゃくじょう}⟦する→する：00392_suru⟧ (to fly into a frenzy)\n- {逆上|ぎゃくじょう}⟦した→する：00392_suru⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧ (a frenzied culprit)\n- {逆上|ぎゃくじょう}⟦して→する：00392_suru⟧⟦{暴|あば}れる→暴れる：04575_abareru⟧ (to go on a rampage in a frenzy)\n\nSIMILAR WORDS:\n- ⟦{激怒|げきど}→激怒：08681_gekido⟧: fury — intense anger, but doesn't necessarily imply loss of rational control\n- ⟦{錯乱|さくらん}→錯乱：25777_sakuran⟧: derangement — mental confusion, broader than anger-driven frenzy",
   "cross_references": [
     {
       "type": "contrast",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-13T03:47:05Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
         "emotion",
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

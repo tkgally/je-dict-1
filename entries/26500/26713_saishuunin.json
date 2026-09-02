@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26713_saishuunin_ex1",
-      "japanese": "{社長|しゃちょう}が{再就任|さいしゅうにん}することになった。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧{再就任|さいしゅうにん}⟦する→する：00392_suru⟧ことになった。",
       "english": "The company president will be reappointed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26713_saishuunin_ex2",
-      "japanese": "{前|ぜん}CEO の{再就任|さいしゅうにん}を{求|もと}める{声|こえ}が{高|たか}まっている。",
+      "japanese": "⟦{前|ぜん}→前〜：03957_zen⟧CEO ⟦の→の：09472_no⟧{再就任|さいしゅうにん}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{高|たか}まっている→高まる：02066_takamaru⟧。",
       "english": "Calls for the reappointment of the former CEO are growing louder.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26713_saishuunin_ex3",
-      "japanese": "{彼|かれ}は{一度|いちど}{辞任|じにん}したが、{組織|そしき}の{立|た}て{直|なお}しのために{再就任|さいしゅうにん}を{引|ひ}き{受|う}けた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦{辞任|じにん}→辞任：10144_jinin⟧⟦した→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{立|た}て{直|なお}し⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{再就任|さいしゅうにん}⟦を→を：00422_wo⟧⟦{引|ひ}き{受|う}けた→引き受ける：03140_hikiukeru⟧。",
       "english": "He resigned once but accepted reappointment in order to rebuild the organization.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {再|さい} (again/re-) and {就任|しゅうにん} (assuming office). Describes the act of taking up a position that one previously held. The prefix {再|さい} productively attaches to many action nouns to add the meaning of \"again.\"\n\nCOMMON COLLOCATIONS:\n- {再就任|さいしゅうにん}する: to be reappointed\n- {再就任|さいしゅうにん}を{果|は}たす: to achieve reappointment\n- {再就任|さいしゅうにん}を{要請|ようせい}する: to request reappointment\n\nSIMILAR WORDS:\n- {再任|さいにん}: reappointment — a shorter synonym, often used in official contexts\n- {就任|しゅうにん}: assumption of office — the base word, first appointment\n- {復帰|ふっき}: return — broader, can apply to returning to any role or activity\n- {辞任|じにん}: resignation — the act of leaving a position",
+  "notes": "Composed of ⟦{再|さい}→再〜：03953_sai⟧ (again/re-) and ⟦{就任|しゅうにん}→就任：12368_shuunin⟧ (assuming office). Describes the act of taking up a position that one previously held. The prefix ⟦{再|さい}→再〜：03953_sai⟧ productively attaches to many action nouns to add the meaning of \"again.\"\n\nCOMMON COLLOCATIONS:\n- {再就任|さいしゅうにん}⟦する→する：00392_suru⟧: to be reappointed\n- {再就任|さいしゅうにん}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to achieve reappointment\n- {再就任|さいしゅうにん}⟦を→を：00422_wo⟧⟦{要請|ようせい}→要請：05463_yousei⟧⟦する→する：00392_suru⟧: to request reappointment\n\nSIMILAR WORDS:\n- ⟦{再任|さいにん}→再任：17443_sainin⟧: reappointment — a shorter synonym, often used in official contexts\n- ⟦{就任|しゅうにん}→就任：12368_shuunin⟧: assumption of office — the base word, first appointment\n- ⟦{復帰|ふっき}→復帰：12564_fukki⟧: return — broader, can apply to returning to any role or activity\n- ⟦{辞任|じにん}→辞任：10144_jinin⟧: resignation — the act of leaving a position",
   "cross_references": [
     {
       "type": "contrast",
@@ -82,10 +82,11 @@
         "work",
         "politics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-04T14:14:27Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

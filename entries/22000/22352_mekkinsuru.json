@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22352_mekkinsuru_ex1",
-      "japanese": "{器具|きぐ}を{滅菌|めっきん}する。",
+      "japanese": "⟦{器具|きぐ}→器具：03980_kigu⟧⟦を→を：00422_wo⟧{滅菌|めっきん}する。",
       "english": "Sterilize the instruments.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22352_mekkinsuru_ex2",
-      "japanese": "{手術|しゅじゅつ}{前|まえ}に{道具|どうぐ}をすべて{滅菌|めっきん}しなければならない。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{道具|どうぐ}→道具：01479_dougu⟧⟦を→を：00422_wo⟧すべて{滅菌|めっきん}し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "All tools must be sterilized before surgery.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22352_mekkinsuru_ex3",
-      "japanese": "この{牛乳|ぎゅうにゅう}は{高温|こうおん}で{滅菌|めっきん}されているので{長期|ちょうき}{保存|ほぞん}ができる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧⟦は→は：00079_ha⟧⟦{高温|こうおん}→高温：14705_kouon⟧⟦で→で：00502_de⟧{滅菌|めっきん}されて⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧で⟦{長期|ちょうき}{保存|ほぞん}→長期保存：18447_choukihozon⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "This milk has been sterilized at high temperature, so it can be stored for a long time.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A technical term meaning complete elimination of microorganisms, stricter than {殺菌|さっきん} (which reduces but may not eliminate all bacteria) or {消毒|しょうどく} (disinfection).\n\nCOMMON COLLOCATIONS:\n- {滅菌|めっきん}{処理|しょり}: sterilization treatment\n- {滅菌|めっきん}{済|ず}み: sterilized; already sterilized\n- {高圧|こうあつ}{蒸気|じょうき}{滅菌|めっきん}: autoclave sterilization\n- {滅菌|めっきん}ガーゼ: sterile gauze\n\nSIMILAR WORDS:\n- {殺菌|さっきん}: bactericidal treatment — reduces bacteria but does not guarantee complete elimination\n- {消毒|しょうどく}: disinfection — removal of pathogens from surfaces, broader and less strict\n- {除菌|じょきん}: sanitization — removal of bacteria, common in household product marketing\n\nFORMS:\n{滅|めつ} (destroy) + {菌|きん} (bacteria). Literally 'destroy bacteria.'",
+  "notes": "A technical term meaning complete elimination of microorganisms, stricter than ⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧ (which reduces but may not eliminate all bacteria) or ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧ (disinfection).\n\nCOMMON COLLOCATIONS:\n- ⟦{滅菌|めっきん}→滅菌：24175_mekkin⟧⟦{処理|しょり}→処理：03251_shori⟧: sterilization treatment\n- ⟦{滅菌|めっきん}→滅菌：24175_mekkin⟧⟦{済|ず}み→〜済み：04013_zumi⟧: sterilized; already sterilized\n- ⟦{高圧|こうあつ}→高圧：21094_kouatsu⟧⟦{蒸気|じょうき}→蒸気：04278_jouki⟧⟦{滅菌|めっきん}→滅菌：24175_mekkin⟧: autoclave sterilization\n- ⟦{滅菌|めっきん}→滅菌：24175_mekkin⟧⟦ガーゼ→ガーゼ：28833_gaaze⟧: sterile gauze\n\nSIMILAR WORDS:\n- ⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧: bactericidal treatment — reduces bacteria but does not guarantee complete elimination\n- ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: disinfection — removal of pathogens from surfaces, broader and less strict\n- ⟦{除菌|じょきん}→除菌：07789_jokin⟧: sanitization — removal of bacteria, common in household product marketing\n\nFORMS:\n{滅|めつ} (destroy) + ⟦{菌|きん}→菌：02682_kin⟧ (bacteria). Literally 'destroy bacteria.'",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T19:22:26Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

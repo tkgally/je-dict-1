@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12828_sounyuu_ex1",
-      "japanese": "カードを{挿入|そうにゅう}してください。",
+      "japanese": "⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧{挿入|そうにゅう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please insert your card.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12828_sounyuu_ex2",
-      "japanese": "{文章|ぶんしょう}に{画像|がぞう}を{挿入|そうにゅう}する。",
+      "japanese": "⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦に→に：00314_ni⟧⟦{画像|がぞう}→画像：13549_gazou⟧⟦を→を：00422_wo⟧{挿入|そうにゅう}⟦する→する：00392_suru⟧。",
       "english": "To insert an image into a document.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12828_sounyuu_ex3",
-      "japanese": "{映画|えいが}の{途中|とちゅう}に{過去|かこ}の{回想|かいそう}シーンが{挿入|そうにゅう}されている。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦に→に：00314_ni⟧⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{回想|かいそう}→回想：11839_kaisou⟧⟦シーン→シーン：08914_shiin⟧⟦が→が：00051_ga⟧{挿入|そうにゅう}⟦されている→する：00392_suru⟧。",
       "english": "A flashback scene is inserted partway through the film.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{挿入|そうにゅう} is a formal, technical word. In everyday computing, it is used for inserting text, images, or other elements (the \"Insert\" function). In film and literature, {挿入|そうにゅう}{歌|か} refers to an insert song (a song played during a scene).\n\nCOMMON COLLOCATIONS:\n- {挿入|そうにゅう}{歌|か}: insert song (in film/anime)\n- {挿入|そうにゅう}{口|ぐち}: insertion slot\n- カードを{挿入|そうにゅう}する: to insert a card\n- {画像|がぞう}を{挿入|そうにゅう}する: to insert an image\n- {挿入|そうにゅう}キー: Insert key (on keyboard)",
+  "notes": "USAGE:\n{挿入|そうにゅう} is a formal, technical word. In everyday computing, it is used for inserting text, images, or other elements (the \"Insert\" function). In film and literature, {挿入|そうにゅう}{歌|か} refers to an insert song (a song played during a scene).\n\nCOMMON COLLOCATIONS:\n- {挿入|そうにゅう}{歌|か}: insert song (in film/anime)\n- {挿入|そうにゅう}{口|ぐち}: insertion slot\n- ⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧{挿入|そうにゅう}⟦する→する：00392_suru⟧: to insert a card\n- ⟦{画像|がぞう}→画像：13549_gazou⟧⟦を→を：00422_wo⟧{挿入|そうにゅう}⟦する→する：00392_suru⟧: to insert an image\n- {挿入|そうにゅう}⟦キー→キー：10869_kii⟧: Insert key (on keyboard)",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T11:12:58Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

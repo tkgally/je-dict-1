@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21025_karitoru_ex1",
-      "japanese": "{稲|いね}を{刈|か}り{取|と}る。",
+      "japanese": "⟦{稲|いね}→稲：01820_ine⟧⟦を→を：00422_wo⟧{刈|か}り{取|と}る。",
       "english": "To harvest the rice.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21025_karitoru_ex2",
-      "japanese": "{秋|あき}になると{農家|のうか}は{稲|いね}を{刈|か}り{取|と}る。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{農家|のうか}→農家：03539_nouka⟧⟦は→は：00079_ha⟧⟦{稲|いね}→稲：01820_ine⟧⟦を→を：00422_wo⟧{刈|か}り{取|と}る。",
       "english": "When autumn comes, farmers harvest the rice.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21025_karitoru_ex3",
-      "japanese": "{雑草|ざっそう}が{伸|の}びすぎたので、{週末|しゅうまつ}にまとめて{刈|か}り{取|と}った。",
+      "japanese": "⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦が→が：00051_ga⟧⟦{伸|の}び→伸びる：01974_nobiru⟧すぎた⟦の→の：09472_no⟧で、⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧⟦まとめて→まとめる：02424_matomeru⟧{刈|か}り{取|と}った。",
       "english": "The weeds had grown too tall, so I mowed them all down over the weekend.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb from {刈|か}る (to mow, cut) + {取|と}る (to take). The {取|と}る component adds the nuance of taking or gathering what has been cut.\n\nCOMMON COLLOCATIONS:\n- {稲|いね}を{刈|か}り{取|と}る: to harvest rice\n- {麦|むぎ}を{刈|か}り{取|と}る: to harvest wheat\n- {雑草|ざっそう}を{刈|か}り{取|と}る: to mow weeds\n- {芝生|しばふ}を{刈|か}り{取|と}る: to mow the lawn\n\nSIMILAR WORDS:\n- {刈|か}る: to mow, to cut — simpler verb; focuses on the cutting action without the gathering nuance\n- {収穫|しゅうかく}する: to harvest — broader term for harvesting any crop; more formal\n- {摘|つ}み{取|と}る: to pick, pluck — for hand-picking fruits, flowers, or tea leaves\n\nUSAGE:\nOccasionally used figuratively to mean reaping consequences or benefits, similar to English \"you reap what you sow.\"",
+  "notes": "A compound verb from ⟦{刈|か}る→刈る：02043_karu⟧ (to mow, cut) + ⟦{取|と}る→取る：00565_toru⟧ (to take). The ⟦{取|と}る→取る：00565_toru⟧ component adds the nuance of taking or gathering what has been cut.\n\nCOMMON COLLOCATIONS:\n- ⟦{稲|いね}→稲：01820_ine⟧⟦を→を：00422_wo⟧{刈|か}り{取|と}る: to harvest rice\n- ⟦{麦|むぎ}→麦：05427_mugi⟧⟦を→を：00422_wo⟧{刈|か}り{取|と}る: to harvest wheat\n- ⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦を→を：00422_wo⟧{刈|か}り{取|と}る: to mow weeds\n- ⟦{芝生|しばふ}→芝生：03196_shibafu⟧⟦を→を：00422_wo⟧{刈|か}り{取|と}る: to mow the lawn\n\nSIMILAR WORDS:\n- ⟦{刈|か}る→刈る：02043_karu⟧: to mow, to cut — simpler verb; focuses on the cutting action without the gathering nuance\n- ⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧⟦する→する：00392_suru⟧: to harvest — broader term for harvesting any crop; more formal\n- ⟦{摘|つ}み{取|と}る→摘み取る：15061_tsumitoru⟧: to pick, pluck — for hand-picking fruits, flowers, or tea leaves\n\nUSAGE:\nOccasionally used figuratively to mean reaping consequences or benefits, similar to English \"you reap what you sow.\"",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -95,10 +95,11 @@
         "nature",
         "action"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T15:28:17Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "godan",

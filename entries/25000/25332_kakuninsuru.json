@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25332_kakuninsuru_ex1",
-      "japanese": "{予約|よやく}を{確認|かくにん}した。",
+      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧{確認|かくにん}した。",
       "english": "I confirmed the reservation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25332_kakuninsuru_ex2",
-      "japanese": "{出発|しゅっぱつ}{前|まえ}にパスポートを{確認|かくにん}してください。",
+      "japanese": "⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦パスポート→パスポート：00341_pasupooto⟧⟦を→を：00422_wo⟧{確認|かくにん}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check your passport before departure.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25332_kakuninsuru_ex3",
-      "japanese": "{間違|まちが}いがないか、もう{一度|いちど}{確認|かくにん}させていただけますか。",
+      "japanese": "⟦{間違|まちが}い→間違い：03733_machigai⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧、⟦もう{一度|いちど}→もう一度：02976_mouichido⟧{確認|かくにん}させて⟦いただけます→いただく：01326_itadaku⟧⟦か→か：09473_ka⟧。",
       "english": "May I confirm one more time to make sure there are no mistakes?",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "One of the most frequently used suru-verbs in daily life, business, and formal communication. It covers a range of checking actions — from casually glancing at a schedule to formally verifying information. The noun form {確認|かくにん} is equally common.\n\nIn business settings, {確認|かくにん}する carries a polite, responsible tone — asking someone to confirm something implies thoroughness and attention to detail.\n\nCOMMON COLLOCATIONS:\n- {予約|よやく}を{確認|かくにん}する: to confirm a reservation\n- {内容|ないよう}を{確認|かくにん}する: to verify the contents\n- {安全|あんぜん}を{確認|かくにん}する: to confirm safety\n- {事実|じじつ}を{確認|かくにん}する: to verify the facts\n- メールを{確認|かくにん}する: to check one's email\n- {身元|みもと}を{確認|かくにん}する: to verify someone's identity\n\nSIMILAR WORDS:\n- {点検|てんけん}する: to inspect — emphasizes systematic checking of equipment or items for defects\n- {照合|しょうごう}する: to cross-check; to verify against — comparing two sets of data or documents\n- チェックする: to check — a casual loanword alternative, more common in informal speech",
+  "notes": "One of the most frequently used suru-verbs in daily life, business, and formal communication. It covers a range of checking actions — from casually glancing at a schedule to formally verifying information. The noun form ⟦{確認|かくにん}→確認：00158_kakunin⟧ is equally common.\n\nIn business settings, {確認|かくにん}する carries a polite, responsible tone — asking someone to confirm something implies thoroughness and attention to detail.\n\nCOMMON COLLOCATIONS:\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧{確認|かくにん}する: to confirm a reservation\n- ⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧{確認|かくにん}する: to verify the contents\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧{確認|かくにん}する: to confirm safety\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{確認|かくにん}する: to verify the facts\n- ⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{確認|かくにん}する: to check one's email\n- ⟦{身元|みもと}→身元：15710_mimoto⟧⟦を→を：00422_wo⟧{確認|かくにん}する: to verify someone's identity\n\nSIMILAR WORDS:\n- ⟦{点検|てんけん}→点検：09765_tenken⟧⟦する→する：00392_suru⟧: to inspect — emphasizes systematic checking of equipment or items for defects\n- ⟦{照合|しょうごう}→照合：15989_shougou⟧⟦する→する：00392_suru⟧: to cross-check; to verify against — comparing two sets of data or documents\n- ⟦チェックする→チェックする：04916_chekkusuru⟧: to check — a casual loanword alternative, more common in informal speech",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,10 +88,11 @@
         "daily-life",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T15:21:40Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

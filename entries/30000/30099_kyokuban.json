@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30099_kyokuban_ex1",
-      "japanese": "{局番|きょくばん}を{間違|まちが}えた。",
+      "japanese": "{局番|きょくばん}⟦を→を：00422_wo⟧⟦{間違|まちが}えた→間違える：01109_machigaeru⟧。",
       "english": "I got the exchange number wrong.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30099_kyokuban_ex2",
-      "japanese": "{市外|しがい}{局番|きょくばん}から{入力|にゅうりょく}してください。",
+      "japanese": "{市外|しがい}{局番|きょくばん}⟦から→から：00504_kara⟧⟦{入力|にゅうりょく}して→入力する：28127_nyuuryokusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please enter the number starting from the area code.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30099_kyokuban_ex3",
-      "japanese": "{東京|とうきょう}の{市外|しがい}{局番|きょくばん}は03だ。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦の→の：09472_no⟧{市外|しがい}{局番|きょくばん}⟦は→は：00079_ha⟧03だ。",
       "english": "Tokyo's area code is 03.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The middle block of a Japanese landline number, identifying the telephone exchange. Rarely used alone; it usually appears in a fixed compound.\n\nCOMMON COLLOCATIONS:\n- {市外|しがい}{局番|きょくばん}: area code (dialed from outside the local area)\n- {市内|しない}{局番|きょくばん}: local exchange number\n- {局番|きょくばん}なし: without an exchange number (as with short service numbers)\n\nSIMILAR WORDS:\n- {番号|ばんごう}: number — any number, not specifically the exchange portion\n- {内線|ないせん}: extension — an internal line number within an office",
+  "notes": "The middle block of a Japanese landline number, identifying the telephone exchange. Rarely used alone; it usually appears in a fixed compound.\n\nCOMMON COLLOCATIONS:\n- {市外|しがい}{局番|きょくばん}: area code (dialed from outside the local area)\n- ⟦{市内|しない}→市内：20934_shinai⟧{局番|きょくばん}: local exchange number\n- {局番|きょくばん}なし: without an exchange number (as with short service numbers)\n\nSIMILAR WORDS:\n- ⟦{番号|ばんごう}→番号：02939_bangou⟧: number — any number, not specifically the exchange portion\n- ⟦{内線|ないせん}→内線：04279_naisen⟧: extension — an internal line number within an office",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -76,6 +76,6 @@
       "domain": []
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22360_itoshimu_ex1",
-      "japanese": "{子|こ}どもを{愛|いと}しむ{気持|きも}ち。",
+      "japanese": "{子|こ}ども⟦を→を：00422_wo⟧{愛|いと}しむ{気持|きも}ち。",
       "english": "The feeling of cherishing one's child.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22360_itoshimu_ex2",
-      "japanese": "{彼女|かのじょ}は{小|ちい}さな{命|いのち}を{愛|いと}しむように{抱|だ}きしめた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧{愛|いと}しむよう⟦に→に：00314_ni⟧⟦{抱|だ}きしめた→抱きしめる：06044_dakishimeru⟧。",
       "english": "She held the small life tenderly, as if cherishing it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22360_itoshimu_ex3",
-      "japanese": "{祖母|そぼ}は{庭|にわ}の{花|はな}を{毎日|まいにち}{愛|いと}しむように{世話|せわ}をしていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧{愛|いと}しむよう⟦に→に：00314_ni⟧⟦{世話|せわ}→世話：02088_sewa⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "My grandmother tended to the flowers in the garden every day, cherishing them dearly.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A literary and poetic verb expressing tender, gentle love. Derived from the adjective {愛|いと}しい (dear, beloved). More literary than {大切|たいせつ}にする and conveys deeper emotional warmth.\n\nCOMMON COLLOCATIONS:\n- {命|いのち}を{愛|いと}しむ: to cherish life\n- {子|こ}を{愛|いと}しむ: to cherish one's child\n- {愛|いと}しむように: as if cherishing; tenderly\n\nSIMILAR WORDS:\n- {慈|いつく}しむ: to love tenderly; to be compassionate toward — very close synonym, slightly more formal\n- {大切|たいせつ}にする: to treasure; to take good care of — more everyday\n- {可愛|かわい}がる: to dote on; to be affectionate with — more casual and active\n\nCOMMON PATTERNS:\nGodan verb (む row). Conjugates: {愛|いと}しまない, {愛|いと}しんで, {愛|いと}しみます.",
+  "notes": "A literary and poetic verb expressing tender, gentle love. Derived from the adjective ⟦{愛|いと}しい→愛しい：06170_itoshii⟧ (dear, beloved). More literary than ⟦{大切|たいせつ}にする→大切にする：26940_taisetsunisuru⟧ and conveys deeper emotional warmth.\n\nCOMMON COLLOCATIONS:\n- ⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧{愛|いと}しむ: to cherish life\n- ⟦{子|こ}→子：09851_ko⟧⟦を→を：00422_wo⟧{愛|いと}しむ: to cherish one's child\n- {愛|いと}しむよう⟦に→に：00314_ni⟧: as if cherishing; tenderly\n\nSIMILAR WORDS:\n- ⟦{慈|いつく}しむ→慈しむ：12629_itsukushimu⟧: to love tenderly; to be compassionate toward — very close synonym, slightly more formal\n- ⟦{大切|たいせつ}にする→大切にする：26940_taisetsunisuru⟧: to treasure; to take good care of — more everyday\n- {可愛|かわい}⟦がる→〜がる：03089_garu⟧: to dote on; to be affectionate with — more casual and active\n\nCOMMON PATTERNS:\nGodan verb (む row). Conjugates: {愛|いと}しまない, {愛|いと}しんで, {愛|いと}しみます.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -73,10 +73,11 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T19:25:28Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "godan",

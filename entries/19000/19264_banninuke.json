@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19264_banninuke_ex1",
-      "japanese": "この{料理|りょうり}は{万人|ばんにん}{受|う}けする。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧{万人|ばんにん}{受|う}け⟦する→する：00392_suru⟧。",
       "english": "This dish has universal appeal.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19264_banninuke_ex2",
-      "japanese": "{万人|ばんにん}{受|う}けする{味|あじ}を{目指|めざ}した。",
+      "japanese": "{万人|ばんにん}{受|う}け⟦する→する：00392_suru⟧⟦{味|あじ}→味：00826_aji⟧⟦を→を：00422_wo⟧⟦{目指|めざ}した→目指す：10528_mezasu⟧。",
       "english": "I aimed for a flavor that would please everyone.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19264_banninuke_ex3",
-      "japanese": "{個性的|こせいてき}すぎて{万人|ばんにん}{受|う}けはしないかもしれないが、{好|す}きな{人|ひと}にはたまらない。",
+      "japanese": "⟦{個性的|こせいてき}→個性的：14922_koseiteki⟧すぎて{万人|ばんにん}{受|う}けはしない⟦かもしれない→かもしれない：00164_kamoshirenai⟧⟦が→が：00051_ga⟧、⟦{好|す}き→好き：02355_suki⟧な⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦たまらない→たまらない：03409_tamaranai⟧。",
       "english": "It may be too unique to have mass appeal, but those who like it will love it.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines {万人|ばんにん} (all people, everyone) and {受|う}け (appeal, reception). Describes something designed or perceived to please the widest possible audience.\n\nCOMMON COLLOCATIONS:\n- {万人|ばんにん}{受|う}けする{味|あじ}: a flavor everyone likes\n- {万人|ばんにん}{受|う}けする{映画|えいが}: a crowd-pleasing movie\n- {万人|ばんにん}{受|う}けを{狙|ねら}う: to aim for mass appeal\n\nSIMILAR WORDS:\n- {人気|にんき}: popularity — describes actual current popularity rather than broad appeal potential\n- ウケがいい: well-received — more casual, can apply to smaller groups too\n\nUSAGE:\nSometimes used with a slightly negative nuance, implying something is safe but unremarkable. Can also be used positively when recommending gifts or dishes for diverse groups.",
+  "notes": "Combines ⟦{万人|ばんにん}→万人：08110_bannin⟧ (all people, everyone) and ⟦{受|う}け→受ける：01215_ukeru⟧ (appeal, reception). Describes something designed or perceived to please the widest possible audience.\n\nCOMMON COLLOCATIONS:\n- {万人|ばんにん}{受|う}け⟦する→する：00392_suru⟧⟦{味|あじ}→味：00826_aji⟧: a flavor everyone likes\n- {万人|ばんにん}{受|う}け⟦する→する：00392_suru⟧⟦{映画|えいが}→映画：02273_eiga⟧: a crowd-pleasing movie\n- {万人|ばんにん}{受|う}け⟦を→を：00422_wo⟧⟦{狙|ねら}う→狙う：00313_nerau⟧: to aim for mass appeal\n\nSIMILAR WORDS:\n- ⟦{人気|にんき}→人気：01488_ninki⟧: popularity — describes actual current popularity rather than broad appeal potential\n- ウケ⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: well-received — more casual, can apply to smaller groups too\n\nUSAGE:\nSometimes used with a slightly negative nuance, implying something is safe but unremarkable. Can also be used positively when recommending gifts or dishes for diverse groups.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -157,9 +157,10 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

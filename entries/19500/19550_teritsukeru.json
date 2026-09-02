@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19550_teritsukeru_ex1",
-      "japanese": "{太陽|たいよう}が{照|て}りつけている。",
+      "japanese": "⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧{照|て}りつけて⟦いる→いる：00495_iru⟧。",
       "english": "The sun is beating down.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19550_teritsukeru_ex2",
-      "japanese": "{真夏|まなつ}の{日差|ひざ}しが{容赦|ようしゃ}なく{照|て}りつけていた。",
+      "japanese": "⟦{真夏|まなつ}→真夏：27793_manatsu⟧⟦の→の：09472_no⟧⟦{日差|ひざ}し→日差し：00107_hizashi⟧⟦が→が：00051_ga⟧⟦{容赦|ようしゃ}なく→容赦なく：15956_youshanaku⟧{照|て}りつけて⟦いた→いる：00495_iru⟧。",
       "english": "The midsummer sun was shining down mercilessly.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19550_teritsukeru_ex3",
-      "japanese": "{炎天下|えんてんか}で{太陽|たいよう}に{照|て}りつけられながら、{工事|こうじ}{現場|げんば}で{働|はたら}いている{人|ひと}たちがいる。",
+      "japanese": "{炎天下|えんてんか}⟦で→で：00502_de⟧⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦に→に：00314_ni⟧{照|て}りつけられ⟦ながら→ながら：10530_nagara⟧、⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧⟦{働|はたら}いている→働く：00503_hataraku⟧⟦{人|ひと}→人：00476_hito⟧たち⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are people working at construction sites under the blazing sun.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A vivid weather verb that specifically describes the sun bearing down with intense, oppressive heat. Almost exclusively used with {太陽|たいよう} or {日差|ひざ}し as the subject. Strongly associated with summer heat and often appears in descriptions of {猛暑|もうしょ} (extreme heat).\n\nUSAGE:\nThe progressive form {照|て}りつけている is the most common, describing ongoing fierce sunlight. The passive {照|て}りつけられる emphasizes the discomfort experienced by the person under the sun.\n\nCOMMON COLLOCATIONS:\n- {太陽|たいよう}が{照|て}りつける — the sun beats down\n- {日差|ひざ}しが{照|て}りつける — the sunlight blazes down\n- {照|て}りつける{暑|あつ}さ — scorching heat\n\nSIMILAR WORDS:\n- {照|て}りつく — similar meaning but less common; same nuance of relentless sunlight\n- {降|ふ}り{注|そそ}ぐ — to pour down; used for both sunlight and rain, more neutral\n- {照|て}る — to shine; basic verb without the intensity or oppressive nuance",
+  "notes": "A vivid weather verb that specifically describes the sun bearing down with intense, oppressive heat. Almost exclusively used with ⟦{太陽|たいよう}→太陽：03398_taiyou⟧ or ⟦{日差|ひざ}し→日差し：00107_hizashi⟧ as the subject. Strongly associated with summer heat and often appears in descriptions of ⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧ (extreme heat).\n\nUSAGE:\nThe progressive form {照|て}りつけて⟦いる→いる：00495_iru⟧ is the most common, describing ongoing fierce sunlight. The passive {照|て}りつけられる emphasizes the discomfort experienced by the person under the sun.\n\nCOMMON COLLOCATIONS:\n- ⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧{照|て}りつける — the sun beats down\n- ⟦{日差|ひざ}し→日差し：00107_hizashi⟧⟦が→が：00051_ga⟧{照|て}りつける — the sunlight blazes down\n- {照|て}りつける⟦{暑|あつ}さ→暑さ：12973_atsusa⟧ — scorching heat\n\nSIMILAR WORDS:\n- ⟦{照|て}り→照る：00404_teru⟧つく — similar meaning but less common; same nuance of relentless sunlight\n- ⟦{降|ふ}り{注|そそ}ぐ→降り注ぐ：07976_furisosogu⟧ — to pour down; used for both sunlight and rain, more neutral\n- ⟦{照|て}る→照る：00404_teru⟧ — to shine; basic verb without the intensity or oppressive nuance",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -164,9 +164,10 @@
         "weather",
         "nature"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T05:10:38Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

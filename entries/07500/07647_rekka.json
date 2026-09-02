@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07647_rekka_ex1",
-      "japanese": "{画質|がしつ}が{劣化|れっか}した。",
+      "japanese": "⟦{画質|がしつ}→画質：16156_gashitsu⟧⟦が→が：00051_ga⟧{劣化|れっか}⟦した→する：00392_suru⟧。",
       "english": "The image quality degraded.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07647_rekka_ex2",
-      "japanese": "{電池|でんち}が{劣化|れっか}して{容量|ようりょう}が{減|へ}った。",
+      "japanese": "⟦{電池|でんち}→電池：01472_denchi⟧⟦が→が：00051_ga⟧{劣化|れっか}⟦して→する：00392_suru⟧⟦{容量|ようりょう}→容量：04887_youryou⟧⟦が→が：00051_ga⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "The battery deteriorated and its capacity decreased.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07647_rekka_ex3",
-      "japanese": "{経年|けいねん}{劣化|れっか}によりゴムが{固|かた}くなった。",
+      "japanese": "{経年|けいねん}{劣化|れっか}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦ゴム→ゴム：00073_gomu⟧⟦が→が：00051_ga⟧⟦{固|かた}く→固い：12090_katai⟧⟦なった→なる：01970_naru⟧。",
       "english": "The rubber hardened due to deterioration over time.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {画質|がしつ}の{劣化|れっか} - image quality degradation\n- {音質|おんしつ}の{劣化|れっか} - sound quality degradation\n- {経年|けいねん}{劣化|れっか} - deterioration over time, aging\n- {品質|ひんしつ}の{劣化|れっか} - quality degradation\n- {電池|でんち}の{劣化|れっか} - battery degradation\n\nUSAGE:\nUsed for both physical deterioration and abstract quality decline.\n\nRELATED WORDS:\n- {老朽化|ろうきゅうか} - aging, becoming decrepit (infrastructure)\n- {腐食|ふしょく} - corrosion\n- {悪化|あっか} - worsening",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{画質|がしつ}→画質：16156_gashitsu⟧⟦の→の：09472_no⟧{劣化|れっか} - image quality degradation\n- ⟦{音質|おんしつ}→音質：21879_onshitsu⟧⟦の→の：09472_no⟧{劣化|れっか} - sound quality degradation\n- {経年|けいねん}{劣化|れっか} - deterioration over time, aging\n- ⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦の→の：09472_no⟧{劣化|れっか} - quality degradation\n- ⟦{電池|でんち}→電池：01472_denchi⟧⟦の→の：09472_no⟧{劣化|れっか} - battery degradation\n\nUSAGE:\nUsed for both physical deterioration and abstract quality decline.\n\nRELATED WORDS:\n- ⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧ - aging, becoming decrepit (infrastructure)\n- ⟦{腐食|ふしょく}→腐食：08020_fushoku⟧ - corrosion\n- ⟦{悪化|あっか}→悪化：11077_akka⟧ - worsening",
   "cross_references": [
     {
       "type": "related",
@@ -170,7 +170,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -186,7 +186,8 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

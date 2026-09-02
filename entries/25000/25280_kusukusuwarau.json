@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25280_kusukusuwarau_ex1",
-      "japanese": "{子供|こども}たちがくすくす{笑|わら}っている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧くすくす{笑|わら}って⟦いる→いる：00495_iru⟧。",
       "english": "The children are giggling.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25280_kusukusuwarau_ex2",
-      "japanese": "{彼女|かのじょ}は{口|くち}を{手|て}で{隠|かく}しながらくすくす{笑|わら}った。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧⟦{手|て}→手：00569_te⟧⟦で→で：00502_de⟧⟦{隠|かく}し→隠す：02034_kakusu⟧⟦ながら→ながら：10530_nagara⟧くすくす{笑|わら}った。",
       "english": "She giggled while covering her mouth with her hand.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25280_kusukusuwarau_ex3",
-      "japanese": "{先生|せんせい}の{言|い}い{間違|まちが}いに、クラス{中|じゅう}がくすくす{笑|わら}いを{漏|も}らした。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧⟦{言|い}い{間違|まちが}い→言い間違い：08579_iimachigai⟧⟦に→に：00314_ni⟧、⟦クラス→クラス：01084_kurasu⟧{中|じゅう}⟦が→が：00051_ga⟧⟦くすくす→くすくす：05771_kusukusu⟧⟦{笑|わら}い→笑い：02641_warai⟧⟦を→を：00422_wo⟧⟦{漏|も}らした→漏らす：02436_morasu⟧。",
       "english": "The whole class let out stifled giggles at the teacher's slip of the tongue.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines the onomatopoeia くすくす (the sound of stifled laughter) with {笑|わら}う (to laugh). Describes quiet, suppressed laughing — lighter and more restrained than outright laughter.\n\nCOMMON COLLOCATIONS:\n- くすくす{笑|わら}いを{漏|も}らす: to let out a giggle\n- くすくす{笑|わら}い{出|だ}す: to start giggling\n- くすくす{笑|わら}い{声|ごえ}: the sound of giggling\n\nSIMILAR WORDS:\n- にやにや{笑|わら}う: to grin — smiling in a knowing or smug way, without sound\n- げらげら{笑|わら}う: to guffaw — loud, unrestrained laughter\n- くすっと{笑|わら}う: to chuckle — a single brief, quiet laugh\n- {忍|しの}び{笑|わら}い: stifled laugh — trying to hold back laughter\n\nNOTE: くすくす can have a slightly negative nuance when it implies laughing at someone behind their back.",
+  "notes": "Combines the onomatopoeia ⟦くすくす→くすくす：05771_kusukusu⟧ (the sound of stifled laughter) with ⟦{笑|わら}う→笑う：00685_warau⟧ (to laugh). Describes quiet, suppressed laughing — lighter and more restrained than outright laughter.\n\nCOMMON COLLOCATIONS:\n- ⟦くすくす→くすくす：05771_kusukusu⟧⟦{笑|わら}い→笑い：02641_warai⟧⟦を→を：00422_wo⟧⟦{漏|も}らす→漏らす：02436_morasu⟧: to let out a giggle\n- くすくす{笑|わら}い⟦{出|だ}す→出す：01087_dasu⟧: to start giggling\n- ⟦くすくす→くすくす：05771_kusukusu⟧⟦{笑|わら}い{声|ごえ}→笑い声：24414_waraigoe⟧: the sound of giggling\n\nSIMILAR WORDS:\n- ⟦にやにや→にやにや：05766_niyaniya⟧⟦{笑|わら}う→笑う：00685_warau⟧: to grin — smiling in a knowing or smug way, without sound\n- ⟦げらげら→げらげら：05768_geragera⟧⟦{笑|わら}う→笑う：00685_warau⟧: to guffaw — loud, unrestrained laughter\n- くすっ⟦と→と：00512_to⟧⟦{笑|わら}う→笑う：00685_warau⟧: to chuckle — a single brief, quiet laugh\n- {忍|しの}び{笑|わら}い: stifled laugh — trying to hold back laughter\n\nNOTE: ⟦くすくす→くすくす：05771_kusukusu⟧ can have a slightly negative nuance when it implies laughing at someone behind their back.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,10 +59,11 @@
         "emotion",
         "onomatopoeia"
       ],
-      "verb_class": "godan-u"
+      "verb_class": "godan-u",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T13:14:51Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "godan",

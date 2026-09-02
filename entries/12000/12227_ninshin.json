@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12227_ninshin_ex1",
-      "japanese": "{妊娠|にんしん}おめでとうございます。",
+      "japanese": "{妊娠|にんしん}⟦おめでとう→おめでとう：01043_omedetou⟧⟦ございます→ございます：01300_gozaimasu⟧。",
       "english": "Congratulations on your pregnancy.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12227_ninshin_ex2",
-      "japanese": "{妊娠|にんしん}{中|ちゅう}はアルコールを{控|ひか}えた{方|ほう}がいい。",
+      "japanese": "{妊娠|にんしん}{中|ちゅう}⟦は→は：00079_ha⟧⟦アルコール→アルコール：01771_arukooru⟧⟦を→を：00422_wo⟧⟦{控|ひか}えた→控える：10054_hikaeru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "It's better to refrain from alcohol during pregnancy.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12227_ninshin_ex3",
-      "japanese": "{友人|ゆうじん}が{妊娠|にんしん}したと{聞|き}いて、みんな{喜|よろこ}んだ。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦が→が：00051_ga⟧{妊娠|にんしん}⟦した→する：00392_suru⟧⟦と→と：00512_to⟧⟦{聞|き}いて→聞く：00483_kiku⟧、⟦みんな→みんな：02972_minna⟧⟦{喜|よろこ}んだ→喜ぶ：01169_yorokobu⟧。",
       "english": "Everyone was happy to hear that our friend had become pregnant.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {妊娠|にんしん}する: to become pregnant\n- {妊娠|にんしん}{中|ちゅう}: during pregnancy\n- {妊娠|にんしん}{検査|けんさ}: pregnancy test\n- {妊娠|にんしん}〜{週|しゅう}: (number) weeks pregnant\n- {妊娠|にんしん}{初期|しょき}: early pregnancy\n\nRELATED WORDS:\n- {妊婦|にんぷ}: pregnant woman\n- {出産|しゅっさん}: childbirth\n- {産婦人科|さんふじんか}: obstetrics and gynecology\n- {安定期|あんていき}: stable period (of pregnancy, usually after week 16)",
+  "notes": "COMMON COLLOCATIONS:\n- {妊娠|にんしん}⟦する→する：00392_suru⟧: to become pregnant\n- {妊娠|にんしん}{中|ちゅう}: during pregnancy\n- {妊娠|にんしん}⟦{検査|けんさ}→検査：02707_kensa⟧: pregnancy test\n- {妊娠|にんしん}〜⟦{週|しゅう}→週：03204_shuu⟧: (number) weeks pregnant\n- {妊娠|にんしん}⟦{初期|しょき}→初期：11742_shoki⟧: early pregnancy\n\nRELATED WORDS:\n- ⟦{妊婦|にんぷ}→妊婦：20357_ninpu⟧: pregnant woman\n- ⟦{出産|しゅっさん}→出産：11734_shussan⟧: childbirth\n- ⟦{産婦人科|さんふじんか}→産婦人科：16784_sanfujinka⟧: obstetrics and gynecology\n- {安定期|あんていき}: stable period (of pregnancy, usually after week 16)",
   "cross_references": [
     {
       "type": "related",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T13:11:24Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -190,7 +190,8 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

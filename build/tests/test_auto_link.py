@@ -53,6 +53,7 @@ MINI = [
     entry("00079_ha", "は", "は", "particle"),
     entry("00314_ni", "に", "に", "particle"),
     entry("00422_wo", "を", "を", "particle"),
+    entry("00484_mo", "も", "も", "particle"),
     entry("00502_de", "で", "で", "particle"),
     entry("00392_suru", "する", "する", "verb",
           forms=[("する", "しない"), ("します", "しません"), ("した", "しなかった"),
@@ -247,16 +248,27 @@ class TestRulesWithSudachi(unittest.TestCase):
 
 class TestTokenizerFreeFallback(unittest.TestCase):
     def test_fallback_links_wrapped_words_katakana_and_particles(self):
-        out = link("{本|ほん}をパソコンで{読|よ}みました。", tokenizer=None)
+        # okurigana are attached by trying the longest surface the tables generate
+        out = link("{本|ほん}をパソコンで{読|よ}みます。", tokenizer=None)
         self.assertEqual(out, "⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦パソコン→パソコン：01538_pasokon⟧"
-                              "⟦で→で：00502_de⟧⟦{読|よ}みました→読む：00426_yomu⟧。")
+                              "⟦で→で：00502_de⟧⟦{読|よ}みます→読む：00426_yomu⟧。")
+        # a form the conjugation table does not list is left alone (no lemmatizer)
+        self.assertEqual(link("{読|よ}みました。", tokenizer=None), "{読|よ}みました。")
 
     def test_fallback_is_conservative_with_kana(self):
-        # plain kana content words are not linked without a tokenizer
-        self.assertEqual(link("りんごをください。", tokenizer=None), "りんご⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。")
-        # には splits into two particles; unknown kana runs stay bare
-        self.assertEqual(link("{本|ほん}にはこと", tokenizer=None),
-                         "⟦{本|ほん}→本：00111_hon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧こと")
+        # a kana run that is not made of table words stays bare (no rule 4 without a tokenizer)
+        self.assertEqual(link("りんごをください。", tokenizer=None), "りんごをください。")
+        # particle + non-verb table word, and case particle + は, are split; verbs never are
+        self.assertEqual(link("{本|ほん}をください。", tokenizer=None),
+                         "⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。")
+        self.assertEqual(link("{本|ほん}には", tokenizer=None),
+                         "⟦{本|ほん}→本：00111_hon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧")
+        # a run not fully covered by table words is left whole (にはこと could hide a verb)
+        self.assertEqual(link("{本|ほん}にはこと", tokenizer=None), "⟦{本|ほん}→本：00111_hon⟧にはこと")
+        self.assertEqual(link("{本|ほん}がある。", tokenizer=None), "⟦{本|ほん}→本：00111_hon⟧がある。")
+        # sentence-initial でも uses the conjunction entry; mid-sentence it splits
+        self.assertEqual(link("でも、{本|ほん}でも", tokenizer=None),
+                         "⟦でも→でも：00925_demo⟧、⟦{本|ほん}→本：00111_hon⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧")
 
     def test_fallback_respects_self_headword_and_existing_links(self):
         out = link("{本|ほん}を{読|よ}む。", own_id="00111_hon", own_headword="{本|ほん}", tokenizer=None)

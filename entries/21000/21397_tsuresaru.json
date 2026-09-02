@@ -18,7 +18,7 @@
   "examples": [
     {
       "id": "21397_tsuresaru_ex1",
-      "japanese": "{子供|こども}が{連|つ}れ{去|さ}られた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{連|つ}れ{去|さ}られた。",
       "english": "The child was taken away.",
       "sense_numbers": [
         1
@@ -28,7 +28,7 @@
     },
     {
       "id": "21397_tsuresaru_ex2",
-      "japanese": "{犯人|はんにん}は{被害者|ひがいしゃ}を{車|くるま}で{連|つ}れ{去|さ}った。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦を→を：00422_wo⟧⟦{車|くるま}→車：00516_kuruma⟧⟦で→で：00502_de⟧{連|つ}れ{去|さ}った。",
       "english": "The criminal took the victim away by car.",
       "sense_numbers": [
         1
@@ -38,7 +38,7 @@
     },
     {
       "id": "21397_tsuresaru_ex3",
-      "japanese": "{離婚|りこん}{後|ご}に{元|もと}{配偶者|はいぐうしゃ}が{子供|こども}を{連|つ}れ{去|さ}るケースが{社会|しゃかい}{問題|もんだい}になっている。",
+      "japanese": "⟦{離婚|りこん}→離婚：02530_rikon⟧⟦{後|ご}→後：30157_go⟧⟦に→に：00314_ni⟧⟦{元|もと}→元：03878_moto⟧⟦{配偶者|はいぐうしゃ}→配偶者：07430_haiguusha⟧⟦が→が：00051_ga⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{連|つ}れ{去|さ}る⟦ケース→ケース：03841_keesu⟧⟦が→が：00051_ga⟧⟦{社会|しゃかい}{問題|もんだい}→社会問題：25686_shakaimondai⟧になっている。",
       "english": "Cases of former spouses taking children away after divorce have become a social issue.",
       "sense_numbers": [
         1
@@ -47,7 +47,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb combining {連|つ}れる (to take along) and {去|さ}る (to leave/go away). Strongly implies that the person being taken does not go willingly. Frequently appears in news reports about kidnapping, abduction, and custody disputes.\n\nCOMMON COLLOCATIONS:\n- {子供|こども}を{連|つ}れ{去|さ}る: to take a child away\n- {無理|むり}やり{連|つ}れ{去|さ}る: to take away by force\n- {連|つ}れ{去|さ}り{事件|じけん}: an abduction case\n\nSIMILAR WORDS:\n- {誘拐|ゆうかい}する: to kidnap — a legal/criminal term specifically for kidnapping\n- {拉致|らち}する: to abduct — often used for political abductions; strong connotation of force\n- {連|つ}れて{行|い}く: to take someone along — neutral, no implication of force",
+  "notes": "A compound verb combining ⟦{連|つ}れる→連れる：01240_tsureru⟧ (to take along) and ⟦{去|さ}る→去る：02115_saru⟧ (to leave/go away). Strongly implies that the person being taken does not go willingly. Frequently appears in news reports about kidnapping, abduction, and custody disputes.\n\nCOMMON COLLOCATIONS:\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{連|つ}れ{去|さ}る: to take a child away\n- ⟦{無理|むり}やり→無理やり：10526_muriyari⟧{連|つ}れ{去|さ}る: to take away by force\n- {連|つ}れ{去|さ}り⟦{事件|じけん}→事件：01568_jiken⟧: an abduction case\n\nSIMILAR WORDS:\n- ⟦{誘拐|ゆうかい}→誘拐：14210_yuukai⟧⟦する→する：00392_suru⟧: to kidnap — a legal/criminal term specifically for kidnapping\n- ⟦{拉致|らち}する→拉致する：25711_rachisuru⟧: to abduct — often used for political abductions; strong connotation of force\n- ⟦{連|つ}れて→連れる：01240_tsureru⟧⟦{行|い}く→行く：00119_iku⟧: to take someone along — neutral, no implication of force",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -76,10 +76,11 @@
       "semantic": [
         "law"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T02:47:31Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "godan",

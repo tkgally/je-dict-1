@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05998_keno_ex1",
-      "japanese": "⟦{暴力|ぼうりょく}→暴力：02528_bouryoku⟧⟦を→を：00422_wo⟧{嫌悪|けんお}する。",
+      "japanese": "⟦{暴力|ぼうりょく}→暴力：02528_bouryoku⟧⟦を→を：00422_wo⟧{嫌悪|けんお}⟦する→する：00392_suru⟧。",
       "english": "I loathe violence.",
       "notes": null,
       "has_audio": false,
@@ -193,7 +193,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -209,7 +209,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

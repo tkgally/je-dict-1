@@ -157,7 +157,7 @@ After all tasks complete:
 | `example-sentences` | Basic/core entries have ≥ 3 examples |
 | `furigana-completeness` | `find_missing_furigana.py` gap report |
 | `furigana-correctness` | Baseline validation (manual review recommended) |
-| `semantic-labels` | `validate_tags.py` + `check_tag_consistency.py` |
+| `semantic-labels` | `validate_tags.py` |
 | `noentry-resolution` | Same as `new-entries` |
 | `expand-short-notes` | `find_missing_furigana.py` for notes fields |
 

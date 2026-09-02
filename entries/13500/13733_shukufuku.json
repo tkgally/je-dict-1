@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13733_shukufuku_ex1",
-      "japanese": "{二人|ふたり}の{門出|かどで}を{祝福|しゅくふく}する。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{門出|かどで}→門出：15268_kadode⟧⟦を→を：00422_wo⟧{祝福|しゅくふく}⟦する→する：00392_suru⟧。",
       "english": "To bless the couple's new beginning.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13733_shukufuku_ex2",
-      "japanese": "{友人|ゆうじん}の{結婚|けっこん}を{心|こころ}から{祝福|しゅくふく}した。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦を→を：00422_wo⟧⟦{心|こころ}→心：01321_kokoro⟧⟦から→から：00504_kara⟧{祝福|しゅくふく}⟦した→する：00392_suru⟧。",
       "english": "I blessed my friend's marriage from the bottom of my heart.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13733_shukufuku_ex3",
-      "japanese": "{会場|かいじょう}に{集|あつ}まった{全員|ぜんいん}が、{新郎新婦|しんろうしんぷ}に{温|あたた}かい{祝福|しゅくふく}の{言葉|ことば}を{贈|おく}った。",
+      "japanese": "⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦に→に：00314_ni⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧、⟦{新郎新婦|しんろうしんぷ}→新郎新婦：28965_shinroushinpu⟧⟦に→に：00314_ni⟧⟦{温|あたた}かい→温かい：13395_atatakai⟧{祝福|しゅくふく}⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
       "english": "Everyone gathered at the venue offered warm words of blessing to the bride and groom.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both as a noun and as a suru verb ({祝福|しゅくふく}する). Common at weddings, births, and other celebratory occasions. Can also have a religious nuance of divine blessing, particularly in Christian contexts.\n\nCOMMON COLLOCATIONS:\n- {祝福|しゅくふく}する: to bless, to congratulate\n- {祝福|しゅくふく}の{言葉|ことば}: words of blessing\n- {祝福|しゅくふく}に{包|つつ}まれる: to be enveloped in blessings\n- {心|こころ}からの{祝福|しゅくふく}: heartfelt blessing",
+  "notes": "USAGE:\nUsed both as a noun and as a suru verb ({祝福|しゅくふく}⟦する→する：00392_suru⟧). Common at weddings, births, and other celebratory occasions. Can also have a religious nuance of divine blessing, particularly in Christian contexts.\n\nCOMMON COLLOCATIONS:\n- {祝福|しゅくふく}⟦する→する：00392_suru⟧: to bless, to congratulate\n- {祝福|しゅくふく}⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧: words of blessing\n- {祝福|しゅくふく}⟦に→に：00314_ni⟧⟦{包|つつ}まれる→包む：01226_tsutsumu⟧: to be enveloped in blessings\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{祝福|しゅくふく}: heartfelt blessing",
   "cross_references": [
     {
       "type": "related",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-26T14:18:22Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
         "religion",
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

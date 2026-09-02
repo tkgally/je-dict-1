@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26804_toriyoseru_ex1",
-      "japanese": "{北海道|ほっかいどう}からカニを{取|と}り{寄|よ}せた。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦から→から：00504_kara⟧カニ⟦を→を：00422_wo⟧{取|と}り{寄|よ}せた。",
       "english": "I ordered crab from Hokkaido.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26804_toriyoseru_ex2",
-      "japanese": "ネットでお{取|と}り{寄|よ}せスイーツを{注文|ちゅうもん}した。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧⟦お{取|と}り{寄|よ}せ→お取り寄せ：09827_otoriyose⟧⟦スイーツ→スイーツ：27370_suiitsu⟧⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered specialty sweets for delivery online.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26804_toriyoseru_ex3",
-      "japanese": "{地方|ちほう}の{名産品|めいさんひん}を{取|と}り{寄|よ}せて、{家族|かぞく}で{楽|たの}しむのが{趣味|しゅみ}です。",
+      "japanese": "⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧{名産品|めいさんひん}⟦を→を：00422_wo⟧{取|と}り{寄|よ}せて、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧です。",
       "english": "My hobby is ordering regional specialties and enjoying them with my family.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Specifically implies ordering from a distant or special source rather than buying at a local store. Very commonly used for regional specialty foods (お{取|と}り{寄|よ}せグルメ). The honorific prefix お is frequently attached in commercial contexts.\n\nCOMMON COLLOCATIONS:\n- お{取|と}り{寄|よ}せグルメ: mail-order gourmet food\n- {産地|さんち}から{取|と}り{寄|よ}せる: order directly from the production area\n- ネットで{取|と}り{寄|よ}せる: order online for delivery\n- {取|と}り{寄|よ}せ{品|ひん}: items ordered from elsewhere\n\nSIMILAR WORDS:\n- {注文|ちゅうもん}する: to order — general ordering, including at restaurants; {取|と}り{寄|よ}せる specifically implies ordering from a distant source\n- {通販|つうはん}で{買|か}う: to buy via mail order — more neutral; {取|と}り{寄|よ}せる carries a nuance of specialty or luxury\n\nCULTURAL NOTE:\nお{取|と}り{寄|よ}せ culture is very popular in Japan, where people order famous local specialties ({名物|めいぶつ}) from other regions. Department store catalogs and online services specialize in this.",
+  "notes": "Specifically implies ordering from a distant or special source rather than buying at a local store. Very commonly used for regional specialty foods (⟦お{取|と}り{寄|よ}せ→お取り寄せ：09827_otoriyose⟧⟦グルメ→グルメ：10845_gurume⟧). The honorific prefix お is frequently attached in commercial contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦お{取|と}り{寄|よ}せ→お取り寄せ：09827_otoriyose⟧⟦グルメ→グルメ：10845_gurume⟧: mail-order gourmet food\n- ⟦{産地|さんち}→産地：04031_sanchi⟧⟦から→から：00504_kara⟧{取|と}り{寄|よ}せる: order directly from the production area\n- ⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧{取|と}り{寄|よ}せる: order online for delivery\n- {取|と}り{寄|よ}せ⟦{品|ひん}→品：03712_hin⟧: items ordered from elsewhere\n\nSIMILAR WORDS:\n- ⟦{注文|ちゅうもん}する→注文する：21390_chuumon⟧: to order — general ordering, including at restaurants; {取|と}り{寄|よ}せる specifically implies ordering from a distant source\n- ⟦{通販|つうはん}→通販：17464_tsuuhan⟧⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧: to buy via mail order — more neutral; {取|と}り{寄|よ}せる carries a nuance of specialty or luxury\n\nCULTURAL NOTE:\n⟦お{取|と}り{寄|よ}せ→お取り寄せ：09827_otoriyose⟧ culture is very popular in Japan, where people order famous local specialties (⟦{名物|めいぶつ}→名物：05591_meibutsu⟧) from other regions. Department store catalogs and online services specialize in this.",
   "cross_references": [
     {
       "type": "contrast",
@@ -67,10 +67,11 @@
         "shopping",
         "food"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T12:07:08Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "ichidan",

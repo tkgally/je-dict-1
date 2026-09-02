@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "19456_kaikaeru_ex1",
-      "japanese": "スマホを{買|か}い{替|か}えた。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧{買|か}い{替|か}えた。",
       "english": "I replaced my smartphone with a new one.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "19456_kaikaeru_ex2",
-      "japanese": "{古|ふる}い{冷蔵庫|れいぞうこ}を{新|あたら}しいのに{買|か}い{替|か}える。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧⟦を→を：00422_wo⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{買|か}い{替|か}える。",
       "english": "To replace an old refrigerator with a new one.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "19456_kaikaeru_ex3",
-      "japanese": "{壊|こわ}れたので{買|か}い{替|か}えるしかない。",
+      "japanese": "⟦{壊|こわ}れた→壊れる：00791_kowareru⟧⟦の→の：09472_no⟧で{買|か}い{替|か}える⟦しかない→〜しかない：30533_shikanai⟧。",
       "english": "It broke, so I have no choice but to buy a replacement.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "19456_kaikaeru_ex4",
-      "japanese": "{車|くるま}を{買|か}い{替|か}えるかどうか{迷|まよ}っている。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{買|か}い{替|か}える⟦かどうか→かどうか：28299_kadouka⟧⟦{迷|まよ}っている→迷う：02426_mayou⟧。",
       "english": "I'm wondering whether to replace my car with a new one.",
       "notes": null,
       "has_audio": false,
@@ -143,7 +143,7 @@
       ]
     }
   ],
-  "notes": "{買|か}い{替|か}える is a compound verb: {買|か}う (to buy) + {替|か}える (to replace/exchange).\n\nCOMMON COLLOCATIONS:\n- {車|くるま}を{買|か}い{替|か}える (to get a new car)\n- パソコンを{買|か}い{替|か}える (to replace one's computer)\n- スマホを{買|か}い{替|か}える (to get a new phone)\n\nSIMILAR WORDS:\n- {買|か}い{換|か}える: same meaning, sometimes written with this kanji\n- {取|と}り{替|か}える: to exchange/replace (not specifically by buying)\n- {新調|しんちょう}する: to have something made new (more formal)",
+  "notes": "{買|か}い{替|か}える is a compound verb: ⟦{買|か}う→買う：00489_kau⟧ (to buy) + ⟦{替|か}える→替える：13399_kaeru⟧ (to replace/exchange).\n\nCOMMON COLLOCATIONS:\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{買|か}い{替|か}える (to get a new car)\n- ⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{買|か}い{替|か}える (to replace one's computer)\n- ⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧{買|か}い{替|か}える (to get a new phone)\n\nSIMILAR WORDS:\n- {買|か}い{換|か}える: same meaning, sometimes written with this kanji\n- ⟦{取|と}り{替|か}える→取り替える：01252_torikaeru⟧: to exchange/replace (not specifically by buying)\n- ⟦{新調|しんちょう}→新調：13046_shinchou⟧⟦する→する：00392_suru⟧: to have something made new (more formal)",
   "cross_references": [
     {
       "type": "contrast",
@@ -162,7 +162,7 @@
   ],
   "metadata": {
     "created": "2026-03-25T14:49:00Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -175,7 +175,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

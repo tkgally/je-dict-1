@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24377_setsugan_ex1",
-      "japanese": "{船|ふね}が{港|みなと}に{接岸|せつがん}した。",
+      "japanese": "⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧⟦{港|みなと}→港：01512_minato⟧⟦に→に：00314_ni⟧{接岸|せつがん}⟦した→する：00392_suru⟧。",
       "english": "The ship docked at the port.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24377_setsugan_ex2",
-      "japanese": "{大型|おおがた}フェリーが{接岸|せつがん}するのを{見|み}に{行|い}った。",
+      "japanese": "⟦{大型|おおがた}→大型：03016_oogata⟧⟦フェリー→フェリー：11168_ferii⟧⟦が→が：00051_ga⟧{接岸|せつがん}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "We went to watch the large ferry dock.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24377_setsugan_ex3",
-      "japanese": "{荒天|こうてん}のため{接岸|せつがん}できず、{沖合|おきあい}で{待機|たいき}した。",
+      "japanese": "⟦{荒天|こうてん}→荒天：16432_kouten⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{接岸|せつがん}⟦でき→できる：00557_dekiru⟧ず、⟦{沖合|おきあい}→沖合：19458_okiai⟧⟦で→で：00502_de⟧⟦{待機|たいき}→待機：09677_taiki⟧⟦した→する：00392_suru⟧。",
       "english": "Unable to dock due to rough weather, the ship waited offshore.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {接|せつ} ('to touch; to come into contact') and {岸|がん} ('shore; bank; pier'). The standard nautical term for a vessel coming alongside a pier or quay.\n\nUSAGE:\n- Used with する to form a verb: {接岸|せつがん}する ('to dock; to berth').\n- Common in maritime news, port announcements, and travel reports about cruises and ferries.\n- The opposite action is {離岸|りがん} ('casting off; departing from the pier').\n\nCOMMON COLLOCATIONS:\n- {港|みなと}に{接岸|せつがん}する: to dock at a port\n- {接岸|せつがん}{作業|さぎょう}: docking operation\n- {接岸|せつがん}{時間|じかん}: docking time\n- {接岸|せつがん}できない: unable to dock\n\nSIMILAR WORDS:\n- {離岸|りがん}: casting off; departing from shore — the opposite of {接岸|せつがん}\n- {入港|にゅうこう}: entering port — the broader process of a ship arriving at a harbor\n- {着岸|ちゃくがん}: reaching shore; landing — very close synonym, sometimes used interchangeably\n- {停泊|ていはく}: anchoring; mooring — remaining stationary in water, not necessarily at a pier",
+  "notes": "Compound of {接|せつ} ('to touch; to come into contact') and {岸|がん} ('shore; bank; pier'). The standard nautical term for a vessel coming alongside a pier or quay.\n\nUSAGE:\n- Used with ⟦する→する：00392_suru⟧ to form a verb: {接岸|せつがん}⟦する→する：00392_suru⟧ ('to dock; to berth').\n- Common in maritime news, port announcements, and travel reports about cruises and ferries.\n- The opposite action is {離岸|りがん} ('casting off; departing from the pier').\n\nCOMMON COLLOCATIONS:\n- ⟦{港|みなと}→港：01512_minato⟧⟦に→に：00314_ni⟧{接岸|せつがん}⟦する→する：00392_suru⟧: to dock at a port\n- {接岸|せつがん}⟦{作業|さぎょう}→作業：02775_sagyou⟧: docking operation\n- {接岸|せつがん}⟦{時間|じかん}→時間：00468_jikan⟧: docking time\n- {接岸|せつがん}⟦できない→できる：00557_dekiru⟧: unable to dock\n\nSIMILAR WORDS:\n- {離岸|りがん}: casting off; departing from shore — the opposite of {接岸|せつがん}\n- ⟦{入港|にゅうこう}→入港：14771_nyuukou⟧: entering port — the broader process of a ship arriving at a harbor\n- ⟦{着岸|ちゃくがん}→着岸：19724_chakugan⟧: reaching shore; landing — very close synonym, sometimes used interchangeably\n- ⟦{停泊|ていはく}→停泊：20272_teihaku⟧: anchoring; mooring — remaining stationary in water, not necessarily at a pier",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -85,10 +85,11 @@
         "transportation",
         "geography"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-18T15:27:39Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

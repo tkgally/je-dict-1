@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22990_shuuryousuru_ex1",
-      "japanese": "{授業|じゅぎょう}が{終了|しゅうりょう}した。",
+      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧{終了|しゅうりょう}した。",
       "english": "The class ended.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22990_shuuryousuru_ex2",
-      "japanese": "キャンペーンは{今月末|こんげつまつ}で{終了|しゅうりょう}します。",
+      "japanese": "⟦キャンペーン→キャンペーン：10809_kyanpeen⟧⟦は→は：00079_ha⟧⟦{今月末|こんげつまつ}→今月末：28384_kongetsumatsu⟧⟦で→で：00502_de⟧{終了|しゅうりょう}します。",
       "english": "The campaign will end at the end of this month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22990_shuuryousuru_ex3",
-      "japanese": "システムの{更新|こうしん}が{終了|しゅうりょう}するまで、パソコンの{電源|でんげん}を{切|き}らないでください。",
+      "japanese": "⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦が→が：00051_ga⟧{終了|しゅうりょう}する⟦まで→まで：00490_made⟧、⟦パソコン→パソコン：01538_pasokon⟧⟦の→の：09472_no⟧⟦{電源|でんげん}→電源：04429_dengen⟧⟦を→を：00422_wo⟧⟦{切|き}らないで→切る：02693_kiru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please do not turn off the computer until the system update has finished.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal, commonly used word for endings and completions. Frequently seen in announcements, signs, and system messages. More formal and definitive than {終|お}わる.\n\nCOMMON COLLOCATIONS:\n- {受付|うけつけ}{終了|しゅうりょう}: registration closed\n- {営業|えいぎょう}{終了|しゅうりょう}: business hours ended; closed for the day\n- {販売|はんばい}{終了|しゅうりょう}: sales ended; no longer available\n- {配信|はいしん}{終了|しゅうりょう}: streaming ended; service discontinued\n- {終了|しゅうりょう}{時間|じかん}: ending time\n\nSIMILAR WORDS:\n- {終|お}わる: to end — the most common everyday word; less formal\n- {完了|かんりょう}する: to complete — emphasizes that a task or process has been fully finished\n- {閉会|へいかい}する: to close (a meeting/ceremony) — used specifically for formal gatherings\n\nUSAGE:\nPrimarily intransitive (the event ends), but can be used transitively in some contexts ({作業|さぎょう}を{終了|しゅうりょう}する). Very common on signs and in digital interfaces, such as buttons labeled {終了|しゅうりょう}.",
+  "notes": "A formal, commonly used word for endings and completions. Frequently seen in announcements, signs, and system messages. More formal and definitive than {終|お}わる.\n\nCOMMON COLLOCATIONS:\n- ⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧: registration closed\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧: business hours ended; closed for the day\n- ⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧: sales ended; no longer available\n- ⟦{配信|はいしん}→配信：04898_haishin⟧⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧: streaming ended; service discontinued\n- ⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧⟦{時間|じかん}→時間：00468_jikan⟧: ending time\n\nSIMILAR WORDS:\n- {終|お}わる: to end — the most common everyday word; less formal\n- ⟦{完了|かんりょう}する→完了する：20676_kanryousuru⟧: to complete — emphasizes that a task or process has been fully finished\n- ⟦{閉会|へいかい}→閉会：23962_heikai⟧⟦する→する：00392_suru⟧: to close (a meeting/ceremony) — used specifically for formal gatherings\n\nUSAGE:\nPrimarily intransitive (the event ends), but can be used transitively in some contexts (⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧{終了|しゅうりょう}する). Very common on signs and in digital interfaces, such as buttons labeled ⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -110,10 +110,11 @@
         "action",
         "time-general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-04-08T15:32:02Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

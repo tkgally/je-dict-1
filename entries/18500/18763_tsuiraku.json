@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18763_tsuiraku_ex1",
-      "japanese": "{飛行機|ひこうき}が{墜落|ついらく}した。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{墜落|ついらく}⟦した→する：00392_suru⟧。",
       "english": "The airplane crashed.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18763_tsuiraku_ex2",
-      "japanese": "{墜落|ついらく}{事故|じこ}の{原因|げんいん}を{調査|ちょうさ}している。",
+      "japanese": "{墜落|ついらく}⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦している→する：00392_suru⟧。",
       "english": "They are investigating the cause of the crash.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18763_tsuiraku_ex3",
-      "japanese": "ヘリコプターが{山中|さんちゅう}に{墜落|ついらく}し、{乗員|じょういん}{全員|ぜんいん}が{救助|きゅうじょ}された。",
+      "japanese": "⟦ヘリコプター→ヘリコプター：05117_herikoputaa⟧⟦が→が：00051_ga⟧{山中|さんちゅう}⟦に→に：00314_ni⟧{墜落|ついらく}し、⟦{乗員|じょういん}→乗員：24973_jouin⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧⟦された→する：00392_suru⟧。",
       "english": "A helicopter crashed in the mountains, and all crew members were rescued.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{墜落|ついらく} means a fall from a great height — used most often for aircraft crashes and serious falls in construction or mountaineering accidents.\n\nUSAGE:\n- Functions as a する verb and as a noun.\n- Almost exclusively used for falls from significant heights — not for tripping on the street or dropping a small object.\n- Carries a serious, often tragic tone.\n\nCOMMON PATTERNS:\n- {飛行機|ひこうき}が{墜落|ついらく}する: an airplane crashes\n- {墜落|ついらく}{事故|じこ}: a crash accident\n- {墜落|ついらく}{現場|げんば}: the crash site\n- {墜落|ついらく}{防止|ぼうし}: fall prevention (a standard term in construction safety)\n- {高|たか}いところから{墜落|ついらく}する: to fall from a high place\n- {墜落|ついらく}{死|し}: death from a fall\n\nSIMILAR WORDS:\n- {落下|らっか}: falling, dropping (more general; covers any fall, including objects).\n- {転落|てんらく}: falling from an edge or ledge (e.g., off a cliff, off a station platform); also used figuratively for falling from grace.\n- {落|お}ちる: to fall (the everyday verb).",
+  "notes": "{墜落|ついらく} means a fall from a great height — used most often for aircraft crashes and serious falls in construction or mountaineering accidents.\n\nUSAGE:\n- Functions as a ⟦する→する：00392_suru⟧ verb and as a noun.\n- Almost exclusively used for falls from significant heights — not for tripping on the street or dropping a small object.\n- Carries a serious, often tragic tone.\n\nCOMMON PATTERNS:\n- ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{墜落|ついらく}⟦する→する：00392_suru⟧: an airplane crashes\n- {墜落|ついらく}⟦{事故|じこ}→事故：00851_jiko⟧: a crash accident\n- {墜落|ついらく}⟦{現場|げんば}→現場：02723_genba⟧: the crash site\n- {墜落|ついらく}⟦{防止|ぼうし}→防止：14571_boushi⟧: fall prevention (a standard term in construction safety)\n- ⟦{高|たか}い→高い：00500_takai⟧⟦ところ→ところ：01137_tokoro⟧⟦から→から：00504_kara⟧{墜落|ついらく}⟦する→する：00392_suru⟧: to fall from a high place\n- {墜落|ついらく}⟦{死|し}→死：13248_shi⟧: death from a fall\n\nSIMILAR WORDS:\n- ⟦{落下|らっか}→落下：14051_rakka⟧: falling, dropping (more general; covers any fall, including objects).\n- ⟦{転落|てんらく}→転落：19790_tenraku⟧: falling from an edge or ledge (e.g., off a cliff, off a station platform); also used figuratively for falling from grace.\n- ⟦{落|お}ちる→落ちる：01242_ochiru⟧: to fall (the everyday verb).",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -171,9 +171,10 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-23T03:33:27Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

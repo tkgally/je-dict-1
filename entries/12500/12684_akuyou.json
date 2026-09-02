@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12684_akuyou_ex1",
-      "japanese": "{権力|けんりょく}を{悪用|あくよう}する。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧{悪用|あくよう}⟦する→する：00392_suru⟧。",
       "english": "To abuse power.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12684_akuyou_ex2",
-      "japanese": "{個人|こじん}{情報|じょうほう}が{悪用|あくよう}される{危険|きけん}がある。",
+      "japanese": "⟦{個人|こじん}{情報|じょうほう}→個人情報：18842_kojinjouhou⟧⟦が→が：00051_ga⟧{悪用|あくよう}⟦される→する：00392_suru⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a risk of personal information being misused.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12684_akuyou_ex3",
-      "japanese": "この{制度|せいど}は{本来|ほんらい}{市民|しみん}を{守|まも}るためのものだが、{悪用|あくよう}されるケースが{後|あと}を{絶|た}たない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{制度|せいど}→制度：03291_seido⟧⟦は→は：00079_ha⟧⟦{本来|ほんらい}→本来：09644_honrai⟧⟦{市民|しみん}→市民：01426_shimin⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧ものだ⟦が→が：00051_ga⟧、{悪用|あくよう}⟦される→する：00392_suru⟧⟦ケース→ケース：03841_keesu⟧⟦が→が：00051_ga⟧⟦{後|あと}→後：09580_ato⟧⟦を→を：00422_wo⟧{絶|た}たない。",
       "english": "This system was originally meant to protect citizens, but cases of its abuse are never-ending.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{悪用|あくよう} implies intentional misuse for selfish or harmful purposes. It is commonly used in news, legal, and technical contexts, especially regarding privacy, authority, and systems.\n\nCOMMON COLLOCATIONS:\n- {権力|けんりょく}を{悪用|あくよう}する: to abuse power\n- {個人|こじん}{情報|じょうほう}の{悪用|あくよう}: misuse of personal information\n- {制度|せいど}を{悪用|あくよう}する: to exploit a system\n- {悪用|あくよう}を{防|ふせ}ぐ: to prevent misuse\n\nSIMILAR WORDS:\n- {悪用|あくよう}: misuse, abuse (intentional, for bad purposes)\n- {乱用|らんよう}: abuse, overuse (excessive or reckless use)\n- {利用|りよう}: use, utilization (neutral)\n- {活用|かつよう}: effective use, making good use of (positive)",
+  "notes": "USAGE:\n{悪用|あくよう} implies intentional misuse for selfish or harmful purposes. It is commonly used in news, legal, and technical contexts, especially regarding privacy, authority, and systems.\n\nCOMMON COLLOCATIONS:\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧{悪用|あくよう}⟦する→する：00392_suru⟧: to abuse power\n- ⟦{個人|こじん}{情報|じょうほう}→個人情報：18842_kojinjouhou⟧⟦の→の：09472_no⟧{悪用|あくよう}: misuse of personal information\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧{悪用|あくよう}⟦する→する：00392_suru⟧: to exploit a system\n- {悪用|あくよう}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent misuse\n\nSIMILAR WORDS:\n- {悪用|あくよう}: misuse, abuse (intentional, for bad purposes)\n- ⟦{乱用|らんよう}→乱用：15259_ranyou⟧: abuse, overuse (excessive or reckless use)\n- ⟦{利用|りよう}→利用：01752_riyou⟧: use, utilization (neutral)\n- ⟦{活用|かつよう}→活用：02620_katsuyou⟧: effective use, making good use of (positive)",
   "cross_references": [
     {
       "type": "antonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T05:50:27Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

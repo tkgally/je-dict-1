@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26928_inyousuru_ex1",
-      "japanese": "{有名|ゆうめい}な{詩|し}を{引用|いんよう}した。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{詩|し}→詩：02139_shi⟧⟦を→を：00422_wo⟧{引用|いんよう}した。",
       "english": "I quoted a famous poem.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26928_inyousuru_ex2",
-      "japanese": "レポートに{専門家|せんもんか}の{意見|いけん}を{引用|いんよう}した。",
+      "japanese": "⟦レポート→レポート：01543_repooto⟧⟦に→に：00314_ni⟧⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{引用|いんよう}した。",
       "english": "I cited an expert's opinion in my report.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26928_inyousuru_ex3",
-      "japanese": "{他人|たにん}の{文章|ぶんしょう}を{引用|いんよう}する{場合|ばあい}は、{必|かなら}ず{出典|しゅってん}を{明記|めいき}しなければならない。",
+      "japanese": "⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦を→を：00422_wo⟧{引用|いんよう}する⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{出典|しゅってん}→出典：06424_shutten⟧⟦を→を：00422_wo⟧⟦{明記|めいき}→明記：13030_meiki⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "When citing someone else's writing, you must always clearly state the source.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Used in academic, journalistic, and legal contexts. The noun form {引用|いんよう} is very common and can modify other nouns. Japanese copyright law ({著作権法|ちょさくけんほう}) has specific rules about what constitutes fair {引用|いんよう}.\n\nCOMMON COLLOCATIONS:\n- {引用|いんよう}{文|ぶん}: quotation; cited passage\n- {引用|いんよう}{元|もと}: source of quotation\n- {引用|いんよう}{符|ふ}: quotation marks\n- {出典|しゅってん}を{引用|いんよう}する: to cite a source\n- {無断|むだん}{引用|いんよう}: unauthorized quotation\n\nSIMILAR WORDS:\n- {参照|さんしょう}する: to refer to; to consult — directing the reader to a source, without reproducing the text\n- {転載|てんさい}する: to reprint; to reproduce — copying and republishing content, often requiring permission\n- {抜粋|ばっすい}する: to excerpt — selecting and extracting a portion of a text",
+  "notes": "Used in academic, journalistic, and legal contexts. The noun form ⟦{引用|いんよう}→引用：01850_inyou⟧ is very common and can modify other nouns. Japanese copyright law ({著作権法|ちょさくけんほう}) has specific rules about what constitutes fair ⟦{引用|いんよう}→引用：01850_inyou⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{引用|いんよう}{文|ぶん}→引用文：23771_inyoubun⟧: quotation; cited passage\n- ⟦{引用|いんよう}→引用：01850_inyou⟧⟦{元|もと}→元：03878_moto⟧: source of quotation\n- ⟦{引用|いんよう}{符|ふ}→引用符：23772_inyoufu⟧: quotation marks\n- ⟦{出典|しゅってん}→出典：06424_shutten⟧⟦を→を：00422_wo⟧{引用|いんよう}する: to cite a source\n- ⟦{無断|むだん}→無断：13382_mudan⟧⟦{引用|いんよう}→引用：01850_inyou⟧: unauthorized quotation\n\nSIMILAR WORDS:\n- ⟦{参照|さんしょう}→参照：11866_sanshou⟧⟦する→する：00392_suru⟧: to refer to; to consult — directing the reader to a source, without reproducing the text\n- ⟦{転載|てんさい}→転載：14359_tensai⟧⟦する→する：00392_suru⟧: to reprint; to reproduce — copying and republishing content, often requiring permission\n- ⟦{抜粋|ばっすい}→抜粋：15277_bassui⟧⟦する→する：00392_suru⟧: to excerpt — selecting and extracting a portion of a text",
   "cross_references": [
     {
       "type": "contrast",
@@ -91,10 +91,11 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T16:17:20Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

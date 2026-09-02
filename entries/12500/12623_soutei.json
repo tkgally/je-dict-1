@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12623_soutei_ex1",
-      "japanese": "{想定|そうてい}{外|がい}の{事態|じたい}だった。",
+      "japanese": "{想定|そうてい}{外|がい}⟦の→の：09472_no⟧⟦{事態|じたい}→事態：10151_jitai⟧だった。",
       "english": "It was an unanticipated situation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12623_soutei_ex2",
-      "japanese": "{最悪|さいあく}の{場合|ばあい}を{想定|そうてい}して{準備|じゅんび}する。",
+      "japanese": "⟦{最悪|さいあく}→最悪：13009_saiaku⟧⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦を→を：00422_wo⟧{想定|そうてい}⟦して→する：00392_suru⟧⟦{準備|じゅんび}する→準備する：22427_junbisuru⟧。",
       "english": "We prepare assuming the worst-case scenario.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12623_soutei_ex3",
-      "japanese": "{地震|じしん}{発生|はっせい}を{想定|そうてい}した{避難|ひなん}{訓練|くんれん}が{行|おこな}われた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦{発生|はっせい}→発生：03133_hassei⟧⟦を→を：00422_wo⟧{想定|そうてい}⟦した→する：00392_suru⟧⟦{避難|ひなん}{訓練|くんれん}→避難訓練：28230_hinankunren⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "An evacuation drill assuming an earthquake was carried out.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{想定|そうてい} is widely used in news, government, and technical contexts to describe assumed scenarios.\n\nCOMMON EXPRESSIONS:\n- {想定|そうてい}する: to assume, to hypothesize\n- {想定|そうてい}{外|がい}: beyond expectations, unanticipated\n- {想定|そうてい}{内|ない}: within expectations, anticipated\n- {想定|そうてい}される: to be assumed, to be expected\n\nSIMILAR WORDS:\n- {想定|そうてい}: assumption for planning or analysis (formal, technical)\n- {仮定|かてい}: hypothesis, supposition (used in logic and science)\n- {推測|すいそく}: guess, conjecture (based on evidence)\n- {予想|よそう}: prediction, expectation (about future outcomes)\n\n{想定|そうてい}{外|がい} became widely known after the 2011 {東日本大震災|ひがしにほんだいしんさい} when it was used to describe the unprecedented scale of the disaster.",
+  "notes": "{想定|そうてい} is widely used in news, government, and technical contexts to describe assumed scenarios.\n\nCOMMON EXPRESSIONS:\n- {想定|そうてい}⟦する→する：00392_suru⟧: to assume, to hypothesize\n- {想定|そうてい}{外|がい}: beyond expectations, unanticipated\n- {想定|そうてい}{内|ない}: within expectations, anticipated\n- {想定|そうてい}⟦される→する：00392_suru⟧: to be assumed, to be expected\n\nSIMILAR WORDS:\n- {想定|そうてい}: assumption for planning or analysis (formal, technical)\n- ⟦{仮定|かてい}→仮定：02601_katei⟧: hypothesis, supposition (used in logic and science)\n- ⟦{推測|すいそく}→推測：12821_suisoku⟧: guess, conjecture (based on evidence)\n- ⟦{予想|よそう}→予想：03664_yosou⟧: prediction, expectation (about future outcomes)\n\n{想定|そうてい}{外|がい} became widely known after the 2011 {東日本大震災|ひがしにほんだいしんさい} when it was used to describe the unprecedented scale of the disaster.",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T04:33:35Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

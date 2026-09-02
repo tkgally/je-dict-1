@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17197_orareru_ex1",
-      "japanese": "{先生|せんせい}はおられますか。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧おられます⟦か→か：09473_ka⟧。",
       "english": "Is the teacher here?",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17197_orareru_ex2",
-      "japanese": "{社長|しゃちょう}は{今|いま}、{会議室|かいぎしつ}におられます。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧、⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧⟦に→に：00314_ni⟧おられます。",
       "english": "The president is in the conference room now.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17197_orareru_ex3",
-      "japanese": "お{客様|きゃくさま}の{中|なか}に{医師|いし}の{方|かた}はおられませんか。",
+      "japanese": "⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦{医師|いし}→医師：11851_ishi⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧おられません⟦か→か：09473_ka⟧。",
       "english": "Is there a doctor among the passengers?",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nおられる is the honorific form of おる (to be). It is widely used in Kansai dialect and formal business Japanese to respectfully refer to someone's presence or state. In standard Tokyo Japanese, いらっしゃる is the more common honorific form of いる.\n\nREGISTER:\nUsed in polite and formal speech. Common in business settings, customer service, and when speaking about superiors.\n\nREGIONAL NOTE:\nParticularly common in western Japan (Kansai region), where おる is the standard informal equivalent of いる. In eastern Japan, some speakers consider おられる grammatically debatable since おる can be seen as humble rather than neutral.\n\nSIMILAR WORDS:\n- いらっしゃる: the standard honorific for いる/{行|い}く/{来|く}る — more universally accepted across regions\n- おる: humble or neutral form of いる, depending on region",
+  "notes": "USAGE:\nおられる is the honorific form of ⟦おる→おる：01324_oru⟧ (to be). It is widely used in Kansai dialect and formal business Japanese to respectfully refer to someone's presence or state. In standard Tokyo Japanese, ⟦いらっしゃる→いらっしゃる：01295_irassharu⟧ is the more common honorific form of ⟦いる→いる：00495_iru⟧.\n\nREGISTER:\nUsed in polite and formal speech. Common in business settings, customer service, and when speaking about superiors.\n\nREGIONAL NOTE:\nParticularly common in western Japan (Kansai region), where ⟦おる→おる：01324_oru⟧ is the standard informal equivalent of ⟦いる→いる：00495_iru⟧. In eastern Japan, some speakers consider おられる grammatically debatable since ⟦おる→おる：01324_oru⟧ can be seen as humble rather than neutral.\n\nSIMILAR WORDS:\n- ⟦いらっしゃる→いらっしゃる：01295_irassharu⟧: the standard honorific for ⟦いる→いる：00495_iru⟧/⟦{行|い}く→行く：00119_iku⟧/⟦{来|く}る→来る：00254_kuru⟧ — more universally accepted across regions\n- ⟦おる→おる：01324_oru⟧: humble or neutral form of ⟦いる→いる：00495_iru⟧, depending on region",
   "cross_references": [
     {
       "type": "keigo",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -172,7 +172,8 @@
       "semantic": [
         "grammatical"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     }
   }
 }

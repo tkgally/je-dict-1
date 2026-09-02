@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07918_kasabaru_ex1",
-      "japanese": "この{荷物|にもつ}は{嵩張|かさば}る。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦は→は：00079_ha⟧{嵩張|かさば}る。",
       "english": "This luggage is bulky.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07918_kasabaru_ex2",
-      "japanese": "{冬服|ふゆふく}は{嵩張|かさば}るので{収納|しゅうのう}に{困|こま}る。",
+      "japanese": "⟦{冬服|ふゆふく}→冬服：23084_fuyufuku⟧⟦は→は：00079_ha⟧{嵩張|かさば}る⟦の→の：09472_no⟧で⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦に→に：00314_ni⟧⟦{困|こま}る→困る：00861_komaru⟧。",
       "english": "Winter clothes are bulky, so storage is a problem.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07918_kasabaru_ex3",
-      "japanese": "{嵩張|かさば}らないお{土産|みやげ}を{選|えら}んだ。",
+      "japanese": "{嵩張|かさば}らない⟦お{土産|みやげ}→お土産：01353_omiyage⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose a souvenir that doesn't take up much space.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{嵩張|かさば}る describes things that take up a lot of space relative to their content or value.\n\nVERB TYPE:\n- Godan verb (る-verb with ら-row conjugation)\n- Intransitive\n\nWRITING:\n- {嵩|かさ} means \"bulk, volume\"\n- {張|ば}る means \"to stretch, extend\"\n- Often written in hiragana: かさばる\n\nCOMMON COLLOCATIONS:\n- {荷物|にもつ}が{嵩張|かさば}る (luggage is bulky)\n- {嵩張|かさば}らない (not bulky, compact)\n- {収納|しゅうのう}に{嵩張|かさば}る (bulky for storage)\n\nCOMMON SUBJECTS:\n- Winter clothes, bedding\n- Packaging, boxes\n- Luggage, bags\n- Gifts and souvenirs\n\nSIMILAR WORDS:\n- {場所|ばしょ}を{取|と}る (to take up space - more general)\n- {大|おお}きい (big - simple size)\n- かさむ (to pile up - amount/cost)\n\nUSAGE:\n- Implies inconvenience due to size\n- Often used when something is large but light\n- Negative connotation in most contexts\n\nREGISTER: Neutral. Common in everyday conversation.",
+  "notes": "{嵩張|かさば}る describes things that take up a lot of space relative to their content or value.\n\nVERB TYPE:\n- Godan verb (る-verb with ら-row conjugation)\n- Intransitive\n\nWRITING:\n- {嵩|かさ} means \"bulk, volume\"\n- {張|ば}る means \"to stretch, extend\"\n- Often written in hiragana: かさばる\n\nCOMMON COLLOCATIONS:\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧{嵩張|かさば}る (luggage is bulky)\n- {嵩張|かさば}らない (not bulky, compact)\n- ⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦に→に：00314_ni⟧{嵩張|かさば}る (bulky for storage)\n\nCOMMON SUBJECTS:\n- Winter clothes, bedding\n- Packaging, boxes\n- Luggage, bags\n- Gifts and souvenirs\n\nSIMILAR WORDS:\n- ⟦{場所|ばしょ}→場所：00829_basho⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take up space - more general)\n- ⟦{大|おお}きい→大きい：00335_ookii⟧ (big - simple size)\n- かさむ (to pile up - amount/cost)\n\nUSAGE:\n- Implies inconvenience due to size\n- Often used when something is large but light\n- Negative connotation in most contexts\n\nREGISTER: Neutral. Common in everyday conversation.",
   "cross_references": [
     {
       "type": "contrast",
@@ -162,9 +162,10 @@
         "descriptive",
         "size"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-01-22T05:13:53Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

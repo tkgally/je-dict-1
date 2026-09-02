@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09400_boutou_ex1",
-      "japanese": "{物価|ぶっか}が{暴騰|ぼうとう}した。",
+      "japanese": "⟦{物価|ぶっか}→物価：03607_bukka⟧⟦が→が：00051_ga⟧{暴騰|ぼうとう}⟦した→する：00392_suru⟧。",
       "english": "Prices skyrocketed.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09400_boutou_ex2",
-      "japanese": "{戦争|せんそう}で{石油|せきゆ}{価格|かかく}が{暴騰|ぼうとう}している。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦で→で：00502_de⟧⟦{石油|せきゆ}→石油：01448_sekiyu⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧{暴騰|ぼうとう}⟦している→する：00392_suru⟧。",
       "english": "Oil prices are soaring due to the war.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09400_boutou_ex3",
-      "japanese": "{土地|とち}の{暴騰|ぼうとう}でバブルが{発生|はっせい}した。",
+      "japanese": "⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧{暴騰|ぼうとう}⟦で→で：00502_de⟧⟦バブル→バブル：11120_baburu⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "A bubble was caused by skyrocketing land prices.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09400_boutou_ex4",
-      "japanese": "この{株|かぶ}は{一日|いちにち}で{暴騰|ぼうとう}して{倍|ばい}になった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{株|かぶ}→株：02592_kabu⟧⟦は→は：00079_ha⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦で→で：00502_de⟧{暴騰|ぼうとう}⟦して→する：00392_suru⟧⟦{倍|ばい}→倍：01492_bai⟧になった。",
       "english": "This stock skyrocketed and doubled in one day.",
       "notes": null,
       "has_audio": false,
@@ -143,7 +143,7 @@
       ]
     }
   ],
-  "notes": "{暴騰|ぼうとう} indicates an extreme, often irrational price increase. The character {暴|ぼう} (violent, wild) emphasizes the severity. The opposite is {暴落|ぼうらく} (crash).\n\n{暴騰|ぼうとう} is more extreme than {急騰|きゅうとう}:\n- {急騰|きゅうとう}: sharp rise (significant but may be justified)\n- {暴騰|ぼうとう}: skyrocketing (extreme, often speculative)\n\nRelated terms:\n- {暴落|ぼうらく}: crash, collapse\n- {急騰|きゅうとう}: sharp rise\n- {高騰|こうとう}: soaring (prices)",
+  "notes": "{暴騰|ぼうとう} indicates an extreme, often irrational price increase. The character {暴|ぼう} (violent, wild) emphasizes the severity. The opposite is ⟦{暴落|ぼうらく}→暴落：09401_bouraku⟧ (crash).\n\n{暴騰|ぼうとう} is more extreme than ⟦{急騰|きゅうとう}→急騰：09398_kyuutou⟧:\n- ⟦{急騰|きゅうとう}→急騰：09398_kyuutou⟧: sharp rise (significant but may be justified)\n- {暴騰|ぼうとう}: skyrocketing (extreme, often speculative)\n\nRelated terms:\n- ⟦{暴落|ぼうらく}→暴落：09401_bouraku⟧: crash, collapse\n- ⟦{急騰|きゅうとう}→急騰：09398_kyuutou⟧: sharp rise\n- ⟦{高騰|こうとう}→高騰：14647_koutou⟧: soaring (prices)",
   "cross_references": [
     {
       "type": "homophone",
@@ -169,7 +169,7 @@
   ],
   "metadata": {
     "created": "2026-02-01T09:15:41Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +183,8 @@
         "business",
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

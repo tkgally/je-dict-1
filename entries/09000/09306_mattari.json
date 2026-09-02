@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "09306_mattari_ex1",
-      "japanese": "まったり{過|す}ごす。",
+      "japanese": "まったり⟦{過|す}ごす→過ごす：02062_sugosu⟧。",
       "english": "To spend time in a relaxed manner.",
       "has_audio": false,
       "sense_numbers": [
@@ -118,7 +118,7 @@
     },
     {
       "id": "09306_mattari_ex2",
-      "japanese": "{休日|きゅうじつ}はまったりしたい。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦は→は：00079_ha⟧まったり⟦したい→する：00392_suru⟧。",
       "english": "I want to chill out on my days off.",
       "has_audio": false,
       "sense_numbers": [
@@ -127,7 +127,7 @@
     },
     {
       "id": "09306_mattari_ex3",
-      "japanese": "カフェでまったりコーヒーを{飲|の}んでいる。",
+      "japanese": "⟦カフェ→カフェ：06767_kafe⟧⟦で→で：00502_de⟧まったり⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{飲|の}んでいる→飲む：00322_nomu⟧。",
       "english": "I'm relaxing at a café drinking coffee.",
       "has_audio": false,
       "sense_numbers": [
@@ -136,7 +136,7 @@
     },
     {
       "id": "09306_mattari_ex4",
-      "japanese": "まったりした{味|あじ}だ。",
+      "japanese": "まったり⟦した→する：00392_suru⟧⟦{味|あじ}→味：00826_aji⟧だ。",
       "english": "It has a mellow taste.",
       "has_audio": false,
       "sense_numbers": [
@@ -145,7 +145,7 @@
     },
     {
       "id": "09306_mattari_ex5",
-      "japanese": "このスープはまったりしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スープ→スープ：00395_suupu⟧⟦は→は：00079_ha⟧まったり⟦している→する：00392_suru⟧。",
       "english": "This soup is rich and mellow.",
       "has_audio": false,
       "sense_numbers": [
@@ -154,7 +154,7 @@
     },
     {
       "id": "09306_mattari_ex6",
-      "japanese": "まったりとしたチーズの{風味|ふうみ}がある。",
+      "japanese": "まったりとした⟦チーズ→チーズ：00026_chiizu⟧⟦の→の：09472_no⟧⟦{風味|ふうみ}→風味：14622_fuumi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It has a rich, mellow cheese flavor.",
       "has_audio": false,
       "sense_numbers": [
@@ -162,7 +162,7 @@
       ]
     }
   ],
-  "notes": "まったり is a mimetic word that evokes a sense of gentle relaxation or smoothness. Originally used in Kansai dialect to describe rich flavors, it expanded nationwide to describe a relaxed lifestyle.\n\nREGISTER:\nThis is casual/colloquial language that became popular in the 1990s-2000s.\n\nCOMMON PATTERNS:\n- まったりする: to chill out, relax\n- まったり{過|す}ごす: to spend time in a laid-back way\n- まったりした{味|あじ}: mellow/rich taste",
+  "notes": "まったり is a mimetic word that evokes a sense of gentle relaxation or smoothness. Originally used in Kansai dialect to describe rich flavors, it expanded nationwide to describe a relaxed lifestyle.\n\nREGISTER:\nThis is casual/colloquial language that became popular in the 1990s-2000s.\n\nCOMMON PATTERNS:\n- まったり⟦する→する：00392_suru⟧: to chill out, relax\n- まったり⟦{過|す}ごす→過ごす：02062_sugosu⟧: to spend time in a laid-back way\n- まったり⟦した→する：00392_suru⟧⟦{味|あじ}→味：00826_aji⟧: mellow/rich taste",
   "cross_references": [
     {
       "type": "related",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-01T07:09:37Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -189,7 +189,8 @@
       "semantic": [
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

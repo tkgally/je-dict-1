@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19699_mochihakobu_ex1",
-      "japanese": "ノートパソコンを{持|も}ち{運|はこ}ぶ。",
+      "japanese": "⟦ノートパソコン→ノートパソコン：20523_nootopasokon⟧⟦を→を：00422_wo⟧{持|も}ち{運|はこ}ぶ。",
       "english": "Carry a laptop around.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19699_mochihakobu_ex2",
-      "japanese": "このカバンは{荷物|にもつ}を{持|も}ち{運|はこ}ぶのに{便利|べんり}だ。",
+      "japanese": "⟦この→この：00962_kono⟧カバン⟦は→は：00079_ha⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{持|も}ち{運|はこ}ぶ⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "This bag is convenient for carrying things around.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19699_mochihakobu_ex3",
-      "japanese": "{大|おお}きな{機材|きざい}を{一人|ひとり}で{持|も}ち{運|はこ}ぶのは{大変|たいへん}だ。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧⟦{機材|きざい}→機材：13187_kizai⟧⟦を→を：00422_wo⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧{持|も}ち{運|はこ}ぶ⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "It's tough to carry large equipment by yourself.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb combining {持|も}つ (to hold) and {運|はこ}ぶ (to carry/transport). The noun form {持|も}ち{運|はこ}び is very common in product descriptions to indicate portability.\n\nCOMMON COLLOCATIONS:\n- {持|も}ち{運|はこ}びに{便利|べんり}: convenient to carry\n- {持|も}ち{運|はこ}びやすい: easy to carry\n- {持|も}ち{運|はこ}び{用|よう}: for carrying, portable\n- {持|も}ち{運|はこ}び{可能|かのう}: portable, transportable\n\nSIMILAR WORDS:\n- {運|はこ}ぶ: to carry, to transport — focuses on moving from A to B; {持|も}ち{運|はこ}ぶ emphasizes portability\n- {携帯|けいたい}する: to carry on one's person — more formal; used for things you keep with you (phone, ID)\n- {持|も}ち{歩|ある}く: to carry around with you — emphasizes walking around with something",
+  "notes": "A compound verb combining ⟦{持|も}つ→持つ：00478_motsu⟧ (to hold) and ⟦{運|はこ}ぶ→運ぶ：01088_hakobu⟧ (to carry/transport). The noun form ⟦{持|も}ち{運|はこ}び→持ち運び：03164_mochihakobi⟧ is very common in product descriptions to indicate portability.\n\nCOMMON COLLOCATIONS:\n- ⟦{持|も}ち{運|はこ}び→持ち運び：03164_mochihakobi⟧⟦に→に：00314_ni⟧⟦{便利|べんり}→便利：00830_benri⟧: convenient to carry\n- {持|も}ち{運|はこ}びやすい: easy to carry\n- ⟦{持|も}ち{運|はこ}び→持ち運び：03164_mochihakobi⟧⟦{用|よう}→〜用：09842_you⟧: for carrying, portable\n- ⟦{持|も}ち{運|はこ}び→持ち運び：03164_mochihakobi⟧⟦{可能|かのう}→可能：00175_kanou⟧: portable, transportable\n\nSIMILAR WORDS:\n- ⟦{運|はこ}ぶ→運ぶ：01088_hakobu⟧: to carry, to transport — focuses on moving from A to B; {持|も}ち{運|はこ}ぶ emphasizes portability\n- ⟦{携帯|けいたい}する→携帯する：21144_keitaisuru⟧: to carry on one's person — more formal; used for things you keep with you (phone, ID)\n- ⟦{持|も}ち{歩|ある}く→持ち歩く：05739_mochiaruku⟧: to carry around with you — emphasizes walking around with something",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -164,9 +164,10 @@
         "movement",
         "daily-life"
       ],
-      "verb_class": "godan-bu"
+      "verb_class": "godan-bu",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T12:38:04Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

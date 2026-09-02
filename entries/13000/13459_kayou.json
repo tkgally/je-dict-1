@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13459_kayou_ex1",
-      "japanese": "{火曜|かよう}は{休|やす}みです。",
+      "japanese": "{火曜|かよう}⟦は→は：00079_ha⟧⟦{休|やす}み→休み：02266_yasumi⟧です。",
       "english": "Tuesday is a day off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13459_kayou_ex2",
-      "japanese": "{会議|かいぎ}は{毎週|まいしゅう}{火曜|かよう}に{行|おこな}われる。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{火曜|かよう}⟦に→に：00314_ni⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "The meeting is held every Tuesday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13459_kayou_ex3",
-      "japanese": "{来週|らいしゅう}の{火曜|かよう}までにレポートを{提出|ていしゅつ}してください。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧{火曜|かよう}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit the report by next Tuesday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nShort form of {火曜日|かようび}. Both are common; {火曜|かよう} is slightly more concise and often seen in written schedules. The name comes from {火星|かせい} (Mars), following the East Asian system of naming days after celestial bodies.\n\nCOMMON COLLOCATIONS:\n- {毎週|まいしゅう}{火曜|かよう}: every Tuesday\n- {火曜|かよう}の{夜|よる}: Tuesday night\n- {来週|らいしゅう}の{火曜|かよう}: next Tuesday\n- {火曜|かよう}と{木曜|もくよう}: Tuesday and Thursday",
+  "notes": "USAGE:\nShort form of ⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧. Both are common; {火曜|かよう} is slightly more concise and often seen in written schedules. The name comes from ⟦{火星|かせい}→火星：13412_kasei⟧ (Mars), following the East Asian system of naming days after celestial bodies.\n\nCOMMON COLLOCATIONS:\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{火曜|かよう}: every Tuesday\n- {火曜|かよう}⟦の→の：09472_no⟧⟦{夜|よる}→夜：00487_yoru⟧: Tuesday night\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧{火曜|かよう}: next Tuesday\n- {火曜|かよう}⟦と→と：00512_to⟧⟦{木曜|もくよう}→木曜：03163_mokuyou⟧: Tuesday and Thursday",
   "prominent_see_also": [
     {
       "target_id": "00640_kayoubi",
@@ -50,14 +56,18 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-04-28T10:15:25Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-day-of-week"]
+      "semantic": [
+        "time-day-of-week"
+      ]
     }
   }
 }

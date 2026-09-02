@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26687_nanko_ex1",
-      "japanese": "りんごは{何個|なんこ}ですか。",
+      "japanese": "⟦りんご→りんご：02269_ringo⟧⟦は→は：00079_ha⟧{何個|なんこ}です⟦か→か：09473_ka⟧。",
       "english": "How many apples are there?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26687_nanko_ex2",
-      "japanese": "{卵|たまご}を{何個|なんこ}{買|か}えばいいですか。",
+      "japanese": "⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧{何個|なんこ}⟦{買|か}えば→買う：00489_kau⟧⟦いい→いい：00118_ii⟧です⟦か→か：09473_ka⟧。",
       "english": "How many eggs should I buy?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26687_nanko_ex3",
-      "japanese": "{段|だん}ボールの{箱|はこ}を{何個|なんこ}{用意|ようい}すればいいか、{確認|かくにん}してください。",
+      "japanese": "⟦{段|だん}ボール→段ボール：18885_danbooru⟧⟦の→の：09472_no⟧⟦{箱|はこ}→箱：02162_hako⟧⟦を→を：00422_wo⟧{何個|なんこ}⟦{用意|ようい}すれば→用意する：22428_youisuru⟧⟦いい→いい：00118_ii⟧⟦か→か：09473_ka⟧、⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check how many cardboard boxes we need to prepare.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {何|なん} (what / how many) and {個|こ} (counter for small objects). This is one of the most frequently used counter question words in daily conversation, since {個|こ} is the most versatile general counter for objects.\n\nRELATED COUNTER QUESTIONS:\n- {何本|なんぼん}: how many (long objects — bottles, pens, umbrellas)\n- {何枚|なんまい}: how many (flat objects — sheets, tickets, plates)\n- {何杯|なんばい}: how many (cups, glasses, bowls)\n- {何台|なんだい}: how many (machines, vehicles)\n\nUSAGE:\nThe counter {個|こ} applies broadly to small, compact, or round items: fruits, eggs, balls, boxes, bags, pieces. When the specific counter is unknown, {個|こ} serves as a safe default for physical objects.",
+  "notes": "Composed of ⟦{何|なん}→何〜：03100_nan⟧ (what / how many) and ⟦{個|こ}→〜個：00645_ko⟧ (counter for small objects). This is one of the most frequently used counter question words in daily conversation, since ⟦{個|こ}→〜個：00645_ko⟧ is the most versatile general counter for objects.\n\nRELATED COUNTER QUESTIONS:\n- {何本|なんぼん}: how many (long objects — bottles, pens, umbrellas)\n- ⟦{何枚|なんまい}→何枚：08777_nanmai⟧: how many (flat objects — sheets, tickets, plates)\n- ⟦{何杯|なんばい}→何杯：08779_nanbai⟧: how many (cups, glasses, bowls)\n- {何台|なんだい}: how many (machines, vehicles)\n\nUSAGE:\nThe counter ⟦{個|こ}→〜個：00645_ko⟧ applies broadly to small, compact, or round items: fruits, eggs, balls, boxes, bags, pieces. When the specific counter is unknown, ⟦{個|こ}→〜個：00645_ko⟧ serves as a safe default for physical objects.",
   "cross_references": [],
   "schema_version": "2.0",
   "metadata": {
@@ -61,6 +61,6 @@
       ]
     },
     "created": "2026-05-04T13:50:27Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

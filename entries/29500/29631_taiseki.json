@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29631_taiseki_ex1",
-      "japanese": "{土砂|どしゃ}が{堆積|たいせき}する。",
+      "japanese": "⟦{土砂|どしゃ}→土砂：17540_dosha⟧⟦が→が：00051_ga⟧{堆積|たいせき}⟦する→する：00392_suru⟧。",
       "english": "Earth and sand accumulate.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29631_taiseki_ex2",
-      "japanese": "{川底|かわぞこ}に{泥|どろ}が{堆積|たいせき}している。",
+      "japanese": "{川底|かわぞこ}⟦に→に：00314_ni⟧⟦{泥|どろ}→泥：03492_doro⟧⟦が→が：00051_ga⟧{堆積|たいせき}⟦している→する：00392_suru⟧。",
       "english": "Mud has accumulated on the riverbed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29631_taiseki_ex3",
-      "japanese": "{長|なが}い{年月|ねんげつ}をかけて{土砂|どしゃ}が{堆積|たいせき}し、{地層|ちそう}ができた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{年月|ねんげつ}→年月：00310_nengetsu⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦{土砂|どしゃ}→土砂：17540_dosha⟧⟦が→が：00051_ga⟧{堆積|たいせき}し、⟦{地層|ちそう}→地層：06366_chisou⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Over long years, sediment was deposited and formed strata.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {堆|たい} (heap up) + {積|せき} (accumulate).\n\nTRANSITIVITY:\nUsually intransitive — material {堆積|たいせき}する on its own. Use {堆積|たいせき}させる when an agent causes the buildup.\n\nCOMMON COLLOCATIONS:\n- {土砂|どしゃ}の{堆積|たいせき}: deposition of earth and sand\n- {堆積物|たいせきぶつ}: sediment, deposits\n- {堆積岩|たいせきがん}: sedimentary rock\n\nSIMILAR WORDS:\n- {侵食|しんしょく}: erosion — the opposite process, wearing material away\n- {蓄積|ちくせき}: accumulation — used of abstract things (knowledge, fatigue) as well as physical",
+  "notes": "Composed of {堆|たい} (heap up) + {積|せき} (accumulate).\n\nTRANSITIVITY:\nUsually intransitive — material {堆積|たいせき}⟦する→する：00392_suru⟧ on its own. Use {堆積|たいせき}⟦させる→する：00392_suru⟧ when an agent causes the buildup.\n\nCOMMON COLLOCATIONS:\n- ⟦{土砂|どしゃ}→土砂：17540_dosha⟧⟦の→の：09472_no⟧{堆積|たいせき}: deposition of earth and sand\n- {堆積物|たいせきぶつ}: sediment, deposits\n- ⟦{堆積岩|たいせきがん}→堆積岩：23353_taisekigan⟧: sedimentary rock\n\nSIMILAR WORDS:\n- ⟦{侵食|しんしょく}→侵食：10927_shinshoku⟧: erosion — the opposite process, wearing material away\n- ⟦{蓄積|ちくせき}→蓄積：14023_chikuseki⟧: accumulation — used of abstract things (knowledge, fatigue) as well as physical",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -90,10 +90,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-02T12:18:49Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

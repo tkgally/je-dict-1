@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07657_gakai_ex1",
-      "japanese": "{帝国|ていこく}は{瓦解|がかい}した。",
+      "japanese": "⟦{帝国|ていこく}→帝国：12420_teikoku⟧⟦は→は：00079_ha⟧{瓦解|がかい}⟦した→する：00392_suru⟧。",
       "english": "The empire collapsed.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07657_gakai_ex2",
-      "japanese": "{計画|けいかく}は{瓦解|がかい}の{危機|きき}に{瀕|ひん}している。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧{瓦解|がかい}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧⟦に→に：00314_ni⟧⟦{瀕|ひん}している→瀕する：13401_hinsuru⟧。",
       "english": "The plan is on the verge of collapse.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07657_gakai_ex3",
-      "japanese": "{内部|ないぶ}{対立|たいりつ}により{組織|そしき}は{瓦解|がかい}し{始|はじ}めた。",
+      "japanese": "⟦{内部|ないぶ}→内部：05583_naibu⟧⟦{対立|たいりつ}→対立：04500_tairitsu⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦{組織|そしき}→組織：03320_soshiki⟧⟦は→は：00079_ha⟧{瓦解|がかい}し⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The organization began to crumble due to internal conflict.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nThe characters {瓦|かわら} (roof tile) and {解|かい} (to break apart) combine to evoke the image of tiles falling from a collapsing building.\n\nFORMS:\n{瓦解|がかい}する - to collapse, disintegrate\n\nCOMMON COLLOCATIONS:\n- {瓦解|がかい}する - to collapse\n- {瓦解|がかい}の{危機|きき} - crisis of collapse\n- {瓦解|がかい}に{瀕|ひん}する - to be on the verge of collapse\n\nSIMILAR WORDS:\n- {崩壊|ほうかい} - collapse, breakdown (more common)\n- {解体|かいたい} - dismantling, dissolution",
+  "notes": "ETYMOLOGY:\nThe characters ⟦{瓦|かわら}→瓦：03902_kawara⟧ (roof tile) and {解|かい} (to break apart) combine to evoke the image of tiles falling from a collapsing building.\n\nFORMS:\n{瓦解|がかい}⟦する→する：00392_suru⟧ - to collapse, disintegrate\n\nCOMMON COLLOCATIONS:\n- {瓦解|がかい}⟦する→する：00392_suru⟧ - to collapse\n- {瓦解|がかい}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧ - crisis of collapse\n- {瓦解|がかい}⟦に→に：00314_ni⟧⟦{瀕|ひん}する→瀕する：13401_hinsuru⟧ - to be on the verge of collapse\n\nSIMILAR WORDS:\n- ⟦{崩壊|ほうかい}→崩壊：09067_houkai⟧ - collapse, breakdown (more common)\n- ⟦{解体|かいたい}→解体：06223_kaitai⟧ - dismantling, dissolution",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,7 +149,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-09-02T02:55:19Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -163,7 +163,8 @@
         "abstract",
         "politics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

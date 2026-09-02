@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08415_angouka_ex1",
-      "japanese": "データを{暗号化|あんごうか}して{送信|そうしん}する。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{暗号化|あんごうか}⟦して→する：00392_suru⟧⟦{送信|そうしん}する→送信する：26780_soushinsuru⟧。",
       "english": "Encrypt the data before sending it.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08415_angouka_ex2",
-      "japanese": "{暗号化|あんごうか}された{通信|つうしん}は{安全|あんぜん}だ。",
+      "japanese": "{暗号化|あんごうか}⟦された→する：00392_suru⟧⟦{通信|つうしん}→通信：03514_tsuushin⟧⟦は→は：00079_ha⟧⟦{安全|あんぜん}→安全：01131_anzen⟧だ。",
       "english": "Encrypted communication is secure.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08415_angouka_ex3",
-      "japanese": "パスワードは{暗号化|あんごうか}して{保存|ほぞん}される。",
+      "japanese": "⟦パスワード→パスワード：05277_pasuwaado⟧⟦は→は：00079_ha⟧{暗号化|あんごうか}⟦して→する：00392_suru⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦される→する：00392_suru⟧。",
       "english": "Passwords are stored encrypted.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMS:\n{暗号|あんごう} (code, cipher) + {化|か} (change into) → turning into code\n{暗号化|あんごうか}する (to encrypt)\n\nSIMILAR WORDS:\n{復号|ふくごう} (decryption)\n\nTECHNICAL TERMS:\n- {暗号化|あんごうか}{鍵|かぎ} / {暗号|あんごう}{鍵|かぎ} (encryption key)\n- {公開鍵暗号|こうかいかぎあんごう} (public-key encryption)\n- {対称|たいしょう}{暗号化|あんごうか} (symmetric encryption)\n- エンドツーエンド{暗号化|あんごうか} (end-to-end encryption)\n\nRELATED WORDS:\n- {暗号|あんごう} (cipher, code)\n- {復号|ふくごう} (decryption)\n- セキュリティ (security)",
+  "notes": "FORMS:\n⟦{暗号|あんごう}→暗号：04868_angou⟧ (code, cipher) + ⟦{化|か}→〜化：28335_ka⟧ (change into) → turning into code\n{暗号化|あんごうか}⟦する→する：00392_suru⟧ (to encrypt)\n\nSIMILAR WORDS:\n⟦{復号|ふくごう}→復号：08416_fukugou⟧ (decryption)\n\nTECHNICAL TERMS:\n- {暗号化|あんごうか}⟦{鍵|かぎ}→鍵：02189_kagi⟧ / ⟦{暗号|あんごう}{鍵|かぎ}→暗号鍵：23268_angoukagi⟧ (encryption key)\n- {公開鍵暗号|こうかいかぎあんごう} (public-key encryption)\n- {対称|たいしょう}{暗号化|あんごうか} (symmetric encryption)\n- エンドツーエンド{暗号化|あんごうか} (end-to-end encryption)\n\nRELATED WORDS:\n- ⟦{暗号|あんごう}→暗号：04868_angou⟧ (cipher, code)\n- ⟦{復号|ふくごう}→復号：08416_fukugou⟧ (decryption)\n- ⟦セキュリティ→セキュリティ：04867_sekyuriti⟧ (security)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -146,10 +146,11 @@
       "semantic": [
         "technology"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {

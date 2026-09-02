@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17691_etsuran_ex1",
-      "japanese": "{資料|しりょう}を{閲覧|えつらん}する。",
+      "japanese": "⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{閲覧|えつらん}⟦する→する：00392_suru⟧。",
       "english": "I browse through the documents.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17691_etsuran_ex2",
-      "japanese": "このページの{閲覧|えつらん}{数|すう}が{増|ふ}えている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ページ→ページ：02961_peeji⟧⟦の→の：09472_no⟧{閲覧|えつらん}⟦{数|すう}→数：03360_suu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of views on this page is increasing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17691_etsuran_ex3",
-      "japanese": "{図書館|としょかん}では{貴重|きちょう}な{古文書|こもんじょ}を{閲覧|えつらん}することができる。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{貴重|きちょう}→貴重：00223_kichou⟧な⟦{古文書|こもんじょ}→古文書：15839_komonjo⟧⟦を→を：00422_wo⟧{閲覧|えつらん}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "At the library, you can view rare historical documents.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word used in written and official contexts. In everyday conversation, {見|み}る (to look at) or {読|よ}む (to read) is more natural. {閲覧|えつらん} is commonly used in digital contexts ({閲覧|えつらん}{履歴|りれき} = browsing history) and for accessing official records.\n\nCOMMON COLLOCATIONS:\n- {閲覧|えつらん}{履歴|りれき}: browsing history\n- {閲覧|えつらん}{数|すう}: view count, page views\n- {閲覧|えつらん}{制限|せいげん}: viewing restriction\n- {閲覧|えつらん}{注意|ちゅうい}: viewer discretion advised\n- {閲覧|えつらん}{可能|かのう}: available for viewing",
+  "notes": "USAGE:\nA formal word used in written and official contexts. In everyday conversation, ⟦{見|み}る→見る：00283_miru⟧ (to look at) or ⟦{読|よ}む→読む：00426_yomu⟧ (to read) is more natural. {閲覧|えつらん} is commonly used in digital contexts ({閲覧|えつらん}⟦{履歴|りれき}→履歴：09334_rireki⟧ = browsing history) and for accessing official records.\n\nCOMMON COLLOCATIONS:\n- {閲覧|えつらん}⟦{履歴|りれき}→履歴：09334_rireki⟧: browsing history\n- {閲覧|えつらん}⟦{数|すう}→数：03360_suu⟧: view count, page views\n- {閲覧|えつらん}⟦{制限|せいげん}→制限：03375_seigen⟧: viewing restriction\n- {閲覧|えつらん}⟦{注意|ちゅうい}→注意：01464_chuui⟧: viewer discretion advised\n- {閲覧|えつらん}⟦{可能|かのう}→可能：00175_kanou⟧: available for viewing",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +165,8 @@
       "domain": [
         "internet"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

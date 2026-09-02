@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11538_neagari_ex1",
-      "japanese": "{食品|しょくひん}が{値上|ねあ}がりした。",
+      "japanese": "⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦が→が：00051_ga⟧{値上|ねあ}がり⟦した→する：00392_suru⟧。",
       "english": "Food prices went up.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11538_neagari_ex2",
-      "japanese": "{電気代|でんきだい}の{値上|ねあ}がりが{家計|かけい}を{圧迫|あっぱく}している。",
+      "japanese": "⟦{電気代|でんきだい}→電気代：09543_denkidai⟧⟦の→の：09472_no⟧{値上|ねあ}がり⟦が→が：00051_ga⟧⟦{家計|かけい}→家計：12287_kakei⟧⟦を→を：00422_wo⟧⟦{圧迫|あっぱく}→圧迫：12013_appaku⟧⟦している→する：00392_suru⟧。",
       "english": "Rising electricity costs are putting pressure on household finances.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11538_neagari_ex3",
-      "japanese": "{原材料|げんざいりょう}の{値上|ねあ}がりにより、{多|おお}くの{商品|しょうひん}の{価格|かかく}が{見直|みなお}されている。",
+      "japanese": "⟦{原材料|げんざいりょう}→原材料：18966_genzairyou⟧⟦の→の：09472_no⟧{値上|ねあ}がり⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、{多|おお}く⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{見直|みなお}されている→見直す：04579_minaosu⟧。",
       "english": "Due to the rise in raw material prices, the prices of many products are being reviewed.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "The opposite is {値下|ねさ}がり (price decrease). A related but different term is {値上|ねあ}げ (a deliberate price hike by a seller), whereas {値上|ねあ}がり describes the price going up on its own or from external factors.\n\nCOMMON COLLOCATIONS:\n- {値上|ねあ}がりが{続|つづ}く (prices continue to rise)\n- {大幅|おおはば}な{値上|ねあ}がり (significant price increase)\n- {株価|かぶか}の{値上|ねあ}がり (stock price appreciation)\n- {値上|ねあ}がりを{見込|みこ}む (expect prices to rise)",
+  "notes": "The opposite is ⟦{値下|ねさ}がり→値下がり：22228_nesagari⟧ (price decrease). A related but different term is ⟦{値上|ねあ}げ→値上げ：07582_neage⟧ (a deliberate price hike by a seller), whereas {値上|ねあ}がり describes the price going up on its own or from external factors.\n\nCOMMON COLLOCATIONS:\n- {値上|ねあ}がり⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (prices continue to rise)\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{値上|ねあ}がり (significant price increase)\n- ⟦{株価|かぶか}→株価：05154_kabuka⟧⟦の→の：09472_no⟧{値上|ねあ}がり (stock price appreciation)\n- {値上|ねあ}がり⟦を→を：00422_wo⟧⟦{見込|みこ}む→見込む：08315_mikomu⟧ (expect prices to rise)",
   "cross_references": [
     {
       "type": "antonym",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-02-17T02:57:34Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -169,7 +169,8 @@
       "semantic": [
         "economics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

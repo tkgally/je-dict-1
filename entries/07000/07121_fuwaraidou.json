@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07121_fuwaraidou_ex1",
-      "japanese": "{付和雷同|ふわらいどう}せずに{自分|じぶん}の{意見|いけん}を{持|も}つべきだ。",
+      "japanese": "{付和雷同|ふわらいどう}せず⟦に→に：00314_ni⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧べきだ。",
       "english": "You should have your own opinion instead of blindly following others.",
       "sense_numbers": [
         1
@@ -112,7 +112,7 @@
     },
     {
       "id": "07121_fuwaraidou_ex2",
-      "japanese": "{会議|かいぎ}では{付和雷同|ふわらいどう}する{人|ひと}が{多|おお}かった。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{付和雷同|ふわらいどう}⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}かった→多い：01127_ooi⟧。",
       "english": "There were many people at the meeting who just went along with the crowd.",
       "sense_numbers": [
         1
@@ -120,14 +120,14 @@
     },
     {
       "id": "07121_fuwaraidou_ex3",
-      "japanese": "{付和雷同|ふわらいどう}{的|てき}な{態度|たいど}は{危険|きけん}だ。",
+      "japanese": "{付和雷同|ふわらいどう}⟦{的|てき}→〜的：09839_teki⟧な⟦{態度|たいど}→態度：03396_taido⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "An attitude of blind conformity is dangerous.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "YOJIJUKUGO ({四字熟語|よじじゅくご}): This is a four-character compound idiom.\n\nWRITING:\n- {付|ふ} - to attach, follow\n- {和|わ} - harmony, to go along with\n- {雷|らい} - thunder\n- {同|どう} - same, together\n\nETYMOLOGY: The phrase suggests responding to thunder ({雷|らい}) by simply echoing ({同|どう}) others' reactions rather than thinking independently.\n\nCOMMON PATTERNS:\n- {付和雷同|ふわらいどう}する (to follow blindly)\n- {付和雷同|ふわらいどう}{的|てき} (conformist, herd-like)\n- {付和雷同|ふわらいどう}せず (without following blindly)\n\nNUANCE: This term is always negative, implying criticism of those who lack independent thinking or moral courage.\n\nSIMILAR WORDS:\n- {右|みぎ}に{倣|なら}え (follow the leader)\n- {長|なが}いものには{巻|ま}かれろ (don't fight the powerful - proverb)\n- {同調|どうちょう}する (to conform, to go along)",
+  "notes": "YOJIJUKUGO (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧): This is a four-character compound idiom.\n\nWRITING:\n- {付|ふ} - to attach, follow\n- {和|わ} - harmony, to go along with\n- {雷|らい} - thunder\n- ⟦{同|どう}→同〜：03962_dou⟧ - same, together\n\nETYMOLOGY: The phrase suggests responding to thunder ({雷|らい}) by simply echoing (⟦{同|どう}→同〜：03962_dou⟧) others' reactions rather than thinking independently.\n\nCOMMON PATTERNS:\n- {付和雷同|ふわらいどう}⟦する→する：00392_suru⟧ (to follow blindly)\n- {付和雷同|ふわらいどう}⟦{的|てき}→〜的：09839_teki⟧ (conformist, herd-like)\n- {付和雷同|ふわらいどう}せず (without following blindly)\n\nNUANCE: This term is always negative, implying criticism of those who lack independent thinking or moral courage.\n\nSIMILAR WORDS:\n- ⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧⟦{倣|なら}え→倣う：10395_narau⟧ (follow the leader)\n- ⟦{長|なが}い→長い：00491_nagai⟧もの⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{巻|ま}かれろ→巻く：02418_maku⟧ (don't fight the powerful - proverb)\n- ⟦{同調|どうちょう}→同調：07426_douchou⟧⟦する→する：00392_suru⟧ (to conform, to go along)",
   "cross_references": [
     {
       "type": "related",
@@ -139,7 +139,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T23:54:32Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +152,8 @@
       "semantic": [
         "idiom"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

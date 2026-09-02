@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "00550_asobu_ex1",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦は→は：00079_ha⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{遊|あそ}んでいます。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦は→は：00079_ha⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{遊|あそ}んで⟦います→いる：00495_iru⟧。",
       "english": "The children are playing in the park.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "00550_asobu_ex6",
-      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦と→と：00512_to⟧{遊|あそ}んでいた。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦と→と：00512_to⟧{遊|あそ}んで⟦いた→いる：00495_iru⟧。",
       "english": "I was playing with the dog.",
       "notes": null,
       "has_audio": false,
@@ -169,7 +169,7 @@
     },
     {
       "id": "00550_asobu_ex7",
-      "japanese": "⟦{砂場|すなば}→砂場：06326_sunaba⟧⟦で→で：00502_de⟧{遊|あそ}んでいる⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦{砂場|すなば}→砂場：06326_sunaba⟧⟦で→で：00502_de⟧{遊|あそ}んで⟦いる→いる：00495_iru⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are children playing in the sandbox.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No transitive pair. Pattern: Xで{遊|あそ}ぶ (play at X) or Xと{遊|あそ}ぶ (play with X).\n\nASPECT: ている indicates ongoing action. {遊|あそ}んでいる = 'is playing/hanging out.'\n\nCOMMON PATTERNS:\n- ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧{遊|あそ}ぶ (hang out with friends)\n- ⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{遊|あそ}ぶ (play in the park)\n- {遊|あそ}び⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (go to hang out/visit)\n- {遊|あそ}び⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧ (come to visit/hang out)\n\nThe {遊|あそ}びに pattern is extremely common for casual social visits.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No transitive pair. Pattern: X⟦で→で：00502_de⟧{遊|あそ}ぶ (play at X) or X⟦と→と：00512_to⟧{遊|あそ}ぶ (play with X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {遊|あそ}んで⟦いる→いる：00495_iru⟧ = 'is playing/hanging out.'\n\nCOMMON PATTERNS:\n- ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧{遊|あそ}ぶ (hang out with friends)\n- ⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{遊|あそ}ぶ (play in the park)\n- ⟦{遊|あそ}び→遊び：01285_asobi⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (go to hang out/visit)\n- ⟦{遊|あそ}び→遊び：01285_asobi⟧⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧ (come to visit/hang out)\n\nThe ⟦{遊|あそ}び→遊び：01285_asobi⟧⟦に→に：00314_ni⟧ pattern is extremely common for casual social visits.",
   "cross_references": [
     {
       "type": "related",
@@ -227,7 +227,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:08:58Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

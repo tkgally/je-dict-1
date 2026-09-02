@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17681_deforume_ex1",
-      "japanese": "デフォルメされたキャラクター。",
+      "japanese": "デフォルメ⟦された→する：00392_suru⟧⟦キャラクター→キャラクター：23518_kyarakutaa⟧。",
       "english": "A stylized/deformed character.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17681_deforume_ex2",
-      "japanese": "この{絵|え}は{動物|どうぶつ}をデフォルメして{描|えが}いている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{絵|え}→絵：02613_e⟧⟦は→は：00079_ha⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦を→を：00422_wo⟧デフォルメ⟦して→する：00392_suru⟧⟦{描|えが}いている→描く：02013_egaku⟧。",
       "english": "This picture depicts animals in a stylized way.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17681_deforume_ex3",
-      "japanese": "{頭|あたま}が{大|おお}きくて{体|からだ}が{小|ちい}さいデフォルメキャラは{日本|にほん}のグッズでよく{見|み}かける。",
+      "japanese": "⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦{大|おお}きくて→大きい：00335_ookii⟧⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧デフォルメ⟦キャラ→キャラ：08916_kyara⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦グッズ→グッズ：10800_guzzu⟧⟦で→で：00502_de⟧⟦よく→よく：00601_yoku⟧⟦{見|み}かける→見かける：01644_mikakeru⟧。",
       "english": "Stylized characters with big heads and small bodies are commonly seen on Japanese merchandise.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom French \"déformer\" (to deform). In Japanese, the word has taken on a positive, artistic connotation rather than the negative \"deformity\" meaning.\n\nMEANING IN CONTEXT:\nIn Japanese art terminology, デフォルメ refers to intentional, creative distortion — making characters cuter ({頭身|とうしん}を{低|ひく}くする, reducing the head-to-body ratio), exaggerating features for humor, or simplifying designs for merchandise. It does not carry the negative connotation of \"deformed\" in English.\n\nCOMMON COLLOCATIONS:\n- デフォルメキャラ: stylized/chibi character\n- デフォルメされた: stylized, artistically exaggerated\n- {二|に}{頭身|とうしん}デフォルメ: two-heads-tall deformation (chibi style)\n- デフォルメ{表現|ひょうげん}: stylized expression/depiction",
+  "notes": "ETYMOLOGY:\nFrom French \"déformer\" (to deform). In Japanese, the word has taken on a positive, artistic connotation rather than the negative \"deformity\" meaning.\n\nMEANING IN CONTEXT:\nIn Japanese art terminology, デフォルメ refers to intentional, creative distortion — making characters cuter ({頭身|とうしん}⟦を→を：00422_wo⟧⟦{低|ひく}く→低い：02947_hikui⟧⟦する→する：00392_suru⟧, reducing the head-to-body ratio), exaggerating features for humor, or simplifying designs for merchandise. It does not carry the negative connotation of \"deformed\" in English.\n\nCOMMON COLLOCATIONS:\n- デフォルメ⟦キャラ→キャラ：08916_kyara⟧: stylized/chibi character\n- デフォルメ⟦された→する：00392_suru⟧: stylized, artistically exaggerated\n- ⟦{二|に}→二：00736_ni⟧{頭身|とうしん}デフォルメ: two-heads-tall deformation (chibi style)\n- デフォルメ⟦{表現|ひょうげん}→表現：03584_hyougen⟧: stylized expression/depiction",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-12T11:47:02Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

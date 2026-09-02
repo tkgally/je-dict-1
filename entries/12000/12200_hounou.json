@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12200_hounou_ex1",
-      "japanese": "{神社|じんじゃ}に{絵馬|えま}を{奉納|ほうのう}した。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧⟦{絵馬|えま}→絵馬：05957_ema⟧⟦を→を：00422_wo⟧{奉納|ほうのう}⟦した→する：00392_suru⟧。",
       "english": "I offered a votive tablet at the shrine.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12200_hounou_ex2",
-      "japanese": "{秋祭|あきまつ}りでは{奉納|ほうのう}{相撲|ずもう}が{行|おこな}われる。",
+      "japanese": "{秋祭|あきまつ}り⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{奉納|ほうのう}{相撲|ずもう}⟦が→が：00051_ga⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "Dedication sumo wrestling is held at the autumn festival.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12200_hounou_ex3",
-      "japanese": "{地元|じもと}の{人々|ひとびと}が{収穫|しゅうかく}した{米|こめ}を{神様|かみさま}に{奉納|ほうのう}し、{豊作|ほうさく}への{感謝|かんしゃ}を{表|あらわ}した。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦が→が：00051_ga⟧⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧⟦した→する：00392_suru⟧⟦{米|こめ}→米：01323_kome⟧⟦を→を：00422_wo⟧⟦{神様|かみさま}→神様：00161_kamisama⟧⟦に→に：00314_ni⟧{奉納|ほうのう}し、⟦{豊作|ほうさく}→豊作：14227_housaku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦を→を：00422_wo⟧⟦{表|あらわ}した→表す：01868_arawasu⟧。",
       "english": "The local people offered harvested rice to the deity, expressing gratitude for the abundant harvest.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{奉納|ほうのう} is the act of making a religious offering to a Shinto or Buddhist deity.\n\nCOMMON COLLOCATIONS:\n- {奉納|ほうのう}する: to offer, to dedicate\n- {奉納|ほうのう}{舞|まい}: a sacred dance offering\n- {奉納|ほうのう}{相撲|ずもう}: dedication sumo\n- {奉納|ほうのう}{花火|はなび}: fireworks dedicated to a deity\n- {奉納|ほうのう}{品|ひん}: offering, votive object\n\nCULTURAL NOTE:\nOfferings can range from simple items like {酒|さけ} (sake), {米|こめ} (rice), and {果物|くだもの} (fruit) to elaborate performances like {神楽|かぐら} (sacred dance), {相撲|すもう} (sumo), and {弓道|きゅうどう} (archery). Many {祭|まつ}り (festivals) center around {奉納|ほうのう} performances.",
+  "notes": "{奉納|ほうのう} is the act of making a religious offering to a Shinto or Buddhist deity.\n\nCOMMON COLLOCATIONS:\n- {奉納|ほうのう}⟦する→する：00392_suru⟧: to offer, to dedicate\n- {奉納|ほうのう}{舞|まい}: a sacred dance offering\n- {奉納|ほうのう}{相撲|ずもう}: dedication sumo\n- {奉納|ほうのう}⟦{花火|はなび}→花火：00087_hanabi⟧: fireworks dedicated to a deity\n- {奉納|ほうのう}⟦{品|ひん}→品：03712_hin⟧: offering, votive object\n\nCULTURAL NOTE:\nOfferings can range from simple items like ⟦{酒|さけ}→酒：02211_sake⟧ (sake), ⟦{米|こめ}→米：01323_kome⟧ (rice), and ⟦{果物|くだもの}→果物：00509_kudamono⟧ (fruit) to elaborate performances like ⟦{神楽|かぐら}→神楽：14078_kagura⟧ (sacred dance), ⟦{相撲|すもう}→相撲：00390_sumou⟧ (sumo), and ⟦{弓道|きゅうどう}→弓道：04453_kyuudou⟧ (archery). Many ⟦{祭|まつ}り→祭り：03735_matsuri⟧ (festivals) center around {奉納|ほうのう} performances.",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T10:29:16Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "religion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

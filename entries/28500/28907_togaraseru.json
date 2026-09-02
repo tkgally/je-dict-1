@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28907_togaraseru_ex1",
-      "japanese": "{鉛筆|えんぴつ}を{尖|とが}らせる。",
+      "japanese": "⟦{鉛筆|えんぴつ}→鉛筆：00694_enpitsu⟧⟦を→を：00422_wo⟧{尖|とが}らせる。",
       "english": "To sharpen a pencil.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28907_togaraseru_ex2",
-      "japanese": "{弟|おとうと}は{口|くち}を{尖|とが}らせて{文句|もんく}を{言|い}った。",
+      "japanese": "⟦{弟|おとうと}→弟：00572_otouto⟧⟦は→は：00079_ha⟧⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧{尖|とが}らせて⟦{文句|もんく}→文句：03636_monku⟧⟦を→を：00422_wo⟧⟦{言|い}った→言う：00515_iu⟧。",
       "english": "My little brother pursed his lips and complained.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28907_togaraseru_ex3",
-      "japanese": "{試合|しあい}{前|まえ}の{選手|せんしゅ}たちは{神経|しんけい}を{尖|とが}らせていた。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧⟦{神経|しんけい}→神経：03257_shinkei⟧⟦を→を：00422_wo⟧{尖|とが}らせて⟦いた→いる：00495_iru⟧。",
       "english": "The players were on edge before the match.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The transitive/causative form of {尖|とが}る (to become pointed).\n\nTRANSITIVITY:\nTransitive (takes を). Pairs with intransitive {尖|とが}る.\n\nCOMMON COLLOCATIONS:\n- {鉛筆|えんぴつ}を{尖|とが}らせる: to sharpen a pencil\n- {口|くち}を{尖|とが}らせる: to pout; to purse one's lips (in displeasure)\n- {神経|しんけい}を{尖|とが}らせる: to be on edge; to be highly alert\n- {耳|みみ}を{尖|とが}らせる: to listen sharply\n\nUSAGE:\n{口|くち}を{尖|とが}らせる is the standard way to describe a sulky or complaining facial expression. {神経|しんけい}を{尖|とが}らせる describes heightened sensitivity or vigilance, often about a specific issue.",
+  "notes": "The transitive/causative form of ⟦{尖|とが}る→尖る：00405_togaru⟧ (to become pointed).\n\nTRANSITIVITY:\nTransitive (takes ⟦を→を：00422_wo⟧). Pairs with intransitive ⟦{尖|とが}る→尖る：00405_togaru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{鉛筆|えんぴつ}→鉛筆：00694_enpitsu⟧⟦を→を：00422_wo⟧{尖|とが}らせる: to sharpen a pencil\n- ⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧{尖|とが}らせる: to pout; to purse one's lips (in displeasure)\n- ⟦{神経|しんけい}→神経：03257_shinkei⟧⟦を→を：00422_wo⟧{尖|とが}らせる: to be on edge; to be highly alert\n- ⟦{耳|みみ}→耳：01513_mimi⟧⟦を→を：00422_wo⟧{尖|とが}らせる: to listen sharply\n\nUSAGE:\n⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧{尖|とが}らせる is the standard way to describe a sulky or complaining facial expression. ⟦{神経|しんけい}→神経：03257_shinkei⟧⟦を→を：00422_wo⟧{尖|とが}らせる describes heightened sensitivity or vigilance, often about a specific issue.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "ichidan",

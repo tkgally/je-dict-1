@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16461_suuchika_ex1",
-      "japanese": "{成果|せいか}を{数値化|すうちか}する。",
+      "japanese": "⟦{成果|せいか}→成果：06745_seika⟧⟦を→を：00422_wo⟧{数値化|すうちか}⟦する→する：00392_suru⟧。",
       "english": "To quantify results.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16461_suuchika_ex2",
-      "japanese": "{顧客|こきゃく}{満足度|まんぞくど}を{数値化|すうちか}して{比較|ひかく}する。",
+      "japanese": "⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧{満足度|まんぞくど}⟦を→を：00422_wo⟧{数値化|すうちか}⟦して→する：00392_suru⟧⟦{比較|ひかく}→比較：03576_hikaku⟧⟦する→する：00392_suru⟧。",
       "english": "To quantify and compare customer satisfaction.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16461_suuchika_ex3",
-      "japanese": "{感覚的|かんかくてき}な{判断|はんだん}ではなく、データを{数値化|すうちか}して{客観的|きゃっかんてき}に{評価|ひょうか}すべきだ。",
+      "japanese": "⟦{感覚的|かんかくてき}→感覚的：05744_kankakuteki⟧な⟦{判断|はんだん}→判断：03571_handan⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{数値化|すうちか}⟦して→する：00392_suru⟧⟦{客観的|きゃっかんてき}→客観的：05696_kyakkanteki⟧⟦に→に：00314_ni⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧すべきだ。",
       "english": "Rather than relying on intuitive judgment, we should quantify the data and evaluate objectively.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{数値化|すうちか} means expressing something in numerical form — making abstract or qualitative concepts measurable through data.\n\nFORMS:\n{数値|すうち} (numerical value) + {化|か} (-ification). The {化|か} suffix is productive and creates similar words:\n- {可視化|かしか}: visualization\n- {効率化|こうりつか}: streamlining\n- {最適化|さいてきか}: optimization\n\nCOMMON COLLOCATIONS:\n- {数値化|すうちか}する: to quantify\n- {数値化|すうちか}できる/できない: can/cannot be quantified\n- {数値化|すうちか}しにくい: difficult to quantify\n- {数値化|すうちか}して{比較|ひかく}する: to quantify and compare\n\nUSAGE:\nFrequently used in business and academic contexts where subjective assessments need to be made objective: {顧客|こきゃく}{満足度|まんぞくど}の{数値化|すうちか} (quantifying customer satisfaction), {成果|せいか}の{数値化|すうちか} (quantifying results).",
+  "notes": "{数値化|すうちか} means expressing something in numerical form — making abstract or qualitative concepts measurable through data.\n\nFORMS:\n⟦{数値|すうち}→数値：12913_suuchi⟧ (numerical value) + ⟦{化|か}→〜化：28335_ka⟧ (-ification). The ⟦{化|か}→〜化：28335_ka⟧ suffix is productive and creates similar words:\n- ⟦{可視化|かしか}→可視化：07644_kashika⟧: visualization\n- ⟦{効率化|こうりつか}→効率化：07565_kouritsuka⟧: streamlining\n- ⟦{最適化|さいてきか}→最適化：07567_saitekika⟧: optimization\n\nCOMMON COLLOCATIONS:\n- {数値化|すうちか}⟦する→する：00392_suru⟧: to quantify\n- {数値化|すうちか}⟦できる→できる：00557_dekiru⟧/⟦できない→できる：00557_dekiru⟧: can/cannot be quantified\n- {数値化|すうちか}しにくい: difficult to quantify\n- {数値化|すうちか}⟦して→する：00392_suru⟧⟦{比較|ひかく}→比較：03576_hikaku⟧⟦する→する：00392_suru⟧: to quantify and compare\n\nUSAGE:\nFrequently used in business and academic contexts where subjective assessments need to be made objective: ⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧{満足度|まんぞくど}⟦の→の：09472_no⟧{数値化|すうちか} (quantifying customer satisfaction), ⟦{成果|せいか}→成果：06745_seika⟧⟦の→の：09472_no⟧{数値化|すうちか} (quantifying results).",
   "cross_references": [
     {
       "type": "related",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-12T23:55:25Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -191,7 +191,8 @@
       "semantic": [
         "quantity"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

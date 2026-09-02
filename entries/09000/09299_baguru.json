@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "09299_baguru_ex1",
-      "japanese": "アプリがバグった。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦が→が：00051_ga⟧バグった。",
       "english": "The app glitched.",
       "has_audio": false,
       "sense_numbers": [
@@ -118,7 +118,7 @@
     },
     {
       "id": "09299_baguru_ex2",
-      "japanese": "パソコンがバグっている。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦が→が：00051_ga⟧バグって⟦いる→いる：00495_iru⟧。",
       "english": "My computer is malfunctioning.",
       "has_audio": false,
       "sense_numbers": [
@@ -127,7 +127,7 @@
     },
     {
       "id": "09299_baguru_ex3",
-      "japanese": "ゲームがバグって{進|すす}めなくなった。",
+      "japanese": "⟦ゲーム→ゲーム：03842_geemu⟧⟦が→が：00051_ga⟧バグって⟦{進|すす}めなく→進める：01949_susumeru⟧⟦なった→なる：01970_naru⟧。",
       "english": "The game glitched and I can't progress.",
       "has_audio": false,
       "sense_numbers": [
@@ -136,7 +136,7 @@
     },
     {
       "id": "09299_baguru_ex4",
-      "japanese": "{頭|あたま}がバグった。",
+      "japanese": "⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧バグった。",
       "english": "My brain went haywire.",
       "has_audio": false,
       "sense_numbers": [
@@ -145,7 +145,7 @@
     },
     {
       "id": "09299_baguru_ex5",
-      "japanese": "{睡眠|すいみん}{不足|ぶそく}でバグっている。",
+      "japanese": "⟦{睡眠|すいみん}{不足|ぶそく}→睡眠不足：08690_suiminbusoku⟧⟦で→で：00502_de⟧バグって⟦いる→いる：00495_iru⟧。",
       "english": "I'm acting weird from lack of sleep.",
       "has_audio": false,
       "sense_numbers": [
@@ -154,7 +154,7 @@
     },
     {
       "id": "09299_baguru_ex6",
-      "japanese": "{疲|つか}れすぎて{思考|しこう}がバグっている。",
+      "japanese": "⟦{疲|つか}れ→疲れる：00901_tsukareru⟧すぎて⟦{思考|しこう}→思考：10071_shikou⟧⟦が→が：00051_ga⟧バグって⟦いる→いる：00495_iru⟧。",
       "english": "I'm so tired my thinking has gone haywire.",
       "has_audio": false,
       "sense_numbers": [
@@ -162,10 +162,10 @@
       ]
     }
   ],
-  "notes": "バグる is derived from the English word \"bug\" (as in software bug). It's a verb formed by adding る to the loanword.\n\nREGISTER:\nThis is casual/colloquial language commonly used when talking about technology or figuratively about oneself. In formal contexts, use {不具合|ふぐあい}が{起|お}きる or {誤作動|ごさどう}する.\n\nCOMMON PATTERNS:\n- ～がバグる: something malfunctions\n- バグっている: to be malfunctioning (state)\n\nASPECT (ている):\nバグっている indicates an ongoing state of malfunction.",
+  "notes": "バグる is derived from the English word \"bug\" (as in software bug). It's a verb formed by adding る to the loanword.\n\nREGISTER:\nThis is casual/colloquial language commonly used when talking about technology or figuratively about oneself. In formal contexts, use ⟦{不具合|ふぐあい}→不具合：06413_fuguai⟧⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧ or ⟦{誤作動|ごさどう}→誤作動：18742_gosadou⟧⟦する→する：00392_suru⟧.\n\nCOMMON PATTERNS:\n- ～⟦が→が：00051_ga⟧バグる: something malfunctions\n- バグって⟦いる→いる：00495_iru⟧: to be malfunctioning (state)\n\nASPECT (ている):\nバグって⟦いる→いる：00495_iru⟧ indicates an ongoing state of malfunction.",
   "metadata": {
     "created": "2026-02-01T07:08:04Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -180,7 +180,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     }
   }
 }

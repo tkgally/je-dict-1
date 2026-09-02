@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14156_shuurai_ex1",
-      "japanese": "{台風|たいふう}が{襲来|しゅうらい}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧{襲来|しゅうらい}⟦した→する：00392_suru⟧。",
       "english": "A typhoon struck.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14156_shuurai_ex2",
-      "japanese": "{敵|てき}の{襲来|しゅうらい}に{備|そな}えて{防備|ぼうび}を{固|かた}めた。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{襲来|しゅうらい}⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧⟦{防備|ぼうび}→防備：24094_boubi⟧⟦を→を：00422_wo⟧⟦{固|かた}めた→固める：01929_katameru⟧。",
       "english": "They strengthened their defenses in preparation for an enemy attack.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14156_shuurai_ex3",
-      "japanese": "{元|げん}の{襲来|しゅうらい}は{日本|にほん}の{歴史|れきし}における{重要|じゅうよう}な{出来事|できごと}の{一|ひと}つだ。",
+      "japanese": "{元|げん}⟦の→の：09472_no⟧{襲来|しゅうらい}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦における→〜における：21802_niokeru⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{出来事|できごと}→出来事：03446_dekigoto⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "The Mongol invasions are one of the important events in Japanese history.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{襲来|しゅうらい} implies something coming at you with force from outside. It is commonly used for natural disasters ({台風|たいふう}の{襲来|しゅうらい}, {寒波|かんぱ}の{襲来|しゅうらい}) and historical military invasions. The word carries a dramatic, forceful tone. Historically, {元寇|げんこう} (the Mongol invasions of Japan) are often described using this word.\n\nCOMMON COLLOCATIONS:\n- {台風|たいふう}の{襲来|しゅうらい}: a typhoon striking\n- {敵|てき}の{襲来|しゅうらい}: enemy attack/invasion\n- {寒波|かんぱ}の{襲来|しゅうらい}: onset of a cold wave\n- {襲来|しゅうらい}に{備|そな}える: to prepare for an onslaught",
+  "notes": "USAGE:\n{襲来|しゅうらい} implies something coming at you with force from outside. It is commonly used for natural disasters (⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧{襲来|しゅうらい}, ⟦{寒波|かんぱ}→寒波：12354_kanpa⟧⟦の→の：09472_no⟧{襲来|しゅうらい}) and historical military invasions. The word carries a dramatic, forceful tone. Historically, {元寇|げんこう} (the Mongol invasions of Japan) are often described using this word.\n\nCOMMON COLLOCATIONS:\n- ⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧{襲来|しゅうらい}: a typhoon striking\n- ⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{襲来|しゅうらい}: enemy attack/invasion\n- ⟦{寒波|かんぱ}→寒波：12354_kanpa⟧⟦の→の：09472_no⟧{襲来|しゅうらい}: onset of a cold wave\n- {襲来|しゅうらい}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧: to prepare for an onslaught",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-28T01:48:24Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

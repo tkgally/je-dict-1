@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12919_tansaku_ex1",
-      "japanese": "{洞窟|どうくつ}を{探索|たんさく}する。",
+      "japanese": "⟦{洞窟|どうくつ}→洞窟：05038_doukutsu⟧⟦を→を：00422_wo⟧{探索|たんさく}⟦する→する：00392_suru⟧。",
       "english": "To explore a cave.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12919_tansaku_ex2",
-      "japanese": "{警察|けいさつ}が{犯人|はんにん}の{探索|たんさく}を{続|つづ}けている。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧{探索|たんさく}⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "The police are continuing the search for the criminal.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12919_tansaku_ex3",
-      "japanese": "インターネットで{情報|じょうほう}を{探索|たんさく}するのが{日課|にっか}になっている。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦で→で：00502_de⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{探索|たんさく}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{日課|にっか}→日課：00317_nikka⟧になっている。",
       "english": "Searching for information on the internet has become part of my daily routine.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Implies a more systematic or thorough search than simply {探|さが}す (to look for). Often used for organized searches, investigations, or exploration of unfamiliar territory.\n\nCOMMON COLLOCATIONS:\n- {探索|たんさく}する: to search, to explore\n- {探索|たんさく}{活動|かつどう}: search activity\n- {探索|たんさく}{隊|たい}: search party, exploration team\n- {宇宙|うちゅう}{探索|たんさく}: space exploration\n\nSIMILAR WORDS:\n- {捜索|そうさく}: search (for missing persons/evidence, often by authorities)\n- {探検|たんけん}: expedition, exploration (of uncharted places)",
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Implies a more systematic or thorough search than simply ⟦{探|さが}す→探す：00493_sagasu⟧ (to look for). Often used for organized searches, investigations, or exploration of unfamiliar territory.\n\nCOMMON COLLOCATIONS:\n- {探索|たんさく}⟦する→する：00392_suru⟧: to search, to explore\n- {探索|たんさく}⟦{活動|かつどう}→活動：00201_katsudou⟧: search activity\n- {探索|たんさく}⟦{隊|たい}→隊：03383_tai⟧: search party, exploration team\n- ⟦{宇宙|うちゅう}→宇宙：01861_uchuu⟧{探索|たんさく}: space exploration\n\nSIMILAR WORDS:\n- ⟦{捜索|そうさく}→捜索：19220_sousaku⟧: search (for missing persons/evidence, often by authorities)\n- ⟦{探検|たんけん}→探検：17461_tanken⟧: expedition, exploration (of uncharted places)",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T22:55:53Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

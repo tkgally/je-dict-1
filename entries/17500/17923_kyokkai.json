@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17923_kyokkai_ex1",
-      "japanese": "{私|わたし}の{発言|はつげん}を{曲解|きょっかい}しないでほしい。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{曲解|きょっかい}⟦しないで→する：00392_suru⟧ほしい。",
       "english": "I don't want you to misinterpret what I said.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17923_kyokkai_ex2",
-      "japanese": "メディアが{政治家|せいじか}の{言葉|ことば}を{曲解|きょっかい}して{報道|ほうどう}した。",
+      "japanese": "⟦メディア→メディア：11165_media⟧⟦が→が：00051_ga⟧⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧{曲解|きょっかい}⟦して→する：00392_suru⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦した→する：00392_suru⟧。",
       "english": "The media reported the politician's words in a distorted way.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17923_kyokkai_ex3",
-      "japanese": "{相手|あいて}の{意図|いと}を{曲解|きょっかい}すると、{不要|ふよう}なトラブルを{招|まね}くことになる。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{意図|いと}→意図：12625_ito⟧⟦を→を：00422_wo⟧{曲解|きょっかい}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{不要|ふよう}→不要：02527_fuyou⟧な⟦トラブル→トラブル：07061_toraburu⟧⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧こと⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you misinterpret the other person's intentions, it will lead to unnecessary trouble.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nStronger than {誤解|ごかい} (misunderstanding), which can be innocent. {曲解|きょっかい} implies a willful or biased twisting of meaning. The kanji {曲|きょく} means 'bend' or 'twist,' reflecting the distortion involved.\n\nCOMMON COLLOCATIONS:\n- {曲解|きょっかい}する (to misinterpret)\n- {曲解|きょっかい}を{招|まね}く (to invite misinterpretation)\n- {意味|いみ}を{曲解|きょっかい}する (to distort the meaning)\n\nSIMILAR WORDS:\n- {誤解|ごかい}: misunderstanding — neutral; can be accidental\n- {歪曲|わいきょく}: distortion, falsification — even stronger; implies deliberate falsification of facts",
+  "notes": "USAGE:\nStronger than ⟦{誤解|ごかい}→誤解：02769_gokai⟧ (misunderstanding), which can be innocent. {曲解|きょっかい} implies a willful or biased twisting of meaning. The kanji ⟦{曲|きょく}→曲：09881_kyoku⟧ means 'bend' or 'twist,' reflecting the distortion involved.\n\nCOMMON COLLOCATIONS:\n- {曲解|きょっかい}⟦する→する：00392_suru⟧ (to misinterpret)\n- {曲解|きょっかい}⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧ (to invite misinterpretation)\n- ⟦{意味|いみ}→意味：01155_imi⟧⟦を→を：00422_wo⟧{曲解|きょっかい}⟦する→する：00392_suru⟧ (to distort the meaning)\n\nSIMILAR WORDS:\n- ⟦{誤解|ごかい}→誤解：02769_gokai⟧: misunderstanding — neutral; can be accidental\n- ⟦{歪曲|わいきょく}→歪曲：07968_waikyoku⟧: distortion, falsification — even stronger; implies deliberate falsification of facts",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-19T09:13:07Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -174,7 +174,8 @@
         "communication"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

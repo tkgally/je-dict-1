@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16295_hyoumenka_ex1",
-      "japanese": "{問題|もんだい}が{表面化|ひょうめんか}した。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{表面化|ひょうめんか}⟦した→する：00392_suru⟧。",
       "english": "The problem came to the surface.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16295_hyoumenka_ex2",
-      "japanese": "{社内|しゃない}の{対立|たいりつ}がついに{表面化|ひょうめんか}した。",
+      "japanese": "⟦{社内|しゃない}→社内：13731_shanai⟧⟦の→の：09472_no⟧⟦{対立|たいりつ}→対立：04500_tairitsu⟧⟦が→が：00051_ga⟧ついに{表面化|ひょうめんか}⟦した→する：00392_suru⟧。",
       "english": "The internal conflicts within the company finally came out into the open.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16295_hyoumenka_ex3",
-      "japanese": "{長年|ながねん}{隠|かく}されてきた{不正|ふせい}が{内部告発|ないぶこくはつ}によって{表面化|ひょうめんか}した。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{隠|かく}されて→隠す：02034_kakusu⟧きた⟦{不正|ふせい}→不正：01660_fusei⟧⟦が→が：00051_ga⟧⟦{内部告発|ないぶこくはつ}→内部告発：24691_naibukokuhatsu⟧⟦によって→によって：06801_niyotte⟧{表面化|ひょうめんか}⟦した→する：00392_suru⟧。",
       "english": "Fraud that had been concealed for years was brought to light by a whistleblower.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{表面化|ひょうめんか} is used when something previously hidden or latent becomes visible or publicly known. It nearly always refers to negative things — problems, conflicts, scandals, or deficiencies. Rarely used for positive developments.\n\nCOMMON PATTERNS:\n- {問題|もんだい}が{表面化|ひょうめんか}する (a problem comes to the surface)\n- {対立|たいりつ}が{表面化|ひょうめんか}する (a conflict becomes apparent)\n\nCOMMON COLLOCATIONS:\n- {問題|もんだい}の{表面化|ひょうめんか} (emergence of a problem)\n- {矛盾|むじゅん}が{表面化|ひょうめんか}する (contradictions come to light)\n- {表面化|ひょうめんか}を{防|ふせ}ぐ (to prevent something from coming to light)\n\nSIMILAR WORDS:\n{露呈|ろてい}する means \"to be exposed\" with a stronger nuance of revealing something embarrassing. {発覚|はっかく}する means \"to be discovered\" and is used for wrongdoing or secrets. {表面化|ひょうめんか} focuses on the gradual process of becoming apparent.",
+  "notes": "USAGE:\n{表面化|ひょうめんか} is used when something previously hidden or latent becomes visible or publicly known. It nearly always refers to negative things — problems, conflicts, scandals, or deficiencies. Rarely used for positive developments.\n\nCOMMON PATTERNS:\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{表面化|ひょうめんか}⟦する→する：00392_suru⟧ (a problem comes to the surface)\n- ⟦{対立|たいりつ}→対立：04500_tairitsu⟧⟦が→が：00051_ga⟧{表面化|ひょうめんか}⟦する→する：00392_suru⟧ (a conflict becomes apparent)\n\nCOMMON COLLOCATIONS:\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{表面化|ひょうめんか} (emergence of a problem)\n- ⟦{矛盾|むじゅん}→矛盾：05215_mujun⟧⟦が→が：00051_ga⟧{表面化|ひょうめんか}⟦する→する：00392_suru⟧ (contradictions come to light)\n- {表面化|ひょうめんか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent something from coming to light)\n\nSIMILAR WORDS:\n⟦{露呈|ろてい}する→露呈する：17187_roteisuru⟧ means \"to be exposed\" with a stronger nuance of revealing something embarrassing. ⟦{発覚|はっかく}する→発覚する：15423_hakkakusuru⟧ means \"to be discovered\" and is used for wrongdoing or secrets. {表面化|ひょうめんか} focuses on the gradual process of becoming apparent.",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-11T14:04:32Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

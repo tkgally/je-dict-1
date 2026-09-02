@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12820_sakushu_ex1",
-      "japanese": "{労働者|ろうどうしゃ}を{搾取|さくしゅ}する。",
+      "japanese": "⟦{労働者|ろうどうしゃ}→労働者：23971_roudousha⟧⟦を→を：00422_wo⟧{搾取|さくしゅ}⟦する→する：00392_suru⟧。",
       "english": "To exploit workers.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12820_sakushu_ex2",
-      "japanese": "{低賃金|ていちんぎん}で{働|はたら}かせるのは{搾取|さくしゅ}だ。",
+      "japanese": "{低賃金|ていちんぎん}⟦で→で：00502_de⟧⟦{働|はたら}かせる→働く：00503_hataraku⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{搾取|さくしゅ}だ。",
       "english": "Making people work for low wages is exploitation.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12820_sakushu_ex3",
-      "japanese": "{発展途上国|はってんとじょうこく}の{資源|しげん}が{搾取|さくしゅ}されてきた{歴史|れきし}がある。",
+      "japanese": "⟦{発展途上国|はってんとじょうこく}→発展途上国：22732_hattentojoukoku⟧⟦の→の：09472_no⟧⟦{資源|しげん}→資源：03167_shigen⟧⟦が→が：00051_ga⟧{搾取|さくしゅ}⟦されて→する：00392_suru⟧きた⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a history of developing countries having their resources exploited.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{搾取|さくしゅ} carries a strongly negative, critical nuance. It is commonly used in political, economic, and social justice contexts. The word derives from the idea of \"squeezing\" (like wringing juice from fruit), applied metaphorically to extracting value from people.\n\nCOMMON COLLOCATIONS:\n- {労働|ろうどう}{搾取|さくしゅ}: labor exploitation\n- {搾取|さくしゅ}{構造|こうぞう}: exploitative structure\n- {搾取|さくしゅ}される: to be exploited (passive)\n- {富|とみ}を{搾取|さくしゅ}する: to exploit wealth/resources",
+  "notes": "USAGE:\n{搾取|さくしゅ} carries a strongly negative, critical nuance. It is commonly used in political, economic, and social justice contexts. The word derives from the idea of \"squeezing\" (like wringing juice from fruit), applied metaphorically to extracting value from people.\n\nCOMMON COLLOCATIONS:\n- ⟦{労働|ろうどう}→労働：03785_roudou⟧{搾取|さくしゅ}: labor exploitation\n- {搾取|さくしゅ}⟦{構造|こうぞう}→構造：02730_kouzou⟧: exploitative structure\n- {搾取|さくしゅ}⟦される→する：00392_suru⟧: to be exploited (passive)\n- ⟦{富|とみ}→富：12321_tomi⟧⟦を→を：00422_wo⟧{搾取|さくしゅ}⟦する→する：00392_suru⟧: to exploit wealth/resources",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T11:09:54Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

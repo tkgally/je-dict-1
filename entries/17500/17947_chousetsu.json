@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17947_chousetsu_ex1",
-      "japanese": "{温度|おんど}を{調節|ちょうせつ}する。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧{調節|ちょうせつ}⟦する→する：00392_suru⟧。",
       "english": "Adjust the temperature.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17947_chousetsu_ex2",
-      "japanese": "エアコンで{室温|しつおん}を{調節|ちょうせつ}している。",
+      "japanese": "⟦エアコン→エアコン：05282_eakon⟧⟦で→で：00502_de⟧⟦{室温|しつおん}→室温：25310_shitsuon⟧⟦を→を：00422_wo⟧{調節|ちょうせつ}⟦している→する：00392_suru⟧。",
       "english": "I'm regulating the room temperature with the air conditioner.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17947_chousetsu_ex3",
-      "japanese": "{椅子|いす}の{高|たか}さを{自分|じぶん}の{体|からだ}に{合|あ}うように{調節|ちょうせつ}した。",
+      "japanese": "⟦{椅子|いす}→椅子：00706_isu⟧⟦の→の：09472_no⟧⟦{高|たか}さ→高さ：05327_takasa⟧⟦を→を：00422_wo⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{合|あ}う→合う：10466_au⟧よう⟦に→に：00314_ni⟧{調節|ちょうせつ}⟦した→する：00392_suru⟧。",
       "english": "I adjusted the height of the chair to fit my body.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed broadly for adjusting physical settings, quantities, or conditions to an appropriate level. Unlike {調整|ちょうせい}, which implies bringing something into proper alignment or coordination, {調節|ちょうせつ} focuses on controlling a variable to the desired degree.\n\nCOMMON COLLOCATIONS:\n- {温度|おんど}{調節|ちょうせつ} (temperature regulation)\n- {光量|こうりょう}の{調節|ちょうせつ} (light adjustment)\n- {体温|たいおん}を{調節|ちょうせつ}する (regulate body temperature)\n- {速度|そくど}を{調節|ちょうせつ}する (adjust speed)\n\nSIMILAR WORDS:\n- {調整|ちょうせい}: adjustment — implies coordinating or fine-tuning to bring into balance, often used for schedules, systems, or interpersonal coordination\n- {制御|せいぎょ}: control — stronger, more technical term for managing or governing a system",
+  "notes": "USAGE:\nUsed broadly for adjusting physical settings, quantities, or conditions to an appropriate level. Unlike ⟦{調整|ちょうせい}→調整：14839_chousei⟧, which implies bringing something into proper alignment or coordination, {調節|ちょうせつ} focuses on controlling a variable to the desired degree.\n\nCOMMON COLLOCATIONS:\n- ⟦{温度|おんど}→温度：00333_ondo⟧{調節|ちょうせつ} (temperature regulation)\n- {光量|こうりょう}⟦の→の：09472_no⟧{調節|ちょうせつ} (light adjustment)\n- ⟦{体温|たいおん}→体温：03385_taion⟧⟦を→を：00422_wo⟧{調節|ちょうせつ}⟦する→する：00392_suru⟧ (regulate body temperature)\n- ⟦{速度|そくど}→速度：03319_sokudo⟧⟦を→を：00422_wo⟧{調節|ちょうせつ}⟦する→する：00392_suru⟧ (adjust speed)\n\nSIMILAR WORDS:\n- ⟦{調整|ちょうせい}→調整：14839_chousei⟧: adjustment — implies coordinating or fine-tuning to bring into balance, often used for schedules, systems, or interpersonal coordination\n- ⟦{制御|せいぎょ}→制御：11816_seigyo⟧: control — stronger, more technical term for managing or governing a system",
   "cross_references": [
     {
       "type": "synonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-19T09:56:33Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

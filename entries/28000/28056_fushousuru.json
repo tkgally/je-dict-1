@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28056_fushousuru_ex1",
-      "japanese": "{事故|じこ}で{負傷|ふしょう}する。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧{負傷|ふしょう}する。",
       "english": "To be injured in an accident.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28056_fushousuru_ex2",
-      "japanese": "その{選手|せんしゅ}は{試合中|しあいちゅう}に{負傷|ふしょう}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧{試合中|しあいちゅう}⟦に→に：00314_ni⟧{負傷|ふしょう}した。",
       "english": "The player was injured during the match.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28056_fushousuru_ex3",
-      "japanese": "{地震|じしん}で{多|おお}くの{人|ひと}が{負傷|ふしょう}し、{病院|びょういん}に{運|はこ}ばれた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{負傷|ふしょう}し、⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{運|はこ}ばれた→運ぶ：01088_hakobu⟧。",
       "english": "Many people were injured in the earthquake and taken to the hospital.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Intransitive suru verb. Xが{負傷|ふしょう}する. The noun {負傷|ふしょう} also stands alone.\n\nFormal; common in news reports. Everyday speech uses けがをする.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}で{負傷|ふしょう}する: to be injured in an accident\n- {負傷者|ふしょうしゃ}: an injured person; casualty\n\nSIMILAR WORDS:\n- けがをする: to get hurt — everyday and neutral\n- {重傷|じゅうしょう}を{負|お}う: to be seriously injured",
+  "notes": "TRANSITIVITY: Intransitive suru verb. X⟦が→が：00051_ga⟧{負傷|ふしょう}する. The noun ⟦{負傷|ふしょう}→負傷：15287_fushou⟧ also stands alone.\n\nFormal; common in news reports. Everyday speech uses ⟦けが→けが：00787_kega⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧{負傷|ふしょう}する: to be injured in an accident\n- ⟦{負傷者|ふしょうしゃ}→負傷者：27169_fushousha⟧: an injured person; casualty\n\nSIMILAR WORDS:\n- ⟦けが→けが：00787_kega⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to get hurt — everyday and neutral\n- ⟦{重傷|じゅうしょう}→重傷：14414_juushou⟧⟦を→を：00422_wo⟧⟦{負|お}う→負う：02017_ou⟧: to be seriously injured",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,10 +60,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-09-02T02:55:16Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "suru",

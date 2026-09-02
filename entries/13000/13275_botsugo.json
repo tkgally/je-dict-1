@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13275_botsugo_ex1",
-      "japanese": "{没後|ぼつご}{十|じゅう}{年|ねん}が{経|た}った。",
+      "japanese": "{没後|ぼつご}⟦{十|じゅう}→十：00708_juu⟧⟦{年|ねん}→年：09876_nen⟧⟦が→が：00051_ga⟧⟦{経|た}った→経つ：09892_tatsu⟧。",
       "english": "Ten years have passed since their death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13275_botsugo_ex2",
-      "japanese": "その{画家|がか}は{没後|ぼつご}に{評価|ひょうか}が{高|たか}まった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{画家|がか}→画家：02583_gaka⟧⟦は→は：00079_ha⟧{没後|ぼつご}⟦に→に：00314_ni⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦が→が：00051_ga⟧⟦{高|たか}まった→高まる：02066_takamaru⟧。",
       "english": "The painter's reputation grew after their death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13275_botsugo_ex3",
-      "japanese": "{作家|さっか}の{没後|ぼつご}、{未発表|みはっぴょう}の{原稿|げんこう}が{遺族|いぞく}によって{発見|はっけん}された。",
+      "japanese": "⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧{没後|ぼつご}、⟦{未発表|みはっぴょう}→未発表：24845_mihappyou⟧⟦の→の：09472_no⟧⟦{原稿|げんこう}→原稿：00064_genkou⟧⟦が→が：00051_ga⟧⟦{遺族|いぞく}→遺族：14886_izoku⟧⟦によって→によって：06801_niyotte⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "After the author's death, unpublished manuscripts were discovered by the family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{没後|ぼつご} is the formal/written counterpart of {死後|しご} (after death). While {死後|しご} is more general and direct, {没後|ぼつご} is more respectful and commonly used in biographical and artistic contexts. The opposite is {生前|せいぜん} (during one's lifetime). {没後|ぼつご} + a number of years is a standard way to express how long ago someone died (e.g., {没後|ぼつご}{百|ひゃく}{年|ねん}, one hundred years after death).\n\nCOMMON COLLOCATIONS:\n- {没後|ぼつご}～{年|ねん}: ~ years after death\n- {没後|ぼつご}に{評価|ひょうか}される: to be recognized posthumously\n- {没後|ぼつご}の{作品|さくひん}: posthumous works\n- {没後|ぼつご}{出版|しゅっぱん}: posthumous publication",
+  "notes": "USAGE:\n{没後|ぼつご} is the formal/written counterpart of ⟦{死後|しご}→死後：21150_shigo⟧ (after death). While ⟦{死後|しご}→死後：21150_shigo⟧ is more general and direct, {没後|ぼつご} is more respectful and commonly used in biographical and artistic contexts. The opposite is ⟦{生前|せいぜん}→生前：16391_seizen⟧ (during one's lifetime). {没後|ぼつご} + a number of years is a standard way to express how long ago someone died (e.g., {没後|ぼつご}⟦{百|ひゃく}{年|ねん}→百年：28401_hyakunen⟧, one hundred years after death).\n\nCOMMON COLLOCATIONS:\n- {没後|ぼつご}～⟦{年|ねん}→年：09876_nen⟧: ~ years after death\n- {没後|ぼつご}⟦に→に：00314_ni⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦される→する：00392_suru⟧: to be recognized posthumously\n- {没後|ぼつご}⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧: posthumous works\n- {没後|ぼつご}⟦{出版|しゅっぱん}→出版：03222_shuppan⟧: posthumous publication",
   "cross_references": [
     {
       "type": "synonym",
@@ -50,14 +56,18 @@
   ],
   "metadata": {
     "created": "2026-02-24T07:33:28Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

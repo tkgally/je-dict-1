@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11948_juyou_ex1",
-      "japanese": "{現実|げんじつ}を{受容|じゅよう}する。",
+      "japanese": "⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦を→を：00422_wo⟧{受容|じゅよう}⟦する→する：00392_suru⟧。",
       "english": "Accept reality.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11948_juyou_ex2",
-      "japanese": "{異文化|いぶんか}の{受容|じゅよう}には{時間|じかん}がかかる。",
+      "japanese": "⟦{異文化|いぶんか}→異文化：15703_ibunka⟧⟦の→の：09472_no⟧{受容|じゅよう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "Accepting a foreign culture takes time.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11948_juyou_ex3",
-      "japanese": "{悲|かな}しみの{受容|じゅよう}は{回復|かいふく}への{第一歩|だいいっぽ}だ。",
+      "japanese": "⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧⟦の→の：09472_no⟧{受容|じゅよう}⟦は→は：00079_ha⟧⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{第一歩|だいいっぽ}→第一歩：09671_daiippo⟧だ。",
       "english": "Acceptance of grief is the first step toward recovery.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {受容|じゅよう}{体|たい} (receptor — biology/medicine)\n- {自己|じこ}{受容|じゅよう} (self-acceptance)\n- {文化|ぶんか}の{受容|じゅよう} (cultural reception/acceptance)\n- {受容|じゅよう}と{拒絶|きょぜつ} (acceptance and rejection)\n\nSIMILAR WORDS:\nThe homophone {需要|じゅよう} (demand, as in supply and demand) is a completely different word. {受容|じゅよう} focuses on accepting or embracing something. Compared to {受|う}け{入|い}れる (to accept), {受容|じゅよう} is more formal and academic, often appearing in psychology, philosophy, and cultural studies.",
+  "notes": "COMMON COLLOCATIONS:\n- {受容|じゅよう}{体|たい} (receptor — biology/medicine)\n- ⟦{自己|じこ}→自己：23357_jiko⟧{受容|じゅよう} (self-acceptance)\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧{受容|じゅよう} (cultural reception/acceptance)\n- {受容|じゅよう}⟦と→と：00512_to⟧⟦{拒絶|きょぜつ}→拒絶：12788_kyozetsu⟧ (acceptance and rejection)\n\nSIMILAR WORDS:\nThe homophone ⟦{需要|じゅよう}→需要：02616_juyou⟧ (demand, as in supply and demand) is a completely different word. {受容|じゅよう} focuses on accepting or embracing something. Compared to ⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧ (to accept), {受容|じゅよう} is more formal and academic, often appearing in psychology, philosophy, and cultural studies.",
   "cross_references": [
     {
       "type": "contrast",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-02-19T10:52:21Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -166,7 +166,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

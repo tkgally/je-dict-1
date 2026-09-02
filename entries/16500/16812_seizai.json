@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16812_seizai_ex1",
-      "japanese": "{丸太|まるた}を{製材|せいざい}する。",
+      "japanese": "⟦{丸太|まるた}→丸太：15347_maruta⟧⟦を→を：00422_wo⟧{製材|せいざい}⟦する→する：00392_suru⟧。",
       "english": "To saw a log into lumber.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16812_seizai_ex2",
-      "japanese": "この{町|まち}には{古|ふる}い{製材|せいざい}{所|じょ}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧{製材|せいざい}{所|じょ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's an old sawmill in this town.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16812_seizai_ex3",
-      "japanese": "{国産|こくさん}の{木材|もくざい}を{使|つか}った{製材|せいざい}が{見直|みなお}されている。",
+      "japanese": "⟦{国産|こくさん}→国産：12017_kokusan⟧⟦の→の：09472_no⟧⟦{木材|もくざい}→木材：13017_mokuzai⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧{製材|せいざい}⟦が→が：00051_ga⟧⟦{見直|みなお}されている→見直す：04579_minaosu⟧。",
       "english": "The milling of domestically produced timber is being reevaluated.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "The process of cutting logs into usable boards, planks, and lumber.\n\nFORMS:\n{製|せい} (manufacture, process) + {材|ざい} (material, timber)\n\nCOMMON COLLOCATIONS:\n- {製材|せいざい}{所|じょ}: sawmill\n- {製材|せいざい}{業|ぎょう}: lumber industry\n- {製材|せいざい}{品|ひん}: sawn lumber products\n- {丸太|まるた}を{製材|せいざい}する: to saw a log into lumber\n\nRELATED WORDS:\n- {木材|もくざい}: timber, lumber (the finished product)\n- {丸太|まるた}: log (raw, unprocessed)\n- {合板|ごうはん}: plywood\n- {林業|りんぎょう}: forestry industry\n\nCULTURAL NOTE:\nJapan has a significant domestic timber industry. Famous production regions include {吉野|よしの} (Nara), {秋田|あきた}, and {北海道|ほっかいどう}.",
+  "notes": "The process of cutting logs into usable boards, planks, and lumber.\n\nFORMS:\n⟦{製|せい}→〜製：02001_sei⟧ (manufacture, process) + ⟦{材|ざい}→〜材：28347_zai⟧ (material, timber)\n\nCOMMON COLLOCATIONS:\n- {製材|せいざい}{所|じょ}: sawmill\n- {製材|せいざい}{業|ぎょう}: lumber industry\n- {製材|せいざい}⟦{品|ひん}→品：03712_hin⟧: sawn lumber products\n- ⟦{丸太|まるた}→丸太：15347_maruta⟧⟦を→を：00422_wo⟧{製材|せいざい}⟦する→する：00392_suru⟧: to saw a log into lumber\n\nRELATED WORDS:\n- ⟦{木材|もくざい}→木材：13017_mokuzai⟧: timber, lumber (the finished product)\n- ⟦{丸太|まるた}→丸太：15347_maruta⟧: log (raw, unprocessed)\n- {合板|ごうはん}: plywood\n- ⟦{林業|りんぎょう}→林業：20271_ringyou⟧: forestry industry\n\nCULTURAL NOTE:\nJapan has a significant domestic timber industry. Famous production regions include {吉野|よしの} (Nara), {秋田|あきた}, and ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧.",
   "cross_references": [
     {
       "type": "related",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -174,7 +174,8 @@
         "industry",
         "material"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

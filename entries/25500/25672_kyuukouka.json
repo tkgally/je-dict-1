@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25672_kyuukouka_ex1",
-      "japanese": "{飛行機|ひこうき}が{急降下|きゅうこうか}した。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{急降下|きゅうこうか}⟦した→する：00392_suru⟧。",
       "english": "The airplane went into a nosedive.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25672_kyuukouka_ex2",
-      "japanese": "{気温|きおん}が{急降下|きゅうこうか}して{真冬|まふゆ}のような{寒|さむ}さになった。",
+      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{急降下|きゅうこうか}⟦して→する：00392_suru⟧⟦{真冬|まふゆ}→真冬：20587_mafuyu⟧⟦の→の：09472_no⟧ような⟦{寒|さむ}さ→寒さ：12336_samusa⟧になった。",
       "english": "The temperature plummeted and it became as cold as midwinter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25672_kyuukouka_ex3",
-      "japanese": "スキャンダルの{影響|えいきょう}で{支持率|しじりつ}が{急降下|きゅうこうか}し、{政権|せいけん}は{危機|きき}に{陥|おちい}った。",
+      "japanese": "スキャンダル⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{支持率|しじりつ}→支持率：17086_shijiritsu⟧⟦が→が：00051_ga⟧{急降下|きゅうこうか}し、⟦{政権|せいけん}→政権：12883_seiken⟧⟦は→は：00079_ha⟧⟦{危機|きき}→危機：11798_kiki⟧⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧。",
       "english": "The approval rating plunged due to the scandal, and the administration fell into crisis.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {急|きゅう} (sudden, rapid) and {降下|こうか} (descent, drop). Functions as both a noun and a suru verb ({急降下|きゅうこうか}する). Originally an aviation term for a steep dive, now widely used figuratively.\n\nCOMMON COLLOCATIONS:\n- {気温|きおん}の{急降下|きゅうこうか}: sharp drop in temperature\n- {支持率|しじりつ}の{急降下|きゅうこうか}: plunge in approval ratings\n- {急降下|きゅうこうか}{爆撃|ばくげき}: dive bombing\n- {株価|かぶか}が{急降下|きゅうこうか}する: stock prices plunge\n\nSIMILAR WORDS:\n- {急落|きゅうらく}: sharp fall — used mainly for prices and numerical values\n- {暴落|ぼうらく}: crash, collapse — even more dramatic, implies a devastating drop\n- {急上昇|きゅうじょうしょう}: sharp rise — the opposite, a sudden increase",
+  "notes": "A compound of ⟦{急|きゅう}→急：13042_kyuu⟧ (sudden, rapid) and ⟦{降下|こうか}→降下：21547_kouka⟧ (descent, drop). Functions as both a noun and a suru verb ({急降下|きゅうこうか}⟦する→する：00392_suru⟧). Originally an aviation term for a steep dive, now widely used figuratively.\n\nCOMMON COLLOCATIONS:\n- ⟦{気温|きおん}→気温：00235_kion⟧⟦の→の：09472_no⟧{急降下|きゅうこうか}: sharp drop in temperature\n- ⟦{支持率|しじりつ}→支持率：17086_shijiritsu⟧⟦の→の：09472_no⟧{急降下|きゅうこうか}: plunge in approval ratings\n- {急降下|きゅうこうか}⟦{爆撃|ばくげき}→爆撃：13584_bakugeki⟧: dive bombing\n- ⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{急降下|きゅうこうか}⟦する→する：00392_suru⟧: stock prices plunge\n\nSIMILAR WORDS:\n- ⟦{急落|きゅうらく}→急落：09399_kyuuraku⟧: sharp fall — used mainly for prices and numerical values\n- ⟦{暴落|ぼうらく}→暴落：09401_bouraku⟧: crash, collapse — even more dramatic, implies a devastating drop\n- ⟦{急上昇|きゅうじょうしょう}→急上昇：25671_kyuujoushou⟧: sharp rise — the opposite, a sudden increase",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -84,10 +84,11 @@
       "domain": [
         "colloquial"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-26T15:14:54Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "suru",

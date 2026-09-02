@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14655_yousei_ex1",
-      "japanese": "{教師|きょうし}を{養成|ようせい}する。",
+      "japanese": "⟦{教師|きょうし}→教師：03029_kyoushi⟧⟦を→を：00422_wo⟧{養成|ようせい}⟦する→する：00392_suru⟧。",
       "english": "Train teachers.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14655_yousei_ex2",
-      "japanese": "{人材|じんざい}{養成|ようせい}に{力|ちから}を{入|い}れている。",
+      "japanese": "⟦{人材|じんざい}→人材：11426_jinzai⟧{養成|ようせい}⟦に→に：00314_ni⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れている→入れる：01098_ireru⟧。",
       "english": "We are putting effort into developing human resources.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14655_yousei_ex3",
-      "japanese": "この{大学|だいがく}には{看護師|かんごし}{養成|ようせい}コースがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{看護師|かんごし}→看護師：05055_kangoshi⟧{養成|ようせい}⟦コース→コース：10864_koosu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This university has a nursing training course.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{養成|ようせい}する functions as a suru-verb meaning \"to train\" or \"to develop.\"\n\nCOMMON COLLOCATIONS:\n- {人材|じんざい}を{養成|ようせい}する (develop human resources)\n- {養成|ようせい}コース (training course)\n- {養成|ようせい}{講座|こうざ} (training program)\n- {養成|ようせい}{所|じょ}/{養成|ようせい}{機関|きかん} (training institution)\n\nSpecifically refers to training people (not skills or things). Not to be confused with {要請|ようせい} (request/demand), which is a homophone with different kanji and meaning.",
+  "notes": "{養成|ようせい}⟦する→する：00392_suru⟧ functions as a suru-verb meaning \"to train\" or \"to develop.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{人材|じんざい}→人材：11426_jinzai⟧⟦を→を：00422_wo⟧{養成|ようせい}⟦する→する：00392_suru⟧ (develop human resources)\n- {養成|ようせい}⟦コース→コース：10864_koosu⟧ (training course)\n- {養成|ようせい}⟦{講座|こうざ}→講座：09790_kouza⟧ (training program)\n- {養成|ようせい}{所|じょ}/{養成|ようせい}⟦{機関|きかん}→機関：02630_kikan⟧ (training institution)\n\nSpecifically refers to training people (not skills or things). Not to be confused with ⟦{要請|ようせい}→要請：05463_yousei⟧ (request/demand), which is a homophone with different kanji and meaning.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-02T09:36:59Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

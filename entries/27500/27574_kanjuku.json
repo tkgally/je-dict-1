@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27574_kanjuku_ex1",
-      "japanese": "{完熟|かんじゅく}のトマトは{甘|あま}い。",
+      "japanese": "{完熟|かんじゅく}⟦の→の：09472_no⟧⟦トマト→トマト：05192_tomato⟧⟦は→は：00079_ha⟧⟦{甘|あま}い→甘い：00617_amai⟧。",
       "english": "Fully ripe tomatoes are sweet.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27574_kanjuku_ex2",
-      "japanese": "このマンゴーは{完熟|かんじゅく}してから{食|た}べると{美味|おい}しい。",
+      "japanese": "⟦この→この：00962_kono⟧マンゴー⟦は→は：00079_ha⟧{完熟|かんじゅく}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦と→と：00512_to⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "These mangoes are delicious if you eat them after they've fully ripened.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27574_kanjuku_ex3",
-      "japanese": "{農家|のうか}は{完熟|かんじゅく}{果実|かじつ}だけを{選|えら}んで{出荷|しゅっか}している。",
+      "japanese": "⟦{農家|のうか}→農家：03539_nouka⟧⟦は→は：00079_ha⟧{完熟|かんじゅく}⟦{果実|かじつ}→果実：00146_kajitsu⟧⟦だけ→〜だけ：03093_dake⟧⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦{出荷|しゅっか}→出荷：05135_shukka⟧⟦している→する：00392_suru⟧。",
       "english": "The farmers select and ship only fully ripened fruit.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {完|かん} (complete) + {熟|じゅく} (ripen, mature). Used both as a noun and as a する verb ({完熟|かんじゅく}する, 'to become fully ripe'); the prenominal form {完熟|かんじゅく}の or {完熟|かんじゅく}した modifies the produce.\n\nCOMMON COLLOCATIONS:\n- {完熟|かんじゅく}トマト: fully ripe tomato\n- {完熟|かんじゅく}マンゴー: fully ripe mango\n- {完熟|かんじゅく}{果実|かじつ}: ripe fruit (marketing phrase)\n- {完熟|かんじゅく}する: to ripen fully\n\nSIMILAR WORDS:\n- {熟|じゅく}す: to ripen (general verb)\n- {熟|う}れる: to ripen (intransitive, more colloquial)\n- {未熟|みじゅく}: unripe; immature (antonym)",
+  "notes": "Compound of {完|かん} (complete) + {熟|じゅく} (ripen, mature). Used both as a noun and as a ⟦する→する：00392_suru⟧ verb ({完熟|かんじゅく}⟦する→する：00392_suru⟧, 'to become fully ripe'); the prenominal form {完熟|かんじゅく}⟦の→の：09472_no⟧ or {完熟|かんじゅく}⟦した→する：00392_suru⟧ modifies the produce.\n\nCOMMON COLLOCATIONS:\n- {完熟|かんじゅく}⟦トマト→トマト：05192_tomato⟧: fully ripe tomato\n- {完熟|かんじゅく}マンゴー: fully ripe mango\n- {完熟|かんじゅく}⟦{果実|かじつ}→果実：00146_kajitsu⟧: ripe fruit (marketing phrase)\n- {完熟|かんじゅく}⟦する→する：00392_suru⟧: to ripen fully\n\nSIMILAR WORDS:\n- ⟦{熟|じゅく}す→熟す：18384_jukusu⟧: to ripen (general verb)\n- ⟦{熟|う}れる→熟れる：30499_ureru⟧: to ripen (intransitive, more colloquial)\n- ⟦{未熟|みじゅく}→未熟：13015_mijuku⟧: unripe; immature (antonym)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -90,10 +90,11 @@
         "plant-general"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-14T03:14:47Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "suru",

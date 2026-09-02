@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09799_kaijou_ex1",
-      "japanese": "{海上|かいじょう}⟦で→で：00502_de⟧{事故|じこ}⟦が→が：00051_ga⟧{起|お}きた。",
+      "japanese": "{海上|かいじょう}⟦で→で：00502_de⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "An accident occurred at sea.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09799_kaijou_ex3",
-      "japanese": "{海上|かいじょう}{輸送|ゆそう}⟦で→で：00502_de⟧{届|とど}く。",
+      "japanese": "{海上|かいじょう}⟦{輸送|ゆそう}→輸送：04084_yusou⟧⟦で→で：00502_de⟧⟦{届|とど}く→届く：00899_todoku⟧。",
       "english": "To arrive by sea transport.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{海上|かいじょう} means 'on the sea' or 'maritime', often used in compound words.\n\nCOMPOUNDS:\n- {海上|かいじょう}{保安庁|ほあんちょう}: Japan Coast Guard\n- {海上|かいじょう}{輸送|ゆそう}: maritime transport\n- {海上|かいじょう}{自衛隊|じえいたい}: Maritime Self-Defense Force\n- {海上|かいじょう}{交通|こうつう}: maritime traffic\n- {海上|かいじょう}{保険|ほけん}: marine insurance\n\nRELATED WORDS:\n- {海|うみ}: sea, ocean\n- {陸上|りくじょう}: on land\n- {航海|こうかい}: voyage, navigation\n\nNOTE: Do not confuse with {会場|かいじょう} (venue), which has the same reading.",
+  "notes": "{海上|かいじょう} means 'on the sea' or 'maritime', often used in compound words.\n\nCOMPOUNDS:\n- {海上|かいじょう}{保安庁|ほあんちょう}: Japan Coast Guard\n- {海上|かいじょう}⟦{輸送|ゆそう}→輸送：04084_yusou⟧: maritime transport\n- {海上|かいじょう}{自衛隊|じえいたい}: Maritime Self-Defense Force\n- {海上|かいじょう}⟦{交通|こうつう}→交通：01584_koutsuu⟧: maritime traffic\n- {海上|かいじょう}⟦{保険|ほけん}→保険：01509_hoken⟧: marine insurance\n\nRELATED WORDS:\n- ⟦{海|うみ}→海：00556_umi⟧: sea, ocean\n- ⟦{陸上|りくじょう}→陸上：09245_rikujou⟧: on land\n- ⟦{航海|こうかい}→航海：02797_koukai⟧: voyage, navigation\n\nNOTE: Do not confuse with ⟦{会場|かいじょう}→会場：01269_kaijou⟧ (venue), which has the same reading.",
   "cross_references": [
     {
       "type": "antonym",
@@ -73,7 +73,7 @@
   ],
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

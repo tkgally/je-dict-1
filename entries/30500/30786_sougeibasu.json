@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30786_sougeibasu_ex1",
-      "japanese": "{駅|えき}から{送迎|そうげい}バスが{出|で}ています。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧{送迎|そうげい}バス⟦が→が：00051_ga⟧⟦{出|で}ています→出る：00513_deru⟧。",
       "english": "There is a shuttle bus from the station.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30786_sougeibasu_ex2",
-      "japanese": "{送迎|そうげい}バスは{無料|むりょう}でご{利用|りよう}いただけます。",
+      "japanese": "{送迎|そうげい}バス⟦は→は：00079_ha⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧ご⟦{利用|りよう}→利用：01752_riyou⟧⟦いただけます→いただく：01326_itadaku⟧。",
       "english": "The shuttle bus is available free of charge.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30786_sougeibasu_ex3",
-      "japanese": "{送迎|そうげい}バスをご{希望|きぼう}の{方|かた}は、{前日|ぜんじつ}までにご{連絡|れんらく}ください。",
+      "japanese": "{送迎|そうげい}バス⟦を→を：00422_wo⟧ご⟦{希望|きぼう}→希望：00221_kibou⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧、⟦{前日|ぜんじつ}→前日：03108_zenjitsu⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧ご⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you would like the shuttle bus, please contact us by the day before.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30786_sougeibasu_ex4",
-      "japanese": "{宿|やど}が{駅|えき}から{遠|とお}くても、{送迎|そうげい}バスがあれば{車|くるま}なしで{行|い}ける。",
+      "japanese": "⟦{宿|やど}→宿：03641_yado⟧⟦が→が：00051_ga⟧⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧⟦{遠|とお}くて→遠い：00529_tooi⟧⟦も→も：00484_mo⟧、{送迎|そうげい}バス⟦が→が：00051_ga⟧⟦あれば→ある：00006_aru⟧⟦{車|くるま}→車：00516_kuruma⟧なし⟦で→で：00502_de⟧⟦{行|い}ける→行く：00119_iku⟧。",
       "english": "Even if the inn is far from the station, you can get there without a car as long as there's a shuttle bus.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "{送|そう} (to send off) + {迎|げい} (to meet) + バス. Almost always a free service laid on by the destination, which distinguishes it from a paid route bus.\n\nCOMMON COLLOCATIONS:\n- {送迎|そうげい}バスが{出|で}る: a shuttle bus runs\n- {送迎|そうげい}バスを{利用|りよう}する: to use the shuttle bus\n- {無料|むりょう}{送迎|そうげい}バス: free shuttle bus\n- {送迎|そうげい}バスの{時刻表|じこくひょう}: the shuttle bus timetable\n\nSIMILAR WORDS:\n- {送迎|そうげい}する: to pick up and drop off — the verb, also used of people driving guests personally\n- {路線|ろせん}バス: route bus — the ordinary paid public bus\n- シャトルバス: shuttle bus — the loanword, used more for airports and event sites",
+  "notes": "{送|そう} (to send off) + {迎|げい} (to meet) + ⟦バス→バス：00769_basu⟧. Almost always a free service laid on by the destination, which distinguishes it from a paid route bus.\n\nCOMMON COLLOCATIONS:\n- {送迎|そうげい}バス⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: a shuttle bus runs\n- {送迎|そうげい}バス⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to use the shuttle bus\n- ⟦{無料|むりょう}→無料：01662_muryou⟧{送迎|そうげい}バス: free shuttle bus\n- {送迎|そうげい}バス⟦の→の：09472_no⟧⟦{時刻表|じこくひょう}→時刻表：01031_jikokuhyou⟧: the shuttle bus timetable\n\nSIMILAR WORDS:\n- ⟦{送迎|そうげい}→送迎：07050_sougei⟧⟦する→する：00392_suru⟧: to pick up and drop off — the verb, also used of people driving guests personally\n- ⟦{路線|ろせん}バス→路線バス：20398_rosenbasu⟧: route bus — the ordinary paid public bus\n- シャトルバス: shuttle bus — the loanword, used more for airports and event sites",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -101,6 +101,6 @@
       "domain": []
     },
     "created": "2026-08-31T12:35:59Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

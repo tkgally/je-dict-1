@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15025_hitorijime_ex1",
-      "japanese": "おやつを{独|ひと}り{占|じ}めした。",
+      "japanese": "⟦おやつ→おやつ：17921_oyatsu⟧⟦を→を：00422_wo⟧{独|ひと}り{占|じ}め⟦した→する：00392_suru⟧。",
       "english": "I hogged all the snacks.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15025_hitorijime_ex2",
-      "japanese": "この{景色|けしき}を{独|ひと}り{占|じ}めできるなんて{贅沢|ぜいたく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦を→を：00422_wo⟧{独|ひと}り{占|じ}め⟦できる→できる：00557_dekiru⟧⟦なんて→なんて：06918_nante⟧⟦{贅沢|ぜいたく}→贅沢：03309_zeitaku⟧だ。",
       "english": "What a luxury to have this view all to myself.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15025_hitorijime_ex3",
-      "japanese": "{彼女|かのじょ}はいつもリモコンを{独|ひと}り{占|じ}めして、{好|す}きな{番組|ばんぐみ}ばかり{見|み}ている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦リモコン→リモコン：05284_rimokon⟧⟦を→を：00422_wo⟧{独|ひと}り{占|じ}め⟦して→する：00392_suru⟧、⟦{好|す}き→好き：02355_suki⟧な⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦{見|み}ている→見る：00283_miru⟧。",
       "english": "She always hogs the remote and only watches her favorite shows.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE: Can be used with する to form a verb ({独|ひと}り{占|じ}めする). The tone depends on context — it can be playful/lighthearted (hogging snacks) or negative (being selfish), or even positive (enjoying a beautiful place alone).\n\nCOMMON COLLOCATIONS:\n- {独|ひと}り{占|じ}めする: to monopolize, to hog\n- {独|ひと}り{占|じ}めにする: to keep all to oneself\n- {景色|けしき}を{独|ひと}り{占|じ}め: having a view all to oneself\n\nAlso written as ひとり{占|じ}め or {一人占|ひとりじ}め.",
+  "notes": "USAGE: Can be used with ⟦する→する：00392_suru⟧ to form a verb ({独|ひと}り{占|じ}め⟦する→する：00392_suru⟧). The tone depends on context — it can be playful/lighthearted (hogging snacks) or negative (being selfish), or even positive (enjoying a beautiful place alone).\n\nCOMMON COLLOCATIONS:\n- {独|ひと}り{占|じ}め⟦する→する：00392_suru⟧: to monopolize, to hog\n- {独|ひと}り{占|じ}め⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to keep all to oneself\n- ⟦{景色|けしき}→景色：01395_keshiki⟧⟦を→を：00422_wo⟧{独|ひと}り{占|じ}め: having a view all to oneself\n\nAlso written as ひとり{占|じ}め or {一人占|ひとりじ}め.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-05T05:34:55Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:39Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -150,7 +150,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29935_datenou_ex1",
-      "japanese": "{彼|かれ}は{今年|ことし}の{打点|だてん}{王|おう}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧{打点|だてん}{王|おう}だ。",
       "english": "He is this year's RBI leader.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29935_datenou_ex2",
-      "japanese": "{打点|だてん}{王|おう}のタイトルを{取|と}る。",
+      "japanese": "{打点|だてん}{王|おう}⟦の→の：09472_no⟧⟦タイトル→タイトル：03855_taitoru⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To win the RBI title.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29935_datenou_ex3",
-      "japanese": "{四番|よんばん}{打者|だしゃ}が{百|ひゃく}{打点|だてん}を{超|こ}えて{打点|だてん}{王|おう}に{輝|かがや}いた。",
+      "japanese": "⟦{四番|よんばん}→四番：30009_yonban⟧⟦{打者|だしゃ}→打者：06564_dasha⟧⟦が→が：00051_ga⟧⟦{百|ひゃく}→百：00780_hyaku⟧⟦{打点|だてん}→打点：08589_daten⟧⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧{打点|だてん}{王|おう}⟦に→に：00314_ni⟧⟦{輝|かがや}いた→輝く：02032_kagayaku⟧。",
       "english": "The cleanup hitter surpassed 100 RBIs to claim the RBI title.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {打点|だてん} (runs batted in, RBI) + {王|おう} (king). The title awarded to the player with the most RBIs in a season.\n\nRELATED TITLES:\n- {首位|しゅい}{打者|だしゃ}: batting champion\n- {本塁打|ほんるいだ}{王|おう}: home run leader\n- {盗塁|とうるい}{王|おう}: stolen base leader",
+  "notes": "Compound of ⟦{打点|だてん}→打点：08589_daten⟧ (runs batted in, RBI) + ⟦{王|おう}→王：19353_ou⟧ (king). The title awarded to the player with the most RBIs in a season.\n\nRELATED TITLES:\n- ⟦{首位|しゅい}{打者|だしゃ}→首位打者：26604_shuidasha⟧: batting champion\n- ⟦{本塁打|ほんるいだ}→本塁打：24569_honruida⟧⟦{王|おう}→王：19353_ou⟧: home run leader\n- {盗塁|とうるい}⟦{王|おう}→王：19353_ou⟧: stolen base leader",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -69,6 +69,6 @@
       "domain": []
     },
     "created": "2026-07-18T06:23:31Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

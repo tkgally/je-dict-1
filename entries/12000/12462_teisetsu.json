@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12462_teisetsu_ex1",
-      "japanese": "それは{定説|ていせつ}になっている。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{定説|ていせつ}になっている。",
       "english": "That has become the accepted view.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12462_teisetsu_ex2",
-      "japanese": "{定説|ていせつ}を{覆|くつがえ}す{発見|はっけん}があった。",
+      "japanese": "{定説|ていせつ}⟦を→を：00422_wo⟧⟦{覆|くつがえ}す→覆す：07568_kutsugaesu⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a discovery that overturned the established theory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12462_teisetsu_ex3",
-      "japanese": "{長年|ながねん}の{定説|ていせつ}に{疑問|ぎもん}を{投|な}げかける{研究者|けんきゅうしゃ}が{現|あらわ}れた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{定説|ていせつ}⟦に→に：00314_ni⟧⟦{疑問|ぎもん}→疑問：02648_gimon⟧⟦を→を：00422_wo⟧⟦{投|な}げかける→投げかける：28968_nagekakeru⟧⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧⟦が→が：00051_ga⟧⟦{現|あらわ}れた→現れる：01870_arawareru⟧。",
       "english": "A researcher appeared who cast doubt on the long-held established theory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften appears in patterns like {定説|ていせつ}になる (become the accepted view), {定説|ていせつ}を{覆|くつがえ}す (overturn the established theory), and {定説|ていせつ}とされる (be considered the established theory). Common in academic, scientific, and historical discussions.\n\nCOMMON COLLOCATIONS:\n- {定説|ていせつ}を{覆|くつがえ}す: overturn the established theory\n- {定説|ていせつ}になる: become the accepted view\n- {定説|ていせつ}に{反|はん}する: go against the accepted view\n- {通説|つうせつ}: commonly accepted theory (near synonym)",
+  "notes": "USAGE:\nOften appears in patterns like {定説|ていせつ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become the accepted view), {定説|ていせつ}⟦を→を：00422_wo⟧⟦{覆|くつがえ}す→覆す：07568_kutsugaesu⟧ (overturn the established theory), and {定説|ていせつ}⟦と→と：00512_to⟧⟦される→する：00392_suru⟧ (be considered the established theory). Common in academic, scientific, and historical discussions.\n\nCOMMON COLLOCATIONS:\n- {定説|ていせつ}⟦を→を：00422_wo⟧⟦{覆|くつがえ}す→覆す：07568_kutsugaesu⟧: overturn the established theory\n- {定説|ていせつ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: become the accepted view\n- {定説|ていせつ}⟦に→に：00314_ni⟧⟦{反|はん}する→反する：11966_hansuru⟧: go against the accepted view\n- ⟦{通説|つうせつ}→通説：14510_tsuusetsu⟧: commonly accepted theory (near synonym)",
   "cross_references": [
     {
       "type": "related",
@@ -57,15 +63,21 @@
   ],
   "metadata": {
     "created": "2026-02-21T10:26:53Z",
-    "modified": "2026-04-27T05:19:15Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "domain": ["academic"]
+      "semantic": [
+        "cognition"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

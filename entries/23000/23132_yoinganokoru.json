@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23132_yoinganokoru_ex1",
-      "japanese": "{余韻|よいん}が{残|のこ}る{映画|えいが}だった。",
+      "japanese": "{余韻|よいん}が{残|のこ}る⟦{映画|えいが}→映画：02273_eiga⟧だった。",
       "english": "It was a film that lingers with you.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23132_yoinganokoru_ex2",
-      "japanese": "コンサートが{終|お}わっても、しばらく{余韻|よいん}が{残|のこ}っていた。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦が→が：00051_ga⟧⟦{終|お}わって→終わる：00567_owaru⟧⟦も→も：00484_mo⟧、⟦しばらく→しばらく：01267_shibaraku⟧{余韻|よいん}が{残|のこ}って⟦いた→いる：00495_iru⟧。",
       "english": "Even after the concert ended, the impression lingered for a while.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23132_yoinganokoru_ex3",
-      "japanese": "あの{小説|しょうせつ}の{結末|けつまつ}は、{読|よ}み{終|お}わった{後|あと}も{深|ふか}い{余韻|よいん}が{残|のこ}る。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧⟦{結末|けつまつ}→結末：15091_ketsumatsu⟧⟦は→は：00079_ha⟧、⟦{読|よ}み→読む：00426_yomu⟧⟦{終|お}わった→終わる：00567_owaru⟧⟦{後|あと}→後：09580_ato⟧⟦も→も：00484_mo⟧⟦{深|ふか}い→深い：01211_fukai⟧{余韻|よいん}が{残|のこ}る。",
       "english": "The ending of that novel leaves a deep impression that stays with you long after you finish reading.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {余韻|よいん} (lingering sound, aftertaste, resonance) and {残|のこ}る (to remain). {余韻|よいん} originally refers to the lingering sound after a bell or instrument stops, and by extension the lasting emotional impression of an experience. This expression is particularly common in reviews and discussions of art, music, literature, and food.\n\nCOMMON COLLOCATIONS:\n- {深|ふか}い{余韻|よいん}が{残|のこ}る: a deep impression lingers\n- {余韻|よいん}が{長|なが}く{残|のこ}る: the aftertaste lasts a long time\n- {余韻|よいん}に{浸|ひた}る: to bask in the afterglow\n\nSIMILAR WORDS:\n- {印象|いんしょう}に{残|のこ}る: to remain in one's memory — more about a strong impression being memorable, less about savoring it\n- {心|こころ}に{響|ひび}く: to resonate in one's heart — emphasizes the moment of emotional impact rather than the lingering effect",
+  "notes": "Composed of ⟦{余韻|よいん}→余韻：10560_yoin⟧ (lingering sound, aftertaste, resonance) and ⟦{残|のこ}る→残る：01187_nokoru⟧ (to remain). ⟦{余韻|よいん}→余韻：10560_yoin⟧ originally refers to the lingering sound after a bell or instrument stops, and by extension the lasting emotional impression of an experience. This expression is particularly common in reviews and discussions of art, music, literature, and food.\n\nCOMMON COLLOCATIONS:\n- ⟦{深|ふか}い→深い：01211_fukai⟧{余韻|よいん}が{残|のこ}る: a deep impression lingers\n- ⟦{余韻|よいん}→余韻：10560_yoin⟧⟦が→が：00051_ga⟧⟦{長|なが}く→長い：00491_nagai⟧⟦{残|のこ}る→残る：01187_nokoru⟧: the aftertaste lasts a long time\n- ⟦{余韻|よいん}に{浸|ひた}る→余韻に浸る：21298_yoinnihitaru⟧: to bask in the afterglow\n\nSIMILAR WORDS:\n- ⟦{印象|いんしょう}→印象：01846_inshou⟧⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧: to remain in one's memory — more about a strong impression being memorable, less about savoring it\n- ⟦{心|こころ}に{響|ひび}く→心に響く：20707_kokoronihibiku⟧: to resonate in one's heart — emphasizes the moment of emotional impact rather than the lingering effect",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-08T19:27:00Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "godan",

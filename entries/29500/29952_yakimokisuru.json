@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29952_yakimokisuru_ex1",
-      "japanese": "{結果|けっか}を{待|ま}ってやきもきする。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦{待|ま}って→待つ：00469_matsu⟧やきもきする。",
       "english": "I fret while waiting for the results.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29952_yakimokisuru_ex2",
-      "japanese": "{子供|こども}の{帰|かえ}りが{遅|おそ}くて、{親|おや}はやきもきした。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦が→が：00051_ga⟧⟦{遅|おそ}くて→遅い：00533_osoi⟧、⟦{親|おや}→親：01357_oya⟧⟦は→は：00079_ha⟧やきもきした。",
       "english": "The parents fretted because their child was late coming home.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29952_yakimokisuru_ex3",
-      "japanese": "{返事|へんじ}がなかなか{来|こ}ないので、{一日中|いちにちじゅう}やきもきして{過|す}ごした。",
+      "japanese": "⟦{返事|へんじ}→返事：00844_henji⟧⟦が→が：00051_ga⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{来|こ}ない→来る：00254_kuru⟧⟦の→の：09472_no⟧で、⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧やきもきして⟦{過|す}ごした→過ごす：02062_sugosu⟧。",
       "english": "Since the reply just wouldn't come, I spent the whole day fretting.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes nervous, impatient worry, especially while waiting for an outcome one cannot influence. The subject is often watching someone else's situation and unable to help.\n\nCOMMON COLLOCATIONS:\n- {待|ま}ってやきもきする: to fret while waiting\n- {内心|ないしん}やきもきする: to fret inwardly\n- やきもきさせる: to keep (someone) on edge; to make (someone) anxious\n\nSIMILAR WORDS:\n- いらいらする: to be irritated — focuses on annoyance rather than anxious waiting\n- はらはらする: to be on tenterhooks — nervous suspense while watching, often more momentary",
+  "notes": "Describes nervous, impatient worry, especially while waiting for an outcome one cannot influence. The subject is often watching someone else's situation and unable to help.\n\nCOMMON COLLOCATIONS:\n- ⟦{待|ま}って→待つ：00469_matsu⟧やきもきする: to fret while waiting\n- ⟦{内心|ないしん}→内心：11669_naishin⟧やきもきする: to fret inwardly\n- やきもきさせる: to keep (someone) on edge; to make (someone) anxious\n\nSIMILAR WORDS:\n- ⟦いらいら→いらいら：01834_iraira⟧⟦する→する：00392_suru⟧: to be irritated — focuses on annoyance rather than anxious waiting\n- ⟦はらはらする→ハラハラする：16932_haraharasuru⟧: to be on tenterhooks — nervous suspense while watching, often more momentary",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -67,10 +67,11 @@
         "emotion"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

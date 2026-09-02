@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15531_nenimotsu_ex1",
-      "japanese": "あの{一言|ひとこと}を{根|ね}に{持|も}っている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{一言|ひとこと}→一言：03708_hitokoto⟧⟦を→を：00422_wo⟧{根|ね}に{持|も}って⟦いる→いる：00495_iru⟧。",
       "english": "I'm still holding a grudge over that one remark.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15531_nenimotsu_ex2",
-      "japanese": "{彼女|かのじょ}はささいなことを{根|ね}に{持|も}つタイプだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧ささいなこと⟦を→を：00422_wo⟧{根|ね}に{持|も}つ⟦タイプ→タイプ：01534_taipu⟧だ。",
       "english": "She's the type to hold grudges over trivial things.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15531_nenimotsu_ex3",
-      "japanese": "{子供|こども}の{頃|ころ}にからかわれたことを{大人|おとな}になっても{根|ね}に{持|も}っている{人|ひと}は{少|すく}なくない。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦に→に：00314_ni⟧⟦からかわれた→からかう：07353_karakau⟧こと⟦を→を：00422_wo⟧⟦{大人|おとな}→大人：02856_otona⟧になって⟦も→も：00484_mo⟧{根|ね}に{持|も}って⟦いる→いる：00495_iru⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{少|すく}なくない→少ない：01136_sukunai⟧。",
       "english": "There are quite a few people who still hold grudges about being teased as children even after becoming adults.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used to describe someone who cannot let go of past offenses. Frequently appears with ～ている to describe an ongoing state of resentment. Can describe the speaker's own feelings or, more commonly, characterize someone else as grudge-holding.\n\nCOMMON PATTERNS:\n- ～を{根|ね}に{持|も}つ (to hold a grudge about ~)\n- {根|ね}に{持|も}つタイプ (the grudge-holding type)\n- いつまでも{根|ね}に{持|も}つ (to hold a grudge forever)\n\nSIMILAR WORDS:\n{恨|うら}む focuses on feelings of bitterness or resentment toward a person, while {根|ね}に{持|も}つ emphasizes the inability to let go of a specific past incident.",
+  "notes": "USAGE:\nOften used to describe someone who cannot let go of past offenses. Frequently appears with ～て⟦いる→いる：00495_iru⟧ to describe an ongoing state of resentment. Can describe the speaker's own feelings or, more commonly, characterize someone else as grudge-holding.\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{根|ね}に{持|も}つ (to hold a grudge about ~)\n- {根|ね}に{持|も}つ⟦タイプ→タイプ：01534_taipu⟧ (the grudge-holding type)\n- ⟦いつ→いつ：00536_itsu⟧⟦まで→まで：00490_made⟧⟦も→も：00484_mo⟧{根|ね}に{持|も}つ (to hold a grudge forever)\n\nSIMILAR WORDS:\n⟦{恨|うら}む→恨む：00415_uramu⟧ focuses on feelings of bitterness or resentment toward a person, while {根|ね}に{持|も}つ emphasizes the inability to let go of a specific past incident.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T10:04:01Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "godan-tsu"
+      "verb_class": "godan-tsu",
+      "transitivity": "transitive"
     }
   }
 }

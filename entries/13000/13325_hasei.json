@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13325_hasei_ex1",
-      "japanese": "この{問題|もんだい}から{派生|はせい}した{課題|かだい}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦から→から：00504_kara⟧{派生|はせい}⟦した→する：00392_suru⟧⟦{課題|かだい}→課題：00132_kadai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are issues that derived from this problem.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13325_hasei_ex2",
-      "japanese": "{派生|はせい}{商品|しょうひん}が{次々|つぎつぎ}と{発売|はつばい}された。",
+      "japanese": "{派生|はせい}⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦が→が：00051_ga⟧⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦された→する：00392_suru⟧。",
       "english": "Derivative products were released one after another.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13325_hasei_ex3",
-      "japanese": "{一|ひと}つのアイデアからさまざまなプロジェクトが{派生|はせい}した。",
+      "japanese": "⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦の→の：09472_no⟧⟦アイデア→アイデア：10161_aidea⟧⟦から→から：00504_kara⟧さまざまな⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦が→が：00051_ga⟧{派生|はせい}⟦した→する：00392_suru⟧。",
       "english": "Various projects branched off from a single idea.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun modifier ({派生|はせい}～) or with する to indicate that something derives from something else. Common in academic, technical, and business contexts.\n\nIn linguistics, {派生語|はせいご} means \"derived word\" or \"derivative.\"\n\nCOMMON COLLOCATIONS:\n- {派生|はせい}する: to derive, to branch off\n- {派生|はせい}{語|ご}: derived word, derivative\n- {派生|はせい}{商品|しょうひん}: derivative product, spin-off product\n- ～から{派生|はせい}する: to derive from ~",
+  "notes": "USAGE:\nUsed as a noun modifier ({派生|はせい}～) or with ⟦する→する：00392_suru⟧ to indicate that something derives from something else. Common in academic, technical, and business contexts.\n\nIn linguistics, ⟦{派生語|はせいご}→派生語：23852_haseigo⟧ means \"derived word\" or \"derivative.\"\n\nCOMMON COLLOCATIONS:\n- {派生|はせい}⟦する→する：00392_suru⟧: to derive, to branch off\n- {派生|はせい}{語|ご}: derived word, derivative\n- {派生|はせい}⟦{商品|しょうひん}→商品：01436_shouhin⟧: derivative product, spin-off product\n- ～⟦から→から：00504_kara⟧{派生|はせい}⟦する→する：00392_suru⟧: to derive from ~",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -163,7 +163,8 @@
         "language",
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "21355_jukuchi_ex1",
-      "japanese": "{彼|かれ}はこの{土地|とち}を{熟知|じゅくち}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{熟知|じゅくち}⟦している→する：00392_suru⟧。",
       "english": "He knows this area inside and out.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "21355_jukuchi_ex2",
-      "japanese": "{法律|ほうりつ}を{熟知|じゅくち}した{弁護士|べんごし}に{相談|そうだん}した。",
+      "japanese": "⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦を→を：00422_wo⟧{熟知|じゅくち}⟦した→する：00392_suru⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧。",
       "english": "I consulted a lawyer well versed in the law.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "21355_jukuchi_ex3",
-      "japanese": "{現場|げんば}の{状況|じょうきょう}を{熟知|じゅくち}している{人|ひと}でなければ、この{判断|はんだん}はできない。",
+      "japanese": "⟦{現場|げんば}→現場：02723_genba⟧⟦の→の：09472_no⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{熟知|じゅくち}⟦している→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧でなければ、⟦この→この：00962_kono⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "Only someone with thorough knowledge of the situation on the ground could make this decision.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "Implies knowledge gained through deep engagement, not just superficial familiarity. The {熟|じゅく} component means \"mature\" or \"thorough,\" giving the word a sense of mastery through experience. Often used to describe professionals or experts who have internalized their knowledge.\n\nCOMMON COLLOCATIONS:\n- {事情|じじょう}を{熟知|じゅくち}する: to know the circumstances thoroughly\n- {業界|ぎょうかい}を{熟知|じゅくち}する: to know the industry inside out\n- {熟知|じゅくち}した{上|うえ}で: with thorough knowledge of\n- {内情|ないじょう}を{熟知|じゅくち}している: to know the inside story\n\nSIMILAR WORDS:\n- {精通|せいつう}: being well versed — similar depth, often used for academic or technical expertise\n- {知|し}り{尽|つ}くす: to know everything about — more colloquial, emphasizes completeness\n- {博識|はくしき}: wide knowledge, erudition — emphasizes breadth rather than depth\n- {通暁|つうぎょう}: mastery, thorough understanding — more formal and literary",
+  "notes": "Implies knowledge gained through deep engagement, not just superficial familiarity. The {熟|じゅく} component means \"mature\" or \"thorough,\" giving the word a sense of mastery through experience. Often used to describe professionals or experts who have internalized their knowledge.\n\nCOMMON COLLOCATIONS:\n- ⟦{事情|じじょう}→事情：03272_jijou⟧⟦を→を：00422_wo⟧{熟知|じゅくち}⟦する→する：00392_suru⟧: to know the circumstances thoroughly\n- ⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦を→を：00422_wo⟧{熟知|じゅくち}⟦する→する：00392_suru⟧: to know the industry inside out\n- {熟知|じゅくち}⟦した→する：00392_suru⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧: with thorough knowledge of\n- ⟦{内情|ないじょう}→内情：25305_naijou⟧⟦を→を：00422_wo⟧{熟知|じゅくち}⟦している→する：00392_suru⟧: to know the inside story\n\nSIMILAR WORDS:\n- ⟦{精通|せいつう}→精通：15453_seitsuu⟧: being well versed — similar depth, often used for academic or technical expertise\n- ⟦{知|し}り→知る：00458_shiru⟧⟦{尽|つ}くす→尽くす：02077_tsukusu⟧: to know everything about — more colloquial, emphasizes completeness\n- ⟦{博識|はくしき}→博識：21871_hakushiki⟧: wide knowledge, erudition — emphasizes breadth rather than depth\n- ⟦{通暁|つうぎょう}→通暁：24396_tsuugyou⟧: mastery, thorough understanding — more formal and literary",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,10 +89,11 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T01:36:46Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

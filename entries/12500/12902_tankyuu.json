@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12902_tankyuu_ex1",
-      "japanese": "{真理|しんり}を{探求|たんきゅう}する。",
+      "japanese": "⟦{真理|しんり}→真理：03333_shinri⟧⟦を→を：00422_wo⟧{探求|たんきゅう}⟦する→する：00392_suru⟧。",
       "english": "To pursue the truth.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12902_tankyuu_ex2",
-      "japanese": "{科学者|かがくしゃ}は{未知|みち}の{世界|せかい}を{探求|たんきゅう}し{続|つづ}けている。",
+      "japanese": "⟦{科学者|かがくしゃ}→科学者：19378_kagakusha⟧⟦は→は：00079_ha⟧⟦{未知|みち}→未知：13014_michi⟧⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧{探求|たんきゅう}し⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "Scientists continue to explore the unknown world.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12902_tankyuu_ex3",
-      "japanese": "{人生|じんせい}の{意味|いみ}を{探求|たんきゅう}することは、{古代|こだい}から{哲学|てつがく}の{中心的|ちゅうしんてき}なテーマであった。",
+      "japanese": "⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧⟦を→を：00422_wo⟧{探求|たんきゅう}⟦する→する：00392_suru⟧こと⟦は→は：00079_ha⟧、⟦{古代|こだい}→古代：05324_kodai⟧⟦から→から：00504_kara⟧⟦{哲学|てつがく}→哲学：03548_tetsugaku⟧⟦の→の：09472_no⟧⟦{中心的|ちゅうしんてき}→中心的：05676_chuushinteki⟧な⟦テーマ→テーマ：17684_teema⟧であった。",
       "english": "The quest for the meaning of life has been a central theme of philosophy since ancient times.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Carries an elevated, intellectual tone. The object of {探求|たんきゅう} is typically something abstract — truth, knowledge, beauty, meaning — rather than concrete things. Common in academic, philosophical, and literary writing.\n\nCOMMON COLLOCATIONS:\n- {真理|しんり}を{探求|たんきゅう}する: to pursue truth\n- {知識|ちしき}の{探求|たんきゅう}: pursuit of knowledge\n- {探求心|たんきゅうしん}: spirit of inquiry, intellectual curiosity\n\nSIMILAR WORDS:\n- {探索|たんさく}: search, exploration (more concrete, physical searching)\n- {追求|ついきゅう}: pursuit (of goals, ideals, profit — broader scope)\n- {研究|けんきゅう}: research (systematic, academic study)",
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Carries an elevated, intellectual tone. The object of {探求|たんきゅう} is typically something abstract — truth, knowledge, beauty, meaning — rather than concrete things. Common in academic, philosophical, and literary writing.\n\nCOMMON COLLOCATIONS:\n- ⟦{真理|しんり}→真理：03333_shinri⟧⟦を→を：00422_wo⟧{探求|たんきゅう}⟦する→する：00392_suru⟧: to pursue truth\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧⟦の→の：09472_no⟧{探求|たんきゅう}: pursuit of knowledge\n- {探求心|たんきゅうしん}: spirit of inquiry, intellectual curiosity\n\nSIMILAR WORDS:\n- ⟦{探索|たんさく}→探索：12919_tansaku⟧: search, exploration (more concrete, physical searching)\n- ⟦{追求|ついきゅう}→追求：14401_tsuikyuu⟧: pursuit (of goals, ideals, profit — broader scope)\n- ⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧: research (systematic, academic study)",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T14:24:47Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -176,7 +176,8 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

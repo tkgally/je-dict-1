@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16499_dekiai_ex1",
-      "japanese": "{祖父|そふ}は{孫|まご}を{溺愛|できあい}している。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{孫|まご}→孫：03731_mago⟧⟦を→を：00422_wo⟧{溺愛|できあい}⟦している→する：00392_suru⟧。",
       "english": "My grandfather dotes on his grandchild.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16499_dekiai_ex2",
-      "japanese": "{息子|むすこ}を{溺愛|できあい}するあまり、{何|なん}でも{買|か}い{与|あた}えてしまう。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦を→を：00422_wo⟧{溺愛|できあい}⟦する→する：00392_suru⟧あまり、⟦{何|なん}→何〜：03100_nan⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{買|か}い{与|あた}えてしまう。",
       "english": "She dotes on her son so much that she ends up buying him everything.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16499_dekiai_ex3",
-      "japanese": "{親|おや}の{溺愛|できあい}は{子|こ}どもの{自立|じりつ}を{妨|さまた}げることがあると{言|い}われている。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦の→の：09472_no⟧{溺愛|できあい}⟦は→は：00079_ha⟧{子|こ}ども⟦の→の：09472_no⟧⟦{自立|じりつ}→自立：13970_jiritsu⟧⟦を→を：00422_wo⟧⟦{妨|さまた}げる→妨げる：12223_samatageru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that a parent's excessive doting can hinder a child's independence.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する. Almost always carries a critical or cautionary nuance — the love described is seen as excessive or unhealthy. The kanji {溺|おぼ}れる means \"to drown,\" so the word literally evokes being drowned in love.\n\nCOMMON COLLOCATIONS:\n- {溺愛|できあい}する (to dote excessively on)\n- {溺愛|できあい}ぶり (the extent of one's doting)\n- {子|こ}どもを{溺愛|できあい}する (to dote on one's child)\n\nSIMILAR WORDS:\n- {可愛|かわい}がる: to cherish — positive and natural affection without the negative connotation\n- {甘|あま}やかす: to spoil — focusing on permissive parenting rather than the emotional intensity",
+  "notes": "USAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧. Almost always carries a critical or cautionary nuance — the love described is seen as excessive or unhealthy. The kanji ⟦{溺|おぼ}れる→溺れる：02026_oboreru⟧ means \"to drown,\" so the word literally evokes being drowned in love.\n\nCOMMON COLLOCATIONS:\n- {溺愛|できあい}⟦する→する：00392_suru⟧ (to dote excessively on)\n- {溺愛|できあい}⟦ぶり→〜ぶり：28358_buri⟧ (the extent of one's doting)\n- {子|こ}ども⟦を→を：00422_wo⟧{溺愛|できあい}⟦する→する：00392_suru⟧ (to dote on one's child)\n\nSIMILAR WORDS:\n- {可愛|かわい}⟦がる→〜がる：03089_garu⟧: to cherish — positive and natural affection without the negative connotation\n- ⟦{甘|あま}やかす→甘やかす：06625_amayakasu⟧: to spoil — focusing on permissive parenting rather than the emotional intensity",
   "cross_references": [
     {
       "type": "contrast",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-13T03:48:02Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
         "emotion",
         "family"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

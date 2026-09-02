@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20916_kansui_ex1",
-      "japanese": "{道路|どうろ}が{冠水|かんすい}した。",
+      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧{冠水|かんすい}⟦した→する：00392_suru⟧。",
       "english": "The road was flooded.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20916_kansui_ex2",
-      "japanese": "{大雨|おおあめ}で{地下道|ちかどう}が{冠水|かんすい}している。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦で→で：00502_de⟧⟦{地下道|ちかどう}→地下道：06495_chikadou⟧⟦が→が：00051_ga⟧{冠水|かんすい}⟦している→する：00392_suru⟧。",
       "english": "The underpass is flooded due to heavy rain.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20916_kansui_ex3",
-      "japanese": "{冠水|かんすい}した{道路|どうろ}は{通行止|つうこうど}めになった。",
+      "japanese": "{冠水|かんすい}⟦した→する：00392_suru⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦は→は：00079_ha⟧⟦{通行止|つうこうど}め→通行止め：19920_tsuukoudome⟧になった。",
       "english": "The flooded road was closed to traffic.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {冠|かん} (crown, cover) + {水|すい} (water). Literally \"crowned with water\" — referring to an area being covered by floodwater. Commonly used in weather reports and disaster news.\n\nCOMMON COLLOCATIONS:\n- {道路|どうろ}が{冠水|かんすい}する: roads flood\n- {冠水|かんすい}した{地域|ちいき}: flooded area\n- {冠水|かんすい}{被害|ひがい}: flood damage\n- {冠水|かんすい}の{恐|おそ}れ: risk of flooding\n\nSIMILAR WORDS:\n- {浸水|しんすい}: flooding (of buildings) — water entering and soaking into structures; used for {床上浸水|ゆかうえしんすい} (above-floor flooding) and {床下浸水|ゆかしたしんすい} (below-floor flooding)\n- {洪水|こうずい}: flood — a large-scale overflow of water, especially from rivers\n- {氾濫|はんらん}: overflow, flooding — specifically when a river overflows its banks",
+  "notes": "Composed of {冠|かん} (crown, cover) + {水|すい} (water). Literally \"crowned with water\" — referring to an area being covered by floodwater. Commonly used in weather reports and disaster news.\n\nCOMMON COLLOCATIONS:\n- ⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧{冠水|かんすい}⟦する→する：00392_suru⟧: roads flood\n- {冠水|かんすい}⟦した→する：00392_suru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧: flooded area\n- {冠水|かんすい}⟦{被害|ひがい}→被害：02572_higai⟧: flood damage\n- {冠水|かんすい}⟦の→の：09472_no⟧{恐|おそ}れ: risk of flooding\n\nSIMILAR WORDS:\n- ⟦{浸水|しんすい}→浸水：14945_shinsui⟧: flooding (of buildings) — water entering and soaking into structures; used for ⟦{床上浸水|ゆかうえしんすい}→床上浸水：23615_yukaueshinsui⟧ (above-floor flooding) and ⟦{床下浸水|ゆかしたしんすい}→床下浸水：23614_yukashitashinsui⟧ (below-floor flooding)\n- ⟦{洪水|こうずい}→洪水：05065_kouzui⟧: flood — a large-scale overflow of water, especially from rivers\n- ⟦{氾濫|はんらん}→氾濫：09256_hanran⟧: overflow, flooding — specifically when a river overflows its banks",
   "conjugation_type": "suru",
   "schema_version": "2.0",
   "cross_references": [
@@ -111,10 +111,11 @@
         "weather",
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-30T20:16:20Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

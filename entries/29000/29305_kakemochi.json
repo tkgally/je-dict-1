@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29305_kakemochi_ex1",
-      "japanese": "アルバイトを{掛|か}け{持|も}ちする。",
+      "japanese": "⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧{掛|か}け{持|も}ち⟦する→する：00392_suru⟧。",
       "english": "to work several part-time jobs at once.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29305_kakemochi_ex2",
-      "japanese": "{二|ふた}つのクラブを{掛|か}け{持|も}ちしている。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦クラブ→クラブ：10812_kurabu⟧⟦を→を：00422_wo⟧{掛|か}け{持|も}ち⟦している→する：00392_suru⟧。",
       "english": "I belong to two clubs at the same time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29305_kakemochi_ex3",
-      "japanese": "{彼女|かのじょ}は{仕事|しごと}と{家事|かじ}を{掛|か}け{持|も}ちして{毎日|まいにち}{忙|いそが}しい。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦と→と：00512_to⟧⟦{家事|かじ}→家事：12313_kaji⟧⟦を→を：00422_wo⟧{掛|か}け{持|も}ち⟦して→する：00392_suru⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "She juggles work and housework, so she is busy every day.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes managing multiple commitments in parallel. Frequently used with アルバイト (part-time jobs) and クラブ (clubs). As a する-verb it means to carry on several things at once.\n\nCOMMON COLLOCATIONS:\n- アルバイトの{掛|か}け{持|も}ち: working several part-time jobs\n- {掛|か}け{持|も}ちで{働|はたら}く: to work multiple jobs\n- スケジュールを{掛|か}け{持|も}ちする: to juggle overlapping schedules",
+  "notes": "Describes managing multiple commitments in parallel. Frequently used with ⟦アルバイト→アルバイト：01528_arubaito⟧ (part-time jobs) and ⟦クラブ→クラブ：10812_kurabu⟧ (clubs). As a ⟦する→する：00392_suru⟧-verb it means to carry on several things at once.\n\nCOMMON COLLOCATIONS:\n- ⟦アルバイト→アルバイト：01528_arubaito⟧⟦の→の：09472_no⟧{掛|か}け{持|も}ち: working several part-time jobs\n- {掛|か}け{持|も}ち⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work multiple jobs\n- ⟦スケジュール→スケジュール：03850_sukejuuru⟧⟦を→を：00422_wo⟧{掛|か}け{持|も}ち⟦する→する：00392_suru⟧: to juggle overlapping schedules",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,10 +59,11 @@
         "work"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-06-17T06:20:08Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "conjugation": {
     "type": "suru",

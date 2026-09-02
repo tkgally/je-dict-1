@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17132_teigen_ex1",
-      "japanese": "{専門家|せんもんか}が{提言|ていげん}をまとめた。",
+      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦が→が：00051_ga⟧{提言|ていげん}⟦を→を：00422_wo⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "The experts compiled their recommendations.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17132_teigen_ex2",
-      "japanese": "{委員会|いいんかい}は{政府|せいふ}に{改革|かいかく}を{提言|ていげん}した。",
+      "japanese": "⟦{委員会|いいんかい}→委員会：12234_iinkai⟧⟦は→は：00079_ha⟧⟦{政府|せいふ}→政府：03294_seifu⟧⟦に→に：00314_ni⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧{提言|ていげん}⟦した→する：00392_suru⟧。",
       "english": "The committee proposed reforms to the government.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17132_teigen_ex3",
-      "japanese": "{環境|かんきょう}{問題|もんだい}に{関|かん}する{提言|ていげん}が{報告書|ほうこくしょ}にまとめられた。",
+      "japanese": "⟦{環境|かんきょう}{問題|もんだい}→環境問題：10136_kankyoumondai⟧⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧{提言|ていげん}⟦が→が：00051_ga⟧⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦に→に：00314_ni⟧⟦まとめられた→まとめる：02424_matomeru⟧。",
       "english": "Recommendations regarding environmental issues were compiled in a report.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {提|てい} (present, put forward) + {言|げん} (words). Used as a suru verb ({提言|ていげん}する) to formally propose or recommend. Common in politics, business, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {提言|ていげん}をまとめる (to compile recommendations)\n- {提言|ていげん}を{行|おこな}う (to make a proposal)\n- {政策|せいさく}{提言|ていげん} (policy recommendation)\n\nSIMILAR WORDS:\n- {提案|ていあん}: proposal — more general, used in everyday business and conversation\n- {助言|じょげん}: advice — personal guidance rather than formal recommendations",
+  "notes": "USAGE:\nA compound of {提|てい} (present, put forward) + {言|げん} (words). Used as a suru verb ({提言|ていげん}⟦する→する：00392_suru⟧) to formally propose or recommend. Common in politics, business, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {提言|ていげん}⟦を→を：00422_wo⟧⟦まとめる→まとめる：02424_matomeru⟧ (to compile recommendations)\n- {提言|ていげん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to make a proposal)\n- ⟦{政策|せいさく}→政策：10070_seisaku⟧{提言|ていげん} (policy recommendation)\n\nSIMILAR WORDS:\n- ⟦{提案|ていあん}→提案：03536_teian⟧: proposal — more general, used in everyday business and conversation\n- ⟦{助言|じょげん}→助言：05461_jogen⟧: advice — personal guidance rather than formal recommendations",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-16T03:06:11Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

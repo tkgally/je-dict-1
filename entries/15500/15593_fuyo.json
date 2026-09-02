@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15593_fuyo_ex1",
-      "japanese": "ポイントを{付与|ふよ}する。",
+      "japanese": "⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧{付与|ふよ}⟦する→する：00392_suru⟧。",
       "english": "To award points.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15593_fuyo_ex2",
-      "japanese": "{社員|しゃいん}にアクセス{権|けん}を{付与|ふよ}した。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦に→に：00314_ni⟧⟦アクセス→アクセス：10696_akusesu⟧{権|けん}⟦を→を：00422_wo⟧{付与|ふよ}⟦した→する：00392_suru⟧。",
       "english": "Access rights were granted to the employee.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15593_fuyo_ex3",
-      "japanese": "{会員|かいいん}{登録|とうろく}をすると、{特典|とくてん}ポイントが{付与|ふよ}されます。",
+      "japanese": "⟦{会員|かいいん}{登録|とうろく}→会員登録：22815_kaiintouroku⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{特典|とくてん}→特典：13469_tokuten⟧⟦ポイント→ポイント：11283_pointo⟧⟦が→が：00051_ga⟧{付与|ふよ}⟦されます→する：00392_suru⟧。",
       "english": "When you register as a member, bonus points will be awarded.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{付与|ふよ}する is a formal verb meaning to grant or bestow something, typically used for abstract things like rights, authority, or rewards rather than physical objects.\n\nCOMMON COLLOCATIONS:\n- ポイントを{付与|ふよ}する (to award points)\n- {権限|けんげん}を{付与|ふよ}する (to grant authority)\n- {資格|しかく}を{付与|ふよ}する (to confer a qualification)\n\nSIMILAR WORDS:\n{与|あた}える is a more general word for giving, while {付与|ふよ} specifically implies formal bestowal by an organization or authority. {授与|じゅよ} is used for ceremonially presenting awards or diplomas.",
+  "notes": "USAGE:\n{付与|ふよ}⟦する→する：00392_suru⟧ is a formal verb meaning to grant or bestow something, typically used for abstract things like rights, authority, or rewards rather than physical objects.\n\nCOMMON COLLOCATIONS:\n- ⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧{付与|ふよ}⟦する→する：00392_suru⟧ (to award points)\n- ⟦{権限|けんげん}→権限：10600_kengen⟧⟦を→を：00422_wo⟧{付与|ふよ}⟦する→する：00392_suru⟧ (to grant authority)\n- ⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧{付与|ふよ}⟦する→する：00392_suru⟧ (to confer a qualification)\n\nSIMILAR WORDS:\n⟦{与|あた}える→与える：01821_ataeru⟧ is a more general word for giving, while {付与|ふよ} specifically implies formal bestowal by an organization or authority. ⟦{授与|じゅよ}→授与：12900_juyo⟧ is used for ceremonially presenting awards or diplomas.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:02:39Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

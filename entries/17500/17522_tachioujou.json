@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17522_tachioujou_ex1",
-      "japanese": "{大雪|おおゆき}で{車|くるま}が{立|た}ち{往生|おうじょう}した。",
+      "japanese": "⟦{大雪|おおゆき}→大雪：03017_ooyuki⟧⟦で→で：00502_de⟧⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{立|た}ち{往生|おうじょう}⟦した→する：00392_suru⟧。",
       "english": "Cars were stranded due to heavy snow.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17522_tachioujou_ex2",
-      "japanese": "{交渉|こうしょう}が{立|た}ち{往生|おうじょう}して{進|すす}まない。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{立|た}ち{往生|おうじょう}⟦して→する：00392_suru⟧⟦{進|すす}まない→進む：01225_susumu⟧。",
       "english": "The negotiations are at a standstill and not making progress.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17522_tachioujou_ex3",
-      "japanese": "{高速道路|こうそくどうろ}で{数百台|すうひゃくだい}のトラックが{立|た}ち{往生|おうじょう}する{事態|じたい}になった。",
+      "japanese": "⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧⟦で→で：00502_de⟧{数百台|すうひゃくだい}⟦の→の：09472_no⟧⟦トラック→トラック：03863_torakku⟧⟦が→が：00051_ga⟧{立|た}ち{往生|おうじょう}⟦する→する：00392_suru⟧⟦{事態|じたい}→事態：10151_jitai⟧になった。",
       "english": "The situation escalated to hundreds of trucks being stranded on the expressway.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nOriginally refers to the legendary death of the warrior monk Benkei, who died standing up ({立|た}ったまま{往生|おうじょう}する). Now used to describe being unable to move from a spot.\n\nUSAGE:\nCommonly appears in news reports about vehicles stuck in snow or traffic. Also used figuratively for stalled negotiations, projects, or plans.\n\nCOMMON COLLOCATIONS:\n- {車|くるま}が{立|た}ち{往生|おうじょう}する (cars get stranded)\n- {大雪|おおゆき}で{立|た}ち{往生|おうじょう}する (to be stranded by heavy snow)\n- {交渉|こうしょう}が{立|た}ち{往生|おうじょう}する (negotiations reach a standstill)\n\nSIMILAR WORDS:\n- {動|うご}けない: unable to move — simpler, more direct\n- {行|い}き{詰|づ}まる: to reach a deadlock — focuses on inability to progress\n- {足止|あしど}め: being stuck in a place — often due to weather or regulations",
+  "notes": "ETYMOLOGY:\nOriginally refers to the legendary death of the warrior monk Benkei, who died standing up (⟦{立|た}った→立つ：00758_tatsu⟧まま⟦{往生|おうじょう}→往生：12704_oujou⟧⟦する→する：00392_suru⟧). Now used to describe being unable to move from a spot.\n\nUSAGE:\nCommonly appears in news reports about vehicles stuck in snow or traffic. Also used figuratively for stalled negotiations, projects, or plans.\n\nCOMMON COLLOCATIONS:\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{立|た}ち{往生|おうじょう}⟦する→する：00392_suru⟧ (cars get stranded)\n- ⟦{大雪|おおゆき}→大雪：03017_ooyuki⟧⟦で→で：00502_de⟧{立|た}ち{往生|おうじょう}⟦する→する：00392_suru⟧ (to be stranded by heavy snow)\n- ⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{立|た}ち{往生|おうじょう}⟦する→する：00392_suru⟧ (negotiations reach a standstill)\n\nSIMILAR WORDS:\n- ⟦{動|うご}けない→動く：00904_ugoku⟧: unable to move — simpler, more direct\n- ⟦{行|い}き{詰|づ}まる→行き詰まる：09346_ikizumaru⟧: to reach a deadlock — focuses on inability to progress\n- ⟦{足止|あしど}め→足止め：16727_ashidome⟧: being stuck in a place — often due to weather or regulations",
   "cross_references": [
     {
       "type": "related",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-18T07:59:49Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

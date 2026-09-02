@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26057_oodaiware_ex1",
-      "japanese": "{株価|かぶか}が{大台割|おおだいわ}れした。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{大台割|おおだいわ}れ⟦した→する：00392_suru⟧。",
       "english": "The stock price fell below a key milestone.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26057_oodaiware_ex2",
-      "japanese": "{人口|じんこう}の{大台割|おおだいわ}れが{現実|げんじつ}になりつつある。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦の→の：09472_no⟧{大台割|おおだいわ}れ⟦が→が：00051_ga⟧⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧つつ⟦ある→ある：00006_aru⟧。",
       "english": "The population dropping below a milestone is becoming a reality.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26057_oodaiware_ex3",
-      "japanese": "{日経平均|にっけいへいきん}が2{万円|まんえん}の{大台割|おおだいわ}れとなり、{市場|しじょう}に{不安|ふあん}が{広|ひろ}がった。",
+      "japanese": "{日経平均|にっけいへいきん}⟦が→が：00051_ga⟧2{万円|まんえん}⟦の→の：09472_no⟧{大台割|おおだいわ}れとなり、⟦{市場|しじょう}→市場：09685_shijou⟧⟦に→に：00314_ni⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "The Nikkei average fell below the 20,000-yen milestone, spreading unease through the market.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {大台|おおだい} (milestone number, round-number level) + {割|わ}れ (breaking, falling below). The term {大台|おおだい} refers to psychologically significant round numbers. When such a number is breached downward, it often triggers attention in financial markets and news reporting.\n\nCOMMON COLLOCATIONS:\n- {大台割|おおだいわ}れする: to fall below a milestone (verb form with する)\n- {大台割|おおだいわ}れとなる: to result in falling below a milestone\n- 1{万|まん}{円|えん}の{大台割|おおだいわ}れ: falling below the 10,000-yen mark\n\nCONTRASTED WITH:\n- {大台|おおだい}に{乗|の}る: to reach a milestone number (going up)\n- {大台|おおだい}に{乗|の}せる: to push up to a milestone number\n- {大台|おおだい}{突破|とっぱ}: breaking through a milestone (upward)\n\nUSAGE:\n{大台割|おおだいわ}れ is almost always used for downward breaches and carries a negative or alarming tone. The upward equivalent uses different expressions like {大台|おおだい}に{乗|の}る.",
+  "notes": "Composed of ⟦{大台|おおだい}→大台：12249_oodai⟧ (milestone number, round-number level) + ⟦{割|わ}れ→割る：02334_waru⟧ (breaking, falling below). The term ⟦{大台|おおだい}→大台：12249_oodai⟧ refers to psychologically significant round numbers. When such a number is breached downward, it often triggers attention in financial markets and news reporting.\n\nCOMMON COLLOCATIONS:\n- {大台割|おおだいわ}れ⟦する→する：00392_suru⟧: to fall below a milestone (verb form with ⟦する→する：00392_suru⟧)\n- {大台割|おおだいわ}れ⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to result in falling below a milestone\n- 1{万|まん}⟦{円|えん}→円：00774_en⟧⟦の→の：09472_no⟧{大台割|おおだいわ}れ: falling below the 10,000-yen mark\n\nCONTRASTED WITH:\n- ⟦{大台|おおだい}→大台：12249_oodai⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to reach a milestone number (going up)\n- ⟦{大台|おおだい}→大台：12249_oodai⟧⟦に→に：00314_ni⟧⟦{乗|の}せる→乗せる：01972_noseru⟧: to push up to a milestone number\n- ⟦{大台|おおだい}→大台：12249_oodai⟧⟦{突破|とっぱ}→突破：13755_toppa⟧: breaking through a milestone (upward)\n\nUSAGE:\n{大台割|おおだいわ}れ is almost always used for downward breaches and carries a negative or alarming tone. The upward equivalent uses different expressions like ⟦{大台|おおだい}→大台：12249_oodai⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧.",
   "metadata": {
     "tags": {
       "pos": [
@@ -56,11 +56,12 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "vocabulary_tier": "general",
     "created": "2026-04-29T11:22:14Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "cross_references": [
     {

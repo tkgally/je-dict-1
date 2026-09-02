@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27406_shiatsu_ex1",
-      "japanese": "{肩|かた}を{指圧|しあつ}してもらった。",
+      "japanese": "⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧{指圧|しあつ}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my shoulders massaged with shiatsu.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27406_shiatsu_ex2",
-      "japanese": "{指圧|しあつ}{師|し}に{腰|こし}を{治療|ちりょう}してもらう。",
+      "japanese": "{指圧|しあつ}{師|し}⟦に→に：00314_ni⟧⟦{腰|こし}→腰：02210_koshi⟧⟦を→を：00422_wo⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦して→する：00392_suru⟧⟦もらう→もらう：00520_morau⟧。",
       "english": "To have a shiatsu therapist treat my lower back.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27406_shiatsu_ex3",
-      "japanese": "{長時間|ちょうじかん}のデスクワークで{凝|こ}り{固|かた}まった{肩|かた}を、{指圧|しあつ}で{丁寧|ていねい}にほぐしてもらった。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦の→の：09472_no⟧⟦デスク→デスク：23405_desuku⟧ワーク⟦で→で：00502_de⟧{凝|こ}り{固|かた}まった⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧、{指圧|しあつ}⟦で→で：00502_de⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦ほぐして→ほぐす：10496_hogusu⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my shoulders, stiffened from long hours of desk work, carefully loosened with shiatsu.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {指|ゆび}/{指|し} (\"finger\") + {圧|あつ} (\"pressure\"). A traditional Japanese therapeutic practice that draws on Chinese medicine theory of meridians and pressure points but developed into a recognized profession in early-20th-century Japan. Practitioners are licensed nationally as あん{摩|ま}マッサージ{指圧|しあつ}{師|し}.\n\nCOMMON COLLOCATIONS:\n- {指圧|しあつ}する: to give a shiatsu massage\n- {指圧|しあつ}を{受|う}ける: to receive a shiatsu treatment\n- {指圧|しあつ}{師|し}: shiatsu practitioner\n- {指圧|しあつ}{療法|りょうほう}: shiatsu therapy\n\nSIMILAR WORDS:\n- マッサージ: massage — generic term; includes shiatsu, oil massage, etc.\n- {整体|せいたい}: chiropractic-like body adjustment — focuses on skeletal alignment\n- {鍼灸|しんきゅう}: acupuncture and moxibustion — uses needles and heat, not pressure",
+  "notes": "Compound of ⟦{指|ゆび}→指：01518_yubi⟧/{指|し} (\"finger\") + {圧|あつ} (\"pressure\"). A traditional Japanese therapeutic practice that draws on Chinese medicine theory of meridians and pressure points but developed into a recognized profession in early-20th-century Japan. Practitioners are licensed nationally as あん{摩|ま}⟦マッサージ→マッサージ：00272_massaaji⟧{指圧|しあつ}{師|し}.\n\nCOMMON COLLOCATIONS:\n- {指圧|しあつ}⟦する→する：00392_suru⟧: to give a shiatsu massage\n- {指圧|しあつ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a shiatsu treatment\n- {指圧|しあつ}{師|し}: shiatsu practitioner\n- {指圧|しあつ}⟦{療法|りょうほう}→療法：13615_ryouhou⟧: shiatsu therapy\n\nSIMILAR WORDS:\n- ⟦マッサージ→マッサージ：00272_massaaji⟧: massage — generic term; includes shiatsu, oil massage, etc.\n- ⟦{整体|せいたい}→整体：27407_seitai⟧: chiropractic-like body adjustment — focuses on skeletal alignment\n- {鍼灸|しんきゅう}: acupuncture and moxibustion — uses needles and heat, not pressure",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -78,10 +78,11 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-11T07:07:51Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26962_kikomu_ex1",
-      "japanese": "{厚|あつ}く{着込|きこ}む。",
+      "japanese": "⟦{厚|あつ}く→厚い：00690_atsui⟧{着込|きこ}む。",
       "english": "To bundle up warmly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26962_kikomu_ex2",
-      "japanese": "{今日|きょう}は{寒|さむ}いからたくさん{着込|きこ}んだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{寒|さむ}い→寒い：00664_samui⟧⟦から→から：00504_kara⟧⟦たくさん→たくさん：00597_takusan⟧{着込|きこ}んだ。",
       "english": "I bundled up because it's cold today.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26962_kikomu_ex3",
-      "japanese": "セーターの{上|うえ}にコートまで{着込|きこ}んで{出|で}かけた。",
+      "japanese": "⟦セーター→セーター：01371_seetaa⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦コート→コート：01358_kooto⟧⟦まで→まで：00490_made⟧{着込|きこ}んで⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "I put on a coat over my sweater and went out.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26962_kikomu_ex4",
-      "japanese": "{子供|こども}たちは{何枚|なんまい}も{着込|きこ}んで{雪遊|ゆきあそ}びに{出|で}かけた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧⟦{何枚|なんまい}→何枚：08777_nanmai⟧⟦も→も：00484_mo⟧{着込|きこ}んで{雪遊|ゆきあそ}び⟦に→に：00314_ni⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "The children bundled up in many layers and went out to play in the snow.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {着|き}る (to wear) and {込|こ}む (suffix indicating thoroughness or accumulation). The {込|こ}む adds the nuance of putting on clothes in abundance or layers.\n\nCOMMON COLLOCATIONS:\n- {厚|あつ}く{着込|きこ}む: to dress in thick layers\n- たくさん{着込|きこ}む: to put on lots of layers\n- {何枚|なんまい}も{着込|きこ}む: to wear many layers\n- しっかり{着込|きこ}む: to bundle up properly\n\nSIMILAR WORDS:\n- {重|かさ}ね{着|ぎ}: layering clothes — a noun describing the fashion or practice of wearing layers\n- {着|き}る: to wear, put on — basic verb for wearing; no implication of multiple layers\n- {羽織|はお}る: to throw on, drape over — putting on a single outer garment casually",
+  "notes": "Compound of ⟦{着|き}る→着る：00541_kiru⟧ (to wear) and ⟦{込|こ}む→込む：00719_komu⟧ (suffix indicating thoroughness or accumulation). The ⟦{込|こ}む→込む：00719_komu⟧ adds the nuance of putting on clothes in abundance or layers.\n\nCOMMON COLLOCATIONS:\n- ⟦{厚|あつ}く→厚い：00690_atsui⟧{着込|きこ}む: to dress in thick layers\n- ⟦たくさん→たくさん：00597_takusan⟧{着込|きこ}む: to put on lots of layers\n- ⟦{何枚|なんまい}→何枚：08777_nanmai⟧⟦も→も：00484_mo⟧{着込|きこ}む: to wear many layers\n- ⟦しっかり→しっかり：01272_shikkari⟧{着込|きこ}む: to bundle up properly\n\nSIMILAR WORDS:\n- ⟦{重|かさ}ね{着|ぎ}→重ね着：26975_kasanegi⟧: layering clothes — a noun describing the fashion or practice of wearing layers\n- ⟦{着|き}る→着る：00541_kiru⟧: to wear, put on — basic verb for wearing; no implication of multiple layers\n- ⟦{羽織|はお}る→羽織る：13901_haoru⟧: to throw on, drape over — putting on a single outer garment casually",
   "cross_references": [
     {
       "type": "contrast",
@@ -91,10 +91,11 @@
         "clothing"
       ],
       "domain": [],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "transitive"
     },
     "created": "2026-05-06T12:16:56Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "godan",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24161_rakusei_ex1",
-      "japanese": "{新|あたら}しいビルが{落成|らくせい}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ビル→ビル：01500_biru⟧⟦が→が：00051_ga⟧{落成|らくせい}⟦した→する：00392_suru⟧。",
       "english": "The new building was completed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24161_rakusei_ex2",
-      "japanese": "{落成|らくせい}{式|しき}に{多|おお}くの{来賓|らいひん}が{招|まね}かれた。",
+      "japanese": "{落成|らくせい}{式|しき}⟦に→に：00314_ni⟧{多|おお}く⟦の→の：09472_no⟧⟦{来賓|らいひん}→来賓：28580_raihin⟧⟦が→が：00051_ga⟧⟦{招|まね}かれた→招く：02425_maneku⟧。",
       "english": "Many guests were invited to the inauguration ceremony.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24161_rakusei_ex3",
-      "japanese": "{図書館|としょかん}の{落成|らくせい}は{来年|らいねん}の{春|はる}に{予定|よてい}されている。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦の→の：09472_no⟧{落成|らくせい}⟦は→は：00079_ha⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦の→の：09472_no⟧⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦されている→する：00392_suru⟧。",
       "english": "The completion of the library is scheduled for next spring.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Specifically refers to the completion of a building or large structure, often accompanied by a formal ceremony. Not used for completing tasks, projects, or abstract work.\n\nCOMMON COLLOCATIONS:\n- {落成|らくせい}{式|しき}: inauguration ceremony, completion ceremony\n- {落成|らくせい}{披露|ひろう}: unveiling of a completed building\n- {落成|らくせい}{記念|きねん}: commemoration of building completion\n- {落成|らくせい}{祝|いわ}い: celebration of building completion\n\nSIMILAR WORDS:\n- {完成|かんせい}: completion — general-purpose; used for any project, work, or object, not limited to buildings\n- {竣工|しゅんこう}: completion of construction — technical term used in the construction industry, more formal than {落成|らくせい}\n- {開業|かいぎょう}: opening of business — focuses on starting operations rather than building completion",
+  "notes": "Specifically refers to the completion of a building or large structure, often accompanied by a formal ceremony. Not used for completing tasks, projects, or abstract work.\n\nCOMMON COLLOCATIONS:\n- {落成|らくせい}{式|しき}: inauguration ceremony, completion ceremony\n- {落成|らくせい}⟦{披露|ひろう}→披露：09683_hirou⟧: unveiling of a completed building\n- {落成|らくせい}⟦{記念|きねん}→記念：00232_kinen⟧: commemoration of building completion\n- {落成|らくせい}⟦{祝|いわ}い→祝い：01838_iwai⟧: celebration of building completion\n\nSIMILAR WORDS:\n- ⟦{完成|かんせい}→完成：01550_kansei⟧: completion — general-purpose; used for any project, work, or object, not limited to buildings\n- ⟦{竣工|しゅんこう}→竣工：16491_shunkou⟧: completion of construction — technical term used in the construction industry, more formal than {落成|らくせい}\n- ⟦{開業|かいぎょう}→開業：14570_kaigyou⟧: opening of business — focuses on starting operations rather than building completion",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -83,10 +83,11 @@
       "usage": [
         "formal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-17T21:35:28Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:17Z"
   },
   "conjugation": {
     "type": "suru",

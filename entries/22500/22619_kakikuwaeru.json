@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22619_kakikuwaeru_ex1",
-      "japanese": "メモに{一言|ひとこと}{書|か}き{加|くわ}えた。",
+      "japanese": "⟦メモ→メモ：00274_memo⟧⟦に→に：00314_ni⟧⟦{一言|ひとこと}→一言：03708_hitokoto⟧{書|か}き{加|くわ}えた。",
       "english": "I added a word to the memo.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22619_kakikuwaeru_ex2",
-      "japanese": "{報告書|ほうこくしょ}に{新|あたら}しいデータを{書|か}き{加|くわ}えた。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{書|か}き{加|くわ}えた。",
       "english": "I added new data to the report.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22619_kakikuwaeru_ex3",
-      "japanese": "{契約書|けいやくしょ}に{条件|じょうけん}を{一|ひと}つ{書|か}き{加|くわ}えてもらえますか。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦に→に：00314_ni⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧{書|か}き{加|くわ}えて⟦もらえます→もらう：00520_morau⟧⟦か→か：09473_ka⟧。",
       "english": "Could you add one condition to the contract?",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {書|か}く (to write) and {加|くわ}える (to add). Used when appending or inserting additional written content to an existing document or text.\n\nUSAGE:\nThe target document is marked by に, and the content being added is marked by を:\n- 〜に〜を{書|か}き{加|くわ}える\n\nCOMMON COLLOCATIONS:\n- メモに{書|か}き{加|くわ}える: to add to a memo\n- {注釈|ちゅうしゃく}を{書|か}き{加|くわ}える: to add an annotation\n- {補足|ほそく}を{書|か}き{加|くわ}える: to add a supplement\n- {余白|よはく}に{書|か}き{加|くわ}える: to write in the margin\n\nSIMILAR WORDS:\n- {付|つ}け{加|くわ}える: to add on — more general, not limited to writing\n- {追記|ついき}する: to add a postscript — more formal, often at the end of a document\n- {書|か}き{足|た}す: to write more, to supplement — very similar, slightly more casual",
+  "notes": "A compound verb formed from ⟦{書|か}く→書く：00477_kaku⟧ (to write) and ⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to add). Used when appending or inserting additional written content to an existing document or text.\n\nUSAGE:\nThe target document is marked by ⟦に→に：00314_ni⟧, and the content being added is marked by ⟦を→を：00422_wo⟧:\n- 〜⟦に→に：00314_ni⟧〜⟦を→を：00422_wo⟧{書|か}き{加|くわ}える\n\nCOMMON COLLOCATIONS:\n- ⟦メモ→メモ：00274_memo⟧⟦に→に：00314_ni⟧{書|か}き{加|くわ}える: to add to a memo\n- ⟦{注釈|ちゅうしゃく}→注釈：09766_chuushaku⟧⟦を→を：00422_wo⟧{書|か}き{加|くわ}える: to add an annotation\n- ⟦{補足|ほそく}→補足：08386_hosoku⟧⟦を→を：00422_wo⟧{書|か}き{加|くわ}える: to add a supplement\n- ⟦{余白|よはく}→余白：06838_yohaku⟧⟦に→に：00314_ni⟧{書|か}き{加|くわ}える: to write in the margin\n\nSIMILAR WORDS:\n- ⟦{付|つ}け{加|くわ}える→付け加える：11520_tsukekuwaeru⟧: to add on — more general, not limited to writing\n- ⟦{追記|ついき}→追記：17128_tsuiki⟧⟦する→する：00392_suru⟧: to add a postscript — more formal, often at the end of a document\n- ⟦{書|か}き{足|た}す→書き足す：06851_kakitasu⟧: to write more, to supplement — very similar, slightly more casual",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -80,10 +80,11 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T20:22:04Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13877_soukatsu_ex1",
-      "japanese": "{今年度|こんねんど}の{活動|かつどう}を{総括|そうかつ}する。",
+      "japanese": "⟦{今年度|こんねんど}→今年度：28220_konnendo⟧⟦の→の：09472_no⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧{総括|そうかつ}⟦する→する：00392_suru⟧。",
       "english": "Review this year's activities as a whole.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13877_soukatsu_ex2",
-      "japanese": "{会議|かいぎ}の{最後|さいご}に{議長|ぎちょう}が{総括|そうかつ}を{行|おこな}った。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧⟦{議長|ぎちょう}→議長：02681_gichou⟧⟦が→が：00051_ga⟧{総括|そうかつ}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "At the end of the meeting, the chair gave a summary.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13877_soukatsu_ex3",
-      "japanese": "プロジェクトの{成功|せいこう}と{失敗|しっぱい}を{総括|そうかつ}して{次|つぎ}に{活|い}かす。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦と→と：00512_to⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦を→を：00422_wo⟧{総括|そうかつ}⟦して→する：00392_suru⟧⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧⟦{活|い}かす→活かす：10422_ikasu⟧。",
       "english": "Sum up the project's successes and failures and apply them to the next one.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommon in business, government, and organizational contexts. Often used at the end of a period or project to review what happened overall. The pattern {総括|そうかつ}を{行|おこな}う (conduct a review) is standard in formal settings.\n\nSIMILAR WORDS:\n- {要約|ようやく}: summary (condensing content)\n- まとめ: summary, wrap-up (casual)\n- {概括|がいかつ}: general summary, outline\n\nCOMMON COLLOCATIONS:\n- {総括|そうかつ}を{行|おこな}う: conduct a summary/review\n- {年度|ねんど}{総括|そうかつ}: annual review\n- {総括|そうかつ}{報告|ほうこく}: summary report\n- {総括|そうかつ}{的|てき}: comprehensive, overall",
+  "notes": "USAGE:\nCommon in business, government, and organizational contexts. Often used at the end of a period or project to review what happened overall. The pattern {総括|そうかつ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (conduct a review) is standard in formal settings.\n\nSIMILAR WORDS:\n- ⟦{要約|ようやく}→要約：14128_youyaku⟧: summary (condensing content)\n- ⟦まとめ→まとめ：10506_matome⟧: summary, wrap-up (casual)\n- {概括|がいかつ}: general summary, outline\n\nCOMMON COLLOCATIONS:\n- {総括|そうかつ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: conduct a summary/review\n- ⟦{年度|ねんど}→年度：00309_nendo⟧{総括|そうかつ}: annual review\n- {総括|そうかつ}⟦{報告|ほうこく}→報告：03618_houkoku⟧: summary report\n- {総括|そうかつ}⟦{的|てき}→〜的：09839_teki⟧: comprehensive, overall",
   "cross_references": [
     {
       "type": "synonym",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T05:51:55Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -190,7 +190,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

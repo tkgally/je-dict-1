@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29840_yominaosu_ex1",
-      "japanese": "メールを{読|よ}み{直|なお}した。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{読|よ}み{直|なお}した。",
       "english": "I reread the email.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29840_yominaosu_ex2",
-      "japanese": "{意味|いみ}がわからず、もう{一度|いちど}{読|よ}み{直|なお}した。",
+      "japanese": "⟦{意味|いみ}→意味：01155_imi⟧⟦が→が：00051_ga⟧わからず、⟦もう{一度|いちど}→もう一度：02976_mouichido⟧{読|よ}み{直|なお}した。",
       "english": "I didn't understand the meaning, so I read it over again.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29840_yominaosu_ex3",
-      "japanese": "{提出|ていしゅつ}する{前|まえ}に、レポートを{最初|さいしょ}から{読|よ}み{直|なお}して{誤|ご}りを{直|なお}した。",
+      "japanese": "⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧{読|よ}み{直|なお}して{誤|ご}り⟦を→を：00422_wo⟧⟦{直|なお}した→直す：00869_naosu⟧。",
       "english": "Before submitting it, I reread the report from the beginning and fixed the errors.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {読|よ}む (to read) + {直|なお}す (to redo, to fix). The ～{直|なお}す suffix means to do an action over again, often to correct or improve on the first attempt.\n\nTRANSITIVITY:\nTransitive; takes を for the thing reread ({手紙|てがみ}を{読|よ}み{直|なお}す).\n\nCOMMON COLLOCATIONS:\n- もう{一度|いちど}{読|よ}み{直|なお}す: to read it once more\n- {最初|さいしょ}から{読|よ}み{直|なお}す: to reread from the start\n- {何度|なんど}も{読|よ}み{直|なお}す: to reread many times\n\nSIMILAR WORDS:\n- {読|よ}み{返|かえ}す: to read back over — very close in meaning; often interchangeable\n- {見直|みなお}す: to look over again; to reassess — broader, not limited to reading text",
+  "notes": "Compound of ⟦{読|よ}む→読む：00426_yomu⟧ (to read) + {直|なお}す (to redo, to fix). The ～{直|なお}す suffix means to do an action over again, often to correct or improve on the first attempt.\n\nTRANSITIVITY:\nTransitive; takes ⟦を→を：00422_wo⟧ for the thing reread (⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧{読|よ}み{直|なお}す).\n\nCOMMON COLLOCATIONS:\n- ⟦もう{一度|いちど}→もう一度：02976_mouichido⟧{読|よ}み{直|なお}す: to read it once more\n- ⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧{読|よ}み{直|なお}す: to reread from the start\n- ⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{読|よ}み{直|なお}す: to reread many times\n\nSIMILAR WORDS:\n- ⟦{読|よ}み{返|かえ}す→読み返す：07954_yomikaesu⟧: to read back over — very close in meaning; often interchangeable\n- ⟦{見直|みなお}す→見直す：04579_minaosu⟧: to look over again; to reassess — broader, not limited to reading text",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,10 +74,11 @@
         "cognition"
       ],
       "domain": [],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-07-14T18:20:29Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "godan",

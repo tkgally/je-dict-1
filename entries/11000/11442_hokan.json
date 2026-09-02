@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11442_hokan_ex1",
-      "japanese": "{書類|しょるい}を{保管|ほかん}する。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{保管|ほかん}⟦する→する：00392_suru⟧。",
       "english": "To store documents.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11442_hokan_ex2",
-      "japanese": "{貴重品|きちょうひん}は{金庫|きんこ}に{保管|ほかん}してください。",
+      "japanese": "⟦{貴重品|きちょうひん}→貴重品：15344_kichouhin⟧⟦は→は：00079_ha⟧⟦{金庫|きんこ}→金庫：01749_kinko⟧⟦に→に：00314_ni⟧{保管|ほかん}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please keep valuables in the safe.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11442_hokan_ex3",
-      "japanese": "データは{安全|あんぜん}なサーバーに{保管|ほかん}されている。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦は→は：00079_ha⟧⟦{安全|あんぜん}→安全：01131_anzen⟧な⟦サーバー→サーバー：04755_saabaa⟧⟦に→に：00314_ni⟧{保管|ほかん}⟦されている→する：00392_suru⟧。",
       "english": "The data is stored on a secure server.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{保管|ほかん} means keeping something safely stored for future use or preservation. Compound of {保|ほ} (preserve) + {管|かん} (manage). Used as a する verb: {保管|ほかん}する.\n\nCOMMON COLLOCATIONS:\n- {保管|ほかん}{場所|ばしょ}: storage location\n- {保管|ほかん}{庫|こ}: storage room, warehouse\n- {保管|ほかん}{期間|きかん}: storage period\n- {冷蔵|れいぞう}{保管|ほかん}: cold/refrigerated storage\n- {厳重|げんじゅう}に{保管|ほかん}する: to store under strict security\n\nSIMILAR WORDS:\n- {保存|ほぞん}: preservation (emphasis on maintaining condition — food, files, historical items)\n- {保管|ほかん}: safekeeping (emphasis on storing securely — documents, valuables)\n- {収納|しゅうのう}: storage, putting away (organizing things neatly in a space)\n\nWATCH OUT:\nSame reading as {補完|ほかん} (supplementation/completion) — different meaning and kanji.",
+  "notes": "{保管|ほかん} means keeping something safely stored for future use or preservation. Compound of {保|ほ} (preserve) + ⟦{管|かん}→管：09749_kan⟧ (manage). Used as a ⟦する→する：00392_suru⟧ verb: {保管|ほかん}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {保管|ほかん}{場所|ばしょ}: storage location\n- {保管|ほかん}{庫|こ}: storage room, warehouse\n- {保管|ほかん}⟦{期間|きかん}→期間：00229_kikan⟧: storage period\n- ⟦{冷蔵|れいぞう}→冷蔵：11731_reizou⟧{保管|ほかん}: cold/refrigerated storage\n- ⟦{厳重|げんじゅう}→厳重：11887_genjuu⟧⟦に→に：00314_ni⟧{保管|ほかん}⟦する→する：00392_suru⟧: to store under strict security\n\nSIMILAR WORDS:\n- ⟦{保存|ほぞん}→保存：03626_hozon⟧: preservation (emphasis on maintaining condition — food, files, historical items)\n- {保管|ほかん}: safekeeping (emphasis on storing securely — documents, valuables)\n- ⟦{収納|しゅうのう}→収納：07497_shuunou⟧: storage, putting away (organizing things neatly in a space)\n\nWATCH OUT:\nSame reading as ⟦{補完|ほかん}→補完：14084_hokan⟧ (supplementation/completion) — different meaning and kanji.",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-16T10:57:49Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

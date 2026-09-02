@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18527_hosei_ex1",
-      "japanese": "{色|いろ}を{補正|ほせい}する。",
+      "japanese": "⟦{色|いろ}→色：00849_iro⟧⟦を→を：00422_wo⟧{補正|ほせい}⟦する→する：00392_suru⟧。",
       "english": "To correct the color.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18527_hosei_ex2",
-      "japanese": "{補正|ほせい}{予算|よさん}が{国会|こっかい}で{可決|かけつ}された。",
+      "japanese": "{補正|ほせい}⟦{予算|よさん}→予算：03663_yosan⟧⟦が→が：00051_ga⟧⟦{国会|こっかい}→国会：02761_kokkai⟧⟦で→で：00502_de⟧⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦された→する：00392_suru⟧。",
       "english": "The supplementary budget was passed in the Diet.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18527_hosei_ex3",
-      "japanese": "カメラの{露出|ろしゅつ}{補正|ほせい}を{調整|ちょうせい}して、{写真|しゃしん}の{明|あか}るさを{変|か}えた。",
+      "japanese": "⟦カメラ→カメラ：04417_kamera⟧⟦の→の：09472_no⟧⟦{露出|ろしゅつ}→露出：08077_roshutsu⟧{補正|ほせい}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}して→調整する：10442_chouseisuru⟧、⟦{写真|しゃしん}→写真：00753_shashin⟧⟦の→の：09472_no⟧{明|あか}るさ⟦を→を：00422_wo⟧⟦{変|か}えた→変える：01089_kaeru⟧。",
       "english": "I adjusted the camera's exposure compensation to change the brightness of the photo.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{補正|ほせい} means to make corrections or adjustments that supplement or refine something — common across government, technology, photography, and statistics.\n\nUSAGE:\n- Used as a する verb ({補正|ほせい}する) and as a noun in compounds.\n- Emphasizes supplementing or fine-tuning something to improve it, rather than fixing an outright error.\n\nCOMMON PATTERNS:\n- {補正|ほせい}{予算|よさん}: supplementary budget (an additional government budget passed after the initial annual one)\n- {露出|ろしゅつ}{補正|ほせい}: exposure compensation (photography)\n- {補正|ほせい}{下着|したぎ}: shapewear, body-shaping underwear\n- データを{補正|ほせい}する: to apply corrections to data\n- {季節|きせつ}{調整|ちょうせい}{補正|ほせい}: seasonal adjustment (statistics)\n\nSIMILAR WORDS:\n- {修正|しゅうせい}: correction/amendment, implying that something was wrong and needs to be fixed.\n- {訂正|ていせい}: correction of an error in a statement, document, or printed material.\n- {調整|ちょうせい}: adjustment, often without the connotation of error correction at all.",
+  "notes": "{補正|ほせい} means to make corrections or adjustments that supplement or refine something — common across government, technology, photography, and statistics.\n\nUSAGE:\n- Used as a ⟦する→する：00392_suru⟧ verb ({補正|ほせい}⟦する→する：00392_suru⟧) and as a noun in compounds.\n- Emphasizes supplementing or fine-tuning something to improve it, rather than fixing an outright error.\n\nCOMMON PATTERNS:\n- {補正|ほせい}⟦{予算|よさん}→予算：03663_yosan⟧: supplementary budget (an additional government budget passed after the initial annual one)\n- ⟦{露出|ろしゅつ}→露出：08077_roshutsu⟧{補正|ほせい}: exposure compensation (photography)\n- {補正|ほせい}⟦{下着|したぎ}→下着：01605_shitagi⟧: shapewear, body-shaping underwear\n- ⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{補正|ほせい}⟦する→する：00392_suru⟧: to apply corrections to data\n- ⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧{補正|ほせい}: seasonal adjustment (statistics)\n\nSIMILAR WORDS:\n- ⟦{修正|しゅうせい}→修正：03210_shuusei⟧: correction/amendment, implying that something was wrong and needs to be fixed.\n- ⟦{訂正|ていせい}→訂正：16493_teisei⟧: correction of an error in a statement, document, or printed material.\n- ⟦{調整|ちょうせい}→調整：14839_chousei⟧: adjustment, often without the connotation of error correction at all.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,10 +148,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-22T04:42:21Z",
-    "modified": "2026-09-02T02:55:16Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {

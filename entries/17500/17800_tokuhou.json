@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17800_tokuhou_ex1",
-      "japanese": "{特報|とくほう}が{入|はい}りました。",
+      "japanese": "{特報|とくほう}⟦が→が：00051_ga⟧⟦{入|はい}りました→入る：00494_hairu⟧。",
       "english": "We have breaking news.",
       "notes": "Standard phrasing used by TV news anchors.",
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17800_tokuhou_ex2",
-      "japanese": "{新作|しんさく}{映画|えいが}の{特報|とくほう}{映像|えいぞう}が{公開|こうかい}された。",
+      "japanese": "⟦{新作|しんさく}{映画|えいが}→新作映画：25174_shinsakueiga⟧⟦の→の：09472_no⟧{特報|とくほう}⟦{映像|えいぞう}→映像：04444_eizou⟧⟦が→が：00051_ga⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦された→する：00392_suru⟧。",
       "english": "A special preview clip of the new movie was released.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17800_tokuhou_ex3",
-      "japanese": "{地震|じしん}の{特報|とくほう}がテレビの{画面|がめん}に{表示|ひょうじ}された。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧{特報|とくほう}⟦が→が：00051_ga⟧⟦テレビ→テレビ：01536_terebi⟧⟦の→の：09472_no⟧⟦{画面|がめん}→画面：04406_gamen⟧⟦に→に：00314_ni⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦された→する：00392_suru⟧。",
       "english": "An earthquake alert was displayed on the TV screen.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {特|とく} (special) + {報|ほう} (report, news). Used in two main contexts: (1) urgent or breaking news in journalism, and (2) short promotional clips or teasers for upcoming movies, games, or other media (shorter and earlier than a full {予告編|よこくへん}).\n\nCOMMON COLLOCATIONS:\n- {特報|とくほう}が{入|はい}る (breaking news comes in)\n- {特報|とくほう}{映像|えいぞう} (special preview footage)\n- {緊急|きんきゅう}{特報|とくほう} (urgent breaking news)\n\nSIMILAR WORDS:\n- {速報|そくほう}: breaking news, flash report — emphasizes speed of reporting\n- {予告編|よこくへん}: trailer, preview — a longer promotional clip for a movie",
+  "notes": "USAGE:\nA compound of {特|とく} (special) + {報|ほう} (report, news). Used in two main contexts: (1) urgent or breaking news in journalism, and (2) short promotional clips or teasers for upcoming movies, games, or other media (shorter and earlier than a full ⟦{予告編|よこくへん}→予告編：20437_yokokuhen⟧).\n\nCOMMON COLLOCATIONS:\n- {特報|とくほう}⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧ (breaking news comes in)\n- {特報|とくほう}⟦{映像|えいぞう}→映像：04444_eizou⟧ (special preview footage)\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{特報|とくほう} (urgent breaking news)\n\nSIMILAR WORDS:\n- ⟦{速報|そくほう}→速報：14319_sokuhou⟧: breaking news, flash report — emphasizes speed of reporting\n- ⟦{予告編|よこくへん}→予告編：20437_yokokuhen⟧: trailer, preview — a longer promotional clip for a movie",
   "cross_references": [
     {
       "type": "synonym",
@@ -70,7 +70,7 @@
   ],
   "metadata": {
     "created": "2026-03-19T04:02:43Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13928_ikusei_ex1",
-      "japanese": "{若手|わかて}{選手|せんしゅ}の{育成|いくせい}に{力|ちから}を{入|い}れる。",
+      "japanese": "⟦{若手|わかて}→若手：13989_wakate⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦の→の：09472_no⟧{育成|いくせい}⟦に→に：00314_ni⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Put effort into developing young players.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13928_ikusei_ex2",
-      "japanese": "{人材|じんざい}{育成|いくせい}は{企業|きぎょう}の{将来|しょうらい}を{左右|さゆう}する。",
+      "japanese": "{人材|じんざい}{育成|いくせい}⟦は→は：00079_ha⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧⟦{将来|しょうらい}→将来：01438_shourai⟧⟦を→を：00422_wo⟧⟦{左右|さゆう}→左右：02826_sayuu⟧⟦する→する：00392_suru⟧。",
       "english": "Human resource development determines a company's future.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13928_ikusei_ex3",
-      "japanese": "この{研修|けんしゅう}プログラムは、{次世代|じせだい}のリーダーを{育成|いくせい}することを{目的|もくてき}としている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{研修|けんしゅう}→研修：05322_kenshuu⟧⟦プログラム→プログラム：01540_puroguramu⟧⟦は→は：00079_ha⟧、⟦{次世代|じせだい}→次世代：17824_jisedai⟧⟦の→の：09472_no⟧⟦リーダー→リーダー：24312_riidaa⟧⟦を→を：00422_wo⟧{育成|いくせい}⟦する→する：00392_suru⟧こと⟦を→を：00422_wo⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "This training program aims to develop the next generation of leaders.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word commonly used in business, sports, education, and government contexts. More systematic and institutional in nuance than {育|そだ}てる, which is the everyday verb for raising/nurturing.\n\nCOMMON COLLOCATIONS:\n- {人材|じんざい}{育成|いくせい} (human resource development)\n- {選手|せんしゅ}{育成|いくせい} (player development)\n- {育成|いくせい}{計画|けいかく} (development plan)\n- {育成|いくせい}プログラム (development program)\n- {後進|こうしん}の{育成|いくせい} (training successors)\n\nSIMILAR WORDS:\n- {養成|ようせい}: training, development (specifically for producing qualified professionals)\n- {教育|きょういく}: education (broader; includes general schooling)\n- {育|そだ}てる: raise, bring up (everyday verb; less formal and more personal)",
+  "notes": "USAGE:\nA formal word commonly used in business, sports, education, and government contexts. More systematic and institutional in nuance than ⟦{育|そだ}てる→育てる：01235_sodateru⟧, which is the everyday verb for raising/nurturing.\n\nCOMMON COLLOCATIONS:\n- {人材|じんざい}{育成|いくせい} (human resource development)\n- ⟦{選手|せんしゅ}→選手：03823_senshu⟧{育成|いくせい} (player development)\n- {育成|いくせい}⟦{計画|けいかく}→計画：01172_keikaku⟧ (development plan)\n- {育成|いくせい}⟦プログラム→プログラム：01540_puroguramu⟧ (development program)\n- {後進|こうしん}⟦の→の：09472_no⟧{育成|いくせい} (training successors)\n\nSIMILAR WORDS:\n- ⟦{養成|ようせい}→養成：14655_yousei⟧: training, development (specifically for producing qualified professionals)\n- ⟦{教育|きょういく}→教育：01313_kyouiku⟧: education (broader; includes general schooling)\n- ⟦{育|そだ}てる→育てる：01235_sodateru⟧: raise, bring up (everyday verb; less formal and more personal)",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T07:04:19Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

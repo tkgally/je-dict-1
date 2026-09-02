@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21596_aigansuru_ex1",
-      "japanese": "{彼女|かのじょ}は{涙|なみだ}ながらに{哀願|あいがん}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦ながら→ながら：10530_nagara⟧⟦に→に：00314_ni⟧{哀願|あいがん}した。",
       "english": "She pleaded tearfully.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21596_aigansuru_ex2",
-      "japanese": "{命|いのち}だけは{助|たす}けてくれと{哀願|あいがん}した。",
+      "japanese": "⟦{命|いのち}→命：02371_inochi⟧⟦だけ→〜だけ：03093_dake⟧⟦は→は：00079_ha⟧⟦{助|たす}けて→助ける：00895_tasukeru⟧⟦くれ→くれる：00724_kureru⟧⟦と→と：00512_to⟧{哀願|あいがん}した。",
       "english": "He begged them to at least spare his life.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21596_aigansuru_ex3",
-      "japanese": "{子供|こども}は{哀願|あいがん}するような{目|め}で{親|おや}を{見|み}つめ、もう{一回|いっかい}だけチャンスをくださいと{頼|たの}んだ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦は→は：00079_ha⟧{哀願|あいがん}するような⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{親|おや}→親：01357_oya⟧⟦を→を：00422_wo⟧⟦{見|み}つめ→見つめる：04571_mitsumeru⟧、⟦もう→もう：00602_mou⟧⟦{一回|いっかい}→一回：08925_ikkai⟧⟦だけ→〜だけ：03093_dake⟧⟦チャンス→チャンス：03857_chansu⟧⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧⟦と→と：00512_to⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "The child stared at the parent with pleading eyes and asked for just one more chance.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {哀|あい} (sorrow, pity) and {願|がん} (wish, request). This is a stronger and more emotional word than simply asking or requesting — it conveys desperation and an appeal to someone's compassion.\n\nCOMMON COLLOCATIONS:\n- {哀願|あいがん}するような{目|め}: pleading eyes\n- {哀願|あいがん}するような{声|こえ}: a pleading voice\n- {涙|なみだ}ながらに{哀願|あいがん}する: to plead tearfully\n- {必死|ひっし}に{哀願|あいがん}する: to plead desperately\n\nSIMILAR WORDS:\n- {懇願|こんがん}する: to entreat — earnest repeated requests, slightly less emotional\n- {嘆願|たんがん}する: to petition — formal petitioning, often in writing\n- {頼|たの}み{込|こ}む: to beg, to implore — persistent asking, less formal\n- {泣|な}きつく: to cling and cry — physically emotional begging",
+  "notes": "Compound of {哀|あい} (sorrow, pity) and {願|がん} (wish, request). This is a stronger and more emotional word than simply asking or requesting — it conveys desperation and an appeal to someone's compassion.\n\nCOMMON COLLOCATIONS:\n- {哀願|あいがん}するような⟦{目|め}→目：00525_me⟧: pleading eyes\n- {哀願|あいがん}するような⟦{声|こえ}→声：02207_koe⟧: a pleading voice\n- ⟦{涙|なみだ}→涙：02235_namida⟧⟦ながら→ながら：10530_nagara⟧⟦に→に：00314_ni⟧{哀願|あいがん}する: to plead tearfully\n- ⟦{必死|ひっし}→必死：03705_hisshi⟧⟦に→に：00314_ni⟧{哀願|あいがん}する: to plead desperately\n\nSIMILAR WORDS:\n- ⟦{懇願|こんがん}する→懇願する：25407_kongansuru⟧: to entreat — earnest repeated requests, slightly less emotional\n- ⟦{嘆願|たんがん}→嘆願：21595_tangan⟧⟦する→する：00392_suru⟧: to petition — formal petitioning, often in writing\n- ⟦{頼|たの}み{込|こ}む→頼み込む：14620_tanomikomu⟧: to beg, to implore — persistent asking, less formal\n- {泣|な}きつく: to cling and cry — physically emotional begging",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
         "communication",
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-02T17:29:02Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

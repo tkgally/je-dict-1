@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17927_hiroiyomi_ex1",
-      "japanese": "{新聞|しんぶん}を{拾|ひろ}い{読|よ}みした。",
+      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦を→を：00422_wo⟧{拾|ひろ}い{読|よ}み⟦した→する：00392_suru⟧。",
       "english": "I skimmed the newspaper.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17927_hiroiyomi_ex2",
-      "japanese": "{時間|じかん}がなくて{拾|ひろ}い{読|よ}みしかできなかった。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧{拾|ひろ}い{読|よ}みしか⟦できなかった→できる：00557_dekiru⟧。",
       "english": "I didn't have time and could only skim through it.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17927_hiroiyomi_ex3",
-      "japanese": "{報告書|ほうこくしょ}を{拾|ひろ}い{読|よ}みして、{重要|じゅうよう}な{部分|ぶぶん}だけ{確認|かくにん}した。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧{拾|ひろ}い{読|よ}み⟦して→する：00392_suru⟧、⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦だけ→〜だけ：03093_dake⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I skimmed the report and checked only the important parts.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nSuggests a quick, selective style of reading rather than careful, thorough reading. Not necessarily negative — sometimes practical when short on time. Can be used with する as a verb.\n\nCOMMON COLLOCATIONS:\n- {拾|ひろ}い{読|よ}みする (to skim, to browse)\n- {拾|ひろ}い{読|よ}みしかできない (can only skim)\n- ざっと{拾|ひろ}い{読|よ}みする (to quickly skim through)\n\nSIMILAR WORDS:\n- {斜|なな}め{読|よ}み: speed-reading, skimming — similar meaning, literally 'diagonal reading'\n- {流|なが}し{読|よ}み: cursory reading — reading quickly without focusing",
+  "notes": "USAGE:\nSuggests a quick, selective style of reading rather than careful, thorough reading. Not necessarily negative — sometimes practical when short on time. Can be used with ⟦する→する：00392_suru⟧ as a verb.\n\nCOMMON COLLOCATIONS:\n- {拾|ひろ}い{読|よ}み⟦する→する：00392_suru⟧ (to skim, to browse)\n- {拾|ひろ}い{読|よ}みしか⟦できない→できる：00557_dekiru⟧ (can only skim)\n- ざっ⟦と→と：00512_to⟧{拾|ひろ}い{読|よ}み⟦する→する：00392_suru⟧ (to quickly skim through)\n\nSIMILAR WORDS:\n- ⟦{斜|なな}め{読|よ}み→斜め読み：22744_nanameyomi⟧: speed-reading, skimming — similar meaning, literally 'diagonal reading'\n- ⟦{流|なが}し{読|よ}み→流し読み：21428_nagashiyomi⟧: cursory reading — reading quickly without focusing",
   "cross_references": [
     {
       "type": "contrast",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-19T09:14:23Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -188,7 +188,8 @@
         "general"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21559_seisei_ex1",
-      "japanese": "{石油|せきゆ}を{精製|せいせい}する。",
+      "japanese": "⟦{石油|せきゆ}→石油：01448_sekiyu⟧⟦を→を：00422_wo⟧{精製|せいせい}⟦する→する：00392_suru⟧。",
       "english": "To refine petroleum.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21559_seisei_ex2",
-      "japanese": "{精製|せいせい}{塩|しお}と{天然|てんねん}{塩|しお}はどう{違|ちが}うのか。",
+      "japanese": "{精製|せいせい}⟦{塩|しお}→塩：00887_shio⟧⟦と→と：00512_to⟧⟦{天然|てんねん}→天然：03560_tennen⟧⟦{塩|しお}→塩：00887_shio⟧はどう⟦{違|ちが}う→違う：01957_chigau⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧。",
       "english": "What is the difference between refined salt and natural salt?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21559_seisei_ex3",
-      "japanese": "この{工場|こうじょう}では{原油|げんゆ}を{精製|せいせい}してガソリンや{灯油|とうゆ}を{生産|せいさん}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{原油|げんゆ}→原油：21637_genyu⟧⟦を→を：00422_wo⟧{精製|せいせい}⟦して→する：00392_suru⟧⟦ガソリン→ガソリン：01346_gasorin⟧や⟦{灯油|とうゆ}→灯油：04071_touyu⟧⟦を→を：00422_wo⟧⟦{生産|せいさん}している→生産する：01841_seisansuru⟧。",
       "english": "This factory refines crude oil to produce gasoline and kerosene.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {精|せい} (refined, pure) and {製|せい} (manufacture). Describes the industrial or chemical process of purifying raw materials.\n\nCOMMON COLLOCATIONS:\n- {精製|せいせい}{糖|とう}: refined sugar\n- {精製|せいせい}{塩|しお}: refined salt\n- {精製|せいせい}{水|すい}: purified water\n- {石油|せきゆ}{精製|せいせい}: petroleum refining\n- {精製|せいせい}{所|しょ}/{精製|せいせい}{工場|こうじょう}: refinery\n\nSIMILAR WORDS:\n- {精製|せいせい}: refining — removing impurities from raw materials\n- {生成|せいせい}: generation, formation — creating something new (homophone, different kanji)\n- {製造|せいぞう}: manufacturing — broader term for making products\n- {精錬|せいれん}: smelting — specifically extracting metal from ore\n- {浄化|じょうか}: purification — often used for water or air treatment",
+  "notes": "Composed of {精|せい} (refined, pure) and ⟦{製|せい}→〜製：02001_sei⟧ (manufacture). Describes the industrial or chemical process of purifying raw materials.\n\nCOMMON COLLOCATIONS:\n- {精製|せいせい}{糖|とう}: refined sugar\n- {精製|せいせい}⟦{塩|しお}→塩：00887_shio⟧: refined salt\n- {精製|せいせい}{水|すい}: purified water\n- ⟦{石油|せきゆ}→石油：01448_sekiyu⟧{精製|せいせい}: petroleum refining\n- {精製|せいせい}⟦{所|しょ}→〜所：09844_sho⟧/{精製|せいせい}⟦{工場|こうじょう}→工場：01082_koujou⟧: refinery\n\nSIMILAR WORDS:\n- {精製|せいせい}: refining — removing impurities from raw materials\n- ⟦{生成|せいせい}→生成：10895_seisei⟧: generation, formation — creating something new (homophone, different kanji)\n- ⟦{製造|せいぞう}→製造：03289_seizou⟧: manufacturing — broader term for making products\n- ⟦{精錬|せいれん}→精錬：21301_seiren⟧: smelting — specifically extracting metal from ore\n- ⟦{浄化|じょうか}→浄化：14936_jouka⟧: purification — often used for water or air treatment",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,10 +89,11 @@
         "technology",
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T16:17:07Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

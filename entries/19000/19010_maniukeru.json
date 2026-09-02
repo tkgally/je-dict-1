@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19010_maniukeru_ex1",
-      "japanese": "{冗談|じょうだん}を{真|ま}に{受|う}けないで。",
+      "japanese": "⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦を→を：00422_wo⟧{真|ま}に{受|う}けないで。",
       "english": "Don't take the joke seriously.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "19010_maniukeru_ex2",
-      "japanese": "{彼|かれ}の{話|はなし}を{真|ま}に{受|う}けてはいけない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{真|ま}に{受|う}けて⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't take what he says at face value.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "19010_maniukeru_ex3",
-      "japanese": "ネットの{情報|じょうほう}を{何|なん}でも{真|ま}に{受|う}けると{危|あぶ}ないよ。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦の→の：09472_no⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{何|なん}→何〜：03100_nan⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{真|ま}に{受|う}ける⟦と→と：00512_to⟧⟦{危|あぶ}ない→危ない：00768_abunai⟧⟦よ→よ：09475_yo⟧。",
       "english": "It's dangerous to take everything on the internet at face value.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used with a negative nuance — warning someone not to believe something, or commenting that someone was naive to believe it. Common patterns include {真|ま}に{受|う}けないで (don't take it seriously) and {真|ま}に{受|う}けてはいけない (you mustn't take it at face value).\n\nCOMMON COLLOCATIONS:\n- {冗談|じょうだん}を{真|ま}に{受|う}ける: to take a joke seriously\n- {真|ま}に{受|う}けないで: don't take it seriously\n- そのまま{真|ま}に{受|う}ける: to take at face value as-is\n- {何|なん}でも{真|ま}に{受|う}ける: to believe everything",
+  "notes": "USAGE:\nAlmost always used with a negative nuance — warning someone not to believe something, or commenting that someone was naive to believe it. Common patterns include {真|ま}に{受|う}けないで (don't take it seriously) and {真|ま}に{受|う}けて⟦は→は：00079_ha⟧いけない (you mustn't take it at face value).\n\nCOMMON COLLOCATIONS:\n- ⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦を→を：00422_wo⟧{真|ま}に{受|う}ける: to take a joke seriously\n- {真|ま}に{受|う}けないで: don't take it seriously\n- ⟦そのまま→そのまま：03322_sonomama⟧{真|ま}に{受|う}ける: to take at face value as-is\n- ⟦{何|なん}→何〜：03100_nan⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{真|ま}に{受|う}ける: to believe everything",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-24T00:57:41Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
         "communication",
         "cognition"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     }
   }
 }

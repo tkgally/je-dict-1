@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26833_meireisuru_ex1",
-      "japanese": "{上司|じょうし}が{部下|ぶか}に{命令|めいれい}する。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦が→が：00051_ga⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦に→に：00314_ni⟧{命令|めいれい}する。",
       "english": "The boss gives orders to subordinates.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26833_meireisuru_ex2",
-      "japanese": "{裁判所|さいばんしょ}が{支払|しはら}いを{命令|めいれい}した。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦が→が：00051_ga⟧{支払|しはら}い⟦を→を：00422_wo⟧{命令|めいれい}した。",
       "english": "The court ordered the payment.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26833_meireisuru_ex3",
-      "japanese": "{医者|いしゃ}に{安静|あんせい}にするよう{命令|めいれい}された。",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧⟦{安静|あんせい}→安静：12267_ansei⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧よう{命令|めいれい}された。",
       "english": "The doctor ordered me to rest.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26833_meireisuru_ex4",
-      "japanese": "{誰|だれ}かに{命令|めいれい}されなくても、{自分|じぶん}で{考|かんが}えて{行動|こうどう}すべきだ。",
+      "japanese": "⟦{誰|だれ}か→誰か：02912_dareka⟧⟦に→に：00314_ni⟧{命令|めいれい}されなくて⟦も→も：00484_mo⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦{考|かんが}えて→考える：00856_kangaeru⟧⟦{行動|こうどう}→行動：02728_koudou⟧すべきだ。",
       "english": "You should think and act on your own without being ordered by someone.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "A strong word implying authority and obedience. In everyday Japanese, using {命令|めいれい}する about someone's behavior carries negative connotations — it suggests being bossy or authoritarian. More neutral alternatives like {指示|しじ}する or 〜てください are preferred in polite contexts.\n\nCOMMON COLLOCATIONS:\n- {命令|めいれい}を{出|だ}す: to issue an order\n- {命令|めいれい}に{従|したが}う: to obey an order\n- {命令|めいれい}{違反|いはん}: disobedience of orders\n- {命令|めいれい}{口調|くちょう}: commanding tone\n- {退去|たいきょ}{命令|めいれい}: eviction order\n\nSIMILAR WORDS:\n- {指示|しじ}する: to instruct — more neutral, used in workplaces without negative connotation\n- {指図|さしず}する: to give directions — often implies unwelcome bossiness\n- {言|い}いつける: to tell someone to do something — less formal, parent-to-child",
+  "notes": "A strong word implying authority and obedience. In everyday Japanese, using {命令|めいれい}する about someone's behavior carries negative connotations — it suggests being bossy or authoritarian. More neutral alternatives like ⟦{指示|しじ}する→指示する：26845_shijisuru⟧ or 〜て⟦ください→ください：02899_kudasai⟧ are preferred in polite contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{命令|めいれい}→命令：03754_meirei⟧⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to issue an order\n- ⟦{命令|めいれい}→命令：03754_meirei⟧⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧: to obey an order\n- ⟦{命令|めいれい}→命令：03754_meirei⟧⟦{違反|いはん}→違反：01824_ihan⟧: disobedience of orders\n- ⟦{命令|めいれい}→命令：03754_meirei⟧⟦{口調|くちょう}→口調：11803_kuchou⟧: commanding tone\n- ⟦{退去|たいきょ}→退去：06693_taikyo⟧⟦{命令|めいれい}→命令：03754_meirei⟧: eviction order\n\nSIMILAR WORDS:\n- ⟦{指示|しじ}する→指示する：26845_shijisuru⟧: to instruct — more neutral, used in workplaces without negative connotation\n- ⟦{指図|さしず}→指図：08188_sashizu⟧⟦する→する：00392_suru⟧: to give directions — often implies unwelcome bossiness\n- ⟦{言|い}いつける→言いつける：21618_iitsukeru⟧: to tell someone to do something — less formal, parent-to-child",
   "cross_references": [
     {
       "type": "contrast",
@@ -97,10 +97,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T13:06:33Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

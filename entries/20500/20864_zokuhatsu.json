@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20864_zokuhatsu_ex1",
-      "japanese": "{事故|じこ}が{続発|ぞくはつ}した。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}⟦した→する：00392_suru⟧。",
       "english": "Accidents occurred one after another.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "20864_zokuhatsu_ex2",
-      "japanese": "この{地域|ちいき}では{窃盗|せっとう}{事件|じけん}が{続発|ぞくはつ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{窃盗|せっとう}→窃盗：15280_settou⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}⟦している→する：00392_suru⟧。",
       "english": "Theft cases keep occurring one after another in this area.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "20864_zokuhatsu_ex3",
-      "japanese": "{術後|じゅつご}に{合併症|がっぺいしょう}が{続発|ぞくはつ}したため、{入院|にゅういん}{期間|きかん}が{延|の}びた。",
+      "japanese": "⟦{術後|じゅつご}→術後：15639_jutsugo⟧⟦に→に：00314_ni⟧⟦{合併症|がっぺいしょう}→合併症：12076_gappeishou⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}⟦した→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{入院|にゅういん}→入院：02091_nyuuin⟧⟦{期間|きかん}→期間：00229_kikan⟧⟦が→が：00051_ga⟧⟦{延|の}びた→延びる：19599_nobiru⟧。",
       "english": "Because complications arose one after another after the surgery, the hospital stay was extended.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Almost exclusively used for negative events — accidents, crimes, complications, disasters, and similar problems. Unlike {連発|れんぱつ}, which can describe any rapid repetition including positive things, {続発|ぞくはつ} strongly implies a troubling pattern of incidents arising in sequence.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}が{続発|ぞくはつ}する: accidents occur in succession\n- {事件|じけん}が{続発|ぞくはつ}する: incidents occur one after another\n- {合併症|がっぺいしょう}が{続発|ぞくはつ}する: complications arise in succession\n- {被害|ひがい}が{続発|ぞくはつ}する: damage/harm keeps occurring\n\nSIMILAR WORDS:\n- {連発|れんぱつ}: rapid repetition — same action repeated in quick succession; can be positive or negative\n- {頻発|ひんぱつ}: frequent occurrence — emphasizes high frequency, less focus on sequential pattern\n- {多発|たはつ}: frequent occurrence — similar to {頻発|ひんぱつ} but more neutral/statistical",
+  "notes": "Almost exclusively used for negative events — accidents, crimes, complications, disasters, and similar problems. Unlike ⟦{連発|れんぱつ}→連発：20863_renpatsu⟧, which can describe any rapid repetition including positive things, {続発|ぞくはつ} strongly implies a troubling pattern of incidents arising in sequence.\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}⟦する→する：00392_suru⟧: accidents occur in succession\n- ⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}⟦する→する：00392_suru⟧: incidents occur one after another\n- ⟦{合併症|がっぺいしょう}→合併症：12076_gappeishou⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}⟦する→する：00392_suru⟧: complications arise in succession\n- ⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧{続発|ぞくはつ}⟦する→する：00392_suru⟧: damage/harm keeps occurring\n\nSIMILAR WORDS:\n- ⟦{連発|れんぱつ}→連発：20863_renpatsu⟧: rapid repetition — same action repeated in quick succession; can be positive or negative\n- ⟦{頻発|ひんぱつ}→頻発：14670_hinpatsu⟧: frequent occurrence — emphasizes high frequency, less focus on sequential pattern\n- ⟦{多発|たはつ}→多発：20508_tahatsu⟧: frequent occurrence — similar to ⟦{頻発|ひんぱつ}→頻発：14670_hinpatsu⟧ but more neutral/statistical",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-30T19:06:27Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:02:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21029_utsurikomu_ex1",
-      "japanese": "{知|し}らない{人|ひと}が{写|うつ}り{込|こ}んでいる。",
+      "japanese": "⟦{知|し}らない→知る：00458_shiru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{写|うつ}り{込|こ}んで⟦いる→いる：00495_iru⟧。",
       "english": "A stranger has appeared in the photo.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21029_utsurikomu_ex2",
-      "japanese": "{背景|はいけい}に{車|くるま}が{写|うつ}り{込|こ}んでしまった。",
+      "japanese": "⟦{背景|はいけい}→背景：28348_haikei⟧⟦に→に：00314_ni⟧⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{写|うつ}り{込|こ}んでしまった。",
       "english": "A car ended up appearing in the background.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21029_utsurikomu_ex3",
-      "japanese": "{防犯|ぼうはん}カメラに{不審者|ふしんしゃ}が{写|うつ}り{込|こ}んでいたことが{判明|はんめい}した。",
+      "japanese": "⟦{防犯|ぼうはん}カメラ→防犯カメラ：07137_bouhankamera⟧⟦に→に：00314_ni⟧⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧⟦が→が：00051_ga⟧{写|うつ}り{込|こ}んで⟦いた→いる：00495_iru⟧こと⟦が→が：00051_ga⟧⟦{判明|はんめい}→判明：11785_hanmei⟧⟦した→する：00392_suru⟧。",
       "english": "It was discovered that a suspicious person had been caught on the security camera.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb from {写|うつ}る (to be photographed, to appear in an image) + {込|こ}む (into). The ～{込|こ}む suffix adds the nuance of something entering or getting into the frame.\n\nCOMMON COLLOCATIONS:\n- {写真|しゃしん}に{写|うつ}り{込|こ}む: to appear in a photograph\n- {背景|はいけい}に{写|うつ}り{込|こ}む: to appear in the background\n- カメラに{写|うつ}り{込|こ}む: to be caught on camera\n- {鏡|かがみ}に{写|うつ}り{込|こ}む: to appear in the mirror\n\nSIMILAR WORDS:\n- {写|うつ}る: to be photographed, to appear — more neutral; simply means appearing in an image without the nuance of unintentionally getting into the frame\n- {映|うつ}り{込|こ}む: to be reflected into — uses the kanji for reflection; often for reflections in glass, water, or mirrors\n\nUSAGE:\nOften used with ～てしまう to express the unintended nature of the appearance. Also common in discussions of privacy and photography etiquette in Japan.",
+  "notes": "A compound verb from ⟦{写|うつ}る→写る：11494_utsuru⟧ (to be photographed, to appear in an image) + ⟦{込|こ}む→込む：00719_komu⟧ (into). The ～⟦{込|こ}む→込む：00719_komu⟧ suffix adds the nuance of something entering or getting into the frame.\n\nCOMMON COLLOCATIONS:\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦に→に：00314_ni⟧{写|うつ}り{込|こ}む: to appear in a photograph\n- ⟦{背景|はいけい}→背景：28348_haikei⟧⟦に→に：00314_ni⟧{写|うつ}り{込|こ}む: to appear in the background\n- ⟦カメラ→カメラ：04417_kamera⟧⟦に→に：00314_ni⟧{写|うつ}り{込|こ}む: to be caught on camera\n- ⟦{鏡|かがみ}→鏡：02190_kagami⟧⟦に→に：00314_ni⟧{写|うつ}り{込|こ}む: to appear in the mirror\n\nSIMILAR WORDS:\n- ⟦{写|うつ}る→写る：11494_utsuru⟧: to be photographed, to appear — more neutral; simply means appearing in an image without the nuance of unintentionally getting into the frame\n- {映|うつ}り{込|こ}む: to be reflected into — uses the kanji for reflection; often for reflections in glass, water, or mirrors\n\nUSAGE:\nOften used with ～てしまう to express the unintended nature of the appearance. Also common in discussions of privacy and photography etiquette in Japan.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -66,10 +66,11 @@
       "semantic": [
         "media"
       ],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-31T15:29:45Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "godan",

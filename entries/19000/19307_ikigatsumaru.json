@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "19307_ikigatsumaru_ex1",
-      "japanese": "{煙|けむり}で{息|いき}が{詰|つ}まった。",
+      "japanese": "⟦{煙|けむり}→煙：02705_kemuri⟧⟦で→で：00502_de⟧{息|いき}が{詰|つ}まった。",
       "english": "I choked from the smoke.",
       "sense_numbers": [
         1
@@ -120,7 +120,7 @@
     },
     {
       "id": "19307_ikigatsumaru_ex2",
-      "japanese": "{急|いそ}いで{食|た}べたら{息|いき}が{詰|つ}まりそうになった。",
+      "japanese": "⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{食|た}べたら→食べる：00396_taberu⟧{息|いき}が{詰|つ}まりそうになった。",
       "english": "I nearly choked when I ate too quickly.",
       "sense_numbers": [
         1
@@ -130,7 +130,7 @@
     },
     {
       "id": "19307_ikigatsumaru_ex3",
-      "japanese": "{密閉|みっぺい}された{部屋|へや}にいると{息|いき}が{詰|つ}まる。",
+      "japanese": "⟦{密閉|みっぺい}→密閉：19651_mippei⟧⟦された→する：00392_suru⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧{息|いき}が{詰|つ}まる。",
       "english": "Being in a sealed room makes it hard to breathe.",
       "sense_numbers": [
         1
@@ -140,7 +140,7 @@
     },
     {
       "id": "19307_ikigatsumaru_ex4",
-      "japanese": "{息|いき}が{詰|つ}まるような{緊張感|きんちょうかん}だった。",
+      "japanese": "{息|いき}が{詰|つ}まるような⟦{緊張感|きんちょうかん}→緊張感：20207_kinchoukan⟧だった。",
       "english": "It was a suffocating tension.",
       "sense_numbers": [
         2
@@ -150,7 +150,7 @@
     },
     {
       "id": "19307_ikigatsumaru_ex5",
-      "japanese": "{厳|きび}しいルールばかりで{息|いき}が{詰|つ}まる。",
+      "japanese": "⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦ルール→ルール：00354_ruuru⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦で→で：00502_de⟧{息|いき}が{詰|つ}まる。",
       "english": "With nothing but strict rules, it feels stifling.",
       "sense_numbers": [
         2
@@ -160,7 +160,7 @@
     },
     {
       "id": "19307_ikigatsumaru_ex6",
-      "japanese": "あの{職場|しょくば}は{人間関係|にんげんかんけい}が{複雑|ふくざつ}で{息|いき}が{詰|つ}まる{思|おも}いだった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{職場|しょくば}→職場：04164_shokuba⟧⟦は→は：00079_ha⟧⟦{人間関係|にんげんかんけい}→人間関係：11462_ningenkankei⟧⟦が→が：00051_ga⟧⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧で{息|いき}が{詰|つ}まる⟦{思|おも}い→思い：10248_omoi⟧だった。",
       "english": "The interpersonal relationships at that workplace were complicated, and it felt suffocating.",
       "sense_numbers": [
         2
@@ -169,7 +169,7 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'breath gets blocked.' Used both for physical choking and, more commonly, for the figurative sense of feeling psychologically oppressed or tense.\n\nCOMMON COLLOCATIONS:\n- {息|いき}が{詰|つ}まるような — suffocating, stifling (used as a modifier)\n- {息|いき}が{詰|つ}まる{思|おも}い — a feeling of suffocation\n- {息|いき}が{詰|つ}まる{雰囲気|ふんいき} — a stifling atmosphere\n\nRELATED WORDS:\n- {息苦|いきぐる}しい: feeling short of breath, stifling — adjective form with similar meaning\n- {窒息|ちっそく}する: to suffocate — more clinical/severe, actual inability to breathe\n- {息抜|いきぬ}き: a breather, a break — the remedy for feeling stifled",
+  "notes": "Literally 'breath gets blocked.' Used both for physical choking and, more commonly, for the figurative sense of feeling psychologically oppressed or tense.\n\nCOMMON COLLOCATIONS:\n- {息|いき}が{詰|つ}まるような — suffocating, stifling (used as a modifier)\n- {息|いき}が{詰|つ}まる⟦{思|おも}い→思い：10248_omoi⟧ — a feeling of suffocation\n- {息|いき}が{詰|つ}まる⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧ — a stifling atmosphere\n\nRELATED WORDS:\n- ⟦{息苦|いきぐる}しい→息苦しい：12599_ikigurushii⟧: feeling short of breath, stifling — adjective form with similar meaning\n- ⟦{窒息|ちっそく}する→窒息する：22131_chissokusuru⟧: to suffocate — more clinical/severe, actual inability to breathe\n- ⟦{息抜|いきぬ}き→息抜き：16698_ikinuki⟧: a breather, a break — the remedy for feeling stifled",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -213,9 +213,10 @@
         "body-part",
         "emotion"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-25T06:07:56Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21106_mimachigaeru_ex1",
-      "japanese": "{人|ひと}を{見間違|みまちが}えた。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{見間違|みまちが}えた。",
       "english": "I mistook someone for someone else.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21106_mimachigaeru_ex2",
-      "japanese": "{遠|とお}くから{見|み}て、{犬|いぬ}を{猫|ねこ}と{見間違|みまちが}えた。",
+      "japanese": "{遠|とお}く⟦から→から：00504_kara⟧⟦{見|み}て→見る：00283_miru⟧、⟦{犬|いぬ}→犬：00632_inu⟧⟦を→を：00422_wo⟧⟦{猫|ねこ}→猫：02237_neko⟧⟦と→と：00512_to⟧{見間違|みまちが}えた。",
       "english": "Seeing from a distance, I mistook a dog for a cat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21106_mimachigaeru_ex3",
-      "japanese": "{双子|ふたご}の{姉妹|しまい}はよく{似|に}ていて、いつも{見間違|みまちが}えてしまう。",
+      "japanese": "⟦{双子|ふたご}→双子：03599_futago⟧⟦の→の：09472_no⟧⟦{姉妹|しまい}→姉妹：03201_shimai⟧⟦は→は：00079_ha⟧⟦よく→よく：00601_yoku⟧⟦{似|に}ていて→似る：01159_niru⟧、⟦いつも→いつも：00599_itsumo⟧{見間違|みまちが}えてしまう。",
       "english": "The twin sisters look so alike that I always mistake one for the other.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
   ],
   "verb_type": "ichidan",
   "transitivity": "transitive",
-  "notes": "A compound verb combining {見|み}る (to see) and {間違|まちが}える (to make a mistake). Specifically refers to visual misidentification — mistaking one person or thing for another.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{見間違|みまちが}える: to mistake someone for someone else\n- AをBと{見間違|みまちが}える: to mistake A for B\n- {見間違|みまちが}えるほど{似|に}ている: so similar that you could mistake them\n\nSIMILAR WORDS:\n- {見違|みちが}える: to see a dramatic change in someone — NOT about making mistakes, but about being amazed at how different someone/something looks ({見違|みちが}えるほど{綺麗|きれい}になった = she became so beautiful I hardly recognized her)\n- {間違|まちが}える: to make a mistake — the general verb for errors, not limited to visual mistakes\n- {取|と}り{違|ちが}える: to mix up, to confuse — broader; can apply to confusing concepts, not just visual misidentification\n\nWATCH OUT:\nDo not confuse {見間違|みまちが}える (to misidentify) with {見違|みちが}える (to see a dramatic transformation). These have very different meanings despite similar appearance.",
+  "notes": "A compound verb combining ⟦{見|み}る→見る：00283_miru⟧ (to see) and ⟦{間違|まちが}える→間違える：01109_machigaeru⟧ (to make a mistake). Specifically refers to visual misidentification — mistaking one person or thing for another.\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{見間違|みまちが}える: to mistake someone for someone else\n- A⟦を→を：00422_wo⟧B⟦と→と：00512_to⟧{見間違|みまちが}える: to mistake A for B\n- {見間違|みまちが}えるほど⟦{似|に}ている→似る：01159_niru⟧: so similar that you could mistake them\n\nSIMILAR WORDS:\n- {見違|みちが}える: to see a dramatic change in someone — NOT about making mistakes, but about being amazed at how different someone/something looks ({見違|みちが}えるほど{綺麗|きれい}になった = she became so beautiful I hardly recognized her)\n- ⟦{間違|まちが}える→間違える：01109_machigaeru⟧: to make a mistake — the general verb for errors, not limited to visual mistakes\n- {取|と}り{違|ちが}える: to mix up, to confuse — broader; can apply to confusing concepts, not just visual misidentification\n\nWATCH OUT:\nDo not confuse {見間違|みまちが}える (to misidentify) with {見違|みちが}える (to see a dramatic transformation). These have very different meanings despite similar appearance.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T17:20:33Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "ichidan",

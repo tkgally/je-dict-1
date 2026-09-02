@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18263_mendouwomiru_ex1",
-      "japanese": "{子|こ}どもの{面倒|めんどう}を{見|み}る。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{面倒|めんどう}を{見|み}る。",
       "english": "I look after the children.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18263_mendouwomiru_ex2",
-      "japanese": "{母|はは}が{入院|にゅういん}している{間|あいだ}、{父|ちち}が{家事|かじ}の{面倒|めんどう}を{見|み}た。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧⟦{入院|にゅういん}している→入院する：01849_nyuuinsuru⟧⟦{間|あいだ}→間：00914_aida⟧、⟦{父|ちち}→父：00566_chichi⟧⟦が→が：00051_ga⟧⟦{家事|かじ}→家事：12313_kaji⟧⟦の→の：09472_no⟧{面倒|めんどう}を{見|み}た。",
       "english": "While my mother was in the hospital, my father took care of the housework.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18263_mendouwomiru_ex3",
-      "japanese": "{先輩|せんぱい}がいつも{新人|しんじん}の{面倒|めんどう}を{見|み}てくれるので、{職場|しょくば}の{雰囲気|ふんいき}がいい。",
+      "japanese": "⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦が→が：00051_ga⟧⟦いつも→いつも：00599_itsumo⟧⟦{新人|しんじん}→新人：02500_shinjin⟧⟦の→の：09472_no⟧{面倒|めんどう}を{見|み}て⟦くれる→くれる：00724_kureru⟧⟦の→の：09472_no⟧で、⟦{職場|しょくば}→職場：04164_shokuba⟧⟦の→の：09472_no⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "The senior staff always look after the new employees, so the workplace atmosphere is good.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA very common expression meaning to care for or look after someone or something. The verb {見|み}る conjugates normally as an ichidan verb. Often used with particles like の or が before {面倒|めんどう}.\n\nCOMMON COLLOCATIONS:\n- {子|こ}どもの{面倒|めんどう}を{見|み}る (to look after children)\n- {親|おや}の{面倒|めんどう}を{見|み}る (to look after one's parents)\n- {後輩|こうはい}の{面倒|めんどう}を{見|み}る (to look after junior colleagues)\n- {面倒|めんどう}を{見|み}てもらう (to be looked after)\n\nSIMILAR WORDS:\n- {世話|せわ}をする: to take care of — slightly more formal, can also mean to arrange or mediate\n- {介護|かいご}する: to provide nursing care — specifically for elderly or disabled persons",
+  "notes": "USAGE:\nA very common expression meaning to care for or look after someone or something. The verb ⟦{見|み}る→見る：00283_miru⟧ conjugates normally as an ichidan verb. Often used with particles like ⟦の→の：09472_no⟧ or ⟦が→が：00051_ga⟧ before ⟦{面倒|めんどう}→面倒：03809_mendou⟧.\n\nCOMMON COLLOCATIONS:\n- {子|こ}ども⟦の→の：09472_no⟧{面倒|めんどう}を{見|み}る (to look after children)\n- ⟦{親|おや}→親：01357_oya⟧⟦の→の：09472_no⟧{面倒|めんどう}を{見|み}る (to look after one's parents)\n- ⟦{後輩|こうはい}→後輩：02501_kouhai⟧⟦の→の：09472_no⟧{面倒|めんどう}を{見|み}る (to look after junior colleagues)\n- {面倒|めんどう}を{見|み}て⟦もらう→もらう：00520_morau⟧ (to be looked after)\n\nSIMILAR WORDS:\n- ⟦{世話|せわ}→世話：02088_sewa⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to take care of — slightly more formal, can also mean to arrange or mediate\n- ⟦{介護|かいご}→介護：04805_kaigo⟧⟦する→する：00392_suru⟧: to provide nursing care — specifically for elderly or disabled persons",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-21T01:07:50Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -174,7 +174,8 @@
         "family",
         "work"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     }
   }
 }

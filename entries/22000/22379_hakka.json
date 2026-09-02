@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22379_hakka_ex1",
-      "japanese": "{発火|はっか}の{危険|きけん}がある。",
+      "japanese": "{発火|はっか}⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a risk of ignition.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22379_hakka_ex2",
-      "japanese": "バッテリーが{発火|はっか}する{事故|じこ}が{起|お}きた。",
+      "japanese": "⟦バッテリー→バッテリー：04425_batterii⟧⟦が→が：00051_ga⟧{発火|はっか}⟦する→する：00392_suru⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "An accident occurred in which a battery caught fire.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22379_hakka_ex3",
-      "japanese": "{乾燥|かんそう}した{季節|きせつ}は{枯|か}れ{葉|は}が{自然|しぜん}{発火|はっか}することがあるので{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{乾燥|かんそう}→乾燥：00184_kansou⟧⟦した→する：00392_suru⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦は→は：00079_ha⟧⟦{枯|か}れ{葉|は}→枯れ葉：20386_kareha⟧⟦が→が：00051_ga⟧⟦{自然|しぜん}→自然：01423_shizen⟧{発火|はっか}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "In dry seasons, dead leaves can spontaneously combust, so caution is needed.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes the moment when something begins to burn. Often used in safety warnings and accident reports. The verb form {発火|はっか}する means \"to catch fire\" or \"to ignite.\"\n\nCOMMON COLLOCATIONS:\n- {発火|はっか}する: to catch fire / to ignite\n- {自然|しぜん}{発火|はっか}: spontaneous combustion\n- {発火|はっか}{点|てん}: ignition point / flash point\n- {発火|はっか}の{原因|げんいん}: cause of ignition\n- {発火|はっか}{装置|そうち}: ignition device\n- {発火|はっか}の{危険|きけん}: risk of catching fire\n\nSIMILAR WORDS:\n- {着火|ちゃっか}: ignition — very similar, but often implies intentional lighting; {発火|はっか} is more often spontaneous\n- {点火|てんか}: lighting a fire — deliberately setting fire to something (a stove, fireworks, etc.)\n- {出火|しゅっか}: outbreak of fire — the start of a fire as an incident, used in fire investigations\n- {火災|かさい}: fire (as a disaster) — the resulting fire event, not the moment of ignition",
+  "notes": "Describes the moment when something begins to burn. Often used in safety warnings and accident reports. The verb form {発火|はっか}⟦する→する：00392_suru⟧ means \"to catch fire\" or \"to ignite.\"\n\nCOMMON COLLOCATIONS:\n- {発火|はっか}⟦する→する：00392_suru⟧: to catch fire / to ignite\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{発火|はっか}: spontaneous combustion\n- {発火|はっか}{点|てん}: ignition point / flash point\n- {発火|はっか}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧: cause of ignition\n- {発火|はっか}⟦{装置|そうち}→装置：03318_souchi⟧: ignition device\n- {発火|はっか}⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧: risk of catching fire\n\nSIMILAR WORDS:\n- {着火|ちゃっか}: ignition — very similar, but often implies intentional lighting; {発火|はっか} is more often spontaneous\n- ⟦{点火|てんか}→点火：16200_tenka⟧: lighting a fire — deliberately setting fire to something (a stove, fireworks, etc.)\n- ⟦{出火|しゅっか}→出火：20260_shukka⟧: outbreak of fire — the start of a fire as an incident, used in fire investigations\n- ⟦{火災|かさい}→火災：02561_kasai⟧: fire (as a disaster) — the resulting fire event, not the moment of ignition",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-05T20:11:33Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

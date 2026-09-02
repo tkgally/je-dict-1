@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09677_taiki_ex1",
-      "japanese": "{待機|たいき}してください。",
+      "japanese": "{待機|たいき}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please stand by.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09677_taiki_ex2",
-      "japanese": "{自宅|じたく}で{待機|たいき}している。",
+      "japanese": "⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦で→で：00502_de⟧{待機|たいき}⟦している→する：00392_suru⟧。",
       "english": "I'm on standby at home.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09677_taiki_ex3",
-      "japanese": "{救急車|きゅうきゅうしゃ}が{待機|たいき}している。",
+      "japanese": "⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦が→が：00051_ga⟧{待機|たいき}⟦している→する：00392_suru⟧。",
       "english": "An ambulance is on standby.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{待機|たいき} means standing by in a state of readiness, prepared to act when called upon. Unlike simple waiting ({待|ま}つ), it implies alertness and preparedness.\n\nCOMMON COLLOCATIONS:\n- {待機|たいき}する: to stand by, to be on call\n- {待機|たいき}{中|ちゅう}: on standby\n- {待機|たいき}{時間|じかん}: waiting time, standby time\n- {自宅|じたく}{待機|たいき}: staying home on standby\n- {待機|たいき}{児童|じどう}: children on waitlists for daycare\n\nSIMILAR WORDS:\n- {待|ま}つ: general waiting (neutral)\n- {待機|たいき}: standing by, ready to act (formal, prepared)\n- {待|ま}ち{受|う}ける: to wait in readiness for something expected\n\nREGISTER:\nFormal. Common in workplace, emergency, and military contexts. {待機|たいき}{児童|じどう} is a well-known social issue term referring to children unable to enter daycare due to lack of spaces.",
+  "notes": "{待機|たいき} means standing by in a state of readiness, prepared to act when called upon. Unlike simple waiting (⟦{待|ま}つ→待つ：00469_matsu⟧), it implies alertness and preparedness.\n\nCOMMON COLLOCATIONS:\n- {待機|たいき}⟦する→する：00392_suru⟧: to stand by, to be on call\n- {待機|たいき}⟦{中|ちゅう}→〜中：09840_chuu⟧: on standby\n- {待機|たいき}⟦{時間|じかん}→時間：00468_jikan⟧: waiting time, standby time\n- {自宅|じたく}{待機|たいき}: staying home on standby\n- {待機|たいき}{児童|じどう}: children on waitlists for daycare\n\nSIMILAR WORDS:\n- ⟦{待|ま}つ→待つ：00469_matsu⟧: general waiting (neutral)\n- {待機|たいき}: standing by, ready to act (formal, prepared)\n- {待|ま}ち{受|う}ける: to wait in readiness for something expected\n\nREGISTER:\nFormal. Common in workplace, emergency, and military contexts. {待機|たいき}{児童|じどう} is a well-known social issue term referring to children unable to enter daycare due to lack of spaces.",
   "cross_references": [
     {
       "type": "related",
@@ -151,7 +151,7 @@
   ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -164,7 +164,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

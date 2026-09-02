@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26742_kuubunka_ex1",
-      "japanese": "その{規則|きそく}は{空文化|くうぶんか}している。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{規則|きそく}→規則：01382_kisoku⟧⟦は→は：00079_ha⟧{空文化|くうぶんか}⟦している→する：00392_suru⟧。",
       "english": "That regulation has become a dead letter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26742_kuubunka_ex2",
-      "japanese": "{憲法|けんぽう}の{条項|じょうこう}が{空文化|くうぶんか}する{危険|きけん}がある。",
+      "japanese": "⟦{憲法|けんぽう}→憲法：02744_kenpou⟧⟦の→の：09472_no⟧⟦{条項|じょうこう}→条項：18974_joukou⟧⟦が→が：00051_ga⟧{空文化|くうぶんか}⟦する→する：00392_suru⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a risk that the constitutional provision will become an empty formality.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26742_kuubunka_ex3",
-      "japanese": "{国際|こくさい}{条約|じょうやく}の{空文化|くうぶんか}を{防|ふせ}ぐためには、{各国|かっこく}が{実効性|じっこうせい}のある{措置|そち}を{取|と}る{必要|ひつよう}がある。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦の→の：09472_no⟧{空文化|くうぶんか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦が→が：00051_ga⟧{実効性|じっこうせい}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{措置|そち}→措置：05519_sochi⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To prevent international treaties from becoming dead letters, each country needs to take effective measures.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {空文|くうぶん} (dead letter, empty text) and {化|か} (becoming, -ification). Describes the process of a formally existing rule, law, or agreement losing its practical meaning. Common in legal, political, and academic discourse.\n\nCOMMON COLLOCATIONS:\n- {法律|ほうりつ}の{空文化|くうぶんか}: a law becoming a dead letter\n- {条約|じょうやく}の{空文化|くうぶんか}: a treaty becoming an empty formality\n- {空文化|くうぶんか}を{防|ふせ}ぐ: to prevent something from becoming a dead letter\n- {空文化|くうぶんか}が{進|すす}む: the process of becoming an empty formality advances\n\nRELATED WORDS:\n- {空文|くうぶん}: dead letter — a law or provision that exists but has no practical effect\n- {形骸化|けいがいか}: becoming a mere shell — a similar concept applied more broadly to systems, institutions, and customs",
+  "notes": "A compound of {空文|くうぶん} (dead letter, empty text) and ⟦{化|か}→〜化：28335_ka⟧ (becoming, -ification). Describes the process of a formally existing rule, law, or agreement losing its practical meaning. Common in legal, political, and academic discourse.\n\nCOMMON COLLOCATIONS:\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦の→の：09472_no⟧{空文化|くうぶんか}: a law becoming a dead letter\n- ⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦の→の：09472_no⟧{空文化|くうぶんか}: a treaty becoming an empty formality\n- {空文化|くうぶんか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent something from becoming a dead letter\n- {空文化|くうぶんか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: the process of becoming an empty formality advances\n\nRELATED WORDS:\n- {空文|くうぶん}: dead letter — a law or provision that exists but has no practical effect\n- ⟦{形骸化|けいがいか}→形骸化：07645_keigaika⟧: becoming a mere shell — a similar concept applied more broadly to systems, institutions, and customs",
   "cross_references": [
     {
       "type": "related",
@@ -70,10 +70,11 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-04T15:32:35Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

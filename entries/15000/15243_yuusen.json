@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15243_yuusen_ex1",
-      "japanese": "{安全|あんぜん}を{優先|ゆうせん}する。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧{優先|ゆうせん}⟦する→する：00392_suru⟧。",
       "english": "To prioritize safety.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15243_yuusen_ex2",
-      "japanese": "{歩行者|ほこうしゃ}{優先|ゆうせん}の{道路|どうろ}では{車|くるま}は{徐行|じょこう}しなければならない。",
+      "japanese": "⟦{歩行者|ほこうしゃ}→歩行者：03152_hokousha⟧{優先|ゆうせん}⟦の→の：09472_no⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{車|くるま}→車：00516_kuruma⟧⟦は→は：00079_ha⟧⟦{徐行|じょこう}→徐行：09215_jokou⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "On pedestrian-priority roads, vehicles must slow down.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15243_yuusen_ex3",
-      "japanese": "{仕事|しごと}よりも{家族|かぞく}を{優先|ゆうせん}したいと{考|かんが}えるようになった。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦を→を：00422_wo⟧{優先|ゆうせん}⟦したい→する：00392_suru⟧⟦と→と：00512_to⟧⟦{考|かんが}える→考える：00856_kangaeru⟧ようになった。",
       "english": "I've come to want to prioritize family over work.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "FORMATION: {優|ゆう} (superior, excellent) + {先|せん} (ahead, first). Literally 'ahead in superiority.'\n\nCOMMON PATTERNS:\n- [A]を{優先|ゆうせん}する (to prioritize A)\n- [A]に{優先|ゆうせん}する (to take precedence over A)\n- [A]より[B]を{優先|ゆうせん}する (to prioritize B over A)\n\nCOMMON COLLOCATIONS:\n- {優先順位|ゆうせんじゅんい}: priority ranking, order of priority\n- {優先席|ゆうせんせき}: priority seating (on trains)\n- {最優先|さいゆうせん}: top priority\n- {優先権|ゆうせんけん}: right of priority, priority rights\n- {優先的|ゆうせんてき}に: preferentially, with priority",
+  "notes": "FORMATION: ⟦{優|ゆう}→優：00431_yuu⟧ (superior, excellent) + {先|せん} (ahead, first). Literally 'ahead in superiority.'\n\nCOMMON PATTERNS:\n- [A]⟦を→を：00422_wo⟧{優先|ゆうせん}⟦する→する：00392_suru⟧ (to prioritize A)\n- [A]⟦に→に：00314_ni⟧{優先|ゆうせん}⟦する→する：00392_suru⟧ (to take precedence over A)\n- [A]⟦より→より：09476_yori⟧[B]⟦を→を：00422_wo⟧{優先|ゆうせん}⟦する→する：00392_suru⟧ (to prioritize B over A)\n\nCOMMON COLLOCATIONS:\n- ⟦{優先順位|ゆうせんじゅんい}→優先順位：09620_yuusenjuni⟧: priority ranking, order of priority\n- ⟦{優先席|ゆうせんせき}→優先席：06202_yuusenseki⟧: priority seating (on trains)\n- ⟦{最優先|さいゆうせん}→最優先：13012_saiyuusen⟧: top priority\n- {優先権|ゆうせんけん}: right of priority, priority rights\n- {優先的|ゆうせんてき}⟦に→に：00314_ni⟧: preferentially, with priority",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-05T10:23:32Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -158,7 +158,8 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

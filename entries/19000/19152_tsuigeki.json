@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19152_tsuigeki_ex1",
-      "japanese": "{敵|てき}を{追撃|ついげき}する。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦を→を：00422_wo⟧{追撃|ついげき}⟦する→する：00392_suru⟧。",
       "english": "To pursue the enemy.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19152_tsuigeki_ex2",
-      "japanese": "{追撃|ついげき}の{手|て}を{緩|ゆる}めてはいけない。",
+      "japanese": "{追撃|ついげき}⟦の→の：09472_no⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{緩|ゆる}めて→緩める：15263_yurumeru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "We must not let up on the pursuit.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19152_tsuigeki_ex3",
-      "japanese": "{野党|やとう}は{政府|せいふ}の{失策|しっさく}に{対|たい}して{追撃|ついげき}の{質問|しつもん}を{浴|あ}びせた。",
+      "japanese": "⟦{野党|やとう}→野党：02438_yatou⟧⟦は→は：00079_ha⟧⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧⟦{失策|しっさく}→失策：18506_shissaku⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧{追撃|ついげき}⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦を→を：00422_wo⟧{浴|あ}びせた。",
       "english": "The opposition party bombarded the government with follow-up questions about its blunder.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Originally a military term meaning to chase and attack a retreating enemy. Now widely used figuratively in sports, politics, and business.\n\nCOMMON COLLOCATIONS:\n- {追撃|ついげき}する: to pursue, to chase down\n- {追撃|ついげき}の{手|て}を{緩|ゆる}める: to ease up on the pursuit\n- {追撃戦|ついげきせん}: pursuit battle\n- {追撃|ついげき}の{一打|いちだ}: a follow-up hit (sports)\n\nUSAGE:\nIn sports, refers to a comeback effort or pressing an advantage. In politics and debate, means continuing to press someone on a weak point.\n\nSIMILAR WORDS:\n- {追跡|ついせき}: tracking, following (less aggressive, focuses on following rather than attacking)\n- {追|お}いかける: to chase (everyday usage, not necessarily aggressive)",
+  "notes": "Originally a military term meaning to chase and attack a retreating enemy. Now widely used figuratively in sports, politics, and business.\n\nCOMMON COLLOCATIONS:\n- {追撃|ついげき}⟦する→する：00392_suru⟧: to pursue, to chase down\n- {追撃|ついげき}⟦の→の：09472_no⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{緩|ゆる}める→緩める：15263_yurumeru⟧: to ease up on the pursuit\n- {追撃戦|ついげきせん}: pursuit battle\n- {追撃|ついげき}⟦の→の：09472_no⟧{一打|いちだ}: a follow-up hit (sports)\n\nUSAGE:\nIn sports, refers to a comeback effort or pressing an advantage. In politics and debate, means continuing to press someone on a weak point.\n\nSIMILAR WORDS:\n- ⟦{追跡|ついせき}→追跡：09722_tsuiseki⟧: tracking, following (less aggressive, focuses on following rather than attacking)\n- ⟦{追|お}いかける→追いかける：16734_oikakeru⟧: to chase (everyday usage, not necessarily aggressive)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -164,9 +164,10 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-24T11:22:23Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

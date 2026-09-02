@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14895_ketsuretsu_ex1",
-      "japanese": "{交渉|こうしょう}が{決裂|けつれつ}した。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{決裂|けつれつ}⟦した→する：00392_suru⟧。",
       "english": "The negotiations broke down.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14895_ketsuretsu_ex2",
-      "japanese": "{条件|じょうけん}が{折|お}り{合|あ}わず、{話|はなし}し{合|あ}いは{決裂|けつれつ}に{終|お}わった。",
+      "japanese": "⟦{条件|じょうけん}→条件：03285_jouken⟧⟦が→が：00051_ga⟧{折|お}り{合|あ}わず、{話|はなし}し{合|あ}い⟦は→は：00079_ha⟧{決裂|けつれつ}⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "They could not agree on the terms, and the discussions ended in a breakdown.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14895_ketsuretsu_ex3",
-      "japanese": "{労使|ろうし}{交渉|こうしょう}が{決裂|けつれつ}し、ストライキに{突入|とつにゅう}した。",
+      "japanese": "⟦{労使|ろうし}→労使：27897_roushi⟧⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{決裂|けつれつ}し、ストライキ⟦に→に：00314_ni⟧⟦{突入|とつにゅう}→突入：13777_totsunyuu⟧⟦した→する：00392_suru⟧。",
       "english": "The labor-management negotiations collapsed, and a strike began.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{決裂|けつれつ} is a noun that also functions as a suru-verb ({決裂|けつれつ}する). It describes a definitive, usually irreversible breakdown — stronger than simply \"not reaching an agreement.\"\n\nCOMMON COLLOCATIONS:\n- {交渉|こうしょう}が{決裂|けつれつ}する (negotiations break down)\n- {会談|かいだん}が{決裂|けつれつ}する (talks collapse)\n- {決裂|けつれつ}に{終|お}わる (to end in a breakdown)\n- {決裂|けつれつ}に{至|いた}る (to reach a point of breakdown)\n\nUSAGE:\nThis word is most commonly seen in news reporting about diplomatic, business, or labor negotiations. It implies finality — the discussions are over and no compromise was found.",
+  "notes": "{決裂|けつれつ} is a noun that also functions as a suru-verb ({決裂|けつれつ}⟦する→する：00392_suru⟧). It describes a definitive, usually irreversible breakdown — stronger than simply \"not reaching an agreement.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{決裂|けつれつ}⟦する→する：00392_suru⟧ (negotiations break down)\n- ⟦{会談|かいだん}→会談：11542_kaidan⟧⟦が→が：00051_ga⟧{決裂|けつれつ}⟦する→する：00392_suru⟧ (talks collapse)\n- {決裂|けつれつ}⟦に→に：00314_ni⟧{終|お}わる (to end in a breakdown)\n- {決裂|けつれつ}⟦に→に：00314_ni⟧⟦{至|いた}る→至る：02009_itaru⟧ (to reach a point of breakdown)\n\nUSAGE:\nThis word is most commonly seen in news reporting about diplomatic, business, or labor negotiations. It implies finality — the discussions are over and no compromise was found.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-04T05:31:07Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19721_saidan_ex1",
-      "japanese": "{書類|しょるい}を{細断|さいだん}する。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{細断|さいだん}⟦する→する：00392_suru⟧。",
       "english": "To shred documents.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19721_saidan_ex2",
-      "japanese": "{個人情報|こじんじょうほう}が{書|か}かれた{紙|かみ}は{必|かなら}ず{細断|さいだん}してから{捨|す}ててください。",
+      "japanese": "⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦が→が：00051_ga⟧⟦{書|か}かれた→書く：00477_kaku⟧⟦{紙|かみ}→紙：00712_kami⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧{細断|さいだん}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{捨|す}てて→捨てる：00892_suteru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please always shred paper containing personal information before disposing of it.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19721_saidan_ex3",
-      "japanese": "オフィスには{機密|きみつ}{文書|ぶんしょ}を{細断|さいだん}するためのシュレッダーが{設置|せっち}されている。",
+      "japanese": "⟦オフィス→オフィス：00327_ofisu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{機密|きみつ}→機密：13179_kimitsu⟧⟦{文書|ぶんしょ}→文書：12947_bunsho⟧⟦を→を：00422_wo⟧{細断|さいだん}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦シュレッダー→シュレッダー：07492_shureddaa⟧⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されている→する：00392_suru⟧。",
       "english": "A shredder for shredding confidential documents is installed in the office.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {細|さい} (fine, thin) + {断|だん} (to cut). While it can refer to any kind of fine cutting, in modern usage it is most strongly associated with shredding documents for information security.\n\nCOMMON COLLOCATIONS:\n- {細断|さいだん}する — to shred\n- {細断|さいだん}{処理|しょり} — shredding (as a process)\n- {細断|さいだん}{機|き} — shredder (alternative to シュレッダー)\n\nSIMILAR WORDS:\n- {裁断|さいだん} — cutting (fabric, paper); same reading but different kanji, refers to cutting material to a pattern\n- {粉砕|ふんさい} — pulverizing, crushing; more thorough destruction into powder or fragments\n- シュレッダーにかける — to put through a shredder; everyday expression for the same action",
+  "notes": "Composed of {細|さい} (fine, thin) + {断|だん} (to cut). While it can refer to any kind of fine cutting, in modern usage it is most strongly associated with shredding documents for information security.\n\nCOMMON COLLOCATIONS:\n- {細断|さいだん}⟦する→する：00392_suru⟧ — to shred\n- {細断|さいだん}⟦{処理|しょり}→処理：03251_shori⟧ — shredding (as a process)\n- {細断|さいだん}{機|き} — shredder (alternative to ⟦シュレッダー→シュレッダー：07492_shureddaa⟧)\n\nSIMILAR WORDS:\n- ⟦{裁断|さいだん}→裁断：19992_saidan⟧ — cutting (fabric, paper); same reading but different kanji, refers to cutting material to a pattern\n- ⟦{粉砕|ふんさい}→粉砕：13874_funsai⟧ — pulverizing, crushing; more thorough destruction into powder or fragments\n- ⟦シュレッダー→シュレッダー：07492_shureddaa⟧⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧ — to put through a shredder; everyday expression for the same action",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -164,9 +164,10 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T14:34:06Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

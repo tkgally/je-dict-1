@@ -329,7 +329,7 @@ git log --oneline --since="7 days ago"
 
 # Check for entries with potential issues
 python3 build/find_missing_furigana.py
-python3 build/check_tag_consistency.py
+python3 build/validate_tags.py
 
 # Rebuild the site to verify rendering
 make build

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23173_shutsugeki_ex1",
-      "japanese": "{部隊|ぶたい}が{出撃|しゅつげき}した。",
+      "japanese": "⟦{部隊|ぶたい}→部隊：28119_butai⟧⟦が→が：00051_ga⟧{出撃|しゅつげき}⟦した→する：00392_suru⟧。",
       "english": "The troops launched a sortie.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23173_shutsugeki_ex2",
-      "japanese": "{戦闘機|せんとうき}が{基地|きち}から{出撃|しゅつげき}した。",
+      "japanese": "⟦{戦闘機|せんとうき}→戦闘機：23287_sentouki⟧⟦が→が：00051_ga⟧⟦{基地|きち}→基地：03982_kichi⟧⟦から→から：00504_kara⟧{出撃|しゅつげき}⟦した→する：00392_suru⟧。",
       "english": "Fighter jets sortied from the base.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23173_shutsugeki_ex3",
-      "japanese": "{夜明|よあ}け{前|まえ}に{全軍|ぜんぐん}が{出撃|しゅつげき}の{命令|めいれい}を{受|う}けた。",
+      "japanese": "⟦{夜明|よあ}け→夜明け：03655_yoake⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{全軍|ぜんぐん}⟦が→が：00051_ga⟧{出撃|しゅつげき}⟦の→の：09472_no⟧⟦{命令|めいれい}→命令：03754_meirei⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "The entire army received orders to sortie before dawn.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23173_shutsugeki_ex4",
-      "japanese": "このゲームでは{好|す}きなキャラクターで{出撃|しゅつげき}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{好|す}き→好き：02355_suki⟧な⟦キャラクター→キャラクター：23518_kyarakutaa⟧⟦で→で：00502_de⟧{出撃|しゅつげき}⟦できる→できる：00557_dekiru⟧。",
       "english": "In this game, you can deploy with your favorite character.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {出|しゅつ} (go out) and {撃|げき} (attack, strike). Describes the act of leaving a position to go on the offensive. Originally a military term, it is now commonly encountered in video games, anime, and fiction involving mecha or war themes.\n\nCOMMON COLLOCATIONS:\n- {出撃|しゅつげき}する: to sortie, to deploy\n- {出撃|しゅつげき}{命令|めいれい}: sortie order\n- {出撃|しゅつげき}{準備|じゅんび}: preparations for sortie\n- {出撃|しゅつげき}{回数|かいすう}: number of sorties\n\nSIMILAR WORDS:\n- {進撃|しんげき}: advance, charge — moving forward to attack, often in formation\n- {攻撃|こうげき}: attack — the act of attacking in general, not specifically leaving base\n- {出動|しゅつどう}: dispatch, deployment — broader term for dispatching forces, including for non-combat purposes",
+  "notes": "Composed of {出|しゅつ} (go out) and {撃|げき} (attack, strike). Describes the act of leaving a position to go on the offensive. Originally a military term, it is now commonly encountered in video games, anime, and fiction involving mecha or war themes.\n\nCOMMON COLLOCATIONS:\n- {出撃|しゅつげき}⟦する→する：00392_suru⟧: to sortie, to deploy\n- {出撃|しゅつげき}⟦{命令|めいれい}→命令：03754_meirei⟧: sortie order\n- {出撃|しゅつげき}⟦{準備|じゅんび}→準備：01431_junbi⟧: preparations for sortie\n- {出撃|しゅつげき}⟦{回数|かいすう}→回数：00139_kaisuu⟧: number of sorties\n\nSIMILAR WORDS:\n- ⟦{進撃|しんげき}→進撃：14493_shingeki⟧: advance, charge — moving forward to attack, often in formation\n- ⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧: attack — the act of attacking in general, not specifically leaving base\n- ⟦{出動|しゅつどう}→出動：28803_shutsudou⟧: dispatch, deployment — broader term for dispatching forces, including for non-combat purposes",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -91,10 +91,11 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-08T21:19:30Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "suru",

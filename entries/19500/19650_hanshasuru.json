@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19650_hanshasuru_ex1",
-      "japanese": "{光|ひかり}が{反射|はんしゃ}する。",
+      "japanese": "⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧{反射|はんしゃ}する。",
       "english": "Light reflects.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19650_hanshasuru_ex2",
-      "japanese": "{水面|すいめん}に{太陽|たいよう}の{光|ひかり}が{反射|はんしゃ}している。",
+      "japanese": "⟦{水面|すいめん}→水面：04307_suimen⟧⟦に→に：00314_ni⟧⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧{反射|はんしゃ}して⟦いる→いる：00495_iru⟧。",
       "english": "Sunlight is reflecting off the surface of the water.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19650_hanshasuru_ex3",
-      "japanese": "{鏡|かがみ}に{反射|はんしゃ}した{光|ひかり}がまぶしくて{目|め}を{細|ほそ}めた。",
+      "japanese": "⟦{鏡|かがみ}→鏡：02190_kagami⟧⟦に→に：00314_ni⟧{反射|はんしゃ}した⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦まぶしくて→まぶしい：03737_mabushii⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{細|ほそ}めた。",
       "english": "The light reflected in the mirror was so bright that I squinted.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Used in everyday language for light reflecting, and in science for reflection of waves. The noun form {反射|はんしゃ} is also used for involuntary bodily reactions (reflexes).\n\nCOMMON COLLOCATIONS:\n- {反射|はんしゃ}{的|てき}に: reflexively, instinctively\n- {反射|はんしゃ}{神経|しんけい}: reflexes\n- {乱反射|らんはんしゃ}: diffuse reflection\n- {全反射|ぜんはんしゃ}: total reflection\n- {条件|じょうけん}{反射|はんしゃ}: conditioned reflex\n\nSIMILAR WORDS:\n- {映|うつ}る: to be reflected, to appear — used for images reflected in mirrors or water\n- {反射|はんしゃ}する: to reflect — used for light, sound, or heat bouncing off surfaces\n- {跳|は}ね{返|かえ}る: to bounce back — physical bouncing of objects",
+  "notes": "Used in everyday language for light reflecting, and in science for reflection of waves. The noun form ⟦{反射|はんしゃ}→反射：08390_hansha⟧ is also used for involuntary bodily reactions (reflexes).\n\nCOMMON COLLOCATIONS:\n- ⟦{反射|はんしゃ}{的|てき}→反射的：16854_hanshateki⟧⟦に→に：00314_ni⟧: reflexively, instinctively\n- ⟦{反射|はんしゃ}{神経|しんけい}→反射神経：25595_hanshashinkei⟧: reflexes\n- {乱反射|らんはんしゃ}: diffuse reflection\n- {全反射|ぜんはんしゃ}: total reflection\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧⟦{反射|はんしゃ}→反射：08390_hansha⟧: conditioned reflex\n\nSIMILAR WORDS:\n- ⟦{映|うつ}る→映る：12964_utsuru⟧: to be reflected, to appear — used for images reflected in mirrors or water\n- {反射|はんしゃ}する: to reflect — used for light, sound, or heat bouncing off surfaces\n- ⟦{跳|は}ね{返|かえ}る→跳ね返る：07009_hanekaeru⟧: to bounce back — physical bouncing of objects",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-26T09:40:52Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -171,7 +171,8 @@
       "semantic": [
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

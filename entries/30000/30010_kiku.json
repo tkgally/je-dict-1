@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30010_kiku_ex1",
-      "japanese": "{音楽|おんがく}を{聴|き}く。",
+      "japanese": "⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧{聴|き}く。",
       "english": "To listen to music.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30010_kiku_ex2",
-      "japanese": "{毎朝|まいあさ}ラジオを{聴|き}いている。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦ラジオ→ラジオ：01541_rajio⟧⟦を→を：00422_wo⟧{聴|き}いて⟦いる→いる：00495_iru⟧。",
       "english": "I listen to the radio every morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30010_kiku_ex3",
-      "japanese": "{好|す}きなアーティストの{新曲|しんきょく}をじっくり{聴|き}いた。",
+      "japanese": "⟦{好|す}き→好き：02355_suki⟧な⟦アーティスト→アーティスト：10712_aatisuto⟧⟦の→の：09472_no⟧⟦{新曲|しんきょく}→新曲：12983_shinkyoku⟧⟦を→を：00422_wo⟧⟦じっくり→じっくり：06252_jikkuri⟧{聴|き}いた。",
       "english": "I listened carefully to my favorite artist's new song.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Transitive; takes the を object.\n\nWritten with {聴|き}く rather than {聞|き}く when the listening is attentive and deliberate — music, a concert, a lecture. Both are read きく.\n\nSIMILAR WORDS:\n- {聞|き}く: to hear; to ask — the everyday, broader word for perceiving sound or asking a question\n- {聴|き}く: to listen attentively — emphasizes focused, appreciative listening",
+  "notes": "TRANSITIVITY: Transitive; takes the ⟦を→を：00422_wo⟧ object.\n\nWritten with {聴|き}く rather than ⟦{聞|き}く→聞く：00483_kiku⟧ when the listening is attentive and deliberate — music, a concert, a lecture. Both are read きく.\n\nSIMILAR WORDS:\n- ⟦{聞|き}く→聞く：00483_kiku⟧: to hear; to ask — the everyday, broader word for perceiving sound or asking a question\n- {聴|き}く: to listen attentively — emphasizes focused, appreciative listening",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -67,10 +67,11 @@
         "communication"
       ],
       "domain": [],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "transitive"
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "godan",

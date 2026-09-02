@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19510_chinseika_ex1",
-      "japanese": "{騒|さわ}ぎが{沈静化|ちんせいか}した。",
+      "japanese": "⟦{騒|さわ}ぎ→騒ぎ：02827_sawagi⟧⟦が→が：00051_ga⟧{沈静化|ちんせいか}⟦した→する：00392_suru⟧。",
       "english": "The commotion died down.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19510_chinseika_ex2",
-      "japanese": "{感染|かんせん}の{拡大|かくだい}が{沈静化|ちんせいか}しつつある。",
+      "japanese": "⟦{感染|かんせん}→感染：05977_kansen⟧⟦の→の：09472_no⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦が→が：00051_ga⟧{沈静化|ちんせいか}しつつ⟦ある→ある：00006_aru⟧。",
       "english": "The spread of infection is gradually subsiding.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19510_chinseika_ex3",
-      "japanese": "インターネット{上|じょう}の{炎上|えんじょう}が{沈静化|ちんせいか}するまで、{数週間|すうしゅうかん}かかった。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦{上|じょう}→〜上：30365_jou⟧⟦の→の：09472_no⟧⟦{炎上|えんじょう}→炎上：05867_enjou⟧⟦が→が：00051_ga⟧{沈静化|ちんせいか}⟦する→する：00392_suru⟧⟦まで→まで：00490_made⟧、⟦{数週間|すうしゅうかん}→数週間：21615_suushuukan⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took several weeks for the online firestorm to die down.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {沈静|ちんせい} (calm, quiet) and {化|か} (becoming, -ization). Describes the process of something turbulent or intense gradually returning to a calm state. Used both as a noun and as a suru-verb ({沈静化|ちんせいか}する).\n\nUSAGE:\nFrequently appears in news reporting about protests, epidemics, market volatility, controversies, and natural disasters. Implies a gradual process rather than sudden cessation.\n\nCOMMON COLLOCATIONS:\n- {事態|じたい}の{沈静化|ちんせいか} — the calming of a situation\n- {沈静化|ちんせいか}を{図|はか}る — to attempt to calm things down\n- {沈静化|ちんせいか}に{向|む}かう — to head toward calming down\n- {騒動|そうどう}が{沈静化|ちんせいか}する — the uproar subsides\n\nSIMILAR WORDS:\n- {鎮静|ちんせい} — sedation, calming; also used medically for administering sedatives\n- {収束|しゅうそく} — convergence, resolution; implies reaching a conclusion or endpoint\n- {落|お}ち{着|つ}く — to calm down; everyday verb, used for people and situations alike",
+  "notes": "A compound of {沈静|ちんせい} (calm, quiet) and ⟦{化|か}→〜化：28335_ka⟧ (becoming, -ization). Describes the process of something turbulent or intense gradually returning to a calm state. Used both as a noun and as a suru-verb ({沈静化|ちんせいか}⟦する→する：00392_suru⟧).\n\nUSAGE:\nFrequently appears in news reporting about protests, epidemics, market volatility, controversies, and natural disasters. Implies a gradual process rather than sudden cessation.\n\nCOMMON COLLOCATIONS:\n- ⟦{事態|じたい}→事態：10151_jitai⟧⟦の→の：09472_no⟧{沈静化|ちんせいか} — the calming of a situation\n- {沈静化|ちんせいか}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧ — to attempt to calm things down\n- {沈静化|ちんせいか}⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧ — to head toward calming down\n- ⟦{騒動|そうどう}→騒動：14656_soudou⟧⟦が→が：00051_ga⟧{沈静化|ちんせいか}⟦する→する：00392_suru⟧ — the uproar subsides\n\nSIMILAR WORDS:\n- ⟦{鎮静|ちんせい}→鎮静：19769_chinsei⟧ — sedation, calming; also used medically for administering sedatives\n- ⟦{収束|しゅうそく}→収束：09135_shuusoku⟧ — convergence, resolution; implies reaching a conclusion or endpoint\n- ⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧ — to calm down; everyday verb, used for people and situations alike",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -178,9 +178,10 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T02:44:22Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

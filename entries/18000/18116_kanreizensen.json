@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18116_kanreizensen_ex1",
-      "japanese": "{寒冷|かんれい}{前線|ぜんせん}が{通過|つうか}する。",
+      "japanese": "{寒冷|かんれい}{前線|ぜんせん}⟦が→が：00051_ga⟧⟦{通過|つうか}する→通過する：22435_tsuukasuru⟧。",
       "english": "A cold front is passing through.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18116_kanreizensen_ex2",
-      "japanese": "{寒冷|かんれい}{前線|ぜんせん}の{影響|えいきょう}で{気温|きおん}が{急|きゅう}に{下|さ}がった。",
+      "japanese": "{寒冷|かんれい}{前線|ぜんせん}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧⟦{下|さ}がった→下がる：01188_sagaru⟧。",
       "english": "The temperature dropped sharply due to the cold front.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18116_kanreizensen_ex3",
-      "japanese": "{今夜|こんや}{寒冷|かんれい}{前線|ぜんせん}が{通過|つうか}するため、{雷雨|らいう}や{突風|とっぷう}に{注意|ちゅうい}してください。",
+      "japanese": "⟦{今夜|こんや}→今夜：01411_konya⟧{寒冷|かんれい}{前線|ぜんせん}⟦が→が：00051_ga⟧⟦{通過|つうか}する→通過する：22435_tsuukasuru⟧⟦ため→ため：01145_tame⟧、⟦{雷雨|らいう}→雷雨：15922_raiu⟧や⟦{突風|とっぷう}→突風：15921_toppuu⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Because a cold front will pass through tonight, please be cautious of thunderstorms and gusts of wind.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA common term in weather forecasts. Japanese weather reporting uses specific meteorological vocabulary, and understanding front-related terms helps comprehend forecasts.\n\nRELATED WEATHER TERMS:\n- {温暖|おんだん}{前線|ぜんせん}: warm front\n- {停滞|ていたい}{前線|ぜんせん}: stationary front\n- {閉塞|へいそく}{前線|ぜんせん}: occluded front\n- {梅雨|ばいう}{前線|ぜんせん}: rainy season front (a specific stationary front)",
+  "notes": "USAGE:\nA common term in weather forecasts. Japanese weather reporting uses specific meteorological vocabulary, and understanding front-related terms helps comprehend forecasts.\n\nRELATED WEATHER TERMS:\n- ⟦{温暖|おんだん}{前線|ぜんせん}→温暖前線：23240_ondanzensen⟧: warm front\n- ⟦{停滞|ていたい}→停滞：07427_teitai⟧⟦{前線|ぜんせん}→前線：11791_zensen⟧: stationary front\n- ⟦{閉塞|へいそく}→閉塞：14561_heisoku⟧⟦{前線|ぜんせん}→前線：11791_zensen⟧: occluded front\n- {梅雨|ばいう}⟦{前線|ぜんせん}→前線：11791_zensen⟧: rainy season front (a specific stationary front)",
   "cross_references": [
     {
       "type": "antonym",
@@ -50,14 +56,18 @@
   ],
   "metadata": {
     "created": "2026-03-20T02:46:48Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

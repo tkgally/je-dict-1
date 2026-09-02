@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25344_kyoukasuru_ex1",
-      "japanese": "セキュリティを{強化|きょうか}する。",
+      "japanese": "⟦セキュリティ→セキュリティ：04867_sekyuriti⟧⟦を→を：00422_wo⟧{強化|きょうか}する。",
       "english": "We will strengthen security.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25344_kyoukasuru_ex2",
-      "japanese": "{体力|たいりょく}を{強化|きょうか}するためにトレーニングを{始|はじ}めた。",
+      "japanese": "⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦を→を：00422_wo⟧{強化|きょうか}する⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦トレーニング→トレーニング：00408_toreeningu⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started training to build up my physical strength.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25344_kyoukasuru_ex3",
-      "japanese": "{政府|せいふ}は{災害|さいがい}{対策|たいさく}を{強化|きょうか}し、{避難|ひなん}{体制|たいせい}の{見直|みなお}しを{進|すす}めている。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{災害|さいがい}{対策|たいさく}→災害対策：25766_saigaitaisaku⟧⟦を→を：00422_wo⟧{強化|きょうか}し、⟦{避難|ひなん}→避難：07908_hinan⟧⟦{体制|たいせい}→体制：04490_taisei⟧⟦の→の：09472_no⟧⟦{見直|みなお}し→見直し：09340_minaoshi⟧⟦を→を：00422_wo⟧⟦{進|すす}めている→進める：01949_susumeru⟧。",
       "english": "The government is strengthening disaster preparedness measures and reviewing the evacuation system.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A widely used suru-verb appearing in business, policy, sports, technology, and daily life. It implies making something that already exists better or more robust, not creating something new. The noun {強化|きょうか} is equally common and appears in many compound nouns.\n\nCOMMON COLLOCATIONS:\n- {体制|たいせい}を{強化|きょうか}する: to strengthen the system\n- {規制|きせい}を{強化|きょうか}する: to tighten regulations\n- {防御|ぼうぎょ}を{強化|きょうか}する: to reinforce defenses\n- {連携|れんけい}を{強化|きょうか}する: to strengthen cooperation\n- {筋力|きんりょく}{強化|きょうか}: muscle strengthening\n- {強化|きょうか}ガラス: tempered glass\n- {強化|きょうか}{合宿|がっしゅく}: training camp\n\nSIMILAR WORDS:\n- {増強|ぞうきょう}する: to augment; to bolster — implies adding more resources or personnel\n- {補強|ほきょう}する: to reinforce; to shore up — emphasizes fixing weak points\n- {向上|こうじょう}させる: to improve; to raise — focuses on quality improvement rather than adding strength",
+  "notes": "A widely used suru-verb appearing in business, policy, sports, technology, and daily life. It implies making something that already exists better or more robust, not creating something new. The noun ⟦{強化|きょうか}→強化：00260_kyouka⟧ is equally common and appears in many compound nouns.\n\nCOMMON COLLOCATIONS:\n- ⟦{体制|たいせい}→体制：04490_taisei⟧⟦を→を：00422_wo⟧{強化|きょうか}する: to strengthen the system\n- ⟦{規制|きせい}→規制：02598_kisei⟧⟦を→を：00422_wo⟧{強化|きょうか}する: to tighten regulations\n- ⟦{防御|ぼうぎょ}→防御：14575_bougyo⟧⟦を→を：00422_wo⟧{強化|きょうか}する: to reinforce defenses\n- ⟦{連携|れんけい}→連携：05094_renkei⟧⟦を→を：00422_wo⟧{強化|きょうか}する: to strengthen cooperation\n- ⟦{筋力|きんりょく}→筋力：16393_kinryoku⟧⟦{強化|きょうか}→強化：00260_kyouka⟧: muscle strengthening\n- ⟦{強化|きょうか}→強化：00260_kyouka⟧⟦ガラス→ガラス：01777_garasu⟧: tempered glass\n- ⟦{強化|きょうか}→強化：00260_kyouka⟧⟦{合宿|がっしゅく}→合宿：11901_gasshuku⟧: training camp\n\nSIMILAR WORDS:\n- ⟦{増強|ぞうきょう}→増強：19103_zoukyou⟧⟦する→する：00392_suru⟧: to augment; to bolster — implies adding more resources or personnel\n- ⟦{補強|ほきょう}→補強：14024_hokyou⟧⟦する→する：00392_suru⟧: to reinforce; to shore up — emphasizes fixing weak points\n- {向上|こうじょう}させる: to improve; to raise — focuses on quality improvement rather than adding strength",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,10 +89,11 @@
         "change",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T15:27:01Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

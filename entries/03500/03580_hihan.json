@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03580_hihan_ex1",
-      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦を→を：00422_wo⟧{批判|ひはん}する。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦を→を：00422_wo⟧{批判|ひはん}⟦する→する：00392_suru⟧。",
       "english": "To criticize the government's policies.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "03580_hihan_ex3",
-      "japanese": "⟦{建設的|けんせつてき}→建設的：06092_kensetsuteki⟧⟦な→な：09497_na⟧{批判|ひはん}⟦なら→なら：09575_nara⟧⟦{歓迎|かんげい}→歓迎：02557_kangei⟧します。",
+      "japanese": "⟦{建設的|けんせつてき}→建設的：06092_kensetsuteki⟧⟦な→な：09497_na⟧{批判|ひはん}⟦なら→なら：09575_nara⟧⟦{歓迎|かんげい}→歓迎：02557_kangei⟧⟦します→する：00392_suru⟧。",
       "english": "I welcome constructive criticism.",
       "notes": "⟦{建設的|けんせつてき}→建設的：06092_kensetsuteki⟧な{批判|ひはん} = constructive criticism",
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {批判|ひはん} implies a reasoned evaluation with justification, whereas {非難|ひなん} is more about blaming or condemning without necessarily providing reasoning.\n\nCOMMON PATTERNS:\n- {批判|ひはん}する (to criticize)\n- {批判|ひはん}を⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive criticism)\n- {批判|ひはん}を⟦{浴|あ}びる→浴びる：02844_abiru⟧ (to be subjected to criticism)\n- {批判|ひはん}{的|てき} (critical)\n\nSIMILAR WORDS:\n- ⟦{批評|ひひょう}→批評：03581_hihyou⟧ - literary/artistic review or critique\n- ⟦{非難|ひなん}→非難：14616_hinan⟧ - blame, censure (more negative)",
+  "notes": "USAGE: {批判|ひはん} implies a reasoned evaluation with justification, whereas ⟦{非難|ひなん}→非難：14616_hinan⟧ is more about blaming or condemning without necessarily providing reasoning.\n\nCOMMON PATTERNS:\n- {批判|ひはん}⟦する→する：00392_suru⟧ (to criticize)\n- {批判|ひはん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive criticism)\n- {批判|ひはん}⟦を→を：00422_wo⟧⟦{浴|あ}びる→浴びる：02844_abiru⟧ (to be subjected to criticism)\n- {批判|ひはん}{的|てき} (critical)\n\nSIMILAR WORDS:\n- ⟦{批評|ひひょう}→批評：03581_hihyou⟧ - literary/artistic review or critique\n- ⟦{非難|ひなん}→非難：14616_hinan⟧ - blame, censure (more negative)",
   "cross_references": [
     {
       "type": "related",
@@ -187,7 +187,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T15:30:00Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -203,7 +203,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

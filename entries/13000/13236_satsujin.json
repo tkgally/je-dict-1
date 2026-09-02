@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13236_satsujin_ex1",
-      "japanese": "{殺人|さつじん}{事件|じけん}が{発生|はっせい}した。",
+      "japanese": "{殺人|さつじん}⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "A murder case occurred.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13236_satsujin_ex2",
-      "japanese": "{容疑者|ようぎしゃ}は{殺人|さつじん}の{罪|つみ}で{逮捕|たいほ}された。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧{殺人|さつじん}⟦の→の：09472_no⟧⟦{罪|つみ}→罪：03532_tsumi⟧⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The suspect was arrested on a charge of murder.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13236_satsujin_ex3",
-      "japanese": "この{推理|すいり}{小説|しょうせつ}は{連続|れんぞく}{殺人|さつじん}{事件|じけん}を{題材|だいざい}にしており、{最後|さいご}まで{犯人|はんにん}が{分|わ}からない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{推理|すいり}{小説|しょうせつ}→推理小説：28077_suirishousetsu⟧⟦は→は：00079_ha⟧⟦{連続|れんぞく}→連続：03783_renzoku⟧{殺人|さつじん}⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧⟦{題材|だいざい}→題材：10140_daizai⟧にしており、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "This mystery novel is based on a serial murder case, and the culprit remains unknown until the very end.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal legal term. In everyday conversation, {人殺|ひとごろ}し is a more colloquial equivalent. {殺人|さつじん} is the standard term in news, legal documents, and crime fiction.\n\nCOMMON COLLOCATIONS:\n- {殺人|さつじん}{事件|じけん}: murder case\n- {殺人|さつじん}{罪|ざい}: murder charge, crime of murder\n- {殺人|さつじん}{犯|はん}: murderer\n- {殺人|さつじん}{未遂|みすい}: attempted murder\n- {連続|れんぞく}{殺人|さつじん}: serial murder",
+  "notes": "USAGE:\nA formal legal term. In everyday conversation, {人殺|ひとごろ}し is a more colloquial equivalent. {殺人|さつじん} is the standard term in news, legal documents, and crime fiction.\n\nCOMMON COLLOCATIONS:\n- {殺人|さつじん}⟦{事件|じけん}→事件：01568_jiken⟧: murder case\n- {殺人|さつじん}{罪|ざい}: murder charge, crime of murder\n- {殺人|さつじん}{犯|はん}: murderer\n- {殺人|さつじん}⟦{未遂|みすい}→未遂：13085_misui⟧: attempted murder\n- ⟦{連続|れんぞく}→連続：03783_renzoku⟧{殺人|さつじん}: serial murder",
   "cross_references": [
     {
       "type": "related",
@@ -84,7 +84,7 @@
   ],
   "metadata": {
     "created": "2026-02-24T06:45:12Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

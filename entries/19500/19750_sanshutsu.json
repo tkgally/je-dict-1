@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19750_sanshutsu_ex1",
-      "japanese": "{石油|せきゆ}を{産出|さんしゅつ}する{国|くに}。",
+      "japanese": "⟦{石油|せきゆ}→石油：01448_sekiyu⟧⟦を→を：00422_wo⟧{産出|さんしゅつ}⟦する→する：00392_suru⟧⟦{国|くに}→国：02204_kuni⟧。",
       "english": "A country that produces oil.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19750_sanshutsu_ex2",
-      "japanese": "この{地域|ちいき}は{金|きん}の{産出|さんしゅつ}で{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{金|きん}⟦の→の：09472_no⟧{産出|さんしゅつ}⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This region is known for its gold production.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19750_sanshutsu_ex3",
-      "japanese": "{産出量|さんしゅつりょう}が{年々|ねんねん}{減少|げんしょう}しているため、{新|あたら}しい{鉱山|こうざん}の{開発|かいはつ}が{必要|ひつよう}だ。",
+      "japanese": "{産出量|さんしゅつりょう}⟦が→が：00051_ga⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{減少|げんしょう}している→減少する：19026_genshousuru⟧⟦ため→ため：01145_tame⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{鉱山|こうざん}→鉱山：15746_kouzan⟧⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Since output has been declining year by year, development of new mines is necessary.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {産|さん} (produce, give birth) and {出|しゅつ} (put out, emit). Primarily used for natural resources and agricultural products that a region yields, rather than manufactured goods.\n\nUsed both as a noun ({産出|さんしゅつ}) and as a する verb ({産出|さんしゅつ}する — to produce, to yield).\n\nCOMMON COLLOCATIONS:\n- {産出量|さんしゅつりょう} — production volume; yield\n- {産出国|さんしゅつこく} — producing country\n- {石油|せきゆ}を{産出|さんしゅつ}する — to produce oil\n- {鉱物|こうぶつ}を{産出|さんしゅつ}する — to produce minerals\n\nSIMILAR WORDS:\n- {生産|せいさん} — production; broader term including manufacturing\n- {算出|さんしゅつ} — calculation (same reading, different kanji — a common homophone)\n- {産地|さんち} — production area; place of origin\n- {採掘|さいくつ} — mining; extraction",
+  "notes": "Compound of {産|さん} (produce, give birth) and {出|しゅつ} (put out, emit). Primarily used for natural resources and agricultural products that a region yields, rather than manufactured goods.\n\nUsed both as a noun ({産出|さんしゅつ}) and as a ⟦する→する：00392_suru⟧ verb ({産出|さんしゅつ}⟦する→する：00392_suru⟧ — to produce, to yield).\n\nCOMMON COLLOCATIONS:\n- {産出量|さんしゅつりょう} — production volume; yield\n- {産出国|さんしゅつこく} — producing country\n- ⟦{石油|せきゆ}→石油：01448_sekiyu⟧⟦を→を：00422_wo⟧{産出|さんしゅつ}⟦する→する：00392_suru⟧ — to produce oil\n- ⟦{鉱物|こうぶつ}→鉱物：04149_koubutsu⟧⟦を→を：00422_wo⟧{産出|さんしゅつ}⟦する→する：00392_suru⟧ — to produce minerals\n\nSIMILAR WORDS:\n- ⟦{生産|せいさん}→生産：01444_seisan⟧ — production; broader term including manufacturing\n- ⟦{算出|さんしゅつ}→算出：15350_sanshutsu⟧ — calculation (same reading, different kanji — a common homophone)\n- ⟦{産地|さんち}→産地：04031_sanchi⟧ — production area; place of origin\n- ⟦{採掘|さいくつ}→採掘：07996_saikutsu⟧ — mining; extraction",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -179,9 +179,10 @@
         "business",
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T15:23:54Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

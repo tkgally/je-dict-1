@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13326_ryuunyuu_ex1",
-      "japanese": "{海外|かいがい}からの{資金|しきん}が{流入|りゅうにゅう}した。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦が→が：00051_ga⟧{流入|りゅうにゅう}⟦した→する：00392_suru⟧。",
       "english": "Capital flowed in from overseas.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13326_ryuunyuu_ex2",
-      "japanese": "{都市|とし}への{人口|じんこう}{流入|りゅうにゅう}が{続|つづ}いている。",
+      "japanese": "⟦{都市|とし}→都市：01477_toshi⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧{流入|りゅうにゅう}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The influx of population into cities continues.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13326_ryuunyuu_ex3",
-      "japanese": "{大雨|おおあめ}で{大量|たいりょう}の{土砂|どしゃ}が{湖|みずうみ}に{流入|りゅうにゅう}した。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦で→で：00502_de⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦{土砂|どしゃ}→土砂：17540_dosha⟧⟦が→が：00051_ga⟧⟦{湖|みずうみ}→湖：00867_mizuumi⟧⟦に→に：00314_ni⟧{流入|りゅうにゅう}⟦した→する：00392_suru⟧。",
       "english": "Heavy rain caused a large amount of sediment to flow into the lake.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{流入|りゅうにゅう} is a formal term used in news, economics, and scientific writing for the flowing in of water, people, capital, or goods.\n\nWRITING:\n{流|りゅう} (flow) + {入|にゅう} (enter) — literally 'flow in.'\n\nPHYSICAL USES:\n- {土砂|どしゃ}の{流入|りゅうにゅう}: influx of sediment\n- {汚水|おすい}の{流入|りゅうにゅう}: inflow of polluted water\n\nABSTRACT USES:\n- {資金|しきん}の{流入|りゅうにゅう}: inflow of capital\n- {人口|じんこう}{流入|りゅうにゅう}: population influx\n- {海外|かいがい}からの{流入|りゅうにゅう}: influx from overseas\n- {情報|じょうほう}の{流入|りゅうにゅう}: inflow of information\n\nSIMILAR WORDS:\nOpposite of {流出|りゅうしゅつ} (outflow, drain). The pair {流入|りゅうにゅう}/{流出|りゅうしゅつ} is commonly used together in economics and environmental science.",
+  "notes": "{流入|りゅうにゅう} is a formal term used in news, economics, and scientific writing for the flowing in of water, people, capital, or goods.\n\nWRITING:\n{流|りゅう} (flow) + {入|にゅう} (enter) — literally 'flow in.'\n\nPHYSICAL USES:\n- ⟦{土砂|どしゃ}→土砂：17540_dosha⟧⟦の→の：09472_no⟧{流入|りゅうにゅう}: influx of sediment\n- ⟦{汚水|おすい}→汚水：09654_osui⟧⟦の→の：09472_no⟧{流入|りゅうにゅう}: inflow of polluted water\n\nABSTRACT USES:\n- ⟦{資金|しきん}→資金：09937_shikin⟧⟦の→の：09472_no⟧{流入|りゅうにゅう}: inflow of capital\n- ⟦{人口|じんこう}→人口：01618_jinkou⟧{流入|りゅうにゅう}: population influx\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{流入|りゅうにゅう}: influx from overseas\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧{流入|りゅうにゅう}: inflow of information\n\nSIMILAR WORDS:\nOpposite of ⟦{流出|りゅうしゅつ}→流出：13327_ryuushutsu⟧ (outflow, drain). The pair {流入|りゅうにゅう}/⟦{流出|りゅうしゅつ}→流出：13327_ryuushutsu⟧ is commonly used together in economics and environmental science.",
   "cross_references": [
     {
       "type": "antonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-09-02T02:55:10Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "movement",
         "economics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

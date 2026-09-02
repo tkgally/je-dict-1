@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05976_shohou_ex1",
-      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦に→に：00314_ni⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{処方|しょほう}して⟦もらった→もらう：00520_morau⟧。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦に→に：00314_ni⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{処方|しょほう}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "The doctor prescribed me medicine.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "MEDICAL TERMS:\n- ⟦{処方箋|しょほうせん}→処方箋：06496_shohousen⟧: prescription (document)\n- ⟦{処方薬|しょほうやく}→処方薬：18860_shohouyaku⟧: prescription medicine\n- ⟦{院外処方|いんがいしょほう}→院外処方：29878_ingaishohou⟧: out-of-hospital prescription\n- ⟦{院内処方|いんないしょほう}→院内処方：29877_innaishohou⟧: in-hospital pharmacy\n\nJAPANESE HEALTHCARE:\nIn Japan, prescriptions (⟦{処方箋|しょほうせん}→処方箋：06496_shohousen⟧) are often filled at pharmacies separate from the hospital (⟦{院外処方|いんがいしょほう}→院外処方：29878_ingaishohou⟧), though some hospitals have internal pharmacies.\n\nVERB USAGE:\n- {処方|しょほう}する: to prescribe\n- {処方|しょほう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a prescription",
+  "notes": "MEDICAL TERMS:\n- ⟦{処方箋|しょほうせん}→処方箋：06496_shohousen⟧: prescription (document)\n- ⟦{処方薬|しょほうやく}→処方薬：18860_shohouyaku⟧: prescription medicine\n- ⟦{院外処方|いんがいしょほう}→院外処方：29878_ingaishohou⟧: out-of-hospital prescription\n- ⟦{院内処方|いんないしょほう}→院内処方：29877_innaishohou⟧: in-hospital pharmacy\n\nJAPANESE HEALTHCARE:\nIn Japan, prescriptions (⟦{処方箋|しょほうせん}→処方箋：06496_shohousen⟧) are often filled at pharmacies separate from the hospital (⟦{院外処方|いんがいしょほう}→院外処方：29878_ingaishohou⟧), though some hospitals have internal pharmacies.\n\nVERB USAGE:\n- {処方|しょほう}⟦する→する：00392_suru⟧: to prescribe\n- {処方|しょほう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a prescription",
   "cross_references": [
     {
       "type": "related",
@@ -173,7 +173,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T17:32:04Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -189,7 +189,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

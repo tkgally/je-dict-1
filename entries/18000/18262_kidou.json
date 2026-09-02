@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18262_kidou_ex1",
-      "japanese": "パソコンを{起動|きどう}する。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{起動|きどう}⟦する→する：00392_suru⟧。",
       "english": "I start up the computer.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18262_kidou_ex2",
-      "japanese": "アプリの{起動|きどう}が{遅|おそ}くなった。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦の→の：09472_no⟧{起動|きどう}⟦が→が：00051_ga⟧⟦{遅|おそ}く→遅い：00533_osoi⟧⟦なった→なる：01970_naru⟧。",
       "english": "The app has become slow to start up.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18262_kidou_ex3",
-      "japanese": "{電源|でんげん}ボタンを{押|お}してもパソコンが{起動|きどう}しないときは、サポートに{連絡|れんらく}してください。",
+      "japanese": "⟦{電源|でんげん}ボタン→電源ボタン：23360_dengenbotan⟧⟦を→を：00422_wo⟧⟦{押|お}して→押す：02854_osu⟧⟦も→も：00484_mo⟧⟦パソコン→パソコン：01538_pasokon⟧⟦が→が：00051_ga⟧{起動|きどう}⟦しない→する：00392_suru⟧とき⟦は→は：00079_ha⟧、⟦サポート→サポート：07776_sapooto⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}して→連絡する：20202_renrakusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If the computer won't start even when you press the power button, please contact support.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used with する to form a verb meaning \"to start up\" or \"to boot.\" Frequently appears in computing contexts but also applies to machines, engines, and systems in general.\n\nCOMMON COLLOCATIONS:\n- パソコンを{起動|きどう}する (to start up a computer)\n- アプリを{起動|きどう}する (to launch an app)\n- {起動|きどう}が{遅|おそ}い (slow to start)\n- {起動|きどう}{時|じ} (at startup)\n- {再|さい}{起動|きどう}する (to restart)\n\nSIMILAR WORDS:\n- {軌道|きどう}: orbit; track — a homophone with a completely different meaning\n- {起動|きどう} vs {再|さい}{起動|きどう}: {起動|きどう} is initial startup, while {再起動|さいきどう} is restarting",
+  "notes": "USAGE:\nMost commonly used with ⟦する→する：00392_suru⟧ to form a verb meaning \"to start up\" or \"to boot.\" Frequently appears in computing contexts but also applies to machines, engines, and systems in general.\n\nCOMMON COLLOCATIONS:\n- ⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{起動|きどう}⟦する→する：00392_suru⟧ (to start up a computer)\n- ⟦アプリ→アプリ：04722_apuri⟧⟦を→を：00422_wo⟧{起動|きどう}⟦する→する：00392_suru⟧ (to launch an app)\n- {起動|きどう}⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧ (slow to start)\n- {起動|きどう}⟦{時|じ}→時：09869_ji⟧ (at startup)\n- {再|さい}{起動|きどう}⟦する→する：00392_suru⟧ (to restart)\n\nSIMILAR WORDS:\n- ⟦{軌道|きどう}→軌道：06360_kidou⟧: orbit; track — a homophone with a completely different meaning\n- {起動|きどう} vs {再|さい}{起動|きどう}: {起動|きどう} is initial startup, while ⟦{再起動|さいきどう}→再起動：09222_saikidou⟧ is restarting",
   "prominent_see_also": [
     {
       "target_id": "17295_kidousuru",
@@ -168,7 +168,7 @@
   ],
   "metadata": {
     "created": "2026-03-21T01:07:19Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
       "semantic": [
         "technology"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

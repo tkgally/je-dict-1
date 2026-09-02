@@ -24,7 +24,7 @@
   "examples": [
     {
       "id": "09472_no_ex1",
-      "japanese": "{私|わたし}の{本|ほん}",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧の{本|ほん}",
       "english": "my book",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09472_no_ex2",
-      "japanese": "{日本|にほん}の{文化|ぶんか}",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧の⟦{文化|ぶんか}→文化：01504_bunka⟧",
       "english": "Japanese culture / the culture of Japan",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "09472_no_ex3",
-      "japanese": "{駅|えき}の{近|ちか}く",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧の{近|ちか}く",
       "english": "near the station",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "09472_no_ex4",
-      "japanese": "{赤|あか}いのが{欲|ほ}しい。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧の⟦が→が：00051_ga⟧⟦{欲|ほ}しい→欲しい：01107_hoshii⟧。",
       "english": "I want the red one.",
       "notes": null,
       "has_audio": false,
@@ -64,7 +64,7 @@
     },
     {
       "id": "09472_no_ex5",
-      "japanese": "{食|た}べるのが{好|す}きだ。",
+      "japanese": "⟦{食|た}べる→食べる：00396_taberu⟧の⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like eating.",
       "notes": null,
       "has_audio": false,
@@ -74,7 +74,7 @@
     },
     {
       "id": "09472_no_ex6",
-      "japanese": "{泳|およ}ぐのは{難|むずか}しい。",
+      "japanese": "⟦{泳|およ}ぐ→泳ぐ：00545_oyogu⟧の⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Swimming is difficult.",
       "notes": null,
       "has_audio": false,
@@ -84,7 +84,7 @@
     },
     {
       "id": "09472_no_ex7",
-      "japanese": "どうしたんですか。",
+      "japanese": "どうしたんです⟦か→か：09473_ka⟧。",
       "english": "What happened? / What's wrong?",
       "notes": null,
       "has_audio": false,
@@ -94,7 +94,7 @@
     },
     {
       "id": "09472_no_ex8",
-      "japanese": "{明日|あした}{試験|しけん}があるんです。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧んです。",
       "english": "It's that I have an exam tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -103,7 +103,7 @@
       ]
     }
   ],
-  "notes": "の is one of the most frequently used particles in Japanese.\n\nFUNCTIONS:\n1. Possession: {私|わたし}の{本|ほん} (my book)\n2. Attribution: {木|き}の{机|つくえ} (wooden desk)\n3. Apposition: {友達|ともだち}の{田中|たなか}さん (my friend Tanaka)\n4. Nominalization: {食|た}べるのが{好|す}き (like eating)\n5. Explanation: {病気|びょうき}なんです (It's that I'm sick)\n\nCOMMON PATTERNS:\n- Xの Y: X's Y, Y of X\n- Verb/Adj + のが: (the act of) verb/adj + subject marker\n- Verb/Adj + のは: (the act of) verb/adj + topic marker\n- のです/のだ/んです/んだ: explanatory ending\n\nNOTE: In casual speech, の often contracts to ん before です/だ.",
+  "notes": "の is one of the most frequently used particles in Japanese.\n\nFUNCTIONS:\n1. Possession: ⟦{私|わたし}→私：02988_watashi⟧の{本|ほん} (my book)\n2. Attribution: ⟦{木|き}→木：00524_ki⟧の⟦{机|つくえ}→机：00762_tsukue⟧ (wooden desk)\n3. Apposition: ⟦{友達|ともだち}→友達：01478_tomodachi⟧の⟦{田中|たなか}→田中：09528_tanaka⟧さん (my friend Tanaka)\n4. Nominalization: ⟦{食|た}べる→食べる：00396_taberu⟧の⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧ (like eating)\n5. Explanation: ⟦{病気|びょうき}→病気：00771_byouki⟧なんです (It's that I'm sick)\n\nCOMMON PATTERNS:\n- Xの Y: X's Y, Y of X\n- Verb/Adj + の⟦が→が：00051_ga⟧: (the act of) verb/adj + subject marker\n- Verb/Adj + の⟦は→は：00079_ha⟧: (the act of) verb/adj + topic marker\n- のです/のだ/んです/んだ: explanatory ending\n\nNOTE: In casual speech, の often contracts to ん before です/だ.",
   "cross_references": [
     {
       "type": "see_also",
@@ -121,7 +121,7 @@
   ],
   "metadata": {
     "created": "2026-02-02T05:06:49Z",
-    "modified": "2026-09-02T02:55:10Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

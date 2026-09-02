@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20743_seide_ex1",
-      "japanese": "{雨|あめ}のせいで{遅|おく}れた。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧せいで⟦{遅|おく}れた→遅れる：00741_okureru⟧。",
       "english": "I was late because of the rain.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20743_seide_ex2",
-      "japanese": "{寝不足|ねぶそく}のせいで{頭|あたま}が{痛|いた}い。",
+      "japanese": "⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧⟦の→の：09472_no⟧せいで⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "My head hurts because of lack of sleep.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20743_seide_ex3",
-      "japanese": "{工事|こうじ}のせいで{道|みち}が{渋滞|じゅうたい}していて、{会議|かいぎ}に{間|ま}に{合|あ}わなかった。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧せいで⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧⟦{渋滞|じゅうたい}→渋滞：03279_juutai⟧⟦していて→する：00392_suru⟧、⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}わなかった→間に合う：01142_maniau⟧。",
       "english": "The road was congested because of construction, and I didn't make it to the meeting in time.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Derived from {所為|せい} (cause, fault), せいで is used exclusively when the result is negative or undesirable. For positive outcomes, おかげで is used instead.\n\nUSAGE:\nせいで follows nouns with の, na-adjectives with な, and plain-form verbs or i-adjectives directly. It can also appear as せいか (softer, less certain) or in the pattern のせいにする (to blame something on).\n\nCOMMON PATTERNS:\n- {名詞|めいし}のせいで — because of [noun]\n- {動詞|どうし}せいで — because [verb]\n- せいか — perhaps because of\n- のせいにする — to blame on\n\nSIMILAR WORDS:\n- おかげで — thanks to; because of (positive result)\n- ために — because of (neutral, can be positive or negative)\n- によって — due to (formal, neutral cause)",
+  "notes": "Derived from {所為|せい} (cause, fault), せいで is used exclusively when the result is negative or undesirable. For positive outcomes, ⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧ is used instead.\n\nUSAGE:\nせいで follows nouns with ⟦の→の：09472_no⟧, na-adjectives with な, and plain-form verbs or i-adjectives directly. It can also appear as せい⟦か→か：09473_ka⟧ (softer, less certain) or in the pattern ⟦の→の：09472_no⟧せい⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to blame something on).\n\nCOMMON PATTERNS:\n- ⟦{名詞|めいし}→名詞：10420_meishi⟧⟦の→の：09472_no⟧せいで — because of [noun]\n- ⟦{動詞|どうし}→動詞：03472_doushi⟧せいで — because [verb]\n- せい⟦か→か：09473_ka⟧ — perhaps because of\n- ⟦の→の：09472_no⟧せい⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ — to blame on\n\nSIMILAR WORDS:\n- ⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧ — thanks to; because of (positive result)\n- ⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧ — because of (neutral, can be positive or negative)\n- ⟦によって→によって：06801_niyotte⟧ — due to (formal, neutral cause)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,6 +75,6 @@
       ]
     },
     "created": "2026-03-30T15:06:44Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

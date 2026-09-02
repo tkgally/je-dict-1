@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30343_nankaime_ex1",
-      "japanese": "{今回|こんかい}で{何回目|なんかいめ}ですか。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦で→で：00502_de⟧{何回目|なんかいめ}です⟦か→か：09473_ka⟧。",
       "english": "How many times is this now?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30343_nankaime_ex2",
-      "japanese": "{日本|にほん}に{来|く}るのは{何回目|なんかいめ}ですか。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{何回目|なんかいめ}です⟦か→か：09473_ka⟧。",
       "english": "Is this your first time in Japan, or have you been before?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30343_nankaime_ex3",
-      "japanese": "{同|おな}じ{失敗|しっぱい}を{繰|く}り{返|かえ}すのは、これで{何回目|なんかいめ}だろう。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、⟦これ→これ：00963_kore⟧⟦で→で：00502_de⟧{何回目|なんかいめ}だろう。",
       "english": "I wonder how many times this makes that I have repeated the same mistake.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {何回|なんかい} (how many times) plus the ordinal suffix 〜{目|め}. The 〜{目|め} is what makes it ordinal: {何回|なんかい} asks for a total count, {何回目|なんかいめ} asks for a position in a series.\n\nCOMMON PATTERNS:\n- {何回目|なんかいめ}ですか: which time is this?\n- これで{何回目|なんかいめ}: how many times does this make\n- {何回目|なんかいめ}の{挑戦|ちょうせん}: which attempt (in a series)\n\nANSWERING:\nAnswers use the same 〜{目|め} pattern: {一回目|いっかいめ} (the first time), {二回目|にかいめ} (the second time), {三回目|さんかいめ} (the third time).",
+  "notes": "Formed from ⟦{何回|なんかい}→何回：08497_nankai⟧ (how many times) plus the ordinal suffix 〜⟦{目|め}→目：00525_me⟧. The 〜⟦{目|め}→目：00525_me⟧ is what makes it ordinal: ⟦{何回|なんかい}→何回：08497_nankai⟧ asks for a total count, {何回目|なんかいめ} asks for a position in a series.\n\nCOMMON PATTERNS:\n- {何回目|なんかいめ}です⟦か→か：09473_ka⟧: which time is this?\n- ⟦これ→これ：00963_kore⟧⟦で→で：00502_de⟧{何回目|なんかいめ}: how many times does this make\n- {何回目|なんかいめ}⟦の→の：09472_no⟧⟦{挑戦|ちょうせん}→挑戦：03495_chousen⟧: which attempt (in a series)\n\nANSWERING:\nAnswers use the same 〜⟦{目|め}→目：00525_me⟧ pattern: {一回目|いっかいめ} (the first time), {二回目|にかいめ} (the second time), {三回目|さんかいめ} (the third time).",
   "cross_references": [
     {
       "type": "related",
@@ -69,6 +69,6 @@
       "domain": []
     },
     "created": "2026-08-03T00:18:03Z",
-    "modified": "2026-08-03T00:18:03Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

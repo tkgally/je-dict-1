@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13306_fukayomi_ex1",
-      "japanese": "それは{深読|ふかよ}みしすぎだよ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{深読|ふかよ}みしすぎだ⟦よ→よ：09475_yo⟧。",
       "english": "You're reading too much into it.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13306_fukayomi_ex2",
-      "japanese": "{彼|かれ}のメールを{深読|ふかよ}みして{不安|ふあん}になった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{深読|ふかよ}み⟦して→する：00392_suru⟧⟦{不安|ふあん}→不安：00836_fuan⟧になった。",
       "english": "I overanalyzed his email and got anxious.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13306_fukayomi_ex3",
-      "japanese": "{深読|ふかよ}みせずにそのまま{受|う}け{取|と}ったほうがいい。",
+      "japanese": "{深読|ふかよ}みせず⟦に→に：00314_ni⟧⟦そのまま→そのまま：03322_sonomama⟧⟦{受|う}け{取|と}った→受け取る：01883_uketoru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "It's better to take it at face value without reading too much into it.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed with する: {深読|ふかよ}みする (to overinterpret, to read too much into). Often used in casual conversation to tell someone they are overthinking something. Can also be used about texts, messages, or situations.\n\nThe word carries a nuance that the interpretation goes beyond what is actually intended or present.\n\nCOMMON COLLOCATIONS:\n- {深読|ふかよ}みする: to read too much into\n- {深読|ふかよ}みしすぎ: overthinking too much\n- {深読|ふかよ}みしないで: don't overthink it",
+  "notes": "USAGE:\nUsed with ⟦する→する：00392_suru⟧: {深読|ふかよ}み⟦する→する：00392_suru⟧ (to overinterpret, to read too much into). Often used in casual conversation to tell someone they are overthinking something. Can also be used about texts, messages, or situations.\n\nThe word carries a nuance that the interpretation goes beyond what is actually intended or present.\n\nCOMMON COLLOCATIONS:\n- {深読|ふかよ}み⟦する→する：00392_suru⟧: to read too much into\n- {深読|ふかよ}みしすぎ: overthinking too much\n- {深読|ふかよ}み⟦しないで→する：00392_suru⟧: don't overthink it",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-24T09:02:05Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

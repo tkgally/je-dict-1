@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10682_ichinin_ex1",
-      "japanese": "{判断|はんだん}を{一任|いちにん}する。",
+      "japanese": "⟦{判断|はんだん}→判断：03571_handan⟧⟦を→を：00422_wo⟧{一任|いちにん}⟦する→する：00392_suru⟧。",
       "english": "I'll leave the decision entirely to you.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10682_ichinin_ex2",
-      "japanese": "デザインは{専門家|せんもんか}に{一任|いちにん}した。",
+      "japanese": "⟦デザイン→デザイン：03860_dezain⟧⟦は→は：00079_ha⟧⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦に→に：00314_ni⟧{一任|いちにん}⟦した→する：00392_suru⟧。",
       "english": "I left the design entirely to the expert.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10682_ichinin_ex3",
-      "japanese": "{交渉|こうしょう}の{細|こま}かい{部分|ぶぶん}は{弁護士|べんごし}に{一任|いちにん}することにした。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦の→の：09472_no⟧⟦{細|こま}かい→細かい：01245_komakai⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦は→は：00079_ha⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦に→に：00314_ni⟧{一任|いちにん}⟦する→する：00392_suru⟧ことにした。",
       "english": "I decided to leave the details of the negotiation entirely to the lawyer.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\n{一|いち} (one, entirely) + {任|にん} (entrusting)\n\nCOMMON PATTERNS:\n～に{一任|いちにん}する: to leave entirely to ~\n\nUSAGE:\nImplies complete trust and delegation. Stronger than {任|まか}せる (to leave to someone) — {一任|いちにん} means giving full authority with no conditions attached. Commonly used in business, legal, and organizational settings.\n\nCOMMON COLLOCATIONS:\n- {判断|はんだん}を{一任|いちにん}する: to leave the judgment to someone\n- {議長|ぎちょう}に{一任|いちにん}する: to leave it to the chairman\n- {対応|たいおう}を{一任|いちにん}する: to entrust the handling of a matter",
+  "notes": "FORMS:\n⟦{一|いち}→一：00705_ichi⟧ (one, entirely) + {任|にん} (entrusting)\n\nCOMMON PATTERNS:\n～⟦に→に：00314_ni⟧{一任|いちにん}⟦する→する：00392_suru⟧: to leave entirely to ~\n\nUSAGE:\nImplies complete trust and delegation. Stronger than ⟦{任|まか}せる→任せる：02417_makaseru⟧ (to leave to someone) — {一任|いちにん} means giving full authority with no conditions attached. Commonly used in business, legal, and organizational settings.\n\nCOMMON COLLOCATIONS:\n- ⟦{判断|はんだん}→判断：03571_handan⟧⟦を→を：00422_wo⟧{一任|いちにん}⟦する→する：00392_suru⟧: to leave the judgment to someone\n- ⟦{議長|ぎちょう}→議長：02681_gichou⟧⟦に→に：00314_ni⟧{一任|いちにん}⟦する→する：00392_suru⟧: to leave it to the chairman\n- ⟦{対応|たいおう}→対応：02510_taiou⟧⟦を→を：00422_wo⟧{一任|いちにん}⟦する→する：00392_suru⟧: to entrust the handling of a matter",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-09T04:11:25Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

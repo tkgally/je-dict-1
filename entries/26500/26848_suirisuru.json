@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26848_suirisuru_ex1",
-      "japanese": "{犯人|はんにん}を{推理|すいり}する。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{推理|すいり}する。",
       "english": "To deduce who the culprit is.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26848_suirisuru_ex2",
-      "japanese": "{証拠|しょうこ}から{事件|じけん}の{経緯|けいい}を{推理|すいり}した。",
+      "japanese": "⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦から→から：00504_kara⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦{経緯|けいい}→経緯：02782_keii⟧⟦を→を：00422_wo⟧{推理|すいり}した。",
       "english": "I deduced the course of events from the evidence.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26848_suirisuru_ex3",
-      "japanese": "{読者|どくしゃ}は{探偵|たんてい}と{一緒|いっしょ}に{推理|すいり}を{楽|たの}しむことができる。",
+      "japanese": "⟦{読者|どくしゃ}→読者：16554_dokusha⟧⟦は→は：00079_ha⟧⟦{探偵|たんてい}→探偵：07033_tantei⟧⟦と→と：00512_to⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{推理|すいり}→推理：18951_suiri⟧⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Readers can enjoy reasoning along with the detective.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26848_suirisuru_ex4",
-      "japanese": "{限|かぎ}られた{情報|じょうほう}から{正|ただ}しく{推理|すいり}するのは{難|むずか}しい。",
+      "japanese": "⟦{限|かぎ}られた→限る：02033_kagiru⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦から→から：00504_kara⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧{推理|すいり}する⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It is difficult to reason correctly from limited information.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Strongly associated with the mystery genre in Japan. {推理|すいり}{小説|しょうせつ} (mystery novel) is a major literary genre, and the word appears frequently in discussions of detective fiction, crime dramas, and puzzle-solving games.\n\nCOMMON COLLOCATIONS:\n- {推理|すいり}{小説|しょうせつ}: mystery novel; detective fiction\n- {推理|すいり}ゲーム: reasoning game; deduction game\n- {推理|すいり}{力|りょく}: reasoning ability\n- {論理的|ろんりてき}{推理|すいり}: logical reasoning\n- {推理|すいり}ドラマ: mystery drama\n\nSIMILAR WORDS:\n- {推測|すいそく}する: to guess, to speculate — less rigorous, based on conjecture\n- {推論|すいろん}する: to infer — more academic/formal logical deduction\n- {考察|こうさつ}する: to examine, to consider — broader intellectual analysis",
+  "notes": "Strongly associated with the mystery genre in Japan. ⟦{推理|すいり}{小説|しょうせつ}→推理小説：28077_suirishousetsu⟧ (mystery novel) is a major literary genre, and the word appears frequently in discussions of detective fiction, crime dramas, and puzzle-solving games.\n\nCOMMON COLLOCATIONS:\n- ⟦{推理|すいり}{小説|しょうせつ}→推理小説：28077_suirishousetsu⟧: mystery novel; detective fiction\n- ⟦{推理|すいり}→推理：18951_suiri⟧⟦ゲーム→ゲーム：03842_geemu⟧: reasoning game; deduction game\n- ⟦{推理|すいり}→推理：18951_suiri⟧{力|りょく}: reasoning ability\n- ⟦{論理的|ろんりてき}→論理的：05672_ronriteki⟧⟦{推理|すいり}→推理：18951_suiri⟧: logical reasoning\n- ⟦{推理|すいり}→推理：18951_suiri⟧⟦ドラマ→ドラマ：03867_dorama⟧: mystery drama\n\nSIMILAR WORDS:\n- ⟦{推測|すいそく}する→推測する：17957_suisokusuru⟧: to guess, to speculate — less rigorous, based on conjecture\n- ⟦{推論|すいろん}→推論：20773_suiron⟧⟦する→する：00392_suru⟧: to infer — more academic/formal logical deduction\n- ⟦{考察|こうさつ}→考察：02736_kousatsu⟧⟦する→する：00392_suru⟧: to examine, to consider — broader intellectual analysis",
   "cross_references": [
     {
       "type": "contrast",
@@ -97,10 +97,11 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T13:12:23Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

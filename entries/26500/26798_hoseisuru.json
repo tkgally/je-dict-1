@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26798_hoseisuru_ex1",
-      "japanese": "{色|いろ}を{補正|ほせい}する。",
+      "japanese": "⟦{色|いろ}→色：00849_iro⟧⟦を→を：00422_wo⟧{補正|ほせい}する。",
       "english": "To correct the color.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26798_hoseisuru_ex2",
-      "japanese": "{予算|よさん}を{補正|ほせい}する{必要|ひつよう}がある。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{補正|ほせい}する⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The budget needs to be revised.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26798_hoseisuru_ex3",
-      "japanese": "カメラの{手|て}ぶれを{自動的|じどうてき}に{補正|ほせい}する{機能|きのう}がついている。",
+      "japanese": "⟦カメラ→カメラ：04417_kamera⟧⟦の→の：09472_no⟧⟦{手|て}ぶれ→手ぶれ：20358_tebure⟧⟦を→を：00422_wo⟧⟦{自動的|じどうてき}→自動的：25589_jidouteki⟧⟦に→に：00314_ni⟧{補正|ほせい}する⟦{機能|きのう}→機能：13165_kinou⟧⟦が→が：00051_ga⟧ついて⟦いる→いる：00495_iru⟧。",
       "english": "It has a function that automatically corrects camera shake.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Implies making corrections or adjustments to something that is slightly off from the ideal. Commonly used in photography/image editing, government budgets, statistics, and technical calibration.\n\nCOMMON COLLOCATIONS:\n- {補正|ほせい}{予算|よさん}: supplementary budget; revised budget\n- {手|て}ぶれ{補正|ほせい}: image stabilization\n- {色|いろ}{補正|ほせい}: color correction\n- {補正|ほせい}{値|ち}: correction value; offset\n- {補正|ほせい}{下着|したぎ}: shapewear (body-shaping underwear)\n\nSIMILAR WORDS:\n- {修正|しゅうせい}する: to revise; to amend — broader; can mean rewriting or significantly changing\n- {訂正|ていせい}する: to correct (errors) — specifically for fixing mistakes in text or statements\n- {調整|ちょうせい}する: to adjust; to coordinate — more about bringing into alignment or balance",
+  "notes": "Implies making corrections or adjustments to something that is slightly off from the ideal. Commonly used in photography/image editing, government budgets, statistics, and technical calibration.\n\nCOMMON COLLOCATIONS:\n- ⟦{補正|ほせい}{予算|よさん}→補正予算：15579_hoseiyosan⟧: supplementary budget; revised budget\n- ⟦{手|て}ぶれ→手ぶれ：20358_tebure⟧⟦{補正|ほせい}→補正：18527_hosei⟧: image stabilization\n- ⟦{色|いろ}→色：00849_iro⟧⟦{補正|ほせい}→補正：18527_hosei⟧: color correction\n- ⟦{補正|ほせい}→補正：18527_hosei⟧{値|ち}: correction value; offset\n- ⟦{補正|ほせい}→補正：18527_hosei⟧⟦{下着|したぎ}→下着：01605_shitagi⟧: shapewear (body-shaping underwear)\n\nSIMILAR WORDS:\n- ⟦{修正|しゅうせい}する→修正する：25527_shuuseisuru⟧: to revise; to amend — broader; can mean rewriting or significantly changing\n- ⟦{訂正|ていせい}する→訂正する：10443_teiseisuru⟧: to correct (errors) — specifically for fixing mistakes in text or statements\n- ⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧: to adjust; to coordinate — more about bringing into alignment or balance",
   "cross_references": [
     {
       "type": "contrast",
@@ -81,10 +81,11 @@
         "change"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T11:11:27Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

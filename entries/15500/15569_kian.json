@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15569_kian_ex1",
-      "japanese": "{新|あたら}しい{企画|きかく}を{起案|きあん}する。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{企画|きかく}→企画：04879_kikaku⟧⟦を→を：00422_wo⟧{起案|きあん}⟦する→する：00392_suru⟧。",
       "english": "To draft a new project proposal.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15569_kian_ex2",
-      "japanese": "{部長|ぶちょう}が{起案|きあん}した{計画|けいかく}が{承認|しょうにん}された。",
+      "japanese": "⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦が→が：00051_ga⟧{起案|きあん}⟦した→する：00392_suru⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧⟦{承認|しょうにん}→承認：03237_shounin⟧⟦された→する：00392_suru⟧。",
       "english": "The plan drafted by the department head was approved.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15569_kian_ex3",
-      "japanese": "{法案|ほうあん}の{起案|きあん}にあたっては、{関係|かんけい}{省庁|しょうちょう}との{調整|ちょうせい}が{不可欠|ふかけつ}だ。",
+      "japanese": "⟦{法案|ほうあん}→法案：09758_houan⟧⟦の→の：09472_no⟧{起案|きあん}⟦にあたって→にあたって：22936_niatatte⟧⟦は→は：00079_ha⟧、⟦{関係|かんけい}→関係：01298_kankei⟧⟦{省庁|しょうちょう}→省庁：13703_shouchou⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦が→が：00051_ga⟧⟦{不可欠|ふかけつ}→不可欠：07027_fukaketsu⟧だ。",
       "english": "When drafting a bill, coordination with the relevant ministries is essential.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Composed of {起|き} (to start, to originate) and {案|あん} (plan, proposal). The word emphasizes the initial creation of a plan or document, before it is reviewed or approved.\n\nCOMMON COLLOCATIONS:\n- {企画|きかく}を{起案|きあん}する (to draft a project proposal)\n- {法案|ほうあん}を{起案|きあん}する (to draft a bill)\n- {起案|きあん}{者|しゃ} (drafter, originator)\n- {起案|きあん}{書|しょ} (draft proposal document)\n\nSIMILAR WORDS:\n- {起案|きあん}: to draft, to draw up (formal, initial creation of a plan)\n- {立案|りつあん}: to formulate a plan (broader, emphasizes planning process)\n- {草案|そうあん}: draft, preliminary version (the document itself, not the act)",
+  "notes": "Composed of {起|き} (to start, to originate) and ⟦{案|あん}→案：01776_an⟧ (plan, proposal). The word emphasizes the initial creation of a plan or document, before it is reviewed or approved.\n\nCOMMON COLLOCATIONS:\n- ⟦{企画|きかく}→企画：04879_kikaku⟧⟦を→を：00422_wo⟧{起案|きあん}⟦する→する：00392_suru⟧ (to draft a project proposal)\n- ⟦{法案|ほうあん}→法案：09758_houan⟧⟦を→を：00422_wo⟧{起案|きあん}⟦する→する：00392_suru⟧ (to draft a bill)\n- {起案|きあん}⟦{者|しゃ}→〜者：04662_sha⟧ (drafter, originator)\n- {起案|きあん}⟦{書|しょ}→〜書：28467_sho⟧ (draft proposal document)\n\nSIMILAR WORDS:\n- {起案|きあん}: to draft, to draw up (formal, initial creation of a plan)\n- ⟦{立案|りつあん}→立案：15603_ritsuan⟧: to formulate a plan (broader, emphasizes planning process)\n- ⟦{草案|そうあん}→草案：15762_souan⟧: draft, preliminary version (the document itself, not the act)",
   "cross_references": [
     {
       "type": "synonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +183,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

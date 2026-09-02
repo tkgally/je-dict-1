@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16731_nebousuru_ex1",
-      "japanese": "{今朝|けさ}{寝坊|ねぼう}した。",
+      "japanese": "⟦{今朝|けさ}→今朝：02877_kesa⟧{寝坊|ねぼう}した。",
       "english": "I overslept this morning.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16731_nebousuru_ex2",
-      "japanese": "{寝坊|ねぼう}して{電車|でんしゃ}に{乗|の}り{遅|おく}れた。",
+      "japanese": "{寝坊|ねぼう}して⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}り{遅|おく}れた→乗り遅れる：04621_noriokureru⟧。",
       "english": "I overslept and missed the train.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16731_nebousuru_ex3",
-      "japanese": "{目覚|めざ}ましを{三|みっ}つセットしても{寝坊|ねぼう}してしまう。",
+      "japanese": "⟦{目覚|めざ}まし→目覚まし：08550_mezamashi⟧⟦を→を：00422_wo⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦セット→セット：03853_setto⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧{寝坊|ねぼう}してしまう。",
       "english": "Even if I set three alarms, I still oversleep.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{寝坊|ねぼう} functions both as a noun and as a する verb. As a noun, it can mean the act of oversleeping or a person who habitually oversleeps.\n\nCOMMON PATTERNS:\n- {寝坊|ねぼう}する: to oversleep\n- {寝坊|ねぼう}して{遅刻|ちこく}する: to be late from oversleeping\n- {寝坊|ねぼう}してしまう: to end up oversleeping (unintentional)\n\nAS A NOUN (person):\n- あの{人|ひと}は{寝坊|ねぼう}だ: He's a late sleeper / sleepyhead.\n- {寝坊助|ねぼうすけ}: sleepyhead (playful/affectionate term)\n\nSIMILAR WORDS:\n- {朝寝坊|あさねぼう}: sleeping in late in the morning (more specific)\n- {二度寝|にどね}: going back to sleep after waking up\n- {寝過|ねす}ごす: to oversleep, to sleep past (a stop on a train, etc.)\n\nFORMS:\n{寝|ね} (sleeping) + {坊|ぼう} (boy, fellow — often used for people with a habit).",
+  "notes": "⟦{寝坊|ねぼう}→寝坊：01692_nebou⟧ functions both as a noun and as a ⟦する→する：00392_suru⟧ verb. As a noun, it can mean the act of oversleeping or a person who habitually oversleeps.\n\nCOMMON PATTERNS:\n- {寝坊|ねぼう}する: to oversleep\n- {寝坊|ねぼう}して⟦{遅刻|ちこく}する→遅刻する：22282_chikokusuru⟧: to be late from oversleeping\n- {寝坊|ねぼう}してしまう: to end up oversleeping (unintentional)\n\nAS A NOUN (person):\n- ⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧⟦{寝坊|ねぼう}→寝坊：01692_nebou⟧だ: He's a late sleeper / sleepyhead.\n- ⟦{寝坊助|ねぼうすけ}→寝坊助：21649_nebousuke⟧: sleepyhead (playful/affectionate term)\n\nSIMILAR WORDS:\n- ⟦{朝寝坊|あさねぼう}→朝寝坊：02516_asanebou⟧: sleeping in late in the morning (more specific)\n- ⟦{二度寝|にどね}→二度寝：07694_nidone⟧: going back to sleep after waking up\n- ⟦{寝過|ねす}ごす→寝過ごす：18375_nesugosu⟧: to oversleep, to sleep past (a stop on a train, etc.)\n\nFORMS:\n{寝|ね} (sleeping) + {坊|ぼう} (boy, fellow — often used for people with a habit).",
   "cross_references": [
     {
       "type": "related",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-14T04:25:57Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:46Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -172,7 +172,8 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

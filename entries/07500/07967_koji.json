@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07967_koji_ex1",
-      "japanese": "{権力|けんりょく}を{誇示|こじ}する。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧{誇示|こじ}⟦する→する：00392_suru⟧。",
       "english": "To flaunt one's power.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07967_koji_ex2",
-      "japanese": "{彼|かれ}は{富|とみ}を{誇示|こじ}するのが{好|す}きだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{富|とみ}→富：12321_tomi⟧⟦を→を：00422_wo⟧{誇示|こじ}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "He likes to show off his wealth.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07967_koji_ex3",
-      "japanese": "その{国|くに}は{軍事|ぐんじ}パレードで{軍事力|ぐんじりょく}を{誇示|こじ}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{軍事|ぐんじ}→軍事：14392_gunji⟧⟦パレード→パレード：11293_pareedo⟧⟦で→で：00502_de⟧⟦{軍事力|ぐんじりょく}→軍事力：23289_gunjiryoku⟧⟦を→を：00422_wo⟧{誇示|こじ}⟦した→する：00392_suru⟧。",
       "english": "That country displayed its military power with a military parade.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{誇示|こじ} means to display or show off something, often with a somewhat negative connotation of boasting.\n\nWRITING:\n- {誇|こ} (pride, boast)\n- {示|じ} (show, display)\n\nUSAGE:\n- {誇示|こじ}する (to flaunt, show off - suru verb)\n- 〜を{誇示|こじ}する (to show off ~)\n- Often carries a negative or critical nuance\n- Implies showing off unnecessarily\n- Used in formal/written contexts\n\nCOMMON OBJECTS:\n- {権力|けんりょく}を{誇示|こじ}する (to flaunt power)\n- {富|とみ}を{誇示|こじ}する (to flaunt wealth)\n- {力|ちから}を{誇示|こじ}する (to display strength)\n- {存在感|そんざいかん}を{誇示|こじ}する (to assert one's presence)\n\nRELATED WORDS:\n- {自慢|じまん}する (to boast - more casual)\n- {見|み}せびらかす (to show off - colloquial)\n- {誇|ほこ}る (to be proud of)",
+  "notes": "{誇示|こじ} means to display or show off something, often with a somewhat negative connotation of boasting.\n\nWRITING:\n- {誇|こ} (pride, boast)\n- {示|じ} (show, display)\n\nUSAGE:\n- {誇示|こじ}⟦する→する：00392_suru⟧ (to flaunt, show off - suru verb)\n- 〜⟦を→を：00422_wo⟧{誇示|こじ}⟦する→する：00392_suru⟧ (to show off ~)\n- Often carries a negative or critical nuance\n- Implies showing off unnecessarily\n- Used in formal/written contexts\n\nCOMMON OBJECTS:\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧{誇示|こじ}⟦する→する：00392_suru⟧ (to flaunt power)\n- ⟦{富|とみ}→富：12321_tomi⟧⟦を→を：00422_wo⟧{誇示|こじ}⟦する→する：00392_suru⟧ (to flaunt wealth)\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧{誇示|こじ}⟦する→する：00392_suru⟧ (to display strength)\n- ⟦{存在感|そんざいかん}→存在感：19948_sonzaikan⟧⟦を→を：00422_wo⟧{誇示|こじ}⟦する→する：00392_suru⟧ (to assert one's presence)\n\nRELATED WORDS:\n- ⟦{自慢|じまん}→自慢：03278_jiman⟧⟦する→する：00392_suru⟧ (to boast - more casual)\n- ⟦{見|み}せびらかす→見せびらかす：06860_misebirakasu⟧ (to show off - colloquial)\n- ⟦{誇|ほこ}る→誇る：14180_hokoru⟧ (to be proud of)",
   "cross_references": [
     {
       "type": "synonym",
@@ -177,9 +177,10 @@
         "action",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-23T10:46:55Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

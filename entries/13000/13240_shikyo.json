@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13240_shikyo_ex1",
-      "japanese": "{著名|ちょめい}な{作家|さっか}が{死去|しきょ}した。",
+      "japanese": "⟦{著名|ちょめい}→著名：13992_chomei⟧な⟦{作家|さっか}→作家：01414_sakka⟧⟦が→が：00051_ga⟧{死去|しきょ}⟦した→する：00392_suru⟧。",
       "english": "A prominent writer passed away.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13240_shikyo_ex2",
-      "japanese": "{享年|きょうねん}90{歳|さい}で{死去|しきょ}したと{発表|はっぴょう}された。",
+      "japanese": "{享年|きょうねん}90⟦{歳|さい}→歳：10017_sai⟧⟦で→で：00502_de⟧{死去|しきょ}⟦した→する：00392_suru⟧⟦と→と：00512_to⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "It was announced that he died at the age of 90.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13240_shikyo_ex3",
-      "japanese": "ノーベル{賞|しょう}{受賞者|じゅしょうしゃ}の{博士|はかせ}が{病気|びょうき}のため{自宅|じたく}で{死去|しきょ}したことが{遺族|いぞく}から{明|あき}らかにされた。",
+      "japanese": "ノーベル⟦{賞|しょう}→賞：03227_shou⟧⟦{受賞者|じゅしょうしゃ}→受賞者：24174_jushousha⟧⟦の→の：09472_no⟧⟦{博士|はかせ}→博士：03551_hakase⟧⟦が→が：00051_ga⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦で→で：00502_de⟧{死去|しきょ}⟦した→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{遺族|いぞく}→遺族：14886_izoku⟧⟦から→から：00504_kara⟧⟦{明|あき}らか→明らか：02351_akiraka⟧⟦に→に：00314_ni⟧⟦された→する：00392_suru⟧。",
       "english": "The Nobel laureate's family revealed that the doctor died at home due to illness.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, news-style term for death. Used in obituaries, news reports, and official announcements. More neutral and objective than {逝去|せいきょ}, which is an honorific term. Less formal than {逝去|せいきょ} but more formal than {亡|な}くなる (the most common everyday term for someone dying).\n\nREGISTER COMPARISON:\n- {亡|な}くなる: standard, respectful (everyday)\n- {死去|しきょ}: formal, objective (news/official)\n- {逝去|せいきょ}: honorific, respectful (very formal)\n\nCOMMON COLLOCATIONS:\n- ～{歳|さい}で{死去|しきょ}: died at age ~\n- {病気|びょうき}のため{死去|しきょ}: died due to illness\n- {死去|しきょ}が{報|ほう}じられる: death is reported",
+  "notes": "USAGE:\nA formal, news-style term for death. Used in obituaries, news reports, and official announcements. More neutral and objective than ⟦{逝去|せいきょ}→逝去：14370_seikyo⟧, which is an honorific term. Less formal than ⟦{逝去|せいきょ}→逝去：14370_seikyo⟧ but more formal than ⟦{亡|な}くなる→亡くなる：02639_nakunaru⟧ (the most common everyday term for someone dying).\n\nREGISTER COMPARISON:\n- ⟦{亡|な}くなる→亡くなる：02639_nakunaru⟧: standard, respectful (everyday)\n- {死去|しきょ}: formal, objective (news/official)\n- ⟦{逝去|せいきょ}→逝去：14370_seikyo⟧: honorific, respectful (very formal)\n\nCOMMON COLLOCATIONS:\n- ～⟦{歳|さい}→歳：10017_sai⟧⟦で→で：00502_de⟧{死去|しきょ}: died at age ~\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{死去|しきょ}: died due to illness\n- {死去|しきょ}⟦が→が：00051_ga⟧⟦{報|ほう}じられる→報じる：17193_houjiru⟧: death is reported",
   "cross_references": [
     {
       "type": "related",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-24T06:46:30Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +183,8 @@
       "semantic": [
         "existence"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

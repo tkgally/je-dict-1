@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23104_chinkou_ex1",
-      "japanese": "{地盤|じばん}の{沈降|ちんこう}が{進|すす}んでいる。",
+      "japanese": "⟦{地盤|じばん}→地盤：04035_jiban⟧⟦の→の：09472_no⟧{沈降|ちんこう}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Land subsidence is progressing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23104_chinkou_ex2",
-      "japanese": "{粒子|りゅうし}が{沈降|ちんこう}するのを{待|ま}つ。",
+      "japanese": "⟦{粒子|りゅうし}→粒子：14970_ryuushi⟧⟦が→が：00051_ga⟧{沈降|ちんこう}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧。",
       "english": "Wait for the particles to settle.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23104_chinkou_ex3",
-      "japanese": "{地下水|ちかすい}の{過剰|かじょう}なくみ{上|あ}げにより、{広範囲|こうはんい}で{地盤|じばん}{沈降|ちんこう}が{起|お}きた。",
+      "japanese": "⟦{地下水|ちかすい}→地下水：09600_chikasui⟧⟦の→の：09472_no⟧⟦{過剰|かじょう}→過剰：04123_kajou⟧なくみ{上|あ}げ⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{広範囲|こうはんい}→広範囲：17171_kouhani⟧⟦で→で：00502_de⟧⟦{地盤|じばん}→地盤：04035_jiban⟧{沈降|ちんこう}⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "Excessive pumping of groundwater caused land subsidence over a wide area.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {沈|ちん} (sink) and {降|こう} (descend). A technical/formal term used primarily in geology, chemistry, and engineering contexts. The opposite concept is {隆起|りゅうき} (uplift; elevation).\n\nCOMMON COLLOCATIONS:\n- {地盤|じばん}{沈降|ちんこう}: land subsidence; ground subsidence\n- {沈降|ちんこう}{速度|そくど}: rate of sinking; settling velocity\n- {沈降|ちんこう}する: to sink; to settle; to subside\n- {沈降|ちんこう}{現象|げんしょう}: subsidence phenomenon\n\nSIMILAR WORDS:\n- {沈下|ちんか}: subsidence; sinking — very similar meaning, often interchangeable in geological contexts\n- {隆起|りゅうき}: uplift; elevation — the opposite process, where land rises\n- {沈殿|ちんでん}: precipitation; sedimentation — specifically the settling of dissolved substances in chemistry",
+  "notes": "A compound of {沈|ちん} (sink) and {降|こう} (descend). A technical/formal term used primarily in geology, chemistry, and engineering contexts. The opposite concept is ⟦{隆起|りゅうき}→隆起：25488_ryuuki⟧ (uplift; elevation).\n\nCOMMON COLLOCATIONS:\n- ⟦{地盤|じばん}→地盤：04035_jiban⟧{沈降|ちんこう}: land subsidence; ground subsidence\n- {沈降|ちんこう}⟦{速度|そくど}→速度：03319_sokudo⟧: rate of sinking; settling velocity\n- {沈降|ちんこう}⟦する→する：00392_suru⟧: to sink; to settle; to subside\n- {沈降|ちんこう}⟦{現象|げんしょう}→現象：02718_genshou⟧: subsidence phenomenon\n\nSIMILAR WORDS:\n- {沈下|ちんか}: subsidence; sinking — very similar meaning, often interchangeable in geological contexts\n- ⟦{隆起|りゅうき}→隆起：25488_ryuuki⟧: uplift; elevation — the opposite process, where land rises\n- ⟦{沈殿|ちんでん}→沈殿：09136_chinden⟧: precipitation; sedimentation — specifically the settling of dissolved substances in chemistry",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
         "nature",
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-08T18:36:55Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "suru",

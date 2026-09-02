@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22463_eisha_ex1",
-      "japanese": "{映画|えいが}を{映写|えいしゃ}する。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{映写|えいしゃ}⟦する→する：00392_suru⟧。",
       "english": "To project a film.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22463_eisha_ex2",
-      "japanese": "{映写|えいしゃ}{機|き}のランプが{切|き}れてしまった。",
+      "japanese": "{映写|えいしゃ}{機|き}⟦の→の：09472_no⟧⟦ランプ→ランプ：11260_ranpu⟧⟦が→が：00051_ga⟧⟦{切|き}れて→切れる：01936_kireru⟧しまった。",
       "english": "The projector lamp burned out.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22463_eisha_ex3",
-      "japanese": "{屋外|おくがい}での{映写|えいしゃ}イベントに{大勢|おおぜい}の{人|ひと}が{集|あつ}まった。",
+      "japanese": "⟦{屋外|おくがい}→屋外：04136_okugai⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{映写|えいしゃ}⟦イベント→イベント：09594_ibento⟧⟦に→に：00314_ni⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "A large crowd gathered for the outdoor screening event.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {映|えい} (reflect, project) + {写|しゃ} (copy, photograph). Refers to the projection of visual images onto a screen. Can be used as a suru-verb ({映写|えいしゃ}する).\n\nCOMMON COLLOCATIONS:\n- {映写|えいしゃ}する: to project\n- {映写|えいしゃ}{機|き}: projector\n- {映写|えいしゃ}{室|しつ}: projection room / booth\n- {映写|えいしゃ}{技師|ぎし}: projectionist\n\nSIMILAR WORDS:\n- {上映|じょうえい}: screening — more commonly used for movie showings at theaters\n- {投影|とうえい}: projection — broader term also used for mathematical/psychological projection\n- {放映|ほうえい}: broadcasting — projection via television or other broadcast media",
+  "notes": "Composed of {映|えい} (reflect, project) + {写|しゃ} (copy, photograph). Refers to the projection of visual images onto a screen. Can be used as a suru-verb ({映写|えいしゃ}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {映写|えいしゃ}⟦する→する：00392_suru⟧: to project\n- {映写|えいしゃ}{機|き}: projector\n- {映写|えいしゃ}⟦{室|しつ}→室：09946_shitsu⟧: projection room / booth\n- {映写|えいしゃ}⟦{技師|ぎし}→技師：02680_gishi⟧: projectionist\n\nSIMILAR WORDS:\n- ⟦{上映|じょうえい}→上映：08380_jouei⟧: screening — more commonly used for movie showings at theaters\n- ⟦{投影|とうえい}→投影：12854_touei⟧: projection — broader term also used for mathematical/psychological projection\n- ⟦{放映|ほうえい}→放映：12943_houei⟧: broadcasting — projection via television or other broadcast media",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,10 +81,11 @@
       "semantic": [
         "technology"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T12:14:31Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

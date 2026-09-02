@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10771_honmani_ex1",
-      "japanese": "ほんまに？{嘘|うそ}やろ。",
+      "japanese": "ほんまに？⟦{嘘|うそ}→嘘：01796_uso⟧やろ。",
       "english": "Really? No way.",
       "notes": "やろ is Kansai for だろ",
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10771_honmani_ex2",
-      "japanese": "ほんまに{美味|おい}しいな、これ。",
+      "japanese": "ほんまに⟦{美味|おい}しい→美味しい：00740_oishii⟧な、⟦これ→これ：00963_kore⟧。",
       "english": "This is really delicious.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10771_honmani_ex3",
-      "japanese": "ほんまに{助|たす}かったわ。ありがとう。",
+      "japanese": "ほんまに⟦{助|たす}かった→助かる：01956_tasukaru⟧わ。⟦ありがとう→ありがとう：00917_arigatou⟧。",
       "english": "You really saved me. Thanks.",
       "notes": "わ is Kansai sentence-ending particle",
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "DIALECT:\nほんまに is Kansai dialect ({関西弁|かんさいべん}) for {本当|ほんとう}に. The base form ほんま corresponds to {本当|ほんとう}.\n\nUsed widely across the Kansai region (Osaka, Kyoto, Kobe, etc.) and recognized nationwide through TV and comedy. Non-Kansai speakers sometimes use it playfully.\n\nRELATED KANSAI FORMS:\n- ほんま: really (standalone, like {本当|ほんとう})\n- ほんまや: that's true (like {本当|ほんとう}だ)\n- ほんまに？: really? (like {本当|ほんとう}に？)",
+  "notes": "DIALECT:\nほんまに is Kansai dialect (⟦{関西弁|かんさいべん}→関西弁：17855_kansaiben⟧) for ⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧. The base form ⟦ほんま→ほんま：07528_honma⟧ corresponds to ⟦{本当|ほんとう}→本当：00779_hontou⟧.\n\nUsed widely across the Kansai region (Osaka, Kyoto, Kobe, etc.) and recognized nationwide through TV and comedy. Non-Kansai speakers sometimes use it playfully.\n\nRELATED KANSAI FORMS:\n- ⟦ほんま→ほんま：07528_honma⟧: really (standalone, like ⟦{本当|ほんとう}→本当：00779_hontou⟧)\n- ⟦ほんま→ほんま：07528_honma⟧や: that's true (like ⟦{本当|ほんとう}→本当：00779_hontou⟧だ)\n- ほんまに？: really? (like ⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧？)",
   "cross_references": [
     {
       "type": "synonym",
@@ -56,7 +56,7 @@
   ],
   "metadata": {
     "created": "2026-02-10T00:31:25Z",
-    "modified": "2026-06-28T03:46:26Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

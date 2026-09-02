@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "03598_fusoku_ex1",
-      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{不足|ふそく}している。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{不足|ふそく}⟦している→する：00392_suru⟧。",
       "english": "There is a shortage of water.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "03598_fusoku_ex3",
-      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦が→が：00051_ga⟧{不足|ふそく}している⟦ので→ので：09501_node⟧、⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{変|か}えなければ→変える：01089_kaeru⟧⟦ならない→なければならない：27600_nakerebanaranai⟧。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦が→が：00051_ga⟧{不足|ふそく}⟦している→する：00392_suru⟧⟦ので→ので：09501_node⟧、⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{変|か}えなければ→変える：01089_kaeru⟧⟦ならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "The budget is insufficient, so we have to change the plan.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "Prefix {不|ふ} + {足|そく} (sufficiency). Very productive as a suffix meaning \"lack of ~.\"\n\nVERB USAGE:\n- Xが{不足|ふそく}する: X is insufficient\n- {不足|ふそく}している: is lacking (current state)\n\nCOMPOUNDS:\n- ⟦{人手|ひとで}→人手：25438_hitode⟧{不足|ふそく}: labor shortage\n- ⟦{睡眠|すいみん}→睡眠：03359_suimin⟧{不足|ふそく}: lack of sleep\n- ⟦{水|みず}→水：02258_mizu⟧{不足|ふそく}: water shortage\n- ⟦{運動|うんどう}→運動：00821_undou⟧{不足|ふそく}: lack of exercise\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧{不足|ふそく}: malnutrition\n- ⟦{経験|けいけん}→経験：01179_keiken⟧{不足|ふそく}: lack of experience\n\nSIMILAR WORDS:\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧: sufficient (antonym)\n- ⟦{過剰|かじょう}→過剰：04123_kajou⟧: excess, surplus (opposite extreme)\n- ⟦{欠乏|けつぼう}→欠乏：15114_ketsubou⟧: deficiency (more severe than {不足|ふそく})",
+  "notes": "Prefix {不|ふ} + ⟦{足|そく}→足：00992_soku⟧ (sufficiency). Very productive as a suffix meaning \"lack of ~.\"\n\nVERB USAGE:\n- X⟦が→が：00051_ga⟧{不足|ふそく}⟦する→する：00392_suru⟧: X is insufficient\n- {不足|ふそく}⟦している→する：00392_suru⟧: is lacking (current state)\n\nCOMPOUNDS:\n- ⟦{人手|ひとで}→人手：25438_hitode⟧{不足|ふそく}: labor shortage\n- ⟦{睡眠|すいみん}→睡眠：03359_suimin⟧{不足|ふそく}: lack of sleep\n- ⟦{水|みず}→水：02258_mizu⟧{不足|ふそく}: water shortage\n- ⟦{運動|うんどう}→運動：00821_undou⟧{不足|ふそく}: lack of exercise\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧{不足|ふそく}: malnutrition\n- ⟦{経験|けいけん}→経験：01179_keiken⟧{不足|ふそく}: lack of experience\n\nSIMILAR WORDS:\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧: sufficient (antonym)\n- ⟦{過剰|かじょう}→過剰：04123_kajou⟧: excess, surplus (opposite extreme)\n- ⟦{欠乏|けつぼう}→欠乏：15114_ketsubou⟧: deficiency (more severe than {不足|ふそく})",
   "cross_references": [
     {
       "type": "antonym",
@@ -255,7 +255,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T15:32:00Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -268,7 +268,8 @@
       "semantic": [
         "quantity"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

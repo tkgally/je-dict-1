@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13357_manryou_ex1",
-      "japanese": "{契約|けいやく}が{満了|まんりょう}した。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦が→が：00051_ga⟧{満了|まんりょう}⟦した→する：00392_suru⟧。",
       "english": "The contract has expired.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13357_manryou_ex2",
-      "japanese": "{任期|にんき}{満了|まんりょう}に{伴|ともな}い{退任|たいにん}する。",
+      "japanese": "⟦{任期|にんき}→任期：11553_ninki⟧{満了|まんりょう}⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧⟦{退任|たいにん}→退任：14904_tainin⟧⟦する→する：00392_suru⟧。",
       "english": "I will step down upon the expiration of my term.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13357_manryou_ex3",
-      "japanese": "ビザの{有効期限|ゆうこうきげん}が{満了|まんりょう}する{前|まえ}に{更新|こうしん}{手続|てつづ}きをしてください。",
+      "japanese": "⟦ビザ→ビザ：08283_biza⟧⟦の→の：09472_no⟧⟦{有効期限|ゆうこうきげん}→有効期限：06415_yuukoukigen⟧⟦が→が：00051_ga⟧{満了|まんりょう}⟦する→する：00392_suru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please complete the renewal procedures before your visa expires.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, administrative term. Neutral in tone — it simply indicates that the full period has elapsed. In everyday conversation, {切|き}れる (to expire) or {終|お}わる (to end) are more common.\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}{満了|まんりょう}: contract expiration\n- {任期|にんき}{満了|まんりょう}: expiration of a term of office\n- {期間|きかん}{満了|まんりょう}: completion of a period\n- {刑期|けいき}{満了|まんりょう}: completion of a prison sentence\n- {満了|まんりょう}{日|び}: expiration date\n- {満了|まんりょう}に{伴|ともな}い: upon expiration",
+  "notes": "USAGE:\nA formal, administrative term. Neutral in tone — it simply indicates that the full period has elapsed. In everyday conversation, ⟦{切|き}れる→切れる：01936_kireru⟧ (to expire) or {終|お}わる (to end) are more common.\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}{満了|まんりょう}: contract expiration\n- ⟦{任期|にんき}→任期：11553_ninki⟧{満了|まんりょう}: expiration of a term of office\n- {期間|きかん}{満了|まんりょう}: completion of a period\n- {刑期|けいき}{満了|まんりょう}: completion of a prison sentence\n- {満了|まんりょう}{日|び}: expiration date\n- {満了|まんりょう}⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧: upon expiration",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-24T10:35:21Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

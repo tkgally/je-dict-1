@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12193_kishuu_ex1",
-      "japanese": "{敵|てき}の{陣地|じんち}を{奇襲|きしゅう}した。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{陣地|じんち}→陣地：30721_jinchi⟧⟦を→を：00422_wo⟧{奇襲|きしゅう}⟦した→する：00392_suru⟧。",
       "english": "They launched a surprise attack on the enemy's position.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12193_kishuu_ex2",
-      "japanese": "{夜明|よあ}け{前|まえ}の{奇襲|きしゅう}が{成功|せいこう}した。",
+      "japanese": "⟦{夜明|よあ}け→夜明け：03655_yoake⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧{奇襲|きしゅう}⟦が→が：00051_ga⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "The surprise attack before dawn was successful.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12193_kishuu_ex3",
-      "japanese": "{後半|こうはん}{開始|かいし}{直後|ちょくご}に{奇襲|きしゅう}をかけ、{相手|あいて}チームは{完全|かんぜん}に{不意|ふい}を{突|つ}かれた。",
+      "japanese": "⟦{後半|こうはん}→後半：12555_kouhan⟧⟦{開始|かいし}→開始：02537_kaishi⟧⟦{直後|ちょくご}→直後：04525_chokugo⟧⟦に→に：00314_ni⟧{奇襲|きしゅう}⟦を→を：00422_wo⟧かけ、⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧⟦{不意|ふい}→不意：11351_fui⟧⟦を→を：00422_wo⟧⟦{突|つ}かれた→突く：12735_tsuku⟧。",
       "english": "They launched a surprise offensive right after the start of the second half, completely catching the opposing team off guard.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{奇襲|きしゅう} combines {奇|き} (unexpected) and {襲|しゅう} (attack). The key element is the surprise, not the scale of the attack.\n\nCOMMON COLLOCATIONS:\n- {奇襲|きしゅう}をかける: to launch a surprise attack\n- {奇襲|きしゅう}{攻撃|こうげき}: surprise offensive\n- {奇襲|きしゅう}に{成功|せいこう}する: to succeed in a surprise attack\n- {奇襲|きしゅう}を{受|う}ける: to be subjected to a surprise attack\n\nUSAGE:\nFrequently used in historical, military, and sports contexts. In sports, it describes an unexpected tactical move that catches the opponent unprepared.",
+  "notes": "{奇襲|きしゅう} combines {奇|き} (unexpected) and {襲|しゅう} (attack). The key element is the surprise, not the scale of the attack.\n\nCOMMON COLLOCATIONS:\n- {奇襲|きしゅう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to launch a surprise attack\n- {奇襲|きしゅう}⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧: surprise offensive\n- {奇襲|きしゅう}⟦に→に：00314_ni⟧⟦{成功|せいこう}する→成功する：21445_seikousuru⟧: to succeed in a surprise attack\n- {奇襲|きしゅう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to be subjected to a surprise attack\n\nUSAGE:\nFrequently used in historical, military, and sports contexts. In sports, it describes an unexpected tactical move that catches the opponent unprepared.",
   "cross_references": [
     {
       "type": "related",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T10:26:27Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12190_shissou_ex1",
-      "japanese": "{社員|しゃいん}が{突然|とつぜん}{失踪|しっそう}した。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦が→が：00051_ga⟧⟦{突然|とつぜん}→突然：00409_totsuzen⟧{失踪|しっそう}⟦した→する：00392_suru⟧。",
       "english": "An employee suddenly went missing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12190_shissou_ex2",
-      "japanese": "{失踪|しっそう}から{三|さん}{年|ねん}が{経|た}つが、まだ{手|て}がかりはない。",
+      "japanese": "{失踪|しっそう}⟦から→から：00504_kara⟧⟦{三|さん}{年|ねん}→三年：10984_sannen⟧⟦が→が：00051_ga⟧⟦{経|た}つ→経つ：09892_tatsu⟧⟦が→が：00051_ga⟧、⟦まだ→まだ：00603_mada⟧{手|て}がかり⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Three years have passed since the disappearance, but there are still no leads.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12190_shissou_ex3",
-      "japanese": "{警察|けいさつ}は{失踪|しっそう}した{女性|じょせい}の{行方|ゆくえ}を{追|お}って、{周辺|しゅうへん}の{防犯|ぼうはん}カメラを{確認|かくにん}している。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{失踪|しっそう}⟦した→する：00392_suru⟧⟦{女性|じょせい}→女性：01617_josei⟧⟦の→の：09472_no⟧⟦{行方|ゆくえ}→行方：04082_yukue⟧⟦を→を：00422_wo⟧⟦{追|お}って→追う：02016_ou⟧、⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧⟦の→の：09472_no⟧⟦{防犯|ぼうはん}カメラ→防犯カメラ：07137_bouhankamera⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}している→確認する：25332_kakuninsuru⟧。",
       "english": "The police are checking security cameras in the area as they track the whereabouts of the missing woman.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{失踪|しっそう} specifically refers to a person disappearing, not objects or animals.\n\nCOMMON COLLOCATIONS:\n- {失踪|しっそう}する: to go missing, to disappear\n- {失踪|しっそう}{届|とどけ}: a missing person report\n- {失踪|しっそう}{者|しゃ}: a missing person\n- {失踪|しっそう}{事件|じけん}: a disappearance case\n- {失踪|しっそう}{宣告|せんこく}: declaration of disappearance (legal term)\n\nLEGAL NOTE:\nIn Japanese law, {失踪|しっそう}{宣告|せんこく} is a legal declaration that a missing person is presumed dead after a set period (7 years for ordinary disappearance).\n\nSIMILAR WORDS:\n- {行方不明|ゆくえふめい}: whereabouts unknown (often used in news reports)\n- {失踪|しっそう}: emphasizes the act of disappearing, often voluntary\n- {蒸発|じょうはつ}: colloquial for someone who vanishes from daily life",
+  "notes": "{失踪|しっそう} specifically refers to a person disappearing, not objects or animals.\n\nCOMMON COLLOCATIONS:\n- {失踪|しっそう}⟦する→する：00392_suru⟧: to go missing, to disappear\n- {失踪|しっそう}{届|とどけ}: a missing person report\n- {失踪|しっそう}{者|しゃ}: a missing person\n- {失踪|しっそう}⟦{事件|じけん}→事件：01568_jiken⟧: a disappearance case\n- {失踪|しっそう}⟦{宣告|せんこく}→宣告：06819_senkoku⟧: declaration of disappearance (legal term)\n\nLEGAL NOTE:\nIn Japanese law, {失踪|しっそう}⟦{宣告|せんこく}→宣告：06819_senkoku⟧ is a legal declaration that a missing person is presumed dead after a set period (7 years for ordinary disappearance).\n\nSIMILAR WORDS:\n- ⟦{行方不明|ゆくえふめい}→行方不明：14039_yukuefumei⟧: whereabouts unknown (often used in news reports)\n- {失踪|しっそう}: emphasizes the act of disappearing, often voluntary\n- ⟦{蒸発|じょうはつ}→蒸発：07651_jouhatsu⟧: colloquial for someone who vanishes from daily life",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T10:25:25Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18249_shintei_ex1",
-      "japanese": "{粗品|そしな}を{進呈|しんてい}いたします。",
+      "japanese": "⟦{粗品|そしな}→粗品：07470_soshina⟧⟦を→を：00422_wo⟧{進呈|しんてい}⟦いたします→いたす：01314_itasu⟧。",
       "english": "We would like to present you with a small gift.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18249_shintei_ex2",
-      "japanese": "ご{来場|らいじょう}の{方|かた}に{記念品|きねんひん}を{進呈|しんてい}します。",
+      "japanese": "ご⟦{来場|らいじょう}→来場：17703_raijou⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦に→に：00314_ni⟧⟦{記念品|きねんひん}→記念品：03049_kinenhin⟧⟦を→を：00422_wo⟧{進呈|しんてい}⟦します→する：00392_suru⟧。",
       "english": "We will present a commemorative gift to those who attend.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18249_shintei_ex3",
-      "japanese": "アンケートに{回答|かいとう}いただいた{方|かた}に、もれなく{図書|としょ}カードを{進呈|しんてい}いたします。",
+      "japanese": "⟦アンケート→アンケート：03829_ankeeto⟧⟦に→に：00314_ni⟧⟦{回答|かいとう}→回答：00142_kaitou⟧⟦いただいた→いただく：01326_itadaku⟧⟦{方|かた}→方：10665_kata⟧⟦に→に：00314_ni⟧、もれ⟦なく→ない：01118_nai⟧⟦{図書|としょ}→図書：03459_tosho⟧⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧{進呈|しんてい}⟦いたします→いたす：01314_itasu⟧。",
       "english": "We will present a book gift card to everyone who responds to the survey.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA humble ({謙譲語|けんじょうご}) expression used by the giver. Very common in commercial and promotional contexts where a business gives something to customers. Not used when receiving a gift.\n\nCOMMON COLLOCATIONS:\n- {記念品|きねんひん}を{進呈|しんてい}する (to present a commemorative gift)\n- {粗品|そしな}を{進呈|しんてい}する (to present a small gift)\n- もれなく{進呈|しんてい} (given to everyone without exception)\n\nSIMILAR WORDS:\n- {贈呈|ぞうてい}: presentation; bestowal — more formal, used for awards and ceremonies\n- {贈|おく}る: to give; to present — general term, less formal\n- {差|さ}し{上|あ}げる: to give (humble) — spoken humble form, used in daily polite conversation",
+  "notes": "USAGE:\nA humble (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧) expression used by the giver. Very common in commercial and promotional contexts where a business gives something to customers. Not used when receiving a gift.\n\nCOMMON COLLOCATIONS:\n- ⟦{記念品|きねんひん}→記念品：03049_kinenhin⟧⟦を→を：00422_wo⟧{進呈|しんてい}⟦する→する：00392_suru⟧ (to present a commemorative gift)\n- ⟦{粗品|そしな}→粗品：07470_soshina⟧⟦を→を：00422_wo⟧{進呈|しんてい}⟦する→する：00392_suru⟧ (to present a small gift)\n- もれ⟦なく→ない：01118_nai⟧{進呈|しんてい} (given to everyone without exception)\n\nSIMILAR WORDS:\n- ⟦{贈呈|ぞうてい}→贈呈：16752_zoutei⟧: presentation; bestowal — more formal, used for awards and ceremonies\n- ⟦{贈|おく}る→贈る：09862_okuru⟧: to give; to present — general term, less formal\n- ⟦{差|さ}し{上|あ}げる→差し上げる：01597_sashiageru⟧: to give (humble) — spoken humble form, used in daily polite conversation",
   "cross_references": [
     {
       "type": "contrast",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-20T13:48:24Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

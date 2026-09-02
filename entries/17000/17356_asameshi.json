@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17356_asameshi_ex1",
-      "japanese": "{朝飯|あさめし}を{食|く}った。",
+      "japanese": "{朝飯|あさめし}⟦を→を：00422_wo⟧⟦{食|く}った→食う：02657_kuu⟧。",
       "english": "I ate breakfast.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17356_asameshi_ex2",
-      "japanese": "{朝飯|あさめし}{前|まえ}だよ。",
+      "japanese": "{朝飯|あさめし}{前|まえ}だ⟦よ→よ：09475_yo⟧。",
       "english": "It's a piece of cake.",
       "notes": "Literally \"before breakfast\" — an expression meaning something is very easy.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17356_asameshi_ex3",
-      "japanese": "{今日|きょう}は{忙|いそが}しくて{朝飯|あさめし}を{食|た}べる{時間|じかん}がなかった。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{忙|いそが}しくて→忙しい：00591_isogashii⟧{朝飯|あさめし}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦なかった→ない：01118_nai⟧。",
       "english": "I was so busy today that I didn't have time to eat breakfast.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAn informal word for breakfast, typically used by men or in casual settings. {朝|あさ}ご{飯|はん} is the standard neutral term. Often heard in the set expression {朝飯|あさめし}{前|まえ} (literally \"before breakfast\"), meaning something is extremely easy.\n\nCOMMON COLLOCATIONS:\n- {朝飯|あさめし}{前|まえ} (a piece of cake; very easy)\n- {朝飯|あさめし}を{食|く}う (to eat breakfast — informal)\n\nSIMILAR WORDS:\n- {朝|あさ}ご{飯|はん}: breakfast — standard, neutral\n- {朝食|ちょうしょく}: breakfast — formal\n- {昼飯|ひるめし}: lunch — same informal register",
+  "notes": "USAGE:\nAn informal word for breakfast, typically used by men or in casual settings. ⟦{朝|あさ}ご{飯|はん}→朝ご飯：02843_asagohan⟧ is the standard neutral term. Often heard in the set expression {朝飯|あさめし}{前|まえ} (literally \"before breakfast\"), meaning something is extremely easy.\n\nCOMMON COLLOCATIONS:\n- {朝飯|あさめし}{前|まえ} (a piece of cake; very easy)\n- {朝飯|あさめし}⟦を→を：00422_wo⟧⟦{食|く}う→食う：02657_kuu⟧ (to eat breakfast — informal)\n\nSIMILAR WORDS:\n- ⟦{朝|あさ}ご{飯|はん}→朝ご飯：02843_asagohan⟧: breakfast — standard, neutral\n- ⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧: breakfast — formal\n- ⟦{昼飯|ひるめし}→昼飯：17357_hirumeshi⟧: lunch — same informal register",
   "prominent_see_also": [
     {
       "target_id": "02843_asagohan",
@@ -72,14 +78,18 @@
   ],
   "metadata": {
     "created": "2026-03-17T08:17:56Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

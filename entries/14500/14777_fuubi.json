@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14777_fuubi_ex1",
-      "japanese": "あのバンドは{一世|いっせい}を{風靡|ふうび}した。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦バンド→バンド：05508_bando⟧⟦は→は：00079_ha⟧{一世|いっせい}⟦を→を：00422_wo⟧{風靡|ふうび}⟦した→する：00392_suru⟧。",
       "english": "That band took the world by storm.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14777_fuubi_ex2",
-      "japanese": "1990{年代|ねんだい}に{一世|いっせい}を{風靡|ふうび}したファッションが{再|ふたた}び{注目|ちゅうもく}されている。",
+      "japanese": "1990⟦{年代|ねんだい}→年代：03533_nendai⟧⟦に→に：00314_ni⟧{一世|いっせい}⟦を→を：00422_wo⟧{風靡|ふうび}⟦した→する：00392_suru⟧⟦ファッション→ファッション：11167_fasshon⟧⟦が→が：00051_ga⟧⟦{再|ふたた}び→再び：03600_futatabi⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦されている→する：00392_suru⟧。",
       "english": "Fashion that swept the world in the 1990s is attracting attention again.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14777_fuubi_ex3",
-      "japanese": "かつて{一世|いっせい}を{風靡|ふうび}した{歌手|かしゅ}が{引退|いんたい}を{発表|はっぴょう}し、ファンの{間|あいだ}に{衝撃|しょうげき}が{走|はし}った。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧{一世|いっせい}⟦を→を：00422_wo⟧{風靡|ふうび}⟦した→する：00392_suru⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦が→が：00051_ga⟧⟦{引退|いんたい}→引退：01848_intai⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧し、⟦ファン→ファン：10065_fan⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦{衝撃|しょうげき}→衝撃：08678_shougeki⟧⟦が→が：00051_ga⟧⟦{走|はし}った→走る：00519_hashiru⟧。",
       "english": "A singer who once took the world by storm announced retirement, sending shockwaves among fans.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE: {風靡|ふうび} is almost always used in the fixed phrase {一世|いっせい}を{風靡|ふうび}する (to take the world by storm, to sweep the era). It is rarely used outside this expression.\n\nCOMMON COLLOCATIONS:\n- {一世|いっせい}を{風靡|ふうび}する (to dominate an era, to become hugely popular)\n- {世間|せけん}を{風靡|ふうび}する (to sweep through society)\n\nThe literal meaning is \"wind bending (grass)\" — the kanji {靡|なび}く means to sway or bend in the wind. The image is of a powerful trend that bends everything in its path, like wind flattening grass across a field. This word is primarily used in the past tense to describe phenomena that already swept through, often with a nostalgic tone.",
+  "notes": "USAGE: {風靡|ふうび} is almost always used in the fixed phrase {一世|いっせい}⟦を→を：00422_wo⟧{風靡|ふうび}⟦する→する：00392_suru⟧ (to take the world by storm, to sweep the era). It is rarely used outside this expression.\n\nCOMMON COLLOCATIONS:\n- {一世|いっせい}⟦を→を：00422_wo⟧{風靡|ふうび}⟦する→する：00392_suru⟧ (to dominate an era, to become hugely popular)\n- ⟦{世間|せけん}→世間：03299_seken⟧⟦を→を：00422_wo⟧{風靡|ふうび}⟦する→する：00392_suru⟧ (to sweep through society)\n\nThe literal meaning is \"wind bending (grass)\" — the kanji {靡|なび}く means to sway or bend in the wind. The image is of a powerful trend that bends everything in its path, like wind flattening grass across a field. This word is primarily used in the past tense to describe phenomena that already swept through, often with a nostalgic tone.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-03T11:30:11Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

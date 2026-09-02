@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13849_noufu_ex1",
-      "japanese": "{税金|ぜいきん}を{納付|のうふ}する。",
+      "japanese": "⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦を→を：00422_wo⟧{納付|のうふ}⟦する→する：00392_suru⟧。",
       "english": "Pay taxes.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13849_noufu_ex2",
-      "japanese": "{保険料|ほけんりょう}の{納付|のうふ}{期限|きげん}が{迫|せま}っている。",
+      "japanese": "⟦{保険料|ほけんりょう}→保険料：11058_hokenryou⟧⟦の→の：09472_no⟧{納付|のうふ}{期限|きげん}⟦が→が：00051_ga⟧⟦{迫|せま}っている→迫る：03928_semaru⟧。",
       "english": "The deadline for paying the insurance premium is approaching.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13849_noufu_ex3",
-      "japanese": "{住民税|じゅうみんぜい}は{年|ねん}4{回|かい}に{分|わ}けて{納付|のうふ}することができる。",
+      "japanese": "⟦{住民税|じゅうみんぜい}→住民税：16806_juuminzei⟧⟦は→は：00079_ha⟧⟦{年|ねん}→年：09876_nen⟧4⟦{回|かい}→回：00957_kai⟧⟦に→に：00314_ni⟧⟦{分|わ}けて→分ける：02333_wakeru⟧{納付|のうふ}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Resident tax can be paid in four installments per year.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed specifically for official payments to government agencies, pension funds, or insurance bodies. Not used for ordinary commercial transactions or personal payments.\n\nSIMILAR WORDS:\n- {支払|しはら}い: payment (general, for any transaction)\n- {納税|のうぜい}: tax payment (specifically taxes)\n- {納入|のうにゅう}: delivery, payment (slightly broader, includes goods)\n\nCOMMON COLLOCATIONS:\n- {税金|ぜいきん}を{納付|のうふ}する: pay taxes\n- {保険料|ほけんりょう}の{納付|のうふ}: payment of insurance premiums\n- {納付|のうふ}{期限|きげん}: payment deadline\n- {納付|のうふ}{書|しょ}: payment slip\n- {未納付|みのうふ}: non-payment, unpaid",
+  "notes": "USAGE:\nUsed specifically for official payments to government agencies, pension funds, or insurance bodies. Not used for ordinary commercial transactions or personal payments.\n\nSIMILAR WORDS:\n- {支払|しはら}い: payment (general, for any transaction)\n- ⟦{納税|のうぜい}→納税：13806_nouzei⟧: tax payment (specifically taxes)\n- ⟦{納入|のうにゅう}→納入：17216_nounyuu⟧: delivery, payment (slightly broader, includes goods)\n\nCOMMON COLLOCATIONS:\n- ⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦を→を：00422_wo⟧{納付|のうふ}⟦する→する：00392_suru⟧: pay taxes\n- ⟦{保険料|ほけんりょう}→保険料：11058_hokenryou⟧⟦の→の：09472_no⟧{納付|のうふ}: payment of insurance premiums\n- {納付|のうふ}{期限|きげん}: payment deadline\n- {納付|のうふ}{書|しょ}: payment slip\n- {未納付|みのうふ}: non-payment, unpaid",
   "cross_references": [
     {
       "type": "synonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T05:41:35Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -169,7 +169,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

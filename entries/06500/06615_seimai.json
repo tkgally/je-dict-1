@@ -145,7 +145,7 @@
     },
     {
       "id": "06615_seimai_ex5",
-      "japanese": "{精米|せいまい}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦か→か：09473_ka⟧⟦{玄米|げんまい}→玄米：06100_genmai⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦か→か：09473_ka⟧⟦{迷|まよ}って→迷う：02426_mayou⟧いる。",
+      "japanese": "{精米|せいまい}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦か→か：09473_ka⟧⟦{玄米|げんまい}→玄米：06100_genmai⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦か→か：09473_ka⟧⟦{迷|まよ}って→迷う：02426_mayou⟧⟦いる→いる：00495_iru⟧。",
       "english": "I'm debating whether to buy polished rice or brown rice.",
       "has_audio": false,
       "sense_numbers": [
@@ -154,7 +154,7 @@
     },
     {
       "id": "06615_seimai_ex6",
-      "japanese": "{精米|せいまい}⟦は→は：00079_ha⟧⟦{玄米|げんまい}→玄米：06100_genmai⟧⟦に→に：00314_ni⟧⟦{比|くら}べる→比べる：01237_kuraberu⟧⟦と→と：00512_to⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦と→と：00512_to⟧⟦{言|い}われて→言う：00515_iu⟧いる。",
+      "japanese": "{精米|せいまい}⟦は→は：00079_ha⟧⟦{玄米|げんまい}→玄米：06100_genmai⟧⟦に→に：00314_ni⟧⟦{比|くら}べる→比べる：01237_kuraberu⟧⟦と→と：00512_to⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦と→と：00512_to⟧⟦{言|い}われて→言う：00515_iu⟧⟦いる→いる：00495_iru⟧。",
       "english": "Polished rice is said to have fewer nutrients compared to brown rice.",
       "has_audio": false,
       "sense_numbers": [
@@ -162,7 +162,7 @@
       ]
     }
   ],
-  "notes": "RICE TYPES:\n- {玄米|げんまい} (brown rice - unpolished)\n- {白米|はくまい} (white rice - polished)\n- {胚芽|はいが}{米|まい} (germ rice - partially polished)\n\nIN SAKE PRODUCTION:\n- {精米|せいまい}{歩合|ぶあい} (rice polishing ratio) - percentage of rice remaining after polishing\n- Lower percentage = more polished = higher grade sake\n- {大吟醸|だいぎんじょう} requires ≤50% polishing ratio\n\nRELATED WORDS:\n- {精米|せいまい}{機|き} (rice polishing machine)\n- {精米|せいまい}{所|じょ} (rice mill)\n- {糠|ぬか} (rice bran - the byproduct)\n\nMany Japanese supermarkets have self-service {精米|せいまい}{機|き} where customers can polish their own rice.",
+  "notes": "RICE TYPES:\n- ⟦{玄米|げんまい}→玄米：06100_genmai⟧ (brown rice - unpolished)\n- ⟦{白米|はくまい}→白米：06101_hakumai⟧ (white rice - polished)\n- {胚芽|はいが}{米|まい} (germ rice - partially polished)\n\nIN SAKE PRODUCTION:\n- {精米|せいまい}⟦{歩合|ぶあい}→歩合：17561_buai⟧ (rice polishing ratio) - percentage of rice remaining after polishing\n- Lower percentage = more polished = higher grade sake\n- ⟦{大吟醸|だいぎんじょう}→大吟醸：25652_daiginjou⟧ requires ≤50% polishing ratio\n\nRELATED WORDS:\n- {精米|せいまい}{機|き} (rice polishing machine)\n- {精米|せいまい}{所|じょ} (rice mill)\n- ⟦{糠|ぬか}→糠：29202_nuka⟧ (rice bran - the byproduct)\n\nMany Japanese supermarkets have self-service {精米|せいまい}{機|き} where customers can polish their own rice.",
   "cross_references": [
     {
       "type": "related",
@@ -195,7 +195,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T01:15:23Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -208,7 +208,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

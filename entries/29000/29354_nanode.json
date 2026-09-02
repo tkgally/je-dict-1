@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "29354_nanode_ex1",
-      "japanese": "なので、{行|い}きません。",
+      "japanese": "なので、⟦{行|い}きません→行く：00119_iku⟧。",
       "english": "So, I won't go.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "29354_nanode_ex2",
-      "japanese": "なので、{今日|きょう}は{早|はや}く{寝|ね}ます。",
+      "japanese": "なので、⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{寝|ね}ます→寝る：00470_neru⟧。",
       "english": "So, I'll go to bed early today.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "29354_nanode_ex3",
-      "japanese": "{雨|あめ}が{降|ふ}っている。なので、{試合|しあい}は{中止|ちゅうし}だ。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}っている→降る：00839_furu⟧。なので、⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧だ。",
       "english": "It's raining. So the match is canceled.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "29354_nanode_ex4",
-      "japanese": "{休|やす}みなので、{出|で}かけます。",
+      "japanese": "⟦{休|やす}み→休み：02266_yasumi⟧なので、⟦{出|で}かけます→出かける：00833_dekakeru⟧。",
       "english": "Since it's a day off, I'll go out.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "29354_nanode_ex5",
-      "japanese": "{静|しず}かなので、よく{眠|ねむ}れる。",
+      "japanese": "⟦{静|しず}か→静か：00755_shizuka⟧なので、⟦よく→よく：00601_yoku⟧⟦{眠|ねむ}れる→眠れる：15166_nemureru⟧。",
       "english": "Because it's quiet, I can sleep well.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "29354_nanode_ex6",
-      "japanese": "{初|はじ}めてなので、{少|すこ}し{緊張|きんちょう}しています。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧なので、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{緊張|きんちょう}しています→緊張する：20557_kinchousuru⟧。",
       "english": "Because it's my first time, I'm a little nervous.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "Sentence-initial なので (sense 1) is common in casual writing and speech, though some prescriptivists dislike starting a sentence with it; in formal writing そのため or したがって is preferred.\n\nAfter a noun or na-adjective (sense 2), use な before ので: {学生|がくせい}なので, {元気|げんき}なので. After plain-form verbs and i-adjectives, use ので alone: {行|い}くので, {高|たか}いので.\n\nSIMILAR WORDS:\n- だから: so; therefore — more assertive and blunt than なので\n- なのに: even though; and yet — same な + のに, but expresses contrast, not reason",
+  "notes": "Sentence-initial なので (sense 1) is common in casual writing and speech, though some prescriptivists dislike starting a sentence with it; in formal writing ⟦そのため→そのため：08500_sonotame⟧ or したがって is preferred.\n\nAfter a noun or na-adjective (sense 2), use な before ⟦の→の：09472_no⟧で: ⟦{学生|がくせい}→学生：00610_gakusei⟧なので, ⟦{元気|げんき}→元気：00696_genki⟧なので. After plain-form verbs and i-adjectives, use ⟦の→の：09472_no⟧で alone: ⟦{行|い}く→行く：00119_iku⟧⟦の→の：09472_no⟧で, ⟦{高|たか}い→高い：00500_takai⟧⟦の→の：09472_no⟧で.\n\nSIMILAR WORDS:\n- だ⟦から→から：00504_kara⟧: so; therefore — more assertive and blunt than なので\n- な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧: even though; and yet — same な + ⟦の→の：09472_no⟧⟦に→に：00314_ni⟧, but expresses contrast, not reason",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -112,6 +112,6 @@
       "domain": []
     },
     "created": "2026-06-20T00:19:53Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

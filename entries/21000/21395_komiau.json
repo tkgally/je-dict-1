@@ -18,7 +18,7 @@
   "examples": [
     {
       "id": "21395_komiau_ex1",
-      "japanese": "{電車|でんしゃ}が{込|こ}み{合|あ}っている。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{込|こ}み{合|あ}って⟦いる→いる：00495_iru⟧。",
       "english": "The train is crowded.",
       "sense_numbers": [
         1
@@ -28,7 +28,7 @@
     },
     {
       "id": "21395_komiau_ex2",
-      "japanese": "{年末|ねんまつ}は{空港|くうこう}がとても{込|こ}み{合|あ}う。",
+      "japanese": "⟦{年末|ねんまつ}→年末：17688_nenmatsu⟧⟦は→は：00079_ha⟧⟦{空港|くうこう}→空港：00648_kuukou⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧{込|こ}み{合|あ}う。",
       "english": "The airport gets very crowded at the end of the year.",
       "sense_numbers": [
         1
@@ -38,7 +38,7 @@
     },
     {
       "id": "21395_komiau_ex3",
-      "japanese": "{昼|ひる}どきのレストランは{込|こ}み{合|あ}っていて、{三十分|さんじゅっぷん}も{待|ま}たされた。",
+      "japanese": "⟦{昼|ひる}どき→昼どき：19256_hirudoki⟧⟦の→の：09472_no⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧{込|こ}み{合|あ}って⟦いて→いる：00495_iru⟧、⟦{三十分|さんじゅっぷん}→三十分：09672_sanjuppun⟧⟦も→も：00484_mo⟧{待|ま}たされた。",
       "english": "The restaurant was packed at lunchtime, and I had to wait thirty minutes.",
       "sense_numbers": [
         1
@@ -47,7 +47,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes places being crowded with people. Most commonly used in the ている form ({込|こ}み{合|あ}っている) to describe the current state of congestion. Also written as {混|こ}み{合|あ}う, but the {込|こ}み{合|あ}う spelling is also standard.\n\nCOMMON COLLOCATIONS:\n- {道|みち}が{込|こ}み{合|あ}う: the road is congested\n- {店|みせ}が{込|こ}み{合|あ}う: the shop is crowded\n- {窓口|まどぐち}が{込|こ}み{合|あ}う: the counter is busy\n- {込|こ}み{合|あ}う{時間帯|じかんたい}: peak hours\n\nSIMILAR WORDS:\n- {混雑|こんざつ}する: to be congested — more formal, used in announcements and signage\n- {混|こ}む: to be crowded — simpler form with the same basic meaning; {込|こ}み{合|あ}う emphasizes greater intensity\n- {賑|にぎ}わう: to be bustling — implies liveliness and positive energy, not just density of people",
+  "notes": "Describes places being crowded with people. Most commonly used in the て⟦いる→いる：00495_iru⟧ form ({込|こ}み{合|あ}って⟦いる→いる：00495_iru⟧) to describe the current state of congestion. Also written as {混|こ}み{合|あ}う, but the {込|こ}み{合|あ}う spelling is also standard.\n\nCOMMON COLLOCATIONS:\n- ⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{込|こ}み{合|あ}う: the road is congested\n- ⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{込|こ}み{合|あ}う: the shop is crowded\n- ⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦が→が：00051_ga⟧{込|こ}み{合|あ}う: the counter is busy\n- {込|こ}み{合|あ}う⟦{時間帯|じかんたい}→時間帯：12971_jikantai⟧: peak hours\n\nSIMILAR WORDS:\n- ⟦{混雑|こんざつ}する→混雑する：25387_konzatsusuru⟧: to be congested — more formal, used in announcements and signage\n- ⟦{混|こ}む→混む：02574_komu⟧: to be crowded — simpler form with the same basic meaning; {込|こ}み{合|あ}う emphasizes greater intensity\n- ⟦{賑|にぎ}わう→賑わう：14235_nigiwau⟧: to be bustling — implies liveliness and positive energy, not just density of people",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -97,10 +97,11 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "godan-u"
+      "verb_class": "godan-u",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-02T02:46:53Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "godan",

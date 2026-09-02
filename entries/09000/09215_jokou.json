@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09215_jokou_ex1",
-      "japanese": "ここは{徐行|じょこう}です。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{徐行|じょこう}です。",
       "english": "This is a slow zone.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09215_jokou_ex2",
-      "japanese": "{学校|がっこう}の{前|まえ}では{徐行|じょこう}してください。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{徐行|じょこう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please drive slowly in front of the school.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09215_jokou_ex3",
-      "japanese": "{工事|こうじ}{区間|くかん}では{徐行|じょこう}が{義務|ぎむ}づけられている。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦{区間|くかん}→区間：18759_kukan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{徐行|じょこう}⟦が→が：00051_ga⟧⟦{義務|ぎむ}→義務：02647_gimu⟧づけられて⟦いる→いる：00495_iru⟧。",
       "english": "Slow driving is mandatory in the construction zone.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,11 @@
       ]
     }
   ],
-  "notes": "{徐行|じょこう} refers to driving or moving at a reduced speed, typically for safety.\n\nCOMMON COLLOCATIONS:\n- {徐行|じょこう}する: to go slowly, to drive slowly\n- {徐行|じょこう}{区間|くかん}: slow zone\n- {徐行|じょこう}{運転|うんてん}: slow driving\n- {徐行|じょこう}の{標識|ひょうしき}: slow sign\n\nTRAFFIC SIGNS:\n- {徐行|じょこう} appears on road signs indicating areas where slow speed is required\n- Common near schools, construction zones, and sharp curves\n\nLEGAL DEFINITION:\n- In Japanese traffic law, {徐行|じょこう} means driving at a speed slow enough to stop immediately if needed",
+  "notes": "{徐行|じょこう} refers to driving or moving at a reduced speed, typically for safety.\n\nCOMMON COLLOCATIONS:\n- {徐行|じょこう}⟦する→する：00392_suru⟧: to go slowly, to drive slowly\n- {徐行|じょこう}⟦{区間|くかん}→区間：18759_kukan⟧: slow zone\n- {徐行|じょこう}⟦{運転|うんてん}→運転：01335_unten⟧: slow driving\n- {徐行|じょこう}⟦の→の：09472_no⟧⟦{標識|ひょうしき}→標識：15865_hyoushiki⟧: slow sign\n\nTRAFFIC SIGNS:\n- {徐行|じょこう} appears on road signs indicating areas where slow speed is required\n- Common near schools, construction zones, and sharp curves\n\nLEGAL DEFINITION:\n- In Japanese traffic law, {徐行|じょこう} means driving at a speed slow enough to stop immediately if needed",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-01T02:41:05Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,7 +150,8 @@
       "semantic": [
         "transportation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

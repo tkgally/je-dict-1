@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12325_hareru_ex1",
-      "japanese": "{足首|あしくび}が{腫|は}れている。",
+      "japanese": "⟦{足首|あしくび}→足首：00918_ashikubi⟧⟦が→が：00051_ga⟧{腫|は}れて⟦いる→いる：00495_iru⟧。",
       "english": "My ankle is swollen.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12325_hareru_ex2",
-      "japanese": "{虫|むし}に{刺|さ}されて{腕|うで}が{腫|は}れた。",
+      "japanese": "⟦{虫|むし}→虫：02262_mushi⟧⟦に→に：00314_ni⟧⟦{刺|さ}されて→刺す：02111_sasu⟧⟦{腕|うで}→腕：01006_ude⟧⟦が→が：00051_ga⟧{腫|は}れた。",
       "english": "My arm swelled up after being bitten by an insect.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12325_hareru_ex3",
-      "japanese": "{歯|は}が{痛|いた}くて{頬|ほほ}が{大|おお}きく{腫|は}れてしまった。",
+      "japanese": "⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧⟦{痛|いた}くて→痛い：01108_itai⟧⟦{頬|ほほ}→頬：00110_hoho⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧{腫|は}れてしまった。",
       "english": "I had a toothache and my cheek swelled up badly.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{腫|は}れる describes swelling of body parts from injury, infection, allergic reactions, or inflammation.\n\nIchidan verb.\n- Negative: {腫|は}れない\n- Polite: {腫|は}れます\n- Te-form: {腫|は}れて\n- Past: {腫|は}れた\n- Noun form: {腫|は}れ (swelling)\n\nCOMMON COLLOCATIONS:\n- {目|め}が{腫|は}れる: eyes become swollen (from crying or allergy)\n- {足|あし}が{腫|は}れる: leg/foot swells\n- {赤|あか}く{腫|は}れる: to swell up red\n- {大|おお}きく{腫|は}れる: to swell up a lot\n\nSIMILAR WORDS:\n- {膨|ふく}れる: to puff up, to inflate (not medical)\n- むくむ: to be puffy, to have edema (water retention)",
+  "notes": "{腫|は}れる describes swelling of body parts from injury, infection, allergic reactions, or inflammation.\n\nIchidan verb.\n- Negative: {腫|は}れない\n- Polite: {腫|は}れます\n- Te-form: {腫|は}れて\n- Past: {腫|は}れた\n- Noun form: {腫|は}れ (swelling)\n\nCOMMON COLLOCATIONS:\n- ⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧{腫|は}れる: eyes become swollen (from crying or allergy)\n- ⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧{腫|は}れる: leg/foot swells\n- ⟦{赤|あか}く→赤い：00585_akai⟧{腫|は}れる: to swell up red\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{腫|は}れる: to swell up a lot\n\nSIMILAR WORDS:\n- ⟦{膨|ふく}れる→膨れる：25246_fukureru⟧: to puff up, to inflate (not medical)\n- ⟦むくむ→むくむ：07354_mukumu⟧: to be puffy, to have edema (water retention)",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +165,8 @@
       "semantic": [
         "health"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

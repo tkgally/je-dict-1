@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "24772_sankai_ex1",
-      "japanese": "{会議|かいぎ}は{散会|さんかい}した。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧{散会|さんかい}⟦した→する：00392_suru⟧。",
       "english": "The meeting adjourned.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "24772_sankai_ex2",
-      "japanese": "{午後|ごご}{五時|ごじ}に{散会|さんかい}となった。",
+      "japanese": "⟦{午後|ごご}→午後：00544_gogo⟧{五時|ごじ}⟦に→に：00314_ni⟧{散会|さんかい}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "The meeting broke up at 5 p.m.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "24772_sankai_ex3",
-      "japanese": "{議長|ぎちょう}が{散会|さんかい}を{宣言|せんげん}し、{出席者|しゅっせきしゃ}はそれぞれ{帰|かえ}っていった。",
+      "japanese": "⟦{議長|ぎちょう}→議長：02681_gichou⟧⟦が→が：00051_ga⟧{散会|さんかい}⟦を→を：00422_wo⟧⟦{宣言|せんげん}→宣言：12284_sengen⟧し、⟦{出席者|しゅっせきしゃ}→出席者：20975_shussekisha⟧⟦は→は：00079_ha⟧⟦それぞれ→それぞれ：01453_sorezore⟧⟦{帰|かえ}って→帰る：00508_kaeru⟧いった。",
       "english": "The chairperson declared the meeting adjourned, and the attendees each went home.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "A formal term for the conclusion and dispersal of a meeting or assembly. Used in parliamentary, corporate, and official contexts. Takes する to form the verb {散会|さんかい}する.\n\nCOMMON COLLOCATIONS:\n- {散会|さんかい}する: to adjourn, to break up\n- {散会|さんかい}を{宣言|せんげん}する: to declare adjournment\n- {散会|さんかい}{時間|じかん}: time of adjournment\n\nSIMILAR WORDS:\n- {閉会|へいかい}: closing (of a formal event or session, more ceremonial)\n- {解散|かいさん}: dissolution, breaking up (broader use, includes organizations)\n- {休会|きゅうかい}: recess, temporary adjournment",
+  "notes": "A formal term for the conclusion and dispersal of a meeting or assembly. Used in parliamentary, corporate, and official contexts. Takes ⟦する→する：00392_suru⟧ to form the verb {散会|さんかい}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {散会|さんかい}⟦する→する：00392_suru⟧: to adjourn, to break up\n- {散会|さんかい}⟦を→を：00422_wo⟧⟦{宣言|せんげん}する→宣言する：21680_sengensuru⟧: to declare adjournment\n- {散会|さんかい}⟦{時間|じかん}→時間：00468_jikan⟧: time of adjournment\n\nSIMILAR WORDS:\n- ⟦{閉会|へいかい}→閉会：23962_heikai⟧: closing (of a formal event or session, more ceremonial)\n- ⟦{解散|かいさん}→解散：04121_kaisan⟧: dissolution, breaking up (broader use, includes organizations)\n- {休会|きゅうかい}: recess, temporary adjournment",
   "cross_references": [
     {
       "type": "contrast",
@@ -66,7 +66,7 @@
   ],
   "metadata": {
     "created": "2026-04-20T15:22:51Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:02:19Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -80,7 +80,8 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "conjugation": {

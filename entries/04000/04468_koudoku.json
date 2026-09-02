@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04468_koudoku_ex1",
-      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦を→を：00422_wo⟧{購読|こうどく}して⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦を→を：00422_wo⟧{購読|こうどく}⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧。",
       "english": "I subscribe to a newspaper.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04468_koudoku_ex2",
-      "japanese": "⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦の→の：09472_no⟧{購読|こうどく}⟦を→を：00422_wo⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧した。",
+      "japanese": "⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦の→の：09472_no⟧{購読|こうどく}⟦を→を：00422_wo⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦した→する：00392_suru⟧。",
       "english": "I canceled my magazine subscription.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T14:59:53Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -172,7 +172,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

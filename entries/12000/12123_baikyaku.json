@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12123_baikyaku_ex1",
-      "japanese": "{土地|とち}を{売却|ばいきゃく}する。",
+      "japanese": "⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{売却|ばいきゃく}⟦する→する：00392_suru⟧。",
       "english": "To sell off a piece of land.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12123_baikyaku_ex2",
-      "japanese": "{会社|かいしゃ}は{不採算|ふさいさん}{事業|じぎょう}を{売却|ばいきゃく}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{不採算|ふさいさん}⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦を→を：00422_wo⟧{売却|ばいきゃく}⟦した→する：00392_suru⟧。",
       "english": "The company sold off its unprofitable business.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12123_baikyaku_ex3",
-      "japanese": "{保有|ほゆう}していた{株式|かぶしき}をすべて{売却|ばいきゃく}して、{資金|しきん}を{確保|かくほ}した。",
+      "japanese": "⟦{保有|ほゆう}→保有：11615_hoyuu⟧⟦していた→する：00392_suru⟧⟦{株式|かぶしき}→株式：04772_kabushiki⟧⟦を→を：00422_wo⟧すべて{売却|ばいきゃく}⟦して→する：00392_suru⟧、⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦した→する：00392_suru⟧。",
       "english": "I sold off all the stocks I held to secure funds.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{売却|ばいきゃく} is a formal term used for the sale of significant assets such as real estate, businesses, stocks, or other property. It is common in news, business, and legal contexts. For everyday selling (e.g., selling at a market), {売|う}る is used instead.\n\nCOMMON COLLOCATIONS:\n- {土地|とち}を{売却|ばいきゃく}する: to sell land\n- {株式|かぶしき}を{売却|ばいきゃく}する: to sell stocks\n- {資産|しさん}の{売却|ばいきゃく}: sale of assets\n- {売却|ばいきゃく}{益|えき}: profit from a sale\n- {売却|ばいきゃく}{価格|かかく}: selling price",
+  "notes": "USAGE:\n{売却|ばいきゃく} is a formal term used for the sale of significant assets such as real estate, businesses, stocks, or other property. It is common in news, business, and legal contexts. For everyday selling (e.g., selling at a market), ⟦{売|う}る→売る：00906_uru⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- ⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{売却|ばいきゃく}⟦する→する：00392_suru⟧: to sell land\n- ⟦{株式|かぶしき}→株式：04772_kabushiki⟧⟦を→を：00422_wo⟧{売却|ばいきゃく}⟦する→する：00392_suru⟧: to sell stocks\n- ⟦{資産|しさん}→資産：15655_shisan⟧⟦の→の：09472_no⟧{売却|ばいきゃく}: sale of assets\n- {売却|ばいきゃく}⟦{益|えき}→益：02275_eki⟧: profit from a sale\n- {売却|ばいきゃく}⟦{価格|かかく}→価格：00147_kakaku⟧: selling price",
   "cross_references": [
     {
       "type": "antonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T08:52:58Z",
-    "modified": "2026-04-26T06:29:08Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -163,7 +163,8 @@
         "business",
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

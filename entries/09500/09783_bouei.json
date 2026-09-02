@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09783_bouei_ex1",
-      "japanese": "{国|くに}⟦を→を：00422_wo⟧{防衛|ぼうえい}⟦する→する：00392_suru⟧。",
+      "japanese": "⟦{国|くに}→国：02204_kuni⟧⟦を→を：00422_wo⟧{防衛|ぼうえい}⟦する→する：00392_suru⟧。",
       "english": "To defend the country.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "09783_bouei_ex2",
-      "japanese": "{防衛|ぼうえい}{力|りょく}⟦を→を：00422_wo⟧{強|つよ}める。",
+      "japanese": "{防衛|ぼうえい}{力|りょく}⟦を→を：00422_wo⟧⟦{強|つよ}める→強める：02296_tsuyomeru⟧。",
       "english": "To strengthen defense capabilities.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "09783_bouei_ex3",
-      "japanese": "{自己|じこ}{防衛|ぼうえい}⟦の→の：09472_no⟧ため⟦に→に：00314_ni⟧。",
+      "japanese": "⟦{自己|じこ}→自己：23357_jiko⟧{防衛|ぼうえい}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧。",
       "english": "For self-defense.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "{防衛|ぼうえい} refers to defense and protection, especially in military contexts.\n\nCOMMON COLLOCATIONS:\n- {防衛|ぼうえい}する (to defend)\n- {防衛|ぼうえい}{力|りょく} (defense capability)\n- {国防|こくぼう} (national defense)\n- {自己|じこ}{防衛|ぼうえい} (self-defense)\n\nRELATED WORDS:\n- ⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧: Japan Self-Defense Forces\n- {防衛省|ぼうえいしょう}: Ministry of Defense\n- {防御|ぼうぎょ}: defense, protection\n- {守|まも}る: to protect, to guard",
+  "notes": "{防衛|ぼうえい} refers to defense and protection, especially in military contexts.\n\nCOMMON COLLOCATIONS:\n- {防衛|ぼうえい}⟦する→する：00392_suru⟧ (to defend)\n- {防衛|ぼうえい}{力|りょく} (defense capability)\n- ⟦{国防|こくぼう}→国防：28224_kokubou⟧ (national defense)\n- ⟦{自己|じこ}→自己：23357_jiko⟧{防衛|ぼうえい} (self-defense)\n\nRELATED WORDS:\n- ⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧: Japan Self-Defense Forces\n- {防衛省|ぼうえいしょう}: Ministry of Defense\n- ⟦{防御|ぼうぎょ}→防御：14575_bougyo⟧: defense, protection\n- ⟦{守|まも}る→守る：01986_mamoru⟧: to protect, to guard",
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -146,7 +146,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "cross_references": [

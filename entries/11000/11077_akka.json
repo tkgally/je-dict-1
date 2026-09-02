@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11077_akka_ex1",
-      "japanese": "{症状|しょうじょう}が{悪化|あっか}した。",
+      "japanese": "⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦が→が：00051_ga⟧{悪化|あっか}⟦した→する：00392_suru⟧。",
       "english": "The symptoms worsened.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11077_akka_ex2",
-      "japanese": "{天候|てんこう}の{悪化|あっか}で{試合|しあい}が{中止|ちゅうし}になった。",
+      "japanese": "⟦{天候|てんこう}→天候：03558_tenkou⟧⟦の→の：09472_no⟧{悪化|あっか}⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧になった。",
       "english": "The match was canceled due to worsening weather.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11077_akka_ex3",
-      "japanese": "{治療|ちりょう}を{放置|ほうち}すると{病状|びょうじょう}がさらに{悪化|あっか}するおそれがある。",
+      "japanese": "⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦を→を：00422_wo⟧⟦{放置|ほうち}する→放置する：25382_houchisuru⟧⟦と→と：00512_to⟧⟦{病状|びょうじょう}→病状：21011_byoujou⟧⟦が→が：00051_ga⟧さらに{悪化|あっか}⟦する→する：00392_suru⟧おそれ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If treatment is neglected, there is a risk of the condition worsening further.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA versatile word used for any kind of worsening — health, weather, relationships, economic conditions, environmental situations, etc. Frequently appears in news reports.\n\nSIMILAR WORDS:\n- {悪化|あっか}: neutral, factual worsening\n- {深刻化|しんこくか}: becoming serious/grave (emphasizes severity)\n- {劣化|れっか}: degradation (often for materials or quality)\n\nCOMMON COLLOCATIONS:\n- {症状|しょうじょう}が{悪化|あっか}する: symptoms worsen\n- {関係|かんけい}が{悪化|あっか}する: relations deteriorate\n- {治安|ちあん}の{悪化|あっか}: worsening public safety\n- {経済|けいざい}の{悪化|あっか}: economic deterioration\n- {悪化|あっか}の{一途|いっと}をたどる: to go from bad to worse",
+  "notes": "USAGE:\nA versatile word used for any kind of worsening — health, weather, relationships, economic conditions, environmental situations, etc. Frequently appears in news reports.\n\nSIMILAR WORDS:\n- {悪化|あっか}: neutral, factual worsening\n- ⟦{深刻化|しんこくか}→深刻化：11107_shinkokuka⟧: becoming serious/grave (emphasizes severity)\n- ⟦{劣化|れっか}→劣化：07647_rekka⟧: degradation (often for materials or quality)\n\nCOMMON COLLOCATIONS:\n- ⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦が→が：00051_ga⟧{悪化|あっか}⟦する→する：00392_suru⟧: symptoms worsen\n- ⟦{関係|かんけい}→関係：01298_kankei⟧⟦が→が：00051_ga⟧{悪化|あっか}⟦する→する：00392_suru⟧: relations deteriorate\n- ⟦{治安|ちあん}→治安：13269_chian⟧⟦の→の：09472_no⟧{悪化|あっか}: worsening public safety\n- ⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{悪化|あっか}: economic deterioration\n- {悪化|あっか}⟦の→の：09472_no⟧{一途|いっと}⟦を→を：00422_wo⟧たどる: to go from bad to worse",
   "cross_references": [
     {
       "type": "antonym",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15732_datsugoku_ex1",
-      "japanese": "{囚人|しゅうじん}が{脱獄|だつごく}した。",
+      "japanese": "⟦{囚人|しゅうじん}→囚人：20680_shuujin⟧⟦が→が：00051_ga⟧{脱獄|だつごく}⟦した→する：00392_suru⟧。",
       "english": "A prisoner escaped from jail.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15732_datsugoku_ex2",
-      "japanese": "{脱獄|だつごく}{犯|はん}はまだ{捕|つか}まっていない。",
+      "japanese": "{脱獄|だつごく}{犯|はん}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{捕|つか}まっていない→捕まる：01959_tsukamaru⟧。",
       "english": "The escaped prisoner has not been caught yet.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15732_datsugoku_ex3",
-      "japanese": "その{映画|えいが}は{実際|じっさい}にあった{脱獄|だつごく}{事件|じけん}を{基|もと}にしている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{実際|じっさい}→実際：02502_jissai⟧にあった{脱獄|だつごく}⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧{基|もと}にして⟦いる→いる：00495_iru⟧。",
       "english": "The movie is based on a real prison break incident.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{脱獄|だつごく} means escaping from prison. Composed of {脱|だつ} (escape) + {獄|ごく} (prison).\n\nCOMMON COLLOCATIONS:\n- {脱獄|だつごく}する: to break out of prison\n- {脱獄|だつごく}{犯|はん}: escaped prisoner\n- {脱獄|だつごく}{事件|じけん}: prison break incident\n- {脱獄|だつごく}を{企|くわだ}てる: to plan a prison break\n- {脱獄|だつごく}を{図|はか}る: to attempt a prison escape\n- {脱獄|だつごく}{未遂|みすい}: attempted jailbreak\n\nMODERN USAGE:\nAlso used informally in computing to mean \"jailbreaking\" a device (removing software restrictions on a phone or tablet).\n\nRELATED WORDS:\n- {脱走|だっそう}: escape, desertion (broader — from military, institution, etc.)\n- {逃亡|とうぼう}: flight, running away (after escaping)\n- {投獄|とうごく}: imprisonment (opposite — putting someone in prison)",
+  "notes": "{脱獄|だつごく} means escaping from prison. Composed of {脱|だつ} (escape) + {獄|ごく} (prison).\n\nCOMMON COLLOCATIONS:\n- {脱獄|だつごく}⟦する→する：00392_suru⟧: to break out of prison\n- {脱獄|だつごく}{犯|はん}: escaped prisoner\n- {脱獄|だつごく}⟦{事件|じけん}→事件：01568_jiken⟧: prison break incident\n- {脱獄|だつごく}⟦を→を：00422_wo⟧⟦{企|くわだ}てる→企てる：15422_kuwadateru⟧: to plan a prison break\n- {脱獄|だつごく}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧: to attempt a prison escape\n- {脱獄|だつごく}⟦{未遂|みすい}→未遂：13085_misui⟧: attempted jailbreak\n\nMODERN USAGE:\nAlso used informally in computing to mean \"jailbreaking\" a device (removing software restrictions on a phone or tablet).\n\nRELATED WORDS:\n- ⟦{脱走|だっそう}→脱走：15529_dassou⟧: escape, desertion (broader — from military, institution, etc.)\n- ⟦{逃亡|とうぼう}→逃亡：14367_toubou⟧: flight, running away (after escaping)\n- ⟦{投獄|とうごく}→投獄：15733_tougoku⟧: imprisonment (opposite — putting someone in prison)",
   "cross_references": [
     {
       "type": "related",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T08:53:40Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +180,8 @@
       "semantic": [
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08448_shijou_ex1",
-      "japanese": "{新車|しんしゃ}を{試乗|しじょう}する。",
+      "japanese": "⟦{新車|しんしゃ}→新車：11334_shinsha⟧⟦を→を：00422_wo⟧{試乗|しじょう}⟦する→する：00392_suru⟧。",
       "english": "To test drive a new car.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08448_shijou_ex2",
-      "japanese": "{試乗|しじょう}してから{買|か}うかどうか{決|き}める。",
+      "japanese": "{試乗|しじょう}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{買|か}う→買う：00489_kau⟧⟦かどうか→かどうか：28299_kadouka⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "I'll decide whether to buy after test driving it.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08448_shijou_ex3",
-      "japanese": "ディーラーで{電気自動車|でんきじどうしゃ}を{試乗|しじょう}した。",
+      "japanese": "ディーラー⟦で→で：00502_de⟧⟦{電気自動車|でんきじどうしゃ}→電気自動車：15581_denkijidousha⟧⟦を→を：00422_wo⟧{試乗|しじょう}⟦した→する：00392_suru⟧。",
       "english": "I test drove an electric car at the dealership.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{試乗|しじょう} means taking a vehicle for a test drive or trial ride, typically before making a purchase decision.\n\nFORMS:\n{試|し} (test, trial) + {乗|じょう} (ride). The {試|し} prefix appears in many 'try before you buy' words.\n\nCOMMON COLLOCATIONS:\n- {試乗|しじょう}する: to test drive\n- {試乗車|しじょうしゃ}: test drive vehicle (demo car)\n- {試乗会|しじょうかい}: test drive event\n- {試乗|しじょう}{予約|よやく}: test drive reservation\n\nRELATED {試|し}-COMPOUNDS:\n- {試着|しちゃく}: trying on clothes\n- {試食|ししょく}: food tasting/sampling\n- {試用|しよう}: trial use\n- {試聴|しちょう}: trial listening (music)\n\nUSAGE:\nUsed for cars, motorcycles, and bicycles. At dealerships, you can ask: {試乗|しじょう}できますか (Can I take a test drive?).",
+  "notes": "{試乗|しじょう} means taking a vehicle for a test drive or trial ride, typically before making a purchase decision.\n\nFORMS:\n{試|し} (test, trial) + {乗|じょう} (ride). The {試|し} prefix appears in many 'try before you buy' words.\n\nCOMMON COLLOCATIONS:\n- {試乗|しじょう}⟦する→する：00392_suru⟧: to test drive\n- {試乗車|しじょうしゃ}: test drive vehicle (demo car)\n- {試乗会|しじょうかい}: test drive event\n- {試乗|しじょう}⟦{予約|よやく}→予約：01522_yoyaku⟧: test drive reservation\n\nRELATED {試|し}-COMPOUNDS:\n- ⟦{試着|しちゃく}→試着：07690_shichaku⟧: trying on clothes\n- ⟦{試食|ししょく}→試食：03060_shishoku⟧: food tasting/sampling\n- ⟦{試用|しよう}→試用：23966_shiyou⟧: trial use\n- {試聴|しちょう}: trial listening (music)\n\nUSAGE:\nUsed for cars, motorcycles, and bicycles. At dealerships, you can ask: {試乗|しじょう}⟦できます→できる：00557_dekiru⟧⟦か→か：09473_ka⟧ (Can I take a test drive?).",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,10 +147,11 @@
         "shopping",
         "transportation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-09-02T02:55:19Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "prominent_see_also": [
     {

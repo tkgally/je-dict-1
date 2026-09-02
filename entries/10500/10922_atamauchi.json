@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10922_atamauchi_ex1",
-      "japanese": "{売上|うりあげ}が{頭打|あたまう}ちだ。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧{頭打|あたまう}ちだ。",
       "english": "Sales have plateaued.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10922_atamauchi_ex2",
-      "japanese": "{人口|じんこう}の{増加|ぞうか}が{頭打|あたまう}ちになっている。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦の→の：09472_no⟧⟦{増加|ぞうか}→増加：03329_zouka⟧⟦が→が：00051_ga⟧{頭打|あたまう}ちになっている。",
       "english": "Population growth has hit a ceiling.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10922_atamauchi_ex3",
-      "japanese": "この{業界|ぎょうかい}は{成長|せいちょう}が{頭打|あたまう}ちで、{新|あたら}しい{戦略|せんりゃく}が{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦は→は：00079_ha⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦が→が：00051_ga⟧{頭打|あたまう}ちで、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Growth in this industry has plateaued, and new strategies are needed.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,11 @@
       ]
     }
   ],
-  "notes": "KEY PATTERN:\n{頭打|あたまう}ちになる (to plateau, to hit a ceiling) is the most common usage pattern. Also used as a predicate: ～が{頭打|あたまう}ちだ.\n\nETYMOLOGY:\n{頭|あたま} (head) + {打|う}ち (hitting). The image of hitting one's head on a ceiling above, unable to go higher.\n\nUSAGE:\nPrimarily used in business, economics, and data contexts. Common subjects include {売上|うりあげ} (sales), {成長|せいちょう} (growth), {株価|かぶか} (stock prices), and {人口|じんこう} (population).",
+  "notes": "KEY PATTERN:\n{頭打|あたまう}ち⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to plateau, to hit a ceiling) is the most common usage pattern. Also used as a predicate: ～⟦が→が：00051_ga⟧{頭打|あたまう}ちだ.\n\nETYMOLOGY:\n⟦{頭|あたま}→頭：00574_atama⟧ (head) + {打|う}ち (hitting). The image of hitting one's head on a ceiling above, unable to go higher.\n\nUSAGE:\nPrimarily used in business, economics, and data contexts. Common subjects include ⟦{売上|うりあげ}→売上：04102_uriage⟧ (sales), ⟦{成長|せいちょう}→成長：03290_seichou⟧ (growth), ⟦{株価|かぶか}→株価：05154_kabuka⟧ (stock prices), and ⟦{人口|じんこう}→人口：01618_jinkou⟧ (population).",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
-    "modified": "2026-06-28T18:50:11Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

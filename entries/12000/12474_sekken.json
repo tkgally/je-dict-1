@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12474_sekken_ex1",
-      "japanese": "そのブランドが{世界|せかい}を{席巻|せっけん}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦ブランド→ブランド：05221_burando⟧⟦が→が：00051_ga⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧{席巻|せっけん}⟦した→する：00392_suru⟧。",
       "english": "That brand swept the world.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12474_sekken_ex2",
-      "japanese": "スマートフォンが{市場|しじょう}を{席巻|せっけん}している。",
+      "japanese": "⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦が→が：00051_ga⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦を→を：00422_wo⟧{席巻|せっけん}⟦している→する：00392_suru⟧。",
       "english": "Smartphones are dominating the market.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12474_sekken_ex3",
-      "japanese": "{日本|にほん}のアニメが{海外|かいがい}の{若者|わかもの}{文化|ぶんか}を{席巻|せっけん}していると{言|い}われている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦アニメ→アニメ：01527_anime⟧⟦が→が：00051_ga⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦の→の：09472_no⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧{席巻|せっけん}⟦している→する：00392_suru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that Japanese anime is sweeping youth culture abroad.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a suru-verb: {席巻|せっけん}する. Also written as {席捲|せっけん}. Almost always used in the pattern ～を{席巻|せっけん}する (sweep over ~). Carries a strong, dramatic tone and is common in news headlines and feature articles. Not to be confused with the homophone {石鹸|せっけん} (soap).\n\nCOMMON COLLOCATIONS:\n- {世界|せかい}を{席巻|せっけん}する: sweep the world\n- {市場|しじょう}を{席巻|せっけん}する: dominate the market\n- {業界|ぎょうかい}を{席巻|せっけん}する: sweep through the industry",
+  "notes": "USAGE:\nUsed as a suru-verb: {席巻|せっけん}⟦する→する：00392_suru⟧. Also written as {席捲|せっけん}. Almost always used in the pattern ～⟦を→を：00422_wo⟧{席巻|せっけん}⟦する→する：00392_suru⟧ (sweep over ~). Carries a strong, dramatic tone and is common in news headlines and feature articles. Not to be confused with the homophone ⟦{石鹸|せっけん}→石鹸：04981_sekken⟧ (soap).\n\nCOMMON COLLOCATIONS:\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧{席巻|せっけん}⟦する→する：00392_suru⟧: sweep the world\n- ⟦{市場|しじょう}→市場：09685_shijou⟧⟦を→を：00422_wo⟧{席巻|せっけん}⟦する→する：00392_suru⟧: dominate the market\n- ⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦を→を：00422_wo⟧{席巻|せっけん}⟦する→する：00392_suru⟧: sweep through the industry",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-21T10:31:19Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

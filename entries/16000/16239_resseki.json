@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16239_resseki_ex1",
-      "japanese": "{式|しき}に{列席|れっせき}する。",
+      "japanese": "{式|しき}⟦に→に：00314_ni⟧{列席|れっせき}⟦する→する：00392_suru⟧。",
       "english": "To attend a ceremony.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16239_resseki_ex2",
-      "japanese": "{結婚式|けっこんしき}に{列席|れっせき}した{方々|かたがた}にお{礼|れい}を{述|の}べた。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{列席|れっせき}⟦した→する：00392_suru⟧⟦{方々|かたがた}→方々：02778_katagata⟧⟦に→に：00314_ni⟧⟦お{礼|れい}→お礼：01359_orei⟧⟦を→を：00422_wo⟧⟦{述|の}べた→述べる：02389_noberu⟧。",
       "english": "I expressed thanks to those who attended the wedding.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16239_resseki_ex3",
-      "japanese": "{各国|かっこく}の{代表|だいひょう}が{列席|れっせき}する{中|なか}、{首脳|しゅのう}{会談|かいだん}が{行|おこな}われた。",
+      "japanese": "⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦の→の：09472_no⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦が→が：00051_ga⟧{列席|れっせき}⟦する→する：00392_suru⟧⟦{中|なか}→中：00654_naka⟧、⟦{首脳|しゅのう}→首脳：15631_shunou⟧⟦{会談|かいだん}→会談：11542_kaidan⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The summit was held in the presence of representatives from each country.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{列席|れっせき} is a formal word for attending an event. It is used for ceremonies, official functions, and formal gatherings — not for casual meetings or classes.\n\nFORMS:\n{列|れつ} (row, line) + {席|せき} (seat) — to take one's seat in the assembly.\n\nCOMMON COLLOCATIONS:\n- {式|しき}に{列席|れっせき}する: to attend a ceremony\n- {列席者|れっせきしゃ}: those in attendance\n- ご{列席|れっせき}の{皆様|みなさま}: esteemed guests in attendance\n\nSIMILAR WORDS:\n{出席|しゅっせき} is the general word for attendance (classes, meetings). {列席|れっせき} is reserved for formal ceremonies and official occasions.",
+  "notes": "USAGE:\n{列席|れっせき} is a formal word for attending an event. It is used for ceremonies, official functions, and formal gatherings — not for casual meetings or classes.\n\nFORMS:\n⟦{列|れつ}→列：02171_retsu⟧ (row, line) + ⟦{席|せき}→席：02215_seki⟧ (seat) — to take one's seat in the assembly.\n\nCOMMON COLLOCATIONS:\n- {式|しき}⟦に→に：00314_ni⟧{列席|れっせき}⟦する→する：00392_suru⟧: to attend a ceremony\n- {列席者|れっせきしゃ}: those in attendance\n- ご{列席|れっせき}⟦の→の：09472_no⟧⟦{皆様|みなさま}→皆様：15860_minasama⟧: esteemed guests in attendance\n\nSIMILAR WORDS:\n⟦{出席|しゅっせき}→出席：02084_shusseki⟧ is the general word for attendance (classes, meetings). {列席|れっせき} is reserved for formal ceremonies and official occasions.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-11T08:03:04Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -158,7 +158,8 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25761_nengappi_ex1",
-      "japanese": "{年月日|ねんがっぴ}を{記入|きにゅう}してください。",
+      "japanese": "{年月日|ねんがっぴ}⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fill in the date.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25761_nengappi_ex2",
-      "japanese": "{生年月日|せいねんがっぴ}は1990{年|ねん}5{月|がつ}10{日|にち}です。",
+      "japanese": "⟦{生年月日|せいねんがっぴ}→生年月日：03293_seinengappi⟧⟦は→は：00079_ha⟧1990⟦{年|ねん}→年：09876_nen⟧5⟦{月|がつ}→月：30418_gatsu⟧10⟦{日|にち}→日：12732_nichi⟧です。",
       "english": "My date of birth is May 10, 1990.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25761_nengappi_ex3",
-      "japanese": "{契約書|けいやくしょ}に{年月日|ねんがっぴ}と{署名|しょめい}を{忘|わす}れずに{書|か}いてください。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦に→に：00314_ni⟧{年月日|ねんがっぴ}⟦と→と：00512_to⟧⟦{署名|しょめい}→署名：03682_shomei⟧⟦を→を：00422_wo⟧⟦{忘|わす}れ→忘れる：00474_wasureru⟧ず⟦に→に：00314_ni⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't forget to write the date and your signature on the contract.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {年|ねん} (year), {月|がつ} (month), and {日|ひ} (day). Very common on Japanese forms and official documents. In Japanese date format, the order is always year → month → day.\n\nCOMMON COLLOCATIONS:\n- {年月日|ねんがっぴ}を{記入|きにゅう}する: to fill in the date\n- {生年月日|せいねんがっぴ}: date of birth\n- {発行|はっこう}{年月日|ねんがっぴ}: date of issue\n- {届出|とどけで}{年月日|ねんがっぴ}: date of notification\n\nCULTURAL NOTE:\nJapanese official documents traditionally use the Japanese era system ({和暦|われき}) for dates (e.g., {令和|れいわ}8{年|ねん}), though Western calendar dates ({西暦|せいれき}) are also widely accepted. The {生年月日|せいねんがっぴ} field appears on nearly every official form in Japan.\n\nRELATED WORDS:\n- {日付|ひづけ}: date — more general and conversational\n- {日時|にちじ}: date and time",
+  "notes": "A compound of ⟦{年|ねん}→年：09876_nen⟧ (year), ⟦{月|がつ}→月：30418_gatsu⟧ (month), and ⟦{日|ひ}→日：02249_hi⟧ (day). Very common on Japanese forms and official documents. In Japanese date format, the order is always year → month → day.\n\nCOMMON COLLOCATIONS:\n- {年月日|ねんがっぴ}⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧: to fill in the date\n- ⟦{生年月日|せいねんがっぴ}→生年月日：03293_seinengappi⟧: date of birth\n- ⟦{発行|はっこう}→発行：03693_hakkou⟧{年月日|ねんがっぴ}: date of issue\n- {届出|とどけで}{年月日|ねんがっぴ}: date of notification\n\nCULTURAL NOTE:\nJapanese official documents traditionally use the Japanese era system (⟦{和暦|われき}→和暦：28485_wareki⟧) for dates (e.g., ⟦{令和|れいわ}→令和：11181_reiwa⟧8⟦{年|ねん}→年：09876_nen⟧), though Western calendar dates (⟦{西暦|せいれき}→西暦：04355_seireki⟧) are also widely accepted. The ⟦{生年月日|せいねんがっぴ}→生年月日：03293_seinengappi⟧ field appears on nearly every official form in Japan.\n\nRELATED WORDS:\n- ⟦{日付|ひづけ}→日付：03706_hizuke⟧: date — more general and conversational\n- ⟦{日時|にちじ}→日時：00316_nichiji⟧: date and time",
   "cross_references": [
     {
       "type": "related",
@@ -75,6 +75,6 @@
       ]
     },
     "created": "2026-04-27T12:16:30Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

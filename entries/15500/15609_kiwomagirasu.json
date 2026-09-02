@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15609_kiwomagirasu_ex1",
-      "japanese": "{散歩|さんぽ}をして{気|き}を{紛|まぎ}らす。",
+      "japanese": "⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧{気|き}を{紛|まぎ}らす。",
       "english": "I take a walk to take my mind off things.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15609_kiwomagirasu_ex2",
-      "japanese": "{音楽|おんがく}を{聴|き}いて{気|き}を{紛|まぎ}らした。",
+      "japanese": "⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧⟦{聴|き}いて→聴く：30010_kiku⟧{気|き}を{紛|まぎ}らした。",
       "english": "I listened to music to distract myself.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15609_kiwomagirasu_ex3",
-      "japanese": "{試験|しけん}の{結果|けっか}が{気|き}になるが、{料理|りょうり}をして{気|き}を{紛|まぎ}らすことにした。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{気|き}になる→気になる：03027_kininaru⟧⟦が→が：00051_ga⟧、⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧{気|き}を{紛|まぎ}らすことにした。",
       "english": "I'm anxious about the exam results, but I decided to cook to take my mind off it.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\nThis is a set phrase using {紛|まぎ}らす (to divert, to distract). The verb {紛|まぎ}らす conjugates as a godan verb: {紛|まぎ}らさない / {紛|まぎ}らして / {紛|まぎ}らした.\n\nCOMMON COLLOCATIONS:\n- {気|き}を{紛|まぎ}らすために (in order to distract oneself)\n- {気|き}を{紛|まぎ}らす{方法|ほうほう} (a way to take one's mind off things)\n\nSIMILAR WORDS:\n{気|き}を{散|ち}らす means to distract in a more general sense (including unwanted distractions). {気晴|きば}らし (diversion, pastime) is the noun form of the same concept.",
+  "notes": "COMMON PATTERNS:\nThis is a set phrase using {紛|まぎ}らす (to divert, to distract). The verb {紛|まぎ}らす conjugates as a godan verb: {紛|まぎ}らさない / {紛|まぎ}らして / {紛|まぎ}らした.\n\nCOMMON COLLOCATIONS:\n- {気|き}を{紛|まぎ}らす⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧ (in order to distract oneself)\n- {気|き}を{紛|まぎ}らす⟦{方法|ほうほう}→方法：03621_houhou⟧ (a way to take one's mind off things)\n\nSIMILAR WORDS:\n⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦{散|ち}らす→散らす：02288_chirasu⟧ means to distract in a more general sense (including unwanted distractions). ⟦{気晴|きば}らし→気晴らし：16699_kibarashi⟧ (diversion, pastime) is the noun form of the same concept.",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:08:45Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     }
   }
 }

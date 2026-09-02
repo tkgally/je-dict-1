@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07965_rouden_ex1",
-      "japanese": "{漏電|ろうでん}が{火災|かさい}の{原因|げんいん}だった。",
+      "japanese": "{漏電|ろうでん}⟦が→が：00051_ga⟧⟦{火災|かさい}→火災：02561_kasai⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧だった。",
       "english": "An electrical leak was the cause of the fire.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07965_rouden_ex2",
-      "japanese": "{漏電|ろうでん}{遮断|しゃだん}{器|き}が{作動|さどう}した。",
+      "japanese": "{漏電|ろうでん}⟦{遮断|しゃだん}→遮断：15673_shadan⟧{器|き}⟦が→が：00051_ga⟧⟦{作動|さどう}→作動：11692_sadou⟧⟦した→する：00392_suru⟧。",
       "english": "The earth leakage circuit breaker activated.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07965_rouden_ex3",
-      "japanese": "{古|ふる}い{配線|はいせん}は{漏電|ろうでん}の{危険|きけん}があるので、{点検|てんけん}が{必要|ひつよう}だ。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{配線|はいせん}→配線：07862_haisen⟧⟦は→は：00079_ha⟧{漏電|ろうでん}⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、⟦{点検|てんけん}→点検：09765_tenken⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Old wiring has a risk of electrical leakage, so inspection is necessary.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{漏電|ろうでん} refers to electrical current leaking through unintended paths, a serious safety hazard.\n\nWRITING:\n- {漏|ろう} (leak)\n- {電|でん} (electricity)\n\nSAFETY CONCERN:\n- Can cause electrical fires\n- Can lead to electric shock\n- Often caused by aged or damaged insulation\n\nCOMPOUNDS:\n- {漏電|ろうでん}{遮断|しゃだん}{器|き} (earth leakage circuit breaker / ELCB)\n- {漏電|ろうでん}{火災|かさい} (fire caused by electrical leak)\n- {漏電|ろうでん}{検査|けんさ} (electrical leak inspection)\n\nUSAGE:\n- {漏電|ろうでん}する (to have an electrical leak - suru verb)\n- {漏電|ろうでん}している (there is an electrical leak)\n\nRELATED WORDS:\n- {感電|かんでん} (electric shock)\n- {配線|はいせん} (wiring)\n- ブレーカー (circuit breaker)",
+  "notes": "{漏電|ろうでん} refers to electrical current leaking through unintended paths, a serious safety hazard.\n\nWRITING:\n- {漏|ろう} (leak)\n- {電|でん} (electricity)\n\nSAFETY CONCERN:\n- Can cause electrical fires\n- Can lead to electric shock\n- Often caused by aged or damaged insulation\n\nCOMPOUNDS:\n- {漏電|ろうでん}⟦{遮断|しゃだん}→遮断：15673_shadan⟧{器|き} (earth leakage circuit breaker / ELCB)\n- {漏電|ろうでん}⟦{火災|かさい}→火災：02561_kasai⟧ (fire caused by electrical leak)\n- {漏電|ろうでん}⟦{検査|けんさ}→検査：02707_kensa⟧ (electrical leak inspection)\n\nUSAGE:\n- {漏電|ろうでん}⟦する→する：00392_suru⟧ (to have an electrical leak - suru verb)\n- {漏電|ろうでん}⟦している→する：00392_suru⟧ (there is an electrical leak)\n\nRELATED WORDS:\n- ⟦{感電|かんでん}→感電：15792_kanden⟧ (electric shock)\n- ⟦{配線|はいせん}→配線：07862_haisen⟧ (wiring)\n- ⟦ブレーカー→ブレーカー：07496_bureekaa⟧ (circuit breaker)",
   "cross_references": [
     {
       "type": "related",
@@ -187,6 +187,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-23T10:46:16Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

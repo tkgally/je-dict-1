@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25250_kuchigomoru_ex1",
-      "japanese": "{彼|かれ}は{口|くち}ごもった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{口|くち}ごもった。",
       "english": "He mumbled hesitantly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25250_kuchigomoru_ex2",
-      "japanese": "{理由|りゆう}を{聞|き}かれて、{彼女|かのじょ}は{口|くち}ごもった。",
+      "japanese": "⟦{理由|りゆう}→理由：01102_riyuu⟧⟦を→を：00422_wo⟧⟦{聞|き}かれて→聞く：00483_kiku⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{口|くち}ごもった。",
       "english": "When asked for the reason, she faltered.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25250_kuchigomoru_ex3",
-      "japanese": "{本当|ほんとう}のことを{言|い}おうとしたが、{口|くち}ごもってしまった。",
+      "japanese": "⟦{本当|ほんとう}→本当：00779_hontou⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{言|い}おう→言う：00515_iu⟧とした⟦が→が：00051_ga⟧、{口|くち}ごもってしまった。",
       "english": "I tried to tell the truth but couldn't get the words out.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25250_kuchigomoru_ex4",
-      "japanese": "{先生|せんせい}に{質問|しつもん}されると、いつも{口|くち}ごもってしまう。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{質問|しつもん}される→質問する：05637_shitsumonsuru⟧⟦と→と：00512_to⟧、⟦いつも→いつも：00599_itsumo⟧{口|くち}ごもってしまう。",
       "english": "Whenever the teacher asks me a question, I always end up mumbling.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb describing the act of trailing off or mumbling when one is reluctant, embarrassed, or unsure about what to say. The word paints a vivid picture of words getting stuck in the mouth.\n\nCOMMON COLLOCATIONS:\n- {口|くち}ごもった{声|こえ}: a mumbling voice\n- {口|くち}ごもりながら: while mumbling\n- {口|くち}ごもってしまう: to end up faltering\n\nSIMILAR WORDS:\n- {言|い}いよどむ: to hesitate in speaking; very close in meaning but slightly more formal\n- もごもごする: to mumble inarticulately; focuses more on unclear pronunciation than on hesitation\n- しどろもどろになる: to become incoherent or flustered in speech; implies a more extreme breakdown in fluency\n\nETYMOLOGY:\nFrom {口|くち} (mouth) + こもる (to be confined/shut in), literally meaning for words to stay shut inside the mouth.",
+  "notes": "A godan verb describing the act of trailing off or mumbling when one is reluctant, embarrassed, or unsure about what to say. The word paints a vivid picture of words getting stuck in the mouth.\n\nCOMMON COLLOCATIONS:\n- {口|くち}ごもった⟦{声|こえ}→声：02207_koe⟧: a mumbling voice\n- {口|くち}ごもり⟦ながら→ながら：10530_nagara⟧: while mumbling\n- {口|くち}ごもってしまう: to end up faltering\n\nSIMILAR WORDS:\n- {言|い}いよどむ: to hesitate in speaking; very close in meaning but slightly more formal\n- ⟦もごもご→もごもご：29751_mogomogo⟧⟦する→する：00392_suru⟧: to mumble inarticulately; focuses more on unclear pronunciation than on hesitation\n- ⟦しどろもどろ→しどろもどろ：23215_shidoromodoro⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become incoherent or flustered in speech; implies a more extreme breakdown in fluency\n\nETYMOLOGY:\nFrom ⟦{口|くち}→口：00560_kuchi⟧ (mouth) + こもる (to be confined/shut in), literally meaning for words to stay shut inside the mouth.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -75,10 +75,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T12:11:22Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "godan",

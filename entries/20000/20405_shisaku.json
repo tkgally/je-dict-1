@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20405_shisaku_ex1",
-      "japanese": "{試作|しさく}{品|ひん}を{作|つく}った。",
+      "japanese": "{試作|しさく}{品|ひん}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a prototype.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20405_shisaku_ex2",
-      "japanese": "{新|あたら}しいケーキを{試作|しさく}してみた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ケーキ→ケーキ：01356_keeki⟧⟦を→を：00422_wo⟧{試作|しさく}⟦して→する：00392_suru⟧みた。",
       "english": "I tried making a new cake on a trial basis.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20405_shisaku_ex3",
-      "japanese": "{何度|なんど}も{試作|しさく}を{重|かさ}ねて、ようやく{満足|まんぞく}のいく{製品|せいひん}ができた。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{試作|しさく}⟦を→を：00422_wo⟧⟦{重|かさ}ねて→重ねる：02039_kasaneru⟧、ようやく⟦{満足|まんぞく}→満足：02496_manzoku⟧⟦の→の：09472_no⟧いく⟦{製品|せいひん}→製品：01445_seihin⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "After repeated prototyping, we finally created a product we were satisfied with.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {試|し} (trial, test) + {作|さく} (production, making). Used both as a noun and as a する verb. Commonly encountered in product development, cooking, and crafts contexts.\n\nCOMMON COLLOCATIONS:\n- {試作|しさく}{品|ひん}: prototype, trial product\n- {試作|しさく}{段階|だんかい}: prototyping stage\n- {試作|しさく}を{重|かさ}ねる: to go through repeated prototyping\n- {試作|しさく}{機|き}: prototype machine or aircraft\n\nWATCH OUT:\n- {思索|しさく}: contemplation, speculation — a completely different meaning\n- {施策|しさく}: policy measure, initiative — used in government and business contexts\n\nSIMILAR WORDS:\n- プロトタイプ: prototype — the loanword, used mainly in technology and software\n- {試験|しけん}{製造|せいぞう}: test manufacturing — more formal, industrial term",
+  "notes": "Composed of {試|し} (trial, test) + ⟦{作|さく}→作：27430_saku⟧ (production, making). Used both as a noun and as a ⟦する→する：00392_suru⟧ verb. Commonly encountered in product development, cooking, and crafts contexts.\n\nCOMMON COLLOCATIONS:\n- {試作|しさく}{品|ひん}: prototype, trial product\n- {試作|しさく}⟦{段階|だんかい}→段階：04515_dankai⟧: prototyping stage\n- {試作|しさく}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧: to go through repeated prototyping\n- {試作|しさく}{機|き}: prototype machine or aircraft\n\nWATCH OUT:\n- ⟦{思索|しさく}→思索：15686_shisaku⟧: contemplation, speculation — a completely different meaning\n- ⟦{施策|しさく}→施策：18514_shisaku⟧: policy measure, initiative — used in government and business contexts\n\nSIMILAR WORDS:\n- プロトタイプ: prototype — the loanword, used mainly in technology and software\n- ⟦{試験|しけん}→試験：01422_shiken⟧⟦{製造|せいぞう}→製造：03289_seizou⟧: test manufacturing — more formal, industrial term",
   "prominent_see_also": [
     {
       "target_id": "15686_shisaku",
@@ -82,10 +82,11 @@
         "manufacturing",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-29T12:59:00Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "conjugation": {
     "type": "suru",

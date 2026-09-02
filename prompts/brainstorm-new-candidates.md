@@ -29,7 +29,7 @@ values below and the corresponding `--flags` in the commands in the steps.
 | Batch size    | `15` (seed words per batch) |
 | Batches       | `100` (override with `-n`)  |
 
-**Relation types explored** (hardcoded in `build/brainstorm_candidates.py`):
+**Relation types explored** (hardcoded in `build/archive/brainstorm_candidates.py`):
 - synonyms and near-synonyms
 - antonyms
 - same semantic field
@@ -86,13 +86,13 @@ preserved across runs, and on first creation they are imported from
 `brainstorming/entries_and_candidates_for_LLM_brainstorming_old.json`.
 
 ```bash
-python3 build/brainstorm_candidates.py init
+python3 build/archive/brainstorm_candidates.py init
 ```
 
 ### 3. Run the brainstorming pipeline
 
 ```bash
-python3 build/brainstorm_candidates.py brainstorm \
+python3 build/archive/brainstorm_candidates.py brainstorm \
   -n 5 \
   --model "openai/gpt-4.1-mini" \
   --temperature 0.8 \
@@ -122,7 +122,7 @@ Results are saved to `prompts/brainstorm_results.json`.
 ### 4. Import results into candidate_words.json
 
 ```bash
-python3 build/brainstorm_candidates.py add-results
+python3 build/archive/brainstorm_candidates.py add-results
 ```
 
 This reads `prompts/brainstorm_results.json` and adds each surviving candidate
@@ -133,7 +133,7 @@ import.
 ### 5. Show statistics
 
 ```bash
-python3 build/brainstorm_candidates.py stats
+python3 build/archive/brainstorm_candidates.py stats
 ```
 
 Report the statistics to confirm the run completed. The `add-results` command
@@ -220,4 +220,4 @@ Verify `git status` shows a clean working tree.
   merges. Each session picks up where the last one left off — no word is used
   as a seed twice until all words have been used.
 - Once all words are checked, run
-  `python3 build/brainstorm_candidates.py reset-checked` to start a new cycle.
+  `python3 build/archive/brainstorm_candidates.py reset-checked` to start a new cycle.

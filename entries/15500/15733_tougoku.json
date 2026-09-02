@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15733_tougoku_ex1",
-      "japanese": "{犯人|はんにん}は{投獄|とうごく}された。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧{投獄|とうごく}⟦された→する：00392_suru⟧。",
       "english": "The criminal was imprisoned.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15733_tougoku_ex2",
-      "japanese": "{政治犯|せいじはん}が{不当|ふとう}に{投獄|とうごく}されている。",
+      "japanese": "{政治犯|せいじはん}⟦が→が：00051_ga⟧⟦{不当|ふとう}→不当：11319_futou⟧⟦に→に：00314_ni⟧{投獄|とうごく}⟦されている→する：00392_suru⟧。",
       "english": "Political prisoners are being unjustly imprisoned.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15733_tougoku_ex3",
-      "japanese": "{活動家|かつどうか}は{投獄|とうごく}されても{信念|しんねん}を{曲|ま}げなかった。",
+      "japanese": "{活動家|かつどうか}⟦は→は：00079_ha⟧{投獄|とうごく}⟦されて→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{信念|しんねん}→信念：03074_shinnen⟧⟦を→を：00422_wo⟧⟦{曲|ま}げなかった→曲げる：02529_mageru⟧。",
       "english": "The activist did not waver in their convictions even when imprisoned.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{投獄|とうごく} combines {投|とう} (throw) + {獄|ごく} (prison), literally \"to throw into prison.\" A formal term used in news, legal writing, and historical contexts.\n\nCOMMON COLLOCATIONS:\n- {投獄|とうごく}する: to imprison\n- {投獄|とうごく}される: to be imprisoned (passive, very common)\n- {不当|ふとう}な{投獄|とうごく}: unjust imprisonment\n- {投獄|とうごく}される{恐|おそ}れ: risk of imprisonment\n\nSIMILAR WORDS:\n- {収監|しゅうかん}: confinement in prison (also formal)\n- {拘禁|こうきん}: detention, confinement\n- {禁固|きんこ}/{禁錮|きんこ}: imprisonment (as a legal sentence)\n- {懲役|ちょうえき}: imprisonment with hard labor\n\nREGISTER:\nThis is a written/formal word. In casual speech, {牢屋|ろうや}に{入|い}れられる or {刑務所|けいむしょ}に{入|はい}る are more natural.",
+  "notes": "{投獄|とうごく} combines {投|とう} (throw) + {獄|ごく} (prison), literally \"to throw into prison.\" A formal term used in news, legal writing, and historical contexts.\n\nCOMMON COLLOCATIONS:\n- {投獄|とうごく}⟦する→する：00392_suru⟧: to imprison\n- {投獄|とうごく}⟦される→する：00392_suru⟧: to be imprisoned (passive, very common)\n- ⟦{不当|ふとう}→不当：11319_futou⟧な{投獄|とうごく}: unjust imprisonment\n- {投獄|とうごく}⟦される→する：00392_suru⟧{恐|おそ}れ: risk of imprisonment\n\nSIMILAR WORDS:\n- {収監|しゅうかん}: confinement in prison (also formal)\n- {拘禁|こうきん}: detention, confinement\n- {禁固|きんこ}/⟦{禁錮|きんこ}→禁錮：19211_kinko⟧: imprisonment (as a legal sentence)\n- ⟦{懲役|ちょうえき}→懲役：11087_choueki⟧: imprisonment with hard labor\n\nREGISTER:\nThis is a written/formal word. In casual speech, ⟦{牢屋|ろうや}→牢屋：15832_rouya⟧⟦に→に：00314_ni⟧⟦{入|い}れられる→入れる：01098_ireru⟧ or ⟦{刑務所|けいむしょ}→刑務所：19074_keimusho⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ are more natural.",
   "cross_references": [
     {
       "type": "related",
@@ -174,7 +174,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T08:53:59Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -187,7 +187,8 @@
       "semantic": [
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

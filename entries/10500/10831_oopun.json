@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "10831_oopun_ex1",
-      "japanese": "{新|あたら}しいカフェがオープンした。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦カフェ→カフェ：06767_kafe⟧⟦が→が：00051_ga⟧オープン⟦した→する：00392_suru⟧。",
       "english": "A new café opened.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "10831_oopun_ex2",
-      "japanese": "{来月|らいげつ}グランドオープンの{予定|よてい}です。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦グランド→グランド：00075_gurando⟧オープン⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "The grand opening is planned for next month.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10831_oopun_ex3",
-      "japanese": "{駅前|えきまえ}に{大型|おおがた}ショッピングモールがオープンして、{周辺|しゅうへん}が{賑|にぎ}やかになった。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{大型|おおがた}→大型：03016_oogata⟧⟦ショッピングモール→ショッピングモール：27389_shoppingumooru⟧⟦が→が：00051_ga⟧オープン⟦して→する：00392_suru⟧、⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧⟦が→が：00051_ga⟧{賑|にぎ}やかになった。",
       "english": "A large shopping mall opened in front of the station, and the surrounding area has become lively.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "10831_oopun_ex4",
-      "japanese": "オープンな{性格|せいかく}だ。",
+      "japanese": "オープンな⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "She has an open personality.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "10831_oopun_ex5",
-      "japanese": "もっとオープンに{話|はな}し{合|あ}おう。",
+      "japanese": "⟦もっと→もっと：00798_motto⟧オープン⟦に→に：00314_ni⟧⟦{話|はな}し{合|あ}おう→話し合う：02396_hanashiau⟧。",
       "english": "Let's talk more openly.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "10831_oopun_ex6",
-      "japanese": "この{会社|かいしゃ}はオープンな{社風|しゃふう}で{働|はたら}きやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧オープンな⟦{社風|しゃふう}→社風：29429_shafuu⟧⟦で→で：00502_de⟧⟦{働|はたら}き→働く：00503_hataraku⟧やすい。",
       "english": "This company has an open corporate culture and is easy to work at.",
       "notes": null,
       "has_audio": false,
@@ -169,7 +169,7 @@
       ]
     }
   ],
-  "notes": "From English \"open.\" Very common and versatile in modern Japanese.\n\nSENSE 1 — BUSINESS OPENING:\nUsed for new shops, restaurants, and facilities. Often seen on banners and advertisements.\n\nCOMPOUNDS:\n- グランドオープン: grand opening\n- プレオープン: pre-opening, soft opening\n- リニューアルオープン: reopening after renovation\n- {新規|しんき}オープン: newly opened\n\nSENSE 2 — OPEN/TRANSPARENT:\nFunctions as a na-adjective (オープンな) and adverb (オープンに).\n- オープンキャンパス: open campus (university open day)\n- オープンカー: convertible car\n- オープンスペース: open space",
+  "notes": "From English \"open.\" Very common and versatile in modern Japanese.\n\nSENSE 1 — BUSINESS OPENING:\nUsed for new shops, restaurants, and facilities. Often seen on banners and advertisements.\n\nCOMPOUNDS:\n- ⟦グランド→グランド：00075_gurando⟧オープン: grand opening\n- プレオープン: pre-opening, soft opening\n- リニューアルオープン: reopening after renovation\n- ⟦{新規|しんき}→新規：06289_shinki⟧オープン: newly opened\n\nSENSE 2 — OPEN/TRANSPARENT:\nFunctions as a na-adjective (オープンな) and adverb (オープン⟦に→に：00314_ni⟧).\n- オープン⟦キャンパス→キャンパス：10822_kyanpasu⟧: open campus (university open day)\n- オープンカー: convertible car\n- オープンスペース: open space",
   "cross_references": [
     {
       "type": "synonym",
@@ -181,7 +181,7 @@
   ],
   "metadata": {
     "created": "2026-02-10T08:34:26Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -195,7 +195,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

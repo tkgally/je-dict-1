@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25304_juuzoku_ex1",
-      "japanese": "その{国|くに}は{大国|たいこく}に{従属|じゅうぞく}していた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{大国|たいこく}→大国：12218_taikoku⟧⟦に→に：00314_ni⟧{従属|じゅうぞく}⟦していた→する：00392_suru⟧。",
       "english": "That country was subordinate to the major power.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25304_juuzoku_ex2",
-      "japanese": "{従属|じゅうぞく}{関係|かんけい}から{脱|だっ}するのは{容易|ようい}ではない。",
+      "japanese": "{従属|じゅうぞく}⟦{関係|かんけい}→関係：01298_kankei⟧⟦から→から：00504_kara⟧⟦{脱|だっ}する→脱する：28650_dassuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{容易|ようい}→容易：12316_youi⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "It is not easy to break free from a subordinate relationship.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25304_juuzoku_ex3",
-      "japanese": "{経済的|けいざいてき}に{他国|たこく}に{従属|じゅうぞく}する{状態|じょうたい}は{国|くに}の{発展|はってん}を{妨|さまた}げる。",
+      "japanese": "⟦{経済的|けいざいてき}→経済的：05675_keizaiteki⟧⟦に→に：00314_ni⟧⟦{他国|たこく}→他国：28893_takoku⟧⟦に→に：00314_ni⟧{従属|じゅうぞく}⟦する→する：00392_suru⟧⟦{状態|じょうたい}→状態：03345_joutai⟧⟦は→は：00079_ha⟧⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦を→を：00422_wo⟧⟦{妨|さまた}げる→妨げる：12223_samatageru⟧。",
       "english": "Being economically subordinate to another country hinders national development.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes a state of being under the control or authority of another. Composed of {従|じゅう} (follow, obey) and {属|ぞく} (belong to). Used in political, economic, social, and grammatical contexts.\n\nCOMMON COLLOCATIONS:\n- {従属|じゅうぞく}{関係|かんけい}: subordinate relationship\n- {従属|じゅうぞく}{的|てき}: dependent, subordinate (adjective)\n- AにBが{従属|じゅうぞく}する: B is subordinate to A\n- {従属|じゅうぞく}{節|せつ}: subordinate clause (grammar)\n\nSIMILAR WORDS:\n- {依存|いぞん}: dependence — emphasizes reliance rather than power hierarchy\n- {服従|ふくじゅう}: obedience, submission — stronger, implies actively obeying\n- {隷属|れいぞく}: subjugation — implies being enslaved or in servitude",
+  "notes": "Describes a state of being under the control or authority of another. Composed of {従|じゅう} (follow, obey) and {属|ぞく} (belong to). Used in political, economic, social, and grammatical contexts.\n\nCOMMON COLLOCATIONS:\n- {従属|じゅうぞく}⟦{関係|かんけい}→関係：01298_kankei⟧: subordinate relationship\n- {従属|じゅうぞく}{的|てき}: dependent, subordinate (adjective)\n- A⟦に→に：00314_ni⟧B⟦が→が：00051_ga⟧{従属|じゅうぞく}⟦する→する：00392_suru⟧: B is subordinate to A\n- {従属|じゅうぞく}{節|せつ}: subordinate clause (grammar)\n\nSIMILAR WORDS:\n- ⟦{依存|いぞん}→依存：11441_izon⟧: dependence — emphasizes reliance rather than power hierarchy\n- ⟦{服従|ふくじゅう}→服従：15351_fukujuu⟧: obedience, submission — stronger, implies actively obeying\n- ⟦{隷属|れいぞく}→隷属：20868_reizoku⟧: subjugation — implies being enslaved or in servitude",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,10 +88,11 @@
       "semantic": [
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T14:20:43Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09107_nenne_ex1",
-      "japanese": "ねんねしようね。",
+      "japanese": "ねんね⟦しよう→する：00392_suru⟧⟦ね→ね：09474_ne⟧。",
       "english": "Let's go to sleep.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09107_nenne_ex2",
-      "japanese": "{赤|あか}ちゃんがねんねした。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧ねんね⟦した→する：00392_suru⟧。",
       "english": "The baby fell asleep.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09107_nenne_ex3",
-      "japanese": "ねんねの{時間|じかん}だよ。",
+      "japanese": "ねんね⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧だ⟦よ→よ：09475_yo⟧。",
       "english": "It's bedtime.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION: From {寝|ね}る (to sleep) with reduplication for baby talk.\n\nUSAGE: Functions as a noun and as a する verb (ねんねする = to sleep).\n\nCOMMON EXPRESSIONS:\n- ねんねする (to sleep - baby talk)\n- ねんねの{時間|じかん} (bedtime)\n- ねんねころり (lullaby phrase, similar to 'rock-a-bye')\n\nRELATED WORDS:\n- {子守|こもり}{歌|うた} (lullaby)\n- おやすみ (good night)\n\nRELATED BABY TALK WORDS:\n- おてて (hands)\n- おめめ (eyes)\n- あんよ (feet/walking)\n- まんま (food)",
+  "notes": "WORD FORMATION: From ⟦{寝|ね}る→寝る：00470_neru⟧ (to sleep) with reduplication for baby talk.\n\nUSAGE: Functions as a noun and as a ⟦する→する：00392_suru⟧ verb (ねんね⟦する→する：00392_suru⟧ = to sleep).\n\nCOMMON EXPRESSIONS:\n- ねんね⟦する→する：00392_suru⟧ (to sleep - baby talk)\n- ねんね⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧ (bedtime)\n- ねんねころり (lullaby phrase, similar to 'rock-a-bye')\n\nRELATED WORDS:\n- ⟦{子守|こもり}{歌|うた}→子守歌：19434_komoriuta⟧ (lullaby)\n- ⟦おやすみ→おやすみ：05206_oyasumi⟧ (good night)\n\nRELATED BABY TALK WORDS:\n- ⟦おてて→おてて：09104_otete⟧ (hands)\n- ⟦おめめ→おめめ：09105_omeme⟧ (eyes)\n- ⟦あんよ→あんよ：09106_anyo⟧ (feet/walking)\n- ⟦まんま→まんま：09108_manma⟧ (food)",
   "cross_references": [
     {
       "type": "related",
@@ -180,7 +180,7 @@
   ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -197,7 +197,8 @@
       "style": [
         "spoken"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

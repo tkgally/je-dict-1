@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17200_banareru_ex1",
-      "japanese": "あの{人|ひと}は{場馴|ばな}れしている。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧{場馴|ばな}れ⟦している→する：00392_suru⟧。",
       "english": "That person is used to these kinds of situations.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17200_banareru_ex2",
-      "japanese": "{何度|なんど}も{発表|はっぴょう}をして、すっかり{場馴|ばな}れした。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧、⟦すっかり→すっかり：01270_sukkari⟧{場馴|ばな}れ⟦した→する：00392_suru⟧。",
       "english": "After giving presentations many times, I've gotten completely used to it.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17200_banareru_ex3",
-      "japanese": "まだ{新人|しんじん}なのに、{場馴|ばな}れした{態度|たいど}で{堂々|どうどう}とスピーチをした。",
+      "japanese": "⟦まだ→まだ：00603_mada⟧⟦{新人|しんじん}→新人：02500_shinjin⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、{場馴|ばな}れ⟦した→する：00392_suru⟧⟦{態度|たいど}→態度：03396_taido⟧⟦で→で：00502_de⟧⟦{堂々|どうどう}→堂々：05895_doudou⟧⟦と→と：00512_to⟧⟦スピーチ→スピーチ：03852_supiichi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "Despite being a newcomer, she gave the speech confidently with a relaxed manner.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in the form {場馴|ばな}れした (adjective form) or {場馴|ばな}れしている (stative form) to describe someone who appears calm and experienced. Can also be written as {場慣|ばな}れ.\n\nCOMMON COLLOCATIONS:\n- {場馴|ばな}れした{態度|たいど} (an experienced, composed manner)\n- {場馴|ばな}れした{様子|ようす} (an at-ease appearance)\n- すっかり{場馴|ばな}れする (to become completely at ease)\n\nSIMILAR WORDS:\n- {慣|な}れる: to get used to — general term for becoming accustomed to anything\n- {堂々|どうどう}とする: to be composed — describes confident behavior without implying experience",
+  "notes": "USAGE:\nOften used in the form {場馴|ばな}れ⟦した→する：00392_suru⟧ (adjective form) or {場馴|ばな}れ⟦している→する：00392_suru⟧ (stative form) to describe someone who appears calm and experienced. Can also be written as {場慣|ばな}れ.\n\nCOMMON COLLOCATIONS:\n- {場馴|ばな}れ⟦した→する：00392_suru⟧⟦{態度|たいど}→態度：03396_taido⟧ (an experienced, composed manner)\n- {場馴|ばな}れ⟦した→する：00392_suru⟧⟦{様子|ようす}→様子：01521_yousu⟧ (an at-ease appearance)\n- ⟦すっかり→すっかり：01270_sukkari⟧{場馴|ばな}れ⟦する→する：00392_suru⟧ (to become completely at ease)\n\nSIMILAR WORDS:\n- ⟦{慣|な}れる→慣れる：00870_nareru⟧: to get used to — general term for becoming accustomed to anything\n- ⟦{堂々|どうどう}→堂々：05895_doudou⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to be composed — describes confident behavior without implying experience",
   "cross_references": [
     {
       "type": "related",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
         "action",
         "emotion"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     }
   }
 }

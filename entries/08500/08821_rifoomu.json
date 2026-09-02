@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "08821_rifoomu_ex1",
-      "japanese": "{台所|だいどころ}をリフォームした。",
+      "japanese": "⟦{台所|だいどころ}→台所：01021_daidokoro⟧⟦を→を：00422_wo⟧リフォーム⟦した→する：00392_suru⟧。",
       "english": "I renovated the kitchen.",
       "sense_numbers": [
         1
@@ -119,7 +119,7 @@
     },
     {
       "id": "08821_rifoomu_ex2",
-      "japanese": "リフォーム{費用|ひよう}はいくらかかりますか。",
+      "japanese": "リフォーム⟦{費用|ひよう}→費用：03588_hiyou⟧⟦は→は：00079_ha⟧いくら⟦かかります→かかる：00711_kakaru⟧⟦か→か：09473_ka⟧。",
       "english": "How much does the renovation cost?",
       "sense_numbers": [
         1
@@ -129,7 +129,7 @@
     },
     {
       "id": "08821_rifoomu_ex3",
-      "japanese": "{古|ふる}い{家|いえ}をリフォームして{住|す}んでいる。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧リフォーム⟦して→する：00392_suru⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I'm living in an old house that I renovated.",
       "sense_numbers": [
         1
@@ -139,7 +139,7 @@
     },
     {
       "id": "08821_rifoomu_ex4",
-      "japanese": "スーツをリフォームに{出|だ}す。",
+      "japanese": "⟦スーツ→スーツ：01367_suutsu⟧⟦を→を：00422_wo⟧リフォーム⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "To take a suit in for alterations.",
       "sense_numbers": [
         2
@@ -149,7 +149,7 @@
     },
     {
       "id": "08821_rifoomu_ex5",
-      "japanese": "{丈|たけ}を{詰|つ}めるリフォームをお{願|ねが}いした。",
+      "japanese": "⟦{丈|たけ}→丈：29841_take⟧⟦を→を：00422_wo⟧⟦{詰|つ}める→詰める：02078_tsumeru⟧リフォーム⟦を→を：00422_wo⟧⟦お{願|ねが}いした→お願いする：05654_onegaisuru⟧。",
       "english": "I asked for an alteration to shorten the length.",
       "sense_numbers": [
         2
@@ -159,7 +159,7 @@
     },
     {
       "id": "08821_rifoomu_ex6",
-      "japanese": "リフォーム{店|てん}でズボンの{裾上|すそあ}げをした。",
+      "japanese": "リフォーム⟦{店|てん}→店：10011_ten⟧⟦で→で：00502_de⟧⟦ズボン→ズボン：01072_zubon⟧⟦の→の：09472_no⟧{裾上|すそあ}げ⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I had my pants hemmed at the alteration shop.",
       "sense_numbers": [
         2
@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "WASEI-EIGO:\nリフォーム is Japanese-made English. In standard English, 'reform' doesn't typically mean renovation. The English equivalents would be 'renovation' or 'remodeling.'\n\nHOME RENOVATION:\n- リフォーム{業者|ぎょうしゃ} - renovation contractor\n- リフォーム{費用|ひよう} - renovation costs\n- {水回|みずまわ}りのリフォーム - plumbing area renovation\n- {内装|ないそう}リフォーム - interior renovation\n- {外壁|がいへき}リフォーム - exterior renovation\n\nCLOTHING ALTERATION:\n- リフォーム{店|てん} - alteration shop\n- {裾上|すそあ}げ - hemming\n- {丈詰|たけつ}め - shortening\n\nRELATED WORDS:\n- リノベーション - renovation (larger scale, often structural)",
+  "notes": "WASEI-EIGO:\nリフォーム is Japanese-made English. In standard English, 'reform' doesn't typically mean renovation. The English equivalents would be 'renovation' or 'remodeling.'\n\nHOME RENOVATION:\n- リフォーム⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧ - renovation contractor\n- リフォーム⟦{費用|ひよう}→費用：03588_hiyou⟧ - renovation costs\n- ⟦{水回|みずまわ}り→水回り：08063_mizumawari⟧⟦の→の：09472_no⟧リフォーム - plumbing area renovation\n- ⟦{内装|ないそう}→内装：06425_naisou⟧リフォーム - interior renovation\n- ⟦{外壁|がいへき}→外壁：06426_gaiheki⟧リフォーム - exterior renovation\n\nCLOTHING ALTERATION:\n- リフォーム⟦{店|てん}→店：10011_ten⟧ - alteration shop\n- {裾上|すそあ}げ - hemming\n- {丈詰|たけつ}め - shortening\n\nRELATED WORDS:\n- ⟦リノベーション→リノベーション：11211_rinobeeshon⟧ - renovation (larger scale, often structural)",
   "cross_references": [
     {
       "type": "related",
@@ -219,9 +219,10 @@
         "building",
         "clothing"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-28T14:45:41Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18074_hakkyuu_ex1",
-      "japanese": "パスポートの{発給|はっきゅう}を{申請|しんせい}した。",
+      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦の→の：09472_no⟧{発給|はっきゅう}⟦を→を：00422_wo⟧⟦{申請|しんせい}した→申請する：25228_shinseisuru⟧。",
       "english": "I applied for the issuance of a passport.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18074_hakkyuu_ex2",
-      "japanese": "ビザの{発給|はっきゅう}には2{週間|しゅうかん}かかる。",
+      "japanese": "⟦ビザ→ビザ：08283_biza⟧⟦の→の：09472_no⟧{発給|はっきゅう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧2⟦{週間|しゅうかん}→週間：00988_shuukan⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Visa issuance takes two weeks.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18074_hakkyuu_ex3",
-      "japanese": "{大使館|たいしかん}が{査証|さしょう}を{発給|はっきゅう}する。",
+      "japanese": "⟦{大使館|たいしかん}→大使館：01457_taishikan⟧⟦が→が：00051_ga⟧⟦{査証|さしょう}→査証：18658_sashou⟧⟦を→を：00422_wo⟧{発給|はっきゅう}⟦する→する：00392_suru⟧。",
       "english": "The embassy issues the visa.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\n{発|はつ} (issue, emit) + {給|きゅう} (supply, provide). Literally \"issue and provide.\"\n\nUSAGE:\nA formal, official term used almost exclusively for government-issued documents. For more general \"issuing\" (like tickets or receipts), {発行|はっこう} is more appropriate.\n\nSIMILAR WORDS:\n- {発行|はっこう}: publication, issuance (broader use: books, tickets, cards)\n- {交付|こうふ}: delivery, granting (of official documents)\n\nCOMMON COLLOCATIONS:\n- パスポートの{発給|はっきゅう}: passport issuance\n- ビザの{発給|はっきゅう}: visa issuance\n- {発給|はっきゅう}を{申請|しんせい}する: to apply for issuance\n- {発給|はっきゅう}{手数料|てすうりょう}: issuance fee",
+  "notes": "FORMS:\n⟦{発|はつ}→〜発：04026_hatsu⟧ (issue, emit) + {給|きゅう} (supply, provide). Literally \"issue and provide.\"\n\nUSAGE:\nA formal, official term used almost exclusively for government-issued documents. For more general \"issuing\" (like tickets or receipts), ⟦{発行|はっこう}→発行：03693_hakkou⟧ is more appropriate.\n\nSIMILAR WORDS:\n- ⟦{発行|はっこう}→発行：03693_hakkou⟧: publication, issuance (broader use: books, tickets, cards)\n- ⟦{交付|こうふ}→交付：11425_koufu⟧: delivery, granting (of official documents)\n\nCOMMON COLLOCATIONS:\n- ⟦パスポート→パスポート：00341_pasupooto⟧⟦の→の：09472_no⟧{発給|はっきゅう}: passport issuance\n- ⟦ビザ→ビザ：08283_biza⟧⟦の→の：09472_no⟧{発給|はっきゅう}: visa issuance\n- {発給|はっきゅう}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to apply for issuance\n- {発給|はっきゅう}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: issuance fee",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-20T01:11:15Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -169,7 +169,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

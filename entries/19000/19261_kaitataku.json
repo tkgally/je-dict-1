@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19261_kaitataku_ex1",
-      "japanese": "{業者|ぎょうしゃ}に{買|か}い{叩|たた}かれた。",
+      "japanese": "⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦に→に：00314_ni⟧{買|か}い{叩|たた}かれた。",
       "english": "The dealer beat down my price.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19261_kaitataku_ex2",
-      "japanese": "{足元|あしもと}を{見|み}て{買|か}い{叩|たた}くのはよくない。",
+      "japanese": "⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧{買|か}い{叩|たた}く⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦よくない→いい：00118_ii⟧。",
       "english": "It's not right to lowball someone by exploiting their weakness.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19261_kaitataku_ex3",
-      "japanese": "{急|いそ}いで{売|う}りたい{人|ひと}の{不動産|ふどうさん}を{買|か}い{叩|たた}く{投資家|とうしか}もいる。",
+      "japanese": "⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{売|う}りたい→売る：00906_uru⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦を→を：00422_wo⟧{買|か}い{叩|たた}く⟦{投資家|とうしか}→投資家：16242_toushika⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "Some investors buy real estate at rock-bottom prices from people desperate to sell.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb combining {買|か}う (to buy) and {叩|たた}く (to strike/beat). The image is of \"beating\" the price down. Usually implies that the buyer is taking advantage of the seller's weak position.\n\nCOMMON COLLOCATIONS:\n- {安|やす}く{買|か}い{叩|たた}く: to buy at a bargain price\n- {足元|あしもと}を{見|み}て{買|か}い{叩|たた}く: to lowball by exploiting someone's vulnerability\n- {買|か}い{叩|たた}かれる: to have one's price beaten down (passive)\n\nSIMILAR WORDS:\n- {値切|ねぎ}る: to haggle, to negotiate the price down — more neutral, normal part of commerce\n- {安|やす}く{買|か}う: to buy cheaply — neutral, no negative nuance\n\nUSAGE:\nCarries a strongly negative connotation. Implies unfair exploitation of the seller's circumstances, not normal bargaining.",
+  "notes": "A compound verb combining ⟦{買|か}う→買う：00489_kau⟧ (to buy) and ⟦{叩|たた}く→叩く：02072_tataku⟧ (to strike/beat). The image is of \"beating\" the price down. Usually implies that the buyer is taking advantage of the seller's weak position.\n\nCOMMON COLLOCATIONS:\n- ⟦{安|やす}く→安い：00464_yasui⟧{買|か}い{叩|たた}く: to buy at a bargain price\n- ⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧{買|か}い{叩|たた}く: to lowball by exploiting someone's vulnerability\n- {買|か}い{叩|たた}かれる: to have one's price beaten down (passive)\n\nSIMILAR WORDS:\n- ⟦{値切|ねぎ}る→値切る：08360_negiru⟧: to haggle, to negotiate the price down — more neutral, normal part of commerce\n- ⟦{安|やす}く→安い：00464_yasui⟧⟦{買|か}う→買う：00489_kau⟧: to buy cheaply — neutral, no negative nuance\n\nUSAGE:\nCarries a strongly negative connotation. Implies unfair exploitation of the seller's circumstances, not normal bargaining.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -157,9 +157,10 @@
         "shopping",
         "money"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "transitive"
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

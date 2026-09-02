@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17357_hirumeshi_ex1",
-      "japanese": "{昼飯|ひるめし}にしよう。",
+      "japanese": "{昼飯|ひるめし}⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's have lunch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17357_hirumeshi_ex2",
-      "japanese": "{昼飯|ひるめし}は{何|なに}にする？",
+      "japanese": "{昼飯|ひるめし}⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧？",
       "english": "What are you having for lunch?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17357_hirumeshi_ex3",
-      "japanese": "{仕事|しごと}が{忙|いそが}しくて{昼飯|ひるめし}を{食|た}べ{損|そこ}ねた。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧⟦{忙|いそが}しくて→忙しい：00591_isogashii⟧{昼飯|ひるめし}⟦を→を：00422_wo⟧⟦{食|た}べ→食べる：00396_taberu⟧⟦{損|そこ}ねた→損ねる：12710_sokoneru⟧。",
       "english": "I was so busy with work that I missed lunch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "An informal, somewhat rough word for lunch. Has a masculine tone and sounds blunt. Not appropriate in polite or formal situations.\n\nETYMOLOGY:\nComposed of {昼|ひる} (midday) + {飯|めし} (meal, informal).\n\nSIMILAR WORDS:\n- {昼|ひる}ご{飯|はん}: lunch — standard, neutral\n- {昼食|ちゅうしょく}: lunch — formal, written\n- ランチ: lunch — casual, modern\n\nSAME REGISTER:\n- {朝飯|あさめし}: breakfast (informal)\n- {晩飯|ばんめし}: dinner (informal)\n\nCOMMON PATTERNS:\n- {昼飯|ひるめし}にする: to have lunch\n- {昼飯|ひるめし}を{食|く}う: to eat lunch (very casual, uses {食|く}う instead of {食|た}べる)",
+  "notes": "An informal, somewhat rough word for lunch. Has a masculine tone and sounds blunt. Not appropriate in polite or formal situations.\n\nETYMOLOGY:\nComposed of ⟦{昼|ひる}→昼：00540_hiru⟧ (midday) + ⟦{飯|めし}→飯：03805_meshi⟧ (meal, informal).\n\nSIMILAR WORDS:\n- ⟦{昼|ひる}ご{飯|はん}→昼ご飯：02950_hirugohan⟧: lunch — standard, neutral\n- ⟦{昼食|ちゅうしょく}→昼食：01616_chuushoku⟧: lunch — formal, written\n- ⟦ランチ→ランチ：11196_ranchi⟧: lunch — casual, modern\n\nSAME REGISTER:\n- ⟦{朝飯|あさめし}→朝飯：17356_asameshi⟧: breakfast (informal)\n- ⟦{晩飯|ばんめし}→晩飯：19760_banmeshi⟧: dinner (informal)\n\nCOMMON PATTERNS:\n- {昼飯|ひるめし}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to have lunch\n- {昼飯|ひるめし}⟦を→を：00422_wo⟧⟦{食|く}う→食う：02657_kuu⟧: to eat lunch (very casual, uses ⟦{食|く}う→食う：02657_kuu⟧ instead of ⟦{食|た}べる→食べる：00396_taberu⟧)",
   "prominent_see_also": [
     {
       "target_id": "02950_hirugohan",
@@ -79,14 +85,18 @@
   ],
   "metadata": {
     "created": "2026-03-17T08:18:18Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

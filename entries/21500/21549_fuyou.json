@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21549_fuyou_ex1",
-      "japanese": "{子供|こども}を{扶養|ふよう}する。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{扶養|ふよう}⟦する→する：00392_suru⟧。",
       "english": "To support one's children.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21549_fuyou_ex2",
-      "japanese": "{扶養|ふよう}{家族|かぞく}は{何人|なんにん}いますか。",
+      "japanese": "{扶養|ふよう}{家族|かぞく}⟦は→は：00079_ha⟧⟦{何人|なんにん}→何人：17593_nannin⟧⟦います→いる：00495_iru⟧⟦か→か：09473_ka⟧。",
       "english": "How many dependents do you have?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21549_fuyou_ex3",
-      "japanese": "{妻|つま}は{夫|おっと}の{扶養|ふよう}に{入|はい}っているので、{健康|けんこう}{保険料|ほけんりょう}を{払|はら}わなくてよい。",
+      "japanese": "⟦{妻|つま}→妻：01005_tsuma⟧⟦は→は：00079_ha⟧⟦{夫|おっと}→夫：00982_otto⟧⟦の→の：09472_no⟧{扶養|ふよう}⟦に→に：00314_ni⟧⟦{入|はい}っている→入る：00494_hairu⟧⟦の→の：09472_no⟧で、⟦{健康|けんこう}→健康：02706_kenkou⟧⟦{保険料|ほけんりょう}→保険料：11058_hokenryou⟧⟦を→を：00422_wo⟧⟦{払|はら}わなくて→払う：00535_harau⟧よい。",
       "english": "Since the wife is registered as a dependent of her husband, she doesn't have to pay health insurance premiums.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {扶|ふ} (help, assist) and {養|よう} (nurture, support). A key term in Japanese tax and social insurance systems.\n\nCOMMON COLLOCATIONS:\n- {扶養|ふよう}{家族|かぞく}: dependents, family members being supported\n- {扶養|ふよう}{控除|こうじょ}: dependent deduction (tax term)\n- {扶養|ふよう}に{入|はい}る: to be registered as a dependent\n- {扶養|ふよう}{手当|てあて}: dependent allowance\n- {扶養|ふよう}{義務|ぎむ}: obligation to support\n\nSIMILAR WORDS:\n- {養育|よういく}: raising, rearing — focuses on bringing up children\n- {扶養|ふよう}: support — financial maintenance of dependents, administrative/legal term\n- {不要|ふよう}: unnecessary — homophone, completely different meaning\n\nCULTURAL NOTE:\nIn Japan, the {扶養|ふよう} system is an important part of the tax and social insurance framework. A spouse earning below a certain income threshold (the so-called \"income wall\") can be registered as a dependent, receiving health insurance coverage and a tax deduction for the supporting household member.",
+  "notes": "Composed of {扶|ふ} (help, assist) and {養|よう} (nurture, support). A key term in Japanese tax and social insurance systems.\n\nCOMMON COLLOCATIONS:\n- {扶養|ふよう}{家族|かぞく}: dependents, family members being supported\n- {扶養|ふよう}{控除|こうじょ}: dependent deduction (tax term)\n- {扶養|ふよう}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to be registered as a dependent\n- {扶養|ふよう}{手当|てあて}: dependent allowance\n- {扶養|ふよう}{義務|ぎむ}: obligation to support\n\nSIMILAR WORDS:\n- ⟦{養育|よういく}→養育：16340_youiku⟧: raising, rearing — focuses on bringing up children\n- {扶養|ふよう}: support — financial maintenance of dependents, administrative/legal term\n- ⟦{不要|ふよう}→不要：02527_fuyou⟧: unnecessary — homophone, completely different meaning\n\nCULTURAL NOTE:\nIn Japan, the {扶養|ふよう} system is an important part of the tax and social insurance framework. A spouse earning below a certain income threshold (the so-called \"income wall\") can be registered as a dependent, receiving health insurance coverage and a tax deduction for the supporting household member.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -90,10 +90,11 @@
         "finance",
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T16:13:57Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

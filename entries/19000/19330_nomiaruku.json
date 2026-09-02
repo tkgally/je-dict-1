@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19330_nomiaruku_ex1",
-      "japanese": "{週末|しゅうまつ}は{友達|ともだち}と{飲|の}み{歩|ある}いた。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧{飲|の}み{歩|ある}いた。",
       "english": "I went bar-hopping with friends on the weekend.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19330_nomiaruku_ex2",
-      "japanese": "{新宿|しんじゅく}の{居酒屋|いざかや}を{飲|の}み{歩|ある}くのが{好|す}きだ。",
+      "japanese": "⟦{新宿|しんじゅく}→新宿：30634_shinjuku⟧⟦の→の：09472_no⟧⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧⟦を→を：00422_wo⟧{飲|の}み{歩|ある}く⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like going around to different izakaya in Shinjuku.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19330_nomiaruku_ex3",
-      "japanese": "{出張先|しゅっちょうさき}で{地元|じもと}の{人|ひと}に{案内|あんない}してもらい、{夜|よる}の{街|まち}を{飲|の}み{歩|ある}いた。",
+      "japanese": "⟦{出張先|しゅっちょうさき}→出張先：27265_shucchousaki⟧⟦で→で：00502_de⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{案内|あんない}して→案内する：20203_annaisuru⟧⟦もらい→もらう：00520_morau⟧、⟦{夜|よる}→夜：00487_yoru⟧⟦の→の：09472_no⟧⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧{飲|の}み{歩|ある}いた。",
       "english": "A local showed me around on my business trip, and we went drinking from place to place in the nightlife district.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb: {飲|の}む (to drink) + {歩|ある}く (to walk around). The ～{歩|ある}く pattern means 'to go around doing something' and appears in other compounds like {食|た}べ{歩|ある}く (to eat at various places) and {探|さが}し{歩|ある}く (to search around).\n\nCOMMON COLLOCATIONS:\n- {街|まち}を{飲|の}み{歩|ある}く — to go drinking around town\n- {居酒屋|いざかや}を{飲|の}み{歩|ある}く — to bar-hop at izakaya\n- {飲|の}み{歩|ある}きツアー — a drinking tour, pub crawl\n\nSIMILAR WORDS:\n- はしご{酒|ざけ} — bar-hopping (noun; literally 'ladder drinking')\n- {食|た}べ{歩|ある}く — to eat at various places (same ～{歩|ある}く pattern with food)\n\nCULTURAL NOTE:\nBar-hopping is a popular social activity in Japan, especially in entertainment districts like {新宿|しんじゅく}, {渋谷|しぶや}, and {中洲|なかす}. The typical pattern is to visit 2-3 small establishments in an evening.",
+  "notes": "A compound verb: ⟦{飲|の}む→飲む：00322_nomu⟧ (to drink) + ⟦{歩|ある}く→歩く：00538_aruku⟧ (to walk around). The ～⟦{歩|ある}く→歩く：00538_aruku⟧ pattern means 'to go around doing something' and appears in other compounds like ⟦{食|た}べ{歩|ある}く→食べ歩く：20274_tabearuku⟧ (to eat at various places) and {探|さが}し{歩|ある}く (to search around).\n\nCOMMON COLLOCATIONS:\n- ⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧{飲|の}み{歩|ある}く — to go drinking around town\n- ⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧⟦を→を：00422_wo⟧{飲|の}み{歩|ある}く — to bar-hop at izakaya\n- {飲|の}み{歩|ある}き⟦ツアー→ツアー：08285_tsuaa⟧ — a drinking tour, pub crawl\n\nSIMILAR WORDS:\n- はしご{酒|ざけ} — bar-hopping (noun; literally 'ladder drinking')\n- ⟦{食|た}べ{歩|ある}く→食べ歩く：20274_tabearuku⟧ — to eat at various places (same ～⟦{歩|ある}く→歩く：00538_aruku⟧ pattern with food)\n\nCULTURAL NOTE:\nBar-hopping is a popular social activity in Japan, especially in entertainment districts like ⟦{新宿|しんじゅく}→新宿：30634_shinjuku⟧, ⟦{渋谷|しぶや}→渋谷：30632_shibuya⟧, and {中洲|なかす}. The typical pattern is to visit 2-3 small establishments in an evening.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -164,9 +164,10 @@
         "food-drink",
         "leisure"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-25T08:39:42Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

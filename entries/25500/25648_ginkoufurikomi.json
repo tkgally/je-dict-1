@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25648_ginkoufurikomi_ex1",
-      "japanese": "{銀行|ぎんこう}{振込|ふりこみ}でお{願|ねが}いします。",
+      "japanese": "{銀行|ぎんこう}{振込|ふりこみ}⟦で→で：00502_de⟧お{願|ねが}いします。",
       "english": "By bank transfer, please.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25648_ginkoufurikomi_ex2",
-      "japanese": "{家賃|やちん}は{毎月|まいつき}{銀行|ぎんこう}{振込|ふりこみ}で{支払|しはら}っている。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦は→は：00079_ha⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧{銀行|ぎんこう}{振込|ふりこみ}⟦で→で：00502_de⟧⟦{支払|しはら}っている→支払う：02116_shiharau⟧。",
       "english": "I pay the rent by bank transfer every month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25648_ginkoufurikomi_ex3",
-      "japanese": "{銀行|ぎんこう}{振込|ふりこみ}の{手数料|てすうりょう}は{振込先|ふりこみさき}によって{異|こと}なります。",
+      "japanese": "{銀行|ぎんこう}{振込|ふりこみ}⟦の→の：09472_no⟧⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧⟦は→は：00079_ha⟧⟦{振込先|ふりこみさき}→振込先：23203_furikomisaki⟧⟦によって→によって：06801_niyotte⟧⟦{異|こと}なります→異なる：02101_kotonaru⟧。",
       "english": "Bank transfer fees vary depending on the destination account.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {銀行|ぎんこう} (bank) and {振込|ふりこみ} (transfer/deposit). Bank transfers remain one of the most common payment methods in Japan for rent, utility bills, online purchases, and business transactions.\n\nCOMMON COLLOCATIONS:\n- {銀行|ぎんこう}{振込|ふりこみ}で{支払|しはら}う: to pay by bank transfer\n- {銀行|ぎんこう}{振込|ふりこみ}の{手数料|てすうりょう}: bank transfer fee\n- {銀行|ぎんこう}{振込|ふりこみ}の{確認|かくにん}: confirmation of bank transfer\n- {銀行|ぎんこう}{振込|ふりこみ}{明細|めいさい}: bank transfer statement\n\nRELATED WORDS:\n- {振込|ふりこみ}: transfer/deposit (the general term)\n- {口座|こうざ}{振替|ふりかえ}: direct debit, automatic account transfer\n- {送金|そうきん}: remittance, sending money (broader term that includes international transfers)",
+  "notes": "A compound of ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧ (bank) and ⟦{振込|ふりこみ}→振込：05421_furikomi⟧ (transfer/deposit). Bank transfers remain one of the most common payment methods in Japan for rent, utility bills, online purchases, and business transactions.\n\nCOMMON COLLOCATIONS:\n- {銀行|ぎんこう}{振込|ふりこみ}⟦で→で：00502_de⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧: to pay by bank transfer\n- {銀行|ぎんこう}{振込|ふりこみ}⟦の→の：09472_no⟧⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: bank transfer fee\n- {銀行|ぎんこう}{振込|ふりこみ}⟦の→の：09472_no⟧⟦{確認|かくにん}→確認：00158_kakunin⟧: confirmation of bank transfer\n- {銀行|ぎんこう}{振込|ふりこみ}⟦{明細|めいさい}→明細：06448_meisai⟧: bank transfer statement\n\nRELATED WORDS:\n- ⟦{振込|ふりこみ}→振込：05421_furikomi⟧: transfer/deposit (the general term)\n- ⟦{口座|こうざ}{振替|ふりかえ}→口座振替：19853_kouzafurikae⟧: direct debit, automatic account transfer\n- ⟦{送金|そうきん}→送金：09774_soukin⟧: remittance, sending money (broader term that includes international transfers)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -78,6 +78,6 @@
       ]
     },
     "created": "2026-04-26T14:24:57Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

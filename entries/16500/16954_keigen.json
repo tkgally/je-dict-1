@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16954_keigen_ex1",
-      "japanese": "{負担|ふたん}を{軽減|けいげん}する。",
+      "japanese": "⟦{負担|ふたん}→負担：09752_futan⟧⟦を→を：00422_wo⟧{軽減|けいげん}⟦する→する：00392_suru⟧。",
       "english": "To reduce the burden.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16954_keigen_ex2",
-      "japanese": "{軽減|けいげん}{税率|ぜいりつ}が{食品|しょくひん}に{適用|てきよう}される。",
+      "japanese": "{軽減|けいげん}⟦{税率|ぜいりつ}→税率：28616_zeiritsu⟧⟦が→が：00051_ga⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦に→に：00314_ni⟧⟦{適用|てきよう}される→適用する：21739_tekiyousuru⟧。",
       "english": "The reduced tax rate is applied to food products.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16954_keigen_ex3",
-      "japanese": "この{薬|くすり}は{痛|いた}みを{軽減|けいげん}する{効果|こうか}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧⟦{痛|いた}み→痛み：01795_itami⟧⟦を→を：00422_wo⟧{軽減|けいげん}⟦する→する：00392_suru⟧⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This medicine has the effect of alleviating pain.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word commonly used in business, government, and medical contexts. The {軽減|けいげん}{税率|ぜいりつ} (reduced tax rate) became a major topic in Japan when the consumption tax was raised to 10% in 2019, with certain items like food kept at 8%.\n\nCOMMON COLLOCATIONS:\n- {負担|ふたん}{軽減|けいげん} (burden reduction)\n- {軽減|けいげん}{税率|ぜいりつ} (reduced tax rate)\n- {痛|いた}みの{軽減|けいげん} (pain alleviation)\n- {軽減|けいげん}{措置|そち} (relief measures)\n\nSIMILAR WORDS:\n- {削減|さくげん}: reduction — focuses on cutting back amounts or costs\n- {緩和|かんわ}: easing, relaxation — used for regulations, tensions, or symptoms",
+  "notes": "USAGE:\nA formal word commonly used in business, government, and medical contexts. The {軽減|けいげん}⟦{税率|ぜいりつ}→税率：28616_zeiritsu⟧ (reduced tax rate) became a major topic in Japan when the consumption tax was raised to 10% in 2019, with certain items like food kept at 8%.\n\nCOMMON COLLOCATIONS:\n- ⟦{負担|ふたん}→負担：09752_futan⟧{軽減|けいげん} (burden reduction)\n- {軽減|けいげん}⟦{税率|ぜいりつ}→税率：28616_zeiritsu⟧ (reduced tax rate)\n- ⟦{痛|いた}み→痛み：01795_itami⟧⟦の→の：09472_no⟧{軽減|けいげん} (pain alleviation)\n- {軽減|けいげん}⟦{措置|そち}→措置：05519_sochi⟧ (relief measures)\n\nSIMILAR WORDS:\n- ⟦{削減|さくげん}→削減：11789_sakugen⟧: reduction — focuses on cutting back amounts or costs\n- ⟦{緩和|かんわ}→緩和：13846_kanwa⟧: easing, relaxation — used for regulations, tensions, or symptoms",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-15T04:30:04Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

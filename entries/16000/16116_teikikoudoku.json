@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16116_teikikoudoku_ex1",
-      "japanese": "この{雑誌|ざっし}を{定期購読|ていきこうどく}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦を→を：00422_wo⟧{定期購読|ていきこうどく}⟦している→する：00392_suru⟧。",
       "english": "I have a subscription to this magazine.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16116_teikikoudoku_ex2",
-      "japanese": "{定期購読|ていきこうどく}すると{割引|わりびき}がある。",
+      "japanese": "{定期購読|ていきこうどく}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{割引|わりびき}→割引：01526_waribiki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a discount if you subscribe regularly.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16116_teikikoudoku_ex3",
-      "japanese": "{新聞|しんぶん}の{定期購読|ていきこうどく}を{解約|かいやく}して、オンラインに{切|き}り{替|か}えた。",
+      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦の→の：09472_no⟧{定期購読|ていきこうどく}⟦を→を：00422_wo⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦して→する：00392_suru⟧、⟦オンライン→オンライン：05278_onrain⟧⟦に→に：00314_ni⟧⟦{切|き}り{替|か}えた→切り替える：04239_kirikaeru⟧。",
       "english": "I canceled my newspaper subscription and switched to online.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{定期購読|ていきこうどく} means subscribing to receive a publication on a regular basis. Composed of {定期|ていき} (regular, periodic) + {購読|こうどく} (subscription/reading).\n\nCOMMON COLLOCATIONS:\n- {定期購読|ていきこうどく}する: to subscribe\n- {定期購読|ていきこうどく}を{申|もう}し{込|こ}む: to apply for a subscription\n- {定期購読|ていきこうどく}を{解約|かいやく}する: to cancel a subscription\n- {定期購読|ていきこうどく}{者|しゃ}: subscriber\n\nUSAGE:\nTraditionally used for newspapers ({新聞|しんぶん}) and magazines ({雑誌|ざっし}). Now also used for digital subscriptions to newsletters, online publications, and streaming services, though サブスク (from \"subscription\") is becoming more common for digital services.\n\nSIMILAR WORDS:\n- {購読|こうどく}: subscription (the act of subscribing to read, without emphasizing regularity)\n- サブスク / サブスクリプション: subscription (loanword, often for digital services like streaming)",
+  "notes": "{定期購読|ていきこうどく} means subscribing to receive a publication on a regular basis. Composed of ⟦{定期|ていき}→定期：03538_teiki⟧ (regular, periodic) + ⟦{購読|こうどく}→購読：04468_koudoku⟧ (subscription/reading).\n\nCOMMON COLLOCATIONS:\n- {定期購読|ていきこうどく}⟦する→する：00392_suru⟧: to subscribe\n- {定期購読|ていきこうどく}⟦を→を：00422_wo⟧⟦{申|もう}し{込|こ}む→申し込む：02311_moushikomu⟧: to apply for a subscription\n- {定期購読|ていきこうどく}⟦を→を：00422_wo⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦する→する：00392_suru⟧: to cancel a subscription\n- {定期購読|ていきこうどく}{者|しゃ}: subscriber\n\nUSAGE:\nTraditionally used for newspapers (⟦{新聞|しんぶん}→新聞：01440_shinbun⟧) and magazines (⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧). Now also used for digital subscriptions to newsletters, online publications, and streaming services, though ⟦サブスク→サブスク：05396_sabusuku⟧ (from \"subscription\") is becoming more common for digital services.\n\nSIMILAR WORDS:\n- ⟦{購読|こうどく}→購読：04468_koudoku⟧: subscription (the act of subscribing to read, without emphasizing regularity)\n- ⟦サブスク→サブスク：05396_sabusuku⟧ / ⟦サブスクリプション→サブスクリプション：08617_sabusukuripushon⟧: subscription (loanword, often for digital services like streaming)",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-10T00:11:35Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:43Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -172,7 +172,8 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17980_mitsudan_ex1",
-      "japanese": "{二人|ふたり}は{密談|みつだん}していた。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{密談|みつだん}⟦していた→する：00392_suru⟧。",
       "english": "The two of them were having a secret talk.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17980_mitsudan_ex2",
-      "japanese": "{会議室|かいぎしつ}で{何|なに}やら{密談|みつだん}が{行|おこな}われているようだ。",
+      "japanese": "⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧⟦で→で：00502_de⟧⟦{何|なに}→何：00498_nani⟧やら{密談|みつだん}⟦が→が：00051_ga⟧⟦{行|おこな}われている→行う：01238_okonau⟧ようだ。",
       "english": "It seems some kind of secret discussion is going on in the meeting room.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17980_mitsudan_ex3",
-      "japanese": "{政治家|せいじか}たちが{料亭|りょうてい}で{密談|みつだん}を{交|か}わしていたことが{報道|ほうどう}された。",
+      "japanese": "⟦{政治家|せいじか}→政治家：03084_seijika⟧たち⟦が→が：00051_ga⟧⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧⟦で→で：00502_de⟧{密談|みつだん}⟦を→を：00422_wo⟧⟦{交|か}わしていた→交わす：19373_kawasu⟧こと⟦が→が：00051_ga⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦された→する：00392_suru⟧。",
       "english": "It was reported that the politicians had been exchanging secret talks at a traditional restaurant.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften carries a slightly suspicious or clandestine nuance. Common in political, business, and dramatic contexts. In Japanese political culture, secret meetings at {料亭|りょうてい} (traditional restaurants) are a well-known trope.\n\nCOMMON COLLOCATIONS:\n- {密談|みつだん}を{交|か}わす (exchange secret talks)\n- {密談|みつだん}が{行|おこな}われる (secret discussions take place)\n- {密談|みつだん}する (have a secret talk)\n- ひそかに{密談|みつだん}する (secretly confer)\n\nSIMILAR WORDS:\n- {内緒話|ないしょばなし}: whispered secret — more casual and everyday, like sharing a personal secret\n- {密会|みっかい}: secret meeting — focuses on the meeting itself rather than the conversation, often implies a romantic affair\n- {相談|そうだん}: consultation — neutral term for discussing something; not secret",
+  "notes": "USAGE:\nOften carries a slightly suspicious or clandestine nuance. Common in political, business, and dramatic contexts. In Japanese political culture, secret meetings at ⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧ (traditional restaurants) are a well-known trope.\n\nCOMMON COLLOCATIONS:\n- {密談|みつだん}⟦を→を：00422_wo⟧⟦{交|か}わす→交わす：19373_kawasu⟧ (exchange secret talks)\n- {密談|みつだん}⟦が→が：00051_ga⟧⟦{行|おこな}われる→行う：01238_okonau⟧ (secret discussions take place)\n- {密談|みつだん}⟦する→する：00392_suru⟧ (have a secret talk)\n- ひそか⟦に→に：00314_ni⟧{密談|みつだん}⟦する→する：00392_suru⟧ (secretly confer)\n\nSIMILAR WORDS:\n- ⟦{内緒話|ないしょばなし}→内緒話：21425_naishobanashi⟧: whispered secret — more casual and everyday, like sharing a personal secret\n- ⟦{密会|みっかい}→密会：25485_mikkai⟧: secret meeting — focuses on the meeting itself rather than the conversation, often implies a romantic affair\n- ⟦{相談|そうだん}→相談：02089_soudan⟧: consultation — neutral term for discussing something; not secret",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-19T10:09:49Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

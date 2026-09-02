@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20520_dangai_ex1",
-      "japanese": "{大統領|だいとうりょう}の{弾劾|だんがい}{裁判|さいばん}が{始|はじ}まった。",
+      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦の→の：09472_no⟧{弾劾|だんがい}⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The impeachment trial of the president has begun.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20520_dangai_ex2",
-      "japanese": "{裁判官|さいばんかん}を{弾劾|だんがい}する{手続|てつづ}きが{進|すす}んでいる。",
+      "japanese": "⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧⟦を→を：00422_wo⟧{弾劾|だんがい}⟦する→する：00392_suru⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Proceedings to impeach the judge are underway.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20520_dangai_ex3",
-      "japanese": "{野党|やとう}は{大臣|だいじん}の{不正|ふせい}を{弾劾|だんがい}する{決議案|けつぎあん}を{提出|ていしゅつ}した。",
+      "japanese": "⟦{野党|やとう}→野党：02438_yatou⟧⟦は→は：00079_ha⟧⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦の→の：09472_no⟧⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧{弾劾|だんがい}⟦する→する：00392_suru⟧{決議案|けつぎあん}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}した→提出する：19644_teishutsusuru⟧。",
       "english": "The opposition party submitted a resolution to impeach the minister for corruption.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal legal and political term for impeachment or denunciation. Composed of {弾|だん} (impeach/accuse) + {劾|がい} (censure). Often used as a する verb: {弾劾|だんがい}する.\n\nCOMMON COLLOCATIONS:\n- {弾劾|だんがい}する: to impeach; to denounce\n- {弾劾|だんがい}{裁判|さいばん}: impeachment trial\n- {弾劾|だんがい}{裁判所|さいばんしょ}: impeachment court\n- {弾劾|だんがい}{決議|けつぎ}: impeachment resolution\n- {弾劾|だんがい}{訴追|そつい}: impeachment prosecution\n\nSIMILAR WORDS:\n- {告発|こくはつ}: accusation, indictment — formally reporting a crime to authorities\n- {糾弾|きゅうだん}: denunciation, censure — publicly condemning wrongdoing\n- {罷免|ひめん}: dismissal from office — removing someone from their position\n\nUSAGE:\nIn Japan, {弾劾|だんがい}{裁判所|さいばんしょ} (the Court of Impeachment) exists under the constitution to try judges accused of misconduct. The word gained broader public familiarity through international news coverage of presidential impeachment proceedings in other countries.",
+  "notes": "A formal legal and political term for impeachment or denunciation. Composed of {弾|だん} (impeach/accuse) + {劾|がい} (censure). Often used as a ⟦する→する：00392_suru⟧ verb: {弾劾|だんがい}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {弾劾|だんがい}⟦する→する：00392_suru⟧: to impeach; to denounce\n- {弾劾|だんがい}⟦{裁判|さいばん}→裁判：02773_saiban⟧: impeachment trial\n- {弾劾|だんがい}⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧: impeachment court\n- {弾劾|だんがい}⟦{決議|けつぎ}→決議：16467_ketsugi⟧: impeachment resolution\n- {弾劾|だんがい}{訴追|そつい}: impeachment prosecution\n\nSIMILAR WORDS:\n- ⟦{告発|こくはつ}→告発：07999_kokuhatsu⟧: accusation, indictment — formally reporting a crime to authorities\n- ⟦{糾弾|きゅうだん}→糾弾：07890_kyuudan⟧: denunciation, censure — publicly condemning wrongdoing\n- ⟦{罷免|ひめん}→罷免：29397_himen⟧: dismissal from office — removing someone from their position\n\nUSAGE:\nIn Japan, {弾劾|だんがい}⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧ (the Court of Impeachment) exists under the constitution to try judges accused of misconduct. The word gained broader public familiarity through international news coverage of presidential impeachment proceedings in other countries.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -82,10 +82,11 @@
         "law",
         "politics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-29T16:27:06Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

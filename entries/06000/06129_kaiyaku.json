@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06129_kaiyaku_ex1",
-      "japanese": "⟦{携帯|けいたい}{電話|でんわ}→携帯電話：04433_keitaidenwa⟧⟦の→の：09472_no⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{解約|かいやく}する。",
+      "japanese": "⟦{携帯|けいたい}{電話|でんわ}→携帯電話：04433_keitaidenwa⟧⟦の→の：09472_no⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{解約|かいやく}⟦する→する：00392_suru⟧。",
       "english": "To cancel a mobile phone contract.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する to form a verb.\n- {解約|かいやく}する: to cancel (a contract)\n- {解約|かいやく}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: cancellation procedure\n\nCOMMON COLLOCATIONS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{解約|かいやく}する: to cancel a contract\n- ⟦{定期|ていき}→定期：03538_teiki⟧⟦{購読|こうどく}→購読：04468_koudoku⟧⟦を→を：00422_wo⟧{解約|かいやく}する: to cancel a subscription\n- ⟦{保険|ほけん}→保険：01509_hoken⟧⟦を→を：00422_wo⟧{解約|かいやく}する: to cancel an insurance policy\n\nRELATED WORDS:\n- ⟦{解約金|かいやくきん}→解約金：29245_kaiyakukin⟧/⟦{違約金|いやくきん}→違約金：09819_iyakukin⟧: cancellation fee/penalty\n- {解約|かいやく}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: cancellation processing fee\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧{解約|かいやく}: early termination\n\nSIMILAR WORDS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧: contract (entering into)\n- ⟦{更新|こうしん}→更新：04765_koushin⟧: renewal",
+  "notes": "USAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧ to form a verb.\n- {解約|かいやく}⟦する→する：00392_suru⟧: to cancel (a contract)\n- {解約|かいやく}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: cancellation procedure\n\nCOMMON COLLOCATIONS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{解約|かいやく}⟦する→する：00392_suru⟧: to cancel a contract\n- ⟦{定期|ていき}→定期：03538_teiki⟧⟦{購読|こうどく}→購読：04468_koudoku⟧⟦を→を：00422_wo⟧{解約|かいやく}⟦する→する：00392_suru⟧: to cancel a subscription\n- ⟦{保険|ほけん}→保険：01509_hoken⟧⟦を→を：00422_wo⟧{解約|かいやく}⟦する→する：00392_suru⟧: to cancel an insurance policy\n\nRELATED WORDS:\n- ⟦{解約金|かいやくきん}→解約金：29245_kaiyakukin⟧/⟦{違約金|いやくきん}→違約金：09819_iyakukin⟧: cancellation fee/penalty\n- {解約|かいやく}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: cancellation processing fee\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧{解約|かいやく}: early termination\n\nSIMILAR WORDS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧: contract (entering into)\n- ⟦{更新|こうしん}→更新：04765_koushin⟧: renewal",
   "cross_references": [
     {
       "type": "antonym",
@@ -177,7 +177,7 @@
   ],
   "metadata": {
     "created": "2026-01-17T03:48:16Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -190,7 +190,8 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

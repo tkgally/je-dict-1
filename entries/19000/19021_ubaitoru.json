@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19021_ubaitoru_ex1",
-      "japanese": "ボールを{奪|うば}い{取|と}った。",
+      "japanese": "⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧{奪|うば}い{取|と}った。",
       "english": "I snatched the ball away.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "19021_ubaitoru_ex2",
-      "japanese": "{泥棒|どろぼう}がバッグを{奪|うば}い{取|と}って{逃|に}げた。",
+      "japanese": "⟦{泥棒|どろぼう}→泥棒：01688_dorobou⟧⟦が→が：00051_ga⟧⟦バッグ→バッグ：00008_baggu⟧⟦を→を：00422_wo⟧{奪|うば}い{取|と}って⟦{逃|に}げた→逃げる：01151_nigeru⟧。",
       "english": "The thief snatched the bag and ran away.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "19021_ubaitoru_ex3",
-      "japanese": "{選手|せんしゅ}は{最後|さいご}の{瞬間|しゅんかん}に{勝利|しょうり}を{奪|うば}い{取|と}った。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧⟦に→に：00314_ni⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦を→を：00422_wo⟧{奪|うば}い{取|と}った。",
       "english": "The player seized victory at the last moment.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound verb from {奪|うば}う (to rob, take) + {取|と}る (to take). The combination emphasizes the forceful, decisive nature of the action. Used both literally (physical snatching) and figuratively (seizing victory, power, etc.).\n\nCOMMON COLLOCATIONS:\n- {勝利|しょうり}を{奪|うば}い{取|と}る: to seize victory\n- {主導権|しゅどうけん}を{奪|うば}い{取|と}る: to wrest the initiative\n- {力|ちから}ずくで{奪|うば}い{取|と}る: to take by force",
+  "notes": "USAGE:\nA compound verb from ⟦{奪|うば}う→奪う：01895_ubau⟧ (to rob, take) + ⟦{取|と}る→取る：00565_toru⟧ (to take). The combination emphasizes the forceful, decisive nature of the action. Used both literally (physical snatching) and figuratively (seizing victory, power, etc.).\n\nCOMMON COLLOCATIONS:\n- ⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦を→を：00422_wo⟧{奪|うば}い{取|と}る: to seize victory\n- ⟦{主導権|しゅどうけん}→主導権：11451_shudouken⟧⟦を→を：00422_wo⟧{奪|うば}い{取|と}る: to wrest the initiative\n- ⟦{力|ちから}ずく→力ずく：29143_chikarazuku⟧⟦で→で：00502_de⟧{奪|うば}い{取|と}る: to take by force",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-24T01:01:02Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,7 +158,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     }
   }
 }

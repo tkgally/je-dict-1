@@ -15,41 +15,53 @@
   "examples": [
     {
       "id": "27591_okaerinasaimase_ex1",
-      "japanese": "おかえりなさいませ、お{客|きゃく}{様|さま}。",
+      "japanese": "おかえりなさいませ、⟦お{客|きゃく}{様|さま}→お客様：08780_okyakusama⟧。",
       "english": "Welcome back, valued guest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27591_okaerinasaimase_ex2",
-      "japanese": "{旅館|りょかん}の{女将|おかみ}が{笑顔|えがお}でおかえりなさいませと{出迎|でむか}えた。",
+      "japanese": "⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦の→の：09472_no⟧⟦{女将|おかみ}→女将：12210_okami⟧⟦が→が：00051_ga⟧⟦{笑顔|えがお}→笑顔：01884_egao⟧⟦で→で：00502_de⟧おかえりなさいませ⟦と→と：00512_to⟧⟦{出迎|でむか}えた→出迎える：04633_demukaeru⟧。",
       "english": "The ryokan proprietress greeted us with a smile and \"welcome back.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27591_okaerinasaimase_ex3",
-      "japanese": "ホテルに{戻|もど}ると、{受付|うけつけ}のスタッフがおかえりなさいませと{声|こえ}をかけてくれた。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦に→に：00314_ni⟧⟦{戻|もど}る→戻る：01117_modoru⟧⟦と→と：00512_to⟧、⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦の→の：09472_no⟧⟦スタッフ→スタッフ：11046_sutaffu⟧⟦が→が：00051_ga⟧おかえりなさいませ⟦と→と：00512_to⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "When I returned to the hotel, the front-desk staff greeted me with \"welcome back.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Adds the polite imperative ませ to おかえりなさい, lifting the register to one used by service staff toward customers. Family members would never use this form among themselves.\n\nLEVELS OF \"WELCOME BACK\":\n- おかえり: casual; family or close friends\n- おかえりなさい: standard polite; family, neighbors, colleagues\n- おかえりなさいませ: very polite; service staff to customers, or formal household contexts\n\nTYPICAL SETTINGS:\n- Ryokan and hotels welcoming returning guests\n- Department stores and high-end boutiques\n- Maid cafés (a stylized signature greeting)\n- Traditional restaurants where regulars are recognized",
+  "notes": "Adds the polite imperative ませ to おかえりなさい, lifting the register to one used by service staff toward customers. Family members would never use this form among themselves.\n\nLEVELS OF \"WELCOME BACK\":\n- ⟦おかえり→おかえり：09380_okaeri⟧: casual; family or close friends\n- おかえりなさい: standard polite; family, neighbors, colleagues\n- おかえりなさいませ: very polite; service staff to customers, or formal household contexts\n\nTYPICAL SETTINGS:\n- Ryokan and hotels welcoming returning guests\n- Department stores and high-end boutiques\n- Maid cafés (a stylized signature greeting)\n- Traditional restaurants where regulars are recognized",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["greeting"],
-      "domain": ["business"]
+      "semantic": [
+        "greeting"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-14T04:05:39Z",
-    "modified": "2026-05-14T04:05:39Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

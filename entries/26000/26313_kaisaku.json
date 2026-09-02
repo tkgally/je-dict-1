@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26313_kaisaku_ex1",
-      "japanese": "{小説|しょうせつ}を{改作|かいさく}した。",
+      "japanese": "⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧{改作|かいさく}⟦した→する：00392_suru⟧。",
       "english": "The novel was adapted.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26313_kaisaku_ex2",
-      "japanese": "{原作|げんさく}を{舞台|ぶたい}{用|よう}に{改作|かいさく}する{予定|よてい}だ。",
+      "japanese": "⟦{原作|げんさく}→原作：11827_gensaku⟧⟦を→を：00422_wo⟧⟦{舞台|ぶたい}→舞台：03606_butai⟧⟦{用|よう}→〜用：09842_you⟧⟦に→に：00314_ni⟧{改作|かいさく}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "They plan to adapt the original work for the stage.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26313_kaisaku_ex3",
-      "japanese": "この{映画|えいが}は{有名|ゆうめい}な{戯曲|ぎきょく}を{改作|かいさく}したもので、{現代|げんだい}の{観客|かんきゃく}にも{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{戯曲|ぎきょく}⟦を→を：00422_wo⟧{改作|かいさく}⟦した→する：00392_suru⟧もので、⟦{現代|げんだい}→現代：02722_gendai⟧⟦の→の：09472_no⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This film is an adaptation of a famous play and is popular with modern audiences as well.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {改|かい} (reform, change) and {作|さく} (work, production). Refers specifically to reworking an existing creative work rather than creating something from scratch. Most commonly used in literary, theatrical, and film contexts.\n\nCOMMON COLLOCATIONS:\n- {小説|しょうせつ}の{改作|かいさく}: adaptation of a novel\n- {舞台|ぶたい}{用|よう}に{改作|かいさく}する: to adapt for the stage\n- {改作|かいさく}{版|ばん}: adapted version\n- {原作|げんさく}を{改作|かいさく}する: to adapt an original work\n\nSIMILAR WORDS:\n- {翻案|ほんあん}: adaptation — emphasizes creative reinterpretation, often freer than {改作|かいさく}\n- {脚色|きゃくしょく}: dramatization — specifically adapting for stage or screen\n- {改編|かいへん}: reorganization; adaptation — broader, can apply to organizational restructuring as well as creative works",
+  "notes": "Composed of {改|かい} (reform, change) and ⟦{作|さく}→作：27430_saku⟧ (work, production). Refers specifically to reworking an existing creative work rather than creating something from scratch. Most commonly used in literary, theatrical, and film contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧{改作|かいさく}: adaptation of a novel\n- ⟦{舞台|ぶたい}→舞台：03606_butai⟧⟦{用|よう}→〜用：09842_you⟧⟦に→に：00314_ni⟧{改作|かいさく}⟦する→する：00392_suru⟧: to adapt for the stage\n- {改作|かいさく}{版|ばん}: adapted version\n- ⟦{原作|げんさく}→原作：11827_gensaku⟧⟦を→を：00422_wo⟧{改作|かいさく}⟦する→する：00392_suru⟧: to adapt an original work\n\nSIMILAR WORDS:\n- ⟦{翻案|ほんあん}→翻案：13923_honan⟧: adaptation — emphasizes creative reinterpretation, often freer than {改作|かいさく}\n- ⟦{脚色|きゃくしょく}→脚色：18162_kyakushoku⟧: dramatization — specifically adapting for stage or screen\n- ⟦{改編|かいへん}→改編：17556_kaihen⟧: reorganization; adaptation — broader, can apply to organizational restructuring as well as creative works",
   "cross_references": [
     {
       "type": "contrast",
@@ -81,10 +81,11 @@
         "art",
         "culture"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-30T16:20:14Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "suru",

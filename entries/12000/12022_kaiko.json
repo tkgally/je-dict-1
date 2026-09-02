@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12022_kaiko_ex1",
-      "japanese": "{過去|かこ}を{回顧|かいこ}する。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦を→を：00422_wo⟧{回顧|かいこ}⟦する→する：00392_suru⟧。",
       "english": "To look back on the past.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12022_kaiko_ex2",
-      "japanese": "{回顧|かいこ}{展|てん}を{見|み}に{行|い}った。",
+      "japanese": "{回顧|かいこ}⟦{展|てん}→〜展：28468_ten⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to see a retrospective exhibition.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12022_kaiko_ex3",
-      "japanese": "{引退|いんたい}した{監督|かんとく}が{自|みずか}らのキャリアを{回顧|かいこ}する{番組|ばんぐみ}が{放送|ほうそう}された。",
+      "japanese": "⟦{引退|いんたい}→引退：01848_intai⟧⟦した→する：00392_suru⟧⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧⟦{自|みずか}ら→自ら：00287_mizukara⟧⟦の→の：09472_no⟧⟦キャリア→キャリア：10821_kyaria⟧⟦を→を：00422_wo⟧{回顧|かいこ}⟦する→する：00392_suru⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦が→が：00051_ga⟧⟦{放送|ほうそう}→放送：02093_housou⟧⟦された→する：00392_suru⟧。",
       "english": "A program was broadcast in which the retired director looked back on his own career.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both as a noun and as a suru verb ({回顧|かいこ}する). Commonly appears in cultural contexts — {回顧|かいこ}{展|てん} (retrospective exhibition) is a standard compound. Also used in {回顧|かいこ}{録|ろく} (memoir, reminiscences).\n\nCOMMON COLLOCATIONS:\n- {回顧|かいこ}{展|てん}: retrospective exhibition\n- {回顧|かいこ}{録|ろく}: memoir, reminiscences\n- {過去|かこ}を{回顧|かいこ}する: to look back on the past\n- {一年|いちねん}を{回顧|かいこ}する: to look back on the year",
+  "notes": "USAGE:\nUsed both as a noun and as a suru verb ({回顧|かいこ}⟦する→する：00392_suru⟧). Commonly appears in cultural contexts — {回顧|かいこ}⟦{展|てん}→〜展：28468_ten⟧ (retrospective exhibition) is a standard compound. Also used in {回顧|かいこ}{録|ろく} (memoir, reminiscences).\n\nCOMMON COLLOCATIONS:\n- {回顧|かいこ}⟦{展|てん}→〜展：28468_ten⟧: retrospective exhibition\n- {回顧|かいこ}{録|ろく}: memoir, reminiscences\n- ⟦{過去|かこ}→過去：00152_kako⟧⟦を→を：00422_wo⟧{回顧|かいこ}⟦する→する：00392_suru⟧: to look back on the past\n- ⟦{一年|いちねん}→一年：10994_ichinen⟧⟦を→を：00422_wo⟧{回顧|かいこ}⟦する→する：00392_suru⟧: to look back on the year",
   "cross_references": [
     {
       "id": "04561_kaiko",
@@ -154,7 +154,7 @@
   ],
   "metadata": {
     "created": "2026-02-19T11:51:09Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

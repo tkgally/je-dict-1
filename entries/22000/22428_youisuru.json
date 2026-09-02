@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22428_youisuru_ex1",
-      "japanese": "{朝|あさ}ごはんを{用意|ようい}する。",
+      "japanese": "{朝|あさ}ごはん⟦を→を：00422_wo⟧{用意|ようい}する。",
       "english": "To prepare breakfast.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22428_youisuru_ex2",
-      "japanese": "お{客|きゃく}さま{用|よう}に{椅子|いす}を{用意|ようい}しました。",
+      "japanese": "お⟦{客|きゃく}→客：00865_kyaku⟧さま⟦{用|よう}→〜用：09842_you⟧⟦に→に：00314_ni⟧⟦{椅子|いす}→椅子：00706_isu⟧⟦を→を：00422_wo⟧{用意|ようい}しました。",
       "english": "I prepared chairs for the guests.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22428_youisuru_ex3",
-      "japanese": "{万|まん}が{一|いち}に{備|そな}えて、{予備|よび}のバッテリーを{用意|ようい}しておいてください。",
+      "japanese": "⟦{万|まん}が{一|いち}→万が一：17693_mangaichi⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧、⟦{予備|よび}→予備：03993_yobi⟧⟦の→の：09472_no⟧⟦バッテリー→バッテリー：04425_batterii⟧⟦を→を：00422_wo⟧{用意|ようい}しておいて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please have a spare battery ready just in case.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Focuses on having specific items or arrangements ready and at hand. More concrete and action-oriented than {準備|じゅんび}する, which covers broader preparation processes.\n\nCOMMON COLLOCATIONS:\n- {食事|しょくじ}を{用意|ようい}する: to prepare a meal\n- {お{金|かね}を{用意|ようい}する: to have money ready\n- {席|せき}を{用意|ようい}する: to prepare a seat\n- {用意|ようい}ができた: it's ready\n- {用意|ようい}ドン: ready, set, go!\n- {用意|ようい}{周到|しゅうとう}: thoroughly prepared\n\nSIMILAR WORDS:\n- {準備|じゅんび}する: to prepare — broader and more process-oriented; covers planning and organizing\n- {支度|したく}する: to get ready — personal preparation (getting dressed, packing)\n- {整|ととの}える: to arrange / to put in order — emphasizes organizing and tidying\n\nUSAGE:\nThe set phrase {用意|ようい}ドン is used to start races and games, equivalent to \"ready, set, go!\" The compound {用意|ようい}{周到|しゅうとう} (thorough preparation) is a common four-character idiom praising someone's careful planning.",
+  "notes": "Focuses on having specific items or arrangements ready and at hand. More concrete and action-oriented than ⟦{準備|じゅんび}する→準備する：22427_junbisuru⟧, which covers broader preparation processes.\n\nCOMMON COLLOCATIONS:\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧{用意|ようい}する: to prepare a meal\n- {お{金|かね}を{用意|ようい}する: to have money ready\n- {席|せき}を{用意|ようい}する: to prepare a seat\n- {用意|ようい}ができた: it's ready\n- {用意|ようい}ドン: ready, set, go!\n- {用意|ようい}{周到|しゅうとう}: thoroughly prepared\n\nSIMILAR WORDS:\n- {準備|じゅんび}する: to prepare — broader and more process-oriented; covers planning and organizing\n- {支度|したく}する: to get ready — personal preparation (getting dressed, packing)\n- {整|ととの}える: to arrange / to put in order — emphasizes organizing and tidying\n\nUSAGE:\nThe set phrase {用意|ようい}ドン is used to start races and games, equivalent to \"ready, set, go!\" The compound {用意|ようい}{周到|しゅうとう} (thorough preparation) is a common four-character idiom praising someone's careful planning.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,10 +88,11 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T10:37:11Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10727_esukareeto_ex1",
-      "japanese": "{問題|もんだい}がエスカレートした。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧エスカレート⟦した→する：00392_suru⟧。",
       "english": "The problem escalated.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10727_esukareeto_ex2",
-      "japanese": "けんかがエスカレートして{大声|おおごえ}になった。",
+      "japanese": "けんか⟦が→が：00051_ga⟧エスカレート⟦して→する：00392_suru⟧⟦{大声|おおごえ}→大声：09592_oogoe⟧になった。",
       "english": "The argument escalated and they started shouting.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10727_esukareeto_ex3",
-      "japanese": "{対策|たいさく}を{取|と}らないと、{被害|ひがい}がさらにエスカレートするおそれがある。",
+      "japanese": "⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{取|と}らない→取る：00565_toru⟧⟦と→と：00512_to⟧、⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧さらにエスカレート⟦する→する：00392_suru⟧おそれ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If we don't take countermeasures, the damage may escalate further.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "エスカレート comes from English \"escalate\" and is used almost exclusively for negative situations getting worse.\n\nUSAGE:\nDescribes conflicts, problems, costs, or tensions gradually intensifying. Rarely used for positive developments. Typically used as a suru verb (エスカレートする).\n\nCOMMON COLLOCATIONS:\n- {紛争|ふんそう}がエスカレートする: a conflict escalates\n- {要求|ようきゅう}がエスカレートする: demands escalate\n- {問題|もんだい}がエスカレートする: a problem escalates\n- エスカレートを{防|ふせ}ぐ: to prevent escalation\n\nSIMILAR WORDS:\n- {悪化|あっか}する: to worsen (more general, also used for health, weather)\n- {激化|げきか}する: to intensify (stronger, often for conflicts or competition)\n- {拡大|かくだい}する: to expand, to spread (neutral, can be positive or negative)",
+  "notes": "エスカレート comes from English \"escalate\" and is used almost exclusively for negative situations getting worse.\n\nUSAGE:\nDescribes conflicts, problems, costs, or tensions gradually intensifying. Rarely used for positive developments. Typically used as a suru verb (エスカレート⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{紛争|ふんそう}→紛争：05758_funsou⟧⟦が→が：00051_ga⟧エスカレート⟦する→する：00392_suru⟧: a conflict escalates\n- ⟦{要求|ようきゅう}→要求：03658_youkyuu⟧⟦が→が：00051_ga⟧エスカレート⟦する→する：00392_suru⟧: demands escalate\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧エスカレート⟦する→する：00392_suru⟧: a problem escalates\n- エスカレート⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent escalation\n\nSIMILAR WORDS:\n- ⟦{悪化|あっか}する→悪化する：18844_akkasuru⟧: to worsen (more general, also used for health, weather)\n- ⟦{激化|げきか}→激化：13372_gekika⟧⟦する→する：00392_suru⟧: to intensify (stronger, often for conflicts or competition)\n- ⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦する→する：00392_suru⟧: to expand, to spread (neutral, can be positive or negative)",
   "cross_references": [
     {
       "type": "contrast",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-02-09T15:58:39Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

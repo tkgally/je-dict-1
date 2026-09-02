@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09398_kyuutou_ex1",
-      "japanese": "{株価|かぶか}が{急騰|きゅうとう}した。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{急騰|きゅうとう}⟦した→する：00392_suru⟧。",
       "english": "Stock prices surged.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09398_kyuutou_ex2",
-      "japanese": "{原油|げんゆ}{価格|かかく}の{急騰|きゅうとう}が{続|つづ}いている。",
+      "japanese": "⟦{原油|げんゆ}→原油：21637_genyu⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦の→の：09472_no⟧{急騰|きゅうとう}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The surge in crude oil prices continues.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09398_kyuutou_ex3",
-      "japanese": "{決算|けっさん}{発表|はっぴょう}{後|ご}、{株|かぶ}は{急騰|きゅうとう}した。",
+      "japanese": "⟦{決算|けっさん}→決算：05973_kessan⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦{後|ご}→後：30157_go⟧、⟦{株|かぶ}→株：02592_kabu⟧⟦は→は：00079_ha⟧{急騰|きゅうとう}⟦した→する：00392_suru⟧。",
       "english": "After the earnings announcement, the stock spiked.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09398_kyuutou_ex4",
-      "japanese": "ビットコインの{急騰|きゅうとう}で{投資家|とうしか}が{注目|ちゅうもく}している。",
+      "japanese": "⟦ビットコイン→ビットコイン：29679_bittokoin⟧⟦の→の：09472_no⟧{急騰|きゅうとう}⟦で→で：00502_de⟧⟦{投資家|とうしか}→投資家：16242_toushika⟧⟦が→が：00051_ga⟧⟦{注目|ちゅうもく}している→注目する：25530_chuumokusuru⟧。",
       "english": "Investors are paying attention due to Bitcoin's sharp rise.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{急騰|きゅうとう} describes sudden, significant price increases. It's commonly used in financial news and market reports. The opposite is {急落|きゅうらく} (sharp drop).\n\nCommon collocations:\n- {株価|かぶか}の{急騰|きゅうとう}: stock price surge\n- {物価|ぶっか}の{急騰|きゅうとう}: price spike\n- {急騰|きゅうとう}{相場|そうば}: soaring market\n\nRelated terms:\n- {急落|きゅうらく}: sharp drop, plunge\n- {暴騰|ぼうとう}: skyrocketing (even more extreme)\n- {高騰|こうとう}: soaring (prices)",
+  "notes": "{急騰|きゅうとう} describes sudden, significant price increases. It's commonly used in financial news and market reports. The opposite is ⟦{急落|きゅうらく}→急落：09399_kyuuraku⟧ (sharp drop).\n\nCommon collocations:\n- ⟦{株価|かぶか}→株価：05154_kabuka⟧⟦の→の：09472_no⟧{急騰|きゅうとう}: stock price surge\n- ⟦{物価|ぶっか}→物価：03607_bukka⟧⟦の→の：09472_no⟧{急騰|きゅうとう}: price spike\n- {急騰|きゅうとう}⟦{相場|そうば}→相場：07668_souba⟧: soaring market\n\nRelated terms:\n- ⟦{急落|きゅうらく}→急落：09399_kyuuraku⟧: sharp drop, plunge\n- ⟦{暴騰|ぼうとう}→暴騰：09400_boutou⟧: skyrocketing (even more extreme)\n- ⟦{高騰|こうとう}→高騰：14647_koutou⟧: soaring (prices)",
   "metadata": {
     "created": "2026-02-01T09:14:58Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "business",
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "cross_references": [

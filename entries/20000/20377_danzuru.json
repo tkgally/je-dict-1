@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20377_danzuru_ex1",
-      "japanese": "{有罪|ゆうざい}と{断|だん}ずる。",
+      "japanese": "⟦{有罪|ゆうざい}→有罪：13003_yuuzai⟧⟦と→と：00512_to⟧{断|だん}ずる。",
       "english": "To judge as guilty.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20377_danzuru_ex2",
-      "japanese": "{彼|かれ}の{行為|こうい}は{不正|ふせい}であると{断|だん}じた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{行為|こうい}→行為：10021_koui⟧⟦は→は：00079_ha⟧⟦{不正|ふせい}→不正：01660_fusei⟧⟦である→である：09855_dearu⟧⟦と→と：00512_to⟧{断|だん}じた。",
       "english": "I concluded that his actions were dishonest.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20377_danzuru_ex3",
-      "japanese": "{専門家|せんもんか}はこの{絵画|かいが}を{本物|ほんもの}であると{断|だん}じ、{美術館|びじゅつかん}での{展示|てんじ}が{決|き}まった。",
+      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦を→を：00422_wo⟧⟦{本物|ほんもの}→本物：03628_honmono⟧⟦である→である：09855_dearu⟧⟦と→と：00512_to⟧{断|だん}じ、⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "The experts determined the painting to be authentic, and its display at the museum was decided.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A literary and formal verb expressing a decisive judgment. More authoritative than {判断|はんだん}する and often used in legal, academic, and journalistic writing. The ずる conjugation is classical and gives the word a formal, weighty tone.\n\nCONJUGATION NOTE:\nConjugates as a ずる verb ({サ変|さへん} variant): {断|だん}ずる → {断|だん}じる (more common modern form) → {断|だん}じて (te-form, also used as an emphatic adverb meaning \"absolutely\").\n\nCOMMON PATTERNS:\n- ～と{断|だん}ずる: to conclude that ~\n- ～であると{断|だん}じる: to determine that ~ is\n- {断|だん}じて: absolutely, positively (adverbial use)\n\nSIMILAR WORDS:\n- {判断|はんだん}する: to judge, to decide — more neutral and everyday\n- {結論|けつろん}づける: to conclude — focuses on reaching a conclusion\n- {決|き}めつける: to jump to conclusions — has a negative nuance of being hasty\n\nRELATED WORDS:\n- {断|だん}じて{許|ゆる}さない: absolutely will not allow — {断|だん}じて as an emphatic adverb",
+  "notes": "A literary and formal verb expressing a decisive judgment. More authoritative than ⟦{判断|はんだん}する→判断する：06062_handansuru⟧ and often used in legal, academic, and journalistic writing. The ずる conjugation is classical and gives the word a formal, weighty tone.\n\nCONJUGATION NOTE:\nConjugates as a ずる verb ({サ変|さへん} variant): {断|だん}ずる → {断|だん}じる (more common modern form) → {断|だん}じて (te-form, also used as an emphatic adverb meaning \"absolutely\").\n\nCOMMON PATTERNS:\n- ～⟦と→と：00512_to⟧{断|だん}ずる: to conclude that ~\n- ～⟦である→である：09855_dearu⟧⟦と→と：00512_to⟧{断|だん}じる: to determine that ~ is\n- {断|だん}じて: absolutely, positively (adverbial use)\n\nSIMILAR WORDS:\n- ⟦{判断|はんだん}する→判断する：06062_handansuru⟧: to judge, to decide — more neutral and everyday\n- ⟦{結論|けつろん}づける→結論づける：25972_ketsuronzukeru⟧: to conclude — focuses on reaching a conclusion\n- ⟦{決|き}めつける→決めつける：13267_kimetsukeru⟧: to jump to conclusions — has a negative nuance of being hasty\n\nRELATED WORDS:\n- {断|だん}じて⟦{許|ゆる}さない→許す：02325_yurusu⟧: absolutely will not allow — {断|だん}じて as an emphatic adverb",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -80,10 +80,11 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-03-29T11:13:07Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "conjugation": {
     "type": "zuru",

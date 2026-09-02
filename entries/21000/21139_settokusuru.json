@@ -17,7 +17,7 @@
   "examples": [
     {
       "id": "21139_settokusuru_ex1",
-      "japanese": "{彼|かれ}を{説得|せっとく}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦を→を：00422_wo⟧{説得|せっとく}した。",
       "english": "I persuaded him.",
       "sense_numbers": [
         1
@@ -27,7 +27,7 @@
     },
     {
       "id": "21139_settokusuru_ex2",
-      "japanese": "{親|おや}を{説得|せっとく}するのに{苦労|くろう}した。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦を→を：00422_wo⟧{説得|せっとく}する⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{苦労|くろう}した→苦労する：25357_kurousuru⟧。",
       "english": "I had a hard time persuading my parents.",
       "sense_numbers": [
         1
@@ -37,7 +37,7 @@
     },
     {
       "id": "21139_settokusuru_ex3",
-      "japanese": "{何度|なんど}も{説得|せっとく}したが、{彼女|かのじょ}は{考|かんが}えを{変|か}えなかった。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{説得|せっとく}した⟦が→が：00051_ga⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{考|かんが}え→考え：00855_kangae⟧⟦を→を：00422_wo⟧⟦{変|か}えなかった→変える：01089_kaeru⟧。",
       "english": "I tried to persuade her many times, but she wouldn't change her mind.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
       "notes": null
     }
   ],
-  "notes": "To convince someone through reasoning, explanation, or repeated appeal. The person being persuaded is marked with を. Unlike {命令|めいれい}する (to order), {説得|せっとく}する implies patient reasoning rather than authority.\n\nCOMMON COLLOCATIONS:\n- {説得|せっとく}に{応|おう}じる: to yield to persuasion\n- {説得力|せっとくりょく}がある: to be persuasive; to have persuasive power\n- {説得|せっとく}を{試|こころ}みる: to attempt to persuade\n- {粘|ねば}り{強|づよ}く{説得|せっとく}する: to persistently persuade\n\nSIMILAR WORDS:\n- {納得|なっとく}させる: to make someone understand — focuses on the other person's comprehension and acceptance\n- {口説|くど}く: to coax; to woo — more informal, can imply romantic persuasion\n- {勧|すす}める: to recommend — softer, suggesting rather than arguing",
+  "notes": "To convince someone through reasoning, explanation, or repeated appeal. The person being persuaded is marked with ⟦を→を：00422_wo⟧. Unlike ⟦{命令|めいれい}する→命令する：26833_meireisuru⟧ (to order), {説得|せっとく}する implies patient reasoning rather than authority.\n\nCOMMON COLLOCATIONS:\n- ⟦{説得|せっとく}→説得：14219_settoku⟧⟦に→に：00314_ni⟧⟦{応|おう}じる→応じる：02018_oujiru⟧: to yield to persuasion\n- ⟦{説得力|せっとくりょく}がある→説得力がある：25151_settokuryokugaaru⟧: to be persuasive; to have persuasive power\n- ⟦{説得|せっとく}→説得：14219_settoku⟧⟦を→を：00422_wo⟧⟦{試|こころ}みる→試みる：01943_kokoromiru⟧: to attempt to persuade\n- ⟦{粘|ねば}り{強|づよ}く→粘り強い：07165_nebarizuyoi⟧{説得|せっとく}する: to persistently persuade\n\nSIMILAR WORDS:\n- {納得|なっとく}させる: to make someone understand — focuses on the other person's comprehension and acceptance\n- ⟦{口説|くど}く→口説く：11852_kudoku⟧: to coax; to woo — more informal, can imply romantic persuasion\n- ⟦{勧|すす}める→勧める：02120_susumeru⟧: to recommend — softer, suggesting rather than arguing",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,10 +89,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T21:31:50Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19580_sakusou_ex1",
-      "japanese": "{事態|じたい}が{錯綜|さくそう}している。",
+      "japanese": "⟦{事態|じたい}→事態：10151_jitai⟧⟦が→が：00051_ga⟧{錯綜|さくそう}⟦している→する：00392_suru⟧。",
       "english": "The situation is complicated.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19580_sakusou_ex2",
-      "japanese": "{情報|じょうほう}が{錯綜|さくそう}して{混乱|こんらん}が{生|しょう}じた。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{錯綜|さくそう}⟦して→する：00392_suru⟧⟦{混乱|こんらん}→混乱：02811_konran⟧⟦が→が：00051_ga⟧⟦{生|しょう}じた→生じる：02118_shoujiru⟧。",
       "english": "Conflicting information caused confusion.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19580_sakusou_ex3",
-      "japanese": "{利害|りがい}が{錯綜|さくそう}する{問題|もんだい}を{解決|かいけつ}するのは{容易|ようい}ではない。",
+      "japanese": "⟦{利害|りがい}→利害：04091_rigai⟧⟦が→が：00051_ga⟧{錯綜|さくそう}⟦する→する：00392_suru⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{解決|かいけつ}する→解決する：17191_kaiketsusuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{容易|ようい}→容易：12316_youi⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "It is not easy to resolve a problem where interests are entangled.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A する noun composed of {錯|さく} (confused, mixed up) and {綜|そう} (to interweave). Describes situations where multiple threads of information, interests, or factors become tangled together. Frequently encountered in news reporting and formal analysis.\n\nUSAGE:\nMost commonly used as {錯綜|さくそう}する (to become complicated/entangled). The している form indicates an ongoing tangled state. Often describes information, situations, or interests.\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}が{錯綜|さくそう}する — information becomes confused/contradictory\n- {事態|じたい}が{錯綜|さくそう}する — the situation becomes complicated\n- {利害|りがい}が{錯綜|さくそう}する — interests become entangled\n- {錯綜|さくそう}した{状況|じょうきょう} — a complex situation\n\nSIMILAR WORDS:\n- {複雑|ふくざつ} — complex; a general term for complexity, while {錯綜|さくそう} specifically implies tangled, interwoven threads that are hard to separate\n- {混乱|こんらん} — confusion, disorder; focuses on the resulting state of disorder, while {錯綜|さくそう} emphasizes the intertwined nature of the elements",
+  "notes": "A ⟦する→する：00392_suru⟧ noun composed of {錯|さく} (confused, mixed up) and {綜|そう} (to interweave). Describes situations where multiple threads of information, interests, or factors become tangled together. Frequently encountered in news reporting and formal analysis.\n\nUSAGE:\nMost commonly used as {錯綜|さくそう}⟦する→する：00392_suru⟧ (to become complicated/entangled). The ⟦している→する：00392_suru⟧ form indicates an ongoing tangled state. Often describes information, situations, or interests.\n\nCOMMON COLLOCATIONS:\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{錯綜|さくそう}⟦する→する：00392_suru⟧ — information becomes confused/contradictory\n- ⟦{事態|じたい}→事態：10151_jitai⟧⟦が→が：00051_ga⟧{錯綜|さくそう}⟦する→する：00392_suru⟧ — the situation becomes complicated\n- ⟦{利害|りがい}→利害：04091_rigai⟧⟦が→が：00051_ga⟧{錯綜|さくそう}⟦する→する：00392_suru⟧ — interests become entangled\n- {錯綜|さくそう}⟦した→する：00392_suru⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧ — a complex situation\n\nSIMILAR WORDS:\n- ⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧ — complex; a general term for complexity, while {錯綜|さくそう} specifically implies tangled, interwoven threads that are hard to separate\n- ⟦{混乱|こんらん}→混乱：02811_konran⟧ — confusion, disorder; focuses on the resulting state of disorder, while {錯綜|さくそう} emphasizes the intertwined nature of the elements",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -164,9 +164,10 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T07:22:42Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

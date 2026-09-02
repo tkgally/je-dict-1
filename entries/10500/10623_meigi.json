@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10623_meigi_ex1",
-      "japanese": "この{口座|こうざ}は{誰|だれ}の{名義|めいぎ}ですか？",
+      "japanese": "⟦この→この：00962_kono⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧⟦の→の：09472_no⟧{名義|めいぎ}です⟦か→か：09473_ka⟧？",
       "english": "Whose name is this account under?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10623_meigi_ex2",
-      "japanese": "{不動産|ふどうさん}の{名義|めいぎ}を{変更|へんこう}する。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦の→の：09472_no⟧{名義|めいぎ}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧。",
       "english": "To change the name on the real estate title.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10623_meigi_ex3",
-      "japanese": "{車|くるま}は{父|ちち}の{名義|めいぎ}で{登録|とうろく}されているが、{実際|じっさい}に{使|つか}っているのは{私|わたし}だ。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦は→は：00079_ha⟧⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧{名義|めいぎ}⟦で→で：00502_de⟧⟦{登録|とうろく}→登録：05703_touroku⟧⟦されている→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦{使|つか}っている→使う：00473_tsukau⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧だ。",
       "english": "The car is registered under my father's name, but I'm the one who actually uses it.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly used in legal, financial, and administrative contexts. The pattern 〜の{名義|めいぎ}で (under the name of ~) is standard.\n\n{名義|めいぎ}{変更|へんこう} (name change on a title) is a common administrative procedure for property, bank accounts, and vehicle registrations, especially after marriage or inheritance.\n\nCOMMON COLLOCATIONS:\n- {名義|めいぎ}{変更|へんこう}: name change (on a document)\n- {名義|めいぎ}{人|にん}: the registered name holder\n- 〜の{名義|めいぎ}で: under the name of\n- {名義|めいぎ}{貸|か}し: lending one's name (often illegal)",
+  "notes": "USAGE:\nCommonly used in legal, financial, and administrative contexts. The pattern 〜⟦の→の：09472_no⟧{名義|めいぎ}⟦で→で：00502_de⟧ (under the name of ~) is standard.\n\n{名義|めいぎ}⟦{変更|へんこう}→変更：03616_henkou⟧ (name change on a title) is a common administrative procedure for property, bank accounts, and vehicle registrations, especially after marriage or inheritance.\n\nCOMMON COLLOCATIONS:\n- {名義|めいぎ}⟦{変更|へんこう}→変更：03616_henkou⟧: name change (on a document)\n- {名義|めいぎ}{人|にん}: the registered name holder\n- 〜⟦の→の：09472_no⟧{名義|めいぎ}⟦で→で：00502_de⟧: under the name of\n- {名義|めいぎ}⟦{貸|か}し→貸し：02578_kashi⟧: lending one's name (often illegal)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-08T05:52:31Z",
-    "modified": "2026-06-27T16:06:14Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

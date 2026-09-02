@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21595_tangan_ex1",
-      "japanese": "{嘆願|たんがん}{書|しょ}を{提出|ていしゅつ}した。",
+      "japanese": "{嘆願|たんがん}{書|しょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}した→提出する：19644_teishutsusuru⟧。",
       "english": "I submitted a petition.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21595_tangan_ex2",
-      "japanese": "{住民|じゅうみん}たちは{工場|こうじょう}の{建設|けんせつ}{中止|ちゅうし}を{嘆願|たんがん}した。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧たち⟦は→は：00079_ha⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦の→の：09472_no⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦を→を：00422_wo⟧{嘆願|たんがん}⟦した→する：00392_suru⟧。",
       "english": "The residents petitioned for the factory construction to be halted.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21595_tangan_ex3",
-      "japanese": "{弁護士|べんごし}は{裁判官|さいばんかん}に{減刑|げんけい}を{嘆願|たんがん}し、{被告人|ひこくにん}の{事情|じじょう}を{説明|せつめい}した。",
+      "japanese": "⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦は→は：00079_ha⟧⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧⟦に→に：00314_ni⟧{減刑|げんけい}⟦を→を：00422_wo⟧{嘆願|たんがん}し、⟦{被告人|ひこくにん}→被告人：20130_hikokunin⟧⟦の→の：09472_no⟧⟦{事情|じじょう}→事情：03272_jijou⟧⟦を→を：00422_wo⟧⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "The lawyer petitioned the judge for a reduced sentence and explained the defendant's circumstances.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {嘆|たん} (lament, sigh) and {願|がん} (wish, request). The {嘆|たん} element conveys the emotional weight — this is not a routine request but a plea made with great earnestness or desperation.\n\nCOMMON COLLOCATIONS:\n- {嘆願|たんがん}する: to petition, to plead\n- {嘆願|たんがん}{書|しょ}: written petition\n- {嘆願|たんがん}を{受|う}ける: to receive a petition\n- {減刑|げんけい}を{嘆願|たんがん}する: to petition for a reduced sentence\n\nSIMILAR WORDS:\n- {請願|せいがん}: formal petition — an official petition to a government body; more procedural\n- {懇願|こんがん}: entreaty — earnest personal pleading, often face-to-face\n- {哀願|あいがん}: supplication — pleading with pity and sorrow; even more emotional\n- {陳情|ちんじょう}: representation, appeal — formally presenting grievances to authorities",
+  "notes": "Compound of {嘆|たん} (lament, sigh) and {願|がん} (wish, request). The {嘆|たん} element conveys the emotional weight — this is not a routine request but a plea made with great earnestness or desperation.\n\nCOMMON COLLOCATIONS:\n- {嘆願|たんがん}⟦する→する：00392_suru⟧: to petition, to plead\n- {嘆願|たんがん}{書|しょ}: written petition\n- {嘆願|たんがん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a petition\n- {減刑|げんけい}⟦を→を：00422_wo⟧{嘆願|たんがん}⟦する→する：00392_suru⟧: to petition for a reduced sentence\n\nSIMILAR WORDS:\n- {請願|せいがん}: formal petition — an official petition to a government body; more procedural\n- ⟦{懇願|こんがん}→懇願：12686_kongan⟧: entreaty — earnest personal pleading, often face-to-face\n- ⟦{哀願|あいがん}→哀願：16758_aigan⟧: supplication — pleading with pity and sorrow; even more emotional\n- ⟦{陳情|ちんじょう}→陳情：14663_chinjou⟧: representation, appeal — formally presenting grievances to authorities",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -96,10 +96,11 @@
         "law",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T17:28:43Z",
-    "modified": "2026-09-02T03:02:30Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

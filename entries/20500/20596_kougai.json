@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20596_kougai_ex1",
-      "japanese": "{口外|こうがい}しないでください。",
+      "japanese": "{口外|こうがい}⟦しないで→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't tell anyone.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "20596_kougai_ex2",
-      "japanese": "この{件|けん}は{絶対|ぜったい}に{口外|こうがい}してはならない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{件|けん}→件：11720_ken⟧⟦は→は：00079_ha⟧⟦{絶対|ぜったい}→絶対：00435_zettai⟧⟦に→に：00314_ni⟧{口外|こうがい}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "You must never reveal this matter to anyone.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20596_kougai_ex3",
-      "japanese": "{社内|しゃない}の{機密情報|きみつじょうほう}を{口外|こうがい}した{社員|しゃいん}が{処分|しょぶん}を{受|う}けた。",
+      "japanese": "⟦{社内|しゃない}→社内：13731_shanai⟧⟦の→の：09472_no⟧{機密情報|きみつじょうほう}⟦を→を：00422_wo⟧{口外|こうがい}⟦した→する：00392_suru⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦が→が：00051_ga⟧⟦{処分|しょぶん}→処分：05520_shobun⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "An employee who disclosed confidential company information was disciplined.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Composed of {口|こう} (mouth) + {外|がい} (outside) — literally \"putting outside one's mouth,\" i.e., speaking aloud what should remain unspoken. Almost exclusively used in prohibitive or negative contexts.\n\nCOMMON COLLOCATIONS:\n- {口外|こうがい}しない (not reveal)\n- {口外|こうがい}してはならない (must not disclose)\n- {口外|こうがい}{無用|むよう} (do not disclose; confidential)\n- {口外|こうがい}{禁止|きんし} (disclosure prohibited)\n\nSIMILAR WORDS:\n- {漏|も}らす — to leak (information), to let slip (more colloquial)\n- {暴露|ばくろ} — exposure, revelation (often of scandals or wrongdoing)\n- {吐露|とろ} — confession, revealing one's feelings (more personal and emotional)",
+  "notes": "Composed of {口|こう} (mouth) + ⟦{外|がい}→外〜：03948_gai⟧ (outside) — literally \"putting outside one's mouth,\" i.e., speaking aloud what should remain unspoken. Almost exclusively used in prohibitive or negative contexts.\n\nCOMMON COLLOCATIONS:\n- {口外|こうがい}⟦しない→する：00392_suru⟧ (not reveal)\n- {口外|こうがい}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧ (must not disclose)\n- {口外|こうがい}{無用|むよう} (do not disclose; confidential)\n- {口外|こうがい}⟦{禁止|きんし}→禁止：02643_kinshi⟧ (disclosure prohibited)\n\nSIMILAR WORDS:\n- ⟦{漏|も}らす→漏らす：02436_morasu⟧ — to leak (information), to let slip (more colloquial)\n- ⟦{暴露|ばくろ}→暴露：07630_bakuro⟧ — exposure, revelation (often of scandals or wrongdoing)\n- ⟦{吐露|とろ}→吐露：11895_toro⟧ — confession, revealing one's feelings (more personal and emotional)",
   "cross_references": [
     {
       "type": "homophone",
@@ -84,7 +84,7 @@
   ],
   "metadata": {
     "created": "2026-03-29T19:20:50Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +97,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "conjugation": {

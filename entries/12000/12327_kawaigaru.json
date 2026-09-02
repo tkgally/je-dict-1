@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12327_kawaigaru_ex1",
-      "japanese": "{猫|ねこ}をかわいがる。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦を→を：00422_wo⟧かわいがる。",
       "english": "To be affectionate toward a cat.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12327_kawaigaru_ex2",
-      "japanese": "{祖父|そふ}は{孫|まご}をとてもかわいがっている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{孫|まご}→孫：03731_mago⟧⟦を→を：00422_wo⟧⟦とても→とても：00593_totemo⟧かわいがって⟦いる→いる：00495_iru⟧。",
       "english": "My grandfather dotes on his grandchildren.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12327_kawaigaru_ex3",
-      "japanese": "{子供|こども}の{頃|ころ}、{近所|きんじょ}の{犬|いぬ}をかわいがっていた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}、⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧⟦{犬|いぬ}→犬：00632_inu⟧⟦を→を：00422_wo⟧かわいがって⟦いた→いる：00495_iru⟧。",
       "english": "When I was a child, I used to pet and play with the neighborhood dog.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "かわいがる is derived from かわいい (cute, lovable) + がる (to show signs of). It describes actively showing affection, not just feeling it internally.\n\nGodan verb (る-ending, ら{行|ぎょう}).\n- Negative: かわいがらない\n- Polite: かわいがります\n- Te-form: かわいがって\n- Past: かわいがった\n- Passive: かわいがられる\n\nCOMMON COLLOCATIONS:\n- {子供|こども}をかわいがる: to dote on a child\n- {犬|いぬ}をかわいがる: to be affectionate toward a dog\n- {孫|まご}をかわいがる: to dote on grandchildren\n- かわいがられる: to be loved/favored (passive)",
+  "notes": "かわいがる is derived from ⟦かわいい→かわいい：00857_kawaii⟧ (cute, lovable) + ⟦がる→〜がる：03089_garu⟧ (to show signs of). It describes actively showing affection, not just feeling it internally.\n\nGodan verb (る-ending, ら{行|ぎょう}).\n- Negative: かわいがらない\n- Polite: かわいがります\n- Te-form: かわいがって\n- Past: かわいがった\n- Passive: かわいがられる\n\nCOMMON COLLOCATIONS:\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧かわいがる: to dote on a child\n- ⟦{犬|いぬ}→犬：00632_inu⟧⟦を→を：00422_wo⟧かわいがる: to be affectionate toward a dog\n- ⟦{孫|まご}→孫：03731_mago⟧⟦を→を：00422_wo⟧かわいがる: to dote on grandchildren\n- かわいがられる: to be loved/favored (passive)",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-09-02T02:55:16Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,7 +158,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     }
   }
 }
