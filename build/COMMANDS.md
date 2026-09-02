@@ -10,7 +10,8 @@ python3 build/validate.py                          # Validate all entries agains
 python3 build/validate.py --id 01234               # One entry (links and cross-refs checked against the whole dictionary)
 python3 build/validate.py --range 10000 10499      # An ID range
 python3 build/validate.py --changed-only           # Entries changed vs origin/main (fast)
-python3 build/validate.py --changed-only --ratchet # CI gate: register tags, verb transitivity, furigana braces on changed entries
+python3 build/validate.py --changed-only --ratchet # CI gate: register tags, verb transitivity, furigana braces on changed entries (baseline: build/data/ratchet_baseline.json)
+python3 build/validate.py --write-ratchet-baseline   # Regenerate the ratchet baseline (only right after a mechanical sweep)
 python3 build/validate_tags.py                     # Semantic/POS tag consistency
 python3 build/validate_tags.py --check-no-new-unknown   # CI ratchet: no new off-vocabulary semantic tag
 python3 build/validate_tags.py --write-unknown-baseline # Regenerate build/data/unknown_semantic_baseline.json

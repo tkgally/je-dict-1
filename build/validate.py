@@ -261,8 +261,10 @@ def find_furigana_brace_errors(entry: dict, ignore_allowlist: bool = False) -> l
     """Errors for unbalanced or nested `{...}` groups in any text field.
 
     Fields baselined in build/data/furigana_brace_baseline.json are tolerated
-    unless ignore_allowlist is set (--ratchet does that, so a touched entry
-    must be repaired).
+    (also under --ratchet since 2026-09-02: mechanical sweeps touch every
+    entry, so "touched means repaired" would block them; the 36 baselined
+    entries are backlog item furigana-unbalanced-braces) unless
+    ignore_allowlist is set.
     """
     if not isinstance(entry, dict):
         return []
@@ -300,32 +302,91 @@ def find_furigana_brace_warnings(entry: dict) -> list[str]:
     return warnings
 
 
-def find_ratchet_errors(entry: dict) -> list[str]:
-    """--ratchet ERRORS: register tags, verb transitivity, kana-only braces."""
+# Ratchet baseline: entries that already failed a ratchet check when the
+# check was introduced (2026-09-02: 828 formality and 78 politeness hold-outs
+# whose notes mention register, 33 godan/ichidan verbs without transitivity).
+# The gate tolerates those exact (entry, check) pairs so a mass mechanical
+# sweep does not have to fix 950 judgment items first; anything new fails.
+# `python3 build/validate.py --write-ratchet-baseline` regenerates it from the
+# current dictionary — run it only right after a sweep, never to silence a
+# regression; entries fixed by hand simply stop matching and can stay listed.
+RATCHET_BASELINE = Path(__file__).resolve().parent / 'data' / 'ratchet_baseline.json'
+RATCHET_BASELINE_DATA: Optional[dict] = None
+
+
+def load_ratchet_baseline() -> dict:
+    global RATCHET_BASELINE_DATA
+    if RATCHET_BASELINE_DATA is None:
+        try:
+            with open(RATCHET_BASELINE, 'r', encoding='utf-8') as f:
+                RATCHET_BASELINE_DATA = (json.load(f) or {}).get('entries', {})
+        except (FileNotFoundError, json.JSONDecodeError):
+            RATCHET_BASELINE_DATA = {}
+    return RATCHET_BASELINE_DATA
+
+
+def find_ratchet_problems(entry: dict) -> list[tuple[str, str]]:
+    """(check, message) pairs for the --ratchet checks, baseline ignored."""
     if not isinstance(entry, dict):
         return []
-    errors = []
+    problems = []
     tags = ((entry.get('metadata') or {}).get('tags') or {})
     if tags.get('politeness') is None:
-        errors.append("tags.politeness is missing/null (set it; 'plain' for ordinary words — "
-                      "see build/backfill_register.py)")
+        problems.append(('politeness', "tags.politeness is missing/null (set it; 'plain' for ordinary words — "
+                         "see build/backfill_register.py)"))
     if tags.get('formality') is None:
-        errors.append("tags.formality is missing/null (set it; 'neutral' for ordinary words — "
-                      "see build/backfill_register.py)")
+        problems.append(('formality', "tags.formality is missing/null (set it; 'neutral' for ordinary words — "
+                         "see build/backfill_register.py)"))
     pos = set(tags.get('pos') or [])
     if pos & VERB_POS_NEEDING_TRANSITIVITY and tags.get('transitivity') is None:
-        errors.append("tags.transitivity is missing on a godan/ichidan verb "
-                      "(transitive / intransitive / both)")
+        problems.append(('transitivity', "tags.transitivity is missing on a godan/ichidan verb "
+                         "(transitive / intransitive / both)"))
     for field_path, text in _entry_text_fields(entry):
         if furigana_brace_problem(text):
             continue
         for m in KANA_ONLY_BRACE_RE.finditer(text):
-            errors.append(
+            problems.append(('kana-brace',
                 f"Kana-only furigana braces in '{field_path}': {m.group(0)} "
                 f"(braces are for kanji only — write {m.group(1)} plainly; "
-                f"see build/fix_furigana_format.py)"
-            )
-    return errors
+                f"see build/fix_furigana_format.py)"))
+    return problems
+
+
+def find_ratchet_errors(entry: dict) -> list[str]:
+    """--ratchet ERRORS: register tags, verb transitivity, kana-only braces,
+    minus the (entry, check) pairs tolerated by the ratchet baseline."""
+    problems = find_ratchet_problems(entry)
+    if not problems:
+        return []
+    tolerated = set(load_ratchet_baseline().get(str((entry or {}).get('id', '')), []))
+    return [msg for check, msg in problems if check not in tolerated]
+
+
+def write_ratchet_baseline(entries_dir: Path, baseline_path: Optional[Path] = None) -> int:
+    """Regenerate the ratchet baseline from every entry that currently fails a check."""
+    baseline_path = baseline_path or RATCHET_BASELINE
+    entries: dict = {}
+    for path in sorted(entries_dir.glob('*/*.json')):
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                entry = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            continue
+        checks = sorted({check for check, _ in find_ratchet_problems(entry)})
+        if checks:
+            entries[str(entry.get('id') or path.stem)] = checks
+    payload = {
+        "_doc": ("Entries tolerated by `validate.py --ratchet`, with the checks each one fails. "
+                 "Generated by `python3 build/validate.py --write-ratchet-baseline`; regenerate only "
+                 "right after a mechanical sweep. Anything not listed here fails the gate."),
+        "generated": datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        "entries": entries,
+    }
+    with open(baseline_path, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write('\n')
+    print(f"Wrote {baseline_path}: {len(entries)} entries tolerated by --ratchet.")
+    return len(entries)
 
 
 def find_ratchet_warnings(entry: dict) -> list[str]:
@@ -432,7 +493,7 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: 
     # Broken furigana braces are always errors (legacy cases allow-listed
     # except under --ratchet); the register/transitivity/kana-brace ratchets
     # only fire with --ratchet.
-    errors.extend(find_furigana_brace_errors(entry, ignore_allowlist=RATCHET))
+    errors.extend(find_furigana_brace_errors(entry))
     if RATCHET:
         errors.extend(find_ratchet_errors(entry))
 
@@ -1477,6 +1538,9 @@ def main():
     parser.add_argument('--write-brace-baseline', action='store_true',
                         help='Regenerate build/data/furigana_brace_baseline.json (tolerated legacy '
                              'unbalanced/nested furigana braces) from the current entries and exit')
+    parser.add_argument('--write-ratchet-baseline', action='store_true',
+                        help='Regenerate build/data/ratchet_baseline.json from the current '
+                             'dictionary (run right after a mechanical sweep).')
     parser.add_argument('--ratchet', action='store_true',
                         help='Also fail on missing politeness/formality, missing verb transitivity '
                              'and kana-only furigana braces, and warn on non-canonical part_of_speech '
@@ -1485,6 +1549,9 @@ def main():
 
     global RATCHET
     RATCHET = bool(args.ratchet)
+    if args.write_ratchet_baseline:
+        write_ratchet_baseline(Path(__file__).resolve().parent.parent / 'entries')
+        return 0
 
     if args.write_brace_baseline:
         return write_brace_baseline(Path(__file__).resolve().parent.parent)
