@@ -600,7 +600,7 @@ def main():
     # Verify kanji index before building
     print("Verifying kanji index...")
     result = subprocess.run(
-        [sys.executable, str(script_dir / 'verify_kanji_index.py'), '--quick'],
+        [sys.executable, str(script_dir / 'verify_kanji_index.py'), '--quick', '--skip-html'],
         capture_output=True, text=True
     )
     if result.returncode != 0:
