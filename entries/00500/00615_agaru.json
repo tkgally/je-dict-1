@@ -149,7 +149,7 @@
     },
     {
       "id": "00615_agaru_ex5",
-      "japanese": "⟦{去年|きょねん}→去年：00727_kyonen⟧⟦から→から：00504_kara⟧⟦{電気|でんき}→電気：09780_denki⟧⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦どんどん→どんどん：01261_dondon⟧{上|あ}がっていて、⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧⟦に→に：00314_ni⟧⟦なりました→なる：01970_naru⟧。",
+      "japanese": "⟦{去年|きょねん}→去年：00727_kyonen⟧⟦から→から：00504_kara⟧⟦{電気|でんき}→電気：09780_denki⟧⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦どんどん→どんどん：01261_dondon⟧{上|あ}がって⟦いて→いる：00495_iru⟧、⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧⟦に→に：00314_ni⟧⟦なりました→なる：01970_naru⟧。",
       "english": "Since last year, electricity prices have been going up and up, making life difficult.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{上|あ}げる→あげる：00546_ageru⟧ (to raise). Pattern: X⟦が→が：00051_ga⟧{上|あ}がる.\n\nASPECT: ている indicates ongoing action or resulting state depending on context. {上|あ}がっている can mean 'is rising' (ongoing) or 'has risen/is up' (result). For prices/temperatures, the result reading is common: ⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧{上|あ}がっている (prices are up/have risen).\n\nCOMMON PATTERNS:\n・⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{上|あ}がる (temperature rises)\n・⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧{上|あ}がる (price goes up)\n・⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧{上|あ}がる (go up stairs)\n・⟦どうぞ→どうぞ：02920_douzo⟧{上|あ}がって⟦ください→ください：02899_kudasai⟧ (please come in - entering a house)\n\nThe house-entering usage reflects traditional Japanese architecture where the floor is elevated above the genkan entrance.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{上|あ}げる→あげる：00546_ageru⟧ (to raise). Pattern: X⟦が→が：00051_ga⟧{上|あ}がる.\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action or resulting state depending on context. {上|あ}がって⟦いる→いる：00495_iru⟧ can mean 'is rising' (ongoing) or 'has risen/is up' (result). For prices/temperatures, the result reading is common: ⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧{上|あ}がって⟦いる→いる：00495_iru⟧ (prices are up/have risen).\n\nCOMMON PATTERNS:\n- ⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{上|あ}がる (temperature rises)\n- ⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧{上|あ}がる (price goes up)\n- ⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧{上|あ}がる (go up stairs)\n- ⟦どうぞ→どうぞ：02920_douzo⟧{上|あ}がって⟦ください→ください：02899_kudasai⟧ (please come in - entering a house)\n\nThe house-entering usage reflects traditional Japanese architecture where the floor is elevated above the genkan entrance.",
   "cross_references": [
     {
       "type": "antonym",
@@ -223,11 +223,46 @@
       "reading": "うかびあがる",
       "headword": "{浮|う}かび{上|あ}がる",
       "label": "to surface, to come to light (compound)"
+    },
+    {
+      "type": "related",
+      "target_id": "07849_doma",
+      "reading": "どま",
+      "headword": "{土間|どま}",
+      "label": "dirt floor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11296_joushou",
+      "reading": "じょうしょう",
+      "headword": "{上昇|じょうしょう}",
+      "label": "rise, ascent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12960_noboru",
+      "reading": "のぼる",
+      "headword": "{昇|のぼ}る",
+      "label": "to rise, to ascend (sun, smoke, etc.)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21460_noboru",
+      "reading": "のぼる",
+      "headword": "{上|のぼ}る",
+      "label": "to go up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21681_joushousuru",
+      "reading": "じょうしょうする",
+      "headword": "{上昇|じょうしょう}する",
+      "label": "to rise"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:53:28Z",
-    "modified": "2026-06-12T21:42:12Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

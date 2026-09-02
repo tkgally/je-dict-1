@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23045_shuutokubutsu_ex1",
-      "japanese": "{拾得物|しゅうとくぶつ}を{届|とど}ける。",
+      "japanese": "{拾得物|しゅうとくぶつ}⟦を→を：00422_wo⟧⟦{届|とど}ける→届ける：01248_todokeru⟧。",
       "english": "To turn in a found item.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23045_shuutokubutsu_ex2",
-      "japanese": "{拾得物|しゅうとくぶつ}は{交番|こうばん}に{届|とど}けてください。",
+      "japanese": "{拾得物|しゅうとくぶつ}⟦は→は：00079_ha⟧⟦{交番|こうばん}→交番：02879_kouban⟧⟦に→に：00314_ni⟧⟦{届|とど}けて→届ける：01248_todokeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please turn in found items to the police box.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23045_shuutokubutsu_ex3",
-      "japanese": "{日本|にほん}では{拾得物|しゅうとくぶつ}の{届|とど}け{出|で}{率|りつ}が{非常|ひじょう}に{高|たか}く、{財布|さいふ}が{戻|もど}ってくることも{珍|めずら}しくない。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{拾得物|しゅうとくぶつ}⟦の→の：09472_no⟧{届|とど}け{出|で}⟦{率|りつ}→率：03802_ritsu⟧⟦が→が：00051_ga⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧⟦{高|たか}く→高い：00500_takai⟧、⟦{財布|さいふ}→財布：00663_saifu⟧⟦が→が：00051_ga⟧⟦{戻|もど}って→戻る：01117_modoru⟧くること⟦も→も：00484_mo⟧⟦{珍|めずら}しくない→珍しい：01200_mezurashii⟧。",
       "english": "In Japan, the rate of turning in found items is extremely high, and it's not unusual for wallets to be returned.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal, legal term. Under Japanese law ({遺失物法|いしつぶつほう}, the Lost Property Act), finders are required to turn in {拾得物|しゅうとくぶつ} to the police or the facility manager. If the owner does not claim the item within a set period, the finder may acquire ownership.\n\nCOMMON COLLOCATIONS:\n- {拾得物|しゅうとくぶつ}を{届|とど}ける: to turn in a found item\n- {拾得物|しゅうとくぶつ}{取扱所|とりあつかいじょ}: lost-and-found office\n- {拾得物|しゅうとくぶつ}{届|とどけ}: report of found property\n- {拾得者|しゅうとくしゃ}: finder (the person who found the item)\n\nSIMILAR WORDS:\n- {遺失物|いしつぶつ}: lost property — the counterpart term, referring to items from the perspective of being lost\n- {落|お}とし{物|もの}: dropped item, lost property — the everyday term used at police stations and public facilities\n- {忘|わす}れ{物|もの}: forgotten item — something left behind by accident",
+  "notes": "A formal, legal term. Under Japanese law ({遺失物法|いしつぶつほう}, the Lost Property Act), finders are required to turn in {拾得物|しゅうとくぶつ} to the police or the facility manager. If the owner does not claim the item within a set period, the finder may acquire ownership.\n\nCOMMON COLLOCATIONS:\n- {拾得物|しゅうとくぶつ}⟦を→を：00422_wo⟧⟦{届|とど}ける→届ける：01248_todokeru⟧: to turn in a found item\n- {拾得物|しゅうとくぶつ}{取扱所|とりあつかいじょ}: lost-and-found office\n- {拾得物|しゅうとくぶつ}{届|とどけ}: report of found property\n- {拾得者|しゅうとくしゃ}: finder (the person who found the item)\n\nSIMILAR WORDS:\n- ⟦{遺失物|いしつぶつ}→遺失物：15652_ishitsubutsu⟧: lost property — the counterpart term, referring to items from the perspective of being lost\n- ⟦{落|お}とし{物|もの}→落とし物：08450_otoshimono⟧: dropped item, lost property — the everyday term used at police stations and public facilities\n- ⟦{忘|わす}れ{物|もの}→忘れ物：01758_wasuremono⟧: forgotten item — something left behind by accident",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15652_ishitsubutsu",
+      "reading": "いしつぶつ",
+      "headword": "{遺失物|いしつぶつ}",
+      "label": "lost property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08450_otoshimono",
+      "reading": "おとしもの",
+      "headword": "{落|お}とし{物|もの}",
+      "label": "dropped item, lost property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01758_wasuremono",
+      "reading": "わすれもの",
+      "headword": "{忘|わす}れ{物|もの}",
+      "label": "forgotten item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23715_ishitsubutsutoriatsukaijo",
+      "reading": "いしつぶつとりあつかいじょ",
+      "headword": "{遺失物取扱所|いしつぶつとりあつかいじょ}",
+      "label": "lost-and-found office"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-08T16:34:51Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

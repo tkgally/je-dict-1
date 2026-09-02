@@ -15,40 +15,58 @@
   "examples": [
     {
       "id": "10430_oyako_ex1",
-      "japanese": "{親子|おやこ}で{参加|さんか}する。",
+      "japanese": "{親子|おやこ}⟦で→で：00502_de⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧。",
       "english": "To participate as parent and child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10430_oyako_ex2",
-      "japanese": "あの{二人|ふたり}は{親子|おやこ}だ。{顔|かお}がそっくりだ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{親子|おやこ}だ。⟦{顔|かお}→顔：00558_kao⟧⟦が→が：00051_ga⟧⟦そっくり→そっくり：00378_sokkuri⟧だ。",
       "english": "Those two are parent and child. They look just alike.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10430_oyako_ex3",
-      "japanese": "{親子|おやこ}{丼|どん}は{鶏肉|とりにく}と{卵|たまご}を{使|つか}った{料理|りょうり}だ。",
+      "japanese": "{親子|おやこ}{丼|どん}⟦は→は：00079_ha⟧⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧⟦と→と：00512_to⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{料理|りょうり}→料理：01523_ryouri⟧だ。",
       "english": "Oyakodon is a dish made with chicken and egg.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{親子|おやこ} refers to a parent and child together, or the relationship between them.\n\nWORD FORMATION:\n{親|おや} (parent) + {子|こ} (child)\n\nCOMMON EXPRESSIONS:\n- {親子|おやこ}{丼|どん}: chicken-and-egg rice bowl (literally \"parent-child bowl\" — the chicken is the \"parent\" and the egg is the \"child\")\n- {親子|おやこ}{関係|かんけい}: parent-child relationship\n- {親子|おやこ}で: together as parent and child\n- {親子|おやこ}{連|づ}れ: accompanied by one's child\n- {親子|おやこ}{二|に}{代|だい}: two generations of parent and child\n\nUSAGE:\n{親子|おやこ} does not specify whether the parent is mother or father — it applies to either. The reading おやこ is standard; the on'yomi reading しんし is rare and mainly found in legal/formal contexts.",
-  "cross_references": [],
+  "notes": "{親子|おやこ} refers to a parent and child together, or the relationship between them.\n\nFORMS:\n⟦{親|おや}→親：01357_oya⟧ (parent) + ⟦{子|こ}→子：09851_ko⟧ (child)\n\nCOMMON EXPRESSIONS:\n- {親子|おやこ}{丼|どん}: chicken-and-egg rice bowl (literally \"parent-child bowl\" — the chicken is the \"parent\" and the egg is the \"child\")\n- {親子|おやこ}{関係|かんけい}: parent-child relationship\n- {親子|おやこ}⟦で→で：00502_de⟧: together as parent and child\n- {親子|おやこ}{連|づ}れ: accompanied by one's child\n- {親子|おやこ}⟦{二|に}→二：00736_ni⟧⟦{代|だい}→〜代：28331_dai⟧: two generations of parent and child\n\nUSAGE:\n{親子|おやこ} does not specify whether the parent is mother or father — it applies to either. The reading おやこ is standard; the on'yomi reading しんし is rare and mainly found in legal/formal contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20277_boshi",
+      "reading": "ぼし",
+      "headword": "{母子|ぼし}",
+      "label": "mother and child"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-03-26T13:07:00Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

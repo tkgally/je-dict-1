@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29899_kumabachi_ex1",
-      "japanese": "クマバチが{飛|と}んでいる。",
+      "japanese": "クマバチ⟦が→が：00051_ga⟧⟦{飛|と}んでいる→飛ぶ：00759_tobu⟧。",
       "english": "A carpenter bee is flying about.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29899_kumabachi_ex2",
-      "japanese": "クマバチは{大|おお}きいが、おとなしい{蜂|はち}だ。",
+      "japanese": "クマバチ⟦は→は：00079_ha⟧⟦{大|おお}きい→大きい：00335_ookii⟧⟦が→が：00051_ga⟧、おとなしい⟦{蜂|はち}→蜂：02242_hachi⟧だ。",
       "english": "Carpenter bees are big, but they are gentle bees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29899_kumabachi_ex3",
-      "japanese": "クマバチは{木|き}に{穴|あな}を{開|あ}けて{巣|す}を{作|つく}る。",
+      "japanese": "クマバチ⟦は→は：00079_ha⟧⟦{木|き}→木：00524_ki⟧⟦に→に：00314_ni⟧⟦{穴|あな}→穴：01691_ana⟧⟦を→を：00422_wo⟧⟦{開|あ}けて→開ける：00563_akeru⟧⟦{巣|す}→巣：02140_su⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Carpenter bees make their nests by boring holes into wood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A large carpenter bee, named {熊|くま} (bear) + {蜂|はち} (bee) for its big, furry body. Often mistaken for a hornet because of its size and loud flight, but it is mild-tempered.\n\nCOMMON COLLOCATIONS:\n- クマバチが{木|き}に{巣|す}を{作|つく}る: a carpenter bee builds a nest in wood\n- おとなしいクマバチ: a docile carpenter bee\n\nSIMILAR WORDS:\n- スズメバチ: hornet — genuinely aggressive and dangerous, unlike the docile carpenter bee",
+  "notes": "A large carpenter bee, named ⟦{熊|くま}→熊：04343_kuma⟧ (bear) + ⟦{蜂|はち}→蜂：02242_hachi⟧ (bee) for its big, furry body. Often mistaken for a hornet because of its size and loud flight, but it is mild-tempered.\n\nCOMMON COLLOCATIONS:\n- クマバチ⟦が→が：00051_ga⟧⟦{木|き}→木：00524_ki⟧⟦に→に：00314_ni⟧⟦{巣|す}→巣：02140_su⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: a carpenter bee builds a nest in wood\n- おとなしいクマバチ: a docile carpenter bee\n\nSIMILAR WORDS:\n- スズメバチ: hornet — genuinely aggressive and dangerous, unlike the docile carpenter bee",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19390_suzumebachi",
+      "reading": "すずめばち",
+      "headword": "{雀蜂|すずめばち}",
+      "label": "hornet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-insect"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-insect"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "29721_shanetsu_ex1",
-      "japanese": "{遮熱|しゃねつ}シートを{張|は}る。",
+      "japanese": "{遮熱|しゃねつ}⟦シート→シート：10945_shiito⟧⟦を→を：00422_wo⟧⟦{張|は}る→張る：12583_haru⟧。",
       "english": "Put up a heat-shielding sheet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29721_shanetsu_ex2",
-      "japanese": "この{塗料|とりょう}には{遮熱|しゃねつ}{効果|こうか}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{塗料|とりょう}→塗料：24548_toryou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{遮熱|しゃねつ}⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This paint has a heat-shielding effect.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29721_shanetsu_ex3",
-      "japanese": "{窓|まど}に{遮熱|しゃねつ}フィルムを{貼|は}ると{室温|しつおん}の{上昇|じょうしょう}を{抑|おさ}えられる。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦に→に：00314_ni⟧{遮熱|しゃねつ}⟦フィルム→フィルム：02951_firumu⟧⟦を→を：00422_wo⟧⟦{貼|は}る→貼る：10447_haru⟧⟦と→と：00512_to⟧⟦{室温|しつおん}→室温：25310_shitsuon⟧⟦の→の：09472_no⟧⟦{上昇|じょうしょう}→上昇：11296_joushou⟧⟦を→を：00422_wo⟧⟦{抑|おさ}えられる→抑える：12806_osaeru⟧。",
       "english": "Applying heat-shielding film to the windows can curb the rise in room temperature.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Reflecting or blocking radiant heat (mainly sunlight) before it enters a space. Distinct from {断熱|だんねつ}, which slows heat transfer through a material.\n\nCOMMON COLLOCATIONS:\n- {遮熱|しゃねつ}{塗料|とりょう}: heat-shielding paint\n- {遮熱|しゃねつ}フィルム: heat-shielding film\n- {遮熱|しゃねつ}{効果|こうか}: heat-shielding effect\n\nSIMILAR WORDS:\n- {断熱|だんねつ}: insulation — slows heat moving through walls and materials; {遮熱|しゃねつ} reflects radiant heat away before it enters",
+  "notes": "Reflecting or blocking radiant heat (mainly sunlight) before it enters a space. Distinct from ⟦{断熱|だんねつ}→断熱：06427_dannetsu⟧, which slows heat transfer through a material.\n\nCOMMON COLLOCATIONS:\n- {遮熱|しゃねつ}⟦{塗料|とりょう}→塗料：24548_toryou⟧: heat-shielding paint\n- {遮熱|しゃねつ}⟦フィルム→フィルム：02951_firumu⟧: heat-shielding film\n- {遮熱|しゃねつ}⟦{効果|こうか}→効果：02726_kouka⟧: heat-shielding effect\n\nSIMILAR WORDS:\n- ⟦{断熱|だんねつ}→断熱：06427_dannetsu⟧: insulation — slows heat moving through walls and materials; {遮熱|しゃねつ} reflects radiant heat away before it enters",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06427_dannetsu",
+      "reading": "だんねつ",
+      "headword": "{断熱|だんねつ}",
+      "label": "insulation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-09T03:19:05Z",
-    "modified": "2026-07-09T03:19:05Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

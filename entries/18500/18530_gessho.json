@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18530_gessho_ex1",
-      "japanese": "{月初|げっしょ}にレポートを{提出|ていしゅつ}する。",
+      "japanese": "{月初|げっしょ}⟦に→に：00314_ni⟧⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧。",
       "english": "I submit the report at the beginning of the month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18530_gessho_ex2",
-      "japanese": "{月初|げっしょ}は{会議|かいぎ}が{多|おお}い。",
+      "japanese": "{月初|げっしょ}⟦は→は：00079_ha⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many meetings at the beginning of the month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18530_gessho_ex3",
-      "japanese": "{毎月|まいつき}{月初|げっしょ}に{目標|もくひょう}を{設定|せってい}して、{月末|げつまつ}に{振|ふ}り{返|かえ}るようにしている。",
+      "japanese": "⟦{毎月|まいつき}→毎月：00732_maitsuki⟧{月初|げっしょ}⟦に→に：00314_ni⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦して→する：00392_suru⟧、⟦{月末|げつまつ}→月末：00070_getsumatsu⟧⟦に→に：00314_ni⟧⟦{振|ふ}り{返|かえ}る→振り返る：04231_furikaeru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I set goals at the beginning of each month and review them at the end.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{月初|げっしょ} refers to the first few days of a calendar month. Commonly used in business and scheduling.\n\nMONTH DIVISIONS:\n- {月初|げっしょ}: beginning of the month\n- {月中|げっちゅう}: middle of the month\n- {月末|げつまつ}: end of the month\n\nCOMMON COLLOCATIONS:\n- {月初|げっしょ}ミーティング: start-of-month meeting\n- {月初|げっしょ}{処理|しょり}: beginning-of-month processing\n- {月初|げっしょ}に{提出|ていしゅつ}する: to submit at the beginning of the month\n\nUSAGE:\nMany Japanese companies organize their workflow around {月初|げっしょ} and {月末|げつまつ} cycles, with reports and reviews due at these times. The reading is げっしょ (not つきはじめ).",
+  "notes": "{月初|げっしょ} refers to the first few days of a calendar month. Commonly used in business and scheduling.\n\nMONTH DIVISIONS:\n- {月初|げっしょ}: beginning of the month\n- {月中|げっちゅう}: middle of the month\n- ⟦{月末|げつまつ}→月末：00070_getsumatsu⟧: end of the month\n\nCOMMON COLLOCATIONS:\n- {月初|げっしょ}⟦ミーティング→ミーティング：05506_miitingu⟧: start-of-month meeting\n- {月初|げっしょ}⟦{処理|しょり}→処理：03251_shori⟧: beginning-of-month processing\n- {月初|げっしょ}⟦に→に：00314_ni⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit at the beginning of the month\n\nUSAGE:\nMany Japanese companies organize their workflow around {月初|げっしょ} and ⟦{月末|げつまつ}→月末：00070_getsumatsu⟧ cycles, with reports and reviews due at these times. The reading is げっしょ (not つきはじめ).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +62,7 @@
       ]
     },
     "created": "2026-03-22T04:43:09Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -71,6 +71,20 @@
       "reading": "げつまつ",
       "headword": "{月末|げつまつ}",
       "label": "end of the month"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27355_tsukinakaba",
+      "reading": "つきなかば",
+      "headword": "{月|つき}{半|なか}ば",
+      "label": "middle of the month"
+    },
+    {
+      "type": "related",
+      "target_id": "28384_kongetsumatsu",
+      "reading": "こんげつまつ",
+      "headword": "{今月末|こんげつまつ}",
+      "label": "end of this month"
     }
   ]
 }

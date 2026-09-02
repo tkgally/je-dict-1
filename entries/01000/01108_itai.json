@@ -2,7 +2,7 @@
   "id": "01108_itai",
   "headword": "{痛|いた}い",
   "reading": "いたい",
-  "part_of_speech": "adjective (i-adjective)",
+  "part_of_speech": "i-adjective",
   "gloss": "painful, sore",
   "definitions": [
     {
@@ -129,7 +129,7 @@
     },
     {
       "id": "01108_itai_ex12",
-      "japanese": "⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧いなく⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧{痛|いた}いこと⟦だ→だ：09496_da⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
+      "japanese": "⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦いなく→いる：00495_iru⟧⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧{痛|いた}いこと⟦だ→だ：09496_da⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
       "english": "I think losing someone important is truly painful.",
       "notes": null,
       "has_audio": false,
@@ -138,7 +138,7 @@
       ]
     }
   ],
-  "notes": "{痛|いた}い is an i-adjective meaning painful or sore.\n\nFORMS:\n- {痛|いた}くない: not painful\n- {痛|いた}くて: and it hurts...\n- {痛|いた}かった: was painful\n\nCOMMON PATTERN:\nBody part + が + {痛|いた}い:\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧{痛|いた}い: I have a headache\n- ⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧{痛|いた}い: my stomach hurts\n- ⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧{痛|いた}い: my tooth hurts\n\nRELATED WORDS:\n- ⟦{痛|いた}み→痛み：01795_itami⟧: pain (noun)\n- ⟦{痛|いた}める→痛める：13613_itameru⟧: to hurt, to injure\n- ⟦{痛|いた}がる→痛がる：29259_itagaru⟧: to show signs of pain\n\nFIGURATIVE USE:\nCan describe emotional pain: ⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{痛|いた}い (my heart aches).",
+  "notes": "{痛|いた}い is an i-adjective meaning painful or sore.\n\nFORMS:\n- {痛|いた}く⟦ない→ない：01118_nai⟧: not painful\n- {痛|いた}くて: and it hurts...\n- {痛|いた}かった: was painful\n\nCOMMON PATTERN:\nBody part + ⟦が→が：00051_ga⟧ + {痛|いた}い:\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧{痛|いた}い: I have a headache\n- ⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧{痛|いた}い: my stomach hurts\n- ⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧{痛|いた}い: my tooth hurts\n\nRELATED WORDS:\n- ⟦{痛|いた}み→痛み：01795_itami⟧: pain (noun)\n- ⟦{痛|いた}める→痛める：13613_itameru⟧: to hurt, to injure\n- ⟦{痛|いた}がる→痛がる：29259_itagaru⟧: to show signs of pain\n\nUSAGE:\nCan describe emotional pain: ⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{痛|いた}い (my heart aches).",
   "cross_references": [
     {
       "type": "related",
@@ -160,11 +160,32 @@
       "headword": "{辛|つら}い",
       "label": "painful, hard to bear (emotional/physical)",
       "target_id": "01112_tsurai"
+    },
+    {
+      "type": "related",
+      "target_id": "29259_itagaru",
+      "reading": "いたがる",
+      "headword": "{痛|いた}がる",
+      "label": "to show signs of pain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02636_kurushii",
+      "reading": "くるしい",
+      "headword": "{苦|くる}しい",
+      "label": "painful, difficult, hard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03008_itamu",
+      "reading": "いたむ",
+      "headword": "{痛|いた}む",
+      "label": "to hurt, to ache, to feel pain"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:52:46Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

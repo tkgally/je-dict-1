@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14530_kousetsu_ex1",
-      "japanese": "{昨夜|さくや}から{降雪|こうせつ}が{続|つづ}いている。",
+      "japanese": "⟦{昨夜|さくや}→昨夜：02999_sakuya⟧⟦から→から：00504_kara⟧{降雪|こうせつ}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Snowfall has continued since last night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14530_kousetsu_ex2",
-      "japanese": "{降雪|こうせつ}の{影響|えいきょう}で{電車|でんしゃ}が{遅延|ちえん}している。",
+      "japanese": "{降雪|こうせつ}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{遅延|ちえん}→遅延：06749_chien⟧⟦している→する：00392_suru⟧。",
       "english": "Trains are delayed due to snowfall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14530_kousetsu_ex3",
-      "japanese": "{今年|ことし}は{降雪量|こうせつりょう}が{例年|れいねん}の{二倍|にばい}を{超|こ}えた{地域|ちいき}もある。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧{降雪量|こうせつりょう}⟦が→が：00051_ga⟧⟦{例年|れいねん}→例年：11561_reinen⟧⟦の→の：09472_no⟧⟦{二倍|にばい}→二倍：01485_nibai⟧⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are areas where snowfall this year has exceeded double the usual amount.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {降|こう} (to fall/descend) + {雪|せつ} (snow). A formal, written term commonly seen in weather forecasts and news reports.\n\nCOMMON COLLOCATIONS:\n- {降雪量|こうせつりょう} (amount of snowfall)\n- {降雪|こうせつ}{地域|ちいき} (snowfall area)\n- {大量|たいりょう}の{降雪|こうせつ} (heavy snowfall)\n- {降雪|こうせつ}の{影響|えいきょう} (effects of snowfall)\n\nUSAGE NOTE:\nIn everyday conversation, people say {雪|ゆき}が{降|ふ}る (it snows) rather than using {降雪|こうせつ}. {降雪|こうせつ} belongs to the formal register of weather terminology, similar to {降水|こうすい} (precipitation).",
+  "notes": "Compound of {降|こう} (to fall/descend) + {雪|せつ} (snow). A formal, written term commonly seen in weather forecasts and news reports.\n\nCOMMON COLLOCATIONS:\n- {降雪量|こうせつりょう} (amount of snowfall)\n- {降雪|こうせつ}⟦{地域|ちいき}→地域：01461_chiiki⟧ (snowfall area)\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧{降雪|こうせつ} (heavy snowfall)\n- {降雪|こうせつ}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧ (effects of snowfall)\n\nUSAGE:\nIn everyday conversation, people say ⟦{雪|ゆき}→雪：00584_yuki⟧⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧ (it snows) rather than using {降雪|こうせつ}. {降雪|こうせつ} belongs to the formal register of weather terminology, similar to ⟦{降水|こうすい}→降水：09807_kousui⟧ (precipitation).",
   "cross_references": [
     {
       "type": "contrast",
@@ -50,14 +56,18 @@
   ],
   "metadata": {
     "created": "2026-03-02T06:04:01Z",
-    "modified": "2026-04-30T10:24:44Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

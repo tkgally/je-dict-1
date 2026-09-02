@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30586_kuchigawarui_ex1",
-      "japanese": "{兄|あに}は{口|くち}が{悪|わる}い。",
+      "japanese": "⟦{兄|あに}→兄：00570_ani⟧⟦は→は：00079_ha⟧{口|くち}が{悪|わる}い。",
       "english": "My older brother is sharp-tongued.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30586_kuchigawarui_ex2",
-      "japanese": "{口|くち}が{悪|わる}いけれど、{本当|ほんとう}は{優|やさ}しい{人|ひと}だ。",
+      "japanese": "{口|くち}が{悪|わる}い⟦けれど→けれど：01990_keredo⟧、⟦{本当|ほんとう}→本当：00779_hontou⟧⟦は→は：00079_ha⟧{優|やさ}しい⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He talks harshly, but he's really a kind person.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30586_kuchigawarui_ex3",
-      "japanese": "{口|くち}が{悪|わる}いのは{直|なお}したほうがいいと{注意|ちゅうい}された。",
+      "japanese": "{口|くち}が{悪|わる}い⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{直|なお}した→直す：00869_naosu⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧⟦と→と：00512_to⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦された→する：00392_suru⟧。",
       "english": "I was told I'd better do something about how blunt I am.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30586_kuchigawarui_ex4",
-      "japanese": "この{監督|かんとく}は{口|くち}が{悪|わる}いことで{有名|ゆうめい}だが、{選手|せんしゅ}からの{信頼|しんらい}は{厚|あつ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{監督|かんとく}→監督：00185_kantoku⟧⟦は→は：00079_ha⟧{口|くち}が{悪|わる}いこと⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ⟦が→が：00051_ga⟧、⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦は→は：00079_ha⟧⟦{厚|あつ}い→厚い：00690_atsui⟧。",
       "english": "This coach is famous for his sharp tongue, but the players trust him deeply.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: {口|くち} (mouth, speech) + が + {悪|わる}い (bad).\n\nCOMMON PATTERNS:\n- {口|くち}が{悪|わる}い{人|ひと}: a sharp-tongued person\n- {口|くち}が{悪|わる}いけど{悪気|わるぎ}はない: blunt, but means no harm (a very common defense)\n- {口|くち}の{悪|わる}い{友人|ゆうじん}: a friend with a sharp tongue (attributive form uses の)\n\nSIMILAR WORDS:\n- {毒舌|どくぜつ}: caustic wit — a noun; wittier and often admired, as with a comedian\n- {失礼|しつれい}: rude — judges the act as improper, while {口|くち}が{悪|わる}い describes a habitual style\n- {口|くち}が{軽|かる}い: unable to keep a secret — about discretion, not harshness",
+  "notes": "STRUCTURE: ⟦{口|くち}→口：00560_kuchi⟧ (mouth, speech) + ⟦が→が：00051_ga⟧ + ⟦{悪|わる}い→悪い：00908_warui⟧ (bad).\n\nCOMMON PATTERNS:\n- {口|くち}が{悪|わる}い⟦{人|ひと}→人：00476_hito⟧: a sharp-tongued person\n- {口|くち}が{悪|わる}い⟦けど→けど：09477_kedo⟧⟦{悪気|わるぎ}→悪気：28204_warugi⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: blunt, but means no harm (a very common defense)\n- ⟦{口|くち}→口：00560_kuchi⟧⟦の→の：09472_no⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧: a friend with a sharp tongue (attributive form uses ⟦の→の：09472_no⟧)\n\nSIMILAR WORDS:\n- ⟦{毒舌|どくぜつ}→毒舌：13203_dokuzetsu⟧: caustic wit — a noun; wittier and often admired, as with a comedian\n- ⟦{失礼|しつれい}→失礼：01247_shitsurei⟧: rude — judges the act as improper, while {口|くち}が{悪|わる}い describes a habitual style\n- ⟦{口|くち}が{軽|かる}い→口が軽い：06884_kuchigakarui⟧: unable to keep a secret — about discretion, not harshness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13203_dokuzetsu",
+      "reading": "どくぜつ",
+      "headword": "{毒舌|どくぜつ}",
+      "label": "caustic wit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01247_shitsurei",
+      "reading": "しつれい",
+      "headword": "{失礼|しつれい}",
+      "label": "rude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06884_kuchigakarui",
+      "reading": "くちがかるい",
+      "headword": "{口|くち}が{軽|かる}い",
+      "label": "unable to keep a secret"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +94,6 @@
       "domain": []
     },
     "created": "2026-08-12T03:18:15Z",
-    "modified": "2026-08-12T03:18:15Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

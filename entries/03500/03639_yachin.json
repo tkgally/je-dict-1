@@ -54,7 +54,7 @@
     },
     {
       "id": "03639_yachin_ex5",
-      "japanese": "{家賃|やちん}⟦を→を：00422_wo⟧3⟦か{月|げつ}→ヶ月：00956_kagetsu⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧してしまい、⟦{大家|おおや}→大家：01907_ooya⟧さん⟦から→から：00504_kara⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
+      "japanese": "{家賃|やちん}⟦を→を：00422_wo⟧3⟦か{月|げつ}→ヶ月：00956_kagetsu⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧⟦して→する：00392_suru⟧しまい、⟦{大家|おおや}→大家：01907_ooya⟧さん⟦から→から：00504_kara⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I fell three months behind on rent and received a warning from the landlord.",
       "notes": "{家賃|やちん}⟦を→を：00422_wo⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧する = to be behind on rent; ⟦{大家|おおや}→大家：01907_ooya⟧ = landlord",
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {家賃|やちん} is the everyday word for residential rent — what a tenant pays a ⟦{大家|おおや}→大家：01907_ooya⟧ each month for a house or apartment. In contracts, and for office or commercial space, the more formal ⟦{賃料|ちんりょう}→賃料：30029_chinryou⟧ or ⟦テナント→テナント：23088_tenanto⟧⟦{料|りょう}→料：28172_ryou⟧ is used instead.\n\nCOMMON PATTERNS:\n・{家賃|やちん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay rent)\n・{家賃|やちん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{安|やす}い→安い：00464_yasui⟧ (rent is expensive/cheap)\n・{家賃|やちん}⟦を→を：00422_wo⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧する (to be behind on rent)\n・{家賃|やちん}⟦{込|こ}み→込み：28615_komi⟧ (rent included, e.g. in a quoted total)\n\nRELATED COSTS: when you sign a lease you normally also pay ⟦{敷金|しききん}→敷金：06079_shikikin⟧ (a refundable security deposit) and ⟦{礼金|れいきん}→礼金：06080_reikin⟧ (non-refundable key money) on top of the first month's {家賃|やちん}.",
+  "notes": "USAGE: {家賃|やちん} is the everyday word for residential rent — what a tenant pays a ⟦{大家|おおや}→大家：01907_ooya⟧ each month for a house or apartment. In contracts, and for office or commercial space, the more formal ⟦{賃料|ちんりょう}→賃料：30029_chinryou⟧ or ⟦テナント→テナント：23088_tenanto⟧⟦{料|りょう}→料：28172_ryou⟧ is used instead.\n\nCOMMON PATTERNS:\n- {家賃|やちん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay rent)\n- {家賃|やちん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{安|やす}い→安い：00464_yasui⟧ (rent is expensive/cheap)\n- {家賃|やちん}⟦を→を：00422_wo⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧⟦する→する：00392_suru⟧ (to be behind on rent)\n- {家賃|やちん}⟦{込|こ}み→込み：28615_komi⟧ (rent included, e.g. in a quoted total)\n\nRELATED COSTS: when you sign a lease you normally also pay ⟦{敷金|しききん}→敷金：06079_shikikin⟧ (a refundable security deposit) and ⟦{礼金|れいきん}→礼金：06080_reikin⟧ (non-refundable key money) on top of the first month's {家賃|やちん}.",
   "cross_references": [
     {
       "type": "synonym",
@@ -99,11 +99,25 @@
       "reading": "ちんたい",
       "headword": "{賃貸|ちんたい}",
       "label": "rental, lease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23256_koushinryou",
+      "reading": "こうしんりょう",
+      "headword": "{更新料|こうしんりょう}",
+      "label": "renewal fee (especially on a rental contract)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28478_tochidai",
+      "reading": "とちだい",
+      "headword": "{土地代|とちだい}",
+      "label": "land price"
     }
   ],
   "metadata": {
     "created": "2026-01-12T16:01:00Z",
-    "modified": "2026-08-08T15:19:53Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

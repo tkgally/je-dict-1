@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17958_jouhosuru_ex1",
-      "japanese": "お{互|たが}いに{譲歩|じょうほ}する{必要|ひつよう}がある。",
+      "japanese": "⟦お{互|たが}い→お互い：00336_otagai⟧⟦に→に：00314_ni⟧{譲歩|じょうほ}する⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to make concessions to each other.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17958_jouhosuru_ex2",
-      "japanese": "{相手|あいて}が{一歩|いっぽ}も{譲歩|じょうほ}しなかった。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦が→が：00051_ga⟧⟦{一歩|いっぽ}→一歩：08890_ippo⟧⟦も→も：00484_mo⟧{譲歩|じょうほ}しなかった。",
       "english": "The other side didn't concede a single step.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17958_jouhosuru_ex3",
-      "japanese": "{交渉|こうしょう}が{長引|ながび}いたが、{最終的|さいしゅうてき}に{双方|そうほう}が{譲歩|じょうほ}して{合意|ごうい}に{達|たっ}した。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧⟦{長引|ながび}いた→長引く：14473_nagabiku⟧⟦が→が：00051_ga⟧、⟦{最終的|さいしゅうてき}→最終的：13013_saishuuteki⟧⟦に→に：00314_ni⟧⟦{双方|そうほう}→双方：11859_souhou⟧⟦が→が：00051_ga⟧{譲歩|じょうほ}して⟦{合意|ごうい}→合意：05093_goui⟧⟦に→に：00314_ni⟧⟦{達|たっ}した→達する：02129_tassuru⟧。",
       "english": "The negotiations dragged on, but ultimately both sides made concessions and reached an agreement.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in negotiations, disputes, and relationship contexts. Often implies a deliberate, reasoned decision to yield rather than being forced to give in.\n\nCOMMON COLLOCATIONS:\n- {譲歩|じょうほ}を{求|もと}める (demand concessions)\n- {大幅|おおはば}な{譲歩|じょうほ} (major concession)\n- {一歩|いっぽ}も{譲歩|じょうほ}しない (not yield an inch)\n- {相互|そうご}{譲歩|じょうほ} (mutual compromise)\n\nSIMILAR WORDS:\n- {妥協|だきょう}する: to compromise — implies settling for a less-than-ideal outcome, sometimes with negative nuance\n- {折|お}れる: to give in — more colloquial; implies yielding under pressure\n- {歩|あゆ}み{寄|よ}る: to meet halfway — implies both sides making an effort to close the gap",
+  "notes": "USAGE:\nUsed in negotiations, disputes, and relationship contexts. Often implies a deliberate, reasoned decision to yield rather than being forced to give in.\n\nCOMMON COLLOCATIONS:\n- ⟦{譲歩|じょうほ}→譲歩：09143_jouho⟧⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (demand concessions)\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧な⟦{譲歩|じょうほ}→譲歩：09143_jouho⟧ (major concession)\n- ⟦{一歩|いっぽ}→一歩：08890_ippo⟧⟦も→も：00484_mo⟧{譲歩|じょうほ}しない (not yield an inch)\n- ⟦{相互|そうご}→相互：04045_sougo⟧⟦{譲歩|じょうほ}→譲歩：09143_jouho⟧ (mutual compromise)\n\nSIMILAR WORDS:\n- ⟦{妥協|だきょう}する→妥協する：17188_dakyousuru⟧: to compromise — implies settling for a less-than-ideal outcome, sometimes with negative nuance\n- ⟦{折|お}れる→折れる：01266_oreru⟧: to give in — more colloquial; implies yielding under pressure\n- ⟦{歩|あゆ}み{寄|よ}る→歩み寄る：13197_ayumiyoru⟧: to meet halfway — implies both sides making an effort to close the gap",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "だきょう",
       "headword": "{妥協|だきょう}",
       "label": "compromise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17188_dakyousuru",
+      "reading": "だきょうする",
+      "headword": "{妥協|だきょう}する",
+      "label": "to compromise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01266_oreru",
+      "reading": "おれる",
+      "headword": "{折|お}れる",
+      "label": "to give in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13197_ayumiyoru",
+      "reading": "あゆみよる",
+      "headword": "{歩|あゆ}み{寄|よ}る",
+      "label": "to meet halfway"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:00:53Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

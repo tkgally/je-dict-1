@@ -3,7 +3,7 @@
   "id": "13346_kaeru",
   "headword": "{換|か}える",
   "reading": "かえる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to exchange, to convert",
   "conjugation": {
     "type": "ichidan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13346_kaeru_ex1",
-      "japanese": "{円|えん}をドルに{換|か}える。",
+      "japanese": "⟦{円|えん}→円：00774_en⟧⟦を→を：00422_wo⟧⟦ドル→ドル：01554_doru⟧⟦に→に：00314_ni⟧{換|か}える。",
       "english": "To exchange yen for dollars.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13346_kaeru_ex2",
-      "japanese": "{古|ふる}い{切手|きって}を{現金|げんきん}に{換|か}えた。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{切手|きって}→切手：00718_kitte⟧⟦を→を：00422_wo⟧⟦{現金|げんきん}→現金：02716_genkin⟧⟦に→に：00314_ni⟧{換|か}えた。",
       "english": "I converted old stamps into cash.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13346_kaeru_ex3",
-      "japanese": "ポイントを{商品券|しょうひんけん}に{換|か}えることができます。",
+      "japanese": "⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧⟦{商品券|しょうひんけん}→商品券：22121_shouhinken⟧⟦に→に：00314_ni⟧{換|か}えること⟦が→が：00051_ga⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "You can exchange points for gift certificates.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOne of several かえる verbs that learners often confuse. The key distinction:\n- {換|か}える: to exchange or convert (swap A for B of comparable value)\n- {変|か}える: to change, to alter (transform the nature of something)\n- {代|か}える: to substitute (use B in place of A)\n- {替|か}える: to replace (put a new one where the old one was)\n\n{換|か}える emphasizes the idea of exchange or conversion, especially when value is preserved. It is most natural with currency, units of measurement, and tradeable items.\n\nCOMMON COLLOCATIONS:\n- {両替|りょうがえ}: currency exchange (noun form using the same kanji concept)\n- {換算|かんさん}する: to convert (units, figures)\n- {換気|かんき}する: to ventilate (exchange air)\n- ポイントを{換|か}える: to redeem points",
-  "cross_references": [],
+  "notes": "USAGE:\nOne of several かえる verbs that learners often confuse. The key distinction:\n- {換|か}える: to exchange or convert (swap A for B of comparable value)\n- ⟦{変|か}える→変える：01089_kaeru⟧: to change, to alter (transform the nature of something)\n- ⟦{代|か}える→代える：11717_kaeru⟧: to substitute (use B in place of A)\n- ⟦{替|か}える→替える：13399_kaeru⟧: to replace (put a new one where the old one was)\n\n{換|か}える emphasizes the idea of exchange or conversion, especially when value is preserved. It is most natural with currency, units of measurement, and tradeable items.\n\nCOMMON COLLOCATIONS:\n- ⟦{両替|りょうがえ}→両替：03680_ryougae⟧: currency exchange (noun form using the same kanji concept)\n- ⟦{換算|かんさん}→換算：07992_kansan⟧⟦する→する：00392_suru⟧: to convert (units, figures)\n- ⟦{換気|かんき}→換気：00172_kanki⟧⟦する→する：00392_suru⟧: to ventilate (exchange air)\n- ⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧{換|か}える: to redeem points",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "11717_kaeru",
+      "reading": "かえる",
+      "headword": "{代|か}える",
+      "label": "to substitute, to replace with"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T10:31:20Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

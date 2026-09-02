@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "19328_kakugetsu_ex1",
-      "japanese": "この{雑誌|ざっし}は{隔月|かくげつ}{発行|はっこう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦は→は：00079_ha⟧{隔月|かくげつ}⟦{発行|はっこう}→発行：03693_hakkou⟧だ。",
       "english": "This magazine is published bimonthly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19328_kakugetsu_ex2",
-      "japanese": "{隔月|かくげつ}で{会議|かいぎ}を{開|ひら}いている。",
+      "japanese": "{隔月|かくげつ}⟦で→で：00502_de⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦{開|ひら}いている→開く：01979_hiraku⟧。",
       "english": "We hold meetings every other month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19328_kakugetsu_ex3",
-      "japanese": "{健康|けんこう}{診断|しんだん}は{隔月|かくげつ}で{受|う}けることにしている。",
+      "japanese": "⟦{健康|けんこう}{診断|しんだん}→健康診断：05979_kenkoushindan⟧⟦は→は：00079_ha⟧{隔月|かくげつ}⟦で→で：00502_de⟧⟦{受|う}ける→受ける：01215_ukeru⟧ことにして⟦いる→いる：00495_iru⟧。",
       "english": "I make a point of getting health checkups every other month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The prefix {隔|かく} means 'at intervals of' and is used in several time-related compounds.\n\nCOMMON COLLOCATIONS:\n- {隔月|かくげつ}{発行|はっこう} — bimonthly publication\n- {隔月|かくげつ}で — every other month\n- {隔月|かくげつ}{刊|かん} — bimonthly journal\n\nRELATED TERMS:\n- {隔週|かくしゅう} — every other week\n- {隔年|かくねん} — every other year\n- {隔日|かくじつ} — every other day\n- {毎月|まいつき} — every month (without skipping)\n\nUSAGE:\nUsed mainly in formal or organizational contexts — schedules, publications, and regular events. In casual conversation, {二|に}ヶ{月|げつ}に{一回|いっかい} (once every two months) is more natural.",
+  "notes": "The prefix {隔|かく} means 'at intervals of' and is used in several time-related compounds.\n\nCOMMON COLLOCATIONS:\n- {隔月|かくげつ}⟦{発行|はっこう}→発行：03693_hakkou⟧ — bimonthly publication\n- {隔月|かくげつ}⟦で→で：00502_de⟧ — every other month\n- {隔月|かくげつ}{刊|かん} — bimonthly journal\n\nRELATED WORDS:\n- ⟦{隔週|かくしゅう}→隔週：15282_kakushuu⟧ — every other week\n- ⟦{隔年|かくねん}→隔年：19987_kakunen⟧ — every other year\n- ⟦{隔日|かくじつ}→隔日：16891_kakujitsu⟧ — every other day\n- ⟦{毎月|まいつき}→毎月：00732_maitsuki⟧ — every month (without skipping)\n\nUSAGE:\nUsed mainly in formal or organizational contexts — schedules, publications, and regular events. In casual conversation, ⟦{二|に}→二：00736_ni⟧ヶ{月|げつ}⟦に→に：00314_ni⟧⟦{一回|いっかい}→一回：08925_ikkai⟧ (once every two months) is more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15282_kakushuu",
+      "reading": "かくしゅう",
+      "headword": "{隔週|かくしゅう}",
+      "label": "every other week"
+    },
+    {
+      "type": "related",
+      "target_id": "19987_kakunen",
+      "reading": "かくねん",
+      "headword": "{隔年|かくねん}",
+      "label": "every other year"
+    },
+    {
+      "type": "related",
+      "target_id": "16891_kakujitsu",
+      "reading": "かくじつ",
+      "headword": "{隔日|かくじつ}",
+      "label": "every other day"
+    },
+    {
+      "type": "related",
+      "target_id": "00732_maitsuki",
+      "reading": "まいつき",
+      "headword": "{毎月|まいつき}",
+      "label": "every month"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-month"]
+      "semantic": [
+        "time-month"
+      ]
     },
     "created": "2026-03-25T08:39:01Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

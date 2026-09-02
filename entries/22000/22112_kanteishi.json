@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22112_kanteishi_ex1",
-      "japanese": "{不動産|ふどうさん}{鑑定士|かんていし}に{相談|そうだん}した。",
+      "japanese": "{不動産|ふどうさん}{鑑定士|かんていし}⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧。",
       "english": "I consulted a real estate appraiser.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22112_kanteishi_ex2",
-      "japanese": "{鑑定士|かんていし}がこの{絵画|かいが}を{本物|ほんもの}だと{判断|はんだん}した。",
+      "japanese": "{鑑定士|かんていし}⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦を→を：00422_wo⟧⟦{本物|ほんもの}→本物：03628_honmono⟧だ⟦と→と：00512_to⟧⟦{判断|はんだん}した→判断する：06062_handansuru⟧。",
       "english": "The appraiser determined that this painting is authentic.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22112_kanteishi_ex3",
-      "japanese": "{宝石|ほうせき}{鑑定士|かんていし}の{資格|しかく}を{取|と}るには、{長年|ながねん}の{経験|けいけん}と{専門|せんもん}{知識|ちしき}が{必要|ひつよう}だ。",
+      "japanese": "⟦{宝石|ほうせき}→宝石：03619_houseki⟧{鑑定士|かんていし}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦と→と：00512_to⟧⟦{専門|せんもん}{知識|ちしき}→専門知識：19008_senmonchishiki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "To obtain certification as a gemstone appraiser, you need years of experience and specialized knowledge.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {鑑定|かんてい} (appraisal, evaluation) + {士|し} (professional, certified person). The suffix {士|し} indicates a qualified professional, often one who holds a license or certification.\n\nCOMMON COLLOCATIONS:\n- {不動産|ふどうさん}{鑑定士|かんていし}: real estate appraiser\n- {宝石|ほうせき}{鑑定士|かんていし}: gemstone appraiser\n- {美術|びじゅつ}{鑑定士|かんていし}: art appraiser\n- {鑑定士|かんていし}の{資格|しかく}: appraiser's certification\n\nSIMILAR WORDS:\n- {鑑定人|かんていにん}: appraiser, expert witness — similar meaning, but used more in legal contexts\n- {査定|さてい}: assessment — the act of evaluating (often for insurance or tax purposes), not the person\n- {目利|めき}き: connoisseur, expert eye — an informal term for someone skilled at identifying quality or authenticity",
+  "notes": "Composed of ⟦{鑑定|かんてい}→鑑定：16030_kantei⟧ (appraisal, evaluation) + ⟦{士|し}→〜士：28352_shi⟧ (professional, certified person). The suffix ⟦{士|し}→〜士：28352_shi⟧ indicates a qualified professional, often one who holds a license or certification.\n\nCOMMON COLLOCATIONS:\n- {不動産|ふどうさん}{鑑定士|かんていし}: real estate appraiser\n- ⟦{宝石|ほうせき}→宝石：03619_houseki⟧{鑑定士|かんていし}: gemstone appraiser\n- ⟦{美術|びじゅつ}→美術：04447_bijutsu⟧{鑑定士|かんていし}: art appraiser\n- {鑑定士|かんていし}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧: appraiser's certification\n\nSIMILAR WORDS:\n- {鑑定人|かんていにん}: appraiser, expert witness — similar meaning, but used more in legal contexts\n- ⟦{査定|さてい}→査定：07518_satei⟧: assessment — the act of evaluating (often for insurance or tax purposes), not the person\n- ⟦{目利|めき}き→目利き：18598_mekiki⟧: connoisseur, expert eye — an informal term for someone skilled at identifying quality or authenticity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07518_satei",
+      "reading": "さてい",
+      "headword": "{査定|さてい}",
+      "label": "assessment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18598_mekiki",
+      "reading": "めきき",
+      "headword": "{目利|めき}き",
+      "label": "connoisseur, expert eye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

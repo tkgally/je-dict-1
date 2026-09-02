@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19076_dandanto_ex1",
-      "japanese": "{段々|だんだん}と{暖|あたた}かくなってきた。",
+      "japanese": "{段々|だんだん}と⟦{暖|あたた}かく→暖かい：00618_atatakai⟧⟦なって→なる：01970_naru⟧きた。",
       "english": "It has gradually gotten warmer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19076_dandanto_ex2",
-      "japanese": "{日本語|にほんご}が{段々|だんだん}と{上手|じょうず}になっている。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧{段々|だんだん}と⟦{上手|じょうず}→上手：00707_jouzu⟧になっている。",
       "english": "Your Japanese is getting better little by little.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19076_dandanto_ex3",
-      "japanese": "{空|そら}が{段々|だんだん}と{暗|くら}くなって、やがて{雨|あめ}が{降|ふ}り{始|はじ}めた。",
+      "japanese": "⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{段々|だんだん}と⟦{暗|くら}く→暗い：00647_kurai⟧⟦なって→なる：01970_naru⟧、⟦やがて→やがて：03637_yagate⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}り{始|はじ}めた→降り始める：22638_furihajimeru⟧。",
       "english": "The sky gradually grew darker, and before long it started to rain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{段々|だんだん}と expresses gradual change over time. The particle と is often omitted in casual speech, giving {段々|だんだん} alone.\n\nCOMMON PATTERNS:\n- {段々|だんだん}（と）〜てくる: to gradually come to ~ (approaching the present)\n- {段々|だんだん}（と）〜ていく: to gradually go on to ~ (moving away from the present)\n- {段々|だんだん}（と）〜なる: to gradually become ~\n\nEXAMPLE PATTERN:\n{段々|だんだん}と{分|わ}かってきた (I gradually came to understand).\n\nSIMILAR WORDS:\n- {徐々|じょじょ}に: gradually (more formal, written style)\n- {次第|しだい}に: gradually (emphasizes sequential progression)\n- {少|すこ}しずつ: little by little (focuses on small increments)\n- {段々|だんだん} is the most common and natural in everyday conversation",
+  "notes": "{段々|だんだん}と expresses gradual change over time. The particle ⟦と→と：00512_to⟧ is often omitted in casual speech, giving {段々|だんだん} alone.\n\nCOMMON PATTERNS:\n- {段々|だんだん}（と）〜てくる: to gradually come to ~ (approaching the present)\n- {段々|だんだん}（と）〜ていく: to gradually go on to ~ (moving away from the present)\n- {段々|だんだん}（と）〜⟦なる→なる：01970_naru⟧: to gradually become ~\n\nEXAMPLE PATTERN:\n{段々|だんだん}と⟦{分|わ}かって→分かる：00463_wakaru⟧きた (I gradually came to understand).\n\nSIMILAR WORDS:\n- ⟦{徐々|じょじょ}→徐々：03082_jojo⟧⟦に→に：00314_ni⟧: gradually (more formal, written style)\n- ⟦{次第|しだい}→次第：03175_shidai⟧⟦に→に：00314_ni⟧: gradually (emphasizes sequential progression)\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧: little by little (focuses on small increments)\n- {段々|だんだん} is the most common and natural in everyday conversation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04131_jojoni",
+      "reading": "じょじょに",
+      "headword": "{徐々|じょじょ}に",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05531_shidaini",
+      "reading": "しだいに",
+      "headword": "{次第|しだい}に",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20047_sukoshizutsu",
+      "reading": "すこしずつ",
+      "headword": "{少|すこ}しずつ",
+      "label": "little by little"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-03-24T09:31:42Z",
-    "modified": "2026-03-30T02:50:29Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

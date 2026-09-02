@@ -3,7 +3,7 @@
   "id": "11345_hetakuso",
   "headword": "{下手|へた}くそ",
   "reading": "へたくそ",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "terrible at, very clumsy",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11345_hetakuso_ex1",
-      "japanese": "{歌|うた}が{下手|へた}くそだ。",
+      "japanese": "⟦{歌|うた}→歌：02179_uta⟧⟦が→が：00051_ga⟧{下手|へた}くそだ。",
       "english": "You're terrible at singing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11345_hetakuso_ex2",
-      "japanese": "{下手|へた}くそな{絵|え}を{描|か}くなよ。",
+      "japanese": "{下手|へた}くそな⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧な⟦よ→よ：09475_yo⟧。",
       "english": "Don't draw such awful pictures.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11345_hetakuso_ex3",
-      "japanese": "{運転|うんてん}が{下手|へた}くそで、{何度|なんど}もエンストした。",
+      "japanese": "⟦{運転|うんてん}→運転：01335_unten⟧⟦が→が：00051_ga⟧{下手|へた}くそで、⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦エンスト→エンスト：29983_ensuto⟧⟦した→する：00392_suru⟧。",
       "english": "His driving was so bad that he stalled the engine multiple times.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "REGISTER:\nRude and blunt. Used when criticizing someone's skill harshly, often in casual speech or as a taunt. Avoid in polite settings.\n\nWORD FORMATION:\n{下手|へた} (unskilled) + くそ (intensifier from {糞|くそ}, a vulgar suffix meaning \"crappy\")\n\nSIMILAR WORDS:\n- {下手|へた}: unskilled (neutral)\n- {下手|へた}くそ: terrible at (rude, emphatic)\n- {不器用|ぶきよう}: clumsy, not dexterous (more neutral, broader)",
+  "notes": "REGISTER:\nRude and blunt. Used when criticizing someone's skill harshly, often in casual speech or as a taunt. Avoid in polite settings.\n\nFORMS:\n⟦{下手|へた}→下手：00703_heta⟧ (unskilled) + ⟦くそ→くそ：10783_kuso⟧ (intensifier from {糞|くそ}, a vulgar suffix meaning \"crappy\")\n\nSIMILAR WORDS:\n- ⟦{下手|へた}→下手：00703_heta⟧: unskilled (neutral)\n- {下手|へた}くそ: terrible at (rude, emphatic)\n- ⟦{不器用|ぶきよう}→不器用：06642_bukiyou⟧: clumsy, not dexterous (more neutral, broader)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{下手|へた}",
       "label": "base form",
       "target_id": "00703_heta"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06642_bukiyou",
+      "reading": "ぶきよう",
+      "headword": "{不器用|ぶきよう}",
+      "label": "clumsy, not dexterous"
     }
   ],
   "metadata": {
     "created": "2026-02-16T01:06:12Z",
-    "modified": "2026-06-30T06:28:36Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

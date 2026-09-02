@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29847_eihei_ex1",
-      "japanese": "{門|もん}の{前|まえ}に{衛兵|えいへい}が{立|た}っている。",
+      "japanese": "⟦{門|もん}→門：14603_mon⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{衛兵|えいへい}⟦が→が：00051_ga⟧⟦{立|た}っている→立つ：00758_tatsu⟧。",
       "english": "A guard is standing in front of the gate.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29847_eihei_ex2",
-      "japanese": "{宮殿|きゅうでん}の{衛兵|えいへい}は{微動|びどう}だにしなかった。",
+      "japanese": "⟦{宮殿|きゅうでん}→宮殿：12285_kyuuden⟧⟦の→の：09472_no⟧{衛兵|えいへい}⟦は→は：00079_ha⟧{微動|びどう}だに⟦しなかった→する：00392_suru⟧。",
       "english": "The palace guards did not move a muscle.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29847_eihei_ex3",
-      "japanese": "{観光客|かんこうきゃく}は{衛兵|えいへい}の{交代|こうたい}を{見|み}ようと{広場|ひろば}に{集|あつ}まった。",
+      "japanese": "⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦は→は：00079_ha⟧{衛兵|えいへい}⟦の→の：09472_no⟧⟦{交代|こうたい}→交代：14943_koutai⟧⟦を→を：00422_wo⟧⟦{見|み}よう→見る：00283_miru⟧⟦と→と：00512_to⟧⟦{広場|ひろば}→広場：00104_hiroba⟧⟦に→に：00314_ni⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Tourists gathered in the square to watch the changing of the guard.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {衛|えい} (to guard, defend) + {兵|へい} (soldier). Refers to a soldier posted to guard a location, often a ceremonial palace or government guard.\n\nCOMMON COLLOCATIONS:\n- {衛兵|えいへい}が{立|た}つ: for a guard to stand watch\n- {衛兵|えいへい}の{交代|こうたい}: the changing of the guard\n- {衛兵|えいへい}を{配置|はいち}する: to post sentries\n\nSIMILAR WORDS:\n- {番兵|ばんぺい}: sentry; guard on watch — emphasizes standing watch at a post\n- {護衛|ごえい}: escort; bodyguard — protects a specific person while moving, not a fixed post",
+  "notes": "Composed of {衛|えい} (to guard, defend) + ⟦{兵|へい}→兵：29510_hei⟧ (soldier). Refers to a soldier posted to guard a location, often a ceremonial palace or government guard.\n\nCOMMON COLLOCATIONS:\n- {衛兵|えいへい}⟦が→が：00051_ga⟧⟦{立|た}つ→立つ：00758_tatsu⟧: for a guard to stand watch\n- {衛兵|えいへい}⟦の→の：09472_no⟧⟦{交代|こうたい}→交代：14943_koutai⟧: the changing of the guard\n- {衛兵|えいへい}⟦を→を：00422_wo⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦する→する：00392_suru⟧: to post sentries\n\nSIMILAR WORDS:\n- ⟦{番兵|ばんぺい}→番兵：29857_banpei⟧: sentry; guard on watch — emphasizes standing watch at a post\n- ⟦{護衛|ごえい}→護衛：14225_goei⟧: escort; bodyguard — protects a specific person while moving, not a fixed post",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29857_banpei",
+      "reading": "ばんぺい",
+      "headword": "番兵",
+      "label": "sentry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14225_goei",
+      "reading": "ごえい",
+      "headword": "{護衛|ごえい}",
+      "label": "escort"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "military"
       ],
       "domain": []
     },
     "created": "2026-07-14T18:20:29Z",
-    "modified": "2026-07-14T18:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

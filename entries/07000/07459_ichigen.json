@@ -14,27 +14,33 @@
   "examples": [
     {
       "id": "07459_ichigen_ex1",
-      "japanese": "この{店|みせ}は{一見|いちげん}さんお{断|ことわ}りだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{一見|いちげん}さんお{断|ことわ}りだ。",
       "english": "This shop doesn't accept first-time customers.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07459_ichigen_ex2",
-      "japanese": "{一見|いちげん}の{客|きゃく}でも{歓迎|かんげい}してくれた。",
+      "japanese": "{一見|いちげん}⟦の→の：09472_no⟧⟦{客|きゃく}→客：00865_kyaku⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{歓迎|かんげい}して→歓迎する：26997_kangeisuru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "They welcomed me even though I was a first-time customer.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07459_ichigen_ex3",
-      "japanese": "{紹介|しょうかい}がないと{一見|いちげん}では{入|はい}れない{料亭|りょうてい}だ。",
+      "japanese": "⟦{紹介|しょうかい}→紹介：01432_shoukai⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧{一見|いちげん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{入|はい}れない→入る：00494_hairu⟧⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧だ。",
       "english": "It's a traditional restaurant that first-timers can't enter without an introduction.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMPOUND STRUCTURE:\n{一|いち} (one/first) + {見|げん} (seeing/meeting)\n\nLiterally \"first meeting/seeing\" - refers to the first time a customer visits.\n\nKEY PHRASE:\n「{一見|いちげん}さんお{断|ことわ}り」 is a famous expression meaning \"first-time customers not accepted.\" Common at:\n- Traditional {料亭|りょうてい} (high-end Japanese restaurants)\n- Exclusive お{茶屋|ちゃや} (teahouses in Kyoto)\n- Member-only establishments\n- High-end バー (bars)\n\nCULTURAL NOTE:\nThis practice exists to:\n- Maintain quality of service\n- Ensure customers understand etiquette\n- Protect privacy of regular customers\n- Preserve exclusive atmosphere\n\nTypically, a referral from a regular customer ({常連|じょうれん}) is needed for first-time entry.\n\nCOMMON COLLOCATIONS:\n・{一見|いちげん}さん - first-time customer (polite)\n・{一見|いちげん}の{客|きゃく} - first-time customer\n・{一見|いちげん}お{断|ことわ}り - no first-timers\n\nCONTRASTED WITH:\n・{常連|じょうれん} - regular customer\n・お{得意|とくい}さん - valued regular customer\n・{馴染|なじ}み - familiar customer\n\nNOTE ON READING:\nDifferent from {一見|いっけん} (at first glance) which has different kanji reading and meaning.",
+  "notes": "ETYMOLOGY:\n⟦{一|いち}→一：00705_ichi⟧ (one/first) + {見|げん} (seeing/meeting)\n\nLiterally \"first meeting/seeing\" - refers to the first time a customer visits.\n\nKEY PHRASE:\n「{一見|いちげん}さんお{断|ことわ}り」 is a famous expression meaning \"first-time customers not accepted.\" Common at:\n- Traditional ⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧ (high-end Japanese restaurants)\n- Exclusive ⟦お{茶屋|ちゃや}→お茶屋：08935_ochaya⟧ (teahouses in Kyoto)\n- Member-only establishments\n- High-end ⟦バー→バー：07060_baa⟧ (bars)\n\nCULTURAL NOTE:\nThis practice exists to:\n- Maintain quality of service\n- Ensure customers understand etiquette\n- Protect privacy of regular customers\n- Preserve exclusive atmosphere\n\nTypically, a referral from a regular customer (⟦{常連|じょうれん}→常連：06878_jouren⟧) is needed for first-time entry.\n\nCOMMON COLLOCATIONS:\n- {一見|いちげん}さん - first-time customer (polite)\n- {一見|いちげん}⟦の→の：09472_no⟧⟦{客|きゃく}→客：00865_kyaku⟧ - first-time customer\n- {一見|いちげん}お⟦{断|ことわ}り→断る：02102_kotowaru⟧ - no first-timers\n\nCONTRASTED WITH:\n- ⟦{常連|じょうれん}→常連：06878_jouren⟧ - regular customer\n- ⟦お{得意|とくい}→お得意：09990_otokui⟧さん - valued regular customer\n- ⟦{馴染|なじ}み→馴染み：07304_najimi⟧ - familiar customer\n\nNOTE ON READING:\nDifferent from {一見|いっけん} (at first glance) which has different kanji reading and meaning.",
   "cross_references": [
     {
       "type": "antonym",
@@ -42,18 +48,29 @@
       "headword": "{常連|じょうれん}",
       "label": "regular customer",
       "target_id": "06878_jouren"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07304_najimi",
+      "reading": "なじみ",
+      "headword": "{馴染|なじ}み",
+      "label": "familiar customer"
     }
   ],
   "metadata": {
     "created": "2026-01-19T13:50:31Z",
-    "modified": "2026-06-30T00:18:41Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

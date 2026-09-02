@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "27055_tooimukashi_ex1",
-      "japanese": "それは{遠|とお}い{昔|むかし}の{話|はなし}だ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{遠|とお}い{昔|むかし}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "That's a story from long ago.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27055_tooimukashi_ex2",
-      "japanese": "{遠|とお}い{昔|むかし}、この{辺|あた}りは{海|うみ}だったそうだ。",
+      "japanese": "{遠|とお}い{昔|むかし}、⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧⟦{海|うみ}→海：00556_umi⟧だったそうだ。",
       "english": "I hear that long ago, this area was the sea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27055_tooimukashi_ex3",
-      "japanese": "{子供|こども}の{頃|ころ}のことなんて{遠|とお}い{昔|むかし}のことで、もうほとんど{覚|おぼ}えていない。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦の→の：09472_no⟧こと⟦なんて→なんて：06918_nante⟧{遠|とお}い{昔|むかし}⟦の→の：09472_no⟧ことで、⟦もう→もう：00602_mou⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{覚|おぼ}えていない→覚える：00739_oboeru⟧。",
       "english": "Things from my childhood feel like the distant past — I can barely remember them anymore.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A phrase combining {遠|とお}い (distant/far) and {昔|むかし} (the past/old times). Functions as a set expression to emphasize how far back in time something was. Often used to begin stories or reminiscences, similar to English \"long, long ago.\"\n\nCOMMON COLLOCATIONS:\n- {遠|とお}い{昔|むかし}の{話|はなし} — a story from long ago\n- {遠|とお}い{昔|むかし}のこと — something from the distant past\n- {遠|とお}い{昔|むかし}に — long ago (adverbial use)\n\nSIMILAR EXPRESSIONS:\n- {大昔|おおむかし} — a very long time ago (single compound word; can feel even more distant)\n- {昔々|むかしむかし} — once upon a time (fairy-tale opening; more formulaic)\n- ずっと{前|まえ} — a long time ago (more casual, everyday expression)\n- {古|いにしえ} — antiquity; ancient times (literary/poetic register)",
+  "notes": "A phrase combining ⟦{遠|とお}い→遠い：00529_tooi⟧ (distant/far) and ⟦{昔|むかし}→昔：01515_mukashi⟧ (the past/old times). Functions as a set expression to emphasize how far back in time something was. Often used to begin stories or reminiscences, similar to English \"long, long ago.\"\n\nCOMMON COLLOCATIONS:\n- {遠|とお}い{昔|むかし}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧ — a story from long ago\n- {遠|とお}い{昔|むかし}⟦の→の：09472_no⟧こと — something from the distant past\n- {遠|とお}い{昔|むかし}⟦に→に：00314_ni⟧ — long ago (adverbial use)\n\nSIMILAR WORDS:\n- ⟦{大昔|おおむかし}→大昔：12186_oomukashi⟧ — a very long time ago (single compound word; can feel even more distant)\n- ⟦{昔々|むかしむかし}→昔々：27088_mukashimukashi⟧ — once upon a time (fairy-tale opening; more formulaic)\n- ⟦ずっと→ずっと：00912_zutto⟧⟦{前|まえ}→前：02255_mae⟧ — a long time ago (more casual, everyday expression)\n- {古|いにしえ} — antiquity; ancient times (literary/poetic register)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12186_oomukashi",
+      "reading": "おおむかし",
+      "headword": "{大昔|おおむかし}",
+      "label": "a very long time ago (single compound…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27088_mukashimukashi",
+      "reading": "むかしむかし",
+      "headword": "{昔々|むかしむかし}",
+      "label": "once upon a time (fairy-tale opening"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-05-06T15:13:14Z",
-    "modified": "2026-05-06T15:13:14Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

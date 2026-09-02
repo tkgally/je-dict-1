@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15689_souzen_ex1",
-      "japanese": "{会場|かいじょう}が{騒然|そうぜん}となった。",
+      "japanese": "⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦が→が：00051_ga⟧{騒然|そうぜん}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "The venue erupted into commotion.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15689_souzen_ex2",
-      "japanese": "そのニュースに{国中|くにじゅう}が{騒然|そうぜん}とした。",
+      "japanese": "⟦その→その：00993_sono⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦に→に：00314_ni⟧⟦{国中|くにじゅう}→国中：27766_kunijuu⟧⟦が→が：00051_ga⟧{騒然|そうぜん}とした。",
       "english": "The entire country was in an uproar over the news.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15689_souzen_ex3",
-      "japanese": "{突然|とつぜん}の{停電|ていでん}で{教室|きょうしつ}が{騒然|そうぜん}とした{雰囲気|ふんいき}に{包|つつ}まれた。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦{停電|ていでん}→停電：03544_teiden⟧⟦で→で：00502_de⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦が→が：00051_ga⟧{騒然|そうぜん}とした⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦に→に：00314_ni⟧⟦{包|つつ}まれた→包む：01226_tsutsumu⟧。",
       "english": "A sudden power outage filled the classroom with a tumultuous atmosphere.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\nA たる adjective (also called a と-adverb). Used with となる or とする to describe a state, or with とした to modify a noun.\n- {騒然|そうぜん}となる (to become agitated)\n- {騒然|そうぜん}とした{雰囲気|ふんいき} (a tumultuous atmosphere)\n\nCOMMON COLLOCATIONS:\n- {騒然|そうぜん}となる (to erupt in commotion)\n- {騒然|そうぜん}とした{空気|くうき} (an agitated atmosphere)\n- {場内|じょうない}が{騒然|そうぜん}とする (the venue becomes noisy)\n\nSIMILAR WORDS:\n- {騒|さわ}がしい: noisy, boisterous (everyday adjective)\n- {物議|ぶつぎ}を{醸|かも}す: to cause controversy (about a specific issue)",
+  "notes": "COMMON PATTERNS:\nA たる adjective (also called a ⟦と→と：00512_to⟧-adverb). Used with ⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧ or ⟦と→と：00512_to⟧⟦する→する：00392_suru⟧ to describe a state, or with とした to modify a noun.\n- {騒然|そうぜん}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧ (to become agitated)\n- {騒然|そうぜん}とした⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧ (a tumultuous atmosphere)\n\nCOMMON COLLOCATIONS:\n- {騒然|そうぜん}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧ (to erupt in commotion)\n- {騒然|そうぜん}とした⟦{空気|くうき}→空気：01390_kuuki⟧ (an agitated atmosphere)\n- {場内|じょうない}⟦が→が：00051_ga⟧{騒然|そうぜん}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧ (the venue becomes noisy)\n\nSIMILAR WORDS:\n- ⟦{騒|さわ}がしい→騒がしい：17685_sawagashii⟧: noisy, boisterous (everyday adjective)\n- ⟦{物議|ぶつぎ}を{醸|かも}す→物議を醸す：09980_butsugiwokamosu⟧: to cause controversy (about a specific issue)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "さわがしい",
       "headword": "{騒|さわ}がしい",
       "label": "noisy (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09980_butsugiwokamosu",
+      "reading": "ぶつぎをかもす",
+      "headword": "{物議|ぶつぎ}を{醸|かも}す",
+      "label": "to cause controversy"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:35:34Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

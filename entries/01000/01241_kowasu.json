@@ -159,7 +159,7 @@
     },
     {
       "id": "01241_kowasu_ex6",
-      "japanese": "⟦{おもちゃ}→おもちゃ：01334_omocha⟧⟦を→を：00422_wo⟧{壊|こわ}した。",
+      "japanese": "⟦おもちゃ→おもちゃ：01334_omocha⟧⟦を→を：00422_wo⟧{壊|こわ}した。",
       "english": "I broke the toy.",
       "notes": null,
       "has_audio": false,
@@ -169,7 +169,7 @@
     },
     {
       "id": "01241_kowasu_ex7",
-      "japanese": "⟦{パソコン}→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{壊|こわ}してしまった。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{壊|こわ}してしまった。",
       "english": "I accidentally broke the computer.",
       "notes": null,
       "has_audio": false,
@@ -208,11 +208,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{壊|こわ}れる→壊れる：00791_kowareru⟧ (intransitive, to break). Pattern: X⟦を→を：00422_wo⟧{壊|こわ}す (break X).\n\nASPECT: ている indicates completed action with result. {壊|こわ}している = 'has broken' or 'is breaking.'\n\nCOMMON PATTERNS:\n・⟦{機械|きかい}→機械：02366_kikai⟧⟦を→を：00422_wo⟧{壊|こわ}す (break a machine)\n・⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{壊|こわ}す (demolish a building)\n・⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{壊|こわ}す (ruin one's health)\n・⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦を→を：00422_wo⟧{壊|こわ}す (ruin the atmosphere)\n・⟦お{腹|なか}→お腹：00805_onaka⟧⟦を→を：00422_wo⟧{壊|こわ}す (upset one's stomach)\n\nCONTRAST:\n・{壊|こわ}す (transitive): (someone) breaks X\n・⟦{壊|こわ}れる→壊れる：00791_kowareru⟧ (intransitive): X breaks/is broken\n\nREGISTER: Neutral.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{壊|こわ}れる→壊れる：00791_kowareru⟧ (intransitive, to break). Pattern: X⟦を→を：00422_wo⟧{壊|こわ}す (break X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates completed action with result. {壊|こわ}して⟦いる→いる：00495_iru⟧ = 'has broken' or 'is breaking.'\n\nCOMMON PATTERNS:\n- ⟦{機械|きかい}→機械：02366_kikai⟧⟦を→を：00422_wo⟧{壊|こわ}す (break a machine)\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{壊|こわ}す (demolish a building)\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{壊|こわ}す (ruin one's health)\n- ⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦を→を：00422_wo⟧{壊|こわ}す (ruin the atmosphere)\n- ⟦お{腹|なか}→お腹：00805_onaka⟧⟦を→を：00422_wo⟧{壊|こわ}す (upset one's stomach)\n\nSIMILAR WORDS:\n- {壊|こわ}す (transitive): (someone) breaks X\n- ⟦{壊|こわ}れる→壊れる：00791_kowareru⟧ (intransitive): X breaks/is broken\n\nREGISTER: Neutral.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22507_hakaisuru",
+      "reading": "はかいする",
+      "headword": "{破壊|はかい}する",
+      "label": "to destroy"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:23:53Z",
-    "modified": "2026-05-14T19:03:46Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

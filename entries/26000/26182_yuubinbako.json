@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26182_yuubinbako_ex1",
-      "japanese": "{郵便箱|ゆうびんばこ}に{手紙|てがみ}が{届|とど}いていた。",
+      "japanese": "{郵便箱|ゆうびんばこ}⟦に→に：00314_ni⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦が→が：00051_ga⟧⟦{届|とど}いていた→届く：00899_todoku⟧。",
       "english": "There was a letter in the mailbox.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26182_yuubinbako_ex2",
-      "japanese": "{毎朝|まいあさ}{郵便箱|ゆうびんばこ}を{見|み}に{行|い}く。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{郵便箱|ゆうびんばこ}⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I go check the mailbox every morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26182_yuubinbako_ex3",
-      "japanese": "{玄関|げんかん}の{横|よこ}に{新|あたら}しい{郵便箱|ゆうびんばこ}を{取|と}り{付|つ}けた。",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦の→の：09472_no⟧⟦{横|よこ}→横：02984_yoko⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{郵便箱|ゆうびんばこ}⟦を→を：00422_wo⟧⟦{取|と}り{付|つ}けた→取り付ける：06797_toritsukeru⟧。",
       "english": "I installed a new mailbox beside the front entrance.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "{郵便箱|ゆうびんばこ} can refer to either a private mailbox for receiving mail or a public red postbox for sending mail. In everyday speech, {郵便受|ゆうびんう}け is more common for a home receiving box, while ポスト is widely used for both types.\n\nCOMMON COLLOCATIONS:\n- {郵便箱|ゆうびんばこ}を{開|あ}ける — to open the mailbox\n- {郵便箱|ゆうびんばこ}に{投函|とうかん}する — to drop into the mailbox\n- {郵便箱|ゆうびんばこ}が{いっぱい}だ — the mailbox is full\n\nSIMILAR WORDS:\n- ポスト — mailbox; postbox (loanword, very common in daily conversation)\n- {郵便受|ゆうびんう}け — mail slot; receiving mailbox (specifically for receiving)\n- {私書箱|ししょばこ} — post office box (PO box, rented at a post office)",
-  "cross_references": [],
+  "notes": "{郵便箱|ゆうびんばこ} can refer to either a private mailbox for receiving mail or a public red postbox for sending mail. In everyday speech, ⟦{郵便受|ゆうびんう}け→郵便受け：04889_yuubinuke⟧ is more common for a home receiving box, while ⟦ポスト→ポスト：02965_posuto⟧ is widely used for both types.\n\nCOMMON COLLOCATIONS:\n- {郵便箱|ゆうびんばこ}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧ — to open the mailbox\n- {郵便箱|ゆうびんばこ}⟦に→に：00314_ni⟧⟦{投函|とうかん}→投函：23418_toukan⟧⟦する→する：00392_suru⟧ — to drop into the mailbox\n- {郵便箱|ゆうびんばこ}⟦が→が：00051_ga⟧いっぱいだ — the mailbox is full\n\nSIMILAR WORDS:\n- ⟦ポスト→ポスト：02965_posuto⟧ — mailbox; postbox (loanword, very common in daily conversation)\n- ⟦{郵便受|ゆうびんう}け→郵便受け：04889_yuubinuke⟧ — mail slot; receiving mailbox (specifically for receiving)\n- {私書箱|ししょばこ} — post office box (PO box, rented at a post office)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02965_posuto",
+      "reading": "ぽすと",
+      "headword": "ポスト",
+      "label": "mailbox"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04889_yuubinuke",
+      "reading": "ゆうびんうけ",
+      "headword": "{郵便受|ゆうびんう}け",
+      "label": "mail slot"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "communication"
       ]
     },
     "created": "2026-04-29T16:33:18Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "15287_fushou",
   "headword": "{負傷|ふしょう}",
   "reading": "ふしょう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "injury; wound",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15287_fushou_ex1",
-      "japanese": "{事故|じこ}で{三人|さんにん}が{負傷|ふしょう}した。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧⟦{三人|さんにん}→三人：10978_sannin⟧⟦が→が：00051_ga⟧{負傷|ふしょう}⟦した→する：00392_suru⟧。",
       "english": "Three people were injured in the accident.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15287_fushou_ex2",
-      "japanese": "{選手|せんしゅ}は{試合中|しあいちゅう}に{負傷|ふしょう}して{退場|たいじょう}した。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧{試合中|しあいちゅう}⟦に→に：00314_ni⟧{負傷|ふしょう}⟦して→する：00392_suru⟧⟦{退場|たいじょう}→退場：14353_taijou⟧⟦した→する：00392_suru⟧。",
       "english": "The player was injured during the match and left the field.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15287_fushou_ex3",
-      "japanese": "{地震|じしん}で{多|おお}くの{住民|じゅうみん}が{負傷|ふしょう}し、{病院|びょういん}に{搬送|はんそう}された。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{多|おお}く⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧{負傷|ふしょう}し、⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{搬送|はんそう}→搬送：24543_hansou⟧⟦された→する：00392_suru⟧。",
       "english": "Many residents were injured in the earthquake and were transported to hospitals.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{負傷|ふしょう} is a formal term used primarily in news, military, and official contexts. The everyday equivalent is {怪我|けが}.\n\nCOMMON COLLOCATIONS:\n- {負傷者|ふしょうしゃ} (injured person, casualty)\n- {重傷|じゅうしょう}を{負|お}う (to sustain a serious injury)\n- {負傷|ふしょう}を{負|お}う (to sustain an injury)\n- {負傷兵|ふしょうへい} (wounded soldier)\n\nSIMILAR WORDS:\n- {負傷|ふしょう}: injury (formal, news/military)\n- {怪我|けが}: injury (everyday, general)\n- {傷|きず}: wound, injury (the wound itself)\n- {外傷|がいしょう}: trauma, external injury (medical)",
+  "notes": "USAGE:\n{負傷|ふしょう} is a formal term used primarily in news, military, and official contexts. The everyday equivalent is {怪我|けが}.\n\nCOMMON COLLOCATIONS:\n- ⟦{負傷者|ふしょうしゃ}→負傷者：27169_fushousha⟧ (injured person, casualty)\n- ⟦{重傷|じゅうしょう}→重傷：14414_juushou⟧⟦を→を：00422_wo⟧⟦{負|お}う→負う：02017_ou⟧ (to sustain a serious injury)\n- {負傷|ふしょう}⟦を→を：00422_wo⟧⟦{負|お}う→負う：02017_ou⟧ (to sustain an injury)\n- {負傷兵|ふしょうへい} (wounded soldier)\n\nSIMILAR WORDS:\n- {負傷|ふしょう}: injury (formal, news/military)\n- {怪我|けが}: injury (everyday, general)\n- ⟦{傷|きず}→傷：02201_kizu⟧: wound, injury (the wound itself)\n- ⟦{外傷|がいしょう}→外傷：12148_gaishou⟧: trauma, external injury (medical)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "けが",
       "headword": "けが",
       "label": "injury (colloquial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12148_gaishou",
+      "reading": "がいしょう",
+      "headword": "{外傷|がいしょう}",
+      "label": "trauma, external injury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22910_shougai",
+      "reading": "しょうがい",
+      "headword": "{傷害|しょうがい}",
+      "label": "injury"
     }
   ],
   "metadata": {
     "created": "2026-03-06T08:18:08Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

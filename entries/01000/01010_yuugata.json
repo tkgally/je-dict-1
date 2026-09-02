@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{夕方|ゆうがた} refers to evening or dusk—the time when the sun sets, roughly 4-7 PM.\n\nCOMPONENTS:\n⟦{夕|ゆう}→夕：noentry⟧ (evening) + ⟦{方|がた}→方：noentry⟧ (direction/time) = evening time\n\nTIME SEQUENCE:\n- ⟦{朝|あさ}→朝：02277_asa⟧: morning\n- ⟦{昼|ひる}→昼：00540_hiru⟧: noon/daytime\n- {夕方|ゆうがた}: evening/dusk\n- ⟦{夜|よる}→夜：00487_yoru⟧: night\n\nRELATED {夕|ゆう} WORDS:\n- ⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧: dinner\n- ⟦{夕日|ゆうひ}→夕日：04080_yuuhi⟧: sunset, setting sun\n- ⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧: evening glow\n- ⟦{夕刊|ゆうかん}→夕刊：18550_yuukan⟧: evening newspaper\n- ⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧: twilight, dusk\n\nCOMMON PATTERNS:\n- {夕方|ゆうがた}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to return home in the evening\n- {夕方|ゆうがた}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: evening comes\n- {夕方|ゆうがた}⟦から→から：00504_kara⟧: from evening\n\n{夕方|ゆうがた} often signals the end of work and commuting home time.",
+  "notes": "{夕方|ゆうがた} refers to evening or dusk—the time when the sun sets, roughly 4-7 PM.\n\nETYMOLOGY:\n⟦{夕|ゆう}→夕：noentry⟧ (evening) + ⟦{方|がた}→方：noentry⟧ (direction/time) = evening time\n\nTIME SEQUENCE:\n- ⟦{朝|あさ}→朝：02277_asa⟧: morning\n- ⟦{昼|ひる}→昼：00540_hiru⟧: noon/daytime\n- {夕方|ゆうがた}: evening/dusk\n- ⟦{夜|よる}→夜：00487_yoru⟧: night\n\nRELATED {夕|ゆう} WORDS:\n- ⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧: dinner\n- ⟦{夕日|ゆうひ}→夕日：04080_yuuhi⟧: sunset, setting sun\n- ⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧: evening glow\n- ⟦{夕刊|ゆうかん}→夕刊：18550_yuukan⟧: evening newspaper\n- ⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧: twilight, dusk\n\nCOMMON PATTERNS:\n- {夕方|ゆうがた}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to return home in the evening\n- {夕方|ゆうがた}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: evening comes\n- {夕方|ゆうがた}⟦から→から：00504_kara⟧: from evening\n\n{夕方|ゆうがた} often signals the end of work and commuting home time.",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,67 @@
       "reading": "よる",
       "headword": "{夜|よる}",
       "label": "night"
+    },
+    {
+      "type": "related",
+      "target_id": "03006_yuushoku",
+      "reading": "ゆうしょく",
+      "headword": "{夕食|ゆうしょく}",
+      "label": "dinner"
+    },
+    {
+      "type": "related",
+      "target_id": "04080_yuuhi",
+      "reading": "ゆうひ",
+      "headword": "{夕日|ゆうひ}",
+      "label": "sunset, setting sun"
+    },
+    {
+      "type": "related",
+      "target_id": "05045_yuuyake",
+      "reading": "ゆうやけ",
+      "headword": "{夕焼|ゆうや}け",
+      "label": "evening glow"
+    },
+    {
+      "type": "related",
+      "target_id": "18550_yuukan",
+      "reading": "ゆうかん",
+      "headword": "{夕刊|ゆうかん}",
+      "label": "evening newspaper"
+    },
+    {
+      "type": "related",
+      "target_id": "07682_yuugure",
+      "reading": "ゆうぐれ",
+      "headword": "{夕暮|ゆうぐ}れ",
+      "label": "twilight, dusk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10086_higure",
+      "reading": "ひぐれ",
+      "headword": "{日暮|ひぐ}れ",
+      "label": "dusk, nightfall, sunset time"
+    },
+    {
+      "type": "related",
+      "target_id": "10087_yoinokuchi",
+      "reading": "よいのくち",
+      "headword": "{宵|よい}の{口|くち}",
+      "label": "early evening, early part of the night"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12966_hirusugi",
+      "reading": "ひるすぎ",
+      "headword": "{昼過|ひるす}ぎ",
+      "label": "early afternoon, just after noon"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:45:56Z",
-    "modified": "2026-05-13T19:17:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

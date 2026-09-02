@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14640_mahou_ex1",
-      "japanese": "{魔法|まほう}をかける。",
+      "japanese": "{魔法|まほう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "Cast a spell.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14640_mahou_ex2",
-      "japanese": "{子供|こども}の{頃|ころ}、{魔法|まほう}が{使|つか}えたらいいなと{思|おも}っていた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}、{魔法|まほう}⟦が→が：00051_ga⟧⟦{使|つか}えたら→使う：00473_tsukau⟧⟦いい→いい：00118_ii⟧な⟦と→と：00512_to⟧⟦{思|おも}っていた→思う：00492_omou⟧。",
       "english": "When I was a child, I wished I could use magic.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14640_mahou_ex3",
-      "japanese": "まるで{魔法|まほう}のように{痛|いた}みが{消|き}えた。",
+      "japanese": "⟦まるで→まるで：03739_marude⟧{魔法|まほう}⟦のように→のように：30291_noyouni⟧⟦{痛|いた}み→痛み：01795_itami⟧⟦が→が：00051_ga⟧⟦{消|き}えた→消える：02520_kieru⟧。",
       "english": "The pain disappeared as if by magic.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {魔法|まほう}をかける (cast a spell)\n- {魔法|まほう}が{解|と}ける (a spell is broken)\n- {魔法|まほう}を{使|つか}う (use magic)\n- {魔法|まほう}のように (as if by magic)\n\nCOMMON COMPOUNDS:\n- {魔法使|まほうつか}い (magician, wizard)\n- {魔法|まほう}の{杖|つえ} (magic wand)\n- {魔法瓶|まほうびん} (thermos — literally \"magic bottle\")\n\nOften appears in fantasy fiction and fairy tales. {魔法瓶|まほうびん} (thermos) is a notable everyday compound that uses this word.",
+  "notes": "COMMON COLLOCATIONS:\n- {魔法|まほう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (cast a spell)\n- {魔法|まほう}⟦が→が：00051_ga⟧⟦{解|と}ける→解ける：04371_tokeru⟧ (a spell is broken)\n- {魔法|まほう}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (use magic)\n- {魔法|まほう}⟦のように→のように：30291_noyouni⟧ (as if by magic)\n\nCOMPOUNDS:\n- ⟦{魔法使|まほうつか}い→魔法使い：15532_mahoutsukai⟧ (magician, wizard)\n- {魔法|まほう}⟦の→の：09472_no⟧⟦{杖|つえ}→杖：12862_tsue⟧ (magic wand)\n- ⟦{魔法瓶|まほうびん}→魔法瓶：17387_mahoubin⟧ (thermos — literally \"magic bottle\")\n\nOften appears in fantasy fiction and fairy tales. ⟦{魔法瓶|まほうびん}→魔法瓶：17387_mahoubin⟧ (thermos) is a notable everyday compound that uses this word.",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,32 @@
       "reading": "まじょ",
       "headword": "{魔女|まじょ}",
       "label": "witch"
+    },
+    {
+      "type": "related",
+      "target_id": "03443_tejina",
+      "reading": "てじな",
+      "headword": "{手品|てじな}",
+      "label": "magic trick, sleight of hand"
+    },
+    {
+      "type": "related",
+      "target_id": "18438_isekai",
+      "reading": "いせかい",
+      "headword": "{異世界|いせかい}",
+      "label": "another world"
+    },
+    {
+      "type": "related",
+      "target_id": "24983_genjutsu",
+      "reading": "げんじゅつ",
+      "headword": "{幻術|げんじゅつ}",
+      "label": "illusionism"
     }
   ],
   "metadata": {
     "created": "2026-03-02T09:31:19Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

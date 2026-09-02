@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29689_doroppuin_ex1",
-      "japanese": "この{施設|しせつ}はドロップインで{使|つか}える。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦は→は：00079_ha⟧ドロップイン⟦で→で：00502_de⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "You can use this facility on a drop-in basis.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29689_doroppuin_ex2",
-      "japanese": "ドロップインなら{一日|いちにち}だけ{利用|りよう}できる。",
+      "japanese": "ドロップインなら⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦だけ→〜だけ：03093_dake⟧⟦{利用|りよう}できる→利用する：21735_riyousuru⟧。",
       "english": "With a drop-in, you can use it for just one day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29689_doroppuin_ex3",
-      "japanese": "{会員|かいいん}にならなくても、ドロップインで{一日|いちにち}コワーキングスペースを{利用|りよう}できる。",
+      "japanese": "⟦{会員|かいいん}→会員：02535_kaiin⟧⟦に→に：00314_ni⟧⟦ならなくて→なる：01970_naru⟧⟦も→も：00484_mo⟧、ドロップイン⟦で→で：00502_de⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦コワーキング→コワーキング：06406_kowaakingu⟧⟦スペース→スペース：11049_supeesu⟧⟦を→を：00422_wo⟧⟦{利用|りよう}できる→利用する：21735_riyousuru⟧。",
       "english": "Even without becoming a member, you can use the coworking space for a day as a drop-in.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From English \"drop-in.\" In Japanese it usually names a pay-as-you-go, single-visit way of using a coworking space, gym, or similar facility, as opposed to a monthly membership.\n\nCOMMON COLLOCATIONS:\n- ドロップインで{利用|りよう}する: to use on a drop-in basis\n- ドロップイン{料金|りょうきん}: drop-in fee; day-use rate\n- ドロップイン{可|か}: drop-ins welcome\n\nSIMILAR WORDS:\n- {会員|かいいん}: membership — regular, ongoing use under a contract, the usual alternative to a drop-in\n- {当日|とうじつ}{利用|りよう}: same-day use — using a facility on the day itself, without booking ahead",
+  "notes": "From English \"drop-in.\" In Japanese it usually names a pay-as-you-go, single-visit way of using a coworking space, gym, or similar facility, as opposed to a monthly membership.\n\nCOMMON COLLOCATIONS:\n- ドロップイン⟦で→で：00502_de⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to use on a drop-in basis\n- ドロップイン⟦{料金|りょうきん}→料金：03797_ryoukin⟧: drop-in fee; day-use rate\n- ドロップイン{可|か}: drop-ins welcome\n\nSIMILAR WORDS:\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧: membership — regular, ongoing use under a contract, the usual alternative to a drop-in\n- ⟦{当日|とうじつ}→当日：04558_toujitsu⟧⟦{利用|りよう}→利用：01752_riyou⟧: same-day use — using a facility on the day itself, without booking ahead",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02535_kaiin",
+      "reading": "かいいん",
+      "headword": "{会員|かいいん}",
+      "label": "membership"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
       "domain": []
     },
     "created": "2026-07-05T03:18:57Z",
-    "modified": "2026-07-05T03:18:57Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

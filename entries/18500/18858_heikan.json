@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "18858_heikan_ex1",
-      "japanese": "{閉館|へいかん}{時間|じかん}は{何時|なんじ}ですか。",
+      "japanese": "{閉館|へいかん}⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦{何時|なんじ}→何時：00973_nanji⟧です⟦か→か：09473_ka⟧。",
       "english": "What time does it close?",
       "sense_numbers": [
         1
@@ -120,7 +120,7 @@
     },
     {
       "id": "18858_heikan_ex2",
-      "japanese": "{図書館|としょかん}は{午後|ごご}{五時|ごじ}に{閉館|へいかん}する。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦は→は：00079_ha⟧⟦{午後|ごご}→午後：00544_gogo⟧{五時|ごじ}⟦に→に：00314_ni⟧{閉館|へいかん}⟦する→する：00392_suru⟧。",
       "english": "The library closes at 5 PM.",
       "sense_numbers": [
         1
@@ -130,7 +130,7 @@
     },
     {
       "id": "18858_heikan_ex3",
-      "japanese": "{閉館|へいかん}まであと{三十分|さんじゅっぷん}です。",
+      "japanese": "{閉館|へいかん}⟦まで→まで：00490_made⟧あと⟦{三十分|さんじゅっぷん}→三十分：09672_sanjuppun⟧です。",
       "english": "There are thirty minutes until closing.",
       "sense_numbers": [
         1
@@ -140,7 +140,7 @@
     },
     {
       "id": "18858_heikan_ex4",
-      "japanese": "{老朽化|ろうきゅうか}のため、{来年|らいねん}{閉館|へいかん}することが{決|き}まった。",
+      "japanese": "⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{来年|らいねん}→来年：00745_rainen⟧{閉館|へいかん}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "Due to deterioration, it was decided that the facility will close permanently next year.",
       "sense_numbers": [
         2
@@ -150,7 +150,7 @@
     },
     {
       "id": "18858_heikan_ex5",
-      "japanese": "{長年|ながねん}{親|した}しまれた{映画館|えいがかん}が{閉館|へいかん}して、{惜|お}しむ{声|こえ}が{多|おお}かった。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{親|した}しまれた→親しむ：14139_shitashimu⟧⟦{映画館|えいがかん}→映画館：01024_eigakan⟧⟦が→が：00051_ga⟧{閉館|へいかん}⟦して→する：00392_suru⟧、⟦{惜|お}しむ→惜しむ：09610_oshimu⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{多|おお}かった→多い：01127_ooi⟧。",
       "english": "The beloved cinema that had been enjoyed for many years closed, and many voiced their regret.",
       "sense_numbers": [
         2
@@ -160,7 +160,7 @@
     },
     {
       "id": "18858_heikan_ex6",
-      "japanese": "{閉館|へいかん}した{美術館|びじゅつかん}の{跡地|あとち}にマンションが{建|た}つらしい。",
+      "japanese": "{閉館|へいかん}⟦した→する：00392_suru⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦の→の：09472_no⟧⟦{跡地|あとち}→跡地：14281_atochi⟧⟦に→に：00314_ni⟧⟦マンション→マンション：01035_manshon⟧⟦が→が：00051_ga⟧⟦{建|た}つ→建つ：12544_tatsu⟧らしい。",
       "english": "Apparently an apartment building will be built on the site of the closed museum.",
       "sense_numbers": [
         2
@@ -169,11 +169,20 @@
       "notes": null
     }
   ],
-  "notes": "{閉館|へいかん} means the closing of a public facility such as a library, museum, or cinema. It covers both daily closing time and permanent shutdown.\n\nKANJI BREAKDOWN:\n{閉|へい} (close) + {館|かん} (large building/facility). The {館|かん} limits this word to public buildings — not shops or offices.\n\nSCOPE:\n- Libraries ({図書館|としょかん}), museums ({美術館|びじゅつかん}), cinemas ({映画館|えいがかん}), gymnasiums ({体育館|たいいくかん})\n- For shops, use {閉店|へいてん}\n- For offices or schools, use {閉鎖|へいさ}\n\nCOMMON PATTERNS:\n- {閉館|へいかん}{時間|じかん}: closing time\n- {閉館|へいかん}{日|び}: closed day\n- {閉館|へいかん}する: to close (for the day or permanently)\n\nCONTRAST:\nAntonym is {開館|かいかん} (opening of a facility).",
+  "notes": "{閉館|へいかん} means the closing of a public facility such as a library, museum, or cinema. It covers both daily closing time and permanent shutdown.\n\nWRITING:\n{閉|へい} (close) + ⟦{館|かん}→館：17308_kan⟧ (large building/facility). The ⟦{館|かん}→館：17308_kan⟧ limits this word to public buildings — not shops or offices.\n\nUSAGE:\n- Libraries (⟦{図書館|としょかん}→図書館：00580_toshokan⟧), museums (⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧), cinemas (⟦{映画館|えいがかん}→映画館：01024_eigakan⟧), gymnasiums (⟦{体育館|たいいくかん}→体育館：03111_taiikukan⟧)\n- For shops, use ⟦{閉店|へいてん}→閉店：09698_heiten⟧\n- For offices or schools, use ⟦{閉鎖|へいさ}→閉鎖：14524_heisa⟧\n\nCOMMON PATTERNS:\n- {閉館|へいかん}⟦{時間|じかん}→時間：00468_jikan⟧: closing time\n- {閉館|へいかん}{日|び}: closed day\n- {閉館|へいかん}⟦する→する：00392_suru⟧: to close (for the day or permanently)\n\nSIMILAR WORDS:\nAntonym is {開館|かいかん} (opening of a facility).",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18859_kyuukan",
+      "reading": "きゅうかん",
+      "headword": "{休館|きゅうかん}",
+      "label": "temporary closure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -190,6 +199,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T05:34:25Z",
-    "modified": "2026-03-29T07:30:48Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

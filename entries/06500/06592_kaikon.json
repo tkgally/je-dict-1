@@ -23,7 +23,7 @@
     },
     {
       "id": "06592_kaikon_ex2",
-      "japanese": "⟦あの→あの：00915_ano⟧⟦{時|とき}→時：02918_toki⟧⟦の→の：09472_no⟧⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦を→を：00422_wo⟧{悔恨|かいこん}している。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{時|とき}→時：02918_toki⟧⟦の→の：09472_no⟧⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦を→を：00422_wo⟧{悔恨|かいこん}⟦している→する：00392_suru⟧。",
       "english": "I deeply regret the decision I made at that time.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "FORMAL REGISTER:\nThis is a literary/formal word. In everyday speech, ⟦{後悔|こうかい}→後悔：02738_koukai⟧ (regret) is more common.\n\nCOMMON EXPRESSIONS:\n・{悔恨|かいこん}⟦の→の：09472_no⟧⟦{念|ねん}→念：12766_nen⟧ (feeling of remorse)\n・{悔恨|かいこん}⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧ (tears of remorse)\n・{悔恨|かいこん}⟦に→に：00314_ni⟧⟦{満|み}ちた→満ちる：02428_michiru⟧ (filled with remorse)\n\nRELATED TERMS:\n・⟦{後悔|こうかい}→後悔：02738_koukai⟧ (regret) - more common\n・⟦{自責|じせき}→自責：14885_jiseki⟧ (self-reproach)\n・⟦{反省|はんせい}→反省：03570_hansei⟧ (reflection, self-examination)\n・⟦{懺悔|ざんげ}→懺悔：18027_zange⟧ (confession, repentance)",
+  "notes": "FORMAL REGISTER:\nThis is a literary/formal word. In everyday speech, ⟦{後悔|こうかい}→後悔：02738_koukai⟧ (regret) is more common.\n\nCOMMON EXPRESSIONS:\n- {悔恨|かいこん}⟦の→の：09472_no⟧⟦{念|ねん}→念：12766_nen⟧ (feeling of remorse)\n- {悔恨|かいこん}⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧ (tears of remorse)\n- {悔恨|かいこん}⟦に→に：00314_ni⟧⟦{満|み}ちた→満ちる：02428_michiru⟧ (filled with remorse)\n\nRELATED WORDS:\n- ⟦{後悔|こうかい}→後悔：02738_koukai⟧ (regret) - more common\n- ⟦{自責|じせき}→自責：14885_jiseki⟧ (self-reproach)\n- ⟦{反省|はんせい}→反省：03570_hansei⟧ (reflection, self-examination)\n- ⟦{懺悔|ざんげ}→懺悔：18027_zange⟧ (confession, repentance)",
   "cross_references": [
     {
       "type": "synonym",
@@ -48,11 +48,32 @@
       "reading": "こうかい",
       "headword": "{後悔|こうかい}",
       "label": "more common"
+    },
+    {
+      "type": "related",
+      "target_id": "14885_jiseki",
+      "reading": "じせき",
+      "headword": "{自責|じせき}",
+      "label": "self-reproach"
+    },
+    {
+      "type": "related",
+      "target_id": "03570_hansei",
+      "reading": "はんせい",
+      "headword": "{反省|はんせい}",
+      "label": "reflection, self-examination"
+    },
+    {
+      "type": "related",
+      "target_id": "18027_zange",
+      "reading": "ざんげ",
+      "headword": "{懺悔|ざんげ}",
+      "label": "confession, repentance"
     }
   ],
   "metadata": {
     "created": "2026-01-18T00:57:28Z",
-    "modified": "2026-07-22T15:22:21Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

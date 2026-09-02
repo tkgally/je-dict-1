@@ -3,7 +3,7 @@
   "id": "18076_ribaundo",
   "headword": "リバウンド",
   "reading": "りばうんど",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rebound; weight regain after dieting",
   "conjugation": {
     "type": "suru",
@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "18076_ribaundo_ex1",
-      "japanese": "ダイエットの{後|あと}にリバウンドした。",
+      "japanese": "⟦ダイエット→ダイエット：17678_daietto⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦に→に：00314_ni⟧リバウンド⟦した→する：00392_suru⟧。",
       "english": "I gained the weight back after the diet.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "18076_ribaundo_ex2",
-      "japanese": "{急激|きゅうげき}なダイエットはリバウンドしやすい。",
+      "japanese": "⟦{急激|きゅうげき}→急激：02633_kyuugeki⟧な⟦ダイエット→ダイエット：17678_daietto⟧⟦は→は：00079_ha⟧リバウンドしやすい。",
       "english": "Extreme dieting tends to cause weight rebound.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "18076_ribaundo_ex3",
-      "japanese": "リバウンドしないためには{生活習慣|せいかつしゅうかん}を{変|か}えることが{大切|たいせつ}だ。",
+      "japanese": "リバウンド⟦しない→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{生活習慣|せいかつしゅうかん}→生活習慣：19568_seikatsushuukan⟧⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "To avoid weight rebound, it's important to change your lifestyle habits.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "18076_ribaundo_ex4",
-      "japanese": "リバウンドを{取|と}る。",
+      "japanese": "リバウンド⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To grab a rebound.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "18076_ribaundo_ex5",
-      "japanese": "{彼|かれ}はリバウンドの{強|つよ}い{選手|せんしゅ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧リバウンド⟦の→の：09472_no⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧だ。",
       "english": "He's a player who's strong at rebounding.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "18076_ribaundo_ex6",
-      "japanese": "{今日|きょう}の{試合|しあい}ではリバウンドで{負|ま}けていた。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧で⟦は→は：00079_ha⟧リバウンド⟦で→で：00502_de⟧⟦{負|ま}けていた→負ける：01134_makeru⟧。",
       "english": "We were losing on rebounds in today's game.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese, the diet-related meaning (sense 1) is far more common in everyday conversation than the sports meaning. When Japanese people say リバウンド, they almost always mean gaining weight back after a diet.\n\nCOMMON COLLOCATIONS:\n- リバウンドする: to rebound (gain weight back)\n- リバウンドを{防|ふせ}ぐ: to prevent rebound\n- リバウンドしやすい: prone to weight rebound\n- リバウンドを{取|と}る: to grab a rebound (sports)",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japanese, the diet-related meaning (sense 1) is far more common in everyday conversation than the sports meaning. When Japanese people say リバウンド, they almost always mean gaining weight back after a diet.\n\nCOMMON COLLOCATIONS:\n- リバウンド⟦する→する：00392_suru⟧: to rebound (gain weight back)\n- リバウンド⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent rebound\n- リバウンドしやすい: prone to weight rebound\n- リバウンド⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to grab a rebound (sports)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25404_yurimodoshi",
+      "reading": "ゆりもどし",
+      "headword": "{揺|ゆ}り{戻|もど}し",
+      "label": "rebound"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T01:11:53Z",
-    "modified": "2026-07-25T06:43:35Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -186,7 +194,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "12812_kakuchou",
   "headword": "{拡張|かくちょう}",
   "reading": "かくちょう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "expansion; extension; enlargement",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12812_kakuchou_ex1",
-      "japanese": "{事業|じぎょう}を{海外|かいがい}に{拡張|かくちょう}する。",
+      "japanese": "⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦を→を：00422_wo⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧{拡張|かくちょう}⟦する→する：00392_suru⟧。",
       "english": "To expand the business overseas.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12812_kakuchou_ex2",
-      "japanese": "{道路|どうろ}の{拡張|かくちょう}{工事|こうじ}が{行|おこな}われている。",
+      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧{拡張|かくちょう}⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "Road widening construction is underway.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12812_kakuchou_ex3",
-      "japanese": "ブラウザの{拡張|かくちょう}{機能|きのう}をインストールして、{作業|さぎょう}{効率|こうりつ}が{上|あ}がった。",
+      "japanese": "⟦ブラウザ→ブラウザ：04872_burauza⟧⟦の→の：09472_no⟧{拡張|かくちょう}{機能|きのう}⟦を→を：00422_wo⟧⟦インストールして→インストールする：27107_insutoorusuru⟧、⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "I installed a browser extension and my work efficiency improved.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{拡張|かくちょう} is used broadly for making things bigger or wider — from physical expansion (roads, buildings) to abstract expansion (business, influence). In computing, {拡張|かくちょう}{機能|きのう} means \"extension\" or \"add-on.\"\n\nCOMPARISON WITH SIMILAR WORDS:\n- {拡大|かくだい}: to enlarge or magnify (often visual); broader use\n- {拡張|かくちょう}: to extend or expand (scope, capacity, area); often implies adding to an existing base\n- {膨張|ぼうちょう}: to swell or inflate (physical or economic)\n\nCOMMON COLLOCATIONS:\n- {事業|じぎょう}{拡張|かくちょう}: business expansion\n- {領土|りょうど}の{拡張|かくちょう}: territorial expansion\n- {拡張|かくちょう}{工事|こうじ}: expansion construction\n- {拡張|かくちょう}{機能|きのう}: extension, add-on (computing)\n- {拡張|かくちょう}{子|し}: file extension (computing)",
+  "notes": "USAGE:\n{拡張|かくちょう} is used broadly for making things bigger or wider — from physical expansion (roads, buildings) to abstract expansion (business, influence). In computing, {拡張|かくちょう}{機能|きのう} means \"extension\" or \"add-on.\"\n\nCOMPARISON WITH SIMILAR WORDS:\n- ⟦{拡大|かくだい}→拡大：02553_kakudai⟧: to enlarge or magnify (often visual); broader use\n- {拡張|かくちょう}: to extend or expand (scope, capacity, area); often implies adding to an existing base\n- ⟦{膨張|ぼうちょう}→膨張：11082_bouchou⟧: to swell or inflate (physical or economic)\n\nCOMMON COLLOCATIONS:\n- ⟦{事業|じぎょう}→事業：11421_jigyou⟧{拡張|かくちょう}: business expansion\n- ⟦{領土|りょうど}→領土：15711_ryoudo⟧⟦の→の：09472_no⟧{拡張|かくちょう}: territorial expansion\n- {拡張|かくちょう}⟦{工事|こうじ}→工事：00244_kouji⟧: expansion construction\n- {拡張|かくちょう}{機能|きのう}: extension, add-on (computing)\n- {拡張|かくちょう}{子|し}: file extension (computing)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,25 @@
       "reading": "ぼうちょう",
       "headword": "{膨張|ぼうちょう}",
       "label": "to swell, inflate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18851_zousetsu",
+      "reading": "ぞうせつ",
+      "headword": "{増設|ぞうせつ}",
+      "label": "expansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26106_kibokakudai",
+      "reading": "きぼかくだい",
+      "headword": "{規模|きぼ}{拡大|かくだい}",
+      "label": "expansion of scale"
     }
   ],
   "metadata": {
     "created": "2026-02-22T11:07:00Z",
-    "modified": "2026-04-27T09:13:01Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

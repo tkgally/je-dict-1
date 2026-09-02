@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "26624_ransou_ex1",
-      "japanese": "{車|くるま}が{乱走|らんそう}して{歩道|ほどう}に{突|つ}っ{込|こ}んだ。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{乱走|らんそう}⟦して→する：00392_suru⟧⟦{歩道|ほどう}→歩道：03723_hodou⟧⟦に→に：00314_ni⟧⟦{突|つ}っ{込|こ}んだ→突っ込む：07000_tsukkomu⟧。",
       "english": "The car went out of control and crashed into the sidewalk.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "26624_ransou_ex2",
-      "japanese": "{暴走族|ぼうそうぞく}が{深夜|しんや}の{街|まち}を{乱走|らんそう}した。",
+      "japanese": "⟦{暴走族|ぼうそうぞく}→暴走族：23108_bousouzoku⟧⟦が→が：00051_ga⟧⟦{深夜|しんや}→深夜：00368_shinya⟧⟦の→の：09472_no⟧⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧{乱走|らんそう}⟦した→する：00392_suru⟧。",
       "english": "A biker gang drove recklessly through the city late at night.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "26624_ransou_ex3",
-      "japanese": "{飲酒|いんしゅ}{運転|うんてん}の{車|くるま}が{住宅街|じゅうたくがい}を{乱走|らんそう}し、{複数|ふくすう}の{車両|しゃりょう}に{衝突|しょうとつ}する{事故|じこ}が{発生|はっせい}した。",
+      "japanese": "⟦{飲酒|いんしゅ}{運転|うんてん}→飲酒運転：18486_inshuunten⟧⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧⟦{住宅街|じゅうたくがい}→住宅街：09394_juutakugai⟧⟦を→を：00422_wo⟧{乱走|らんそう}し、⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧⟦{車両|しゃりょう}→車両：05297_sharyou⟧⟦に→に：00314_ni⟧⟦{衝突|しょうとつ}する→衝突する：26785_shoutotsusuru⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "A drunk-driving car drove recklessly through a residential area, causing an accident involving multiple vehicles.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "26624_ransou_ex4",
-      "japanese": "{犬|いぬ}が{公園|こうえん}で{乱走|らんそう}している。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{乱走|らんそう}⟦している→する：00392_suru⟧。",
       "english": "A dog is running around wildly in the park.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "26624_ransou_ex5",
-      "japanese": "{子供|こども}たちが{教室|きょうしつ}で{乱走|らんそう}して{先生|せんせい}に{叱|しか}られた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦で→で：00502_de⟧{乱走|らんそう}⟦して→する：00392_suru⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{叱|しか}られた→叱る：01202_shikaru⟧。",
       "english": "The children ran around wildly in the classroom and were scolded by the teacher.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "26624_ransou_ex6",
-      "japanese": "パニックになった{馬|うま}が{乱走|らんそう}して、{周囲|しゅうい}の{人々|ひとびと}を{驚|おどろ}かせた。",
+      "japanese": "⟦パニック→パニック：11171_panikku⟧になった⟦{馬|うま}→馬：01865_uma⟧⟦が→が：00051_ga⟧{乱走|らんそう}⟦して→する：00392_suru⟧、⟦{周囲|しゅうい}→周囲：03206_shuui⟧⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦を→を：00422_wo⟧⟦{驚|おどろ}かせた→驚く：01255_odoroku⟧。",
       "english": "The panicked horse ran amok, startling the people around it.",
       "sense_numbers": [
         2
@@ -79,20 +79,44 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {乱|らん} (disorder/chaos) and {走|そう} (run). Describes uncontrolled, dangerous movement, most commonly applied to vehicles. In news reporting, {乱走|らんそう} typically implies a vehicle that has gone out of control and poses danger to bystanders.\n\nCOMMON COLLOCATIONS:\n- {車|くるま}が{乱走|らんそう}する: a car runs out of control\n- {乱走|らんそう}{事故|じこ}: accident caused by reckless driving\n- {街中|まちなか}を{乱走|らんそう}する: drive/run wildly through the streets\n\nSIMILAR WORDS:\n- {暴走|ぼうそう}: reckless driving; running out of control (more common, emphasizes violent or dangerous speed)\n- {蛇行|だこう}: weaving; swerving (driving in a zigzag pattern)\n- {逃走|とうそう}: fleeing; running away (running to escape, not necessarily reckless)",
+  "notes": "A compound of {乱|らん} (disorder/chaos) and {走|そう} (run). Describes uncontrolled, dangerous movement, most commonly applied to vehicles. In news reporting, {乱走|らんそう} typically implies a vehicle that has gone out of control and poses danger to bystanders.\n\nCOMMON COLLOCATIONS:\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{乱走|らんそう}⟦する→する：00392_suru⟧: a car runs out of control\n- {乱走|らんそう}⟦{事故|じこ}→事故：00851_jiko⟧: accident caused by reckless driving\n- {街中|まちなか}⟦を→を：00422_wo⟧{乱走|らんそう}⟦する→する：00392_suru⟧: drive/run wildly through the streets\n\nSIMILAR WORDS:\n- ⟦{暴走|ぼうそう}→暴走：09481_bousou⟧: reckless driving; running out of control (more common, emphasizes violent or dangerous speed)\n- ⟦{蛇行|だこう}→蛇行：09036_dakou⟧: weaving; swerving (driving in a zigzag pattern)\n- ⟦{逃走|とうそう}→逃走：14403_tousou⟧: fleeing; running away (running to escape, not necessarily reckless)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "schema_version": "2.0",
     "created": "2026-05-03T00:00:00Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
-  "cross_references": []
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09481_bousou",
+      "reading": "ぼうそう",
+      "headword": "{暴走|ぼうそう}",
+      "label": "reckless driving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09036_dakou",
+      "reading": "だこう",
+      "headword": "{蛇行|だこう}",
+      "label": "weaving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14403_tousou",
+      "reading": "とうそう",
+      "headword": "{逃走|とうそう}",
+      "label": "fleeing"
+    }
+  ]
 }

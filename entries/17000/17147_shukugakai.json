@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17147_shukugakai_ex1",
-      "japanese": "{祝賀会|しゅくがかい}に{出席|しゅっせき}する。",
+      "japanese": "{祝賀会|しゅくがかい}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧。",
       "english": "To attend a celebration.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17147_shukugakai_ex2",
-      "japanese": "{優勝|ゆうしょう}{祝賀会|しゅくがかい}がホテルで{開|ひら}かれた。",
+      "japanese": "⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧{祝賀会|しゅくがかい}⟦が→が：00051_ga⟧⟦ホテル→ホテル：01027_hoteru⟧⟦で→で：00502_de⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "A victory celebration was held at a hotel.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17147_shukugakai_ex3",
-      "japanese": "{会社|かいしゃ}{創立|そうりつ}50{周年|しゅうねん}の{祝賀会|しゅくがかい}には{多|おお}くの{関係者|かんけいしゃ}が{招|まね}かれた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦{創立|そうりつ}→創立：15353_souritsu⟧50⟦{周年|しゅうねん}→周年：09520_shuunen⟧⟦の→の：09472_no⟧{祝賀会|しゅくがかい}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧⟦が→が：00051_ga⟧⟦{招|まね}かれた→招く：02425_maneku⟧。",
       "english": "Many associates were invited to the company's 50th anniversary celebration.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {祝賀|しゅくが} (celebration, congratulation) + {会|かい} (gathering, party). Refers to formal celebratory events, often with speeches and toasts.\n\nCOMMON COLLOCATIONS:\n- {祝賀会|しゅくがかい}を{開|ひら}く (to hold a celebration)\n- {祝賀会|しゅくがかい}に{出席|しゅっせき}する (to attend a celebration)\n- {優勝|ゆうしょう}{祝賀会|しゅくがかい} (victory celebration)\n\nSIMILAR WORDS:\n- {祝賀|しゅくが}: celebration — the act of celebrating, without implying a gathering\n- {歓迎会|かんげいかい}: welcome party — a party to welcome someone\n- {祝|いわ}い: celebration — a more casual, everyday term",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{祝賀|しゅくが}→祝賀：14770_shukuga⟧ (celebration, congratulation) + ⟦{会|かい}→会：27493_kai⟧ (gathering, party). Refers to formal celebratory events, often with speeches and toasts.\n\nCOMMON COLLOCATIONS:\n- {祝賀会|しゅくがかい}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ (to hold a celebration)\n- {祝賀会|しゅくがかい}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧ (to attend a celebration)\n- ⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧{祝賀会|しゅくがかい} (victory celebration)\n\nSIMILAR WORDS:\n- ⟦{祝賀|しゅくが}→祝賀：14770_shukuga⟧: celebration — the act of celebrating, without implying a gathering\n- ⟦{歓迎会|かんげいかい}→歓迎会：15791_kangeikai⟧: welcome party — a party to welcome someone\n- ⟦{祝|いわ}い→祝い：01838_iwai⟧: celebration — a more casual, everyday term",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15791_kangeikai",
+      "reading": "かんげいかい",
+      "headword": "{歓迎会|かんげいかい}",
+      "label": "welcome party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01838_iwai",
+      "reading": "いわい",
+      "headword": "{祝|いわ}い",
+      "label": "celebration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24264_shukuten",
+      "reading": "しゅくてん",
+      "headword": "{祝典|しゅくてん}",
+      "label": "celebratory ceremony"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T03:11:38Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

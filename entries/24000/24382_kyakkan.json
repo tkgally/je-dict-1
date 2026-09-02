@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24382_kyakkan_ex1",
-      "japanese": "{客観|きゃっかん}が{大切|たいせつ}だ。",
+      "japanese": "{客観|きゃっかん}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Objectivity is important.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24382_kyakkan_ex2",
-      "japanese": "{客観|きゃっかん}と{主観|しゅかん}のバランスを{取|と}る。",
+      "japanese": "{客観|きゃっかん}⟦と→と：00512_to⟧⟦{主観|しゅかん}→主観：11466_shukan⟧⟦の→の：09472_no⟧⟦バランス→バランス：03870_baransu⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To strike a balance between objectivity and subjectivity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24382_kyakkan_ex3",
-      "japanese": "{物事|ものごと}を{客観|きゃっかん}で{見|み}ることは{簡単|かんたん}ではない。",
+      "japanese": "⟦{物事|ものごと}→物事：00291_monogoto⟧⟦を→を：00422_wo⟧{客観|きゃっかん}⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧こと⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "It is not easy to view things from an objective standpoint.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "24382_kyakkan_ex4",
-      "japanese": "{研究者|けんきゅうしゃ}には{客観|きゃっかん}に{基|もと}づいた{分析|ぶんせき}が{求|もと}められる。",
+      "japanese": "⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{客観|きゃっかん}⟦に→に：00314_ni⟧⟦{基|もと}づいた→基づく：02315_motozuku⟧⟦{分析|ぶんせき}→分析：03610_bunseki⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Researchers are expected to provide analysis grounded in objectivity.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the standpoint of evaluating or observing things impartially, without personal feelings or prejudice. Frequently appears in academic, journalistic, and philosophical contexts.\n\nCOMMON COLLOCATIONS:\n- {客観|きゃっかん}的（な）: objective (adjective form, extremely common)\n- {客観|きゃっかん}的に{見|み}る: to look at objectively\n- {客観|きゃっかん}的{事実|じじつ}: objective fact\n- {客観|きゃっかん}性（を{保|たも}つ）: objectivity (to maintain objectivity)\n\nSIMILAR WORDS:\n- {主観|しゅかん}: subjectivity — the direct opposite; personal, subjective viewpoint\n- {中立|ちゅうりつ}: neutrality — not taking sides, but not necessarily the same as being objective\n- {公正|こうせい}: fairness — emphasizes impartial treatment, often in legal or institutional contexts\n\nFORMATION:\n{客|きゃく} (guest, outsider) + {観|かん} (view) — literally \"viewing as an outsider,\" i.e., seeing from a detached perspective.",
+  "notes": "Refers to the standpoint of evaluating or observing things impartially, without personal feelings or prejudice. Frequently appears in academic, journalistic, and philosophical contexts.\n\nCOMMON COLLOCATIONS:\n- {客観|きゃっかん}的（な）: objective (adjective form, extremely common)\n- {客観|きゃっかん}的⟦に→に：00314_ni⟧⟦{見|み}る→見る：00283_miru⟧: to look at objectively\n- {客観|きゃっかん}的⟦{事実|じじつ}→事実：03271_jijitsu⟧: objective fact\n- {客観|きゃっかん}性（⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧）: objectivity (to maintain objectivity)\n\nSIMILAR WORDS:\n- ⟦{主観|しゅかん}→主観：11466_shukan⟧: subjectivity — the direct opposite; personal, subjective viewpoint\n- ⟦{中立|ちゅうりつ}→中立：11324_chuuritsu⟧: neutrality — not taking sides, but not necessarily the same as being objective\n- ⟦{公正|こうせい}→公正：01751_kousei⟧: fairness — emphasizes impartial treatment, often in legal or institutional contexts\n\nFORMS:\n⟦{客|きゃく}→客：00865_kyaku⟧ (guest, outsider) + {観|かん} (view) — literally \"viewing as an outsider,\" i.e., seeing from a detached perspective.",
   "cross_references": [
     {
       "type": "antonym",
@@ -62,6 +62,20 @@
       "reading": "しゅかん",
       "headword": "{主観|しゅかん}",
       "label": "subjectivity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11324_chuuritsu",
+      "reading": "ちゅうりつ",
+      "headword": "{中立|ちゅうりつ}",
+      "label": "neutrality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01751_kousei",
+      "reading": "こうせい",
+      "headword": "{公正|こうせい}",
+      "label": "fairness"
     }
   ],
   "schema_version": "2.0",
@@ -78,6 +92,6 @@
       ]
     },
     "created": "2026-04-18T16:22:31Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "11402_romansu_ex1",
-      "japanese": "{旅先|たびさき}でロマンスが{生|う}まれた。",
+      "japanese": "⟦{旅先|たびさき}→旅先：12949_tabisaki⟧⟦で→で：00502_de⟧ロマンス⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "A romance blossomed during the trip.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11402_romansu_ex2",
-      "japanese": "{職場|しょくば}ロマンスは{意外|いがい}と{多|おお}いらしい。",
+      "japanese": "⟦{職場|しょくば}→職場：04164_shokuba⟧ロマンス⟦は→は：00079_ha⟧⟦{意外|いがい}→意外：12741_igai⟧⟦と→と：00512_to⟧⟦{多|おお}い→多い：01127_ooi⟧らしい。",
       "english": "Apparently, office romances are surprisingly common.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11402_romansu_ex3",
-      "japanese": "その{映画|えいが}は{戦時中|せんじちゅう}のロマンスを{描|えが}いた{作品|さくひん}で、{世界中|せかいじゅう}で{大|おお}ヒットした。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧⟦の→の：09472_no⟧ロマンス⟦を→を：00422_wo⟧⟦{描|えが}いた→描く：02013_egaku⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦で→で：00502_de⟧、⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦で→で：00502_de⟧{大|おお}ヒット⟦した→する：00392_suru⟧。",
       "english": "That film depicted a wartime romance and was a huge hit worldwide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: ロマンス is a loanword from English \"romance.\" It refers to romantic love affairs or love stories, typically with a somewhat dramatic or idealized nuance.\n\nCOMMON COLLOCATIONS:\n- ロマンスが{生|う}まれる (a romance develops)\n- {職場|しょくば}ロマンス (office romance)\n- ロマンス{映画|えいが} (romance film)\n- ロマンス{小説|しょうせつ} (romance novel)\n- {禁断|きんだん}のロマンス (forbidden romance)\n\nRELATED WORDS:\n- ロマンチック (romantic — describes the atmosphere or quality)\n- {恋愛|れんあい} (romantic love — the more common native Japanese word for love/romance in general)",
-  "cross_references": [],
+  "notes": "USAGE: ロマンス is a loanword from English \"romance.\" It refers to romantic love affairs or love stories, typically with a somewhat dramatic or idealized nuance.\n\nCOMMON COLLOCATIONS:\n- ロマンス⟦が→が：00051_ga⟧⟦{生|う}まれる→生まれる：00905_umareru⟧ (a romance develops)\n- ⟦{職場|しょくば}→職場：04164_shokuba⟧ロマンス (office romance)\n- ロマンス⟦{映画|えいが}→映画：02273_eiga⟧ (romance film)\n- ロマンス⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (romance novel)\n- {禁断|きんだん}⟦の→の：09472_no⟧ロマンス (forbidden romance)\n\nRELATED WORDS:\n- ⟦ロマンチック→ロマンチック：22110_romanchikku⟧ (romantic — describes the atmosphere or quality)\n- ⟦{恋愛|れんあい}→恋愛：12634_renai⟧ (romantic love — the more common native Japanese word for love/romance in general)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22110_romanchikku",
+      "reading": "ろまんちっく",
+      "headword": "ロマンチック",
+      "label": "romantic"
+    },
+    {
+      "type": "related",
+      "target_id": "12634_renai",
+      "reading": "れんあい",
+      "headword": "{恋愛|れんあい}",
+      "label": "romantic love"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T02:06:50Z",
-    "modified": "2026-02-16T02:06:50Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

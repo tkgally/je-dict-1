@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25644_heihoukon_ex1",
-      "japanese": "9の{平方根|へいほうこん}は3だ。",
+      "japanese": "9⟦の→の：09472_no⟧{平方根|へいほうこん}⟦は→は：00079_ha⟧3だ。",
       "english": "The square root of 9 is 3.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25644_heihoukon_ex2",
-      "japanese": "{中学校|ちゅうがっこう}の{数学|すうがく}で{平方根|へいほうこん}を{習|なら}う。",
+      "japanese": "⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧⟦の→の：09472_no⟧⟦{数学|すうがく}→数学：01442_suugaku⟧⟦で→で：00502_de⟧{平方根|へいほうこん}⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧。",
       "english": "You learn about square roots in middle school math.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25644_heihoukon_ex3",
-      "japanese": "{平方根|へいほうこん}の{計算|けいさん}は{電卓|でんたく}を{使|つか}えば{簡単|かんたん}だが、{手計算|てけいさん}で{求|もと}める{方法|ほうほう}も{知|し}っておくと{役|やく}に{立|た}つ。",
+      "japanese": "{平方根|へいほうこん}⟦の→の：09472_no⟧⟦{計算|けいさん}→計算：02697_keisan⟧⟦は→は：00079_ha⟧⟦{電卓|でんたく}→電卓：05481_dentaku⟧⟦を→を：00422_wo⟧⟦{使|つか}えば→使う：00473_tsukau⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧だ⟦が→が：00051_ga⟧、{手計算|てけいさん}⟦で→で：00502_de⟧⟦{求|もと}める→求める：02316_motomeru⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦も→も：00484_mo⟧⟦{知|し}って→知る：00458_shiru⟧おく⟦と→と：00512_to⟧⟦{役|やく}に{立|た}つ→役に立つ：01130_yakunitatsu⟧。",
       "english": "Calculating square roots is easy with a calculator, but knowing how to do it by hand is also useful.",
       "sense_numbers": [
         1
@@ -44,19 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {平方|へいほう} (square, second power) and {根|こん} (root). This is standard mathematical terminology taught in Japanese middle school ({中学|ちゅうがく}3{年|ねん}). The symbol √ is called {根号|こんごう} or ルート in Japanese.\n\nCOMMON COLLOCATIONS:\n- {平方根|へいほうこん}を{求|もと}める: to find the square root\n- {正|せい}の{平方根|へいほうこん}: positive square root\n- {平方根|へいほうこん}の{計算|けいさん}: square root calculation\n- ルート ({平方根|へいほうこん}の{記号|きごう}): root symbol (√)\n\nSIMILAR WORDS:\n- {平方|へいほう}: square (of a number) — the inverse operation of square root\n- {立方根|りっぽうこん}: cube root — a number that when cubed gives the original\n- ルート: root — the loanword commonly used in spoken Japanese for √",
+  "notes": "A compound of ⟦{平方|へいほう}→平方：27997_heihou⟧ (square, second power) and {根|こん} (root). This is standard mathematical terminology taught in Japanese middle school (⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧3⟦{年|ねん}→年：09876_nen⟧). The symbol √ is called {根号|こんごう} or ⟦ルート→ルート：11250_ruuto⟧ in Japanese.\n\nCOMMON COLLOCATIONS:\n- {平方根|へいほうこん}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to find the square root\n- ⟦{正|せい}→正：09511_sei⟧⟦の→の：09472_no⟧{平方根|へいほうこん}: positive square root\n- {平方根|へいほうこん}⟦の→の：09472_no⟧⟦{計算|けいさん}→計算：02697_keisan⟧: square root calculation\n- ⟦ルート→ルート：11250_ruuto⟧ ({平方根|へいほうこん}⟦の→の：09472_no⟧⟦{記号|きごう}→記号：00224_kigou⟧): root symbol (√)\n\nSIMILAR WORDS:\n- ⟦{平方|へいほう}→平方：27997_heihou⟧: square (of a number) — the inverse operation of square root\n- ⟦{立方根|りっぽうこん}→立方根：30121_rippoukon⟧: cube root — a number that when cubed gives the original\n- ⟦ルート→ルート：11250_ruuto⟧: root — the loanword commonly used in spoken Japanese for √",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30121_rippoukon",
+      "reading": "りっぽうこん",
+      "headword": "{立方根|りっぽうこん}",
+      "label": "cube root"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11250_ruuto",
+      "reading": "るーと",
+      "headword": "ルート",
+      "label": "root"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "number"
       ]
     },
     "created": "2026-04-26T13:27:28Z",
-    "modified": "2026-08-04T21:21:58Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

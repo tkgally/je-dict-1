@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14649_kounetsu_ex1",
-      "japanese": "{高熱|こうねつ}が{出|で}た。",
+      "japanese": "{高熱|こうねつ}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I developed a high fever.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14649_kounetsu_ex2",
-      "japanese": "{子供|こども}が{高熱|こうねつ}を{出|だ}して{学校|がっこう}を{休|やす}んだ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{高熱|こうねつ}⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦を→を：00422_wo⟧⟦{休|やす}んだ→休む：00606_yasumu⟧。",
       "english": "The child had a high fever and stayed home from school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14649_kounetsu_ex3",
-      "japanese": "{三日間|みっかかん}{高熱|こうねつ}が{続|つづ}いたので、{病院|びょういん}で{検査|けんさ}を{受|う}けた。",
+      "japanese": "{三日間|みっかかん}{高熱|こうねつ}⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧⟦の→の：09472_no⟧で、⟦{病院|びょういん}→病院：00577_byouin⟧⟦で→で：00502_de⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "The high fever persisted for three days, so I had tests done at the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {高|こう} (high) + {熱|ねつ} (fever/heat).\n\nCOMMON COLLOCATIONS:\n- {高熱|こうねつ}が{出|で}る (develop a high fever)\n- {高熱|こうねつ}を{出|だ}す (run a high fever)\n- {高熱|こうねつ}が{続|つづ}く (a high fever persists)\n- {高熱|こうねつ}が{下|さ}がる (a high fever comes down)\n\nDistinct from {微熱|びねつ} (slight fever, around 37-37.5°C) and {発熱|はつねつ} (fever in general). {高熱|こうねつ} specifically implies a temperature high enough to cause concern.",
+  "notes": "Compound of ⟦{高|こう}→高〜：03951_kou⟧ (high) + ⟦{熱|ねつ}→熱：01690_netsu⟧ (fever/heat).\n\nCOMMON COLLOCATIONS:\n- {高熱|こうねつ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (develop a high fever)\n- {高熱|こうねつ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (run a high fever)\n- {高熱|こうねつ}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (a high fever persists)\n- {高熱|こうねつ}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧ (a high fever comes down)\n\nDistinct from ⟦{微熱|びねつ}→微熱：12513_binetsu⟧ (slight fever, around 37-37.5°C) and ⟦{発熱|はつねつ}→発熱：06297_hatsunetsu⟧ (fever in general). {高熱|こうねつ} specifically implies a temperature high enough to cause concern.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,32 @@
       "reading": "びねつ",
       "headword": "{微熱|びねつ}",
       "label": "slight fever"
+    },
+    {
+      "type": "related",
+      "target_id": "06297_hatsunetsu",
+      "reading": "はつねつ",
+      "headword": "{発熱|はつねつ}",
+      "label": "fever"
     }
   ],
   "metadata": {
     "created": "2026-03-02T09:34:44Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

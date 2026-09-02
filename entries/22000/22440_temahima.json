@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22440_temahima_ex1",
-      "japanese": "{手間暇|てまひま}をかけて{作|つく}る。",
+      "japanese": "{手間暇|てまひま}⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make something with time and effort.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22440_temahima_ex2",
-      "japanese": "{手間暇|てまひま}かけた{料理|りょうり}は{美味|おい}しい。",
+      "japanese": "{手間暇|てまひま}⟦かけた→かける：00854_kakeru⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "Food made with time and care is delicious.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22440_temahima_ex3",
-      "japanese": "この{味噌|みそ}は{職人|しょくにん}が{手間暇|てまひま}を{惜|お}しまず{仕込|しこ}んだものだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{味噌|みそ}→味噌：01037_miso⟧⟦は→は：00079_ha⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦が→が：00051_ga⟧{手間暇|てまひま}⟦を→を：00422_wo⟧⟦{惜|お}しま→惜しむ：09610_oshimu⟧ず⟦{仕込|しこ}んだ→仕込む：04244_shikomu⟧ものだ。",
       "english": "This miso was prepared by a craftsman who spared no time or effort.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {手間|てま} (effort, labor) and {暇|ひま} (time, free time). Together they emphasize the dual investment of both effort and time. Often used positively to praise careful, dedicated work, especially in food preparation and craftsmanship.\n\nCOMMON COLLOCATIONS:\n- {手間暇|てまひま}をかける: to put in time and effort\n- {手間暇|てまひま}を{惜|お}しまない: to spare no time or effort\n- {手間暇|てまひま}かけた{料理|りょうり}: food made with care\n\nSIMILAR WORDS:\n- {手間|てま}: effort / labor — focuses on the work involved, without the time component\n- {苦労|くろう}: hardship / trouble — implies difficulty and suffering, not just investment of effort\n- {手数|てすう}: trouble / bother — often used in polite expressions like お{手数|てすう}ですが\n\nUSAGE:\nVery common in food and craft contexts. Advertising and product descriptions often use {手間暇|てまひま}をかけた to emphasize that something was made with care. Can also be written as {手間|てま}ヒマ or {手間|てま}ひま.",
+  "notes": "A compound of ⟦{手間|てま}→手間：03554_tema⟧ (effort, labor) and ⟦{暇|ひま}→暇：00592_hima⟧ (time, free time). Together they emphasize the dual investment of both effort and time. Often used positively to praise careful, dedicated work, especially in food preparation and craftsmanship.\n\nCOMMON COLLOCATIONS:\n- {手間暇|てまひま}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to put in time and effort\n- {手間暇|てまひま}⟦を→を：00422_wo⟧⟦{惜|お}しまない→惜しむ：09610_oshimu⟧: to spare no time or effort\n- {手間暇|てまひま}⟦かけた→かける：00854_kakeru⟧⟦{料理|りょうり}→料理：01523_ryouri⟧: food made with care\n\nSIMILAR WORDS:\n- ⟦{手間|てま}→手間：03554_tema⟧: effort / labor — focuses on the work involved, without the time component\n- ⟦{苦労|くろう}→苦労：02672_kurou⟧: hardship / trouble — implies difficulty and suffering, not just investment of effort\n- ⟦{手数|てすう}→手数：30427_tesuu⟧: trouble / bother — often used in polite expressions like ⟦お{手数|てすう}→お手数：06467_otesuu⟧です⟦が→が：00051_ga⟧\n\nUSAGE:\nVery common in food and craft contexts. Advertising and product descriptions often use {手間暇|てまひま}⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧ to emphasize that something was made with care. Can also be written as ⟦{手間|てま}→手間：03554_tema⟧ヒマ or {手間|てま}ひま.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02672_kurou",
+      "reading": "くろう",
+      "headword": "{苦労|くろう}",
+      "label": "hardship / trouble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30427_tesuu",
+      "reading": "てすう",
+      "headword": "{手数|てすう}",
+      "label": "trouble / bother"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-06T10:42:12Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

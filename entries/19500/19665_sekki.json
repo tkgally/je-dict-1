@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19665_sekki_ex1",
-      "japanese": "{石器|せっき}が{発掘|はっくつ}された。",
+      "japanese": "{石器|せっき}⟦が→が：00051_ga⟧⟦{発掘|はっくつ}→発掘：07995_hakkutsu⟧⟦された→する：00392_suru⟧。",
       "english": "Stone tools were excavated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19665_sekki_ex2",
-      "japanese": "{旧石器|きゅうせっき}{時代|じだい}の{石器|せっき}が{見|み}つかった。",
+      "japanese": "{旧石器|きゅうせっき}⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{石器|せっき}⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "Stone tools from the Paleolithic period were found.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19665_sekki_ex3",
-      "japanese": "{博物館|はくぶつかん}には、{縄文|じょうもん}{時代|じだい}の{石器|せっき}や{土器|どき}が{数多|かずおお}く{展示|てんじ}されている。",
+      "japanese": "⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{縄文|じょうもん}{時代|じだい}→縄文時代：18895_joumonjidai⟧⟦の→の：09472_no⟧{石器|せっき}や⟦{土器|どき}→土器：09658_doki⟧⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "The museum displays many stone tools and pottery from the Jomon period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {石|せき} (stone) and {器|き} (tool, vessel). A fundamental term in history and archaeology.\n\nHISTORICAL CONTEXT:\nJapan's prehistoric periods are defined partly by stone tool technology. The {旧石器|きゅうせっき}{時代|じだい} (Paleolithic, before ~14,000 BCE) used chipped stone tools, while the {新石器|しんせっき}{時代|じだい} (Neolithic) introduced polished stone tools alongside pottery.\n\nCOMMON COLLOCATIONS:\n- {石器|せっき}{時代|じだい} — Stone Age\n- {旧石器|きゅうせっき}{時代|じだい} — Paleolithic (Old Stone Age)\n- {新石器|しんせっき}{時代|じだい} — Neolithic (New Stone Age)\n- {打製|だせい}{石器|せっき} — chipped stone tool\n- {磨製|ませい}{石器|せっき} — polished stone tool\n\nRELATED TERMS:\n- {土器|どき} — earthenware, pottery; another key artifact type\n- {青銅器|せいどうき} — bronze ware; the next technological stage\n- {遺跡|いせき} — archaeological site; where stone tools are found",
+  "notes": "A compound of {石|せき} (stone) and {器|き} (tool, vessel). A fundamental term in history and archaeology.\n\nETYMOLOGY:\nJapan's prehistoric periods are defined partly by stone tool technology. The {旧石器|きゅうせっき}⟦{時代|じだい}→時代：01424_jidai⟧ (Paleolithic, before ~14,000 BCE) used chipped stone tools, while the {新石器|しんせっき}⟦{時代|じだい}→時代：01424_jidai⟧ (Neolithic) introduced polished stone tools alongside pottery.\n\nCOMMON COLLOCATIONS:\n- {石器|せっき}⟦{時代|じだい}→時代：01424_jidai⟧ — Stone Age\n- {旧石器|きゅうせっき}⟦{時代|じだい}→時代：01424_jidai⟧ — Paleolithic (Old Stone Age)\n- {新石器|しんせっき}⟦{時代|じだい}→時代：01424_jidai⟧ — Neolithic (New Stone Age)\n- {打製|だせい}{石器|せっき} — chipped stone tool\n- {磨製|ませい}{石器|せっき} — polished stone tool\n\nRELATED WORDS:\n- ⟦{土器|どき}→土器：09658_doki⟧ — earthenware, pottery; another key artifact type\n- {青銅器|せいどうき} — bronze ware; the next technological stage\n- ⟦{遺跡|いせき}→遺跡：09527_iseki⟧ — archaeological site; where stone tools are found",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09658_doki",
+      "reading": "どき",
+      "headword": "{土器|どき}",
+      "label": "earthenware, pottery"
+    },
+    {
+      "type": "related",
+      "target_id": "09527_iseki",
+      "reading": "いせき",
+      "headword": "{遺跡|いせき}",
+      "label": "archaeological site"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["history"]
+      "semantic": [
+        "history"
+      ]
     },
     "created": "2026-03-26T11:44:17Z",
-    "modified": "2026-03-26T11:44:17Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

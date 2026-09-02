@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "11556_tainai_ex1",
-      "japanese": "{体内|たいない}の{水分|すいぶん}が{不足|ふそく}している。",
+      "japanese": "{体内|たいない}⟦の→の：09472_no⟧⟦{水分|すいぶん}→水分：04302_suibun⟧⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦している→する：00392_suru⟧。",
       "english": "There is insufficient water in the body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11556_tainai_ex2",
-      "japanese": "{薬|くすり}は{体内|たいない}で{吸収|きゅうしゅう}される。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{体内|たいない}⟦で→で：00502_de⟧⟦{吸収|きゅうしゅう}される→吸収する：25365_kyuushuusuru⟧。",
       "english": "The medicine is absorbed inside the body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11556_tainai_ex3",
-      "japanese": "{体内|たいない}に{蓄積|ちくせき}された{毒素|どくそ}を{排出|はいしゅつ}することが{大切|たいせつ}だ。",
+      "japanese": "{体内|たいない}⟦に→に：00314_ni⟧⟦{蓄積|ちくせき}→蓄積：14023_chikuseki⟧⟦された→する：00392_suru⟧⟦{毒素|どくそ}→毒素：16785_dokuso⟧⟦を→を：00422_wo⟧⟦{排出|はいしゅつ}する→排出する：25377_haishutsusuru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to expel the toxins that have accumulated in the body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {体|たい} (body) + {内|ない} (inside). Functions primarily as a noun modifier with の: {体内|たいない}の～ (something inside the body).\n\nUSAGE:\nCommon in medical, health, and scientific contexts. Less common in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {体内|たいない}{時計|どけい}: biological clock\n- {体内|たいない}に{取|と}り{込|こ}む: to take into the body\n- {体内|たいない}の{水分|すいぶん}: moisture in the body\n- {体内|たいない}に{蓄積|ちくせき}する: to accumulate in the body\n- {体内|たいない}{環境|かんきょう}: internal body environment\n\nCONTRAST:\n- {体内|たいない}: inside the body\n- {体外|たいがい}: outside the body (e.g., {体外|たいがい}{受精|じゅせい} = in vitro fertilization)",
+  "notes": "Composed of ⟦{体|たい}→体：09872_tai⟧ (body) + ⟦{内|ない}→〜内：09853_nai⟧ (inside). Functions primarily as a noun modifier with ⟦の→の：09472_no⟧: {体内|たいない}⟦の→の：09472_no⟧～ (something inside the body).\n\nUSAGE:\nCommon in medical, health, and scientific contexts. Less common in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {体内|たいない}{時計|どけい}: biological clock\n- {体内|たいない}⟦に→に：00314_ni⟧⟦{取|と}り{込|こ}む→取り込む：05871_torikomu⟧: to take into the body\n- {体内|たいない}⟦の→の：09472_no⟧⟦{水分|すいぶん}→水分：04302_suibun⟧: moisture in the body\n- {体内|たいない}⟦に→に：00314_ni⟧⟦{蓄積|ちくせき}する→蓄積する：25358_chikusekisuru⟧: to accumulate in the body\n- {体内|たいない}⟦{環境|かんきょう}→環境：00174_kankyou⟧: internal body environment\n\nSIMILAR WORDS:\n- {体内|たいない}: inside the body\n- ⟦{体外|たいがい}→体外：19203_taigai⟧: outside the body (e.g., ⟦{体外|たいがい}{受精|じゅせい}→体外受精：26496_taigaijusei⟧ = in vitro fertilization)",
   "cross_references": [
     {
       "type": "antonym",
@@ -49,15 +55,19 @@
   ],
   "metadata": {
     "created": "2026-02-17T13:17:44Z",
-    "modified": "2026-04-25T07:03:16Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"]
+      "semantic": [
+        "body-internal"
+      ]
     }
   }
 }

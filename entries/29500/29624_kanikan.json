@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29624_kanikan_ex1",
-      "japanese": "カニ{缶|かん}を{開|あ}ける。",
+      "japanese": "カニ{缶|かん}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧。",
       "english": "To open a can of crab.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29624_kanikan_ex2",
-      "japanese": "サラダにカニ{缶|かん}を{入|い}れる。",
+      "japanese": "⟦サラダ→サラダ：01364_sarada⟧⟦に→に：00314_ni⟧カニ{缶|かん}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "To add canned crab to a salad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29624_kanikan_ex3",
-      "japanese": "カニ{缶|かん}は{値段|ねだん}が{高|たか}いので{特別|とくべつ}な{日|ひ}に{使|つか}う。",
+      "japanese": "カニ{缶|かん}⟦は→は：00079_ha⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦の→の：09472_no⟧で⟦{特別|とくべつ}→特別：01120_tokubetsu⟧な⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Canned crab is expensive, so we use it on special occasions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: カニ{缶|かん} is canned (tinned) crab meat, combining {カニ} (crab) with {缶|かん} (can). It is a convenient substitute for fresh crab in cooking.\n\nCOMMON COLLOCATIONS:\n- カニ{缶|かん}を{開|あ}ける: to open a can of crab\n- カニ{缶詰|かんづ}め: canned crab (as a product)\n\nSIMILAR WORDS:\n- {缶詰|かんづめ}: canned food — the general category\n- ズワイガニ: snow crab — a crab often used for canning",
+  "notes": "USAGE: カニ{缶|かん} is canned (tinned) crab meat, combining カニ (crab) with ⟦{缶|かん}→缶：01076_kan⟧ (can). It is a convenient substitute for fresh crab in cooking.\n\nCOMMON COLLOCATIONS:\n- カニ{缶|かん}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧: to open a can of crab\n- カニ{缶詰|かんづ}め: canned crab (as a product)\n\nSIMILAR WORDS:\n- ⟦{缶詰|かんづめ}→缶詰：00187_kanzume⟧: canned food — the general category\n- ズワイガニ: snow crab — a crab often used for canning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00187_kanzume",
+      "reading": "かんづめ",
+      "headword": "{缶詰|かんづめ}",
+      "label": "canned food"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

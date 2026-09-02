@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09171_chinchaku_ex1",
-      "japanese": "{沈着|ちんちゃく}{冷静|れいせい}",
+      "japanese": "{沈着|ちんちゃく}⟦{冷静|れいせい}→冷静：03781_reisei⟧",
       "english": "cool and composed",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09171_chinchaku_ex2",
-      "japanese": "{彼|かれ}は{沈着|ちんちゃく}な{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{沈着|ちんちゃく}な⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is a composed person.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09171_chinchaku_ex3",
-      "japanese": "{緊急|きんきゅう}{事態|じたい}でも{沈着|ちんちゃく}に{対応|たいおう}できる{人材|じんざい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{緊急|きんきゅう}{事態|じたい}→緊急事態：16936_kinkyuujitai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{沈着|ちんちゃく}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦できる→できる：00557_dekiru⟧⟦{人材|じんざい}→人材：11426_jinzai⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "We need personnel who can respond calmly even in emergencies.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ADJECTIVE TYPE: Na-adjective (also functions as noun). Uses な before nouns: {沈着|ちんちゃく}な{態度|たいど}.\n\nADVERBIAL FORM: {沈着|ちんちゃく}に (calmly, composedly)\n\nFOUR-CHARACTER COMPOUND: {沈着|ちんちゃく}{冷静|れいせい} (cool and composed) is a common set phrase, often used together for emphasis.\n\nNUANCE: {沈着|ちんちゃく} emphasizes keeping calm under pressure, especially in emergencies or stressful situations. It's a highly positive quality associated with reliable, capable people.\n\nCOMMON COLLOCATIONS:\n- {沈着|ちんちゃく}{冷静|れいせい} (cool and composed)\n- {沈着|ちんちゃく}な{態度|たいど} (composed demeanor)\n- {沈着|ちんちゃく}に{対応|たいおう}する (to respond calmly)\n- {沈着|ちんちゃく}さを{保|たも}つ (to maintain composure)\n\nRELATED WORDS:\n- {冷静|れいせい} (calm, composed - more common)\n- {落|お}ち{着|つ}いた (calm, composed - more casual)\n- {泰然|たいぜん} (calm, unperturbed - literary)\n- {動|どう}じない (unperturbed)",
+  "notes": "ADJECTIVE TYPE: Na-adjective (also functions as noun). Uses な before nouns: {沈着|ちんちゃく}な⟦{態度|たいど}→態度：03396_taido⟧.\n\nADVERBIAL FORM: {沈着|ちんちゃく}⟦に→に：00314_ni⟧ (calmly, composedly)\n\nFOUR-CHARACTER COMPOUND: {沈着|ちんちゃく}⟦{冷静|れいせい}→冷静：03781_reisei⟧ (cool and composed) is a common set phrase, often used together for emphasis.\n\nNUANCE: {沈着|ちんちゃく} emphasizes keeping calm under pressure, especially in emergencies or stressful situations. It's a highly positive quality associated with reliable, capable people.\n\nCOMMON COLLOCATIONS:\n- {沈着|ちんちゃく}⟦{冷静|れいせい}→冷静：03781_reisei⟧ (cool and composed)\n- {沈着|ちんちゃく}な⟦{態度|たいど}→態度：03396_taido⟧ (composed demeanor)\n- {沈着|ちんちゃく}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧ (to respond calmly)\n- {沈着|ちんちゃく}さ⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧ (to maintain composure)\n\nRELATED WORDS:\n- ⟦{冷静|れいせい}→冷静：03781_reisei⟧ (calm, composed - more common)\n- ⟦{落|お}ち{着|つ}いた→落ち着く：04670_ochitsuku⟧ (calm, composed - more casual)\n- ⟦{泰然|たいぜん}→泰然：09173_taizen⟧ (calm, unperturbed - literary)\n- ⟦{動|どう}じない→動じる：30764_doujiru⟧ (unperturbed)",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,18 @@
       "reading": "たいぜん",
       "headword": "{泰然|たいぜん}",
       "label": "literary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07162_ochitsuki",
+      "reading": "おちつき",
+      "headword": "{落|お}ち{着|つ}き",
+      "label": "composure"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:36:27Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

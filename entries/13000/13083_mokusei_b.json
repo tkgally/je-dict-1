@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13083_mokusei_b_ex1",
-      "japanese": "{木製|もくせい}のテーブルを{買|か}った。",
+      "japanese": "{木製|もくせい}⟦の→の：09472_no⟧⟦テーブル→テーブル：04488_teeburu⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a wooden table.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13083_mokusei_b_ex2",
-      "japanese": "この{木製|もくせい}のおもちゃは{手作|てづく}りだ。",
+      "japanese": "⟦この→この：00962_kono⟧{木製|もくせい}⟦の→の：09472_no⟧⟦おもちゃ→おもちゃ：01334_omocha⟧⟦は→は：00079_ha⟧⟦{手作|てづく}り→手作り：08300_tezukuri⟧だ。",
       "english": "This wooden toy is handmade.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13083_mokusei_b_ex3",
-      "japanese": "{古|ふる}い{木製|もくせい}の{建物|たてもの}は{定期的|ていきてき}に{手入|てい}れをしないと、すぐに{傷|いた}んでしまう。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{木製|もくせい}⟦の→の：09472_no⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{手入|てい}れ→手入れ：07178_teire⟧⟦を→を：00422_wo⟧⟦しない→する：00392_suru⟧⟦と→と：00512_to⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{傷|いた}んで→傷む：10061_itamu⟧しまう。",
       "english": "If old wooden buildings are not maintained regularly, they quickly deteriorate.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{木製|もくせい} is a の-adjective modifier: {木製|もくせい}の + noun. It specifies wood as the material of construction.\n\nThe pattern 〜{製|せい} (made of ~) is productive and can be combined with other materials:\n- {金属製|きんぞくせい}: made of metal\n- {鉄製|てつせい}: made of iron/steel\n- {革製|かわせい}: made of leather\n- {石製|せきせい}: made of stone\n\nNOTE: This is a homophone of {木星|もくせい} (Jupiter, the planet).\n\nCOMMON COLLOCATIONS:\n- {木製|もくせい}の{家具|かぐ}: wooden furniture\n- {木製|もくせい}のおもちゃ: wooden toy\n- {木製|もくせい}の{建物|たてもの}: wooden building\n- {木製|もくせい}の{器|うつわ}: wooden vessel",
+  "notes": "USAGE:\n{木製|もくせい} is a ⟦の→の：09472_no⟧-adjective modifier: {木製|もくせい}⟦の→の：09472_no⟧ + noun. It specifies wood as the material of construction.\n\nThe pattern 〜⟦{製|せい}→〜製：02001_sei⟧ (made of ~) is productive and can be combined with other materials:\n- ⟦{金属製|きんぞくせい}→金属製：28457_kinzokusei⟧: made of metal\n- ⟦{鉄製|てつせい}→鉄製：25875_tetsusei⟧: made of iron/steel\n- ⟦{革製|かわせい}→革製：26255_kawasei⟧: made of leather\n- {石製|せきせい}: made of stone\n\nNOTE: This is a homophone of ⟦{木星|もくせい}→木星：13082_mokusei⟧ (Jupiter, the planet).\n\nCOMMON COLLOCATIONS:\n- {木製|もくせい}⟦の→の：09472_no⟧⟦{家具|かぐ}→家具：12314_kagu⟧: wooden furniture\n- {木製|もくせい}⟦の→の：09472_no⟧⟦おもちゃ→おもちゃ：01334_omocha⟧: wooden toy\n- {木製|もくせい}⟦の→の：09472_no⟧⟦{建物|たてもの}→建物：01458_tatemono⟧: wooden building\n- {木製|もくせい}⟦の→の：09472_no⟧⟦{器|うつわ}→器：11838_utsuwa⟧: wooden vessel",
   "cross_references": [
     {
       "type": "homophone",
@@ -52,11 +52,18 @@
       "headword": "{木星|もくせい}",
       "label": "Jupiter",
       "target_id": "13082_mokusei"
+    },
+    {
+      "type": "related",
+      "target_id": "13063_mokkou",
+      "reading": "もっこう",
+      "headword": "{木工|もっこう}",
+      "label": "woodworking, woodcraft"
     }
   ],
   "metadata": {
     "created": "2026-02-23T10:43:28Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

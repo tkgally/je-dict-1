@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14836_mitorizu_ex1",
-      "japanese": "{部屋|へや}の{見取|みと}り{図|ず}を{描|か}いた。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧{見取|みと}り{図|ず}⟦を→を：00422_wo⟧⟦{描|か}いた→描く：28436_kaku⟧。",
       "english": "I drew a floor plan of the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14836_mitorizu_ex2",
-      "japanese": "{不動産|ふどうさん}サイトで{間取|まど}りの{見取|みと}り{図|ず}を{確認|かくにん}した。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦サイト→サイト：05603_saito⟧⟦で→で：00502_de⟧⟦{間取|まど}り→間取り：06078_madori⟧⟦の→の：09472_no⟧{見取|みと}り{図|ず}⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked the floor plan layout on the real estate website.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14836_mitorizu_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{前|まえ}に{新|あたら}しい{家|いえ}の{見取|みと}り{図|ず}を{見|み}ながら、{家具|かぐ}の{配置|はいち}を{考|かんが}えた。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{見取|みと}り{図|ず}⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧、⟦{家具|かぐ}→家具：12314_kagu⟧⟦の→の：09472_no⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦を→を：00422_wo⟧⟦{考|かんが}えた→考える：00856_kangaeru⟧。",
       "english": "Before moving, I looked at the floor plan of the new house while thinking about furniture placement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {見取|みと}り (sketching by observation) and {図|ず} (diagram, drawing). Often used interchangeably with {間取|まど}り{図|ず} in the real estate context, though {間取|まど}り specifically focuses on room layout.\n\nCOMMON COLLOCATIONS:\n- {見取|みと}り{図|ず}を{描|か}く (to draw a sketch/floor plan)\n- {見取|みと}り{図|ず}を{見|み}る (to look at a floor plan)\n- {現場|げんば}の{見取|みと}り{図|ず} (sketch of the scene — used in crime investigations)\n- {建物|たてもの}の{見取|みと}り{図|ず} (building floor plan)\n\nAlso used figuratively to mean an overview or outline of a situation: {日本|にほん}{経済|けいざい}の{見取|みと}り{図|ず} (an overview of the Japanese economy).",
+  "notes": "A compound of {見取|みと}り (sketching by observation) and ⟦{図|ず}→図：03368_zu⟧ (diagram, drawing). Often used interchangeably with ⟦{間取|まど}り→間取り：06078_madori⟧⟦{図|ず}→図：03368_zu⟧ in the real estate context, though ⟦{間取|まど}り→間取り：06078_madori⟧ specifically focuses on room layout.\n\nCOMMON COLLOCATIONS:\n- {見取|みと}り{図|ず}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧ (to draw a sketch/floor plan)\n- {見取|みと}り{図|ず}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to look at a floor plan)\n- ⟦{現場|げんば}→現場：02723_genba⟧⟦の→の：09472_no⟧{見取|みと}り{図|ず} (sketch of the scene — used in crime investigations)\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{見取|みと}り{図|ず} (building floor plan)\n\nAlso used figuratively to mean an overview or outline of a situation: ⟦{日本|にほん}→日本：03876_nihon⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{見取|みと}り{図|ず} (an overview of the Japanese economy).",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,57 @@
       "reading": "せっけいず",
       "headword": "{設計図|せっけいず}",
       "label": "blueprint; design drawing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17781_annaizu",
+      "reading": "あんないず",
+      "headword": "{案内図|あんないず}",
+      "label": "guide map"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19705_ryakuzu",
+      "reading": "りゃくず",
+      "headword": "{略図|りゃくず}",
+      "label": "rough sketch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23670_heimenzu",
+      "reading": "へいめんず",
+      "headword": "{平面図|へいめんず}",
+      "label": "floor plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26710_furoamappu",
+      "reading": "ふろあまっぷ",
+      "headword": "フロアマップ",
+      "label": "floor map"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27660_moshikizu",
+      "reading": "もしきず",
+      "headword": "{模式図|もしきず}",
+      "label": "schematic diagram"
     }
   ],
   "metadata": {
     "created": "2026-03-04T04:11:30Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

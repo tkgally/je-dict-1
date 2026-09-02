@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16837_omairi_ex1",
-      "japanese": "{初詣|はつもうで}でお{参|まい}りに{行|い}った。",
+      "japanese": "{初詣|はつもうで}でお{参|まい}り⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to pray at a shrine for New Year's.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16837_omairi_ex2",
-      "japanese": "{毎朝|まいあさ}{近|ちか}くの{神社|じんじゃ}にお{参|まい}りしている。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{近|ちか}く⟦の→の：09472_no⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧お{参|まい}り⟦している→する：00392_suru⟧。",
       "english": "I visit the nearby shrine to pray every morning.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16837_omairi_ex3",
-      "japanese": "{祖父母|そふぼ}のお{墓|はか}にお{参|まい}りしてから、{家族|かぞく}で{食事|しょくじ}をした。",
+      "japanese": "⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧⟦の→の：09472_no⟧⟦お{墓|はか}→お墓：21734_ohaka⟧⟦に→に：00314_ni⟧お{参|まい}り⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "After visiting our grandparents' grave, we had a meal as a family.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a suru-verb: お{参|まい}りする. Applies to both shrine and temple visits, as well as visiting graves ({墓参|はかまい}り). The お prefix is standard and usually not dropped.\n\nCULTURE:\nJapanese people commonly visit shrines at New Year ({初詣|はつもうで}), during festivals, and for life events like {七五三|しちごさん}. Visiting family graves ({墓参|はかまい}り) is customary during お{盆|ぼん} and the equinoxes.\n\nCOMMON COLLOCATIONS:\n- お{参|まい}りに{行|い}く (to go pray at a shrine/temple)\n- {神社|じんじゃ}にお{参|まい}りする (to visit a shrine)\n- お{墓|はか}{参|まい}り (visiting a grave)",
+  "notes": "USAGE:\nUsed as a suru-verb: お{参|まい}り⟦する→する：00392_suru⟧. Applies to both shrine and temple visits, as well as visiting graves (⟦{墓参|はかまい}り→墓参り：10663_hakamairi⟧). The お prefix is standard and usually not dropped.\n\nCULTURAL NOTE:\nJapanese people commonly visit shrines at New Year (⟦{初詣|はつもうで}→初詣：05804_hatsumoude⟧), during festivals, and for life events like ⟦{七五三|しちごさん}→七五三：06185_shichigosan⟧. Visiting family graves (⟦{墓参|はかまい}り→墓参り：10663_hakamairi⟧) is customary during ⟦お{盆|ぼん}→お盆：05587_obon⟧ and the equinoxes.\n\nCOMMON COLLOCATIONS:\n- お{参|まい}り⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go pray at a shrine/temple)\n- ⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧お{参|まい}り⟦する→する：00392_suru⟧ (to visit a shrine)\n- ⟦お{墓|はか}{参|まい}り→お墓参り：15303_ohakamairi⟧ (visiting a grave)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "さんぱい",
       "headword": "{参拝|さんぱい}",
       "label": "worship (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15627_sanpaisuru",
+      "reading": "さんぱいする",
+      "headword": "{参拝|さんぱい}する",
+      "label": "to visit a shrine or temple to worship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22031_kitou",
+      "reading": "きとう",
+      "headword": "{祈祷|きとう}",
+      "label": "prayer"
     }
   ],
   "metadata": {
     "created": "2026-03-14T13:03:06Z",
-    "modified": "2026-07-21T06:38:05Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

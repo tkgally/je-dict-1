@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09321_chicchai_ex1",
-      "japanese": "ちっちゃい{手|て}だね。",
+      "japanese": "ちっちゃい⟦{手|て}→手：00569_te⟧だ⟦ね→ね：09474_ne⟧。",
       "english": "You have tiny hands.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09321_chicchai_ex2",
-      "japanese": "ちっちゃい{頃|ころ}の{写真|しゃしん}がある。",
+      "japanese": "ちっちゃい{頃|ころ}⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have photos from when I was little.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09321_chicchai_ex3",
-      "japanese": "この{虫|むし}ちっちゃくて{可愛|かわい}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{虫|むし}→虫：02262_mushi⟧ちっちゃくて{可愛|かわい}い。",
       "english": "This bug is tiny and cute.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "ちっちゃい is a casual/cute contraction of {小|ちい}さい. The gemination (っ) adds emphasis and a childlike or affectionate nuance.\n\nREGISTER:\nThis is casual/colloquial language with a slightly cute nuance. Use {小|ちい}さい in polite or formal contexts.\n\nAs an i-adjective: ちっちゃくない (negative), ちっちゃかった (past), ちっちゃく (adverb form).\n\nVARIATION:\nちっこい is another casual variant with similar meaning.\n\nCOMMON EXPRESSIONS:\n- ちっちゃい{頃|ころ}: when (I/you/they) was little\n- ちっちゃい{子|こ}: a little child",
+  "notes": "ちっちゃい is a casual/cute contraction of ⟦{小|ちい}さい→小さい：00025_chiisai⟧. The gemination (っ) adds emphasis and a childlike or affectionate nuance.\n\nREGISTER:\nThis is casual/colloquial language with a slightly cute nuance. Use ⟦{小|ちい}さい→小さい：00025_chiisai⟧ in polite or formal contexts.\n\nAs an i-adjective: ちっちゃく⟦ない→ない：01118_nai⟧ (negative), ちっちゃかった (past), ちっちゃく (adverb form).\n\nFORMS:\nちっこい is another casual variant with similar meaning.\n\nCOMMON EXPRESSIONS:\n- ちっちゃい{頃|ころ}: when (I/you/they) was little\n- ちっちゃい⟦{子|こ}→子：09851_ko⟧: a little child",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,18 @@
       "reading": "でかい",
       "headword": "でかい",
       "label": "big, huge (casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07791_chippoke",
+      "reading": "ちっぽけ",
+      "headword": "ちっぽけ",
+      "label": "tiny"
     }
   ],
   "metadata": {
     "created": "2026-02-01T07:14:24Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

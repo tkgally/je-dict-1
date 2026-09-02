@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11168_ferii_ex1",
-      "japanese": "フェリーで{島|しま}に{渡|わた}る。",
+      "japanese": "フェリー⟦で→で：00502_de⟧⟦{島|しま}→島：00885_shima⟧⟦に→に：00314_ni⟧⟦{渡|わた}る→渡る：02441_wataru⟧。",
       "english": "Cross to the island by ferry.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11168_ferii_ex2",
-      "japanese": "{車|くるま}ごとフェリーに{乗|の}れるから{便利|べんり}だ。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧ごとフェリー⟦に→に：00314_ni⟧⟦{乗|の}れる→乗る：00511_noru⟧⟦から→から：00504_kara⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "It's convenient because you can take your car on the ferry.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11168_ferii_ex3",
-      "japanese": "{北海道|ほっかいどう}まで{飛行機|ひこうき}ではなく、フェリーでのんびり{旅|たび}をした。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦まで→まで：00490_made⟧⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦ではなく→ではなく：09578_dehanaku⟧、フェリー⟦で→で：00502_de⟧⟦のんびり→のんびり：01596_nonbiri⟧⟦{旅|たび}→旅：03407_tabi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "Instead of flying, I took a leisurely trip to Hokkaido by ferry.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nFerries are an important form of transportation in Japan, an island nation. They connect the main islands ({本州|ほんしゅう}, {北海道|ほっかいどう}, {四国|しこく}, {九州|きゅうしゅう}) and serve many smaller islands. Long-distance ferries often have cabins and restaurants, making them a popular budget travel option.\n\nCOMMON COLLOCATIONS:\n- フェリーに{乗|の}る: to ride a ferry\n- フェリー{乗|の}り{場|ば}: ferry terminal\n- {長距離|ちょうきょり}フェリー: long-distance ferry\n- {高速|こうそく}フェリー: high-speed ferry\n- {夜行|やこう}フェリー: overnight ferry",
+  "notes": "CULTURAL NOTE:\nFerries are an important form of transportation in Japan, an island nation. They connect the main islands (⟦{本州|ほんしゅう}→本州：18528_honshuu⟧, ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧, ⟦{四国|しこく}→四国：21447_shikoku⟧, ⟦{九州|きゅうしゅう}→九州：15647_kyuushuu⟧) and serve many smaller islands. Long-distance ferries often have cabins and restaurants, making them a popular budget travel option.\n\nCOMMON COLLOCATIONS:\n- フェリー⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride a ferry\n- フェリー⟦{乗|の}り{場|ば}→乗り場：01041_noriba⟧: ferry terminal\n- ⟦{長距離|ちょうきょり}→長距離：09271_choukyori⟧フェリー: long-distance ferry\n- ⟦{高速|こうそく}→高速：02749_kousoku⟧フェリー: high-speed ferry\n- ⟦{夜行|やこう}→夜行：04078_yakou⟧フェリー: overnight ferry",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "ふね",
       "headword": "{船|ふね}",
       "label": "boat, ship"
+    },
+    {
+      "type": "related",
+      "target_id": "09262_renrakusen",
+      "reading": "れんらくせん",
+      "headword": "{連絡船|れんらくせん}",
+      "label": "ferry, connecting boat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16792_kyakusen",
+      "reading": "きゃくせん",
+      "headword": "{客船|きゃくせん}",
+      "label": "passenger ship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21176_watashibune",
+      "reading": "わたしぶね",
+      "headword": "{渡|わた}し{舟|ぶね}",
+      "label": "ferryboat"
     }
   ],
   "metadata": {
     "created": "2026-02-14T05:15:09Z",
-    "modified": "2026-08-13T03:20:52Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

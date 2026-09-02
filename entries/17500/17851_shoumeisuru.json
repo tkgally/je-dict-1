@@ -3,7 +3,7 @@
   "id": "17851_shoumeisuru",
   "headword": "{証明|しょうめい}する",
   "reading": "しょうめいする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to prove; to verify; to certify",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17851_shoumeisuru_ex1",
-      "japanese": "{身元|みもと}を{証明|しょうめい}する。",
+      "japanese": "⟦{身元|みもと}→身元：15710_mimoto⟧⟦を→を：00422_wo⟧{証明|しょうめい}する。",
       "english": "To prove one's identity.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17851_shoumeisuru_ex2",
-      "japanese": "{彼|かれ}の{無実|むじつ}は{証明|しょうめい}された。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{無実|むじつ}→無実：09504_mujitsu⟧⟦は→は：00079_ha⟧{証明|しょうめい}された。",
       "english": "His innocence was proven.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17851_shoumeisuru_ex3",
-      "japanese": "{実験|じっけん}の{結果|けっか}がその{理論|りろん}の{正|ただ}しさを{証明|しょうめい}した。",
+      "japanese": "⟦{実験|じっけん}→実験：03273_jikken⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦その→その：00993_sono⟧⟦{理論|りろん}→理論：04708_riron⟧⟦の→の：09472_no⟧{正|ただ}しさ⟦を→を：00422_wo⟧{証明|しょうめい}した。",
       "english": "The experimental results proved the correctness of that theory.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{証明|しょうめい}する means to prove or certify something. Also very common as a standalone noun in compounds related to official documents.\n\nCOMMON COLLOCATIONS (VERB):\n- ～を{証明|しょうめい}する: to prove something\n- {無実|むじつ}を{証明|しょうめい}する: to prove innocence\n- {身元|みもと}を{証明|しょうめい}する: to prove one's identity\n\nCOMMON COMPOUNDS (NOUN):\n- {証明書|しょうめいしょ}: certificate, proof document\n- {身分|みぶん}{証明|しょうめい}: identification (ID)\n- {卒業|そつぎょう}{証明書|しょうめいしょ}: graduation certificate\n- {在職|ざいしょく}{証明書|しょうめいしょ}: employment certificate\n- {証明|しょうめい}{写真|しゃしん}: ID photo (passport-style)\n\nSIMILAR WORDS:\n- {証明|しょうめい}する: to prove (with evidence or documents)\n- {証拠|しょうこ}: evidence, proof (the thing that proves)\n- {立証|りっしょう}する: to prove (legal/formal)",
+  "notes": "{証明|しょうめい}する means to prove or certify something. Also very common as a standalone noun in compounds related to official documents.\n\nCOMMON COLLOCATIONS (VERB):\n- ～⟦を→を：00422_wo⟧{証明|しょうめい}する: to prove something\n- ⟦{無実|むじつ}→無実：09504_mujitsu⟧⟦を→を：00422_wo⟧{証明|しょうめい}する: to prove innocence\n- ⟦{身元|みもと}→身元：15710_mimoto⟧⟦を→を：00422_wo⟧{証明|しょうめい}する: to prove one's identity\n\nCOMMON COMPOUNDS (NOUN):\n- ⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧: certificate, proof document\n- ⟦{身分|みぶん}{証明|しょうめい}→身分証明：08723_mibunshoumei⟧: identification (ID)\n- ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧: graduation certificate\n- ⟦{在職|ざいしょく}→在職：12129_zaishoku⟧⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧: employment certificate\n- ⟦{証明|しょうめい}→証明：03242_shoumei⟧⟦{写真|しゃしん}→写真：00753_shashin⟧: ID photo (passport-style)\n\nSIMILAR WORDS:\n- {証明|しょうめい}する: to prove (with evidence or documents)\n- ⟦{証拠|しょうこ}→証拠：10575_shouko⟧: evidence, proof (the thing that proves)\n- ⟦{立証|りっしょう}→立証：23853_risshou⟧⟦する→する：00392_suru⟧: to prove (legal/formal)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "しょうこ",
       "headword": "{証拠|しょうこ}",
       "label": "evidence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23853_risshou",
+      "reading": "りっしょう",
+      "headword": "{立証|りっしょう}",
+      "label": "to prove"
     }
   ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-07-24T21:50:29Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

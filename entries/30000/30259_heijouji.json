@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30259_heijouji_ex1",
-      "japanese": "{平常時|へいじょうじ}の{対応|たいおう}を{確認|かくにん}する。",
+      "japanese": "{平常時|へいじょうじ}⟦の→の：09472_no⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the procedure for normal times.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30259_heijouji_ex2",
-      "japanese": "{平常時|へいじょうじ}は{職員|しょくいん}が{三人|さんにん}で{対応|たいおう}しています。",
+      "japanese": "{平常時|へいじょうじ}⟦は→は：00079_ha⟧⟦{職員|しょくいん}→職員：20206_shokuin⟧⟦が→が：00051_ga⟧⟦{三人|さんにん}→三人：10978_sannin⟧⟦で→で：00502_de⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦しています→する：00392_suru⟧。",
       "english": "In normal times, three staff members handle it.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30259_heijouji_ex3",
-      "japanese": "{平常時|へいじょうじ}と{災害時|さいがいじ}では、{必要|ひつよう}な{備|そな}えが{大|おお}きく{異|こと}なる。",
+      "japanese": "{平常時|へいじょうじ}⟦と→と：00512_to⟧{災害時|さいがいじ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{備|そな}え→備え：11620_sonae⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "The preparations needed in normal times and in a disaster differ greatly.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,30 @@
       ]
     }
   ],
-  "notes": "Almost always used as the counterpart of {非常時|ひじょうじ}. It describes a situation, not a clock time, so it is not used to mean \"usual hour.\"\n\nCOMMON COLLOCATIONS:\n- {平常時|へいじょうじ}から{備|そな}える: to prepare while things are still normal\n- {平常時|へいじょうじ}の{体制|たいせい}: the normal-operations setup\n- {平常時|へいじょうじ}に{戻|もど}る: to return to normal conditions\n\nSIMILAR WORDS:\n- {普段|ふだん}: usually, ordinarily — everyday and colloquial, about personal habit rather than institutional conditions\n- {平時|へいじ}: peacetime — more formal and literary, often specifically the opposite of wartime",
+  "notes": "Almost always used as the counterpart of ⟦{非常時|ひじょうじ}→非常時：30241_hijouji⟧. It describes a situation, not a clock time, so it is not used to mean \"usual hour.\"\n\nCOMMON COLLOCATIONS:\n- {平常時|へいじょうじ}⟦から→から：00504_kara⟧⟦{備|そな}える→備える：02125_sonaeru⟧: to prepare while things are still normal\n- {平常時|へいじょうじ}⟦の→の：09472_no⟧⟦{体制|たいせい}→体制：04490_taisei⟧: the normal-operations setup\n- {平常時|へいじょうじ}⟦に→に：00314_ni⟧⟦{戻|もど}る→戻る：01117_modoru⟧: to return to normal conditions\n\nSIMILAR WORDS:\n- ⟦{普段|ふだん}→普段：00041_fudan⟧: usually, ordinarily — everyday and colloquial, about personal habit rather than institutional conditions\n- ⟦{平時|へいじ}→平時：19771_heiji⟧: peacetime — more formal and literary, often specifically the opposite of wartime",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00041_fudan",
+      "reading": "ふだん",
+      "headword": "{普段|ふだん}",
+      "label": "usually, ordinarily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19771_heiji",
+      "reading": "へいじ",
+      "headword": "{平時|へいじ}",
+      "label": "peacetime"
+    },
+    {
+      "type": "antonym",
+      "target_id": "30241_hijouji",
+      "reading": "ひじょうじ",
+      "headword": "{非常時|ひじょうじ}",
+      "label": "emergency"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       "domain": []
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-07-31T06:19:07Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

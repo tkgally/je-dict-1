@@ -3,7 +3,7 @@
   "headword": "転げる",
   "reading": "ころげる",
   "romaji": "korogeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to roll; to tumble; to roll over",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27884_korogeru_ex1",
-      "japanese": "{坂道|さかみち}を{転|ころ}げ{落|お}ちた。",
+      "japanese": "⟦{坂道|さかみち}→坂道：08166_sakamichi⟧⟦を→を：00422_wo⟧{転|ころ}げ{落|お}ちた。",
       "english": "He tumbled down the slope.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27884_korogeru_ex2",
-      "japanese": "{子供|こども}たちは{芝生|しばふ}の{上|うえ}を{転|ころ}げ{回|まわ}った。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧⟦{芝生|しばふ}→芝生：03196_shibafu⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦を→を：00422_wo⟧{転|ころ}げ{回|まわ}った。",
       "english": "The children rolled around on the lawn.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27884_korogeru_ex3",
-      "japanese": "あまりのおかしさに、おなかを{抱|かか}えて{転|ころ}げて{笑|わら}った。",
+      "japanese": "⟦あまり→あまり：00604_amari⟧⟦の→の：09472_no⟧おかしさ⟦に→に：00314_ni⟧、おなか⟦を→を：00422_wo⟧⟦{抱|かか}えて→抱える：02031_kakaeru⟧{転|ころ}げて⟦{笑|わら}った→笑う：00685_warau⟧。",
       "english": "It was so funny that we rolled around laughing, holding our sides.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n- Intransitive ({自動詞|じどうし}). Nearly synonymous with {転|ころ}がる, but {転|ころ}げる more often appears in compound verbs and emphasizes a vigorous, tumbling motion.\n\nCOMMON COLLOCATIONS:\n- {転|ころ}げ{落|お}ちる: to tumble down\n- {転|ころ}げ{回|まわ}る: to roll around\n- {転|ころ}げて{笑|わら}う: to roll around laughing\n\nSIMILAR WORDS:\n- {転|ころ}がる: to roll — the more common, neutral verb; {転|ころ}げる sounds livelier and is favored in the compounds above.",
+  "notes": "TRANSITIVITY:\n- Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). Nearly synonymous with ⟦{転|ころ}がる→転がる：02571_korogaru⟧, but {転|ころ}げる more often appears in compound verbs and emphasizes a vigorous, tumbling motion.\n\nCOMMON COLLOCATIONS:\n- {転|ころ}げ{落|お}ちる: to tumble down\n- {転|ころ}げ{回|まわ}る: to roll around\n- {転|ころ}げて⟦{笑|わら}う→笑う：00685_warau⟧: to roll around laughing\n\nSIMILAR WORDS:\n- ⟦{転|ころ}がる→転がる：02571_korogaru⟧: to roll — the more common, neutral verb; {転|ころ}げる sounds livelier and is favored in the compounds above.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02571_korogaru",
+      "reading": "ころがる",
+      "headword": "{転|ころ}がる",
+      "label": "to roll"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +71,7 @@
       "domain": []
     },
     "created": "2026-05-22T03:04:31Z",
-    "modified": "2026-05-22T03:04:31Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "ichidan",

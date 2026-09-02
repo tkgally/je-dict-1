@@ -15,40 +15,61 @@
   "examples": [
     {
       "id": "29330_bearingu_ex1",
-      "japanese": "ベアリングが{摩耗|まもう}している。",
+      "japanese": "ベアリング⟦が→が：00051_ga⟧⟦{摩耗|まもう}→摩耗：14813_mamou⟧⟦している→する：00392_suru⟧。",
       "english": "The bearing is worn out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29330_bearingu_ex2",
-      "japanese": "この{機械|きかい}には{多|おお}くのベアリングが{使|つか}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧ベアリング⟦が→が：00051_ga⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "This machine uses many bearings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29330_bearingu_ex3",
-      "japanese": "ベアリングに{注油|ちゅうゆ}すると、{回転|かいてん}がなめらかになる。",
+      "japanese": "ベアリング⟦に→に：00314_ni⟧⟦{注油|ちゅうゆ}する→注油する：22365_chuuyusuru⟧⟦と→と：00512_to⟧、⟦{回転|かいてん}→回転：00141_kaiten⟧⟦が→が：00051_ga⟧なめらか⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Oiling the bearing makes the rotation smooth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"bearing.\" Covers ball bearings, roller bearings, and similar friction-reducing components.\n\nCOMMON COLLOCATIONS:\n- ボールベアリング: ball bearing\n- ベアリングが{摩耗|まもう}する: a bearing wears out\n- ベアリングを{交換|こうかん}する: to replace a bearing\n\nSIMILAR WORDS:\n- {軸受|じくう}け: bearing — the native Japanese term, preferred in formal engineering writing.",
+  "notes": "From English \"bearing.\" Covers ball bearings, roller bearings, and similar friction-reducing components.\n\nCOMMON COLLOCATIONS:\n- ボールベアリング: ball bearing\n- ベアリング⟦が→が：00051_ga⟧⟦{摩耗|まもう}→摩耗：14813_mamou⟧⟦する→する：00392_suru⟧: a bearing wears out\n- ベアリング⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧: to replace a bearing\n\nSIMILAR WORDS:\n- ⟦{軸受|じくう}け→軸受け：29337_jikuuke⟧: bearing — the native Japanese term, preferred in formal engineering writing.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29337_jikuuke",
+      "reading": "じくうけ",
+      "headword": "{軸|じく}{受|う}け",
+      "label": "bearing"
+    }
+  ],
   "metadata": {
     "created": "2026-06-18T15:20:33Z",
-    "modified": "2026-06-18T15:20:33Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

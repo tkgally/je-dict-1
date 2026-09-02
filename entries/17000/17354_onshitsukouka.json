@@ -15,42 +15,83 @@
   "examples": [
     {
       "id": "17354_onshitsukouka_ex1",
-      "japanese": "{温室|おんしつ}{効果|こうか}で{地球|ちきゅう}が{温暖化|おんだんか}している。",
+      "japanese": "{温室|おんしつ}{効果|こうか}⟦で→で：00502_de⟧⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦が→が：00051_ga⟧⟦{温暖化|おんだんか}→温暖化：04622_ondanka⟧⟦している→する：00392_suru⟧。",
       "english": "The Earth is warming due to the greenhouse effect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17354_onshitsukouka_ex2",
-      "japanese": "{温室|おんしつ}{効果|こうか}ガスの{排出|はいしゅつ}を{減|へ}らす{必要|ひつよう}がある。",
+      "japanese": "{温室|おんしつ}{効果|こうか}⟦ガス→ガス：01344_gasu⟧⟦の→の：09472_no⟧⟦{排出|はいしゅつ}→排出：04632_haishutsu⟧⟦を→を：00422_wo⟧⟦{減|へ}らす→減らす：02414_herasu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to reduce greenhouse gas emissions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17354_onshitsukouka_ex3",
-      "japanese": "{温室|おんしつ}{効果|こうか}は{自然|しぜん}な{現象|げんしょう}だが、{人間|にんげん}の{活動|かつどう}によって{強|つよ}まっている。",
+      "japanese": "{温室|おんしつ}{効果|こうか}⟦は→は：00079_ha⟧⟦{自然|しぜん}→自然：01423_shizen⟧な⟦{現象|げんしょう}→現象：02718_genshou⟧だ⟦が→が：00051_ga⟧、⟦{人間|にんげん}→人間：03523_ningen⟧⟦の→の：09472_no⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦によって→によって：06801_niyotte⟧⟦{強|つよ}まっている→強まる：02295_tsuyomaru⟧。",
       "english": "The greenhouse effect is a natural phenomenon, but it is being amplified by human activity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA scientific term that has become widely known through climate change discussions. Frequently encountered in news, textbooks, and environmental policy debates.\n\nCOMMON COLLOCATIONS:\n- {温室|おんしつ}{効果|こうか}ガス (greenhouse gas)\n- {温室|おんしつ}{効果|こうか}ガスの{排出|はいしゅつ}{削減|さくげん} (reduction of greenhouse gas emissions)\n\nRELATED TERMS:\n- {地球|ちきゅう}{温暖化|おんだんか}: global warming\n- {気候|きこう}{変動|へんどう}: climate change\n- {二酸化|にさんか}{炭素|たんそ}: carbon dioxide",
-  "cross_references": [],
+  "notes": "USAGE:\nA scientific term that has become widely known through climate change discussions. Frequently encountered in news, textbooks, and environmental policy debates.\n\nCOMMON COLLOCATIONS:\n- {温室|おんしつ}{効果|こうか}⟦ガス→ガス：01344_gasu⟧ (greenhouse gas)\n- {温室|おんしつ}{効果|こうか}⟦ガス→ガス：01344_gasu⟧⟦の→の：09472_no⟧⟦{排出|はいしゅつ}→排出：04632_haishutsu⟧⟦{削減|さくげん}→削減：11789_sakugen⟧ (reduction of greenhouse gas emissions)\n\nRELATED WORDS:\n- ⟦{地球|ちきゅう}{温暖化|おんだんか}→地球温暖化：18873_chikyuuondanka⟧: global warming\n- ⟦{気候|きこう}{変動|へんどう}→気候変動：04627_kikouhendou⟧: climate change\n- ⟦{二酸化|にさんか}{炭素|たんそ}→二酸化炭素：04630_nisankatanso⟧: carbon dioxide",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18873_chikyuuondanka",
+      "reading": "ちきゅうおんだんか",
+      "headword": "{地球|ちきゅう}{温暖|おんだん}{化|か}",
+      "label": "global warming"
+    },
+    {
+      "type": "related",
+      "target_id": "04627_kikouhendou",
+      "reading": "きこうへんどう",
+      "headword": "{気候変動|きこうへんどう}",
+      "label": "climate change"
+    },
+    {
+      "type": "related",
+      "target_id": "04630_nisankatanso",
+      "reading": "にさんかたんそ",
+      "headword": "{二酸化炭素|にさんかたんそ}",
+      "label": "carbon dioxide"
+    },
+    {
+      "type": "related",
+      "target_id": "04622_ondanka",
+      "reading": "おんだんか",
+      "headword": "{温暖化|おんだんか}",
+      "label": "warming"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:17:15Z",
-    "modified": "2026-03-17T08:17:15Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"],
-      "domain": ["academic"]
+      "semantic": [
+        "weather"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

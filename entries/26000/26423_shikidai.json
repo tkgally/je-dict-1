@@ -15,39 +15,81 @@
   "examples": [
     {
       "id": "26423_shikidai_ex1",
-      "japanese": "{指揮者|しきしゃ}が{指揮|しき}{台|だい}に{立|た}った。",
+      "japanese": "⟦{指揮者|しきしゃ}→指揮者：06565_shikisha⟧⟦が→が：00051_ga⟧{指揮|しき}{台|だい}⟦に→に：00314_ni⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "The conductor stepped onto the podium.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26423_shikidai_ex2",
-      "japanese": "{指揮|しき}{台|だい}の{上|うえ}から{全体|ぜんたい}を{見渡|みわた}して{指示|しじ}を{出|だ}す。",
+      "japanese": "{指揮|しき}{台|だい}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦から→から：00504_kara⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦を→を：00422_wo⟧⟦{見渡|みわた}して→見渡す：07169_miwatasu⟧⟦{指示|しじ}→指示：09674_shiji⟧⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "From atop the podium, the conductor surveys the ensemble and gives directions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26423_shikidai_ex3",
-      "japanese": "{新|あたら}しい{音楽|おんがく}{監督|かんとく}が{初|はじ}めて{指揮|しき}{台|だい}に{上|あ}がり、{拍手|はくしゅ}で{迎|むか}えられた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧{指揮|しき}{台|だい}⟦に→に：00314_ni⟧⟦{上|あ}がり→上がる：00615_agaru⟧、⟦{拍手|はくしゅ}→拍手：03553_hakushu⟧⟦で→で：00502_de⟧⟦{迎|むか}えられた→迎える：01193_mukaeru⟧。",
       "english": "The new music director stepped onto the podium for the first time and was greeted with applause.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {指揮|しき} (conducting, command) and {台|だい} (stand, platform). The podium is a symbol of the conductor's authority and is central to the concert stage layout.\n\nCOMMON COLLOCATIONS:\n- {指揮|しき}{台|だい}に{立|た}つ: to stand on the podium\n- {指揮|しき}{台|だい}に{上|あ}がる: to step up to the podium\n- {指揮|しき}{台|だい}を{降|お}りる: to step down from the podium\n- {指揮|しき}{台|だい}の{前|まえ}: in front of the podium\n\nSIMILAR WORDS:\n- {演壇|えんだん}: lecture podium, lectern — the podium used for speeches, not music\n- {指揮棒|しきぼう}: baton — the stick the conductor holds\n- {指揮者|しきしゃ}: conductor — the person who stands on the podium",
-  "cross_references": [],
+  "notes": "A compound of ⟦{指揮|しき}→指揮：11102_shiki⟧ (conducting, command) and {台|だい} (stand, platform). The podium is a symbol of the conductor's authority and is central to the concert stage layout.\n\nCOMMON COLLOCATIONS:\n- {指揮|しき}{台|だい}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to stand on the podium\n- {指揮|しき}{台|だい}⟦に→に：00314_ni⟧⟦{上|あ}がる→上がる：00615_agaru⟧: to step up to the podium\n- {指揮|しき}{台|だい}⟦を→を：00422_wo⟧⟦{降|お}りる→降りる：00568_oriru⟧: to step down from the podium\n- {指揮|しき}{台|だい}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧: in front of the podium\n\nSIMILAR WORDS:\n- ⟦{演壇|えんだん}→演壇：22662_endan⟧: lecture podium, lectern — the podium used for speeches, not music\n- ⟦{指揮棒|しきぼう}→指揮棒：08114_shikibou⟧: baton — the stick the conductor holds\n- ⟦{指揮者|しきしゃ}→指揮者：06565_shikisha⟧: conductor — the person who stands on the podium",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22662_endan",
+      "reading": "えんだん",
+      "headword": "{演壇|えんだん}",
+      "label": "lecture podium, lectern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08114_shikibou",
+      "reading": "しきぼう",
+      "headword": "{指揮棒|しきぼう}",
+      "label": "baton"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06565_shikisha",
+      "reading": "しきしゃ",
+      "headword": "{指揮者|しきしゃ}",
+      "label": "conductor"
+    },
+    {
+      "type": "related",
+      "target_id": "22632_fumendai",
+      "reading": "ふめんだい",
+      "headword": "{譜面台|ふめんだい}",
+      "label": "music stand"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["music", "art"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "music",
+        "art"
+      ]
     },
     "created": "2026-05-01T15:38:40Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15641_fuseikaku_ex1",
-      "japanese": "この{情報|じょうほう}は{不正確|ふせいかく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦は→は：00079_ha⟧{不正確|ふせいかく}だ。",
       "english": "This information is inaccurate.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15641_fuseikaku_ex2",
-      "japanese": "{不正確|ふせいかく}なデータに{基|もと}づいた{判断|はんだん}は{危険|きけん}だ。",
+      "japanese": "{不正確|ふせいかく}な⟦データ→データ：03944_deeta⟧⟦に→に：00314_ni⟧⟦{基|もと}づいた→基づく：02315_motozuku⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "Judgments based on inaccurate data are dangerous.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15641_fuseikaku_ex3",
-      "japanese": "{翻訳|ほんやく}が{不正確|ふせいかく}だったため、{誤解|ごかい}が{生|う}じた。",
+      "japanese": "⟦{翻訳|ほんやく}→翻訳：01725_honyaku⟧⟦が→が：00051_ga⟧{不正確|ふせいかく}だった⟦ため→ため：01145_tame⟧、⟦{誤解|ごかい}→誤解：02769_gokai⟧⟦が→が：00051_ga⟧{生|う}じた。",
       "english": "Because the translation was inaccurate, misunderstandings arose.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{不正確|ふせいかく} is a na-adjective formed by adding the negative prefix {不|ふ} to {正確|せいかく} (accurate). It is used in formal and neutral contexts alike.\n\nCOMMON COLLOCATIONS:\n- {不正確|ふせいかく}な{情報|じょうほう} (inaccurate information)\n- {不正確|ふせいかく}な{記述|きじゅつ} (inaccurate description)\n- {不正確|ふせいかく}な{翻訳|ほんやく} (inaccurate translation)\n- {不正確|ふせいかく}な{数値|すうち} (imprecise figures)\n\nSIMILAR WORDS:\n- {正確|せいかく}: accurate, precise (antonym)\n- {曖昧|あいまい}: vague, ambiguous\n- {誤|あやま}り: error, mistake",
+  "notes": "USAGE:\n{不正確|ふせいかく} is a na-adjective formed by adding the negative prefix {不|ふ} to ⟦{正確|せいかく}→正確：03372_seikaku⟧ (accurate). It is used in formal and neutral contexts alike.\n\nCOMMON COLLOCATIONS:\n- {不正確|ふせいかく}な⟦{情報|じょうほう}→情報：03348_jouhou⟧ (inaccurate information)\n- {不正確|ふせいかく}な⟦{記述|きじゅつ}→記述：05819_kijutsu⟧ (inaccurate description)\n- {不正確|ふせいかく}な⟦{翻訳|ほんやく}→翻訳：01725_honyaku⟧ (inaccurate translation)\n- {不正確|ふせいかく}な⟦{数値|すうち}→数値：12913_suuchi⟧ (imprecise figures)\n\nSIMILAR WORDS:\n- ⟦{正確|せいかく}→正確：03372_seikaku⟧: accurate, precise (antonym)\n- ⟦{曖昧|あいまい}→曖昧：08051_aimai⟧: vague, ambiguous\n- ⟦{誤|あやま}り→誤り：01772_ayamari⟧: error, mistake",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "せいかく",
       "headword": "{正確|せいかく}",
       "label": "accurate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08051_aimai",
+      "reading": "あいまい",
+      "headword": "{曖昧|あいまい}",
+      "label": "vague, ambiguous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01772_ayamari",
+      "reading": "あやまり",
+      "headword": "{誤|あやま}り",
+      "label": "error, mistake"
     }
   ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

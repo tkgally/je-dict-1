@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "24946_guriinken_ex1",
-      "japanese": "グリーン{券|けん}を{買|か}いたい。",
+      "japanese": "グリーン{券|けん}⟦を→を：00422_wo⟧⟦{買|か}いたい→買う：00489_kau⟧。",
       "english": "I'd like to buy a green car ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24946_guriinken_ex2",
-      "japanese": "{新幹線|しんかんせん}のグリーン{券|けん}は{事前|じぜん}に{予約|よやく}した{方|ほう}がいい。",
+      "japanese": "⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦の→の：09472_no⟧グリーン{券|けん}⟦は→は：00079_ha⟧⟦{事前|じぜん}→事前：07580_jizen⟧⟦に→に：00314_ni⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "It's better to reserve a Shinkansen green car ticket in advance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24946_guriinken_ex3",
-      "japanese": "{乗車券|じょうしゃけん}と{特急券|とっきゅうけん}のほかにグリーン{券|けん}が{必要|ひつよう}なので、{料金|りょうきん}が{結構|けっこう}{高|たか}くなる。",
+      "japanese": "⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧⟦と→と：00512_to⟧⟦{特急券|とっきゅうけん}→特急券：15799_tokkyuuken⟧⟦の→の：09472_no⟧ほか⟦に→に：00314_ni⟧グリーン{券|けん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦の→の：09472_no⟧で、⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦が→が：00051_ga⟧⟦{結構|けっこう}→結構：10387_kekkou⟧⟦{高|たか}く→高い：00500_takai⟧⟦なる→なる：01970_naru⟧。",
       "english": "Since you need a green car ticket on top of the base fare and limited express surcharge, the cost ends up being quite high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of グリーン (green) and {券|けん} (ticket). The name comes from JR's Green Car (グリーン{車|しゃ}), the first-class seating section with wider seats and more legroom. The term is specific to the JR rail network.\n\nCOMMON COLLOCATIONS:\n- グリーン{券|けん}を{購入|こうにゅう}する: to purchase a green car ticket\n- グリーン{券|けん}{売|う}り{場|ば}: green car ticket counter\n- {自由席|じゆうせき}グリーン{券|けん}: unreserved green car ticket\n- {指定席|していせき}グリーン{券|けん}: reserved green car ticket\n\nRELATED TERMS:\n- グリーン{車|しゃ}: Green Car, the first-class carriage itself\n- {乗車券|じょうしゃけん}: base fare ticket\n- {特急券|とっきゅうけん}: limited express surcharge ticket\n- {普通車|ふつうしゃ}: standard-class carriage",
+  "notes": "Compound of グリーン (green) and ⟦{券|けん}→券：02150_ken⟧ (ticket). The name comes from JR's Green Car (⟦グリーン{車|しゃ}→グリーン車：08489_guriinsha⟧), the first-class seating section with wider seats and more legroom. The term is specific to the JR rail network.\n\nCOMMON COLLOCATIONS:\n- グリーン{券|けん}⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧: to purchase a green car ticket\n- グリーン{券|けん}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧: green car ticket counter\n- ⟦{自由席|じゆうせき}→自由席：07047_jiyuuseki⟧グリーン{券|けん}: unreserved green car ticket\n- ⟦{指定席|していせき}→指定席：07046_shiteiseki⟧グリーン{券|けん}: reserved green car ticket\n\nRELATED WORDS:\n- ⟦グリーン{車|しゃ}→グリーン車：08489_guriinsha⟧: Green Car, the first-class carriage itself\n- ⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧: base fare ticket\n- ⟦{特急券|とっきゅうけん}→特急券：15799_tokkyuuken⟧: limited express surcharge ticket\n- ⟦{普通車|ふつうしゃ}→普通車：20940_futsuusha⟧: standard-class carriage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08489_guriinsha",
+      "reading": "ぐりーんしゃ",
+      "headword": "グリーン{車|しゃ}",
+      "label": "Green Car, the first-class carriage…"
+    },
+    {
+      "type": "related",
+      "target_id": "05298_joushaken",
+      "reading": "じょうしゃけん",
+      "headword": "{乗車券|じょうしゃけん}",
+      "label": "base fare ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "15799_tokkyuuken",
+      "reading": "とっきゅうけん",
+      "headword": "{特急券|とっきゅうけん}",
+      "label": "limited express surcharge ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "20940_futsuusha",
+      "reading": "ふつうしゃ",
+      "headword": "{普通車|ふつうしゃ}",
+      "label": "standard-class carriage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-21T14:20:53Z",
-    "modified": "2026-06-15T07:57:17Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

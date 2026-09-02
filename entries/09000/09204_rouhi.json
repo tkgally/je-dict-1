@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09204_rouhi_ex1",
-      "japanese": "{時間|じかん}を{浪費|ろうひ}した。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{浪費|ろうひ}⟦した→する：00392_suru⟧。",
       "english": "I wasted time.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09204_rouhi_ex2",
-      "japanese": "{浪費|ろうひ}{癖|ぐせ}を{直|なお}したい。",
+      "japanese": "{浪費|ろうひ}{癖|ぐせ}⟦を→を：00422_wo⟧{直|なお}したい。",
       "english": "I want to break my habit of wasting money.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09204_rouhi_ex3",
-      "japanese": "{資源|しげん}の{浪費|ろうひ}は{環境|かんきょう}に{悪|わる}い。",
+      "japanese": "⟦{資源|しげん}→資源：03167_shigen⟧⟦の→の：09472_no⟧{浪費|ろうひ}⟦は→は：00079_ha⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "Wasting resources is bad for the environment.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{浪費|ろうひ} refers to wasteful use of money, time, or resources, typically with a negative connotation.\n\nCOMMON COLLOCATIONS:\n- {浪費|ろうひ}する: to waste, to squander\n- {浪費|ろうひ}{癖|ぐせ}: habit of wasting money\n- {浪費|ろうひ}{家|か}: a spendthrift, wasteful person\n- {時間|じかん}の{浪費|ろうひ}: waste of time\n- {資源|しげん}の{浪費|ろうひ}: waste of resources\n\nUSAGE NOTES:\n- Always carries a negative nuance\n- Can apply to money, time, energy, or other resources",
+  "notes": "{浪費|ろうひ} refers to wasteful use of money, time, or resources, typically with a negative connotation.\n\nCOMMON COLLOCATIONS:\n- {浪費|ろうひ}⟦する→する：00392_suru⟧: to waste, to squander\n- {浪費|ろうひ}{癖|ぐせ}: habit of wasting money\n- {浪費|ろうひ}⟦{家|か}→〜家：28339_ka⟧: a spendthrift, wasteful person\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{浪費|ろうひ}: waste of time\n- ⟦{資源|しげん}→資源：03167_shigen⟧⟦の→の：09472_no⟧{浪費|ろうひ}: waste of resources\n\nUSAGE:\n- Always carries a negative nuance\n- Can apply to money, time, energy, or other resources",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,18 @@
       "reading": "せつやく",
       "headword": "{節約|せつやく}",
       "label": "saving, economizing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10449_kanezukai",
+      "reading": "かねづかい",
+      "headword": "{金遣|かねづか}い",
+      "label": "spending habits, use of money"
     }
   ],
   "metadata": {
     "created": "2026-02-01T02:37:16Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

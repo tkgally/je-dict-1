@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{地理|ちり} can refer to the academic subject or knowledge of an area's layout.\n\nCOMMON PATTERNS:\n- {地理|ちり}⟦に→に：00314_ni⟧⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧: familiar with the geography/layout\n- {地理|ちり}⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧: don't know the area\n\nRELATED TERMS:\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧: history\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧: social studies\n- ⟦{地図|ちず}→地図：02914_chizu⟧: map\n- ⟦{地形|ちけい}→地形：12083_chikei⟧: terrain, topography\n\nSCHOOL SUBJECTS:\n- ⟦{国語|こくご}→国語：02739_kokugo⟧: Japanese language\n- ⟦{数学|すうがく}→数学：01442_suugaku⟧: mathematics\n- ⟦{理科|りか}→理科：03994_rika⟧: science\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧: social studies (includes {地理|ちり} and ⟦{歴史|れきし}→歴史：02267_rekishi⟧)",
+  "notes": "{地理|ちり} can refer to the academic subject or knowledge of an area's layout.\n\nCOMMON PATTERNS:\n- {地理|ちり}⟦に→に：00314_ni⟧⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧: familiar with the geography/layout\n- {地理|ちり}⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧: don't know the area\n\nRELATED WORDS:\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧: history\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧: social studies\n- ⟦{地図|ちず}→地図：02914_chizu⟧: map\n- ⟦{地形|ちけい}→地形：12083_chikei⟧: terrain, topography\n\nSCHOOL SUBJECTS:\n- ⟦{国語|こくご}→国語：02739_kokugo⟧: Japanese language\n- ⟦{数学|すうがく}→数学：01442_suugaku⟧: mathematics\n- ⟦{理科|りか}→理科：03994_rika⟧: science\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧: social studies (includes {地理|ちり} and ⟦{歴史|れきし}→歴史：02267_rekishi⟧)",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,32 @@
       "reading": "れきし",
       "headword": "{歴史|れきし}",
       "label": "history"
+    },
+    {
+      "type": "related",
+      "target_id": "01427_shakai",
+      "reading": "しゃかい",
+      "headword": "{社会|しゃかい}",
+      "label": "social studies"
+    },
+    {
+      "type": "related",
+      "target_id": "02914_chizu",
+      "reading": "ちず",
+      "headword": "{地図|ちず}",
+      "label": "map"
+    },
+    {
+      "type": "related",
+      "target_id": "12083_chikei",
+      "reading": "ちけい",
+      "headword": "{地形|ちけい}",
+      "label": "terrain, topography"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:41:14Z",
-    "modified": "2026-05-16T15:20:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

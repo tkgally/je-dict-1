@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29826_kudamonogari_ex1",
-      "japanese": "{果物|くだもの}{狩|が}りに{行|い}く。",
+      "japanese": "{果物|くだもの}{狩|が}り⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "We're going fruit picking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29826_kudamonogari_ex2",
-      "japanese": "{秋|あき}は{果物|くだもの}{狩|が}りの{季節|きせつ}だ。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦は→は：00079_ha⟧{果物|くだもの}{狩|が}り⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧だ。",
       "english": "Autumn is the season for fruit picking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29826_kudamonogari_ex3",
-      "japanese": "{家族|かぞく}で{農園|のうえん}へ{果物|くだもの}{狩|が}りに{出|で}かけた。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{農園|のうえん}→農園：26824_nouen⟧⟦へ→へ：02473_he⟧{果物|くだもの}{狩|が}り⟦に→に：00314_ni⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "The family went out to an orchard for fruit picking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{果物|くだもの} (fruit) + {狩|か}り (gathering; the reading voices to がり in the compound). The {狩|か}り suffix is used broadly for gathering or viewing outings, not just hunting.\n\nRELATED OUTINGS:\n- いちご{狩|が}り: strawberry picking\n- ぶどう{狩|が}り: grape picking\n- {潮干狩|しおひが}り: clam digging\n- {紅葉狩|もみじが}り: autumn-leaf viewing",
+  "notes": "⟦{果物|くだもの}→果物：00509_kudamono⟧ (fruit) + ⟦{狩|か}り→狩り：02689_kari⟧ (gathering; the reading voices to ⟦がり→ガリ：27408_gari⟧ in the compound). The ⟦{狩|か}り→狩り：02689_kari⟧ suffix is used broadly for gathering or viewing outings, not just hunting.\n\nRELATED OUTINGS:\n- いちご{狩|が}り: strawberry picking\n- ぶどう{狩|が}り: grape picking\n- ⟦{潮干狩|しおひが}り→潮干狩り：18507_shiohigari⟧: clam digging\n- ⟦{紅葉狩|もみじが}り→紅葉狩り：05588_momijigari⟧: autumn-leaf viewing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18507_shiohigari",
+      "reading": "しおひがり",
+      "headword": "{潮干狩|しおひが}り",
+      "label": "clam digging"
+    },
+    {
+      "type": "related",
+      "target_id": "05588_momijigari",
+      "reading": "もみじがり",
+      "headword": "{紅葉狩|もみじが}り",
+      "label": "autumn-leaf viewing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

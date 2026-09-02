@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14808_koukiatsu_ex1",
-      "japanese": "{高気圧|こうきあつ}に{覆|おお}われて{晴|は}れている。",
+      "japanese": "{高気圧|こうきあつ}⟦に→に：00314_ni⟧⟦{覆|おお}われて→覆う：02020_oou⟧⟦{晴|は}れている→晴れる：00701_hareru⟧。",
       "english": "It's sunny because a high-pressure system is covering the area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14808_koukiatsu_ex2",
-      "japanese": "{太平洋|たいへいよう}{高気圧|こうきあつ}の{影響|えいきょう}で{暑|あつ}い{日|ひ}が{続|つづ}く。",
+      "japanese": "⟦{太平洋|たいへいよう}→太平洋：09680_taiheiyou⟧{高気圧|こうきあつ}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{暑|あつ}い→暑い：00619_atsui⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧。",
       "english": "Hot days will continue due to the influence of the Pacific high-pressure system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14808_koukiatsu_ex3",
-      "japanese": "{高気圧|こうきあつ}と{低気圧|ていきあつ}の{配置|はいち}によって{天気|てんき}が{大|おお}きく{変|か}わる。",
+      "japanese": "{高気圧|こうきあつ}⟦と→と：00512_to⟧⟦{低気圧|ていきあつ}→低気圧：21712_teikiatsu⟧⟦の→の：09472_no⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦によって→によって：06801_niyotte⟧⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The weather changes significantly depending on the positioning of high and low pressure systems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A fundamental weather term heard daily in Japanese weather forecasts. The opposite is {低気圧|ていきあつ} (low pressure).\n\nCOMMON COLLOCATIONS:\n- {高気圧|こうきあつ}に{覆|おお}われる (to be covered by a high-pressure system)\n- {太平洋|たいへいよう}{高気圧|こうきあつ} (Pacific high-pressure system)\n- {高気圧|こうきあつ}が{張|は}り{出|だ}す (a high-pressure system extends)\n- {移動性|いどうせい}{高気圧|こうきあつ} (migratory anticyclone)\n\nUSAGE NOTE:\n{太平洋|たいへいよう}{高気圧|こうきあつ} is especially important in Japanese weather as it dominates summer weather patterns, bringing the characteristic hot and humid summer days. Understanding this term is key to following Japanese weather forecasts.",
+  "notes": "A fundamental weather term heard daily in Japanese weather forecasts. The opposite is ⟦{低気圧|ていきあつ}→低気圧：21712_teikiatsu⟧ (low pressure).\n\nCOMMON COLLOCATIONS:\n- {高気圧|こうきあつ}⟦に→に：00314_ni⟧⟦{覆|おお}われる→覆う：02020_oou⟧ (to be covered by a high-pressure system)\n- ⟦{太平洋|たいへいよう}→太平洋：09680_taiheiyou⟧{高気圧|こうきあつ} (Pacific high-pressure system)\n- {高気圧|こうきあつ}⟦が→が：00051_ga⟧{張|は}り{出|だ}す (a high-pressure system extends)\n- {移動性|いどうせい}{高気圧|こうきあつ} (migratory anticyclone)\n\nUSAGE:\n⟦{太平洋|たいへいよう}→太平洋：09680_taiheiyou⟧{高気圧|こうきあつ} is especially important in Japanese weather as it dominates summer weather patterns, bringing the characteristic hot and humid summer days. Understanding this term is key to following Japanese weather forecasts.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "ていきあつ",
       "headword": "{低気圧|ていきあつ}",
       "label": "low pressure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27375_taikiatsu",
+      "reading": "たいきあつ",
+      "headword": "{大気圧|たいきあつ}",
+      "label": "atmospheric pressure"
     }
   ],
   "metadata": {
     "created": "2026-03-03T12:55:32Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

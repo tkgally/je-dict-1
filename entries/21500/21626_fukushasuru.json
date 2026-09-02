@@ -3,7 +3,7 @@
   "headword": "{複写|ふくしゃ}する",
   "reading": "ふくしゃする",
   "romaji": "fukushasuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to copy; to duplicate; to reproduce",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21626_fukushasuru_ex1",
-      "japanese": "{書類|しょるい}を{複写|ふくしゃ}する。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{複写|ふくしゃ}する。",
       "english": "To copy a document.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21626_fukushasuru_ex2",
-      "japanese": "この{資料|しりょう}は{複写|ふくしゃ}{禁止|きんし}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦は→は：00079_ha⟧⟦{複写|ふくしゃ}→複写：19000_fukusha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧です。",
       "english": "Copying of this material is prohibited.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21626_fukushasuru_ex3",
-      "japanese": "{原本|げんぽん}を{複写|ふくしゃ}して{各部署|かくぶしょ}に{配|くば}った。",
+      "japanese": "⟦{原本|げんぽん}→原本：15697_genpon⟧⟦を→を：00422_wo⟧{複写|ふくしゃ}して⟦{各部署|かくぶしょ}→各部署：29114_kakubusho⟧⟦に→に：00314_ni⟧⟦{配|くば}った→配る：03921_kubaru⟧。",
       "english": "I copied the original and distributed it to each department.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for copying or reproducing documents and materials. Often seen in legal and administrative contexts.\n\nCOMMON COLLOCATIONS:\n- {複写|ふくしゃ}{禁止|きんし}: copying prohibited\n- {複写|ふくしゃ}{機|き}: copier, copying machine\n- {複写|ふくしゃ}{用紙|ようし}: copy paper, carbon paper\n- {無断|むだん}{複写|ふくしゃ}: unauthorized copying\n- {複写|ふくしゃ}{権|けん}: reproduction rights\n\nSIMILAR WORDS:\n- コピーする: to copy — everyday loanword, most common in conversation\n- {複製|ふくせい}する: to reproduce, to replicate — also formal, broader (includes manufacturing)\n- {写|うつ}す: to copy by hand — implies manual transcription\n- {模写|もしゃ}する: to copy (artwork) — specifically for art reproduction\n\nREGISTER:\nMore formal than コピーする. Commonly found on copyright notices, library signs, and official documents. In everyday speech, コピーする is preferred.",
+  "notes": "A formal term for copying or reproducing documents and materials. Often seen in legal and administrative contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{複写|ふくしゃ}→複写：19000_fukusha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧: copying prohibited\n- ⟦{複写|ふくしゃ}{機|き}→複写機：24248_fukushaki⟧: copier, copying machine\n- ⟦{複写|ふくしゃ}→複写：19000_fukusha⟧⟦{用紙|ようし}→用紙：09588_youshi⟧: copy paper, carbon paper\n- ⟦{無断|むだん}→無断：13382_mudan⟧⟦{複写|ふくしゃ}→複写：19000_fukusha⟧: unauthorized copying\n- ⟦{複写|ふくしゃ}→複写：19000_fukusha⟧{権|けん}: reproduction rights\n\nSIMILAR WORDS:\n- ⟦コピーする→コピーする：02941_kopiisuru⟧: to copy — everyday loanword, most common in conversation\n- ⟦{複製|ふくせい}→複製：17528_fukusei⟧⟦する→する：00392_suru⟧: to reproduce, to replicate — also formal, broader (includes manufacturing)\n- ⟦{写|うつ}す→写す：01227_utsusu⟧: to copy by hand — implies manual transcription\n- ⟦{模写|もしゃ}→模写：19473_mosha⟧⟦する→する：00392_suru⟧: to copy (artwork) — specifically for art reproduction\n\nREGISTER:\nMore formal than ⟦コピーする→コピーする：02941_kopiisuru⟧. Commonly found on copyright notices, library signs, and official documents. In everyday speech, ⟦コピーする→コピーする：02941_kopiisuru⟧ is preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02941_kopiisuru",
+      "reading": "こぴーする",
+      "headword": "コピーする",
+      "label": "to copy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17528_fukusei",
+      "reading": "ふくせい",
+      "headword": "{複製|ふくせい}",
+      "label": "to reproduce, to replicate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01227_utsusu",
+      "reading": "うつす",
+      "headword": "{写|うつ}す",
+      "label": "to copy by hand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19473_mosha",
+      "reading": "もしゃ",
+      "headword": "{模写|もしゃ}",
+      "label": "to copy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T18:18:24Z",
-    "modified": "2026-04-02T18:18:24Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

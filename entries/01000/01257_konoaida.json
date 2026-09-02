@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "01257_konoaida_ex1",
-      "japanese": "この{間|あいだ}、{田中|たなか}⟦さん→〜さん：09848_san⟧⟦に→に：00314_ni⟧⟦{会|あ}いました→会う：00482_au⟧。",
+      "japanese": "この{間|あいだ}、⟦{田中|たなか}→田中：09528_tanaka⟧⟦さん→〜さん：09848_san⟧⟦に→に：00314_ni⟧⟦{会|あ}いました→会う：00482_au⟧。",
       "english": "I met Tanaka-san the other day.",
       "notes": null,
       "has_audio": false,
@@ -118,18 +118,46 @@
       ]
     }
   ],
-  "notes": "この{間|あいだ} is a time expression meaning 'the other day' or 'recently.'\n\nPosition: Usually at the beginning of a sentence or clause.\n\nAlternative reading: Can also be read as このかん when meaning 'during this time/interval' in more formal contexts.\n\nSimilar expressions:\n- この{間|あいだ} vs. ⟦{最近|さいきん}→最近：00881_saikin⟧: ⟦{最近|さいきん}→最近：00881_saikin⟧ refers to a broader recent period; この{間|あいだ} often refers to a specific recent occasion.\n- この{間|あいだ} vs. ⟦{先日|せんじつ}→先日：03305_senjitsu⟧: ⟦{先日|せんじつ}→先日：03305_senjitsu⟧ is more formal; この{間|あいだ} is neutral/casual.\n- この{間|あいだ} vs. ⟦この{頃|ごろ}→この頃：01262_konogoro⟧: ⟦この{頃|ごろ}→この頃：01262_konogoro⟧ means 'these days' (ongoing); この{間|あいだ} often refers to a past point.\n\nCommon expression: この{間|あいだ}⟦は→は：00079_ha⟧⟦どうも→どうも：02921_doumo⟧ (Thank you for the other day - casual gratitude).",
+  "notes": "この{間|あいだ} is a time expression meaning 'the other day' or 'recently.'\n\nPosition: Usually at the beginning of a sentence or clause.\n\nAlternative reading: Can also be read as ⟦この→この：00962_kono⟧かん when meaning 'during this time/interval' in more formal contexts.\n\nSimilar expressions:\n- この{間|あいだ} vs. ⟦{最近|さいきん}→最近：00881_saikin⟧: ⟦{最近|さいきん}→最近：00881_saikin⟧ refers to a broader recent period; この{間|あいだ} often refers to a specific recent occasion.\n- この{間|あいだ} vs. ⟦{先日|せんじつ}→先日：03305_senjitsu⟧: ⟦{先日|せんじつ}→先日：03305_senjitsu⟧ is more formal; この{間|あいだ} is neutral/casual.\n- この{間|あいだ} vs. ⟦この{頃|ごろ}→この頃：01262_konogoro⟧: ⟦この{頃|ごろ}→この頃：01262_konogoro⟧ means 'these days' (ongoing); この{間|あいだ} often refers to a past point.\n\nCommon expression: この{間|あいだ}⟦は→は：00079_ha⟧⟦どうも→どうも：02921_doumo⟧ (Thank you for the other day - casual gratitude).",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "さいきん",
       "headword": "{最近|さいきん}",
       "target_id": "00881_saikin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19815_tsuisenjitsu",
+      "reading": "ついせんじつ",
+      "headword": "つい{先日|せんじつ}",
+      "label": "just the other day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21887_sakidatte",
+      "reading": "さきだって",
+      "headword": "{先立|さきだ}って",
+      "label": "prior to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25259_konomae",
+      "reading": "このまえ",
+      "headword": "この{前|まえ}",
+      "label": "the other day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29015_sukoshimae",
+      "reading": "すこしまえ",
+      "headword": "{少|すこ}し{前|まえ}",
+      "label": "a little while ago"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:17:41Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

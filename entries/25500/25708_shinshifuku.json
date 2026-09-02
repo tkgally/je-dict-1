@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "25708_shinshifuku_ex1",
-      "japanese": "{紳士服|しんしふく}{売|う}り{場|ば}はどこですか。",
+      "japanese": "{紳士服|しんしふく}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the menswear section?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25708_shinshifuku_ex2",
-      "japanese": "{駅前|えきまえ}に{紳士服|しんしふく}の{店|みせ}がある。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧{紳士服|しんしふく}⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a menswear shop in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25708_shinshifuku_ex3",
-      "japanese": "{息子|むすこ}の{入社式|にゅうしゃしき}のために{紳士服|しんしふく}を{買|か}いに{行|い}った。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦の→の：09472_no⟧⟦{入社式|にゅうしゃしき}→入社式：18833_nyuushashiki⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{紳士服|しんしふく}⟦を→を：00422_wo⟧⟦{買|か}い→買う：00489_kau⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to buy men's clothing for my son's company entrance ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{紳士|しんし} (gentleman) + {服|ふく} (clothing). In practice, {紳士服|しんしふく} refers to men's clothing in general, with an emphasis on formal and business wear such as suits, dress shirts, and ties. Department stores and shopping malls typically label their men's clothing sections as {紳士服|しんしふく}.\n\nCOMMON COLLOCATIONS:\n- {紳士服|しんしふく}{売|う}り{場|ば} — menswear section (in a department store)\n- {紳士服|しんしふく}{店|てん} — menswear shop\n- {紳士服|しんしふく}チェーン — menswear chain store\n\nSIMILAR WORDS:\n- メンズ — men's (loanword) — casual, modern term used in fashion\n- {婦人服|ふじんふく} — women's clothing — the counterpart for women\n- {子供服|こどもふく} — children's clothing",
+  "notes": "⟦{紳士|しんし}→紳士：18022_shinshi⟧ (gentleman) + ⟦{服|ふく}→服：00695_fuku⟧ (clothing). In practice, {紳士服|しんしふく} refers to men's clothing in general, with an emphasis on formal and business wear such as suits, dress shirts, and ties. Department stores and shopping malls typically label their men's clothing sections as {紳士服|しんしふく}.\n\nCOMMON COLLOCATIONS:\n- {紳士服|しんしふく}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ — menswear section (in a department store)\n- {紳士服|しんしふく}⟦{店|てん}→店：10011_ten⟧ — menswear shop\n- {紳士服|しんしふく}⟦チェーン→チェーン：08833_cheen⟧ — menswear chain store\n\nSIMILAR WORDS:\n- メンズ — men's (loanword) — casual, modern term used in fashion\n- ⟦{婦人服|ふじんふく}→婦人服：17989_fujinfuku⟧ — women's clothing — the counterpart for women\n- {子供服|こどもふく} — children's clothing",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,16 +52,29 @@
       "reading": "ふじんふく",
       "headword": "{婦人|ふじん}{服|ふく}",
       "label": "women's clothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01050_sebiro",
+      "reading": "せびろ",
+      "headword": "{背広|せびろ}",
+      "label": "business suit"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "daily-life"
+      ]
     },
     "created": "2026-04-26T16:30:42Z",
-    "modified": "2026-05-07T10:07:56Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

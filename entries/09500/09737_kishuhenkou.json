@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09737_kishuhenkou_ex1",
-      "japanese": "そろそろ{機種|きしゅ}{変更|へんこう}しようかな。",
+      "japanese": "⟦そろそろ→そろそろ：01259_sorosoro⟧{機種|きしゅ}{変更|へんこう}⟦しよう→する：00392_suru⟧⟦か→か：09473_ka⟧な。",
       "english": "Maybe it's time to upgrade my phone.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09737_kishuhenkou_ex2",
-      "japanese": "{機種|きしゅ}{変更|へんこう}のとき、データ{移行|いこう}を{忘|わす}れないで。",
+      "japanese": "{機種|きしゅ}{変更|へんこう}⟦の→の：09472_no⟧とき、⟦データ{移行|いこう}→データ移行：09814_deetaikou⟧⟦を→を：00422_wo⟧⟦{忘|わす}れないで→忘れる：00474_wasureru⟧。",
       "english": "Don't forget to transfer your data when you change phones.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09737_kishuhenkou_ex3",
-      "japanese": "{最新|さいしん}モデルに{機種|きしゅ}{変更|へんこう}したら、バッテリーの{持|も}ちが{良|よ}くなった。",
+      "japanese": "⟦{最新|さいしん}モデル→最新モデル：26693_saishinmoderu⟧⟦に→に：00314_ni⟧{機種|きしゅ}{変更|へんこう}⟦したら→する：00392_suru⟧、⟦バッテリー→バッテリー：04425_batterii⟧⟦の→の：09472_no⟧{持|も}ち⟦が→が：00051_ga⟧⟦{良|よ}く→良い：02350_yoi⟧⟦なった→なる：01970_naru⟧。",
       "english": "After upgrading to the latest model, the battery life improved.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{機種|きしゅ}{変更|へんこう} is commonly abbreviated as {機変|きへん}.\n\nCOMMON COLLOCATIONS:\n- {機種|きしゅ}{変更|へんこう}する (to upgrade/change phones)\n- {機種|きしゅ}{変更|へんこう}{手続|てつづ}き (phone upgrade procedure)\n- {機種|きしゅ}{変更|へんこう}キャンペーン (phone upgrade campaign)\n\nVERB FORM:\n- {機種|きしゅ}{変更|へんこう}する (to change device models)\n\nRELATED TERMS:\n- データ{移行|いこう}: data transfer\n- {乗|の}り{換|か}え: carrier switch\n- {新規|しんき}{契約|けいやく}: new contract",
+  "notes": "{機種|きしゅ}{変更|へんこう} is commonly abbreviated as {機変|きへん}.\n\nCOMMON COLLOCATIONS:\n- {機種|きしゅ}{変更|へんこう}⟦する→する：00392_suru⟧ (to upgrade/change phones)\n- {機種|きしゅ}{変更|へんこう}{手続|てつづ}き (phone upgrade procedure)\n- {機種|きしゅ}{変更|へんこう}⟦キャンペーン→キャンペーン：10809_kyanpeen⟧ (phone upgrade campaign)\n\nFORMS:\n- {機種|きしゅ}{変更|へんこう}⟦する→する：00392_suru⟧ (to change device models)\n\nRELATED WORDS:\n- ⟦データ{移行|いこう}→データ移行：09814_deetaikou⟧: data transfer\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧: carrier switch\n- ⟦{新規|しんき}→新規：06289_shinki⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧: new contract",
   "metadata": {
     "created": "2026-02-03T07:20:33Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -81,6 +81,20 @@
       "reading": "じゅうでんぎれ",
       "headword": "{充電|じゅうでん}{切|ぎ}れ",
       "label": "dead battery"
+    },
+    {
+      "type": "related",
+      "target_id": "09814_deetaikou",
+      "reading": "でーたいこう",
+      "headword": "データ{移行|いこう}",
+      "label": "data transfer"
+    },
+    {
+      "type": "related",
+      "target_id": "16130_norikae",
+      "reading": "のりかえ",
+      "headword": "{乗|の}り{換|か}え",
+      "label": "carrier switch"
     }
   ]
 }

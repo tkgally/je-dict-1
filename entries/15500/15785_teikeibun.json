@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15785_teikeibun_ex1",
-      "japanese": "{定型文|ていけいぶん}を{使|つか}って{返信|へんしん}した。",
+      "japanese": "{定型文|ていけいぶん}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{返信|へんしん}→返信：14350_henshin⟧⟦した→する：00392_suru⟧。",
       "english": "I replied using a template.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15785_teikeibun_ex2",
-      "japanese": "ビジネスメールの{定型文|ていけいぶん}を{覚|おぼ}えておくと{便利|べんり}だ。",
+      "japanese": "⟦ビジネス→ビジネス：11162_bijinesu⟧⟦メール→メール：04435_meeru⟧⟦の→の：09472_no⟧{定型文|ていけいぶん}⟦を→を：00422_wo⟧⟦{覚|おぼ}えて→覚える：00739_oboeru⟧おく⟦と→と：00512_to⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "It's useful to learn the standard phrases for business emails.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15785_teikeibun_ex3",
-      "japanese": "{定型文|ていけいぶん}ばかりの{挨拶|あいさつ}では、{気持|きも}ちが{伝|つた}わらないこともある。",
+      "japanese": "{定型文|ていけいぶん}⟦ばかり→〜ばかり：02006_bakari⟧⟦の→の：09472_no⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{気持|きも}ち⟦が→が：00051_ga⟧⟦{伝|つた}わらない→伝わる：01961_tsutawaru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Greetings that are nothing but stock phrases sometimes fail to convey genuine feelings.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{定型文|ていけいぶん} is widely used in business and digital communication. Many email apps and messaging platforms have a {定型文|ていけいぶん} feature that lets users save and reuse common phrases.\n\nCOMMON COLLOCATIONS:\n- {定型文|ていけいぶん}を{登録|とうろく}する (register a template phrase)\n- {定型文|ていけいぶん}を{挿入|そうにゅう}する (insert a template)\n- ビジネス{定型文|ていけいぶん} (business boilerplate)\n\nSIMILAR WORDS:\nテンプレート is the loanword for \"template\" and is used more broadly. {決|き}まり{文句|もんく} means \"set phrase\" or \"cliché\" and can carry a slightly negative nuance of being overused or hollow.",
+  "notes": "USAGE:\n{定型文|ていけいぶん} is widely used in business and digital communication. Many email apps and messaging platforms have a {定型文|ていけいぶん} feature that lets users save and reuse common phrases.\n\nCOMMON COLLOCATIONS:\n- {定型文|ていけいぶん}⟦を→を：00422_wo⟧⟦{登録|とうろく}する→登録する：25227_tourokusuru⟧ (register a template phrase)\n- {定型文|ていけいぶん}⟦を→を：00422_wo⟧⟦{挿入|そうにゅう}→挿入：12828_sounyuu⟧⟦する→する：00392_suru⟧ (insert a template)\n- ⟦ビジネス→ビジネス：11162_bijinesu⟧{定型文|ていけいぶん} (business boilerplate)\n\nSIMILAR WORDS:\n⟦テンプレート→テンプレート：11493_tenpureeto⟧ is the loanword for \"template\" and is used more broadly. ⟦{決|き}まり{文句|もんく}→決まり文句：21431_kimarimonku⟧ means \"set phrase\" or \"cliché\" and can carry a slightly negative nuance of being overused or hollow.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "きまりもんく",
       "headword": "{決|き}まり{文句|もんく}",
       "label": "set phrase; cliché"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29416_bunrei",
+      "reading": "ぶんれい",
+      "headword": "{文例|ぶんれい}",
+      "label": "model sentence"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:45:02Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

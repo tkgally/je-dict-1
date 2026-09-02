@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "23147_touha_ex1",
-      "japanese": "{党派|とうは}を{超|こ}えた{協力|きょうりょく}が{必要|ひつよう}だ。",
+      "japanese": "{党派|とうは}⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Cooperation beyond party lines is necessary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23147_touha_ex2",
-      "japanese": "{様々|さまざま}な{党派|とうは}の{代表|だいひょう}が{集|あつ}まった。",
+      "japanese": "⟦{様々|さまざま}→様々：01559_samazama⟧な{党派|とうは}⟦の→の：09472_no⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Representatives from various political factions gathered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23147_touha_ex3",
-      "japanese": "{党派|とうは}{対立|たいりつ}が{激|はげ}しくなり、{議論|ぎろん}が{進|すす}まなかった。",
+      "japanese": "{党派|とうは}⟦{対立|たいりつ}→対立：04500_tairitsu⟧⟦が→が：00051_ga⟧⟦{激|はげ}しく→激しい：02348_hageshii⟧⟦なり→なる：01970_naru⟧、⟦{議論|ぎろん}→議論：02650_giron⟧⟦が→が：00051_ga⟧⟦{進|すす}まなかった→進む：01225_susumu⟧。",
       "english": "Partisan conflict intensified and the discussion made no progress.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {党|とう} (party) + {派|は} (faction, school). Refers broadly to political groups, factions, or partisan divisions. Common in political news and commentary.\n\nCOMMON COLLOCATIONS:\n- {党派|とうは}を{超|こ}える: to transcend party lines\n- {党派|とうは}{対立|たいりつ}: partisan conflict\n- {党派|とうは}{政治|せいじ}: party/factional politics\n- {党派|とうは}{色|いろ}: partisan coloring, party affiliation\n- {超|ちょう}{党派|とうは}: bipartisan, cross-party\n\nSIMILAR WORDS:\n- {派閥|はばつ}: faction (within a party) — specifically an internal power group, often with negative connotations of backroom dealing\n- {政党|せいとう}: political party — a formal, established party rather than a general faction\n- {会派|かいは}: parliamentary group — factions within a legislature that may cross party lines",
+  "notes": "Composed of {党|とう} (party) + ⟦{派|は}→派：28356_ha⟧ (faction, school). Refers broadly to political groups, factions, or partisan divisions. Common in political news and commentary.\n\nCOMMON COLLOCATIONS:\n- {党派|とうは}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧: to transcend party lines\n- {党派|とうは}⟦{対立|たいりつ}→対立：04500_tairitsu⟧: partisan conflict\n- {党派|とうは}⟦{政治|せいじ}→政治：01629_seiji⟧: party/factional politics\n- {党派|とうは}⟦{色|いろ}→色：00849_iro⟧: partisan coloring, party affiliation\n- {超|ちょう}{党派|とうは}: bipartisan, cross-party\n\nSIMILAR WORDS:\n- ⟦{派閥|はばつ}→派閥：16960_habatsu⟧: faction (within a party) — specifically an internal power group, often with negative connotations of backroom dealing\n- ⟦{政党|せいとう}→政党：04338_seitou⟧: political party — a formal, established party rather than a general faction\n- {会派|かいは}: parliamentary group — factions within a legislature that may cross party lines",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16960_habatsu",
+      "reading": "はばつ",
+      "headword": "{派閥|はばつ}",
+      "label": "faction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04338_seitou",
+      "reading": "せいとう",
+      "headword": "{政党|せいとう}",
+      "label": "political party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24360_batsu",
+      "reading": "ばつ",
+      "headword": "{閥|ばつ}",
+      "label": "clique"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics"]
+      "semantic": [
+        "politics"
+      ]
     },
     "created": "2026-04-08T20:32:54Z",
-    "modified": "2026-04-08T20:32:54Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

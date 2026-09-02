@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "01278_naruhodo_ex1",
-      "japanese": "なるほど、⟦そういう→そういう：09579_souiu⟧ことですか。",
+      "japanese": "なるほど、⟦そういう→そういう：09579_souiu⟧ことです⟦か→か：09473_ka⟧。",
       "english": "I see, so that's how it is.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "01278_naruhodo_ex5",
-      "japanese": "なるほど、だから⟦{遅|おく}れたん→遅れる：00741_okureru⟧です⟦ね→ね：09474_ne⟧。",
+      "japanese": "なるほど、だ⟦から→から：00504_kara⟧⟦{遅|おく}れたん→遅れる：00741_okureru⟧です⟦ね→ね：09474_ne⟧。",
       "english": "I see, so that's why you were late.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "01278_naruhodo_ex12",
-      "japanese": "⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦{見|み}てみると→見る：00283_miru⟧、なるほど⟦{評判|ひょうばん}→評判：03586_hyouban⟧どおり⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧だった。",
+      "japanese": "⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦{見|み}てみると→見る：00283_miru⟧、なるほど⟦{評判|ひょうばん}→評判：03586_hyouban⟧⟦どおり→どおり：09884_doori⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧だった。",
       "english": "When I actually went to see it, it was indeed a restaurant worthy of its reputation.",
       "notes": null,
       "has_audio": false,
@@ -138,11 +138,26 @@
       ]
     }
   ],
-  "notes": "A conversational response showing understanding or agreement with what someone has said. Very common in daily conversation.\n\nUSAGE:\n- Typically used at the start of a response: なるほど、そうですか\n- Shows the speaker has understood or been convinced\n- Often repeated while listening (like English \"uh-huh\" or \"I see\")\n\nCAUTION:\nUsing なるほど toward superiors or in formal settings can sound condescending, as it implies you are evaluating and judging what the other person said. In business, ⟦おっしゃる→おっしゃる：01299_ossharu⟧⟦{通|とお}り→通り：01475_toori⟧です or ⟦{承知|しょうち}→承知：02086_shouchi⟧しました are safer responses.\n\nCONTRAST:\n- なるほど: I see, indeed (understanding/agreement)\n- そうですか: is that so? (neutral acknowledgment)\n- ⟦{確|たし}かに→確かに：04717_tashikani⟧: certainly, indeed (stronger agreement)",
-  "cross_references": [],
+  "notes": "A conversational response showing understanding or agreement with what someone has said. Very common in daily conversation.\n\nUSAGE:\n- Typically used at the start of a response: なるほど、そうです⟦か→か：09473_ka⟧\n- Shows the speaker has understood or been convinced\n- Often repeated while listening (like English \"uh-huh\" or \"I see\")\n\nWATCH OUT:\nUsing なるほど toward superiors or in formal settings can sound condescending, as it implies you are evaluating and judging what the other person said. In business, ⟦おっしゃる→おっしゃる：01299_ossharu⟧⟦{通|とお}り→通り：01475_toori⟧です or ⟦{承知|しょうち}→承知：02086_shouchi⟧⟦しました→する：00392_suru⟧ are safer responses.\n\nSIMILAR WORDS:\n- なるほど: I see, indeed (understanding/agreement)\n- そうです⟦か→か：09473_ka⟧: is that so? (neutral acknowledgment)\n- ⟦{確|たし}かに→確かに：04717_tashikani⟧: certainly, indeed (stronger agreement)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04717_tashikani",
+      "reading": "たしかに",
+      "headword": "{確|たし}かに",
+      "label": "certainly, indeed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30293_soudesune",
+      "reading": "そうですね",
+      "headword": "そうですね",
+      "label": "that's right"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-05-14T20:30:00Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

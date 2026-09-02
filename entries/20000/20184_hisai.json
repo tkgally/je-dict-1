@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20184_hisai_ex1",
-      "japanese": "{被災|ひさい}{地|ち}に{物資|ぶっし}を{届|とど}ける。",
+      "japanese": "{被災|ひさい}{地|ち}⟦に→に：00314_ni⟧⟦{物資|ぶっし}→物資：07863_busshi⟧⟦を→を：00422_wo⟧⟦{届|とど}ける→届ける：01248_todokeru⟧。",
       "english": "To deliver supplies to the disaster-affected area.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20184_hisai_ex2",
-      "japanese": "{多|おお}くの{住民|じゅうみん}が{地震|じしん}で{被災|ひさい}した。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{被災|ひさい}⟦した→する：00392_suru⟧。",
       "english": "Many residents were affected by the earthquake.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20184_hisai_ex3",
-      "japanese": "{被災|ひさい}{者|しゃ}への{支援|しえん}{活動|かつどう}にボランティアとして{参加|さんか}した。",
+      "japanese": "{被災|ひさい}{者|しゃ}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧⟦ボランティア→ボランティア：04834_borantia⟧⟦として→として：06802_toshite⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I participated as a volunteer in relief efforts for the disaster victims.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {被|ひ} (to suffer/receive) + {災|さい} (disaster). A commonly encountered word in news about natural disasters, which are frequent in Japan.\n\nCOMMON COLLOCATIONS:\n- {被災|ひさい}する: to be hit by a disaster\n- {被災|ひさい}{者|しゃ}: disaster victim\n- {被災|ひさい}{地|ち}: disaster-stricken area\n- {被災|ひさい}{状況|じょうきょう}: state of damage\n- {被災|ひさい}{証明書|しょうめいしょ}: disaster victim certificate\n\nSIMILAR WORDS:\n- {罹災|りさい}: suffering a disaster — more formal and used in legal/administrative contexts\n- {災害|さいがい}: disaster — refers to the disaster itself, not the experience of being affected by it\n\nCULTURAL NOTE:\nJapan experiences frequent earthquakes, typhoons, and other natural disasters, making {被災|ひさい} a commonly used word in everyday news and conversation.",
+  "notes": "Composed of {被|ひ} (to suffer/receive) + {災|さい} (disaster). A commonly encountered word in news about natural disasters, which are frequent in Japan.\n\nCOMMON COLLOCATIONS:\n- {被災|ひさい}⟦する→する：00392_suru⟧: to be hit by a disaster\n- {被災|ひさい}{者|しゃ}: disaster victim\n- {被災|ひさい}{地|ち}: disaster-stricken area\n- {被災|ひさい}{状況|じょうきょう}: state of damage\n- {被災|ひさい}⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧: disaster victim certificate\n\nSIMILAR WORDS:\n- {罹災|りさい}: suffering a disaster — more formal and used in legal/administrative contexts\n- ⟦{災害|さいがい}→災害：09636_saigai⟧: disaster — refers to the disaster itself, not the experience of being affected by it\n\nCULTURAL NOTE:\nJapan experiences frequent earthquakes, typhoons, and other natural disasters, making {被災|ひさい} a commonly used word in everyday news and conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09636_saigai",
+      "reading": "さいがい",
+      "headword": "{災害|さいがい}",
+      "label": "disaster"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +160,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T16:16:02Z",
-    "modified": "2026-03-28T16:16:02Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "28546_shinfuzen_ex1",
-      "japanese": "{祖父|そふ}は{心不全|しんふぜん}で{亡|な}くなった。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{心不全|しんふぜん}⟦で→で：00502_de⟧⟦{亡|な}くなった→亡くなる：02639_nakunaru⟧。",
       "english": "My grandfather died of heart failure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28546_shinfuzen_ex2",
-      "japanese": "{急性|きゅうせい}{心不全|しんふぜん}で{入院|にゅういん}した。",
+      "japanese": "⟦{急性|きゅうせい}→急性：09015_kyuusei⟧{心不全|しんふぜん}⟦で→で：00502_de⟧⟦{入院|にゅういん}した→入院する：01849_nyuuinsuru⟧。",
       "english": "He was hospitalized with acute heart failure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28546_shinfuzen_ex3",
-      "japanese": "{慢性|まんせい}{心不全|しんふぜん}の{患者|かんじゃ}は{塩分|えんぶん}{摂取|せっしゅ}を{制限|せいげん}する{必要|ひつよう}がある。",
+      "japanese": "⟦{慢性|まんせい}→慢性：09014_mansei⟧{心不全|しんふぜん}⟦の→の：09472_no⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦は→は：00079_ha⟧⟦{塩分|えんぶん}→塩分：09945_enbun⟧⟦{摂取|せっしゅ}→摂取：09322_sesshu⟧⟦を→を：00422_wo⟧⟦{制限|せいげん}する→制限する：19636_seigensuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Patients with chronic heart failure need to restrict their salt intake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {心|しん} (heart) + {不全|ふぜん} (insufficiency/failure of an organ). The {不全|ふぜん} element appears in many medical condition names: {腎|じん}{不全|ふぜん} (kidney failure), {呼吸|こきゅう}{不全|ふぜん} (respiratory failure).\n\nCOMMON COLLOCATIONS:\n- {急性|きゅうせい}{心不全|しんふぜん}: acute heart failure\n- {慢性|まんせい}{心不全|しんふぜん}: chronic heart failure\n- {心不全|しんふぜん}で{亡|な}くなる: to die of heart failure\n- {心不全|しんふぜん}を{起|お}こす: to develop heart failure\n\nSIMILAR WORDS:\n- {心筋梗塞|しんきんこうそく}: myocardial infarction; heart attack — a specific event (blocked artery), often a cause of heart failure\n- {心臓|しんぞう}{病|びょう}: heart disease — broad umbrella term that includes heart failure",
+  "notes": "Compound of {心|しん} (heart) + ⟦{不全|ふぜん}→不全：28173_fuzen⟧ (insufficiency/failure of an organ). The ⟦{不全|ふぜん}→不全：28173_fuzen⟧ element appears in many medical condition names: {腎|じん}⟦{不全|ふぜん}→不全：28173_fuzen⟧ (kidney failure), ⟦{呼吸|こきゅう}→呼吸：02754_kokyuu⟧⟦{不全|ふぜん}→不全：28173_fuzen⟧ (respiratory failure).\n\nCOMMON COLLOCATIONS:\n- ⟦{急性|きゅうせい}→急性：09015_kyuusei⟧{心不全|しんふぜん}: acute heart failure\n- ⟦{慢性|まんせい}→慢性：09014_mansei⟧{心不全|しんふぜん}: chronic heart failure\n- {心不全|しんふぜん}⟦で→で：00502_de⟧⟦{亡|な}くなる→亡くなる：02639_nakunaru⟧: to die of heart failure\n- {心不全|しんふぜん}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to develop heart failure\n\nSIMILAR WORDS:\n- ⟦{心筋梗塞|しんきんこうそく}→心筋梗塞：20487_shinkinkousoku⟧: myocardial infarction; heart attack — a specific event (blocked artery), often a cause of heart failure\n- ⟦{心臓|しんぞう}{病|びょう}→心臓病：04418_shinzoubyou⟧: heart disease — broad umbrella term that includes heart failure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20487_shinkinkousoku",
+      "reading": "しんきんこうそく",
+      "headword": "{心筋梗塞|しんきんこうそく}",
+      "label": "myocardial infarction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04418_shinzoubyou",
+      "reading": "しんぞうびょう",
+      "headword": "{心臓病|しんぞうびょう}",
+      "label": "heart disease"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

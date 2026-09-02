@@ -2,7 +2,7 @@
   "id": "00388_sukeeto",
   "headword": "スケート",
   "reading": "すけーと",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "skating, skates",
   "conjugation": {
     "type": "suru",
@@ -168,11 +168,33 @@
       ]
     }
   ],
-  "notes": "スケート (from English 'skate') can refer to both the activity and the equipment.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: スケートする\n\nTYPES OF SKATING:\n- ⟦アイススケート→アイススケート：25751_aisusukeeto⟧: ice skating\n- ⟦フィギュアスケート→フィギュアスケート：27428_figyuasukeeto⟧: figure skating\n- ⟦スピードスケート→スピードスケート：noentry⟧: speed skating\n- ⟦ローラースケート→ローラースケート：26359_rooraasukeeto⟧: roller skating\n- ⟦インラインスケート→インラインスケート：noentry⟧: inline skating/rollerblading\n\nRELATED TERMS:\n- ⟦スケート{場|じょう}→スケート場：25737_sukeetojou⟧: skating rink\n- ⟦スケート{靴|ぐつ}→スケート靴：26360_sukeetogutsu⟧: skates (shoes)\n- ⟦スケートリンク→スケートリンク：29309_sukeetorinku⟧: skating rink\n\nスケートする is commonly used as a suru-verb meaning 'to skate.'",
-  "cross_references": [],
+  "notes": "スケート (from English 'skate') can refer to both the activity and the equipment.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: スケート⟦する→する：00392_suru⟧\n\nTYPES OF SKATING:\n- ⟦アイススケート→アイススケート：25751_aisusukeeto⟧: ice skating\n- ⟦フィギュアスケート→フィギュアスケート：27428_figyuasukeeto⟧: figure skating\n- ⟦スピードスケート→スピードスケート：noentry⟧: speed skating\n- ⟦ローラースケート→ローラースケート：26359_rooraasukeeto⟧: roller skating\n- ⟦インラインスケート→インラインスケート：noentry⟧: inline skating/rollerblading\n\nRELATED WORDS:\n- ⟦スケート{場|じょう}→スケート場：25737_sukeetojou⟧: skating rink\n- ⟦スケート{靴|ぐつ}→スケート靴：26360_sukeetogutsu⟧: skates (shoes)\n- ⟦スケートリンク→スケートリンク：29309_sukeetorinku⟧: skating rink\n\nスケート⟦する→する：00392_suru⟧ is commonly used as a suru-verb meaning 'to skate.'",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29309_sukeetorinku",
+      "reading": "すけーとりんく",
+      "headword": "スケートリンク",
+      "label": "skating rink"
+    },
+    {
+      "type": "related",
+      "target_id": "25751_aisusukeeto",
+      "reading": "あいすすけーと",
+      "headword": "アイススケート",
+      "label": "ice skating"
+    },
+    {
+      "type": "related",
+      "target_id": "27428_figyuasukeeto",
+      "reading": "ふぃぎゅあすけーと",
+      "headword": "フィギュアスケート",
+      "label": "figure skating"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

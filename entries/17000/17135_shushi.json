@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17135_shushi_ex1",
-      "japanese": "{種子|しゅし}をまく。",
+      "japanese": "{種子|しゅし}⟦を→を：00422_wo⟧まく。",
       "english": "To sow seeds.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17135_shushi_ex2",
-      "japanese": "この{植物|しょくぶつ}は{種子|しゅし}で{増|ふ}える。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦は→は：00079_ha⟧{種子|しゅし}⟦で→で：00502_de⟧⟦{増|ふ}える→増える：01183_fueru⟧。",
       "english": "This plant propagates by seed.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17135_shushi_ex3",
-      "japanese": "{絶滅|ぜつめつ}{危惧種|きぐしゅ}の{種子|しゅし}を{保存|ほぞん}するための{施設|しせつ}がある。",
+      "japanese": "⟦{絶滅|ぜつめつ}{危惧種|きぐしゅ}→絶滅危惧種：04642_zetsumetsukigushu⟧⟦の→の：09472_no⟧{種子|しゅし}⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are facilities for preserving the seeds of endangered species.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{種子|しゅし} is the formal or scientific term for seeds. In everyday conversation, {種|たね} is more common. {種子|しゅし} appears frequently in botany, agriculture, and environmental contexts.\n\nCOMMON COLLOCATIONS:\n- {種子|しゅし}{植物|しょくぶつ} (seed plant)\n- {種子|しゅし}を{保存|ほぞん}する (to preserve seeds)\n- {種子|しゅし}{島|しま} (Tanegashima — note: different reading たねがしま)\n\nSIMILAR WORDS:\n- {種|たね}: seed — the everyday word, also means cause or material\n- {実|み}: fruit, nut — the mature seed-bearing part of a plant",
+  "notes": "USAGE:\n{種子|しゅし} is the formal or scientific term for seeds. In everyday conversation, ⟦{種|たね}→種：02157_tane⟧ is more common. {種子|しゅし} appears frequently in botany, agriculture, and environmental contexts.\n\nCOMMON COLLOCATIONS:\n- {種子|しゅし}⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧ (seed plant)\n- {種子|しゅし}⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧ (to preserve seeds)\n- {種子|しゅし}{島|しま} (Tanegashima — note: different reading たね⟦が→が：00051_ga⟧しま)\n\nSIMILAR WORDS:\n- ⟦{種|たね}→種：02157_tane⟧: seed — the everyday word, also means cause or material\n- ⟦{実|み}→実：03741_mi⟧: fruit, nut — the mature seed-bearing part of a plant",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "たね",
       "headword": "{種|たね}",
       "label": "everyday word for seed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03741_mi",
+      "reading": "み",
+      "headword": "{実|み}",
+      "label": "fruit, nut"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26619_shujitsu",
+      "reading": "しゅじつ",
+      "headword": "{種実|しゅじつ}",
+      "label": "nuts and seeds"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:07:08Z",
-    "modified": "2026-05-05T10:11:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

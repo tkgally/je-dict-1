@@ -2,7 +2,7 @@
   "id": "08202_morikaesu",
   "headword": "{盛|も}り{返|かえ}す",
   "reading": "もりかえす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to rally; to make a comeback; to regain strength",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08202_morikaesu_ex1",
-      "japanese": "チームが{後半|こうはん}に{盛|も}り{返|かえ}した。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{後半|こうはん}→後半：12555_kouhan⟧⟦に→に：00314_ni⟧{盛|も}り{返|かえ}した。",
       "english": "The team rallied in the second half.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08202_morikaesu_ex2",
-      "japanese": "{景気|けいき}が{盛|も}り{返|かえ}してきた。",
+      "japanese": "⟦{景気|けいき}→景気：02694_keiki⟧⟦が→が：00051_ga⟧{盛|も}り{返|かえ}してきた。",
       "english": "The economy is recovering.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08202_morikaesu_ex3",
-      "japanese": "{病気|びょうき}から{盛|も}り{返|かえ}して{元気|げんき}になった。",
+      "japanese": "⟦{病気|びょうき}→病気：00771_byouki⟧⟦から→から：00504_kara⟧{盛|も}り{返|かえ}して⟦{元気|げんき}→元気：00696_genki⟧になった。",
       "english": "I recovered from my illness and got better.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {盛|も}り{返|かえ}す (to rally, recover)\n- {勢|いきお}いを{盛|も}り{返|かえ}す (to regain momentum)\n\nCONTEXT:\nUsed in sports (team comebacks), economics (recovery), health (recovering from illness), and business (company turnaround).\n\nTRANSITIVITY:\nCan be used both transitively and intransitively.\n\nRELATED:\n- {持|も}ち{直|なお}す (to recover, rally - similar)\n- {挽回|ばんかい}する (to recover, make up for)\n- {復活|ふっかつ}する (to revive)",
+  "notes": "USAGE:\n- {盛|も}り{返|かえ}す (to rally, recover)\n- ⟦{勢|いきお}い→勢い：01782_ikioi⟧⟦を→を：00422_wo⟧{盛|も}り{返|かえ}す (to regain momentum)\nUsed in sports (team comebacks), economics (recovery), health (recovering from illness), and business (company turnaround).\n\nTRANSITIVITY:\nCan be used both transitively and intransitively.\n\nRELATED WORDS:\n- ⟦{持|も}ち{直|なお}す→持ち直す：08203_mochinaosu⟧ (to recover, rally - similar)\n- ⟦{挽回|ばんかい}→挽回：16313_bankai⟧⟦する→する：00392_suru⟧ (to recover, make up for)\n- ⟦{復活|ふっかつ}→復活：12565_fukkatsu⟧⟦する→する：00392_suru⟧ (to revive)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,6 +141,20 @@
       "headword": "{持|も}ち{直|なお}す",
       "label": "to recover; to rally; to improve",
       "target_id": "08203_mochinaosu"
+    },
+    {
+      "type": "related",
+      "target_id": "16313_bankai",
+      "reading": "ばんかい",
+      "headword": "{挽回|ばんかい}",
+      "label": "to recover, make up for"
+    },
+    {
+      "type": "related",
+      "target_id": "12565_fukkatsu",
+      "reading": "ふっかつ",
+      "headword": "{復活|ふっかつ}",
+      "label": "to revive"
     }
   ],
   "metadata": {
@@ -151,6 +165,7 @@
       ],
       "transitivity": "both",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "competition",
         "recovery"
@@ -158,6 +173,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-01-25T08:05:33Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

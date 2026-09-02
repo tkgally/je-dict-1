@@ -3,7 +3,7 @@
   "headword": "{閉|し}め{切|き}る",
   "reading": "しめきる",
   "romaji": "shimekiru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to close up completely; to shut tight",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28566_shimekiru_ex1",
-      "japanese": "{窓|まど}を{閉|し}め{切|き}って{出|で}かけた。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧{閉|し}め{切|き}って⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "I closed all the windows tight and went out.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28566_shimekiru_ex2",
-      "japanese": "カーテンを{閉|し}め{切|き}ったままだと、{部屋|へや}が{暗|くら}くて{気分|きぶん}が{沈|しず}む。",
+      "japanese": "⟦カーテン→カーテン：01342_kaaten⟧⟦を→を：00422_wo⟧{閉|し}め{切|き}ったままだ⟦と→と：00512_to⟧、⟦{部屋|へや}→部屋：00507_heya⟧⟦が→が：00051_ga⟧⟦{暗|くら}くて→暗い：00647_kurai⟧⟦{気分|きぶん}→気分：01306_kibun⟧⟦が→が：00051_ga⟧⟦{沈|しず}む→沈む：02061_shizumu⟧。",
       "english": "Keeping the curtains shut all the time makes the room dark and lowers my mood.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28566_shimekiru_ex3",
-      "japanese": "{冬|ふゆ}の{間|あいだ}、{使|つか}っていない{部屋|へや}は{閉|し}め{切|き}っておくと{暖房|だんぼう}{費|ひ}が{節約|せつやく}できる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧、⟦{使|つか}っていない→使う：00473_tsukau⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧{閉|し}め{切|き}っておく⟦と→と：00512_to⟧⟦{暖房|だんぼう}→暖房：01657_danbou⟧⟦{費|ひ}→費：09877_hi⟧⟦が→が：00051_ga⟧⟦{節約|せつやく}できる→節約する：25226_setsuyakusuru⟧。",
       "english": "Keeping unused rooms closed up during winter helps save on heating costs.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {閉|し}める (to close) + {切|き}る (to do thoroughly). The 〜きる suffix here signals completeness — not just closing, but closing entirely and keeping closed.\n\nTRANSITIVITY:\nTransitive (takes を).\n\nCOMMON COLLOCATIONS:\n- {窓|まど}を{閉|し}め{切|き}る: to keep the windows closed\n- カーテンを{閉|し}め{切|き}る: to keep the curtains closed\n- ドアを{閉|し}め{切|き}る: to keep the door closed\n- {部屋|へや}を{閉|し}め{切|き}る: to seal off a room\n\nSIMILAR WORDS:\n- {閉|し}める: to close — neutral, just the action of closing\n- {締|し}め{切|き}る (05743): to set a deadline; to close registration — homophone, different kanji and meaning\n- {閉|と}じる: to close (a book, eyes) — used for things that fold or come together",
+  "notes": "Compound of ⟦{閉|し}める→閉める：00485_shimeru⟧ (to close) + ⟦{切|き}る→切る：02693_kiru⟧ (to do thoroughly). The 〜きる suffix here signals completeness — not just closing, but closing entirely and keeping closed.\n\nTRANSITIVITY:\nTransitive (takes ⟦を→を：00422_wo⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧{閉|し}め{切|き}る: to keep the windows closed\n- ⟦カーテン→カーテン：01342_kaaten⟧⟦を→を：00422_wo⟧{閉|し}め{切|き}る: to keep the curtains closed\n- ⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧{閉|し}め{切|き}る: to keep the door closed\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{閉|し}め{切|き}る: to seal off a room\n\nSIMILAR WORDS:\n- ⟦{閉|し}める→閉める：00485_shimeru⟧: to close — neutral, just the action of closing\n- ⟦{締|し}め{切|き}る→締め切る：05743_shimekiru⟧ (05743): to set a deadline; to close registration — homophone, different kanji and meaning\n- ⟦{閉|と}じる→閉じる：02303_tojiru⟧: to close (a book, eyes) — used for things that fold or come together",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00485_shimeru",
+      "reading": "しめる",
+      "headword": "{閉|し}める",
+      "label": "to close"
+    },
+    {
+      "type": "homophone",
+      "target_id": "05743_shimekiru",
+      "reading": "しめきる",
+      "headword": "{締|し}め{切|き}る",
+      "label": "05743"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02303_tojiru",
+      "reading": "とじる",
+      "headword": "{閉|と}じる",
+      "label": "to close"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,15 +76,16 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "domain": [],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-06-02T02:07:31Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "godan",

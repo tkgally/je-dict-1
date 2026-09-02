@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08589_daten_ex1",
-      "japanese": "{打点|だてん}を{稼|かせ}ぐ。",
+      "japanese": "{打点|だてん}⟦を→を：00422_wo⟧⟦{稼|かせ}ぐ→稼ぐ：02040_kasegu⟧。",
       "english": "Drive in runs.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08589_daten_ex2",
-      "japanese": "{今季|こんき}100{打点|だてん}を{達成|たっせい}した。",
+      "japanese": "{今季|こんき}100{打点|だてん}⟦を→を：00422_wo⟧⟦{達成|たっせい}した→達成する：22183_tasseisuru⟧。",
       "english": "He achieved 100 RBIs this season.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08589_daten_ex3",
-      "japanese": "タイムリーヒットで2{打点|だてん}を{挙|あ}げた。",
+      "japanese": "タイムリー⟦ヒット→ヒット：11161_hitto⟧⟦で→で：00502_de⟧2{打点|だてん}⟦を→を：00422_wo⟧⟦{挙|あ}げた→挙げる：27889_ageru⟧。",
       "english": "He drove in 2 runs with a timely hit.",
       "sense_numbers": [
         1
@@ -43,7 +43,44 @@
       "notes": null
     }
   ],
-  "notes": "BASEBALL STATISTIC:\n{打点|だてん} combines {打|だ} (hitting) + {点|てん} (points). It's the Japanese equivalent of RBI (Runs Batted In).\n\nCOMMON COLLOCATIONS:\n- {打点|だてん}を{稼|かせ}ぐ/{挙|あ}げる - to drive in runs\n- {打点|だてん}を{記録|きろく}する - to record an RBI\n- {打点王|だてんおう} - RBI leader/champion\n\nCONTEXTS WHERE RBIS ARE EARNED:\n- ヒット - base hits\n- {犠牲|ぎせい}フライ - sacrifice fly\n- {押|お}し{出|だ}し{四球|しきゅう} - walk with bases loaded\n- {内野|ないや}ゴロ - infield groundout (certain situations)\n\nRELATED STATS:\n- {打率|だりつ} - batting average\n- {本塁打|ほんるいだ} - home run\n- {安打|あんだ} - base hit\n- {得点|とくてん} - runs scored",
+  "notes": "BASEBALL STATISTIC:\n{打点|だてん} combines {打|だ} (hitting) + ⟦{点|てん}→点：01553_ten⟧ (points). It's the Japanese equivalent of RBI (Runs Batted In).\n\nCOMMON COLLOCATIONS:\n- {打点|だてん}⟦を→を：00422_wo⟧⟦{稼|かせ}ぐ→稼ぐ：02040_kasegu⟧/⟦{挙|あ}げる→挙げる：27889_ageru⟧ - to drive in runs\n- {打点|だてん}⟦を→を：00422_wo⟧⟦{記録|きろく}する→記録する：25341_kirokusuru⟧ - to record an RBI\n- ⟦{打点王|だてんおう}→打点王：29935_datenou⟧ - RBI leader/champion\n\nCONTEXTS WHERE RBIS ARE EARNED:\n- ⟦ヒット→ヒット：11161_hitto⟧ - base hits\n- ⟦{犠牲|ぎせい}→犠牲：14743_gisei⟧⟦フライ→フライ：11124_furai⟧ - sacrifice fly\n- {押|お}し{出|だ}し{四球|しきゅう} - walk with bases loaded\n- ⟦{内野|ないや}→内野：09267_naiya⟧ゴロ - infield groundout (certain situations)\n\nRELATED STATS:\n- ⟦{打率|だりつ}→打率：07113_daritsu⟧ - batting average\n- ⟦{本塁打|ほんるいだ}→本塁打：24569_honruida⟧ - home run\n- ⟦{安打|あんだ}→安打：19717_anda⟧ - base hit\n- ⟦{得点|とくてん}→得点：04909_tokuten⟧ - runs scored",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07113_daritsu",
+      "reading": "だりつ",
+      "headword": "{打率|だりつ}",
+      "label": "batting average"
+    },
+    {
+      "type": "related",
+      "target_id": "24569_honruida",
+      "reading": "ほんるいだ",
+      "headword": "{本塁打|ほんるいだ}",
+      "label": "home run"
+    },
+    {
+      "type": "related",
+      "target_id": "19717_anda",
+      "reading": "あんだ",
+      "headword": "{安打|あんだ}",
+      "label": "base hit"
+    },
+    {
+      "type": "related",
+      "target_id": "04909_tokuten",
+      "reading": "とくてん",
+      "headword": "{得点|とくてん}",
+      "label": "runs scored"
+    },
+    {
+      "type": "related",
+      "target_id": "06542_daseki",
+      "reading": "だせき",
+      "headword": "{打席|だせき}",
+      "label": "at-bat, plate appearance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +88,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports"
       ]
     },
     "created": "2026-01-27T11:47:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

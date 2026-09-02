@@ -14,38 +14,66 @@
   "examples": [
     {
       "id": "08451_kaisuuken_ex1",
-      "japanese": "{回数券|かいすうけん}を{買|か}う。",
+      "japanese": "{回数券|かいすうけん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy a book of tickets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08451_kaisuuken_ex2",
-      "japanese": "バスの{回数券|かいすうけん}は11{枚綴|まいつづ}りで10{枚分|まいぶん}の{値段|ねだん}だ。",
+      "japanese": "⟦バス→バス：00769_basu⟧⟦の→の：09472_no⟧{回数券|かいすうけん}⟦は→は：00079_ha⟧11{枚綴|まいつづ}り⟦で→で：00502_de⟧10{枚分|まいぶん}⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧だ。",
       "english": "Bus ticket books come with 11 tickets for the price of 10.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08451_kaisuuken_ex3",
-      "japanese": "{美容院|びよういん}の{回数券|かいすうけん}を{使|つか}い{切|き}った。",
+      "japanese": "⟦{美容院|びよういん}→美容院：06319_biyouin⟧⟦の→の：09472_no⟧{回数券|かいすうけん}⟦を→を：00422_wo⟧⟦{使|つか}い{切|き}った→使い切る：11518_tsukaikiru⟧。",
       "english": "I used up all my salon coupon tickets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{回数|かいすう} (number of times) + {券|けん} (ticket)\n\nCOMMON USES:\n- {電車|でんしゃ}の{回数券|かいすうけん} (train ticket book)\n- バスの{回数券|かいすうけん} (bus ticket book)\n- {駐車場|ちゅうしゃじょう}の{回数券|かいすうけん} (parking coupon book)\n- {美容院|びよういん}・{整体|せいたい}の{回数券|かいすうけん} (salon/massage coupon book)\n\nNOTE:\nWith the spread of IC cards like Suica and PASMO, physical {回数券|かいすうけん} for public transport have become less common in major cities.",
+  "notes": "COMPOUNDS:\n⟦{回数|かいすう}→回数：00139_kaisuu⟧ (number of times) + ⟦{券|けん}→券：02150_ken⟧ (ticket)\n\nCOMMON COLLOCATIONS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧{回数券|かいすうけん} (train ticket book)\n- ⟦バス→バス：00769_basu⟧⟦の→の：09472_no⟧{回数券|かいすうけん} (bus ticket book)\n- ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧⟦の→の：09472_no⟧{回数券|かいすうけん} (parking coupon book)\n- ⟦{美容院|びよういん}→美容院：06319_biyouin⟧・⟦{整体|せいたい}→整体：27407_seitai⟧⟦の→の：09472_no⟧{回数券|かいすうけん} (salon/massage coupon book)\n\nUSAGE:\nWith the spread of IC cards like Suica and PASMO, physical {回数券|かいすうけん} for public transport have become less common in major cities.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15799_tokkyuuken",
+      "reading": "とっきゅうけん",
+      "headword": "{特急券|とっきゅうけん}",
+      "label": "limited express ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20632_kinken",
+      "reading": "きんけん",
+      "headword": "{金券|きんけん}",
+      "label": "cash voucher"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["transportation", "shopping"]
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "shopping"
+      ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-01-27T03:47:32Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

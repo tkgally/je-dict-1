@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17228_nagewaza_ex1",
-      "japanese": "{見事|みごと}な{投|な}げ{技|わざ}で{勝|か}った。",
+      "japanese": "⟦{見事|みごと}→見事：03744_migoto⟧な{投|な}げ{技|わざ}⟦で→で：00502_de⟧⟦{勝|か}った→勝つ：01199_katsu⟧。",
       "english": "He won with a splendid throwing technique.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17228_nagewaza_ex2",
-      "japanese": "{柔道|じゅうどう}の{投|な}げ{技|わざ}を{練習|れんしゅう}する。",
+      "japanese": "⟦{柔道|じゅうどう}→柔道：01612_juudou⟧⟦の→の：09472_no⟧{投|な}げ{技|わざ}⟦を→を：00422_wo⟧⟦{練習|れんしゅう}する→練習する：22991_renshuusuru⟧。",
       "english": "To practice judo throwing techniques.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17228_nagewaza_ex3",
-      "japanese": "あの{力士|りきし}は{投|な}げ{技|わざ}が{得意|とくい}で、{相手|あいて}を{豪快|ごうかい}に{投|な}げ{飛|と}ばす。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{力士|りきし}→力士：10115_rikishi⟧⟦は→は：00079_ha⟧{投|な}げ{技|わざ}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧で、⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧⟦{豪快|ごうかい}→豪快：14228_goukai⟧⟦に→に：00314_ni⟧{投|な}げ{飛|と}ばす。",
       "english": "That sumo wrestler is good at throwing techniques and powerfully hurls his opponents.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{投|な}げる (to throw) + {技|わざ} (technique). The {技|わざ} suffix is used for various martial arts techniques.\n\nUSAGE:\nMost commonly associated with {柔道|じゅうどう} (judo) and {相撲|すもう} (sumo), but also used in professional wrestling and other grappling arts.\n\nCOMMON COLLOCATIONS:\n- {投|な}げ{技|わざ}をかける (to apply a throw)\n- {投|な}げ{技|わざ}で{一本|いっぽん} (an ippon by throw in judo)\n- {投|な}げ{技|わざ}が{得意|とくい} (to be good at throws)\n- {大|おお}{外|そと}{刈|が}り (major outer reap — a specific {投|な}げ{技|わざ})\n\nRELATED TERMS:\n- {固|かた}め{技|わざ}: grappling/pinning technique\n- {関節|かんせつ}{技|わざ}: joint lock technique\n- {寝技|ねわざ}: ground technique",
+  "notes": "FORMS:\n⟦{投|な}げる→投げる：01135_nageru⟧ (to throw) + ⟦{技|わざ}→技：02172_waza⟧ (technique). The ⟦{技|わざ}→技：02172_waza⟧ suffix is used for various martial arts techniques.\n\nUSAGE:\nMost commonly associated with ⟦{柔道|じゅうどう}→柔道：01612_juudou⟧ (judo) and ⟦{相撲|すもう}→相撲：00390_sumou⟧ (sumo), but also used in professional wrestling and other grappling arts.\n\nCOMMON COLLOCATIONS:\n- {投|な}げ{技|わざ}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to apply a throw)\n- {投|な}げ{技|わざ}⟦で→で：00502_de⟧⟦{一本|いっぽん}→一本：08888_ippon⟧ (an ippon by throw in judo)\n- {投|な}げ{技|わざ}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧ (to be good at throws)\n- {大|おお}⟦{外|そと}→外：00671_soto⟧{刈|が}り (major outer reap — a specific {投|な}げ{技|わざ})\n\nRELATED WORDS:\n- {固|かた}め{技|わざ}: grappling/pinning technique\n- ⟦{関節|かんせつ}{技|わざ}→関節技：23981_kansetsuwaza⟧: joint lock technique\n- {寝技|ねわざ}: ground technique",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "なげる",
       "headword": "{投|な}げる",
       "label": "to throw"
+    },
+    {
+      "type": "related",
+      "target_id": "23981_kansetsuwaza",
+      "reading": "かんせつわざ",
+      "headword": "{関節技|かんせつわざ}",
+      "label": "joint lock technique"
     }
   ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-07-23T06:28:55Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

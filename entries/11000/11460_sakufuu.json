@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "11460_sakufuu_ex1",
-      "japanese": "{独特|どくとく}な{作風|さくふう}で{知|し}られている。",
+      "japanese": "⟦{独特|どくとく}→独特：01656_dokutoku⟧な{作風|さくふう}⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Known for a distinctive artistic style.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11460_sakufuu_ex2",
-      "japanese": "{彼|かれ}の{作風|さくふう}は{年|とし}とともに{変|か}わってきた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{作風|さくふう}⟦は→は：00079_ha⟧⟦{年|とし}→年：00486_toshi⟧⟦とともに→とともに：30485_totomoni⟧⟦{変|か}わって→変わる：00714_kawaru⟧きた。",
       "english": "His creative style has changed over the years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11460_sakufuu_ex3",
-      "japanese": "この{映画|えいが}{監督|かんとく}の{作風|さくふう}は{暗|くら}くて{重|おも}いテーマが{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}{監督|かんとく}→映画監督：07093_eigakantoku⟧⟦の→の：09472_no⟧{作風|さくふう}⟦は→は：00079_ha⟧⟦{暗|くら}くて→暗い：00647_kurai⟧⟦{重|おも}い→重い：00804_omoi⟧⟦テーマ→テーマ：17684_teema⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This film director's style tends toward dark and heavy themes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMPOSITION: {作|さく} (work, creation) + {風|ふう} (style, manner). The suffix {風|ふう} appears in many style-related words: {画風|がふう} (painting style), {芸風|げいふう} (performance style), {社風|しゃふう} (company culture).\n\nCOMMON COLLOCATIONS:\n- {独特|どくとく}な{作風|さくふう} (distinctive style)\n- {作風|さくふう}が{変|か}わる (style changes)\n- ～{的|てき}な{作風|さくふう} (~-style creative approach)\n- {作風|さくふう}を{確立|かくりつ}する (to establish one's style)",
-  "cross_references": [],
+  "notes": "COMPOSITION: ⟦{作|さく}→作：27430_saku⟧ (work, creation) + {風|ふう} (style, manner). The suffix {風|ふう} appears in many style-related words: ⟦{画風|がふう}→画風：20603_gafuu⟧ (painting style), ⟦{芸風|げいふう}→芸風：15160_geifuu⟧ (performance style), ⟦{社風|しゃふう}→社風：29429_shafuu⟧ (company culture).\n\nCOMMON COLLOCATIONS:\n- ⟦{独特|どくとく}→独特：01656_dokutoku⟧な{作風|さくふう} (distinctive style)\n- {作風|さくふう}⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧ (style changes)\n- ～⟦{的|てき}→〜的：09839_teki⟧な{作風|さくふう} (~-style creative approach)\n- {作風|さくふう}⟦を→を：00422_wo⟧⟦{確立|かくりつ}→確立：13758_kakuritsu⟧⟦する→する：00392_suru⟧ (to establish one's style)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20603_gafuu",
+      "reading": "がふう",
+      "headword": "{画風|がふう}",
+      "label": "artistic style"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T12:22:00Z",
-    "modified": "2026-02-16T12:22:00Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art", "general"]
+      "semantic": [
+        "art",
+        "general"
+      ]
     }
   }
 }

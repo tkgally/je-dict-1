@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17529_yowagoshi_ex1",
-      "japanese": "{政府|せいふ}の{弱腰|よわごし}な{対応|たいおう}が{批判|ひはん}された。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧{弱腰|よわごし}な⟦{対応|たいおう}→対応：02510_taiou⟧⟦が→が：00051_ga⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦された→する：00392_suru⟧。",
       "english": "The government's spineless response was criticized.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17529_yowagoshi_ex2",
-      "japanese": "{交渉|こうしょう}で{弱腰|よわごし}になってはいけない。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦で→で：00502_de⟧{弱腰|よわごし}になって⟦は→は：00079_ha⟧いけない。",
       "english": "You must not be weak-kneed in negotiations.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17529_yowagoshi_ex3",
-      "japanese": "{弱腰|よわごし}な{態度|たいど}では{相手|あいて}に{足元|あしもと}を{見|み}られる。",
+      "japanese": "{弱腰|よわごし}な⟦{態度|たいど}→態度：03396_taido⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{相手|あいて}→相手：01677_aite⟧⟦に→に：00314_ni⟧⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦を→を：00422_wo⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "If you take a timid stance, the other party will see your weakness and exploit it.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nLiterally \"weak hips/waist,\" referring to someone whose stance is unsteady. Primarily used in political, business, and diplomatic contexts to criticize a lack of firmness. Often appears in news commentary.\n\nCOMMON COLLOCATIONS:\n- {弱腰|よわごし}な{対応|たいおう} (weak-kneed response)\n- {弱腰|よわごし}な{態度|たいど} (timid attitude)\n- {弱腰|よわごし}な{外交|がいこう} (spineless diplomacy)\n- {弱腰|よわごし}になる (to become timid)\n\nCONTRAST:\n- {強腰|つよごし}: firm stance, hard-line — the direct opposite\n- {強気|つよき}: bullish, assertive — confident and aggressive\n- {弱気|よわき}: bearish, faint-hearted — similar but broader in application",
-  "cross_references": [],
+  "notes": "USAGE:\nLiterally \"weak hips/waist,\" referring to someone whose stance is unsteady. Primarily used in political, business, and diplomatic contexts to criticize a lack of firmness. Often appears in news commentary.\n\nCOMMON COLLOCATIONS:\n- {弱腰|よわごし}な⟦{対応|たいおう}→対応：02510_taiou⟧ (weak-kneed response)\n- {弱腰|よわごし}な⟦{態度|たいど}→態度：03396_taido⟧ (timid attitude)\n- {弱腰|よわごし}な⟦{外交|がいこう}→外交：02627_gaikou⟧ (spineless diplomacy)\n- {弱腰|よわごし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become timid)\n\nSIMILAR WORDS:\n- {強腰|つよごし}: firm stance, hard-line — the direct opposite\n- ⟦{強気|つよき}→強気：04064_tsuyoki⟧: bullish, assertive — confident and aggressive\n- ⟦{弱気|よわき}→弱気：16035_yowaki⟧: bearish, faint-hearted — similar but broader in application",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04064_tsuyoki",
+      "reading": "つよき",
+      "headword": "{強気|つよき}",
+      "label": "bullish, assertive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16035_yowaki",
+      "reading": "よわき",
+      "headword": "{弱気|よわき}",
+      "label": "bearish, faint-hearted"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T08:02:13Z",
-    "modified": "2026-03-18T08:02:13Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

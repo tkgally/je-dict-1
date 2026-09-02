@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09459_kanyou_ex1",
-      "japanese": "{人材|じんざい}を{涵養|かんよう}する。",
+      "japanese": "⟦{人材|じんざい}→人材：11426_jinzai⟧⟦を→を：00422_wo⟧{涵養|かんよう}⟦する→する：00392_suru⟧。",
       "english": "To cultivate human resources.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09459_kanyou_ex2",
-      "japanese": "{教養|きょうよう}を{涵養|かんよう}する。",
+      "japanese": "⟦{教養|きょうよう}→教養：09788_kyouyou⟧⟦を→を：00422_wo⟧{涵養|かんよう}⟦する→する：00392_suru⟧。",
       "english": "To cultivate one's education/refinement.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09459_kanyou_ex3",
-      "japanese": "{森林|しんりん}は{水|みず}を{涵養|かんよう}する。",
+      "japanese": "⟦{森林|しんりん}→森林：01441_shinrin⟧⟦は→は：00079_ha⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{涵養|かんよう}⟦する→する：00392_suru⟧。",
       "english": "Forests help recharge groundwater.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09459_kanyou_ex4",
-      "japanese": "{国際|こくさい}{感覚|かんかく}を{涵養|かんよう}することが{重要|じゅうよう}だ。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{感覚|かんかく}→感覚：02593_kankaku⟧⟦を→を：00422_wo⟧{涵養|かんよう}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "It is important to cultivate international awareness.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{涵養|かんよう} implies gradual, patient nurturing over time, like water slowly soaking into the ground. The kanji {涵|かん} means \"to soak\" or \"to immerse.\"\n\nUsage:\n- {涵養|かんよう}する (to cultivate, nurture)\n- {涵養|かんよう}される (to be cultivated)\n\nCommonly used with:\n- {人材|じんざい} (human resources, talent)\n- {教養|きょうよう} (education, refinement)\n- {道徳心|どうとくしん} (moral sense)\n- {地下水|ちかすい} (groundwater - technical usage)\n\nNote: {水源|すいげん}{涵養|かんよう} (water source recharge) is an important environmental term.\n\nRelated words:\n- {養成|ようせい}する: to train, develop\n- {育成|いくせい}する: to nurture, cultivate\n- {醸成|じょうせい}する: to foster, brew",
+  "notes": "{涵養|かんよう} implies gradual, patient nurturing over time, like water slowly soaking into the ground. The kanji {涵|かん} means \"to soak\" or \"to immerse.\"\n\nUsage:\n- {涵養|かんよう}⟦する→する：00392_suru⟧ (to cultivate, nurture)\n- {涵養|かんよう}⟦される→する：00392_suru⟧ (to be cultivated)\n\nCommonly used with:\n- ⟦{人材|じんざい}→人材：11426_jinzai⟧ (human resources, talent)\n- ⟦{教養|きょうよう}→教養：09788_kyouyou⟧ (education, refinement)\n- {道徳心|どうとくしん} (moral sense)\n- ⟦{地下水|ちかすい}→地下水：09600_chikasui⟧ (groundwater - technical usage)\n\nNote: ⟦{水源|すいげん}→水源：09255_suigen⟧{涵養|かんよう} (water source recharge) is an important environmental term.\n\nRelated words:\n- ⟦{養成|ようせい}→養成：14655_yousei⟧⟦する→する：00392_suru⟧: to train, develop\n- ⟦{育成|いくせい}→育成：13928_ikusei⟧⟦する→する：00392_suru⟧: to nurture, cultivate\n- ⟦{醸成|じょうせい}→醸成：09133_jousei⟧⟦する→する：00392_suru⟧: to foster, brew",
   "metadata": {
     "created": "2026-02-01T15:17:02Z",
-    "modified": "2026-06-24T06:55:10Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +155,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education",
         "action"
@@ -163,7 +163,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "cross_references": [

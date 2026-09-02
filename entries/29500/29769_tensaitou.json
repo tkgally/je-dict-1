@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29769_tensaitou_ex1",
-      "japanese": "{甜菜糖|てんさいとう}は{北海道|ほっかいどう}で{作|つく}られている。",
+      "japanese": "{甜菜糖|てんさいとう}⟦は→は：00079_ha⟧⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦で→で：00502_de⟧⟦{作|つく}られている→作る：00481_tsukuru⟧。",
       "english": "Beet sugar is produced in Hokkaido.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29769_tensaitou_ex2",
-      "japanese": "{甜菜糖|てんさいとう}は{上白糖|じょうはくとう}より{甘|あま}さがやさしい。",
+      "japanese": "{甜菜糖|てんさいとう}⟦は→は：00079_ha⟧⟦{上白糖|じょうはくとう}→上白糖：25163_jouhakutou⟧⟦より→より：09476_yori⟧{甘|あま}さ⟦が→が：00051_ga⟧やさしい。",
       "english": "Beet sugar has a gentler sweetness than white sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29769_tensaitou_ex3",
-      "japanese": "{体|からだ}を{冷|ひ}やしにくいと{言|い}われ、{甜菜糖|てんさいとう}を{選|えら}ぶ{人|ひと}もいる。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{冷|ひ}やし→冷やす：02403_hiyasu⟧にくい⟦と→と：00512_to⟧⟦{言|い}われ→言う：00515_iu⟧、{甜菜糖|てんさいとう}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "Said to be less cooling to the body, some people choose beet sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {甜菜|てんさい} (sugar beet) + {糖|とう} (sugar). Contrasted with {砂糖|さとう}きび (sugarcane) sugar such as cane sugar and white sugar.\n\nCOMMON COLLOCATIONS:\n- {甜菜糖|てんさいとう}を{使|つか}う: to use beet sugar\n- {甜菜糖|てんさいとう}シロップ: beet sugar syrup\n\nSIMILAR WORDS:\n- {黒砂糖|くろざとう}: brown/dark sugar — unrefined cane sugar, stronger flavor.\n- {上白糖|じょうはくとう}: white sugar — the common refined table sugar in Japan.",
+  "notes": "Formed from {甜菜|てんさい} (sugar beet) + {糖|とう} (sugar). Contrasted with ⟦{砂糖|さとう}→砂糖：00884_satou⟧きび (sugarcane) sugar such as cane sugar and white sugar.\n\nCOMMON COLLOCATIONS:\n- {甜菜糖|てんさいとう}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use beet sugar\n- {甜菜糖|てんさいとう}⟦シロップ→シロップ：21577_shiroppu⟧: beet sugar syrup\n\nSIMILAR WORDS:\n- ⟦{黒砂糖|くろざとう}→黒砂糖：18292_kurozatou⟧: brown/dark sugar — unrefined cane sugar, stronger flavor.\n- ⟦{上白糖|じょうはくとう}→上白糖：25163_jouhakutou⟧: white sugar — the common refined table sugar in Japan.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18292_kurozatou",
+      "reading": "くろざとう",
+      "headword": "{黒砂糖|くろざとう}",
+      "label": "brown/dark sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25163_jouhakutou",
+      "reading": "じょうはくとう",
+      "headword": "{上白糖|じょうはくとう}",
+      "label": "white sugar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-07-11T00:20:19Z",
-    "modified": "2026-07-11T00:20:19Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

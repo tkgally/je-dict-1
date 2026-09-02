@@ -4,7 +4,7 @@
   "headword": "{潤沢|じゅんたく}",
   "reading": "じゅんたく",
   "romaji": "juntaku",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "abundant; ample; plentiful; rich",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24541_juntaku_ex1",
-      "japanese": "{資金|しきん}は{潤沢|じゅんたく}にある。",
+      "japanese": "⟦{資金|しきん}→資金：09937_shikin⟧⟦は→は：00079_ha⟧{潤沢|じゅんたく}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are ample funds available.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24541_juntaku_ex2",
-      "japanese": "この{地域|ちいき}は{水資源|みずしげん}が{潤沢|じゅんたく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{水資源|みずしげん}⟦が→が：00051_ga⟧{潤沢|じゅんたく}だ。",
       "english": "This region has abundant water resources.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24541_juntaku_ex3",
-      "japanese": "{潤沢|じゅんたく}な{予算|よさん}のおかげで、{計画|けいかく}は{順調|じゅんちょう}に{進|すす}んでいる。",
+      "japanese": "{潤沢|じゅんたく}な⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧⟦{順調|じゅんちょう}→順調：03282_junchou⟧⟦に→に：00314_ni⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Thanks to the generous budget, the plan is progressing smoothly.",
       "sense_numbers": [
         1
@@ -45,11 +45,33 @@
       "notes": null
     }
   ],
-  "notes": "Describes having more than enough of something, particularly resources, funds, or supplies. Carries a positive connotation of comfortable abundance, often used in business and economic contexts.\n\nCOMMON COLLOCATIONS:\n- {潤沢|じゅんたく}な{資金|しきん}: ample funds\n- {潤沢|じゅんたく}な{資源|しげん}: abundant resources\n- {潤沢|じゅんたく}な{予算|よさん}: generous budget\n- {潤沢|じゅんたく}に{使|つか}う: to use liberally\n\nSIMILAR WORDS:\n- {豊富|ほうふ}: abundant — more common in everyday speech, broader usage\n- {豊|ゆた}か: rich, plentiful — emphasizes natural richness or fertility\n- {十分|じゅうぶん}: sufficient, enough — neutral, simply means meeting a requirement",
-  "cross_references": [],
+  "notes": "Describes having more than enough of something, particularly resources, funds, or supplies. Carries a positive connotation of comfortable abundance, often used in business and economic contexts.\n\nCOMMON COLLOCATIONS:\n- {潤沢|じゅんたく}な⟦{資金|しきん}→資金：09937_shikin⟧: ample funds\n- {潤沢|じゅんたく}な⟦{資源|しげん}→資源：03167_shigen⟧: abundant resources\n- {潤沢|じゅんたく}な⟦{予算|よさん}→予算：03663_yosan⟧: generous budget\n- {潤沢|じゅんたく}⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use liberally\n\nSIMILAR WORDS:\n- ⟦{豊富|ほうふ}→豊富：03620_houfu⟧: abundant — more common in everyday speech, broader usage\n- ⟦{豊|ゆた}か→豊か：03654_yutaka⟧: rich, plentiful — emphasizes natural richness or fertility\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧: sufficient, enough — neutral, simply means meeting a requirement",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03620_houfu",
+      "reading": "ほうふ",
+      "headword": "{豊富|ほうふ}",
+      "label": "abundant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03654_yutaka",
+      "reading": "ゆたか",
+      "headword": "{豊|ゆた}か",
+      "label": "rich, plentiful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01614_juubun",
+      "reading": "じゅうぶん",
+      "headword": "{十分|じゅうぶん}",
+      "label": "sufficient, enough"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T14:13:31Z",
-    "modified": "2026-04-19T14:13:31Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

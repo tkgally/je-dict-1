@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26731_souguusha_ex1",
-      "japanese": "{熊|くま}の{遭遇者|そうぐうしゃ}が{増|ふ}えている。",
+      "japanese": "⟦{熊|くま}→熊：04343_kuma⟧⟦の→の：09472_no⟧{遭遇者|そうぐうしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of people encountering bears is increasing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26731_souguusha_ex2",
-      "japanese": "{事故|じこ}の{遭遇者|そうぐうしゃ}から{証言|しょうげん}を{集|あつ}めた。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧{遭遇者|そうぐうしゃ}⟦から→から：00504_kara⟧⟦{証言|しょうげん}→証言：11088_shougen⟧⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧。",
       "english": "Testimony was gathered from witnesses to the accident.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26731_souguusha_ex3",
-      "japanese": "UFOの{遭遇者|そうぐうしゃ}が{体験|たいけん}を{語|かた}るドキュメンタリーが{放送|ほうそう}された。",
+      "japanese": "UFO⟦の→の：09472_no⟧{遭遇者|そうぐうしゃ}⟦が→が：00051_ga⟧⟦{体験|たいけん}→体験：11443_taiken⟧⟦を→を：00422_wo⟧⟦{語|かた}る→語る：01930_kataru⟧⟦ドキュメンタリー→ドキュメンタリー：05250_dokyumentarii⟧⟦が→が：00051_ga⟧⟦{放送|ほうそう}→放送：02093_housou⟧⟦された→する：00392_suru⟧。",
       "english": "A documentary was broadcast in which UFO witnesses describe their experiences.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {遭遇|そうぐう} (encounter/meeting) and {者|しゃ} (person). The word {遭遇|そうぐう} typically implies an unexpected or chance encounter, so {遭遇者|そうぐうしゃ} often describes someone who has unexpectedly come across something noteworthy.\n\nCOMMON COLLOCATIONS:\n- {遭遇者|そうぐうしゃ}の{証言|しょうげん}: testimony from witnesses\n- {遭遇者|そうぐうしゃ}の{体験談|たいけんだん}: firsthand account of an encounter\n- {遭遇者|そうぐうしゃ}が{語|かた}る: a witness recounts\n\nSIMILAR WORDS:\n- {目撃者|もくげきしゃ}: eyewitness — specifically someone who saw something happen\n- {被害者|ひがいしゃ}: victim — someone who suffered harm\n- {当事者|とうじしゃ}: person involved — a party in an event or dispute\n- {遭遇|そうぐう}: encounter — the base verb-noun",
-  "cross_references": [],
+  "notes": "Composed of ⟦{遭遇|そうぐう}→遭遇：14384_souguu⟧ (encounter/meeting) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). The word ⟦{遭遇|そうぐう}→遭遇：14384_souguu⟧ typically implies an unexpected or chance encounter, so {遭遇者|そうぐうしゃ} often describes someone who has unexpectedly come across something noteworthy.\n\nCOMMON COLLOCATIONS:\n- {遭遇者|そうぐうしゃ}⟦の→の：09472_no⟧⟦{証言|しょうげん}→証言：11088_shougen⟧: testimony from witnesses\n- {遭遇者|そうぐうしゃ}⟦の→の：09472_no⟧⟦{体験談|たいけんだん}→体験談：25618_taikendan⟧: firsthand account of an encounter\n- {遭遇者|そうぐうしゃ}⟦が→が：00051_ga⟧⟦{語|かた}る→語る：01930_kataru⟧: a witness recounts\n\nSIMILAR WORDS:\n- ⟦{目撃者|もくげきしゃ}→目撃者：09652_mokugekisha⟧: eyewitness — specifically someone who saw something happen\n- ⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧: victim — someone who suffered harm\n- ⟦{当事者|とうじしゃ}→当事者：12504_toujisha⟧: person involved — a party in an event or dispute\n- ⟦{遭遇|そうぐう}→遭遇：14384_souguu⟧: encounter — the base verb-noun",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09652_mokugekisha",
+      "reading": "もくげきしゃ",
+      "headword": "{目撃者|もくげきしゃ}",
+      "label": "eyewitness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14106_higaisha",
+      "reading": "ひがいしゃ",
+      "headword": "{被害者|ひがいしゃ}",
+      "label": "victim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12504_toujisha",
+      "reading": "とうじしゃ",
+      "headword": "{当事者|とうじしゃ}",
+      "label": "person involved"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "person"
       ]
     },
     "created": "2026-05-04T14:22:08Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

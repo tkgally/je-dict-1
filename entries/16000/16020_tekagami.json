@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16020_tekagami_ex1",
-      "japanese": "{手鏡|てかがみ}で{顔|かお}を{確認|かくにん}した。",
+      "japanese": "{手鏡|てかがみ}⟦で→で：00502_de⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked my face in a hand mirror.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16020_tekagami_ex2",
-      "japanese": "バッグの{中|なか}にいつも{手鏡|てかがみ}を{入|い}れている。",
+      "japanese": "⟦バッグ→バッグ：00008_baggu⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦いつも→いつも：00599_itsumo⟧{手鏡|てかがみ}⟦を→を：00422_wo⟧⟦{入|い}れている→入れる：01098_ireru⟧。",
       "english": "I always keep a hand mirror in my bag.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16020_tekagami_ex3",
-      "japanese": "{美容師|びようし}が{手鏡|てかがみ}で{後|うし}ろの{仕上|しあ}がりを{見|み}せてくれた。",
+      "japanese": "⟦{美容師|びようし}→美容師：15428_biyoushi⟧⟦が→が：00051_ga⟧{手鏡|てかがみ}⟦で→で：00502_de⟧⟦{後|うし}ろ→後ろ：00683_ushiro⟧⟦の→の：09472_no⟧⟦{仕上|しあ}がり→仕上がり：07432_shiagari⟧⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The hairdresser showed me the finished back with a hand mirror.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {手|て} (hand) + {鏡|かがみ} (mirror). A small mirror with a handle, designed to be held in one hand.\n\nCOMMON COLLOCATIONS:\n- {手鏡|てかがみ}で{見|み}る: to look in a hand mirror\n- {手鏡|てかがみ}を{持|も}つ: to hold a hand mirror\n- {手鏡|てかがみ}を{取|と}り{出|だ}す: to take out a hand mirror\n\nRELATED TERMS:\n- {鏡|かがみ}: mirror (general)\n- {姿見|すがたみ}: full-length mirror\n- {壁掛|かべか}け{鏡|かがみ}: wall mirror\n- コンパクトミラー: compact mirror (folding type)\n\nUSAGE:\nAt hair salons, the stylist uses a {手鏡|てかがみ} to show the customer the back of their head after cutting. Also a common personal grooming item carried in bags.",
+  "notes": "Compound of ⟦{手|て}→手：00569_te⟧ (hand) + ⟦{鏡|かがみ}→鏡：02190_kagami⟧ (mirror). A small mirror with a handle, designed to be held in one hand.\n\nCOMMON COLLOCATIONS:\n- {手鏡|てかがみ}⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧: to look in a hand mirror\n- {手鏡|てかがみ}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to hold a hand mirror\n- {手鏡|てかがみ}⟦を→を：00422_wo⟧⟦{取|と}り{出|だ}す→取り出す：04220_toridasu⟧: to take out a hand mirror\n\nRELATED WORDS:\n- ⟦{鏡|かがみ}→鏡：02190_kagami⟧: mirror (general)\n- ⟦{姿見|すがたみ}→姿見：15876_sugatami⟧: full-length mirror\n- {壁掛|かべか}け⟦{鏡|かがみ}→鏡：02190_kagami⟧: wall mirror\n- ⟦コンパクト→コンパクト：10862_konpakuto⟧⟦ミラー→ミラー：25746_miraa⟧: compact mirror (folding type)\n\nUSAGE:\nAt hair salons, the stylist uses a {手鏡|てかがみ} to show the customer the back of their head after cutting. Also a common personal grooming item carried in bags.",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,36 @@
       "reading": "すがたみ",
       "headword": "{姿見|すがたみ}",
       "label": "full-length mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24837_keshoukyou",
+      "reading": "けしょうきょう",
+      "headword": "{化粧|けしょう}{鏡|きょう}",
+      "label": "vanity mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26442_takujoukyou",
+      "reading": "たくじょうきょう",
+      "headword": "{卓上|たくじょう}{鏡|きょう}",
+      "label": "tabletop mirror"
     }
   ],
   "metadata": {
     "created": "2026-03-09T08:34:01Z",
-    "modified": "2026-05-02T10:22:31Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

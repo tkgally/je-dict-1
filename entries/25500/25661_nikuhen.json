@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "25661_nikuhen_ex1",
-      "japanese": "{肉片|にくへん}を{鍋|なべ}に{入|い}れる。",
+      "japanese": "{肉片|にくへん}⟦を→を：00422_wo⟧⟦{鍋|なべ}→鍋：01038_nabe⟧⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Put the pieces of meat into the pot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25661_nikuhen_ex2",
-      "japanese": "{薄|うす}い{肉片|にくへん}をさっと{焼|や}く。",
+      "japanese": "⟦{薄|うす}い→薄い：00764_usui⟧{肉片|にくへん}⟦を→を：00422_wo⟧さっ⟦と→と：00512_to⟧⟦{焼|や}く→焼く：01123_yaku⟧。",
       "english": "Quickly grill thin slices of meat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25661_nikuhen_ex3",
-      "japanese": "{大|おお}きな{肉片|にくへん}がごろごろ{入|はい}ったシチューを{作|つく}った。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧{肉片|にくへん}⟦が→が：00051_ga⟧⟦ごろごろ→ごろごろ：05176_gorogoro⟧⟦{入|はい}った→入る：00494_hairu⟧⟦シチュー→シチュー：10931_shichuu⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a stew with big chunks of meat throughout.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {肉|にく} (meat) and {片|へん} (piece, fragment). Used in cooking and food descriptions to refer to cut or sliced pieces of meat. The {片|へん} suffix appears in other food-related compounds like {魚片|ぎょへん} (piece of fish).\n\nCOMMON COLLOCATIONS:\n- {薄切|うすぎ}りの{肉片|にくへん}: thinly sliced pieces of meat\n- {肉片|にくへん}を{炒|いた}める: to stir-fry pieces of meat\n- {肉片|にくへん}を{煮込|にこ}む: to stew pieces of meat\n\nSIMILAR WORDS:\n- {肉|にく}: meat (general) — the basic word, does not imply it is cut into pieces\n- {切|き}り{身|み}: fillet, cut of meat or fish — more specific to a prepared cut\n- {薄切|うすぎ}り{肉|にく}: thinly sliced meat — specifies the cutting method\n- {角切|かくぎ}り{肉|にく}: cubed meat — specifies the shape of the cut",
+  "notes": "A compound of ⟦{肉|にく}→肉：02240_niku⟧ (meat) and {片|へん} (piece, fragment). Used in cooking and food descriptions to refer to cut or sliced pieces of meat. The {片|へん} suffix appears in other food-related compounds like {魚片|ぎょへん} (piece of fish).\n\nCOMMON COLLOCATIONS:\n- ⟦{薄切|うすぎ}り→薄切り：07475_usugiri⟧⟦の→の：09472_no⟧{肉片|にくへん}: thinly sliced pieces of meat\n- {肉片|にくへん}⟦を→を：00422_wo⟧⟦{炒|いた}める→炒める：01879_itameru⟧: to stir-fry pieces of meat\n- {肉片|にくへん}⟦を→を：00422_wo⟧⟦{煮込|にこ}む→煮込む：05822_nikomu⟧: to stew pieces of meat\n\nSIMILAR WORDS:\n- ⟦{肉|にく}→肉：02240_niku⟧: meat (general) — the basic word, does not imply it is cut into pieces\n- ⟦{切|き}り{身|み}→切り身：21110_kirimi⟧: fillet, cut of meat or fish — more specific to a prepared cut\n- ⟦{薄切|うすぎ}り→薄切り：07475_usugiri⟧⟦{肉|にく}→肉：02240_niku⟧: thinly sliced meat — specifies the cutting method\n- ⟦{角切|かくぎ}り→角切り：08086_kakugiri⟧⟦{肉|にく}→肉：02240_niku⟧: cubed meat — specifies the shape of the cut",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21110_kirimi",
+      "reading": "きりみ",
+      "headword": "{切|き}り{身|み}",
+      "label": "fillet, cut of meat or fish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-26T14:30:20Z",
-    "modified": "2026-04-26T14:30:20Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

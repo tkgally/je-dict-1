@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "PATTERNS:\n・{規律|きりつ}⟦{正|ただ}しい→正しい：00893_tadashii⟧ (disciplined, orderly)\n・{規律|きりつ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to observe discipline)\n・{規律|きりつ}⟦が→が：00051_ga⟧⟦{乱|みだ}れる→乱れる：09506_midareru⟧ (discipline breaks down)\n・{規律|きりつ}⟦を→を：00422_wo⟧⟦{維持|いじ}する→維持：01624_iji⟧ (to maintain discipline)\n\nCONTEXTS:\n・⟦{軍|ぐん}→軍：02677_gun⟧{規律|きりつ} (military discipline)\n・⟦{自己|じこ}→自己：23357_jiko⟧{規律|きりつ} (self-discipline)\n・⟦{社会|しゃかい}→社会：01427_shakai⟧{規律|きりつ} (social order)\n\nSIMILAR WORDS:\n・⟦{規則|きそく}→規則：01382_kisoku⟧ (rules, regulations — more specific)\n・⟦{秩序|ちつじょ}→秩序：10591_chitsujo⟧ (order — social/political)\n・⟦{節度|せつど}→節度：13769_setsudo⟧ (moderation, self-restraint)\n・⟦ルール→ルール：00354_ruuru⟧ (rule — loanword, general)",
+  "notes": "COMMON PATTERNS:\n- {規律|きりつ}⟦{正|ただ}しい→正しい：00893_tadashii⟧ (disciplined, orderly)\n- {規律|きりつ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to observe discipline)\n- {規律|きりつ}⟦が→が：00051_ga⟧⟦{乱|みだ}れる→乱れる：09506_midareru⟧ (discipline breaks down)\n- {規律|きりつ}⟦を→を：00422_wo⟧⟦{維持|いじ}する→維持：01624_iji⟧ (to maintain discipline)\n\nUSAGE:\n- ⟦{軍|ぐん}→軍：02677_gun⟧{規律|きりつ} (military discipline)\n- ⟦{自己|じこ}→自己：23357_jiko⟧{規律|きりつ} (self-discipline)\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧{規律|きりつ} (social order)\n\nSIMILAR WORDS:\n- ⟦{規則|きそく}→規則：01382_kisoku⟧ (rules, regulations — more specific)\n- ⟦{秩序|ちつじょ}→秩序：10591_chitsujo⟧ (order — social/political)\n- ⟦{節度|せつど}→節度：13769_setsudo⟧ (moderation, self-restraint)\n- ⟦ルール→ルール：00354_ruuru⟧ (rule — loanword, general)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "headword": "{規則|きそく}",
       "label": "rules/regulations",
       "target_id": "01382_kisoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10591_chitsujo",
+      "reading": "ちつじょ",
+      "headword": "{秩序|ちつじょ}",
+      "label": "order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13769_setsudo",
+      "reading": "せつど",
+      "headword": "{節度|せつど}",
+      "label": "moderation, self-restraint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00354_ruuru",
+      "reading": "るーる",
+      "headword": "ルール",
+      "label": "rule"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-10T00:02:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

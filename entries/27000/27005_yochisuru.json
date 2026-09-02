@@ -3,7 +3,7 @@
   "headword": "{予知|よち}する",
   "reading": "よちする",
   "romaji": "yochisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to predict; to foresee",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27005_yochisuru_ex1",
-      "japanese": "{地震|じしん}を{予知|よち}するのは{難|むずか}しい。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦を→を：00422_wo⟧{予知|よち}する⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Predicting earthquakes is difficult.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27005_yochisuru_ex2",
-      "japanese": "{動物|どうぶつ}は{災害|さいがい}を{予知|よち}する{能力|のうりょく}があると{言|い}われている。",
+      "japanese": "⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦は→は：00079_ha⟧⟦{災害|さいがい}→災害：09636_saigai⟧⟦を→を：00422_wo⟧{予知|よち}する⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that animals have the ability to foresee disasters.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27005_yochisuru_ex3",
-      "japanese": "{将来|しょうらい}のことを{完全|かんぜん}に{予知|よち}することは{誰|だれ}にもできない。",
+      "japanese": "⟦{将来|しょうらい}→将来：01438_shourai⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧{予知|よち}すること⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "No one can completely foresee the future.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Often used in the context of natural disasters, especially earthquakes ({地震予知|じしんよち}). Implies knowing something before it happens through sensing or scientific means, not through deliberate calculation or analysis.\n\nCOMMON COLLOCATIONS:\n- {地震予知|じしんよち}: earthquake prediction\n- {予知能力|よちのうりょく}: ability to foresee; precognition\n- {予知|よち}できない: unpredictable\n- {予知夢|よちゆめ}: prophetic dream\n\nSIMILAR WORDS:\n- {予測|よそく}する: to predict; to forecast — based on data and analysis; more scientific and rational\n- {予想|よそう}する: to expect; to anticipate — based on reasoning or guessing; more everyday\n- {予言|よげん}する: to prophesy — often implies a supernatural or mystical prediction\n- {予報|よほう}: forecast — used for weather and similar systematic predictions",
+  "notes": "Often used in the context of natural disasters, especially earthquakes ({地震予知|じしんよち}). Implies knowing something before it happens through sensing or scientific means, not through deliberate calculation or analysis.\n\nCOMMON COLLOCATIONS:\n- {地震予知|じしんよち}: earthquake prediction\n- {予知能力|よちのうりょく}: ability to foresee; precognition\n- {予知|よち}できない: unpredictable\n- {予知夢|よちゆめ}: prophetic dream\n\nSIMILAR WORDS:\n- ⟦{予測|よそく}する→予測する：19654_yosokusuru⟧: to predict; to forecast — based on data and analysis; more scientific and rational\n- ⟦{予想|よそう}する→予想する：06064_yosousuru⟧: to expect; to anticipate — based on reasoning or guessing; more everyday\n- ⟦{予言|よげん}する→予言する：25500_yogensuru⟧: to prophesy — often implies a supernatural or mystical prediction\n- ⟦{予報|よほう}→予報：03668_yohou⟧: forecast — used for weather and similar systematic predictions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19654_yosokusuru",
+      "reading": "よそくする",
+      "headword": "{予測|よそく}する",
+      "label": "to predict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06064_yosousuru",
+      "reading": "よそうする",
+      "headword": "{予想|よそう}する",
+      "label": "to expect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25500_yogensuru",
+      "reading": "よげんする",
+      "headword": "{予言|よげん}する",
+      "label": "to prophesy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03668_yohou",
+      "reading": "よほう",
+      "headword": "{予報|よほう}",
+      "label": "forecast"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:14:44Z",
-    "modified": "2026-05-06T13:14:44Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

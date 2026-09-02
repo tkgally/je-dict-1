@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26606_kakukakusan_ex1",
-      "japanese": "{核拡散|かくかくさん}を{防|ふせ}ぐことが{重要|じゅうよう}だ。",
+      "japanese": "{核拡散|かくかくさん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧こと⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "It is important to prevent nuclear proliferation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26606_kakukakusan_ex2",
-      "japanese": "{核拡散|かくかくさん}の{脅威|きょうい}は{今|いま}も{続|つづ}いている。",
+      "japanese": "{核拡散|かくかくさん}⟦の→の：09472_no⟧⟦{脅威|きょうい}→脅威：13932_kyoui⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The threat of nuclear proliferation continues today.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26606_kakukakusan_ex3",
-      "japanese": "{国際|こくさい}{社会|しゃかい}は{核拡散|かくかくさん}{防止|ぼうし}のための{条約|じょうやく}を{結|むす}んできた。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦は→は：00079_ha⟧{核拡散|かくかくさん}⟦{防止|ぼうし}→防止：14571_boushi⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦を→を：00422_wo⟧⟦{結|むす}んで→結ぶ：02308_musubu⟧きた。",
       "english": "The international community has entered into treaties to prevent nuclear proliferation.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Combines {核|かく} (nuclear) and {拡散|かくさん} (spreading, proliferation). A major topic in international relations and security studies, particularly relevant given Japan's unique position as the only country to have experienced nuclear attacks.\n\nCOMMON COLLOCATIONS:\n- {核拡散|かくかくさん}{防止|ぼうし}: nuclear nonproliferation\n- {核拡散|かくかくさん}{防止|ぼうし}{条約|じょうやく}: Nuclear Non-Proliferation Treaty (NPT)\n- {核拡散|かくかくさん}の{脅威|きょうい}: threat of nuclear proliferation\n- {核拡散|かくかくさん}を{防|ふせ}ぐ: to prevent nuclear proliferation\n\nRELATED TERMS:\n- {核兵器|かくへいき}: nuclear weapons\n- {核軍縮|かくぐんしゅく}: nuclear disarmament\n- {非核化|ひかくか}: denuclearization\n- {核|かく}の{抑止力|よくしりょく}: nuclear deterrence",
-  "cross_references": [],
+  "notes": "Combines ⟦{核|かく}→核：13127_kaku⟧ (nuclear) and ⟦{拡散|かくさん}→拡散：08178_kakusan⟧ (spreading, proliferation). A major topic in international relations and security studies, particularly relevant given Japan's unique position as the only country to have experienced nuclear attacks.\n\nCOMMON COLLOCATIONS:\n- {核拡散|かくかくさん}⟦{防止|ぼうし}→防止：14571_boushi⟧: nuclear nonproliferation\n- {核拡散|かくかくさん}{防止|ぼうし}{条約|じょうやく}: Nuclear Non-Proliferation Treaty (NPT)\n- {核拡散|かくかくさん}⟦の→の：09472_no⟧⟦{脅威|きょうい}→脅威：13932_kyoui⟧: threat of nuclear proliferation\n- {核拡散|かくかくさん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent nuclear proliferation\n\nRELATED WORDS:\n- ⟦{核兵器|かくへいき}→核兵器：13126_kakuheiki⟧: nuclear weapons\n- ⟦{核軍縮|かくぐんしゅく}→核軍縮：23237_kakugunshuku⟧: nuclear disarmament\n- ⟦{非核化|ひかくか}→非核化：23263_hikakuka⟧: denuclearization\n- ⟦{核|かく}→核：13127_kaku⟧⟦の→の：09472_no⟧⟦{抑止力|よくしりょく}→抑止力：15454_yokushiryoku⟧: nuclear deterrence",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13126_kakuheiki",
+      "reading": "かくへいき",
+      "headword": "{核兵器|かくへいき}",
+      "label": "nuclear weapons"
+    },
+    {
+      "type": "related",
+      "target_id": "23237_kakugunshuku",
+      "reading": "かくぐんしゅく",
+      "headword": "{核軍縮|かくぐんしゅく}",
+      "label": "nuclear disarmament"
+    },
+    {
+      "type": "related",
+      "target_id": "23263_hikakuka",
+      "reading": "ひかくか",
+      "headword": "{非核化|ひかくか}",
+      "label": "denuclearization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-03T14:27:09Z",
-    "modified": "2026-05-03T14:27:09Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

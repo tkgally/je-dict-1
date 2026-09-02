@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22761_baainiyotteha_ex1",
-      "japanese": "{場合|ばあい}によっては{中止|ちゅうし}になる。",
+      "japanese": "{場合|ばあい}によっては⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Depending on the case, it may be canceled.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22761_baainiyotteha_ex2",
-      "japanese": "{場合|ばあい}によっては{手術|しゅじゅつ}が{必要|ひつよう}になるかもしれない。",
+      "japanese": "{場合|ばあい}によっては⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Depending on the situation, surgery may be necessary.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22761_baainiyotteha_ex3",
-      "japanese": "{天候|てんこう}が{悪|わる}ければ、{場合|ばあい}によっては{明日|あした}に{延期|えんき}することもある。",
+      "japanese": "⟦{天候|てんこう}→天候：03558_tenkou⟧⟦が→が：00051_ga⟧⟦{悪|わる}ければ→悪い：00908_warui⟧、{場合|ばあい}によっては⟦{明日|あした}→明日：00501_ashita⟧⟦に→に：00314_ni⟧⟦{延期|えんき}する→延期する：02517_enkisuru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "If the weather is bad, it could possibly be postponed to tomorrow.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22761_baainiyotteha_ex4",
-      "japanese": "{場合|ばあい}によっては{法的|ほうてき}{措置|そち}を{取|と}らざるを{得|え}ないこともあります。",
+      "japanese": "{場合|ばあい}によっては⟦{法的|ほうてき}{措置|そち}→法的措置：24477_houtekisochi⟧⟦を→を：00422_wo⟧⟦{取|と}らざる→取る：00565_toru⟧⟦を→を：00422_wo⟧⟦{得|え}ない→得る：02014_eru⟧こと⟦も→も：00484_mo⟧⟦あります→ある：00006_aru⟧。",
       "english": "In some cases, we may have no choice but to take legal action.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {場合|ばあい} ('case, situation') + に + よっては (conditional form of よる, 'to depend on'). This expression hedges a statement by introducing the possibility that something may happen under certain conditions, without specifying exactly what those conditions are.\n\nOften placed at the beginning of a clause or sentence as a sentence-level modifier. It softens assertions and is commonly used in formal announcements, medical explanations, and business contexts.\n\nSIMILAR EXPRESSIONS:\n- {状況|じょうきょう}によっては: depending on the situation — emphasizes the current state of affairs rather than abstract cases\n- {時|とき}と{場合|ばあい}によっては: depending on the time and place — adds temporal and spatial conditions\n- もしかすると: perhaps, possibly — more casual and speculative\n\nCOMMON PATTERNS:\n- {場合|ばあい}によっては〜こともある: in some cases, it can happen that...\n- {場合|ばあい}によっては〜かもしれない: depending on the case, it might...\n- {場合|ばあい}によっては〜{必要|ひつよう}がある: in some cases, it may be necessary to...",
+  "notes": "Composed of ⟦{場合|ばあい}→場合：01704_baai⟧ ('case, situation') + ⟦に→に：00314_ni⟧ + ⟦よって→よる：09857_yoru⟧⟦は→は：00079_ha⟧ (conditional form of ⟦よる→よる：09857_yoru⟧, 'to depend on'). This expression hedges a statement by introducing the possibility that something may happen under certain conditions, without specifying exactly what those conditions are.\n\nOften placed at the beginning of a clause or sentence as a sentence-level modifier. It softens assertions and is commonly used in formal announcements, medical explanations, and business contexts.\n\nSIMILAR WORDS:\n- ⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦に→に：00314_ni⟧よっては: depending on the situation — emphasizes the current state of affairs rather than abstract cases\n- {時|とき}⟦と→と：00512_to⟧{場合|ばあい}によっては: depending on the time and place — adds temporal and spatial conditions\n- ⟦もしかすると→もしかすると：00293_moshikasuruto⟧: perhaps, possibly — more casual and speculative\n\nCOMMON PATTERNS:\n- {場合|ばあい}によっては〜こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧: in some cases, it can happen that...\n- {場合|ばあい}によっては〜⟦かもしれない→かもしれない：00164_kamoshirenai⟧: depending on the case, it might...\n- {場合|ばあい}によっては〜⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: in some cases, it may be necessary to...",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00293_moshikasuruto",
+      "reading": "もしかすると",
+      "headword": "もしかすると",
+      "label": "perhaps, possibly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22822_hitsuyounioujite",
+      "reading": "ひつようにおうじて",
+      "headword": "{必要|ひつよう}に{応|おう}じて",
+      "label": "as needed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +86,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T15:25:49Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

@@ -19,37 +19,62 @@
       "english": "I panicked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11171_panikku_ex2",
-      "japanese": "{地震|じしん}でパニックが{起|お}きた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧パニック⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "The earthquake caused a panic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11171_panikku_ex3",
-      "japanese": "{突然|とつぜん}のトラブルにパニックにならず、{落|お}ち{着|つ}いて{対応|たいおう}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦トラブル→トラブル：07061_toraburu⟧⟦に→に：00314_ni⟧パニック⟦に→に：00314_ni⟧⟦なら→なる：01970_naru⟧ず、⟦{落|お}ち{着|つ}いて→落ち着く：04670_ochitsuku⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "When sudden trouble arises, it's important to stay calm and respond without panicking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "パニック describes a state of sudden, overwhelming fear or confusion. It is used both for personal feelings of alarm and for widespread public chaos. From English \"panic.\"\n\nCOMMON PATTERNS:\n- パニックになる: to panic, to go into a panic (the most common pattern)\n- パニックを{起|お}こす: to cause a panic\n- パニックに{陥|おちい}る: to fall into a panic (more formal)\n\nCOMMON COMPOUNDS:\n- パニック{状態|じょうたい}: state of panic\n- パニック{障害|しょうがい}: panic disorder (medical term)\n- パニック{発作|ほっさ}: panic attack\n- パニック{映画|えいが}: disaster/panic movie\n\nUSAGE NOTE:\nIn casual speech, パニクる (to panic) is a common slang verb derived from パニック. It conjugates as a godan verb: パニクった (panicked).",
-  "cross_references": [],
+  "notes": "パニック describes a state of sudden, overwhelming fear or confusion. It is used both for personal feelings of alarm and for widespread public chaos. From English \"panic.\"\n\nCOMMON PATTERNS:\n- パニック⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to panic, to go into a panic (the most common pattern)\n- パニック⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to cause a panic\n- パニック⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧: to fall into a panic (more formal)\n\nCOMPOUNDS:\n- パニック⟦{状態|じょうたい}→状態：03345_joutai⟧: state of panic\n- パニック⟦{障害|しょうがい}→障害：03228_shougai⟧: panic disorder (medical term)\n- パニック⟦{発作|ほっさ}→発作：15023_hossa⟧: panic attack\n- パニック⟦{映画|えいが}→映画：02273_eiga⟧: disaster/panic movie\n\nUSAGE:\nIn casual speech, パニクる (to panic) is a common slang verb derived from パニック. It conjugates as a godan verb: パニクった (panicked).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02811_konran",
+      "reading": "こんらん",
+      "headword": "{混乱|こんらん}",
+      "label": "confusion, chaos, disorder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28651_kyoukou",
+      "reading": "きょうこう",
+      "headword": "{恐慌|きょうこう}",
+      "label": "panic"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:15:09Z",
-    "modified": "2026-03-30T03:38:10Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

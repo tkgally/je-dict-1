@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10016_beki_ex1",
-      "japanese": "{約束|やくそく}は{守|まも}るべきだ。",
+      "japanese": "⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦は→は：00079_ha⟧⟦{守|まも}る→守る：01986_mamoru⟧べきだ。",
       "english": "You should keep your promises.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10016_beki_ex2",
-      "japanese": "もっと{早|はや}く{言|い}うべきだった。",
+      "japanese": "⟦もっと→もっと：00798_motto⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{言|い}う→言う：00515_iu⟧べきだった。",
       "english": "I should have said it sooner.",
       "notes": "Past tense: べきだった = should have",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10016_beki_ex3",
-      "japanese": "{権力|けんりょく}を{持|も}つ{者|もの}は、その{責任|せきにん}も{負|お}うべきである。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{者|もの}→者：12734_mono⟧⟦は→は：00079_ha⟧、⟦その→その：00993_sono⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦も→も：00484_mo⟧⟦{負|お}う→負う：02017_ou⟧べき⟦である→である：09855_dearu⟧。",
       "english": "Those who hold power should also bear the responsibility.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "べき expresses obligation or strong recommendation, equivalent to \"should\" or \"ought to.\"\n\nCONJUGATION:\n- Verb dictionary form + べきだ: should do\n- する → すべき / するべき (both acceptable)\n- べきだった: should have done (past)\n- べきではない: should not\n\nFORMALITY:\n- べきだ: standard\n- べきである: more formal, written\n- べきです: polite\n\nUSAGE NOTES:\n- Used for moral obligations, duties, or strong advice\n- Can sound preachy if overused\n- More formal than 〜たほうがいい\n\nSIMILAR EXPRESSIONS:\n- 〜たほうがいい: should, had better (softer)\n- 〜なければならない: must, have to (stronger obligation)\n- 〜はずだ: should be, is supposed to (expectation)",
+  "notes": "べき expresses obligation or strong recommendation, equivalent to \"should\" or \"ought to.\"\n\nCONJUGATION:\n- Verb dictionary form + べきだ: should do\n- ⟦する→する：00392_suru⟧ → すべき / ⟦する→する：00392_suru⟧べき (both acceptable)\n- べきだった: should have done (past)\n- べきで⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: should not\n\nREGISTER:\n- べきだ: standard\n- べき⟦である→である：09855_dearu⟧: more formal, written\n- べきです: polite\n\nUSAGE:\n- Used for moral obligations, duties, or strong advice\n- Can sound preachy if overused\n- More formal than 〜た⟦ほうがいい→ほうがいい：10078_hougaii⟧\n\nSIMILAR WORDS:\n- 〜た⟦ほうがいい→ほうがいい：10078_hougaii⟧: should, had better (softer)\n- 〜⟦なければならない→なければならない：27600_nakerebanaranai⟧: must, have to (stronger obligation)\n- 〜⟦はず→はず：01557_hazu⟧だ: should be, is supposed to (expectation)",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,17 +51,28 @@
       "reading": "はず",
       "headword": "はず",
       "label": "expectation (not obligation)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29166_beku",
+      "reading": "べく",
+      "headword": "べく",
+      "label": "in order to"
     }
   ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-23T09:22:17Z",
+    "modified": "2026-09-02T04:01:19Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["auxiliary"],
+      "pos": [
+        "auxiliary"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["grammatical"]
+      "semantic": [
+        "grammatical"
+      ]
     }
   }
 }

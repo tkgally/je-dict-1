@@ -3,7 +3,7 @@
   "headword": "{名称変更|めいしょうへんこう}",
   "reading": "めいしょうへんこう",
   "romaji": "meishouhenkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "name change; renaming",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25030_meishouhenkou_ex1",
-      "japanese": "{駅|えき}の{名称変更|めいしょうへんこう}が{決|き}まった。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{名称変更|めいしょうへんこう}⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "The station's name change was decided.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25030_meishouhenkou_ex2",
-      "japanese": "{会社|かいしゃ}は{来月|らいげつ}から{名称変更|めいしょうへんこう}する{予定|よてい}です。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧{名称変更|めいしょうへんこう}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "The company is scheduled to change its name starting next month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25030_meishouhenkou_ex3",
-      "japanese": "{名称変更|めいしょうへんこう}に{伴|ともな}い、ロゴやウェブサイトも{新|あたら}しくなった。",
+      "japanese": "{名称変更|めいしょうへんこう}⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧、⟦ロゴ→ロゴ：11264_rogo⟧や⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦も→も：00484_mo⟧⟦{新|あたら}しく→新しい：00506_atarashii⟧⟦なった→なる：01970_naru⟧。",
       "english": "Along with the name change, the logo and website were also updated.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {名称|めいしょう} (name; designation) + {変更|へんこう} (change; alteration). Used for official renamings of institutions, places, products, and services. Common in news and business contexts.\n\nCOMMON COLLOCATIONS:\n- {名称変更|めいしょうへんこう}する: change the name\n- {名称変更|めいしょうへんこう}に{伴|ともな}い: accompanying the name change\n- {名称変更|めいしょうへんこう}の{届出|とどけで}: notification of name change\n- {名称変更|めいしょうへんこう}の{理由|りゆう}: reason for the name change\n\nSIMILAR WORDS:\n- {改名|かいめい}: renaming — used for people and smaller entities; less formal\n- {改称|かいしょう}: name change — a more literary synonym, often used for historical renamings\n- {変更|へんこう}: change; alteration — the general word for changes of any kind",
+  "notes": "Composed of ⟦{名称|めいしょう}→名称：12031_meishou⟧ (name; designation) + ⟦{変更|へんこう}→変更：03616_henkou⟧ (change; alteration). Used for official renamings of institutions, places, products, and services. Common in news and business contexts.\n\nCOMMON COLLOCATIONS:\n- {名称変更|めいしょうへんこう}⟦する→する：00392_suru⟧: change the name\n- {名称変更|めいしょうへんこう}⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧: accompanying the name change\n- {名称変更|めいしょうへんこう}⟦の→の：09472_no⟧⟦{届出|とどけで}→届出：07555_todokede⟧: notification of name change\n- {名称変更|めいしょうへんこう}⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧: reason for the name change\n\nSIMILAR WORDS:\n- ⟦{改名|かいめい}→改名：21000_kaimei⟧: renaming — used for people and smaller entities; less formal\n- {改称|かいしょう}: name change — a more literary synonym, often used for historical renamings\n- ⟦{変更|へんこう}→変更：03616_henkou⟧: change; alteration — the general word for changes of any kind",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21000_kaimei",
+      "reading": "かいめい",
+      "headword": "{改名|かいめい}",
+      "label": "renaming"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +62,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "work"
@@ -60,7 +70,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-22T11:27:07Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

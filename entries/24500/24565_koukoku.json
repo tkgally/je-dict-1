@@ -4,7 +4,7 @@
   "headword": "{公告|こうこく}",
   "reading": "こうこく",
   "romaji": "koukoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "public notice; official announcement; proclamation",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24565_koukoku_ex1",
-      "japanese": "{官報|かんぽう}に{公告|こうこく}が{掲載|けいさい}された。",
+      "japanese": "{官報|かんぽう}⟦に→に：00314_ni⟧{公告|こうこく}⟦が→が：00051_ga⟧⟦{掲載|けいさい}→掲載：08993_keisai⟧⟦された→する：00392_suru⟧。",
       "english": "The public notice was published in the official gazette.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24565_koukoku_ex2",
-      "japanese": "{裁判所|さいばんしょ}が{競売|けいばい}の{公告|こうこく}を{出|だ}した。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦が→が：00051_ga⟧{競売|けいばい}⟦の→の：09472_no⟧{公告|こうこく}⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "The court issued a public notice for the auction.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24565_koukoku_ex3",
-      "japanese": "{会社|かいしゃ}の{解散|かいさん}にあたり、{債権者|さいけんしゃ}に{対|たい}する{公告|こうこく}を{行|おこな}わなければならない。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{解散|かいさん}→解散：04121_kaisan⟧⟦に→に：00314_ni⟧あたり、⟦{債権者|さいけんしゃ}→債権者：22802_saikensha⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{公告|こうこく}⟦を→を：00422_wo⟧⟦{行|おこな}わ→行う：01238_okonau⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "Upon dissolution of the company, a public notice to creditors must be issued.",
       "sense_numbers": [
         1
@@ -45,11 +45,33 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {公|こう} (public/official) and {告|こく} (announce/tell). A formal legal and administrative term for official announcements made to the general public. Distinguished from {広告|こうこく} (advertisement), which is a homophone but uses a different first kanji ({広|こう} meaning \"wide/spread\").\n\nCOMMON COLLOCATIONS:\n- {公告|こうこく}を{出|だ}す: to issue a public notice\n- {公告|こうこく}を{掲載|けいさい}する: to publish a public notice\n- {官報|かんぽう}{公告|こうこく}: notice in the official gazette\n- {決算|けっさん}{公告|こうこく}: financial statement disclosure\n\nSIMILAR WORDS:\n- {広告|こうこく}: advertisement — commercial promotion, not official notices\n- {告知|こくち}: notification — informing someone of something specific\n- {公示|こうじ}: official announcement — similar but often used for elections and official displays\n- {布告|ふこく}: proclamation — a more authoritative decree, often historical",
-  "cross_references": [],
+  "notes": "Composed of {公|こう} (public/official) and {告|こく} (announce/tell). A formal legal and administrative term for official announcements made to the general public. Distinguished from ⟦{広告|こうこく}→広告：02747_koukoku⟧ (advertisement), which is a homophone but uses a different first kanji ({広|こう} meaning \"wide/spread\").\n\nCOMMON COLLOCATIONS:\n- {公告|こうこく}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to issue a public notice\n- {公告|こうこく}⟦を→を：00422_wo⟧⟦{掲載|けいさい}する→掲載する：19217_keisaisuru⟧: to publish a public notice\n- {官報|かんぽう}{公告|こうこく}: notice in the official gazette\n- ⟦{決算|けっさん}→決算：05973_kessan⟧{公告|こうこく}: financial statement disclosure\n\nSIMILAR WORDS:\n- ⟦{広告|こうこく}→広告：02747_koukoku⟧: advertisement — commercial promotion, not official notices\n- ⟦{告知|こくち}→告知：17348_kokuchi⟧: notification — informing someone of something specific\n- {公示|こうじ}: official announcement — similar but often used for elections and official displays\n- {布告|ふこく}: proclamation — a more authoritative decree, often historical",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "02747_koukoku",
+      "reading": "こうこく",
+      "headword": "{広告|こうこく}",
+      "label": "advertisement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17348_kokuchi",
+      "reading": "こくち",
+      "headword": "{告知|こくち}",
+      "label": "notification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22238_tsuutatsu",
+      "reading": "つうたつ",
+      "headword": "{通達|つうたつ}",
+      "label": "official notice"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:14:33Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

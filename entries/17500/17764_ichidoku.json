@@ -3,7 +3,7 @@
   "id": "17764_ichidoku",
   "headword": "{一読|いちどく}",
   "reading": "いちどく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "one reading, a single perusal",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17764_ichidoku_ex1",
-      "japanese": "ぜひ{一読|いちどく}をお{勧|すす}めします。",
+      "japanese": "ぜひ{一読|いちどく}⟦を→を：00422_wo⟧お⟦{勧|すす}め→勧める：02120_susumeru⟧⟦します→する：00392_suru⟧。",
       "english": "I highly recommend giving it a read.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17764_ichidoku_ex2",
-      "japanese": "{契約書|けいやくしょ}を{一読|いちどく}してからサインした。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦を→を：00422_wo⟧{一読|いちどく}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦サインした→サインする：09864_sainsuru⟧。",
       "english": "I read through the contract once before signing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17764_ichidoku_ex3",
-      "japanese": "{一読|いちどく}しただけでは{理解|りかい}できない{難解|なんかい}な{本|ほん}だ。",
+      "japanese": "{一読|いちどく}⟦した→する：00392_suru⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{理解|りかい}できない→理解する：06059_rikaisuru⟧⟦{難解|なんかい}→難解：15231_nankai⟧な{本|ほん}だ。",
       "english": "It's a difficult book that you can't understand with just one reading.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in recommendations: {一読|いちどく}をお{勧|すす}めします (I recommend reading it), {一読|いちどく}の{価値|かち}がある (worth reading). Also used to mean a quick or cursory reading.\n\nWORD FORMATION:\n{一|いち} (one) + {読|どく} (reading). Part of the {一|いち}～ pattern for single actions: {一見|いっけん} (a glance), {一聴|いっちょう} (a listen).\n\nCOMMON COLLOCATIONS:\n- {一読|いちどく}をお{勧|すす}めする: to recommend reading\n- {一読|いちどく}の{価値|かち}がある: to be worth reading\n- {一読|いちどく}する: to read through once",
+  "notes": "USAGE:\nOften used in recommendations: {一読|いちどく}⟦を→を：00422_wo⟧お⟦{勧|すす}め→勧める：02120_susumeru⟧⟦します→する：00392_suru⟧ (I recommend reading it), {一読|いちどく}⟦の→の：09472_no⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (worth reading). Also used to mean a quick or cursory reading.\n\nFORMS:\n⟦{一|いち}→一：00705_ichi⟧ (one) + {読|どく} (reading). Part of the ⟦{一|いち}→一：00705_ichi⟧～ pattern for single actions: ⟦{一見|いっけん}→一見：17699_ikken⟧ (a glance), {一聴|いっちょう} (a listen).\n\nCOMMON COLLOCATIONS:\n- {一読|いちどく}⟦を→を：00422_wo⟧お{勧|すす}め⟦する→する：00392_suru⟧: to recommend reading\n- {一読|いちどく}⟦の→の：09472_no⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be worth reading\n- {一読|いちどく}⟦する→する：00392_suru⟧: to read through once",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "いっけん",
       "headword": "{一見|いっけん}",
       "label": "a glance, at first sight"
+    },
+    {
+      "type": "related",
+      "target_id": "06904_mewotoosu",
+      "reading": "めをとおす",
+      "headword": "{目|め}を{通|とお}す",
+      "label": "to look through, to skim, to glance over"
     }
   ],
   "metadata": {
     "created": "2026-03-18T23:16:19Z",
-    "modified": "2026-05-07T06:03:41Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

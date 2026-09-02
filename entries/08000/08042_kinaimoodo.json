@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08042_kinaimoodo_ex1",
-      "japanese": "{離陸|りりく}{前|まえ}に{機内|きない}モードにしてください。",
+      "japanese": "⟦{離陸|りりく}→離陸：05981_ririku⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{機内|きない}モードにして⟦ください→ください：02899_kudasai⟧。",
       "english": "Please switch to airplane mode before takeoff.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08042_kinaimoodo_ex2",
-      "japanese": "{機内|きない}モードでもWi-Fiは{使|つか}える。",
+      "japanese": "{機内|きない}モード⟦で→で：00502_de⟧⟦も→も：00484_mo⟧Wi-Fi⟦は→は：00079_ha⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "You can still use Wi-Fi even in airplane mode.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08042_kinaimoodo_ex3",
-      "japanese": "バッテリーを{節約|せつやく}するために{機内|きない}モードにした。",
+      "japanese": "⟦バッテリー→バッテリー：04425_batterii⟧⟦を→を：00422_wo⟧⟦{節約|せつやく}する→節約する：25226_setsuyakusuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{機内|きない}モードにした。",
       "english": "I turned on airplane mode to save battery.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION:\n- {機内|きない} (inside an aircraft, on board)\n- モード (mode)\n\nALTERNATIVE NAME:\nフライトモード (flight mode) is also used.\n\nUSAGE:\n- {機内|きない}モードにする (to turn on airplane mode)\n- {機内|きない}モードを{解除|かいじょ}する (to turn off airplane mode)\n- {機内|きない}モードに{切|き}り{替|か}える (to switch to airplane mode)\n\nCONTEXT:\nWhile originally required during flights, many people also use it to save battery or avoid distractions.",
+  "notes": "FORMS:\n- ⟦{機内|きない}→機内：18819_kinai⟧ (inside an aircraft, on board)\n- ⟦モード→モード：11596_moodo⟧ (mode)\n\nALTERNATIVE NAME:\nフライト⟦モード→モード：11596_moodo⟧ (flight mode) is also used.\n\nUSAGE:\n- {機内|きない}モード⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to turn on airplane mode)\n- {機内|きない}モード⟦を→を：00422_wo⟧⟦{解除|かいじょ}する→解除する：26843_kaijosuru⟧ (to turn off airplane mode)\n- {機内|きない}モード⟦に→に：00314_ni⟧⟦{切|き}り{替|か}える→切り替える：04239_kirikaeru⟧ (to switch to airplane mode)\nWhile originally required during flights, many people also use it to save battery or avoid distractions.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07687_manaamoodo",
+      "reading": "まなーもーど",
+      "headword": "マナーモード",
+      "label": "silent mode"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +60,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "travel"
       ]
     },
     "created": "2026-01-25T00:53:33Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

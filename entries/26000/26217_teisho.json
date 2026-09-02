@@ -15,48 +15,65 @@
   "examples": [
     {
       "id": "26217_teisho_ex1",
-      "japanese": "{低所|ていしょ}は{洪水|こうずい}の{危険|きけん}がある。",
+      "japanese": "{低所|ていしょ}⟦は→は：00079_ha⟧⟦{洪水|こうずい}→洪水：05065_kouzui⟧⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Low-lying areas are at risk of flooding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26217_teisho_ex2",
-      "japanese": "{低所|ていしょ}に{水|みず}がたまりやすい{地形|ちけい}だ。",
+      "japanese": "{低所|ていしょ}⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧たまりやすい⟦{地形|ちけい}→地形：12083_chikei⟧だ。",
       "english": "It is terrain where water tends to collect in low spots.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26217_teisho_ex3",
-      "japanese": "{大雨|おおあめ}の{時|とき}は{低所|ていしょ}に{近|ちか}づかないように{注意|ちゅうい}してください。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦の→の：09472_no⟧{時|とき}⟦は→は：00079_ha⟧{低所|ていしょ}⟦に→に：00314_ni⟧⟦{近|ちか}づかない→近づく：01958_chikazuku⟧よう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful not to approach low-lying areas during heavy rain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The antonym of {高所|こうしょ} (high place). While {高所|こうしょ} is commonly used in everyday language (e.g., {高所|こうしょ}{恐怖症|きょうふしょう} — acrophobia), {低所|ていしょ} is more restricted to geographical and safety contexts.\n\nCOMMON COLLOCATIONS:\n- {低所|ていしょ}に{住|す}む: to live in a low-lying area\n- {低所|ていしょ}の{浸水|しんすい}: flooding of low-lying areas\n- {低所|ていしょ}に{水|みず}がたまる: water collects in low spots\n\nSIMILAR WORDS:\n- {低地|ていち}: lowland — geographic term for flat, low-elevation terrain\n- {窪地|くぼち}: hollow, depression — a specific sunken area\n- {高所|こうしょ}: high place — direct antonym",
+  "notes": "The antonym of ⟦{高所|こうしょ}→高所：19445_kousho⟧ (high place). While ⟦{高所|こうしょ}→高所：19445_kousho⟧ is commonly used in everyday language (e.g., ⟦{高所|こうしょ}→高所：19445_kousho⟧⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ — acrophobia), {低所|ていしょ} is more restricted to geographical and safety contexts.\n\nCOMMON COLLOCATIONS:\n- {低所|ていしょ}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live in a low-lying area\n- {低所|ていしょ}⟦の→の：09472_no⟧⟦{浸水|しんすい}→浸水：14945_shinsui⟧: flooding of low-lying areas\n- {低所|ていしょ}⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧たまる: water collects in low spots\n\nSIMILAR WORDS:\n- ⟦{低地|ていち}→低地：15551_teichi⟧: lowland — geographic term for flat, low-elevation terrain\n- {窪地|くぼち}: hollow, depression — a specific sunken area\n- ⟦{高所|こうしょ}→高所：19445_kousho⟧: high place — direct antonym",
   "cross_references": [
     {
       "type": "antonym",
       "target_id": "19445_kousho",
       "reading": "こうしょ",
       "headword": "{高所|こうしょ}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15551_teichi",
+      "reading": "ていち",
+      "headword": "{低地|ていち}",
+      "label": "lowland"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-30T12:11:27Z",
-    "modified": "2026-04-30T12:11:27Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

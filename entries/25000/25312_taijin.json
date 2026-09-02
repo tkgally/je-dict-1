@@ -3,7 +3,7 @@
   "headword": "{退陣|たいじん}",
   "reading": "たいじん",
   "romaji": "taijin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "resignation; stepping down (from a position of power)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25312_taijin_ex1",
-      "japanese": "{首相|しゅしょう}が{退陣|たいじん}を{表明|ひょうめい}した。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦が→が：00051_ga⟧{退陣|たいじん}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦した→する：00392_suru⟧。",
       "english": "The prime minister announced his resignation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25312_taijin_ex2",
-      "japanese": "{国民|こくみん}は{大統領|だいとうりょう}の{退陣|たいじん}を{求|もと}めてデモを{行|おこな}った。",
+      "japanese": "⟦{国民|こくみん}→国民：02757_kokumin⟧⟦は→は：00079_ha⟧⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦の→の：09472_no⟧{退陣|たいじん}⟦を→を：00422_wo⟧⟦{求|もと}めて→求める：02316_motomeru⟧⟦デモ→デモ：19416_demo⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "Citizens held demonstrations demanding the president's resignation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25312_taijin_ex3",
-      "japanese": "スキャンダルが{発覚|はっかく}し、{大臣|だいじん}は{退陣|たいじん}に{追|お}い{込|こ}まれた。",
+      "japanese": "スキャンダル⟦が→が：00051_ga⟧⟦{発覚|はっかく}→発覚：07629_hakkaku⟧し、⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦は→は：00079_ha⟧{退陣|たいじん}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれた→追い込む：06371_oikomu⟧。",
       "english": "A scandal was uncovered, and the minister was forced to step down.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Specifically refers to leaders or high-ranking officials stepping down from positions of authority. Originally a military term meaning to withdraw from a position or camp. Now used almost exclusively in political contexts.\n\nCOMMON COLLOCATIONS:\n- {退陣|たいじん}を{表明|ひょうめい}する: announce one's resignation\n- {退陣|たいじん}を{求|もと}める: demand resignation\n- {退陣|たいじん}に{追|お}い{込|こ}まれる: be forced to step down\n- {退陣|たいじん}{要求|ようきゅう}: demand for resignation\n\nSIMILAR WORDS:\n- {辞任|じにん}: resignation — more neutral, used for any official position\n- {辞職|じしょく}: resignation from a job — broader, applies to any employment\n- {引退|いんたい}: retirement — leaving a career permanently, not just a position",
+  "notes": "Specifically refers to leaders or high-ranking officials stepping down from positions of authority. Originally a military term meaning to withdraw from a position or camp. Now used almost exclusively in political contexts.\n\nCOMMON COLLOCATIONS:\n- {退陣|たいじん}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦する→する：00392_suru⟧: announce one's resignation\n- {退陣|たいじん}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: demand resignation\n- {退陣|たいじん}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれる→追い込む：06371_oikomu⟧: be forced to step down\n- {退陣|たいじん}⟦{要求|ようきゅう}→要求：03658_youkyuu⟧: demand for resignation\n\nSIMILAR WORDS:\n- ⟦{辞任|じにん}→辞任：10144_jinin⟧: resignation — more neutral, used for any official position\n- ⟦{辞職|じしょく}→辞職：06157_jishoku⟧: resignation from a job — broader, applies to any employment\n- ⟦{引退|いんたい}→引退：01848_intai⟧: retirement — leaving a career permanently, not just a position",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10144_jinin",
+      "reading": "じにん",
+      "headword": "{辞任|じにん}",
+      "label": "resignation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06157_jishoku",
+      "reading": "じしょく",
+      "headword": "{辞職|じしょく}",
+      "label": "resignation from a job"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01848_intai",
+      "reading": "いんたい",
+      "headword": "{引退|いんたい}",
+      "label": "retirement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28856_soujishoku",
+      "reading": "そうじしょく",
+      "headword": "{総辞職|そうじしょく}",
+      "label": "mass resignation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
@@ -62,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:23:57Z",
-    "modified": "2026-04-24T14:23:57Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

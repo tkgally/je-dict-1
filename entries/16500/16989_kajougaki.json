@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16989_kajougaki_ex1",
-      "japanese": "{要点|ようてん}を{箇条書|かじょうが}きにする。",
+      "japanese": "⟦{要点|ようてん}→要点：01668_youten⟧⟦を→を：00422_wo⟧{箇条書|かじょうが}き⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "To list the key points in bullet form.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16989_kajougaki_ex2",
-      "japanese": "{報告書|ほうこくしょ}は{箇条書|かじょうが}きで{書|か}いてください。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦は→は：00079_ha⟧{箇条書|かじょうが}き⟦で→で：00502_de⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write the report in bulleted form.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16989_kajougaki_ex3",
-      "japanese": "{長|なが}い{文章|ぶんしょう}より{箇条書|かじょうが}きのほうが{読|よ}みやすいので、{資料|しりょう}を{作|つく}り{直|なお}した。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦より→より：09476_yori⟧{箇条書|かじょうが}き⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{読|よ}み→読む：00426_yomu⟧やすい⟦の→の：09472_no⟧で、⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧⟦{作|つく}り{直|なお}した→作り直す：20924_tsukurinaosu⟧。",
       "english": "A bulleted list is easier to read than a long paragraph, so I redid the materials.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "{箇条書|かじょうが}き refers to the format of writing information as a list of separate items or bullet points, rather than in paragraph form.\n\nCOMMON COLLOCATIONS:\n- {箇条書|かじょうが}きにする: to put into list form\n- {箇条書|かじょうが}きで{書|か}く: to write in list form\n- {箇条書|かじょうが}きにまとめる: to organize into bullet points\n- {箇条書|かじょうが}きで{示|しめ}す: to present in list form\n\nWORD FORMATION:\n{箇条|かじょう} (item, article) + {書|が}き (writing)\n\nUSAGE:\nVery common in business documents, presentations, meeting minutes, and instructions. Often contrasted with {文章|ぶんしょう} (prose/paragraph form).\n\nRELATED:\n- {箇条|かじょう}: article, item\n- {項目|こうもく}: item, heading\n- {一覧|いちらん}: list, overview",
-  "cross_references": [],
+  "notes": "{箇条書|かじょうが}き refers to the format of writing information as a list of separate items or bullet points, rather than in paragraph form.\n\nCOMMON COLLOCATIONS:\n- {箇条書|かじょうが}き⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to put into list form\n- {箇条書|かじょうが}き⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧: to write in list form\n- {箇条書|かじょうが}き⟦に→に：00314_ni⟧⟦まとめる→まとめる：02424_matomeru⟧: to organize into bullet points\n- {箇条書|かじょうが}き⟦で→で：00502_de⟧⟦{示|しめ}す→示す：01948_shimesu⟧: to present in list form\n\nFORMS:\n⟦{箇条|かじょう}→箇条：13832_kajou⟧ (item, article) + {書|が}き (writing)\n\nUSAGE:\nVery common in business documents, presentations, meeting minutes, and instructions. Often contrasted with ⟦{文章|ぶんしょう}→文章：02957_bunshou⟧ (prose/paragraph form).\n\nRELATED WORDS:\n- ⟦{箇条|かじょう}→箇条：13832_kajou⟧: article, item\n- ⟦{項目|こうもく}→項目：04150_koumoku⟧: item, heading\n- ⟦{一覧|いちらん}→一覧：17694_ichiran⟧: list, overview",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04150_koumoku",
+      "reading": "こうもく",
+      "headword": "{項目|こうもく}",
+      "label": "item, heading"
+    },
+    {
+      "type": "related",
+      "target_id": "17694_ichiran",
+      "reading": "いちらん",
+      "headword": "{一覧|いちらん}",
+      "label": "list, overview"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

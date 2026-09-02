@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16104_shihouhappou_ex1",
-      "japanese": "{四方八方|しほうはっぽう}を{見渡|みわた}した。",
+      "japanese": "{四方八方|しほうはっぽう}⟦を→を：00422_wo⟧⟦{見渡|みわた}した→見渡す：07169_miwatasu⟧。",
       "english": "I looked around in all directions.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16104_shihouhappou_ex2",
-      "japanese": "{四方八方|しほうはっぽう}に{逃|に}げ{散|ち}った。",
+      "japanese": "{四方八方|しほうはっぽう}⟦に→に：00314_ni⟧{逃|に}げ{散|ち}った。",
       "english": "They scattered in every direction.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16104_shihouhappou_ex3",
-      "japanese": "{彼|かれ}は{四方八方|しほうはっぽう}に{手|て}を{回|まわ}して{情報|じょうほう}を{集|あつ}めた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{四方八方|しほうはっぽう}⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{回|まわ}して→回す：01158_mawasu⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧。",
       "english": "He reached out in every direction to gather information.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{四方八方|しほうはっぽう} is a four-character compound ({四字熟語|よじじゅくご}) meaning all directions. It is often used adverbially with に or from に: {四方八方|しほうはっぽう}に (in all directions), {四方八方|しほうはっぽう}から (from all directions).\n\nCOMMON COLLOCATIONS:\n- {四方八方|しほうはっぽう}に{散|ち}る (to scatter in all directions)\n- {四方八方|しほうはっぽう}から{攻|せ}める (to attack from all sides)\n- {四方八方|しほうはっぽう}に{手|て}を{尽|つ}くす (to try every avenue)",
-  "cross_references": [],
+  "notes": "USAGE:\n{四方八方|しほうはっぽう} is a four-character compound (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧) meaning all directions. It is often used adverbially with ⟦に→に：00314_ni⟧ or from ⟦に→に：00314_ni⟧: {四方八方|しほうはっぽう}⟦に→に：00314_ni⟧ (in all directions), {四方八方|しほうはっぽう}⟦から→から：00504_kara⟧ (from all directions).\n\nCOMMON COLLOCATIONS:\n- {四方八方|しほうはっぽう}⟦に→に：00314_ni⟧⟦{散|ち}る→散る：02075_chiru⟧ (to scatter in all directions)\n- {四方八方|しほうはっぽう}⟦から→から：00504_kara⟧⟦{攻|せ}める→攻める：02123_semeru⟧ (to attack from all sides)\n- {四方八方|しほうはっぽう}⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{尽|つ}くす→尽くす：02077_tsukusu⟧ (to try every avenue)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23944_zenhoui",
+      "reading": "ぜんほうい",
+      "headword": "{全方位|ぜんほうい}",
+      "label": "all directions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25904_mawarijuu",
+      "reading": "まわりじゅう",
+      "headword": "{周|まわ}り{中|じゅう}",
+      "label": "all around"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T00:07:08Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12435_kosaji_ex1",
-      "japanese": "{塩|しお}{小|こ}さじ1を{加|くわ}える。",
+      "japanese": "⟦{塩|しお}→塩：00887_shio⟧{小|こ}さじ1⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧。",
       "english": "Add one teaspoon of salt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12435_kosaji_ex2",
-      "japanese": "{砂糖|さとう}を{小|こ}さじ2{杯|はい}{入|い}れてください。",
+      "japanese": "⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦を→を：00422_wo⟧{小|こ}さじ2⟦{杯|はい}→杯：00933_hai⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put in two teaspoons of sugar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12435_kosaji_ex3",
-      "japanese": "このレシピでは、しょうゆ{小|こ}さじ1と{酢|す}{小|こ}さじ2を{混|ま}ぜ{合|あ}わせます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レシピ→レシピ：07157_reshipi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、しょうゆ{小|こ}さじ1⟦と→と：00512_to⟧⟦{酢|す}→酢：01057_su⟧{小|こ}さじ2⟦を→を：00422_wo⟧⟦{混|ま}ぜ{合|あ}わせます→混ぜ合わせる：27842_mazeawaseru⟧。",
       "english": "In this recipe, mix together one teaspoon of soy sauce and two teaspoons of vinegar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{小|こ}さじ is a standard cooking measurement equal to 5 ml (one teaspoon). It is one of the two fundamental measuring spoon sizes in Japanese cooking.\n\nMEASUREMENT PAIR:\n- {小|こ}さじ: teaspoon (5 ml)\n- {大|おお}さじ: tablespoon (15 ml) — three times a {小|こ}さじ\n\nRECIPE NOTATION:\nIn recipes, the amount follows directly after the ingredient:\n- {塩|しお}{小|こ}さじ1: one teaspoon of salt\n- {砂糖|さとう}{小|こ}さじ2: two teaspoons of sugar\n\nCOMMON EXPRESSIONS:\n- {小|こ}さじ{半分|はんぶん}: half a teaspoon\n- {小|こ}さじ{山盛|やまも}り: a heaped teaspoon\n- {小|こ}さじ{摺|す}り{切|き}り: a level teaspoon\n\nFORMATION:\n{小|こ} (small) + さじ (spoon). さじ is from the Portuguese word for spoon. The kanji form is {匙|さじ}.",
+  "notes": "{小|こ}さじ is a standard cooking measurement equal to 5 ml (one teaspoon). It is one of the two fundamental measuring spoon sizes in Japanese cooking.\n\nMEASUREMENT PAIR:\n- {小|こ}さじ: teaspoon (5 ml)\n- ⟦{大|おお}さじ→大さじ：22527_oosaji⟧: tablespoon (15 ml) — three times a {小|こ}さじ\n\nRECIPE NOTATION:\nIn recipes, the amount follows directly after the ingredient:\n- ⟦{塩|しお}→塩：00887_shio⟧{小|こ}さじ1: one teaspoon of salt\n- ⟦{砂糖|さとう}→砂糖：00884_satou⟧{小|こ}さじ2: two teaspoons of sugar\n\nCOMMON EXPRESSIONS:\n- {小|こ}さじ⟦{半分|はんぶん}→半分：02938_hanbun⟧: half a teaspoon\n- {小|こ}さじ⟦{山盛|やまも}り→山盛り：10157_yamamori⟧: a heaped teaspoon\n- {小|こ}さじ{摺|す}り{切|き}り: a level teaspoon\n\nFORMS:\n⟦{小|こ}→小〜：00240_ko⟧ (small) + さじ (spoon). さじ is from the Portuguese word for spoon. The kanji form is ⟦{匙|さじ}→匙：03886_saji⟧.",
   "prominent_see_also": [
     {
       "target_id": "22527_oosaji",
@@ -47,17 +53,30 @@
       "note": "tablespoon"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25021_keiryoukappu",
+      "reading": "けいりょうかっぷ",
+      "headword": "{計量|けいりょう}カップ",
+      "label": "measuring cup"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-04-27T04:29:29Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cooking", "measurement"]
+      "semantic": [
+        "cooking",
+        "measurement"
+      ]
     }
   }
 }

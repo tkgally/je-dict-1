@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30444_ryuuchijou_ex1",
-      "japanese": "{容疑者|ようぎしゃ}は{留置場|りゅうちじょう}に{入|い}れられた。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧{留置場|りゅうちじょう}⟦に→に：00314_ni⟧⟦{入|い}れられた→入れる：01098_ireru⟧。",
       "english": "The suspect was put in the police lockup.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30444_ryuuchijou_ex2",
-      "japanese": "{弁護士|べんごし}が{留置場|りゅうちじょう}に{面会|めんかい}に{来|き}た。",
+      "japanese": "⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦が→が：00051_ga⟧{留置場|りゅうちじょう}⟦に→に：00314_ni⟧⟦{面会|めんかい}→面会：15925_menkai⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "A lawyer came to the lockup to meet with him.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30444_ryuuchijou_ex3",
-      "japanese": "{逮捕|たいほ}された{後|あと}、{起訴|きそ}されるまで{留置場|りゅうちじょう}に{留|と}め{置|お}かれることがある。",
+      "japanese": "⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧⟦{後|あと}→後：09580_ato⟧、⟦{起訴|きそ}される→起訴する：09863_kisosuru⟧⟦まで→まで：00490_made⟧{留置場|りゅうちじょう}⟦に→に：00314_ni⟧{留|と}め{置|お}かれること⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "After an arrest, a person may be held in the police lockup until charges are filed.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{留置|りゅうち} (detaining, holding) + {場|じょう} (place). Often called {留置所|りゅうちしょ} in speech, and known informally as {ブタ箱|ぶたばこ} in slang.\n\nCOMMON COLLOCATIONS:\n- {留置場|りゅうちじょう}に{入|い}れる: to put someone in the lockup\n- {留置場|りゅうちじょう}から{出|で}る: to be released from the lockup\n- {留置場|りゅうちじょう}で{一晩|ひとばん}{過|す}ごす: to spend a night in the lockup\n\nSIMILAR WORDS:\n- {拘置所|こうちしょ}: detention house — where a defendant is held after being charged and during trial\n- {刑務所|けいむしょ}: prison — where a convicted person serves a sentence",
+  "notes": "{留置|りゅうち} (detaining, holding) + {場|じょう} (place). Often called {留置所|りゅうちしょ} in speech, and known informally as {ブタ箱|ぶたばこ} in slang.\n\nCOMMON COLLOCATIONS:\n- {留置場|りゅうちじょう}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put someone in the lockup\n- {留置場|りゅうちじょう}⟦から→から：00504_kara⟧⟦{出|で}る→出る：00513_deru⟧: to be released from the lockup\n- {留置場|りゅうちじょう}⟦で→で：00502_de⟧⟦{一晩|ひとばん}→一晩：08887_hitoban⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧: to spend a night in the lockup\n\nSIMILAR WORDS:\n- ⟦{拘置所|こうちしょ}→拘置所：30455_kouchisho⟧: detention house — where a defendant is held after being charged and during trial\n- ⟦{刑務所|けいむしょ}→刑務所：19074_keimusho⟧: prison — where a convicted person serves a sentence",
   "cross_references": [
     {
       "type": "related",
@@ -63,6 +63,13 @@
       "target_id": "01393_keisatsu",
       "reading": "けいさつ",
       "headword": "{警察|けいさつ}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30455_kouchisho",
+      "reading": "こうちしょ",
+      "headword": "{拘置所|こうちしょ}",
+      "label": "detention house"
     }
   ],
   "schema_version": "2.0",
@@ -73,7 +80,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "law",
         "building"
@@ -83,6 +90,6 @@
       ]
     },
     "created": "2026-08-06T09:19:34Z",
-    "modified": "2026-08-06T09:19:34Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

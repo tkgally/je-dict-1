@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09349_heigai_ex1",
-      "japanese": "{過度|かど}な{競争|きょうそう}の{弊害|へいがい}がある。",
+      "japanese": "⟦{過度|かど}→過度：14377_kado⟧な⟦{競争|きょうそう}→競争：01388_kyousou⟧⟦の→の：09472_no⟧{弊害|へいがい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are harmful effects of excessive competition.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09349_heigai_ex2",
-      "japanese": "インターネットの{弊害|へいがい}を{指摘|してき}する{声|こえ}がある。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦の→の：09472_no⟧{弊害|へいがい}⟦を→を：00422_wo⟧⟦{指摘|してき}する→指摘する：27890_shitekisuru⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are voices pointing out the harmful effects of the internet.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09349_heigai_ex3",
-      "japanese": "{便利|べんり}さの{裏|うら}には{弊害|へいがい}も{存在|そんざい}することを{忘|わす}れてはならない。",
+      "japanese": "⟦{便利|べんり}→便利：00830_benri⟧さ⟦の→の：09472_no⟧⟦{裏|うら}→裏：02178_ura⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{弊害|へいがい}⟦も→も：00484_mo⟧⟦{存在|そんざい}する→存在する：17185_sonzaisuru⟧こと⟦を→を：00422_wo⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "We must not forget that behind convenience, there are also harmful effects.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{弊害|へいがい} refers to the negative effects or harms caused by something.\n\nCOMMON COLLOCATIONS:\n- {弊害|へいがい}がある (there are harmful effects)\n- {弊害|へいがい}を{生|う}む (produce harmful effects)\n- {弊害|へいがい}を{指摘|してき}する (point out harmful effects)\n- {弊害|へいがい}を{取|と}り{除|のぞ}く (remove harmful effects)\n- ～の{弊害|へいがい} (the harms of ~)\n\nUSAGE NOTE: A formal word often used in discussions of social issues, policies, or systems. More formal than {悪影響|あくえいきょう} (bad influence).",
-  "cross_references": [],
+  "notes": "{弊害|へいがい} refers to the negative effects or harms caused by something.\n\nCOMMON COLLOCATIONS:\n- {弊害|へいがい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there are harmful effects)\n- {弊害|へいがい}⟦を→を：00422_wo⟧⟦{生|う}む→生む：29531_umu⟧ (produce harmful effects)\n- {弊害|へいがい}⟦を→を：00422_wo⟧⟦{指摘|してき}する→指摘する：27890_shitekisuru⟧ (point out harmful effects)\n- {弊害|へいがい}⟦を→を：00422_wo⟧⟦{取|と}り{除|のぞ}く→取り除く：04222_torinozoku⟧ (remove harmful effects)\n- ～⟦の→の：09472_no⟧{弊害|へいがい} (the harms of ~)\n\nUSAGE NOTE: A formal word often used in discussions of social issues, policies, or systems. More formal than ⟦{悪影響|あくえいきょう}→悪影響：16840_akueikyou⟧ (bad influence).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26068_gaiaku",
+      "reading": "がいあく",
+      "headword": "{害悪|がいあく}",
+      "label": "harm"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:52:12Z",
-    "modified": "2026-06-23T15:56:03Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

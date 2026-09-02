@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09127_futsugyou_ex1",
-      "japanese": "{払暁|ふつぎょう}に{出発|しゅっぱつ}した。",
+      "japanese": "{払暁|ふつぎょう}⟦に→に：00314_ni⟧⟦{出発|しゅっぱつ}した→出発する：01832_shuppatsusuru⟧。",
       "english": "We departed at dawn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09127_futsugyou_ex2",
-      "japanese": "{部隊|ぶたい}は{払暁|ふつぎょう}に{攻撃|こうげき}を{開始|かいし}した。",
+      "japanese": "⟦{部隊|ぶたい}→部隊：28119_butai⟧⟦は→は：00079_ha⟧{払暁|ふつぎょう}⟦に→に：00314_ni⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦を→を：00422_wo⟧⟦{開始|かいし}した→開始する：26826_kaishisuru⟧。",
       "english": "The troops launched an attack at dawn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09127_futsugyou_ex3",
-      "japanese": "{払暁|ふつぎょう}の{空|そら}に{一番星|いちばんぼし}がまだ{光|ひか}っていた。",
+      "japanese": "{払暁|ふつぎょう}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦に→に：00314_ni⟧⟦{一番星|いちばんぼし}→一番星：08953_ichibanboshi⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧⟦{光|ひか}っていた→光る：01163_hikaru⟧。",
       "english": "The morning star was still shining in the dawn sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FORMALITY: Formal/literary. Often used in historical or military contexts. In everyday speech, {明|あ}け{方|がた}, {夜明|よあ}け, or {早朝|そうちょう} are more common.\n\nETYMOLOGY: {払|ふつ} (to sweep away) + {暁|ぎょう} (dawn) - suggests the sweeping away of darkness.\n\nCOMMON COLLOCATIONS:\n- {払暁|ふつぎょう}に{出発|しゅっぱつ}する (to depart at dawn)\n- {払暁|ふつぎょう}の{攻撃|こうげき} (dawn attack)\n- {払暁|ふつぎょう}の{空|そら} (the dawn sky)\n\nRELATED WORDS:\n- {夜明|よあ}け (daybreak - more common)\n- {明|あ}け{方|がた} (dawn - everyday word)\n- {暁|あかつき} (dawn - literary, also means \"when/if\")\n- {黎明|れいめい} (dawn - literary, also figurative)",
+  "notes": "FORMALITY: Formal/literary. Often used in historical or military contexts. In everyday speech, ⟦{明|あ}け{方|がた}→明け方：17595_akegata⟧, ⟦{夜明|よあ}け→夜明け：03655_yoake⟧, or ⟦{早朝|そうちょう}→早朝：03109_souchou⟧ are more common.\n\nETYMOLOGY: {払|ふつ} (to sweep away) + {暁|ぎょう} (dawn) - suggests the sweeping away of darkness.\n\nCOMMON COLLOCATIONS:\n- {払暁|ふつぎょう}⟦に→に：00314_ni⟧⟦{出発|しゅっぱつ}する→出発する：01832_shuppatsusuru⟧ (to depart at dawn)\n- {払暁|ふつぎょう}⟦の→の：09472_no⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧ (dawn attack)\n- {払暁|ふつぎょう}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧ (the dawn sky)\n\nRELATED WORDS:\n- ⟦{夜明|よあ}け→夜明け：03655_yoake⟧ (daybreak - more common)\n- ⟦{明|あ}け{方|がた}→明け方：17595_akegata⟧ (dawn - everyday word)\n- ⟦{暁|あかつき}→暁：10036_akatsuki⟧ (dawn - literary, also means \"when/if\")\n- ⟦{黎明|れいめい}→黎明：10199_reimei⟧ (dawn - literary, also figurative)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,18 +58,36 @@
       "reading": "あかつき",
       "headword": "{暁|あかつき}",
       "label": "dawn (literary)"
+    },
+    {
+      "type": "related",
+      "target_id": "17595_akegata",
+      "reading": "あけがた",
+      "headword": "{明|あ}け{方|がた}",
+      "label": "dawn"
+    },
+    {
+      "type": "related",
+      "target_id": "10199_reimei",
+      "reading": "れいめい",
+      "headword": "{黎明|れいめい}",
+      "label": "dawn"
     }
   ],
   "metadata": {
     "created": "2026-01-31T10:49:06Z",
-    "modified": "2026-04-22T07:28:30Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }

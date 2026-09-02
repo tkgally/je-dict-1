@@ -3,7 +3,7 @@
   "headword": "{乞|こ}う",
   "reading": "こう",
   "romaji": "kou",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to beg; to ask for; to entreat",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28921_kou_ex1",
-      "japanese": "{許|ゆる}しを{乞|こ}う。",
+      "japanese": "⟦{許|ゆる}し→許し：27401_yurushi⟧⟦を→を：00422_wo⟧{乞|こ}う。",
       "english": "To beg for forgiveness.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28921_kou_ex2",
-      "japanese": "{次|つぎ}{回|かい}の{放送|ほうそう}にご{期待|きたい}を{乞|こ}う。",
+      "japanese": "{次|つぎ}{回|かい}⟦の→の：09472_no⟧⟦{放送|ほうそう}→放送：02093_housou⟧⟦に→に：00314_ni⟧ご⟦{期待|きたい}→期待：00238_kitai⟧⟦を→を：00422_wo⟧{乞|こ}う。",
       "english": "Look forward to the next broadcast. (lit. We entreat your anticipation.)",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28921_kou_ex3",
-      "japanese": "{戦争|せんそう}に{敗|やぶ}れた{兵|へい}は{敵|てき}に{命|いのち}を{乞|こ}うた。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦に→に：00314_ni⟧⟦{敗|やぶ}れた→敗れる：12712_yabureru⟧⟦{兵|へい}→兵：29510_hei⟧⟦は→は：00079_ha⟧⟦{敵|てき}→敵：03546_teki⟧⟦に→に：00314_ni⟧⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧{乞|こ}うた。",
       "english": "The defeated soldier begged the enemy for his life.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A literary verb appearing mostly in fixed phrases and written Japanese. Almost never used in daily conversation.\n\nTRANSITIVITY:\nTransitive (takes を). The object is what is requested ({助|たす}けを{乞|こ}う).\n\nCOMMON COLLOCATIONS:\n- {許|ゆる}しを{乞|こ}う: to beg for forgiveness\n- {命|いのち}を{乞|こ}う: to beg for one's life\n- {助|たす}けを{乞|こ}う: to plead for help\n- ご{期待|きたい}を{乞|こ}う: please look forward to it (set TV/promotional phrase)\n- ご{容赦|ようしゃ}を{乞|こ}う: to ask for forbearance (formal)\n\nSIMILAR WORDS:\n- {頼|たの}む: to ask, to request — everyday verb for the same idea\n- お{願|ねが}いする: to request (polite) — standard polite form\n- {懇願|こんがん}する: to entreat — formal Sino-Japanese verb, similar register",
+  "notes": "A literary verb appearing mostly in fixed phrases and written Japanese. Almost never used in daily conversation.\n\nTRANSITIVITY:\nTransitive (takes ⟦を→を：00422_wo⟧). The object is what is requested (⟦{助|たす}け→助け：07777_tasuke⟧⟦を→を：00422_wo⟧{乞|こ}う).\n\nCOMMON COLLOCATIONS:\n- ⟦{許|ゆる}し→許し：27401_yurushi⟧⟦を→を：00422_wo⟧{乞|こ}う: to beg for forgiveness\n- ⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧{乞|こ}う: to beg for one's life\n- ⟦{助|たす}け→助け：07777_tasuke⟧⟦を→を：00422_wo⟧{乞|こ}う: to plead for help\n- ご⟦{期待|きたい}→期待：00238_kitai⟧⟦を→を：00422_wo⟧{乞|こ}う: please look forward to it (set TV/promotional phrase)\n- ⟦ご{容赦|ようしゃ}→ご容赦：06969_goyousha⟧⟦を→を：00422_wo⟧{乞|こ}う: to ask for forbearance (formal)\n\nSIMILAR WORDS:\n- ⟦{頼|たの}む→頼む：01104_tanomu⟧: to ask, to request — everyday verb for the same idea\n- ⟦お{願|ねが}いする→お願いする：05654_onegaisuru⟧: to request (polite) — standard polite form\n- ⟦{懇願|こんがん}する→懇願する：25407_kongansuru⟧: to entreat — formal Sino-Japanese verb, similar register",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01104_tanomu",
+      "reading": "たのむ",
+      "headword": "{頼|たの}む",
+      "label": "to ask, to request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05654_onegaisuru",
+      "reading": "おねがいする",
+      "headword": "お{願|ねが}いする",
+      "label": "to request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25407_kongansuru",
+      "reading": "こんがんする",
+      "headword": "{懇願|こんがん}する",
+      "label": "to entreat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
         "communication"
       ],
       "domain": [],
-      "verb_class": "godan-u"
+      "verb_class": "godan-u",
+      "transitivity": "transitive"
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-06-07T03:04:58Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "godan",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09263_yuuryoudouro_ex1",
-      "japanese": "{有料道路|ゆうりょうどうろ}を{使|つか}う。",
+      "japanese": "{有料道路|ゆうりょうどうろ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use the toll road.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09263_yuuryoudouro_ex2",
-      "japanese": "{有料道路|ゆうりょうどうろ}の{料金|りょうきん}は{高|たか}い。",
+      "japanese": "{有料道路|ゆうりょうどうろ}⟦の→の：09472_no⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The toll road fee is expensive.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09263_yuuryoudouro_ex3",
-      "japanese": "{渋滞|じゅうたい}を{避|さ}けるために{有料道路|ゆうりょうどうろ}を{通|とお}った。",
+      "japanese": "⟦{渋滞|じゅうたい}→渋滞：03279_juutai⟧⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{有料道路|ゆうりょうどうろ}⟦を→を：00422_wo⟧⟦{通|とお}った→通る：01243_tooru⟧。",
       "english": "I took the toll road to avoid traffic.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{有料道路|ゆうりょうどうろ} refers to any road that charges a fee for use. This includes expressways, bypasses, and certain mountain roads.\n\nCOMMON COLLOCATIONS:\n- {有料道路|ゆうりょうどうろ}を{走|はし}る (drive on a toll road)\n- {有料道路|ゆうりょうどうろ}に{入|はい}る (enter a toll road)\n- {有料道路|ゆうりょうどうろ}の{料金|りょうきん} (toll road fee)\n\nRELATED TERMS:\n- {高速道路|こうそくどうろ}: expressway (most are toll roads in Japan)\n- {料金所|りょうきんじょ}: toll booth",
+  "notes": "{有料道路|ゆうりょうどうろ} refers to any road that charges a fee for use. This includes expressways, bypasses, and certain mountain roads.\n\nCOMMON COLLOCATIONS:\n- {有料道路|ゆうりょうどうろ}⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧ (drive on a toll road)\n- {有料道路|ゆうりょうどうろ}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (enter a toll road)\n- {有料道路|ゆうりょうどうろ}⟦の→の：09472_no⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (toll road fee)\n\nRELATED WORDS:\n- ⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧: expressway (most are toll roads in Japan)\n- ⟦{料金所|りょうきんじょ}→料金所：09243_ryoukinjo⟧: toll booth",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "りょうきんじょ",
       "headword": "{料金所|りょうきんじょ}",
       "label": "toll booth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14849_tsuukouryou",
+      "reading": "つうこうりょう",
+      "headword": "{通行料|つうこうりょう}",
+      "label": "toll"
     }
   ],
   "metadata": {
     "created": "2026-02-01T06:15:45Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "id": "10711_aakaibu",
   "headword": "アーカイブ",
   "reading": "あーかいぶ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "archive",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10711_aakaibu_ex1",
-      "japanese": "{過去|かこ}の{記事|きじ}をアーカイブする。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦を→を：00422_wo⟧アーカイブ⟦する→する：00392_suru⟧。",
       "english": "To archive past articles.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10711_aakaibu_ex2",
-      "japanese": "{番組|ばんぐみ}のアーカイブはネットで{見|み}られます。",
+      "japanese": "⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦の→の：09472_no⟧アーカイブ⟦は→は：00079_ha⟧⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧⟦{見|み}られます→見る：00283_miru⟧。",
       "english": "The program archives can be viewed online.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10711_aakaibu_ex3",
-      "japanese": "{図書館|としょかん}には{明治|めいじ}{時代|じだい}の{新聞|しんぶん}のアーカイブが{保管|ほかん}されている。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦の→の：09472_no⟧⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦の→の：09472_no⟧アーカイブ⟦が→が：00051_ga⟧⟦{保管|ほかん}→保管：11442_hokan⟧⟦されている→する：00392_suru⟧。",
       "english": "The library stores archives of Meiji-era newspapers.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nアーカイブ is used in both digital and physical contexts. In digital contexts, it often refers to saving livestreams, old web content, or social media posts for later viewing. On platforms like YouTube, an archived livestream is called an アーカイブ{配信|はいしん}.\n\nCOMMON COLLOCATIONS:\n- アーカイブ{配信|はいしん}: archived stream/broadcast\n- アーカイブを{残|のこ}す: to leave an archive\n- デジタルアーカイブ: digital archive\n- アーカイブ{化|か}する: to turn into an archive",
+  "notes": "USAGE:\nアーカイブ is used in both digital and physical contexts. In digital contexts, it often refers to saving livestreams, old web content, or social media posts for later viewing. On platforms like YouTube, an archived livestream is called an アーカイブ⟦{配信|はいしん}→配信：04898_haishin⟧.\n\nCOMMON COLLOCATIONS:\n- アーカイブ⟦{配信|はいしん}→配信：04898_haishin⟧: archived stream/broadcast\n- アーカイブ⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧: to leave an archive\n- ⟦デジタル→デジタル：05870_dejitaru⟧アーカイブ: digital archive\n- アーカイブ⟦{化|か}→〜化：28335_ka⟧⟦する→する：00392_suru⟧: to turn into an archive",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "electronics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

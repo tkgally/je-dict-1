@@ -24,7 +24,7 @@
     },
     {
       "id": "05517_kunou_ex2",
-      "japanese": "⟦{内面|ないめん}→内面：11689_naimen⟧⟦の→の：09472_no⟧{苦悩|くのう}⟦を→を：00422_wo⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧する。",
+      "japanese": "⟦{内面|ないめん}→内面：11689_naimen⟧⟦の→の：09472_no⟧{苦悩|くのう}⟦を→を：00422_wo⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦する→する：00392_suru⟧。",
       "english": "To express inner anguish.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05517_kunou_ex3",
-      "japanese": "{苦悩|くのう}⟦から→から：00504_kara⟧⟦{解放|かいほう}→解放：00135_kaihou⟧される。",
+      "japanese": "{苦悩|くのう}⟦から→から：00504_kara⟧⟦{解放|かいほう}→解放：00135_kaihou⟧⟦される→する：00392_suru⟧。",
       "english": "To be freed from suffering.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{苦悩|くのう} refers to deep mental or emotional anguish—a profound, often prolonged suffering of the mind or spirit.\n\nCOMMON EXPRESSIONS:\n- {苦悩|くのう}する: to suffer, to anguish\n- {苦悩|くのう}⟦に→に：00314_ni⟧⟦{満|み}ちた→満ちる：02428_michiru⟧: full of anguish\n- {苦悩|くのう}⟦の→の：09472_no⟧⟦{日々|ひび}→日々：04804_hibi⟧: days of anguish\n- ⟦{内面|ないめん}→内面：11689_naimen⟧⟦の→の：09472_no⟧{苦悩|くのう}: inner anguish\n- {苦悩|くのう}⟦から→から：00504_kara⟧⟦{解放|かいほう}→解放：00135_kaihou⟧される: to be freed from suffering\n\nSIMILAR WORDS:\n- ⟦{苦痛|くつう}→苦痛：02652_kutsuu⟧: pain (often physical, but can be mental)\n- ⟦{苦労|くろう}→苦労：02672_kurou⟧: hardship, trouble (from difficulties in life)\n- ⟦{苦悶|くもん}→苦悶：28929_kumon⟧: agony, writhing in pain\n- ⟦{悩|なや}み→悩み：06650_nayami⟧: worry, concern (milder than {苦悩|くのう})\n\nREGISTER:\nA somewhat literary or formal word, often used in writing, philosophical discussions, or when describing serious emotional states. In casual speech, ⟦{悩|なや}み→悩み：06650_nayami⟧ or ⟦{辛|つら}い→辛い：01112_tsurai⟧ is more common.",
+  "notes": "{苦悩|くのう} refers to deep mental or emotional anguish—a profound, often prolonged suffering of the mind or spirit.\n\nCOMMON EXPRESSIONS:\n- {苦悩|くのう}⟦する→する：00392_suru⟧: to suffer, to anguish\n- {苦悩|くのう}⟦に→に：00314_ni⟧⟦{満|み}ちた→満ちる：02428_michiru⟧: full of anguish\n- {苦悩|くのう}⟦の→の：09472_no⟧⟦{日々|ひび}→日々：04804_hibi⟧: days of anguish\n- ⟦{内面|ないめん}→内面：11689_naimen⟧⟦の→の：09472_no⟧{苦悩|くのう}: inner anguish\n- {苦悩|くのう}⟦から→から：00504_kara⟧⟦{解放|かいほう}→解放：00135_kaihou⟧⟦される→する：00392_suru⟧: to be freed from suffering\n\nSIMILAR WORDS:\n- ⟦{苦痛|くつう}→苦痛：02652_kutsuu⟧: pain (often physical, but can be mental)\n- ⟦{苦労|くろう}→苦労：02672_kurou⟧: hardship, trouble (from difficulties in life)\n- ⟦{苦悶|くもん}→苦悶：28929_kumon⟧: agony, writhing in pain\n- ⟦{悩|なや}み→悩み：06650_nayami⟧: worry, concern (milder than {苦悩|くのう})\n\nREGISTER:\nA somewhat literary or formal word, often used in writing, philosophical discussions, or when describing serious emotional states. In casual speech, ⟦{悩|なや}み→悩み：06650_nayami⟧ or ⟦{辛|つら}い→辛い：01112_tsurai⟧ is more common.",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,11 +71,46 @@
       "reading": "おうのう",
       "headword": "{懊悩|おうのう}",
       "label": "anguish (literary)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02652_kutsuu",
+      "reading": "くつう",
+      "headword": "{苦痛|くつう}",
+      "label": "pain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02672_kurou",
+      "reading": "くろう",
+      "headword": "{苦労|くろう}",
+      "label": "hardship, trouble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28929_kumon",
+      "reading": "くもん",
+      "headword": "{苦悶|くもん}",
+      "label": "agony, writhing in pain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06650_nayami",
+      "reading": "なやみ",
+      "headword": "{悩|なや}み",
+      "label": "worry, concern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22693_seishintekikutsuu",
+      "reading": "せいしんてきくつう",
+      "headword": "{精神的苦痛|せいしんてきくつう}",
+      "label": "emotional distress"
     }
   ],
   "metadata": {
     "created": "2026-01-16T07:49:47Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

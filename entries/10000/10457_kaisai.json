@@ -3,7 +3,7 @@
   "id": "10457_kaisai",
   "headword": "{開催|かいさい}",
   "reading": "かいさい",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "holding (an event); hosting",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10457_kaisai_ex1",
-      "japanese": "{来月|らいげつ}、{会議|かいぎ}が{開催|かいさい}される。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧、⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧{開催|かいさい}⟦される→する：00392_suru⟧。",
       "english": "A meeting will be held next month.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10457_kaisai_ex2",
-      "japanese": "{今年|ことし}の{大会|たいかい}は{東京|とうきょう}で{開催|かいさい}する{予定|よてい}だ。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦は→は：00079_ha⟧⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦で→で：00502_de⟧{開催|かいさい}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "This year's tournament is scheduled to be held in Tokyo.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10457_kaisai_ex3",
-      "japanese": "{地域|ちいき}の{祭|まつ}りが{毎年|まいとし}{夏|なつ}に{開催|かいさい}されるが、{今年|ことし}は{天候|てんこう}の{影響|えいきょう}で{延期|えんき}になった。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦が→が：00051_ga⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧{開催|かいさい}⟦される→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧⟦{天候|てんこう}→天候：03558_tenkou⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{延期|えんき}→延期：01888_enki⟧になった。",
       "english": "The local festival is held every summer, but this year it was postponed due to the weather.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "{開催|かいさい}する means to hold or host an event. It is commonly used for formal or organized events such as conferences, tournaments, exhibitions, and festivals.\n\nCOMMON COLLOCATIONS:\n- {大会|たいかい}を{開催|かいさい}する: to hold a tournament\n- {会議|かいぎ}を{開催|かいさい}する: to hold a meeting\n- {展覧会|てんらんかい}を{開催|かいさい}する: to hold an exhibition\n- {開催|かいさい}{地|ち}: venue; host city\n\nOften used in the passive form {開催|かいさい}される (to be held).",
-  "cross_references": [],
+  "notes": "{開催|かいさい}⟦する→する：00392_suru⟧ means to hold or host an event. It is commonly used for formal or organized events such as conferences, tournaments, exhibitions, and festivals.\n\nCOMMON COLLOCATIONS:\n- ⟦{大会|たいかい}→大会：03386_taikai⟧⟦を→を：00422_wo⟧{開催|かいさい}⟦する→する：00392_suru⟧: to hold a tournament\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{開催|かいさい}⟦する→する：00392_suru⟧: to hold a meeting\n- ⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦を→を：00422_wo⟧{開催|かいさい}⟦する→する：00392_suru⟧: to hold an exhibition\n- {開催|かいさい}{地|ち}: venue; host city\n\nOften used in the passive form {開催|かいさい}⟦される→する：00392_suru⟧ (to be held).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11405_shusai",
+      "reading": "しゅさい",
+      "headword": "{主催|しゅさい}",
+      "label": "hosting, sponsoring (an event)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T13:15:08Z",
-    "modified": "2026-08-14T09:51:20Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

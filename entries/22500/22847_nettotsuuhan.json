@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22847_nettotsuuhan_ex1",
-      "japanese": "ネット{通販|つうはん}で{注文|ちゅうもん}した。",
+      "japanese": "ネット{通販|つうはん}⟦で→で：00502_de⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered it through online shopping.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22847_nettotsuuhan_ex2",
-      "japanese": "ネット{通販|つうはん}は{便利|べんり}だが、{届|とど}くまで{時間|じかん}がかかる。",
+      "japanese": "ネット{通販|つうはん}⟦は→は：00079_ha⟧⟦{便利|べんり}→便利：00830_benri⟧だ⟦が→が：00051_ga⟧、⟦{届|とど}く→届く：00899_todoku⟧⟦まで→まで：00490_made⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "Online shopping is convenient, but it takes time for things to arrive.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22847_nettotsuuhan_ex3",
-      "japanese": "{最近|さいきん}は{食料品|しょくりょうひん}もネット{通販|つうはん}で{買|か}える{時代|じだい}になった。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦{食料品|しょくりょうひん}→食料品：01439_shokuryouhin⟧⟦も→も：00484_mo⟧ネット{通販|つうはん}⟦で→で：00502_de⟧⟦{買|か}える→買う：00489_kau⟧⟦{時代|じだい}→時代：01424_jidai⟧になった。",
       "english": "Nowadays, we've entered an era where even groceries can be bought through online shopping.",
       "sense_numbers": [
         1
@@ -44,14 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "A compound of ネット (internet) and {通販|つうはん} (mail order, abbreviation of {通信販売|つうしんはんばい}). Refers specifically to shopping conducted over the internet, as opposed to traditional catalog or phone-based mail order.\n\nCOMMON COLLOCATIONS:\n- ネット{通販|つうはん}で{買|か}う: to buy online\n- ネット{通販|つうはん}サイト: online shopping site\n- ネット{通販|つうはん}の{利用|りよう}: use of online shopping\n- ネット{通販|つうはん}{大手|おおて}: major online retailer\n\nSIMILAR WORDS:\n- {通信販売|つうしんはんばい}: mail-order sales — the formal, full term for all distance selling\n- {通販|つうはん}: mail order — abbreviation, covers both online and traditional methods\n- ネットショッピング: online shopping — a more casual loanword synonym\n- EC (イーシー): e-commerce — used more in business contexts\n\nUSAGE:\nIn everyday Japanese, ネット{通販|つうはん} is the most natural way to refer to online shopping in a semi-formal context. ネットショッピング is also used but sounds slightly more casual.",
+  "notes": "A compound of ⟦ネット→ネット：05279_netto⟧ (internet) and ⟦{通販|つうはん}→通販：17464_tsuuhan⟧ (mail order, abbreviation of ⟦{通信販売|つうしんはんばい}→通信販売：22846_tsuushinhanbai⟧). Refers specifically to shopping conducted over the internet, as opposed to traditional catalog or phone-based mail order.\n\nCOMMON COLLOCATIONS:\n- ネット{通販|つうはん}⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧: to buy online\n- ネット{通販|つうはん}⟦サイト→サイト：05603_saito⟧: online shopping site\n- ネット{通販|つうはん}⟦の→の：09472_no⟧⟦{利用|りよう}→利用：01752_riyou⟧: use of online shopping\n- ネット{通販|つうはん}⟦{大手|おおて}→大手：12171_oote⟧: major online retailer\n\nSIMILAR WORDS:\n- ⟦{通信販売|つうしんはんばい}→通信販売：22846_tsuushinhanbai⟧: mail-order sales — the formal, full term for all distance selling\n- ⟦{通販|つうはん}→通販：17464_tsuuhan⟧: mail order — abbreviation, covers both online and traditional methods\n- ⟦ネットショッピング→ネットショッピング：29757_nettoshoppingu⟧: online shopping — a more casual loanword synonym\n- EC (イーシー): e-commerce — used more in business contexts\n\nUSAGE:\nIn everyday Japanese, ネット{通販|つうはん} is the most natural way to refer to online shopping in a semi-formal context. ⟦ネットショッピング→ネットショッピング：29757_nettoshoppingu⟧ is also used but sounds slightly more casual.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22846_tsuushinhanbai",
+      "reading": "つうしんはんばい",
+      "headword": "{通信販売|つうしんはんばい}",
+      "label": "mail-order sales"
+    },
+    {
+      "type": "related",
+      "target_id": "17464_tsuuhan",
+      "reading": "つうはん",
+      "headword": "{通販|つうはん}",
+      "label": "mail order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29757_nettoshoppingu",
+      "reading": "ねっとしょっぴんぐ",
+      "headword": "ネットショッピング",
+      "label": "online shopping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23235_denshishoutorihiki",
+      "reading": "でんししょうとりひき",
+      "headword": "{電子商取引|でんししょうとりひき}",
+      "label": "electronic commerce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26167_onraintorihiki",
+      "reading": "おんらいんとりひき",
+      "headword": "オンライン{取引|とりひき}",
+      "label": "online transaction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30464_onrainshoppingu",
+      "reading": "おんらいんしょっぴんぐ",
+      "headword": "オンラインショッピング",
+      "label": "online shopping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "technology",
@@ -59,6 +104,6 @@
       ]
     },
     "created": "2026-04-07T18:23:41Z",
-    "modified": "2026-04-07T18:23:41Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17261_suriheru_ex1",
-      "japanese": "タイヤが{擦|す}り{減|へ}っている。",
+      "japanese": "⟦タイヤ→タイヤ：06330_taiya⟧⟦が→が：00051_ga⟧{擦|す}り{減|へ}って⟦いる→いる：00495_iru⟧。",
       "english": "The tires are worn down.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17261_suriheru_ex2",
-      "japanese": "{靴底|くつぞこ}が{擦|す}り{減|へ}って{滑|すべ}りやすくなった。",
+      "japanese": "⟦{靴底|くつぞこ}→靴底：15486_kutsuzoko⟧⟦が→が：00051_ga⟧{擦|す}り{減|へ}って⟦{滑|すべ}りやすく→滑りやすい：27611_suberiyasui⟧⟦なった→なる：01970_naru⟧。",
       "english": "The soles of my shoes have worn down and become slippery.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17261_suriheru_ex3",
-      "japanese": "{毎日|まいにち}のクレーム{対応|たいおう}で{神経|しんけい}が{擦|す}り{減|へ}る。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧⟦クレーム→クレーム：27399_kureemu⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦で→で：00502_de⟧⟦{神経|しんけい}→神経：03257_shinkei⟧⟦が→が：00051_ga⟧{擦|す}り{減|へ}る。",
       "english": "Dealing with complaints every day wears my nerves down.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: Xが{擦|す}り{減|へ}る.\nTransitive pair: {擦|す}り{減|へ}らす (to wear something down)\n\nWORD FORMATION:\n{擦|す}る (to rub) + {減|へ}る (to decrease) = to decrease through rubbing\n\nASPECT (ている):\n{擦|す}り{減|へ}っている indicates a resulting state of being worn down.\n\nCOMMON COLLOCATIONS:\n- タイヤが{擦|す}り{減|へ}る: tires wear down\n- {靴底|くつぞこ}が{擦|す}り{減|へ}る: shoe soles wear away\n- {神経|しんけい}が{擦|す}り{減|へ}る: nerves get frayed\n- {歯|は}が{擦|す}り{減|へ}る: teeth get worn down",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦が→が：00051_ga⟧{擦|す}り{減|へ}る.\nTransitive pair: {擦|す}り{減|へ}らす (to wear something down)\n\nFORMS:\n{擦|す}る (to rub) + ⟦{減|へ}る→減る：01985_heru⟧ (to decrease) = to decrease through rubbing\n\nASPECT (ている):\n{擦|す}り{減|へ}って⟦いる→いる：00495_iru⟧ indicates a resulting state of being worn down.\n\nCOMMON COLLOCATIONS:\n- ⟦タイヤ→タイヤ：06330_taiya⟧⟦が→が：00051_ga⟧{擦|す}り{減|へ}る: tires wear down\n- ⟦{靴底|くつぞこ}→靴底：15486_kutsuzoko⟧⟦が→が：00051_ga⟧{擦|す}り{減|へ}る: shoe soles wear away\n- ⟦{神経|しんけい}→神経：03257_shinkei⟧⟦が→が：00051_ga⟧{擦|す}り{減|へ}る: nerves get frayed\n- ⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧{擦|す}り{減|へ}る: teeth get worn down",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20300_tsukaifurusu",
+      "reading": "つかいふるす",
+      "headword": "{使|つか}い{古|ふる}す",
+      "label": "to wear out through use"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T02:20:50Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

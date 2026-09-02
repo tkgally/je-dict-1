@@ -15,41 +15,96 @@
   "examples": [
     {
       "id": "28819_tabesugi_ex1",
-      "japanese": "{食|た}べ{過|す}ぎでお{腹|なか}が{痛|いた}い。",
+      "japanese": "{食|た}べ{過|す}ぎで⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "My stomach hurts from overeating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28819_tabesugi_ex2",
-      "japanese": "{食|た}べ{過|す}ぎに{注意|ちゅうい}してください。",
+      "japanese": "{食|た}べ{過|す}ぎ⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful not to overeat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28819_tabesugi_ex3",
-      "japanese": "{年末年始|ねんまつねんし}は{食|た}べ{過|す}ぎと{飲|の}み{過|す}ぎで{体重|たいじゅう}が{増|ふ}えてしまった。",
+      "japanese": "⟦{年末年始|ねんまつねんし}→年末年始：12457_nenmatsunenshi⟧⟦は→は：00079_ha⟧{食|た}べ{過|す}ぎ⟦と→と：00512_to⟧⟦{飲|の}み→飲む：00322_nomu⟧⟦{過|す}ぎ→過ぎる：01219_sugiru⟧で⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧しまった。",
       "english": "Over the New Year holidays, I gained weight from overeating and drinking too much.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Noun form of {食|た}べ{過|す}ぎる (to overeat), formed with the ます-stem + {過|す}ぎ. The same pattern works with many other verbs.\n\nCOMMON COLLOCATIONS:\n- {食|た}べ{過|す}ぎに{注意|ちゅうい}する: to watch out for overeating\n- {食|た}べ{過|す}ぎで{太|ふと}る: to put on weight from overeating\n- {食|た}べ{過|す}ぎと{飲|の}み{過|す}ぎ: overeating and overdrinking\n\nSIMILAR PATTERN:\n- {飲|の}み{過|す}ぎ: drinking too much\n- {寝|ね}{過|す}ぎ: oversleeping\n- {使|つか}い{過|す}ぎ: overuse\n- {働|はたら}き{過|す}ぎ: overwork",
+  "notes": "Noun form of {食|た}べ{過|す}ぎる (to overeat), formed with the ます-stem + {過|す}ぎ. The same pattern works with many other verbs.\n\nCOMMON COLLOCATIONS:\n- {食|た}べ{過|す}ぎ⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧: to watch out for overeating\n- {食|た}べ{過|す}ぎで⟦{太|ふと}る→太る：01190_futoru⟧: to put on weight from overeating\n- {食|た}べ{過|す}ぎ⟦と→と：00512_to⟧⟦{飲|の}み→飲む：00322_nomu⟧⟦{過|す}ぎ→過ぎる：01219_sugiru⟧: overeating and overdrinking\n\nSIMILAR PATTERN:\n- ⟦{飲|の}み→飲む：00322_nomu⟧⟦{過|す}ぎ→過ぎる：01219_sugiru⟧: drinking too much\n- ⟦{寝|ね}→寝る：00470_neru⟧{過|す}ぎ: oversleeping\n- ⟦{使|つか}い→使う：00473_tsukau⟧{過|す}ぎ: overuse\n- ⟦{働|はたら}き{過|す}ぎ→働き過ぎ：28202_hatarakisugi⟧: overwork",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06533_manpuku",
+      "reading": "まんぷく",
+      "headword": "{満腹|まんぷく}",
+      "label": "full stomach, satiety"
+    },
+    {
+      "type": "related",
+      "target_id": "08061_bouinboushoku",
+      "reading": "ぼういんぼうしょく",
+      "headword": "{暴飲暴食|ぼういんぼうしょく}",
+      "label": "binge eating and drinking"
+    },
+    {
+      "type": "related",
+      "target_id": "08318_harahachibunme",
+      "reading": "はらはちぶんめ",
+      "headword": "{腹八分目|はらはちぶんめ}",
+      "label": "eating in moderation"
+    },
+    {
+      "type": "related",
+      "target_id": "08480_shoushoku",
+      "reading": "しょうしょく",
+      "headword": "{少食|しょうしょく}",
+      "label": "light eater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19288_kashoku",
+      "reading": "かしょく",
+      "headword": "{過食|かしょく}",
+      "label": "overeating"
+    },
+    {
+      "type": "related",
+      "target_id": "28202_hatarakisugi",
+      "reading": "はたらきすぎ",
+      "headword": "{働|はたら}き{過|す}ぎ",
+      "label": "overwork"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "health"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

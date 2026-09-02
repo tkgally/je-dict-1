@@ -3,7 +3,7 @@
   "headword": "{涼|すず}しげ",
   "reading": "すずしげ",
   "romaji": "suzushige",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "cool-looking; refreshing in appearance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28253_suzushige_ex1",
-      "japanese": "{涼|すず}しげな{音|おと}がする。",
+      "japanese": "{涼|すず}しげな⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "It makes a sound that feels cool and refreshing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28253_suzushige_ex2",
-      "japanese": "{彼女|かのじょ}は{涼|すず}しげな{浴衣|ゆかた}を{着|き}ていた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{涼|すず}しげな⟦{浴衣|ゆかた}→浴衣：04081_yukata⟧⟦を→を：00422_wo⟧⟦{着|き}ていた→着る：00541_kiru⟧。",
       "english": "She was wearing a cool-looking yukata.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28253_suzushige_ex3",
-      "japanese": "{窓辺|まどべ}の{風鈴|ふうりん}が{涼|すず}しげな{音色|ねいろ}を{響|ひび}かせている。",
+      "japanese": "⟦{窓辺|まどべ}→窓辺：20444_madobe⟧⟦の→の：09472_no⟧⟦{風鈴|ふうりん}→風鈴：09929_fuurin⟧⟦が→が：00051_ga⟧{涼|すず}しげな⟦{音色|ねいろ}→音色：07422_neiro⟧⟦を→を：00422_wo⟧⟦{響|ひび}かせている→響く：00099_hibiku⟧。",
       "english": "The wind chime by the window is giving off a refreshing, cool tone.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {涼|すず}しい (cool) + the suffix げ ('appearing, seeming'). It describes the impression of coolness given to a viewer or listener, not the actual temperature.\n\nCONJUGATION:\n- Negative: {涼|すず}しげではない\n- Te-form: {涼|すず}しげで\n- Past: {涼|すず}しげだった\n\nCOMMON COLLOCATIONS:\n- {涼|すず}しげな{音|おと}: a cool, refreshing sound\n- {涼|すず}しげな{装|よそお}い: a cool-looking outfit\n- {涼|すず}しげな{目元|めもと}: cool, clear-looking eyes\n\nSIMILAR WORDS:\n- {涼|すず}しい: cool — states actual coolness; {涼|すず}しげ is only about appearance.",
+  "notes": "Formed from ⟦{涼|すず}しい→涼しい：00674_suzushii⟧ (cool) + the suffix げ ('appearing, seeming'). It describes the impression of coolness given to a viewer or listener, not the actual temperature.\n\nCONJUGATION:\n- Negative: {涼|すず}しげで⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧\n- Te-form: {涼|すず}しげで\n- Past: {涼|すず}しげだった\n\nCOMMON COLLOCATIONS:\n- {涼|すず}しげな⟦{音|おと}→音：00743_oto⟧: a cool, refreshing sound\n- {涼|すず}しげな⟦{装|よそお}い→装い：14044_yosooi⟧: a cool-looking outfit\n- {涼|すず}しげな⟦{目元|めもと}→目元：23407_memoto⟧: cool, clear-looking eyes\n\nSIMILAR WORDS:\n- ⟦{涼|すず}しい→涼しい：00674_suzushii⟧: cool — states actual coolness; {涼|すず}しげ is only about appearance.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00674_suzushii",
+      "reading": "すずしい",
+      "headword": "{涼|すず}しい",
+      "label": "cool"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-05-28T02:09:06Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

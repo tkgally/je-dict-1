@@ -3,7 +3,7 @@
   "id": "11575_suruu",
   "headword": "スルー",
   "reading": "するー",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ignore, let pass, overlook",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11575_suruu_ex1",
-      "japanese": "そのメッセージはスルーした。",
+      "japanese": "⟦その→その：00993_sono⟧⟦メッセージ→メッセージ：03828_messeeji⟧⟦は→は：00079_ha⟧スルー⟦した→する：00392_suru⟧。",
       "english": "I ignored that message.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11575_suruu_ex2",
-      "japanese": "{彼|かれ}の{冗談|じょうだん}をスルーするのが{一番|いちばん}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦を→を：00422_wo⟧スルー⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧だ。",
       "english": "It's best to just ignore his jokes.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11575_suruu_ex3",
-      "japanese": "LINEのメッセージを{既読|きどく}スルーされると、ちょっと{悲|かな}しくなる。",
+      "japanese": "LINE⟦の→の：09472_no⟧⟦メッセージ→メッセージ：03828_messeeji⟧⟦を→を：00422_wo⟧{既読|きどく}スルー⟦される→する：00392_suru⟧⟦と→と：00512_to⟧、⟦ちょっと→ちょっと：00595_chotto⟧⟦{悲|かな}しく→悲しい：00783_kanashii⟧⟦なる→なる：01970_naru⟧。",
       "english": "It makes me a little sad when someone reads my LINE message but ignores it.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nスルーする is a wasei-eigo (Japanese-coined English) usage. In English, 'through' does not mean 'to ignore,' but in Japanese, スルーする specifically means to deliberately ignore something or let it pass without reacting.\n\nCOMMON COLLOCATIONS:\n- スルーする: to ignore, to let pass\n- {既読|きどく}スルー: reading a message but not replying (especially on LINE)\n- {完全|かんぜん}スルー: completely ignoring someone/something\n- スルースキル: the ability to ignore provocation or negativity\n\nREGISTER:\nInformal and widely used in everyday conversation and online communication. Not appropriate for formal writing or business contexts.",
+  "notes": "USAGE:\nスルー⟦する→する：00392_suru⟧ is a wasei-eigo (Japanese-coined English) usage. In English, 'through' does not mean 'to ignore,' but in Japanese, スルー⟦する→する：00392_suru⟧ specifically means to deliberately ignore something or let it pass without reacting.\n\nCOMMON COLLOCATIONS:\n- スルー⟦する→する：00392_suru⟧: to ignore, to let pass\n- {既読|きどく}スルー: reading a message but not replying (especially on LINE)\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧スルー: completely ignoring someone/something\n- スルー⟦スキル→スキル：08815_sukiru⟧: the ability to ignore provocation or negativity\n\nREGISTER:\nInformal and widely used in everyday conversation and online communication. Not appropriate for formal writing or business contexts.",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-17T13:39:04Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22839_kigaau_ex1",
-      "japanese": "あの{二人|ふたり}は{気|き}が{合|あ}う。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{気|き}が{合|あ}う。",
       "english": "Those two get along well.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22839_kigaau_ex2",
-      "japanese": "{初|はじ}めて{会|あ}ったのに、すぐ{気|き}が{合|あ}った。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{会|あ}った→会う：00482_au⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦すぐ→すぐ：00814_sugu⟧{気|き}が{合|あ}った。",
       "english": "Even though we met for the first time, we hit it off right away.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22839_kigaau_ex3",
-      "japanese": "{趣味|しゅみ}が{同|おな}じだから、{彼|かれ}とは{気|き}が{合|あ}うのかもしれない。",
+      "japanese": "⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦が→が：00051_ga⟧⟦{同|おな}じ→同じ：02857_onaji⟧だ⟦から→から：00504_kara⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{気|き}が{合|あ}う⟦の→の：09472_no⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Maybe I get along with him because we have the same hobbies.",
       "sense_numbers": [
         1
@@ -44,19 +44,50 @@
       "notes": null
     }
   ],
-  "notes": "An idiomatic expression using {気|き} (spirit, feeling, temperament) and {合|あ}う (to match, to fit). Describes a natural compatibility between people — a sense that personalities, interests, or values align well.\n\nCOMMON PATTERNS:\n- {人|ひと}と{気|き}が{合|あ}う: to get along with someone\n- {気|き}が{合|あ}う{仲間|なかま}: like-minded companions\n- {気|き}が{合|あ}う{友達|ともだち}: a friend you click with\n\nSIMILAR EXPRESSIONS:\n- {馬|うま}が{合|あ}う: to hit it off — similar meaning but slightly more casual; literally \"the horses match\"\n- {相性|あいしょう}がいい: to be compatible — broader, also used for romantic compatibility and object compatibility\n- {気|き}が{合|あ}わない: to not get along — the negative form, used when personalities clash\n\nUSAGE:\nTypically used with the particle と to indicate the person one gets along with. The subject is often implied rather than stated explicitly.",
+  "notes": "An idiomatic expression using ⟦{気|き}→気：02199_ki⟧ (spirit, feeling, temperament) and ⟦{合|あ}う→合う：10466_au⟧ (to match, to fit). Describes a natural compatibility between people — a sense that personalities, interests, or values align well.\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧{気|き}が{合|あ}う: to get along with someone\n- {気|き}が{合|あ}う⟦{仲間|なかま}→仲間：03498_nakama⟧: like-minded companions\n- {気|き}が{合|あ}う⟦{友達|ともだち}→友達：01478_tomodachi⟧: a friend you click with\n\nSIMILAR WORDS:\n- ⟦{馬|うま}→馬：01865_uma⟧⟦が→が：00051_ga⟧⟦{合|あ}う→合う：10466_au⟧: to hit it off — similar meaning but slightly more casual; literally \"the horses match\"\n- ⟦{相性|あいしょう}がいい→相性がいい：22113_aishougaii⟧: to be compatible — broader, also used for romantic compatibility and object compatibility\n- {気|き}が{合|あ}わない: to not get along — the negative form, used when personalities clash\n\nUSAGE:\nTypically used with the particle ⟦と→と：00512_to⟧ to indicate the person one gets along with. The subject is often implied rather than stated explicitly.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22113_aishougaii",
+      "reading": "あいしょうがいい",
+      "headword": "{相性|あいしょう}がいい",
+      "label": "to be compatible"
+    },
+    {
+      "type": "related",
+      "target_id": "06392_ikitougou",
+      "reading": "いきとうごう",
+      "headword": "{意気投合|いきとうごう}",
+      "label": "to hit it off, to get along instantly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20668_nakagayoi",
+      "reading": "なかがよい",
+      "headword": "{仲|なか}が{良|よ}い",
+      "label": "to be on good terms"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27087_hachou",
+      "reading": "はちょう",
+      "headword": "{波長|はちょう}",
+      "label": "wavelength"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ]
     },
     "created": "2026-04-07T18:20:18Z",
-    "modified": "2026-07-30T15:59:35Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

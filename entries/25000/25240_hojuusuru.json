@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25240_hojuusuru_ex1",
-      "japanese": "{在庫|ざいこ}を{補充|ほじゅう}する。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦を→を：00422_wo⟧{補充|ほじゅう}する。",
       "english": "I restock the inventory.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25240_hojuusuru_ex2",
-      "japanese": "{自動販売機|じどうはんばいき}の{飲|の}み{物|もの}を{補充|ほじゅう}した。",
+      "japanese": "⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧⟦の→の：09472_no⟧⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦を→を：00422_wo⟧{補充|ほじゅう}した。",
       "english": "I restocked the drinks in the vending machine.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25240_hojuusuru_ex3",
-      "japanese": "{体|からだ}に{必要|ひつよう}な{水分|すいぶん}をこまめに{補充|ほじゅう}してください。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{水分|すいぶん}→水分：04302_suibun⟧⟦を→を：00422_wo⟧⟦こまめ→こまめ：10325_komame⟧⟦に→に：00314_ni⟧{補充|ほじゅう}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please replenish the fluids your body needs at regular intervals.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25240_hojuusuru_ex4",
-      "japanese": "{退職者|たいしょくしゃ}の{分|ぶん}の{人員|じんいん}を{補充|ほじゅう}する{必要|ひつよう}がある。",
+      "japanese": "{退職者|たいしょくしゃ}⟦の→の：09472_no⟧⟦{分|ぶん}→分：26216_bun⟧⟦の→の：09472_no⟧⟦{人員|じんいん}→人員：17843_jinin⟧⟦を→を：00422_wo⟧{補充|ほじゅう}する⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to fill the positions left by employees who resigned.",
       "sense_numbers": [
         1
@@ -54,21 +54,61 @@
       "notes": null
     }
   ],
-  "notes": "Refers to adding to something that has been depleted or is insufficient to bring it back to the required level. Used for physical supplies (stock, fluids, fuel) as well as abstract resources (personnel, knowledge).\n\nCOMMON COLLOCATIONS:\n- {在庫|ざいこ}を{補充|ほじゅう}する: restock inventory\n- {人員|じんいん}を{補充|ほじゅう}する: fill personnel vacancies\n- {水分|すいぶん}を{補充|ほじゅう}する: replenish fluids\n- {補充|ほじゅう}{要員|よういん}: replacement personnel\n- {補充|ほじゅう}{品|ひん}: refill; replacement product\n\nSIMILAR WORDS:\n- {補給|ほきゅう}する: to supply; to resupply — often used in military or logistics contexts for supplying provisions, fuel, or ammunition\n- {補|おぎな}う: to make up for; to compensate — a broader term that covers compensating for a deficiency, not just restocking\n- {追加|ついか}する: to add — simply adding more of something, without the nuance of restoring a depleted supply",
+  "notes": "Refers to adding to something that has been depleted or is insufficient to bring it back to the required level. Used for physical supplies (stock, fluids, fuel) as well as abstract resources (personnel, knowledge).\n\nCOMMON COLLOCATIONS:\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦を→を：00422_wo⟧{補充|ほじゅう}する: restock inventory\n- ⟦{人員|じんいん}→人員：17843_jinin⟧⟦を→を：00422_wo⟧{補充|ほじゅう}する: fill personnel vacancies\n- ⟦{水分|すいぶん}→水分：04302_suibun⟧⟦を→を：00422_wo⟧{補充|ほじゅう}する: replenish fluids\n- ⟦{補充|ほじゅう}→補充：14037_hojuu⟧{要員|よういん}: replacement personnel\n- ⟦{補充|ほじゅう}→補充：14037_hojuu⟧⟦{品|ひん}→品：03712_hin⟧: refill; replacement product\n\nSIMILAR WORDS:\n- ⟦{補給|ほきゅう}→補給：14055_hokyuu⟧⟦する→する：00392_suru⟧: to supply; to resupply — often used in military or logistics contexts for supplying provisions, fuel, or ammunition\n- ⟦{補|おぎな}う→補う：00329_oginau⟧: to make up for; to compensate — a broader term that covers compensating for a deficiency, not just restocking\n- ⟦{追加|ついか}する→追加する：19646_tsuikasuru⟧: to add — simply adding more of something, without the nuance of restoring a depleted supply",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14055_hokyuu",
+      "reading": "ほきゅう",
+      "headword": "{補給|ほきゅう}",
+      "label": "to supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00329_oginau",
+      "reading": "おぎなう",
+      "headword": "{補|おぎな}う",
+      "label": "to make up for"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19646_tsuikasuru",
+      "reading": "ついかする",
+      "headword": "{追加|ついか}する",
+      "label": "to add"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21792_tsugitasu",
+      "reading": "つぎたす",
+      "headword": "{注|つ}ぎ{足|た}す",
+      "label": "to top up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30283_kaitasu",
+      "reading": "かいたす",
+      "headword": "{買|か}い{足|た}す",
+      "label": "to buy more of"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T11:30:57Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

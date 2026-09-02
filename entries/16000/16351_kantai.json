@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16351_kantai_ex1",
-      "japanese": "{心|こころ}からの{歓待|かんたい}を{受|う}けた。",
+      "japanese": "⟦{心|こころ}→心：01321_kokoro⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{歓待|かんたい}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "We received a heartfelt welcome.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16351_kantai_ex2",
-      "japanese": "{地元|じもと}の{人々|ひとびと}の{歓待|かんたい}に{感動|かんどう}した。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦の→の：09472_no⟧{歓待|かんたい}⟦に→に：00314_ni⟧⟦{感動|かんどう}した→感動する：21603_kandousuru⟧。",
       "english": "I was moved by the hospitality of the local people.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16351_kantai_ex3",
-      "japanese": "{大統領|だいとうりょう}は{国賓|こくひん}を{盛大|せいだい}に{歓待|かんたい}し、{晩餐会|ばんさんかい}を{開|ひら}いた。",
+      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦は→は：00079_ha⟧⟦{国賓|こくひん}→国賓：12137_kokuhin⟧⟦を→を：00422_wo⟧⟦{盛大|せいだい}→盛大：13644_seidai⟧⟦に→に：00314_ni⟧{歓待|かんたい}し、⟦{晩餐会|ばんさんかい}→晩餐会：13094_bansankai⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "The president gave the state guest a grand reception and held a banquet.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{歓待|かんたい} is a formal word for hospitality, composed of {歓|かん} (joy, delight) and {待|たい} (to treat, to entertain). It can also be used as a する verb.\n\nCOMMON COLLOCATIONS:\n- {歓待|かんたい}を{受|う}ける (to receive a warm welcome)\n- {歓待|かんたい}する (to entertain warmly)\n- {盛大|せいだい}な{歓待|かんたい} (a grand reception)\n\nSIMILAR WORDS:\n- もてなし: hospitality — more everyday and versatile, often used for customer service\n- {接待|せったい}: entertaining (business) — often implies wining and dining for business purposes\n- {厚遇|こうぐう}: generous treatment — broader, not limited to welcoming guests",
+  "notes": "{歓待|かんたい} is a formal word for hospitality, composed of {歓|かん} (joy, delight) and {待|たい} (to treat, to entertain). It can also be used as a ⟦する→する：00392_suru⟧ verb.\n\nCOMMON COLLOCATIONS:\n- {歓待|かんたい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a warm welcome)\n- {歓待|かんたい}⟦する→する：00392_suru⟧ (to entertain warmly)\n- ⟦{盛大|せいだい}→盛大：13644_seidai⟧な{歓待|かんたい} (a grand reception)\n\nSIMILAR WORDS:\n- ⟦もてなし→もてなし：27261_motenashi⟧: hospitality — more everyday and versatile, often used for customer service\n- ⟦{接待|せったい}→接待：12903_settai⟧: entertaining (business) — often implies wining and dining for business purposes\n- {厚遇|こうぐう}: generous treatment — broader, not limited to welcoming guests",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "かんげい",
       "headword": "{歓迎|かんげい}",
       "label": "welcome, broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27261_motenashi",
+      "reading": "もてなし",
+      "headword": "もてなし",
+      "label": "hospitality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12903_settai",
+      "reading": "せったい",
+      "headword": "{接待|せったい}",
+      "label": "entertaining"
     }
   ],
   "metadata": {
     "created": "2026-03-12T02:28:40Z",
-    "modified": "2026-05-03T09:07:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

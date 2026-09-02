@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "16766_koukyouryoukin_ex1",
-      "japanese": "{公共料金|こうきょうりょうきん}が{値上|ねあ}がりした。",
+      "japanese": "{公共料金|こうきょうりょうきん}⟦が→が：00051_ga⟧⟦{値上|ねあ}がり→値上がり：11538_neagari⟧⟦した→する：00392_suru⟧。",
       "english": "Utility charges went up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16766_koukyouryoukin_ex2",
-      "japanese": "{公共料金|こうきょうりょうきん}は{口座振替|こうざふりかえ}で{払|はら}っている。",
+      "japanese": "{公共料金|こうきょうりょうきん}⟦は→は：00079_ha⟧⟦{口座振替|こうざふりかえ}→口座振替：19853_kouzafurikae⟧⟦で→で：00502_de⟧⟦{払|はら}っている→払う：00535_harau⟧。",
       "english": "I pay my utility bills by automatic bank transfer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16766_koukyouryoukin_ex3",
-      "japanese": "{一人暮|ひとりぐ}らしを{始|はじ}めたら、{公共料金|こうきょうりょうきん}の{支払|しはら}いも{自分|じぶん}で{管理|かんり}しなければならない。",
+      "japanese": "⟦{一人暮|ひとりぐ}らし→一人暮らし：03142_hitorigurashi⟧⟦を→を：00422_wo⟧⟦{始|はじ}めたら→始める：00531_hajimeru⟧、{公共料金|こうきょうりょうきん}⟦の→の：09472_no⟧{支払|しはら}い⟦も→も：00484_mo⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦{管理|かんり}→管理：00178_kanri⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "When you start living alone, you have to manage paying utility bills yourself.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WHAT'S INCLUDED:\n{公共料金|こうきょうりょうきん} typically covers {電気|でんき}{代|だい} (electricity), ガス{代|だい} (gas), {水道|すいどう}{代|だい} (water), and sometimes {電話|でんわ}{代|だい} (phone) and {NHK受信料|えぬえいちけいじゅしんりょう} (NHK fees).\n\nCOMMON COLLOCATIONS:\n- {公共料金|こうきょうりょうきん}を{払|はら}う (to pay utility bills)\n- {公共料金|こうきょうりょうきん}の{値上|ねあ}げ (utility rate increase)\n- {公共料金|こうきょうりょうきん}の{支払|しはら}い (utility bill payment)\n- {公共料金|こうきょうりょうきん}の{引|ひ}き{落|お}とし (automatic debit for utilities)",
-  "cross_references": [],
+  "notes": "WHAT'S INCLUDED:\n{公共料金|こうきょうりょうきん} typically covers ⟦{電気|でんき}{代|だい}→電気代：09543_denkidai⟧ (electricity), ⟦ガス{代|だい}→ガス代：08943_gasudai⟧ (gas), ⟦{水道|すいどう}{代|だい}→水道代：09544_suidoudai⟧ (water), and sometimes ⟦{電話|でんわ}{代|だい}→電話代：11336_denwadai⟧ (phone) and {NHK受信料|えぬえいちけいじゅしんりょう} (NHK fees).\n\nCOMMON COLLOCATIONS:\n- {公共料金|こうきょうりょうきん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay utility bills)\n- {公共料金|こうきょうりょうきん}⟦の→の：09472_no⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧ (utility rate increase)\n- {公共料金|こうきょうりょうきん}⟦の→の：09472_no⟧{支払|しはら}い (utility bill payment)\n- {公共料金|こうきょうりょうきん}⟦の→の：09472_no⟧{引|ひ}き{落|お}とし (automatic debit for utilities)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08244_kounetsuhi",
+      "reading": "こうねつひ",
+      "headword": "{光熱費|こうねつひ}",
+      "label": "utility costs"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-03-14T06:28:39Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "daily-life"]
+      "semantic": [
+        "money",
+        "daily-life"
+      ]
     }
   }
 }

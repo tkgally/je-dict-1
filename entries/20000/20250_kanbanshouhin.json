@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20250_kanbanshouhin_ex1",
-      "japanese": "この{店|みせ}の{看板商品|かんばんしょうひん}はカレーパンだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{看板商品|かんばんしょうひん}⟦は→は：00079_ha⟧⟦カレー→カレー：02898_karee⟧⟦パン→パン：00553_pan⟧だ。",
       "english": "This shop's signature product is their curry bread.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20250_kanbanshouhin_ex2",
-      "japanese": "{看板商品|かんばんしょうひん}の{売|う}り{上|あ}げが{落|お}ちてきている。",
+      "japanese": "{看板商品|かんばんしょうひん}⟦の→の：09472_no⟧{売|う}り{上|あ}げ⟦が→が：00051_ga⟧⟦{落|お}ちて→落ちる：01242_ochiru⟧きて⟦いる→いる：00495_iru⟧。",
       "english": "Sales of our flagship product have been declining.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20250_kanbanshouhin_ex3",
-      "japanese": "{老舗|しにせ}の{和菓子屋|わがしや}が{看板商品|かんばんしょうひん}の{大福|だいふく}をリニューアルして、{若|わか}い{世代|せだい}にも{人気|にんき}が{出|で}てきた。",
+      "japanese": "⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦の→の：09472_no⟧{和菓子屋|わがしや}⟦が→が：00051_ga⟧{看板商品|かんばんしょうひん}⟦の→の：09472_no⟧⟦{大福|だいふく}→大福：12173_daifuku⟧⟦を→を：00422_wo⟧リニューアル⟦して→する：00392_suru⟧、{若|わか}い⟦{世代|せだい}→世代：05102_sedai⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧きた。",
       "english": "A long-established Japanese sweets shop revamped their signature daifuku, and it has become popular with younger generations too.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {看板|かんばん} (signboard, figuratively \"face\" or \"brand identity\") + {商品|しょうひん} (product). The word uses {看板|かんばん} metaphorically — just as a signboard represents a shop, the {看板商品|かんばんしょうひん} is the product that represents the business.\n\nCOMMON COLLOCATIONS:\n- {看板商品|かんばんしょうひん}を{開発|かいはつ}する: to develop a flagship product\n- {看板商品|かんばんしょうひん}を{売|う}り{出|だ}す: to launch a signature product\n- {店|みせ}の{看板商品|かんばんしょうひん}: a shop's signature item\n\nRELATED EXPRESSIONS:\n- {看板|かんばん}メニュー: signature menu item (for restaurants)\n- {看板|かんばん}{娘|むすめ}: the \"face\" of a shop — an attractive employee who draws customers\n\nSIMILAR WORDS:\n- {目玉商品|めだましょうひん}: featured product, loss leader — a product offered at a special price to attract customers\n- {主力商品|しゅりょくしょうひん}: main product — the product generating the most revenue\n- {名物|めいぶつ}: local specialty, famous product — a product a region is known for",
+  "notes": "Composed of ⟦{看板|かんばん}→看板：00166_kanban⟧ (signboard, figuratively \"face\" or \"brand identity\") + ⟦{商品|しょうひん}→商品：01436_shouhin⟧ (product). The word uses ⟦{看板|かんばん}→看板：00166_kanban⟧ metaphorically — just as a signboard represents a shop, the {看板商品|かんばんしょうひん} is the product that represents the business.\n\nCOMMON COLLOCATIONS:\n- {看板商品|かんばんしょうひん}⟦を→を：00422_wo⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦する→する：00392_suru⟧: to develop a flagship product\n- {看板商品|かんばんしょうひん}⟦を→を：00422_wo⟧⟦{売|う}り{出|だ}す→売り出す：06039_uridasu⟧: to launch a signature product\n- ⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{看板商品|かんばんしょうひん}: a shop's signature item\n\nRELATED WORDS:\n- ⟦{看板|かんばん}メニュー→看板メニュー：17381_kanbanmenyuu⟧: signature menu item (for restaurants)\n- ⟦{看板|かんばん}{娘|むすめ}→看板娘：13826_kanbanmusume⟧: the \"face\" of a shop — an attractive employee who draws customers\n\nSIMILAR WORDS:\n- ⟦{目玉商品|めだましょうひん}→目玉商品：08064_medamashouhin⟧: featured product, loss leader — a product offered at a special price to attract customers\n- ⟦{主力商品|しゅりょくしょうひん}→主力商品：23266_shuryokushouhin⟧: main product — the product generating the most revenue\n- ⟦{名物|めいぶつ}→名物：05591_meibutsu⟧: local specialty, famous product — a product a region is known for",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17381_kanbanmenyuu",
+      "reading": "かんばんめにゅー",
+      "headword": "{看板|かんばん}メニュー",
+      "label": "signature menu item"
+    },
+    {
+      "type": "related",
+      "target_id": "13826_kanbanmusume",
+      "reading": "かんばんむすめ",
+      "headword": "{看板娘|かんばんむすめ}",
+      "label": "the \"face\" of a shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08064_medamashouhin",
+      "reading": "めだましょうひん",
+      "headword": "{目玉商品|めだましょうひん}",
+      "label": "featured product, loss leader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23266_shuryokushouhin",
+      "reading": "しゅりょくしょうひん",
+      "headword": "{主力商品|しゅりょくしょうひん}",
+      "label": "main product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05591_meibutsu",
+      "reading": "めいぶつ",
+      "headword": "{名物|めいぶつ}",
+      "label": "local specialty, famous product"
+    },
+    {
+      "type": "related",
+      "target_id": "22960_kanbanten",
+      "reading": "かんばんてん",
+      "headword": "{看板店|かんばんてん}",
+      "label": "flagship store"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +104,6 @@
       ]
     },
     "created": "2026-03-28T18:10:10Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

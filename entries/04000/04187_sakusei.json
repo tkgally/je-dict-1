@@ -2,7 +2,7 @@
   "id": "04187_sakusei",
   "headword": "{作製|さくせい}",
   "reading": "さくせい",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "manufacture, production",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04187_sakusei_ex1",
-      "japanese": "⟦この→この：00962_kono⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦は→は：00079_ha⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧⟦に→に：00314_ni⟧{作製|さくせい}された⟦もの→もの：02259_mono⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦は→は：00079_ha⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧⟦に→に：00314_ni⟧{作製|さくせい}⟦された→する：00392_suru⟧⟦もの→もの：02259_mono⟧⟦だ→だ：09496_da⟧。",
       "english": "This part was specially manufactured.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04187_sakusei_ex2",
-      "japanese": "⟦{試作品|しさくひん}→試作品：22445_shisakuhin⟧⟦を→を：00422_wo⟧{作製|さくせい}した。",
+      "japanese": "⟦{試作品|しさくひん}→試作品：22445_shisakuhin⟧⟦を→を：00422_wo⟧{作製|さくせい}⟦した→する：00392_suru⟧。",
       "english": "I made a prototype.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04187_sakusei_ex3",
-      "japanese": "⟦{機械|きかい}→機械：02366_kikai⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{精密|せいみつ}→精密：13775_seimitsu⟧な⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧{作製|さくせい}する。",
+      "japanese": "⟦{機械|きかい}→機械：02366_kikai⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{精密|せいみつ}→精密：13775_seimitsu⟧な⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧{作製|さくせい}⟦する→する：00392_suru⟧。",
       "english": "We manufacture precise parts using machines.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "HOMOPHONE DISTINCTION:\n・{作製|さくせい} - manufacturing physical objects ({製|せい} = manufacture)\n・⟦{作成|さくせい}→作成：04186_sakusei⟧ - creating documents, plans, software ({成|せい} = complete)\n\nThe key is the second kanji: {製|せい} implies physical manufacturing, while {成|せい} implies completion or formation.\n\nCOMMON COLLOCATIONS:\n・⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧{作製|さくせい}⟦する→する：00392_suru⟧ (to manufacture parts)\n・⟦{試作品|しさくひん}→試作品：22445_shisakuhin⟧⟦を→を：00422_wo⟧{作製|さくせい}⟦する→する：00392_suru⟧ (to make a prototype)\n・⟦{装置|そうち}→装置：03318_souchi⟧⟦を→を：00422_wo⟧{作製|さくせい}⟦する→する：00392_suru⟧ (to fabricate a device)",
+  "notes": "HOMOPHONE DISTINCTION:\n- {作製|さくせい} - manufacturing physical objects (⟦{製|せい}→〜製：02001_sei⟧ = manufacture)\n- ⟦{作成|さくせい}→作成：04186_sakusei⟧ - creating documents, plans, software ({成|せい} = complete)\n\nThe key is the second kanji: ⟦{製|せい}→〜製：02001_sei⟧ implies physical manufacturing, while {成|せい} implies completion or formation.\n\nCOMMON COLLOCATIONS:\n- ⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧{作製|さくせい}⟦する→する：00392_suru⟧ (to manufacture parts)\n- ⟦{試作品|しさくひん}→試作品：22445_shisakuhin⟧⟦を→を：00422_wo⟧{作製|さくせい}⟦する→する：00392_suru⟧ (to make a prototype)\n- ⟦{装置|そうち}→装置：03318_souchi⟧⟦を→を：00422_wo⟧{作製|さくせい}⟦する→する：00392_suru⟧ (to fabricate a device)",
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +152,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

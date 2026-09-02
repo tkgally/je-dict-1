@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14835_rentaisekinin_ex1",
-      "japanese": "チーム{全体|ぜんたい}の{連帯責任|れんたいせきにん}だ。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧{連帯責任|れんたいせきにん}だ。",
       "english": "It's the collective responsibility of the whole team.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14835_rentaisekinin_ex2",
-      "japanese": "{一人|ひとり}のミスで{部署|ぶしょ}{全員|ぜんいん}が{連帯責任|れんたいせきにん}を{取|と}らされた。",
+      "japanese": "⟦{一人|ひとり}→一人：00630_hitori⟧⟦の→の：09472_no⟧⟦ミス→ミス：00285_misu⟧⟦で→で：00502_de⟧⟦{部署|ぶしょ}→部署：08187_busho⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧{連帯責任|れんたいせきにん}⟦を→を：00422_wo⟧{取|と}らされた。",
       "english": "The entire department was held collectively responsible for one person's mistake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14835_rentaisekinin_ex3",
-      "japanese": "{学校|がっこう}で{一人|ひとり}が{悪|わる}いことをすると、クラス{全体|ぜんたい}が{連帯責任|れんたいせきにん}で{叱|しか}られることがある。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧こと⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦クラス→クラス：01084_kurasu⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧{連帯責任|れんたいせきにん}⟦で→で：00502_de⟧⟦{叱|しか}られる→叱る：01202_shikaru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "At school, when one person does something wrong, the whole class is sometimes scolded as a matter of collective responsibility.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {連帯|れんたい} (solidarity, joint) and {責任|せきにん} (responsibility). This concept is deeply embedded in Japanese group culture.\n\nCOMMON COLLOCATIONS:\n- {連帯責任|れんたいせきにん}を{取|と}る (to take collective responsibility)\n- {連帯責任|れんたいせきにん}を{負|お}う (to bear joint liability)\n- {連帯責任|れんたいせきにん}を{問|と}う (to hold collectively responsible)\n- {連帯責任|れんたいせきにん}を{取|と}らされる (to be made to take collective responsibility)\n\nIn legal contexts, {連帯|れんたい}{債務|さいむ} (joint and several obligation) is the formal equivalent. In everyday Japanese, the concept is frequently encountered in schools, sports teams, and workplaces, where a group may be punished for the actions of one member.",
-  "cross_references": [],
+  "notes": "A compound of ⟦{連帯|れんたい}→連帯：14425_rentai⟧ (solidarity, joint) and ⟦{責任|せきにん}→責任：03298_sekinin⟧ (responsibility). This concept is deeply embedded in Japanese group culture.\n\nCOMMON COLLOCATIONS:\n- {連帯責任|れんたいせきにん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take collective responsibility)\n- {連帯責任|れんたいせきにん}⟦を→を：00422_wo⟧⟦{負|お}う→負う：02017_ou⟧ (to bear joint liability)\n- {連帯責任|れんたいせきにん}⟦を→を：00422_wo⟧⟦{問|と}う→問う：02299_tou⟧ (to hold collectively responsible)\n- {連帯責任|れんたいせきにん}⟦を→を：00422_wo⟧{取|と}らされる (to be made to take collective responsibility)\n\nIn legal contexts, ⟦{連帯|れんたい}→連帯：14425_rentai⟧⟦{債務|さいむ}→債務：06578_saimu⟧ (joint and several obligation) is the formal equivalent. In everyday Japanese, the concept is frequently encountered in schools, sports teams, and workplaces, where a group may be punished for the actions of one member.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20435_jikosekinin",
+      "reading": "じこせきにん",
+      "headword": "{自己責任|じこせきにん}",
+      "label": "self-responsibility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22721_kyoudousekinin",
+      "reading": "きょうどうせきにん",
+      "headword": "{共同責任|きょうどうせきにん}",
+      "label": "joint responsibility"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:11:08Z",
-    "modified": "2026-03-04T04:11:08Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -15,40 +15,107 @@
   "examples": [
     {
       "id": "15474_issakunen_ex1",
-      "japanese": "{一昨年|いっさくねん}の{夏|なつ}に{引|ひ}っ{越|こ}した。",
+      "japanese": "{一昨年|いっさくねん}⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}した→引っ越す：01171_hikkosu⟧。",
       "english": "I moved the summer before last.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15474_issakunen_ex2",
-      "japanese": "{一昨年|いっさくねん}から{日本語|にほんご}を{勉強|べんきょう}している。",
+      "japanese": "{一昨年|いっさくねん}⟦から→から：00504_kara⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I've been studying Japanese since the year before last.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15474_issakunen_ex3",
-      "japanese": "{一昨年|いっさくねん}の{売上|うりあげ}と{比|くら}べると、{今年|ことし}は{大幅|おおはば}に{増|ふ}えた。",
+      "japanese": "{一昨年|いっさくねん}⟦の→の：09472_no⟧⟦{売上|うりあげ}→売上：04102_uriage⟧⟦と→と：00512_to⟧⟦{比|くら}べる→比べる：01237_kuraberu⟧⟦と→と：00512_to⟧、⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Compared to sales from the year before last, this year's have increased significantly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{一昨年|いっさくねん} is the formal reading used in writing and formal speech. The colloquial equivalent is おととし, which is more common in everyday conversation. Both mean the same thing.\n\nRELATED TIME WORDS:\n- おととし / {一昨年|いっさくねん} (year before last)\n- {去年|きょねん} / {昨年|さくねん} (last year)\n- {今年|ことし} (this year)\n- {来年|らいねん} (next year)\n- {再来年|さらいねん} (year after next)\n- {一昨日|いっさくじつ} / おととい (day before yesterday)",
-  "cross_references": [],
+  "notes": "USAGE:\n{一昨年|いっさくねん} is the formal reading used in writing and formal speech. The colloquial equivalent is ⟦おととし→おととし：02895_ototoshi⟧, which is more common in everyday conversation. Both mean the same thing.\n\nRELATED TIME WORDS:\n- ⟦おととし→おととし：02895_ototoshi⟧ / {一昨年|いっさくねん} (year before last)\n- ⟦{去年|きょねん}→去年：00727_kyonen⟧ / ⟦{昨年|さくねん}→昨年：10433_sakunen⟧ (last year)\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧ (this year)\n- ⟦{来年|らいねん}→来年：00745_rainen⟧ (next year)\n- ⟦{再来年|さらいねん}→再来年：01417_sarainen⟧ (year after next)\n- ⟦{一昨日|いっさくじつ}→一昨日：16681_issakujitsu⟧ / ⟦おととい→おととい：00877_ototoi⟧ (day before yesterday)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02895_ototoshi",
+      "reading": "おととし",
+      "headword": "おととし",
+      "label": "year before last"
+    },
+    {
+      "type": "related",
+      "target_id": "00727_kyonen",
+      "reading": "きょねん",
+      "headword": "{去年|きょねん}",
+      "label": "last year"
+    },
+    {
+      "type": "related",
+      "target_id": "00722_kotoshi",
+      "reading": "ことし",
+      "headword": "{今年|ことし}",
+      "label": "this year"
+    },
+    {
+      "type": "related",
+      "target_id": "00745_rainen",
+      "reading": "らいねん",
+      "headword": "{来年|らいねん}",
+      "label": "next year"
+    },
+    {
+      "type": "related",
+      "target_id": "01417_sarainen",
+      "reading": "さらいねん",
+      "headword": "{再来年|さらいねん}",
+      "label": "year after next"
+    },
+    {
+      "type": "related",
+      "target_id": "16681_issakujitsu",
+      "reading": "いっさくじつ",
+      "headword": "{一昨日|いっさくじつ}",
+      "label": "day before yesterday"
+    },
+    {
+      "type": "related",
+      "target_id": "00877_ototoi",
+      "reading": "おととい",
+      "headword": "おととい",
+      "label": "day before yesterday"
+    },
+    {
+      "type": "related",
+      "target_id": "26654_issakusakunen",
+      "reading": "いっさくさくねん",
+      "headword": "{一昨昨年|いっさくさくねん}",
+      "label": "three years ago"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T08:55:03Z",
-    "modified": "2026-03-07T08:55:03Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "26707_seiyoueiga_ex1",
-      "japanese": "{西洋映画|せいようえいが}が{好|す}きですか。",
+      "japanese": "{西洋映画|せいようえいが}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧です⟦か→か：09473_ka⟧。",
       "english": "Do you like Western movies?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26707_seiyoueiga_ex2",
-      "japanese": "{昔|むかし}は{西洋映画|せいようえいが}のことを{洋画|ようが}と{呼|よ}んでいた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧{西洋映画|せいようえいが}⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{洋画|ようが}→洋画：14741_youga⟧⟦と→と：00512_to⟧⟦{呼|よ}んでいた→呼ぶ：00766_yobu⟧。",
       "english": "In the past, Western films were called yōga.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26707_seiyoueiga_ex3",
-      "japanese": "この{映画館|えいがかん}では{西洋映画|せいようえいが}と{邦画|ほうが}の{両方|りょうほう}を{上映|じょうえい}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画館|えいがかん}→映画館：01024_eigakan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{西洋映画|せいようえいが}⟦と→と：00512_to⟧⟦{邦画|ほうが}→邦画：14740_houga⟧⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦を→を：00422_wo⟧⟦{上映|じょうえい}→上映：08380_jouei⟧⟦している→する：00392_suru⟧。",
       "english": "This movie theater screens both Western films and Japanese films.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {西洋|せいよう} (the West/Western countries) and {映画|えいが} (movie). In everyday Japanese, {洋画|ようが} is the more common and concise term for Western films. {西洋映画|せいようえいが} is the fuller, more formal expression.\n\nCOMMON COLLOCATIONS:\n- {西洋映画|せいようえいが}ファン: fan of Western movies\n- {西洋映画|せいようえいが}の{名作|めいさく}: masterpiece of Western cinema\n- {西洋映画|せいようえいが}を{観|み}る: to watch a Western movie\n\nSIMILAR WORDS:\n- {洋画|ようが}: Western film — the standard short form, much more common in casual speech\n- {邦画|ほうが}: Japanese film — the counterpart category\n- {外国映画|がいこくえいが}: foreign film — broader, includes Asian films too",
-  "cross_references": [],
+  "notes": "Composed of ⟦{西洋|せいよう}→西洋：01446_seiyou⟧ (the West/Western countries) and ⟦{映画|えいが}→映画：02273_eiga⟧ (movie). In everyday Japanese, ⟦{洋画|ようが}→洋画：14741_youga⟧ is the more common and concise term for Western films. {西洋映画|せいようえいが} is the fuller, more formal expression.\n\nCOMMON COLLOCATIONS:\n- {西洋映画|せいようえいが}⟦ファン→ファン：10065_fan⟧: fan of Western movies\n- {西洋映画|せいようえいが}⟦の→の：09472_no⟧⟦{名作|めいさく}→名作：11869_meisaku⟧: masterpiece of Western cinema\n- {西洋映画|せいようえいが}⟦を→を：00422_wo⟧⟦{観|み}る→観る：22793_miru⟧: to watch a Western movie\n\nSIMILAR WORDS:\n- ⟦{洋画|ようが}→洋画：14741_youga⟧: Western film — the standard short form, much more common in casual speech\n- ⟦{邦画|ほうが}→邦画：14740_houga⟧: Japanese film — the counterpart category\n- {外国映画|がいこくえいが}: foreign film — broader, includes Asian films too",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14741_youga",
+      "reading": "ようが",
+      "headword": "{洋画|ようが}",
+      "label": "Western film"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14740_houga",
+      "reading": "ほうが",
+      "headword": "{邦画|ほうが}",
+      "label": "Japanese film"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "entertainment"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "entertainment"
+      ]
     },
     "created": "2026-05-04T14:12:22Z",
-    "modified": "2026-05-04T14:12:22Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

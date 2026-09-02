@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12972_seiten_ex1",
-      "japanese": "{明日|あした}は{晴天|せいてん}の{予報|よほう}だ。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧{晴天|せいてん}⟦の→の：09472_no⟧⟦{予報|よほう}→予報：03668_yohou⟧だ。",
       "english": "The forecast for tomorrow is clear skies.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12972_seiten_ex2",
-      "japanese": "{晴天|せいてん}に{恵|めぐ}まれて、{運動会|うんどうかい}は{予定|よてい}どおり{行|おこな}われた。",
+      "japanese": "{晴天|せいてん}⟦に→に：00314_ni⟧⟦{恵|めぐ}まれて→恵まれる：12619_megumareru⟧、⟦{運動会|うんどうかい}→運動会：03013_undoukai⟧⟦は→は：00079_ha⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦どおり→どおり：09884_doori⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Blessed with fine weather, the sports day was held as planned.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12972_seiten_ex3",
-      "japanese": "{三日間|みっかかん}{続|つづ}いた{晴天|せいてん}のおかげで、{洗濯物|せんたくもの}がよく{乾|かわ}いた。",
+      "japanese": "{三日間|みっかかん}⟦{続|つづ}いた→続く：00903_tsuzuku⟧{晴天|せいてん}⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{乾|かわ}いた→乾く：00786_kawaku⟧。",
       "english": "Thanks to three consecutive days of fine weather, the laundry dried well.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMore formal and literary than {晴|は}れ (clear weather, everyday). Common in weather forecasts, written descriptions, and the well-known proverb {青天|せいてん}の{霹靂|へきれき} (a bolt from the blue — note: this uses the kanji {青|せい}, not {晴|せい}). {晴天|せいてん} is a noun and does not inflect.\n\nCOMMON COLLOCATIONS:\n- {晴天|せいてん}に{恵|めぐ}まれる: to be blessed with fine weather\n- {晴天|せいてん}が{続|つづ}く: fine weather continues\n- {晴天|せいてん}の{日|ひ}: a clear day\n\nSIMILAR WORDS:\n- {晴|は}れ: clear weather (everyday, also used in forecasts)\n- {快晴|かいせい}: perfectly clear sky (no clouds at all)\n- {好天|こうてん}: good weather (formal)",
+  "notes": "USAGE:\nMore formal and literary than ⟦{晴|は}れ→晴れ：02936_hare⟧ (clear weather, everyday). Common in weather forecasts, written descriptions, and the well-known proverb {青天|せいてん}⟦の→の：09472_no⟧{霹靂|へきれき} (a bolt from the blue — note: this uses the kanji {青|せい}, not {晴|せい}). {晴天|せいてん} is a noun and does not inflect.\n\nCOMMON COLLOCATIONS:\n- {晴天|せいてん}⟦に→に：00314_ni⟧⟦{恵|めぐ}まれる→恵まれる：12619_megumareru⟧: to be blessed with fine weather\n- {晴天|せいてん}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: fine weather continues\n- {晴天|せいてん}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧: a clear day\n\nSIMILAR WORDS:\n- ⟦{晴|は}れ→晴れ：02936_hare⟧: clear weather (everyday, also used in forecasts)\n- ⟦{快晴|かいせい}→快晴：00137_kaisei⟧: perfectly clear sky (no clouds at all)\n- ⟦{好天|こうてん}→好天：29346_kouten⟧: good weather (formal)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,32 @@
       "reading": "うてん",
       "headword": "{雨天|うてん}",
       "label": "rainy weather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02936_hare",
+      "reading": "はれ",
+      "headword": "{晴|は}れ",
+      "label": "clear weather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00137_kaisei",
+      "reading": "かいせい",
+      "headword": "{快晴|かいせい}",
+      "label": "perfectly clear sky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29346_kouten",
+      "reading": "こうてん",
+      "headword": "{好天|こうてん}",
+      "label": "good weather"
     }
   ],
   "metadata": {
     "created": "2026-02-22T23:44:56Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

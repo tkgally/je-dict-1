@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12092_souzetsu_ex1",
-      "japanese": "{壮絶|そうぜつ}な{戦|たたか}いだった。",
+      "japanese": "{壮絶|そうぜつ}な⟦{戦|たたか}い→戦い：02070_tatakai⟧だった。",
       "english": "It was a fierce battle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12092_souzetsu_ex2",
-      "japanese": "{彼女|かのじょ}は{壮絶|そうぜつ}な{人生|じんせい}を{送|おく}ってきた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{壮絶|そうぜつ}な⟦{人生|じんせい}→人生：03355_jinsei⟧⟦を→を：00422_wo⟧⟦{送|おく}って→送る：00742_okuru⟧きた。",
       "english": "She has lived an intense, harrowing life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12092_souzetsu_ex3",
-      "japanese": "{病気|びょうき}との{壮絶|そうぜつ}な{闘|たたか}いを{経|へ}て、{彼|かれ}は{新|あたら}しい{人生|じんせい}を{歩|あゆ}み{始|はじ}めた。",
+      "japanese": "⟦{病気|びょうき}→病気：00771_byouki⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{壮絶|そうぜつ}な⟦{闘|たたか}い→闘い：17305_tatakai⟧⟦を→を：00422_wo⟧⟦{経|へ}て→経る：13876_heru⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{人生|じんせい}→人生：03355_jinsei⟧⟦を→を：00422_wo⟧⟦{歩|あゆ}み→歩む：13196_ayumu⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "After a desperate battle with illness, he began to walk a new path in life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nPrimarily used as a na-adjective modifying nouns: {壮絶|そうぜつ}な～. Common in written language, journalism, and dramatic narratives. Carries a sense of something being awe-inspiring in its severity or intensity.\n\nCOMMON COLLOCATIONS:\n- {壮絶|そうぜつ}な{戦|たたか}い: fierce battle\n- {壮絶|そうぜつ}な{人生|じんせい}: intense/harrowing life\n- {壮絶|そうぜつ}な{最期|さいご}: dramatic/heroic death\n- {壮絶|そうぜつ}な{体験|たいけん}: harrowing experience\n- {壮絶|そうぜつ}な{闘病|とうびょう}: fierce fight against illness\n\nSIMILAR WORDS:\n{壮絶|そうぜつ} implies both intensity and a sense of grandeur or heroism. {凄|すさ}まじい (tremendous, fierce) emphasizes raw intensity. {激|はげ}しい (intense, fierce) is a more everyday word for intensity.",
+  "notes": "USAGE:\nPrimarily used as a na-adjective modifying nouns: {壮絶|そうぜつ}な～. Common in written language, journalism, and dramatic narratives. Carries a sense of something being awe-inspiring in its severity or intensity.\n\nCOMMON COLLOCATIONS:\n- {壮絶|そうぜつ}な⟦{戦|たたか}い→戦い：02070_tatakai⟧: fierce battle\n- {壮絶|そうぜつ}な⟦{人生|じんせい}→人生：03355_jinsei⟧: intense/harrowing life\n- {壮絶|そうぜつ}な⟦{最期|さいご}→最期：30329_saigo⟧: dramatic/heroic death\n- {壮絶|そうぜつ}な⟦{体験|たいけん}→体験：11443_taiken⟧: harrowing experience\n- {壮絶|そうぜつ}な⟦{闘病|とうびょう}→闘病：19949_toubyou⟧: fierce fight against illness\n\nSIMILAR WORDS:\n{壮絶|そうぜつ} implies both intensity and a sense of grandeur or heroism. {凄|すさ}まじい (tremendous, fierce) emphasizes raw intensity. ⟦{激|はげ}しい→激しい：02348_hageshii⟧ (intense, fierce) is a more everyday word for intensity.",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,19 +59,33 @@
       "reading": "すさまじい",
       "headword": "すさまじい",
       "label": "tremendous, fierce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15648_seizetsu",
+      "reading": "せいぜつ",
+      "headword": "{凄絶|せいぜつ}",
+      "label": "ghastly"
     }
   ],
   "metadata": {
     "created": "2026-02-20T04:54:03Z",
-    "modified": "2026-04-26T06:29:08Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

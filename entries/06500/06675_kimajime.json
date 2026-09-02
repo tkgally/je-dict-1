@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06675_kimajime_ex1",
-      "japanese": "{彼|かれ}は{生真面目|きまじめ}で{冗談|じょうだん}が{通|つう}じない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{生真面目|きまじめ}で⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦が→が：00051_ga⟧⟦{通|つう}じない→通じる：02289_tsuujiru⟧。",
       "english": "He's so serious that jokes go right over his head.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06675_kimajime_ex2",
-      "japanese": "{生真面目|きまじめ}に{考|かんが}えすぎないで。",
+      "japanese": "{生真面目|きまじめ}⟦に→に：00314_ni⟧⟦{考|かんが}え→考える：00856_kangaeru⟧すぎないで。",
       "english": "Don't think about it too seriously.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06675_kimajime_ex3",
-      "japanese": "あの{人|ひと}は{生真面目|きまじめ}な{性格|せいかく}だから、{融通|ゆうずう}が{利|き}かない。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧{生真面目|きまじめ}な⟦{性格|せいかく}→性格：03371_seikaku⟧だ⟦から→から：00504_kara⟧、⟦{融通|ゆうずう}→融通：10914_yuuzuu⟧⟦が→が：00051_ga⟧⟦{利|き}かない→利く：11845_kiku⟧。",
       "english": "That person is so strait-laced that they can't be flexible.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{生|き} (prefix intensifying meaning) + {真面目|まじめ} (serious, earnest)\n\nThe {生|き} prefix intensifies {真面目|まじめ} to mean 'excessively' or 'overly' serious.\n\nUSAGE:\n・{生真面目|きまじめ}な{人|ひと}/{性格|せいかく} (an overly serious person/personality)\n・{生真面目|きまじめ}に{受|う}け{止|と}める (to take something too seriously)\n\nNUANCE:\nWhile {真面目|まじめ} (serious, earnest) is generally positive, {生真面目|きまじめ} carries a slightly negative nuance of being too rigid, humorless, or inflexible. It suggests someone who could benefit from loosening up.\n\nSIMILAR WORDS:\n・{真面目|まじめ} - Serious, earnest (neutral to positive)\n・{堅|かた}い - Stiff, formal, uptight\n・{杓子定規|しゃくしじょうぎ} - Inflexible, going by the book",
+  "notes": "FORMS:\n{生|き} (prefix intensifying meaning) + ⟦{真面目|まじめ}→真面目：01206_majime⟧ (serious, earnest)\n\nThe {生|き} prefix intensifies ⟦{真面目|まじめ}→真面目：01206_majime⟧ to mean 'excessively' or 'overly' serious.\n\nUSAGE:\n- {生真面目|きまじめ}な⟦{人|ひと}→人：00476_hito⟧/⟦{性格|せいかく}→性格：03371_seikaku⟧ (an overly serious person/personality)\n- {生真面目|きまじめ}⟦に→に：00314_ni⟧⟦{受|う}け{止|と}める→受け止める：05756_uketomeru⟧ (to take something too seriously)\nWhile ⟦{真面目|まじめ}→真面目：01206_majime⟧ (serious, earnest) is generally positive, {生真面目|きまじめ} carries a slightly negative nuance of being too rigid, humorless, or inflexible. It suggests someone who could benefit from loosening up.\n\nSIMILAR WORDS:\n- ⟦{真面目|まじめ}→真面目：01206_majime⟧ - Serious, earnest (neutral to positive)\n- ⟦{堅|かた}い→堅い：18753_katai⟧ - Stiff, formal, uptight\n- {杓子定規|しゃくしじょうぎ} - Inflexible, going by the book",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "headword": "{真面目|まじめ}",
       "label": "serious",
       "target_id": "01206_majime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18753_katai",
+      "reading": "かたい",
+      "headword": "{堅|かた}い",
+      "label": "Stiff, formal, uptight"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:18:39Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

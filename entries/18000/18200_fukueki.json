@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18200_fukueki_ex1",
-      "japanese": "{彼|かれ}は{五年間|ごねんかん}{服役|ふくえき}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{五年間|ごねんかん}{服役|ふくえき}⟦した→する：00392_suru⟧。",
       "english": "He served five years in prison.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18200_fukueki_ex2",
-      "japanese": "{服役|ふくえき}{中|ちゅう}に{資格|しかく}を{取得|しゅとく}する{受刑者|じゅけいしゃ}もいる。",
+      "japanese": "{服役|ふくえき}⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧{受刑者|じゅけいしゃ}⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "Some inmates obtain qualifications while serving their sentences.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18200_fukueki_ex3",
-      "japanese": "{服役|ふくえき}を{終|お}えた{後|あと}、{社会|しゃかい}{復帰|ふっき}するのは{簡単|かんたん}ではない。",
+      "japanese": "{服役|ふくえき}⟦を→を：00422_wo⟧⟦{終|お}えた→終える：02019_oeru⟧⟦{後|あと}→後：09580_ato⟧、⟦{社会|しゃかい}{復帰|ふっき}→社会復帰：20417_shakaifukki⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Reintegrating into society after serving a prison sentence is not easy.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFunctions as a する verb ({服役|ふくえき}する). A formal word commonly seen in news reports, legal discussions, and court proceedings.\n\nCOMMON COLLOCATIONS:\n- {服役|ふくえき}する (to serve a sentence)\n- {服役|ふくえき}{中|ちゅう} (while serving a sentence)\n- {服役|ふくえき}を{終|お}える (to finish serving a sentence)\n- {服役|ふくえき}{囚|しゅう} (prisoner; convict)\n\nSIMILAR WORDS:\n- {収監|しゅうかん}: incarceration — focuses on the act of being put in prison, rather than the period of serving time\n- {投獄|とうごく}: imprisonment — emphasizes being thrown into prison, often with a sense of injustice",
-  "cross_references": [],
+  "notes": "USAGE:\nFunctions as a ⟦する→する：00392_suru⟧ verb ({服役|ふくえき}⟦する→する：00392_suru⟧). A formal word commonly seen in news reports, legal discussions, and court proceedings.\n\nCOMMON COLLOCATIONS:\n- {服役|ふくえき}⟦する→する：00392_suru⟧ (to serve a sentence)\n- {服役|ふくえき}⟦{中|ちゅう}→〜中：09840_chuu⟧ (while serving a sentence)\n- {服役|ふくえき}⟦を→を：00422_wo⟧⟦{終|お}える→終える：02019_oeru⟧ (to finish serving a sentence)\n- {服役|ふくえき}{囚|しゅう} (prisoner; convict)\n\nSIMILAR WORDS:\n- {収監|しゅうかん}: incarceration — focuses on the act of being put in prison, rather than the period of serving time\n- ⟦{投獄|とうごく}→投獄：15733_tougoku⟧: imprisonment — emphasizes being thrown into prison, often with a sense of injustice",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15733_tougoku",
+      "reading": "とうごく",
+      "headword": "{投獄|とうごく}",
+      "label": "imprisonment"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T12:14:50Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

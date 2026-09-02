@@ -3,7 +3,7 @@
   "headword": "{交尾|こうび}",
   "reading": "こうび",
   "romaji": "koubi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mating; copulation (of animals)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22929_koubi_ex1",
-      "japanese": "{鳥|とり}が{交尾|こうび}している。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{交尾|こうび}⟦している→する：00392_suru⟧。",
       "english": "The birds are mating.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22929_koubi_ex2",
-      "japanese": "{春|はる}になると{交尾|こうび}の{時期|じき}を{迎|むか}える。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{交尾|こうび}⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧。",
       "english": "When spring comes, the mating season arrives.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22929_koubi_ex3",
-      "japanese": "カマキリの{雌|めす}は{交尾|こうび}の{後|あと}に{雄|おす}を{食|た}べることがある。",
+      "japanese": "⟦カマキリ→カマキリ：06516_kamakiri⟧⟦の→の：09472_no⟧⟦{雌|めす}→雌：11243_mesu⟧⟦は→は：00079_ha⟧{交尾|こうび}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦に→に：00314_ni⟧⟦{雄|おす}→雄：10732_osu⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Female praying mantises sometimes eat the male after mating.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {交|こう} (intersect, exchange) and {尾|び} (tail). Literally \"crossing tails.\" A scientific, neutral term used exclusively for animals — never for humans in standard usage. Common in biology textbooks, nature documentaries, and wildlife observation contexts.\n\nCOMMON COLLOCATIONS:\n- {交尾|こうび}する: to mate\n- {交尾|こうび}の{時期|じき}: mating season\n- {交尾|こうび}{行動|こうどう}: mating behavior\n- {交尾|こうび}{相手|あいて}: mating partner\n\nSIMILAR WORDS:\n- つがい: mating pair — refers to a bonded pair of animals, often birds\n- {繁殖|はんしょく}: breeding, reproduction — broader term covering the whole reproductive process including raising young\n- {生殖|せいしょく}: reproduction — the biological process; more technical and scientific",
+  "notes": "Composed of {交|こう} (intersect, exchange) and ⟦{尾|び}→尾：18068_bi⟧ (tail). Literally \"crossing tails.\" A scientific, neutral term used exclusively for animals — never for humans in standard usage. Common in biology textbooks, nature documentaries, and wildlife observation contexts.\n\nCOMMON COLLOCATIONS:\n- {交尾|こうび}⟦する→する：00392_suru⟧: to mate\n- {交尾|こうび}⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧: mating season\n- {交尾|こうび}⟦{行動|こうどう}→行動：02728_koudou⟧: mating behavior\n- {交尾|こうび}⟦{相手|あいて}→相手：01677_aite⟧: mating partner\n\nSIMILAR WORDS:\n- つがい: mating pair — refers to a bonded pair of animals, often birds\n- ⟦{繁殖|はんしょく}→繁殖：08671_hanshoku⟧: breeding, reproduction — broader term covering the whole reproductive process including raising young\n- ⟦{生殖|せいしょく}→生殖：27947_seishoku⟧: reproduction — the biological process; more technical and scientific",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08671_hanshoku",
+      "reading": "はんしょく",
+      "headword": "{繁殖|はんしょく}",
+      "label": "breeding, reproduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27947_seishoku",
+      "reading": "せいしょく",
+      "headword": "{生殖|せいしょく}",
+      "label": "reproduction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,18 @@
         "noun",
         "verb-suru"
       ],
-      "semantic": ["science", "nature", "action"],
+      "semantic": [
+        "science",
+        "nature",
+        "action"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:29:23Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16266_kenjuu_ex1",
-      "japanese": "{拳銃|けんじゅう}の{所持|しょじ}は{違法|いほう}だ。",
+      "japanese": "{拳銃|けんじゅう}⟦の→の：09472_no⟧⟦{所持|しょじ}→所持：12751_shoji⟧⟦は→は：00079_ha⟧⟦{違法|いほう}→違法：09687_ihou⟧だ。",
       "english": "Possessing a handgun is illegal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16266_kenjuu_ex2",
-      "japanese": "{犯人|はんにん}は{拳銃|けんじゅう}を{持|も}っていた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧{拳銃|けんじゅう}⟦を→を：00422_wo⟧⟦{持|も}っていた→持つ：00478_motsu⟧。",
       "english": "The suspect was carrying a handgun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16266_kenjuu_ex3",
-      "japanese": "{警察|けいさつ}は{不法|ふほう}に{所持|しょじ}されていた{拳銃|けんじゅう}を{押収|おうしゅう}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧⟦{不法|ふほう}→不法：11361_fuhou⟧⟦に→に：00314_ni⟧⟦{所持|しょじ}→所持：12751_shoji⟧⟦されていた→する：00392_suru⟧{拳銃|けんじゅう}⟦を→を：00422_wo⟧⟦{押収|おうしゅう}→押収：19033_oushuu⟧⟦した→する：00392_suru⟧。",
       "english": "The police seized the illegally possessed handgun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{拳銃|けんじゅう} is composed of {拳|けん} (fist) + {銃|じゅう} (gun) — literally a gun that fits in the fist.\n\nCOMMON COLLOCATIONS:\n- {拳銃|けんじゅう}を{所持|しょじ}する: to possess a handgun\n- {拳銃|けんじゅう}を{発砲|はっぽう}する: to fire a handgun\n- {拳銃|けんじゅう}{不法|ふほう}{所持|しょじ}: illegal possession of a firearm\n- けん{銃|じゅう}{強盗|ごうとう}: armed robbery\n\nCULTURAL NOTE: Japan has extremely strict gun control laws ({銃刀法|じゅうとうほう}). Private ownership of firearms is nearly completely prohibited. The word appears frequently in crime news and detective fiction but rarely in everyday conversation.",
+  "notes": "{拳銃|けんじゅう} is composed of {拳|けん} (fist) + ⟦{銃|じゅう}→銃：10463_juu⟧ (gun) — literally a gun that fits in the fist.\n\nCOMMON COLLOCATIONS:\n- {拳銃|けんじゅう}⟦を→を：00422_wo⟧⟦{所持|しょじ}→所持：12751_shoji⟧⟦する→する：00392_suru⟧: to possess a handgun\n- {拳銃|けんじゅう}⟦を→を：00422_wo⟧{発砲|はっぽう}⟦する→する：00392_suru⟧: to fire a handgun\n- {拳銃|けんじゅう}⟦{不法|ふほう}→不法：11361_fuhou⟧⟦{所持|しょじ}→所持：12751_shoji⟧: illegal possession of a firearm\n- けん{銃|じゅう}⟦{強盗|ごうとう}→強盗：02818_goutou⟧: armed robbery\n\nCULTURAL NOTE: Japan has extremely strict gun control laws ({銃刀法|じゅうとうほう}). Private ownership of firearms is nearly completely prohibited. The word appears frequently in crime news and detective fiction but rarely in everyday conversation.",
   "cross_references": [
     {
       "type": "related",
@@ -46,17 +52,35 @@
       "reading": "じゅう",
       "headword": "{銃|じゅう}",
       "label": "gun, firearm"
+    },
+    {
+      "type": "related",
+      "target_id": "04540_teppou",
+      "reading": "てっぽう",
+      "headword": "{鉄砲|てっぽう}",
+      "label": "gun, rifle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28556_raifuru",
+      "reading": "らいふる",
+      "headword": "ライフル",
+      "label": "rifle"
     }
   ],
   "metadata": {
     "created": "2026-03-11T10:34:36Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

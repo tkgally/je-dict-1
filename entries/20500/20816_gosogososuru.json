@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20816_gosogososuru_ex1",
-      "japanese": "カバンの{中|なか}をごそごそした。",
+      "japanese": "カバン⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧ごそごそした。",
       "english": "I rummaged around in my bag.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20816_gosogososuru_ex2",
-      "japanese": "{隣|となり}の{部屋|へや}でごそごそ{音|おと}がする。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦で→で：00502_de⟧⟦ごそごそ→ごそごそ：05941_gosogoso⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "I can hear rustling sounds from the next room.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20816_gosogososuru_ex3",
-      "japanese": "{彼|かれ}は{押|お}し{入|い}れの{奥|おく}をごそごそと{探|さが}して、{古|ふる}いアルバムを{引|ひ}っ{張|ぱ}り{出|だ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{押|お}し{入|い}れ⟦の→の：09472_no⟧⟦{奥|おく}→奥：00980_oku⟧⟦を→を：00422_wo⟧⟦ごそごそ→ごそごそ：05941_gosogoso⟧⟦と→と：00512_to⟧⟦{探|さが}して→探す：00493_sagasu⟧、⟦{古|ふる}い→古い：00488_furui⟧⟦アルバム→アルバム：03831_arubamu⟧⟦を→を：00422_wo⟧⟦{引|ひ}っ{張|ぱ}り→引っ張る：02402_hipparu⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "He rummaged around in the back of the closet and pulled out an old album.",
       "sense_numbers": [
         1
@@ -43,8 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic (giongo) word that imitates the sound of rustling or shuffling. Can be used as ごそごそする (verb), ごそごそと (adverb with と), or just ごそごそ (adverb without と).\n\nCOMMON PATTERNS:\n- ごそごそ{探|さが}す: to rummage and search\n- ごそごそ{音|おと}がする: to hear rustling sounds\n- ごそごそと{動|うご}く: to move about restlessly\n- ポケットをごそごそする: to fumble in one's pocket\n\nSIMILAR ONOMATOPOEIA:\n- がさがさ: rustling — louder, rougher rustling sound\n- もそもそ: mumbling/shuffling — slower, more muffled movement\n- ごろごろ: rolling/rumbling — heavier movement or thunder",
-  "cross_references": [],
+  "notes": "An onomatopoeic (giongo) word that imitates the sound of rustling or shuffling. Can be used as ごそごそする (verb), ⟦ごそごそ→ごそごそ：05941_gosogoso⟧⟦と→と：00512_to⟧ (adverb with ⟦と→と：00512_to⟧), or just ⟦ごそごそ→ごそごそ：05941_gosogoso⟧ (adverb without ⟦と→と：00512_to⟧).\n\nCOMMON PATTERNS:\n- ⟦ごそごそ→ごそごそ：05941_gosogoso⟧⟦{探|さが}す→探す：00493_sagasu⟧: to rummage and search\n- ⟦ごそごそ→ごそごそ：05941_gosogoso⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to hear rustling sounds\n- ⟦ごそごそ→ごそごそ：05941_gosogoso⟧⟦と→と：00512_to⟧⟦{動|うご}く→動く：00904_ugoku⟧: to move about restlessly\n- ⟦ポケット→ポケット：02964_poketto⟧⟦を→を：00422_wo⟧ごそごそする: to fumble in one's pocket\n\nSIMILAR ONOMATOPOEIA:\n- ⟦がさがさ→がさがさ：05986_gasagasa⟧: rustling — louder, rougher rustling sound\n- もそもそ: mumbling/shuffling — slower, more muffled movement\n- ⟦ごろごろ→ごろごろ：05176_gorogoro⟧: rolling/rumbling — heavier movement or thunder",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05986_gasagasa",
+      "reading": "がさがさ",
+      "headword": "がさがさ",
+      "label": "rustling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05176_gorogoro",
+      "reading": "ごろごろ",
+      "headword": "ごろごろ",
+      "label": "rolling/rumbling"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T17:14:07Z",
-    "modified": "2026-03-30T17:14:07Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

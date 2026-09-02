@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08765_aikyuu_ex1",
-      "japanese": "IQテストを{受|う}けた。",
+      "japanese": "IQ⟦テスト→テスト：01065_tesuto⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I took an IQ test.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08765_aikyuu_ex2",
-      "japanese": "IQが{高|たか}いだけでは{成功|せいこう}できない。",
+      "japanese": "IQ⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{成功|せいこう}できない→成功する：21445_seikousuru⟧。",
       "english": "You can't succeed with high IQ alone.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08765_aikyuu_ex3",
-      "japanese": "{彼|かれ}はIQが{非常|ひじょう}に{高|たか}いらしい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧IQ⟦が→が：00051_ga⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧⟦{高|たか}い→高い：00500_takai⟧らしい。",
       "english": "Apparently his IQ is extremely high.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "PSYCHOLOGY TERM:\nIQ (アイキュー) is a measure of cognitive ability. In Japan, IQ tests are sometimes used in educational settings but are not as prominent as in some Western countries.\n\nCOMMON COLLOCATIONS:\n- IQが{高|たか}い/{低|ひく}い - have high/low IQ\n- IQテスト - IQ test\n- {平均|へいきん}IQ - average IQ\n\nRELATED TERMS:\n- EQ ({心|こころ}の{知能|ちのう}{指数|しすう}) - emotional quotient\n- {知能|ちのう}{指数|しすう} - intelligence quotient (formal Japanese)\n- {知能|ちのう}テスト - intelligence test\n\nNOTE:\nIn Japanese discourse, IQ is sometimes discussed alongside EQ (emotional intelligence) as complementary measures of human capability.",
+  "notes": "PSYCHOLOGY TERM:\nIQ (アイキュー) is a measure of cognitive ability. In Japan, IQ tests are sometimes used in educational settings but are not as prominent as in some Western countries.\n\nCOMMON COLLOCATIONS:\n- IQ⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧ - have high/low IQ\n- IQ⟦テスト→テスト：01065_tesuto⟧ - IQ test\n- ⟦{平均|へいきん}→平均：03614_heikin⟧IQ - average IQ\n\nRELATED WORDS:\n- EQ (⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧⟦{知能|ちのう}{指数|しすう}→知能指数：16819_chinoushisuu⟧) - emotional quotient\n- ⟦{知能|ちのう}{指数|しすう}→知能指数：16819_chinoushisuu⟧ - intelligence quotient (formal Japanese)\n- ⟦{知能|ちのう}→知能：03471_chinou⟧⟦テスト→テスト：01065_tesuto⟧ - intelligence test\n\nUSAGE:\nIn Japanese discourse, IQ is sometimes discussed alongside EQ (emotional intelligence) as complementary measures of human capability.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16819_chinoushisuu",
+      "reading": "ちのうしすう",
+      "headword": "{知能指数|ちのうしすう}",
+      "label": "intelligence quotient"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +70,6 @@
       ]
     },
     "created": "2026-01-28T04:49:13Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

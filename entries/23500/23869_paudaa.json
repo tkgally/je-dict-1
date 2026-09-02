@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23869_paudaa_ex1",
-      "japanese": "パウダーを{顔|かお}につける。",
+      "japanese": "パウダー⟦を→を：00422_wo⟧⟦{顔|かお}→顔：00558_kao⟧につける。",
       "english": "I put powder on my face.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23869_paudaa_ex2",
-      "japanese": "このファンデーションはパウダータイプです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ファンデーション→ファンデーション：08799_fandeeshon⟧⟦は→は：00079_ha⟧パウダー⟦タイプ→タイプ：01534_taipu⟧です。",
       "english": "This foundation is a powder type.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23869_paudaa_ex3",
-      "japanese": "{北海道|ほっかいどう}のスキー{場|じょう}はパウダースノーで{有名|ゆうめい}だ。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦の→の：09472_no⟧⟦スキー→スキー：03849_sukii⟧{場|じょう}⟦は→は：00079_ha⟧パウダースノー⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Ski resorts in Hokkaido are famous for their powder snow.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'powder'. Used in a narrower range of contexts than the English word — most often for cosmetics, certain food ingredients, and powder snow. For generic 'powder' (flour, dust, medicinal powder), the native word {粉|こな} is usually preferred.\n\nCOMMON COLLOCATIONS:\n- パウダーファンデーション: powder foundation (makeup)\n- パウダーをはたく: to pat on powder (makeup)\n- ベビーパウダー: baby powder\n- プロテインパウダー: protein powder\n- ココアパウダー: cocoa powder\n- パウダースノー: powder snow (dry, light snow good for skiing)\n\nSIMILAR WORDS:\n- {粉|こな}: powder, flour — the general native word, used for flour, dust, medicinal powder, and any fine granular material.\n- {粉末|ふんまつ}: powder, powdered form — more technical or formal, used on product labels and in scientific contexts (e.g., {粉末|ふんまつ}ジュース 'powdered juice').\n- {白粉|おしろい}: traditional white face powder used in classical Japanese makeup, such as by geisha.\n\nREGISTER:\nパウダー feels modern, somewhat stylish, and is strongly associated with cosmetics and imported product categories. Native words like {粉|こな} or {粉末|ふんまつ} are used for everyday or technical descriptions.",
-  "cross_references": [],
+  "notes": "Loanword from English 'powder'. Used in a narrower range of contexts than the English word — most often for cosmetics, certain food ingredients, and powder snow. For generic 'powder' (flour, dust, medicinal powder), the native word ⟦{粉|こな}→粉：02766_kona⟧ is usually preferred.\n\nCOMMON COLLOCATIONS:\n- パウダー⟦ファンデーション→ファンデーション：08799_fandeeshon⟧: powder foundation (makeup)\n- パウダー⟦を→を：00422_wo⟧はたく: to pat on powder (makeup)\n- ベビーパウダー: baby powder\n- プロテインパウダー: protein powder\n- ココアパウダー: cocoa powder\n- パウダースノー: powder snow (dry, light snow good for skiing)\n\nSIMILAR WORDS:\n- ⟦{粉|こな}→粉：02766_kona⟧: powder, flour — the general native word, used for flour, dust, medicinal powder, and any fine granular material.\n- ⟦{粉末|ふんまつ}→粉末：13772_funmatsu⟧: powder, powdered form — more technical or formal, used on product labels and in scientific contexts (e.g., ⟦{粉末|ふんまつ}→粉末：13772_funmatsu⟧⟦ジュース→ジュース：01033_juusu⟧ 'powdered juice').\n- {白粉|おしろい}: traditional white face powder used in classical Japanese makeup, such as by geisha.\n\nREGISTER:\nパウダー feels modern, somewhat stylish, and is strongly associated with cosmetics and imported product categories. Native words like ⟦{粉|こな}→粉：02766_kona⟧ or ⟦{粉末|ふんまつ}→粉末：13772_funmatsu⟧ are used for everyday or technical descriptions.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02766_kona",
+      "reading": "こな",
+      "headword": "{粉|こな}",
+      "label": "powder, flour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13772_funmatsu",
+      "reading": "ふんまつ",
+      "headword": "{粉末|ふんまつ}",
+      "label": "powder, powdered form"
+    },
+    {
+      "type": "related",
+      "target_id": "23361_konshiiraa",
+      "reading": "こんしーらー",
+      "headword": "コンシーラー",
+      "label": "concealer (makeup)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +82,6 @@
       ]
     },
     "created": "2026-04-15T09:08:58Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

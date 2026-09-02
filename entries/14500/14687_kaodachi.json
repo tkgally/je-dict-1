@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14687_kaodachi_ex1",
-      "japanese": "{整|ととの}った{顔立|かおだ}ちの{人|ひと}だ。",
+      "japanese": "⟦{整|ととの}った→整う：03935_totonou⟧{顔立|かおだ}ち⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "That person has well-defined facial features.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14687_kaodachi_ex2",
-      "japanese": "{母親|ははおや}に{似|に}た{顔立|かおだ}ちをしている。",
+      "japanese": "⟦{母親|ははおや}→母親：03564_hahaoya⟧⟦に→に：00314_ni⟧⟦{似|に}た→似る：01159_niru⟧{顔立|かおだ}ち⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "They have facial features similar to their mother's.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14687_kaodachi_ex3",
-      "japanese": "{彫|ほ}りの{深|ふか}い{顔立|かおだ}ちで、{外国人|がいこくじん}に{間違|まちが}えられることがある。",
+      "japanese": "{彫|ほ}り⟦の→の：09472_no⟧⟦{深|ふか}い→深い：01211_fukai⟧{顔立|かおだ}ちで、⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦に→に：00314_ni⟧⟦{間違|まちが}えられる→間違える：01109_machigaeru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "With deep-set facial features, they sometimes get mistaken for a foreigner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Focuses specifically on the structure and arrangement of facial features, not the face as a body part ({顔|かお}).\n\nCOMMON COLLOCATIONS:\n- {整|ととの}った{顔立|かおだ}ち (well-proportioned features)\n- {彫|ほ}りの{深|ふか}い{顔立|かおだ}ち (deep-set/chiseled features)\n- はっきりした{顔立|かおだ}ち (distinct features)\n- {優|やさ}しい{顔立|かおだ}ち (gentle features)\n- ～に{似|に}た{顔立|かおだ}ち (features resembling ~)\n\nSIMILAR WORDS:\n- {顔|かお} is the general word for face\n- {容貌|ようぼう} / {風貌|ふうぼう} are more literary terms for overall appearance\n- {顔立|かおだ}ち focuses on the physical structure of the face",
-  "cross_references": [],
+  "notes": "Focuses specifically on the structure and arrangement of facial features, not the face as a body part (⟦{顔|かお}→顔：00558_kao⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{整|ととの}った→整う：03935_totonou⟧{顔立|かおだ}ち (well-proportioned features)\n- {彫|ほ}り⟦の→の：09472_no⟧⟦{深|ふか}い→深い：01211_fukai⟧{顔立|かおだ}ち (deep-set/chiseled features)\n- ⟦はっきりした→はっきりする：26886_hakkirisuru⟧{顔立|かおだ}ち (distinct features)\n- {優|やさ}しい{顔立|かおだ}ち (gentle features)\n- ～⟦に→に：00314_ni⟧⟦{似|に}た→似る：01159_niru⟧{顔立|かおだ}ち (features resembling ~)\n\nSIMILAR WORDS:\n- ⟦{顔|かお}→顔：00558_kao⟧ is the general word for face\n- ⟦{容貌|ようぼう}→容貌：18942_youbou⟧ / ⟦{風貌|ふうぼう}→風貌：14674_fuubou⟧ are more literary terms for overall appearance\n- {顔立|かおだ}ち focuses on the physical structure of the face",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18942_youbou",
+      "reading": "ようぼう",
+      "headword": "{容貌|ようぼう}",
+      "label": "are more literary terms for overall…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14674_fuubou",
+      "reading": "ふうぼう",
+      "headword": "{風貌|ふうぼう}",
+      "label": "are more literary terms for overall…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19660_kaotsuki",
+      "reading": "かおつき",
+      "headword": "{顔|かお}つき",
+      "label": "facial expression"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T11:04:44Z",
-    "modified": "2026-03-02T11:04:44Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

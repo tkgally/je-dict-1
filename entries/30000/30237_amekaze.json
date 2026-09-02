@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30237_amekaze_ex1",
-      "japanese": "{雨風|あめかぜ}が{強|つよ}くなってきた。",
+      "japanese": "{雨風|あめかぜ}⟦が→が：00051_ga⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦なって→なる：01970_naru⟧きた。",
       "english": "The wind and rain have gotten stronger.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30237_amekaze_ex2",
-      "japanese": "この{小屋|こや}は{雨風|あめかぜ}をしのぐには{十分|じゅうぶん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小屋|こや}→小屋：02768_koya⟧⟦は→は：00079_ha⟧{雨風|あめかぜ}⟦を→を：00422_wo⟧しのぐ⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧だ。",
       "english": "This hut is enough to keep out the wind and rain.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30237_amekaze_ex3",
-      "japanese": "{長年|ながねん}の{雨風|あめかぜ}にさらされて、{看板|かんばん}の{文字|もじ}は{読|よ}めなくなっていた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{雨風|あめかぜ}⟦に→に：00314_ni⟧さらされて、⟦{看板|かんばん}→看板：00166_kanban⟧⟦の→の：09472_no⟧⟦{文字|もじ}→文字：03632_moji⟧⟦は→は：00079_ha⟧⟦{読|よ}めなく→読む：00426_yomu⟧⟦なっていた→なる：01970_naru⟧。",
       "english": "Exposed to years of wind and rain, the letters on the sign had become unreadable.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{雨|あめ} (rain) + {風|かぜ} (wind) treated as a single force rather than two separate conditions.\n\nCOMMON COLLOCATIONS:\n- {雨風|あめかぜ}をしのぐ: to keep out the elements; to find shelter\n- {雨風|あめかぜ}にさらされる: to be exposed to the elements\n- {雨風|あめかぜ}が{強|つよ}い: the wind and rain are fierce\n\nSIMILAR WORDS:\n- {暴風雨|ぼうふうう}: rainstorm — a specific violent storm, more technical\n- {天候|てんこう}: weather conditions — neutral and general",
+  "notes": "⟦{雨|あめ}→雨：00583_ame⟧ (rain) + ⟦{風|かぜ}→風：00641_kaze⟧ (wind) treated as a single force rather than two separate conditions.\n\nCOMMON COLLOCATIONS:\n- {雨風|あめかぜ}⟦を→を：00422_wo⟧しのぐ: to keep out the elements; to find shelter\n- {雨風|あめかぜ}⟦に→に：00314_ni⟧さらされる: to be exposed to the elements\n- {雨風|あめかぜ}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: the wind and rain are fierce\n\nSIMILAR WORDS:\n- ⟦{暴風雨|ぼうふうう}→暴風雨：07670_boufuuu⟧: rainstorm — a specific violent storm, more technical\n- ⟦{天候|てんこう}→天候：03558_tenkou⟧: weather conditions — neutral and general",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,20 @@
       "target_id": "00641_kaze",
       "reading": "かぜ",
       "headword": "{風|かぜ}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07670_boufuuu",
+      "reading": "ぼうふうう",
+      "headword": "{暴風雨|ぼうふうう}",
+      "label": "rainstorm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03558_tenkou",
+      "reading": "てんこう",
+      "headword": "{天候|てんこう}",
+      "label": "weather conditions"
     }
   ],
   "schema_version": "2.0",
@@ -67,13 +81,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "weather"
       ],
       "domain": []
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

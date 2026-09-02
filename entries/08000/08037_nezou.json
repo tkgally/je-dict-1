@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08037_nezou_ex1",
-      "japanese": "{彼|かれ}は{寝相|ねぞう}が{悪|わる}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{寝相|ねぞう}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "He has bad sleeping habits / He tosses and turns in his sleep.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08037_nezou_ex2",
-      "japanese": "{子供|こども}の{寝相|ねぞう}は{本当|ほんとう}に{悪|わる}い。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{寝相|ねぞう}⟦は→は：00079_ha⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "Children really toss and turn in their sleep.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08037_nezou_ex3",
-      "japanese": "{朝|あさ}、{布団|ふとん}が{寝相|ねぞう}のせいでめちゃくちゃだった。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧、⟦{布団|ふとん}→布団：01720_futon⟧⟦が→が：00051_ga⟧{寝相|ねぞう}⟦の→の：09472_no⟧せい⟦で→で：00502_de⟧⟦めちゃくちゃ→めちゃくちゃ：05178_mechakucha⟧だった。",
       "english": "In the morning, the futon was a mess because of how I slept.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "COLLOCATIONS:\n- {寝相|ねぞう}が{悪|わる}い (to toss and turn while sleeping)\n- {寝相|ねぞう}が{良|よ}い (to sleep calmly without moving much)\n\nNUANCE:\n「{寝相|ねぞう}が{悪|わる}い」 is a common expression describing someone who moves around a lot during sleep, often kicking off blankets or rolling off the futon. It's especially used about children.\n\nRELATED WORDS:\n- {寝言|ねごと} (sleep talking)\n- いびき (snoring)\n- {歯|は}ぎしり (teeth grinding)",
+  "notes": "COMMON COLLOCATIONS:\n- {寝相|ねぞう}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (to toss and turn while sleeping)\n- {寝相|ねぞう}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧ (to sleep calmly without moving much)\n\nUSAGE:\n「{寝相|ねぞう}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧」 is a common expression describing someone who moves around a lot during sleep, often kicking off blankets or rolling off the futon. It's especially used about children.\n\nRELATED WORDS:\n- ⟦{寝言|ねごと}→寝言：07393_negoto⟧ (sleep talking)\n- ⟦いびき→いびき：05509_ibiki⟧ (snoring)\n- ⟦{歯|は}ぎしり→歯ぎしり：08547_hagishiri⟧ (teeth grinding)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07393_negoto",
+      "reading": "ねごと",
+      "headword": "{寝言|ねごと}",
+      "label": "sleep talking"
+    },
+    {
+      "type": "related",
+      "target_id": "05509_ibiki",
+      "reading": "いびき",
+      "headword": "いびき",
+      "label": "snoring"
+    },
+    {
+      "type": "related",
+      "target_id": "08547_hagishiri",
+      "reading": "はぎしり",
+      "headword": "{歯|は}ぎしり",
+      "label": "teeth grinding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29325_negao",
+      "reading": "ねがお",
+      "headword": "{寝顔|ねがお}",
+      "label": "sleeping face"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +81,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "health"
       ]
     },
     "created": "2026-01-25T00:52:02Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

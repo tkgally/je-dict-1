@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "17609_kanchigai_ex1",
-      "japanese": "それは{勘違|かんちが}いだよ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{勘違|かんちが}いだ⟦よ→よ：09475_yo⟧。",
       "english": "That's a misunderstanding.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "17609_kanchigai_ex2",
-      "japanese": "{日付|ひづけ}を{勘違|かんちが}いしていた。",
+      "japanese": "⟦{日付|ひづけ}→日付：03706_hizuke⟧⟦を→を：00422_wo⟧{勘違|かんちが}い⟦していた→する：00392_suru⟧。",
       "english": "I had the date wrong.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "17609_kanchigai_ex3",
-      "japanese": "{彼|かれ}は{自分|じぶん}がモテると{勘違|かんちが}いしている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦が→が：00051_ga⟧モテる⟦と→と：00512_to⟧{勘違|かんちが}い⟦している→する：00392_suru⟧。",
       "english": "He's under the wrong impression that he's popular.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{勘|かん} (intuition) + {違|ちが}い (difference, mistake) → intuition gone wrong\n\nVERB FORM:\n{勘違|かんちが}いする (to misunderstand, to be mistaken)\n\nSIMILAR WORDS:\n- {誤解|ごかい} (misunderstanding - more serious, often between people)\n- {思|おも}い{違|ちが}い (misconception - based on wrong belief)\n- {聞|き}き{間違|まちが}い (mishearing)\n\nCOMMON PATTERNS:\n- {勘違|かんちが}いしないでね (Don't get the wrong idea)\n- {勘違|かんちが}いも{甚|はなは}だしい (It's a gross misunderstanding)",
+  "notes": "FORMS:\n⟦{勘|かん}→勘：02149_kan⟧ (intuition) + ⟦{違|ちが}い→違い：03432_chigai⟧ (difference, mistake) → intuition gone wrong\n{勘違|かんちが}い⟦する→する：00392_suru⟧ (to misunderstand, to be mistaken)\n\nSIMILAR WORDS:\n- ⟦{誤解|ごかい}→誤解：02769_gokai⟧ (misunderstanding - more serious, often between people)\n- ⟦{思|おも}い{違|ちが}い→思い違い：08583_omoichigai⟧ (misconception - based on wrong belief)\n- ⟦{聞|き}き{間違|まちが}い→聞き間違い：08578_kikimachigai⟧ (mishearing)\n\nCOMMON PATTERNS:\n- {勘違|かんちが}い⟦しないで→する：00392_suru⟧⟦ね→ね：09474_ne⟧ (Don't get the wrong idea)\n- {勘違|かんちが}い⟦も→も：00484_mo⟧⟦{甚|はなは}だしい→甚だしい：13520_hanahadashii⟧ (It's a gross misunderstanding)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,13 +142,15 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-07-24T07:00:08Z"
+    "modified": "2026-09-02T04:01:49Z"
   },
   "cross_references": [
     {
@@ -157,6 +159,62 @@
       "reading": "ごかい",
       "headword": "{誤解|ごかい}",
       "label": "misunderstanding (interpersonal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08583_omoichigai",
+      "reading": "おもいちがい",
+      "headword": "{思|おも}い{違|ちが}い",
+      "label": "misconception"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08578_kikimachigai",
+      "reading": "ききまちがい",
+      "headword": "{聞|き}き{間違|まちが}い",
+      "label": "mishearing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08665_kiokuchigai",
+      "reading": "きおくちがい",
+      "headword": "{記憶|きおく}{違|ちが}い",
+      "label": "faulty memory"
+    },
+    {
+      "type": "related",
+      "target_id": "09985_ikichigai",
+      "reading": "いきちがい",
+      "headword": "{行|い}き{違|ちが}い",
+      "label": "misunderstanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18771_kentouchigai",
+      "reading": "けんとうちがい",
+      "headword": "{見当違|けんとうちが}い",
+      "label": "wrong guess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19638_gokaisuru",
+      "reading": "ごかいする",
+      "headword": "{誤解|ごかい}する",
+      "label": "to misunderstand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19893_kinosei",
+      "reading": "きのせい",
+      "headword": "{気|き}のせい",
+      "label": "one's imagination, just imagining things"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22575_kokoroechigai",
+      "reading": "こころえちがい",
+      "headword": "{心得違|こころえちが}い",
+      "label": "misunderstanding"
     }
   ]
 }

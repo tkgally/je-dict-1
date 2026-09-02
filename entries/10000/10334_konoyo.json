@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10334_konoyo_ex1",
-      "japanese": "この{世|よ}に{永遠|えいえん}はない。",
+      "japanese": "この{世|よ}⟦に→に：00314_ni⟧⟦{永遠|えいえん}→永遠：01873_eien⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Nothing lasts forever in this world.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10334_konoyo_ex2",
-      "japanese": "この{世|よ}で{一番|いちばん}{大切|たいせつ}なものは{何|なん}ですか。",
+      "japanese": "この{世|よ}⟦で→で：00502_de⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧なもの⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What is the most important thing in this world?",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10334_konoyo_ex3",
-      "japanese": "この{世|よ}のものとは{思|おも}えないほど{美|うつく}しい{景色|けしき}だった。",
+      "japanese": "この{世|よ}⟦の→の：09472_no⟧もの⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{思|おも}えない→思う：00492_omou⟧ほど⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{景色|けしき}→景色：01395_keshiki⟧だった。",
       "english": "The scenery was so beautiful it seemed out of this world.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "この{世|よ} refers to the present, living world as opposed to the afterlife or a spiritual realm. It carries a literary, philosophical, or emotional tone and is common in proverbs, poetry, and reflective speech.\n\nCOMMON EXPRESSIONS:\n- この{世|よ}のものとは{思|おも}えない: otherworldly, unbelievably beautiful\n- この{世|よ}の{終|お}わり: the end of the world\n- この{世|よ}を{去|さ}る: to pass away, to leave this world\n- この{世|よ}に{生|い}きる: to live in this world\n- この{世|よ}に{生|う}まれる: to be born into this world\n\nCONTRAST:\n- この{世|よ}: this world (the living world)\n- あの{世|よ}: the next world (the afterlife)\n- {現世|げんせ}: the present world (Buddhist term, more formal)\n\nREGISTER:\nSomewhat literary. In everyday conversation, {世界|せかい} (world) or {世|よ}の{中|なか} (society, the world at large) is more common.",
+  "notes": "この{世|よ} refers to the present, living world as opposed to the afterlife or a spiritual realm. It carries a literary, philosophical, or emotional tone and is common in proverbs, poetry, and reflective speech.\n\nCOMMON EXPRESSIONS:\n- この{世|よ}⟦の→の：09472_no⟧もの⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{思|おも}えない→思う：00492_omou⟧: otherworldly, unbelievably beautiful\n- この{世|よ}⟦の→の：09472_no⟧⟦{終|お}わり→終わり：01361_owari⟧: the end of the world\n- この{世|よ}⟦を→を：00422_wo⟧⟦{去|さ}る→去る：02115_saru⟧: to pass away, to leave this world\n- この{世|よ}⟦に→に：00314_ni⟧⟦{生|い}きる→生きる：01184_ikiru⟧: to live in this world\n- この{世|よ}⟦に→に：00314_ni⟧⟦{生|う}まれる→生まれる：00905_umareru⟧: to be born into this world\n\nSIMILAR WORDS:\n- この{世|よ}: this world (the living world)\n- ⟦あの{世|よ}→あの世：10214_anoyo⟧: the next world (the afterlife)\n- ⟦{現世|げんせ}→現世：20421_gense⟧: the present world (Buddhist term, more formal)\n\nREGISTER:\nSomewhat literary. In everyday conversation, ⟦{世界|せかい}→世界：01447_sekai⟧ (world) or ⟦{世|よ}の{中|なか}→世の中：03666_yononaka⟧ (society, the world at large) is more common.",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,17 +52,25 @@
       "reading": "あのよ",
       "headword": "あの{世|よ}",
       "label": "the afterlife"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20421_gense",
+      "reading": "げんせ",
+      "headword": "{現世|げんせ}",
+      "label": "the present world"
     }
   ],
   "metadata": {
     "created": "2026-02-07T06:48:21Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "style": [
         "literary"
       ],

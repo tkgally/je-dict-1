@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "20578_gendouryoku_ex1",
-      "japanese": "{好奇心|こうきしん}が{成長|せいちょう}の{原動力|げんどうりょく}だ。",
+      "japanese": "⟦{好奇心|こうきしん}→好奇心：05213_koukishin⟧⟦が→が：00051_ga⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦の→の：09472_no⟧{原動力|げんどうりょく}だ。",
       "english": "Curiosity is the driving force behind growth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20578_gendouryoku_ex2",
-      "japanese": "{技術|ぎじゅつ}{革新|かくしん}が{経済|けいざい}{発展|はってん}の{原動力|げんどうりょく}になった。",
+      "japanese": "⟦{技術|ぎじゅつ}{革新|かくしん}→技術革新：12892_gijutsukakushin⟧⟦が→が：00051_ga⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦の→の：09472_no⟧{原動力|げんどうりょく}になった。",
       "english": "Technological innovation became the driving force of economic development.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20578_gendouryoku_ex3",
-      "japanese": "{家族|かぞく}への{愛情|あいじょう}が、{彼|かれ}が{頑張|がんば}る{原動力|げんどうりょく}になっている。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{愛情|あいじょう}→愛情：01673_aijou⟧⟦が→が：00051_ga⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦が→が：00051_ga⟧⟦{頑張|がんば}る→頑張る：01222_ganbaru⟧{原動力|げんどうりょく}になっている。",
       "english": "Love for his family is what drives him to keep going.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {原|げん} (original/source), {動|どう} (movement), and {力|りょく} (force). Originally a mechanical/physics term for motive power, but now far more commonly used figuratively to describe what motivates or drives progress.\n\nCOMMON COLLOCATIONS:\n- {原動力|げんどうりょく}になる: to become the driving force\n- {原動力|げんどうりょく}となる: to serve as the driving force (more formal)\n- {経済|けいざい}の{原動力|げんどうりょく}: the engine of the economy\n- {成長|せいちょう}の{原動力|げんどうりょく}: the driving force of growth\n\nSIMILAR WORDS:\n- {動力|どうりょく}: power, motive force — more technical/mechanical\n- {推進力|すいしんりょく}: propulsion, driving force — emphasizes forward movement\n- モチベーション: motivation — loanword, used for personal motivation\n- {原因|げんいん}: cause — simply what caused something, without the implication of ongoing energy",
+  "notes": "Composed of {原|げん} (original/source), {動|どう} (movement), and {力|りょく} (force). Originally a mechanical/physics term for motive power, but now far more commonly used figuratively to describe what motivates or drives progress.\n\nCOMMON COLLOCATIONS:\n- {原動力|げんどうりょく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become the driving force\n- {原動力|げんどうりょく}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to serve as the driving force (more formal)\n- ⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{原動力|げんどうりょく}: the engine of the economy\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧⟦の→の：09472_no⟧{原動力|げんどうりょく}: the driving force of growth\n\nSIMILAR WORDS:\n- ⟦{動力|どうりょく}→動力：18784_douryoku⟧: power, motive force — more technical/mechanical\n- ⟦{推進力|すいしんりょく}→推進力：15905_suishinryoku⟧: propulsion, driving force — emphasizes forward movement\n- ⟦モチベーション→モチベーション：06184_mochibeeshon⟧: motivation — loanword, used for personal motivation\n- ⟦{原因|げんいん}→原因：01400_genin⟧: cause — simply what caused something, without the implication of ongoing energy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15905_suishinryoku",
+      "reading": "すいしんりょく",
+      "headword": "{推進力|すいしんりょく}",
+      "label": "propulsion, driving force"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06184_mochibeeshon",
+      "reading": "もちべーしょん",
+      "headword": "モチベーション",
+      "label": "motivation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01400_genin",
+      "reading": "げんいん",
+      "headword": "{原因|げんいん}",
+      "label": "cause"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24849_keninryoku",
+      "reading": "けんいんりょく",
+      "headword": "{牽引力|けんいんりょく}",
+      "label": "pulling power"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-29T18:14:54Z",
-    "modified": "2026-03-29T18:14:54Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

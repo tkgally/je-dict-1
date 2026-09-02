@@ -3,7 +3,7 @@
   "id": "15031_kyuusui",
   "headword": "{給水|きゅうすい}",
   "reading": "きゅうすい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "water supply",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15031_kyuusui_ex1",
-      "japanese": "{給水|きゅうすい}ポイントで{水|みず}を{飲|の}んだ。",
+      "japanese": "{給水|きゅうすい}⟦ポイント→ポイント：11283_pointo⟧⟦で→で：00502_de⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I drank water at the water station.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15031_kyuusui_ex2",
-      "japanese": "{災害|さいがい}{時|じ}に{給水|きゅうすい}{車|しゃ}が{出動|しゅつどう}した。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧{給水|きゅうすい}{車|しゃ}⟦が→が：00051_ga⟧⟦{出動|しゅつどう}→出動：28803_shutsudou⟧⟦した→する：00392_suru⟧。",
       "english": "Water trucks were dispatched during the disaster.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15031_kyuusui_ex3",
-      "japanese": "{工事|こうじ}のため{明日|あした}は{給水|きゅうすい}が{停止|ていし}されます。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧{給水|きゅうすい}⟦が→が：00051_ga⟧⟦{停止|ていし}→停止：04067_teishi⟧⟦されます→する：00392_suru⟧。",
       "english": "The water supply will be suspended tomorrow due to construction.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE: Common in both everyday and official contexts. Often seen in announcements about water supply disruptions or at marathon events.\n\nCOMMON COLLOCATIONS:\n- {給水|きゅうすい}{車|しゃ}: water truck, water tanker\n- {給水|きゅうすい}ポイント / {給水|きゅうすい}{所|じょ}: water station (at marathons, disasters)\n- {給水|きゅうすい}{管|かん}: water pipe\n- {給水|きゅうすい}{制限|せいげん}: water rationing\n- {給水|きゅうすい}を{止|と}める: to cut off the water supply\n\nCONTRAST: {給水|きゅうすい} (supplying water) vs. {排水|はいすい} (drainage, draining water).",
+  "notes": "USAGE: Common in both everyday and official contexts. Often seen in announcements about water supply disruptions or at marathon events.\n\nCOMMON COLLOCATIONS:\n- {給水|きゅうすい}{車|しゃ}: water truck, water tanker\n- {給水|きゅうすい}⟦ポイント→ポイント：11283_pointo⟧ / {給水|きゅうすい}{所|じょ}: water station (at marathons, disasters)\n- {給水|きゅうすい}{管|かん}: water pipe\n- {給水|きゅうすい}⟦{制限|せいげん}→制限：03375_seigen⟧: water rationing\n- {給水|きゅうすい}⟦を→を：00422_wo⟧⟦{止|と}める→止める：00678_tomeru⟧: to cut off the water supply\n\nCONTRAST: {給水|きゅうすい} (supplying water) vs. ⟦{排水|はいすい}→排水：11104_haisui⟧ (drainage, draining water).",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,60 @@
       "reading": "はいすい",
       "headword": "{排水|はいすい}",
       "label": "drainage"
+    },
+    {
+      "type": "related",
+      "target_id": "04518_dansui",
+      "reading": "だんすい",
+      "headword": "{断水|だんすい}",
+      "label": "water outage, water cutoff"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21177_hosui",
+      "reading": "ほすい",
+      "headword": "{補水|ほすい}",
+      "label": "rehydration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22604_chosui",
+      "reading": "ちょすい",
+      "headword": "{貯水|ちょすい}",
+      "label": "water storage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24011_sousui",
+      "reading": "そうすい",
+      "headword": "{送水|そうすい}",
+      "label": "water supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24433_haisui",
+      "reading": "はいすい",
+      "headword": "{配水|はいすい}",
+      "label": "water distribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24925_chuusui",
+      "reading": "ちゅうすい",
+      "headword": "{注水|ちゅうすい}",
+      "label": "water injection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29301_kyuuhaisui",
+      "reading": "きゅうはいすい",
+      "headword": "{給排水|きゅうはいすい}",
+      "label": "water supply and drainage"
     }
   ],
   "metadata": {
     "created": "2026-03-05T05:37:10Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:39Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

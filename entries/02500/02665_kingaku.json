@@ -34,7 +34,7 @@
     },
     {
       "id": "02665_kingaku_ex3",
-      "japanese": "⟦{請求|せいきゅう}→請求：03374_seikyuu⟧{金額|きんがく}⟦が→が：00051_ga⟧⟦{高|たか}すぎる→高い：00500_takai⟧ので、⟦もう→もう：00602_mou⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦{確認|かくにん}して→確認する：00158_kakunin⟧⟦ほしい→欲しい：01107_hoshii⟧。",
+      "japanese": "⟦{請求|せいきゅう}→請求：03374_seikyuu⟧{金額|きんがく}⟦が→が：00051_ga⟧⟦{高|たか}すぎる→高い：00500_takai⟧⟦の→の：09472_no⟧で、⟦もう→もう：00602_mou⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦{確認|かくにん}して→確認する：00158_kakunin⟧⟦ほしい→欲しい：01107_hoshii⟧。",
       "english": "The billed amount is too high, so I'd like it checked once more.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{金額|きんがく} refers to specific amounts of money.\n\nCOMMON PATTERNS:\n- {金額|きんがく}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：00158_kakunin⟧ (to confirm the amount)\n- {金額|きんがく}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧/⟦{小|ちい}さい→小さい：00025_chiisai⟧ (the amount is large/small)\n- {金額|きんがく}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力：04769_nyuuryoku⟧ (to enter the amount)\n\nCOMPOUND WORDS:\n- ⟦{合計|ごうけい}→合計：02817_goukei⟧{金額|きんがく} (total amount)\n- ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧{金額|きんがく} (billed amount)\n- ⟦{支払|しはらい}→支払：03193_shiharai⟧{金額|きんがく} (payment amount)\n\nSIMILAR WORDS:\n- {金額|きんがく}: amount of money (specific)\n- ⟦{値段|ねだん}→値段：00871_nedan⟧: price (of goods)\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧: fee, charge",
+  "notes": "{金額|きんがく} refers to specific amounts of money.\n\nCOMMON PATTERNS:\n- {金額|きんがく}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：00158_kakunin⟧ (to confirm the amount)\n- {金額|きんがく}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧/⟦{小|ちい}さい→小さい：00025_chiisai⟧ (the amount is large/small)\n- {金額|きんがく}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力：04769_nyuuryoku⟧ (to enter the amount)\n\nCOMPOUNDS:\n- ⟦{合計|ごうけい}→合計：02817_goukei⟧{金額|きんがく} (total amount)\n- ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧{金額|きんがく} (billed amount)\n- ⟦{支払|しはらい}→支払：03193_shiharai⟧{金額|きんがく} (payment amount)\n\nSIMILAR WORDS:\n- {金額|きんがく}: amount of money (specific)\n- ⟦{値段|ねだん}→値段：00871_nedan⟧: price (of goods)\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧: fee, charge",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,12 +58,26 @@
       "reading": "りょうきん",
       "headword": "{料金|りょうきん}",
       "label": "fee, charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03416_daikin",
+      "reading": "だいきん",
+      "headword": "{代金|だいきん}",
+      "label": "price, payment, cost"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27382_itteigaku",
+      "reading": "いっていがく",
+      "headword": "{一定額|いっていがく}",
+      "label": "a fixed amount"
     }
   ],
   "metadata": {
     "schema_version": "2.0",
     "created": "2026-01-11T06:58:10Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

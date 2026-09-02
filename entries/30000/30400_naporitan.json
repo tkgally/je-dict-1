@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30400_naporitan_ex1",
-      "japanese": "{昼|ひる}はナポリタンにした。",
+      "japanese": "⟦{昼|ひる}→昼：00540_hiru⟧⟦は→は：00079_ha⟧ナポリタンにした。",
       "english": "I had Napolitan for lunch.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30400_naporitan_ex2",
-      "japanese": "この{喫茶店|きっさてん}のナポリタンは{昔|むかし}から{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{喫茶店|きっさてん}→喫茶店：01079_kissaten⟧⟦の→の：09472_no⟧ナポリタン⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This coffee shop's Napolitan has been popular for a long time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30400_naporitan_ex3",
-      "japanese": "{鉄|てつ}のフライパンで{作|つく}るナポリタンは、{少|すこ}し{焦|こ}げたケチャップの{香|かお}りがおいしい。",
+      "japanese": "⟦{鉄|てつ}→鉄：02225_tetsu⟧⟦の→の：09472_no⟧⟦フライパン→フライパン：01025_furaipan⟧⟦で→で：00502_de⟧⟦{作|つく}る→作る：00481_tsukuru⟧ナポリタン⟦は→は：00079_ha⟧、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{焦|こ}げた→焦げる：05344_kogeru⟧⟦ケチャップ→ケチャップ：14719_kechappu⟧⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧おいしい。",
       "english": "Napolitan made in an iron frying pan has a delicious aroma of slightly browned ketchup.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "One of the best-known dishes of {洋食|ようしょく} (Western-style Japanese cooking), strongly associated with old-fashioned {喫茶店|きっさてん} and with school and workplace cafeterias.\n\nCOMMON COLLOCATIONS:\n- ナポリタンを{作|つく}る: to make Napolitan\n- {懐|なつ}かしいナポリタン: nostalgic Napolitan\n- {喫茶店|きっさてん}のナポリタン: coffee-shop Napolitan\n- ナポリタンスパゲッティ: Napolitan spaghetti (fuller name)\n\nSIMILAR WORDS:\n- {鉄板|てっぱん}ナポリタン: a Nagoya version served sizzling on an iron plate over egg\n- ミートソース: meat sauce (bolognese) — the other classic Japanese spaghetti standard\n- パスタ: pasta — the modern, more Italian-leaning general term",
+  "notes": "One of the best-known dishes of ⟦{洋食|ようしょく}→洋食：13274_youshoku⟧ (Western-style Japanese cooking), strongly associated with old-fashioned ⟦{喫茶店|きっさてん}→喫茶店：01079_kissaten⟧ and with school and workplace cafeterias.\n\nCOMMON COLLOCATIONS:\n- ナポリタン⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make Napolitan\n- ⟦{懐|なつ}かしい→懐かしい：02484_natsukashii⟧ナポリタン: nostalgic Napolitan\n- ⟦{喫茶店|きっさてん}→喫茶店：01079_kissaten⟧⟦の→の：09472_no⟧ナポリタン: coffee-shop Napolitan\n- ナポリタン⟦スパゲッティ→スパゲッティ：30382_supagetti⟧: Napolitan spaghetti (fuller name)\n\nSIMILAR WORDS:\n- ⟦{鉄板|てっぱん}→鉄板：14470_teppan⟧ナポリタン: a Nagoya version served sizzling on an iron plate over egg\n- ⟦ミートソース→ミートソース：30415_miitosoosu⟧: meat sauce (bolognese) — the other classic Japanese spaghetti standard\n- ⟦パスタ→パスタ：06768_pasuta⟧: pasta — the modern, more Italian-leaning general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30415_miitosoosu",
+      "reading": "みーとそーす",
+      "headword": "ミートソース",
+      "label": "meat sauce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06768_pasuta",
+      "reading": "ぱすた",
+      "headword": "パスタ",
+      "label": "pasta"
+    },
+    {
+      "type": "related",
+      "target_id": "14719_kechappu",
+      "reading": "けちゃっぷ",
+      "headword": "ケチャップ",
+      "label": "ketchup"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "domain": []
     },
     "created": "2026-08-05T00:20:41Z",
-    "modified": "2026-08-05T00:20:41Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

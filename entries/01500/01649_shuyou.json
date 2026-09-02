@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01649_shuyou_ex1",
-      "japanese": "{主要|しゅよう}な⟦{問題|もんだい}→問題：00797_mondai⟧について⟦{話|はな}しましょう→話す：00467_hanasu⟧。",
+      "japanese": "{主要|しゅよう}な⟦{問題|もんだい}→問題：00797_mondai⟧⟦について→〜について：03103_nitsuite⟧⟦{話|はな}しましょう→話す：00467_hanasu⟧。",
       "english": "Let's talk about the main issues.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "01649_shuyou_ex2",
-      "japanese": "これ⟦は→は：00079_ha⟧{主要|しゅよう}な⟦{原因|げんいん}→原因：01400_genin⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧です。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{主要|しゅよう}な⟦{原因|げんいん}→原因：01400_genin⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧です。",
       "english": "This is one of the main causes.",
       "notes": null,
       "has_audio": false,
@@ -58,11 +58,18 @@
       "reading": "じゅうよう",
       "headword": "{重要|じゅうよう}",
       "label": "important (significance)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22786_juuyouna",
+      "reading": "じゅうような",
+      "headword": "{重要|じゅうよう}な",
+      "label": "important"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T14:16:05Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09020_fukuyaku_ex1",
-      "japanese": "{毎日|まいにち}{決|き}まった{時間|じかん}に{服薬|ふくやく}する。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{決|き}まった→決まる：01233_kimaru⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧{服薬|ふくやく}⟦する→する：00392_suru⟧。",
       "english": "Take medicine at the same time every day.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09020_fukuyaku_ex2",
-      "japanese": "{服薬|ふくやく}を{忘|わす}れないように{アラームを{設定|せってい}した。",
+      "japanese": "{服薬|ふくやく}⟦を→を：00422_wo⟧⟦{忘|わす}れない→忘れる：00474_wasureru⟧よう⟦に→に：00314_ni⟧{アラームを{設定|せってい}した。",
       "english": "I set an alarm so I don't forget to take my medicine.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09020_fukuyaku_ex3",
-      "japanese": "{高齢者|こうれいしゃ}の{服薬|ふくやく}{管理|かんり}は{家族|かぞく}のサポートが{大切|たいせつ}だ。",
+      "japanese": "⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦の→の：09472_no⟧{服薬|ふくやく}⟦{管理|かんり}→管理：00178_kanri⟧⟦は→は：00079_ha⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦サポート→サポート：07776_sapooto⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Family support is important for managing medication for elderly people.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{服薬|ふくやく} is a formal/medical term for taking medicine.\n\nCOMMON COLLOCATIONS:\n- {服薬|ふくやく}する: to take medicine\n- {服薬|ふくやく}{管理|かんり}: medication management\n- {服薬|ふくやく}{指導|しどう}: medication guidance\n- {服薬|ふくやく}スケジュール: medication schedule\n- {服薬|ふくやく}{アドヒアランス}: medication adherence\n\nRELATED TERMS:\n- {薬|くすり}を{飲|の}む: to take medicine (common)\n- {投薬|とうやく}: administering medicine (by medical staff)\n- {処方|しょほう}: prescription\n\nUSAGE NOTE:\n{服薬|ふくやく} is more formal than {薬|くすり}を{飲|の}む and is commonly used in medical settings and healthcare discussions.",
-  "cross_references": [],
+  "notes": "{服薬|ふくやく} is a formal/medical term for taking medicine.\n\nCOMMON COLLOCATIONS:\n- {服薬|ふくやく}⟦する→する：00392_suru⟧: to take medicine\n- {服薬|ふくやく}⟦{管理|かんり}→管理：00178_kanri⟧: medication management\n- {服薬|ふくやく}⟦{指導|しどう}→指導：03190_shidou⟧: medication guidance\n- {服薬|ふくやく}⟦スケジュール→スケジュール：03850_sukejuuru⟧: medication schedule\n- {服薬|ふくやく}アドヒアランス: medication adherence\n\nRELATED WORDS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to take medicine (common)\n- ⟦{投薬|とうやく}→投薬：08213_touyaku⟧: administering medicine (by medical staff)\n- ⟦{処方|しょほう}→処方：05976_shohou⟧: prescription\n\nUSAGE:\n{服薬|ふくやく} is more formal than ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧ and is commonly used in medical settings and healthcare discussions.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08213_touyaku",
+      "reading": "とうやく",
+      "headword": "{投薬|とうやく}",
+      "label": "administering medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "05976_shohou",
+      "reading": "しょほう",
+      "headword": "{処方|しょほう}",
+      "label": "prescription"
+    }
+  ],
   "metadata": {
     "created": "2026-01-30T14:54:30Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

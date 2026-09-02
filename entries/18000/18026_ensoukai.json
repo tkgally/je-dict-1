@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "18026_ensoukai_ex1",
-      "japanese": "{演奏会|えんそうかい}のチケットを{買|か}った。",
+      "japanese": "{演奏会|えんそうかい}⟦の→の：09472_no⟧⟦チケット→チケット：11014_chiketto⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought tickets for the concert.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "18026_ensoukai_ex2",
-      "japanese": "{来月|らいげつ}ピアノの{演奏会|えんそうかい}を{開|ひら}く{予定|よてい}です。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦ピアノ→ピアノ：01376_piano⟧⟦の→の：09472_no⟧{演奏会|えんそうかい}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "I plan to hold a piano recital next month.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "18026_ensoukai_ex3",
-      "japanese": "{年末|ねんまつ}の{演奏会|えんそうかい}では{毎年|まいとし}{第九|だいく}が{演奏|えんそう}される。",
+      "japanese": "⟦{年末|ねんまつ}→年末：17688_nenmatsu⟧⟦の→の：09472_no⟧{演奏会|えんそうかい}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧{第九|だいく}⟦が→が：00051_ga⟧⟦{演奏|えんそう}される→演奏する：20349_ensousuru⟧。",
       "english": "Beethoven's Ninth is performed every year at the year-end concert.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{演奏会|えんそうかい} is the standard term for a concert, mainly used for classical and traditional Japanese music.\n\nCOMMON COLLOCATIONS:\n- {演奏会|えんそうかい}を{開|ひら}く: to hold a concert\n- {演奏会|えんそうかい}に{行|い}く: to go to a concert\n- {定期|ていき}{演奏会|えんそうかい}: regular/subscription concert\n- {独奏|どくそう}{演奏会|えんそうかい}: solo recital\n\nSIMILAR WORDS:\n- コンサート: concert (broader use; also for pop/rock)\n- ライブ: live performance (pop, rock, jazz — casual)\n- リサイタル: recital (solo performance)\n\nNOTE:\n{演奏会|えんそうかい} sounds formal and is associated with classical music. For pop or rock events, Japanese speakers use コンサート or ライブ instead.",
+  "notes": "{演奏会|えんそうかい} is the standard term for a concert, mainly used for classical and traditional Japanese music.\n\nCOMMON COLLOCATIONS:\n- {演奏会|えんそうかい}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to hold a concert\n- {演奏会|えんそうかい}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to a concert\n- {定期|ていき}{演奏会|えんそうかい}: regular/subscription concert\n- ⟦{独奏|どくそう}→独奏：07539_dokusou⟧{演奏会|えんそうかい}: solo recital\n\nSIMILAR WORDS:\n- ⟦コンサート→コンサート：01360_konsaato⟧: concert (broader use; also for pop/rock)\n- ⟦ライブ→ライブ：05412_raibu⟧: live performance (pop, rock, jazz — casual)\n- ⟦リサイタル→リサイタル：27701_risaitaru⟧: recital (solo performance)\n\nUSAGE:\n{演奏会|えんそうかい} sounds formal and is associated with classical music. For pop or rock events, Japanese speakers use ⟦コンサート→コンサート：01360_konsaato⟧ or ⟦ライブ→ライブ：05412_raibu⟧ instead.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,7 +61,7 @@
       ]
     },
     "created": "2026-03-19T12:15:46Z",
-    "modified": "2026-05-08T04:12:06Z"
+    "modified": "2026-09-02T04:01:50Z"
   },
   "cross_references": [
     {
@@ -70,6 +70,34 @@
       "reading": "こんさーと",
       "headword": "コンサート",
       "label": "concert (broader, casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05412_raibu",
+      "reading": "らいぶ",
+      "headword": "ライブ",
+      "label": "live performance (pop, rock, jazz"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27701_risaitaru",
+      "reading": "りさいたる",
+      "headword": "リサイタル",
+      "label": "recital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11498_ongakukai",
+      "reading": "おんがくかい",
+      "headword": "{音楽会|おんがくかい}",
+      "label": "concert, musical performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27716_happyoukai",
+      "reading": "はっぴょうかい",
+      "headword": "{発表会|はっぴょうかい}",
+      "label": "recital"
     }
   ]
 }

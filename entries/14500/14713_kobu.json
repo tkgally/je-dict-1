@@ -3,7 +3,7 @@
   "id": "14713_kobu",
   "headword": "{鼓舞|こぶ}",
   "reading": "こぶ",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "encouragement; inspiration; rallying",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14713_kobu_ex1",
-      "japanese": "チームを{鼓舞|こぶ}した。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{鼓舞|こぶ}⟦した→する：00392_suru⟧。",
       "english": "He rallied the team.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14713_kobu_ex2",
-      "japanese": "{監督|かんとく}の{言葉|ことば}が{選手|せんしゅ}たちを{鼓舞|こぶ}した。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦を→を：00422_wo⟧{鼓舞|こぶ}⟦した→する：00392_suru⟧。",
       "english": "The coach's words inspired the players.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14713_kobu_ex3",
-      "japanese": "{困難|こんなん}な{状況|じょうきょう}の{中|なか}、リーダーは{仲間|なかま}を{鼓舞|こぶ}し{続|つづ}け、{最後|さいご}まであきらめなかった。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧な⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧、⟦リーダー→リーダー：24312_riidaa⟧⟦は→は：00079_ha⟧⟦{仲間|なかま}→仲間：03498_nakama⟧⟦を→を：00422_wo⟧{鼓舞|こぶ}し⟦{続|つづ}け→続く：00903_tsuzuku⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧あきらめなかった。",
       "english": "In the midst of difficult circumstances, the leader kept rallying the group and never gave up until the end.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Compound of {鼓|こ} (drum; to rouse) + {舞|ぶ} (dance). The imagery is of beating drums and dancing to raise morale — an ancient military practice.\n\nCOMMON COLLOCATIONS:\n- {士気|しき}を{鼓舞|こぶ}する (boost morale)\n- チームを{鼓舞|こぶ}する (rally a team)\n- {自|みずか}らを{鼓舞|こぶ}する (motivate oneself)\n- {鼓舞|こぶ}{激励|げきれい} (encouragement and rallying)\n\nUSAGE NOTES:\nMore formal and literary than {励|はげ}ます (to encourage). {鼓舞|こぶ}する implies rousing someone's fighting spirit or passion, while {励|はげ}ます is gentler and more supportive. Often appears in sports, military, and leadership contexts.",
+  "notes": "Compound of {鼓|こ} (drum; to rouse) + {舞|ぶ} (dance). The imagery is of beating drums and dancing to raise morale — an ancient military practice.\n\nCOMMON COLLOCATIONS:\n- ⟦{士気|しき}→士気：19824_shiki⟧⟦を→を：00422_wo⟧{鼓舞|こぶ}⟦する→する：00392_suru⟧ (boost morale)\n- ⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{鼓舞|こぶ}⟦する→する：00392_suru⟧ (rally a team)\n- ⟦{自|みずか}ら→自ら：00287_mizukara⟧⟦を→を：00422_wo⟧{鼓舞|こぶ}⟦する→する：00392_suru⟧ (motivate oneself)\n- {鼓舞|こぶ}⟦{激励|げきれい}→激励：15022_gekirei⟧ (encouragement and rallying)\n\nUSAGE:\nMore formal and literary than ⟦{励|はげ}ます→励ます：05304_hagemasu⟧ (to encourage). {鼓舞|こぶ}⟦する→する：00392_suru⟧ implies rousing someone's fighting spirit or passion, while ⟦{励|はげ}ます→励ます：05304_hagemasu⟧ is gentler and more supportive. Often appears in sports, military, and leadership contexts.",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "はげます",
       "headword": "{励|はげ}ます",
       "label": "gentler, supportive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15022_gekirei",
+      "reading": "げきれい",
+      "headword": "{激励|げきれい}",
+      "label": "encouragement, urging on"
     }
   ],
   "metadata": {
     "created": "2026-03-03T09:09:14Z",
-    "modified": "2026-04-30T10:24:44Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

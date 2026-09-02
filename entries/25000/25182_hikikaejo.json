@@ -15,38 +15,67 @@
   "examples": [
     {
       "id": "25182_hikikaejo_ex1",
-      "japanese": "チケットの{引換所|ひきかえじょ}はどこですか。",
+      "japanese": "⟦チケット→チケット：11014_chiketto⟧⟦の→の：09472_no⟧{引換所|ひきかえじょ}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the ticket exchange counter?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25182_hikikaejo_ex2",
-      "japanese": "{景品|けいひん}の{引換所|ひきかえじょ}に{長|なが}い{列|れつ}ができていた。",
+      "japanese": "⟦{景品|けいひん}→景品：08319_keihin⟧⟦の→の：09472_no⟧{引換所|ひきかえじょ}⟦に→に：00314_ni⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{列|れつ}→列：02171_retsu⟧⟦が→が：00051_ga⟧⟦できていた→できる：00557_dekiru⟧。",
       "english": "A long line had formed at the prize redemption booth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25182_hikikaejo_ex3",
-      "japanese": "{空港|くうこう}の{到着|とうちゃく}ロビーにある{引換所|ひきかえじょ}で、{予約|よやく}したレンタカーの{鍵|かぎ}を{受|う}け{取|と}った。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦の→の：09472_no⟧⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦ロビー→ロビー：26995_robii⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧{引換所|ひきかえじょ}⟦で→で：00502_de⟧、⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧⟦レンタカー→レンタカー：23193_rentakaa⟧⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧⟦{受|う}け{取|と}った→受け取る：01883_uketoru⟧。",
       "english": "I picked up the keys for the rental car I reserved at the exchange counter in the airport arrivals lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {引換|ひきかえ} (exchange, redemption) and {所|じょ} (place, counter). The {所|じょ} suffix creates place nouns: {案内所|あんないじょ} (information desk), {受付所|うけつけじょ} (reception), {両替所|りょうがえじょ} (currency exchange).\n\nCOMMON COLLOCATIONS:\n- チケット{引換所|ひきかえじょ}: ticket exchange counter\n- {景品|けいひん}{引換所|ひきかえじょ}: prize redemption booth\n- {引換所|ひきかえじょ}で{受|う}け{取|と}る: to receive at the exchange counter\n- {引換所|ひきかえじょ}に{並|なら}ぶ: to line up at the exchange counter\n\nSIMILAR WORDS:\n- {受付|うけつけ}: reception desk — a more general service counter\n- {窓口|まどぐち}: service window, counter — a broader term for any service window\n- {両替所|りょうがえじょ}: currency exchange — specifically for exchanging money",
+  "notes": "A compound of {引換|ひきかえ} (exchange, redemption) and {所|じょ} (place, counter). The {所|じょ} suffix creates place nouns: ⟦{案内所|あんないじょ}→案内所：17418_annaijo⟧ (information desk), {受付所|うけつけじょ} (reception), {両替所|りょうがえじょ} (currency exchange).\n\nCOMMON COLLOCATIONS:\n- ⟦チケット→チケット：11014_chiketto⟧{引換所|ひきかえじょ}: ticket exchange counter\n- ⟦{景品|けいひん}→景品：08319_keihin⟧{引換所|ひきかえじょ}: prize redemption booth\n- {引換所|ひきかえじょ}⟦で→で：00502_de⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive at the exchange counter\n- {引換所|ひきかえじょ}⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: to line up at the exchange counter\n\nSIMILAR WORDS:\n- ⟦{受付|うけつけ}→受付：01325_uketsuke⟧: reception desk — a more general service counter\n- ⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: service window, counter — a broader term for any service window\n- {両替所|りょうがえじょ}: currency exchange — specifically for exchanging money",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01325_uketsuke",
+      "reading": "うけつけ",
+      "headword": "{受付|うけつけ}",
+      "label": "reception desk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03154_madoguchi",
+      "reading": "まどぐち",
+      "headword": "{窓口|まどぐち}",
+      "label": "service window, counter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "travel"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "travel"
+      ]
     },
     "created": "2026-04-23T13:27:34Z",
-    "modified": "2026-04-23T13:27:34Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

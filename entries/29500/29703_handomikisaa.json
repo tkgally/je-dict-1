@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29703_handomikisaa_ex1",
-      "japanese": "ハンドミキサーで{卵|たまご}を{混|ま}ぜる。",
+      "japanese": "ハンドミキサー⟦で→で：00502_de⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧。",
       "english": "I beat the eggs with a hand mixer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29703_handomikisaa_ex2",
-      "japanese": "ハンドミキサーがあると{泡立|あわだ}てが{楽|らく}だ。",
+      "japanese": "ハンドミキサー⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{泡立|あわだ}て→泡立つ：17096_awadatsu⟧⟦が→が：00051_ga⟧⟦{楽|らく}→楽：02169_raku⟧だ。",
       "english": "Whipping is easy when you have a hand mixer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29703_handomikisaa_ex3",
-      "japanese": "{生|なま}クリームは{泡立|あわだ}て{器|き}よりハンドミキサーのほうが{早|はや}く{仕上|しあ}がる。",
+      "japanese": "⟦{生|なま}クリーム→生クリーム：15884_namakuriimu⟧⟦は→は：00079_ha⟧⟦{泡立|あわだ}て{器|き}→泡立て器：08066_awadateki⟧⟦より→より：09476_yori⟧ハンドミキサー⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{仕上|しあ}がる→仕上がる：11429_shiagaru⟧。",
       "english": "Whipped cream comes out faster with a hand mixer than with a whisk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Japanese compound from English \"hand\" + \"mixer.\" Refers to the small handheld electric mixer used in home baking, as opposed to a countertop stand mixer.\n\nCOMMON COLLOCATIONS:\n- ハンドミキサーで{泡立|あわだ}てる: to whip with a hand mixer\n- ハンドミキサーを{使|つか}う: to use a hand mixer\n\nSIMILAR WORDS:\n- {泡立|あわだ}て{器|き}: whisk — a manual tool for the same tasks\n- ミキサー: blender — in Japanese ミキサー usually means a blender for liquids, not a beater",
+  "notes": "Japanese compound from English \"hand\" + \"mixer.\" Refers to the small handheld electric mixer used in home baking, as opposed to a countertop stand mixer.\n\nCOMMON COLLOCATIONS:\n- ハンドミキサー⟦で→で：00502_de⟧⟦{泡立|あわだ}てる→泡立てる：06419_awadateru⟧: to whip with a hand mixer\n- ハンドミキサー⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a hand mixer\n\nSIMILAR WORDS:\n- ⟦{泡立|あわだ}て{器|き}→泡立て器：08066_awadateki⟧: whisk — a manual tool for the same tasks\n- ⟦ミキサー→ミキサー：04676_mikisaa⟧: blender — in Japanese ⟦ミキサー→ミキサー：04676_mikisaa⟧ usually means a blender for liquids, not a beater",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08066_awadateki",
+      "reading": "あわだてき",
+      "headword": "{泡立|あわだ}て{器|き}",
+      "label": "whisk"
+    },
+    {
+      "type": "related",
+      "target_id": "04676_mikisaa",
+      "reading": "みきさー",
+      "headword": "ミキサー",
+      "label": "blender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23734_kakuhanki",
+      "reading": "かくはんき",
+      "headword": "{攪拌器|かくはんき}",
+      "label": "mixer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -4,7 +4,7 @@
   "headword": "{育苗|いくびょう}",
   "reading": "いくびょう",
   "romaji": "ikubyou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "raising seedlings; nursery cultivation",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24449_ikubyou_ex1",
-      "japanese": "{春|はる}になったら{育苗|いくびょう}を{始|はじ}める。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧になったら{育苗|いくびょう}⟦を→を：00422_wo⟧{始|はじ}める。",
       "english": "We start raising seedlings when spring comes.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24449_ikubyou_ex2",
-      "japanese": "{育苗|いくびょう}ポットに{種|たね}をまいた。",
+      "japanese": "{育苗|いくびょう}⟦ポット→ポット：05286_potto⟧⟦に→に：00314_ni⟧⟦{種|たね}→種：02157_tane⟧⟦を→を：00422_wo⟧まいた。",
       "english": "I sowed seeds in seedling pots.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24449_ikubyou_ex3",
-      "japanese": "この{農家|のうか}では{温室|おんしつ}を{使|つか}って{冬|ふゆ}の{間|あいだ}も{育苗|いくびょう}を{行|おこな}い、{早|はや}い{時期|じき}に{苗|なえ}を{出荷|しゅっか}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{農家|のうか}→農家：03539_nouka⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{温室|おんしつ}→温室：04116_onshitsu⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦も→も：00484_mo⟧{育苗|いくびょう}⟦を→を：00422_wo⟧⟦{行|おこな}い→行う：01238_okonau⟧、⟦{早|はや}い→早い：00514_hayai⟧⟦{時期|じき}→時期：03269_jiki⟧⟦に→に：00314_ni⟧⟦{苗|なえ}→苗：05489_nae⟧⟦を→を：00422_wo⟧⟦{出荷|しゅっか}→出荷：05135_shukka⟧⟦している→する：00392_suru⟧。",
       "english": "This farm uses greenhouses to raise seedlings even during winter and ships them out early in the season.",
       "sense_numbers": [
         1
@@ -45,7 +45,37 @@
       "notes": null
     }
   ],
-  "notes": "The agricultural practice of growing plants from seed to a transplantable stage. Essential in rice farming, where {育苗|いくびょう}{箱|ばこ} (seedling trays) are used to grow rice seedlings before they are transplanted into paddies. Also important in commercial vegetable and flower production.\n\nCOMMON COLLOCATIONS:\n- {育苗|いくびょう}{箱|ばこ}: seedling tray/box\n- {育苗|いくびょう}ポット: seedling pot\n- {育苗|いくびょう}ハウス: seedling greenhouse\n- {育苗|いくびょう}{期間|きかん}: seedling raising period\n\nSIMILAR WORDS:\n- {苗|なえ}: seedling — the young plant itself\n- {種|たね}まき: sowing — the act of planting seeds, the step before raising seedlings\n- {植|う}え{付|つ}け: transplanting — the next step after seedlings are ready\n- {栽培|さいばい}: cultivation — the broader term for growing plants",
+  "notes": "The agricultural practice of growing plants from seed to a transplantable stage. Essential in rice farming, where {育苗|いくびょう}{箱|ばこ} (seedling trays) are used to grow rice seedlings before they are transplanted into paddies. Also important in commercial vegetable and flower production.\n\nCOMMON COLLOCATIONS:\n- {育苗|いくびょう}{箱|ばこ}: seedling tray/box\n- {育苗|いくびょう}⟦ポット→ポット：05286_potto⟧: seedling pot\n- {育苗|いくびょう}ハウス: seedling greenhouse\n- {育苗|いくびょう}⟦{期間|きかん}→期間：00229_kikan⟧: seedling raising period\n\nSIMILAR WORDS:\n- ⟦{苗|なえ}→苗：05489_nae⟧: seedling — the young plant itself\n- ⟦{種|たね}まき→種まき：08104_tanemaki⟧: sowing — the act of planting seeds, the step before raising seedlings\n- ⟦{植|う}え{付|つ}け→植え付け：21341_uetsuke⟧: transplanting — the next step after seedlings are ready\n- ⟦{栽培|さいばい}→栽培：13108_saibai⟧: cultivation — the broader term for growing plants",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08104_tanemaki",
+      "reading": "たねまき",
+      "headword": "{種|たね}まき",
+      "label": "sowing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21341_uetsuke",
+      "reading": "うえつけ",
+      "headword": "{植|う}え{付|つ}け",
+      "label": "transplanting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13108_saibai",
+      "reading": "さいばい",
+      "headword": "{栽培|さいばい}",
+      "label": "cultivation"
+    },
+    {
+      "type": "related",
+      "target_id": "08098_naedoko",
+      "reading": "なえどこ",
+      "headword": "{苗床|なえどこ}",
+      "label": "seedbed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "plant-general"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-19T10:15:15Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{放|はな}す",
   "reading": "はなす",
   "romaji": "hanasu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to let go of; to release; to set free",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29986_hanasu_ex1",
-      "japanese": "ロープを{放|はな}す。",
+      "japanese": "⟦ロープ→ロープ：27860_roopu⟧⟦を→を：00422_wo⟧{放|はな}す。",
       "english": "Let go of the rope.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29986_hanasu_ex2",
-      "japanese": "{捕|つか}まえた{魚|さかな}を{川|かわ}に{放|はな}した。",
+      "japanese": "⟦{捕|つか}まえた→捕まえる：01214_tsukamaeru⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧{放|はな}した。",
       "english": "I released the fish I had caught back into the river.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29986_hanasu_ex3",
-      "japanese": "{子供|こども}が{転|ころ}ばないように、{手|て}を{放|はな}さずにいた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{転|ころ}ばない→転ぶ：00863_korobu⟧よう⟦に→に：00314_ni⟧、⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{放|はな}さずにいた。",
       "english": "I kept from letting go of the child's hand so he would not fall.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nTransitive; the thing released is marked with を. The intransitive counterpart is {放|はな}れる (to come loose, to break away).\n\nCOMMON COLLOCATIONS:\n- {手|て}を{放|はな}す: to let go with one's hand\n- {鳥|とり}を{放|はな}す: to set a bird free\n- {綱|つな}を{放|はな}す: to let go of the rope\n\nSIMILAR WORDS:\n- {離|はな}す: to separate; to move apart — same reading, but the focus is on creating distance between two things\n- {話|はな}す: to speak — an unrelated homophone",
+  "notes": "TRANSITIVITY:\nTransitive; the thing released is marked with ⟦を→を：00422_wo⟧. The intransitive counterpart is {放|はな}れる (to come loose, to break away).\n\nCOMMON COLLOCATIONS:\n- ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{放|はな}す: to let go with one's hand\n- ⟦{鳥|とり}→鳥：00679_tori⟧⟦を→を：00422_wo⟧{放|はな}す: to set a bird free\n- ⟦{綱|つな}→綱：03891_tsuna⟧⟦を→を：00422_wo⟧{放|はな}す: to let go of the rope\n\nSIMILAR WORDS:\n- ⟦{離|はな}す→離す：19372_hanasu⟧: to separate; to move apart — same reading, but the focus is on creating distance between two things\n- ⟦{話|はな}す→話す：00467_hanasu⟧: to speak — an unrelated homophone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "19372_hanasu",
+      "reading": "はなす",
+      "headword": "{離|はな}す",
+      "label": "to separate"
+    },
+    {
+      "type": "homophone",
+      "target_id": "00467_hanasu",
+      "reading": "はなす",
+      "headword": "{話|はな}す",
+      "label": "to speak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10062_hanatsu",
+      "reading": "はなつ",
+      "headword": "{放|はな}つ",
+      "label": "to release, to fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14218_tokihanatsu",
+      "reading": "ときはなつ",
+      "headword": "{解|と}き{放|はな}つ",
+      "label": "to set free, to release, to unleash"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "godan",

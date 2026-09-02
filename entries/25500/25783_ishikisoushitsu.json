@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25783_ishikisoushitsu_ex1",
-      "japanese": "{患者|かんじゃ}は{意識|いしき}{喪失|そうしつ}を{起|お}こした。",
+      "japanese": "⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦は→は：00079_ha⟧{意識|いしき}{喪失|そうしつ}⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧。",
       "english": "The patient lost consciousness.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25783_ishikisoushitsu_ex2",
-      "japanese": "{一時的|いちじてき}な{意識|いしき}{喪失|そうしつ}の{後|あと}、すぐに{回復|かいふく}した。",
+      "japanese": "⟦{一時的|いちじてき}→一時的：05846_ichijiteki⟧な{意識|いしき}{喪失|そうしつ}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{回復|かいふく}した→回復する：21330_kaifukusuru⟧。",
       "english": "After a momentary loss of consciousness, he recovered quickly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25783_ishikisoushitsu_ex3",
-      "japanese": "{運転中|うんてんちゅう}に{意識|いしき}{喪失|そうしつ}が{起|お}きた{場合|ばあい}、{重大|じゅうだい}な{事故|じこ}につながるおそれがある。",
+      "japanese": "⟦{運転中|うんてんちゅう}→運転中：09659_untenchuu⟧⟦に→に：00314_ni⟧{意識|いしき}{喪失|そうしつ}⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧⟦{場合|ばあい}→場合：01704_baai⟧、⟦{重大|じゅうだい}→重大：01641_juudai⟧な⟦{事故|じこ}→事故：00851_jiko⟧⟦に→に：00314_ni⟧つながるおそれ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If a loss of consciousness occurs while driving, it could lead to a serious accident.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A medical and formal term for losing consciousness. Composed of {意識|いしき} (consciousness) and {喪失|そうしつ} (loss). Frequently encountered in news reports about accidents, medical emergencies, and health conditions. The abbreviated form {意識|いしき}を{失|うしな}う (to lose consciousness) is also very common.\n\nCOMMON COLLOCATIONS:\n- {意識|いしき}{喪失|そうしつ}を{起|お}こす: to have a loss of consciousness\n- {一時的|いちじてき}な{意識|いしき}{喪失|そうしつ}: temporary loss of consciousness\n- {突然|とつぜん}の{意識|いしき}{喪失|そうしつ}: sudden loss of consciousness\n- {意識|いしき}{喪失|そうしつ}{状態|じょうたい}: state of unconsciousness\n\nSIMILAR WORDS:\n- {失神|しっしん}: fainting; syncope — a more specific medical term for brief fainting episodes\n- {気絶|きぜつ}: fainting; passing out — slightly more colloquial and dramatic\n- {昏睡|こんすい}: coma — a prolonged state of deep unconsciousness, more severe than {意識|いしき}{喪失|そうしつ}",
-  "cross_references": [],
+  "notes": "A medical and formal term for losing consciousness. Composed of ⟦{意識|いしき}→意識：01714_ishiki⟧ (consciousness) and ⟦{喪失|そうしつ}→喪失：11836_soushitsu⟧ (loss). Frequently encountered in news reports about accidents, medical emergencies, and health conditions. The abbreviated form ⟦{意識|いしき}→意識：01714_ishiki⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧ (to lose consciousness) is also very common.\n\nCOMMON COLLOCATIONS:\n- {意識|いしき}{喪失|そうしつ}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to have a loss of consciousness\n- ⟦{一時的|いちじてき}→一時的：05846_ichijiteki⟧な{意識|いしき}{喪失|そうしつ}: temporary loss of consciousness\n- ⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧{意識|いしき}{喪失|そうしつ}: sudden loss of consciousness\n- {意識|いしき}{喪失|そうしつ}⟦{状態|じょうたい}→状態：03345_joutai⟧: state of unconsciousness\n\nSIMILAR WORDS:\n- ⟦{失神|しっしん}→失神：20933_shisshin⟧: fainting; syncope — a more specific medical term for brief fainting episodes\n- ⟦{気絶|きぜつ}→気絶：19929_kizetsu⟧: fainting; passing out — slightly more colloquial and dramatic\n- ⟦{昏睡|こんすい}→昏睡：23804_konsui⟧: coma — a prolonged state of deep unconsciousness, more severe than {意識|いしき}{喪失|そうしつ}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20933_shisshin",
+      "reading": "しっしん",
+      "headword": "{失神|しっしん}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19929_kizetsu",
+      "reading": "きぜつ",
+      "headword": "{気絶|きぜつ}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23804_konsui",
+      "reading": "こんすい",
+      "headword": "{昏睡|こんすい}",
+      "label": "coma"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-27T13:09:47Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

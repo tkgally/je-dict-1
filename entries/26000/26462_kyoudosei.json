@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "26462_kyoudosei_ex1",
-      "japanese": "この{料理|りょうり}には{強|つよ}い{郷土性|きょうどせい}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧{郷土性|きょうどせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This dish has a strong local character.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26462_kyoudosei_ex2",
-      "japanese": "{郷土性|きょうどせい}を{活|い}かした{町|まち}づくりが{進|すす}んでいる。",
+      "japanese": "{郷土性|きょうどせい}⟦を→を：00422_wo⟧⟦{活|い}かした→活かす：10422_ikasu⟧{町|まち}づくり⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Town development that makes use of local character is progressing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26462_kyoudosei_ex3",
-      "japanese": "{作家|さっか}の{作品|さくひん}には{故郷|ふるさと}の{風景|ふうけい}や{方言|ほうげん}など{豊|ゆた}かな{郷土性|きょうどせい}が{表|あらわ}れている。",
+      "japanese": "⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{故郷|ふるさと}→故郷：25466_furusato⟧⟦の→の：09472_no⟧⟦{風景|ふうけい}→風景：03591_fuukei⟧や⟦{方言|ほうげん}→方言：07419_hougen⟧⟦など→〜など：03095_nado⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧な{郷土性|きょうどせい}⟦が→が：00051_ga⟧⟦{表|あらわ}れている→表れる：14276_arawareru⟧。",
       "english": "The author's works display a rich local character through hometown scenery and dialect.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {郷土|きょうど} (one's native place, homeland) and {性|せい} (nature, quality). A term used in cultural studies, literary criticism, and regional development discussions. Japan's strong regional identities in food, dialect, and customs make this concept particularly relevant.\n\nCOMMON COLLOCATIONS:\n- {郷土性|きょうどせい}が{豊|ゆた}か: rich in local character\n- {郷土性|きょうどせい}を{活|い}かす: to make use of local character\n- {郷土性|きょうどせい}のある{作品|さくひん}: a work with local character\n- {郷土性|きょうどせい}が{薄|うす}れる: local character fading\n\nSIMILAR WORDS:\n- {郷土|きょうど}: native place, homeland — the base noun without the abstract quality suffix\n- {地域性|ちいきせい}: regional character — a more neutral, administrative term for regional distinctiveness\n- {風土|ふうど}: natural features, climate and culture — the combined natural and cultural character of a place",
-  "cross_references": [],
+  "notes": "Composed of ⟦{郷土|きょうど}→郷土：14407_kyoudo⟧ (one's native place, homeland) and ⟦{性|せい}→性：09880_sei⟧ (nature, quality). A term used in cultural studies, literary criticism, and regional development discussions. Japan's strong regional identities in food, dialect, and customs make this concept particularly relevant.\n\nCOMMON COLLOCATIONS:\n- {郷土性|きょうどせい}⟦が→が：00051_ga⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧: rich in local character\n- {郷土性|きょうどせい}⟦を→を：00422_wo⟧⟦{活|い}かす→活かす：10422_ikasu⟧: to make use of local character\n- {郷土性|きょうどせい}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧: a work with local character\n- {郷土性|きょうどせい}⟦が→が：00051_ga⟧⟦{薄|うす}れる→薄れる：14107_usureru⟧: local character fading\n\nSIMILAR WORDS:\n- ⟦{郷土|きょうど}→郷土：14407_kyoudo⟧: native place, homeland — the base noun without the abstract quality suffix\n- ⟦{地域性|ちいきせい}→地域性：22565_chiikisei⟧: regional character — a more neutral, administrative term for regional distinctiveness\n- ⟦{風土|ふうど}→風土：14628_fuudo⟧: natural features, climate and culture — the combined natural and cultural character of a place",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22565_chiikisei",
+      "reading": "ちいきせい",
+      "headword": "{地域性|ちいきせい}",
+      "label": "regional character"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14628_fuudo",
+      "reading": "ふうど",
+      "headword": "{風土|ふうど}",
+      "label": "natural features, climate and culture"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "society"
+      ]
     },
     "created": "2026-05-02T11:30:57Z",
-    "modified": "2026-05-02T11:30:57Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17399_oshoku_ex1",
-      "japanese": "{汚職|おしょく}で{逮捕|たいほ}された。",
+      "japanese": "{汚職|おしょく}⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested for corruption.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17399_oshoku_ex2",
-      "japanese": "{市長|しちょう}の{汚職|おしょく}スキャンダルが{報道|ほうどう}された。",
+      "japanese": "⟦{市長|しちょう}→市長：12472_shichou⟧⟦の→の：09472_no⟧{汚職|おしょく}スキャンダル⟦が→が：00051_ga⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦された→する：00392_suru⟧。",
       "english": "The mayor's corruption scandal was reported in the news.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17399_oshoku_ex3",
-      "japanese": "{政府|せいふ}は{汚職|おしょく}{防止|ぼうし}のための{新|あたら}しい{法律|ほうりつ}を{制定|せいてい}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{汚職|おしょく}⟦{防止|ぼうし}→防止：14571_boushi⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦を→を：00422_wo⟧⟦{制定|せいてい}→制定：11907_seitei⟧⟦した→する：00392_suru⟧。",
       "english": "The government enacted a new law to prevent corruption.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {汚|お} (dirty, corrupt) and {職|しょく} (position, office). Specifically refers to corruption in public office — misuse of governmental authority for personal gain. For corporate corruption, {不正|ふせい} is more commonly used.\n\nCOMMON COLLOCATIONS:\n- {汚職|おしょく}スキャンダル (corruption scandal)\n- {汚職|おしょく}{事件|じけん} (corruption case)\n- {汚職|おしょく}{防止|ぼうし} (corruption prevention)\n- {汚職|おしょく}に{手|て}を{染|そ}める (to get involved in corruption)\n\nSIMILAR WORDS:\n- {賄賂|わいろ}: bribery — the act of giving or receiving bribes, a specific form of {汚職|おしょく}\n- {不正|ふせい}: fraud, irregularity — broader term covering dishonest acts in any context",
+  "notes": "USAGE:\nA compound of {汚|お} (dirty, corrupt) and ⟦{職|しょく}→職：00376_shoku⟧ (position, office). Specifically refers to corruption in public office — misuse of governmental authority for personal gain. For corporate corruption, ⟦{不正|ふせい}→不正：01660_fusei⟧ is more commonly used.\n\nCOMMON COLLOCATIONS:\n- {汚職|おしょく}スキャンダル (corruption scandal)\n- {汚職|おしょく}⟦{事件|じけん}→事件：01568_jiken⟧ (corruption case)\n- {汚職|おしょく}⟦{防止|ぼうし}→防止：14571_boushi⟧ (corruption prevention)\n- {汚職|おしょく}⟦に→に：00314_ni⟧⟦{手|て}を{染|そ}める→手を染める：07451_tewosomeru⟧ (to get involved in corruption)\n\nSIMILAR WORDS:\n- ⟦{賄賂|わいろ}→賄賂：21571_wairo⟧: bribery — the act of giving or receiving bribes, a specific form of {汚職|おしょく}\n- ⟦{不正|ふせい}→不正：01660_fusei⟧: fraud, irregularity — broader term covering dishonest acts in any context",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,46 @@
       "reading": "ふせい",
       "headword": "{不正|ふせい}",
       "label": "fraud, irregularity"
+    },
+    {
+      "type": "related",
+      "target_id": "07997_fuhai",
+      "reading": "ふはい",
+      "headword": "{腐敗|ふはい}",
+      "label": "decay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21598_zouwai",
+      "reading": "ぞうわい",
+      "headword": "{贈賄|ぞうわい}",
+      "label": "bribery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26540_yuchakukankei",
+      "reading": "ゆちゃくかんけい",
+      "headword": "{癒着関係|ゆちゃくかんけい}",
+      "label": "collusive relationship"
+    },
+    {
+      "type": "related",
+      "target_id": "26904_zoushuuwai",
+      "reading": "ぞうしゅうわい",
+      "headword": "{贈収賄|ぞうしゅうわい}",
+      "label": "bribery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27665_shuuwai",
+      "reading": "しゅうわい",
+      "headword": "{収賄|しゅうわい}",
+      "label": "bribery"
     }
   ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,39 +15,58 @@
   "examples": [
     {
       "id": "25927_meniau_ex1",
-      "japanese": "ひどい{目|め}に{遭|あ}った。",
+      "japanese": "⟦ひどい→ひどい：01097_hidoi⟧{目|め}に{遭|あ}った。",
       "english": "I had a terrible experience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25927_meniau_ex2",
-      "japanese": "{旅行|りょこう}{先|さき}でとんでもない{目|め}に{遭|あ}った。",
+      "japanese": "⟦{旅行|りょこう}{先|さき}→旅行先：28195_ryokousaki⟧⟦で→で：00502_de⟧⟦とんでもない→とんでもない：03470_tondemonai⟧{目|め}に{遭|あ}った。",
       "english": "I had an awful experience at my travel destination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25927_meniau_ex3",
-      "japanese": "{詐欺|さぎ}に{遭|あ}って、{散々|さんざん}な{目|め}に{遭|あ}った{人|ひと}の{話|はなし}を{聞|き}いて、{自分|じぶん}も{気|き}をつけようと{思|おも}った。",
+      "japanese": "⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦に→に：00314_ni⟧⟦{遭|あ}って→遭う：09500_au⟧、⟦{散々|さんざん}→散々：10323_sanzan⟧な{目|め}に{遭|あ}った⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦も→も：00484_mo⟧⟦{気|き}をつけよう→気をつける：09771_kiwotsukeru⟧⟦と→と：00512_to⟧⟦{思|おも}った→思う：00492_omou⟧。",
       "english": "After hearing the story of someone who was scammed and went through a terrible ordeal, I decided to be more careful myself.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The core expression is 〜{目|め}に{遭|あ}う, where {目|め} means \"experience\" and {遭|あ}う means \"to encounter.\" It is almost exclusively used for negative experiences. The type of bad experience is specified by a modifier before {目|め}.\n\nCOMMON PATTERNS:\n- ひどい{目|め}に{遭|あ}う: to have a terrible experience\n- {散々|さんざん}な{目|め}に{遭|あ}う: to go through a miserable ordeal\n- とんでもない{目|め}に{遭|あ}う: to have an outrageous experience\n- {怖|こわ}い{目|め}に{遭|あ}う: to have a frightening experience\n- {痛|いた}い{目|め}に{遭|あ}う: to suffer painful consequences\n\nSIMILAR EXPRESSIONS:\n- {目|め}に{遭|あ}わせる: to put someone through a bad experience — the causative form, meaning to inflict hardship on someone\n- {被害|ひがい}に{遭|あ}う: to suffer damage; to be victimized — more formal, emphasizes concrete harm\n- {苦労|くろう}する: to struggle; to have a hard time — emphasizes prolonged effort rather than a discrete bad event",
-  "cross_references": [],
+  "notes": "The core expression is 〜{目|め}に{遭|あ}う, where ⟦{目|め}→目：00525_me⟧ means \"experience\" and ⟦{遭|あ}う→遭う：09500_au⟧ means \"to encounter.\" It is almost exclusively used for negative experiences. The type of bad experience is specified by a modifier before ⟦{目|め}→目：00525_me⟧.\n\nCOMMON PATTERNS:\n- ⟦ひどい→ひどい：01097_hidoi⟧{目|め}に{遭|あ}う: to have a terrible experience\n- ⟦{散々|さんざん}→散々：10323_sanzan⟧な{目|め}に{遭|あ}う: to go through a miserable ordeal\n- ⟦とんでもない→とんでもない：03470_tondemonai⟧{目|め}に{遭|あ}う: to have an outrageous experience\n- ⟦{怖|こわ}い→怖い：00864_kowai⟧{目|め}に{遭|あ}う: to have a frightening experience\n- ⟦{痛|いた}い→痛い：01108_itai⟧{目|め}に{遭|あ}う: to suffer painful consequences\n\nSIMILAR WORDS:\n- {目|め}に{遭|あ}わせる: to put someone through a bad experience — the causative form, meaning to inflict hardship on someone\n- ⟦{被害|ひがい}→被害：02572_higai⟧⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧: to suffer damage; to be victimized — more formal, emphasizes concrete harm\n- ⟦{苦労|くろう}する→苦労する：25357_kurousuru⟧: to struggle; to have a hard time — emphasizes prolonged effort rather than a discrete bad event",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25357_kurousuru",
+      "reading": "くろうする",
+      "headword": "{苦労|くろう}する",
+      "label": "to struggle"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["emotion"]
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-28T12:28:25Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

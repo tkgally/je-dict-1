@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12148_gaishou_ex1",
-      "japanese": "{外傷|がいしょう}は{見|み}られない。",
+      "japanese": "{外傷|がいしょう}⟦は→は：00079_ha⟧⟦{見|み}られない→見る：00283_miru⟧。",
       "english": "No external wounds are visible.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12148_gaishou_ex2",
-      "japanese": "{軽|かる}い{外傷|がいしょう}だったので{入院|にゅういん}は{不要|ふよう}だった。",
+      "japanese": "⟦{軽|かる}い→軽い：00785_karui⟧{外傷|がいしょう}だった⟦の→の：09472_no⟧で⟦{入院|にゅういん}→入院：02091_nyuuin⟧⟦は→は：00079_ha⟧⟦{不要|ふよう}→不要：02527_fuyou⟧だった。",
       "english": "It was a minor injury, so hospitalization was unnecessary.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12148_gaishou_ex3",
-      "japanese": "{交通|こうつう}{事故|じこ}で{頭部|とうぶ}に{外傷|がいしょう}を{負|お}い、{救急|きゅうきゅう}{搬送|はんそう}された。",
+      "japanese": "⟦{交通|こうつう}{事故|じこ}→交通事故：21255_koutsuujiko⟧⟦で→で：00502_de⟧{頭部|とうぶ}⟦に→に：00314_ni⟧{外傷|がいしょう}⟦を→を：00422_wo⟧⟦{負|お}い→負う：02017_ou⟧、⟦{救急|きゅうきゅう}→救急：15075_kyuukyuu⟧⟦{搬送|はんそう}→搬送：24543_hansou⟧⟦された→する：00392_suru⟧。",
       "english": "They sustained a head trauma in a traffic accident and were taken away by ambulance.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA medical and formal term. In everyday conversation, {怪我|けが} is more common for general injuries. {外傷|がいしょう} is preferred in medical reports, news, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {外傷|がいしょう}を{負|お}う: to sustain an injury\n- {外傷|がいしょう}を{受|う}ける: to receive an injury\n- {頭部|とうぶ}{外傷|がいしょう}: head trauma\n- {外傷|がいしょう}{性|せい}: traumatic (as in {外傷|がいしょう}{性|せい}ストレス)",
+  "notes": "USAGE:\nA medical and formal term. In everyday conversation, {怪我|けが} is more common for general injuries. {外傷|がいしょう} is preferred in medical reports, news, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {外傷|がいしょう}⟦を→を：00422_wo⟧⟦{負|お}う→負う：02017_ou⟧: to sustain an injury\n- {外傷|がいしょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive an injury\n- {頭部|とうぶ}{外傷|がいしょう}: head trauma\n- {外傷|がいしょう}⟦{性|せい}→性：09880_sei⟧: traumatic (as in {外傷|がいしょう}⟦{性|せい}→性：09880_sei⟧⟦ストレス→ストレス：03827_sutoresu⟧)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "headword": "けが",
       "label": "injury (general)",
       "target_id": "00787_kega"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15287_fushou",
+      "reading": "ふしょう",
+      "headword": "{負傷|ふしょう}",
+      "label": "injury"
     }
   ],
   "metadata": {
     "created": "2026-02-20T09:48:55Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

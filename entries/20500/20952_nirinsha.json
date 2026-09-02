@@ -14,40 +14,94 @@
   "examples": [
     {
       "id": "20952_nirinsha_ex1",
-      "japanese": "{二輪車|にりんしゃ}{通行禁止|つうこうきんし}。",
+      "japanese": "{二輪車|にりんしゃ}⟦{通行禁止|つうこうきんし}→通行禁止：24673_tsuukoukinshi⟧。",
       "english": "No two-wheeled vehicles allowed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20952_nirinsha_ex2",
-      "japanese": "{二輪車|にりんしゃ}の{駐輪場|ちゅうりんじょう}はあちらです。",
+      "japanese": "{二輪車|にりんしゃ}⟦の→の：09472_no⟧⟦{駐輪場|ちゅうりんじょう}→駐輪場：09240_chuurinjou⟧⟦は→は：00079_ha⟧⟦あちら→あちら：00913_achira⟧です。",
       "english": "The bicycle/motorcycle parking area is over there.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20952_nirinsha_ex3",
-      "japanese": "{二輪車|にりんしゃ}の{免許|めんきょ}を{取得|しゅとく}するには{教習所|きょうしゅうじょ}に{通|かよ}う{必要|ひつよう}がある。",
+      "japanese": "{二輪車|にりんしゃ}⟦の→の：09472_no⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{教習所|きょうしゅうじょ}→教習所：12929_kyoushuujo⟧⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To obtain a motorcycle license, you need to attend a driving school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal, official term encompassing both bicycles and motorized two-wheelers. Commonly seen on road signs and in traffic regulations. In everyday speech, people typically use more specific terms like {自転車|じてんしゃ} (bicycle) or バイク (motorcycle).\n\nCOMMON COLLOCATIONS:\n- {二輪車|にりんしゃ}{通行禁止|つうこうきんし}: no two-wheeled vehicles\n- {二輪車|にりんしゃ}の{免許|めんきょ}: motorcycle license\n- {二輪車|にりんしゃ}{駐車場|ちゅうしゃじょう}: two-wheel vehicle parking\n- {自動|じどう}{二輪車|にりんしゃ}: motorcycle (official term)\n\nSIMILAR WORDS:\n- {自転車|じてんしゃ}: bicycle — pedal-powered\n- バイク: motorcycle — colloquial\n- オートバイ: motorcycle — slightly more formal than バイク\n- {原付|げんつき}: moped, scooter — small engine motorcycle\n- {四輪車|よんりんしゃ}: four-wheeled vehicle",
+  "notes": "A formal, official term encompassing both bicycles and motorized two-wheelers. Commonly seen on road signs and in traffic regulations. In everyday speech, people typically use more specific terms like ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧ (bicycle) or ⟦バイク→バイク：05081_baiku⟧ (motorcycle).\n\nCOMMON COLLOCATIONS:\n- {二輪車|にりんしゃ}⟦{通行禁止|つうこうきんし}→通行禁止：24673_tsuukoukinshi⟧: no two-wheeled vehicles\n- {二輪車|にりんしゃ}⟦の→の：09472_no⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧: motorcycle license\n- {二輪車|にりんしゃ}⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧: two-wheel vehicle parking\n- ⟦{自動|じどう}→自動：03339_jidou⟧{二輪車|にりんしゃ}: motorcycle (official term)\n\nSIMILAR WORDS:\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧: bicycle — pedal-powered\n- ⟦バイク→バイク：05081_baiku⟧: motorcycle — colloquial\n- ⟦オートバイ→オートバイ：01774_ootobai⟧: motorcycle — slightly more formal than ⟦バイク→バイク：05081_baiku⟧\n- ⟦{原付|げんつき}→原付：26791_gentsuki⟧: moped, scooter — small engine motorcycle\n- ⟦{四輪車|よんりんしゃ}→四輪車：29488_yonrinsha⟧: four-wheeled vehicle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00633_jitensha",
+      "reading": "じてんしゃ",
+      "headword": "{自転車|じてんしゃ}",
+      "label": "bicycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05081_baiku",
+      "reading": "ばいく",
+      "headword": "バイク",
+      "label": "motorcycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01774_ootobai",
+      "reading": "おーとばい",
+      "headword": "オートバイ",
+      "label": "motorcycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26791_gentsuki",
+      "reading": "げんつき",
+      "headword": "{原付|げんつき}",
+      "label": "moped, scooter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29488_yonrinsha",
+      "reading": "よんりんしゃ",
+      "headword": "{四輪車|よんりんしゃ}",
+      "label": "four-wheeled vehicle"
+    },
+    {
+      "type": "related",
+      "target_id": "19986_sanrinsha",
+      "reading": "さんりんしゃ",
+      "headword": "{三輪車|さんりんしゃ}",
+      "label": "tricycle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-03-30T22:20:32Z",
-    "modified": "2026-03-30T22:20:32Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

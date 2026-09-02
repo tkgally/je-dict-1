@@ -2,7 +2,7 @@
   "id": "02287_damaru",
   "headword": "{黙|だま}る",
   "reading": "だまる",
-  "part_of_speech": "godan verb, intransitive",
+  "part_of_speech": "verb (godan, intransitive)",
   "gloss": "to be silent, to say nothing",
   "conjugation": {
     "type": "godan",
@@ -114,7 +114,7 @@
     },
     {
       "id": "02287_damaru_ex2",
-      "japanese": "{黙|だま}っていて⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "{黙|だま}って⟦いて→いる：00495_iru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be quiet.",
       "notes": null,
       "has_audio": false,
@@ -153,11 +153,40 @@
       ]
     }
   ],
-  "notes": "{黙|だま}る means to become silent or stop talking, often implying a deliberate choice to remain quiet.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nASPECT (ている):\n{黙|だま}っている indicates the state of being silent or keeping quiet.\n\nCOMMON PATTERNS:\n- {黙|だま}った⟦まま→〜まま：02007_mama⟧: remaining silent, without speaking\n- {黙|だま}って + verb: silently doing something\n- {黙|だま}っていてください: please be quiet\n- ⟦{黙|だま}りこむ→黙り込む：18270_damarikomu⟧: to fall into silence (compound verb)\n\nRELATED EXPRESSIONS:\n- {黙|だま}れ: Shut up! (imperative, rude)\n- ⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧: silence (noun, formal)\n\nNOTE:\n{黙|だま}って often implies doing something without asking permission or informing others: {黙|だま}って⟦{出|で}かける→出かける：00833_dekakeru⟧ (to leave without saying anything).",
-  "cross_references": [],
+  "notes": "{黙|だま}る means to become silent or stop talking, often implying a deliberate choice to remain quiet.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nASPECT (ている):\n{黙|だま}って⟦いる→いる：00495_iru⟧ indicates the state of being silent or keeping quiet.\n\nCOMMON PATTERNS:\n- {黙|だま}った⟦まま→〜まま：02007_mama⟧: remaining silent, without speaking\n- {黙|だま}って + verb: silently doing something\n- {黙|だま}って⟦いて→いる：00495_iru⟧⟦ください→ください：02899_kudasai⟧: please be quiet\n- ⟦{黙|だま}りこむ→黙り込む：18270_damarikomu⟧: to fall into silence (compound verb)\n\nRELATED WORDS:\n- {黙|だま}れ: Shut up! (imperative, rude)\n- ⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧: silence (noun, formal)\n\nUSAGE:\n{黙|だま}って often implies doing something without asking permission or informing others: {黙|だま}って⟦{出|で}かける→出かける：00833_dekakeru⟧ (to leave without saying anything).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13249_chinmoku",
+      "reading": "ちんもく",
+      "headword": "{沈黙|ちんもく}",
+      "label": "silence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21119_kuchiwotsugumu",
+      "reading": "くちをつぐむ",
+      "headword": "{口|くち}をつぐむ",
+      "label": "to keep silent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23119_kuchiwotozasu",
+      "reading": "くちをとざす",
+      "headword": "{口|くち}を{閉|と}ざす",
+      "label": "to clam up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25361_chinmokusuru",
+      "reading": "ちんもくする",
+      "headword": "{沈黙|ちんもく}する",
+      "label": "to remain silent"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:15:18Z",
-    "modified": "2026-05-18T23:16:04Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

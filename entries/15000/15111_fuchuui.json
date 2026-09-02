@@ -3,7 +3,7 @@
   "id": "15111_fuchuui",
   "headword": "{不注意|ふちゅうい}",
   "reading": "ふちゅうい",
-  "part_of_speech": "noun / na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "carelessness; inattention",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15111_fuchuui_ex1",
-      "japanese": "{不注意|ふちゅうい}で{転|ころ}んでしまった。",
+      "japanese": "{不注意|ふちゅうい}⟦で→で：00502_de⟧⟦{転|ころ}んで→転ぶ：00863_korobu⟧しまった。",
       "english": "I fell down due to carelessness.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15111_fuchuui_ex2",
-      "japanese": "{不注意|ふちゅうい}な{運転|うんてん}は{事故|じこ}の{原因|げんいん}になる。",
+      "japanese": "{不注意|ふちゅうい}な⟦{運転|うんてん}→運転：01335_unten⟧⟦は→は：00079_ha⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Careless driving causes accidents.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15111_fuchuui_ex3",
-      "japanese": "{自分|じぶん}の{不注意|ふちゅうい}から{大切|たいせつ}な{書類|しょるい}をなくしてしまった。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{不注意|ふちゅうい}⟦から→から：00504_kara⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧なくしてしまった。",
       "english": "I lost important documents due to my own carelessness.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAs a noun, {不注意|ふちゅうい} often appears with particles like で (due to) or から (from/because of). As a na-adjective, it modifies nouns directly with な: {不注意|ふちゅうい}な{行動|こうどう} (careless behavior).\n\nCOMMON COLLOCATIONS:\n- {不注意|ふちゅうい}による{事故|じこ} (accident due to carelessness)\n- {不注意|ふちゅうい}な{行動|こうどう} (careless behavior)\n- {不注意|ふちゅうい}で{怪我|けが}をする (to get injured from carelessness)\n- {不注意|ふちゅうい}を{詫|わ}びる (to apologize for one's carelessness)",
-  "cross_references": [],
+  "notes": "USAGE:\nAs a noun, {不注意|ふちゅうい} often appears with particles like で (due to) or ⟦から→から：00504_kara⟧ (from/because of). As a na-adjective, it modifies nouns directly with な: {不注意|ふちゅうい}な⟦{行動|こうどう}→行動：02728_koudou⟧ (careless behavior).\n\nCOMMON COLLOCATIONS:\n- {不注意|ふちゅうい}⟦による→による：28349_niyoru⟧⟦{事故|じこ}→事故：00851_jiko⟧ (accident due to carelessness)\n- {不注意|ふちゅうい}な⟦{行動|こうどう}→行動：02728_koudou⟧ (careless behavior)\n- {不注意|ふちゅうい}⟦で→で：00502_de⟧{怪我|けが}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to get injured from carelessness)\n- {不注意|ふちゅうい}⟦を→を：00422_wo⟧⟦{詫|わ}びる→詫びる：14174_wabiru⟧ (to apologize for one's carelessness)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25721_mushiryo",
+      "reading": "むしりょ",
+      "headword": "{無思慮|むしりょ}",
+      "label": "thoughtlessness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27420_kearesumisu",
+      "reading": "けあれすみす",
+      "headword": "ケアレスミス",
+      "label": "careless mistake"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T07:50:11Z",
-    "modified": "2026-07-15T03:29:10Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

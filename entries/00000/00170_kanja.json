@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{患者|かんじゃ} refers to a person receiving medical treatment.\n\nPOLITE FORM:\n{患者|かんじゃ}⟦さん→さん：09848_san⟧ is commonly used when referring to patients respectfully.\n\nCOMMON COMPOUNDS:\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧{患者|かんじゃ}: hospitalized patient (inpatient)\n- ⟦{外来|がいらい}→外来：09895_gairai⟧{患者|かんじゃ}: outpatient\n- ⟦{重症|じゅうしょう}→重症：09792_juushou⟧{患者|かんじゃ}: critically ill patient\n- ⟦{新規|しんき}→新規：06289_shinki⟧{患者|かんじゃ}: new patient\n- ⟦{患者数|かんじゃすう}→患者数：27361_kanjasuu⟧: number of patients\n\nRELATED:\n- ⟦{病人|びょうにん}→病人：09784_byounin⟧: sick person (general, less formal)\n- ⟦{医者|いしゃ}→医者：02847_isha⟧: doctor\n- ⟦{看護師|かんごし}→看護師：05055_kangoshi⟧: nurse",
+  "notes": "{患者|かんじゃ} refers to a person receiving medical treatment.\n\nKEIGO:\n{患者|かんじゃ}⟦さん→さん：09848_san⟧ is commonly used when referring to patients respectfully.\n\nCOMPOUNDS:\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧{患者|かんじゃ}: hospitalized patient (inpatient)\n- ⟦{外来|がいらい}→外来：09895_gairai⟧{患者|かんじゃ}: outpatient\n- ⟦{重症|じゅうしょう}→重症：09792_juushou⟧{患者|かんじゃ}: critically ill patient\n- ⟦{新規|しんき}→新規：06289_shinki⟧{患者|かんじゃ}: new patient\n- ⟦{患者数|かんじゃすう}→患者数：27361_kanjasuu⟧: number of patients\n\nRELATED WORDS:\n- ⟦{病人|びょうにん}→病人：09784_byounin⟧: sick person (general, less formal)\n- ⟦{医者|いしゃ}→医者：02847_isha⟧: doctor\n- ⟦{看護師|かんごし}→看護師：05055_kangoshi⟧: nurse",
   "cross_references": [
     {
       "type": "related",
@@ -65,11 +65,46 @@
       "headword": "{病人|びょうにん}",
       "label": "sick person",
       "target_id": "09784_byounin"
+    },
+    {
+      "type": "related",
+      "target_id": "00577_byouin",
+      "reading": "びょういん",
+      "headword": "{病院|びょういん}",
+      "label": "hospital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18329_shourei",
+      "reading": "しょうれい",
+      "headword": "{症例|しょうれい}",
+      "label": "case (medical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22915_hikensha",
+      "reading": "ひけんしゃ",
+      "headword": "{被験者|ひけんしゃ}",
+      "label": "test subject"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28388_kansensha",
+      "reading": "かんせんしゃ",
+      "headword": "{感染者|かんせんしゃ}",
+      "label": "infected person"
+    },
+    {
+      "type": "related",
+      "target_id": "29442_tounyoubyoukanja",
+      "reading": "とうにょうびょうかんじゃ",
+      "headword": "{糖尿病患者|とうにょうびょうかんじゃ}",
+      "label": "diabetic patient"
     }
   ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

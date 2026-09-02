@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13012_saiyuusen_ex1",
-      "japanese": "{安全|あんぜん}を{最優先|さいゆうせん}にする。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧{最優先|さいゆうせん}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "To make safety the top priority.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13012_saiyuusen_ex2",
-      "japanese": "この{案件|あんけん}は{最優先|さいゆうせん}で{対応|たいおう}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{案件|あんけん}→案件：13109_anken⟧⟦は→は：00079_ha⟧{最優先|さいゆうせん}⟦で→で：00502_de⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please handle this matter with the highest priority.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13012_saiyuusen_ex3",
-      "japanese": "{被災者|ひさいしゃ}の{救助|きゅうじょ}が{最優先|さいゆうせん}の{課題|かだい}だと{政府|せいふ}は{発表|はっぴょう}した。",
+      "japanese": "⟦{被災者|ひさいしゃ}→被災者：25337_hisaisha⟧⟦の→の：09472_no⟧⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧⟦が→が：00051_ga⟧{最優先|さいゆうせん}⟦の→の：09472_no⟧⟦{課題|かだい}→課題：00132_kadai⟧だ⟦と→と：00512_to⟧⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The government announced that rescuing disaster victims is the top priority.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommonly used in the patterns {最優先|さいゆうせん}にする (to make top priority), {最優先|さいゆうせん}で (with top priority), and {最優先|さいゆうせん}の{課題|かだい} (top-priority issue). Frequent in business and government contexts.\n\nCOMMON COLLOCATIONS:\n- {最優先|さいゆうせん}{事項|じこう}: top-priority matter\n- {最優先|さいゆうせん}{課題|かだい}: top-priority issue\n- {最優先|さいゆうせん}で{対応|たいおう}する: to respond with top priority\n- ～を{最優先|さいゆうせん}にする: to make ~ the top priority",
+  "notes": "USAGE:\nCommonly used in the patterns {最優先|さいゆうせん}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to make top priority), {最優先|さいゆうせん}⟦で→で：00502_de⟧ (with top priority), and {最優先|さいゆうせん}⟦の→の：09472_no⟧⟦{課題|かだい}→課題：00132_kadai⟧ (top-priority issue). Frequent in business and government contexts.\n\nCOMMON COLLOCATIONS:\n- {最優先|さいゆうせん}⟦{事項|じこう}→事項：11469_jikou⟧: top-priority matter\n- {最優先|さいゆうせん}⟦{課題|かだい}→課題：00132_kadai⟧: top-priority issue\n- {最優先|さいゆうせん}⟦で→で：00502_de⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧: to respond with top priority\n- ～⟦を→を：00422_wo⟧{最優先|さいゆうせん}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to make ~ the top priority",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "ゆうせん",
       "headword": "{優先|ゆうせん}",
       "label": "priority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27183_saijuuyou",
+      "reading": "さいじゅうよう",
+      "headword": "{最重要|さいじゅうよう}",
+      "label": "most important"
     }
   ],
   "metadata": {
     "created": "2026-02-23T06:29:32Z",
-    "modified": "2026-04-28T04:13:10Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

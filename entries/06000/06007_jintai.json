@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06007_jintai_ex1",
-      "japanese": "{膝|ひざ}の{靭帯|じんたい}を{損傷|そんしょう}した。",
+      "japanese": "⟦{膝|ひざ}→膝：00940_hiza⟧⟦の→の：09472_no⟧{靭帯|じんたい}⟦を→を：00422_wo⟧⟦{損傷|そんしょう}→損傷：21079_sonshou⟧⟦した→する：00392_suru⟧。",
       "english": "I injured the ligament in my knee.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06007_jintai_ex2",
-      "japanese": "{靭帯|じんたい}{断裂|だんれつ}で{手術|しゅじゅつ}が{必要|ひつよう}だ。",
+      "japanese": "{靭帯|じんたい}{断裂|だんれつ}⟦で→で：00502_de⟧⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Surgery is needed for the torn ligament.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06007_jintai_ex3",
-      "japanese": "{靭帯|じんたい}を{伸|の}ばしてしまった。",
+      "japanese": "{靭帯|じんたい}⟦を→を：00422_wo⟧⟦{伸|の}ばして→伸ばす：01973_nobasu⟧しまった。",
       "english": "I stretched my ligament.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{靭帯|じんたい} is the tough connective tissue that holds bones together at joints, providing stability. Ligament injuries are common in sports, particularly in the knee.\n\nCOMMON TYPES:\n- {前十字|ぜんじゅうじ}{靭帯|じんたい} (ACL): anterior cruciate ligament\n- {後十字|こうじゅうじ}{靭帯|じんたい} (PCL): posterior cruciate ligament\n- {側副|そくふく}{靭帯|じんたい}: collateral ligament\n\nCOMMON COLLOCATIONS:\n- {靭帯|じんたい}{損傷|そんしょう}: ligament injury\n- {靭帯|じんたい}{断裂|だんれつ}: torn ligament\n- {靭帯|じんたい}を{伸|の}ばす: to stretch/strain a ligament\n- {靭帯|じんたい}{再建|さいけん}{手術|しゅじゅつ}: ligament reconstruction surgery\n\nRELATED BODY PARTS:\n- {腱|けん}: tendon (connects muscle to bone)\n- {筋肉|きんにく}: muscle\n- {軟骨|なんこつ}: cartilage\n- {関節|かんせつ}: joint",
+  "notes": "{靭帯|じんたい} is the tough connective tissue that holds bones together at joints, providing stability. Ligament injuries are common in sports, particularly in the knee.\n\nTYPES:\n- {前十字|ぜんじゅうじ}{靭帯|じんたい} (ACL): anterior cruciate ligament\n- {後十字|こうじゅうじ}{靭帯|じんたい} (PCL): posterior cruciate ligament\n- {側副|そくふく}{靭帯|じんたい}: collateral ligament\n\nCOMMON COLLOCATIONS:\n- {靭帯|じんたい}⟦{損傷|そんしょう}→損傷：21079_sonshou⟧: ligament injury\n- {靭帯|じんたい}{断裂|だんれつ}: torn ligament\n- {靭帯|じんたい}⟦を→を：00422_wo⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧: to stretch/strain a ligament\n- {靭帯|じんたい}⟦{再建|さいけん}→再建：11743_saiken⟧⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧: ligament reconstruction surgery\n\nRELATED BODY PARTS:\n- {腱|けん}: tendon (connects muscle to bone)\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧: muscle\n- ⟦{軟骨|なんこつ}→軟骨：05964_nankotsu⟧: cartilage\n- ⟦{関節|かんせつ}→関節：09793_kansetsu⟧: joint",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "reading": "なんこつ",
       "headword": "{軟骨|なんこつ}",
       "label": "cartilage"
+    },
+    {
+      "type": "related",
+      "target_id": "02646_kinniku",
+      "reading": "きんにく",
+      "headword": "{筋肉|きんにく}",
+      "label": "muscle"
+    },
+    {
+      "type": "related",
+      "target_id": "09793_kansetsu",
+      "reading": "かんせつ",
+      "headword": "{関節|かんせつ}",
+      "label": "joint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26159_hangetsuban",
+      "reading": "はんげつばん",
+      "headword": "{半月板|はんげつばん}",
+      "label": "meniscus (knee cartilage)"
     }
   ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-16T06:42:50Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

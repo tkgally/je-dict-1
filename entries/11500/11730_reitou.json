@@ -2,7 +2,7 @@
   "id": "11730_reitou",
   "headword": "{冷凍|れいとう}",
   "reading": "れいとう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "freezing, frozen",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11730_reitou_ex1",
-      "japanese": "{肉|にく}を{冷凍|れいとう}した。",
+      "japanese": "⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧{冷凍|れいとう}⟦した→する：00392_suru⟧。",
       "english": "I froze the meat.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11730_reitou_ex2",
-      "japanese": "{冷凍|れいとう}{食品|しょくひん}はとても{便利|べんり}だ。",
+      "japanese": "{冷凍|れいとう}{食品|しょくひん}⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Frozen food is very convenient.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11730_reitou_ex3",
-      "japanese": "{残|のこ}ったご{飯|はん}は{冷凍|れいとう}しておけば{一|いっ}か{月|げつ}ほど{持|も}つ。",
+      "japanese": "⟦{残|のこ}った→残る：01187_nokoru⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦は→は：00079_ha⟧{冷凍|れいとう}⟦して→する：00392_suru⟧おけば{一|いっ}か{月|げつ}ほど⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "If you freeze leftover rice, it keeps for about a month.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Compound of {冷|れい} (cold) + {凍|とう} (freeze). One of the most common everyday words related to food storage.\n\nCOMMON COLLOCATIONS:\n・{冷凍|れいとう}する (to freeze)\n・{冷凍|れいとう}{食品|しょくひん} (frozen food)\n・{冷凍|れいとう}{庫|こ} (freezer)\n・{冷凍|れいとう}{保存|ほぞん} (frozen storage)\n・{冷凍|れいとう}{餃子|ギョーザ} (frozen gyoza)\n・{冷凍|れいとう}ピザ (frozen pizza)\n・{急速|きゅうそく}{冷凍|れいとう} (flash freezing)\n\nDISTINCTIONS:\n・{冷凍|れいとう}: freezing (below 0°C), for long-term preservation\n・{冷蔵|れいぞう}: refrigeration (above 0°C), for short-term storage",
+  "notes": "Compound of {冷|れい} (cold) + {凍|とう} (freeze). One of the most common everyday words related to food storage.\n\nCOMMON COLLOCATIONS:\n- {冷凍|れいとう}⟦する→する：00392_suru⟧ (to freeze)\n- {冷凍|れいとう}{食品|しょくひん} (frozen food)\n- {冷凍|れいとう}{庫|こ} (freezer)\n- {冷凍|れいとう}⟦{保存|ほぞん}→保存：03626_hozon⟧ (frozen storage)\n- {冷凍|れいとう}{餃子|ギョーザ} (frozen gyoza)\n- {冷凍|れいとう}⟦ピザ→ピザ：06769_piza⟧ (frozen pizza)\n- ⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧{冷凍|れいとう} (flash freezing)\n\nSIMILAR WORDS:\n- {冷凍|れいとう}: freezing (below 0°C), for long-term preservation\n- ⟦{冷蔵|れいぞう}→冷蔵：11731_reizou⟧: refrigeration (above 0°C), for short-term storage",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,25 @@
       "reading": "れいぞう",
       "headword": "{冷蔵|れいぞう}",
       "label": "refrigeration (above 0°C)"
+    },
+    {
+      "type": "related",
+      "target_id": "02100_kooru",
+      "reading": "こおる",
+      "headword": "{凍|こお}る",
+      "label": "to freeze, to be frozen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19085_kaitou",
+      "reading": "かいとう",
+      "headword": "{解凍|かいとう}",
+      "label": "thawing"
     }
   ],
   "metadata": {
     "created": "2026-02-17T22:46:13Z",
-    "modified": "2026-04-25T07:03:16Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

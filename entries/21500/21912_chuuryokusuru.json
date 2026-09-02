@@ -3,8 +3,31 @@
   "id": "21912_chuuryokusuru",
   "headword": "{注力|ちゅうりょく}する",
   "reading": "ちゅうりょくする",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to focus efforts on; to devote energy to",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21908_shuuchuusuru",
+      "reading": "しゅうちゅうする",
+      "headword": "{集中|しゅうちゅう}する",
+      "label": "to concentrate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25369_sennensuru",
+      "reading": "せんねんする",
+      "headword": "{専念|せんねん}する",
+      "label": "to devote oneself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19727_keichuusuru",
+      "reading": "けいちゅうする",
+      "headword": "{傾注|けいちゅう}する",
+      "label": "to devote, to pour into"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,16 +35,18 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-03T21:27:52Z",
-    "modified": "2026-04-03T21:27:52Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A somewhat formal word commonly used in business and organizational contexts to describe strategically directing effort and resources toward a priority area. Takes に to mark the target of effort.\n\nCOMMON COLLOCATIONS:\n- ～に{注力|ちゅうりょく}する: to focus efforts on ~\n- {開発|かいはつ}に{注力|ちゅうりょく}: focus efforts on development\n- {注力|ちゅうりょく}{分野|ぶんや}: area of focus\n- {経営|けいえい}{資源|しげん}を{注力|ちゅうりょく}する: to direct business resources\n\nSIMILAR WORDS:\n- {集中|しゅうちゅう}する: to concentrate — broader; can refer to mental focus or physical convergence\n- {専念|せんねん}する: to devote oneself — implies giving up other things to focus exclusively on one\n- {力|ちから}を{入|い}れる: to put effort into — more colloquial and versatile\n- {傾注|けいちゅう}する: to devote, to pour into — more literary; emphasizes pouring one's whole effort\n\nREGISTER:\nFormal. Very common in business reports, press releases, and corporate strategy discussions. In casual conversation, {力|ちから}を{入|い}れる or {頑張|がんば}る are more natural.",
+  "notes": "A somewhat formal word commonly used in business and organizational contexts to describe strategically directing effort and resources toward a priority area. Takes ⟦に→に：00314_ni⟧ to mark the target of effort.\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{注力|ちゅうりょく}する: to focus efforts on ~\n- ⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦に→に：00314_ni⟧{注力|ちゅうりょく}: focus efforts on development\n- {注力|ちゅうりょく}⟦{分野|ぶんや}→分野：03612_bunya⟧: area of focus\n- ⟦{経営|けいえい}→経営：02740_keiei⟧⟦{資源|しげん}→資源：03167_shigen⟧⟦を→を：00422_wo⟧{注力|ちゅうりょく}する: to direct business resources\n\nSIMILAR WORDS:\n- ⟦{集中|しゅうちゅう}する→集中する：21908_shuuchuusuru⟧: to concentrate — broader; can refer to mental focus or physical convergence\n- ⟦{専念|せんねん}する→専念する：25369_sennensuru⟧: to devote oneself — implies giving up other things to focus exclusively on one\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put effort into — more colloquial and versatile\n- ⟦{傾注|けいちゅう}する→傾注する：19727_keichuusuru⟧: to devote, to pour into — more literary; emphasizes pouring one's whole effort\n\nREGISTER:\nFormal. Very common in business reports, press releases, and corporate strategy discussions. In casual conversation, ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ or ⟦{頑張|がんば}る→頑張る：01222_ganbaru⟧ are more natural.",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -122,7 +147,7 @@
   "examples": [
     {
       "id": "21912_chuuryokusuru_ex1",
-      "japanese": "{新|しん}{商品|しょうひん}の{開発|かいはつ}に{注力|ちゅうりょく}する。",
+      "japanese": "⟦{新|しん}{商品|しょうひん}→新商品：11504_shinshouhin⟧⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦に→に：00314_ni⟧{注力|ちゅうりょく}する。",
       "english": "To focus efforts on developing new products.",
       "sense_numbers": [
         1
@@ -132,7 +157,7 @@
     },
     {
       "id": "21912_chuuryokusuru_ex2",
-      "japanese": "{今年|ことし}は{海外|かいがい}{市場|しじょう}の{開拓|かいたく}に{注力|ちゅうりょく}する{方針|ほうしん}だ。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦の→の：09472_no⟧⟦{開拓|かいたく}→開拓：09954_kaitaku⟧⟦に→に：00314_ni⟧{注力|ちゅうりょく}する⟦{方針|ほうしん}→方針：04871_houshin⟧だ。",
       "english": "The policy this year is to focus efforts on developing overseas markets.",
       "sense_numbers": [
         1
@@ -142,7 +167,7 @@
     },
     {
       "id": "21912_chuuryokusuru_ex3",
-      "japanese": "{環境|かんきょう}{問題|もんだい}の{解決|かいけつ}に{注力|ちゅうりょく}すべきだ。",
+      "japanese": "⟦{環境|かんきょう}{問題|もんだい}→環境問題：10136_kankyoumondai⟧⟦の→の：09472_no⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧⟦に→に：00314_ni⟧{注力|ちゅうりょく}すべきだ。",
       "english": "We should focus our efforts on solving environmental issues.",
       "sense_numbers": [
         1
@@ -152,7 +177,7 @@
     },
     {
       "id": "21912_chuuryokusuru_ex4",
-      "japanese": "{会社|かいしゃ}は{人材|じんざい}{育成|いくせい}に{注力|ちゅうりょく}してきた{結果|けっか}、{優秀|ゆうしゅう}な{社員|しゃいん}が{増|ふ}えた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{人材|じんざい}→人材：11426_jinzai⟧⟦{育成|いくせい}→育成：13928_ikusei⟧⟦に→に：00314_ni⟧{注力|ちゅうりょく}してきた⟦{結果|けっか}→結果：02486_kekka⟧、⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧な⟦{社員|しゃいん}→社員：03065_shain⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "As a result of the company focusing efforts on talent development, the number of excellent employees has increased.",
       "sense_numbers": [
         1

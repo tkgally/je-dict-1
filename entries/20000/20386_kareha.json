@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20386_kareha_ex1",
-      "japanese": "{枯|か}れ{葉|は}が{舞|ま}っている。",
+      "japanese": "{枯|か}れ{葉|は}⟦が→が：00051_ga⟧⟦{舞|ま}っている→舞う：04573_mau⟧。",
       "english": "Dead leaves are swirling in the air.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20386_kareha_ex2",
-      "japanese": "{道|みち}に{枯|か}れ{葉|は}がたくさん{落|お}ちていた。",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦に→に：00314_ni⟧{枯|か}れ{葉|は}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{落|お}ちていた→落ちる：01242_ochiru⟧。",
       "english": "There were lots of dead leaves on the road.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20386_kareha_ex3",
-      "japanese": "{庭|にわ}の{枯|か}れ{葉|は}を{集|あつ}めて{焚|た}き{火|び}をした。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧{枯|か}れ{葉|は}⟦を→を：00422_wo⟧⟦{集|あつ}めて→集める：01170_atsumeru⟧⟦{焚|た}き{火|び}→焚き火：06992_takibi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I gathered the dead leaves in the yard and made a bonfire.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "An evocative seasonal word strongly associated with late autumn and winter. In Japanese poetry and literature, {枯|か}れ{葉|は} conveys transience, loneliness, and the passing of time. In everyday use, it simply refers to dried, fallen leaves.\n\nFORMATION:\n{枯|か}れ (withered, dried) + {葉|は} (leaf)\n\nCOMMON COLLOCATIONS:\n- {枯|か}れ{葉|は}が{舞|ま}う: dead leaves dance in the wind\n- {枯|か}れ{葉|は}を{踏|ふ}む: to step on dry leaves\n- {枯|か}れ{葉|は}を{集|あつ}める: to gather fallen leaves\n- {枯|か}れ{葉|は}の{山|やま}: a pile of dead leaves\n\nSIMILAR WORDS:\n- {落|お}ち{葉|ば}: fallen leaves — emphasizes the act of having fallen; broader and includes fresh leaves that have just dropped\n- {紅葉|もみじ}: autumn leaves — focuses on colorful leaves still on trees or freshly fallen, with a positive aesthetic nuance\n- {落葉|らくよう}: leaf fall, defoliation — more formal/botanical term for the process of leaves falling",
+  "notes": "An evocative seasonal word strongly associated with late autumn and winter. In Japanese poetry and literature, {枯|か}れ{葉|は} conveys transience, loneliness, and the passing of time. In everyday use, it simply refers to dried, fallen leaves.\n\nFORMS:\n{枯|か}れ (withered, dried) + ⟦{葉|は}→葉：02241_ha⟧ (leaf)\n\nCOMMON COLLOCATIONS:\n- {枯|か}れ{葉|は}⟦が→が：00051_ga⟧⟦{舞|ま}う→舞う：04573_mau⟧: dead leaves dance in the wind\n- {枯|か}れ{葉|は}⟦を→を：00422_wo⟧⟦{踏|ふ}む→踏む：01197_fumu⟧: to step on dry leaves\n- {枯|か}れ{葉|は}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to gather fallen leaves\n- {枯|か}れ{葉|は}⟦の→の：09472_no⟧⟦{山|やま}→山：02168_yama⟧: a pile of dead leaves\n\nSIMILAR WORDS:\n- ⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧: fallen leaves — emphasizes the act of having fallen; broader and includes fresh leaves that have just dropped\n- ⟦{紅葉|もみじ}→紅葉：05387_momiji⟧: autumn leaves — focuses on colorful leaves still on trees or freshly fallen, with a positive aesthetic nuance\n- ⟦{落葉|らくよう}→落葉：17301_rakuyou⟧: leaf fall, defoliation — more formal/botanical term for the process of leaves falling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14108_ochiba",
+      "reading": "おちば",
+      "headword": "{落|お}ち{葉|ば}",
+      "label": "fallen leaves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05387_momiji",
+      "reading": "もみじ",
+      "headword": "{紅葉|もみじ}",
+      "label": "autumn leaves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17301_rakuyou",
+      "reading": "らくよう",
+      "headword": "{落葉|らくよう}",
+      "label": "leaf fall, defoliation"
+    },
+    {
+      "type": "related",
+      "target_id": "05388_happa",
+      "reading": "はっぱ",
+      "headword": "{葉|は}っぱ",
+      "label": "leaf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29824_kareeda",
+      "reading": "かれえだ",
+      "headword": "{枯|か}れ{枝|えだ}",
+      "label": "dead branch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-03-29T12:11:21Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

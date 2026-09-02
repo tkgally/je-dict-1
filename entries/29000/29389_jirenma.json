@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29389_jirenma_ex1",
-      "japanese": "ジレンマに{陥|おちい}る。",
+      "japanese": "ジレンマ⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧。",
       "english": "to fall into a dilemma",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29389_jirenma_ex2",
-      "japanese": "{仕事|しごと}と{家庭|かてい}の{間|あいだ}でジレンマを{感|かん}じる。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦と→と：00512_to⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦で→で：00502_de⟧ジレンマ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "to feel torn in a dilemma between work and family",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29389_jirenma_ex3",
-      "japanese": "{環境|かんきょう}{保護|ほご}と{経済|けいざい}{成長|せいちょう}のジレンマは{解決|かいけつ}が{難|むずか}しい。",
+      "japanese": "⟦{環境|かんきょう}{保護|ほご}→環境保護：15308_kankyouhogo⟧⟦と→と：00512_to⟧⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦の→の：09472_no⟧ジレンマ⟦は→は：00079_ha⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "The dilemma between environmental protection and economic growth is hard to resolve.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A katakana loanword from English 'dilemma.' Refers to being caught between two options that are both unsatisfactory.\n\nCOMMON COLLOCATIONS:\n- ジレンマに{陥|おちい}る: to fall into a dilemma\n- ジレンマを{抱|かか}える: to face a dilemma\n\nSIMILAR WORDS:\n- {板挟|いたばさ}み: being caught in the middle — emphasizes pressure from two opposing parties, rather than a choice between two bad options",
+  "notes": "A katakana loanword from English 'dilemma.' Refers to being caught between two options that are both unsatisfactory.\n\nCOMMON COLLOCATIONS:\n- ジレンマ⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧: to fall into a dilemma\n- ジレンマ⟦を→を：00422_wo⟧⟦{抱|かか}える→抱える：02031_kakaeru⟧: to face a dilemma\n\nSIMILAR WORDS:\n- ⟦{板挟|いたばさ}み→板挟み：07723_itabasami⟧: being caught in the middle — emphasizes pressure from two opposing parties, rather than a choice between two bad options",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07723_itabasami",
+      "reading": "いたばさみ",
+      "headword": "{板挟|いたばさ}み",
+      "label": "being caught in the middle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06221_niritsuhaihan",
+      "reading": "にりつはいはん",
+      "headword": "{二律背反|にりつはいはん}",
+      "label": "antinomy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
       "domain": []
     },
     "created": "2026-06-21T06:18:54Z",
-    "modified": "2026-06-21T06:18:54Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "実用化",
   "reading": "じつようか",
   "romaji": "jitsuyouka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "putting into practical use; commercialization",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29779_jitsuyouka_ex1",
-      "japanese": "{新技術|しんぎじゅつ}の{実用化|じつようか}が{進|すす}む。",
+      "japanese": "{新技術|しんぎじゅつ}⟦の→の：09472_no⟧{実用化|じつようか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧。",
       "english": "The practical application of the new technology is advancing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29779_jitsuyouka_ex2",
-      "japanese": "この{電池|でんち}はまだ{実用化|じつようか}されていない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{電池|でんち}→電池：01472_denchi⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{実用化|じつようか}⟦されていない→する：00392_suru⟧。",
       "english": "This battery has not yet been put into practical use.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29779_jitsuyouka_ex3",
-      "japanese": "{自動運転|じどううんてん}の{実用化|じつようか}には、まだ{多|おお}くの{課題|かだい}が{残|のこ}っている。",
+      "japanese": "⟦{自動運転|じどううんてん}→自動運転：06451_jidouunten⟧⟦の→の：09472_no⟧{実用化|じつようか}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦まだ→まだ：00603_mada⟧{多|おお}く⟦の→の：09472_no⟧⟦{課題|かだい}→課題：00132_kadai⟧⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "Many challenges still remain before self-driving cars can be put into practical use.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {実用|じつよう} (practical use) + the suffix {化|か} (-ization). Takes する to form a verb: {実用化|じつようか}する (to put into practical use).\n\nCOMMON COLLOCATIONS:\n- {実用化|じつようか}が{進|すす}む: practical use advances\n- {実用化|じつようか}される: to be put into practical use\n- {実用化|じつようか}に{向|む}けて: toward practical application\n- {早期|そうき}{実用化|じつようか}: early commercialization\n\nSIMILAR WORDS:\n- {商品化|しょうひんか}: turning into a marketable product — emphasizes selling, not just usability.\n- {実現|じつげん}: realization — making something a reality, broader and not limited to technology.",
+  "notes": "Formed from ⟦{実用|じつよう}→実用：04216_jitsuyou⟧ (practical use) + the suffix ⟦{化|か}→〜化：28335_ka⟧ (-ization). Takes ⟦する→する：00392_suru⟧ to form a verb: {実用化|じつようか}⟦する→する：00392_suru⟧ (to put into practical use).\n\nCOMMON COLLOCATIONS:\n- {実用化|じつようか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: practical use advances\n- {実用化|じつようか}⟦される→する：00392_suru⟧: to be put into practical use\n- {実用化|じつようか}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧: toward practical application\n- ⟦{早期|そうき}→早期：09568_souki⟧{実用化|じつようか}: early commercialization\n\nSIMILAR WORDS:\n- ⟦{商品化|しょうひんか}→商品化：30135_shouhinka⟧: turning into a marketable product — emphasizes selling, not just usability.\n- ⟦{実現|じつげん}→実現：03276_jitsugen⟧: realization — making something a reality, broader and not limited to technology.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30135_shouhinka",
+      "reading": "しょうひんか",
+      "headword": "{商品化|しょうひんか}",
+      "label": "turning into a marketable product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03276_jitsugen",
+      "reading": "じつげん",
+      "headword": "{実現|じつげん}",
+      "label": "realization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30151_seihinka",
+      "reading": "せいひんか",
+      "headword": "{製品化|せいひんか}",
+      "label": "commercialization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +77,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology",
         "action"
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

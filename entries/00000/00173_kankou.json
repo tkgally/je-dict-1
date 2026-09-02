@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{観光|かんこう} means sightseeing or tourism and also forms a suru verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {観光|かんこう}する\n\nCOMMON PATTERNS:\n- {観光|かんこう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go sightseeing\n- {観光|かんこう}する: to sightsee (suru verb)\n- {観光|かんこう}⟦で→で：00502_de⟧⟦{来|き}た→来る：00254_kuru⟧: came for sightseeing\n\nCOMMON COMPOUNDS:\n- ⟦{観光|かんこう}{客|きゃく}→観光客：03022_kankoukyaku⟧: tourist\n- ⟦{観光|かんこう}{地|ち}→観光地：14163_kankouchi⟧: tourist destination\n- ⟦{観光|かんこう}{名所|めいしょ}→観光名所：16488_kankoumeisho⟧: famous sightseeing spot\n- ⟦{観光|かんこう}バス→観光バス：19025_kankoubasu⟧: tour bus\n- {観光|かんこう}⟦ビザ→ビザ：08283_biza⟧: tourist visa\n- ⟦{観光|かんこう}{案内|あんない}→観光案内：20675_kankouannai⟧: tourist information\n- {観光|かんこう}⟦{産業|さんぎょう}→産業：01419_sangyou⟧: tourism industry\n\nRELATED:\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧: travel (broader term)\n- ⟦ツアー→ツアー：08285_tsuaa⟧: tour",
-  "cross_references": [],
+  "notes": "{観光|かんこう} means sightseeing or tourism and also forms a suru verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {観光|かんこう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {観光|かんこう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go sightseeing\n- {観光|かんこう}⟦する→する：00392_suru⟧: to sightsee (suru verb)\n- {観光|かんこう}⟦で→で：00502_de⟧⟦{来|き}た→来る：00254_kuru⟧: came for sightseeing\n\nCOMPOUNDS:\n- ⟦{観光|かんこう}{客|きゃく}→観光客：03022_kankoukyaku⟧: tourist\n- ⟦{観光|かんこう}{地|ち}→観光地：14163_kankouchi⟧: tourist destination\n- ⟦{観光|かんこう}{名所|めいしょ}→観光名所：16488_kankoumeisho⟧: famous sightseeing spot\n- ⟦{観光|かんこう}バス→観光バス：19025_kankoubasu⟧: tour bus\n- {観光|かんこう}⟦ビザ→ビザ：08283_biza⟧: tourist visa\n- ⟦{観光|かんこう}{案内|あんない}→観光案内：20675_kankouannai⟧: tourist information\n- {観光|かんこう}⟦{産業|さんぎょう}→産業：01419_sangyou⟧: tourism industry\n\nRELATED WORDS:\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧: travel (broader term)\n- ⟦ツアー→ツアー：08285_tsuaa⟧: tour",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00748_ryokou",
+      "reading": "りょこう",
+      "headword": "{旅行|りょこう}",
+      "label": "travel"
+    },
+    {
+      "type": "related",
+      "target_id": "08285_tsuaa",
+      "reading": "つあー",
+      "headword": "ツアー",
+      "label": "tour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01398_kenbutsu",
+      "reading": "けんぶつ",
+      "headword": "{見物|けんぶつ}",
+      "label": "sightseeing, watching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20259_kenbutsusuru",
+      "reading": "けんぶつする",
+      "headword": "{見物|けんぶつ}する",
+      "label": "to sightsee"
+    }
+  ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-05-09T19:11:12Z",
+    "modified": "2026-09-02T04:00:56Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

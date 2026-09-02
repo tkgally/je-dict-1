@@ -3,7 +3,7 @@
   "headword": "{着席|ちゃくせき}",
   "reading": "ちゃくせき",
   "romaji": "chakuseki",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking one's seat; sitting down",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18472_chakuseki_ex1",
-      "japanese": "{全員|ぜんいん}、{着席|ちゃくせき}してください。",
+      "japanese": "⟦{全員|ぜんいん}→全員：03310_zenin⟧、{着席|ちゃくせき}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Everyone, please take your seats.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18472_chakuseki_ex2",
-      "japanese": "{開演|かいえん}{前|まえ}にお{着席|ちゃくせき}ください。",
+      "japanese": "⟦{開演|かいえん}→開演：23500_kaien⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧お{着席|ちゃくせき}⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be seated before the performance begins.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18472_chakuseki_ex3",
-      "japanese": "{先生|せんせい}が{教室|きょうしつ}に{入|はい}ると、{生徒|せいと}たちはすぐに{着席|ちゃくせき}した。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦と→と：00512_to⟧、⟦{生徒|せいと}→生徒：01051_seito⟧たち⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{着席|ちゃくせき}⟦した→する：00392_suru⟧。",
       "english": "When the teacher entered the classroom, the students immediately sat down.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{着席|ちゃくせき} is a formal word for the act of sitting down in one's seat. Most commonly used as {着席|ちゃくせき}する.\n\nREGISTER:\nFormal. Used in announcements, instructions, and ceremonies. In everyday conversation, {座|すわ}る is the natural choice.\n\nCOMMON CONTEXTS:\n- Classrooms: {先生|せんせい}が{来|く}る{前|まえ}に{着席|ちゃくせき}してください\n- Ceremonies and performances: お{着席|ちゃくせき}ください (polite form with お)\n- Meetings: {全員|ぜんいん}{着席|ちゃくせき}したら{始|はじ}めます\n\nPAIRED ANTONYM:\n{起立|きりつ} (standing up). The pair {起立|きりつ}・{着席|ちゃくせき} is a set phrase in Japanese schools, used as commands at the start and end of class.\n\nCONTRAST:\n- {着席|ちゃくせき}: formal, implies a designated seat\n- {座|すわ}る: neutral, any act of sitting down",
+  "notes": "{着席|ちゃくせき} is a formal word for the act of sitting down in one's seat. Most commonly used as {着席|ちゃくせき}⟦する→する：00392_suru⟧.\n\nREGISTER:\nFormal. Used in announcements, instructions, and ceremonies. In everyday conversation, ⟦{座|すわ}る→座る：00757_suwaru⟧ is the natural choice.\n\nUSAGE:\n- Classrooms: ⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{着席|ちゃくせき}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧\n- Ceremonies and performances: お{着席|ちゃくせき}⟦ください→ください：02899_kudasai⟧ (polite form with お)\n- Meetings: ⟦{全員|ぜんいん}→全員：03310_zenin⟧{着席|ちゃくせき}⟦したら→する：00392_suru⟧⟦{始|はじ}めます→始める：00531_hajimeru⟧\n\nPAIRED ANTONYM:\n{起立|きりつ} (standing up). The pair {起立|きりつ}・{着席|ちゃくせき} is a set phrase in Japanese schools, used as commands at the start and end of class.\n\nSIMILAR WORDS:\n- {着席|ちゃくせき}: formal, implies a designated seat\n- ⟦{座|すわ}る→座る：00757_suwaru⟧: neutral, any act of sitting down",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -151,7 +151,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T03:07:08Z",
-    "modified": "2026-04-11T01:25:09Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -159,6 +159,27 @@
       "target_id": "17720_taiseki",
       "reading": "たいせき",
       "headword": "{退席|たいせき}",
+      "label": "leaving one's seat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00757_suwaru",
+      "reading": "すわる",
+      "headword": "{座|すわ}る",
+      "label": "neutral, any act of sitting down"
+    },
+    {
+      "type": "related",
+      "target_id": "08286_tachimi",
+      "reading": "たちみ",
+      "headword": "{立|た}ち{見|み}",
+      "label": "standing room only"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25487_riseki",
+      "reading": "りせき",
+      "headword": "{離席|りせき}",
       "label": "leaving one's seat"
     }
   ]

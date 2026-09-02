@@ -15,41 +15,89 @@
   "examples": [
     {
       "id": "29864_gakuchou_ex1",
-      "japanese": "{大学|だいがく}の{学長|がくちょう}が{挨拶|あいさつ}をした。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{学長|がくちょう}⟦が→が：00051_ga⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "The university president gave an opening address.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29864_gakuchou_ex2",
-      "japanese": "{新|あたら}しい{学長|がくちょう}が{選|えら}ばれた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{学長|がくちょう}⟦が→が：00051_ga⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "A new president was chosen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29864_gakuchou_ex3",
-      "japanese": "{学長|がくちょう}は{入学式|にゅうがくしき}で{新入生|しんにゅうせい}を{歓迎|かんげい}した。",
+      "japanese": "{学長|がくちょう}⟦は→は：00079_ha⟧⟦{入学式|にゅうがくしき}→入学式：05495_nyuugakushiki⟧⟦で→で：00502_de⟧⟦{新入生|しんにゅうせい}→新入生：03073_shinnyuusei⟧⟦を→を：00422_wo⟧⟦{歓迎|かんげい}した→歓迎する：26997_kangeisuru⟧。",
       "english": "The president welcomed the new students at the entrance ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {学|がく} (learning, school) + {長|ちょう} (head, chief). Specifically the head of a university, as distinct from the head of a lower school.\n\nCOMMON COLLOCATIONS:\n- {学長|がくちょう}に{就任|しゅうにん}する: to take office as university president\n- {学長|がくちょう}{選挙|せんきょ}: election for university president\n\nSIMILAR WORDS:\n- {校長|こうちょう}: principal — head of an elementary, junior high, or high school\n- {総長|そうちょう}: president — used by some large universities in place of {学長|がくちょう}\n- {学部長|がくぶちょう}: dean — head of a single faculty, below the {学長|がくちょう}",
+  "notes": "Composed of ⟦{学|がく}→〜学：09846_gaku⟧ (learning, school) + {長|ちょう} (head, chief). Specifically the head of a university, as distinct from the head of a lower school.\n\nCOMMON COLLOCATIONS:\n- {学長|がくちょう}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧: to take office as university president\n- {学長|がくちょう}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧: election for university president\n\nSIMILAR WORDS:\n- ⟦{校長|こうちょう}→校長：01582_kouchou⟧: principal — head of an elementary, junior high, or high school\n- {総長|そうちょう}: president — used by some large universities in place of {学長|がくちょう}\n- ⟦{学部長|がくぶちょう}→学部長：24823_gakubuchou⟧: dean — head of a single faculty, below the {学長|がくちょう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01582_kouchou",
+      "reading": "こうちょう",
+      "headword": "{校長|こうちょう}",
+      "label": "principal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24823_gakubuchou",
+      "reading": "がくぶちょう",
+      "headword": "{学部長|がくぶちょう}",
+      "label": "dean"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23995_fukukouchou",
+      "reading": "ふくこうちょう",
+      "headword": "{副校長|ふくこうちょう}",
+      "label": "vice-principal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27936_enchou",
+      "reading": "えんちょう",
+      "headword": "{園長|えんちょう}",
+      "label": "principal (of a kindergarten or preschool)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30316_gakkachou",
+      "reading": "がっかちょう",
+      "headword": "学科長",
+      "label": "department head"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "education"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-07-15T12:19:49Z",
-    "modified": "2026-07-15T12:19:49Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

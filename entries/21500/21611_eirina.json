@@ -3,7 +3,7 @@
   "headword": "{鋭利|えいり}な",
   "reading": "えいりな",
   "romaji": "eirina",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "sharp; keen-edged",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21611_eirina_ex1",
-      "japanese": "{鋭利|えいり}な{刃物|はもの}に{注意|ちゅうい}。",
+      "japanese": "{鋭利|えいり}な⟦{刃物|はもの}→刃物：11752_hamono⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧。",
       "english": "Beware of sharp blades.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21611_eirina_ex2",
-      "japanese": "{犯人|はんにん}は{鋭利|えいり}なナイフを{持|も}っていた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧{鋭利|えいり}な⟦ナイフ→ナイフ：01039_naifu⟧⟦を→を：00422_wo⟧⟦{持|も}っていた→持つ：00478_motsu⟧。",
       "english": "The culprit was carrying a sharp knife.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21611_eirina_ex3",
-      "japanese": "{鋭利|えいり}な{刃物|はもの}で{切|き}った{傷|きず}は{治|なお}りにくいことがある。",
+      "japanese": "{鋭利|えいり}な⟦{刃物|はもの}→刃物：11752_hamono⟧⟦で→で：00502_de⟧⟦{切|き}った→切る：02693_kiru⟧⟦{傷|きず}→傷：02201_kizu⟧⟦は→は：00079_ha⟧⟦{治|なお}り→治る：19598_naoru⟧にくいこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Wounds from sharp blades can sometimes be slow to heal.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Describes the sharpness of a blade or edge, emphasizing that it can cut easily. Often encountered in news reports about crimes or accidents, as well as in cooking and craft contexts.\n\nCOMMON COLLOCATIONS:\n- {鋭利|えいり}な{刃物|はもの}: sharp-edged tool/blade\n- {鋭利|えいり}なナイフ: sharp knife\n- {鋭利|えいり}な{刃|は}: sharp blade/edge\n- {鋭利|えいり}な{凶器|きょうき}: sharp weapon\n\nSIMILAR WORDS:\n- {鋭|するど}い: sharp — more general; used for blades, pain, eyes, intuition\n- {切|き}れ{味|あじ}がいい: having a good cutting edge — practical, about performance\n- {尖|とが}った: pointed, sharp — about shape rather than edge quality\n\nREGISTER:\nMore formal and literary than {鋭|するど}い. Common in written descriptions, news reports, and technical contexts. In everyday speech, {鋭|するど}い is more natural.",
+  "notes": "Describes the sharpness of a blade or edge, emphasizing that it can cut easily. Often encountered in news reports about crimes or accidents, as well as in cooking and craft contexts.\n\nCOMMON COLLOCATIONS:\n- {鋭利|えいり}な⟦{刃物|はもの}→刃物：11752_hamono⟧: sharp-edged tool/blade\n- {鋭利|えいり}な⟦ナイフ→ナイフ：01039_naifu⟧: sharp knife\n- {鋭利|えいり}な⟦{刃|は}→刃：09865_ha⟧: sharp blade/edge\n- {鋭利|えいり}な⟦{凶器|きょうき}→凶器：16384_kyouki⟧: sharp weapon\n\nSIMILAR WORDS:\n- ⟦{鋭|するど}い→鋭い：02347_surudoi⟧: sharp — more general; used for blades, pain, eyes, intuition\n- ⟦{切|き}れ{味|あじ}→切れ味：19110_kireaji⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: having a good cutting edge — practical, about performance\n- ⟦{尖|とが}った→尖る：00405_togaru⟧: pointed, sharp — about shape rather than edge quality\n\nREGISTER:\nMore formal and literary than ⟦{鋭|するど}い→鋭い：02347_surudoi⟧. Common in written descriptions, news reports, and technical contexts. In everyday speech, ⟦{鋭|するど}い→鋭い：02347_surudoi⟧ is more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02347_surudoi",
+      "reading": "するどい",
+      "headword": "{鋭|するど}い",
+      "label": "sharp"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-02T18:13:29Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

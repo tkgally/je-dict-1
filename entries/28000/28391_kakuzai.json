@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28391_kakuzai_ex1",
-      "japanese": "{角材|かくざい}を{二本|にほん}{買|か}った。",
+      "japanese": "{角材|かくざい}⟦を→を：00422_wo⟧{二本|にほん}⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought two pieces of square lumber.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28391_kakuzai_ex2",
-      "japanese": "{角材|かくざい}を{切|き}って{棚|たな}を{作|つく}った。",
+      "japanese": "{角材|かくざい}⟦を→を：00422_wo⟧⟦{切|き}って→切る：02693_kiru⟧⟦{棚|たな}→棚：01650_tana⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I cut some square lumber and built a shelf.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28391_kakuzai_ex3",
-      "japanese": "{床|ゆか}を{支|ささ}える{角材|かくざい}が{老朽化|ろうきゅうか}していたので{交換|こうかん}した。",
+      "japanese": "⟦{床|ゆか}→床：03652_yuka⟧⟦を→を：00422_wo⟧⟦{支|ささ}える→支える：01946_sasaeru⟧{角材|かくざい}⟦が→が：00051_ga⟧⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦していた→する：00392_suru⟧⟦の→の：09472_no⟧で⟦{交換|こうかん}→交換：02746_koukan⟧⟦した→する：00392_suru⟧。",
       "english": "The square timbers supporting the floor had deteriorated, so I replaced them.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Sold by cross-section size (e.g., {2|に}×{4|よん}{材|ざい} for two-by-four). Standard stock at hardware stores and lumber yards.\n\nCOMMON COLLOCATIONS:\n- {角材|かくざい}を{切|き}る: to cut square lumber\n- {木製|もくせい}の{角材|かくざい}: wooden square timber\n- {太|ふと}い{角材|かくざい}: thick square timber\n\nSIMILAR WORDS:\n- {丸太|まるた}: round timber; log — uncut, round cross-section\n- {板材|いたざい}: plank lumber — flat boards\n- {木材|もくざい}: lumber; timber — general term covering all forms",
+  "notes": "Sold by cross-section size (e.g., {2|に}×{4|よん}⟦{材|ざい}→〜材：28347_zai⟧ for two-by-four). Standard stock at hardware stores and lumber yards.\n\nCOMMON COLLOCATIONS:\n- {角材|かくざい}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to cut square lumber\n- ⟦{木製|もくせい}→木製：13083_mokusei_b⟧⟦の→の：09472_no⟧{角材|かくざい}: wooden square timber\n- ⟦{太|ふと}い→太い：02955_futoi⟧{角材|かくざい}: thick square timber\n\nSIMILAR WORDS:\n- ⟦{丸太|まるた}→丸太：15347_maruta⟧: round timber; log — uncut, round cross-section\n- {板材|いたざい}: plank lumber — flat boards\n- ⟦{木材|もくざい}→木材：13017_mokuzai⟧: lumber; timber — general term covering all forms",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15347_maruta",
+      "reading": "まるた",
+      "headword": "{丸太|まるた}",
+      "label": "round timber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13017_mokuzai",
+      "reading": "もくざい",
+      "headword": "{木材|もくざい}",
+      "label": "lumber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04190_zaimoku",
+      "reading": "ざいもく",
+      "headword": "{材木|ざいもく}",
+      "label": "lumber, timber"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-05-30T03:12:46Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

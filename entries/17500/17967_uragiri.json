@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17967_uragiri_ex1",
-      "japanese": "{友人|ゆうじん}の{裏切|うらぎ}りに{傷|きず}ついた。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧{裏切|うらぎ}り⟦に→に：00314_ni⟧⟦{傷|きず}ついた→傷つく：01934_kizutsuku⟧。",
       "english": "I was hurt by my friend's betrayal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17967_uragiri_ex2",
-      "japanese": "あの{裏切|うらぎ}りは{一生|いっしょう}{忘|わす}れない。",
+      "japanese": "⟦あの→あの：00915_ano⟧{裏切|うらぎ}り⟦は→は：00079_ha⟧⟦{一生|いっしょう}→一生：01728_isshou⟧⟦{忘|わす}れない→忘れる：00474_wasureru⟧。",
       "english": "I will never forget that betrayal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17967_uragiri_ex3",
-      "japanese": "{信頼|しんらい}していた{部下|ぶか}の{裏切|うらぎ}りによって、{会社|かいしゃ}は{大|おお}きな{損害|そんがい}を{受|う}けた。",
+      "japanese": "⟦{信頼|しんらい}していた→信頼する：22988_shinraisuru⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦の→の：09472_no⟧{裏切|うらぎ}り⟦によって→によって：06801_niyotte⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{損害|そんがい}→損害：02615_songai⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "Due to the betrayal of a trusted subordinate, the company suffered great losses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA strong, emotionally charged word. Used for serious violations of trust in personal relationships, business, and politics. Also common in fiction and drama.\n\nCOMMON COLLOCATIONS:\n- {裏切|うらぎ}り{行為|こうい} (act of betrayal)\n- {裏切|うらぎ}り{者|もの} (traitor, betrayer)\n- {裏切|うらぎ}りに{遭|あ}う (suffer a betrayal)\n- {信頼|しんらい}への{裏切|うらぎ}り (betrayal of trust)\n\nSIMILAR WORDS:\n- {背信|はいしん}: breach of faith — formal, often used in legal or political contexts\n- {寝返|ねがえ}り: switching sides — originally a military term for defecting to the enemy",
+  "notes": "USAGE:\nA strong, emotionally charged word. Used for serious violations of trust in personal relationships, business, and politics. Also common in fiction and drama.\n\nCOMMON COLLOCATIONS:\n- {裏切|うらぎ}り⟦{行為|こうい}→行為：10021_koui⟧ (act of betrayal)\n- {裏切|うらぎ}り⟦{者|もの}→者：12734_mono⟧ (traitor, betrayer)\n- {裏切|うらぎ}り⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧ (suffer a betrayal)\n- ⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{裏切|うらぎ}り (betrayal of trust)\n\nSIMILAR WORDS:\n- ⟦{背信|はいしん}→背信：15523_haishin⟧: breach of faith — formal, often used in legal or political contexts\n- ⟦{寝返|ねがえ}り→寝返り：05510_negaeri⟧: switching sides — originally a military term for defecting to the enemy",
   "prominent_see_also": [
     {
       "target_id": "02011_uragiru",
@@ -47,17 +53,64 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15523_haishin",
+      "reading": "はいしん",
+      "headword": "{背信|はいしん}",
+      "label": "breach of faith"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05510_negaeri",
+      "reading": "ねがえり",
+      "headword": "{寝返|ねがえ}り",
+      "label": "switching sides"
+    },
+    {
+      "type": "related",
+      "target_id": "18466_fujitsu",
+      "reading": "ふじつ",
+      "headword": "{不実|ふじつ}",
+      "label": "faithlessness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21482_rihan",
+      "reading": "りはん",
+      "headword": "{離反|りはん}",
+      "label": "defection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26308_fuchuu",
+      "reading": "ふちゅう",
+      "headword": "{不忠|ふちゅう}",
+      "label": "disloyalty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26527_fuchuujitsu",
+      "reading": "ふちゅうじつ",
+      "headword": "{不忠実|ふちゅうじつ}",
+      "label": "unfaithful"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:05:00Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

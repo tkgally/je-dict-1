@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29288_yurushigatai_ex1",
-      "japanese": "{許|ゆる}し{難|がた}い{行為|こうい}だ。",
+      "japanese": "{許|ゆる}し{難|がた}い⟦{行為|こうい}→行為：10021_koui⟧だ。",
       "english": "It is an unforgivable act.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29288_yurushigatai_ex2",
-      "japanese": "{仲間|なかま}を{裏切|うらぎ}るとは{許|ゆる}し{難|がた}い。",
+      "japanese": "⟦{仲間|なかま}→仲間：03498_nakama⟧⟦を→を：00422_wo⟧⟦{裏切|うらぎ}る→裏切る：02011_uragiru⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{許|ゆる}し{難|がた}い。",
       "english": "Betraying one's comrades is inexcusable.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29288_yurushigatai_ex3",
-      "japanese": "{弱|よわ}い{立場|たちば}の{人|ひと}をだまして{金|かね}を{奪|うば}うのは{許|ゆる}し{難|がた}い{罪|つみ}だ。",
+      "japanese": "⟦{弱|よわ}い→弱い：00825_yowai⟧⟦{立場|たちば}→立場：03403_tachiba⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧だまして⟦{金|かね}→金：02618_kane⟧⟦を→を：00422_wo⟧⟦{奪|うば}う→奪う：01895_ubau⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{許|ゆる}し{難|がた}い⟦{罪|つみ}→罪：03532_tsumi⟧だ。",
       "english": "Deceiving people in a vulnerable position to take their money is an inexcusable crime.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {許|ゆる}す (to forgive) + the suffix ～{難|がた}い (hard to ~). It expresses strong moral condemnation and has a formal, somewhat literary tone.\n\nUSAGE:\nThe ～{難|がた}い pattern attaches to verb stems to mean \"difficult to ~\": {理解|りかい}し{難|がた}い (hard to understand), {信|しん}じ{難|がた}い (hard to believe). {許|ゆる}し{難|がた}い is stronger and more formal than {許|ゆる}せない.\n\nCOMMON COLLOCATIONS:\n- {許|ゆる}し{難|がた}い{行為|こうい}: an unforgivable act\n- {許|ゆる}し{難|がた}い{罪|つみ}: an inexcusable crime\n\nSIMILAR WORDS:\n- {許|ゆる}せない: unforgivable — more colloquial and emotional\n- {耐|た}え{難|がた}い: unbearable; hard to endure",
+  "notes": "Formed from ⟦{許|ゆる}す→許す：02325_yurusu⟧ (to forgive) + the suffix ～⟦{難|がた}い→難い：17198_gatai⟧ (hard to ~). It expresses strong moral condemnation and has a formal, somewhat literary tone.\n\nUSAGE:\nThe ～⟦{難|がた}い→難い：17198_gatai⟧ pattern attaches to verb stems to mean \"difficult to ~\": ⟦{理解|りかい}→理解：03674_rikai⟧し⟦{難|がた}い→難い：17198_gatai⟧ (hard to understand), ⟦{信|しん}じ{難|がた}い→信じ難い：19679_shinjigatai⟧ (hard to believe). {許|ゆる}し{難|がた}い is stronger and more formal than ⟦{許|ゆる}せない→許す：02325_yurusu⟧.\n\nCOMMON COLLOCATIONS:\n- {許|ゆる}し{難|がた}い⟦{行為|こうい}→行為：10021_koui⟧: an unforgivable act\n- {許|ゆる}し{難|がた}い⟦{罪|つみ}→罪：03532_tsumi⟧: an inexcusable crime\n\nSIMILAR WORDS:\n- ⟦{許|ゆる}せない→許す：02325_yurusu⟧: unforgivable — more colloquial and emotional\n- ⟦{耐|た}え{難|がた}い→耐え難い：19680_taegatai⟧: unbearable; hard to endure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19680_taegatai",
+      "reading": "たえがたい",
+      "headword": "{耐|た}え{難|がた}い",
+      "label": "unbearable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +69,7 @@
       "domain": []
     },
     "created": "2026-06-16T15:19:08Z",
-    "modified": "2026-06-16T15:19:08Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "conjugation": {
     "type": "i-adjective",

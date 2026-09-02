@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29158_kuchisakisanzun_ex1",
-      "japanese": "{口先|くちさき}{三寸|さんずん}でその{場|ば}を{乗|の}り{切|き}ろうとした。",
+      "japanese": "{口先|くちさき}{三寸|さんずん}⟦で→で：00502_de⟧⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦を→を：00422_wo⟧⟦{乗|の}り{切|き}ろう→乗り切る：11410_norikiru⟧とした。",
       "english": "He tried to get through the situation with smooth talk alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29158_kuchisakisanzun_ex2",
-      "japanese": "{彼|かれ}は{口先|くちさき}{三寸|さんずん}だから、{話|はなし}をうのみにしてはいけない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{口先|くちさき}{三寸|さんずん}だ⟦から→から：00504_kara⟧、⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧うのみにして⟦は→は：00079_ha⟧いけない。",
       "english": "He's all smooth talk, so don't take what he says at face value.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29158_kuchisakisanzun_ex3",
-      "japanese": "{口先|くちさき}{三寸|さんずん}で{人|ひと}を{動|うご}かすことに{長|た}けているが、{実行力|じっこうりょく}がない。",
+      "japanese": "{口先|くちさき}{三寸|さんずん}⟦で→で：00502_de⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧こと⟦に→に：00314_ni⟧⟦{長|た}けている→長ける：14540_takeru⟧⟦が→が：00051_ga⟧、⟦{実行力|じっこうりょく}→実行力：08705_jikkouryoku⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "He is skilled at moving people with clever words, but lacks the ability to follow through.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{口先|くちさき} (tip of the tongue; one's words) + {三寸|さんずん} (three sun, a short traditional measure — referring to the small space of the mouth). Together: suggesting talk with no real substance behind it.\n\nCOMMON PATTERNS:\n- {口先|くちさき}{三寸|さんずん}でごまかす: to gloss over with smooth words\n- {口先|くちさき}{三寸|さんずん}の{人間|にんげん}: a glib person, someone all talk\n\nSIMILAR WORDS:\n- {口|くち}だけ: all talk — more colloquial and blunt\n- {建前|たてまえ}: stated principle vs. actual intention — more specific to social pretense",
+  "notes": "⟦{口先|くちさき}→口先：16728_kuchisaki⟧ (tip of the tongue; one's words) + {三寸|さんずん} (three sun, a short traditional measure — referring to the small space of the mouth). Together: suggesting talk with no real substance behind it.\n\nCOMMON PATTERNS:\n- {口先|くちさき}{三寸|さんずん}⟦で→で：00502_de⟧ごまかす: to gloss over with smooth words\n- {口先|くちさき}{三寸|さんずん}⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧: a glib person, someone all talk\n\nSIMILAR WORDS:\n- ⟦{口|くち}→口：00560_kuchi⟧⟦だけ→〜だけ：03093_dake⟧: all talk — more colloquial and blunt\n- ⟦{建前|たてまえ}→建前：06621_tatemae⟧: stated principle vs. actual intention — more specific to social pretense",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26874_kuchidake",
+      "reading": "くちだけ",
+      "headword": "{口|くち}だけ",
+      "label": "all talk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06621_tatemae",
+      "reading": "たてまえ",
+      "headword": "{建前|たてまえ}",
+      "label": "stated principle vs. actual intention"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication"],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-06-11T21:48:16Z",
-    "modified": "2026-06-11T21:48:16Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

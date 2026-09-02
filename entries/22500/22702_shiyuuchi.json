@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22702_shiyuuchi_ex1",
-      "japanese": "ここは{私有地|しゆうち}です。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{私有地|しゆうち}です。",
       "english": "This is private property.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22702_shiyuuchi_ex2",
-      "japanese": "{私有地|しゆうち}に{無断|むだん}で{入|はい}ってはいけない。",
+      "japanese": "{私有地|しゆうち}⟦に→に：00314_ni⟧⟦{無断|むだん}→無断：13382_mudan⟧⟦で→で：00502_de⟧⟦{入|はい}って→入る：00494_hairu⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not enter private land without permission.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22702_shiyuuchi_ex3",
-      "japanese": "この{森|もり}は{私有地|しゆうち}なので{一般|いっぱん}の{人|ひと}は{立|た}ち{入|い}れない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{森|もり}→森：02260_mori⟧⟦は→は：00079_ha⟧{私有地|しゆうち}な⟦の→の：09472_no⟧で⟦{一般|いっぱん}→一般：01737_ippan⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{立|た}ち{入|い}れない→立ち入る：26367_tachiiru⟧。",
       "english": "This forest is private property, so the general public cannot enter.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {私有|しゆう} (private ownership) + {地|ち} (land). Often seen on signs warning against trespassing. Japan has a strong concept of private land ownership, and {私有地|しゆうち} signs are commonly posted at the boundaries of private property.\n\nCOMMON COLLOCATIONS:\n- {私有地|しゆうち}に{立|た}ち{入|い}る: to trespass on private land\n- {私有地|しゆうち}{立入禁止|たちいりきんし}: no trespassing on private property\n- {私有地|しゆうち}の{売買|ばいばい}: buying and selling of private land\n\nSIMILAR WORDS:\n- {公有地|こうゆうち}: public land — land owned by national or local government\n- {国有地|こくゆうち}: state-owned land — land owned by the national government specifically\n- {私有|しゆう}: private ownership — the broader concept, not limited to land",
+  "notes": "A compound of ⟦{私有|しゆう}→私有：19205_shiyuu⟧ (private ownership) + {地|ち} (land). Often seen on signs warning against trespassing. Japan has a strong concept of private land ownership, and {私有地|しゆうち} signs are commonly posted at the boundaries of private property.\n\nCOMMON COLLOCATIONS:\n- {私有地|しゆうち}⟦に→に：00314_ni⟧⟦{立|た}ち{入|い}る→立ち入る：26367_tachiiru⟧: to trespass on private land\n- {私有地|しゆうち}⟦{立入禁止|たちいりきんし}→立入禁止：09542_tachiirikinshi⟧: no trespassing on private property\n- {私有地|しゆうち}⟦の→の：09472_no⟧⟦{売買|ばいばい}→売買：04336_baibai⟧: buying and selling of private land\n\nSIMILAR WORDS:\n- ⟦{公有地|こうゆうち}→公有地：29445_kouyuuchi⟧: public land — land owned by national or local government\n- ⟦{国有地|こくゆうち}→国有地：29463_kokuyuuchi⟧: state-owned land — land owned by the national government specifically\n- ⟦{私有|しゆう}→私有：19205_shiyuu⟧: private ownership — the broader concept, not limited to land",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29445_kouyuuchi",
+      "reading": "こうゆうち",
+      "headword": "公有地",
+      "label": "public land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29463_kokuyuuchi",
+      "reading": "こくゆうち",
+      "headword": "{国有地|こくゆうち}",
+      "label": "state-owned land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29446_shoyuuchi",
+      "reading": "しょゆうち",
+      "headword": "所有地",
+      "label": "owned land"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:34:12Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

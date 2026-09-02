@@ -3,7 +3,7 @@
   "headword": "{調味|ちょうみ}する",
   "reading": "ちょうみする",
   "romaji": "choumisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to season; to flavor; to add seasoning",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23460_choumisuru_ex1",
-      "japanese": "{塩|しお}と{胡椒|こしょう}で{調味|ちょうみ}する。",
+      "japanese": "⟦{塩|しお}→塩：00887_shio⟧⟦と→と：00512_to⟧⟦{胡椒|こしょう}→胡椒：10321_koshou⟧⟦で→で：00502_de⟧{調味|ちょうみ}する。",
       "english": "Season with salt and pepper.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23460_choumisuru_ex2",
-      "japanese": "{醤油|しょうゆ}と{味醂|みりん}で{甘辛|あまから}く{調味|ちょうみ}した。",
+      "japanese": "⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦と→と：00512_to⟧⟦{味醂|みりん}→味醂：04918_mirin⟧⟦で→で：00502_de⟧⟦{甘辛|あまから}く→甘辛い：27507_amakarai⟧{調味|ちょうみ}した。",
       "english": "I seasoned it sweet and savory with soy sauce and mirin.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23460_choumisuru_ex3",
-      "japanese": "{素材|そざい}の{味|あじ}を{生|い}かすために、{薄|うす}く{調味|ちょうみ}するのがコツだ。",
+      "japanese": "⟦{素材|そざい}→素材：09492_sozai⟧⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧⟦を→を：00422_wo⟧{生|い}かす⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{薄|うす}く→薄い：00764_usui⟧{調味|ちょうみ}する⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦コツ→コツ：06658_kotsu⟧だ。",
       "english": "The trick is to season lightly in order to bring out the natural flavor of the ingredients.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {調|ちょう} (to adjust) and {味|み} (flavor). Literally means 'to adjust the flavor.' Used in cooking contexts to describe the act of adding seasonings to food.\n\nCOMMON COLLOCATIONS:\n- {塩|しお}で{調味|ちょうみ}する: to season with salt\n- {醤油|しょうゆ}で{調味|ちょうみ}する: to season with soy sauce\n- {薄|うす}く{調味|ちょうみ}する: to season lightly\n- {調味|ちょうみ}した{肉|にく}: seasoned meat\n\nRELATED WORDS:\n- {調味料|ちょうみりょう}: seasoning, condiment — the ingredients used to season food\n- {味付|あじつ}け: seasoning, flavoring — a more everyday word for the same concept; {調味|ちょうみ} sounds more technical or formal\n- {下味|したあじ}をつける: to pre-season, to marinate — specifically refers to seasoning before the main cooking step\n\nREGISTER:\n{調味|ちょうみ}する is somewhat formal and is more commonly seen in recipes and cooking instruction than in casual conversation, where {味付|あじつ}けする is preferred.",
+  "notes": "A compound of {調|ちょう} (to adjust) and {味|み} (flavor). Literally means 'to adjust the flavor.' Used in cooking contexts to describe the act of adding seasonings to food.\n\nCOMMON COLLOCATIONS:\n- ⟦{塩|しお}→塩：00887_shio⟧⟦で→で：00502_de⟧{調味|ちょうみ}する: to season with salt\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦で→で：00502_de⟧{調味|ちょうみ}する: to season with soy sauce\n- ⟦{薄|うす}く→薄い：00764_usui⟧{調味|ちょうみ}する: to season lightly\n- {調味|ちょうみ}した⟦{肉|にく}→肉：02240_niku⟧: seasoned meat\n\nRELATED WORDS:\n- ⟦{調味料|ちょうみりょう}→調味料：04941_choumiryou⟧: seasoning, condiment — the ingredients used to season food\n- ⟦{味付|あじつ}け→味付け：05830_ajitsuke⟧: seasoning, flavoring — a more everyday word for the same concept; {調味|ちょうみ} sounds more technical or formal\n- ⟦{下味|したあじ}→下味：06809_shitaaji⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to pre-season, to marinate — specifically refers to seasoning before the main cooking step\n\nREGISTER:\n{調味|ちょうみ}する is somewhat formal and is more commonly seen in recipes and cooking instruction than in casual conversation, where ⟦{味付|あじつ}け→味付け：05830_ajitsuke⟧⟦する→する：00392_suru⟧ is preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04941_choumiryou",
+      "reading": "ちょうみりょう",
+      "headword": "{調味料|ちょうみりょう}",
+      "label": "seasoning, condiment"
+    },
+    {
+      "type": "related",
+      "target_id": "05830_ajitsuke",
+      "reading": "あじつけ",
+      "headword": "{味付|あじつ}け",
+      "label": "seasoning, flavoring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +76,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T07:41:55Z",
-    "modified": "2026-04-12T07:41:55Z"
+    "modified": "2026-09-02T04:02:13Z"
   },
   "conjugation": {
     "type": "suru",

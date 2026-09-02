@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20229_katame_ex1",
-      "japanese": "{片目|かため}をつぶった。",
+      "japanese": "{片目|かため}⟦を→を：00422_wo⟧⟦つぶった→つぶる：29078_tsuburu⟧。",
       "english": "I closed one eye.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20229_katame_ex2",
-      "japanese": "{片目|かため}で{覗|のぞ}くと{立体感|りったいかん}がなくなる。",
+      "japanese": "{片目|かため}⟦で→で：00502_de⟧⟦{覗|のぞ}く→覗く：02388_nozoku⟧⟦と→と：00512_to⟧⟦{立体感|りったいかん}→立体感：21914_rittaikan⟧⟦が→が：00051_ga⟧なくなる。",
       "english": "If you look with one eye, you lose the sense of depth.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20229_katame_ex3",
-      "japanese": "{事故|じこ}で{片目|かため}の{視力|しりょく}を{失|うしな}ったが、{前向|まえむ}きに{生活|せいかつ}している。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧{片目|かため}⟦の→の：09472_no⟧⟦{視力|しりょく}→視力：05033_shiryoku⟧⟦を→を：00422_wo⟧⟦{失|うしな}った→失う：01887_ushinau⟧⟦が→が：00051_ga⟧、⟦{前向|まえむ}き→前向き：10073_maemuki⟧⟦に→に：00314_ni⟧⟦{生活|せいかつ}している→生活する：01839_seikatsusuru⟧。",
       "english": "I lost sight in one eye in an accident, but I'm living positively.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {片|かた} (one of a pair) + {目|め} (eye). The prefix {片|かた} is used for one of a pair of body parts or objects: {片手|かたて} (one hand), {片足|かたあし} (one foot/leg), {片耳|かたみみ} (one ear).\n\nCOMMON COLLOCATIONS:\n- {片目|かため}をつぶる: to close one eye (also means to overlook)\n- {片目|かため}で{見|み}る: to look with one eye\n- {片目|かため}を{失|うしな}う: to lose one eye\n- {片目|かため}を{閉|と}じる: to close one eye\n\nRELATED TERMS:\n- {片手|かたて}: one hand\n- {片足|かたあし}: one foot/leg\n- {片耳|かたみみ}: one ear\n- {両目|りょうめ}: both eyes — the counterpart",
+  "notes": "Composed of ⟦{片|かた}→片：26670_kata⟧ (one of a pair) + ⟦{目|め}→目：00525_me⟧ (eye). The prefix ⟦{片|かた}→片：26670_kata⟧ is used for one of a pair of body parts or objects: ⟦{片手|かたて}→片手：13462_katate⟧ (one hand), {片足|かたあし} (one foot/leg), ⟦{片耳|かたみみ}→片耳：26319_katamimi⟧ (one ear).\n\nCOMMON COLLOCATIONS:\n- {片目|かため}⟦を→を：00422_wo⟧⟦つぶる→つぶる：29078_tsuburu⟧: to close one eye (also means to overlook)\n- {片目|かため}⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧: to look with one eye\n- {片目|かため}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose one eye\n- {片目|かため}⟦を→を：00422_wo⟧⟦{閉|と}じる→閉じる：02303_tojiru⟧: to close one eye\n\nRELATED WORDS:\n- ⟦{片手|かたて}→片手：13462_katate⟧: one hand\n- {片足|かたあし}: one foot/leg\n- ⟦{片耳|かたみみ}→片耳：26319_katamimi⟧: one ear\n- ⟦{両目|りょうめ}→両目：21275_ryoume⟧: both eyes — the counterpart",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13462_katate",
+      "reading": "かたて",
+      "headword": "{片手|かたて}",
+      "label": "one hand"
+    },
+    {
+      "type": "related",
+      "target_id": "26319_katamimi",
+      "reading": "かたみみ",
+      "headword": "{片耳|かたみみ}",
+      "label": "one ear"
+    },
+    {
+      "type": "related",
+      "target_id": "21275_ryoume",
+      "reading": "りょうめ",
+      "headword": "{両目|りょうめ}",
+      "label": "both eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "29955_hidarime",
+      "reading": "ひだりめ",
+      "headword": "{左|ひだり}{目|め}",
+      "label": "left eye"
+    },
+    {
+      "type": "related",
+      "target_id": "29956_migime",
+      "reading": "みぎめ",
+      "headword": "{右|みぎ}{目|め}",
+      "label": "right eye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +96,6 @@
       ]
     },
     "created": "2026-03-28T17:16:36Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

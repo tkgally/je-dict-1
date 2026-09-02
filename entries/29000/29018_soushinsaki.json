@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "29018_soushinsaki_ex1",
-      "japanese": "{送信先|そうしんさき}を{確認|かくにん}してください。",
+      "japanese": "{送信先|そうしんさき}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the recipient.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29018_soushinsaki_ex2",
-      "japanese": "{送信先|そうしんさき}の{名前|なまえ}を{間違|まちが}えてメールを{出|だ}してしまった。",
+      "japanese": "{送信先|そうしんさき}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{間違|まちが}えて→間違える：01109_machigaeru⟧⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧しまった。",
       "english": "I accidentally sent the email with the wrong recipient name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29018_soushinsaki_ex3",
-      "japanese": "{個人情報|こじんじょうほう}を{含|ふく}むメールは、{送信先|そうしんさき}が{正|ただ}しいか{必|かなら}ず{確認|かくにん}しよう。",
+      "japanese": "⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦を→を：00422_wo⟧⟦{含|ふく}む→含む：01982_fukumu⟧⟦メール→メール：04435_meeru⟧⟦は→は：00079_ha⟧、{送信先|そうしんさき}⟦が→が：00051_ga⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦か→か：09473_ka⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{確認|かくにん}しよう→確認する：25332_kakuninsuru⟧。",
       "english": "For emails containing personal information, always make sure to verify that the recipient is correct.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {送信|そうしん} (transmission) + {先|さき} (destination). The 〜{先|さき} suffix forms many \"destination/contact\" words: {連絡先|れんらくさき} (contact address), {宛先|あてさき} (addressee).\n\nCOMMON COLLOCATIONS:\n- {送信先|そうしんさき}を{確認|かくにん}する: to verify the recipient\n- {送信先|そうしんさき}を{選|えら}ぶ: to choose the recipient\n- {送信先|そうしんさき}{不明|ふめい}: recipient unknown / address not found\n- {送信先|そうしんさき}{一覧|いちらん}: list of recipients\n\nSIMILAR WORDS:\n- {宛先|あてさき}: addressee — used for postal mail as well as email\n- {受信者|じゅしんしゃ}: receiver, recipient — focuses on the person, not the address\n- {宛|あて}: addressed to (suffix) — used in formal address lines, e.g. {社長|しゃちょう}{宛|あて}",
+  "notes": "Compound of ⟦{送信|そうしん}→送信：17692_soushin⟧ (transmission) + ⟦{先|さき}→先：02883_saki⟧ (destination). The 〜⟦{先|さき}→先：02883_saki⟧ suffix forms many \"destination/contact\" words: ⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧ (contact address), ⟦{宛先|あてさき}→宛先：12275_atesaki⟧ (addressee).\n\nCOMMON COLLOCATIONS:\n- {送信先|そうしんさき}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to verify the recipient\n- {送信先|そうしんさき}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose the recipient\n- {送信先|そうしんさき}⟦{不明|ふめい}→不明：11352_fumei⟧: recipient unknown / address not found\n- {送信先|そうしんさき}⟦{一覧|いちらん}→一覧：17694_ichiran⟧: list of recipients\n\nSIMILAR WORDS:\n- ⟦{宛先|あてさき}→宛先：12275_atesaki⟧: addressee — used for postal mail as well as email\n- {受信者|じゅしんしゃ}: receiver, recipient — focuses on the person, not the address\n- {宛|あて}: addressed to (suffix) — used in formal address lines, e.g. ⟦{社長|しゃちょう}→社長：01428_shachou⟧{宛|あて}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12275_atesaki",
+      "reading": "あてさき",
+      "headword": "{宛先|あてさき}",
+      "label": "addressee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication", "technology"],
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-08T08:29:10Z",
-    "modified": "2026-06-08T08:29:10Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

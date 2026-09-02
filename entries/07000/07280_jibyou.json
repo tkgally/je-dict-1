@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07280_jibyou_ex1",
-      "japanese": "{持病|じびょう}の{喘息|ぜんそく}が{悪化|あっか}した。",
+      "japanese": "{持病|じびょう}⟦の→の：09472_no⟧⟦{喘息|ぜんそく}→喘息：08444_zensoku⟧⟦が→が：00051_ga⟧⟦{悪化|あっか}した→悪化する：18844_akkasuru⟧。",
       "english": "My chronic asthma got worse.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07280_jibyou_ex2",
-      "japanese": "{持病|じびょう}があるので{定期的|ていきてき}に{病院|びょういん}に{通|かよ}っている。",
+      "japanese": "{持病|じびょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I go to the hospital regularly because I have a chronic condition.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07280_jibyou_ex3",
-      "japanese": "{持病|じびょう}がなければ{保険|ほけん}に{入|はい}りやすい。",
+      "japanese": "{持病|じびょう}⟦が→が：00051_ga⟧⟦なければ→ない：01118_nai⟧⟦{保険|ほけん}→保険：01509_hoken⟧⟦に→に：00314_ni⟧⟦{入|はい}り→入る：00494_hairu⟧やすい。",
       "english": "It's easier to get insurance if you don't have a chronic illness.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{持|も}つ (to have) + {病|びょう} (illness) → illness one has = chronic condition\n\nCOMMON EXPRESSIONS:\n・{持病|じびょう}がある - to have a chronic condition\n・{持病|じびょう}を{抱|かか}える - to be living with a chronic illness\n・{持病|じびょう}が{悪化|あっか}する - for a chronic condition to worsen\n\nCOMMON CHRONIC CONDITIONS:\n・{糖尿病|とうにょうびょう} - diabetes\n・{高血圧|こうけつあつ} - high blood pressure\n・{喘息|ぜんそく} - asthma\n・{腰痛|ようつう} - chronic back pain\n\nUSAGE NOTE:\nOften mentioned when filling out medical forms, insurance applications, or when explaining one's health situation.",
+  "notes": "FORMS:\n⟦{持|も}つ→持つ：00478_motsu⟧ (to have) + {病|びょう} (illness) → illness one has = chronic condition\n\nCOMMON EXPRESSIONS:\n- {持病|じびょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ - to have a chronic condition\n- {持病|じびょう}⟦を→を：00422_wo⟧⟦{抱|かか}える→抱える：02031_kakaeru⟧ - to be living with a chronic illness\n- {持病|じびょう}⟦が→が：00051_ga⟧⟦{悪化|あっか}する→悪化する：18844_akkasuru⟧ - for a chronic condition to worsen\n\nCOMMON CHRONIC CONDITIONS:\n- ⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧ - diabetes\n- ⟦{高血圧|こうけつあつ}→高血圧：04415_kouketsuatsu⟧ - high blood pressure\n- ⟦{喘息|ぜんそく}→喘息：08444_zensoku⟧ - asthma\n- ⟦{腰痛|ようつう}→腰痛：05020_youtsuu⟧ - chronic back pain\n\nUSAGE:\nOften mentioned when filling out medical forms, insurance applications, or when explaining one's health situation.",
   "metadata": {
     "created": "2026-01-19T03:27:27Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +74,20 @@
       "reading": "きゅうびょう",
       "headword": "{急病|きゅうびょう}",
       "label": "sudden illness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14606_nanbyou",
+      "reading": "なんびょう",
+      "headword": "{難病|なんびょう}",
+      "label": "intractable disease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23462_manseibyou",
+      "reading": "まんせいびょう",
+      "headword": "{慢性病|まんせいびょう}",
+      "label": "chronic illness"
     }
   ]
 }

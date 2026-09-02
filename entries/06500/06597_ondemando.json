@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06597_ondemando_ex1",
-      "japanese": "オンデマンド{配信|はいしん}で{好|す}きな{時|とき}に{映画|えいが}を{見|み}られる。",
+      "japanese": "オンデマンド⟦{配信|はいしん}→配信：04898_haishin⟧⟦で→で：00502_de⟧⟦{好|す}き→好き：02355_suki⟧な{時|とき}⟦に→に：00314_ni⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "With on-demand streaming, you can watch movies whenever you want.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "06597_ondemando_ex2",
-      "japanese": "この{授業|じゅぎょう}はオンデマンドで{視聴|しちょう}できます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦は→は：00079_ha⟧オンデマンド⟦で→で：00502_de⟧⟦{視聴|しちょう}→視聴：04467_shichou⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "This class can be viewed on-demand.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "06597_ondemando_ex3",
-      "japanese": "オンデマンド{印刷|いんさつ}で{必要|ひつよう}な{分|ぶん}だけ{作|つく}れる。",
+      "japanese": "オンデマンド⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦で→で：00502_de⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{分|ぶん}→分：26216_bun⟧⟦だけ→〜だけ：03093_dake⟧⟦{作|つく}れる→作る：00481_tsukuru⟧。",
       "english": "With print-on-demand, you can print only what you need.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,40 @@
       ]
     }
   ],
-  "notes": "オンデマンド is a loanword from English \"on demand,\" meaning content or services available whenever requested rather than at fixed times.\n\nCOMMON COMPOUNDS:\n- オンデマンド{配信|はいしん}: on-demand streaming/distribution\n- オンデマンド{授業|じゅぎょう}: on-demand classes (recorded lectures)\n- オンデマンド{印刷|いんさつ}: print-on-demand\n- ビデオ・オン・デマンド (VOD): video on demand\n\nUSAGE:\nUsed as a noun modifier with の or directly before another noun. Became especially common during the COVID-19 pandemic with the shift to online education.\n\nCONTRAST:\n- {生放送|なまほうそう}: live broadcast\n- ライブ{配信|はいしん}: live streaming\n- リアルタイム: real-time",
+  "notes": "オンデマンド is a loanword from English \"on demand,\" meaning content or services available whenever requested rather than at fixed times.\n\nCOMPOUNDS:\n- オンデマンド⟦{配信|はいしん}→配信：04898_haishin⟧: on-demand streaming/distribution\n- オンデマンド⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: on-demand classes (recorded lectures)\n- オンデマンド⟦{印刷|いんさつ}→印刷：01844_insatsu⟧: print-on-demand\n- ビデオ・オン・デマンド (VOD): video on demand\n\nUSAGE:\nUsed as a noun modifier with ⟦の→の：09472_no⟧ or directly before another noun. Became especially common during the COVID-19 pandemic with the shift to online education.\n\nSIMILAR WORDS:\n- ⟦{生放送|なまほうそう}→生放送：08172_namahousou⟧: live broadcast\n- ⟦ライブ{配信|はいしん}→ライブ配信：23746_raibuhaishin⟧: live streaming\n- ⟦リアルタイム→リアルタイム：11599_riarutaimu⟧: real-time",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08172_namahousou",
+      "reading": "なまほうそう",
+      "headword": "{生放送|なまほうそう}",
+      "label": "live broadcast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23746_raibuhaishin",
+      "reading": "らいぶはいしん",
+      "headword": "ライブ{配信|はいしん}",
+      "label": "live streaming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11599_riarutaimu",
+      "reading": "りあるたいむ",
+      "headword": "リアルタイム",
+      "label": "real-time"
+    },
+    {
+      "type": "related",
+      "target_id": "08297_minogashi",
+      "reading": "みのがし",
+      "headword": "{見逃|みのが}し",
+      "label": "overlooking"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T00:57:28Z",
-    "modified": "2026-04-08T04:19:25Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

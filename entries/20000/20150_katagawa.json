@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20150_katagawa_ex1",
-      "japanese": "{片側|かたがわ}を{空|あ}ける。",
+      "japanese": "{片側|かたがわ}⟦を→を：00422_wo⟧⟦{空|あ}ける→空ける：18694_akeru⟧。",
       "english": "To keep one side open.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20150_katagawa_ex2",
-      "japanese": "{片側|かたがわ}{一車線|いちしゃせん}の{道路|どうろ}です。",
+      "japanese": "{片側|かたがわ}{一車線|いちしゃせん}⟦の→の：09472_no⟧⟦{道路|どうろ}→道路：01481_douro⟧です。",
       "english": "It's a road with one lane in each direction.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20150_katagawa_ex3",
-      "japanese": "エスカレーターでは{片側|かたがわ}に{寄|よ}って{立|た}つのがマナーとされている。",
+      "japanese": "⟦エスカレーター→エスカレーター：01338_esukareetaa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{片側|かたがわ}⟦に→に：00314_ni⟧⟦{寄|よ}って→寄る：02440_yoru⟧⟦{立|た}つ→立つ：00758_tatsu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦マナー→マナー：11139_manaa⟧⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "It is considered good manners to stand on one side of the escalator.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {片|かた} (one of a pair) and {側|がわ} (side). Frequently used when referring to one side of a road, street, or other symmetrical space.\n\nCOMMON COLLOCATIONS:\n- {片側|かたがわ}{通行|つうこう} — one-way traffic (on one side)\n- {片側|かたがわ}{一車線|いちしゃせん} — one lane per side\n- {道|みち}の{片側|かたがわ} — one side of the road\n- {片側|かたがわ}だけ — only one side\n\nSIMILAR WORDS:\n- {両側|りょうがわ} — both sides (antonym)\n- {向|む}こう{側|がわ} — the other side, opposite side\n- {反対側|はんたいがわ} — the opposite side",
+  "notes": "A compound of ⟦{片|かた}→片：26670_kata⟧ (one of a pair) and ⟦{側|がわ}→〜側：03090_gawa⟧ (side). Frequently used when referring to one side of a road, street, or other symmetrical space.\n\nCOMMON COLLOCATIONS:\n- {片側|かたがわ}⟦{通行|つうこう}→通行：03436_tsuukou⟧ — one-way traffic (on one side)\n- {片側|かたがわ}{一車線|いちしゃせん} — one lane per side\n- ⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧{片側|かたがわ} — one side of the road\n- {片側|かたがわ}⟦だけ→〜だけ：03093_dake⟧ — only one side\n\nSIMILAR WORDS:\n- ⟦{両側|りょうがわ}→両側：28877_ryougawa⟧ — both sides (antonym)\n- ⟦{向|む}こう{側|がわ}→向こう側：08504_mukougawa⟧ — the other side, opposite side\n- ⟦{反対側|はんたいがわ}→反対側：16780_hantaigawa⟧ — the opposite side",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "28877_ryougawa",
+      "reading": "りょうがわ",
+      "headword": "{両側|りょうがわ}",
+      "label": "both sides"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08504_mukougawa",
+      "reading": "むこうがわ",
+      "headword": "{向|む}こう{側|がわ}",
+      "label": "the other side, opposite side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16780_hantaigawa",
+      "reading": "はんたいがわ",
+      "headword": "{反対側|はんたいがわ}",
+      "label": "the opposite side"
+    },
+    {
+      "type": "related",
+      "target_id": "22602_kochiragawa",
+      "reading": "こちらがわ",
+      "headword": "こちら{側|がわ}",
+      "label": "this side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-07-28T00:53:12Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

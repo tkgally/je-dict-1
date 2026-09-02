@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{政治家|せいじか} combines ⟦{政治|せいじ}→政治：01629_seiji⟧ (politics) + ⟦{家|か}→家：noentry⟧ (professional suffix).\n\nRELATED TERMS:\n- ⟦{政治|せいじ}→政治：01629_seiji⟧ (politics)\n- ⟦{政党|せいとう}→政党：04338_seitou⟧ (political party)\n- ⟦{議員|ぎいん}→議員：02660_giin⟧ (member of parliament/congress)\n- ⟦{首相|しゅしょう}→首相：03217_shushou⟧ (prime minister)\n\nRELATED ～⟦{家|か}→家：noentry⟧ WORDS:\n- ⟦{小説家|しょうせつか}→小説家：03070_shousetsuka⟧ (novelist)\n- ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧ (specialist)\n- ⟦{芸術家|げいじゅつか}→芸術家：14979_geijutsuka⟧ (artist)\n\nUSAGE NOTES:\n- Can have neutral to slightly negative connotations depending on context\n- ⟦{政治屋|せいじや}→政治屋：noentry⟧ is a derogatory term for a corrupt/self-serving politician",
+  "notes": "{政治家|せいじか} combines ⟦{政治|せいじ}→政治：01629_seiji⟧ (politics) + ⟦{家|か}→家：noentry⟧ (professional suffix).\n\nRELATED WORDS:\n- ⟦{政治|せいじ}→政治：01629_seiji⟧ (politics)\n- ⟦{政党|せいとう}→政党：04338_seitou⟧ (political party)\n- ⟦{議員|ぎいん}→議員：02660_giin⟧ (member of parliament/congress)\n- ⟦{首相|しゅしょう}→首相：03217_shushou⟧ (prime minister)\n\nRELATED ～⟦{家|か}→家：noentry⟧ WORDS:\n- ⟦{小説家|しょうせつか}→小説家：03070_shousetsuka⟧ (novelist)\n- ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧ (specialist)\n- ⟦{芸術家|げいじゅつか}→芸術家：14979_geijutsuka⟧ (artist)\n\nUSAGE:\n- Can have neutral to slightly negative connotations depending on context\n- ⟦{政治屋|せいじや}→政治屋：noentry⟧ is a derogatory term for a corrupt/self-serving politician",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,53 @@
       "headword": "{議員|ぎいん}",
       "label": "parliament member",
       "target_id": "02660_giin"
+    },
+    {
+      "type": "related",
+      "target_id": "04338_seitou",
+      "reading": "せいとう",
+      "headword": "{政党|せいとう}",
+      "label": "political party"
+    },
+    {
+      "type": "related",
+      "target_id": "03217_shushou",
+      "reading": "しゅしょう",
+      "headword": "{首相|しゅしょう}",
+      "label": "prime minister"
+    },
+    {
+      "type": "related",
+      "target_id": "03070_shousetsuka",
+      "reading": "しょうせつか",
+      "headword": "{小説家|しょうせつか}",
+      "label": "novelist"
+    },
+    {
+      "type": "related",
+      "target_id": "03088_senmonka",
+      "reading": "せんもんか",
+      "headword": "{専門家|せんもんか}",
+      "label": "specialist"
+    },
+    {
+      "type": "related",
+      "target_id": "14979_geijutsuka",
+      "reading": "げいじゅつか",
+      "headword": "{芸術家|げいじゅつか}",
+      "label": "artist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20561_kakuryou",
+      "reading": "かくりょう",
+      "headword": "{閣僚|かくりょう}",
+      "label": "cabinet minister"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:16:00Z",
-    "modified": "2026-06-12T09:58:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",

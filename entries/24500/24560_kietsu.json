@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24560_kietsu_ex1",
-      "japanese": "{喜悦|きえつ}に{満|み}ちた{表情|ひょうじょう}。",
+      "japanese": "{喜悦|きえつ}⟦に→に：00314_ni⟧⟦{満|み}ちた→満ちる：02428_michiru⟧⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧。",
       "english": "An expression filled with joy.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24560_kietsu_ex2",
-      "japanese": "{合格|ごうかく}の{知|し}らせに{喜悦|きえつ}の{涙|なみだ}を{流|なが}した。",
+      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦の→の：09472_no⟧⟦{知|し}らせ→知らせ：03252_shirase⟧⟦に→に：00314_ni⟧{喜悦|きえつ}⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}した→流す：01968_nagasu⟧。",
       "english": "I shed tears of joy at the news of passing the exam.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24560_kietsu_ex3",
-      "japanese": "{長年|ながねん}の{努力|どりょく}が{実|みの}り、{言葉|ことば}にできない{喜悦|きえつ}を{感|かん}じた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{実|みの}り→実る：00282_minoru⟧、⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧⟦できない→できる：00557_dekiru⟧{喜悦|きえつ}⟦を→を：00422_wo⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "My years of effort bore fruit, and I felt an indescribable joy.",
       "sense_numbers": [
         1
@@ -45,11 +45,26 @@
       "notes": null
     }
   ],
-  "notes": "A literary and formal word for deep joy. Composed of {喜|き} (joy) and {悦|えつ} (pleasure/delight). More elevated in register than {喜|よろこ}び, and typically used in written language, speeches, or formal contexts. Conveys a sense of profound, heartfelt happiness.\n\nCOMMON COLLOCATIONS:\n- {喜悦|きえつ}に{満|み}ちる: to be filled with joy\n- {喜悦|きえつ}の{涙|なみだ}: tears of joy\n- {喜悦|きえつ}を{感|かん}じる: to feel elation\n- {喜悦|きえつ}に{浸|ひた}る: to bask in delight\n\nSIMILAR WORDS:\n- {喜|よろこ}び: joy — the standard, everyday word for happiness\n- {歓喜|かんき}: ecstasy, jubilation — even more intense, often used for collective celebration\n- {悦|よろこ}び: delight — literary, emphasizes personal pleasure or satisfaction\n- {愉悦|ゆえつ}: delight, pleasure — literary, with a nuance of savoring the pleasure",
-  "cross_references": [],
+  "notes": "A literary and formal word for deep joy. Composed of {喜|き} (joy) and {悦|えつ} (pleasure/delight). More elevated in register than ⟦{喜|よろこ}び→喜ぶ：01169_yorokobu⟧, and typically used in written language, speeches, or formal contexts. Conveys a sense of profound, heartfelt happiness.\n\nCOMMON COLLOCATIONS:\n- {喜悦|きえつ}⟦に→に：00314_ni⟧⟦{満|み}ちる→満ちる：02428_michiru⟧: to be filled with joy\n- {喜悦|きえつ}⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧: tears of joy\n- {喜悦|きえつ}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel elation\n- {喜悦|きえつ}⟦に→に：00314_ni⟧⟦{浸|ひた}る→浸る：13339_hitaru⟧: to bask in delight\n\nSIMILAR WORDS:\n- ⟦{喜|よろこ}び→喜び：03672_yorokobi⟧: joy — the standard, everyday word for happiness\n- ⟦{歓喜|かんき}→歓喜：13172_kanki⟧: ecstasy, jubilation — even more intense, often used for collective celebration\n- {悦|よろこ}び: delight — literary, emphasizes personal pleasure or satisfaction\n- {愉悦|ゆえつ}: delight, pleasure — literary, with a nuance of savoring the pleasure",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03672_yorokobi",
+      "reading": "よろこび",
+      "headword": "{喜|よろこ}び",
+      "label": "joy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13172_kanki",
+      "reading": "かんき",
+      "headword": "{歓喜|かんき}",
+      "label": "ecstasy, jubilation"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:12:42Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

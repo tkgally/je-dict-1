@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "19836_mogi_ex1",
-      "japanese": "{模擬|もぎ}{試験|しけん}を{受|う}けた。",
+      "japanese": "{模擬|もぎ}{試験|しけん}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I took a practice exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19836_mogi_ex2",
-      "japanese": "{模擬|もぎ}{裁判|さいばん}で{弁護士|べんごし}{役|やく}を{担当|たんとう}した。",
+      "japanese": "{模擬|もぎ}⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦で→で：00502_de⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦{役|やく}→役：12557_yaku⟧⟦を→を：00422_wo⟧⟦{担当|たんとう}→担当：02567_tantou⟧⟦した→する：00392_suru⟧。",
       "english": "I played the role of lawyer in a mock trial.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19836_mogi_ex3",
-      "japanese": "{文化祭|ぶんかさい}で{模擬|もぎ}{店|てん}を{出|だ}すことになった。",
+      "japanese": "⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧⟦で→で：00502_de⟧{模擬|もぎ}{店|てん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ことになった。",
       "english": "We decided to set up a booth at the school festival.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Used as a prefix meaning mock, simulated, or practice. Almost always appears as the first element of a compound rather than standing alone.\n\nCOMMON COMPOUNDS:\n- {模擬|もぎ}{試験|しけん} ({模試|もし}) — practice exam, mock test\n- {模擬|もぎ}{裁判|さいばん} — mock trial\n- {模擬|もぎ}{店|てん} — booth, stall (at a school festival)\n- {模擬|もぎ}{戦|せん} — mock battle, war game\n- {模擬|もぎ}{面接|めんせつ} — mock interview\n\nUSAGE:\nThe abbreviated form {模試|もし} (from {模擬|もぎ}{試験|しけん}) is extremely common among students preparing for entrance exams. {模擬|もぎ}{店|てん} is a staple of Japanese school festivals ({文化祭|ぶんかさい}), where student groups run temporary food stalls and game booths.\n\nSIMILAR WORDS:\n- シミュレーション — simulation (loanword, often technical)\n- {練習|れんしゅう} — practice (general, not necessarily simulating something real)",
-  "cross_references": [],
+  "notes": "Used as a prefix meaning mock, simulated, or practice. Almost always appears as the first element of a compound rather than standing alone.\n\nCOMPOUNDS:\n- {模擬|もぎ}{試験|しけん} (⟦{模試|もし}→模試：11099_moshi⟧) — practice exam, mock test\n- {模擬|もぎ}⟦{裁判|さいばん}→裁判：02773_saiban⟧ — mock trial\n- {模擬|もぎ}{店|てん} — booth, stall (at a school festival)\n- {模擬|もぎ}⟦{戦|せん}→〜戦：28346_sen⟧ — mock battle, war game\n- {模擬|もぎ}⟦{面接|めんせつ}→面接：01100_mensetsu⟧ — mock interview\n\nUSAGE:\nThe abbreviated form ⟦{模試|もし}→模試：11099_moshi⟧ (from {模擬|もぎ}{試験|しけん}) is extremely common among students preparing for entrance exams. {模擬|もぎ}{店|てん} is a staple of Japanese school festivals (⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧), where student groups run temporary food stalls and game booths.\n\nSIMILAR WORDS:\n- ⟦シミュレーション→シミュレーション：10960_shimyureeshon⟧ — simulation (loanword, often technical)\n- ⟦{練習|れんしゅう}→練習：05323_renshuu⟧ — practice (general, not necessarily simulating something real)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10960_shimyureeshon",
+      "reading": "しみゅれーしょん",
+      "headword": "シミュレーション",
+      "label": "simulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05323_renshuu",
+      "reading": "れんしゅう",
+      "headword": "{練習|れんしゅう}",
+      "label": "practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20015_yokouenshuu",
+      "reading": "よこうえんしゅう",
+      "headword": "{予行演習|よこうえんしゅう}",
+      "label": "rehearsal"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:12:25Z",
-    "modified": "2026-03-27T02:12:25Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

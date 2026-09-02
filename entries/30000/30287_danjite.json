@@ -21,7 +21,7 @@
   "examples": [
     {
       "id": "30287_danjite_ex1",
-      "japanese": "{断|だん}じて{許|ゆる}さない。",
+      "japanese": "{断|だん}じて⟦{許|ゆる}さない→許す：02325_yurusu⟧。",
       "english": "I will absolutely not allow it.",
       "sense_numbers": [
         1
@@ -31,7 +31,7 @@
     },
     {
       "id": "30287_danjite_ex2",
-      "japanese": "そんな{事実|じじつ}は{断|だん}じてない。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦は→は：00079_ha⟧{断|だん}じてない。",
       "english": "There is absolutely no such fact.",
       "sense_numbers": [
         1
@@ -41,7 +41,7 @@
     },
     {
       "id": "30287_danjite_ex3",
-      "japanese": "{私|わたし}は{断|だん}じてそのような{発言|はつげん}をしておりません。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{断|だん}じて⟦そのような→そのような：30277_sonoyouna⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦おりません→おる：01324_oru⟧。",
       "english": "I have absolutely never made any such statement.",
       "sense_numbers": [
         1
@@ -51,7 +51,7 @@
     },
     {
       "id": "30287_danjite_ex4",
-      "japanese": "{断|だん}じて{実行|じっこう}する。",
+      "japanese": "{断|だん}じて⟦{実行|じっこう}する→実行する：22146_jikkousuru⟧。",
       "english": "I will carry it out, no matter what.",
       "sense_numbers": [
         2
@@ -61,7 +61,7 @@
     },
     {
       "id": "30287_danjite_ex5",
-      "japanese": "{断|だん}じてやり{遂|と}げる{覚悟|かくご}です。",
+      "japanese": "{断|だん}じて⟦やり{遂|と}げる→やり遂げる：16745_yaritogeru⟧⟦{覚悟|かくご}→覚悟：02551_kakugo⟧です。",
       "english": "I am resolved to see it through to the end.",
       "sense_numbers": [
         2
@@ -71,7 +71,7 @@
     },
     {
       "id": "30287_danjite_ex6",
-      "japanese": "{断|だん}じて{行|おこな}えば{鬼神|きしん}もこれを{避|さ}ける、という{言葉|ことば}がある。",
+      "japanese": "{断|だん}じて⟦{行|おこな}えば→行う：01238_okonau⟧{鬼神|きしん}⟦も→も：00484_mo⟧⟦これ→これ：00963_kore⟧⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧、⟦という→という：09577_toiu⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a saying that if you act with resolve, even demons will get out of your way.",
       "sense_numbers": [
         2
@@ -80,8 +80,30 @@
       "notes": null
     }
   ],
-  "notes": "The te-form of the classical {断|だん}ずる (to decide, to judge), fossilized as an adverb. Formal and emphatic; in casual speech {絶対|ぜったい} does the same work.\n\nCOMMON COLLOCATIONS:\n- {断|だん}じて{許|ゆる}さない: will absolutely not tolerate\n- {断|だん}じて{認|みと}めない: absolutely refuse to acknowledge\n- {断|だん}じてない: absolutely not so\n- {断|だん}じて{行|おこな}う: to act with full resolve\n\nSIMILAR WORDS:\n- {絶対|ぜったい}に: absolutely — everyday equivalent, works with both polarities\n- {決|けっ}して: never — negative only, neutral in register and more common in writing\n- {断固|だんこ}として: resolutely, firmly — about the manner of acting, usually affirmative",
-  "cross_references": [],
+  "notes": "The te-form of the classical ⟦{断|だん}ずる→断ずる：20377_danzuru⟧ (to decide, to judge), fossilized as an adverb. Formal and emphatic; in casual speech ⟦{絶対|ぜったい}→絶対：00435_zettai⟧ does the same work.\n\nCOMMON COLLOCATIONS:\n- {断|だん}じて⟦{許|ゆる}さない→許す：02325_yurusu⟧: will absolutely not tolerate\n- {断|だん}じて⟦{認|みと}めない→認める：02429_mitomeru⟧: absolutely refuse to acknowledge\n- {断|だん}じてない: absolutely not so\n- {断|だん}じて⟦{行|おこな}う→行う：01238_okonau⟧: to act with full resolve\n\nSIMILAR WORDS:\n- ⟦{絶対|ぜったい}→絶対：00435_zettai⟧⟦に→に：00314_ni⟧: absolutely — everyday equivalent, works with both polarities\n- ⟦{決|けっ}して→決して：01254_kesshite⟧: never — negative only, neutral in register and more common in writing\n- ⟦{断固|だんこ}→断固：12714_danko⟧⟦として→として：06802_toshite⟧: resolutely, firmly — about the manner of acting, usually affirmative",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08722_zettaini",
+      "reading": "ぜったいに",
+      "headword": "{絶対|ぜったい}に",
+      "label": "absolutely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01254_kesshite",
+      "reading": "けっして",
+      "headword": "{決|けっ}して",
+      "label": "never"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06713_akumade",
+      "reading": "あくまで",
+      "headword": "あくまで",
+      "label": "to the end"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,13 +111,13 @@
         "adverb"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
       "domain": []
     },
     "created": "2026-07-31T21:20:10Z",
-    "modified": "2026-07-31T21:20:10Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

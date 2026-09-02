@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21011_byoujou_ex1",
-      "japanese": "{病状|びょうじょう}が{悪化|あっか}した。",
+      "japanese": "{病状|びょうじょう}⟦が→が：00051_ga⟧⟦{悪化|あっか}した→悪化する：18844_akkasuru⟧。",
       "english": "The patient's condition worsened.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21011_byoujou_ex2",
-      "japanese": "{医師|いし}が{家族|かぞく}に{病状|びょうじょう}を{説明|せつめい}した。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦が→が：00051_ga⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦に→に：00314_ni⟧{病状|びょうじょう}⟦を→を：00422_wo⟧⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "The doctor explained the patient's condition to the family.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21011_byoujou_ex3",
-      "japanese": "{手術|しゅじゅつ}の{後|あと}、{病状|びょうじょう}は{安定|あんてい}しており、{回復|かいふく}に{向|む}かっている。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{病状|びょうじょう}⟦は→は：00079_ha⟧⟦{安定|あんてい}→安定：01703_antei⟧⟦して→する：00392_suru⟧おり、⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦に→に：00314_ni⟧⟦{向|む}かっている→向かう：01186_mukau⟧。",
       "english": "After the surgery, the patient's condition has stabilized and is heading toward recovery.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {病|びょう} (illness) + {状|じょう} (condition, state). Commonly used in medical contexts and news reporting about patients' health status. Refers to the overall condition of the illness rather than individual symptoms.\n\nCOMMON COLLOCATIONS:\n- {病状|びょうじょう}が{悪化|あっか}する: the condition worsens\n- {病状|びょうじょう}が{回復|かいふく}する: the condition improves\n- {病状|びょうじょう}が{安定|あんてい}する: the condition stabilizes\n- {病状|びょうじょう}を{説明|せつめい}する: to explain the condition\n\nSIMILAR WORDS:\n- {症状|しょうじょう}: symptoms — specific observable signs of illness, not the overall condition\n- {容態|ようだい}: patient's condition — more urgent nuance, often used for critically ill patients\n- {体調|たいちょう}: physical condition — broader, used for everyday health status, not limited to illness",
+  "notes": "Composed of {病|びょう} (illness) + ⟦{状|じょう}→状：09878_jou⟧ (condition, state). Commonly used in medical contexts and news reporting about patients' health status. Refers to the overall condition of the illness rather than individual symptoms.\n\nCOMMON COLLOCATIONS:\n- {病状|びょうじょう}⟦が→が：00051_ga⟧⟦{悪化|あっか}する→悪化する：18844_akkasuru⟧: the condition worsens\n- {病状|びょうじょう}⟦が→が：00051_ga⟧⟦{回復|かいふく}する→回復する：21330_kaifukusuru⟧: the condition improves\n- {病状|びょうじょう}⟦が→が：00051_ga⟧⟦{安定|あんてい}→安定：01703_antei⟧⟦する→する：00392_suru⟧: the condition stabilizes\n- {病状|びょうじょう}⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧: to explain the condition\n\nSIMILAR WORDS:\n- ⟦{症状|しょうじょう}→症状：03234_shoujou⟧: symptoms — specific observable signs of illness, not the overall condition\n- ⟦{容態|ようだい}→容態：09797_youdai⟧: patient's condition — more urgent nuance, often used for critically ill patients\n- ⟦{体調|たいちょう}→体調：04644_taichou⟧: physical condition — broader, used for everyday health status, not limited to illness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03234_shoujou",
+      "reading": "しょうじょう",
+      "headword": "{症状|しょうじょう}",
+      "label": "symptoms"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09797_youdai",
+      "reading": "ようだい",
+      "headword": "{容態|ようだい}",
+      "label": "patient's condition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04644_taichou",
+      "reading": "たいちょう",
+      "headword": "{体調|たいちょう}",
+      "label": "physical condition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-31T14:10:15Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

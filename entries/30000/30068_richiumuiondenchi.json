@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "30068_richiumuiondenchi_ex1",
-      "japanese": "スマホにはリチウムイオン{電池|でんち}が{使|つか}われている。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧リチウムイオン{電池|でんち}⟦が→が：00051_ga⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "Smartphones use lithium-ion batteries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30068_richiumuiondenchi_ex2",
-      "japanese": "リチウムイオン{電池|でんち}は{繰|く}り{返|かえ}し{充電|じゅうでん}できる。",
+      "japanese": "リチウムイオン{電池|でんち}⟦は→は：00079_ha⟧⟦{繰|く}り{返|かえ}し→繰り返す：02051_kurikaesu⟧⟦{充電|じゅうでん}→充電：04427_juuden⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Lithium-ion batteries can be recharged repeatedly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30068_richiumuiondenchi_ex3",
-      "japanese": "{電気|でんき}{自動車|じどうしゃ}の{性能|せいのう}はリチウムイオン{電池|でんち}の{進化|しんか}に{支|ささ}えられている。",
+      "japanese": "⟦{電気|でんき}{自動車|じどうしゃ}→電気自動車：15581_denkijidousha⟧⟦の→の：09472_no⟧⟦{性能|せいのう}→性能：04340_seinou⟧⟦は→は：00079_ha⟧リチウムイオン{電池|でんち}⟦の→の：09472_no⟧⟦{進化|しんか}→進化：06029_shinka⟧⟦に→に：00314_ni⟧⟦{支|ささ}えられている→支える：01946_sasaeru⟧。",
       "english": "The performance of electric cars is supported by advances in lithium-ion batteries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of リチウムイオン (lithium-ion) and {電池|でんち} (battery). The dominant rechargeable battery in modern portable electronics and electric vehicles, valued for its high energy density and long cycle life. Also called リチウムイオン{二次|にじ}{電池|でんち}.\n\nCOMMON COLLOCATIONS:\n- リチウムイオン{電池|でんち}を{充電|じゅうでん}する: to charge a lithium-ion battery\n- リチウムイオン{電池|でんち}の{寿命|じゅみょう}: the lifespan of a lithium-ion battery\n\nSIMILAR WORDS:\n- {蓄電池|ちくでんち}: storage battery — the general term for a rechargeable battery\n- {乾電池|かんでんち}: dry cell — a disposable, non-rechargeable battery",
+  "notes": "A compound of リチウムイオン (lithium-ion) and ⟦{電池|でんち}→電池：01472_denchi⟧ (battery). The dominant rechargeable battery in modern portable electronics and electric vehicles, valued for its high energy density and long cycle life. Also called リチウムイオン{二次|にじ}⟦{電池|でんち}→電池：01472_denchi⟧.\n\nCOMMON COLLOCATIONS:\n- リチウムイオン{電池|でんち}⟦を→を：00422_wo⟧⟦{充電|じゅうでん}→充電：04427_juuden⟧⟦する→する：00392_suru⟧: to charge a lithium-ion battery\n- リチウムイオン{電池|でんち}⟦の→の：09472_no⟧⟦{寿命|じゅみょう}→寿命：12359_jumyou⟧: the lifespan of a lithium-ion battery\n\nSIMILAR WORDS:\n- ⟦{蓄電池|ちくでんち}→蓄電池：08095_chikudenchi⟧: storage battery — the general term for a rechargeable battery\n- ⟦{乾電池|かんでんち}→乾電池：10188_kandenchi⟧: dry cell — a disposable, non-rechargeable battery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08095_chikudenchi",
+      "reading": "ちくでんち",
+      "headword": "{蓄電池|ちくでんち}",
+      "label": "storage battery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10188_kandenchi",
+      "reading": "かんでんち",
+      "headword": "{乾電池|かんでんち}",
+      "label": "dry cell"
+    },
+    {
+      "type": "related",
+      "target_id": "06599_chikuden",
+      "reading": "ちくでん",
+      "headword": "{蓄電|ちくでん}",
+      "label": "power storage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["electronics"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "electronics"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-23T21:21:47Z",
-    "modified": "2026-07-23T21:21:47Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

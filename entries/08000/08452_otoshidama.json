@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08452_otoshidama_ex1",
-      "japanese": "お{年玉|としだま}をもらう。",
+      "japanese": "お{年玉|としだま}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧。",
       "english": "To receive New Year's money.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08452_otoshidama_ex2",
-      "japanese": "{姪|めい}っ{子|こ}にお{年玉|としだま}を{渡|わた}した。",
+      "japanese": "⟦{姪|めい}っ{子|こ}→姪っ子：30761_meikko⟧⟦に→に：00314_ni⟧お{年玉|としだま}⟦を→を：00422_wo⟧⟦{渡|わた}した→渡す：02442_watasu⟧。",
       "english": "I gave New Year's money to my niece.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08452_otoshidama_ex3",
-      "japanese": "お{年玉|としだま}は{専用|せんよう}の{袋|ふくろ}に{入|い}れて{渡|わた}すのがマナーだ。",
+      "japanese": "お{年玉|としだま}⟦は→は：00079_ha⟧⟦{専用|せんよう}→専用：12385_senyou⟧⟦の→の：09472_no⟧⟦{袋|ふくろ}→袋：00837_fukuro⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{渡|わた}す→渡す：02442_watasu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦マナー→マナー：11139_manaa⟧だ。",
       "english": "It's proper etiquette to give New Year's money in a special envelope.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\nOriginally referred to rice cakes ({餅|もち}) given to children at New Year, symbolizing the spirit of the year's deity. The custom evolved to giving money.\n\nCULTURE:\n- Given in small decorative envelopes called {ポチ袋|ぶくろ} or お{年玉袋|としだまぶくろ}\n- Typically given to children and young relatives\n- Amount varies by the child's age and relationship\n- Usually given during the first few days of January\n\nTYPICAL AMOUNTS (approximate):\n- {幼児|ようじ} (toddler): 500-1,000{円|えん}\n- {小学生|しょうがくせい}: 1,000-3,000{円|えん}\n- {中学生|ちゅうがくせい}: 3,000-5,000{円|えん}\n- {高校生|こうこうせい}: 5,000-10,000{円|えん}",
+  "notes": "ETYMOLOGY:\nOriginally referred to rice cakes (⟦{餅|もち}→餅：03900_mochi⟧) given to children at New Year, symbolizing the spirit of the year's deity. The custom evolved to giving money.\n\nCULTURAL NOTE:\n- Given in small decorative envelopes called {ポチ袋|ぶくろ} or お{年玉袋|としだまぶくろ}\n- Typically given to children and young relatives\n- Amount varies by the child's age and relationship\n- Usually given during the first few days of January\n\nTYPICAL AMOUNTS (approximate):\n- ⟦{幼児|ようじ}→幼児：12478_youji⟧ (toddler): 500-1,000⟦{円|えん}→円：00774_en⟧\n- ⟦{小学生|しょうがくせい}→小学生：03069_shougakusei⟧: 1,000-3,000⟦{円|えん}→円：00774_en⟧\n- ⟦{中学生|ちゅうがくせい}→中学生：10973_chuugakusei⟧: 3,000-5,000⟦{円|えん}→円：00774_en⟧\n- ⟦{高校生|こうこうせい}→高校生：01580_koukousei⟧: 5,000-10,000⟦{円|えん}→円：00774_en⟧",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19862_oiwaikin",
+      "reading": "おいわいきん",
+      "headword": "お{祝|いわ}い{金|きん}",
+      "label": "celebratory gift of money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +60,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "culture",
         "money"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

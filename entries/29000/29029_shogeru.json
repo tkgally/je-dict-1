@@ -3,7 +3,7 @@
   "headword": "しょげる",
   "reading": "しょげる",
   "romaji": "shogeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be crestfallen; to lose spirit; to be dejected",
   "schema_version": "2.0",
   "definitions": [
@@ -26,7 +26,7 @@
     },
     {
       "id": "29029_shogeru_ex2",
-      "japanese": "{試験|しけん}に{落|お}ちてすっかりしょげてしまった。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{落|お}ちて→落ちる：01242_ochiru⟧⟦すっかり→すっかり：01270_sukkari⟧しょげてしまった。",
       "english": "He was completely crestfallen after failing the exam.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "29029_shogeru_ex3",
-      "japanese": "{犬|いぬ}は{叱|しか}られてしょげているのか、{尻尾|しっぽ}を{丸|まる}めてすみっこに{座|すわ}っていた。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦は→は：00079_ha⟧⟦{叱|しか}られて→叱る：01202_shikaru⟧しょげて⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧、{尻尾|しっぽ}⟦を→を：00422_wo⟧⟦{丸|まる}めて→丸める：11313_marumeru⟧すみっこ⟦に→に：00314_ni⟧⟦{座|すわ}っていた→座る：00757_suwaru⟧。",
       "english": "The dog seemed crestfallen after being scolded — it was sitting in the corner with its tail tucked.",
       "sense_numbers": [
         1
@@ -45,7 +45,30 @@
       "notes": null
     }
   ],
-  "notes": "Informal verb describing a deflated, downcast mood. Often used when someone takes a hit to their confidence or gets scolded.\n\nCOMMON PATTERNS:\n- しょげる — to become crestfallen\n- しょげている — to be in a down/dejected state\n- しょげないで — don't be so down\n- しょげた{顔|かお} — a dejected face\n\nSIMILAR WORDS:\n- がっかりする: to be disappointed (more about unmet expectations)\n- 落ち込む（おちこむ）: to feel depressed, to be in low spirits (stronger and longer-lasting)\n- しゅんとする: to suddenly become quiet and downcast (similar but slightly more literary)",
+  "notes": "Informal verb describing a deflated, downcast mood. Often used when someone takes a hit to their confidence or gets scolded.\n\nCOMMON PATTERNS:\n- しょげる — to become crestfallen\n- しょげて⟦いる→いる：00495_iru⟧ — to be in a down/dejected state\n- しょげないで — don't be so down\n- しょげた⟦{顔|かお}→顔：00558_kao⟧ — a dejected face\n\nSIMILAR WORDS:\n- ⟦がっかりする→がっかりする：21758_gakkarisuru⟧: to be disappointed (more about unmet expectations)\n- 落ち込む（おちこむ）: to feel depressed, to be in low spirits (stronger and longer-lasting)\n- ⟦しゅんと→しゅんと：06934_shunto⟧⟦する→する：00392_suru⟧: to suddenly become quiet and downcast (similar but slightly more literary)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21758_gakkarisuru",
+      "reading": "がっかりする",
+      "headword": "がっかりする",
+      "label": "to be disappointed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05750_ochikomu",
+      "reading": "おちこむ",
+      "headword": "{落|お}ち{込|こ}む",
+      "label": "to feel down, to decline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05834_shonbori",
+      "reading": "しょんぼり",
+      "headword": "しょんぼり",
+      "label": "dejectedly, sadly, downcast"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-06-09T06:01:49Z",
-    "modified": "2026-06-09T06:01:49Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "ichidan",

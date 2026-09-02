@@ -3,7 +3,7 @@
   "headword": "{豪華|ごうか}な",
   "reading": "ごうかな",
   "romaji": "goukana",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "luxurious; gorgeous; splendid; lavish",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26839_goukana_ex1",
-      "japanese": "{豪華|ごうか}なホテル。",
+      "japanese": "{豪華|ごうか}な⟦ホテル→ホテル：01027_hoteru⟧。",
       "english": "A luxurious hotel.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26839_goukana_ex2",
-      "japanese": "{豪華|ごうか}な{料理|りょうり}が{並|なら}んでいる。",
+      "japanese": "{豪華|ごうか}な⟦{料理|りょうり}→料理：01523_ryouri⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "Lavish dishes are lined up.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26839_goukana_ex3",
-      "japanese": "{誕生日|たんじょうび}に{豪華|ごうか}なプレゼントをもらった。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧{豪華|ごうか}な⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received a gorgeous present for my birthday.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26839_goukana_ex4",
-      "japanese": "{今年|ことし}の{忘年会|ぼうねんかい}は{豪華|ごうか}な{客船|きゃくせん}で{開|ひら}かれることになった。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦{忘年会|ぼうねんかい}→忘年会：15800_bounenkai⟧⟦は→は：00079_ha⟧{豪華|ごうか}な⟦{客船|きゃくせん}→客船：16792_kyakusen⟧⟦で→で：00502_de⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧ことになった。",
       "english": "This year's end-of-year party will be held on a luxurious cruise ship.",
       "sense_numbers": [
         1
@@ -54,8 +54,30 @@
       "notes": null
     }
   ],
-  "notes": "A positive word conveying impressiveness and richness. Unlike {贅沢|ぜいたく} which can imply wastefulness, {豪華|ごうか} is purely appreciative and is often used in advertising and media to attract customers.\n\nCOMMON COLLOCATIONS:\n- {豪華|ごうか}{客船|きゃくせん}: luxury cruise ship\n- {豪華|ごうか}な{食事|しょくじ}: lavish meal\n- {豪華|ごうか}{絢爛|けんらん}: gorgeous and splendid\n- {豪華|ごうか}な{顔|かお}ぶれ: star-studded lineup\n- {豪華|ごうか}{賞品|しょうひん}: lavish prizes\n\nSIMILAR WORDS:\n- {贅沢|ぜいたく}な: extravagant — can imply excessive or wasteful spending\n- {華|はな}やかな: glamorous — emphasizes brightness and showiness\n- {立派|りっぱ}な: magnificent — emphasizes dignified impressiveness",
-  "cross_references": [],
+  "notes": "A positive word conveying impressiveness and richness. Unlike ⟦{贅沢|ぜいたく}→贅沢：03309_zeitaku⟧ which can imply wastefulness, ⟦{豪華|ごうか}→豪華：02815_gouka⟧ is purely appreciative and is often used in advertising and media to attract customers.\n\nCOMMON COLLOCATIONS:\n- ⟦{豪華|ごうか}{客船|きゃくせん}→豪華客船：23828_goukakyakusen⟧: luxury cruise ship\n- {豪華|ごうか}な⟦{食事|しょくじ}→食事：02087_shokuji⟧: lavish meal\n- ⟦{豪華|ごうか}→豪華：02815_gouka⟧⟦{絢爛|けんらん}→絢爛：09200_kenran⟧: gorgeous and splendid\n- {豪華|ごうか}な⟦{顔|かお}ぶれ→顔ぶれ：14671_kaobure⟧: star-studded lineup\n- ⟦{豪華|ごうか}→豪華：02815_gouka⟧⟦{賞品|しょうひん}→賞品：21558_shouhin⟧: lavish prizes\n\nSIMILAR WORDS:\n- ⟦{贅沢|ぜいたく}→贅沢：03309_zeitaku⟧な: extravagant — can imply excessive or wasteful spending\n- ⟦{華|はな}やか→華やか：06070_hanayaka⟧な: glamorous — emphasizes brightness and showiness\n- ⟦{立派|りっぱ}→立派：01093_rippa⟧な: magnificent — emphasizes dignified impressiveness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03309_zeitaku",
+      "reading": "ぜいたく",
+      "headword": "{贅沢|ぜいたく}",
+      "label": "extravagant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18036_hanayakana",
+      "reading": "はなやかな",
+      "headword": "{華|はな}やかな",
+      "label": "glamorous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01093_rippa",
+      "reading": "りっぱ",
+      "headword": "{立派|りっぱ}",
+      "label": "magnificent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +92,6 @@
       ]
     },
     "created": "2026-05-05T13:09:01Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

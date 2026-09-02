@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14008_koukuuki_ex1",
-      "japanese": "{航空機|こうくうき}の{部品|ぶひん}を{製造|せいぞう}する{工場|こうじょう}。",
+      "japanese": "{航空機|こうくうき}⟦の→の：09472_no⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧⟦{製造|せいぞう}→製造：03289_seizou⟧⟦する→する：00392_suru⟧⟦{工場|こうじょう}→工場：01082_koujou⟧。",
       "english": "A factory that manufactures aircraft parts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14008_koukuuki_ex2",
-      "japanese": "{小型|こがた}{航空機|こうくうき}が{緊急|きんきゅう}{着陸|ちゃくりく}した。",
+      "japanese": "⟦{小型|こがた}→小型：12460_kogata⟧{航空機|こうくうき}⟦が→が：00051_ga⟧⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧⟦{着陸|ちゃくりく}→着陸：05982_chakuriku⟧⟦した→する：00392_suru⟧。",
       "english": "A small aircraft made an emergency landing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14008_koukuuki_ex3",
-      "japanese": "この{空港|くうこう}では{一日|いちにち}に{数百|すうひゃく}{機|き}の{航空機|こうくうき}が{離着陸|りちゃくりく}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{空港|くうこう}→空港：00648_kuukou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦に→に：00314_ni⟧⟦{数百|すうひゃく}→数百：23368_suuhyaku⟧⟦{機|き}→〜機：09843_ki⟧⟦の→の：09472_no⟧{航空機|こうくうき}⟦が→が：00051_ga⟧⟦{離着陸|りちゃくりく}→離着陸：20749_richakuriku⟧⟦している→する：00392_suru⟧。",
       "english": "Several hundred aircraft take off and land at this airport every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal, inclusive term for any flying machine. Broader than {飛行機|ひこうき} (airplane), which refers specifically to fixed-wing aircraft.\n\nCOMMON COLLOCATIONS:\n- {航空機|こうくうき}{産業|さんぎょう} (aircraft industry)\n- {航空機|こうくうき}{事故|じこ} (aircraft accident)\n- {小型|こがた}{航空機|こうくうき} (small aircraft)\n- {無人|むじん}{航空機|こうくうき} (unmanned aircraft, drone)\n\nSCOPE NOTE:\n{航空機|こうくうき} covers all aircraft including helicopters, gliders, and drones, while {飛行機|ひこうき} typically refers only to fixed-wing airplanes. In everyday conversation, {飛行機|ひこうき} is far more common; {航空機|こうくうき} is preferred in news reports, technical writing, and official documents.\n\nCOUNTER: {機|き}",
+  "notes": "A formal, inclusive term for any flying machine. Broader than ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ (airplane), which refers specifically to fixed-wing aircraft.\n\nCOMMON COLLOCATIONS:\n- {航空機|こうくうき}⟦{産業|さんぎょう}→産業：01419_sangyou⟧ (aircraft industry)\n- {航空機|こうくうき}⟦{事故|じこ}→事故：00851_jiko⟧ (aircraft accident)\n- ⟦{小型|こがた}→小型：12460_kogata⟧{航空機|こうくうき} (small aircraft)\n- {無人|むじん}{航空機|こうくうき} (unmanned aircraft, drone)\n\nSCOPE NOTE:\n{航空機|こうくうき} covers all aircraft including helicopters, gliders, and drones, while ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ typically refers only to fixed-wing airplanes. In everyday conversation, ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ is far more common; {航空機|こうくうき} is preferred in news reports, technical writing, and official documents.\n\nCOUNTER: ⟦{機|き}→〜機：09843_ki⟧",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,19 +52,32 @@
       "reading": "ひこうき",
       "headword": "{飛行機|ひこうき}",
       "label": "everyday term for airplane"
+    },
+    {
+      "type": "related",
+      "target_id": "23287_sentouki",
+      "reading": "せんとうき",
+      "headword": "{戦闘機|せんとうき}",
+      "label": "fighter plane"
     }
   ],
   "metadata": {
     "created": "2026-02-27T09:12:54Z",
-    "modified": "2026-04-29T10:05:34Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["transportation"],
-      "domain": ["technical"]
+      "semantic": [
+        "transportation"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

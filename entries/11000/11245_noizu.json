@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "11245_noizu_ex1",
-      "japanese": "ノイズが{入|はい}って{聞|き}こえにくい。",
+      "japanese": "ノイズ⟦が→が：00051_ga⟧⟦{入|はい}って→入る：00494_hairu⟧⟦{聞|き}こえ→聞こえる：01229_kikoeru⟧にくい。",
       "english": "There's noise interference, so it's hard to hear.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11245_noizu_ex2",
-      "japanese": "ノイズキャンセリングのイヤホンを{買|か}った。",
+      "japanese": "ノイズキャンセリング⟦の→の：09472_no⟧⟦イヤホン→イヤホン：04421_iyahon⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought noise-canceling earphones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11245_noizu_ex3",
-      "japanese": "データからノイズを{除去|じょきょ}して{正確|せいかく}な{分析|ぶんせき}を{行|おこな}う{必要|ひつよう}がある。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦から→から：00504_kara⟧ノイズ⟦を→を：00422_wo⟧⟦{除去|じょきょ}して→除去する：22368_jokyosuru⟧⟦{正確|せいかく}→正確：03372_seikaku⟧な⟦{分析|ぶんせき}→分析：03610_bunseki⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to remove noise from the data to perform an accurate analysis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed in audio, electronics, photography, and data science contexts. In everyday Japanese, {雑音|ざつおん} or {騒音|そうおん} are used for general noise or environmental noise, while ノイズ specifically refers to unwanted signal interference or distortion.\n\nAlso used figuratively in business and media to mean irrelevant information that obscures what is important.\n\nCOMMON COLLOCATIONS:\n- ノイズが{入|はい}る: noise gets in, there's interference\n- ノイズを{除去|じょきょ}する: to remove noise\n- ノイズキャンセリング: noise canceling\n- ノイズリダクション: noise reduction",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed in audio, electronics, photography, and data science contexts. In everyday Japanese, ⟦{雑音|ざつおん}→雑音：04191_zatsuon⟧ or ⟦{騒音|そうおん}→騒音：03315_souon⟧ are used for general noise or environmental noise, while ノイズ specifically refers to unwanted signal interference or distortion.\n\nAlso used figuratively in business and media to mean irrelevant information that obscures what is important.\n\nCOMMON COLLOCATIONS:\n- ノイズ⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧: noise gets in, there's interference\n- ノイズ⟦を→を：00422_wo⟧⟦{除去|じょきょ}する→除去する：22368_jokyosuru⟧: to remove noise\n- ノイズキャンセリング: noise canceling\n- ノイズリダクション: noise reduction",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04191_zatsuon",
+      "reading": "ざつおん",
+      "headword": "{雑音|ざつおん}",
+      "label": "noise, static"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T09:16:30Z",
-    "modified": "2026-02-15T09:16:30Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["general"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23486_bosan_ex1",
-      "japanese": "{週末|しゅうまつ}に{墓参|ぼさん}に{行|い}く。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧{墓参|ぼさん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going to visit the grave this weekend.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23486_bosan_ex2",
-      "japanese": "お{盆|ぼん}には{毎年|まいとし}{墓参|ぼさん}を{欠|か}かさない。",
+      "japanese": "⟦お{盆|ぼん}→お盆：05587_obon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧{墓参|ぼさん}⟦を→を：00422_wo⟧⟦{欠|か}かさない→欠かす：10138_kakasu⟧。",
       "english": "I never fail to visit the grave every year during Obon.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23486_bosan_ex3",
-      "japanese": "{祖父母|そふぼ}の{墓参|ぼさん}のあと、{家族|かぞく}で{食事|しょくじ}をするのが{恒例|こうれい}になっている。",
+      "japanese": "⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧⟦の→の：09472_no⟧{墓参|ぼさん}⟦の→の：09472_no⟧あと、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{恒例|こうれい}→恒例：12597_kourei⟧になっている。",
       "english": "It has become a family tradition to have a meal together after visiting our grandparents' graves.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {墓|ぼ} (grave) and {参|さん} (visit, worship). Short for {墓|はか}{参|まい}り, which is the more colloquial expression. {墓参|ぼさん} is used in slightly more formal or written contexts, while {墓|はか}{参|まい}り is the everyday spoken form.\n\nGrave visiting is a deeply rooted practice in Japanese culture. Families typically clean the gravestone, offer flowers, incense, and water, and pray before the grave. The most common times are during お{盆|ぼん} (mid-August), {春分|しゅんぶん}の{日|ひ} (spring equinox), {秋分|しゅうぶん}の{日|ひ} (autumn equinox), and {命日|めいにち} (death anniversaries).\n\nCOMMON COLLOCATIONS:\n- {墓参|ぼさん}に{行|い}く: to go visit a grave\n- {墓参|ぼさん}を{済|す}ませる: to finish visiting the grave\n- {墓参|ぼさん}を{欠|か}かさない: to never miss visiting the grave\n\nSIMILAR WORDS:\n- {墓|はか}{参|まい}り: visiting a grave — the everyday colloquial form; same meaning but more casual\n- {参拝|さんぱい}: worship, paying a visit (to a shrine or temple) — broader term not limited to graves\n- {法事|ほうじ}: Buddhist memorial service — a formal ceremony held at set intervals after death",
+  "notes": "A compound of {墓|ぼ} (grave) and {参|さん} (visit, worship). Short for {墓|はか}{参|まい}り, which is the more colloquial expression. {墓参|ぼさん} is used in slightly more formal or written contexts, while {墓|はか}{参|まい}り is the everyday spoken form.\n\nGrave visiting is a deeply rooted practice in Japanese culture. Families typically clean the gravestone, offer flowers, incense, and water, and pray before the grave. The most common times are during ⟦お{盆|ぼん}→お盆：05587_obon⟧ (mid-August), ⟦{春分|しゅんぶん}の{日|ひ}→春分の日：18206_shunbunnohi⟧ (spring equinox), ⟦{秋分|しゅうぶん}→秋分：19657_shuubun⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ (autumn equinox), and ⟦{命日|めいにち}→命日：17539_meinichi⟧ (death anniversaries).\n\nCOMMON COLLOCATIONS:\n- {墓参|ぼさん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go visit a grave\n- {墓参|ぼさん}⟦を→を：00422_wo⟧⟦{済|す}ませる→済ませる：02121_sumaseru⟧: to finish visiting the grave\n- {墓参|ぼさん}⟦を→を：00422_wo⟧⟦{欠|か}かさない→欠かす：10138_kakasu⟧: to never miss visiting the grave\n\nSIMILAR WORDS:\n- {墓|はか}{参|まい}り: visiting a grave — the everyday colloquial form; same meaning but more casual\n- ⟦{参拝|さんぱい}→参拝：10634_sanpai⟧: worship, paying a visit (to a shrine or temple) — broader term not limited to graves\n- ⟦{法事|ほうじ}→法事：05634_houji⟧: Buddhist memorial service — a formal ceremony held at set intervals after death",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10634_sanpai",
+      "reading": "さんぱい",
+      "headword": "{参拝|さんぱい}",
+      "label": "worship, paying a visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05634_houji",
+      "reading": "ほうじ",
+      "headword": "{法事|ほうじ}",
+      "label": "Buddhist memorial service"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-12T10:26:10Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

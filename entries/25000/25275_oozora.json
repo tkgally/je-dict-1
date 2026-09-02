@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25275_oozora_ex1",
-      "japanese": "{鳥|とり}が{大空|おおぞら}を{飛|と}んでいる。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{大空|おおぞら}⟦を→を：00422_wo⟧⟦{飛|と}んでいる→飛ぶ：00759_tobu⟧。",
       "english": "Birds are flying across the vast sky.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25275_oozora_ex2",
-      "japanese": "{大空|おおぞら}に{虹|にじ}が{大|おお}きく{架|か}かった。",
+      "japanese": "{大空|おおぞら}⟦に→に：00314_ni⟧⟦{虹|にじ}→虹：03894_niji⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧{架|か}かった。",
       "english": "A great rainbow stretched across the wide sky.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25275_oozora_ex3",
-      "japanese": "{飛行機|ひこうき}が{大空|おおぞら}を{力強|ちからづよ}く{飛|と}び{立|た}っていくのを{見|み}て、{感動|かんどう}した。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{大空|おおぞら}⟦を→を：00422_wo⟧⟦{力強|ちからづよ}く→力強い：03119_chikarazuyoi⟧⟦{飛|と}び{立|た}って→飛び立つ：19322_tobitatsu⟧いく⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、⟦{感動|かんどう}した→感動する：21603_kandousuru⟧。",
       "english": "I was moved watching the airplane take off powerfully into the vast sky.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {大|おお} (great, large) + {空|そら} (sky). A poetic, evocative word that emphasizes the sky's vastness and openness. Often used in literary and lyrical contexts to convey freedom, aspiration, or the grandeur of nature.\n\nCOMMON COLLOCATIONS:\n- {大空|おおぞら}を{飛|と}ぶ: to fly across the vast sky\n- {大空|おおぞら}に{羽|は}ばたく: to spread one's wings in the sky\n- {大空|おおぞら}を{仰|あお}ぐ: to look up at the vast sky\n- {大空|おおぞら}の{下|もと}で: under the open sky\n\nSIMILAR WORDS:\n- {空|そら}: sky — the neutral, everyday word\n- {天空|てんくう}: heavens — more formal/literary, often implies height or celestial space\n- {蒼空|そうくう}: blue sky — literary term emphasizing color\n\nNOTE: Also used as a given name ({大空|おおぞら} or {大空|たいくう}), and as a place name. The word carries strong connotations of freedom and limitlessness.",
+  "notes": "Composed of {大|おお} (great, large) + ⟦{空|そら}→空：02216_sora⟧ (sky). A poetic, evocative word that emphasizes the sky's vastness and openness. Often used in literary and lyrical contexts to convey freedom, aspiration, or the grandeur of nature.\n\nCOMMON COLLOCATIONS:\n- {大空|おおぞら}⟦を→を：00422_wo⟧⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧: to fly across the vast sky\n- {大空|おおぞら}⟦に→に：00314_ni⟧⟦{羽|は}ばたく→羽ばたく：13900_habataku⟧: to spread one's wings in the sky\n- {大空|おおぞら}⟦を→を：00422_wo⟧⟦{仰|あお}ぐ→仰ぐ：11454_aogu⟧: to look up at the vast sky\n- {大空|おおぞら}⟦の→の：09472_no⟧{下|もと}⟦で→で：00502_de⟧: under the open sky\n\nSIMILAR WORDS:\n- ⟦{空|そら}→空：02216_sora⟧: sky — the neutral, everyday word\n- {天空|てんくう}: heavens — more formal/literary, often implies height or celestial space\n- {蒼空|そうくう}: blue sky — literary term emphasizing color\n\nNOTE: Also used as a given name ({大空|おおぞら} or {大空|たいくう}), and as a place name. The word carries strong connotations of freedom and limitlessness.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,12 +52,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature",
         "weather"
       ]
     },
     "created": "2026-04-24T13:12:31Z",
-    "modified": "2026-04-24T13:12:31Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "14316_sukitooru",
   "headword": "{透|す}き{通|とお}る",
   "reading": "すきとおる",
-  "part_of_speech": "verb, godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be transparent; to be crystal clear",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14316_sukitooru_ex1",
-      "japanese": "{水|みず}が{透|す}き{通|とお}っている。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{透|す}き{通|とお}って⟦いる→いる：00495_iru⟧。",
       "english": "The water is crystal clear.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14316_sukitooru_ex2",
-      "japanese": "{彼女|かのじょ}は{透|す}き{通|とお}るような{声|こえ}をしている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{透|す}き{通|とお}るような⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "She has a clear, pure voice.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14316_sukitooru_ex3",
-      "japanese": "{透|す}き{通|とお}った{青空|あおぞら}の{下|した}で、{山|やま}の{稜線|りょうせん}がくっきりと{見|み}えた。",
+      "japanese": "{透|す}き{通|とお}った⟦{青空|あおぞら}→青空：10084_aozora⟧⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧⟦で→で：00502_de⟧、⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧{稜線|りょうせん}⟦が→が：00051_ga⟧⟦くっきり→くっきり：19407_kukkiri⟧⟦と→と：00512_to⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "Under the perfectly clear blue sky, the mountain ridgeline was sharply visible.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "{透|す}き{通|とお}る is an intransitive godan verb. The adjective form {透|す}き{通|とお}った is very common as a modifier.\n\nASPECT (ている):\n{透|す}き{通|とお}っている describes a state of being transparent/clear.\n\nCOMMON COLLOCATIONS:\n- {透|す}き{通|とお}った{水|みず} (crystal clear water)\n- {透|す}き{通|とお}るような{声|こえ} (a clear, pure voice)\n- {透|す}き{通|とお}った{肌|はだ} (translucent skin)\n- {透|す}き{通|とお}った{空気|くうき} (crisp, clear air)\n\nOften used in poetic or admiring descriptions. When applied to voices, it suggests a pure, high, and beautiful quality. When applied to skin, it suggests a fair, porcelain-like complexion.",
-  "cross_references": [],
+  "notes": "{透|す}き{通|とお}る is an intransitive godan verb. The adjective form {透|す}き{通|とお}った is very common as a modifier.\n\nASPECT (ている):\n{透|す}き{通|とお}って⟦いる→いる：00495_iru⟧ describes a state of being transparent/clear.\n\nCOMMON COLLOCATIONS:\n- {透|す}き{通|とお}った⟦{水|みず}→水：02258_mizu⟧ (crystal clear water)\n- {透|す}き{通|とお}るような⟦{声|こえ}→声：02207_koe⟧ (a clear, pure voice)\n- {透|す}き{通|とお}った⟦{肌|はだ}→肌：02243_hada⟧ (translucent skin)\n- {透|す}き{通|とお}った⟦{空気|くうき}→空気：01390_kuuki⟧ (crisp, clear air)\n\nOften used in poetic or admiring descriptions. When applied to voices, it suggests a pure, high, and beautiful quality. When applied to skin, it suggests a fair, porcelain-like complexion.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20865_sumikiru",
+      "reading": "すみきる",
+      "headword": "{澄|す}み{切|き}る",
+      "label": "to be perfectly clear, to be crystal clear"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T11:01:01Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

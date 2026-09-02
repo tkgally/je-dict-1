@@ -3,7 +3,7 @@
   "id": "11999_torikawasu",
   "headword": "{取|と}り{交|か}わす",
   "reading": "とりかわす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to exchange (documents, promises)",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11999_torikawasu_ex1",
-      "japanese": "{契約|けいやく}を{取|と}り{交|か}わす。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{取|と}り{交|か}わす。",
       "english": "To exchange contracts.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11999_torikawasu_ex2",
-      "japanese": "{両国|りょうこく}は{平和|へいわ}{条約|じょうやく}を{取|と}り{交|か}わした。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦を→を：00422_wo⟧⟦{取|と}り→取る：00565_toru⟧⟦{交|か}わした→交わす：19373_kawasu⟧。",
       "english": "The two countries exchanged a peace treaty.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11999_torikawasu_ex3",
-      "japanese": "{売買|ばいばい}の{前|まえ}に{書面|しょめん}で{合意|ごうい}を{取|と}り{交|か}わしておくべきだ。",
+      "japanese": "⟦{売買|ばいばい}→売買：04336_baibai⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{書面|しょめん}→書面：13023_shomen⟧⟦で→で：00502_de⟧⟦{合意|ごうい}→合意：05093_goui⟧⟦を→を：00422_wo⟧⟦{取|と}り→取る：00565_toru⟧⟦{交|か}わして→交わす：19373_kawasu⟧おくべきだ。",
       "english": "You should exchange a written agreement before the transaction.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed primarily in formal, legal, and business contexts. The object is almost always a formal document (contract, treaty, agreement) or a promise/pledge. Not used for casual exchanges of items.\n\nGodan verb ({五段動詞|ごだんどうし}), す-ending.\n- Negative: {取|と}り{交|か}わさない\n- Polite: {取|と}り{交|か}わします\n- Te-form: {取|と}り{交|か}わして\n- Past: {取|と}り{交|か}わした\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}を{取|と}り{交|か}わす: to exchange/sign a contract\n- {条約|じょうやく}を{取|と}り{交|か}わす: to exchange a treaty\n- {覚書|おぼえがき}を{取|と}り{交|か}わす: to exchange a memorandum\n- {約束|やくそく}を{取|と}り{交|か}わす: to exchange promises",
+  "notes": "USAGE:\nUsed primarily in formal, legal, and business contexts. The object is almost always a formal document (contract, treaty, agreement) or a promise/pledge. Not used for casual exchanges of items.\n\nGodan verb ({五段動詞|ごだんどうし}), す-ending.\n- Negative: ⟦{取|と}り→取る：00565_toru⟧⟦{交|か}わさない→交わす：19373_kawasu⟧\n- Polite: ⟦{取|と}り→取る：00565_toru⟧⟦{交|か}わします→交わす：19373_kawasu⟧\n- Te-form: ⟦{取|と}り→取る：00565_toru⟧⟦{交|か}わして→交わす：19373_kawasu⟧\n- Past: ⟦{取|と}り→取る：00565_toru⟧⟦{交|か}わした→交わす：19373_kawasu⟧\n\nCOMMON COLLOCATIONS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{取|と}り{交|か}わす: to exchange/sign a contract\n- ⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦を→を：00422_wo⟧{取|と}り{交|か}わす: to exchange a treaty\n- ⟦{覚書|おぼえがき}→覚書：07963_oboegaki⟧⟦を→を：00422_wo⟧{取|と}り{交|か}わす: to exchange a memorandum\n- ⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧{取|と}り{交|か}わす: to exchange promises",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-19T11:43:39Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,7 +150,8 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     }
   }
 }

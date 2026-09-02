@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26618_heiba_ex1",
-      "japanese": "{兵馬|へいば}の{権|けん}を{握|にぎ}る。",
+      "japanese": "{兵馬|へいば}⟦の→の：09472_no⟧{権|けん}⟦を→を：00422_wo⟧⟦{握|にぎ}る→握る：02383_nigiru⟧。",
       "english": "Hold military power.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26618_heiba_ex2",
-      "japanese": "{兵馬|へいば}の{時代|じだい}は{終|お}わり、{平和|へいわ}が{訪|おとず}れた。",
+      "japanese": "{兵馬|へいば}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦は→は：00079_ha⟧{終|お}わり、⟦{平和|へいわ}→平和：01507_heiwa⟧⟦が→が：00051_ga⟧⟦{訪|おとず}れた→訪れる：07678_otozureru⟧。",
       "english": "The age of warfare ended, and peace arrived.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26618_heiba_ex3",
-      "japanese": "{戦国|せんごく}{大名|だいみょう}たちは{兵馬|へいば}を{整|ととの}え、{天下統一|てんかとういつ}をめざして{争|あらそ}った。",
+      "japanese": "⟦{戦国|せんごく}→戦国：27122_sengoku⟧⟦{大名|だいみょう}→大名：10378_daimyou⟧たち⟦は→は：00079_ha⟧{兵馬|へいば}⟦を→を：00422_wo⟧⟦{整|ととの}え→整える：04259_totonoeru⟧、⟦{天下統一|てんかとういつ}→天下統一：20946_tenkatouitsu⟧⟦を→を：00422_wo⟧めざして⟦{争|あらそ}った→争う：01866_arasou⟧。",
       "english": "The feudal lords of the Warring States period assembled their military forces and competed for the unification of the country.",
       "sense_numbers": [
         1
@@ -44,13 +44,14 @@
       "notes": null
     }
   ],
-  "notes": "A classical compound of {兵|へい} (soldiers) and {馬|ば} (horses), representing military power by synecdoche. In pre-modern warfare, cavalry and infantry were the two pillars of an army, so the pairing evokes the full scope of a military force.\n\nCOMMON COLLOCATIONS:\n- {兵馬|へいば}の{権|けん}: military authority\n- {兵馬|へいば}を{動|うご}かす: mobilize forces\n- {兵馬|へいば}を{整|ととの}える: prepare military forces\n- {兵馬|へいば}{俑|よう}: terracotta army (the famous Chinese burial figures)\n\nSIMILAR WORDS:\n- {軍勢|ぐんぜい}: military force; army (more concrete, refers to actual troops)\n- {軍事|ぐんじ}: military affairs (modern, administrative term)\n- {武力|ぶりょく}: military power; armed force (modern term for the concept of force)\n\nREGISTER:\nPrimarily a literary and historical term. In modern Japanese, it appears mainly in historical writing, classical literature, and discussions of East Asian history. The compound {兵馬|へいば}{俑|よう} (terracotta warriors) is perhaps its most widely known modern usage.",
+  "notes": "A classical compound of ⟦{兵|へい}→兵：29510_hei⟧ (soldiers) and {馬|ば} (horses), representing military power by synecdoche. In pre-modern warfare, cavalry and infantry were the two pillars of an army, so the pairing evokes the full scope of a military force.\n\nCOMMON COLLOCATIONS:\n- {兵馬|へいば}⟦の→の：09472_no⟧{権|けん}: military authority\n- {兵馬|へいば}⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧: mobilize forces\n- {兵馬|へいば}⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧: prepare military forces\n- {兵馬|へいば}{俑|よう}: terracotta army (the famous Chinese burial figures)\n\nSIMILAR WORDS:\n- {軍勢|ぐんぜい}: military force; army (more concrete, refers to actual troops)\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧: military affairs (modern, administrative term)\n- ⟦{武力|ぶりょく}→武力：13221_buryoku⟧: military power; armed force (modern term for the concept of force)\n\nREGISTER:\nPrimarily a literary and historical term. In modern Japanese, it appears mainly in historical writing, classical literature, and discussions of East Asian history. The compound {兵馬|へいば}{俑|よう} (terracotta warriors) is perhaps its most widely known modern usage.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "military",
         "history"
@@ -58,7 +59,22 @@
     },
     "schema_version": "2.0",
     "created": "2026-05-03T00:00:00Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
-  "cross_references": []
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14392_gunji",
+      "reading": "ぐんじ",
+      "headword": "{軍事|ぐんじ}",
+      "label": "military affairs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13221_buryoku",
+      "reading": "ぶりょく",
+      "headword": "{武力|ぶりょく}",
+      "label": "military power"
+    }
+  ]
 }

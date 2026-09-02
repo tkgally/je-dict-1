@@ -3,7 +3,7 @@
   "headword": "{取|と}り{囲|かこ}む",
   "reading": "とりかこむ",
   "romaji": "torikakomu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to surround; to encircle",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20925_torikakomu_ex1",
-      "japanese": "{記者|きしゃ}たちが{選手|せんしゅ}を{取|と}り{囲|かこ}んだ。",
+      "japanese": "⟦{記者|きしゃ}→記者：14170_kisha⟧たち⟦が→が：00051_ga⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦を→を：00422_wo⟧{取|と}り{囲|かこ}んだ。",
       "english": "Reporters surrounded the athlete.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20925_torikakomu_ex2",
-      "japanese": "テーブルを{取|と}り{囲|かこ}んで{食事|しょくじ}をする。",
+      "japanese": "⟦テーブル→テーブル：04488_teeburu⟧⟦を→を：00422_wo⟧{取|と}り{囲|かこ}んで⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To sit around the table and eat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20925_torikakomu_ex3",
-      "japanese": "{警察|けいさつ}が{建物|たてもの}を{取|と}り{囲|かこ}んで{犯人|はんにん}の{逃走|とうそう}を{防|ふせ}いだ。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{取|と}り{囲|かこ}んで⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧⟦{逃走|とうそう}→逃走：14403_tousou⟧⟦を→を：00422_wo⟧⟦{防|ふせ}いだ→防ぐ：02409_fusegu⟧。",
       "english": "The police surrounded the building to prevent the suspect from escaping.",
       "sense_numbers": [
         1
@@ -44,9 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb combining {取|と}り (intensifying prefix from {取|と}る) and {囲|かこ}む (to surround). The {取|と}り prefix adds a sense of completeness or thoroughness to the surrounding action.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{取|と}り{囲|かこ}む: to surround a person\n- テーブルを{取|と}り{囲|かこ}む: to gather around a table\n- {建物|たてもの}を{取|と}り{囲|かこ}む: to surround a building\n- {大勢|おおぜい}で{取|と}り{囲|かこ}む: to surround in large numbers\n\nSIMILAR WORDS:\n- {囲|かこ}む: to surround — simpler form, also used figuratively for enjoying things together (e.g., {鍋|なべ}を{囲|かこ}む)\n- {包囲|ほうい}する: to besiege, to lay siege — more formal and military\n- {取|と}り{巻|ま}く: to surround — often used for circumstances or environment",
+  "notes": "A compound verb combining ⟦{取|と}り→取る：00565_toru⟧ (intensifying prefix from ⟦{取|と}る→取る：00565_toru⟧) and ⟦{囲|かこ}む→囲む：02037_kakomu⟧ (to surround). The ⟦{取|と}り→取る：00565_toru⟧ prefix adds a sense of completeness or thoroughness to the surrounding action.\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{取|と}り{囲|かこ}む: to surround a person\n- ⟦テーブル→テーブル：04488_teeburu⟧⟦を→を：00422_wo⟧{取|と}り{囲|かこ}む: to gather around a table\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{取|と}り{囲|かこ}む: to surround a building\n- ⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦で→で：00502_de⟧{取|と}り{囲|かこ}む: to surround in large numbers\n\nSIMILAR WORDS:\n- ⟦{囲|かこ}む→囲む：02037_kakomu⟧: to surround — simpler form, also used figuratively for enjoying things together (e.g., ⟦{鍋|なべ}→鍋：01038_nabe⟧⟦を→を：00422_wo⟧⟦{囲|かこ}む→囲む：02037_kakomu⟧)\n- ⟦{包囲|ほうい}する→包囲する：19707_houisuru⟧: to besiege, to lay siege — more formal and military\n- {取|と}り{巻|ま}く: to surround — often used for circumstances or environment",
   "conjugation_type": "godan-mu",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19707_houisuru",
+      "reading": "ほういする",
+      "headword": "{包囲|ほうい}する",
+      "label": "to besiege, to lay siege"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22408_houi",
+      "reading": "ほうい",
+      "headword": "{包囲|ほうい}",
+      "label": "encirclement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +75,11 @@
         "action",
         "direction"
       ],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "transitive"
     },
     "created": "2026-03-30T21:32:26Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "godan",

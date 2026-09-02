@@ -2,7 +2,7 @@
   "id": "11991_ooyake",
   "headword": "{公|おおやけ}",
   "reading": "おおやけ",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "public; official; open",
   "definitions": [
     {
@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "11991_ooyake_ex1",
-      "japanese": "{公|おおやけ}の{場|ば}で{発言|はつげん}する。",
+      "japanese": "{公|おおやけ}⟦の→の：09472_no⟧⟦{場|ば}→場：03699_ba⟧⟦で→で：00502_de⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦する→する：00392_suru⟧。",
       "english": "Speak in a public setting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11991_ooyake_ex2",
-      "japanese": "その{情報|じょうほう}はまだ{公|おおやけ}にされていない。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{公|おおやけ}⟦に→に：00314_ni⟧⟦されていない→する：00392_suru⟧。",
       "english": "That information has not been made public yet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11991_ooyake_ex3",
-      "japanese": "{私的|してき}な{問題|もんだい}を{公|おおやけ}にするべきではないと{思|おも}う。",
+      "japanese": "⟦{私的|してき}→私的：06350_shiteki⟧な⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{公|おおやけ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧べきで⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I don't think private matters should be made public.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{公|おおやけ}にする (make public, disclose)\n・{公|おおやけ}になる (become public, come to light)\n・{公|おおやけ}の{場|ば} (public setting, official venue)\n・{公|おおやけ}の{立場|たちば} (official position)\n\nUSAGE NOTES:\nThe やまと{言葉|ことば} (native Japanese word) for \"public,\" contrasting with the sino-Japanese {公|こう} used in compounds like {公共|こうきょう} (public), {公式|こうしき} (official). {公|おおやけ}にする means \"to make public\" or \"to disclose,\" while {公|おおやけ}になる means \"to become publicly known.\" The word implies visibility to society at large and often carries a sense of formality or officialness.",
+  "notes": "COMMON COLLOCATIONS:\n- {公|おおやけ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (make public, disclose)\n- {公|おおやけ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become public, come to light)\n- {公|おおやけ}⟦の→の：09472_no⟧⟦{場|ば}→場：03699_ba⟧ (public setting, official venue)\n- {公|おおやけ}⟦の→の：09472_no⟧⟦{立場|たちば}→立場：03403_tachiba⟧ (official position)\n\nUSAGE:\nThe やま⟦と→と：00512_to⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧ (native Japanese word) for \"public,\" contrasting with the sino-Japanese {公|こう} used in compounds like ⟦{公共|こうきょう}→公共：11652_koukyou⟧ (public), ⟦{公式|こうしき}→公式：04167_koushiki⟧ (official). {公|おおやけ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ means \"to make public\" or \"to disclose,\" while {公|おおやけ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ means \"to become publicly known.\" The word implies visibility to society at large and often carries a sense of formality or officialness.",
   "cross_references": [
     {
       "type": "related",
@@ -52,19 +58,45 @@
       "reading": "こうしき",
       "headword": "{公式|こうしき}",
       "label": "official, formal"
+    },
+    {
+      "type": "antonym",
+      "target_id": "05727_hisokani",
+      "reading": "ひそかに",
+      "headword": "{密|ひそ}かに",
+      "label": "secretly, quietly"
+    },
+    {
+      "type": "related",
+      "target_id": "19380_hitomae",
+      "reading": "ひとまえ",
+      "headword": "{人前|ひとまえ}",
+      "label": "in front of people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20894_kouzen",
+      "reading": "こうぜん",
+      "headword": "{公然|こうぜん}",
+      "label": "openly"
     }
   ],
   "metadata": {
     "created": "2026-02-19T11:19:40Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

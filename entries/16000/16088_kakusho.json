@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16088_kakusho_ex1",
-      "japanese": "{各所|かくしょ}に{案内|あんない}{板|ばん}がある。",
+      "japanese": "{各所|かくしょ}⟦に→に：00314_ni⟧⟦{案内|あんない}{板|ばん}→案内板：22318_annaiban⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are information boards at various places.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16088_kakusho_ex2",
-      "japanese": "{市内|しない}の{各所|かくしょ}でイベントが{開催|かいさい}される。",
+      "japanese": "⟦{市内|しない}→市内：20934_shinai⟧⟦の→の：09472_no⟧{各所|かくしょ}⟦で→で：00502_de⟧⟦イベント→イベント：09594_ibento⟧⟦が→が：00051_ga⟧⟦{開催|かいさい}される→開催する：10441_kaisaisuru⟧。",
       "english": "Events are held at various places throughout the city.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16088_kakusho_ex3",
-      "japanese": "{台風|たいふう}の{影響|えいきょう}で、{県内|けんない}の{各所|かくしょ}で{道路|どうろ}が{冠水|かんすい}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧、⟦{県内|けんない}→県内：27823_kennai⟧⟦の→の：09472_no⟧{各所|かくしょ}⟦で→で：00502_de⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧⟦{冠水|かんすい}→冠水：20916_kansui⟧⟦した→する：00392_suru⟧。",
       "english": "Due to the typhoon, roads were flooded at various locations throughout the prefecture.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word often used in news, announcements, and official descriptions. Commonly preceded by a scope word like {市内|しない} (within the city) or {国内|こくない} (within the country) to specify where.\n\nCOMMON COLLOCATIONS:\n- {各所|かくしょ}に{配置|はいち}する (to deploy at various locations)\n- {各所|かくしょ}で{見|み}られる (can be seen at various places)\n- {市内|しない}{各所|かくしょ} (various places in the city)\n\nSIMILAR WORDS:\n- {各地|かくち}: various regions — similar but suggests broader, more geographically spread-out areas\n- あちこち: here and there — casual, everyday equivalent",
+  "notes": "USAGE:\nA formal word often used in news, announcements, and official descriptions. Commonly preceded by a scope word like ⟦{市内|しない}→市内：20934_shinai⟧ (within the city) or ⟦{国内|こくない}→国内：02998_kokunai⟧ (within the country) to specify where.\n\nCOMMON COLLOCATIONS:\n- {各所|かくしょ}⟦に→に：00314_ni⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦する→する：00392_suru⟧ (to deploy at various locations)\n- {各所|かくしょ}⟦で→で：00502_de⟧⟦{見|み}られる→見る：00283_miru⟧ (can be seen at various places)\n- ⟦{市内|しない}→市内：20934_shinai⟧{各所|かくしょ} (various places in the city)\n\nSIMILAR WORDS:\n- ⟦{各地|かくち}→各地：00155_kakuchi⟧: various regions — similar but suggests broader, more geographically spread-out areas\n- ⟦あちこち→あちこち：01687_achikochi⟧: here and there — casual, everyday equivalent",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,39 @@
       "reading": "かくち",
       "headword": "{各地|かくち}",
       "label": "various regions (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01687_achikochi",
+      "reading": "あちこち",
+      "headword": "あちこち",
+      "label": "here and there"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14599_zuisho",
+      "reading": "ずいしょ",
+      "headword": "{随所|ずいしょ}",
+      "label": "everywhere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22043_kakubu",
+      "reading": "かくぶ",
+      "headword": "{各部|かくぶ}",
+      "label": "each section"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24381_shosho",
+      "reading": "しょしょ",
+      "headword": "{諸所|しょしょ}",
+      "label": "various places"
     }
   ],
   "metadata": {
     "created": "2026-03-09T12:22:26Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

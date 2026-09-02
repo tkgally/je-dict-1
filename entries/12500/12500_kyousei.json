@@ -3,7 +3,7 @@
   "id": "12500_kyousei",
   "headword": "{強制|きょうせい}",
   "reading": "きょうせい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "compulsion, coercion, enforcement",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12500_kyousei_ex1",
-      "japanese": "{参加|さんか}を{強制|きょうせい}しないでください。",
+      "japanese": "⟦{参加|さんか}→参加：02498_sanka⟧⟦を→を：00422_wo⟧{強制|きょうせい}⟦しないで→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't force participation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12500_kyousei_ex2",
-      "japanese": "{強制的|きょうせいてき}に{退去|たいきょ}させられた。",
+      "japanese": "⟦{強制的|きょうせいてき}→強制的：06133_kyouseiteki⟧⟦に→に：00314_ni⟧⟦{退去|たいきょ}→退去：06693_taikyo⟧⟦させられた→する：00392_suru⟧。",
       "english": "They were forcibly evicted.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12500_kyousei_ex3",
-      "japanese": "{法律|ほうりつ}による{強制|きょうせい}がなければ、この{規則|きそく}は{守|まも}られないだろう。",
+      "japanese": "⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦による→による：28349_niyoru⟧{強制|きょうせい}⟦が→が：00051_ga⟧⟦なければ→ない：01118_nai⟧、⟦この→この：00962_kono⟧⟦{規則|きそく}→規則：01382_kisoku⟧⟦は→は：00079_ha⟧⟦{守|まも}られない→守る：01986_mamoru⟧だろう。",
       "english": "Without legal enforcement, this rule would probably not be followed.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,54 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. The derived na-adjective {強制的|きょうせいてき} (compulsory, forced) is also very common. Carries a negative connotation in most contexts, implying that the action goes against the subject's will.\n\nCOMMON COLLOCATIONS:\n- {強制|きょうせい}する: to force, to compel\n- {強制的|きょうせいてき}に: forcibly, compulsorily\n- {強制|きょうせい}{執行|しっこう}: forced execution (legal term)\n- {強制|きょうせい}{送還|そうかん}: forced deportation\n\nSIMILAR WORDS:\n- {強要|きょうよう}: coercion, demanding (more personal pressure)\n- {義務|ぎむ}: obligation (neutral, institutional)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. The derived na-adjective ⟦{強制的|きょうせいてき}→強制的：06133_kyouseiteki⟧ (compulsory, forced) is also very common. Carries a negative connotation in most contexts, implying that the action goes against the subject's will.\n\nCOMMON COLLOCATIONS:\n- {強制|きょうせい}⟦する→する：00392_suru⟧: to force, to compel\n- ⟦{強制的|きょうせいてき}→強制的：06133_kyouseiteki⟧⟦に→に：00314_ni⟧: forcibly, compulsorily\n- {強制|きょうせい}⟦{執行|しっこう}→執行：18996_shikkou⟧: forced execution (legal term)\n- {強制|きょうせい}{送還|そうかん}: forced deportation\n\nSIMILAR WORDS:\n- ⟦{強要|きょうよう}→強要：12538_kyouyou⟧: coercion, demanding (more personal pressure)\n- ⟦{義務|ぎむ}→義務：02647_gimu⟧: obligation (neutral, institutional)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12538_kyouyou",
+      "reading": "きょうよう",
+      "headword": "{強要|きょうよう}",
+      "label": "coercion, demanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02647_gimu",
+      "reading": "ぎむ",
+      "headword": "{義務|ぎむ}",
+      "label": "obligation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04236_oshitsukeru",
+      "reading": "おしつける",
+      "headword": "{押|お}し{付|つ}ける",
+      "label": "to press against"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20158_gimuzukeru",
+      "reading": "ぎむづける",
+      "headword": "{義務付|ぎむづ}ける",
+      "label": "to obligate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21959_murijii",
+      "reading": "むりじい",
+      "headword": "{無理強|むりじ}い",
+      "label": "forcing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28603_gimuka",
+      "reading": "ぎむか",
+      "headword": "{義務化|ぎむか}",
+      "label": "making mandatory"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:04:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +194,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

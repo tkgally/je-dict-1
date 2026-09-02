@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08816_tisshu_ex1",
-      "japanese": "ティッシュをください。",
+      "japanese": "ティッシュ⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please give me a tissue.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08816_tisshu_ex2",
-      "japanese": "ティッシュが{切|き}れた。",
+      "japanese": "ティッシュ⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧。",
       "english": "We ran out of tissues.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08816_tisshu_ex3",
-      "japanese": "{駅前|えきまえ}でティッシュを{配|くば}っている{人|ひと}がいた。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦で→で：00502_de⟧ティッシュ⟦を→を：00422_wo⟧⟦{配|くば}っている→配る：03921_kubaru⟧⟦{人|ひと}→人：00476_hito⟧がいた。",
       "english": "There were people handing out tissue packets in front of the station.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "JAPANESE TISSUE CULTURE:\nIn Japan, small tissue packets (ポケットティッシュ) are commonly distributed for free as advertising near train stations and shopping areas.\n\nFORMS:\n- ティッシュ - common form\n- ティッシュペーパー - tissue paper (full form)\n- ポケットティッシュ - pocket tissue\n- {箱|はこ}ティッシュ / ボックスティッシュ - box tissue\n\nRELATED:\n- ウェットティッシュ - wet wipes\n- トイレットペーパー - toilet paper\n- キッチンペーパー - paper towels",
+  "notes": "JAPANESE TISSUE CULTURE:\nIn Japan, small tissue packets (⟦ポケット→ポケット：02964_poketto⟧ティッシュ) are commonly distributed for free as advertising near train stations and shopping areas.\n\nFORMS:\n- ティッシュ - common form\n- ティッシュペーパー - tissue paper (full form)\n- ⟦ポケット→ポケット：02964_poketto⟧ティッシュ - pocket tissue\n- ⟦{箱|はこ}→箱：02162_hako⟧ティッシュ / ⟦ボックス→ボックス：30522_bokkusu⟧ティッシュ - box tissue\n\nRELATED WORDS:\n- ウェットティッシュ - wet wipes\n- ⟦トイレットペーパー→トイレットペーパー：23785_toirettopeepaa⟧ - toilet paper\n- ⟦キッチンペーパー→キッチンペーパー：25045_kicchinpeepaa⟧ - paper towels",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,6 +51,55 @@
       "reading": "ちりがみ",
       "headword": "{塵紙|ちりがみ}",
       "label": "older term"
+    },
+    {
+      "type": "related",
+      "target_id": "25028_wettotisshu",
+      "reading": "うぇっとてぃっしゅ",
+      "headword": "ウェットティッシュ",
+      "label": "wet wipes"
+    },
+    {
+      "type": "related",
+      "target_id": "23785_toirettopeepaa",
+      "reading": "といれっとぺーぱー",
+      "headword": "トイレットペーパー",
+      "label": "toilet paper"
+    },
+    {
+      "type": "related",
+      "target_id": "25045_kicchinpeepaa",
+      "reading": "きっちんぺーぱー",
+      "headword": "キッチンペーパー",
+      "label": "paper towels"
+    },
+    {
+      "type": "related",
+      "target_id": "02937_hankachi",
+      "reading": "はんかち",
+      "headword": "ハンカチ",
+      "label": "handkerchief"
+    },
+    {
+      "type": "related",
+      "target_id": "23909_tisshupeepaa",
+      "reading": "てぃっしゅぺーぱー",
+      "headword": "ティッシュペーパー",
+      "label": "tissue paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24724_kaminapukin",
+      "reading": "かみなぷきん",
+      "headword": "{紙|かみ}ナプキン",
+      "label": "paper napkin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24766_hanagami",
+      "reading": "はながみ",
+      "headword": "{鼻紙|はながみ}",
+      "label": "tissue paper"
     }
   ],
   "metadata": {
@@ -67,6 +116,6 @@
       ]
     },
     "created": "2026-01-28T14:45:41Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19951_kyuukou_ex1",
-      "japanese": "{今日|きょう}の{授業|じゅぎょう}は{休講|きゅうこう}です。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦は→は：00079_ha⟧{休講|きゅうこう}です。",
       "english": "Today's class is cancelled.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19951_kyuukou_ex2",
-      "japanese": "{先生|せんせい}の{体調不良|たいちょうふりょう}で{休講|きゅうこう}になった。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧⟦{体調不良|たいちょうふりょう}→体調不良：20233_taichoufuryou⟧⟦で→で：00502_de⟧{休講|きゅうこう}になった。",
       "english": "The class was cancelled because the teacher was unwell.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19951_kyuukou_ex3",
-      "japanese": "{休講|きゅうこう}{情報|じょうほう}は{大学|だいがく}のウェブサイトで{確認|かくにん}してください。",
+      "japanese": "{休講|きゅうこう}⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦は→は：00079_ha⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦で→で：00502_de⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the university website for class cancellation information.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {休|きゅう} (rest, pause) + {講|こう} (lecture). Primarily used in university and school contexts. Used as a する verb: {休講|きゅうこう}する means 'to cancel a class' (from the instructor's side).\n\nCOMMON COLLOCATIONS:\n- {休講|きゅうこう}になる: a class gets cancelled\n- {休講|きゅうこう}する: to cancel a class (instructor's action)\n- {休講|きゅうこう}{情報|じょうほう}: class cancellation notice\n- {休講|きゅうこう}{届|とど}け: notification of class cancellation\n- {休講|きゅうこう}{掲示|けいじ}: posted cancellation announcement\n\nSIMILAR WORDS:\n- {休校|きゅうこう}: school closure (the entire school closes, e.g., for a typhoon)\n- {欠席|けっせき}: absence (a student missing class, not the class being cancelled)\n- {補講|ほこう}: make-up class (a rescheduled session to cover a cancelled one)",
+  "notes": "Composed of {休|きゅう} (rest, pause) + {講|こう} (lecture). Primarily used in university and school contexts. Used as a ⟦する→する：00392_suru⟧ verb: {休講|きゅうこう}⟦する→する：00392_suru⟧ means 'to cancel a class' (from the instructor's side).\n\nCOMMON COLLOCATIONS:\n- {休講|きゅうこう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: a class gets cancelled\n- {休講|きゅうこう}⟦する→する：00392_suru⟧: to cancel a class (instructor's action)\n- {休講|きゅうこう}⟦{情報|じょうほう}→情報：03348_jouhou⟧: class cancellation notice\n- {休講|きゅうこう}⟦{届|とど}け→届ける：01248_todokeru⟧: notification of class cancellation\n- {休講|きゅうこう}⟦{掲示|けいじ}→掲示：02838_keiji⟧: posted cancellation announcement\n\nSIMILAR WORDS:\n- ⟦{休校|きゅうこう}→休校：19880_kyuukou⟧: school closure (the entire school closes, e.g., for a typhoon)\n- ⟦{欠席|けっせき}→欠席：02495_kesseki⟧: absence (a student missing class, not the class being cancelled)\n- ⟦{補講|ほこう}→補講：09973_hokou⟧: make-up class (a rescheduled session to cover a cancelled one)",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,6 +142,27 @@
       "reading": "ほこう",
       "headword": "{補講|ほこう}",
       "label": "make-up class"
+    },
+    {
+      "type": "homophone",
+      "target_id": "19880_kyuukou",
+      "reading": "きゅうこう",
+      "headword": "{休校|きゅうこう}",
+      "label": "school closure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02495_kesseki",
+      "reading": "けっせき",
+      "headword": "{欠席|けっせき}",
+      "label": "absence"
+    },
+    {
+      "type": "related",
+      "target_id": "26339_kyuushitsu",
+      "reading": "きゅうしつ",
+      "headword": "{休室|きゅうしつ}",
+      "label": "room closure"
     }
   ],
   "schema_version": "2.0",
@@ -160,6 +181,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T07:15:11Z",
-    "modified": "2026-04-23T08:17:03Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

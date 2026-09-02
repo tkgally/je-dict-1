@@ -3,7 +3,7 @@
   "headword": "{交差|こうさ}する",
   "reading": "こうさする",
   "romaji": "kousasuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to intersect; to cross",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "21984_kousasuru_ex1",
-      "japanese": "ここで{二|ふた}つの{道|みち}が{交差|こうさ}する。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦で→で：00502_de⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{交差|こうさ}する。",
       "english": "Two roads intersect here.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "21984_kousasuru_ex2",
-      "japanese": "{線路|せんろ}と{道路|どうろ}が{交差|こうさ}する{地点|ちてん}に{踏切|ふみきり}がある。",
+      "japanese": "⟦{線路|せんろ}→線路：04041_senro⟧⟦と→と：00512_to⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧{交差|こうさ}する⟦{地点|ちてん}→地点：04058_chiten⟧⟦に→に：00314_ni⟧⟦{踏切|ふみきり}→踏切：06493_fumikiri⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a railroad crossing at the point where the tracks and road intersect.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "21984_kousasuru_ex3",
-      "japanese": "{複数|ふくすう}の{利害|りがい}が{交差|こうさ}する{問題|もんだい}なので、{解決|かいけつ}は{簡単|かんたん}ではない。",
+      "japanese": "⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧⟦{利害|りがい}→利害：04091_rigai⟧⟦が→が：00051_ga⟧{交差|こうさ}する⟦{問題|もんだい}→問題：00797_mondai⟧な⟦の→の：09472_no⟧で、⟦{解決|かいけつ}→解決：00136_kaiketsu⟧⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Since it's a problem where multiple interests intersect, the solution is not easy.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Describes two or more things meeting and crossing at a point. While often used for physical crossing of roads or lines, it also applies figuratively to situations where different viewpoints, interests, or gazes meet.\n\nCOMMON COLLOCATIONS:\n- {道|みち}が{交差|こうさ}する: roads cross\n- {視線|しせん}が{交差|こうさ}する: gazes meet\n- {利害|りがい}が{交差|こうさ}する: interests intersect\n- {交差点|こうさてん}: intersection (noun form commonly seen)\n\nRELATED TERMS:\n- {交|まじ}わる: to cross, intersect (native Japanese verb)\n- {交差点|こうさてん}: intersection, crossroads\n- {横断|おうだん}する: to cross (traverse from one side to another)",
+  "notes": "Describes two or more things meeting and crossing at a point. While often used for physical crossing of roads or lines, it also applies figuratively to situations where different viewpoints, interests, or gazes meet.\n\nCOMMON COLLOCATIONS:\n- ⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{交差|こうさ}する: roads cross\n- ⟦{視線|しせん}→視線：14138_shisen⟧⟦が→が：00051_ga⟧{交差|こうさ}する: gazes meet\n- ⟦{利害|りがい}→利害：04091_rigai⟧⟦が→が：00051_ga⟧{交差|こうさ}する: interests intersect\n- ⟦{交差点|こうさてん}→交差点：01404_kousaten⟧: intersection (noun form commonly seen)\n\nRELATED WORDS:\n- ⟦{交|まじ}わる→交わる：18379_majiwaru⟧: to cross, intersect (native Japanese verb)\n- ⟦{交差点|こうさてん}→交差点：01404_kousaten⟧: intersection, crossroads\n- ⟦{横断|おうだん}→横断：01906_oudan⟧⟦する→する：00392_suru⟧: to cross (traverse from one side to another)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18379_majiwaru",
+      "reading": "まじわる",
+      "headword": "{交|まじ}わる",
+      "label": "to cross, intersect"
+    },
+    {
+      "type": "related",
+      "target_id": "01404_kousaten",
+      "reading": "こうさてん",
+      "headword": "{交差点|こうさてん}",
+      "label": "intersection, crossroads"
+    },
+    {
+      "type": "related",
+      "target_id": "01906_oudan",
+      "reading": "おうだん",
+      "headword": "{横断|おうだん}",
+      "label": "to cross"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +171,10 @@
       "semantic": [
         "spatial"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-04T19:26:54Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "18205_mawarikudoi",
   "headword": "{回|まわ}りくどい",
   "reading": "まわりくどい",
-  "part_of_speech": "adjective-i",
+  "part_of_speech": "i-adjective",
   "gloss": "roundabout; indirect; long-winded",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18205_mawarikudoi_ex1",
-      "japanese": "{回|まわ}りくどい{言|い}い{方|かた}はやめてほしい。",
+      "japanese": "{回|まわ}りくどい⟦{言|い}い{方|かた}→言い方：14165_iikata⟧はやめてほしい。",
       "english": "I wish you'd stop being so roundabout in the way you say things.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18205_mawarikudoi_ex2",
-      "japanese": "{回|まわ}りくどい{説明|せつめい}で、{結局|けっきょく}{何|なに}が{言|い}いたいのか{分|わ}からなかった。",
+      "japanese": "{回|まわ}りくどい⟦{説明|せつめい}→説明：01449_setsumei⟧⟦で→で：00502_de⟧、⟦{結局|けっきょく}→結局：03815_kekkyoku⟧⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧⟦{言|い}いたい→言う：00515_iu⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧⟦{分|わ}からなかった→分かる：00463_wakaru⟧。",
       "english": "The explanation was so roundabout that I couldn't understand what they were trying to say.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18205_mawarikudoi_ex3",
-      "japanese": "{回|まわ}りくどいやり{方|かた}ではなく、もっと{直接的|ちょくせつてき}に{問題|もんだい}に{取|と}り{組|く}むべきだ。",
+      "japanese": "{回|まわ}りくどい⟦やり{方|かた}→やり方：10532_yarikata⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦もっと→もっと：00798_motto⟧⟦{直接的|ちょくせつてき}→直接的：06093_chokusetsuteki⟧⟦に→に：00314_ni⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧べきだ。",
       "english": "We should tackle the problem more directly rather than taking a roundabout approach.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlways negative in nuance. Used when someone's speech or approach is frustratingly indirect. Can describe both verbal communication and methods of doing things.\n\nCOMMON COLLOCATIONS:\n- {回|まわ}りくどい{言|い}い{方|かた} (a roundabout way of saying something)\n- {回|まわ}りくどい{説明|せつめい} (a long-winded explanation)\n- {回|まわ}りくどいやり{方|かた} (a roundabout method)\n\nSIMILAR WORDS:\n- {遠回|とおまわ}し: indirect, roundabout — can be neutral or even tactful, unlike {回|まわ}りくどい which is always negative\n- くどい: persistent, long-winded — focuses on tedious repetition rather than indirectness",
-  "cross_references": [],
+  "notes": "USAGE:\nAlways negative in nuance. Used when someone's speech or approach is frustratingly indirect. Can describe both verbal communication and methods of doing things.\n\nCOMMON COLLOCATIONS:\n- {回|まわ}りくどい⟦{言|い}い{方|かた}→言い方：14165_iikata⟧ (a roundabout way of saying something)\n- {回|まわ}りくどい⟦{説明|せつめい}→説明：01449_setsumei⟧ (a long-winded explanation)\n- {回|まわ}りくどい⟦やり{方|かた}→やり方：10532_yarikata⟧ (a roundabout method)\n\nSIMILAR WORDS:\n- ⟦{遠回|とおまわ}し→遠回し：08054_toomawashi⟧: indirect, roundabout — can be neutral or even tactful, unlike {回|まわ}りくどい which is always negative\n- ⟦くどい→くどい：10318_kudoi⟧: persistent, long-winded — focuses on tedious repetition rather than indirectness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08054_toomawashi",
+      "reading": "とおまわし",
+      "headword": "{遠回|とおまわ}し",
+      "label": "indirect, roundabout"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T12:16:39Z",
-    "modified": "2026-03-20T12:16:39Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20023_kyokuchou_ex1",
-      "japanese": "{新|あたら}しい{局長|きょくちょう}が{着任|ちゃくにん}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{局長|きょくちょう}⟦が→が：00051_ga⟧⟦{着任|ちゃくにん}→着任：14905_chakunin⟧⟦した→する：00392_suru⟧。",
       "english": "The new bureau chief took office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20023_kyokuchou_ex2",
-      "japanese": "{郵便局|ゆうびんきょく}の{局長|きょくちょう}に{相談|そうだん}した。",
+      "japanese": "⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧⟦の→の：09472_no⟧{局長|きょくちょう}⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧。",
       "english": "I consulted with the post office director.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20023_kyokuchou_ex3",
-      "japanese": "{彼|かれ}は{総務|そうむ}{局長|きょくちょう}として{組織|そしき}の{改革|かいかく}に{取|と}り{組|く}んだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{総務|そうむ}→総務：16143_soumu⟧{局長|きょくちょう}⟦として→として：06802_toshite⟧⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んだ→取り組む：04225_torikumu⟧。",
       "english": "As director of general affairs, he worked on organizational reform.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {局|きょく} (bureau/office/station) and {長|ちょう} (chief/head). A title used in various organizational contexts.\n\nCOMMON TYPES:\n- {郵便|ゆうびん}{局長|きょくちょう}: post office director\n- {放送|ほうそう}{局長|きょくちょう}: broadcasting station director\n- {総務|そうむ}{局長|きょくちょう}: director of general affairs\n- {税務|ぜいむ}{局長|きょくちょう}: tax bureau chief\n\nJAPANESE ORGANIZATIONAL HIERARCHY:\nIn government ministries, {局長|きょくちょう} ranks below {次官|じかん} (vice-minister) and above {課長|かちょう} (section chief). The hierarchy typically runs: {大臣|だいじん} → {次官|じかん} → {局長|きょくちょう} → {部長|ぶちょう} → {課長|かちょう}.\n\nSIMILAR WORDS:\n- {部長|ぶちょう}: department head — lower rank in government; equivalent level in many companies\n- {課長|かちょう}: section chief — a more junior management position\n- {所長|しょちょう}: director of an institute or office — used for research institutes, branch offices",
+  "notes": "Compound of ⟦{局|きょく}→局：02687_kyoku⟧ (bureau/office/station) and {長|ちょう} (chief/head). A title used in various organizational contexts.\n\nTYPES:\n- {郵便|ゆうびん}{局長|きょくちょう}: post office director\n- {放送|ほうそう}{局長|きょくちょう}: broadcasting station director\n- ⟦{総務|そうむ}→総務：16143_soumu⟧{局長|きょくちょう}: director of general affairs\n- ⟦{税務|ぜいむ}→税務：30025_zeimu⟧{局長|きょくちょう}: tax bureau chief\n\nJAPANESE ORGANIZATIONAL HIERARCHY:\nIn government ministries, {局長|きょくちょう} ranks below {次官|じかん} (vice-minister) and above ⟦{課長|かちょう}→課長：01075_kachou⟧ (section chief). The hierarchy typically runs: ⟦{大臣|だいじん}→大臣：03417_daijin⟧ → {次官|じかん} → {局長|きょくちょう} → ⟦{部長|ぶちょう}→部長：01017_buchou⟧ → ⟦{課長|かちょう}→課長：01075_kachou⟧.\n\nSIMILAR WORDS:\n- ⟦{部長|ぶちょう}→部長：01017_buchou⟧: department head — lower rank in government; equivalent level in many companies\n- ⟦{課長|かちょう}→課長：01075_kachou⟧: section chief — a more junior management position\n- {所長|しょちょう}: director of an institute or office — used for research institutes, branch offices",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01017_buchou",
+      "reading": "ぶちょう",
+      "headword": "{部長|ぶちょう}",
+      "label": "department head"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01075_kachou",
+      "reading": "かちょう",
+      "headword": "{課長|かちょう}",
+      "label": "section chief"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24546_shochou",
+      "reading": "しょちょう",
+      "headword": "{署長|しょちょう}",
+      "label": "chief"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "government"]
+      "semantic": [
+        "business",
+        "government"
+      ]
     },
     "created": "2026-03-28T05:25:18Z",
-    "modified": "2026-03-28T05:25:18Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

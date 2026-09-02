@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13394_kaisanbutsu_ex1",
-      "japanese": "{北海道|ほっかいどう}は{海産物|かいさんぶつ}が{豊富|ほうふ}だ。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦は→は：00079_ha⟧{海産物|かいさんぶつ}⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧だ。",
       "english": "Hokkaido is rich in marine products.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13394_kaisanbutsu_ex2",
-      "japanese": "{市場|いちば}で{新鮮|しんせん}な{海産物|かいさんぶつ}を{買|か}った。",
+      "japanese": "⟦{市場|いちば}→市場：01803_ichiba⟧⟦で→で：00502_de⟧⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な{海産物|かいさんぶつ}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought fresh seafood at the market.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13394_kaisanbutsu_ex3",
-      "japanese": "この{地域|ちいき}は{海産物|かいさんぶつ}の{加工|かこう}{産業|さんぎょう}で{栄|さか}えてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{海産物|かいさんぶつ}⟦の→の：09472_no⟧⟦{加工|かこう}→加工：11793_kakou⟧⟦{産業|さんぎょう}→産業：01419_sangyou⟧⟦で→で：00502_de⟧⟦{栄|さか}えて→栄える：13104_sakaeru⟧きた。",
       "english": "This region has prospered through its marine product processing industry.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA somewhat formal compound noun. In everyday conversation, {魚介類|ぎょかいるい} (seafood, fish and shellfish) or simply {海|うみ}の{幸|さち} (bounty of the sea) are also used. {海産物|かいさんぶつ} is broader, encompassing seaweed and other non-fish/shellfish items.\n\nCOMMON COLLOCATIONS:\n- {新鮮|しんせん}な{海産物|かいさんぶつ}: fresh marine products\n- {海産物|かいさんぶつ}の{加工|かこう}: processing of marine products\n- {海産物|かいさんぶつ}{市場|いちば}: seafood market",
+  "notes": "USAGE:\nA somewhat formal compound noun. In everyday conversation, ⟦{魚介類|ぎょかいるい}→魚介類：23435_gyokairui⟧ (seafood, fish and shellfish) or simply ⟦{海|うみ}→海：00556_umi⟧⟦の→の：09472_no⟧⟦{幸|さち}→幸：28345_sachi⟧ (bounty of the sea) are also used. {海産物|かいさんぶつ} is broader, encompassing seaweed and other non-fish/shellfish items.\n\nCOMMON COLLOCATIONS:\n- ⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な{海産物|かいさんぶつ}: fresh marine products\n- {海産物|かいさんぶつ}⟦の→の：09472_no⟧⟦{加工|かこう}→加工：11793_kakou⟧: processing of marine products\n- {海産物|かいさんぶつ}⟦{市場|いちば}→市場：01803_ichiba⟧: seafood market",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "すいさんぶつ",
       "headword": "{水産物|すいさんぶつ}",
       "label": "marine products (includes freshwater)"
+    },
+    {
+      "type": "related",
+      "target_id": "04290_suisan",
+      "reading": "すいさん",
+      "headword": "{水産|すいさん}",
+      "label": "marine products, fisheries"
     }
   ],
   "metadata": {
     "created": "2026-02-24T11:12:57Z",
-    "modified": "2026-07-10T04:36:00Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

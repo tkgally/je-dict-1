@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "29981_houkoushijiki_ex1",
-      "japanese": "{方向指示器|ほうこうしじき}を{出|だ}す。",
+      "japanese": "{方向指示器|ほうこうしじき}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "Put on the turn signal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29981_houkoushijiki_ex2",
-      "japanese": "{右折|うせつ}の{前|まえ}に{方向指示器|ほうこうしじき}を{点滅|てんめつ}させる。",
+      "japanese": "⟦{右折|うせつ}→右折：09217_usetsu⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{方向指示器|ほうこうしじき}⟦を→を：00422_wo⟧⟦{点滅|てんめつ}→点滅：17970_tenmetsu⟧⟦させる→する：00392_suru⟧。",
       "english": "Flash the turn signal before turning right.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29981_houkoushijiki_ex3",
-      "japanese": "{道路交通法|どうろこうつうほう}では、{方向指示器|ほうこうしじき}は{曲|ま}がる3{秒|びょう}{前|まえ}に{出|だ}すと{決|き}められている。",
+      "japanese": "{道路交通法|どうろこうつうほう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{方向指示器|ほうこうしじき}⟦は→は：00079_ha⟧⟦{曲|ま}がる→曲がる：00649_magaru⟧3⟦{秒|びょう}→秒：00921_byou⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧⟦と→と：00512_to⟧⟦{決|き}められている→決める：00858_kimeru⟧。",
       "english": "Under the Road Traffic Act, the turn signal must be activated three seconds before turning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The official, technical term; in everyday speech ウィンカー is far more common.\n\nCOMMON COLLOCATIONS:\n- {方向指示器|ほうこうしじき}を{出|だ}す: to signal a turn\n- {方向指示器|ほうこうしじき}を{点|つ}ける: to switch on the turn signal\n- {右|みぎ}／{左|ひだり}の{方向指示器|ほうこうしじき}: the right/left turn signal\n\nSIMILAR WORDS:\n- ウィンカー: the everyday katakana word for the same device\n- ハザードランプ: hazard lights — all indicators flashing together as a warning",
+  "notes": "The official, technical term; in everyday speech ⟦ウィンカー→ウィンカー：06550_winkaa⟧ is far more common.\n\nCOMMON COLLOCATIONS:\n- {方向指示器|ほうこうしじき}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to signal a turn\n- {方向指示器|ほうこうしじき}⟦を→を：00422_wo⟧{点|つ}ける: to switch on the turn signal\n- ⟦{右|みぎ}→右：02257_migi⟧／⟦{左|ひだり}→左：00628_hidari⟧⟦の→の：09472_no⟧{方向指示器|ほうこうしじき}: the right/left turn signal\n\nSIMILAR WORDS:\n- ⟦ウィンカー→ウィンカー：06550_winkaa⟧: the everyday katakana word for the same device\n- ハザード⟦ランプ→ランプ：11260_ranpu⟧: hazard lights — all indicators flashing together as a warning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06550_winkaa",
+      "reading": "うぃんかー",
+      "headword": "ウィンカー",
+      "label": "the everyday katakana word for the same…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

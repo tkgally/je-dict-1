@@ -3,7 +3,7 @@
   "headword": "{誤審|ごしん}",
   "reading": "ごしん",
   "romaji": "goshin",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "misjudgment; bad call (in sports or law)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19183_goshin_ex1",
-      "japanese": "{審判|しんぱん}の{誤審|ごしん}で{試合|しあい}が{荒|あ}れた。",
+      "japanese": "⟦{審判|しんぱん}→審判：03331_shinpan⟧⟦の→の：09472_no⟧{誤審|ごしん}⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧⟦{荒|あ}れた→荒れる：04577_areru⟧。",
       "english": "The referee's bad call threw the game into chaos.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19183_goshin_ex2",
-      "japanese": "あれは{明|あき}らかな{誤審|ごしん}だった。",
+      "japanese": "⟦あれ→あれ：00916_are⟧⟦は→は：00079_ha⟧⟦{明|あき}らか→明らか：02351_akiraka⟧な{誤審|ごしん}だった。",
       "english": "That was clearly a bad call.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19183_goshin_ex3",
-      "japanese": "ビデオ{判定|はんてい}の{導入|どうにゅう}で{誤審|ごしん}が{大幅|おおはば}に{減|へ}った。",
+      "japanese": "⟦ビデオ→ビデオ：01499_bideo⟧⟦{判定|はんてい}→判定：09767_hantei⟧⟦の→の：09472_no⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦で→で：00502_de⟧{誤審|ごしん}⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "The introduction of video review has greatly reduced bad calls.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {誤|ご} (error, mistake) + {審|しん} (judge, examine). Primarily a sports term, used when referees or umpires make incorrect calls. Common collocations: {誤審|ごしん}をする (to make a bad call), {誤審|ごしん}{問題|もんだい} (officiating controversy), {誤審|ごしん}を{認|みと}める (to acknowledge a bad call). Related to the growing use of VAR (ビデオ・アシスタント・レフェリー) in soccer and video {判定|はんてい} (video review) in various sports. Part of the {誤〜|ご〜} prefix family: {誤解|ごかい} (misunderstanding), {誤用|ごよう} (misuse), {誤報|ごほう} (false report).",
+  "notes": "Composed of {誤|ご} (error, mistake) + {審|しん} (judge, examine). Primarily a sports term, used when referees or umpires make incorrect calls. Common collocations: {誤審|ごしん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to make a bad call), {誤審|ごしん}⟦{問題|もんだい}→問題：00797_mondai⟧ (officiating controversy), {誤審|ごしん}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧ (to acknowledge a bad call). Related to the growing use of VAR (⟦ビデオ→ビデオ：01499_bideo⟧・⟦アシスタント→アシスタント：10750_ashisutanto⟧・レフェリー) in soccer and video ⟦{判定|はんてい}→判定：09767_hantei⟧ (video review) in various sports. Part of the {誤〜|ご〜} prefix family: ⟦{誤解|ごかい}→誤解：02769_gokai⟧ (misunderstanding), {誤用|ごよう} (misuse), {誤報|ごほう} (false report).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25743_hanteimisu",
+      "reading": "はんていみす",
+      "headword": "{判定|はんてい}ミス",
+      "label": "judgment error"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26629_gohan",
+      "reading": "ごはん",
+      "headword": "{誤判|ごはん}",
+      "label": "misjudgment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -145,10 +161,13 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation", "sports"],
+      "semantic": [
+        "evaluation",
+        "sports"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-03-24T13:55:12Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

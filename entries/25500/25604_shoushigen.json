@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25604_shoushigen_ex1",
-      "japanese": "{省資源|しょうしげん}に{取|と}り{組|く}む。",
+      "japanese": "{省資源|しょうしげん}⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧。",
       "english": "To work on resource conservation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25604_shoushigen_ex2",
-      "japanese": "{省資源|しょうしげん}のためにリサイクルを{推進|すいしん}している。",
+      "japanese": "{省資源|しょうしげん}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦リサイクル→リサイクル：04624_risaikuru⟧⟦を→を：00422_wo⟧⟦{推進|すいしん}している→推進する：17281_suishinsuru⟧。",
       "english": "We are promoting recycling for the sake of resource conservation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25604_shoushigen_ex3",
-      "japanese": "{企業|きぎょう}は{省資源|しょうしげん}と{省|しょう}エネルギーの{両面|りょうめん}から{環境負荷|かんきょうふか}の{低減|ていげん}に{努|つと}める{必要|ひつよう}がある。",
+      "japanese": "⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦は→は：00079_ha⟧{省資源|しょうしげん}⟦と→と：00512_to⟧⟦{省|しょう}エネルギー→省エネルギー：29550_shouenerugii⟧⟦の→の：09472_no⟧⟦{両面|りょうめん}→両面：11366_ryoumen⟧⟦から→から：00504_kara⟧{環境負荷|かんきょうふか}⟦の→の：09472_no⟧{低減|ていげん}⟦に→に：00314_ni⟧⟦{努|つと}める→努める：17701_tsutomeru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Companies need to work on reducing their environmental impact from both resource conservation and energy saving perspectives.",
       "sense_numbers": [
         1
@@ -44,19 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {省|しょう} (to economize, to save) and {資源|しげん} (resources). Often used in environmental, industrial, and policy contexts. Japan, as a country with limited natural resources, places strong emphasis on {省資源|しょうしげん} in both public policy and corporate practices.\n\nFrequently appears alongside {省|しょう}エネルギー ({省|しょう}エネ for short, energy saving) as part of environmental discourse.\n\nCOMMON COLLOCATIONS:\n- {省資源|しょうしげん}{活動|かつどう}: resource-saving activities\n- {省資源|しょうしげん}{技術|ぎじゅつ}: resource-saving technology\n- {省資源|しょうしげん}{型|がた}: resource-saving type\n- {省資源|しょうしげん}{社会|しゃかい}: resource-conserving society\n\nSIMILAR WORDS:\n- {省|しょう}エネ(ルギー): energy saving — focuses specifically on energy rather than materials\n- リサイクル: recycling — one method of achieving resource conservation\n- {節約|せつやく}: saving, economizing — more general, applies to money, time, and resources",
+  "notes": "A compound of {省|しょう} (to economize, to save) and ⟦{資源|しげん}→資源：03167_shigen⟧ (resources). Often used in environmental, industrial, and policy contexts. Japan, as a country with limited natural resources, places strong emphasis on {省資源|しょうしげん} in both public policy and corporate practices.\n\nFrequently appears alongside ⟦{省|しょう}エネルギー→省エネルギー：29550_shouenerugii⟧ (⟦{省|しょう}エネ→省エネ：06308_shouene⟧ for short, energy saving) as part of environmental discourse.\n\nCOMMON COLLOCATIONS:\n- {省資源|しょうしげん}⟦{活動|かつどう}→活動：00201_katsudou⟧: resource-saving activities\n- {省資源|しょうしげん}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: resource-saving technology\n- {省資源|しょうしげん}{型|がた}: resource-saving type\n- {省資源|しょうしげん}⟦{社会|しゃかい}→社会：01427_shakai⟧: resource-conserving society\n\nSIMILAR WORDS:\n- ⟦{省|しょう}エネ→省エネ：06308_shouene⟧(ルギー): energy saving — focuses specifically on energy rather than materials\n- ⟦リサイクル→リサイクル：04624_risaikuru⟧: recycling — one method of achieving resource conservation\n- ⟦{節約|せつやく}→節約：03302_setsuyaku⟧: saving, economizing — more general, applies to money, time, and resources",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06308_shouene",
+      "reading": "しょうえね",
+      "headword": "{省|しょう}エネ",
+      "label": "energy saving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04624_risaikuru",
+      "reading": "りさいくる",
+      "headword": "リサイクル",
+      "label": "recycling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03302_setsuyaku",
+      "reading": "せつやく",
+      "headword": "{節約|せつやく}",
+      "label": "saving, economizing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature"
       ]
     },
     "created": "2026-04-26T12:37:16Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

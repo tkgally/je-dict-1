@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18929_fuseikai_ex1",
-      "japanese": "{不正解|ふせいかい}！もう{一度|いちど}。",
+      "japanese": "{不正解|ふせいかい}！⟦もう{一度|いちど}→もう一度：02976_mouichido⟧。",
       "english": "Incorrect! Try again.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18929_fuseikai_ex2",
-      "japanese": "{不正解|ふせいかい}が{三|みっ}つもあった。",
+      "japanese": "{不正解|ふせいかい}⟦が→が：00051_ga⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦も→も：00484_mo⟧⟦あった→ある：00006_aru⟧。",
       "english": "There were three wrong answers.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18929_fuseikai_ex3",
-      "japanese": "クイズで{不正解|ふせいかい}だと{罰|ばつ}ゲームをさせられる。",
+      "japanese": "⟦クイズ→クイズ：10804_kuizu⟧⟦で→で：00502_de⟧{不正解|ふせいかい}だ⟦と→と：00512_to⟧⟦{罰|ばつ}→罰：10154_batsu⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦を→を：00422_wo⟧⟦させられる→する：00392_suru⟧。",
       "english": "On the quiz show, if you get a wrong answer, you have to do a punishment game.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{不正解|ふせいかい} is the formal opposite of {正解|せいかい} (correct answer). It is used to explicitly declare an answer wrong.\n\nFORMATION:\n{不|ふ} (non-, un-) + {正解|せいかい} (correct answer).\n\nCOMMON CONTEXTS:\n- TV quiz shows: {不正解|ふせいかい}！ (Wrong!)\n- Educational apps and tests\n- Formal testing environments\n\nSIMILAR WORDS:\n- {間違|まちが}い: mistake (casual, everyday)\n- {誤答|ごとう}: wrong answer (formal, academic testing)\n- {誤|あやま}り: error (general)\n\nUSAGE NOTE:\nIn everyday conversation, people more commonly say {間違|まちが}い or {正解|せいかい}じゃない rather than {不正解|ふせいかい}. The word {不正解|ふせいかい} has a declarative, official tone — like a buzzer going off.",
+  "notes": "{不正解|ふせいかい} is the formal opposite of ⟦{正解|せいかい}→正解：03083_seikai⟧ (correct answer). It is used to explicitly declare an answer wrong.\n\nFORMS:\n{不|ふ} (non-, un-) + ⟦{正解|せいかい}→正解：03083_seikai⟧ (correct answer).\n\nUSAGE:\n- TV quiz shows: {不正解|ふせいかい}！ (Wrong!)\n- Educational apps and tests\n- Formal testing environments\nIn everyday conversation, people more commonly say ⟦{間違|まちが}い→間違い：03733_machigai⟧ or ⟦{正解|せいかい}→正解：03083_seikai⟧⟦じゃない→じゃない：28483_janai⟧ rather than {不正解|ふせいかい}. The word {不正解|ふせいかい} has a declarative, official tone — like a buzzer going off.\n\nSIMILAR WORDS:\n- ⟦{間違|まちが}い→間違い：03733_machigai⟧: mistake (casual, everyday)\n- ⟦{誤答|ごとう}→誤答：17434_gotou⟧: wrong answer (formal, academic testing)\n- ⟦{誤|あやま}り→誤り：01772_ayamari⟧: error (general)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-23T09:31:18Z",
-    "modified": "2026-04-11T01:25:09Z"
+    "modified": "2026-09-02T04:01:54Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,27 @@
       "reading": "せいかい",
       "headword": "{正解|せいかい}",
       "label": "correct answer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03733_machigai",
+      "reading": "まちがい",
+      "headword": "{間違|まちが}い",
+      "label": "mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17434_gotou",
+      "reading": "ごとう",
+      "headword": "{誤答|ごとう}",
+      "label": "wrong answer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01772_ayamari",
+      "reading": "あやまり",
+      "headword": "{誤|あやま}り",
+      "label": "error"
     }
   ]
 }

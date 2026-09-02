@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19785_aburana_ex1",
-      "japanese": "{油菜|あぶらな}の{花|はな}が{咲|さ}いている。",
+      "japanese": "{油菜|あぶらな}⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}いている→咲く：08150_saku⟧。",
       "english": "The rapeseed flowers are blooming.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19785_aburana_ex2",
-      "japanese": "{春|はる}になると、{畑|はたけ}が{油菜|あぶらな}の{黄色|きいろ}で{染|そ}まる。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{畑|はたけ}→畑：00842_hatake⟧⟦が→が：00051_ga⟧{油菜|あぶらな}⟦の→の：09472_no⟧⟦{黄色|きいろ}→黄色：02870_kiiro⟧⟦で→で：00502_de⟧⟦{染|そ}まる→染まる：04254_somaru⟧。",
       "english": "When spring comes, the fields are dyed yellow with rapeseed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19785_aburana_ex3",
-      "japanese": "{油菜|あぶらな}は{食用|しょくよう}としても{栽培|さいばい}され、おひたしや{炒|いた}め{物|もの}にして{食|た}べる。",
+      "japanese": "{油菜|あぶらな}⟦は→は：00079_ha⟧⟦{食用|しょくよう}→食用：25328_shokuyou⟧⟦として→として：06802_toshite⟧⟦も→も：00484_mo⟧⟦{栽培|さいばい}→栽培：13108_saibai⟧⟦され→する：00392_suru⟧、おひたしや⟦{炒|いた}め{物|もの}→炒め物：08537_itamemono⟧にして⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "Rapeseed is also grown as a food crop and eaten as boiled greens or in stir-fries.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'oil vegetable' — named because its seeds are pressed to produce cooking oil ({菜種油|なたねあぶら}). The plant is also known as {菜|な}の{花|はな} (canola flower), especially when referring to the flowers or the plant as a spring symbol.\n\nCULTURAL CONTEXT:\nFields of brilliant yellow {油菜|あぶらな} flowers are a beloved spring sight in Japan. {菜|な}の{花|はな} is a seasonal word ({季語|きご}) for spring in haiku. The plant is also eaten as a vegetable — the young shoots and flower buds are a spring delicacy.\n\nCOMMON COLLOCATIONS:\n- {油菜|あぶらな}の{花|はな} — rapeseed flower\n- {菜種|なたね}{油|あぶら} — rapeseed oil, canola oil\n- {油菜|あぶらな}{畑|ばたけ} — rapeseed field\n\nRELATED TERMS:\n- {菜|な}の{花|はな} — canola flower; the popular name for the flowers and the edible shoots\n- {菜種|なたね} — rapeseed; refers specifically to the seeds\n- {白菜|はくさい} — Chinese cabbage; a related Brassica vegetable",
+  "notes": "Literally 'oil vegetable' — named because its seeds are pressed to produce cooking oil ({菜種油|なたねあぶら}). The plant is also known as ⟦{菜|な}の{花|はな}→菜の花：14042_nanohana⟧ (canola flower), especially when referring to the flowers or the plant as a spring symbol.\n\nCULTURAL NOTE:\nFields of brilliant yellow {油菜|あぶらな} flowers are a beloved spring sight in Japan. ⟦{菜|な}の{花|はな}→菜の花：14042_nanohana⟧ is a seasonal word (⟦{季語|きご}→季語：09561_kigo⟧) for spring in haiku. The plant is also eaten as a vegetable — the young shoots and flower buds are a spring delicacy.\n\nCOMMON COLLOCATIONS:\n- {油菜|あぶらな}⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧ — rapeseed flower\n- ⟦{菜種|なたね}→菜種：24601_natane⟧⟦{油|あぶら}→油：01693_abura⟧ — rapeseed oil, canola oil\n- {油菜|あぶらな}{畑|ばたけ} — rapeseed field\n\nRELATED WORDS:\n- ⟦{菜|な}の{花|はな}→菜の花：14042_nanohana⟧ — canola flower; the popular name for the flowers and the edible shoots\n- ⟦{菜種|なたね}→菜種：24601_natane⟧ — rapeseed; refers specifically to the seeds\n- ⟦{白菜|はくさい}→白菜：13606_hakusai⟧ — Chinese cabbage; a related Brassica vegetable",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14042_nanohana",
+      "reading": "なのはな",
+      "headword": "{菜|な}の{花|はな}",
+      "label": "canola flower"
+    },
+    {
+      "type": "related",
+      "target_id": "24601_natane",
+      "reading": "なたね",
+      "headword": "{菜種|なたね}",
+      "label": "rapeseed"
+    },
+    {
+      "type": "related",
+      "target_id": "13606_hakusai",
+      "reading": "はくさい",
+      "headword": "{白菜|はくさい}",
+      "label": "Chinese cabbage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-26T23:30:03Z",
-    "modified": "2026-07-23T12:19:07Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

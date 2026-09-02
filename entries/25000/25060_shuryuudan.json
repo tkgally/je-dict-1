@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25060_shuryuudan_ex1",
-      "japanese": "{手榴弾|しゅりゅうだん}を{投|な}げる。",
+      "japanese": "{手榴弾|しゅりゅうだん}⟦を→を：00422_wo⟧⟦{投|な}げる→投げる：01135_nageru⟧。",
       "english": "Throw a hand grenade.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "25060_shuryuudan_ex2",
-      "japanese": "{不発|ふはつ}の{手榴弾|しゅりゅうだん}が{工事現場|こうじげんば}で{見|み}つかった。",
+      "japanese": "{不発|ふはつ}⟦の→の：09472_no⟧{手榴弾|しゅりゅうだん}⟦が→が：00051_ga⟧⟦{工事現場|こうじげんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "An unexploded hand grenade was found at a construction site.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "25060_shuryuudan_ex3",
-      "japanese": "{戦争|せんそう}{映画|えいが}では{手榴弾|しゅりゅうだん}のピンを{抜|ぬ}くシーンがよく{描|えが}かれるが、{実際|じっさい}にはもっと{複雑|ふくざつ}な{手順|てじゅん}がある。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{手榴弾|しゅりゅうだん}⟦の→の：09472_no⟧⟦ピン→ピン：00344_pin⟧⟦を→を：00422_wo⟧⟦{抜|ぬ}く→抜く：02384_nuku⟧⟦シーン→シーン：08914_shiin⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{描|えが}かれる→描く：02013_egaku⟧⟦が→が：00051_ga⟧、⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦もっと→もっと：00798_motto⟧⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な⟦{手順|てじゅん}→手順：05452_tejun⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "War movies often depict scenes of pulling the pin on a grenade, but in reality the procedure is more complex.",
       "sense_numbers": [
         1
@@ -43,19 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {手|しゅ} (hand) + {榴弾|りゅうだん} (shrapnel shell). A small explosive weapon designed to be thrown by hand. The word appears frequently in military history, news about unexploded ordnance, and war-themed media.\n\nCOMMON COLLOCATIONS:\n- {手榴弾|しゅりゅうだん}を{投|な}げる: to throw a grenade\n- {手榴弾|しゅりゅうだん}のピンを{抜|ぬ}く: to pull the pin on a grenade\n- {不発|ふはつ}{手榴弾|しゅりゅうだん}: unexploded grenade\n- {手榴弾|しゅりゅうだん}が{爆発|ばくはつ}する: a grenade explodes\n\nREADING NOTE:\nSometimes also read as てりゅうだん, though しゅりゅうだん is the standard reading.\n\nSIMILAR WORDS:\n- {榴弾|りゅうだん}: shrapnel shell, fragmentation round — the larger artillery projectile\n- {爆弾|ばくだん}: bomb — a general term for explosive devices\n- {地雷|じらい}: landmine — an explosive buried in the ground",
+  "notes": "Composed of {手|しゅ} (hand) + {榴弾|りゅうだん} (shrapnel shell). A small explosive weapon designed to be thrown by hand. The word appears frequently in military history, news about unexploded ordnance, and war-themed media.\n\nCOMMON COLLOCATIONS:\n- {手榴弾|しゅりゅうだん}⟦を→を：00422_wo⟧⟦{投|な}げる→投げる：01135_nageru⟧: to throw a grenade\n- {手榴弾|しゅりゅうだん}⟦の→の：09472_no⟧⟦ピン→ピン：00344_pin⟧⟦を→を：00422_wo⟧⟦{抜|ぬ}く→抜く：02384_nuku⟧: to pull the pin on a grenade\n- {不発|ふはつ}{手榴弾|しゅりゅうだん}: unexploded grenade\n- {手榴弾|しゅりゅうだん}⟦が→が：00051_ga⟧⟦{爆発|ばくはつ}→爆発：03575_bakuhatsu⟧⟦する→する：00392_suru⟧: a grenade explodes\n\nPRONUNCIATION:\nSometimes also read as てりゅうだん, though しゅりゅうだん is the standard reading.\n\nSIMILAR WORDS:\n- {榴弾|りゅうだん}: shrapnel shell, fragmentation round — the larger artillery projectile\n- ⟦{爆弾|ばくだん}→爆弾：10117_bakudan⟧: bomb — a general term for explosive devices\n- ⟦{地雷|じらい}→地雷：22476_jirai⟧: landmine — an explosive buried in the ground",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10117_bakudan",
+      "reading": "ばくだん",
+      "headword": "{爆弾|ばくだん}",
+      "label": "bomb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22476_jirai",
+      "reading": "じらい",
+      "headword": "{地雷|じらい}",
+      "label": "landmine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "military"
       ]
     },
     "created": "2026-04-22T12:45:55Z",
-    "modified": "2026-04-22T12:45:55Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

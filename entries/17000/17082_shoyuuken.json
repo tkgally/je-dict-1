@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17082_shoyuuken_ex1",
-      "japanese": "この{土地|とち}の{所有権|しょゆうけん}は{誰|だれ}にあるのか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧{所有権|しょゆうけん}⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧。",
       "english": "Who owns this land?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17082_shoyuuken_ex2",
-      "japanese": "{所有権|しょゆうけん}を{移転|いてん}する{手続|てつづ}きが{必要|ひつよう}だ。",
+      "japanese": "{所有権|しょゆうけん}⟦を→を：00422_wo⟧⟦{移転|いてん}する→移転する：20210_itensuru⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "A procedure to transfer ownership is necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17082_shoyuuken_ex3",
-      "japanese": "{不動産|ふどうさん}の{所有権|しょゆうけん}は{登記|とうき}によって{公示|こうじ}される。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦の→の：09472_no⟧{所有権|しょゆうけん}⟦は→は：00079_ha⟧⟦{登記|とうき}→登記：19798_touki⟧⟦によって→によって：06801_niyotte⟧{公示|こうじ}⟦される→する：00392_suru⟧。",
       "english": "Real estate ownership is made public through registration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA legal term, but also used in everyday contexts when discussing property, cars, and belongings. In Japanese law, {所有権|しょゆうけん} is one of the most fundamental property rights.\n\nCOMMON COLLOCATIONS:\n- {所有権|しょゆうけん}を{持|も}つ (to have ownership)\n- {所有権|しょゆうけん}を{移転|いてん}する (to transfer ownership)\n- {所有権|しょゆうけん}を{主張|しゅちょう}する (to claim ownership)\n- {所有権|しょゆうけん}{放棄|ほうき} (abandonment of ownership)\n\nSIMILAR WORDS:\n- {所有|しょゆう}: ownership, possession — the act or state of owning, without the legal-rights nuance\n- {著作権|ちょさくけん}: copyright — specifically for creative works",
+  "notes": "USAGE:\nA legal term, but also used in everyday contexts when discussing property, cars, and belongings. In Japanese law, {所有権|しょゆうけん} is one of the most fundamental property rights.\n\nCOMMON COLLOCATIONS:\n- {所有権|しょゆうけん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to have ownership)\n- {所有権|しょゆうけん}⟦を→を：00422_wo⟧⟦{移転|いてん}する→移転する：20210_itensuru⟧ (to transfer ownership)\n- {所有権|しょゆうけん}⟦を→を：00422_wo⟧⟦{主張|しゅちょう}する→主張する：25380_shuchousuru⟧ (to claim ownership)\n- {所有権|しょゆうけん}⟦{放棄|ほうき}→放棄：12825_houki⟧ (abandonment of ownership)\n\nSIMILAR WORDS:\n- ⟦{所有|しょゆう}→所有：12752_shoyuu⟧: ownership, possession — the act or state of owning, without the legal-rights nuance\n- ⟦{著作権|ちょさくけん}→著作権：14022_chosakuken⟧: copyright — specifically for creative works",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,32 @@
       "reading": "ちょさくけん",
       "headword": "{著作権|ちょさくけん}",
       "label": "copyright (creative works)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29665_shiyouken",
+      "reading": "しようけん",
+      "headword": "{使用権|しようけん}",
+      "label": "right to use"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:53:32Z",
-    "modified": "2026-05-05T08:12:51Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "17073_zenkan_ex1",
-      "japanese": "あの{漫画|まんが}を{全巻|ぜんかん}{揃|そろ}えた。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{漫画|まんが}→漫画：01511_manga⟧⟦を→を：00422_wo⟧{全巻|ぜんかん}⟦{揃|そろ}えた→揃える：01952_soroeru⟧。",
       "english": "I collected all the volumes of that manga.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17073_zenkan_ex2",
-      "japanese": "{全巻|ぜんかん}セットで{買|か}うと{安|やす}くなる。",
+      "japanese": "{全巻|ぜんかん}⟦セット→セット：03853_setto⟧⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧⟦と→と：00512_to⟧⟦{安|やす}く→安い：00464_yasui⟧⟦なる→なる：01970_naru⟧。",
       "english": "It's cheaper if you buy the complete set.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17073_zenkan_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しのとき、{漫画|まんが}の{全巻|ぜんかん}セットを{段|だん}ボールに{詰|つ}めるのが{大変|たいへん}だった。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧とき、⟦{漫画|まんが}→漫画：01511_manga⟧⟦の→の：09472_no⟧{全巻|ぜんかん}⟦セット→セット：03853_setto⟧⟦を→を：00422_wo⟧⟦{段|だん}ボール→段ボール：18885_danbooru⟧⟦に→に：00314_ni⟧⟦{詰|つ}める→詰める：02078_tsumeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だった。",
       "english": "When moving, it was tough packing the complete manga sets into cardboard boxes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nVery common in manga and book culture. Online retailers frequently offer {全巻|ぜんかん}セット (complete set) deals. Also used for encyclopedias and other multi-volume works.\n\nCOMMON COLLOCATIONS:\n- {全巻|ぜんかん}セット (complete set)\n- {全巻|ぜんかん}{揃|そろ}える (to collect all volumes)\n- {全巻|ぜんかん}{読破|どくは} (reading all volumes through)\n- {全巻|ぜんかん}{無料|むりょう} (all volumes free)\n\nSIMILAR WORDS:\n- {既刊|きかん}: already published volumes — the volumes released so far in an ongoing series\n- {全集|ぜんしゅう}: collected works — a comprehensive collection of an author's writings",
-  "cross_references": [],
+  "notes": "USAGE:\nVery common in manga and book culture. Online retailers frequently offer {全巻|ぜんかん}⟦セット→セット：03853_setto⟧ (complete set) deals. Also used for encyclopedias and other multi-volume works.\n\nCOMMON COLLOCATIONS:\n- {全巻|ぜんかん}⟦セット→セット：03853_setto⟧ (complete set)\n- {全巻|ぜんかん}⟦{揃|そろ}える→揃える：01952_soroeru⟧ (to collect all volumes)\n- {全巻|ぜんかん}⟦{読破|どくは}→読破：19606_dokuha⟧ (reading all volumes through)\n- {全巻|ぜんかん}⟦{無料|むりょう}→無料：01662_muryou⟧ (all volumes free)\n\nSIMILAR WORDS:\n- ⟦{既刊|きかん}→既刊：17885_kikan⟧: already published volumes — the volumes released so far in an ongoing series\n- ⟦{全集|ぜんしゅう}→全集：11783_zenshuu⟧: collected works — a comprehensive collection of an author's writings",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17885_kikan",
+      "reading": "きかん",
+      "headword": "{既刊|きかん}",
+      "label": "already published volumes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11783_zenshuu",
+      "reading": "ぜんしゅう",
+      "headword": "{全集|ぜんしゅう}",
+      "label": "collected works"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T09:50:44Z",
-    "modified": "2026-03-15T09:50:44Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general", "leisure"]
+      "semantic": [
+        "general",
+        "leisure"
+      ]
     }
   }
 }

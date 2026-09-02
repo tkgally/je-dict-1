@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "21439_koukyuuhin_ex1",
-      "japanese": "この{店|みせ}は{高級品|こうきゅうひん}ばかり{扱|あつか}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{高級品|こうきゅうひん}⟦ばかり→〜ばかり：02006_bakari⟧⟦{扱|あつか}っている→扱う：01862_atsukau⟧。",
       "english": "This store deals only in luxury goods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21439_koukyuuhin_ex2",
-      "japanese": "{高級品|こうきゅうひん}だからといって{必|かなら}ずしも{質|しつ}がいいわけではない。",
+      "japanese": "{高級品|こうきゅうひん}だ⟦からといって→からといって：30623_karatoitte⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧しも⟦{質|しつ}→質：01425_shitsu⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧わけ⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Just because something is a luxury item doesn't necessarily mean it's high quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21439_koukyuuhin_ex3",
-      "japanese": "{円安|えんやす}の{影響|えいきょう}で、{海外|かいがい}からの{観光客|かんこうきゃく}が{高級品|こうきゅうひん}を{大量|たいりょう}に{購入|こうにゅう}している。",
+      "japanese": "⟦{円安|えんやす}→円安：04854_enyasu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧、⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧{高級品|こうきゅうひん}⟦を→を：00422_wo⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦に→に：00314_ni⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦している→する：00392_suru⟧。",
       "english": "Due to the weak yen, tourists from overseas are buying luxury goods in large quantities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {高級|こうきゅう} (high-class, luxury) and {品|ひん} (goods, item). A straightforward term that covers any premium product, from fashion and watches to food and electronics.\n\nCOMMON COLLOCATIONS:\n- {高級品|こうきゅうひん}を{買|か}う: to buy luxury goods\n- {高級品|こうきゅうひん}{市場|しじょう}: luxury goods market\n- {高級品|こうきゅうひん}ブランド: luxury brand\n- {高級品|こうきゅうひん}{志向|しこう}: preference for luxury goods\n\nSIMILAR WORDS:\n- {贅沢品|ぜいたくひん}: luxury item — emphasizes extravagance, can carry a slightly negative nuance of wastefulness\n- {高級|こうきゅう}: high-class, luxury — the adjective/noun form without {品|ひん}\n- {一流品|いちりゅうひん}: first-class product — emphasizes top-tier quality",
+  "notes": "A compound of ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧ (high-class, luxury) and ⟦{品|ひん}→品：03712_hin⟧ (goods, item). A straightforward term that covers any premium product, from fashion and watches to food and electronics.\n\nCOMMON COLLOCATIONS:\n- {高級品|こうきゅうひん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy luxury goods\n- {高級品|こうきゅうひん}⟦{市場|しじょう}→市場：09685_shijou⟧: luxury goods market\n- {高級品|こうきゅうひん}⟦ブランド→ブランド：05221_burando⟧: luxury brand\n- {高級品|こうきゅうひん}⟦{志向|しこう}→志向：12607_shikou⟧: preference for luxury goods\n\nSIMILAR WORDS:\n- ⟦{贅沢品|ぜいたくひん}→贅沢品：17009_zeitakuhin⟧: luxury item — emphasizes extravagance, can carry a slightly negative nuance of wastefulness\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧: high-class, luxury — the adjective/noun form without ⟦{品|ひん}→品：03712_hin⟧\n- {一流品|いちりゅうひん}: first-class product — emphasizes top-tier quality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17009_zeitakuhin",
+      "reading": "ぜいたくひん",
+      "headword": "{贅沢品|ぜいたくひん}",
+      "label": "luxury item"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping", "business"]
+      "semantic": [
+        "shopping",
+        "business"
+      ]
     },
     "created": "2026-04-02T03:24:38Z",
-    "modified": "2026-04-02T03:24:38Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

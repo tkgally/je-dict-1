@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28079_shouwa_ex1",
-      "japanese": "{昭和|しょうわ}{生|う}まれです。",
+      "japanese": "{昭和|しょうわ}⟦{生|う}まれ→生まれ：01867_umare⟧です。",
       "english": "I was born in the Showa era.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28079_shouwa_ex2",
-      "japanese": "{祖父|そふ}は{昭和|しょうわ}の{時代|じだい}を{生|い}きた。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{昭和|しょうわ}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧⟦{生|い}きた→生きる：01184_ikiru⟧。",
       "english": "My grandfather lived through the Showa era.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28079_shouwa_ex3",
-      "japanese": "この{町並|まちな}みには、{今|いま}でも{昭和|しょうわ}の{雰囲気|ふんいき}が{色濃|いろこ}く{残|のこ}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町並|まちな}み→町並み：10435_machinami⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{昭和|しょうわ}⟦の→の：09472_no⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧{色濃|いろこ}く⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "This townscape still retains a strong Showa-era atmosphere even today.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The {元号|げんごう} (Japanese era name) for 1926–1989, the reign of Emperor {昭和|しょうわ}. Years within the era are counted from one, so {昭和|しょうわ}{元年|がんねん} is 1926.\n\nFIGURATIVE USE:\nColloquially, {昭和|しょうわ} describes things that feel old-fashioned or nostalgically retro:\n- {昭和|しょうわ}っぽい: has a retro, old-school feel\n- {昭和|しょうわ}の{香|かお}り: a nostalgic, bygone atmosphere\n\nRELATED ERAS:\n- {明治|めいじ}: Meiji (1868–1912)\n- {平成|へいせい}: Heisei (1989–2019)\n- {令和|れいわ}: Reiwa (2019–present)",
+  "notes": "The ⟦{元号|げんごう}→元号：16318_gengou⟧ (Japanese era name) for 1926–1989, the reign of Emperor {昭和|しょうわ}. Years within the era are counted from one, so {昭和|しょうわ}⟦{元年|がんねん}→元年：11658_gannen⟧ is 1926.\n\nUSAGE:\nColloquially, {昭和|しょうわ} describes things that feel old-fashioned or nostalgically retro:\n- {昭和|しょうわ}⟦っぽい→っぽい：06781_ppoi⟧: has a retro, old-school feel\n- {昭和|しょうわ}⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧: a nostalgic, bygone atmosphere\n\nRELATED ERAS:\n- ⟦{明治|めいじ}→明治：19860_meiji⟧: Meiji (1868–1912)\n- ⟦{平成|へいせい}→平成：11180_heisei⟧: Heisei (1989–2019)\n- ⟦{令和|れいわ}→令和：11181_reiwa⟧: Reiwa (2019–present)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19860_meiji",
+      "reading": "めいじ",
+      "headword": "{明治|めいじ}",
+      "label": "Meiji"
+    },
+    {
+      "type": "related",
+      "target_id": "11180_heisei",
+      "reading": "へいせい",
+      "headword": "{平成|へいせい}",
+      "label": "Heisei"
+    },
+    {
+      "type": "related",
+      "target_id": "11181_reiwa",
+      "reading": "れいわ",
+      "headword": "{令和|れいわ}",
+      "label": "Reiwa"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-period",
         "history"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-05-25T03:05:12Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

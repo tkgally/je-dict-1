@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28272_migiashi_ex1",
-      "japanese": "{右足|みぎあし}をけがした。",
+      "japanese": "{右足|みぎあし}⟦を→を：00422_wo⟧⟦けがした→けがする：01632_kegasuru⟧。",
       "english": "I injured my right leg.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28272_migiashi_ex2",
-      "japanese": "{右足|みぎあし}でボールを{蹴|け}った。",
+      "japanese": "{右足|みぎあし}⟦で→で：00502_de⟧⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧⟦{蹴|け}った→蹴る：02054_keru⟧。",
       "english": "I kicked the ball with my right foot.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28272_migiashi_ex3",
-      "japanese": "{転|ころ}んで{右足|みぎあし}の{足首|あしくび}を{捻挫|ねんざ}してしまい、{一週間|いっしゅうかん}{松葉杖|まつばづえ}{生活|せいかつ}になった。",
+      "japanese": "⟦{転|ころ}んで→転ぶ：00863_korobu⟧{右足|みぎあし}⟦の→の：09472_no⟧⟦{足首|あしくび}→足首：00918_ashikubi⟧⟦を→を：00422_wo⟧⟦{捻挫|ねんざ}→捻挫：05016_nenza⟧⟦して→する：00392_suru⟧しまい、⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧{松葉杖|まつばづえ}⟦{生活|せいかつ}→生活：01443_seikatsu⟧になった。",
       "english": "I fell and sprained my right ankle, ending up on crutches for a week.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {右|みぎ} (right) + {足|あし} (foot/leg). Like {足|あし}, can mean either the foot only or the whole leg.\n\nCOMMON COLLOCATIONS:\n- {右足|みぎあし}でける: to kick with the right foot\n- {右足|みぎあし}を{出|だ}す: to put the right foot forward; to take a step\n- {右足|みぎあし}を{骨折|こっせつ}する: to break one's right leg\n- {右足|みぎあし}{首|くび}: right ankle\n\nSIMILAR WORDS:\n- {左足|ひだりあし}: left foot/leg — the symmetric counterpart\n- {右脚|みぎあし}: written with {脚|あし} to specifically mean the leg (not foot)\n- {利|き}き{足|あし}: dominant foot",
+  "notes": "Compound of ⟦{右|みぎ}→右：02257_migi⟧ (right) + ⟦{足|あし}→足：00575_ashi⟧ (foot/leg). Like ⟦{足|あし}→足：00575_ashi⟧, can mean either the foot only or the whole leg.\n\nCOMMON COLLOCATIONS:\n- {右足|みぎあし}でける: to kick with the right foot\n- {右足|みぎあし}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to put the right foot forward; to take a step\n- {右足|みぎあし}⟦を→を：00422_wo⟧⟦{骨折|こっせつ}→骨折：02763_kossetsu⟧⟦する→する：00392_suru⟧: to break one's right leg\n- {右足|みぎあし}{首|くび}: right ankle\n\nSIMILAR WORDS:\n- ⟦{左足|ひだりあし}→左足：27500_hidariashi⟧: left foot/leg — the symmetric counterpart\n- {右脚|みぎあし}: written with ⟦{脚|あし}→脚：28733_ashi⟧ to specifically mean the leg (not foot)\n- {利|き}き{足|あし}: dominant foot",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27500_hidariashi",
+      "reading": "ひだりあし",
+      "headword": "{左足|ひだりあし}",
+      "label": "left foot/leg"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-part"
       ],
       "domain": []
     },
     "created": "2026-05-28T03:07:22Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14146_iimawashi_ex1",
-      "japanese": "もう{少|すこ}し{丁寧|ていねい}な{言|い}い{回|まわ}しにしよう。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧な{言|い}い{回|まわ}し⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's use a more polite phrasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14146_iimawashi_ex2",
-      "japanese": "{日本語|にほんご}には{独特|どくとく}の{言|い}い{回|まわ}しが{多|おお}い。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{独特|どくとく}→独特：01656_dokutoku⟧⟦の→の：09472_no⟧{言|い}い{回|まわ}し⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Japanese has many unique expressions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14146_iimawashi_ex3",
-      "japanese": "その{言|い}い{回|まわ}しだと{誤解|ごかい}を{招|まね}くかもしれないから、{別|べつ}の{表現|ひょうげん}に{変|か}えたほうがいい。",
+      "japanese": "⟦その→その：00993_sono⟧{言|い}い{回|まわ}しだ⟦と→と：00512_to⟧⟦{誤解|ごかい}→誤解：02769_gokai⟧⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧⟦から→から：00504_kara⟧、⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦に→に：00314_ni⟧⟦{変|か}えた→変える：01089_kaeru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "That phrasing might cause a misunderstanding, so it would be better to change to a different expression.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{言|い}い{回|まわ}し focuses on how something is said rather than what is said. It is similar to {表現|ひょうげん} (expression) but more specifically about the wording and phrasing choices. Often discussed in the context of politeness levels, avoiding offense, or improving writing.\n\nCOMMON COLLOCATIONS:\n- {丁寧|ていねい}な{言|い}い{回|まわ}し: polite phrasing\n- {独特|どくとく}の{言|い}い{回|まわ}し: unique expression\n- {回|まわ}りくどい{言|い}い{回|まわ}し: roundabout expression\n- {言|い}い{回|まわ}しを{変|か}える: to change the wording\n- ビジネスの{言|い}い{回|まわ}し: business expressions",
+  "notes": "USAGE:\n{言|い}い{回|まわ}し focuses on how something is said rather than what is said. It is similar to ⟦{表現|ひょうげん}→表現：03584_hyougen⟧ (expression) but more specifically about the wording and phrasing choices. Often discussed in the context of politeness levels, avoiding offense, or improving writing.\n\nCOMMON COLLOCATIONS:\n- ⟦{丁寧|ていねい}→丁寧：00896_teinei⟧な{言|い}い{回|まわ}し: polite phrasing\n- ⟦{独特|どくとく}→独特：01656_dokutoku⟧⟦の→の：09472_no⟧{言|い}い{回|まわ}し: unique expression\n- ⟦{回|まわ}りくどい→回りくどい：18205_mawarikudoi⟧{言|い}い{回|まわ}し: roundabout expression\n- {言|い}い{回|まわ}し⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧: to change the wording\n- ⟦ビジネス→ビジネス：11162_bijinesu⟧⟦の→の：09472_no⟧{言|い}い{回|まわ}し: business expressions",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,43 @@
       "reading": "ひょうげん",
       "headword": "{表現|ひょうげん}",
       "label": "expression (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19999_fureezu",
+      "reading": "ふれーず",
+      "headword": "フレーズ",
+      "label": "phrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20999_iikae",
+      "reading": "いいかえ",
+      "headword": "{言|い}い{換|か}え",
+      "label": "paraphrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21171_gohou",
+      "reading": "ごほう",
+      "headword": "{語法|ごほう}",
+      "label": "diction"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:22:29Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

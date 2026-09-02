@@ -3,7 +3,7 @@
   "headword": "{飲|の}み{尽|つ}くす",
   "reading": "のみつくす",
   "romaji": "nomitsukusu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to drink up; to drink it all",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28240_nomitsukusu_ex1",
-      "japanese": "ビールを{飲|の}み{尽|つ}くした。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧{飲|の}み{尽|つ}くした。",
       "english": "We drank up all the beer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28240_nomitsukusu_ex2",
-      "japanese": "{彼|かれ}らは{店|みせ}のワインを{飲|の}み{尽|つ}くした。",
+      "japanese": "⟦{彼|かれ}ら→彼ら：01802_karera⟧⟦は→は：00079_ha⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦ワイン→ワイン：01067_wain⟧⟦を→を：00422_wo⟧{飲|の}み{尽|つ}くした。",
       "english": "They drank the bar's wine dry.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28240_nomitsukusu_ex3",
-      "japanese": "{祝|いわ}いの{席|せき}で、{用意|ようい}した{酒|さけ}をみんなで{飲|の}み{尽|つ}くした。",
+      "japanese": "⟦{祝|いわ}い→祝い：01838_iwai⟧⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧⟦で→で：00502_de⟧、⟦{用意|ようい}した→用意する：22428_youisuru⟧⟦{酒|さけ}→酒：02211_sake⟧⟦を→を：00422_wo⟧⟦みんな→みんな：02972_minna⟧⟦で→で：00502_de⟧{飲|の}み{尽|つ}くした。",
       "english": "At the celebration, everyone drank up all the sake that had been prepared.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n- Transitive ({他動詞|たどうし}): Xを{飲|の}み{尽|つ}くす.\n\nCompound of {飲|の}む (to drink) + {尽|つ}くす (to do exhaustively, use up).\n\nCOMMON PATTERNS:\n- {酒|さけ}を{飲|の}み{尽|つ}くす: to drink up all the alcohol\n- {一滴|いってき}{残|のこ}らず{飲|の}み{尽|つ}くす: to drink up to the last drop\n\nSIMILAR WORDS:\n- {飲|の}み{干|ほ}す: to drink down; to drain — emptying a single container in one go, often a glass\n- {使|つか}い{尽|つ}くす: to use up completely — the same {尽|つ}くす pattern with a different base verb",
+  "notes": "TRANSITIVITY:\n- Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): X⟦を→を：00422_wo⟧{飲|の}み{尽|つ}くす.\n\nCompound of ⟦{飲|の}む→飲む：00322_nomu⟧ (to drink) + ⟦{尽|つ}くす→尽くす：02077_tsukusu⟧ (to do exhaustively, use up).\n\nCOMMON PATTERNS:\n- ⟦{酒|さけ}→酒：02211_sake⟧⟦を→を：00422_wo⟧{飲|の}み{尽|つ}くす: to drink up all the alcohol\n- ⟦{一滴|いってき}→一滴：08893_itteki⟧⟦{残|のこ}ら→残る：01187_nokoru⟧ず{飲|の}み{尽|つ}くす: to drink up to the last drop\n\nSIMILAR WORDS:\n- ⟦{飲|の}み{干|ほ}す→飲み干す：21473_nomihosu⟧: to drink down; to drain — emptying a single container in one go, often a glass\n- ⟦{使|つか}い{尽|つ}くす→使い尽くす：27813_tsukaitsukusu⟧: to use up completely — the same ⟦{尽|つ}くす→尽くす：02077_tsukusu⟧ pattern with a different base verb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21473_nomihosu",
+      "reading": "のみほす",
+      "headword": "{飲|の}み{干|ほ}す",
+      "label": "to drink down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27813_tsukaitsukusu",
+      "reading": "つかいつくす",
+      "headword": "{使|つか}い{尽|つ}くす",
+      "label": "to use up completely"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "godan",

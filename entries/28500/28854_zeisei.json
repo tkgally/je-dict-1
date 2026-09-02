@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28854_zeisei_ex1",
-      "japanese": "{税制|ぜいせい}が{変|か}わった。",
+      "japanese": "{税制|ぜいせい}⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "The tax system has changed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28854_zeisei_ex2",
-      "japanese": "{政府|せいふ}は{税制|ぜいせい}{改革|かいかく}を{進|すす}めている。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{税制|ぜいせい}⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧⟦{進|すす}めている→進める：01949_susumeru⟧。",
       "english": "The government is pushing forward with tax-system reform.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28854_zeisei_ex3",
-      "japanese": "{中小企業|ちゅうしょうきぎょう}にとって{有利|ゆうり}な{税制|ぜいせい}が{導入|どうにゅう}される{予定|よてい}だ。",
+      "japanese": "⟦{中小企業|ちゅうしょうきぎょう}→中小企業：24117_chuushoukigyou⟧⟦にとって→にとって：06803_nitotte⟧⟦{有利|ゆうり}→有利：03651_yuuri⟧な{税制|ぜいせい}⟦が→が：00051_ga⟧⟦{導入|どうにゅう}される→導入する：16055_dounyuusuru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "A tax scheme favorable to small and medium enterprises is scheduled to be introduced.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {税|ぜい} (tax) + {制|せい} (system). Refers to the structural side of taxation — the rules and design — rather than tax amounts or individual tax payments.\n\nCOMMON COLLOCATIONS:\n- {税制|ぜいせい}{改革|かいかく}: tax reform\n- {税制|ぜいせい}{改正|かいせい}: tax-code amendment\n- {税制|ぜいせい}{優遇|ゆうぐう}: preferential tax treatment\n- {現行|げんこう}{税制|ぜいせい}: the current tax system\n- {税制|ぜいせい}{調査会|ちょうさかい}: Tax Commission (advisory body)\n\nSIMILAR WORDS:\n- {税金|ぜいきん}: tax — the money paid, not the system\n- {租税|そぜい}: taxes — formal/legal term\n- {財政|ざいせい}: public finance — broader; includes spending as well as taxation",
+  "notes": "Compound of ⟦{税|ぜい}→税：03767_zei⟧ (tax) + ⟦{制|せい}→〜制：30791_sei⟧ (system). Refers to the structural side of taxation — the rules and design — rather than tax amounts or individual tax payments.\n\nCOMMON COLLOCATIONS:\n- {税制|ぜいせい}⟦{改革|かいかく}→改革：04815_kaikaku⟧: tax reform\n- {税制|ぜいせい}{改正|かいせい}: tax-code amendment\n- {税制|ぜいせい}{優遇|ゆうぐう}: preferential tax treatment\n- ⟦{現行|げんこう}→現行：13503_genkou⟧{税制|ぜいせい}: the current tax system\n- {税制|ぜいせい}{調査会|ちょうさかい}: Tax Commission (advisory body)\n\nSIMILAR WORDS:\n- ⟦{税金|ぜいきん}→税金：03308_zeikin⟧: tax — the money paid, not the system\n- {租税|そぜい}: taxes — formal/legal term\n- ⟦{財政|ざいせい}→財政：05757_zaisei⟧: public finance — broader; includes spending as well as taxation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03308_zeikin",
+      "reading": "ぜいきん",
+      "headword": "{税金|ぜいきん}",
+      "label": "tax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05757_zaisei",
+      "reading": "ざいせい",
+      "headword": "{財政|ざいせい}",
+      "label": "public finance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26281_zaiseiseisaku",
+      "reading": "ざいせいせいさく",
+      "headword": "{財政政策|ざいせいせいさく}",
+      "label": "fiscal policy"
+    },
+    {
+      "type": "related",
+      "target_id": "27440_zeihou",
+      "reading": "ぜいほう",
+      "headword": "{税法|ぜいほう}",
+      "label": "tax law"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "economics",
         "politics"
@@ -61,6 +91,6 @@
       "domain": []
     },
     "created": "2026-06-06T03:11:49Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

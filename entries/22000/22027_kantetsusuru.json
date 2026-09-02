@@ -3,7 +3,7 @@
   "headword": "{貫徹|かんてつ}する",
   "reading": "かんてつする",
   "romaji": "kantetsusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to carry out thoroughly; to see through to the end",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22027_kantetsusuru_ex1",
-      "japanese": "{意志|いし}を{貫徹|かんてつ}する。",
+      "japanese": "⟦{意志|いし}→意志：01712_ishi⟧⟦を→を：00422_wo⟧{貫徹|かんてつ}する。",
       "english": "To carry out one's will.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22027_kantetsusuru_ex2",
-      "japanese": "{最後|さいご}まで{方針|ほうしん}を{貫徹|かんてつ}した。",
+      "japanese": "⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦を→を：00422_wo⟧{貫徹|かんてつ}した。",
       "english": "I saw the policy through to the very end.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22027_kantetsusuru_ex3",
-      "japanese": "{困難|こんなん}に{直面|ちょくめん}しても、{自分|じぶん}の{信念|しんねん}を{貫徹|かんてつ}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧⟦{直面|ちょくめん}して→直面する：15862_chokumensuru⟧⟦も→も：00484_mo⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{信念|しんねん}→信念：03074_shinnen⟧⟦を→を：00422_wo⟧{貫徹|かんてつ}すること⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Even when facing difficulties, it is important to see your beliefs through to the end.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Describes the act of carrying something out completely and thoroughly without wavering. Emphasizes determination and persistence through the entire process.\n\nCOMMON COLLOCATIONS:\n- {意志|いし}を{貫徹|かんてつ}する: to carry out one's will\n- {方針|ほうしん}を{貫徹|かんてつ}する: to see a policy through\n- {信念|しんねん}を{貫徹|かんてつ}する: to hold firm to one's beliefs\n- {目的|もくてき}を{貫徹|かんてつ}する: to accomplish one's objective\n\nSIMILAR WORDS:\n- {貫|つらぬ}く: to pierce through / to stick to — focuses on the act of persisting, less formal\n- {遂行|すいこう}する: to carry out / to execute — focuses on completing a task or duty, more bureaucratic\n- {徹底|てってい}する: to be thorough — emphasizes thoroughness rather than seeing something through from start to finish\n\nREGISTER:\nSomewhat formal. Common in written language, speeches, and news reporting. In everyday conversation, {貫|つらぬ}く or {最後|さいご}までやる are more natural.",
+  "notes": "Describes the act of carrying something out completely and thoroughly without wavering. Emphasizes determination and persistence through the entire process.\n\nCOMMON COLLOCATIONS:\n- ⟦{意志|いし}→意志：01712_ishi⟧⟦を→を：00422_wo⟧{貫徹|かんてつ}する: to carry out one's will\n- ⟦{方針|ほうしん}→方針：04871_houshin⟧⟦を→を：00422_wo⟧{貫徹|かんてつ}する: to see a policy through\n- ⟦{信念|しんねん}→信念：03074_shinnen⟧⟦を→を：00422_wo⟧{貫徹|かんてつ}する: to hold firm to one's beliefs\n- ⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦を→を：00422_wo⟧{貫徹|かんてつ}する: to accomplish one's objective\n\nSIMILAR WORDS:\n- ⟦{貫|つらぬ}く→貫く：18728_tsuranuku⟧: to pierce through / to stick to — focuses on the act of persisting, less formal\n- ⟦{遂行|すいこう}する→遂行する：20156_suikousuru⟧: to carry out / to execute — focuses on completing a task or duty, more bureaucratic\n- ⟦{徹底|てってい}する→徹底する：21452_tetteisuru⟧: to be thorough — emphasizes thoroughness rather than seeing something through from start to finish\n\nREGISTER:\nSomewhat formal. Common in written language, speeches, and news reporting. In everyday conversation, ⟦{貫|つらぬ}く→貫く：18728_tsuranuku⟧ or ⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦やる→やる：02980_yaru⟧ are more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18728_tsuranuku",
+      "reading": "つらぬく",
+      "headword": "{貫|つらぬ}く",
+      "label": "to pierce through / to stick to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20156_suikousuru",
+      "reading": "すいこうする",
+      "headword": "{遂行|すいこう}する",
+      "label": "to carry out / to execute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21452_tetteisuru",
+      "reading": "てっていする",
+      "headword": "{徹底|てってい}する",
+      "label": "to be thorough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22028_tsuranukitoosu",
+      "reading": "つらぬきとおす",
+      "headword": "{貫|つらぬ}き{通|とお}す",
+      "label": "to persist with"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +87,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-04T21:09:15Z",
-    "modified": "2026-04-04T21:09:15Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

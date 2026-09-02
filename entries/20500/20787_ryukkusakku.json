@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20787_ryukkusakku_ex1",
-      "japanese": "リュックサックを{背負|せお}う。",
+      "japanese": "リュックサック⟦を→を：00422_wo⟧⟦{背負|せお}う→背負う：16159_seou⟧。",
       "english": "To carry a backpack on one's back.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20787_ryukkusakku_ex2",
-      "japanese": "{旅行|りょこう}にはリュックサックが{便利|べんり}だ。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧リュックサック⟦が→が：00051_ga⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "A backpack is convenient for travel.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20787_ryukkusakku_ex3",
-      "japanese": "{新|あたら}しいリュックサックを{買|か}って{登山|とざん}に{出|で}かけた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧リュックサック⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧⟦{登山|とざん}→登山：03457_tozan⟧⟦に→に：00314_ni⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "I bought a new backpack and went mountain climbing.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from German \"Rucksack.\" In everyday Japanese, often abbreviated to リュック.\n\nCOMMON COLLOCATIONS:\n- リュックサックを{背負|せお}う: to carry a backpack\n- リュックサックを{担|かつ}ぐ: to shoulder a backpack\n- リュックサックに{詰|つ}める: to pack into a backpack\n- {防水|ぼうすい}リュックサック: waterproof backpack\n\nSIMILAR WORDS:\n- リュック: abbreviated form — the most common way to say \"backpack\" in casual speech\n- バックパック: backpack — from English, also used\n- ナップサック: knapsack — a simpler, lighter drawstring bag\n- ランドセル: school satchel — the rigid backpack used by elementary school students\n\nNOTE:\nIn casual conversation, リュック is far more common than the full form リュックサック. The full form sounds slightly more formal or is used when precision is needed.",
+  "notes": "A loanword from German \"Rucksack.\" In everyday Japanese, often abbreviated to ⟦リュック→リュック：04541_ryukku⟧.\n\nCOMMON COLLOCATIONS:\n- リュックサック⟦を→を：00422_wo⟧⟦{背負|せお}う→背負う：16159_seou⟧: to carry a backpack\n- リュックサック⟦を→を：00422_wo⟧⟦{担|かつ}ぐ→担ぐ：03917_katsugu⟧: to shoulder a backpack\n- リュックサック⟦に→に：00314_ni⟧⟦{詰|つ}める→詰める：02078_tsumeru⟧: to pack into a backpack\n- ⟦{防水|ぼうすい}→防水：06428_bousui⟧リュックサック: waterproof backpack\n\nSIMILAR WORDS:\n- ⟦リュック→リュック：04541_ryukku⟧: abbreviated form — the most common way to say \"backpack\" in casual speech\n- ⟦バックパック→バックパック：24193_bakkupakku⟧: backpack — from English, also used\n- ナップサック: knapsack — a simpler, lighter drawstring bag\n- ⟦ランドセル→ランドセル：11191_randoseru⟧: school satchel — the rigid backpack used by elementary school students\n\nUSAGE:\nIn casual conversation, ⟦リュック→リュック：04541_ryukku⟧ is far more common than the full form リュックサック. The full form sounds slightly more formal or is used when precision is needed.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04541_ryukku",
+      "reading": "りゅっく",
+      "headword": "リュック",
+      "label": "abbreviated form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24193_bakkupakku",
+      "reading": "ばっくぱっく",
+      "headword": "バックパック",
+      "label": "backpack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11191_randoseru",
+      "reading": "らんどせる",
+      "headword": "ランドセル",
+      "label": "school satchel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T16:12:06Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

@@ -3,8 +3,24 @@
   "id": "21921_reizokusuru",
   "headword": "{隷属|れいぞく}する",
   "reading": "れいぞくする",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to be subservient to; to be enslaved; to be in servitude",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25304_juuzoku",
+      "reading": "じゅうぞく",
+      "headword": "{従属|じゅうぞく}",
+      "label": "to be subordinate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15351_fukujuu",
+      "reading": "ふくじゅう",
+      "headword": "{服従|ふくじゅう}",
+      "label": "to obey, to submit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,6 +28,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "politics",
         "relationship"
@@ -19,9 +36,9 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T21:30:58Z",
-    "modified": "2026-04-03T21:30:58Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A strong, formal word describing a state of subjugation, servitude, or slavery. Always carries a strongly negative connotation, implying the loss of freedom and dignity. Used in historical, political, philosophical, and social commentary contexts. Can also be used metaphorically about being enslaved by abstract things like money, technology, or power.\n\nCOMMON COLLOCATIONS:\n- ～に{隷属|れいぞく}する: to be subservient to ~\n- {隷属|れいぞく}{状態|じょうたい}: state of servitude\n- {隷属|れいぞく}{関係|かんけい}: relationship of subservience\n- {隷属|れいぞく}から{解放|かいほう}される: to be liberated from servitude\n- {隷属|れいぞく}を{強|し}いる: to impose servitude\n\nSIMILAR WORDS:\n- {従属|じゅうぞく}する: to be subordinate — less harsh; describes a hierarchical relationship without implying oppression\n- {服従|ふくじゅう}する: to obey, to submit — focuses on the act of following orders\n- {支配|しはい}される: to be ruled, to be dominated — describes being under someone's control\n\nETYMOLOGY:\nComposed of {隷|れい} (slave, servant) + {属|ぞく} (belong to). The first character originally referred to a class of servants or slaves.",
+  "notes": "A strong, formal word describing a state of subjugation, servitude, or slavery. Always carries a strongly negative connotation, implying the loss of freedom and dignity. Used in historical, political, philosophical, and social commentary contexts. Can also be used metaphorically about being enslaved by abstract things like money, technology, or power.\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{隷属|れいぞく}する: to be subservient to ~\n- ⟦{隷属|れいぞく}→隷属：20868_reizoku⟧⟦{状態|じょうたい}→状態：03345_joutai⟧: state of servitude\n- ⟦{隷属|れいぞく}→隷属：20868_reizoku⟧⟦{関係|かんけい}→関係：01298_kankei⟧: relationship of subservience\n- ⟦{隷属|れいぞく}→隷属：20868_reizoku⟧⟦から→から：00504_kara⟧⟦{解放|かいほう}される→解放する：22170_kaihousuru⟧: to be liberated from servitude\n- ⟦{隷属|れいぞく}→隷属：20868_reizoku⟧⟦を→を：00422_wo⟧⟦{強|し}いる→強いる：15604_shiiru⟧: to impose servitude\n\nSIMILAR WORDS:\n- ⟦{従属|じゅうぞく}→従属：25304_juuzoku⟧⟦する→する：00392_suru⟧: to be subordinate — less harsh; describes a hierarchical relationship without implying oppression\n- ⟦{服従|ふくじゅう}→服従：15351_fukujuu⟧⟦する→する：00392_suru⟧: to obey, to submit — focuses on the act of following orders\n- ⟦{支配|しはい}される→支配する：25222_shihaisuru⟧: to be ruled, to be dominated — describes being under someone's control\n\nETYMOLOGY:\nComposed of {隷|れい} (slave, servant) + {属|ぞく} (belong to). The first character originally referred to a class of servants or slaves.",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -122,7 +139,7 @@
   "examples": [
     {
       "id": "21921_reizokusuru_ex1",
-      "japanese": "{権力|けんりょく}に{隷属|れいぞく}する。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦に→に：00314_ni⟧{隷属|れいぞく}する。",
       "english": "To be subservient to power.",
       "sense_numbers": [
         1
@@ -132,7 +149,7 @@
     },
     {
       "id": "21921_reizokusuru_ex2",
-      "japanese": "{植民地|しょくみんち}の{人々|ひとびと}は{長|なが}い{間|あいだ}{隷属|れいぞく}{状態|じょうたい}に{置|お}かれた。",
+      "japanese": "⟦{植民地|しょくみんち}→植民地：16073_shokuminchi⟧⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{間|あいだ}→間：00914_aida⟧⟦{隷属|れいぞく}→隷属：20868_reizoku⟧⟦{状態|じょうたい}→状態：03345_joutai⟧⟦に→に：00314_ni⟧⟦{置|お}かれた→置く：01092_oku⟧。",
       "english": "The people of the colony were kept in a state of servitude for a long time.",
       "sense_numbers": [
         1
@@ -142,7 +159,7 @@
     },
     {
       "id": "21921_reizokusuru_ex3",
-      "japanese": "{誰|だれ}にも{隷属|れいぞく}せず、{自由|じゆう}に{生|い}きたい。",
+      "japanese": "⟦{誰|だれ}→誰：00534_dare⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{隷属|れいぞく}せず、⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦に→に：00314_ni⟧⟦{生|い}きたい→生きる：01184_ikiru⟧。",
       "english": "I want to live freely, subservient to no one.",
       "sense_numbers": [
         1
@@ -152,7 +169,7 @@
     },
     {
       "id": "21921_reizokusuru_ex4",
-      "japanese": "{技術|ぎじゅつ}に{隷属|れいぞく}するのではなく、{技術|ぎじゅつ}を{使|つか}いこなすべきだ。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦に→に：00314_ni⟧{隷属|れいぞく}する⟦の→の：09472_no⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{使|つか}いこなす→使いこなす：07179_tsukaikonasu⟧べきだ。",
       "english": "Rather than being enslaved by technology, we should master it.",
       "sense_numbers": [
         1

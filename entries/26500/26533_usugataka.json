@@ -3,7 +3,7 @@
   "headword": "{薄型化|うすがたか}",
   "reading": "うすがたか",
   "romaji": "usugataka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "making thinner; slimming down (of devices/products)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26533_usugataka_ex1",
-      "japanese": "スマートフォンの{薄型化|うすがたか}が{進|すす}んでいる。",
+      "japanese": "⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦の→の：09472_no⟧{薄型化|うすがたか}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Smartphones are getting thinner and thinner.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26533_usugataka_ex2",
-      "japanese": "テレビの{薄型化|うすがたか}により{壁|かべ}{掛|か}けが{一般的|いっぱんてき}になった。",
+      "japanese": "⟦テレビ→テレビ：01536_terebi⟧⟦の→の：09472_no⟧{薄型化|うすがたか}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧{壁|かべ}{掛|か}け⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧になった。",
       "english": "The slimming down of TVs made wall-mounting commonplace.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26533_usugataka_ex3",
-      "japanese": "バッテリーの{性能|せいのう}を{維持|いじ}しながら{薄型化|うすがたか}するのは{技術的|ぎじゅつてき}に{難|むずか}しい。",
+      "japanese": "⟦バッテリー→バッテリー：04425_batterii⟧⟦の→の：09472_no⟧⟦{性能|せいのう}→性能：04340_seinou⟧⟦を→を：00422_wo⟧⟦{維持|いじ}→維持：01624_iji⟧し⟦ながら→ながら：10530_nagara⟧{薄型化|うすがたか}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{技術的|ぎじゅつてき}→技術的：05682_gijutsuteki⟧⟦に→に：00314_ni⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Making devices thinner while maintaining battery performance is technically challenging.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {薄型|うすがた} (thin type; slim profile) and {化|か} (-ization; becoming). Follows the common Japanese word-formation pattern of noun + {化|か} to indicate a process of change.\n\nCOMMON COLLOCATIONS:\n- {薄型化|うすがたか}が{進|すす}む: slimming down progresses\n- {薄型化|うすがたか}を{実現|じつげん}する: to achieve thinning\n- {薄型化|うすがたか}・{軽量化|けいりょうか}: making thinner and lighter\n\nSIMILAR WORDS:\n- {軽量化|けいりょうか}: weight reduction — often paired with {薄型化|うすがたか}\n- {小型化|こがたか}: miniaturization — making smaller in overall dimensions\n- コンパクト{化|か}: making compact — using a loanword, more general",
-  "cross_references": [],
+  "notes": "A compound of {薄型|うすがた} (thin type; slim profile) and ⟦{化|か}→〜化：28335_ka⟧ (-ization; becoming). Follows the common Japanese word-formation pattern of noun + ⟦{化|か}→〜化：28335_ka⟧ to indicate a process of change.\n\nCOMMON COLLOCATIONS:\n- {薄型化|うすがたか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: slimming down progresses\n- {薄型化|うすがたか}⟦を→を：00422_wo⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦する→する：00392_suru⟧: to achieve thinning\n- {薄型化|うすがたか}・⟦{軽量化|けいりょうか}→軽量化：19238_keiryouka⟧: making thinner and lighter\n\nSIMILAR WORDS:\n- ⟦{軽量化|けいりょうか}→軽量化：19238_keiryouka⟧: weight reduction — often paired with {薄型化|うすがたか}\n- ⟦{小型化|こがたか}→小型化：20750_kogataka⟧: miniaturization — making smaller in overall dimensions\n- ⟦コンパクト→コンパクト：10862_konpakuto⟧⟦{化|か}→〜化：28335_ka⟧: making compact — using a loanword, more general",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19238_keiryouka",
+      "reading": "けいりょうか",
+      "headword": "{軽量化|けいりょうか}",
+      "label": "weight reduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20750_kogataka",
+      "reading": "こがたか",
+      "headword": "{小型化|こがたか}",
+      "label": "miniaturization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +69,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "verb_class": "suru"
     },
     "created": "2026-05-02T14:37:19Z",
-    "modified": "2026-05-02T14:37:19Z"
+    "modified": "2026-09-02T04:02:26Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "28935_ryoutenabe_ex1",
-      "japanese": "{大|おお}きい{両手鍋|りょうてなべ}でパスタを{茹|ゆ}でた。",
+      "japanese": "⟦{大|おお}きい→大きい：00335_ookii⟧{両手鍋|りょうてなべ}⟦で→で：00502_de⟧⟦パスタ→パスタ：06768_pasuta⟧⟦を→を：00422_wo⟧⟦{茹|ゆ}でた→茹でる：02324_yuderu⟧。",
       "english": "I boiled pasta in a big two-handled pot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28935_ryoutenabe_ex2",
-      "japanese": "カレーを{作|つく}るなら{両手鍋|りょうてなべ}が{使|つか}いやすい。",
+      "japanese": "⟦カレー→カレー：02898_karee⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧なら{両手鍋|りょうてなべ}⟦が→が：00051_ga⟧⟦{使|つか}いやすい→使いやすい：30380_tsukaiyasui⟧。",
       "english": "A two-handled pot is easy to use for making curry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28935_ryoutenabe_ex3",
-      "japanese": "{重|おも}い{両手鍋|りょうてなべ}を{両手|りょうて}でしっかり{持|も}ち{上|あ}げた。",
+      "japanese": "⟦{重|おも}い→重い：00804_omoi⟧{両手鍋|りょうてなべ}⟦を→を：00422_wo⟧⟦{両手|りょうて}→両手：09518_ryoute⟧⟦で→で：00502_de⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{持|も}ち{上|あ}げた→持ち上げる：02313_mochiageru⟧。",
       "english": "I lifted the heavy two-handled pot firmly with both hands.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {両手|りょうて} (both hands) + {鍋|なべ} (pot). The opposite is {片手鍋|かたてなべ}, a smaller saucepan with one long handle.\n\nCOMMON COLLOCATIONS:\n- {両手鍋|りょうてなべ}で{煮込|にこ}む: to simmer in a two-handled pot\n- ホーロー{両手鍋|りょうてなべ}: enameled two-handled pot\n\nSIMILAR WORDS:\n- {片手鍋|かたてなべ}: saucepan — smaller, with one long handle\n- {土鍋|どなべ}: clay pot — used for hot pot dishes and rice",
+  "notes": "Compound of ⟦{両手|りょうて}→両手：09518_ryoute⟧ (both hands) + ⟦{鍋|なべ}→鍋：01038_nabe⟧ (pot). The opposite is ⟦{片手鍋|かたてなべ}→片手鍋：28930_katatenabe⟧, a smaller saucepan with one long handle.\n\nCOMMON COLLOCATIONS:\n- {両手鍋|りょうてなべ}⟦で→で：00502_de⟧⟦{煮込|にこ}む→煮込む：05822_nikomu⟧: to simmer in a two-handled pot\n- ホーロー{両手鍋|りょうてなべ}: enameled two-handled pot\n\nSIMILAR WORDS:\n- ⟦{片手鍋|かたてなべ}→片手鍋：28930_katatenabe⟧: saucepan — smaller, with one long handle\n- ⟦{土鍋|どなべ}→土鍋：07949_donabe⟧: clay pot — used for hot pot dishes and rice",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28930_katatenabe",
+      "reading": "かたてなべ",
+      "headword": "{片手鍋|かたてなべ}",
+      "label": "saucepan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07949_donabe",
+      "reading": "どなべ",
+      "headword": "{土鍋|どなべ}",
+      "label": "clay pot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "food"],
+      "semantic": [
+        "tool",
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:07:08Z",
-    "modified": "2026-06-07T04:07:08Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

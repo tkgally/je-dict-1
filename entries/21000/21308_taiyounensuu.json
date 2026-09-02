@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21308_taiyounensuu_ex1",
-      "japanese": "この{機械|きかい}の{耐用年数|たいようねんすう}は{十|じゅう}{年|ねん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦の→の：09472_no⟧{耐用年数|たいようねんすう}⟦は→は：00079_ha⟧⟦{十|じゅう}→十：00708_juu⟧⟦{年|ねん}→年：09876_nen⟧だ。",
       "english": "This machine has a service life of ten years.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21308_taiyounensuu_ex2",
-      "japanese": "エアコンの{耐用年数|たいようねんすう}を{過|す}ぎたので、{買|か}い{替|か}えた。",
+      "japanese": "⟦エアコン→エアコン：05282_eakon⟧⟦の→の：09472_no⟧{耐用年数|たいようねんすう}⟦を→を：00422_wo⟧⟦{過|す}ぎた→過ぎる：01219_sugiru⟧⟦の→の：09472_no⟧で、⟦{買|か}い{替|か}えた→買い替える：19456_kaikaeru⟧。",
       "english": "The air conditioner exceeded its service life, so I replaced it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21308_taiyounensuu_ex3",
-      "japanese": "{税法|ぜいほう}で{定|さだ}められた{耐用年数|たいようねんすう}に{基|もと}づいて{減価償却|げんかしょうきゃく}を{行|おこな}う。",
+      "japanese": "⟦{税法|ぜいほう}→税法：27440_zeihou⟧⟦で→で：00502_de⟧⟦{定|さだ}められた→定める：10448_sadameru⟧{耐用年数|たいようねんすう}⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧⟦{減価償却|げんかしょうきゃく}→減価償却：30207_genkashoukyaku⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "Depreciation is calculated based on the service life defined in the tax code.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A practical term for the expected useful lifespan of equipment and assets. Composed of {耐用|たいよう} (durable use) + {年数|ねんすう} (number of years). Used in everyday conversations about appliances and in business/accounting for calculating depreciation.\n\nCOMMON COLLOCATIONS:\n- {耐用年数|たいようねんすう}が{過|す}ぎる: to exceed service life\n- {法定|ほうてい}{耐用年数|たいようねんすう}: legally mandated service life\n- {耐用年数|たいようねんすう}を{超|こ}える: to surpass service life\n- {耐用年数|たいようねんすう}が{長|なが}い/{短|みじか}い: long/short service life\n\nSIMILAR WORDS:\n- {寿命|じゅみょう}: lifespan — used for people, animals, and products\n- {使用期限|しようきげん}: expiration date, use-by date — for consumables\n- {耐久性|たいきゅうせい}: durability — the quality of lasting\n- {減価償却|げんかしょうきゃく}: depreciation — the accounting method that uses {耐用年数|たいようねんすう}",
+  "notes": "A practical term for the expected useful lifespan of equipment and assets. Composed of {耐用|たいよう} (durable use) + ⟦{年数|ねんすう}→年数：23485_nensuu⟧ (number of years). Used in everyday conversations about appliances and in business/accounting for calculating depreciation.\n\nCOMMON COLLOCATIONS:\n- {耐用年数|たいようねんすう}⟦が→が：00051_ga⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: to exceed service life\n- {法定|ほうてい}{耐用年数|たいようねんすう}: legally mandated service life\n- {耐用年数|たいようねんすう}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧: to surpass service life\n- {耐用年数|たいようねんすう}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧/⟦{短|みじか}い→短い：00510_mijikai⟧: long/short service life\n\nSIMILAR WORDS:\n- ⟦{寿命|じゅみょう}→寿命：12359_jumyou⟧: lifespan — used for people, animals, and products\n- ⟦{使用期限|しようきげん}→使用期限：22047_shiyoukigen⟧: expiration date, use-by date — for consumables\n- ⟦{耐久性|たいきゅうせい}→耐久性：20042_taikyuusei⟧: durability — the quality of lasting\n- ⟦{減価償却|げんかしょうきゃく}→減価償却：30207_genkashoukyaku⟧: depreciation — the accounting method that uses {耐用年数|たいようねんすう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12359_jumyou",
+      "reading": "じゅみょう",
+      "headword": "{寿命|じゅみょう}",
+      "label": "lifespan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22047_shiyoukigen",
+      "reading": "しようきげん",
+      "headword": "{使用期限|しようきげん}",
+      "label": "expiration date, use-by date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20042_taikyuusei",
+      "reading": "たいきゅうせい",
+      "headword": "{耐久性|たいきゅうせい}",
+      "label": "durability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30207_genkashoukyaku",
+      "reading": "げんかしょうきゃく",
+      "headword": "減価償却",
+      "label": "depreciation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-01T17:29:22Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

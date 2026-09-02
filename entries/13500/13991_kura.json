@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "13991_kura_ex1",
-      "japanese": "{古|ふる}い{蔵|くら}を{改装|かいそう}してカフェにした。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{蔵|くら}⟦を→を：00422_wo⟧⟦{改装|かいそう}→改装：09682_kaisou⟧⟦して→する：00392_suru⟧⟦カフェ→カフェ：06767_kafe⟧にした。",
       "english": "They renovated an old storehouse into a café.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13991_kura_ex2",
-      "japanese": "{蔵|くら}の{中|なか}から{貴重|きちょう}な{掛|か}け{軸|じく}が{見|み}つかった。",
+      "japanese": "{蔵|くら}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧⟦{貴重|きちょう}→貴重：00223_kichou⟧な⟦{掛|か}け{軸|じく}→掛け軸：06122_kakejiku⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "A valuable hanging scroll was found inside the storehouse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13991_kura_ex3",
-      "japanese": "この{酒蔵|さかぐら}は{江戸|えど}{時代|じだい}から{続|つづ}く{老舗|しにせ}で、{今|いま}も{伝統的|でんとうてき}な{製法|せいほう}で{日本酒|にほんしゅ}を{造|つく}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{酒蔵|さかぐら}→酒蔵：08633_sakagura⟧⟦は→は：00079_ha⟧⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦から→から：00504_kara⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦{老舗|しにせ}→老舗：16152_shinise⟧で、⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な⟦{製法|せいほう}→製法：14038_seihou⟧⟦で→で：00502_de⟧⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧⟦を→を：00422_wo⟧⟦{造|つく}っている→造る：17751_tsukuru⟧。",
       "english": "This sake brewery is a long-established business dating from the Edo period, still making sake using traditional methods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nTraditional {蔵|くら} are iconic elements of Japanese architecture, especially in merchant towns. Many have been repurposed as restaurants, galleries, and museums. The word also appears in many compounds related to storage and production.\n\nCOMMON COMPOUNDS:\n- {酒蔵|さかぐら}: sake brewery/cellar\n- {米蔵|こめぐら}: rice storehouse\n- {蔵元|くらもと}: sake brewery owner/operator\n- {蔵書|ぞうしょ}: book collection, library holdings\n- {土蔵|どぞう}: earthen storehouse\n- お{蔵入|くらい}り: being shelved, put into storage (figuratively: a project being abandoned)",
-  "cross_references": [],
+  "notes": "USAGE:\nTraditional {蔵|くら} are iconic elements of Japanese architecture, especially in merchant towns. Many have been repurposed as restaurants, galleries, and museums. The word also appears in many compounds related to storage and production.\n\nCOMPOUNDS:\n- ⟦{酒蔵|さかぐら}→酒蔵：08633_sakagura⟧: sake brewery/cellar\n- {米蔵|こめぐら}: rice storehouse\n- {蔵元|くらもと}: sake brewery owner/operator\n- ⟦{蔵書|ぞうしょ}→蔵書：15479_zousho⟧: book collection, library holdings\n- ⟦{土蔵|どぞう}→土蔵：15634_dozou⟧: earthen storehouse\n- ⟦お{蔵入|くらい}り→お蔵入り：23210_okurairi⟧: being shelved, put into storage (figuratively: a project being abandoned)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07372_monooki",
+      "reading": "ものおき",
+      "headword": "{物置|ものお}き",
+      "label": "storage shed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20219_naya",
+      "reading": "なや",
+      "headword": "{納屋|なや}",
+      "label": "barn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27250_houmotsuko",
+      "reading": "ほうもつこ",
+      "headword": "{宝物庫|ほうもつこ}",
+      "label": "treasure house"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T08:35:37Z",
-    "modified": "2026-02-27T08:35:37Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

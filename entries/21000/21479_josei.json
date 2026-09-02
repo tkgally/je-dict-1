@@ -3,7 +3,7 @@
   "headword": "{助成|じょせい}",
   "reading": "じょせい",
   "romaji": "josei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "subsidy; grant; financial assistance; aid",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "21479_josei_ex1",
-      "japanese": "{国|くに}から{助成|じょせい}を{受|う}ける。",
+      "japanese": "⟦{国|くに}→国：02204_kuni⟧⟦から→から：00504_kara⟧{助成|じょせい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "To receive a subsidy from the government.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "21479_josei_ex2",
-      "japanese": "{研究|けんきゅう}{助成金|じょせいきん}の{申請|しんせい}が{始|はじ}まった。",
+      "japanese": "⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦{助成金|じょせいきん}→助成金：11343_joseikin⟧⟦の→の：09472_no⟧⟦{申請|しんせい}→申請：04207_shinsei⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Applications for research grants have opened.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "21479_josei_ex3",
-      "japanese": "この{事業|じぎょう}は{地方自治体|ちほうじちたい}の{助成|じょせい}を{受|う}けて{運営|うんえい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦は→は：00079_ha⟧⟦{地方自治体|ちほうじちたい}→地方自治体：19063_chihoujichitai⟧⟦の→の：09472_no⟧{助成|じょせい}⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦{運営|うんえい}→運営：05096_unei⟧⟦されている→する：00392_suru⟧。",
       "english": "This project is run with financial support from the local government.",
       "sense_numbers": [
         1
@@ -134,7 +134,37 @@
       "notes": null
     }
   ],
-  "notes": "Refers to financial support provided by governments, organizations, or foundations to promote research, arts, social welfare, or other public-interest activities. The word emphasizes the supportive and promotional aspect of the funding.\n\nCOMMON COLLOCATIONS:\n- {助成金|じょせいきん}: subsidy, grant money\n- {助成|じょせい}{制度|せいど}: subsidy system\n- {助成|じょせい}を{受|う}ける: to receive a subsidy\n- {助成|じょせい}{事業|じぎょう}: subsidized project\n- {助成|じょせい}{団体|だんたい}: grant-giving organization\n\nSIMILAR WORDS:\n- {補助|ほじょ}: assistance, supplement — broader meaning; {補助金|ほじょきん} is often interchangeable with {助成金|じょせいきん}\n- {援助|えんじょ}: aid, support — more general, includes non-financial help\n- {支援|しえん}: support — broader and more commonly used in everyday contexts\n- {交付|こうふ}: disbursement, granting — focuses on the act of distributing funds",
+  "notes": "Refers to financial support provided by governments, organizations, or foundations to promote research, arts, social welfare, or other public-interest activities. The word emphasizes the supportive and promotional aspect of the funding.\n\nCOMMON COLLOCATIONS:\n- ⟦{助成金|じょせいきん}→助成金：11343_joseikin⟧: subsidy, grant money\n- {助成|じょせい}⟦{制度|せいど}→制度：03291_seido⟧: subsidy system\n- {助成|じょせい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a subsidy\n- {助成|じょせい}⟦{事業|じぎょう}→事業：11421_jigyou⟧: subsidized project\n- {助成|じょせい}⟦{団体|だんたい}→団体：03426_dantai⟧: grant-giving organization\n\nSIMILAR WORDS:\n- ⟦{補助|ほじょ}→補助：14105_hojo⟧: assistance, supplement — broader meaning; ⟦{補助金|ほじょきん}→補助金：19222_hojokin⟧ is often interchangeable with ⟦{助成金|じょせいきん}→助成金：11343_joseikin⟧\n- ⟦{援助|えんじょ}→援助：01892_enjo⟧: aid, support — more general, includes non-financial help\n- ⟦{支援|しえん}→支援：07778_shien⟧: support — broader and more commonly used in everyday contexts\n- ⟦{交付|こうふ}→交付：11425_koufu⟧: disbursement, granting — focuses on the act of distributing funds",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14105_hojo",
+      "reading": "ほじょ",
+      "headword": "{補助|ほじょ}",
+      "label": "assistance, supplement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01892_enjo",
+      "reading": "えんじょ",
+      "headword": "{援助|えんじょ}",
+      "label": "aid, support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07778_shien",
+      "reading": "しえん",
+      "headword": "{支援|しえん}",
+      "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11425_koufu",
+      "reading": "こうふ",
+      "headword": "{交付|こうふ}",
+      "label": "disbursement, granting"
+    }
+  ],
   "metadata": {
     "entry_id": "21479_josei",
     "schema_version": "2.0",
@@ -146,6 +176,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "finance",
         "society"
@@ -154,6 +186,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-04-02T12:43:15Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

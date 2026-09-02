@@ -2,7 +2,7 @@
   "id": "08480_shoushoku",
   "headword": "{少食|しょうしょく}",
   "reading": "しょうしょく",
-  "part_of_speech": "noun / na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "light eater; small appetite",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08480_shoushoku_ex1",
-      "japanese": "{私|わたし}は{少食|しょうしょく}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{少食|しょうしょく}です。",
       "english": "I'm a light eater.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08480_shoushoku_ex2",
-      "japanese": "{彼女|かのじょ}は{少食|しょうしょく}なので、いつも{残|のこ}す。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{少食|しょうしょく}な⟦の→の：09472_no⟧で、⟦いつも→いつも：00599_itsumo⟧⟦{残|のこ}す→残す：01975_nokosu⟧。",
       "english": "She's a light eater, so she always leaves food on her plate.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08480_shoushoku_ex3",
-      "japanese": "{子供|こども}の{頃|ころ}から{少食|しょうしょく}で、{量|りょう}より{質|しつ}を{重視|じゅうし}する。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧{少食|しょうしょく}で、⟦{量|りょう}→量：03799_ryou⟧⟦より→より：09476_yori⟧⟦{質|しつ}→質：01425_shitsu⟧⟦を→を：00422_wo⟧⟦{重視|じゅうし}する→重視する：26832_juushisuru⟧。",
       "english": "I've been a light eater since childhood, so I value quality over quantity.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{少|しょう} (small, few) + {食|しょく} (eating, food)\n\nCONTRAST:\n- {少食|しょうしょく} (light eater) ↔ {大食|おおぐ}い (big eater)\n- {少食|しょうしょく} (light eater) ↔ {健啖家|けんたんか} (hearty eater)\n\nUSAGE:\n- Used as a noun or na-adjective\n- Can describe a person or their eating habits\n\nRELATED:\n- {小食|しょうしょく} - variant kanji with same meaning\n- {腹八分目|はらはちぶんめ} - eating in moderation\n- {食|た}べ{過|す}ぎ - overeating",
+  "notes": "COMPOUNDS:\n{少|しょう} (small, few) + {食|しょく} (eating, food)\n\nSIMILAR WORDS:\n- {少食|しょうしょく} (light eater) ↔ ⟦{大食|おおぐ}い→大食い：08341_oogui⟧ (big eater)\n- {少食|しょうしょく} (light eater) ↔ {健啖家|けんたんか} (hearty eater)\n\nUSAGE:\n- Used as a noun or na-adjective\n- Can describe a person or their eating habits\n\nRELATED WORDS:\n- ⟦{小食|しょうしょく}→小食：16900_shoushoku⟧ - variant kanji with same meaning\n- ⟦{腹八分目|はらはちぶんめ}→腹八分目：08318_harahachibunme⟧ - eating in moderation\n- ⟦{食|た}べ{過|す}ぎ→食べ過ぎ：28819_tabesugi⟧ - overeating",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,12 +52,13 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ]
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -66,6 +67,20 @@
       "reading": "おおぐい",
       "headword": "{大食|おおぐ}い",
       "label": "big eater"
+    },
+    {
+      "type": "related",
+      "target_id": "08318_harahachibunme",
+      "reading": "はらはちぶんめ",
+      "headword": "{腹八分目|はらはちぶんめ}",
+      "label": "eating in moderation"
+    },
+    {
+      "type": "related",
+      "target_id": "28819_tabesugi",
+      "reading": "たべすぎ",
+      "headword": "{食|た}べ{過|す}ぎ",
+      "label": "overeating"
     }
   ],
   "prominent_see_also": [

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07734_uwasabanashi_ex1",
-      "japanese": "{噂話|うわさばなし}に{花|はな}が{咲|さ}いた。",
+      "japanese": "{噂話|うわさばなし}⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}いた→咲く：08150_saku⟧。",
       "english": "We got carried away with gossip.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07734_uwasabanashi_ex2",
-      "japanese": "{噂話|うわさばなし}を{信|しん}じるな。",
+      "japanese": "{噂話|うわさばなし}⟦を→を：00422_wo⟧⟦{信|しん}じる→信じる：01111_shinjiru⟧な。",
       "english": "Don't believe gossip.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07734_uwasabanashi_ex3",
-      "japanese": "{近所|きんじょ}の{噂話|うわさばなし}ばかりしている。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧{噂話|うわさばなし}⟦ばかり→〜ばかり：02006_bakari⟧⟦している→する：00392_suru⟧。",
       "english": "They're always gossiping about the neighbors.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{噂|うわさ} (rumor) + {話|ばなし} (talk, story) - talk consisting of rumors.\n\nUSAGE:\nGenerally has negative connotations in Japanese, implying:\n・Talking behind someone's back\n・Spreading unverified information\n・Being nosy about others' affairs\n\nCOLLOCATIONS:\n・{噂話|うわさばなし}をする - to gossip\n・{噂話|うわさばなし}に{花|はな}が{咲|さ}く - to get carried away with gossip\n・{噂話|うわさばなし}を{広|ひろ}める - to spread gossip\n\nRELATED:\n・{井戸端会議|いどばたかいぎ} - neighborhood gossip (lit. 'well-side meeting')\n・{陰口|かげぐち} - talking behind someone's back",
+  "notes": "ETYMOLOGY:\n⟦{噂|うわさ}→噂：01871_uwasa⟧ (rumor) + {話|ばなし} (talk, story) - talk consisting of rumors.\n\nUSAGE:\nGenerally has negative connotations in Japanese, implying:\n- Talking behind someone's back\n- Spreading unverified information\n- Being nosy about others' affairs\n\nCOMMON COLLOCATIONS:\n- {噂話|うわさばなし}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ - to gossip\n- {噂話|うわさばなし}⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}く→咲く：08150_saku⟧ - to get carried away with gossip\n- {噂話|うわさばなし}⟦を→を：00422_wo⟧⟦{広|ひろ}める→広める：02405_hiromeru⟧ - to spread gossip\n\nRELATED WORDS:\n- ⟦{井戸端会議|いどばたかいぎ}→井戸端会議：07402_idobatakaigi⟧ - neighborhood gossip (lit. 'well-side meeting')\n- ⟦{陰口|かげぐち}→陰口：06638_kageguchi⟧ - talking behind someone's back",
   "metadata": {
     "created": "2026-01-21T00:27:02Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +51,7 @@
         "noun"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "society"
@@ -78,6 +79,13 @@
       "reading": "いどばたかいぎ",
       "headword": "{井戸端会議|いどばたかいぎ}",
       "label": "neighborhood gossip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24485_himitsubanashi",
+      "reading": "ひみつばなし",
+      "headword": "{秘密話|ひみつばなし}",
+      "label": "secret talk"
     }
   ]
 }

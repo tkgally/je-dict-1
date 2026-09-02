@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "16318_gengou_ex1",
-      "japanese": "{今|いま}の{元号|げんごう}は{令和|れいわ}だ。",
+      "japanese": "⟦{今|いま}→今：00945_ima⟧⟦の→の：09472_no⟧{元号|げんごう}⟦は→は：00079_ha⟧⟦{令和|れいわ}→令和：11181_reiwa⟧だ。",
       "english": "The current era name is Reiwa.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16318_gengou_ex2",
-      "japanese": "{新|あたら}しい{元号|げんごう}が{発表|はっぴょう}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{元号|げんごう}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The new era name was announced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16318_gengou_ex3",
-      "japanese": "{書類|しょるい}には{西暦|せいれき}ではなく{元号|げんごう}で{年|とし}を{書|か}くことが{多|おお}い。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{西暦|せいれき}→西暦：04355_seireki⟧⟦ではなく→ではなく：09578_dehanaku⟧{元号|げんごう}⟦で→で：00502_de⟧⟦{年|とし}→年：00486_toshi⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "On documents, the year is often written using the era name rather than the Western calendar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "RECENT ERA NAMES:\n- {令和|れいわ} (2019–): current era\n- {平成|へいせい} (1989–2019)\n- {昭和|しょうわ} (1926–1989)\n- {大正|たいしょう} (1912–1926)\n- {明治|めいじ} (1868–1912)\n\nUSAGE NOTES:\nJapanese official documents such as government forms, driver's licenses, and certificates typically use {元号|げんごう} rather than the Western calendar ({西暦|せいれき}). In everyday conversation, both systems are used.\n\nSIMILAR WORDS:\n- {年号|ねんごう}: era name (synonym, slightly more historical nuance)\n- {西暦|せいれき}: Western calendar, Common Era year",
+  "notes": "RECENT ERA NAMES:\n- ⟦{令和|れいわ}→令和：11181_reiwa⟧ (2019–): current era\n- ⟦{平成|へいせい}→平成：11180_heisei⟧ (1989–2019)\n- ⟦{昭和|しょうわ}→昭和：28079_shouwa⟧ (1926–1989)\n- {大正|たいしょう} (1912–1926)\n- ⟦{明治|めいじ}→明治：19860_meiji⟧ (1868–1912)\n\nUSAGE:\nJapanese official documents such as government forms, driver's licenses, and certificates typically use {元号|げんごう} rather than the Western calendar (⟦{西暦|せいれき}→西暦：04355_seireki⟧). In everyday conversation, both systems are used.\n\nSIMILAR WORDS:\n- ⟦{年号|ねんごう}→年号：26998_nengou⟧: era name (synonym, slightly more historical nuance)\n- ⟦{西暦|せいれき}→西暦：04355_seireki⟧: Western calendar, Common Era year",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,17 +51,56 @@
       "reading": "せいれき",
       "headword": "{西暦|せいれき}",
       "label": "Western calendar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26998_nengou",
+      "reading": "ねんごう",
+      "headword": "{年号|ねんごう}",
+      "label": "era name"
+    },
+    {
+      "type": "related",
+      "target_id": "04546_tennou",
+      "reading": "てんのう",
+      "headword": "{天皇|てんのう}",
+      "label": "Emperor (of Japan)"
+    },
+    {
+      "type": "related",
+      "target_id": "11181_reiwa",
+      "reading": "れいわ",
+      "headword": "{令和|れいわ}",
+      "label": "Reiwa era (2019-present)"
+    },
+    {
+      "type": "related",
+      "target_id": "19860_meiji",
+      "reading": "めいじ",
+      "headword": "{明治|めいじ}",
+      "label": "Meiji era (1868-1912)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28485_wareki",
+      "reading": "われき",
+      "headword": "{和暦|われき}",
+      "label": "Japanese era calendar"
     }
   ],
   "metadata": {
     "created": "2026-03-12T01:21:16Z",
-    "modified": "2026-05-03T08:15:02Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   },
   "schema_version": "2.0"

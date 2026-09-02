@@ -15,40 +15,87 @@
   "examples": [
     {
       "id": "19065_binkanhada_ex1",
-      "japanese": "わたしは{敏感肌|びんかんはだ}だ。",
+      "japanese": "わたし⟦は→は：00079_ha⟧{敏感肌|びんかんはだ}だ。",
       "english": "I have sensitive skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19065_binkanhada_ex2",
-      "japanese": "{敏感肌|びんかんはだ}{用|よう}の{化粧品|けしょうひん}を{使|つか}っている。",
+      "japanese": "{敏感肌|びんかんはだ}⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I use cosmetics designed for sensitive skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19065_binkanhada_ex3",
-      "japanese": "{季節|きせつ}の{変|か}わり{目|め}は{敏感肌|びんかんはだ}の{人|ひと}にとって{辛|つら}い{時期|じき}だ。",
+      "japanese": "⟦{季節|きせつ}の{変|か}わり{目|め}→季節の変わり目：22134_kisetsunokawarime⟧⟦は→は：00079_ha⟧{敏感肌|びんかんはだ}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦にとって→にとって：06803_nitotte⟧⟦{辛|つら}い→辛い：01112_tsurai⟧⟦{時期|じき}→時期：03269_jiki⟧だ。",
       "english": "The change of seasons is a tough time for people with sensitive skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {敏感|びんかん} (sensitive) + {肌|はだ} (skin). Extremely common on Japanese skincare product labels.\n\nCOMMON COLLOCATIONS:\n- {敏感肌|びんかんはだ}{用|よう}: for sensitive skin\n- {敏感肌|びんかんはだ}{向|む}け: aimed at sensitive skin\n- {敏感肌|びんかんはだ}の{人|ひと}: people with sensitive skin\n\nSKIN TYPE TERMS:\n- {乾燥肌|かんそうはだ}: dry skin\n- {脂性肌|しせいはだ}: oily skin\n- {混合肌|こんごうはだ}: combination skin\n- {普通肌|ふつうはだ}: normal skin\n\nUSAGE:\nPrimarily a consumer/skincare term. Japan has a large market for {敏感肌|びんかんはだ}{用|よう} products, and the label appears on cleansers, moisturizers, and cosmetics.",
+  "notes": "Compound of ⟦{敏感|びんかん}→敏感：06641_binkan⟧ (sensitive) + ⟦{肌|はだ}→肌：02243_hada⟧ (skin). Extremely common on Japanese skincare product labels.\n\nCOMMON COLLOCATIONS:\n- {敏感肌|びんかんはだ}⟦{用|よう}→〜用：09842_you⟧: for sensitive skin\n- {敏感肌|びんかんはだ}{向|む}け: aimed at sensitive skin\n- {敏感肌|びんかんはだ}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: people with sensitive skin\n\nSKIN TYPE TERMS:\n- ⟦{乾燥肌|かんそうはだ}→乾燥肌：16609_kansouhada⟧: dry skin\n- ⟦{脂性肌|しせいはだ}→脂性肌：23960_shiseihada⟧: oily skin\n- ⟦{混合肌|こんごうはだ}→混合肌：23961_kongouhada⟧: combination skin\n- {普通肌|ふつうはだ}: normal skin\n\nUSAGE:\nPrimarily a consumer/skincare term. Japan has a large market for {敏感肌|びんかんはだ}⟦{用|よう}→〜用：09842_you⟧ products, and the label appears on cleansers, moisturizers, and cosmetics.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08421_hadaare",
+      "reading": "はだあれ",
+      "headword": "{肌荒|はだあ}れ",
+      "label": "rough skin"
+    },
+    {
+      "type": "related",
+      "target_id": "16609_kansouhada",
+      "reading": "かんそうはだ",
+      "headword": "{乾燥肌|かんそうはだ}",
+      "label": "dry skin"
+    },
+    {
+      "type": "related",
+      "target_id": "23230_arerugiitaishitsu",
+      "reading": "あれるぎーたいしつ",
+      "headword": "アレルギー{体質|たいしつ}",
+      "label": "allergic constitution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23960_shiseihada",
+      "reading": "しせいはだ",
+      "headword": "{脂性肌|しせいはだ}",
+      "label": "oily skin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23961_kongouhada",
+      "reading": "こんごうはだ",
+      "headword": "{混合肌|こんごうはだ}",
+      "label": "combination skin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     },
     "created": "2026-03-24T04:45:42Z",
-    "modified": "2026-03-28T10:56:41Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

@@ -15,40 +15,51 @@
   "examples": [
     {
       "id": "26078_ichiwari_ex1",
-      "japanese": "{売上|うりあげ}の{一割|いちわり}が{利益|りえき}だ。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦の→の：09472_no⟧{一割|いちわり}⟦が→が：00051_ga⟧⟦{利益|りえき}→利益：03673_rieki⟧だ。",
       "english": "One tenth of the sales is profit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26078_ichiwari_ex2",
-      "japanese": "{参加者|さんかしゃ}のうち{一割|いちわり}が{外国人|がいこくじん}だった。",
+      "japanese": "⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧のうち{一割|いちわり}⟦が→が：00051_ga⟧⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧だった。",
       "english": "About 10% of the participants were foreigners.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26078_ichiwari_ex3",
-      "japanese": "{定価|ていか}から{一割|いちわり}{引|び}きで{購入|こうにゅう}できるクーポンを{使|つか}った。",
+      "japanese": "⟦{定価|ていか}→定価：04066_teika⟧⟦から→から：00504_kara⟧{一割|いちわり}⟦{引|び}き→〜引き：28470_biki⟧⟦で→で：00502_de⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦できる→できる：00557_dekiru⟧⟦クーポン→クーポン：06446_kuupon⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "I used a coupon that let me buy it at a 10% discount from the regular price.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The {割|わり} system is Japan's traditional way of expressing fractions and percentages. {一割|いちわり} = 10%, {二割|にわり} = 20%, etc. Below {一割|いちわり}, the scale continues with {分|ぶ} (1%) and {厘|りん} (0.1%).\n\nCOMMON COLLOCATIONS:\n- {一割|いちわり}{引|び}き — 10% discount\n- {一割|いちわり}{増|ぞう} — 10% increase\n- {一割|いちわり}{負担|ふたん} — 10% co-payment (especially in healthcare)\n- {約|やく}{一割|いちわり} — about 10%\n\nTHE {割|わり} SYSTEM:\n- {一割|いちわり} = 10%\n- {三割|さんわり} = 30%\n- {五割|ごわり} = 50% (half)\n- {三割五分|さんわりごぶ} = 35% (used especially in baseball batting averages)\n\nSIMILAR EXPRESSIONS:\n- 10パーセント — 10 percent (Western-style; also common)\n- {十分|じゅうぶん}の{一|いち} — one tenth (fraction form)\n\nCULTURAL NOTE:\nThe {割|わり} system is used commonly in daily life for discounts ({二割引|にわりびき} = 20% off), medical co-payments ({三割負担|さんわりふたん} = 30% co-pay), and baseball statistics ({打率|だりつ}{三割|さんわり} = .300 batting average).",
+  "notes": "The ⟦{割|わり}→割：03194_wari⟧ system is Japan's traditional way of expressing fractions and percentages. {一割|いちわり} = 10%, {二割|にわり} = 20%, etc. Below {一割|いちわり}, the scale continues with {分|ぶ} (1%) and {厘|りん} (0.1%).\n\nCOMMON COLLOCATIONS:\n- {一割|いちわり}⟦{引|び}き→〜引き：28470_biki⟧ — 10% discount\n- {一割|いちわり}{増|ぞう} — 10% increase\n- {一割|いちわり}⟦{負担|ふたん}→負担：09752_futan⟧ — 10% co-payment (especially in healthcare)\n- ⟦{約|やく}→約：09563_yaku⟧{一割|いちわり} — about 10%\n\nTHE {割|わり} SYSTEM:\n- {一割|いちわり} = 10%\n- {三割|さんわり} = 30%\n- {五割|ごわり} = 50% (half)\n- {三割五分|さんわりごぶ} = 35% (used especially in baseball batting averages)\n\nSIMILAR WORDS:\n- 10⟦パーセント→パーセント：01537_paasento⟧ — 10 percent (Western-style; also common)\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦の→の：09472_no⟧⟦{一|いち}→一：00705_ichi⟧ — one tenth (fraction form)\n\nCULTURAL NOTE:\nThe ⟦{割|わり}→割：03194_wari⟧ system is used commonly in daily life for discounts ({二割引|にわりびき} = 20% off), medical co-payments ({三割負担|さんわりふたん} = 30% co-pay), and baseball statistics (⟦{打率|だりつ}→打率：07113_daritsu⟧{三割|さんわり} = .300 batting average).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity", "number"]
+      "semantic": [
+        "quantity",
+        "number"
+      ]
     },
     "created": "2026-04-29T12:37:26Z",
-    "modified": "2026-04-29T12:37:26Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{元気|げんき}づける",
   "reading": "げんきづける",
   "romaji": "genkizukeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to encourage; to cheer up; to invigorate",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21545_genkizukeru_ex1",
-      "japanese": "{友達|ともだち}を{元気|げんき}づける。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧{元気|げんき}づける。",
       "english": "To cheer up a friend.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21545_genkizukeru_ex2",
-      "japanese": "{落|お}ち{込|こ}んでいる{彼|かれ}を{元気|げんき}づけたい。",
+      "japanese": "⟦{落|お}ち{込|こ}んでいる→落ち込む：05750_ochikomu⟧⟦{彼|かれ}→彼：01292_kare⟧⟦を→を：00422_wo⟧{元気|げんき}づけたい。",
       "english": "I want to cheer him up since he's feeling down.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21545_genkizukeru_ex3",
-      "japanese": "みんなの{応援|おうえん}が{選手|せんしゅ}たちを{元気|げんき}づけた。",
+      "japanese": "⟦みんな→みんな：02972_minna⟧⟦の→の：09472_no⟧⟦{応援|おうえん}→応援：01900_ouen⟧⟦が→が：00051_ga⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦を→を：00422_wo⟧{元気|げんき}づけた。",
       "english": "Everyone's cheering encouraged the athletes.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {元気|げんき} (energy, vigor) and the verb-forming suffix づける (to give/impart a quality). Means to give someone {元気|げんき}.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{元気|げんき}づける: to cheer someone up\n- {言葉|ことば}で{元気|げんき}づける: to encourage with words\n- {元気|げんき}づけられる: to be cheered up (passive)\n\nSIMILAR WORDS:\n- {励|はげ}ます: to encourage — more general, includes motivating someone to try harder\n- {元気|げんき}づける: to cheer up — focuses on restoring emotional energy\n- {慰|なぐさ}める: to console — comforting someone who is sad or grieving\n- {応援|おうえん}する: to support/cheer for — active support, often in competitive contexts\n\nGRAMMAR:\nThe intransitive counterpart is {元気|げんき}づく (to become encouraged, to perk up).",
+  "notes": "A compound verb formed from ⟦{元気|げんき}→元気：00696_genki⟧ (energy, vigor) and the verb-forming suffix づける (to give/impart a quality). Means to give someone ⟦{元気|げんき}→元気：00696_genki⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{元気|げんき}づける: to cheer someone up\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧{元気|げんき}づける: to encourage with words\n- {元気|げんき}づけられる: to be cheered up (passive)\n\nSIMILAR WORDS:\n- ⟦{励|はげ}ます→励ます：05304_hagemasu⟧: to encourage — more general, includes motivating someone to try harder\n- {元気|げんき}づける: to cheer up — focuses on restoring emotional energy\n- ⟦{慰|なぐさ}める→慰める：02133_nagusameru⟧: to console — comforting someone who is sad or grieving\n- ⟦{応援|おうえん}する→応援する：21988_ouensuru⟧: to support/cheer for — active support, often in competitive contexts\n\nCOMMON PATTERNS:\nThe intransitive counterpart is {元気|げんき}づく (to become encouraged, to perk up).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
         "emotion",
         "society"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T16:12:34Z",
-    "modified": "2026-09-01T00:19:22Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "ichidan",
@@ -160,6 +161,27 @@
       "reading": "げんき",
       "headword": "{元気|げんき}",
       "label": "healthy, energetic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05304_hagemasu",
+      "reading": "はげます",
+      "headword": "{励|はげ}ます",
+      "label": "to encourage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02133_nagusameru",
+      "reading": "なぐさめる",
+      "headword": "{慰|なぐさ}める",
+      "label": "to console"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21988_ouensuru",
+      "reading": "おうえんする",
+      "headword": "{応援|おうえん}する",
+      "label": "to support/cheer for"
     }
   ]
 }

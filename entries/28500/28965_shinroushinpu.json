@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28965_shinroushinpu_ex1",
-      "japanese": "{新郎新婦|しんろうしんぷ}が{入場|にゅうじょう}します。",
+      "japanese": "{新郎新婦|しんろうしんぷ}⟦が→が：00051_ga⟧⟦{入場|にゅうじょう}→入場：03521_nyuujou⟧⟦します→する：00392_suru⟧。",
       "english": "The bride and groom are entering.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28965_shinroushinpu_ex2",
-      "japanese": "{新郎新婦|しんろうしんぷ}に{乾杯|かんぱい}。",
+      "japanese": "{新郎新婦|しんろうしんぷ}⟦に→に：00314_ni⟧⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧。",
       "english": "A toast to the bride and groom.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28965_shinroushinpu_ex3",
-      "japanese": "{新郎新婦|しんろうしんぷ}がゲストにケーキを{配|くば}って{回|まわ}った。",
+      "japanese": "{新郎新婦|しんろうしんぷ}⟦が→が：00051_ga⟧⟦ゲスト→ゲスト：10849_gesuto⟧⟦に→に：00314_ni⟧⟦ケーキ→ケーキ：01356_keeki⟧⟦を→を：00422_wo⟧⟦{配|くば}って→配る：03921_kubaru⟧⟦{回|まわ}った→回る：01150_mawaru⟧。",
       "english": "The bride and groom went around handing cake to the guests.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "The standard formal term for the wedding couple, used by MCs, officiants, and in invitations. Order is fixed: groom precedes bride.\n\nCOMMON COLLOCATIONS:\n- {新郎新婦|しんろうしんぷ}{入場|にゅうじょう}: entrance of the bride and groom\n- {新郎新婦|しんろうしんぷ}に{乾杯|かんぱい}: toast to the bride and groom\n- {新郎新婦|しんろうしんぷ}のご{紹介|しょうかい}: introducing the bride and groom\n\nSIMILAR WORDS:\n- {花嫁|はなよめ}・{花婿|はなむこ}: bride / groom — individual terms; {花嫁|はなよめ} is especially common\n- カップル: couple — casual loanword, not for wedding ceremonies\n- {夫婦|ふうふ}: married couple — established couple, not specifically newlyweds",
+  "notes": "The standard formal term for the wedding couple, used by MCs, officiants, and in invitations. Order is fixed: groom precedes bride.\n\nCOMMON COLLOCATIONS:\n- {新郎新婦|しんろうしんぷ}⟦{入場|にゅうじょう}→入場：03521_nyuujou⟧: entrance of the bride and groom\n- {新郎新婦|しんろうしんぷ}⟦に→に：00314_ni⟧⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧: toast to the bride and groom\n- {新郎新婦|しんろうしんぷ}⟦の→の：09472_no⟧ご⟦{紹介|しょうかい}→紹介：01432_shoukai⟧: introducing the bride and groom\n\nSIMILAR WORDS:\n- ⟦{花嫁|はなよめ}→花嫁：04318_hanayome⟧・⟦{花婿|はなむこ}→花婿：21346_hanamuko⟧: bride / groom — individual terms; ⟦{花嫁|はなよめ}→花嫁：04318_hanayome⟧ is especially common\n- ⟦カップル→カップル：19414_kappuru⟧: couple — casual loanword, not for wedding ceremonies\n- ⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧: married couple — established couple, not specifically newlyweds",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04318_hanayome",
+      "reading": "はなよめ",
+      "headword": "{花嫁|はなよめ}",
+      "label": "bride / groom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21346_hanamuko",
+      "reading": "はなむこ",
+      "headword": "{花婿|はなむこ}",
+      "label": "bride / groom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19414_kappuru",
+      "reading": "かっぷる",
+      "headword": "カップル",
+      "label": "couple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03592_fuufu",
+      "reading": "ふうふ",
+      "headword": "{夫婦|ふうふ}",
+      "label": "married couple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12879_shinkon",
+      "reading": "しんこん",
+      "headword": "{新婚|しんこん}",
+      "label": "newlywed, newly married"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +90,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture",
         "person"
@@ -61,6 +98,6 @@
       "domain": []
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

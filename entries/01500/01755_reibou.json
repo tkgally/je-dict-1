@@ -34,7 +34,7 @@
     },
     {
       "id": "01755_reibou_ex3",
-      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{冷房|れいぼう}なしでは⟦{過|す}ごせない→過ごす：02062_sugosu⟧。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{冷房|れいぼう}なし⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{過|す}ごせない→過ごす：02062_sugosu⟧。",
       "english": "I can't get through summer without air conditioning.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01755_reibou_ex5",
-      "japanese": "{冷房|れいぼう}⟦が→が：00051_ga⟧⟦{効|き}きすぎて→効く：01932_kiku⟧⟦{寒|さむ}くなった→寒い：00664_samui⟧ので、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
+      "japanese": "{冷房|れいぼう}⟦が→が：00051_ga⟧⟦{効|き}きすぎて→効く：01932_kiku⟧⟦{寒|さむ}くなった→寒い：00664_samui⟧⟦の→の：09472_no⟧で、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
       "english": "The air conditioning got too cold, so I raised the temperature a bit.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,32 @@
       "reading": "くーらー",
       "headword": "クーラー",
       "label": "cooling unit (slightly dated)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05282_eakon",
+      "reading": "えあこん",
+      "headword": "エアコン",
+      "label": "air conditioner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27362_kuuchou",
+      "reading": "くうちょう",
+      "headword": "{空調|くうちょう}",
+      "label": "climate control"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23691_soufuu",
+      "reading": "そうふう",
+      "headword": "{送風|そうふう}",
+      "label": "ventilation"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:15:25Z",
-    "modified": "2026-06-11T10:45:00Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

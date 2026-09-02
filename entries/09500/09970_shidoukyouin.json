@@ -14,41 +14,59 @@
   "examples": [
     {
       "id": "09970_shidoukyouin_ex1",
-      "japanese": "{指導教員|しどうきょういん}に{相談|そうだん}する。",
+      "japanese": "{指導教員|しどうきょういん}⟦に→に：00314_ni⟧⟦{相談|そうだん}する→相談する：01845_soudansuru⟧。",
       "english": "To consult with my academic advisor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09970_shidoukyouin_ex2",
-      "japanese": "{指導教員|しどうきょういん}のアドバイスで{研究|けんきゅう}の{方向性|ほうこうせい}が{決|き}まった。",
+      "japanese": "{指導教員|しどうきょういん}⟦の→の：09472_no⟧⟦アドバイス→アドバイス：10699_adobaisu⟧⟦で→で：00502_de⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦の→の：09472_no⟧⟦{方向性|ほうこうせい}→方向性：28189_houkousei⟧⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "My research direction was decided based on my advisor's advice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09970_shidoukyouin_ex3",
-      "japanese": "{大学院|だいがくいん}に{入|はい}る{前|まえ}に、{指導教員|しどうきょういん}を{選|えら}ぶ{必要|ひつよう}がある。",
+      "japanese": "⟦{大学院|だいがくいん}→大学院：04783_daigakuin⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、{指導教員|しどうきょういん}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Before entering graduate school, you need to choose an academic advisor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{指導教員|しどうきょういん} is a compound of {指導|しどう} (guidance) and {教員|きょういん} (faculty member).\n\nALTERNATIVE TERMS:\n- {指導教授|しどうきょうじゅ}: supervising professor\n- {担当教員|たんとうきょういん}: faculty in charge\n- ゼミの{先生|せんせい}: seminar instructor (informal)\n\nCOMMON EXPRESSIONS:\n- {指導教員|しどうきょういん}に{相談|そうだん}する: to consult with one's advisor\n- {指導教員|しどうきょういん}を{選|えら}ぶ: to choose an advisor\n- {指導教員|しどうきょういん}の{推薦状|すいせんじょう}: recommendation letter from advisor",
-  "cross_references": [],
+  "notes": "{指導教員|しどうきょういん} is a compound of ⟦{指導|しどう}→指導：03190_shidou⟧ (guidance) and ⟦{教員|きょういん}→教員：12942_kyouin⟧ (faculty member).\n\nALTERNATIVE TERMS:\n- {指導教授|しどうきょうじゅ}: supervising professor\n- {担当教員|たんとうきょういん}: faculty in charge\n- ⟦ゼミ→ゼミ：00434_zemi⟧⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧: seminar instructor (informal)\n\nCOMMON EXPRESSIONS:\n- {指導教員|しどうきょういん}⟦に→に：00314_ni⟧⟦{相談|そうだん}する→相談する：01845_soudansuru⟧: to consult with one's advisor\n- {指導教員|しどうきょういん}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose an advisor\n- {指導教員|しどうきょういん}⟦の→の：09472_no⟧⟦{推薦状|すいせんじょう}→推薦状：15195_suisenjou⟧: recommendation letter from advisor",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26490_shidoukyoukan",
+      "reading": "しどうきょうかん",
+      "headword": "{指導教官|しどうきょうかん}",
+      "label": "academic advisor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:03:09Z",
-    "modified": "2026-02-04T12:03:09Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

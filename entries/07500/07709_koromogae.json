@@ -2,7 +2,7 @@
   "id": "07709_koromogae",
   "headword": "{衣替|ころもが}え",
   "reading": "ころもがえ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "seasonal wardrobe change; switching between seasonal clothes",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07709_koromogae_ex1",
-      "japanese": "そろそろ{衣替|ころもが}えの{季節|きせつ}だ。",
+      "japanese": "⟦そろそろ→そろそろ：01259_sorosoro⟧{衣替|ころもが}え⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧だ。",
       "english": "It's about time for the seasonal clothing change.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07709_koromogae_ex2",
-      "japanese": "{衣替|ころもが}えで{冬服|ふゆふく}をしまった。",
+      "japanese": "{衣替|ころもが}えで⟦{冬服|ふゆふく}→冬服：23084_fuyufuku⟧⟦を→を：00422_wo⟧しまった。",
       "english": "I put away my winter clothes during the wardrobe change.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07709_koromogae_ex3",
-      "japanese": "{学校|がっこう}の{衣替|ころもが}えは{六月|ろくがつ}だ。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{衣替|ころもが}え⟦は→は：00079_ha⟧⟦{六月|ろくがつ}→六月：00662_rokugatsu⟧だ。",
       "english": "The school uniform change is in June.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,61 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{衣|ころも} (clothing - classical reading) + {替|か}え (change)\n\nCULTURAL NOTE:\nIn Japan, {衣替|ころもが}え traditionally occurs on June 1st (from winter to summer uniforms) and October 1st (from summer to winter). Schools and many companies follow this schedule for uniform changes.\n\nTYPICAL ACTIVITIES:\n・Packing away off-season clothes\n・Taking out seasonal clothes from storage\n・Cleaning or laundering stored items\n\nRELATED:\n・{模様替|もようが}え - room rearrangement\n・{冬支度|ふゆじたく} - winter preparation\n・{夏服|なつふく}/{冬服|ふゆふく} - summer/winter clothes",
+  "notes": "ETYMOLOGY:\n⟦{衣|ころも}→衣：14162_koromo⟧ (clothing - classical reading) + {替|か}え (change)\n\nCULTURAL NOTE:\nIn Japan, {衣替|ころもが}え traditionally occurs on June 1st (from winter to summer uniforms) and October 1st (from summer to winter). Schools and many companies follow this schedule for uniform changes.\n\nTYPICAL ACTIVITIES:\n- Packing away off-season clothes\n- Taking out seasonal clothes from storage\n- Cleaning or laundering stored items\n\nRELATED WORDS:\n- ⟦{模様替|もようが}え→模様替え：07708_moyougae⟧ - room rearrangement\n- {冬支度|ふゆじたく} - winter preparation\n- ⟦{夏服|なつふく}→夏服：23421_natsufuku⟧/⟦{冬服|ふゆふく}→冬服：23084_fuyufuku⟧ - summer/winter clothes",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07708_moyougae",
+      "reading": "もようがえ",
+      "headword": "{模様替|もようが}え",
+      "label": "room rearrangement"
+    },
+    {
+      "type": "related",
+      "target_id": "23421_natsufuku",
+      "reading": "なつふく",
+      "headword": "{夏服|なつふく}",
+      "label": "summer/winter clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "23084_fuyufuku",
+      "reading": "ふゆふく",
+      "headword": "{冬服|ふゆふく}",
+      "label": "summer/winter clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "19551_kuriiningu",
+      "reading": "くりーにんぐ",
+      "headword": "クリーニング",
+      "label": "dry cleaning"
+    },
+    {
+      "type": "related",
+      "target_id": "22758_kisetsugawari",
+      "reading": "きせつがわり",
+      "headword": "{季節替|きせつが}わり",
+      "label": "change of season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23085_koui",
+      "reading": "こうい",
+      "headword": "{更衣|こうい}",
+      "label": "changing clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "30667_natsumono",
+      "reading": "なつもの",
+      "headword": "{夏物|なつもの}",
+      "label": "summer clothing"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +193,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "clothing",
         "time-season"

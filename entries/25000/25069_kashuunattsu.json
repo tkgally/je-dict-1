@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25069_kashuunattsu_ex1",
-      "japanese": "カシューナッツが{好|す}きです。",
+      "japanese": "カシューナッツ⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧です。",
       "english": "I like cashew nuts.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25069_kashuunattsu_ex2",
-      "japanese": "{鶏肉|とりにく}とカシューナッツの{炒|いた}め{物|もの}を{注文|ちゅうもん}した。",
+      "japanese": "⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧⟦と→と：00512_to⟧カシューナッツ⟦の→の：09472_no⟧⟦{炒|いた}め{物|もの}→炒め物：08537_itamemono⟧⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered stir-fried chicken with cashew nuts.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25069_kashuunattsu_ex3",
-      "japanese": "カシューナッツは{栄養|えいよう}が{豊富|ほうふ}で、おやつにぴったりだ。",
+      "japanese": "カシューナッツ⟦は→は：00079_ha⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧で、⟦おやつ→おやつ：17921_oyatsu⟧⟦に→に：00314_ni⟧⟦ぴったり→ぴったり：02362_pittari⟧だ。",
       "english": "Cashew nuts are rich in nutrients and make a perfect snack.",
       "sense_numbers": [
         1
@@ -44,19 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "A popular nut in Japanese cuisine, especially in Chinese-style stir-fry dishes. Also commonly eaten as a snack, either plain or lightly salted.\n\nCOMMON COLLOCATIONS:\n- カシューナッツの{炒|いた}め{物|もの}: cashew nut stir-fry\n- {塩味|しおあじ}カシューナッツ: salted cashew nuts\n- カシューナッツアレルギー: cashew nut allergy\n- {素焼|すや}きカシューナッツ: dry-roasted cashew nuts\n\nRELATED TERMS:\n- アーモンド: almond\n- くるみ: walnut\n- ピスタチオ: pistachio\n- マカダミアナッツ: macadamia nut\n- ピーナッツ: peanut",
+  "notes": "A popular nut in Japanese cuisine, especially in Chinese-style stir-fry dishes. Also commonly eaten as a snack, either plain or lightly salted.\n\nCOMMON COLLOCATIONS:\n- カシューナッツ⟦の→の：09472_no⟧⟦{炒|いた}め{物|もの}→炒め物：08537_itamemono⟧: cashew nut stir-fry\n- ⟦{塩味|しおあじ}→塩味：12106_shioaji⟧カシューナッツ: salted cashew nuts\n- カシューナッツアレルギー: cashew nut allergy\n- ⟦{素焼|すや}き→素焼き：24657_suyaki⟧カシューナッツ: dry-roasted cashew nuts\n\nRELATED WORDS:\n- ⟦アーモンド→アーモンド：10714_aamondo⟧: almond\n- くるみ: walnut\n- ピスタチオ: pistachio\n- マカダミア⟦ナッツ→ナッツ：11253_nattsu⟧: macadamia nut\n- ⟦ピーナッツ→ピーナッツ：24214_piinattsu⟧: peanut",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10714_aamondo",
+      "reading": "あーもんど",
+      "headword": "アーモンド",
+      "label": "almond"
+    },
+    {
+      "type": "related",
+      "target_id": "13940_kurumi",
+      "reading": "くるみ",
+      "headword": "{胡桃|くるみ}",
+      "label": "walnut"
+    },
+    {
+      "type": "related",
+      "target_id": "24214_piinattsu",
+      "reading": "ぴーなっつ",
+      "headword": "ピーナッツ",
+      "label": "peanut"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ]
     },
     "created": "2026-04-22T13:16:54Z",
-    "modified": "2026-04-22T13:16:54Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

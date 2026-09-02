@@ -15,40 +15,101 @@
   "examples": [
     {
       "id": "19541_kigaraku_ex1",
-      "japanese": "ひとりの{方|ほう}が{気|き}が{楽|らく}だ。",
+      "japanese": "ひとり⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧{気|き}が{楽|らく}だ。",
       "english": "I feel more at ease being alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19541_kigaraku_ex2",
-      "japanese": "{締|し}め{切|き}りが{終|お}わって、やっと{気|き}が{楽|らく}になった。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦が→が：00051_ga⟧⟦{終|お}わって→終わる：00567_owaru⟧、⟦やっと→やっと：01561_yatto⟧{気|き}が{楽|らく}になった。",
       "english": "The deadline passed, and I finally felt relieved.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19541_kigaraku_ex3",
-      "japanese": "{正社員|せいしゃいん}を{辞|や}めてフリーランスになったら、{気|き}が{楽|らく}になった。",
+      "japanese": "⟦{正社員|せいしゃいん}→正社員：13194_seishain⟧⟦を→を：00422_wo⟧{辞|や}めて⟦フリーランス→フリーランス：06152_furiiransu⟧になったら、{気|き}が{楽|らく}になった。",
       "english": "After quitting my full-time job and going freelance, I felt much more at ease.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "One of many {気|き}が～ expressions in Japanese. Here, {気|き} refers to one's mental/emotional state, and {楽|らく} means comfortable or easy. The expression describes the relief of being freed from pressure, obligation, or worry.\n\nCOMMON PATTERNS:\n- {気|き}が{楽|らく}になる — to become relieved, to feel more at ease\n- {気|き}が{楽|らく}だ — to feel at ease\n- ～の{方|ほう}が{気|き}が{楽|らく} — to feel more at ease with ～\n\nRELATED {気|き}が～ EXPRESSIONS:\n- {気|き}が{重|おも}い — to feel weighed down, reluctant (opposite)\n- {気|き}が{気|き}でない — anxious, restless\n- {気|き}が{済|す}む — to feel satisfied\n- {気|き}が{進|すす}まない — reluctant, not in the mood\n\nSIMILAR WORDS:\n- ほっとする — to feel relieved; more about a specific moment of relief\n- {安心|あんしん}する — to feel reassured; implies receiving specific reassurance\n- {気楽|きらく} — carefree, easygoing; describes a general attitude or lifestyle",
+  "notes": "One of many ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧～ expressions in Japanese. Here, ⟦{気|き}→気：02199_ki⟧ refers to one's mental/emotional state, and ⟦{楽|らく}→楽：02169_raku⟧ means comfortable or easy. The expression describes the relief of being freed from pressure, obligation, or worry.\n\nCOMMON PATTERNS:\n- {気|き}が{楽|らく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ — to become relieved, to feel more at ease\n- {気|き}が{楽|らく}だ — to feel at ease\n- ～⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧{気|き}が{楽|らく} — to feel more at ease with ～\n\nRELATED {気|き}が～ EXPRESSIONS:\n- ⟦{気|き}が{重|おも}い→気が重い：06881_kigaomoi⟧ — to feel weighed down, reluctant (opposite)\n- ⟦{気|き}が{気|き}でない→気が気でない：19540_kigakidenai⟧ — anxious, restless\n- ⟦{気|き}が{済|す}む→気が済む：25847_kigasumu⟧ — to feel satisfied\n- ⟦{気|き}が{進|すす}まない→気が進まない：18483_kigasusumanai⟧ — reluctant, not in the mood\n\nSIMILAR WORDS:\n- ⟦ほっとする→ほっとする：07652_hottosuru⟧ — to feel relieved; more about a specific moment of relief\n- ⟦{安心|あんしん}する→安心する：06067_anshinsuru⟧ — to feel reassured; implies receiving specific reassurance\n- ⟦{気楽|きらく}→気楽：07159_kiraku⟧ — carefree, easygoing; describes a general attitude or lifestyle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "06881_kigaomoi",
+      "reading": "きがおもい",
+      "headword": "{気|き}が{重|おも}い",
+      "label": "to feel weighed down, reluctant"
+    },
+    {
+      "type": "related",
+      "target_id": "19540_kigakidenai",
+      "reading": "きがきでない",
+      "headword": "{気|き}が{気|き}でない",
+      "label": "anxious, restless"
+    },
+    {
+      "type": "related",
+      "target_id": "25847_kigasumu",
+      "reading": "きがすむ",
+      "headword": "{気|き}が{済|す}む",
+      "label": "to feel satisfied"
+    },
+    {
+      "type": "related",
+      "target_id": "18483_kigasusumanai",
+      "reading": "きがすすまない",
+      "headword": "{気|き}が{進|すす}まない",
+      "label": "reluctant, not in the mood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07652_hottosuru",
+      "reading": "ほっとする",
+      "headword": "ほっとする",
+      "label": "to feel relieved"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06067_anshinsuru",
+      "reading": "あんしんする",
+      "headword": "{安心|あんしん}する",
+      "label": "to feel reassured"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07159_kiraku",
+      "reading": "きらく",
+      "headword": "{気楽|きらく}",
+      "label": "carefree, easygoing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-03-26T04:22:29Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

@@ -15,40 +15,58 @@
   "examples": [
     {
       "id": "11739_rettou_ex1",
-      "japanese": "{日本|にほん}{列島|れっとう}は{南北|なんぼく}に{長|なが}い。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧{列島|れっとう}⟦は→は：00079_ha⟧⟦{南北|なんぼく}→南北：04287_nanboku⟧⟦に→に：00314_ni⟧⟦{長|なが}い→長い：00491_nagai⟧。",
       "english": "The Japanese archipelago is long from north to south.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11739_rettou_ex2",
-      "japanese": "{台風|たいふう}が{列島|れっとう}を{縦断|じゅうだん}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧{列島|れっとう}⟦を→を：00422_wo⟧⟦{縦断|じゅうだん}→縦断：09035_juudan⟧⟦した→する：00392_suru⟧。",
       "english": "The typhoon passed through the archipelago from end to end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11739_rettou_ex3",
-      "japanese": "{日本|にほん}{列島|れっとう}は{四|よっ}つの{大|おお}きな{島|しま}と{多数|たすう}の{小|ちい}さな{島|しま}で{構成|こうせい}されている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧{列島|れっとう}⟦は→は：00079_ha⟧⟦{四|よっ}つ→四つ：03039_yottsu⟧⟦の→の：09472_no⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{島|しま}→島：00885_shima⟧⟦と→と：00512_to⟧⟦{多数|たすう}→多数：05612_tasuu⟧⟦の→の：09472_no⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{島|しま}→島：00885_shima⟧⟦で→で：00502_de⟧⟦{構成|こうせい}→構成：02729_kousei⟧⟦されている→する：00392_suru⟧。",
       "english": "The Japanese archipelago is made up of four large islands and numerous small ones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {列|れつ} (row, line) + {島|とう} (island). Most commonly encountered in the phrase {日本|にほん}{列島|れっとう} (the Japanese archipelago).\n\nCOMMON COLLOCATIONS:\n・{日本|にほん}{列島|れっとう} (the Japanese archipelago)\n・{列島|れっとう}を{縦断|じゅうだん}する (to traverse the archipelago)\n・{列島|れっとう}{全体|ぜんたい} (the entire archipelago)\n・{列島|れっとう}{各地|かくち} (various parts of the archipelago)\n\nUSAGE NOTES:\nIn weather forecasts and news, {列島|れっとう} alone often refers to Japan: {列島|れっとう}に{寒波|かんぱ}が{到来|とうらい} (a cold wave hits the archipelago = Japan). This usage is so common that the word is strongly associated with Japan in everyday Japanese.",
-  "cross_references": [],
+  "notes": "Compound of ⟦{列|れつ}→列：02171_retsu⟧ (row, line) + {島|とう} (island). Most commonly encountered in the phrase ⟦{日本|にほん}→日本：03876_nihon⟧{列島|れっとう} (the Japanese archipelago).\n\nCOMMON COLLOCATIONS:\n- ⟦{日本|にほん}→日本：03876_nihon⟧{列島|れっとう} (the Japanese archipelago)\n- {列島|れっとう}⟦を→を：00422_wo⟧⟦{縦断|じゅうだん}→縦断：09035_juudan⟧⟦する→する：00392_suru⟧ (to traverse the archipelago)\n- {列島|れっとう}⟦{全体|ぜんたい}→全体：03314_zentai⟧ (the entire archipelago)\n- {列島|れっとう}⟦{各地|かくち}→各地：00155_kakuchi⟧ (various parts of the archipelago)\n\nUSAGE:\nIn weather forecasts and news, {列島|れっとう} alone often refers to Japan: {列島|れっとう}⟦に→に：00314_ni⟧⟦{寒波|かんぱ}→寒波：12354_kanpa⟧⟦が→が：00051_ga⟧⟦{到来|とうらい}→到来：11788_tourai⟧ (a cold wave hits the archipelago = Japan). This usage is so common that the word is strongly associated with Japan in everyday Japanese.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21165_shimajima",
+      "reading": "しまじま",
+      "headword": "{島々|しまじま}",
+      "label": "islands"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T22:49:38Z",
-    "modified": "2026-02-17T22:49:38Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

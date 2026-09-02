@@ -3,7 +3,7 @@
   "id": "14915_saien",
   "headword": "{再演|さいえん}",
   "reading": "さいえん",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "revival; repeat performance",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14915_saien_ex1",
-      "japanese": "{人気|にんき}ミュージカルが{再演|さいえん}される。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧ミュージカル⟦が→が：00051_ga⟧{再演|さいえん}⟦される→する：00392_suru⟧。",
       "english": "The popular musical will have a revival performance.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14915_saien_ex2",
-      "japanese": "{初演|しょえん}から{十年|じゅうねん}ぶりの{再演|さいえん}が{決定|けってい}した。",
+      "japanese": "{初演|しょえん}⟦から→から：00504_kara⟧{十年|じゅうねん}⟦ぶり→〜ぶり：28358_buri⟧⟦の→の：09472_no⟧{再演|さいえん}⟦が→が：00051_ga⟧⟦{決定|けってい}した→決定する：21022_ketteisuru⟧。",
       "english": "A revival has been announced for the first time in ten years since the premiere.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14915_saien_ex3",
-      "japanese": "ファンの{熱望|ねつぼう}に{応|こた}え、{演出|えんしゅつ}を{一新|いっしん}した{再演|さいえん}が{来春|らいしゅん}{上演|じょうえん}される{予定|よてい}だ。",
+      "japanese": "⟦ファン→ファン：10065_fan⟧⟦の→の：09472_no⟧⟦{熱望|ねつぼう}→熱望：18643_netsubou⟧⟦に→に：00314_ni⟧⟦{応|こた}え→応える：09893_kotaeru⟧、⟦{演出|えんしゅつ}→演出：04460_enshutsu⟧⟦を→を：00422_wo⟧⟦{一新|いっしん}→一新：19941_isshin⟧⟦した→する：00392_suru⟧{再演|さいえん}⟦が→が：00051_ga⟧⟦{来春|らいしゅん}→来春：27524_raishun⟧⟦{上演|じょうえん}→上演：11297_jouen⟧⟦される→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "In response to the fans' passionate requests, a restaging with a fresh direction is scheduled for next spring.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{再演|さいえん} is a performing arts term used for stage productions (plays, musicals, operas) that are performed again. It can be used as a noun or with する. The antonym of sorts is {初演|しょえん} (premiere).\n\nCOMMON COLLOCATIONS:\n- {再演|さいえん}する (to revive, to restage)\n- {再演|さいえん}が{決定|けってい}する (a revival is decided)\n- {再演|さいえん}を{望|のぞ}む (to hope for a revival)\n- {再演|さいえん}{公演|こうえん} (revival performance)\n\nSIMILAR WORDS:\n- {再演|さいえん}: revival performance (same production staged again)\n- {初演|しょえん}: premiere (first performance)\n- {再放送|さいほうそう}: rebroadcast, rerun (for TV/radio)\n- {再上映|さいじょうえい}: re-screening (for films)",
-  "cross_references": [],
+  "notes": "USAGE:\n{再演|さいえん} is a performing arts term used for stage productions (plays, musicals, operas) that are performed again. It can be used as a noun or with ⟦する→する：00392_suru⟧. The antonym of sorts is {初演|しょえん} (premiere).\n\nCOMMON COLLOCATIONS:\n- {再演|さいえん}⟦する→する：00392_suru⟧ (to revive, to restage)\n- {再演|さいえん}⟦が→が：00051_ga⟧⟦{決定|けってい}する→決定する：21022_ketteisuru⟧ (a revival is decided)\n- {再演|さいえん}⟦を→を：00422_wo⟧⟦{望|のぞ}む→望む：01976_nozomu⟧ (to hope for a revival)\n- {再演|さいえん}⟦{公演|こうえん}→公演：11639_kouen⟧ (revival performance)\n\nSIMILAR WORDS:\n- {再演|さいえん}: revival performance (same production staged again)\n- {初演|しょえん}: premiere (first performance)\n- ⟦{再放送|さいほうそう}→再放送：08173_saihousou⟧: rebroadcast, rerun (for TV/radio)\n- {再上映|さいじょうえい}: re-screening (for films)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08173_saihousou",
+      "reading": "さいほうそう",
+      "headword": "{再放送|さいほうそう}",
+      "label": "rebroadcast, rerun"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:55:09Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24189_migigawa_ex1",
-      "japanese": "{右側|みぎがわ}に{座|すわ}る。",
+      "japanese": "{右側|みぎがわ}⟦に→に：00314_ni⟧⟦{座|すわ}る→座る：00757_suwaru⟧。",
       "english": "Sit on the right side.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24189_migigawa_ex2",
-      "japanese": "{道|みち}の{右側|みぎがわ}を{歩|ある}いてください。",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧{右側|みぎがわ}⟦を→を：00422_wo⟧⟦{歩|ある}いて→歩く：00538_aruku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please walk on the right side of the road.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24189_migigawa_ex3",
-      "japanese": "{右側|みぎがわ}の{棚|たな}に{資料|しりょう}が{並|なら}んでいます。",
+      "japanese": "{右側|みぎがわ}⟦の→の：09472_no⟧⟦{棚|たな}→棚：01650_tana⟧⟦に→に：00314_ni⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいます→並ぶ：00605_narabu⟧。",
       "english": "Documents are lined up on the right-side shelf.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "24189_migigawa_ex4",
-      "japanese": "{交差点|こうさてん}を{過|す}ぎたら、{右側|みぎがわ}に{大|おお}きな{公園|こうえん}が{見|み}えます。",
+      "japanese": "⟦{交差点|こうさてん}→交差点：01404_kousaten⟧⟦を→を：00422_wo⟧⟦{過|す}ぎたら→過ぎる：01219_sugiru⟧、{右側|みぎがわ}⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦が→が：00051_ga⟧⟦{見|み}えます→見える：01165_mieru⟧。",
       "english": "After passing the intersection, you'll see a large park on the right side.",
       "sense_numbers": [
         1
@@ -55,16 +55,33 @@
       "notes": null
     }
   ],
-  "notes": "{右|みぎ} (right) + {側|がわ} (side). Used to specify the right-hand side of a road, building, body, or any spatial reference point.\n\nCOMMON COLLOCATIONS:\n- {右側|みぎがわ}を{歩|ある}く: walk on the right side\n- {右側|みぎがわ}に{寄|よ}る: move to the right side\n- {右側|みぎがわ}{通行|つうこう}: right-side traffic\n- {体|からだ}の{右側|みぎがわ}: right side of the body\n\nSIMILAR WORDS:\n- {左側|ひだりがわ}: left side — the opposite direction\n- {右手|みぎて}: right hand, but also used to mean \"on the right\" in directional contexts\n- {右|みぎ}: right — more general, while {右側|みぎがわ} specifically emphasizes the side\n\nUSAGE:\nIn Japan, pedestrians walk on the {右側|みぎがわ} of the road when there is no sidewalk, while vehicles drive on the left. This is the opposite of many other countries.",
-  "cross_references": [],
+  "notes": "⟦{右|みぎ}→右：02257_migi⟧ (right) + ⟦{側|がわ}→〜側：03090_gawa⟧ (side). Used to specify the right-hand side of a road, building, body, or any spatial reference point.\n\nCOMMON COLLOCATIONS:\n- {右側|みぎがわ}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: walk on the right side\n- {右側|みぎがわ}⟦に→に：00314_ni⟧⟦{寄|よ}る→寄る：02440_yoru⟧: move to the right side\n- {右側|みぎがわ}⟦{通行|つうこう}→通行：03436_tsuukou⟧: right-side traffic\n- ⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧{右側|みぎがわ}: right side of the body\n\nSIMILAR WORDS:\n- ⟦{左側|ひだりがわ}→左側：22836_hidarigawa⟧: left side — the opposite direction\n- ⟦{右手|みぎて}→右手：10438_migite⟧: right hand, but also used to mean \"on the right\" in directional contexts\n- ⟦{右|みぎ}→右：02257_migi⟧: right — more general, while {右側|みぎがわ} specifically emphasizes the side\n\nUSAGE:\nIn Japan, pedestrians walk on the {右側|みぎがわ} of the road when there is no sidewalk, while vehicles drive on the left. This is the opposite of many other countries.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22836_hidarigawa",
+      "reading": "ひだりがわ",
+      "headword": "{左側|ひだりがわ}",
+      "label": "left side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10438_migite",
+      "reading": "みぎて",
+      "headword": "{右手|みぎて}",
+      "label": "right hand, but also used to mean \"on…"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:06:39Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T04:02:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "direction",
         "geography"

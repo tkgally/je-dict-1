@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15636_saiken_ex1",
-      "japanese": "{国債|こくさい}は{政府|せいふ}が{発行|はっこう}する{債券|さいけん}だ。",
+      "japanese": "⟦{国債|こくさい}→国債：12016_kokusai⟧⟦は→は：00079_ha⟧⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧{債券|さいけん}だ。",
       "english": "Government bonds are bonds issued by the government.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15636_saiken_ex2",
-      "japanese": "{債券|さいけん}の{利回|りまわ}りが{上昇|じょうしょう}している。",
+      "japanese": "{債券|さいけん}⟦の→の：09472_no⟧⟦{利回|りまわ}り→利回り：18661_rimawari⟧⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}している→上昇する：21681_joushousuru⟧。",
       "english": "Bond yields are rising.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15636_saiken_ex3",
-      "japanese": "{安全|あんぜん}な{投資先|とうしさき}として、{債券|さいけん}をポートフォリオに{組|く}み{入|い}れるのが{一般的|いっぱんてき}だ。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧な{投資先|とうしさき}⟦として→として：06802_toshite⟧、{債券|さいけん}⟦を→を：00422_wo⟧ポートフォリオ⟦に→に：00314_ni⟧{組|く}み{入|い}れる⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だ。",
       "english": "It is common to include bonds in a portfolio as a safe investment.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{債券|さいけん} is a financial term used in investing, banking, and economics. It covers both government bonds ({国債|こくさい}) and corporate bonds ({社債|しゃさい}). Not to be confused with the homophone {債権|さいけん} (a creditor's right or claim).\n\nCOMMON COLLOCATIONS:\n- {債券|さいけん}{市場|しじょう} (bond market)\n- {債券|さいけん}を{発行|はっこう}する (to issue bonds)\n- {債券|さいけん}の{利回|りまわ}り (bond yield)\n- {社債|しゃさい} (corporate bond)\n- {国債|こくさい} (government bond)\n\nSIMILAR WORDS:\n- {株式|かぶしき}: stock, shares (equity investment)\n- {債権|さいけん}: claim, credit (a creditor's right — different kanji)\n- {国債|こくさい}: government bond (specific type)",
-  "cross_references": [],
+  "notes": "USAGE:\n{債券|さいけん} is a financial term used in investing, banking, and economics. It covers both government bonds (⟦{国債|こくさい}→国債：12016_kokusai⟧) and corporate bonds (⟦{社債|しゃさい}→社債：24079_shasai⟧). Not to be confused with the homophone ⟦{債権|さいけん}→債権：08870_saiken⟧ (a creditor's right or claim).\n\nCOMMON COLLOCATIONS:\n- {債券|さいけん}⟦{市場|しじょう}→市場：09685_shijou⟧ (bond market)\n- {債券|さいけん}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧ (to issue bonds)\n- {債券|さいけん}⟦の→の：09472_no⟧⟦{利回|りまわ}り→利回り：18661_rimawari⟧ (bond yield)\n- ⟦{社債|しゃさい}→社債：24079_shasai⟧ (corporate bond)\n- ⟦{国債|こくさい}→国債：12016_kokusai⟧ (government bond)\n\nSIMILAR WORDS:\n- ⟦{株式|かぶしき}→株式：04772_kabushiki⟧: stock, shares (equity investment)\n- ⟦{債権|さいけん}→債権：08870_saiken⟧: claim, credit (a creditor's right — different kanji)\n- ⟦{国債|こくさい}→国債：12016_kokusai⟧: government bond (specific type)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04772_kabushiki",
+      "reading": "かぶしき",
+      "headword": "{株式|かぶしき}",
+      "label": "stock, shares"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12016_kokusai",
+      "reading": "こくさい",
+      "headword": "{国債|こくさい}",
+      "label": "government bond"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-03-07T13:43:42Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

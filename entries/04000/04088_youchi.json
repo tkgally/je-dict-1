@@ -78,10 +78,40 @@
       ]
     }
   ],
-  "notes": "USAGE: {幼稚|ようち} has two main contexts:\n1. Negative: describing immature or childish behavior in adults (pejorative)\n2. Neutral: relating to early childhood education\n\nCOMMON PATTERNS:\n・{幼稚|ようち}な⟦{考|かんが}え→考え：00855_kangae⟧ (childish thinking)\n・{幼稚|ようち}な⟦{行動|こうどう}→行動：02728_koudou⟧ (immature behavior)\n\nCOMPOUND:\n・⟦{幼稚|ようち}{園|えん}→幼稚園：04703_youchien⟧ (kindergarten) - very common word using neutral sense\n\nRELATED:\n・⟦{子供|こども}っぽい→子供っぽい：16825_kodomoppoi⟧ - childish (more colloquial)\n・⟦{未熟|みじゅく}→未熟：13015_mijuku⟧ - immature, inexperienced\n・⟦{大人|おとな}げない→大人げない：28411_otonagenai⟧ - unbecoming of an adult",
+  "notes": "USAGE: {幼稚|ようち} has two main contexts:\n1. Negative: describing immature or childish behavior in adults (pejorative)\n2. Neutral: relating to early childhood education\n\nCOMMON PATTERNS:\n- {幼稚|ようち}な⟦{考|かんが}え→考え：00855_kangae⟧ (childish thinking)\n- {幼稚|ようち}な⟦{行動|こうどう}→行動：02728_koudou⟧ (immature behavior)\n\nCOMPOUNDS:\n- ⟦{幼稚|ようち}{園|えん}→幼稚園：04703_youchien⟧ (kindergarten) - very common word using neutral sense\n\nRELATED WORDS:\n- ⟦{子供|こども}っぽい→子供っぽい：16825_kodomoppoi⟧ - childish (more colloquial)\n- ⟦{未熟|みじゅく}→未熟：13015_mijuku⟧ - immature, inexperienced\n- ⟦{大人|おとな}げない→大人げない：28411_otonagenai⟧ - unbecoming of an adult",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16825_kodomoppoi",
+      "reading": "こどもっぽい",
+      "headword": "{子供|こども}っぽい",
+      "label": "childish"
+    },
+    {
+      "type": "related",
+      "target_id": "13015_mijuku",
+      "reading": "みじゅく",
+      "headword": "{未熟|みじゅく}",
+      "label": "immature, inexperienced"
+    },
+    {
+      "type": "related",
+      "target_id": "28411_otonagenai",
+      "reading": "おとなげない",
+      "headword": "{大人|おとな}げない",
+      "label": "unbecoming of an adult"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26985_miseijuku",
+      "reading": "みせいじゅく",
+      "headword": "{未成熟|みせいじゅく}",
+      "label": "immature"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

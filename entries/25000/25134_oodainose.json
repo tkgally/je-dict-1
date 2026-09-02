@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25134_oodainose_ex1",
-      "japanese": "{株価|かぶか}が{大台乗|おおだいの}せした。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{大台乗|おおだいの}せ⟦した→する：00392_suru⟧。",
       "english": "The stock price crossed a major milestone.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25134_oodainose_ex2",
-      "japanese": "{売上|うりあげ}の{大台乗|おおだいの}せを{目指|めざ}している。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦の→の：09472_no⟧{大台乗|おおだいの}せ⟦を→を：00422_wo⟧⟦{目指|めざ}している→目指す：10528_mezasu⟧。",
       "english": "We're aiming to hit the next major sales milestone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25134_oodainose_ex3",
-      "japanese": "{日経平均|にっけいへいきん}が{四万円|よんまんえん}の{大台乗|おおだいの}せを{達成|たっせい}し、{市場|しじょう}は{活気|かっき}づいた。",
+      "japanese": "{日経平均|にっけいへいきん}⟦が→が：00051_ga⟧{四万円|よんまんえん}⟦の→の：09472_no⟧{大台乗|おおだいの}せ⟦を→を：00422_wo⟧⟦{達成|たっせい}→達成：04816_tassei⟧し、⟦{市場|しじょう}→市場：09685_shijou⟧⟦は→は：00079_ha⟧⟦{活気|かっき}→活気：02554_kakki⟧づいた。",
       "english": "The Nikkei average crossed the 40,000-yen milestone, energizing the market.",
       "sense_numbers": [
         1
@@ -44,19 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Combines {大台|おおだい} (major level, round-number threshold) and {乗|の}せ (placing on, putting onto). {大台|おおだい} originally refers to the high-value digit columns on an abacus. In modern usage, it means a significant round number (e.g., 10,000, 100,000, 1 million). Commonly used in financial news, sports statistics, and age milestones.\n\nCOMMON COLLOCATIONS:\n- {大台乗|おおだいの}せを{達成|たっせい}する: to achieve a major milestone\n- {大台乗|おおだいの}せを{果|は}たす: to accomplish a major milestone\n- {久|ひさ}しぶりの{大台乗|おおだいの}せ: first milestone-crossing in a long time\n- {初|はつ}の{大台乗|おおだいの}せ: first time crossing a major milestone\n\nSIMILAR WORDS:\n- {大台割|おおだいわ}れ: falling below a major milestone — the opposite, when a value drops below a round-number threshold\n- {大台|おおだい}: major level; major milestone — the threshold itself\n- {突破|とっぱ}: breakthrough — a more general term for surpassing a limit or barrier",
+  "notes": "Combines ⟦{大台|おおだい}→大台：12249_oodai⟧ (major level, round-number threshold) and {乗|の}せ (placing on, putting onto). ⟦{大台|おおだい}→大台：12249_oodai⟧ originally refers to the high-value digit columns on an abacus. In modern usage, it means a significant round number (e.g., 10,000, 100,000, 1 million). Commonly used in financial news, sports statistics, and age milestones.\n\nCOMMON COLLOCATIONS:\n- {大台乗|おおだいの}せ⟦を→を：00422_wo⟧⟦{達成|たっせい}する→達成する：22183_tasseisuru⟧: to achieve a major milestone\n- {大台乗|おおだいの}せ⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to accomplish a major milestone\n- ⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦の→の：09472_no⟧{大台乗|おおだいの}せ: first milestone-crossing in a long time\n- ⟦{初|はつ}→初：10632_hatsu⟧⟦の→の：09472_no⟧{大台乗|おおだいの}せ: first time crossing a major milestone\n\nSIMILAR WORDS:\n- ⟦{大台割|おおだいわ}れ→大台割れ：26057_oodaiware⟧: falling below a major milestone — the opposite, when a value drops below a round-number threshold\n- ⟦{大台|おおだい}→大台：12249_oodai⟧: major level; major milestone — the threshold itself\n- ⟦{突破|とっぱ}→突破：13755_toppa⟧: breakthrough — a more general term for surpassing a limit or barrier",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26057_oodaiware",
+      "reading": "おおだいわれ",
+      "headword": "{大台割|おおだいわ}れ",
+      "label": "falling below a major milestone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13755_toppa",
+      "reading": "とっぱ",
+      "headword": "{突破|とっぱ}",
+      "label": "breakthrough"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "economics"
       ]
     },
     "created": "2026-04-23T11:29:37Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

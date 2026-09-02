@@ -174,7 +174,7 @@
     },
     {
       "id": "01795_itami_ex16",
-      "japanese": "⟦この→この：00962_kono⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧ので、⟦あちこち→あちこち：01687_achikochi⟧⟦に→に：00314_ni⟧{痛|いた}み⟦が→が：00051_ga⟧⟦{出|で}てきている→出る：00513_deru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧⟦の→の：09472_no⟧で、⟦あちこち→あちこち：01687_achikochi⟧⟦に→に：00314_ni⟧{痛|いた}み⟦が→が：00051_ga⟧⟦{出|で}てきている→出る：00513_deru⟧。",
       "english": "Since this house is old, damage is appearing here and there.",
       "notes": null,
       "has_audio": false,
@@ -191,11 +191,25 @@
       "headword": "{痛|いた}い",
       "label": "painful, sore (adjective)",
       "target_id": "01108_itai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02652_kutsuu",
+      "reading": "くつう",
+      "headword": "{苦痛|くつう}",
+      "label": "pain, agony, suffering"
+    },
+    {
+      "type": "related",
+      "target_id": "23239_jikakushoujou",
+      "reading": "じかくしょうじょう",
+      "headword": "{自覚症状|じかくしょうじょう}",
+      "label": "subjective symptoms"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-06-14T18:20:58Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

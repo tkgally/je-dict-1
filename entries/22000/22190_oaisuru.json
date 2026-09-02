@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22190_oaisuru_ex1",
-      "japanese": "お{会|あ}いできて{嬉|うれ}しいです。",
+      "japanese": "お⟦{会|あ}い→会う：00482_au⟧⟦できて→できる：00557_dekiru⟧⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧です。",
       "english": "I'm pleased to meet you.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22190_oaisuru_ex2",
-      "japanese": "{明日|あした}、{社長|しゃちょう}にお{会|あ}いする{予定|よてい}です。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧、⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦に→に：00314_ni⟧お{会|あ}いする⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "I'm scheduled to meet the company president tomorrow.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22190_oaisuru_ex3",
-      "japanese": "{先日|せんじつ}お{会|あ}いしたときに、プロジェクトについてお{話|はなし}を{伺|うかが}いました。",
+      "japanese": "⟦{先日|せんじつ}→先日：03305_senjitsu⟧お{会|あ}いしたとき⟦に→に：00314_ni⟧、⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦について→〜について：03103_nitsuite⟧お⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{伺|うかが}いました。",
       "english": "When I met with you the other day, I heard about the project.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "One of the most commonly used humble expressions. Follows the お＋stem＋する humble pattern. Essential for business Japanese and formal introductions.\n\nCOMMON PATTERNS:\n- お{会|あ}いできて{嬉|うれ}しいです — Nice to meet you (standard greeting at first meetings)\n- またお{会|あ}いしましょう — Let's meet again\n- お{会|あ}いする{機会|きかい} — an opportunity to meet\n\nPOLITENESS LEVELS:\n- {会|あ}う — plain, neutral\n- お{会|あ}いする — humble (used about one's own action of meeting someone respected)\n- お{会|あ}いになる — honorific (used about a superior's action of meeting someone)\n\nUSAGE NOTE:\nDo not use お{会|あ}いする when talking about meeting friends or family in casual conversation. It is specifically for showing respect in formal contexts.",
+  "notes": "One of the most commonly used humble expressions. Follows the お＋stem＋⟦する→する：00392_suru⟧ humble pattern. Essential for business Japanese and formal introductions.\n\nCOMMON PATTERNS:\n- お⟦{会|あ}い→会う：00482_au⟧⟦できて→できる：00557_dekiru⟧⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧です — Nice to meet you (standard greeting at first meetings)\n- ⟦また→また：00969_mata⟧お{会|あ}いしましょう — Let's meet again\n- お{会|あ}いする⟦{機会|きかい}→機会：01302_kikai⟧ — an opportunity to meet\n\nPOLITENESS LEVELS:\n- ⟦{会|あ}う→会う：00482_au⟧ — plain, neutral\n- お{会|あ}いする — humble (used about one's own action of meeting someone respected)\n- お⟦{会|あ}い→会う：00482_au⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ — honorific (used about a superior's action of meeting someone)\n\nUSAGE:\nDo not use お{会|あ}いする when talking about meeting friends or family in casual conversation. It is specifically for showing respect in formal contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02785_omenikakaru",
+      "reading": "おめにかかる",
+      "headword": "お{目|め}に{掛|か}かる",
+      "label": "to meet (humble)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-05T04:32:20Z",
-    "modified": "2026-06-15T07:58:48Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

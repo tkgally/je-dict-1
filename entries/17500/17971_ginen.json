@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17971_ginen_ex1",
-      "japanese": "{彼|かれ}の{説明|せつめい}に{疑念|ぎねん}を{抱|いだ}いた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦に→に：00314_ni⟧{疑念|ぎねん}⟦を→を：00422_wo⟧⟦{抱|いだ}いた→抱く：02010_idaku⟧。",
       "english": "I harbored doubts about his explanation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17971_ginen_ex2",
-      "japanese": "{疑念|ぎねん}が{晴|は}れなかった。",
+      "japanese": "{疑念|ぎねん}⟦が→が：00051_ga⟧⟦{晴|は}れなかった→晴れる：00701_hareru⟧。",
       "english": "My doubts were not cleared.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17971_ginen_ex3",
-      "japanese": "{国民|こくみん}の{間|あいだ}に{政府|せいふ}への{疑念|ぎねん}が{広|ひろ}がっている。",
+      "japanese": "⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦{政府|せいふ}→政府：03294_seifu⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{疑念|ぎねん}⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Suspicion toward the government is spreading among the people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal, somewhat literary word. More serious and weighty than {疑問|ぎもん} (question/doubt). Often implies lingering distrust that is difficult to resolve.\n\nCOMMON COLLOCATIONS:\n- {疑念|ぎねん}を{抱|いだ}く (harbor doubts)\n- {疑念|ぎねん}が{生|しょう}じる (doubts arise)\n- {疑念|ぎねん}が{晴|は}れる (doubts are cleared)\n- {疑念|ぎねん}を{払拭|ふっしょく}する (dispel doubts)\n\nSIMILAR WORDS:\n- {疑問|ぎもん}: question, doubt — lighter; often just an intellectual question rather than distrust\n- {不信|ふしん}: distrust — focuses specifically on lack of trust in a person or institution\n- {懐疑|かいぎ}: skepticism — philosophical or systematic doubt",
+  "notes": "USAGE:\nA formal, somewhat literary word. More serious and weighty than ⟦{疑問|ぎもん}→疑問：02648_gimon⟧ (question/doubt). Often implies lingering distrust that is difficult to resolve.\n\nCOMMON COLLOCATIONS:\n- {疑念|ぎねん}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧ (harbor doubts)\n- {疑念|ぎねん}⟦が→が：00051_ga⟧⟦{生|しょう}じる→生じる：02118_shoujiru⟧ (doubts arise)\n- {疑念|ぎねん}⟦が→が：00051_ga⟧⟦{晴|は}れる→晴れる：00701_hareru⟧ (doubts are cleared)\n- {疑念|ぎねん}⟦を→を：00422_wo⟧⟦{払拭|ふっしょく}→払拭：09461_fusshoku⟧⟦する→する：00392_suru⟧ (dispel doubts)\n\nSIMILAR WORDS:\n- ⟦{疑問|ぎもん}→疑問：02648_gimon⟧: question, doubt — lighter; often just an intellectual question rather than distrust\n- ⟦{不信|ふしん}→不信：18313_fushin⟧: distrust — focuses specifically on lack of trust in a person or institution\n- ⟦{懐疑|かいぎ}→懐疑：12856_kaigi⟧: skepticism — philosophical or systematic doubt",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,19 +52,46 @@
       "reading": "ぎもん",
       "headword": "{疑問|ぎもん}",
       "label": "doubt (lighter)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18313_fushin",
+      "reading": "ふしん",
+      "headword": "{不信|ふしん}",
+      "label": "distrust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12856_kaigi",
+      "reading": "かいぎ",
+      "headword": "{懐疑|かいぎ}",
+      "label": "skepticism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16762_fushinkan",
+      "reading": "ふしんかん",
+      "headword": "{不信感|ふしんかん}",
+      "label": "distrust"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:06:22Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "style": ["written"]
+      "semantic": [
+        "cognition"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

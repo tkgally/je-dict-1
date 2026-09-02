@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15982_seidoku_ex1",
-      "japanese": "この{論文|ろんぶん}は{精読|せいどく}が{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦は→は：00079_ha⟧{精読|せいどく}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "This paper requires careful reading.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15982_seidoku_ex2",
-      "japanese": "{古典|こてん}を{精読|せいどく}して{理解|りかい}を{深|ふか}めた。",
+      "japanese": "⟦{古典|こてん}→古典：00242_koten⟧⟦を→を：00422_wo⟧{精読|せいどく}⟦して→する：00392_suru⟧⟦{理解|りかい}→理解：03674_rikai⟧⟦を→を：00422_wo⟧⟦{深|ふか}めた→深める：02407_fukameru⟧。",
       "english": "I deepened my understanding by reading the classic text closely.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15982_seidoku_ex3",
-      "japanese": "{試験|しけん}{前|まえ}に{教科書|きょうかしょ}を{精読|せいどく}して、{重要|じゅうよう}なポイントをノートにまとめた。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦を→を：00422_wo⟧{精読|せいどく}⟦して→する：00392_suru⟧、⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧⟦ノート→ノート：00738_nooto⟧⟦に→に：00314_ni⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "Before the exam, I read the textbook carefully and summarized the key points in my notes.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed with する as {精読|せいどく}する. Commonly contrasted with {多読|たどく} (extensive reading) and {速読|そくどく} (speed reading). In academic and language learning contexts, {精読|せいどく} emphasizes deep comprehension over quantity.\n\nCOMMON COLLOCATIONS:\n- {精読|せいどく}する (to read carefully/intensively)\n- {原文|げんぶん}を{精読|せいどく}する (to read the original text closely)\n- {精読|せいどく}と{多読|たどく} (intensive and extensive reading)\n\nSIMILAR WORDS:\n- {多読|たどく}: extensive reading — reading widely for quantity (opposite approach)\n- {熟読|じゅくどく}: reading carefully and thoroughly, very similar to {精読|せいどく} but emphasizes repeated or deep engagement",
+  "notes": "USAGE:\nUsed with ⟦する→する：00392_suru⟧ as {精読|せいどく}⟦する→する：00392_suru⟧. Commonly contrasted with ⟦{多読|たどく}→多読：15981_tadoku⟧ (extensive reading) and ⟦{速読|そくどく}→速読：22402_sokudoku⟧ (speed reading). In academic and language learning contexts, {精読|せいどく} emphasizes deep comprehension over quantity.\n\nCOMMON COLLOCATIONS:\n- {精読|せいどく}⟦する→する：00392_suru⟧ (to read carefully/intensively)\n- ⟦{原文|げんぶん}→原文：20563_genbun⟧⟦を→を：00422_wo⟧{精読|せいどく}⟦する→する：00392_suru⟧ (to read the original text closely)\n- {精読|せいどく}⟦と→と：00512_to⟧⟦{多読|たどく}→多読：15981_tadoku⟧ (intensive and extensive reading)\n\nSIMILAR WORDS:\n- ⟦{多読|たどく}→多読：15981_tadoku⟧: extensive reading — reading widely for quantity (opposite approach)\n- ⟦{熟読|じゅくどく}→熟読：17535_jukudoku⟧: reading carefully and thoroughly, very similar to {精読|せいどく} but emphasizes repeated or deep engagement",
   "cross_references": [
     {
       "type": "contrast",
@@ -149,11 +149,67 @@
       "reading": "じゅくどく",
       "headword": "{熟読|じゅくどく}",
       "label": "deep, repeated reading"
+    },
+    {
+      "type": "related",
+      "target_id": "03484_dokusho",
+      "reading": "どくしょ",
+      "headword": "{読書|どくしょ}",
+      "label": "reading (books)"
+    },
+    {
+      "type": "related",
+      "target_id": "15472_tsundoku",
+      "reading": "つんどく",
+      "headword": "{積|つ}ん{読|どく}",
+      "label": "buying books and leaving them unread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19800_tsuudoku",
+      "reading": "つうどく",
+      "headword": "{通読|つうどく}",
+      "label": "reading through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19900_tsuudokusuru",
+      "reading": "つうどくする",
+      "headword": "{通読|つうどく}する",
+      "label": "to read through, to read from beginning to end"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21428_nagashiyomi",
+      "reading": "ながしよみ",
+      "headword": "{流|なが}し{読|よ}み",
+      "label": "skimming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22402_sokudoku",
+      "reading": "そくどく",
+      "headword": "{速読|そくどく}",
+      "label": "speed reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23075_koudoku",
+      "reading": "こうどく",
+      "headword": "{講読|こうどく}",
+      "label": "reading and study of texts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29457_sokudokuhou",
+      "reading": "そくどくほう",
+      "headword": "速読法",
+      "label": "speed-reading method"
     }
   ],
   "metadata": {
     "created": "2026-03-09T06:12:55Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +222,8 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

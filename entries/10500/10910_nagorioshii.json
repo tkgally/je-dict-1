@@ -3,7 +3,7 @@
   "id": "10910_nagorioshii",
   "headword": "{名残惜|なごりお}しい",
   "reading": "なごりおしい",
-  "part_of_speech": "adjective (i)",
+  "part_of_speech": "i-adjective",
   "gloss": "reluctant to part, sorry to leave",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10910_nagorioshii_ex1",
-      "japanese": "{別|わか}れが{名残惜|なごりお}しい。",
+      "japanese": "⟦{別|わか}れ→別れ：03788_wakare⟧⟦が→が：00051_ga⟧{名残惜|なごりお}しい。",
       "english": "I'm reluctant to say goodbye.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10910_nagorioshii_ex2",
-      "japanese": "{楽|たの}しい{旅行|りょこう}が{終|お}わるのは{名残惜|なごりお}しい。",
+      "japanese": "⟦{楽|たの}しい→楽しい：00817_tanoshii⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦が→が：00051_ga⟧{終|お}わる⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{名残惜|なごりお}しい。",
       "english": "It's hard to see such an enjoyable trip come to an end.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10910_nagorioshii_ex3",
-      "japanese": "{名残惜|なごりお}しそうに{手|て}を{振|ふ}って{見送|みおく}った。",
+      "japanese": "{名残惜|なごりお}しそう⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{振|ふ}って→振る：01983_furu⟧⟦{見送|みおく}った→見送る：04240_miokuru⟧。",
       "english": "They waved goodbye with a look of reluctance as they saw us off.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{名残|なごり} (lingering feeling, aftermath) + {惜|お}しい (regrettable). The feeling of not wanting something to end.\n\nUSAGE:\nUsed at partings, the end of pleasant experiences, or when leaving a place one has grown attached to. Often modifies {別|わか}れ (parting) or appears in the pattern ～のが{名残惜|なごりお}しい.",
+  "notes": "ETYMOLOGY:\n⟦{名残|なごり}→名残：06630_nagori⟧ (lingering feeling, aftermath) + ⟦{惜|お}しい→惜しい：10243_oshii⟧ (regrettable). The feeling of not wanting something to end.\n\nUSAGE:\nUsed at partings, the end of pleasant experiences, or when leaving a place one has grown attached to. Often modifies ⟦{別|わか}れ→別れ：03788_wakare⟧ (parting) or appears in the pattern ～⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{名残惜|なごりお}しい.",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,39 @@
       "reading": "おしい",
       "headword": "{惜|お}しい",
       "label": "regrettable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19538_ushirogamiwohikareru",
+      "reading": "うしろがみをひかれる",
+      "headword": "{後|うし}ろ{髪|がみ}を{引|ひ}かれる",
+      "label": "to feel reluctant to leave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20760_ushirogami",
+      "reading": "うしろがみ",
+      "headword": "{後|うし}ろ{髪|がみ}",
+      "label": "hair at the back of the head"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21056_kokoronokori",
+      "reading": "こころのこり",
+      "headword": "{心残|こころのこ}り",
+      "label": "lingering regret"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21640_wakareoshii",
+      "reading": "わかれおしい",
+      "headword": "{別|わか}れ{惜|お}しい",
+      "label": "reluctant to part"
     }
   ],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
-    "modified": "2026-04-24T10:28:26Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

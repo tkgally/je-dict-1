@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15325_uten_ex1",
-      "japanese": "{雨天|うてん}{中止|ちゅうし}。",
+      "japanese": "{雨天|うてん}⟦{中止|ちゅうし}→中止：03481_chuushi⟧。",
       "english": "Canceled in case of rain.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15325_uten_ex2",
-      "japanese": "{雨天|うてん}の{場合|ばあい}は{体育館|たいいくかん}で{行|おこな}います。",
+      "japanese": "{雨天|うてん}⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧⟦{体育館|たいいくかん}→体育館：03111_taiikukan⟧⟦で→で：00502_de⟧⟦{行|おこな}います→行う：01238_okonau⟧。",
       "english": "In the event of rain, it will be held in the gymnasium.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15325_uten_ex3",
-      "japanese": "{雨天|うてん}{決行|けっこう}ですので、{傘|かさ}をお{持|も}ちください。",
+      "japanese": "{雨天|うてん}⟦{決行|けっこう}→決行：02794_kekkou⟧です⟦の→の：09472_no⟧で、⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧お⟦{持|も}ち→持つ：00478_motsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "The event will proceed rain or shine, so please bring an umbrella.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word seen mostly in written announcements, event notices, and weather reports. In everyday conversation, {雨|あめ} is used instead.\n\nCOMMON COLLOCATIONS:\n- {雨天|うてん}{中止|ちゅうし} (canceled in case of rain)\n- {雨天|うてん}{決行|けっこう} (will proceed rain or shine)\n- {雨天|うてん}の{場合|ばあい} (in the event of rain)\n- {雨天|うてん}{順延|じゅんえん} (postponed to the next clear day)\n\nCONTRAST:\n{雨天|うてん} is formal/written; {雨|あめ} is the everyday word. {雨天|うてん} appears on signs and posters, not in casual speech.",
+  "notes": "USAGE:\nA formal word seen mostly in written announcements, event notices, and weather reports. In everyday conversation, ⟦{雨|あめ}→雨：00583_ame⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- {雨天|うてん}⟦{中止|ちゅうし}→中止：03481_chuushi⟧ (canceled in case of rain)\n- {雨天|うてん}⟦{決行|けっこう}→決行：02794_kekkou⟧ (will proceed rain or shine)\n- {雨天|うてん}⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧ (in the event of rain)\n- {雨天|うてん}⟦{順延|じゅんえん}→順延：15354_junen⟧ (postponed to the next clear day)\n\nSIMILAR WORDS:\n{雨天|うてん} is formal/written; ⟦{雨|あめ}→雨：00583_ame⟧ is the everyday word. {雨天|うてん} appears on signs and posters, not in casual speech.",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "せいてん",
       "headword": "{晴天|せいてん}",
       "label": "clear sky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16084_donten",
+      "reading": "どんてん",
+      "headword": "{曇天|どんてん}",
+      "label": "cloudy sky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25666_amefuri",
+      "reading": "あめふり",
+      "headword": "{雨降|あめふ}り",
+      "label": "rainfall"
     }
   ],
   "metadata": {
     "created": "2026-03-06T09:47:39Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +78,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "style": [
         "written"
       ],

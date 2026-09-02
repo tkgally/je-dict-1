@@ -3,7 +3,7 @@
   "id": "14384_souguu",
   "headword": "{遭遇|そうぐう}",
   "reading": "そうぐう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "encounter; running into",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14384_souguu_ex1",
-      "japanese": "{熊|くま}に{遭遇|そうぐう}した。",
+      "japanese": "⟦{熊|くま}→熊：04343_kuma⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}⟦した→する：00392_suru⟧。",
       "english": "I encountered a bear.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14384_souguu_ex2",
-      "japanese": "{思|おも}いがけない{場面|ばめん}に{遭遇|そうぐう}して{驚|おどろ}いた。",
+      "japanese": "{思|おも}いがけない⟦{場面|ばめん}→場面：03702_bamen⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}⟦して→する：00392_suru⟧⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "I was surprised to come across an unexpected scene.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14384_souguu_ex3",
-      "japanese": "{登山中|とざんちゅう}に{激|はげ}しい{雷雨|らいう}に{遭遇|そうぐう}し、{一時|いちじ}{避難|ひなん}を{余儀|よぎ}なくされた。",
+      "japanese": "{登山中|とざんちゅう}⟦に→に：00314_ni⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧⟦{雷雨|らいう}→雷雨：15922_raiu⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}し、⟦{一時|いちじ}→一時：01799_ichiji⟧⟦{避難|ひなん}→避難：07908_hinan⟧⟦を→を：00422_wo⟧⟦{余儀|よぎ}なく→余儀なく：28255_yoginaku⟧⟦された→する：00392_suru⟧。",
       "english": "We encountered a severe thunderstorm while climbing and were forced to take temporary shelter.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n{遭遇|そうぐう} typically implies an unexpected or dramatic encounter. It is often used with unpleasant or dangerous situations (wild animals, storms, accidents), but can also describe unexpected positive encounters.\n\nPARTICLE PATTERNS:\n- に{遭遇|そうぐう}する (to encounter/run into...)\n- との{遭遇|そうぐう} (encounter with...)\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}に{遭遇|そうぐう}する (to encounter an accident)\n- {野生|やせい}{動物|どうぶつ}に{遭遇|そうぐう}する (to encounter a wild animal)\n- {偶然|ぐうぜん}の{遭遇|そうぐう} (chance encounter)\n- {遭遇|そうぐう}{戦|せん} (chance battle, encounter battle)\n\nSIMILAR WORDS:\n{出会|であ}う is the neutral, everyday word for meeting or encountering. {遭遇|そうぐう} is more formal and dramatic, often implying surprise or danger.",
-  "cross_references": [],
+  "notes": "USAGE:\n{遭遇|そうぐう} typically implies an unexpected or dramatic encounter. It is often used with unpleasant or dangerous situations (wild animals, storms, accidents), but can also describe unexpected positive encounters.\n\nCOMMON PATTERNS:\n- ⟦に→に：00314_ni⟧{遭遇|そうぐう}⟦する→する：00392_suru⟧ (to encounter/run into...)\n- ⟦と→と：00512_to⟧⟦の→の：09472_no⟧{遭遇|そうぐう} (encounter with...)\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}⟦する→する：00392_suru⟧ (to encounter an accident)\n- ⟦{野生|やせい}{動物|どうぶつ}→野生動物：09251_yaseidoubutsu⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}⟦する→する：00392_suru⟧ (to encounter a wild animal)\n- ⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧⟦の→の：09472_no⟧{遭遇|そうぐう} (chance encounter)\n- {遭遇|そうぐう}{戦|せん} (chance battle, encounter battle)\n\nSIMILAR WORDS:\n⟦{出会|であ}う→出会う：02298_deau⟧ is the neutral, everyday word for meeting or encountering. {遭遇|そうぐう} is more formal and dramatic, often implying surprise or danger.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21501_kaikou",
+      "reading": "かいこう",
+      "headword": "{邂逅|かいこう}",
+      "label": "chance meeting"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T13:13:53Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

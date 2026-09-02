@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29439_kokugokyouiku_ex1",
-      "japanese": "{国語教育|こくごきょういく}の{大切|たいせつ}さ。",
+      "japanese": "{国語教育|こくごきょういく}⟦の→の：09472_no⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧さ。",
       "english": "the importance of Japanese-language education.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29439_kokugokyouiku_ex2",
-      "japanese": "{小学校|しょうがっこう}の{国語教育|こくごきょういく}が{見直|みなお}されている。",
+      "japanese": "⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧{国語教育|こくごきょういく}⟦が→が：00051_ga⟧⟦{見直|みなお}されている→見直す：04579_minaosu⟧。",
       "english": "Japanese-language education in elementary schools is being reexamined.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29439_kokugokyouiku_ex3",
-      "japanese": "{読書|どくしょ}の{習慣|しゅうかん}をつけることも、{国語教育|こくごきょういく}の{大切|たいせつ}な{役割|やくわり}だ。",
+      "japanese": "⟦{読書|どくしょ}→読書：03484_dokusho⟧⟦の→の：09472_no⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧こと⟦も→も：00484_mo⟧、{国語教育|こくごきょういく}⟦の→の：09472_no⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦{役割|やくわり}→役割：03638_yakuwari⟧だ。",
       "english": "Instilling a habit of reading is also an important role of Japanese-language education.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Written {国語|こくご} (national language; Japanese as a school subject) + {教育|きょういく} (education). Distinct from teaching Japanese to foreigners.\n\nSIMILAR WORDS:\n- {日本語|にほんご}{教育|きょういく}: Japanese-language teaching — used for teaching Japanese to non-native speakers\n- {国語|こくご}: national language; the school subject \"Japanese\" — the base term",
+  "notes": "Written ⟦{国語|こくご}→国語：02739_kokugo⟧ (national language; Japanese as a school subject) + ⟦{教育|きょういく}→教育：01313_kyouiku⟧ (education). Distinct from teaching Japanese to foreigners.\n\nSIMILAR WORDS:\n- ⟦{日本語|にほんご}{教育|きょういく}→日本語教育：25806_nihongokyouiku⟧: Japanese-language teaching — used for teaching Japanese to non-native speakers\n- ⟦{国語|こくご}→国語：02739_kokugo⟧: national language; the school subject \"Japanese\" — the base term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25806_nihongokyouiku",
+      "reading": "にほんごきょういく",
+      "headword": "{日本語教育|にほんごきょういく}",
+      "label": "Japanese-language teaching"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education"
       ],
       "domain": []
     },
     "created": "2026-06-23T09:30:32Z",
-    "modified": "2026-06-23T09:30:32Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

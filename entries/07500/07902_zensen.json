@@ -2,7 +2,7 @@
   "id": "07902_zensen",
   "headword": "{善戦|ぜんせん}",
   "reading": "ぜんせん",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "good fight; putting up a good fight",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07902_zensen_ex1",
-      "japanese": "{善戦|ぜんせん}したが、{負|ま}けてしまった。",
+      "japanese": "{善戦|ぜんせん}⟦した→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{負|ま}けて→負ける：01134_makeru⟧しまった。",
       "english": "We put up a good fight but lost.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07902_zensen_ex2",
-      "japanese": "{格上|かくうえ}の{相手|あいて}に{善戦|ぜんせん}した。",
+      "japanese": "⟦{格上|かくうえ}→格上：07405_kakuue⟧⟦の→の：09472_no⟧⟦{相手|あいて}→相手：01677_aite⟧⟦に→に：00314_ni⟧{善戦|ぜんせん}⟦した→する：00392_suru⟧。",
       "english": "They put up a good fight against a superior opponent.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07902_zensen_ex3",
-      "japanese": "{新人|しんじん}チームの{善戦|ぜんせん}が{話題|わだい}になった。",
+      "japanese": "⟦{新人|しんじん}→新人：02500_shinjin⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{善戦|ぜんせん}⟦が→が：00051_ga⟧⟦{話題|わだい}→話題：03793_wadai⟧になった。",
       "english": "The rookie team's strong performance became a talking point.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{善戦|ぜんせん} describes fighting well or performing admirably, often despite not winning.\n\nCOMPOSITION:\n- {善|ぜん}: Good, virtuous\n- {戦|せん}: Battle, fight\n\nCOMMON COLLOCATIONS:\n- {善戦|ぜんせん}する (to put up a good fight)\n- {善戦|ぜんせん}むなしく (despite putting up a good fight)\n- {善戦|ぜんせん}を{称|たた}える (to praise someone's good fight)\n\nUSAGE NOTES:\n- Often used when the result was a loss but the performance was praiseworthy\n- Common in sports commentary\n- Implies the fight was respectable even if unsuccessful\n\nRELATED TERMS:\n- {奮闘|ふんとう} (hard struggle - more emphasis on effort)\n- {健闘|けんとう} (good fight - nearly synonymous)\n- {惜敗|せきはい} (narrow defeat - focus on close loss)\n- {接戦|せっせん} (close game - focus on competitiveness)\n\nREGISTER: Neutral. Common in sports and competition contexts.",
+  "notes": "{善戦|ぜんせん} describes fighting well or performing admirably, often despite not winning.\n\nETYMOLOGY:\n- ⟦{善|ぜん}→善：00465_zen⟧: Good, virtuous\n- ⟦{戦|せん}→〜戦：28346_sen⟧: Battle, fight\n\nCOMMON COLLOCATIONS:\n- {善戦|ぜんせん}⟦する→する：00392_suru⟧ (to put up a good fight)\n- {善戦|ぜんせん}むなしく (despite putting up a good fight)\n- {善戦|ぜんせん}⟦を→を：00422_wo⟧⟦{称|たた}える→称える：13751_tataeru⟧ (to praise someone's good fight)\n\nUSAGE:\n- Often used when the result was a loss but the performance was praiseworthy\n- Common in sports commentary\n- Implies the fight was respectable even if unsuccessful\n\nRELATED WORDS:\n- ⟦{奮闘|ふんとう}→奮闘：07901_funtou⟧ (hard struggle - more emphasis on effort)\n- ⟦{健闘|けんとう}→健闘：15326_kentou⟧ (good fight - nearly synonymous)\n- ⟦{惜敗|せきはい}→惜敗：07904_sekihai⟧ (narrow defeat - focus on close loss)\n- ⟦{接戦|せっせん}→接戦：08176_sessen⟧ (close game - focus on competitiveness)\n\nREGISTER: Neutral. Common in sports and competition contexts.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -149,7 +149,7 @@
       "verb_class": "suru"
     },
     "created": "2026-01-22T05:13:53Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   },
   "cross_references": [
     {
@@ -172,6 +172,20 @@
       "reading": "せきはい",
       "headword": "{惜敗|せきはい}",
       "label": "narrow defeat"
+    },
+    {
+      "type": "related",
+      "target_id": "08176_sessen",
+      "reading": "せっせん",
+      "headword": "{接戦|せっせん}",
+      "label": "close game"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23184_kantou",
+      "reading": "かんとう",
+      "headword": "{敢闘|かんとう}",
+      "label": "fighting bravely"
     }
   ]
 }

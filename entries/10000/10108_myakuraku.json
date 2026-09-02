@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10108_myakuraku_ex1",
-      "japanese": "{彼|かれ}の{話|はなし}には{脈絡|みゃくらく}がない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{脈絡|みゃくらく}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "His story has no coherence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10108_myakuraku_ex2",
-      "japanese": "{脈絡|みゃくらく}なく{突然|とつぜん}{話題|わだい}が{変|か}わった。",
+      "japanese": "{脈絡|みゃくらく}⟦なく→ない：01118_nai⟧⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦{話題|わだい}→話題：03793_wadai⟧⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "The topic suddenly changed without any logical connection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10108_myakuraku_ex3",
-      "japanese": "{歴史的|れきしてき}な{脈絡|みゃくらく}を{理解|りかい}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧な{脈絡|みゃくらく}⟦を→を：00422_wo⟧⟦{理解|りかい}する→理解する：06059_rikaisuru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to understand the historical context.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{脈|みゃく} (vein, pulse) + {絡|らく} (connection) - metaphorically, the 'veins' that connect ideas.\n\nCOMMON EXPRESSIONS:\n- {脈絡|みゃくらく}がない (no coherence, disconnected)\n- {脈絡|みゃくらく}なく (without context)\n- {脈絡|みゃくらく}を{持|も}つ (to have coherence)\n\nSIMILAR TERMS:\n- {文脈|ぶんみゃく}: context (especially in text/speech)\n- {前後|ぜんご}の{関係|かんけい}: contextual relationship\n- {筋道|すじみち}: logical sequence",
+  "notes": "ETYMOLOGY:\n⟦{脈|みゃく}→脈：05247_myaku⟧ (vein, pulse) + {絡|らく} (connection) - metaphorically, the 'veins' that connect ideas.\n\nCOMMON EXPRESSIONS:\n- {脈絡|みゃくらく}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (no coherence, disconnected)\n- {脈絡|みゃくらく}⟦なく→ない：01118_nai⟧ (without context)\n- {脈絡|みゃくらく}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to have coherence)\n\nSIMILAR WORDS:\n- ⟦{文脈|ぶんみゃく}→文脈：12723_bunmyaku⟧: context (especially in text/speech)\n- ⟦{前後|ぜんご}→前後：04042_zengo⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧: contextual relationship\n- ⟦{筋道|すじみち}→筋道：18257_sujimichi⟧: logical sequence",
   "cross_references": [
     {
       "type": "synonym",
@@ -45,17 +51,28 @@
       "reading": "ぶんみゃく",
       "headword": "{文脈|ぶんみゃく}",
       "label": "context (text/speech)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18257_sujimichi",
+      "reading": "すじみち",
+      "headword": "{筋道|すじみち}",
+      "label": "logical sequence"
     }
   ],
   "metadata": {
     "created": "2026-02-05T02:52:02Z",
-    "modified": "2026-04-23T10:16:20Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "26681_enjosha_ex1",
-      "japanese": "{援助者|えんじょしゃ}が{現地|げんち}に{到着|とうちゃく}した。",
+      "japanese": "{援助者|えんじょしゃ}⟦が→が：00051_ga⟧⟦{現地|げんち}→現地：13502_genchi⟧⟦に→に：00314_ni⟧⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦した→する：00392_suru⟧。",
       "english": "The aid workers arrived at the site.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26681_enjosha_ex2",
-      "japanese": "{彼女|かのじょ}は{長年|ながねん}にわたって{難民|なんみん}の{援助者|えんじょしゃ}として{活動|かつどう}してきた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたって⟦{難民|なんみん}→難民：05313_nanmin⟧⟦の→の：09472_no⟧{援助者|えんじょしゃ}⟦として→として：06802_toshite⟧⟦{活動|かつどう}→活動：00201_katsudou⟧してきた。",
       "english": "She has been working as an aid worker for refugees for many years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26681_enjosha_ex3",
-      "japanese": "{災害|さいがい}{被災地|ひさいち}には{多|おお}くの{援助者|えんじょしゃ}が{駆|か}けつけ、{食料|しょくりょう}や{物資|ぶっし}の{配布|はいふ}に{当|あ}たった。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{援助者|えんじょしゃ}⟦が→が：00051_ga⟧⟦{駆|か}けつけ→駆けつける：14632_kaketsukeru⟧、⟦{食料|しょくりょう}→食料：03250_shokuryou⟧や⟦{物資|ぶっし}→物資：07863_busshi⟧⟦の→の：09472_no⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦に→に：00314_ni⟧⟦{当|あ}たった→当たる：01860_ataru⟧。",
       "english": "Many aid workers rushed to the disaster-affected area and took charge of distributing food and supplies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {援助|えんじょ} (aid; assistance) and {者|しゃ} (person). Follows the common pattern of noun + {者|しゃ} to indicate the person who performs or embodies the action.\n\nCOMMON COLLOCATIONS:\n- {援助者|えんじょしゃ}として{活動|かつどう}する: to work as an aid provider\n- {援助者|えんじょしゃ}を{派遣|はけん}する: to dispatch aid workers\n- {国際|こくさい}{援助者|えんじょしゃ}: international aid worker\n\nSIMILAR WORDS:\n- {支援者|しえんしゃ}: supporter — slightly broader; often used for political or organizational backing\n- ボランティア: volunteer — unpaid helper, not necessarily in the context of formal aid\n- {救援者|きゅうえんしゃ}: rescuer; relief worker — emphasizes emergency rescue\n- {後援者|こうえんしゃ}: patron; sponsor — financial or organizational backer",
-  "cross_references": [],
+  "notes": "Composed of ⟦{援助|えんじょ}→援助：01892_enjo⟧ (aid; assistance) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Follows the common pattern of noun + ⟦{者|しゃ}→〜者：04662_sha⟧ to indicate the person who performs or embodies the action.\n\nCOMMON COLLOCATIONS:\n- {援助者|えんじょしゃ}⟦として→として：06802_toshite⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦する→する：00392_suru⟧: to work as an aid provider\n- {援助者|えんじょしゃ}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧: to dispatch aid workers\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{援助者|えんじょしゃ}: international aid worker\n\nSIMILAR WORDS:\n- ⟦{支援者|しえんしゃ}→支援者：24919_shiensha⟧: supporter — slightly broader; often used for political or organizational backing\n- ⟦ボランティア→ボランティア：04834_borantia⟧: volunteer — unpaid helper, not necessarily in the context of formal aid\n- {救援者|きゅうえんしゃ}: rescuer; relief worker — emphasizes emergency rescue\n- ⟦{後援者|こうえんしゃ}→後援者：21846_kouensha⟧: patron; sponsor — financial or organizational backer",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24919_shiensha",
+      "reading": "しえんしゃ",
+      "headword": "{支援者|しえんしゃ}",
+      "label": "supporter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04834_borantia",
+      "reading": "ぼらんてぃあ",
+      "headword": "ボランティア",
+      "label": "volunteer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21846_kouensha",
+      "reading": "こうえんしゃ",
+      "headword": "{後援者|こうえんしゃ}",
+      "label": "patron"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-05-04T12:49:32Z",
-    "modified": "2026-05-04T12:49:32Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "00455_seichou",
   "headword": "{生長|せいちょう}",
   "reading": "せいちょう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "growth (of plants/organisms)",
   "conjugation": {
     "type": "suru",
@@ -114,7 +114,7 @@
     },
     {
       "id": "00455_seichou_ex2",
-      "japanese": "⟦この→この：00962_kono⟧⟦{木|き}→木：00524_ki⟧⟦は→は：00079_ha⟧⟦{一年|いちねん}→一年：10994_ichinen⟧⟦で→で：00502_de⟧⟦{随分|ずいぶん}→随分：01256_zuibun⟧{生長|せいちょう}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{木|き}→木：00524_ki⟧⟦は→は：00079_ha⟧⟦{一年|いちねん}→一年：10994_ichinen⟧⟦で→で：00502_de⟧⟦{随分|ずいぶん}→随分：01256_zuibun⟧{生長|せいちょう}⟦した→する：00392_suru⟧。",
       "english": "This tree has grown considerably in one year.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{生長|せいちょう} specifically refers to biological growth—plants growing larger, organisms developing. It emphasizes the natural process of becoming bigger.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {生長|せいちょう}する\n\nSIMILAR WORDS:\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧: growth (general, including personal/economic growth)\n- ⟦{発育|はついく}→発育：25326_hatsuiku⟧: growth and development (often for children/animals)\n- ⟦{発達|はったつ}→発達：03559_hattatsu⟧: development (skills, abilities, systems)\n\n{生長|せいちょう} is more commonly used for plants, while ⟦{成長|せいちょう}→成長：03290_seichou⟧ (same reading) is more versatile and used for people, economies, and general development.",
+  "notes": "{生長|せいちょう} specifically refers to biological growth—plants growing larger, organisms developing. It emphasizes the natural process of becoming bigger.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {生長|せいちょう}⟦する→する：00392_suru⟧\n\nSIMILAR WORDS:\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧: growth (general, including personal/economic growth)\n- ⟦{発育|はついく}→発育：25326_hatsuiku⟧: growth and development (often for children/animals)\n- ⟦{発達|はったつ}→発達：03559_hattatsu⟧: development (skills, abilities, systems)\n\n{生長|せいちょう} is more commonly used for plants, while ⟦{成長|せいちょう}→成長：03290_seichou⟧ (same reading) is more versatile and used for people, economies, and general development.",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,32 @@
       "headword": "{成長|せいちょう}",
       "label": "growth (general)",
       "target_id": "03290_seichou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25326_hatsuiku",
+      "reading": "はついく",
+      "headword": "{発育|はついく}",
+      "label": "growth and development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03559_hattatsu",
+      "reading": "はったつ",
+      "headword": "{発達|はったつ}",
+      "label": "development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22487_seiiku",
+      "reading": "せいいく",
+      "headword": "{生育|せいいく}",
+      "label": "growth"
     }
   ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-05-11T15:21:20Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

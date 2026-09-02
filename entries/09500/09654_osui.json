@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09654_osui_ex1",
-      "japanese": "{汚水|おすい}が{川|かわ}に{流|なが}れ{込|こ}んだ。",
+      "japanese": "{汚水|おすい}⟦が→が：00051_ga⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦{流|なが}れ{込|こ}んだ→流れ込む：05748_nagarekomu⟧。",
       "english": "Sewage flowed into the river.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09654_osui_ex2",
-      "japanese": "{汚水|おすい}{処理|しょり}は{環境|かんきょう}{保護|ほご}に{重要|じゅうよう}だ。",
+      "japanese": "{汚水|おすい}⟦{処理|しょり}→処理：03251_shori⟧⟦は→は：00079_ha⟧⟦{環境|かんきょう}{保護|ほご}→環境保護：15308_kankyouhogo⟧⟦に→に：00314_ni⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Sewage treatment is important for environmental protection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09654_osui_ex3",
-      "japanese": "{工場|こうじょう}からの{汚水|おすい}が{問題|もんだい}になっている。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{汚水|おすい}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "Wastewater from the factory has become a problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Water contaminated by household, industrial, or other human use. A technical term often seen in news and environmental contexts.\n\nFORMATION:\n{汚|お} (dirty, polluted) + {水|すい} (water).\n\nCOMMON COLLOCATIONS:\n- {汚水|おすい}{処理|しょり}: sewage treatment\n- {汚水|おすい}{処理場|しょりじょう}: sewage treatment plant\n- {汚水|おすい}を{流|なが}す: to discharge wastewater\n- {汚水|おすい}が{流|なが}れ{込|こ}む: sewage flows in\n\nRELATED TERMS:\n- {下水|げすい}: sewage, sewerage (the drainage system)\n- {排水|はいすい}: drainage, wastewater (broader term)\n- {汚染|おせん}: pollution, contamination",
+  "notes": "Water contaminated by household, industrial, or other human use. A technical term often seen in news and environmental contexts.\n\nFORMS:\n{汚|お} (dirty, polluted) + {水|すい} (water).\n\nCOMMON COLLOCATIONS:\n- {汚水|おすい}⟦{処理|しょり}→処理：03251_shori⟧: sewage treatment\n- {汚水|おすい}⟦{処理場|しょりじょう}→処理場：09653_shorijou⟧: sewage treatment plant\n- {汚水|おすい}⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧: to discharge wastewater\n- {汚水|おすい}⟦が→が：00051_ga⟧⟦{流|なが}れ{込|こ}む→流れ込む：05748_nagarekomu⟧: sewage flows in\n\nRELATED WORDS:\n- ⟦{下水|げすい}→下水：00069_gesui⟧: sewage, sewerage (the drainage system)\n- ⟦{排水|はいすい}→排水：11104_haisui⟧: drainage, wastewater (broader term)\n- ⟦{汚染|おせん}→汚染：02595_osen⟧: pollution, contamination",
   "cross_references": [
     {
       "type": "related",
@@ -59,18 +65,29 @@
       "reading": "はいすい",
       "headword": "{排水|はいすい}",
       "label": "drainage"
+    },
+    {
+      "type": "related",
+      "target_id": "02595_osen",
+      "reading": "おせん",
+      "headword": "{汚染|おせん}",
+      "label": "pollution, contamination"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

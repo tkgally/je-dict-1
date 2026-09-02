@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "19195_gyousho_ex1",
-      "japanese": "{行書|ぎょうしょ}で{名前|なまえ}を{書|か}く。",
+      "japanese": "{行書|ぎょうしょ}⟦で→で：00502_de⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "To write one's name in semi-cursive script.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19195_gyousho_ex2",
-      "japanese": "{行書|ぎょうしょ}は{楷書|かいしょ}より{速|はや}く{書|か}ける。",
+      "japanese": "{行書|ぎょうしょ}⟦は→は：00079_ha⟧⟦{楷書|かいしょ}→楷書：13247_kaisho⟧⟦より→より：09476_yori⟧⟦{速|はや}く→速い：00514_hayai⟧⟦{書|か}ける→書く：00477_kaku⟧。",
       "english": "Semi-cursive script can be written faster than block script.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19195_gyousho_ex3",
-      "japanese": "{書道|しょどう}{教室|きょうしつ}で{楷書|かいしょ}の{次|つぎ}に{行書|ぎょうしょ}を{習|なら}った。",
+      "japanese": "⟦{書道|しょどう}→書道：04178_shodou⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦で→で：00502_de⟧⟦{楷書|かいしょ}→楷書：13247_kaisho⟧⟦の→の：09472_no⟧⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧{行書|ぎょうしょ}⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "In calligraphy class, I learned semi-cursive script after block script.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {行|ぎょう} (go, move, flow) + {書|しょ} (writing, script). One of the five traditional script styles ({五体|ごたい}): {篆書|てんしょ} (seal script), {隷書|れいしょ} (clerical script), {楷書|かいしょ} (block/regular script), {行書|ぎょうしょ} (semi-cursive), and {草書|そうしょ} (cursive). {行書|ぎょうしょ} is considered the most practical for everyday use — it simplifies strokes of {楷書|かいしょ} while remaining readable, unlike the highly abbreviated {草書|そうしょ}. Japanese handwriting naturally tends toward {行書|ぎょうしょ} when writing quickly.",
+  "notes": "Composed of ⟦{行|ぎょう}→行：26669_gyou⟧ (go, move, flow) + ⟦{書|しょ}→〜書：28467_sho⟧ (writing, script). One of the five traditional script styles ({五体|ごたい}): {篆書|てんしょ} (seal script), {隷書|れいしょ} (clerical script), ⟦{楷書|かいしょ}→楷書：13247_kaisho⟧ (block/regular script), {行書|ぎょうしょ} (semi-cursive), and ⟦{草書|そうしょ}→草書：19196_sousho⟧ (cursive). {行書|ぎょうしょ} is considered the most practical for everyday use — it simplifies strokes of ⟦{楷書|かいしょ}→楷書：13247_kaisho⟧ while remaining readable, unlike the highly abbreviated ⟦{草書|そうしょ}→草書：19196_sousho⟧. Japanese handwriting naturally tends toward {行書|ぎょうしょ} when writing quickly.",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,18 +59,30 @@
       "reading": "そうしょ",
       "headword": "{草書|そうしょ}",
       "label": "cursive script"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25771_hikkitai",
+      "reading": "ひっきたい",
+      "headword": "{筆記体|ひっきたい}",
+      "label": "cursive script"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art", "language"]
+      "semantic": [
+        "art",
+        "language"
+      ]
     },
     "created": "2026-03-24T13:59:03Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

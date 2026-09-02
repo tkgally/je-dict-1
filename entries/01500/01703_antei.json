@@ -2,7 +2,7 @@
   "id": "01703_antei",
   "headword": "{安定|あんてい}",
   "reading": "あんてい",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stability, steadiness",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "01703_antei_ex1",
-      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦が→が：00051_ga⟧{安定|あんてい}している。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦が→が：00051_ga⟧{安定|あんてい}⟦している→する：00392_suru⟧。",
       "english": "The economy is stable.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "01703_antei_ex3",
-      "japanese": "⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦が→が：00051_ga⟧{安定|あんてい}しない。",
+      "japanese": "⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦が→が：00051_ga⟧{安定|あんてい}⟦しない→する：00392_suru⟧。",
       "english": "My income isn't stable.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{安定|あんてい} means stability in various contexts.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {安定|あんてい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {安定|あんてい}⟦する→する：00392_suru⟧ (to stabilize, become stable)\n- {安定|あんてい}⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧ (to be stable)\n- {安定|あんてい}⟦した→する：00392_suru⟧ + noun (stable ~)\n- {安定|あんてい}⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧ (maintain stability)\n\nCOMMON COLLOCATIONS:\n- ⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{安定|あんてい} (economic stability)\n- ⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧{安定|あんてい} (mental/emotional stability)\n- ⟦{政治的|せいじてき}→政治的：05684_seijiteki⟧{安定|あんてい} (political stability)\n\nOPPOSITE:\n- ⟦{不安定|ふあんてい}→不安定：11318_fuantei⟧: instability, unstable",
+  "notes": "{安定|あんてい} means stability in various contexts.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {安定|あんてい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {安定|あんてい}⟦する→する：00392_suru⟧ (to stabilize, become stable)\n- {安定|あんてい}⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧ (to be stable)\n- {安定|あんてい}⟦した→する：00392_suru⟧ + noun (stable ~)\n- {安定|あんてい}⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧ (maintain stability)\n\nCOMMON COLLOCATIONS:\n- ⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{安定|あんてい} (economic stability)\n- ⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧{安定|あんてい} (mental/emotional stability)\n- ⟦{政治的|せいじてき}→政治的：05684_seijiteki⟧{安定|あんてい} (political stability)\n\nSIMILAR WORDS:\n- ⟦{不安定|ふあんてい}→不安定：11318_fuantei⟧: instability, unstable",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,25 @@
       "reading": "ふあんてい",
       "headword": "{不安定|ふあんてい}",
       "label": "instability, unstable"
+    },
+    {
+      "type": "related",
+      "target_id": "04670_ochitsuku",
+      "reading": "おちつく",
+      "headword": "{落|お}ち{着|つ}く",
+      "label": "to calm down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22037_teijou",
+      "reading": "ていじょう",
+      "headword": "{定常|ていじょう}",
+      "label": "steady"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T19:11:35Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

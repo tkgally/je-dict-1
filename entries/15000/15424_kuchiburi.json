@@ -15,41 +15,87 @@
   "examples": [
     {
       "id": "15424_kuchiburi_ex1",
-      "japanese": "{彼|かれ}の{口|くち}ぶりでは、{賛成|さんせい}のようだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{口|くち}ぶり⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{賛成|さんせい}→賛成：02829_sansei⟧⟦の→の：09472_no⟧ようだ。",
       "english": "Judging by the way he talks, he seems to be in favor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15424_kuchiburi_ex2",
-      "japanese": "その{口|くち}ぶりだと、もう{知|し}っていたんですね。",
+      "japanese": "⟦その→その：00993_sono⟧{口|くち}ぶりだ⟦と→と：00512_to⟧、⟦もう→もう：00602_mou⟧⟦{知|し}っていた→知る：00458_shiru⟧んです⟦ね→ね：09474_ne⟧。",
       "english": "From the way you're talking, you already knew, didn't you?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15424_kuchiburi_ex3",
-      "japanese": "{上司|じょうし}の{口|くち}ぶりから{判断|はんだん}すると、{今回|こんかい}のプロジェクトは{中止|ちゅうし}になりそうだ。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧{口|くち}ぶり⟦から→から：00504_kara⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧⟦と→と：00512_to⟧、⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦は→は：00079_ha⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧そうだ。",
       "english": "Judging from the way my boss was talking, this project is likely to be cancelled.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{口|くち}ぶり is used when inferring someone's thoughts, intentions, or feelings from the way they speak. Often appears with から{判断|はんだん}すると (judging from) or では (based on). Also written as {口振|くちぶ}り.\n\nCOMMON COLLOCATIONS:\n- {口|くち}ぶりから{察|さっ}する (to infer from someone's tone)\n- その{口|くち}ぶりでは (from the way you talk)\n- {偉|えら}そうな{口|くち}ぶり (a pompous manner of speaking)\n\nRELATED WORDS:\n- {話|はな}し{方|かた}: way of speaking\n- {口調|くちょう}: tone of voice\n- {言|い}い{方|かた}: way of saying something",
-  "cross_references": [],
+  "notes": "USAGE:\n{口|くち}ぶり is used when inferring someone's thoughts, intentions, or feelings from the way they speak. Often appears with から⟦{判断|はんだん}する→判断する：06062_handansuru⟧⟦と→と：00512_to⟧ (judging from) or ⟦では→では：02945_deha⟧ (based on). Also written as {口振|くちぶ}り.\n\nCOMMON COLLOCATIONS:\n- {口|くち}ぶり⟦から→から：00504_kara⟧⟦{察|さっ}する→察する：08053_sassuru⟧ (to infer from someone's tone)\n- ⟦その→その：00993_sono⟧{口|くち}ぶり⟦で→で：00502_de⟧⟦は→は：00079_ha⟧ (from the way you talk)\n- {偉|えら}そうな{口|くち}ぶり (a pompous manner of speaking)\n\nRELATED WORDS:\n- ⟦{話|はな}し{方|かた}→話し方：15767_hanashikata⟧: way of speaking\n- ⟦{口調|くちょう}→口調：11803_kuchou⟧: tone of voice\n- ⟦{言|い}い{方|かた}→言い方：14165_iikata⟧: way of saying something",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15767_hanashikata",
+      "reading": "はなしかた",
+      "headword": "{話|はな}し{方|かた}",
+      "label": "way of speaking"
+    },
+    {
+      "type": "related",
+      "target_id": "11803_kuchou",
+      "reading": "くちょう",
+      "headword": "{口調|くちょう}",
+      "label": "tone of voice"
+    },
+    {
+      "type": "related",
+      "target_id": "14165_iikata",
+      "reading": "いいかた",
+      "headword": "{言|い}い{方|かた}",
+      "label": "way of saying something"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20735_hanashiburi",
+      "reading": "はなしぶり",
+      "headword": "{話|はな}しぶり",
+      "label": "way of speaking"
+    },
+    {
+      "type": "related",
+      "target_id": "24051_kakiburi",
+      "reading": "かきぶり",
+      "headword": "{書|か}きぶり",
+      "label": "writing style, manner of writing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:46:37Z",
-    "modified": "2026-03-06T13:46:37Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     }
   }

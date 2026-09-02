@@ -2,7 +2,7 @@
   "id": "05082_kyougou",
   "headword": "{競合|きょうごう}",
   "reading": "きょうごう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "competition",
   "conjugation": {
     "type": "suru",
@@ -114,7 +114,7 @@
     },
     {
       "id": "05082_kyougou_ex2",
-      "japanese": "⟦この→この：00962_kono⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{多|おお}く→多く：18752_ooku⟧⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧{競合|きょうごう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{多|おお}く→多く：18752_ooku⟧⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧{競合|きょうごう}⟦している→する：00392_suru⟧。",
       "english": "Many companies are competing in this market.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{競合|きょうごう} emphasizes direct competition where multiple parties target the same market, customer base, or resource. It is heavily used in business contexts.\n\nCOMPOUND:\n{競|きょう} (compete) + {合|ごう} (together) — competing against each other.\n\nCOMMON COLLOCATIONS:\n- {競合|きょうごう}⟦{他社|たしゃ}→他社：17803_tasha⟧: competing companies, competitors\n- {競合|きょうごう}⟦{製品|せいひん}→製品：01445_seihin⟧: competing products\n- {競合|きょうごう}⟦{関係|かんけい}→関係：01298_kankei⟧: competitive relationship\n- {競合|きょうごう}⟦{分析|ぶんせき}→分析：03610_bunseki⟧: competitive analysis\n\nSIMILAR WORDS:\n- ⟦{競争|きょうそう}→競争：01388_kyousou⟧: broader term for competition in general (sports, academics, business). {競合|きょうごう} is more specific to head-to-head rivalry, especially between companies.\n- ⟦{対抗|たいこう}→対抗：12398_taikou⟧: opposition, standing against. Implies actively countering a rival rather than simply being in the same market.",
+  "notes": "{競合|きょうごう} emphasizes direct competition where multiple parties target the same market, customer base, or resource. It is heavily used in business contexts.\n\nCOMPOUNDS:\n{競|きょう} (compete) + ⟦{合|ごう}→合：27628_gou⟧ (together) — competing against each other.\n\nCOMMON COLLOCATIONS:\n- {競合|きょうごう}⟦{他社|たしゃ}→他社：17803_tasha⟧: competing companies, competitors\n- {競合|きょうごう}⟦{製品|せいひん}→製品：01445_seihin⟧: competing products\n- {競合|きょうごう}⟦{関係|かんけい}→関係：01298_kankei⟧: competitive relationship\n- {競合|きょうごう}⟦{分析|ぶんせき}→分析：03610_bunseki⟧: competitive analysis\n\nSIMILAR WORDS:\n- ⟦{競争|きょうそう}→競争：01388_kyousou⟧: broader term for competition in general (sports, academics, business). {競合|きょうごう} is more specific to head-to-head rivalry, especially between companies.\n- ⟦{対抗|たいこう}→対抗：12398_taikou⟧: opposition, standing against. Implies actively countering a rival rather than simply being in the same market.",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,32 @@
       "reading": "たいこう",
       "headword": "{対抗|たいこう}",
       "label": "opposition, rivalry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21886_dougyou",
+      "reading": "どうぎょう",
+      "headword": "{同業|どうぎょう}",
+      "label": "same trade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23478_shoubaigataki",
+      "reading": "しょうばいがたき",
+      "headword": "{商売仇|しょうばいがたき}",
+      "label": "business rival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24126_dougyousha",
+      "reading": "どうぎょうしゃ",
+      "headword": "{同業者|どうぎょうしゃ}",
+      "label": "person in the same trade"
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-04T14:08:26Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +186,8 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

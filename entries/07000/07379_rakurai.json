@@ -2,7 +2,7 @@
   "id": "07379_rakurai",
   "headword": "{落雷|らくらい}",
   "reading": "らくらい",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "lightning strike; thunderbolt",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07379_rakurai_ex1",
-      "japanese": "{落雷|らくらい}で{木|き}が{燃|も}えた。",
+      "japanese": "{落雷|らくらい}⟦で→で：00502_de⟧⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧⟦{燃|も}えた→燃える：02312_moeru⟧。",
       "english": "A tree caught fire from a lightning strike.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07379_rakurai_ex2",
-      "japanese": "{落雷|らくらい}による{停電|ていでん}が{発生|はっせい}した。",
+      "japanese": "{落雷|らくらい}⟦による→による：28349_niyoru⟧⟦{停電|ていでん}→停電：03544_teiden⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "A power outage occurred due to lightning.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07379_rakurai_ex3",
-      "japanese": "{建物|たてもの}に{落雷|らくらい}した。",
+      "japanese": "⟦{建物|たてもの}→建物：01458_tatemono⟧⟦に→に：00314_ni⟧{落雷|らくらい}⟦した→する：00392_suru⟧。",
       "english": "Lightning struck the building.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{落|お}ちる/らく (to fall) + {雷|かみなり}/らい (thunder/lightning)\n\nUSAGE AS VERB:\n{落雷|らくらい}する - for lightning to strike\n・ビルに{落雷|らくらい}した (lightning struck the building)\n\nCOMMON COLLOCATIONS:\n・{落雷|らくらい}による{被害|ひがい} (damage from lightning)\n・{落雷|らくらい}で{停電|ていでん} (power outage from lightning)\n・{落雷|らくらい}{事故|じこ} (lightning accident)\n・{落雷|らくらい}を{受|う}ける (to be struck by lightning)\n\nSAFETY NOTE:\nDuring thunderstorms, avoid tall isolated objects, open fields, and water. Taking shelter in buildings or cars is recommended.\n\nRELATED WEATHER WORDS:\n・{雷|かみなり} - thunder, lightning\n・{雷雨|らいう} - thunderstorm\n・{稲妻|いなずま} - lightning flash\n・{雷鳴|らいめい} - thunder (sound)",
+  "notes": "FORMS:\n⟦{落|お}ちる→落ちる：01242_ochiru⟧/らく (to fall) + ⟦{雷|かみなり}→雷：02197_kaminari⟧/らい (thunder/lightning)\n\nUSAGE AS VERB:\n{落雷|らくらい}⟦する→する：00392_suru⟧ - for lightning to strike\n- ⟦ビル→ビル：01500_biru⟧⟦に→に：00314_ni⟧{落雷|らくらい}⟦した→する：00392_suru⟧ (lightning struck the building)\n\nCOMMON COLLOCATIONS:\n- {落雷|らくらい}⟦による→による：28349_niyoru⟧⟦{被害|ひがい}→被害：02572_higai⟧ (damage from lightning)\n- {落雷|らくらい}⟦で→で：00502_de⟧⟦{停電|ていでん}→停電：03544_teiden⟧ (power outage from lightning)\n- {落雷|らくらい}⟦{事故|じこ}→事故：00851_jiko⟧ (lightning accident)\n- {落雷|らくらい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to be struck by lightning)\n\nSAFETY NOTE:\nDuring thunderstorms, avoid tall isolated objects, open fields, and water. Taking shelter in buildings or cars is recommended.\n\nRELATED WEATHER WORDS:\n- ⟦{雷|かみなり}→雷：02197_kaminari⟧ - thunder, lightning\n- ⟦{雷雨|らいう}→雷雨：15922_raiu⟧ - thunderstorm\n- ⟦{稲妻|いなずま}→稲妻：04989_inazuma⟧ - lightning flash\n- ⟦{雷鳴|らいめい}→雷鳴：06188_raimei⟧ - thunder (sound)",
   "metadata": {
     "created": "2026-01-19T06:04:06Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -157,6 +157,27 @@
       "reading": "かみなり",
       "headword": "{雷|かみなり}",
       "label": "thunder, lightning"
+    },
+    {
+      "type": "related",
+      "target_id": "15922_raiu",
+      "reading": "らいう",
+      "headword": "{雷雨|らいう}",
+      "label": "thunderstorm"
+    },
+    {
+      "type": "related",
+      "target_id": "04989_inazuma",
+      "reading": "いなずま",
+      "headword": "{稲妻|いなずま}",
+      "label": "lightning flash"
+    },
+    {
+      "type": "related",
+      "target_id": "06188_raimei",
+      "reading": "らいめい",
+      "headword": "{雷鳴|らいめい}",
+      "label": "thunder"
     }
   ]
 }

@@ -19,54 +19,66 @@
   "examples": [
     {
       "id": "08762_beesu_ex1",
-      "japanese": "ベースを{弾|ひ}いている。",
+      "japanese": "ベース⟦を→を：00422_wo⟧⟦{弾|ひ}いている→弾く：02444_hiku⟧。",
       "english": "I play bass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08762_beesu_ex2",
-      "japanese": "バンドのベースが{上手|じょうず}だ。",
+      "japanese": "⟦バンド→バンド：05508_bando⟧⟦の→の：09472_no⟧ベース⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧だ。",
       "english": "The band's bassist is skilled.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08762_beesu_ex3",
-      "japanese": "これをベースに{話|はな}し{合|あ}いましょう。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦を→を：00422_wo⟧ベース⟦に→に：00314_ni⟧⟦{話|はな}し{合|あ}いましょう→話し合う：02396_hanashiau⟧。",
       "english": "Let's discuss using this as a base.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08762_beesu_ex4",
-      "japanese": "ベースの{音|おと}が{響|ひび}く。",
+      "japanese": "ベース⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧。",
       "english": "The bass sound resonates.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08762_beesu_ex5",
-      "japanese": "{経験|けいけん}をベースにした{意見|いけん}だ。",
+      "japanese": "⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧ベースにした⟦{意見|いけん}→意見：01303_iken⟧だ。",
       "english": "It's an opinion based on experience.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08762_beesu_ex6",
-      "japanese": "ベースラインを{作|つく}る。",
+      "japanese": "ベースライン⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Create a bass line.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "MUSIC/GENERAL TERM:\nベース has two main uses: as a music term for bass instruments, and as a loanword meaning 'base' or 'foundation.'\n\nMUSIC COLLOCATIONS:\n- ベースを{弾|ひ}く - to play bass\n- ベースライン - bass line\n- ベースギター - bass guitar\n- エレキベース - electric bass\n\nGENERAL COLLOCATIONS:\n- ～をベースに(する) - based on ～\n- ベースになる - to become the base/foundation\n- データベース - database\n\nRELATED TERMS:\n- {低音|ていおん} - low frequency sound (bass frequencies)\n- {基礎|きそ} - foundation, basis (native Japanese)\n- {基盤|きばん} - base, foundation",
+  "notes": "MUSIC/GENERAL TERM:\nベース has two main uses: as a music term for bass instruments, and as a loanword meaning 'base' or 'foundation.'\n\nMUSIC COLLOCATIONS:\n- ベース⟦を→を：00422_wo⟧⟦{弾|ひ}く→弾く：02444_hiku⟧ - to play bass\n- ベースライン - bass line\n- ベース⟦ギター→ギター：04461_gitaa⟧ - bass guitar\n- エレキベース - electric bass\n\nGENERAL COLLOCATIONS:\n- ～⟦を→を：00422_wo⟧ベース⟦に→に：00314_ni⟧(⟦する→する：00392_suru⟧) - based on ～\n- ベース⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ - to become the base/foundation\n- データベース - database\n\nRELATED WORDS:\n- ⟦{低音|ていおん}→低音：18282_teion⟧ - low frequency sound (bass frequencies)\n- ⟦{基礎|きそ}→基礎：03981_kiso⟧ - foundation, basis (native Japanese)\n- ⟦{基盤|きばん}→基盤：00220_kiban⟧ - base, foundation",
   "cross_references": [
     {
       "type": "synonym",
@@ -74,17 +86,36 @@
       "reading": "きそ",
       "headword": "{基礎|きそ}",
       "label": "foundation (native)"
+    },
+    {
+      "type": "related",
+      "target_id": "18282_teion",
+      "reading": "ていおん",
+      "headword": "{低音|ていおん}",
+      "label": "low frequency sound"
+    },
+    {
+      "type": "related",
+      "target_id": "00220_kiban",
+      "reading": "きばん",
+      "headword": "{基盤|きばん}",
+      "label": "base, foundation"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["music", "general"]
+      "semantic": [
+        "music",
+        "general"
+      ]
     },
     "created": "2026-01-28T04:49:13Z",
-    "modified": "2026-04-22T04:11:39Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

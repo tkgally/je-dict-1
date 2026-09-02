@@ -2,7 +2,7 @@
   "id": "11907_seitei",
   "headword": "{制定|せいてい}",
   "reading": "せいてい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "enactment, establishment (of laws or rules)",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11907_seitei_ex1",
-      "japanese": "{新|あたら}しい{法律|ほうりつ}が{制定|せいてい}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦が→が：00051_ga⟧{制定|せいてい}⟦された→する：00392_suru⟧。",
       "english": "A new law was enacted.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11907_seitei_ex2",
-      "japanese": "{会社|かいしゃ}は{社内|しゃない}ルールを{制定|せいてい}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{社内|しゃない}→社内：13731_shanai⟧⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦した→する：00392_suru⟧。",
       "english": "The company established internal rules.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11907_seitei_ex3",
-      "japanese": "この{条例|じょうれい}は{環境|かんきょう}{保護|ほご}を{目的|もくてき}として{制定|せいてい}されたものだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{条例|じょうれい}→条例：08255_jourei⟧⟦は→は：00079_ha⟧⟦{環境|かんきょう}{保護|ほご}→環境保護：15308_kankyouhogo⟧⟦を→を：00422_wo⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦として→として：06802_toshite⟧{制定|せいてい}⟦された→する：00392_suru⟧ものだ。",
       "english": "This ordinance was enacted for the purpose of environmental protection.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "{制定|せいてい} refers specifically to the formal creation and enactment of laws, regulations, standards, or official rules.\n\nSCOPE:\nUsed only for legal/regulatory matters. Not for general \"creation\" or \"establishment\" of organizations or businesses.\n\nCOMMON PATTERNS:\n- {法律|ほうりつ}を{制定|せいてい}する: to enact a law\n- {制度|せいど}を{制定|せいてい}する: to establish a system/framework\n- {基準|きじゅん}を{制定|せいてい}する: to set standards\n- {条例|じょうれい}が{制定|せいてい}される: an ordinance is enacted\n\nASPECT:\n{制定|せいてい}している means a law or rule is currently in effect (resulting state), not that someone is in the process of enacting it.\n\nSIMILAR WORDS:\n- {設立|せつりつ}: establishment (of organizations, companies)\n- {創設|そうせつ}: founding, creation (of institutions)\n- {策定|さくてい}: formulation (of plans, policies — often a step before {制定|せいてい})",
-  "cross_references": [],
+  "notes": "{制定|せいてい} refers specifically to the formal creation and enactment of laws, regulations, standards, or official rules.\n\nUSAGE:\nUsed only for legal/regulatory matters. Not for general \"creation\" or \"establishment\" of organizations or businesses.\n\nCOMMON PATTERNS:\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧: to enact a law\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧: to establish a system/framework\n- ⟦{基準|きじゅん}→基準：00228_kijun⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧: to set standards\n- ⟦{条例|じょうれい}→条例：08255_jourei⟧⟦が→が：00051_ga⟧{制定|せいてい}⟦される→する：00392_suru⟧: an ordinance is enacted\n\nASPECT (ている):\n{制定|せいてい}⟦している→する：00392_suru⟧ means a law or rule is currently in effect (resulting state), not that someone is in the process of enacting it.\n\nSIMILAR WORDS:\n- ⟦{設立|せつりつ}→設立：14171_setsuritsu⟧: establishment (of organizations, companies)\n- ⟦{創設|そうせつ}→創設：11905_sousetsu⟧: founding, creation (of institutions)\n- {策定|さくてい}: formulation (of plans, policies — often a step before {制定|せいてい})",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14171_setsuritsu",
+      "reading": "せつりつ",
+      "headword": "{設立|せつりつ}",
+      "label": "establishment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11905_sousetsu",
+      "reading": "そうせつ",
+      "headword": "{創設|そうせつ}",
+      "label": "founding, creation"
+    },
+    {
+      "type": "related",
+      "target_id": "08394_koufu",
+      "reading": "こうふ",
+      "headword": "{公布|こうふ}",
+      "label": "promulgation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:13:02Z",
-    "modified": "2026-04-03T06:54:49Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

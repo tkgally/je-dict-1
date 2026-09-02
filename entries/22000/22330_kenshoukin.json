@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "22330_kenshoukin_ex1",
-      "japanese": "{懸賞金|けんしょうきん}は{百万|ひゃくまん}{円|えん}です。",
+      "japanese": "{懸賞金|けんしょうきん}⟦は→は：00079_ha⟧⟦{百万|ひゃくまん}→百万：08109_hyakuman⟧⟦{円|えん}→円：00774_en⟧です。",
       "english": "The prize money is one million yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22330_kenshoukin_ex2",
-      "japanese": "{犯人|はんにん}に{懸賞金|けんしょうきん}がかけられた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦に→に：00314_ni⟧{懸賞金|けんしょうきん}⟦が→が：00051_ga⟧かけられた。",
       "english": "A bounty was placed on the criminal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22330_kenshoukin_ex3",
-      "japanese": "{情報|じょうほう}{提供者|ていきょうしゃ}に{最大|さいだい}{三百万|さんびゃくまん}{円|えん}の{懸賞金|けんしょうきん}が{支払|しはら}われることになっている。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧{提供者|ていきょうしゃ}⟦に→に：00314_ni⟧⟦{最大|さいだい}→最大：04827_saidai⟧{三百万|さんびゃくまん}⟦{円|えん}→円：00774_en⟧⟦の→の：09472_no⟧{懸賞金|けんしょうきん}⟦が→が：00051_ga⟧⟦{支払|しはら}われる→支払う：02116_shiharau⟧ことになっている。",
       "english": "An informant can receive up to three million yen in reward money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {懸賞|けんしょう} (prize/reward) + {金|きん} (money). Used in two main contexts: prize money for contests and competitions, and reward money for information leading to the capture of criminals.\n\nCOMMON COLLOCATIONS:\n- {懸賞金|けんしょうきん}をかける: to put up a reward/bounty\n- {懸賞金|けんしょうきん}が{出|で}る: a reward is offered\n- {懸賞金|けんしょうきん}{付|つ}き: with a bounty attached\n- {懸賞金|けんしょうきん}を{受|う}け{取|と}る: to receive the prize/reward money\n\nSIMILAR WORDS:\n- {賞金|しょうきん}: prize money — for competitions, without the \"bounty\" connotation\n- {報奨金|ほうしょうきん}: incentive money/bonus — for good performance or tips\n- {褒賞金|ほうしょうきん}: reward money — formal, from government or organizations",
+  "notes": "Composed of {懸賞|けんしょう} (prize/reward) + {金|きん} (money). Used in two main contexts: prize money for contests and competitions, and reward money for information leading to the capture of criminals.\n\nCOMMON COLLOCATIONS:\n- {懸賞金|けんしょうきん}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to put up a reward/bounty\n- {懸賞金|けんしょうきん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: a reward is offered\n- {懸賞金|けんしょうきん}⟦{付|つ}き→付き：26333_tsuki⟧: with a bounty attached\n- {懸賞金|けんしょうきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive the prize/reward money\n\nSIMILAR WORDS:\n- ⟦{賞金|しょうきん}→賞金：14234_shoukin⟧: prize money — for competitions, without the \"bounty\" connotation\n- ⟦{報奨金|ほうしょうきん}→報奨金：18793_houshoukin⟧: incentive money/bonus — for good performance or tips\n- {褒賞金|ほうしょうきん}: reward money — formal, from government or organizations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18793_houshoukin",
+      "reading": "ほうしょうきん",
+      "headword": "{報奨金|ほうしょうきん}",
+      "label": "incentive money/bonus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money"]
+      "semantic": [
+        "money"
+      ]
     },
     "created": "2026-04-05T18:30:45Z",
-    "modified": "2026-04-05T18:30:45Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28267_senman_ex1",
-      "japanese": "{年収|ねんしゅう}{一千万円|いっせんまんえん}。",
+      "japanese": "⟦{年収|ねんしゅう}→年収：05504_nenshuu⟧{一千万円|いっせんまんえん}。",
       "english": "An annual income of ten million yen.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28267_senman_ex2",
-      "japanese": "{宝|たから}くじで{三千万円|さんぜんまんえん}{当|あ}たった。",
+      "japanese": "⟦{宝|たから}くじ→宝くじ：18549_takarakuji⟧⟦で→で：00502_de⟧{三千万円|さんぜんまんえん}⟦{当|あ}たった→当たる：01860_ataru⟧。",
       "english": "I won 30 million yen in the lottery.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28267_senman_ex3",
-      "japanese": "{東京|とうきょう}の{人口|じんこう}は{約|やく}{一千四百万|いっせんよんひゃくまん}{人|にん}だ。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧{一千四百万|いっせんよんひゃくまん}⟦{人|にん}→〜人：00658_nin⟧だ。",
       "english": "Tokyo's population is about 14 million people.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Japanese counts in groups of 10,000 ({万|まん}), so 10 million is expressed as 1,000 × 10,000 = {千万|せんまん}, not as a separate \"million\" unit.\n\nCOMMON COLLOCATIONS:\n- {一千万円|いっせんまんえん}: ten million yen\n- {千万長者|せんまんちょうじゃ}: multi-millionaire\n- {数千万|すうせんまん}: tens of millions\n- {千万|せんまん}{単位|たんい}: in units of ten million\n\nUSAGE:\nFor an exact figure, the prefix {一|いっ} is normally added: {一千万|いっせんまん} (10,000,000). Without {一|いっ}, {千万|せんまん} may also appear in set phrases like {遺憾千万|いかんせんまん} \"extremely regrettable,\" where it means \"a great many\" rather than the specific number.",
+  "notes": "Japanese counts in groups of 10,000 (⟦{万|まん}→万：00795_man⟧), so 10 million is expressed as 1,000 × 10,000 = {千万|せんまん}, not as a separate \"million\" unit.\n\nCOMMON COLLOCATIONS:\n- {一千万円|いっせんまんえん}: ten million yen\n- {千万長者|せんまんちょうじゃ}: multi-millionaire\n- {数千万|すうせんまん}: tens of millions\n- {千万|せんまん}⟦{単位|たんい}→単位：03412_tani⟧: in units of ten million\n\nUSAGE:\nFor an exact figure, the prefix {一|いっ} is normally added: {一千万|いっせんまん} (10,000,000). Without {一|いっ}, {千万|せんまん} may also appear in set phrases like {遺憾千万|いかんせんまん} \"extremely regrettable,\" where it means \"a great many\" rather than the specific number.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +53,13 @@
         "number"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "number"
       ],
       "domain": []
     },
     "created": "2026-05-28T03:07:22Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

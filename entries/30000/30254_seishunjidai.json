@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30254_seishunjidai_ex1",
-      "japanese": "{青春時代|せいしゅんじだい}を{思|おも}い{出|だ}す。",
+      "japanese": "{青春時代|せいしゅんじだい}⟦を→を：00422_wo⟧⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧。",
       "english": "To remember one's youth.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30254_seishunjidai_ex2",
-      "japanese": "{父|ちち}の{青春時代|せいしゅんじだい}の{写真|しゃしん}を{見|み}せてもらった。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧{青春時代|せいしゅんじだい}⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was shown photographs from my father's youth.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30254_seishunjidai_ex3",
-      "japanese": "{毎日|まいにち}{練習|れんしゅう}ばかりだったが、あの{三年間|さんねんかん}が{私|わたし}の{青春時代|せいしゅんじだい}だった。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦ばかり→〜ばかり：02006_bakari⟧だった⟦が→が：00051_ga⟧、⟦あの→あの：00915_ano⟧⟦{三年間|さんねんかん}→三年間：28861_sannenkan⟧⟦が→が：00051_ga⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧{青春時代|せいしゅんじだい}だった。",
       "english": "It was nothing but practice every day, but those three years were the springtime of my life.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{青春|せいしゅん} (youth, literally \"blue spring\") + {時代|じだい} (era, period). The word carries the emotional colour of {青春|せいしゅん} — idealism, intensity, and things that cannot come again.\n\nCOMMON COLLOCATIONS:\n- {青春時代|せいしゅんじだい}を{過|す}ごす: to spend one's youth\n- {青春時代|せいしゅんじだい}の{思|おも}い{出|で}: memories of one's youth\n- {青春時代|せいしゅんじだい}に{戻|もど}りたい: to want to go back to one's youth\n\nSIMILAR WORDS:\n- {若|わか}いころ: when one was young — plain and factual, without the nostalgic warmth\n- {少年時代|しょうねんじだい}: boyhood — earlier, roughly the elementary and junior high years\n- {思春期|ししゅんき}: puberty, adolescence — a clinical term for the developmental stage",
+  "notes": "⟦{青春|せいしゅん}→青春：14613_seishun⟧ (youth, literally \"blue spring\") + ⟦{時代|じだい}→時代：01424_jidai⟧ (era, period). The word carries the emotional colour of ⟦{青春|せいしゅん}→青春：14613_seishun⟧ — idealism, intensity, and things that cannot come again.\n\nCOMMON COLLOCATIONS:\n- {青春時代|せいしゅんじだい}⟦を→を：00422_wo⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧: to spend one's youth\n- {青春時代|せいしゅんじだい}⟦の→の：09472_no⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧: memories of one's youth\n- {青春時代|せいしゅんじだい}⟦に→に：00314_ni⟧⟦{戻|もど}りたい→戻る：01117_modoru⟧: to want to go back to one's youth\n\nSIMILAR WORDS:\n- {若|わか}い⟦ころ→〜ころ：03091_koro⟧: when one was young — plain and factual, without the nostalgic warmth\n- ⟦{少年時代|しょうねんじだい}→少年時代：30263_shounenjidai⟧: boyhood — earlier, roughly the elementary and junior high years\n- ⟦{思春期|ししゅんき}→思春期：12667_shishunki⟧: puberty, adolescence — a clinical term for the developmental stage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30263_shounenjidai",
+      "reading": "しょうねんじだい",
+      "headword": "{少年時代|しょうねんじだい}",
+      "label": "boyhood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12667_shishunki",
+      "reading": "ししゅんき",
+      "headword": "{思春期|ししゅんき}",
+      "label": "puberty, adolescence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-period"
       ],
       "domain": []
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:28:30Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

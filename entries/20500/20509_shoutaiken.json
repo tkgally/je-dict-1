@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "20509_shoutaiken_ex1",
-      "japanese": "{映画|えいが}の{招待券|しょうたいけん}をもらった。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{招待券|しょうたいけん}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received a complimentary movie ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20509_shoutaiken_ex2",
-      "japanese": "{美術館|びじゅつかん}の{招待券|しょうたいけん}が{二枚|にまい}ある。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦の→の：09472_no⟧{招待券|しょうたいけん}⟦が→が：00051_ga⟧⟦{二枚|にまい}→二枚：30347_nimai⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have two complimentary tickets to the art museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20509_shoutaiken_ex3",
-      "japanese": "{懸賞|けんしょう}に{当|あ}たって、テーマパークの{招待券|しょうたいけん}をもらったので、{家族|かぞく}で{行|い}くことにした。",
+      "japanese": "{懸賞|けんしょう}⟦に→に：00314_ni⟧⟦{当|あ}たって→当たる：01860_ataru⟧、⟦テーマパーク→テーマパーク：28062_teemapaaku⟧⟦の→の：09472_no⟧{招待券|しょうたいけん}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧⟦の→の：09472_no⟧で、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧ことにした。",
       "english": "I won a prize and got complimentary theme park tickets, so we decided to go as a family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A free ticket given as an invitation or promotional giveaway. Composed of {招待|しょうたい} (invitation) + {券|けん} (ticket/voucher).\n\nCOMMON COLLOCATIONS:\n- {招待券|しょうたいけん}をもらう: to receive a complimentary ticket\n- {招待券|しょうたいけん}を{配|くば}る: to distribute invitation tickets\n- {映画|えいが}の{招待券|しょうたいけん}: complimentary movie ticket\n- {展覧会|てんらんかい}の{招待券|しょうたいけん}: exhibition invitation ticket\n\nSIMILAR WORDS:\n- {無料券|むりょうけん}: free ticket/coupon — general term for any free pass\n- {優待券|ゆうたいけん}: discount/preferential ticket — offered to shareholders or members at reduced prices\n- {入場券|にゅうじょうけん}: admission ticket — a paid ticket for entry\n- {招待状|しょうたいじょう}: invitation letter/card — a written invitation, not a ticket\n\nNOTE:\nIn Japan, {招待券|しょうたいけん} are commonly given away through magazine sweepstakes, promotional campaigns, corporate events, or as perks at workplaces.",
+  "notes": "A free ticket given as an invitation or promotional giveaway. Composed of ⟦{招待|しょうたい}→招待：01435_shoutai⟧ (invitation) + ⟦{券|けん}→券：02150_ken⟧ (ticket/voucher).\n\nCOMMON COLLOCATIONS:\n- {招待券|しょうたいけん}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧: to receive a complimentary ticket\n- {招待券|しょうたいけん}⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧: to distribute invitation tickets\n- ⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{招待券|しょうたいけん}: complimentary movie ticket\n- ⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦の→の：09472_no⟧{招待券|しょうたいけん}: exhibition invitation ticket\n\nSIMILAR WORDS:\n- ⟦{無料券|むりょうけん}→無料券：30139_muryouken⟧: free ticket/coupon — general term for any free pass\n- ⟦{優待券|ゆうたいけん}→優待券：23292_yuutaiken⟧: discount/preferential ticket — offered to shareholders or members at reduced prices\n- ⟦{入場券|にゅうじょうけん}→入場券：19454_nyuujouken⟧: admission ticket — a paid ticket for entry\n- ⟦{招待状|しょうたいじょう}→招待状：14769_shoutaijou⟧: invitation letter/card — a written invitation, not a ticket\n\nUSAGE:\nIn Japan, {招待券|しょうたいけん} are commonly given away through magazine sweepstakes, promotional campaigns, corporate events, or as perks at workplaces.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30139_muryouken",
+      "reading": "むりょうけん",
+      "headword": "{無料券|むりょうけん}",
+      "label": "free ticket/coupon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23292_yuutaiken",
+      "reading": "ゆうたいけん",
+      "headword": "{優待券|ゆうたいけん}",
+      "label": "discount/preferential ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19454_nyuujouken",
+      "reading": "にゅうじょうけん",
+      "headword": "{入場券|にゅうじょうけん}",
+      "label": "admission ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14769_shoutaijou",
+      "reading": "しょうたいじょう",
+      "headword": "{招待状|しょうたいじょう}",
+      "label": "invitation letter/card"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["entertainment"]
+      "semantic": [
+        "entertainment"
+      ]
     },
     "created": "2026-03-29T16:22:44Z",
-    "modified": "2026-03-29T16:22:44Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25024_kondishonaa_ex1",
-      "japanese": "シャンプーのあとにコンディショナーをつける。",
+      "japanese": "⟦シャンプー→シャンプー：04507_shanpuu⟧⟦の→の：09472_no⟧あと⟦に→に：00314_ni⟧コンディショナー⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "Apply conditioner after shampooing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25024_kondishonaa_ex2",
-      "japanese": "このコンディショナーは{髪|かみ}がさらさらになる。",
+      "japanese": "⟦この→この：00962_kono⟧コンディショナー⟦は→は：00079_ha⟧⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧⟦さらさら→さらさら：05255_sarasara⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "This conditioner makes your hair silky smooth.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25024_kondishonaa_ex3",
-      "japanese": "{旅行用|りょこうよう}の{小|ちい}さいシャンプーとコンディショナーを{買|か}っておいた。",
+      "japanese": "{旅行用|りょこうよう}⟦の→の：09472_no⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧⟦シャンプー→シャンプー：04507_shanpuu⟧⟦と→と：00512_to⟧コンディショナー⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧おいた。",
       "english": "I bought small travel-sized shampoo and conditioner.",
       "sense_numbers": [
         1
@@ -44,19 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English. In Japan, the distinction between コンディショナー, リンス, and トリートメント is a frequent source of confusion for shoppers.\n\nSIMILAR WORDS:\n- リンス: rinse — an older term for hair conditioner; functionally similar to コンディショナー but considered a slightly dated word\n- トリートメント: treatment — a deeper conditioning product that penetrates the hair shaft, whereas コンディショナー mainly coats the surface\n- シャンプー: shampoo — the cleansing step that precedes conditioner\n\nCOMMON COLLOCATIONS:\n- コンディショナーをつける: apply conditioner\n- コンディショナーを{洗|あら}い{流|なが}す: rinse out conditioner\n- ノンシリコンコンディショナー: silicone-free conditioner",
+  "notes": "A loanword from English. In Japan, the distinction between コンディショナー, ⟦リンス→リンス：20476_rinsu⟧, and ⟦トリートメント→トリートメント：29565_toriitomento⟧ is a frequent source of confusion for shoppers.\n\nSIMILAR WORDS:\n- ⟦リンス→リンス：20476_rinsu⟧: rinse — an older term for hair conditioner; functionally similar to コンディショナー but considered a slightly dated word\n- ⟦トリートメント→トリートメント：29565_toriitomento⟧: treatment — a deeper conditioning product that penetrates the hair shaft, whereas コンディショナー mainly coats the surface\n- ⟦シャンプー→シャンプー：04507_shanpuu⟧: shampoo — the cleansing step that precedes conditioner\n\nCOMMON COLLOCATIONS:\n- コンディショナー⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: apply conditioner\n- コンディショナー⟦を→を：00422_wo⟧⟦{洗|あら}い{流|なが}す→洗い流す：15748_arainagasu⟧: rinse out conditioner\n- ノンシリコンコンディショナー: silicone-free conditioner",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20476_rinsu",
+      "reading": "りんす",
+      "headword": "リンス",
+      "label": "rinse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29565_toriitomento",
+      "reading": "とりーとめんと",
+      "headword": "トリートメント",
+      "label": "treatment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04507_shanpuu",
+      "reading": "しゃんぷー",
+      "headword": "シャンプー",
+      "label": "shampoo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ]
     },
     "created": "2026-04-22T11:24:42Z",
-    "modified": "2026-08-03T21:47:49Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

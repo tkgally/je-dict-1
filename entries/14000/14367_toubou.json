@@ -3,7 +3,7 @@
   "id": "14367_toubou",
   "headword": "{逃亡|とうぼう}",
   "reading": "とうぼう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "flight; escape; fleeing",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14367_toubou_ex1",
-      "japanese": "{容疑者|ようぎしゃ}が{逃亡|とうぼう}した。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦が→が：00051_ga⟧{逃亡|とうぼう}⟦した→する：00392_suru⟧。",
       "english": "The suspect fled.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14367_toubou_ex2",
-      "japanese": "{戦争|せんそう}から{逃亡|とうぼう}して{隣国|りんごく}に{渡|わた}った。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦から→から：00504_kara⟧{逃亡|とうぼう}⟦して→する：00392_suru⟧⟦{隣国|りんごく}→隣国：19116_ringoku⟧⟦に→に：00314_ni⟧⟦{渡|わた}った→渡る：02441_wataru⟧。",
       "english": "They fled the war and crossed into the neighboring country.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14367_toubou_ex3",
-      "japanese": "{逃亡|とうぼう}{生活|せいかつ}を{続|つづ}けていた{犯人|はんにん}が、{十年|じゅうねん}ぶりに{逮捕|たいほ}された。",
+      "japanese": "{逃亡|とうぼう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いた→いる：00495_iru⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦が→が：00051_ga⟧、{十年|じゅうねん}⟦ぶり→〜ぶり：28358_buri⟧⟦に→に：00314_ni⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The criminal, who had been living on the run, was arrested for the first time in ten years.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n{逃亡|とうぼう} implies serious flight — running from the law, escaping persecution, or deserting. It has a heavier tone than {逃|に}げる (to run away) and is common in news reporting.\n\nPARTICLE PATTERNS:\n- から{逃亡|とうぼう}する (to flee from...)\n- へ{逃亡|とうぼう}する (to flee to...)\n\nCOMMON COLLOCATIONS:\n- {逃亡|とうぼう}{生活|せいかつ} (life on the run)\n- {逃亡|とうぼう}{中|ちゅう} (on the run, at large)\n- {逃亡|とうぼう}{者|しゃ} (fugitive)\n- {逃亡|とうぼう}を{図|はか}る (to attempt to flee)\n- {海外|かいがい}に{逃亡|とうぼう}する (to flee abroad)",
+  "notes": "USAGE:\n{逃亡|とうぼう} implies serious flight — running from the law, escaping persecution, or deserting. It has a heavier tone than ⟦{逃|に}げる→逃げる：01151_nigeru⟧ (to run away) and is common in news reporting.\n\nCOMMON PATTERNS:\n- から{逃亡|とうぼう}⟦する→する：00392_suru⟧ (to flee from...)\n- ⟦へ→へ：02473_he⟧{逃亡|とうぼう}⟦する→する：00392_suru⟧ (to flee to...)\n\nCOMMON COLLOCATIONS:\n- {逃亡|とうぼう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (life on the run)\n- {逃亡|とうぼう}{中|ちゅう} (on the run, at large)\n- {逃亡|とうぼう}{者|しゃ} (fugitive)\n- {逃亡|とうぼう}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧ (to attempt to flee)\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧{逃亡|とうぼう}⟦する→する：00392_suru⟧ (to flee abroad)",
   "cross_references": [
     {
       "type": "contrast",
@@ -156,11 +156,18 @@
       "reading": "とうそう",
       "headword": "{逃走|とうそう}",
       "label": "fleeing from pursuit"
+    },
+    {
+      "type": "related",
+      "target_id": "15732_datsugoku",
+      "reading": "だつごく",
+      "headword": "{脱獄|だつごく}",
+      "label": "prison break"
     }
   ],
   "metadata": {
     "created": "2026-02-28T13:07:59Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +180,8 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

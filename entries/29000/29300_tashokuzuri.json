@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29300_tashokuzuri_ex1",
-      "japanese": "{多色|たしょく}{刷|ず}りの{版画|はんが}。",
+      "japanese": "{多色|たしょく}{刷|ず}り⟦の→の：09472_no⟧⟦{版画|はんが}→版画：10582_hanga⟧。",
       "english": "A multicolor woodblock print.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29300_tashokuzuri_ex2",
-      "japanese": "この{絵|え}は{多色|たしょく}{刷|ず}りで{印刷|いんさつ}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{絵|え}→絵：02613_e⟧⟦は→は：00079_ha⟧{多色|たしょく}{刷|ず}り⟦で→で：00502_de⟧⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦されている→する：00392_suru⟧。",
       "english": "This picture is printed in multiple colors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29300_tashokuzuri_ex3",
-      "japanese": "{浮世絵|うきよえ}は{多色|たしょく}{刷|ず}りの{技術|ぎじゅつ}によって、{豊|ゆた}かな{色彩|しきさい}を{表現|ひょうげん}できるようになった。",
+      "japanese": "⟦{浮世絵|うきよえ}→浮世絵：13286_ukiyoe⟧⟦は→は：00079_ha⟧{多色|たしょく}{刷|ず}り⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦によって→によって：06801_niyotte⟧、⟦{豊|ゆた}か→豊か：03654_yutaka⟧な⟦{色彩|しきさい}→色彩：13956_shikisai⟧⟦を→を：00422_wo⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦できる→できる：00557_dekiru⟧ようになった。",
       "english": "Thanks to multicolor printing techniques, ukiyo-e came to be able to express rich color.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {多色|たしょく} (many colors) + {刷|す}り (printing). The {す}り becomes {ず}り through rendaku. Strongly associated with traditional woodblock prints such as {錦絵|にしきえ}.\n\nCOMMON COLLOCATIONS:\n- {多色|たしょく}{刷|ず}りの{版画|はんが}: a multicolor woodblock print\n- {多色|たしょく}{刷|ず}りで{印刷|いんさつ}する: to print in multiple colors\n\nSIMILAR WORDS:\n- {単色|たんしょく}{刷|ず}り: single-color printing — the contrasting one-ink method\n- {錦絵|にしきえ}: brocade picture — full-color ukiyo-e produced by multicolor printing",
+  "notes": "Composed of ⟦{多色|たしょく}→多色：26459_tashoku⟧ (many colors) + {刷|す}り (printing). The ⟦すり→すり：01330_suri⟧ becomes ずり through rendaku. Strongly associated with traditional woodblock prints such as ⟦{錦絵|にしきえ}→錦絵：15375_nishikie⟧.\n\nCOMMON COLLOCATIONS:\n- {多色|たしょく}{刷|ず}り⟦の→の：09472_no⟧⟦{版画|はんが}→版画：10582_hanga⟧: a multicolor woodblock print\n- {多色|たしょく}{刷|ず}り⟦で→で：00502_de⟧⟦{印刷|いんさつ}する→印刷する：21677_insatsusuru⟧: to print in multiple colors\n\nSIMILAR WORDS:\n- ⟦{単色|たんしょく}→単色：22209_tanshoku⟧{刷|ず}り: single-color printing — the contrasting one-ink method\n- ⟦{錦絵|にしきえ}→錦絵：15375_nishikie⟧: brocade picture — full-color ukiyo-e produced by multicolor printing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15375_nishikie",
+      "reading": "にしきえ",
+      "headword": "{錦絵|にしきえ}",
+      "label": "brocade picture"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["art"],
+      "politeness": "plain",
+      "semantic": [
+        "art"
+      ],
       "domain": []
     },
     "created": "2026-06-16T15:19:08Z",
-    "modified": "2026-06-16T15:19:08Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

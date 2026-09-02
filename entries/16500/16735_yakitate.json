@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16735_yakitate_ex1",
-      "japanese": "{焼|や}きたてのパンはおいしい。",
+      "japanese": "{焼|や}きたて⟦の→の：09472_no⟧⟦パン→パン：00553_pan⟧⟦は→は：00079_ha⟧おいしい。",
       "english": "Freshly baked bread is delicious.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16735_yakitate_ex2",
-      "japanese": "{焼|や}きたてのピザが{届|とど}いた。",
+      "japanese": "{焼|や}きたて⟦の→の：09472_no⟧⟦ピザ→ピザ：06769_piza⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "A freshly baked pizza arrived.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16735_yakitate_ex3",
-      "japanese": "この{店|みせ}では{焼|や}きたてのクッキーをいつでも{買|か}うことができる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{焼|や}きたて⟦の→の：09472_no⟧⟦クッキー→クッキー：10798_kukkii⟧⟦を→を：00422_wo⟧⟦いつ→いつ：00536_itsu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{買|か}う→買う：00489_kau⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "At this shop, you can always buy freshly baked cookies.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\nFormed from {焼|や}く (to bake/grill) + たて (just done). The suffix たて attaches to the conjunctive form of verbs to mean \"just [verb]ed\" or \"freshly [verb]ed.\"\n\nCOMMON COLLOCATIONS:\n- {焼|や}きたてのパン (freshly baked bread)\n- {焼|や}きたてのクッキー (freshly baked cookies)\n- {焼|や}きたての{魚|さかな} (freshly grilled fish)\n\nRELATED WORDS:\n- {揚|あ}げたて: freshly fried\n- {炊|た}きたて: freshly cooked (rice)\n- {出来|でき}たて: freshly made",
+  "notes": "FORMS:\nFormed from ⟦{焼|や}く→焼く：01123_yaku⟧ (to bake/grill) + たて (just done). The suffix たて attaches to the conjunctive form of verbs to mean \"just [verb]ed\" or \"freshly [verb]ed.\"\n\nCOMMON COLLOCATIONS:\n- {焼|や}きたて⟦の→の：09472_no⟧⟦パン→パン：00553_pan⟧ (freshly baked bread)\n- {焼|や}きたて⟦の→の：09472_no⟧⟦クッキー→クッキー：10798_kukkii⟧ (freshly baked cookies)\n- {焼|や}きたて⟦の→の：09472_no⟧⟦{魚|さかな}→魚：00499_sakana⟧ (freshly grilled fish)\n\nRELATED WORDS:\n- ⟦{揚|あ}げたて→揚げたて：16736_agetate⟧: freshly fried\n- {炊|た}きたて: freshly cooked (rice)\n- {出来|でき}たて: freshly made",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,18 @@
       "reading": "できたて",
       "headword": "{出来立|できた}て",
       "label": "freshly made"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16665_iritate",
+      "reading": "いりたて",
+      "headword": "{煎|い}り{立|た}て",
+      "label": "freshly roasted"
     }
   ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-05-04T10:11:42Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

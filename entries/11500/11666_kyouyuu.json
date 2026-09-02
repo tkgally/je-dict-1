@@ -2,7 +2,7 @@
   "id": "11666_kyouyuu",
   "headword": "{共有|きょうゆう}",
   "reading": "きょうゆう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sharing, joint ownership",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11666_kyouyuu_ex1",
-      "japanese": "ファイルを{共有|きょうゆう}する。",
+      "japanese": "⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧{共有|きょうゆう}⟦する→する：00392_suru⟧。",
       "english": "Share a file.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11666_kyouyuu_ex2",
-      "japanese": "この{問題|もんだい}{意識|いしき}はチーム{全体|ぜんたい}で{共有|きょうゆう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦{意識|いしき}→意識：01714_ishiki⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦で→で：00502_de⟧{共有|きょうゆう}⟦している→する：00392_suru⟧。",
       "english": "This awareness of the problem is shared across the entire team.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11666_kyouyuu_ex3",
-      "japanese": "{兄弟|きょうだい}で{一|ひと}つの{部屋|へや}を{共有|きょうゆう}して{育|そだ}った。",
+      "japanese": "⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦で→で：00502_de⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{共有|きょうゆう}⟦して→する：00392_suru⟧⟦{育|そだ}った→育つ：01951_sodatsu⟧。",
       "english": "I grew up sharing one room with my siblings.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "Very common in both everyday and business/technical contexts. Frequently used with digital content (files, data, links) as well as physical spaces and abstract concepts.\n\nCOMMON COLLOCATIONS:\n・{情報|じょうほう}を{共有|きょうゆう}する (share information)\n・{価値観|かちかん}を{共有|きょうゆう}する (share values)\n・{共有|きょうゆう}スペース (shared space)\n・{共有|きょうゆう}{財産|ざいさん} (joint property)\n・{共有|きょうゆう}{名義|めいぎ} (joint ownership title)\n\nDISTINCTIONS:\n・{共有|きょうゆう}: sharing ownership or use of something with others\n・{共用|きょうよう}: shared use (emphasizes using the same facility/equipment, not ownership)",
-  "cross_references": [],
+  "notes": "Very common in both everyday and business/technical contexts. Frequently used with digital content (files, data, links) as well as physical spaces and abstract concepts.\n\nCOMMON COLLOCATIONS:\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{共有|きょうゆう}⟦する→する：00392_suru⟧ (share information)\n- ⟦{価値観|かちかん}→価値観：10431_kachikan⟧⟦を→を：00422_wo⟧{共有|きょうゆう}⟦する→する：00392_suru⟧ (share values)\n- {共有|きょうゆう}⟦スペース→スペース：11049_supeesu⟧ (shared space)\n- {共有|きょうゆう}⟦{財産|ざいさん}→財産：01635_zaisan⟧ (joint property)\n- {共有|きょうゆう}{名義|めいぎ} (joint ownership title)\n\nSIMILAR WORDS:\n- {共有|きょうゆう}: sharing ownership or use of something with others\n- ⟦{共用|きょうよう}→共用：21529_kyouyou⟧: shared use (emphasizes using the same facility/equipment, not ownership)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21529_kyouyou",
+      "reading": "きょうよう",
+      "headword": "{共用|きょうよう}",
+      "label": "shared use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21178_kouyuu",
+      "reading": "こうゆう",
+      "headword": "{公有|こうゆう}",
+      "label": "public ownership"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T20:16:35Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

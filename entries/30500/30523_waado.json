@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30523_waado_ex1",
-      "japanese": "ワードを{入力|にゅうりょく}する。",
+      "japanese": "ワード⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力する：28127_nyuuryokusuru⟧。",
       "english": "I enter a search word.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30523_waado_ex2",
-      "japanese": "この{記事|きじ}のキーワードは{三|みっ}つある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦の→の：09472_no⟧キーワード⟦は→は：00079_ha⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦ある→ある：00006_aru⟧。",
       "english": "This article has three keywords.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30523_waado_ex3",
-      "japanese": "{同|おな}じワードで{検索|けんさく}しても、{人|ひと}によって{出|で}てくる{結果|けっか}が{違|ちが}う。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧ワード⟦で→で：00502_de⟧⟦{検索|けんさく}→検索：04729_kensaku⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧、⟦{人|ひと}→人：00476_hito⟧⟦によって→によって：06801_niyotte⟧⟦{出|で}てくる→出てくる：29121_detekuru⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Even searching with the same term, different people get different results.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English \"word\". Outside compounds it is largely confined to search, media, and IT contexts; for words as language, Japanese uses {言葉|ことば} or {単語|たんご}.\n\nCOMMON COLLOCATIONS:\n- キーワード: keyword\n- {検索|けんさく}ワード: search term\n- パスワード: password\n- トレンドワード: trending term\n\nSIMILAR WORDS:\n- {単語|たんご}: word, vocabulary item — the term used in language study\n- {言葉|ことば}: word, language, speech — the general native word",
+  "notes": "From English \"word\". Outside compounds it is largely confined to search, media, and IT contexts; for words as language, Japanese uses ⟦{言葉|ことば}→言葉：02880_kotoba⟧ or ⟦{単語|たんご}→単語：03413_tango⟧.\n\nCOMMON COLLOCATIONS:\n- キーワード: keyword\n- ⟦{検索|けんさく}→検索：04729_kensaku⟧ワード: search term\n- パスワード: password\n- ⟦トレンド→トレンド：06696_torendo⟧ワード: trending term\n\nSIMILAR WORDS:\n- ⟦{単語|たんご}→単語：03413_tango⟧: word, vocabulary item — the term used in language study\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧: word, language, speech — the general native word",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03413_tango",
+      "reading": "たんご",
+      "headword": "{単語|たんご}",
+      "label": "word, vocabulary item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02880_kotoba",
+      "reading": "ことば",
+      "headword": "{言葉|ことば}",
+      "label": "word, language, speech"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language",
         "technology"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-09T03:19:08Z",
-    "modified": "2026-08-09T03:19:08Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

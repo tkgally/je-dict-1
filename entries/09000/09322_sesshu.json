@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09322_sesshu_ex1",
-      "japanese": "{塩分|えんぶん}の{摂取|せっしゅ}を{控|ひか}える。",
+      "japanese": "⟦{塩分|えんぶん}→塩分：09945_enbun⟧⟦の→の：09472_no⟧{摂取|せっしゅ}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧。",
       "english": "I'm cutting back on salt intake.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09322_sesshu_ex2",
-      "japanese": "{一日|いちにち}に{必要|ひつよう}なカロリーを{摂取|せっしゅ}する。",
+      "japanese": "⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦に→に：00314_ni⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦カロリー→カロリー：06109_karorii⟧⟦を→を：00422_wo⟧{摂取|せっしゅ}⟦する→する：00392_suru⟧。",
       "english": "I consume the calories needed per day.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09322_sesshu_ex3",
-      "japanese": "{野菜|やさい}から{十分|じゅうぶん}な{栄養|えいよう}を{摂取|せっしゅ}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{野菜|やさい}→野菜：02265_yasai⟧⟦から→から：00504_kara⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧な⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧{摂取|せっしゅ}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to get sufficient nutrition from vegetables.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "{摂取|せっしゅ} is a formal term for consuming or taking in substances, particularly used in health and nutrition contexts.\n\nCOMMON COLLOCATIONS:\n- {栄養|えいよう}を{摂取|せっしゅ}する (take in nutrition)\n- {水分|すいぶん}を{摂取|せっしゅ}する (consume fluids)\n- {摂取|せっしゅ}{量|りょう} (intake amount)\n- {過剰|かじょう}{摂取|せっしゅ} (overconsumption)\n- {摂取|せっしゅ}カロリー (calorie intake)\n\nUSAGE NOTE: More formal than {取|と}る or {食|た}べる. Often seen in medical advice, nutrition labels, and health articles.",
-  "cross_references": [],
+  "notes": "{摂取|せっしゅ} is a formal term for consuming or taking in substances, particularly used in health and nutrition contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧{摂取|せっしゅ}⟦する→する：00392_suru⟧ (take in nutrition)\n- ⟦{水分|すいぶん}→水分：04302_suibun⟧⟦を→を：00422_wo⟧{摂取|せっしゅ}⟦する→する：00392_suru⟧ (consume fluids)\n- {摂取|せっしゅ}{量|りょう} (intake amount)\n- {過剰|かじょう}{摂取|せっしゅ} (overconsumption)\n- {摂取|せっしゅ}⟦カロリー→カロリー：06109_karorii⟧ (calorie intake)\n\nUSAGE NOTE: More formal than ⟦{取|と}る→取る：00565_toru⟧ or ⟦{食|た}べる→食べる：00396_taberu⟧. Often seen in medical advice, nutrition labels, and health articles.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21605_fukuyousuru",
+      "reading": "ふくようする",
+      "headword": "{服用|ふくよう}する",
+      "label": "to take (medicine)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "22649_sesshu",
+      "reading": "せっしゅ",
+      "headword": "{接種|せっしゅ}",
+      "label": "vaccination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25365_kyuushuusuru",
+      "reading": "きゅうしゅうする",
+      "headword": "{吸収|きゅうしゅう}する",
+      "label": "to absorb"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:43:31Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +173,8 @@
         "food",
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

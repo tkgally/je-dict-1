@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "18876_gekkaihi_ex1",
-      "japanese": "{月|げっ}{会費|かいひ}は{三千|さんぜん}{円|えん}です。",
+      "japanese": "{月|げっ}{会費|かいひ}⟦は→は：00079_ha⟧⟦{三千|さんぜん}→三千：00985_sanzen⟧⟦{円|えん}→円：00774_en⟧です。",
       "english": "The monthly membership fee is 3,000 yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18876_gekkaihi_ex2",
-      "japanese": "ジムの{月|げっ}{会費|かいひ}を{払|はら}い{忘|わす}れた。",
+      "japanese": "⟦ジム→ジム：04735_jimu⟧⟦の→の：09472_no⟧{月|げっ}{会費|かいひ}⟦を→を：00422_wo⟧⟦{払|はら}い→払う：00535_harau⟧⟦{忘|わす}れた→忘れる：00474_wasureru⟧。",
       "english": "I forgot to pay my gym's monthly fee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18876_gekkaihi_ex3",
-      "japanese": "{月|げっ}{会費|かいひ}が{値上|ねあ}げされたので、{退会|たいかい}を{考|かんが}えている。",
+      "japanese": "{月|げっ}{会費|かいひ}⟦が→が：00051_ga⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧⟦された→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{退会|たいかい}→退会：16082_taikai⟧⟦を→を：00422_wo⟧⟦{考|かんが}えている→考える：00856_kangaeru⟧。",
       "english": "The monthly fee was raised, so I'm considering canceling my membership.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommonly used for gym memberships, club dues, and subscription services. The fee is typically paid by automatic bank transfer ({口座|こうざ}{振替|ふりかえ}) in Japan.\n\nCOMMON COLLOCATIONS:\n- {月|げっ}{会費|かいひ}を{払|はら}う (to pay monthly dues)\n- {月|げっ}{会費|かいひ}が{高|たか}い／{安|やす}い (monthly fee is expensive/cheap)\n- {月|げっ}{会費|かいひ}の{値上|ねあ}げ (monthly fee increase)\n\nSIMILAR WORDS:\n- {年会費|ねんかいひ}: annual membership fee — paid once per year\n- {入会金|にゅうかいきん}: enrollment fee — one-time fee to join",
-  "cross_references": [],
+  "notes": "USAGE:\nCommonly used for gym memberships, club dues, and subscription services. The fee is typically paid by automatic bank transfer (⟦{口座|こうざ}{振替|ふりかえ}→口座振替：19853_kouzafurikae⟧) in Japan.\n\nCOMMON COLLOCATIONS:\n- {月|げっ}{会費|かいひ}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay monthly dues)\n- {月|げっ}{会費|かいひ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧／⟦{安|やす}い→安い：00464_yasui⟧ (monthly fee is expensive/cheap)\n- {月|げっ}{会費|かいひ}⟦の→の：09472_no⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧ (monthly fee increase)\n\nSIMILAR WORDS:\n- ⟦{年会費|ねんかいひ}→年会費：06414_nenkaihi⟧: annual membership fee — paid once per year\n- ⟦{入会金|にゅうかいきん}→入会金：06478_nyuukaikin⟧: enrollment fee — one-time fee to join",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06414_nenkaihi",
+      "reading": "ねんかいひ",
+      "headword": "{年会費|ねんかいひ}",
+      "label": "annual membership fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06478_nyuukaikin",
+      "reading": "にゅうかいきん",
+      "headword": "{入会金|にゅうかいきん}",
+      "label": "enrollment fee"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:18:52Z",
-    "modified": "2026-03-23T06:18:52Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

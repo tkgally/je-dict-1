@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "21366_hosomaki_ex1",
-      "japanese": "{細巻|ほそま}きを{六本|ろっぽん}{注文|ちゅうもん}した。",
+      "japanese": "{細巻|ほそま}き⟦を→を：00422_wo⟧⟦{六本|ろっぽん}→六本：27650_roppon⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered six thin sushi rolls.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21366_hosomaki_ex2",
-      "japanese": "かっぱ{巻|ま}きは{細巻|ほそま}きの{定番|ていばん}だ。",
+      "japanese": "⟦かっぱ{巻|ま}き→かっぱ巻き：28783_kappamaki⟧⟦は→は：00079_ha⟧{細巻|ほそま}き⟦の→の：09472_no⟧⟦{定番|ていばん}→定番：12265_teiban⟧だ。",
       "english": "Cucumber rolls are a classic thin sushi roll.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21366_hosomaki_ex3",
-      "japanese": "{太巻|ふとま}きより{細巻|ほそま}きの{方|ほう}が{一口|ひとくち}で{食|た}べやすい。",
+      "japanese": "⟦{太巻|ふとま}き→太巻き：16202_futomaki⟧⟦より→より：09476_yori⟧{細巻|ほそま}き⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{一口|ひとくち}→一口：10474_hitokuchi⟧⟦で→で：00502_de⟧⟦{食|た}べやすい→食べやすい：21799_tabeyasui⟧。",
       "english": "Thin rolls are easier to eat in one bite than thick rolls.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {細|ほそ}い (thin) and {巻|ま}き (roll). The most basic type of sushi roll, using a half sheet of {海苔|のり} and typically containing just one ingredient. Common varieties include {鉄火巻|てっかま}き (tuna roll), かっぱ{巻|ま}き (cucumber roll), and {納豆巻|なっとうま}き (natto roll).\n\nCOMMON COLLOCATIONS:\n- {細巻|ほそま}きを{巻|ま}く: to roll thin sushi rolls\n- {細巻|ほそま}き{一本|いっぽん}: one thin roll\n- {細巻|ほそま}きセット: thin roll assortment\n\nSIMILAR WORDS:\n- {太巻|ふとま}き: thick sushi roll — uses a full sheet of nori with multiple fillings\n- {手巻|てま}き: hand roll — cone-shaped, eaten by hand\n- {巻|ま}き{寿司|ずし}: rolled sushi — the general category\n- {裏巻|うらま}き: inside-out roll — rice on the outside",
+  "notes": "A compound of ⟦{細|ほそ}い→細い：02962_hosoi⟧ (thin) and {巻|ま}き (roll). The most basic type of sushi roll, using a half sheet of ⟦{海苔|のり}→海苔：10391_nori⟧ and typically containing just one ingredient. Common varieties include {鉄火巻|てっかま}き (tuna roll), ⟦かっぱ{巻|ま}き→かっぱ巻き：28783_kappamaki⟧ (cucumber roll), and {納豆巻|なっとうま}き (natto roll).\n\nCOMMON COLLOCATIONS:\n- {細巻|ほそま}き⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧: to roll thin sushi rolls\n- {細巻|ほそま}き⟦{一本|いっぽん}→一本：08888_ippon⟧: one thin roll\n- {細巻|ほそま}き⟦セット→セット：03853_setto⟧: thin roll assortment\n\nSIMILAR WORDS:\n- ⟦{太巻|ふとま}き→太巻き：16202_futomaki⟧: thick sushi roll — uses a full sheet of nori with multiple fillings\n- {手巻|てま}き: hand roll — cone-shaped, eaten by hand\n- ⟦{巻|ま}き{寿司|ずし}→巻き寿司：12410_makizushi⟧: rolled sushi — the general category\n- {裏巻|うらま}き: inside-out roll — rice on the outside",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16202_futomaki",
+      "reading": "ふとまき",
+      "headword": "{太巻|ふとま}き",
+      "label": "thick sushi roll"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12410_makizushi",
+      "reading": "まきずし",
+      "headword": "{巻|ま}き{寿司|ずし}",
+      "label": "rolled sushi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28783_kappamaki",
+      "reading": "かっぱまき",
+      "headword": "かっぱ{巻|ま}き",
+      "label": "cucumber sushi roll"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "culture"]
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-04-02T01:40:43Z",
-    "modified": "2026-04-02T01:40:43Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

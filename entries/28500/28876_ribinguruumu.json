@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28876_ribinguruumu_ex1",
-      "japanese": "リビングルームでテレビを{見|み}る。",
+      "japanese": "リビングルーム⟦で→で：00502_de⟧⟦テレビ→テレビ：01536_terebi⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "I watch TV in the living room.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28876_ribinguruumu_ex2",
-      "japanese": "{広|ひろ}いリビングルームがある{家|いえ}が{欲|ほ}しい。",
+      "japanese": "⟦{広|ひろ}い→広い：00704_hiroi⟧リビングルーム⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦{家|いえ}→家：00612_ie⟧⟦が→が：00051_ga⟧⟦{欲|ほ}しい→欲しい：01107_hoshii⟧。",
       "english": "I want a house with a spacious living room.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28876_ribinguruumu_ex3",
-      "japanese": "{新|あたら}しいソファを{買|か}って、リビングルームの{雰囲気|ふんいき}が{明|あか}るくなった。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ソファ→ソファ：04485_sofa⟧⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧、リビングルーム⟦の→の：09472_no⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦{明|あか}るく→明るい：00616_akarui⟧⟦なった→なる：01970_naru⟧。",
       "english": "After buying a new sofa, the living room's atmosphere became brighter.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'living room.' In everyday Japanese speech and floor-plan listings, the shortened form リビング is far more common; the full リビングルーム sounds slightly more formal or literal.\n\nCOMMON COLLOCATIONS:\n- リビングルームでくつろぐ: to relax in the living room\n- {広|ひろ}いリビングルーム: a spacious living room\n- リビングルームの{家具|かぐ}: living-room furniture\n\nSIMILAR WORDS:\n- リビング: living room — the standard shortened form, used everywhere\n- {居間|いま}: living room — older Japanese term, with a slightly more traditional/tatami feel\n- LDK: 'living-dining-kitchen' — a real-estate abbreviation describing combined rooms in a floor plan",
+  "notes": "Loanword from English 'living room.' In everyday Japanese speech and floor-plan listings, the shortened form ⟦リビング→リビング：11198_ribingu⟧ is far more common; the full リビングルーム sounds slightly more formal or literal.\n\nCOMMON COLLOCATIONS:\n- リビングルーム⟦で→で：00502_de⟧⟦くつろぐ→くつろぐ：02576_kutsurogu⟧: to relax in the living room\n- ⟦{広|ひろ}い→広い：00704_hiroi⟧リビングルーム: a spacious living room\n- リビングルーム⟦の→の：09472_no⟧⟦{家具|かぐ}→家具：12314_kagu⟧: living-room furniture\n\nSIMILAR WORDS:\n- ⟦リビング→リビング：11198_ribingu⟧: living room — the standard shortened form, used everywhere\n- ⟦{居間|いま}→居間：01745_ima⟧: living room — older Japanese term, with a slightly more traditional/tatami feel\n- LDK: 'living-dining-kitchen' — a real-estate abbreviation describing combined rooms in a floor plan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11198_ribingu",
+      "reading": "りびんぐ",
+      "headword": "リビング",
+      "label": "living room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01745_ima",
+      "reading": "いま",
+      "headword": "{居間|いま}",
+      "label": "living room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

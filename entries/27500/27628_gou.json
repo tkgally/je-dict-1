@@ -20,65 +20,91 @@
   "examples": [
     {
       "id": "27628_gou_ex1",
-      "japanese": "{米|こめ}を{二合|にごう}{炊|た}いた。",
+      "japanese": "⟦{米|こめ}→米：01323_kome⟧⟦を→を：00422_wo⟧{二合|にごう}⟦{炊|た}いた→炊く：02127_taku⟧。",
       "english": "I cooked two gō of rice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27628_gou_ex2",
-      "japanese": "{今晩|こんばん}は{日本酒|にほんしゅ}を{一合|いちごう}{飲|の}んだ。",
+      "japanese": "{今晩|こんばん}は⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧⟦を→を：00422_wo⟧{一合|いちごう}⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I drank one gō of sake tonight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27628_gou_ex3",
-      "japanese": "{家族|かぞく}{四人分|よにんぶん}なら{三合|さんごう}{炊|た}けば{足|た}りる。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧{四人分|よにんぶん}なら{三合|さんごう}⟦{炊|た}けば→炊く：02127_taku⟧⟦{足|た}りる→足りる：01209_tariru⟧。",
       "english": "Three gō of rice is enough for a family of four.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27628_gou_ex4",
-      "japanese": "{富士山|ふじさん}の{五合目|ごごうめ}まで{車|くるま}で{上|あ}がった。",
+      "japanese": "⟦{富士山|ふじさん}→富士山：09514_fujisan⟧⟦の→の：09472_no⟧{五合目|ごごうめ}⟦まで→まで：00490_made⟧⟦{車|くるま}→車：00516_kuruma⟧⟦で→で：00502_de⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "I drove up to the fifth station of Mt. Fuji.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27628_gou_ex5",
-      "japanese": "{八合目|はちごうめ}を{過|す}ぎると{空気|くうき}が{薄|うす}くなってきた。",
+      "japanese": "{八合目|はちごうめ}⟦を→を：00422_wo⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧⟦と→と：00512_to⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦が→が：00051_ga⟧⟦{薄|うす}く→薄い：00764_usui⟧⟦なって→なる：01970_naru⟧きた。",
       "english": "Past the eighth station, the air started getting thin.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27628_gou_ex6",
-      "japanese": "{山小屋|やまごや}は{七合目|しちごうめ}と{八合目|はちごうめ}の{間|あいだ}にある。",
+      "japanese": "⟦{山小屋|やまごや}→山小屋：18402_yamagoya⟧⟦は→は：00079_ha⟧{七合目|しちごうめ}⟦と→と：00512_to⟧{八合目|はちごうめ}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The mountain hut is between the seventh and eighth stations.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Part of the traditional Japanese measurement system ({尺貫法|しゃっかんほう}). One {合|ごう} ≈ 180 ml; one cup of uncooked rice is roughly one {合|ごう}, the standard amount measured by rice cookers.\n\nVOLUME HIERARCHY:\n- 1 {合|ごう} ≈ 180 ml\n- 10 {合|ごう} = 1 {升|しょう} ≈ 1.8 L\n- 10 {升|しょう} = 1 {斗|と} ≈ 18 L\n\nCOUNTING:\n- {一合|いちごう}, {二合|にごう}, {三合|さんごう}, {四合|よんごう}, {五合|ごごう}\n\nMOUNTAIN STATIONS:\nThe sense-2 usage with {目|め} ({一合目|いちごうめ} etc.) divides mountain ascent into ten roughly equal sections. The {五合目|ごごうめ} of Mt. Fuji is the standard starting point for most modern climbers.\n\nMODERN USE:\nSense 1 is still everyday vocabulary because rice is sold and cooked by the {合|ごう}, even though most other foods use metric measures. Sake is also commonly served by the {合|ごう} at traditional restaurants.",
+  "notes": "Part of the traditional Japanese measurement system ({尺貫法|しゃっかんほう}). One {合|ごう} ≈ 180 ml; one cup of uncooked rice is roughly one {合|ごう}, the standard amount measured by rice cookers.\n\nVOLUME HIERARCHY:\n- 1 {合|ごう} ≈ 180 ml\n- 10 {合|ごう} = 1 ⟦{升|しょう}→升：26042_shou⟧ ≈ 1.8 L\n- 10 ⟦{升|しょう}→升：26042_shou⟧ = 1 {斗|と} ≈ 18 L\n\nCOUNTING PATTERNS:\n- {一合|いちごう}, {二合|にごう}, {三合|さんごう}, {四合|よんごう}, {五合|ごごう}\n\nMOUNTAIN STATIONS:\nThe sense-2 usage with ⟦{目|め}→目：00525_me⟧ ({一合目|いちごうめ} etc.) divides mountain ascent into ten roughly equal sections. The {五合目|ごごうめ} of Mt. Fuji is the standard starting point for most modern climbers.\n\nMODERN USE:\nSense 1 is still everyday vocabulary because rice is sold and cooked by the {合|ごう}, even though most other foods use metric measures. Sake is also commonly served by the {合|ごう} at traditional restaurants.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26537_yongoubin",
+      "reading": "よんごうびん",
+      "headword": "{四合瓶|よんごうびん}",
+      "label": "720ml bottle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["counter"],
+      "pos": [
+        "counter"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["measurement", "food"],
+      "politeness": "plain",
+      "semantic": [
+        "measurement",
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-15T03:09:54Z",
-    "modified": "2026-05-15T03:09:54Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

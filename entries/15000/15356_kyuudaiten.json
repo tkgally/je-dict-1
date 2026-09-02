@@ -15,40 +15,58 @@
   "examples": [
     {
       "id": "15356_kyuudaiten_ex1",
-      "japanese": "ぎりぎり{及第点|きゅうだいてん}だった。",
+      "japanese": "⟦ぎりぎり→ぎりぎり：05166_girigiri⟧{及第点|きゅうだいてん}だった。",
       "english": "I barely got a passing grade.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15356_kyuudaiten_ex2",
-      "japanese": "この{企画|きかく}は{及第点|きゅうだいてん}には{達|たっ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{企画|きかく}→企画：04879_kikaku⟧⟦は→は：00079_ha⟧{及第点|きゅうだいてん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{達|たっ}している→達する：02129_tassuru⟧。",
       "english": "This proposal meets the minimum acceptable standard.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15356_kyuudaiten_ex3",
-      "japanese": "{初|はじ}めての{料理|りょうり}にしては{及第点|きゅうだいてん}をあげてもいいだろう。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧にして⟦は→は：00079_ha⟧{及第点|きゅうだいてん}⟦を→を：00422_wo⟧⟦あげて→あげる：00546_ageru⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧だろう。",
       "english": "For a first attempt at cooking, I'd say it deserves a passing mark.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {及第点|きゅうだいてん} is frequently used figuratively to evaluate performance, products, or efforts as meeting a minimum standard. It implies \"good enough but not outstanding.\"\n\nCOMMON COLLOCATIONS:\n- {及第点|きゅうだいてん}に{達|たっ}する: to reach a passing level\n- {及第点|きゅうだいてん}をあげる: to give a passing grade (figurative)\n- ぎりぎり{及第点|きゅうだいてん}: barely passing\n\nSIMILAR WORDS:\n- {及第点|きゅうだいてん}: passing grade, minimum acceptable standard\n- {合格点|ごうかくてん}: passing score (more literal, exam-focused)\n- {落第点|らくだいてん}: failing grade",
-  "cross_references": [],
+  "notes": "USAGE: {及第点|きゅうだいてん} is frequently used figuratively to evaluate performance, products, or efforts as meeting a minimum standard. It implies \"good enough but not outstanding.\"\n\nCOMMON COLLOCATIONS:\n- {及第点|きゅうだいてん}⟦に→に：00314_ni⟧⟦{達|たっ}する→達する：02129_tassuru⟧: to reach a passing level\n- {及第点|きゅうだいてん}⟦を→を：00422_wo⟧⟦あげる→あげる：00546_ageru⟧: to give a passing grade (figurative)\n- ⟦ぎりぎり→ぎりぎり：05166_girigiri⟧{及第点|きゅうだいてん}: barely passing\n\nSIMILAR WORDS:\n- {及第点|きゅうだいてん}: passing grade, minimum acceptable standard\n- ⟦{合格点|ごうかくてん}→合格点：25967_goukakuten⟧: passing score (more literal, exam-focused)\n- {落第点|らくだいてん}: failing grade",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25967_goukakuten",
+      "reading": "ごうかくてん",
+      "headword": "{合格点|ごうかくてん}",
+      "label": "passing score"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:46:03Z",
-    "modified": "2026-03-06T11:46:03Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

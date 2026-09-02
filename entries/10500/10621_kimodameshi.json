@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10621_kimodameshi_ex1",
-      "japanese": "{肝試|きもだめ}しをする。",
+      "japanese": "{肝試|きもだめ}し⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To do a test of courage.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10621_kimodameshi_ex2",
-      "japanese": "{夏|なつ}のキャンプで{肝試|きもだめ}しをした。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦の→の：09472_no⟧⟦キャンプ→キャンプ：03837_kyanpu⟧⟦で→で：00502_de⟧{肝試|きもだめ}し⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We did a test of courage at summer camp.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10621_kimodameshi_ex3",
-      "japanese": "{友達|ともだち}と{夜|よる}の{墓地|ぼち}で{肝試|きもだめ}しをしたら、{怖|こわ}くて{泣|な}いてしまった。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{夜|よる}→夜：00487_yoru⟧⟦の→の：09472_no⟧⟦{墓地|ぼち}→墓地：15232_bochi⟧⟦で→で：00502_de⟧{肝試|きもだめ}し⟦を→を：00422_wo⟧⟦したら→する：00392_suru⟧、⟦{怖|こわ}くて→怖い：00864_kowai⟧⟦{泣|な}いて→泣く：00655_naku⟧しまった。",
       "english": "When I did a test of courage with friends in a graveyard at night, I got so scared that I cried.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTES:\n{肝試|きもだめ}し is a classic Japanese summer activity, especially popular at school camps, community events, and among groups of friends. Participants typically walk through a dark area (a forest, abandoned building, or graveyard) where others may be hiding to scare them. It is closely associated with the Japanese summer tradition of telling ghost stories ({怪談|かいだん}).\n\nETYMOLOGY:\nFrom {肝|きも} (liver/courage) + {試|ため}し (test). In traditional Japanese thought, the liver was considered the seat of courage.\n\nCOMMON COLLOCATIONS:\n- {肝試|きもだめ}しをする: to do a test of courage\n- {肝試|きもだめ}しに{行|い}く: to go on a test of courage\n- {夏|なつ}の{肝試|きもだめ}し: summer test of courage",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\n{肝試|きもだめ}し is a classic Japanese summer activity, especially popular at school camps, community events, and among groups of friends. Participants typically walk through a dark area (a forest, abandoned building, or graveyard) where others may be hiding to scare them. It is closely associated with the Japanese summer tradition of telling ghost stories (⟦{怪談|かいだん}→怪談：12608_kaidan⟧).\n\nETYMOLOGY:\nFrom ⟦{肝|きも}→肝：10796_kimo⟧ (liver/courage) + ⟦{試|ため}し→試し：03410_tameshi⟧ (test). In traditional Japanese thought, the liver was considered the seat of courage.\n\nCOMMON COLLOCATIONS:\n- {肝試|きもだめ}し⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do a test of courage\n- {肝試|きもだめ}し⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go on a test of courage\n- ⟦{夏|なつ}→夏：02236_natsu⟧⟦の→の：09472_no⟧{肝試|きもだめ}し: summer test of courage",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21641_kimowohiyasu",
+      "reading": "きもをひやす",
+      "headword": "{肝|きも}を{冷|ひ}やす",
+      "label": "to be terrified"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T05:52:31Z",
-    "modified": "2026-06-27T16:06:14Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

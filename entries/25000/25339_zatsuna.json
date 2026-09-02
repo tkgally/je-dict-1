@@ -3,7 +3,7 @@
   "headword": "{雑|ざつ}な",
   "reading": "ざつな",
   "romaji": "zatsuna",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "careless; sloppy; rough",
   "definitions": [
     {
@@ -15,38 +15,80 @@
   "examples": [
     {
       "id": "25339_zatsuna_ex1",
-      "japanese": "{仕事|しごと}が{雑|ざつ}だ。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{雑|ざつ}だ。",
       "english": "The work is sloppy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25339_zatsuna_ex2",
-      "japanese": "{雑|ざつ}な{扱|あつか}いをしたら{壊|こわ}れるよ。",
+      "japanese": "{雑|ざつ}な⟦{扱|あつか}い→扱い：12777_atsukai⟧⟦を→を：00422_wo⟧⟦したら→する：00392_suru⟧⟦{壊|こわ}れる→壊れる：00791_kowareru⟧⟦よ→よ：09475_yo⟧。",
       "english": "If you handle it roughly, it'll break.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25339_zatsuna_ex3",
-      "japanese": "{彼|かれ}は{性格|せいかく}が{雑|ざつ}で、{細|こま}かいことを{気|き}にしないタイプだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{性格|せいかく}→性格：03371_seikaku⟧⟦が→が：00051_ga⟧{雑|ざつ}で、⟦{細|こま}かい→細かい：01245_komakai⟧こと⟦を→を：00422_wo⟧⟦{気|き}にしない→気にする：03026_kinisuru⟧⟦タイプ→タイプ：01534_taipu⟧だ。",
       "english": "He has a rough personality and is the type who doesn't worry about the small details.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A very common colloquial na-adjective expressing a lack of care or precision. It has a mildly negative tone but is often used in a frank, everyday way rather than as harsh criticism. Can describe physical actions (rough handling), work quality (sloppy output), personality (not detail-oriented), or even speech and explanations (vague, careless).\n\nThe adverbial form {雑|ざつ}に is also frequently used.\n\nCOMMON COLLOCATIONS:\n- {雑|ざつ}な{仕事|しごと}: sloppy work\n- {雑|ざつ}な{扱|あつか}い: rough handling\n- {雑|ざつ}な{説明|せつめい}: careless explanation\n- {雑|ざつ}な{性格|せいかく}: rough-and-ready personality\n- {雑|ざつ}に{置|お}く: to put down carelessly\n\nSIMILAR WORDS:\n- いい{加減|かげん}な: irresponsible; half-hearted — stronger criticism, implies lack of sincerity\n- {大雑把|おおざっぱ}な: rough; broad-brush — less negative, can be neutral (\"big-picture oriented\")\n- {粗|あら}い: coarse; rough — more about texture or physical roughness than carelessness\n- {適当|てきとう}な: slapdash; half-hearted (colloquial) — similar casualness but also means \"appropriate\" in formal use",
+  "notes": "A very common colloquial na-adjective expressing a lack of care or precision. It has a mildly negative tone but is often used in a frank, everyday way rather than as harsh criticism. Can describe physical actions (rough handling), work quality (sloppy output), personality (not detail-oriented), or even speech and explanations (vague, careless).\n\nThe adverbial form {雑|ざつ}に is also frequently used.\n\nCOMMON COLLOCATIONS:\n- {雑|ざつ}な⟦{仕事|しごと}→仕事：00480_shigoto⟧: sloppy work\n- {雑|ざつ}な⟦{扱|あつか}い→扱い：12777_atsukai⟧: rough handling\n- {雑|ざつ}な⟦{説明|せつめい}→説明：01449_setsumei⟧: careless explanation\n- {雑|ざつ}な⟦{性格|せいかく}→性格：03371_seikaku⟧: rough-and-ready personality\n- {雑|ざつ}に⟦{置|お}く→置く：01092_oku⟧: to put down carelessly\n\nSIMILAR WORDS:\n- ⟦いい{加減|かげん}→いい加減：09353_iikagen⟧な: irresponsible; half-hearted — stronger criticism, implies lack of sincerity\n- ⟦{大雑把|おおざっぱ}→大雑把：06867_oozappa⟧な: rough; broad-brush — less negative, can be neutral (\"big-picture oriented\")\n- ⟦{粗|あら}い→粗い：00439_arai⟧: coarse; rough — more about texture or physical roughness than carelessness\n- ⟦{適当|てきとう}→適当：01674_tekitou⟧な: slapdash; half-hearted (colloquial) — similar casualness but also means \"appropriate\" in formal use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09353_iikagen",
+      "reading": "いいかげん",
+      "headword": "いい{加減|かげん}",
+      "label": "irresponsible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06867_oozappa",
+      "reading": "おおざっぱ",
+      "headword": "{大雑把|おおざっぱ}",
+      "label": "rough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00439_arai",
+      "reading": "あらい",
+      "headword": "{粗|あら}い",
+      "label": "coarse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01674_tekitou",
+      "reading": "てきとう",
+      "headword": "{適当|てきとう}",
+      "label": "slapdash"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["personality", "daily-life"]
+      "pos": [
+        "adjective-na"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "daily-life"
+      ]
     },
     "created": "2026-04-24T15:24:20Z",
-    "modified": "2026-04-24T15:24:20Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

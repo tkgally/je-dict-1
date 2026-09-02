@@ -3,7 +3,7 @@
   "headword": "{重複|ちょうふく}する",
   "reading": "ちょうふくする",
   "romaji": "choufuku suru",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to overlap; to be duplicated; to be redundant",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26812_choufukusuru_ex1",
-      "japanese": "データが{重複|ちょうふく}している。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦が→が：00051_ga⟧{重複|ちょうふく}して⟦いる→いる：00495_iru⟧。",
       "english": "The data is duplicated.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26812_choufukusuru_ex2",
-      "japanese": "{内容|ないよう}が{重複|ちょうふく}しないように{注意|ちゅうい}してください。",
+      "japanese": "⟦{内容|ないよう}→内容：01482_naiyou⟧⟦が→が：00051_ga⟧{重複|ちょうふく}しないよう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful not to have overlapping content.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26812_choufukusuru_ex3",
-      "japanese": "{申請|しんせい}が{重複|ちょうふく}していたため、{一方|いっぽう}を{取|と}り{消|け}す{必要|ひつよう}がある。",
+      "japanese": "⟦{申請|しんせい}→申請：04207_shinsei⟧⟦が→が：00051_ga⟧{重複|ちょうふく}して⟦いた→いる：00495_iru⟧⟦ため→ため：01145_tame⟧、⟦{一方|いっぽう}→一方：01739_ippou⟧⟦を→を：00422_wo⟧⟦{取|と}り{消|け}す→取り消す：04224_torikesu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Since the applications were duplicated, one needs to be cancelled.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Very common in business, IT, and administrative contexts. Pronounced ちょうふく (traditional) or じゅうふく (common variant). Both readings are widely accepted, though ちょうふく is considered more standard.\n\nCOMMON COLLOCATIONS:\n- {重複|ちょうふく}を{避|さ}ける: to avoid duplication\n- {重複|ちょうふく}を{削除|さくじょ}する: to remove duplicates\n- {重複|ちょうふく}{登録|とうろく}: duplicate registration\n- {重複|ちょうふく}{部分|ぶぶん}: overlapping portion\n- {重複|ちょうふく}チェック: duplicate check\n\nSIMILAR WORDS:\n- {被|かぶ}る: to overlap — casual/colloquial, used for scheduling conflicts or repeated content\n- {繰|く}り{返|かえ}す: to repeat — intentional repetition, while {重複|ちょうふく} implies unintended or problematic duplication\n- ダブる: to double up — casual loanword-based verb for duplication or repetition\n\nPRONUNCIATION NOTE:\nTraditionally ちょうふく, but じゅうふく is widespread in spoken Japanese. Dictionaries typically list both. In formal writing and broadcasting, ちょうふく is preferred.",
-  "cross_references": [],
+  "notes": "Very common in business, IT, and administrative contexts. Pronounced ちょうふく (traditional) or じゅうふく (common variant). Both readings are widely accepted, though ちょうふく is considered more standard.\n\nCOMMON COLLOCATIONS:\n- ⟦{重複|ちょうふく}→重複：22806_choufuku⟧⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid duplication\n- ⟦{重複|ちょうふく}→重複：22806_choufuku⟧⟦を→を：00422_wo⟧⟦{削除|さくじょ}→削除：04171_sakujo⟧⟦する→する：00392_suru⟧: to remove duplicates\n- ⟦{重複|ちょうふく}→重複：22806_choufuku⟧⟦{登録|とうろく}→登録：05703_touroku⟧: duplicate registration\n- ⟦{重複|ちょうふく}→重複：22806_choufuku⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧: overlapping portion\n- ⟦{重複|ちょうふく}→重複：22806_choufuku⟧⟦チェック→チェック：03000_chekku⟧: duplicate check\n\nSIMILAR WORDS:\n- {被|かぶ}る: to overlap — casual/colloquial, used for scheduling conflicts or repeated content\n- ⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧: to repeat — intentional repetition, while ⟦{重複|ちょうふく}→重複：22806_choufuku⟧ implies unintended or problematic duplication\n- ダブる: to double up — casual loanword-based verb for duplication or repetition\n\nPRONUNCIATION:\nTraditionally ちょうふく, but じゅうふく is widespread in spoken Japanese. Dictionaries typically list both. In formal writing and broadcasting, ちょうふく is preferred.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02051_kurikaesu",
+      "reading": "くりかえす",
+      "headword": "{繰|く}り{返|かえ}す",
+      "label": "to repeat"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,10 +68,11 @@
         "quantity",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-05T12:10:52Z",
-    "modified": "2026-05-05T12:10:52Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

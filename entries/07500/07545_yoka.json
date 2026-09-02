@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07545_yoka_ex1",
-      "japanese": "{天気|てんき}がよかね。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧よか⟦ね→ね：09474_ne⟧。",
       "english": "The weather is nice, isn't it?",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07545_yoka_ex2",
-      "japanese": "それでよかよ。",
+      "japanese": "⟦それ→それ：00994_sore⟧でよか⟦よ→よ：09475_yo⟧。",
       "english": "That's fine.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07545_yoka_ex3",
-      "japanese": "あの{店|みせ}のラーメンはよかばい。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦は→は：00079_ha⟧よかばい。",
       "english": "The ramen at that shop is good.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "DIALECT:\nKyushu ({九州|きゅうしゅう}) dialect, widespread throughout the region.\n\nSTANDARD EQUIVALENT:\nいい / よい (standard Japanese)\n\nCONJUGATION IN DIALECT:\n・よか - plain/present (いい)\n・よかった - past (よかった)\n・よかろう - volitional (いいだろう)\n・よかっちゃん - was good (emphatic past)\n\nCOMMON PATTERNS:\n・〜してよか - it's okay to ~\n・よかね - it's good, isn't it?\n・よかばい / よかたい - it's good (sentence-ending particles)\n\nCULTURAL NOTE:\n\"よかろうもん\" (it's fine, right?) is a well-known Hakata/Fukuoka expression.\n\nRELATED KYUSHU EXPRESSIONS:\n・ばってん - but\n・〜ばい / 〜たい - sentence-final particles\n・なんばしよっと - what are you doing?",
+  "notes": "DIALECT:\nKyushu (⟦{九州|きゅうしゅう}→九州：15647_kyuushuu⟧) dialect, widespread throughout the region.\n\nSTANDARD EQUIVALENT:\n⟦いい→いい：00118_ii⟧ / よい (standard Japanese)\n\nCONJUGATION IN DIALECT:\n- よか - plain/present (⟦いい→いい：00118_ii⟧)\n- よかった - past (よかった)\n- よかろう - volitional (⟦いい→いい：00118_ii⟧だろう)\n- よかっちゃん - was good (emphatic past)\n\nCOMMON PATTERNS:\n- 〜してよか - it's okay to ~\n- よか⟦ね→ね：09474_ne⟧ - it's good, isn't it?\n- よかばい / よかたい - it's good (sentence-ending particles)\n\nCULTURAL NOTE:\n\"よかろうもん\" (it's fine, right?) is a well-known Hakata/Fukuoka expression.\n\nRELATED KYUSHU EXPRESSIONS:\n- ⟦ばってん→ばってん：07544_batten⟧ - but\n- 〜ばい / 〜たい - sentence-final particles\n- なんば⟦しよっ→する：00392_suru⟧⟦と→と：00512_to⟧ - what are you doing?",
   "cross_references": [
     {
       "type": "related",
@@ -60,7 +60,7 @@
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-04-19T06:26:07Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,6 +68,7 @@
         "adjective-i"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "expression"
       ],

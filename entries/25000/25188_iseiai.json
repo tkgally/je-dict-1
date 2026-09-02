@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25188_iseiai_ex1",
-      "japanese": "{異性愛|いせいあい}は{性的指向|せいてきしこう}の{一|ひと}つだ。",
+      "japanese": "{異性愛|いせいあい}⟦は→は：00079_ha⟧{性的指向|せいてきしこう}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Heterosexuality is one type of sexual orientation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25188_iseiai_ex2",
-      "japanese": "{異性愛|いせいあい}を{前提|ぜんてい}とした{社会|しゃかい}の{見方|みかた}が{見直|みなお}されている。",
+      "japanese": "{異性愛|いせいあい}⟦を→を：00422_wo⟧⟦{前提|ぜんてい}→前提：08240_zentei⟧とした⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧⟦{見方|みかた}→見方：10072_mikata⟧⟦が→が：00051_ga⟧⟦{見直|みなお}されている→見直す：04579_minaosu⟧。",
       "english": "Social perspectives that assume heterosexuality are being reconsidered.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25188_iseiai_ex3",
-      "japanese": "{性的指向|せいてきしこう}には{異性愛|いせいあい}、{同性愛|どうせいあい}、{両性愛|りょうせいあい}などがあり、{多様性|たようせい}を{尊重|そんちょう}する{意識|いしき}が{広|ひろ}がっている。",
+      "japanese": "{性的指向|せいてきしこう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{異性愛|いせいあい}、⟦{同性愛|どうせいあい}→同性愛：23993_douseiai⟧、{両性愛|りょうせいあい}⟦など→〜など：03095_nado⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{多様性|たようせい}→多様性：04825_tayousei⟧⟦を→を：00422_wo⟧⟦{尊重|そんちょう}する→尊重する：17456_sonchousuru⟧⟦{意識|いしき}→意識：01714_ishiki⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Sexual orientations include heterosexuality, homosexuality, and bisexuality, among others, and awareness of respecting this diversity is spreading.",
       "sense_numbers": [
         1
@@ -44,19 +44,29 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {異性|いせい} (the opposite sex) and {愛|あい} (love). The related adjective form is {異性愛|いせいあい}の, and a person of this orientation is called {異性愛者|いせいあいしゃ} (heterosexual person).\n\nThis term is neutral and used in formal, academic, and journalistic contexts. In casual speech, ストレート (straight) is also sometimes used as an English loanword.\n\nCOMMON COLLOCATIONS:\n- {異性愛者|いせいあいしゃ}: heterosexual person\n- {異性愛|いせいあい}を{前提|ぜんてい}とする: to assume heterosexuality\n- {異性愛|いせいあい}{規範|きはん}: heteronormativity\n- {異性愛|いせいあい}{中心|ちゅうしん}の: heterocentric\n\nSIMILAR WORDS:\n- {同性愛|どうせいあい}: homosexuality — attraction to the same sex\n- {両性愛|りょうせいあい}: bisexuality — attraction to both sexes\n- {性的指向|せいてきしこう}: sexual orientation — the umbrella concept",
+  "notes": "A compound of ⟦{異性|いせい}→異性：13568_isei⟧ (the opposite sex) and ⟦{愛|あい}→愛：02370_ai⟧ (love). The related adjective form is {異性愛|いせいあい}⟦の→の：09472_no⟧, and a person of this orientation is called {異性愛者|いせいあいしゃ} (heterosexual person).\n\nThis term is neutral and used in formal, academic, and journalistic contexts. In casual speech, ⟦ストレート→ストレート：11630_sutoreeto⟧ (straight) is also sometimes used as an English loanword.\n\nCOMMON COLLOCATIONS:\n- {異性愛者|いせいあいしゃ}: heterosexual person\n- {異性愛|いせいあい}⟦を→を：00422_wo⟧⟦{前提|ぜんてい}→前提：08240_zentei⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to assume heterosexuality\n- {異性愛|いせいあい}⟦{規範|きはん}→規範：14160_kihan⟧: heteronormativity\n- {異性愛|いせいあい}⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦の→の：09472_no⟧: heterocentric\n\nSIMILAR WORDS:\n- ⟦{同性愛|どうせいあい}→同性愛：23993_douseiai⟧: homosexuality — attraction to the same sex\n- {両性愛|りょうせいあい}: bisexuality — attraction to both sexes\n- {性的指向|せいてきしこう}: sexual orientation — the umbrella concept",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23993_douseiai",
+      "reading": "どうせいあい",
+      "headword": "{同性愛|どうせいあい}",
+      "label": "homosexuality"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "society"
       ]
     },
     "created": "2026-04-23T13:29:54Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

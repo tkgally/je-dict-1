@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "22945_inomama_ex1",
-      "japanese": "{彼|かれ}は{人|ひと}を{意|い}のままに{操|あやつ}る。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{意|い}のまま⟦に→に：00314_ni⟧⟦{操|あやつ}る→操る：12707_ayatsuru⟧。",
       "english": "He manipulates people as he pleases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22945_inomama_ex2",
-      "japanese": "{自然|しぜん}は{人間|にんげん}の{意|い}のままにならない。",
+      "japanese": "⟦{自然|しぜん}→自然：01423_shizen⟧⟦は→は：00079_ha⟧⟦{人間|にんげん}→人間：03523_ningen⟧⟦の→の：09472_no⟧{意|い}のまま⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧。",
       "english": "Nature doesn't bend to human will.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22945_inomama_ex3",
-      "japanese": "{権力者|けんりょくしゃ}は{国|くに}を{意|い}のままに{支配|しはい}しようとした。",
+      "japanese": "⟦{権力者|けんりょくしゃ}→権力者：17021_kenryokusha⟧⟦は→は：00079_ha⟧⟦{国|くに}→国：02204_kuni⟧⟦を→を：00422_wo⟧{意|い}のまま⟦に→に：00314_ni⟧⟦{支配|しはい}しよう→支配する：25222_shihaisuru⟧とした。",
       "english": "The ruler tried to control the country as he saw fit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {意|い} (intention, will) with のまま (as is, unchanged). Expresses having complete control or freedom to do as one wishes. Often used when describing someone exerting power or influence over others or situations.\n\nCOMMON PATTERNS:\n- {意|い}のままに{操|あやつ}る: to manipulate at will\n- {意|い}のままにする: to do as one pleases with\n- {意|い}のままにならない: to not go as one wishes\n- {意|い}のままに{動|うご}く: to move as one wills\n\nUSAGE:\nOften carries a slightly literary or dramatic tone. Common in narratives about power, control, and freedom. The negative form {意|い}のままにならない is very common, expressing frustration that things aren't going as planned.\n\nSIMILAR EXPRESSIONS:\n- {思|おも}いのまま: as one feels/desires — similar but slightly more emotional\n- {思|おも}い{通|どお}りに: as one expects — focuses on things matching expectations\n- {自由自在|じゆうじざい}に: freely, at will — emphasizes skillful control\n- {好|す}きなように: however one likes — more casual",
+  "notes": "Combines ⟦{意|い}→意：30489_i⟧ (intention, will) with ⟦の→の：09472_no⟧まま (as is, unchanged). Expresses having complete control or freedom to do as one wishes. Often used when describing someone exerting power or influence over others or situations.\n\nCOMMON PATTERNS:\n- {意|い}のまま⟦に→に：00314_ni⟧⟦{操|あやつ}る→操る：12707_ayatsuru⟧: to manipulate at will\n- {意|い}のまま⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to do as one pleases with\n- {意|い}のまま⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧: to not go as one wishes\n- {意|い}のまま⟦に→に：00314_ni⟧⟦{動|うご}く→動く：00904_ugoku⟧: to move as one wills\n\nUSAGE:\nOften carries a slightly literary or dramatic tone. Common in narratives about power, control, and freedom. The negative form {意|い}のまま⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧ is very common, expressing frustration that things aren't going as planned.\n\nSIMILAR WORDS:\n- ⟦{思|おも}いのまま→思いのまま：22133_omoinomama⟧: as one feels/desires — similar but slightly more emotional\n- ⟦{思|おも}い{通|どお}り→思い通り：25845_omoidoori⟧⟦に→に：00314_ni⟧: as one expects — focuses on things matching expectations\n- ⟦{自由自在|じゆうじざい}→自由自在：21838_jiyuujizai⟧⟦に→に：00314_ni⟧: freely, at will — emphasizes skillful control\n- ⟦{好|す}き→好き：02355_suki⟧なよう⟦に→に：00314_ni⟧: however one likes — more casual",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22133_omoinomama",
+      "reading": "おもいのまま",
+      "headword": "{思|おも}いのまま",
+      "label": "as one feels/desires"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25845_omoidoori",
+      "reading": "おもいどおり",
+      "headword": "{思|おも}い{通|どお}り",
+      "label": "as one expects"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21838_jiyuujizai",
+      "reading": "じゆうじざい",
+      "headword": "{自由自在|じゆうじざい}",
+      "label": "freely, at will"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "formality": "neutral"
     },
     "created": "2026-04-08T07:46:27Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

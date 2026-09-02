@@ -24,7 +24,7 @@
     },
     {
       "id": "01729_boku_ex2",
-      "japanese": "{僕|ぼく}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦は→は：00079_ha⟧{田中|たなか}⟦です→です：09485_desu⟧。",
+      "japanese": "{僕|ぼく}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦は→は：00079_ha⟧⟦{田中|たなか}→田中：09528_tanaka⟧⟦です→です：09485_desu⟧。",
       "english": "My name is Tanaka.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "01729_boku_ex4",
-      "japanese": "{僕|ぼく}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦から→から：00504_kara⟧⟦{遠|とお}い→遠い：00529_tooi⟧ので、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{朝|あさ}→朝：02277_asa⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{起|お}きなければならない→起きる：00521_okiru⟧。",
+      "japanese": "{僕|ぼく}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦から→から：00504_kara⟧⟦{遠|とお}い→遠い：00529_tooi⟧⟦の→の：09472_no⟧で、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{朝|あさ}→朝：02277_asa⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{起|お}きなければならない→起きる：00521_okiru⟧。",
       "english": "My house is far from school, so I have to get up early every morning.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{僕|ぼく} is a first-person pronoun used mainly by males. It is softer and more modest than ⟦{俺|おれ}→俺：02185_ore⟧ but more casual than ⟦{私|わたし}→私：02988_watashi⟧.\n\nUSAGE:\n- Common in everyday conversation among male speakers\n- Appropriate in casual to semi-formal settings\n- Young boys typically use {僕|ぼく} when speaking to adults or teachers\n- Some adult men use it in work settings as a softer alternative to ⟦{私|わたし}→私：02988_watashi⟧\n- Occasionally used by women in song lyrics or creative writing\n\nCOMPARISON OF FIRST-PERSON PRONOUNS:\n- {僕|ぼく}: casual-polite, male, gentle tone\n- ⟦{俺|おれ}→俺：02185_ore⟧: casual, male, assertive/rough tone\n- ⟦{私|わたし}→私：02988_watashi⟧: formal, gender-neutral\n- ⟦{私|わたくし}→私：02987_watakushi⟧: very formal, gender-neutral\n- ⟦あたし→あたし：noentry⟧: casual, female\n\nCOMMON PATTERNS:\n- {僕|ぼく}⟦たち→達：01551_tachi⟧: we (male, inclusive)\n- {僕|ぼく}⟦ら→ら：noentry⟧: we (male, casual)\n\nNOTE:\nIn formal situations such as job interviews or business meetings, ⟦{私|わたし}→私：02988_watashi⟧ is preferred regardless of gender. Using {僕|ぼく} in these contexts can sound too casual.",
+  "notes": "{僕|ぼく} is a first-person pronoun used mainly by males. It is softer and more modest than ⟦{俺|おれ}→俺：02185_ore⟧ but more casual than ⟦{私|わたし}→私：02988_watashi⟧.\n\nUSAGE:\n- Common in everyday conversation among male speakers\n- Appropriate in casual to semi-formal settings\n- Young boys typically use {僕|ぼく} when speaking to adults or teachers\n- Some adult men use it in work settings as a softer alternative to ⟦{私|わたし}→私：02988_watashi⟧\n- Occasionally used by women in song lyrics or creative writing\nIn formal situations such as job interviews or business meetings, ⟦{私|わたし}→私：02988_watashi⟧ is preferred regardless of gender. Using {僕|ぼく} in these contexts can sound too casual.\n\nCOMPARISON OF FIRST-PERSON PRONOUNS:\n- {僕|ぼく}: casual-polite, male, gentle tone\n- ⟦{俺|おれ}→俺：02185_ore⟧: casual, male, assertive/rough tone\n- ⟦{私|わたし}→私：02988_watashi⟧: formal, gender-neutral\n- ⟦{私|わたくし}→私：02987_watakushi⟧: very formal, gender-neutral\n- ⟦あたし→あたし：noentry⟧: casual, female\n\nCOMMON PATTERNS:\n- {僕|ぼく}⟦たち→達：01551_tachi⟧: we (male, inclusive)\n- {僕|ぼく}⟦ら→ら：noentry⟧: we (male, casual)",
   "cross_references": [
     {
       "type": "contrast",
@@ -78,11 +78,18 @@
       "reading": "おれ",
       "headword": "{俺|おれ}",
       "label": "I (rough, masculine)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02987_watakushi",
+      "reading": "わたくし",
+      "headword": "{私|わたくし}",
+      "label": "very formal, gender-neutral"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:33:11Z",
-    "modified": "2026-05-16T20:08:32Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

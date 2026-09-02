@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22251_teikiyokin_ex1",
-      "japanese": "{定期預金|ていきよきん}に{預|あず}ける。",
+      "japanese": "{定期預金|ていきよきん}⟦に→に：00314_ni⟧⟦{預|あず}ける→預ける：01819_azukeru⟧。",
       "english": "To put money in a time deposit.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22251_teikiyokin_ex2",
-      "japanese": "{定期預金|ていきよきん}の{金利|きんり}が{低|ひく}い。",
+      "japanese": "{定期預金|ていきよきん}⟦の→の：09472_no⟧⟦{金利|きんり}→金利：04856_kinri⟧⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧。",
       "english": "The interest rate on time deposits is low.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22251_teikiyokin_ex3",
-      "japanese": "{一年|いちねん}{定期預金|ていきよきん}が{満期|まんき}を{迎|むか}えた。",
+      "japanese": "⟦{一年|いちねん}→一年：10994_ichinen⟧{定期預金|ていきよきん}⟦が→が：00051_ga⟧{満期|まんき}⟦を→を：00422_wo⟧⟦{迎|むか}えた→迎える：01193_mukaeru⟧。",
       "english": "My one-year time deposit has reached maturity.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22251_teikiyokin_ex4",
-      "japanese": "{普通預金|ふつうよきん}よりも{定期預金|ていきよきん}の{方|ほう}が{利率|りりつ}が{高|たか}い。",
+      "japanese": "⟦{普通預金|ふつうよきん}→普通預金：23520_futsuuyokin⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{定期預金|ていきよきん}⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{利率|りりつ}→利率：21159_riritsu⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Time deposits have a higher interest rate than regular savings accounts.",
       "sense_numbers": [
         1
@@ -54,8 +54,66 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {定期|ていき} (fixed-term) and {預金|よきん} (deposit/savings). Often abbreviated as {定期|ていき} in casual speech. A basic financial product offered by all Japanese banks.\n\nCOMMON COLLOCATIONS:\n- {定期預金|ていきよきん}を{組|く}む: to set up a time deposit\n- {定期預金|ていきよきん}を{解約|かいやく}する: to cancel/withdraw a time deposit early\n- {定期預金|ていきよきん}の{満期|まんき}: maturity of a time deposit\n- {定期預金|ていきよきん}の{金利|きんり}: time deposit interest rate\n- {一年|いちねん}{定期|ていき}: one-year term deposit\n\nSIMILAR WORDS:\n- {普通預金|ふつうよきん}: regular savings account — money can be freely deposited and withdrawn, lower interest\n- {貯金|ちょきん}: savings — general term for saving money, can refer to postal savings specifically\n- {積立|つみたて}{預金|よきん}: installment savings — regular deposits over time toward a savings goal",
+  "notes": "Compound of ⟦{定期|ていき}→定期：03538_teiki⟧ (fixed-term) and ⟦{預金|よきん}→預金：05420_yokin⟧ (deposit/savings). Often abbreviated as ⟦{定期|ていき}→定期：03538_teiki⟧ in casual speech. A basic financial product offered by all Japanese banks.\n\nCOMMON COLLOCATIONS:\n- {定期預金|ていきよきん}⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧: to set up a time deposit\n- {定期預金|ていきよきん}⟦を→を：00422_wo⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦する→する：00392_suru⟧: to cancel/withdraw a time deposit early\n- {定期預金|ていきよきん}⟦の→の：09472_no⟧{満期|まんき}: maturity of a time deposit\n- {定期預金|ていきよきん}⟦の→の：09472_no⟧⟦{金利|きんり}→金利：04856_kinri⟧: time deposit interest rate\n- ⟦{一年|いちねん}→一年：10994_ichinen⟧⟦{定期|ていき}→定期：03538_teiki⟧: one-year term deposit\n\nSIMILAR WORDS:\n- ⟦{普通預金|ふつうよきん}→普通預金：23520_futsuuyokin⟧: regular savings account — money can be freely deposited and withdrawn, lower interest\n- ⟦{貯金|ちょきん}→貯金：03497_chokin⟧: savings — general term for saving money, can refer to postal savings specifically\n- ⟦{積立|つみたて}→積立：07977_tsumitate⟧⟦{預金|よきん}→預金：05420_yokin⟧: installment savings — regular deposits over time toward a savings goal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23520_futsuuyokin",
+      "reading": "ふつうよきん",
+      "headword": "{普通|ふつう}{預金|よきん}",
+      "label": "regular savings account"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03497_chokin",
+      "reading": "ちょきん",
+      "headword": "{貯金|ちょきん}",
+      "label": "savings"
+    },
+    {
+      "type": "related",
+      "target_id": "06173_teikiteki",
+      "reading": "ていきてき",
+      "headword": "{定期的|ていきてき}",
+      "label": "regular, periodic"
+    },
+    {
+      "type": "related",
+      "target_id": "21136_tsumitateru",
+      "reading": "つみたてる",
+      "headword": "{積|つ}み{立|た}てる",
+      "label": "to save up regularly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26482_futsuukouza",
+      "reading": "ふつうこうざ",
+      "headword": "{普通口座|ふつうこうざ}",
+      "label": "ordinary savings account"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26489_touzakouza",
+      "reading": "とうざこうざ",
+      "headword": "{当座口座|とうざこうざ}",
+      "label": "current account"
+    },
+    {
+      "type": "related",
+      "target_id": "27021_ginkoukouza",
+      "reading": "ぎんこうこうざ",
+      "headword": "{銀行口座|ぎんこうこうざ}",
+      "label": "bank account"
+    },
+    {
+      "type": "related",
+      "target_id": "27031_touzayokin",
+      "reading": "とうざよきん",
+      "headword": "{当座預金|とうざよきん}",
+      "label": "checking account"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +128,6 @@
       ]
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-06-15T07:56:51Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

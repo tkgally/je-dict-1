@@ -3,7 +3,7 @@
   "id": "20849_chijireru",
   "headword": "{縮|ちぢ}れる",
   "reading": "ちぢれる",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be curly; to be frizzy; to be crinkled",
   "conjugation": {
     "type": "ichidan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20849_chijireru_ex1",
-      "japanese": "{髪|かみ}が{縮|ちぢ}れている。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{縮|ちぢ}れて⟦いる→いる：00495_iru⟧。",
       "english": "My hair is curly.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20849_chijireru_ex2",
-      "japanese": "{縮|ちぢ}れ{麺|めん}のラーメンが{好|す}きだ。",
+      "japanese": "{縮|ちぢ}れ{麺|めん}⟦の→の：09472_no⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like ramen with curly noodles.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20849_chijireru_ex3",
-      "japanese": "{湿気|しっけ}で{髪|かみ}が{縮|ちぢ}れてまとまらない。",
+      "japanese": "⟦{湿気|しっけ}→湿気：03177_shikke⟧⟦で→で：00502_de⟧⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{縮|ちぢ}れて⟦まとまらない→まとまる：01642_matomaru⟧。",
       "english": "My hair is frizzy from the humidity and won't stay in place.",
       "sense_numbers": [
         1
@@ -135,7 +135,7 @@
     },
     {
       "id": "20849_chijireru_ex4",
-      "japanese": "{熱|ねつ}で{布|ぬの}の{端|はし}が{縮|ちぢ}れてしまった。",
+      "japanese": "⟦{熱|ねつ}→熱：01690_netsu⟧⟦で→で：00502_de⟧⟦{布|ぬの}→布：01489_nuno⟧⟦の→の：09472_no⟧⟦{端|はし}→端：00936_hashi⟧⟦が→が：00051_ga⟧{縮|ちぢ}れてしまった。",
       "english": "The edges of the fabric curled up from the heat.",
       "sense_numbers": [
         1
@@ -144,11 +144,26 @@
       "notes": null
     }
   ],
-  "notes": "An intransitive verb describing a curly, wavy, or crinkled state. Most commonly used for hair and noodles. The past participle {縮|ちぢ}れた functions as an adjective meaning \"curly\" or \"crinkled.\"\n\nCOMMON COLLOCATIONS:\n- {髪|かみ}が{縮|ちぢ}れる: hair becomes curly/frizzy\n- {縮|ちぢ}れ{毛|げ}: curly hair (as a noun)\n- {縮|ちぢ}れ{麺|めん}: curly noodles\n- {縮|ちぢ}れた{葉|は}: crinkled leaves\n\nTRANSITIVITY:\nIntransitive. The transitive form is {縮|ちぢ}らす (to make curly, to curl something).\n\nSIMILAR WORDS:\n- {巻|ま}く: to curl, to wind (active curling action)\n- くせ{毛|げ}: naturally curly/wavy hair (noun describing hair type)\n- {縮|ちぢ}む: to shrink (focuses on getting smaller, not curling)",
-  "cross_references": [],
+  "notes": "An intransitive verb describing a curly, wavy, or crinkled state. Most commonly used for hair and noodles. The past participle {縮|ちぢ}れた functions as an adjective meaning \"curly\" or \"crinkled.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{縮|ちぢ}れる: hair becomes curly/frizzy\n- {縮|ちぢ}れ{毛|げ}: curly hair (as a noun)\n- {縮|ちぢ}れ{麺|めん}: curly noodles\n- {縮|ちぢ}れた⟦{葉|は}→葉：02241_ha⟧: crinkled leaves\n\nTRANSITIVITY:\nIntransitive. The transitive form is {縮|ちぢ}らす (to make curly, to curl something).\n\nSIMILAR WORDS:\n- ⟦{巻|ま}く→巻く：02418_maku⟧: to curl, to wind (active curling action)\n- くせ{毛|げ}: naturally curly/wavy hair (noun describing hair type)\n- ⟦{縮|ちぢ}む→縮む：00027_chijimu⟧: to shrink (focuses on getting smaller, not curling)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02418_maku",
+      "reading": "まく",
+      "headword": "{巻|ま}く",
+      "label": "to curl, to wind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00027_chijimu",
+      "reading": "ちぢむ",
+      "headword": "{縮|ちぢ}む",
+      "label": "to shrink"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:25:41Z",
-    "modified": "2026-07-29T00:22:41Z",
+    "modified": "2026-09-02T04:02:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

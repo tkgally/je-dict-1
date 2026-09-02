@@ -2,7 +2,7 @@
   "id": "05135_shukka",
   "headword": "{出荷|しゅっか}",
   "reading": "しゅっか",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shipping",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{出荷|しゅっか} refers to sending goods out from a warehouse or factory. It is a business/logistics term covering the dispatch side of the supply chain.\n\nWORD FORMATION:\n{出|しゅつ} (out) + {荷|か} (cargo, goods). Literally \"sending out the goods.\"\n\nCOMMON COLLOCATIONS:\n- {出荷|しゅっか}⟦する→する：00392_suru⟧: to ship\n- {出荷|しゅっか}⟦{準備|じゅんび}→準備：01431_junbi⟧: shipping preparation\n- {出荷|しゅっか}⟦{予定|よてい}→予定：00824_yotei⟧⟦{日|び}→日：02249_hi⟧: scheduled shipping date\n- {出荷|しゅっか}⟦{台数|だいすう}→台数：22482_daisuu⟧: number of units shipped\n- {出荷|しゅっか}⟦{停止|ていし}→停止：04067_teishi⟧: shipment suspension\n\nCONTRAST:\n- {出荷|しゅっか}: shipping out from warehouse/factory\n- ⟦{入荷|にゅうか}→入荷：07939_nyuuka⟧: arrival of goods (receiving stock)\n- ⟦{納品|のうひん}→納品：05134_nouhin⟧: delivery to the customer\n- ⟦{配送|はいそう}→配送：05464_haisou⟧: delivery, transport to destination\n- ⟦{発送|はっそう}→発送：10458_hassou⟧: dispatching (parcels, mail)",
+  "notes": "{出荷|しゅっか} refers to sending goods out from a warehouse or factory. It is a business/logistics term covering the dispatch side of the supply chain.\n\nFORMS:\n{出|しゅつ} (out) + {荷|か} (cargo, goods). Literally \"sending out the goods.\"\n\nCOMMON COLLOCATIONS:\n- {出荷|しゅっか}⟦する→する：00392_suru⟧: to ship\n- {出荷|しゅっか}⟦{準備|じゅんび}→準備：01431_junbi⟧: shipping preparation\n- {出荷|しゅっか}⟦{予定|よてい}→予定：00824_yotei⟧⟦{日|び}→日：02249_hi⟧: scheduled shipping date\n- {出荷|しゅっか}⟦{台数|だいすう}→台数：22482_daisuu⟧: number of units shipped\n- {出荷|しゅっか}⟦{停止|ていし}→停止：04067_teishi⟧: shipment suspension\n\nSIMILAR WORDS:\n- {出荷|しゅっか}: shipping out from warehouse/factory\n- ⟦{入荷|にゅうか}→入荷：07939_nyuuka⟧: arrival of goods (receiving stock)\n- ⟦{納品|のうひん}→納品：05134_nouhin⟧: delivery to the customer\n- ⟦{配送|はいそう}→配送：05464_haisou⟧: delivery, transport to destination\n- ⟦{発送|はっそう}→発送：10458_hassou⟧: dispatching (parcels, mail)",
   "cross_references": [
     {
       "type": "antonym",
@@ -162,11 +162,25 @@
       "reading": "はいそう",
       "headword": "{配送|はいそう}",
       "label": "delivery, transport"
+    },
+    {
+      "type": "related",
+      "target_id": "09264_tsumikomi",
+      "reading": "つみこみ",
+      "headword": "{積|つ}み{込|こ}み",
+      "label": "loading, shipment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21737_hassousuru",
+      "reading": "はっそうする",
+      "headword": "{発送|はっそう}する",
+      "label": "to send"
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-04T16:09:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16566_mokuromi_ex1",
-      "japanese": "{目論見|もくろみ}が{外|はず}れた。",
+      "japanese": "{目論見|もくろみ}⟦が→が：00051_ga⟧⟦{外|はず}れた→外れる：02395_hazureru⟧。",
       "english": "My plan didn't work out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16566_mokuromi_ex2",
-      "japanese": "{彼|かれ}の{目論見|もくろみ}{通|どお}り、{事業|じぎょう}は{成功|せいこう}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{目論見|もくろみ}{通|どお}り、⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦は→は：00079_ha⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "Just as he had planned, the business succeeded.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16566_mokuromi_ex3",
-      "japanese": "{安|やす}く{仕入|しい}れて{高|たか}く{売|う}るという{目論見|もくろみ}は{見事|みごと}に{失敗|しっぱい}した。",
+      "japanese": "⟦{安|やす}く→安い：00464_yasui⟧⟦{仕入|しい}れて→仕入れる：11430_shiireru⟧⟦{高|たか}く→高い：00500_takai⟧⟦{売|う}る→売る：00906_uru⟧⟦という→という：09577_toiu⟧{目論見|もくろみ}⟦は→は：00079_ha⟧⟦{見事|みごと}→見事：03744_migoto⟧⟦に→に：00314_ni⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧。",
       "english": "The scheme of buying cheap and selling high failed spectacularly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften implies a calculated expectation or strategic plan. When the plan fails, the common expression is {目論見|もくろみ}が{外|はず}れる. When it succeeds: {目論見|もくろみ}{通|どお}り. Can carry a slightly scheming or self-interested nuance depending on context.\n\nCOMMON COLLOCATIONS:\n- {目論見|もくろみ}が{外|はず}れる (one's plan backfires)\n- {目論見|もくろみ}{通|どお}り (as planned/calculated)\n- {目論見|もくろみ}が{当|あ}たる (one's plan hits the mark)\n\nSIMILAR WORDS:\n- {計画|けいかく}: plan — neutral, formal, without the strategic or self-interested nuance\n- {企|たくら}み: scheme, plot — stronger negative nuance, implies deceit\n- {算段|さんだん}: strategy, plan — similar to {目論見|もくろみ} but more colloquial",
+  "notes": "USAGE:\nOften implies a calculated expectation or strategic plan. When the plan fails, the common expression is {目論見|もくろみ}⟦が→が：00051_ga⟧⟦{外|はず}れる→外れる：02395_hazureru⟧. When it succeeds: {目論見|もくろみ}{通|どお}り. Can carry a slightly scheming or self-interested nuance depending on context.\n\nCOMMON COLLOCATIONS:\n- {目論見|もくろみ}⟦が→が：00051_ga⟧⟦{外|はず}れる→外れる：02395_hazureru⟧ (one's plan backfires)\n- {目論見|もくろみ}{通|どお}り (as planned/calculated)\n- {目論見|もくろみ}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (one's plan hits the mark)\n\nSIMILAR WORDS:\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧: plan — neutral, formal, without the strategic or self-interested nuance\n- ⟦{企|たくら}み→企み：20805_takurami⟧: scheme, plot — stronger negative nuance, implies deceit\n- {算段|さんだん}: strategy, plan — similar to {目論見|もくろみ} but more colloquial",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,29 @@
       "reading": "けいかく",
       "headword": "{計画|けいかく}",
       "label": "plan (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20805_takurami",
+      "reading": "たくらみ",
+      "headword": "{企|たくら}み",
+      "label": "scheme, plot"
     }
   ],
   "metadata": {
     "created": "2026-03-13T23:57:23Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

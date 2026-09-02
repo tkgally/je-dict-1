@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29628_tonaakaatorijji_ex1",
-      "japanese": "トナーカートリッジを{交換|こうかん}する。",
+      "japanese": "トナーカートリッジ⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧。",
       "english": "To replace the toner cartridge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29628_tonaakaatorijji_ex2",
-      "japanese": "プリンターのトナーカートリッジが{切|き}れた。",
+      "japanese": "⟦プリンター→プリンター：04416_purintaa⟧⟦の→の：09472_no⟧トナーカートリッジ⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧。",
       "english": "The printer's toner cartridge has run out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29628_tonaakaatorijji_ex3",
-      "japanese": "{純正|じゅんせい}のトナーカートリッジは{値段|ねだん}が{高|たか}い。",
+      "japanese": "⟦{純正|じゅんせい}→純正：21689_junsei⟧⟦の→の：09472_no⟧トナーカートリッジ⟦は→は：00079_ha⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Genuine toner cartridges are expensive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: {トナーカートリッジ} (from English \"toner cartridge\") is the swappable toner container for a laser printer or copier.\n\nCOMMON COLLOCATIONS:\n- トナーカートリッジを{交換|こうかん}する: to replace the toner cartridge\n- {純正|じゅんせい}トナーカートリッジ: a genuine (OEM) toner cartridge\n\nSIMILAR WORDS:\n- インクカートリッジ: ink cartridge — the equivalent for inkjet printers\n- トナー: toner — the powder itself",
+  "notes": "USAGE: トナーカートリッジ (from English \"toner cartridge\") is the swappable toner container for a laser printer or copier.\n\nCOMMON COLLOCATIONS:\n- トナーカートリッジ⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧: to replace the toner cartridge\n- ⟦{純正|じゅんせい}→純正：21689_junsei⟧トナーカートリッジ: a genuine (OEM) toner cartridge\n\nSIMILAR WORDS:\n- ⟦インク→インク：00120_inku⟧⟦カートリッジ→カートリッジ：08142_kaatorijji⟧: ink cartridge — the equivalent for inkjet printers\n- ⟦トナー→トナー：07493_tonaa⟧: toner — the powder itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07493_tonaa",
+      "reading": "となー",
+      "headword": "トナー",
+      "label": "toner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

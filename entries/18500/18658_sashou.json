@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18658_sashou_ex1",
-      "japanese": "{査証|さしょう}を{申請|しんせい}する。",
+      "japanese": "{査証|さしょう}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧。",
       "english": "To apply for a visa.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18658_sashou_ex2",
-      "japanese": "{入国|にゅうこく}には{有効|ゆうこう}な{査証|さしょう}が{必要|ひつよう}です。",
+      "japanese": "⟦{入国|にゅうこく}→入国：15859_nyuukoku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧な{査証|さしょう}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "A valid visa is required for entry.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18658_sashou_ex3",
-      "japanese": "{査証|さしょう}{免除|めんじょ}{協定|きょうてい}により、{短期|たんき}{滞在|たいざい}ならビザなしで{渡航|とこう}できる。",
+      "japanese": "{査証|さしょう}⟦{免除|めんじょ}→免除：05764_menjo⟧⟦{協定|きょうてい}→協定：05320_kyoutei⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{短期|たんき}→短期：04050_tanki⟧⟦{滞在|たいざい}→滞在：03390_taizai⟧なら⟦ビザ→ビザ：08283_biza⟧なし⟦で→で：00502_de⟧⟦{渡航|とこう}できる→渡航する：21995_tokousuru⟧。",
       "english": "Thanks to the visa exemption agreement, you can travel without a visa for short stays.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{査証|さしょう} is the formal/official term for \"visa.\" In everyday conversation, ビザ is far more common.\n\nREGISTER:\n{査証|さしょう} appears in government documents, immigration law, official forms, and news reports. Use ビザ in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {査証|さしょう}を{申請|しんせい}する: to apply for a visa\n- {査証|さしょう}を{取得|しゅとく}する: to obtain a visa\n- {査証|さしょう}{免除|めんじょ}: visa exemption\n- {査証|さしょう}{発給|はっきゅう}: visa issuance\n\nVISA TYPES (using ビザ in everyday speech):\n- {就労|しゅうろう}ビザ: work visa\n- {観光|かんこう}ビザ: tourist visa\n- {学生|がくせい}ビザ: student visa\n- ワーキングホリデービザ: working holiday visa\n\nWORD FORMATION:\n{査|さ} (inspect) + {証|しょう} (certificate). Literally \"inspection certificate.\"",
+  "notes": "{査証|さしょう} is the formal/official term for \"visa.\" In everyday conversation, ⟦ビザ→ビザ：08283_biza⟧ is far more common.\n\nREGISTER:\n{査証|さしょう} appears in government documents, immigration law, official forms, and news reports. Use ⟦ビザ→ビザ：08283_biza⟧ in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {査証|さしょう}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to apply for a visa\n- {査証|さしょう}⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧: to obtain a visa\n- {査証|さしょう}⟦{免除|めんじょ}→免除：05764_menjo⟧: visa exemption\n- {査証|さしょう}⟦{発給|はっきゅう}→発給：18074_hakkyuu⟧: visa issuance\n\nVISA TYPES (using ⟦ビザ→ビザ：08283_biza⟧ in everyday speech):\n- ⟦{就労|しゅうろう}ビザ→就労ビザ：21774_shuuroubiza⟧: work visa\n- ⟦{観光|かんこう}→観光：00173_kankou⟧⟦ビザ→ビザ：08283_biza⟧: tourist visa\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧⟦ビザ→ビザ：08283_biza⟧: student visa\n- ワーキングホリデービザ: working holiday visa\n\nFORMS:\n{査|さ} (inspect) + {証|しょう} (certificate). Literally \"inspection certificate.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08284_ryoken",
+      "reading": "りょけん",
+      "headword": "{旅券|りょけん}",
+      "label": "passport"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-03-22T11:46:01Z",
-    "modified": "2026-04-05T11:45:12Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

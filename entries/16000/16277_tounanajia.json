@@ -15,40 +15,72 @@
   "examples": [
     {
       "id": "16277_tounanajia_ex1",
-      "japanese": "{東南|とうなん}アジアに{旅行|りょこう}したい。",
+      "japanese": "{東南|とうなん}アジア⟦に→に：00314_ni⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to travel to Southeast Asia.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16277_tounanajia_ex2",
-      "japanese": "{東南|とうなん}アジアの{料理|りょうり}が{好|す}きだ。",
+      "japanese": "{東南|とうなん}アジア⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like Southeast Asian cuisine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16277_tounanajia_ex3",
-      "japanese": "{日本|にほん}の{企業|きぎょう}は{東南|とうなん}アジアへの{進出|しんしゅつ}を{積極的|せっきょくてき}に{進|すす}めている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦は→は：00079_ha⟧{東南|とうなん}アジア⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{進出|しんしゅつ}→進出：14387_shinshutsu⟧⟦を→を：00422_wo⟧⟦{積極的|せっきょくてき}→積極的：01585_sekkyokuteki⟧⟦に→に：00314_ni⟧⟦{進|すす}めている→進める：01949_susumeru⟧。",
       "english": "Japanese companies are actively expanding into Southeast Asia.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{東南|とうなん}アジア is composed of {東南|とうなん} (southeast) + アジア (Asia).\n\nRELATED GEOGRAPHIC TERMS:\n- {東|ひがし}アジア: East Asia\n- {南|みなみ}アジア: South Asia\n- {中央|ちゅうおう}アジア: Central Asia\n- {西|にし}アジア: West Asia\n\nABBREVIATION: ASEAN ({東南|とうなん}アジア{諸国連合|しょこくれんごう}) is the major regional organization of Southeast Asian nations.\n\nUSAGE: {東南|とうなん}アジア is a very common term in Japanese media, appearing in news about economics, tourism, and international relations. The region is a popular travel destination and important trading partner for Japan.",
-  "cross_references": [],
+  "notes": "{東南|とうなん}アジア is composed of ⟦{東南|とうなん}→東南：21405_tounan⟧ (southeast) + ⟦アジア→アジア：01763_ajia⟧ (Asia).\n\nRELATED GEOGRAPHIC TERMS:\n- ⟦{東|ひがし}アジア→東アジア：24318_higashiajia⟧: East Asia\n- ⟦{南|みなみ}アジア→南アジア：29334_minamiajia⟧: South Asia\n- ⟦{中央|ちゅうおう}アジア→中央アジア：28458_chuuouajia⟧: Central Asia\n- ⟦{西|にし}アジア→西アジア：27740_nishiajia⟧: West Asia\n\nABBREVIATION: ASEAN ({東南|とうなん}アジア{諸国連合|しょこくれんごう}) is the major regional organization of Southeast Asian nations.\n\nUSAGE: {東南|とうなん}アジア is a very common term in Japanese media, appearing in news about economics, tourism, and international relations. The region is a popular travel destination and important trading partner for Japan.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24318_higashiajia",
+      "reading": "ひがしあじあ",
+      "headword": "{東|ひがし}アジア",
+      "label": "East Asia"
+    },
+    {
+      "type": "related",
+      "target_id": "28458_chuuouajia",
+      "reading": "ちゅうおうあじあ",
+      "headword": "{中央|ちゅうおう}アジア",
+      "label": "Central Asia"
+    },
+    {
+      "type": "related",
+      "target_id": "27740_nishiajia",
+      "reading": "にしあじあ",
+      "headword": "{西|にし}アジア",
+      "label": "West Asia"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T10:38:05Z",
-    "modified": "2026-03-11T10:38:05Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

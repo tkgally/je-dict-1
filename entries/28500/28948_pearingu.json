@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "28948_pearingu_ex1",
-      "japanese": "{彼氏|かれし}とペアリングをした。",
+      "japanese": "⟦{彼氏|かれし}→彼氏：06456_kareshi⟧⟦と→と：00512_to⟧ペアリング⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I got matching rings with my boyfriend.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "28948_pearingu_ex2",
-      "japanese": "{記念日|きねんび}にシルバーのペアリングを{買|か}った。",
+      "japanese": "⟦{記念日|きねんび}→記念日：05585_kinenbi⟧⟦に→に：00314_ni⟧シルバー⟦の→の：09472_no⟧ペアリング⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "We bought silver pair rings for our anniversary.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "28948_pearingu_ex3",
-      "japanese": "ペアリングは{婚約指輪|こんやくゆびわ}ほど{重|おも}い{意味|いみ}はない。",
+      "japanese": "ペアリング⟦は→は：00079_ha⟧⟦{婚約指輪|こんやくゆびわ}→婚約指輪：19305_konyakuyubiwa⟧ほど⟦{重|おも}い→重い：00804_omoi⟧⟦{意味|いみ}→意味：01155_imi⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Pair rings don't carry as serious a meaning as engagement rings.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "28948_pearingu_ex4",
-      "japanese": "このワインはチーズとのペアリングが{抜群|ばつぐん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ワイン→ワイン：01067_wain⟧⟦は→は：00079_ha⟧⟦チーズ→チーズ：00026_chiizu⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧ペアリング⟦が→が：00051_ga⟧⟦{抜群|ばつぐん}→抜群：12783_batsugun⟧だ。",
       "english": "This wine pairs wonderfully with cheese.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "28948_pearingu_ex5",
-      "japanese": "イヤホンとスマホのペアリングがうまくいかない。",
+      "japanese": "⟦イヤホン→イヤホン：04421_iyahon⟧⟦と→と：00512_to⟧⟦スマホ→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧ペアリング⟦が→が：00051_ga⟧⟦うまく→うまい：01279_umai⟧いかない。",
       "english": "The pairing between my earphones and smartphone isn't working.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "28948_pearingu_ex6",
-      "japanese": "ソムリエが{料理|りょうり}に{合|あ}わせてワインのペアリングを{提案|ていあん}してくれた。",
+      "japanese": "ソムリエ⟦が→が：00051_ga⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧⟦ワイン→ワイン：01067_wain⟧⟦の→の：09472_no⟧ペアリング⟦を→を：00422_wo⟧⟦{提案|ていあん}して→提案する：06057_teiansuru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The sommelier suggested wine pairings to match the dishes.",
       "sense_numbers": [
         2
@@ -79,8 +79,17 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"pair ring\" (sense 1) and \"pairing\" (sense 2). Sense 1 is a Japanese coinage from \"pair\" + \"ring\" and isn't used in English the same way. In native English the equivalent is \"matching rings\" or \"couple rings.\"\n\nCOMMON COLLOCATIONS:\n- ペアリングをはめる: to put on a pair ring (sense 1)\n- ワインのペアリング: wine pairing (sense 2)\n- Bluetoothペアリング: Bluetooth pairing (sense 2)\n\nSIMILAR WORDS:\n- {婚約指輪|こんやくゆびわ}: engagement ring — single, given on proposal\n- {結婚指輪|けっこんゆびわ}: wedding ring — exchanged at the wedding ceremony",
+  "notes": "Loanword from English \"pair ring\" (sense 1) and \"pairing\" (sense 2). Sense 1 is a Japanese coinage from \"pair\" + \"ring\" and isn't used in English the same way. In native English the equivalent is \"matching rings\" or \"couple rings.\"\n\nCOMMON COLLOCATIONS:\n- ペアリング⟦を→を：00422_wo⟧はめる: to put on a pair ring (sense 1)\n- ⟦ワイン→ワイン：01067_wain⟧⟦の→の：09472_no⟧ペアリング: wine pairing (sense 2)\n- Bluetoothペアリング: Bluetooth pairing (sense 2)\n\nSIMILAR WORDS:\n- ⟦{婚約指輪|こんやくゆびわ}→婚約指輪：19305_konyakuyubiwa⟧: engagement ring — single, given on proposal\n- {結婚指輪|けっこんゆびわ}: wedding ring — exchanged at the wedding ceremony",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19305_konyakuyubiwa",
+      "reading": "こんやくゆびわ",
+      "headword": "{婚約指輪|こんやくゆびわ}",
+      "label": "engagement ring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,6 +105,6 @@
       "domain": []
     },
     "created": "2026-06-07T04:11:17Z",
-    "modified": "2026-08-09T06:33:44Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

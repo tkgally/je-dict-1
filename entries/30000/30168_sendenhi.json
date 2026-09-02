@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30168_sendenhi_ex1",
-      "japanese": "{宣伝費|せんでんひ}を{削|けず}った。",
+      "japanese": "{宣伝費|せんでんひ}⟦を→を：00422_wo⟧⟦{削|けず}った→削る：03922_kezuru⟧。",
       "english": "We cut the advertising budget.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30168_sendenhi_ex2",
-      "japanese": "{新製品|しんせいひん}の{宣伝費|せんでんひ}に{一億円|いちおくえん}かけるそうだ。",
+      "japanese": "⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧⟦の→の：09472_no⟧{宣伝費|せんでんひ}⟦に→に：00314_ni⟧{一億円|いちおくえん}⟦かける→かける：00854_kakeru⟧そうだ。",
       "english": "I hear they are spending a hundred million yen advertising the new product.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30168_sendenhi_ex3",
-      "japanese": "{売上|うりあげ}が{伸|の}びない{原因|げんいん}は{宣伝費|せんでんひ}の{不足|ふそく}ではないかと{議論|ぎろん}になった。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧⟦{伸|の}びない→伸びる：01974_nobiru⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦は→は：00079_ha⟧{宣伝費|せんでんひ}⟦の→の：09472_no⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦ではないか→ではないか：30627_dehanaika⟧⟦と→と：00512_to⟧⟦{議論|ぎろん}→議論：02650_giron⟧になった。",
       "english": "A debate arose over whether insufficient advertising spending was the reason sales were not growing.",
       "sense_numbers": [
         1
@@ -45,7 +45,23 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {宣伝|せんでん} (advertising, publicity) plus the suffix {費|ひ} (expenses), the same suffix as in {交通費|こうつうひ} (travel expenses) and {人件費|じんけんひ} (labor costs).\n\nCOMMON COLLOCATIONS:\n- {宣伝費|せんでんひ}をかける: to spend money on advertising\n- {宣伝費|せんでんひ}を{削|けず}る: to cut the advertising budget\n- {宣伝費|せんでんひ}がかさむ: for advertising costs to mount up\n- {年間|ねんかん}{宣伝費|せんでんひ}: annual advertising expenditure\n\nSIMILAR WORDS:\n- {広告費|こうこくひ}: advertising expenses — nearly interchangeable, but tied specifically to placed ads; the more common accounting term\n- {販促費|はんそくひ}: sales promotion expenses — covers campaigns, samples, and in-store promotion",
+  "notes": "Formed from ⟦{宣伝|せんでん}→宣伝：03307_senden⟧ (advertising, publicity) plus the suffix ⟦{費|ひ}→費：09877_hi⟧ (expenses), the same suffix as in ⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧ (travel expenses) and ⟦{人件費|じんけんひ}→人件費：20616_jinkenhi⟧ (labor costs).\n\nCOMMON COLLOCATIONS:\n- {宣伝費|せんでんひ}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to spend money on advertising\n- {宣伝費|せんでんひ}⟦を→を：00422_wo⟧⟦{削|けず}る→削る：03922_kezuru⟧: to cut the advertising budget\n- {宣伝費|せんでんひ}⟦が→が：00051_ga⟧かさむ: for advertising costs to mount up\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧{宣伝費|せんでんひ}: annual advertising expenditure\n\nSIMILAR WORDS:\n- ⟦{広告費|こうこくひ}→広告費：30159_koukokuhi⟧: advertising expenses — nearly interchangeable, but tied specifically to placed ads; the more common accounting term\n- ⟦{販促費|はんそくひ}→販促費：30184_hansokuhi⟧: sales promotion expenses — covers campaigns, samples, and in-store promotion",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30159_koukokuhi",
+      "reading": "こうこくひ",
+      "headword": "{広告費|こうこくひ}",
+      "label": "advertising expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30184_hansokuhi",
+      "reading": "はんそくひ",
+      "headword": "販促費",
+      "label": "sales promotion expenses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money",
         "business"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-27T21:18:32Z",
-    "modified": "2026-07-27T21:18:32Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

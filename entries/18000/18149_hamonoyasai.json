@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18149_hamonoyasai_ex1",
-      "japanese": "{葉物野菜|はものやさい}は{値段|ねだん}が{変|か}わりやすい。",
+      "japanese": "{葉物野菜|はものやさい}⟦は→は：00079_ha⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦{変|か}わりやすい→変わりやすい：21113_kawariyasui⟧。",
       "english": "Leafy vegetables are prone to price fluctuations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18149_hamonoyasai_ex2",
-      "japanese": "{冬|ふゆ}は{葉物野菜|はものやさい}が{高|たか}くなることが{多|おお}い。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{葉物野菜|はものやさい}⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Leafy vegetables often become expensive in winter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18149_hamonoyasai_ex3",
-      "japanese": "{葉物野菜|はものやさい}は{鮮度|せんど}が{落|お}ちやすいので、{早|はや}めに{使|つか}い{切|き}ったほうがいい。",
+      "japanese": "{葉物野菜|はものやさい}⟦は→は：00079_ha⟧⟦{鮮度|せんど}→鮮度：14643_sendo⟧⟦が→が：00051_ga⟧⟦{落|お}ち→落ちる：01242_ochiru⟧やすい⟦の→の：09472_no⟧で、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{使|つか}い{切|き}った→使い切る：11518_tsukaikiru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "Leafy vegetables lose their freshness quickly, so it's better to use them up early.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA practical grocery and cooking term. Common {葉物野菜|はものやさい} include {小松菜|こまつな} (komatsuna), ほうれん{草|そう} (spinach), {白菜|はくさい} (Chinese cabbage), レタス (lettuce), and {春菊|しゅんぎく} (chrysanthemum greens).\n\nCOMMON COLLOCATIONS:\n- {葉物野菜|はものやさい}を{買|か}う (to buy leafy vegetables)\n- {葉物野菜|はものやさい}が{不足|ふそく}する (to be short on leafy vegetables)\n- {新鮮|しんせん}な{葉物野菜|はものやさい} (fresh leafy vegetables)\n\nRELATED TERMS:\n- {根菜|こんさい} (root vegetables)\n- {緑黄色野菜|りょくおうしょくやさい} (green and yellow vegetables)",
+  "notes": "USAGE:\nA practical grocery and cooking term. Common {葉物野菜|はものやさい} include ⟦{小松菜|こまつな}→小松菜：12520_komatsuna⟧ (komatsuna), ⟦ほうれん{草|そう}→ほうれん草：05188_hourensou⟧ (spinach), ⟦{白菜|はくさい}→白菜：13606_hakusai⟧ (Chinese cabbage), ⟦レタス→レタス：05193_retasu⟧ (lettuce), and {春菊|しゅんぎく} (chrysanthemum greens).\n\nCOMMON COLLOCATIONS:\n- {葉物野菜|はものやさい}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧ (to buy leafy vegetables)\n- {葉物野菜|はものやさい}⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦する→する：00392_suru⟧ (to be short on leafy vegetables)\n- ⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な{葉物野菜|はものやさい} (fresh leafy vegetables)\n\nRELATED WORDS:\n- ⟦{根菜|こんさい}→根菜：13142_konsai⟧ (root vegetables)\n- {緑黄色野菜|りょくおうしょくやさい} (green and yellow vegetables)",
   "prominent_see_also": [
     {
       "target_id": "16542_hamono",
@@ -54,18 +60,30 @@
       "reading": "こんさい",
       "headword": "{根菜|こんさい}",
       "label": "root vegetables"
+    },
+    {
+      "type": "related",
+      "target_id": "19508_aona",
+      "reading": "あおな",
+      "headword": "{青菜|あおな}",
+      "label": "leafy greens"
     }
   ],
   "metadata": {
     "created": "2026-03-20T06:48:34Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "plant-general"]
+      "semantic": [
+        "food",
+        "plant-general"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20382_anshinkan_ex1",
-      "japanese": "{安心感|あんしんかん}を{覚|おぼ}えた。",
+      "japanese": "{安心感|あんしんかん}⟦を→を：00422_wo⟧⟦{覚|おぼ}えた→覚える：00739_oboeru⟧。",
       "english": "I felt a sense of relief.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20382_anshinkan_ex2",
-      "japanese": "{家族|かぞく}がそばにいると{安心感|あんしんかん}がある。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦が→が：00051_ga⟧そば⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧{安心感|あんしんかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Having family nearby gives me a sense of security.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20382_anshinkan_ex3",
-      "japanese": "この{保険|ほけん}に{入|はい}っていれば、{大|おお}きな{安心感|あんしんかん}が{得|え}られる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{保険|ほけん}→保険：01509_hoken⟧⟦に→に：00314_ni⟧⟦{入|はい}っていれば→入る：00494_hairu⟧、⟦{大|おお}きな→大きな：02849_ookina⟧{安心感|あんしんかん}⟦が→が：00051_ga⟧⟦{得|え}られる→得る：02014_eru⟧。",
       "english": "Having this insurance gives you great peace of mind.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A common abstract noun describing the emotional state of feeling safe and reassured. Frequently used in advertising, healthcare, and relationship contexts to express trustworthiness and reliability.\n\nFORMATION:\n{安心|あんしん} (relief, peace of mind) + {感|かん} (feeling, sense)\n\nCOMMON COLLOCATIONS:\n- {安心感|あんしんかん}を{与|あた}える: to give a sense of security\n- {安心感|あんしんかん}を{覚|おぼ}える: to feel a sense of relief\n- {安心感|あんしんかん}が{得|え}られる: to gain peace of mind\n- {安心感|あんしんかん}に{包|つつ}まれる: to be wrapped in a feeling of safety\n\nSIMILAR WORDS:\n- {安心|あんしん}: relief — the state itself, while {安心感|あんしんかん} emphasizes the subjective feeling\n- {安堵感|あんどかん}: sense of relief — more literary, often used after a specific worry is resolved\n- {信頼感|しんらいかん}: sense of trust — focuses on trust in a person or institution rather than general safety",
+  "notes": "A common abstract noun describing the emotional state of feeling safe and reassured. Frequently used in advertising, healthcare, and relationship contexts to express trustworthiness and reliability.\n\nFORMS:\n⟦{安心|あんしん}→安心：01288_anshin⟧ (relief, peace of mind) + ⟦{感|かん}→〜感：28578_kan⟧ (feeling, sense)\n\nCOMMON COLLOCATIONS:\n- {安心感|あんしんかん}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧: to give a sense of security\n- {安心感|あんしんかん}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to feel a sense of relief\n- {安心感|あんしんかん}⟦が→が：00051_ga⟧⟦{得|え}られる→得る：02014_eru⟧: to gain peace of mind\n- {安心感|あんしんかん}⟦に→に：00314_ni⟧⟦{包|つつ}まれる→包む：01226_tsutsumu⟧: to be wrapped in a feeling of safety\n\nSIMILAR WORDS:\n- ⟦{安心|あんしん}→安心：01288_anshin⟧: relief — the state itself, while {安心感|あんしんかん} emphasizes the subjective feeling\n- ⟦{安堵感|あんどかん}→安堵感：19956_andokan⟧: sense of relief — more literary, often used after a specific worry is resolved\n- {信頼感|しんらいかん}: sense of trust — focuses on trust in a person or institution rather than general safety",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19956_andokan",
+      "reading": "あんどかん",
+      "headword": "{安堵感|あんどかん}",
+      "label": "sense of relief"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-29T12:11:21Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

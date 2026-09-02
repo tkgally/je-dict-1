@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25031_boshuukikan_ex1",
-      "japanese": "{募集期間|ぼしゅうきかん}は{明日|あした}までです。",
+      "japanese": "{募集期間|ぼしゅうきかん}⟦は→は：00079_ha⟧⟦{明日|あした}→明日：00501_ashita⟧⟦まで→まで：00490_made⟧です。",
       "english": "The application period is until tomorrow.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25031_boshuukikan_ex2",
-      "japanese": "{募集期間|ぼしゅうきかん}が{延長|えんちょう}されました。",
+      "japanese": "{募集期間|ぼしゅうきかん}⟦が→が：00051_ga⟧⟦{延長|えんちょう}→延長：06447_enchou⟧⟦されました→する：00392_suru⟧。",
       "english": "The recruitment period has been extended.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25031_boshuukikan_ex3",
-      "japanese": "{募集期間|ぼしゅうきかん}を{過|す}ぎてしまったので、{次|つぎ}の{機会|きかい}を{待|ま}つしかない。",
+      "japanese": "{募集期間|ぼしゅうきかん}⟦を→を：00422_wo⟧⟦{過|す}ぎて→過ぎる：01219_sugiru⟧しまった⟦の→の：09472_no⟧で、⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{機会|きかい}→機会：01302_kikai⟧⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧⟦しかない→〜しかない：30533_shikanai⟧。",
       "english": "I missed the application period, so I have no choice but to wait for the next opportunity.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {募集|ぼしゅう} (recruitment; solicitation) + {期間|きかん} (period; time frame). Frequently seen on websites, posters, and official announcements. The word is essential for navigating applications in Japan — from job hunting to contest entries.\n\nCOMMON COLLOCATIONS:\n- {募集期間|ぼしゅうきかん}を{延長|えんちょう}する: extend the application period\n- {募集期間|ぼしゅうきかん}が{終了|しゅうりょう}する: the application period ends\n- {募集期間|ぼしゅうきかん}{内|ない}に{応募|おうぼ}する: apply within the application period\n- {募集期間|ぼしゅうきかん}{外|がい}: outside the application period\n\nSIMILAR WORDS:\n- {応募|おうぼ}{期間|きかん}: application period — nearly synonymous, slightly more focused on the applicant's action\n- {受付|うけつけ}{期間|きかん}: acceptance period — emphasizes the receiving side\n- {締|し}め{切|き}り: deadline — the end point rather than the full time span",
+  "notes": "Composed of ⟦{募集|ぼしゅう}→募集：03035_boshuu⟧ (recruitment; solicitation) + ⟦{期間|きかん}→期間：00229_kikan⟧ (period; time frame). Frequently seen on websites, posters, and official announcements. The word is essential for navigating applications in Japan — from job hunting to contest entries.\n\nCOMMON COLLOCATIONS:\n- {募集期間|ぼしゅうきかん}⟦を→を：00422_wo⟧⟦{延長|えんちょう}→延長：06447_enchou⟧⟦する→する：00392_suru⟧: extend the application period\n- {募集期間|ぼしゅうきかん}⟦が→が：00051_ga⟧⟦{終了|しゅうりょう}する→終了する：22990_shuuryousuru⟧: the application period ends\n- {募集期間|ぼしゅうきかん}{内|ない}⟦に→に：00314_ni⟧⟦{応募|おうぼ}→応募：03014_oubo⟧⟦する→する：00392_suru⟧: apply within the application period\n- {募集期間|ぼしゅうきかん}{外|がい}: outside the application period\n\nSIMILAR WORDS:\n- ⟦{応募|おうぼ}→応募：03014_oubo⟧⟦{期間|きかん}→期間：00229_kikan⟧: application period — nearly synonymous, slightly more focused on the applicant's action\n- ⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦{期間|きかん}→期間：00229_kikan⟧: acceptance period — emphasizes the receiving side\n- ⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧: deadline — the end point rather than the full time span",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04162_shimekiri",
+      "reading": "しめきり",
+      "headword": "{締|し}め{切|き}り",
+      "label": "deadline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "work"
       ]
     },
     "created": "2026-04-22T11:27:31Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

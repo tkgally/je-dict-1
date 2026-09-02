@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "18953_irainin_ex1",
-      "japanese": "{依頼人|いらいにん}と{面談|めんだん}する。",
+      "japanese": "{依頼人|いらいにん}⟦と→と：00512_to⟧⟦{面談|めんだん}→面談：08177_mendan⟧⟦する→する：00392_suru⟧。",
       "english": "I'll meet with the client.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18953_irainin_ex2",
-      "japanese": "{弁護士|べんごし}は{依頼人|いらいにん}の{利益|りえき}を{守|まも}る{義務|ぎむ}がある。",
+      "japanese": "⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦は→は：00079_ha⟧{依頼人|いらいにん}⟦の→の：09472_no⟧⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦{義務|ぎむ}→義務：02647_gimu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "A lawyer has a duty to protect the interests of their client.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18953_irainin_ex3",
-      "japanese": "{探偵|たんてい}は{依頼人|いらいにん}から{調査|ちょうさ}の{報告|ほうこく}を{求|もと}められた。",
+      "japanese": "⟦{探偵|たんてい}→探偵：07033_tantei⟧⟦は→は：00079_ha⟧{依頼人|いらいにん}⟦から→から：00504_kara⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦の→の：09472_no⟧⟦{報告|ほうこく}→報告：03618_houkoku⟧⟦を→を：00422_wo⟧⟦{求|もと}められた→求める：02316_motomeru⟧。",
       "english": "The detective was asked by the client for an investigation report.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {依頼|いらい} (request, commission) + {人|にん} (person). Refers to someone who has formally requested professional services.\n\nCOMMON COLLOCATIONS:\n- {依頼人|いらいにん}と{面談|めんだん}する: to meet with the client\n- {依頼人|いらいにん}の{利益|りえき}: the client's interests\n- {依頼人|いらいにん}の{秘密|ひみつ}を{守|まも}る: to protect the client's confidentiality\n\nSIMILAR WORDS:\n- {顧客|こきゃく}: customer, client (business context, broader)\n- {客|きゃく}: customer, guest (general, everyday)\n- クライアント: client (loanword, common in business and IT)\n\nUSAGE:\nUsed mainly in legal ({弁護士|べんごし}), detective ({探偵|たんてい}), and professional service contexts. Implies a formal relationship where someone has commissioned specific services. Common in legal dramas and crime fiction.",
+  "notes": "A compound of ⟦{依頼|いらい}→依頼：02594_irai⟧ (request, commission) + ⟦{人|にん}→〜人：00658_nin⟧ (person). Refers to someone who has formally requested professional services.\n\nCOMMON COLLOCATIONS:\n- {依頼人|いらいにん}⟦と→と：00512_to⟧⟦{面談|めんだん}→面談：08177_mendan⟧⟦する→する：00392_suru⟧: to meet with the client\n- {依頼人|いらいにん}⟦の→の：09472_no⟧⟦{利益|りえき}→利益：03673_rieki⟧: the client's interests\n- {依頼人|いらいにん}⟦の→の：09472_no⟧⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect the client's confidentiality\n\nSIMILAR WORDS:\n- ⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧: customer, client (business context, broader)\n- ⟦{客|きゃく}→客：00865_kyaku⟧: customer, guest (general, everyday)\n- ⟦クライアント→クライアント：04876_kuraianto⟧: client (loanword, common in business and IT)\n\nUSAGE:\nUsed mainly in legal (⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧), detective (⟦{探偵|たんてい}→探偵：07033_tantei⟧), and professional service contexts. Implies a formal relationship where someone has commissioned specific services. Common in legal dramas and crime fiction.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08632_kokyaku",
+      "reading": "こきゃく",
+      "headword": "{顧客|こきゃく}",
+      "label": "customer, client"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00865_kyaku",
+      "reading": "きゃく",
+      "headword": "{客|きゃく}",
+      "label": "customer, guest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04876_kuraianto",
+      "reading": "くらいあんと",
+      "headword": "クライアント",
+      "label": "client"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ]
     },
     "created": "2026-03-23T10:20:30Z",
-    "modified": "2026-03-29T09:23:00Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

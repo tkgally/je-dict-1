@@ -25,7 +25,7 @@
     },
     {
       "id": "20625_muichimon_ex2",
-      "japanese": "{彼|かれ}は{無一文|むいちもん}から{会社|かいしゃ}を{立|た}ち{上|あ}げた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{無一文|むいちもん}⟦から→から：00504_kara⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{立|た}ち{上|あ}げた→立ち上げる：07892_tachiageru⟧。",
       "english": "He started the company from nothing.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20625_muichimon_ex3",
-      "japanese": "ギャンブルに{手|て}を{出|だ}して{無一文|むいちもん}になった{友人|ゆうじん}を{何度|なんど}も{見|み}てきた。",
+      "japanese": "⟦ギャンブル→ギャンブル：10811_gyanburu⟧⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧{無一文|むいちもん}になった⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦を→を：00422_wo⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{見|み}て→見る：00283_miru⟧きた。",
       "english": "I've seen many friends go broke from getting into gambling.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "Composed of {無|む} (without) + {一文|いちもん} (one mon — the smallest old coin denomination). Literally means not having even one mon. The {文|もん} was a very small unit of currency in pre-modern Japan, so the expression emphasizes total poverty.\n\nCOMMON COLLOCATIONS:\n- {無一文|むいちもん}になる (to become penniless)\n- {無一文|むいちもん}から{始|はじ}める (to start from nothing)\n- {無一文|むいちもん}の{状態|じょうたい} (a state of being penniless)\n- {無一文|むいちもん}で{放|ほう}り{出|だ}される (to be thrown out without a penny)\n\nSIMILAR WORDS:\n- {一文無|いちもんな}し — penniless; an older variant with essentially the same meaning\n- {文無|もんな}し — penniless; colloquial variant\n- {金欠|きんけつ} — short of cash; more casual and less extreme, implying temporary shortage\n- すっからかん — completely broke; very colloquial and emphatic\n\nETYMOLOGY:\nThe {文|もん} was the smallest unit of currency during the Edo period. Even one {文|もん} had very little value, so saying someone doesn't have even one emphasizes the completeness of their poverty.",
-  "cross_references": [],
+  "notes": "Composed of ⟦{無|む}→無：17750_mu⟧ (without) + {一文|いちもん} (one mon — the smallest old coin denomination). Literally means not having even one mon. The ⟦{文|もん}→文：29590_mon⟧ was a very small unit of currency in pre-modern Japan, so the expression emphasizes total poverty.\n\nCOMMON COLLOCATIONS:\n- {無一文|むいちもん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become penniless)\n- {無一文|むいちもん}⟦から→から：00504_kara⟧{始|はじ}める (to start from nothing)\n- {無一文|むいちもん}⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧ (a state of being penniless)\n- {無一文|むいちもん}⟦で→で：00502_de⟧⟦{放|ほう}り{出|だ}される→放り出す：16163_houridasu⟧ (to be thrown out without a penny)\n\nSIMILAR WORDS:\n- {一文無|いちもんな}し — penniless; an older variant with essentially the same meaning\n- {文無|もんな}し — penniless; colloquial variant\n- ⟦{金欠|きんけつ}→金欠：14442_kinketsu⟧ — short of cash; more casual and less extreme, implying temporary shortage\n- すっからかん — completely broke; very colloquial and emphatic\n\nETYMOLOGY:\nThe ⟦{文|もん}→文：29590_mon⟧ was the smallest unit of currency during the Edo period. Even one ⟦{文|もん}→文：29590_mon⟧ had very little value, so saying someone doesn't have even one emphasizes the completeness of their poverty.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14442_kinketsu",
+      "reading": "きんけつ",
+      "headword": "{金欠|きんけつ}",
+      "label": "short of cash"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:08:02Z",
-    "modified": "2026-07-28T09:35:50Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

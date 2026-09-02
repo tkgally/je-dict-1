@@ -3,7 +3,7 @@
   "headword": "{頓珍漢|とんちんかん}",
   "reading": "とんちんかん",
   "romaji": "tonchinkan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "nonsensical; irrelevant; off the mark",
   "definitions": [
     {
@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20504_tonchinkan_ex1",
-      "japanese": "{頓珍漢|とんちんかん}な{答|こた}えをする。",
+      "japanese": "{頓珍漢|とんちんかん}な⟦{答|こた}え→答え：00790_kotae⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To give an off-the-mark answer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20504_tonchinkan_ex2",
-      "japanese": "{彼|かれ}はいつも{頓珍漢|とんちんかん}なことを{言|い}う。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{頓珍漢|とんちんかん}なこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧。",
       "english": "He always says absurd things.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20504_tonchinkan_ex3",
-      "japanese": "{質問|しつもん}の{意味|いみ}を{理解|りかい}していないのか、{頓珍漢|とんちんかん}な{返事|へんじ}ばかりしている。",
+      "japanese": "⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧⟦を→を：00422_wo⟧⟦{理解|りかい}していない→理解する：06059_rikaisuru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧、{頓珍漢|とんちんかん}な⟦{返事|へんじ}→返事：00844_henji⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦している→する：00392_suru⟧。",
       "english": "Maybe he doesn't understand the questions, because he keeps giving completely irrelevant answers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Describes something absurdly off the mark or irrelevant. Can function as a na-adjective ({頓珍漢|とんちんかん}な) or as a noun. The kanji are ateji (phonetic spellings with no semantic connection to the meaning).\n\nETYMOLOGY:\nSaid to derive from the alternating sounds of hammers at a blacksmith's forge — when two smiths strike out of rhythm, it sounds like \"ton-chin-kan,\" evoking the idea of being out of sync or off-beat.\n\nCOMMON COLLOCATIONS:\n- {頓珍漢|とんちんかん}な{答|こた}え: an off-the-mark answer\n- {頓珍漢|とんちんかん}なことを{言|い}う: to say nonsensical things\n- {頓珍漢|とんちんかん}な{質問|しつもん}: an irrelevant question\n- {頓珍漢|とんちんかん}な{行動|こうどう}: absurd behavior\n\nSIMILAR WORDS:\n- {的外|まとはず}れ: off the mark — describes missing the point, less colorful\n- {見当違|けんとうちが}い: barking up the wrong tree — fundamentally misunderstanding the situation\n- ちぐはぐ: mismatched, inconsistent — things that don't fit together properly",
+  "notes": "Describes something absurdly off the mark or irrelevant. Can function as a na-adjective ({頓珍漢|とんちんかん}な) or as a noun. The kanji are ateji (phonetic spellings with no semantic connection to the meaning).\n\nETYMOLOGY:\nSaid to derive from the alternating sounds of hammers at a blacksmith's forge — when two smiths strike out of rhythm, it sounds like \"ton-chin-kan,\" evoking the idea of being out of sync or off-beat.\n\nCOMMON COLLOCATIONS:\n- {頓珍漢|とんちんかん}な⟦{答|こた}え→答え：00790_kotae⟧: an off-the-mark answer\n- {頓珍漢|とんちんかん}なこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: to say nonsensical things\n- {頓珍漢|とんちんかん}な⟦{質問|しつもん}→質問：00888_shitsumon⟧: an irrelevant question\n- {頓珍漢|とんちんかん}な⟦{行動|こうどう}→行動：02728_koudou⟧: absurd behavior\n\nSIMILAR WORDS:\n- ⟦{的外|まとはず}れ→的外れ：16719_matohazure⟧: off the mark — describes missing the point, less colorful\n- ⟦{見当違|けんとうちが}い→見当違い：18771_kentouchigai⟧: barking up the wrong tree — fundamentally misunderstanding the situation\n- ⟦ちぐはぐ→ちぐはぐ：18852_chiguhagu⟧: mismatched, inconsistent — things that don't fit together properly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16719_matohazure",
+      "reading": "まとはずれ",
+      "headword": "{的外|まとはず}れ",
+      "label": "off the mark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18771_kentouchigai",
+      "reading": "けんとうちがい",
+      "headword": "{見当違|けんとうちが}い",
+      "label": "barking up the wrong tree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18852_chiguhagu",
+      "reading": "ちぐはぐ",
+      "headword": "ちぐはぐ",
+      "label": "mismatched, inconsistent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     },
     "created": "2026-03-29T16:20:33Z",
-    "modified": "2026-03-29T16:20:33Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

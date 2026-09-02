@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11078_fumin_ex1",
-      "japanese": "{不眠|ふみん}に{悩|なや}んでいる。",
+      "japanese": "{不眠|ふみん}⟦に→に：00314_ni⟧⟦{悩|なや}んでいる→悩む：02380_nayamu⟧。",
       "english": "I'm struggling with insomnia.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11078_fumin_ex2",
-      "japanese": "ストレスが{原因|げんいん}で{不眠|ふみん}になった。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦が→が：00051_ga⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦で→で：00502_de⟧{不眠|ふみん}になった。",
       "english": "Stress caused me to develop insomnia.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11078_fumin_ex3",
-      "japanese": "{不眠|ふみん}が{続|つづ}くようなら、{早|はや}めに{医師|いし}に{相談|そうだん}したほうがいい。",
+      "japanese": "{不眠|ふみん}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ようなら、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{医師|いし}→医師：11851_ishi⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "If insomnia persists, you should consult a doctor sooner rather than later.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both as a medical term and in everyday conversation. {不眠症|ふみんしょう} is the clinical term for insomnia as a diagnosed disorder, while {不眠|ふみん} can refer to any instance of sleeplessness.\n\nCOMMON COLLOCATIONS:\n- {不眠症|ふみんしょう}: insomnia (clinical term)\n- {不眠|ふみん}に{悩|なや}む: to suffer from insomnia\n- {不眠|ふみん}{不休|ふきゅう}: without sleep or rest (working tirelessly)\n- {不眠|ふみん}の{原因|げんいん}: cause of insomnia",
+  "notes": "USAGE:\nUsed both as a medical term and in everyday conversation. ⟦{不眠症|ふみんしょう}→不眠症：05024_fuminshou⟧ is the clinical term for insomnia as a diagnosed disorder, while {不眠|ふみん} can refer to any instance of sleeplessness.\n\nCOMMON COLLOCATIONS:\n- ⟦{不眠症|ふみんしょう}→不眠症：05024_fuminshou⟧: insomnia (clinical term)\n- {不眠|ふみん}⟦に→に：00314_ni⟧⟦{悩|なや}む→悩む：02380_nayamu⟧: to suffer from insomnia\n- {不眠|ふみん}{不休|ふきゅう}: without sleep or rest (working tirelessly)\n- {不眠|ふみん}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧: cause of insomnia",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "headword": "{熟睡|じゅくすい}",
       "label": "deep sleep",
       "target_id": "11079_jukusui"
+    },
+    {
+      "type": "related",
+      "target_id": "08548_netsuki",
+      "reading": "ねつき",
+      "headword": "{寝|ね}つき",
+      "label": "ability to fall asleep"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-02-19T12:42:20Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

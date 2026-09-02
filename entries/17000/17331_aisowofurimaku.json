@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17331_aisowofurimaku_ex1",
-      "japanese": "{彼女|かのじょ}はいつも{愛想|あいそ}を{振|ふ}りまいている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{愛想|あいそ}を{振|ふ}りまいて⟦いる→いる：00495_iru⟧。",
       "english": "She is always trying to please everyone.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17331_aisowofurimaku_ex2",
-      "japanese": "{選挙|せんきょ}{前|まえ}になると、{政治家|せいじか}は{有権者|ゆうけんしゃ}に{愛想|あいそ}を{振|ふ}りまく。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦は→は：00079_ha⟧⟦{有権者|ゆうけんしゃ}→有権者：13021_yuukensha⟧⟦に→に：00314_ni⟧{愛想|あいそ}を{振|ふ}りまく。",
       "english": "Before elections, politicians go around being overly friendly to voters.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17331_aisowofurimaku_ex3",
-      "japanese": "みんなに{愛想|あいそ}を{振|ふ}りまくのは{疲|つか}れるから、もうやめたい。",
+      "japanese": "⟦みんな→みんな：02972_minna⟧⟦に→に：00314_ni⟧{愛想|あいそ}を{振|ふ}りまく⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{疲|つか}れる→疲れる：00901_tsukareru⟧⟦から→から：00504_kara⟧、⟦もう→もう：00602_mou⟧⟦やめたい→やめる：00909_yameru⟧。",
       "english": "I'm tired of trying to please everyone, so I want to stop.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{愛想|あいそ} means \"friendliness\" or \"amiability\" and {振|ふ}りまく means \"to scatter\" or \"to spread around.\" The image is of someone scattering charm in all directions, without sincerity. While the behavior described can sometimes be positive (sociable, outgoing), it more often carries a critical or dismissive tone.\n\nCOMMON COLLOCATIONS:\n- みんなに{愛想|あいそ}を{振|ふ}りまく (to try to please everyone)\n- {愛想|あいそ}{笑|わら}いを{振|ふ}りまく (to flash smiles at everyone)\n\nSIMILAR WORDS:\n- {愛想|あいそ}がいい: to be friendly, amiable — neutral to positive, unlike the slightly negative {振|ふ}りまく\n- {八方美人|はっぽうびじん}: a people-pleaser — someone who tries to be liked by everyone, usually pejorative",
+  "notes": "USAGE:\n⟦{愛想|あいそ}→愛想：12699_aiso⟧ means \"friendliness\" or \"amiability\" and {振|ふ}りまく means \"to scatter\" or \"to spread around.\" The image is of someone scattering charm in all directions, without sincerity. While the behavior described can sometimes be positive (sociable, outgoing), it more often carries a critical or dismissive tone.\n\nCOMMON COLLOCATIONS:\n- ⟦みんな→みんな：02972_minna⟧⟦に→に：00314_ni⟧{愛想|あいそ}を{振|ふ}りまく (to try to please everyone)\n- ⟦{愛想|あいそ}{笑|わら}い→愛想笑い：16649_aisowarai⟧⟦を→を：00422_wo⟧{振|ふ}りまく (to flash smiles at everyone)\n\nSIMILAR WORDS:\n- ⟦{愛想|あいそ}がいい→愛想がいい：16502_aisogaii⟧: to be friendly, amiable — neutral to positive, unlike the slightly negative {振|ふ}りまく\n- ⟦{八方美人|はっぽうびじん}→八方美人：08052_happoubijin⟧: a people-pleaser — someone who tries to be liked by everyone, usually pejorative",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "はっぽうびじん",
       "headword": "{八方美人|はっぽうびじん}",
       "label": "people-pleaser"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16502_aisogaii",
+      "reading": "あいそがいい",
+      "headword": "{愛想|あいそ}がいい",
+      "label": "to be friendly, amiable"
     }
   ],
   "metadata": {
     "created": "2026-03-17T06:04:23Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

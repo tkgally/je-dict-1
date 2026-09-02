@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24236_kaishou_ex1",
-      "japanese": "{甲斐性|かいしょう}のある{男|おとこ}。",
+      "japanese": "{甲斐性|かいしょう}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{男|おとこ}→男：00561_otoko⟧。",
       "english": "A capable, dependable man.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24236_kaishou_ex2",
-      "japanese": "{甲斐性|かいしょう}がないと{言|い}われた。",
+      "japanese": "{甲斐性|かいしょう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I was told I have no gumption.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24236_kaishou_ex3",
-      "japanese": "{祖母|そぼ}は「{甲斐性|かいしょう}のない{男|おとこ}とだけは{結婚|けっこん}するな」とよく{言|い}っていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧「{甲斐性|かいしょう}⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧⟦{男|おとこ}→男：00561_otoko⟧⟦と→と：00512_to⟧⟦だけ→〜だけ：03093_dake⟧⟦は→は：00079_ha⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦する→する：00392_suru⟧な」⟦と→と：00512_to⟧⟦よく→よく：00601_yoku⟧⟦{言|い}っていた→言う：00515_iu⟧。",
       "english": "My grandmother often said, \"Whatever you do, don't marry a man with no gumption.\"",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Also written {甲斐性|かいしょ} (shorter reading). Derives from {甲斐|かい} (worth, effect) + {性|しょう} (nature, character).\n\nUSAGE:\n{甲斐性|かいしょう} is a somewhat old-fashioned word that evaluates a person's practical competence — their ability to earn money, manage a household, and be a dependable provider. It appears most often in the negative: {甲斐性|かいしょう}なし or {甲斐性|かいしょう}がない (lacking competence, unreliable). While traditionally applied to men as breadwinners, it can be used for anyone's ability to get things done and be self-sufficient.\n\nCOMMON COLLOCATIONS:\n- {甲斐性|かいしょう}がある: to be capable, dependable\n- {甲斐性|かいしょう}がない: to be incompetent, unreliable\n- {甲斐性|かいしょう}なし: a good-for-nothing\n- {甲斐性|かいしょう}のある{人|ひと}: a capable, reliable person\n\nSIMILAR WORDS:\n- {器量|きりょう}: ability, caliber — a person's capacity and character; in older usage, also means facial attractiveness\n- {頼|たの}もしい: dependable, reassuring — an adjective describing someone you can count on\n- {能力|のうりょく}: ability, capability — a neutral, modern term for skills and abilities without the traditional provider connotation",
+  "notes": "Also written {甲斐性|かいしょ} (shorter reading). Derives from ⟦{甲斐|かい}→甲斐：15851_kai⟧ (worth, effect) + ⟦{性|しょう}→〜性：28334_shou⟧ (nature, character).\n\nUSAGE:\n{甲斐性|かいしょう} is a somewhat old-fashioned word that evaluates a person's practical competence — their ability to earn money, manage a household, and be a dependable provider. It appears most often in the negative: {甲斐性|かいしょう}なし or {甲斐性|かいしょう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (lacking competence, unreliable). While traditionally applied to men as breadwinners, it can be used for anyone's ability to get things done and be self-sufficient.\n\nCOMMON COLLOCATIONS:\n- {甲斐性|かいしょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be capable, dependable\n- {甲斐性|かいしょう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: to be incompetent, unreliable\n- {甲斐性|かいしょう}なし: a good-for-nothing\n- {甲斐性|かいしょう}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧: a capable, reliable person\n\nSIMILAR WORDS:\n- ⟦{器量|きりょう}→器量：25479_kiryou⟧: ability, caliber — a person's capacity and character; in older usage, also means facial attractiveness\n- ⟦{頼|たの}もしい→頼もしい：07899_tanomoshii⟧: dependable, reassuring — an adjective describing someone you can count on\n- ⟦{能力|のうりょく}→能力：03541_nouryoku⟧: ability, capability — a neutral, modern term for skills and abilities without the traditional provider connotation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25479_kiryou",
+      "reading": "きりょう",
+      "headword": "{器量|きりょう}",
+      "label": "ability, caliber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07899_tanomoshii",
+      "reading": "たのもしい",
+      "headword": "{頼|たの}もしい",
+      "label": "dependable, reassuring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03541_nouryoku",
+      "reading": "のうりょく",
+      "headword": "{能力|のうりょく}",
+      "label": "ability, capability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-18T10:32:11Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

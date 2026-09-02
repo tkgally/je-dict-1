@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "15808_tokubaihin_ex1",
-      "japanese": "{特売品|とくばいひん}を{買|か}いに{行|い}く。",
+      "japanese": "{特売品|とくばいひん}⟦を→を：00422_wo⟧⟦{買|か}い→買う：00489_kau⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going to buy sale items.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15808_tokubaihin_ex2",
-      "japanese": "スーパーの{特売品|とくばいひん}はすぐに{売|う}り{切|き}れる。",
+      "japanese": "⟦スーパー→スーパー：01061_suupaa⟧⟦の→の：09472_no⟧{特売品|とくばいひん}⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{売|う}り{切|き}れる→売り切れる：03012_urikireru⟧。",
       "english": "The sale items at the supermarket sell out quickly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15808_tokubaihin_ex3",
-      "japanese": "チラシに{載|の}っている{特売品|とくばいひん}を{目当|めあ}てに{朝|あさ}{早|はや}くから{並|なら}んでいる{人|ひと}がいた。",
+      "japanese": "⟦チラシ→チラシ：23406_chirashi⟧⟦に→に：00314_ni⟧⟦{載|の}っている→載る：27882_noru⟧{特売品|とくばいひん}⟦を→を：00422_wo⟧⟦{目当|めあ}て→目当て：13648_meate⟧⟦に→に：00314_ni⟧⟦{朝|あさ}→朝：02277_asa⟧⟦{早|はや}く→早く：02935_hayaku⟧⟦から→から：00504_kara⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧⟦{人|ひと}→人：00476_hito⟧がいた。",
       "english": "There were people lining up from early morning, hoping to get the sale items advertised in the flyer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{特売品|とくばいひん} is commonly seen in supermarkets, department stores, and electronics shops. Items are often advertised in チラシ (flyers) or on {店頭|てんとう} (in-store) displays. The compound breaks down as {特売|とくばい} (special sale) + {品|ひん} (item/goods).\n\nCOMMON COLLOCATIONS:\n- {特売品|とくばいひん}コーナー (bargain section)\n- {特売品|とくばいひん}を{狙|ねら}う (go after sale items)\n- {本日|ほんじつ}の{特売品|とくばいひん} (today's specials)\n\nRELATED TERMS:\n- {特売|とくばい} is the sale event itself.\n- {目玉商品|めだましょうひん} refers to a featured sale item used as a draw.\n- {割引|わりびき} means discount.",
-  "cross_references": [],
+  "notes": "USAGE:\n{特売品|とくばいひん} is commonly seen in supermarkets, department stores, and electronics shops. Items are often advertised in ⟦チラシ→チラシ：23406_chirashi⟧ (flyers) or on ⟦{店頭|てんとう}→店頭：12488_tentou⟧ (in-store) displays. The compound breaks down as ⟦{特売|とくばい}→特売：04277_tokubai⟧ (special sale) + ⟦{品|ひん}→品：03712_hin⟧ (item/goods).\n\nCOMMON COLLOCATIONS:\n- {特売品|とくばいひん}⟦コーナー→コーナー：10865_koonaa⟧ (bargain section)\n- {特売品|とくばいひん}⟦を→を：00422_wo⟧⟦{狙|ねら}う→狙う：00313_nerau⟧ (go after sale items)\n- ⟦{本日|ほんじつ}→本日：09643_honjitsu⟧⟦の→の：09472_no⟧{特売品|とくばいひん} (today's specials)\n\nRELATED WORDS:\n- ⟦{特売|とくばい}→特売：04277_tokubai⟧ is the sale event itself.\n- ⟦{目玉商品|めだましょうひん}→目玉商品：08064_medamashouhin⟧ refers to a featured sale item used as a draw.\n- ⟦{割引|わりびき}→割引：01526_waribiki⟧ means discount.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08064_medamashouhin",
+      "reading": "めだましょうひん",
+      "headword": "{目玉商品|めだましょうひん}",
+      "label": "refers to a featured sale item used…"
+    },
+    {
+      "type": "related",
+      "target_id": "01526_waribiki",
+      "reading": "わりびき",
+      "headword": "{割引|わりびき}",
+      "label": "means discount."
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T10:08:09Z",
-    "modified": "2026-03-08T10:08:09Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping", "daily-life"]
+      "semantic": [
+        "shopping",
+        "daily-life"
+      ]
     }
   }
 }

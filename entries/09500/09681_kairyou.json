@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09681_kairyou_ex1",
-      "japanese": "{製品|せいひん}を{改良|かいりょう}した。",
+      "japanese": "⟦{製品|せいひん}→製品：01445_seihin⟧⟦を→を：00422_wo⟧{改良|かいりょう}⟦した→する：00392_suru⟧。",
       "english": "I improved the product.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09681_kairyou_ex2",
-      "japanese": "{品種|ひんしゅ}{改良|かいりょう}に{成功|せいこう}した。",
+      "japanese": "⟦{品種|ひんしゅ}→品種：11840_hinshu⟧{改良|かいりょう}⟦に→に：00314_ni⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "We succeeded in breed improvement.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09681_kairyou_ex3",
-      "japanese": "{土壌|どじょう}{改良|かいりょう}が{必要|ひつよう}だ。",
+      "japanese": "⟦{土壌|どじょう}→土壌：12040_dojou⟧{改良|かいりょう}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Soil improvement is needed.",
       "notes": null,
       "has_audio": false,
@@ -133,18 +133,39 @@
       ]
     }
   ],
-  "notes": "{改良|かいりょう} means making something better through concrete, incremental modifications. It emphasizes practical, tangible improvements rather than abstract or systemic change.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive) as する verb\n- 〜を{改良|かいりょう}する (to improve ~)\n\nCOMMON COLLOCATIONS:\n- {品種|ひんしゅ}{改良|かいりょう} (breed improvement)\n- {土壌|どじょう}{改良|かいりょう} (soil improvement)\n- {改良|かいりょう}{版|ばん} (improved version)\n- {改良|かいりょう}を{加|くわ}える (to add improvements)\n- {改良|かいりょう}を{重|かさ}ねる (to make repeated improvements)\n\nSIMILAR WORDS:\n- {改善|かいぜん}: improvement (systems, processes, conditions — often abstract)\n- {改造|かいぞう}: remodeling, modification (large structural changes)\n- {改正|かいせい}: revision (laws, rules — institutional)\n- {改良|かいりょう}: improvement (products, materials, breeds — concrete/physical)",
+  "notes": "{改良|かいりょう} means making something better through concrete, incremental modifications. It emphasizes practical, tangible improvements rather than abstract or systemic change.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive) as ⟦する→する：00392_suru⟧ verb\n- 〜⟦を→を：00422_wo⟧{改良|かいりょう}⟦する→する：00392_suru⟧ (to improve ~)\n\nCOMMON COLLOCATIONS:\n- ⟦{品種|ひんしゅ}→品種：11840_hinshu⟧{改良|かいりょう} (breed improvement)\n- ⟦{土壌|どじょう}→土壌：12040_dojou⟧{改良|かいりょう} (soil improvement)\n- {改良|かいりょう}{版|ばん} (improved version)\n- {改良|かいりょう}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to add improvements)\n- {改良|かいりょう}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧ (to make repeated improvements)\n\nSIMILAR WORDS:\n- ⟦{改善|かいぜん}→改善：00144_kaizen⟧: improvement (systems, processes, conditions — often abstract)\n- ⟦{改造|かいぞう}→改造：00145_kaizou⟧: remodeling, modification (large structural changes)\n- ⟦{改正|かいせい}→改正：00446_kaisei⟧: revision (laws, rules — institutional)\n- {改良|かいりょう}: improvement (products, materials, breeds — concrete/physical)",
   "cross_references": [
     {
       "type": "related",
       "reading": "かいぜん",
       "target_id": "00144_kaizen",
       "headword": "{改善|かいぜん}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00145_kaizou",
+      "reading": "かいぞう",
+      "headword": "{改造|かいぞう}",
+      "label": "remodeling, modification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00446_kaisei",
+      "reading": "かいせい",
+      "headword": "{改正|かいせい}",
+      "label": "revision (laws, rules"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21717_kaihen",
+      "reading": "かいへん",
+      "headword": "{改変|かいへん}",
+      "label": "alteration"
     }
   ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

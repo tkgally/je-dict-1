@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "21182_kaitendoa_ex1",
-      "japanese": "ホテルの{入|い}り{口|ぐち}に{回転|かいてん}ドアがある。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧⟦{入|い}り{口|ぐち}→入り口：02507_iriguchi⟧⟦に→に：00314_ni⟧{回転|かいてん}ドア⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a revolving door at the hotel entrance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21182_kaitendoa_ex2",
-      "japanese": "{子供|こども}が{回転|かいてん}ドアに{挟|はさ}まれないように{注意|ちゅうい}した。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{回転|かいてん}ドア⟦に→に：00314_ni⟧⟦{挟|はさ}まれない→挟む：00091_hasamu⟧よう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦した→する：00392_suru⟧。",
       "english": "I was careful so the child wouldn't get caught in the revolving door.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21182_kaitendoa_ex3",
-      "japanese": "この{会社|かいしゃ}は{離職率|りしょくりつ}が{高|たか}く、まるで{回転|かいてん}ドアのように{人|ひと}が{入|はい}れ{替|か}わる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{離職率|りしょくりつ}⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧、⟦まるで→まるで：03739_marude⟧{回転|かいてん}ドア⟦のように→のように：30291_noyouni⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{入|はい}れ{替|か}わる。",
       "english": "This company has a high turnover rate — people cycle through like a revolving door.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{回転|かいてん} means 'rotation' or 'revolving,' and ドア is the loanword for 'door.' {回転|かいてん}ドア refers to the rotating entrance doors found in large buildings. Like in English, the term is also used metaphorically to describe rapid turnover of people in organizations or positions.\n\nCOMMON COLLOCATIONS:\n- {回転|かいてん}ドアを{通|とお}る (to go through a revolving door)\n- {回転|かいてん}ドア{式|しき} (revolving-door style)\n- {回転|かいてん}ドアの{入|い}り{口|ぐち} (revolving door entrance)\n\nSIMILAR WORDS:\n- {自動|じどう}ドア — automatic door (slides open automatically; much more common in Japan)\n- {引|ひ}き{戸|ど} — sliding door (traditional Japanese-style door)",
-  "cross_references": [],
+  "notes": "⟦{回転|かいてん}→回転：00141_kaiten⟧ means 'rotation' or 'revolving,' and ⟦ドア→ドア：00773_doa⟧ is the loanword for 'door.' {回転|かいてん}ドア refers to the rotating entrance doors found in large buildings. Like in English, the term is also used metaphorically to describe rapid turnover of people in organizations or positions.\n\nCOMMON COLLOCATIONS:\n- {回転|かいてん}ドア⟦を→を：00422_wo⟧⟦{通|とお}る→通る：01243_tooru⟧ (to go through a revolving door)\n- {回転|かいてん}ドア{式|しき} (revolving-door style)\n- {回転|かいてん}ドア⟦の→の：09472_no⟧⟦{入|い}り{口|ぐち}→入り口：02507_iriguchi⟧ (revolving door entrance)\n\nSIMILAR WORDS:\n- ⟦{自動|じどう}ドア→自動ドア：09748_jidoudoa⟧ — automatic door (slides open automatically; much more common in Japan)\n- ⟦{引|ひ}き{戸|ど}→引き戸：27509_hikido⟧ — sliding door (traditional Japanese-style door)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09748_jidoudoa",
+      "reading": "じどうどあ",
+      "headword": "{自動|じどう}ドア",
+      "label": "automatic door (slides open…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27509_hikido",
+      "reading": "ひきど",
+      "headword": "{引|ひ}き{戸|ど}",
+      "label": "sliding door"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:18:17Z",
-    "modified": "2026-03-31T22:18:17Z",
+    "modified": "2026-09-02T04:02:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     }
   }
 }

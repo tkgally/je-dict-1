@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30740_jiten_ex1",
-      "japanese": "{今回|こんかい}は{次点|じてん}に{終|お}わった。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦は→は：00079_ha⟧{次点|じてん}⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "This time I ended up as the runner-up.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30740_jiten_ex2",
-      "japanese": "{当選者|とうせんしゃ}が{辞退|じたい}したため、{次点|じてん}の{候補|こうほ}が{繰|く}り{上|あ}がった。",
+      "japanese": "⟦{当選者|とうせんしゃ}→当選者：26293_tousensha⟧⟦が→が：00051_ga⟧⟦{辞退|じたい}した→辞退する：18992_jitaisuru⟧⟦ため→ため：01145_tame⟧、{次点|じてん}⟦の→の：09472_no⟧⟦{候補|こうほ}→候補：02804_kouho⟧⟦が→が：00051_ga⟧{繰|く}り{上|あ}がった。",
       "english": "Because the winner declined, the runner-up candidate moved up.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30740_jiten_ex3",
-      "japanese": "{応募作|おうぼさく}のレベルが{高|たか}く、{次点|じてん}となった{作品|さくひん}も{雑誌|ざっし}に{掲載|けいさい}されることになった。",
+      "japanese": "{応募作|おうぼさく}⟦の→の：09472_no⟧⟦レベル→レベル：00352_reberu⟧⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧、{次点|じてん}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦も→も：00484_mo⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦に→に：00314_ni⟧⟦{掲載|けいさい}される→掲載する：19217_keisaisuru⟧ことになった。",
       "english": "The standard of the entries was high, so the runner-up work was also published in the magazine.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{次|じ} (next) + {点|てん} (points, score) — literally the next score down.\n\nCOMMON COLLOCATIONS:\n- {次点|じてん}に{終|お}わる: to end up runner-up\n- {次点|じてん}{候補|こうほ}: the runner-up candidate\n- {次点|じてん}{繰|く}り{上|あ}げ{当選|とうせん}: winning a seat as runner-up after the winner withdraws\n\nSIMILAR WORDS:\n- {準優勝|じゅんゆうしょう}: second place in a tournament — the standard sports term\n- 2{位|い}: second place — plain ranking, with no sense of \"just missed it\"\n\n{次点|じてん} carries the flavor of having narrowly missed selection, so it is at home in elections, contests, and award judging rather than in sports standings.",
+  "notes": "{次|じ} (next) + ⟦{点|てん}→点：01553_ten⟧ (points, score) — literally the next score down.\n\nCOMMON COLLOCATIONS:\n- {次点|じてん}⟦に→に：00314_ni⟧{終|お}わる: to end up runner-up\n- {次点|じてん}⟦{候補|こうほ}→候補：02804_kouho⟧: the runner-up candidate\n- {次点|じてん}⟦{繰|く}り{上|あ}げ→繰り上げる：07007_kuriageru⟧⟦{当選|とうせん}→当選：07074_tousen⟧: winning a seat as runner-up after the winner withdraws\n\nSIMILAR WORDS:\n- ⟦{準優勝|じゅんゆうしょう}→準優勝：04910_junyuushou⟧: second place in a tournament — the standard sports term\n- 2⟦{位|い}→〜位：00443_i⟧: second place — plain ranking, with no sense of \"just missed it\"\n\n{次点|じてん} carries the flavor of having narrowly missed selection, so it is at home in elections, contests, and award judging rather than in sports standings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04910_junyuushou",
+      "reading": "じゅんゆうしょう",
+      "headword": "{準優勝|じゅんゆうしょう}",
+      "label": "second place in a tournament"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "evaluation"
       ],
       "domain": []
     },
     "created": "2026-08-25T12:29:46Z",
-    "modified": "2026-08-25T12:29:46Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

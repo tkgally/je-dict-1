@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "10751_akademii_ex1",
-      "japanese": "アカデミー{賞|しょう}を{受賞|じゅしょう}した。",
+      "japanese": "アカデミー{賞|しょう}⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦した→する：00392_suru⟧。",
       "english": "They won an Academy Award.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10751_akademii_ex2",
-      "japanese": "サッカーのアカデミーに{通|かよ}っている。",
+      "japanese": "⟦サッカー→サッカー：04726_sakkaa⟧⟦の→の：09472_no⟧アカデミー⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I attend a soccer academy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10751_akademii_ex3",
-      "japanese": "このアカデミーでは{若|わか}い{人材|じんざい}の{育成|いくせい}に{力|ちから}を{入|い}れている。",
+      "japanese": "⟦この→この：00962_kono⟧アカデミー⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{若|わか}い⟦{人材|じんざい}→人材：11426_jinzai⟧⟦の→の：09472_no⟧⟦{育成|いくせい}→育成：13928_ikusei⟧⟦に→に：00314_ni⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れている→入れる：01098_ireru⟧。",
       "english": "This academy focuses on developing young talent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "アカデミー is a loanword from English \"academy.\" In Japanese, it has two main uses: referring to the Academy Awards (Oscars), and as a name for training schools or institutions.\n\nCOMMON COLLOCATIONS:\n- アカデミー{賞|しょう}: Academy Award (Oscar)\n- アカデミー{会員|かいいん}: academy member\n- 〜アカデミー: used in school/institution names\n\nUSAGE:\nFor the academic meaning of \"academy\" (a scholarly society), {学会|がっかい} or {学士院|がくしいん} is more common in formal contexts. アカデミー tends to be used for private schools, sports training programs, and the film awards.\n\nRELATED:\n- アカデミック: academic (adjective, often used for academic style or tone)\n- {学校|がっこう}: school (general term)\n- {塾|じゅく}: cram school, private tutoring school",
+  "notes": "アカデミー is a loanword from English \"academy.\" In Japanese, it has two main uses: referring to the Academy Awards (Oscars), and as a name for training schools or institutions.\n\nCOMMON COLLOCATIONS:\n- アカデミー{賞|しょう}: Academy Award (Oscar)\n- アカデミー⟦{会員|かいいん}→会員：02535_kaiin⟧: academy member\n- 〜アカデミー: used in school/institution names\n\nUSAGE:\nFor the academic meaning of \"academy\" (a scholarly society), ⟦{学会|がっかい}→学会：04139_gakkai⟧ or {学士院|がくしいん} is more common in formal contexts. アカデミー tends to be used for private schools, sports training programs, and the film awards.\n\nRELATED WORDS:\n- アカデミック: academic (adjective, often used for academic style or tone)\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧: school (general term)\n- ⟦{塾|じゅく}→塾：04702_juku⟧: cram school, private tutoring school",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00055_gakkou",
+      "reading": "がっこう",
+      "headword": "{学校|がっこう}",
+      "label": "school"
+    },
+    {
+      "type": "related",
+      "target_id": "04702_juku",
+      "reading": "じゅく",
+      "headword": "{塾|じゅく}",
+      "label": "cram school, private tutoring school"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T16:03:24Z",
-    "modified": "2026-03-29T07:57:19Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

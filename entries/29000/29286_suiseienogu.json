@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29286_suiseienogu_ex1",
-      "japanese": "{水性|すいせい}{絵具|えのぐ}で{絵|え}を{描|か}く。",
+      "japanese": "{水性|すいせい}{絵具|えのぐ}⟦で→で：00502_de⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧。",
       "english": "Paint a picture with water-based paint.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29286_suiseienogu_ex2",
-      "japanese": "{子供|こども}には{水性|すいせい}{絵具|えのぐ}のほうが{安全|あんぜん}だ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{水性|すいせい}{絵具|えのぐ}⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{安全|あんぜん}→安全：01131_anzen⟧だ。",
       "english": "Water-based paint is safer for children.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29286_suiseienogu_ex3",
-      "japanese": "{水性|すいせい}{絵具|えのぐ}は{乾|かわ}くのが{速|はや}く、{筆|ふで}を{水|みず}で{洗|あら}うだけで{片付|かたづ}けられる。",
+      "japanese": "{水性|すいせい}{絵具|えのぐ}⟦は→は：00079_ha⟧⟦{乾|かわ}く→乾く：00786_kawaku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{速|はや}く→速い：00514_hayai⟧、⟦{筆|ふで}→筆：03601_fude⟧⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧⟦{洗|あら}う→洗う：00827_arau⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{片付|かたづ}けられる→片付ける：01192_katazukeru⟧。",
       "english": "Water-based paint dries quickly, and you can clean up just by washing the brushes with water.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {水性|すいせい} (water-based) + {絵具|えのぐ} (paint, pigment). Common in schools and for hobby use because it is easy to handle and clean up.\n\nCOMMON COLLOCATIONS:\n- {水性|すいせい}{絵具|えのぐ}で{描|か}く: to paint with water-based paint\n- {水性|すいせい}{絵具|えのぐ}を{溶|と}く: to thin water-based paint (with water)\n\nSIMILAR WORDS:\n- {油性|ゆせい}{絵具|えのぐ}: oil paint — uses oil as solvent, slower to dry, harder to clean up\n- {水彩|すいさい}{絵具|えのぐ}: watercolor paint — a specific type of water-based paint for transparent washes",
+  "notes": "Composed of {水性|すいせい} (water-based) + {絵具|えのぐ} (paint, pigment). Common in schools and for hobby use because it is easy to handle and clean up.\n\nCOMMON COLLOCATIONS:\n- {水性|すいせい}{絵具|えのぐ}⟦で→で：00502_de⟧⟦{描|か}く→描く：28436_kaku⟧: to paint with water-based paint\n- {水性|すいせい}{絵具|えのぐ}⟦を→を：00422_wo⟧⟦{溶|と}く→溶く：26556_toku⟧: to thin water-based paint (with water)\n\nSIMILAR WORDS:\n- ⟦{油性|ゆせい}{絵具|えのぐ}→油性絵具：29284_yuseienogu⟧: oil paint — uses oil as solvent, slower to dry, harder to clean up\n- ⟦{水彩|すいさい}{絵具|えのぐ}→水彩絵具：25640_suisaienogu⟧: watercolor paint — a specific type of water-based paint for transparent washes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29284_yuseienogu",
+      "reading": "ゆせいえのぐ",
+      "headword": "{油性絵具|ゆせいえのぐ}",
+      "label": "oil paint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25640_suisaienogu",
+      "reading": "すいさいえのぐ",
+      "headword": "{水彩絵具|すいさいえのぐ}",
+      "label": "watercolor paint"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "art"
       ],
       "domain": []
     },
     "created": "2026-06-16T15:19:08Z",
-    "modified": "2026-06-16T15:30:44Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

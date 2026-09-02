@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18226_tatenaga_ex1",
-      "japanese": "{縦長|たてなが}の{窓|まど}から{光|ひかり}が{差|さ}し{込|こ}んだ。",
+      "japanese": "{縦長|たてなが}⟦の→の：09472_no⟧⟦{窓|まど}→窓：02254_mado⟧⟦から→から：00504_kara⟧⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦{差|さ}し{込|こ}んだ→差し込む：04235_sashikomu⟧。",
       "english": "Light streamed in through the tall, narrow window.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18226_tatenaga_ex2",
-      "japanese": "スマートフォンの{画面|がめん}は{縦長|たてなが}に{設計|せっけい}されている。",
+      "japanese": "⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦の→の：09472_no⟧⟦{画面|がめん}→画面：04406_gamen⟧⟦は→は：00079_ha⟧{縦長|たてなが}⟦に→に：00314_ni⟧⟦{設計|せっけい}→設計：03300_sekkei⟧⟦されている→する：00392_suru⟧。",
       "english": "Smartphone screens are designed in a portrait orientation.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18226_tatenaga_ex3",
-      "japanese": "{縦長|たてなが}の{部屋|へや}なので{家具|かぐ}の{配置|はいち}が{難|むずか}しい。",
+      "japanese": "{縦長|たてなが}⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧な⟦の→の：09472_no⟧で⟦{家具|かぐ}→家具：12314_kagu⟧⟦の→の：09472_no⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Because the room is long and narrow, it's difficult to arrange the furniture.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA な-adjective and の-adjective. A compound of {縦|たて} (vertical) and {長|なが}い (long). Very common in descriptions of room layouts, screen dimensions, product shapes, and image orientations.\n\nCOMMON COLLOCATIONS:\n- {縦長|たてなが}の{画面|がめん} (portrait-oriented screen)\n- {縦長|たてなが}の{部屋|へや} (a long, narrow room)\n- {縦長|たてなが}の{建物|たてもの} (a tall, narrow building)\n- {縦長|たてなが}に{表示|ひょうじ}する (to display in portrait mode)\n\nSIMILAR WORDS:\n- {横長|よこなが}: horizontally long — the opposite; landscape-oriented or wider than it is tall\n- {細長|ほそなが}い: long and thin — emphasizes thinness rather than vertical orientation",
+  "notes": "USAGE:\nA な-adjective and ⟦の→の：09472_no⟧-adjective. A compound of ⟦{縦|たて}→縦：17236_tate⟧ (vertical) and ⟦{長|なが}い→長い：00491_nagai⟧ (long). Very common in descriptions of room layouts, screen dimensions, product shapes, and image orientations.\n\nCOMMON COLLOCATIONS:\n- {縦長|たてなが}⟦の→の：09472_no⟧⟦{画面|がめん}→画面：04406_gamen⟧ (portrait-oriented screen)\n- {縦長|たてなが}⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧ (a long, narrow room)\n- {縦長|たてなが}⟦の→の：09472_no⟧⟦{建物|たてもの}→建物：01458_tatemono⟧ (a tall, narrow building)\n- {縦長|たてなが}⟦に→に：00314_ni⟧⟦{表示|ひょうじ}する→表示する：26973_hyoujisuru⟧ (to display in portrait mode)\n\nSIMILAR WORDS:\n- ⟦{横長|よこなが}→横長：20511_yokonaga⟧: horizontally long — the opposite; landscape-oriented or wider than it is tall\n- ⟦{細長|ほそなが}い→細長い：06670_hosonagai⟧: long and thin — emphasizes thinness rather than vertical orientation",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "よこなが",
       "headword": "{横長|よこなが}",
       "label": "horizontally long"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06670_hosonagai",
+      "reading": "ほそながい",
+      "headword": "{細長|ほそなが}い",
+      "label": "long and thin"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:23:43Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

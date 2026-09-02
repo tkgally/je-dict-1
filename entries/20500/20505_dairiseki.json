@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "20505_dairiseki_ex1",
-      "japanese": "{大理石|だいりせき}の{床|ゆか}が{美|うつく}しい。",
+      "japanese": "{大理石|だいりせき}⟦の→の：09472_no⟧⟦{床|ゆか}→床：03652_yuka⟧⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The marble floor is beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20505_dairiseki_ex2",
-      "japanese": "ホテルのロビーに{大理石|だいりせき}の{柱|はしら}がある。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧⟦ロビー→ロビー：26995_robii⟧⟦に→に：00314_ni⟧{大理石|だいりせき}⟦の→の：09472_no⟧⟦{柱|はしら}→柱：05009_hashira⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are marble pillars in the hotel lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20505_dairiseki_ex3",
-      "japanese": "このキッチンカウンターは{天然|てんねん}の{大理石|だいりせき}で{作|つく}られていて、{高級感|こうきゅうかん}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦キッチン→キッチン：10815_kicchin⟧⟦カウンター→カウンター：10816_kauntaa⟧⟦は→は：00079_ha⟧⟦{天然|てんねん}→天然：03560_tennen⟧⟦の→の：09472_no⟧{大理石|だいりせき}⟦で→で：00502_de⟧⟦{作|つく}られていて→作る：00481_tsukuru⟧、{高級感|こうきゅうかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This kitchen counter is made of natural marble and has an upscale feel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A metamorphic rock prized for its beauty and used in architecture and sculpture. The name comes from {大理|だいり}, the ancient name of Dali in China's Yunnan province, which was famous for its marble, plus {石|せき} (stone).\n\nCOMMON COLLOCATIONS:\n- {大理石|だいりせき}の{床|ゆか}: marble floor\n- {大理石|だいりせき}の{柱|はしら}: marble pillar\n- {大理石|だいりせき}{調|ちょう}: marble-patterned; faux marble\n- {天然|てんねん}{大理石|だいりせき}: natural marble\n- {人工|じんこう}{大理石|だいりせき}: artificial marble\n\nSIMILAR WORDS:\n- {御影石|みかげいし}: granite — another popular stone used in construction and monuments\n- {石材|せきざい}: stone material — a general term for building stone\n\nNOTE:\nIn modern Japanese, {大理石|だいりせき}{調|ちょう} (marble-look/faux marble) is commonly used for affordable imitation marble products in interior design.",
+  "notes": "A metamorphic rock prized for its beauty and used in architecture and sculpture. The name comes from {大理|だいり}, the ancient name of Dali in China's Yunnan province, which was famous for its marble, plus {石|せき} (stone).\n\nCOMMON COLLOCATIONS:\n- {大理石|だいりせき}⟦の→の：09472_no⟧⟦{床|ゆか}→床：03652_yuka⟧: marble floor\n- {大理石|だいりせき}⟦の→の：09472_no⟧⟦{柱|はしら}→柱：05009_hashira⟧: marble pillar\n- {大理石|だいりせき}{調|ちょう}: marble-patterned; faux marble\n- ⟦{天然|てんねん}→天然：03560_tennen⟧{大理石|だいりせき}: natural marble\n- ⟦{人工|じんこう}→人工：11573_jinkou⟧{大理石|だいりせき}: artificial marble\n\nSIMILAR WORDS:\n- ⟦{御影石|みかげいし}→御影石：29109_mikageishi⟧: granite — another popular stone used in construction and monuments\n- ⟦{石材|せきざい}→石材：24308_sekizai⟧: stone material — a general term for building stone\n\nUSAGE:\nIn modern Japanese, {大理石|だいりせき}{調|ちょう} (marble-look/faux marble) is commonly used for affordable imitation marble products in interior design.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29109_mikageishi",
+      "reading": "みかげいし",
+      "headword": "{御影石|みかげいし}",
+      "label": "granite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24308_sekizai",
+      "reading": "せきざい",
+      "headword": "{石材|せきざい}",
+      "label": "stone material"
+    },
+    {
+      "type": "related",
+      "target_id": "23396_sekkaigan",
+      "reading": "せっかいがん",
+      "headword": "{石灰岩|せっかいがん}",
+      "label": "limestone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["material"]
+      "semantic": [
+        "material"
+      ]
     },
     "created": "2026-03-29T16:20:56Z",
-    "modified": "2026-03-29T16:20:56Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

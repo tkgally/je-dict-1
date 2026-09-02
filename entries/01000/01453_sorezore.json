@@ -63,11 +63,54 @@
       ]
     }
   ],
-  "notes": "それぞれ means \"each\" or \"respectively,\" referring to individual members of a group.\n\nGRAMMAR:\n- それぞれ⟦の→の：09472_no⟧ + noun: each (noun)\n- それぞれ + verb: each (does something)\n- Can function as noun or adverb\n\nCOMMON PATTERNS:\n- それぞれ⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧: each country\n- それぞれ⟦{違|ちが}う→違う：01957_chigau⟧: each different\n- それぞれ⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧: each person's opinion\n- それぞれ⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{行|い}く→行く：00119_iku⟧: to go one's separate ways\n\nSIMILAR WORDS:\n- ⟦{各|かく}→各〜：00449_kaku⟧: each (more formal, used with counters)\n- ⟦{個々|ここ}→個々：11619_koko⟧: individual, each one\n- ⟦めいめい→銘々：03976_meimei⟧: each (older expression)",
-  "cross_references": [],
+  "notes": "それぞれ means \"each\" or \"respectively,\" referring to individual members of a group.\n\nCOMMON PATTERNS:\n- それぞれ⟦の→の：09472_no⟧ + noun: each (noun)\n- それぞれ + verb: each (does something)\n- Can function as noun or adverb\n- それぞれ⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧: each country\n- それぞれ⟦{違|ちが}う→違う：01957_chigau⟧: each different\n- それぞれ⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧: each person's opinion\n- それぞれ⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{行|い}く→行く：00119_iku⟧: to go one's separate ways\n\nSIMILAR WORDS:\n- ⟦{各|かく}→各〜：00449_kaku⟧: each (more formal, used with counters)\n- ⟦{個々|ここ}→個々：11619_koko⟧: individual, each one\n- ⟦めいめい→銘々：03976_meimei⟧: each (older expression)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00449_kaku",
+      "reading": "かく",
+      "headword": "{各|かく}〜",
+      "label": "each"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11619_koko",
+      "reading": "ここ",
+      "headword": "{個々|ここ}",
+      "label": "individual, each one"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03976_meimei",
+      "reading": "めいめい",
+      "headword": "{銘々|めいめい}",
+      "label": "each"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00157_kakuji",
+      "reading": "かくじ",
+      "headword": "{各自|かくじ}",
+      "label": "each person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03711_hitorihitori",
+      "reading": "ひとりひとり",
+      "headword": "{一人一人|ひとりひとり}",
+      "label": "each person, one by one"
+    },
+    {
+      "type": "related",
+      "target_id": "22844_sorera",
+      "reading": "それら",
+      "headword": "それら",
+      "label": "those"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:42:28Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

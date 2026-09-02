@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "27160_mejika_ex1",
-      "japanese": "{雌鹿|めじか}が{草|くさ}を{食|た}べている。",
+      "japanese": "{雌鹿|めじか}⟦が→が：00051_ga⟧⟦{草|くさ}→草：02206_kusa⟧⟦を→を：00422_wo⟧⟦{食|た}べている→食べる：00396_taberu⟧。",
       "english": "A doe is eating grass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27160_mejika_ex2",
-      "japanese": "{雌鹿|めじか}は{角|つの}が{生|は}えない。",
+      "japanese": "{雌鹿|めじか}⟦は→は：00079_ha⟧⟦{角|つの}→角：02158_tsuno⟧⟦が→が：00051_ga⟧⟦{生|は}えない→生える：02392_haeru⟧。",
       "english": "Female deer do not grow antlers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27160_mejika_ex3",
-      "japanese": "{雌鹿|めじか}が{子鹿|こじか}を{連|つ}れて{川|かわ}の{近|ちか}くを{歩|ある}いていた。",
+      "japanese": "{雌鹿|めじか}⟦が→が：00051_ga⟧{子鹿|こじか}⟦を→を：00422_wo⟧⟦{連|つ}れて→連れる：01240_tsureru⟧⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧{近|ちか}く⟦を→を：00422_wo⟧⟦{歩|ある}いていた→歩く：00538_aruku⟧。",
       "english": "A doe was walking near the river with her fawn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {雌|め} (female) and {鹿|しか} (deer). Also written as {牝鹿|めじか}. The {鹿|しか} becomes じか through rendaku (sequential voicing). Part of a common pair with {雄鹿|おじか} (male deer, stag).\n\nCOMMON COLLOCATIONS:\n- {雌鹿|めじか}と{子鹿|こじか} — a doe and her fawn\n- {雄鹿|おじか}と{雌鹿|めじか} — stag and doe\n\nRELATED WORDS:\n- {雄鹿|おじか} — male deer, stag, buck\n- {鹿|しか} — deer (general)\n- {子鹿|こじか} — fawn, young deer\n\nCULTURAL NOTE:\nIn classical Japanese poetry ({和歌|わか}), the {鹿|しか} crying in autumn is a well-known seasonal image. The male deer's call for a mate is a symbol of longing and loneliness.",
+  "notes": "Composed of {雌|め} (female) and ⟦{鹿|しか}→鹿：04347_shika⟧ (deer). Also written as {牝鹿|めじか}. The ⟦{鹿|しか}→鹿：04347_shika⟧ becomes じか through rendaku (sequential voicing). Part of a common pair with ⟦{雄鹿|おじか}→雄鹿：27159_ojika⟧ (male deer, stag).\n\nCOMMON COLLOCATIONS:\n- {雌鹿|めじか}⟦と→と：00512_to⟧{子鹿|こじか} — a doe and her fawn\n- ⟦{雄鹿|おじか}→雄鹿：27159_ojika⟧⟦と→と：00512_to⟧{雌鹿|めじか} — stag and doe\n\nRELATED WORDS:\n- ⟦{雄鹿|おじか}→雄鹿：27159_ojika⟧ — male deer, stag, buck\n- ⟦{鹿|しか}→鹿：04347_shika⟧ — deer (general)\n- {子鹿|こじか} — fawn, young deer\n\nCULTURAL NOTE:\nIn classical Japanese poetry (⟦{和歌|わか}→和歌：05230_waka⟧), the ⟦{鹿|しか}→鹿：04347_shika⟧ crying in autumn is a well-known seasonal image. The male deer's call for a mate is a symbol of longing and loneliness.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27159_ojika",
+      "reading": "おじか",
+      "headword": "{雄鹿|おじか}",
+      "label": "male deer, stag, buck"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-mammal"]
+      "semantic": [
+        "animal-mammal"
+      ]
     },
     "created": "2026-05-07T13:16:40Z",
-    "modified": "2026-05-07T13:16:40Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

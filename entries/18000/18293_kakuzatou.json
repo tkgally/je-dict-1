@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18293_kakuzatou_ex1",
-      "japanese": "コーヒーに{角砂糖|かくざとう}を{入|い}れる。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦に→に：00314_ni⟧{角砂糖|かくざとう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "I put a sugar cube in my coffee.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18293_kakuzatou_ex2",
-      "japanese": "{角砂糖|かくざとう}は{何個|なんこ}{入|い}れますか。",
+      "japanese": "{角砂糖|かくざとう}⟦は→は：00079_ha⟧⟦{何個|なんこ}→何個：26687_nanko⟧⟦{入|い}れます→入れる：01098_ireru⟧⟦か→か：09473_ka⟧。",
       "english": "How many sugar cubes would you like?",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18293_kakuzatou_ex3",
-      "japanese": "ジュース{一本|いっぽん}に{角砂糖|かくざとう}{十個分|じゅっこぶん}の{砂糖|さとう}が{入|はい}っていると{聞|き}いて{驚|おどろ}いた。",
+      "japanese": "⟦ジュース→ジュース：01033_juusu⟧⟦{一本|いっぽん}→一本：08888_ippon⟧⟦に→に：00314_ni⟧{角砂糖|かくざとう}{十個分|じゅっこぶん}⟦の→の：09472_no⟧⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧⟦と→と：00512_to⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "I was surprised to hear that one bottle of juice contains the equivalent of ten sugar cubes of sugar.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {角|かく} (square, cube) + {砂糖|さとう} (sugar). Sugar cubes are often used as a unit of measurement to illustrate how much sugar is in food and drinks. Counted with {個|こ}.\n\nCOMMON COLLOCATIONS:\n- {角砂糖|かくざとう}を{入|い}れる (to add a sugar cube)\n- {角砂糖|かくざとう}～{個分|こぶん} (equivalent to ~ sugar cubes)\n\nSIMILAR WORDS:\n- {黒砂糖|くろざとう}: brown sugar — unrefined sugar with a dark color\n- {白砂糖|しろざとう}: white sugar — standard refined granulated sugar\n- グラニュー{糖|とう}: granulated sugar — fine white sugar for baking",
+  "notes": "USAGE:\nA compound of {角|かく} (square, cube) + ⟦{砂糖|さとう}→砂糖：00884_satou⟧ (sugar). Sugar cubes are often used as a unit of measurement to illustrate how much sugar is in food and drinks. Counted with ⟦{個|こ}→〜個：00645_ko⟧.\n\nCOMMON COLLOCATIONS:\n- {角砂糖|かくざとう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to add a sugar cube)\n- {角砂糖|かくざとう}～{個分|こぶん} (equivalent to ~ sugar cubes)\n\nSIMILAR WORDS:\n- ⟦{黒砂糖|くろざとう}→黒砂糖：18292_kurozatou⟧: brown sugar — unrefined sugar with a dark color\n- ⟦{白砂糖|しろざとう}→白砂糖：26404_shirozatou⟧: white sugar — standard refined granulated sugar\n- ⟦グラニュー{糖|とう}→グラニュー糖：23996_guranyuutou⟧: granulated sugar — fine white sugar for baking",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "くろざとう",
       "headword": "{黒砂糖|くろざとう}",
       "label": "brown sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26404_shirozatou",
+      "reading": "しろざとう",
+      "headword": "{白砂糖|しろざとう}",
+      "label": "white sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23996_guranyuutou",
+      "reading": "ぐらにゅーとう",
+      "headword": "グラニュー{糖|とう}",
+      "label": "granulated sugar"
     }
   ],
   "metadata": {
     "created": "2026-03-21T01:18:35Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

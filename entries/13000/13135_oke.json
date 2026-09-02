@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13135_oke_ex1",
-      "japanese": "{風呂|ふろ}{桶|おけ}でお{湯|ゆ}をかけた。",
+      "japanese": "{風呂|ふろ}{桶|おけ}⟦で→で：00502_de⟧⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I poured hot water with a bath bucket.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13135_oke_ex2",
-      "japanese": "{木|き}の{桶|おけ}に{水|みず}を{入|い}れて{花|はな}を{生|い}けた。",
+      "japanese": "⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{桶|おけ}⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{生|い}けた→生ける：10667_ikeru⟧。",
       "english": "I put water in a wooden tub and arranged flowers in it.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13135_oke_ex3",
-      "japanese": "{昔|むかし}はこの{地域|ちいき}の{職人|しょくにん}が{手作|てづく}りの{桶|おけ}を{作|つく}っていた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦が→が：00051_ga⟧⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦の→の：09472_no⟧{桶|おけ}⟦を→を：00422_wo⟧⟦{作|つく}っていた→作る：00481_tsukuru⟧。",
       "english": "In the old days, craftsmen in this area used to make handcrafted wooden buckets.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nTraditionally refers to wooden containers made by coopers ({桶屋|おけや}). In modern everyday life, most commonly encountered as {風呂|ふろ}{桶|おけ} (bath bucket used for scooping water in Japanese-style bathing). Also appears in the well-known proverb {風|かぜ}が{吹|ふ}けば{桶屋|おけや}が{儲|もう}かる (when the wind blows, the bucket-maker profits — a chain of unlikely cause and effect).\n\nCOMMON COLLOCATIONS:\n- {風呂|ふろ}{桶|おけ}: bath bucket\n- {木|き}{桶|おけ}: wooden bucket\n- {桶屋|おけや}: bucket-maker, cooper\n- {寿司|すし}{桶|おけ}: sushi serving tub\n\nSIMILAR WORDS:\n- バケツ: bucket (Western-style, usually metal or plastic, with a handle)",
-  "cross_references": [],
+  "notes": "USAGE:\nTraditionally refers to wooden containers made by coopers ({桶屋|おけや}). In modern everyday life, most commonly encountered as {風呂|ふろ}{桶|おけ} (bath bucket used for scooping water in Japanese-style bathing). Also appears in the well-known proverb ⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{吹|ふ}けば→吹く：02445_fuku⟧{桶屋|おけや}⟦が→が：00051_ga⟧{儲|もう}かる (when the wind blows, the bucket-maker profits — a chain of unlikely cause and effect).\n\nCOMMON COLLOCATIONS:\n- {風呂|ふろ}{桶|おけ}: bath bucket\n- {木|き}{桶|おけ}: wooden bucket\n- {桶屋|おけや}: bucket-maker, cooper\n- ⟦{寿司|すし}{桶|おけ}→寿司桶：08131_sushioke⟧: sushi serving tub\n\nSIMILAR WORDS:\n- ⟦バケツ→バケツ：11118_baketsu⟧: bucket (Western-style, usually metal or plastic, with a handle)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11118_baketsu",
+      "reading": "ばけつ",
+      "headword": "バケツ",
+      "label": "bucket"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:44:15Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

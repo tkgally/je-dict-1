@@ -5,21 +5,46 @@
   "reading": "りんどう",
   "part_of_speech": "noun",
   "gloss": "forest road; logging road; woodland path",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12406_yamamichi",
+      "reading": "やまみち",
+      "headword": "{山道|やまみち}",
+      "label": "mountain path"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23484_yuuhodou",
+      "reading": "ゆうほどう",
+      "headword": "{遊歩道|ゆうほどう}",
+      "label": "promenade, walking trail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20286_noudou",
+      "reading": "のうどう",
+      "headword": "{農道|のうどう}",
+      "label": "farm road"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "geography"
       ]
     },
     "created": "2026-04-03T21:29:37Z",
-    "modified": "2026-04-03T21:29:37Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "Refers to roads through forests, originally built for forestry management and timber transport. In modern usage, also associated with hiking, trail running, and mountain biking. Many {林道|りんどう} in Japan are maintained by the Forestry Agency and are popular for outdoor recreation.\n\nCOMMON COLLOCATIONS:\n- {林道|りんどう}を{歩|ある}く: to walk along a forest road\n- {林道|りんどう}を{走|はし}る: to run/drive along a forest road\n- {林道|りんどう}が{崩|くず}れる: for a forest road to collapse\n- {林道|りんどう}{整備|せいび}: forest road maintenance\n- {未舗装|みほそう}の{林道|りんどう}: unpaved forest road\n\nSIMILAR WORDS:\n- {山道|やまみち}: mountain path — a broader term for any path in the mountains\n- {遊歩道|ゆうほどう}: promenade, walking trail — a maintained path designed for leisure walking\n- {農道|のうどう}: farm road — a road through agricultural land\n\nETYMOLOGY:\nComposed of {林|りん} (forest, woods) + {道|どう} (road, path).",
+  "notes": "Refers to roads through forests, originally built for forestry management and timber transport. In modern usage, also associated with hiking, trail running, and mountain biking. Many {林道|りんどう} in Japan are maintained by the Forestry Agency and are popular for outdoor recreation.\n\nCOMMON COLLOCATIONS:\n- {林道|りんどう}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk along a forest road\n- {林道|りんどう}⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧: to run/drive along a forest road\n- {林道|りんどう}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧: for a forest road to collapse\n- {林道|りんどう}⟦{整備|せいび}→整備：04037_seibi⟧: forest road maintenance\n- ⟦{未舗装|みほそう}→未舗装：17492_mihosou⟧⟦の→の：09472_no⟧{林道|りんどう}: unpaved forest road\n\nSIMILAR WORDS:\n- ⟦{山道|やまみち}→山道：12406_yamamichi⟧: mountain path — a broader term for any path in the mountains\n- ⟦{遊歩道|ゆうほどう}→遊歩道：23484_yuuhodou⟧: promenade, walking trail — a maintained path designed for leisure walking\n- ⟦{農道|のうどう}→農道：20286_noudou⟧: farm road — a road through agricultural land\n\nETYMOLOGY:\nComposed of {林|りん} (forest, woods) + {道|どう} (road, path).",
   "definitions": [
     {
       "sense_number": 1,
@@ -30,7 +55,7 @@
   "examples": [
     {
       "id": "21917_rindou_ex1",
-      "japanese": "{林道|りんどう}を{歩|ある}いて{山|やま}に{登|のぼ}った。",
+      "japanese": "{林道|りんどう}⟦を→を：00422_wo⟧⟦{歩|ある}いて→歩く：00538_aruku⟧⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦{登|のぼ}った→登る：00660_noboru⟧。",
       "english": "I walked along the forest road and climbed the mountain.",
       "sense_numbers": [
         1
@@ -40,7 +65,7 @@
     },
     {
       "id": "21917_rindou_ex2",
-      "japanese": "この{林道|りんどう}は{雨|あめ}の{後|あと}はぬかるみやすい。",
+      "japanese": "⟦この→この：00962_kono⟧{林道|りんどう}⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦は→は：00079_ha⟧⟦ぬかるみ→ぬかるむ：26941_nukarumu⟧やすい。",
       "english": "This forest road tends to get muddy after rain.",
       "sense_numbers": [
         1
@@ -50,7 +75,7 @@
     },
     {
       "id": "21917_rindou_ex3",
-      "japanese": "{林道|りんどう}が{崩|くず}れていて{車|くるま}では{通|とお}れなかった。",
+      "japanese": "{林道|りんどう}⟦が→が：00051_ga⟧⟦{崩|くず}れていて→崩れる：04248_kuzureru⟧⟦{車|くるま}→車：00516_kuruma⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{通|とお}れなかった→通る：01243_tooru⟧。",
       "english": "The forest road had collapsed and was impassable by car.",
       "sense_numbers": [
         1
@@ -60,7 +85,7 @@
     },
     {
       "id": "21917_rindou_ex4",
-      "japanese": "{秋|あき}になると、この{林道|りんどう}は{紅葉|こうよう}のトンネルになって{美|うつく}しい。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦この→この：00962_kono⟧{林道|りんどう}⟦は→は：00079_ha⟧⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧⟦の→の：09472_no⟧⟦トンネル→トンネル：03865_tonneru⟧になって⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "In autumn, this forest road becomes a beautiful tunnel of fall foliage.",
       "sense_numbers": [
         1

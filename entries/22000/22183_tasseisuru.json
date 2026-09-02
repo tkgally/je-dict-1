@@ -3,7 +3,7 @@
   "headword": "{達成|たっせい}する",
   "reading": "たっせいする",
   "romaji": "tasseisuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to achieve; to accomplish; to attain",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22183_tasseisuru_ex1",
-      "japanese": "{目標|もくひょう}を{達成|たっせい}する。",
+      "japanese": "⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧{達成|たっせい}する。",
       "english": "To achieve a goal.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22183_tasseisuru_ex2",
-      "japanese": "{売上|うりあげ}{目標|もくひょう}をようやく{達成|たっせい}できた。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧ようやく⟦{達成|たっせい}→達成：04816_tassei⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "We were finally able to achieve the sales target.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22183_tasseisuru_ex3",
-      "japanese": "チーム{全員|ぜんいん}が{協力|きょうりょく}したおかげで、{困難|こんなん}な{課題|かだい}を{達成|たっせい}することができた。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{協力|きょうりょく}した→協力する：25370_kyouryokusuru⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{困難|こんなん}→困難：01410_konnan⟧な⟦{課題|かだい}→課題：00132_kadai⟧⟦を→を：00422_wo⟧{達成|たっせい}すること⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Thanks to the cooperation of the entire team, we were able to accomplish the difficult task.",
       "sense_numbers": [
         1
@@ -44,8 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "One of the most common words for achieving goals in both business and personal contexts. Almost always takes {目標|もくひょう} (goal) as its object.\n\nCOMMON COLLOCATIONS:\n- {目標|もくひょう}を{達成|たっせい}する — to achieve a goal\n- {達成|たっせい}{感|かん} — sense of achievement\n- {達成|たっせい}{率|りつ} — achievement rate\n- {達成|たっせい}{度|ど} — degree of achievement\n- {目的|もくてき}を{達成|たっせい}する — to accomplish an objective\n\nSIMILAR WORDS:\n- {成|な}し{遂|と}げる — to accomplish, achieve; more literary and emphasizes the difficulty overcome\n- {実現|じつげん}する — to realize, bring about; broader, used for dreams, plans, and abstract goals\n- {果|は}たす — to fulfill (a duty, promise, role); focuses on completing an obligation",
+  "notes": "One of the most common words for achieving goals in both business and personal contexts. Almost always takes ⟦{目標|もくひょう}→目標：03631_mokuhyou⟧ (goal) as its object.\n\nCOMMON COLLOCATIONS:\n- ⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧{達成|たっせい}する — to achieve a goal\n- ⟦{達成|たっせい}{感|かん}→達成感：05952_tasseikan⟧ — sense of achievement\n- ⟦{達成|たっせい}→達成：04816_tassei⟧⟦{率|りつ}→率：03802_ritsu⟧ — achievement rate\n- ⟦{達成|たっせい}→達成：04816_tassei⟧⟦{度|ど}→〜度：09845_do⟧ — degree of achievement\n- ⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦を→を：00422_wo⟧{達成|たっせい}する — to accomplish an objective\n\nSIMILAR WORDS:\n- ⟦{成|な}し{遂|と}げる→成し遂げる：12632_nashitogeru⟧ — to accomplish, achieve; more literary and emphasizes the difficulty overcome\n- ⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦する→する：00392_suru⟧ — to realize, bring about; broader, used for dreams, plans, and abstract goals\n- ⟦{果|は}たす→果たす：10060_hatasu⟧ — to fulfill (a duty, promise, role); focuses on completing an obligation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12632_nashitogeru",
+      "reading": "なしとげる",
+      "headword": "{成|な}し{遂|と}げる",
+      "label": "to accomplish, achieve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03276_jitsugen",
+      "reading": "じつげん",
+      "headword": "{実現|じつげん}",
+      "label": "to realize, bring about"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10060_hatasu",
+      "reading": "はたす",
+      "headword": "{果|は}たす",
+      "label": "to fulfill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11815_toutatsu",
+      "reading": "とうたつ",
+      "headword": "{到達|とうたつ}",
+      "label": "reaching, attaining, arrival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20156_suikousuru",
+      "reading": "すいこうする",
+      "headword": "{遂行|すいこう}する",
+      "label": "to accomplish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21445_seikousuru",
+      "reading": "せいこうする",
+      "headword": "{成功|せいこう}する",
+      "label": "to succeed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25528_kanseisuru",
+      "reading": "かんせいする",
+      "headword": "{完成|かんせい}する",
+      "label": "to complete"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +113,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:30:05Z",
-    "modified": "2026-04-05T04:30:05Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

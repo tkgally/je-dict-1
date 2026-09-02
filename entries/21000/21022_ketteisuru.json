@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21022_ketteisuru_ex1",
-      "japanese": "{日程|にってい}が{決定|けってい}した。",
+      "japanese": "⟦{日程|にってい}→日程：04289_nittei⟧⟦が→が：00051_ga⟧{決定|けってい}した。",
       "english": "The schedule has been decided.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21022_ketteisuru_ex2",
-      "japanese": "{会議|かいぎ}で{方針|ほうしん}を{決定|けってい}する{予定|よてい}です。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦を→を：00422_wo⟧{決定|けってい}する⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "We plan to decide on the policy at the meeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21022_ketteisuru_ex3",
-      "japanese": "{最終的|さいしゅうてき}な{価格|かかく}は{来週|らいしゅう}の{取締役会|とりしまりやくかい}で{決定|けってい}される{見込|みこ}みだ。",
+      "japanese": "⟦{最終的|さいしゅうてき}→最終的：13013_saishuuteki⟧な⟦{価格|かかく}→価格：00147_kakaku⟧⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧⟦{取締役会|とりしまりやくかい}→取締役会：28600_torishimariyakukai⟧⟦で→で：00502_de⟧{決定|けってい}される⟦{見込|みこ}み→見込み：06872_mikomi⟧だ。",
       "english": "The final price is expected to be determined at next week's board meeting.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for making decisions, commonly used in business, government, and official contexts. The noun form {決定|けってい} is also widely used on its own.\n\nCOMMON COLLOCATIONS:\n- {方針|ほうしん}を{決定|けってい}する: to decide on a policy\n- {日程|にってい}を{決定|けってい}する: to determine the schedule\n- {価格|かかく}を{決定|けってい}する: to determine the price\n- {優勝|ゆうしょう}を{決定|けってい}する: to clinch the championship\n- {最終|さいしゅう}{決定|けってい}: final decision\n\nSIMILAR WORDS:\n- {決|き}める: to decide — the most common everyday word for deciding; less formal than {決定|けってい}する\n- {確定|かくてい}する: to confirm, finalize — implies something previously uncertain is now fixed\n- {判断|はんだん}する: to judge, assess — focuses on evaluating and reaching a conclusion\n\nUSAGE:\nOften used in the passive ({決定|けってい}される) when the decision is made by an authority or organization. Can also be used intransitively ({決定|けってい}する meaning 'to be decided').",
+  "notes": "A formal word for making decisions, commonly used in business, government, and official contexts. The noun form ⟦{決定|けってい}→決定：02701_kettei⟧ is also widely used on its own.\n\nCOMMON COLLOCATIONS:\n- ⟦{方針|ほうしん}→方針：04871_houshin⟧⟦を→を：00422_wo⟧{決定|けってい}する: to decide on a policy\n- ⟦{日程|にってい}→日程：04289_nittei⟧⟦を→を：00422_wo⟧{決定|けってい}する: to determine the schedule\n- ⟦{価格|かかく}→価格：00147_kakaku⟧⟦を→を：00422_wo⟧{決定|けってい}する: to determine the price\n- ⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦を→を：00422_wo⟧{決定|けってい}する: to clinch the championship\n- ⟦{最終|さいしゅう}→最終：02820_saishuu⟧⟦{決定|けってい}→決定：02701_kettei⟧: final decision\n\nSIMILAR WORDS:\n- ⟦{決|き}める→決める：00858_kimeru⟧: to decide — the most common everyday word for deciding; less formal than {決定|けってい}する\n- ⟦{確定|かくてい}→確定：13707_kakutei⟧⟦する→する：00392_suru⟧: to confirm, finalize — implies something previously uncertain is now fixed\n- ⟦{判断|はんだん}する→判断する：06062_handansuru⟧: to judge, assess — focuses on evaluating and reaching a conclusion\n\nUSAGE:\nOften used in the passive ({決定|けってい}される) when the decision is made by an authority or organization. Can also be used intransitively ({決定|けってい}する meaning 'to be decided').",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00858_kimeru",
+      "reading": "きめる",
+      "headword": "{決|き}める",
+      "label": "to decide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13707_kakutei",
+      "reading": "かくてい",
+      "headword": "{確定|かくてい}",
+      "label": "to confirm, finalize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06062_handansuru",
+      "reading": "はんだんする",
+      "headword": "{判断|はんだん}する",
+      "label": "to judge, assess"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-03-31T15:27:09Z",
-    "modified": "2026-03-31T15:27:09Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

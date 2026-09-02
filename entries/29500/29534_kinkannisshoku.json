@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29534_kinkannisshoku_ex1",
-      "japanese": "{金環|きんかん}{日食|にっしょく}は{珍|めずら}しい。",
+      "japanese": "{金環|きんかん}{日食|にっしょく}⟦は→は：00079_ha⟧⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧。",
       "english": "Annular solar eclipses are rare.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29534_kinkannisshoku_ex2",
-      "japanese": "{金環|きんかん}{日食|にっしょく}では{太陽|たいよう}が{指輪|ゆびわ}のように{見|み}える。",
+      "japanese": "{金環|きんかん}{日食|にっしょく}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧⟦のように→のように：30291_noyouni⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "In an annular eclipse the Sun looks like a ring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29534_kinkannisshoku_ex3",
-      "japanese": "{去年|きょねん}の{金環|きんかん}{日食|にっしょく}を{観|み}るために{大勢|おおぜい}の{人|ひと}が{集|あつ}まった。",
+      "japanese": "⟦{去年|きょねん}→去年：00727_kyonen⟧⟦の→の：09472_no⟧{金環|きんかん}{日食|にっしょく}⟦を→を：00422_wo⟧⟦{観|み}る→観る：22793_miru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Crowds gathered to watch last year's annular solar eclipse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {金環|きんかん} (golden ring) + {日食|にっしょく} (solar eclipse). The name refers to the ring of sunlight that remains visible around the Moon.\n\nCOMMON COLLOCATIONS:\n- {金環|きんかん}{日食|にっしょく}を{観測|かんそく}する: to observe an annular solar eclipse\n- {金環|きんかん}{日食|にっしょく}が{起|お}こる: an annular solar eclipse occurs\n\nSIMILAR WORDS:\n- {皆既|かいき}{日食|にっしょく}: total eclipse — the Sun is fully covered\n- {部分|ぶぶん}{日食|にっしょく}: partial eclipse — only part of the Sun is hidden",
+  "notes": "Composed of {金環|きんかん} (golden ring) + ⟦{日食|にっしょく}→日食：06311_nisshoku⟧ (solar eclipse). The name refers to the ring of sunlight that remains visible around the Moon.\n\nCOMMON COLLOCATIONS:\n- {金環|きんかん}{日食|にっしょく}⟦を→を：00422_wo⟧⟦{観測|かんそく}→観測：00183_kansoku⟧⟦する→する：00392_suru⟧: to observe an annular solar eclipse\n- {金環|きんかん}{日食|にっしょく}⟦が→が：00051_ga⟧⟦{起|お}こる→起こる：01910_okoru⟧: an annular solar eclipse occurs\n\nSIMILAR WORDS:\n- ⟦{皆既|かいき}{日食|にっしょく}→皆既日食：29532_kaikinisshoku⟧: total eclipse — the Sun is fully covered\n- ⟦{部分|ぶぶん}{日食|にっしょく}→部分日食：29533_bubunnisshoku⟧: partial eclipse — only part of the Sun is hidden",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29532_kaikinisshoku",
+      "reading": "かいきにっしょく",
+      "headword": "{皆既|かいき}{日食|にっしょく}",
+      "label": "total eclipse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29533_bubunnisshoku",
+      "reading": "ぶぶんにっしょく",
+      "headword": "{部分|ぶぶん}{日食|にっしょく}",
+      "label": "partial eclipse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30402_pittsa_ex1",
-      "japanese": "ピッツァを{一枚|いちまい}{注文|ちゅうもん}した。",
+      "japanese": "ピッツァ⟦を→を：00422_wo⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered one pizza.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30402_pittsa_ex2",
-      "japanese": "この{店|みせ}は{薪|まき}{窯|がま}でピッツァを{焼|や}いている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{薪|まき}{窯|がま}⟦で→で：00502_de⟧ピッツァ⟦を→を：00422_wo⟧⟦{焼|や}いている→焼く：01123_yaku⟧。",
       "english": "This restaurant bakes its pizzas in a wood-fired oven.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30402_pittsa_ex3",
-      "japanese": "ナポリで{修業|しゅぎょう}した{職人|しょくにん}が{焼|や}くピッツァは、{生地|きじ}のふちがふっくらしている。",
+      "japanese": "ナポリ⟦で→で：00502_de⟧⟦{修業|しゅぎょう}→修業：16906_shugyou⟧⟦した→する：00392_suru⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦が→が：00051_ga⟧⟦{焼|や}く→焼く：01123_yaku⟧ピッツァ⟦は→は：00079_ha⟧、⟦{生地|きじ}→生地：02631_kiji⟧⟦の→の：09472_no⟧ふち⟦が→が：00051_ga⟧⟦ふっくら→ふっくら：28254_fukkura⟧⟦している→する：00392_suru⟧。",
       "english": "The pizza baked by a craftsman who trained in Naples has a plump, puffy crust edge.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Counted with 〜{枚|まい}. A register variant rather than a different food: in ordinary conversation people say ピザ, and ピッツァ appears mainly on Italian restaurant menus and in food writing.\n\nCOMMON COLLOCATIONS:\n- ピッツァを{焼|や}く: to bake a pizza\n- {窯|かま}{焼|や}きピッツァ: oven-baked (wood-fired) pizza\n- ピッツァ{職人|しょくにん}: a pizza craftsman, pizzaiolo\n- ナポリピッツァ: Neapolitan pizza\n\nSIMILAR WORDS:\n- ピザ: pizza — the ordinary everyday word, used for delivery and chain-store pizza\n- マルゲリータ: margherita — the classic tomato-and-mozzarella pizza\n- {生地|きじ}: dough — the word used for the base in pizza talk",
+  "notes": "Counted with 〜⟦{枚|まい}→〜枚：00650_mai⟧. A register variant rather than a different food: in ordinary conversation people say ⟦ピザ→ピザ：06769_piza⟧, and ピッツァ appears mainly on Italian restaurant menus and in food writing.\n\nCOMMON COLLOCATIONS:\n- ピッツァ⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧: to bake a pizza\n- ⟦{窯|かま}→窯：13764_kama⟧{焼|や}きピッツァ: oven-baked (wood-fired) pizza\n- ピッツァ⟦{職人|しょくにん}→職人：09868_shokunin⟧: a pizza craftsman, pizzaiolo\n- ナポリピッツァ: Neapolitan pizza\n\nSIMILAR WORDS:\n- ⟦ピザ→ピザ：06769_piza⟧: pizza — the ordinary everyday word, used for delivery and chain-store pizza\n- ⟦マルゲリータ→マルゲリータ：30403_marugeriita⟧: margherita — the classic tomato-and-mozzarella pizza\n- ⟦{生地|きじ}→生地：02631_kiji⟧: dough — the word used for the base in pizza talk",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06769_piza",
+      "reading": "ぴざ",
+      "headword": "ピザ",
+      "label": "pizza"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30403_marugeriita",
+      "reading": "まるげりーた",
+      "headword": "マルゲリータ",
+      "label": "margherita"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02631_kiji",
+      "reading": "きじ",
+      "headword": "{生地|きじ}",
+      "label": "dough"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "domain": []
     },
     "created": "2026-08-05T00:20:41Z",
-    "modified": "2026-08-05T00:20:41Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{配膳|はいぜん}",
   "reading": "はいぜん",
   "romaji": "haizen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "serving food; setting out dishes; waiting at table",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29685_haizen_ex1",
-      "japanese": "{料理|りょうり}を{配膳|はいぜん}する。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧{配膳|はいぜん}⟦する→する：00392_suru⟧。",
       "english": "To serve the dishes.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29685_haizen_ex2",
-      "japanese": "{宴会|えんかい}の{配膳|はいぜん}を{手伝|てつだ}った。",
+      "japanese": "⟦{宴会|えんかい}→宴会：04104_enkai⟧⟦の→の：09472_no⟧{配膳|はいぜん}⟦を→を：00422_wo⟧⟦{手伝|てつだ}った→手伝う：00898_tetsudau⟧。",
       "english": "I helped serve the food at the banquet.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29685_haizen_ex3",
-      "japanese": "この{店|みせ}では、{配膳|はいぜん}ロボットが{席|せき}まで{料理|りょうり}を{運|はこ}んでくれる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{配膳|はいぜん}⟦ロボット→ロボット：06404_robotto⟧⟦が→が：00051_ga⟧⟦{席|せき}→席：02215_seki⟧⟦まで→まで：00490_made⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{運|はこ}んで→運ぶ：01088_hakobu⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "At this restaurant, a serving robot brings the dishes to your table.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to setting out and delivering dishes to diners. It covers both the arrangement of the food and the act of carrying it to the table. Takes する to form the verb {配膳|はいぜん}する.\n\nCOMMON COLLOCATIONS:\n- {料理|りょうり}を{配膳|はいぜん}する: to serve the dishes\n- {配膳|はいぜん}ロボット: food-serving robot\n- {配膳|はいぜん}{係|がかり}: serving staff; waiter\n\nSIMILAR WORDS:\n- {給仕|きゅうじ}: waiting on; serving — emphasizes attending to diners throughout the meal\n- {盛|も}り{付|つ}け: plating — arranging food attractively on the plate, before it is served",
+  "notes": "Refers to setting out and delivering dishes to diners. It covers both the arrangement of the food and the act of carrying it to the table. Takes ⟦する→する：00392_suru⟧ to form the verb {配膳|はいぜん}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧{配膳|はいぜん}⟦する→する：00392_suru⟧: to serve the dishes\n- {配膳|はいぜん}⟦ロボット→ロボット：06404_robotto⟧: food-serving robot\n- {配膳|はいぜん}{係|がかり}: serving staff; waiter\n\nSIMILAR WORDS:\n- ⟦{給仕|きゅうじ}→給仕：18148_kyuuji⟧: waiting on; serving — emphasizes attending to diners throughout the meal\n- ⟦{盛|も}り{付|つ}け→盛り付け：05754_moritsuke⟧: plating — arranging food attractively on the plate, before it is served",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18148_kyuuji",
+      "reading": "きゅうじ",
+      "headword": "{給仕|きゅうじ}",
+      "label": "waiting on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05754_moritsuke",
+      "reading": "もりつけ",
+      "headword": "{盛|も}り{付|つ}け",
+      "label": "plating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,16 +70,17 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-05T03:18:57Z",
-    "modified": "2026-07-05T03:18:57Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12033_kougo_ex1",
-      "japanese": "{口語|こうご}{体|たい}で{書|か}いてください。",
+      "japanese": "{口語|こうご}{体|たい}⟦で→で：00502_de⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write in colloquial style.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12033_kougo_ex2",
-      "japanese": "この{表現|ひょうげん}は{口語|こうご}では{使|つか}うが、{文章|ぶんしょう}では{使|つか}わない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦は→は：00079_ha⟧{口語|こうご}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦が→が：00051_ga⟧、⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{使|つか}わない→使う：00473_tsukau⟧。",
       "english": "This expression is used in spoken language but not in writing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12033_kougo_ex3",
-      "japanese": "{日本語|にほんご}の{文法|ぶんぽう}は{口語|こうご}と{文語|ぶんご}でかなり{異|こと}なる。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧⟦{文法|ぶんぽう}→文法：01506_bunpou⟧⟦は→は：00079_ha⟧{口語|こうご}⟦と→と：00512_to⟧⟦{文語|ぶんご}→文語：12991_bungo⟧⟦で→で：00502_de⟧⟦かなり→かなり：01149_kanari⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "Japanese grammar differs considerably between spoken and literary language.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese linguistics, {口語|こうご} specifically refers to modern spoken/colloquial Japanese, contrasting with {文語|ぶんご} (classical literary Japanese based on Heian-era grammar). This distinction is important in Japanese education, where students learn both {口語|こうご}{文法|ぶんぽう} (modern grammar) and {文語|ぶんご}{文法|ぶんぽう} (classical grammar).\n\nCOMMON COLLOCATIONS:\n- {口語|こうご}{体|たい}: colloquial style\n- {口語|こうご}{文法|ぶんぽう}: colloquial/modern grammar\n- {口語|こうご}{表現|ひょうげん}: colloquial expression\n- {口語|こうご}{的|てき}: colloquial, conversational",
+  "notes": "USAGE:\nIn Japanese linguistics, {口語|こうご} specifically refers to modern spoken/colloquial Japanese, contrasting with ⟦{文語|ぶんご}→文語：12991_bungo⟧ (classical literary Japanese based on Heian-era grammar). This distinction is important in Japanese education, where students learn both {口語|こうご}⟦{文法|ぶんぽう}→文法：01506_bunpou⟧ (modern grammar) and ⟦{文語|ぶんご}→文語：12991_bungo⟧⟦{文法|ぶんぽう}→文法：01506_bunpou⟧ (classical grammar).\n\nCOMMON COLLOCATIONS:\n- {口語|こうご}{体|たい}: colloquial style\n- {口語|こうご}⟦{文法|ぶんぽう}→文法：01506_bunpou⟧: colloquial/modern grammar\n- {口語|こうご}⟦{表現|ひょうげん}→表現：03584_hyougen⟧: colloquial expression\n- {口語|こうご}⟦{的|てき}→〜的：09839_teki⟧: colloquial, conversational",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,60 @@
       "reading": "ぶんご",
       "headword": "{文語|ぶんご}",
       "label": "literary language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17782_gendaigo",
+      "reading": "げんだいご",
+      "headword": "{現代語|げんだいご}",
+      "label": "modern language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20589_zokugo",
+      "reading": "ぞくご",
+      "headword": "{俗語|ぞくご}",
+      "label": "slang"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23878_hanashikotoba",
+      "reading": "はなしことば",
+      "headword": "{話|はな}し{言葉|ことば}",
+      "label": "spoken language, colloquial language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25961_kakikotoba",
+      "reading": "かきことば",
+      "headword": "{書|か}き{言葉|ことば}",
+      "label": "written language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26109_futsuugo",
+      "reading": "ふつうご",
+      "headword": "{普通語|ふつうご}",
+      "label": "standard language"
     }
   ],
   "metadata": {
     "created": "2026-02-19T13:33:00Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["academic"],
-      "semantic": ["language"]
+      "domain": [
+        "academic"
+      ],
+      "semantic": [
+        "language"
+      ]
     }
   }
 }

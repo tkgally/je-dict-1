@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22208_kigennai_ex1",
-      "japanese": "{期限内|きげんない}に{提出|ていしゅつ}してください。",
+      "japanese": "{期限内|きげんない}⟦に→に：00314_ni⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit it within the deadline.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22208_kigennai_ex2",
-      "japanese": "{期限内|きげんない}であれば{返品|へんぴん}が{可能|かのう}です。",
+      "japanese": "{期限内|きげんない}で⟦あれば→ある：00006_aru⟧⟦{返品|へんぴん}→返品：05465_henpin⟧⟦が→が：00051_ga⟧⟦{可能|かのう}→可能：00175_kanou⟧です。",
       "english": "Returns are possible within the time limit.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22208_kigennai_ex3",
-      "japanese": "{申請|しんせい}は{必|かなら}ず{期限内|きげんない}に{済|す}ませてください。{期限|きげん}を{過|す}ぎると{受|う}け{付|つ}けられません。",
+      "japanese": "⟦{申請|しんせい}→申請：04207_shinsei⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧{期限内|きげんない}⟦に→に：00314_ni⟧⟦{済|す}ませて→済む：01950_sumu⟧⟦ください→ください：02899_kudasai⟧。⟦{期限|きげん}→期限：12861_kigen⟧⟦を→を：00422_wo⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧⟦と→と：00512_to⟧⟦{受|う}け{付|つ}けられません→受け付ける：05683_uketsukeru⟧。",
       "english": "Please be sure to complete the application within the deadline. It cannot be accepted after the deadline has passed.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {期限|きげん} (deadline, time limit) + {内|ない} (within). Functions as a noun or adverbial expression. Very commonly seen in business, administrative, and everyday contexts involving deadlines.\n\nCOMMON COLLOCATIONS:\n- {期限内|きげんない}に{提出|ていしゅつ}する — to submit within the deadline\n- {期限内|きげんない}に{届|とど}ける — to deliver within the deadline\n- {期限内|きげんない}に{支払|しはら}う — to pay within the deadline\n- {期限内|きげんない}に{完了|かんりょう}する — to complete within the deadline\n\nRELATED TERMS:\n- {期限|きげん} — deadline, time limit\n- {期限切|きげんぎ}れ — expired, past the deadline\n- {有効期限|ゆうこうきげん} — expiration date; period of validity\n- {締|し}め{切|き}り — deadline (for submissions)\n- {期限外|きげんがい} — outside the deadline, overdue",
+  "notes": "Composed of ⟦{期限|きげん}→期限：12861_kigen⟧ (deadline, time limit) + ⟦{内|ない}→〜内：09853_nai⟧ (within). Functions as a noun or adverbial expression. Very commonly seen in business, administrative, and everyday contexts involving deadlines.\n\nCOMMON COLLOCATIONS:\n- {期限内|きげんない}⟦に→に：00314_ni⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ — to submit within the deadline\n- {期限内|きげんない}⟦に→に：00314_ni⟧⟦{届|とど}ける→届ける：01248_todokeru⟧ — to deliver within the deadline\n- {期限内|きげんない}⟦に→に：00314_ni⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧ — to pay within the deadline\n- {期限内|きげんない}⟦に→に：00314_ni⟧⟦{完了|かんりょう}する→完了する：20676_kanryousuru⟧ — to complete within the deadline\n\nRELATED WORDS:\n- ⟦{期限|きげん}→期限：12861_kigen⟧ — deadline, time limit\n- ⟦{期限切|きげんぎ}れ→期限切れ：15893_kigengire⟧ — expired, past the deadline\n- ⟦{有効期限|ゆうこうきげん}→有効期限：06415_yuukoukigen⟧ — expiration date; period of validity\n- ⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧ — deadline (for submissions)\n- {期限外|きげんがい} — outside the deadline, overdue",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15893_kigengire",
+      "reading": "きげんぎれ",
+      "headword": "{期限切|きげんぎ}れ",
+      "label": "expired, past the deadline"
+    },
+    {
+      "type": "related",
+      "target_id": "06415_yuukoukigen",
+      "reading": "ゆうこうきげん",
+      "headword": "{有効期限|ゆうこうきげん}",
+      "label": "expiration date"
+    },
+    {
+      "type": "related",
+      "target_id": "04162_shimekiri",
+      "reading": "しめきり",
+      "headword": "{締|し}め{切|き}り",
+      "label": "deadline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "business"
       ]
     },
     "created": "2026-04-05T14:17:54Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

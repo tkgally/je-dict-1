@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12117_henbou_ex1",
-      "japanese": "{街|まち}が{変貌|へんぼう}を{遂|と}げた。",
+      "japanese": "⟦{街|まち}→街：17306_machi⟧⟦が→が：00051_ga⟧{変貌|へんぼう}⟦を→を：00422_wo⟧⟦{遂|と}げた→遂げる：14323_togeru⟧。",
       "english": "The town underwent a transformation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12117_henbou_ex2",
-      "japanese": "{再開発|さいかいはつ}で{駅前|えきまえ}が{大|おお}きく{変貌|へんぼう}した。",
+      "japanese": "⟦{再開発|さいかいはつ}→再開発：17066_saikaihatsu⟧⟦で→で：00502_de⟧⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧{変貌|へんぼう}⟦した→する：00392_suru⟧。",
       "english": "The area in front of the station was dramatically transformed by redevelopment.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12117_henbou_ex3",
-      "japanese": "かつての{静|しず}かな{漁村|ぎょそん}は、{観光地|かんこうち}として{変貌|へんぼう}を{遂|と}げ、{今|いま}では{多|おお}くの{旅行者|りょこうしゃ}で{賑|にぎ}わっている。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧⟦の→の：09472_no⟧⟦{静|しず}か→静か：00755_shizuka⟧な{漁村|ぎょそん}⟦は→は：00079_ha⟧、⟦{観光地|かんこうち}→観光地：14163_kankouchi⟧⟦として→として：06802_toshite⟧{変貌|へんぼう}⟦を→を：00422_wo⟧⟦{遂|と}げ→遂げる：14323_togeru⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{旅行者|りょこうしゃ}→旅行者：22927_ryokousha⟧⟦で→で：00502_de⟧⟦{賑|にぎ}わっている→賑わう：14235_nigiwau⟧。",
       "english": "The once-quiet fishing village has transformed into a tourist destination and is now bustling with travelers.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{変貌|へんぼう} focuses on visible, outward change — how something looks or appears. It is commonly paired with を{遂|と}げる (to accomplish/undergo) in the set phrase {変貌|へんぼう}を{遂|と}げる. Compared to {変容|へんよう} (qualitative, deep transformation) and {変化|へんか} (general change), {変貌|へんぼう} emphasizes the dramatic visual difference.\n\nCOMMON COLLOCATIONS:\n- {変貌|へんぼう}を{遂|と}げる: to undergo a transformation\n- {大|おお}きく{変貌|へんぼう}する: to be dramatically transformed\n- {街|まち}の{変貌|へんぼう}: transformation of a town\n- {著|いちじる}しい{変貌|へんぼう}: remarkable transformation",
+  "notes": "USAGE:\n{変貌|へんぼう} focuses on visible, outward change — how something looks or appears. It is commonly paired with ⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧ (to accomplish/undergo) in the set phrase {変貌|へんぼう}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧. Compared to ⟦{変容|へんよう}→変容：12115_henyou⟧ (qualitative, deep transformation) and ⟦{変化|へんか}→変化：03615_henka⟧ (general change), {変貌|へんぼう} emphasizes the dramatic visual difference.\n\nCOMMON COLLOCATIONS:\n- {変貌|へんぼう}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧: to undergo a transformation\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{変貌|へんぼう}⟦する→する：00392_suru⟧: to be dramatically transformed\n- ⟦{街|まち}→街：17306_machi⟧⟦の→の：09472_no⟧{変貌|へんぼう}: transformation of a town\n- ⟦{著|いちじる}しい→著しい：10421_ichijirushii⟧{変貌|へんぼう}: remarkable transformation",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,18 @@
       "headword": "{変化|へんか}",
       "label": "general change",
       "target_id": "03615_henka"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20618_samagawari",
+      "reading": "さまがわり",
+      "headword": "{様変|さまが}わり",
+      "label": "complete change"
     }
   ],
   "metadata": {
     "created": "2026-02-20T08:50:47Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

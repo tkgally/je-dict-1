@@ -2,7 +2,7 @@
   "id": "01523_ryouri",
   "headword": "{料理|りょうり}",
   "reading": "りょうり",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cooking, cuisine",
   "definitions": [
     {
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{料理|りょうり} refers to both the act of cooking and prepared dishes/cuisine.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{料理|りょうり}⟦する→する：00392_suru⟧\n\nCOMMON EXPRESSIONS:\n- {料理|りょうり}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make/cook food\n- {料理|りょうり}⟦する→する：00392_suru⟧: to cook\n- ⟦{手料理|てりょうり}→手料理：12760_teryouri⟧: home cooking\n- ⟦{家庭|かてい}{料理|りょうり}→家庭料理：17474_kateiryouri⟧: home-style cooking\n\nTYPES OF CUISINE:\n- ⟦{和食|わしょく}→和食：10436_washoku⟧/⟦{日本|にほん}{料理|りょうり}→日本料理：19425_nihonryouri⟧: Japanese cuisine\n- ⟦{洋食|ようしょく}→洋食：13274_youshoku⟧: Western-style food\n- ⟦{中華|ちゅうか}{料理|りょうり}→中華料理：18122_chuukaryouri⟧: Chinese cuisine\n- ⟦{郷土|きょうど}{料理|りょうり}→郷土料理：15130_kyoudoryouri⟧: local cuisine\n\nRELATED:\n- ⟦{料理人|りょうりにん}→料理人：19396_ryourinin⟧: chef/cook\n- ⟦{料理|りょうり}{教室|きょうしつ}→料理教室：23301_ryourikyoushitsu⟧: cooking class",
-  "cross_references": [],
+  "notes": "{料理|りょうり} refers to both the act of cooking and prepared dishes/cuisine.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{料理|りょうり}⟦する→する：00392_suru⟧\n\nCOMMON EXPRESSIONS:\n- {料理|りょうり}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make/cook food\n- {料理|りょうり}⟦する→する：00392_suru⟧: to cook\n- ⟦{手料理|てりょうり}→手料理：12760_teryouri⟧: home cooking\n- ⟦{家庭|かてい}{料理|りょうり}→家庭料理：17474_kateiryouri⟧: home-style cooking\n\nTYPES OF CUISINE:\n- ⟦{和食|わしょく}→和食：10436_washoku⟧/⟦{日本|にほん}{料理|りょうり}→日本料理：19425_nihonryouri⟧: Japanese cuisine\n- ⟦{洋食|ようしょく}→洋食：13274_youshoku⟧: Western-style food\n- ⟦{中華|ちゅうか}{料理|りょうり}→中華料理：18122_chuukaryouri⟧: Chinese cuisine\n- ⟦{郷土|きょうど}{料理|りょうり}→郷土料理：15130_kyoudoryouri⟧: local cuisine\n\nRELATED WORDS:\n- ⟦{料理人|りょうりにん}→料理人：19396_ryourinin⟧: chef/cook\n- ⟦{料理|りょうり}{教室|きょうしつ}→料理教室：23301_ryourikyoushitsu⟧: cooking class",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02890_tabemono",
+      "reading": "たべもの",
+      "headword": "{食|た}べ{物|もの}",
+      "label": "food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12955_nihonshoku",
+      "reading": "にほんしょく",
+      "headword": "{日本食|にほんしょく}",
+      "label": "Japanese food, Japanese cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24666_daidokoroshigoto",
+      "reading": "だいどころしごと",
+      "headword": "{台所仕事|だいどころしごと}",
+      "label": "kitchen work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26793_chourisuru",
+      "reading": "ちょうりする",
+      "headword": "{調理|ちょうり}する",
+      "label": "to cook"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:33:14Z",
-    "modified": "2026-05-15T20:14:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

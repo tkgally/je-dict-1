@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18563_daisho_ex1",
-      "japanese": "{書類|しょるい}の{代書|だいしょ}を{頼|たの}む。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦の→の：09472_no⟧{代書|だいしょ}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧。",
       "english": "I ask someone to write the documents for me.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18563_daisho_ex2",
-      "japanese": "{昔|むかし}は{代書|だいしょ}{屋|や}が{多|おお}かった。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧{代書|だいしょ}{屋|や}⟦が→が：00051_ga⟧⟦{多|おお}かった→多い：01127_ooi⟧。",
       "english": "In the past, there were many scriveners.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18563_daisho_ex3",
-      "japanese": "{役所|やくしょ}の{近|ちか}くに{代書|だいしょ}{事務所|じむしょ}が{並|なら}んでいた{時代|じだい}もあった。",
+      "japanese": "⟦{役所|やくしょ}→役所：06455_yakusho⟧⟦の→の：09472_no⟧{近|ちか}く⟦に→に：00314_ni⟧{代書|だいしょ}⟦{事務所|じむしょ}→事務所：01032_jimusho⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦も→も：00484_mo⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a time when scrivener's offices lined up near government offices.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed with する to mean \"to write on someone's behalf.\" {代書|だいしょ}{屋|や} (scrivener, document writer) was once a common profession near government offices, helping people fill out official forms and applications. The modern equivalent is the {行政書士|ぎょうせいしょし} (administrative scrivener).\n\nCOMMON COLLOCATIONS:\n- {代書|だいしょ}する (to write on someone's behalf)\n- {代書|だいしょ}{屋|や} (scrivener, document writer)\n- {代書|だいしょ}を{頼|たの}む (to ask for writing assistance)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed with ⟦する→する：00392_suru⟧ to mean \"to write on someone's behalf.\" {代書|だいしょ}{屋|や} (scrivener, document writer) was once a common profession near government offices, helping people fill out official forms and applications. The modern equivalent is the ⟦{行政書士|ぎょうせいしょし}→行政書士：08748_gyouseishoshi⟧ (administrative scrivener).\n\nCOMMON COLLOCATIONS:\n- {代書|だいしょ}⟦する→する：00392_suru⟧ (to write on someone's behalf)\n- {代書|だいしょ}{屋|や} (scrivener, document writer)\n- {代書|だいしょ}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask for writing assistance)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17415_daihitsu",
+      "reading": "だいひつ",
+      "headword": "{代筆|だいひつ}",
+      "label": "writing on behalf of another"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T08:56:54Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

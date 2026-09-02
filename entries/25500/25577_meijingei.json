@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25577_meijingei_ex1",
-      "japanese": "まさに{名人芸|めいじんげい}だ。",
+      "japanese": "⟦まさに→まさに：00270_masani⟧{名人芸|めいじんげい}だ。",
       "english": "That's truly a masterful performance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25577_meijingei_ex2",
-      "japanese": "あの{職人|しょくにん}の{包丁|ほうちょう}さばきは{名人芸|めいじんげい}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦の→の：09472_no⟧⟦{包丁|ほうちょう}さばき→包丁さばき：28847_houchousabaki⟧⟦は→は：00079_ha⟧{名人芸|めいじんげい}だ。",
       "english": "That craftsman's knife work is a display of masterful skill.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25577_meijingei_ex3",
-      "japanese": "{長年|ながねん}の{経験|けいけん}に{裏打|うらう}ちされた{名人芸|めいじんげい}で、{複雑|ふくざつ}な{修理|しゅうり}をあっという{間|ま}にやってのけた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦に→に：00314_ni⟧⟦{裏打|うらう}ち→裏打ち：14092_urauchi⟧⟦された→する：00392_suru⟧{名人芸|めいじんげい}⟦で→で：00502_de⟧、⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦を→を：00422_wo⟧⟦あっという{間|ま}に→あっという間に：25467_attoiumani⟧⟦やって→やる：02980_yaru⟧のけた。",
       "english": "Backed by years of experience, he completed the complex repair in no time with masterful skill.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Describes an extraordinary skill that appears effortless but is the product of deep expertise. Often used admiringly for traditional craftspeople, performers, athletes, and professionals whose technique is so refined it seems almost magical.\n\nCOMMON COLLOCATIONS:\n- まさに{名人芸|めいじんげい}: truly a masterful feat\n- {名人芸|めいじんげい}を{見|み}せる: to demonstrate masterful skill\n- {名人芸|めいじんげい}と{言|い}える: can be called a virtuoso performance\n\nETYMOLOGY:\nComposed of {名人|めいじん} (master, expert) and {芸|げい} (art, skill, performance). Literally, an art that only a master can perform.\n\nSIMILAR WORDS:\n- {職人芸|しょくにんげい}: artisan's craft — similar but specifically about manual craftsmanship\n- {匠|たくみ}の{技|わざ}: master's technique — more literary, often used in media about traditional crafts\n- {神業|かみわざ}: godlike skill — even more extreme praise, implying something almost superhuman",
-  "cross_references": [],
+  "notes": "Describes an extraordinary skill that appears effortless but is the product of deep expertise. Often used admiringly for traditional craftspeople, performers, athletes, and professionals whose technique is so refined it seems almost magical.\n\nCOMMON COLLOCATIONS:\n- ⟦まさに→まさに：00270_masani⟧{名人芸|めいじんげい}: truly a masterful feat\n- {名人芸|めいじんげい}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧: to demonstrate masterful skill\n- {名人芸|めいじんげい}⟦と→と：00512_to⟧⟦{言|い}える→言う：00515_iu⟧: can be called a virtuoso performance\n\nETYMOLOGY:\nComposed of ⟦{名人|めいじん}→名人：03753_meijin⟧ (master, expert) and ⟦{芸|げい}→芸：19343_gei⟧ (art, skill, performance). Literally, an art that only a master can perform.\n\nSIMILAR WORDS:\n- {職人芸|しょくにんげい}: artisan's craft — similar but specifically about manual craftsmanship\n- {匠|たくみ}⟦の→の：09472_no⟧⟦{技|わざ}→技：02172_waza⟧: master's technique — more literary, often used in media about traditional crafts\n- ⟦{神業|かみわざ}→神業：27806_kamiwaza⟧: godlike skill — even more extreme praise, implying something almost superhuman",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27806_kamiwaza",
+      "reading": "かみわざ",
+      "headword": "{神業|かみわざ}",
+      "label": "godlike skill"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +61,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "culture",
         "evaluation"
       ]
     },
     "created": "2026-04-26T11:23:29Z",
-    "modified": "2026-04-26T11:23:29Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

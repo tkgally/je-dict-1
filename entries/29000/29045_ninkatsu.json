@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29045_ninkatsu_ex1",
-      "japanese": "{妊活|にんかつ}を{始|はじ}めて{半年|はんとし}になる。",
+      "japanese": "{妊活|にんかつ}⟦を→を：00422_wo⟧⟦{始|はじ}めて→始める：00531_hajimeru⟧⟦{半年|はんとし}→半年：03139_hantoshi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "It has been half a year since we started trying to conceive.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29045_ninkatsu_ex2",
-      "japanese": "{妊活|にんかつ}のために{病院|びょういん}に{通|かよ}っている。",
+      "japanese": "{妊活|にんかつ}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I'm going to the hospital as part of our fertility efforts.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29045_ninkatsu_ex3",
-      "japanese": "{妊活|にんかつ}では、{食事|しょくじ}や{生活習慣|せいかつしゅうかん}の{見直|みなお}しが{大切|たいせつ}だと{言|い}われている。",
+      "japanese": "{妊活|にんかつ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{食事|しょくじ}→食事：02087_shokuji⟧や⟦{生活習慣|せいかつしゅうかん}→生活習慣：19568_seikatsushuukan⟧⟦の→の：09472_no⟧⟦{見直|みなお}し→見直し：09340_minaoshi⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "When trying to conceive, it is said that reviewing your diet and lifestyle habits is important.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A blended abbreviation (かばん語) of {妊娠|にんしん} (pregnancy) + {活動|かつどう} (activities). Emerged in mainstream use in the 2010s. It encompasses the full range of efforts — from timing intercourse and dietary changes to fertility treatments and medical consultations.\n\nCOMMON COLLOCATIONS:\n- {妊活|にんかつ}をする: to make efforts to conceive\n- {妊活|にんかつ}を{始|はじ}める: to start trying to conceive\n- {妊活|にんかつ}に{取|と}り{組|く}む: to tackle fertility efforts\n- {妊活|にんかつ}{中|ちゅう}: in the process of trying to conceive\n\nSIMILAR WORDS:\n- {不妊治療|ふにんちりょう}: infertility treatment — specifically medical procedures for couples with diagnosed infertility",
+  "notes": "A blended abbreviation (⟦かばん→かばん：00637_kaban⟧語) of ⟦{妊娠|にんしん}→妊娠：12227_ninshin⟧ (pregnancy) + ⟦{活動|かつどう}→活動：00201_katsudou⟧ (activities). Emerged in mainstream use in the 2010s. It encompasses the full range of efforts — from timing intercourse and dietary changes to fertility treatments and medical consultations.\n\nCOMMON COLLOCATIONS:\n- {妊活|にんかつ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to make efforts to conceive\n- {妊活|にんかつ}⟦を→を：00422_wo⟧{始|はじ}める: to start trying to conceive\n- {妊活|にんかつ}⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧: to tackle fertility efforts\n- {妊活|にんかつ}⟦{中|ちゅう}→〜中：09840_chuu⟧: in the process of trying to conceive\n\nSIMILAR WORDS:\n- {不妊治療|ふにんちりょう}: infertility treatment — specifically medical procedures for couples with diagnosed infertility",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05833_konkatsu",
+      "reading": "こんかつ",
+      "headword": "{婚活|こんかつ}",
+      "label": "marriage hunting"
+    },
+    {
+      "type": "related",
+      "target_id": "06450_asakatsu",
+      "reading": "あさかつ",
+      "headword": "{朝活|あさかつ}",
+      "label": "morning activity, early morning self-improvement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "society"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-06-09T17:36:22Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

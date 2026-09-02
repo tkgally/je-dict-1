@@ -3,7 +3,7 @@
   "headword": "{乗|の}り{降|お}り",
   "reading": "のりおり",
   "romaji": "noriori",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "getting on and off; boarding and alighting",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "21227_noriori_ex1",
-      "japanese": "{乗|の}り{降|お}りは{素早|すばや}く。",
+      "japanese": "{乗|の}り{降|お}り⟦は→は：00079_ha⟧⟦{素早|すばや}く→素早い：17093_subayai⟧。",
       "english": "Board and alight quickly.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "21227_noriori_ex2",
-      "japanese": "バスの{乗|の}り{降|お}りに{注意|ちゅうい}してください。",
+      "japanese": "⟦バス→バス：00769_basu⟧⟦の→の：09472_no⟧{乗|の}り{降|お}り⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful when getting on and off the bus.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "21227_noriori_ex3",
-      "japanese": "お{年寄|としよ}りの{乗|の}り{降|お}りをお{手伝|てつだ}いしました。",
+      "japanese": "お⟦{年寄|としよ}り→年寄り：03460_toshiyori⟧⟦の→の：09472_no⟧{乗|の}り{降|お}り⟦を→を：00422_wo⟧⟦お{手伝|てつだ}い→お手伝い：07775_otetsudai⟧⟦しました→する：00392_suru⟧。",
       "english": "I helped an elderly person getting on and off.",
       "sense_numbers": [
         1
@@ -135,7 +135,7 @@
     },
     {
       "id": "21227_noriori_ex4",
-      "japanese": "この{駅|えき}は{段差|だんさ}がなく、{車椅子|くるまいす}での{乗|の}り{降|お}りがしやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{駅|えき}→駅：02180_eki⟧⟦は→は：00079_ha⟧⟦{段差|だんさ}→段差：14742_dansa⟧⟦が→が：00051_ga⟧⟦なく→ない：01118_nai⟧、⟦{車椅子|くるまいす}→車椅子：10533_kurumaisu⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{乗|の}り{降|お}りがしやすい。",
       "english": "This station has no steps, making it easy to board and alight in a wheelchair.",
       "sense_numbers": [
         1
@@ -144,8 +144,17 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the combined action of getting on and off vehicles. Used as a compound noun from {乗|の}る (to ride/board) + {降|お}りる (to get off/alight).\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{降|お}りが{多|おお}い: frequent boarding and alighting\n- {乗|の}り{降|お}りが{楽|らく}: easy to get on and off\n- {乗|の}り{降|お}りに{便利|べんり}: convenient for boarding and alighting\n- {乗|の}り{降|お}り{自由|じゆう}: free to get on and off (unlimited rides)\n\nUSAGE:\nOften appears on signs and announcements at train stations and bus stops. The phrase {乗|の}り{降|お}り{自由|じゆう} is commonly used for day passes or unlimited-ride tickets.",
+  "notes": "Refers specifically to the combined action of getting on and off vehicles. Used as a compound noun from ⟦{乗|の}る→乗る：00511_noru⟧ (to ride/board) + ⟦{降|お}りる→降りる：00568_oriru⟧ (to get off/alight).\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{降|お}り⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: frequent boarding and alighting\n- {乗|の}り{降|お}り⟦が→が：00051_ga⟧⟦{楽|らく}→楽：02169_raku⟧: easy to get on and off\n- {乗|の}り{降|お}り⟦に→に：00314_ni⟧⟦{便利|べんり}→便利：00830_benri⟧: convenient for boarding and alighting\n- {乗|の}り{降|お}り⟦{自由|じゆう}→自由：01148_jiyuu⟧: free to get on and off (unlimited rides)\n\nUSAGE:\nOften appears on signs and announcements at train stations and bus stops. The phrase {乗|の}り{降|お}り⟦{自由|じゆう}→自由：01148_jiyuu⟧ is commonly used for day passes or unlimited-ride tickets.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20526_joukou",
+      "reading": "じょうこう",
+      "headword": "{乗降|じょうこう}",
+      "label": "getting on and off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -161,6 +170,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T15:16:43Z",
-    "modified": "2026-04-01T15:16:43Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

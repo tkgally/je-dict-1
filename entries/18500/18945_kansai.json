@@ -3,7 +3,7 @@
   "headword": "{完済|かんさい}",
   "reading": "かんさい",
   "romaji": "kansai",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "full repayment; paying off (a debt)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18945_kansai_ex1",
-      "japanese": "ローンを{完済|かんさい}した。",
+      "japanese": "⟦ローン→ローン：06579_roon⟧⟦を→を：00422_wo⟧{完済|かんさい}⟦した→する：00392_suru⟧。",
       "english": "I paid off the loan.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18945_kansai_ex2",
-      "japanese": "{住宅|じゅうたく}ローンの{完済|かんさい}まであと{五年|ごねん}かかる。",
+      "japanese": "⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦ローン→ローン：06579_roon⟧⟦の→の：09472_no⟧{完済|かんさい}⟦まで→まで：00490_made⟧あと{五年|ごねん}⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It will take five more years to pay off the mortgage.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18945_kansai_ex3",
-      "japanese": "{借金|しゃっきん}を{完済|かんさい}して、やっと{肩|かた}の{荷|に}が{下|お}りた。",
+      "japanese": "⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧{完済|かんさい}⟦して→する：00392_suru⟧、⟦やっと→やっと：01561_yatto⟧⟦{肩|かた}→肩：02192_kata⟧⟦の→の：09472_no⟧⟦{荷|に}→荷：28294_ni⟧⟦が→が：00051_ga⟧{下|お}りた。",
       "english": "After paying off all my debts, I finally felt a weight lifted from my shoulders.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "{完済|かんさい} means paying off a debt or loan completely, with nothing remaining.\n\nWORD FORMATION:\n{完|かん} (complete) + {済|さい} (settle, finish)\n\nCOMMON COLLOCATIONS:\n- ローンを{完済|かんさい}する: to pay off a loan\n- {借金|しゃっきん}を{完済|かんさい}する: to pay off a debt\n- {完済|かんさい}{証明書|しょうめいしょ}: certificate of full repayment\n- {完済|かんさい}{日|び}: date of final payment\n\nRELATED FINANCIAL TERMS:\n- {返済|へんさい}: repayment (not necessarily complete)\n- {未済|みさい}: unpaid, outstanding\n- {繰|く}り{上|あ}げ{返済|へんさい}: early repayment\n\nHOMOPHONE:\n{関西|かんさい} (Kansai region) — completely different kanji and meaning.\n\nREGISTER:\nFormal/financial. Commonly appears in banking and legal contexts.",
+  "notes": "{完済|かんさい} means paying off a debt or loan completely, with nothing remaining.\n\nFORMS:\n{完|かん} (complete) + {済|さい} (settle, finish)\n\nCOMMON COLLOCATIONS:\n- ⟦ローン→ローン：06579_roon⟧⟦を→を：00422_wo⟧{完済|かんさい}⟦する→する：00392_suru⟧: to pay off a loan\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧{完済|かんさい}⟦する→する：00392_suru⟧: to pay off a debt\n- {完済|かんさい}⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧: certificate of full repayment\n- {完済|かんさい}{日|び}: date of final payment\n\nRELATED FINANCIAL TERMS:\n- ⟦{返済|へんさい}→返済：04776_hensai⟧: repayment (not necessarily complete)\n- {未済|みさい}: unpaid, outstanding\n- ⟦{繰|く}り{上|あ}げ→繰り上げ：07803_kuriage⟧⟦{返済|へんさい}→返済：04776_hensai⟧: early repayment\n\nWATCH OUT:\n⟦{関西|かんさい}→関西：00179_kansai⟧ (Kansai region) — completely different kanji and meaning.\n\nREGISTER:\nFormal/financial. Commonly appears in banking and legal contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04776_hensai",
+      "reading": "へんさい",
+      "headword": "{返済|へんさい}",
+      "label": "repayment"
+    },
+    {
+      "type": "related",
+      "target_id": "24924_shakkinhensai",
+      "reading": "しゃっきんへんさい",
+      "headword": "{借金返済|しゃっきんへんさい}",
+      "label": "debt repayment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +164,10 @@
       "semantic": [
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-23T10:18:16Z",
-    "modified": "2026-03-29T05:39:31Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

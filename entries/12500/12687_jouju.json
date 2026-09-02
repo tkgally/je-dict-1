@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12687_jouju_ex1",
-      "japanese": "{恋|こい}が{成就|じょうじゅ}した。",
+      "japanese": "⟦{恋|こい}→恋：02208_koi⟧⟦が→が：00051_ga⟧{成就|じょうじゅ}⟦した→する：00392_suru⟧。",
       "english": "My love was fulfilled.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12687_jouju_ex2",
-      "japanese": "{願|ねが}いが{成就|じょうじゅ}するように{祈|いの}った。",
+      "japanese": "⟦{願|ねが}い→願い：03529_negai⟧⟦が→が：00051_ga⟧{成就|じょうじゅ}⟦する→する：00392_suru⟧よう⟦に→に：00314_ni⟧⟦{祈|いの}った→祈る：01198_inoru⟧。",
       "english": "I prayed that my wish would be fulfilled.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12687_jouju_ex3",
-      "japanese": "{長年|ながねん}の{夢|ゆめ}がようやく{成就|じょうじゅ}し、{彼|かれ}は{自分|じぶん}の{店|みせ}を{開|ひら}くことができた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦が→が：00051_ga⟧ようやく{成就|じょうじゅ}し、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "His long-held dream was finally realized, and he was able to open his own shop.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{成就|じょうじゅ} has a somewhat elevated, literary quality. It is commonly associated with the fulfillment of deeply held wishes, prayers, and romantic love. It appears frequently at shrines and temples in the context of prayers and charms.\n\nCOMMON COLLOCATIONS:\n- {恋愛|れんあい}{成就|じょうじゅ}: fulfillment of love (common on shrine charms)\n- {願望|がんぼう}{成就|じょうじゅ}: wish fulfillment\n- {大願|たいがん}{成就|じょうじゅ}: fulfillment of a great wish\n- {夢|ゆめ}が{成就|じょうじゅ}する: a dream is realized\n\nSIMILAR WORDS:\n- {成就|じょうじゅ}: fulfillment (literary, for wishes, love, prayers)\n- {達成|たっせい}: achievement (practical, for goals and targets)\n- {実現|じつげん}: realization (making something real, neutral)",
+  "notes": "USAGE:\n{成就|じょうじゅ} has a somewhat elevated, literary quality. It is commonly associated with the fulfillment of deeply held wishes, prayers, and romantic love. It appears frequently at shrines and temples in the context of prayers and charms.\n\nCOMMON COLLOCATIONS:\n- ⟦{恋愛|れんあい}→恋愛：12634_renai⟧{成就|じょうじゅ}: fulfillment of love (common on shrine charms)\n- ⟦{願望|がんぼう}→願望：05085_ganbou⟧{成就|じょうじゅ}: wish fulfillment\n- {大願|たいがん}{成就|じょうじゅ}: fulfillment of a great wish\n- ⟦{夢|ゆめ}→夢：01519_yume⟧⟦が→が：00051_ga⟧{成就|じょうじゅ}⟦する→する：00392_suru⟧: a dream is realized\n\nSIMILAR WORDS:\n- {成就|じょうじゅ}: fulfillment (literary, for wishes, love, prayers)\n- ⟦{達成|たっせい}→達成：04816_tassei⟧: achievement (practical, for goals and targets)\n- ⟦{実現|じつげん}→実現：03276_jitsugen⟧: realization (making something real, neutral)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "headword": "{達成|たっせい}",
       "label": "achievement",
       "target_id": "04816_tassei"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03276_jitsugen",
+      "reading": "じつげん",
+      "headword": "{実現|じつげん}",
+      "label": "realization"
     }
   ],
   "metadata": {
     "created": "2026-02-22T05:51:45Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

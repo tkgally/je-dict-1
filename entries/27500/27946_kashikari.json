@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27946_kashikari_ex1",
-      "japanese": "{友達|ともだち}とのお{金|かね}の{貸|か}し{借|か}りはしない。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦お{金|かね}→お金：00611_okane⟧⟦の→の：09472_no⟧{貸|か}し{借|か}りはしない。",
       "english": "I don't lend or borrow money with friends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27946_kashikari_ex2",
-      "japanese": "{貸|か}し{借|か}りはきちんと{記録|きろく}しておく。",
+      "japanese": "{貸|か}し{借|か}り⟦は→は：00079_ha⟧⟦きちんと→きちんと：00222_kichinto⟧⟦{記録|きろく}して→記録する：25341_kirokusuru⟧おく。",
       "english": "I keep proper records of what is lent and borrowed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27946_kashikari_ex3",
-      "japanese": "{彼|かれ}とは{貸|か}し{借|か}りがないので、{気持|きも}ちよく{付|つ}き{合|あ}える。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{貸|か}し{借|か}り⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧で、⟦{気持|きも}ちよく→気持ちいい：09583_kimochiii⟧⟦{付|つ}き{合|あ}える→付き合う：02291_tsukiau⟧。",
       "english": "I owe him nothing and he owes me nothing, so we can get along comfortably.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {貸|か}し (lending) + {借|か}り (borrowing). Refers to the two-way relationship of debts and credits, whether of money or of favors.\n\nCOMMON COLLOCATIONS:\n- {貸|か}し{借|か}りがない: to be even; owe nothing either way\n- お{金|かね}の{貸|か}し{借|か}り: lending and borrowing of money\n\nSIMILAR WORDS:\n- {借金|しゃっきん}: debt — only the borrowed (owed) side\n- {貸|か}し: a loan given; a favor owed to oneself",
+  "notes": "Compound of ⟦{貸|か}し→貸し：02578_kashi⟧ (lending) + ⟦{借|か}り→借りる：00532_kariru⟧ (borrowing). Refers to the two-way relationship of debts and credits, whether of money or of favors.\n\nCOMMON COLLOCATIONS:\n- {貸|か}し{借|か}り⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: to be even; owe nothing either way\n- ⟦お{金|かね}→お金：00611_okane⟧⟦の→の：09472_no⟧{貸|か}し{借|か}り: lending and borrowing of money\n\nSIMILAR WORDS:\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧: debt — only the borrowed (owed) side\n- ⟦{貸|か}し→貸し：02578_kashi⟧: a loan given; a favor owed to oneself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03203_shakkin",
+      "reading": "しゃっきん",
+      "headword": "{借金|しゃっきん}",
+      "label": "debt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money", "daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "money",
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

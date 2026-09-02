@@ -3,7 +3,7 @@
   "headword": "{小型化|こがたか}",
   "reading": "こがたか",
   "romaji": "kogataka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "miniaturization; downsizing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20750_kogataka_ex1",
-      "japanese": "{機器|きき}の{小型化|こがたか}が{進|すす}む。",
+      "japanese": "⟦{機器|きき}→機器：13180_kiki⟧⟦の→の：09472_no⟧{小型化|こがたか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧。",
       "english": "Miniaturization of devices is advancing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20750_kogataka_ex2",
-      "japanese": "カメラの{小型化|こがたか}に{成功|せいこう}した。",
+      "japanese": "⟦カメラ→カメラ：04417_kamera⟧⟦の→の：09472_no⟧{小型化|こがたか}⟦に→に：00314_ni⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "They succeeded in miniaturizing the camera.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20750_kogataka_ex3",
-      "japanese": "{半導体|はんどうたい}{技術|ぎじゅつ}の{発展|はってん}により、{電子機器|でんしきき}の{小型化|こがたか}と{高性能化|こうせいのうか}が{同時|どうじ}に{実現|じつげん}した。",
+      "japanese": "⟦{半導体|はんどうたい}→半導体：09248_handoutai⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{電子機器|でんしきき}→電子機器：18079_denshikiki⟧⟦の→の：09472_no⟧{小型化|こがたか}⟦と→と：00512_to⟧{高性能化|こうせいのうか}⟦が→が：00051_ga⟧⟦{同時|どうじ}→同時：01592_douji⟧⟦に→に：00314_ni⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧。",
       "english": "Advances in semiconductor technology enabled simultaneous miniaturization and improved performance of electronic devices.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {小型|こがた} (small size, compact) and {化|か} (transformation, -ization). Functions as a suru-verb: {小型化|こがたか}する (to miniaturize).\n\nUSAGE:\nA key term in technology, manufacturing, and engineering discussions. Japan's electronics industry has been particularly associated with {小型化|こがたか} since the post-war era.\n\nCOMMON COLLOCATIONS:\n- {小型化|こがたか}が{進|すす}む — miniaturization advances\n- {小型化|こがたか}に{成功|せいこう}する — to succeed in miniaturizing\n- {小型化|こがたか}を{図|はか}る — to aim for miniaturization\n- {小型化|こがたか}と{軽量化|けいりょうか} — miniaturization and weight reduction\n\nRELATED TERMS:\n- {軽量化|けいりょうか} — weight reduction; often paired with {小型化|こがたか}\n- {薄型化|うすがたか} — making thinner; another direction of size reduction\n- {大型化|おおがたか} — making larger; the opposite process",
+  "notes": "A compound of ⟦{小型|こがた}→小型：12460_kogata⟧ (small size, compact) and ⟦{化|か}→〜化：28335_ka⟧ (transformation, -ization). Functions as a suru-verb: {小型化|こがたか}⟦する→する：00392_suru⟧ (to miniaturize).\n\nUSAGE:\nA key term in technology, manufacturing, and engineering discussions. Japan's electronics industry has been particularly associated with {小型化|こがたか} since the post-war era.\n\nCOMMON COLLOCATIONS:\n- {小型化|こがたか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧ — miniaturization advances\n- {小型化|こがたか}⟦に→に：00314_ni⟧⟦{成功|せいこう}する→成功する：21445_seikousuru⟧ — to succeed in miniaturizing\n- {小型化|こがたか}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧ — to aim for miniaturization\n- {小型化|こがたか}⟦と→と：00512_to⟧⟦{軽量化|けいりょうか}→軽量化：19238_keiryouka⟧ — miniaturization and weight reduction\n\nRELATED WORDS:\n- ⟦{軽量化|けいりょうか}→軽量化：19238_keiryouka⟧ — weight reduction; often paired with {小型化|こがたか}\n- ⟦{薄型化|うすがたか}→薄型化：26533_usugataka⟧ — making thinner; another direction of size reduction\n- {大型化|おおがたか} — making larger; the opposite process",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19238_keiryouka",
+      "reading": "けいりょうか",
+      "headword": "{軽量化|けいりょうか}",
+      "label": "weight reduction"
+    },
+    {
+      "type": "related",
+      "target_id": "26533_usugataka",
+      "reading": "うすがたか",
+      "headword": "{薄型化|うすがたか}",
+      "label": "making thinner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T15:11:11Z",
-    "modified": "2026-03-30T15:11:11Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

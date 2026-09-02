@@ -3,7 +3,7 @@
   "headword": "{誘|さそ}い{出|だ}す",
   "reading": "さそいだす",
   "romaji": "sasoidasu",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to lure out; to entice out; to coax out",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21382_sasoidasu_ex1",
-      "japanese": "{友達|ともだち}を{外|そと}に{誘|さそ}い{出|だ}した。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧{誘|さそ}い{出|だ}した。",
       "english": "I coaxed my friend into coming outside.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21382_sasoidasu_ex2",
-      "japanese": "{犯人|はんにん}を{建物|たてもの}から{誘|さそ}い{出|だ}す{作戦|さくせん}を{立|た}てた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦から→から：00504_kara⟧{誘|さそ}い{出|だ}す⟦{作戦|さくせん}→作戦：09673_sakusen⟧⟦を→を：00422_wo⟧⟦{立|た}てた→立てる：01196_tateru⟧。",
       "english": "They devised a plan to lure the suspect out of the building.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21382_sasoidasu_ex3",
-      "japanese": "{引|ひ}きこもりの{息子|むすこ}を{少|すこ}しずつ{外|そと}に{誘|さそ}い{出|だ}すことに{成功|せいこう}した。",
+      "japanese": "⟦{引|ひ}きこもり→引きこもり：10491_hikikomori⟧⟦の→の：09472_no⟧⟦{息子|むすこ}→息子：00799_musuko⟧⟦を→を：00422_wo⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧{誘|さそ}い{出|だ}すこと⟦に→に：00314_ni⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "I gradually succeeded in coaxing my reclusive son to come outside.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {誘|さそ}う (to invite, to lure) and {出|だ}す (to take out). The nuance ranges from gentle persuasion to deliberate deception depending on context. In crime or mystery contexts, it often means luring someone into a trap.\n\nCOMMON COLLOCATIONS:\n- {外|そと}に{誘|さそ}い{出|だ}す: to lure/coax someone outside\n- {巧|たく}みに{誘|さそ}い{出|だ}す: to skillfully lure out\n- {罠|わな}に{誘|さそ}い{出|だ}す: to lure into a trap\n\nSIMILAR WORDS:\n- {誘|さそ}う: to invite; to lure — the base verb, broader in meaning\n- {おびき{出|だ}す: to lure out — stronger sense of deception, often used in crime contexts\n- {連|つ}れ{出|だ}す: to take someone out — more direct physical action, less persuasion involved",
+  "notes": "Compound of ⟦{誘|さそ}う→誘う：01947_sasou⟧ (to invite, to lure) and ⟦{出|だ}す→出す：01087_dasu⟧ (to take out). The nuance ranges from gentle persuasion to deliberate deception depending on context. In crime or mystery contexts, it often means luring someone into a trap.\n\nCOMMON COLLOCATIONS:\n- ⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧{誘|さそ}い{出|だ}す: to lure/coax someone outside\n- ⟦{巧|たく}み→巧み：07153_takumi⟧⟦に→に：00314_ni⟧{誘|さそ}い{出|だ}す: to skillfully lure out\n- ⟦{罠|わな}→罠：13816_wana⟧⟦に→に：00314_ni⟧{誘|さそ}い{出|だ}す: to lure into a trap\n\nSIMILAR WORDS:\n- ⟦{誘|さそ}う→誘う：01947_sasou⟧: to invite; to lure — the base verb, broader in meaning\n- {おびき{出|だ}す: to lure out — stronger sense of deception, often used in crime contexts\n- {連|つ}れ{出|だ}す: to take someone out — more direct physical action, less persuasion involved",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01947_sasou",
+      "reading": "さそう",
+      "headword": "{誘|さそ}う",
+      "label": "to invite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17099_tsuredasu",
+      "reading": "つれだす",
+      "headword": "{連|つ}れ{出|だ}す",
+      "label": "to take someone out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-04-02T02:05:38Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "godan",

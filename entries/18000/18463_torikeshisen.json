@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18463_torikeshisen_ex1",
-      "japanese": "{間違|まちが}えた{部分|ぶぶん}に{取|と}り{消|け}し{線|せん}を{引|ひ}いた。",
+      "japanese": "⟦{間違|まちが}えた→間違える：01109_machigaeru⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦に→に：00314_ni⟧{取|と}り{消|け}し{線|せん}⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧。",
       "english": "I drew a strikethrough line on the incorrect part.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18463_torikeshisen_ex2",
-      "japanese": "{取|と}り{消|け}し{線|せん}は{二重線|にじゅうせん}で{引|ひ}いてください。",
+      "japanese": "{取|と}り{消|け}し{線|せん}⟦は→は：00079_ha⟧⟦{二重線|にじゅうせん}→二重線：10288_nijuusen⟧⟦で→で：00502_de⟧⟦{引|ひ}いて→引く：01978_hiku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please draw the deletion line as a double line.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18463_torikeshisen_ex3",
-      "japanese": "ワープロで{取|と}り{消|け}し{線|せん}の{書式|しょしき}を{設定|せってい}する{方法|ほうほう}を{教|おし}えてください。",
+      "japanese": "⟦ワープロ→ワープロ：01544_waapuro⟧⟦で→で：00502_de⟧{取|と}り{消|け}し{線|せん}⟦の→の：09472_no⟧⟦{書式|しょしき}→書式：15840_shoshiki⟧⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tell me how to set strikethrough formatting in the word processor.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "In formal Japanese documents (especially official forms), mistakes are corrected by drawing a {二重線|にじゅうせん} (double line) through the error and stamping the correction with a personal seal ({訂正印|ていせいいん}). Simple erasure is not acceptable on official documents.\n\nCOMMON COLLOCATIONS:\n- {取|と}り{消|け}し{線|せん}を{引|ひ}く — to draw a strikethrough\n- {二重|にじゅう}{取|と}り{消|け}し{線|せん} — double strikethrough\n- {取|と}り{消|け}し{線|せん}で{消|け}す — to cross out with a strikethrough\n\nRELATED WORDS:\n- {取|と}り{消|け}し — cancellation\n- {訂正|ていせい} — correction\n- {二重線|にじゅうせん} — double line",
+  "notes": "In formal Japanese documents (especially official forms), mistakes are corrected by drawing a ⟦{二重線|にじゅうせん}→二重線：10288_nijuusen⟧ (double line) through the error and stamping the correction with a personal seal (⟦{訂正印|ていせいいん}→訂正印：10287_teiseiin⟧). Simple erasure is not acceptable on official documents.\n\nCOMMON COLLOCATIONS:\n- {取|と}り{消|け}し{線|せん}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ — to draw a strikethrough\n- ⟦{二重|にじゅう}→二重：16893_nijuu⟧{取|と}り{消|け}し{線|せん} — double strikethrough\n- {取|と}り{消|け}し{線|せん}⟦で→で：00502_de⟧⟦{消|け}す→消す：00528_kesu⟧ — to cross out with a strikethrough\n\nRELATED WORDS:\n- {取|と}り{消|け}し — cancellation\n- ⟦{訂正|ていせい}→訂正：16493_teisei⟧ — correction\n- ⟦{二重線|にじゅうせん}→二重線：10288_nijuusen⟧ — double line",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16493_teisei",
+      "reading": "ていせい",
+      "headword": "{訂正|ていせい}",
+      "label": "correction"
+    },
+    {
+      "type": "related",
+      "target_id": "10288_nijuusen",
+      "reading": "にじゅうせん",
+      "headword": "{二重線|にじゅうせん}",
+      "label": "double line"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-22T02:35:14Z",
-    "modified": "2026-07-25T21:35:01Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

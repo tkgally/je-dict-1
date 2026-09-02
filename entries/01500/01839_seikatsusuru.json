@@ -2,7 +2,7 @@
   "id": "01839_seikatsusuru",
   "headword": "{生活|せいかつ}する",
   "reading": "せいかつする",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "life, living",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "01839_seikatsusuru_ex1",
-      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦で→で：00502_de⟧{生活|せいかつ}しています。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦で→で：00502_de⟧{生活|せいかつ}して⟦います→いる：00495_iru⟧。",
       "english": "I live in Tokyo.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "01839_seikatsusuru_ex2",
-      "japanese": "⟦{一人|ひとり}→一人：00630_hitori⟧⟦{暮|ぐ}らし→暮らし：02670_kurashi⟧⟦の→の：09472_no⟧{生活|せいかつ}⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧です。",
+      "japanese": "⟦{一人|ひとり}→一人：00630_hitori⟧⟦{暮|ぐ}らし→暮らし：02670_kurashi⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧です。",
       "english": "Living alone is tough.",
       "notes": null,
       "has_audio": false,
@@ -153,11 +153,26 @@
       ]
     }
   ],
-  "notes": "{生活|せいかつ}する means to live or make a living, focusing on the practical aspects of daily existence — where you live, how you support yourself, and your daily routines.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {生活|せいかつ}する\n\nCOMMON COLLOCATIONS:\n- {生活|せいかつ}する: to live, to make a living\n- ⟦{日常|にちじょう}→日常：01595_nichijou⟧{生活|せいかつ}: daily life\n- {生活|せいかつ}⟦{費|ひ}→費：09877_hi⟧: living expenses\n- {生活|せいかつ}⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧: lifestyle habits\n- {生活|せいかつ}⟦{水準|すいじゅん}→水準：03357_suijun⟧: standard of living\n- {生活|せいかつ}⟦{環境|かんきょう}→環境：00174_kankyou⟧: living environment\n\nSIMILAR WORDS:\n- ⟦{暮|く}らし→暮らし：02670_kurashi⟧: life, living (warmer, more colloquial tone)\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧: life (one's entire life span, life as a journey)\n- {生活|せいかつ}: daily living (practical, routine aspects)",
-  "cross_references": [],
+  "notes": "{生活|せいかつ}する means to live or make a living, focusing on the practical aspects of daily existence — where you live, how you support yourself, and your daily routines.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {生活|せいかつ}する\n\nCOMMON COLLOCATIONS:\n- {生活|せいかつ}する: to live, to make a living\n- ⟦{日常|にちじょう}→日常：01595_nichijou⟧{生活|せいかつ}: daily life\n- {生活|せいかつ}⟦{費|ひ}→費：09877_hi⟧: living expenses\n- {生活|せいかつ}⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧: lifestyle habits\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦{水準|すいじゅん}→水準：03357_suijun⟧: standard of living\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧: living environment\n\nSIMILAR WORDS:\n- ⟦{暮|く}らし→暮らし：02670_kurashi⟧: life, living (warmer, more colloquial tone)\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧: life (one's entire life span, life as a journey)\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧: daily living (practical, routine aspects)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02670_kurashi",
+      "reading": "くらし",
+      "headword": "{暮|く}らし",
+      "label": "life, living"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03355_jinsei",
+      "reading": "じんせい",
+      "headword": "{人生|じんせい}",
+      "label": "life"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:32:29Z",
-    "modified": "2026-05-17T14:07:10Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

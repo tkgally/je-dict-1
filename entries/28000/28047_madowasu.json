@@ -3,7 +3,7 @@
   "headword": "{惑|まど}わす",
   "reading": "まどわす",
   "romaji": "madowasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to mislead; to confuse; to lead astray",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28047_madowasu_ex1",
-      "japanese": "{人|ひと}を{惑|まど}わす。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{惑|まど}わす。",
       "english": "To mislead people.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28047_madowasu_ex2",
-      "japanese": "うわさが{世間|せけん}を{惑|まど}わした。",
+      "japanese": "うわさ⟦が→が：00051_ga⟧⟦{世間|せけん}→世間：03299_seken⟧⟦を→を：00422_wo⟧{惑|まど}わした。",
       "english": "The rumor confused the public.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28047_madowasu_ex3",
-      "japanese": "{誇大|こだい}な{広告|こうこく}は{消費者|しょうひしゃ}を{惑|まど}わすことがある。",
+      "japanese": "⟦{誇大|こだい}→誇大：28046_kodai⟧な⟦{広告|こうこく}→広告：02747_koukoku⟧⟦は→は：00079_ha⟧⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧⟦を→を：00422_wo⟧{惑|まど}わすこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Exaggerated advertising can mislead consumers.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Transitive godan verb. Xを{惑|まど}わす.\n\nImplies leading someone away from sound judgment, whether by rumor, temptation, or deliberate deception.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}を{惑|まど}わす: to unsettle/disturb the heart\n- {人|ひと}の{目|め}を{惑|まど}わす: to deceive the eye\n- {判断|はんだん}を{惑|まど}わす: to cloud one's judgment\n\nSIMILAR WORDS:\n- だます: to deceive — emphasizes outright lying\n- {迷|まよ}わせる: to make someone hesitate or lose their way",
+  "notes": "TRANSITIVITY: Transitive godan verb. X⟦を→を：00422_wo⟧{惑|まど}わす.\n\nImplies leading someone away from sound judgment, whether by rumor, temptation, or deliberate deception.\n\nCOMMON COLLOCATIONS:\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧{惑|まど}わす: to unsettle/disturb the heart\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{惑|まど}わす: to deceive the eye\n- ⟦{判断|はんだん}→判断：03571_handan⟧⟦を→を：00422_wo⟧{惑|まど}わす: to cloud one's judgment\n\nSIMILAR WORDS:\n- だます: to deceive — emphasizes outright lying\n- ⟦{迷|まよ}わせる→迷う：02426_mayou⟧: to make someone hesitate or lose their way",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02286_damasu",
+      "reading": "だます",
+      "headword": "{騙|だま}す",
+      "label": "to deceive"
+    },
+    {
+      "type": "related",
+      "target_id": "19708_bakasu",
+      "reading": "ばかす",
+      "headword": "{化|ば}かす",
+      "label": "to trick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25475_yuuwakusuru",
+      "reading": "ゆうわくする",
+      "headword": "{誘惑|ゆうわく}する",
+      "label": "to tempt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +82,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-05-25T02:04:35Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "godan",

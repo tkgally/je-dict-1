@@ -3,7 +3,7 @@
   "headword": "ぽっちゃり",
   "reading": "ぽっちゃり",
   "romaji": "pocchari",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "chubby; plump; pleasantly round",
   "definitions": [
     {
@@ -15,31 +15,67 @@
   "examples": [
     {
       "id": "22777_pocchari_ex1",
-      "japanese": "ぽっちゃりした{女|おんな}の{子|こ}。",
+      "japanese": "ぽっちゃり⟦した→する：00392_suru⟧⟦{女|おんな}の{子|こ}→女の子：02865_onnanoko⟧。",
       "english": "A chubby girl.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22777_pocchari_ex2",
-      "japanese": "{最近|さいきん}ちょっとぽっちゃりしてきた。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦ちょっと→ちょっと：00595_chotto⟧ぽっちゃりしてきた。",
       "english": "I've gotten a bit plump recently.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22777_pocchari_ex3",
-      "japanese": "ぽっちゃり{体型|たいけい}の{方|かた}が{似合|にあ}う{服|ふく}もたくさんあります。",
+      "japanese": "ぽっちゃり⟦{体型|たいけい}→体型：16561_taikei⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦が→が：00051_ga⟧⟦{似合|にあ}う→似合う：02134_niau⟧⟦{服|ふく}→服：00695_fuku⟧⟦も→も：00484_mo⟧⟦たくさん→たくさん：00597_takusan⟧⟦あります→ある：00006_aru⟧。",
       "english": "There are also plenty of clothes that suit people with a plump body type.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A mimetic word (onomatopoeia/phenomime) that describes a soft, rounded body shape. Unlike {太|ふと}い or {太|ふと}っている, ぽっちゃり has a much gentler and more affectionate tone. It is often used as a softer, more polite alternative when describing someone's weight.\n\nCOMMON COLLOCATIONS:\n- ぽっちゃりした: plump, chubby (modifying a noun)\n- ぽっちゃり{体型|たいけい}: plump body type\n- ぽっちゃり{系|けい}: the chubby type (used in dating/fashion contexts)\n- ぽっちゃり{女子|じょし}: chubby girl (media/fashion term)\n\nSIMILAR WORDS:\n- {太|ふと}い: fat — more direct and potentially offensive\n- ふくよか: plump, full-figured — more elegant and literary\n- がっちり: solidly built, stocky — implies muscularity rather than softness\n- でっぷり: corpulent, portly — describes a heavier build, often for middle-aged men\n\nCULTURAL NOTE:\nぽっちゃり has become widely used in Japanese fashion and media. \"ぽっちゃり{系|けい}\" is a recognized body type category in fashion magazines and dating profiles, treated positively.",
+  "notes": "A mimetic word (onomatopoeia/phenomime) that describes a soft, rounded body shape. Unlike ⟦{太|ふと}い→太い：02955_futoi⟧ or ⟦{太|ふと}っている→太る：01190_futoru⟧, ぽっちゃり has a much gentler and more affectionate tone. It is often used as a softer, more polite alternative when describing someone's weight.\n\nCOMMON COLLOCATIONS:\n- ぽっちゃり⟦した→する：00392_suru⟧: plump, chubby (modifying a noun)\n- ぽっちゃり⟦{体型|たいけい}→体型：16561_taikei⟧: plump body type\n- ぽっちゃり⟦{系|けい}→〜系：28466_kei⟧: the chubby type (used in dating/fashion contexts)\n- ぽっちゃり⟦{女子|じょし}→女子：03350_joshi⟧: chubby girl (media/fashion term)\n\nSIMILAR WORDS:\n- ⟦{太|ふと}い→太い：02955_futoi⟧: fat — more direct and potentially offensive\n- ふくよか: plump, full-figured — more elegant and literary\n- ⟦がっちり→がっちり：05653_gacchiri⟧: solidly built, stocky — implies muscularity rather than softness\n- でっぷり: corpulent, portly — describes a heavier build, often for middle-aged men\n\nCULTURAL NOTE:\nぽっちゃり has become widely used in Japanese fashion and media. \"ぽっちゃり⟦{系|けい}→〜系：28466_kei⟧\" is a recognized body type category in fashion magazines and dating profiles, treated positively.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02955_futoi",
+      "reading": "ふとい",
+      "headword": "{太|ふと}い",
+      "label": "fat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05653_gacchiri",
+      "reading": "がっちり",
+      "headword": "がっちり",
+      "label": "solidly built, stocky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06935_bukubuku",
+      "reading": "ぶくぶく",
+      "headword": "ぶくぶく",
+      "label": "bubbling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26081_pukupuku",
+      "reading": "ぷくぷく",
+      "headword": "ぷくぷく",
+      "label": "plump"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -47,12 +83,15 @@
         "adverb",
         "onomatopoeia"
       ],
-      "semantic": ["appearance", "descriptive"],
+      "semantic": [
+        "appearance",
+        "descriptive"
+      ],
       "domain": [],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T16:34:33Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

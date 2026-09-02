@@ -9,47 +9,73 @@
     {
       "sense_number": 1,
       "gloss": "somen; thin wheat noodles (usually served cold)",
-      "explanation": "Very thin Japanese wheat noodles, typically eaten cold in summer with a dipping sauce ({めんつゆ}). Often written in kana, sometimes as {素麺|そうめん}."
+      "explanation": "Very thin Japanese wheat noodles, typically eaten cold in summer with a dipping sauce (めんつゆ). Often written in kana, sometimes as {素麺|そうめん}."
     }
   ],
   "examples": [
     {
       "id": "28757_soumen_ex1",
-      "japanese": "{夏|なつ}はそうめんが{食|た}べたくなる。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧そうめん⟦が→が：00051_ga⟧⟦{食|た}べたく→食べる：00396_taberu⟧⟦なる→なる：01970_naru⟧。",
       "english": "I crave somen in the summer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28757_soumen_ex2",
-      "japanese": "そうめんを{冷水|れいすい}で{締|し}めた。",
+      "japanese": "そうめん⟦を→を：00422_wo⟧⟦{冷水|れいすい}→冷水：22480_reisui⟧⟦で→で：00502_de⟧⟦{締|し}めた→締める：10057_shimeru⟧。",
       "english": "I rinsed the somen in cold water to firm it up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28757_soumen_ex3",
-      "japanese": "{流|なが}しそうめんは{竹|たけ}の{樋|とい}を{流|なが}れてくる{麺|めん}を{箸|はし}でつかんで{食|た}べる{夏|なつ}の{遊|あそ}びだ。",
+      "japanese": "⟦{流|なが}し→流し：18855_nagashi⟧そうめん⟦は→は：00079_ha⟧⟦{竹|たけ}→竹：02220_take⟧⟦の→の：09472_no⟧{樋|とい}⟦を→を：00422_wo⟧⟦{流|なが}れて→流れる：01969_nagareru⟧くる⟦{麺|めん}→麺：14644_men⟧⟦を→を：00422_wo⟧⟦{箸|はし}→箸：01026_hashi⟧⟦で→で：00502_de⟧つかんで⟦{食|た}べる→食べる：00396_taberu⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦の→の：09472_no⟧⟦{遊|あそ}び→遊び：01285_asobi⟧だ。",
       "english": "Nagashi-somen is a summer pastime where you catch flowing noodles in a bamboo flume with your chopsticks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Very thin (about 1.3 mm or less) wheat noodles stretched with vegetable oil during production. A summer staple, usually eaten cold with a soy-based dipping sauce. Some regional varieties (e.g., {三輪|みわ}そうめん, {揖保乃糸|いぼのいと}) are well-known.\n\nCOMMON COLLOCATIONS:\n- そうめんを{茹|ゆ}でる: to boil somen\n- {冷|ひ}やしそうめん: chilled somen\n- {流|なが}しそうめん: flowing-somen (summer dish)\n- そうめんつゆ: somen dipping sauce\n\nSIMILAR WORDS:\n- {冷|ひ}や{麦|むぎ}: slightly thicker cold wheat noodles\n- うどん: much thicker wheat noodles, usually eaten hot\n- {蕎麦|そば}: buckwheat noodles, eaten hot or cold",
+  "notes": "Very thin (about 1.3 mm or less) wheat noodles stretched with vegetable oil during production. A summer staple, usually eaten cold with a soy-based dipping sauce. Some regional varieties (e.g., {三輪|みわ}そうめん, {揖保乃糸|いぼのいと}) are well-known.\n\nCOMMON COLLOCATIONS:\n- そうめん⟦を→を：00422_wo⟧⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧: to boil somen\n- ⟦{冷|ひ}やし→冷やす：02403_hiyasu⟧そうめん: chilled somen\n- ⟦{流|なが}し→流し：18855_nagashi⟧そうめん: flowing-somen (summer dish)\n- そうめんつゆ: somen dipping sauce\n\nSIMILAR WORDS:\n- {冷|ひ}や{麦|むぎ}: slightly thicker cold wheat noodles\n- ⟦うどん→うどん：05182_udon⟧: much thicker wheat noodles, usually eaten hot\n- ⟦{蕎麦|そば}→蕎麦：14329_soba⟧: buckwheat noodles, eaten hot or cold",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05182_udon",
+      "reading": "うどん",
+      "headword": "うどん",
+      "label": "much thicker wheat noodles, usually…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14329_soba",
+      "reading": "そば",
+      "headword": "{蕎麦|そば}",
+      "label": "buckwheat noodles, eaten hot or cold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

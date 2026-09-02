@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09231_unpan_ex1",
-      "japanese": "{荷物|にもつ}を{運搬|うんぱん}する。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{運搬|うんぱん}⟦する→する：00392_suru⟧。",
       "english": "To transport luggage.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09231_unpan_ex2",
-      "japanese": "{運搬|うんぱん}{費用|ひよう}が{高|たか}い。",
+      "japanese": "{運搬|うんぱん}{費用|ひよう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The transportation costs are high.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09231_unpan_ex3",
-      "japanese": "{土砂|どしゃ}の{運搬|うんぱん}にトラックを{使|つか}う。",
+      "japanese": "⟦{土砂|どしゃ}→土砂：17540_dosha⟧⟦の→の：09472_no⟧{運搬|うんぱん}⟦に→に：00314_ni⟧⟦トラック→トラック：03863_torakku⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "We use trucks to transport soil and sand.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{運搬|うんぱん} refers to moving goods or materials from one place to another.\n\nWORD COMPOSITION:\n- {運|うん}: carry, transport\n- {搬|ぱん}: convey, carry\n\nCOMMON COLLOCATIONS:\n- {運搬|うんぱん}する: to transport, to convey\n- {運搬|うんぱん}{費用|ひよう}/{運搬|うんぱん}{費|ひ}: transportation cost\n- {運搬|うんぱん}{車|しゃ}: transport vehicle\n- {運搬|うんぱん}{業者|ぎょうしゃ}: transport company, carrier\n- {運搬|うんぱん}{作業|さぎょう}: transport work\n\nRELATED TERMS:\n- {輸送|ゆそう}: transportation (more formal, larger scale)\n- {配送|はいそう}: delivery\n- {運送|うんそう}: shipping, freight",
+  "notes": "{運搬|うんぱん} refers to moving goods or materials from one place to another.\n\nWORD COMPOSITION:\n- ⟦{運|うん}→運：02143_un⟧: carry, transport\n- {搬|ぱん}: convey, carry\n\nCOMMON COLLOCATIONS:\n- {運搬|うんぱん}⟦する→する：00392_suru⟧: to transport, to convey\n- {運搬|うんぱん}{費用|ひよう}/{運搬|うんぱん}{費|ひ}: transportation cost\n- {運搬|うんぱん}{車|しゃ}: transport vehicle\n- {運搬|うんぱん}{業者|ぎょうしゃ}: transport company, carrier\n- {運搬|うんぱん}⟦{作業|さぎょう}→作業：02775_sagyou⟧: transport work\n\nRELATED WORDS:\n- ⟦{輸送|ゆそう}→輸送：04084_yusou⟧: transportation (more formal, larger scale)\n- ⟦{配送|はいそう}→配送：05464_haisou⟧: delivery\n- ⟦{運送|うんそう}→運送：09791_unsou⟧: shipping, freight",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,39 @@
       "headword": "{輸送|ゆそう}",
       "label": "transportation",
       "target_id": "04084_yusou"
+    },
+    {
+      "type": "related",
+      "target_id": "05464_haisou",
+      "reading": "はいそう",
+      "headword": "{配送|はいそう}",
+      "label": "delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "09791_unsou",
+      "reading": "うんそう",
+      "headword": "{運送|うんそう}",
+      "label": "shipping, freight"
+    },
+    {
+      "type": "related",
+      "target_id": "03164_mochihakobi",
+      "reading": "もちはこび",
+      "headword": "{持|も}ち{運|はこ}び",
+      "label": "carrying, portability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24543_hansou",
+      "reading": "はんそう",
+      "headword": "{搬送|はんそう}",
+      "label": "transport"
     }
   ],
   "metadata": {
     "created": "2026-02-01T02:46:50Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +187,8 @@
         "transportation",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

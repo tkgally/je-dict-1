@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28882_ichinenkan_ex1",
-      "japanese": "{一年間|いちねんかん}{日本|にほん}に{住|す}んだ。",
+      "japanese": "{一年間|いちねんかん}⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{住|す}んだ→住む：00673_sumu⟧。",
       "english": "I lived in Japan for one year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28882_ichinenkan_ex2",
-      "japanese": "{一年間|いちねんかん}の{留学|りゅうがく}{経験|けいけん}がある。",
+      "japanese": "{一年間|いちねんかん}⟦の→の：09472_no⟧⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have one year of study-abroad experience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28882_ichinenkan_ex3",
-      "japanese": "この{保険|ほけん}は{一年間|いちねんかん}{有効|ゆうこう}で、{毎年|まいとし}{更新|こうしん}する{必要|ひつよう}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{保険|ほけん}→保険：01509_hoken⟧⟦は→は：00079_ha⟧{一年間|いちねんかん}⟦{有効|ゆうこう}→有効：03645_yuukou⟧で、⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This insurance is valid for one year and must be renewed annually.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Adds the duration suffix {間|かん} to {一年|いちねん}, making the meaning unambiguously 'for one year' rather than 'first year.'\n\nCOMMON PATTERNS:\n- {一年間|いちねんかん}{続|つづ}く: to continue for one year\n- {一年間|いちねんかん}の{予定|よてい}: a one-year plan\n- {一年間|いちねんかん}{有効|ゆうこう}: valid for one year\n\nSIMILAR WORDS:\n- {一年|いちねん}: one year; first year — shorter, can be ambiguous between duration and ordinal\n- {一年中|いちねんじゅう}: all year round; throughout the year",
+  "notes": "Adds the duration suffix ⟦{間|かん}→〜間：28469_kan⟧ to ⟦{一年|いちねん}→一年：10994_ichinen⟧, making the meaning unambiguously 'for one year' rather than 'first year.'\n\nCOMMON PATTERNS:\n- {一年間|いちねんかん}⟦{続|つづ}く→続く：00903_tsuzuku⟧: to continue for one year\n- {一年間|いちねんかん}⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧: a one-year plan\n- {一年間|いちねんかん}⟦{有効|ゆうこう}→有効：03645_yuukou⟧: valid for one year\n\nSIMILAR WORDS:\n- ⟦{一年|いちねん}→一年：10994_ichinen⟧: one year; first year — shorter, can be ambiguous between duration and ordinal\n- ⟦{一年中|いちねんじゅう}→一年中：17104_ichinenjuu⟧: all year round; throughout the year",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17104_ichinenjuu",
+      "reading": "いちねんじゅう",
+      "headword": "{一年中|いちねんじゅう}",
+      "label": "all year round"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-period"],
+      "politeness": "plain",
+      "semantic": [
+        "time-period"
+      ],
       "domain": []
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-06-06T04:04:02Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

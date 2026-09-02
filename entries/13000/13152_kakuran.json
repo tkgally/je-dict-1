@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13152_kakuran_ex1",
-      "japanese": "{敵|てき}の{陣形|じんけい}を{撹乱|かくらん}した。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{陣形|じんけい}→陣形：23476_jinkei⟧⟦を→を：00422_wo⟧{撹乱|かくらん}⟦した→する：00392_suru⟧。",
       "english": "We disrupted the enemy's formation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13152_kakuran_ex2",
-      "japanese": "デマで{世論|よろん}を{撹乱|かくらん}しようとする{勢力|せいりょく}がある。",
+      "japanese": "⟦デマ→デマ：16135_dema⟧⟦で→で：00502_de⟧⟦{世論|よろん}→世論：16145_yoron⟧⟦を→を：00422_wo⟧{撹乱|かくらん}⟦しよう→する：00392_suru⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are forces trying to throw public opinion into confusion with false rumors.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13152_kakuran_ex3",
-      "japanese": "{相手|あいて}チームは{撹乱|かくらん}{作戦|さくせん}に{出|で}て、こちらのペースを{乱|みだ}してきた。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧{撹乱|かくらん}⟦{作戦|さくせん}→作戦：09673_sakusen⟧⟦に→に：00314_ni⟧⟦{出|で}て→出る：00513_deru⟧、⟦こちら→こちら：00960_kochira⟧⟦の→の：09472_no⟧⟦ペース→ペース：11173_peesu⟧⟦を→を：00422_wo⟧⟦{乱|みだ}して→乱す：11412_midasu⟧きた。",
       "english": "The opposing team adopted disruption tactics and threw off our pace.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe kanji {撹|かく} (also written {攪|かく}) means to stir up or agitate, and {乱|らん} means disorder. Together they mean to throw into disorder by agitation. Used in military, political, and strategic contexts, as well as in science ({撹乱|かくらん} of ecosystems). The suru verb form {撹乱|かくらん}する takes a direct object with を.\n\nCOMMON COLLOCATIONS:\n- {撹乱|かくらん}{作戦|さくせん}: disruption tactics\n- {撹乱|かくらん}{工作|こうさく}: sabotage operations\n- {秩序|ちつじょ}を{撹乱|かくらん}する: to disrupt order\n- {生態系|せいたいけい}の{撹乱|かくらん}: ecological disturbance",
+  "notes": "USAGE:\nThe kanji {撹|かく} (also written {攪|かく}) means to stir up or agitate, and {乱|らん} means disorder. Together they mean to throw into disorder by agitation. Used in military, political, and strategic contexts, as well as in science ({撹乱|かくらん} of ecosystems). The suru verb form {撹乱|かくらん}⟦する→する：00392_suru⟧ takes a direct object with ⟦を→を：00422_wo⟧.\n\nCOMMON COLLOCATIONS:\n- {撹乱|かくらん}⟦{作戦|さくせん}→作戦：09673_sakusen⟧: disruption tactics\n- {撹乱|かくらん}⟦{工作|こうさく}→工作：12437_kousaku⟧: sabotage operations\n- ⟦{秩序|ちつじょ}→秩序：10591_chitsujo⟧⟦を→を：00422_wo⟧{撹乱|かくらん}⟦する→する：00392_suru⟧: to disrupt order\n- ⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧⟦の→の：09472_no⟧{撹乱|かくらん}: ecological disturbance",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-23T11:51:56Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

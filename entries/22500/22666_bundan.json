@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22666_bundan_ex1",
-      "japanese": "{文壇|ぶんだん}にデビューする。",
+      "japanese": "{文壇|ぶんだん}⟦に→に：00314_ni⟧⟦デビュー→デビュー：11016_debyuu⟧⟦する→する：00392_suru⟧。",
       "english": "To make one's literary debut.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22666_bundan_ex2",
-      "japanese": "その{小説|しょうせつ}は{文壇|ぶんだん}で{高|たか}く{評価|ひょうか}された。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧{文壇|ぶんだん}⟦で→で：00502_de⟧⟦{高|たか}く→高い：00500_takai⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦された→する：00392_suru⟧。",
       "english": "That novel was highly regarded in the literary world.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22666_bundan_ex3",
-      "japanese": "{彼女|かのじょ}は{若|わか}くして{文壇|ぶんだん}の{注目|ちゅうもく}を{集|あつ}め、{数々|かずかず}の{賞|しょう}を{受|う}けた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{若|わか}く→若い：00823_wakai⟧⟦して→する：00392_suru⟧{文壇|ぶんだん}⟦の→の：09472_no⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦を→を：00422_wo⟧⟦{集|あつ}め→集める：01170_atsumeru⟧、⟦{数々|かずかず}→数々：12722_kazukazu⟧⟦の→の：09472_no⟧⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "She attracted attention in the literary world at a young age and received numerous awards.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {文|ぶん} (literature) and {壇|だん} (platform/world). Specifically refers to the established literary community — the network of recognized authors, literary magazines, publishers, and awards that form the mainstream literary establishment in Japan.\n\nCOMMON COLLOCATIONS:\n- {文壇|ぶんだん}にデビューする: to debut in the literary world\n- {文壇|ぶんだん}で{活躍|かつやく}する: to be active in literary circles\n- {文壇|ぶんだん}の{重鎮|じゅうちん}: a leading figure in the literary world\n- {文壇|ぶんだん}バー: a bar frequented by literary figures\n\nSIMILAR WORDS:\n- {文学界|ぶんがくかい}: literary world — broader and less exclusive than {文壇|ぶんだん}\n- {画壇|がだん}: art world — the equivalent for visual arts\n- {分断|ぶんだん}: division, severance — a homophone with unrelated meaning",
+  "notes": "A compound of ⟦{文|ぶん}→文：03716_bun⟧ (literature) and ⟦{壇|だん}→壇：23016_dan⟧ (platform/world). Specifically refers to the established literary community — the network of recognized authors, literary magazines, publishers, and awards that form the mainstream literary establishment in Japan.\n\nCOMMON COLLOCATIONS:\n- {文壇|ぶんだん}⟦に→に：00314_ni⟧⟦デビュー→デビュー：11016_debyuu⟧⟦する→する：00392_suru⟧: to debut in the literary world\n- {文壇|ぶんだん}⟦で→で：00502_de⟧⟦{活躍|かつやく}する→活躍する：25354_katsuyakusuru⟧: to be active in literary circles\n- {文壇|ぶんだん}⟦の→の：09472_no⟧{重鎮|じゅうちん}: a leading figure in the literary world\n- {文壇|ぶんだん}⟦バー→バー：07060_baa⟧: a bar frequented by literary figures\n\nSIMILAR WORDS:\n- {文学界|ぶんがくかい}: literary world — broader and less exclusive than {文壇|ぶんだん}\n- ⟦{画壇|がだん}→画壇：23494_gadan⟧: art world — the equivalent for visual arts\n- ⟦{分断|ぶんだん}→分断：11772_bundan⟧: division, severance — a homophone with unrelated meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23494_gadan",
+      "reading": "がだん",
+      "headword": "{画壇|がだん}",
+      "label": "art world"
+    },
+    {
+      "type": "homophone",
+      "target_id": "11772_bundan",
+      "reading": "ぶんだん",
+      "headword": "{分断|ぶんだん}",
+      "label": "division, severance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,9 +73,9 @@
         "society"
       ],
       "formality": "formal",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:28:46Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

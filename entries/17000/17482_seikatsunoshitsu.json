@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "17482_seikatsunoshitsu_ex1",
-      "japanese": "{生活|せいかつ}の{質|しつ}を{向上|こうじょう}させたい。",
+      "japanese": "{生活|せいかつ}の{質|しつ}⟦を→を：00422_wo⟧⟦{向上|こうじょう}→向上：02731_koujou⟧⟦させたい→する：00392_suru⟧。",
       "english": "I want to improve my quality of life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17482_seikatsunoshitsu_ex2",
-      "japanese": "この{治療|ちりょう}は{患者|かんじゃ}の{生活|せいかつ}の{質|しつ}を{大|おお}きく{改善|かいぜん}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦は→は：00079_ha⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧{生活|せいかつ}の{質|しつ}⟦を→を：00422_wo⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧。",
       "english": "This treatment greatly improves the patient's quality of life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17482_seikatsunoshitsu_ex3",
-      "japanese": "{高齢者|こうれいしゃ}の{生活|せいかつ}の{質|しつ}を{維持|いじ}するためには、{地域|ちいき}の{支援|しえん}が{欠|か}かせない。",
+      "japanese": "⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦の→の：09472_no⟧{生活|せいかつ}の{質|しつ}⟦を→を：00422_wo⟧⟦{維持|いじ}する→維持する：17311_ijisuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Community support is essential for maintaining the quality of life of the elderly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften abbreviated as QOL (キューオーエル) in medical and welfare contexts. Frequently discussed in relation to healthcare, aging, disability support, and urban planning. The English abbreviation QOL is widely understood in Japanese professional settings.\n\nCOMMON COLLOCATIONS:\n- {生活|せいかつ}の{質|しつ}を{高|たか}める (to enhance quality of life)\n- {生活|せいかつ}の{質|しつ}の{向上|こうじょう} (improvement in quality of life)\n- {生活|せいかつ}の{質|しつ}を{維持|いじ}する (to maintain quality of life)\n- {生活|せいかつ}の{質|しつ}が{低下|ていか}する (quality of life declines)",
-  "cross_references": [],
+  "notes": "USAGE:\nOften abbreviated as QOL (キューオーエル) in medical and welfare contexts. Frequently discussed in relation to healthcare, aging, disability support, and urban planning. The English abbreviation QOL is widely understood in Japanese professional settings.\n\nCOMMON COLLOCATIONS:\n- {生活|せいかつ}の{質|しつ}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧ (to enhance quality of life)\n- {生活|せいかつ}の{質|しつ}⟦の→の：09472_no⟧⟦{向上|こうじょう}→向上：02731_koujou⟧ (improvement in quality of life)\n- {生活|せいかつ}の{質|しつ}⟦を→を：00422_wo⟧⟦{維持|いじ}する→維持する：17311_ijisuru⟧ (to maintain quality of life)\n- {生活|せいかつ}の{質|しつ}⟦が→が：00051_ga⟧⟦{低下|ていか}→低下：04065_teika⟧⟦する→する：00392_suru⟧ (quality of life declines)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20711_koufukudo",
+      "reading": "こうふくど",
+      "headword": "{幸福度|こうふくど}",
+      "label": "level of happiness"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:25:09Z",
-    "modified": "2026-03-18T04:25:09Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

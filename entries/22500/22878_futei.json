@@ -3,7 +3,7 @@
   "headword": "{不定|ふてい}",
   "reading": "ふてい",
   "romaji": "futei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "indefinite; uncertain; irregular",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22878_futei_ex1",
-      "japanese": "{出発|しゅっぱつ}{日|び}は{不定|ふてい}だ。",
+      "japanese": "⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧{日|び}⟦は→は：00079_ha⟧{不定|ふてい}だ。",
       "english": "The departure date is undecided.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22878_futei_ex2",
-      "japanese": "{不定期|ふていき}に{発行|はっこう}される{雑誌|ざっし}だ。",
+      "japanese": "⟦{不定期|ふていき}→不定期：11390_futeiki⟧⟦に→に：00314_ni⟧⟦{発行|はっこう}される→発行する：19236_hakkousuru⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧だ。",
       "english": "It's a magazine published at irregular intervals.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22878_futei_ex3",
-      "japanese": "{英語|えいご}の{不定|ふてい}{冠詞|かんし}は a と an の{二|ふた}つがある。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦の→の：09472_no⟧{不定|ふてい}{冠詞|かんし}⟦は→は：00079_ha⟧ a ⟦と→と：00512_to⟧ an ⟦の→の：09472_no⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are two indefinite articles in English: 'a' and 'an'.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {不|ふ} (not, un-) + {定|てい} (fixed, determined). A versatile prefix-like word that appears in many compounds across different fields.\n\nCOMMON COLLOCATIONS:\n- {不定期|ふていき}: irregular, at irregular intervals\n- {不定|ふてい}{冠詞|かんし}: indefinite article (grammar)\n- {不定|ふてい}{形|けい}: infinitive form (grammar)\n- {不定|ふてい}{愁訴|しゅうそ}: vague complaints (medical: nonspecific symptoms)\n- {住所|じゅうしょ}{不定|ふてい}: of no fixed address\n\nSIMILAR WORDS:\n- {未定|みてい}: undecided, not yet decided — implies a decision will come later\n- {不確定|ふかくてい}: uncertain, undetermined — stronger emphasis on uncertainty\n- {一定|いってい}: fixed, constant — the opposite: regular and unchanging",
+  "notes": "Composed of {不|ふ} (not, un-) + {定|てい} (fixed, determined). A versatile prefix-like word that appears in many compounds across different fields.\n\nCOMMON COLLOCATIONS:\n- ⟦{不定期|ふていき}→不定期：11390_futeiki⟧: irregular, at irregular intervals\n- {不定|ふてい}{冠詞|かんし}: indefinite article (grammar)\n- {不定|ふてい}{形|けい}: infinitive form (grammar)\n- {不定|ふてい}{愁訴|しゅうそ}: vague complaints (medical: nonspecific symptoms)\n- ⟦{住所|じゅうしょ}→住所：01430_juusho⟧{不定|ふてい}: of no fixed address\n\nSIMILAR WORDS:\n- ⟦{未定|みてい}→未定：14985_mitei⟧: undecided, not yet decided — implies a decision will come later\n- ⟦{不確定|ふかくてい}→不確定：24296_fukakutei⟧: uncertain, undetermined — stronger emphasis on uncertainty\n- ⟦{一定|いってい}→一定：01735_ittei⟧: fixed, constant — the opposite: regular and unchanging",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14985_mitei",
+      "reading": "みてい",
+      "headword": "{未定|みてい}",
+      "label": "undecided, not yet decided"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24296_fukakutei",
+      "reading": "ふかくてい",
+      "headword": "{不確定|ふかくてい}",
+      "label": "uncertain, undetermined"
+    },
+    {
+      "type": "antonym",
+      "target_id": "01735_ittei",
+      "reading": "いってい",
+      "headword": "{一定|いってい}",
+      "label": "fixed, constant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

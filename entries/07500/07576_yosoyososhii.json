@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07576_yosoyososhii_ex1",
-      "japanese": "{最近|さいきん}、{彼|かれ}の{態度|たいど}がよそよそしい。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦が→が：00051_ga⟧よそよそしい。",
       "english": "Lately, his attitude has been distant.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07576_yosoyososhii_ex2",
-      "japanese": "よそよそしい{挨拶|あいさつ}を{交|か}わした。",
+      "japanese": "よそよそしい⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧⟦{交|か}わした→交わす：19373_kawasu⟧。",
       "english": "We exchanged cold greetings.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07576_yosoyososhii_ex3",
-      "japanese": "なぜかよそよそしく{感|かん}じる。",
+      "japanese": "⟦なぜ→なぜ：01484_naze⟧⟦か→か：09473_ka⟧よそよそしく⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "For some reason, I feel there's a distance between us.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・よそよそしい (plain)\n・よそよそしく (adverbial) - distantly, coldly\n・よそよそしさ (noun) - coldness, aloofness\n\nETYMOLOGY:\nFrom よそ (elsewhere, other place/person) reduplicated + しい (adjective suffix). The reduplication emphasizes the sense of treating someone as if they were a stranger.\n\nWORD STRUCTURE:\nよそ (outside, elsewhere) × 2 + しい (adjective ending) → behaving as if the other person is an outsider\n\nSIMILAR WORDS:\n・{冷|つめ}たい - cold (emotionally)\n・そっけない - curt, blunt\n・{水|みず}くさい - overly formal, standoffish (especially when closer relationship is expected)\n・{他人行儀|たにんぎょうぎ} - formal/distant manner\n\nCONTRAST:\n・{親|した}しい - friendly, close\n・フレンドリー - friendly",
+  "notes": "FORMS:\n- よそよそしい (plain)\n- よそよそしく (adverbial) - distantly, coldly\n- よそよそしさ (noun) - coldness, aloofness\n\nETYMOLOGY:\nFrom よそ (elsewhere, other place/person) reduplicated + しい (adjective suffix). The reduplication emphasizes the sense of treating someone as if they were a stranger.\nよそ (outside, elsewhere) × 2 + しい (adjective ending) → behaving as if the other person is an outsider\n\nSIMILAR WORDS:\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧ - cold (emotionally)\n- ⟦そっけない→そっけない：07671_sokkenai⟧ - curt, blunt\n- {水|みず}くさい - overly formal, standoffish (especially when closer relationship is expected)\n- {他人行儀|たにんぎょうぎ} - formal/distant manner\n- ⟦{親|した}しい→親しい：02345_shitashii⟧ - friendly, close\n- フレンドリー - friendly",
   "cross_references": [
     {
       "type": "synonym",
@@ -55,11 +55,18 @@
       "reading": "そっけない",
       "headword": "そっけない",
       "label": "curt, blunt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02345_shitashii",
+      "reading": "したしい",
+      "headword": "{親|した}しい",
+      "label": "friendly, close"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +74,7 @@
         "adjective-i"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "personality"

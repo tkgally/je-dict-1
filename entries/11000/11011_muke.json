@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "11011_muke_ex1",
-      "japanese": "この{本|ほん}は{子|こ}ども{向|む}けだ。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧{子|こ}ども{向|む}けだ。",
       "english": "This book is intended for children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11011_muke_ex2",
-      "japanese": "{初心者|しょしんしゃ}{向|む}けの{講座|こうざ}に{参加|さんか}した。",
+      "japanese": "⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧{向|む}け⟦の→の：09472_no⟧⟦{講座|こうざ}→講座：09790_kouza⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I participated in a course aimed at beginners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11011_muke_ex3",
-      "japanese": "この{製品|せいひん}は{海外|かいがい}{向|む}けに{開発|かいはつ}されたもので、{日本|にほん}では{売|う}っていない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧⟦{海外|かいがい}→海外：00134_kaigai⟧{向|む}け⟦に→に：00314_ni⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦された→する：00392_suru⟧もので、⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{売|う}っていない→売る：00906_uru⟧。",
       "english": "This product was developed for overseas markets and is not sold in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{向|む}け is a suffix that attaches to nouns: N + {向|む}け.\n\nCOMMON PATTERNS:\n- {子|こ}ども{向|む}け: for children\n- {大人|おとな}{向|む}け: for adults\n- {初心者|しょしんしゃ}{向|む}け: for beginners\n- {海外|かいがい}{向|む}け: for overseas / export\n- {女性|じょせい}{向|む}け: for women\n- {日本|にほん}{向|む}け: for the Japanese market\n\nGRAMMAR:\n- N{向|む}けの + noun: {子|こ}ども{向|む}けの{番組|ばんぐみ} (a program for children)\n- N{向|む}けに + verb: {海外|かいがい}{向|む}けに{作|つく}る (make for overseas)\n- N{向|む}けだ: {初心者|しょしんしゃ}{向|む}けだ (it's for beginners)\n\nCONTRAST:\n- {向|む}け emphasizes the intended target or purpose\n- {用|よう} emphasizes practical use: {業務用|ぎょうむよう} (for business use)",
+  "notes": "{向|む}け is a suffix that attaches to nouns: N + {向|む}け.\n\nCOMMON PATTERNS:\n- {子|こ}ども{向|む}け: for children\n- ⟦{大人|おとな}→大人：02856_otona⟧{向|む}け: for adults\n- ⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧{向|む}け: for beginners\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧{向|む}け: for overseas / export\n- ⟦{女性|じょせい}→女性：01617_josei⟧{向|む}け: for women\n- ⟦{日本|にほん}→日本：03876_nihon⟧{向|む}け: for the Japanese market\n- N{向|む}け⟦の→の：09472_no⟧ + noun: {子|こ}ども{向|む}け⟦の→の：09472_no⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧ (a program for children)\n- N{向|む}け⟦に→に：00314_ni⟧ + verb: ⟦{海外|かいがい}→海外：00134_kaigai⟧{向|む}け⟦に→に：00314_ni⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (make for overseas)\n- N{向|む}けだ: ⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧{向|む}けだ (it's for beginners)\n\nSIMILAR WORDS:\n- {向|む}け emphasizes the intended target or purpose\n- ⟦{用|よう}→〜用：09842_you⟧ emphasizes practical use: ⟦{業務用|ぎょうむよう}→業務用：13148_gyoumuyou⟧ (for business use)",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,19 +51,30 @@
       "reading": "むき",
       "headword": "{向|む}き",
       "label": "suitable for, oriented toward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27652_wotaishouni",
+      "reading": "をたいしょうに",
+      "headword": "を{対象|たいしょう}に",
+      "label": "aimed at"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-12T07:24:00Z",
-    "modified": "2026-02-12T07:24:00Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

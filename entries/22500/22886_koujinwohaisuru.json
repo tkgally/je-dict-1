@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22886_koujinwohaisuru_ex1",
-      "japanese": "ライバル{企業|きぎょう}の{後塵|こうじん}を{拝|はい}する。",
+      "japanese": "⟦ライバル→ライバル：11197_raibaru⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧{後塵|こうじん}を{拝|はい}する。",
       "english": "To fall behind the rival company.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22886_koujinwohaisuru_ex2",
-      "japanese": "{技術|ぎじゅつ}{開発|かいはつ}で{他国|たこく}の{後塵|こうじん}を{拝|はい}している。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦で→で：00502_de⟧⟦{他国|たこく}→他国：28893_takoku⟧⟦の→の：09472_no⟧{後塵|こうじん}を{拝|はい}して⟦いる→いる：00495_iru⟧。",
       "english": "We are lagging behind other countries in technological development.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22886_koujinwohaisuru_ex3",
-      "japanese": "この{分野|ぶんや}では{長年|ながねん}{後塵|こうじん}を{拝|はい}してきたが、ようやく{追|お}いついてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧{後塵|こうじん}を{拝|はい}してきた⟦が→が：00051_ga⟧、ようやく{追|お}いついてきた。",
       "english": "We had been trailing behind for years in this field, but we have finally caught up.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"to bow to (someone's) trailing dust.\" The image comes from ancient China, where a person of lower rank would follow behind a dignitary's carriage and be covered in the dust it raised. By extension, it means to be inferior to or behind someone.\n\nPATTERN:\n～の{後塵|こうじん}を{拝|はい}する — to fall behind ~\n\nCOMMON COLLOCATIONS:\n- ライバルの{後塵|こうじん}を{拝|はい}する: to fall behind a rival\n- {他社|たしゃ}の{後塵|こうじん}を{拝|はい}する: to lag behind other companies\n- {後塵|こうじん}を{拝|はい}し{続|つづ}ける: to continue trailing behind\n\nSIMILAR WORDS:\n- {遅|おく}れを{取|と}る: to fall behind — more common and less literary\n- {水|みず}を{開|あ}けられる: to have a gap opened up — used when the distance between competitors widens\n- {引|ひ}けを{取|と}らない: to be no less than — the positive counterpart: not falling behind",
+  "notes": "Literally \"to bow to (someone's) trailing dust.\" The image comes from ancient China, where a person of lower rank would follow behind a dignitary's carriage and be covered in the dust it raised. By extension, it means to be inferior to or behind someone.\n\nCOMMON PATTERNS:\n～⟦の→の：09472_no⟧{後塵|こうじん}を{拝|はい}する — to fall behind ~\n\nCOMMON COLLOCATIONS:\n- ⟦ライバル→ライバル：11197_raibaru⟧⟦の→の：09472_no⟧{後塵|こうじん}を{拝|はい}する: to fall behind a rival\n- ⟦{他社|たしゃ}→他社：17803_tasha⟧⟦の→の：09472_no⟧{後塵|こうじん}を{拝|はい}する: to lag behind other companies\n- {後塵|こうじん}を{拝|はい}し⟦{続|つづ}ける→続く：00903_tsuzuku⟧: to continue trailing behind\n\nSIMILAR WORDS:\n- ⟦{遅|おく}れ→遅れ：01908_okure⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to fall behind — more common and less literary\n- ⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{開|あ}けられる→開ける：00563_akeru⟧: to have a gap opened up — used when the distance between competitors widens\n- ⟦{引|ひ}け→引く：01978_hiku⟧⟦を→を：00422_wo⟧⟦{取|と}らない→取る：00565_toru⟧: to be no less than — the positive counterpart: not falling behind",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21646_sakiwokosareru",
+      "reading": "さきをこされる",
+      "headword": "{先|さき}を{越|こ}される",
+      "label": "to be beaten to it"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{生焼|なまや}け",
   "reading": "なまやけ",
   "romaji": "namayake",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "undercooked; half-baked; underdone",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22421_namayake_ex1",
-      "japanese": "この{肉|にく}は{生焼|なまや}けだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{肉|にく}→肉：02240_niku⟧⟦は→は：00079_ha⟧{生焼|なまや}けだ。",
       "english": "This meat is undercooked.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22421_namayake_ex2",
-      "japanese": "{生焼|なまや}けの{鶏肉|とりにく}は{食中毒|しょくちゅうどく}の{原因|げんいん}になる。",
+      "japanese": "{生焼|なまや}け⟦の→の：09472_no⟧⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧⟦は→は：00079_ha⟧⟦{食中毒|しょくちゅうどく}→食中毒：07020_shokuchuudoku⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Undercooked chicken can cause food poisoning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22421_namayake_ex3",
-      "japanese": "ハンバーグの{中|なか}がまだ{生焼|なまや}けだったので、もう{少|すこ}し{焼|や}くことにした。",
+      "japanese": "⟦ハンバーグ→ハンバーグ：01785_hanbaagu⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧{生焼|なまや}けだった⟦の→の：09472_no⟧で、⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{焼|や}く→焼く：01123_yaku⟧ことにした。",
       "english": "The inside of the hamburger steak was still undercooked, so I decided to cook it a bit more.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {生|なま} (raw) and {焼|や}け (burning/cooking). Describes food that appears cooked on the outside but remains raw or insufficiently cooked on the inside. This is an important concept in food safety, especially with meats.\n\nCOMMON COLLOCATIONS:\n- {生焼|なまや}けの{肉|にく}: undercooked meat\n- {生焼|なまや}け{状態|じょうたい}: undercooked state\n- {中|なか}が{生焼|なまや}け: undercooked inside\n\nSIMILAR WORDS:\n- {生|なま}: raw — completely uncooked\n- レア: rare (cooking term) — borrowed from English; intentionally served lightly cooked\n- {焼|や}きすぎ: overcooked — too much cooking, the opposite problem\n- {半生|はんなま}: half-raw / semi-dried — can mean partially raw food or half-dried products like noodles",
+  "notes": "Composed of ⟦{生|なま}→生：03509_nama⟧ (raw) and ⟦{焼|や}け→焼ける：01138_yakeru⟧ (burning/cooking). Describes food that appears cooked on the outside but remains raw or insufficiently cooked on the inside. This is an important concept in food safety, especially with meats.\n\nCOMMON COLLOCATIONS:\n- {生焼|なまや}け⟦の→の：09472_no⟧⟦{肉|にく}→肉：02240_niku⟧: undercooked meat\n- {生焼|なまや}け⟦{状態|じょうたい}→状態：03345_joutai⟧: undercooked state\n- ⟦{中|なか}→中：00654_naka⟧⟦が→が：00051_ga⟧{生焼|なまや}け: undercooked inside\n\nSIMILAR WORDS:\n- ⟦{生|なま}→生：03509_nama⟧: raw — completely uncooked\n- ⟦レア→レア：11251_rea⟧: rare (cooking term) — borrowed from English; intentionally served lightly cooked\n- ⟦{焼|や}き→焼く：01123_yaku⟧すぎ: overcooked — too much cooking, the opposite problem\n- ⟦{半生|はんなま}→半生：24441_hannama⟧: half-raw / semi-dried — can mean partially raw food or half-dried products like noodles",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11251_rea",
+      "reading": "れあ",
+      "headword": "レア",
+      "label": "rare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24441_hannama",
+      "reading": "はんなま",
+      "headword": "{半生|はんなま}",
+      "label": "half-raw / semi-dried"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-04-05T21:08:10Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

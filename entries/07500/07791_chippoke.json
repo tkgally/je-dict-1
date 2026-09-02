@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07791_chippoke_ex1",
-      "japanese": "ちっぽけな{島|しま}に{住|す}んでいる。",
+      "japanese": "ちっぽけな⟦{島|しま}→島：00885_shima⟧⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live on a tiny island.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07791_chippoke_ex2",
-      "japanese": "{宇宙|うちゅう}から{見|み}れば{地球|ちきゅう}もちっぽけだ。",
+      "japanese": "⟦{宇宙|うちゅう}→宇宙：01861_uchuu⟧⟦から→から：00504_kara⟧⟦{見|み}れば→見る：00283_miru⟧⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦も→も：00484_mo⟧ちっぽけだ。",
       "english": "Seen from space, even Earth is tiny.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07791_chippoke_ex3",
-      "japanese": "そんなちっぽけなことで{悩|なや}まないで。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧ちっぽけなこと⟦で→で：00502_de⟧⟦{悩|なや}まないで→悩む：02380_nayamu⟧。",
       "english": "Don't worry about such a trivial matter.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ちっぽけ is a na-adjective expressing smallness with a slightly diminutive or dismissive nuance.\n\nFORMS:\n- Attributive: ちっぽけな + noun\n- Predicate: ちっぽけだ\n- Adverbial: ちっぽけに\n\nUSAGE:\nCan describe physical smallness but often has a figurative sense of insignificance or triviality. Frequently used when comparing something to a larger context.\n\nREGISTER: Colloquial/informal. Has an expressive, slightly emotional tone.\n\nSIMILAR WORDS:\n- ちっぽけ: tiny with dismissive/insignificant nuance\n- {小|ちい}さい: small (neutral)\n- {微小|びしょう}: minute, microscopic (formal/scientific)\n- ちっちゃい: tiny (childish/cute)",
+  "notes": "ちっぽけ is a na-adjective expressing smallness with a slightly diminutive or dismissive nuance.\n\nFORMS:\n- Attributive: ちっぽけな + noun\n- Predicate: ちっぽけだ\n- Adverbial: ちっぽけ⟦に→に：00314_ni⟧\n\nUSAGE:\nCan describe physical smallness but often has a figurative sense of insignificance or triviality. Frequently used when comparing something to a larger context.\n\nREGISTER: Colloquial/informal. Has an expressive, slightly emotional tone.\n\nSIMILAR WORDS:\n- ちっぽけ: tiny with dismissive/insignificant nuance\n- ⟦{小|ちい}さい→小さい：00025_chiisai⟧: small (neutral)\n- ⟦{微小|びしょう}→微小：20095_bishou⟧: minute, microscopic (formal/scientific)\n- ⟦ちっちゃい→ちっちゃい：09321_chicchai⟧: tiny (childish/cute)",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,6 +51,20 @@
       "reading": "ちいさい",
       "headword": "{小|ちい}さい",
       "label": "small (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20095_bishou",
+      "reading": "びしょう",
+      "headword": "{微小|びしょう}",
+      "label": "minute, microscopic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09321_chicchai",
+      "reading": "ちっちゃい",
+      "headword": "ちっちゃい",
+      "label": "tiny"
     }
   ],
   "metadata": {
@@ -66,6 +80,6 @@
       ]
     },
     "created": "2026-01-21T03:52:44Z",
-    "modified": "2026-04-18T08:05:14Z"
+    "modified": "2026-09-02T04:01:12Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19775_kuushuu_ex1",
-      "japanese": "{空襲|くうしゅう}{警報|けいほう}が{鳴|な}った。",
+      "japanese": "{空襲|くうしゅう}⟦{警報|けいほう}→警報：09515_keihou⟧⟦が→が：00051_ga⟧⟦{鳴|な}った→鳴る：01143_naru⟧。",
       "english": "The air raid siren sounded.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19775_kuushuu_ex2",
-      "japanese": "{祖母|そぼ}は{空襲|くうしゅう}を{経験|けいけん}した{世代|せだい}だ。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{空襲|くうしゅう}⟦を→を：00422_wo⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦した→する：00392_suru⟧⟦{世代|せだい}→世代：05102_sedai⟧だ。",
       "english": "My grandmother is of the generation that experienced air raids.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19775_kuushuu_ex3",
-      "japanese": "{東京|とうきょう}{大空襲|だいくうしゅう}では、{一夜|いちや}で10{万人|まんにん}{以上|いじょう}が{亡|な}くなったと{言|い}われている。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧{大空襲|だいくうしゅう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{一夜|いちや}→一夜：08961_ichiya⟧⟦で→で：00502_de⟧10{万人|まんにん}⟦{以上|いじょう}→以上：01308_ijou⟧⟦が→が：00051_ga⟧⟦{亡|な}くなった→亡くなる：02639_nakunaru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that over 100,000 people died in a single night during the Great Tokyo Air Raid.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {空|くう} (sky, air) and {襲|しゅう} (attack, raid). In Japanese historical context, {空襲|くうしゅう} most commonly refers to the American bombing raids on Japanese cities during World War II, particularly the firebombing campaigns of 1945.\n\nHISTORICAL CONTEXT:\nThe {東京|とうきょう}{大空襲|だいくうしゅう} (Great Tokyo Air Raid) of March 10, 1945, is the most devastating single air raid in history. Many other major Japanese cities were also subjected to {空襲|くうしゅう}. The word carries heavy historical weight and appears frequently in war memoirs, textbooks, and peace education.\n\nCOMMON COLLOCATIONS:\n- {空襲|くうしゅう}{警報|けいほう} — air raid warning/siren\n- {空襲|くうしゅう}を{受|う}ける — to be hit by an air raid\n- {大空襲|だいくうしゅう} — great air raid, massive bombing\n- {空襲|くうしゅう}{被害|ひがい} — air raid damage\n\nRELATED TERMS:\n- {爆撃|ばくげき} — bombing; the act of dropping bombs\n- {空爆|くうばく} — aerial bombing; a modern synonym\n- {防空壕|ぼうくうごう} — air raid shelter",
+  "notes": "Composed of ⟦{空|くう}→空〜：03949_kuu⟧ (sky, air) and {襲|しゅう} (attack, raid). In Japanese historical context, {空襲|くうしゅう} most commonly refers to the American bombing raids on Japanese cities during World War II, particularly the firebombing campaigns of 1945.\n\nETYMOLOGY:\nThe ⟦{東京|とうきょう}→東京：09564_toukyou⟧{大空襲|だいくうしゅう} (Great Tokyo Air Raid) of March 10, 1945, is the most devastating single air raid in history. Many other major Japanese cities were also subjected to {空襲|くうしゅう}. The word carries heavy historical weight and appears frequently in war memoirs, textbooks, and peace education.\n\nCOMMON COLLOCATIONS:\n- {空襲|くうしゅう}⟦{警報|けいほう}→警報：09515_keihou⟧ — air raid warning/siren\n- {空襲|くうしゅう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ — to be hit by an air raid\n- {大空襲|だいくうしゅう} — great air raid, massive bombing\n- {空襲|くうしゅう}⟦{被害|ひがい}→被害：02572_higai⟧ — air raid damage\n\nRELATED WORDS:\n- ⟦{爆撃|ばくげき}→爆撃：13584_bakugeki⟧ — bombing; the act of dropping bombs\n- ⟦{空爆|くうばく}→空爆：19783_kuubaku⟧ — aerial bombing; a modern synonym\n- {防空壕|ぼうくうごう} — air raid shelter",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -152,7 +152,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T23:26:44Z",
-    "modified": "2026-04-29T05:15:51Z"
+    "modified": "2026-09-02T04:01:57Z"
   },
   "cross_references": [
     {
@@ -161,6 +161,20 @@
       "reading": "ばくげき",
       "headword": "{爆撃|ばくげき}",
       "label": "bombing"
+    },
+    {
+      "type": "related",
+      "target_id": "19783_kuubaku",
+      "reading": "くうばく",
+      "headword": "{空爆|くうばく}",
+      "label": "aerial bombing"
+    },
+    {
+      "type": "related",
+      "target_id": "19779_hougeki",
+      "reading": "ほうげき",
+      "headword": "{砲撃|ほうげき}",
+      "label": "shelling"
     }
   ]
 }

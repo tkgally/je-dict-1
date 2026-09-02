@@ -43,11 +43,54 @@
       ]
     }
   ],
-  "notes": "スーツケース is from English \"suitcase.\" It refers to hard or soft-sided rectangular luggage with wheels and a handle.\n\nRELATED TERMS:\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧: luggage, baggage (general term)\n- ⟦キャリーバッグ→キャリーバッグ：27966_kyariibaggu⟧: wheeled bag, carry-on\n- ⟦トランク→トランク：24218_toranku⟧: trunk (older style without wheels)\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦かばん→かばん：00637_kaban⟧: travel bag\n- ⟦{機内|きない}→機内：18819_kinai⟧⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧: carry-on (for planes)\n\nCOMMON EXPRESSIONS:\n- スーツケース⟦に→に：00314_ni⟧⟦{詰|つ}める→詰める：02078_tsumeru⟧: to pack into a suitcase\n- スーツケース⟦を→を：00422_wo⟧⟦{預|あず}ける→預ける：01819_azukeru⟧: to check a suitcase (at airport)\n- スーツケース⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: to pull a suitcase",
-  "cross_references": [],
+  "notes": "スーツケース is from English \"suitcase.\" It refers to hard or soft-sided rectangular luggage with wheels and a handle.\n\nRELATED WORDS:\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧: luggage, baggage (general term)\n- ⟦キャリーバッグ→キャリーバッグ：27966_kyariibaggu⟧: wheeled bag, carry-on\n- ⟦トランク→トランク：24218_toranku⟧: trunk (older style without wheels)\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦かばん→かばん：00637_kaban⟧: travel bag\n- ⟦{機内|きない}→機内：18819_kinai⟧⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧: carry-on (for planes)\n\nCOMMON EXPRESSIONS:\n- スーツケース⟦に→に：00314_ni⟧⟦{詰|つ}める→詰める：02078_tsumeru⟧: to pack into a suitcase\n- スーツケース⟦を→を：00422_wo⟧⟦{預|あず}ける→預ける：01819_azukeru⟧: to check a suitcase (at airport)\n- スーツケース⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: to pull a suitcase",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00737_nimotsu",
+      "reading": "にもつ",
+      "headword": "{荷物|にもつ}",
+      "label": "luggage, baggage"
+    },
+    {
+      "type": "related",
+      "target_id": "27966_kyariibaggu",
+      "reading": "きゃりーばっぐ",
+      "headword": "キャリーバッグ",
+      "label": "wheeled bag, carry-on"
+    },
+    {
+      "type": "related",
+      "target_id": "24218_toranku",
+      "reading": "とらんく",
+      "headword": "トランク",
+      "label": "trunk"
+    },
+    {
+      "type": "related",
+      "target_id": "10204_kinaimochikomi",
+      "reading": "きないもちこみ",
+      "headword": "{機内持|きないも}ち{込|こ}み",
+      "label": "carry-on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25736_ryokoukaban",
+      "reading": "りょこうかばん",
+      "headword": "{旅行鞄|りょこうかばん}",
+      "label": "travel bag"
+    },
+    {
+      "type": "related",
+      "target_id": "27285_bosutonbaggu",
+      "reading": "ぼすとんばっぐ",
+      "headword": "ボストンバッグ",
+      "label": "Boston bag"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:19:35Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

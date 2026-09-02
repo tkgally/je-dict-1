@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30156_meisoushinkei_ex1",
-      "japanese": "{迷走神経|めいそうしんけい}は{脳|のう}から{出|で}ている。",
+      "japanese": "{迷走神経|めいそうしんけい}⟦は→は：00079_ha⟧⟦{脳|のう}→脳：03537_nou⟧⟦から→から：00504_kara⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "The vagus nerve comes out of the brain.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30156_meisoushinkei_ex2",
-      "japanese": "{迷走神経|めいそうしんけい}が{心臓|しんぞう}の{働|はたら}きを{調節|ちょうせつ}している。",
+      "japanese": "{迷走神経|めいそうしんけい}⟦が→が：00051_ga⟧⟦{心臓|しんぞう}→心臓：03262_shinzou⟧⟦の→の：09472_no⟧⟦{働|はたら}き→働き：03557_hataraki⟧⟦を→を：00422_wo⟧⟦{調節|ちょうせつ}→調節：17947_chousetsu⟧⟦している→する：00392_suru⟧。",
       "english": "The vagus nerve regulates the working of the heart.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30156_meisoushinkei_ex3",
-      "japanese": "{採血|さいけつ}のときに{気|き}を{失|うしな}うのは、{迷走神経|めいそうしんけい}{反射|はんしゃ}によるものが{多|おお}い。",
+      "japanese": "⟦{採血|さいけつ}→採血：11074_saiketsu⟧⟦の→の：09472_no⟧とき⟦に→に：00314_ni⟧⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、{迷走神経|めいそうしんけい}⟦{反射|はんしゃ}→反射：08390_hansha⟧⟦による→による：28349_niyoru⟧もの⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Fainting during a blood draw is often caused by a vagus nerve reflex.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{迷走|めいそう} (wandering, straying) + {神経|しんけい} (nerve) — named for the long, wandering course the nerve takes through the body, matching the Latin sense of \"vagus\".\n\nCOMMON COLLOCATIONS:\n- {迷走神経|めいそうしんけい}{反射|はんしゃ}: vagal reflex\n- {迷走神経|めいそうしんけい}を{刺激|しげき}する: to stimulate the vagus nerve\n- {迷走神経|めいそうしんけい}の{働|はたら}き: the action of the vagus nerve\n\nSIMILAR WORDS:\n- {自律神経|じりつしんけい}: autonomic nervous system — the larger system the vagus nerve belongs to\n- {視神経|ししんけい}: optic nerve — another named cranial nerve",
+  "notes": "⟦{迷走|めいそう}→迷走：07441_meisou⟧ (wandering, straying) + ⟦{神経|しんけい}→神経：03257_shinkei⟧ (nerve) — named for the long, wandering course the nerve takes through the body, matching the Latin sense of \"vagus\".\n\nCOMMON COLLOCATIONS:\n- {迷走神経|めいそうしんけい}⟦{反射|はんしゃ}→反射：08390_hansha⟧: vagal reflex\n- {迷走神経|めいそうしんけい}⟦を→を：00422_wo⟧⟦{刺激|しげき}する→刺激する：20205_shigekisuru⟧: to stimulate the vagus nerve\n- {迷走神経|めいそうしんけい}⟦の→の：09472_no⟧⟦{働|はたら}き→働き：03557_hataraki⟧: the action of the vagus nerve\n\nSIMILAR WORDS:\n- ⟦{自律神経|じりつしんけい}→自律神経：08621_jiritsushinkei⟧: autonomic nervous system — the larger system the vagus nerve belongs to\n- ⟦{視神経|ししんけい}→視神経：30172_shishinkei⟧: optic nerve — another named cranial nerve",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08621_jiritsushinkei",
+      "reading": "じりつしんけい",
+      "headword": "{自律神経|じりつしんけい}",
+      "label": "autonomic nervous system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30172_shishinkei",
+      "reading": "ししんけい",
+      "headword": "視神経",
+      "label": "optic nerve"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-internal",
         "health"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

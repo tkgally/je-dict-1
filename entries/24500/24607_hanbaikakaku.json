@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24607_hanbaikakaku_ex1",
-      "japanese": "{販売価格|はんばいかかく}は{税込|ぜいこ}み{三千円|さんぜんえん}です。",
+      "japanese": "{販売価格|はんばいかかく}⟦は→は：00079_ha⟧{税込|ぜいこ}み{三千円|さんぜんえん}です。",
       "english": "The selling price is 3,000 yen including tax.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24607_hanbaikakaku_ex2",
-      "japanese": "{原材料|げんざいりょう}の{高騰|こうとう}により{販売価格|はんばいかかく}を{引|ひ}き{上|あ}げた。",
+      "japanese": "⟦{原材料|げんざいりょう}→原材料：18966_genzairyou⟧⟦の→の：09472_no⟧⟦{高騰|こうとう}→高騰：14647_koutou⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧{販売価格|はんばいかかく}⟦を→を：00422_wo⟧⟦{引|ひ}き{上|あ}げた→引き上げる：05689_hikiageru⟧。",
       "english": "The selling price was raised due to soaring raw material costs.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24607_hanbaikakaku_ex3",
-      "japanese": "メーカーの{希望|きぼう}{販売価格|はんばいかかく}と{実際|じっさい}の{店頭|てんとう}{価格|かかく}には{差|さ}があることが{多|おお}い。",
+      "japanese": "⟦メーカー→メーカー：11158_meekaa⟧⟦の→の：09472_no⟧⟦{希望|きぼう}→希望：00221_kibou⟧{販売価格|はんばいかかく}⟦と→と：00512_to⟧⟦{実際|じっさい}→実際：02502_jissai⟧⟦の→の：09472_no⟧⟦{店頭|てんとう}→店頭：12488_tentou⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{差|さ}→差：02771_sa⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There is often a gap between the manufacturer's suggested retail price and the actual in-store price.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "The price at which a product or service is sold to the end consumer. Distinguished from the cost price ({原価|げんか}) and the wholesale price ({卸値|おろしね}). Commonly seen in business contexts, product listings, and retail.\n\nCOMMON COLLOCATIONS:\n- {販売価格|はんばいかかく}を{設定|せってい}する: to set the selling price\n- {販売価格|はんばいかかく}を{引|ひ}き{下|さ}げる: to lower the selling price\n- {希望|きぼう}{販売価格|はんばいかかく}: manufacturer's suggested retail price (MSRP)\n- {販売価格|はんばいかかく}{帯|たい}: price range\n\nSIMILAR WORDS:\n- {定価|ていか}: list price, fixed price — the set price, especially for books\n- {原価|げんか}: cost price — the cost to produce or acquire\n- {小売|こうり}{価格|かかく}: retail price — similar meaning, emphasizes retail context\n- {卸値|おろしね}: wholesale price — price for bulk/wholesale transactions",
+  "notes": "The price at which a product or service is sold to the end consumer. Distinguished from the cost price (⟦{原価|げんか}→原価：05470_genka⟧) and the wholesale price (⟦{卸値|おろしね}→卸値：15949_oroshine⟧). Commonly seen in business contexts, product listings, and retail.\n\nCOMMON COLLOCATIONS:\n- {販売価格|はんばいかかく}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set the selling price\n- {販売価格|はんばいかかく}⟦を→を：00422_wo⟧⟦{引|ひ}き{下|さ}げる→引き下げる：06193_hikisageru⟧: to lower the selling price\n- ⟦{希望|きぼう}→希望：00221_kibou⟧{販売価格|はんばいかかく}: manufacturer's suggested retail price (MSRP)\n- {販売価格|はんばいかかく}{帯|たい}: price range\n\nSIMILAR WORDS:\n- ⟦{定価|ていか}→定価：04066_teika⟧: list price, fixed price — the set price, especially for books\n- ⟦{原価|げんか}→原価：05470_genka⟧: cost price — the cost to produce or acquire\n- ⟦{小売|こうり}→小売：05084_kouri⟧⟦{価格|かかく}→価格：00147_kakaku⟧: retail price — similar meaning, emphasizes retail context\n- ⟦{卸値|おろしね}→卸値：15949_oroshine⟧: wholesale price — price for bulk/wholesale transactions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price, fixed price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05470_genka",
+      "reading": "げんか",
+      "headword": "{原価|げんか}",
+      "label": "cost price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15949_oroshine",
+      "reading": "おろしね",
+      "headword": "{卸値|おろしね}",
+      "label": "wholesale price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29233_kiboukourikakaku",
+      "reading": "きぼうこうりかかく",
+      "headword": "{希望小売価格|きぼうこうりかかく}",
+      "label": "MSRP"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +93,6 @@
       ]
     },
     "created": "2026-04-19T16:31:34Z",
-    "modified": "2026-04-19T16:31:34Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11382_ikki_ex1",
-      "japanese": "{農民|のうみん}が{一揆|いっき}を{起|お}こした。",
+      "japanese": "⟦{農民|のうみん}→農民：03759_noumin⟧⟦が→が：00051_ga⟧{一揆|いっき}⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧。",
       "english": "The farmers staged an uprising.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11382_ikki_ex2",
-      "japanese": "{重|おも}い{年貢|ねんぐ}に{耐|た}えかねて、{一揆|いっき}が{各地|かくち}で{起|お}きた。",
+      "japanese": "⟦{重|おも}い→重い：00804_omoi⟧⟦{年貢|ねんぐ}→年貢：16287_nengu⟧⟦に→に：00314_ni⟧⟦{耐|た}え→耐える：12087_taeru⟧かねて、{一揆|いっき}⟦が→が：00051_ga⟧⟦{各地|かくち}→各地：00155_kakuchi⟧⟦で→で：00502_de⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "Unable to bear the heavy taxes, uprisings broke out in various regions.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11382_ikki_ex3",
-      "japanese": "{江戸|えど}{時代|じだい}には{百姓|ひゃくしょう}{一揆|いっき}が{数多|かずおお}く{記録|きろく}されている。",
+      "japanese": "⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{百姓|ひゃくしょう}{一揆|いっき}⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦されている→する：00392_suru⟧。",
       "english": "Numerous peasant uprisings are recorded from the Edo period.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE: {一揆|いっき} primarily appears in historical contexts. It refers specifically to collective uprisings in pre-modern Japan, particularly during the {室町|むろまち}{時代|じだい} and {江戸|えど}{時代|じだい}.\n\nCOMMON COLLOCATIONS:\n- {一揆|いっき}を{起|お}こす (to stage an uprising)\n- {百姓|ひゃくしょう}{一揆|いっき} (peasant uprising)\n- {一向|いっこう}{一揆|いっき} (Ikkō-ikki, religious uprisings by Pure Land Buddhists)\n- {土|つち}{一揆|いっき} (land uprising, riots demanding debt cancellation)\n\nETYMOLOGY: {一|いっ} (one, united) + {揆|き} (action, measure). The word originally meant \"acting as one\" or \"of one mind,\" emphasizing the collective nature of the movement.\n\nNOTE: Do not confuse with {一気|いっき} (in one breath, all at once), which is a different word.",
-  "cross_references": [],
+  "notes": "USAGE: {一揆|いっき} primarily appears in historical contexts. It refers specifically to collective uprisings in pre-modern Japan, particularly during the {室町|むろまち}⟦{時代|じだい}→時代：01424_jidai⟧ and ⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧.\n\nCOMMON COLLOCATIONS:\n- {一揆|いっき}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧ (to stage an uprising)\n- {百姓|ひゃくしょう}{一揆|いっき} (peasant uprising)\n- ⟦{一向|いっこう}→一向：20257_ikkou⟧{一揆|いっき} (Ikkō-ikki, religious uprisings by Pure Land Buddhists)\n- {土|つち}{一揆|いっき} (land uprising, riots demanding debt cancellation)\n\nETYMOLOGY: {一|いっ} (one, united) + {揆|き} (action, measure). The word originally meant \"acting as one\" or \"of one mind,\" emphasizing the collective nature of the movement.\n\nNOTE: Do not confuse with ⟦{一気|いっき}→一気：08891_ikki⟧ (in one breath, all at once), which is a different word.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24822_uchikowashi",
+      "reading": "うちこわし",
+      "headword": "{打|う}ち{壊|こわ}し",
+      "label": "smashing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T02:00:52Z",
-    "modified": "2026-02-16T02:00:52Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

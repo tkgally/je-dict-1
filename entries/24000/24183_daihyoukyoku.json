@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24183_daihyoukyoku_ex1",
-      "japanese": "この{曲|きょく}は{彼|かれ}の{代表曲|だいひょうきょく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦は→は：00079_ha⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{代表曲|だいひょうきょく}だ。",
       "english": "This song is his signature piece.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24183_daihyoukyoku_ex2",
-      "japanese": "コンサートの{最後|さいご}に{代表曲|だいひょうきょく}が{演奏|えんそう}された。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧{代表曲|だいひょうきょく}⟦が→が：00051_ga⟧⟦{演奏|えんそう}→演奏：01896_ensou⟧⟦された→する：00392_suru⟧。",
       "english": "The signature song was performed at the end of the concert.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24183_daihyoukyoku_ex3",
-      "japanese": "{彼女|かのじょ}にはヒット{曲|きょく}が{多|おお}いが、{代表曲|だいひょうきょく}と{言|い}えばやはりデビュー{作|さく}だろう。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦ヒット{曲|きょく}→ヒット曲：25764_hittokyoku⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦が→が：00051_ga⟧、{代表曲|だいひょうきょく}⟦と→と：00512_to⟧⟦{言|い}えば→言う：00515_iu⟧⟦やはり→やはり：01991_yahari⟧⟦デビュー→デビュー：11016_debyuu⟧⟦{作|さく}→作：27430_saku⟧だろう。",
       "english": "She has many hit songs, but her signature piece is surely her debut release.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {代表|だいひょう} (representative) and {曲|きょく} (piece of music). Refers to the single most recognized or iconic work of a musician, band, or composer.\n\nCOMMON COLLOCATIONS:\n- {代表曲|だいひょうきょく}と{言|い}えば: speaking of signature songs\n- {代表曲|だいひょうきょく}を{歌|うた}う: to sing one's signature song\n- {代表曲|だいひょうきょく}を{演奏|えんそう}する: to perform one's signature piece\n\nSIMILAR WORDS:\n- ヒット{曲|きょく}: hit song — a commercially successful song, but not necessarily the most representative one\n- {名曲|めいきょく}: masterpiece, classic — a renowned piece of music regardless of who composed it\n- {代表作|だいひょうさく}: representative work — the broader equivalent covering literature, film, art, etc., not just music",
+  "notes": "A compound of ⟦{代表|だいひょう}→代表：03419_daihyou⟧ (representative) and ⟦{曲|きょく}→曲：09881_kyoku⟧ (piece of music). Refers to the single most recognized or iconic work of a musician, band, or composer.\n\nCOMMON COLLOCATIONS:\n- {代表曲|だいひょうきょく}⟦と→と：00512_to⟧⟦{言|い}えば→言う：00515_iu⟧: speaking of signature songs\n- {代表曲|だいひょうきょく}⟦を→を：00422_wo⟧⟦{歌|うた}う→歌う：00684_utau⟧: to sing one's signature song\n- {代表曲|だいひょうきょく}⟦を→を：00422_wo⟧⟦{演奏|えんそう}する→演奏する：20349_ensousuru⟧: to perform one's signature piece\n\nSIMILAR WORDS:\n- ⟦ヒット{曲|きょく}→ヒット曲：25764_hittokyoku⟧: hit song — a commercially successful song, but not necessarily the most representative one\n- ⟦{名曲|めいきょく}→名曲：17476_meikyoku⟧: masterpiece, classic — a renowned piece of music regardless of who composed it\n- ⟦{代表作|だいひょうさく}→代表作：09952_daihyousaku⟧: representative work — the broader equivalent covering literature, film, art, etc., not just music",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25764_hittokyoku",
+      "reading": "ひっときょく",
+      "headword": "ヒット{曲|きょく}",
+      "label": "hit song"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17476_meikyoku",
+      "reading": "めいきょく",
+      "headword": "{名曲|めいきょく}",
+      "label": "masterpiece, classic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09952_daihyousaku",
+      "reading": "だいひょうさく",
+      "headword": "{代表作|だいひょうさく}",
+      "label": "representative work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ],
       "usage": []
     },
     "created": "2026-04-17T21:44:28Z",
-    "modified": "2026-04-17T21:44:28Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09996_mokutekichi_ex1",
-      "japanese": "{目的地|もくてきち}に{着|つ}いた。",
+      "japanese": "{目的地|もくてきち}⟦に→に：00314_ni⟧⟦{着|つ}いた→着く：00680_tsuku⟧。",
       "english": "I arrived at the destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09996_mokutekichi_ex2",
-      "japanese": "カーナビで{目的地|もくてきち}を{設定|せってい}した。",
+      "japanese": "カーナビ⟦で→で：00502_de⟧{目的地|もくてきち}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦した→する：00392_suru⟧。",
       "english": "I set the destination on the GPS.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09996_mokutekichi_ex3",
-      "japanese": "{目的地|もくてきち}まであと{何|なん}キロですか。",
+      "japanese": "{目的地|もくてきち}⟦まで→まで：00490_made⟧あと⟦{何|なん}→何〜：03100_nan⟧⟦キロ→キロ：01350_kiro⟧です⟦か→か：09473_ka⟧。",
       "english": "How many more kilometers to the destination?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{目的地|もくてきち} is composed of {目的|もくてき} (purpose, goal) + {地|ち} (place).\n\nCOMMON EXPRESSIONS:\n- {目的地|もくてきち}に{着|つ}く / {到着|とうちゃく}する (to arrive at the destination)\n- {目的地|もくてきち}を{設定|せってい}する (to set a destination)\n- {目的地|もくてきち}まで (to/until the destination)\n- {最終|さいしゅう}{目的地|もくてきち} (final destination)\n\nSIMILAR WORDS:\n- {行|い}き{先|さき}: destination (more casual)\n- {終点|しゅうてん}: terminus, end of the line (for transportation)",
+  "notes": "{目的地|もくてきち} is composed of ⟦{目的|もくてき}→目的：02433_mokuteki⟧ (purpose, goal) + {地|ち} (place).\n\nCOMMON EXPRESSIONS:\n- {目的地|もくてきち}⟦に→に：00314_ni⟧⟦{着|つ}く→着く：00680_tsuku⟧ / ⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦する→する：00392_suru⟧ (to arrive at the destination)\n- {目的地|もくてきち}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧ (to set a destination)\n- {目的地|もくてきち}⟦まで→まで：00490_made⟧ (to/until the destination)\n- ⟦{最終|さいしゅう}→最終：02820_saishuu⟧{目的地|もくてきち} (final destination)\n\nSIMILAR WORDS:\n- ⟦{行|い}き{先|さき}→行き先：16779_ikisaki⟧: destination (more casual)\n- ⟦{終点|しゅうてん}→終点：05457_shuuten⟧: terminus, end of the line (for transportation)",
   "cross_references": [
     {
       "type": "synonym",
@@ -45,17 +51,56 @@
       "reading": "いきさき",
       "headword": "{行|い}き{先|さき}",
       "label": "destination (casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05457_shuuten",
+      "reading": "しゅうてん",
+      "headword": "{終点|しゅうてん}",
+      "label": "terminus, end of the line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12949_tabisaki",
+      "reading": "たびさき",
+      "headword": "{旅先|たびさき}",
+      "label": "travel destination, place one is visiting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25065_tokousaki",
+      "reading": "とこうさき",
+      "headword": "{渡航先|とこうさき}",
+      "label": "destination (abroad)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26039_shuuchaku",
+      "reading": "しゅうちゃく",
+      "headword": "{終着|しゅうちゃく}",
+      "label": "terminus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28195_ryokousaki",
+      "reading": "りょこうさき",
+      "headword": "{旅行先|りょこうさき}",
+      "label": "travel destination"
     }
   ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:19Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

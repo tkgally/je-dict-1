@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15423_hakkakusuru_ex1",
-      "japanese": "{不正|ふせい}が{発覚|はっかく}した。",
+      "japanese": "⟦{不正|ふせい}→不正：01660_fusei⟧⟦が→が：00051_ga⟧{発覚|はっかく}した。",
       "english": "The fraud was discovered.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15423_hakkakusuru_ex2",
-      "japanese": "{浮気|うわき}が{発覚|はっかく}して{離婚|りこん}することになった。",
+      "japanese": "⟦{浮気|うわき}→浮気：13285_uwaki⟧⟦が→が：00051_ga⟧{発覚|はっかく}して⟦{離婚|りこん}する→離婚する：21333_rikonsuru⟧ことになった。",
       "english": "The affair was discovered and they ended up divorcing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15423_hakkakusuru_ex3",
-      "japanese": "{会計|かいけい}データの{改|かい}ざんが{内部|ないぶ}{調査|ちょうさ}で{発覚|はっかく}し、{社長|しゃちょう}が{辞任|じにん}した。",
+      "japanese": "⟦{会計|かいけい}→会計：02536_kaikei⟧⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{改|かい}ざん⟦が→が：00051_ga⟧⟦{内部|ないぶ}→内部：05583_naibu⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦で→で：00502_de⟧{発覚|はっかく}し、⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧⟦{辞任|じにん}→辞任：10144_jinin⟧⟦した→する：00392_suru⟧。",
       "english": "The falsification of accounting data was discovered through an internal investigation, and the president resigned.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{発覚|はっかく}する is almost exclusively used for negative things being exposed — crimes, scandals, lies, cheating, etc. For neutral or positive discoveries, {判明|はんめい}する or {明|あき}らかになる is used instead.\n\nCOMMON COLLOCATIONS:\n- {不正|ふせい}が{発覚|はっかく}する (fraud is discovered)\n- {犯行|はんこう}が{発覚|はっかく}する (a crime is detected)\n- {嘘|うそ}が{発覚|はっかく}する (a lie is exposed)\n- {事件|じけん}が{発覚|はっかく}する (an incident comes to light)\n\nRELATED WORDS:\n- {判明|はんめい}する: to become clear (neutral)\n- {露見|ろけん}する: to be exposed\n- {明|あき}るみに{出|で}る: to come to light",
-  "cross_references": [],
+  "notes": "USAGE:\n{発覚|はっかく}する is almost exclusively used for negative things being exposed — crimes, scandals, lies, cheating, etc. For neutral or positive discoveries, ⟦{判明|はんめい}→判明：11785_hanmei⟧⟦する→する：00392_suru⟧ or ⟦{明|あき}らか→明らか：02351_akiraka⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- ⟦{不正|ふせい}→不正：01660_fusei⟧⟦が→が：00051_ga⟧{発覚|はっかく}する (fraud is discovered)\n- ⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦が→が：00051_ga⟧{発覚|はっかく}する (a crime is detected)\n- ⟦{嘘|うそ}→嘘：01796_uso⟧⟦が→が：00051_ga⟧{発覚|はっかく}する (a lie is exposed)\n- ⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧{発覚|はっかく}する (an incident comes to light)\n\nRELATED WORDS:\n- ⟦{判明|はんめい}→判明：11785_hanmei⟧⟦する→する：00392_suru⟧: to become clear (neutral)\n- ⟦{露見|ろけん}→露見：20077_roken⟧⟦する→する：00392_suru⟧: to be exposed\n- {明|あき}るみ⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to come to light",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11785_hanmei",
+      "reading": "はんめい",
+      "headword": "{判明|はんめい}",
+      "label": "to become clear"
+    },
+    {
+      "type": "related",
+      "target_id": "20077_roken",
+      "reading": "ろけん",
+      "headword": "{露見|ろけん}",
+      "label": "to be exposed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17187_roteisuru",
+      "reading": "ろていする",
+      "headword": "{露呈|ろてい}する",
+      "label": "to be exposed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26929_hakkensuru",
+      "reading": "はっけんする",
+      "headword": "{発見|はっけん}する",
+      "label": "to discover"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:46:16Z",
-    "modified": "2026-03-06T13:46:16Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +181,8 @@
         "general"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

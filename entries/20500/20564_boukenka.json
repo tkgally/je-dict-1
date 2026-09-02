@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20564_boukenka_ex1",
-      "japanese": "{有名|ゆうめい}な{冒険家|ぼうけんか}の{話|はなし}を{聞|き}いた。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{冒険家|ぼうけんか}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I heard a story about a famous adventurer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20564_boukenka_ex2",
-      "japanese": "{彼女|かのじょ}は{冒険家|ぼうけんか}として{世界中|せかいじゅう}を{旅|たび}している。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{冒険家|ぼうけんか}⟦として→として：06802_toshite⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦を→を：00422_wo⟧⟦{旅|たび}→旅：03407_tabi⟧⟦している→する：00392_suru⟧。",
       "english": "She travels around the world as an adventurer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20564_boukenka_ex3",
-      "japanese": "その{冒険家|ぼうけんか}は{単独|たんどく}で{南極|なんきょく}を{横断|おうだん}することに{成功|せいこう}した。",
+      "japanese": "⟦その→その：00993_sono⟧{冒険家|ぼうけんか}⟦は→は：00079_ha⟧⟦{単独|たんどく}→単独：05613_tandoku⟧で⟦{南極|なんきょく}→南極：11936_nankyoku⟧⟦を→を：00422_wo⟧⟦{横断|おうだん}→横断：01906_oudan⟧⟦する→する：00392_suru⟧こと⟦に→に：00314_ni⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "The adventurer succeeded in crossing Antarctica solo.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {冒険|ぼうけん} (adventure) and {家|か} (professional/person who does). The suffix {家|か} indicates someone who is known for or makes a career of the activity.\n\nCOMMON COLLOCATIONS:\n- {冒険家|ぼうけんか}{精神|せいしん}: adventurer's spirit\n- {冒険家|ぼうけんか}になる: to become an adventurer\n- {有名|ゆうめい}な{冒険家|ぼうけんか}: a famous adventurer\n\nRELATED TERMS:\n- {冒険|ぼうけん}: adventure — the activity itself\n- {探検家|たんけんか}: explorer — specifically someone who explores unknown regions, often for scientific purposes\n- {登山家|とざんか}: mountaineer — specialist in mountain climbing\n- {旅人|たびびと}: traveler — broader term, without the implication of danger",
+  "notes": "Composed of ⟦{冒険|ぼうけん}→冒険：03629_bouken⟧ (adventure) and ⟦{家|か}→〜家：28339_ka⟧ (professional/person who does). The suffix ⟦{家|か}→〜家：28339_ka⟧ indicates someone who is known for or makes a career of the activity.\n\nCOMMON COLLOCATIONS:\n- {冒険家|ぼうけんか}⟦{精神|せいしん}→精神：03377_seishin⟧: adventurer's spirit\n- {冒険家|ぼうけんか}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become an adventurer\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{冒険家|ぼうけんか}: a famous adventurer\n\nRELATED WORDS:\n- ⟦{冒険|ぼうけん}→冒険：03629_bouken⟧: adventure — the activity itself\n- ⟦{探検家|たんけんか}→探検家：27953_tankenka⟧: explorer — specifically someone who explores unknown regions, often for scientific purposes\n- {登山家|とざんか}: mountaineer — specialist in mountain climbing\n- ⟦{旅人|たびびと}→旅人：12725_tabibito⟧: traveler — broader term, without the implication of danger",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27953_tankenka",
+      "reading": "たんけんか",
+      "headword": "{探検家|たんけんか}",
+      "label": "explorer"
+    },
+    {
+      "type": "related",
+      "target_id": "12725_tabibito",
+      "reading": "たびびと",
+      "headword": "{旅人|たびびと}",
+      "label": "traveler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21166_boukensha",
+      "reading": "ぼうけんしゃ",
+      "headword": "{冒険者|ぼうけんしゃ}",
+      "label": "adventurer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25022_tankentai",
+      "reading": "たんけんたい",
+      "headword": "{探検隊|たんけんたい}",
+      "label": "expedition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25605_tankensha",
+      "reading": "たんけんしゃ",
+      "headword": "{探検者|たんけんしゃ}",
+      "label": "explorer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +96,6 @@
       ]
     },
     "created": "2026-03-29T18:10:20Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

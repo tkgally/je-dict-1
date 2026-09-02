@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21569_suii_ex1",
-      "japanese": "{川|かわ}の{水位|すいい}が{上|あ}がっている。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧{水位|すいい}⟦が→が：00051_ga⟧⟦{上|あ}がっている→上がる：00615_agaru⟧。",
       "english": "The water level of the river is rising.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21569_suii_ex2",
-      "japanese": "{大雨|おおあめ}で{水位|すいい}が{危険|きけん}な{水準|すいじゅん}に{達|たっ}した。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦で→で：00502_de⟧{水位|すいい}⟦が→が：00051_ga⟧⟦{危険|きけん}→危険：01141_kiken⟧な⟦{水準|すいじゅん}→水準：03357_suijun⟧⟦に→に：00314_ni⟧⟦{達|たっ}した→達する：02129_tassuru⟧。",
       "english": "The water level reached a dangerous level due to heavy rain.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21569_suii_ex3",
-      "japanese": "ダムの{水位|すいい}が{低下|ていか}しているため、{取水|しゅすい}{制限|せいげん}が{出|で}された。",
+      "japanese": "⟦ダム→ダム：00034_damu⟧⟦の→の：09472_no⟧{水位|すいい}⟦が→が：00051_ga⟧⟦{低下|ていか}→低下：04065_teika⟧⟦している→する：00392_suru⟧⟦ため→ため：01145_tame⟧、{取水|しゅすい}⟦{制限|せいげん}→制限：03375_seigen⟧⟦が→が：00051_ga⟧{出|で}された。",
       "english": "Water intake restrictions were issued because the dam's water level is declining.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {水|すい} (water) and {位|い} (level, rank). A fundamental term in weather reports and disaster preparedness.\n\nCOMMON COLLOCATIONS:\n- {水位|すいい}が{上|あ}がる/{下|さ}がる: the water level rises/falls\n- {水位|すいい}が{上昇|じょうしょう}する: the water level increases (formal)\n- {危険|きけん}{水位|すいい}: dangerous water level\n- {水位|すいい}{計|けい}: water level gauge\n- {水位|すいい}を{監視|かんし}する: to monitor the water level\n\nUSAGE:\nFrequently heard in weather reports and disaster alerts, especially during the rainy season ({梅雨|つゆ}) and typhoon season. The phrase {危険|きけん}{水位|すいい} (dangerous water level) triggers evacuation warnings.\n\nSIMILAR WORDS:\n- {水位|すいい}: water level — the actual height of water\n- {推移|すいい}: transition, changes over time — a homophone with completely different meaning\n- {水量|すいりょう}: water volume — the amount of water, not just its height\n- {潮位|ちょうい}: tide level — specifically for ocean tides",
+  "notes": "Composed of {水|すい} (water) and ⟦{位|い}→〜位：00443_i⟧ (level, rank). A fundamental term in weather reports and disaster preparedness.\n\nCOMMON COLLOCATIONS:\n- {水位|すいい}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧/⟦{下|さ}がる→下がる：01188_sagaru⟧: the water level rises/falls\n- {水位|すいい}⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}する→上昇する：21681_joushousuru⟧: the water level increases (formal)\n- ⟦{危険|きけん}→危険：01141_kiken⟧{水位|すいい}: dangerous water level\n- {水位|すいい}⟦{計|けい}→計：02691_kei⟧: water level gauge\n- {水位|すいい}⟦を→を：00422_wo⟧⟦{監視|かんし}→監視：05521_kanshi⟧⟦する→する：00392_suru⟧: to monitor the water level\n\nUSAGE:\nFrequently heard in weather reports and disaster alerts, especially during the rainy season (⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧) and typhoon season. The phrase ⟦{危険|きけん}→危険：01141_kiken⟧{水位|すいい} (dangerous water level) triggers evacuation warnings.\n\nSIMILAR WORDS:\n- {水位|すいい}: water level — the actual height of water\n- ⟦{推移|すいい}→推移：05579_suii⟧: transition, changes over time — a homophone with completely different meaning\n- {水量|すいりょう}: water volume — the amount of water, not just its height\n- {潮位|ちょうい}: tide level — specifically for ocean tides",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "05579_suii",
+      "reading": "すいい",
+      "headword": "{推移|すいい}",
+      "label": "transition, changes over time"
+    },
+    {
+      "type": "related",
+      "target_id": "18675_suishin",
+      "reading": "すいしん",
+      "headword": "{水深|すいしん}",
+      "label": "water depth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-02T16:20:37Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

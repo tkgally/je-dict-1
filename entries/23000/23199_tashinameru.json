@@ -3,7 +3,7 @@
   "headword": "{窘|たしな}める",
   "reading": "たしなめる",
   "romaji": "tashinameru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to admonish; to reprove gently",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23199_tashinameru_ex1",
-      "japanese": "{母|はは}にやんわり{窘|たしな}められた。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦に→に：00314_ni⟧やんわり{窘|たしな}められた。",
       "english": "My mother gently admonished me.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23199_tashinameru_ex2",
-      "japanese": "{行儀|ぎょうぎ}の{悪|わる}い{子|こ}どもを{窘|たしな}めた。",
+      "japanese": "⟦{行儀|ぎょうぎ}→行儀：02662_gyougi⟧⟦の→の：09472_no⟧⟦{悪|わる}い→悪い：00908_warui⟧{子|こ}ども⟦を→を：00422_wo⟧{窘|たしな}めた。",
       "english": "I reproved the child for bad manners.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23199_tashinameru_ex3",
-      "japanese": "{上司|じょうし}が{失礼|しつれい}な{発言|はつげん}をした{部下|ぶか}を{静|しず}かに{窘|たしな}めた。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦が→が：00051_ga⟧⟦{失礼|しつれい}→失礼：01247_shitsurei⟧な⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦を→を：00422_wo⟧⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧{窘|たしな}めた。",
       "english": "The boss quietly admonished the subordinate who had made a rude remark.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Implies a calm, measured correction — not a harsh scolding. The person admonishing typically has higher status or authority (parent, teacher, boss) and addresses the issue with restraint and composure.\n\nCOMMON COLLOCATIONS:\n- やんわり{窘|たしな}める: to admonish gently\n- {静|しず}かに{窘|たしな}める: to admonish quietly\n- {行儀|ぎょうぎ}を{窘|たしな}める: to correct someone's manners\n- {子|こ}どもを{窘|たしな}める: to reprove a child\n\nSIMILAR WORDS:\n- {叱|しか}る: to scold — stronger and more direct; can involve raising one's voice\n- {注意|ちゅうい}する: to caution, to warn — more neutral; can be used between equals\n- {諭|さと}す: to admonish, to counsel — emphasizes explaining why something is wrong, more didactic",
+  "notes": "Implies a calm, measured correction — not a harsh scolding. The person admonishing typically has higher status or authority (parent, teacher, boss) and addresses the issue with restraint and composure.\n\nCOMMON COLLOCATIONS:\n- やんわり{窘|たしな}める: to admonish gently\n- ⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧{窘|たしな}める: to admonish quietly\n- ⟦{行儀|ぎょうぎ}→行儀：02662_gyougi⟧⟦を→を：00422_wo⟧{窘|たしな}める: to correct someone's manners\n- {子|こ}ども⟦を→を：00422_wo⟧{窘|たしな}める: to reprove a child\n\nSIMILAR WORDS:\n- ⟦{叱|しか}る→叱る：01202_shikaru⟧: to scold — stronger and more direct; can involve raising one's voice\n- ⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧: to caution, to warn — more neutral; can be used between equals\n- ⟦{諭|さと}す→諭す：14223_satosu⟧: to admonish, to counsel — emphasizes explaining why something is wrong, more didactic",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01202_shikaru",
+      "reading": "しかる",
+      "headword": "{叱|しか}る",
+      "label": "to scold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01464_chuui",
+      "reading": "ちゅうい",
+      "headword": "{注意|ちゅうい}",
+      "label": "to caution, to warn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14223_satosu",
+      "reading": "さとす",
+      "headword": "{諭|さと}す",
+      "label": "to admonish, to counsel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-10T03:36:29Z",
-    "modified": "2026-04-10T03:36:29Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "ichidan",

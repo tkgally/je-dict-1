@@ -3,7 +3,7 @@
   "headword": "{乱闘|らんとう}",
   "reading": "らんとう",
   "romaji": "rantou",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "brawl; scuffle; melee",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "21235_rantou_ex1",
-      "japanese": "{試合後|しあいご}に{乱闘|らんとう}が{起|お}きた。",
+      "japanese": "{試合後|しあいご}⟦に→に：00314_ni⟧{乱闘|らんとう}⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A brawl broke out after the game.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "21235_rantou_ex2",
-      "japanese": "{酔|よ}った{客|きゃく}たちが{乱闘|らんとう}{騒|さわ}ぎを{起|お}こした。",
+      "japanese": "⟦{酔|よ}った→酔う：14437_you⟧⟦{客|きゃく}→客：00865_kyaku⟧たち⟦が→が：00051_ga⟧{乱闘|らんとう}⟦{騒|さわ}ぎ→騒ぎ：02827_sawagi⟧⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧。",
       "english": "Drunk customers caused a brawl.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "21235_rantou_ex3",
-      "japanese": "{警察|けいさつ}が{駆|か}けつけたときには、{乱闘|らんとう}はすでに{収|おさ}まっていた。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{駆|か}けつけた→駆けつける：14632_kaketsukeru⟧とき⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{乱闘|らんとう}⟦は→は：00079_ha⟧すでに⟦{収|おさ}まっていた→収まる：11858_osamaru⟧。",
       "english": "By the time the police arrived, the brawl had already subsided.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "A disorderly, chaotic fight involving multiple people. Stronger and more violent than {喧嘩|けんか} (quarrel/fight), and implies a lack of order or rules.\n\nCOMMON COLLOCATIONS:\n- {乱闘|らんとう}{騒|さわ}ぎ: brawl; ruckus involving fighting\n- {乱闘|らんとう}が{起|お}きる: a brawl breaks out\n- {乱闘|らんとう}に{巻|ま}き{込|こ}まれる: to get caught up in a brawl\n- {乱闘|らんとう}{劇|げき}: dramatic brawl; wild fight scene\n\nSIMILAR WORDS:\n- {喧嘩|けんか}: fight, quarrel — can be verbal or physical, usually between two people\n- {殴|なぐ}り{合|あ}い: fistfight — specifically punching each other\n- {格闘|かくとう}: combat, grappling — more organized, can be martial arts\n\nFORMATION:\n{乱|らん} (disorder, chaos) + {闘|とう} (fight, battle) — a disorderly fight.",
+  "notes": "A disorderly, chaotic fight involving multiple people. Stronger and more violent than ⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧ (quarrel/fight), and implies a lack of order or rules.\n\nCOMMON COLLOCATIONS:\n- {乱闘|らんとう}⟦{騒|さわ}ぎ→騒ぎ：02827_sawagi⟧: brawl; ruckus involving fighting\n- {乱闘|らんとう}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a brawl breaks out\n- {乱闘|らんとう}⟦に→に：00314_ni⟧⟦{巻|ま}き{込|こ}まれる→巻き込む：05753_makikomu⟧: to get caught up in a brawl\n- {乱闘|らんとう}⟦{劇|げき}→劇：02713_geki⟧: dramatic brawl; wild fight scene\n\nSIMILAR WORDS:\n- ⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧: fight, quarrel — can be verbal or physical, usually between two people\n- {殴|なぐ}り{合|あ}い: fistfight — specifically punching each other\n- ⟦{格闘|かくとう}→格闘：13111_kakutou⟧: combat, grappling — more organized, can be martial arts\n\nFORMS:\n{乱|らん} (disorder, chaos) + {闘|とう} (fight, battle) — a disorderly fight.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02996_kenka",
+      "reading": "けんか",
+      "headword": "{喧嘩|けんか}",
+      "label": "fight, quarrel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13111_kakutou",
+      "reading": "かくとう",
+      "headword": "{格闘|かくとう}",
+      "label": "combat, grappling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T15:21:59Z",
-    "modified": "2026-04-01T15:21:59Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

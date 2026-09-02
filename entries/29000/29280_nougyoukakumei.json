@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29280_nougyoukakumei_ex1",
-      "japanese": "{農業革命|のうぎょうかくめい}で{人口|じんこう}が{増|ふ}えた。",
+      "japanese": "{農業革命|のうぎょうかくめい}⟦で→で：00502_de⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "The agricultural revolution caused the population to grow.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29280_nougyoukakumei_ex2",
-      "japanese": "{農業革命|のうぎょうかくめい}によって{人々|ひとびと}は{定住|ていじゅう}するようになった。",
+      "japanese": "{農業革命|のうぎょうかくめい}⟦によって→によって：06801_niyotte⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧⟦{定住|ていじゅう}→定住：12524_teijuu⟧⟦する→する：00392_suru⟧ようになった。",
       "english": "Through the agricultural revolution, people came to settle in fixed places.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29280_nougyoukakumei_ex3",
-      "japanese": "{狩猟|しゅりょう}{中心|ちゅうしん}の{生活|せいかつ}から{農業|のうぎょう}{中心|ちゅうしん}の{社会|しゃかい}への{転換|てんかん}は、{農業革命|のうぎょうかくめい}と{呼|よ}ばれる。",
+      "japanese": "⟦{狩猟|しゅりょう}→狩猟：13507_shuryou⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦から→から：00504_kara⟧⟦{農業|のうぎょう}→農業：01491_nougyou⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦の→の：09472_no⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{転換|てんかん}→転換：19439_tenkan⟧⟦は→は：00079_ha⟧、{農業革命|のうぎょうかくめい}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧。",
       "english": "The shift from a hunting-centered life to a farming-centered society is called the agricultural revolution.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A term from history and the social sciences. It can denote the prehistoric birth of farming or any later transformation that sharply raised agricultural output.\n\nCOMMON COLLOCATIONS:\n- {農業革命|のうぎょうかくめい}が{起|お}こる: an agricultural revolution occurs\n- {緑|みどり}の{革命|かくめい}: the Green Revolution — the 20th-century surge in crop yields from new varieties and methods\n\nSIMILAR WORDS:\n- {産業革命|さんぎょうかくめい}: the Industrial Revolution — the parallel transformation in manufacturing",
+  "notes": "A term from history and the social sciences. It can denote the prehistoric birth of farming or any later transformation that sharply raised agricultural output.\n\nCOMMON COLLOCATIONS:\n- {農業革命|のうぎょうかくめい}⟦が→が：00051_ga⟧⟦{起|お}こる→起こる：01910_okoru⟧: an agricultural revolution occurs\n- ⟦{緑|みどり}→緑：00970_midori⟧⟦の→の：09472_no⟧⟦{革命|かくめい}→革命：05968_kakumei⟧: the Green Revolution — the 20th-century surge in crop yields from new varieties and methods\n\nSIMILAR WORDS:\n- ⟦{産業革命|さんぎょうかくめい}→産業革命：18638_sangyoukakumei⟧: the Industrial Revolution — the parallel transformation in manufacturing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18638_sangyoukakumei",
+      "reading": "さんぎょうかくめい",
+      "headword": "{産業|さんぎょう}{革命|かくめい}",
+      "label": "the Industrial Revolution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "history"
       ],
       "domain": []
     },
     "created": "2026-06-15T21:19:05Z",
-    "modified": "2026-06-15T21:19:05Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

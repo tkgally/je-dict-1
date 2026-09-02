@@ -88,7 +88,7 @@
       ]
     }
   ],
-  "notes": "{近|ちか}く has two main uses: \"nearby/vicinity\" (location) and \"nearly/almost\" (approximate amount).\n\nLOCATION USE:\n- ⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{近|ちか}く: near the station\n- {近|ちか}く⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧: nearby shop\n- ⟦この→この：00962_kono⟧{近|ちか}く: around here\n\nAPPROXIMATION USE:\n- 100⟦{人|にん}→〜人：00658_nin⟧{近|ちか}く: nearly 100 people\n- 1⟦{時間|じかん}→時間：00468_jikan⟧{近|ちか}く: nearly an hour\n- 3⟦{万|まん}→万：00795_man⟧⟦{円|えん}→円：00774_en⟧{近|ちか}く: close to 30,000 yen\n\nSIMILAR WORDS:\n- ⟦{付近|ふきん}→付近：00044_fukin⟧: vicinity (more formal)\n- ⟦{辺|あた}り→辺り：01770_atari⟧: area, around\n- ⟦{近所|きんじょ}→近所：01318_kinjo⟧: neighborhood\n- ⟦{近|ちか}い→近い：00530_chikai⟧: near (adjective)\n\nNOTE:\n{近|ちか}く can modify nouns with ⟦の→の：09472_no⟧: {近|ちか}く⟦の→の：09472_no⟧ + noun.",
+  "notes": "{近|ちか}く has two main uses: \"nearby/vicinity\" (location) and \"nearly/almost\" (approximate amount).\n\nLOCATION USE:\n- ⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{近|ちか}く: near the station\n- {近|ちか}く⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧: nearby shop\n- ⟦この→この：00962_kono⟧{近|ちか}く: around here\n\nAPPROXIMATION USE:\n- 100⟦{人|にん}→〜人：00658_nin⟧{近|ちか}く: nearly 100 people\n- 1⟦{時間|じかん}→時間：00468_jikan⟧{近|ちか}く: nearly an hour\n- 3⟦{万|まん}→万：00795_man⟧⟦{円|えん}→円：00774_en⟧{近|ちか}く: close to 30,000 yen\n\nSIMILAR WORDS:\n- ⟦{付近|ふきん}→付近：00044_fukin⟧: vicinity (more formal)\n- ⟦{辺|あた}り→辺り：01770_atari⟧: area, around\n- ⟦{近所|きんじょ}→近所：01318_kinjo⟧: neighborhood\n- ⟦{近|ちか}い→近い：00530_chikai⟧: near (adjective)\n\nUSAGE:\n{近|ちか}く can modify nouns with ⟦の→の：09472_no⟧: {近|ちか}く⟦の→の：09472_no⟧ + noun.",
   "cross_references": [
     {
       "type": "antonym",
@@ -96,11 +96,39 @@
       "reading": "とおく",
       "headword": "{遠|とお}く",
       "label": "far away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00044_fukin",
+      "reading": "ふきん",
+      "headword": "{付近|ふきん}",
+      "label": "vicinity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01770_atari",
+      "reading": "あたり",
+      "headword": "{辺|あた}り",
+      "label": "area, around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01318_kinjo",
+      "reading": "きんじょ",
+      "headword": "{近所|きんじょ}",
+      "label": "neighborhood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00530_chikai",
+      "reading": "ちかい",
+      "headword": "{近|ちか}い",
+      "label": "near"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:32:47Z",
-    "modified": "2026-04-04T06:28:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22807_shindo_ex1",
-      "japanese": "{震度|しんど}{五|ご}{強|きょう}だった。",
+      "japanese": "{震度|しんど}⟦{五|ご}→五：00697_go⟧{強|きょう}だった。",
       "english": "The seismic intensity was upper 5.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22807_shindo_ex2",
-      "japanese": "{震度|しんど}{三|さん}の{地震|じしん}があった。",
+      "japanese": "{震度|しんど}⟦{三|さん}→三：00749_san⟧⟦の→の：09472_no⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was an earthquake of intensity 3.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22807_shindo_ex3",
-      "japanese": "この{地域|ちいき}では{最大|さいだい}{震度|しんど}{六|ろく}{弱|じゃく}が{観測|かんそく}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{最大|さいだい}→最大：04827_saidai⟧{震度|しんど}⟦{六|ろく}→六：00747_roku⟧{弱|じゃく}⟦が→が：00051_ga⟧⟦{観測|かんそく}→観測：00183_kansoku⟧⟦された→する：00392_suru⟧。",
       "english": "A maximum seismic intensity of lower 6 was recorded in this area.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22807_shindo_ex4",
-      "japanese": "{震度|しんど}{四|よん}{以上|いじょう}の{地震|じしん}が{起|お}きたら{避難|ひなん}してください。",
+      "japanese": "{震度|しんど}⟦{四|よん}→四：00767_yon⟧⟦{以上|いじょう}→以上：01308_ijou⟧⟦の→の：09472_no⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦が→が：00051_ga⟧⟦{起|お}きたら→起きる：00521_okiru⟧⟦{避難|ひなん}して→避難する：26827_hinansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please evacuate if an earthquake of intensity 4 or higher occurs.",
       "sense_numbers": [
         1
@@ -54,20 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "The Japanese seismic intensity scale ({震度|しんど}{階級|かいきゅう}) measures how strongly shaking is felt at a given location, distinct from magnitude (マグニチュード) which measures total energy released. The scale runs from 0 to 7, with 5 and 6 each split into {弱|じゃく} (lower) and {強|きょう} (upper), giving 10 levels total.\n\nCOMMON COLLOCATIONS:\n- {震度|しんど}{五|ご}{強|きょう}: upper 5 intensity\n- {震度|しんど}{六|ろく}{弱|じゃく}: lower 6 intensity\n- {最大|さいだい}{震度|しんど}: maximum seismic intensity\n- {震度|しんど}{計|けい}: seismometer\n\nCULTURAL NOTE:\nJapanese earthquake reports always include {震度|しんど} readings for each affected area. This scale is unique to Japan and is managed by the Japan Meteorological Agency. Learners living in Japan will encounter this term frequently in news and emergency alerts.\n\nSIMILAR WORDS:\n- {深度|しんど}: depth — same pronunciation but different meaning\n- {進度|しんど}: degree of progress — also the same pronunciation",
+  "notes": "The Japanese seismic intensity scale ({震度|しんど}⟦{階級|かいきゅう}→階級：05515_kaikyuu⟧) measures how strongly shaking is felt at a given location, distinct from magnitude (マグニチュード) which measures total energy released. The scale runs from 0 to 7, with 5 and 6 each split into {弱|じゃく} (lower) and {強|きょう} (upper), giving 10 levels total.\n\nCOMMON COLLOCATIONS:\n- {震度|しんど}⟦{五|ご}→五：00697_go⟧{強|きょう}: upper 5 intensity\n- {震度|しんど}⟦{六|ろく}→六：00747_roku⟧{弱|じゃく}: lower 6 intensity\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{震度|しんど}: maximum seismic intensity\n- {震度|しんど}⟦{計|けい}→計：02691_kei⟧: seismometer\n\nCULTURAL NOTE:\nJapanese earthquake reports always include {震度|しんど} readings for each affected area. This scale is unique to Japan and is managed by the Japan Meteorological Agency. Learners living in Japan will encounter this term frequently in news and emergency alerts.\n\nSIMILAR WORDS:\n- ⟦{深度|しんど}→深度：21723_shindo⟧: depth — same pronunciation but different meaning\n- ⟦{進度|しんど}→進度：21583_shindo⟧: degree of progress — also the same pronunciation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "21723_shindo",
+      "reading": "しんど",
+      "headword": "{深度|しんど}",
+      "label": "depth"
+    },
+    {
+      "type": "homophone",
+      "target_id": "21583_shindo",
+      "reading": "しんど",
+      "headword": "{進度|しんど}",
+      "label": "degree of progress"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "science"
       ]
     },
     "created": "2026-04-07T17:04:27Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

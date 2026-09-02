@@ -3,7 +3,7 @@
   "headword": "{貫|つらぬ}き{通|とお}す",
   "reading": "つらぬきとおす",
   "romaji": "tsuranukitoosu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to persist with; to stick to; to carry through",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22028_tsuranukitoosu_ex1",
-      "japanese": "{自分|じぶん}の{意見|いけん}を{貫|つらぬ}き{通|とお}す。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{貫|つらぬ}き{通|とお}す。",
       "english": "To stick to one's opinion.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22028_tsuranukitoosu_ex2",
-      "japanese": "{彼|かれ}は{沈黙|ちんもく}を{貫|つらぬ}き{通|とお}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧⟦を→を：00422_wo⟧{貫|つらぬ}き{通|とお}した。",
       "english": "He maintained his silence throughout.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22028_tsuranukitoosu_ex3",
-      "japanese": "{周囲|しゅうい}の{反対|はんたい}にもかかわらず、{彼女|かのじょ}は{自分|じぶん}の{信念|しんねん}を{貫|つらぬ}き{通|とお}した。",
+      "japanese": "⟦{周囲|しゅうい}→周囲：03206_shuui⟧⟦の→の：09472_no⟧⟦{反対|はんたい}→反対：01497_hantai⟧にもかかわらず、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{信念|しんねん}→信念：03074_shinnen⟧⟦を→を：00422_wo⟧{貫|つらぬ}き{通|とお}した。",
       "english": "Despite opposition from those around her, she held firm to her beliefs.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {貫|つらぬ}く (to pierce through, to persist) and {通|とお}す (to pass through, to continue). The combination intensifies the meaning of persistence — not just holding to something, but doing so all the way through to the end.\n\nCOMMON COLLOCATIONS:\n- {意見|いけん}を{貫|つらぬ}き{通|とお}す: to stick to one's opinion\n- {信念|しんねん}を{貫|つらぬ}き{通|とお}す: to hold firm to one's beliefs\n- {沈黙|ちんもく}を{貫|つらぬ}き{通|とお}す: to maintain silence throughout\n- {姿勢|しせい}を{貫|つらぬ}き{通|とお}す: to maintain one's stance\n\nSIMILAR WORDS:\n- {貫|つらぬ}く: to pierce / to persist — the base verb, slightly less emphatic about completion\n- {貫徹|かんてつ}する: to carry out thoroughly — more formal, often used with policies or objectives\n- {押|お}し{通|とお}す: to push through — implies forcing something through against resistance",
+  "notes": "A compound verb formed from ⟦{貫|つらぬ}く→貫く：18728_tsuranuku⟧ (to pierce through, to persist) and ⟦{通|とお}す→通す：02300_toosu⟧ (to pass through, to continue). The combination intensifies the meaning of persistence — not just holding to something, but doing so all the way through to the end.\n\nCOMMON COLLOCATIONS:\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{貫|つらぬ}き{通|とお}す: to stick to one's opinion\n- ⟦{信念|しんねん}→信念：03074_shinnen⟧⟦を→を：00422_wo⟧{貫|つらぬ}き{通|とお}す: to hold firm to one's beliefs\n- ⟦{沈黙|ちんもく}→沈黙：13249_chinmoku⟧⟦を→を：00422_wo⟧{貫|つらぬ}き{通|とお}す: to maintain silence throughout\n- ⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦を→を：00422_wo⟧{貫|つらぬ}き{通|とお}す: to maintain one's stance\n\nSIMILAR WORDS:\n- ⟦{貫|つらぬ}く→貫く：18728_tsuranuku⟧: to pierce / to persist — the base verb, slightly less emphatic about completion\n- ⟦{貫徹|かんてつ}する→貫徹する：22027_kantetsusuru⟧: to carry out thoroughly — more formal, often used with policies or objectives\n- ⟦{押|お}し{通|とお}す→押し通す：20718_oshitoosu⟧: to push through — implies forcing something through against resistance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18728_tsuranuku",
+      "reading": "つらぬく",
+      "headword": "{貫|つらぬ}く",
+      "label": "to pierce / to persist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22027_kantetsusuru",
+      "reading": "かんてつする",
+      "headword": "{貫徹|かんてつ}する",
+      "label": "to carry out thoroughly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20718_oshitoosu",
+      "reading": "おしとおす",
+      "headword": "{押|お}し{通|とお}す",
+      "label": "to push through"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +80,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-04-04T21:09:44Z",
-    "modified": "2026-04-04T21:09:44Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "godan",

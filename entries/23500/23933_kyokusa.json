@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23933_kyokusa_ex1",
-      "japanese": "{極左|きょくさ}{集団|しゅうだん}が{逮捕|たいほ}された。",
+      "japanese": "{極左|きょくさ}⟦{集団|しゅうだん}→集団：03211_shuudan⟧⟦が→が：00051_ga⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "A far-left group was arrested.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23933_kyokusa_ex2",
-      "japanese": "その{雑誌|ざっし}は{極左|きょくさ}{寄|よ}りの{論調|ろんちょう}で{知|し}られている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦は→は：00079_ha⟧{極左|きょくさ}{寄|よ}り⟦の→の：09472_no⟧{論調|ろんちょう}⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "That magazine is known for its far-left editorial stance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23933_kyokusa_ex3",
-      "japanese": "1970{年代|ねんだい}には{極左|きょくさ}の{過激派|かげきは}による{事件|じけん}がたびたび{起|お}きた。",
+      "japanese": "1970⟦{年代|ねんだい}→年代：03533_nendai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{極左|きょくさ}⟦の→の：09472_no⟧⟦{過激派|かげきは}→過激派：14838_kagekiha⟧⟦による→による：28349_niyoru⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦たびたび→たびたび：00397_tabitabi⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "In the 1970s, incidents caused by far-left radicals occurred repeatedly.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"extreme left,\" from {極|きょく} (extreme, pole) and {左|さ} (left). In Japanese post-war history, the word is strongly associated with the radical student movements and urban guerrilla groups of the 1960s and 1970s. Like its counterpart {極右|きょくう}, it is usually applied critically rather than used as a self-description.\n\nCOMMON COLLOCATIONS:\n- {極左|きょくさ}{勢力|せいりょく}: far-left forces\n- {極左|きょくさ}{集団|しゅうだん}: a far-left group\n- {極左|きょくさ}{暴力|ぼうりょく}{集団|しゅうだん}: far-left violent group (an official police designation)\n- {極左|きょくさ}{思想|しそう}: far-left ideology\n- {極左|きょくさ}{寄|よ}り: leaning far-left\n\nRELATED TERMS:\n- {極右|きょくう}: far right — direct antonym\n- {左翼|さよく}: left wing — broader term for the entire left of the spectrum\n- {革新|かくしん}: progressive, reformist — the mainstream left\n- {過激派|かげきは}: radical faction, extremist — often overlaps with {極左|きょくさ} in Japanese usage",
+  "notes": "Literally \"extreme left,\" from ⟦{極|きょく}→極：13150_kyoku⟧ (extreme, pole) and {左|さ} (left). In Japanese post-war history, the word is strongly associated with the radical student movements and urban guerrilla groups of the 1960s and 1970s. Like its counterpart ⟦{極右|きょくう}→極右：23932_kyokuu⟧, it is usually applied critically rather than used as a self-description.\n\nCOMMON COLLOCATIONS:\n- {極左|きょくさ}⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧: far-left forces\n- {極左|きょくさ}⟦{集団|しゅうだん}→集団：03211_shuudan⟧: a far-left group\n- {極左|きょくさ}⟦{暴力|ぼうりょく}→暴力：02528_bouryoku⟧⟦{集団|しゅうだん}→集団：03211_shuudan⟧: far-left violent group (an official police designation)\n- {極左|きょくさ}⟦{思想|しそう}→思想：03173_shisou⟧: far-left ideology\n- {極左|きょくさ}{寄|よ}り: leaning far-left\n\nRELATED WORDS:\n- ⟦{極右|きょくう}→極右：23932_kyokuu⟧: far right — direct antonym\n- ⟦{左翼|さよく}→左翼：22746_sayoku⟧: left wing — broader term for the entire left of the spectrum\n- ⟦{革新|かくしん}→革新：05617_kakushin⟧: progressive, reformist — the mainstream left\n- ⟦{過激派|かげきは}→過激派：14838_kagekiha⟧: radical faction, extremist — often overlaps with {極左|きょくさ} in Japanese usage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23932_kyokuu",
+      "reading": "きょくう",
+      "headword": "{極右|きょくう}",
+      "label": "far right"
+    },
+    {
+      "type": "related",
+      "target_id": "22746_sayoku",
+      "reading": "さよく",
+      "headword": "{左翼|さよく}",
+      "label": "left wing"
+    },
+    {
+      "type": "related",
+      "target_id": "05617_kakushin",
+      "reading": "かくしん",
+      "headword": "{革新|かくしん}",
+      "label": "progressive, reformist"
+    },
+    {
+      "type": "related",
+      "target_id": "14838_kagekiha",
+      "reading": "かげきは",
+      "headword": "{過激派|かげきは}",
+      "label": "radical faction, extremist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-15T14:03:17Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

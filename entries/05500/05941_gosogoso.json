@@ -124,7 +124,7 @@
     },
     {
       "id": "05941_gosogoso_ex3",
-      "japanese": "⟦ポケット→ポケット：02964_poketto⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧ごそごそしている。",
+      "japanese": "⟦ポケット→ポケット：02964_poketto⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧ごそごそ⟦している→する：00392_suru⟧。",
       "english": "He is rummaging around in his pocket.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "05941_gosogoso_ex4",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{押|お}し{入|い}れ→押し入れ：01345_oshiire⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧ごそごそしていた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{押|お}し{入|い}れ→押し入れ：01345_oshiire⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧ごそごそ⟦していた→する：00392_suru⟧。",
       "english": "She was rummaging around in the closet.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "ごそごそ describes the sound of rustling or the action of searching through things in a somewhat clumsy or thorough manner. Often used when someone is looking for something.\n\nRELATED EXPRESSIONS:\n- ⟦がさがさ→がさがさ：05986_gasagasa⟧: similar rustling (rougher sound)\n- ⟦ごちゃごちゃ→ごちゃごちゃ：09369_gochagocha⟧: messy/cluttered\n- ⟦がさごそ→がさごそ：noentry⟧: rummaging (variant)\n\nCOMMON PATTERNS:\n- ごそごそ⟦{探|さが}す→探す：00493_sagasu⟧: to rummage/search\n- ごそごそする: to rustle/rummage\n- ごそごそと⟦{音|おと}→音：00743_oto⟧がする: to make rustling sounds\n\nNUANCE:\nごそごそ often implies discrete or secretive searching, or searching that disturbs the surrounding area.",
+  "notes": "ごそごそ describes the sound of rustling or the action of searching through things in a somewhat clumsy or thorough manner. Often used when someone is looking for something.\n\nRELATED WORDS:\n- ⟦がさがさ→がさがさ：05986_gasagasa⟧: similar rustling (rougher sound)\n- ⟦ごちゃごちゃ→ごちゃごちゃ：09369_gochagocha⟧: messy/cluttered\n- ⟦がさごそ→がさごそ：noentry⟧: rummaging (variant)\n\nCOMMON PATTERNS:\n- ごそごそ⟦{探|さが}す→探す：00493_sagasu⟧: to rummage/search\n- ごそごそ⟦する→する：00392_suru⟧: to rustle/rummage\n- ごそごそ⟦と→と：00512_to⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to make rustling sounds\n\nUSAGE:\nごそごそ often implies discrete or secretive searching, or searching that disturbs the surrounding area.",
   "cross_references": [
     {
       "type": "related",
@@ -161,11 +161,25 @@
       "headword": "がさがさ",
       "label": "rustling",
       "target_id": "05986_gasagasa"
+    },
+    {
+      "type": "related",
+      "target_id": "09369_gochagocha",
+      "reading": "ごちゃごちゃ",
+      "headword": "ごちゃごちゃ",
+      "label": "messy/cluttered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29051_gasagoso",
+      "reading": "がさごそ",
+      "headword": "がさごそ",
+      "label": "rummaging"
     }
   ],
   "metadata": {
     "created": "2026-01-16T17:20:39Z",
-    "modified": "2026-06-09T03:29:19Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

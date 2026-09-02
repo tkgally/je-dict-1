@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12180_tayou_ex1",
-      "japanese": "{多様|たよう}な{文化|ぶんか}を{尊重|そんちょう}する。",
+      "japanese": "{多様|たよう}な⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧⟦{尊重|そんちょう}する→尊重する：17456_sonchousuru⟧。",
       "english": "We respect diverse cultures.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12180_tayou_ex2",
-      "japanese": "{働|はたら}き{方|かた}が{多様|たよう}になってきた。",
+      "japanese": "⟦{働|はたら}き{方|かた}→働き方：25439_hatarakikata⟧⟦が→が：00051_ga⟧{多様|たよう}になってきた。",
       "english": "Work styles have become more diverse.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12180_tayou_ex3",
-      "japanese": "この{地域|ちいき}には{多様|たよう}な{動植物|どうしょくぶつ}が{生息|せいそく}しており、{研究者|けんきゅうしゃ}の{注目|ちゅうもく}を{集|あつ}めている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多様|たよう}な⟦{動植物|どうしょくぶつ}→動植物：23782_doushokubutsu⟧⟦が→が：00051_ga⟧⟦{生息|せいそく}→生息：13542_seisoku⟧⟦して→する：00392_suru⟧おり、⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧⟦の→の：09472_no⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "A diverse range of plants and animals inhabit this region, attracting researchers' attention.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{多様|たよう} is a na-adjective and noun describing variety and diversity.\n\nFORMS:\n- Modifier: {多様|たよう}な + noun\n- Noun: {多様|たよう}{性|せい} (diversity)\n\nCOMMON COLLOCATIONS:\n- {多様|たよう}な{価値観|かちかん}: diverse values\n- {多様|たよう}な{意見|いけん}: varied opinions\n- {多様|たよう}{性|せい}: diversity (very common compound)\n- {多様|たよう}{化|か}: diversification\n- {生物|せいぶつ}{多様|たよう}{性|せい}: biodiversity\n\nSIMILAR WORDS:\n- {様々|さまざま}: emphasizes individual differences among items (\"various, all sorts of\")\n- {多様|たよう}: emphasizes the overall quality of having variety (\"diverse\")\n- {多彩|たさい}: emphasizes richness and colorfulness of variety",
+  "notes": "{多様|たよう} is a na-adjective and noun describing variety and diversity.\n\nFORMS:\n- Modifier: {多様|たよう}な + noun\n- Noun: {多様|たよう}{性|せい} (diversity)\n\nCOMMON COLLOCATIONS:\n- {多様|たよう}な⟦{価値観|かちかん}→価値観：10431_kachikan⟧: diverse values\n- {多様|たよう}な⟦{意見|いけん}→意見：01303_iken⟧: varied opinions\n- {多様|たよう}{性|せい}: diversity (very common compound)\n- {多様|たよう}{化|か}: diversification\n- ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧{多様|たよう}{性|せい}: biodiversity\n\nSIMILAR WORDS:\n- ⟦{様々|さまざま}→様々：01559_samazama⟧: emphasizes individual differences among items (\"various, all sorts of\")\n- {多様|たよう}: emphasizes the overall quality of having variety (\"diverse\")\n- ⟦{多彩|たさい}→多彩：12165_tasai⟧: emphasizes richness and colorfulness of variety",
   "cross_references": [
     {
       "type": "synonym",
@@ -66,11 +66,25 @@
       "reading": "いろいろ",
       "headword": "{色々|いろいろ}",
       "label": "various, many kinds"
+    },
+    {
+      "type": "related",
+      "target_id": "09235_zatta",
+      "reading": "ざった",
+      "headword": "{雑多|ざった}",
+      "label": "miscellaneous, diverse, varied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19703_tamenteki",
+      "reading": "ためんてき",
+      "headword": "{多面的|ためんてき}",
+      "label": "multifaceted"
     }
   ],
   "metadata": {
     "created": "2026-02-20T10:20:15Z",
-    "modified": "2026-07-14T21:20:38Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

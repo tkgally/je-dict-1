@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "16417_sanagara_ex1",
-      "japanese": "さながら{夢|ゆめ}のようだった。",
+      "japanese": "さながら⟦{夢|ゆめ}→夢：01519_yume⟧⟦の→の：09472_no⟧ようだった。",
       "english": "It was just like a dream.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16417_sanagara_ex2",
-      "japanese": "{会場|かいじょう}はさながらお{祭|まつ}りのような{雰囲気|ふんいき}だった。",
+      "japanese": "⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦は→は：00079_ha⟧さながら⟦お{祭|まつ}り→お祭り：01349_omatsuri⟧⟦の→の：09472_no⟧ような⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧だった。",
       "english": "The venue had an atmosphere just like a festival.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16417_sanagara_ex3",
-      "japanese": "{雪|ゆき}に{覆|おお}われた{街|まち}はさながら{別世界|べっせかい}のようで、{思|おも}わず{息|いき}を{飲|の}んだ。",
+      "japanese": "⟦{雪|ゆき}→雪：00584_yuki⟧⟦に→に：00314_ni⟧⟦{覆|おお}われた→覆う：02020_oou⟧⟦{街|まち}→街：17306_machi⟧⟦は→は：00079_ha⟧さながら⟦{別世界|べっせかい}→別世界：30357_bessekai⟧⟦の→の：09472_no⟧ようで、⟦{思|おも}わ→思う：00492_omou⟧ず⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "The snow-covered town looked exactly like another world, and I caught my breath in wonder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nさながら is a somewhat literary adverb that adds vividness to a comparison. Common patterns include さながら〜のようだ and さながら〜だ. It elevates the tone of a sentence compared to using まるで or ように alone.\n\nGRAMMAR:\nTypically placed before the thing being compared to:\n- さながら + noun + のようだ\n- さながら + noun + だ\n\nCOMMON COLLOCATIONS:\n- さながら{夢|ゆめ}のよう (just like a dream)\n- さながら{戦場|せんじょう}のよう (like a battlefield)\n- さながら{別世界|べっせかい} (like another world)\n\nSIMILAR WORDS:\nまるで is more conversational and common. あたかも is more formal and literary. さながら falls between the two, adding an evocative, descriptive quality.",
-  "cross_references": [],
+  "notes": "USAGE:\nさながら is a somewhat literary adverb that adds vividness to a comparison. Common patterns include さながら〜⟦の→の：09472_no⟧ようだ and さながら〜だ. It elevates the tone of a sentence compared to using ⟦まるで→まるで：03739_marude⟧ or よう⟦に→に：00314_ni⟧ alone.\n\nCOMMON PATTERNS:\nTypically placed before the thing being compared to:\n- さながら + noun + ⟦の→の：09472_no⟧ようだ\n- さながら + noun + だ\n\nCOMMON COLLOCATIONS:\n- さながら⟦{夢|ゆめ}→夢：01519_yume⟧⟦の→の：09472_no⟧よう (just like a dream)\n- さながら⟦{戦場|せんじょう}→戦場：12746_senjou⟧⟦の→の：09472_no⟧よう (like a battlefield)\n- さながら⟦{別世界|べっせかい}→別世界：30357_bessekai⟧ (like another world)\n\nSIMILAR WORDS:\n⟦まるで→まるで：03739_marude⟧ is more conversational and common. ⟦あたかも→あたかも：10210_atakamo⟧ is more formal and literary. さながら falls between the two, adding an evocative, descriptive quality.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10210_atakamo",
+      "reading": "あたかも",
+      "headword": "あたかも",
+      "label": "as if, just like"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20861_gotoku",
+      "reading": "ごとく",
+      "headword": "ごとく",
+      "label": "like"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T09:00:55Z",
-    "modified": "2026-03-12T09:00:55Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["literary"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

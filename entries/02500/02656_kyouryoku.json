@@ -2,7 +2,7 @@
   "id": "02656_kyouryoku",
   "headword": "{強力|きょうりょく}",
   "reading": "きょうりょく",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "powerful, strong",
   "definitions": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "id": "02656_kyouryoku_ex3",
-      "japanese": "{強力|きょうりょく}な⟦{リーダーシップ|りーだーしっぷ}→リーダーシップ：09596_riidaashippu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
+      "japanese": "{強力|きょうりょく}な⟦リーダーシップ→リーダーシップ：09596_riidaashippu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Strong leadership is needed.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
     }
   ],
   "notes": "{強力|きょうりょく} emphasizes power and strength.\n\nFORMS:\n- {強力|きょうりょく}な (attributive form)\n\nCOMMON PATTERNS:\n- {強力|きょうりょく}な〜 (powerful ~)\n- {強力|きょうりょく}⟦に→に：00314_ni⟧⟦{推進|すいしん}する→推進する：17281_suishinsuru⟧ (to promote powerfully)\n\nNOTE ON READING:\n- {強力|きょうりょく} - powerful (na-adjective)\n- ⟦{強力|ごうりき}→強力：noentry⟧ - porter, carrier (different meaning)\n\nSIMILAR WORDS:\n- {強力|きょうりょく}: powerful (impact, force)\n- ⟦{強|つよ}い→強い：00820_tsuyoi⟧: strong (general)\n- ⟦{有力|ゆうりょく}→有力：13007_yuuryoku⟧: influential, powerful (influence)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00820_tsuyoi",
+      "reading": "つよい",
+      "headword": "{強|つよ}い",
+      "label": "strong"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13007_yuuryoku",
+      "reading": "ゆうりょく",
+      "headword": "{有力|ゆうりょく}",
+      "label": "influential, powerful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12536_kyouko",
+      "reading": "きょうこ",
+      "headword": "{強固|きょうこ}",
+      "label": "firm, solid, steadfast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21248_kyoudai",
+      "reading": "きょうだい",
+      "headword": "{強大|きょうだい}",
+      "label": "powerful"
+    }
+  ],
   "metadata": {
     "schema_version": "2.0",
     "created": "2026-01-11T06:58:10Z",
-    "modified": "2026-05-21T18:11:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

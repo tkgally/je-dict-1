@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06113_kakemawaru_ex1",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦が→が：00051_ga⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦で→で：00502_de⟧{駆|か}け{回|まわ}っている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦が→が：00051_ga⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦で→で：00502_de⟧{駆|か}け{回|まわ}って⟦いる→いる：00495_iru⟧。",
       "english": "The children are running around in the garden.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "06113_kakemawaru_ex2",
-      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦で→で：00502_de⟧⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧{駆|か}け{回|まわ}っていた。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦で→で：00502_de⟧⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧{駆|か}け{回|まわ}って⟦いた→いる：00495_iru⟧。",
       "english": "I was rushing around all day for work.",
       "has_audio": false,
       "sense_numbers": [
@@ -138,11 +138,32 @@
       "headword": "{駆|か}け{抜|ぬ}ける",
       "label": "to run through",
       "target_id": "06114_kakenukeru"
+    },
+    {
+      "type": "related",
+      "target_id": "18722_touhonseisou",
+      "reading": "とうほんせいそう",
+      "headword": "{東奔西走|とうほんせいそう}",
+      "label": "rushing about busily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25550_honsousuru",
+      "reading": "ほんそうする",
+      "headword": "{奔走|ほんそう}する",
+      "label": "to run around (busily)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25719_touhonseisousuru",
+      "reading": "とうほんせいそうする",
+      "headword": "{東奔西走|とうほんせいそう}する",
+      "label": "to rush about"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:41:44Z",
-    "modified": "2026-06-13T15:21:49Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

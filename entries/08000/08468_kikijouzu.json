@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08468_kikijouzu_ex1",
-      "japanese": "{彼女|かのじょ}は{聞|き}き{上手|じょうず}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{聞|き}き{上手|じょうず}だ。",
       "english": "She's a good listener.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08468_kikijouzu_ex2",
-      "japanese": "{聞|き}き{上手|じょうず}な{人|ひと}は{信頼|しんらい}される。",
+      "japanese": "{聞|き}き{上手|じょうず}な⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{信頼|しんらい}される→信頼する：22988_shinraisuru⟧。",
       "english": "People who are good listeners are trusted.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08468_kikijouzu_ex3",
-      "japanese": "{聞|き}き{上手|じょうず}になるには、{相槌|あいづち}を{打|う}つことが{大切|たいせつ}だ。",
+      "japanese": "{聞|き}き{上手|じょうず}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{相槌|あいづち}を{打|う}つ→相槌を打つ：17275_aizuchiwoutsu⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "To become a good listener, it's important to give appropriate responses.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{聞|き}く (to listen) + {上手|じょうず} (skilled at)\n\nCULTURAL IMPORTANCE:\nIn Japanese culture, being a {聞|き}き{上手|じょうず} is highly valued. It involves:\n- {相槌|あいづち} - giving verbal feedback (うん、へぇ、そうなんだ)\n- Not interrupting\n- Showing genuine interest\n- Creating a comfortable atmosphere for sharing\n\nNA-ADJECTIVE USE:\n{聞|き}き{上手|じょうず}な{人|ひと} - a person who's good at listening\n\nRELATED:\n- {話|はな}し{上手|じょうず} - good speaker\n- {傾聴|けいちょう} - active listening (formal term)\n- {聞|き}き{役|やく} - the role of listener",
+  "notes": "COMPOUNDS:\n⟦{聞|き}く→聞く：00483_kiku⟧ (to listen) + ⟦{上手|じょうず}→上手：00707_jouzu⟧ (skilled at)\n\nCULTURAL IMPORTANCE:\nIn Japanese culture, being a {聞|き}き{上手|じょうず} is highly valued. It involves:\n- ⟦{相槌|あいづち}→相槌：10916_aizuchi⟧ - giving verbal feedback (うん、へぇ、そうなんだ)\n- Not interrupting\n- Showing genuine interest\n- Creating a comfortable atmosphere for sharing\n\nNA-ADJECTIVE USE:\n{聞|き}き{上手|じょうず}な⟦{人|ひと}→人：00476_hito⟧ - a person who's good at listening\n\nRELATED WORDS:\n- ⟦{話|はな}し{上手|じょうず}→話し上手：08467_hanashijouzu⟧ - good speaker\n- ⟦{傾聴|けいちょう}→傾聴：19024_keichou⟧ - active listening (formal term)\n- ⟦{聞|き}き{役|やく}→聞き役：19590_kikiyaku⟧ - the role of listener",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,13 +52,14 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "cognition"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -67,6 +68,20 @@
       "reading": "はなしじょうず",
       "headword": "{話|はな}し{上手|じょうず}",
       "label": "good talker"
+    },
+    {
+      "type": "related",
+      "target_id": "19024_keichou",
+      "reading": "けいちょう",
+      "headword": "{傾聴|けいちょう}",
+      "label": "active listening"
+    },
+    {
+      "type": "related",
+      "target_id": "19590_kikiyaku",
+      "reading": "ききやく",
+      "headword": "{聞|き}き{役|やく}",
+      "label": "the role of listener"
     }
   ]
 }

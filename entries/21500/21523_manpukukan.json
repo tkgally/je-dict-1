@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21523_manpukukan_ex1",
-      "japanese": "{満腹感|まんぷくかん}が{得|え}られた。",
+      "japanese": "{満腹感|まんぷくかん}⟦が→が：00051_ga⟧⟦{得|え}られた→得る：02014_eru⟧。",
       "english": "I felt full.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21523_manpukukan_ex2",
-      "japanese": "よく{噛|か}んで{食|た}べると{満腹感|まんぷくかん}を{感|かん}じやすい。",
+      "japanese": "⟦よく→よく：00601_yoku⟧⟦{噛|か}んで→噛む：01205_kamu⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦と→と：00512_to⟧{満腹感|まんぷくかん}⟦を→を：00422_wo⟧⟦{感|かん}じ→感じる：02044_kanjiru⟧やすい。",
       "english": "If you chew your food well, you feel full more easily.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21523_manpukukan_ex3",
-      "japanese": "この{料理|りょうり}はカロリーが{低|ひく}いのに{満腹感|まんぷくかん}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦カロリー→カロリー：06109_karorii⟧⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{満腹感|まんぷくかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This dish is low in calories but still filling.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {満腹|まんぷく} (full stomach) + {感|かん} (feeling, sense). Frequently used in health and diet contexts when discussing how foods affect appetite.\n\nCOMMON COLLOCATIONS:\n- {満腹感|まんぷくかん}を{得|え}る: to feel full, to achieve satiety\n- {満腹感|まんぷくかん}を{感|かん}じる: to sense fullness\n- {満腹感|まんぷくかん}がある: to be filling\n- {満腹感|まんぷくかん}が{続|つづ}く: fullness lasts\n- {満腹感|まんぷくかん}が{少|すく}ない: not very filling\n\nRELATED TERMS:\n- {満腹|まんぷく}: full (stomach) — the base word describing the state itself\n- {空腹感|くうふくかん}: feeling of hunger — the opposite sensation\n- {腹八分目|はらはちぶんめ}: eating until 80% full — a traditional health guideline",
+  "notes": "Compound of ⟦{満腹|まんぷく}→満腹：06533_manpuku⟧ (full stomach) + ⟦{感|かん}→〜感：28578_kan⟧ (feeling, sense). Frequently used in health and diet contexts when discussing how foods affect appetite.\n\nCOMMON COLLOCATIONS:\n- {満腹感|まんぷくかん}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧: to feel full, to achieve satiety\n- {満腹感|まんぷくかん}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to sense fullness\n- {満腹感|まんぷくかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be filling\n- {満腹感|まんぷくかん}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: fullness lasts\n- {満腹感|まんぷくかん}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧: not very filling\n\nRELATED WORDS:\n- ⟦{満腹|まんぷく}→満腹：06533_manpuku⟧: full (stomach) — the base word describing the state itself\n- ⟦{空腹感|くうふくかん}→空腹感：20134_kuufukukan⟧: feeling of hunger — the opposite sensation\n- ⟦{腹八分目|はらはちぶんめ}→腹八分目：08318_harahachibunme⟧: eating until 80% full — a traditional health guideline",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20134_kuufukukan",
+      "reading": "くうふくかん",
+      "headword": "{空腹感|くうふくかん}",
+      "label": "feeling of hunger"
+    },
+    {
+      "type": "related",
+      "target_id": "08318_harahachibunme",
+      "reading": "はらはちぶんめ",
+      "headword": "{腹八分目|はらはちぶんめ}",
+      "label": "eating until 80% full"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-02T15:20:09Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

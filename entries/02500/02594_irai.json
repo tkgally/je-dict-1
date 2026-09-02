@@ -2,7 +2,7 @@
   "id": "02594_irai",
   "headword": "{依頼|いらい}",
   "reading": "いらい",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "request, commission",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{依頼|いらい} is a formal way to express requesting something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{依頼|いらい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {依頼|いらい}⟦する→する：00392_suru⟧ (to request, commission)\n- {依頼|いらい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a request)\n- 〜⟦に→に：00314_ni⟧{依頼|いらい}⟦する→する：00392_suru⟧ (to request from ~)\n\nCOMPOUND WORDS:\n- {依頼|いらい}⟦{者|しゃ}→者：04662_sha⟧/{依頼|いらい}⟦{主|ぬし}→主：19365_aruji⟧ (client, requester)\n- {依頼|いらい}⟦{書|しょ}→書：noentry⟧ (written request)\n- {依頼|いらい}⟦{内容|ないよう}→内容：01482_naiyou⟧ (details of request)\n\nFORMALITY:\n- More formal than ⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask)\n- Used in business and professional contexts\n\nSIMILAR WORDS:\n- ⟦{頼|たの}む→頼む：01104_tanomu⟧: to ask (casual)\n- ⟦{要請|ようせい}→要請：05463_yousei⟧: request (formal, official)\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: order (for products)",
+  "notes": "{依頼|いらい} is a formal way to express requesting something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{依頼|いらい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {依頼|いらい}⟦する→する：00392_suru⟧ (to request, commission)\n- {依頼|いらい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a request)\n- 〜⟦に→に：00314_ni⟧{依頼|いらい}⟦する→する：00392_suru⟧ (to request from ~)\n\nCOMPOUNDS:\n- {依頼|いらい}⟦{者|しゃ}→者：04662_sha⟧/{依頼|いらい}⟦{主|ぬし}→主：19365_aruji⟧ (client, requester)\n- {依頼|いらい}⟦{書|しょ}→書：noentry⟧ (written request)\n- {依頼|いらい}⟦{内容|ないよう}→内容：01482_naiyou⟧ (details of request)\n\nREGISTER:\n- More formal than ⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask)\n- Used in business and professional contexts\n\nSIMILAR WORDS:\n- ⟦{頼|たの}む→頼む：01104_tanomu⟧: to ask (casual)\n- ⟦{要請|ようせい}→要請：05463_yousei⟧: request (formal, official)\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: order (for products)",
   "cross_references": [
     {
       "type": "related",
@@ -168,11 +168,46 @@
       "reading": "ようきゅう",
       "headword": "{要求|ようきゅう}",
       "label": "stronger than a request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05463_yousei",
+      "reading": "ようせい",
+      "headword": "{要請|ようせい}",
+      "label": "request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03485_chuumon",
+      "reading": "ちゅうもん",
+      "headword": "{注文|ちゅうもん}",
+      "label": "order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12686_kongan",
+      "reading": "こんがん",
+      "headword": "{懇願|こんがん}",
+      "label": "entreaty, earnest request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25533_youkyuusuru",
+      "reading": "ようきゅうする",
+      "headword": "{要求|ようきゅう}する",
+      "label": "to demand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27012_ininsuru",
+      "reading": "いにんする",
+      "headword": "{委任|いにん}する",
+      "label": "to entrust"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:58:34Z",
-    "modified": "2026-08-26T00:24:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

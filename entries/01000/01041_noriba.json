@@ -43,15 +43,47 @@
       ]
     }
   ],
-  "notes": "Combines ⟦{乗|の}る→乗る：00511_noru⟧ (to ride) + ⟦{場|ば}→場：03699_ba⟧ (place). A general term for any boarding area or platform for transportation.\n\nCOMMON TYPES:\n- ⟦バス→バス：00769_basu⟧{乗|の}り{場|ば}: bus boarding area/bus stop\n- ⟦タクシー→タクシー：00816_takushii⟧{乗|の}り{場|ば}: taxi stand\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧{乗|の}り{場|ば}: train platform\n- ⟦{船|ふね}→船：00775_fune⟧{乗|の}り{場|ば}: boat/ferry boarding area\n- ⟦{遊園地|ゆうえんち}→遊園地：03174_yuuenchi⟧⟦の→の：09472_no⟧{乗|の}り{場|ば}: amusement park ride boarding area\n\nNUMBERED PLATFORMS:\nAt train stations, platforms are numbered: 1⟦{番|ばん}→〜番：09873_ban⟧{乗|の}り{場|ば}, 2⟦{番|ばん}→〜番：09873_ban⟧{乗|の}り{場|ば}, etc. Station announcements use this format.\n\nSIMILAR WORDS:\n- ⟦ホーム→ホーム：00113_hoomu⟧ (platform — specifically for trains, from English \"platform\")\n- ⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧: bus stop (official/formal term)\n- ⟦バス{停|てい}→バス停：05295_basutei⟧: bus stop (casual)\n\nThe 〜{場|ば} suffix appears in many location words: ⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (sales floor), ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧ (parking lot), ⟦{遊|あそ}び{場|ば}→遊び場：23051_asobiba⟧ (playground).",
+  "notes": "Combines ⟦{乗|の}る→乗る：00511_noru⟧ (to ride) + ⟦{場|ば}→場：03699_ba⟧ (place). A general term for any boarding area or platform for transportation.\n\nTYPES:\n- ⟦バス→バス：00769_basu⟧{乗|の}り{場|ば}: bus boarding area/bus stop\n- ⟦タクシー→タクシー：00816_takushii⟧{乗|の}り{場|ば}: taxi stand\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧{乗|の}り{場|ば}: train platform\n- ⟦{船|ふね}→船：00775_fune⟧{乗|の}り{場|ば}: boat/ferry boarding area\n- ⟦{遊園地|ゆうえんち}→遊園地：03174_yuuenchi⟧⟦の→の：09472_no⟧{乗|の}り{場|ば}: amusement park ride boarding area\n\nNUMBERED PLATFORMS:\nAt train stations, platforms are numbered: 1⟦{番|ばん}→〜番：09873_ban⟧{乗|の}り{場|ば}, 2⟦{番|ばん}→〜番：09873_ban⟧{乗|の}り{場|ば}, etc. Station announcements use this format.\n\nSIMILAR WORDS:\n- ⟦ホーム→ホーム：00113_hoomu⟧ (platform — specifically for trains, from English \"platform\")\n- ⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧: bus stop (official/formal term)\n- ⟦バス{停|てい}→バス停：05295_basutei⟧: bus stop (casual)\n\nThe 〜⟦{場|ば}→場：03699_ba⟧ suffix appears in many location words: ⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (sales floor), ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧ (parking lot), ⟦{遊|あそ}び{場|ば}→遊び場：23051_asobiba⟧ (playground).",
   "cross_references": [
-    {"type": "related", "target_id": "00113_hoomu", "reading": "ほーむ", "headword": "ホーム", "label": "train platform"},
-    {"type": "synonym", "target_id": "03440_teiryuujo", "reading": "ていりゅうじょ", "headword": "停留所", "label": "bus stop (formal)"},
-    {"type": "related", "target_id": "05295_basutei", "reading": "ばすてい", "headword": "バス停", "label": "bus stop (casual)"}
+    {
+      "type": "related",
+      "target_id": "00113_hoomu",
+      "reading": "ほーむ",
+      "headword": "ホーム",
+      "label": "train platform"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03440_teiryuujo",
+      "reading": "ていりゅうじょ",
+      "headword": "停留所",
+      "label": "bus stop (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "05295_basutei",
+      "reading": "ばすてい",
+      "headword": "バス停",
+      "label": "bus stop (casual)"
+    },
+    {
+      "type": "related",
+      "target_id": "00775_fune",
+      "reading": "ふね",
+      "headword": "{船|ふね}",
+      "label": "boat, ship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27272_joushaguchi",
+      "reading": "じょうしゃぐち",
+      "headword": "{乗車口|じょうしゃぐち}",
+      "label": "boarding entrance"
+    }
   ],
   "metadata": {
     "created": "2026-01-07T12:17:04Z",
-    "modified": "2026-05-13T21:07:10Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

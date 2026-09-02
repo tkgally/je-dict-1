@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07305_kaonajimi_ex1",
-      "japanese": "{彼|かれ}とは{顔馴染|かおなじ}みだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{顔馴染|かおなじ}みだ。",
       "english": "I'm acquainted with him./He's a familiar face.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07305_kaonajimi_ex2",
-      "japanese": "カフェで{顔馴染|かおなじ}みの{客|きゃく}と{話|はな}した。",
+      "japanese": "⟦カフェ→カフェ：06767_kafe⟧⟦で→で：00502_de⟧{顔馴染|かおなじ}み⟦の→の：09472_no⟧⟦{客|きゃく}→客：00865_kyaku⟧⟦と→と：00512_to⟧⟦{話|はな}した→話す：00467_hanasu⟧。",
       "english": "I talked with a familiar customer at the café.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07305_kaonajimi_ex3",
-      "japanese": "この{辺|へん}では{顔馴染|かおなじ}みが{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|へん}→辺：00937_hen⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{顔馴染|かおなじ}み⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "I know many people by face around here.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{顔|かお} (face) + {馴染|なじ}み (familiarity) → familiar face = acquaintance\n\nUSAGE:\n{顔馴染|かおなじ}み implies a relationship where you recognize someone and have had some interaction, but they may not be a close friend. It's someone you would nod to or greet casually.\n\nCOMMON EXPRESSIONS:\n・{顔馴染|かおなじ}みになる - to become acquainted\n・{顔馴染|かおなじ}みの{店員|てんいん} - a familiar store clerk\n\nCONTRAST:\n・{顔馴染|かおなじ}み - someone you recognize (casual acquaintance)\n・{知|し}り{合|あ}い - acquaintance (more formal term)\n・{友人|ゆうじん} - friend (closer relationship)",
+  "notes": "FORMS:\n⟦{顔|かお}→顔：00558_kao⟧ (face) + ⟦{馴染|なじ}み→馴染み：07304_najimi⟧ (familiarity) → familiar face = acquaintance\n\nUSAGE:\n{顔馴染|かおなじ}み implies a relationship where you recognize someone and have had some interaction, but they may not be a close friend. It's someone you would nod to or greet casually.\n\nCOMMON EXPRESSIONS:\n- {顔馴染|かおなじ}み⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ - to become acquainted\n- {顔馴染|かおなじ}み⟦の→の：09472_no⟧⟦{店員|てんいん}→店員：00897_tenin⟧ - a familiar store clerk\n\nSIMILAR WORDS:\n- {顔馴染|かおなじ}み - someone you recognize (casual acquaintance)\n- ⟦{知|し}り{合|あ}い→知り合い：03253_shiriai⟧ - acquaintance (more formal term)\n- ⟦{友人|ゆうじん}→友人：03649_yuujin⟧ - friend (closer relationship)",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "headword": "{馴染|なじ}み",
       "label": "familiarity",
       "target_id": "07304_najimi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03253_shiriai",
+      "reading": "しりあい",
+      "headword": "{知|し}り{合|あ}い",
+      "label": "acquaintance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03649_yuujin",
+      "reading": "ゆうじん",
+      "headword": "{友人|ゆうじん}",
+      "label": "friend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07458_shingao",
+      "reading": "しんがお",
+      "headword": "{新顔|しんがお}",
+      "label": "newcomer"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:08:40Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

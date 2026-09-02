@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22685_jidoubungaku_ex1",
-      "japanese": "{児童文学|じどうぶんがく}を{読|よ}むのが{好|す}きだ。",
+      "japanese": "{児童文学|じどうぶんがく}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like reading children's literature.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22685_jidoubungaku_ex2",
-      "japanese": "この{作家|さっか}は{児童文学|じどうぶんがく}で{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦は→は：00079_ha⟧{児童文学|じどうぶんがく}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This author is famous for children's literature.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22685_jidoubungaku_ex3",
-      "japanese": "{日本|にほん}の{児童文学|じどうぶんがく}には{心温|こころあたた}まる{作品|さくひん}が{多|おお}い。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{児童文学|じどうぶんがく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{心温|こころあたた}まる⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many heartwarming works in Japanese children's literature.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {児童|じどう} (children) + {文学|ぶんがく} (literature). Covers a wide range of works from picture books ({絵本|えほん}) for very young children to novels for older children. Japanese {児童文学|じどうぶんがく} has a rich tradition, with well-known authors like {宮沢|みやざわ}{賢治|けんじ} and {新美|にいみ}{南吉|なんきち}.\n\nCOMMON COLLOCATIONS:\n- {児童文学|じどうぶんがく}{作家|さっか}: children's literature author\n- {児童文学|じどうぶんがく}{賞|しょう}: children's literature award\n- {児童文学|じどうぶんがく}の{名作|めいさく}: classic of children's literature\n- {児童文学|じどうぶんがく}の{分野|ぶんや}: the field of children's literature\n\nSIMILAR WORDS:\n- {絵本|えほん}: picture book — a specific format within children's literature aimed at younger children\n- {童話|どうわ}: fairy tale, children's story — refers to shorter stories, often folk tales or fantasies, while {児童文学|じどうぶんがく} is the broader category",
+  "notes": "A compound of ⟦{児童|じどう}→児童：03340_jidou⟧ (children) + ⟦{文学|ぶんがく}→文学：01505_bungaku⟧ (literature). Covers a wide range of works from picture books (⟦{絵本|えほん}→絵本：10429_ehon⟧) for very young children to novels for older children. Japanese {児童文学|じどうぶんがく} has a rich tradition, with well-known authors like {宮沢|みやざわ}{賢治|けんじ} and {新美|にいみ}{南吉|なんきち}.\n\nCOMMON COLLOCATIONS:\n- {児童文学|じどうぶんがく}⟦{作家|さっか}→作家：01414_sakka⟧: children's literature author\n- {児童文学|じどうぶんがく}{賞|しょう}: children's literature award\n- {児童文学|じどうぶんがく}⟦の→の：09472_no⟧⟦{名作|めいさく}→名作：11869_meisaku⟧: classic of children's literature\n- {児童文学|じどうぶんがく}⟦の→の：09472_no⟧⟦{分野|ぶんや}→分野：03612_bunya⟧: the field of children's literature\n\nSIMILAR WORDS:\n- ⟦{絵本|えほん}→絵本：10429_ehon⟧: picture book — a specific format within children's literature aimed at younger children\n- ⟦{童話|どうわ}→童話：04075_douwa⟧: fairy tale, children's story — refers to shorter stories, often folk tales or fantasies, while {児童文学|じどうぶんがく} is the broader category",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10429_ehon",
+      "reading": "えほん",
+      "headword": "{絵本|えほん}",
+      "label": "picture book"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04075_douwa",
+      "reading": "どうわ",
+      "headword": "{童話|どうわ}",
+      "label": "fairy tale, children's story"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:55:37Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

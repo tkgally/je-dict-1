@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27983_kuuiki_ex1",
-      "japanese": "{軍|ぐん}の{訓練|くんれん}{空域|くういき}に{入|はい}ってはいけない。",
+      "japanese": "⟦{軍|ぐん}→軍：02677_gun⟧⟦の→の：09472_no⟧⟦{訓練|くんれん}→訓練：02673_kunren⟧{空域|くういき}⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not enter the military training airspace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27983_kuuiki_ex2",
-      "japanese": "その{国|くに}は{自国|じこく}の{空域|くういき}を{厳|きび}しく{守|まも}っている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{自国|じこく}→自国：14013_jikoku⟧⟦の→の：09472_no⟧{空域|くういき}⟦を→を：00422_wo⟧⟦{厳|きび}しく→厳しい：01125_kibishii⟧⟦{守|まも}っている→守る：01986_mamoru⟧。",
       "english": "That country strictly guards its own airspace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27983_kuuiki_ex3",
-      "japanese": "{管制官|かんせいかん}は{混雑|こんざつ}した{空域|くういき}で{航空機|こうくうき}を{安全|あんぜん}に{誘導|ゆうどう}する。",
+      "japanese": "{管制官|かんせいかん}⟦は→は：00079_ha⟧⟦{混雑|こんざつ}した→混雑する：25387_konzatsusuru⟧{空域|くういき}⟦で→で：00502_de⟧⟦{航空機|こうくうき}→航空機：14008_koukuuki⟧⟦を→を：00422_wo⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦に→に：00314_ni⟧⟦{誘導|ゆうどう}する→誘導する：21727_yuudousuru⟧。",
       "english": "Controllers safely guide aircraft through congested airspace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A somewhat formal or technical term used in aviation, defense, and news reporting.\n\nCOMMON COLLOCATIONS:\n- {空域|くういき}に{入|はい}る: to enter an airspace\n- {空域|くういき}を{侵犯|しんぱん}する: to violate airspace\n- {訓練|くんれん}{空域|くういき}: training airspace\n\nSIMILAR WORDS:\n- {領空|りょうくう}: territorial airspace — specifically the airspace over a nation's territory",
+  "notes": "A somewhat formal or technical term used in aviation, defense, and news reporting.\n\nCOMMON COLLOCATIONS:\n- {空域|くういき}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter an airspace\n- {空域|くういき}⟦を→を：00422_wo⟧⟦{侵犯|しんぱん}→侵犯：29663_shinpan⟧⟦する→する：00392_suru⟧: to violate airspace\n- ⟦{訓練|くんれん}→訓練：02673_kunren⟧{空域|くういき}: training airspace\n\nSIMILAR WORDS:\n- ⟦{領空|りょうくう}→領空：16510_ryoukuu⟧: territorial airspace — specifically the airspace over a nation's territory",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16510_ryoukuu",
+      "reading": "りょうくう",
+      "headword": "{領空|りょうくう}",
+      "label": "territorial airspace"
+    },
+    {
+      "type": "related",
+      "target_id": "03080_joukuu",
+      "reading": "じょうくう",
+      "headword": "{上空|じょうくう}",
+      "label": "sky above, airspace"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-05-24T02:02:35Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

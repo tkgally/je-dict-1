@@ -29,7 +29,7 @@
     },
     {
       "id": "03321_sotto_ex2",
-      "japanese": "そっと⟦{ドア|どあ}→ドア：00773_doa⟧⟦を→を：00422_wo⟧⟦{開|あ}けた→開ける：00563_akeru⟧。",
+      "japanese": "そっと⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧⟦{開|あ}けた→開ける：00563_akeru⟧。",
       "english": "I quietly opened the door.",
       "notes": null,
       "has_audio": false,
@@ -138,7 +138,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nそっと is an onomatopoeic adverb describing quiet, gentle, or stealthy actions.\n\nCOMMON EXPRESSIONS:\n- そっとして⟦おく→置く：01092_oku⟧ (to leave alone, to not disturb)\n- そっと⟦{触|さわ}る→触る：00808_sawaru⟧ (to touch gently)\n- そっと⟦{見|み}る→見る：00283_miru⟧ (to peek at)\n- そっと⟦{置|お}く→置く：01092_oku⟧ (to place gently)\n\nCOMPARISON:\n- そっと: softly, gently (avoiding disturbance)\n- ⟦{静|しず}かに→静かに：18611_shizukani⟧: quietly (without noise)\n- ⟦こっそり→こっそり：05890_kossori⟧: secretly, stealthily (emphasis on hiding)",
+  "notes": "USAGE:\nそっと is an onomatopoeic adverb describing quiet, gentle, or stealthy actions.\n\nCOMMON EXPRESSIONS:\n- そっと⟦して→する：00392_suru⟧⟦おく→置く：01092_oku⟧ (to leave alone, to not disturb)\n- そっと⟦{触|さわ}る→触る：00808_sawaru⟧ (to touch gently)\n- そっと⟦{見|み}る→見る：00283_miru⟧ (to peek at)\n- そっと⟦{置|お}く→置く：01092_oku⟧ (to place gently)\n\nSIMILAR WORDS:\n- そっと: softly, gently (avoiding disturbance)\n- ⟦{静|しず}かに→静かに：18611_shizukani⟧: quietly (without noise)\n- ⟦こっそり→こっそり：05890_kossori⟧: secretly, stealthily (emphasis on hiding)",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,11 +153,18 @@
       "headword": "こっそり",
       "label": "secretly, stealthily",
       "target_id": "05890_kossori"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10473_hissori",
+      "reading": "ひっそり",
+      "headword": "ひっそり",
+      "label": "quietly, in silence, secretly"
     }
   ],
   "metadata": {
     "created": "2026-01-12T01:13:55Z",
-    "modified": "2026-05-24T23:18:51Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

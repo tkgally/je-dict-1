@@ -134,7 +134,7 @@
     },
     {
       "id": "00684_utau_ex4",
-      "japanese": "⟦{子|こ}ども→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧⟦{楽|たの}しそうに→楽しい：00817_tanoshii⟧{歌|うた}っています。",
+      "japanese": "⟦{子|こ}ども→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧⟦{楽|たの}しそうに→楽しい：00817_tanoshii⟧{歌|うた}って⟦います→いる：00495_iru⟧。",
       "english": "The children are singing happily.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{歌|うた}う (sing X).\n\nASPECT: ている indicates ongoing action. {歌|うた}っている = 'is singing.'\n\nCOMMON PATTERNS:\n・⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧{歌|うた}う (sing a song)\n・⟦カラオケ→カラオケ：05080_karaoke⟧⟦で→で：00502_de⟧{歌|うた}う (sing at karaoke)\n・⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧{歌|うた}う (sing well)\n・{歌|うた}い⟦{方|かた}→方：10665_kata⟧ (way of singing)\n\nCOGNATE OBJECT: ⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧{歌|うた}う repeats the same kanji and sounds redundant in English, but it is the normal Japanese phrasing whenever the song is not otherwise specified. With a named song the object simply replaces it.\n\nIn Japan, ⟦カラオケ→カラオケ：05080_karaoke⟧ is a popular pastime, so this verb is commonly used. A person who sings professionally is a ⟦{歌手|かしゅ}→歌手：00197_kashu⟧.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{歌|うた}う (sing X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {歌|うた}って⟦いる→いる：00495_iru⟧ = 'is singing.'\n\nCOMMON PATTERNS:\n- ⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧{歌|うた}う (sing a song)\n- ⟦カラオケ→カラオケ：05080_karaoke⟧⟦で→で：00502_de⟧{歌|うた}う (sing at karaoke)\n- ⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧{歌|うた}う (sing well)\n- {歌|うた}い⟦{方|かた}→方：10665_kata⟧ (way of singing)\n\nCOGNATE OBJECT: ⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧{歌|うた}う repeats the same kanji and sounds redundant in English, but it is the normal Japanese phrasing whenever the song is not otherwise specified. With a named song the object simply replaces it.\n\nIn Japan, ⟦カラオケ→カラオケ：05080_karaoke⟧ is a popular pastime, so this verb is commonly used. A person who sings professionally is a ⟦{歌手|かしゅ}→歌手：00197_kashu⟧.",
   "cross_references": [
     {
       "type": "related",
@@ -167,11 +167,32 @@
       "headword": "{歌手|かしゅ}",
       "label": "singer",
       "target_id": "00197_kashu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07364_saezuru",
+      "reading": "さえずる",
+      "headword": "さえずる",
+      "label": "to chirp"
+    },
+    {
+      "type": "related",
+      "target_id": "24200_hanautawoutau",
+      "reading": "はなうたをうたう",
+      "headword": "{鼻歌|はなうた}を{歌|うた}う",
+      "label": "to hum a tune"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28503_hikigatari",
+      "reading": "ひきがたり",
+      "headword": "{弾|ひ}き{語|がた}り",
+      "label": "playing and singing at the same time (esp. solo)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:23:05Z",
-    "modified": "2026-07-30T18:21:25Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

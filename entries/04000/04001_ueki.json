@@ -109,7 +109,7 @@
       ]
     }
   ],
-  "notes": "USAGE: Refers to cultivated plants for ornamental purposes, both in gardens and in pots.\n\nCOMMON COMPOUNDS:\n・{植木|うえき}⟦{鉢|ばち}→鉢：noentry⟧ (flower pot, planter)\n・{植木|うえき}⟦{屋|や}→〜屋：03096_ya⟧ (gardener, plant shop)\n・{植木|うえき}⟦{市|いち}→市：10013_ichi⟧ (plant market/fair)\n・{植木|うえき}⟦{職人|しょくにん}→職人：09868_shokunin⟧ (professional gardener)\n\nRELATED:\n・⟦{盆栽|ぼんさい}→盆栽：06985_bonsai⟧ (bonsai)\n・⟦{庭木|にわき}→庭木：17762_niwaki⟧ (garden trees specifically)\n・⟦{観葉植物|かんようしょくぶつ}→観葉植物：19239_kanyoushokubutsu⟧ (foliage plant)\n\nCULTURAL NOTE: {植木|うえき}⟦{市|いち}→市：10013_ichi⟧ (plant markets) are traditional seasonal events in Japan.",
+  "notes": "USAGE: Refers to cultivated plants for ornamental purposes, both in gardens and in pots.\n\nCOMPOUNDS:\n- {植木|うえき}⟦{鉢|ばち}→鉢：noentry⟧ (flower pot, planter)\n- {植木|うえき}⟦{屋|や}→〜屋：03096_ya⟧ (gardener, plant shop)\n- {植木|うえき}⟦{市|いち}→市：10013_ichi⟧ (plant market/fair)\n- {植木|うえき}⟦{職人|しょくにん}→職人：09868_shokunin⟧ (professional gardener)\n\nRELATED WORDS:\n- ⟦{盆栽|ぼんさい}→盆栽：06985_bonsai⟧ (bonsai)\n- ⟦{庭木|にわき}→庭木：17762_niwaki⟧ (garden trees specifically)\n- ⟦{観葉植物|かんようしょくぶつ}→観葉植物：19239_kanyoushokubutsu⟧ (foliage plant)\n\nCULTURAL NOTE: {植木|うえき}⟦{市|いち}→市：10013_ichi⟧ (plant markets) are traditional seasonal events in Japan.",
   "cross_references": [
     {
       "type": "related",
@@ -117,11 +117,32 @@
       "reading": "ぼんさい",
       "headword": "{盆栽|ぼんさい}",
       "label": "bonsai"
+    },
+    {
+      "type": "related",
+      "target_id": "17762_niwaki",
+      "reading": "にわき",
+      "headword": "{庭木|にわき}",
+      "label": "garden trees specifically"
+    },
+    {
+      "type": "related",
+      "target_id": "19239_kanyoushokubutsu",
+      "reading": "かんようしょくぶつ",
+      "headword": "{観葉植物|かんようしょくぶつ}",
+      "label": "foliage plant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24881_shokusai",
+      "reading": "しょくさい",
+      "headword": "{植栽|しょくさい}",
+      "label": "planting"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T17:10:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

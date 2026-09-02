@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "01183_fueru_ex1",
-      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧{増|ふ}えている。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧{増|ふ}えて⟦いる→いる：00495_iru⟧。",
       "english": "The population is increasing.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "01183_fueru_ex3",
-      "japanese": "⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦が→が：00051_ga⟧3キロ{増|ふ}えた。",
+      "japanese": "⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦が→が：00051_ga⟧3⟦キロ→キロ：01350_kiro⟧{増|ふ}えた。",
       "english": "I gained 3 kilograms.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: ⟦{増|ふ}やす→増やす：02410_fuyasu⟧ (transitive, to increase something). Pattern: X⟦が→が：00051_ga⟧{増|ふ}える (X increases).\n\nASPECT: ている indicates ongoing state. {増|ふ}えている = 'is increasing' or 'has increased.'\n\nCOMMON PATTERNS:\n・⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧{増|ふ}える (population increases)\n・⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦が→が：00051_ga⟧{増|ふ}える (weight increases)\n・⟦{売|う}り{上|あ}げ→売り上げ：noentry⟧⟦が→が：00051_ga⟧{増|ふ}える (sales increase)\n・⟦どんどん→どんどん：01261_dondon⟧{増|ふ}える (increase steadily)\n\nCONTRAST:\n・{増|ふ}える (intransitive): X increases\n・⟦{増|ふ}やす→増やす：02410_fuyasu⟧ (transitive): increase X\n\nOPPOSITE: ⟦{減|へ}る→減る：01985_heru⟧ (to decrease)\n\nExample pair:\n・⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧{増|ふ}えた (Population increased)\n・⟦{売|う}り{上|あ}げ→売り上げ：noentry⟧⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧ (Increase sales)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{増|ふ}やす→増やす：02410_fuyasu⟧ (transitive, to increase something). Pattern: X⟦が→が：00051_ga⟧{増|ふ}える (X increases).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing state. {増|ふ}えて⟦いる→いる：00495_iru⟧ = 'is increasing' or 'has increased.'\n\nCOMMON PATTERNS:\n- ⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧{増|ふ}える (population increases)\n- ⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦が→が：00051_ga⟧{増|ふ}える (weight increases)\n- ⟦{売|う}り{上|あ}げ→売り上げ：noentry⟧⟦が→が：00051_ga⟧{増|ふ}える (sales increase)\n- ⟦どんどん→どんどん：01261_dondon⟧{増|ふ}える (increase steadily)\n\nSIMILAR WORDS:\n- {増|ふ}える (intransitive): X increases\n- ⟦{増|ふ}やす→増やす：02410_fuyasu⟧ (transitive): increase X\n\nOPPOSITE: ⟦{減|へ}る→減る：01985_heru⟧ (to decrease)\n\nExample pair:\n- ⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧{増|ふ}えた (Population increased)\n- ⟦{売|う}り{上|あ}げ→売り上げ：noentry⟧⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧ (Increase sales)",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,18 @@
       "headword": "{増|ふ}やす",
       "label": "transitive form",
       "target_id": "02410_fuyasu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26999_kyuuzousuru",
+      "reading": "きゅうぞうする",
+      "headword": "{急増|きゅうぞう}する",
+      "label": "to increase rapidly"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:41:23Z",
-    "modified": "2026-05-14T16:10:07Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

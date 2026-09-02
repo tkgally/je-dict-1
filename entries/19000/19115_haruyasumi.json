@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "19115_haruyasumi_ex1",
-      "japanese": "{春休|はるやす}みはいつからですか。",
+      "japanese": "{春休|はるやす}み⟦は→は：00079_ha⟧⟦いつ→いつ：00536_itsu⟧⟦から→から：00504_kara⟧です⟦か→か：09473_ka⟧。",
       "english": "When does spring break start?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19115_haruyasumi_ex2",
-      "japanese": "{春休|はるやす}みに{友達|ともだち}と{遊園地|ゆうえんち}に{行|い}った。",
+      "japanese": "{春休|はるやす}み⟦に→に：00314_ni⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{遊園地|ゆうえんち}→遊園地：03174_yuuenchi⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to the amusement park with friends during spring break.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19115_haruyasumi_ex3",
-      "japanese": "{春休|はるやす}みが{終|お}わると{新|あたら}しい{学年|がくねん}が{始|はじ}まる。",
+      "japanese": "{春休|はるやす}み⟦が→が：00051_ga⟧{終|お}わる⟦と→と：00512_to⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{学年|がくねん}→学年：00056_gakunen⟧⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "When spring break ends, the new school year begins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{春休|はるやす}み is the school vacation period in spring, typically late March to early April.\n\nCULTURAL NOTE:\nThe Japanese school year starts in April, so {春休|はるやす}み falls between academic years — after graduation in March and before the new term in April. It is typically about two weeks long, shorter than {夏休|なつやす}み.\n\nRELATED VACATION WORDS:\n- {夏休|なつやす}み: summer vacation (longest, ~40 days)\n- {冬休|ふゆやす}み: winter break (~2 weeks, around New Year)\n- {春休|はるやす}み: spring break (~2 weeks)\n- {連休|れんきゅう}: consecutive holidays\n\nNOTE:\nUnlike summer and winter breaks, {春休|はるやす}み typically has no homework assigned, since students are transitioning between school years.",
+  "notes": "{春休|はるやす}み is the school vacation period in spring, typically late March to early April.\n\nCULTURAL NOTE:\nThe Japanese school year starts in April, so {春休|はるやす}み falls between academic years — after graduation in March and before the new term in April. It is typically about two weeks long, shorter than ⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧.\n\nRELATED VACATION WORDS:\n- ⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧: summer vacation (longest, ~40 days)\n- ⟦{冬休|ふゆやす}み→冬休み：19114_fuyuyasumi⟧: winter break (~2 weeks, around New Year)\n- {春休|はるやす}み: spring break (~2 weeks)\n- ⟦{連休|れんきゅう}→連休：07587_renkyuu⟧: consecutive holidays\n\nUSAGE:\nUnlike summer and winter breaks, {春休|はるやす}み typically has no homework assigned, since students are transitioning between school years.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02925_natsuyasumi",
+      "reading": "なつやすみ",
+      "headword": "{夏休|なつやす}み",
+      "label": "summer vacation"
+    },
+    {
+      "type": "related",
+      "target_id": "19114_fuyuyasumi",
+      "reading": "ふゆやすみ",
+      "headword": "{冬休|ふゆやす}み",
+      "label": "winter break"
+    },
+    {
+      "type": "related",
+      "target_id": "07587_renkyuu",
+      "reading": "れんきゅう",
+      "headword": "{連休|れんきゅう}",
+      "label": "consecutive holidays"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-season", "education"]
+      "semantic": [
+        "time-season",
+        "education"
+      ]
     },
     "created": "2026-03-24T09:59:13Z",
-    "modified": "2026-03-30T02:16:27Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

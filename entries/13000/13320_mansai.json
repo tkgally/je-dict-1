@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13320_mansai_ex1",
-      "japanese": "トラックに{荷物|にもつ}を{満載|まんさい}した。",
+      "japanese": "⟦トラック→トラック：03863_torakku⟧⟦に→に：00314_ni⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{満載|まんさい}⟦した→する：00392_suru⟧。",
       "english": "The truck was fully loaded with cargo.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13320_mansai_ex2",
-      "japanese": "この{雑誌|ざっし}は{役|やく}に{立|た}つ{情報|じょうほう}{満載|まんさい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦は→は：00079_ha⟧⟦{役|やく}に{立|た}つ→役に立つ：01130_yakunitatsu⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧{満載|まんさい}だ。",
       "english": "This magazine is packed with useful information.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13320_mansai_ex3",
-      "japanese": "お{楽|たの}しみ{満載|まんさい}のイベントが{今週末|こんしゅうまつ}に{開催|かいさい}される。",
+      "japanese": "お⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧{満載|まんさい}⟦の→の：09472_no⟧⟦イベント→イベント：09594_ibento⟧⟦が→が：00051_ga⟧⟦{今週末|こんしゅうまつ}→今週末：30306_konshuumatsu⟧⟦に→に：00314_ni⟧⟦{開催|かいさい}される→開催する：10441_kaisaisuru⟧。",
       "english": "An event packed with fun activities will be held this weekend.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe literal meaning (fully loaded with physical cargo) and the figurative meaning (packed with content) are both very common. The figurative usage is especially frequent in advertising and promotional writing: {情報|じょうほう}{満載|まんさい} (packed with information), {特典|とくてん}{満載|まんさい} (loaded with perks).\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}{満載|まんさい}: packed with information\n- {荷物|にもつ}を{満載|まんさい}する: to load to full capacity\n- お{楽|たの}しみ{満載|まんさい}: packed with fun\n- {魅力|みりょく}{満載|まんさい}: full of charm/appeal",
+  "notes": "USAGE:\nThe literal meaning (fully loaded with physical cargo) and the figurative meaning (packed with content) are both very common. The figurative usage is especially frequent in advertising and promotional writing: ⟦{情報|じょうほう}→情報：03348_jouhou⟧{満載|まんさい} (packed with information), ⟦{特典|とくてん}→特典：13469_tokuten⟧{満載|まんさい} (loaded with perks).\n\nCOMMON COLLOCATIONS:\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{満載|まんさい}: packed with information\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{満載|まんさい}⟦する→する：00392_suru⟧: to load to full capacity\n- お⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧{満載|まんさい}: packed with fun\n- ⟦{魅力|みりょく}→魅力：03749_miryoku⟧{満載|まんさい}: full of charm/appeal",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "quantity"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "24910_suiryoku_ex1",
-      "japanese": "エンジンの{推力|すいりょく}を{上|あ}げる。",
+      "japanese": "⟦エンジン→エンジン：03835_enjin⟧⟦の→の：09472_no⟧{推力|すいりょく}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧。",
       "english": "To increase the engine's thrust.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24910_suiryoku_ex2",
-      "japanese": "このロケットは{大|おお}きな{推力|すいりょく}を{持|も}つ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ロケット→ロケット：00353_roketto⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{推力|すいりょく}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "This rocket has great thrust.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24910_suiryoku_ex3",
-      "japanese": "{新型|しんがた}エンジンは{従来|じゅうらい}より30パーセント{推力|すいりょく}が{向上|こうじょう}した。",
+      "japanese": "⟦{新型|しんがた}→新型：19411_shingata⟧⟦エンジン→エンジン：03835_enjin⟧⟦は→は：00079_ha⟧⟦{従来|じゅうらい}→従来：12511_juurai⟧⟦より→より：09476_yori⟧30⟦パーセント→パーセント：01537_paasento⟧{推力|すいりょく}⟦が→が：00051_ga⟧⟦{向上|こうじょう}した→向上する：18997_koujousuru⟧。",
       "english": "The new engine has 30 percent more thrust than the previous model.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {推|すい} (push forward) + {力|りょく} (force). A technical term used in aerospace, physics, and engineering. Commonly appears in news about rocket launches, aviation, and engine development.\n\nCOMMON COLLOCATIONS:\n- {推力|すいりょく}を{発生|はっせい}させる: to generate thrust\n- {最大|さいだい}{推力|すいりょく}: maximum thrust\n- {推力|すいりょく}{不足|ふそく}: insufficient thrust\n- {推力|すいりょく}{重量比|じゅうりょうひ}: thrust-to-weight ratio\n\nSIMILAR WORDS:\n- {推進力|すいしんりょく}: propulsion; driving force — can be used both literally (physical propulsion) and figuratively (driving force behind a project)\n- {馬力|ばりき}: horsepower — a unit measuring engine power output, not directly the forward force\n- {水力|すいりょく}: hydropower — a homophone with the same reading but different kanji ({水|すい} instead of {推|すい}), referring to the power of water",
+  "notes": "Composed of {推|すい} (push forward) + {力|りょく} (force). A technical term used in aerospace, physics, and engineering. Commonly appears in news about rocket launches, aviation, and engine development.\n\nCOMMON COLLOCATIONS:\n- {推力|すいりょく}⟦を→を：00422_wo⟧⟦{発生|はっせい}させる→発生する：25529_hasseisuru⟧: to generate thrust\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{推力|すいりょく}: maximum thrust\n- {推力|すいりょく}⟦{不足|ふそく}→不足：03598_fusoku⟧: insufficient thrust\n- {推力|すいりょく}{重量比|じゅうりょうひ}: thrust-to-weight ratio\n\nSIMILAR WORDS:\n- ⟦{推進力|すいしんりょく}→推進力：15905_suishinryoku⟧: propulsion; driving force — can be used both literally (physical propulsion) and figuratively (driving force behind a project)\n- ⟦{馬力|ばりき}→馬力：14653_bariki⟧: horsepower — a unit measuring engine power output, not directly the forward force\n- ⟦{水力|すいりょく}→水力：06434_suiryoku⟧: hydropower — a homophone with the same reading but different kanji ({水|すい} instead of {推|すい}), referring to the power of water",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15905_suishinryoku",
+      "reading": "すいしんりょく",
+      "headword": "{推進力|すいしんりょく}",
+      "label": "propulsion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14653_bariki",
+      "reading": "ばりき",
+      "headword": "{馬力|ばりき}",
+      "label": "horsepower"
+    },
+    {
+      "type": "homophone",
+      "target_id": "06434_suiryoku",
+      "reading": "すいりょく",
+      "headword": "{水力|すいりょく}",
+      "label": "hydropower"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science", "technology"]
+      "semantic": [
+        "science",
+        "technology"
+      ]
     },
     "created": "2026-04-21T12:15:27Z",
-    "modified": "2026-04-21T12:15:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18103_kawawomuku_ex1",
-      "japanese": "りんごの{皮|かわ}をむく。",
+      "japanese": "⟦りんご→りんご：02269_ringo⟧⟦の→の：09472_no⟧{皮|かわ}をむく。",
       "english": "To peel an apple.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18103_kawawomuku_ex2",
-      "japanese": "じゃがいもの{皮|かわ}をむいてから{茹|ゆ}でる。",
+      "japanese": "⟦じゃがいも→じゃがいも：05184_jagaimo⟧⟦の→の：09472_no⟧{皮|かわ}をむいて⟦から→から：00504_kara⟧⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧。",
       "english": "Peel the potatoes before boiling them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18103_kawawomuku_ex3",
-      "japanese": "{子|こ}どもに{包丁|ほうちょう}で{皮|かわ}をむく{練習|れんしゅう}をさせている。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧⟦{包丁|ほうちょう}→包丁：04976_houchou⟧⟦で→で：00502_de⟧{皮|かわ}をむく⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦させている→する：00392_suru⟧。",
       "english": "I am having my child practice peeling with a kitchen knife.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAn essential cooking vocabulary expression. The verb むく specifically means to peel by hand or with a knife. Different from {剥|は}がす, which means to peel off something stuck.\n\nCOMMON OBJECTS:\n- りんごの{皮|かわ}をむく (to peel an apple)\n- みかんの{皮|かわ}をむく (to peel a mandarin orange)\n- じゃがいもの{皮|かわ}をむく (to peel a potato)\n- {大根|だいこん}の{皮|かわ}をむく (to peel a daikon radish)\n\nTOOLS:\n- ピーラーで{皮|かわ}をむく (to peel with a peeler)\n- {包丁|ほうちょう}で{皮|かわ}をむく (to peel with a knife)",
+  "notes": "USAGE:\nAn essential cooking vocabulary expression. The verb むく specifically means to peel by hand or with a knife. Different from ⟦{剥|は}がす→剥がす：00081_hagasu⟧, which means to peel off something stuck.\n\nCOMMON OBJECTS:\n- ⟦りんご→りんご：02269_ringo⟧⟦の→の：09472_no⟧{皮|かわ}をむく (to peel an apple)\n- みかん⟦の→の：09472_no⟧{皮|かわ}をむく (to peel a mandarin orange)\n- ⟦じゃがいも→じゃがいも：05184_jagaimo⟧⟦の→の：09472_no⟧{皮|かわ}をむく (to peel a potato)\n- ⟦{大根|だいこん}→大根：05186_daikon⟧⟦の→の：09472_no⟧{皮|かわ}をむく (to peel a daikon radish)\n\nTOOLS:\n- ピーラー⟦で→で：00502_de⟧{皮|かわ}をむく (to peel with a peeler)\n- ⟦{包丁|ほうちょう}→包丁：04976_houchou⟧⟦で→で：00502_de⟧{皮|かわ}をむく (to peel with a knife)",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,36 @@
       "reading": "はがす",
       "headword": "{剥|は}がす",
       "label": "to peel off (stuck items)"
+    },
+    {
+      "type": "related",
+      "target_id": "01036_mikan",
+      "reading": "みかん",
+      "headword": "みかん",
+      "label": "mandarin orange"
+    },
+    {
+      "type": "related",
+      "target_id": "20430_karawomuku",
+      "reading": "からをむく",
+      "headword": "{殻|から}をむく",
+      "label": "to peel"
     }
   ],
   "metadata": {
     "created": "2026-03-20T02:43:03Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption"]
+      "semantic": [
+        "consumption"
+      ]
     }
   }
 }

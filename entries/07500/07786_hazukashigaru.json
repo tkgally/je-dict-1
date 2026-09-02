@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07786_hazukashigaru_ex1",
-      "japanese": "{子|こ}どもが{恥|は}ずかしがっている。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧{恥|は}ずかしがって⟦いる→いる：00495_iru⟧。",
       "english": "The child is acting shy.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07786_hazukashigaru_ex2",
-      "japanese": "{彼女|かのじょ}は{褒|ほ}められると{恥|は}ずかしがる。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{褒|ほ}められる→褒める：01204_homeru⟧⟦と→と：00512_to⟧{恥|は}ずかしがる。",
       "english": "She acts embarrassed when complimented.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07786_hazukashigaru_ex3",
-      "japanese": "そんなに{恥|は}ずかしがらないで、もっと{自信|じしん}を{持|も}って。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦に→に：00314_ni⟧{恥|は}ずかしがらないで、⟦もっと→もっと：00798_motto⟧⟦{自信|じしん}→自信：10143_jishin⟧⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧。",
       "english": "Don't be so shy; have more confidence.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{恥|は}ずかしがる is a godan verb formed from the adjective {恥|は}ずかしい (embarrassed) + the suffix がる.\n\nTRANSITIVITY:\n- Type: Intransitive ({自動詞|じどうし})\n- Pattern: Xが{恥|は}ずかしがる\n\nASPECT (ている):\n{恥|は}ずかしがっている describes someone visibly showing shyness or embarrassment at the moment.\n\nThe がる suffix converts adjectives (typically い-adjectives) into verbs that describe observable behavior, particularly useful for describing third-person emotions:\n- {恥|は}ずかしい (I feel embarrassed) → {恥|は}ずかしがる (to show embarrassment - third person)\n- {欲|ほ}しい (I want) → {欲|ほ}しがる (to show wanting)\n- {寂|さび}しい (I'm lonely) → {寂|さび}しがる (to show loneliness)",
+  "notes": "{恥|は}ずかしがる is a godan verb formed from the adjective ⟦{恥|は}ずかしい→恥ずかしい：00843_hazukashii⟧ (embarrassed) + the suffix ⟦がる→〜がる：03089_garu⟧.\n\nTRANSITIVITY:\n- Type: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- Pattern: X⟦が→が：00051_ga⟧{恥|は}ずかしがる\n\nASPECT (ている):\n{恥|は}ずかしがって⟦いる→いる：00495_iru⟧ describes someone visibly showing shyness or embarrassment at the moment.\n\nThe ⟦がる→〜がる：03089_garu⟧ suffix converts adjectives (typically い-adjectives) into verbs that describe observable behavior, particularly useful for describing third-person emotions:\n- ⟦{恥|は}ずかしい→恥ずかしい：00843_hazukashii⟧ (I feel embarrassed) → {恥|は}ずかしがる (to show embarrassment - third person)\n- ⟦{欲|ほ}しい→欲しい：01107_hoshii⟧ (I want) → {欲|ほ}し⟦がる→〜がる：03089_garu⟧ (to show wanting)\n- ⟦{寂|さび}しい→寂しい：00880_sabishii⟧ (I'm lonely) → {寂|さび}し⟦がる→〜がる：03089_garu⟧ (to show loneliness)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -149,7 +149,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-01-21T03:52:44Z",
-    "modified": "2026-04-19T08:16:10Z"
+    "modified": "2026-09-02T04:01:12Z"
   },
   "prominent_see_also": [
     {
@@ -180,6 +180,20 @@
       "reading": "いやがる",
       "headword": "{嫌|いや}がる",
       "label": "to show dislike (がる verb)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07836_hanikamu",
+      "reading": "はにかむ",
+      "headword": "はにかむ",
+      "label": "to be shy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21525_hajirau",
+      "reading": "はじらう",
+      "headword": "{恥|は}じらう",
+      "label": "to be bashful"
     }
   ]
 }

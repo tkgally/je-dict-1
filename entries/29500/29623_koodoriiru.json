@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29623_koodoriiru_ex1",
-      "japanese": "コードリールを{使|つか}う。",
+      "japanese": "コードリール⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use a cord reel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29623_koodoriiru_ex2",
-      "japanese": "{延長|えんちょう}コードをコードリールに{巻|ま}き{取|と}る。",
+      "japanese": "⟦{延長|えんちょう}コード→延長コード：07087_enchoukoodo⟧⟦を→を：00422_wo⟧コードリール⟦に→に：00314_ni⟧⟦{巻|ま}き{取|と}る→巻き取る：20137_makitoru⟧。",
       "english": "To wind the extension cord onto the reel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29623_koodoriiru_ex3",
-      "japanese": "{掃除機|そうじき}のコードは{自動|じどう}でコードリールに{収|おさ}まる。",
+      "japanese": "⟦{掃除機|そうじき}→掃除機：04967_soujiki⟧⟦の→の：09472_no⟧⟦コード→コード：00241_koodo⟧⟦は→は：00079_ha⟧⟦{自動|じどう}→自動：03339_jidou⟧⟦で→で：00502_de⟧コードリール⟦に→に：00314_ni⟧⟦{収|おさ}まる→収まる：11858_osamaru⟧。",
       "english": "The vacuum cleaner's cord retracts automatically onto the reel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: {コードリール} (from English \"cord reel\") is a spool for winding up an electrical cord, either built into an appliance or sold as a reel-in extension cord.\n\nCOMMON COLLOCATIONS:\n- コードリールに{巻|ま}き{取|と}る: to wind onto the cord reel\n- {延長|えんちょう}コードリール: an extension cord reel\n\nSIMILAR WORDS:\n- {延長|えんちょう}コード: extension cord — the cord itself, without the reel\n- リール: reel — a spool in general (fishing, film, and so on)",
+  "notes": "USAGE: コードリール (from English \"cord reel\") is a spool for winding up an electrical cord, either built into an appliance or sold as a reel-in extension cord.\n\nCOMMON COLLOCATIONS:\n- コードリール⟦に→に：00314_ni⟧⟦{巻|ま}き{取|と}る→巻き取る：20137_makitoru⟧: to wind onto the cord reel\n- ⟦{延長|えんちょう}→延長：06447_enchou⟧コードリール: an extension cord reel\n\nSIMILAR WORDS:\n- ⟦{延長|えんちょう}コード→延長コード：07087_enchoukoodo⟧: extension cord — the cord itself, without the reel\n- リール: reel — a spool in general (fishing, film, and so on)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07087_enchoukoodo",
+      "reading": "えんちょうこーど",
+      "headword": "{延長|えんちょう}コード",
+      "label": "extension cord"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

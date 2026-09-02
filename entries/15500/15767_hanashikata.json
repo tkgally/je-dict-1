@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15767_hanashikata_ex1",
-      "japanese": "{彼女|かのじょ}の{話|はな}し{方|かた}はとても{丁寧|ていねい}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{話|はな}し{方|かた}⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧だ。",
       "english": "Her way of speaking is very polite.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15767_hanashikata_ex2",
-      "japanese": "{話|はな}し{方|かた}ひとつで{印象|いんしょう}が{大|おお}きく{変|か}わる。",
+      "japanese": "{話|はな}し{方|かた}ひとつ⟦で→で：00502_de⟧⟦{印象|いんしょう}→印象：01846_inshou⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The impression you make changes dramatically with how you speak.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15767_hanashikata_ex3",
-      "japanese": "{上司|じょうし}に{対|たい}する{話|はな}し{方|かた}に{気|き}をつけたほうがいい。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{話|はな}し{方|かた}⟦に→に：00314_ni⟧⟦{気|き}をつけた→気をつける：09771_kiwotsukeru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should be careful about how you speak to your superiors.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{話|はな}し{方|かた} is a very common compound following the productive ～{方|かた} (way of doing ~) pattern. It can refer to both the content and delivery of speech.\n\nCOMMON COLLOCATIONS:\n- {話|はな}し{方|かた}が{上手|じょうず} (good at speaking)\n- {話|はな}し{方|かた}を{変|か}える (change one's way of speaking)\n- {話|はな}し{方|かた}に{気|き}をつける (be careful about how one speaks)\n- {話|はな}し{方|かた}{教室|きょうしつ} (public speaking class)\n- {話|はな}し{方|かた}のコツ (tips for speaking)\n\nSIMILAR WORDS:\n{口調|くちょう} refers to the tone of voice or manner of speaking and focuses on how words sound. {言|い}い{方|かた} means \"way of saying\" or \"phrasing\" and focuses more on word choice. {話術|わじゅつ} means \"art of conversation\" or \"eloquence.\"",
+  "notes": "USAGE:\n{話|はな}し{方|かた} is a very common compound following the productive ～⟦{方|かた}→方：10665_kata⟧ (way of doing ~) pattern. It can refer to both the content and delivery of speech.\n\nCOMMON COLLOCATIONS:\n- {話|はな}し{方|かた}⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧ (good at speaking)\n- {話|はな}し{方|かた}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ (change one's way of speaking)\n- {話|はな}し{方|かた}⟦に→に：00314_ni⟧⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧ (be careful about how one speaks)\n- {話|はな}し{方|かた}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧ (public speaking class)\n- {話|はな}し{方|かた}⟦の→の：09472_no⟧⟦コツ→コツ：06658_kotsu⟧ (tips for speaking)\n\nSIMILAR WORDS:\n⟦{口調|くちょう}→口調：11803_kuchou⟧ refers to the tone of voice or manner of speaking and focuses on how words sound. ⟦{言|い}い{方|かた}→言い方：14165_iikata⟧ means \"way of saying\" or \"phrasing\" and focuses more on word choice. ⟦{話術|わじゅつ}→話術：21732_wajutsu⟧ means \"art of conversation\" or \"eloquence.\"",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,39 @@
       "reading": "いいかた",
       "headword": "{言|い}い{方|かた}",
       "label": "way of saying; phrasing"
+    },
+    {
+      "type": "related",
+      "target_id": "08081_susumekata",
+      "reading": "すすめかた",
+      "headword": "{進|すす}め{方|かた}",
+      "label": "way of proceeding"
+    },
+    {
+      "type": "related",
+      "target_id": "15424_kuchiburi",
+      "reading": "くちぶり",
+      "headword": "{口|くち}ぶり",
+      "label": "way of talking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20735_hanashiburi",
+      "reading": "はなしぶり",
+      "headword": "{話|はな}しぶり",
+      "label": "way of speaking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23778_kaiwaryoku",
+      "reading": "かいわりょく",
+      "headword": "{会話力|かいわりょく}",
+      "label": "conversational ability"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:17:40Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

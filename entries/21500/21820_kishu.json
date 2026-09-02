@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "21820_kishu_ex1",
-      "japanese": "{騎手|きしゅ}が{馬|うま}に{乗|の}る。",
+      "japanese": "{騎手|きしゅ}⟦が→が：00051_ga⟧⟦{馬|うま}→馬：01865_uma⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧。",
       "english": "The jockey mounts the horse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21820_kishu_ex2",
-      "japanese": "{若|わか}い{騎手|きしゅ}が{初|はつ}{勝利|しょうり}を{挙|あ}げた。",
+      "japanese": "{若|わか}い{騎手|きしゅ}⟦が→が：00051_ga⟧⟦{初|はつ}→初：10632_hatsu⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦を→を：00422_wo⟧⟦{挙|あ}げた→挙げる：27889_ageru⟧。",
       "english": "The young jockey achieved his first victory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21820_kishu_ex3",
-      "japanese": "{競馬|けいば}では{馬|うま}の{能力|のうりょく}だけでなく、{騎手|きしゅ}の{腕前|うでまえ}も{勝敗|しょうはい}を{大|おお}きく{左右|さゆう}する。",
+      "japanese": "⟦{競馬|けいば}→競馬：00207_keiba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{馬|うま}→馬：01865_uma⟧⟦の→の：09472_no⟧⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、{騎手|きしゅ}⟦の→の：09472_no⟧⟦{腕前|うでまえ}→腕前：07299_udemae⟧⟦も→も：00484_mo⟧⟦{勝敗|しょうはい}→勝敗：04905_shouhai⟧⟦を→を：00422_wo⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{左右|さゆう}→左右：02826_sayuu⟧⟦する→する：00392_suru⟧。",
       "english": "In horse racing, not only the horse's ability but also the jockey's skill greatly influences the outcome.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {騎|き} (riding, mounted) and {手|しゅ} (person, hand). In modern usage, primarily refers to professional jockeys in {競馬|けいば} (horse racing). Japan has a well-established horse racing industry (JRA — Japan Racing Association), and famous jockeys are widely known public figures.\n\nCOMMON COLLOCATIONS:\n- {騎手|きしゅ}になる: to become a jockey\n- {騎手|きしゅ}が{騎乗|きじょう}する: a jockey rides (formal)\n- {騎手|きしゅ}の{腕前|うでまえ}: the jockey's skill\n- リーディング{騎手|きしゅ}: leading jockey (most wins in a season)\n\nSIMILAR WORDS:\n- ジョッキー: jockey — the loanword, used interchangeably in casual contexts\n- {騎馬|きば}: mounted warrior, horseman — historical or military term\n- {乗|の}り{手|て}: rider — more general term for anyone who rides (horses, motorcycles, etc.)",
+  "notes": "A compound of {騎|き} (riding, mounted) and {手|しゅ} (person, hand). In modern usage, primarily refers to professional jockeys in ⟦{競馬|けいば}→競馬：00207_keiba⟧ (horse racing). Japan has a well-established horse racing industry (JRA — Japan Racing Association), and famous jockeys are widely known public figures.\n\nCOMMON COLLOCATIONS:\n- {騎手|きしゅ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a jockey\n- {騎手|きしゅ}⟦が→が：00051_ga⟧⟦{騎乗|きじょう}→騎乗：25138_kijou⟧⟦する→する：00392_suru⟧: a jockey rides (formal)\n- {騎手|きしゅ}⟦の→の：09472_no⟧⟦{腕前|うでまえ}→腕前：07299_udemae⟧: the jockey's skill\n- リーディング{騎手|きしゅ}: leading jockey (most wins in a season)\n\nSIMILAR WORDS:\n- ジョッキー: jockey — the loanword, used interchangeably in casual contexts\n- ⟦{騎馬|きば}→騎馬：24597_kiba⟧: mounted warrior, horseman — historical or military term\n- {乗|の}り{手|て}: rider — more general term for anyone who rides (horses, motorcycles, etc.)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24597_kiba",
+      "reading": "きば",
+      "headword": "{騎馬|きば}",
+      "label": "mounted warrior, horseman"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports", "person"]
+      "semantic": [
+        "sports",
+        "person"
+      ]
     },
     "created": "2026-04-03T18:26:40Z",
-    "modified": "2026-04-03T18:26:40Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

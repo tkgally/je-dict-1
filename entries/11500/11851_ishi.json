@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11851_ishi_ex1",
-      "japanese": "{医師|いし}に{相談|そうだん}してください。",
+      "japanese": "{医師|いし}⟦に→に：00314_ni⟧⟦{相談|そうだん}して→相談する：01845_soudansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please consult a doctor.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11851_ishi_ex2",
-      "japanese": "{担当|たんとう}{医師|いし}から{説明|せつめい}を{受|う}けた。",
+      "japanese": "{担当|たんとう}{医師|いし}⟦から→から：00504_kara⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received an explanation from the attending physician.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11851_ishi_ex3",
-      "japanese": "{医師|いし}{免許|めんきょ}を{取得|しゅとく}するには{長|なが}い{年月|ねんげつ}がかかる。",
+      "japanese": "{医師|いし}⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{年月|ねんげつ}→年月：00310_nengetsu⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It takes many years to obtain a medical license.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "The formal, professional term for doctor. In everyday conversation, {医者|いしゃ} is far more common. {医師|いし} appears in legal documents, news, official titles, and medical contexts.\n\nCOMMON COLLOCATIONS:\n・{担当|たんとう}{医師|いし} — attending physician\n・{主治医|しゅじい} — primary doctor (uses {医|い} alone)\n・{医師|いし}{免許|めんきょ} — medical license\n・{医師|いし}{不足|ぶそく} — shortage of doctors\n・{医師|いし}の{診断|しんだん} — doctor's diagnosis\n\nSIMILAR WORDS:\n・{医者|いしゃ} — doctor (everyday, casual)\n・{先生|せんせい} — doctor (when addressing directly)",
+  "notes": "The formal, professional term for doctor. In everyday conversation, ⟦{医者|いしゃ}→医者：02847_isha⟧ is far more common. {医師|いし} appears in legal documents, news, official titles, and medical contexts.\n\nCOMMON COLLOCATIONS:\n- {担当|たんとう}{医師|いし} — attending physician\n- ⟦{主治医|しゅじい}→主治医：11465_shujii⟧ — primary doctor (uses {医|い} alone)\n- {医師|いし}⟦{免許|めんきょ}→免許：03808_menkyo⟧ — medical license\n- {医師|いし}{不足|ぶそく} — shortage of doctors\n- {医師|いし}⟦の→の：09472_no⟧⟦{診断|しんだん}→診断：04209_shindan⟧ — doctor's diagnosis\n\nSIMILAR WORDS:\n- ⟦{医者|いしゃ}→医者：02847_isha⟧ — doctor (everyday, casual)\n- ⟦{先生|せんせい}→先生：00609_sensei⟧ — doctor (when addressing directly)",
   "cross_references": [
     {
       "type": "synonym",
@@ -66,11 +66,46 @@
       "headword": "{獣医|じゅうい}",
       "label": "veterinarian",
       "target_id": "07031_juui"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00609_sensei",
+      "reading": "せんせい",
+      "headword": "{先生|せんせい}",
+      "label": "doctor"
+    },
+    {
+      "type": "related",
+      "target_id": "00577_byouin",
+      "reading": "びょういん",
+      "headword": "{病院|びょういん}",
+      "label": "hospital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21001_gekai",
+      "reading": "げかい",
+      "headword": "{外科医|げかい}",
+      "label": "surgeon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23281_tantoui",
+      "reading": "たんとうい",
+      "headword": "{担当医|たんとうい}",
+      "label": "doctor in charge"
+    },
+    {
+      "type": "related",
+      "target_id": "27621_igakusei",
+      "reading": "いがくせい",
+      "headword": "{医学生|いがくせい}",
+      "label": "medical student"
     }
   ],
   "metadata": {
     "created": "2026-02-18T13:38:02Z",
-    "modified": "2026-08-27T12:49:51Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

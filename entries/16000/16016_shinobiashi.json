@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "16016_shinobiashi_ex1",
-      "japanese": "{忍|しの}び{足|あし}で{部屋|へや}を{出|で}た。",
+      "japanese": "{忍|しの}び{足|あし}⟦で→で：00502_de⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I left the room on tiptoe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16016_shinobiashi_ex2",
-      "japanese": "{赤|あか}ちゃんを{起|お}こさないように{忍|しの}び{足|あし}で{歩|ある}いた。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦を→を：00422_wo⟧⟦{起|お}こさない→起こす：01234_okosu⟧よう⟦に→に：00314_ni⟧{忍|しの}び{足|あし}⟦で→で：00502_de⟧⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked stealthily so as not to wake the baby.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16016_shinobiashi_ex3",
-      "japanese": "{猫|ねこ}が{忍|しの}び{足|あし}で{獲物|えもの}に{近|ちか}づいていく{様子|ようす}は、まるで{忍者|にんじゃ}のようだ。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧{忍|しの}び{足|あし}⟦で→で：00502_de⟧⟦{獲物|えもの}→獲物：08638_emono⟧⟦に→に：00314_ni⟧⟦{近|ちか}づいて→近づく：01958_chikazuku⟧いく⟦{様子|ようす}→様子：01521_yousu⟧⟦は→は：00079_ha⟧、⟦まるで→まるで：03739_marude⟧⟦{忍者|にんじゃ}→忍者：11112_ninja⟧⟦の→の：09472_no⟧ようだ。",
       "english": "The way the cat creeps toward its prey on stealthy feet is just like a ninja.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used with で as an adverbial phrase: {忍|しの}び{足|あし}で{歩|ある}く (to walk stealthily), {忍|しの}び{足|あし}で{近|ちか}づく (to approach stealthily).\n\nCOMMON COLLOCATIONS:\n- {忍|しの}び{足|あし}で{歩|ある}く (to walk on tiptoe)\n- {忍|しの}び{足|あし}で{近|ちか}づく (to sneak up on)\n- {忍|しの}び{足|あし}で{出|で}る (to sneak out)\n\nNUANCE:\nEvokes a vivid image of quiet, careful movement. Often used in narrative and descriptive writing. Can apply to both humans and animals.",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly used with で as an adverbial phrase: {忍|しの}び{足|あし}⟦で→で：00502_de⟧⟦{歩|ある}く→歩く：00538_aruku⟧ (to walk stealthily), {忍|しの}び{足|あし}⟦で→で：00502_de⟧⟦{近|ちか}づく→近づく：01958_chikazuku⟧ (to approach stealthily).\nEvokes a vivid image of quiet, careful movement. Often used in narrative and descriptive writing. Can apply to both humans and animals.\n\nCOMMON COLLOCATIONS:\n- {忍|しの}び{足|あし}⟦で→で：00502_de⟧⟦{歩|ある}く→歩く：00538_aruku⟧ (to walk on tiptoe)\n- {忍|しの}び{足|あし}⟦で→で：00502_de⟧⟦{近|ちか}づく→近づく：01958_chikazuku⟧ (to sneak up on)\n- {忍|しの}び{足|あし}⟦で→で：00502_de⟧⟦{出|で}る→出る：00513_deru⟧ (to sneak out)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25143_tsumasakidachi",
+      "reading": "つまさきだち",
+      "headword": "つま{先立|さきだ}ち",
+      "label": "standing on tiptoe"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T08:32:25Z",
-    "modified": "2026-03-09T08:32:25Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ]
     }
   }
 }

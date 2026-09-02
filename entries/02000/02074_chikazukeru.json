@@ -114,7 +114,7 @@
     },
     {
       "id": "02074_chikazukeru_ex2",
-      "japanese": "⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧{近|ちか}づけないで。",
+      "japanese": "⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{近|ちか}づけない→近づく：01958_chikazuku⟧で。",
       "english": "Don't bring fire near.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "02074_chikazukeru_ex3",
-      "japanese": "⟦{耳|みみ}→耳：01513_mimi⟧⟦を→を：00422_wo⟧{近|ちか}づけて⟦{聞|き}いた→聞く：00483_kiku⟧。",
+      "japanese": "⟦{耳|みみ}→耳：01513_mimi⟧⟦を→を：00422_wo⟧⟦{近|ちか}づけ→近づく：01958_chikazuku⟧て⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I brought my ear closer and listened.",
       "sense_numbers": [
         1
@@ -133,11 +133,26 @@
       "notes": null
     }
   ],
-  "notes": "{近|ちか}づける means to bring something or someone closer.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{近|ちか}づく→近づく：01958_chikazuku⟧ (intransitive, to approach)\n\nCOMMON PATTERNS:\n- ⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{近|ちか}づける: to bring one's face closer\n- ⟦{耳|みみ}→耳：01513_mimi⟧⟦を→を：00422_wo⟧{近|ちか}づける: to bring one's ear closer (to listen)\n- ⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧{近|ちか}づけない: not bring fire near\n- ⟦{距離|きょり}→距離：05331_kyori⟧⟦を→を：00422_wo⟧{近|ちか}づける: to close the distance\n\nASPECT (ている):\n{近|ちか}づけている indicates ongoing action of bringing closer.\n\nRELATED:\n- ⟦{近|ちか}づく→近づく：01958_chikazuku⟧: to approach (intransitive)\n- ⟦{近|ちか}い→近い：00530_chikai⟧: close, near (adjective)\n- ⟦{離|はな}す→離す：19372_hanasu⟧: to separate (opposite action)",
-  "cross_references": [],
+  "notes": "{近|ちか}づける means to bring something or someone closer.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{近|ちか}づく→近づく：01958_chikazuku⟧ (intransitive, to approach)\n\nCOMMON PATTERNS:\n- ⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{近|ちか}づける: to bring one's face closer\n- ⟦{耳|みみ}→耳：01513_mimi⟧⟦を→を：00422_wo⟧{近|ちか}づける: to bring one's ear closer (to listen)\n- ⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{近|ちか}づけない→近づく：01958_chikazuku⟧: not bring fire near\n- ⟦{距離|きょり}→距離：05331_kyori⟧⟦を→を：00422_wo⟧{近|ちか}づける: to close the distance\n\nASPECT (ている):\n⟦{近|ちか}づけ→近づく：01958_chikazuku⟧て⟦いる→いる：00495_iru⟧ indicates ongoing action of bringing closer.\n\nRELATED WORDS:\n- ⟦{近|ちか}づく→近づく：01958_chikazuku⟧: to approach (intransitive)\n- ⟦{近|ちか}い→近い：00530_chikai⟧: close, near (adjective)\n- ⟦{離|はな}す→離す：19372_hanasu⟧: to separate (opposite action)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00530_chikai",
+      "reading": "ちかい",
+      "headword": "{近|ちか}い",
+      "label": "close, near"
+    },
+    {
+      "type": "related",
+      "target_id": "19372_hanasu",
+      "reading": "はなす",
+      "headword": "{離|はな}す",
+      "label": "to separate"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:58:27Z",
-    "modified": "2026-05-18T13:16:13Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16166_reitan_ex1",
-      "japanese": "{彼|かれ}の{態度|たいど}は{冷淡|れいたん}だった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦は→は：00079_ha⟧{冷淡|れいたん}だった。",
       "english": "His attitude was cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16166_reitan_ex2",
-      "japanese": "{頼|たの}みごとを{冷淡|れいたん}に{断|ことわ}られた。",
+      "japanese": "{頼|たの}みごと⟦を→を：00422_wo⟧{冷淡|れいたん}⟦に→に：00314_ni⟧⟦{断|ことわ}られた→断る：02102_kotowaru⟧。",
       "english": "My request was coldly refused.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16166_reitan_ex3",
-      "japanese": "{社会|しゃかい}{問題|もんだい}に{冷淡|れいたん}な{人|ひと}が{増|ふ}えていると{言|い}われている。",
+      "japanese": "⟦{社会|しゃかい}{問題|もんだい}→社会問題：25686_shakaimondai⟧⟦に→に：00314_ni⟧{冷淡|れいたん}な⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that more and more people are indifferent to social issues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{冷淡|れいたん} is a na-adjective used both as a modifier ({冷淡|れいたん}な + noun) and predicatively ({冷淡|れいたん}だ). It can also be used adverbially as {冷淡|れいたん}に. The word describes emotional coldness and lack of concern, not physical temperature.\n\nSIMILAR WORDS:\n{冷|つめ}たい can describe both physical coldness and emotional coldness, while {冷淡|れいたん} is used exclusively for emotional indifference. {無関心|むかんしん} (apathetic) focuses on lack of interest, while {冷淡|れいたん} emphasizes the coldness of one's manner.\n\nCOMMON COLLOCATIONS:\n- {冷淡|れいたん}な{態度|たいど} (cold attitude)\n- {冷淡|れいたん}な{対応|たいおう} (indifferent treatment)\n- {冷淡|れいたん}に{扱|あつか}う (to treat coldly)\n- 〜に{冷淡|れいたん}だ (to be indifferent to ~)",
+  "notes": "USAGE:\n{冷淡|れいたん} is a na-adjective used both as a modifier ({冷淡|れいたん}な + noun) and predicatively ({冷淡|れいたん}だ). It can also be used adverbially as {冷淡|れいたん}⟦に→に：00314_ni⟧. The word describes emotional coldness and lack of concern, not physical temperature.\n\nSIMILAR WORDS:\n⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧ can describe both physical coldness and emotional coldness, while {冷淡|れいたん} is used exclusively for emotional indifference. ⟦{無関心|むかんしん}→無関心：13424_mukanshin⟧ (apathetic) focuses on lack of interest, while {冷淡|れいたん} emphasizes the coldness of one's manner.\n\nCOMMON COLLOCATIONS:\n- {冷淡|れいたん}な⟦{態度|たいど}→態度：03396_taido⟧ (cold attitude)\n- {冷淡|れいたん}な⟦{対応|たいおう}→対応：02510_taiou⟧ (indifferent treatment)\n- {冷淡|れいたん}⟦に→に：00314_ni⟧⟦{扱|あつか}う→扱う：01862_atsukau⟧ (to treat coldly)\n- 〜⟦に→に：00314_ni⟧{冷淡|れいたん}だ (to be indifferent to ~)",
   "cross_references": [
     {
       "type": "antonym",
@@ -60,18 +66,51 @@
       "reading": "つめたい",
       "headword": "{冷|つめ}たい",
       "label": "cold (physical and emotional)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23140_muhyoujou",
+      "reading": "むひょうじょう",
+      "headword": "{無表情|むひょうじょう}",
+      "label": "expressionless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24223_mukandou",
+      "reading": "むかんどう",
+      "headword": "{無感動|むかんどう}",
+      "label": "unmoved"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25619_mukanjou",
+      "reading": "むかんじょう",
+      "headword": "{無感情|むかんじょう}",
+      "label": "emotionless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27248_mukanshinsa",
+      "reading": "むかんしんさ",
+      "headword": "{無関心|むかんしん}さ",
+      "label": "indifference"
     }
   ],
   "metadata": {
     "created": "2026-03-11T00:56:57Z",
-    "modified": "2026-05-03T06:32:09Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "personality"]
+      "semantic": [
+        "emotion",
+        "personality"
+      ]
     }
   }
 }

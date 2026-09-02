@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15596_rokudenashi_ex1",
-      "japanese": "あいつはろくでなしだ。",
+      "japanese": "⟦あいつ→あいつ：08267_aitsu⟧⟦は→は：00079_ha⟧ろくでなしだ。",
       "english": "That guy is a good-for-nothing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15596_rokudenashi_ex2",
-      "japanese": "ろくでなしの{息子|むすこ}が{借金|しゃっきん}を{作|つく}った。",
+      "japanese": "ろくでなし⟦の→の：09472_no⟧⟦{息子|むすこ}→息子：00799_musuko⟧⟦が→が：00051_ga⟧⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "My good-for-nothing son racked up debts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15596_rokudenashi_ex3",
-      "japanese": "{父親|ちちおや}はろくでなしで、{家族|かぞく}の{面倒|めんどう}を{見|み}ようとしなかった。",
+      "japanese": "⟦{父親|ちちおや}→父親：03469_chichioya⟧⟦は→は：00079_ha⟧ろくでなしで、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{面倒|めんどう}を{見|み}よう→面倒を見る：18263_mendouwomiru⟧としなかった。",
       "english": "The father was a deadbeat who made no effort to take care of his family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nろくでなし is a strong negative label for a person who is seen as worthless or irresponsible. It is commonly used when expressing frustration or contempt.\n\nETYMOLOGY:\nFrom ろく ({碌|ろく}, meaning \"satisfactory\" or \"decent\") + でなし (\"not being\"). Literally \"one who is not decent.\"\n\nCOMMON COLLOCATIONS:\n- ろくでなしの{亭主|ていしゅ} (a good-for-nothing husband)\n- ろくでなしと{呼|よ}ばれる (to be called a scoundrel)\n\nSIMILAR WORDS:\nろくでもない is the adjectival form meaning \"worthless\" or \"no good\" and is more commonly used as a modifier. ごくつぶし also means a useless person, particularly someone who eats without contributing.",
-  "cross_references": [],
+  "notes": "USAGE:\nろくでなし is a strong negative label for a person who is seen as worthless or irresponsible. It is commonly used when expressing frustration or contempt.\n\nETYMOLOGY:\nFrom ろく ({碌|ろく}, meaning \"satisfactory\" or \"decent\") + でなし (\"not being\"). Literally \"one who is not decent.\"\n\nCOMMON COLLOCATIONS:\n- ろくでなし⟦の→の：09472_no⟧⟦{亭主|ていしゅ}→亭主：11470_teishu⟧ (a good-for-nothing husband)\n- ろくでなし⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧ (to be called a scoundrel)\n\nSIMILAR WORDS:\n⟦ろくでもない→ろくでもない：21007_rokudemonai⟧ is the adjectival form meaning \"worthless\" or \"no good\" and is more commonly used as a modifier. ごくつぶし also means a useless person, particularly someone who eats without contributing.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21007_rokudemonai",
+      "reading": "ろくでもない",
+      "headword": "ろくでもない",
+      "label": "good-for-nothing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:03:41Z",
-    "modified": "2026-03-07T13:03:41Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

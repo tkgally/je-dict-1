@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09674_shiji_ex1",
-      "japanese": "{指示|しじ}に{従|したが}う。",
+      "japanese": "{指示|しじ}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧。",
       "english": "Follow the instructions.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09674_shiji_ex2",
-      "japanese": "{上司|じょうし}から{指示|しじ}を{受|う}けた。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦から→から：00504_kara⟧{指示|しじ}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received instructions from my supervisor.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09674_shiji_ex3",
-      "japanese": "{指示|しじ}{通|どお}りにやってください。",
+      "japanese": "{指示|しじ}{通|どお}り⟦に→に：00314_ni⟧⟦やって→やる：02980_yaru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please do it according to the instructions.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "{指示|しじ} refers to directions or orders given by someone in authority.\n\nCOMMON COLLOCATIONS:\n- {指示|しじ}を{出|だ}す (give instructions)\n- {指示|しじ}を{受|う}ける (receive instructions)\n- {指示|しじ}に{従|したが}う (follow instructions)\n- {指示|しじ}{通|どお}り (as instructed)\n- {指示|しじ}{書|しょ} (written instructions, directive)\n\nSIMILAR WORDS:\n- {命令|めいれい}: order, command (stronger)\n- {案内|あんない}: guidance, directions (gentler)",
+  "notes": "{指示|しじ} refers to directions or orders given by someone in authority.\n\nCOMMON COLLOCATIONS:\n- {指示|しじ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (give instructions)\n- {指示|しじ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (receive instructions)\n- {指示|しじ}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧ (follow instructions)\n- {指示|しじ}{通|どお}り (as instructed)\n- {指示|しじ}{書|しょ} (written instructions, directive)\n\nSIMILAR WORDS:\n- ⟦{命令|めいれい}→命令：03754_meirei⟧: order, command (stronger)\n- ⟦{案内|あんない}→案内：01291_annai⟧: guidance, directions (gentler)",
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-07-27T00:19:33Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,6 +167,20 @@
       "reading": "めいれい",
       "headword": "{命令|めいれい}",
       "label": "order (stronger)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01291_annai",
+      "reading": "あんない",
+      "headword": "{案内|あんない}",
+      "label": "guidance, directions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22238_tsuutatsu",
+      "reading": "つうたつ",
+      "headword": "{通達|つうたつ}",
+      "label": "official notice"
     }
   ]
 }

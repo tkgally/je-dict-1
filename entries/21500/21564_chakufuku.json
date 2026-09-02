@@ -3,7 +3,7 @@
   "headword": "{着服|ちゃくふく}",
   "reading": "ちゃくふく",
   "romaji": "chakufuku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "embezzlement; misappropriation; pocketing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21564_chakufuku_ex1",
-      "japanese": "{会社|かいしゃ}の{金|かね}を{着服|ちゃくふく}する。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{金|かね}→金：02618_kane⟧⟦を→を：00422_wo⟧{着服|ちゃくふく}⟦する→する：00392_suru⟧。",
       "english": "To embezzle company money.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21564_chakufuku_ex2",
-      "japanese": "{経理|けいり}{担当|たんとう}が{売上金|うりあげきん}を{着服|ちゃくふく}していた。",
+      "japanese": "⟦{経理|けいり}→経理：06439_keiri⟧⟦{担当|たんとう}→担当：02567_tantou⟧⟦が→が：00051_ga⟧{売上金|うりあげきん}⟦を→を：00422_wo⟧{着服|ちゃくふく}⟦していた→する：00392_suru⟧。",
       "english": "The accountant had been pocketing the sales revenue.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21564_chakufuku_ex3",
-      "japanese": "{長年|ながねん}にわたって{公金|こうきん}を{着服|ちゃくふく}していたことが{発覚|はっかく}し、{逮捕|たいほ}された。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたって⟦{公金|こうきん}→公金：29287_koukin⟧⟦を→を：00422_wo⟧{着服|ちゃくふく}⟦していた→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{発覚|はっかく}→発覚：07629_hakkaku⟧し、⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "It was discovered that public funds had been embezzled over many years, and the person was arrested.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Originally meant \"putting on clothes\" ({着|き}る + {服|ふく}), but the modern primary meaning is embezzlement — secretly putting money \"into one's own pocket.\" The clothing sense is now rare.\n\nCOMMON COLLOCATIONS:\n- {金|かね}を{着服|ちゃくふく}する: to pocket money\n- {公金|こうきん}を{着服|ちゃくふく}する: to embezzle public funds\n- {売上金|うりあげきん}の{着服|ちゃくふく}: embezzlement of sales proceeds\n- {着服|ちゃくふく}が{発覚|はっかく}する: embezzlement is discovered\n\nSIMILAR WORDS:\n- {横領|おうりょう}: embezzlement — more formal legal term, used in criminal law\n- {着服|ちゃくふく}: pocketing — slightly more colloquial, emphasizes the sneaky nature\n- {使|つか}い{込|こ}み: misuse of funds — spending entrusted money on personal expenses\n- {流用|りゅうよう}: diversion of funds — redirecting money to an unauthorized purpose",
+  "notes": "Originally meant \"putting on clothes\" (⟦{着|き}る→着る：00541_kiru⟧ + ⟦{服|ふく}→服：00695_fuku⟧), but the modern primary meaning is embezzlement — secretly putting money \"into one's own pocket.\" The clothing sense is now rare.\n\nCOMMON COLLOCATIONS:\n- ⟦{金|かね}→金：02618_kane⟧⟦を→を：00422_wo⟧{着服|ちゃくふく}⟦する→する：00392_suru⟧: to pocket money\n- ⟦{公金|こうきん}→公金：29287_koukin⟧⟦を→を：00422_wo⟧{着服|ちゃくふく}⟦する→する：00392_suru⟧: to embezzle public funds\n- {売上金|うりあげきん}⟦の→の：09472_no⟧{着服|ちゃくふく}: embezzlement of sales proceeds\n- {着服|ちゃくふく}⟦が→が：00051_ga⟧⟦{発覚|はっかく}する→発覚する：15423_hakkakusuru⟧: embezzlement is discovered\n\nSIMILAR WORDS:\n- ⟦{横領|おうりょう}→横領：09001_ouryou⟧: embezzlement — more formal legal term, used in criminal law\n- {着服|ちゃくふく}: pocketing — slightly more colloquial, emphasizes the sneaky nature\n- {使|つか}い{込|こ}み: misuse of funds — spending entrusted money on personal expenses\n- ⟦{流用|りゅうよう}→流用：13393_ryuuyou⟧: diversion of funds — redirecting money to an unauthorized purpose",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09001_ouryou",
+      "reading": "おうりょう",
+      "headword": "{横領|おうりょう}",
+      "label": "embezzlement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13393_ryuuyou",
+      "reading": "りゅうよう",
+      "headword": "{流用|りゅうよう}",
+      "label": "diversion of funds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24637_shibutsuka",
+      "reading": "しぶつか",
+      "headword": "{私物化|しぶつか}",
+      "label": "treating as one's own"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +82,11 @@
         "law",
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T16:18:43Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

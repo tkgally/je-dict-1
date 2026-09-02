@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18718_tomonisuru_ex1",
-      "japanese": "{苦楽|くらく}を{共|とも}にする。",
+      "japanese": "⟦{苦楽|くらく}→苦楽：05566_kuraku⟧⟦を→を：00422_wo⟧{共|とも}にする。",
       "english": "To share joys and hardships together.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18718_tomonisuru_ex2",
-      "japanese": "{長年|ながねん}{行動|こうどう}を{共|とも}にしてきた{仲間|なかま}だ。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧{共|とも}にしてきた⟦{仲間|なかま}→仲間：03498_nakama⟧だ。",
       "english": "We are comrades who have acted together for many years.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18718_tomonisuru_ex3",
-      "japanese": "{時間|じかん}を{共|とも}にすることで、お{互|たが}いの{理解|りかい}が{深|ふか}まった。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{共|とも}にすることで、⟦お{互|たが}い→お互い：00336_otagai⟧⟦の→の：09472_no⟧⟦{理解|りかい}→理解：03674_rikai⟧⟦が→が：00051_ga⟧⟦{深|ふか}まった→深まる：02406_fukamaru⟧。",
       "english": "By spending time together, our mutual understanding deepened.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat literary and formal expression meaning \"to share\" or \"to do together.\" The pattern is 〜を{共|とも}にする.\n\nCOMMON OBJECTS:\n- {苦楽|くらく}を{共|とも}にする: to share joys and sorrows\n- {運命|うんめい}を{共|とも}にする: to share a fate\n- {時間|じかん}を{共|とも}にする: to spend time together\n- {食事|しょくじ}を{共|とも}にする: to share a meal\n- {行動|こうどう}を{共|とも}にする: to act together\n\nSIMILAR EXPRESSIONS:\n- {一緒|いっしょ}にする: to do together (more casual, everyday)\n- {共有|きょうゆう}する: to share (more abstract/formal, often for information or resources)\n\nREGISTER:\nFormal and slightly literary. Often used in speeches, writing, or when expressing deep bonds.",
+  "notes": "A somewhat literary and formal expression meaning \"to share\" or \"to do together.\" The pattern is 〜⟦を→を：00422_wo⟧{共|とも}にする.\n\nCOMMON OBJECTS:\n- ⟦{苦楽|くらく}→苦楽：05566_kuraku⟧⟦を→を：00422_wo⟧{共|とも}にする: to share joys and sorrows\n- ⟦{運命|うんめい}→運命：06879_unmei⟧⟦を→を：00422_wo⟧{共|とも}にする: to share a fate\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{共|とも}にする: to spend time together\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧{共|とも}にする: to share a meal\n- ⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧{共|とも}にする: to act together\n\nSIMILAR WORDS:\n- ⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to do together (more casual, everyday)\n- ⟦{共有|きょうゆう}する→共有する：19639_kyouyuusuru⟧: to share (more abstract/formal, often for information or resources)\n\nREGISTER:\nFormal and slightly literary. Often used in speeches, writing, or when expressing deep bonds.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25645_isshoni",
+      "reading": "いっしょに",
+      "headword": "{一緒|いっしょ}に",
+      "label": "to do together"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19639_kyouyuusuru",
+      "reading": "きょうゆうする",
+      "headword": "{共有|きょうゆう}する",
+      "label": "to share"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-23T00:26:03Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

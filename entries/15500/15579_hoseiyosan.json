@@ -15,42 +15,63 @@
   "examples": [
     {
       "id": "15579_hoseiyosan_ex1",
-      "japanese": "{補正予算|ほせいよさん}が{成立|せいりつ}した。",
+      "japanese": "{補正予算|ほせいよさん}⟦が→が：00051_ga⟧⟦{成立|せいりつ}した→成立する：25497_seiritsusuru⟧。",
       "english": "The supplementary budget was passed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15579_hoseiyosan_ex2",
-      "japanese": "{政府|せいふ}は{災害|さいがい}{復旧|ふっきゅう}のための{補正予算|ほせいよさん}を{編成|へんせい}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{災害|さいがい}→災害：09636_saigai⟧⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧{補正予算|ほせいよさん}⟦を→を：00422_wo⟧⟦{編成|へんせい}した→編成する：22370_henseisuru⟧。",
       "english": "The government compiled a supplementary budget for disaster recovery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15579_hoseiyosan_ex3",
-      "japanese": "{今年度|こんねんど}の{補正予算|ほせいよさん}には{子育|こそだ}て{支援|しえん}の{拡充|かくじゅう}が{盛|も}り{込|こ}まれている。",
+      "japanese": "⟦{今年度|こんねんど}→今年度：28220_konnendo⟧⟦の→の：09472_no⟧{補正予算|ほせいよさん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{子育|こそだ}て→子育て：12226_kosodate⟧⟦{支援|しえん}→支援：07778_shien⟧⟦の→の：09472_no⟧{拡充|かくじゅう}⟦が→が：00051_ga⟧⟦{盛|も}り{込|こ}まれている→盛り込む：13608_morikomu⟧。",
       "english": "This fiscal year's supplementary budget includes an expansion of childcare support.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {補正|ほせい} (correction, revision) and {予算|よさん} (budget). In Japan, supplementary budgets are common and often quite large, sometimes rivaling the original budget in scale.\n\nThe Japanese government typically submits supplementary budgets to the Diet ({国会|こっかい}) in response to natural disasters, economic downturns, or new policy initiatives.\n\nCOMMON COLLOCATIONS:\n- {補正予算|ほせいよさん}を{編成|へんせい}する (to compile a supplementary budget)\n- {補正予算|ほせいよさん}が{成立|せいりつ}する (a supplementary budget is enacted)\n- {補正予算|ほせいよさん}を{提出|ていしゅつ}する (to submit a supplementary budget)\n- {補正予算|ほせいよさん}の{規模|きぼ} (scale of the supplementary budget)\n\nSIMILAR WORDS:\n- {補正予算|ほせいよさん}: supplementary budget (amends the original)\n- {当初予算|とうしょよさん}: initial budget (the original annual budget)\n- {暫定予算|ざんていよさん}: provisional budget (temporary, when main budget is delayed)",
-  "cross_references": [],
+  "notes": "Composed of ⟦{補正|ほせい}→補正：18527_hosei⟧ (correction, revision) and ⟦{予算|よさん}→予算：03663_yosan⟧ (budget). In Japan, supplementary budgets are common and often quite large, sometimes rivaling the original budget in scale.\n\nThe Japanese government typically submits supplementary budgets to the Diet (⟦{国会|こっかい}→国会：02761_kokkai⟧) in response to natural disasters, economic downturns, or new policy initiatives.\n\nCOMMON COLLOCATIONS:\n- {補正予算|ほせいよさん}⟦を→を：00422_wo⟧⟦{編成|へんせい}する→編成する：22370_henseisuru⟧ (to compile a supplementary budget)\n- {補正予算|ほせいよさん}⟦が→が：00051_ga⟧⟦{成立|せいりつ}する→成立する：25497_seiritsusuru⟧ (a supplementary budget is enacted)\n- {補正予算|ほせいよさん}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ (to submit a supplementary budget)\n- {補正予算|ほせいよさん}⟦の→の：09472_no⟧⟦{規模|きぼ}→規模：05095_kibo⟧ (scale of the supplementary budget)\n\nSIMILAR WORDS:\n- {補正予算|ほせいよさん}: supplementary budget (amends the original)\n- {当初予算|とうしょよさん}: initial budget (the original annual budget)\n- {暫定予算|ざんていよさん}: provisional budget (temporary, when main budget is delayed)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23371_tsuikayosan",
+      "reading": "ついかよさん",
+      "headword": "{追加|ついか}{予算|よさん}",
+      "label": "additional budget"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-03-07T11:21:01Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal", "business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal",
+        "business"
+      ]
     }
   }
 }

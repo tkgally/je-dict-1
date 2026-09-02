@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16946_iinogare_ex1",
-      "japanese": "それはただの{言|い}い{逃|のが}れだ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦ただ→ただ：01613_tada⟧⟦の→の：09472_no⟧{言|い}い{逃|のが}れだ。",
       "english": "That's just an excuse.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16946_iinogare_ex2",
-      "japanese": "{言|い}い{逃|のが}れはやめて、{正直|しょうじき}に{話|はな}してください。",
+      "japanese": "{言|い}い{逃|のが}れはやめて、⟦{正直|しょうじき}→正直：01562_shoujiki⟧⟦に→に：00314_ni⟧⟦{話|はな}して→話す：00467_hanasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Stop making excuses and speak honestly.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16946_iinogare_ex3",
-      "japanese": "{証拠|しょうこ}を{突|つ}きつけられて、もう{言|い}い{逃|のが}れができなくなった。",
+      "japanese": "⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧⟦{突|つ}きつけられて→突きつける：10542_tsukitsukeru⟧、⟦もう→もう：00602_mou⟧{言|い}い{逃|のが}れ⟦が→が：00051_ga⟧⟦できなく→できる：00557_dekiru⟧⟦なった→なる：01970_naru⟧。",
       "english": "Confronted with evidence, he could no longer talk his way out of it.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlways negative in connotation. The speaker views the excuse as dishonest, insufficient, or evasive. Can also be used as a verb: {言|い}い{逃|のが}れる (to talk one's way out of something).\n\nCOMMON PATTERNS:\n- {言|い}い{逃|のが}れをする (to make excuses)\n- {言|い}い{逃|のが}れができない (to be unable to make excuses)\n- ただの{言|い}い{逃|のが}れ (just an excuse)\n\nSIMILAR WORDS:\n- {言|い}い{訳|わけ}: excuse — broader term, can be neutral or negative\n- {弁解|べんかい}: justification, defense — more formal, implies defending one's actions\n- {逃|に}げ{口上|こうじょう}: evasive excuse — a prepared excuse to escape responsibility",
+  "notes": "USAGE:\nAlways negative in connotation. The speaker views the excuse as dishonest, insufficient, or evasive. Can also be used as a verb: {言|い}い{逃|のが}れる (to talk one's way out of something).\n\nCOMMON PATTERNS:\n- {言|い}い{逃|のが}れ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to make excuses)\n- {言|い}い{逃|のが}れ⟦が→が：00051_ga⟧⟦できない→できる：00557_dekiru⟧ (to be unable to make excuses)\n- ⟦ただ→ただ：01613_tada⟧⟦の→の：09472_no⟧{言|い}い{逃|のが}れ (just an excuse)\n\nSIMILAR WORDS:\n- ⟦{言|い}い{訳|わけ}→言い訳：04653_iiwake⟧: excuse — broader term, can be neutral or negative\n- ⟦{弁解|べんかい}→弁解：07993_benkai⟧: justification, defense — more formal, implies defending one's actions\n- {逃|に}げ{口上|こうじょう}: evasive excuse — a prepared excuse to escape responsibility",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "いいわけ",
       "headword": "{言|い}い{訳|わけ}",
       "label": "excuse (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07993_benkai",
+      "reading": "べんかい",
+      "headword": "{弁解|べんかい}",
+      "label": "justification, defense"
     }
   ],
   "metadata": {
     "created": "2026-03-15T02:19:44Z",
-    "modified": "2026-05-05T05:04:25Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

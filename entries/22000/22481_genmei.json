@@ -3,7 +3,7 @@
   "headword": "{言明|げんめい}",
   "reading": "げんめい",
   "romaji": "genmei",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "declaration; clear statement; to state clearly",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22481_genmei_ex1",
-      "japanese": "{社長|しゃちょう}が{言明|げんめい}した。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧{言明|げんめい}⟦した→する：00392_suru⟧。",
       "english": "The company president made a clear statement.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22481_genmei_ex2",
-      "japanese": "{彼|かれ}は{辞任|じにん}しないと{言明|げんめい}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{辞任|じにん}→辞任：10144_jinin⟧⟦しない→する：00392_suru⟧⟦と→と：00512_to⟧{言明|げんめい}⟦した→する：00392_suru⟧。",
       "english": "He stated clearly that he would not resign.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22481_genmei_ex3",
-      "japanese": "{大臣|だいじん}は{記者|きしゃ}{会見|かいけん}で{改革|かいかく}を{進|すす}めると{言明|げんめい}した。",
+      "japanese": "⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦は→は：00079_ha⟧⟦{記者|きしゃ}{会見|かいけん}→記者会見：19954_kishakaiken⟧⟦で→で：00502_de⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧⟦と→と：00512_to⟧{言明|げんめい}⟦した→する：00392_suru⟧。",
       "english": "The minister declared at the press conference that reforms would proceed.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal word used when someone makes a clear, definitive statement, often in official or public settings. Common in news reporting and political contexts.\n\nCOMMON COLLOCATIONS:\n- {公|おおやけ}に{言明|げんめい}する: to state publicly\n- はっきりと{言明|げんめい}する: to state clearly\n- {言明|げんめい}を{避|さ}ける: to avoid making a clear statement\n- {言明|げんめい}を{撤回|てっかい}する: to retract a statement\n\nSIMILAR WORDS:\n- {声明|せいめい}: statement, declaration — an official statement or announcement, often written; used for organizations\n- {断言|だんげん}: assertion — emphasizes strong conviction; \"I say this with certainty\"\n- {明言|めいげん}: clear statement — very close synonym; emphasizes clarity over formality",
+  "notes": "A formal word used when someone makes a clear, definitive statement, often in official or public settings. Common in news reporting and political contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{公|おおやけ}→公：11991_ooyake⟧⟦に→に：00314_ni⟧{言明|げんめい}⟦する→する：00392_suru⟧: to state publicly\n- ⟦はっきり→はっきり：01228_hakkiri⟧⟦と→と：00512_to⟧{言明|げんめい}⟦する→する：00392_suru⟧: to state clearly\n- {言明|げんめい}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid making a clear statement\n- {言明|げんめい}⟦を→を：00422_wo⟧⟦{撤回|てっかい}→撤回：12910_tekkai⟧⟦する→する：00392_suru⟧: to retract a statement\n\nSIMILAR WORDS:\n- ⟦{声明|せいめい}→声明：03763_seimei⟧: statement, declaration — an official statement or announcement, often written; used for organizations\n- ⟦{断言|だんげん}→断言：12916_dangen⟧: assertion — emphasizes strong conviction; \"I say this with certainty\"\n- ⟦{明言|めいげん}→明言：13050_meigen⟧: clear statement — very close synonym; emphasizes clarity over formality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03763_seimei",
+      "reading": "せいめい",
+      "headword": "{声明|せいめい}",
+      "label": "statement, declaration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12916_dangen",
+      "reading": "だんげん",
+      "headword": "{断言|だんげん}",
+      "label": "assertion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13050_meigen",
+      "reading": "めいげん",
+      "headword": "{明言|めいげん}",
+      "label": "clear statement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T14:21:58Z",
-    "modified": "2026-04-06T14:21:58Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

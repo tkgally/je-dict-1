@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24327_hanbaimoto_ex1",
-      "japanese": "{販売元|はんばいもと}に{問|と}い{合|あ}わせた。",
+      "japanese": "{販売元|はんばいもと}⟦に→に：00314_ni⟧⟦{問|と}い{合|あ}わせた→問い合わせる：17737_toiawaseru⟧。",
       "english": "I contacted the seller.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24327_hanbaimoto_ex2",
-      "japanese": "この{商品|しょうひん}の{販売元|はんばいもと}はどこですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧{販売元|はんばいもと}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Who is the seller of this product?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24327_hanbaimoto_ex3",
-      "japanese": "{不良品|ふりょうひん}が{届|とど}いた{場合|ばあい}は、{販売元|はんばいもと}までご{連絡|れんらく}ください。",
+      "japanese": "⟦{不良品|ふりょうひん}→不良品：19452_furyouhin⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、{販売元|はんばいもと}⟦まで→まで：00490_made⟧ご⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you receive a defective product, please contact the seller.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Combines {販売|はんばい} (sales) and {元|もと} (source, origin). The {元|もと} suffix indicates the source or originating party — the entity from which the product comes.\n\nCOMMON COLLOCATIONS:\n- {販売元|はんばいもと}に{問|と}い{合|あ}わせる: to inquire with the seller\n- {販売元|はんばいもと}{情報|じょうほう}: seller information\n- {販売元|はんばいもと}{不明|ふめい}: seller unknown\n- {正規|せいき}{販売元|はんばいもと}: authorized distributor\n\nUSAGE:\nFrequently seen printed on product labels and packaging in Japan, often alongside {製造元|せいぞうもと} (manufacturer). The distinction matters: {製造元|せいぞうもと} is who made the product, while {販売元|はんばいもと} is who sells it — they are often different companies. Also appears on online shopping sites and in customer service contexts.\n\nRELATED {〜元|もと} COMPOUNDS:\n- {製造元|せいぞうもと}: manufacturer — the entity that made the product\n- {発売元|はつばいもと}: releasing company — the entity that puts a product on the market (especially for media, records, etc.)\n- {仕入|しい}れ{元|もと}: supplier — the entity from which goods are purchased for resale",
+  "notes": "Combines ⟦{販売|はんばい}→販売：03573_hanbai⟧ (sales) and ⟦{元|もと}→元：03878_moto⟧ (source, origin). The ⟦{元|もと}→元：03878_moto⟧ suffix indicates the source or originating party — the entity from which the product comes.\n\nCOMMON COLLOCATIONS:\n- {販売元|はんばいもと}⟦に→に：00314_ni⟧⟦{問|と}い{合|あ}わせる→問い合わせる：17737_toiawaseru⟧: to inquire with the seller\n- {販売元|はんばいもと}⟦{情報|じょうほう}→情報：03348_jouhou⟧: seller information\n- {販売元|はんばいもと}⟦{不明|ふめい}→不明：11352_fumei⟧: seller unknown\n- ⟦{正規|せいき}→正規：03776_seiki⟧{販売元|はんばいもと}: authorized distributor\n\nUSAGE:\nFrequently seen printed on product labels and packaging in Japan, often alongside ⟦{製造元|せいぞうもと}→製造元：15416_seizoumoto⟧ (manufacturer). The distinction matters: ⟦{製造元|せいぞうもと}→製造元：15416_seizoumoto⟧ is who made the product, while {販売元|はんばいもと} is who sells it — they are often different companies. Also appears on online shopping sites and in customer service contexts.\n\nRELATED {〜元|もと} COMPOUNDS:\n- ⟦{製造元|せいぞうもと}→製造元：15416_seizoumoto⟧: manufacturer — the entity that made the product\n- {発売元|はつばいもと}: releasing company — the entity that puts a product on the market (especially for media, records, etc.)\n- ⟦{仕入|しい}れ→仕入れ：07431_shiire⟧⟦{元|もと}→元：03878_moto⟧: supplier — the entity from which goods are purchased for resale",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15416_seizoumoto",
+      "reading": "せいぞうもと",
+      "headword": "{製造元|せいぞうもと}",
+      "label": "manufacturer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-18T14:27:20Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

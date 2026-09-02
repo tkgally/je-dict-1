@@ -3,7 +3,7 @@
   "headword": "ウィンク",
   "reading": "うぃんく",
   "romaji": "winku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "wink",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24408_winku_ex1",
-      "japanese": "{彼女|かのじょ}がウィンクをした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦が→が：00051_ga⟧ウィンク⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "She winked.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24408_winku_ex2",
-      "japanese": "カメラに{向|む}かってウィンクする。",
+      "japanese": "⟦カメラ→カメラ：04417_kamera⟧⟦に→に：00314_ni⟧⟦{向|む}かって→向かう：01186_mukau⟧ウィンク⟦する→する：00392_suru⟧。",
       "english": "To wink at the camera.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24408_winku_ex3",
-      "japanese": "アイドルがファンにウィンクを{飛|と}ばして{会場|かいじょう}が{盛|も}り{上|あ}がった。",
+      "japanese": "⟦アイドル→アイドル：05111_aidoru⟧⟦が→が：00051_ga⟧⟦ファン→ファン：10065_fan⟧⟦に→に：00314_ni⟧ウィンク⟦を→を：00422_wo⟧⟦{飛|と}ばして→飛ばす：02373_tobasu⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦が→が：00051_ga⟧⟦{盛|も}り{上|あ}がった→盛り上がる：06344_moriagaru⟧。",
       "english": "The idol blew a wink at the fans and the venue erupted with excitement.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"wink.\" In Japanese culture, winking is primarily associated with entertainment, anime, and idol performances rather than everyday interpersonal communication. It carries a playful, performative connotation.\n\nCOMMON COLLOCATIONS:\n- ウィンクをする: to wink\n- ウィンクを{飛|と}ばす: to blow/send a wink (from a distance)\n- {片目|かため}でウィンクする: to wink with one eye\n\nSIMILAR WORDS:\n- {目配|めくば}せ: a meaningful glance or eye signal — used for discreet, non-verbal communication between people\n\nCULTURAL NOTE:\nUnlike in Western cultures where winking can be a casual social gesture, in Japan it is more commonly seen in performances, photo poses, and anime/manga. Winking at a stranger in daily life would be unusual.",
+  "notes": "A loanword from English \"wink.\" In Japanese culture, winking is primarily associated with entertainment, anime, and idol performances rather than everyday interpersonal communication. It carries a playful, performative connotation.\n\nCOMMON COLLOCATIONS:\n- ウィンク⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to wink\n- ウィンク⟦を→を：00422_wo⟧⟦{飛|と}ばす→飛ばす：02373_tobasu⟧: to blow/send a wink (from a distance)\n- ⟦{片目|かため}→片目：20229_katame⟧⟦で→で：00502_de⟧ウィンク⟦する→する：00392_suru⟧: to wink with one eye\n\nSIMILAR WORDS:\n- ⟦{目配|めくば}せ→目配せ：18519_mekubase⟧: a meaningful glance or eye signal — used for discreet, non-verbal communication between people\n\nCULTURAL NOTE:\nUnlike in Western cultures where winking can be a casual social gesture, in Japan it is more commonly seen in performances, photo poses, and anime/manga. Winking at a stranger in daily life would be unusual.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,7 +61,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T09:15:38Z",
-    "modified": "2026-08-02T18:48:07Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",
@@ -160,6 +160,13 @@
       "reading": "まばたき",
       "headword": "{瞬|まばた}き",
       "label": "blink (both eyes)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18519_mekubase",
+      "reading": "めくばせ",
+      "headword": "{目配|めくば}せ",
+      "label": "a meaningful glance or eye signal"
     }
   ]
 }

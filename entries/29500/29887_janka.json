@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29887_janka_ex1",
-      "japanese": "できるじゃんか。",
+      "japanese": "⟦できる→できる：00557_dekiru⟧じゃんか。",
       "english": "See, you can do it!",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29887_janka_ex2",
-      "japanese": "さっき{言|い}ったじゃんか。",
+      "japanese": "⟦さっき→さっき：01264_sakki⟧⟦{言|い}った→言う：00515_iu⟧じゃんか。",
       "english": "I told you that just now, didn't I!",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29887_janka_ex3",
-      "japanese": "そんなの{最初|さいしょ}から{分|わ}かってたじゃんか。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦の→の：09472_no⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧⟦{分|わ}かっ→分かる：00463_wakaru⟧てたじゃんか。",
       "english": "Come on, you knew that from the start!",
       "sense_numbers": [
         1
@@ -44,11 +44,11 @@
       "notes": null
     }
   ],
-  "notes": "A very casual ending used among friends and family, not in polite speech. It presses a point the speaker considers obvious, often with mild reproach or an \"obviously\" feeling.\n\nFORMATION:\n- じゃない → じゃん (casual) → じゃんか (emphatic). Attaches to plain forms.\n\nRELATED:\n- じゃん: casual \"isn't it,\" without the extra insistence\n- じゃないか: the full, more neutral form\n- じゃないですか: the polite equivalent",
+  "notes": "A very casual ending used among friends and family, not in polite speech. It presses a point the speaker considers obvious, often with mild reproach or an \"obviously\" feeling.\n\nFORMS:\n- ⟦じゃない→じゃない：28483_janai⟧ → ⟦じゃん→じゃん：05432_jan⟧ (casual) → じゃんか (emphatic). Attaches to plain forms.\n\nRELATED WORDS:\n- ⟦じゃん→じゃん：05432_jan⟧: casual \"isn't it,\" without the extra insistence\n- ⟦じゃないか→じゃないか：29707_janaika⟧: the full, more neutral form\n- ⟦じゃない→じゃない：28483_janai⟧です⟦か→か：09473_ka⟧: the polite equivalent",
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-07-16T03:17:36Z",
-    "modified": "2026-08-30T12:18:09Z",
+    "modified": "2026-09-02T04:02:38Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -71,6 +71,13 @@
       "reading": "じゃん",
       "headword": "じゃん",
       "label": "the plain form without emphatic か"
+    },
+    {
+      "type": "related",
+      "target_id": "29707_janaika",
+      "reading": "じゃないか",
+      "headword": "じゃないか",
+      "label": "the full, more neutral form"
     }
   ]
 }

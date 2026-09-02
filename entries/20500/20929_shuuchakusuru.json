@@ -3,7 +3,7 @@
   "headword": "{執着|しゅうちゃく}する",
   "reading": "しゅうちゃくする",
   "romaji": "shuuchakusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to be attached to; to cling to; to be obsessed with",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20929_shuuchakusuru_ex1",
-      "japanese": "{過去|かこ}に{執着|しゅうちゃく}する。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦に→に：00314_ni⟧{執着|しゅうちゃく}する。",
       "english": "To cling to the past.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20929_shuuchakusuru_ex2",
-      "japanese": "{彼|かれ}は{結果|けっか}に{執着|しゅうちゃく}しすぎている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦に→に：00314_ni⟧{執着|しゅうちゃく}しすぎて⟦いる→いる：00495_iru⟧。",
       "english": "He is too obsessed with results.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20929_shuuchakusuru_ex3",
-      "japanese": "{一|ひと}つの{考|かんが}えに{執着|しゅうちゃく}せず、{柔軟|じゅうなん}に{対応|たいおう}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦の→の：09472_no⟧⟦{考|かんが}え→考え：00855_kangae⟧⟦に→に：00314_ni⟧{執着|しゅうちゃく}せず、⟦{柔軟|じゅうなん}→柔軟：13101_juunan⟧⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to respond flexibly without clinging to a single idea.",
       "sense_numbers": [
         1
@@ -44,9 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "A する verb meaning to be deeply attached to or fixated on something. Composed of {執|しゅう} (hold, grasp) + {着|ちゃく} (attach). Almost always carries a negative connotation, suggesting the attachment is excessive, stubborn, or harmful.\n\nPRONUNCIATION:\nAlso read しゅうじゃく, especially in Buddhist contexts where it refers to worldly attachment.\n\nCOMMON COLLOCATIONS:\n- {過去|かこ}に{執着|しゅうちゃく}する: to cling to the past\n- {結果|けっか}に{執着|しゅうちゃく}する: to be fixated on results\n- お{金|かね}に{執着|しゅうちゃく}する: to be obsessed with money\n- {地位|ちい}に{執着|しゅうちゃく}する: to cling to one's position\n\nSIMILAR WORDS:\n- {固執|こしつ}する: to insist on, to stick stubbornly to — focuses more on refusing to change\n- こだわる: to be particular about — can be positive (attention to quality) or negative\n- {未練|みれん}がある: to have lingering attachment — specifically about inability to give something up",
+  "notes": "A ⟦する→する：00392_suru⟧ verb meaning to be deeply attached to or fixated on something. Composed of {執|しゅう} (hold, grasp) + ⟦{着|ちゃく}→着：27655_chaku⟧ (attach). Almost always carries a negative connotation, suggesting the attachment is excessive, stubborn, or harmful.\n\nPRONUNCIATION:\nAlso read しゅう⟦じゃ→じゃ：03040_ja⟧く, especially in Buddhist contexts where it refers to worldly attachment.\n\nCOMMON COLLOCATIONS:\n- ⟦{過去|かこ}→過去：00152_kako⟧⟦に→に：00314_ni⟧{執着|しゅうちゃく}する: to cling to the past\n- ⟦{結果|けっか}→結果：02486_kekka⟧⟦に→に：00314_ni⟧{執着|しゅうちゃく}する: to be fixated on results\n- ⟦お{金|かね}→お金：00611_okane⟧⟦に→に：00314_ni⟧{執着|しゅうちゃく}する: to be obsessed with money\n- ⟦{地位|ちい}→地位：03427_chii⟧⟦に→に：00314_ni⟧{執着|しゅうちゃく}する: to cling to one's position\n\nSIMILAR WORDS:\n- ⟦{固執|こしつ}する→固執する：20930_koshitsusuru⟧: to insist on, to stick stubbornly to — focuses more on refusing to change\n- ⟦こだわる→こだわる：10319_kodawaru⟧: to be particular about — can be positive (attention to quality) or negative\n- ⟦{未練|みれん}→未練：04866_miren⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have lingering attachment — specifically about inability to give something up",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20930_koshitsusuru",
+      "reading": "こしつする",
+      "headword": "{固執|こしつ}する",
+      "label": "to insist on, to stick stubbornly to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10319_kodawaru",
+      "reading": "こだわる",
+      "headword": "こだわる",
+      "label": "to be particular about"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T21:34:08Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

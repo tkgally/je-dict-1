@@ -3,7 +3,7 @@
   "id": "16841_itoteki",
   "headword": "{意図的|いとてき}",
   "reading": "いとてき",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "intentional; deliberate; on purpose",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16841_itoteki_ex1",
-      "japanese": "それは{意図的|いとてき}にやったことだ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{意図的|いとてき}⟦に→に：00314_ni⟧⟦やった→やる：02980_yaru⟧ことだ。",
       "english": "That was done intentionally.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16841_itoteki_ex2",
-      "japanese": "{意図的|いとてき}に{情報|じょうほう}を{隠|かく}していたことが{発覚|はっかく}した。",
+      "japanese": "{意図的|いとてき}⟦に→に：00314_ni⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{隠|かく}していた→隠す：02034_kakusu⟧こと⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "It was discovered that the information was being deliberately concealed.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16841_itoteki_ex3",
-      "japanese": "{監督|かんとく}は{意図的|いとてき}に{若手|わかて}を{起用|きよう}して、チームの{世代交代|せだいこうたい}を{進|すす}めた。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦は→は：00079_ha⟧{意図的|いとてき}⟦に→に：00314_ni⟧⟦{若手|わかて}→若手：13989_wakate⟧⟦を→を：00422_wo⟧⟦{起用|きよう}→起用：14397_kiyou⟧⟦して→する：00392_suru⟧、⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{世代交代|せだいこうたい}→世代交代：20569_sedaikoutai⟧⟦を→を：00422_wo⟧⟦{進|すす}めた→進める：01949_susumeru⟧。",
       "english": "The coach deliberately put young players in the lineup to advance the team's generational change.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective ({意図的|いとてき}な) or adverb ({意図的|いとてき}に). Common in news, legal, and formal contexts.\n\nSIMILAR WORDS:\n- わざと is the casual, everyday equivalent\n- {故意|こい} is the legal/formal term meaning \"with intent\"\n- {意図的|いとてき} falls between the two in formality\n\nCOMMON COLLOCATIONS:\n- {意図的|いとてき}に{無視|むし}する (to deliberately ignore)\n- {意図的|いとてき}な{行為|こうい} (deliberate act)",
+  "notes": "USAGE:\nUsed as a na-adjective ({意図的|いとてき}な) or adverb ({意図的|いとてき}⟦に→に：00314_ni⟧). Common in news, legal, and formal contexts.\n\nSIMILAR WORDS:\n- ⟦わざと→わざと：03791_wazato⟧ is the casual, everyday equivalent\n- ⟦{故意|こい}→故意：16844_koi⟧ is the legal/formal term meaning \"with intent\"\n- {意図的|いとてき} falls between the two in formality\n\nCOMMON COLLOCATIONS:\n- {意図的|いとてき}⟦に→に：00314_ni⟧⟦{無視|むし}する→無視する：17288_mushisuru⟧ (to deliberately ignore)\n- {意図的|いとてき}な⟦{行為|こうい}→行為：10021_koui⟧ (deliberate act)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,25 @@
       "reading": "わざと",
       "headword": "わざと",
       "label": "on purpose (casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21003_keikakuteki",
+      "reading": "けいかくてき",
+      "headword": "{計画的|けいかくてき}",
+      "label": "planned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26074_koini",
+      "reading": "こいに",
+      "headword": "{故意|こい}に",
+      "label": "intentionally"
     }
   ],
   "metadata": {
     "created": "2026-03-14T13:04:37Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

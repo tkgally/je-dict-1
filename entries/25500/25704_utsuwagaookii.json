@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25704_utsuwagaookii_ex1",
-      "japanese": "あの{社長|しゃちょう}は{器|うつわ}が{大|おお}きい。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧{器|うつわ}が{大|おお}きい。",
       "english": "That company president is magnanimous.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25704_utsuwagaookii_ex2",
-      "japanese": "{器|うつわ}が{大|おお}きい{人|ひと}は{小|ちい}さなことで{怒|おこ}らない。",
+      "japanese": "{器|うつわ}が{大|おお}きい⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧こと⟦で→で：00502_de⟧⟦{怒|おこ}らない→怒る：00876_okoru⟧。",
       "english": "A big-hearted person doesn't get angry over small things.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25704_utsuwagaookii_ex3",
-      "japanese": "リーダーには{器|うつわ}が{大|おお}きい{人物|じんぶつ}が{求|もと}められる。",
+      "japanese": "⟦リーダー→リーダー：24312_riidaa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{器|うつわ}が{大|おお}きい⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Leaders are expected to be people of great personal capacity.",
       "sense_numbers": [
         1
@@ -44,13 +44,55 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"one's vessel is large.\" {器|うつわ} (vessel, container) is used metaphorically to mean a person's capacity or caliber. A person with a large {器|うつわ} can accommodate many people and situations. The opposite, {器|うつわ}が{小|ちい}さい, describes someone who is petty or narrow-minded.\n\nUSAGE:\nUsed as praise, typically for leaders or respected figures. Common in business and political contexts. Can also be used self-deprecatingly: {私|わたし}は{器|うつわ}が{小|ちい}さいから (I don't have the capacity for that).\n\nSIMILAR EXPRESSIONS:\n- {懐|ふところ}が{深|ふか}い — broad-minded; tolerant — emphasizes acceptance and openness\n- {度量|どりょう}が{大|おお}きい — magnanimous — more formal, similar meaning\n- {太|ふと}っ{腹|ぱら} — generous; big-hearted — more colloquial, often about spending money",
+  "notes": "Literally \"one's vessel is large.\" ⟦{器|うつわ}→器：11838_utsuwa⟧ (vessel, container) is used metaphorically to mean a person's capacity or caliber. A person with a large ⟦{器|うつわ}→器：11838_utsuwa⟧ can accommodate many people and situations. The opposite, ⟦{器|うつわ}が{小|ちい}さい→器が小さい：18883_utsuwagachiisai⟧, describes someone who is petty or narrow-minded.\n\nUSAGE:\nUsed as praise, typically for leaders or respected figures. Common in business and political contexts. Can also be used self-deprecatingly: ⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{器|うつわ}が{小|ちい}さい→器が小さい：18883_utsuwagachiisai⟧⟦から→から：00504_kara⟧ (I don't have the capacity for that).\n\nSIMILAR WORDS:\n- ⟦{懐|ふところ}が{深|ふか}い→懐が深い：25703_futokorogafukai⟧ — broad-minded; tolerant — emphasizes acceptance and openness\n- ⟦{度量|どりょう}→度量：21413_doryou⟧⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧ — magnanimous — more formal, similar meaning\n- ⟦{太|ふと}っ{腹|ぱら}→太っ腹：15692_futoppara⟧ — generous; big-hearted — more colloquial, often about spending money",
   "cross_references": [
     {
       "type": "related",
       "reading": "ふところがふかい",
       "description": "{懐|ふところ}が{深|ふか}い — broad-minded, tolerant",
       "target_id": "25703_futokorogafukai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15692_futoppara",
+      "reading": "ふとっぱら",
+      "headword": "{太|ふと}っ{腹|ぱら}",
+      "label": "generous"
+    },
+    {
+      "type": "related",
+      "target_id": "18883_utsuwagachiisai",
+      "reading": "うつわがちいさい",
+      "headword": "{器|うつわ}が{小|ちい}さい",
+      "label": "small-minded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20167_houyouryoku",
+      "reading": "ほうようりょく",
+      "headword": "{包容力|ほうようりょく}",
+      "label": "capacity to embrace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20972_kokorogahiroi",
+      "reading": "こころがひろい",
+      "headword": "{心|こころ}が{広|ひろ}い",
+      "label": "broad-minded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21413_doryou",
+      "reading": "どりょう",
+      "headword": "{度量|どりょう}",
+      "label": "magnanimity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25206_taido",
+      "reading": "たいど",
+      "headword": "{大度|たいど}",
+      "label": "magnanimity"
     }
   ],
   "schema_version": "2.0",
@@ -60,11 +102,12 @@
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "personality"
       ]
     },
     "created": "2026-04-26T16:29:19Z",
-    "modified": "2026-06-19T03:23:54Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

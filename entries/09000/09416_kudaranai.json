@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09416_kudaranai_ex1",
-      "japanese": "くだらない{話|はなし}だな。",
+      "japanese": "くだらない⟦{話|はなし}→話：01496_hanashi⟧だな。",
       "english": "What a pointless story.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "09416_kudaranai_ex2",
-      "japanese": "くだらないことに{時間|じかん}を{使|つか}うな。",
+      "japanese": "くだらないこと⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧な。",
       "english": "Don't waste time on trivial things.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "09416_kudaranai_ex3",
-      "japanese": "こんなくだらない{番組|ばんぐみ}{見|み}るなよ。",
+      "japanese": "⟦こんな→こんな：02881_konna⟧くだらない⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦{見|み}る→見る：00283_miru⟧な⟦よ→よ：09475_yo⟧。",
       "english": "Don't watch such a worthless show.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "09416_kudaranai_ex4",
-      "japanese": "くだらない{冗談|じょうだん}はやめろ。",
+      "japanese": "くだらない⟦{冗談|じょうだん}→冗談：03347_joudan⟧はやめろ。",
       "english": "Cut it out with the stupid jokes.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "09416_kudaranai_ex5",
-      "japanese": "{喧嘩|けんか}の{原因|げんいん}がくだらなすぎる。",
+      "japanese": "⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦が→が：00051_ga⟧くだらなすぎる。",
       "english": "The reason for the fight is too ridiculous.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "09416_kudaranai_ex6",
-      "japanese": "くだらないと{思|おも}いつつも{笑|わら}ってしまった。",
+      "japanese": "くだらない⟦と→と：00512_to⟧⟦{思|おも}い→思う：00492_omou⟧つつ⟦も→も：00484_mo⟧⟦{笑|わら}って→笑う：00685_warau⟧しまった。",
       "english": "I ended up laughing even though I thought it was silly.",
       "notes": null,
       "has_audio": false,
@@ -78,10 +78,10 @@
       ]
     }
   ],
-  "notes": "くだらない is a common word for dismissing something as worthless or stupid. Despite looking like a negative verb form, it functions as an i-adjective.\n\nEtymology: Derived from {下|くだ}る (to go down), possibly from the Edo-period phrase 「{下|くだ}らない{酒|さけ}」 (sake that doesn't come down from Kyoto, implying inferior quality).\n\nCasual contractions:\n- くだんない (very casual)\n\nCommon collocations:\n- くだらない{話|はなし} (pointless talk)\n- くだらない{質問|しつもん} (stupid question)\n- くだらない{理由|りゆう} (trivial reason)",
+  "notes": "くだらない is a common word for dismissing something as worthless or stupid. Despite looking like a negative verb form, it functions as an i-adjective.\n\nEtymology: Derived from ⟦{下|くだ}る→下る：03913_kudaru⟧ (to go down), possibly from the Edo-period phrase 「⟦{下|くだ}らない→下る：03913_kudaru⟧⟦{酒|さけ}→酒：02211_sake⟧」 (sake that doesn't come down from Kyoto, implying inferior quality).\n\nCasual contractions:\n- くだんない (very casual)\n\nCommon collocations:\n- くだらない⟦{話|はなし}→話：01496_hanashi⟧ (pointless talk)\n- くだらない⟦{質問|しつもん}→質問：00888_shitsumon⟧ (stupid question)\n- くだらない⟦{理由|りゆう}→理由：01102_riyuu⟧ (trivial reason)",
   "metadata": {
     "created": "2026-02-01T11:09:41Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -147,6 +147,20 @@
       "reading": "しょうもない",
       "headword": "しょうもない",
       "label": "worthless, lame"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21007_rokudemonai",
+      "reading": "ろくでもない",
+      "headword": "ろくでもない",
+      "label": "good-for-nothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27091_torunitaranai",
+      "reading": "とるにたらない",
+      "headword": "{取|と}るに{足|た}らない",
+      "label": "insignificant"
     }
   ]
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13078_yuuji_ex1",
-      "japanese": "{有事|ゆうじ}に{備|そな}える。",
+      "japanese": "{有事|ゆうじ}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧。",
       "english": "To prepare for an emergency.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13078_yuuji_ex2",
-      "japanese": "{有事|ゆうじ}の{際|さい}には{国民|こくみん}の{安全|あんぜん}を{最優先|さいゆうせん}する。",
+      "japanese": "{有事|ゆうじ}⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧⟦{最優先|さいゆうせん}→最優先：13012_saiyuusen⟧⟦する→する：00392_suru⟧。",
       "english": "In the event of a crisis, the safety of citizens takes top priority.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13078_yuuji_ex3",
-      "japanese": "{政府|せいふ}は{有事|ゆうじ}{法制|ほうせい}を{整備|せいび}し、{緊急|きんきゅう}{事態|じたい}への{対応|たいおう}{体制|たいせい}を{強化|きょうか}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{有事|ゆうじ}{法制|ほうせい}⟦を→を：00422_wo⟧⟦{整備|せいび}→整備：04037_seibi⟧し、⟦{緊急|きんきゅう}{事態|じたい}→緊急事態：16936_kinkyuujitai⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦{体制|たいせい}→体制：04490_taisei⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}した→強化する：25344_kyoukasuru⟧。",
       "english": "The government put emergency legislation in place and strengthened its response framework for crisis situations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{有事|ゆうじ} is a formal word used primarily in political, military, and legal contexts. It implies a serious national-level crisis, especially armed conflict or war. The antonym {平時|へいじ} means \"peacetime\" or \"normal times.\"\n\nThe term {有事|ゆうじ}{法制|ほうせい} (emergency legislation) is an important concept in Japanese politics, referring to laws that define how the government responds to military threats.\n\nCOMMON COLLOCATIONS:\n- {有事|ゆうじ}に{備|そな}える: to prepare for an emergency\n- {有事|ゆうじ}の{際|さい}: in the event of an emergency\n- {有事|ゆうじ}{法制|ほうせい}: emergency legislation\n- {有事|ゆうじ}{対応|たいおう}: crisis response",
+  "notes": "USAGE:\n{有事|ゆうじ} is a formal word used primarily in political, military, and legal contexts. It implies a serious national-level crisis, especially armed conflict or war. The antonym ⟦{平時|へいじ}→平時：19771_heiji⟧ means \"peacetime\" or \"normal times.\"\n\nThe term {有事|ゆうじ}{法制|ほうせい} (emergency legislation) is an important concept in Japanese politics, referring to laws that define how the government responds to military threats.\n\nCOMMON COLLOCATIONS:\n- {有事|ゆうじ}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧: to prepare for an emergency\n- {有事|ゆうじ}⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧: in the event of an emergency\n- {有事|ゆうじ}{法制|ほうせい}: emergency legislation\n- {有事|ゆうじ}⟦{対応|たいおう}→対応：02510_taiou⟧: crisis response",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,39 @@
       "reading": "へいじ",
       "headword": "{平時|へいじ}",
       "label": "peacetime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16936_kinkyuujitai",
+      "reading": "きんきゅうじたい",
+      "headword": "{緊急事態|きんきゅうじたい}",
+      "label": "state of emergency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30241_hijouji",
+      "reading": "ひじょうじ",
+      "headword": "{非常時|ひじょうじ}",
+      "label": "emergency"
     }
   ],
   "metadata": {
     "created": "2026-02-23T10:41:31Z",
-    "modified": "2026-04-28T04:13:10Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["society"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "society"
+      ]
     }
   }
 }

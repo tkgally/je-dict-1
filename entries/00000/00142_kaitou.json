@@ -2,7 +2,7 @@
   "id": "00142_kaitou",
   "headword": "{回答|かいとう}",
   "reading": "かいとう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reply, response, answer",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,46 @@
       "headword": "{解答|かいとう}",
       "label": "solution",
       "target_id": "00447_kaitou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00844_henji",
+      "reading": "へんじ",
+      "headword": "{返事|へんじ}",
+      "label": "reply, answer"
+    },
+    {
+      "type": "related",
+      "target_id": "00888_shitsumon",
+      "reading": "しつもん",
+      "headword": "{質問|しつもん}",
+      "label": "question"
+    },
+    {
+      "type": "related",
+      "target_id": "03451_touan",
+      "reading": "とうあん",
+      "headword": "{答案|とうあん}",
+      "label": "answer sheet, exam paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10440_hentou",
+      "reading": "へんとう",
+      "headword": "{返答|へんとう}",
+      "label": "reply, answer, response"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12685_outou",
+      "reading": "おうとう",
+      "headword": "{応答|おうとう}",
+      "label": "response, reply, answer"
     }
   ],
   "metadata": {
     "created": "2026-01-13T12:17:38Z",
-    "modified": "2026-05-09T17:14:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

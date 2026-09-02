@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29651_tankyorimisairu_ex1",
-      "japanese": "{短距離|たんきょり}ミサイルを{発射|はっしゃ}した。",
+      "japanese": "{短距離|たんきょり}ミサイル⟦を→を：00422_wo⟧⟦{発射|はっしゃ}した→発射する：21027_hasshasuru⟧。",
       "english": "They launched a short-range missile.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29651_tankyorimisairu_ex2",
-      "japanese": "{短距離|たんきょり}ミサイルは{近|ちか}い{目標|もくひょう}を{狙|ねら}う。",
+      "japanese": "{短距離|たんきょり}ミサイル⟦は→は：00079_ha⟧⟦{近|ちか}い→近い：00530_chikai⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧⟦{狙|ねら}う→狙う：00313_nerau⟧。",
       "english": "Short-range missiles are aimed at nearby targets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29651_tankyorimisairu_ex3",
-      "japanese": "{今回|こんかい}{発射|はっしゃ}されたのは、{射程|しゃてい}の{短|みじか}い{短距離|たんきょり}ミサイルだとみられる。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦{発射|はっしゃ}→発射：03695_hassha⟧⟦された→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、{射程|しゃてい}⟦の→の：09472_no⟧⟦{短|みじか}い→短い：00510_mijikai⟧{短距離|たんきょり}ミサイルだとみられる。",
       "english": "The missile launched this time is believed to be a short-range one with a limited firing range.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {短距離|たんきょり} (short distance) and ミサイル (missile). One of the standard range categories used in news coverage of missile tests and defense policy.\n\nCOMMON COLLOCATIONS:\n- {短距離|たんきょり}ミサイルを{発射|はっしゃ}する: to launch a short-range missile\n- {短距離|たんきょり}{弾道|だんどう}ミサイル: a short-range ballistic missile\n- {複数|ふくすう}の{短距離|たんきょり}ミサイル: multiple short-range missiles\n\nSIMILAR WORDS:\n- {長距離|ちょうきょり}ミサイル: long-range missile — reaches far more distant targets\n- {中距離|ちゅうきょり}ミサイル: medium-range missile — the intermediate range category",
+  "notes": "A compound of ⟦{短距離|たんきょり}→短距離：09270_tankyori⟧ (short distance) and ⟦ミサイル→ミサイル：26959_misairu⟧ (missile). One of the standard range categories used in news coverage of missile tests and defense policy.\n\nCOMMON COLLOCATIONS:\n- {短距離|たんきょり}ミサイル⟦を→を：00422_wo⟧⟦{発射|はっしゃ}する→発射する：21027_hasshasuru⟧: to launch a short-range missile\n- ⟦{短距離|たんきょり}→短距離：09270_tankyori⟧{弾道|だんどう}⟦ミサイル→ミサイル：26959_misairu⟧: a short-range ballistic missile\n- ⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧{短距離|たんきょり}ミサイル: multiple short-range missiles\n\nSIMILAR WORDS:\n- ⟦{長距離|ちょうきょり}ミサイル→長距離ミサイル：29652_choukyorimisairu⟧: long-range missile — reaches far more distant targets\n- ⟦{中距離|ちゅうきょり}→中距離：22985_chuukyori⟧⟦ミサイル→ミサイル：26959_misairu⟧: medium-range missile — the intermediate range category",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29652_choukyorimisairu",
+      "reading": "ちょうきょりみさいる",
+      "headword": "長距離ミサイル",
+      "label": "long-range missile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["military"],
+      "politeness": "plain",
+      "semantic": [
+        "military"
+      ],
       "domain": []
     },
     "created": "2026-07-03T00:20:10Z",
-    "modified": "2026-07-03T00:20:10Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

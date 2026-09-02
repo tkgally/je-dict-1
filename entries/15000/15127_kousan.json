@@ -3,7 +3,7 @@
   "id": "15127_kousan",
   "headword": "{降参|こうさん}",
   "reading": "こうさん",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "surrender; giving in; giving up",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15127_kousan_ex1",
-      "japanese": "もう{降参|こうさん}だ！",
+      "japanese": "⟦もう→もう：00602_mou⟧{降参|こうさん}だ！",
       "english": "I give up!",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15127_kousan_ex2",
-      "japanese": "この{暑|あつ}さには{降参|こうさん}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{降参|こうさん}⟦した→する：00392_suru⟧。",
       "english": "I surrendered to this heat.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15127_kousan_ex3",
-      "japanese": "{何度|なんど}{挑戦|ちょうせん}しても{解|と}けない{問題|もんだい}に、とうとう{降参|こうさん}した。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦{挑戦|ちょうせん}して→挑戦する：21602_chousensuru⟧⟦も→も：00484_mo⟧⟦{解|と}けない→解ける：04371_tokeru⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧、⟦とうとう→とうとう：00900_toutou⟧{降参|こうさん}⟦した→する：00392_suru⟧。",
       "english": "I finally gave up on the problem that I couldn't solve no matter how many times I tried.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{降参|こうさん} can express both literal surrender (in battle, competition) and figurative giving up (to heat, difficulty, a persistent person). In casual speech, もう{降参|こうさん}だ！ is a common way to express that one has had enough.\n\nCOMMON COLLOCATIONS:\n- {降参|こうさん}する (to surrender, to give in)\n- もう{降参|こうさん}だ (I give up already)\n- {降参|こうさん}させる (to make someone give in)\n- {暑|あつ}さに{降参|こうさん}する (to be defeated by the heat)",
-  "cross_references": [],
+  "notes": "USAGE:\n{降参|こうさん} can express both literal surrender (in battle, competition) and figurative giving up (to heat, difficulty, a persistent person). In casual speech, ⟦もう→もう：00602_mou⟧{降参|こうさん}だ！ is a common way to express that one has had enough.\n\nCOMMON COLLOCATIONS:\n- {降参|こうさん}⟦する→する：00392_suru⟧ (to surrender, to give in)\n- ⟦もう→もう：00602_mou⟧{降参|こうさん}だ (I give up already)\n- {降参|こうさん}⟦させる→する：00392_suru⟧ (to make someone give in)\n- ⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦に→に：00314_ni⟧{降参|こうさん}⟦する→する：00392_suru⟧ (to be defeated by the heat)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19468_toukou",
+      "reading": "とうこう",
+      "headword": "{投降|とうこう}",
+      "label": "surrender"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T07:55:27Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +160,8 @@
         "action",
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

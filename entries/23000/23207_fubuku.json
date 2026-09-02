@@ -3,7 +3,7 @@
   "headword": "{吹雪|ふぶ}く",
   "reading": "ふぶく",
   "romaji": "fubuku",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to blow a blizzard; to snow heavily with wind",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23207_fubuku_ex1",
-      "japanese": "{外|そと}は{吹雪|ふぶ}いている。",
+      "japanese": "⟦{外|そと}→外：00671_soto⟧⟦は→は：00079_ha⟧{吹雪|ふぶ}いて⟦いる→いる：00495_iru⟧。",
       "english": "It's blowing a blizzard outside.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23207_fubuku_ex2",
-      "japanese": "{吹雪|ふぶ}いて{前|まえ}が{見|み}えない。",
+      "japanese": "{吹雪|ふぶ}いて⟦{前|まえ}→前：02255_mae⟧⟦が→が：00051_ga⟧⟦{見|み}えない→見える：01165_mieru⟧。",
       "english": "The blizzard is so bad I can't see ahead.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23207_fubuku_ex3",
-      "japanese": "{山|やま}の{上|うえ}では{朝|あさ}から{激|はげ}しく{吹雪|ふぶ}いていたので、{登山|とざん}を{中止|ちゅうし}した。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧⟦{激|はげ}しく→激しい：02348_hageshii⟧{吹雪|ふぶ}いて⟦いた→いる：00495_iru⟧⟦の→の：09472_no⟧で、⟦{登山|とざん}→登山：03457_tozan⟧⟦を→を：00422_wo⟧⟦{中止|ちゅうし}した→中止する：21909_chuushisuru⟧。",
       "english": "It had been blowing a fierce blizzard on the mountain since morning, so we called off the climb.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The verb form of the noun {吹雪|ふぶき} (blizzard). Used impersonally to describe weather conditions, similar to how English uses \"it's snowing\" or \"it's blowing.\"\n\nCOMMON COLLOCATIONS:\n- {激|はげ}しく{吹雪|ふぶ}く: to blow a fierce blizzard\n- {吹雪|ふぶ}き{始|はじ}める: to start blizzarding\n- {一日中|いちにちじゅう}{吹雪|ふぶ}いていた: it was a blizzard all day\n\nRELATED TERMS:\n- {吹雪|ふぶき}: blizzard (noun)\n- {雪|ゆき}が{降|ふ}る: to snow (without strong wind)\n- {猛吹雪|もうふぶき}: severe blizzard",
+  "notes": "The verb form of the noun ⟦{吹雪|ふぶき}→吹雪：00040_fubuki⟧ (blizzard). Used impersonally to describe weather conditions, similar to how English uses \"it's snowing\" or \"it's blowing.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{激|はげ}しく→激しい：02348_hageshii⟧{吹雪|ふぶ}く: to blow a fierce blizzard\n- {吹雪|ふぶ}き{始|はじ}める: to start blizzarding\n- ⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧{吹雪|ふぶ}いて⟦いた→いる：00495_iru⟧: it was a blizzard all day\n\nRELATED WORDS:\n- ⟦{吹雪|ふぶき}→吹雪：00040_fubuki⟧: blizzard (noun)\n- ⟦{雪|ゆき}→雪：00584_yuki⟧⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: to snow (without strong wind)\n- ⟦{猛吹雪|もうふぶき}→猛吹雪：21266_moufubuki⟧: severe blizzard",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21266_moufubuki",
+      "reading": "もうふぶき",
+      "headword": "{猛吹雪|もうふぶき}",
+      "label": "severe blizzard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +70,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-04-10T03:39:39Z",
-    "modified": "2026-04-10T03:39:39Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "godan",

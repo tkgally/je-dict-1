@@ -3,7 +3,7 @@
   "headword": "{清涼|せいりょう}",
   "reading": "せいりょう",
   "romaji": "seiryou",
-  "part_of_speech": "な-adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "cool and refreshing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21351_seiryou_ex1",
-      "japanese": "{清涼|せいりょう}な{風|かぜ}が{吹|ふ}いた。",
+      "japanese": "{清涼|せいりょう}な⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{吹|ふ}いた→吹く：02445_fuku⟧。",
       "english": "A cool, refreshing breeze blew.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21351_seiryou_ex2",
-      "japanese": "{清涼|せいりょう}{飲料水|いんりょうすい}を{買|か}った。",
+      "japanese": "{清涼|せいりょう}{飲料水|いんりょうすい}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a refreshing soft drink.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21351_seiryou_ex3",
-      "japanese": "{山|やま}の{空気|くうき}は{清涼|せいりょう}で、{都会|とかい}の{疲|つか}れが{一気|いっき}に{吹|ふ}き{飛|と}んだ。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦は→は：00079_ha⟧{清涼|せいりょう}で、⟦{都会|とかい}→都会：02475_tokai⟧⟦の→の：09472_no⟧⟦{疲|つか}れ→疲れ：03518_tsukare⟧⟦が→が：00051_ga⟧⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧⟦{吹|ふ}き{飛|と}んだ→吹き飛ぶ：11842_fukitobu⟧。",
       "english": "The mountain air was cool and refreshing, and the fatigue of city life vanished all at once.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Conveys a clean, pure coolness that is invigorating rather than merely cold. Most commonly encountered in the compound {清涼飲料水|せいりょういんりょうすい} (soft drinks/refreshing beverages), which is an official product category in Japan. As a standalone adjective, it has a somewhat literary or formal tone.\n\nCOMMON COLLOCATIONS:\n- {清涼飲料水|せいりょういんりょうすい}: soft drink, refreshing beverage\n- {清涼|せいりょう}{感|かん}: refreshing sensation\n- {清涼|せいりょう}な{空気|くうき}: crisp, fresh air\n- {清涼|せいりょう}な{風|かぜ}: refreshing breeze\n\nSIMILAR WORDS:\n- {爽|さわ}やか: refreshing, invigorating — more common in everyday speech and broader in usage\n- {涼|すず}しい: cool — describes temperature directly, less emphasis on purity\n- {冷涼|れいりょう}: cool (climate) — used mainly for weather and climate descriptions",
+  "notes": "Conveys a clean, pure coolness that is invigorating rather than merely cold. Most commonly encountered in the compound ⟦{清涼飲料水|せいりょういんりょうすい}→清涼飲料水：17030_seiryouinryousui⟧ (soft drinks/refreshing beverages), which is an official product category in Japan. As a standalone adjective, it has a somewhat literary or formal tone.\n\nCOMMON COLLOCATIONS:\n- ⟦{清涼飲料水|せいりょういんりょうすい}→清涼飲料水：17030_seiryouinryousui⟧: soft drink, refreshing beverage\n- {清涼|せいりょう}{感|かん}: refreshing sensation\n- {清涼|せいりょう}な⟦{空気|くうき}→空気：01390_kuuki⟧: crisp, fresh air\n- {清涼|せいりょう}な⟦{風|かぜ}→風：00641_kaze⟧: refreshing breeze\n\nSIMILAR WORDS:\n- ⟦{爽|さわ}やか→爽やか：05701_sawayaka⟧: refreshing, invigorating — more common in everyday speech and broader in usage\n- ⟦{涼|すず}しい→涼しい：00674_suzushii⟧: cool — describes temperature directly, less emphasis on purity\n- {冷涼|れいりょう}: cool (climate) — used mainly for weather and climate descriptions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05701_sawayaka",
+      "reading": "さわやか",
+      "headword": "{爽|さわ}やか",
+      "label": "refreshing, invigorating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00674_suzushii",
+      "reading": "すずしい",
+      "headword": "{涼|すず}しい",
+      "label": "cool"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-02T01:35:32Z",
-    "modified": "2026-07-29T12:37:23Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

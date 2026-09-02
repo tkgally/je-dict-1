@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29994_bonobo_ex1",
-      "japanese": "{動物園|どうぶつえん}でボノボを{見|み}た。",
+      "japanese": "⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦で→で：00502_de⟧ボノボ⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw a bonobo at the zoo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29994_bonobo_ex2",
-      "japanese": "ボノボはチンパンジーによく{似|に}ている。",
+      "japanese": "ボノボ⟦は→は：00079_ha⟧⟦チンパンジー→チンパンジー：06560_chinpanjii⟧⟦に→に：00314_ni⟧⟦よく→よく：00601_yoku⟧⟦{似|に}ている→似る：01159_niru⟧。",
       "english": "Bonobos closely resemble chimpanzees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29994_bonobo_ex3",
-      "japanese": "ボノボは{平和|へいわ}{的|てき}な{性格|せいかく}で{知|し}られている。",
+      "japanese": "ボノボ⟦は→は：00079_ha⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦{的|てき}→〜的：09839_teki⟧な⟦{性格|せいかく}→性格：03371_seikaku⟧⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Bonobos are known for their peaceful temperament.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A great ape (Pan paniscus) found only in the Democratic Republic of the Congo. Once called the 'pygmy chimpanzee,' it is slighter and more peaceable than the common chimpanzee.\n\nSIMILAR WORDS:\n- チンパンジー: chimpanzee — the closest relative; larger and more aggressive\n- ゴリラ: gorilla — a bigger, more distantly related great ape",
+  "notes": "A great ape (Pan paniscus) found only in the Democratic Republic of the Congo. Once called the 'pygmy chimpanzee,' it is slighter and more peaceable than the common chimpanzee.\n\nSIMILAR WORDS:\n- ⟦チンパンジー→チンパンジー：06560_chinpanjii⟧: chimpanzee — the closest relative; larger and more aggressive\n- ⟦ゴリラ→ゴリラ：06513_gorira⟧: gorilla — a bigger, more distantly related great ape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06560_chinpanjii",
+      "reading": "ちんぱんじー",
+      "headword": "チンパンジー",
+      "label": "chimpanzee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06513_gorira",
+      "reading": "ごりら",
+      "headword": "ゴリラ",
+      "label": "gorilla"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-mammal"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-mammal"
+      ],
       "domain": []
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-07-21T00:17:50Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

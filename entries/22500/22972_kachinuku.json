@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22972_kachinuku_ex1",
-      "japanese": "{予選|よせん}を{勝|か}ち{抜|ぬ}く。",
+      "japanese": "⟦{予選|よせん}→予選：04745_yosen⟧⟦を→を：00422_wo⟧{勝|か}ち{抜|ぬ}く。",
       "english": "To win through the preliminary rounds.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22972_kachinuku_ex2",
-      "japanese": "{厳|きび}しい{競争|きょうそう}を{勝|か}ち{抜|ぬ}いて{優勝|ゆうしょう}した。",
+      "japanese": "⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{競争|きょうそう}→競争：01388_kyousou⟧⟦を→を：00422_wo⟧{勝|か}ち{抜|ぬ}いて⟦{優勝|ゆうしょう}した→優勝する：25496_yuushousuru⟧。",
       "english": "They won through the fierce competition and took the championship.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22972_kachinuku_ex3",
-      "japanese": "この{業界|ぎょうかい}で{勝|か}ち{抜|ぬ}くためには、{常|つね}に{新|あたら}しいアイデアが{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦で→で：00502_de⟧{勝|か}ち{抜|ぬ}く⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦アイデア→アイデア：10161_aidea⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "To survive in this industry, you always need new ideas.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {勝|か}つ (to win) and {抜|ぬ}く (to go through to the end). The {抜|ぬ}く element adds the nuance of continuing through to completion — not just winning once, but winning repeatedly to reach the final goal.\n\nCOMMON COLLOCATIONS:\n- {予選|よせん}を{勝|か}ち{抜|ぬ}く: to win through the preliminaries\n- {競争|きょうそう}を{勝|か}ち{抜|ぬ}く: to survive the competition\n- {選挙|せんきょ}を{勝|か}ち{抜|ぬ}く: to win through an election\n- {勝|か}ち{抜|ぬ}き{戦|せん}: elimination tournament; knockout competition\n\nSIMILAR WORDS:\n- {勝|か}ち{残|のこ}る: to win and survive — emphasizes surviving rather than advancing\n- {勝|か}ち{進|すす}む: to advance by winning — emphasizes forward progress through brackets\n- {生|い}き{残|のこ}る: to survive — broader, not limited to competition\n\nGRAMMAR:\nGodan verb (く row). The noun form {勝|か}ち{抜|ぬ}き is commonly used as a modifier: {勝|か}ち{抜|ぬ}き{戦|せん} (knockout tournament).",
+  "notes": "A compound verb formed from ⟦{勝|か}つ→勝つ：01199_katsu⟧ (to win) and ⟦{抜|ぬ}く→抜く：02384_nuku⟧ (to go through to the end). The ⟦{抜|ぬ}く→抜く：02384_nuku⟧ element adds the nuance of continuing through to completion — not just winning once, but winning repeatedly to reach the final goal.\n\nCOMMON COLLOCATIONS:\n- ⟦{予選|よせん}→予選：04745_yosen⟧⟦を→を：00422_wo⟧{勝|か}ち{抜|ぬ}く: to win through the preliminaries\n- ⟦{競争|きょうそう}→競争：01388_kyousou⟧⟦を→を：00422_wo⟧{勝|か}ち{抜|ぬ}く: to survive the competition\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦を→を：00422_wo⟧{勝|か}ち{抜|ぬ}く: to win through an election\n- {勝|か}ち{抜|ぬ}き⟦{戦|せん}→〜戦：28346_sen⟧: elimination tournament; knockout competition\n\nSIMILAR WORDS:\n- {勝|か}ち{残|のこ}る: to win and survive — emphasizes surviving rather than advancing\n- {勝|か}ち{進|すす}む: to advance by winning — emphasizes forward progress through brackets\n- ⟦{生|い}き{残|のこ}る→生き残る：13521_ikinokoru⟧: to survive — broader, not limited to competition\n\nCOMMON PATTERNS:\nGodan verb (く row). The noun form {勝|か}ち{抜|ぬ}き is commonly used as a modifier: {勝|か}ち{抜|ぬ}き⟦{戦|せん}→〜戦：28346_sen⟧ (knockout tournament).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13521_ikinokoru",
+      "reading": "いきのこる",
+      "headword": "{生|い}き{残|のこ}る",
+      "label": "to survive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,11 +63,15 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "evaluation"],
-      "verb_class": "godan-ku"
+      "semantic": [
+        "action",
+        "evaluation"
+      ],
+      "verb_class": "godan-ku",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T14:16:12Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "godan",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09310_suppin_ex1",
-      "japanese": "{今日|きょう}はすっぴんだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧すっぴんだ。",
       "english": "I'm not wearing makeup today.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09310_suppin_ex2",
-      "japanese": "すっぴんでも{可愛|かわい}い。",
+      "japanese": "すっぴん⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{可愛|かわい}い。",
       "english": "She's cute even without makeup.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09310_suppin_ex3",
-      "japanese": "すっぴんを{見|み}せるのは{恥|は}ずかしい。",
+      "japanese": "すっぴん⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{恥|は}ずかしい→恥ずかしい：00843_hazukashii⟧。",
       "english": "I'm embarrassed to show my bare face.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,26 @@
       ]
     }
   ],
-  "notes": "すっぴん is a casual word primarily used in conversation about cosmetics and appearance. It may come from {素|す} (bare/plain) + ぴん (from ピンク or other cosmetic terminology).\n\nREGISTER:\nThis is casual/colloquial language. In more formal contexts, use {素顔|すがお} (natural face) or ノーメイク.\n\nCOMMON PATTERNS:\n- すっぴんで: without makeup\n- すっぴん{美人|びじん}: a natural beauty\n- すっぴんを{見|み}せる: to show one's bare face",
+  "notes": "すっぴん is a casual word primarily used in conversation about cosmetics and appearance. It may come from {素|す} (bare/plain) + ⟦ぴん→ピン：00344_pin⟧ (from ⟦ピンク→ピンク：04718_pinku⟧ or other cosmetic terminology).\n\nREGISTER:\nThis is casual/colloquial language. In more formal contexts, use ⟦{素顔|すがお}→素顔：13802_sugao⟧ (natural face) or ノーメイク.\n\nCOMMON PATTERNS:\n- すっぴん⟦で→で：00502_de⟧: without makeup\n- すっぴん⟦{美人|びじん}→美人：01600_bijin⟧: a natural beauty\n- すっぴん⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧: to show one's bare face",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20256_suhada",
+      "reading": "すはだ",
+      "headword": "{素肌|すはだ}",
+      "label": "bare skin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25097_jigao",
+      "reading": "じがお",
+      "headword": "{地顔|じがお}",
+      "label": "natural face"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:11:10Z",
-    "modified": "2026-02-01T07:11:10Z",
+    "modified": "2026-09-02T04:01:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22532_mizuabi_ex1",
-      "japanese": "{子|こ}どもたちが{水浴|みずあ}びをしている。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{水浴|みずあ}び⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "The children are splashing around in the water.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22532_mizuabi_ex2",
-      "japanese": "{暑|あつ}い{日|ひ}に{庭|にわ}で{水浴|みずあ}びをした。",
+      "japanese": "⟦{暑|あつ}い→暑い：00619_atsui⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦で→で：00502_de⟧{水浴|みずあ}び⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I splashed water on myself in the garden on a hot day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22532_mizuabi_ex3",
-      "japanese": "{小鳥|ことり}が{水|みず}たまりで{気持|きも}ちよさそうに{水浴|みずあ}びをしていた。",
+      "japanese": "⟦{小鳥|ことり}→小鳥：01590_kotori⟧⟦が→が：00051_ga⟧⟦{水|みず}たまり→水たまり：19427_mizutamari⟧⟦で→で：00502_de⟧{気持|きも}ちよさそう⟦に→に：00314_ni⟧{水浴|みずあ}び⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "A small bird was happily bathing in a puddle.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {水|みず} (water) + {浴|あ}び (bathing), from the verb {浴|あ}びる (to bathe in, to pour over oneself). The word evokes a casual, refreshing image — splashing water over the body rather than soaking in a bath. Often associated with summer activities.\n\nCOMMON COLLOCATIONS:\n- {水浴|みずあ}びをする: to bathe in water, to splash in water\n- {水浴|みずあ}び{場|ば}: place for bathing, swimming spot\n- {冷|つめ}たい{水浴|みずあ}び: cold water bath\n\nSIMILAR WORDS:\n- {行水|ぎょうずい}: bathing using a tub of water — a traditional summer practice\n- {水泳|すいえい}: swimming — organized swimming as exercise or sport\n- {水遊|みずあそ}び: water play — playing with water, especially children",
+  "notes": "Composed of ⟦{水|みず}→水：02258_mizu⟧ (water) + ⟦{浴|あ}び→浴びる：02844_abiru⟧ (bathing), from the verb ⟦{浴|あ}びる→浴びる：02844_abiru⟧ (to bathe in, to pour over oneself). The word evokes a casual, refreshing image — splashing water over the body rather than soaking in a bath. Often associated with summer activities.\n\nCOMMON COLLOCATIONS:\n- {水浴|みずあ}び⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to bathe in water, to splash in water\n- {水浴|みずあ}び⟦{場|ば}→場：03699_ba⟧: place for bathing, swimming spot\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧{水浴|みずあ}び: cold water bath\n\nSIMILAR WORDS:\n- {行水|ぎょうずい}: bathing using a tub of water — a traditional summer practice\n- ⟦{水泳|すいえい}→水泳：01623_suiei⟧: swimming — organized swimming as exercise or sport\n- ⟦{水遊|みずあそ}び→水遊び：30257_mizuasobi⟧: water play — playing with water, especially children",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01623_suiei",
+      "reading": "すいえい",
+      "headword": "{水泳|すいえい}",
+      "label": "swimming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30257_mizuasobi",
+      "reading": "みずあそび",
+      "headword": "{水遊|みずあそ}び",
+      "label": "water play"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-06T17:27:10Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

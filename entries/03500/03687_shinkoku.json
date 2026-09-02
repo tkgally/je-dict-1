@@ -2,7 +2,7 @@
   "id": "03687_shinkoku",
   "headword": "{申告|しんこく}",
   "reading": "しんこく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "declaration, report, filing",
   "conjugation": {
     "type": "suru",
@@ -139,7 +139,7 @@
     },
     {
       "id": "03687_shinkoku_ex4",
-      "japanese": "⟦{確定|かくてい}{申告|しんこく}→確定申告：04902_kakuteishinkoku⟧⟦の→の：09472_no⟧⟦{期限|きげん}→期限：12861_kigen⟧⟦は→は：00079_ha⟧3{月|がつ}15{日|にち}⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{確定|かくてい}{申告|しんこく}→確定申告：04902_kakuteishinkoku⟧⟦の→の：09472_no⟧⟦{期限|きげん}→期限：12861_kigen⟧⟦は→は：00079_ha⟧3⟦{月|がつ}→月：30418_gatsu⟧15⟦{日|にち}→日：12732_nichi⟧⟦だ→だ：09496_da⟧。",
       "english": "The deadline for filing tax returns is March 15th.",
       "notes": "⟦{確定|かくてい}{申告|しんこく}→確定申告：04902_kakuteishinkoku⟧ = final tax return",
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{申告|しんこく} refers to formally reporting or declaring information to an authority. Most commonly encountered in tax and customs contexts.\n\nWORD FORMATION:\n{申|しん} (state, report) + {告|こく} (tell, announce)\n\nCOMMON COLLOCATIONS:\n・⟦{確定|かくてい}{申告|しんこく}→確定申告：04902_kakuteishinkoku⟧ (final tax return, filed annually)\n・⟦{税関|ぜいかん}→税関：04380_zeikan⟧{申告|しんこく} (customs declaration)\n・⟦{所得|しょとく}→所得：09850_shotoku⟧{申告|しんこく} (income declaration)\n・{申告|しんこく}{書|しょ} (declaration form)\n・{申告|しんこく}{漏|も}れ (failure to report)\n\nTAX CONTEXT:\nIn Japan, salaried workers usually have taxes withheld by their employer (⟦{年末調整|ねんまつちょうせい}→年末調整：10194_nenmatsuchousei⟧). ⟦{確定|かくてい}{申告|しんこく}→確定申告：04902_kakuteishinkoku⟧ is required for the self-employed, those with side income, or those claiming certain deductions.\n\nCAUTION:\nDo not confuse with the homophone ⟦{深刻|しんこく}→深刻：01567_shinkoku⟧ (serious, grave).",
+  "notes": "{申告|しんこく} refers to formally reporting or declaring information to an authority. Most commonly encountered in tax and customs contexts.\n\nFORMS:\n{申|しん} (state, report) + {告|こく} (tell, announce)\n\nCOMMON COLLOCATIONS:\n- ⟦{確定|かくてい}{申告|しんこく}→確定申告：04902_kakuteishinkoku⟧ (final tax return, filed annually)\n- ⟦{税関|ぜいかん}→税関：04380_zeikan⟧{申告|しんこく} (customs declaration)\n- ⟦{所得|しょとく}→所得：09850_shotoku⟧{申告|しんこく} (income declaration)\n- {申告|しんこく}{書|しょ} (declaration form)\n- {申告|しんこく}{漏|も}れ (failure to report)\n\nTAX CONTEXT:\nIn Japan, salaried workers usually have taxes withheld by their employer (⟦{年末調整|ねんまつちょうせい}→年末調整：10194_nenmatsuchousei⟧). ⟦{確定|かくてい}{申告|しんこく}→確定申告：04902_kakuteishinkoku⟧ is required for the self-employed, those with side income, or those claiming certain deductions.\n\nWATCH OUT:\nDo not confuse with the homophone ⟦{深刻|しんこく}→深刻：01567_shinkoku⟧ (serious, grave).",
   "cross_references": [
     {
       "type": "related",
@@ -176,11 +176,18 @@
       "headword": "{税金|ぜいきん}",
       "label": "tax",
       "target_id": "03308_zeikin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22400_ishihyouji",
+      "reading": "いしひょうじ",
+      "headword": "{意思表示|いしひょうじ}",
+      "label": "expression of one's intention"
     }
   ],
   "metadata": {
     "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-05-26T22:10:50Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -194,7 +201,8 @@
         "communication",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

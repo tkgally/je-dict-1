@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "10823_kirisutokyou_ex1",
-      "japanese": "キリスト{教|きょう}を{信|しん}じている。",
+      "japanese": "キリスト{教|きょう}⟦を→を：00422_wo⟧⟦{信|しん}じている→信じる：01111_shinjiru⟧。",
       "english": "I believe in Christianity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10823_kirisutokyou_ex2",
-      "japanese": "{日本|にほん}ではキリスト{教|きょう}の{信者|しんじゃ}は{少|すく}ない。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧キリスト{教|きょう}⟦の→の：09472_no⟧⟦{信者|しんじゃ}→信者：11565_shinja⟧⟦は→は：00079_ha⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "There are few Christians in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10823_kirisutokyou_ex3",
-      "japanese": "クリスマスはキリスト{教|きょう}の{行事|ぎょうじ}だが、{日本|にほん}では{宗教|しゅうきょう}に{関係|かんけい}なく{楽|たの}しまれている。",
+      "japanese": "⟦クリスマス→クリスマス：03839_kurisumasu⟧⟦は→は：00079_ha⟧キリスト{教|きょう}⟦の→の：09472_no⟧⟦{行事|ぎょうじ}→行事：00078_gyouji⟧だ⟦が→が：00051_ga⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{宗教|しゅうきょう}→宗教：03208_shuukyou⟧⟦に→に：00314_ni⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦なく→ない：01118_nai⟧⟦{楽|たの}しまれている→楽しむ：01203_tanoshimu⟧。",
       "english": "Christmas is a Christian event, but in Japan it is enjoyed regardless of religion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WORD FORMATION:\nキリスト (Christ) + {教|きょう} (teaching/religion) = Christianity\n\nRELATED TERMS:\n- キリスト{教徒|きょうと}: Christian (person)\n- {教会|きょうかい}: church\n- {聖書|せいしょ}: Bible\n- カトリック: Catholicism\n- プロテスタント: Protestantism\n\nCULTURAL NOTE:\nChristianity has a long history in Japan dating back to the 16th century, but remains a minority religion with only about 1-2% of the population identifying as Christian. Despite this, Christian-origin customs like Christmas and church weddings are widely popular.",
+  "notes": "FORMS:\n⟦キリスト→キリスト：24422_kirisuto⟧ (Christ) + {教|きょう} (teaching/religion) = Christianity\n\nRELATED WORDS:\n- ⟦キリスト→キリスト：24422_kirisuto⟧⟦{教徒|きょうと}→教徒：24233_kyouto⟧: Christian (person)\n- ⟦{教会|きょうかい}→教会：01387_kyoukai⟧: church\n- ⟦{聖書|せいしょ}→聖書：17969_seisho⟧: Bible\n- カトリック: Catholicism\n- プロテスタント: Protestantism\n\nCULTURAL NOTE:\nChristianity has a long history in Japan dating back to the 16th century, but remains a minority religion with only about 1-2% of the population identifying as Christian. Despite this, Christian-origin customs like Christmas and church weddings are widely popular.",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,50 @@
       "reading": "きょうかい",
       "headword": "{教会|きょうかい}",
       "label": "church"
+    },
+    {
+      "type": "related",
+      "target_id": "17969_seisho",
+      "reading": "せいしょ",
+      "headword": "{聖書|せいしょ}",
+      "label": "Bible"
+    },
+    {
+      "type": "related",
+      "target_id": "24049_kyuuyakuseisho",
+      "reading": "きゅうやくせいしょ",
+      "headword": "{旧約聖書|きゅうやくせいしょ}",
+      "label": "Old Testament"
+    },
+    {
+      "type": "related",
+      "target_id": "24050_shinyakuseisho",
+      "reading": "しんやくせいしょ",
+      "headword": "{新約聖書|しんやくせいしょ}",
+      "label": "New Testament"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25058_isuramukyou",
+      "reading": "いすらむきょう",
+      "headword": "イスラム{教|きょう}",
+      "label": "Islam"
     }
   ],
   "metadata": {
     "created": "2026-02-10T08:31:48Z",
-    "modified": "2026-04-24T09:07:32Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

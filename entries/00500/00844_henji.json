@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "{返事|へんじ} means reply or answer to a call or message.\n\nGRAMMAR:\n- {返事|へんじ}⟦する→する：00392_suru⟧: to reply (verb)\n- {返事|へんじ}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: a reply comes\n- {返事|へんじ}⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧: to wait for a reply\n\nCOMPARISON:\n- {返事|へんじ}: response to call/message\n- ⟦{答|こた}え→答え：00790_kotae⟧: answer to question/problem\n- ⟦{回答|かいとう}→回答：00142_kaitou⟧: formal answer/response\n- ⟦{応答|おうとう}→応答：12685_outou⟧: response (formal)\n\nCOMMON PATTERNS:\n- {返事|へんじ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to reply\n- {返事|へんじ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: no reply\n- ⟦いい→いい：00118_ii⟧{返事|へんじ}: good news/positive reply\n- ⟦{生返事|なまへんじ}→生返事：17202_namahenji⟧: half-hearted reply",
-  "cross_references": [],
+  "notes": "{返事|へんじ} means reply or answer to a call or message.\n\nCOMMON PATTERNS:\n- {返事|へんじ}⟦する→する：00392_suru⟧: to reply (verb)\n- {返事|へんじ}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: a reply comes\n- {返事|へんじ}⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧: to wait for a reply\n- {返事|へんじ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to reply\n- {返事|へんじ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: no reply\n- ⟦いい→いい：00118_ii⟧{返事|へんじ}: good news/positive reply\n- ⟦{生返事|なまへんじ}→生返事：17202_namahenji⟧: half-hearted reply\n\nSIMILAR WORDS:\n- {返事|へんじ}: response to call/message\n- ⟦{答|こた}え→答え：00790_kotae⟧: answer to question/problem\n- ⟦{回答|かいとう}→回答：00142_kaitou⟧: formal answer/response\n- ⟦{応答|おうとう}→応答：12685_outou⟧: response (formal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00790_kotae",
+      "reading": "こたえ",
+      "headword": "{答|こた}え",
+      "label": "answer to question/problem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00142_kaitou",
+      "reading": "かいとう",
+      "headword": "{回答|かいとう}",
+      "label": "formal answer/response"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12685_outou",
+      "reading": "おうとう",
+      "headword": "{応答|おうとう}",
+      "label": "response"
+    },
+    {
+      "type": "related",
+      "target_id": "00888_shitsumon",
+      "reading": "しつもん",
+      "headword": "{質問|しつもん}",
+      "label": "question"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20204_hannousuru",
+      "reading": "はんのうする",
+      "headword": "{反応|はんのう}する",
+      "label": "to react"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:39:37Z",
-    "modified": "2026-05-12T22:18:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

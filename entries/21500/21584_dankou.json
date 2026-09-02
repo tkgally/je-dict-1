@@ -3,7 +3,7 @@
   "headword": "{断交|だんこう}",
   "reading": "だんこう",
   "romaji": "dankou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "severing of relations; breaking off ties",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21584_dankou_ex1",
-      "japanese": "{両国|りょうこく}は{断交|だんこう}した。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧{断交|だんこう}⟦した→する：00392_suru⟧。",
       "english": "The two countries severed diplomatic relations.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21584_dankou_ex2",
-      "japanese": "{断交|だんこう}{状態|じょうたい}が{何年|なんねん}も{続|つづ}いている。",
+      "japanese": "{断交|だんこう}⟦{状態|じょうたい}→状態：03345_joutai⟧⟦が→が：00051_ga⟧⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The state of severed relations has continued for many years.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21584_dankou_ex3",
-      "japanese": "{紛争|ふんそう}をきっかけに{断交|だんこう}に{至|いた}ったが、その{後|ご}{和平|わへい}{交渉|こうしょう}で{関係|かんけい}が{回復|かいふく}した。",
+      "japanese": "⟦{紛争|ふんそう}→紛争：05758_funsou⟧⟦を→を：00422_wo⟧⟦きっかけ→きっかけ：10309_kikkake⟧⟦に→に：00314_ni⟧{断交|だんこう}⟦に→に：00314_ni⟧⟦{至|いた}った→至る：02009_itaru⟧⟦が→が：00051_ga⟧、⟦その{後|ご}→その後：08501_sonogo⟧{和平|わへい}⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦で→で：00502_de⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦が→が：00051_ga⟧⟦{回復|かいふく}した→回復する：21330_kaifukusuru⟧。",
       "english": "The conflict led to a severing of relations, but afterward ties were restored through peace negotiations.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {断|だん} (cut, sever) and {交|こう} (relations, association). Primarily used in diplomatic and international relations contexts.\n\nCOMMON COLLOCATIONS:\n- {断交|だんこう}する: to sever relations\n- {断交|だんこう}に{至|いた}る: to reach the point of severing relations\n- {断交|だんこう}{状態|じょうたい}: state of severed relations\n- {国交|こっこう}{断絶|だんぜつ}: complete severance of diplomatic relations\n\nSIMILAR WORDS:\n- {国交|こっこう}{断絶|だんぜつ}: severance of diplomatic relations — more formal and emphatic\n- {絶交|ぜっこう}: breaking off a friendship — used for personal relationships\n- {断行|だんこう}: decisive action — homophone with different meaning (to carry out resolutely)",
+  "notes": "Compound of {断|だん} (cut, sever) and {交|こう} (relations, association). Primarily used in diplomatic and international relations contexts.\n\nCOMMON COLLOCATIONS:\n- {断交|だんこう}⟦する→する：00392_suru⟧: to sever relations\n- {断交|だんこう}⟦に→に：00314_ni⟧⟦{至|いた}る→至る：02009_itaru⟧: to reach the point of severing relations\n- {断交|だんこう}⟦{状態|じょうたい}→状態：03345_joutai⟧: state of severed relations\n- ⟦{国交|こっこう}{断絶|だんぜつ}→国交断絶：23264_kokkoudanzetsu⟧: complete severance of diplomatic relations\n\nSIMILAR WORDS:\n- ⟦{国交|こっこう}{断絶|だんぜつ}→国交断絶：23264_kokkoudanzetsu⟧: severance of diplomatic relations — more formal and emphatic\n- ⟦{絶交|ぜっこう}→絶交：15544_zekkou⟧: breaking off a friendship — used for personal relationships\n- ⟦{断行|だんこう}→断行：15618_dankou⟧: decisive action — homophone with different meaning (to carry out resolutely)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23264_kokkoudanzetsu",
+      "reading": "こっこうだんぜつ",
+      "headword": "{国交断絶|こっこうだんぜつ}",
+      "label": "severance of diplomatic relations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15544_zekkou",
+      "reading": "ぜっこう",
+      "headword": "{絶交|ぜっこう}",
+      "label": "breaking off a friendship"
+    },
+    {
+      "type": "homophone",
+      "target_id": "15618_dankou",
+      "reading": "だんこう",
+      "headword": "{断行|だんこう}",
+      "label": "decisive action"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +82,11 @@
         "politics",
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-02T17:25:04Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

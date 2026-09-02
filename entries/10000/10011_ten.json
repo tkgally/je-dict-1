@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10011_ten_ex1",
-      "japanese": "{花|はな}{店|てん}で{花|はな}を{買|か}った。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧{店|てん}⟦で→で：00502_de⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought flowers at a florist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10011_ten_ex2",
-      "japanese": "マッサージ{店|てん}に{行|い}く。",
+      "japanese": "⟦マッサージ→マッサージ：00272_massaaji⟧{店|てん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "To go to a massage parlor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10011_ten_ex3",
-      "japanese": "{駅前|えきまえ}に{新|あたら}しい{飲食|いんしょく}{店|てん}ができた。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{飲食|いんしょく}{店|てん}→飲食店：15093_inshokuten⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "A new restaurant opened in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "〜{店|てん} is a suffix meaning \"shop\" or \"store,\" attached to indicate the type of establishment.\n\nCOMMON EXAMPLES:\n- {花|はな}{店|てん}: florist, flower shop\n- {飲食|いんしょく}{店|てん}: restaurant, eating establishment\n- {小売|こうり}{店|てん}: retail store\n- {専門|せんもん}{店|てん}: specialty store\n- {雑貨|ざっか}{店|てん}: general goods store\n- マッサージ{店|てん}: massage parlor\n- {手芸|しゅげい}{店|てん}: craft store\n- {量販|りょうはん}{店|てん}: discount store\n\nCOMPARISON WITH 〜{屋|や}:\n- 〜{店|てん}: more formal, often used in compound words\n- 〜{屋|や}: more casual, traditional ({花|はな}{屋|や}, {本|ほん}{屋|や})\n\nNOTE:\nAs a standalone word, {店|みせ} is the common reading meaning \"shop/store.\"",
+  "notes": "〜{店|てん} is a suffix meaning \"shop\" or \"store,\" attached to indicate the type of establishment.\n\nCOMMON EXAMPLES:\n- ⟦{花|はな}→花：00523_hana⟧{店|てん}: florist, flower shop\n- ⟦{飲食|いんしょく}{店|てん}→飲食店：15093_inshokuten⟧: restaurant, eating establishment\n- ⟦{小売|こうり}{店|てん}→小売店：20689_kouriten⟧: retail store\n- ⟦{専門|せんもん}{店|てん}→専門店：15924_senmonten⟧: specialty store\n- ⟦{雑貨|ざっか}→雑貨：10008_zakka⟧{店|てん}: general goods store\n- ⟦マッサージ→マッサージ：00272_massaaji⟧{店|てん}: massage parlor\n- ⟦{手芸|しゅげい}→手芸：07062_shugei⟧{店|てん}: craft store\n- ⟦{量販|りょうはん}{店|てん}→量販店：20498_ryouhanten⟧: discount store\n\nCOMPARISON WITH 〜{屋|や}:\n- 〜{店|てん}: more formal, often used in compound words\n- 〜⟦{屋|や}→〜屋：03096_ya⟧: more casual, traditional (⟦{花|はな}{屋|や}→花屋：03136_hanaya⟧, ⟦{本|ほん}{屋|や}→本屋：03034_honya⟧)\n\nUSAGE:\nAs a standalone word, ⟦{店|みせ}→店：00497_mise⟧ is the common reading meaning \"shop/store.\"",
   "prominent_see_also": [
     {
       "target_id": "00497_mise",
@@ -49,13 +55,17 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-23T09:22:17Z",
+    "modified": "2026-09-02T04:01:19Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

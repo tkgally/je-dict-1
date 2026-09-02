@@ -14,42 +14,67 @@
   "examples": [
     {
       "id": "11619_koko_ex1",
-      "japanese": "{個々|ここ}の{事情|じじょう}を{考慮|こうりょ}する。",
+      "japanese": "{個々|ここ}⟦の→の：09472_no⟧⟦{事情|じじょう}→事情：03272_jijou⟧⟦を→を：00422_wo⟧⟦{考慮|こうりょ}する→考慮する：06061_kouryosuru⟧。",
       "english": "To take individual circumstances into consideration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11619_koko_ex2",
-      "japanese": "{個々|ここ}の{能力|のうりょく}に{合|あ}わせた{指導|しどう}が{必要|ひつよう}だ。",
+      "japanese": "{個々|ここ}⟦の→の：09472_no⟧⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦に→に：00314_ni⟧⟦{合|あ}わせた→合わせる：01872_awaseru⟧⟦{指導|しどう}→指導：03190_shidou⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Instruction tailored to individual abilities is necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11619_koko_ex3",
-      "japanese": "{問題|もんだい}を{個々|ここ}に{検討|けんとう}するのではなく、{全体|ぜんたい}として{捉|とら}える{必要|ひつよう}がある。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{個々|ここ}⟦に→に：00314_ni⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧⟦の→の：09472_no⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦として→として：06802_toshite⟧⟦{捉|とら}える→捉える：12795_toraeru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Rather than examining each issue individually, we need to grasp them as a whole.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Typically used with the particle の to modify nouns: {個々|ここ}の{問題|もんだい} (each individual problem). Can also be used adverbially with に: {個々|ここ}に{対応|たいおう}する (to deal with each one individually).\n\nA homophone of ここ (here), but written in kanji so there is no ambiguity in text.\n\nCOMMON COLLOCATIONS:\n・{個々|ここ}の{事例|じれい} — individual cases\n・{個々|ここ}の{対応|たいおう} — individual handling\n・{個々|ここ}に — individually; separately\n・{個々|ここ}の{違|ちが}い — individual differences",
-  "cross_references": [],
+  "notes": "Typically used with the particle ⟦の→の：09472_no⟧ to modify nouns: {個々|ここ}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧ (each individual problem). Can also be used adverbially with ⟦に→に：00314_ni⟧: {個々|ここ}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧ (to deal with each one individually).\n\nA homophone of ⟦ここ→ここ：00961_koko⟧ (here), but written in kanji so there is no ambiguity in text.\n\nCOMMON COLLOCATIONS:\n- {個々|ここ}⟦の→の：09472_no⟧⟦{事例|じれい}→事例：11417_jirei⟧ — individual cases\n- {個々|ここ}⟦の→の：09472_no⟧⟦{対応|たいおう}→対応：02510_taiou⟧ — individual handling\n- {個々|ここ}⟦に→に：00314_ni⟧ — individually; separately\n- {個々|ここ}⟦の→の：09472_no⟧⟦{違|ちが}い→違い：03432_chigai⟧ — individual differences",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01453_sorezore",
+      "reading": "それぞれ",
+      "headword": "それぞれ",
+      "label": "each, respectively"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03711_hitorihitori",
+      "reading": "ひとりひとり",
+      "headword": "{一人一人|ひとりひとり}",
+      "label": "each person, one by one"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T14:40:01Z",
-    "modified": "2026-02-17T14:40:01Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

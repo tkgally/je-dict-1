@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16850_kanyuu_ex1",
-      "japanese": "しつこい{勧誘|かんゆう}に{困|こま}っている。",
+      "japanese": "⟦しつこい→しつこい：06498_shitsukoi⟧{勧誘|かんゆう}⟦に→に：00314_ni⟧⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "I'm troubled by persistent solicitation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16850_kanyuu_ex2",
-      "japanese": "{電話|でんわ}での{勧誘|かんゆう}はすべて{断|ことわ}ることにしている。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{勧誘|かんゆう}⟦は→は：00079_ha⟧すべて⟦{断|ことわ}る→断る：02102_kotowaru⟧ことにして⟦いる→いる：00495_iru⟧。",
       "english": "I make it a rule to refuse all phone solicitations.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16850_kanyuu_ex3",
-      "japanese": "{友人|ゆうじん}に{勧誘|かんゆう}されて、テニスサークルに{入|はい}った。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧{勧誘|かんゆう}⟦されて→する：00392_suru⟧、⟦テニス→テニス：01784_tenisu⟧⟦サークル→サークル：10933_saakuru⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I was recruited by a friend and joined a tennis club.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "{勧誘|かんゆう} is the act of trying to persuade someone to join, buy, or participate in something. The nuance ranges from neutral to negative depending on context.\n\nNUANCE:\n- Neutral: inviting someone to join a club or activity ({部活|ぶかつ}の{勧誘|かんゆう})\n- Negative: pushy sales tactics, religious recruitment, unwanted phone calls\nIn daily life, {勧誘|かんゆう} often carries a negative connotation because people most commonly talk about it when they want to refuse or complain about it.\n\nCOMMON COLLOCATIONS:\n- {勧誘|かんゆう}を{断|ことわ}る: to refuse a solicitation\n- {勧誘|かんゆう}{電話|でんわ}: solicitation call\n- しつこい{勧誘|かんゆう}: persistent solicitation\n- {勧誘|かんゆう}{行為|こうい}: act of soliciting\n- {新入|しんにゅう}{部員|ぶいん}の{勧誘|かんゆう}: recruiting new club members\n\nRELATED WORDS:\n- {誘|さそ}う: to invite (casual, among friends)\n- {招待|しょうたい}: invitation (formal, events)",
-  "cross_references": [],
+  "notes": "{勧誘|かんゆう} is the act of trying to persuade someone to join, buy, or participate in something. The nuance ranges from neutral to negative depending on context.\n\nUSAGE:\n- Neutral: inviting someone to join a club or activity (⟦{部活|ぶかつ}→部活：05377_bukatsu⟧⟦の→の：09472_no⟧{勧誘|かんゆう})\n- Negative: pushy sales tactics, religious recruitment, unwanted phone calls\nIn daily life, {勧誘|かんゆう} often carries a negative connotation because people most commonly talk about it when they want to refuse or complain about it.\n\nCOMMON COLLOCATIONS:\n- {勧誘|かんゆう}⟦を→を：00422_wo⟧⟦{断|ことわ}る→断る：02102_kotowaru⟧: to refuse a solicitation\n- {勧誘|かんゆう}⟦{電話|でんわ}→電話：01471_denwa⟧: solicitation call\n- ⟦しつこい→しつこい：06498_shitsukoi⟧{勧誘|かんゆう}: persistent solicitation\n- {勧誘|かんゆう}⟦{行為|こうい}→行為：10021_koui⟧: act of soliciting\n- ⟦{新入|しんにゅう}→新入：11503_shinnyuu⟧⟦{部員|ぶいん}→部員：27409_buin⟧⟦の→の：09472_no⟧{勧誘|かんゆう}: recruiting new club members\n\nRELATED WORDS:\n- ⟦{誘|さそ}う→誘う：01947_sasou⟧: to invite (casual, among friends)\n- ⟦{招待|しょうたい}→招待：01435_shoutai⟧: invitation (formal, events)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01947_sasou",
+      "reading": "さそう",
+      "headword": "{誘|さそ}う",
+      "label": "to invite"
+    },
+    {
+      "type": "related",
+      "target_id": "01435_shoutai",
+      "reading": "しょうたい",
+      "headword": "{招待|しょうたい}",
+      "label": "invitation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25687_yuuchi",
+      "reading": "ゆうち",
+      "headword": "{誘致|ゆうち}",
+      "label": "attraction"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T13:07:51Z",
-    "modified": "2026-04-05T11:45:12Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +173,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

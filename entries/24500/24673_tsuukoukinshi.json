@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24673_tsuukoukinshi_ex1",
-      "japanese": "この{道|みち}は{通行禁止|つうこうきんし}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道|みち}→道：00505_michi⟧⟦は→は：00079_ha⟧{通行禁止|つうこうきんし}です。",
       "english": "This road is closed to traffic.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24673_tsuukoukinshi_ex2",
-      "japanese": "{工事|こうじ}のため、{明日|あした}から{一週間|いっしゅうかん}{通行禁止|つうこうきんし}になる。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{明日|あした}→明日：00501_ashita⟧⟦から→から：00504_kara⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧{通行禁止|つうこうきんし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Due to construction, the road will be closed for a week starting tomorrow.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24673_tsuukoukinshi_ex3",
-      "japanese": "{土砂崩|どしゃくず}れで{山道|やまみち}が{通行禁止|つうこうきんし}になり、{住民|じゅうみん}は{迂回路|うかいろ}を{使|つか}わなければならなくなった。",
+      "japanese": "⟦{土砂崩|どしゃくず}れ→土砂崩れ：09257_doshakuzure⟧⟦で→で：00502_de⟧⟦{山道|やまみち}→山道：12406_yamamichi⟧⟦が→が：00051_ga⟧{通行禁止|つうこうきんし}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦は→は：00079_ha⟧{迂回路|うかいろ}⟦を→を：00422_wo⟧⟦{使|つか}わなければ→使う：00473_tsukau⟧⟦ならなく→なる：01970_naru⟧⟦なった→なる：01970_naru⟧。",
       "english": "A landslide closed the mountain road, and residents had to use a detour.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {通行|つうこう} (passage, traffic) and {禁止|きんし} (prohibition). One of the most common regulatory phrases seen on Japanese road signs and barriers. The sign is a red circle with a horizontal white bar — recognizable to anyone who drives or walks in Japan.\n\nUSAGE:\nOften appears as a noun phrase on signs, or with になる to describe a road being closed. Can apply to vehicles, pedestrians, or both depending on context. Temporary closures for festivals or construction are extremely common in Japanese cities.\n\nCOMMON COLLOCATIONS:\n- {通行禁止|つうこうきんし}になる: to become closed to traffic\n- {通行禁止|つうこうきんし}{区間|くかん}: road-closed section\n- {車両|しゃりょう}{通行禁止|つうこうきんし}: no vehicle traffic\n- {歩行者|ほこうしゃ}{通行禁止|つうこうきんし}: no pedestrian traffic\n\nSIMILAR WORDS:\n- {通行止|つうこうど}め: road closure — a more colloquial variant; commonly seen on electronic road signs and in casual speech\n- {進入禁止|しんにゅうきんし}: no entry — prohibits entering from a specific direction; a different traffic sign\n- {立入禁止|たちいりきんし}: no trespassing — prohibits entering an area entirely, not just passage through it\n- {通行規制|つうこうきせい}: traffic restriction — partial restrictions rather than a complete closure",
+  "notes": "Composed of ⟦{通行|つうこう}→通行：03436_tsuukou⟧ (passage, traffic) and ⟦{禁止|きんし}→禁止：02643_kinshi⟧ (prohibition). One of the most common regulatory phrases seen on Japanese road signs and barriers. The sign is a red circle with a horizontal white bar — recognizable to anyone who drives or walks in Japan.\n\nUSAGE:\nOften appears as a noun phrase on signs, or with ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ to describe a road being closed. Can apply to vehicles, pedestrians, or both depending on context. Temporary closures for festivals or construction are extremely common in Japanese cities.\n\nCOMMON COLLOCATIONS:\n- {通行禁止|つうこうきんし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become closed to traffic\n- {通行禁止|つうこうきんし}⟦{区間|くかん}→区間：18759_kukan⟧: road-closed section\n- ⟦{車両|しゃりょう}→車両：05297_sharyou⟧{通行禁止|つうこうきんし}: no vehicle traffic\n- ⟦{歩行者|ほこうしゃ}→歩行者：03152_hokousha⟧{通行禁止|つうこうきんし}: no pedestrian traffic\n\nSIMILAR WORDS:\n- ⟦{通行止|つうこうど}め→通行止め：19920_tsuukoudome⟧: road closure — a more colloquial variant; commonly seen on electronic road signs and in casual speech\n- ⟦{進入禁止|しんにゅうきんし}→進入禁止：16530_shinnyuukinshi⟧: no entry — prohibits entering from a specific direction; a different traffic sign\n- ⟦{立入禁止|たちいりきんし}→立入禁止：09542_tachiirikinshi⟧: no trespassing — prohibits entering an area entirely, not just passage through it\n- {通行規制|つうこうきせい}: traffic restriction — partial restrictions rather than a complete closure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19920_tsuukoudome",
+      "reading": "つうこうどめ",
+      "headword": "{通行止|つうこうど}め",
+      "label": "road closure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16530_shinnyuukinshi",
+      "reading": "しんにゅうきんし",
+      "headword": "{進入禁止|しんにゅうきんし}",
+      "label": "no entry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09542_tachiirikinshi",
+      "reading": "たちいりきんし",
+      "headword": "{立入禁止|たちいりきんし}",
+      "label": "no trespassing"
+    },
+    {
+      "type": "related",
+      "target_id": "26256_tsuukouka",
+      "reading": "つうこうか",
+      "headword": "{通行可|つうこうか}",
+      "label": "passable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +94,6 @@
       ]
     },
     "created": "2026-04-20T11:24:04Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

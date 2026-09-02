@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29737_hairo_ex1",
-      "japanese": "{古|ふる}い{原子炉|げんしろ}を{廃炉|はいろ}にする。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{原子炉|げんしろ}→原子炉：20824_genshiro⟧⟦を→を：00422_wo⟧{廃炉|はいろ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "to decommission an old reactor.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29737_hairo_ex2",
-      "japanese": "{事故|じこ}のあと、{廃炉|はいろ}が{決|き}まった。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧あと、{廃炉|はいろ}⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "After the accident, decommissioning was decided.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29737_hairo_ex3",
-      "japanese": "{廃炉|はいろ}には{長|なが}い{年月|ねんげつ}と{多額|たがく}の{費用|ひよう}がかかる。",
+      "japanese": "{廃炉|はいろ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{年月|ねんげつ}→年月：00310_nengetsu⟧⟦と→と：00512_to⟧⟦{多額|たがく}→多額：12309_tagaku⟧⟦の→の：09472_no⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Decommissioning takes many years and a large amount of money.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The process of permanently shutting down and dismantling a nuclear reactor. Usually used with にする.\n\nCOMMON COLLOCATIONS:\n- {廃炉|はいろ}にする: to decommission a reactor\n- {廃炉|はいろ}{作業|さぎょう}: decommissioning work\n- {廃炉|はいろ}が{決|き}まる: for decommissioning to be decided\n\nSIMILAR WORDS:\n- {解体|かいたい}: dismantling — general demolition, not reactor-specific",
+  "notes": "The process of permanently shutting down and dismantling a nuclear reactor. Usually used with ⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {廃炉|はいろ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to decommission a reactor\n- {廃炉|はいろ}⟦{作業|さぎょう}→作業：02775_sagyou⟧: decommissioning work\n- {廃炉|はいろ}⟦が→が：00051_ga⟧⟦{決|き}まる→決まる：01233_kimaru⟧: for decommissioning to be decided\n\nSIMILAR WORDS:\n- ⟦{解体|かいたい}→解体：06223_kaitai⟧: dismantling — general demolition, not reactor-specific",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06223_kaitai",
+      "reading": "かいたい",
+      "headword": "{解体|かいたい}",
+      "label": "dismantling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "domain": []
     },
     "created": "2026-07-09T21:19:28Z",
-    "modified": "2026-07-09T21:19:28Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

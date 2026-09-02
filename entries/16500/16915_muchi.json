@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16915_muchi_ex1",
-      "japanese": "{無恥|むち}な{行為|こうい}だ。",
+      "japanese": "{無恥|むち}な⟦{行為|こうい}→行為：10021_koui⟧だ。",
       "english": "It's a shameless act.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16915_muchi_ex2",
-      "japanese": "あの{政治家|せいじか}の{無恥|むち}な{態度|たいど}には{呆|あき}れる。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦の→の：09472_no⟧{無恥|むち}な⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{呆|あき}れる→呆れる：06720_akireru⟧。",
       "english": "I'm appalled by that politician's brazen attitude.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16915_muchi_ex3",
-      "japanese": "{厚顔|こうがん}{無恥|むち}にも、{自分|じぶん}の{非|ひ}を{認|みと}めようとしない。",
+      "japanese": "{厚顔|こうがん}{無恥|むち}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{非|ひ}→非：28419_hi⟧⟦を→を：00422_wo⟧⟦{認|みと}めよう→認める：02429_mitomeru⟧としない。",
       "english": "With brazen shamelessness, they refuse to admit their fault.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften appears in the four-character compound {厚顔|こうがん}{無恥|むち} (brazen-faced and shameless). A strongly negative term used to condemn behavior that lacks basic moral self-awareness.\n\nCOMMON COLLOCATIONS:\n- {厚顔|こうがん}{無恥|むち} (brazen and shameless)\n- {無恥|むち}な{行為|こうい} (shameless behavior)\n- {無恥|むち}な{態度|たいど} (shameless attitude)\n\nSIMILAR WORDS:\n- {厚|あつ}かましい: shameless, audacious — more colloquial\n- {恥知|はじし}らず: shameless person — a noun form",
+  "notes": "USAGE:\nOften appears in the four-character compound {厚顔|こうがん}{無恥|むち} (brazen-faced and shameless). A strongly negative term used to condemn behavior that lacks basic moral self-awareness.\n\nCOMMON COLLOCATIONS:\n- {厚顔|こうがん}{無恥|むち} (brazen and shameless)\n- {無恥|むち}な⟦{行為|こうい}→行為：10021_koui⟧ (shameless behavior)\n- {無恥|むち}な⟦{態度|たいど}→態度：03396_taido⟧ (shameless attitude)\n\nSIMILAR WORDS:\n- ⟦{厚|あつ}かましい→厚かましい：09161_atsukamashii⟧: shameless, audacious — more colloquial\n- ⟦{恥知|はじし}らず→恥知らず：21065_hajishirazu⟧: shameless person — a noun form",
   "cross_references": [
     {
       "type": "homophone",
@@ -46,18 +52,36 @@
       "reading": "むち",
       "headword": "{無知|むち}",
       "label": "ignorance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09161_atsukamashii",
+      "reading": "あつかましい",
+      "headword": "{厚|あつ}かましい",
+      "label": "shameless, audacious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21065_hajishirazu",
+      "reading": "はじしらず",
+      "headword": "{恥知|はじし}らず",
+      "label": "shameless person"
     }
   ],
   "metadata": {
     "created": "2026-03-15T00:18:56Z",
-    "modified": "2026-04-11T00:58:17Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["personality"]
+      "semantic": [
+        "personality"
+      ]
     }
   }
 }

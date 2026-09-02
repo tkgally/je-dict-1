@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "13313_asahaka_ex1",
-      "japanese": "{浅|あさ}はかな{考|かんが}えだった。",
+      "japanese": "{浅|あさ}はかな⟦{考|かんが}え→考え：00855_kangae⟧だった。",
       "english": "It was a shallow way of thinking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13313_asahaka_ex2",
-      "japanese": "{浅|あさ}はかな{行動|こうどう}を{後悔|こうかい}している。",
+      "japanese": "{浅|あさ}はかな⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧⟦{後悔|こうかい}→後悔：02738_koukai⟧⟦している→する：00392_suru⟧。",
       "english": "I regret my thoughtless actions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13313_asahaka_ex3",
-      "japanese": "{目先|めさき}の{利益|りえき}に{飛|と}びつくのは{浅|あさ}はかだと{言|い}われた。",
+      "japanese": "{目先|めさき}⟦の→の：09472_no⟧⟦{利益|りえき}→利益：03673_rieki⟧⟦に→に：00314_ni⟧{飛|と}びつく⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{浅|あさ}はかだ⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I was told it was foolish to jump at short-term profits.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA fairly strong negative evaluation, often used to criticize decisions or thinking that lacks foresight or depth. Can be used about one's own past actions in a self-critical way. The word carries a literary or somewhat formal tone.\n\nThe kanji form {浅|あさ}はか uses {浅|あさ} (shallow), reinforcing the metaphor of insufficient depth.\n\nCOMMON COLLOCATIONS:\n- {浅|あさ}はかな{考|かんが}え: shallow thinking\n- {浅|あさ}はかな{行動|こうどう}: thoughtless behavior\n- {浅|あさ}はかな{判断|はんだん}: superficial judgment\n- {浅|あさ}はかな{知識|ちしき}: superficial knowledge",
-  "cross_references": [],
+  "notes": "USAGE:\nA fairly strong negative evaluation, often used to criticize decisions or thinking that lacks foresight or depth. Can be used about one's own past actions in a self-critical way. The word carries a literary or somewhat formal tone.\n\nThe kanji form {浅|あさ}はか uses {浅|あさ} (shallow), reinforcing the metaphor of insufficient depth.\n\nCOMMON COLLOCATIONS:\n- {浅|あさ}はかな⟦{考|かんが}え→考え：00855_kangae⟧: shallow thinking\n- {浅|あさ}はかな⟦{行動|こうどう}→行動：02728_koudou⟧: thoughtless behavior\n- {浅|あさ}はかな⟦{判断|はんだん}→判断：03571_handan⟧: superficial judgment\n- {浅|あさ}はかな⟦{知識|ちしき}→知識：01463_chishiki⟧: superficial knowledge",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06676_oroka",
+      "reading": "おろか",
+      "headword": "{愚|おろ}か",
+      "label": "foolish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06866_keisotsu",
+      "reading": "けいそつ",
+      "headword": "{軽率|けいそつ}",
+      "label": "rash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20703_tanrakuteki",
+      "reading": "たんらくてき",
+      "headword": "{短絡的|たんらくてき}",
+      "label": "hasty"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-02-24T10:00:26Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

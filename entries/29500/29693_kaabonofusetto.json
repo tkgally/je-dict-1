@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29693_kaabonofusetto_ex1",
-      "japanese": "この{航空券|こうくうけん}はカーボンオフセット{付|つ}きだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{航空券|こうくうけん}→航空券：19426_koukuuken⟧⟦は→は：00079_ha⟧カーボンオフセット⟦{付|つ}き→付き：26333_tsuki⟧だ。",
       "english": "This plane ticket comes with a carbon offset.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29693_kaabonofusetto_ex2",
-      "japanese": "{企業|きぎょう}がカーボンオフセットに{取|と}り{組|く}んでいる。",
+      "japanese": "⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧カーボンオフセット⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んでいる→取り組む：04225_torikumu⟧。",
       "english": "Companies are working on carbon offsets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29693_kaabonofusetto_ex3",
-      "japanese": "{排出|はいしゅつ}した{分|ぶん}をカーボンオフセットで{埋|う}め{合|あ}わせる{仕組|しく}みが{広|ひろ}がっている。",
+      "japanese": "⟦{排出|はいしゅつ}した→排出する：25377_haishutsusuru⟧⟦{分|ぶん}→分：26216_bun⟧⟦を→を：00422_wo⟧カーボンオフセット⟦で→で：00502_de⟧{埋|う}め{合|あ}わせる⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Systems that make up for emissions through carbon offsets are spreading.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"carbon offset.\" A market mechanism for balancing out unavoidable emissions by paying for reductions elsewhere.\n\nCOMMON COLLOCATIONS:\n- カーボンオフセットに{取|と}り{組|く}む: to work on carbon offsets\n- カーボンオフセット{制度|せいど}: a carbon-offset scheme\n- カーボンオフセットで{埋|う}め{合|あ}わせる: to compensate through carbon offsetting\n\nSIMILAR WORDS:\n- カーボンニュートラル: carbon neutral — the goal of net-zero emissions, often achieved partly through offsets\n- {炭素中立|たんそちゅうりつ}: carbon neutrality — the native-word equivalent of カーボンニュートラル",
+  "notes": "Loanword from English \"carbon offset.\" A market mechanism for balancing out unavoidable emissions by paying for reductions elsewhere.\n\nCOMMON COLLOCATIONS:\n- カーボンオフセット⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧: to work on carbon offsets\n- カーボンオフセット⟦{制度|せいど}→制度：03291_seido⟧: a carbon-offset scheme\n- カーボンオフセット⟦で→で：00502_de⟧{埋|う}め{合|あ}わせる: to compensate through carbon offsetting\n\nSIMILAR WORDS:\n- ⟦カーボンニュートラル→カーボンニュートラル：06411_kaabonnyuutoraru⟧: carbon neutral — the goal of net-zero emissions, often achieved partly through offsets\n- ⟦{炭素中立|たんそちゅうりつ}→炭素中立：29694_tansochuuritsu⟧: carbon neutrality — the native-word equivalent of ⟦カーボンニュートラル→カーボンニュートラル：06411_kaabonnyuutoraru⟧",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06411_kaabonnyuutoraru",
+      "reading": "かーぼんにゅーとらる",
+      "headword": "カーボンニュートラル",
+      "label": "carbon neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29694_tansochuuritsu",
+      "reading": "たんそちゅうりつ",
+      "headword": "{炭素中立|たんそちゅうりつ}",
+      "label": "carbon neutrality"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08772_taiiki_ex1",
-      "japanese": "{帯域|たいいき}が{不足|ふそく}している。",
+      "japanese": "{帯域|たいいき}⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦している→する：00392_suru⟧。",
       "english": "There's insufficient bandwidth.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "08772_taiiki_ex2",
-      "japanese": "{動画|どうが}ストリーミングには{広|ひろ}い{帯域|たいいき}が{必要|ひつよう}だ。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦ストリーミング→ストリーミング：06031_sutoriimingu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{広|ひろ}い→広い：00704_hiroi⟧{帯域|たいいき}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Video streaming requires wide bandwidth.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08772_taiiki_ex3",
-      "japanese": "この{周波数|しゅうはすう}{帯域|たいいき}は{使用|しよう}{禁止|きんし}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{周波数|しゅうはすう}→周波数：25041_shuuhasuu⟧{帯域|たいいき}⟦は→は：00079_ha⟧⟦{使用|しよう}{禁止|きんし}→使用禁止：20769_shiyoukinshi⟧だ。",
       "english": "This frequency band is prohibited for use.",
       "sense_numbers": [
         2
@@ -49,7 +49,7 @@
     },
     {
       "id": "08772_taiiki_ex4",
-      "japanese": "{帯域|たいいき}{制限|せいげん}がかかっている。",
+      "japanese": "{帯域|たいいき}⟦{制限|せいげん}→制限：03375_seigen⟧⟦が→が：00051_ga⟧⟦かかっている→かかる：00711_kakaru⟧。",
       "english": "Bandwidth is being throttled.",
       "sense_numbers": [
         1
@@ -59,7 +59,7 @@
     },
     {
       "id": "08772_taiiki_ex5",
-      "japanese": "5G{帯域|たいいき}を{活用|かつよう}する。",
+      "japanese": "5G{帯域|たいいき}⟦を→を：00422_wo⟧⟦{活用|かつよう}する→活用する：21424_katsuyousuru⟧。",
       "english": "Utilize the 5G frequency band.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08772_taiiki_ex6",
-      "japanese": "{帯域|たいいき}{幅|はば}を{増|ふ}やす{必要|ひつよう}がある。",
+      "japanese": "{帯域|たいいき}{幅|はば}⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to increase the bandwidth.",
       "sense_numbers": [
         1
@@ -78,7 +78,16 @@
       "notes": null
     }
   ],
-  "notes": "TECHNICAL TERM:\n{帯域|たいいき} is used in IT and telecommunications. In everyday contexts, it typically refers to internet connection speed/capacity.\n\nINTERNET COLLOCATIONS:\n- {帯域|たいいき}{不足|ふそく} - insufficient bandwidth\n- {帯域|たいいき}{制限|せいげん} - bandwidth throttling\n- {帯域|たいいき}{幅|はば} - bandwidth (width)\n- {広|ひろ}{帯域|たいいき} - broadband\n\nTELECOMMUNICATION COLLOCATIONS:\n- {周波数|しゅうはすう}{帯域|たいいき} - frequency band\n- 5G{帯域|たいいき} - 5G band\n\nRELATED TERMS:\n- {回線|かいせん}{速度|そくど} - line speed\n- スループット - throughput\n- {通信|つうしん}{容量|ようりょう} - communication capacity",
+  "notes": "TECHNICAL TERM:\n{帯域|たいいき} is used in IT and telecommunications. In everyday contexts, it typically refers to internet connection speed/capacity.\n\nINTERNET COLLOCATIONS:\n- {帯域|たいいき}⟦{不足|ふそく}→不足：03598_fusoku⟧ - insufficient bandwidth\n- {帯域|たいいき}⟦{制限|せいげん}→制限：03375_seigen⟧ - bandwidth throttling\n- {帯域|たいいき}{幅|はば} - bandwidth (width)\n- {広|ひろ}{帯域|たいいき} - broadband\n\nTELECOMMUNICATION COLLOCATIONS:\n- ⟦{周波数|しゅうはすう}→周波数：25041_shuuhasuu⟧{帯域|たいいき} - frequency band\n- 5G{帯域|たいいき} - 5G band\n\nRELATED WORDS:\n- ⟦{回線|かいせん}→回線：11094_kaisen⟧⟦{速度|そくど}→速度：03319_sokudo⟧ - line speed\n- ⟦スループット→スループット：08965_suruuputto⟧ - throughput\n- ⟦{通信|つうしん}→通信：03514_tsuushin⟧⟦{容量|ようりょう}→容量：04887_youryou⟧ - communication capacity",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08965_suruuputto",
+      "reading": "するーぷっと",
+      "headword": "スループット",
+      "label": "throughput"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -95,6 +104,6 @@
       ]
     },
     "created": "2026-01-28T04:51:23Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

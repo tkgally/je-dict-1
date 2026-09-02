@@ -3,7 +3,7 @@
   "headword": "{敬虔|けいけん}",
   "reading": "けいけん",
   "romaji": "keiken",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "pious; devout; reverent",
   "definitions": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "id": "30672_keiken_ex2",
-      "japanese": "{祖母|そぼ}は{毎朝|まいあさ}{敬虔|けいけん}な{気持|きも}ちで{仏壇|ぶつだん}に{手|て}を{合|あ}わせる。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{敬虔|けいけん}な{気持|きも}ち⟦で→で：00502_de⟧⟦{仏壇|ぶつだん}→仏壇：07116_butsudan⟧⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{合|あ}わせる→合わせる：01872_awaseru⟧。",
       "english": "Every morning my grandmother puts her hands together before the family altar in a reverent spirit.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30672_keiken_ex3",
-      "japanese": "{参拝者|さんぱいしゃ}たちは{敬虔|けいけん}な{面持|おもも}ちで{本殿|ほんでん}の{前|まえ}に{立|た}ち、{静|しず}かに{頭|あたま}を{下|さ}げた。",
+      "japanese": "⟦{参拝者|さんぱいしゃ}→参拝者：21620_sanpaisha⟧たち⟦は→は：00079_ha⟧{敬虔|けいけん}な{面持|おもも}ち⟦で→で：00502_de⟧⟦{本殿|ほんでん}→本殿：13090_honden⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{立|た}ち→立つ：00758_tatsu⟧、⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧⟦{下|さ}げた→下げる：00807_sageru⟧。",
       "english": "The worshippers stood before the main shrine with reverent expressions and quietly bowed their heads.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Chiefly written and formal; in speech, {信心深|しんじんぶか}い is the everyday equivalent.\n\nCOMMON COLLOCATIONS:\n- {敬虔|けいけん}な{信者|しんじゃ}: a devout believer\n- {敬虔|けいけん}な{祈|いの}り: a devout prayer\n- {敬虔|けいけん}な{気持|きも}ち: a reverent frame of mind\n- {敬虔|けいけん}に{祈|いの}る: to pray reverently\n\nSIMILAR WORDS:\n- {信心深|しんじんぶか}い: devout — the plain, conversational word\n- {厳|おごそ}か: solemn — describes the atmosphere of a ceremony rather than a person's faith",
+  "notes": "Chiefly written and formal; in speech, ⟦{信心深|しんじんぶか}い→信心深い：30677_shinjinbukai⟧ is the everyday equivalent.\n\nCOMMON COLLOCATIONS:\n- {敬虔|けいけん}な⟦{信者|しんじゃ}→信者：11565_shinja⟧: a devout believer\n- {敬虔|けいけん}な⟦{祈|いの}り→祈り：13732_inori⟧: a devout prayer\n- {敬虔|けいけん}な{気持|きも}ち: a reverent frame of mind\n- {敬虔|けいけん}⟦に→に：00314_ni⟧⟦{祈|いの}る→祈る：01198_inoru⟧: to pray reverently\n\nSIMILAR WORDS:\n- ⟦{信心深|しんじんぶか}い→信心深い：30677_shinjinbukai⟧: devout — the plain, conversational word\n- ⟦{厳|おごそ}か→厳か：11864_ogosoka⟧: solemn — describes the atmosphere of a ceremony rather than a person's faith",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30677_shinjinbukai",
+      "reading": "しんじんぶかい",
+      "headword": "{信心深|しんじんぶか}い",
+      "label": "devout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11864_ogosoka",
+      "reading": "おごそか",
+      "headword": "{厳|おごそ}か",
+      "label": "solemn"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "adjective-na"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "religion",
         "personality"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

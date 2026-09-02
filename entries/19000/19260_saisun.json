@@ -3,7 +3,7 @@
   "headword": "{採寸|さいすん}",
   "reading": "さいすん",
   "romaji": "saisun",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking measurements; measuring (for clothing)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19260_saisun_ex1",
-      "japanese": "スーツの{採寸|さいすん}をした。",
+      "japanese": "⟦スーツ→スーツ：01367_suutsu⟧⟦の→の：09472_no⟧{採寸|さいすん}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I had my measurements taken for a suit.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19260_saisun_ex2",
-      "japanese": "{採寸|さいすん}してからお{仕立|した}ていたします。",
+      "japanese": "{採寸|さいすん}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧お⟦{仕立|した}て→仕立てる：09525_shitateru⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "We'll take your measurements and then tailor it for you.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19260_saisun_ex3",
-      "japanese": "カーテンを{注文|ちゅうもん}する{前|まえ}に、{窓|まど}の{採寸|さいすん}を{忘|わす}れないでください。",
+      "japanese": "⟦カーテン→カーテン：01342_kaaten⟧⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}する→注文する：21390_chuumon⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧{採寸|さいすん}⟦を→を：00422_wo⟧⟦{忘|わす}れないで→忘れる：00474_wasureru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Don't forget to measure the windows before ordering curtains.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Most commonly used in clothing and tailoring contexts, but can also refer to measuring for furniture, curtains, or construction. Combines {採|さい} (to take/gather) and {寸|すん} (a unit of measurement).\n\nCOMMON COLLOCATIONS:\n- {採寸|さいすん}をする: to take measurements\n- {採寸|さいすん}に{行|い}く: to go for a fitting\n- {採寸|さいすん}{結果|けっか}: measurement results\n- {身体|しんたい}{採寸|さいすん}: body measurements\n\nSIMILAR WORDS:\n- {計測|けいそく}: measurement — more technical/scientific, used for instruments and precise data\n- {寸法|すんぽう}: dimensions, measurements — refers to the actual numbers/sizes rather than the act of measuring",
+  "notes": "Most commonly used in clothing and tailoring contexts, but can also refer to measuring for furniture, curtains, or construction. Combines {採|さい} (to take/gather) and {寸|すん} (a unit of measurement).\n\nCOMMON COLLOCATIONS:\n- {採寸|さいすん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to take measurements\n- {採寸|さいすん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go for a fitting\n- {採寸|さいすん}⟦{結果|けっか}→結果：02486_kekka⟧: measurement results\n- ⟦{身体|しんたい}→身体：03330_shintai⟧{採寸|さいすん}: body measurements\n\nSIMILAR WORDS:\n- ⟦{計測|けいそく}→計測：14189_keisoku⟧: measurement — more technical/scientific, used for instruments and precise data\n- ⟦{寸法|すんぽう}→寸法：04311_sunpou⟧: dimensions, measurements — refers to the actual numbers/sizes rather than the act of measuring",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14189_keisoku",
+      "reading": "けいそく",
+      "headword": "{計測|けいそく}",
+      "label": "measurement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04311_sunpou",
+      "reading": "すんぽう",
+      "headword": "{寸法|すんぽう}",
+      "label": "dimensions, measurements"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

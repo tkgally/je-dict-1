@@ -15,41 +15,83 @@
   "examples": [
     {
       "id": "18911_junrieki_ex1",
-      "japanese": "{純利益|じゅんりえき}が{増|ふ}えた。",
+      "japanese": "{純利益|じゅんりえき}⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Net profit increased.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18911_junrieki_ex2",
-      "japanese": "{今期|こんき}の{純利益|じゅんりえき}は{過去最高|かこさいこう}だった。",
+      "japanese": "⟦{今期|こんき}→今期：29530_konki⟧⟦の→の：09472_no⟧{純利益|じゅんりえき}⟦は→は：00079_ha⟧{過去最高|かこさいこう}だった。",
       "english": "This term's net profit was the highest ever.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18911_junrieki_ex3",
-      "japanese": "{売上|うりあげ}は{伸|の}びたが、{原材料費|げんざいりょうひ}の{高騰|こうとう}で{純利益|じゅんりえき}は{減少|げんしょう}した。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦は→は：00079_ha⟧⟦{伸|の}びた→伸びる：01974_nobiru⟧⟦が→が：00051_ga⟧、{原材料費|げんざいりょうひ}⟦の→の：09472_no⟧⟦{高騰|こうとう}→高騰：14647_koutou⟧⟦で→で：00502_de⟧{純利益|じゅんりえき}⟦は→は：00079_ha⟧⟦{減少|げんしょう}した→減少する：19026_genshousuru⟧。",
       "english": "Sales grew, but net profit decreased due to rising raw material costs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {純|じゅん} (net, pure) + {利益|りえき} (profit). Abbreviated as {純益|じゅんえき}. Contrast with {粗利益|あらりえき} or {売上総利益|うりあげそうりえき} (gross profit — before deducting operating expenses) and {営業利益|えいぎょうりえき} (operating profit — before deducting taxes and non-operating items). Common collocations: {純利益|じゅんりえき}が{増加|ぞうか}する (net profit increases), {純利益|じゅんりえき}を{計上|けいじょう}する (to post net profit).",
+  "notes": "Composed of ⟦{純|じゅん}→純〜：28361_jun⟧ (net, pure) + ⟦{利益|りえき}→利益：03673_rieki⟧ (profit). Abbreviated as {純益|じゅんえき}. Contrast with {粗利益|あらりえき} or {売上総利益|うりあげそうりえき} (gross profit — before deducting operating expenses) and ⟦{営業利益|えいぎょうりえき}→営業利益：22690_eigyourieki⟧ (operating profit — before deducting taxes and non-operating items). Common collocations: {純利益|じゅんりえき}⟦が→が：00051_ga⟧⟦{増加|ぞうか}→増加：03329_zouka⟧⟦する→する：00392_suru⟧ (net profit increases), {純利益|じゅんりえき}⟦を→を：00422_wo⟧⟦{計上|けいじょう}→計上：08006_keijou⟧⟦する→する：00392_suru⟧ (to post net profit).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06302_shuueki",
+      "reading": "しゅうえき",
+      "headword": "{収益|しゅうえき}",
+      "label": "earnings"
+    },
+    {
+      "type": "related",
+      "target_id": "07958_arari",
+      "reading": "あらり",
+      "headword": "{粗利|あらり}",
+      "label": "gross profit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22690_eigyourieki",
+      "reading": "えいぎょうりえき",
+      "headword": "{営業利益|えいぎょうりえき}",
+      "label": "operating profit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24646_keijourieki",
+      "reading": "けいじょうりえき",
+      "headword": "{経常利益|けいじょうりえき}",
+      "label": "ordinary profit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-23T09:25:51Z",
-    "modified": "2026-03-23T09:25:51Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

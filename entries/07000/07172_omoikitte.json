@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07172_omoikitte_ex1",
-      "japanese": "{思|おも}い{切|き}って{告白|こくはく}した。",
+      "japanese": "{思|おも}い{切|き}って⟦{告白|こくはく}した→告白する：19631_kokuhakusuru⟧。",
       "english": "I boldly confessed my feelings.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07172_omoikitte_ex2",
-      "japanese": "{思|おも}い{切|き}って{会社|かいしゃ}を{辞|や}めた。",
+      "japanese": "{思|おも}い{切|き}って⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧{辞|や}めた。",
       "english": "I took the plunge and quit the company.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07172_omoikitte_ex3",
-      "japanese": "{思|おも}い{切|き}って{聞|き}いてみたら、{案外|あんがい}あっさりOKだった。",
+      "japanese": "{思|おも}い{切|き}って⟦{聞|き}いて→聞く：00483_kiku⟧みたら、⟦{案外|あんがい}→案外：01699_angai⟧⟦あっさり→あっさり：05650_assari⟧OKだった。",
       "english": "When I boldly asked, they surprisingly agreed easily.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{思|おも}い{切|き}る (to make up one's mind) → {思|おも}い{切|き}って (te-form as adverb)\n\nNUANCE:\nImplies overcoming hesitation or fear to take action. Often used when doing something one has been putting off or afraid to do.\n\nRELATED FORMS:\n・{思|おも}い{切|き}り - to one's heart's content; with all one's might\n・{思|おも}い{切|き}った - bold, decisive (adjective use)\n\nCOLLOCATIONS:\n・{思|おも}い{切|き}って{言|い}う - to speak up boldly\n・{思|おも}い{切|き}って{挑戦|ちょうせん}する - to take on a challenge boldly\n・{思|おも}い{切|き}った{決断|けつだん} - a bold decision\n・{思|おも}い{切|き}った{行動|こうどう} - bold action\n\nSIMILAR WORDS:\n・{大胆|だいたん}に - boldly\n・{勇気|ゆうき}を{出|だ}して - courageously",
+  "notes": "FORMS:\n⟦{思|おも}い{切|き}る→思い切る：04590_omoikiru⟧ (to make up one's mind) → {思|おも}い{切|き}って (te-form as adverb)\n- ⟦{思|おも}い{切|き}り→思い切り：08527_omoikiri⟧ - to one's heart's content; with all one's might\n- ⟦{思|おも}い{切|き}った→思い切る：04590_omoikiru⟧ - bold, decisive (adjective use)\n\nUSAGE:\nImplies overcoming hesitation or fear to take action. Often used when doing something one has been putting off or afraid to do.\n\nCOMMON COLLOCATIONS:\n- {思|おも}い{切|き}って⟦{言|い}う→言う：00515_iu⟧ - to speak up boldly\n- {思|おも}い{切|き}って⟦{挑戦|ちょうせん}する→挑戦する：21602_chousensuru⟧ - to take on a challenge boldly\n- ⟦{思|おも}い{切|き}った→思い切る：04590_omoikiru⟧⟦{決断|けつだん}→決断：13250_ketsudan⟧ - a bold decision\n- ⟦{思|おも}い{切|き}った→思い切る：04590_omoikiru⟧⟦{行動|こうどう}→行動：02728_koudou⟧ - bold action\n\nSIMILAR WORDS:\n- ⟦{大胆|だいたん}→大胆：07609_daitan⟧⟦に→に：00314_ni⟧ - boldly\n- ⟦{勇気|ゆうき}→勇気：02499_yuuki⟧⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧ - courageously",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{思|おも}い{切|き}り",
       "label": "to one's heart's content",
       "target_id": "08527_omoikiri"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07609_daitan",
+      "reading": "だいたん",
+      "headword": "{大胆|だいたん}",
+      "label": "boldly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20574_issonokoto",
+      "reading": "いっそのこと",
+      "headword": "いっそのこと",
+      "label": "might as well"
     }
   ],
   "metadata": {
     "created": "2026-01-19T03:02:32Z",
-    "modified": "2026-04-19T04:14:33Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16936_kinkyuujitai_ex1",
-      "japanese": "{緊急事態|きんきゅうじたい}が{発生|はっせい}した。",
+      "japanese": "{緊急事態|きんきゅうじたい}⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "An emergency situation occurred.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16936_kinkyuujitai_ex2",
-      "japanese": "{政府|せいふ}は{緊急事態宣言|きんきゅうじたいせんげん}を{発令|はつれい}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{緊急事態宣言|きんきゅうじたいせんげん}⟦を→を：00422_wo⟧⟦{発令|はつれい}→発令：09516_hatsurei⟧⟦した→する：00392_suru⟧。",
       "english": "The government issued a state of emergency declaration.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16936_kinkyuujitai_ex3",
-      "japanese": "{大地震|おおじしん}に{備|そな}えて、{緊急事態|きんきゅうじたい}の{際|さい}にどう{行動|こうどう}するか{家族|かぞく}で{話|はな}し{合|あ}っておくべきだ。",
+      "japanese": "⟦{大地震|おおじしん}→大地震：12276_oojishin⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧、{緊急事態|きんきゅうじたい}⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧⟦どう→どう：00543_dou⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧⟦か→か：09473_ka⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{話|はな}し{合|あ}って→話し合う：02396_hanashiau⟧おくべきだ。",
       "english": "You should discuss with your family how to act in an emergency to prepare for a major earthquake.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nWidely used in news, government announcements, and disaster preparedness. Became especially well-known during the COVID-19 pandemic through {緊急事態宣言|きんきゅうじたいせんげん} (state of emergency declaration).\n\nCOMMON COLLOCATIONS:\n- {緊急事態宣言|きんきゅうじたいせんげん} (state of emergency declaration)\n- {緊急事態|きんきゅうじたい}{条項|じょうこう} (emergency provisions/clause)\n- {緊急事態|きんきゅうじたい}が{発生|はっせい}する (an emergency occurs)\n- {緊急事態|きんきゅうじたい}に{備|そな}える (to prepare for an emergency)\n- {緊急事態|きんきゅうじたい}に{陥|おちい}る (to fall into a crisis)\n\nFORMATION:\n{緊急|きんきゅう} (urgent, emergency) + {事態|じたい} (situation, state of affairs).\n\nSIMILAR WORDS:\n- {非常事態|ひじょうじたい}: emergency — almost synonymous, slightly more formal\n- {有事|ゆうじ}: contingency, emergency — often used in military or national security contexts",
+  "notes": "USAGE:\nWidely used in news, government announcements, and disaster preparedness. Became especially well-known during the COVID-19 pandemic through {緊急事態宣言|きんきゅうじたいせんげん} (state of emergency declaration).\n\nCOMMON COLLOCATIONS:\n- {緊急事態宣言|きんきゅうじたいせんげん} (state of emergency declaration)\n- {緊急事態|きんきゅうじたい}⟦{条項|じょうこう}→条項：18974_joukou⟧ (emergency provisions/clause)\n- {緊急事態|きんきゅうじたい}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧ (an emergency occurs)\n- {緊急事態|きんきゅうじたい}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧ (to prepare for an emergency)\n- {緊急事態|きんきゅうじたい}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧ (to fall into a crisis)\n\nFORMS:\n⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧ (urgent, emergency) + ⟦{事態|じたい}→事態：10151_jitai⟧ (situation, state of affairs).\n\nSIMILAR WORDS:\n- ⟦{非常事態|ひじょうじたい}→非常事態：17519_hijoujitai⟧: emergency — almost synonymous, slightly more formal\n- ⟦{有事|ゆうじ}→有事：13078_yuuji⟧: contingency, emergency — often used in military or national security contexts",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "ひじょうじたい",
       "headword": "{非常事態|ひじょうじたい}",
       "label": "emergency (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13078_yuuji",
+      "reading": "ゆうじ",
+      "headword": "{有事|ゆうじ}",
+      "label": "contingency, emergency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30241_hijouji",
+      "reading": "ひじょうじ",
+      "headword": "{非常時|ひじょうじ}",
+      "label": "emergency"
     }
   ],
   "metadata": {
     "created": "2026-03-15T02:16:00Z",
-    "modified": "2026-05-05T05:04:25Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

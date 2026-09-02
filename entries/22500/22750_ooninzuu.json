@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22750_ooninzuu_ex1",
-      "japanese": "{大人数|おおにんずう}での{食事|しょくじ}は{楽|たの}しい。",
+      "japanese": "{大人数|おおにんずう}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦は→は：00079_ha⟧⟦{楽|たの}しい→楽しい：00817_tanoshii⟧。",
       "english": "Eating with a large group is fun.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22750_ooninzuu_ex2",
-      "japanese": "{大人数|おおにんずう}に{対応|たいおう}できるレストランを{探|さが}している。",
+      "japanese": "{大人数|おおにんずう}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦できる→できる：00557_dekiru⟧⟦レストラン→レストラン：01048_resutoran⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a restaurant that can accommodate a large group.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22750_ooninzuu_ex3",
-      "japanese": "{大人数|おおにんずう}での{旅行|りょこう}は{予約|よやく}が{大変|たいへん}だが、{割引|わりびき}が{効|き}くこともある。",
+      "japanese": "{大人数|おおにんずう}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦は→は：00079_ha⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ⟦が→が：00051_ga⟧、⟦{割引|わりびき}→割引：01526_waribiki⟧⟦が→が：00051_ga⟧⟦{効|き}く→効く：01932_kiku⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Traveling with a large group makes reservations difficult, but sometimes you can get discounts.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {大|おお} ('large') and {人数|にんずう} ('number of people'). A practical everyday word used when discussing group size for events, dining, travel, and other activities. Often appears in restaurant listings and event descriptions.\n\nCOMMON COLLOCATIONS:\n- {大人数|おおにんずう}での{宴会|えんかい}: banquet for a large group\n- {大人数|おおにんずう}に{対応|たいおう}: accommodating large groups\n- {大人数|おおにんずう}{歓迎|かんげい}: large groups welcome\n- {大人数|おおにんずう}での{予約|よやく}: reservation for a large group\n\nSIMILAR WORDS:\n- {少人数|しょうにんずう}: small number of people — the opposite term\n- {大勢|おおぜい}: many people, a crowd — emphasizes the presence of many people rather than group size\n- {団体|だんたい}: group, party — an organized group, often used for group bookings",
+  "notes": "Composed of {大|おお} ('large') and ⟦{人数|にんずう}→人数：03132_ninzuu⟧ ('number of people'). A practical everyday word used when discussing group size for events, dining, travel, and other activities. Often appears in restaurant listings and event descriptions.\n\nCOMMON COLLOCATIONS:\n- {大人数|おおにんずう}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{宴会|えんかい}→宴会：04104_enkai⟧: banquet for a large group\n- {大人数|おおにんずう}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧: accommodating large groups\n- {大人数|おおにんずう}⟦{歓迎|かんげい}→歓迎：02557_kangei⟧: large groups welcome\n- {大人数|おおにんずう}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{予約|よやく}→予約：01522_yoyaku⟧: reservation for a large group\n\nSIMILAR WORDS:\n- ⟦{少人数|しょうにんずう}→少人数：12465_shouninzuu⟧: small number of people — the opposite term\n- ⟦{大勢|おおぜい}→大勢：02850_oozei⟧: many people, a crowd — emphasizes the presence of many people rather than group size\n- ⟦{団体|だんたい}→団体：03426_dantai⟧: group, party — an organized group, often used for group bookings",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,27 @@
       "reading": "しょうにんずう",
       "headword": "{少人数|しょうにんずう}",
       "label": "small number of people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02850_oozei",
+      "reading": "おおぜい",
+      "headword": "{大勢|おおぜい}",
+      "label": "many people, a crowd"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03426_dantai",
+      "reading": "だんたい",
+      "headword": "{団体|だんたい}",
+      "label": "group, party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18575_taninzuu",
+      "reading": "たにんずう",
+      "headword": "{多人数|たにんずう}",
+      "label": "large number of people"
     }
   ],
   "schema_version": "2.0",
@@ -69,6 +90,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T14:16:53Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

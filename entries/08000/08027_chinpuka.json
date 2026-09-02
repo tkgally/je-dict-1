@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08027_chinpuka_ex1",
-      "japanese": "{技術|ぎじゅつ}の{陳腐化|ちんぷか}が{速|はや}い。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧{陳腐化|ちんぷか}⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧。",
       "english": "Technology becomes obsolete quickly.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08027_chinpuka_ex2",
-      "japanese": "{製品|せいひん}の{陳腐化|ちんぷか}に{対応|たいおう}する。",
+      "japanese": "⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧{陳腐化|ちんぷか}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧。",
       "english": "To respond to product obsolescence.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08027_chinpuka_ex3",
-      "japanese": "{計画的|けいかくてき}{陳腐化|ちんぷか}という{戦略|せんりゃく}がある。",
+      "japanese": "⟦{計画的|けいかくてき}→計画的：21003_keikakuteki⟧{陳腐化|ちんぷか}⟦という→という：09577_toiu⟧⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a strategy called planned obsolescence.",
       "sense_numbers": [
         1
@@ -133,7 +133,30 @@
       "notes": null
     }
   ],
-  "notes": "{陳腐化|ちんぷか} refers to things becoming outdated or obsolete.\n\nKANJI BREAKDOWN:\n- {陳|ちん} (display, old)\n- {腐|ふ} (rotten, stale)\n- {化|か} (-ization)\n\nCOMMON COLLOCATIONS:\n- {技術|ぎじゅつ}の{陳腐化|ちんぷか} (technological obsolescence)\n- {製品|せいひん}の{陳腐化|ちんぷか} (product obsolescence)\n- {計画的|けいかくてき}{陳腐化|ちんぷか} (planned obsolescence)\n- {陳腐化|ちんぷか}{対策|たいさく} (obsolescence countermeasures)\n\nUSAGE:\n- {陳腐化|ちんぷか}する (to become obsolete - suru verb)\n- {陳腐化|ちんぷか}が{進|すす}む (obsolescence advances)\n\nBUSINESS CONCEPT:\n{計画的|けいかくてき}{陳腐化|ちんぷか} (planned obsolescence) refers to deliberately designing products to become outdated, encouraging consumers to buy new versions.\n\nRELATED TERMS:\n- {陳腐|ちんぷ} (stale, hackneyed)\n- {時代遅|じだいおく}れ (out of date)\n- {旧式|きゅうしき} (old-fashioned)",
+  "notes": "{陳腐化|ちんぷか} refers to things becoming outdated or obsolete.\n\nWRITING:\n- {陳|ちん} (display, old)\n- {腐|ふ} (rotten, stale)\n- ⟦{化|か}→〜化：28335_ka⟧ (-ization)\n\nCOMMON COLLOCATIONS:\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧{陳腐化|ちんぷか} (technological obsolescence)\n- ⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧{陳腐化|ちんぷか} (product obsolescence)\n- ⟦{計画的|けいかくてき}→計画的：21003_keikakuteki⟧{陳腐化|ちんぷか} (planned obsolescence)\n- {陳腐化|ちんぷか}⟦{対策|たいさく}→対策：02511_taisaku⟧ (obsolescence countermeasures)\n\nUSAGE:\n- {陳腐化|ちんぷか}⟦する→する：00392_suru⟧ (to become obsolete - suru verb)\n- {陳腐化|ちんぷか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧ (obsolescence advances)\n\nBUSINESS CONCEPT:\n⟦{計画的|けいかくてき}→計画的：21003_keikakuteki⟧{陳腐化|ちんぷか} (planned obsolescence) refers to deliberately designing products to become outdated, encouraging consumers to buy new versions.\n\nRELATED WORDS:\n- ⟦{陳腐|ちんぷ}→陳腐：09068_chinpu⟧ (stale, hackneyed)\n- ⟦{時代遅|じだいおく}れ→時代遅れ：12719_jidaiokure⟧ (out of date)\n- ⟦{旧式|きゅうしき}→旧式：28150_kyuushiki⟧ (old-fashioned)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12719_jidaiokure",
+      "reading": "じだいおくれ",
+      "headword": "{時代遅|じだいおく}れ",
+      "label": "out of date"
+    },
+    {
+      "type": "related",
+      "target_id": "28150_kyuushiki",
+      "reading": "きゅうしき",
+      "headword": "{旧式|きゅうしき}",
+      "label": "old-fashioned"
+    },
+    {
+      "type": "related",
+      "target_id": "07645_keigaika",
+      "reading": "けいがいか",
+      "headword": "{形骸化|けいがいか}",
+      "label": "becoming nominal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "domain": [
         "business",
         "technical"
@@ -153,6 +177,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T00:32:35Z",
-    "modified": "2026-02-19T12:32:33Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

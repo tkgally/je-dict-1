@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28344_jitsu_ex1",
-      "japanese": "{実|じつ}の{母親|ははおや}に{会|あ}った。",
+      "japanese": "{実|じつ}⟦の→の：09472_no⟧⟦{母親|ははおや}→母親：03564_hahaoya⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "I met my biological mother.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28344_jitsu_ex2",
-      "japanese": "{実|じつ}を{言|い}うと、まだ{決|き}めていない。",
+      "japanese": "{実|じつ}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧、⟦まだ→まだ：00603_mada⟧⟦{決|き}めていない→決める：00858_kimeru⟧。",
       "english": "To tell the truth, I haven't decided yet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28344_jitsu_ex3",
-      "japanese": "{彼女|かのじょ}は{義理|ぎり}の{姉|あね}で、{実|じつ}の{姉|あね}ではない。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{義理|ぎり}→義理：10891_giri⟧⟦の→の：09472_no⟧⟦{姉|あね}→姉：00571_ane⟧で、{実|じつ}⟦の→の：09472_no⟧⟦{姉|あね}→姉：00571_ane⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "She's my sister-in-law, not my biological sister.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Sino-Japanese reading of {実} meaning 'real' or 'actual'. Functions as a noun mainly in the fixed pattern {実|じつ}の〜 (biological/real ~) and a few set phrases. The same kanji is also read み (fruit; substance) as a separate everyday word.\n\nCOMMON COLLOCATIONS:\n- {実|じつ}の{母|はは} / {父|ちち} / {兄|あに} / {姉|あね}: biological mother/father/brother/sister\n- {実|じつ}の{親|おや}: biological parent\n- {実|じつ}を{言|い}うと / {実|じつ}を{言|い}えば: to tell the truth\n- {実|じつ}のところ: actually; in fact\n- {実|じつ}は: actually (sentence-initial)\n\nSIMILAR WORDS:\n- {本当|ほんとう}: real; true — the everyday equivalent\n- {現実|げんじつ}: reality — abstract; the real world as opposed to imagination\n- {本物|ほんもの}: the real thing — refers to objects, contrasted with fakes",
+  "notes": "Sino-Japanese reading of {実} meaning 'real' or 'actual'. Functions as a noun mainly in the fixed pattern {実|じつ}⟦の→の：09472_no⟧〜 (biological/real ~) and a few set phrases. The same kanji is also read み (fruit; substance) as a separate everyday word.\n\nCOMMON COLLOCATIONS:\n- {実|じつ}⟦の→の：09472_no⟧⟦{母|はは}→母：00549_haha⟧ / ⟦{父|ちち}→父：00566_chichi⟧ / ⟦{兄|あに}→兄：00570_ani⟧ / ⟦{姉|あね}→姉：00571_ane⟧: biological mother/father/brother/sister\n- {実|じつ}⟦の→の：09472_no⟧⟦{親|おや}→親：01357_oya⟧: biological parent\n- {実|じつ}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧ / {実|じつ}⟦を→を：00422_wo⟧⟦{言|い}えば→言う：00515_iu⟧: to tell the truth\n- {実|じつ}⟦の→の：09472_no⟧⟦ところ→ところ：01137_tokoro⟧: actually; in fact\n- {実|じつ}⟦は→は：00079_ha⟧: actually (sentence-initial)\n\nSIMILAR WORDS:\n- ⟦{本当|ほんとう}→本当：00779_hontou⟧: real; true — the everyday equivalent\n- ⟦{現実|げんじつ}→現実：02720_genjitsu⟧: reality — abstract; the real world as opposed to imagination\n- ⟦{本物|ほんもの}→本物：03628_honmono⟧: the real thing — refers to objects, contrasted with fakes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00779_hontou",
+      "reading": "ほんとう",
+      "headword": "{本当|ほんとう}",
+      "label": "real"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03628_honmono",
+      "reading": "ほんもの",
+      "headword": "{本物|ほんもの}",
+      "label": "the real thing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-05-29T03:08:25Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

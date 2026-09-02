@@ -3,7 +3,7 @@
   "headword": "{惜|お}しみない",
   "reading": "おしみない",
   "romaji": "oshiminai",
-  "part_of_speech": "adjective",
+  "part_of_speech": "i-adjective",
   "gloss": "unstinting; generous; wholehearted",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22599_oshiminai_ex1",
-      "japanese": "{惜|お}しみない{拍手|はくしゅ}が{送|おく}られた。",
+      "japanese": "{惜|お}しみない⟦{拍手|はくしゅ}→拍手：03553_hakushu⟧⟦が→が：00051_ga⟧⟦{送|おく}られた→送る：00742_okuru⟧。",
       "english": "Generous applause was given.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22599_oshiminai_ex2",
-      "japanese": "{彼女|かのじょ}は{努力|どりょく}を{惜|お}しみない{人|ひと}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧{惜|お}しみない⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "She is a person who spares no effort.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22599_oshiminai_ex3",
-      "japanese": "チームの{勝利|しょうり}に{対|たい}して、ファンから{惜|お}しみない{賞賛|しょうさん}が{寄|よ}せられた。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧、⟦ファン→ファン：10065_fan⟧⟦から→から：00504_kara⟧{惜|お}しみない⟦{賞賛|しょうさん}→賞賛：14277_shousan⟧⟦が→が：00051_ga⟧⟦{寄|よ}せられた→寄せる：02329_yoseru⟧。",
       "english": "The team's victory drew wholehearted praise from the fans.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {惜|お}しむ (to begrudge, to be reluctant to part with) + ない (negation). Literally means \"not begrudging\" or \"not holding back.\" Almost always used in positive contexts to praise generosity of praise, effort, or support. The adverbial form {惜|お}しみなく is also very common.\n\nCOMMON COLLOCATIONS:\n- {惜|お}しみない{拍手|はくしゅ}: generous applause\n- {惜|お}しみない{賞賛|しょうさん}: unstinting praise\n- {惜|お}しみない{協力|きょうりょく}: wholehearted cooperation\n- {努力|どりょく}を{惜|お}しみない: to spare no effort\n- {惜|お}しみなく{与|あた}える: to give generously\n\nSIMILAR WORDS:\n- {惜|お}しみなく: unstintingly — the adverbial form, used to modify verbs\n- {気前|きまえ}がいい: generous — describes a person's general disposition to give freely\n- {惜|お}しむ: to begrudge; to be reluctant — the base verb with opposite meaning",
+  "notes": "Formed from ⟦{惜|お}しむ→惜しむ：09610_oshimu⟧ (to begrudge, to be reluctant to part with) + ⟦ない→ない：01118_nai⟧ (negation). Literally means \"not begrudging\" or \"not holding back.\" Almost always used in positive contexts to praise generosity of praise, effort, or support. The adverbial form {惜|お}しみなく is also very common.\n\nCOMMON COLLOCATIONS:\n- {惜|お}しみない⟦{拍手|はくしゅ}→拍手：03553_hakushu⟧: generous applause\n- {惜|お}しみない⟦{賞賛|しょうさん}→賞賛：14277_shousan⟧: unstinting praise\n- {惜|お}しみない⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧: wholehearted cooperation\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧{惜|お}しみない: to spare no effort\n- {惜|お}しみなく⟦{与|あた}える→与える：01821_ataeru⟧: to give generously\n\nSIMILAR WORDS:\n- {惜|お}しみなく: unstintingly — the adverbial form, used to modify verbs\n- ⟦{気前|きまえ}がいい→気前がいい：20378_kimaegaii⟧: generous — describes a person's general disposition to give freely\n- ⟦{惜|お}しむ→惜しむ：09610_oshimu⟧: to begrudge; to be reluctant — the base verb with opposite meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20378_kimaegaii",
+      "reading": "きまえがいい",
+      "headword": "{気前|きまえ}がいい",
+      "label": "generous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09610_oshimu",
+      "reading": "おしむ",
+      "headword": "{惜|お}しむ",
+      "label": "to begrudge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +76,7 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T19:15:50Z",
-    "modified": "2026-04-06T19:15:50Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "i-adjective",

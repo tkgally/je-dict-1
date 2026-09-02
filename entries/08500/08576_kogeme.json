@@ -14,38 +14,66 @@
   "examples": [
     {
       "id": "08576_kogeme_ex1",
-      "japanese": "{肉|にく}に{焦|こ}げ{目|め}をつける。",
+      "japanese": "⟦{肉|にく}→肉：02240_niku⟧⟦に→に：00314_ni⟧{焦|こ}げ{目|め}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "Sear the meat to get char marks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08576_kogeme_ex2",
-      "japanese": "いい{焦|こ}げ{目|め}がついた。",
+      "japanese": "⟦いい→いい：00118_ii⟧{焦|こ}げ{目|め}⟦が→が：00051_ga⟧ついた。",
       "english": "Nice browning marks formed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08576_kogeme_ex3",
-      "japanese": "グラタンに{焦|こ}げ{目|め}がつくまでオーブンで{焼|や}く。",
+      "japanese": "グラタン⟦に→に：00314_ni⟧{焦|こ}げ{目|め}⟦が→が：00051_ga⟧つく⟦まで→まで：00490_made⟧⟦オーブン→オーブン：04674_oobun⟧⟦で→で：00502_de⟧⟦{焼|や}く→焼く：01123_yaku⟧。",
       "english": "Bake the gratin in the oven until it gets browned on top.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COOKING TERM:\n{焦|こ}げ{目|め} refers to the desirable browning or char marks on food, which adds flavor through the Maillard reaction and caramelization.\n\nCOMMON EXPRESSIONS:\n- {焦|こ}げ{目|め}をつける - to brown/sear (to create char marks)\n- {焦|こ}げ{目|め}がつく - char marks form\n- きれいな{焦|こ}げ{目|め} - nice browning\n\nDESIRABLE VS BURNT:\n{焦|こ}げ{目|め} (desirable browning) is different from {焦|こ}げ (burnt). Good {焦|こ}げ{目|め} adds:\n- Flavor depth\n- Visual appeal\n- Crispy texture\n\nCOMMON DISHES:\n- グラタン - gratin (browned cheese on top)\n- {焼|や}き{魚|ざかな} - grilled fish\n- ステーキ - steak\n- {焼|や}きおにぎり - grilled rice ball",
+  "notes": "COOKING TERM:\n{焦|こ}げ{目|め} refers to the desirable browning or char marks on food, which adds flavor through the Maillard reaction and caramelization.\n\nCOMMON EXPRESSIONS:\n- {焦|こ}げ{目|め}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ - to brown/sear (to create char marks)\n- {焦|こ}げ{目|め}⟦が→が：00051_ga⟧つく - char marks form\n- ⟦きれい→きれい：00717_kirei⟧な{焦|こ}げ{目|め} - nice browning\n\nDESIRABLE VS BURNT:\n{焦|こ}げ{目|め} (desirable browning) is different from {焦|こ}げ (burnt). Good {焦|こ}げ{目|め} adds:\n- Flavor depth\n- Visual appeal\n- Crispy texture\n\nCOMMON DISHES:\n- グラタン - gratin (browned cheese on top)\n- ⟦{焼|や}き{魚|ざかな}→焼き魚：13406_yakizakana⟧ - grilled fish\n- ⟦ステーキ→ステーキ：01369_suteeki⟧ - steak\n- {焼|や}き⟦おにぎり→おにぎり：04956_onigiri⟧ - grilled rice ball",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20635_okoge",
+      "reading": "おこげ",
+      "headword": "お{焦|こ}げ",
+      "label": "scorched rice crust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23752_yakime",
+      "reading": "やきめ",
+      "headword": "{焼|や}き{目|め}",
+      "label": "browned surface"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["cooking", "food"]
+      "politeness": "plain",
+      "semantic": [
+        "cooking",
+        "food"
+      ]
     },
     "created": "2026-01-27T11:45:00Z",
-    "modified": "2026-01-27T11:45:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

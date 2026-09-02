@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29275_yuukikagoubutsu_ex1",
-      "japanese": "{砂糖|さとう}は{有機化合物|ゆうきかごうぶつ}だ。",
+      "japanese": "⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦は→は：00079_ha⟧{有機化合物|ゆうきかごうぶつ}だ。",
       "english": "Sugar is an organic compound.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29275_yuukikagoubutsu_ex2",
-      "japanese": "{有機化合物|ゆうきかごうぶつ}は{炭素|たんそ}を{含|ふく}んでいる。",
+      "japanese": "{有機化合物|ゆうきかごうぶつ}⟦は→は：00079_ha⟧⟦{炭素|たんそ}→炭素：06583_tanso⟧⟦を→を：00422_wo⟧⟦{含|ふく}んでいる→含む：01982_fukumu⟧。",
       "english": "Organic compounds contain carbon.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29275_yuukikagoubutsu_ex3",
-      "japanese": "この{研究室|けんきゅうしつ}では{新|あたら}しい{有機化合物|ゆうきかごうぶつ}の{合成|ごうせい}に{取|と}り{組|く}んでいる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{研究室|けんきゅうしつ}→研究室：01397_kenkyuushitsu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{有機化合物|ゆうきかごうぶつ}⟦の→の：09472_no⟧⟦{合成|ごうせい}→合成：12027_gousei⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んでいる→取り組む：04225_torikumu⟧。",
       "english": "This laboratory is working on synthesizing new organic compounds.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A basic term in chemistry. The defining feature is a carbon skeleton; living things and the substances derived from them are made largely of organic compounds.\n\nCOMMON COLLOCATIONS:\n- {有機化合物|ゆうきかごうぶつ}の{合成|ごうせい}: synthesis of organic compounds\n- {揮発性|きはつせい}{有機化合物|ゆうきかごうぶつ}: volatile organic compound (VOC)\n\nSIMILAR WORDS:\n- {無機化合物|むきかごうぶつ}: inorganic compound — the contrasting category\n- {化合物|かごうぶつ}: compound — the general term for a substance of two or more elements",
+  "notes": "A basic term in chemistry. The defining feature is a carbon skeleton; living things and the substances derived from them are made largely of organic compounds.\n\nCOMMON COLLOCATIONS:\n- {有機化合物|ゆうきかごうぶつ}⟦の→の：09472_no⟧⟦{合成|ごうせい}→合成：12027_gousei⟧: synthesis of organic compounds\n- {揮発性|きはつせい}{有機化合物|ゆうきかごうぶつ}: volatile organic compound (VOC)\n\nSIMILAR WORDS:\n- {無機化合物|むきかごうぶつ}: inorganic compound — the contrasting category\n- ⟦{化合物|かごうぶつ}→化合物：25020_kagoubutsu⟧: compound — the general term for a substance of two or more elements",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24274_yuukibutsu",
+      "reading": "ゆうきぶつ",
+      "headword": "{有機物|ゆうきぶつ}",
+      "label": "organic matter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-06-15T21:19:05Z",
-    "modified": "2026-06-15T21:19:05Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

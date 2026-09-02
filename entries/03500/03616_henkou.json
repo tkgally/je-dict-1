@@ -2,7 +2,7 @@
   "id": "03616_henkou",
   "headword": "{変更|へんこう}",
   "reading": "へんこう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "change, modification",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03616_henkou_ex1",
-      "japanese": "⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧{変更|へんこう}する。",
+      "japanese": "⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧{変更|へんこう}⟦する→する：00392_suru⟧。",
       "english": "To change the schedule.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {変更|へんこう} implies a deliberate, intentional change, often to plans, rules, or arrangements.\n\nCOMMON PATTERNS:\n・{変更|へんこう}する (to change/modify)\n・{変更|へんこう}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to make changes)\n・{変更|へんこう}⟦{点|てん}→点：01553_ten⟧ (change points)\n・{変更|へんこう}⟦{届|とどけ}→届け：07558_todoke⟧ (change notification form)\n\nCONTRAST WITH ⟦{変化|へんか}→変化：03615_henka⟧:\n・⟦{変化|へんか}→変化：03615_henka⟧ - general change (can be natural or spontaneous)\n・{変更|へんこう} - deliberate modification (intentional action)",
+  "notes": "USAGE: {変更|へんこう} implies a deliberate, intentional change, often to plans, rules, or arrangements.\n\nCOMMON PATTERNS:\n- {変更|へんこう}⟦する→する：00392_suru⟧ (to change/modify)\n- {変更|へんこう}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to make changes)\n- {変更|へんこう}⟦{点|てん}→点：01553_ten⟧ (change points)\n- {変更|へんこう}⟦{届|とどけ}→届け：07558_todoke⟧ (change notification form)\n\nCONTRAST WITH ⟦{変化|へんか}→変化：03615_henka⟧:\n- ⟦{変化|へんか}→変化：03615_henka⟧ - general change (can be natural or spontaneous)\n- {変更|へんこう} - deliberate modification (intentional action)",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,25 @@
       "headword": "{変化|へんか}",
       "label": "change",
       "target_id": "03615_henka"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18958_kakikae",
+      "reading": "かきかえ",
+      "headword": "{書|か}き{換|か}え",
+      "label": "rewriting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21717_kaihen",
+      "reading": "かいへん",
+      "headword": "{改変|かいへん}",
+      "label": "alteration"
     }
   ],
   "metadata": {
     "created": "2026-01-12T15:36:00Z",
-    "modified": "2026-05-26T18:37:32Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,7 +172,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,39 +15,62 @@
   "examples": [
     {
       "id": "29200_suieisenshu_ex1",
-      "japanese": "{彼|かれ}は{優秀|ゆうしゅう}な{水泳選手|すいえいせんしゅ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧な{水泳選手|すいえいせんしゅ}だ。",
       "english": "He is an outstanding competitive swimmer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29200_suieisenshu_ex2",
-      "japanese": "{水泳選手|すいえいせんしゅ}は{毎日|まいにち}{早朝|そうちょう}から{練習|れんしゅう}する。",
+      "japanese": "{水泳選手|すいえいせんしゅ}⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{早朝|そうちょう}→早朝：03109_souchou⟧⟦から→から：00504_kara⟧⟦{練習|れんしゅう}する→練習する：22991_renshuusuru⟧。",
       "english": "Competitive swimmers practice from early morning every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29200_suieisenshu_ex3",
-      "japanese": "{日本|にほん}の{水泳選手|すいえいせんしゅ}は{オリンピック|おりんぴっく}で{数多|かずおお}くのメダルを{獲得|かくとく}してきた。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{水泳選手|すいえいせんしゅ}⟦は→は：00079_ha⟧⟦オリンピック→オリンピック：09899_orinpikku⟧⟦で→で：00502_de⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦の→の：09472_no⟧⟦メダル→メダル：10162_medaru⟧⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧してきた。",
       "english": "Japanese competitive swimmers have won numerous medals at the Olympics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {トップ|とっぷ}{水泳選手|すいえいせんしゅ}: top competitive swimmer\n- {水泳選手|すいえいせんしゅ}として{活躍|かつやく}する: to be active as a competitive swimmer\n- {元|もと}{水泳選手|すいえいせんしゅ}: former competitive swimmer\n\nSIMILAR WORDS:\n- {競泳選手|きょうえいせんしゅ}: competitive swimmer (specifically in pool racing)\n- {水泳部員|すいえいぶいん}: swimming club member",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦トップ→トップ：03862_toppu⟧{水泳選手|すいえいせんしゅ}: top competitive swimmer\n- {水泳選手|すいえいせんしゅ}⟦として→として：06802_toshite⟧⟦{活躍|かつやく}する→活躍する：25354_katsuyakusuru⟧: to be active as a competitive swimmer\n- ⟦{元|もと}→元：03878_moto⟧{水泳選手|すいえいせんしゅ}: former competitive swimmer\n\nSIMILAR WORDS:\n- {競泳選手|きょうえいせんしゅ}: competitive swimmer (specifically in pool racing)\n- {水泳部員|すいえいぶいん}: swimming club member",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24505_eisha",
+      "reading": "えいしゃ",
+      "headword": "{泳者|えいしゃ}",
+      "label": "swimmer"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T13:44:11Z",
-    "modified": "2026-06-12T13:44:11Z",
+    "modified": "2026-09-02T04:02:36Z",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports", "person"],
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "person"
+      ],
       "domain": [],
       "vocabulary_tier": "general"
-    }
+    },
+    "vocabulary_tier": "general"
   }
 }

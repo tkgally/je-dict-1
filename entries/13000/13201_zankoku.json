@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13201_zankoku_ex1",
-      "japanese": "{残酷|ざんこく}な{場面|ばめん}は{見|み}たくない。",
+      "japanese": "{残酷|ざんこく}な⟦{場面|ばめん}→場面：03702_bamen⟧⟦は→は：00079_ha⟧⟦{見|み}たくない→見る：00283_miru⟧。",
       "english": "I don't want to see cruel scenes.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13201_zankoku_ex2",
-      "japanese": "{現実|げんじつ}は{時|とき}に{残酷|ざんこく}だ。",
+      "japanese": "⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦は→は：00079_ha⟧{時|とき}⟦に→に：00314_ni⟧{残酷|ざんこく}だ。",
       "english": "Reality is sometimes cruel.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13201_zankoku_ex3",
-      "japanese": "{戦争|せんそう}の{残酷|ざんこく}さを{伝|つた}える{映画|えいが}が{数多|かずおお}く{作|つく}られてきた。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{残酷|ざんこく}さ⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{作|つく}られて→作る：00481_tsukuru⟧きた。",
       "english": "Many films have been made that convey the cruelty of war.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective ({残酷|ざんこく}な) or with the nominalizer さ ({残酷|ざんこく}さ = cruelty). Can describe both intentional cruelty by people and the harsh nature of circumstances or fate.\n\nCOMMON COLLOCATIONS:\n- {残酷|ざんこく}な{仕打|しう}ち: cruel treatment\n- {残酷|ざんこく}な{運命|うんめい}: cruel fate\n- {残酷|ざんこく}な{現実|げんじつ}: harsh reality\n- {残酷|ざんこく}さ: cruelty\n\nSIMILAR WORDS:\n- {無慈悲|むじひ}: merciless, heartless (emphasizes lack of compassion)\n- {酷|ひど}い: terrible, awful (everyday word, broader meaning)\n- {非情|ひじょう}: cold-hearted, ruthless (emphasizes emotional detachment)",
+  "notes": "USAGE:\nUsed as a na-adjective ({残酷|ざんこく}な) or with the nominalizer さ ({残酷|ざんこく}さ = cruelty). Can describe both intentional cruelty by people and the harsh nature of circumstances or fate.\n\nCOMMON COLLOCATIONS:\n- {残酷|ざんこく}な{仕打|しう}ち: cruel treatment\n- {残酷|ざんこく}な⟦{運命|うんめい}→運命：06879_unmei⟧: cruel fate\n- {残酷|ざんこく}な⟦{現実|げんじつ}→現実：02720_genjitsu⟧: harsh reality\n- {残酷|ざんこく}さ: cruelty\n\nSIMILAR WORDS:\n- ⟦{無慈悲|むじひ}→無慈悲：15759_mujihi⟧: merciless, heartless (emphasizes lack of compassion)\n- {酷|ひど}い: terrible, awful (everyday word, broader meaning)\n- ⟦{非情|ひじょう}→非情：16027_hijou⟧: cold-hearted, ruthless (emphasizes emotional detachment)",
   "cross_references": [
     {
       "type": "synonym",
@@ -66,11 +66,39 @@
       "reading": "むじひ",
       "headword": "{無慈悲|むじひ}",
       "label": "merciless; ruthless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16027_hijou",
+      "reading": "ひじょう",
+      "headword": "{非情|ひじょう}",
+      "label": "cold-hearted, ruthless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15395_zangyaku",
+      "reading": "ざんぎゃく",
+      "headword": "{残虐|ざんぎゃく}",
+      "label": "cruel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20761_hijindouteki",
+      "reading": "ひじんどうてき",
+      "headword": "{非人道的|ひじんどうてき}",
+      "label": "inhumane"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28175_kyouaku",
+      "reading": "きょうあく",
+      "headword": "{凶悪|きょうあく}",
+      "label": "atrocious"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:13:21Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

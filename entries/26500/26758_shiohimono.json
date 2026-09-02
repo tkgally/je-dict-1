@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26758_shiohimono_ex1",
-      "japanese": "{塩干物|しおひもの}を{焼|や}いて{食|た}べる。",
+      "japanese": "{塩干物|しおひもの}⟦を→を：00422_wo⟧⟦{焼|や}いて→焼く：01123_yaku⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "I grill salted dried fish and eat it.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26758_shiohimono_ex2",
-      "japanese": "この{店|みせ}は{塩干物|しおひもの}の{品揃|しなぞろ}えが{豊富|ほうふ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{塩干物|しおひもの}⟦の→の：09472_no⟧⟦{品揃|しなぞろ}え→品揃え：11844_shinazoroe⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧だ。",
       "english": "This shop has a wide selection of salted dried seafood.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26758_shiohimono_ex3",
-      "japanese": "{日本|にほん}の{沿岸部|えんがんぶ}では、{昔|むかし}から{塩干物|しおひもの}が{保存食|ほぞんしょく}として{重宝|ちょうほう}されてきた。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{沿岸部|えんがんぶ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧{塩干物|しおひもの}⟦が→が：00051_ga⟧⟦{保存食|ほぞんしょく}→保存食：14976_hozonshoku⟧⟦として→として：06802_toshite⟧⟦{重宝|ちょうほう}→重宝：14415_chouhou⟧⟦されて→する：00392_suru⟧きた。",
       "english": "In Japan's coastal areas, salted dried seafood has long been valued as a preserved food.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {塩|しお} (salt), {干|ひ} (dried), and {物|もの} (thing). A category of preserved seafood products that includes items like {干物|ひもの} (dried fish) that have been additionally salted. Common examples include salted and dried horse mackerel, sardines, and squid.\n\nCOMMON COLLOCATIONS:\n- {塩干物|しおひもの}を{焼|や}く: to grill salted dried fish\n- {塩干物|しおひもの}{売|う}り{場|ば}: salted dried fish section (in a store)\n- {塩干物|しおひもの}の{加工|かこう}: processing of salted dried seafood\n\nSIMILAR WORDS:\n- {干物|ひもの}: dried fish — may or may not be salted; the broader category\n- {塩鮭|しおざけ}: salted salmon — a specific type of salted fish\n- {燻製|くんせい}: smoked food — preserved by smoking rather than salt-drying",
-  "cross_references": [],
+  "notes": "Composed of ⟦{塩|しお}→塩：00887_shio⟧ (salt), {干|ひ} (dried), and ⟦{物|もの}→物：02259_mono⟧ (thing). A category of preserved seafood products that includes items like ⟦{干物|ひもの}→干物：12423_himono⟧ (dried fish) that have been additionally salted. Common examples include salted and dried horse mackerel, sardines, and squid.\n\nCOMMON COLLOCATIONS:\n- {塩干物|しおひもの}⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧: to grill salted dried fish\n- {塩干物|しおひもの}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧: salted dried fish section (in a store)\n- {塩干物|しおひもの}⟦の→の：09472_no⟧⟦{加工|かこう}→加工：11793_kakou⟧: processing of salted dried seafood\n\nSIMILAR WORDS:\n- ⟦{干物|ひもの}→干物：12423_himono⟧: dried fish — may or may not be salted; the broader category\n- {塩鮭|しおざけ}: salted salmon — a specific type of salted fish\n- ⟦{燻製|くんせい}→燻製：13478_kunsei⟧: smoked food — preserved by smoking rather than salt-drying",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13478_kunsei",
+      "reading": "くんせい",
+      "headword": "{燻製|くんせい}",
+      "label": "smoked food"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +69,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:18:45Z",
-    "modified": "2026-05-04T16:18:45Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

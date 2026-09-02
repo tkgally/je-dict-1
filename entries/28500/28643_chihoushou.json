@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28643_chihoushou_ex1",
-      "japanese": "{昔|むかし}は{痴呆症|ちほうしょう}と{呼|よ}ばれていた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧{痴呆症|ちほうしょう}⟦と→と：00512_to⟧⟦{呼|よ}ばれていた→呼ぶ：00766_yobu⟧。",
       "english": "It used to be called chihoushou (dementia).",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28643_chihoushou_ex2",
-      "japanese": "{痴呆症|ちほうしょう}という{用語|ようご}は{差別的|さべつてき}だとして{廃止|はいし}された。",
+      "japanese": "{痴呆症|ちほうしょう}⟦という→という：09577_toiu⟧⟦{用語|ようご}→用語：04086_yougo⟧⟦は→は：00079_ha⟧⟦{差別的|さべつてき}→差別的：29667_sabetsuteki⟧だ⟦として→として：06802_toshite⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦された→する：00392_suru⟧。",
       "english": "The term chihoushou was abolished as discriminatory.",
       "sense_numbers": [
         1
@@ -34,8 +34,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {痴|ち} (foolish; idiotic) + {呆|ほう} (be stupefied) + {症|しょう} (disease). The Japanese government officially replaced this term with {認知症|にんちしょう} in 2004 because the kanji {痴|ち} demeans patients.\n\nUSAGE:\n- Now considered offensive in patient-facing contexts.\n- Use {認知症|にんちしょう} for modern, neutral reference.\n- {痴呆症|ちほうしょう} still appears in older medical texts and historical discussion of the renaming itself.\n\nSIMILAR WORDS:\n- {認知症|にんちしょう}: dementia — current standard, non-stigmatized term\n- アルツハイマー{病|びょう}: Alzheimer's disease — a specific cause of dementia",
+  "notes": "Compound of {痴|ち} (foolish; idiotic) + {呆|ほう} (be stupefied) + {症|しょう} (disease). The Japanese government officially replaced this term with ⟦{認知症|にんちしょう}→認知症：04419_ninchishou⟧ in 2004 because the kanji {痴|ち} demeans patients.\n\nUSAGE:\n- Now considered offensive in patient-facing contexts.\n- Use ⟦{認知症|にんちしょう}→認知症：04419_ninchishou⟧ for modern, neutral reference.\n- {痴呆症|ちほうしょう} still appears in older medical texts and historical discussion of the renaming itself.\n\nSIMILAR WORDS:\n- ⟦{認知症|にんちしょう}→認知症：04419_ninchishou⟧: dementia — current standard, non-stigmatized term\n- ⟦アルツハイマー→アルツハイマー：28540_arutsuhaimaa⟧{病|びょう}: Alzheimer's disease — a specific cause of dementia",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04419_ninchishou",
+      "reading": "にんちしょう",
+      "headword": "{認知症|にんちしょう}",
+      "label": "dementia"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -43,7 +52,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -52,6 +61,6 @@
       ]
     },
     "created": "2026-06-03T03:13:34Z",
-    "modified": "2026-06-12T12:41:12Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

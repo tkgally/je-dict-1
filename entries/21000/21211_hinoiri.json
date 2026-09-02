@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21211_hinoiri_ex1",
-      "japanese": "{日|ひ}の{入|い}りが{早|はや}くなった。",
+      "japanese": "{日|ひ}の{入|い}り⟦が→が：00051_ga⟧⟦{早|はや}く→早い：00514_hayai⟧⟦なった→なる：01970_naru⟧。",
       "english": "Sunset has gotten earlier.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21211_hinoiri_ex2",
-      "japanese": "{今日|きょう}の{日|ひ}の{入|い}りは{六時半|ろくじはん}ごろだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{日|ひ}の{入|い}り⟦は→は：00079_ha⟧{六時半|ろくじはん}ごろだ。",
       "english": "Today's sunset is around 6:30.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21211_hinoiri_ex3",
-      "japanese": "{海|うみ}に{沈|しず}む{美|うつく}しい{日|ひ}の{入|い}りを{見|み}ながら、{写真|しゃしん}を{撮|と}った。",
+      "japanese": "⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧⟦{沈|しず}む→沈む：02061_shizumu⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧{日|ひ}の{入|い}り⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧、⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}った→撮る：00760_toru⟧。",
       "english": "I took photos while watching the beautiful sunset sinking into the sea.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'the sun's entering' ({日|ひ} sun + の possessive + {入|い}り entering). Describes the sun setting below the horizon.\n\nCOMMON COLLOCATIONS:\n- {日|ひ}の{入|い}りの{時刻|じこく}: sunset time\n- {日|ひ}の{入|い}りが{早|はや}い: sunset is early\n- {日|ひ}の{入|い}りが{遅|おそ}い: sunset is late\n- {日|ひ}の{入|い}りを{見|み}る: to watch the sunset\n\nSIMILAR WORDS:\n- {夕日|ゆうひ}: the evening sun, setting sun — refers more to the visual appearance of the sun as it sets, often with poetic or aesthetic overtones\n- {日没|にちぼつ}: sunset — a more formal, technical term used in weather reports and astronomy\n- {日|ひ}の{出|で}: sunrise — the counterpart, referring to the sun rising in the morning\n\nSEASONAL NOTE:\nSunset times vary significantly by season in Japan. In winter, sunset can be as early as 4:30 PM, while in summer it can be past 7:00 PM. Weather forecasts and news commonly report {日|ひ}の{出|で} and {日|ひ}の{入|い}り times.",
+  "notes": "Literally 'the sun's entering' (⟦{日|ひ}→日：02249_hi⟧ sun + ⟦の→の：09472_no⟧ possessive + {入|い}り entering). Describes the sun setting below the horizon.\n\nCOMMON COLLOCATIONS:\n- {日|ひ}の{入|い}り⟦の→の：09472_no⟧⟦{時刻|じこく}→時刻：03270_jikoku⟧: sunset time\n- {日|ひ}の{入|い}り⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧: sunset is early\n- {日|ひ}の{入|い}り⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧: sunset is late\n- {日|ひ}の{入|い}り⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to watch the sunset\n\nSIMILAR WORDS:\n- ⟦{夕日|ゆうひ}→夕日：04080_yuuhi⟧: the evening sun, setting sun — refers more to the visual appearance of the sun as it sets, often with poetic or aesthetic overtones\n- ⟦{日没|にちぼつ}→日没：04657_nichibotsu⟧: sunset — a more formal, technical term used in weather reports and astronomy\n- ⟦{日|ひ}の{出|で}→日の出：17596_hinode⟧: sunrise — the counterpart, referring to the sun rising in the morning\n\nSEASONAL NOTE:\nSunset times vary significantly by season in Japan. In winter, sunset can be as early as 4:30 PM, while in summer it can be past 7:00 PM. Weather forecasts and news commonly report ⟦{日|ひ}の{出|で}→日の出：17596_hinode⟧ and {日|ひ}の{入|い}り times.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,7 +60,7 @@
       ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "cross_references": [
     {
@@ -69,6 +69,20 @@
       "reading": "ひので",
       "headword": "{日|ひ}の{出|で}",
       "label": "sunrise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04080_yuuhi",
+      "reading": "ゆうひ",
+      "headword": "{夕日|ゆうひ}",
+      "label": "the evening sun, setting sun"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04657_nichibotsu",
+      "reading": "にちぼつ",
+      "headword": "{日没|にちぼつ}",
+      "label": "sunset"
     }
   ]
 }

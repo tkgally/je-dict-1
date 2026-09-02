@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14926_tekisei_ex1",
-      "japanese": "{適性|てきせい}{検査|けんさ}を{受|う}けた。",
+      "japanese": "{適性|てきせい}{検査|けんさ}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I took an aptitude test.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14926_tekisei_ex2",
-      "japanese": "この{仕事|しごと}には{向|む}き{不向|ふむ}きがあるので、{適性|てきせい}を{見極|みきわ}めることが{大切|たいせつ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{向|む}き→向く：02304_muku⟧⟦{不向|ふむ}き→不向き：11388_fumuki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、{適性|てきせい}⟦を→を：00422_wo⟧⟦{見極|みきわ}める→見極める：07171_mikiwameru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "This job isn't for everyone, so it's important to assess one's aptitude.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14926_tekisei_ex3",
-      "japanese": "{採用|さいよう}の{際|さい}には{学歴|がくれき}だけでなく、{職務|しょくむ}への{適性|てきせい}も{重視|じゅうし}される。",
+      "japanese": "⟦{採用|さいよう}→採用：04563_saiyou⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{学歴|がくれき}→学歴：02628_gakureki⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、⟦{職務|しょくむ}→職務：13908_shokumu⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{適性|てきせい}⟦も→も：00484_mo⟧⟦{重視|じゅうし}される→重視する：26832_juushisuru⟧。",
       "english": "When hiring, not only educational background but also aptitude for the job is valued.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{適性|てきせい} focuses on inherent suitability — whether someone has the right qualities for a particular role. It is commonly used in career counseling, hiring, and education contexts.\n\nCOMMON COLLOCATIONS:\n- {適性|てきせい}{検査|けんさ} (aptitude test)\n- {適性|てきせい}がある (to have aptitude)\n- {適性|てきせい}を{見極|みきわ}める (to assess aptitude)\n- {適性|てきせい}に{合|あ}った{仕事|しごと} (a job that matches one's aptitude)\n\nCAUTION:\nDo not confuse with {適正|てきせい} (appropriateness, correctness), which has the same reading but different kanji and meaning. {適性|てきせい} is about personal suitability, while {適正|てきせい} is about whether something is proper or fair (e.g., {適正|てきせい}{価格|かかく}, fair price).",
-  "cross_references": [],
+  "notes": "USAGE:\n{適性|てきせい} focuses on inherent suitability — whether someone has the right qualities for a particular role. It is commonly used in career counseling, hiring, and education contexts.\n\nCOMMON COLLOCATIONS:\n- {適性|てきせい}{検査|けんさ} (aptitude test)\n- {適性|てきせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have aptitude)\n- {適性|てきせい}⟦を→を：00422_wo⟧⟦{見極|みきわ}める→見極める：07171_mikiwameru⟧ (to assess aptitude)\n- {適性|てきせい}⟦に→に：00314_ni⟧⟦{合|あ}った→合う：10466_au⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧ (a job that matches one's aptitude)\n\nWATCH OUT:\nDo not confuse with ⟦{適正|てきせい}→適正：09686_tekisei⟧ (appropriateness, correctness), which has the same reading but different kanji and meaning. {適性|てきせい} is about personal suitability, while ⟦{適正|てきせい}→適正：09686_tekisei⟧ is about whether something is proper or fair (e.g., ⟦{適正|てきせい}→適正：09686_tekisei⟧⟦{価格|かかく}→価格：00147_kakaku⟧, fair price).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07554_shishitsu",
+      "reading": "ししつ",
+      "headword": "{資質|ししつ}",
+      "label": "nature"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T06:00:32Z",
-    "modified": "2026-03-04T06:00:32Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

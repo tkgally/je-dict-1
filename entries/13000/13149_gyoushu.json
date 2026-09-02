@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13149_gyoushu_ex1",
-      "japanese": "どんな{業種|ぎょうしゅ}で{働|はたら}いていますか。",
+      "japanese": "⟦どんな→どんな：02924_donna⟧{業種|ぎょうしゅ}⟦で→で：00502_de⟧⟦{働|はたら}いています→働く：00503_hataraku⟧⟦か→か：09473_ka⟧。",
       "english": "What industry do you work in?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13149_gyoushu_ex2",
-      "japanese": "{異|こと}なる{業種|ぎょうしゅ}から{転職|てんしょく}してきた。",
+      "japanese": "⟦{異|こと}なる→異なる：02101_kotonaru⟧{業種|ぎょうしゅ}⟦から→から：00504_kara⟧⟦{転職|てんしょく}→転職：04557_tenshoku⟧してきた。",
       "english": "I changed jobs from a different industry.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13149_gyoushu_ex3",
-      "japanese": "{飲食|いんしょく}、{小売|こうり}、ITなどさまざまな{業種|ぎょうしゅ}の{企業|きぎょう}が{参加|さんか}した。",
+      "japanese": "⟦{飲食|いんしょく}→飲食：03010_inshoku⟧、⟦{小売|こうり}→小売：05084_kouri⟧、IT⟦など→〜など：03095_nado⟧さまざまな{業種|ぎょうしゅ}⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "Companies from various industries such as food service, retail, and IT participated.",
       "notes": null,
       "has_audio": false,
@@ -44,18 +44,32 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed when categorizing or classifying businesses. Common in job hunting, business registration, and economic discussion. Distinct from {職種|しょくしゅ} (type of occupation/job role), which focuses on the specific role rather than the industry.\n\nCOMMON COLLOCATIONS:\n- {異業種|いぎょうしゅ}: different industry\n- {異業種|いぎょうしゅ}{交流|こうりゅう}: cross-industry networking\n- {業種|ぎょうしゅ}{別|べつ}: by industry type\n- さまざまな{業種|ぎょうしゅ}: various industries\n\nSIMILAR WORDS:\n- {業界|ぎょうかい}: industry (focuses on the community of companies/people)\n- {職種|しょくしゅ}: type of occupation (focuses on job role, not industry)",
+  "notes": "USAGE:\nUsed when categorizing or classifying businesses. Common in job hunting, business registration, and economic discussion. Distinct from ⟦{職種|しょくしゅ}→職種：13921_shokushu⟧ (type of occupation/job role), which focuses on the specific role rather than the industry.\n\nCOMMON COLLOCATIONS:\n- {異業種|いぎょうしゅ}: different industry\n- {異業種|いぎょうしゅ}⟦{交流|こうりゅう}→交流：02732_kouryuu⟧: cross-industry networking\n- {業種|ぎょうしゅ}{別|べつ}: by industry type\n- さまざまな{業種|ぎょうしゅ}: various industries\n\nSIMILAR WORDS:\n- ⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧: industry (focuses on the community of companies/people)\n- ⟦{職種|しょくしゅ}→職種：13921_shokushu⟧: type of occupation (focuses on job role, not industry)",
   "cross_references": [
     {
       "type": "related",
       "reading": "ぎょうかい",
       "headword": "{業界|ぎょうかい}",
       "target_id": "13129_gyoukai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13921_shokushu",
+      "reading": "しょくしゅ",
+      "headword": "{職種|しょくしゅ}",
+      "label": "type of occupation"
+    },
+    {
+      "type": "related",
+      "target_id": "18800_shashu",
+      "reading": "しゃしゅ",
+      "headword": "{車種|しゃしゅ}",
+      "label": "car model"
     }
   ],
   "metadata": {
     "created": "2026-02-23T11:50:35Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

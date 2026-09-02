@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28157_yakugakubu_ex1",
-      "japanese": "{娘|むすめ}は{薬学部|やくがくぶ}に{通|かよ}っている。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧{薬学部|やくがくぶ}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "My daughter attends the faculty of pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28157_yakugakubu_ex2",
-      "japanese": "{薬学部|やくがくぶ}は{六年制|ろくねんせい}のところが{多|おお}い。",
+      "japanese": "{薬学部|やくがくぶ}⟦は→は：00079_ha⟧{六年制|ろくねんせい}⟦の→の：09472_no⟧⟦ところ→ところ：01137_tokoro⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many faculties of pharmacy have a six-year program.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28157_yakugakubu_ex3",
-      "japanese": "{薬剤師|やくざいし}になるには{薬学部|やくがくぶ}を{卒業|そつぎょう}する{必要|ひつよう}がある。",
+      "japanese": "⟦{薬剤師|やくざいし}→薬剤師：07030_yakuzaishi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{薬学部|やくがくぶ}⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To become a pharmacist you need to graduate from a faculty of pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {薬学|やくがく} (pharmaceutical science) + {部|ぶ} (faculty). The six-year program qualifies graduates to sit the national pharmacist exam.\n\nCOMMON COLLOCATIONS:\n- {薬学部|やくがくぶ}に{入|はい}る: to enter the faculty of pharmacy\n- {薬学部|やくがくぶ}を{卒業|そつぎょう}する: to graduate from the faculty of pharmacy\n- {薬学部|やくがくぶ}の{学生|がくせい}: a pharmacy student",
+  "notes": "Compound of ⟦{薬学|やくがく}→薬学：19156_yakugaku⟧ (pharmaceutical science) + ⟦{部|ぶ}→〜部：00440_bu⟧ (faculty). The six-year program qualifies graduates to sit the national pharmacist exam.\n\nCOMMON COLLOCATIONS:\n- {薬学部|やくがくぶ}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter the faculty of pharmacy\n- {薬学部|やくがくぶ}⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦する→する：00392_suru⟧: to graduate from the faculty of pharmacy\n- {薬学部|やくがくぶ}⟦の→の：09472_no⟧⟦{学生|がくせい}→学生：00610_gakusei⟧: a pharmacy student",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27620_igakubu",
+      "reading": "いがくぶ",
+      "headword": "{医学部|いがくぶ}",
+      "label": "medical school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-05-26T04:08:43Z",
-    "modified": "2026-05-26T04:08:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

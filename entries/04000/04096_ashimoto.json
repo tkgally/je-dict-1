@@ -154,7 +154,7 @@
     },
     {
       "id": "04096_ashimoto_ex14",
-      "japanese": "⟦{タクシー|たくしー}→タクシー：00816_takushii⟧⟦に→に：00314_ni⟧{足元|あしもと}⟦を→を：00422_wo⟧⟦{見|み}られた→見る：00283_miru⟧。",
+      "japanese": "⟦タクシー→タクシー：00816_takushii⟧⟦に→に：00314_ni⟧{足元|あしもと}⟦を→を：00422_wo⟧⟦{見|み}られた→見る：00283_miru⟧。",
       "english": "The taxi driver took advantage of my situation.",
       "notes": null,
       "has_audio": false,
@@ -173,10 +173,26 @@
       ]
     }
   ],
-  "notes": "USAGE: {足元|あしもと} has both literal and figurative meanings.\n\nCOMMON PATTERNS:\n・{足元|あしもと}⟦に→に：00314_ni⟧⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to watch one's step)\n・{足元|あしもと}⟦が→が：00051_ga⟧⟦おぼつかない→おぼつかない：06738_obotsukanai⟧ (to be unsteady on one's feet)\n・{足元|あしもと}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to exploit someone's weakness)\n・{足元|あしもと}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{及|およ}ばない→及ぶ：01921_oyobu⟧ (to not hold a candle to; to be far inferior)\n\nWRITING VARIATIONS: Can also be written as {足下|あしもと}.\n\nRELATED:\n・⟦{足場|あしば}→足場：06518_ashiba⟧ - foothold, scaffold\n・⟦{地面|じめん}→地面：00125_jimen⟧ - ground",
+  "notes": "USAGE: {足元|あしもと} has both literal and figurative meanings.\n\nCOMMON PATTERNS:\n- {足元|あしもと}⟦に→に：00314_ni⟧⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to watch one's step)\n- {足元|あしもと}⟦が→が：00051_ga⟧⟦おぼつかない→おぼつかない：06738_obotsukanai⟧ (to be unsteady on one's feet)\n- {足元|あしもと}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to exploit someone's weakness)\n- {足元|あしもと}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{及|およ}ばない→及ぶ：01921_oyobu⟧ (to not hold a candle to; to be far inferior)\n\nWRITING VARIATIONS: Can also be written as {足下|あしもと}.\n\nRELATED WORDS:\n- ⟦{足場|あしば}→足場：06518_ashiba⟧ - foothold, scaffold\n- ⟦{地面|じめん}→地面：00125_jimen⟧ - ground",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06518_ashiba",
+      "reading": "あしば",
+      "headword": "{足場|あしば}",
+      "label": "foothold, scaffold"
+    },
+    {
+      "type": "related",
+      "target_id": "00125_jimen",
+      "reading": "じめん",
+      "headword": "{地面|じめん}",
+      "label": "ground"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

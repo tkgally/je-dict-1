@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30604_hongoshi_ex1",
-      "japanese": "そろそろ{本腰|ほんごし}を{入|い}れよう。",
+      "japanese": "⟦そろそろ→そろそろ：01259_sorosoro⟧{本腰|ほんごし}⟦を→を：00422_wo⟧⟦{入|い}れよう→入れる：01098_ireru⟧。",
       "english": "It's about time to get serious.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30604_hongoshi_ex2",
-      "japanese": "{会社|かいしゃ}は{海外|かいがい}{展開|てんかい}に{本腰|ほんごし}を{入|い}れ{始|はじ}めた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{展開|てんかい}→展開：04542_tenkai⟧⟦に→に：00314_ni⟧{本腰|ほんごし}⟦を→を：00422_wo⟧⟦{入|い}れ→入れる：01098_ireru⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The company has begun to commit seriously to overseas expansion.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30604_hongoshi_ex3",
-      "japanese": "{試験|しけん}まであと{一|いっ}か{月|げつ}になって、ようやく{本腰|ほんごし}を{入|い}れて{勉強|べんきょう}し{始|はじ}めた。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦まで→まで：00490_made⟧あと{一|いっ}か{月|げつ}になって、ようやく{本腰|ほんごし}⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧し⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "With only a month until the exam, he finally got down to studying in earnest.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nThe word is essentially bound to its collocation: {本腰|ほんごし}を{入|い}れる (to get serious about). It is rarely used as a free-standing noun, and it implies a contrast with earlier half-hearted effort.\n\nCOMMON COLLOCATIONS:\n- {本腰|ほんごし}を{入|い}れる: to get serious, to commit fully\n- {本腰|ほんごし}を{入|い}れて{取|と}り{組|く}む: to tackle something in earnest\n- {政府|せいふ}が{本腰|ほんごし}を{入|い}れる: for the government to act in earnest\n\nSIMILAR WORDS:\n- {真剣|しんけん}になる: to become serious — about attitude at a moment, not sustained commitment\n- {力|ちから}を{入|い}れる: to put effort into — describes where resources go, without the \"finally getting serious\" nuance",
+  "notes": "USAGE:\nThe word is essentially bound to its collocation: {本腰|ほんごし}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to get serious about). It is rarely used as a free-standing noun, and it implies a contrast with earlier half-hearted effort.\n\nCOMMON COLLOCATIONS:\n- {本腰|ほんごし}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to get serious, to commit fully\n- {本腰|ほんごし}⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧: to tackle something in earnest\n- ⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧{本腰|ほんごし}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: for the government to act in earnest\n\nSIMILAR WORDS:\n- ⟦{真剣|しんけん}→真剣：01565_shinken⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become serious — about attitude at a moment, not sustained commitment\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put effort into — describes where resources go, without the \"finally getting serious\" nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09077_katatema",
+      "reading": "かたてま",
+      "headword": "{片手間|かたてま}",
+      "label": "spare time"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract",
         "work"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-08-13T00:22:39Z",
-    "modified": "2026-08-13T00:22:39Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

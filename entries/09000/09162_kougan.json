@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09162_kougan_ex1",
-      "japanese": "{厚顔|こうがん}{無恥|むち}な{態度|たいど}",
+      "japanese": "{厚顔|こうがん}{無恥|むち}な⟦{態度|たいど}→態度：03396_taido⟧",
       "english": "a brazen and shameless attitude",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09162_kougan_ex2",
-      "japanese": "{彼|かれ}は{厚顔|こうがん}にも{嘘|うそ}をつき{通|とお}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{厚顔|こうがん}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{嘘|うそ}→嘘：01796_uso⟧⟦を→を：00422_wo⟧つき⟦{通|とお}した→通す：02300_toosu⟧。",
       "english": "He brazenly kept lying.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09162_kougan_ex3",
-      "japanese": "あれだけの{不祥事|ふしょうじ}を{起|お}こしておいて、{厚顔|こうがん}にも{再出馬|さいしゅつば}するとは。",
+      "japanese": "⟦あれ→あれ：00916_are⟧⟦だけ→〜だけ：03093_dake⟧⟦の→の：09472_no⟧⟦{不祥事|ふしょうじ}→不祥事：14981_fushouji⟧⟦を→を：00422_wo⟧⟦{起|お}こして→起こす：01234_okosu⟧おいて、{厚顔|こうがん}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{再出馬|さいしゅつば}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧。",
       "english": "After causing such a scandal, he has the audacity to run for office again.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ADJECTIVE TYPE: Na-adjective (also functions as noun). Uses な before nouns: {厚顔|こうがん}な{人|ひと}.\n\nADVERBIAL FORM: {厚顔|こうがん}にも (brazenly, shamelessly)\n\nFOUR-CHARACTER COMPOUND: {厚顔|こうがん}{無恥|むち} (brazen and shameless) is a common set phrase combining two synonyms for emphasis.\n\nNUANCE: {厚顔|こうがん} is more literary and formal than {厚|あつ}かましい or {図々|ずうずう}しい. It's often used in formal writing, news reports, or when criticizing public figures.\n\nCOMMON COLLOCATIONS:\n- {厚顔|こうがん}{無恥|むち} (brazen and shameless)\n- {厚顔|こうがん}にも (brazenly, shamelessly)\n- {厚顔|こうがん}な{態度|たいど} (brazen attitude)\n\nRELATED WORDS:\n- {厚|あつ}かましい (impudent, shameless - more colloquial)\n- {図々|ずうずう}しい (shameless, impudent)\n- {恥知|はじし}らず (shameless person)\n- {鉄面皮|てつめんぴ} (brazen-faced - literary)",
+  "notes": "ADJECTIVE TYPE: Na-adjective (also functions as noun). Uses な before nouns: {厚顔|こうがん}な⟦{人|ひと}→人：00476_hito⟧.\n\nADVERBIAL FORM: {厚顔|こうがん}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧ (brazenly, shamelessly)\n\nFOUR-CHARACTER COMPOUND: {厚顔|こうがん}{無恥|むち} (brazen and shameless) is a common set phrase combining two synonyms for emphasis.\n\nNUANCE: {厚顔|こうがん} is more literary and formal than ⟦{厚|あつ}かましい→厚かましい：09161_atsukamashii⟧ or ⟦{図々|ずうずう}しい→図々しい：06535_zuuzuushii⟧. It's often used in formal writing, news reports, or when criticizing public figures.\n\nCOMMON COLLOCATIONS:\n- {厚顔|こうがん}{無恥|むち} (brazen and shameless)\n- {厚顔|こうがん}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧ (brazenly, shamelessly)\n- {厚顔|こうがん}な⟦{態度|たいど}→態度：03396_taido⟧ (brazen attitude)\n\nRELATED WORDS:\n- ⟦{厚|あつ}かましい→厚かましい：09161_atsukamashii⟧ (impudent, shameless - more colloquial)\n- ⟦{図々|ずうずう}しい→図々しい：06535_zuuzuushii⟧ (shameless, impudent)\n- ⟦{恥知|はじし}らず→恥知らず：21065_hajishirazu⟧ (shameless person)\n- ⟦{鉄面皮|てつめんぴ}→鉄面皮：15954_tetsumenpi⟧ (brazen-faced - literary)",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,25 @@
       "reading": "ずうずうしい",
       "headword": "{図々|ずうずう}しい",
       "label": "impudent"
+    },
+    {
+      "type": "related",
+      "target_id": "21065_hajishirazu",
+      "reading": "はじしらず",
+      "headword": "{恥知|はじし}らず",
+      "label": "shameless person"
+    },
+    {
+      "type": "related",
+      "target_id": "15954_tetsumenpi",
+      "reading": "てつめんぴ",
+      "headword": "{鉄面皮|てつめんぴ}",
+      "label": "brazen-faced"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:32:23Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

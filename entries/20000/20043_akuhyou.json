@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20043_akuhyou_ex1",
-      "japanese": "その{映画|えいが}は{悪評|あくひょう}が{多|おお}い。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{悪評|あくひょう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "That movie has many bad reviews.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20043_akuhyou_ex2",
-      "japanese": "{新|あたら}しい{政策|せいさく}は{市民|しみん}から{悪評|あくひょう}を{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦は→は：00079_ha⟧⟦{市民|しみん}→市民：01426_shimin⟧⟦から→から：00504_kara⟧{悪評|あくひょう}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "The new policy earned a bad reputation among citizens.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20043_akuhyou_ex3",
-      "japanese": "{悪評|あくひょう}にもかかわらず、その{店|みせ}はいつも{混|こ}んでいる。",
+      "japanese": "{悪評|あくひょう}にもかかわらず、⟦その→その：00993_sono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{混|こ}んでいる→混む：02574_komu⟧。",
       "english": "Despite the bad reviews, that shop is always crowded.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A negative evaluation or unfavorable reputation. Composed of {悪|あく} (bad) + {評|ひょう} (review/reputation). Can refer to both a bad review of a specific thing (film, product) and a general bad reputation.\n\nCOMMON COLLOCATIONS:\n- {悪評|あくひょう}を{買|か}う: to earn a bad reputation\n- {悪評|あくひょう}が{立|た}つ: to get a bad name\n- {悪評|あくひょう}が{広|ひろ}まる: for a bad reputation to spread\n- {悪評|あくひょう}{高|たか}い: notorious, infamous\n\nSIMILAR WORDS:\n- {好評|こうひょう}: good reputation/favorable review — the direct opposite\n- {評判|ひょうばん}: reputation/reviews — neutral term that can be good or bad\n- {不評|ふひょう}: unpopularity/poor reception — similar but emphasizes lack of popularity rather than active negative criticism",
+  "notes": "A negative evaluation or unfavorable reputation. Composed of {悪|あく} (bad) + {評|ひょう} (review/reputation). Can refer to both a bad review of a specific thing (film, product) and a general bad reputation.\n\nCOMMON COLLOCATIONS:\n- {悪評|あくひょう}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to earn a bad reputation\n- {悪評|あくひょう}⟦が→が：00051_ga⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to get a bad name\n- {悪評|あくひょう}⟦が→が：00051_ga⟧⟦{広|ひろ}まる→広まる：02404_hiromaru⟧: for a bad reputation to spread\n- {悪評|あくひょう}⟦{高|たか}い→高い：00500_takai⟧: notorious, infamous\n\nSIMILAR WORDS:\n- ⟦{好評|こうひょう}→好評：16720_kouhyou⟧: good reputation/favorable review — the direct opposite\n- ⟦{評判|ひょうばん}→評判：03586_hyouban⟧: reputation/reviews — neutral term that can be good or bad\n- ⟦{不評|ふひょう}→不評：18302_fuhyou⟧: unpopularity/poor reception — similar but emphasizes lack of popularity rather than active negative criticism",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "16720_kouhyou",
+      "reading": "こうひょう",
+      "headword": "{好評|こうひょう}",
+      "label": "good reputation/favorable review"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03586_hyouban",
+      "reading": "ひょうばん",
+      "headword": "{評判|ひょうばん}",
+      "label": "reputation/reviews"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18302_fuhyou",
+      "reading": "ふひょう",
+      "headword": "{不評|ふひょう}",
+      "label": "unpopularity/poor reception"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-28T06:09:17Z",
-    "modified": "2026-03-28T06:09:17Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

@@ -25,7 +25,7 @@
     },
     {
       "id": "30585_kuchigasuberu_ex2",
-      "japanese": "{口|くち}が{滑|すべ}って{秘密|ひみつ}を{話|はな}してしまった。",
+      "japanese": "{口|くち}が{滑|すべ}って⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧⟦{話|はな}して→話す：00467_hanasu⟧しまった。",
       "english": "I let it slip and told them the secret.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30585_kuchigasuberu_ex3",
-      "japanese": "{酒|さけ}が{入|はい}ると{口|くち}が{滑|すべ}りやすくなるから{気|き}をつけよう。",
+      "japanese": "⟦{酒|さけ}→酒：02211_sake⟧⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧⟦と→と：00512_to⟧{口|くち}が{滑|すべ}りやすく⟦なる→なる：01970_naru⟧⟦から→から：00504_kara⟧⟦{気|き}をつけよう→気をつける：09771_kiwotsukeru⟧。",
       "english": "You let things slip more easily once you've had a drink, so be careful.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30585_kuchigasuberu_ex4",
-      "japanese": "{誕生日|たんじょうび}のサプライズだったのに、{弟|おとうと}の{口|くち}が{滑|すべ}って{台無|だいな}しになった。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦の→の：09472_no⟧⟦サプライズ→サプライズ：10936_sapuraizu⟧だった⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦{弟|おとうと}→弟：00572_otouto⟧⟦の→の：09472_no⟧{口|くち}が{滑|すべ}って⟦{台無|だいな}し→台無し：11805_dainashi⟧になった。",
       "english": "It was supposed to be a birthday surprise, but my little brother let it slip and ruined it.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: {口|くち} (mouth) + が + {滑|すべ}る (to slip).\n\nCOMMON PATTERNS:\n- つい{口|くち}が{滑|すべ}る: to let it slip without thinking\n- {口|くち}が{滑|すべ}って…{言|い}ってしまう: to blurt out ~ by mistake\n- {口|くち}が{滑|すべ}りやすい: to be prone to letting things slip\n\nSIMILAR WORDS:\n- {口|くち}が{軽|かる}い: unable to keep a secret — a standing character trait, not a single slip\n- {口|くち}を{滑|すべ}らせる: to let slip — the transitive version, identical in meaning and equally common\n- {口|くち}が{堅|かた}い: tight-lipped, discreet — the opposite trait\n\nUSAGE:\nBecause it frames the words as accidental, the phrase works as a softened apology: {口|くち}が{滑|すべ}りました, 'that came out wrong.'",
+  "notes": "STRUCTURE: ⟦{口|くち}→口：00560_kuchi⟧ (mouth) + ⟦が→が：00051_ga⟧ + ⟦{滑|すべ}る→滑る：01230_suberu⟧ (to slip).\n\nCOMMON PATTERNS:\n- つい{口|くち}が{滑|すべ}る: to let it slip without thinking\n- {口|くち}が{滑|すべ}って…⟦{言|い}って→言う：00515_iu⟧しまう: to blurt out ~ by mistake\n- {口|くち}が{滑|すべ}りやすい: to be prone to letting things slip\n\nSIMILAR WORDS:\n- ⟦{口|くち}が{軽|かる}い→口が軽い：06884_kuchigakarui⟧: unable to keep a secret — a standing character trait, not a single slip\n- ⟦{口|くち}を{滑|すべ}らせる→口を滑らせる：19678_kuchiwosuberaseru⟧: to let slip — the transitive version, identical in meaning and equally common\n- ⟦{口|くち}が{堅|かた}い→口が堅い：06885_kuchigakatai⟧: tight-lipped, discreet — the opposite trait\n\nUSAGE:\nBecause it frames the words as accidental, the phrase works as a softened apology: {口|くち}が{滑|すべ}りました, 'that came out wrong.'",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06884_kuchigakarui",
+      "reading": "くちがかるい",
+      "headword": "{口|くち}が{軽|かる}い",
+      "label": "unable to keep a secret"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19678_kuchiwosuberaseru",
+      "reading": "くちをすべらせる",
+      "headword": "{口|くち}を{滑|すべ}らせる",
+      "label": "to let slip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06885_kuchigakatai",
+      "reading": "くちがかたい",
+      "headword": "{口|くち}が{堅|かた}い",
+      "label": "tight-lipped, discreet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +94,6 @@
       "domain": []
     },
     "created": "2026-08-12T03:18:15Z",
-    "modified": "2026-08-12T03:18:15Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20279_tenran_ex1",
-      "japanese": "{展覧会|てんらんかい}に{行|い}く。",
+      "japanese": "⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "To go to an exhibition.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20279_tenran_ex2",
-      "japanese": "{美術|びじゅつ}{展覧会|てんらんかい}のチケットを{買|か}った。",
+      "japanese": "⟦{美術|びじゅつ}→美術：04447_bijutsu⟧⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦の→の：09472_no⟧⟦チケット→チケット：11014_chiketto⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought tickets for an art exhibition.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20279_tenran_ex3",
-      "japanese": "{今回|こんかい}の{展覧会|てんらんかい}には、{国内外|こくないがい}から{集|あつ}められた{名画|めいが}が{展示|てんじ}されている。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{国内外|こくないがい}→国内外：17208_kokunaigai⟧⟦から→から：00504_kara⟧⟦{集|あつ}められた→集める：01170_atsumeru⟧⟦{名画|めいが}→名画：17385_meiga⟧⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "This exhibition displays masterpieces gathered from Japan and abroad.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {展|てん} (spread out, display) + {覧|らん} (view, look at). Functions as a する verb ({展覧|てんらん}する = to exhibit), though the compound {展覧会|てんらんかい} is far more common.\n\nUSAGE:\nRarely used on its own — almost always appears in the compound {展覧会|てんらんかい} (exhibition, show). The standalone noun {展覧|てんらん} is quite formal and literary. {展覧会|てんらんかい} is the standard word for art exhibitions, museum shows, and similar public displays.\n\nCOMMON COLLOCATIONS:\n- {展覧会|てんらんかい} — exhibition, show\n- {美術|びじゅつ}{展覧会|てんらんかい} — art exhibition\n- {展覧会|てんらんかい}を{開|ひら}く — to hold an exhibition\n- {展覧会|てんらんかい}に{出品|しゅっぴん}する — to exhibit (a work) at a show\n\nSIMILAR WORDS:\n- {展示|てんじ} — display, exhibition (broader, includes permanent displays)\n- {個展|こてん} — solo exhibition (one artist's show)\n- {博覧会|はくらんかい} — exposition, world's fair (large-scale, often international)",
+  "notes": "Compound of ⟦{展|てん}→〜展：28468_ten⟧ (spread out, display) + {覧|らん} (view, look at). Functions as a ⟦する→する：00392_suru⟧ verb ({展覧|てんらん}⟦する→する：00392_suru⟧ = to exhibit), though the compound ⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧ is far more common.\n\nUSAGE:\nRarely used on its own — almost always appears in the compound ⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧ (exhibition, show). The standalone noun {展覧|てんらん} is quite formal and literary. ⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧ is the standard word for art exhibitions, museum shows, and similar public displays.\n\nCOMMON COLLOCATIONS:\n- ⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧ — exhibition, show\n- ⟦{美術|びじゅつ}→美術：04447_bijutsu⟧⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧ — art exhibition\n- ⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ — to hold an exhibition\n- ⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦に→に：00314_ni⟧⟦{出品|しゅっぴん}→出品：11726_shuppin⟧⟦する→する：00392_suru⟧ — to exhibit (a work) at a show\n\nSIMILAR WORDS:\n- ⟦{展示|てんじ}→展示：12401_tenji⟧ — display, exhibition (broader, includes permanent displays)\n- ⟦{個展|こてん}→個展：15068_koten⟧ — solo exhibition (one artist's show)\n- ⟦{博覧会|はくらんかい}→博覧会：29493_hakurankai⟧ — exposition, world's fair (large-scale, often international)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12401_tenji",
+      "reading": "てんじ",
+      "headword": "{展示|てんじ}",
+      "label": "display, exhibition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15068_koten",
+      "reading": "こてん",
+      "headword": "{個展|こてん}",
+      "label": "solo exhibition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29493_hakurankai",
+      "reading": "はくらんかい",
+      "headword": "{博覧会|はくらんかい}",
+      "label": "exposition, world's fair"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T19:20:19Z",
-    "modified": "2026-03-28T19:20:19Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

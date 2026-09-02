@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "17355_kenkoushokuhin_ex1",
-      "japanese": "{健康|けんこう}{食品|しょくひん}をよく{買|か}う。",
+      "japanese": "{健康|けんこう}{食品|しょくひん}⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "I often buy health foods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17355_kenkoushokuhin_ex2",
-      "japanese": "{健康|けんこう}{食品|しょくひん}の{市場|しじょう}は{年々|ねんねん}{拡大|かくだい}している。",
+      "japanese": "{健康|けんこう}{食品|しょくひん}⟦の→の：09472_no⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦している→する：00392_suru⟧。",
       "english": "The health food market is expanding year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17355_kenkoushokuhin_ex3",
-      "japanese": "{健康|けんこう}{食品|しょくひん}だからといって{食|た}べすぎると{逆効果|ぎゃくこうか}になることもある。",
+      "japanese": "{健康|けんこう}{食品|しょくひん}だ⟦からといって→からといって：30623_karatoitte⟧{食|た}べすぎる⟦と→と：00512_to⟧⟦{逆効果|ぎゃくこうか}→逆効果：14315_gyakukouka⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Just because something is health food doesn't mean eating too much of it won't have the opposite effect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA broad category in Japan that includes supplements, organic products, and functional foods. Japan has specific regulatory categories for these products.\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}{食品|しょくひん}コーナー (health food section)\n- {健康|けんこう}{食品|しょくひん}{売|う}り{場|ば} (health food department)\n\nRELATED TERMS:\n- サプリメント: supplement\n- {栄養|えいよう}{補助|ほじょ}{食品|しょくひん}: nutritional supplement food\n- {特定|とくてい}{保健用|ほけんよう}{食品|しょくひん}: foods for specified health uses (トクホ)",
-  "cross_references": [],
+  "notes": "USAGE:\nA broad category in Japan that includes supplements, organic products, and functional foods. Japan has specific regulatory categories for these products.\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}{食品|しょくひん}⟦コーナー→コーナー：10865_koonaa⟧ (health food section)\n- {健康|けんこう}{食品|しょくひん}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (health food department)\n\nRELATED WORDS:\n- ⟦サプリメント→サプリメント：10937_sapurimento⟧: supplement\n- ⟦{栄養|えいよう}{補助|ほじょ}{食品|しょくひん}→栄養補助食品：29274_eiyouhojoshokuhin⟧: nutritional supplement food\n- ⟦{特定|とくてい}→特定：04275_tokutei⟧{保健用|ほけんよう}⟦{食品|しょくひん}→食品：03247_shokuhin⟧: foods for specified health uses (トクホ)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10937_sapurimento",
+      "reading": "さぷりめんと",
+      "headword": "サプリメント",
+      "label": "supplement"
+    },
+    {
+      "type": "related",
+      "target_id": "29274_eiyouhojoshokuhin",
+      "reading": "えいようほじょしょくひん",
+      "headword": "{栄養補助食品|えいようほじょしょくひん}",
+      "label": "nutritional supplement food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17366_eiyouzai",
+      "reading": "えいようざい",
+      "headword": "{栄養|えいよう}{剤|ざい}",
+      "label": "nutritional supplement"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:17:38Z",
-    "modified": "2026-03-17T08:17:38Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

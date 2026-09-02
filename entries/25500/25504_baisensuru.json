@@ -3,7 +3,7 @@
   "headword": "{焙煎|ばいせん}する",
   "reading": "ばいせんする",
   "romaji": "baisensuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to roast (coffee beans, tea leaves, etc.)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25504_baisensuru_ex1",
-      "japanese": "コーヒー{豆|まめ}を{焙煎|ばいせん}する。",
+      "japanese": "⟦コーヒー{豆|まめ}→コーヒー豆：25759_koohiimame⟧⟦を→を：00422_wo⟧{焙煎|ばいせん}する。",
       "english": "To roast coffee beans.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25504_baisensuru_ex2",
-      "japanese": "{自家|じか}{焙煎|ばいせん}のコーヒーは{香|かお}りが{違|ちが}う。",
+      "japanese": "⟦{自家|じか}→自家：14071_jika⟧⟦{焙煎|ばいせん}→焙煎：16935_baisen⟧⟦の→の：09472_no⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦は→は：00079_ha⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Home-roasted coffee has a different aroma.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25504_baisensuru_ex3",
-      "japanese": "{焙煎|ばいせん}の{度合|どあ}いによってコーヒーの{味|あじ}わいが{大|おお}きく{変|か}わる。",
+      "japanese": "⟦{焙煎|ばいせん}→焙煎：16935_baisen⟧⟦の→の：09472_no⟧⟦{度合|どあ}い→度合い：12456_doai⟧⟦によって→によって：06801_niyotte⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦の→の：09472_no⟧⟦{味|あじ}わい→味わい：11899_ajiwai⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The flavor of coffee changes greatly depending on the degree of roasting.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {焙煎|ばいせん} (roasting) + する. A specialized term most commonly associated with coffee culture. With the rise of specialty coffee shops in Japan, this word has become widely known. The noun {焙煎|ばいせん} is used more often than the verb form, especially in compound terms.\n\nCOMMON COLLOCATIONS:\n- {自家|じか}{焙煎|ばいせん}: home/in-house roasting\n- {焙煎|ばいせん}{度|ど}: roast level; degree of roasting\n- {浅煎|あさい}り: light roast\n- {深煎|ふかい}り: dark roast\n- {焙煎|ばいせん}{機|き}: roasting machine; roaster\n\nSIMILAR WORDS:\n- {炒|い}る: to roast; to parch — a native Japanese word used more broadly for roasting nuts, sesame, etc.\n- ローストする: to roast (loanword) — used in Western cooking contexts, especially for meat",
-  "cross_references": [],
+  "notes": "Composed of ⟦{焙煎|ばいせん}→焙煎：16935_baisen⟧ (roasting) + ⟦する→する：00392_suru⟧. A specialized term most commonly associated with coffee culture. With the rise of specialty coffee shops in Japan, this word has become widely known. The noun ⟦{焙煎|ばいせん}→焙煎：16935_baisen⟧ is used more often than the verb form, especially in compound terms.\n\nCOMMON COLLOCATIONS:\n- ⟦{自家|じか}→自家：14071_jika⟧⟦{焙煎|ばいせん}→焙煎：16935_baisen⟧: home/in-house roasting\n- ⟦{焙煎|ばいせん}{度|ど}→焙煎度：26538_baisendo⟧: roast level; degree of roasting\n- {浅煎|あさい}り: light roast\n- {深煎|ふかい}り: dark roast\n- ⟦{焙煎|ばいせん}{機|き}→焙煎機：26214_baisenki⟧: roasting machine; roaster\n\nSIMILAR WORDS:\n- ⟦{炒|い}る→炒る：13402_iru⟧: to roast; to parch — a native Japanese word used more broadly for roasting nuts, sesame, etc.\n- ロースト⟦する→する：00392_suru⟧: to roast (loanword) — used in Western cooking contexts, especially for meat",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13402_iru",
+      "reading": "いる",
+      "headword": "{炒|い}る",
+      "label": "to roast"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +61,16 @@
       "pos": [
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-25T15:14:09Z",
-    "modified": "2026-04-25T15:14:09Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

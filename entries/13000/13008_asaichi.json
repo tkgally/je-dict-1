@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13008_asaichi_ex1",
-      "japanese": "{朝市|あさいち}で{野菜|やさい}を{買|か}った。",
+      "japanese": "{朝市|あさいち}⟦で→で：00502_de⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought vegetables at the morning market.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13008_asaichi_ex2",
-      "japanese": "{毎週|まいしゅう}{日曜日|にちようび}に{朝市|あさいち}が{開|ひら}かれる。",
+      "japanese": "⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧⟦に→に：00314_ni⟧{朝市|あさいち}⟦が→が：00051_ga⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧。",
       "english": "A morning market is held every Sunday.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13008_asaichi_ex3",
-      "japanese": "{旅行先|りょこうさき}で{地元|じもと}の{朝市|あさいち}を{訪|おとず}れたら、{新鮮|しんせん}な{魚介類|ぎょかいるい}や{手作|てづく}りの{漬物|つけもの}が{並|なら}んでいた。",
+      "japanese": "⟦{旅行先|りょこうさき}→旅行先：28195_ryokousaki⟧⟦で→で：00502_de⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{朝市|あさいち}⟦を→を：00422_wo⟧⟦{訪|おとず}れたら→訪れる：07678_otozureru⟧、⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な⟦{魚介類|ぎょかいるい}→魚介類：23435_gyokairui⟧や⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦の→の：09472_no⟧⟦{漬物|つけもの}→漬物：04938_tsukemono⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "When I visited the local morning market at my travel destination, fresh seafood and handmade pickles were lined up for sale.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "CULTURE:\nMorning markets are a long-standing tradition in Japan, especially in rural and coastal areas. Famous examples include the {輪島|わじま}{朝市|あさいち} (Wajima Morning Market) in Ishikawa Prefecture and the {函館|はこだて}{朝市|あさいち} (Hakodate Morning Market) in Hokkaido. They are popular tourist attractions and a way for locals to buy fresh, seasonal produce directly from farmers and fishers.\n\nCOMMON COLLOCATIONS:\n- {朝市|あさいち}に{行|い}く: to go to the morning market\n- {朝市|あさいち}が{開|ひら}かれる: a morning market is held\n- {朝市|あさいち}で{買|か}い{物|もの}する: to shop at the morning market\n\nSIMILAR WORDS:\n- マルシェ: marché (farmers' market, loanword from French)\n- {市場|いちば}: market (general)",
+  "notes": "CULTURAL NOTE:\nMorning markets are a long-standing tradition in Japan, especially in rural and coastal areas. Famous examples include the {輪島|わじま}{朝市|あさいち} (Wajima Morning Market) in Ishikawa Prefecture and the {函館|はこだて}{朝市|あさいち} (Hakodate Morning Market) in Hokkaido. They are popular tourist attractions and a way for locals to buy fresh, seasonal produce directly from farmers and fishers.\n\nCOMMON COLLOCATIONS:\n- {朝市|あさいち}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the morning market\n- {朝市|あさいち}⟦が→が：00051_ga⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧: a morning market is held\n- {朝市|あさいち}⟦で→で：00502_de⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦する→する：00392_suru⟧: to shop at the morning market\n\nSIMILAR WORDS:\n- マルシェ: marché (farmers' market, loanword from French)\n- ⟦{市場|いちば}→市場：01803_ichiba⟧: market (general)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "いちば",
       "headword": "{市場|いちば}",
       "label": "market (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25521_oroshiurishijou",
+      "reading": "おろしうりしじょう",
+      "headword": "{卸売|おろしうり}{市場|しじょう}",
+      "label": "wholesale market"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:17:24Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

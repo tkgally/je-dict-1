@@ -2,7 +2,7 @@
   "id": "11669_naishin",
   "headword": "{内心|ないしん}",
   "reading": "ないしん",
-  "part_of_speech": "noun / adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "inwardly, in one's heart",
   "schema_version": "2.0",
   "definitions": [
@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "11669_naishin_ex1",
-      "japanese": "{内心|ないしん}ほっとした。",
+      "japanese": "{内心|ないしん}⟦ほっとした→ほっとする：07652_hottosuru⟧。",
       "english": "I was secretly relieved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11669_naishin_ex2",
-      "japanese": "{彼|かれ}は{笑|わら}っていたが、{内心|ないしん}は{怒|おこ}っていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{笑|わら}っていた→笑う：00685_warau⟧⟦が→が：00051_ga⟧、{内心|ないしん}⟦は→は：00079_ha⟧⟦{怒|おこ}っていた→怒る：00876_okoru⟧。",
       "english": "He was smiling, but inside he was angry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11669_naishin_ex3",
-      "japanese": "{内心|ないしん}では{不安|ふあん}を{感|かん}じながらも、{平静|へいせい}を{装|よそお}った。",
+      "japanese": "{内心|ないしん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧⟦{感|かん}じ→感じる：02044_kanjiru⟧⟦ながら→ながら：10530_nagara⟧⟦も→も：00484_mo⟧、⟦{平静|へいせい}→平静：16400_heisei⟧⟦を→を：00422_wo⟧⟦{装|よそお}った→装う：09152_yosoou⟧。",
       "english": "While feeling anxious inside, I put on a calm front.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Often implies a contrast between one's outward appearance and true feelings. Very common in narrative and descriptive writing.\n\nUSAGE PATTERNS:\n・{内心|ないしん} + verb/adjective (adverbial use: inwardly felt/did X)\n・{内心|ないしん}では (in one's heart, internally)\n・{内心|ないしん}を{明|あ}かす (reveal one's true feelings)\n\nCOMMON COLLOCATIONS:\n・{内心|ないしん}ほっとする (be secretly relieved)\n・{内心|ないしん}{穏|おだ}やかでない (uneasy inside)\n・{内心|ないしん}を{隠|かく}す (hide one's true feelings)\n\nDISTINCTIONS:\n・{内心|ないしん}: focuses on private thoughts/feelings contrasted with outward behavior\n・{本心|ほんしん}: one's true intention or genuine feelings (not necessarily hidden)",
-  "cross_references": [],
+  "notes": "Often implies a contrast between one's outward appearance and true feelings. Very common in narrative and descriptive writing.\n\nCOMMON PATTERNS:\n- {内心|ないしん} + verb/adjective (adverbial use: inwardly felt/did X)\n- {内心|ないしん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧ (in one's heart, internally)\n- {内心|ないしん}⟦を→を：00422_wo⟧⟦{明|あ}かす→明かす：12961_akasu⟧ (reveal one's true feelings)\n\nCOMMON COLLOCATIONS:\n- {内心|ないしん}⟦ほっとする→ほっとする：07652_hottosuru⟧ (be secretly relieved)\n- {内心|ないしん}⟦{穏|おだ}やか→穏やか：02353_odayaka⟧でない (uneasy inside)\n- {内心|ないしん}⟦を→を：00422_wo⟧⟦{隠|かく}す→隠す：02034_kakusu⟧ (hide one's true feelings)\n\nSIMILAR WORDS:\n- {内心|ないしん}: focuses on private thoughts/feelings contrasted with outward behavior\n- ⟦{本心|ほんしん}→本心：12864_honshin⟧: one's true intention or genuine feelings (not necessarily hidden)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12864_honshin",
+      "reading": "ほんしん",
+      "headword": "{本心|ほんしん}",
+      "label": "one's true intention or genuine feelings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11689_naimen",
+      "reading": "ないめん",
+      "headword": "{内面|ないめん}",
+      "label": "inner side, inner feelings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21532_munenouchi",
+      "reading": "むねのうち",
+      "headword": "{胸|むね}の{内|うち}",
+      "label": "one's inner thoughts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25870_shinchuu",
+      "reading": "しんちゅう",
+      "headword": "{心中|しんちゅう}",
+      "label": "one's true feelings"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T20:17:53Z",
-    "modified": "2026-02-17T20:17:53Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

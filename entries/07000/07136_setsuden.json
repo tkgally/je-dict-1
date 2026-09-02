@@ -2,7 +2,7 @@
   "id": "07136_setsuden",
   "headword": "{節電|せつでん}",
   "reading": "せつでん",
-  "part_of_speech": "noun; suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "power saving; conserving electricity",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07136_setsuden_ex1",
-      "japanese": "{夏|なつ}は{節電|せつでん}を{心|こころ}がけている。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{節電|せつでん}⟦を→を：00422_wo⟧⟦{心|こころ}がけている→心がける：10015_kokorogakeru⟧。",
       "english": "In summer, I try to conserve electricity.",
       "sense_numbers": [
         1
@@ -112,7 +112,7 @@
     },
     {
       "id": "07136_setsuden_ex2",
-      "japanese": "{節電|せつでん}のためにエアコンの{設定温度|せっていおんど}を{上|あ}げた。",
+      "japanese": "{節電|せつでん}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦エアコン→エアコン：05282_eakon⟧⟦の→の：09472_no⟧⟦{設定温度|せっていおんど}→設定温度：23470_setteiondo⟧⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
       "english": "I raised the air conditioner's temperature setting to save electricity.",
       "sense_numbers": [
         1
@@ -120,14 +120,14 @@
     },
     {
       "id": "07136_setsuden_ex3",
-      "japanese": "{政府|せいふ}が{節電|せつでん}を{呼|よ}びかけている。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧{節電|せつでん}⟦を→を：00422_wo⟧⟦{呼|よ}びかけている→呼びかける：06480_yobikakeru⟧。",
       "english": "The government is calling for power conservation.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "COMPOSITION: {節|せつ} (economize, moderate) + {電|でん} (electricity).\n\nCONTEXT: {節電|せつでん} became especially prominent after the 2011 Tōhoku earthquake and Fukushima nuclear disaster, when Japan faced power shortages.\n\nCOMMON MEASURES:\n- Raising AC temperature in summer ({冷房|れいぼう} to 28°C)\n- Lowering heater temperature in winter ({暖房|だんぼう} to 20°C)\n- Turning off lights when not needed\n- Using LED lighting\n- Reducing standby power\n\nRELATED VOCABULARY:\n- {省|しょう}エネ: energy saving (broader term)\n- {節水|せっすい}: water conservation\n- {節約|せつやく}: saving (general), economizing\n- {電力|でんりょく}{不足|ぶそく}: power shortage\n\nCOMMON COLLOCATIONS:\n- {節電|せつでん}する: to save electricity\n- {節電|せつでん}を{呼|よ}びかける: to call for power saving\n- {節電|せつでん}{対策|たいさく}: power-saving measures\n- {節電|せつでん}モード: power-saving mode",
+  "notes": "COMPOSITION: ⟦{節|せつ}→節：19359_setsu⟧ (economize, moderate) + {電|でん} (electricity).\n\nCONTEXT: {節電|せつでん} became especially prominent after the 2011 Tōhoku earthquake and Fukushima nuclear disaster, when Japan faced power shortages.\n\nCOMMON MEASURES:\n- Raising AC temperature in summer (⟦{冷房|れいぼう}→冷房：01755_reibou⟧ to 28°C)\n- Lowering heater temperature in winter (⟦{暖房|だんぼう}→暖房：01657_danbou⟧ to 20°C)\n- Turning off lights when not needed\n- Using LED lighting\n- Reducing standby power\n\nRELATED WORDS:\n- ⟦{省|しょう}エネ→省エネ：06308_shouene⟧: energy saving (broader term)\n- ⟦{節水|せっすい}→節水：07964_sessui⟧: water conservation\n- ⟦{節約|せつやく}→節約：03302_setsuyaku⟧: saving (general), economizing\n- ⟦{電力|でんりょく}→電力：14609_denryoku⟧{不足|ぶそく}: power shortage\n\nCOMMON COLLOCATIONS:\n- {節電|せつでん}⟦する→する：00392_suru⟧: to save electricity\n- {節電|せつでん}⟦を→を：00422_wo⟧⟦{呼|よ}びかける→呼びかける：06480_yobikakeru⟧: to call for power saving\n- {節電|せつでん}⟦{対策|たいさく}→対策：02511_taisaku⟧: power-saving measures\n- {節電|せつでん}⟦モード→モード：11596_moodo⟧: power-saving mode",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,32 @@
       "reading": "しょうえね",
       "headword": "{省|しょう}エネ",
       "label": "energy saving"
+    },
+    {
+      "type": "homophone",
+      "target_id": "24158_setsuden",
+      "reading": "せつでん",
+      "headword": "{切電|せつでん}",
+      "label": "hanging up the phone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24848_shoudenryoku",
+      "reading": "しょうでんりょく",
+      "headword": "{省電力|しょうでんりょく}",
+      "label": "power saving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29550_shouenerugii",
+      "reading": "しょうえねるぎー",
+      "headword": "{省|しょう}エネルギー",
+      "label": "energy conservation"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:54:32Z",
-    "modified": "2026-04-19T03:07:22Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

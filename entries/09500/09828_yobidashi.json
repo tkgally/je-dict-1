@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09828_yobidashi_ex1",
-      "japanese": "{呼|よ}び{出|だ}しベルが{鳴|な}った。",
+      "japanese": "{呼|よ}び{出|だ}し⟦ベル→ベル：01379_beru⟧⟦が→が：00051_ga⟧⟦{鳴|な}った→鳴る：01143_naru⟧。",
       "english": "The pager buzzed.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "09828_yobidashi_ex2",
-      "japanese": "{番号|ばんごう}で{呼|よ}び{出|だ}しします。",
+      "japanese": "⟦{番号|ばんごう}→番号：02939_bangou⟧⟦で→で：00502_de⟧{呼|よ}び{出|だ}し⟦します→する：00392_suru⟧。",
       "english": "We will call you by number.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "09828_yobidashi_ex3",
-      "japanese": "{呼|よ}び{出|だ}しがあるまでお{待|ま}ちください。",
+      "japanese": "{呼|よ}び{出|だ}し⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦まで→まで：00490_made⟧お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wait until you are called.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "09828_yobidashi_ex4",
-      "japanese": "{上司|じょうし}から{呼|よ}び{出|だ}しを{受|う}けた。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦から→から：00504_kara⟧{呼|よ}び{出|だ}し⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I was summoned by my boss.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "09828_yobidashi_ex5",
-      "japanese": "{学校|がっこう}から{呼|よ}び{出|だ}しがあった。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦から→から：00504_kara⟧{呼|よ}び{出|だ}し⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "I got a call to come to school.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "09828_yobidashi_ex6",
-      "japanese": "{警察|けいさつ}からの{呼|よ}び{出|だ}しに{応|おう}じた。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{呼|よ}び{出|だ}し⟦に→に：00314_ni⟧⟦{応|おう}じた→応じる：02018_oujiru⟧。",
       "english": "I responded to the summons from the police.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{呼|よ}び{出|だ}し has everyday uses (waiting for service) and more formal uses (being summoned). In restaurants and clinics, {呼|よ}び{出|だ}しベル (pager/buzzer) is commonly used.\n\nCOMMON COLLOCATIONS:\n- {呼|よ}び{出|だ}しベル (pager, buzzer)\n- {呼|よ}び{出|だ}しを{受|う}ける (to receive a summons)\n- {呼|よ}び{出|だ}し{番号|ばんごう} (call number)\n\nRELATED TERMS:\n- {順番|じゅんばん}{待|ま}ち: waiting in line\n- {受付|うけつけ}{番号|ばんごう}: reception number\n- {呼|よ}ぶ: to call",
+  "notes": "{呼|よ}び{出|だ}し has everyday uses (waiting for service) and more formal uses (being summoned). In restaurants and clinics, {呼|よ}び{出|だ}し⟦ベル→ベル：01379_beru⟧ (pager/buzzer) is commonly used.\n\nCOMMON COLLOCATIONS:\n- {呼|よ}び{出|だ}し⟦ベル→ベル：01379_beru⟧ (pager, buzzer)\n- {呼|よ}び{出|だ}し⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a summons)\n- {呼|よ}び{出|だ}し⟦{番号|ばんごう}→番号：02939_bangou⟧ (call number)\n\nRELATED WORDS:\n- ⟦{順番|じゅんばん}{待|ま}ち→順番待ち：09747_junbanmachi⟧: waiting in line\n- ⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦{番号|ばんごう}→番号：02939_bangou⟧: reception number\n- ⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧: to call",
   "prominent_see_also": [
     {
       "target_id": "04813_yobidasu",
@@ -87,9 +87,32 @@
       "note": "verb form"
     }
   ],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09747_junbanmachi",
+      "reading": "じゅんばんまち",
+      "headword": "{順番|じゅんばん}{待|ま}ち",
+      "label": "waiting in line"
+    },
+    {
+      "type": "related",
+      "target_id": "00766_yobu",
+      "reading": "よぶ",
+      "headword": "{呼|よ}ぶ",
+      "label": "to call"
+    },
+    {
+      "type": "related",
+      "target_id": "08288_seiriken",
+      "reading": "せいりけん",
+      "headword": "{整理券|せいりけん}",
+      "label": "numbered ticket"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-06-26T03:27:23Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

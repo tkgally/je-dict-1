@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12434_taika_ex1",
-      "japanese": "{成功|せいこう}の{対価|たいか}は{大|おお}きい。",
+      "japanese": "⟦{成功|せいこう}→成功：02638_seikou⟧⟦の→の：09472_no⟧{対価|たいか}⟦は→は：00079_ha⟧⟦{大|おお}きい→大きい：00335_ookii⟧。",
       "english": "The price of success is high.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12434_taika_ex2",
-      "japanese": "サービスの{対価|たいか}として{料金|りょうきん}を{支払|しはら}う。",
+      "japanese": "⟦サービス→サービス：01531_saabisu⟧⟦の→の：09472_no⟧{対価|たいか}⟦として→として：06802_toshite⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦を→を：00422_wo⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧。",
       "english": "Pay a fee as compensation for the service.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12434_taika_ex3",
-      "japanese": "{自由|じゆう}を{手|て}に{入|い}れるために、{彼|かれ}は{大|おお}きな{対価|たいか}を{払|はら}わなければならなかった。",
+      "japanese": "⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦を→を：00422_wo⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{対価|たいか}⟦を→を：00422_wo⟧⟦{払|はら}わなければ→払う：00535_harau⟧⟦ならなかった→なる：01970_naru⟧。",
       "english": "To obtain freedom, he had to pay a great price.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in both business/legal contexts (monetary compensation, consideration in a contract) and figuratively (the price one pays for achieving something). More formal than {代金|だいきん} or {値段|ねだん}.\n\nCOMMON COLLOCATIONS:\n- {対価|たいか}を{払|はら}う: to pay the price\n- {対価|たいか}を{得|え}る: to receive compensation\n- {対価|たいか}として: as compensation, in exchange\n- {正当|せいとう}な{対価|たいか}: fair compensation\n- {労働|ろうどう}の{対価|たいか}: compensation for labor",
+  "notes": "USAGE:\nUsed in both business/legal contexts (monetary compensation, consideration in a contract) and figuratively (the price one pays for achieving something). More formal than ⟦{代金|だいきん}→代金：03416_daikin⟧ or ⟦{値段|ねだん}→値段：00871_nedan⟧.\n\nCOMMON COLLOCATIONS:\n- {対価|たいか}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay the price\n- {対価|たいか}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧: to receive compensation\n- {対価|たいか}⟦として→として：06802_toshite⟧: as compensation, in exchange\n- ⟦{正当|せいとう}→正当：13191_seitou⟧な{対価|たいか}: fair compensation\n- ⟦{労働|ろうどう}→労働：03785_roudou⟧⟦の→の：09472_no⟧{対価|たいか}: compensation for labor",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,25 @@
       "headword": "{退化|たいか}",
       "label": "degeneration (homophone)",
       "target_id": "06030_taika"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11432_daishou",
+      "reading": "だいしょう",
+      "headword": "{代償|だいしょう}",
+      "label": "compensation, price to pay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22845_daika",
+      "reading": "だいか",
+      "headword": "{代価|だいか}",
+      "label": "price"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-04-27T04:29:29Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

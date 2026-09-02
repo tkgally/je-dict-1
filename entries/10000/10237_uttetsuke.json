@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10237_uttetsuke_ex1",
-      "japanese": "この{仕事|しごと}に{彼|かれ}はうってつけだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧うってつけだ。",
       "english": "He's perfect for this job.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10237_uttetsuke_ex2",
-      "japanese": "ピクニックにうってつけの{天気|てんき}だ。",
+      "japanese": "⟦ピクニック→ピクニック：00343_pikunikku⟧⟦に→に：00314_ni⟧うってつけ⟦の→の：09472_no⟧⟦{天気|てんき}→天気：00582_tenki⟧だ。",
       "english": "It's perfect weather for a picnic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10237_uttetsuke_ex3",
-      "japanese": "{初心者|しょしんしゃ}にうってつけの{教材|きょうざい}を{見|み}つけた。",
+      "japanese": "⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧⟦に→に：00314_ni⟧うってつけ⟦の→の：09472_no⟧⟦{教材|きょうざい}→教材：12878_kyouzai⟧⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found teaching materials that are ideal for beginners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A na-adjective meaning perfectly suited for a particular purpose or situation.\n\nETYMOLOGY:\nFrom {打|う}って{付|つ}ける (to strike and attach), evoking something that fits as if it were custom-made.\n\nGRAMMAR:\nAlmost always used with に to indicate what something is ideal for:\n- 〜にうってつけだ: is ideal for ~\n- 〜にうってつけの + noun: ideal ~ for\n\nCOMMON PATTERNS:\n- 〜にうってつけの{人|ひと}: the perfect person for ~\n- 〜にうってつけの{場所|ばしょ}: the perfect place for ~\n- 〜にうってつけの{天気|てんき}: perfect weather for ~\n\nSIMILAR WORDS:\n- ぴったり: just right, perfect fit (more casual, broader usage)\n- {最適|さいてき}: optimal, most suitable (more formal)",
+  "notes": "A na-adjective meaning perfectly suited for a particular purpose or situation.\n\nETYMOLOGY:\nFrom ⟦{打|う}って→打つ：01221_utsu⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧ (to strike and attach), evoking something that fits as if it were custom-made.\n\nCOMMON PATTERNS:\nAlmost always used with ⟦に→に：00314_ni⟧ to indicate what something is ideal for:\n- 〜⟦に→に：00314_ni⟧うってつけだ: is ideal for ~\n- 〜⟦に→に：00314_ni⟧うってつけ⟦の→の：09472_no⟧ + noun: ideal ~ for\n- 〜⟦に→に：00314_ni⟧うってつけ⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: the perfect person for ~\n- 〜⟦に→に：00314_ni⟧うってつけ⟦の→の：09472_no⟧⟦{場所|ばしょ}→場所：00829_basho⟧: the perfect place for ~\n- 〜⟦に→に：00314_ni⟧うってつけ⟦の→の：09472_no⟧⟦{天気|てんき}→天気：00582_tenki⟧: perfect weather for ~\n\nSIMILAR WORDS:\n- ⟦ぴったり→ぴったり：02362_pittari⟧: just right, perfect fit (more casual, broader usage)\n- ⟦{最適|さいてき}→最適：13010_saiteki⟧: optimal, most suitable (more formal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -45,17 +51,28 @@
       "reading": "さいてき",
       "headword": "{最適|さいてき}",
       "label": "optimal (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02362_pittari",
+      "reading": "ぴったり",
+      "headword": "ぴったり",
+      "label": "just right, perfect fit"
     }
   ],
   "metadata": {
     "created": "2026-02-05T14:49:19Z",
-    "modified": "2026-04-24T05:32:11Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16012_kahei_ex1",
-      "japanese": "{古|ふる}い{貨幣|かへい}を{集|あつ}めている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{貨幣|かへい}⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "I collect old coins.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16012_kahei_ex2",
-      "japanese": "この{国|くに}の{貨幣|かへい}の{単位|たんい}はドルです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{貨幣|かへい}⟦の→の：09472_no⟧⟦{単位|たんい}→単位：03412_tani⟧⟦は→は：00079_ha⟧⟦ドル→ドル：01554_doru⟧です。",
       "english": "The monetary unit of this country is the dollar.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16012_kahei_ex3",
-      "japanese": "{貨幣|かへい}の{価値|かち}は{時代|じだい}とともに{変動|へんどう}するものだ。",
+      "japanese": "{貨幣|かへい}⟦の→の：09472_no⟧⟦{価値|かち}→価値：00131_kachi⟧⟦は→は：00079_ha⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦とともに→とともに：30485_totomoni⟧⟦{変動|へんどう}→変動：09936_hendou⟧⟦する→する：00392_suru⟧ものだ。",
       "english": "The value of currency fluctuates with the times.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{貨幣|かへい} is a somewhat formal or academic term. In everyday conversation, お{金|かね} is more common for \"money\" and {硬貨|こうか} for \"coin.\"\n\nCOMMON COLLOCATIONS:\n- {貨幣|かへい}{価値|かち} (monetary value)\n- {貨幣|かへい}{経済|けいざい} (monetary economy)\n- {貨幣|かへい}{制度|せいど} (monetary system)\n- {記念|きねん}{貨幣|かへい} (commemorative coin)\n\nRELATED WORDS:\n{通貨|つうか} refers to \"currency\" in the sense of a country's official money system, while {貨幣|かへい} emphasizes the physical objects or the economic concept of money.",
+  "notes": "USAGE:\n{貨幣|かへい} is a somewhat formal or academic term. In everyday conversation, ⟦お{金|かね}→お金：00611_okane⟧ is more common for \"money\" and ⟦{硬貨|こうか}→硬貨：02745_kouka⟧ for \"coin.\"\n\nCOMMON COLLOCATIONS:\n- {貨幣|かへい}⟦{価値|かち}→価値：00131_kachi⟧ (monetary value)\n- {貨幣|かへい}⟦{経済|けいざい}→経済：01394_keizai⟧ (monetary economy)\n- {貨幣|かへい}⟦{制度|せいど}→制度：03291_seido⟧ (monetary system)\n- ⟦{記念|きねん}→記念：00232_kinen⟧{貨幣|かへい} (commemorative coin)\n\nRELATED WORDS:\n⟦{通貨|つうか}→通貨：03508_tsuuka⟧ refers to \"currency\" in the sense of a country's official money system, while {貨幣|かへい} emphasizes the physical objects or the economic concept of money.",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,11 +59,25 @@
       "reading": "こうか",
       "headword": "{硬貨|こうか}",
       "label": "coin"
+    },
+    {
+      "type": "related",
+      "target_id": "15787_ginka",
+      "reading": "ぎんか",
+      "headword": "{銀貨|ぎんか}",
+      "label": "silver coin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27314_kosen",
+      "reading": "こせん",
+      "headword": "{古銭|こせん}",
+      "label": "old coin"
     }
   ],
   "metadata": {
     "created": "2026-03-09T08:30:58Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

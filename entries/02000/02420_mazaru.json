@@ -2,7 +2,7 @@
   "id": "02420_mazaru",
   "headword": "{混|ま}ざる",
   "reading": "まざる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be mixed, to mingle",
   "conjugation": {
     "type": "godan",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{混|ま}ざる is a godan verb meaning to be mixed or blended.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧ (transitive - to mix)\n\nPARTICLE PATTERNS:\n- AがBに{混|ま}ざる: A mixes into B\n- AとBが{混|ま}ざる: A and B mix together\n\nCOMMON PATTERNS:\n- ⟦{色|いろ}→色：00849_iro⟧⟦が→が：00051_ga⟧{混|ま}ざる: colors blend\n- ⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦が→が：00051_ga⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧{混|ま}ざる: sugar dissolves into water\n- ⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{混|ま}ざる: to mingle with people\n\nALTERNATE KANJI:\n- {混|ま}ざる: to be mixed (substances)\n- ⟦{交|ま}ざる→交ざる：28479_mazaru⟧: to mingle (people, used interchangeably)\n\nSIMILAR VERBS:\n- ⟦{混|ま}じる→混じる：02421_majiru⟧: to be mixed (slightly more literary)\n- ⟦{混|こ}む→混む：02574_komu⟧: to be crowded (different reading)",
+  "notes": "{混|ま}ざる is a godan verb meaning to be mixed or blended.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧ (transitive - to mix)\n\nCOMMON PATTERNS:\n- A⟦が→が：00051_ga⟧B⟦に→に：00314_ni⟧{混|ま}ざる: A mixes into B\n- A⟦と→と：00512_to⟧B⟦が→が：00051_ga⟧{混|ま}ざる: A and B mix together\n- ⟦{色|いろ}→色：00849_iro⟧⟦が→が：00051_ga⟧{混|ま}ざる: colors blend\n- ⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦が→が：00051_ga⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧{混|ま}ざる: sugar dissolves into water\n- ⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{混|ま}ざる: to mingle with people\n\nALTERNATE KANJI:\n- {混|ま}ざる: to be mixed (substances)\n- ⟦{交|ま}ざる→交ざる：28479_mazaru⟧: to mingle (people, used interchangeably)\n\nSIMILAR WORDS:\n- ⟦{混|ま}じる→混じる：02421_majiru⟧: to be mixed (slightly more literary)\n- ⟦{混|こ}む→混む：02574_komu⟧: to be crowded (different reading)",
   "prominent_see_also": [
     {
       "target_id": "02423_mazeru",
@@ -148,10 +148,25 @@
       "note": "mixed in (presence)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02574_komu",
+      "reading": "こむ",
+      "headword": "{混|こ}む",
+      "label": "to be crowded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21465_konnyuu",
+      "reading": "こんにゅう",
+      "headword": "{混入|こんにゅう}",
+      "label": "contamination"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:57:17Z",
-    "modified": "2026-08-12T06:27:51Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

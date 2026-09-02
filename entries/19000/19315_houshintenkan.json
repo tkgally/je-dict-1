@@ -3,7 +3,7 @@
   "headword": "{方針転換|ほうしんてんかん}",
   "reading": "ほうしんてんかん",
   "romaji": "houshintenkan",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "policy shift; change of direction",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19315_houshintenkan_ex1",
-      "japanese": "{政府|せいふ}が{方針転換|ほうしんてんかん}を{発表|はっぴょう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧{方針転換|ほうしんてんかん}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The government announced a policy shift.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19315_houshintenkan_ex2",
-      "japanese": "{売|う}り{上|あ}げの{低迷|ていめい}を{受|う}けて{経営|けいえい}{方針|ほうしん}の{転換|てんかん}を{図|はか}った。",
+      "japanese": "{売|う}り{上|あ}げ⟦の→の：09472_no⟧⟦{低迷|ていめい}→低迷：09332_teimei⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦の→の：09472_no⟧⟦{転換|てんかん}→転換：19439_tenkan⟧⟦を→を：00422_wo⟧⟦{図|はか}った→図る：12006_hakaru⟧。",
       "english": "Facing sluggish sales, they attempted a change in business strategy.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19315_houshintenkan_ex3",
-      "japanese": "{急|きゅう}な{方針転換|ほうしんてんかん}に{現場|げんば}は{混乱|こんらん}した。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧な{方針転換|ほうしんてんかん}⟦に→に：00314_ni⟧⟦{現場|げんば}→現場：02723_genba⟧⟦は→は：00079_ha⟧⟦{混乱|こんらん}→混乱：02811_konran⟧⟦した→する：00392_suru⟧。",
       "english": "The sudden policy reversal caused confusion on the ground.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {方針|ほうしん} (policy, course of action) and {転換|てんかん} (conversion, switch). Very common in news reporting about political and corporate decisions.\n\nCOMMON COLLOCATIONS:\n- {方針転換|ほうしんてんかん}を{図|はか}る — to attempt a policy shift\n- {方針転換|ほうしんてんかん}を{迫|せま}られる — to be forced into a policy change\n- {大幅|おおはば}な{方針転換|ほうしんてんかん} — a major policy shift\n- {急|きゅう}な{方針転換|ほうしんてんかん} — a sudden change of course\n\nSIMILAR WORDS:\n- {路線変更|ろせんへんこう}: change of policy/route — similar meaning, slightly more informal\n- {軌道修正|きどうしゅうせい}: course correction — implies a smaller adjustment rather than a full reversal\n- {転換|てんかん}: conversion, shift — the broader term without specifying it is about policy",
+  "notes": "Compound of ⟦{方針|ほうしん}→方針：04871_houshin⟧ (policy, course of action) and ⟦{転換|てんかん}→転換：19439_tenkan⟧ (conversion, switch). Very common in news reporting about political and corporate decisions.\n\nCOMMON COLLOCATIONS:\n- {方針転換|ほうしんてんかん}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧ — to attempt a policy shift\n- {方針転換|ほうしんてんかん}⟦を→を：00422_wo⟧⟦{迫|せま}られる→迫る：03928_semaru⟧ — to be forced into a policy change\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{方針転換|ほうしんてんかん} — a major policy shift\n- ⟦{急|きゅう}→急：13042_kyuu⟧な{方針転換|ほうしんてんかん} — a sudden change of course\n\nSIMILAR WORDS:\n- ⟦{路線変更|ろせんへんこう}→路線変更：26434_rosenhenkou⟧: change of policy/route — similar meaning, slightly more informal\n- {軌道修正|きどうしゅうせい}: course correction — implies a smaller adjustment rather than a full reversal\n- ⟦{転換|てんかん}→転換：19439_tenkan⟧: conversion, shift — the broader term without specifying it is about policy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26434_rosenhenkou",
+      "reading": "ろせんへんこう",
+      "headword": "{路線|ろせん}{変更|へんこう}",
+      "label": "change of policy/route"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +161,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-25T06:11:20Z",
-    "modified": "2026-03-25T06:11:20Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

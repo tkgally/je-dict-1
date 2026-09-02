@@ -15,41 +15,70 @@
   "examples": [
     {
       "id": "29245_kaiyakukin_ex1",
-      "japanese": "{解約金|かいやくきん}がかかる。",
+      "japanese": "{解約金|かいやくきん}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "A cancellation fee applies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29245_kaiyakukin_ex2",
-      "japanese": "{途中|とちゅう}で{解約|かいやく}すると{解約金|かいやくきん}が{必要|ひつよう}だ。",
+      "japanese": "⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{解約金|かいやくきん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "If you cancel partway through, a cancellation fee is required.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29245_kaiyakukin_ex3",
-      "japanese": "{契約|けいやく}{期間|きかん}が{終|お}われば{解約金|かいやくきん}なしで{解約|かいやく}できる。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦{期間|きかん}→期間：00229_kikan⟧⟦が→が：00051_ga⟧⟦{終|お}われば→終わる：00567_owaru⟧{解約金|かいやくきん}なし⟦で→で：00502_de⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Once the contract period ends, you can cancel without any termination charge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {解約|かいやく} (cancellation of a contract) + {金|きん} (money, fee). Most often encountered with phone carriers, internet providers, and rental contracts.\n\nCOMMON COLLOCATIONS:\n- {解約金|かいやくきん}が{発生|はっせい}する: a cancellation fee is incurred\n- {解約金|かいやくきん}を{払|はら}う: to pay a cancellation fee\n- {解約金|かいやくきん}なし: no cancellation fee\n\nSIMILAR WORDS:\n- {違約金|いやくきん}: penalty for breach of contract — broader; a penalty for not honoring contract terms, not only for cancelling\n- {手数料|てすうりょう}: handling fee — a general service charge, not tied to cancellation",
+  "notes": "Formed from ⟦{解約|かいやく}→解約：06129_kaiyaku⟧ (cancellation of a contract) + {金|きん} (money, fee). Most often encountered with phone carriers, internet providers, and rental contracts.\n\nCOMMON COLLOCATIONS:\n- {解約金|かいやくきん}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧: a cancellation fee is incurred\n- {解約金|かいやくきん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay a cancellation fee\n- {解約金|かいやくきん}なし: no cancellation fee\n\nSIMILAR WORDS:\n- ⟦{違約金|いやくきん}→違約金：09819_iyakukin⟧: penalty for breach of contract — broader; a penalty for not honoring contract terms, not only for cancelling\n- ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: handling fee — a general service charge, not tied to cancellation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09819_iyakukin",
+      "reading": "いやくきん",
+      "headword": "{違約金|いやくきん}",
+      "label": "penalty for breach of contract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling fee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money", "business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "money",
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

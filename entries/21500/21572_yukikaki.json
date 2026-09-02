@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "21572_yukikaki_ex1",
-      "japanese": "{朝|あさ}から{雪|ゆき}かきをした。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{雪|ゆき}かき⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I shoveled snow from the morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21572_yukikaki_ex2",
-      "japanese": "{雪|ゆき}かきは{体力|たいりょく}を{使|つか}う{作業|さぎょう}だ。",
+      "japanese": "{雪|ゆき}かき⟦は→は：00079_ha⟧⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧だ。",
       "english": "Snow shoveling is physically demanding work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21572_yukikaki_ex3",
-      "japanese": "{大雪|おおゆき}の{後|あと}は、{近所|きんじょ}の{人|ひと}たちと{協力|きょうりょく}して{雪|ゆき}かきをする。",
+      "japanese": "⟦{大雪|おおゆき}→大雪：03017_ooyuki⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦は→は：00079_ha⟧、⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧たち⟦と→と：00512_to⟧⟦{協力|きょうりょく}して→協力する：25370_kyouryokusuru⟧{雪|ゆき}かき⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "After heavy snowfall, we cooperate with the neighbors to shovel snow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {雪|ゆき} (snow) and かき (scraping/raking), from the verb {掻|か}く (to scrape). A daily necessity in regions like Hokkaido, Tohoku, and the Sea of Japan coast during winter.\n\nCOMMON COLLOCATIONS:\n- {雪|ゆき}かきをする: to shovel snow\n- {雪|ゆき}かき{道具|どうぐ}: snow removal tools\n- {屋根|やね}の{雪|ゆき}かき: clearing snow from the roof\n\nSIMILAR WORDS:\n- {除雪|じょせつ}: snow removal — more formal, often used for official/municipal operations\n- {雪|ゆき}おろし: clearing snow from a roof — specifically removing snow that has piled up on rooftops\n- {雪|ゆき}かき is the everyday, colloquial term used by individuals for manual snow clearing",
+  "notes": "Compound of ⟦{雪|ゆき}→雪：00584_yuki⟧ (snow) and かき (scraping/raking), from the verb ⟦{掻|か}く→掻く：09647_kaku⟧ (to scrape). A daily necessity in regions like Hokkaido, Tohoku, and the Sea of Japan coast during winter.\n\nCOMMON COLLOCATIONS:\n- {雪|ゆき}かき⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to shovel snow\n- {雪|ゆき}かき⟦{道具|どうぐ}→道具：01479_dougu⟧: snow removal tools\n- ⟦{屋根|やね}→屋根：02264_yane⟧⟦の→の：09472_no⟧{雪|ゆき}かき: clearing snow from the roof\n\nSIMILAR WORDS:\n- ⟦{除雪|じょせつ}→除雪：18195_josetsu⟧: snow removal — more formal, often used for official/municipal operations\n- {雪|ゆき}おろし: clearing snow from a roof — specifically removing snow that has piled up on rooftops\n- {雪|ゆき}かき is the everyday, colloquial term used by individuals for manual snow clearing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18195_josetsu",
+      "reading": "じょせつ",
+      "headword": "{除雪|じょせつ}",
+      "label": "snow removal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "daily-life"]
+      "semantic": [
+        "weather",
+        "daily-life"
+      ]
     },
     "created": "2026-04-02T17:21:11Z",
-    "modified": "2026-04-02T17:21:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

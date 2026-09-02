@@ -2,7 +2,7 @@
   "id": "09007_tsukekomu",
   "headword": "{漬|つ}け{込|こ}む",
   "reading": "つけこむ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "verb_type": "godan",
   "transitivity": "transitive",
   "gloss": "to marinate; to pickle; to soak",
@@ -106,7 +106,7 @@
   "examples": [
     {
       "id": "09007_tsukekomu_ex1",
-      "japanese": "{肉|にく}をタレに{漬|つ}け{込|こ}む。",
+      "japanese": "⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧⟦タレ→タレ：10500_tare⟧⟦に→に：00314_ni⟧{漬|つ}け{込|こ}む。",
       "english": "Marinate the meat in the sauce.",
       "notes": null,
       "has_audio": false,
@@ -116,7 +116,7 @@
     },
     {
       "id": "09007_tsukekomu_ex2",
-      "japanese": "{一晩|ひとばん}{漬|つ}け{込|こ}んだ{野菜|やさい}は{味|あじ}がしみている。",
+      "japanese": "⟦{一晩|ひとばん}→一晩：08887_hitoban⟧{漬|つ}け{込|こ}んだ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦は→は：00079_ha⟧⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧しみて⟦いる→いる：00495_iru⟧。",
       "english": "Vegetables marinated overnight have absorbed the flavor well.",
       "notes": null,
       "has_audio": false,
@@ -126,7 +126,7 @@
     },
     {
       "id": "09007_tsukekomu_ex3",
-      "japanese": "{下味|したあじ}をつけるために{調味液|ちょうみえき}に{漬|つ}け{込|こ}んでおく。",
+      "japanese": "⟦{下味|したあじ}→下味：06809_shitaaji⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{調味液|ちょうみえき}⟦に→に：00314_ni⟧{漬|つ}け{込|こ}んでおく。",
       "english": "Soak it in seasoning liquid to add flavor.",
       "notes": null,
       "has_audio": false,
@@ -135,7 +135,7 @@
       ]
     }
   ],
-  "notes": "{漬|つ}け{込|こ}む emphasizes thorough soaking for extended periods.\n\nCOMMON COLLOCATIONS:\n- タレに{漬|つ}け{込|こ}む: to marinate in sauce\n- {一晩|ひとばん}{漬|つ}け{込|こ}む: to marinate overnight\n- {調味料|ちょうみりょう}に{漬|つ}け{込|こ}む: to soak in seasonings\n\nRELATED WORDS:\n- {漬|つ}ける: to soak, to pickle (general)\n- マリネする: to marinate (loanword)\n- {塩漬|しおづ}け: salting, pickling in salt\n\nNOTE:\nDifferent from {付|つ}け{込|こ}む which means \"to take advantage of.\"",
+  "notes": "{漬|つ}け{込|こ}む emphasizes thorough soaking for extended periods.\n\nCOMMON COLLOCATIONS:\n- ⟦タレ→タレ：10500_tare⟧⟦に→に：00314_ni⟧{漬|つ}け{込|こ}む: to marinate in sauce\n- ⟦{一晩|ひとばん}→一晩：08887_hitoban⟧{漬|つ}け{込|こ}む: to marinate overnight\n- ⟦{調味料|ちょうみりょう}→調味料：04941_choumiryou⟧⟦に→に：00314_ni⟧{漬|つ}け{込|こ}む: to soak in seasonings\n\nRELATED WORDS:\n- ⟦{漬|つ}ける→漬ける：09861_tsukeru⟧: to soak, to pickle (general)\n- マリネ⟦する→する：00392_suru⟧: to marinate (loanword)\n- ⟦{塩漬|しおづ}け→塩漬け：09008_shiozuke⟧: salting, pickling in salt\n\nUSAGE:\nDifferent from ⟦{付|つ}け{込|こ}む→付け込む：10372_tsukekomu⟧ which means \"to take advantage of.\"",
   "cross_references": [
     {
       "type": "homophone",
@@ -143,11 +143,32 @@
       "reading": "つけこむ",
       "headword": "{付|つ}け{込|こ}む",
       "label": "to take advantage of"
+    },
+    {
+      "type": "related",
+      "target_id": "09861_tsukeru",
+      "reading": "つける",
+      "headword": "{漬|つ}ける",
+      "label": "to soak, to pickle"
+    },
+    {
+      "type": "related",
+      "target_id": "09008_shiozuke",
+      "reading": "しおづけ",
+      "headword": "{塩漬|しおづ}け",
+      "label": "salting, pickling in salt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22629_yowaminitsukekomu",
+      "reading": "よわみにつけこむ",
+      "headword": "{弱|よわ}みに{付|つ}け{込|こ}む",
+      "label": "to exploit someone's weakness"
     }
   ],
   "metadata": {
     "created": "2026-01-30T14:52:14Z",
-    "modified": "2026-04-11T00:58:17Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -158,7 +179,8 @@
       "semantic": [
         "cooking"
       ],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "transitive"
     }
   }
 }

@@ -64,10 +64,39 @@
     }
   ],
   "notes": "{本土|ほんど} means the main landmass of a country, as opposed to islands, overseas territories, or outlying areas.\n\nJAPAN CONTEXT:\nIn Japan, {本土|ほんど} usually refers to the four main islands (⟦{本州|ほんしゅう}→本州：18528_honshuu⟧, ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧, ⟦{九州|きゅうしゅう}→九州：15647_kyuushuu⟧, ⟦{四国|しこく}→四国：21447_shikoku⟧) as opposed to ⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧ or ⟦{離島|りとう}→離島：14597_ritou⟧ (remote islands). This usage is especially common in Okinawa, where people distinguish between {本土|ほんど} and their own islands.\n\nCOMMON PATTERNS:\n- {本土|ほんど}⟦に→に：00314_ni⟧⟦{戻|もど}る→戻る：01117_modoru⟧: to return to the mainland\n- {本土|ほんど}⟦から→から：00504_kara⟧⟦{離|はな}れた→離れる：02397_hanareru⟧⟦{島|しま}→島：00885_shima⟧: an island far from the mainland\n\nRELATED WORDS:\n- ⟦{本州|ほんしゅう}→本州：18528_honshuu⟧: Honshu (the largest of Japan's main islands)\n- ⟦{離島|りとう}→離島：14597_ritou⟧: remote island\n- ⟦{内地|ないち}→内地：28927_naichi⟧: mainland (older term, sometimes used in Hokkaido and Okinawa to refer to Honshu)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18528_honshuu",
+      "reading": "ほんしゅう",
+      "headword": "{本州|ほんしゅう}",
+      "label": "Honshu"
+    },
+    {
+      "type": "related",
+      "target_id": "14597_ritou",
+      "reading": "りとう",
+      "headword": "{離島|りとう}",
+      "label": "remote island"
+    },
+    {
+      "type": "related",
+      "target_id": "28927_naichi",
+      "reading": "ないち",
+      "headword": "{内地|ないち}",
+      "label": "mainland"
+    },
+    {
+      "type": "related",
+      "target_id": "21137_toumin",
+      "reading": "とうみん",
+      "headword": "{島民|とうみん}",
+      "label": "islander"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T07:45:44Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

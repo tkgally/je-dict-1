@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30153_kusappara_ex1",
-      "japanese": "{草|くさ}っ{原|ぱら}で{寝転|ねころ}んだ。",
+      "japanese": "{草|くさ}っ{原|ぱら}⟦で→で：00502_de⟧⟦{寝転|ねころ}んだ→寝転ぶ：04643_nekorobu⟧。",
       "english": "I lay down in the grassy patch.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30153_kusappara_ex2",
-      "japanese": "{昔|むかし}この{辺|あた}りは{草|くさ}っ{原|ぱら}だった。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧{草|くさ}っ{原|ぱら}だった。",
       "english": "This area used to be an open grassy field.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30153_kusappara_ex3",
-      "japanese": "{子|こ}どもたちは{学校|がっこう}の{裏|うら}の{草|くさ}っ{原|ぱら}で{虫|むし}を{探|さが}して{遊|あそ}んでいた。",
+      "japanese": "{子|こ}どもたち⟦は→は：00079_ha⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{裏|うら}→裏：02178_ura⟧⟦の→の：09472_no⟧{草|くさ}っ{原|ぱら}⟦で→で：00502_de⟧⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧⟦{探|さが}して→探す：00493_sagasu⟧⟦{遊|あそ}んでいた→遊ぶ：00550_asobu⟧。",
       "english": "The children were playing in the grassy lot behind the school, hunting for insects.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{草|くさ} (grass) + {原|はら} (field), with the small つ giving the word a colloquial, slightly rough feel. It suggests neglected ground rather than a tended lawn.\n\nCOMMON COLLOCATIONS:\n- {草|くさ}っ{原|ぱら}で{遊|あそ}ぶ: to play in a grassy lot\n- {一面|いちめん}の{草|くさ}っ{原|ぱら}: a stretch of open grassland\n- {草|くさ}っ{原|ぱら}になる: to become overgrown with grass\n\nSIMILAR WORDS:\n- {原|はら}っぱ: open field — very close in meaning; the more common everyday word\n- {草原|そうげん}: grassland, prairie — large and scenic, a written-style word\n- {芝生|しばふ}: lawn — deliberately planted and maintained",
+  "notes": "⟦{草|くさ}→草：02206_kusa⟧ (grass) + {原|はら} (field), with the small つ giving the word a colloquial, slightly rough feel. It suggests neglected ground rather than a tended lawn.\n\nCOMMON COLLOCATIONS:\n- {草|くさ}っ{原|ぱら}⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧: to play in a grassy lot\n- ⟦{一面|いちめん}→一面：11184_ichimen⟧⟦の→の：09472_no⟧{草|くさ}っ{原|ぱら}: a stretch of open grassland\n- {草|くさ}っ{原|ぱら}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become overgrown with grass\n\nSIMILAR WORDS:\n- ⟦{原|はら}っぱ→原っぱ：30132_harappa⟧: open field — very close in meaning; the more common everyday word\n- ⟦{草原|そうげん}→草原：05035_sougen⟧: grassland, prairie — large and scenic, a written-style word\n- ⟦{芝生|しばふ}→芝生：03196_shibafu⟧: lawn — deliberately planted and maintained",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30132_harappa",
+      "reading": "はらっぱ",
+      "headword": "{原|はら}っぱ",
+      "label": "open field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05035_sougen",
+      "reading": "そうげん",
+      "headword": "{草原|そうげん}",
+      "label": "grassland, prairie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03196_shibafu",
+      "reading": "しばふ",
+      "headword": "{芝生|しばふ}",
+      "label": "lawn"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "nature"
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

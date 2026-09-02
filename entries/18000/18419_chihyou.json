@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18419_chihyou_ex1",
-      "japanese": "{地表|ちひょう}の{温度|おんど}が{上昇|じょうしょう}した。",
+      "japanese": "{地表|ちひょう}⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}した→上昇する：21681_joushousuru⟧。",
       "english": "The surface temperature rose.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18419_chihyou_ex2",
-      "japanese": "{雨水|あまみず}が{地表|ちひょう}を{流|なが}れていく。",
+      "japanese": "⟦{雨水|あまみず}→雨水：14607_amamizu⟧⟦が→が：00051_ga⟧{地表|ちひょう}⟦を→を：00422_wo⟧⟦{流|なが}れて→流れる：01969_nagareru⟧いく。",
       "english": "Rainwater flows across the ground surface.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18419_chihyou_ex3",
-      "japanese": "{地表|ちひょう}から{数|すう}メートルの{深|ふか}さに{遺跡|いせき}が{発見|はっけん}された。",
+      "japanese": "{地表|ちひょう}⟦から→から：00504_kara⟧⟦{数|すう}→数：03360_suu⟧⟦メートル→メートル：02975_meetoru⟧⟦の→の：09472_no⟧⟦{深|ふか}さ→深さ：05328_fukasa⟧⟦に→に：00314_ni⟧⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "Ruins were discovered at a depth of several meters from the surface.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{地表|ちひょう} refers to the outermost surface of the earth. Commonly used in scientific, geographical, and environmental contexts.\n\nWORD FORMATION:\n{地|ち} (earth, ground) + {表|ひょう} (surface). Compare with {海面|かいめん} ({海|うみ} + {面|めん} = sea surface).\n\nCOMMON COLLOCATIONS:\n- {地表|ちひょう}{温度|おんど}: ground surface temperature\n- {地表|ちひょう}に{近|ちか}い: near the surface\n- {地表|ちひょう}{付近|ふきん}: vicinity of the surface\n- {地表|ちひょう}を{覆|おお}う: to cover the surface\n- {地表|ちひょう}に{到達|とうたつ}する: to reach the surface\n\nRELATED WORDS:\n- {地下|ちか}: underground (below the surface)\n- {地中|ちちゅう}: in the ground (embedded)\n- {地面|じめん}: the ground (everyday word for ground surface)\n- {海面|かいめん}: sea surface\n{地表|ちひょう} is more scientific/formal than {地面|じめん}, which is the everyday word for the ground you walk on.",
+  "notes": "{地表|ちひょう} refers to the outermost surface of the earth. Commonly used in scientific, geographical, and environmental contexts.\n\nFORMS:\n{地|ち} (earth, ground) + ⟦{表|ひょう}→表：19354_hyou⟧ (surface). Compare with ⟦{海面|かいめん}→海面：15838_kaimen⟧ (⟦{海|うみ}→海：00556_umi⟧ + ⟦{面|めん}→面：09933_men⟧ = sea surface).\n\nCOMMON COLLOCATIONS:\n- {地表|ちひょう}⟦{温度|おんど}→温度：00333_ondo⟧: ground surface temperature\n- {地表|ちひょう}⟦に→に：00314_ni⟧⟦{近|ちか}い→近い：00530_chikai⟧: near the surface\n- {地表|ちひょう}⟦{付近|ふきん}→付近：00044_fukin⟧: vicinity of the surface\n- {地表|ちひょう}⟦を→を：00422_wo⟧⟦{覆|おお}う→覆う：02020_oou⟧: to cover the surface\n- {地表|ちひょう}⟦に→に：00314_ni⟧⟦{到達|とうたつ}→到達：11815_toutatsu⟧⟦する→する：00392_suru⟧: to reach the surface\n\nRELATED WORDS:\n- ⟦{地下|ちか}→地下：03429_chika⟧: underground (below the surface)\n- ⟦{地中|ちちゅう}→地中：12135_chichuu⟧: in the ground (embedded)\n- ⟦{地面|じめん}→地面：00125_jimen⟧: the ground (everyday word for ground surface)\n- ⟦{海面|かいめん}→海面：15838_kaimen⟧: sea surface\n{地表|ちひょう} is more scientific/formal than ⟦{地面|じめん}→地面：00125_jimen⟧, which is the everyday word for the ground you walk on.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-22T00:43:28Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -75,6 +75,20 @@
       "reading": "ちか",
       "headword": "{地下|ちか}",
       "label": "underground"
+    },
+    {
+      "type": "related",
+      "target_id": "12135_chichuu",
+      "reading": "ちちゅう",
+      "headword": "{地中|ちちゅう}",
+      "label": "in the ground"
+    },
+    {
+      "type": "related",
+      "target_id": "15838_kaimen",
+      "reading": "かいめん",
+      "headword": "{海面|かいめん}",
+      "label": "sea surface"
     }
   ]
 }

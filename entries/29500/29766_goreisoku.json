@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29766_goreisoku_ex1",
-      "japanese": "{御令息|ごれいそく}のご{活躍|かつやく}を{伺|うかが}いました。",
+      "japanese": "{御令息|ごれいそく}⟦の→の：09472_no⟧ご⟦{活躍|かつやく}→活躍：02541_katsuyaku⟧⟦を→を：00422_wo⟧{伺|うかが}いました。",
       "english": "I have heard of your son's fine accomplishments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29766_goreisoku_ex2",
-      "japanese": "この{度|たび}は{御令息|ごれいそく}のご{結婚|けっこん}、おめでとうございます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{度|たび}→度：03431_tabi⟧⟦は→は：00079_ha⟧{御令息|ごれいそく}⟦の→の：09472_no⟧ご⟦{結婚|けっこん}→結婚：02514_kekkon⟧、⟦おめでとう→おめでとう：01043_omedetou⟧⟦ございます→ございます：01300_gozaimasu⟧。",
       "english": "Congratulations on your son's marriage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29766_goreisoku_ex3",
-      "japanese": "{社長|しゃちょう}の{御令息|ごれいそく}が{会社|かいしゃ}を{継|つ}ぐことになった。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧{御令息|ごれいそく}⟦が→が：00051_ga⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{継|つ}ぐ→継ぐ：02292_tsugu⟧ことになった。",
       "english": "The president's son is to take over the company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from the honorific prefix {御|ご} + {令息|れいそく} (another's son). A formal keigo term used to elevate the listener's family; never used for one's own son.\n\nUSAGE:\n- Appears mainly in formal letters, speeches, and announcements (weddings, funerals, business).\n- In everyday conversation, {息子|むすこ}さん is the ordinary polite equivalent.\n\nSIMILAR WORDS:\n- {御令嬢|ごれいじょう}: your daughter (honorific) — the female counterpart.\n- {息子|むすこ}さん: your son — polite but far more casual and common in speech.",
+  "notes": "Formed from the honorific prefix {御|ご} + {令息|れいそく} (another's son). A formal keigo term used to elevate the listener's family; never used for one's own son.\n\nUSAGE:\n- Appears mainly in formal letters, speeches, and announcements (weddings, funerals, business).\n- In everyday conversation, ⟦{息子|むすこ}→息子：00799_musuko⟧さん is the ordinary polite equivalent.\n\nSIMILAR WORDS:\n- ⟦{御令嬢|ごれいじょう}→御令嬢：29774_goreijou⟧: your daughter (honorific) — the female counterpart.\n- ⟦{息子|むすこ}→息子：00799_musuko⟧さん: your son — polite but far more casual and common in speech.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29774_goreijou",
+      "reading": "ごれいじょう",
+      "headword": "御令嬢",
+      "label": "your daughter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26757_goshisoku",
+      "reading": "ごしそく",
+      "headword": "ご{子息|しそく}",
+      "label": "son (honorific)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["family"],
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-07-11T00:20:19Z",
-    "modified": "2026-07-11T00:20:19Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

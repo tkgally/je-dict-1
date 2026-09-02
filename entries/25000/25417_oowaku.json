@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "25417_oowaku_ex1",
-      "japanese": "{大枠|おおわく}を{決|き}める。",
+      "japanese": "{大枠|おおわく}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "We establish the broad outline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25417_oowaku_ex2",
-      "japanese": "まず{大枠|おおわく}で{合意|ごうい}してから、{細部|さいぶ}を{詰|つ}めましょう。",
+      "japanese": "⟦まず→まず：00796_mazu⟧{大枠|おおわく}⟦で→で：00502_de⟧⟦{合意|ごうい}→合意：05093_goui⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧、⟦{細部|さいぶ}→細部：20562_saibu⟧⟦を→を：00422_wo⟧⟦{詰|つ}めましょう→詰める：02078_tsumeru⟧。",
       "english": "Let's agree on the general framework first, then work out the details.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25417_oowaku_ex3",
-      "japanese": "{計画|けいかく}の{大枠|おおわく}は{決|き}まったが、{予算|よさん}や{日程|にってい}はまだ{未定|みてい}だ。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦の→の：09472_no⟧{大枠|おおわく}⟦は→は：00079_ha⟧⟦{決|き}まった→決まる：01233_kimaru⟧⟦が→が：00051_ga⟧、⟦{予算|よさん}→予算：03663_yosan⟧や⟦{日程|にってい}→日程：04289_nittei⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{未定|みてい}→未定：14985_mitei⟧だ。",
       "english": "The broad outline of the plan has been decided, but the budget and schedule are still undecided.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{大枠|おおわく} literally means \"large frame\" ({大|おお} + {枠|わく}), conveying the idea of the big picture or overall structure. It is commonly used in business and planning contexts when discussing preliminary agreements or rough plans before details are finalized.\n\nUSAGE:\nOften used adverbially with で: {大枠|おおわく}で (broadly, in general terms).\n\nCOMMON COLLOCATIONS:\n- {大枠|おおわく}を{決|き}める: decide the broad outline\n- {大枠|おおわく}で{合意|ごうい}する: agree in broad terms\n- {大枠|おおわく}を{示|しめ}す: present the general framework\n- {大枠|おおわく}は{変|か}わらない: the general framework doesn't change\n\nSIMILAR WORDS:\n- {概要|がいよう}: summary; outline — a more formal word for a summary of content\n- {枠組|わくぐ}み: framework — refers to the structural framework of a system or organization\n- {大筋|おおすじ}: general outline; gist — similar meaning, often used for the plot of a story or the gist of an argument",
+  "notes": "{大枠|おおわく} literally means \"large frame\" ({大|おお} + ⟦{枠|わく}→枠：13100_waku⟧), conveying the idea of the big picture or overall structure. It is commonly used in business and planning contexts when discussing preliminary agreements or rough plans before details are finalized.\n\nUSAGE:\nOften used adverbially with で: {大枠|おおわく}⟦で→で：00502_de⟧ (broadly, in general terms).\n\nCOMMON COLLOCATIONS:\n- {大枠|おおわく}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: decide the broad outline\n- {大枠|おおわく}⟦で→で：00502_de⟧⟦{合意|ごうい}→合意：05093_goui⟧⟦する→する：00392_suru⟧: agree in broad terms\n- {大枠|おおわく}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧: present the general framework\n- {大枠|おおわく}⟦は→は：00079_ha⟧⟦{変|か}わらない→変わる：00714_kawaru⟧: the general framework doesn't change\n\nSIMILAR WORDS:\n- ⟦{概要|がいよう}→概要：06747_gaiyou⟧: summary; outline — a more formal word for a summary of content\n- ⟦{枠組|わくぐ}み→枠組み：13117_wakugumi⟧: framework — refers to the structural framework of a system or organization\n- ⟦{大筋|おおすじ}→大筋：07287_oosuji⟧: general outline; gist — similar meaning, often used for the plot of a story or the gist of an argument",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06747_gaiyou",
+      "reading": "がいよう",
+      "headword": "{概要|がいよう}",
+      "label": "summary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13117_wakugumi",
+      "reading": "わくぐみ",
+      "headword": "{枠組|わくぐ}み",
+      "label": "framework"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07287_oosuji",
+      "reading": "おおすじ",
+      "headword": "{大筋|おおすじ}",
+      "label": "general outline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-25T12:35:38Z",
-    "modified": "2026-04-25T12:35:38Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

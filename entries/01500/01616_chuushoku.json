@@ -54,7 +54,7 @@
     },
     {
       "id": "01616_chuushoku_ex5",
-      "japanese": "{昼食|ちゅうしょく}{後|ご}⟦は→は：00079_ha⟧⟦{眠|ねむ}く→眠い：00872_nemui⟧⟦なる→なる：01970_naru⟧⟦ので→ので：09501_node⟧、⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦ように→よう：01114_you⟧⟦しています→する：00392_suru⟧。",
+      "japanese": "{昼食|ちゅうしょく}⟦{後|ご}→後：30157_go⟧⟦は→は：00079_ha⟧⟦{眠|ねむ}く→眠い：00872_nemui⟧⟦なる→なる：01970_naru⟧⟦ので→ので：09501_node⟧、⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦ように→よう：01114_you⟧⟦しています→する：00392_suru⟧。",
       "english": "I tend to get sleepy after lunch, so I make a point of drinking coffee.",
       "notes": null,
       "has_audio": false,
@@ -85,11 +85,39 @@
       "reading": "ゆうしょく",
       "headword": "{夕食|ゆうしょく}",
       "label": "dinner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11196_ranchi",
+      "reading": "らんち",
+      "headword": "ランチ",
+      "label": "lunch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02532_ohiru",
+      "reading": "おひる",
+      "headword": "お{昼|ひる}",
+      "label": "lunch"
+    },
+    {
+      "type": "related",
+      "target_id": "09696_ranchitaimu",
+      "reading": "らんちたいむ",
+      "headword": "ランチタイム",
+      "label": "lunch time"
+    },
+    {
+      "type": "related",
+      "target_id": "19256_hirudoki",
+      "reading": "ひるどき",
+      "headword": "{昼|ひる}どき",
+      "label": "lunchtime"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-05-16T13:13:30Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

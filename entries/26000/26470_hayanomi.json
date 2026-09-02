@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26470_hayanomi_ex1",
-      "japanese": "ビールの{早飲|はやの}み{競争|きょうそう}をした。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦の→の：09472_no⟧{早飲|はやの}み⟦{競争|きょうそう}→競争：01388_kyousou⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We had a beer-chugging contest.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26470_hayanomi_ex2",
-      "japanese": "{早飲|はやの}みは{体|からだ}に{良|よ}くないから{気|き}をつけて。",
+      "japanese": "{早飲|はやの}み⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{良|よ}くない→良い：02350_yoi⟧⟦から→から：00504_kara⟧{気|き}をつけて。",
       "english": "Drinking too fast isn't good for your body, so be careful.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26470_hayanomi_ex3",
-      "japanese": "{朝|あさ}は{時間|じかん}がないので、コーヒーを{早飲|はやの}みして{出|で}かける。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦は→は：00079_ha⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧で、⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧{早飲|はやの}み⟦して→する：00392_suru⟧⟦{出|で}かける→出かける：00833_dekakeru⟧。",
       "english": "I don't have time in the morning, so I quickly drink my coffee and head out.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {早|はや} (fast, quick) and {飲|の}み (drinking), the noun form of {飲|の}む (to drink). Part of the productive {早|はや}+verb stem pattern: {早食|はやぐ}い (eating fast), {早起|はやお}き (getting up early), {早歩|はやある}き (walking fast), etc.\n\nCOMMON COLLOCATIONS:\n- {早飲|はやの}み{競争|きょうそう}: speed-drinking contest\n- {早飲|はやの}み{早食|はやぐ}い: eating and drinking fast\n- {早飲|はやの}みする: to drink quickly\n\nSIMILAR WORDS:\n- {一気飲|いっきの}み: chugging all at once — drinking an entire drink in one go, often used in party contexts\n- {早食|はやぐ}い: fast eating — the eating counterpart; also considered unhealthy\n- {飲|の}み{干|ほ}す: to drink up — to drain a glass completely",
-  "cross_references": [],
+  "notes": "Composed of {早|はや} (fast, quick) and ⟦{飲|の}み→飲む：00322_nomu⟧ (drinking), the noun form of ⟦{飲|の}む→飲む：00322_nomu⟧ (to drink). Part of the productive {早|はや}+verb stem pattern: ⟦{早食|はやぐ}い→早食い：08481_hayagui⟧ (eating fast), ⟦{早起|はやお}き→早起き：02477_hayaoki⟧ (getting up early), ⟦{早歩|はやある}き→早歩き：25674_hayaaruki⟧ (walking fast), etc.\n\nCOMMON COLLOCATIONS:\n- {早飲|はやの}み⟦{競争|きょうそう}→競争：01388_kyousou⟧: speed-drinking contest\n- {早飲|はやの}み⟦{早食|はやぐ}い→早食い：08481_hayagui⟧: eating and drinking fast\n- {早飲|はやの}み⟦する→する：00392_suru⟧: to drink quickly\n\nSIMILAR WORDS:\n- ⟦{一気飲|いっきの}み→一気飲み：16505_ikkinomi⟧: chugging all at once — drinking an entire drink in one go, often used in party contexts\n- ⟦{早食|はやぐ}い→早食い：08481_hayagui⟧: fast eating — the eating counterpart; also considered unhealthy\n- ⟦{飲|の}み{干|ほ}す→飲み干す：21473_nomihosu⟧: to drink up — to drain a glass completely",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16505_ikkinomi",
+      "reading": "いっきのみ",
+      "headword": "{一気飲|いっきの}み",
+      "label": "chugging all at once"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08481_hayagui",
+      "reading": "はやぐい",
+      "headword": "{早食|はやぐ}い",
+      "label": "fast eating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21473_nomihosu",
+      "reading": "のみほす",
+      "headword": "{飲|の}み{干|ほ}す",
+      "label": "to drink up"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "daily-life"
       ]
     },
     "created": "2026-05-02T11:33:57Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

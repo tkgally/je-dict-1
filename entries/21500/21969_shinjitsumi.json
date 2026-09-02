@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21969_shinjitsumi_ex1",
-      "japanese": "{真実味|しんじつみ}のある{話|はなし}だ。",
+      "japanese": "{真実味|しんじつみ}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "It's a story with a ring of truth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21969_shinjitsumi_ex2",
-      "japanese": "その{噂|うわさ}には{真実味|しんじつみ}がない。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{噂|うわさ}→噂：01871_uwasa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{真実味|しんじつみ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "That rumor lacks credibility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21969_shinjitsumi_ex3",
-      "japanese": "{彼|かれ}の{証言|しょうげん}は{具体的|ぐたいてき}で{真実味|しんじつみ}があり、{裁判官|さいばんかん}も{信用|しんよう}したようだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{証言|しょうげん}→証言：11088_shougen⟧⟦は→は：00079_ha⟧⟦{具体的|ぐたいてき}→具体的：04781_gutaiteki⟧で{真実味|しんじつみ}⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧⟦も→も：00484_mo⟧⟦{信用|しんよう}した→信用する：25371_shinyousuru⟧ようだ。",
       "english": "His testimony was specific and had a ring of truth, and the judge seemed to believe it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {真実|しんじつ} (truth) + {味|み} (flavor, sense of). The {味|み} suffix adds the meaning of 'a sense of' or 'a quality of,' so {真実味|しんじつみ} means 'a quality of truthfulness.' It describes how believable or authentic something feels, not necessarily whether it is actually true.\n\nCOMMON COLLOCATIONS:\n- {真実味|しんじつみ}がある: to have a ring of truth; to seem believable\n- {真実味|しんじつみ}がない: to lack credibility\n- {真実味|しんじつみ}を{帯|お}びる: to take on an air of truth\n- {真実味|しんじつみ}に{欠|か}ける: to lack realism\n\nSIMILAR WORDS:\n- {信憑性|しんぴょうせい}: credibility — more formal and objective; {真実味|しんじつみ} is about the subjective impression of truthfulness\n- {現実味|げんじつみ}: sense of reality — focuses on whether something feels realistic or plausible; {真実味|しんじつみ} focuses on whether something feels true\n- {説得力|せっとくりょく}: persuasiveness — about the power to convince; {真実味|しんじつみ} is about the appearance of truth",
+  "notes": "Composed of ⟦{真実|しんじつ}→真実：05316_shinjitsu⟧ (truth) + {味|み} (flavor, sense of). The {味|み} suffix adds the meaning of 'a sense of' or 'a quality of,' so {真実味|しんじつみ} means 'a quality of truthfulness.' It describes how believable or authentic something feels, not necessarily whether it is actually true.\n\nCOMMON COLLOCATIONS:\n- {真実味|しんじつみ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a ring of truth; to seem believable\n- {真実味|しんじつみ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: to lack credibility\n- {真実味|しんじつみ}⟦を→を：00422_wo⟧⟦{帯|お}びる→帯びる：12428_obiru⟧: to take on an air of truth\n- {真実味|しんじつみ}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧: to lack realism\n\nSIMILAR WORDS:\n- ⟦{信憑性|しんぴょうせい}→信憑性：11618_shinpyousei⟧: credibility — more formal and objective; {真実味|しんじつみ} is about the subjective impression of truthfulness\n- {現実味|げんじつみ}: sense of reality — focuses on whether something feels realistic or plausible; {真実味|しんじつみ} focuses on whether something feels true\n- ⟦{説得力|せっとくりょく}→説得力：08525_settokuryoku⟧: persuasiveness — about the power to convince; {真実味|しんじつみ} is about the appearance of truth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11618_shinpyousei",
+      "reading": "しんぴょうせい",
+      "headword": "{信憑性|しんぴょうせい}",
+      "label": "credibility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08525_settokuryoku",
+      "reading": "せっとくりょく",
+      "headword": "{説得力|せっとくりょく}",
+      "label": "persuasiveness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation", "communication"]
+      "semantic": [
+        "evaluation",
+        "communication"
+      ]
     },
     "created": "2026-04-04T18:25:06Z",
-    "modified": "2026-04-04T18:25:06Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

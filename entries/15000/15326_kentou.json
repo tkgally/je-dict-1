@@ -3,7 +3,7 @@
   "id": "15326_kentou",
   "headword": "{健闘|けんとう}",
   "reading": "けんとう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "good fight; valiant effort",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15326_kentou_ex1",
-      "japanese": "{健闘|けんとう}を{祈|いの}る。",
+      "japanese": "{健闘|けんとう}⟦を→を：00422_wo⟧⟦{祈|いの}る→祈る：01198_inoru⟧。",
       "english": "I wish you the best of luck.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15326_kentou_ex2",
-      "japanese": "{選手|せんしゅ}たちは{最後|さいご}まで{健闘|けんとう}した。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧{健闘|けんとう}⟦した→する：00392_suru⟧。",
       "english": "The athletes fought bravely until the very end.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15326_kentou_ex3",
-      "japanese": "{負|ま}けはしたが、{相手|あいて}チームの{健闘|けんとう}を{称|たた}えたい。",
+      "japanese": "⟦{負|ま}け→負け：02569_make⟧はした⟦が→が：00051_ga⟧、⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{健闘|けんとう}⟦を→を：00422_wo⟧⟦{称|たた}えたい→称える：13751_tataeru⟧。",
       "english": "They lost, but I'd like to commend the opposing team for their valiant effort.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA positive word used to praise or encourage effort, especially in sports, competitions, and challenging situations. Common in speeches and encouragement.\n\nCOMMON COLLOCATIONS:\n- {健闘|けんとう}を{祈|いの}る (to wish someone good luck)\n- {健闘|けんとう}を{称|たた}える (to praise someone's effort)\n- {健闘|けんとう}{及|およ}ばず (despite a valiant effort)\n\nDISTINCTION FROM HOMOPHONES:\n{健闘|けんとう} (valiant effort) vs. {検討|けんとう} (examination, consideration) vs. {見当|けんとう} (estimate, guess). These are completely different words that happen to share the same reading.",
+  "notes": "USAGE:\nA positive word used to praise or encourage effort, especially in sports, competitions, and challenging situations. Common in speeches and encouragement.\n\nCOMMON COLLOCATIONS:\n- {健闘|けんとう}⟦を→を：00422_wo⟧⟦{祈|いの}る→祈る：01198_inoru⟧ (to wish someone good luck)\n- {健闘|けんとう}⟦を→を：00422_wo⟧⟦{称|たた}える→称える：13751_tataeru⟧ (to praise someone's effort)\n- {健闘|けんとう}⟦{及|およ}ば→及ぶ：01921_oyobu⟧ず (despite a valiant effort)\n\nDISTINCTION FROM HOMOPHONES:\n{健闘|けんとう} (valiant effort) vs. ⟦{検討|けんとう}→検討：02710_kentou⟧ (examination, consideration) vs. ⟦{見当|けんとう}→見当：02795_kentou⟧ (estimate, guess). These are completely different words that happen to share the same reading.",
   "cross_references": [
     {
       "type": "homophone",
@@ -149,11 +149,18 @@
       "headword": "{見当|けんとう}",
       "target_id": "02795_kentou",
       "label": "guess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23184_kantou",
+      "reading": "かんとう",
+      "headword": "{敢闘|かんとう}",
+      "label": "fighting bravely"
     }
   ],
   "metadata": {
     "created": "2026-03-06T09:47:58Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,6 +169,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "action"

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22553_aburawokiru_ex1",
-      "japanese": "{揚|あ}げたら{油|あぶら}を{切|き}る。",
+      "japanese": "⟦{揚|あ}げたら→揚げる：16879_ageru⟧{油|あぶら}を{切|き}る。",
       "english": "After frying, drain the oil.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22553_aburawokiru_ex2",
-      "japanese": "キッチンペーパーの{上|うえ}で{油|あぶら}を{切|き}ってください。",
+      "japanese": "⟦キッチンペーパー→キッチンペーパー：25045_kicchinpeepaa⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧{油|あぶら}を{切|き}って⟦ください→ください：02899_kudasai⟧。",
       "english": "Please drain the oil on paper towels.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22553_aburawokiru_ex3",
-      "japanese": "{天|てん}ぷらは{油|あぶら}をしっかり{切|き}ると、サクサクに{仕上|しあ}がる。",
+      "japanese": "⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧⟦は→は：00079_ha⟧⟦{油|あぶら}→油：01693_abura⟧⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{切|き}る→切る：02693_kiru⟧⟦と→と：00512_to⟧、サクサク⟦に→に：00314_ni⟧⟦{仕上|しあ}がる→仕上がる：11429_shiagaru⟧。",
       "english": "If you drain the oil thoroughly from tempura, it turns out crispy.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A fundamental cooking expression composed of {油|あぶら} (oil) + を (object marker) + {切|き}る (to cut). In this context, {切|き}る means to separate or remove rather than to cut with a blade. This step is essential in Japanese deep-frying ({揚|あ}げ{物|もの}) to achieve the prized crispy texture.\n\nCOMMON METHODS:\n- {網|あみ}の{上|うえ}で{油|あぶら}を{切|き}る: drain on a wire rack\n- キッチンペーパーで{油|あぶら}を{切|き}る: drain on paper towels\n- {油切|あぶらき}り{網|あみ}: oil-draining rack\n\nRELATED COOKING TERMS:\n- {揚|あ}げる: to deep-fry\n- {揚|あ}げ{物|もの}: deep-fried food\n- {油|あぶら}{跳|は}ね: oil splattering\n- {水|みず}を{切|き}る: to drain water — the same pattern applied to water (e.g., draining vegetables)",
+  "notes": "A fundamental cooking expression composed of ⟦{油|あぶら}→油：01693_abura⟧ (oil) + ⟦を→を：00422_wo⟧ (object marker) + ⟦{切|き}る→切る：02693_kiru⟧ (to cut). In this context, ⟦{切|き}る→切る：02693_kiru⟧ means to separate or remove rather than to cut with a blade. This step is essential in Japanese deep-frying (⟦{揚|あ}げ{物|もの}→揚げ物：04975_agemono⟧) to achieve the prized crispy texture.\n\nCOMMON METHODS:\n- ⟦{網|あみ}→網：22587_ami⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧{油|あぶら}を{切|き}る: drain on a wire rack\n- ⟦キッチンペーパー→キッチンペーパー：25045_kicchinpeepaa⟧⟦で→で：00502_de⟧{油|あぶら}を{切|き}る: drain on paper towels\n- ⟦{油切|あぶらき}り→油切り：08574_aburakiri⟧⟦{網|あみ}→網：22587_ami⟧: oil-draining rack\n\nRELATED COOKING TERMS:\n- ⟦{揚|あ}げる→揚げる：16879_ageru⟧: to deep-fry\n- ⟦{揚|あ}げ{物|もの}→揚げ物：04975_agemono⟧: deep-fried food\n- ⟦{油|あぶら}→油：01693_abura⟧{跳|は}ね: oil splattering\n- ⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to drain water — the same pattern applied to water (e.g., draining vegetables)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16879_ageru",
+      "reading": "あげる",
+      "headword": "{揚|あ}げる",
+      "label": "to deep-fry"
+    },
+    {
+      "type": "related",
+      "target_id": "04975_agemono",
+      "reading": "あげもの",
+      "headword": "{揚|あ}げ{物|もの}",
+      "label": "deep-fried food"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-06T17:36:13Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

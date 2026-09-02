@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28633_futtosaru_ex1",
-      "japanese": "{週末|しゅうまつ}にフットサルをした。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧フットサル⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I played futsal on the weekend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28633_futtosaru_ex2",
-      "japanese": "{近所|きんじょ}にフットサルコートができた。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦に→に：00314_ni⟧フットサル⟦コート→コート：01358_kooto⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "A futsal court opened in the neighborhood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28633_futtosaru_ex3",
-      "japanese": "{会社|かいしゃ}の{仲間|なかま}とフットサルチームを{作|つく}っている。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{仲間|なかま}→仲間：03498_nakama⟧⟦と→と：00512_to⟧フットサル⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧⟦{作|つく}っている→作る：00481_tsukuru⟧。",
       "english": "I'm in a futsal team with my coworkers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from the Portuguese/Spanish blend futbol de salão / fútbol sala. In Japan, often played at rental indoor courts as a social activity.\n\nCOMMON COLLOCATIONS:\n- フットサルをする: to play futsal\n- フットサルコート: futsal court\n- フットサルチーム: futsal team\n- フットサル{大会|たいかい}: futsal tournament\n\nSIMILAR WORDS:\n- サッカー: soccer — full eleven-a-side outdoor game\n- {蹴球|しゅうきゅう}: literary/older term for soccer; rarely used in conversation",
+  "notes": "Loanword from the Portuguese/Spanish blend futbol de salão / fútbol sala. In Japan, often played at rental indoor courts as a social activity.\n\nCOMMON COLLOCATIONS:\n- フットサル⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to play futsal\n- フットサル⟦コート→コート：01358_kooto⟧: futsal court\n- フットサル⟦チーム→チーム：03858_chiimu⟧: futsal team\n- フットサル⟦{大会|たいかい}→大会：03386_taikai⟧: futsal tournament\n\nSIMILAR WORDS:\n- ⟦サッカー→サッカー：04726_sakkaa⟧: soccer — full eleven-a-side outdoor game\n- {蹴球|しゅうきゅう}: literary/older term for soccer; rarely used in conversation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04726_sakkaa",
+      "reading": "さっかー",
+      "headword": "サッカー",
+      "label": "soccer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-03T03:07:49Z",
-    "modified": "2026-06-03T03:07:49Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

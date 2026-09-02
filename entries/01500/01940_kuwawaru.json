@@ -159,7 +159,7 @@
     },
     {
       "id": "01940_kuwawaru_ex6",
-      "japanese": "⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦が→が：00051_ga⟧{加|くわ}わると、⟦{値段|ねだん}→値段：00871_nedan⟧⟦は→は：00079_ha⟧⟦もっと→もっと：00798_motto⟧⟦{高|たか}く→高い：00500_takai⟧⟦なる→なる：01970_naru⟧。",
+      "japanese": "⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦が→が：00051_ga⟧{加|くわ}わる⟦と→と：00512_to⟧、⟦{値段|ねだん}→値段：00871_nedan⟧⟦は→は：00079_ha⟧⟦もっと→もっと：00798_motto⟧⟦{高|たか}く→高い：00500_takai⟧⟦なる→なる：01970_naru⟧。",
       "english": "When tax is added, the price becomes even higher.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,19 @@
       ]
     }
   ],
-  "notes": "{加|くわ}わる means to join a group or for something to be added—an intransitive verb describing the act of becoming part of something.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{加|くわ}える→加える：01941_kuwaeru⟧ (transitive, to add something)\n\nPATTERN:\nX⟦に→に：00314_ni⟧{加|くわ}わる: to join X\n\nCOMMON PATTERNS:\n- ⟦グループ→グループ：03840_guruupu⟧⟦に→に：00314_ni⟧{加|くわ}わる: to join a group\n- ⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧{加|くわ}わる: to join a team\n- ⟦{議論|ぎろん}→議論：02650_giron⟧⟦に→に：00314_ni⟧{加|くわ}わる: to join a discussion\n- ⟦{力|ちから}→力：01661_chikara⟧⟦が→が：00051_ga⟧{加|くわ}わる: force is added\n\nSIMILAR WORDS:\n- {加|くわ}わる: to join (intransitive)\n- ⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to participate",
-  "cross_references": [],
+  "notes": "{加|くわ}わる means to join a group or for something to be added—an intransitive verb describing the act of becoming part of something.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{加|くわ}える→加える：01941_kuwaeru⟧ (transitive, to add something)\n\nCOMMON PATTERNS:\nX⟦に→に：00314_ni⟧{加|くわ}わる: to join X\n- ⟦グループ→グループ：03840_guruupu⟧⟦に→に：00314_ni⟧{加|くわ}わる: to join a group\n- ⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧{加|くわ}わる: to join a team\n- ⟦{議論|ぎろん}→議論：02650_giron⟧⟦に→に：00314_ni⟧{加|くわ}わる: to join a discussion\n- ⟦{力|ちから}→力：01661_chikara⟧⟦が→が：00051_ga⟧{加|くわ}わる: force is added\n\nSIMILAR WORDS:\n- {加|くわ}わる: to join (intransitive)\n- ⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to participate",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25408_sankasuru",
+      "reading": "さんかする",
+      "headword": "{参加|さんか}する",
+      "label": "to participate"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:41:29Z",
-    "modified": "2026-05-17T18:30:13Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

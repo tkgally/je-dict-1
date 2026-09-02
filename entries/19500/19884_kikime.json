@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19884_kikime_ex1",
-      "japanese": "この{薬|くすり}は{効|き}き{目|め}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{効|き}き{目|め}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This medicine is effective.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19884_kikime_ex2",
-      "japanese": "{効|き}き{目|め}が{出|で}るまで{時間|じかん}がかかる。",
+      "japanese": "{効|き}き{目|め}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦まで→まで：00490_made⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "It takes time for the effect to appear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19884_kikime_ex3",
-      "japanese": "お{守|まも}りの{効|き}き{目|め}を{信|しん}じて{試験|しけん}に{臨|のぞ}んだ。",
+      "japanese": "⟦お{守|まも}り→お守り：05955_omamori⟧⟦の→の：09472_no⟧{効|き}き{目|め}⟦を→を：00422_wo⟧⟦{信|しん}じて→信じる：01111_shinjiru⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{臨|のぞ}んだ→臨む：29038_nozomu⟧。",
       "english": "I went into the exam believing in the power of my good-luck charm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {効|き}く (to work, to be effective) + {目|め} (result, appearance). Most commonly used with medicine, remedies, and treatments, but also applies to charms, strategies, and other actions where one hopes for a tangible result.\n\nCOMMON COLLOCATIONS:\n- {効|き}き{目|め}がある — to be effective, to have an effect\n- {効|き}き{目|め}がない — to have no effect\n- {効|き}き{目|め}が{出|で}る — the effect appears/kicks in\n- {効|き}き{目|め}が{薄|うす}い — the effect is weak\n- {効|き}き{目|め}{抜群|ばつぐん} — outstandingly effective\n\nSIMILAR WORDS:\n- {効果|こうか} — effect, result; more formal, used in scientific and official contexts\n- {効能|こうのう} — efficacy; formal, often seen on medicine labels\n- {効力|こうりょく} — effectiveness, potency; formal, often legal or regulatory",
+  "notes": "Composed of ⟦{効|き}く→効く：01932_kiku⟧ (to work, to be effective) + ⟦{目|め}→目：00525_me⟧ (result, appearance). Most commonly used with medicine, remedies, and treatments, but also applies to charms, strategies, and other actions where one hopes for a tangible result.\n\nCOMMON COLLOCATIONS:\n- {効|き}き{目|め}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ — to be effective, to have an effect\n- {効|き}き{目|め}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ — to have no effect\n- {効|き}き{目|め}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ — the effect appears/kicks in\n- {効|き}き{目|め}⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧ — the effect is weak\n- {効|き}き{目|め}⟦{抜群|ばつぐん}→抜群：12783_batsugun⟧ — outstandingly effective\n\nSIMILAR WORDS:\n- ⟦{効果|こうか}→効果：02726_kouka⟧ — effect, result; more formal, used in scientific and official contexts\n- ⟦{効能|こうのう}→効能：11920_kounou⟧ — efficacy; formal, often seen on medicine labels\n- ⟦{効力|こうりょく}→効力：11824_kouryoku⟧ — effectiveness, potency; formal, often legal or regulatory",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02726_kouka",
+      "reading": "こうか",
+      "headword": "{効果|こうか}",
+      "label": "effect, result"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11920_kounou",
+      "reading": "こうのう",
+      "headword": "{効能|こうのう}",
+      "label": "efficacy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11824_kouryoku",
+      "reading": "こうりょく",
+      "headword": "{効力|こうりょく}",
+      "label": "effectiveness, potency"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-27T05:09:12Z",
-    "modified": "2026-03-27T05:09:12Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

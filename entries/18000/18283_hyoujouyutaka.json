@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18283_hyoujouyutaka_ex1",
-      "japanese": "あの{女優|じょゆう}は{表情豊|ひょうじょうゆた}かだ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{女優|じょゆう}→女優：03353_joyuu⟧⟦は→は：00079_ha⟧{表情豊|ひょうじょうゆた}かだ。",
       "english": "That actress is very expressive.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18283_hyoujouyutaka_ex2",
-      "japanese": "{表情豊|ひょうじょうゆた}かな{赤|あか}ちゃんに{癒|いや}される。",
+      "japanese": "{表情豊|ひょうじょうゆた}かな⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦に→に：00314_ni⟧⟦{癒|いや}される→癒す：13616_iyasu⟧。",
       "english": "I'm soothed by the expressive baby.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18283_hyoujouyutaka_ex3",
-      "japanese": "{彼|かれ}のピアノの{演奏|えんそう}は{表情豊|ひょうじょうゆた}かで、{聴|き}いている{人|ひと}の{心|こころ}を{動|うご}かす。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦ピアノ→ピアノ：01376_piano⟧⟦の→の：09472_no⟧⟦{演奏|えんそう}→演奏：01896_ensou⟧⟦は→は：00079_ha⟧{表情豊|ひょうじょうゆた}かで、⟦{聴|き}いている→聴く：30010_kiku⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧。",
       "english": "His piano performance is richly expressive and moves the hearts of listeners.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound adjective from {表情|ひょうじょう} (facial expression) + {豊|ゆた}か (rich, abundant). Functions as a na-adjective: {表情豊|ひょうじょうゆた}かな{人|ひと}, {表情豊|ひょうじょうゆた}かに{演|えん}じる. Used as a compliment for actors, musicians, babies, and anyone whose face or performance conveys a wide range of emotions.\n\nCOMMON COLLOCATIONS:\n- {表情豊|ひょうじょうゆた}かな{顔|かお} (an expressive face)\n- {表情豊|ひょうじょうゆた}かに{演|えん}じる (to perform expressively)\n- {表情豊|ひょうじょうゆた}かな{演奏|えんそう} (an expressive performance)",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound adjective from ⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧ (facial expression) + ⟦{豊|ゆた}か→豊か：03654_yutaka⟧ (rich, abundant). Functions as a na-adjective: {表情豊|ひょうじょうゆた}かな⟦{人|ひと}→人：00476_hito⟧, {表情豊|ひょうじょうゆた}か⟦に→に：00314_ni⟧⟦{演|えん}じる→演じる：13330_enjiru⟧. Used as a compliment for actors, musicians, babies, and anyone whose face or performance conveys a wide range of emotions.\n\nCOMMON COLLOCATIONS:\n- {表情豊|ひょうじょうゆた}かな⟦{顔|かお}→顔：00558_kao⟧ (an expressive face)\n- {表情豊|ひょうじょうゆた}か⟦に→に：00314_ni⟧⟦{演|えん}じる→演じる：13330_enjiru⟧ (to perform expressively)\n- {表情豊|ひょうじょうゆた}かな⟦{演奏|えんそう}→演奏：01896_ensou⟧ (an expressive performance)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22579_kanjouyutaka",
+      "reading": "かんじょうゆたか",
+      "headword": "{感情豊|かんじょうゆた}か",
+      "label": "emotionally rich"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:14:58Z",
-    "modified": "2026-03-21T01:14:58Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

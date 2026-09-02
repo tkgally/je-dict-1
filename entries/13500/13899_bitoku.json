@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13899_bitoku_ex1",
-      "japanese": "{忍耐|にんたい}は{美徳|びとく}だ。",
+      "japanese": "⟦{忍耐|にんたい}→忍耐：05212_nintai⟧⟦は→は：00079_ha⟧{美徳|びとく}だ。",
       "english": "Patience is a virtue.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13899_bitoku_ex2",
-      "japanese": "{謙虚|けんきょ}さは{日本|にほん}で{大切|たいせつ}にされる{美徳|びとく}の{一|ひと}つだ。",
+      "japanese": "⟦{謙虚|けんきょ}→謙虚：00215_kenkyo⟧さ⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦される→する：00392_suru⟧{美徳|びとく}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Humility is one of the virtues valued in Japan.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13899_bitoku_ex3",
-      "japanese": "{勤勉|きんべん}さを{美徳|びとく}とする{文化|ぶんか}では、{長時間|ちょうじかん}{働|はたら}くことが{当然|とうぜん}とされがちだ。",
+      "japanese": "⟦{勤勉|きんべん}→勤勉：10145_kinben⟧さ⟦を→を：00422_wo⟧{美徳|びとく}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{働|はたら}く→働く：00503_hataraku⟧こと⟦が→が：00051_ga⟧⟦{当然|とうぜん}→当然：01591_touzen⟧⟦と→と：00512_to⟧⟦され→する：00392_suru⟧がちだ。",
       "english": "In cultures that consider diligence a virtue, working long hours tends to be taken for granted.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{美徳|びとく} refers to a morally admirable quality or trait. It combines {美|び} (beauty) + {徳|とく} (virtue, morality).\n\nCOMMON PATTERNS:\n- ～は{美徳|びとく}だ: ~ is a virtue\n- ～を{美徳|びとく}とする: to regard ~ as a virtue\n- {美徳|びとく}とされる: to be considered a virtue\n- {最大|さいだい}の{美徳|びとく}: the greatest virtue\n\nJAPANESE VIRTUES OFTEN DISCUSSED:\n- {謙虚|けんきょ}さ: humility\n- {忍耐|にんたい}: patience, perseverance\n- {勤勉|きんべん}さ: diligence\n- {礼儀正|れいぎただ}しさ: politeness\n\nCONTRAST:\n- {美徳|びとく}: virtue (positive quality)\n- {悪徳|あくとく}: vice (negative quality)",
+  "notes": "{美徳|びとく} refers to a morally admirable quality or trait. It combines ⟦{美|び}→美：28891_bi⟧ (beauty) + ⟦{徳|とく}→徳：23014_toku⟧ (virtue, morality).\n\nCOMMON PATTERNS:\n- ～⟦は→は：00079_ha⟧{美徳|びとく}だ: ~ is a virtue\n- ～⟦を→を：00422_wo⟧{美徳|びとく}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to regard ~ as a virtue\n- {美徳|びとく}⟦と→と：00512_to⟧⟦される→する：00392_suru⟧: to be considered a virtue\n- ⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧{美徳|びとく}: the greatest virtue\n\nJAPANESE VIRTUES OFTEN DISCUSSED:\n- ⟦{謙虚|けんきょ}→謙虚：00215_kenkyo⟧さ: humility\n- ⟦{忍耐|にんたい}→忍耐：05212_nintai⟧: patience, perseverance\n- ⟦{勤勉|きんべん}→勤勉：10145_kinben⟧さ: diligence\n- {礼儀正|れいぎただ}しさ: politeness\n\nSIMILAR WORDS:\n- {美徳|びとく}: virtue (positive quality)\n- ⟦{悪徳|あくとく}→悪徳：29368_akutoku⟧: vice (negative quality)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "あくとく",
       "headword": "{悪徳|あくとく}",
       "label": "vice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20809_biten",
+      "reading": "びてん",
+      "headword": "{美点|びてん}",
+      "label": "virtue"
     }
   ],
   "metadata": {
     "created": "2026-02-27T06:31:21Z",
-    "modified": "2026-07-12T12:35:36Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

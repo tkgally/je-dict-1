@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16838_manbiki_ex1",
-      "japanese": "{万引|まんび}きは{犯罪|はんざい}です。",
+      "japanese": "{万引|まんび}き⟦は→は：00079_ha⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧です。",
       "english": "Shoplifting is a crime.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16838_manbiki_ex2",
-      "japanese": "{防犯|ぼうはん}カメラで{万引|まんび}きの{瞬間|しゅんかん}が{撮影|さつえい}された。",
+      "japanese": "⟦{防犯|ぼうはん}カメラ→防犯カメラ：07137_bouhankamera⟧⟦で→で：00502_de⟧{万引|まんび}き⟦の→の：09472_no⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧⟦が→が：00051_ga⟧⟦{撮影|さつえい}→撮影：04175_satsuei⟧⟦された→する：00392_suru⟧。",
       "english": "The moment of shoplifting was captured on a security camera.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16838_manbiki_ex3",
-      "japanese": "{万引|まんび}きによる{被害額|ひがいがく}は{年間|ねんかん}{数百億円|すうひゃくおくえん}に{上|のぼ}ると{言|い}われている。",
+      "japanese": "{万引|まんび}き⟦による→による：28349_niyoru⟧⟦{被害額|ひがいがく}→被害額：30556_higaigaku⟧⟦は→は：00079_ha⟧⟦{年間|ねんかん}→年間：00974_nenkan⟧{数百億円|すうひゃくおくえん}⟦に→に：00314_ni⟧⟦{上|のぼ}る→上る：21460_noboru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that losses from shoplifting amount to tens of billions of yen annually.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlso used as a suru-verb: {万引|まんび}きする (to shoplift). Can also refer to the person who shoplifts ({万引|まんび}き{犯|はん} is more specific). Store signs often use the phrase {万引|まんび}きは{犯罪|はんざい}です (shoplifting is a crime).\n\nCOMMON COLLOCATIONS:\n- {万引|まんび}きする (to shoplift)\n- {万引|まんび}き{犯|はん} (shoplifter)\n- {万引|まんび}き{防止|ぼうし} (shoplifting prevention)\n- {万引|まんび}きで{捕|つか}まる (to be caught shoplifting)",
+  "notes": "USAGE:\nAlso used as a suru-verb: {万引|まんび}き⟦する→する：00392_suru⟧ (to shoplift). Can also refer to the person who shoplifts ({万引|まんび}き{犯|はん} is more specific). Store signs often use the phrase {万引|まんび}き⟦は→は：00079_ha⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧です (shoplifting is a crime).\n\nCOMMON COLLOCATIONS:\n- {万引|まんび}き⟦する→する：00392_suru⟧ (to shoplift)\n- {万引|まんび}き{犯|はん} (shoplifter)\n- {万引|まんび}き⟦{防止|ぼうし}→防止：14571_boushi⟧ (shoplifting prevention)\n- {万引|まんび}き⟦で→で：00502_de⟧⟦{捕|つか}まる→捕まる：01959_tsukamaru⟧ (to be caught shoplifting)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,39 @@
       "reading": "せっとう",
       "headword": "{窃盗|せっとう}",
       "label": "theft (legal term)"
+    },
+    {
+      "type": "related",
+      "target_id": "01688_dorobou",
+      "reading": "どろぼう",
+      "headword": "{泥棒|どろぼう}",
+      "label": "thief, burglar"
+    },
+    {
+      "type": "related",
+      "target_id": "02818_goutou",
+      "reading": "ごうとう",
+      "headword": "{強盗|ごうとう}",
+      "label": "robbery, robber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19789_nusumi",
+      "reading": "ぬすみ",
+      "headword": "{盗|ぬす}み",
+      "label": "theft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21576_okibiki",
+      "reading": "おきびき",
+      "headword": "{置|お}き{引|び}き",
+      "label": "theft of unattended belongings"
     }
   ],
   "metadata": {
     "created": "2026-03-14T13:03:31Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

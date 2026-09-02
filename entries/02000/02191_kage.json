@@ -74,7 +74,7 @@
     },
     {
       "id": "02191_kage_ex6",
-      "japanese": "⟦{暗|くら}い→暗い：00647_kurai⟧⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧⟦{向|む}こう→向こう：00971_mukou⟧⟦に→に：00314_ni⟧、⟦{誰|だれ}→誰：00534_dare⟧か⟦の→の：09472_no⟧{影|かげ}⟦が→が：00051_ga⟧⟦{動|うご}いている→動く：00904_ugoku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧。",
+      "japanese": "⟦{暗|くら}い→暗い：00647_kurai⟧⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧⟦{向|む}こう→向こう：00971_mukou⟧⟦に→に：00314_ni⟧、⟦{誰|だれ}→誰：00534_dare⟧⟦か→か：09473_ka⟧⟦の→の：09472_no⟧{影|かげ}⟦が→が：00051_ga⟧⟦{動|うご}いている→動く：00904_ugoku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "I could see someone's figure moving at the far end of the dark road.",
       "notes": null,
       "has_audio": false,
@@ -114,10 +114,18 @@
     }
   ],
   "notes": "{影|かげ} has three related meanings: the dark area cast by an object blocking light, the visible outline or figure of a person, and a reflection in water or a mirror.\n\n{影|かげ} VS ⟦{陰|かげ}→陰：14593_kage⟧:\nBoth are read かげ but differ in nuance:\n- {影|かげ}: the shadow itself (dark shape), a silhouette, or reflection\n- ⟦{陰|かげ}→陰：14593_kage⟧: shaded area, behind the scenes, hidden side\n\nCOMMON EXPRESSIONS:\n- {影|かげ}⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧: to have little presence, to be forgettable\n- {影|かげ}⟦を→を：00422_wo⟧⟦{潜|ひそ}める→潜める：noentry⟧: to hide, to lie low\n- {影|かげ}⟦も→も：00484_mo⟧⟦{形|かたち}→形：02193_katachi⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧: completely gone, vanished without a trace\n\nCOMPOUNDS:\n- ⟦{影響|えいきょう}→影響：01877_eikyou⟧: influence\n- ⟦{人影|ひとかげ}→人影：16212_hitokage⟧: figure of a person\n- ⟦{影法師|かげぼうし}→影法師：noentry⟧: silhouette, shadow figure",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05043_kokage",
+      "reading": "こかげ",
+      "headword": "{木陰|こかげ}",
+      "label": "shade of a tree"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:04:09Z",
-    "modified": "2026-05-18T18:13:10Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

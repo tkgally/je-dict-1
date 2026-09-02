@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "19161_seika_ex1",
-      "japanese": "{盛夏|せいか}の{候|こう}、いかがお{過|す}ごしですか。",
+      "japanese": "{盛夏|せいか}⟦の→の：09472_no⟧{候|こう}、⟦いかが→いかが：02846_ikaga⟧お⟦{過|す}ごし→過ごす：02062_sugosu⟧です⟦か→か：09473_ka⟧。",
       "english": "In this midsummer season, how are you doing?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": "A formal seasonal greeting used in letters."
     },
     {
       "id": "19161_seika_ex2",
-      "japanese": "{盛夏|せいか}を{迎|むか}え、{気温|きおん}が{三十五度|さんじゅうごど}を{超|こ}える{日|ひ}が{続|つづ}いている。",
+      "japanese": "{盛夏|せいか}⟦を→を：00422_wo⟧⟦{迎|むか}え→迎える：01193_mukaeru⟧、⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{三十五度|さんじゅうごど}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "With midsummer upon us, temperatures exceeding 35 degrees have continued.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19161_seika_ex3",
-      "japanese": "{盛夏|せいか}にはビールの{売|う}り{上|あ}げが{伸|の}びる。",
+      "japanese": "{盛夏|せいか}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦ビール→ビール：01015_biiru⟧⟦の→の：09472_no⟧{売|う}り{上|あ}げ⟦が→が：00051_ga⟧⟦{伸|の}びる→伸びる：01974_nobiru⟧。",
       "english": "Beer sales increase in midsummer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary word often seen in seasonal greetings ({時候|じこう}の{挨拶|あいさつ}) and written correspondence. {盛夏|せいか}の{候|こう} is a set phrase used in formal summer letters. Compare with {真夏|まなつ} (midsummer — more colloquial), {猛暑|もうしょ} (fierce heat), and {酷暑|こくしょ} (extreme heat). A homophone of {成果|せいか} (result), {聖火|せいか} (sacred flame), and {製菓|せいか} (confectionery), but written with different kanji.",
+  "notes": "A literary word often seen in seasonal greetings ({時候|じこう}⟦の→の：09472_no⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧) and written correspondence. {盛夏|せいか}⟦の→の：09472_no⟧{候|こう} is a set phrase used in formal summer letters. Compare with ⟦{真夏|まなつ}→真夏：27793_manatsu⟧ (midsummer — more colloquial), ⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧ (fierce heat), and ⟦{酷暑|こくしょ}→酷暑：08324_kokusho⟧ (extreme heat). A homophone of ⟦{成果|せいか}→成果：06745_seika⟧ (result), ⟦{聖火|せいか}→聖火：16179_seika⟧ (sacred flame), and ⟦{製菓|せいか}→製菓：14090_seika⟧ (confectionery), but written with different kanji.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19623_banka",
+      "reading": "ばんか",
+      "headword": "{晩夏|ばんか}",
+      "label": "late summer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27793_manatsu",
+      "reading": "まなつ",
+      "headword": "{真夏|まなつ}",
+      "label": "midsummer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-season"],
-      "style": ["written"]
+      "semantic": [
+        "time-season"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-24T11:26:01Z",
-    "modified": "2026-03-24T11:26:01Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

@@ -14,27 +14,33 @@
   "examples": [
     {
       "id": "09537_shigengomi_ex1",
-      "japanese": "{資源|しげん}ごみは{水曜日|すいようび}です。",
+      "japanese": "{資源|しげん}ごみ⟦は→は：00079_ha⟧⟦{水曜日|すいようび}→水曜日：00672_suiyoubi⟧です。",
       "english": "Recyclables are collected on Wednesday.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09537_shigengomi_ex2",
-      "japanese": "ペットボトルは{資源|しげん}ごみです。",
+      "japanese": "⟦ペットボトル→ペットボトル：05605_pettobotoru⟧⟦は→は：00079_ha⟧{資源|しげん}ごみです。",
       "english": "Plastic bottles are recyclables.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09537_shigengomi_ex3",
-      "japanese": "{資源|しげん}ごみは{洗|あら}ってから{出|だ}してください。",
+      "japanese": "{資源|しげん}ごみ⟦は→は：00079_ha⟧⟦{洗|あら}って→洗う：00827_arau⟧⟦から→から：00504_kara⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wash recyclables before putting them out.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {資源|しげん}ごみを{出|だ}す: to put out recyclables\n- {資源|しげん}ごみの{回収|かいしゅう}: recycling collection\n- {資源|しげん}{回収|かいしゅう}{日|び}: recycling day\n\nCATEGORIES:\n- ペットボトル: plastic bottles\n- {空|あき}{缶|かん}: empty cans\n- {空|あき}びん: empty bottles\n- {古紙|こし}/{新聞紙|しんぶんし}: paper/newspaper\n\nRELATED:\n- {可燃|かねん}ごみ: burnable garbage\n- {不燃|ふねん}ごみ: non-burnable garbage\n- リサイクル: recycling",
+  "notes": "COMMON COLLOCATIONS:\n- {資源|しげん}ごみ⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to put out recyclables\n- {資源|しげん}ごみ⟦の→の：09472_no⟧⟦{回収|かいしゅう}→回収：03019_kaishuu⟧: recycling collection\n- ⟦{資源|しげん}{回収|かいしゅう}→資源回収：26673_shigenkaishuu⟧{日|び}: recycling day\n\nTYPES:\n- ⟦ペットボトル→ペットボトル：05605_pettobotoru⟧: plastic bottles\n- {空|あき}{缶|かん}: empty cans\n- {空|あき}びん: empty bottles\n- ⟦{古紙|こし}→古紙：21849_koshi⟧/⟦{新聞紙|しんぶんし}→新聞紙：20415_shinbunshi⟧: paper/newspaper\n\nRELATED WORDS:\n- ⟦{可燃|かねん}ごみ→可燃ごみ：09535_kanengomi⟧: burnable garbage\n- ⟦{不燃|ふねん}ごみ→不燃ごみ：09536_funengomi⟧: non-burnable garbage\n- ⟦リサイクル→リサイクル：04624_risaikuru⟧: recycling",
   "cross_references": [
     {
       "type": "related",
@@ -56,18 +62,36 @@
       "reading": "ごみ",
       "headword": "ゴミ",
       "label": "garbage, trash"
+    },
+    {
+      "type": "related",
+      "target_id": "04624_risaikuru",
+      "reading": "りさいくる",
+      "headword": "リサイクル",
+      "label": "recycling"
+    },
+    {
+      "type": "related",
+      "target_id": "26673_shigenkaishuu",
+      "reading": "しげんかいしゅう",
+      "headword": "{資源回収|しげんかいしゅう}",
+      "label": "resource collection"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:39:21Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "01444_seisan",
   "headword": "{生産|せいさん}",
   "reading": "せいさん",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "production, manufacturing",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{生産|せいさん} means production or manufacturing. As a verbal noun, it forms {生産|せいさん}⟦する→する：00392_suru⟧ (to produce/manufacture).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{生産|せいさん}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{生産|せいさん}⟦する→する：00392_suru⟧: to produce ~\n- {生産|せいさん}⟦{量|りょう}→量：03799_ryou⟧: production volume\n- {生産|せいさん}⟦コスト→コスト：06666_kosuto⟧: production cost\n- {生産|せいさん}⟦{性|せい}→性：09880_sei⟧: productivity\n\nCOMMON COMPOUNDS:\n- ⟦{生産者|せいさんしゃ}→生産者：25443_seisansha⟧: producer\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧{生産|せいさん}: mass production\n- ⟦{国内|こくない}→国内：02998_kokunai⟧{生産|せいさん}: domestic production\n- {生産|せいさん}⟦{工場|こうじょう}→工場：01082_koujou⟧: manufacturing plant\n\nSIMILAR WORDS:\n- ⟦{製造|せいぞう}→製造：03289_seizou⟧: manufacturing (industrial focus)\n- ⟦{製作|せいさく}→製作：04322_seisaku⟧: production (creative/artistic)\n- ⟦{作成|さくせい}→作成：04186_sakusei⟧: creation (documents, plans)",
+  "notes": "{生産|せいさん} means production or manufacturing. As a verbal noun, it forms {生産|せいさん}⟦する→する：00392_suru⟧ (to produce/manufacture).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{生産|せいさん}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{生産|せいさん}⟦する→する：00392_suru⟧: to produce ~\n- {生産|せいさん}⟦{量|りょう}→量：03799_ryou⟧: production volume\n- {生産|せいさん}⟦コスト→コスト：06666_kosuto⟧: production cost\n- {生産|せいさん}⟦{性|せい}→性：09880_sei⟧: productivity\n\nCOMPOUNDS:\n- ⟦{生産者|せいさんしゃ}→生産者：25443_seisansha⟧: producer\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧{生産|せいさん}: mass production\n- ⟦{国内|こくない}→国内：02998_kokunai⟧{生産|せいさん}: domestic production\n- {生産|せいさん}⟦{工場|こうじょう}→工場：01082_koujou⟧: manufacturing plant\n\nSIMILAR WORDS:\n- ⟦{製造|せいぞう}→製造：03289_seizou⟧: manufacturing (industrial focus)\n- ⟦{製作|せいさく}→製作：04322_seisaku⟧: production (creative/artistic)\n- ⟦{作成|さくせい}→作成：04186_sakusei⟧: creation (documents, plans)",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,46 @@
       "reading": "しょうひ",
       "headword": "{消費|しょうひ}",
       "label": "consumption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03289_seizou",
+      "reading": "せいぞう",
+      "headword": "{製造|せいぞう}",
+      "label": "manufacturing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04322_seisaku",
+      "reading": "せいさく",
+      "headword": "{製作|せいさく}",
+      "label": "production"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04186_sakusei",
+      "reading": "さくせい",
+      "headword": "{作成|さくせい}",
+      "label": "creation"
+    },
+    {
+      "type": "related",
+      "target_id": "01082_koujou",
+      "reading": "こうじょう",
+      "headword": "{工場|こうじょう}",
+      "label": "factory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19750_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{産出|さんしゅつ}",
+      "label": "production"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:42:24Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20969_kurasumeeto_ex1",
-      "japanese": "クラスメートに{会|あ}った。",
+      "japanese": "クラスメート⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "I ran into a classmate.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20969_kurasumeeto_ex2",
-      "japanese": "{高校|こうこう}のクラスメートと{久|ひさ}しぶりに{連絡|れんらく}を{取|と}った。",
+      "japanese": "⟦{高校|こうこう}→高校：01083_koukou⟧⟦の→の：09472_no⟧クラスメート⟦と→と：00512_to⟧⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I got in touch with a high school classmate after a long time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20969_kurasumeeto_ex3",
-      "japanese": "クラスメートみんなで{先生|せんせい}に{寄|よ}せ{書|が}きを{贈|おく}ることにした。",
+      "japanese": "クラスメート⟦みんな→みんな：02972_minna⟧⟦で→で：00502_de⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧{寄|よ}せ{書|が}き⟦を→を：00422_wo⟧⟦{贈|おく}る→贈る：09862_okuru⟧ことにした。",
       "english": "We decided as a class to give the teacher a signed message board.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English 'classmate,' used for students in the same class at school. Typically refers to the same homeroom class rather than just taking the same course.\n\nCOMMON COLLOCATIONS:\n- クラスメートと{仲|なか}がいい: to be on good terms with classmates\n- クラスメートに{相談|そうだん}する: to consult a classmate\n- {元|もと}クラスメート: former classmate\n\nSIMILAR WORDS:\n- {同級生|どうきゅうせい}: classmate (same grade/year) — broader than クラスメート; includes all students in the same school year, not just the same class\n- {学友|がくゆう}: school friend — more literary; emphasizes friendship rather than just being in the same class",
+  "notes": "A loanword from English 'classmate,' used for students in the same class at school. Typically refers to the same homeroom class rather than just taking the same course.\n\nCOMMON COLLOCATIONS:\n- クラスメート⟦と→と：00512_to⟧⟦{仲|なか}→仲：09513_naka⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: to be on good terms with classmates\n- クラスメート⟦に→に：00314_ni⟧⟦{相談|そうだん}する→相談する：01845_soudansuru⟧: to consult a classmate\n- ⟦{元|もと}→元：03878_moto⟧クラスメート: former classmate\n\nSIMILAR WORDS:\n- ⟦{同級生|どうきゅうせい}→同級生：03032_doukyuusei⟧: classmate (same grade/year) — broader than クラスメート; includes all students in the same school year, not just the same class\n- ⟦{学友|がくゆう}→学友：27117_gakuyuu⟧: school friend — more literary; emphasizes friendship rather than just being in the same class",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03032_doukyuusei",
+      "reading": "どうきゅうせい",
+      "headword": "{同級生|どうきゅうせい}",
+      "label": "classmate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27117_gakuyuu",
+      "reading": "がくゆう",
+      "headword": "{学友|がくゆう}",
+      "label": "school friend"
+    },
+    {
+      "type": "related",
+      "target_id": "01084_kurasu",
+      "reading": "くらす",
+      "headword": "クラス",
+      "label": "class"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-31T09:43:25Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

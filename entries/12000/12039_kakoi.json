@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12039_kakoi_ex1",
-      "japanese": "{動物|どうぶつ}の{囲|かこ}いを{修理|しゅうり}する。",
+      "japanese": "⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦の→の：09472_no⟧{囲|かこ}い⟦を→を：00422_wo⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦する→する：00392_suru⟧。",
       "english": "To repair the animal enclosure.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12039_kakoi_ex2",
-      "japanese": "{囲|かこ}いの{中|なか}で{鶏|にわとり}が{走|はし}り{回|まわ}っている。",
+      "japanese": "{囲|かこ}い⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{鶏|にわとり}→鶏：05202_niwatori⟧⟦が→が：00051_ga⟧⟦{走|はし}り{回|まわ}っている→走り回る：04608_hashirimawaru⟧。",
       "english": "Chickens are running around inside the enclosure.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12039_kakoi_ex3",
-      "japanese": "{工事|こうじ}{現場|げんば}の{周|まわ}りに{囲|かこ}いが{設|もう}けられている。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦の→の：09472_no⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧{囲|かこ}い⟦が→が：00051_ga⟧⟦{設|もう}けられている→設ける：14220_moukeru⟧。",
       "english": "A fence has been set up around the construction site.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Derived from the verb {囲|かこ}う (to surround, to enclose). Refers to physical barriers of various kinds — fences, pens, walls, partitions, or hoarding around construction sites.\n\nCOMMON COLLOCATIONS:\n- {囲|かこ}いを{作|つく}る: to build an enclosure\n- {囲|かこ}いの{中|なか}: inside the enclosure\n- {囲|かこ}いを{設|もう}ける: to set up a fence/barrier\n- {囲|かこ}いから{出|で}る: to leave the enclosure\n\nTYPES:\n- {柵|さく}の{囲|かこ}い: fence enclosure\n- {石|いし}の{囲|かこ}い: stone enclosure\n- {工事|こうじ}の{囲|かこ}い: construction hoarding\n\nRELATED WORDS:\n- {囲|かこ}う: the source verb (to surround)\n- {柵|さく}: fence, railing (more specifically a fence structure)\n- {塀|へい}: wall (solid barrier, typically of stone or concrete)",
+  "notes": "Derived from the verb ⟦{囲|かこ}う→囲う：12005_kakou⟧ (to surround, to enclose). Refers to physical barriers of various kinds — fences, pens, walls, partitions, or hoarding around construction sites.\n\nCOMMON COLLOCATIONS:\n- {囲|かこ}い⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to build an enclosure\n- {囲|かこ}い⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: inside the enclosure\n- {囲|かこ}い⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧: to set up a fence/barrier\n- {囲|かこ}い⟦から→から：00504_kara⟧⟦{出|で}る→出る：00513_deru⟧: to leave the enclosure\n\nTYPES:\n- ⟦{柵|さく}→柵：13103_saku⟧⟦の→の：09472_no⟧{囲|かこ}い: fence enclosure\n- ⟦{石|いし}→石：02177_ishi⟧⟦の→の：09472_no⟧{囲|かこ}い: stone enclosure\n- ⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧{囲|かこ}い: construction hoarding\n\nRELATED WORDS:\n- ⟦{囲|かこ}う→囲う：12005_kakou⟧: the source verb (to surround)\n- ⟦{柵|さく}→柵：13103_saku⟧: fence, railing (more specifically a fence structure)\n- ⟦{塀|へい}→塀：03613_hei⟧: wall (solid barrier, typically of stone or concrete)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "かこう",
       "headword": "{囲|かこ}う",
       "label": "to enclose (verb)"
+    },
+    {
+      "type": "related",
+      "target_id": "13103_saku",
+      "reading": "さく",
+      "headword": "{柵|さく}",
+      "label": "fence, railing"
+    },
+    {
+      "type": "related",
+      "target_id": "03613_hei",
+      "reading": "へい",
+      "headword": "{塀|へい}",
+      "label": "wall"
+    },
+    {
+      "type": "related",
+      "target_id": "02037_kakomu",
+      "reading": "かこむ",
+      "headword": "{囲|かこ}む",
+      "label": "to surround, to encircle"
     }
   ],
   "metadata": {
     "created": "2026-02-19T13:35:04Z",
-    "modified": "2026-07-04T09:40:18Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
