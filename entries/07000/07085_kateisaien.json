@@ -54,7 +54,7 @@
     },
     {
       "id": "07085_kateisaien_ex5",
-      "japanese": "{家庭菜園|かていさいえん}⟦を→を：00422_wo⟧⟦{始|はじ}めて→始める：00531_hajimeru⟧⟦から→から：00504_kara⟧、⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧{楽|たの}しさ⟦を→を：00422_wo⟧⟦{知|し}った→知る：00458_shiru⟧。",
+      "japanese": "{家庭菜園|かていさいえん}⟦を→を：00422_wo⟧⟦{始|はじ}めて→始める：00531_hajimeru⟧⟦から→から：00504_kara⟧、⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧⟦{楽|たの}しさ→楽しさ：30438_tanoshisa⟧⟦を→を：00422_wo⟧⟦{知|し}った→知る：00458_shiru⟧。",
       "english": "Since starting a home vegetable garden, I've discovered the joy of growing vegetables.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "COMMON VEGETABLES GROWN:\n- ⟦トマト→トマト：05192_tomato⟧ (tomatoes)\n- きゅうり (cucumbers)\n- なす (eggplants)\n- ⟦ピーマン→ピーマン：11132_piiman⟧ (bell peppers)\n- ネギ (green onions)\n- ⟦{大葉|おおば}→大葉：17713_ooba⟧ (shiso leaves)\n\nCOMMON COLLOCATIONS:\n- {家庭菜園|かていさいえん}⟦を→を：00422_wo⟧{始|はじ}める (to start a home garden)\n- {家庭菜園|かていさいえん}⟦で→で：00502_de⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧ (to grow in a home garden)\n- {家庭菜園|かていさいえん}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧ (to enjoy home gardening)\n- ⟦ベランダ→ベランダ：05072_beranda⟧{家庭菜園|かていさいえん} (balcony vegetable garden)\n\nRELATED WORDS:\n- {市民農園|しみんのうえん} (community garden/allotment)\n- ⟦ガーデニング→ガーデニング：07816_gaadeningu⟧ (gardening)\n- ⟦プランター→プランター：08277_purantaa⟧⟦{栽培|さいばい}→栽培：13108_saibai⟧ (container gardening)",
+  "notes": "RELATED WORDS:\n- ⟦トマト→トマト：05192_tomato⟧ (tomatoes)\n- きゅうり (cucumbers)\n- なす (eggplants)\n- ⟦ピーマン→ピーマン：11132_piiman⟧ (bell peppers)\n- ネギ (green onions)\n- ⟦{大葉|おおば}→大葉：17713_ooba⟧ (shiso leaves)\n- {市民農園|しみんのうえん} (community garden/allotment)\n- ⟦ガーデニング→ガーデニング：07816_gaadeningu⟧ (gardening)\n- ⟦プランター→プランター：08277_purantaa⟧⟦{栽培|さいばい}→栽培：13108_saibai⟧ (container gardening)\n\nCOMMON COLLOCATIONS:\n- {家庭菜園|かていさいえん}⟦を→を：00422_wo⟧{始|はじ}める (to start a home garden)\n- {家庭菜園|かていさいえん}⟦で→で：00502_de⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧ (to grow in a home garden)\n- {家庭菜園|かていさいえん}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧ (to enjoy home gardening)\n- ⟦ベランダ→ベランダ：05072_beranda⟧{家庭菜園|かていさいえん} (balcony vegetable garden)",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,39 @@
       "reading": "にわいじり",
       "headword": "{庭|にわ}いじり",
       "label": "puttering in the garden"
+    },
+    {
+      "type": "related",
+      "target_id": "05192_tomato",
+      "reading": "とまと",
+      "headword": "トマト",
+      "label": "tomatoes"
+    },
+    {
+      "type": "related",
+      "target_id": "05195_kyuuri",
+      "reading": "きゅうり",
+      "headword": "{胡瓜|きゅうり}",
+      "label": "cucumbers"
+    },
+    {
+      "type": "related",
+      "target_id": "11132_piiman",
+      "reading": "ぴーまん",
+      "headword": "ピーマン",
+      "label": "bell peppers"
+    },
+    {
+      "type": "related",
+      "target_id": "17713_ooba",
+      "reading": "おおば",
+      "headword": "{大葉|おおば}",
+      "label": "shiso leaves"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:03:09Z",
-    "modified": "2026-09-02T04:01:10Z",
+    "modified": "2026-09-03T00:27:56Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

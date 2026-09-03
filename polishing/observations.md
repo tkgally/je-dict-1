@@ -1672,3 +1672,30 @@ homograph-list truncation.)_
   cheap probe-first workflow (`check_duplicate.py --batch` before writing any glosses) is what makes
   a saturated lens cost seconds instead of a wasted half-run, and should be the documented default
   in `newcandidates.md`.
+
+## 2026-09-03 — routine polish session 001 (priority lines 675-1400, frontier 07080-07095)
+
+- [tooling] The priority-lane skip rule ("skip entries modified in the last 30 days") is now
+  extremely lossy just after the 2026-09-02 v3 mechanical sweep (#3253), which bulk-touched
+  `metadata.modified` on a large share of entries via normalize_notes/auto_link/harvest_crossrefs
+  without doing substantive polish. This run had to scan 726 lines of `priority/notes.txt`
+  (675-1400) to find 16 eligible entries — a ~2% hit rate, versus the usual much higher rate.
+  The priority list itself still reflects real, unresolved priority reasons (never-modified,
+  missing sections, etc.); only the timestamp-based skip filter is stale. This should self-heal
+  as mechanical-sweep timestamps age past 30 days, but if the next few runs show a similarly low
+  hit rate, worth considering whether the skip filter should compare against a "last substantive
+  edit" marker instead of `metadata.modified`, since a mechanical pass and a judgment edit both
+  bump the same field.
+- [pattern] Many pre-v3 entries (created before the closed note-header list existed) use
+  Title-Case pseudo-headers ("Characteristics:", "Common occasions:", "Japanese Months:",
+  "Suffix Note:", etc.) that `normalize_notes.py`'s detector never touches, because header
+  detection requires an ALL-CAPS line. These aren't flagged by any existing tooling; they were
+  only caught by hand during this polish pass (18 of the 32 entries touched needed at least one
+  header rename). Worth a systemic-fix backlog item: a detector that finds notes containing a
+  Title-Case line ending in a colon (a likely legacy pseudo-header) so they can be swept in bulk
+  rather than caught one at a time during polish.
+- [entry] 07093_eigakantoku had a literal unmatched brace in its notes bullet list —
+  `- {プロデューサー (producer)` — a stray `{` on a pure-katakana word that needs no furigana
+  wrapper. Fixed during this run; worth a quick regex sweep (`{[^|{}]*(?!\|)` with no matching
+  `|...}` before the next `\n- ` or section break) in case the same slip happened elsewhere from
+  the same generation batch (entries 07090-07095, created 2026-01-18T23:14:56Z in one batch).
