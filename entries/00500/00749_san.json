@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00749_san_ex1",
-      "japanese": "{三|さん}⟦{時|じ}→じ：09869_ji⟧⟦に→に：00314_ni⟧⟦{会|あ}いましょう→あう：00482_au⟧。",
+      "japanese": "{三|さん}⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧⟦{会|あ}いましょう→会う：00482_au⟧。",
       "english": "Let's meet at three o'clock.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00749_san_ex2",
-      "japanese": "{三|さん}⟦{人|にん}→にん：00658_nin⟧⟦{家族|かぞく}→かぞく：00552_kazoku⟧⟦です→です：09485_desu⟧。",
+      "japanese": "{三|さん}⟦{人|にん}→〜人：00658_nin⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦です→です：09485_desu⟧。",
       "english": "It's a family of three.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00749_san_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦{本|ほん}→ほん：00111_hon⟧⟦は→は：00079_ha⟧{三|さん}⟦{冊|さつ}→さつ：00666_satsu⟧⟦あります→ある：00006_aru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{本|ほん}→本：00111_hon⟧⟦は→は：00079_ha⟧{三|さん}⟦{冊|さつ}→〜冊：00666_satsu⟧⟦あります→ある：00006_aru⟧。",
       "english": "There are three of these books.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00749_san_ex4",
-      "japanese": "⟦{毎日|まいにち}→まいにち：00729_mainichi⟧{三|さん}⟦{回|かい}→かい：00957_kai⟧、⟦{朝|あさ}→あさ：02277_asa⟧⟦と→と：00512_to⟧⟦{昼|ひる}→ひる：00540_hiru⟧⟦と→と：00512_to⟧⟦{夜|よる}→よる：00487_yoru⟧⟦に→に：00314_ni⟧⟦ご{飯|はん}→ごはん：00776_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べます→たべる：00396_taberu⟧。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{三|さん}⟦{回|かい}→回：00957_kai⟧、⟦{朝|あさ}→朝：02277_asa⟧⟦と→と：00512_to⟧⟦{昼|ひる}→昼：00540_hiru⟧⟦と→と：00512_to⟧⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べます→食べる：00396_taberu⟧。",
       "english": "I eat meals three times a day - in the morning, afternoon, and evening.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00749_san_ex5",
-      "japanese": "⟦{三|さん}{月|がつ}→さんがつ：00665_sangatsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{暖|あたた}かく→あたたかい：00618_atatakai⟧⟦なって→なる：01970_naru⟧、⟦{桜|さくら}→さくら：02212_sakura⟧⟦が→が：00051_ga⟧⟦{咲|さ}き→さく：08150_saku⟧⟦{始|はじ}めます→はじめる：00531_hajimeru⟧。⟦お{花見|はなみ}→はなみ：01700_hanami⟧⟦が→が：00051_ga⟧⟦{楽|たの}しみ→たのしみ：01651_tanoshimi⟧⟦です→です：09485_desu⟧。",
+      "japanese": "⟦{三|さん}{月|がつ}→三月：00665_sangatsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{暖|あたた}かく→暖かい：00618_atatakai⟧⟦なって→なる：01970_naru⟧、⟦{桜|さくら}→桜：02212_sakura⟧⟦が→が：00051_ga⟧⟦{咲|さ}き→咲く：08150_saku⟧⟦{始|はじ}めます→始める：00531_hajimeru⟧。⟦お{花見|はなみ}→花見：01700_hanami⟧⟦が→が：00051_ga⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧⟦です→です：09485_desu⟧。",
       "english": "When March comes, it gets warmer and the cherry blossoms start to bloom. I'm looking forward to hanami.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "The number three. The on'yomi reading さん is used with most counters, while the native Japanese reading is ⟦{三|みっ}つ→三つ：02970_mittsu⟧ (mittsu) with the つ counter.\n\nSOUND CHANGES WITH COUNTERS:\nさん causes sound changes (rendaku) with certain counters:\n- {三|さん}{本|ぼん} (sanbon, not *sanhon) — three long objects\n- {三|さん}{杯|ばい} (sanbai, not *sanhai) — three cups/glasses\n- {三|さん}{分|ぷん} (sanpun, not *sanfun) — three minutes\n- ⟦{三|さん}{階|がい}→三階：27617_sangai⟧ (sangai, not *sankai) — third floor\n\nCOMPOUNDS:\n- ⟦{三|さん}{月|がつ}→さんがつ：00665_sangatsu⟧: March\n- ⟦{三角|さんかく}→三角：04177_sankaku⟧: triangle\n- ⟦{三|み}{日|っか}→三日：02969_mikka⟧: the third day / three days\n\nCULTURAL NOTE:\nThree is considered a lucky number in Japan. The expression ⟦{三度目|さんどめ}→三度目：noentry⟧⟦の→の：09472_no⟧⟦{正直|しょうじき}→正直：01562_shoujiki⟧ means \"third time's the charm.\"",
+  "notes": "The number three. The on'yomi reading さん is used with most counters, while the native Japanese reading is ⟦{三|みっ}つ→三つ：02970_mittsu⟧ (mittsu) with the つ counter.\n\nSOUND CHANGES WITH COUNTERS:\nさん causes sound changes (rendaku) with certain counters:\n- {三|さん}{本|ぼん} (sanbon, not *sanhon) — three long objects\n- {三|さん}{杯|ばい} (sanbai, not *sanhai) — three cups/glasses\n- {三|さん}{分|ぷん} (sanpun, not *sanfun) — three minutes\n- ⟦{三|さん}{階|がい}→三階：27617_sangai⟧ (sangai, not *sankai) — third floor\n\nCOMPOUNDS:\n- ⟦{三|さん}{月|がつ}→三月：00665_sangatsu⟧: March\n- ⟦{三角|さんかく}→三角：04177_sankaku⟧: triangle\n- ⟦{三|み}{日|っか}→三日：02969_mikka⟧: the third day / three days\n\nCULTURAL NOTE:\nThree is considered a lucky number in Japan. The expression ⟦{三度目|さんどめ}→三度目：noentry⟧⟦の→の：09472_no⟧⟦{正直|しょうじき}→正直：01562_shoujiki⟧ means \"third time's the charm.\"",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:51:15Z",
-    "modified": "2026-09-02T04:00:58Z",
+    "modified": "2026-09-04T12:29:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

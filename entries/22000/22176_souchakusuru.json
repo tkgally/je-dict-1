@@ -25,7 +25,7 @@
     },
     {
       "id": "22176_souchakusuru_ex2",
-      "japanese": "⟦シートベルト→シートベルト：29083_shiitoberuto⟧⟦を→を：00422_wo⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧{装着|そうちゃく}して⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦シートベルト→シートベルト：29083_shiitoberuto⟧⟦を→を：00422_wo⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{装着|そうちゃく}→装着：20613_souchaku⟧して⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please fasten your seatbelt correctly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22176_souchakusuru_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦カメラ→カメラ：04417_kamera⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{特殊|とくしゅ}→特殊：04566_tokushu⟧な⟦レンズ→レンズ：07808_renzu⟧⟦が→が：00051_ga⟧{装着|そうちゃく}されて⟦いて→いる：00495_iru⟧、⟦{暗|くら}い→暗い：00647_kurai⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{撮影|さつえい}できる→撮影する：21990_satsueisuru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カメラ→カメラ：04417_kamera⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{特殊|とくしゅ}→特殊：04566_tokushu⟧な⟦レンズ→レンズ：07808_renzu⟧⟦が→が：00051_ga⟧⟦{装着|そうちゃく}→装着：20613_souchaku⟧されて⟦いて→いる：00495_iru⟧、⟦{暗|くら}い→暗い：00647_kurai⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{撮影|さつえい}できる→撮影する：21990_satsueisuru⟧。",
       "english": "This camera has a special lens attached, so it can take photos even in dark places.",
       "sense_numbers": [
         1
@@ -67,6 +67,13 @@
       "reading": "ちゃくだつする",
       "headword": "{着脱|ちゃくだつ}する",
       "label": "to put on and take off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00680_tsuku",
+      "reading": "つく",
+      "headword": "{着|つ}く",
+      "label": "to put on, attach"
     }
   ],
   "metadata": {
@@ -85,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:27:38Z",
-    "modified": "2026-09-02T04:02:06Z"
+    "modified": "2026-09-04T12:31:15Z"
   },
   "conjugation": {
     "type": "suru",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00645_ko_ex1",
-      "japanese": "⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧{三個|さんこ}⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧{三個|さんこ}⟦ください→下さい：02899_kudasai⟧。",
       "english": "Three apples, please.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00645_ko_ex5",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦に→に：00314_ni⟧⟦{一人|ひとり}→一人：00630_hitori⟧{二個|にこ}⟦ずつ→ずつ：03092_zutsu⟧⟦あげたら→あげる：00546_ageru⟧、⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦で→で：00502_de⟧⟦{何個|なんこ}→何個：26687_nanko⟧⟦いります→要る：09589_iru⟧⟦か→か：09473_ka⟧。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦に→に：00314_ni⟧⟦{一人|ひとり}→一人：00630_hitori⟧{二個|にこ}⟦ずつ→ずつ：03092_zutsu⟧⟦あげたら→あげる：00546_ageru⟧、⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦で→で：00502_de⟧⟦{何個|なんこ}→何個：26687_nanko⟧⟦いります→要る：09589_iru⟧⟦か→か：09473_ka⟧。",
       "english": "If you give each child two, how many do you need in total?",
       "notes": null,
       "has_audio": false,
@@ -92,11 +92,18 @@
       "reading": "ほん",
       "headword": "〜{本|ほん}",
       "label": "counter for long objects"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28717_kan",
+      "reading": "かん",
+      "headword": "{貫|かん}",
+      "label": "counter for pieces of sushi"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:43:53Z",
-    "modified": "2026-09-02T04:00:57Z",
+    "modified": "2026-09-04T12:31:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

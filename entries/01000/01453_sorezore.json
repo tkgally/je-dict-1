@@ -34,7 +34,7 @@
     },
     {
       "id": "01453_sorezore_ex3",
-      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧⟦たち→たち：01551_tachi⟧⟦は→は：00079_ha⟧それぞれ⟦{違|ちが}う→違う：01957_chigau⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧⟦たち→達：01551_tachi⟧⟦は→は：00079_ha⟧それぞれ⟦{違|ちが}う→違う：01957_chigau⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "The students each have different opinions.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "01453_sorezore_ex4",
-      "japanese": "⟦メニュー→メニュー：11166_menyuu⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、それぞれ⟦{好|す}き→好き：02355_suki⟧⟦な→な：09497_na⟧⟦もの→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦メニュー→メニュー：11166_menyuu⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、それぞれ⟦{好|す}き→好き：02355_suki⟧⟦な→な：09497_na⟧⟦もの→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Look at the menu and each of you please choose what you like.",
       "notes": null,
       "has_audio": false,
@@ -106,11 +106,18 @@
       "reading": "それら",
       "headword": "それら",
       "label": "those"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27163_hitotsuhitotsu",
+      "reading": "ひとつひとつ",
+      "headword": "{一|ひと}つ{一|ひと}つ",
+      "label": "one by one"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:42:28Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-04T12:48:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -120,7 +127,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "demonstrative"
+        "grammatical"
       ]
     }
   }

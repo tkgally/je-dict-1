@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "20202_renrakusuru_ex1",
-      "japanese": "⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧{連絡|れんらく}します。",
+      "japanese": "⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧します。",
       "english": "I'll contact you later.",
       "sense_numbers": [
         1
@@ -120,7 +120,7 @@
     },
     {
       "id": "20202_renrakusuru_ex2",
-      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧⟦メール→メール：04435_meeru⟧⟦で→で：00502_de⟧{連絡|れんらく}した。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧⟦メール→メール：04435_meeru⟧⟦で→で：00502_de⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧した。",
       "english": "I contacted my friend by email.",
       "sense_numbers": [
         1
@@ -130,7 +130,7 @@
     },
     {
       "id": "20202_renrakusuru_ex3",
-      "japanese": "⟦{何|なに}か→何か：03873_nanika⟧⟦あったら→ある：00006_aru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{連絡|れんらく}して⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{何|なに}か→何か：03873_nanika⟧⟦あったら→ある：00006_aru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧して⟦ください→下さい：02899_kudasai⟧。",
       "english": "If anything comes up, please contact me right away.",
       "sense_numbers": [
         1
@@ -140,7 +140,7 @@
     },
     {
       "id": "20202_renrakusuru_ex4",
-      "japanese": "⟦{変更|へんこう}→変更：03616_henkou⟧⟦を→を：00422_wo⟧{連絡|れんらく}した。",
+      "japanese": "⟦{変更|へんこう}→変更：03616_henkou⟧⟦を→を：00422_wo⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧した。",
       "english": "I notified them of the change.",
       "sense_numbers": [
         2
@@ -150,7 +150,7 @@
     },
     {
       "id": "20202_renrakusuru_ex5",
-      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{日程|にってい}→日程：04289_nittei⟧⟦を→を：00422_wo⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦に→に：00314_ni⟧{連絡|れんらく}した。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{日程|にってい}→日程：04289_nittei⟧⟦を→を：00422_wo⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧した。",
       "english": "I informed everyone of the meeting schedule.",
       "sense_numbers": [
         2
@@ -199,6 +199,13 @@
       "reading": "つうちする",
       "headword": "{通知|つうち}する",
       "label": "to notify"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00458_shiru",
+      "reading": "しる",
+      "headword": "{知|し}る",
+      "label": "to inform"
     }
   ],
   "metadata": {
@@ -216,6 +223,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T17:07:25Z",
-    "modified": "2026-09-02T04:01:58Z"
+    "modified": "2026-09-04T12:31:15Z"
   }
 }

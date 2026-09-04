@@ -430,10 +430,25 @@
       "verify": "spot-check",
       "priority": 3,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 3567,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "warn",
-      "notes": "3,567 links / 1,712 entries as of 2026-07-29. styles.css:245 renders content: attr(data-baseform) as the hover tooltip, so learners see 'きかん' where '期間' belongs. Transformation is decidable from the target entry and touches link metadata only — no Japanese text changes. 2026-07-29: user-visibility confirmed — docs/styles.css:245 renders content: attr(data-baseform) as the hover tooltip, so a kana baseform shows the learner the reading instead of the dictionary form. Prose write-up at ideas/cleanup-backlog.md Priority 32."
+      "notes": "3,567 links / 1,712 entries as of 2026-07-29. styles.css:245 renders content: attr(data-baseform) as the hover tooltip, so learners see 'きかん' where '期間' belongs. Transformation is decidable from the target entry and touches link metadata only — no Japanese text changes. 2026-07-29: user-visibility confirmed — docs/styles.css:245 renders content: attr(data-baseform) as the hover tooltip, so a kana baseform shows the learner the reading instead of the dictionary form. Prose write-up at ideas/cleanup-backlog.md Priority 32. RESOLVED 2026-09-04 (routine systemic-fix): swept the whole corpus in one pass with the new build/fix_link_baseform_kana.py, not band by band — the fix unit is the target entry's own headword field, not per-entry judgment, so batch size carried no added risk. Re-measured at 5,463 links / 3,512 entries (up from 3,567/1,712 in July; the population had grown as more entries were auto-linked in the intervening five weeks) — dominated by a handful of ultra-common function words used across thousands of examples (ください→下さい at 02899_kudasai alone accounted for a large share). Detector now reports 0 dictionary-wide. 4 links left untouched (multi-variant headword, e.g. やさしい→00475_yasashii which is 易しい／優しい — needs per-sentence judgment, not mechanical) — new item link-baseform-kana-multivariant filed for that residue. 445 links correctly left alone (target headword is itself kana, e.g. が/の/に — no defect). build/fix_link_baseform_kana.py --gate-style rerun stays available for regression."
+    },
+    {
+      "id": "link-baseform-kana-multivariant",
+      "title": "Inline-link baseforms written in kana pointing at a multi-variant headword (needs per-sentence judgment)",
+      "source": "ideas/cleanup-backlog.md#priority-32",
+      "detect": "python3 build/fix_link_baseform_kana.py --json (residue after the mechanical filter: target headword contains ／ or another variant separator)",
+      "filter": "for each occurrence, read the example/note sentence and pick the variant that matches its sense (e.g. 易しい 'easy' vs 優しい 'kind' for base やさしい → 00475_yasashii)",
+      "fix_type": "verify",
+      "verify": "per-entry",
+      "priority": 30,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 4,
+      "severity": "warn",
+      "notes": "Filed 2026-09-04 as the residue of link-baseform-kana (now resolved): 4 links across 03643_yuuki, 04419_ninchishou, 04595_iikaeru, 04598_yusuru, all base やさしい/やさしく → 00475_yasashii, whose headword is 易しい／優しい. build/fix_link_baseform_kana.py deliberately skips multi-variant headwords rather than guessing. Tiny and self-contained; a single per-entry read of each sentence resolves all four."
     },
     {
       "id": "link-baseform-braces",

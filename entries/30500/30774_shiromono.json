@@ -30,7 +30,7 @@
     },
     {
       "id": "30774_shiromono_ex2",
-      "japanese": "{色物|いろもの}⟦と→と：00512_to⟧{白物|しろもの}⟦を→を：00422_wo⟧⟦{分|わ}けて→分ける：02333_wakeru⟧⟦{洗濯|せんたく}して→洗濯する：09656_sentakusuru⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{色物|いろもの}→色物：30794_iromono⟧⟦と→と：00512_to⟧{白物|しろもの}⟦を→を：00422_wo⟧⟦{分|わ}けて→分ける：02333_wakeru⟧⟦{洗濯|せんたく}して→洗濯する：09656_sentakusuru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please separate the colors from the whites when you do the laundry.",
       "sense_numbers": [
         1
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "Sense 1 belongs to everyday laundry vocabulary; sense 2 belongs to retail and business reporting, where it appears almost exclusively as {白物家電|しろものかでん}.\n\nCOMMON COLLOCATIONS:\n- {白物|しろもの}⟦と→と：00512_to⟧{色物|いろもの}: whites and colors\n- {白物|しろもの}⟦を→を：00422_wo⟧⟦{洗|あら}う→洗う：00827_arau⟧: to wash the whites\n- {白物家電|しろものかでん}: white goods; major home appliances\n- {白物家電|しろものかでん}⟦メーカー→メーカー：11158_meekaa⟧: white goods manufacturer\n\nSIMILAR WORDS:\n- {色物|いろもの}: colored items — the laundry counterpart of sense 1\n- {黒物家電|くろものかでん}: brown goods — TVs and audio-visual equipment, the counterpart of sense 2",
+  "notes": "Sense 1 belongs to everyday laundry vocabulary; sense 2 belongs to retail and business reporting, where it appears almost exclusively as {白物家電|しろものかでん}.\n\nCOMMON COLLOCATIONS:\n- {白物|しろもの}⟦と→と：00512_to⟧⟦{色物|いろもの}→色物：30794_iromono⟧: whites and colors\n- {白物|しろもの}⟦を→を：00422_wo⟧⟦{洗|あら}う→洗う：00827_arau⟧: to wash the whites\n- {白物家電|しろものかでん}: white goods; major home appliances\n- {白物家電|しろものかでん}⟦メーカー→メーカー：11158_meekaa⟧: white goods manufacturer\n\nSIMILAR WORDS:\n- ⟦{色物|いろもの}→色物：30794_iromono⟧: colored items — the laundry counterpart of sense 1\n- {黒物家電|くろものかでん}: brown goods — TVs and audio-visual equipment, the counterpart of sense 2",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,6 +88,13 @@
       "reading": "いろがらもの",
       "headword": "{色柄物|いろがらもの}",
       "label": "coloured and patterned laundry items"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30794_iromono",
+      "reading": "いろもの",
+      "headword": "{色物|いろもの}",
+      "label": "colored items"
     }
   ],
   "metadata": {
@@ -105,6 +112,6 @@
       "domain": []
     },
     "created": "2026-08-31T12:31:32Z",
-    "modified": "2026-09-02T04:02:41Z"
+    "modified": "2026-09-04T12:31:15Z"
   }
 }

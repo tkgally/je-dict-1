@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00747_roku_ex1",
-      "japanese": "{六|ろく}⟦{時|じ}→じ：09869_ji⟧⟦に→に：00314_ni⟧⟦{起|お}きます→おきる：00521_okiru⟧。",
+      "japanese": "{六|ろく}⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧⟦{起|お}きます→起きる：00521_okiru⟧。",
       "english": "I wake up at six o'clock.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00747_roku_ex2",
-      "japanese": "⟦ビール→びーる：01015_biiru⟧⟦を→を：00422_wo⟧{六|ろっ}⟦{本|ぽん}→ほん：00688_hon⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦ビール→びーる：01015_biiru⟧⟦を→を：00422_wo⟧{六|ろっ}⟦{本|ぽん}→〜本：00688_hon⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Six beers, please.",
       "notes": "Note: ろく becomes ろっ before ほん→ぽん",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00747_roku_ex3",
-      "japanese": "⟦{六|ろく}{月|がつ}→ろくがつ：00662_rokugatsu⟧⟦は→は：00079_ha⟧⟦{梅雨|つゆ}→つゆ：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{季節|きせつ}→きせつ：01304_kisetsu⟧⟦です→です：09485_desu⟧。",
+      "japanese": "⟦{六|ろく}{月|がつ}→六月：00662_rokugatsu⟧⟦は→は：00079_ha⟧⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦です→です：09485_desu⟧。",
       "english": "June is the rainy season.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00747_roku_ex4",
-      "japanese": "⟦{友達|ともだち}→ともだち：01478_tomodachi⟧⟦が→が：00051_ga⟧{六|ろく}⟦{人|にん}→にん：00658_nin⟧⟦{来|き}た→くる：00254_kuru⟧⟦ので→ので：09501_node⟧、⟦{椅子|いす}→いす：00706_isu⟧⟦が→が：00051_ga⟧⟦{足|た}りませんでした→たりる：01209_tariru⟧。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧{六|ろく}⟦{人|にん}→〜人：00658_nin⟧⟦{来|き}た→来る：00254_kuru⟧⟦ので→ので：09501_node⟧、⟦{椅子|いす}→椅子：00706_isu⟧⟦が→が：00051_ga⟧⟦{足|た}りませんでした→足りる：01209_tariru⟧。",
       "english": "Six friends came, so we didn't have enough chairs.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00747_roku_ex5",
-      "japanese": "⟦{六|ろく}{月|がつ}→ろくがつ：00662_rokugatsu⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→あめ：00583_ame⟧⟦が→が：00051_ga⟧⟦{多|おお}い→おおい：01127_ooi⟧⟦です→です：09485_desu⟧。⟦{毎日|まいにち}→まいにち：00729_mainichi⟧⟦{傘|かさ}→かさ：00639_kasa⟧⟦を→を：00422_wo⟧⟦{持|も}って→もつ：00478_motsu⟧⟦{出|で}かけなければなりません→でかける：00833_dekakeru⟧。",
+      "japanese": "⟦{六|ろく}{月|がつ}→六月：00662_rokugatsu⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦です→です：09485_desu⟧。⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{出|で}かけなければなりません→出かける：00833_dekakeru⟧。",
       "english": "There's a lot of rain in June. I have to go out with an umbrella every day.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "{六|ろく} is the number six. The native Japanese counting word is ⟦{六|むっ}つ→六つ：02974_muttsu⟧ (muttsu).\n\nCOUNTING PATTERNS:\nWhen combined with counters starting with h-sounds, ろく often becomes ろっ:\n- ⟦{六|ろっ}{本|ぽん}→六本：27650_roppon⟧ (roppon): six long objects\n- ⟦{六|ろっ}{百|ぴゃく}→六百：30450_roppyaku⟧ (roppyaku): 600\n- {六|ろっ}{匹|ぴき} (roppiki): six animals\n\nNO CHANGE:\n- ⟦{六|ろく}{時|じ}→六時：10982_rokuji⟧ (rokuji): six o'clock\n- ⟦{六|ろく}{人|にん}→六人：30568_rokunin⟧ (rokunin): six people\n- ⟦{六|ろく}{月|がつ}→ろくがつ：00662_rokugatsu⟧ (rokugatsu): June\n\nCULTURAL NOTE:\nSix is generally considered a lucky number in Japan.",
+  "notes": "{六|ろく} is the number six. The native Japanese counting word is ⟦{六|むっ}つ→六つ：02974_muttsu⟧ (muttsu).\n\nCOUNTING PATTERNS:\nWhen combined with counters starting with h-sounds, ろく often becomes ろっ:\n- ⟦{六|ろっ}{本|ぽん}→六本：27650_roppon⟧ (roppon): six long objects\n- ⟦{六|ろっ}{百|ぴゃく}→六百：30450_roppyaku⟧ (roppyaku): 600\n- {六|ろっ}{匹|ぴき} (roppiki): six animals\n\nNO CHANGE:\n- ⟦{六|ろく}{時|じ}→六時：10982_rokuji⟧ (rokuji): six o'clock\n- ⟦{六|ろく}{人|にん}→六人：30568_rokunin⟧ (rokunin): six people\n- ⟦{六|ろく}{月|がつ}→六月：00662_rokugatsu⟧ (rokugatsu): June\n\nCULTURAL NOTE:\nSix is generally considered a lucky number in Japan.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:57:31Z",
-    "modified": "2026-09-02T04:00:58Z",
+    "modified": "2026-09-04T12:29:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

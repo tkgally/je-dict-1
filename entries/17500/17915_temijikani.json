@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17915_temijikani_ex1",
-      "japanese": "{手短|てみじか}に⟦{話|はな}して→話す：00467_hanasu⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "{手短|てみじか}に⟦{話|はな}して→話す：00467_hanasu⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please keep it brief.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17915_temijikani_ex3",
-      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧で{手短|てみじか}に⟦{要点|ようてん}→要点：01668_youten⟧⟦だけ→〜だけ：03093_dake⟧お⟦{伝|つた}え→伝える：01220_tsutaeru⟧⟦します→する：00392_suru⟧。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧⟦で→で：00502_de⟧{手短|てみじか}に⟦{要点|ようてん}→要点：01668_youten⟧⟦だけ→〜だけ：03093_dake⟧お⟦{伝|つた}え→伝える：01220_tsutaeru⟧⟦します→する：00392_suru⟧。",
       "english": "Since we're short on time, I'll briefly convey just the key points.",
       "notes": null,
       "has_audio": false,
@@ -52,11 +52,18 @@
       "reading": "かんけつ",
       "headword": "{簡潔|かんけつ}",
       "label": "concise (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00510_mijikai",
+      "reading": "みじかい",
+      "headword": "{短|みじか}い",
+      "label": "shortly"
     }
   ],
   "metadata": {
     "created": "2026-03-19T09:10:45Z",
-    "modified": "2026-09-02T04:01:50Z",
+    "modified": "2026-09-04T12:31:15Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
