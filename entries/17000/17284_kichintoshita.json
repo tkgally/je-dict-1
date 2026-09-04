@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17284_kichintoshita_ex1",
-      "japanese": "きちんとした⟦{服装|ふくそう}→服装：03594_fukusou⟧⟦で→で：00502_de⟧⟦{来|き}て→来る：00254_kuru⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "きちんとした⟦{服装|ふくそう}→服装：03594_fukusou⟧⟦で→で：00502_de⟧⟦{来|き}て→来る：00254_kuru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please come dressed properly.",
       "notes": null,
       "has_audio": false,
@@ -59,11 +59,25 @@
       "reading": "しっかり",
       "headword": "しっかり",
       "label": "solid/reliable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21456_shikkarisuru",
+      "reading": "しっかりする",
+      "headword": "しっかりする",
+      "label": "solid/reliable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03935_totonou",
+      "reading": "ととのう",
+      "headword": "{整|ととの}う",
+      "label": "well-arranged"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:33:17Z",
-    "modified": "2026-09-02T04:01:47Z",
+    "modified": "2026-09-04T12:31:15Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

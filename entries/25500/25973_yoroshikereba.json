@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25973_yoroshikereba_ex1",
-      "japanese": "よろしければ、⟦どうぞ→どうぞ：02920_douzo⟧⟦{召|め}し{上|あ}がって→召し上がる：01310_meshiagaru⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "よろしければ、⟦どうぞ→どうぞ：02920_douzo⟧⟦{召|め}し{上|あ}がって→召し上がる：01310_meshiagaru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "If you'd like, please help yourself.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The conditional form of ⟦よろしい→よろしい：01176_yoroshii⟧, the polite equivalent of ⟦いい→いい：00118_ii⟧ (good; alright). This expression softens requests, offers, and suggestions by explicitly giving the listener the option to decline. It is a hallmark of polite Japanese and is used extensively in customer service, business, and formal social interactions.\n\nUSAGE:\n- Placed at the beginning of a sentence as a polite lead-in\n- Often followed by polite request forms like ～て⟦いただけます→いただく：01326_itadaku⟧⟦か→か：09473_ka⟧ or ～て⟦ください→ください：02899_kudasai⟧\n- Can stand alone as a question: よろしければ？ (If that's alright?)\n\nFORMALITY LEVELS:\n- ⟦よければ→いい：00118_ii⟧: casual equivalent\n- よろしければ: standard polite\n- ⟦よろしかったら→よろしい：01176_yoroshii⟧: slightly softer variant (also polite)\n\nSIMILAR WORDS:\n- ⟦もし→もし：01284_moshi⟧⟦よければ→いい：00118_ii⟧: if you'd like — slightly less formal, with ⟦もし→もし：01284_moshi⟧ adding emphasis on the hypothetical\n- ⟦{差|さ}し{支|つか}えなければ→差し支える：05915_sashitsukaeru⟧: if it's not inconvenient — more formal, used when asking for potentially sensitive information\n- ⟦よかったら→いい：00118_ii⟧: if you'd like — casual equivalent for informal situations",
+  "notes": "The conditional form of ⟦よろしい→よろしい：01176_yoroshii⟧, the polite equivalent of ⟦いい→いい：00118_ii⟧ (good; alright). This expression softens requests, offers, and suggestions by explicitly giving the listener the option to decline. It is a hallmark of polite Japanese and is used extensively in customer service, business, and formal social interactions.\n\nUSAGE:\n- Placed at the beginning of a sentence as a polite lead-in\n- Often followed by polite request forms like ～て⟦いただけます→いただく：01326_itadaku⟧⟦か→か：09473_ka⟧ or ～て⟦ください→下さい：02899_kudasai⟧\n- Can stand alone as a question: よろしければ？ (If that's alright?)\n\nFORMALITY LEVELS:\n- ⟦よければ→いい：00118_ii⟧: casual equivalent\n- よろしければ: standard polite\n- ⟦よろしかったら→よろしい：01176_yoroshii⟧: slightly softer variant (also polite)\n\nSIMILAR WORDS:\n- ⟦もし→もし：01284_moshi⟧⟦よければ→いい：00118_ii⟧: if you'd like — slightly less formal, with ⟦もし→もし：01284_moshi⟧ adding emphasis on the hypothetical\n- ⟦{差|さ}し{支|つか}えなければ→差し支える：05915_sashitsukaeru⟧: if it's not inconvenient — more formal, used when asking for potentially sensitive information\n- ⟦よかったら→いい：00118_ii⟧: if you'd like — casual equivalent for informal situations",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,6 +52,20 @@
       "reading": "さしつかえなければ",
       "headword": "{差|さ}し{支|つか}えなければ",
       "label": "if it's not inconvenient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05915_sashitsukaeru",
+      "reading": "さしつかえる",
+      "headword": "{差|さ}し{支|つか}える",
+      "label": "if it's not inconvenient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00118_ii",
+      "reading": "いい",
+      "headword": "いい",
+      "label": "if you'd like"
     }
   ],
   "schema_version": "2.0",
@@ -67,6 +81,6 @@
       ]
     },
     "created": "2026-04-28T14:12:54Z",
-    "modified": "2026-09-02T04:02:24Z"
+    "modified": "2026-09-04T12:31:15Z"
   }
 }

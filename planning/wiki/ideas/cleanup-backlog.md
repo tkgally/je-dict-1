@@ -2080,6 +2080,39 @@ which malformed shape the baseform took.
 mechanically-safe cleanup currently open. Worth running as its own `systemic-fix` item
 rather than as a rider on 24.
 
+**RESOLVED 2026-09-04 (routine systemic-fix) — swept whole, not band by band**, on the same
+reasoning as the dead-target-id sweep (Priority 27): the fix unit is the target entry's own
+headword field, not the entry being edited, so batch size added no risk. New script
+`build/fix_link_baseform_kana.py` (dry-run by default, `--apply` to write) reads every
+entry's headword/reading once, then rewrites the baseform slot of any link where
+`baseform == target.reading` and `strip_furigana(target.headword) != baseform`, skipping
+links whose target headword is itself kana and links whose target headword lists multiple
+variants (`／`-separated).
+
+Re-measured before fixing: **5,463 links / 3,512 entries** — up from 3,567/1,712 at the
+2026-07-29 filing. The five-week gap between filing and this run saw ongoing `auto_link.py`
+passes over previously-unlinked text, and a large share of the growth is concentration, not
+spread: a handful of ultra-common function words (で、ください→下さい at `02899_kudasai`
+alone) appear in thousands of examples across the whole corpus, so as more entries picked up
+inline links, more instances of the same few already-cataloged defects appeared. This is
+**not** evidence of a live leak in `auto_link.py` itself — the tool does not choose baseform
+text, it links surface forms; the kana-baseform choice traces to whatever placed the original
+link (see Priority 24's history for the likely creation-era source) and both this priority and
+Priority 24 were the census of a fixed historical population, now cleared.
+
+Applied to all 3,512 entries; `python3 build/fix_link_baseform_kana.py` re-run afterward with no
+`--ids`/`--range` (whole-corpus dry run) now reports **0** fixable disagreements. Per the
+routine's §3 mechanical pass, the wrap-up also ran `auto_link.py` and `harvest_crossrefs.py` on
+the touched IDs (unrelated to this defect but mandatory on any entry touched this run) and
+`validate.py --changed-only`, which passed 3,535/3,535 (the extra 23 are `harvest_crossrefs.py`'s
+reciprocal cross-reference targets).
+
+**Residue**: 4 links left untouched — all base やさしい／やさしく → `00475_yasashii`, whose
+headword `易しい／優しい` has two variants and picking between them needs the sentence's sense.
+Filed as new item `link-baseform-kana-multivariant` (4 entries: 03643, 04419, 04595, 04598).
+445 links were correctly left alone (target headword is itself kana — が, の, に, and similar
+function words — so the kana baseform was never wrong).
+
 ## Priority 33: Mimetic entries whose notes announce they are onomatopoeia but whose tags do not (77 entries)
 
 **Source**: 2026-07-30 routine polish run (05xxx onomatopoeia block); scope measured by the 2026-07-30 wiki harvest

@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "01194_norikaeru_ex1",
-      "japanese": "{東京駅|とうきょうえき}⟦で→で：00502_de⟧{乗|の}り{換|か}えて⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "{東京駅|とうきょうえき}⟦で→で：00502_de⟧⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧て⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please transfer at Tokyo Station.",
       "notes": "で marks the transfer point",
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "01194_norikaeru_ex3",
-      "japanese": "{乗|の}り{換|か}えなし⟦で→で：00502_de⟧⟦{行|い}ける→いける：06957_ikeru⟧。",
+      "japanese": "⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧なし⟦で→で：00502_de⟧⟦{行|い}ける→いける：06957_ikeru⟧。",
       "english": "You can go there without transferring.",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "01194_norikaeru_ex4",
-      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{乗|の}り{換|か}えて⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧て⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please transfer at the next station.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "01194_norikaeru_ex6",
-      "japanese": "⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}えた。",
+      "japanese": "⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧た。",
       "english": "I switched to a different company.",
       "notes": null,
       "has_audio": false,
@@ -179,7 +179,7 @@
     },
     {
       "id": "01194_norikaeru_ex8",
-      "japanese": "⟦{電気|でんき}→電気：09780_denki⟧⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}えた。",
+      "japanese": "⟦{電気|でんき}→電気：09780_denki⟧⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧⟦に→に：00314_ni⟧⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧た。",
       "english": "I switched to an electric car.",
       "notes": null,
       "has_audio": false,
@@ -199,7 +199,7 @@
     },
     {
       "id": "01194_norikaeru_ex10",
-      "japanese": "⟦{格安|かくやす}→格安：15125_kakuyasu⟧⟦の→の：09472_no⟧⟦プラン→プラン：00345_puran⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}えた。",
+      "japanese": "⟦{格安|かくやす}→格安：15125_kakuyasu⟧⟦の→の：09472_no⟧⟦プラン→プラン：00345_puran⟧⟦に→に：00314_ni⟧⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧た。",
       "english": "I switched to a budget plan.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: Used both ways, so the tag is 'both'. The everyday learner patterns are intransitive — X⟦で→で：00502_de⟧{乗|の}り{換|か}える (transfer at X, a place) and X⟦に→に：00314_ni⟧{乗|の}り{換|か}える (transfer to X, a new line, vehicle, or service). The transitive X⟦を→を：00422_wo⟧{乗|の}り{換|か}える (⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧{乗|の}り{換|か}える, change trains) is also correct but much less frequent; ⟦に→に：00314_ni⟧ is the safer default.\n\nASPECT: て⟦いる→いる：00495_iru⟧ describes the resulting state, not an action in progress. {乗|の}り{換|か}えて⟦いる→いる：00495_iru⟧ normally means 'has already switched (and is now on the other one)'.\n\nCOMMON PATTERNS:\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{乗|の}り{換|か}える: transfer at the next station\n- ⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}える: transfer to the Shinkansen\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧: the noun, a transfer\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧⟦{案内|あんない}→案内：01291_annai⟧: transfer guidance (station signage and apps)\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧⟦{駅|えき}→駅：02180_eki⟧: a transfer station\n\nSENSE 2 — SWITCHING PROVIDERS: The same verb covers switching phone carrier, electricity supplier, insurance plan, or car, and by extension switching allegiance or jobs. Japanese advertising uses it heavily, so a learner meets sense 2 as often as sense 1. It is neutral in tone, though used of a person changing romantic partners it is pointedly critical.\n\nCOMPOUND STRUCTURE: ⟦{乗|の}る→乗る：00511_noru⟧ (to ride) + ⟦{換|か}える→換える：13346_kaeru⟧ (to exchange) — literally 'ride and swap'.\n\nSIMILAR VERBS AND TRAVEL VOCABULARY:\n- ⟦{直通|ちょくつう}→直通：13653_chokutsuu⟧: a direct, no-transfer service — the opposite situation\n- {乗|の}り{換|か}えなし: 'no transfers', the phrase used in route search results",
+  "notes": "TRANSITIVITY: Used both ways, so the tag is 'both'. The everyday learner patterns are intransitive — X⟦で→で：00502_de⟧{乗|の}り{換|か}える (transfer at X, a place) and X⟦に→に：00314_ni⟧{乗|の}り{換|か}える (transfer to X, a new line, vehicle, or service). The transitive X⟦を→を：00422_wo⟧{乗|の}り{換|か}える (⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧{乗|の}り{換|か}える, change trains) is also correct but much less frequent; ⟦に→に：00314_ni⟧ is the safer default.\n\nASPECT: て⟦いる→いる：00495_iru⟧ describes the resulting state, not an action in progress. ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧て⟦いる→いる：00495_iru⟧ normally means 'has already switched (and is now on the other one)'.\n\nCOMMON PATTERNS:\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{乗|の}り{換|か}える: transfer at the next station\n- ⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}える: transfer to the Shinkansen\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧: the noun, a transfer\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧⟦{案内|あんない}→案内：01291_annai⟧: transfer guidance (station signage and apps)\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧⟦{駅|えき}→駅：02180_eki⟧: a transfer station\n\nSENSE 2 — SWITCHING PROVIDERS: The same verb covers switching phone carrier, electricity supplier, insurance plan, or car, and by extension switching allegiance or jobs. Japanese advertising uses it heavily, so a learner meets sense 2 as often as sense 1. It is neutral in tone, though used of a person changing romantic partners it is pointedly critical.\n\nCOMPOUND STRUCTURE: ⟦{乗|の}る→乗る：00511_noru⟧ (to ride) + ⟦{換|か}える→換える：13346_kaeru⟧ (to exchange) — literally 'ride and swap'.\n\nSIMILAR VERBS AND TRAVEL VOCABULARY:\n- ⟦{直通|ちょくつう}→直通：13653_chokutsuu⟧: a direct, no-transfer service — the opposite situation\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧なし: 'no transfers', the phrase used in route search results",
   "cross_references": [
     {
       "type": "related",
@@ -248,7 +248,7 @@
   ],
   "metadata": {
     "created": "2026-01-08T12:38:29Z",
-    "modified": "2026-09-02T04:00:59Z",
+    "modified": "2026-09-04T12:31:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

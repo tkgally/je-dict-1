@@ -134,7 +134,7 @@
     },
     {
       "id": "00680_tsuku_ex4",
-      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{着|つ}いたら⟦{電話|でんわ}して→電話する：05652_denwasuru⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{着|つ}いたら⟦{電話|でんわ}して→電話する：05652_denwasuru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please call me when you arrive at the office.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,18 @@
       "reading": "とうたつ",
       "headword": "{到達|とうたつ}",
       "label": "reaching, attaining, arrival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22176_souchakusuru",
+      "reading": "そうちゃくする",
+      "headword": "{装着|そうちゃく}する",
+      "label": "to equip"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:38:33Z",
-    "modified": "2026-09-02T04:00:58Z",
+    "modified": "2026-09-04T12:31:15Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

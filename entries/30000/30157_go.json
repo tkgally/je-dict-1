@@ -25,7 +25,7 @@
     },
     {
       "id": "30157_go_ex2",
-      "japanese": "{手術後|しゅじゅつご}⟦は→は：00079_ha⟧⟦{安静|あんせい}→安静：12267_ansei⟧にして⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "{手術後|しゅじゅつご}⟦は→は：00079_ha⟧⟦{安静|あんせい}→安静：12267_ansei⟧にして⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please rest quietly after the operation.",
       "sense_numbers": [
         1
@@ -46,6 +46,15 @@
   ],
   "notes": "The on'yomi of ⟦{後|うし}ろ→後ろ：00683_ushiro⟧・⟦{後|あと}→後：09580_ato⟧, used only as a bound suffix. It attaches directly to a Sino-Japanese noun with no particle, and the result behaves as a time noun.\n\nCOMMON EXAMPLES:\n- {卒業後|そつぎょうご}: after graduation\n- {退職後|たいしょくご}: after retirement\n- ⟦{食後|しょくご}→食後：09499_shokugo⟧: after a meal\n- ⟦{戦後|せんご}→戦後：12853_sengo⟧: postwar\n- {使用後|しようご}: after use\n\nUSAGE:\nIt cannot be attached to native Japanese nouns — say ⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧ rather than combining {後|ご} with a wago word.\n\nSIMILAR WORDS:\n- ⟦{後|あと}→後：09580_ato⟧: after — the free-standing word, used with ⟦の→の：09472_no⟧ after any noun\n- ⟦{前|ぜん}→前〜：03957_zen⟧: pre-, before — the matching suffix, as in ⟦{食前|しょくぜん}→食前：20726_shokuzen⟧ (before a meal)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03957_zen",
+      "reading": "ぜん",
+      "headword": "{前|ぜん}〜",
+      "label": "pre-, before"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-09-02T04:02:38Z"
+    "modified": "2026-09-04T12:31:15Z"
   }
 }

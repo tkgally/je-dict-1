@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22282_chikokusuru_ex1",
-      "japanese": "⟦また→また：00969_mata⟧{遅刻|ちこく}した。",
+      "japanese": "⟦また→また：00969_mata⟧⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧した。",
       "english": "I was late again.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22282_chikokusuru_ex2",
-      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦に→に：00314_ni⟧{遅刻|ちこく}しないで⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦に→に：00314_ni⟧⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧しないで⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please don't be late for class.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22282_chikokusuru_ex3",
-      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{遅|おく}れた→遅れる：00741_okureru⟧せい⟦で→で：00502_de⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{遅刻|ちこく}してしまった。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{遅|おく}れた→遅れる：00741_okureru⟧せい⟦で→で：00502_de⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧してしまった。",
       "english": "I ended up being late to the meeting because the train was delayed.",
       "sense_numbers": [
         1
@@ -70,6 +70,13 @@
       "reading": "そうたいする",
       "headword": "{早退|そうたい}する",
       "label": "to leave early (from work or school)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01142_maniau",
+      "reading": "まにあう",
+      "headword": "{間|ま}に{合|あ}う",
+      "label": "to not make it in time"
     }
   ],
   "metadata": {
@@ -88,7 +95,7 @@
       "transitivity": "intransitive"
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-09-02T04:02:07Z"
+    "modified": "2026-09-04T12:31:15Z"
   },
   "conjugation": {
     "type": "suru",
