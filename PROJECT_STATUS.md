@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-09-02
+**Last updated**: 2026-09-03
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~30,584 |
+| Total entries | ~30,604 |
 | Basic tier | 801 (closed) |
 | Core tier | ~1,982 (closed) |
-| General tier | ~27,781 (open) |
-| Candidate words | ~195 (all vetted; queue cleaned 2026-08-11) |
+| General tier | ~27,821 (open) |
+| Candidate words | ~176 (all vetted; queue cleaned 2026-08-11) |
 | Cross-references | ~19,000 |
 | Example sentences | ~119,000 |
 
@@ -49,6 +49,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-03 (Routine v3: new-entries — 20 New Entries, IDs 30794–30813)
+
+Created 20 general-tier entries under the v3 internal-closure policy. **Nine came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined, which empties that lane completely: {色物|いろもの} (two senses — colored laundry, contrasted with 30774 {白物|しろもの}, and the vaudeville-program variety act, unrelated in modern usage but sharing the same "colored thing" root), {挙式|きょしき} (the ceremony itself, distinct from the {披露宴|ひろうえん} reception that follows it), {間|ま} (the felt pause or timing in speech and performance, cross-referenced against the unrelated reading {間|あいだ}), {観覧料|かんらんりょう} and {拝観|はいかん} (both harvested from 07059's "RELATED FEE TYPES" note — the fee word Japanese picks by kind of place, and the reverent {拝|はい} that keeps {拝観|はいかん} confined to temples and shrines), バーテンダー, {竹細工|たけざいく} (the {木彫|きぼ}り-pattern craft compound), 〜{師|し} (the practitioner suffix, contrasted with 〜{士|し}'s licensing sense and 〜{家|か}/〜{者|しゃ}), and {主夫|しゅふ} (the coined gender-neutral counterpart of {主婦|しゅふ}).
+
+**The other eleven are place names** from the vetted proper-noun queue, written so the explanation carries the connotations rather than the coordinates: {隅田川|すみだがわ} (the fireworks festival and Edo-period culture), {北陸|ほくりく} and {東海|とうかい} (Japan's own regions, named for their prefectures and historic routes), and eight foreign destinations — ハワイ, ニューヨーク, ロンドン, {北京|ぺきん}, ソウル, {台湾|たいわん}, {香港|ほんこん}, and ドイツ — each carrying the association a Japanese speaker reaches for (ハワイ's honeymoon status, {台湾|たいわん}'s reputation for friendliness toward Japanese visitors, {香港|ほんこん}'s dim sum and action-cinema legacy). Two conjugation tables added (both suru: {挙式|きょしき}, {拝観|はいかん}). No new kanji.
+
+**Eleven stale inline links repaired.** Creating an entry from a "seen in entry" candidate immediately orphans the `⟦…：noentry⟧` marker in whichever entry referred to it. Nine files were pointed at the new IDs: 02186 {川|かわ} (×2, {隅田川|すみだがわ}), 02791 {経由|けいゆ} (×2, {香港|ほんこん}), 03115 {大都会|だいとかい} (ニューヨーク, ロンドン), 03225 {主婦|しゅふ} (×2, {主夫|しゅふ}), 04456 {狂言|きょうげん} (〜{師|し}), 04551 {統一|とういつ} (ドイツ), 07059 {拝観料|はいかんりょう} (×2, {拝観|はいかん}; ×1, {観覧料|かんらんりょう}), 07060 バー (バーテンダー), 07063 {木彫|きぼ}り (〜{師|し}).
+
+**§4 cross-model self-check on all 33 changed entries (20 new plus 13 neighbors touched by the stale-link and cross-reference-harvest passes): 0 flags.** Every entry came back clean. Cost $0.016.
+
+**Queue note**: the 〜{師|し} candidate did not auto-clear from `candidate_words.json` (the entry's headword carries a leading tilde marker that the sync script's exact-match check doesn't see); removed by hand. Candidate queue stands at 176.
 
 ### 2026-09-02 (Process overhaul: Routine v3, mechanical sweeps, site rebuilt — see enhancement/assessment-2026-09-02.md)
 
@@ -148,27 +160,3 @@ Created 20 general-tier entries. **Sixteen came from the "seen in entry" lane** 
 
 **Queue note**: 3 candidates captured from words these entries reference but do not define — {白物|しろもの}, {向|む}こう{気|き}, and {天下|てんか}{分|わ}け{目|め}. Thirteen further proposals were rejected by the duplicate gate as words that already have entries. The candidate queue stands at 140.
 
-
-### 2026-08-25 (Routine v2: new-entries — 20 New Entries, IDs 30734–30753)
-
-Created 20 general-tier entries. **Thirteen came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined — which empties that lane completely: {手繰|たぐ}る (two senses: hauling in a rope and tracing a memory back), {牛|ぎゅう}タン (the Sendai specialty, with the 定食 convention), {洋館|ようかん} (the prewar Western-style house, separated from the neutral {洋風|ようふう}の{家|いえ}), {祈念|きねん} (formal prayer, with the {記念|きねん} homophone trap spelled out), {永谷園|ながたにえん} (the food company, written so the explanation carries the metonymy — the name means the product), {池田菊苗|いけだきくなえ} (the chemist who named umami in 1908), {次点|じてん} (runner-up, including the election sense where the runner-up takes the seat), {装甲|そうこう} (armour on machines, contrasted with {鎧|よろい} on a body), {毛抜|けぬ}き (tweezers, split from ピンセット by purpose rather than shape), プルタブ (with the school pull-tab charity drive as context), {巻|ま}き{起|お}こす and {跳|は}ね{返|かえ}す (the transitive partners of 07005 and 07009, cross-linked in both directions), and テーブルタップ (cross-referenced to 07012 {電源|でんげん}タップ).
-
-**The other seven are everyday vocabulary** from the general queue, chosen to balance a candidate list that has become proper-noun-heavy: ノルマ (quota, with its Russian etymology and its air of imposed pressure), サプリ (with the point that pills are {飲|の}む, not {食|た}べる), and five words whose difficulty is knowing when they fit — the mimetic adverbs まざまざ, ひしひし, ずけずけ, and こぢんまり (the ぢ spelling noted as the standard one), plus {時雨|しぐれ}, the early-winter passing shower that is a haiku season word. Five conjugation tables added (3 godan, 2 suru). No new kanji.
-
-**Nine stale inline links repaired.** Creating an entry from a "seen in entry" candidate immediately strands the `⟦…：noentry⟧` marker in the entry that referred to it. A base-form-exact scan found 9 such files and pointed them at the new IDs: 04987, 05511, 06998, 07005, 07007, 07009 (two markers), 07010, 07011, 07012.
-
-**§4 cross-model self-check on all 20 new entries: 1 flag, applied, 0 sent to the curator.** Nineteen came back clean. The flag was on 30745's last example, which translated {原材料|げんざいりょう}{費|ひ}の{上昇|じょうしょう}を{跳|は}ね{返|かえ}す as "absorb the rise in raw-material costs" — but {跳|は}ね{返|かえ}す means beating a pressure back, not bearing it, so "absorb" said the opposite in business English. Changed to "withstand". Cost $0.009.
-
-**Queue note**: 4 candidates captured from words the new entries reference but do not define ({防弾|ぼうだん}, たこ{足|あし}{配線|はいせん}, {味|あじ}の{素|もと}, {時雨煮|しぐれに}); 9 further proposals were rejected by the duplicate gate as words that already have entries. Candidate queue now 142, below the 150-word mark, so a `candidates` restock run is no longer suppressed.
-
-### 2026-08-22 (Routine v2: new-entries — 20 New Entries, IDs 30714–30733)
-
-Created 20 general-tier entries. **Fifteen came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined, which empties that lane completely: {脂漏|しろう} (the dermatology term, written so it points the learner at everyday {脂|あぶら}っぽい instead), {駅伝|えきでん} (the relay road race, with たすきをつなぐ explained as the metaphor for handing on a duty), {異人館|いじんかん} (the treaty-port Western houses, distinguished from the general {洋館|ようかん}), コンソメ (noting that Japanese usage covers the stock cube, not just the soup), {真|ま}ん{前|まえ} (the intensifying {真|ま}, contrasted with plain {前|まえ} and with {正面|しょうめん}), {名医|めいい} and {不養生|ふようじょう} (a pair from the doctor entry, the latter carrying the proverb {医者|いしゃ}の{不養生|ふようじょう}), {陣地|じんち}, {捜査官|そうさかん}, and {家宅|かたく} (the investigation family, with {家宅|かたく} marked as legal register that no one uses for an ordinary house), {小数点|しょうすうてん}, {繰|く}る (a godan verb, with the point that it shares only its dictionary form with {来|く}る), スペクタクル (narrower than English "spectacle"), {雀荘|じゃんそう}, and アンティーク (separated from {骨董品|こっとうひん}, ヴィンテージ, and レトロ).
-
-**The other five are place names** from the vetted proper-noun queue, each written so the explanation carries the connotations rather than the coordinates: {福岡|ふくおか} (with the {天神|てんじん}/{博多|はかた} split and the food culture), {仙台|せんだい} ({杜|もり}の{都|みやこ}, Tanabata, and the せんだい homophone trap), {長崎|ながさき} ({出島|でじま} and the August 9th memorial), {熱海|あたみ} (the Showa company-trip archetype and its recent revival), and {伊勢|いせ} (お{伊勢|いせ}{参|まい}り and the twenty-year rebuilding of the shrine). One godan conjugation table added. Two new kanji given index IDs: 岡 and 崎.
-
-**§4 cross-model self-check on all 20 entries: 1 flag, applied, 0 sent to the curator.** The reviewer objected to the `body-part` semantic tag on {脂漏|しろう}, which names a secretion rather than an anatomical part; the tag was removed. The other 19 entries came back clean. Cost $0.009.
-
-**Curator note**: the 2026-08-20 run deliberately left {脂漏|しろう} in the queue, judging a standalone entry a poor fit for a technical dermatology term. This run wrote it anyway, on the reading that a short entry which names the register and points at the everyday alternative serves a learner who meets the word on a prescription. If that call was wrong, the entry is easy to delete.
-
-**Queue note**: the candidate 思いつき was removed as a stale duplicate — the same word as the existing entry 27771 {思|おも}い{付|つ}き, differing only in okurigana. Four new candidates were captured from words the new entries reference but do not define: {手繰|たぐ}る, {牛|ぎゅう}タン, {洋館|ようかん}, {祈念|きねん}. Candidate queue now 149, just below the 150-word mark at which a `candidates` restock run stops being suppressed.

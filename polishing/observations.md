@@ -1699,3 +1699,18 @@ homograph-list truncation.)_
   wrapper. Fixed during this run; worth a quick regex sweep (`{[^|{}]*(?!\|)` with no matching
   `|...}` before the next `\n- ` or section break) in case the same slip happened elsewhere from
   the same generation batch (entries 07090-07095, created 2026-01-18T23:14:56Z in one batch).
+- [pattern] (2026-09-03, new-entries session) First drafts of a 20-entry new-entries batch
+  hand-placed inline `⟦...⟧` links and hand-written `noentry` markers throughout — both directly
+  against `newentries.md`'s explicit rule that `auto_link.py` and `harvest_crossrefs.py` own that
+  work. Caught before the mechanical pass and fixed with a regex strip back to plain surface
+  text, then the standard pipeline re-ran cleanly. Worth flagging prominently at the top of
+  `newentries.md`'s per-entry workflow section (it's currently stated but easy to miss while
+  focused on content quality), or adding a pre-mechanical-pass grep check for `⟦` and `noentry`
+  in newly-created files that fails loudly before `normalize_notes.py` runs.
+- [pattern] (2026-09-03, new-entries session) An all-katakana headword (e.g. ニューヨーク,
+  ロンドン, ドイツ) does not exempt the entry's example sentences and notes prose from the
+  furigana requirement — those fields still contain ordinary kanji-bearing Japanese sentences.
+  Missed on 7 of 20 entries in this session's first draft (caught by `find_missing_furigana.py`
+  before validation). Worth a reminder in the proper-noun-entries section of `newentries.md`
+  since foreign place names are disproportionately katakana-headword and easy to treat as
+  "furigana-free" by association.
