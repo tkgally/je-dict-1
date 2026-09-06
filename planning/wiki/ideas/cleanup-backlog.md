@@ -2719,6 +2719,14 @@ within weeks; the check is the item that matters, and it is a two-line ratchet
 [Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md),
 [Tooling 47](tooling-backlog.md#47-cross-reference-headword-fields-are-invisible-to-every-furigana-instrument-7-confirmed-defects).
 
+**RESOLVED 2026-09-06.** A re-detect at run time found 258, not 248 (10 more created since the
+2026-08-02 measurement — the active-defect prediction held). All 258 swept: 203 all-kanji
+headwords braced mechanically as `{headword|reading}`; 55 mixed kana/kanji headwords braced
+per-entry, each new bracing validated by stripping braces and pipes back down to the original
+headword and reading before writing. Zero bare-kanji headwords remain dictionary-wide. The
+ratchet in [Tooling 56](tooling-backlog.md#56-nothing-checks-that-a-headword-carries-furigana)
+is still unshipped — nothing stops the next creation batch from reopening this item.
+
 ## Priority 38: Semantic tags disagree *within a closed lexical family* (tableware: 32 entries, 12 tag-sets)
 
 **Source**: 2026-08-02 routine polish run, which standardised the four 皿 entries to `["tool"]`
