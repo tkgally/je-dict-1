@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-08-31",
+  "updated": "2026-09-06",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -648,10 +648,11 @@
       "verify": "per-entry",
       "priority": 4,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 248,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "error",
-      "notes": "Measured 2026-08-02: 25,773 of 26,021 kanji-bearing headwords (99.05%) are braced; 248 are not. Renders the entry page <h1> without ruby. Invisible to validate.py (no headword pattern in schema), find_missing_furigana.py (examples/notes only) and the furigana screener. ACTIVE creation-time defect, not legacy: 126 created 2026-07, 13 in 2026-08, only 7 predate 2026; newest block 30298-30317. Sweeping without the tooling-backlog.md#56 ratchet refills it in weeks. Same root cause as tooling item 47 (cross-reference headword fields)."
+      "notes": "RESOLVED 2026-09-06: swept all 258 bare-kanji headwords found at run time (248 measured 2026-08-02 plus 10 more created since, confirming the active-defect growth pattern). 203 all-kanji headwords braced mechanically as {headword|reading}; 55 mixed kana/kanji headwords braced per-entry with okurigana aligned individually and verified against the reading field. Zero bare-kanji headwords remain dictionary-wide. The recurrence risk stands: without the [Tooling 56](tooling-backlog.md#56-nothing-checks-that-a-headword-carries-furigana) validator ratchet, new bare-kanji headwords will accumulate again at creation time.",
+      "resolved_date": "2026-09-06"
     },
     {
       "id": "tag-politeness-polite-on-plain-vocab",
