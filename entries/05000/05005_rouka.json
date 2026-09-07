@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{廊下|ろうか} refers to indoor hallways or corridors.\n\n⟦{廊|ろう}→廊：noentry⟧ = corridor, ⟦{下|か}→下：noentry⟧ = under (originally referring to covered walkways)\n\nUsage contexts:\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{廊下|ろうか} (school hallway)\n- ⟦{病院|びょういん}→病院：00577_byouin⟧⟦の→の：09472_no⟧{廊下|ろうか} (hospital corridor)\n- ⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{廊下|ろうか} (home hallway)\n- ⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧{廊下|ろうか} (hotel corridor)\n\nRelated terms:\n- ⟦{通路|つうろ}→通路：04062_tsuuro⟧ (passageway - more general)\n- ⟦{渡|わた}り→渡り：13621_watari⟧{廊下|ろうか} (covered walkway between buildings)\n- ⟦{縁側|えんがわ}→縁側：04495_engawa⟧ (veranda/engawa)\n\nCommon rules:\n- {廊下|ろうか}⟦を→を：00422_wo⟧⟦{走|はし}らない→走る：00519_hashiru⟧ (Don't run in the hallway) - common school rule\n- {廊下|ろうか}⟦に→に：00314_ni⟧⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{置|お}かない→置く：01092_oku⟧ (Don't leave things in the hallway)",
-  "cross_references": [],
+  "notes": "{廊下|ろうか} refers to indoor hallways or corridors. ⟦{廊|ろう}→廊：noentry⟧ means corridor and ⟦{下|か}→下：noentry⟧ means under, originally referring to covered walkways.\n\nUSAGE:\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{廊下|ろうか} (school hallway)\n- ⟦{病院|びょういん}→病院：00577_byouin⟧⟦の→の：09472_no⟧{廊下|ろうか} (hospital corridor)\n- ⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{廊下|ろうか} (home hallway)\n- ⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧{廊下|ろうか} (hotel corridor)\n- {廊下|ろうか}⟦を→を：00422_wo⟧⟦{走|はし}らない→走る：00519_hashiru⟧ (don't run in the hallway) - common school rule\n- {廊下|ろうか}⟦に→に：00314_ni⟧⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{置|お}かない→置く：01092_oku⟧ (don't leave things in the hallway)\n\nRELATED WORDS:\n- ⟦{通路|つうろ}→通路：04062_tsuuro⟧ (passageway - more general)\n- ⟦{渡|わた}り→渡り：13621_watari⟧{廊下|ろうか} (covered walkway between buildings)\n- ⟦{縁側|えんがわ}→縁側：04495_engawa⟧ (veranda/engawa)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04062_tsuuro",
+      "reading": "つうろ",
+      "headword": "{通路|つうろ}",
+      "label": "passageway"
+    },
+    {
+      "type": "related",
+      "target_id": "04495_engawa",
+      "reading": "えんがわ",
+      "headword": "{縁側|えんがわ}",
+      "label": "veranda/engawa"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T13:31:53Z",
-    "modified": "2026-06-03T19:09:00Z",
+    "modified": "2026-09-06T12:28:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +72,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "building"
       ]
     }
   },
