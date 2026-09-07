@@ -724,10 +724,10 @@
       "verify": "per-entry",
       "priority": 4,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 15,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "error",
-      "notes": "Measured 2026-08-04 by the wiki harvest from a 2026-08-03 new-entries observation on 30367 待ちきれる (待ちきれられる / 待ちきれろ). Conjugation tables are hard-coded in the entry JSON and rendered in full, so every wrong row is live: 00557 できる (BASIC tier) publishes できられる and できろ; 01165 見える publishes 見えられる; 01229 聞こえる publishes 聞こえられる. The entry-internal self-declaration test (prose says 'potential form', table still has a Potential row) returns 6 and all 6 are true positives; it under-generates (見える does not say so in prose), so a short curated list is needed. Fix = delete the Potential/Passive/Imperative rows for that set; suppression is safe by construction (an omitted row teaches nothing, a wrong row teaches ungrammatical Japanese). Generator-side guard in tooling-backlog item 70."
+      "notes": "Measured 2026-08-04 by the wiki harvest from a 2026-08-03 new-entries observation on 30367 待ちきれる (待ちきれられる / 待ちきれろ). Conjugation tables are hard-coded in the entry JSON and rendered in full, so every wrong row is live: 00557 できる (BASIC tier) publishes できられる and できろ; 01165 見える publishes 見えられる; 01229 聞こえる publishes 聞こえられる. The entry-internal self-declaration test (prose says 'potential form', table still has a Potential row) returns 6 and all 6 are true positives; it under-generates (見える does not say so in prose), so a short curated list is needed. Fix = delete the Potential/Passive/Imperative rows for that set; suppression is safe by construction (an omitted row teaches nothing, a wrong row teaches ungrammatical Japanese). Generator-side guard in tooling-backlog item 70. RESOLVED 2026-09-07: all 7 seed entries fixed (Potential/Passive/Imperative rows deleted, validated, self-checked) — routine(systemic-fix) run."
     },
     {
       "id": "tag-bodypart-non-denotational",
