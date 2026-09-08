@@ -20,6 +20,7 @@ python3 build/check_note_headers.py --gate         # CI ratchet: no new non-cano
 python3 build/check_note_headers.py --write-baseline    # Regenerate build/data/unknown_header_baseline.json
 python3 build/check_link_targets.py                # Inline links whose target entry does not exist
 python3 build/check_link_baseform.py --gate        # CI ratchet: link target is the entry for its own base form
+python3 build/check_link_homophones.py --gate      # CI gate: block-tier kana links need a keep decision; unlinked links stay gone
 python3 build/update_indexes.py                    # entries_index.json, candidate sync, word lookup
 python3 build/update_kanji_index.py                # Rebuild kanji JSON; --check-new lists kanji needing IDs
 python3 build/build_flat.py                        # Full site build into docs/ (CI does this on merge)
@@ -35,8 +36,9 @@ make metrics-page                                  # regenerate planning/wiki/to
 ## Mechanical passes (safe, deterministic; --dry-run by default)
 
 ```bash
-python3 build/auto_link.py --ids 01234,01235 --apply        # Inline links for unambiguous tokens
+python3 build/auto_link.py --ids 01234,01235 --apply        # Inline links for unambiguous tokens (honours the kana homophone list and the link ledger)
 python3 build/auto_link.py --range 20000 20499 --report     # Dry-run statistics for a block
+python3 build/review_links.py --apply-decisions --ids 01234 # Strip links the ledger says to unlink, then re-link the entry
 python3 build/harvest_crossrefs.py --ids 01234 --apply      # Cross-references from SIMILAR/RELATED bullets
 python3 build/normalize_notes.py --ids 01234 --apply        # Canonical headers, '- ' bullets
 python3 build/normalize_pos.py --range 1 30999 --apply      # Canonical part_of_speech display strings
@@ -50,6 +52,15 @@ python3 build/add_adjective_conjugations.py                  # Conjugation table
 
 ```bash
 python3 build/check_link_newcomers.py --since 2026-09-01 --json  # Links whose word gained a homograph
+python3 build/check_link_homophones.py                  # Kana-base links by tier (unique / verify / block / unscreened)
+python3 build/check_link_homophones.py --unscreened     # Kana bases the curated list does not know yet
+python3 build/check_link_homophones.py --json --tier verify --sample 60   # Occurrence queue for review_links.py
+python3 build/check_link_homophones.py --retier --write # Re-derive tiers from reviews/link_decisions.jsonl
+python3 build/check_link_homophones.py --json --kanji-base --sample 40    # Hand links きて→来る (kana surface, kanji base)
+python3 build/review_links.py --screen --budget 1.00    # Model screen of unscreened kana bases -> build/data/kana_link_homophones.json
+python3 build/review_links.py --ids 01234,01235 --skip-decided --budget 0.10   # Model check of an entry's kana links in context (self-check)
+python3 build/review_links.py --tier verify --sample 60 --budget 2.00     # Sweep: occurrences of ambiguous bases
+python3 build/review_links.py --ledger-from reviews/links/review_<stamp>.jsonl   # keep lines for model-confirmed links
 python3 build/check_stale_noentry.py --summary          # noentry markers whose word now has an entry
 python3 build/check_stale_noentry.py --class A1 A2 --json   # The mechanical classes
 python3 build/check_furigana_format.py --summary        # Malformed furigana wrappers

@@ -234,9 +234,12 @@ def _detect_verb_type(entry: dict) -> tuple:
     if reading == 'ある' and headword == 'ある':
         return 'aru', {}
 
-    # Detect suru verbs
-    if ('suru' in pos or 'verb-suru' in pos_tags or verb_class == 'suru'
-            or headword.endswith('する') or reading.endswith('する')):
+    # Detect suru verbs. An explicit verb-godan tag wins over the する ending:
+    # さする (to rub) is a godan verb, not さ + する (2026-09-08: its suru-type
+    # table generated さした, which the inline linker then read as さす).
+    godan_tagged = 'verb-godan' in pos_tags and 'verb-suru' not in pos_tags
+    if not godan_tagged and ('suru' in pos or 'verb-suru' in pos_tags or verb_class == 'suru'
+                             or headword.endswith('する') or reading.endswith('する')):
         # Extract prefix (everything before する)
         plain = strip_furigana(headword)
         if plain.endswith('する'):

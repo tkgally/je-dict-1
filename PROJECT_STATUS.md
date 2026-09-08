@@ -50,6 +50,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-08 (Interactive: wrong-lexeme kana inline links — workflow, guards, and a dictionary-wide sweep)
+
+Tom found そうして in the こそあど note of ああして (16667) linked to 02943 そうして "and then", where it is
+the て-form of そうする. The deterministic linker links a kana word to the one entry that has its
+reading, and "one entry" is a fact about the dictionary, not the language. The exposed class is
+links whose surface and base are both kana and not a function-table word: 35,235 of the 1,010,312
+links, over 1,309 kana words (kanji, katakana, and particle links are not affected).
+
+**Workflow added.** `build/check_link_homophones.py` inventories the class against a curated tier
+list (`build/data/kana_link_homophones.json`: `unique` / `verify` / `block`) and is a CI gate;
+`build/review_links.py` screens each kana word for same-kana competitors with a model, reviews
+occurrences in context, and applies adjudicated decisions from the new ledger
+`reviews/link_decisions.jsonl`. The linker never links a `block` word from kana and never re-links
+a word a decision removed from an entry; the cross-reference harvester applies the same block list.
+The Routine's self-check now runs the in-context link check on every changed entry.
+
+**Sweep.** 1,305 kana words screened ($0.09 with gemini-2.5-flash; a first attempt with
+gemini-2.5-pro lost 65 of 66 responses to its reasoning budget, $1.40 wasted), 20,366 links judged
+in context ($0.92), 1,270 flags adjudicated by hand: 647 kept (same word, often a sense the entry
+lacks), 593 unlinked, 65 retargeted; 658 links repaired in 530 entries. Tiers: 1,100 unique, 185
+verify, 24 block. The review also exposed three linker bugs (a verb stem re-read as another verb's
+imperative inside its own entry; さする carrying a suru-verb table; か+な split at sentence end),
+all fixed with tests, and four sense gaps for the curator (かかる, かける, つける, けち).
+Candidates: そうする, 窺う, particle のみ, particle なり.
+
 ### 2026-09-03 (Routine v3: new-entries — 20 New Entries, IDs 30794–30813)
 
 Created 20 general-tier entries under the v3 internal-closure policy. **Nine came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined, which empties that lane completely: {色物|いろもの} (two senses — colored laundry, contrasted with 30774 {白物|しろもの}, and the vaudeville-program variety act, unrelated in modern usage but sharing the same "colored thing" root), {挙式|きょしき} (the ceremony itself, distinct from the {披露宴|ひろうえん} reception that follows it), {間|ま} (the felt pause or timing in speech and performance, cross-referenced against the unrelated reading {間|あいだ}), {観覧料|かんらんりょう} and {拝観|はいかん} (both harvested from 07059's "RELATED FEE TYPES" note — the fee word Japanese picks by kind of place, and the reverent {拝|はい} that keeps {拝観|はいかん} confined to temples and shrines), バーテンダー, {竹細工|たけざいく} (the {木彫|きぼ}り-pattern craft compound), 〜{師|し} (the practitioner suffix, contrasted with 〜{士|し}'s licensing sense and 〜{家|か}/〜{者|しゃ}), and {主夫|しゅふ} (the coined gender-neutral counterpart of {主婦|しゅふ}).

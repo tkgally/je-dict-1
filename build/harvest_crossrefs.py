@@ -92,6 +92,11 @@ POS_CLASSES = {
 SURU_TAIL_RE = re.compile(r"(?:する|します|した|して)$")
 NA_TAIL_RE = re.compile(r"(?:な|に|だ)$")
 GRAMMATICAL_SOURCE_POS = {"particle", "conjunction", "auxiliary", "suffix"}
+# Kana-only terms whose reading names one entry in the dictionary but more than
+# one word in the language (block tier in build/data/kana_link_homophones.json:
+# そうして is the conjunction's entry, but a SIMILAR WORDS bullet may mean the
+# て-form of そうする). Loaded by main(); tests set it directly.
+BLOCKED_KANA_BASES = frozenset()
 
 HEADER_LINE_RE = re.compile(r"^\s*([A-Z]{2,}[^\n]{0,70}?)\s*:\s*$")
 HEADER_INLINE_RE = re.compile(r"^\s*([A-Z]{2,}[A-Z0-9 /().〜ているー・&'’\-]*?)\s*:\s+\S")
@@ -479,6 +484,8 @@ def resolve_term(term, source, index):
             return info, "link"
         # stale link id: fall through to text resolution
     if is_kana_only(plain):
+        if normalize_reading(plain) in BLOCKED_KANA_BASES or plain in BLOCKED_KANA_BASES:
+            return None, "homophone-block"
         cands = index.kana_matches(plain)
         how = "kana"
     else:
@@ -902,10 +909,17 @@ def main(argv=None):
     ap.add_argument("--sample", type=int, metavar="N", help="Print N random direct proposals with their bullets.")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--json", metavar="PATH", help="Dump all proposals and skip counts as JSON.")
+    ap.add_argument("--homophones", default=None,
+                    help="Curated kana-base list; block-tier bases are never harvested by kana "
+                         "(default: build/data/kana_link_homophones.json).")
     args = ap.parse_args(argv)
 
     if args.apply and args.dry_run:
         ap.error("--apply and --dry-run are mutually exclusive")
+
+    global BLOCKED_KANA_BASES
+    from auto_link import HOMOPHONES_PATH, load_blocked_bases  # sibling module, stdlib only
+    BLOCKED_KANA_BASES = load_blocked_bases(Path(args.homophones) if args.homophones else HOMOPHONES_PATH)
 
     ids = None
     if args.ids:

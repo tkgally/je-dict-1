@@ -5479,6 +5479,26 @@ none makes the false claim. 00959 was a one-off, already fixed. No item.
   half is a tooling question already covered by 111/127's shape: `validate.py` reports these as a
   *note* rather than an error, so they pass CI silently and render as dead rows.
 
+## Updates 2026-09-08 (interactive session: kana homophone links)
+
+### Kana homophone links
+
+The curator found そうして linked to 02943 (the conjunction "and then") inside the こそあど note of
+16667 ああして, where it is the て-form of そうする. The deterministic linker's rule 4 links a kana
+token to the one entry that has its reading, and "one entry" is a fact about the dictionary, not
+the language. The exposed class is links whose surface and base are both kana and not in the
+function-word table: ~35,000 links over ~1,300 kana words. Workflow (`build/check_link_homophones.py`,
+`build/review_links.py`, `build/data/kana_link_homophones.json`, `reviews/link_decisions.jsonl`):
+a model screen tiers each kana word (`unique` / `verify` / `block`), an in-context review flags
+occurrences, decisions go to the ledger, the linker skips `block` words and never re-links an
+unlinked base, and CI (`check_link_homophones.py --gate`) holds the line. See the session log
+`polishing/sessions/interactive_2026-09-08_kana-links.md` for the measured error rates.
+
+New queue item **`kana-surface-kanji-base-links`**: the neighbouring class of hand links from a
+kana surface to a kanji-headed entry (きて→来る, たち→達, しまう→仕舞う; 7,414 links, 3,596 of them
+ください→下さい). The linker never writes these, so they are all old semantic-pass links, never
+independently checked. Same review path, no tiering.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

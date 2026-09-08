@@ -32,6 +32,47 @@ against the newcomer; the new-entries post-creation sequence runs it.
 
 The headword itself is never linked in its own entry.
 
+## Kana words that name more than one word (2026-09-08)
+
+"Exactly one entry with that reading" is a fact about the dictionary, not about Japanese. The
+dictionary had one そうして (the conjunction, "and then"), so the linker put every そうして on
+it — including the て-form of そうする ("like that") in the notes of ああして and こうして.
+Kanji links cannot fail this way (furigana plus kanji identify the lexeme) and katakana links
+match the headword exactly; the exposed class is links whose surface and base are both kana and
+whose base is not in the function-word table below — about 35,000 of the one million links,
+over about 1,300 distinct kana words.
+
+`build/data/kana_link_homophones.json` records, for every such kana word, what a model screen
+and the in-context review found, as a **tier**:
+
+| Tier | Meaning | Linker | Review |
+|------|---------|--------|--------|
+| `unique` | the string means only this entry's word in practice | links freely | none |
+| `verify` | a same-kana competitor exists but the entry's word dominates | links | each new occurrence checked in context by the self-check (`review_links.py --ids`) |
+| `block` | the competitor is common enough that a context-free link is wrong too often | never links it | a hand link needs a `keep` line in the ledger |
+
+`reviews/link_decisions.jsonl` is the ledger: one line per adjudicated occurrence,
+`decision` `keep`, `unlink`, or `retarget` (with `new_base` / `new_target`; format in
+`prompts/routine2.md` §C). The linker never re-links a base that an `unlink` or `retarget` line
+removed from an entry, and CI (`check_link_homophones.py --gate`) fails when a `block` link has
+no `keep` line or an unlinked link has come back. A link to the right word whose sense the entry
+does not cover is a `keep` plus a curator note about the sense gap, never an unlink.
+
+Workflow:
+
+```bash
+python3 build/check_link_homophones.py                       # class size by tier
+python3 build/check_link_homophones.py --unscreened          # kana words the list does not know
+python3 build/review_links.py --screen --budget 0.20         # model screen -> tiers unique / verify
+python3 build/review_links.py --ids <ids> --skip-decided --budget 0.10   # occurrences in context -> reviews/link_flags.jsonl
+#   adjudicate each flag: append keep / unlink lines to reviews/link_decisions.jsonl
+python3 build/review_links.py --apply-decisions --ids <ids>  # strip unlinked links, re-link the entry
+python3 build/check_link_homophones.py --retier --write      # block tier from the measured error rate
+```
+
+A flagged kana word that turns out to be a homophone with no entry (そうする, 欠ける …) is added
+as a candidate with "seen in entry NNNNN"; the link is removed, not retargeted.
+
 ## Link Format
 
 The link format uses special Unicode delimiters:
@@ -96,25 +137,16 @@ For each word you intend to link:
 - Names unless they have entries
 - Arabic numerals (link the attached counter, not the digit)
 
-For words that should be linked but lack an entry, use `noentry` (see below) and add the word to `candidate_words.json` with a note like "seen in entry XXXXX".
-
-### Using `noentry`
-
-For words without dictionary entries:
-
-```
-⟦{矍鑠|かくしゃく}→矍鑠：noentry⟧
-```
-
-This preserves the markup for future linking but renders as plain text.
-
-**Always pair `noentry` with a candidate**: when you mark a word `noentry`, also add it to `candidate_words.json` so the new-entry workflow can pick it up:
+For words that should be linked but lack an entry, do not write a `noentry` marker (policy since
+2026-09-02; the remaining markers are legacy and are resolved by `check_stale_noentry.py`). Add
+the word to `candidate_words.json` with a note like "seen in entry XXXXX":
 
 ```bash
 python3 build/manage_candidates.py add "矍鑠" "かくしゃく" "vigorous (despite age); seen in entry XXXXX"
 ```
 
-This is what closes the dictionary in on itself: words that already appear get prioritized for entry creation.
+This is what closes the dictionary in on itself: words that already appear get prioritized for
+entry creation, and the linker links them once the entry exists.
 
 ## Examples
 
@@ -416,24 +448,12 @@ for e in data['by_reading'].get('きく', []):
    ```
 7. **Review** - Read through the linked sentence to verify
 
-## Tracking `noentry` Words
-
-When you mark a word with `noentry`, consider tracking it for potential future entry creation. In your session log, include:
-
-```markdown
-### Words marked noentry (candidates for future entries)
-- ランナー (runner)
-- セーフ (safe - sports)
-- 丁目 (district number)
-```
-
-This helps identify gaps in the dictionary that may need filling.
-
 ## Quality Checklist
 
 Before finalizing links:
 
 - [ ] Every link has been semantically verified
+- [ ] A hand link to a `block`-tier kana word has its `keep` line in `reviews/link_decisions.jsonl`
 - [ ] No self-references (headword linking to itself)
 - [ ] Punctuation is not linked
 - [ ] Conjugated forms link to dictionary forms

@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-08",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -1592,6 +1592,22 @@
       "scope_estimate": 152,
       "severity": "low",
       "notes": "52 verbs say transitive/intransitive in the string but carry no tags.transitivity."
+    },
+    {
+      "id": "kana-surface-kanji-base-links",
+      "title": "Hand-placed links from a kana surface to a kanji-headed entry (きて→来る, たち→達, しまう→仕舞う)",
+      "source": "ideas/cleanup-backlog.md#kana-homophone-links",
+      "detect": "python3 build/check_link_homophones.py --json --kanji-base --sample 40",
+      "fix_type": "semantic",
+      "verify": "per-entry",
+      "priority": 12,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 7414,
+      "severity": "warn",
+      "scope_unit": "links",
+      "scope_measured_at": "2026-09-08",
+      "notes": "Opened 2026-09-08 with the kana-homophone link workflow (build/check_link_homophones.py, build/review_links.py). The deterministic linker never writes a link from a kana surface to a kanji-headed entry, so all 7,414 of these are hand links from the old semantic passes: 3,596 are ください→下さい (harmless: the table word's older spelling); the other ~3,800 over ~400 bases (来る, 達, 所, 仕舞う, 物, 美味しい, 付く, 時, 行く, 置く …) were verified by the session that placed them but have never had an independent check. Same review path as the kana-base class: `python3 build/review_links.py --queue <json from the detector> --budget 0.30` flags occurrences whose marked word is not the entry's word; adjudicate each with a keep/unlink line in reviews/link_decisions.jsonl and apply with `review_links.py --apply-decisions`. No tiering applies (the ledger key is the kanji base). Batch by base, largest first; expect a low error rate."
     }
   ]
 }
