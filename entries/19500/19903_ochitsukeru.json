@@ -3,7 +3,7 @@
   "headword": "{落|お}ち{着|つ}ける",
   "reading": "おちつける",
   "part_of_speech": "ichidan verb, transitive",
-  "gloss": "to calm down, to settle",
+  "gloss": "to calm (someone/something) down; to settle",
   "conjugation": {
     "type": "ichidan",
     "forms": [
@@ -129,7 +129,7 @@
     },
     {
       "id": "19903_ochitsukeru_ex3",
-      "japanese": "⟦{泣|な}いている→泣く：00655_naku⟧{子|こ}ども⟦を→を：00422_wo⟧{落|お}ち{着|つ}ける⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
+      "japanese": "⟦{泣|な}いている→泣く：00655_naku⟧⟦{子|こ}→子：09851_ko⟧ども⟦を→を：00422_wo⟧{落|お}ち{着|つ}ける⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took time to calm the crying child down.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "This is the transitive form of ⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧ (to calm down, to settle). In sense 1, the subject actively calms something. In sense 2, it functions more like a potential — the place allows one to feel settled.\n\nTRANSITIVITY:\n- ⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧ (intransitive): to calm down, to settle\n- {落|お}ち{着|つ}ける (transitive): to calm something/someone down; to be able to relax\n\nCOMMON COLLOCATIONS:\n- {気持|きも}ち⟦を→を：00422_wo⟧{落|お}ち{着|つ}ける: to compose oneself\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧{落|お}ち{着|つ}ける: to calm one's mind\n- {落|お}ち{着|つ}ける⟦{場所|ばしょ}→場所：00829_basho⟧: a relaxing place\n- {落|お}ち{着|つ}ける⟦{空間|くうかん}→空間：13754_kuukan⟧: a calming space\n\nSIMILAR WORDS:\n- ⟦{鎮|しず}める→鎮める：29400_shizumeru⟧: to suppress, to quell — more forceful; used for pain, anger, or unrest\n- ⟦{和|なご}ませる→和む：18058_nagomu⟧: to soothe — gentler; implies creating a warm, friendly atmosphere\n- なだめる: to pacify, to soothe — implies calming an upset person through persuasion",
+  "notes": "This is the transitive form of ⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧ (to calm down, to settle). In sense 1, the subject actively calms something. In sense 2, it functions more like a potential — the place allows one to feel settled.\n\nTRANSITIVITY:\n- ⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧ (intransitive): to calm down, to settle\n- {落|お}ち{着|つ}ける sense 1 (transitive): to calm something/someone down\n- {落|お}ち{着|つ}ける sense 2 (potential-like, intransitive): to be able to relax, to feel settled (of a place)\n\nCOMMON COLLOCATIONS:\n- {気持|きも}ち⟦を→を：00422_wo⟧{落|お}ち{着|つ}ける: to compose oneself\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧{落|お}ち{着|つ}ける: to calm one's mind\n- {落|お}ち{着|つ}ける⟦{場所|ばしょ}→場所：00829_basho⟧: a relaxing place\n- {落|お}ち{着|つ}ける⟦{空間|くうかん}→空間：13754_kuukan⟧: a calming space\n\nSIMILAR WORDS:\n- ⟦{鎮|しず}める→鎮める：29400_shizumeru⟧: to suppress, to quell — more forceful; used for pain, anger, or unrest\n- ⟦{和|なご}ませる→和む：18058_nagomu⟧: to soothe — gentler; implies creating a warm, friendly atmosphere\n- なだめる: to pacify, to soothe — implies calming an upset person through persuasion",
   "cross_references": [
     {
       "type": "contrast",
@@ -183,18 +183,33 @@
       "reading": "なだめる",
       "headword": "{宥|なだ}める",
       "label": "to pacify, to soothe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18058_nagomu",
+      "reading": "なごむ",
+      "headword": "{和|なご}む",
+      "label": "to soothe"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "04670_ochitsuku",
+      "reading": "おちつく",
+      "headword": "{落|お}ち{着|つ}く",
+      "note": "intransitive"
     }
   ],
   "metadata": {
     "created": "2026-03-27T05:33:05Z",
-    "modified": "2026-09-02T04:01:57Z",
+    "modified": "2026-09-08T12:48:14Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
       "pos": [
         "verb-ichidan"
       ],
-      "transitivity": "intransitive",
+      "transitivity": "both",
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
