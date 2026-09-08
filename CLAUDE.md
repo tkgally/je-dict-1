@@ -90,7 +90,7 @@ python3 build/auto_link.py --ids <ids> --apply
 python3 build/harvest_crossrefs.py --ids <ids> --apply
 python3 build/validate.py --id <id>            # each changed entry
 python3 build/review_accuracy.py --ids <ids> --budget 0.40   # independent check (needs OPENROUTER_API_KEY)
-python3 build/review_links.py --ids <ids> --budget 0.10      # kana links checked in context (same key)
+python3 build/review_links.py --ids <ids> --skip-decided --budget 0.10   # kana links checked in context (same key)
 ```
 
 Adjudicate every surviving flag (apply / reject / flag to `reviews/needs_curator.txt`) and log each

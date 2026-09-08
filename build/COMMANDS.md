@@ -58,7 +58,7 @@ python3 build/check_link_homophones.py --json --tier verify --sample 60   # Occu
 python3 build/check_link_homophones.py --retier --write # Re-derive tiers from reviews/link_decisions.jsonl
 python3 build/check_link_homophones.py --json --kanji-base --sample 40    # Hand links きて→来る (kana surface, kanji base)
 python3 build/review_links.py --screen --budget 1.00    # Model screen of unscreened kana bases -> build/data/kana_link_homophones.json
-python3 build/review_links.py --ids 01234,01235 --budget 0.10   # Model check of an entry's kana links in context (self-check)
+python3 build/review_links.py --ids 01234,01235 --skip-decided --budget 0.10   # Model check of an entry's kana links in context (self-check)
 python3 build/review_links.py --tier verify --sample 60 --budget 2.00     # Sweep: occurrences of ambiguous bases
 python3 build/review_links.py --ledger-from reviews/links/review_<stamp>.jsonl   # keep lines for model-confirmed links
 python3 build/check_stale_noentry.py --summary          # noentry markers whose word now has an entry

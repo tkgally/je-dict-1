@@ -113,7 +113,7 @@ One verification pass, one fix round, then stop; never re-verify the fix round.
    links a kana word to the one entry with its reading, which is the wrong
    entry when the sentence uses a homophone the dictionary lacks):
    ```bash
-   python3 build/review_links.py --ids <id1,id2,...> --budget 0.10 --src self-check
+   python3 build/review_links.py --ids <id1,id2,...> --skip-decided --budget 0.10 --src self-check
    ```
    It appends flags (`other` / `unsure`) to `reviews/link_flags.jsonl`. Open
    each flagged sentence yourself: if the marked word is not the entry's word,

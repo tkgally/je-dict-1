@@ -64,7 +64,7 @@ Workflow:
 python3 build/check_link_homophones.py                       # class size by tier
 python3 build/check_link_homophones.py --unscreened          # kana words the list does not know
 python3 build/review_links.py --screen --budget 0.20         # model screen -> tiers unique / verify
-python3 build/review_links.py --ids <ids> --budget 0.10      # occurrences in context -> reviews/link_flags.jsonl
+python3 build/review_links.py --ids <ids> --skip-decided --budget 0.10   # occurrences in context -> reviews/link_flags.jsonl
 #   adjudicate each flag: append keep / unlink lines to reviews/link_decisions.jsonl
 python3 build/review_links.py --apply-decisions --ids <ids>  # strip unlinked links, re-link the entry
 python3 build/check_link_homophones.py --retier --write      # block tier from the measured error rate
