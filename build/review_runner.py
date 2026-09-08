@@ -579,8 +579,12 @@ Respond ONLY with the JSON array, no other text."""
     return prompt, unique_pairs
 
 
-def call_openrouter(api_key, model, prompt, timeout=60):
-    """Call the OpenRouter API and return the parsed response."""
+def call_openrouter(api_key, model, prompt, timeout=60, max_tokens=4096):
+    """Call the OpenRouter API and return the parsed response.
+
+    ``max_tokens`` caps the completion; for reasoning models the hidden
+    reasoning counts against it, so callers expecting long JSON raise it.
+    """
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
@@ -591,7 +595,7 @@ def call_openrouter(api_key, model, prompt, timeout=60):
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0,
-        "max_tokens": 4096,
+        "max_tokens": max_tokens,
     }
 
     for attempt in range(3):

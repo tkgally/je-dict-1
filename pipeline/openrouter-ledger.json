@@ -2,7 +2,7 @@
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
   "date": "2026-09-08",
   "daily_cap_usd": 5.0,
-  "spent_usd": 0.4933,
+  "spent_usd": 2.8953,
   "calls": [
     {
       "ts": "2026-09-08T00:29:24Z",
@@ -17,6 +17,34 @@
       "phase": "accuracy-review",
       "entries": 992,
       "est_usd": 0.4837
+    },
+    {
+      "ts": "2026-09-08T14:44:48Z",
+      "mode": "interactive",
+      "phase": "link-screen (gemini-2.5-pro, 65/66 responses unusable)",
+      "entries": 0,
+      "est_usd": 1.395
+    },
+    {
+      "ts": "2026-09-08T15:33:00Z",
+      "mode": "interactive",
+      "phase": "link-screen (gemini-2.5-flash, 1,305 kana words)",
+      "entries": 1305,
+      "est_usd": 0.092
+    },
+    {
+      "ts": "2026-09-08T15:33:00Z",
+      "mode": "interactive",
+      "phase": "link-review verify tier (11,146 links)",
+      "entries": 11146,
+      "est_usd": 0.515
+    },
+    {
+      "ts": "2026-09-08T15:33:00Z",
+      "mode": "interactive",
+      "phase": "link-review unique-tier sample (9,220 links)",
+      "entries": 9220,
+      "est_usd": 0.4
     }
   ]
 }

@@ -73,8 +73,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import auto_link as al  # noqa: E402
 import check_link_homophones as clh  # noqa: E402
 from review_runner import (  # noqa: E402
-    MODEL_COSTS, call_openrouter, estimate_cost, get_api_key, parse_model_response,
-    rough_token_count,
+    MODEL_COSTS, call_openrouter, estimate_cost, extract_message_text, get_api_key,
+    parse_model_response, rough_token_count, strip_code_fences,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -84,10 +84,13 @@ FLAGS_PATH = ROOT / "reviews" / "link_flags.jsonl"
 DECISIONS_PATH = clh.DECISIONS_PATH
 DATA_PATH = clh.DATA_PATH
 
-SCREEN_MODEL = "google/gemini-2.5-pro"
+# gemini-2.5-pro was tried for the screen (2026-09-08): its reasoning ate the
+# completion cap and 65 of 66 JSON arrays came back truncated or as prose.
+SCREEN_MODEL = "google/gemini-2.5-flash"
 REVIEW_MODEL = "google/gemini-2.5-flash"
-SCREEN_BATCH = 20
+SCREEN_BATCH = 10
 REVIEW_BATCH = 15
+MAX_TOKENS = 8192
 WORKERS = 4
 PROMPT_VERSION = 1
 
@@ -176,10 +179,42 @@ def ask(api_key: str, model: str, prompt: str, budget: Budget, expected_out: int
         return None, est, False
     if not budget.reserve(est):
         return None, est, True
-    response = call_openrouter(api_key, model, prompt, timeout=180)
+    response = call_openrouter(api_key, model, prompt, timeout=180, max_tokens=MAX_TOKENS)
     budget.settle(est, actual_cost(model, response))
-    parsed = parse_model_response(response) if response else None
-    return (parsed if isinstance(parsed, list) else None), est, False
+    return parse_list(response), est, False
+
+
+OBJECT_RE = re.compile(r"\{[^{}]*\}")
+
+
+def parse_list(response) -> list | None:
+    """The model's JSON array, or the complete objects of a truncated one.
+
+    A response cut off by the completion cap ends mid-object; the objects
+    before the cut are still usable (each carries its item number), so they
+    are salvaged rather than the whole batch being lost.
+    """
+    if not response:
+        return None
+    parsed = parse_model_response(response)
+    if isinstance(parsed, list):
+        return parsed
+    text = extract_message_text(response)
+    if not text:
+        return None
+    text = strip_code_fences(text)
+    start = text.find("[")
+    if start == -1:
+        return None
+    out = []
+    for m in OBJECT_RE.finditer(text[start:]):
+        try:
+            obj = json.loads(m.group(0))
+        except json.JSONDecodeError:
+            continue
+        if isinstance(obj, dict):
+            out.append(obj)
+    return out or None
 
 
 # ---------------------------------------------------------------------------
@@ -542,10 +577,19 @@ def decision_line(o: dict, decision: str, src: str, by: str, note: str = "") -> 
 
 
 def run_ledger_from(args) -> int:
-    """Write keep lines for a results file's 'entry' verdicts (model-confirmed links)."""
+    """Write keep lines for a results file's 'entry' verdicts (model-confirmed links).
+
+    Per occurrence by default (what the gate needs for block-tier bases); with
+    ``--aggregate`` one line per (base, target) carrying ``n``, which is enough
+    for ``--retier`` and keeps the ledger small for the thousands of links the
+    model confirmed on unique/verify bases.
+    """
     path = Path(args.ledger_from)
     existing = clh.decision_index(clh.load_decisions(args.decisions))
+    data = clh.load_data(args.data)
     written = 0
+    agg: Counter = Counter()
+    model_name = ""
     with args.decisions.open("a", encoding="utf-8") as out:
         for line in path.read_text(encoding="utf-8").splitlines():
             try:
@@ -554,9 +598,14 @@ def run_ledger_from(args) -> int:
                 continue
             if rec.get("verdict") != "entry":
                 continue
-            key = (clh.entry_num(rec.get("entry", "")), rec.get("base"), rec.get("target"))
-            if args.only_tier and rec.get("tier") not in args.only_tier.split(","):
+            tier = clh.tier_of(rec.get("base", ""), data)
+            if args.only_tier and tier not in args.only_tier.split(","):
                 continue
+            model_name = rec.get("model", "") or model_name
+            if args.aggregate:
+                agg[(rec.get("base"), rec.get("target"))] += 1
+                continue
+            key = (clh.entry_num(rec.get("entry", "")), rec.get("base"), rec.get("target"))
             if "keep" in existing.get(key, set()):
                 continue
             out.write(json.dumps(decision_line(rec, "keep", args.src, "model",
@@ -564,17 +613,26 @@ def run_ledger_from(args) -> int:
                                  ensure_ascii=False) + "\n")
             existing[key].add("keep")
             written += 1
+        for (base, target), n in sorted(agg.items()):
+            out.write(json.dumps({"ts": utc_now(), "base": base, "target": target, "decision": "keep",
+                                  "n": n, "src": args.src, "by": "model",
+                                  "note": f"{n} occurrence(s) judged entry by {model_name}"},
+                                 ensure_ascii=False) + "\n")
+            written += 1
     print(f"appended {written} keep line(s) to {args.decisions}")
     return 0
 
 
-def strip_link(text: str, surface: str, base: str, target: str, context: str = "") -> tuple[str, int]:
+def strip_link(text: str, surface: str, base: str, target: str, context: str = "",
+               new_base: str = "", new_target: str = "") -> tuple[str, int]:
     """Remove ⟦surface→base：target⟧ wrappers matching the decision; keep the surface text.
 
     With ``context`` (the detector's marked line, ``…【そうして】 (like that…``) only
     the link whose own marked context equals it is removed, so two occurrences
     of one word in one field can receive different decisions.  The marked
-    context ignores other links' markup, so it is stable across edits.
+    context ignores other links' markup, so it is stable across edits.  With
+    ``new_base`` and ``new_target`` the link is rewritten to them instead of
+    removed (a ``retarget`` decision).
     """
     n = 0
 
@@ -591,13 +649,22 @@ def strip_link(text: str, surface: str, base: str, target: str, context: str = "
         if context and clh.marked_context(text, m.start(), m.end()) != context:
             return m.group(0)
         n += 1
+        if new_base and new_target:
+            return f"⟦{s}→{new_base}：{new_target}⟧"
         return s
 
     return al.LINK_RE.sub(repl, text), n
 
 
 def run_apply(args) -> int:
-    decisions = [d for d in clh.load_decisions(args.decisions) if d["decision"] == "unlink"]
+    decisions = [d for d in clh.load_decisions(args.decisions) if d["decision"] in ("unlink", "retarget")]
+    known_ids = {p.stem for p in args.entries_dir.glob("*/*.json")}
+    for d in decisions:
+        if d["decision"] == "retarget" and d.get("new_target") not in known_ids:
+            print(f"warning: retarget for {d.get('entry')} names no entry {d.get('new_target')}; skipped",
+                  file=sys.stderr)
+    decisions = [d for d in decisions
+                 if d["decision"] != "retarget" or d.get("new_target") in known_ids]
     ids = clh.parse_ids(args.ids)
     if ids:
         decisions = [d for d in decisions if clh.entry_num(d.get("entry", "")) in ids]
@@ -610,7 +677,9 @@ def run_apply(args) -> int:
     tokenizer = None if args.no_relink else al.load_tokenizer()
     resolver = linker = None
     if not args.no_relink:
-        resolver = al.Resolver(al.iter_entries(args.entries_dir))
+        resolver = al.Resolver(al.iter_entries(args.entries_dir),
+                               blocked=al.load_blocked_bases(args.data),
+                               unlinked=al.load_unlink_decisions(args.decisions))
         linker = al.Linker(resolver, tokenizer)
     changed = removed = 0
     for path, entry in clh.iter_entries(args.entries_dir, set(by_entry)):
@@ -637,7 +706,9 @@ def run_apply(args) -> int:
                 if not isinstance(text, str) or not text:
                     continue
                 new, n = strip_link(text, d.get("surface") or "", d.get("base", ""), d.get("target", ""),
-                                    d.get("context") or "")
+                                    d.get("context") or "",
+                                    d.get("new_base") or "" if d["decision"] == "retarget" else "",
+                                    d.get("new_target") or "" if d["decision"] == "retarget" else "")
                 if n:
                     holder[key] = new
                     n_entry += n
@@ -654,7 +725,43 @@ def run_apply(args) -> int:
         al.write_entry(path, entry, original)
         changed += 1
         print(f"{path.stem}: removed {n_entry} link(s)")
-    print(f"{'would change' if args.dry_run else 'changed'} {changed} entry file(s), {removed} link(s) removed")
+    print(f"{'would change' if args.dry_run else 'changed'} {changed} entry file(s), "
+          f"{removed} link(s) removed or retargeted")
+    # A key (entry, base, target) with unlink decisions and no keep means the base
+    # never links in that entry (the linker excludes it); strip any occurrence that
+    # slipped in without its own decision so the gate and the linker agree.
+    idx = clh.decision_index(clh.load_decisions(args.decisions))
+    unlink_only = {k for k, v in idx.items() if "unlink" in v and "keep" not in v}
+    stray = 0
+    for path, entry in clh.iter_entries(args.entries_dir, {k[0] for k in unlink_only} if not ids else ids):
+        num = clh.entry_num(entry.get("id", path.stem))
+        original = path.read_text(encoding="utf-8")
+        n_entry = 0
+        for o in clh.kana_link_occurrences(entry):
+            if (num, o["base"], o["target"]) not in unlink_only:
+                continue
+            holders = []
+            m = re.match(r"examples\[(\d+)\]", o["field"])
+            if m:
+                holders.append(("japanese", entry["examples"][int(m.group(1))]))
+            else:
+                holders.append(("notes", entry))
+            for key, holder in holders:
+                new, n = strip_link(holder[key], o["surface"], o["base"], o["target"], o["context"])
+                if n:
+                    holder[key] = new
+                    n_entry += n
+        if not n_entry:
+            continue
+        stray += n_entry
+        if args.dry_run:
+            print(f"{path.stem}: would remove {n_entry} stray link(s) of an unlinked base")
+            continue
+        entry.setdefault("metadata", {})["modified"] = al.utc_now()
+        al.write_entry(path, entry, original)
+        print(f"{path.stem}: removed {n_entry} stray link(s) of an unlinked base")
+    if stray:
+        print(f"{'would remove' if args.dry_run else 'removed'} {stray} stray link(s) of bases unlinked by decision")
     if not args.dry_run:
         pruned = prune_flags(args.decisions, FLAGS_PATH)
         if pruned:
@@ -710,6 +817,8 @@ def main(argv=None) -> int:
     ap.add_argument("--rescreen", action="store_true", help="--screen: include bases already in the list")
     ap.add_argument("--limit", type=int, default=0, help="--screen: at most N bases")
     ap.add_argument("--only-tier", help="--ledger-from: keep lines only for these tiers")
+    ap.add_argument("--aggregate", action="store_true",
+                    help="--ledger-from: one keep line per (base, target) with a count instead of per occurrence")
     ap.add_argument("--src", default="sweep", help="ledger/flag source label (sweep, self-check, hand)")
     ap.add_argument("--model", help="OpenRouter model id")
     ap.add_argument("--budget", type=float, default=0.50, help="USD cap for this invocation")

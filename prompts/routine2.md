@@ -287,9 +287,14 @@ per occurrence (this ledger is read by the linker and by the CI gate):
 {"ts":"2026-09-08T12:00:00Z","entry":"16667","field":"notes","surface":"そうして","base":"そうして","target":"02943_soushite","decision":"unlink","src":"self-check","by":"claude","note":"te-form of そうする, not the conjunction"}
 ```
 
-- `decision`: `keep` (the link is right) | `unlink` (remove it)
-- `field`: `notes` or `examples[i]`; `surface`, `base`, `target` copied from the link
+- `decision`: `keep` (the link is right) | `unlink` (remove it) | `retarget` (point it at
+  another entry: add `new_base` and `new_target`, e.g. いけません from いける to いけない)
+- `field`: `notes` or `examples[i]`; `surface`, `base`, `target`, `context` copied from the flag
+  (the context pins one occurrence when a word appears twice in the same field)
 - `by`: `claude` for your own judgment, `model` for a model verdict accepted as-is
+- A link that is the right word but a sense the entry does not cover (橋がかかる on an entry
+  glossed only "to take time, to cost") is a `keep`; note the sense gap in
+  `reviews/needs_curator.txt` rather than unlinking.
 
 ---
 

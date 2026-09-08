@@ -27,6 +27,13 @@ carries a tier:
            ``reviews/link_decisions.jsonl`` (one line per adjudicated
            occurrence), which is what ``--gate`` checks.
 
+Ledger decisions: ``keep`` (the link is right), ``unlink`` (remove it; the
+surface text stays), ``retarget`` (point it at ``new_base`` / ``new_target``,
+e.g. いけません from いける to the entry いけない).  A line without ``entry``
+but with ``n`` is aggregated evidence (``n`` model-confirmed occurrences of a
+base, written by ``review_links.py --ledger-from --aggregate``): it counts for
+``--retier`` and never satisfies the gate for a particular link.
+
 Modes:
     python3 build/check_link_homophones.py                    # summary by tier
     python3 build/check_link_homophones.py --unscreened       # bases missing from the list
@@ -102,17 +109,28 @@ def load_decisions(path: Path = DECISIONS_PATH) -> list[dict]:
             rec = json.loads(line)
         except json.JSONDecodeError:
             continue
-        if isinstance(rec, dict) and rec.get("decision") in ("keep", "unlink"):
+        if isinstance(rec, dict) and rec.get("decision") in ("keep", "unlink", "retarget"):
             out.append(rec)
     return out
 
 
 def decision_index(decisions: list[dict]) -> dict[tuple[str, str, str], set[str]]:
-    """``(entry number, base, target) -> {decisions}`` over the whole ledger."""
+    """``(entry number, base, target) -> {decisions}`` over the whole ledger.
+
+    A ``retarget`` line counts as ``unlink`` for the old (base, target) and as
+    ``keep`` for the new one (``new_base``, ``new_target``).
+    """
     idx: dict[tuple[str, str, str], set[str]] = defaultdict(set)
     for rec in decisions:
-        key = (entry_num(rec.get("entry", "")), norm_base(rec.get("base", "")), rec.get("target", ""))
-        idx[key].add(rec["decision"])
+        if not rec.get("entry"):
+            continue                    # aggregated evidence line (base, target, n): no occurrence
+        num = entry_num(rec.get("entry", ""))
+        key = (num, norm_base(rec.get("base", "")), rec.get("target", ""))
+        if rec["decision"] == "retarget":
+            idx[key].add("unlink")
+            idx[(num, norm_base(rec.get("new_base", "")), rec.get("new_target", ""))].add("keep")
+        else:
+            idx[key].add(rec["decision"])
     return idx
 
 
@@ -286,7 +304,8 @@ def retier(occ: list[Occurrence], data: dict, decisions: list[dict]) -> list[tup
     """Tier each reviewed base implies, from the ledger: (base, old, new, reviewed, wrong)."""
     per_base: dict[str, Counter] = defaultdict(Counter)
     for rec in decisions:
-        per_base[norm_base(rec.get("base", ""))][rec["decision"]] += 1
+        n = int(rec.get("n") or 1)      # aggregated lines carry a count
+        per_base[norm_base(rec.get("base", ""))]["unlink" if rec["decision"] == "retarget" else rec["decision"]] += n
     changes = []
     for base, counts in sorted(per_base.items()):
         reviewed = counts["keep"] + counts["unlink"]

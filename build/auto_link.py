@@ -288,7 +288,7 @@ def load_unlink_decisions(path: Path = DECISIONS_PATH) -> dict[str, frozenset[st
             rec = json.loads(line)
         except json.JSONDecodeError:
             continue
-        if isinstance(rec, dict) and rec.get("decision") == "unlink" and rec.get("base"):
+        if isinstance(rec, dict) and rec.get("decision") in ("unlink", "retarget") and rec.get("base"):
             out[str(rec.get("entry", ""))[:5]].add(strip_tilde(str(rec["base"])))
     return {k: frozenset(v) for k, v in out.items()}
 
@@ -929,7 +929,12 @@ class Linker:
         """Multi-token spans: compounds/expressions yes, word + particles no."""
         functional = [t.is_particle or t.is_aux for t in span]
         if all(functional):
-            return False
+            # か + a sentence-final particle that together are a word (かな "I
+            # wonder") may merge: split, か would link as the question particle.
+            # Other clusters keep the dictionary's split convention (よ+ね, 25 vs
+            # 3 hand-linked cases), as does case particle + は/も (には).
+            return (len(span) == 2 and span[0].surface == "か"
+                    and all(t.is_particle and t.pos1 == "終助詞" for t in span))
         if span[0].is_particle and span[0].pos1 == "接続助詞" and span[0].surface in ("て", "で"):
             return False         # て belongs to the preceding verb: {食|た}べて⟦いる⟧, not ⟦ている⟧
         if span[0].is_content and all(functional[1:]):
@@ -1101,6 +1106,13 @@ class Linker:
         cands, reason = self._resolve_chain(toks, i, j, layout, ctx)
         if len(cands) == 1:
             return self._emit(layout, toks, i, j, cands[0], stats, links)
+        if reason not in ("no-entry", "reading-mismatch", "kana-base-kanji-surface"):
+            # The lemma resolved to the entry's own word, to a kanji-headed entry
+            # (kana surface), to several entries, or was guarded: never re-read the
+            # surface as another verb's exact form (かぶれ as the imperative of
+            # かぶる inside かぶれる; つぶれ as つぶる when 潰れる is kanji-headed).
+            stats.unlinked[reason or "no-entry"] += 1
+            return 1
         # 3. exact conjugation-table forms, longest first (irregular 来た etc.)
         for k in range(j, i, -1):
             if not self._span_ok(toks, i, k, layout, dictionary=False):

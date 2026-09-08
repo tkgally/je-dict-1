@@ -193,6 +193,18 @@ class TestRulesWithSudachi(unittest.TestCase):
         self.assertIn("⟦{気|き}が{置|お}けない→気が置けない：01463_kigaokenai⟧", link("{気|き}が{置|お}けない{人|ひと}"))
         self.assertIn("⟦{人|にん}→〜人：00658_nin⟧", link("3{人|にん}で"))
 
+    def test_sentence_final_particle_cluster_links_as_its_own_entry(self):
+        mini = MINI + [entry("10989_kana", "かな", "かな", "particle"), entry("09473_ka", "か", "か", "particle"),
+                       entry("09474_ne", "ね", "ね", "particle")]
+        resolver = al.Resolver(mini)
+        linker = al.Linker(resolver, _SUDACHI)
+        ctx = resolver.entry_ctx({"id": "99999_test", "headword": "テスト", "reading": "てすと"}, _SUDACHI)
+        out = linker.link_text("{本|ほん}を{読|よ}むかな。", ctx)
+        self.assertIn("⟦かな→かな：10989_kana⟧", out)
+        self.assertNotIn("⟦か→か：09473_ka⟧な", out)
+        # a question particle on its own still links to か
+        self.assertIn("⟦か→か：09473_ka⟧", linker.link_text("{本|ほん}を{読|よ}むか。", ctx))
+
     def test_content_word_plus_particle_is_not_merged(self):
         # そこで exists as a conjunction, but そこ + で must stay two links
         self.assertEqual(link("そこで"), "⟦そこ→そこ：00991_soko⟧⟦で→で：00502_de⟧")
@@ -224,6 +236,48 @@ class TestRulesWithSudachi(unittest.TestCase):
         # multi-word headword: the token sequence is locked
         out = link("{気|き}が{置|お}けない{人|ひと}", own_id="01463_kigaokenai", own_headword="{気|き}が{置|お}けない")
         self.assertEqual(out, "{気|き}が{置|お}けない⟦{人|ひと}→人：00476_hito⟧")
+
+    def test_own_verb_stem_is_not_read_as_another_verbs_imperative(self):
+        # かぶれ (stem of the entry's own かぶれる) equals the imperative of かぶる, which
+        # the conjugation-table fallback used to link; the chain resolved to the
+        # entry itself, so the token must stay bare.
+        mini = MINI + [
+            entry("00709_kaburu", "かぶる", "かぶる", "verb",
+                  forms=[("かぶる", "かぶらない"), ("かぶった", "かぶらなかった"), ("かぶれ", "かぶるな")]),
+            entry("06815_kabureru", "かぶれる", "かぶれる", "verb",
+                  forms=[("かぶれる", "かぶれない"), ("かぶれた", "かぶれなかった")]),
+        ]
+        resolver = al.Resolver(mini)
+        linker = al.Linker(resolver, _SUDACHI)
+        ctx = resolver.entry_ctx({"id": "06815_kabureru", "headword": "かぶれる", "reading": "かぶれる"}, _SUDACHI)
+        out = linker.link_text("{漆|うるし}にかぶれて{皮膚|ひふ}がかゆい。", ctx)
+        self.assertNotIn("00709_kaburu", out)
+        self.assertIn("かぶれて", out)
+        # in another entry the same stem links to かぶれる, not かぶる
+        ctx2 = resolver.entry_ctx({"id": "99999_test", "headword": "テスト", "reading": "てすと"}, _SUDACHI)
+        self.assertIn("⟦かぶれて→かぶれる：06815_kabureru⟧", linker.link_text("{漆|うるし}にかぶれて", ctx2))
+
+    def test_kana_stem_of_kanji_headed_verb_is_not_read_as_another_verbs_form(self):
+        # つぶれ (潰れる, kanji-headed) equals the imperative of つぶる; the kana surface must stay bare
+        mini = MINI + [
+            entry("29078_tsuburu", "つぶる", "つぶる", "verb",
+                  forms=[("つぶる", "つぶらない"), ("つぶった", "つぶらなかった"), ("つぶれ", "つぶるな")]),
+            entry("04249_tsubureru", "{潰|つぶ}れる", "つぶれる", "verb",
+                  forms=[("{潰|つぶ}れる", "{潰|つぶ}れない"), ("{潰|つぶ}れた", "{潰|つぶ}れなかった")]),
+        ]
+        resolver = al.Resolver(mini)
+        linker = al.Linker(resolver, _SUDACHI)
+        ctx = resolver.entry_ctx({"id": "99999_test", "headword": "テスト", "reading": "てすと"}, _SUDACHI)
+        out = linker.link_text("マメがつぶれて{血|ち}が{出|で}た。", ctx)
+        self.assertNotIn("29078_tsuburu", out)
+        self.assertNotIn("04249_tsubureru", out)      # kana surface of a kanji-headed verb: untouched
+        # the irregular-form path still works: {来|き}た resolves through the exact table form
+        mini2 = MINI + [entry("00254_kuru", "{来|く}る", "くる", "verb",
+                              forms=[("{来|く}る", "{来|こ}ない"), ("{来|き}た", "{来|こ}なかった")])]
+        resolver2 = al.Resolver(mini2)
+        linker2 = al.Linker(resolver2, _SUDACHI)
+        ctx2 = resolver2.entry_ctx({"id": "99999_test", "headword": "テスト", "reading": "てすと"}, _SUDACHI)
+        self.assertIn("⟦{来|き}た→来る：00254_kuru⟧", linker2.link_text("{友達|ともだち}が{来|き}た。", ctx2))
 
     def test_existing_links_and_wrappers_preserved_and_idempotent(self):
         text = "⟦{本|ほん}→本：00111_hon⟧を{読|よ}む。"
@@ -301,10 +355,12 @@ class TestHomophoneGuards(unittest.TestCase):
                 '{"entry":"16667","base":"そうして","target":"02943_soushite","decision":"unlink"}\n'
                 'not json\n'
                 '{"entry":"16667","base":"ように","target":"10081_youni","decision":"keep"}\n'
-                '{"entry":"00014_biyou","base":"〜ころ","target":"03091_koro","decision":"unlink"}\n',
+                '{"entry":"00014_biyou","base":"〜ころ","target":"03091_koro","decision":"unlink"}\n'
+                '{"entry":"01227","base":"いける","target":"06957_ikeru","decision":"retarget","new_base":"いけない","new_target":"02335_ikenai"}\n',
                 encoding="utf-8")
             self.assertEqual(al.load_unlink_decisions(ledger),
-                             {"16667": frozenset({"そうして"}), "00014": frozenset({"ころ"})})
+                             {"16667": frozenset({"そうして"}), "00014": frozenset({"ころ"}),
+                              "01227": frozenset({"いける"})})
             self.assertEqual(al.load_blocked_bases(Path(tmp) / "missing.json"), frozenset())
             self.assertEqual(al.load_unlink_decisions(Path(tmp) / "missing.jsonl"), {})
 

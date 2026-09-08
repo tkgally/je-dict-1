@@ -134,6 +134,17 @@ class TestLedgerLogic(unittest.TestCase):
             self.assertEqual(clh.load_data(Path(tmp) / "missing.json"), {"bases": {}})
 
 
+class TestRetarget(unittest.TestCase):
+    def test_retarget_rewrites_the_link_and_counts_as_unlink_plus_keep(self):
+        text = "⟦いけません→いける：06957_ikeru⟧。"
+        new, n = rl.strip_link(text, "いけません", "いける", "06957_ikeru", "", "いけない", "02335_ikenai")
+        self.assertEqual((new, n), ("⟦いけません→いけない：02335_ikenai⟧。", 1))
+        idx = clh.decision_index([{"entry": "01227", "base": "いける", "target": "06957_ikeru",
+                                   "decision": "retarget", "new_base": "いけない", "new_target": "02335_ikenai"}])
+        self.assertEqual(idx[("01227", "いける", "06957_ikeru")], {"unlink"})
+        self.assertEqual(idx[("01227", "いけない", "02335_ikenai")], {"keep"})
+
+
 class TestFixer(unittest.TestCase):
     def test_strip_link_removes_only_the_matching_link(self):
         text = ENTRY["notes"]
@@ -182,6 +193,26 @@ class TestFixer(unittest.TestCase):
                           "--decisions", str(ledger), "--data", str(root / "none.json")])
             self.assertEqual(rc, 0)
             self.assertEqual(json.loads(path.read_text(encoding="utf-8"))["notes"], saved["notes"])
+
+
+class TestResponseParsing(unittest.TestCase):
+    def _resp(self, content):
+        return {"choices": [{"message": {"content": content}}]}
+
+    def test_complete_array(self):
+        got = rl.parse_list(self._resp('[{"n": 1, "verdict": "entry"}, {"n": 2, "verdict": "other"}]'))
+        self.assertEqual([o["n"] for o in got], [1, 2])
+
+    def test_truncated_array_salvages_complete_objects(self):
+        text = '```json\n[{"n": 1, "verdict": "entry", "note": "ok"}, {"n": 2, "verdict": "other", "competitors": ["欠ける (chip)"], "note": "cut of'
+        got = rl.parse_list(self._resp(text))
+        self.assertEqual(len(got), 1)
+        self.assertEqual(got[0]["n"], 1)
+
+    def test_prose_only_is_none(self):
+        self.assertIsNone(rl.parse_list(self._resp("**Evaluating Word Links** I am assessing...")))
+        self.assertIsNone(rl.parse_list(None))
+        self.assertIsNone(rl.parse_list({"choices": [{"message": {"content": ""}}]}))
 
 
 class TestFlagPruning(unittest.TestCase):

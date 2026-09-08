@@ -52,9 +52,11 @@ and the in-context review found, as a **tier**:
 | `block` | the competitor is common enough that a context-free link is wrong too often | never links it | a hand link needs a `keep` line in the ledger |
 
 `reviews/link_decisions.jsonl` is the ledger: one line per adjudicated occurrence,
-`decision` `keep` or `unlink` (format in `prompts/routine2.md` §C). The linker never re-links a
-base that an `unlink` line removed from an entry, and CI (`check_link_homophones.py --gate`)
-fails when a `block` link has no `keep` line or an unlinked link has come back.
+`decision` `keep`, `unlink`, or `retarget` (with `new_base` / `new_target`; format in
+`prompts/routine2.md` §C). The linker never re-links a base that an `unlink` or `retarget` line
+removed from an entry, and CI (`check_link_homophones.py --gate`) fails when a `block` link has
+no `keep` line or an unlinked link has come back. A link to the right word whose sense the entry
+does not cover is a `keep` plus a curator note about the sense gap, never an unlink.
 
 Workflow:
 
