@@ -52,3 +52,10 @@ jobs:
         # Verified same-word spelling pairs live in
         # build/data/link_baseform_allowlist.json with a written reason.
         run: python3 build/check_link_baseform.py --gate
+
+      - name: Check kana homophone links
+        # Gate: a kana word whose reading names one entry but more than one word
+        # (block tier in build/data/kana_link_homophones.json) may be linked only
+        # with a keep decision in reviews/link_decisions.jsonl, and a link removed
+        # by an unlink decision must not come back.
+        run: python3 build/check_link_homophones.py --gate

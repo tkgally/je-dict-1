@@ -56,7 +56,12 @@ candidate_words.json  Words queued for entry creation (internal-closure queue)
 - New entries: general tier, `"schema_version": "2.0"`, duplicate-checked first.
 - Basic (801) and core (1,982) tiers are closed: do not add to them or modify their headwords.
 - **Inline links are placed by `build/auto_link.py`**, never by hand except for a kana homophone the
-  sentence makes certain. **Cross-references named in notes are harvested by
+  sentence makes certain. A kana word can name the wrong lexeme even when its reading has one
+  entry (そうして the conjunction vs. the て-form of そうする): `build/data/kana_link_homophones.json`
+  tiers every such base (`unique` / `verify` / `block`), the linker never links a `block` base,
+  and `reviews/link_decisions.jsonl` records per-occurrence `keep` / `unlink` verdicts, which the
+  linker and the CI gate (`check_link_homophones.py --gate`) honour. A hand link to a `block` base
+  needs a `keep` line. **Cross-references named in notes are harvested by
   `build/harvest_crossrefs.py`.** Never write `noentry` markers; add the missing word as a
   candidate with `manage_candidates.py add "語" "ご" "gloss; seen in entry NNNNN"`.
 - Notes ceiling: 1,200 characters single-sense, 2,000 multi-sense. Trim before adding.
@@ -85,10 +90,13 @@ python3 build/auto_link.py --ids <ids> --apply
 python3 build/harvest_crossrefs.py --ids <ids> --apply
 python3 build/validate.py --id <id>            # each changed entry
 python3 build/review_accuracy.py --ids <ids> --budget 0.40   # independent check (needs OPENROUTER_API_KEY)
+python3 build/review_links.py --ids <ids> --budget 0.10      # kana links checked in context (same key)
 ```
 
 Adjudicate every surviving flag (apply / reject / flag to `reviews/needs_curator.txt`) and log each
-decision to `reviews/decisions.jsonl`.
+decision to `reviews/decisions.jsonl`. A link flag is adjudicated with a `keep` or `unlink` line
+in `reviews/link_decisions.jsonl`; `review_links.py --apply-decisions --ids <ids>` applies the
+unlinks.
 
 **Finish**: `make index` (validation, `entries_index.json`, `build/word_id_lookup.json`, `kanji/`).
 Do not run `make build` and do not commit `docs/`: the site is built and deployed by GitHub

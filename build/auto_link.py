@@ -42,6 +42,14 @@ Resolution rules (in the order they are tried for a span of tokens)
 5. Conjugated kana form: exactly one entry's conjugation table generates the
    surface (kana version), and rule 4's kana-headword condition holds for the
    base (or the base is a table word).
+Two guards sit on rules 4 and 5, because "exactly one entry" is a fact about
+the dictionary and not about the language (そうして had one entry, the
+conjunction, so the て-form of そうする was linked to it).  A kana base whose
+tier is ``block`` in ``build/data/kana_link_homophones.json`` is never linked
+from a kana surface (``homophone-guard``); a kana base that an adjudicated
+``unlink`` line in ``reviews/link_decisions.jsonl`` removed from an entry is
+never linked again in that entry (``unlinked-by-decision``).  See
+``build/check_link_homophones.py`` for the list, the ledger and the CI gate.
 Compounds and expressions that exist as entries (``お茶``, ``日本語教師``,
 ``気が置けない``, ``なければならない``, ``について``) are linked as one unit by
 longest match; a content word followed only by particles is never merged
@@ -88,6 +96,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ENTRIES_DIR = ROOT / "entries"
+HOMOPHONES_PATH = ROOT / "build" / "data" / "kana_link_homophones.json"
+DECISIONS_PATH = ROOT / "reviews" / "link_decisions.jsonl"
 
 FURI_RE = re.compile(r"\{([^|{}]+)\|([^|{}]+)\}")
 LINK_RE = re.compile(r"⟦([^⟧]*)⟧")
@@ -250,6 +260,37 @@ def header_line(line: str) -> bool:
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def load_blocked_bases(path: Path = HOMOPHONES_PATH) -> frozenset[str]:
+    """Kana bases whose tier is ``block`` in the curated homophone list (empty if absent)."""
+    if not path.exists():
+        return frozenset()
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        print(f"warning: could not read {path}: {exc}", file=sys.stderr)
+        return frozenset()
+    return frozenset(strip_tilde(base) for base, rec in (data.get("bases") or {}).items()
+                     if isinstance(rec, dict) and rec.get("tier") == "block")
+
+
+def load_unlink_decisions(path: Path = DECISIONS_PATH) -> dict[str, frozenset[str]]:
+    """``entry number -> kana bases`` that an adjudicated decision unlinked in that entry."""
+    if not path.exists():
+        return {}
+    out: dict[str, set[str]] = defaultdict(set)
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            rec = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(rec, dict) and rec.get("decision") == "unlink" and rec.get("base"):
+            out[str(rec.get("entry", ""))[:5]].add(strip_tilde(str(rec["base"])))
+    return {k: frozenset(v) for k, v in out.items()}
 
 
 # ---------------------------------------------------------------------------
@@ -538,12 +579,16 @@ class EntryCtx:
     own_id: str
     own_seqs: list          # dictionary-form token sequences of multi-token headwords
     own_strings: tuple = () # plain headword strings (>= 2 chars) locked wherever they occur
+    excluded: frozenset = frozenset()   # kana bases unlinked in this entry by decision
 
 
 class Resolver:
     """Word -> entry resolution over the whole dictionary."""
 
-    def __init__(self, entries):
+    def __init__(self, entries, blocked: frozenset[str] = frozenset(),
+                 unlinked: dict[str, frozenset[str]] | None = None):
+        self.blocked = blocked          # block-tier kana bases (never linked from kana)
+        self.unlinked = unlinked or {}  # entry number -> bases unlinked there by decision
         self.headword_of: dict[str, str] = {}
         self.reading_of: dict[str, str] = {}
         self.pos_of: dict[str, str] = {}
@@ -657,6 +702,23 @@ class Resolver:
         base = hw if self.kana_headed[eid] else word
         return Cand(eid, base, "table")
 
+    def guard(self, cands: list[Cand], surface: str, ctx: "EntryCtx") -> tuple[list[Cand], str]:
+        """Drop kana-surface candidates the homophone list or a decision forbids.
+
+        Returns (surviving candidates, reason) where the reason names the guard
+        that emptied the list.  Kanji and katakana surfaces are never guarded:
+        their furigana or spelling identifies the lexeme.
+        """
+        if not cands or not is_pure_hiragana(surface):
+            return cands, ""
+        kept = [c for c in cands if strip_tilde(c.base) not in ctx.excluded]
+        if not kept:
+            return [], "unlinked-by-decision"
+        kept2 = [c for c in kept if strip_tilde(c.base) not in self.blocked]
+        if not kept2:
+            return [], "homophone-guard"
+        return kept2, ""
+
     def entry_ctx(self, entry: dict, tokenizer) -> EntryCtx:
         eid = entry.get("id") or ""
         seqs, strings = [], []
@@ -671,7 +733,7 @@ class Resolver:
                 toks = [t for t in tokenizer.tokenize(key) if not t.skippable]
                 if len(toks) > 1:
                     seqs.append([t.dict_form for t in toks])
-        return EntryCtx(eid, seqs, tuple(strings))
+        return EntryCtx(eid, seqs, tuple(strings), self.unlinked.get(eid[:5], frozenset()))
 
 
 # ---------------------------------------------------------------------------
@@ -701,7 +763,8 @@ class Stats:
         self.unlinked.update(other.unlinked)
 
 
-AMBIGUOUS = ("multi-candidate-kanji", "ambiguous-kana", "self-headword", "kanji-headed-single")
+AMBIGUOUS = ("multi-candidate-kanji", "ambiguous-kana", "self-headword", "kanji-headed-single",
+             "homophone-guard", "unlinked-by-decision")
 
 
 class Linker:
@@ -816,6 +879,7 @@ class Linker:
             return 0
         cands, _ = self.r.lookup_kana(combo, ignore_katakana=True)   # でも vs デモ
         cands = [c for c in cands if c.id != ctx.own_id]
+        cands, _reason = self.r.guard(cands, combo, ctx)
         if len(cands) != 1:
             return 0
         return self._emit(layout, toks, i, i + 2, cands[0], stats, links)
@@ -936,6 +1000,9 @@ class Linker:
             return [], ("self-headword" if own else reason)
         if len(cands) > 1:
             return [], ("ambiguous-kana" if is_pure_hiragana(surface) else "multi-candidate-kanji")
+        cands, guard_reason = self.r.guard(cands, surface, ctx)
+        if not cands:
+            return [], guard_reason
         return cands, ""
 
     def _plain_token(self, toks, i, layout, ctx, stats, links) -> tuple[int, str]:
@@ -1097,10 +1164,13 @@ class Linker:
             cands = [c for c in cands if c.id != ctx.own_id]
             if own and not cands:
                 return [], "self-headword"
-            if len(cands) == 1:
-                return cands, ""
             if len(cands) > 1:
                 return [], "multi-candidate-kanji"
+            cands, guard_reason = self.r.guard(cands, surface, ctx)
+            if guard_reason:
+                return [], guard_reason
+            if len(cands) == 1:
+                return cands, ""
         return [], reason
 
     @staticmethod
@@ -1327,6 +1397,12 @@ def main() -> int:
     ap.add_argument("--quiet", action="store_true", help="no per-entry lines")
     ap.add_argument("--confirm-real-entries", action="store_true",
                     help="allow --apply to write into the repository's own entries/")
+    ap.add_argument("--homophones", type=Path, default=HOMOPHONES_PATH,
+                    help="curated kana-base list (block-tier bases are never linked)")
+    ap.add_argument("--decisions", type=Path, default=DECISIONS_PATH,
+                    help="decisions ledger (unlinked bases stay unlinked per entry)")
+    ap.add_argument("--no-guards", action="store_true",
+                    help="ignore the homophone list and the decisions ledger (experiments only)")
     args = ap.parse_args()
 
     entries_dir = args.entries_dir.resolve()
@@ -1338,7 +1414,9 @@ def main() -> int:
         return 2
 
     tokenizer = load_tokenizer(args.no_tokenizer)
-    resolver = Resolver(iter_entries(index_dir))
+    blocked = frozenset() if args.no_guards else load_blocked_bases(args.homophones)
+    unlinked = {} if args.no_guards else load_unlink_decisions(args.decisions)
+    resolver = Resolver(iter_entries(index_dir), blocked=blocked, unlinked=unlinked)
     linker = Linker(resolver, tokenizer, copula=args.copula)
     ids = parse_ids(args.ids)
     id_range = tuple(args.range) if args.range else None

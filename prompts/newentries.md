@@ -133,6 +133,7 @@ grep -B1 -A3 -E '"seen in entry|used in' candidate_words.json | head -80
    python3 build/harvest_crossrefs.py --ids <ids> --apply # Cross-references named in the notes
    python3 build/check_stale_noentry.py --class A1 A2 --json   # Markers elsewhere now resolvable by the new entries
    python3 build/check_link_newcomers.py --since $(date -u +%Y-%m-%d) --json  # Links whose word just gained a homograph
+   python3 build/check_link_homophones.py --unscreened          # Kana words the homophone list does not know yet
    ```
    - The stale-`noentry` mechanical classes (A1/A2) are safe to fix in place: replace `noentry`
      with the target ID in the listed entries (the tool prints the marker and the target).
@@ -141,6 +142,9 @@ grep -B1 -A3 -E '"seen in entry|used in' candidate_words.json | head -80
      sentence clearly means the new word.
    - Never hand-place inline links or `noentry` markers in the new entries; the linker did the
      unambiguous ones, and the rest stay bare.
+   - If the unscreened list is not empty, screen those words (`python3 build/review_links.py
+     --screen --budget 0.10`) so the linker knows whether each kana word needs context; a new
+     kana-headed entry is exactly what makes a previously unlinkable reading linkable.
 
    Then run the routine2.md §4 self-check on the new IDs before `make index`.
 

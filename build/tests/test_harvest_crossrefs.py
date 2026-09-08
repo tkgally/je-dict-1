@@ -254,6 +254,19 @@ class TestHarvest(unittest.TestCase):
         self.assertIn(("20017_ame_candy", "20016_ame_rain"), self.by_pair)
         self.assertEqual(self.by_pair[("20017_ame_candy", "20016_ame_rain")].type, "homophone")
 
+    def test_block_tier_kana_term_is_not_harvested(self):
+        # けれども resolves by kana for 20020_shikashi; a block-tier base must be skipped
+        saved = hc.BLOCKED_KANA_BASES
+        try:
+            hc.BLOCKED_KANA_BASES = frozenset({"けれども"})
+            harvest = hc.run_harvest(self.index, ["20020_shikashi"], reciprocal=False)
+            pairs = {(p.source_id, p.target_id) for p in harvest.proposals}
+            self.assertNotIn(("20020_shikashi", "20006_keredomo"), pairs)
+            self.assertGreaterEqual(harvest.skipped["homophone-block"], 1)
+        finally:
+            hc.BLOCKED_KANA_BASES = saved
+        self.assertIn(("20020_shikashi", "20006_keredomo"), self.by_pair)   # unguarded: harvested
+
     def test_transitivity_pair_becomes_psa(self):
         p = self.by_pair[("20008_shimeru", "20009_shimaru")]
         self.assertEqual((p.kind, p.note), ("psa", "intransitive"))

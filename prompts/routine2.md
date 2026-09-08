@@ -79,9 +79,12 @@ python3 build/validate.py --id <id> ...                   # each changed entry
 
 Never hand-place inline links; the linker leaves ambiguous tokens alone, and a
 polish run may link those by hand only where the sentence makes the word
-certain. Never add `noentry` markers by hand; log the missing word as a
-candidate instead (`manage_candidates.py add "語" "ご" "gloss; seen in entry
-NNNNN"`).
+certain. A hand link to a kana word whose tier is `block` in
+`build/data/kana_link_homophones.json` (a reading that names one entry but
+more than one word, such as そうして) must be logged as a `keep` line in
+`reviews/link_decisions.jsonl` (format in §C), or CI rejects it. Never add
+`noentry` markers by hand; log the missing word as a candidate instead
+(`manage_candidates.py add "語" "ご" "gloss; seen in entry NNNNN"`).
 
 ## 4. Verify your own changes (every run that changed entries)
 
@@ -106,8 +109,21 @@ One verification pass, one fix round, then stop; never re-verify the fix round.
    `reviews/needs_curator.txt`. A `notes` flag with a verbatim quote deserves a
    careful look: the notes are where past factual errors slipped through.
    Update `modified` on any entry you fix. Log every decision (§C).
-5. Record spend in the ledger with the snippet in §A step 5, `phase: "self-check"`.
-6. If the model found nothing, say so in the session log.
+5. Check the kana inline links of the same entries in context (the linker
+   links a kana word to the one entry with its reading, which is the wrong
+   entry when the sentence uses a homophone the dictionary lacks):
+   ```bash
+   python3 build/review_links.py --ids <id1,id2,...> --budget 0.10 --src self-check
+   ```
+   It appends flags (`other` / `unsure`) to `reviews/link_flags.jsonl`. Open
+   each flagged sentence yourself: if the marked word is not the entry's word,
+   append an `unlink` line to `reviews/link_decisions.jsonl` (§C) and run
+   `python3 build/review_links.py --apply-decisions --ids <ids>`; if it is,
+   append a `keep` line. The linker honours the ledger, so a removed link
+   never comes back. Add a homophone that has no entry as a candidate
+   ("seen in entry NNNNN").
+6. Record spend in the ledger with the snippet in §A step 5, `phase: "self-check"`.
+7. If the model found nothing, say so in the session log.
 
 ## 5. Metrics snapshot (every run)
 
@@ -263,6 +279,17 @@ For every adjudicated flag append one line to `reviews/decisions.jsonl`
 
 Use exactly these lowercase values. For a recurring noise family you rejected
 in bulk, write ONE aggregated line with an `"n"` count and no `"entry"`.
+
+Inline-link verdicts go to `reviews/link_decisions.jsonl` instead, one line
+per occurrence (this ledger is read by the linker and by the CI gate):
+
+```json
+{"ts":"2026-09-08T12:00:00Z","entry":"16667","field":"notes","surface":"そうして","base":"そうして","target":"02943_soushite","decision":"unlink","src":"self-check","by":"claude","note":"te-form of そうする, not the conjunction"}
+```
+
+- `decision`: `keep` (the link is right) | `unlink` (remove it)
+- `field`: `notes` or `examples[i]`; `surface`, `base`, `target` copied from the link
+- `by`: `claude` for your own judgment, `model` for a model verdict accepted as-is
 
 ---
 

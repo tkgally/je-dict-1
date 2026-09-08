@@ -246,6 +246,69 @@ class TestRulesWithSudachi(unittest.TestCase):
         self.assertEqual(linker.link_text(header, ctx, skip_headers=True), header)
 
 
+@needs_sudachi
+class TestHomophoneGuards(unittest.TestCase):
+    """Rules 4/5 are guarded by the curated kana list and the decisions ledger."""
+
+    GUARDED = MINI + [
+        entry("02943_soushite", "そうして", "そうして", "conjunction"),
+        entry("00925_demo2", "ちゃんと", "ちゃんと", "adverb"),
+    ]
+
+    def _link(self, text, blocked=frozenset(), unlinked=None, own_id="16667_aashite"):
+        resolver = al.Resolver(self.GUARDED, blocked=blocked, unlinked=unlinked)
+        linker = al.Linker(resolver, _SUDACHI)
+        ctx = resolver.entry_ctx({"id": own_id, "headword": "ああして", "reading": "ああして"}, _SUDACHI)
+        return linker.link_text(text, ctx)
+
+    def test_unique_reading_links_without_guards(self):
+        # the failure the guards exist for: one entry with the reading, wrong lexeme in context
+        out = self._link("そうして{本|ほん}を{読|よ}む。")
+        self.assertIn("⟦そうして→そうして：02943_soushite⟧", out)
+
+    def test_block_tier_base_is_never_linked_from_kana(self):
+        out = self._link("そうして{本|ほん}を{読|よ}む。", blocked=frozenset({"そうして"}))
+        self.assertNotIn("02943_soushite", out)
+        self.assertTrue(out.startswith("そうして⟦{本|ほん}"))
+        # a multi-token guarded span is left whole, not split into そう + して
+        self.assertNotIn("⟦そう→", out)
+        # other kana words are unaffected
+        self.assertIn("⟦ちゃんと→ちゃんと：00925_demo2⟧", self._link("ちゃんと{読|よ}む。", blocked=frozenset({"そうして"})))
+
+    def test_unlink_decision_excludes_the_base_in_that_entry_only(self):
+        unlinked = {"16667": frozenset({"そうして"})}
+        out = self._link("そうして{本|ほん}を{読|よ}む。", unlinked=unlinked)
+        self.assertNotIn("02943_soushite", out)
+        out = self._link("そうして{本|ほん}を{読|よ}む。", unlinked=unlinked, own_id="26873_koushite")
+        self.assertIn("⟦そうして→そうして：02943_soushite⟧", out)
+
+    def test_guards_do_not_touch_kanji_or_katakana_surfaces(self):
+        out = self._link("{本|ほん}をパソコンで{読|よ}む。", blocked=frozenset({"本", "パソコン", "読む"}))
+        self.assertIn("⟦{本|ほん}→本：00111_hon⟧", out)
+        self.assertIn("⟦パソコン→パソコン：01538_pasokon⟧", out)
+        self.assertIn("⟦{読|よ}む→読む：00426_yomu⟧", out)
+
+    def test_loaders_read_the_list_and_the_ledger(self):
+        import json
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmp:
+            data = Path(tmp) / "kana.json"
+            data.write_text(json.dumps({"bases": {"そうして": {"tier": "block"}, "〜ころ": {"tier": "block"},
+                                                  "ように": {"tier": "verify"}}}), encoding="utf-8")
+            self.assertEqual(al.load_blocked_bases(data), frozenset({"そうして", "ころ"}))
+            ledger = Path(tmp) / "ledger.jsonl"
+            ledger.write_text(
+                '{"entry":"16667","base":"そうして","target":"02943_soushite","decision":"unlink"}\n'
+                'not json\n'
+                '{"entry":"16667","base":"ように","target":"10081_youni","decision":"keep"}\n'
+                '{"entry":"00014_biyou","base":"〜ころ","target":"03091_koro","decision":"unlink"}\n',
+                encoding="utf-8")
+            self.assertEqual(al.load_unlink_decisions(ledger),
+                             {"16667": frozenset({"そうして"}), "00014": frozenset({"ころ"})})
+            self.assertEqual(al.load_blocked_bases(Path(tmp) / "missing.json"), frozenset())
+            self.assertEqual(al.load_unlink_decisions(Path(tmp) / "missing.jsonl"), {})
+
+
 class TestTokenizerFreeFallback(unittest.TestCase):
     def test_fallback_links_wrapped_words_katakana_and_particles(self):
         # okurigana are attached by trying the longest surface the tables generate
