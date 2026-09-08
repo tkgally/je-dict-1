@@ -1714,3 +1714,17 @@ homograph-list truncation.)_
   before validation). Worth a reminder in the proper-noun-entries section of `newentries.md`
   since foreign place names are disproportionately katakana-headword and easy to treat as
   "furigana-free" by association.
+
+[tooling] 2026-09-08: The polish prompt's priority-lane skip rule ("skip
+  entries modified in the last 30 days") is based on filesystem mtime, which
+  is unreliable in this remote-execution environment: a fresh container
+  checkout stamps every file with the checkout time, so the mtime-based
+  check treats the whole dictionary as "just modified." Used each entry's
+  own `metadata.modified` field instead. The prompt should say to use
+  `metadata.modified`, not filesystem mtime.
+
+[pattern] 2026-09-08: A long, contiguous stretch of `polishing/priority/notes.txt`
+  (roughly lines 5034-8900, checked against entries' own `metadata.modified`)
+  has already been substantively touched by other recent runs (a 3874-line
+  scan surfaced only 16 untouched entries). The priority list may be worth
+  regenerating sooner than the normal 14-day cadence.
