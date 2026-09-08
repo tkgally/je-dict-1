@@ -3092,11 +3092,18 @@ no family enumeration. **Generalisable check**: any semantic tag naming a concre
 (`body-part`, `body-internal`, `tool`, `furniture`, `clothing`, `animal-*`, `plant-*`) on an entry
 whose `pos` is verb-only is a type error. Queue item: `tag-bodypart-non-denotational`.
 
-## Priority 41: Conjugation tables generate the potential of a verb that is already potential
+## Priority 41: Conjugation tables generate the potential of a verb that is already potential — RESOLVED 2026-09-07
 
 **Source**: 2026-08-03 routine new-entries run, which noticed `add_conjugations.py` producing
 待ちきれられる and 待ちきれろ for `30367 待ちきれる` and suggested a suppression flag.
 **Measured 2026-08-04, and the scope reaches basic-tier vocabulary.**
+
+**Resolved 2026-09-07** by a `routine(systemic-fix)` run: `Potential`/`Passive`/`Imperative` rows
+deleted from all 7 curated entries (`00557 できる`, `01165 見える`, `01229 聞こえる`, `02376 取れる`,
+`06957 いける`, `15166 眠れる`, `30367 待ちきれる`), each verified individually, validated, and
+self-checked. No further scope: the 7-entry list below was the whole shippable set. Queue item
+`conjugation-potential-of-potential` closed; the generator-side guard remains open as tooling
+item 70.
 
 Conjugation tables are hard-coded into the entry JSON and rendered as a full table on the entry
 page, so every wrong row is live on the site. Three of the dictionary's most common verbs publish
