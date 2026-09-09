@@ -26,7 +26,7 @@ kanji/              Kanji index JSON (tracked; rebuilt by update_kanji_index.py)
 entries_index.json  Master index (rebuilt by update_indexes.py)
 build/word_id_lookup.json   Word → entry ID lookup (rebuilt by update_indexes.py)
 docs/               Generated site. NOT tracked since 2026-09-02; built by .github/workflows/pages.yml
-articles/           Expository articles (JSON)
+articles/           Expository articles (JSON; ten as of 2026-09-09). See "Articles" below
 pipeline/           Routine selector (routine_next.py), config, metrics, ledgers
 prompts/            Task prompts; prompts/routine2.md is the scheduled Routine
 planning/wiki/      Knowledge base (research library + backlog); planning/maintain-knowledge-base.md
@@ -65,6 +65,28 @@ candidate_words.json  Words queued for entry creation (internal-closure queue)
   `build/harvest_crossrefs.py`.** Never write `noentry` markers; add the missing word as a
   candidate with `manage_candidates.py add "語" "ご" "gloss; seen in entry NNNNN"`.
 - Notes ceiling: 1,200 characters single-sense, 2,000 multi-sense. Trim before adding.
+
+## Articles
+
+`articles/*.json` are expository articles for learners (schema `build/article_schema.json`; ten as of
+2026-09-09, listed on the site's Articles page). The body is markdown with the same furigana and
+inline-link markup as entries, and the same rules apply: furigana on every kanji, English prose,
+Japanese only in examples. `build/article_utils.py` reads and writes the files in the repository
+layout. After writing or revising an article:
+
+```bash
+python3 build/link_articles.py --ids <id> --apply   # deterministic inline links (auto_link.py rules and guards)
+python3 build/link_articles.py --ids <id> --list    # every link in the body; KANA marks kana-surface links to review
+python3 build/link_articles.py --unlinked           # Japanese words left without a link
+python3 build/validate_articles.py                  # schema, furigana, link targets, related entries (CI gate)
+```
+
+Hand-link what the linker leaves bare when the context makes it certain (a kana homophone such as
+あげる, a verb stem the linker reads as a noun, a set phrase the tokenizer splits such as こちらこそ);
+a word that has no entry gets an entry. The linker never touches an existing link; a string it must
+never link goes in the article's optional `no_link` list. Articles link to one another with
+`[text](other-id.html)`. `related_entries` is the curated list shown at the foot of the article and
+on each listed entry's page; use the entry's own headword.
 
 ## The Routine
 

@@ -1,7 +1,11 @@
-.PHONY: test install-hooks metrics-page validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
+.PHONY: test install-hooks metrics-page validate validate-articles validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
 
 validate:
 	python3 build/validate.py
+	python3 build/validate_articles.py
+
+validate-articles:
+	python3 build/validate_articles.py
 
 validate-changed:
 	python3 build/validate.py --changed-only

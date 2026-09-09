@@ -21,6 +21,7 @@ python3 build/check_note_headers.py --write-baseline    # Regenerate build/data/
 python3 build/check_link_targets.py                # Inline links whose target entry does not exist
 python3 build/check_link_baseform.py --gate        # CI ratchet: link target is the entry for its own base form
 python3 build/check_link_homophones.py --gate      # CI gate: block-tier kana links need a keep decision; unlinked links stay gone
+python3 build/validate_articles.py                 # CI gate: articles/*.json — schema, furigana, link targets, related entries
 python3 build/update_indexes.py                    # entries_index.json, candidate sync, word lookup
 python3 build/update_kanji_index.py                # Rebuild kanji JSON; --check-new lists kanji needing IDs
 python3 build/build_flat.py                        # Full site build into docs/ (CI does this on merge)
@@ -39,6 +40,7 @@ make metrics-page                                  # regenerate planning/wiki/to
 python3 build/auto_link.py --ids 01234,01235 --apply        # Inline links for unambiguous tokens (honours the kana homophone list and the link ledger)
 python3 build/auto_link.py --range 20000 20499 --report     # Dry-run statistics for a block
 python3 build/review_links.py --apply-decisions --ids 01234 # Strip links the ledger says to unlink, then re-link the entry
+python3 build/link_articles.py --ids keigo --apply          # Inline links in article bodies (auto_link.py rules); --list reviews them, --unlinked lists bare words, --strip re-links from scratch
 python3 build/harvest_crossrefs.py --ids 01234 --apply      # Cross-references from SIMILAR/RELATED bullets
 python3 build/normalize_notes.py --ids 01234 --apply        # Canonical headers, '- ' bullets
 python3 build/normalize_pos.py --range 1 30999 --apply      # Canonical part_of_speech display strings
