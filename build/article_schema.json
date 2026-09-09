@@ -40,6 +40,11 @@
       "type": "array",
       "items": { "type": "string" }
     },
+    "no_link": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Plain-text strings (furigana stripped) that build/link_articles.py must never link in this article, e.g. a verb stem the linker would read as a homographic noun"
+    },
     "metadata": {
       "type": "object",
       "required": ["created", "modified", "author"],

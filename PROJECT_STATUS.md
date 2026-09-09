@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-09-03
+**Last updated**: 2026-09-09
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -49,6 +49,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-09 (Interactive: seven new articles, inline links in all ten articles, 39 entries for words they use)
+
+Tom asked for seven new articles for the site's Articles page, a consistency review of all ten, inline links to entries for every Japanese word the articles use, and entries for the words that had none. The seven new articles: **The Te-Form Helper Verbs** (ている, てある, ておく, てしまう, てみる, ていく, てくる — the "aspect article" the planning wiki had ranked as the top gap), **Transitive and Intransitive Verb Pairs**, **Giving and Receiving** (あげる・くれる・もらう), **Body-Part Idioms** (about seventy idioms from 頭 to 骨), **Katakana Loanwords and Wasei-eigo**, **Greetings and Set Phrases for Everyday Life**, and **Referring to People** (pronouns, name suffixes, titles, family terms). Each runs about 900–1,200 words, ends with tips, and cross-links the articles that touch the same ground.
+
+**Articles now carry inline links.** The article renderer could not render `⟦…⟧` links before, and its table parser split cells on the `|` inside furigana, so the keigo article's verb table had been rendering as fragments on the live site; both are fixed, with unit tests. A new `build/link_articles.py` runs the deterministic linker over article bodies with the same rules and homophone guards as entries, and `build/validate_articles.py` (now a CI step) checks schema, furigana, link targets, and related entries. The ten articles hold about 1,400 links, of which 211 were placed by hand where the linker is deliberately silent — あげる (four entries share the reading), set phrases the tokenizer splits (こちらこそ, はじめまして), and the bare helper forms 〜ている/〜ておく that an article about them must link.
+
+**39 new entries (30814–30852)** for words the articles use that had no entry: the helper verbs ていく, てくる, てる, とく and the term 補助動詞; fifteen idioms (頭が上がらない, 目がない, 口に合う, 歯が立たない, 首になる, 首を長くする, 肩を持つ, 肩の荷が下りる, 胸がいっぱい, 腹を立てる, 手に入れる, 手がかかる, 足を洗う, 喉から手が出る, 骨が折れる); the false friends スマート and ナイーブ and the coinages ペーパードライバー, キーホルダー, スキンシップ, マイペース; ご両親, 息子さん, 娘さん; 音便; and nine greeting formulas (おはようございます, ごちそうさまでした, ありがとうございました, おめでとうございます, お世話になりました, こちらこそ, お疲れ様でした, 明けましておめでとうございます, 良いお年を). The independent-model check of the 39 entries found one issue, and the link check two, all adjudicated; a stale link in 04467 that the new ありがとうございました entry made resolvable was retargeted.
+
+**Pilot articles revised**: the counters article's counting lists now use kanji with furigana ({一本|いっぽん}) instead of bare kana, so they link and render readings; the keigo article's "double honorific" example was replaced (お召し上がりになる is an established exception, not the error it was presented as); the onomatopoeia article's spellings were matched to the entries. A pre-existing duplicate surfaced on the way: 01993 and 02446 are both the core-tier counter 〜軒, differing only in the tilde character — flagged for Tom.
 
 ### 2026-09-08 (Interactive: wrong-lexeme kana inline links — workflow, guards, and a dictionary-wide sweep)
 
@@ -157,31 +167,4 @@ since this mode does not change entries.
 rotating to unworked slices. Common-vocabulary thematic sweeps (health, office, administrative)
 are exhausted and should be skipped unless probed first.
 
-
-### 2026-08-31 (Routine v2: new-entries — 20 New Entries, IDs 30774–30793)
-
-Created 20 general-tier entries. **Eighteen came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined — which empties that lane completely. A block of them closes out the lodging vocabulary the 07043–07050 entries lean on: {一泊二食付|いっぱくにしょくつ}き and {夕食付|ゆうしょくつ}き (the 〜{付|つ}き booking-plan suffix, read つき not ふき), {二泊|にはく} (with the {泊|はく} counter's sound changes and the nights-first {二泊三日|にはくみっか} ordering that reverses the English), {延泊|えんぱく} (extending a stay, separated from {連泊|れんぱく}, which is booked that way from the start), {喫煙室|きつえんしつ}, {結婚式場|けっこんしきじょう}, and {送迎|そうげい}バス (the free courtesy bus, distinguished from a paid {路線|ろせん}バス). The rest: {白物|しろもの} (two senses — laundry whites, and the {白物家電|しろものかでん} white goods of business reporting), {向|む}こう{気|き} (which barely occurs outside {向|む}こう{気|き}が{強|つよ}い), {天下分|てんかわ}け{目|め} (with Sekigahara as the reference point behind the modern figurative use), {耳|みみ}が{遠|とお}い (the 〜が{遠|とお}い body-part idiom), {変更|へんこう}する (contrasted with everyday {変|か}える), {早|はや}い{者勝|ものが}ち, {甘|あま}ったるい (both senses negative — you would never praise a dessert with it), {意味不明|いみふめい} (the neutral written sense split from the casual dismissive one), {清廉潔白|せいれんけっぱく} (noting it usually appears in contexts of doubt), and the two suffixes 〜{剤|ざい} and 〜{制|せい} — the latter written around the 〜{製|せい} homophone trap, where the kanji is the only clue in speech.
-
-**The other two are proper nouns** from the vetted queue: {出雲|いずも} (written around the {縁結|えんむす}び association and the {神在月|かみありづき} inversion of {神無月|かんなづき}) and {瀬戸内海|せとないかい} (the calm-water and island-art connotations rather than the geography). Three conjugation tables added (2 suru, 1 i-adjective). No new kanji.
-
-**Eight stranded inline links repaired.** Creating an entry from a "seen in entry" candidate immediately orphans the `⟦…：noentry⟧` marker in whichever entry referred to it. Six files were pointed at the new IDs: 03641, 05493, 07043, 07048 (two markers), 07049 (two markers), 07050.
-
-**§4 cross-model self-check on all 20 new entries: 3 flags, 2 applied, 1 rejected, 0 sent to the curator.** Seventeen entries came back clean. The applied flags were on {天下分|てんかわ}け{目|め}, whose top-level gloss read "decisive; make-or-break" — an adjectival phrasing for a noun headword, carried over verbatim from the candidate row — and on {延泊|えんぱく}, which was missing the `action` semantic tag the project requires on suru-verbs. The rejection objected that `abstract` is wrong for a suffix naming concrete substances (〜{剤|ざい}); that is an in-list narrowness substitution, which policy declines, and the parallel suffix entry 28347 〜{材|ざい} is tagged the same way. Cost $0.009.
-
-**Two entries failed validation on first pass** with `formality: "casual"`, which is not in the schema's enum (`formal`/`neutral`/`informal`/`vulgar`/`null`); corrected to `informal` and logged as a `[tooling]` observation, since `newentries.md` documents the POS and semantic-tag vocabularies but not this one.
-
-**Queue note**: 2 candidates captured from words the new entries reference but do not define — {色物|いろもの} and {挙式|きょしき}. Fifteen further words checked were already covered. The candidate queue stands at 134.
-
-
-### 2026-08-28 (Routine v2: new-entries — 20 New Entries, IDs 30754–30773)
-
-Created 20 general-tier entries. **Sixteen came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined, which empties that lane: {防弾|ぼうだん} (written so the learner sees it only ever heads a compound), たこ{足|あし}{配線|はいせん} (the overloaded outlet, which Japanese speakers meet as a fire-safety warning), {味|あじ}の{素|もと} (the brand, with the point that older speakers use the name for MSG generally), {時雨|しぐれ}{煮|に}, {相棒|あいぼう} (the palanquin-pole origin, and how it differs from {仲間|なかま} and {同僚|どうりょう}), {箸|はし}{立|た}て (separated from {箸|はし}{置|お}き and {箸|はし}{箱|ばこ}, which learners conflate), {甥|おい}っ{子|こ} and {姪|めい}っ{子|こ} (the affectionate 〜っ{子|こ} forms, noting Japanese has no single word for "nieces and nephews"), {好|す}く (with the warning that the plain affirmative sounds archaic and learners want {好|す}き), {負|ま}けん{気|き}, {動|どう}じる (met almost only as {動|どう}じない), {教諭|きょうゆ} and {獣医師|じゅういし} (the official job titles, each set against the word people actually say — {先生|せんせい} and {獣医|じゅうい}), {色柄物|いろがらもの} (the laundry term off detergent bottles), ラベンダー (with the Furano association), and セラミック (the engineered material, explicitly not {陶器|とうき}).
-
-**The other four are proper nouns** from the vetted queue, written so the explanation carries the connotations: {関|せき}ヶ{原|はら} (given two senses — the 1600 battle, and the everyday figurative "decisive showdown" behind {天下|てんか}{分|わ}け{目|め}の{関|せき}ヶ{原|はら}), {紫式部|むらさきしきぶ} (noting that neither half of the name is a real personal name), {松尾芭蕉|まつおばしょう}, and {日本海|にほんかい} (written around the {日本海|にほんかい}{側|がわ}/{太平洋|たいへいよう}{側|がわ} weather split rather than the geography). Two conjugation tables added (1 godan, 1 ichidan). Two new kanji given index IDs: 芭 (02799) and 蕉 (02800).
-
-**Three stale candidates removed before writing.** The suffix candidates 系, 用, and 製 already have entries written with a leading tilde (28466 〜系, 09842 〜用, 02001 〜製), which the duplicate check does not match — logged as a `[pattern]` observation.
-
-**§4 cross-model self-check on all 20 new entries: 3 flags, 1 applied as 2 edits, 1 rejected, 0 sent to the curator.** Eighteen entries came back clean. The applied flag was on {色柄物|いろがらもの}, whose gloss said "clothing" when the word covers towels and linens too in laundry instructions — broadened. The rejected flag objected to the register note in the gloss "veterinarian (formal term)"; 216 existing entries use that pattern, so it is house practice, not an error. Cost $0.009.
-
-**Queue note**: 3 candidates captured from words these entries reference but do not define — {白物|しろもの}, {向|む}こう{気|き}, and {天下|てんか}{分|わ}け{目|め}. Thirteen further proposals were rejected by the duplicate gate as words that already have entries. The candidate queue stands at 140.
 

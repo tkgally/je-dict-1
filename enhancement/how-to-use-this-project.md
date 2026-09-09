@@ -201,9 +201,9 @@ Read prompts/polish_cross_model_review.md and follow the instructions.
 
 ## Expository Articles
 
-Three pilot articles exist in `articles/`: counters, keigo, and onomatopoeia. These are built automatically by `make build` and appear at `/articles/` on the live site.
+Ten articles exist in `articles/`: counters, keigo, onomatopoeia, the te-form helper verbs, transitive and intransitive pairs, giving and receiving, body-part idioms, katakana loanwords, greetings and set phrases, and referring to people. They are built automatically by the site build and appear at `/articles/` on the live site; every Japanese word in them is an inline link to its entry.
 
-To add a new article, create a JSON file in `articles/` following the schema in `build/article_schema.json`. The build system picks it up automatically.
+To add a new article, create a JSON file in `articles/` following the schema in `build/article_schema.json`, run `python3 build/link_articles.py --ids <id> --apply` to place the inline links, hand-link what it leaves bare, create entries for words that have none, and run `python3 build/validate_articles.py`. See "Articles" in CLAUDE.md.
 
 ---
 
@@ -241,7 +241,7 @@ Run these periodically (weekly or after large batches of changes):
 | 12 | `review_runner.py`, calibration report | Run multi-model reviews (requires OpenRouter key) |
 | 13 | `task_queue.py` | Use for queue-based parallel polishing |
 | 14 | Two-pass review system, `polish_cross_model_review.md` | Run screening + deep review passes |
-| 15 | Article system, 3 pilot articles | Articles build automatically with `make build` |
+| 15 | Article system, 3 pilot articles (10 articles since 2026-09-09) | Articles build automatically with `make build` |
 | 16 | `orchestrator.py`, `monitor.py` | Automated parallel session management |
 
 ---

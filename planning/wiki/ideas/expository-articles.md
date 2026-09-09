@@ -1,6 +1,6 @@
 # Expository Articles on Japanese Vocabulary
 
-**Last updated**: 2026-04-06
+**Last updated**: 2026-09-09
 
 ## Overview
 
@@ -147,6 +147,27 @@ Note the adjacent open question this would also settle in practice: whether an a
 inline-link target. If it can, the 37 stale `noentry` markers resolve to the article; if not, they stay
 as they are and the article is discoverable only by browsing — worth deciding before writing, and
 related to the "landing pages for thematic search" question below.
+
+### Added 2026-09-09: seven more articles, and articles now carry inline links
+
+An interactive session wrote seven articles to join the three pilots, so the Articles page now
+holds ten: the te-form helper verbs (ている and its siblings — the High-priority gap filed on
+2026-07-25 above), transitive and intransitive verb pairs, giving and receiving (あげる・くれる・
+もらう), body-part idioms, katakana loanwords and wasei-eigo, greetings and set phrases, and
+referring to people (pronouns, name suffixes, family terms). Of the table above, "Counting and
+classifiers", "Keigo", "Onomatopoeia", "Body-part idioms", "Auxiliary verb origins" (as the te-form
+article) and "Loanword adaptation" are now written; "Color terms", "Kanji vs. kana conventions",
+"Time expressions", "Seasonal words" and "Business vocabulary" remain open.
+
+Two of the "Integration with entries" points are now true. Article bodies carry the same
+`⟦surface→base：id⟧` links as entries, placed by `build/link_articles.py` (the deterministic linker
+of `auto_link.py` run over the markdown, with the same homophone guards) and checked by
+`build/validate_articles.py` in CI; the ten articles hold about 1,400 links, and 39 entries were
+created for words the articles use that had none (the helper verbs ていく, てくる, てる, とく; 15
+body-part idioms; polite greeting formulas such as おはようございます; wasei-eigo such as マイペース).
+Articles also link to one another with `[text](id.html)`. Still open: an entry cannot link to an
+article (the 37 `noentry` markers on ている were overtaken by the ている entry, 30376, created
+2026-08-03), and articles are not in the search index.
 
 ## Open questions
 

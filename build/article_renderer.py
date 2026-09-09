@@ -3,9 +3,13 @@
 Article page HTML generation for je-dict-1 dictionary.
 
 Renders article JSON files into HTML pages, including:
-- Markdown-to-HTML conversion (with furigana support)
+- Markdown-to-HTML conversion (with furigana and inline word-link support)
 - Related entries sidebar
 - Article index page
+
+Article bodies use the same inline link markup as entries,
+``⟦surface→baseform：entry_id⟧`` (placed by ``build/link_articles.py``); a link
+renders as a word link when the target entry exists and as plain text otherwise.
 """
 
 import html
@@ -16,6 +20,7 @@ from pathlib import Path
 from japanese_utils import FURIGANA_PATTERN
 from html_utils import (
     process_furigana as _process_furigana_base,
+    process_word_links as _process_word_links_base,
     generate_nav_header,
     generate_furigana_script,
     generate_examples_script,
@@ -35,17 +40,78 @@ def process_furigana(text: str) -> str:
     return _process_furigana_base(text, FURIGANA_PATTERN)
 
 
-def markdown_to_html(text: str) -> str:
-    """Convert simple markdown to HTML with furigana support.
+def process_word_links(text: str, entries_dict: dict, relative_path: str = '../') -> str:
+    """Convert inline word links and furigana to HTML.
+
+    Links whose entry is missing from ``entries_dict`` render as their surface
+    form, so an article body renders correctly with or without the dictionary.
+    """
+    return _process_word_links_base(text, entries_dict or {}, relative_path, FURIGANA_PATTERN)
+
+
+def split_table_row(line: str) -> list:
+    """Split a markdown table row into stripped cells.
+
+    A ``|`` separates cells only outside furigana braces and link brackets:
+    ``{行|い}く`` and ``⟦{行|い}く→行く：00119_iku⟧`` stay whole. The empty
+    cells produced by the row's leading and trailing ``|`` are dropped.
+    """
+    cells, buf, depth, in_link = [], [], 0, False
+    for ch in line:
+        if ch == '⟦':
+            in_link = True
+        elif ch == '⟧':
+            in_link = False
+        elif ch == '{' and not in_link:
+            depth += 1
+        elif ch == '}' and not in_link and depth > 0:
+            depth -= 1
+        elif ch == '|' and depth == 0 and not in_link:
+            cells.append(''.join(buf))
+            buf = []
+            continue
+        buf.append(ch)
+    cells.append(''.join(buf))
+    cells = [c.strip() for c in cells]
+    if cells and cells[0] == '':
+        cells = cells[1:]
+    if cells and cells[-1] == '':
+        cells = cells[:-1]
+    return cells
+
+
+def _is_separator_row(cells: list) -> bool:
+    return bool(cells) and all(re.match(r'^[-:]+$', c.strip()) for c in cells)
+
+
+# [text](target) where target is a relative site path such as ``keigo.html``
+# or ``../entries/00000/00111_hon.html`` (no scheme, no host, no spaces).
+PAGE_LINK_PATTERN = re.compile(r'\[([^\[\]]+)\]\(([A-Za-z0-9_./#-]+)\)')
+
+
+def _page_link(match) -> str:
+    text, target = match.group(1), match.group(2)
+    if target.startswith('/') or '//' in target:
+        return match.group(0)
+    return f'<a href="{html.escape(target)}">{text}</a>'
+
+
+def markdown_to_html(text: str, entries_dict: dict = None, relative_path: str = '../') -> str:
+    """Convert simple markdown to HTML with furigana and word-link support.
 
     Supports:
     - ## headings (h2) and ### headings (h3)
     - **bold** text
-    - Markdown tables (| col1 | col2 |)
+    - Markdown tables (| col1 | col2 |); a ``|`` inside furigana braces or
+      link brackets does not split a cell
     - Unordered lists (- item)
     - Ordered lists (1. item)
     - Blank-line-separated paragraphs
     - {kanji|reading} furigana notation
+    - ⟦surface→baseform：entry_id⟧ inline word links, rendered as links to
+      ``{relative_path}entries/...`` when the entry is in ``entries_dict``
+    - [text](relative-url) page links to other same-site pages, e.g. another
+      article (``counters.html``)
     """
     lines = text.split('\n')
     result = []
@@ -71,12 +137,14 @@ def markdown_to_html(text: str) -> str:
             table_has_header = False
 
     def process_inline(text: str) -> str:
-        """Process inline formatting: bold and furigana."""
-        # Process furigana first (this HTML-escapes non-furigana text,
-        # so bold markers must be converted after to avoid escaping)
-        text = process_furigana(text)
+        """Process inline formatting: word links, furigana, bold, and page links."""
+        # Links and furigana first (this HTML-escapes the surrounding text,
+        # so bold and page-link markers must be converted after to avoid escaping)
+        text = process_word_links(text, entries_dict, relative_path)
         # Process bold second (** markers survive html.escape)
         text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+        # Page links [text](relative-url.html): same-site targets only
+        text = PAGE_LINK_PATTERN.sub(_page_link, text)
         return text
 
     i = 0
@@ -112,12 +180,10 @@ def markdown_to_html(text: str) -> str:
         # Table row
         if stripped.startswith('|') and stripped.endswith('|'):
             close_list()
-            cells = [c.strip() for c in stripped.strip('|').split('|')]
+            cells = split_table_row(stripped)
 
-            # Check if next line is a separator (|---|---|)
-            is_separator = all(re.match(r'^[-:]+$', c.strip()) for c in cells)
-
-            if is_separator:
+            # Check if this line is a separator (|---|---|)
+            if _is_separator_row(cells):
                 # This is a header separator — skip it
                 table_has_header = True
                 i += 1
@@ -133,8 +199,7 @@ def markdown_to_html(text: str) -> str:
                 if i + 1 < len(lines):
                     next_stripped = lines[i + 1].strip()
                     if next_stripped.startswith('|') and next_stripped.endswith('|'):
-                        next_cells = [c.strip() for c in next_stripped.strip('|').split('|')]
-                        if all(re.match(r'^[-:]+$', c.strip()) for c in next_cells):
+                        if _is_separator_row(split_table_row(next_stripped)):
                             # Next line is separator — this row is the header
                             result.append('</thead><tbody>')
                             i += 2  # skip separator
@@ -216,8 +281,8 @@ def generate_article_html(article: dict, entries_dict: dict) -> str:
         </div>
     ''')
 
-    # Article body (markdown → HTML)
-    body_html = markdown_to_html(article['body'])
+    # Article body (markdown → HTML, inline links resolved against the dictionary)
+    body_html = markdown_to_html(article['body'], entries_dict, relative_path)
     html_parts.append(f'''
         <div class="article-content">
             {body_html}

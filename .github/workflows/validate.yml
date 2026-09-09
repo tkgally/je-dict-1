@@ -29,6 +29,11 @@ jobs:
         working-directory: build
         run: python3 validate.py
 
+      - name: Validate articles
+        # Articles (articles/*.json): schema, furigana on every kanji, inline
+        # link targets and related entries exist.
+        run: python3 build/validate_articles.py
+
       - name: Ratchet checks on changed entries
         # Fails only for entries this PR touches: missing politeness/formality,
         # missing transitivity on godan/ichidan verbs, kana-only furigana braces.

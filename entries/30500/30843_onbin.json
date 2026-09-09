@@ -1,0 +1,90 @@
+{
+  "id": "30843_onbin",
+  "headword": "{音便|おんびん}",
+  "reading": "おんびん",
+  "romaji": "onbin",
+  "part_of_speech": "noun",
+  "gloss": "euphonic sound change (in conjugations and compounds)",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "euphonic change: a regular sound change made for ease of pronunciation",
+      "explanation": "The set of regular sound changes Japanese makes for ease of pronunciation, above all in the て and た forms of verbs ({書|か}きて → {書|か}いて, {読|よ}みて → {読|よ}んで, {買|か}いて → {買|か}って), in numbers with counters ({一本|いっぽん}, {三本|さんぼん}), and in compounds. Traditional grammar names four kinds: イ{音便|おんびん}, {促音便|そくおんびん} (the small っ), {撥音便|はつおんびん} (ん), and ウ{音便|おんびん} (おはよう from お{早|はや}く)."
+    }
+  ],
+  "examples": [
+    {
+      "id": "30843_onbin_ex1",
+      "japanese": "「⟦{書|か}いて→書く：00477_kaku⟧」⟦は→は：00079_ha⟧「⟦{書|か}きて→書く：00477_kaku⟧」⟦の→の：09472_no⟧{音便|おんびん}だ。",
+      "english": "書いて is the euphonic form of 書きて.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "30843_onbin_ex2",
+      "japanese": "「⟦{一本|いっぽん}→一本：08888_ippon⟧」⟦の→の：09472_no⟧⟦{読|よ}み{方|かた}→読み方：14269_yomikata⟧⟦は→は：00079_ha⟧{促音便|そくおんびん}⟦による→による：28349_niyoru⟧{音便|おんびん}⟦の→の：09472_no⟧⟦{例|れい}→例：09932_rei⟧だ。",
+      "english": "The reading いっぽん for 一本 is an example of the sound change that produces a small っ.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "30843_onbin_ex3",
+      "japanese": "{音便|おんびん}⟦の→の：09472_no⟧⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧⟦{知|し}っていれば→知る：00458_shiru⟧、⟦{動詞|どうし}→動詞：03472_doushi⟧⟦の→の：09472_no⟧て{形|けい}⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦{作|つく}れる→作る：00481_tsukuru⟧。",
+      "english": "If you know the rules of euphonic change, you can form the て-form of verbs easily.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "Composed of {音|おん} (sound) + ⟦{便|びん}→便：28160_bin⟧ (convenience): a change made for the convenience of the speaker. The term appears in grammar books and in explanations of counters and verb forms.\n\nTYPES:\n- イ{音便|おんびん}: き, ぎ → い (⟦{書|か}いて→書く：00477_kaku⟧, ⟦{泳|およ}いで→泳ぐ：00545_oyogu⟧)\n- {促音便|そくおんびん}: ち, り, ひ → っ (⟦{立|た}って→立つ：00758_tatsu⟧, ⟦{買|か}って→買う：00489_kau⟧; ⟦{一本|いっぽん}→一本：08888_ippon⟧)\n- {撥音便|はつおんびん}: み, び, ⟦に→に：00314_ni⟧ → ん (⟦{読|よ}んで→読む：00426_yomu⟧, ⟦{飛|と}んで→飛ぶ：00759_tobu⟧, ⟦{死|し}んで→死ぬ：00669_shinu⟧)\n- ウ{音便|おんびん}: く → う (お⟦{早|はや}く→早い：00514_hayai⟧ → ⟦おはよう→おはよう：05205_ohayou⟧, ありがたく → ⟦ありがとう→ありがとう：00917_arigatou⟧)\n\nRELATED WORDS:\n- ⟦{活用|かつよう}→活用：02620_katsuyou⟧: conjugation\n- ⟦{濁音|だくおん}→濁音：19295_dakuon⟧: voiced sound, the related change in {三本|さんぼん} and {三匹|さんびき}\n- ⟦{助数詞|じょすうし}→助数詞：11934_josuushi⟧: counter, where sound changes are most visible",
+  "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02620_katsuyou",
+      "reading": "かつよう",
+      "headword": "{活用|かつよう}",
+      "label": "conjugation"
+    },
+    {
+      "type": "related",
+      "target_id": "19295_dakuon",
+      "reading": "だくおん",
+      "headword": "{濁音|だくおん}",
+      "label": "voiced sound"
+    },
+    {
+      "type": "related",
+      "target_id": "11934_josuushi",
+      "reading": "じょすうし",
+      "headword": "{助数詞|じょすうし}",
+      "label": "counter"
+    }
+  ],
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
+      "domain": [
+        "academic"
+      ]
+    },
+    "created": "2026-09-09T15:49:41Z",
+    "modified": "2026-09-09T15:54:46Z"
+  }
+}
