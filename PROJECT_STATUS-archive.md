@@ -3,6 +3,45 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-09-02 (Routine v2: candidates — 55 Vetted Words Added, Queue 140 → 195)
+
+Restocked the candidate queue, which had fallen to 140 words (the selector schedules this mode
+below 150). No entries were created or changed; the candidate list is the material the
+`new-entries` mode draws on, and every word on it is meant to be ready to write up without further
+screening.
+
+**The run probed before it proposed.** Rather than writing glosses first and discovering later that
+the word already had an entry, it ran 163 words through the duplicate checker in bulk and only then
+vetted the survivors. That measured how much room is left in each source of new words at 30,584
+entries: the health-and-medical sweep returned **nothing usable** (0 of 28); four-character idioms
+returned 17%; a modern institutions/landmarks slice of proper nouns returned 12%; but **body-part
+and other idioms (47%), proverbs (48%), and a fresh slice of proper nouns covering cultural sites
+and canonical historical figures (47%)** are still productive. This revises the 2026-08-11 finding
+that proper nouns are uniformly fertile — the easy slices are worked out, and yield now depends
+entirely on which slice is probed.
+
+**55 words added** (C23288–C23342), all passing the individual reality/lemma/reading/gloss gates:
+26 idioms ({気|き}が{置|お}けない, {白羽|しらは}の{矢|や}が{立|た}つ, {拍車|はくしゃ}をかける,
+{棚|たな}に{上|あ}げる …), 10 proverbs ({覆水盆|ふくすいぼん}に{返|かえ}らず,
+{案|あん}ずるより{産|う}むが{易|やす}し, {住|す}めば{都|みやこ} …), 4 four-character idioms
+({温故知新|おんこちしん}, {千載一遇|せんざいいちぐう} …), and **15 proper nouns** (27% of the
+batch, within the 20–40% target): {厳島神社|いつくしまじんじゃ}, {天橋立|あまのはしだて},
+{松島|まつしま}, {兼六園|けんろくえん}, {銀閣寺|ぎんかくじ}, {阿蘇山|あそさん},
+{清少納言|せいしょうなごん}, {歌川広重|うたがわひろしげ}, {津田梅子|つだうめこ},
+{信州|しんしゅう}, {阪神|はんしん}, {山陰|さんいん}, {厚生労働省|こうせいろうどうしょう},
+{三越|みつこし}, セブンイレブン. Words that survived the duplicate check but were merely
+referential — an ordinary landmark with no cultural weight — were dropped under the richness gate
+rather than added.
+
+**One existing-entry problem found and logged**: a duplicate probe surfaced 19274 `板に着く`, which
+writes the theatrical idiom いたにつく with the wrong kanji (standard is {板|いた}に{付|つ}く or
+kana). Recorded as an `[entry]` observation for a polish pass over the 19000 block; not fixed here,
+since this mode does not change entries.
+
+**Lenses for next time**: idioms and proverbs still have depth; the proper-noun lens should keep
+rotating to unworked slices. Common-vocabulary thematic sweeps (health, office, administrative)
+are exhausted and should be skipped unless probed first.
+
 ### 2026-08-31 (Routine v2: new-entries — 20 New Entries, IDs 30774–30793)
 
 Created 20 general-tier entries. **Eighteen came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined — which empties that lane completely. A block of them closes out the lodging vocabulary the 07043–07050 entries lean on: {一泊二食付|いっぱくにしょくつ}き and {夕食付|ゆうしょくつ}き (the 〜{付|つ}き booking-plan suffix, read つき not ふき), {二泊|にはく} (with the {泊|はく} counter's sound changes and the nights-first {二泊三日|にはくみっか} ordering that reverses the English), {延泊|えんぱく} (extending a stay, separated from {連泊|れんぱく}, which is booked that way from the start), {喫煙室|きつえんしつ}, {結婚式場|けっこんしきじょう}, and {送迎|そうげい}バス (the free courtesy bus, distinguished from a paid {路線|ろせん}バス). The rest: {白物|しろもの} (two senses — laundry whites, and the {白物家電|しろものかでん} white goods of business reporting), {向|む}こう{気|き} (which barely occurs outside {向|む}こう{気|き}が{強|つよ}い), {天下分|てんかわ}け{目|め} (with Sekigahara as the reference point behind the modern figurative use), {耳|みみ}が{遠|とお}い (the 〜が{遠|とお}い body-part idiom), {変更|へんこう}する (contrasted with everyday {変|か}える), {早|はや}い{者勝|ものが}ち, {甘|あま}ったるい (both senses negative — you would never praise a dessert with it), {意味不明|いみふめい} (the neutral written sense split from the casual dismissive one), {清廉潔白|せいれんけっぱく} (noting it usually appears in contexts of doubt), and the two suffixes 〜{剤|ざい} and 〜{制|せい} — the latter written around the 〜{製|せい} homophone trap, where the kanji is the only clue in speech.
