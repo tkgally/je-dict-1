@@ -1728,3 +1728,30 @@ homograph-list truncation.)_
   has already been substantively touched by other recent runs (a 3874-line
   scan surfaced only 16 untouched entries). The priority list may be worth
   regenerating sooner than the normal 14-day cadence.
+
+[pattern] 2026-09-11: Confirms the 2026-09-08 observation above and extends
+  it. Scanning `polishing/priority/notes.txt` from the cursor at line 8907
+  forward, only 13 of the first 4,000 lines (0.3%) had a `metadata.modified`
+  older than 30 days; the rest were bumped by the 2026-09-02 mass mechanical
+  pass and are being skipped by the priority lane's "modified in the last 30
+  days" rule even though most received no judgment-level review, only a
+  mechanical normalize. The file is 9 days old as of this run (under the
+  14-day regeneration threshold), so it was not regenerated this run per the
+  routine's literal instructions, but the priority lane is close to
+  unusable until either (a) it is regenerated once the mass-touch date is
+  more than 30 days in the past, or (b) the skip rule is changed to compare
+  against the entry's last *judgment* edit rather than any `modified` bump.
+  Cursor advanced to line 12906 after collecting 13 usable entries this run.
+
+[tooling] 2026-09-11: Two noun+verb-suru entries reviewed this run
+  (07155_uchiawase, 07167_ketsui) were missing the `transitivity` tag
+  despite CLAUDE.md requiring it on every verb; a third (05323_renshuu,
+  spot-checked for comparison) is missing it too, and 00710_kaigi shows the
+  convention this dictionary uses for self-referential noun+する light
+  verbs (「Xをする」where X is the entry's own headword): tag
+  `intransitive`, reserving `transitive` for entries where the を-marked
+  object is external to the headword (e.g. 07156_chouri, 07167_ketsui).
+  This looks like a widespread gap across noun+verb-suru entries created
+  before transitivity tagging was enforced; worth a `check_missing_transitivity`
+  detector as a systemic-fix backlog item, applying the self-referential-object
+  rule above.
