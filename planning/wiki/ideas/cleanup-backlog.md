@@ -4199,7 +4199,17 @@ new-entries/polish runs. Two become new priorities, both because this harvest me
 dictionary-wide instead of filing the local sighting; one long-running hypothesis is refuted by
 its own measurement; and the rest go to the tooling backlog and entry follow-ups.
 
-### Priority 55: Inline links that resolve to a homophone of the intended word — 23 instances
+### Priority 55: Inline links that resolve to a homophone of the intended word — RESOLVED (2026-09-11)
+
+A 2026-09-11 systemic-fix run worked all 23 confirmed occurrences across the 22 source entries
+listed below: 12 repointed to the entry the base form actually names (深く→深い, 感→〜感, 系→〜系,
+純→純〜), 5 consolidated from a link split across two or three markers (お好み焼き, 吸い物,
+終身雇用, 腑に落ちない) into one link on the compound's own entry, and 6 unlinked because no entry
+exists for the base form (用地, 専任, 五時, 詩的, 詩集, 詐称, 天賦, 進水, 書架, 科す — each queued
+as a candidate) or because the base was a bare kanji-component gloss rather than a word (温 in
+温帯's etymology note). `check_link_baseform.py --no-allowlist` now returns 0 DISAGREE cases
+outside the allowlist. Decisions logged in `reviews/decisions.jsonl`; see also the self-check's
+two unrelated adjudications on 00181 and 02496 logged the same run.
 
 A 2026-08-13 new-entries run found 04231 振り返る linking the base form 顧みる at
 `13656_kaerimiru`, which is 省みる — a different verb with the same reading. It asked for a

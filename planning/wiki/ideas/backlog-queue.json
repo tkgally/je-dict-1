@@ -1138,11 +1138,12 @@
       "verify": "per-entry",
       "priority": 4,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 23,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "instances",
       "severity": "error",
-      "notes": "Measured 2026-08-13 over 273,656 links. The naive comparison reports 1,491 rows; four normalisation filters remove 97% of them, so any implementation must ship all four. Confirmed cases: 終身->09947 就寝, 用地->04088 幼稚, 詩集->05411 刺繍, 詩的->05630 指摘, 詐称->18658 査証, 天賦->07376 添付, 進水->09238 心酔, 専任->11607 仙人, 書架->11740 初夏, 五時->16131 誤字, 深く->14884 不覚, 科す->00537 貸す, plus single-kanji cases (感->缶, 温->恩, 系->計, 純->順, 吸->酢, 腑->負, 焼->〜屋). Source entries: 00181 00230 00365 00445 00451 00504 02139 02494 02496 02628 02772 03445 03460 04472 04475 04479 04484 04489 04840 04875 04955 05984. Tail of the class the 2026-07-31 systemic-fix batch repaired 87 of. Invisible to validate.py (the ID resolves) and to the semantic self-check (which does not read links). A separate ~13-instance residue is orthographic variants in the base slot (陽射し/日差し, 鍼/針, 龍/竜) -- cosmetic, leave it. A further 48-instance residue where the base form has its own entry with a different reading (頃 at 〜ころ, 本/下 at 元) is homograph spelling, not a broken link -- filter it out."
+      "notes": "Measured 2026-08-13 over 273,656 links. The naive comparison reports 1,491 rows; four normalisation filters remove 97% of them, so any implementation must ship all four. Confirmed cases: 終身->09947 就寝, 用地->04088 幼稚, 詩集->05411 刺繍, 詩的->05630 指摘, 詐称->18658 査証, 天賦->07376 添付, 進水->09238 心酔, 専任->11607 仙人, 書架->11740 初夏, 五時->16131 誤字, 深く->14884 不覚, 科す->00537 貸す, plus single-kanji cases (感->缶, 温->恩, 系->計, 純->順, 吸->酢, 腑->負, 焼->〜屋). Source entries: 00181 00230 00365 00445 00451 00504 02139 02494 02496 02628 02772 03445 03460 04472 04475 04479 04484 04489 04840 04875 04955 05984. Tail of the class the 2026-07-31 systemic-fix batch repaired 87 of. Invisible to validate.py (the ID resolves) and to the semantic self-check (which does not read links). A separate ~13-instance residue is orthographic variants in the base slot (陽射し/日差し, 鍼/針, 龍/竜) -- cosmetic, leave it. A further 48-instance residue where the base form has its own entry with a different reading (頃 at 〜ころ, 本/下 at 元) is homograph spelling, not a broken link -- filter it out.",
+      "resolved_note": "2026-09-11 systemic-fix: fixed all 23 confirmed occurrences across the 22 source entries (12 repointed to the correct entry, 5 consolidated from split multi-part links into one link on a compound that already has its own entry, 6 unlinked with the missing word queued as a candidate — see reviews/decisions.jsonl and candidate_words.json). check_link_baseform.py --no-allowlist confirms 0 remaining DISAGREE cases outside the allowlist."
     },
     {
       "id": "crossref-idiom-bodypart",
