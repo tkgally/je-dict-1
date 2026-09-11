@@ -1763,3 +1763,25 @@ homograph-list truncation.)_
   21046_utagainai's definitions[0].explanation — furigana needs
   {kanji|reading}); 22988_shinraisuru's part_of_speech string says
   "noun, suru verb, transitive" but metadata.tags.transitivity is null.
+
+[pattern] 2026-09-11 (polish, comprehensive): the twelve Japanese zodiac
+  characters (子丑寅卯辰巳午未申酉戌亥, one read alone as え.g. 亥=い) have no
+  entries at all — confirmed via `build/word_id_lookup.json` — even though
+  each is a real, moderately common word (birth-year zodiac talk, New Year's
+  greetings/decorations, 干支). 04349_inoshishi's notes name 亥 (now logged
+  as candidate C23414) as the boar's zodiac sign; the other eleven are
+  likely absent too but weren't individually confirmed. Worth a small
+  `new-entries` batch or a dedicated candidates sweep for the full set
+  rather than picking them up one at a time as they're incidentally named.
+
+[entry] 2026-09-11 (polish, comprehensive): while adding candidates named in
+  04325_kani's and 04349_inoshishi's notes, `check_stale_noentry.py` also
+  turned up two genuinely stale hand-placed `noentry` markers fixed this
+  run: 00065_genni's example 4 linked という as noentry though it has had an
+  entry (09577_toiu) for a while, and 04349_inoshishi's "common expressions"
+  bullet split 猪突猛進 into {猪|いのしし}+突猛進(noentry) as if 猪 kept its
+  kun-reading in the yojijukugo — the whole compound is the on-reading word
+  ちょとつもうしん (28872_chototsumoushin), so the split furigana was simply
+  wrong, not just an unlinked word. Both entries in this range were touched
+  by the mass 2026-09-02 sweep on unrelated fields, so this kind of
+  pre-existing note error can still hide behind a recent `modified` stamp.
