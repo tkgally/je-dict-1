@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-09-08",
+ "updated": "2026-09-11",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -3757,6 +3757,18 @@
     "reviewed": 30,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "おめでとうございます": {
+   "target": "30847_omedetougozaimasu",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "This is a fixed expression with no common homophones or alternative interpretations.",
+    "model": "google/gemini-2.5-flash",
+    "date": "2026-09-11"
    }
   },
   "おめめ": {

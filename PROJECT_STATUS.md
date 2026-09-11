@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-09-09
+**Last updated**: 2026-09-11
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -49,6 +49,43 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-11 (Routine v3: new-entries — 20 New Entries, IDs 30853–30872)
+
+Created 20 general-tier entries, all from the "seen in entry" internal-closure lane, which emptied
+it to 41 remaining candidates. A roofing cluster harvested from 03902 {瓦|かわら}: {鬼瓦|おにがわら},
+{平瓦|ひらがわら}, {丸瓦|まるがわら}, and the verb pair {葺|ふ}く/{葺|ふ}き{替|か}える (two
+conjugation tables added). A shark trio from 04316 {鮫|さめ}: ホホジロザメ, ジンベエザメ,
+シュモクザメ. Two crocodilian loanwords contrasted against 04308 {鰐|わに}: クロコダイル,
+アリゲーター. Everyday items: テント{泊|はく}, {補聴器|ほちょうき}, {蝙蝠傘|こうもりがさ},
+{羽織袴|はおりはかま}, {吸盤|きゅうばん}, アイビー, モバイル, デフォルト. Two idioms:
+{前途洋洋|ぜんとようよう} and {不動心|ふどうしん}.
+
+**One candidate dropped as a spelling-variant duplicate.** {蔓|つる} (vine, tendril) turned out to
+be the same word as the existing kana-headed entry 27394 つる, whose own explanation already notes
+"sometimes written {蔓|つる} in kanji" — removed from the queue rather than written up, per the
+duplicate-variant policy.
+
+**18 stale `noentry` markers resolved** across 11 entries once the new words existed to fill them:
+03859 テント (テント{泊|はく}), 03902 {瓦|かわら} (all five roofing words), 04308 {鰐|わに}
+(both loanwords), 04323 {蛸|たこ} and 04968 {蔦|つた} (both {吸盤|きゅうばん}), 04354 {蝙蝠|こうもり}
+({蝙蝠傘|こうもりがさ}), 04872 ブラウザ and 04874 アプリケーション and 05627 {端末|たんまつ}
+(all モバイル), 05034 {聴力|ちょうりょく} ({補聴器|ほちょうき}), 05712 {羽織|はおり}
+({羽織袴|はおりはかま}). Cross-reference harvest also added reciprocal links into 02264 {屋根|やね},
+04316 {鮫|さめ}, 15380 {和傘|わがさ}, 17612 {日帰|ひがえ}り, 21200 {平常心|へいじょうしん}, and
+03781 {冷静|れいせい}.
+
+**§4 cross-model self-check on all 37 changed entries (20 new plus 17 neighbors touched by the
+noentry and cross-reference passes): 0 flags on the new entries.** Two flags landed on pre-existing
+neighbor entries and were both rejected as reviewer noise: 04316 {鮫|さめ}'s note already correctly
+caveats that sword-wrap {鮫|さめ}{皮|がわ} is usually ray skin, not shark skin, so the "factual
+inaccuracy" the model saw was already handled; 04968 {蔦|つた}'s generic top-level gloss "ivy" is
+deliberate (the notes and RELATED WORDS already specify Boston ivy and distinguish it from the new
+アイビー entry). In-context kana-link check: 0 flags. Cost $0.019 total. One unscreened kana word
+found along the way, おめでとうございます, screened as `unique` (no cost).
+
+**Queue**: 20 candidates auto-cleared on `update_indexes.py`; one removed by hand as a duplicate.
+Candidate queue stands at 196, with 21 internal-closure candidates left for the next new-entries run.
 
 ### 2026-09-09 (Interactive: seven new articles, inline links in all ten articles, 39 entries for words they use)
 
@@ -127,44 +164,5 @@ unlinked. **Note for the curator:** Settings → Pages → Source must be "GitHu
 workflow tries to switch it automatically).
 
 **Curator items** (`reviews/needs_curator.txt`): five duplicate entry pairs in the closed tiers.
-
-### 2026-09-02 (Routine v2: candidates — 55 Vetted Words Added, Queue 140 → 195)
-
-Restocked the candidate queue, which had fallen to 140 words (the selector schedules this mode
-below 150). No entries were created or changed; the candidate list is the material the
-`new-entries` mode draws on, and every word on it is meant to be ready to write up without further
-screening.
-
-**The run probed before it proposed.** Rather than writing glosses first and discovering later that
-the word already had an entry, it ran 163 words through the duplicate checker in bulk and only then
-vetted the survivors. That measured how much room is left in each source of new words at 30,584
-entries: the health-and-medical sweep returned **nothing usable** (0 of 28); four-character idioms
-returned 17%; a modern institutions/landmarks slice of proper nouns returned 12%; but **body-part
-and other idioms (47%), proverbs (48%), and a fresh slice of proper nouns covering cultural sites
-and canonical historical figures (47%)** are still productive. This revises the 2026-08-11 finding
-that proper nouns are uniformly fertile — the easy slices are worked out, and yield now depends
-entirely on which slice is probed.
-
-**55 words added** (C23288–C23342), all passing the individual reality/lemma/reading/gloss gates:
-26 idioms ({気|き}が{置|お}けない, {白羽|しらは}の{矢|や}が{立|た}つ, {拍車|はくしゃ}をかける,
-{棚|たな}に{上|あ}げる …), 10 proverbs ({覆水盆|ふくすいぼん}に{返|かえ}らず,
-{案|あん}ずるより{産|う}むが{易|やす}し, {住|す}めば{都|みやこ} …), 4 four-character idioms
-({温故知新|おんこちしん}, {千載一遇|せんざいいちぐう} …), and **15 proper nouns** (27% of the
-batch, within the 20–40% target): {厳島神社|いつくしまじんじゃ}, {天橋立|あまのはしだて},
-{松島|まつしま}, {兼六園|けんろくえん}, {銀閣寺|ぎんかくじ}, {阿蘇山|あそさん},
-{清少納言|せいしょうなごん}, {歌川広重|うたがわひろしげ}, {津田梅子|つだうめこ},
-{信州|しんしゅう}, {阪神|はんしん}, {山陰|さんいん}, {厚生労働省|こうせいろうどうしょう},
-{三越|みつこし}, セブンイレブン. Words that survived the duplicate check but were merely
-referential — an ordinary landmark with no cultural weight — were dropped under the richness gate
-rather than added.
-
-**One existing-entry problem found and logged**: a duplicate probe surfaced 19274 `板に着く`, which
-writes the theatrical idiom いたにつく with the wrong kanji (standard is {板|いた}に{付|つ}く or
-kana). Recorded as an `[entry]` observation for a polish pass over the 19000 block; not fixed here,
-since this mode does not change entries.
-
-**Lenses for next time**: idioms and proverbs still have depth; the proper-noun lens should keep
-rotating to unworked slices. Common-vocabulary thematic sweeps (health, office, administrative)
-are exhausted and should be skipped unless probed first.
 
 
