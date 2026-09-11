@@ -1755,3 +1755,11 @@ homograph-list truncation.)_
   before transitivity tagging was enforced; worth a `check_missing_transitivity`
   detector as a systemic-fix backlog item, applying the self-referential-object
   rule above.
+
+[entry] 2026-09-11: `validate.py --ratchet` surfaced 3 pre-existing warnings
+  while validating this run's accuracy-review edits (none in fields this run
+  touched, so left as-is): 00319_niou and 21046_utagainai each have a brace
+  group missing a reading ({匂}, {臭} in 00319_niou's notes; {疑いない} in
+  21046_utagainai's definitions[0].explanation — furigana needs
+  {kanji|reading}); 22988_shinraisuru's part_of_speech string says
+  "noun, suru verb, transitive" but metadata.tags.transitivity is null.
