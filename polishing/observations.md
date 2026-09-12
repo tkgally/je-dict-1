@@ -1785,3 +1785,17 @@ homograph-list truncation.)_
   wrong, not just an unlinked word. Both entries in this range were touched
   by the mass 2026-09-02 sweep on unrelated fields, so this kind of
   pre-existing note error can still hide behind a recent `modified` stamp.
+
+## 2026-09-12 — routine polish session 003 (priority lines 18679-27401 + entries 07273-07292)
+- [tooling] The priority-lane freshness filter ("skip entries modified in the
+  last 30 days") consumed almost the entire remainder of
+  `polishing/priority/notes.txt`: scanning from line 18679 to the file's end
+  (27401) surfaced only 9 entries whose `metadata.modified` predated the
+  30-day cutoff — the rest had already been touched by the recent
+  accuracy-review and systemic-fix sweeps over that ID range. All 9 turned
+  out to already be in good shape except one (05793_tankyuushin, fixed this
+  run). Cursor wrapped to `line: 1` since the file was exhausted; the next
+  polish run may see the same thing near the start of the file if those IDs
+  were also swept recently. Once `make priorities` next regenerates the
+  file it should rank fresh 30+-day-old entries higher again, but until
+  then the priority lane may keep running dry.
