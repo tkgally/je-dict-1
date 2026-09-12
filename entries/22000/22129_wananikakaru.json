@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "22129_wananikakaru_ex1",
-      "japanese": "⟦{鹿|しか}→鹿：04347_shika⟧⟦が→が：00051_ga⟧{罠|わな}にかかった。",
+      "japanese": "⟦{鹿|しか}→鹿：04347_shika⟧⟦が→が：00051_ga⟧⟦{罠|わな}→罠：13816_wana⟧にかかった。",
       "english": "A deer was caught in the trap.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "22129_wananikakaru_ex3",
-      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦で→で：00502_de⟧⟦{野生|やせい}{動物|どうぶつ}→野生動物：09251_yaseidoubutsu⟧⟦が→が：00051_ga⟧{罠|わな}にかかって⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{見|み}つけて→見つける：01180_mitsukeru⟧、⟦{助|たす}けよう→助ける：00895_tasukeru⟧とした。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦で→で：00502_de⟧⟦{野生|やせい}{動物|どうぶつ}→野生動物：09251_yaseidoubutsu⟧⟦が→が：00051_ga⟧⟦{罠|わな}→罠：13816_wana⟧にかかって⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{見|み}つけて→見つける：01180_mitsukeru⟧、⟦{助|たす}けよう→助ける：00895_tasukeru⟧とした。",
       "english": "I found a wild animal caught in a trap in the mountains and tried to help it.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "22129_wananikakaru_ex4",
-      "japanese": "⟦{詐欺師|さぎし}→詐欺師：10176_sagishi⟧⟦の→の：09472_no⟧{罠|わな}にかかってしまった。",
+      "japanese": "⟦{詐欺師|さぎし}→詐欺師：10176_sagishi⟧⟦の→の：09472_no⟧⟦{罠|わな}→罠：13816_wana⟧にかかってしまった。",
       "english": "I fell for the con artist's trap.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "22129_wananikakaru_ex5",
-      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{罠|わな}にかからないよう⟦に→に：00314_ni⟧⟦{気|き}をつけろ→気をつける：09771_kiwotsukeru⟧。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{罠|わな}→罠：13816_wana⟧にかからないよう⟦に→に：00314_ni⟧⟦{気|き}をつけろ→気をつける：09771_kiwotsukeru⟧。",
       "english": "Be careful not to fall into the enemy's trap.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "22129_wananikakaru_ex6",
-      "japanese": "⟦うまい→うまい：01279_umai⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{裏|うら}→裏：02178_ura⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦まんまと→まんまと：06716_manmato⟧{罠|わな}にかかってしまった。",
+      "japanese": "⟦うまい→うまい：01279_umai⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{裏|うら}→裏：02178_ura⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦まんまと→まんまと：06716_manmato⟧⟦{罠|わな}→罠：13816_wana⟧にかかってしまった。",
       "english": "There's always a catch behind deals that seem too good to be true, but I fell right into the trap.",
       "sense_numbers": [
         2
@@ -90,12 +90,12 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "deception",
+        "abstract",
         "action"
       ]
     },
     "created": "2026-04-05T03:35:54Z",
-    "modified": "2026-09-02T04:02:06Z"
+    "modified": "2026-09-12T05:05:30Z"
   },
   "cross_references": [
     {
@@ -111,6 +111,20 @@
       "reading": "ひっかかる",
       "headword": "{引|ひ}っかかる",
       "label": "to get caught, to fall for"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02286_damasu",
+      "reading": "だます",
+      "headword": "{騙|だま}す",
+      "label": "to be deceived"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04255_hameru",
+      "reading": "はめる",
+      "headword": "{嵌|は}める",
+      "label": "to be set up, to be framed"
     }
   ]
 }
