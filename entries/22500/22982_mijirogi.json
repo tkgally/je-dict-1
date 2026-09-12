@@ -35,7 +35,7 @@
     },
     {
       "id": "22982_mijirogi_ex3",
-      "japanese": "⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦の→の：09472_no⟧あまり、{身|み}じろぎ⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦できなかった→できる：00557_dekiru⟧。",
+      "japanese": "⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦の→の：09472_no⟧⟦あまり→あまり：00604_amari⟧、{身|み}じろぎ⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦できなかった→できる：00557_dekiru⟧。",
       "english": "I was so nervous that I couldn't move a muscle.",
       "sense_numbers": [
         1
@@ -53,6 +53,13 @@
       "reading": "じっとする",
       "headword": "じっとする",
       "label": "to stay still"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00904_ugoku",
+      "reading": "うごく",
+      "headword": "{動|うご}く",
+      "label": "not moving"
     }
   ],
   "metadata": {
@@ -62,15 +69,18 @@
         "noun",
         "verb-suru"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "style": [
+        "literary"
+      ]
     },
     "created": "2026-04-08T14:19:44Z",
-    "modified": "2026-09-02T04:02:10Z"
+    "modified": "2026-09-12T17:07:20Z"
   },
   "conjugation": {
     "type": "suru",
