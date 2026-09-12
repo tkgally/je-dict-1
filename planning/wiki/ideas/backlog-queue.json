@@ -1215,11 +1215,11 @@
       "verify": "spot-check",
       "priority": 4,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 32,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "entries",
       "severity": "error",
-      "notes": "Measured 2026-08-15: 4,592 suru-type tables, 33 with a single-character stem, 32 carrying the impossible 〜できる potential (愛できる, 発できる, 接できる...). 30647 処する is the one correct case, fixed by hand at creation. Rewrite the Potential row to 〜せる/〜せない -- provably safe, since 〜できる is not a possible form of this class. FIX build/add_conjugations.py FIRST (Tooling 122) or the next --force run reintroduces all 32. 20837 さする is in the list but is a different, worse defect (godan verb with a サ変 table end to end) -- fix by hand, see Entry Follow-ups."
+      "notes": "RESOLVED 2026-09-12 (systemic-fix). Fixed build/add_conjugations.py first: _generate_suru_forms now emits 〜せる/〜せない for a single-kanji (furigana-stripped) stem and 〜できる/〜できない otherwise, so a future --force run no longer reintroduces the defect. Then re-scanned the whole dictionary with the item's own detection rule (not the stale prose list, which read '32' but enumerated only 31 IDs, omitting 14629 面する) and found 31 live entries carrying できる: the 30 from the list still affected, plus 14629. 20837 さする, listed in the original filing as a separate worse defect (a full サ変 table on a godan verb), was already fully correct godan by the time of this run -- some earlier session fixed it outside this item, so it needed no action here. Rewrote each of the 31 entries' Potential row to 〜せる/〜せない; one of them, 27887 害する, had lost furigana across its ENTIRE conjugation table (a separate, pre-existing defect), so its table was regenerated in full via the fixed generator rather than patched line-by-line. All 31 pass build/validate.py --changed-only. Self-check (build/review_accuracy.py) found 3 unrelated flags on 2 of the touched entries (02045 formality neutral->formal contradicting its own REGISTER note, applied; 02126 a model misreading of に-marked object as transitivity, rejected; 12567 semantic tag action-general migrated to the in-list action) -- see reviews/decisions.jsonl entries timestamped 2026-09-12T00:46:00Z. build/review_links.py found 0 flags on the 16 new kana links auto_link.py added while relinking these entries."
     },
     {
       "id": "furigana-katakana-base",
