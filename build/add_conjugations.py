@@ -111,8 +111,19 @@ def _generate_ichidan_forms(stem: str) -> list:
 
 
 def _generate_suru_forms(prefix: str) -> list:
-    """Generate all conjugation forms for a する compound verb."""
+    """Generate all conjugation forms for a する compound verb.
+
+    The potential form is normally 〜できる (勉強する → 勉強できる), but a
+    single-kanji サ変 stem takes 〜せる instead (愛する → 愛せる, not
+    愛できる, which is not a possible Japanese word). See planning/wiki
+    tooling-backlog.md item 122.
+    """
     p = prefix
+    is_single_kanji_stem = len(strip_furigana(prefix)) == 1
+    if is_single_kanji_stem:
+        potential = {'label': 'Potential', 'affirmative': f'{p}せる', 'negative': f'{p}せない'}
+    else:
+        potential = {'label': 'Potential', 'affirmative': f'{p}できる', 'negative': f'{p}できない'}
     return [
         {'label': 'Present', 'affirmative': f'{p}する', 'negative': f'{p}しない'},
         {'label': 'Present polite', 'affirmative': f'{p}します', 'negative': f'{p}しません'},
@@ -127,7 +138,7 @@ def _generate_suru_forms(prefix: str) -> list:
         {'label': 'Conditional たら', 'affirmative': f'{p}したら', 'negative': f'{p}しなかったら'},
         {'label': 'Volitional', 'affirmative': f'{p}しよう', 'negative': None},
         {'label': 'Volitional polite', 'affirmative': f'{p}しましょう', 'negative': None},
-        {'label': 'Potential', 'affirmative': f'{p}できる', 'negative': f'{p}できない'},
+        potential,
         {'label': 'Passive', 'affirmative': f'{p}される', 'negative': f'{p}されない'},
         {'label': 'Causative', 'affirmative': f'{p}させる', 'negative': f'{p}させない'},
         {'label': 'Imperative', 'affirmative': f'{p}しろ', 'negative': f'{p}するな'},

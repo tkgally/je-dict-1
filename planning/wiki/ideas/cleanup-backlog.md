@@ -4495,6 +4495,21 @@ the next `--force` run reintroduces all 32.
 its headword happens to end in する. See Entry Follow-ups; the deterministic check that found it
 is Tooling 120.
 
+**RESOLVED 2026-09-12.** A 2026-09-12 systemic-fix run fixed `add_conjugations.py` first (Tooling
+122), then re-ran this section's own detection rule against the live dictionary rather than
+trusting the list above verbatim, and found two discrepancies worth recording. First, the "The
+32" list above enumerates only 31 IDs — it omits 14629 面する, which the rule does catch and which
+was genuinely still affected. Second, 20837 さする was **already fully correct** (a proper godan
+table, no サ変 residue) by the time of this run — some other session fixed it outside this item,
+so the "different and worse defect" above is stale and needed no action. Net: 31 entries fixed
+(the 30 above still affected, plus 14629; 20837 excluded as already fixed; 30647 excluded as
+already correct per the original measurement). One of the 31, 27887 害する, turned out to have
+lost furigana across its *entire* conjugation table, not just the Potential row — a separate,
+pre-existing defect, fixed by regenerating its whole table with the corrected generator rather
+than patching one row. All 31 validate; self-check and link-check ran clean apart from three
+unrelated pre-existing flags on two entries (adjudicated, see `reviews/decisions.jsonl`
+2026-09-12T00:46:00Z). Status moved to `resolved` in `backlog-queue.json`.
+
 ### Priority 60: Katakana wrapped in furigana braces — 275 instances / 229 entries
 
 **Source**: the 2026-08-14 `systemic-fix` run (P35 band 03757–04458), which found

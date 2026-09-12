@@ -5002,6 +5002,13 @@ rule the filing proposed: `type == "suru"` and the pre-する portion is one cha
 all of them back. This is the standing lesson from the P16 `[Register:]` artifacts: a data
 cleanup whose generator is unfixed is a scheduled regression.
 
+**RESOLVED 2026-09-12.** `_generate_suru_forms()` now checks the furigana-stripped length of the
+プレ-する prefix and emits 〜せる/〜せない when it is a single character, 〜できる/〜できない
+otherwise; verified against 08053 察する (single-kanji, now せる), 00527 勉強する (multi-kanji,
+still できる) and 30647 処する (the one hand-fixed entry, output now matches byte-for-byte). Full
+`build/tests` suite (426 tests) still passes. The 32-entry sweep this unblocked is recorded at
+Cleanup P59.
+
 ### Update to item 84 (what bounds an accuracy-review run) — three measured numbers
 
 Two runs this window measured throughput directly, and the numbers should be planned against:
