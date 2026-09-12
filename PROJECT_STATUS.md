@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-09-11
+**Last updated**: 2026-09-12
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -49,6 +49,48 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-12 (Routine v3: new-entries — 20 New Entries, IDs 30873–30892)
+
+Created 20 general-tier entries, all from the "seen in entry" internal-closure lane (48 available,
+20 taken, one dropped first as a stale duplicate — see below). A maple-variety pair from 04375
+{楓|かえで}: {伊呂波楓|いろはもみじ} and {大楓|おおかえで}. A cotton-register pair from 00421
+{綿|わた}: コットン and {脱脂綿|だっしめん}. {実刑|じっけい} from 02786 {刑|けい} (its sibling
+candidate {服|ふく}する was dropped, see below). A butterfly-register pair from 04288 {蝶|ちょう}: {蝶々|ちょうちょう}
+(childish) and {胡蝶|こちょう} (literary). A blinds-orientation pair from 04890 ブラインド:
+{縦型|たてがた} and {横型|よこがた}. A broadleaf-tree cluster from 04957 {広葉樹|こうようじゅ}:
+{椎|しい}, {楠|くすのき}, {落葉広葉樹|らくようこうようじゅ}, {常緑広葉樹|じょうりょくこうようじゅ}.
+A squirrel pair from 04352 {栗鼠|りす}: {頬袋|ほおぶくろ} and {回|まわ}し{車|ぐるま}. Also
+{冷静沈着|れいせいちんちゃく} (from 07123), {馬乗|うまの}り (from 02245), {読者投稿|どくしゃとうこう}
+(from 03901), {一回忌|いっかいき} (from 06019), and {風|ふう} the "-style" suffix (from 00427,
+resolving that entry's own stale `noentry` marker for ヨーロッパ{風|ふう}).
+
+**One candidate dropped before writing.** {服|ふく}する (C23372) turned out to be the same verb as
+the existing entry 29104 {服|ふく}す, just its more literary suru-conjugated form — the entry's own
+notes already say "the longer form {服|ふく}する is equally correct and more common in writing."
+Removed from the queue rather than duplicated, matching the project's one-entry-per-verb convention
+(cf. 04006 {略|りゃく}す, which likewise has no separate {略|りゃく}する entry).
+
+**One new kanji indexed:** {楠|くすのき} (camphor), added to `kanji/kanji_list.json` as
+02801_nan_kusunoki_camphor.
+
+**Three stale `noentry` markers resolved**: 01738 {木綿|もめん} (コットン), 04963
+{常緑樹|じょうりょくじゅ} ({常緑広葉樹|じょうりょくこうようじゅ}), 04969 {洗濯機|せんたくき}
+({縦型|たてがた}). Cross-reference harvest also added reciprocal links into 05387 {紅葉|もみじ},
+01738 {木綿|もめん}, 04556 {投書|とうしょ}, 09839 〜{的|てき}, and 28575 {式|しき}.
+
+**§4 self-check on all 20 new entries: 3 flags, all applied.** 30876 コットン's semantic tags were
+narrowed to "clothing" only, though the entry itself covers cosmetics use too — added `daily-life`.
+30888 {常緑広葉樹|じょうりょくこうようじゅ}'s notes said evergreen trees keep their leaves "through
+winter," inconsistent with the "year-round" wording elsewhere in the same entry — reworded for
+consistency. 30889 {一回忌|いっかいき}'s gloss called it a "memorial service" while its own notes
+said it isn't actually observed as one — reworded the gloss, definition, and first example to
+describe it consistently as the year of death itself, counted as the first year, rather than an
+occasion people hold. In-context kana-link check: no kana-base links in the new entries to review.
+Cost: $0.0096 self-check, $0.5161 spent today against the $5.00 daily cap.
+
+**Queue**: 20 candidates auto-cleared on `update_indexes.py`, one removed by hand as a duplicate.
+Candidate queue stands at 203.
 
 ### 2026-09-11 (Routine v3: new-entries — 20 New Entries, IDs 30853–30872)
 
@@ -133,36 +175,4 @@ Created 20 general-tier entries under the v3 internal-closure policy. **Nine cam
 **§4 cross-model self-check on all 33 changed entries (20 new plus 13 neighbors touched by the stale-link and cross-reference-harvest passes): 0 flags.** Every entry came back clean. Cost $0.016.
 
 **Queue note**: the 〜{師|し} candidate did not auto-clear from `candidate_words.json` (the entry's headword carries a leading tilde marker that the sync script's exact-match check doesn't see); removed by hand. Candidate queue stands at 176.
-
-### 2026-09-02 (Process overhaul: Routine v3, mechanical sweeps, site rebuilt — see enhancement/assessment-2026-09-02.md)
-
-An interactive session (Claude, the curator's assessment request) rebuilt the maintenance process
-around one principle: scripts do the mechanical work, the Routine does judgment.
-
-**Dictionary-wide mechanical sweeps, all validated (30,584/30,584):** every entry now carries
-inline word links placed by the new deterministic linker (`build/auto_link.py`: 1,007,002 links, up
-from 278,772; only tokens that resolve to exactly one entry, 60/60 correct in the sampled check);
-58,103 cross-references harvested from SIMILAR/RELATED/KEIGO bullets in the notes
-(`build/harvest_crossrefs.py`; 87 percent of entries now have cross-references, up from 38); 17,400
-legacy notes headers renamed to the canonical vocabulary in `build/data/note_headers.json` and
-17,571 nakaguro bullets converted; 6,267 part-of-speech display strings canonicalized; politeness
-set on 5,952 entries and formality on 1,059 where the notes gave no reason to hold out; 1,077
-entries with malformed furigana wrappers repaired; transitivity tagged on 1,683 verbs where two
-external models agreed and the entry's own examples show the valency (2,369 more wait in
-`reviews/transitivity/disagreements.jsonl`); 147 stale `noentry` markers resolved.
-
-**Routine v3** (`prompts/routine2.md`): polish mode does judgment only (25–40 entries), the
-external reviewer now checks the notes field and filters its own noise (prompt version 4), the
-furigana screener is retired, weights are polish 0.30 / accuracy 0.30 / systemic-fix 0.25 /
-new-entries 0.10 / candidates 0.05, the wiki runs only when observations pile up, new entries come
-only from words the dictionary already uses, and runs no longer commit `docs/`.
-
-**Site** rebuilt by GitHub Actions on merge (`.github/workflows/pages.yml`): English and
-conjugated-form search, index split (entry pages no longer download 18.7 MB), word links visible by
-default, notes headings, tag badges and tag pages, kanji readings, study lists, curator tools
-unlinked. **Note for the curator:** Settings → Pages → Source must be "GitHub Actions" (the
-workflow tries to switch it automatically).
-
-**Curator items** (`reviews/needs_curator.txt`): five duplicate entry pairs in the closed tiers.
-
 
