@@ -1841,3 +1841,19 @@ homograph-list truncation.)_
   fixing one of the pair alone, which would leave them inconsistent. Worth a `systemic-fix` pass
   (detector: entries tagged `clothing` whose headword/gloss is a bag/case/pack noun) if there turn
   out to be more than a couple of these dictionary-wide.
+- [tooling] `polishing/priority/notes.txt` (regenerated 2026-09-12, still within the 14-day freshness
+  window) is mostly stale against the "modified in the last 30 days" skip rule: scanning 1,282
+  consecutive lines from the priority cursor (line 671) found only 15 eligible entries, because a
+  systemic pass touched nearly the whole list between 2026-09-02 and 2026-09-11. Not urgent since
+  the file will regenerate on its own 14-day clock, but a run that lands soon after a large
+  systemic-fix sweep should expect a slow priority lane and may want to regenerate early
+  (`make priorities`) rather than burn budget skipping thousands of already-touched lines.
+- [entry] Priority-lane entries that were touched by the recent systemic passes still carried
+  hand-written `noentry` markers from before that rule was enforced (02874_gyuuniku: 神戸牛,
+  松阪牛; 02917_tooka: ぶり suffix x2; 04291_ari: 一穴; 00152_kako: 形/けい grammar suffix;
+  06125_ochuugen: 中元). Fixed in this run: markers replaced with plain furigana text, missing
+  words queued as candidates (C23421-C23426), and 04918_mirin's みりん風 noentry was resolved by
+  linking to 30892_fuu (風/ふう), which already existed. A repo-wide grep for `：noentry⟧` found 2,111 entry files still carrying such markers —
+  this is a large, dictionary-wide backlog, not a one-off. Worth a dedicated `systemic-fix`
+  backlog item: detector greps for the marker, verify/fix batch resolves each occurrence the
+  same way (link if the target now exists, else strip to plain text + queue a candidate).
