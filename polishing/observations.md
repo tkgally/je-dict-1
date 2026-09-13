@@ -1828,3 +1828,16 @@ homograph-list truncation.)_
   was about, just a shape the anchored detector can't see. Worth its own backlog item with a
   detector that doesn't require the base segment to be pure brace groups — likely much larger in
   scope than this one, since okurigana-bearing verb/adjective base forms are common.
+- [tooling] The accuracy reviewer's plain-text extraction strips furigana ruby, so a note giving an
+  alternate reading via `{脂性|あぶらせい}` renders to the model as bare `脂性` — indistinguishable
+  from the headword itself. This produced at least two false "self-referential"/"typo" flags in the
+  2026-09-13 accuracy-review run (23481_aburashou; partly 23976_ichiwa's counting-pattern flags).
+  Overall precision was still fine (5.4% flagged over 1,000 entries), so not urgent, but worth
+  fixing if the reviewer prompt/extraction is revisited — it should preserve at least the reading
+  half of a furigana pair when a note is explicitly giving an alternate pronunciation.
+- [entry] 24193_bakkupakku (バックパック) and its near-synonym 04541_ryukku (リュック) both carry
+  `semantic: [..., clothing]`; a backpack/rucksack is not clothing. Looks like a small systemic
+  tagging pattern (bags-as-clothing) rather than an isolated error — flagging here rather than
+  fixing one of the pair alone, which would leave them inconsistent. Worth a `systemic-fix` pass
+  (detector: entries tagged `clothing` whose headword/gloss is a bag/case/pack noun) if there turn
+  out to be more than a couple of these dictionary-wide.
