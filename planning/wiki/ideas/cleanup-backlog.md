@@ -2753,9 +2753,14 @@ within weeks; the check is the item that matters, and it is a two-line ratchet
 2026-08-02 measurement — the active-defect prediction held). All 258 swept: 203 all-kanji
 headwords braced mechanically as `{headword|reading}`; 55 mixed kana/kanji headwords braced
 per-entry, each new bracing validated by stripping braces and pipes back down to the original
-headword and reading before writing. Zero bare-kanji headwords remain dictionary-wide. The
-ratchet in [Tooling 56](tooling-backlog.md#56-nothing-checks-that-a-headword-carries-furigana)
-is still unshipped — nothing stops the next creation batch from reopening this item.
+headword and reading before writing. Zero bare-kanji headwords remain dictionary-wide.
+
+**Ratchet shipped 2026-09-13.** [Tooling 56](tooling-backlog.md#56-nothing-checks-that-a-headword-carries-furigana)
+/ [Tooling 96](tooling-backlog.md#96-find_missing_furiganapy-never-scans-the-headword-field) are
+both closed: `build/validate.py` now carries `find_bare_kanji_headword_errors`, a hard ERROR
+(no baseline needed — the corpus was already at zero) for any kanji in `headword` outside a
+`{kanji|reading}` group; `build/find_missing_furigana.py` now scans `headword` too. Re-verified
+0/30,683 entries flagged by either instrument at ship time.
 
 ## Priority 38: Semantic tags disagree *within a closed lexical family* (tableware: 32 entries, 12 tag-sets)
 
@@ -3894,6 +3899,14 @@ Roughly half the 259 are the easy class.
 **Ship the validator check with the sweep, not after it.** Adding the headword to
 `fields_to_scan` costs one line and converts this from a recurring cleanup into a one-time one.
 Filed as [Tooling 96](tooling-backlog.md).
+
+**RESOLVED 2026-09-13 (duplicate filing).** This is the same defect as
+[Priority 36](#priority-36-headwords-written-as-bare-kanji-with-no-furigana-braces-248-entries)
+(same detector regex, same population), which a 2026-09-06 systemic-fix run already swept to
+zero — this item's `backlog-queue.json` record was never updated to reflect that, which is why
+the scheduler picked it again today. Re-verified 0/30,683 entries at run time. The validator
+fix this item asked for is shipped in the same run (see the P36 resolution note): `validate.py`
+now hard-errors on bare kanji in `headword`, and `find_missing_furigana.py` scans it.
 
 ## Priority 53: Counter entries with an empty `cross_references` array (39 of 79)
 

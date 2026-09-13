@@ -4,6 +4,7 @@ Find dictionary entries that have kanji without furigana in text fields.
 
 This script scans all JSON entries and identifies cases where kanji characters
 appear outside of the {kanji|furigana} notation pattern. It checks:
+- headword
 - notes (entry-level)
 - definitions[].explanation
 - examples[].japanese
@@ -104,6 +105,11 @@ def scan_entries(entries_dir: Path) -> list[dict]:
 
             # Collect all text fields to scan with their field names
             fields_to_scan = []
+
+            # Headword (renders as the page's <h1>; every other Japanese-bearing
+            # field is scanned, so bare kanji here must not be invisible either)
+            if headword:
+                fields_to_scan.append(('headword', headword))
 
             # Entry-level notes
             notes = entry.get('notes', '')
