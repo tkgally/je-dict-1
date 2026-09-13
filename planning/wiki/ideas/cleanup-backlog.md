@@ -1771,6 +1771,36 @@ re.sub(r'→\{([^|}]+)\|[^}]+\}：', r'→\1：', s)   # strips a reading from a
 
 *(Priorities 31 and 32, both filed from the same 2026-07-29 sweep, are at the end of this page in numeric order.)*
 
+**RESOLVED 2026-09-12 — fifth discovery is the one that finally cleared it.** The 2026-09-12
+`systemic-fix` run (backlog item `inline-link-braced-base-form`, priority 5) ran the anchored
+detector: 30 entries remained (01484 and 04471 had already cleared since the 08-12 measurement,
+leaving the two clustered cohorts 00697-00716 / 00965-00988 plus 09760). Applied the base-form
+strip to all 147 matched instances, including two multi-brace bases the single-group regex above
+doesn't show (`{紙|かみ}{袋|ぶくろ}` → `紙袋` in 00712, `{話|はなし}{上手|じょうず}` → `話上手` in
+00707) — both still anchored between `→` and `：`, so still in scope. `validate.py --changed-only`
+came back 30/30 clean. The detect regex now matches zero files dictionary-wide.
+
+The lookup cross-check this item asked for surfaced four **pre-existing, unrelated** cases where
+the base form (now plain) still doesn't resolve against `build/word_id_lookup.json` by exact
+string match: `人→00658_nin` (four occurrences across 00975/00976/00984/00985 — the entry's own
+headword is `〜{人|にん}` and the link is missing the counter tilde, in both slots, since before
+this fix), `話上手→08467_hanashijouzu` (the entry's headword is `話し上手` with okurigana; the
+note already wrote the kanji-only variant before this fix), and two cosmetic-only mismatches
+(`早い` vs. the dual-orthography headword `速い／早い` on 00514; `〜やすい` using a plain tilde
+where 18367's headword uses a full-width `～`). None of these are broken links — `validate.py`
+confirms every target ID exists — and none were introduced or altered by this run's brace-strip;
+they were masked behind braces before and are now just visible as lookup-string mismatches. Not
+fixed here (outside this item's anchored, mechanical-safe scope); logged in
+`polishing/observations.md` 2026-09-12 for a future item.
+
+Also out of scope, left untouched by design: base forms where furigana wraps only part of a
+conjugated form with plain kana outside the braces, e.g. `{書|か}く→{書|か}く：00477_kaku` (the
+braces cover only 書, the く sits outside) — the detector's `→\{[^}]*\|[^}]*\}：` requires the
+*entire* base segment between arrow and colon to be one or more consecutive brace groups, so a
+form with interleaved plain characters (okurigana, or 折り紙-style `{折|お}り{紙|がみ}`) never
+matched and was never touched. That is a different, unscoped defect shape (a genuinely braced
+tooltip, just not this item's anchored pattern) and would need its own detector.
+
 ## Priority 25: Fabricated conjugation tables from a mis-assigned verb class
 
 **Source**: 2026-07-25 routine polish run (06624 甘える; second case found at 09361)

@@ -1799,3 +1799,32 @@ homograph-list truncation.)_
   were also swept recently. Once `make priorities` next regenerates the
   file it should rank fresh 30+-day-old entries higher again, but until
   then the priority lane may keep running dry.
+
+## 2026-09-12 — systemic-fix: inline-link-braced-base-form (backlog priority 5)
+
+- [entry] Resolved the braced-base-form backlog item: 30 entries / 147 link occurrences (two
+  multi-brace, 紙袋 and 話上手) stripped to plain-kanji base forms; detect regex now matches zero
+  files dictionary-wide. Full writeup in `planning/wiki/ideas/cleanup-backlog.md` Priority 24 and
+  `backlog-queue.json` (status: resolved).
+- [entry] Word-lookup cross-check (as the resolved item asked) turned up four pre-existing,
+  unrelated mismatches now visible once the braces were stripped — none are broken links
+  (`validate.py` confirms every target ID exists), just cosmetic base-form/headword mismatches
+  predating this run: (1) `⟦{人|にん}→人：00658_nin⟧` in 00975/00976/00984/00985 (four
+  occurrences) — the entry's own headword is `〜{人|にん}`, so the counter tilde is missing from
+  both the surface and base slots, not something this run introduced; (2) 00707_jouzu's
+  `⟦{話|はなし}{上手|じょうず}→話上手：08467_hanashijouzu⟧` — 08467's headword is `話し上手` with
+  okurigana し, while this note already wrote the kanji-only variant; (3) 00973/00966's `早い`
+  base doesn't match 00514's dual-orthography headword `速い／早い`; (4) 00965's `〜やすい` uses a
+  plain tilde where 18367's headword uses a full-width `～`. Small enough (4 distinct causes, ~6
+  occurrences) that a future systemic-fix or polish pass can knock them out individually rather
+  than needing a new detector — flagging here so they aren't lost.
+- [tooling] Two shapes of braced-tooltip base forms are still out there and were correctly left
+  untouched by this item's anchored regex (which requires the entire → … ： segment to be
+  consecutive `{kanji|reading}` groups with nothing else between): base forms where furigana
+  covers only part of a conjugated form with plain kana outside the braces (e.g.
+  `{書|か}く→{書|か}く：00477_kaku`, seen throughout 00712_kami and others), and multi-kanji
+  compounds with interleaved plain characters (`{折|お}り{紙|がみ}→{折|お}り{紙|がみ}：
+  05408_origami` in 00712_kami). Both are genuinely the same tooltip-rendering bug this priority
+  was about, just a shape the anchored detector can't see. Worth its own backlog item with a
+  detector that doesn't require the base segment to be pure brace groups — likely much larger in
+  scope than this one, since okurigana-bearing verb/adjective base forms are common.
