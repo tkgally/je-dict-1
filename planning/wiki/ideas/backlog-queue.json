@@ -652,7 +652,7 @@
       "status": "resolved",
       "scope_estimate": 0,
       "severity": "error",
-      "notes": "RESOLVED 2026-09-06: swept all 258 bare-kanji headwords found at run time (248 measured 2026-08-02 plus 10 more created since, confirming the active-defect growth pattern). 203 all-kanji headwords braced mechanically as {headword|reading}; 55 mixed kana/kanji headwords braced per-entry with okurigana aligned individually and verified against the reading field. Zero bare-kanji headwords remain dictionary-wide. The recurrence risk stands: without the [Tooling 56](tooling-backlog.md#56-nothing-checks-that-a-headword-carries-furigana) validator ratchet, new bare-kanji headwords will accumulate again at creation time.",
+      "notes": "RESOLVED 2026-09-06: swept all 258 bare-kanji headwords found at run time (248 measured 2026-08-02 plus 10 more created since, confirming the active-defect growth pattern). 203 all-kanji headwords braced mechanically as {headword|reading}; 55 mixed kana/kanji headwords braced per-entry with okurigana aligned individually and verified against the reading field. Zero bare-kanji headwords remain dictionary-wide. The recurrence risk stands: without the [Tooling 56](tooling-backlog.md#56-nothing-checks-that-a-headword-carries-furigana) validator ratchet, new bare-kanji headwords will accumulate again at creation time. Ratchet shipped 2026-09-13: build/validate.py now hard-errors on bare kanji in headword and build/find_missing_furigana.py scans it too, so this item cannot silently reopen.",
       "resolved_date": "2026-09-06"
     },
     {
@@ -1075,12 +1075,12 @@
       "verify": "per entry: wrap each kanji run with its share of the reading field; verify against the entry's reading and any furigana already used for the same word in examples",
       "priority": 5,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 259,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "entries",
-      "scope_measured_at": "2026-08-10",
+      "scope_measured_at": "2026-09-13",
       "severity": "error",
-      "notes": "find_missing_furigana.py loads headword only to label output and never adds it to fields_to_scan (Tooling 96), so make check-furigana reports these as clean. Active regression, not settled debt: 126 created 2026-07, 24 in the first ten days of 2026-08 (~70/month). Severity is presentational — the reading still renders on its own entry-reading line — but ruby and per-kanji attribution are lost. Ship the validator fix with the sweep or it re-accumulates within a quarter."
+      "notes": "Duplicate filing of the already-resolved headword-missing-furigana item (Priority 36), swept to zero by a 2026-09-06 systemic-fix run; this record was never updated to reflect that, so the scheduler picked it again on 2026-09-13. Re-verified 0/30,683 entries at run time. Validator fix shipped in the same run: build/validate.py hard-errors on bare kanji in headword (no baseline needed), and build/find_missing_furigana.py now scans headword."
     },
     {
       "id": "counter-empty-cross-references",

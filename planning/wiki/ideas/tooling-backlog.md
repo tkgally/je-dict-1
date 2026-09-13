@@ -3083,6 +3083,11 @@ visits), and the fix is a shared list of "every field that can hold Japanese" th
 checkers iterate rather than a hard-coded pair of field names. That list would also pick up
 `fixed_patterns` and structured-field prose, which item 22 raised separately.
 
+**RESOLVED 2026-09-13.** `build/validate.py` now carries `find_bare_kanji_headword_errors`: a
+hard ERROR, no baseline, for any kanji in `headword` outside a `{kanji|reading}` group (the
+corpus was already at zero after the 2026-09-06 sweep, so no ratchet/baseline file was needed).
+Item 47's cross-reference-headword gap is unaddressed and stays open separately.
+
 ## 57. `check_semantic_clusters.py` has no closed-paradigm symmetry rule
 
 **Source**: 2026-08-01 routine polish run (ko-so-a-do demonstratives, 16 entries fixed);
@@ -4276,6 +4281,10 @@ is why 259 of them accumulated with 24 added in the first ten days of August alo
 a recurring cleanup into a one-time one. Worth pairing with a `validate.py` check so new entries
 cannot introduce the defect at all — the project's stated rule ("all kanji must have furigana —
 in headwords, examples, AND notes") already justifies it as an error rather than a warning.
+
+**RESOLVED 2026-09-13.** `find_missing_furigana.py` now scans `headword`, and `validate.py`
+hard-errors on bare kanji there too (see [item 56](#56-nothing-checks-that-a-headword-carries-furigana)).
+Re-verified 0/30,683 entries flagged by the fixed scanner.
 
 ## 97. Scan for inline links whose surface reading disagrees with the target entry's reading
 

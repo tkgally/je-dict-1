@@ -26,6 +26,11 @@ after repairs — except under --ratchet), and a pipe-less brace group containin
 kanji (``{稀}``) is always a WARNING. Turn --ratchet on in CI only after the backfill sweeps
 (build/backfill_register.py, build/fix_furigana_format.py) have been applied,
 otherwise every touched legacy entry fails.
+
+Bare kanji in ``headword`` (no ``{kanji|reading}`` wrapper at all) is always an
+ERROR with no baseline: the dictionary-wide sweep (Cleanup P52 / Tooling 96)
+brought the corpus to zero on 2026-09-06, so any occurrence is a new
+regression, not settled debt.
 """
 
 import json
@@ -287,6 +292,29 @@ def find_furigana_brace_errors(entry: dict, ignore_allowlist: bool = False) -> l
     return errors
 
 
+def find_bare_kanji_headword_errors(entry: dict) -> list[str]:
+    """Error if `headword` contains kanji with no furigana brace at all.
+
+    `headword` renders as the page's <h1>, the same as every other
+    Japanese-bearing field, but carried no format constraint until the
+    dictionary-wide sweep (Cleanup P52 / Tooling 96) reached zero bare-kanji
+    headwords on 2026-09-06. The corpus is fully clean, so this is a hard
+    error with no baseline: any bare kanji here is a new regression.
+    """
+    if not isinstance(entry, dict):
+        return []
+    headword = entry.get('headword', '')
+    if not isinstance(headword, str) or not headword:
+        return []
+    stripped = re.sub(r'\{[^{}]*\}', '', headword)
+    if KANJI_CHAR_RE.search(stripped):
+        return [
+            f"Bare kanji in 'headword': {headword!r} has no furigana "
+            f"(wrap with {{kanji|reading}})"
+        ]
+    return []
+
+
 def find_furigana_brace_warnings(entry: dict) -> list[str]:
     """Warnings for a pipe-less brace group that contains kanji, e.g. `{稀}`."""
     warnings = []
@@ -494,6 +522,7 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: 
     # except under --ratchet); the register/transitivity/kana-brace ratchets
     # only fire with --ratchet.
     errors.extend(find_furigana_brace_errors(entry))
+    errors.extend(find_bare_kanji_headword_errors(entry))
     if RATCHET:
         errors.extend(find_ratchet_errors(entry))
 
