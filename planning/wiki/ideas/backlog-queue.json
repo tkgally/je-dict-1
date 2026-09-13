@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-09-08",
+  "updated": "2026-09-13",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -1231,12 +1231,12 @@
       "verify": "spot-check",
       "priority": 5,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 273,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "instances",
       "severity": "error",
-      "notes": "Measured 2026-08-15: 275 instances across 229 entries spanning 00138-30640 (not one creation batch). Fields: notes 135, examples[].japanese 129, definitions[].explanation 11. Renders as visible ruby -- docs/entries/00000/00138_kaisetsu.html emits <ruby>ニュース<rt>にゅーす</rt></ruby>. 271 readings are the exact kana transliteration of the base and 3 repeat the katakana unchanged, so 274 are provably lossless to strip. The 275th, 23394 二枚貝 {カキ|がき}, is a genuine reading error the class was hiding -- fix by hand, see Entry Follow-ups. | 2026-08-31: measured 273 katakana-surface wrappers in 227 entries, of which 270 (224 entries) carry a hiragana reading -- i.e. this item and katakana-hiragana-reading-wrappers describe ONE population, currently filed as an open mechanical fix and a blocked policy question at the same time. Merge them and put the actual question (are any of the 273 a deliberate reading gloss on a hard-to-pronounce loanword?) to a sample. The rewrite itself -- drop the braces and the reading, keep the katakana -- provably cannot change meaning.",
-      "scope_measured_at": "2026-08-31"
+      "notes": "Measured 2026-08-15: 275 instances across 229 entries spanning 00138-30640 (not one creation batch). Fields: notes 135, examples[].japanese 129, definitions[].explanation 11. Renders as visible ruby -- docs/entries/00000/00138_kaisetsu.html emits <ruby>ニュース<rt>にゅーす</rt></ruby>. 271 readings are the exact kana transliteration of the base and 3 repeat the katakana unchanged, so 274 are provably lossless to strip. The 275th, 23394 二枚貝 {カキ|がき}, is a genuine reading error the class was hiding -- fix by hand, see Entry Follow-ups. | 2026-08-31: measured 273 katakana-surface wrappers in 227 entries, of which 270 (224 entries) carry a hiragana reading -- i.e. this item and katakana-hiragana-reading-wrappers describe ONE population, currently filed as an open mechanical fix and a blocked policy question at the same time. | 2026-09-13 systemic-fix: re-scanned every entry field directly for a katakana-only furigana base (bypassing check_furigana_format.py's pure-kana bucket, which also catches numerals and other non-katakana kana-only bases and does not isolate this class) and found only 1 instance left: 23394 二枚貝's {カキ|がき}, the known reading error. The other 274 were already stripped by intervening polish/systemic-fix runs without this item being marked resolved. Fixed 23394 by hand (definitions[].explanation: {カキ|がき} -> カキ, matching the correct かき reading already given elsewhere in the entry's notes) and re-scanned: 0 remaining. RESOLVED. The katakana-hiragana-reading-wrappers merge suggested above still stands as a separate queue-hygiene action for whoever owns that item.",
+      "scope_measured_at": "2026-09-13"
     },
     {
       "id": "validate-tags-standing-errors",
