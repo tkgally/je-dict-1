@@ -1306,17 +1306,17 @@
       "id": "furigana-okurigana-in-ruby",
       "title": "Okurigana swallowed into the furigana ruby ({痛|いたみ} for {痛|いた}み) -- 123 instances",
       "source": "ideas/cleanup-backlog.md#p64-okurigana-swallowed-into-the-furigana-ruby--123-instances-invisible-to-every-checker",
-      "detect": "single-kanji wrapper {K|R} where a proper prefix of R is a common reading of K elsewhere (R <=3 occurrences, prefix >=10)",
-      "filter": "reject genuine multi-kana readings ({止|とど} = とどまる) and deliberate whole-word wrappers -- per-entry check required",
+      "detect": "build/check_okurigana_ruby.py --json (shipped 2026-09-14)",
+      "filter": "reject genuine multi-kana readings ({止|とど} = とどまる), no-separate-kana-slot compounds ({冷|ひや}{奴|やっこ}, {源|みなもとの}{頼朝|よりとも}), on-yomi sokuon assimilation ({悪|あっ}化), and name/nanori readings ({明|あきら} in 黒澤明) -- per-entry check required",
       "fix_type": "per-entry",
       "verify": "semantic",
       "priority": 5,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 123,
+      "status": "resolved",
+      "scope_estimate": 30,
       "scope_unit": "instances",
       "severity": "warn",
-      "notes": "Measured 2026-08-16: 90 distinct (kanji, reading) pairs / 123 instances across 30,484 entries. Invisible to check_furigana_format.py (verified: 765 findings, 04651 not among them) for the same structural reason as the katakana case -- every furigana instrument asks whether the kanji has a reading, and it does; the reading has absorbed the okurigana. Strong head: {切|きり}x1 vs {切|き}x3631, {入|いれ}x1 vs {入|い}x2785, {付|つき}x1 vs {付|つ}x2585, {痛|いたみ}x1 vs {痛|いた}x810. Detector not yet built -- see Tooling 130."
+      "notes": "Measured 2026-08-16: 90 distinct (kanji, reading) pairs / 123 instances across 30,484 entries. Invisible to check_furigana_format.py (verified: 765 findings, 04651 not among them) for the same structural reason as the katakana case -- every furigana instrument asks whether the kanji has a reading, and it does; the reading has absorbed the okurigana. RESOLVED 2026-09-14 (routine systemic-fix): built build/check_okurigana_ruby.py (the detection rule from this item, shipped as a standing script), scanned the whole dictionary (121 instances / 89 pairs at scan time), and verified every instance by hand. 77 were real swallowing bugs across 76 entries and were fixed (moving the trailing kana out of the ruby, or dropping a duplicated kana where the bug had also produced a doubled character, e.g. 切りり -> 切り). 30 instances / 20 pairs across 24 entries are genuine exceptions and were left as-is: complete atomic readings with no separate kana slot in real orthography ({冷|ひや}{奴|やっこ}, {源|みなもとの}{頼朝|よりとも}, お{坊|ぼっ}ちゃん), name/nanori readings (黒澤{明|あきら}, 太宰{治|おさむ}), on-yomi + sokuon assimilation misread as kun-yomi okurigana ({換|かん}, {悪|あっ}化), and one 1-mora spurious prefix match ({寂|さみ}しい, where the detector's 'common prefix' was noise). Mechanical pass (auto_link/harvest_crossrefs) picked up 89 new inline links and 6 cross-references on the text that became visible outside the ruby. check_okurigana_ruby.py stays available for the next dictionary-wide sweep, since new entries can reintroduce the pattern."
     },
     {
       "id": "inline-link-kudasai-baseform-split",

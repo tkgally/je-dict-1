@@ -5339,7 +5339,12 @@ translation, and flag when an off-diagonal pairing scores higher than the diagon
 a few lines over data already in the file, needs no model, and its false-positive mode
 (entries whose examples are near-paraphrases) is benign.
 
-### 130. `check_furigana_format.py` cannot see okurigana swallowed into the ruby
+### 130. `check_furigana_format.py` cannot see okurigana swallowed into the ruby — SHIPPED (2026-09-14)
+
+**SHIPPED**: `build/check_okurigana_ruby.py` implements the detection rule below as a read-only
+review-queue generator (`--json`/`--summary`/`--range`), mirroring `check_furigana_format.py`'s
+shape. A 2026-09-14 systemic-fix run used it to fix 77 of 121 instances found at scan time (30
+were genuine exceptions, left as-is); see [Cleanup P64](cleanup-backlog.md).
 
 **Source**: 2026-08-16 polish run — 04651 {関節痛|かんせつつう} carries `{痛|いたみ}` in its
 notes, where the correct form is `{痛|いた}み`. The run asked whether the detector sees this
