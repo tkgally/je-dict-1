@@ -4553,7 +4553,7 @@ than patching one row. All 31 validate; self-check and link-check ran clean apar
 unrelated pre-existing flags on two entries (adjudicated, see `reviews/decisions.jsonl`
 2026-09-12T00:46:00Z). Status moved to `resolved` in `backlog-queue.json`.
 
-### Priority 60: Katakana wrapped in furigana braces — 275 instances / 229 entries
+### Priority 60: Katakana wrapped in furigana braces — RESOLVED (was 275 instances / 229 entries)
 
 **Source**: the 2026-08-14 `systemic-fix` run (P35 band 03757–04458), which found
 `{ラベル|らべる}` in 03995 宛名, noted that neither `validate.py` nor `find_missing_furigana.py`
@@ -4583,6 +4583,16 @@ transliteration of the katakana base, and 3 more repeat the katakana unchanged
 **The 275th is a genuine reading error the class was hiding**: 23394 二枚貝 carries
 `{カキ|がき}` — oyster, read がき instead of かき. No furigana instrument could ever have found
 it, because they all key on kanji. Fix that one by hand; sweep the other 274.
+
+**Resolved 2026-09-13.** A systemic-fix run re-scanned every entry field directly for a
+katakana-only furigana base (not via `check_furigana_format.py`'s `pure-kana` bucket, which also
+catches numerals and other non-katakana kana-only bases and does not isolate this class) and found
+only the one instance above still standing — the other 274 had already been stripped by
+intervening polish/systemic-fix runs without this item being marked resolved. Fixed 23394 by hand
+(`{カキ|がき}` → `カキ` in `definitions[].explanation`, matching the correct かき reading already
+given elsewhere in the entry's notes) and re-scanned: zero katakana-base furigana wrappers remain
+in the dictionary. The merge with `katakana-hiragana-reading-wrappers` proposed below is still an
+open queue-hygiene action for whoever owns that item.
 
 ### Priority 61: `validate_tags.py`'s 11 standing errors — mechanical, and stalled on one ruling
 
