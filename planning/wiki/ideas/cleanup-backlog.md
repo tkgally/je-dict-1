@@ -4840,6 +4840,17 @@ standardising *everything* to `COMMON COLLOCATIONS:`. That would destroy real di
 3,460 of them into "collocations" to satisfy a checker inverts the dependency. Fix the checker
 (Tooling 125); rename only these 730.
 
+### P64. Okurigana swallowed into the furigana ruby — RESOLVED 2026-09-14
+
+**Resolved** by a 2026-09-14 systemic-fix run: shipped `build/check_okurigana_ruby.py` (the rule
+below, as a standing script) and hand-verified every hit. 77 of 121 instances (76 entries) were
+real bugs and were fixed; 30 across 20 (kanji, reading) pairs were genuine exceptions — complete
+atomic readings with no separate kana slot in real orthography (`{冷|ひや}{奴|やっこ}`,
+`{源|みなもとの}{頼朝|よりとも}`), name/nanori readings (黒澤`{明|あきら}`), and on-yomi +
+sokuon misread as kun-yomi okurigana (`{換|かん}`, `{悪|あっ}化`) — and were left as-is. Detail
+in [Tooling 130](tooling-backlog.md). The script stays in `build/` for the next sweep, since new
+entries can reintroduce the pattern.
+
 ### P64. Okurigana swallowed into the furigana ruby — 123 instances, invisible to every checker
 
 **Source**: 2026-08-16 polish run (04651 {関節痛|かんせつつう} carries `{痛|いたみ}` where the
