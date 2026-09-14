@@ -1857,3 +1857,21 @@ homograph-list truncation.)_
   this is a large, dictionary-wide backlog, not a one-off. Worth a dedicated `systemic-fix`
   backlog item: detector greps for the marker, verify/fix batch resolves each occurrence the
   same way (link if the target now exists, else strip to plain text + queue a candidate).
+
+[pattern] 2026-09-14 (routine polish): priority lane cursor scan from line 14005 ran to the end
+  of the 27401-line file (13397 lines scanned) and found only 14 eligible entries — confirms the
+  ~0.3% hit-rate collapse already flagged in the 2026-09-14 session before this one. Cursor reset
+  to line 1 this run since the file was exhausted. The "last substantive edit" marker fix (vs raw
+  file `modified` timestamp) proposed earlier is still the right fix; not expected to self-resolve
+  until ~2026-10-02 when the 2026-09-02 mechanical sweep's 30-day skip window clears.
+[entry] 2026-09-14 (routine polish): six more hand-written noentry markers found and fixed
+  (04520_kaadigan, 04407_sasa, 05248_sukyanaa), all pre-2026-09-02 entries; ten words queued as
+  candidates (C23441-C23449, plus C23444/C23445 for 笹). Also found and fixed a real inline-link
+  bug in 07385_momeru: the て-form/negative stem "揉め" (from this entry's own headword 揉める)
+  had been hand- or mis-linked to 00289_momu (揉む, "to knead" — different word, もむ not もめる)
+  in all three examples plus once in notes. Confirmed with sudachipy installed that auto_link.py's
+  tokenizer-free fallback mode was responsible: without the tokenizer it matched by kanji alone and
+  re-introduced the same wrong link after a first manual fix; with sudachipy active it correctly
+  classified "揉め" as self-headword and left it unlinked. sudachipy/sudachidict_core were missing
+  from this container again (same gap noted in the 2026-09-14 001 session log) — installed
+  mid-run; worth checking why the pinned requirement isn't already present in the image.
