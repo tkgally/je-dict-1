@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-09-12
+**Last updated**: 2026-09-14
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~30,604 |
+| Total entries | ~30,703 |
 | Basic tier | 801 (closed) |
 | Core tier | ~1,982 (closed) |
-| General tier | ~27,821 (open) |
-| Candidate words | ~176 (all vetted; queue cleaned 2026-08-11) |
+| General tier | ~27,920 (open) |
+| Candidate words | ~204 (all vetted; queue cleaned 2026-08-11) |
 | Cross-references | ~19,000 |
 | Example sentences | ~119,000 |
 
@@ -49,6 +49,45 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-14 (Routine v3: new-entries — 20 New Entries, IDs 30913–30932)
+
+Created 20 general-tier entries from the "seen in entry" internal-closure lane. Because an
+earlier routine PR that same day (still open, CI-failing at the time) had already claimed IDs
+30893–30912 for its own 20-entry batch from the same lane, this run manually started numbering
+at 30913 instead of trusting `get_next_id.py` (which only scans the local filesystem and would
+have reused those IDs), and skipped the 20 candidates that predecessor run had already turned
+into entries. One further candidate, ぶり "for the first time in ~" (C23423), was dropped
+first as a stale duplicate of the existing suffix entry 28358 〜{ぶり}.
+
+The words: a crab-cluster continuation from 04325 {蟹|かに} ({松葉|まつば}{蟹|がに}, the San'in
+regional brand); {送|おく}り{狼|おおかみ} (the "wolf in sheep's clothing" who offers to walk a
+woman home); {亥|い} (the boar zodiac sign, adding kanji 亥 to the kanji index); シャンデリア;
+the three great tea-ceremony schools ({表千家|おもてせんけ}, {裏千家|うらせんけ},
+{武者小路千家|むしゃこうじせんけ}, cross-referenced to each other); 南アフリカ; {離|はな}れ{島|じま};
+a wagyu-brand pair, {神戸牛|こうべぎゅう} and {松阪牛|まつさかぎゅう} (auto cross-referenced to
+each other by the harvest pass); {一穴|いっけつ} (mainly known through the proverb
+{蟻|あり}の{一穴|いっけつ}); {形|けい} (the grammar "-form" suffix, contrasted with the かたち
+reading); {中元|ちゅうげん} (root of お{中元|ちゅうげん}); four jump-rope technique terms from
+06323 {縄跳|なわと}び ({前跳|まえと}び, {後|うし}ろ{跳|と}び, {交差跳|こうさと}び,
+{片足跳|かたあしと}び); and two Buddhist memorial-day terms from 06016 {初七日|しょなのか}
+({二七日|ふたなのか}, {三七日|みなのか}).
+
+**Nine stale `noentry` markers resolved** in four existing entries that had been waiting on these
+words: 00885 {島|しま} ({離|はな}れ{島|じま}), 01767 アフリカ (南アフリカ), 05008 {天井|てんじょう}
+(シャンデリア), and 04451/05507 {茶道|さどう}/{ちゃどう} (all three tea schools, ×2 each in
+05507). Cross-reference harvest also added reciprocal links into 12525 {家元|いえもと}, 16950
+{無人島|むじんとう}, 12240 {孤島|ことう}, and 06017 {四十九日|しじゅうくにち}.
+
+**§4 self-check on all 34 changed entries (20 new plus 14 neighbors touched by linking and
+`noentry` repair): 1 flag applied, 3 rejected.** 04451 {茶道|さどう}'s semantic tags carried a
+leftover `food` tag (tea ceremony is not food) — changed to `culture`, matching its sibling entry
+05507. The three rejected flags were reviewer noise: a misread of furigana-annotated text in
+05507's ALTERNATIVE READING note, an overliteral objection to 06017 {四十九日|しじゅうくにち}'s
+gloss (the memorial-service sense is correct and matches the entry's own explanation), and a
+stylistic nitpick on 30932 {三七日|みなのか}'s gloss that already matches its sibling entries'
+established "Nth-day memorial service" phrasing. In-context kana-link check: 13 links reviewed,
+0 flagged. Cost: $0.0174 self-check, $0.5175 spent today against the $5.00 daily cap.
 
 ### 2026-09-12 (Routine v3: new-entries — 20 New Entries, IDs 30873–30892)
 
@@ -163,16 +202,3 @@ verify, 24 block. The review also exposed three linker bugs (a verb stem re-read
 imperative inside its own entry; さする carrying a suru-verb table; か+な split at sentence end),
 all fixed with tests, and four sense gaps for the curator (かかる, かける, つける, けち).
 Candidates: そうする, 窺う, particle のみ, particle なり.
-
-### 2026-09-03 (Routine v3: new-entries — 20 New Entries, IDs 30794–30813)
-
-Created 20 general-tier entries under the v3 internal-closure policy. **Nine came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined, which empties that lane completely: {色物|いろもの} (two senses — colored laundry, contrasted with 30774 {白物|しろもの}, and the vaudeville-program variety act, unrelated in modern usage but sharing the same "colored thing" root), {挙式|きょしき} (the ceremony itself, distinct from the {披露宴|ひろうえん} reception that follows it), {間|ま} (the felt pause or timing in speech and performance, cross-referenced against the unrelated reading {間|あいだ}), {観覧料|かんらんりょう} and {拝観|はいかん} (both harvested from 07059's "RELATED FEE TYPES" note — the fee word Japanese picks by kind of place, and the reverent {拝|はい} that keeps {拝観|はいかん} confined to temples and shrines), バーテンダー, {竹細工|たけざいく} (the {木彫|きぼ}り-pattern craft compound), 〜{師|し} (the practitioner suffix, contrasted with 〜{士|し}'s licensing sense and 〜{家|か}/〜{者|しゃ}), and {主夫|しゅふ} (the coined gender-neutral counterpart of {主婦|しゅふ}).
-
-**The other eleven are place names** from the vetted proper-noun queue, written so the explanation carries the connotations rather than the coordinates: {隅田川|すみだがわ} (the fireworks festival and Edo-period culture), {北陸|ほくりく} and {東海|とうかい} (Japan's own regions, named for their prefectures and historic routes), and eight foreign destinations — ハワイ, ニューヨーク, ロンドン, {北京|ぺきん}, ソウル, {台湾|たいわん}, {香港|ほんこん}, and ドイツ — each carrying the association a Japanese speaker reaches for (ハワイ's honeymoon status, {台湾|たいわん}'s reputation for friendliness toward Japanese visitors, {香港|ほんこん}'s dim sum and action-cinema legacy). Two conjugation tables added (both suru: {挙式|きょしき}, {拝観|はいかん}). No new kanji.
-
-**Eleven stale inline links repaired.** Creating an entry from a "seen in entry" candidate immediately orphans the `⟦…：noentry⟧` marker in whichever entry referred to it. Nine files were pointed at the new IDs: 02186 {川|かわ} (×2, {隅田川|すみだがわ}), 02791 {経由|けいゆ} (×2, {香港|ほんこん}), 03115 {大都会|だいとかい} (ニューヨーク, ロンドン), 03225 {主婦|しゅふ} (×2, {主夫|しゅふ}), 04456 {狂言|きょうげん} (〜{師|し}), 04551 {統一|とういつ} (ドイツ), 07059 {拝観料|はいかんりょう} (×2, {拝観|はいかん}; ×1, {観覧料|かんらんりょう}), 07060 バー (バーテンダー), 07063 {木彫|きぼ}り (〜{師|し}).
-
-**§4 cross-model self-check on all 33 changed entries (20 new plus 13 neighbors touched by the stale-link and cross-reference-harvest passes): 0 flags.** Every entry came back clean. Cost $0.016.
-
-**Queue note**: the 〜{師|し} candidate did not auto-clear from `candidate_words.json` (the entry's headword carries a leading tilde marker that the sync script's exact-match check doesn't see); removed by hand. Candidate queue stands at 176.
-
