@@ -76,8 +76,12 @@ examined, the causes found, and every unmerged change either merged or reverted.
   predecessor instead of leaving or closing it; never close a routine PR by cursor position;
   `make gate` before the push; no commit or push after the PR is opened; wait with
   `pipeline/wait.py 60`, at most 15 polls; on a failed check, fix and push once.
-- Closed #3293 with an "absorbed" comment after this session's PR merged; deleted the three
-  fully absorbed branches (`1b7wtk`, `o9cv7c`, `u8emu6`) after confirming zero residue.
+- Closed #3293 with an "absorbed" comment after this session's PR (#3300) merged. Tried to delete
+  the three fully absorbed branches (`1b7wtk`, `o9cv7c`, `u8emu6`): the git proxy in this
+  environment refuses branch deletion (HTTP 403), so they are recorded in
+  `pipeline/absorbed-branches.jsonl` (the tool's ledger of absorbed branch tips, so no later run
+  re-absorbs them) and left for Tom to delete; three `prune-branch` lines are in
+  `reviews/needs_curator.txt`.
 
 ## Self-check
 

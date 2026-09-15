@@ -124,6 +124,22 @@ class NextFreeLogTests(unittest.TestCase):
                          "polishing/sessions/routine_2099-01-01_002.md")
 
 
+class LedgerTests(unittest.TestCase):
+    def test_lookup_matches_branch_and_tip(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            saved = ab.ROOT
+            try:
+                ab.ROOT = Path(d)
+                (Path(d) / "pipeline").mkdir()
+                ab.ledger_append("claude/x", "abc", 12, "claude/y")
+                self.assertEqual(ab.ledger_lookup("claude/x", "abc")["pr"], 12)
+                self.assertIsNone(ab.ledger_lookup("claude/x", "def"))
+                self.assertIsNone(ab.ledger_lookup("claude/z", "abc"))
+            finally:
+                ab.ROOT = saved
+
+
 class IsGeneratedTests(unittest.TestCase):
     def test_prefixes_and_exact_names(self):
         self.assertTrue(ab.is_generated("kanji/00010_dai.json"))
