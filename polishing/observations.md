@@ -1895,3 +1895,28 @@ homograph-list truncation.)_
   removed both. And one off-vocab semantic tag, "interrogative" (not in VALID_SEMANTIC), copied
   from 00534_dare into 02923_donata before being caught by self-check; migrated both to
   "grammatical".
+
+## 2026-09-14 — routine polish session (priority lines 1953-8913, frontier 07340-07354)
+
+- [tooling] The priority-lane 30-day skip filter is still extremely lossy, and worsening: scanning
+  6,961 consecutive lines of `priority/notes.txt` (1953-8913) yielded only 20 eligible entries — a
+  ~0.3% hit rate, down from the ~2% observed on 2026-09-03 (session 001) and the earlier ~1.2%
+  (session 004, lines 671-1953). The 2026-09-02 v3 mechanical sweep's bulk `metadata.modified`
+  touch is still the dominant cause and won't fully clear the 30-day window until ~2026-10-02.
+  Confirms the self-check note from session 004: if this doesn't improve on its own soon, the skip
+  filter should compare against a "last substantive edit" marker rather than raw mtime, or the
+  priority lane should be paused/regenerated with a recency-aware scorer until the window clears.
+- [entry] Six more hand-written `：noentry⟧` markers found and fixed this run (01369_suteeki x5,
+  01927_nou x1, 01368_sukuriin x4, 04396_fuji x2), all converted to plain furigana text with the
+  underlying words queued as candidates (C23427-C23440) — adds to the 2,111-file backlog logged in
+  session 004, still worth the dedicated systemic-fix pass recommended there.
+- [pattern] Several general-tier entries carried a mistagged or lazy `semantic: ["general"]` tag
+  where a concrete tag from the closed list fit better (04396_fuji plant-flower, 00021_bunpu
+  science, 00086_hakki action, 07341_rinku/07342_sukyan technology, 07343_haraimodoshi money,
+  07344_hensou/07345_soufu/07346_torikeshi business) — worth a `check_tag_drift.py`-style sweep for
+  "general" tags that have a better closed-list fit, similar to the off-vocab migration already
+  in place.
+- [entry] 04305_tokage carried a stray entry-level `domain: ["business"]` tag that belonged only to
+  one idiom mentioned in its notes (蜥蜴の尻尾切り), not to the headword itself (a lizard) — removed.
+  Worth checking whether other animal/object entries picked up a `domain` tag from an idiom's usage
+  context rather than the word's own domain.
