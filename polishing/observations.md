@@ -1875,3 +1875,23 @@ homograph-list truncation.)_
   classified "揉め" as self-headword and left it unlinked. sudachipy/sudachidict_core were missing
   from this container again (same gap noted in the 2026-09-14 001 session log) — installed
   mid-run; worth checking why the pinned requirement isn't already present in the image.
+
+
+[tooling] 2026-09-15 (polish, routine_2026-09-15_002): normalize_notes.py left 12 distinct
+  non-canonical note headers untouched across the 18 entries this run rewrote (e.g. "RELATED
+  〜言 WORDS:", "KABUKI ROLE SYSTEM:", "USAGE ON THE PHONE:", "NOTE ON READING:") — these are
+  pre-existing headers the alias table in build/data/note_headers.json does not recognize, so the
+  mechanical pass reports 0 rewrites for them. Left as-is rather than hand-edited (out of scope for
+  a single polish pass across many old entries); worth a dedicated systemic-fix pass or an
+  alias-table expansion if this pattern recurs.
+
+[pattern] 2026-09-15 (polish): a recurring priority/frontier-lane defect this run: a sole
+  semantic: ["general"] tag on an entry whose word clearly fits a concrete category (04959_dango,
+  04382_momo -> food; 07393_negoto, 07394_tawagoto, 07395_kurigoto, 07396_herazuguchi -> 
+  communication; 07400_meguriawase -> abstract/existence; 07403_nimaime -> appearance;
+  03114_daiseikou -> action). Also found two off-vocabulary domain tags that contradicted the
+  entry's own notes (02977_moshimoshi: domain business, though notes say it is avoided in
+  business; 07391_fuyoui: domain colloquial, though notes and formality say formal/written) —
+  removed both. And one off-vocab semantic tag, "interrogative" (not in VALID_SEMANTIC), copied
+  from 00534_dare into 02923_donata before being caught by self-check; migrated both to
+  "grammatical".
