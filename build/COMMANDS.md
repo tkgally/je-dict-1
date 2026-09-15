@@ -117,6 +117,7 @@ python3 pipeline/metrics_report.py                  # Regenerate the quality-met
 python3 pipeline/update-brief.py                    # Refresh PROJECT_CONTEXT_BRIEF.md
 python3 pipeline/absorb_branch.py <branch> --pr N   # Merge a stranded Routine branch with the per-file policy (entries/code merge, indexes keep main, ledgers union)
 python3 pipeline/absorb_branch.py --residue <branch> # What a claude/* branch still holds that main lacks (empty = safe to prune)
+#   pipeline/absorbed-branches.jsonl records every absorbed branch tip; a recorded branch never reports residue
 python3 pipeline/wait.py 60                         # Foreground wait between CI polls (a backgrounded sleep does not wait)
 ```
 

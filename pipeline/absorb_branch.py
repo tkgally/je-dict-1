@@ -13,7 +13,10 @@ mid-size model can absorb such a branch mechanically::
 
 ``--residue`` lists the durable files the branch changed that still differ
 from the current branch (generated files ignored). An empty list means the
-branch is fully absorbed and can be pruned.
+branch is fully absorbed and can be pruned. Every absorb records the branch
+tip in ``pipeline/absorbed-branches.jsonl``; a branch whose tip is recorded
+there reports no residue even if main has edited its entries since, so a
+branch left behind by a closed PR is never absorbed twice.
 
 Absorbing merges ``origin/<branch>`` into HEAD and resolves conflicts like this:
 
@@ -80,6 +83,7 @@ UNION_FILES = (
     "polishing/observations.md",
 )
 
+LEDGER = "pipeline/absorbed-branches.jsonl"   # one line per absorbed branch tip
 SESSION_LOG_RE = re.compile(r"^polishing/sessions/routine_(\d{4}-\d{2}-\d{2})_(\d{3})\.md$")
 ENTRY_RE = re.compile(r"^entries/\d{5}/(\d{5})_[^/]+\.json$")
 CANDIDATES = "candidate_words.json"
@@ -123,6 +127,43 @@ def is_generated(path: str) -> bool:
 
 def differs(a: str, b: str, path: str) -> bool:
     return git("diff", "--quiet", a, b, "--", path, check=False).returncode != 0
+
+
+# --- absorbed-branch ledger --------------------------------------------------
+
+def ledger_lookup(branch: str, tip: str) -> dict | None:
+    """The ledger line recording that this exact branch tip was absorbed, if any."""
+    path = ROOT / LEDGER
+    if not path.exists():
+        return None
+    for ln in path.read_text(encoding="utf-8").splitlines():
+        if not ln.strip():
+            continue
+        try:
+            row = json.loads(ln)
+        except json.JSONDecodeError:
+            continue
+        if row.get("branch") == branch and row.get("tip") == tip:
+            return row
+    return None
+
+
+def ledger_append(branch: str, tip: str, pr: int | None, into: str) -> None:
+    row = {"ts": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+           "branch": branch, "tip": tip, "pr": pr, "into": into}
+    with (ROOT / LEDGER).open("a", encoding="utf-8") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def absorbed_note(branch: str) -> str | None:
+    """A one-line explanation if origin/<branch>'s tip is in the ledger, else None."""
+    tip = git_out("rev-parse", f"origin/{branch}")
+    row = ledger_lookup(branch, tip)
+    if not row:
+        return None
+    pr = f" (PR #{row['pr']})" if row.get("pr") else ""
+    return (f"{branch}: absorbed on {row['ts'][:10]}{pr} into {row.get('into', '?')} "
+            f"per {LEDGER} — no residue; an entry that differs now was edited on main afterwards.")
 
 
 # --- residue ---------------------------------------------------------------
@@ -293,11 +334,16 @@ def absorb(branch: str, pr: int | None, commit: bool) -> int:
         return 0
     if git("merge-base", "--is-ancestor", "origin/main", "HEAD", check=False).returncode != 0:
         print("WARNING: HEAD is behind origin/main; merge origin/main first for a clean absorb.")
+    note = absorbed_note(branch)
+    if note:
+        print(note)
+        return 0
     base = git_out("merge-base", "HEAD", theirs)
     res = residue(theirs)
     if not res:
         print(f"{branch}: no residue against HEAD — nothing to absorb (branch can be pruned).")
         return 0
+    tip = git_out("rev-parse", theirs)
     print(f"Absorbing {branch} ({len(res)} durable files differ):")
     for p in res:
         print(f"  {p}")
@@ -394,6 +440,9 @@ def absorb(branch: str, pr: int | None, commit: bool) -> int:
     # A colliding session log can also arrive without a conflict when the name is
     # free on ours but another absorbed branch already took it; nothing to do then.
 
+    ledger_append(branch, tip, pr, git_out("rev-parse", "--abbrev-ref", "HEAD"))
+    git("add", "--", LEDGER)
+
     if commit:
         subject = git_out("log", "-1", "--format=%s", theirs).split("\n")[0]
         msg = f"absorb {branch}" + (f" (PR #{pr})" if pr else "") + f": {subject}"
@@ -430,6 +479,10 @@ def main() -> int:
     branch = args.branch.removeprefix("origin/")
     if args.residue:
         if not fetch_branch(branch):
+            return 0
+        note = absorbed_note(branch)
+        if note:
+            print(note)
             return 0
         res = residue(f"origin/{branch}")
         if not res:
