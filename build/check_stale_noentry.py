@@ -14,7 +14,7 @@ run; this detector is the standing measurement of that leak.
 Classes (the stratification measured by the 2026-08-01/02 wiki harvests):
 
   A1  headword match, multi-character, exactly one candidate  → mechanical
-  A2  same, katakana headword (no reading ambiguity)          → mechanical
+  A2  same, katakana headword (no reading ambiguity)          → per-entry
   A3  headword match, multi-character, several candidates     → per-entry
   B   headword match, single character                        → per-entry
   C   reading-only match, multi-character                     → per-entry
@@ -22,11 +22,18 @@ Classes (the stratification measured by the 2026-08-01/02 wiki harvests):
   R   would be A1/A2, but the surface furigana contradicts
       the target entry's reading                              → per-entry
 
-Only A1+A2 are safe to fix mechanically: the evidence is entirely inside the
-link (a full headword match with exactly one candidate entry). B/C/D match on a
-single character or on a reading alone and are as likely to be a homograph as
-the word — 角 → 02158_tsuno (つの) when the link's 角 is かど; ば → 03699_ba (場)
-when the link's ば is the conditional particle.
+Only A1 is safe to fix mechanically: the evidence is entirely inside the
+link (a full headword match with exactly one candidate entry). A2 looks just
+as safe on the same test but isn't: reading 22 of the detector's 123
+mechanical-bucket pairs with a katakana base form (Cleanup Backlog 143) found
+8 cases where the target entry documents a different borrowed sense of the
+same word (ロック "lock" → 08116_rokku "rock (music)", パート "voice part" →
+03106_paato "part-time work", …) — a katakana entry usually covers **one**
+borrowed sense of a word borrowed more than once, so same-spelling-different-
+sense is the normal case for loanwords, not the exception it is for native
+vocabulary. B/C/D match on a single character or on a reading alone and are as
+likely to be a homograph as the word — 角 → 02158_tsuno (つの) when the link's
+角 is かど; ば → 03699_ba (場) when the link's ば is the conditional particle.
 
 Each record also carries `wrong_when_written`: true when the target entry was
 created *before* the entry the marker sits in, i.e. the marker was never
@@ -37,7 +44,7 @@ Usage:
     python3 build/check_stale_noentry.py                # summary + samples
     python3 build/check_stale_noentry.py --summary      # counts only
     python3 build/check_stale_noentry.py --json         # full review queue
-    python3 build/check_stale_noentry.py --class A1 A2  # mechanical batch only
+    python3 build/check_stale_noentry.py --class A1      # mechanical batch only
     python3 build/check_stale_noentry.py --range 1 6999 --limit 40
 """
 import argparse
@@ -55,14 +62,15 @@ KATAKANA_RE = re.compile(r"^[ァ-ヶーヽヾ・]+$")
 FURIGANA_RE = re.compile(r"\{[^|{}]+\|([^}]+)\}")
 KANA_ONLY_RE = re.compile(r"^[ぁ-ゖァ-ヶーヽヾ・ 　]+$")
 
-MECHANICAL = ("A1", "A2")
+MECHANICAL = ("A1",)
 
-VERIFY = ("A1/A2 are mechanical: replace `noentry` with the target id in place, "
-          "leaving the surface and base untouched. B/C/D need the entry open — "
-          "confirm the linked token really is that word (single characters and "
-          "reading-only matches are usually homographs or bound morphemes) "
-          "before touching anything. Update the modified timestamp of every "
-          "entry changed.")
+VERIFY = ("A1 is mechanical: replace `noentry` with the target id in place, "
+          "leaving the surface and base untouched. A2/B/C/D need the entry "
+          "open — confirm the linked token really is that word (a katakana "
+          "base may name a different borrowed sense of the same word; single "
+          "characters and reading-only matches are usually homographs or "
+          "bound morphemes) before touching anything. Update the modified "
+          "timestamp of every entry changed.")
 
 
 def to_hiragana(text):
@@ -240,7 +248,7 @@ def main():
     ap.add_argument("--class", dest="classes", nargs="+", metavar="CLASS",
                     help="Filter to one or more classes (A1 A2 A3 B C D ...).")
     ap.add_argument("--mechanical", action="store_true",
-                    help="Shorthand for --class A1 A2.")
+                    help="Shorthand for the mechanical classes (currently A1).")
     ap.add_argument("--range", nargs=2, type=int, metavar=("START", "END"))
     ap.add_argument("--limit", type=int, default=25, help="Sample size (default 25).")
     args = ap.parse_args()
@@ -268,7 +276,7 @@ def main():
           f"({len(records)} distinct base/surface pairs) in {len(entries)} entries")
     for klass in sorted(by_class):
         print(f"  {klass:17} {by_class[klass]:5} pairs  {instances[klass]:5} instances")
-    print(f"  mechanical (A1+A2): {len(mech)} pairs, "
+    print(f"  mechanical ({'+'.join(MECHANICAL)}): {len(mech)} pairs, "
           f"{sum(r['instances'] for r in mech)} instances "
           f"({len(wrong)} wrong when written)")
     if not args.summary:

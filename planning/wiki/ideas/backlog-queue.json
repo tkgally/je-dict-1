@@ -1480,12 +1480,13 @@
       "verify": "none",
       "priority": 5,
       "batch_ready": true,
-      "status": "open",
+      "status": "resolved",
       "scope_estimate": 22,
       "scope_unit": "pairs",
       "scope_measured_at": "2026-08-31",
       "severity": "error",
-      "notes": "22 of the 123 mechanical pairs have a katakana base; reading all 22 gives 8 sense mismatches (rock x4 lock/rock-music, paato voice-part/part-time, baa scroll-bar/drinking-bar, koma comet-coma/frame, furai baseball-fly/deep-fried) and 14 correct. Holds every instance both filing runs found plus three neither spotted, needs no per-target denylist and no notes scan -- superseding the proposed hard-coded rock denylist and covering the half Tooling 134 is structurally blind to. Works because a katakana entry usually documents one borrowed sense of a word borrowed more than once."
+      "notes": "22 of the 123 mechanical pairs have a katakana base; reading all 22 gives 8 sense mismatches (rock x4 lock/rock-music, paato voice-part/part-time, baa scroll-bar/drinking-bar, koma comet-coma/frame, furai baseball-fly/deep-fried) and 14 correct. Holds every instance both filing runs found plus three neither spotted, needs no per-target denylist and no notes scan -- superseding the proposed hard-coded rock denylist and covering the half Tooling 134 is structurally blind to. Works because a katakana entry usually documents one borrowed sense of a word borrowed more than once. RESOLVED 2026-09-15: check_stale_noentry.py MECHANICAL is now (\"A1\",) only; A2 (katakana base) reports as class A2 but mechanical=false, routing it to the per-entry queue like A3/B/C. At fix time the detector's mechanical bucket already held 0 A1/A2 pairs (later new-entries/systemic-fix runs had cleared the 22 measured on 2026-08-31), so no entries needed touching -- this closes the future false-positive path, not a live backlog of mislinks.",
+      "resolved_at": "2026-09-15"
     },
     {
       "id": "tag-shop-nouns-building-only",
