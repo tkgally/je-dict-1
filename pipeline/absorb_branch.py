@@ -100,6 +100,15 @@ def show(ref: str, path: str) -> str | None:
     return r.stdout if r.returncode == 0 else None
 
 
+def fetch_branch(branch: str) -> bool:
+    """Fetch origin/<branch>; False (with a message) if it no longer exists on origin."""
+    r = git("fetch", "origin", branch, check=False)
+    if r.returncode != 0:
+        print(f"{branch}: not on origin (already deleted?) — nothing to do.")
+        return False
+    return True
+
+
 def changed_files(a: str, b: str) -> list[str]:
     out = git_out("diff", "--name-only", a, b)
     return [ln for ln in out.splitlines() if ln]
@@ -116,14 +125,33 @@ def differs(a: str, b: str, path: str) -> bool:
 # --- residue ---------------------------------------------------------------
 
 def residue(theirs: str, ours: str = "HEAD") -> list[str]:
-    """Durable files the branch changed (since it diverged) that still differ from ours."""
+    """Durable files the branch changed (since it diverged) whose change ours still lacks.
+
+    A ledger that differs only because ours has appended more lines since is
+    not residue; nor is a candidate queue whose consumed and added candidates
+    ours already reflects, nor a status file whose sections ours already has.
+    """
     base = git_out("merge-base", ours, theirs)
     out = []
     for path in changed_files(base, theirs):
         if is_generated(path):
             continue
-        if differs(ours, theirs, path):
-            out.append(path)
+        if not differs(ours, theirs, path):
+            continue
+        ours_txt, theirs_txt, base_txt = show(ours, path), show(theirs, path), show(base, path)
+        if ours_txt is not None and theirs_txt is not None:
+            if path in UNION_FILES:
+                if union_lines(base_txt, ours_txt, theirs_txt) == (ours_txt if ours_txt.endswith("\n") else ours_txt + "\n"):
+                    continue
+            elif path == CANDIDATES:
+                _d, removed, to_add = reconcile_candidates(base_txt, ours_txt, theirs_txt)
+                if not removed and not to_add:
+                    continue
+            elif path == STATUS:
+                _m, new_secs = merge_status(base_txt, ours_txt, theirs_txt)
+                if not new_secs:
+                    continue
+        out.append(path)
     return out
 
 
@@ -258,7 +286,8 @@ def absorb(branch: str, pr: int | None, commit: bool) -> int:
     if git_out("status", "--porcelain"):
         print("ERROR: working tree is not clean; commit or stash first.")
         return 1
-    git("fetch", "origin", branch)
+    if not fetch_branch(branch):
+        return 0
     if git("merge-base", "--is-ancestor", "origin/main", "HEAD", check=False).returncode != 0:
         print("WARNING: HEAD is behind origin/main; merge origin/main first for a clean absorb.")
     base = git_out("merge-base", "HEAD", theirs)
@@ -395,7 +424,8 @@ def main() -> int:
     args = ap.parse_args()
     branch = args.branch.removeprefix("origin/")
     if args.residue:
-        git("fetch", "origin", branch)
+        if not fetch_branch(branch):
+            return 0
         res = residue(f"origin/{branch}")
         if not res:
             print(f"{branch}: no residue (fully absorbed).")
