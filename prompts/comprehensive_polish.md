@@ -126,7 +126,7 @@ python3 build/validate.py --id <id>
 python3 build/check_duplicate.py "word" "reading"
 python3 build/manage_candidates.py add "word" "reading" "gloss; seen in NNNNN"
 python3 build/get_timestamp.py
-python3 build/auto_link.py --ids <id,id> --apply
+python3 build/auto_link.py --ids <id,id> --apply --confirm-real-entries
 python3 build/harvest_crossrefs.py --ids <id,id> --apply
 python3 build/normalize_notes.py --ids <id,id> --apply
 ```

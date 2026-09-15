@@ -7,7 +7,7 @@
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "sugoroku; Japanese backgammon-style board game",
+      "gloss": "sugoroku; Japanese roll-and-move board game",
       "explanation": "A traditional Japanese board game where players roll dice and move pieces along a path, often played during New Year celebrations."
     }
   ],
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTE:\n{双六|すごろく} is a traditional Japanese game, especially popular during the New Year (⟦お{正月|しょうがつ}→お正月：05586_oshougatsu⟧). Modern versions often have themed boards with illustrations.\n\nTYPES:\n- {絵双六|えすごろく} (illustrated sugoroku - most common today)\n- {盤双六|ばんすごろく} (board sugoroku - older version similar to backgammon)\n\nGAMEPLAY:\nPlayers take turns rolling dice (⟦サイコロ→サイコロ：06524_saikoro⟧) and move their pieces along the board. Landing on certain spaces may advance or set back the player. The first to reach the goal (⟦{上|あ}がり→上がり：25038_agari⟧) wins.\n\nNEW YEAR GAMES:\nSugoroku is one of the traditional New Year games along with:\n- ⟦{凧揚|たこあ}げ→凧揚げ：07128_takoage⟧ (kite flying)\n- ⟦{羽根|はね}つき→羽根つき：07129_hanetsuki⟧ (Japanese badminton)\n- ⟦かるた→かるた：21979_karuta⟧ (karuta cards)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\n{双六|すごろく} is a traditional Japanese game, especially popular during the New Year (⟦お{正月|しょうがつ}→お正月：05586_oshougatsu⟧). Modern versions often have themed boards with illustrations.\n\nTYPES:\n- {絵双六|えすごろく} (illustrated sugoroku - most common today)\n- {盤双六|ばんすごろく} (board sugoroku - older version similar to backgammon)\n\nGAMEPLAY:\nPlayers take turns rolling dice (⟦サイコロ→サイコロ：06524_saikoro⟧) and move their pieces along the board. Landing on certain spaces may advance or set back the player. The first to reach the goal (⟦{上|あ}がり→上がり：25038_agari⟧) wins.\n\nRELATED WORDS:\nOther traditional New Year games:\n- ⟦{凧揚|たこあ}げ→凧揚げ：07128_takoage⟧ (kite flying)\n- ⟦{羽根|はね}つき→羽根つき：07129_hanetsuki⟧ (Japanese badminton)\n- ⟦かるた→かるた：21979_karuta⟧ (karuta cards)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07128_takoage",
+      "reading": "たこあげ",
+      "headword": "{凧揚|たこあ}げ",
+      "label": "kite flying"
+    },
+    {
+      "type": "related",
+      "target_id": "07129_hanetsuki",
+      "reading": "はねつき",
+      "headword": "{羽根|はね}つき",
+      "label": "Japanese badminton"
+    },
+    {
+      "type": "related",
+      "target_id": "21979_karuta",
+      "reading": "かるた",
+      "headword": "かるた",
+      "label": "karuta cards"
+    }
+  ],
   "metadata": {
     "created": "2026-01-19T04:35:46Z",
-    "modified": "2026-09-02T04:01:10Z",
+    "modified": "2026-09-14T00:57:46Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

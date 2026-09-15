@@ -29,15 +29,60 @@ call `mcp__github__pull_request_read` with `method: "get"` and with
 `mcp__github__merge_pull_request` (`merge_method: "squash"`) only if every
 check run is `completed` with conclusion `success`, `neutral`, or `skipped`,
 the PR is mergeable, and no human has commented or reviewed. Then
-`git fetch origin main && git merge origin/main --no-edit`. Anything not
-rescuable stays open; mention it in the session log.
+`git fetch origin main && git merge origin/main --no-edit`. A check run that
+is still pending stays open (mention it in the session log; the run after
+this one rescues it).
 
-**0b. Sweep strands.** For any other open `claude/*` PR, follow CLAUDE.md →
-"Sweep stranded PRs via MCP" (close it only if every entry file it touches has
-an ID below the `next:` value in `polishing/tasks/comprehensive/progress.txt`).
-Then `mcp__github__list_branches`; for any `claude/*` branch that is neither
-this session's branch nor an open PR's head, follow CLAUDE.md → "Sweep orphan
-`claude/*` branches via MCP". Zero strands and zero orphans is the normal case.
+**0b. Absorb a red predecessor.** A `routine` PR whose check run completed
+with any other conclusion failed CI, almost always on one entry (the log names
+the file and the rule). Nobody else will fix it, so this run takes its content
+over:
+
+```bash
+python3 pipeline/absorb_branch.py <head-branch> --pr <number>
+```
+
+The tool merges the branch into this session's branch with a per-file policy
+(entries and code merge as usual; indexes, cursors and ledgers keep main's
+version or take the union; a colliding session log is renamed; the candidate
+queue is reconciled), commits, and prints the entry IDs it brought in. Then:
+
+```bash
+make gate            # exactly the CI checks; fix what it reports on those IDs
+```
+
+A gate failure names its remedy: kana-only furigana braces such as `{を|を}`
+→ write the kana plainly; a notes header outside `build/data/note_headers.json`
+→ rename it to the canonical header listed there; a missing `formality`,
+`politeness` or `transitivity` → add it; a semantic tag outside the list in
+`build/validate_tags.py` → migrate it to the closest listed tag. Re-run
+`make gate` until it is clean and continue the run with that content
+included. If `make index` at wrap-up reports a kanji needing an ID, the
+absorbed entries introduced it: add it to `kanji/kanji_list.json` with the
+next free ID (kanji-index skill) and rerun `make index`. At wrap-up, once this run's own PR has merged, comment on the
+absorbed PR (`mcp__github__add_issue_comment`: "absorbed into PR #<yours>")
+and close it (`mcp__github__update_pull_request`, `state: "closed"`). If the
+tool prints `ABORTED` (an entry or a code file conflicts), it has undone the
+merge: append one line to `reviews/needs_curator.txt` naming the PR and the
+files, leave the PR open, and continue. Never close a routine PR for any other
+reason; an unmerged PR's entries are not stale because the polishing frontier
+moved past them.
+
+**0c. Sweep orphan branches.** `mcp__github__list_branches`; for each
+`claude/*` branch that is neither this session's branch nor an open PR's head:
+
+```bash
+python3 pipeline/absorb_branch.py --residue <branch>
+```
+
+`no residue` → append `<UTC> prune-branch <branch> — absorbed` to
+`reviews/needs_curator.txt` unless a line naming that branch is already there
+(MCP cannot delete branches). Residue → find the branch's PR
+(`mcp__github__list_pull_requests` with `state: "closed"` and
+`head: "tkgally:<branch>"`, then `get_comments`): if a person closed it (the
+closing comment is not Claude-signed), leave the branch and write one line to
+`reviews/needs_curator.txt`; otherwise absorb it as in 0b (`--pr` if it had
+one). Zero strands and zero orphans is the normal case.
 
 There is no lock step: each run is a fresh container and the schedule never
 overlaps runs.
@@ -72,7 +117,7 @@ you changed (see §4 step 1 for the command that lists them):
 
 ```bash
 python3 build/normalize_notes.py --ids <ids> --apply      # canonical headers, '- ' bullets
-python3 build/auto_link.py --ids <ids> --apply            # unambiguous inline links
+python3 build/auto_link.py --ids <ids> --apply --confirm-real-entries   # unambiguous inline links
 python3 build/harvest_crossrefs.py --ids <ids> --apply    # cross-references named in notes
 python3 build/validate.py --id <id> ...                   # each changed entry
 ```
@@ -157,8 +202,12 @@ previous snapshot. If the script errors, note it and continue.
    (next free NNN): mode and reason, range or params, per-item changes, the
    self-check outcome (clean / N applied / N rejected / N flagged), candidates
    added, observations logged, next cursor values.
-3. **Refresh indexes**: `make index`.
-4. **Commit and push everything** (`git add -A`), including
+3. **Run the CI checks locally**: `make gate` (unit tests, full validation,
+   and the ratchet gates CI runs on a PR). Fix what it reports — remedies in
+   §0b — and re-run until clean. A PR that fails here fails CI, and a red PR
+   costs a whole run.
+4. **Refresh indexes**: `make index`.
+5. **Commit and push everything** (`git add -A`), including
    `entries_index.json`, `build/word_id_lookup.json`, `kanji/`,
    `pipeline/routine-state.json`, `pipeline/openrouter-ledger.json`,
    `pipeline/metrics-history.jsonl`, `reviews/decisions.jsonl`,
@@ -167,24 +216,35 @@ previous snapshot. If the script errors, note it and continue.
    git add -A && git commit -m "routine(<mode>): <short summary>"
    git push -u origin "$(git rev-parse --abbrev-ref HEAD)"
    ```
-5. **PR → CI → merge**, the atomic tail (no other tool calls in between):
+   This is the run's last push. Commit nothing more on this branch afterwards:
+   every push starts a new CI run, and the merge waits for the newest one (the
+   "CI still pending" notes earlier runs pushed after opening their PR were
+   what kept those PRs from ever showing green in time).
+6. **PR → CI → merge**, the atomic tail (no other tool calls in between):
    1. `mcp__github__create_pull_request` (`owner: "tkgally"`, `repo:
       "je-dict-1"`, `head: <branch>`, `base: "main"`); title
       `routine(<mode>): …` and a body written per
       `.claude/skills/clear-reports/SKILL.md` (plain English for the curator,
       the self-check outcome included). Note the PR number.
    2. Poll `mcp__github__pull_request_read` with `method: "get_check_runs"`.
-      Green = every run `completed` with conclusion `success`, `neutral`, or
-      `skipped`; failed = any other completed conclusion; pending = otherwise.
-      While pending, wait with a backgrounded `sleep 30` (Bash
-      `run_in_background: true`) and re-poll, at most 16 times.
+      Green = `total_count >= 1` and every run `completed` with conclusion
+      `success`, `neutral`, or `skipped`; failed = any other completed
+      conclusion; pending = otherwise (including `total_count: 0` right after
+      creation). While pending, wait in the foreground with
+      `python3 pipeline/wait.py 60` (a plain Bash call; its output "waited 60s"
+      is the proof) and re-poll, at most 15 times. The `validate` check takes
+      five to seven minutes. Never wait with a backgrounded `sleep`: it returns
+      at once, and a loop built on it "polls sixteen times" in two minutes.
    3. Green → `mcp__github__merge_pull_request` with `merge_method: "squash"`.
-      Failed → leave the PR open, name the failed check in the session log,
-      stop. Still pending at the cap → leave it open and stop; the next run's
-      §0a rescues it.
+      Failed → read the failing step (`mcp__github__get_job_logs` with
+      `failed_only: true` and the `run_id` from the check run's `html_url`),
+      fix it, `make gate`, commit, push, and poll again from step 2, once; if
+      it fails again, leave the PR open and say so in the report — the next
+      run's §0b absorbs it. Still pending at the cap → leave it open and stop;
+      the next run's §0a rescues it.
    - Never `enable_pr_auto_merge`, never `git checkout main`, never delete the
      branch.
-6. **End with a clear report** per the `clear-reports` skill: what this run did
+7. **End with a clear report** per the `clear-reports` skill: what this run did
    and found, in plain English, and what if anything needs the curator.
 
 ---
@@ -302,13 +362,17 @@ per occurrence (this ledger is read by the linker and by the CI gate):
 
 ```bash
 mcp__github__list_pull_requests / list_branches          # §0 rescue and sweeps
+python3 pipeline/absorb_branch.py <branch> --pr N        # §0b take over a red predecessor
+python3 pipeline/absorb_branch.py --residue <branch>     # §0c what an orphan branch still holds
 python3 pipeline/routine_next.py                         # §1 pick the mode
 python3 build/normalize_notes.py --ids … --apply         # §3 mechanical pass
-python3 build/auto_link.py --ids … --apply
+python3 build/auto_link.py --ids … --apply --confirm-real-entries
 python3 build/harvest_crossrefs.py --ids … --apply
 python3 build/review_accuracy.py --ids … --budget 0.40   # §4 self-check
 python3 build/review_accuracy.py --range S E --budget B  # §A sweep
 python3 pipeline/metrics_snapshot.py --mode M --changed N
+make gate                                                # §7 the CI checks, before the push
 make index                                               # §7 indexes (no site build)
+python3 pipeline/wait.py 60                              # §7 wait between CI polls
 mcp__github__create_pull_request → get_check_runs → merge_pull_request (squash)
 ```

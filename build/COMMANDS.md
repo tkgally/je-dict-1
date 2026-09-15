@@ -22,6 +22,7 @@ python3 build/check_link_targets.py                # Inline links whose target e
 python3 build/check_link_baseform.py --gate        # CI ratchet: link target is the entry for its own base form
 python3 build/check_link_homophones.py --gate      # CI gate: block-tier kana links need a keep decision; unlinked links stay gone
 python3 build/validate_articles.py                 # CI gate: articles/*.json — schema, furigana, link targets, related entries
+make gate                                          # Exactly the CI checks on a PR (tests, validation, ratchet gates); run before every push
 python3 build/update_indexes.py                    # entries_index.json, candidate sync, word lookup
 python3 build/update_kanji_index.py                # Rebuild kanji JSON; --check-new lists kanji needing IDs
 python3 build/build_flat.py                        # Full site build into docs/ (CI does this on merge)
@@ -114,6 +115,9 @@ python3 pipeline/routine_next.py --force-mode polish
 python3 pipeline/metrics_snapshot.py --mode polish --changed 16
 python3 pipeline/metrics_report.py                  # Regenerate the quality-metrics page
 python3 pipeline/update-brief.py                    # Refresh PROJECT_CONTEXT_BRIEF.md
+python3 pipeline/absorb_branch.py <branch> --pr N   # Merge a stranded Routine branch with the per-file policy (entries/code merge, indexes keep main, ledgers union)
+python3 pipeline/absorb_branch.py --residue <branch> # What a claude/* branch still holds that main lacks (empty = safe to prune)
+python3 pipeline/wait.py 60                         # Foreground wait between CI polls (a backgrounded sleep does not wait)
 ```
 
 ## Coverage analysis

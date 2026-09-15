@@ -1,4 +1,4 @@
-.PHONY: test install-hooks metrics-page validate validate-articles validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
+.PHONY: gate test install-hooks metrics-page validate validate-articles validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
 
 validate:
 	python3 build/validate.py
@@ -9,6 +9,20 @@ validate-articles:
 
 validate-changed:
 	python3 build/validate.py --changed-only
+
+# Exactly the checks .github/workflows/validate.yml runs on a PR. Run it before
+# every push: a PR that fails here fails CI. --changed-only compares against
+# origin/main, so main must be fetched (the fetch is here).
+gate:
+	python3 -m unittest discover -s build/tests -t .
+	python3 build/validate.py
+	python3 build/validate_articles.py
+	git fetch -q origin main
+	python3 build/validate.py --changed-only --ratchet
+	python3 build/validate_tags.py --check-no-new-unknown
+	python3 build/check_note_headers.py --gate
+	python3 build/check_link_baseform.py --gate
+	python3 build/check_link_homophones.py --gate
 
 index: validate
 	python3 build/update_indexes.py

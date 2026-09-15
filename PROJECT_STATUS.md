@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-09-14
+**Last updated**: 2026-09-15
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-15 (Interactive: stranded Routine branches recovered; the Routine now absorbs red PRs)
+
+Four Routine branches had been left unmerged. The causes: the Routine's wait between CI polls was
+a backgrounded `sleep`, which returns at once, so it gave up on every PR after about two minutes
+while the check takes five to seven; it then pushed a "CI still pending" note, which restarted CI;
+two PRs had real one-token CI failures no rule allowed a later run to fix; and the "stale PR"
+sweep closed a polish PR whose range the next run had deliberately skipped. Recovered all of it:
+merged #3299; absorbed #3293 (20 new entries, IDs 30893–30912: ハチ{公|こう}, {鼠海豚|ねずみいるか},
+the crab cluster ズワイ{蟹|がに}/タラバ{蟹|がに}/{毛蟹|けがに}/{花咲蟹|はなさきがに}/{蟹味噌|かにみそ}/
+{越前蟹|えちぜんがに}, {科|か}す, and others) and #3290 (polish of 27 entries: canonical note headers,
+concrete semantic tags in place of "general", a {双六|すごろく} ↔ {凧揚|たこあ}げ/{羽根|はね}つき/かるた
+New-Year-games cluster, a gloss fix for {双六|すごろく}, formality fixes). New tooling:
+`pipeline/absorb_branch.py` (policy merge of a stranded branch; `--residue` says what a branch still
+holds), `make gate` (exactly the CI checks, run before every push), `pipeline/wait.py` (a wait
+that waits). The Routine prompt now absorbs a red predecessor instead of leaving or closing it,
+runs the gate before pushing, pushes nothing after opening its PR, and waits properly.
+
 ### 2026-09-14 (Routine v3: new-entries — 20 New Entries, IDs 30913–30932)
 
 Created 20 general-tier entries from the "seen in entry" internal-closure lane. Because an
@@ -88,6 +105,35 @@ gloss (the memorial-service sense is correct and matches the entry's own explana
 stylistic nitpick on 30932 {三七日|みなのか}'s gloss that already matches its sibling entries'
 established "Nth-day memorial service" phrasing. In-context kana-link check: 13 links reviewed,
 0 flagged. Cost: $0.0174 self-check, $0.5175 spent today against the $5.00 daily cap.
+
+### 2026-09-14 (Routine v3: new-entries — 20 New Entries, IDs 30893–30912)
+
+Created 20 general-tier entries, all from the "seen in entry" internal-closure lane (49 available,
+20 taken). ハチ{公|こう} (from 00632 {犬|いぬ}), {鼠海豚|ねずみいるか} (contrasted with 04313
+{海豚|いるか}), {大縄|おおなわ} (the rope itself, from 06323 {縄跳|なわと}び), {重圧|じゅうあつ}
+(from 07163 プレッシャー), {用地|ようち} (contrasted with 00365 {敷地|しきち}), {専任|せんにん}
+(from 00451 {講師|こうし}), {五時|ごじ} (from 00504), a poem cluster from 02139 {詩|し}:
+{詩的|してき} and {詩集|ししゅう}, {詐称|さしょう} (from 02628 {学歴|がくれき}), {天賦|てんぷ}
+(contrasted with 02772 {才能|さいのう}), {進水|しんすい} (from 04484 {造船|ぞうせん}),
+{書架|しょか} (the library-register word for 04489 {本棚|ほんだな}), the verb {科|か}す ("to
+impose a fine/penalty," from 04955 {樹木|じゅもく}'s tree-felling example), and a six-word crab
+cluster from 04325 {蟹|かに}: ズワイ{蟹|がに}, タラバ{蟹|がに}, {毛蟹|けがに},
+{花咲蟹|はなさきがに}, {蟹味噌|かにみそ}, and the regional brand {越前蟹|えちぜんがに}. One new
+kanji indexed: {賦|ふ} (levy), added as 02802_fu_none_levy.
+
+**Two stale `noentry` markers resolved**: 04121 {解散|かいさん} ({五時|ごじ}) and 04313
+{海豚|いるか} ({鼠海豚|ねずみいるか}). Cross-reference harvest added one reciprocal pair:
+30898 {専任|せんにん} ↔ 10675 {非常勤|ひじょうきん}.
+
+**§4 self-check on all 23 changed entries (20 new plus 3 touched by the stale-link and
+cross-reference passes): 2 flags, 1 applied, 1 rejected.** 04121 {解散|かいさん}'s example 5
+translation ("The tour was dismissed in front of the station") was unnatural English for a
+group simply dispersing — reworded to "The tour group dispersed in front of the station."
+Rejected a notes-fact flag on ハチ{公|こう} as a model misreading (its suggested correction was
+identical to the original text). In-context kana-link check: 0 flags. Cost: $0.0108 self-check,
+$0.5109 spent today against the $5.00 daily cap.
+
+**Queue**: 20 candidates auto-cleared on `update_indexes.py`. Candidate queue stands at 205.
 
 ### 2026-09-12 (Routine v3: new-entries — 20 New Entries, IDs 30873–30892)
 
@@ -167,38 +213,3 @@ found along the way, おめでとうございます, screened as `unique` (no co
 
 **Queue**: 20 candidates auto-cleared on `update_indexes.py`; one removed by hand as a duplicate.
 Candidate queue stands at 196, with 21 internal-closure candidates left for the next new-entries run.
-
-### 2026-09-09 (Interactive: seven new articles, inline links in all ten articles, 39 entries for words they use)
-
-Tom asked for seven new articles for the site's Articles page, a consistency review of all ten, inline links to entries for every Japanese word the articles use, and entries for the words that had none. The seven new articles: **The Te-Form Helper Verbs** (ている, てある, ておく, てしまう, てみる, ていく, てくる — the "aspect article" the planning wiki had ranked as the top gap), **Transitive and Intransitive Verb Pairs**, **Giving and Receiving** (あげる・くれる・もらう), **Body-Part Idioms** (about seventy idioms from 頭 to 骨), **Katakana Loanwords and Wasei-eigo**, **Greetings and Set Phrases for Everyday Life**, and **Referring to People** (pronouns, name suffixes, titles, family terms). Each runs about 900–1,200 words, ends with tips, and cross-links the articles that touch the same ground.
-
-**Articles now carry inline links.** The article renderer could not render `⟦…⟧` links before, and its table parser split cells on the `|` inside furigana, so the keigo article's verb table had been rendering as fragments on the live site; both are fixed, with unit tests. A new `build/link_articles.py` runs the deterministic linker over article bodies with the same rules and homophone guards as entries, and `build/validate_articles.py` (now a CI step) checks schema, furigana, link targets, and related entries. The ten articles hold about 1,400 links, of which 211 were placed by hand where the linker is deliberately silent — あげる (four entries share the reading), set phrases the tokenizer splits (こちらこそ, はじめまして), and the bare helper forms 〜ている/〜ておく that an article about them must link.
-
-**39 new entries (30814–30852)** for words the articles use that had no entry: the helper verbs ていく, てくる, てる, とく and the term 補助動詞; fifteen idioms (頭が上がらない, 目がない, 口に合う, 歯が立たない, 首になる, 首を長くする, 肩を持つ, 肩の荷が下りる, 胸がいっぱい, 腹を立てる, 手に入れる, 手がかかる, 足を洗う, 喉から手が出る, 骨が折れる); the false friends スマート and ナイーブ and the coinages ペーパードライバー, キーホルダー, スキンシップ, マイペース; ご両親, 息子さん, 娘さん; 音便; and nine greeting formulas (おはようございます, ごちそうさまでした, ありがとうございました, おめでとうございます, お世話になりました, こちらこそ, お疲れ様でした, 明けましておめでとうございます, 良いお年を). The independent-model check of the 39 entries found one issue, and the link check two, all adjudicated; a stale link in 04467 that the new ありがとうございました entry made resolvable was retargeted.
-
-**Pilot articles revised**: the counters article's counting lists now use kanji with furigana ({一本|いっぽん}) instead of bare kana, so they link and render readings; the keigo article's "double honorific" example was replaced (お召し上がりになる is an established exception, not the error it was presented as); the onomatopoeia article's spellings were matched to the entries. A pre-existing duplicate surfaced on the way: 01993 and 02446 are both the core-tier counter 〜軒, differing only in the tilde character — flagged for Tom.
-
-### 2026-09-08 (Interactive: wrong-lexeme kana inline links — workflow, guards, and a dictionary-wide sweep)
-
-Tom found そうして in the こそあど note of ああして (16667) linked to 02943 そうして "and then", where it is
-the て-form of そうする. The deterministic linker links a kana word to the one entry that has its
-reading, and "one entry" is a fact about the dictionary, not the language. The exposed class is
-links whose surface and base are both kana and not a function-table word: 35,235 of the 1,010,312
-links, over 1,309 kana words (kanji, katakana, and particle links are not affected).
-
-**Workflow added.** `build/check_link_homophones.py` inventories the class against a curated tier
-list (`build/data/kana_link_homophones.json`: `unique` / `verify` / `block`) and is a CI gate;
-`build/review_links.py` screens each kana word for same-kana competitors with a model, reviews
-occurrences in context, and applies adjudicated decisions from the new ledger
-`reviews/link_decisions.jsonl`. The linker never links a `block` word from kana and never re-links
-a word a decision removed from an entry; the cross-reference harvester applies the same block list.
-The Routine's self-check now runs the in-context link check on every changed entry.
-
-**Sweep.** 1,305 kana words screened ($0.09 with gemini-2.5-flash; a first attempt with
-gemini-2.5-pro lost 65 of 66 responses to its reasoning budget, $1.40 wasted), 20,366 links judged
-in context ($0.92), 1,270 flags adjudicated by hand: 647 kept (same word, often a sense the entry
-lacks), 593 unlinked, 65 retargeted; 658 links repaired in 530 entries. Tiers: 1,100 unique, 185
-verify, 24 block. The review also exposed three linker bugs (a verb stem re-read as another verb's
-imperative inside its own entry; さする carrying a suru-verb table; か+な split at sentence end),
-all fixed with tests, and four sense gaps for the curator (かかる, かける, つける, けち).
-Candidates: そうする, 窺う, particle のみ, particle なり.
