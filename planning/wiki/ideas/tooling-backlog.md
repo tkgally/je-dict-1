@@ -5939,6 +5939,13 @@ here almost always documents **one** borrowed sense of a word that was borrowed 
 so same-spelling-different-sense is the *normal* case for loanwords and the exceptional one for
 native vocabulary.
 
+**RESOLVED 2026-09-15.** `MECHANICAL` in `check_stale_noentry.py` is now `("A1",)`; a katakana-base
+match still classifies as A2 but no longer reports `mechanical: true`, so it lands in the same
+per-entry judgment queue as A3/B/C instead of being auto-fixed. By the time this ran, the
+detector's live mechanical bucket already held 0 A1/A2 pairs — the 22 measured on 2026-08-31 had
+already been cleared by intervening new-entries/systemic-fix runs — so no entries needed a hand
+fix this pass; the change closes the false-positive path for future A2 hits.
+
 ### Update to item 112 (`check_duplicate.py`'s blind shapes) — a fourth: the bare suffix vs its tilde entry
 
 A 2026-08-28 new-entries run found three "seen in entry" candidates — 系/けい, 用/よう, 製/せい —
