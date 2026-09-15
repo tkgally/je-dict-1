@@ -34,7 +34,10 @@ Absorbing merges ``origin/<branch>`` into HEAD and resolves conflicts like this:
   whole merge and list the files — that needs a person.
 
 Entries the branch changed are never resolved by policy: a clean auto-merge
-stands, a conflict aborts. Entries changed on both sides since the branch
+stands, a conflict aborts. A new kanji the branch registered in
+``kanji/kanji_list.json`` is dropped with the generated files; ``make index``
+reports it and it is re-added with the next free ID (the branch's ID may since
+have gone to another kanji on main). Entries changed on both sides since the branch
 diverged are listed at the end so the caller can validate and read them.
 After a successful absorb run ``make gate`` and fix what it reports.
 """
@@ -411,7 +414,9 @@ def absorb(branch: str, pr: int | None, commit: bool) -> int:
               f"auto-merged, read and validate them:")
         for p in both_sides:
             print(f"  {p}")
-    print("\nNext: python3 build/validate.py --id <each id above>; make gate; fix what it reports.")
+    print("\nNext: make gate; fix what it reports. Then make index: if it reports a kanji needing an ID,"
+          " the branch introduced a new kanji — add it to kanji/kanji_list.json with the next free ID"
+          " (the branch's own assignment was discarded with its generated files) and rerun.")
     return 0
 
 

@@ -108,7 +108,7 @@ skill for the entry type you touch.
 
 ```bash
 python3 build/normalize_notes.py --ids <ids> --apply
-python3 build/auto_link.py --ids <ids> --apply
+python3 build/auto_link.py --ids <ids> --apply --confirm-real-entries
 python3 build/harvest_crossrefs.py --ids <ids> --apply
 python3 build/validate.py --id <id>            # each changed entry
 python3 build/review_accuracy.py --ids <ids> --budget 0.40   # independent check (needs OPENROUTER_API_KEY)
@@ -120,10 +120,12 @@ decision to `reviews/decisions.jsonl`. A link flag is adjudicated with a `keep` 
 in `reviews/link_decisions.jsonl`; `review_links.py --apply-decisions --ids <ids>` applies the
 unlinks.
 
-**Finish**: `make index` (validation, `entries_index.json`, `build/word_id_lookup.json`, `kanji/`).
-Do not run `make build` and do not commit `docs/`: the site is built and deployed by GitHub
-Actions when the PR merges. Commit everything else with `git add -A`, push, open the PR, wait for
-CI, squash-merge.
+**Finish**: `make gate` (exactly the checks CI runs on a PR: unit tests, full validation, the
+ratchet gates on changed entries; fix what it reports), then `make index` (`entries_index.json`,
+`build/word_id_lookup.json`, `kanji/`). Do not run `make build` and do not commit `docs/`: the site
+is built and deployed by GitHub Actions when the PR merges. Commit everything else with
+`git add -A`, push, open the PR, wait for CI, squash-merge. Push nothing more after opening the
+PR: each push starts a new CI run.
 
 ## PR, CI, and merge workflow
 
@@ -138,11 +140,14 @@ the GitHub MCP tools reach GitHub.
 2. Poll `mcp__github__pull_request_read` with `method: "get_check_runs"` (never `get_status`,
    which is blind to Actions checks). Green = `total_count >= 1` and every run `completed` with
    conclusion `success`, `neutral`, or `skipped`; failed = any other completed conclusion; pending
-   = otherwise. While pending, `sleep 30` via Bash with `run_in_background: true`, then re-poll; at
-   most 16 polls.
-3. Green → `mcp__github__merge_pull_request` with `merge_method: "squash"`. Failed → leave the PR
-   open, note the failed check in the session log, stop. Pending at the cap → leave it open; the
-   next Routine run's pre-flight rescues it.
+   = otherwise. While pending, wait in the foreground with `python3 pipeline/wait.py 60` via
+   Bash, then re-poll; at most 15 polls (the check takes five to seven minutes). Never a
+   backgrounded `sleep`: it returns immediately, so the loop finishes long before CI does.
+3. Green → `mcp__github__merge_pull_request` with `merge_method: "squash"`. Failed → read the
+   failing step's log (`mcp__github__get_job_logs`, `failed_only: true`), fix, `make gate`, push
+   once more and re-poll; if it fails again leave the PR open and report it (the next Routine
+   run's pre-flight absorbs it). Pending at the cap → leave it open; the next Routine run's
+   pre-flight rescues it.
 4. Do not `enable_pr_auto_merge`, do not `git checkout main`, do not delete the branch (the repo
    deletes merged head branches automatically).
 
@@ -152,20 +157,26 @@ the GitHub MCP tools reach GitHub.
 && git pull origin main`, `git branch -d <branch>`.
 
 **Sweep stranded PRs via MCP** (Routine pre-flight). For each open PR whose head starts with
-`claude/`: if its title starts with `routine` and its check runs are all green, it is mergeable,
-and no human commented, merge it (squash). Otherwise, `mcp__github__pull_request_read` with
-`method: "get_files"`; if it touches entry files and the highest entry ID among them is below the
-`next:` value in `polishing/tasks/comprehensive/progress.txt`, comment
-(`mcp__github__add_issue_comment`) and close it (`mcp__github__update_pull_request`,
-`state: "closed"`). Leave anything else open.
+`claude/` and whose title starts with `routine`: check runs all green, mergeable, no human comment
+→ merge it (squash). Check run still pending → leave it (the next run rescues it). Check run
+failed → take its content over into this session's branch with
+`python3 pipeline/absorb_branch.py <head-branch> --pr <number>` (per-file merge policy: entries
+and code merge normally, generated files and cursors keep main's version, ledgers take the union,
+a colliding session log is renamed, the candidate queue is reconciled; an entry or code conflict
+aborts the merge and names the files), run `make gate`, fix what it reports, and after this
+session's own PR merges comment "absorbed into PR #N" on the old PR and close it. An aborted
+absorb gets one line in `reviews/needs_curator.txt` and the PR stays open. Never close a routine
+PR because the polishing frontier has moved past its entries; that rule lost a run's work on
+2026-09-14.
 
 **Sweep orphan `claude/*` branches via MCP.** `mcp__github__list_branches`; for each `claude/*`
-branch that is neither this session's branch nor an open PR's head: fetch it, diff its durable
-files against `origin/main` (ignore generated files: `entries_index.json`,
-`build/word_id_lookup.json`, `kanji/`, `pipeline/routine-state.json`, ledgers, metrics). No
-residue → append `<UTC> prune-branch <branch> — absorbed` to `reviews/needs_curator.txt` (MCP
-cannot delete branches). Residue and never had a PR and merges cleanly → open a PR for it. Anything
-else → one line in `reviews/needs_curator.txt` saying why no action was taken.
+branch that is neither this session's branch nor an open PR's head:
+`python3 pipeline/absorb_branch.py --residue <branch>`. No residue → append
+`<UTC> prune-branch <branch> — absorbed` to `reviews/needs_curator.txt` unless a line naming the
+branch is already there (MCP cannot delete branches). Residue → absorb it as above, unless a person
+closed its PR (find it with `mcp__github__list_pull_requests`, `state: "closed"`,
+`head: "tkgally:<branch>"`; a closing comment that is not Claude-signed means a person decided):
+then one line in `reviews/needs_curator.txt` and no action.
 
 ## Parallel work
 

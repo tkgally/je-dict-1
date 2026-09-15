@@ -10,7 +10,7 @@ Modes:
     python3 build/validate.py --changed-only      # entry files changed vs origin/main
                                                   # (three-dot diff; falls back to HEAD~1)
     python3 build/validate.py --range 10000 10499
-    python3 build/validate.py --id 00001_taberu
+    python3 build/validate.py --id 00001_taberu   # or --id 00001
 
 Ratchet (CI, for the entries a PR touches):
     python3 build/validate.py --changed-only --ratchet
@@ -1608,7 +1608,9 @@ def main():
         # Find entry by ID
         entries_dir = project_root / 'entries'
         entry_path = None
-        for file_path in entries_dir.glob(f'**/{args.id}.json'):
+        # Accept the full ID (00001_taberu) or just its number (00001).
+        pattern = f'**/{args.id}_*.json' if args.id.isdigit() else f'**/{args.id}.json'
+        for file_path in sorted(entries_dir.glob(pattern)):
             entry_path = file_path
             break
         if not entry_path:

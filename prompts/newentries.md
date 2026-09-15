@@ -129,7 +129,7 @@ grep -B1 -A3 -E '"seen in entry|used in' candidate_words.json | head -80
    python3 build/update_indexes.py                        # Sync candidate_words.json, word lookup
    python3 build/update_kanji_index.py --check-new        # New kanji need on'yomi, kun'yomi, gloss
    python3 build/normalize_notes.py --ids <ids> --apply   # Canonical headers, '- ' bullets
-   python3 build/auto_link.py --ids <ids> --apply         # Unambiguous inline links in the new entries
+   python3 build/auto_link.py --ids <ids> --apply --confirm-real-entries   # Unambiguous inline links in the new entries
    python3 build/harvest_crossrefs.py --ids <ids> --apply # Cross-references named in the notes
    python3 build/check_stale_noentry.py --class A1 A2 --json   # Markers elsewhere now resolvable by the new entries
    python3 build/check_link_newcomers.py --since $(date -u +%Y-%m-%d) --json  # Links whose word just gained a homograph
