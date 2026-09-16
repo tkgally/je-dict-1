@@ -1920,3 +1920,14 @@ homograph-list truncation.)_
   one idiom mentioned in its notes (蜥蜴の尻尾切り), not to the headword itself (a lizard) — removed.
   Worth checking whether other animal/object entries picked up a `domain` tag from an idiom's usage
   context rather than the word's own domain.
+- [tooling] accuracy-review of 27239–28238 (routine 2026-09-16): a sizeable share of `notes-fact`
+  flags (roughly a dozen of 37) were the reviewer's own artifact, not real entry defects. When a
+  note has two adjacent bullet points and the second begins with a furigana/inline-link span,
+  `review_accuracy.py`'s plain-text extraction for the flag's `quote` field appears to drop the
+  arrow/bullet boundary between them, concatenating unrelated sentences into a garbled composite
+  (e.g. 27349_funkakou, 27356_shousuu, 27357_ginkouin, 27375_taikiatsu, 27600_nakerebanaranai,
+  27601_nakutehaikenai, 27633_juugonichi, 27644_inokoru, 27655_chaku) or stripping furigana that
+  distinguished two readings of the same kanji, making them look identical (27965_ikaru,
+  28118_shitsuu). In every case the underlying entry text was already correct; all were rejected
+  in `reviews/decisions.jsonl`. Worth checking the `quote` extraction logic in
+  `build/review_accuracy.py` against notes with multiple bullets or furigana-only distinctions.
