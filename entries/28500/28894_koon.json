@@ -4,12 +4,17 @@
   "reading": "こーん",
   "romaji": "koon",
   "part_of_speech": "noun",
-  "gloss": "cone (shape; ice cream; traffic)",
+  "gloss": "cone (shape; ice cream; traffic); corn (loanword)",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "cone shape; ice cream cone; traffic cone",
       "explanation": "A cone-shaped object. Covers geometric cones, the wafer cones used for ice cream, and the bright safety cones used to mark off areas on roads and construction sites."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "corn (the grain)",
+      "explanation": "From English \"corn.\" An unrelated loanword that happens to share the same katakana spelling as the \"cone\" sense; context makes the meaning clear."
     }
   ],
   "examples": [
@@ -42,9 +47,19 @@
       ],
       "has_audio": false,
       "notes": null
+    },
+    {
+      "id": "28894_koon_ex4",
+      "japanese": "⟦サラダ→サラダ：01364_sarada⟧⟦に→に：00314_ni⟧コーン⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
+      "english": "There's corn in the salad.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
     }
   ],
-  "notes": "Loanword from English \"cone.\" Covers several distinct objects in Japanese — geometric, edible, and safety — without distinguishing them lexically. Note: コーン also means \"corn\" as a separate loanword from \"corn\" (the grain); context usually makes which one clear.\n\nCOMMON COLLOCATIONS:\n- ⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧コーン: ice cream cone\n- ⟦{三角|さんかく}→三角：04177_sankaku⟧コーン: traffic cone (\"triangle cone\")\n- ⟦カラー→カラー：10820_karaa⟧コーン: colored safety cone (often used generically)\n- コーン⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧: cone shape\n\nSIMILAR WORDS:\n- ⟦{円錐|えんすい}→円錐：05550_ensui⟧: cone (the technical geometric term)",
+  "notes": "Loanword from English \"cone\" (sense 1) and \"corn\" (sense 2, the grain) — two unrelated English sources that happen to share the same katakana spelling. Context makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- ⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧コーン (sense 1): ice cream cone\n- ⟦{三角|さんかく}→三角：04177_sankaku⟧コーン (sense 1): traffic cone (\"triangle cone\")\n- ⟦カラー→カラー：10820_karaa⟧コーン (sense 1): colored safety cone (often used generically)\n- コーン⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧ (sense 1): cone shape\n- コーンスープ (sense 2): corn soup\n- ⟦{缶詰|かんづめ}→缶詰：00187_kanzume⟧コーン (sense 2): canned corn\n\nSIMILAR WORDS:\n- ⟦{円錐|えんすい}→円錐：05550_ensui⟧: cone (the technical geometric term)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -64,11 +79,12 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "general",
+        "food"
       ],
       "domain": []
     },
     "created": "2026-06-07T02:04:13Z",
-    "modified": "2026-09-02T04:02:35Z"
+    "modified": "2026-09-16T10:08:21Z"
   }
 }
