@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09469_choukai_ex1",
-      "japanese": "{懲戒|ちょうかい}{処分|しょぶん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
+      "japanese": "{懲戒|ちょうかい}⟦{処分|しょぶん}→処分：05520_shobun⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "To receive disciplinary action.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09469_choukai_ex2",
-      "japanese": "{懲戒|ちょうかい}{解雇|かいこ}になった。",
+      "japanese": "{懲戒|ちょうかい}⟦{解雇|かいこ}→解雇：04561_kaiko⟧になった。",
       "english": "I was fired for disciplinary reasons.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{懲戒|ちょうかい} is a formal term for official disciplinary measures in professional and institutional settings.\n\nCommon compounds:\n- {懲戒|ちょうかい}{処分|しょぶん} (disciplinary action/measure)\n- {懲戒|ちょうかい}{解雇|かいこ} (dismissal for cause)\n- {懲戒|ちょうかい}{免職|めんしょく} (disciplinary dismissal - for civil servants)\n- {懲戒|ちょうかい}⟦{請求|せいきゅう}→請求：03374_seikyuu⟧ (disciplinary complaint)\n\nTypes of disciplinary action (from mild to severe):\n- ⟦{戒告|かいこく}→戒告：15250_kaikoku⟧ (admonition)\n- ⟦{減給|げんきゅう}→減給：10205_genkyuu⟧ (pay cut)\n- {停職|ていしょく} (suspension)\n- {懲戒|ちょうかい}{解雇|かいこ}/⟦{免職|めんしょく}→免職：18807_menshoku⟧ (dismissal)\n\nRelated words:\n- ⟦{処分|しょぶん}→処分：05520_shobun⟧: disposition, punishment\n- ⟦{処罰|しょばつ}→処罰：21006_shobatsu⟧: punishment\n- ⟦{制裁|せいさい}→制裁：11846_seisai⟧: sanction",
+  "notes": "{懲戒|ちょうかい} is a formal term for official disciplinary measures in professional and institutional settings.\n\nCommon compounds:\n- {懲戒|ちょうかい}⟦{処分|しょぶん}→処分：05520_shobun⟧ (disciplinary action/measure)\n- {懲戒|ちょうかい}⟦{解雇|かいこ}→解雇：04561_kaiko⟧ (dismissal for cause)\n- {懲戒|ちょうかい}⟦{免職|めんしょく}→免職：18807_menshoku⟧ (disciplinary dismissal - for civil servants)\n- {懲戒|ちょうかい}⟦{請求|せいきゅう}→請求：03374_seikyuu⟧ (disciplinary complaint)\n\nTypes of disciplinary action (from mild to severe):\n- ⟦{戒告|かいこく}→戒告：15250_kaikoku⟧ (admonition)\n- ⟦{減給|げんきゅう}→減給：10205_genkyuu⟧ (pay cut)\n- {停職|ていしょく} (suspension)\n- {懲戒|ちょうかい}⟦{解雇|かいこ}→解雇：04561_kaiko⟧/⟦{免職|めんしょく}→免職：18807_menshoku⟧ (dismissal)\n\nRelated words:\n- ⟦{処分|しょぶん}→処分：05520_shobun⟧: disposition, punishment\n- ⟦{処罰|しょばつ}→処罰：21006_shobatsu⟧: punishment\n- ⟦{制裁|せいさい}→制裁：11846_seisai⟧: sanction",
   "metadata": {
     "created": "2026-02-01T15:20:34Z",
-    "modified": "2026-09-02T04:01:18Z",
+    "modified": "2026-09-17T21:45:31Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -163,7 +163,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "cross_references": [
