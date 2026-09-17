@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-09-15
+**Last updated**: 2026-09-17
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -49,6 +49,41 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-17 (Routine v3: new-entries — 20 New Entries, IDs 30933–30952)
+
+Created 20 general-tier entries, all from the "seen in entry" internal-closure lane. Buddhist
+memorial-day sequence: {四七日|よなのか}, {五七日|いつなのか}, {六七日|むなのか} (28th, 35th, 42nd
+day, rounding out the series alongside the existing {初七日|しょなのか} and {四十九日|しじゅうくにち}).
+Clear-soup terminology from 04990 {吸|す}い{物|もの}: {椀種|わんだね}, {吸|す}い{口|くち},
+{木|き}の{芽|め}. Regional food: {笹|ささ}かまぼこ, {笹寿司|ささずし}, みたらし. Spices from
+04943 {香辛料|こうしんりょう}: クミン, ターメリック. Proper nouns: {桃太郎|ももたろう}, 法隆寺
+(from the Masaoka Shiki haiku quoted in 04384 {柿|かき}), {土佐犬|とさいぬ}. Everyday items:
+スポーツサンダル, カニ (katakana spelling of {蟹|かに}), OCR, {一千万|いっせんまん},
+{消|け}し{忘|わす}れる, {打撲傷|だぼくしょう}.
+
+**One candidate dropped as a spelling-variant duplicate.** {売|う}り{上|あ}げ (sales) turned out to
+be the same word as the existing entry 04102 {売上|うりあげ}, whose own notes already say "can also
+be written as {売り上|うりあ}げ" — removed from the queue rather than written up.
+
+**Three stale `noentry` markers resolved**: 02184 {鬼|おに} ({桃太郎|ももたろう}), 02201 {傷|きず}
+({打撲傷|だぼくしょう}), 04677 コンロ ({消|け}し{忘|わす}れる). Cross-reference harvest also added
+reciprocal links into 06016 {初七日|しょなのか}, 06017 {四十九日|しじゅうくにち}, 04048 {草履|ぞうり},
+and 27707 ビーチサンダル.
+
+**§4 cross-model self-check on all 27 changed entries (20 new plus 7 neighbors touched by the
+noentry and cross-reference passes): 0 flags on the new entries.** Five flags landed on
+pre-existing neighbor entries; three applied (04048 {草履|ぞうり}'s formality tag contradicted its
+own notes that zori "can be formal or casual," corrected to neutral; 04677 コンロ and 30952
+{打撲傷|だぼくしょう} each carried a semantic tag that didn't fit — "food" on a stove, "body-part"
+on an injury — both removed), two rejected as reviewer noise (06017 {四十九日|しじゅうくにち}'s
+gloss covers both the day and the memorial service, consistent with its sibling entries; 30944
+{吸|す}い{口|くち}'s tags match its defined culinary sense, the mouthpiece sense is just an aside in
+the notes). In-context kana-link check: one flag on a pre-existing entry (04048 {草履|ぞうり}'s
+にくそうだった → にくい link), kept as a correct inflected form. Cost $0.014 total.
+
+**Queue**: 20 candidates auto-cleared on `update_indexes.py`; one removed by hand as a duplicate.
+Candidate queue stands at 209, with 33 internal-closure candidates left for the next new-entries run.
 
 ### 2026-09-15 (Interactive: stranded Routine branches recovered; the Routine now absorbs red PRs)
 
@@ -177,39 +212,3 @@ Cost: $0.0096 self-check, $0.5161 spent today against the $5.00 daily cap.
 **Queue**: 20 candidates auto-cleared on `update_indexes.py`, one removed by hand as a duplicate.
 Candidate queue stands at 203.
 
-### 2026-09-11 (Routine v3: new-entries — 20 New Entries, IDs 30853–30872)
-
-Created 20 general-tier entries, all from the "seen in entry" internal-closure lane, which emptied
-it to 41 remaining candidates. A roofing cluster harvested from 03902 {瓦|かわら}: {鬼瓦|おにがわら},
-{平瓦|ひらがわら}, {丸瓦|まるがわら}, and the verb pair {葺|ふ}く/{葺|ふ}き{替|か}える (two
-conjugation tables added). A shark trio from 04316 {鮫|さめ}: ホホジロザメ, ジンベエザメ,
-シュモクザメ. Two crocodilian loanwords contrasted against 04308 {鰐|わに}: クロコダイル,
-アリゲーター. Everyday items: テント{泊|はく}, {補聴器|ほちょうき}, {蝙蝠傘|こうもりがさ},
-{羽織袴|はおりはかま}, {吸盤|きゅうばん}, アイビー, モバイル, デフォルト. Two idioms:
-{前途洋洋|ぜんとようよう} and {不動心|ふどうしん}.
-
-**One candidate dropped as a spelling-variant duplicate.** {蔓|つる} (vine, tendril) turned out to
-be the same word as the existing kana-headed entry 27394 つる, whose own explanation already notes
-"sometimes written {蔓|つる} in kanji" — removed from the queue rather than written up, per the
-duplicate-variant policy.
-
-**18 stale `noentry` markers resolved** across 11 entries once the new words existed to fill them:
-03859 テント (テント{泊|はく}), 03902 {瓦|かわら} (all five roofing words), 04308 {鰐|わに}
-(both loanwords), 04323 {蛸|たこ} and 04968 {蔦|つた} (both {吸盤|きゅうばん}), 04354 {蝙蝠|こうもり}
-({蝙蝠傘|こうもりがさ}), 04872 ブラウザ and 04874 アプリケーション and 05627 {端末|たんまつ}
-(all モバイル), 05034 {聴力|ちょうりょく} ({補聴器|ほちょうき}), 05712 {羽織|はおり}
-({羽織袴|はおりはかま}). Cross-reference harvest also added reciprocal links into 02264 {屋根|やね},
-04316 {鮫|さめ}, 15380 {和傘|わがさ}, 17612 {日帰|ひがえ}り, 21200 {平常心|へいじょうしん}, and
-03781 {冷静|れいせい}.
-
-**§4 cross-model self-check on all 37 changed entries (20 new plus 17 neighbors touched by the
-noentry and cross-reference passes): 0 flags on the new entries.** Two flags landed on pre-existing
-neighbor entries and were both rejected as reviewer noise: 04316 {鮫|さめ}'s note already correctly
-caveats that sword-wrap {鮫|さめ}{皮|がわ} is usually ray skin, not shark skin, so the "factual
-inaccuracy" the model saw was already handled; 04968 {蔦|つた}'s generic top-level gloss "ivy" is
-deliberate (the notes and RELATED WORDS already specify Boston ivy and distinguish it from the new
-アイビー entry). In-context kana-link check: 0 flags. Cost $0.019 total. One unscreened kana word
-found along the way, おめでとうございます, screened as `unique` (no cost).
-
-**Queue**: 20 candidates auto-cleared on `update_indexes.py`; one removed by hand as a duplicate.
-Candidate queue stands at 196, with 21 internal-closure candidates left for the next new-entries run.
