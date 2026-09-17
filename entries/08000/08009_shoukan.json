@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08009_shoukan_ex1",
-      "japanese": "⟦{国債|こくさい}→国債：12016_kokusai⟧⟦の→の：09472_no⟧{償還|しょうかん}{期限|きげん}⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧。",
+      "japanese": "⟦{国債|こくさい}→国債：12016_kokusai⟧⟦の→の：09472_no⟧{償還|しょうかん}⟦{期限|きげん}→期限：12861_kigen⟧⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "The redemption date for the government bonds has arrived.",
       "sense_numbers": [
         1
@@ -143,7 +143,7 @@
       "notes": null
     }
   ],
-  "notes": "{償還|しょうかん} is a financial term referring to the repayment or redemption of bonds and other financial instruments, typically at their maturity date.\n\nWRITING:\n- {償|しょう} (compensate, repay)\n- {還|かん} (return, give back)\n\nUSAGE:\n- {償還|しょうかん}⟦する→する：00392_suru⟧ (to redeem, to repay - suru verb)\n- {償還|しょうかん}{期限|きげん}/{償還|しょうかん}{日|び} (redemption date)\n- {償還|しょうかん}{金|きん} (redemption payment)\n\nTYPES:\n- {満期|まんき}{償還|しょうかん} (redemption at maturity)\n- ⟦{繰|く}り{上|あ}げ→繰り上げる：07007_kuriageru⟧{償還|しょうかん} (early redemption)\n- ⟦{一部|いちぶ}→一部：06783_ichibu⟧{償還|しょうかん} (partial redemption)\n- {全額|ぜんがく}{償還|しょうかん} (full redemption)\n\nCOMMON OBJECTS:\n- ⟦{国債|こくさい}→国債：12016_kokusai⟧⟦の→の：09472_no⟧{償還|しょうかん} (government bond redemption)\n- ⟦{社債|しゃさい}→社債：24079_shasai⟧⟦の→の：09472_no⟧{償還|しょうかん} (corporate bond redemption)\n- ⟦{借入金|かりいれきん}→借入金：29454_kariirekin⟧⟦の→の：09472_no⟧{償還|しょうかん} (loan repayment)\n\nSIMILAR WORDS:\n- ⟦{返済|へんさい}→返済：04776_hensai⟧ - general repayment (loans)\n- {償還|しょうかん} - specifically for bonds and securities\n\nRELATED WORDS:\n- ⟦{返済|へんさい}→返済：04776_hensai⟧ (repayment)\n- ⟦{弁済|べんさい}→弁済：08008_bensai⟧ (repayment, reimbursement)\n- ⟦{元本|がんぽん}→元本：07072_ganpon⟧ (principal)\n- {満期|まんき} (maturity)",
+  "notes": "{償還|しょうかん} is a financial term referring to the repayment or redemption of bonds and other financial instruments, typically at their maturity date.\n\nWRITING:\n- {償|しょう} (compensate, repay)\n- {還|かん} (return, give back)\n\nUSAGE:\n- {償還|しょうかん}⟦する→する：00392_suru⟧ (to redeem, to repay - suru verb)\n- {償還|しょうかん}⟦{期限|きげん}→期限：12861_kigen⟧/{償還|しょうかん}{日|び} (redemption date)\n- {償還|しょうかん}{金|きん} (redemption payment)\n\nTYPES:\n- {満期|まんき}{償還|しょうかん} (redemption at maturity)\n- ⟦{繰|く}り{上|あ}げ→繰り上げる：07007_kuriageru⟧{償還|しょうかん} (early redemption)\n- ⟦{一部|いちぶ}→一部：06783_ichibu⟧{償還|しょうかん} (partial redemption)\n- ⟦{全額|ぜんがく}→全額：16829_zengaku⟧{償還|しょうかん} (full redemption)\n\nCOMMON OBJECTS:\n- ⟦{国債|こくさい}→国債：12016_kokusai⟧⟦の→の：09472_no⟧{償還|しょうかん} (government bond redemption)\n- ⟦{社債|しゃさい}→社債：24079_shasai⟧⟦の→の：09472_no⟧{償還|しょうかん} (corporate bond redemption)\n- ⟦{借入金|かりいれきん}→借入金：29454_kariirekin⟧⟦の→の：09472_no⟧{償還|しょうかん} (loan repayment)\n\nSIMILAR WORDS:\n- ⟦{返済|へんさい}→返済：04776_hensai⟧ - general repayment (loans)\n- {償還|しょうかん} - specifically for bonds and securities\n\nRELATED WORDS:\n- ⟦{返済|へんさい}→返済：04776_hensai⟧ (repayment)\n- ⟦{弁済|べんさい}→弁済：08008_bensai⟧ (repayment, reimbursement)\n- ⟦{元本|がんぽん}→元本：07072_ganpon⟧ (principal)\n- {満期|まんき} (maturity)",
   "cross_references": [
     {
       "type": "contrast",
@@ -183,9 +183,10 @@
         "finance",
         "money"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-24T23:46:14Z",
-    "modified": "2026-09-02T04:01:13Z"
+    "modified": "2026-09-17T09:44:53Z"
   }
 }
