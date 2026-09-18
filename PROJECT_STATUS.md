@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-09-17
+**Last updated**: 2026-09-18
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~30,703 |
+| Total entries | ~30,764 |
 | Basic tier | 801 (closed) |
 | Core tier | ~1,982 (closed) |
-| General tier | ~27,920 (open) |
-| Candidate words | ~204 (all vetted; queue cleaned 2026-08-11) |
+| General tier | ~27,981 (open) |
+| Candidate words | ~188 (all vetted; queue cleaned 2026-08-11) |
 | Cross-references | ~19,000 |
 | Example sentences | ~119,000 |
 
@@ -49,6 +49,47 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-18 (Routine v3: new-entries — 21 New Entries, IDs 30953–30973)
+
+Created 21 general-tier entries, all from the "seen in entry" internal-closure lane (34 available,
+21 taken). A place name tied to wolf worship: {三峯|みつみね} (Mitsumine Shrine, Saitama; from
+04334 {狼|おおかみ}). A cardigan-cut trio from 04520 カーディガン: ロングカーディガン,
+ショートカーディガン, ボタンレスカーディガン. A scanner-type trio from 05248 スキャナー:
+フラットベッドスキャナー, ハンディスキャナー, ドキュメントスキャナー. The steak-doneness scale
+from 01369 ステーキ: ミディアムレア, ミディアム, ウェルダン, plus two cuts, サーロインステーキ
+and フィレステーキ. {能楽堂|のうがくどう} (Noh theater building, from 01927 {能|のう}). A
+screen/display cluster from 01368 スクリーン: プロジェクター, スクリーンセーバー,
+ワイドスクリーン, マルチスクリーン. {噛|か}み{傷|きず} (bite wound, contrasted with 07340
+{切|き}り{傷|きず}). {五位鷺|ごいさぎ} (night heron, from 04939 {鷺|さぎ}). A fabric/trim pair
+from 04517 ブラウス: シフォン and フリル. One new kanji indexed: {峯|みね} (peak), added as
+02804_hou_mine_peak.
+
+**One candidate dropped before writing.** {蝦蟇|がま} (toad, C23481) turned out to be the same
+word as the existing entry 28705 ガマ, which already documents {蝦蟇|がま} as its kanji spelling
+in its own notes — removed from the queue rather than duplicated. Four other internal-closure
+candidates were set aside for editorial reasons rather than written up this run: {大口真神|おおくちのまかみ}
+(a deity name with no clean semantic-tag category), {師|し} and {両生|りょうせい} (bound morphemes
+too thin to support a standalone entry with natural example sentences), and 藤田/藤井 (generic
+surnames with no specific cultural referent, unlike the dictionary's existing person-name entries).
+All four remain in the queue for a future session to reconsider.
+
+**One stale `noentry` marker resolved**: 03853 セット (プロジェクター, in an example sentence about
+setting up equipment for a meeting).
+
+**§4 self-check on all 22 changed entries (21 new plus 03853, the noentry neighbor): 5 flags, 1
+applied, 4 rejected.** Applied: 03853 セット's semantic tags carried leftover `geography` and
+`leisure`, unrelated to any of its three senses (a set of items, a sports set, the act of setting
+up) — replaced with `general` and `sports`. Rejected as reviewer noise: three flags claiming the
+DONENESS SCALE lines in 30960/30961/30962's notes were missing steps — the model misread the
+inline-link arrows (⟦…→…⟧) around ミディアムレア/ミディアム/ウェルダン as if the scale itself were
+truncated; all four levels are present in each entry. One flag on 30972 シフォン's `clothing`
+semantic tag for a fabric name was rejected as consistent with the dictionary's own convention
+(cf. existing entry ウール, also a fabric, also tagged `clothing`). In-context kana-link check: 0
+flags. Cost: $0.0104 self-check, $1.032 spent today against the $5.00 daily cap.
+
+**Queue**: 21 candidates auto-cleared on `update_indexes.py`, one removed by hand as a duplicate.
+Candidate queue stands at 188.
 
 ### 2026-09-17 (Routine v3: new-entries — 20 New Entries, IDs 30933–30952)
 
@@ -169,46 +210,3 @@ identical to the original text). In-context kana-link check: 0 flags. Cost: $0.0
 $0.5109 spent today against the $5.00 daily cap.
 
 **Queue**: 20 candidates auto-cleared on `update_indexes.py`. Candidate queue stands at 205.
-
-### 2026-09-12 (Routine v3: new-entries — 20 New Entries, IDs 30873–30892)
-
-Created 20 general-tier entries, all from the "seen in entry" internal-closure lane (48 available,
-20 taken, one dropped first as a stale duplicate — see below). A maple-variety pair from 04375
-{楓|かえで}: {伊呂波楓|いろはもみじ} and {大楓|おおかえで}. A cotton-register pair from 00421
-{綿|わた}: コットン and {脱脂綿|だっしめん}. {実刑|じっけい} from 02786 {刑|けい} (its sibling
-candidate {服|ふく}する was dropped, see below). A butterfly-register pair from 04288 {蝶|ちょう}: {蝶々|ちょうちょう}
-(childish) and {胡蝶|こちょう} (literary). A blinds-orientation pair from 04890 ブラインド:
-{縦型|たてがた} and {横型|よこがた}. A broadleaf-tree cluster from 04957 {広葉樹|こうようじゅ}:
-{椎|しい}, {楠|くすのき}, {落葉広葉樹|らくようこうようじゅ}, {常緑広葉樹|じょうりょくこうようじゅ}.
-A squirrel pair from 04352 {栗鼠|りす}: {頬袋|ほおぶくろ} and {回|まわ}し{車|ぐるま}. Also
-{冷静沈着|れいせいちんちゃく} (from 07123), {馬乗|うまの}り (from 02245), {読者投稿|どくしゃとうこう}
-(from 03901), {一回忌|いっかいき} (from 06019), and {風|ふう} the "-style" suffix (from 00427,
-resolving that entry's own stale `noentry` marker for ヨーロッパ{風|ふう}).
-
-**One candidate dropped before writing.** {服|ふく}する (C23372) turned out to be the same verb as
-the existing entry 29104 {服|ふく}す, just its more literary suru-conjugated form — the entry's own
-notes already say "the longer form {服|ふく}する is equally correct and more common in writing."
-Removed from the queue rather than duplicated, matching the project's one-entry-per-verb convention
-(cf. 04006 {略|りゃく}す, which likewise has no separate {略|りゃく}する entry).
-
-**One new kanji indexed:** {楠|くすのき} (camphor), added to `kanji/kanji_list.json` as
-02801_nan_kusunoki_camphor.
-
-**Three stale `noentry` markers resolved**: 01738 {木綿|もめん} (コットン), 04963
-{常緑樹|じょうりょくじゅ} ({常緑広葉樹|じょうりょくこうようじゅ}), 04969 {洗濯機|せんたくき}
-({縦型|たてがた}). Cross-reference harvest also added reciprocal links into 05387 {紅葉|もみじ},
-01738 {木綿|もめん}, 04556 {投書|とうしょ}, 09839 〜{的|てき}, and 28575 {式|しき}.
-
-**§4 self-check on all 20 new entries: 3 flags, all applied.** 30876 コットン's semantic tags were
-narrowed to "clothing" only, though the entry itself covers cosmetics use too — added `daily-life`.
-30888 {常緑広葉樹|じょうりょくこうようじゅ}'s notes said evergreen trees keep their leaves "through
-winter," inconsistent with the "year-round" wording elsewhere in the same entry — reworded for
-consistency. 30889 {一回忌|いっかいき}'s gloss called it a "memorial service" while its own notes
-said it isn't actually observed as one — reworded the gloss, definition, and first example to
-describe it consistently as the year of death itself, counted as the first year, rather than an
-occasion people hold. In-context kana-link check: no kana-base links in the new entries to review.
-Cost: $0.0096 self-check, $0.5161 spent today against the $5.00 daily cap.
-
-**Queue**: 20 candidates auto-cleared on `update_indexes.py`, one removed by hand as a duplicate.
-Candidate queue stands at 203.
-

@@ -3,6 +3,48 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-09-12 (Routine v3: new-entries — 20 New Entries, IDs 30873–30892)
+
+Created 20 general-tier entries, all from the "seen in entry" internal-closure lane (48 available,
+20 taken, one dropped first as a stale duplicate — see below). A maple-variety pair from 04375
+{楓|かえで}: {伊呂波楓|いろはもみじ} and {大楓|おおかえで}. A cotton-register pair from 00421
+{綿|わた}: コットン and {脱脂綿|だっしめん}. {実刑|じっけい} from 02786 {刑|けい} (its sibling
+candidate {服|ふく}する was dropped, see below). A butterfly-register pair from 04288 {蝶|ちょう}: {蝶々|ちょうちょう}
+(childish) and {胡蝶|こちょう} (literary). A blinds-orientation pair from 04890 ブラインド:
+{縦型|たてがた} and {横型|よこがた}. A broadleaf-tree cluster from 04957 {広葉樹|こうようじゅ}:
+{椎|しい}, {楠|くすのき}, {落葉広葉樹|らくようこうようじゅ}, {常緑広葉樹|じょうりょくこうようじゅ}.
+A squirrel pair from 04352 {栗鼠|りす}: {頬袋|ほおぶくろ} and {回|まわ}し{車|ぐるま}. Also
+{冷静沈着|れいせいちんちゃく} (from 07123), {馬乗|うまの}り (from 02245), {読者投稿|どくしゃとうこう}
+(from 03901), {一回忌|いっかいき} (from 06019), and {風|ふう} the "-style" suffix (from 00427,
+resolving that entry's own stale `noentry` marker for ヨーロッパ{風|ふう}).
+
+**One candidate dropped before writing.** {服|ふく}する (C23372) turned out to be the same verb as
+the existing entry 29104 {服|ふく}す, just its more literary suru-conjugated form — the entry's own
+notes already say "the longer form {服|ふく}する is equally correct and more common in writing."
+Removed from the queue rather than duplicated, matching the project's one-entry-per-verb convention
+(cf. 04006 {略|りゃく}す, which likewise has no separate {略|りゃく}する entry).
+
+**One new kanji indexed:** {楠|くすのき} (camphor), added to `kanji/kanji_list.json` as
+02801_nan_kusunoki_camphor.
+
+**Three stale `noentry` markers resolved**: 01738 {木綿|もめん} (コットン), 04963
+{常緑樹|じょうりょくじゅ} ({常緑広葉樹|じょうりょくこうようじゅ}), 04969 {洗濯機|せんたくき}
+({縦型|たてがた}). Cross-reference harvest also added reciprocal links into 05387 {紅葉|もみじ},
+01738 {木綿|もめん}, 04556 {投書|とうしょ}, 09839 〜{的|てき}, and 28575 {式|しき}.
+
+**§4 self-check on all 20 new entries: 3 flags, all applied.** 30876 コットン's semantic tags were
+narrowed to "clothing" only, though the entry itself covers cosmetics use too — added `daily-life`.
+30888 {常緑広葉樹|じょうりょくこうようじゅ}'s notes said evergreen trees keep their leaves "through
+winter," inconsistent with the "year-round" wording elsewhere in the same entry — reworded for
+consistency. 30889 {一回忌|いっかいき}'s gloss called it a "memorial service" while its own notes
+said it isn't actually observed as one — reworded the gloss, definition, and first example to
+describe it consistently as the year of death itself, counted as the first year, rather than an
+occasion people hold. In-context kana-link check: no kana-base links in the new entries to review.
+Cost: $0.0096 self-check, $0.5161 spent today against the $5.00 daily cap.
+
+**Queue**: 20 candidates auto-cleared on `update_indexes.py`, one removed by hand as a duplicate.
+Candidate queue stands at 203.
+
 ### 2026-09-02 (Routine v2: candidates — 55 Vetted Words Added, Queue 140 → 195)
 
 Restocked the candidate queue, which had fallen to 140 words (the selector schedules this mode
