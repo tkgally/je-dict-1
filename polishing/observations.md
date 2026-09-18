@@ -1931,3 +1931,11 @@ homograph-list truncation.)_
   28118_shitsuu). In every case the underlying entry text was already correct; all were rejected
   in `reviews/decisions.jsonl`. Worth checking the `quote` extraction logic in
   `build/review_accuracy.py` against notes with multiple bullets or furigana-only distinctions.
+
+- [tooling] 2026-09-18: `polishing/priority/notes.txt` (generated 2026-09-17) is stale against
+  `metadata.modified` — scanning forward from priority-cursor line 3067 to find 16 entries not
+  modified in the last 30 days ran all the way to the file's last line (27483/27483), because
+  recent systemic-fix passes (e.g. the transitivity-tag backfill) have touched most entries in
+  that range within the last month. The priority lane still worked (found 16 scattered entries),
+  but at a much higher scan cost than intended. Regenerate with `make priorities` before the next
+  polish run that uses the priority lane.
