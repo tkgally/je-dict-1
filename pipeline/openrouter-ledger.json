@@ -1,78 +1,15 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "daily_cap_usd": 5.0,
-  "spent_usd": 0.9485,
+  "spent_usd": 0.4878,
   "calls": [
     {
-      "ts": "2026-09-17T00:46:48Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 3,
-      "est_usd": 0.0015
-    },
-    {
-      "ts": "2026-09-17T03:56:30Z",
+      "ts": "2026-09-18T00:57:44Z",
       "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 694,
-      "est_usd": 0.3354
-    },
-    {
-      "ts": "2026-09-17T06:51:34Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 27,
-      "est_usd": 0.013
-    },
-    {
-      "ts": "2026-09-17T06:52:04Z",
-      "mode": "self-check",
-      "phase": "self-check-links",
-      "entries": 10,
-      "est_usd": 0.001
-    },
-    {
-      "ts": "2026-09-17T09:49:12Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 81,
-      "est_usd": 0.0391
-    },
-    {
-      "ts": "2026-09-17T12:48:47Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 10,
-      "est_usd": 0.0056
-    },
-    {
-      "ts": "2026-09-17T16:20:49Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 998,
-      "est_usd": 0.491
-    },
-    {
-      "ts": "2026-09-17T18:53:41Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 23,
-      "est_usd": 0.012
-    },
-    {
-      "ts": "2026-09-17T21:49:01Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 100,
-      "est_usd": 0.0479
-    },
-    {
-      "ts": "2026-09-17T21:49:07Z",
-      "mode": "self-check",
-      "phase": "self-check-links",
-      "entries": 44,
-      "est_usd": 0.002
+      "phase": "accuracy-review",
+      "entries": 992,
+      "est_usd": 0.4878
     }
   ]
 }
