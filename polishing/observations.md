@@ -1939,3 +1939,11 @@ homograph-list truncation.)_
   that range within the last month. The priority lane still worked (found 16 scattered entries),
   but at a much higher scan cost than intended. Regenerate with `make priorities` before the next
   polish run that uses the priority lane.
+- [tooling] 2026-09-19 (routine polish, cursor 1752): the file on disk still said "generated
+  2026-09-17" (the recommendation above wasn't acted on before this run) — scanning line
+  1752 to the end (27483/27483) again found only 17 usable entries out of 25,732 lines, all
+  skipped as modified within 30 days. Ran `make priorities` this time and reset the cursor
+  to line 1 against the fresh 2026-09-19 file. If the next run hits the same wall again, the
+  30-day skip filter itself may need loosening (or the scorer needs to stop nominating
+  recently-touched entries in the first place) rather than regeneration alone — regeneration
+  didn't change which entries were recently modified, only their score order.
