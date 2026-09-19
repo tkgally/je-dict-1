@@ -115,7 +115,7 @@
     },
     {
       "id": "14663_chinjou_ex2",
-      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧⟦{改善|かいぜん}→改善：00144_kaizen⟧⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧{陳情|ちんじょう}{書|しょ}⟦が→が：00051_ga⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦された→する：00392_suru⟧。",
+      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧⟦{改善|かいぜん}→改善：00144_kaizen⟧⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧{陳情|ちんじょう}⟦{書|しょ}→〜書：28467_sho⟧⟦が→が：00051_ga⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦された→する：00392_suru⟧。",
       "english": "A petition requesting road improvements was submitted.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Used specifically for appeals directed at government officials or political bodies. Differs from {請願|せいがん}, which is a more formal legal procedure with constitutional backing, while {陳情|ちんじょう} is less formal and has no legal requirements.\n\nCOMMON COLLOCATIONS:\n- {陳情|ちんじょう}⟦する→する：00392_suru⟧ (to petition)\n- {陳情|ちんじょう}{書|しょ} (written petition)\n- {陳情|ちんじょう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go petition)\n- {陳情|ちんじょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a petition)\n- {陳情|ちんじょう}⟦{活動|かつどう}→活動：00201_katsudou⟧ (lobbying activities)",
+  "notes": "Used specifically for appeals directed at government officials or political bodies. Differs from {請願|せいがん}, which is a more formal legal procedure with constitutional backing, while {陳情|ちんじょう} is less formal and has no legal requirements.\n\nCOMMON COLLOCATIONS:\n- {陳情|ちんじょう}⟦する→する：00392_suru⟧ (to petition)\n- {陳情|ちんじょう}⟦{書|しょ}→〜書：28467_sho⟧ (written petition)\n- {陳情|ちんじょう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go petition)\n- {陳情|ちんじょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a petition)\n- {陳情|ちんじょう}⟦{活動|かつどう}→活動：00201_katsudou⟧ (lobbying activities)",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-02T10:55:03Z",
-    "modified": "2026-09-02T04:01:38Z",
+    "modified": "2026-09-19T00:47:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }
