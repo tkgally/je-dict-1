@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19026_genshousuru_ex1",
-      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧{減少|げんしょう}して⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{減少|げんしょう}→減少：02719_genshou⟧して⟦いる→いる：00495_iru⟧。",
       "english": "The population is declining.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "19026_genshousuru_ex2",
-      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧{減少|げんしょう}した。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{減少|げんしょう}→減少：02719_genshou⟧した。",
       "english": "Sales decreased significantly.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-24T01:02:35Z",
-    "modified": "2026-09-02T04:01:54Z",
+    "modified": "2026-09-19T16:20:14Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +165,8 @@
       "semantic": [
         "quantity"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18608_hakkyuusuru_ex1",
-      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦が→が：00051_ga⟧{発給|はっきゅう}された。",
+      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦が→が：00051_ga⟧⟦{発給|はっきゅう}→発給：18074_hakkyuu⟧された。",
       "english": "The passport was issued.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-22T09:55:54Z",
-    "modified": "2026-09-02T04:01:52Z",
+    "modified": "2026-09-19T16:20:14Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -176,7 +176,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

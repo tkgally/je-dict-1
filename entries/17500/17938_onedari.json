@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17938_onedari_ex1",
-      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧おねだり⟦された→する：00392_suru⟧。",
+      "japanese": "⟦{子|こ}→子：09851_ko⟧ども⟦に→に：00314_ni⟧おねだり⟦された→する：00392_suru⟧。",
       "english": "My child begged me for something.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17938_onedari_ex3",
-      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦が→が：00051_ga⟧「⟦あれ→あれ：00916_are⟧⟦{買|か}って→買う：00489_kau⟧」⟦と→と：00512_to⟧おねだり⟦する→する：00392_suru⟧⟦の→の：09472_no⟧で、つい⟦{買|か}って→買う：00489_kau⟧しまった。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦が→が：00051_ga⟧「⟦あれ→あれ：00916_are⟧⟦{買|か}って→買う：00489_kau⟧」⟦と→と：00512_to⟧おねだり⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦で→で：00502_de⟧、つい⟦{買|か}って→買う：00489_kau⟧しまった。",
       "english": "My daughter kept begging 'buy me that,' so I ended up buying it for her.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-19T09:17:51Z",
-    "modified": "2026-09-02T04:01:50Z",
+    "modified": "2026-09-19T16:20:14Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -169,7 +169,8 @@
       "domain": [
         "colloquial"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }
