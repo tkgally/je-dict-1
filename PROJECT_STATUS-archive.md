@@ -3,6 +3,35 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-09-14 (Routine v3: new-entries — 20 New Entries, IDs 30893–30912)
+
+Created 20 general-tier entries, all from the "seen in entry" internal-closure lane (49 available,
+20 taken). ハチ{公|こう} (from 00632 {犬|いぬ}), {鼠海豚|ねずみいるか} (contrasted with 04313
+{海豚|いるか}), {大縄|おおなわ} (the rope itself, from 06323 {縄跳|なわと}び), {重圧|じゅうあつ}
+(from 07163 プレッシャー), {用地|ようち} (contrasted with 00365 {敷地|しきち}), {専任|せんにん}
+(from 00451 {講師|こうし}), {五時|ごじ} (from 00504), a poem cluster from 02139 {詩|し}:
+{詩的|してき} and {詩集|ししゅう}, {詐称|さしょう} (from 02628 {学歴|がくれき}), {天賦|てんぷ}
+(contrasted with 02772 {才能|さいのう}), {進水|しんすい} (from 04484 {造船|ぞうせん}),
+{書架|しょか} (the library-register word for 04489 {本棚|ほんだな}), the verb {科|か}す ("to
+impose a fine/penalty," from 04955 {樹木|じゅもく}'s tree-felling example), and a six-word crab
+cluster from 04325 {蟹|かに}: ズワイ{蟹|がに}, タラバ{蟹|がに}, {毛蟹|けがに},
+{花咲蟹|はなさきがに}, {蟹味噌|かにみそ}, and the regional brand {越前蟹|えちぜんがに}. One new
+kanji indexed: {賦|ふ} (levy), added as 02802_fu_none_levy.
+
+**Two stale `noentry` markers resolved**: 04121 {解散|かいさん} ({五時|ごじ}) and 04313
+{海豚|いるか} ({鼠海豚|ねずみいるか}). Cross-reference harvest added one reciprocal pair:
+30898 {専任|せんにん} ↔ 10675 {非常勤|ひじょうきん}.
+
+**§4 self-check on all 23 changed entries (20 new plus 3 touched by the stale-link and
+cross-reference passes): 2 flags, 1 applied, 1 rejected.** 04121 {解散|かいさん}'s example 5
+translation ("The tour was dismissed in front of the station") was unnatural English for a
+group simply dispersing — reworded to "The tour group dispersed in front of the station."
+Rejected a notes-fact flag on ハチ{公|こう} as a model misreading (its suggested correction was
+identical to the original text). In-context kana-link check: 0 flags. Cost: $0.0108 self-check,
+$0.5109 spent today against the $5.00 daily cap.
+
+**Queue**: 20 candidates auto-cleared on `update_indexes.py`. Candidate queue stands at 205.
+
 ### 2026-09-12 (Routine v3: new-entries — 20 New Entries, IDs 30873–30892)
 
 Created 20 general-tier entries, all from the "seen in entry" internal-closure lane (48 available,
