@@ -50,6 +50,49 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-20 (Routine v3: new-entries — 20 New Entries, IDs 30974–30993)
+
+Created 20 general-tier entries: 18 from the "seen in entry" internal-closure lane (19 available,
+one — {しがち}, C23483 — dropped as a stale duplicate of the existing `〜がち` suffix entry, which
+already documents しがち as its する-stem example) plus two curated historical figures from the
+proper-noun queue to round out the session: {織田信長|おだのぶなが} and {豊臣秀吉|とよとみひでよし}.
+Internal-closure words: {大口真神|おおくちのまかみ} (the wolf deity, from 04334 {狼|おおかみ}),
+{師|し} (the bound "teacher/mentor" noun, from 07388 {凌|しの}ぐ), {藤田|ふじた} and {藤井|ふじい}
+(common {藤|ふじ}-based surnames, from 04396 {藤|ふじ}), {地竜|じりゅう} (dried earthworm in folk
+medicine, from 04932 {蚯蚓|みみず}), {両生|りょうせい} (the "amphibious" compound element, from
+04924 {両生類|りょうせいるい}), イモリ (newt, also from 04924), がぶがぶ (gulping greedily, from
+05776/05778 ごくごく/ちびちび), {寝|ね}ぼすけ (sleepyhead, from 05347 {寝惚|ねぼ}ける), せせら
+{笑|わら}う (to sneer, from 07449 {鼻|はな}で{笑|わら}う), {二言目|ふたことめ}には (from 00736
+{二|に}), {余剰金|よじょうきん} and {設備投資|せつびとうし} (from 08005 {充当|じゅうとう}), and
+the four remaining longevity milestones from 05807 {還暦|かんれき}: {傘寿|さんじゅ} (80),
+{米寿|べいじゅ} (88), {卒寿|そつじゅ} (90), {白寿|はくじゅ} (99), plus ちゃんちゃんこ (the padded
+vest given at {還暦|かんれき}).
+
+**Note for the curator**: the 2026-09-18 session log set aside {大口真神|おおくちのまかみ}, {師|し},
+{両生|りょうせい}, and {藤田|ふじた}/{藤井|ふじい} as too thin for standalone entries. This session
+wrote them anyway, on the following reasoning: {大口真神|おおくちのまかみ} follows the existing
+{天狗|てんぐ} pattern (`semantic: religion, culture`, no proper-noun tag) rather than needing a
+proper-noun category; {師|し} and {両生|りょうせい} are documented candidly as bound
+forms that mostly appear in fixed phrases or compounds (matching how the dictionary already treats
+the `〜師` suffix entry, 30801); and {藤田|ふじた}/{藤井|ふじい} follow the precedent already set by
+27597 {佐藤|さとう} (a generic-surname entry, tagged `person`, no specific referent). Worth a spot
+check if this reasoning doesn't hold up.
+
+**Newcomer-ambiguity retargets**: creating {師|し} (30975) gave the existing suffix entry
+{〜師|し} (30801) a homograph. `check_link_newcomers.py` flagged 9 existing inline links to 30801;
+7 were correctly suffix uses (狂言{師|し}, 木彫り{師|し}, {彫|ほ}り{師|し}, {指圧|しあつ}{師|し},
+{整体|せいたい}{師|し} — left unchanged) and 2 were retargeted to the new entry because the
+sentence meant the bound noun "teacher," not the practitioner suffix: 07388 {凌|しの}ぐ's example
+("{弟子|でし}が{師|し}を{凌|しの}ぐ" — a student surpassing their teacher) and 12421
+{師匠|ししょう}'s etymology note (師 + 匠 = teacher + artisan).
+
+**§4 self-check on all 20 new entries: 0 flags.** In-context kana-link check: no kana-base links
+in the selection. Cost: $0.0096 self-check, $0.4908 spent today against the $5.00 daily cap.
+
+**Queue**: 20 candidates auto-cleared on `update_indexes.py` (19 internal-closure matches plus the
+two curated additions); one further removed by hand as a stale duplicate before writing (see above).
+Candidate queue stands at 174.
+
 ### 2026-09-18 (Routine v3: new-entries — 21 New Entries, IDs 30953–30973)
 
 Created 21 general-tier entries, all from the "seen in entry" internal-closure lane (34 available,
@@ -182,31 +225,3 @@ stylistic nitpick on 30932 {三七日|みなのか}'s gloss that already matches
 established "Nth-day memorial service" phrasing. In-context kana-link check: 13 links reviewed,
 0 flagged. Cost: $0.0174 self-check, $0.5175 spent today against the $5.00 daily cap.
 
-### 2026-09-14 (Routine v3: new-entries — 20 New Entries, IDs 30893–30912)
-
-Created 20 general-tier entries, all from the "seen in entry" internal-closure lane (49 available,
-20 taken). ハチ{公|こう} (from 00632 {犬|いぬ}), {鼠海豚|ねずみいるか} (contrasted with 04313
-{海豚|いるか}), {大縄|おおなわ} (the rope itself, from 06323 {縄跳|なわと}び), {重圧|じゅうあつ}
-(from 07163 プレッシャー), {用地|ようち} (contrasted with 00365 {敷地|しきち}), {専任|せんにん}
-(from 00451 {講師|こうし}), {五時|ごじ} (from 00504), a poem cluster from 02139 {詩|し}:
-{詩的|してき} and {詩集|ししゅう}, {詐称|さしょう} (from 02628 {学歴|がくれき}), {天賦|てんぷ}
-(contrasted with 02772 {才能|さいのう}), {進水|しんすい} (from 04484 {造船|ぞうせん}),
-{書架|しょか} (the library-register word for 04489 {本棚|ほんだな}), the verb {科|か}す ("to
-impose a fine/penalty," from 04955 {樹木|じゅもく}'s tree-felling example), and a six-word crab
-cluster from 04325 {蟹|かに}: ズワイ{蟹|がに}, タラバ{蟹|がに}, {毛蟹|けがに},
-{花咲蟹|はなさきがに}, {蟹味噌|かにみそ}, and the regional brand {越前蟹|えちぜんがに}. One new
-kanji indexed: {賦|ふ} (levy), added as 02802_fu_none_levy.
-
-**Two stale `noentry` markers resolved**: 04121 {解散|かいさん} ({五時|ごじ}) and 04313
-{海豚|いるか} ({鼠海豚|ねずみいるか}). Cross-reference harvest added one reciprocal pair:
-30898 {専任|せんにん} ↔ 10675 {非常勤|ひじょうきん}.
-
-**§4 self-check on all 23 changed entries (20 new plus 3 touched by the stale-link and
-cross-reference passes): 2 flags, 1 applied, 1 rejected.** 04121 {解散|かいさん}'s example 5
-translation ("The tour was dismissed in front of the station") was unnatural English for a
-group simply dispersing — reworded to "The tour group dispersed in front of the station."
-Rejected a notes-fact flag on ハチ{公|こう} as a model misreading (its suggested correction was
-identical to the original text). In-context kana-link check: 0 flags. Cost: $0.0108 self-check,
-$0.5109 spent today against the $5.00 daily cap.
-
-**Queue**: 20 candidates auto-cleared on `update_indexes.py`. Candidate queue stands at 205.
