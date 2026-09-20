@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "20992_teishisuru_ex1",
-      "japanese": "⟦エンジン→エンジン：03835_enjin⟧⟦が→が：00051_ga⟧{停止|ていし}した。",
+      "japanese": "⟦エンジン→エンジン：03835_enjin⟧⟦が→が：00051_ga⟧⟦{停止|ていし}→停止：04067_teishi⟧した。",
       "english": "The engine stopped.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "20992_teishisuru_ex3",
-      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{停止|ていし}し、{多|おお}く⟦の→の：09472_no⟧⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦が→が：00051_ga⟧⟦{足止|あしど}め→足止め：16727_ashidome⟧⟦された→する：00392_suru⟧。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{停止|ていし}→停止：04067_teishi⟧し、{多|おお}く⟦の→の：09472_no⟧⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦が→が：00051_ga⟧⟦{足止|あしど}め→足止め：16727_ashidome⟧⟦された→する：00392_suru⟧。",
       "english": "The trains stopped due to the earthquake, stranding many passengers.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "20992_teishisuru_ex4",
-      "japanese": "⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧{一時|いちじ}{停止|ていし}する。",
+      "japanese": "⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧⟦{一時|いちじ}→一時：01799_ichiji⟧{停止|ていし}する。",
       "english": "To temporarily suspend the service.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "20992_teishisuru_ex5",
-      "japanese": "⟦{運転免許|うんてんめんきょ}→運転免許：15285_untenmenkyo⟧⟦が→が：00051_ga⟧{停止|ていし}された。",
+      "japanese": "⟦{運転免許|うんてんめんきょ}→運転免許：15285_untenmenkyo⟧⟦が→が：00051_ga⟧⟦{停止|ていし}→停止：04067_teishi⟧された。",
       "english": "My driver's license was suspended.",
       "sense_numbers": [
         2
@@ -144,10 +144,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-03-31T09:50:47Z",
-    "modified": "2026-09-02T04:02:01Z"
+    "modified": "2026-09-20T20:25:03Z"
   },
   "conjugation": {
     "type": "suru",

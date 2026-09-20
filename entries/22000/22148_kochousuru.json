@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22148_kochousuru_ex1",
-      "japanese": "⟦{少|すこ}し→少し：00596_sukoshi⟧{誇張|こちょう}して⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{誇張|こちょう}→誇張：08680_kochou⟧して⟦いる→いる：00495_iru⟧。",
       "english": "That is a bit exaggerated.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22148_kochousuru_ex2",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{誇張|こちょう}して⟦{伝|つた}える→伝える：01220_tsutaeru⟧。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{誇張|こちょう}→誇張：08680_kochou⟧して⟦{伝|つた}える→伝える：01220_tsutaeru⟧。",
       "english": "He always exaggerates when he tells stories.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Used for making something sound bigger, better, worse, or more dramatic than reality. Applies to speech, writing, advertising, and artistic expression.\n\nCOMMON COLLOCATIONS:\n- ⟦{誇張|こちょう}→誇張：08680_kochou⟧なし⟦に→に：00314_ni⟧: without exaggeration\n- {誇張|こちょう}した⟦{表現|ひょうげん}→表現：03584_hyougen⟧: exaggerated expression\n- ⟦{誇張|こちょう}→誇張：08680_kochou⟧⟦{法|ほう}→法：13620_hou⟧: hyperbole (rhetorical device)\n- ⟦{大|おお}げさ→大げさ：19918_oogesa⟧⟦に→に：00314_ni⟧{誇張|こちょう}する: to greatly exaggerate\n\nSIMILAR WORDS:\n- ⟦{大|おお}げさ→大げさ：19918_oogesa⟧: exaggerated; overdramatic — an adjective describing the quality of being exaggerated, rather than the act itself\n- ⟦{盛|も}る→盛る：00292_moru⟧: to embellish (colloquial) — casual slang for exaggerating a story; much more informal\n- ⟦{過大|かだい}{評価|ひょうか}→過大評価：17706_kadaihyouka⟧⟦する→する：00392_suru⟧: to overestimate — focuses on rating something too highly rather than general exaggeration\n\nREGISTER:\nSlightly formal. More common in written language. In casual speech, ⟦{大|おお}げさ→大げさ：19918_oogesa⟧ or ⟦{盛|も}る→盛る：00292_moru⟧ are preferred.",
+  "notes": "Used for making something sound bigger, better, worse, or more dramatic than reality. Applies to speech, writing, advertising, and artistic expression.\n\nCOMMON COLLOCATIONS:\n- ⟦{誇張|こちょう}→誇張：08680_kochou⟧なし⟦に→に：00314_ni⟧: without exaggeration\n- ⟦{誇張|こちょう}→誇張：08680_kochou⟧した⟦{表現|ひょうげん}→表現：03584_hyougen⟧: exaggerated expression\n- ⟦{誇張|こちょう}→誇張：08680_kochou⟧⟦{法|ほう}→法：13620_hou⟧: hyperbole (rhetorical device)\n- ⟦{大|おお}げさ→大げさ：19918_oogesa⟧⟦に→に：00314_ni⟧{誇張|こちょう}する: to greatly exaggerate\n\nSIMILAR WORDS:\n- ⟦{大|おお}げさ→大げさ：19918_oogesa⟧: exaggerated; overdramatic — an adjective describing the quality of being exaggerated, rather than the act itself\n- ⟦{盛|も}る→盛る：00292_moru⟧: to embellish (colloquial) — casual slang for exaggerating a story; much more informal\n- ⟦{過大|かだい}{評価|ひょうか}→過大評価：17706_kadaihyouka⟧⟦する→する：00392_suru⟧: to overestimate — focuses on rating something too highly rather than general exaggeration\n\nREGISTER:\nSlightly formal. More common in written language. In casual speech, ⟦{大|おお}げさ→大げさ：19918_oogesa⟧ or ⟦{盛|も}る→盛る：00292_moru⟧ are preferred.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -89,15 +89,16 @@
       "pos": [
         "verb-suru"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T04:00:50Z",
-    "modified": "2026-09-02T04:02:06Z"
+    "modified": "2026-09-20T20:30:18Z"
   },
   "conjugation": {
     "type": "suru",

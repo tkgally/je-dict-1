@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "22351_hyouronsuru_ex1",
-      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{評論|ひょうろん}した。",
+      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{評論|ひょうろん}→評論：05820_hyouron⟧した。",
       "english": "An expert critiqued this film.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "22351_hyouronsuru_ex3",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたり⟦{社会問題|しゃかいもんだい}→社会問題：25686_shakaimondai⟧⟦を→を：00422_wo⟧⟦{鋭|するど}く→鋭い：02347_surudoi⟧{評論|ひょうろん}してきた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたり⟦{社会問題|しゃかいもんだい}→社会問題：25686_shakaimondai⟧⟦を→を：00422_wo⟧⟦{鋭|するど}く→鋭い：02347_surudoi⟧⟦{評論|ひょうろん}→評論：05820_hyouron⟧してきた。",
       "english": "He has been sharply critiquing social issues for many years.",
       "sense_numbers": [
         1
@@ -60,7 +60,7 @@
     },
     {
       "id": "22351_hyouronsuru_ex5",
-      "japanese": "⟦この→この：00962_kono⟧⟦{評論|ひょうろん}→評論：05820_hyouron⟧⟦は→は：00079_ha⟧⟦{的確|てきかく}→的確：04536_tekikaku⟧で⟦{読|よ}み{応|ごた}え→読み応え：07273_yomigotae⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{評論|ひょうろん}→評論：05820_hyouron⟧⟦は→は：00079_ha⟧⟦{的確|てきかく}→的確：04536_tekikaku⟧⟦で→で：00502_de⟧⟦{読|よ}み{応|ごた}え→読み応え：07273_yomigotae⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This critique is accurate and well worth reading.",
       "sense_numbers": [
         2
@@ -138,10 +138,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T19:22:01Z",
-    "modified": "2026-09-02T04:02:07Z"
+    "modified": "2026-09-20T20:25:03Z"
   },
   "conjugation": {
     "type": "suru",
