@@ -1947,3 +1947,13 @@ homograph-list truncation.)_
   30-day skip filter itself may need loosening (or the scorer needs to stop nominating
   recently-touched entries in the first place) rather than regeneration alone — regeneration
   didn't change which entries were recently modified, only their score order.
+- [tooling] 2026-09-20 (routine polish, cursor 1488): third occurrence of the same wall — the
+  priority file was regenerated only the day before (2026-09-19) and cursor was already reset,
+  yet scanning from line 1488 still took 19,902 of 27,481 lines to find 16 entries not modified
+  in the last 30 days. This confirms the 2026-09-19 note: regeneration order doesn't help because
+  the underlying population of entries is what's stale (most of the dictionary was touched by
+  bulk passes clustered around 2026-09-02 and after). The 30-day skip filter in
+  `prompts/comprehensive_polish.md` is close to unusable for the priority lane right now. Suggest
+  either shortening the skip window (e.g. 7 days) or having `prioritize_polishing.py` exclude
+  recently-modified entries from scoring in the first place so the cursor doesn't have to walk
+  past them one at a time.
