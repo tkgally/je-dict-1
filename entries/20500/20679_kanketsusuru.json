@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "20679_kanketsusuru_ex1",
-      "japanese": "⟦この→この：00962_kono⟧⟦{漫画|まんが}→漫画：01511_manga⟧⟦は→は：00079_ha⟧⟦{全|ぜん}→全〜：28337_zen⟧30{巻|かん}⟦で→で：00502_de⟧{完結|かんけつ}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{漫画|まんが}→漫画：01511_manga⟧⟦は→は：00079_ha⟧⟦{全|ぜん}→全〜：28337_zen⟧30{巻|かん}⟦で→で：00502_de⟧⟦{完結|かんけつ}→完結：12279_kanketsu⟧した。",
       "english": "This manga concluded at 30 volumes.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "20679_kanketsusuru_ex3",
-      "japanese": "{十年|じゅうねん}⟦{続|つづ}いた→続く：00903_tsuzuku⟧⟦ドラマ→ドラマ：03867_dorama⟧⟦シリーズ→シリーズ：10942_shiriizu⟧⟦が→が：00051_ga⟧ついに{完結|かんけつ}し、{多|おお}く⟦の→の：09472_no⟧⟦ファン→ファン：10065_fan⟧⟦が→が：00051_ga⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}した→流す：01968_nagasu⟧。",
+      "japanese": "{十年|じゅうねん}⟦{続|つづ}いた→続く：00903_tsuzuku⟧⟦ドラマ→ドラマ：03867_dorama⟧⟦シリーズ→シリーズ：10942_shiriizu⟧⟦が→が：00051_ga⟧ついに⟦{完結|かんけつ}→完結：12279_kanketsu⟧し、{多|おお}く⟦の→の：09472_no⟧⟦ファン→ファン：10065_fan⟧⟦が→が：00051_ga⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}した→流す：01968_nagasu⟧。",
       "english": "The drama series that continued for ten years finally concluded, and many fans shed tears.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "20679_kanketsusuru_ex4",
-      "japanese": "⟦この→この：00962_kono⟧⟦{一冊|いっさつ}→一冊：23149_issatsu⟧⟦で→で：00502_de⟧{完結|かんけつ}して⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{一冊|いっさつ}→一冊：23149_issatsu⟧⟦で→で：00502_de⟧⟦{完結|かんけつ}→完結：12279_kanketsu⟧して⟦いる→いる：00495_iru⟧。",
       "english": "It is complete in this single volume.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "20679_kanketsusuru_ex6",
-      "japanese": "⟦この→この：00962_kono⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧⟦{短編|たんぺん}→短編：04512_tanpen⟧⟦ながら→ながら：10530_nagara⟧、⟦{見事|みごと}→見事：03744_migoto⟧⟦に→に：00314_ni⟧{完結|かんけつ}して⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧⟦{短編|たんぺん}→短編：04512_tanpen⟧⟦ながら→ながら：10530_nagara⟧、⟦{見事|みごと}→見事：03744_migoto⟧⟦に→に：00314_ni⟧⟦{完結|かんけつ}→完結：12279_kanketsu⟧して⟦いる→いる：00495_iru⟧。",
       "english": "Though this story is a short piece, it is admirably self-contained.",
       "sense_numbers": [
         2
@@ -116,10 +116,11 @@
         "media",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-30T06:40:07Z",
-    "modified": "2026-09-02T04:02:00Z"
+    "modified": "2026-09-20T20:25:03Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20267_chokuei_ex1",
-      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{直営|ちょくえい}{店|てん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{直営|ちょくえい}⟦{店|てん}→店：10011_ten⟧だ。",
       "english": "This is a company-operated store.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {直|ちょく} (direct) + {営|えい} (management, operation). Functions as a ⟦する→する：00392_suru⟧ verb ({直営|ちょくえい}⟦する→する：00392_suru⟧ = to operate directly).\n\nUSAGE:\nVery common in business contexts, especially retail and food service. The key distinction is between {直営|ちょくえい}{店|てん} (company-operated store) and ⟦フランチャイズ→フランチャイズ：20702_furanchaizu⟧⟦{店|てん}→店：10011_ten⟧ (franchise store). Direct operation means the parent company controls staffing, operations, and profits directly.\n\nCOMMON COLLOCATIONS:\n- {直営|ちょくえい}{店|てん} — directly operated store\n- {直営|ちょくえい}⟦{農場|のうじょう}→農場：20586_noujou⟧ — company-owned farm\n- {直営|ちょくえい}⟦する→する：00392_suru⟧ — to operate directly\n- {直営|ちょくえい}⟦レストラン→レストラン：01048_resutoran⟧ — company-operated restaurant\n\nSIMILAR WORDS:\n- ⟦{経営|けいえい}→経営：02740_keiei⟧ — management, running a business (broader term, not specifically \"direct\")\n- {自営|じえい} — self-employment, running one's own business (individual rather than corporate focus)\n- ⟦フランチャイズ→フランチャイズ：20702_furanchaizu⟧ — franchise (the opposite business model)",
+  "notes": "Compound of {直|ちょく} (direct) + {営|えい} (management, operation). Functions as a ⟦する→する：00392_suru⟧ verb ({直営|ちょくえい}⟦する→する：00392_suru⟧ = to operate directly).\n\nUSAGE:\nVery common in business contexts, especially retail and food service. The key distinction is between {直営|ちょくえい}⟦{店|てん}→店：10011_ten⟧ (company-operated store) and ⟦フランチャイズ→フランチャイズ：20702_furanchaizu⟧⟦{店|てん}→店：10011_ten⟧ (franchise store). Direct operation means the parent company controls staffing, operations, and profits directly.\n\nCOMMON COLLOCATIONS:\n- {直営|ちょくえい}⟦{店|てん}→店：10011_ten⟧ — directly operated store\n- {直営|ちょくえい}⟦{農場|のうじょう}→農場：20586_noujou⟧ — company-owned farm\n- {直営|ちょくえい}⟦する→する：00392_suru⟧ — to operate directly\n- {直営|ちょくえい}⟦レストラン→レストラン：01048_resutoran⟧ — company-operated restaurant\n\nSIMILAR WORDS:\n- ⟦{経営|けいえい}→経営：02740_keiei⟧ — management, running a business (broader term, not specifically \"direct\")\n- {自営|じえい} — self-employment, running one's own business (individual rather than corporate focus)\n- ⟦フランチャイズ→フランチャイズ：20702_furanchaizu⟧ — franchise (the opposite business model)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -164,9 +164,10 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T19:15:40Z",
-    "modified": "2026-09-02T04:01:59Z"
+    "modified": "2026-09-20T20:25:03Z"
   }
 }
