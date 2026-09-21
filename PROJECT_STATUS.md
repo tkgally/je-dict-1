@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-09-18
+**Last updated**: 2026-09-21
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -49,6 +49,38 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-21 (Routine v3: new-entries — 20 New Entries, IDs 30994–31013)
+
+Created 20 general-tier entries: 5 from the "seen in entry" internal-closure lane plus 15 curated
+proper nouns from the queue (7 countries, 8 historical/literary figures) to round out the session.
+Two internal-closure candidates in the queue, {見|み}ごたえ (C23499) and {読|よ}みごたえ (C23500),
+were dropped first as stale duplicates — kana-only spellings of the existing kanji entries
+{見応|みごた}え (07274) and {読|よ}み{応|ごた}え (07273).
+
+Internal-closure words: {損得勘定|そんとくかんじょう} (from 08055 {打算的|ださんてき}),
+{希望退職|きぼうたいしょく} (from 08070 {早期退職|そうきたいしょく}), やけ{酒|ざけ} (from 08073
+やけ{食|ぐ}い), {見|み}がい and やりごたえ (both from 08074/08085's related-word lists). Queue
+proper nouns: スペイン, ロシア, ブラジル, タイ, ベトナム, スイス, エジプト, and the historical
+figures {徳川家康|とくがわいえやす}, {坂本龍馬|さかもとりょうま}, {福沢諭吉|ふくざわゆきち},
+{野口英世|のぐちひでよ}, {樋口一葉|ひぐちいちよう}, {芥川龍之介|あくたがわりゅうのすけ},
+{太宰治|だざいおさむ}, {川端康成|かわばたやすなり}. Added kanji 之 to the kanji index (from
+{龍之介|りゅうのすけ}).
+
+**Four stale `noentry` markers resolved** (class A2, hand-verified): 03382 {対|たい} (ブラジル),
+04285 {南米|なんべい} (スペイン, ブラジル), and 05324 {古代|こだい} (エジプト). Cross-reference
+harvest also added reciprocal links into 16450 {定年退職|ていねんたいしょく}, 08061
+{暴飲暴食|ぼういんぼうしょく}, 06653 やり{甲斐|がい}, and 08039 {食|た}べごたえ.
+
+**§4 self-check on all 27 changed entries (20 new plus 7 neighbors touched by linking and
+`noentry` repair): 1 flag applied, 3 rejected.** 31013 {川端康成|かわばたやすなり}'s notes wrongly
+said he died "four years after" {三島由紀夫|みしまゆきお}'s 1970 suicide — corrected to "about a
+year and a half after" (Kawabata died April 1972). The three rejected flags were reviewer noise:
+a restatement of 05324's already-correct "up to around the 12th century" (1185, the end of the
+Heian period, is in the 12th century), and two no-op flags on 31002 タイ and 31011
+{芥川龍之介|あくたがわりゅうのすけ} that suggested changing values to themselves. In-context
+kana-link check: 4 links reviewed, 0 flagged. Cost: $0.0130 self-check, $0.9982 spent today
+against the $5.00 daily cap.
 
 ### 2026-09-20 (Routine v3: new-entries — 20 New Entries, IDs 30974–30993)
 
@@ -185,43 +217,4 @@ New-Year-games cluster, a gloss fix for {双六|すごろく}, formality fixes).
 holds), `make gate` (exactly the CI checks, run before every push), `pipeline/wait.py` (a wait
 that waits). The Routine prompt now absorbs a red predecessor instead of leaving or closing it,
 runs the gate before pushing, pushes nothing after opening its PR, and waits properly.
-
-### 2026-09-14 (Routine v3: new-entries — 20 New Entries, IDs 30913–30932)
-
-Created 20 general-tier entries from the "seen in entry" internal-closure lane. Because an
-earlier routine PR that same day (still open, CI-failing at the time) had already claimed IDs
-30893–30912 for its own 20-entry batch from the same lane, this run manually started numbering
-at 30913 instead of trusting `get_next_id.py` (which only scans the local filesystem and would
-have reused those IDs), and skipped the 20 candidates that predecessor run had already turned
-into entries. One further candidate, ぶり "for the first time in ~" (C23423), was dropped
-first as a stale duplicate of the existing suffix entry 28358 〜{ぶり}.
-
-The words: a crab-cluster continuation from 04325 {蟹|かに} ({松葉|まつば}{蟹|がに}, the San'in
-regional brand); {送|おく}り{狼|おおかみ} (the "wolf in sheep's clothing" who offers to walk a
-woman home); {亥|い} (the boar zodiac sign, adding kanji 亥 to the kanji index); シャンデリア;
-the three great tea-ceremony schools ({表千家|おもてせんけ}, {裏千家|うらせんけ},
-{武者小路千家|むしゃこうじせんけ}, cross-referenced to each other); 南アフリカ; {離|はな}れ{島|じま};
-a wagyu-brand pair, {神戸牛|こうべぎゅう} and {松阪牛|まつさかぎゅう} (auto cross-referenced to
-each other by the harvest pass); {一穴|いっけつ} (mainly known through the proverb
-{蟻|あり}の{一穴|いっけつ}); {形|けい} (the grammar "-form" suffix, contrasted with the かたち
-reading); {中元|ちゅうげん} (root of お{中元|ちゅうげん}); four jump-rope technique terms from
-06323 {縄跳|なわと}び ({前跳|まえと}び, {後|うし}ろ{跳|と}び, {交差跳|こうさと}び,
-{片足跳|かたあしと}び); and two Buddhist memorial-day terms from 06016 {初七日|しょなのか}
-({二七日|ふたなのか}, {三七日|みなのか}).
-
-**Nine stale `noentry` markers resolved** in four existing entries that had been waiting on these
-words: 00885 {島|しま} ({離|はな}れ{島|じま}), 01767 アフリカ (南アフリカ), 05008 {天井|てんじょう}
-(シャンデリア), and 04451/05507 {茶道|さどう}/{ちゃどう} (all three tea schools, ×2 each in
-05507). Cross-reference harvest also added reciprocal links into 12525 {家元|いえもと}, 16950
-{無人島|むじんとう}, 12240 {孤島|ことう}, and 06017 {四十九日|しじゅうくにち}.
-
-**§4 self-check on all 34 changed entries (20 new plus 14 neighbors touched by linking and
-`noentry` repair): 1 flag applied, 3 rejected.** 04451 {茶道|さどう}'s semantic tags carried a
-leftover `food` tag (tea ceremony is not food) — changed to `culture`, matching its sibling entry
-05507. The three rejected flags were reviewer noise: a misread of furigana-annotated text in
-05507's ALTERNATIVE READING note, an overliteral objection to 06017 {四十九日|しじゅうくにち}'s
-gloss (the memorial-service sense is correct and matches the entry's own explanation), and a
-stylistic nitpick on 30932 {三七日|みなのか}'s gloss that already matches its sibling entries'
-established "Nth-day memorial service" phrasing. In-context kana-link check: 13 links reviewed,
-0 flagged. Cost: $0.0174 self-check, $0.5175 spent today against the $5.00 daily cap.
 
