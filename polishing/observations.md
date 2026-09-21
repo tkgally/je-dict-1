@@ -1965,3 +1965,14 @@ homograph-list truncation.)_
   cursor position, this is no longer transient noise from the 2026-09-02 sweep — it should be
   treated as a standing defect in the 30-day skip filter and fixed (shorten the window, or have
   `prioritize_polishing.py` stop nominating recently-touched entries) rather than logged again.
+
+- [tooling] 2026-09-21 (routine accuracy-review, entries 8001-9000): of 43 notes-fact flags from
+  `review_accuracy.py` in this range, roughly half (about 20) quoted content that does not appear
+  where claimed — e.g. text attributed to a "FORMS" section that only exists in a different
+  section (SYMPTOMS, CHARACTERISTICS, PROVERB), or a claim contradicted by the note's own explicit
+  correction one line later. A few flags also misjudged real facts (e.g. calling the correct
+  series/parallel circuit current-voltage explanation "reversed" when it was not). This is a
+  higher false-positive rate for notes-fact than the other families in the same run (offvocab,
+  wrong-category, gloss-meaning were mostly sound). Worth checking whether the notes dimension
+  prompt needs tighter grounding (e.g. requiring a verbatim quote match before flagging) before
+  the next large accuracy-review pass.
