@@ -1957,3 +1957,11 @@ homograph-list truncation.)_
   either shortening the skip window (e.g. 7 days) or having `prioritize_polishing.py` exclude
   recently-modified entries from scoring in the first place so the cursor doesn't have to walk
   past them one at a time.
+
+[tooling] 2026-09-21 (routine polish, cursor 21390): fourth consecutive occurrence — scanning from
+  line 21390 to the file's end (27481/27481, all 6,092 remaining lines) found only 2 entries not
+  modified in the last 30 days (05168_urouro, 05263_hirihiri). Cursor reset to line 1. Given four
+  straight runs (09-18, 09-19, 09-20, 09-21) hitting the same wall regardless of regeneration or
+  cursor position, this is no longer transient noise from the 2026-09-02 sweep — it should be
+  treated as a standing defect in the 30-day skip filter and fixed (shorten the window, or have
+  `prioritize_polishing.py` stop nominating recently-touched entries) rather than logged again.
