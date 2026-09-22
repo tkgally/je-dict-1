@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-22",
+  "model": "typesafe/jev-1.13 (served as jev-1.13-20260917) via https://openrouter.ai/api/alpha/decisions",
+  "baseline": "google/gemini-2.5-flash via OpenRouter chat completions, same items",
+  "spend_usd": {"jev_about": 0.22, "jev_calls_about": 8000, "gemini_baselines": 0.72, "total_about": 0.95, "budget": 5.0},
+  "latency_median_s": 0.43,
+  "tokens_per_call": {"furigana_isolated": 717, "furigana_fanout_sentence": 1030},
+  "furigana_injected_errors": {
+    "set": "420 wrong readings of 6 kinds + 320 correct + 150 hard-correct (entries with earlier false furigana flags)",
+    "jev_isolated_auc": 0.879, "jev_fanout_auc": 0.877,
+    "jev_recall_at_zero_false_flags_thr0.7": 0.25, "jev_recall_thr0.5": 0.40, "jev_false_flags_thr0.5": "4 of 470",
+    "jev_by_kind_auc": {"nonsense": 0.987, "okurigana-bleed": 0.917, "small-kana": 0.856, "alt-reading": 0.841, "rendaku": 0.841, "long-vowel": 0.833},
+    "gemini_recall_at_zero_false_flags": 0.70, "gemini_false_flags": "0 of 470",
+    "jev_fp_rate_presumed_correct_pairs": {"n_pairs": 7963, "thr0.5": "13 (0.16%)", "thr0.7": "0"}
+  },
+  "reading_choice": {"n": 400, "jev_accuracy": 0.735, "majority_reading_baseline": 0.873, "accuracy_at_conf_0.9": 0.954, "share_at_conf_0.9": 0.27},
+  "kana_link_homophones": {
+    "set": "1,323 curator-adjudicated occurrences (661 other / 662 entry) + 300 random current links",
+    "jev_auc_ledger": 0.695, "jev_precision_recall_thr0.7": [0.80, 0.40], "jev_false_flags_random_300": 3,
+    "gemini_precision_recall_ledger": [0.61, 0.79], "gemini_false_flags_random_300": 12,
+    "cascade_gemini_then_jev_thr0.5": {"precision": 0.756, "recall": 0.51},
+    "jev_blind_spot": "でも particle vs conjunction (P(other) about 0.01)"
+  },
+  "real_errors_from_git": {
+    "translation": {"n": 172, "jev_auc": 0.686, "gemini_auc": 0.681, "jev_recall_thr0.5": 0.17, "jev_false_flag_rate": 0.06, "gemini_recall": 0.43, "gemini_false_flag_rate": 0.15},
+    "gloss": {"n": 349, "jev_auc": 0.653, "gemini_auc": 0.544, "meaning_subset": {"n": 235, "jev_auc": 0.764, "gemini_auc": 0.563}},
+    "notes": {"n": 180, "jev_auc_whole_notes": 0.578, "jev_auc_changed_lines": 0.626},
+    "triage_score_auc": "0.55-0.64 (useless)"
+  },
+  "metadata": {
+    "pos_family_agreement": 0.93, "formality_agreement": 0.75, "politeness_agreement": 0.99,
+    "wrong_tag_injected": {"auc": 0.986, "precision_recall_thr0.7": [0.993, 0.893]},
+    "wrong_tag_real_reviewer_flags": {"n": 201, "auc": 0.870, "thr0.3": {"precision": 0.964, "recall": 0.767}, "thr0.5": {"precision": 0.969, "recall": 0.547}},
+    "false_flag_rate_on_real_tags": {"thr0.5": "6 of 211", "thr0.7": "2 of 211", "thr0.9": "0 of 211"}
+  },
+  "sense_assignment": {"n": 400, "agreement": 0.975, "agreement_at_conf_0.9": 0.989, "share_at_conf_0.9": 0.94, "majority_baseline": 0.52}
+}

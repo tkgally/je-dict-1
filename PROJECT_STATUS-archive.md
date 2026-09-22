@@ -9420,3 +9420,20 @@ Created 20 general-tier entries. **Twelve came from the "seen in entry" lane** �
 **§4 cross-model self-check on all 21 changed entries: 1 flag, rejected, 0 sent to the curator.** All 20 new entries came back clean. The single flag was on the pre-existing entry 19680 {耐|た}え{難|がた}い, where the model wanted the `formal` register label changed to `neutral`; the entry's own notes describe it as a literary and formal expression, so project policy declines that swap. Cost $0.009.
 
 **Queue note**: the candidate 耐えがたい was removed as a stale duplicate — it is the same word as 19680 {耐|た}え{難|がた}い written with がたい in kana — and 19680's notes now record that spelling. One "seen in entry" candidate was deliberately left in the queue: 脂漏 (seborrhea), harvested from the eczema entry, is a technical dermatology term that a standalone learner entry serves poorly; the reasoning is logged as an observation. Three new candidates were captured from words the new entries reference but do not define: {駅伝|えきでん}, {異人館|いじんかん}, コンソメ. Candidate queue now 154.
+
+### 2026-09-15 (Interactive: stranded Routine branches recovered; the Routine now absorbs red PRs)
+
+Four Routine branches had been left unmerged. The causes: the Routine's wait between CI polls was
+a backgrounded `sleep`, which returns at once, so it gave up on every PR after about two minutes
+while the check takes five to seven; it then pushed a "CI still pending" note, which restarted CI;
+two PRs had real one-token CI failures no rule allowed a later run to fix; and the "stale PR"
+sweep closed a polish PR whose range the next run had deliberately skipped. Recovered all of it:
+merged #3299; absorbed #3293 (20 new entries, IDs 30893–30912: ハチ{公|こう}, {鼠海豚|ねずみいるか},
+the crab cluster ズワイ{蟹|がに}/タラバ{蟹|がに}/{毛蟹|けがに}/{花咲蟹|はなさきがに}/{蟹味噌|かにみそ}/
+{越前蟹|えちぜんがに}, {科|か}す, and others) and #3290 (polish of 27 entries: canonical note headers,
+concrete semantic tags in place of "general", a {双六|すごろく} ↔ {凧揚|たこあ}げ/{羽根|はね}つき/かるた
+New-Year-games cluster, a gloss fix for {双六|すごろく}, formality fixes). New tooling:
+`pipeline/absorb_branch.py` (policy merge of a stranded branch; `--residue` says what a branch still
+holds), `make gate` (exactly the CI checks, run before every push), `pipeline/wait.py` (a wait
+that waits). The Routine prompt now absorbs a red predecessor instead of leaving or closing it,
+runs the gate before pushing, pushes nothing after opening its PR, and waits properly.

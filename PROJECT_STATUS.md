@@ -50,6 +50,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-22 (Evaluation: TypeSafe's Jev model for the Routine)
+
+Tested whether the new decision-only model Jev (`typesafe/jev-1.13`, via OpenRouter's decisions
+endpoint) could do useful work for the Routine, spending about $0.95 of a $5 budget. Verdict in
+`enhancement/jev-evaluation-2026-09-22.md`: not for furigana (Gemini 2.5 Flash caught 70 percent
+of injected wrong readings with no false flags; Jev caught 25 percent, and picks the right
+reading of an ambiguous kanji less often than a frequency baseline), not for the accuracy review
+(both models weak on the real translation, gloss and notes errors recovered from git history),
+and blind to the commonest kana-link mistake (particle でも linked to the conjunction). Genuinely
+good and cheap at two closed judgments: wrong-domain semantic tags (96 to 99 percent precision at
+55 to 89 percent recall) and which numbered sense an example illustrates (97.5 percent agreement,
+with several disagreements that look like entry errors). Recommended: two one-time sweeps of those
+kinds; no change to the Routine's models. Scripts in `enhancement/jev-eval/`.
+
 ### 2026-09-21 (Routine v3: new-entries — 20 New Entries, IDs 30994–31013)
 
 Created 20 general-tier entries: 5 from the "seen in entry" internal-closure lane plus 15 curated
@@ -200,21 +214,4 @@ the notes). In-context kana-link check: one flag on a pre-existing entry (04048 
 
 **Queue**: 20 candidates auto-cleared on `update_indexes.py`; one removed by hand as a duplicate.
 Candidate queue stands at 209, with 33 internal-closure candidates left for the next new-entries run.
-
-### 2026-09-15 (Interactive: stranded Routine branches recovered; the Routine now absorbs red PRs)
-
-Four Routine branches had been left unmerged. The causes: the Routine's wait between CI polls was
-a backgrounded `sleep`, which returns at once, so it gave up on every PR after about two minutes
-while the check takes five to seven; it then pushed a "CI still pending" note, which restarted CI;
-two PRs had real one-token CI failures no rule allowed a later run to fix; and the "stale PR"
-sweep closed a polish PR whose range the next run had deliberately skipped. Recovered all of it:
-merged #3299; absorbed #3293 (20 new entries, IDs 30893–30912: ハチ{公|こう}, {鼠海豚|ねずみいるか},
-the crab cluster ズワイ{蟹|がに}/タラバ{蟹|がに}/{毛蟹|けがに}/{花咲蟹|はなさきがに}/{蟹味噌|かにみそ}/
-{越前蟹|えちぜんがに}, {科|か}す, and others) and #3290 (polish of 27 entries: canonical note headers,
-concrete semantic tags in place of "general", a {双六|すごろく} ↔ {凧揚|たこあ}げ/{羽根|はね}つき/かるた
-New-Year-games cluster, a gloss fix for {双六|すごろく}, formality fixes). New tooling:
-`pipeline/absorb_branch.py` (policy merge of a stranded branch; `--residue` says what a branch still
-holds), `make gate` (exactly the CI checks, run before every push), `pipeline/wait.py` (a wait
-that waits). The Routine prompt now absorbs a red predecessor instead of leaving or closing it,
-runs the gate before pushing, pushes nothing after opening its PR, and waits properly.
 
