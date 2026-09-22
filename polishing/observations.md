@@ -2000,3 +2000,44 @@ homograph-list truncation.)_
   reasoning that contradicted its own premise, e.g. calling an example that confirms a stated rule
   a "contradiction" of that rule). This matches the 2026-09-21 finding; the notes dimension prompt
   likely still needs tighter grounding.
+
+- [tooling] 2026-09-22 (routine polish, priority lane + entries 8142-8161): `build/auto_link.py`'s
+  homophone guard (and the `reviews/link_decisions.jsonl` unlink ledger it consults) only applies
+  to pure-hiragana surfaces (`guard()`: "Kanji and katakana surfaces are never guarded: their
+  furigana or spelling identifies the lexeme"). That assumption breaks when a kanji+furigana
+  conjugated surface collides between two different entries' conjugation tables: 08152_tereru
+  (照れる, "to be embarrassed") and 00404_teru (照る, "to shine") both produce the surface 照れ (the
+  stem of 照れる; also 照る's Imperative and the stem of its Potential 照れる). The forms-map rule
+  linked every bare 照れ in 08152's own examples/notes to 00404_teru, which is wrong every time
+  (照れる's own conjugated forms are never a reference to a different word). Unlinking by hand and
+  logging 6 `unlink` decisions in `reviews/link_decisions.jsonl` did not stick — re-running
+  `auto_link.py --ids 08152` reintroduced the exact same 6 bad links, because `guard()` returns
+  early (skips the `ctx.excluded`/`self.blocked` checks entirely) for any surface that isn't pure
+  hiragana. Worked around this run by leaving 08152 out of the `--ids` list for auto_link.py after
+  the first bad pass and fixing it by hand instead. Needs a real code fix: `guard()` should also
+  consult `ctx.excluded` for kanji-bearing surfaces when an explicit decision-ledger entry exists
+  for that (entry, base) pair, otherwise any other godan verb whose Imperative or Potential stem
+  collides with an unrelated ichidan verb's own stem (the 照る/照れる pattern generalizes to any
+  X-る/Xれる pair) is at risk of the same silent mislink on every future auto_link run.
+
+- [tooling] 2026-09-22 (routine polish, entries 8142-8161): found and fixed a batch mistagging —
+  08142_kaatorijji, 08146_baromeetaa, 08147_rifu, 08148_arenji, 08149_kontorabasu (all created
+  2026-01-25T06:0x, consecutive IDs) each carried a spurious `language` semantic tag with no
+  connection to language/linguistics (a printer cartridge, a barometer, a music riff, arranging a
+  song, a double bass). A broader scan found 17 katakana-headword entries with the `language` tag
+  district-wide, several more of them clustered in the same 08138-08149 ID range (08138_kurarinetto,
+  08139_toronboon, 08140_hippuhoppu, 08141_pikku — not yet reached by this run's frontier cursor).
+  Likely a batch-creation tagging error that conflated "loanword with an ETYMOLOGY section" with
+  the `language` semantic category. 349 entries total carry the `language` tag dictionary-wide;
+  most look legitimate (grammar/translation/dialect terms), but the katakana-loanword subset is
+  worth a systemic-fix detector: flag entries where `semantic` includes `language` and the headword
+  is pure katakana, then verify each by hand (not all loanwords with `language` are wrong — オノマ
+  トペ, ルビ, キャッチコピー etc. are legitimately about language).
+
+- [pattern] 2026-09-22 (routine polish): `polishing/priority/notes.txt` (generated 2026-09-19) is
+  nearly exhausted only 3 days later — scanning all 27,477 ranked lines from `priority-cursor.txt`
+  line 1 found only 11 entries not modified in the last 30 days (the rest were already touched by
+  the intervening accuracy-review/systemic-fix sweeps, which run sequentially over low IDs and
+  incidentally cover much of the priority list). Advanced the cursor past the whole file this run
+  after using those 11. At this pace the priority file needs regenerating roughly weekly, not just
+  when it turns 14 days old — worth tightening the `make priorities` regeneration trigger.
