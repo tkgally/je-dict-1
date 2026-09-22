@@ -1966,6 +1966,17 @@ homograph-list truncation.)_
   treated as a standing defect in the 30-day skip filter and fixed (shorten the window, or have
   `prioritize_polishing.py` stop nominating recently-touched entries) rather than logged again.
 
+- [tooling] 2026-09-22 (routine polish, cursor 8623): fifth+ consecutive occurrence of the
+  standing 30-day-skip defect — scanning from line 8623 to the file's end (27481/27481, all
+  18,859 remaining lines) found only 7 entries not modified in the last 30 days
+  (04926_panko, 04731_gorufu, 05262_zukizuki, 05375_meramera, 06920_teiuka, 02208_koi,
+  04855_shousou). Took all 7; 4 had a real defect (a SIMILAR WORDS-equivalent section under a
+  non-canonical header: "CONTRAST WITH OTHER PAIN WORDS", "LITERAL/FIGURATIVE USE" +
+  "FIRE MIMETIC WORDS", "VARIANT FORMS" misclassifying register variants, "CONTRAST WITH
+  ⟦愛⟧" with a link inside the header line), all renamed to canonical `SIMILAR WORDS:`. Not
+  relogging the root-cause diagnosis (already filed at length in tooling-backlog.md); cursor
+  wrapped to line 1 since the tail is exhausted.
+
 - [tooling] 2026-09-21 (routine accuracy-review, entries 8001-9000): of 43 notes-fact flags from
   `review_accuracy.py` in this range, roughly half (about 20) quoted content that does not appear
   where claimed — e.g. text attributed to a "FORMS" section that only exists in a different
