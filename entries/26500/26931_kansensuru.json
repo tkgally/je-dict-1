@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26931_kansensuru_ex1",
-      "japanese": "⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧⟦に→に：00314_ni⟧{感染|かんせん}した。",
+      "japanese": "⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧⟦に→に：00314_ni⟧⟦{感染|かんせん}→感染：05977_kansen⟧した。",
       "english": "I caught the flu.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26931_kansensuru_ex3",
-      "japanese": "⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦で→で：00502_de⟧{何百万人|なんびゃくまんにん}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦ウイルス→ウイルス：05223_uirusu⟧⟦に→に：00314_ni⟧{感染|かんせん}し、⟦{医療|いりょう}→医療：01836_iryou⟧⟦{体制|たいせい}→体制：04490_taisei⟧⟦が→が：00051_ga⟧⟦{逼迫|ひっぱく}→逼迫：09052_hippaku⟧⟦した→する：00392_suru⟧。",
+      "japanese": "⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦で→で：00502_de⟧{何百万人|なんびゃくまんにん}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦ウイルス→ウイルス：05223_uirusu⟧⟦に→に：00314_ni⟧⟦{感染|かんせん}→感染：05977_kansen⟧し、⟦{医療|いりょう}→医療：01836_iryou⟧⟦{体制|たいせい}→体制：04490_taisei⟧⟦が→が：00051_ga⟧⟦{逼迫|ひっぱく}→逼迫：09052_hippaku⟧⟦した→する：00392_suru⟧。",
       "english": "Millions of people around the world were infected with this virus, and healthcare systems were strained.",
       "sense_numbers": [
         1
@@ -70,10 +70,11 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-05T16:18:36Z",
-    "modified": "2026-09-02T04:02:28Z"
+    "modified": "2026-09-22T00:23:48Z"
   },
   "conjugation": {
     "type": "suru",

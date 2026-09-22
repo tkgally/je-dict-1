@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "25362_sekkinsuru_ex1",
-      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧{接近|せっきん}して⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{接近|せっきん}→接近：04365_sekkin⟧して⟦いる→いる：00495_iru⟧。",
       "english": "A typhoon is approaching.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "25362_sekkinsuru_ex2",
-      "japanese": "⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧⟦が→が：00051_ga⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧{接近|せっきん}した。",
+      "japanese": "⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧⟦が→が：00051_ga⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{接近|せっきん}→接近：04365_sekkin⟧した。",
       "english": "A suspicious person approached the school.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "25362_sekkinsuru_ex4",
-      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦の→の：09472_no⟧⟦{立場|たちば}→立場：03403_tachiba⟧⟦が→が：00051_ga⟧{接近|せっきん}した。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦の→の：09472_no⟧⟦{立場|たちば}→立場：03403_tachiba⟧⟦が→が：00051_ga⟧⟦{接近|せっきん}→接近：04365_sekkin⟧した。",
       "english": "The positions of the two countries drew closer.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "25362_sekkinsuru_ex5",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧{接近|せっきん}しようとした⟦が→が：00051_ga⟧、⟦{警戒|けいかい}→警戒：14224_keikai⟧⟦された→する：00392_suru⟧。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧⟦{接近|せっきん}→接近：04365_sekkin⟧しようとした⟦が→が：00051_ga⟧、⟦{警戒|けいかい}→警戒：14224_keikai⟧⟦された→する：00392_suru⟧。",
       "english": "I tried to get close to her, but she was wary.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "25362_sekkinsuru_ex6",
-      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧うち⟦に→に：00314_ni⟧、⟦お{互|たが}い→お互い：00336_otagai⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧{接近|せっきん}してきた。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧うち⟦に→に：00314_ni⟧、⟦お{互|たが}い→お互い：00336_otagai⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦{接近|せっきん}→接近：04365_sekkin⟧してきた。",
       "english": "As negotiations continued, their opinions gradually drew closer together.",
       "sense_numbers": [
         2
@@ -117,10 +117,11 @@
         "movement",
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T16:11:25Z",
-    "modified": "2026-09-02T04:02:22Z"
+    "modified": "2026-09-22T00:23:48Z"
   },
   "conjugation": {
     "type": "suru",
