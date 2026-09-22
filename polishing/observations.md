@@ -1987,3 +1987,16 @@ homograph-list truncation.)_
   wrong-category, gloss-meaning were mostly sound). Worth checking whether the notes dimension
   prompt needs tighter grounding (e.g. requiring a verbatim quote match before flagging) before
   the next large accuracy-review pass.
+
+- [entry] 2026-09-22 (routine accuracy-review, entries 10001-11000): 10287_teiseiin's formality
+  was corrected formal→neutral to match the 09628_juuminhyou precedent (a comparable administrative
+  document term tagged neutral). Its four siblings created in the same batch — 10284_tenkyotodoke,
+  10285_inkanshoumei, 10286_kosekitouhon, 10288_nijuusen — are still tagged formal and were not
+  flagged by this run's reviewer, but likely share the same root-cause formality misassignment.
+  Worth a systemic-fix pass over administrative-document entries' formality tags.
+- [tooling] 2026-09-22 (routine accuracy-review, entries 10001-11000): notes-fact flags again ran
+  noisy — of 21 notes-fact issues, 9 were confirmed real (applied), 1 flagged to curator, and 11
+  rejected as model misreadings (quoting stale/already-correct text, citing the wrong section, or
+  reasoning that contradicted its own premise, e.g. calling an example that confirms a stated rule
+  a "contradiction" of that rule). This matches the 2026-09-21 finding; the notes dimension prompt
+  likely still needs tighter grounding.
