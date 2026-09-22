@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "26929_hakkensuru_ex1",
-      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{星|ほし}→星：01510_hoshi⟧⟦を→を：00422_wo⟧{発見|はっけん}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{星|ほし}→星：01510_hoshi⟧⟦を→を：00422_wo⟧⟦{発見|はっけん}→発見：00085_hakken⟧した。",
       "english": "A new star was discovered.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "26929_hakkensuru_ex2",
-      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦が→が：00051_ga⟧⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧{発見|はっけん}された。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦が→が：00051_ga⟧⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧⟦{発見|はっけん}→発見：00085_hakken⟧された。",
       "english": "Ancient ruins were discovered by chance.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "26929_hakkensuru_ex4",
-      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦ミス→ミス：00285_misu⟧⟦を→を：00422_wo⟧{発見|はっけん}した。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦ミス→ミス：00285_misu⟧⟦を→を：00422_wo⟧⟦{発見|はっけん}→発見：00085_hakken⟧した。",
       "english": "I found an error in the documents.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "26929_hakkensuru_ex6",
-      "japanese": "⟦{検査|けんさ}→検査：02707_kensa⟧⟦で→で：00502_de⟧⟦{異常|いじょう}→異常：01716_ijou⟧⟦が→が：00051_ga⟧{発見|はっけん}された⟦ため→ため：01145_tame⟧、⟦{精密|せいみつ}{検査|けんさ}→精密検査：20629_seimitsukensa⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ことになった。",
+      "japanese": "⟦{検査|けんさ}→検査：02707_kensa⟧⟦で→で：00502_de⟧⟦{異常|いじょう}→異常：01716_ijou⟧⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧された⟦ため→ため：01145_tame⟧、⟦{精密|せいみつ}{検査|けんさ}→精密検査：20629_seimitsukensa⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ことになった。",
       "english": "An abnormality was detected during the examination, so I will undergo a detailed checkup.",
       "sense_numbers": [
         2
@@ -131,10 +131,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T16:17:44Z",
-    "modified": "2026-09-02T04:02:28Z"
+    "modified": "2026-09-22T00:23:48Z"
   },
   "conjugation": {
     "type": "suru",

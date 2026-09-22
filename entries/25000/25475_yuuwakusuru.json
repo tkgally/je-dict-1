@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "25475_yuuwakusuru_ex1",
-      "japanese": "⟦ケーキ→ケーキ：01356_keeki⟧⟦に→に：00314_ni⟧{誘惑|ゆうわく}された。",
+      "japanese": "⟦ケーキ→ケーキ：01356_keeki⟧⟦に→に：00314_ni⟧⟦{誘惑|ゆうわく}→誘惑：14209_yuuwaku⟧された。",
       "english": "I was tempted by the cake.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "25475_yuuwakusuru_ex2",
-      "japanese": "⟦{甘|あま}い→甘い：00617_amai⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧{誘惑|ゆうわく}してくる。",
+      "japanese": "⟦{甘|あま}い→甘い：00617_amai⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧⟦{誘惑|ゆうわく}→誘惑：14209_yuuwaku⟧してくる。",
       "english": "They try to lure you with sweet words.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "25475_yuuwakusuru_ex3",
-      "japanese": "⟦ダイエット→ダイエット：17678_daietto⟧⟦{中|ちゅう}→〜中：09840_chuu⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦{目|め}の{前|まえ}→目の前：22588_menomae⟧⟦の→の：09472_no⟧⟦スイーツ→スイーツ：27370_suiitsu⟧⟦に→に：00314_ni⟧{誘惑|ゆうわく}されて⟦{食|た}べて→食べる：00396_taberu⟧しまった。",
+      "japanese": "⟦ダイエット→ダイエット：17678_daietto⟧⟦{中|ちゅう}→〜中：09840_chuu⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦{目|め}の{前|まえ}→目の前：22588_menomae⟧⟦の→の：09472_no⟧⟦スイーツ→スイーツ：27370_suiitsu⟧⟦に→に：00314_ni⟧⟦{誘惑|ゆうわく}→誘惑：14209_yuuwaku⟧されて⟦{食|た}べて→食べる：00396_taberu⟧しまった。",
       "english": "Even though I was on a diet, I was tempted by the sweets in front of me and ended up eating them.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "25475_yuuwakusuru_ex4",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦を→を：00422_wo⟧{誘惑|ゆうわく}しようとした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦を→を：00422_wo⟧⟦{誘惑|ゆうわく}→誘惑：14209_yuuwaku⟧しようとした。",
       "english": "He tried to seduce her.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "25475_yuuwakusuru_ex6",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{巧|たく}み→巧み：07153_takumi⟧な⟦{話術|わじゅつ}→話術：21732_wajutsu⟧⟦で→で：00502_de⟧⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{誘惑|ゆうわく}し、⟦{大金|たいきん}→大金：12192_taikin⟧⟦を→を：00422_wo⟧{騙|だま}し{取|と}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{巧|たく}み→巧み：07153_takumi⟧な⟦{話術|わじゅつ}→話術：21732_wajutsu⟧⟦で→で：00502_de⟧⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧⟦{誘惑|ゆうわく}→誘惑：14209_yuuwaku⟧し、⟦{大金|たいきん}→大金：12192_taikin⟧⟦を→を：00422_wo⟧{騙|だま}し⟦{取|と}った→取る：00565_toru⟧。",
       "english": "He seduced his target with skillful rhetoric and swindled a large sum of money.",
       "sense_numbers": [
         2
@@ -116,10 +116,11 @@
         "emotion",
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-25T14:16:09Z",
-    "modified": "2026-09-02T04:02:22Z"
+    "modified": "2026-09-22T00:23:48Z"
   },
   "conjugation": {
     "type": "suru",
