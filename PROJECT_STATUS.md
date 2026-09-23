@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-23 (Routine v3: new-entries — 20 New Entries, IDs 31014–31033)
+
+Created 20 general-tier entries: all 5 internal-closure candidates ({台木|だいぎ} and {穂木|ほぎ} from
+08106 {接|つ}ぎ{木|き}, {百万長者|ひゃくまんちょうじゃ}, {口車|くちぐるま} from 08111 {舌先|したさき},
+{卵|たまご}とじ) plus 15 from the queue: the proverb {餅|もち}は{餅屋|もちや}, {自転車操業|じてんしゃそうぎょう},
+{玉石混交|ぎょくせきこんこう}, three people ({宮沢賢治|みやざわけんじ}, {手塚治虫|てづかおさむ},
+{葛飾北斎|かつしかほくさい}), three classics ({源氏物語|げんじものがたり}, {枕草子|まくらのそうし},
+{古事記|こじき}), five places ({清水寺|きよみずでら}, {金閣寺|きんかくじ}, {永田町|ながたちょう},
+{霞|かすみ}が{関|せき}, {築地|つきじ}) and {任天堂|にんてんどう}. Candidate C23001 棚からぼたもち was dropped
+as a kana duplicate of 06196 {棚|たな}から{牡丹餅|ぼたもち}.
+
+**Seven stale `noentry` markers resolved** (class A1) in 00242, 01676, 04314, 05051, 07059. Five
+wrong partial-word links placed by the linker were removed by rewording (霞 inside 霞ヶ関, 建て
+inside 建て直す, 続け inside 描き続け, 子 inside 子ども, 売り inside 売り上げ).
+
+**§4 self-check on 25 entries: 1 applied, 1 rejected.** Applied: 31024 {葛飾北斎|かつしかほくさい}
+now says the Great Wave is on the *new* 1,000-yen note issued in 2024. Rejected: removing `food`
+from 31032 {築地|つきじ}. Kana-link check: 17 links, 0 flagged. Cost $0.013.
+
 ### 2026-09-21 (Routine v3: new-entries — 20 New Entries, IDs 30994–31013)
 
 Created 20 general-tier entries: 5 from the "seen in entry" internal-closure lane plus 15 curated
@@ -200,21 +219,3 @@ the notes). In-context kana-link check: one flag on a pre-existing entry (04048 
 
 **Queue**: 20 candidates auto-cleared on `update_indexes.py`; one removed by hand as a duplicate.
 Candidate queue stands at 209, with 33 internal-closure candidates left for the next new-entries run.
-
-### 2026-09-15 (Interactive: stranded Routine branches recovered; the Routine now absorbs red PRs)
-
-Four Routine branches had been left unmerged. The causes: the Routine's wait between CI polls was
-a backgrounded `sleep`, which returns at once, so it gave up on every PR after about two minutes
-while the check takes five to seven; it then pushed a "CI still pending" note, which restarted CI;
-two PRs had real one-token CI failures no rule allowed a later run to fix; and the "stale PR"
-sweep closed a polish PR whose range the next run had deliberately skipped. Recovered all of it:
-merged #3299; absorbed #3293 (20 new entries, IDs 30893–30912: ハチ{公|こう}, {鼠海豚|ねずみいるか},
-the crab cluster ズワイ{蟹|がに}/タラバ{蟹|がに}/{毛蟹|けがに}/{花咲蟹|はなさきがに}/{蟹味噌|かにみそ}/
-{越前蟹|えちぜんがに}, {科|か}す, and others) and #3290 (polish of 27 entries: canonical note headers,
-concrete semantic tags in place of "general", a {双六|すごろく} ↔ {凧揚|たこあ}げ/{羽根|はね}つき/かるた
-New-Year-games cluster, a gloss fix for {双六|すごろく}, formality fixes). New tooling:
-`pipeline/absorb_branch.py` (policy merge of a stranded branch; `--residue` says what a branch still
-holds), `make gate` (exactly the CI checks, run before every push), `pipeline/wait.py` (a wait
-that waits). The Routine prompt now absorbs a red predecessor instead of leaving or closing it,
-runs the gate before pushing, pushes nothing after opening its PR, and waits properly.
-

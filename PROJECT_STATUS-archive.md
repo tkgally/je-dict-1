@@ -3,6 +3,23 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-09-15 (Interactive: stranded Routine branches recovered; the Routine now absorbs red PRs)
+
+Four Routine branches had been left unmerged. The causes: the Routine's wait between CI polls was
+a backgrounded `sleep`, which returns at once, so it gave up on every PR after about two minutes
+while the check takes five to seven; it then pushed a "CI still pending" note, which restarted CI;
+two PRs had real one-token CI failures no rule allowed a later run to fix; and the "stale PR"
+sweep closed a polish PR whose range the next run had deliberately skipped. Recovered all of it:
+merged #3299; absorbed #3293 (20 new entries, IDs 30893–30912: ハチ{公|こう}, {鼠海豚|ねずみいるか},
+the crab cluster ズワイ{蟹|がに}/タラバ{蟹|がに}/{毛蟹|けがに}/{花咲蟹|はなさきがに}/{蟹味噌|かにみそ}/
+{越前蟹|えちぜんがに}, {科|か}す, and others) and #3290 (polish of 27 entries: canonical note headers,
+concrete semantic tags in place of "general", a {双六|すごろく} ↔ {凧揚|たこあ}げ/{羽根|はね}つき/かるた
+New-Year-games cluster, a gloss fix for {双六|すごろく}, formality fixes). New tooling:
+`pipeline/absorb_branch.py` (policy merge of a stranded branch; `--residue` says what a branch still
+holds), `make gate` (exactly the CI checks, run before every push), `pipeline/wait.py` (a wait
+that waits). The Routine prompt now absorbs a red predecessor instead of leaving or closing it,
+runs the gate before pushing, pushes nothing after opening its PR, and waits properly.
+
 ### 2026-09-14 (Routine v3: new-entries — 20 New Entries, IDs 30893–30912)
 
 Created 20 general-tier entries, all from the "seen in entry" internal-closure lane (49 available,
