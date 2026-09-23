@@ -468,7 +468,7 @@ Before finalizing any entry, verify:
 - [ ] **File placed in correct directory** (use `python3 build/get_entry_path.py <reading> <entry_id>`)
 - [ ] **All kanji have furigana** (headword, examples, AND notes)
 - [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
-- [ ] **Tags are complete**: pos, formality, politeness, semantic all present
+- [ ] **Tags are complete**: pos, formality, politeness, semantic all present (`formality` is one of `formal` / `neutral` / `informal` / `vulgar`; `casual` is invalid, use `informal`)
 - [ ] Examples progress from simple to complex
 - [ ] At least one collocation or fixed phrase is shown
 - [ ] Grammar patterns are explicitly demonstrated

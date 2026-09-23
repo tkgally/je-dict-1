@@ -1869,6 +1869,16 @@ plain {弟|おとうと}, dropping "-in-law"); the Japanese sentence still wants
 speaker's own 義弟. The entry's separate gloss question — whether "stepbrother" belongs as a
 co-equal gloss — is already with the curator.
 
+## Harvested 2026-09-23
+
+- **19274 {板|いた}に{着|つ}く**: the standard spelling is 板に付く (the entry's own etymology is the 付く sense). Change the headword, conjugation table and examples to 付く, and keep the ID and romaji.
+- **Administrative documents**: 10284 転居届, 10285 印鑑証明 and 10286 戸籍謄本 changed from formal to neutral on 2026-09-23, matching 09628 住民票 and 10287 訂正印. Their notes make no register claim.
+- **Bags tagged `clothing`**: 01375, 08987, 23089, 23796, 24193 and 27565 are tagged `clothing`, but 04541 リュック is tagged `daily-life`. Pick one convention for the six, not one entry at a time.
+- **Braced base forms, the resolved item's residue**: 00975/00976/00984/00985 `→人：00658` lacks the tilde of 〜人. 00707 links 話上手 to 08467 話し上手. 00966/00973 use 早い against 速い／早い. 00965 uses 〜 where the headword has ～.
+- **Stray `domain` tags from idioms**: 04305 トカゲ carried `business` from 蜥蜴の尻尾切り, and 02977 もしもし carried `business` although its notes say the word is avoided in business (both fixed 2026-09-14/15). This belongs to the queue's `tag-domain-single-example-contamination`.
+- **Zodiac signs**: 亥 is candidate C23414. The other eleven (子丑寅卯辰巳午未申酉戌) have not been checked. A candidates run should probe all twelve at once.
+- **Brace mention-quotes**: 00319 {匂}/{臭} and 21046 {疑いない} are the documented mention-quote convention, not errors. 22988 has had its transitivity set since then.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

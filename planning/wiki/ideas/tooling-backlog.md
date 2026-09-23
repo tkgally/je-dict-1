@@ -6017,6 +6017,23 @@ measurement of the same family at the same rate, and 127's runner-side post-filt
   argument for making that check the documented last step rather than a lucky accident. Already
   filed among the 2026-08-27 prompt recommendations.
 
+## Updates 2026-09-23 (wiki harvest)
+
+### 144. Priority-lane skip window (queue: `priority-lane-skip-window`, needs-decision)
+Nine polish runs scanned 7,000–27,000 priority lines for about 15 entries each. The cause is the data, not the list: 11 of 30,804 entries have a `modified` date older than 30 days, because 23,592 were stamped 2026-09-02 and 3,164 were stamped 2026-09-04. The lane reopens by itself around 2026-10-04. Until then the scan costs budget and finds nothing. The choices are in the queue item.
+
+### 145. `auto_link.py` ignores unlink decisions for kanji surfaces (queue: `auto-link-kanji-surface-ledger`)
+`guard()` returns early for any surface that is not all hiragana, so an `unlink` line for 照れ in 08152 照れる is ignored, and each re-run links it back to 00404 照る. The fix is to consult `ctx.excluded` for every surface and to never link a form of the entry's own headword.
+
+### 146. Notes-fact quote gate accepts a 25-character prefix (queue: `reviewer-notes-fact-quote-prefix`)
+Since 2026-09-01, `notes-fact` flags were 304 applied against 618 rejected (33%). `quote_in_notes()` accepts a quote when only its first 25 characters match, so spliced or misplaced quotes get through.
+
+### Prompt recommendations (for the curator)
+- `newentries.md`: rewrite the candidate gloss for the headword's part of speech (30776). Grep new files for `⟦` and `noentry` before the mechanical pass. Katakana headwords still need furigana in their examples. Note: `formality` values are already listed at line 370.
+- `newcandidates.md`: probe with `check_duplicate.py --batch` first. Health vocabulary is saturated (0 of 28); set phrases and proverbs still yield about 47%.
+- CI polling: the status can be stale for about 29 minutes, and `get_check_run`/`actions_get` read the same cache. Only a longer poll cap helps.
+- `sudachipy` is listed in `build/requirements.txt` but is missing from the container image. Without it, `auto_link.py` falls back to matching on kanji alone.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address
