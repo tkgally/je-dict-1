@@ -1,6 +1,6 @@
 # Quality Metrics
 
-**Generated**: 2026-09-02 by `pipeline/metrics_report.py` from `pipeline/metrics-history.jsonl` (561 runs since 2026-06-10) and `reviews/decisions.jsonl` (7948 adjudication lines). Do not edit by hand; rerun the script. The narrative history that used to live on this page is preserved in git (`git log -- planning/wiki/topics/quality-metrics.md`).
+**Generated**: 2026-09-23 by `pipeline/metrics_report.py` from `pipeline/metrics-history.jsonl` (646 runs since 2026-06-10) and `reviews/decisions.jsonl` (10639 adjudication lines). Do not edit by hand; rerun the script. The narrative history that used to live on this page is preserved in git (`git log -- planning/wiki/topics/quality-metrics.md`).
 
 ## How to read this page
 
@@ -23,48 +23,72 @@
 | 2026-W33 | 56 | pol19 acc14 sys5 new9 can1 wik8 | 2515 | 1475 / 1187 | 6967 | 10614 | 164 | 30484 | 2.93 |
 | 2026-W34 | 11 | pol4 acc2 sys1 new2 wik2 | 270 | 18 / 117 | 7005 | 10801 | 151 | 30524 | 0.20 |
 | 2026-W35 | 14 | pol5 acc4 sys2 new2 wik1 | 529 | 96 / 418 | 7059 | 10810 | 152 | 30564 | 1.10 |
-| 2026-W36 | 5 | pol1 acc1 new1 can1 wik1 | 55 | 15 / 112 | 7065 | 10777 | 195 | 30584 | 0.29 |
+| 2026-W36 | 16 | pol5 acc4 sys3 new2 can1 wik1 | 4129 | 254 / 293 | 7116 | 12190 | 199 | 30604 | 2.29 |
+| 2026-W37 | 20 | pol6 acc6 sys6 new2 | 511 | 499 / 192 | 7340 | 10321 | 211 | 30683 | 3.52 |
+| 2026-W38 | 42 | pol15 acc13 sys10 new4 | 1795 | 977 / 839 | 8076 | 4106 | 178 | 30784 | 6.73 |
+| 2026-W39 | 12 | pol4 acc4 sys3 new1 | 728 | 388 / 207 | 8142 | 3285 | 164 | 30804 | 2.07 |
 
-Latest detector queue depths (2026-08-27): furigana_format 765, artifacts 44, tag_drift 5582
+Latest detector queue depths (2026-09-18): furigana_format 239, artifacts 45, tag_drift 4937
 
 ## Reviewer-flag precision, last 30 days
 
 | src/dim | apply | reject | flag | precision |
 |---|---|---|---|---|
-| accuracy/gloss | 62 | 137 | 6 | 30% |
-| accuracy/tags | 2697 | 1480 | 75 | 63% |
-| accuracy/translation | 45 | 71 | 0 | 39% |
-| furigana/furigana | 9 | 548 | 1 | 2% |
-| self-check/furigana | 0 | 7 | 0 | 0% |
-| self-check/gloss | 33 | 43 | 4 | 41% |
-| self-check/tags | 133 | 197 | 92 | 32% |
-| self-check/translation | 29 | 31 | 0 | 48% |
+| None/gloss | 3 | 9 | 0 | 25% |
+| None/notes | 3 | 9 | 0 | 25% |
+| None/tags | 2 | 8 | 0 | 20% |
+| None/translation | 0 | 7 | 0 | 0% |
+| accuracy/gloss | 189 | 129 | 3 | 59% |
+| accuracy/notes | 289 | 618 | 14 | 31% |
+| accuracy/tags | 1272 | 559 | 2 | 69% |
+| accuracy/translation | 79 | 85 | 3 | 47% |
+| furigana/furigana | 0 | 122 | 0 | 0% |
+| self-check/furigana | 0 | 3 | 0 | 0% |
+| self-check/gloss | 25 | 34 | 4 | 40% |
+| self-check/notes | 33 | 119 | 1 | 22% |
+| self-check/tags | 74 | 49 | 1 | 60% |
+| self-check/translation | 16 | 27 | 5 | 33% |
 
 | dim:family | apply | reject | flag | precision |
 |---|---|---|---|---|
-| furigana:(unlabelled) | 9 | 555 | 1 | 2% |
-| gloss:(unlabelled) | 95 | 180 | 10 | 33% |
-| tags:(unlabelled) | 2830 | 1677 | 167 | 61% |
-| translation:(unlabelled) | 74 | 102 | 0 | 42% |
+| furigana:(unlabelled) | 0 | 125 | 0 | 0% |
+| gloss:(unlabelled) | 17 | 24 | 0 | 41% |
+| gloss:gloss-meaning | 197 | 148 | 7 | 56% |
+| gloss:notes-fact | 3 | 0 | 0 | 100% |
+| notes:notes-fact | 324 | 746 | 15 | 30% |
+| notes:register | 1 | 0 | 0 | 100% |
+| tags:(unlabelled) | 95 | 379 | 0 | 20% |
+| tags:notes-fact | 17 | 0 | 0 | 100% |
+| tags:offvocab | 848 | 0 | 2 | 100% |
+| tags:register | 180 | 205 | 1 | 47% |
+| tags:wrong-category | 208 | 32 | 0 | 87% |
+| translation:(unlabelled) | 12 | 11 | 0 | 52% |
+| translation:translation-meaning | 83 | 108 | 8 | 42% |
 
 ## Reviewer-flag precision, all time
 
 | src/dim | apply | reject | flag | precision |
 |---|---|---|---|---|
+| None/gloss | 3 | 9 | 0 | 25% |
+| None/notes | 3 | 9 | 0 | 25% |
+| None/tags | 2 | 8 | 0 | 20% |
+| None/translation | 0 | 7 | 0 | 0% |
 | accuracy-review/furigana | 1 | 10 | 0 | 9% |
 | accuracy-review/gloss | 1 | 19 | 2 | 5% |
 | accuracy-review/tags | 32 | 260 | 0 | 11% |
 | accuracy-review/translation | 4 | 24 | 0 | 14% |
-| accuracy/gloss | 177 | 496 | 16 | 26% |
+| accuracy/gloss | 359 | 605 | 19 | 37% |
 | accuracy/gloss/translation | 0 | 0 | 1 | 0% |
-| accuracy/tags | 7612 | 4223 | 1113 | 59% |
-| accuracy/translation | 136 | 335 | 7 | 28% |
+| accuracy/notes | 289 | 618 | 14 | 31% |
+| accuracy/tags | 8812 | 4424 | 1115 | 61% |
+| accuracy/translation | 209 | 412 | 10 | 33% |
 | furigana-screening/furigana | 0 | 1 | 0 | 0% |
 | furigana/furigana | 52 | 2322 | 4 | 2% |
 | furigana/tags | 1 | 0 | 0 | 100% |
 | screening/furigana | 0 | 515 | 0 | 0% |
 | self-check/furigana | 3 | 65 | 0 | 4% |
-| self-check/gloss | 71 | 105 | 6 | 39% |
-| self-check/tags | 382 | 460 | 95 | 41% |
-| self-check/translation | 48 | 110 | 0 | 30% |
+| self-check/gloss | 87 | 135 | 10 | 38% |
+| self-check/notes | 33 | 119 | 1 | 22% |
+| self-check/tags | 444 | 489 | 96 | 43% |
+| self-check/translation | 59 | 135 | 5 | 30% |
 
