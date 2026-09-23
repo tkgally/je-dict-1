@@ -8,7 +8,7 @@
     {
       "sense_number": 1,
       "gloss": "breakfast",
-      "explanation": "The first meal of the day, eaten in the morning. More formal than {朝|あさ}ごはん."
+      "explanation": "The first meal of the day, eaten in the morning."
     }
   ],
   "examples": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "REGISTER: More formal than ⟦{朝|あさ}ごはん→朝ご飯：02843_asagohan⟧. Often used in business contexts, hotels, and written language.\n\nMEAL NAMES:\n- {朝食|ちょうしょく} / ⟦{朝|あさ}ごはん→朝ご飯：02843_asagohan⟧ (breakfast)\n- ⟦{昼食|ちゅうしょく}→昼食：01616_chuushoku⟧ / ⟦{昼|ひる}ごはん→昼ご飯：02950_hirugohan⟧ (lunch)\n- ⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧ / ⟦{晩|ばん}ごはん→晩ご飯：02940_bangohan⟧ (dinner)\n\nCOMMON EXPRESSIONS:\n- {朝食|ちょうしょく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧/⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ (eat breakfast)\n- {朝食|ちょうしょく}⟦{付|つ}き→付く：01960_tsuku⟧ (with breakfast included)\n- {朝食|ちょうしょく}⟦バイキング→バイキング：21783_baikingu⟧ (breakfast buffet)\n- {朝食|ちょうしょく}⟦{抜|ぬ}き→抜く：02384_nuku⟧ (skipping breakfast)",
+  "notes": "REGISTER: More formal than ⟦{朝|あさ}ごはん→朝ご飯：02843_asagohan⟧. Often used in business contexts, hotels, and written language.\n\nRELATED WORDS:\n- {朝食|ちょうしょく} / ⟦{朝|あさ}ごはん→朝ご飯：02843_asagohan⟧ (breakfast)\n- ⟦{昼食|ちゅうしょく}→昼食：01616_chuushoku⟧ / ⟦{昼|ひる}ごはん→昼ご飯：02950_hirugohan⟧ (lunch)\n- ⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧ / ⟦{晩|ばん}ごはん→晩ご飯：02940_bangohan⟧ (dinner)\n\nCOMMON EXPRESSIONS:\n- {朝食|ちょうしょく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧/⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ (eat breakfast)\n- {朝食|ちょうしょく}⟦{付|つ}き→付く：01960_tsuku⟧ (with breakfast included)\n- {朝食|ちょうしょく}⟦バイキング→バイキング：21783_baikingu⟧ (breakfast buffet)\n- {朝食|ちょうしょく}⟦{抜|ぬ}き→抜く：02384_nuku⟧ (skipping breakfast)",
   "cross_references": [
     {
       "type": "synonym",
@@ -84,11 +84,25 @@
       "reading": "ゆうしょく",
       "headword": "{夕食|ゆうしょく}",
       "label": "dinner"
+    },
+    {
+      "type": "related",
+      "target_id": "02950_hirugohan",
+      "reading": "ひるごはん",
+      "headword": "{昼|ひる}ご{飯|はん}",
+      "label": "lunch"
+    },
+    {
+      "type": "related",
+      "target_id": "02940_bangohan",
+      "reading": "ばんごはん",
+      "headword": "{晩|ばん}ご{飯|はん}",
+      "label": "dinner"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:47:24Z",
-    "modified": "2026-05-23T21:12:46Z",
+    "modified": "2026-09-23T12:23:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
