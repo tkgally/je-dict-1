@@ -3,7 +3,7 @@
   "headword": "{着陸|ちゃくりく}",
   "reading": "ちゃくりく",
   "part_of_speech": "noun, suru verb",
-  "gloss": "landing (aviation)",
+  "gloss": "landing (of an aircraft or spacecraft)",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -97,8 +97,8 @@
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "landing (of aircraft)",
-      "explanation": "The act of an aircraft touching down on a runway or surface to end a flight."
+      "gloss": "landing (of an aircraft or spacecraft)",
+      "explanation": "The act of an aircraft or spacecraft touching down on a runway or other surface to end a flight."
     }
   ],
   "examples": [
@@ -173,7 +173,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T17:33:22Z",
-    "modified": "2026-09-04T12:29:39Z",
+    "modified": "2026-09-23T09:21:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -186,7 +186,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }
