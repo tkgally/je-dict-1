@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "05643_yakusokusuru_ex1",
-      "japanese": "⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧⟦{守|まも}ると→守る：01986_mamoru⟧{約束|やくそく}⟦した→する：00392_suru⟧。",
+      "japanese": "⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧⟦{守|まも}ると→守る：01986_mamoru⟧⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦した→する：00392_suru⟧。",
       "english": "I promised to keep the secret.",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "05643_yakusokusuru_ex4",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦と→と：00512_to⟧{約束|やくそく}⟦した→する：00392_suru⟧。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦と→と：00512_to⟧⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦した→する：00392_suru⟧。",
       "english": "I promised my child that I would read a book every day.",
       "notes": null,
       "has_audio": false,
@@ -212,7 +212,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-16T08:34:03Z",
-    "modified": "2026-09-02T04:01:07Z",
+    "modified": "2026-09-23T09:17:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -224,7 +224,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

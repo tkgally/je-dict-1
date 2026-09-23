@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05652_denwasuru_ex1",
-      "japanese": "⟦{後|あと}で→後で：00920_atode⟧{電話|でんわ}⟦します→する：00392_suru⟧。",
+      "japanese": "⟦{後|あと}で→後で：00920_atode⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦します→する：00392_suru⟧。",
       "english": "I'll call you later.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05652_denwasuru_ex2",
-      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦に→に：00314_ni⟧{電話|でんわ}⟦しなきゃ→する：00392_suru⟧。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦に→に：00314_ni⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦しなきゃ→する：00392_suru⟧。",
       "english": "I have to call my mother.",
       "notes": "Casual speech",
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05652_denwasuru_ex3",
-      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦の→の：09472_no⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦で→で：00502_de⟧{電話|でんわ}⟦しました→する：00392_suru⟧。",
+      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦の→の：09472_no⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦で→で：00502_de⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦しました→する：00392_suru⟧。",
       "english": "I'm calling to confirm my reservation.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "05652_denwasuru_ex4",
-      "japanese": "⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧{電話|でんわ}⟦して→する：00392_suru⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
+      "japanese": "⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦して→する：00392_suru⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I called the hospital and made an appointment.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "05652_denwasuru_ex5",
-      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{電話|でんわ}⟦した→する：00392_suru⟧⟦のに→のに：10529_noni⟧、⟦{誰|だれ}→誰：00534_dare⟧⟦も→も：00484_mo⟧⟦{出|で}なかった→出る：00513_deru⟧。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦した→する：00392_suru⟧⟦のに→のに：10529_noni⟧、⟦{誰|だれ}→誰：00534_dare⟧⟦も→も：00484_mo⟧⟦{出|で}なかった→出る：00513_deru⟧。",
       "english": "I called many times, but nobody answered.",
       "notes": null,
       "has_audio": false,
@@ -186,7 +186,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T08:34:03Z",
-    "modified": "2026-09-02T04:01:07Z",
+    "modified": "2026-09-23T09:17:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -198,7 +198,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [
