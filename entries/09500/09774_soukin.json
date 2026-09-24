@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09774_soukin_ex1",
-      "japanese": "⟦{現金|げんきん}→現金：02716_genkin⟧{書留|かきとめ}⟦で→で：00502_de⟧{送金|そうきん}⟦した→する：00392_suru⟧。",
+      "japanese": "⟦{現金|げんきん}→現金：02716_genkin⟧⟦{書留|かきとめ}→書留：00150_kakitome⟧⟦で→で：00502_de⟧{送金|そうきん}⟦した→する：00392_suru⟧。",
       "english": "I sent the money by registered cash mail.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "{送金|そうきん} means sending money to another person or institution. Compound of ⟦{送|おく}る→送る：00742_okuru⟧ (send) + {金|きん} (money). Used as a ⟦する→する：00392_suru⟧ verb: {送金|そうきん}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {送金|そうきん}⟦する→する：00392_suru⟧: to send money, to remit\n- {送金|そうきん}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: remittance/transfer fee\n- {海外|かいがい}{送金|そうきん}: overseas remittance\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧{送金|そうきん}: bank transfer\n- {送金|そうきん}{先|さき}: remittance destination\n\nSIMILAR WORDS:\n- {送金|そうきん}: general term for sending money (any method)\n- {振|ふ}り{込|こ}み: bank transfer (specifically into a bank account)\n- ⟦{振|ふ}り{込|こ}む→振り込む：10992_furikomu⟧: to make a bank transfer (verb)\n- ⟦{為替|かわせ}→為替：04021_kawase⟧: money order or foreign exchange\n\nREGISTER:\nSomewhat formal. In everyday speech, ⟦{振|ふ}り{込|こ}む→振り込む：10992_furikomu⟧ is more commonly used for domestic bank transfers.",
+  "notes": "{送金|そうきん} means sending money to another person or institution. Compound of ⟦{送|おく}る→送る：00742_okuru⟧ (send) + {金|きん} (money). Used as a ⟦する→する：00392_suru⟧ verb: {送金|そうきん}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {送金|そうきん}⟦する→する：00392_suru⟧: to send money, to remit\n- {送金|そうきん}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: remittance/transfer fee\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧{送金|そうきん}: overseas remittance\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧{送金|そうきん}: bank transfer\n- {送金|そうきん}⟦{先|さき}→先：02883_saki⟧: remittance destination\n\nSIMILAR WORDS:\n- {送金|そうきん}: general term for sending money (any method)\n- ⟦{振|ふ}り→振り：03714_furi⟧⟦{込|こ}み→込み：28615_komi⟧: bank transfer (specifically into a bank account)\n- ⟦{振|ふ}り{込|こ}む→振り込む：10992_furikomu⟧: to make a bank transfer (verb)\n- ⟦{為替|かわせ}→為替：04021_kawase⟧: money order or foreign exchange\n\nREGISTER:\nSomewhat formal. In everyday speech, ⟦{振|ふ}り{込|こ}む→振り込む：10992_furikomu⟧ is more commonly used for domestic bank transfers.",
   "cross_references": [
     {
       "type": "contrast",
@@ -184,7 +184,7 @@
   ],
   "metadata": {
     "created": "2026-02-03T09:58:52Z",
-    "modified": "2026-09-02T04:01:19Z",
+    "modified": "2026-09-24T06:18:50Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -197,7 +197,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }
