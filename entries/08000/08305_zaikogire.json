@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMS:\n⟦{在庫|ざいこ}→在庫：04701_zaiko⟧ (inventory, stock) + {切|き}れ (running out, depletion)\n\nCOMMON PATTERNS:\n- {在庫切|ざいこぎ}れ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to go out of stock)\n- {在庫切|ざいこぎ}れ⟦で→で：00502_de⟧... (because of being out of stock)\n\nRELATED WORDS:\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧あり (in stock)\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦{確認|かくにん}→確認：00158_kakunin⟧ (stock check)\n- ⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧ (sold out - synonym)\n- ⟦{再入荷|さいにゅうか}→再入荷：08768_sainyuuka⟧ (restocking)\n\nSIMILAR WORDS:\n⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧ is used interchangeably and is slightly more common in casual speech.",
+  "notes": "FORMS:\n⟦{在庫|ざいこ}→在庫：04701_zaiko⟧ (inventory, stock) + {切|き}れ (running out, depletion)\n\nCOMMON PATTERNS:\n- {在庫切|ざいこぎ}れ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to go out of stock)\n- {在庫切|ざいこぎ}れ⟦で→で：00502_de⟧... (because of being out of stock)\n\nSIMILAR WORDS:\n- ⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧ (sold out): the general shop word for an item that is not available right now.\n- ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧ (sold out): stresses that everything was bought.\n{在庫切|ざいこぎ}れ says the stock itself, warehouse included, has run out; it is the usual label in online shops and order systems.\n\nRELATED WORDS:\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧あり (in stock)\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦{確認|かくにん}→確認：00158_kakunin⟧ (stock check)\n- ⟦{再入荷|さいにゅうか}→再入荷：08768_sainyuuka⟧ (restocking)",
   "cross_references": [
     {
       "type": "related",
@@ -72,6 +72,13 @@
       "reading": "しなぶそく",
       "headword": "{品不足|しなぶそく}",
       "label": "shortage of goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09556_urikire",
+      "reading": "うりきれ",
+      "headword": "{売|う}り{切|き}れ",
+      "label": "sold out"
     }
   ],
   "metadata": {
@@ -88,6 +95,6 @@
       ]
     },
     "created": "2026-01-25T23:10:08Z",
-    "modified": "2026-09-02T04:01:14Z"
+    "modified": "2026-09-24T15:24:17Z"
   }
 }
