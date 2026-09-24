@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08947_ikkatsu_ex1",
-      "japanese": "{一括|いっかつ}{払|ばら}い⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
+      "japanese": "{一括|いっかつ}⟦{払|ばら}い→払い：09655_barai⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "I'll pay in one lump sum.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,11 @@
       ]
     }
   ],
-  "notes": "{一括|いっかつ} means handling items together rather than individually.\n\nCOMMON COLLOCATIONS:\n- {一括|いっかつ}{払|ばら}い: lump-sum payment (vs. ⟦{分割|ぶんかつ}{払|ばら}い→分割払い：17607_bunkatsubarai⟧ installments)\n- {一括|いっかつ}{処理|しょり}: batch processing\n- {一括|いっかつ}⟦ダウンロード→ダウンロード：04725_daunroodo⟧: batch download\n- {一括|いっかつ}⟦{購入|こうにゅう}→購入：03057_kounyuu⟧: bulk purchase\n- {一括|いっかつ}⟦{管理|かんり}→管理：00178_kanri⟧: centralized management\n\nPAYMENT CONTEXT:\nWhen buying with a credit card, you may be asked 「{一括|いっかつ}です⟦か→か：09473_ka⟧、⟦{分割|ぶんかつ}→分割：11745_bunkatsu⟧です⟦か→か：09473_ka⟧」 (lump sum or installments?).",
+  "notes": "{一括|いっかつ} means handling items together rather than individually.\n\nCOMMON COLLOCATIONS:\n- {一括|いっかつ}⟦{払|ばら}い→払い：09655_barai⟧: lump-sum payment (vs. ⟦{分割|ぶんかつ}{払|ばら}い→分割払い：17607_bunkatsubarai⟧ installments)\n- {一括|いっかつ}⟦{処理|しょり}→処理：03251_shori⟧: batch processing\n- {一括|いっかつ}⟦ダウンロード→ダウンロード：04725_daunroodo⟧: batch download\n- {一括|いっかつ}⟦{購入|こうにゅう}→購入：03057_kounyuu⟧: bulk purchase\n- {一括|いっかつ}⟦{管理|かんり}→管理：00178_kanri⟧: centralized management\n\nPAYMENT CONTEXT:\nWhen buying with a credit card, you may be asked 「{一括|いっかつ}です⟦か→か：09473_ka⟧、⟦{分割|ぶんかつ}→分割：11745_bunkatsu⟧です⟦か→か：09473_ka⟧」 (lump sum or installments?).",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-29T06:13:32Z",
-    "modified": "2026-09-02T04:01:16Z",
+    "modified": "2026-09-24T06:18:50Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -149,7 +149,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09864_sainsuru_ex1",
-      "japanese": "⟦{書留|かきとめ}→書留：00150_kakitome⟧⟦で→で：00502_de⟧⟦{届|とど}いた→届く：00899_todoku⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦に→に：00314_ni⟧サインした。",
+      "japanese": "⟦{書留|かきとめ}→書留：00150_kakitome⟧⟦で→で：00502_de⟧⟦{届|とど}いた→届く：00899_todoku⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦に→に：00314_ni⟧⟦サイン→サイン：03846_sain⟧した。",
       "english": "I signed for the registered mail package.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     {
       "id": "09864_sainsuru_ex2",
       "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦に→に：00314_ni⟧サインする。",
-      "english": "I sign the contract.",
+      "english": "I'll sign the contract.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-09-02T04:01:19Z",
+    "modified": "2026-09-24T06:24:16Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +165,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [
