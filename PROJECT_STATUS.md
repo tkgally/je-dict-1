@@ -50,6 +50,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-24 (Routine v3: new-entries — 20 New Entries, IDs 31034–31053)
+
+Created 20 general-tier entries: all 7 internal-closure candidates (ラジオ{体操|たいそう} from 01541,
+{人|ひと}となり from 08163, むしる from 08195, {添|そ}え{物|もの}, {燻|いぶ}し{銀|ぎん}, {衣紋掛|えもんか}け,
+{移植|いしょく}ごて) plus 13 from the queue: four eras ({平安時代|へいあんじだい}, {鎌倉時代|かまくらじだい},
+{室町時代|むろまちじだい}, {大正時代|たいしょうじだい}), six places ({原宿|はらじゅく}, {祇園|ぎおん},
+{東海道|とうかいどう}, {伊勢神宮|いせじんぐう}, {東大寺|とうだいじ}, {桜島|さくらじま}), two events
+({箱根駅伝|はこねえきでん}, {阿波踊|あわおど}り) and {源義経|みなもとのよしつね}. New kanji 祇 added to the index.
+
+**Four stale `noentry` markers resolved** (class A1) in 01676, 03757, 04020, 05638.
+
+**§4 self-check on 36 entries: 1 applied, 2 rejected.** Applied: `clothing` tag on 31045 {原宿|はらじゅく}
+replaced with `culture`. Kana-link check: 29 links, 0 flagged. Cost $0.019.
+
 ### 2026-09-23 (Routine v3: new-entries — 20 New Entries, IDs 31014–31033)
 
 Created 20 general-tier entries: all 5 internal-closure candidates ({台木|だいぎ} and {穂木|ほぎ} from
@@ -185,37 +199,3 @@ flags. Cost: $0.0104 self-check, $1.032 spent today against the $5.00 daily cap.
 **Queue**: 21 candidates auto-cleared on `update_indexes.py`, one removed by hand as a duplicate.
 Candidate queue stands at 188.
 
-### 2026-09-17 (Routine v3: new-entries — 20 New Entries, IDs 30933–30952)
-
-Created 20 general-tier entries, all from the "seen in entry" internal-closure lane. Buddhist
-memorial-day sequence: {四七日|よなのか}, {五七日|いつなのか}, {六七日|むなのか} (28th, 35th, 42nd
-day, rounding out the series alongside the existing {初七日|しょなのか} and {四十九日|しじゅうくにち}).
-Clear-soup terminology from 04990 {吸|す}い{物|もの}: {椀種|わんだね}, {吸|す}い{口|くち},
-{木|き}の{芽|め}. Regional food: {笹|ささ}かまぼこ, {笹寿司|ささずし}, みたらし. Spices from
-04943 {香辛料|こうしんりょう}: クミン, ターメリック. Proper nouns: {桃太郎|ももたろう}, 法隆寺
-(from the Masaoka Shiki haiku quoted in 04384 {柿|かき}), {土佐犬|とさいぬ}. Everyday items:
-スポーツサンダル, カニ (katakana spelling of {蟹|かに}), OCR, {一千万|いっせんまん},
-{消|け}し{忘|わす}れる, {打撲傷|だぼくしょう}.
-
-**One candidate dropped as a spelling-variant duplicate.** {売|う}り{上|あ}げ (sales) turned out to
-be the same word as the existing entry 04102 {売上|うりあげ}, whose own notes already say "can also
-be written as {売り上|うりあ}げ" — removed from the queue rather than written up.
-
-**Three stale `noentry` markers resolved**: 02184 {鬼|おに} ({桃太郎|ももたろう}), 02201 {傷|きず}
-({打撲傷|だぼくしょう}), 04677 コンロ ({消|け}し{忘|わす}れる). Cross-reference harvest also added
-reciprocal links into 06016 {初七日|しょなのか}, 06017 {四十九日|しじゅうくにち}, 04048 {草履|ぞうり},
-and 27707 ビーチサンダル.
-
-**§4 cross-model self-check on all 27 changed entries (20 new plus 7 neighbors touched by the
-noentry and cross-reference passes): 0 flags on the new entries.** Five flags landed on
-pre-existing neighbor entries; three applied (04048 {草履|ぞうり}'s formality tag contradicted its
-own notes that zori "can be formal or casual," corrected to neutral; 04677 コンロ and 30952
-{打撲傷|だぼくしょう} each carried a semantic tag that didn't fit — "food" on a stove, "body-part"
-on an injury — both removed), two rejected as reviewer noise (06017 {四十九日|しじゅうくにち}'s
-gloss covers both the day and the memorial service, consistent with its sibling entries; 30944
-{吸|す}い{口|くち}'s tags match its defined culinary sense, the mouthpiece sense is just an aside in
-the notes). In-context kana-link check: one flag on a pre-existing entry (04048 {草履|ぞうり}'s
-にくそうだった → にくい link), kept as a correct inflected form. Cost $0.014 total.
-
-**Queue**: 20 candidates auto-cleared on `update_indexes.py`; one removed by hand as a duplicate.
-Candidate queue stands at 209, with 33 internal-closure candidates left for the next new-entries run.
