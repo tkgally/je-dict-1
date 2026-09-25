@@ -50,6 +50,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-25 (Interactive: recorded audio for example sentences)
+
+Example sentences can now carry recorded readings. Each MP3 is made by Gemini TTS and is
+accepted only when four AI checkers from three companies agree it follows the furigana; a failed
+take is regenerated up to five times. The recordings live in a separate repository,
+`tkgally/je-dict-audio-1`, served by GitHub Pages, so no audio enters this repository. On
+an entry page, an example with a valid recording gets a play button for the MP3. The recording
+counts as valid while the example's text and furigana are unchanged; every other example keeps
+the browser-speech button.
+
+**First recordings: 308 examples from the first 33 basic-tier entries** (00006 ある to 00422 を),
+voices Kore and Charon, $0.76. 292 passed on the first take. The batch also found a furigana
+error, 00111 本 {少|すこ}なくとも → すく, which is now fixed.
+
+**The Routine has a new `audio` mode (a quarter of runs, $2.40 each).** It works through
+stale recordings first, then the basic, core and general tiers. It runs maintenance checks
+before recording: a regression suite of 163 clips with known answers, voice pilots, model
+checks, and monthly spot-check pages for Tom. Examples with digits, Latin letters or symbols
+(about 2,500), or with kanji lacking furigana (90), are skipped for now. Workflow, evidence and
+changelog: `AUDIO_WORKFLOW.md`.
+
 ### 2026-09-24 (Routine v3: new-entries — 20 New Entries, IDs 31034–31053)
 
 Created 20 general-tier entries: all 7 internal-closure candidates (ラジオ{体操|たいそう} from 01541,
@@ -157,45 +178,3 @@ in the selection. Cost: $0.0096 self-check, $0.4908 spent today against the $5.0
 **Queue**: 20 candidates auto-cleared on `update_indexes.py` (19 internal-closure matches plus the
 two curated additions); one further removed by hand as a stale duplicate before writing (see above).
 Candidate queue stands at 174.
-
-### 2026-09-18 (Routine v3: new-entries — 21 New Entries, IDs 30953–30973)
-
-Created 21 general-tier entries, all from the "seen in entry" internal-closure lane (34 available,
-21 taken). A place name tied to wolf worship: {三峯|みつみね} (Mitsumine Shrine, Saitama; from
-04334 {狼|おおかみ}). A cardigan-cut trio from 04520 カーディガン: ロングカーディガン,
-ショートカーディガン, ボタンレスカーディガン. A scanner-type trio from 05248 スキャナー:
-フラットベッドスキャナー, ハンディスキャナー, ドキュメントスキャナー. The steak-doneness scale
-from 01369 ステーキ: ミディアムレア, ミディアム, ウェルダン, plus two cuts, サーロインステーキ
-and フィレステーキ. {能楽堂|のうがくどう} (Noh theater building, from 01927 {能|のう}). A
-screen/display cluster from 01368 スクリーン: プロジェクター, スクリーンセーバー,
-ワイドスクリーン, マルチスクリーン. {噛|か}み{傷|きず} (bite wound, contrasted with 07340
-{切|き}り{傷|きず}). {五位鷺|ごいさぎ} (night heron, from 04939 {鷺|さぎ}). A fabric/trim pair
-from 04517 ブラウス: シフォン and フリル. One new kanji indexed: {峯|みね} (peak), added as
-02804_hou_mine_peak.
-
-**One candidate dropped before writing.** {蝦蟇|がま} (toad, C23481) turned out to be the same
-word as the existing entry 28705 ガマ, which already documents {蝦蟇|がま} as its kanji spelling
-in its own notes — removed from the queue rather than duplicated. Four other internal-closure
-candidates were set aside for editorial reasons rather than written up this run: {大口真神|おおくちのまかみ}
-(a deity name with no clean semantic-tag category), {師|し} and {両生|りょうせい} (bound morphemes
-too thin to support a standalone entry with natural example sentences), and 藤田/藤井 (generic
-surnames with no specific cultural referent, unlike the dictionary's existing person-name entries).
-All four remain in the queue for a future session to reconsider.
-
-**One stale `noentry` marker resolved**: 03853 セット (プロジェクター, in an example sentence about
-setting up equipment for a meeting).
-
-**§4 self-check on all 22 changed entries (21 new plus 03853, the noentry neighbor): 5 flags, 1
-applied, 4 rejected.** Applied: 03853 セット's semantic tags carried leftover `geography` and
-`leisure`, unrelated to any of its three senses (a set of items, a sports set, the act of setting
-up) — replaced with `general` and `sports`. Rejected as reviewer noise: three flags claiming the
-DONENESS SCALE lines in 30960/30961/30962's notes were missing steps — the model misread the
-inline-link arrows (⟦…→…⟧) around ミディアムレア/ミディアム/ウェルダン as if the scale itself were
-truncated; all four levels are present in each entry. One flag on 30972 シフォン's `clothing`
-semantic tag for a fabric name was rejected as consistent with the dictionary's own convention
-(cf. existing entry ウール, also a fabric, also tagged `clothing`). In-context kana-link check: 0
-flags. Cost: $0.0104 self-check, $1.032 spent today against the $5.00 daily cap.
-
-**Queue**: 21 candidates auto-cleared on `update_indexes.py`, one removed by hand as a duplicate.
-Candidate queue stands at 188.
-
