@@ -444,3 +444,8 @@ Settled 2026-09-25: hosting on GitHub Pages in separate audio repositories (§7)
   × ○ + ÷ = ℃, 32 occurrences) are now "undetermined" and skipped like digits. (2) Entry 00111
   had the furigana error {少|すこ}なくとも; all four checkers heard すくなくとも in five takes.
   The entry is fixed and re-recorded.
+- 2026-09-25: the audio repository `tkgally/je-dict-audio-1` exists (Tom), and the first 308
+  recordings are published there and in the manifest (entries 00006–00422, basic tier). They are
+  served by GitHub Pages with `content-type: audio/mp3` and `access-control-allow-origin: *`.
+  Production is enabled in `audio/config.json`, so the Routine's audio mode now takes part in
+  the rotation.

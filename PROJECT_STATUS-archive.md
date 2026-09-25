@@ -3,6 +3,47 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-09-18 (Routine v3: new-entries — 21 New Entries, IDs 30953–30973)
+
+Created 21 general-tier entries, all from the "seen in entry" internal-closure lane (34 available,
+21 taken). A place name tied to wolf worship: {三峯|みつみね} (Mitsumine Shrine, Saitama; from
+04334 {狼|おおかみ}). A cardigan-cut trio from 04520 カーディガン: ロングカーディガン,
+ショートカーディガン, ボタンレスカーディガン. A scanner-type trio from 05248 スキャナー:
+フラットベッドスキャナー, ハンディスキャナー, ドキュメントスキャナー. The steak-doneness scale
+from 01369 ステーキ: ミディアムレア, ミディアム, ウェルダン, plus two cuts, サーロインステーキ
+and フィレステーキ. {能楽堂|のうがくどう} (Noh theater building, from 01927 {能|のう}). A
+screen/display cluster from 01368 スクリーン: プロジェクター, スクリーンセーバー,
+ワイドスクリーン, マルチスクリーン. {噛|か}み{傷|きず} (bite wound, contrasted with 07340
+{切|き}り{傷|きず}). {五位鷺|ごいさぎ} (night heron, from 04939 {鷺|さぎ}). A fabric/trim pair
+from 04517 ブラウス: シフォン and フリル. One new kanji indexed: {峯|みね} (peak), added as
+02804_hou_mine_peak.
+
+**One candidate dropped before writing.** {蝦蟇|がま} (toad, C23481) turned out to be the same
+word as the existing entry 28705 ガマ, which already documents {蝦蟇|がま} as its kanji spelling
+in its own notes — removed from the queue rather than duplicated. Four other internal-closure
+candidates were set aside for editorial reasons rather than written up this run: {大口真神|おおくちのまかみ}
+(a deity name with no clean semantic-tag category), {師|し} and {両生|りょうせい} (bound morphemes
+too thin to support a standalone entry with natural example sentences), and 藤田/藤井 (generic
+surnames with no specific cultural referent, unlike the dictionary's existing person-name entries).
+All four remain in the queue for a future session to reconsider.
+
+**One stale `noentry` marker resolved**: 03853 セット (プロジェクター, in an example sentence about
+setting up equipment for a meeting).
+
+**§4 self-check on all 22 changed entries (21 new plus 03853, the noentry neighbor): 5 flags, 1
+applied, 4 rejected.** Applied: 03853 セット's semantic tags carried leftover `geography` and
+`leisure`, unrelated to any of its three senses (a set of items, a sports set, the act of setting
+up) — replaced with `general` and `sports`. Rejected as reviewer noise: three flags claiming the
+DONENESS SCALE lines in 30960/30961/30962's notes were missing steps — the model misread the
+inline-link arrows (⟦…→…⟧) around ミディアムレア/ミディアム/ウェルダン as if the scale itself were
+truncated; all four levels are present in each entry. One flag on 30972 シフォン's `clothing`
+semantic tag for a fabric name was rejected as consistent with the dictionary's own convention
+(cf. existing entry ウール, also a fabric, also tagged `clothing`). In-context kana-link check: 0
+flags. Cost: $0.0104 self-check, $1.032 spent today against the $5.00 daily cap.
+
+**Queue**: 21 candidates auto-cleared on `update_indexes.py`, one removed by hand as a duplicate.
+Candidate queue stands at 188.
+
 ### 2026-09-15 (Interactive: stranded Routine branches recovered; the Routine now absorbs red PRs)
 
 Four Routine branches had been left unmerged. The causes: the Routine's wait between CI polls was

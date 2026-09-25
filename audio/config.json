@@ -1,8 +1,9 @@
 {
   "_doc": "Settings for the example-audio workflow (AUDIO_WORKFLOW.md). Changing tts_model, prompt_strategy, checkers, rule or mp3_kbps is a workflow change: rerun the regression suite (python3 build/audio_regression.py) first and log it in the AUDIO_WORKFLOW.md changelog.",
   "production": {
-    "enabled": false,
-    "reason": "waiting for the audio repository tkgally/je-dict-audio-1 (AUDIO_WORKFLOW.md §7)"
+    "enabled": true,
+    "since": "2026-09-25",
+    "reason": "audio repository tkgally/je-dict-audio-1 in place; first 308 recordings published"
   },
   "workflow_version": "v2",
   "tts_model": "google/gemini-3.8-flash-tts",
