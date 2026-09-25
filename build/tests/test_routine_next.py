@@ -303,7 +303,7 @@ class TestAudioMode(unittest.TestCase):
     def test_audio_params_budget(self):
         cfg = base_config()
         self.assertEqual(rn.build_params("audio", neutral_signals(), cfg, 5.0)
-                         ["openrouter_session_budget_usd"], 2.4)
+                         ["openrouter_session_budget_usd"], 4.8)
         self.assertEqual(rn.build_params("audio", neutral_signals(), cfg, 1.1)
                          ["openrouter_session_budget_usd"], 1.1)
 

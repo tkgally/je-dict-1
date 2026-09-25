@@ -368,11 +368,20 @@ class TestMaintenance(unittest.TestCase):
         now = P.now_iso()
         self.write(M.REG_HISTORY, [{"at": now, "checkers_rule_hash": M.checks_fingerprint(cfg),
                                     "passed": True, "kbps": None, "clips": 163}])
-        self.write(M.PILOTS, [{"voice": "Kore", "acceptable": True,
-                               "generation_fingerprint": M.generation_fingerprint(cfg),
-                               "checks_fingerprint": M.checks_fingerprint(cfg)}])
+        pilot = {"voice": "Kore", "first_pass_rate": 0.87, "accepted_rate": 0.99,
+                 "generation_fingerprint": M.generation_fingerprint(cfg),
+                 "checks_fingerprint": M.checks_fingerprint(cfg)}
+        self.write(M.PILOTS, [pilot])
         st = {"models": now[:10], "reevaluate": now[:10]}
+        cfg = {**cfg, "baseline": {"first_pass_rate": 0.915}}
         self.assertEqual(M.due_tasks(cfg, st=st), [])
+        # the same pilot judged against a stricter baseline blocks production
+        strict = {**cfg, "baseline": {"first_pass_rate": 0.955}}
+        self.assertEqual({t for t, b, _ in M.due_tasks(strict, st=st) if b}, {"pilot"})
+        # too many sentences left for a human blocks it too
+        self.write(M.PILOTS, [{**pilot, "accepted_rate": 0.95}])
+        self.assertEqual({t for t, b, _ in M.due_tasks(cfg, st=st) if b}, {"pilot"})
+        self.write(M.PILOTS, [pilot])
         # changing a checker model blocks production again (regression and pilot)
         cfg2 = {**cfg, "checkers": [{"kind": "pcompare", "model": "m2"}]}
         self.assertEqual({t for t, b, _ in M.due_tasks(cfg2, st=st) if b}, {"regression", "pilot"})

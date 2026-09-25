@@ -91,6 +91,14 @@ def last_passing_regression(cfg):
     return runs[-1] if runs else None
 
 
+def pilot_acceptable(p, cfg):
+    """A pilot passes when its first-take rate is within 8 points of the
+    config baseline and at least 97 of 100 sentences were accepted. Judged
+    against the current baseline, so a corrected baseline applies to old pilots."""
+    base = cfg.get("baseline", {}).get("first_pass_rate", 0.9)
+    return p.get("first_pass_rate", 0) >= base - 0.08 and p.get("accepted_rate", 0) >= 0.97
+
+
 def pilots_for(cfg):
     fp = generation_fingerprint(cfg)
     return [p for p in jsonl(PILOTS) if p.get("generation_fingerprint") == fp
@@ -107,7 +115,7 @@ def due_tasks(cfg=None, st=None):
         out.append(("regression", True, "no passing regression run for the current checkers and rule"))
     elif days_since(reg["at"]) >= INTERVALS["regression"]:
         out.append(("regression", False, f"last passing regression run {days_since(reg['at'])} days ago"))
-    piloted = {p["voice"] for p in pilots_for(cfg) if p.get("acceptable")}
+    piloted = {p["voice"] for p in pilots_for(cfg) if pilot_acceptable(p, cfg)}
     missing = [v for v in cfg["voices"] if v not in piloted]
     if missing:
         out.append(("pilot", True, "no acceptable test-set pilot for the current TTS model, prompt, "
