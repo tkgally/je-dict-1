@@ -40,6 +40,8 @@ class TestMarkup(unittest.TestCase):
         self.assertEqual(T.undetermined_reason(T.parse_example("NHKを{見|み}る。")), "latin")
         self.assertEqual(T.undetermined_reason(T.parse_example("{駅|えき}まで歩く。")), "bare-kanji")
         self.assertEqual(T.undetermined_reason(T.parse_example("{駅|えき}|まで。")), "malformed")
+        self.assertEqual(T.undetermined_reason(T.parse_example("{今日|きょう}は×です。")), "symbols")
+        self.assertEqual(T.undetermined_reason(T.parse_example("ええと、{今日|きょう}は…〜です！")), None)
         # malformed is reported before the other problems
         self.assertEqual(T.undetermined_reason(T.parse_example("3{駅|えき}|歩")), "malformed")
 

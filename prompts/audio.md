@@ -107,6 +107,8 @@ to do by hand):
   not give their reading. They keep browser speech until readings written by a
   text model have been validated by ear (`AUDIO_WORKFLOW.md` §3.1). Do not write
   readings for them in this mode.
+- *Symbols* (× ○ + ÷ = ℃, about 30 examples): their reading is not fixed (ばつ or ばってん).
+  They keep browser speech, like digits.
 - *Kanji without furigana* (82) and *malformed markup* (8): these are furigana
   errors in the entry. The systemic-fix backlog item
   `audio-undetermined-furigana` fixes them. List them with

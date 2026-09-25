@@ -98,6 +98,8 @@ def undetermined_reason(p):
         return "digits"
     if p["has_latin"]:
         return "latin"
+    if any(unicodedata.category(c)[0] == "S" for c in p["kana"]):
+        return "symbols"  # × ○ + ÷ = ℃ …: read ばつ or ばってん, まる, たす …
     if not p["plain"].strip():
         return "empty"
     return None
