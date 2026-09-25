@@ -362,18 +362,20 @@ def generate_wordlinks_script() -> str:
 
 
 def generate_tts_script() -> str:
-    """Generate the example-sentence read-aloud script (Web Speech API).
+    """Generate the example-sentence listen script.
 
-    Each example carries a `button.tts-btn[data-text]`. The buttons stay
-    hidden (CSS) unless speechSynthesis exists and a Japanese voice is
-    available; voices often load asynchronously, so `voiceschanged` is
-    observed too.
+    Examples with a verified recording carry `button.audio-btn[data-src]`,
+    which plays the MP3 (always shown). The others carry
+    `button.tts-btn[data-text]` (Web Speech API): those buttons stay hidden
+    (CSS) unless speechSynthesis exists and a Japanese voice is available;
+    voices often load asynchronously, so `voiceschanged` is observed too.
     """
     return '''<script>
 (function() {
-    if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') return;
-    var synth = window.speechSynthesis;
+    var synth = ('speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined')
+        ? window.speechSynthesis : null;
     var jaVoice = null;
+    var player = null, playingBtn = null;
 
     function findJaVoice() {
         var voices = synth.getVoices() || [];
@@ -388,15 +390,41 @@ def generate_tts_script() -> str:
         if (jaVoice) document.body.classList.add('tts-available');
     }
 
-    enable();
-    if (typeof synth.onvoiceschanged !== 'undefined') {
-        synth.addEventListener('voiceschanged', enable);
+    if (synth) {
+        enable();
+        if (typeof synth.onvoiceschanged !== 'undefined') {
+            synth.addEventListener('voiceschanged', enable);
+        }
+    }
+
+    function stopRecording() {
+        if (player) { player.pause(); }
+        if (playingBtn) { playingBtn.classList.remove('playing'); playingBtn = null; }
     }
 
     document.addEventListener('click', function(e) {
+        var audioBtn = e.target.closest ? e.target.closest('.audio-btn') : null;
+        if (audioBtn && audioBtn.dataset.src) {
+            e.preventDefault();
+            if (synth && synth.speaking) synth.cancel();
+            if (playingBtn === audioBtn) { stopRecording(); return; }
+            stopRecording();
+            if (!player) {
+                player = new Audio();
+                player.addEventListener('ended', stopRecording);
+                player.addEventListener('error', stopRecording);
+            }
+            player.src = audioBtn.dataset.src;
+            playingBtn = audioBtn;
+            audioBtn.classList.add('playing');
+            var p = player.play();
+            if (p && p.catch) p.catch(stopRecording);
+            return;
+        }
         var btn = e.target.closest ? e.target.closest('.tts-btn') : null;
-        if (!btn || !btn.dataset.text) return;
+        if (!btn || !btn.dataset.text || !synth) return;
         e.preventDefault();
+        stopRecording();
         if (synth.speaking) synth.cancel();
         var u = new SpeechSynthesisUtterance(btn.dataset.text);
         u.lang = 'ja-JP';

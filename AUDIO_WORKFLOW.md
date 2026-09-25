@@ -35,8 +35,9 @@ validated on 2026-09-24/25 in a local experiment and ported into je-dict-1 on 20
   by ear.
 - **Human confirmation**: Tom rated 113 clips by ear. Every clip the v2 workflow accepted that he
   rated (83, deliberately the riskiest: accepted although one checker objected) was correct.
-- **Not yet validated**: the two additional voices (section 5); examples containing digits or Latin
-  letters without hand-written readings (section 3.1); anything at scale.
+- **Not yet validated**: examples containing digits or Latin letters without hand-written
+  readings (section 3.1); anything at scale. The two additional voices passed the pilot on
+  2026-09-25 and wait for Tom's ear (section 5).
 - **Cost**: about $0.0025–0.003 per example including regenerations and checks (Flash), a little
   less with Lite. For all 119,907 examples: roughly $300 with Flash.
 
@@ -83,9 +84,10 @@ before trusting it. Until then, leave these 2.1% of examples on browser speech.
   voices. The response is raw 24 kHz, mono, 16-bit PCM; the billed cost is looked up afterwards at
   `GET /api/v1/generation?id=<x-generation-id header>` (it can take a few seconds to appear).
 - **Output differs on every call**, even for the same prompt. That is what makes regeneration work.
-- **Encoding**: the test used 64 kbps mono MP3 (ffmpeg, libmp3lame). For storage, 32–48 kbps mono is
-  probably enough for speech (section 6); check that it still sounds clean before switching. If
-  ffmpeg is not available in the session, the pip package `lameenc` encodes MP3 in pure Python.
+- **Encoding**: production uses **48 kbps** mono MP3 at 24 kHz, encoded with `lameenc` (pip; ffmpeg
+  is not installed in Routine sessions). The local experiment used 64 kbps. The checks catch errors
+  equally well at 32 and 48 kbps (changelog, 2026-09-25); 32 kbps would save a third of the
+  storage if Tom finds it clean enough.
 
 ### 4.1 The prompt (strategy E, `kanadict` in the reference code)
 
@@ -132,20 +134,39 @@ Lessons from the prompts:
 
 ## 5. Voices
 
-Validated: **Kore** (female) and **Charon** (male). Tom wants **two female and two male voices** in
-rotation. Candidates among Gemini's prebuilt voices: female Aoede, Leda, Zephyr; male Puck, Orus,
-Fenrir. Check the current voice list, and whether each voice is female or male, before choosing.
+Production voices are listed in `audio/config.json` (`voices`). Today: **Kore** (female) and
+**Charon** (male). Tom wants **two female and two male voices** in rotation.
 
-**Before any new voice is used in production**, run the full v2 pipeline on the 100-sentence test
-set (`audio/testset/sentences.json`) with that voice (`python3 build/audio_pipeline.py testset --voice <Name>`) (about $1 per voice). Accept the
-voice if its first-pass and final acceptance rates are close to Kore's and Charon's, and if Tom,
-listening to about 20 of its clips, is satisfied with the sound. A voice that misreads more often
-only costs more regenerations, but a voice the checkers hear less clearly would weaken the checks,
-so compare the checkers' objection rates too.
+Candidates piloted on 2026-09-25: **Erinome** (female; Google calls it "clear") and **Iapetus**
+(male; "clear"). They were chosen after a gender and character probe of 15 voices, in which
+gemini-3.8-flash described each voice. Puck, listed by Google as male, was heard as a woman,
+so the probe is worth repeating for any new candidate. Pilot on the 100-sentence test set,
+48 kbps, same day, same models:
 
-Rotation: assign voices deterministically, so that a regenerated clip keeps its voice. For example,
-within each entry cycle through the four voices in example order, starting at (entry ID mod 4).
-That way a learner reading one entry hears several voices.
+| Voice | First attempt | Within 5 | Left for a human | GPT transcriber objections per attempt | Cost |
+|---|---|---|---|---|---|
+| Kore | 91 | 100 | 0 | 15% | $0.31 |
+| Charon | 94 | 99 | 1 (いいえ ex4) | 16% | $0.30 |
+| Erinome | 91 | 99 | 1 (いいえ ex4) | 24% | $0.31 |
+| Iapetus | 92 | 100 | 0 | 13% | $0.30 |
+
+Both candidates pass the numeric bar (`audio/pilots.jsonl`, `acceptable: true`). Erinome is
+misheard a little more often by gpt-audio-mini, which costs regenerations but lets no error
+through: the rule needs the particle-aware compare to pass. The remaining condition is Tom's
+ear. His listening page (20 sentences × 4 voices, plus a 32/48/64 kbps comparison) is a
+private claude.ai artifact: https://claude.ai/artifact/NKwVgJejhrxzh4bvjcHccL. Other
+candidates, if he dislikes these: female Aoede, Leda, Zephyr, Despina; male Orus, Alnilam,
+Rasalgethi.
+
+**Adding a voice**: run `python3 build/audio_pipeline.py testset --voice <Name>` (about $0.30;
+the result is written to `audio/pilots.jsonl`), get Tom's approval of its sound, then add it
+to `voices` and to `voice_gender`, alternating female and male (`["Kore", "Charon", "Erinome",
+"Iapetus"]`). Production refuses to run while a listed voice has no acceptable pilot for the
+current TTS model, prompt, bit rate and checkers (`audio_maintenance.py due`).
+
+Rotation (`assign_voice()`): within each entry, the examples cycle through the voices in
+order, starting at (entry number mod N). A learner reading one entry hears several voices.
+A re-recording keeps its previous voice while that voice is in production.
 
 ## 6. The checks
 
@@ -200,97 +221,135 @@ What did **not** work, so don't reach for it again without new evidence:
 - Comparing against the reading with は/わ folded (the first compare prompt) cannot catch a
   particle read as written. That is why the phonetic reading exists.
 
-## 7. Storage and serving (must be solved before production)
+## 7. Storage and serving (decided 2026-09-25)
 
-Constraints (GitHub documentation, September 2026; check again):
-- A GitHub Pages site may be at most **1 GB** published. The source repository should stay under
-  1 GB, with 5 GB strongly recommended as the ceiling. Soft bandwidth limit: 100 GB a month per
-  site. The Pro plan does not change these.
-- **Git LFS files cannot be served by GitHub Pages.**
-- je-dict-1 is already about **3 GB** (GitHub API `size`, which is in KB). Every Routine session
-  clones it, so **do not commit audio to je-dict-1**.
-- GitHub sets no limit on the number of files in a repository, and files over 100 MB are blocked
-  (not a concern for clips of about 30 KB). About 120,000 files in one repository is manageable,
-  but keep them in subdirectories (for example by the entry ID's range of 500, as `entries/` does)
-  so that no directory holds more than about 1,000 files.
-- The whole dictionary is about **120 hours** of audio (mean about 3.6 s per example): about
-  3.5 GB at 64 kbps, 2.6 GB at 48 kbps, 1.7 GB at 32 kbps.
+Constraints (GitHub documentation, September 2026): a GitHub Pages site may publish at most
+**1 GB**; repositories should stay under 1 GB (5 GB is the strong ceiling); Pages has a soft limit
+of 100 GB of traffic a month per site; **Git LFS files are not served by Pages**; the Pro plan
+changes none of this. je-dict-1 is already about 3 GB and every Routine session clones it, so
+**no audio goes into je-dict-1**. `build/check_no_binaries.py` enforces this in CI. The one
+exception is the fixed regression set.
 
-Recommended: **separate public audio repositories**, each published with GitHub Pages and kept
-under about 900 MB. When one fills, start the next (`je-dict-audio-1`, `-2`, …). Point a custom
-subdomain at each, such as `audio1.tkgje.jp` (Tom needs to set this up in DNS), or use the
-`tkgally.github.io/<repo>/` URLs. The site's `<audio>` or `new Audio(url)` can play MP3s from
-another origin without CORS headers. Alternatives, if the GitHub-only route proves awkward:
-Cloudflare R2 (10 GB free, no charge for downloads; needs credentials in the environment), or
-another static host. Discuss with Tom before choosing.
+**Setup**: separate public repositories, each served by GitHub Pages from its `main` branch
+(`.nojekyll` at the root), each kept under **900 MB** of live files (`limit_mb`):
+`tkgally/je-dict-audio-1`, then `-2`, … The whole dictionary is about 2.6 GB at 48 kbps (about 120
+hours), so three repositories. The stores are listed in `audio/config.json` (`stores`: id,
+repo, `base_url`, `limit_mb`, `status` active/full). The site builds each URL as `base_url` +
+path, so moving to a custom subdomain (for example `audio1.tkgje.jp`, a CNAME to
+`tkgally.github.io`) or to another host means editing `base_url` only. `tkgally.github.io`
+has no user site, so the default URLs are `https://tkgally.github.io/je-dict-audio-1/…`.
+Browsers play MP3s from another origin without CORS headers.
 
-Things to verify in the first session:
-- **Can a Routine session push to a second repository?** It is connected to je-dict-1, and the
-  GitHub MCP tools may or may not reach other repositories, or accept binary files.
-- If not, the fallback is to generate in the session, then hand the MP3s to a GitHub Actions
-  workflow that pushes them to the audio repository with a token stored as an Actions secret (Tom
-  would add it). Keep the MP3s out of je-dict-1's history.
-- Replacing a file in a git repository keeps the old version in history, so name files by content
-  hash (`<example_id>.<hash8>.mp3`) and avoid rewriting the same clip over and over. The hash in
-  the name also keeps browser caches correct.
+**How a Routine session writes to it** (verified 2026-09-25): a session can push only to the
+repositories attached to it. `add_repo` (owner, repo, access `push`) attaches one of Tom's
+repositories mid-session, because his GitHub connection can push to all of them. `publish` then
+makes a thin clone (depth 1, `--filter=blob:none`, no checkout, so no audio is downloaded),
+adds the new files to the index with `git hash-object` / `update-index`, removes superseded
+files, commits and pushes. Only after a successful push does it write the manifest in
+je-dict-1. Pages deploys a few minutes later; `verify` waits for it.
+
+Layout in the audio repository: `<range>/<example_id>.<sha256-of-mp3, 8 hex>.mp3` (range = entry
+ID rounded down to 500, as in `entries/`, so a directory holds about 2,000 files at most),
+`logs/<UTC time>.jsonl` (every attempt, verdict and transcript of each run: the detailed record
+stays out of je-dict-1), `review/<page>.html` (spot-check pages). A re-recording gets a new file
+name, so browser caches never serve a stale clip, and the old file is deleted from the
+published tree. It stays in the audio repository's history, which is why clips are not
+re-recorded without cause.
+
+When a store fills, `publish` stops with a message. Tom creates the next repository with Pages
+enabled, and a session adds it to `stores` as `active` and marks the old one `full`.
+
+Alternatives considered: Cloudflare R2 (10 GB free, no egress fees) would need credentials in the
+environment and a bucket Tom sets up. GitHub release assets cannot be uploaded from a
+session (no REST access) and are served as downloads. jsDelivr on top of GitHub has per-repo
+size limits. Pages is the one route that needs nothing but a repository.
 
 ## 8. Data model and staleness
 
-Examples change: the polish modes edit them. A recording is valid only for the exact text and
-reading it was made from.
-- Keep a manifest in je-dict-1, small text only, for example `audio/manifest.jsonl`, one line per
-  recorded example: example ID, voice, TTS model, prompt strategy, workflow version, SHA-256 of
-  the example's `japanese` field (the markup with furigana, since readings matter), audio URL,
-  duration, date, and the checkers' verdicts. The existing `has_audio` field on each example can
-  mirror it, but a manifest avoids touching thousands of entry files (and their CI gates).
-- The site build attaches an MP3 to an example only when the manifest's hash matches the example's
-  current text. Otherwise it falls back to browser speech, and the example goes back into the
-  queue.
-- Keep a separate log of items left for a human, and of skipped examples with the reason.
+je-dict-1 keeps text only, all under `audio/`:
+- `manifest/<range>.jsonl`: one line per recorded example: `ex` (example ID), `h` (first 16 hex
+  digits of `text_hash()` of its `japanese` field: SHA-256 of the text with link markup removed
+  and furigana kept), `v` voice, `s` store, `f` path in the store, `d` seconds, `b` bytes, `at`
+  date, `wf` workflow version, `tts` model, `n` attempts used, `obj` checkers that objected on
+  the accepted attempt. Sharded by entry range so a run touches few files.
+- `needs_human.jsonl`: examples no attempt passed, with the verdicts and diffs of every attempt.
+  They are not retried while the text and the workflow version are unchanged.
+- `runs.jsonl`: one summary line per production run (examples, first-pass, needs-human,
+  objections per checker, cost, bytes, store use). `audio_maintenance.py drift` reads it.
+- `pilots.jsonl`, `regression/history.jsonl`, `reaudits.jsonl`, `maintenance.json`: the
+  maintenance record (§10).
 
-## 9. Folding it into the Routine
+The site build (`build/audio_manifest.py`, used by `render_examples()` in
+`build/entry_renderer.py`) gives an example the recording button only when its manifest `h`
+matches the current text. Otherwise the example keeps the browser-speech button, and
+`plan` queues it again as *stale*, ahead of everything else. The entries' old `has_audio` field is
+not used.
 
-Suggested shape, for the session that integrates this to decide:
-- A new mode, `audio`, with weight about 0.25 in `pipeline/routine-config.json` (Tom's request),
-  with the other weights scaled down.
-- **Budget**: OpenRouter caps are currently $2.50 a session and $5 a day, shared with the
-  accuracy review. At about $0.003 an example, one session can record about 500–800 examples.
-  Agree an audio budget with Tom; he may want to raise the caps. Record spending per run as the
-  other modes do.
-- **Order**: the session decides. Reasonable priorities: basic and core tiers first (their
-  entries are the most visited and most stable), then general-tier entries by traffic
-  (GoatCounter) or by how recently they were polished (recently polished text is less likely to
-  change again).
-- **Per run**: pick entries → build expected readings (skip the undetermined ones) → generate and
-  check with the v2 rule, running calls in parallel → upload the accepted MP3s → update the
-  manifest → log items left for a human → build and push as usual. The pipeline is I/O-bound:
-  400 items took about 20 minutes with 10–16 parallel workers.
-- **Site change** (once): examples in the manifest get a play button for their MP3; everything
-  else keeps the 🔊 browser-speech button. Consider a visible sign that a recording exists, and
-  show which voice it is only if Tom wants that.
+## 9. The Routine's `audio` mode
+
+- **Weight 0.25** in `pipeline/routine-config.json`; the other weights were scaled by 0.75
+  (polish 0.22, accuracy-review 0.22, systemic-fix 0.19, new-entries 0.08, candidates 0.04).
+  Simulated over 400 runs with today's signals, audio gets 26%. The mode is suppressed while
+  `audio/config.json` `production.enabled` is false, and on days when less than
+  $0.50 of the OpenRouter daily cap remains.
+- **Budget**: `openrouter.audio_session_cap_usd` = $2.40 per run, within the existing $2.50 per
+  session and $5 per day (an audio run changes no entries, so it needs no self-check). At the
+  measured $0.0025–0.003 per example that is 800–950 examples per run. With two Routine runs a
+  day, an audio run comes about every two days. The basic and core tiers (20,000 examples) then
+  take about 45 audio runs (three months), and the whole dictionary (117,000 recordable
+  examples) about 130 runs (roughly nine months). A higher cap shortens that in proportion (§12).
+- **Per run** (`prompts/audio.md`): `make audio-deps` → attach the audio repository → maintenance
+  (`audio_maintenance.py due`) → `plan` (priority order) → `run` (resumable, 8-minute calls, 12
+  workers) → `publish` → `verify` → note examples left for a human → session log, metrics,
+  `make gate`, `make index`, PR `routine(audio): …`, merge.
+- **Priorities**: stale re-recordings; basic tier; core tier; general-tier entries the polish
+  frontier has passed; the rest of the general tier. Entry order within each, and an entry's
+  examples are never split across runs.
+- **Not recorded**: digits and Latin letters (§3.1, about 2,500), kanji without furigana (82) and
+  malformed markup (8). The last two are furigana errors, queued as the systemic-fix backlog
+  item `audio-undetermined-furigana`.
+- **Site**: an example with a valid recording shows a 🔊 button with a thin border that plays the
+  MP3 (always visible; tapping again stops it). Other examples keep the browser-speech 🔊, shown
+  only when a Japanese system voice exists. The voice is not shown.
 
 ## 10. Keeping it correct over time
 
-- **Regression suite**: `audio/regression/` holds 163 clips with known answers:
-  50 with injected errors, and 113 rated by Tom (3 errors, 2 unsure, the rest correct), plus
-  `index.json`. Run it with `python3 build/audio_regression.py`. Before changing any part of the workflow
-  (a new TTS model, a new checker or checker model, a prompt edit, a rule change), run the checks
-  on these clips. The changed workflow must still catch all 44 audible injected errors (6 of the
-  50 turned out inaudible: the TTS "corrected" them) and all 3 of Tom's errors. Its false-alarm
-  rate on Tom's correct clips should not rise much.
-- **Spot checks by Tom**: about once a month, or after any workflow change, sample about 30
-  recently accepted clips, biased toward risky ones (a checker objected, the sentence has a
-  minority reading, a new voice). Present them on a simple review page with ✓/✗ buttons and an
-  export, like the review site of the local experiment (not included here; Tom has it). Add his
-  verdicts to the regression suite.
-- **Re-audit**: when a clearly stronger audio model appears, re-check a sample of existing
-  recordings with it, and regenerate any it rejects that the current checkers also doubt.
-- **Revisit** every few months: model IDs change or are retired; prices change; newer TTS models
-  may need fewer tricks (retest prompts A–H on the test set); newer checkers may make the rule
-  stricter or cheaper. The test set and code make each retest about an hour and a few dollars.
-- **Watch for**: rising first-pass failure rates (a model update), a checker starting to refuse
-  audio, cost per example drifting, and repeat offenders (examples that are always left for a
-  human). The last are often furigana errors, which are worth fixing in the entry.
+`build/audio_maintenance.py` turns this section into checks that every audio run performs first
+(`due`); `prompts/audio.md` §2 says what to do with each.
+
+- **Regression suite** (`build/audio_regression.py`, `audio/regression/`, about $0.25): 163 clips
+  with known answers. 50 have injected errors, of which 44 are audible; 113 were rated by Tom
+  (3 errors, 2 unsure, the rest correct). Production clips Tom rates in spot checks join by URL.
+  Pass = every audible injected error and every error of Tom's is rejected. Also watch the false
+  alarms on Tom's correct clips: 8–13 of 108 is the run-to-run range of v2. **Blocking**: `plan`
+  refuses to run when no passing regression exists for the current checkers and rule (a
+  fingerprint of those settings). Any checker or rule change therefore forces a rerun.
+  Otherwise the suite is due every 90 days, because models can change behind the same ID.
+- **Pilot** (`audio_pipeline.py testset --voice V`, about $0.30 a voice): **blocking** when the TTS
+  model, prompt strategy, bit rate or checkers changed since the last acceptable pilot of each
+  production voice (`audio/pilots.jsonl`).
+- **Model check** (every 30 days, free): configured model IDs still served? New TTS and audio-input
+  models since the last check are listed. A retired model stops production until Tom approves a
+  replacement.
+- **Drift** (every run): first-pass rate, left-for-human rate and cost per clip of the last six
+  runs against `baseline` in the config. Warnings go to `reviews/needs_curator.txt`.
+- **Spot checks by Tom** (every 30 days once 200 new clips exist): `spotcheck --n 30` builds a
+  page of recent clips, two thirds of them risky (a checker objected, or more than one attempt was needed).
+  The page is published in the audio repository, with ✓/✗/? buttons and a JSON download.
+  Tom uploads the file to `audio/spotchecks/`, and the next audio run imports it (`import-ratings`):
+  every rated clip joins the regression suite, and a clip marked wrong is re-recorded and
+  logged here as a miss.
+- **Re-audit** (every 90 days once 500 clips exist, at most $0.40): 100 random valid recordings are
+  re-checked with the current checkers. A rejected clip loses its manifest line and is re-recorded.
+  When a clearly stronger checker appears, run the re-audit with it through a trial config.
+- **Re-evaluation** (every 120 days, at most $1.50): look for newer TTS and checker models and try
+  them on the test set or the regression suite through a trial config (`--config`). Record the
+  result here even when nothing changes. Production models change only with Tom's approval.
+- **Watch for**: rising first-pass failures, a checker starting to refuse audio, cost drift, and
+  repeat offenders in `needs_human.jsonl`, which are often furigana errors worth fixing in the
+  entry.
+- **This file**: every change to the workflow gets a changelog entry below with its evidence
+  (regression and pilot numbers).
 
 ## 11. Code and data in je-dict-1
 
@@ -327,11 +386,17 @@ production.
 
 ## 12. Decisions for Tom
 
-- Flash (slightly more accurate first time, the voices he liked) or Lite (about 30% cheaper)?
-- Which two additional voices, after hearing samples?
-- Where the audio is hosted (section 7), and a subdomain if wanted.
-- The audio budget, and whether to raise the OpenRouter caps.
-- Whether to spot-check monthly (section 10).
+Open:
+- **Voices**: Erinome and Iapetus, after listening (§5)? Until then production uses Kore and
+  Charon only.
+- **Bit rate**: 48 kbps (planned) or 32 kbps (§5 page has both; detection is the same).
+- **Budget**: $2.40 per audio run within the current caps records the dictionary in about nine
+  months. Raising `audio_session_cap_usd` to $4.80 and the daily cap to $7.50 would halve that.
+- **Spot checks**: monthly, about 30 clips (§10). Say if a different rhythm suits better.
+- Flash (current) or Lite (about 30% cheaper, more regenerations): Flash for now, since Tom liked
+  its voices.
+
+Settled 2026-09-25: hosting on GitHub Pages in separate audio repositories (§7).
 
 ## Changelog
 
@@ -362,3 +427,13 @@ production.
   is of that size, so detection does not depend on bit rate down to 32 kbps. Production uses
   48 kbps (about 2.6 GB for the dictionary); 32 kbps (about 1.7 GB) is Tom's call after
   listening.
+- 2026-09-25: voice pilot at 48 kbps (§5): Kore 91/100 first attempt and 100/100 within five,
+  Charon 94/99, Erinome 91/99, Iapetus 92/100, $0.30 per voice. Kore and Charon together give
+  185/200 first time, against 191/200 at 64 kbps in the local experiment; the final result is
+  the same (199/200, いいえ ex4 left for a human both times). Erinome and Iapetus pass the
+  numeric bar and wait for Tom's ear.
+- 2026-09-25: end-to-end test on real dictionary examples (entry 00006 ある, 15 examples, basic
+  tier): 14 of 15 passed first time, all 15 within two attempts, $0.041 ($0.0027 per example).
+- 2026-09-25: Routine integration (§9): `audio` mode, weight 0.25; `prompts/audio.md`; storage in
+  separate GitHub Pages repositories (§7); manifest and site button (§8); maintenance checks
+  with blocking regression and pilot gates (§10, `build/audio_maintenance.py`).

@@ -16,6 +16,7 @@ from datetime import datetime, timezone, timedelta
 from path_utils import get_directory_range
 from japanese_utils import FURIGANA_PATTERN, strip_furigana, is_kanji
 from constants import get_cross_ref_label
+from audio_manifest import recording_url
 from html_utils import (
     process_furigana as _process_furigana_base,
     generate_nav_header,
@@ -386,11 +387,20 @@ def render_examples(examples_list, entries_dict: dict, relative_path: str = '../
         # Use process_word_links to handle link markup (falls back to furigana if no links)
         japanese_html = process_word_links(japanese, entries_dict, relative_path)
         notes_html = process_word_links(notes, entries_dict, relative_path) if notes else ''
-        # Read-aloud button (hidden by CSS unless a Japanese voice is available; see generate_tts_script)
-        tts_button = (
-            f'<button type="button" class="tts-btn" data-text="{html.escape(plain_japanese_text(japanese))}" '
-            f'title="Listen" aria-label="Listen to this sentence">🔊</button>'
-        )
+        # A valid recording (audio/manifest, text hash matches) gets a button that plays the
+        # MP3; otherwise the read-aloud button (hidden by CSS unless a Japanese voice is
+        # available; see generate_tts_script).
+        audio_url = recording_url(ex)
+        if audio_url:
+            tts_button = (
+                f'<button type="button" class="audio-btn" data-src="{html.escape(audio_url)}" '
+                f'title="Listen (recording)" aria-label="Play a recording of this sentence">🔊</button>'
+            )
+        else:
+            tts_button = (
+                f'<button type="button" class="tts-btn" data-text="{html.escape(plain_japanese_text(japanese))}" '
+                f'title="Listen" aria-label="Listen to this sentence">🔊</button>'
+            )
         parts.append(f'''
                 <div class="example-item">
                     <div class="example-japanese" lang="ja">{japanese_html}{tts_button}</div>

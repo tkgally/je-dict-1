@@ -27,6 +27,9 @@ entries_index.json  Master index (rebuilt by update_indexes.py)
 build/word_id_lookup.json   Word → entry ID lookup (rebuilt by update_indexes.py)
 docs/               Generated site. NOT tracked since 2026-09-02; built by .github/workflows/pages.yml
 articles/           Expository articles (JSON; ten as of 2026-09-09). See "Articles" below
+audio/              Example audio, text only: config.json, manifest/ (recorded examples), needs_human.jsonl,
+                    runs.jsonl, regression/ (163 known-answer clips), testset/. MP3s live in the audio repository
+                    (tkgally/je-dict-audio-1, GitHub Pages), never here. See AUDIO_WORKFLOW.md
 pipeline/           Routine selector (routine_next.py), config, metrics, ledgers
 prompts/            Task prompts; prompts/routine2.md is the scheduled Routine
 planning/wiki/      Knowledge base (research library + backlog); planning/maintain-knowledge-base.md
@@ -93,11 +96,12 @@ on each listed entry's page; use the entry's own headword.
 `prompts/routine2.md` is the one scheduled task (twice a day). Each run: pre-flight rescue and
 sweep → `python3 pipeline/routine_next.py` picks a mode → the mode's prompt → mechanical pass on
 changed entries → independent-model self-check → metrics snapshot → `make index` → commit → PR →
-CI → squash-merge. Modes and weights (`pipeline/routine-config.json`): polish 0.30,
-accuracy-review 0.30, systemic-fix 0.25, new-entries 0.10, candidates 0.05 (self-suppressing),
-wiki (trigger-only). Mode prompts: `comprehensive_polish.md`, `newentries.md`,
-`newcandidates.md`, `planning/maintain-knowledge-base.md`; the accuracy-review and systemic-fix
-playbooks are inside `routine2.md`.
+CI → squash-merge. Modes and weights (`pipeline/routine-config.json`): audio 0.25 (off until
+`audio/config.json` enables production), polish 0.22, accuracy-review 0.22, systemic-fix 0.19,
+new-entries 0.08, candidates 0.04 (self-suppressing), wiki (trigger-only). Mode prompts:
+`audio.md`, `comprehensive_polish.md`, `newentries.md`, `newcandidates.md`,
+`planning/maintain-knowledge-base.md`; the accuracy-review and systemic-fix playbooks are inside
+`routine2.md`.
 
 ## Sessions: start, work, finish
 
@@ -177,6 +181,16 @@ branch is already there (MCP cannot delete branches). Residue → absorb it as a
 closed its PR (find it with `mcp__github__list_pull_requests`, `state: "closed"`,
 `head: "tkgally:<branch>"`; a closing comment that is not Claude-signed means a person decided):
 then one line in `reviews/needs_curator.txt` and no action.
+
+## Example audio
+
+Examples get recorded MP3 readings (Gemini TTS, four AI checkers, `AUDIO_WORKFLOW.md`). A recording
+is valid only while the example's text and furigana are unchanged (text hash in
+`audio/manifest/`); the site then shows a play button, otherwise browser speech. Editing an example
+is always fine: the audio mode re-records stale examples first. Never commit an MP3 to je-dict-1
+(`build/check_no_binaries.py` is a CI gate). Any change to the TTS model, prompt, checkers or
+acceptance rule needs `python3 build/audio_regression.py` and a changelog entry in
+`AUDIO_WORKFLOW.md` first.
 
 ## Parallel work
 

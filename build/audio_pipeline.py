@@ -56,8 +56,9 @@ def now_iso():
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def load_config():
-    return json.loads(CONFIG.read_text(encoding="utf-8"))
+def load_config(path=None):
+    """audio/config.json, or a trial copy (re-evaluation of a new model or prompt)."""
+    return json.loads(Path(path or CONFIG).read_text(encoding="utf-8"))
 
 
 def short_hash(raw):
@@ -139,6 +140,23 @@ def load_jsonl_by_ex(path):
 def write_jsonl_by_ex(path, records):
     path.write_text("".join(json.dumps(records[k], ensure_ascii=False, separators=(",", ":")) + "\n"
                             for k in sorted(records)), encoding="utf-8")
+
+
+# --------------------------------------------------------------------------- spend ledger
+def record_ledger(usd, phase, n):
+    """Add this spend to pipeline/openrouter-ledger.json (the Routine's daily cap)."""
+    p = ROOT / "pipeline" / "openrouter-ledger.json"
+    try:
+        led = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        led = {}
+    today = datetime.now(timezone.utc).date().isoformat()
+    if led.get("date") != today:
+        led.update({"date": today, "spent_usd": 0.0, "calls": []})
+    led["spent_usd"] = round(float(led.get("spent_usd", 0)) + usd, 4)
+    led.setdefault("calls", []).append({"ts": now_iso(), "mode": "audio", "phase": phase,
+                                        "entries": n, "est_usd": round(usd, 4)})
+    p.write_text(json.dumps(led, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 # --------------------------------------------------------------------------- voices
@@ -243,6 +261,14 @@ def cmd_undetermined(args):
 # --------------------------------------------------------------------------- plan
 def cmd_plan(args):
     cfg = load_config()
+    if not cfg.get("production", {}).get("enabled") and not args.force:
+        sys.exit("audio production is disabled in audio/config.json (production.enabled): "
+                 + cfg.get("production", {}).get("reason", ""))
+    from audio_maintenance import production_blocked
+    blocked = production_blocked(cfg)
+    if blocked and not args.force:
+        sys.exit("production is blocked until these are done: "
+                 + "; ".join(f"{t}: {r}" for t, _, r in blocked))
     examples = load_examples()
     manifest = load_manifest()
     needs_human = load_jsonl_by_ex(NEEDS_HUMAN)
@@ -316,7 +342,7 @@ def process_item(item, sentence, prompt, cfg, api, cost_pool, cost_futs):
 
 
 def run_items(items, make_sentence, cfg, budget, workers, out_path, stage_dir, majority,
-              reserve_per_item=0.008):
+              reserve_per_item=0.008, deadline=None):
     """Shared by `run` and `testset`. Resumable: items already in out_path are
     skipped. Stops starting new items when the budget would be exceeded."""
     from audio_api import OpenRouter
@@ -335,8 +361,11 @@ def run_items(items, make_sentence, cfg, budget, workers, out_path, stage_dir, m
 
     def one(x):
         with lock:
-            if budget and api.spent + reserve_per_item > budget:
+            if budget is not None and api.spent + reserve_per_item > budget:
                 stats["deferred_budget"] += 1
+                return
+            if deadline and time.time() > deadline:
+                stats["deferred_time"] += 1
                 return
         s = make_sentence(x)
         prompt = build_tts_prompt(s, majority)
@@ -393,7 +422,15 @@ def add_costs(path, tts_cost, estimate):
                     encoding="utf-8")
 
 
+def results_rows(path=RESULTS):
+    if not path.exists():
+        return []
+    return [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
+
+
 def cmd_run(args):
+    """Resumable: call again until it prints "remaining": 0. --max-minutes keeps
+    each call under the tool timeout; the budget counts earlier calls' cost."""
     cfg = load_config()
     plan = json.loads(PLAN.read_text(encoding="utf-8"))
     if plan["workflow_version"] != cfg["workflow_version"]:
@@ -407,15 +444,26 @@ def cmd_run(args):
         x["stage_prefix"] = f"{entry_range(x['entry'])}/{x['ex']}"
         items.append(x)
     budget = args.budget if args.budget is not None else plan.get("budget_usd")
-    stats, spent = run_items(items, lambda x: parse_example(x["raw"]), cfg, budget,
-                             args.workers, RESULTS, STAGED, majority)
-    print(json.dumps({"stats": dict(stats), "spent_usd": round(spent, 4),
-                      "results": str(RESULTS.relative_to(ROOT))}, indent=2))
+    prior = sum(r.get("cost", 0.0) for r in results_rows() if not r.get("published"))
+    left = None if budget is None else max(0.0, budget - prior)
+    deadline = time.time() + 60 * args.max_minutes if args.max_minutes else None
+    stats, spent = run_items(items, lambda x: parse_example(x["raw"]), cfg, left,
+                             args.workers, RESULTS, STAGED, majority, deadline=deadline)
+    rows = results_rows()
+    done = {r["key"] for r in rows}
+    remaining = [x for x in items if x["key"] not in done]
+    budget_out = left is not None and stats.get("deferred_budget", 0) > 0
+    print(json.dumps({"this_call": dict(stats), "this_call_usd": round(spent, 4),
+                      "done": len(done), "accepted": sum(1 for r in rows if r["accepted"]),
+                      "remaining": 0 if budget_out else len(remaining),
+                      "stopped_for_budget": budget_out,
+                      "spent_on_plan_usd": round(sum(r.get("cost", 0.0) for r in rows
+                                                     if not r.get("published")), 4)}, indent=2))
 
 
 # --------------------------------------------------------------------------- testset (voice pilot)
 def cmd_testset(args):
-    cfg = load_config()
+    cfg = load_config(args.config)
     sentences = json.loads(TESTSET.read_text(encoding="utf-8"))
     if args.limit:
         sentences = sentences[: args.limit]
@@ -427,7 +475,33 @@ def cmd_testset(args):
     by_n = {s["n"]: s for s in sentences}
     stats, spent = run_items(items, lambda x: by_n[x["n"]], cfg, args.budget, args.workers,
                              out_dir / "results.jsonl", out_dir / "clips", majority)
-    print(json.dumps(pilot_summary(out_dir / "results.jsonl", cfg), indent=2))
+    summ = pilot_summary(out_dir / "results.jsonl", cfg)
+    record_ledger(spent, f"pilot {args.voice}", summ["items"])
+    print(json.dumps(summ, indent=2))
+    if not args.limit and not args.config and summ["items"] == len(sentences):
+        record_pilot(cfg, args.voice, summ)
+
+
+def record_pilot(cfg, voice, summ):
+    """Append the pilot to audio/pilots.jsonl. A voice is acceptable for
+    production when its first-pass and final acceptance are close to the
+    baseline (config "baseline") and Tom has approved its sound (the voice is
+    then listed in config "voices"); see AUDIO_WORKFLOW.md §5."""
+    from audio_maintenance import checks_fingerprint, generation_fingerprint
+    base = cfg.get("baseline", {})
+    n = summ["items"]
+    fp, acc = summ["first_pass"] / n, summ["accepted"] / n
+    ok = fp >= base.get("first_pass_rate", 0.9) - 0.08 and acc >= 0.97
+    line = {"at": now_iso(), "voice": voice, "tts": cfg["tts_model"],
+            "generation_fingerprint": generation_fingerprint(cfg),
+            "checks_fingerprint": checks_fingerprint(cfg), "items": n,
+            "first_pass_rate": round(fp, 3), "accepted_rate": round(acc, 3),
+            "left_for_human": summ["left_for_human"], "attempts": summ["attempts"],
+            "objection_rate_per_attempt": summ["objection_rate_per_attempt"],
+            "cost_usd": summ["cost_usd"], "acceptable": ok}
+    with open(AUDIO / "pilots.jsonl", "a", encoding="utf-8") as f:
+        f.write(json.dumps(line, ensure_ascii=False) + "\n")
+    print(f"pilot recorded in audio/pilots.jsonl (acceptable: {ok})")
 
 
 def pilot_summary(path, cfg):
@@ -486,11 +560,12 @@ def stage_file(repo_dir, path_in_repo, src):
 def cmd_publish(args):
     cfg = load_config()
     store = active_store(cfg)
-    if not RESULTS.exists():
-        sys.exit("nothing to publish: audio_work/results.jsonl is missing")
-    rows = [json.loads(l) for l in RESULTS.read_text(encoding="utf-8").splitlines() if l.strip()]
-    rows = [r for r in rows if not r.get("published")]
-    plan = {x["ex"]: x for x in json.loads(PLAN.read_text(encoding="utf-8"))["items"]}
+    pages = sorted((WORK / "review").glob("*.html")) if (WORK / "review").exists() else []
+    if not RESULTS.exists() and not pages:
+        sys.exit("nothing to publish: no audio_work/results.jsonl and no review page")
+    rows = [r for r in results_rows() if not r.get("published")]
+    plan = ({x["ex"]: x for x in json.loads(PLAN.read_text(encoding="utf-8"))["items"]}
+            if PLAN.exists() else {})
     manifest = load_manifest()
     accepted = [r for r in rows if r["accepted"]]
     failed = [r for r in rows if not r["accepted"]]
@@ -506,8 +581,10 @@ def cmd_publish(args):
                  "a new audio repository is needed (see AUDIO_WORKFLOW.md §7)")
 
     repo_dir = Path(args.repo_dir) if args.repo_dir else WORK / "repo" / store["id"]
-    if accepted:
+    if accepted or pages:
         ensure_clone(store, repo_dir)
+        for page in pages:  # spot-check pages (audio_maintenance.py spotcheck)
+            stage_file(repo_dir, f"review/{page.name}", page)
         if git(repo_dir, "cat-file", "-e", "HEAD:.nojekyll", check=False).returncode != 0:
             empty = WORK / ".nojekyll"
             empty.write_text("", encoding="utf-8")
@@ -518,12 +595,14 @@ def cmd_publish(args):
             if old and old.get("s") == store["id"] and old.get("f") != r["file"]:
                 git(repo_dir, "update-index", "--force-remove", old["f"], check=False)
         # detailed log (text) in the audio repository, not in je-dict-1
-        log_name = f"logs/{datetime.now(timezone.utc):%Y-%m-%d_%H%M%S}.jsonl"
-        log_src = WORK / "log_upload.jsonl"
-        log_src.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows),
-                           encoding="utf-8")
-        stage_file(repo_dir, log_name, log_src)
-        msg = f"Add {len(accepted)} example recordings ({cfg['workflow_version']})"
+        if rows:
+            log_name = f"logs/{datetime.now(timezone.utc):%Y-%m-%d_%H%M%S}.jsonl"
+            log_src = WORK / "log_upload.jsonl"
+            log_src.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows),
+                               encoding="utf-8")
+            stage_file(repo_dir, log_name, log_src)
+        msg = (f"Add {len(accepted)} example recordings ({cfg['workflow_version']})" if accepted
+               else f"Add review page {', '.join(p.name for p in pages)}")
         c = git(repo_dir, "commit", "-q", "-m", msg, check=False)
         if c.returncode != 0:
             sys.exit(f"commit failed: {c.stderr or c.stdout}")
@@ -535,6 +614,18 @@ def cmd_publish(args):
         else:
             sys.exit(f"push to {store['repo']} failed: {p.stderr.strip()[:500]}\n"
                      "Attach the repository first (add_repo, access push) and retry.")
+
+    for page in pages:  # published: move out of the queue, tell Tom
+        done = WORK / "review_published"
+        done.mkdir(exist_ok=True)
+        shutil.move(str(page), done / page.name)
+        with open(ROOT / "reviews" / "needs_curator.txt", "a", encoding="utf-8") as f:
+            f.write(f"{now_iso()} audio-spotcheck — please listen and rate: "
+                    f"{store['base_url']}review/{page.name} (then upload the downloaded ratings "
+                    "file to audio/spotchecks/ in je-dict-1)\n")
+    if not rows:
+        print(json.dumps({"published_pages": [p.name for p in pages]}, indent=2))
+        return
 
     # manifest and needs-human records (only after a successful push)
     today = datetime.now(timezone.utc).date().isoformat()
@@ -579,8 +670,9 @@ def cmd_publish(args):
                "last_example": max((r["ex"] for r in rows), default=None)}
     with open(RUNS, "a", encoding="utf-8") as f:
         f.write(json.dumps(summary, ensure_ascii=False) + "\n")
+    record_ledger(cost, "production", len(rows))
     # mark published so a rerun does not publish twice
-    all_rows = [json.loads(l) for l in RESULTS.read_text(encoding="utf-8").splitlines() if l.strip()]
+    all_rows = results_rows()
     for r in all_rows:
         r["published"] = True
     RESULTS.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in all_rows),
@@ -588,6 +680,35 @@ def cmd_publish(args):
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     if accepted:
         print(f"check: {store['base_url']}{accepted[0]['file']} (GitHub Pages deploys in a few minutes)")
+
+
+# --------------------------------------------------------------------------- verify
+def cmd_verify(args):
+    """Wait until the newest published recordings are served (GitHub Pages
+    deploys a few minutes after the push). Exit 1 if they are not after --wait."""
+    import requests
+    cfg = load_config()
+    stores = {s["id"]: s["base_url"] for s in cfg["stores"]}
+    rows = [r for r in results_rows() if r.get("accepted") and r.get("file")]
+    if not rows:
+        sys.exit("no published recordings in audio_work/results.jsonl")
+    store = active_store(cfg)
+    urls = [store["base_url"] + r["file"] for r in (rows[0], rows[-1])]
+    deadline = time.time() + args.wait
+    while True:
+        codes = []
+        for u in urls:
+            try:
+                codes.append(requests.head(u, timeout=30, allow_redirects=True).status_code)
+            except requests.RequestException:
+                codes.append(None)
+        if all(c == 200 for c in codes):
+            print(json.dumps({"served": urls}, indent=2))
+            return
+        if time.time() > deadline:
+            print(json.dumps({"not_served_yet": dict(zip(urls, codes))}, indent=2))
+            sys.exit(1)
+        time.sleep(20)
 
 
 # --------------------------------------------------------------------------- main
@@ -602,20 +723,26 @@ def main():
     p.add_argument("--max", type=int, help="at most this many examples")
     p.add_argument("--ids", help="comma-separated entry IDs only")
     p.add_argument("--tiers", help="e.g. basic,core")
+    p.add_argument("--force", action="store_true", help="plan even if production is disabled or blocked")
     p = sub.add_parser("run")
-    p.add_argument("--budget", type=float, help="USD cap (default: the plan's)")
+    p.add_argument("--budget", type=float, help="USD cap for the whole plan (default: the plan's)")
     p.add_argument("--workers", type=int, default=12)
+    p.add_argument("--max-minutes", type=float, default=8,
+                   help="stop starting new items after this long (0 = no limit); call again to resume")
     p = sub.add_parser("publish")
     p.add_argument("--repo-dir", help="existing clone of the audio repository")
+    p = sub.add_parser("verify")
+    p.add_argument("--wait", type=int, default=540, help="seconds to wait for GitHub Pages")
     p = sub.add_parser("testset")
     p.add_argument("--voice", required=True)
+    p.add_argument("--config", help="trial config (not recorded in audio/pilots.jsonl)")
     p.add_argument("--out")
     p.add_argument("--limit", type=int)
     p.add_argument("--budget", type=float, default=1.5)
     p.add_argument("--workers", type=int, default=12)
     args = ap.parse_args()
     {"status": cmd_status, "undetermined": cmd_undetermined, "plan": cmd_plan, "run": cmd_run,
-     "publish": cmd_publish, "testset": cmd_testset}[args.cmd](args)
+     "publish": cmd_publish, "testset": cmd_testset, "verify": cmd_verify}[args.cmd](args)
 
 
 if __name__ == "__main__":

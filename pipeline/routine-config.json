@@ -1,13 +1,22 @@
 {
-  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine2.md). 'enabled_modes' controls which modes the selector may pick; 'weights' are the long-run share of runs (normalized). A mode with weight 0 never runs on rotation; 'floors' gives such a mode a temporary effective weight when its trigger fires (wiki: unharvested observations >= observations_unharvested_lines AND at least wiki_min_days_between_runs since the last wiki run). systemic-fix self-suppresses when planning/wiki/ideas/backlog-queue.json has no open batch-ready item; candidates self-suppresses while candidate_words.json holds >= candidate_restock_threshold words; accuracy-review self-suppresses when the OpenRouter daily cap is spent. Reweighted 2026-09-02 (enhancement/assessment-2026-09-02.md §6.A3): accuracy and systemic-fix up, new-entries down (internal closure only), wiki trigger-only.",
-  "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries", "candidates", "wiki"],
+  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine2.md). 'enabled_modes' controls which modes the selector may pick; 'weights' are the long-run share of runs (normalized). A mode with weight 0 never runs on rotation; 'floors' gives such a mode a temporary effective weight when its trigger fires (wiki: unharvested observations >= observations_unharvested_lines AND at least wiki_min_days_between_runs since the last wiki run). systemic-fix self-suppresses when planning/wiki/ideas/backlog-queue.json has no open batch-ready item; candidates self-suppresses while candidate_words.json holds >= candidate_restock_threshold words; accuracy-review self-suppresses when the OpenRouter daily cap is spent. Reweighted 2026-09-02 (enhancement/assessment-2026-09-02.md §6.A3): accuracy and systemic-fix up, new-entries down (internal closure only), wiki trigger-only. Audio added 2026-09-25 (AUDIO_WORKFLOW.md §9): about a quarter of runs record example audio; the other weights scaled by 0.75. audio self-suppresses while audio/config.json production.enabled is false or less than audio_min_budget_usd of the daily OpenRouter cap remains.",
+  "enabled_modes": [
+    "polish",
+    "systemic-fix",
+    "accuracy-review",
+    "new-entries",
+    "candidates",
+    "wiki",
+    "audio"
+  ],
   "weights": {
-    "polish": 0.30,
-    "systemic-fix": 0.25,
-    "accuracy-review": 0.30,
-    "new-entries": 0.10,
-    "candidates": 0.05,
-    "wiki": 0.0
+    "polish": 0.22,
+    "systemic-fix": 0.19,
+    "accuracy-review": 0.22,
+    "new-entries": 0.08,
+    "candidates": 0.04,
+    "wiki": 0.0,
+    "audio": 0.25
   },
   "floors": {
     "wiki": 0.15
@@ -22,11 +31,20 @@
     "min_multiplier": 0.5,
     "max_multiplier": 2.0
   },
-  "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix", "candidates", "wiki"],
+  "anti_repeat_modes": [
+    "new-entries",
+    "accuracy-review",
+    "systemic-fix",
+    "candidates",
+    "wiki",
+    "audio"
+  ],
   "anti_repeat_override_multiplier": 1.8,
   "openrouter": {
     "daily_cap_usd": 5.0,
     "per_session_cap_usd": 2.5,
-    "self_check_cap_usd": 0.40
+    "self_check_cap_usd": 0.4,
+    "audio_session_cap_usd": 2.4,
+    "audio_min_budget_usd": 0.5
   }
 }

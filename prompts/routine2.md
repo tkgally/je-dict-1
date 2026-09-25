@@ -105,6 +105,7 @@ Read the JSON: `mode` is this run's focus, `params` its inputs, `reason` and
 | `systemic-fix` | Follow **§B** with `params.backlog_item`: run its detector, verify each flagged entry, fix a bounded batch, update the item's status. |
 | `new-entries` | Follow **`prompts/newentries.md`**. Create about `params.approx_count` (20) entries, taking candidates whose notes say "seen in entry" or "used in" first (internal closure); if fewer than 20 such candidates exist, take the rest from the queue and stop early rather than inventing headwords. Then run the post-creation sequence in that prompt, which links, cross-references, and re-checks homographs. |
 | `candidates` | Follow **`prompts/newcandidates.md`**: restock the queue with words the dictionary already uses but has not defined (`check_stale_noentry.py` unresolved class, words seen during review), each vetted individually; at most ten curated additions from other lenses per run. |
+| `audio` | Follow **`prompts/audio.md`**: maintenance checks first (regression suite, pilots, model IDs, spot checks, re-audits; `build/audio_maintenance.py due`), then record example sentences in priority order with `params.openrouter_session_budget_usd`, publish the MP3s to the audio repository, update `audio/manifest/`. Changes no entry, so §3 and §4 do not apply. |
 | `wiki` | Follow **`planning/maintain-knowledge-base.md`**: harvest `polishing/observations.md` into `planning/wiki/ideas/backlog-queue.json`, write one short log entry, regenerate the metrics page with `python3 pipeline/metrics_report.py`. No essays, no new prose on the metrics page, no page may grow by more than 300 words. |
 
 Before working a range, glance only at wiki pages directly relevant to it
@@ -197,7 +198,8 @@ previous snapshot. If the script errors, note it and continue.
    `accuracy-review` → `polishing/tasks/cross-model-review/progress.txt` and
    the queue (§A step 7); `new-entries` and `candidates` → the
    `PROJECT_STATUS.md` Recent Changes section (keep five); `wiki` →
-   `planning/wiki/log.md`. The selector already persisted its state.
+   `planning/wiki/log.md`; `audio` → nothing (the manifest is its cursor).
+   The selector already persisted its state.
 2. **Write the session log** `polishing/sessions/routine_{YYYY-MM-DD}_{NNN}.md`
    (next free NNN): mode and reason, range or params, per-item changes, the
    self-check outcome (clean / N applied / N rejected / N flagged), candidates
@@ -370,6 +372,8 @@ python3 build/auto_link.py --ids … --apply --confirm-real-entries
 python3 build/harvest_crossrefs.py --ids … --apply
 python3 build/review_accuracy.py --ids … --budget 0.40   # §4 self-check
 python3 build/review_accuracy.py --range S E --budget B  # §A sweep
+python3 build/audio_pipeline.py plan / run / publish / verify   # audio mode (prompts/audio.md)
+python3 build/audio_maintenance.py due                   # audio mode: maintenance due, production blocked?
 python3 pipeline/metrics_snapshot.py --mode M --changed N
 make gate                                                # §7 the CI checks, before the push
 make index                                               # §7 indexes (no site build)

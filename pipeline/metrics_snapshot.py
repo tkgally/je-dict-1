@@ -30,7 +30,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 VALID_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries",
-               "candidates", "wiki"]
+               "candidates", "wiki", "audio"]
 DETECTORS = {
     "furigana_format": "build/check_furigana_format.py",
     "artifacts": "build/check_artifacts.py",
@@ -171,6 +171,7 @@ def build_row(args, root):
         "observations_lines": count_lines(root / "polishing/observations.md"),
         "comprehensive_next": comprehensive_next(root),
         "openrouter_spent_today_usd": ledger_spent_today(root),
+        "audio_recordings": sum(count_lines(f) or 0 for f in (root / "audio/manifest").glob("*.jsonl")),
     }
     if args.full or detectors_stale(history):
         row["detectors"] = collect_detectors(root)

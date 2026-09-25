@@ -5,13 +5,15 @@ Picks ONE focus ("mode") for the current Routine run using a deterministic
 debt-based weighted scheduler with bounded health nudges, then emits the choice
 as JSON on stdout for prompts/routine2.md to act on.
 
-Modes: polish, systemic-fix, accuracy-review, new-entries, candidates, wiki.
+Modes: polish, systemic-fix, accuracy-review, new-entries, candidates, wiki, audio.
 `candidates` self-suppresses while the candidate queue is sufficiently stocked;
 `systemic-fix` self-suppresses with no open batch-ready backlog item;
 `accuracy-review` self-suppresses when the OpenRouter daily cap is spent; `wiki`
 has weight 0 and runs only when its trigger fires (unharvested observations
 above the threshold and at least N days since the last wiki run), at the
-effective weight given in config "floors".
+effective weight given in config "floors". `audio` (example recordings,
+prompts/audio.md) self-suppresses while audio/config.json has production
+disabled or the day's OpenRouter budget has less than audio_min_budget_usd left.
 
 Design: enhancement/unified-routine-plan-2026-06-09.md §4.
 
@@ -51,20 +53,22 @@ COMPREHENSIVE_PROGRESS = PROJECT_ROOT / "polishing" / "tasks" / "comprehensive" 
 XMODEL_PROGRESS = PROJECT_ROOT / "polishing" / "tasks" / "cross-model-review" / "progress.txt"
 REVIEWS_DIR = PROJECT_ROOT / "reviews"
 BACKLOG_QUEUE = PROJECT_ROOT / "planning" / "wiki" / "ideas" / "backlog-queue.json"
+AUDIO_CONFIG = PROJECT_ROOT / "audio" / "config.json"
 
 ALL_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries",
-             "candidates", "wiki"]
+             "candidates", "wiki", "audio"]
 
 DEFAULT_CONFIG = {
     "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries",
-                      "candidates", "wiki"],
+                      "candidates", "wiki", "audio"],
     "weights": {
-        "polish": 0.30,
-        "systemic-fix": 0.25,
-        "accuracy-review": 0.30,
-        "new-entries": 0.10,
-        "candidates": 0.05,
+        "polish": 0.22,
+        "systemic-fix": 0.19,
+        "accuracy-review": 0.22,
+        "new-entries": 0.08,
+        "candidates": 0.04,
         "wiki": 0.0,
+        "audio": 0.25,
     },
     "floors": {"wiki": 0.15},
     "nudges": {
@@ -78,10 +82,11 @@ DEFAULT_CONFIG = {
         "max_multiplier": 2.0,
     },
     "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix",
-                          "candidates", "wiki"],
+                          "candidates", "wiki", "audio"],
     "anti_repeat_override_multiplier": 1.8,
     "openrouter": {"daily_cap_usd": 5.0, "per_session_cap_usd": 2.5,
-                   "self_check_cap_usd": 0.25},
+                   "self_check_cap_usd": 0.25, "audio_session_cap_usd": 2.4,
+                   "audio_min_budget_usd": 0.5},
 }
 
 STATE_DOC = "Auto-managed by pipeline/routine_next.py. Do not hand-edit."
@@ -192,7 +197,11 @@ def compute_signals():
     open_backlog = sum(1 for it in queue.get("items", [])
                        if it.get("status") == "open" and it.get("batch_ready"))
 
+    audio_cfg = load_json(AUDIO_CONFIG, {})
+    audio_enabled = bool((audio_cfg.get("production") or {}).get("enabled"))
+
     return {
+        "audio_production_enabled": audio_enabled,
         "candidate_count": candidate_count,
         "seen_in_entry_count": seen,
         "max_entry_id": max_id,
@@ -324,6 +333,15 @@ def compute_multipliers(signals, config, remaining):
         mult["accuracy-review"] = 0.0
         reasons["accuracy-review"].append("OpenRouter daily cap reached")
 
+    # audio: suppressed until production is enabled (audio repository in place)
+    # and while the day's OpenRouter budget cannot pay for a useful batch
+    if not signals.get("audio_production_enabled"):
+        mult["audio"] = 0.0
+        reasons["audio"].append("audio production disabled in audio/config.json")
+    elif remaining < float(config["openrouter"].get("audio_min_budget_usd", 0.5)):
+        mult["audio"] = 0.0
+        reasons["audio"].append("OpenRouter daily budget too low for an audio batch")
+
     # systemic-fix: hard suppression when there is no open, batch-ready backlog
     if signals.get("open_backlog_items", 0) <= 0:
         mult["systemic-fix"] = 0.0
@@ -406,6 +424,9 @@ def build_params(choice, signals, config, remaining):
         }
     if choice == "wiki":
         return {}
+    if choice == "audio":
+        cap = float(config["openrouter"].get("audio_session_cap_usd", 2.4))
+        return {"openrouter_session_budget_usd": round(min(remaining, cap), 2)}
     if choice == "systemic-fix":
         item = select_backlog_item(load_backlog_queue())
         if not item:
