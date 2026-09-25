@@ -437,3 +437,10 @@ Settled 2026-09-25: hosting on GitHub Pages in separate audio repositories (§7)
 - 2026-09-25: Routine integration (§9): `audio` mode, weight 0.25; `prompts/audio.md`; storage in
   separate GitHub Pages repositories (§7); manifest and site button (§8); maintenance checks
   with blocking regression and pilot gates (§10, `build/audio_maintenance.py`).
+- 2026-09-25: first production batch (310 examples, 33 basic-tier entries, Kore and Charon):
+  307 accepted, 292 on the first attempt, $0.80 ($0.0026 per example). The three failures were
+  all real problems. (1) Two examples contain the symbol ×, which has no furigana; the TTS read
+  it ばつ or ばってん and the expected reading kept a literal ×. Symbols (Unicode category S:
+  × ○ + ÷ = ℃, 32 occurrences) are now "undetermined" and skipped like digits. (2) Entry 00111
+  had the furigana error {少|すこ}なくとも; all four checkers heard すくなくとも in five takes.
+  The entry is fixed and re-recorded.

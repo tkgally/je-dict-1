@@ -444,13 +444,15 @@ def cmd_run(args):
         x["stage_prefix"] = f"{entry_range(x['entry'])}/{x['ex']}"
         items.append(x)
     budget = args.budget if args.budget is not None else plan.get("budget_usd")
-    prior = sum(r.get("cost", 0.0) for r in results_rows() if not r.get("published"))
+    keys = {x["key"] for x in items}
+    prior = sum(r.get("cost", 0.0) for r in results_rows()
+                if r["key"] in keys and not r.get("published"))
     left = None if budget is None else max(0.0, budget - prior)
     deadline = time.time() + 60 * args.max_minutes if args.max_minutes else None
     stats, spent = run_items(items, lambda x: parse_example(x["raw"]), cfg, left,
                              args.workers, RESULTS, STAGED, majority, deadline=deadline)
     rows = results_rows()
-    done = {r["key"] for r in rows}
+    done = {r["key"] for r in rows} & keys
     remaining = [x for x in items if x["key"] not in done]
     budget_out = left is not None and stats.get("deferred_budget", 0) > 0
     print(json.dumps({"this_call": dict(stats), "this_call_usd": round(spent, 4),
@@ -458,7 +460,8 @@ def cmd_run(args):
                       "remaining": 0 if budget_out else len(remaining),
                       "stopped_for_budget": budget_out,
                       "spent_on_plan_usd": round(sum(r.get("cost", 0.0) for r in rows
-                                                     if not r.get("published")), 4)}, indent=2))
+                                                     if r["key"] in keys and not r.get("published")), 4)},
+                     indent=2))
 
 
 # --------------------------------------------------------------------------- testset (voice pilot)
