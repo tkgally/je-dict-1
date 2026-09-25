@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "13131_kentei_ex1",
-      "japanese": "{漢字|かんじ}{検定|けんてい}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
+      "japanese": "⟦{漢字|かんじ}→漢字：09480_kanji⟧{検定|けんてい}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I took the kanji proficiency test.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "13131_kentei_ex2",
-      "japanese": "{英語|えいご}{検定|けんてい}⟦の→の：09472_no⟧⟦{二|に}→二：00736_ni⟧⟦{級|きゅう}→級：28171_kyuu⟧⟦に→に：00314_ni⟧⟦{合格|ごうかく}した→合格する：27949_goukakusuru⟧。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧{検定|けんてい}⟦の→の：09472_no⟧⟦{二|に}→二：00736_ni⟧⟦{級|きゅう}→級：28171_kyuu⟧⟦に→に：00314_ni⟧⟦{合格|ごうかく}した→合格する：27949_goukakusuru⟧。",
       "english": "I passed Level 2 of the English proficiency exam.",
       "notes": null,
       "has_audio": false,
@@ -181,7 +181,7 @@
   ],
   "metadata": {
     "created": "2026-02-23T11:42:29Z",
-    "modified": "2026-09-02T04:01:31Z",
+    "modified": "2026-09-25T06:18:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -194,7 +194,8 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

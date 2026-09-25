@@ -115,7 +115,7 @@
     },
     {
       "id": "13283_sentaku_ex2",
-      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦から→から：00504_kara⟧{洗濯|せんたく}{物|もの}⟦を→を：00422_wo⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦{干|ほ}そう→干す：00115_hosu⟧。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦から→から：00504_kara⟧{洗濯|せんたく}⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦{干|ほ}そう→干す：00115_hosu⟧。",
       "english": "The weather is nice, so let's hang the laundry outside to dry.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOne of the most common household vocabulary words. Used with ⟦する→する：00392_suru⟧ to form the verb \"to do laundry\" ({洗濯|せんたく}⟦する→する：00392_suru⟧). The kanji {濯|たく} is rarely seen outside this word.\n\nBe careful not to confuse with the homophone ⟦{選択|せんたく}→選択：03306_sentaku⟧ (selection, choice), which uses different kanji.\n\nCOMMON COLLOCATIONS:\n- {洗濯|せんたく}⟦する→する：00392_suru⟧: to do laundry\n- {洗濯|せんたく}{物|もの}: laundry (items to be washed or drying)\n- ⟦{洗濯機|せんたくき}→洗濯機：04969_sentakuki⟧: washing machine\n- {洗濯|せんたく}{物|もの}⟦を→を：00422_wo⟧⟦{干|ほ}す→干す：00115_hosu⟧: to hang laundry to dry\n- {洗濯|せんたく}{物|もの}⟦を→を：00422_wo⟧⟦{取|と}り{込|こ}む→取り込む：05871_torikomu⟧: to bring in the laundry",
+  "notes": "USAGE:\nOne of the most common household vocabulary words. Used with ⟦する→する：00392_suru⟧ to form the verb \"to do laundry\" ({洗濯|せんたく}⟦する→する：00392_suru⟧). The kanji {濯|たく} is rarely seen outside this word.\n\nBe careful not to confuse with the homophone ⟦{選択|せんたく}→選択：03306_sentaku⟧ (selection, choice), which uses different kanji.\n\nCOMMON COLLOCATIONS:\n- {洗濯|せんたく}⟦する→する：00392_suru⟧: to do laundry\n- {洗濯|せんたく}⟦{物|もの}→物：02259_mono⟧: laundry (items to be washed or drying)\n- ⟦{洗濯機|せんたくき}→洗濯機：04969_sentakuki⟧: washing machine\n- {洗濯|せんたく}⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{干|ほ}す→干す：00115_hosu⟧: to hang laundry to dry\n- {洗濯|せんたく}⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{取|と}り{込|こ}む→取り込む：05871_torikomu⟧: to bring in the laundry",
   "cross_references": [
     {
       "type": "related",
@@ -167,7 +167,7 @@
   ],
   "metadata": {
     "created": "2026-02-24T08:52:35Z",
-    "modified": "2026-09-02T04:01:32Z",
+    "modified": "2026-09-25T06:18:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,7 +181,8 @@
         "action",
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [
