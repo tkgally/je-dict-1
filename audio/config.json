@@ -1,0 +1,27 @@
+{
+  "_doc": "Settings for the example-audio workflow (AUDIO_WORKFLOW.md). Changing tts_model, prompt_strategy, checkers, rule or mp3_kbps is a workflow change: rerun the regression suite (python3 build/audio_regression.py) first and log it in the AUDIO_WORKFLOW.md changelog.",
+  "workflow_version": "v2",
+  "tts_model": "google/gemini-3.8-flash-tts",
+  "prompt_strategy": "E",
+  "checkers": [
+    {"kind": "pcompare", "model": "google/gemini-3.8-flash"},
+    {"kind": "kana", "model": "google/gemini-3.8-flash"},
+    {"kind": "kana", "model": "openai/gpt-audio-mini"},
+    {"kind": "kana", "model": "thinkingmachines/inkling"}
+  ],
+  "rule": "p2",
+  "max_attempts": 5,
+  "mp3_kbps": 48,
+  "voices": ["Kore", "Charon"],
+  "voice_gender": {"Kore": "female", "Charon": "male"},
+  "voice_candidates": [],
+  "stores": [
+    {
+      "id": "a1",
+      "repo": "tkgally/je-dict-audio-1",
+      "base_url": "https://tkgally.github.io/je-dict-audio-1/",
+      "limit_mb": 900,
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,8388 @@
+{
+ "at": "2026-09-25T13:34:08+00:00",
+ "config": {
+  "checkers": [
+   {
+    "kind": "pcompare",
+    "model": "google/gemini-3.8-flash"
+   },
+   {
+    "kind": "kana",
+    "model": "google/gemini-3.8-flash"
+   },
+   {
+    "kind": "kana",
+    "model": "openai/gpt-audio-mini"
+   },
+   {
+    "kind": "kana",
+    "model": "thinkingmachines/inkling"
+   }
+  ],
+  "rule": "p2"
+ },
+ "kbps": null,
+ "rows": [
+  {
+   "key": "flash/control/female/004_27458_uwate_ex1_wr",
+   "truth": "injected error: wrong_reading うわて → じょうず",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "うわて → じょうず"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00071475
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かれのほうがいちまいうわてだ",
+     "diff": [],
+     "cost": 0.0001305
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かれの ほう が いちまい うわて だ",
+     "diff": [],
+     "cost": 9.96e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かれのほうがいちまいうわてだ",
+     "diff": [],
+     "cost": 0.0005097
+    }
+   ],
+   "accepted": true,
+   "audible": false
+  },
+  {
+   "key": "flash/control/female/003_27453_myounichi_ex2_wr",
+   "truth": "injected error: wrong_reading みょうにち → あした",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "みょうにち → あした"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"みょうにち\", \"heard\": \"あした\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "みょうにち",
+       "あした"
+      ]
+     ],
+     "cost": 0.00091125
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "あしたのかいぎはじゅうじからです",
+     "diff": [
+      [
+       "replace",
+       "みょうにち",
+       "あした"
+      ]
+     ],
+     "cost": 0.000123
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "あしたの かいぎは じゅうじ から です。",
+     "diff": [
+      [
+       "replace",
+       "みょうにち",
+       "あした"
+      ]
+     ],
+     "cost": 9.84e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "あしたのかいぎはじゅうじからです。",
+     "diff": [
+      [
+       "replace",
+       "みょうにち",
+       "あした"
+      ]
+     ],
+     "cost": 0.00050975
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/002_30530_nikakete_ex2_wr",
+   "truth": "injected error: wrong_reading あす → あした",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "あす → あした"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"あす\", \"heard\": \"あした\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "あす",
+       "あした"
+      ]
+     ],
+     "cost": 0.000738
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "こんやからあしたのあさにかけてあめがつよまるでしょう",
+     "diff": [
+      [
+       "replace",
+       "す",
+       "した"
+      ]
+     ],
+     "cost": 0.00019425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こんばんわ、あしたのあさにかけて、あめがつよまるでしょう。",
+     "diff": [
+      [
+       "replace",
+       "やから",
+       "ばんわ"
+      ],
+      [
+       "replace",
+       "す",
+       "した"
+      ]
+     ],
+     "cost": 0.0001224
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "こんやからあしたのあさにかけてあめがつよまるでしょう。",
+     "diff": [
+      [
+       "replace",
+       "す",
+       "した"
+      ]
+     ],
+     "cost": 0.0007157
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/001_11695_konnichi_ex2_wr",
+   "truth": "injected error: wrong_reading こんにち → きょう",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "こんにち → きょう"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"こんにち\",\n      \"heard\": \"きょう\"\n    }\n  ],\n  \"match\": false\n}\n```",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "きょう"
+      ]
+     ],
+     "cost": 0.000885
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "かいしゃがきょうまでつづいたのはしゃいんのおかげだ",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "きょう"
+      ]
+     ],
+     "cost": 0.00017475
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "かいしゃが きょうまで つづいたのは しゃいんの おかげだ",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "きょう"
+      ]
+     ],
+     "cost": 0.0001182
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "かいしゃがきょうまでつづいたのはしゃいんのおかげだ",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "きょう"
+      ]
+     ],
+     "cost": 0.000314
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/007_10993_tsuitachi_ex1_wr",
+   "truth": "injected error: wrong_reading ついたち → いちにち",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "ついたち → いちにち"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0006105
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "いちがつ ついたち は がんじつ です",
+     "diff": [],
+     "cost": 0.0001425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "いちがつ ついたちは がんじつ です。",
+     "diff": [],
+     "cost": 9.48e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "いちがつついたちはがんじつです。",
+     "diff": [],
+     "cost": 0.0006402
+    }
+   ],
+   "accepted": true,
+   "audible": false
+  },
+  {
+   "key": "flash/control/female/009_00092_hashigo_ex3_wr",
+   "truth": "injected error: wrong_reading ゆうべ → さくや",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "ゆうべ → さくや"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ゆうべ\", \"heard\": \"さくや\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ゆうべ",
+       "さくや"
+      ]
+     ],
+     "cost": 0.00068775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "さくやはともだちとはしござけをした",
+     "diff": [
+      [
+       "replace",
+       "ゆうべ",
+       "さくや"
+      ]
+     ],
+     "cost": 0.00014625
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "さくやは ともだちと はしござけを した",
+     "diff": [
+      [
+       "replace",
+       "ゆうべ",
+       "さくや"
+      ]
+     ],
+     "cost": 9.84e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "さくやはともだちとはしござけをした。",
+     "diff": [
+      [
+       "replace",
+       "ゆうべ",
+       "さくや"
+      ]
+     ],
+     "cost": 0.00050255
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/008_27454_sakujitsu_ex3_wr",
+   "truth": "injected error: wrong_reading さくじつ → きのう",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "さくじつ → きのう"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"さくじつ\", \"heard\": \"きのう\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "さくじつ",
+       "きのう"
+      ]
+     ],
+     "cost": 0.00033075
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "きのうそうりだいじんはきしゃかいけんをおこなった",
+     "diff": [
+      [
+       "replace",
+       "さくじつ",
+       "きのう"
+      ]
+     ],
+     "cost": 0.000168
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "きのう そうりだいじん は きしゃかいけん を おこなった",
+     "diff": [
+      [
+       "replace",
+       "さくじつ",
+       "きのう"
+      ]
+     ],
+     "cost": 0.0001188
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "きのう、そうりだいじんはきしゃかいけんをおこなった。",
+     "diff": [
+      [
+       "replace",
+       "さくじつ",
+       "きのう"
+      ]
+     ],
+     "cost": 0.0007929
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/006_00499_sakana_ex4_wr",
+   "truth": "injected error: wrong_reading いちば → しじょう",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "いちば → しじょう"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00114675
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ちちはまいしゅうさかなをかいにいちばへいきます",
+     "diff": [],
+     "cost": 0.0001725
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ちちは まいしゅう さかな を かい に いちば へ いきます",
+     "diff": [],
+     "cost": 0.0001272
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ちちはまいしゅうさかなをかいにいちばへいきます",
+     "diff": [],
+     "cost": 0.000401
+    }
+   ],
+   "accepted": true,
+   "audible": false
+  },
+  {
+   "key": "flash/control/female/010_10603_kiten_ex3_wr",
+   "truth": "injected error: wrong_reading おおごと → だいじ",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "おおごと → だいじ"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"おおごと\", \"heard\": \"だいじ\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "おおごと",
+       "だいじ"
+      ]
+     ],
+     "cost": 0.00114225
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "あのばめんできてんをきかせてうそをついたおかげでだいじにならずにすんだ",
+     "diff": [
+      [
+       "replace",
+       "おおごと",
+       "だいじ"
+      ]
+     ],
+     "cost": 0.000243
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "あの ばめん で きてん を きかせて うそ を ついた おかげ で だいじ に ならず に すんだ",
+     "diff": [
+      [
+       "replace",
+       "おおごと",
+       "だいじ"
+      ]
+     ],
+     "cost": 0.0001788
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "あのばめんできてんをきかせてうそをついたおかげでだいじにならずにすんだ",
+     "diff": [
+      [
+       "replace",
+       "おおごと",
+       "だいじ"
+      ]
+     ],
+     "cost": 0.00040765
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/011_12866_yoridokoro_ex5_wr",
+   "truth": "injected error: wrong_reading ふるさと → こきょう",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "ふるさと → こきょう"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ふるさと\", \"heard\": \"こきょう\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ふるさと",
+       "こきょう"
+      ]
+     ],
+     "cost": 0.0003255
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "こきょうをはなれてよりどころのないきもちになった",
+     "diff": [
+      [
+       "replace",
+       "ふるさと",
+       "こきょう"
+      ]
+     ],
+     "cost": 0.00016725
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こきょうをはなれて よりどころのない きもちになった",
+     "diff": [
+      [
+       "replace",
+       "ふるさと",
+       "こきょう"
+      ]
+     ],
+     "cost": 0.0001074
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "こきょうをはなれてよりどころのないきもちになった。",
+     "diff": [
+      [
+       "replace",
+       "ふるさと",
+       "こきょう"
+      ]
+     ],
+     "cost": 0.00061365
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/014_16081_samuke_ex2_wr",
+   "truth": "injected error: wrong_reading さむけ → かんき",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "さむけ → かんき"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"さむけ\", \"heard\": \"かんき\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "さむけ",
+       "かんき"
+      ]
+     ],
+     "cost": 0.00049875
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "ねつがでるまえにかんきをかんじた",
+     "diff": [
+      [
+       "replace",
+       "さむけ",
+       "かんき"
+      ]
+     ],
+     "cost": 0.0001485
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "ねつがでるまえに　かんきを　かんじた",
+     "diff": [
+      [
+       "replace",
+       "さむけ",
+       "かんき"
+      ]
+     ],
+     "cost": 0.0001002
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "ねつがでるまえにかんきをかんじた",
+     "diff": [
+      [
+       "replace",
+       "さむけ",
+       "かんき"
+      ]
+     ],
+     "cost": 0.0003759
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/012_00635_juuichigatsu_ex3_wr",
+   "truth": "injected error: wrong_reading もみじ → こうよう",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "もみじ → こうよう"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"もみじ\", \"heard\": \"こうよう\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "もみじ",
+       "こうよう"
+      ]
+     ],
+     "cost": 0.0006765
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "じゅういちがつはこうようがきれいです",
+     "diff": [
+      [
+       "replace",
+       "もみじ",
+       "こうよう"
+      ]
+     ],
+     "cost": 0.00014775
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "じゅういちがつは こうようが きれいです。",
+     "diff": [
+      [
+       "replace",
+       "もみじ",
+       "こうよう"
+      ]
+     ],
+     "cost": 0.000105
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "じゅういちがつはこうようがきれいです。",
+     "diff": [
+      [
+       "replace",
+       "もみじ",
+       "こうよう"
+      ]
+     ],
+     "cost": 0.0007717
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/015_14765_shikishi_ex2_wr",
+   "truth": "injected error: wrong_reading しきし → いろがみ",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "しきし → いろがみ"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"しきし\", \"heard\": \"いろはら\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "しきし",
+       "いろはら"
+      ]
+     ],
+     "cost": 0.00263925
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "たいしょくするせんぱいにいろはらをかいた",
+     "diff": [
+      [
+       "replace",
+       "しきし",
+       "いろはら"
+      ]
+     ],
+     "cost": 0.00014475
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "たいしょくする せんぱい に いろはら を かいた",
+     "diff": [
+      [
+       "replace",
+       "しきし",
+       "いろはら"
+      ]
+     ],
+     "cost": 0.0001062
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "たいしょくするせんぱいにいろはらをかいた",
+     "diff": [
+      [
+       "replace",
+       "しきし",
+       "いろはら"
+      ]
+     ],
+     "cost": 0.0005825
+    }
+   ],
+   "accepted": false,
+   "audible": false
+  },
+  {
+   "key": "flash/control/female/016_28020_monaka_ex2_wr",
+   "truth": "injected error: wrong_reading もなか → さいちゅう",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "もなか → さいちゅう"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"もなか\", \"heard\": \"さいちゅう\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "もなか",
+       "さいちゅう"
+      ]
+     ],
+     "cost": 0.00078525
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "このみせのさいちゅうはかわがパリパリでおいしい",
+     "diff": [
+      [
+       "replace",
+       "もなか",
+       "さいちゅう"
+      ]
+     ],
+     "cost": 0.000165
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "この みせ の たいちゅう は かわ が ぱりぱり で おいしい",
+     "diff": [
+      [
+       "replace",
+       "もなか",
+       "たいちゅう"
+      ]
+     ],
+     "cost": 0.0001188
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "このみせのさいちゅうはかわがパリパリでおいしい。",
+     "diff": [
+      [
+       "replace",
+       "もなか",
+       "さいちゅう"
+      ]
+     ],
+     "cost": 0.0007049
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/020_20452_funbetsu_ex1_wr",
+   "truth": "injected error: wrong_reading ふんべつ → ぶんべつ",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "ふんべつ → ぶんべつ"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ふんべつ\", \"heard\": \"ぶんべつ\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ふんべつ",
+       "ぶんべつ"
+      ]
+     ],
+     "cost": 0.001194
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "ぶんべつ の ある おとな に なり なさい",
+     "diff": [
+      [
+       "replace",
+       "ふ",
+       "ぶ"
+      ]
+     ],
+     "cost": 0.00012675
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "ぶんべつのあるおとなになりなさい",
+     "diff": [
+      [
+       "replace",
+       "ふ",
+       "ぶ"
+      ]
+     ],
+     "cost": 8.34e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "ぶんべつのあるおとなになりなさい",
+     "diff": [
+      [
+       "replace",
+       "ふ",
+       "ぶ"
+      ]
+     ],
+     "cost": 0.00053
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/018_06464_futae_ex4_wr",
+   "truth": "injected error: wrong_reading ふたえ → にじゅう",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "ふたえ → にじゅう"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ふたえ\", \"heard\": \"にじゅう\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ふたえ",
+       "にじゅう"
+      ]
+     ],
+     "cost": 0.00074325
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "かのじょはうまれつきにじゅうまぶただ",
+     "diff": [
+      [
+       "replace",
+       "ふたえ",
+       "にじゅう"
+      ]
+     ],
+     "cost": 0.0001425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "かのじょ　は　うまれつき　にじゅうまぶた　だ",
+     "diff": [
+      [
+       "replace",
+       "ふたえ",
+       "にじゅう"
+      ]
+     ],
+     "cost": 0.0001092
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かのじょはうまれつきふたえまぶただ",
+     "diff": [],
+     "cost": 0.00078105
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/021_20494_mokka_ex2_wr",
+   "truth": "injected error: wrong_reading もっか → めした",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "もっか → めした"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"もっか\", \"heard\": \"めした\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "もっか",
+       "めした"
+      ]
+     ],
+     "cost": 0.0005655
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "めしたのかだいはひとでぶそくだ",
+     "diff": [
+      [
+       "replace",
+       "もっか",
+       "めした"
+      ]
+     ],
+     "cost": 0.00013425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "みしたの かだい は ひとで ぶそくだ",
+     "diff": [
+      [
+       "replace",
+       "もっか",
+       "みした"
+      ]
+     ],
+     "cost": 9.6e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "もっかのかだいはひとでぶそくだ",
+     "diff": [],
+     "cost": 0.00076885
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/022_20909_doujouteki_ex2_wr",
+   "truth": "injected error: wrong_reading せろん → よろん",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "せろん → よろん"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"せろん\", \"heard\": \"よろん\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "せろん",
+       "よろん"
+      ]
+     ],
+     "cost": 0.0002985
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "よろんわひがいしゃにどうじょうてきだった",
+     "diff": [
+      [
+       "replace",
+       "せ",
+       "よ"
+      ],
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.000144
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "よろん　は　ひがいしゃ　に　どうじょうてき　だった",
+     "diff": [
+      [
+       "replace",
+       "せ",
+       "よ"
+      ]
+     ],
+     "cost": 0.000102
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "よろんはひがいしゃにどうじょうてきだった",
+     "diff": [
+      [
+       "replace",
+       "せ",
+       "よ"
+      ]
+     ],
+     "cost": 0.00055625
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/024_10535_kazaguruma_ex2_wr",
+   "truth": "injected error: wrong_reading かざぐるま → ふうしゃ",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "かざぐるま → ふうしゃ"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"かざぐるま\", \"heard\": \"ふうしゃ\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "かざぐるま",
+       "ふうしゃ"
+      ]
+     ],
+     "cost": 0.0005715
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "こどもがふうしゃをもってはしっている",
+     "diff": [
+      [
+       "replace",
+       "かざぐるま",
+       "ふうしゃ"
+      ]
+     ],
+     "cost": 0.00014025
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こども が ふうしゃ を もって はしって いる",
+     "diff": [
+      [
+       "replace",
+       "かざぐるま",
+       "ふうしゃ"
+      ]
+     ],
+     "cost": 0.0001002
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "こどもがふうしゃをもってはしっている",
+     "diff": [
+      [
+       "replace",
+       "かざぐるま",
+       "ふうしゃ"
+      ]
+     ],
+     "cost": 0.0004964
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/023_29953_shoubaihanjou_ex2_wr",
+   "truth": "injected error: wrong_reading りやく → りえき",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "りやく → りえき"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00027675
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このじんじゃわしょうばいはんじょうのごりやくでゆうめいだ",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.000186
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "この じんじゃ は しょうばい はんじょう の ごりゃく で ゆうめい だ",
+     "diff": [
+      [
+       "replace",
+       "や",
+       "ゃ"
+      ]
+     ],
+     "cost": 0.0001326
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
+     "diff": [],
+     "cost": 0.00041515
+    }
+   ],
+   "accepted": true,
+   "audible": false
+  },
+  {
+   "key": "flash/control/female/027_00320_nippon_ex1_wr",
+   "truth": "injected error: wrong_reading にっぽん → にほん",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "にっぽん → にほん"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00044625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "がんばれ にっぽん",
+     "diff": [],
+     "cost": 8.85e-05
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "がんばれ にっぽん",
+     "diff": [],
+     "cost": 6.66e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "がんばれにっぽん",
+     "diff": [],
+     "cost": 0.0003764
+    }
+   ],
+   "accepted": true,
+   "audible": false
+  },
+  {
+   "key": "flash/control/female/030_20383_tassha_ex3_wr",
+   "truth": "injected error: wrong_reading からだ → しんたい",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "からだ → しんたい"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"からだ\", \"heard\": \"しんたい\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "からだ",
+       "しんたい"
+      ]
+     ],
+     "cost": 0.00080775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "あのこわしんたいがたっしゃでスポーツならなんでもこなす",
+     "diff": [
+      [
+       "replace",
+       "はからだ",
+       "わしんたい"
+      ]
+     ],
+     "cost": 0.0001785
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "あのこは しんたいが たっしゃで、スポーツなら なんでも こなす。",
+     "diff": [
+      [
+       "replace",
+       "からだ",
+       "しんたい"
+      ]
+     ],
+     "cost": 0.0001266
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "あのこはしんたいがたっしゃで、すぽーつならなんでもこなす。",
+     "diff": [
+      [
+       "replace",
+       "からだ",
+       "しんたい"
+      ]
+     ],
+     "cost": 0.00063895
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/038_16272_misoka_ex1_wr",
+   "truth": "injected error: wrong_reading みそか → さんじゅうにち",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "みそか → さんじゅうにち"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"みそか\", \"heard\": \"さんじゅうにち\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "みそか",
+       "さんじゅうにち"
+      ]
+     ],
+     "cost": 0.00079875
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "さんじゅうにちに しはらい を する",
+     "diff": [
+      [
+       "replace",
+       "みそか",
+       "さんじゅうにち"
+      ]
+     ],
+     "cost": 0.0001335
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "さんじゅうにちに しはらいを す",
+     "diff": [
+      [
+       "replace",
+       "みそか",
+       "さんじゅうにち"
+      ],
+      [
+       "delete",
+       "る",
+       ""
+      ]
+     ],
+     "cost": 9.3e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "さんじゅうにちにしはらいをする",
+     "diff": [
+      [
+       "replace",
+       "みそか",
+       "さんじゅうにち"
+      ]
+     ],
+     "cost": 0.0008377
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/032_30278_hantaihoukou_ex3_wr",
+   "truth": "injected error: wrong_reading じゅっぷん → じゅうぶん",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "じゅっぷん → じゅうぶん"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"じゅっぷん\", \"heard\": \"じゅうぶん\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "じゅっぷん",
+       "じゅうぶん"
+      ]
+     ],
+     "cost": 0.0011085
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "みちをまちがえてえきとははんたいほうこうにじゅっぷんもあるいてしまった",
+     "diff": [],
+     "cost": 0.00022575
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "みちをまちがえて えきとは はんたいほうこうに じゅうぶんも あるいてしまった",
+     "diff": [
+      [
+       "replace",
+       "っぷ",
+       "うぶ"
+      ]
+     ],
+     "cost": 0.0001452
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "みちをまちがえてえきとはんたいほうこうにじゅうぶんもあるいてしまった",
+     "diff": [
+      [
+       "delete",
+       "は",
+       ""
+      ],
+      [
+       "replace",
+       "っぷ",
+       "うぶ"
+      ]
+     ],
+     "cost": 0.0004543
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/041_10587_yorisou_ex6_wr",
+   "truth": "injected error: wrong_reading つらい → からい",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "つらい → からい"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"つらい\", \"heard\": \"からい\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "つらい",
+       "からい"
+      ]
+     ],
+     "cost": 0.000957
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "からいときによりそってくれるひとがいるのはほんとうにありがたい",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "か"
+      ]
+     ],
+     "cost": 0.00019125
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "からい とき に よりそって くれる ひと が いる の は ほんとう に ありがたい",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "か"
+      ]
+     ],
+     "cost": 0.0001344
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "からいときによりそってくれるひとがいるのはほんとうにありがたい",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "か"
+      ]
+     ],
+     "cost": 0.0003441
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/045_02987_watakushi_ex2_wr",
+   "truth": "injected error: wrong_reading わたくし → わたし",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "わたくし → わたし"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "{\"differences\": [{\"expected\": \"わたくし\", \"heard\": \"わたし\"}], \"match\": false}",
+     "diff": [
+      [
+       "replace",
+       "わたくし",
+       "わたし"
+      ]
+     ],
+     "cost": 0.0007395
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "わたしのいけんをのべます",
+     "diff": [
+      [
+       "delete",
+       "く",
+       ""
+      ]
+     ],
+     "cost": 0.00011475
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "わたしの いけんを のべます",
+     "diff": [
+      [
+       "delete",
+       "く",
+       ""
+      ]
+     ],
+     "cost": 8.22e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "わたしのいけんをのべます",
+     "diff": [
+      [
+       "delete",
+       "く",
+       ""
+      ]
+     ],
+     "cost": 0.00047335
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/046_02933_hatachi_ex4_wr",
+   "truth": "injected error: wrong_reading はたち → にじゅっさい",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "はたち → にじゅっさい"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "n/a",
+     "text": "",
+     "diff": [],
+     "cost": 0.0
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "にじゅっさいになったらおさけがのめるようになる",
+     "diff": [
+      [
+       "replace",
+       "はたち",
+       "にじゅっさい"
+      ]
+     ],
+     "cost": 0.0001635
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "にじゅっさいになったら　おさけが　のめるようになる",
+     "diff": [
+      [
+       "replace",
+       "はたち",
+       "にじゅっさい"
+      ]
+     ],
+     "cost": 0.0001074
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "にじゅっさいになったらおさけがのめるようになる",
+     "diff": [
+      [
+       "replace",
+       "はたち",
+       "にじゅっさい"
+      ]
+     ],
+     "cost": 0.0004325
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/047_02934_hatsuka_ex8_wr",
+   "truth": "injected error: wrong_reading はつか → にじゅうにち",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "はつか → にじゅうにち"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"はつか\", \"heard\": \"にじゅうにち\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "はつか",
+       "にじゅうにち"
+      ]
+     ],
+     "cost": 0.00065775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "にじゅうにちまでにおとどけします",
+     "diff": [
+      [
+       "replace",
+       "はつか",
+       "にじゅうにち"
+      ]
+     ],
+     "cost": 0.00012975
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "にじゅうにちまでにおとどけします",
+     "diff": [
+      [
+       "replace",
+       "はつか",
+       "にじゅうにち"
+      ]
+     ],
+     "cost": 8.58e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "にじゅうにちまでにおとどけします。",
+     "diff": [
+      [
+       "replace",
+       "はつか",
+       "にじゅうにち"
+      ]
+     ],
+     "cost": 0.00066365
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/051_03458_toshitsuki_ex1_wr",
+   "truth": "injected error: wrong_reading としつき → ねんげつ",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "としつき → ねんげつ"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"としつき\", \"heard\": \"ねんげつ\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "としつき",
+       "ねんげつ"
+      ]
+     ],
+     "cost": 0.000819
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "ながいねんげつがたった",
+     "diff": [
+      [
+       "replace",
+       "とし",
+       "ねんげ"
+      ],
+      [
+       "delete",
+       "き",
+       ""
+      ]
+     ],
+     "cost": 0.000114
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "ながい ねんげつ が たった",
+     "diff": [
+      [
+       "replace",
+       "とし",
+       "ねんげ"
+      ],
+      [
+       "delete",
+       "き",
+       ""
+      ]
+     ],
+     "cost": 7.8e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "ながいねんげつがたった",
+     "diff": [
+      [
+       "replace",
+       "とし",
+       "ねんげ"
+      ],
+      [
+       "delete",
+       "き",
+       ""
+      ]
+     ],
+     "cost": 0.0004633
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/058_29264_nijimidasu_ex1_wr",
+   "truth": "injected error: wrong_reading ひたい → がく",
+   "truth_parsed": [
+    "injected",
+    "wrong_reading",
+    "ひたい → がく"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ひたい\", \"heard\": \"がく\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ひたい",
+       "がく"
+      ]
+     ],
+     "cost": 0.0008595
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "がくにあせがにじみだす",
+     "diff": [
+      [
+       "replace",
+       "ひたい",
+       "がく"
+      ]
+     ],
+     "cost": 0.0001185
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "がくに あせが にじみだす",
+     "diff": [
+      [
+       "replace",
+       "ひたい",
+       "がく"
+      ]
+     ],
+     "cost": 7.86e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "がくにあせがにじみだす",
+     "diff": [
+      [
+       "replace",
+       "ひたい",
+       "がく"
+      ]
+     ],
+     "cost": 0.00045215
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/086_03201_shimai_ex5_omi",
+   "truth": "injected error: omission いつも → ∅",
+   "truth_parsed": [
+    "injected",
+    "omission",
+    "いつも → ∅"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"いつも\",\n      \"heard\": \"\"\n    }\n  ],\n  \"match\": false\n}\n```",
+     "diff": [
+      [
+       "replace",
+       "いつも",
+       ""
+      ]
+     ],
+     "cost": 0.0017325
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "さんにんしまいのすえっことしてそだったかのじょはあねたちのあとをおいかけていたそうだいまではおたがいにささえあうかんけいになっている",
+     "diff": [
+      [
+       "delete",
+       "いつも",
+       ""
+      ]
+     ],
+     "cost": 0.00038475
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "さんにんしまいの すえっこ として そだった かのじょは あねたちの あとを おいかけていた そうだ いまでは おたがいに ささえあう かんけいに なっている",
+     "diff": [
+      [
+       "delete",
+       "いつも",
+       ""
+      ]
+     ],
+     "cost": 0.000255
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "さんにんしまいのすえっことしてそだったかのじょは、あねたちのあとをおいかけていたそうだ。いまではおたがいにささえあうかんけいになっている。",
+     "diff": [
+      [
+       "delete",
+       "いつも",
+       ""
+      ]
+     ],
+     "cost": 0.0006778
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/088_24064_tsuitotsujiko_ex4_omi",
+   "truth": "injected error: omission 前の車に → ∅",
+   "truth_parsed": [
+    "injected",
+    "omission",
+    "前の車に → ∅"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"まえのくるまに\",\n      \"heard\": \"\"\n    }\n  ],\n  \"match\": false\n}\n```",
+     "diff": [
+      [
+       "replace",
+       "まえのくるまに",
+       ""
+      ]
+     ],
+     "cost": 0.00132975
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "あめでぶれーきがききにくくなりついとつじこをおこしてしまったうんてんしゅがけいさつにじじょうをせつめいしている",
+     "diff": [
+      [
+       "delete",
+       "まえのくるまに",
+       ""
+      ]
+     ],
+     "cost": 0.00032025
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "あめで ぶれーき が ききにくく なり、ついとつ じこ を おこして しまった うんてんしゅ が けいさつ に じじょう を せつめい して いる",
+     "diff": [
+      [
+       "delete",
+       "まえのくるまに",
+       ""
+      ]
+     ],
+     "cost": 0.0002262
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "あめでぶれーきがききにくくなり、ついとつじこをおこしてしまったうんてんしゅがけいさつにじじょうせつめいしている",
+     "diff": [
+      [
+       "delete",
+       "まえのくるまに",
+       ""
+      ],
+      [
+       "delete",
+       "を",
+       ""
+      ]
+     ],
+     "cost": 0.00056835
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/026_02778_katagata_ex4_omi",
+   "truth": "injected error: omission 心より → ∅",
+   "truth_parsed": [
+    "injected",
+    "omission",
+    "心より → ∅"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"こころより\", \"heard\": \"\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "こころより",
+       ""
+      ]
+     ],
+     "cost": 0.0010245
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "ほんじつごさんかいただきましたかたがたにおんれいもうしあげます",
+     "diff": [
+      [
+       "delete",
+       "こころより",
+       ""
+      ]
+     ],
+     "cost": 0.0001905
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "ほんじつ ごさんか いただきました かたがたに おんれい もうしあげます",
+     "diff": [
+      [
+       "delete",
+       "こころより",
+       ""
+      ]
+     ],
+     "cost": 0.0001284
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "ほんじつごさんかいただきましたかたがたにおんれいもうしあげます",
+     "diff": [
+      [
+       "delete",
+       "こころより",
+       ""
+      ]
+     ],
+     "cost": 0.0004283
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/099_03991_yuge_ex4_omi",
+   "truth": "injected error: omission とても → ∅",
+   "truth_parsed": [
+    "injected",
+    "omission",
+    "とても → ∅"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"とてもおいしそうだった\", \"heard\": \"おいしそうだった\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "とてもおいしそうだった",
+       "おいしそうだった"
+      ]
+     ],
+     "cost": 0.00033825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "らーめんからゆげがたちのぼっておいしそうだった",
+     "diff": [
+      [
+       "delete",
+       "とても",
+       ""
+      ]
+     ],
+     "cost": 0.00016725
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "らーめんから ゆげが たちのぼって おいしそうだった",
+     "diff": [
+      [
+       "delete",
+       "とても",
+       ""
+      ]
+     ],
+     "cost": 0.000111
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "らーめんからゆげがたちのぼっておいしそうだった",
+     "diff": [
+      [
+       "delete",
+       "とても",
+       ""
+      ]
+     ],
+     "cost": 0.00030995
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/100_05056_keisatsukan_ex5_omi",
+   "truth": "injected error: omission 駅前の → ∅",
+   "truth_parsed": [
+    "injected",
+    "omission",
+    "駅前の → ∅"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"えきまえの\", \"heard\": \"\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "えきまえの",
+       ""
+      ]
+     ],
+     "cost": 0.00111
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "こうばんにけいさつかんがふたりいたのでさいふをおとしたことをとどけでた",
+     "diff": [
+      [
+       "delete",
+       "えきまえの",
+       ""
+      ]
+     ],
+     "cost": 0.000219
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こうばん に けいさつかん が ふたり いた の で、さいふ を おとした こと を とどけ だ。",
+     "diff": [
+      [
+       "delete",
+       "えきまえの",
+       ""
+      ],
+      [
+       "replace",
+       "でた",
+       "だ"
+      ]
+     ],
+     "cost": 0.000153
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "こうばんにけいさつかんがふたりいたのでさいふをおとしたことをとどけでた",
+     "diff": [
+      [
+       "delete",
+       "えきまえの",
+       ""
+      ]
+     ],
+     "cost": 0.0004555
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/085_27385_shingaasonguraitaa_ex4_omi",
+   "truth": "injected error: omission ついに → ∅",
+   "truth_parsed": [
+    "injected",
+    "omission",
+    "ついに → ∅"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ついに\", \"heard\": \"\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ついに",
+       ""
+      ]
+     ],
+     "cost": 0.00139575
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "らいぶはうすでえんそうをつづけながらじさくのきょくをみがいてきたしんがーそんぐらいたーがめじゃーでびゅーをはたした",
+     "diff": [
+      [
+       "delete",
+       "ついに",
+       ""
+      ]
+     ],
+     "cost": 0.0003615
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "だいぶはうすで　えんそうを　つづけながら　じさくの　きょくを　みがいてきた　しんがーそんぐらいたーが　めじゃー　でびゅーを　はたした",
+     "diff": [
+      [
+       "replace",
+       "ら",
+       "だ"
+      ],
+      [
+       "delete",
+       "ついに",
+       ""
+      ]
+     ],
+     "cost": 0.0002322
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "らいぶはうすでえんそうをつづけながらじさくのきょくをみがいてきたしんがーそんぐらいたーがめじゃーでびゅーをはたした",
+     "diff": [
+      [
+       "delete",
+       "ついに",
+       ""
+      ]
+     ],
+     "cost": 0.00058025
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/087_00750_semai_ex5_omi",
+   "truth": "injected error: omission 収納を上手に使うのが大切です。 → ∅",
+   "truth_parsed": [
+    "injected",
+    "omission",
+    "収納を上手に使うのが大切です。 → ∅"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"しゅうのうおじょうずにつかうのがたいせつです。\",\n      \"heard\": \"\"\n    }\n  ],\n  \"match\": false\n}\n```",
+     "diff": [
+      [
+       "replace",
+       "しゅうのうおじょうずにつかうのがたいせつです。",
+       ""
+      ]
+     ],
+     "cost": 0.00113775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "にほんのアパートはせまいといわれていますがくふうすればかいてきにくらせます",
+     "diff": [
+      [
+       "delete",
+       "しゅうのうをじょうずにつかうのがたいせつです",
+       ""
+      ]
+     ],
+     "cost": 0.00021825
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "にほんの あぱーと は せまい と いわれています が くふう すれば かいてき に くらせます",
+     "diff": [
+      [
+       "delete",
+       "しゅうのうをじょうずにつかうのがたいせつです",
+       ""
+      ]
+     ],
+     "cost": 0.0001536
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "にほんのあぱーとはせまいといわれていますが、くふうすればかいてきにくらせます。",
+     "diff": [
+      [
+       "delete",
+       "しゅうのうをじょうずにつかうのがたいせつです",
+       ""
+      ]
+     ],
+     "cost": 0.00125625
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/097_00671_soto_ex1_sub",
+   "truth": "injected error: substitution 寒い → 暑い",
+   "truth_parsed": [
+    "injected",
+    "substitution",
+    "寒い → 暑い"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"さむい\", \"heard\": \"あつい\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "さむい",
+       "あつい"
+      ]
+     ],
+     "cost": 0.000513
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "そとはあついです",
+     "diff": [
+      [
+       "replace",
+       "さむ",
+       "あつ"
+      ]
+     ],
+     "cost": 9.675e-05
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "そとは あつい です",
+     "diff": [
+      [
+       "replace",
+       "さむ",
+       "あつ"
+      ]
+     ],
+     "cost": 6.84e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "そとはあついです",
+     "diff": [
+      [
+       "replace",
+       "さむ",
+       "あつ"
+      ]
+     ],
+     "cost": 0.00040865
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/084_13994_renkon_ex3_omi",
+   "truth": "injected error: omission 穴から先が見通せることから → ∅",
+   "truth_parsed": [
+    "injected",
+    "omission",
+    "穴から先が見通せることから → ∅"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"あなからさきがみとおせることから\", \"heard\": \"\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "あなからさきがみとおせることから",
+       ""
+      ]
+     ],
+     "cost": 0.0006045
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "おせちりょうりにれんこんがはいっているのはみとおしがよいというえんぎをかついでいる",
+     "diff": [
+      [
+       "delete",
+       "あなからさきがみとおせることから",
+       ""
+      ]
+     ],
+     "cost": 0.0002595
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "おせちりょうりに れんこんが はいっているのは みとうしが よい という えんぎを かついでいる",
+     "diff": [
+      [
+       "delete",
+       "あなからさきが",
+       ""
+      ],
+      [
+       "replace",
+       "おせることからみとお",
+       "う"
+      ]
+     ],
+     "cost": 0.000168
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "おせちりょうりにれんこんがはいっているのはみとおしがよいというえんぎをかついでいる",
+     "diff": [
+      [
+       "delete",
+       "あなからさきがみとおせることから",
+       ""
+      ]
+     ],
+     "cost": 0.0005068
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/076_02922_docchi_ex8_sub",
+   "truth": "injected error: substitution 東と西 → 北と西",
+   "truth_parsed": [
+    "injected",
+    "substitution",
+    "東と西 → 北と西"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ひがし\", \"heard\": \"きた\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ひがし",
+       "きた"
+      ]
+     ],
+     "cost": 0.0005775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "きたとにし どっちにまがる",
+     "diff": [
+      [
+       "replace",
+       "ひがし",
+       "きた"
+      ]
+     ],
+     "cost": 0.00012375
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "きたとにし、どっちにまがる？",
+     "diff": [
+      [
+       "replace",
+       "ひがし",
+       "きた"
+      ]
+     ],
+     "cost": 8.88e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "きたとにし、どっちにまがる？",
+     "diff": [
+      [
+       "replace",
+       "ひがし",
+       "きた"
+      ]
+     ],
+     "cost": 0.0004257
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/042_00555_tomaru_ex4_sub",
+   "truth": "injected error: substitution 明るく → 暗く",
+   "truth_parsed": [
+    "injected",
+    "substitution",
+    "明るく → 暗く"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"あかるく\", \"heard\": \"くらく\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "あかるく",
+       "くらく"
+      ]
+     ],
+     "cost": 0.00031125
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "あめがやんでそらがくらくなりました",
+     "diff": [
+      [
+       "replace",
+       "あかる",
+       "くら"
+      ]
+     ],
+     "cost": 0.000141
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "あめ が やんで そら が くらく なりました",
+     "diff": [
+      [
+       "replace",
+       "あかる",
+       "くら"
+      ]
+     ],
+     "cost": 9.78e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "あめがやんで、そらがくらくなりました。",
+     "diff": [
+      [
+       "replace",
+       "あかる",
+       "くら"
+      ]
+     ],
+     "cost": 0.0004731
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/062_21132_kikkari_ex1_sub",
+   "truth": "injected error: substitution 3時 → 4時",
+   "truth_parsed": [
+    "injected",
+    "substitution",
+    "3時 → 4時"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"さんじ\", \"heard\": \"よじ\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "さんじ",
+       "よじ"
+      ]
+     ],
+     "cost": 0.00053325
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "きっかり よじに きてください",
+     "diff": [
+      [
+       "replace",
+       "さん",
+       "よ"
+      ]
+     ],
+     "cost": 0.00010875
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "きっかり よじ に きて ください",
+     "diff": [
+      [
+       "replace",
+       "さん",
+       "よ"
+      ]
+     ],
+     "cost": 8.16e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "きっかりよじにきてください",
+     "diff": [
+      [
+       "replace",
+       "さん",
+       "よ"
+      ]
+     ],
+     "cost": 0.0004258
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/033_26895_ooyasan_ex2_sub",
+   "truth": "injected error: substitution 修理 → 掃除",
+   "truth_parsed": [
+    "injected",
+    "substitution",
+    "修理 → 掃除"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "{\"differences\": [{\"expected\": \"しゅうり\", \"heard\": \"そうじ\"}], \"match\": false}",
+     "diff": [
+      [
+       "replace",
+       "しゅうり",
+       "そうじ"
+      ]
+     ],
+     "cost": 0.00079125
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "おおやさんにそうじをたのんだ",
+     "diff": [
+      [
+       "replace",
+       "しゅ",
+       "そ"
+      ],
+      [
+       "replace",
+       "り",
+       "じ"
+      ]
+     ],
+     "cost": 0.00012075
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "おおやさん に そうじ を たのんだ",
+     "diff": [
+      [
+       "replace",
+       "しゅ",
+       "そ"
+      ],
+      [
+       "replace",
+       "り",
+       "じ"
+      ]
+     ],
+     "cost": 8.76e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "おおやさんにそうじをたのんだ。",
+     "diff": [
+      [
+       "replace",
+       "しゅ",
+       "そ"
+      ],
+      [
+       "replace",
+       "り",
+       "じ"
+      ]
+     ],
+     "cost": 0.00053205
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/095_20845_irochigai_ex3_sub",
+   "truth": "injected error: substitution 三枚 → 二枚",
+   "truth_parsed": [
+    "injected",
+    "substitution",
+    "三枚 → 二枚"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"さんまい\", \"heard\": \"にまい\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "さんまい",
+       "にまい"
+      ]
+     ],
+     "cost": 0.0003135
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "きにいったのでいろちがいでにまいかってしまった",
+     "diff": [
+      [
+       "replace",
+       "さん",
+       "に"
+      ]
+     ],
+     "cost": 0.000156
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "きにいったので　いろちがいで　にまい　かってしまった",
+     "diff": [
+      [
+       "replace",
+       "さん",
+       "に"
+      ]
+     ],
+     "cost": 0.0001122
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "きにいったのでいろちがいでにまいかってしまった",
+     "diff": [
+      [
+       "replace",
+       "さん",
+       "に"
+      ]
+     ],
+     "cost": 0.00041125
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/098_09476_yori_ex2_ins",
+   "truth": "injected error: insertion 私より → 私よりずっと",
+   "truth_parsed": [
+    "injected",
+    "insertion",
+    "私より → 私よりずっと"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"\", \"heard\": \"ずっと\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "",
+       "ずっと"
+      ]
+     ],
+     "cost": 0.000507
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "かれはわたしよりずっとせがたかい",
+     "diff": [
+      [
+       "insert",
+       "",
+       "ずっと"
+      ]
+     ],
+     "cost": 0.00013125
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "かれは わたし より ずっと せが たかい",
+     "diff": [
+      [
+       "insert",
+       "",
+       "ずっと"
+      ]
+     ],
+     "cost": 0.0001032
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "かれはわたしよりずっとせがたかい。",
+     "diff": [
+      [
+       "insert",
+       "",
+       "ずっと"
+      ]
+     ],
+     "cost": 0.0004651
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/035_28490_ginnan_ex2_ins",
+   "truth": "injected error: insertion 茶碗蒸しに → 茶碗蒸しにたくさん",
+   "truth_parsed": [
+    "injected",
+    "insertion",
+    "茶碗蒸しに → 茶碗蒸しにたくさん"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"\", \"heard\": \"たく さん\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "",
+       "たく さん"
+      ]
+     ],
+     "cost": 0.0002955
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "ぎんなんをちゃわんむしにたくさんいれる",
+     "diff": [
+      [
+       "insert",
+       "",
+       "たくさん"
+      ]
+     ],
+     "cost": 0.00015375
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "きんなんを ちゃわんむしに たくさん いれる",
+     "diff": [
+      [
+       "replace",
+       "ぎ",
+       "き"
+      ],
+      [
+       "insert",
+       "",
+       "たくさん"
+      ]
+     ],
+     "cost": 0.0001032
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "きんなんをちゃわんむしにたくさんいれる",
+     "diff": [
+      [
+       "replace",
+       "ぎ",
+       "き"
+      ],
+      [
+       "insert",
+       "",
+       "たくさん"
+      ]
+     ],
+     "cost": 0.00045285
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/079_18008_kiden_ex3_ins",
+   "truth": "injected error: insertion ご健勝 → ご健勝とご活躍",
+   "truth_parsed": [
+    "injected",
+    "insertion",
+    "ご健勝 → ご健勝とご活躍"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ごけんしょうの\", \"heard\": \"ごけんちょうとごかつやくの\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ごけんしょうの",
+       "ごけんちょうとごかつやくの"
+      ]
+     ],
+     "cost": 0.002115
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "きでんにおかれましてはますますごけんちょうとごかつやくのこととおよろこびもうしあげます",
+     "diff": [
+      [
+       "replace",
+       "し",
+       "ち"
+      ],
+      [
+       "insert",
+       "",
+       "とごかつやく"
+      ]
+     ],
+     "cost": 0.00026475
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "きでん に おかれましては ますます ごけんちょう と ごかつやく の こと と およろこび もうしあげます",
+     "diff": [
+      [
+       "replace",
+       "し",
+       "ち"
+      ],
+      [
+       "insert",
+       "",
+       "とごかつやく"
+      ]
+     ],
+     "cost": 0.000171
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "きでんにおかれましては、ますますごけんちょうとごかつやくのこととおよろこびもうしあげます。",
+     "diff": [
+      [
+       "replace",
+       "し",
+       "ち"
+      ],
+      [
+       "insert",
+       "",
+       "とごかつやく"
+      ]
+     ],
+     "cost": 0.00051275
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/091_30702_puripeidokaado_ex3_ins",
+   "truth": "injected error: insertion 持たせている → 毎月持たせている",
+   "truth_parsed": [
+    "injected",
+    "insertion",
+    "持たせている → 毎月持たせている"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"\", \"heard\": \"まいつき\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "",
+       "まいつき"
+      ]
+     ],
+     "cost": 0.00126975
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "こどもにつかいすぎさせたくないのでくれじっとかーどではなくぷりぺいどかーどをまいつきもたせている",
+     "diff": [
+      [
+       "insert",
+       "",
+       "まいつき"
+      ]
+     ],
+     "cost": 0.000282
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こどもにつかいすぎさせたくないので、クレジットカードではなく、プリペイドカードをまいつきもたせている。",
+     "diff": [
+      [
+       "insert",
+       "",
+       "まいつき"
+      ]
+     ],
+     "cost": 0.000168
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "こどもにつかいすぎさせたくないので、くれじっとかーどではなく、ぷりぺいどかーどをまいつきもたせている。",
+     "diff": [
+      [
+       "insert",
+       "",
+       "まいつき"
+      ]
+     ],
+     "cost": 0.00055935
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/019_28066_ikkou_ex1_rep",
+   "truth": "injected error: repetition 到着した → 到着した、到着した",
+   "truth_parsed": [
+    "injected",
+    "repetition",
+    "到着した → 到着した、到着した"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"\", \"heard\": \"とうちゃくした\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "",
+       "とうちゃくした"
+      ]
+     ],
+     "cost": 0.00032175
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "しゃちょーいっこーがとーちゃくしたとーちゃくした",
+     "diff": [
+      [
+       "replace",
+       "う",
+       "お"
+      ],
+      [
+       "replace",
+       "う",
+       "お"
+      ],
+      [
+       "replace",
+       "う",
+       "お"
+      ],
+      [
+       "insert",
+       "",
+       "とおちゃくした"
+      ]
+     ],
+     "cost": 0.0001875
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "しゃちょう いっこう が とうちゃく した。 とうちゃく した。",
+     "diff": [
+      [
+       "insert",
+       "",
+       "とうちゃくした"
+      ]
+     ],
+     "cost": 0.0001188
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "しゃちょういっこうがとうちゃくした。とうちゃくした。",
+     "diff": [
+      [
+       "insert",
+       "",
+       "とうちゃくした"
+      ]
+     ],
+     "cost": 0.00061155
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "flash/control/female/001_11695_konnichi_ex2_rep",
+   "truth": "injected error: repetition 会社が → 会社が、会社が",
+   "truth_parsed": [
+    "injected",
+    "repetition",
+    "会社が → 会社が、会社が"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"\",\n      \"heard\": \"かいしゃが\"\n    },\n    {\n      \"expected\": \"こんにち\",\n      \"heard\": \"きょう\"\n    }\n  ],\n  \"match\": false\n}\n```",
+     "diff": [
+      [
+       "replace",
+       "",
+       "かいしゃが"
+      ],
+      [
+       "replace",
+       "こんにち",
+       "きょう"
+      ]
+     ],
+     "cost": 0.001302
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "かいしゃがかいしゃがきょうまでつづいたのはしゃいんのおかげだ",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "かいしゃがきょう"
+      ]
+     ],
+     "cost": 0.00021225
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "かいしゃが　かいしゃが　きょうまで　つづいたのは　しゃいんの　おかげだ",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "かいしゃがきょう"
+      ]
+     ],
+     "cost": 0.000141
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "かいしゃが、かいしゃがきょうまでつづいたのはしゃいんのおかげだ",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "かいしゃがきょう"
+      ]
+     ],
+     "cost": 0.0006508
+    }
+   ],
+   "accepted": false,
+   "audible": true
+  },
+  {
+   "key": "lite/plain/female/001_11695_konnichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00096825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.0001785
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かいしゃ が こんにち まで つづいた の は しゃいん の おかげ だ",
+     "diff": [],
+     "cost": 0.0001218
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.0006188
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/plain/female/001_11695_konnichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00130725
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.000177
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かいしゃ が こんにち まで つづいた の は しゃいん の おかげ だ",
+     "diff": [],
+     "cost": 0.0001212
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.00120305
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/plain/female/002_30530_nikakete_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00061425
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "こんやからあすのあさにかけでがめがつよまるでしょう",
+     "diff": [
+      [
+       "replace",
+       "てあ",
+       "でが"
+      ]
+     ],
+     "cost": 0.00017925
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "こんやから あすの あさに かけて あめが つよまる でしょう。",
+     "diff": [],
+     "cost": 0.0001212
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう。",
+     "diff": [],
+     "cost": 0.0006633
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/plain/male/036_26786_kuroko_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002685
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.0001815
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かぶきのくろこは ぜんしん くろい いしょうを きている",
+     "diff": [],
+     "cost": 0.0001224
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.00042235
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/plain/female/036_26786_kuroko_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00164025
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.0001845
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かぶきのくろこは ぜんしんくろい いしょうを きている",
+     "diff": [],
+     "cost": 0.0001212
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.00067645
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/plain/male/036_26786_kuroko_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.001143
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.0001815
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かぶきのくろこは ぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.0001134
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.00031805
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/plain/female/092_10293_taguzuke_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00028275
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "いんすたでおみせのあかうんとをたぐづけしてとうこうしたらりぽすとされた",
+     "diff": [],
+     "cost": 0.0002175
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "いんすたで　おみせの　あかうんとを　たぐづけして　とうこう　したら　りぽすと　された",
+     "diff": [],
+     "cost": 0.0001536
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "いんすたでおみせのあかうんとをたぐづけしてとうこうしたらりぽすとされた",
+     "diff": [],
+     "cost": 0.0004576
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/001_11695_konnichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"こんにち\", \"heard\": \"こんにちは\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "こんにちは"
+      ]
+     ],
+     "cost": 0.0009825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.0001935
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かいしゃ が こんにち まで つづいた の は しゃいん の おかげ だ",
+     "diff": [],
+     "cost": 0.0001266
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.0004151
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "flash/kanadict/male/001_11695_konnichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"こんにち\", \"heard\": \"こんにちまで\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "こんにちまで"
+      ]
+     ],
+     "cost": 0.00033
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.00017775
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かいしゃ が こんにち まで つづいた の は しゃいん の おかげ だ",
+     "diff": [],
+     "cost": 0.0001218
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ。",
+     "diff": [],
+     "cost": 0.00040315
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "flash/plain/male/001_11695_konnichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000963
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.0001845
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かいしゃ が こんにち まで つづいた の は しゃいん の おかげ だ",
+     "diff": [],
+     "cost": 0.0001236
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.0004061
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/plain/male/001_11695_konnichi_ex2",
+   "truth": "human: err",
+   "truth_parsed": [
+    "human",
+    "err",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"こんにち\", \"heard\": \"きょう\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "きょう"
+      ]
+     ],
+     "cost": 0.000615
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "かいしゃがきょうまでつづいたのはしゃいんのおかげだ",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "きょう"
+      ]
+     ],
+     "cost": 0.00017475
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "かいしゃ が きょう まで つづいた の は しゃいん の おかげ だ",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "きょう"
+      ]
+     ],
+     "cost": 0.000123
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "かいしゃがきょうまでつづいたのはしゃいんのおかげだ",
+     "diff": [
+      [
+       "replace",
+       "こんにち",
+       "きょう"
+      ]
+     ],
+     "cost": 0.0004193
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "lite/kanadict/female/001_11695_konnichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00028275
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.00019425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かいしゃ が こんにち まで つづいた の は しゃいん の おかげ だ",
+     "diff": [],
+     "cost": 0.0001272
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.000327
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/001_11695_konnichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00028275
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.000195
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かいしゃ が こんにち まで つづいた の は しゃいん の おかげ だ",
+     "diff": [],
+     "cost": 0.0001272
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ。",
+     "diff": [],
+     "cost": 0.00055785
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/plain/male/002_30530_nikakete_ex2",
+   "truth": "human: err",
+   "truth_parsed": [
+    "human",
+    "err",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"あす\", \"heard\": \"あした\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "あす",
+       "あした"
+      ]
+     ],
+     "cost": 0.0005445
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "こんやからあしたのあさにかけてあめがつよまるでしょう",
+     "diff": [
+      [
+       "replace",
+       "す",
+       "した"
+      ]
+     ],
+     "cost": 0.00017325
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こんばんからあしたのあさにかけてあめがつよまるでしょう。",
+     "diff": [
+      [
+       "replace",
+       "や",
+       "ばん"
+      ],
+      [
+       "replace",
+       "す",
+       "した"
+      ]
+     ],
+     "cost": 0.0001104
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "こんやからあしたのあさにかけてあめがつよまるでしょう",
+     "diff": [
+      [
+       "replace",
+       "す",
+       "した"
+      ]
+     ],
+     "cost": 0.00031705
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "flash/kanadict/female/002_30530_nikakete_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00067275
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.0001965
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こんばんわ、あめがつよまるでしょう。",
+     "diff": [
+      [
+       "replace",
+       "やからあすのあさにかけて",
+       "ばんわ"
+      ]
+     ],
+     "cost": 9.9e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.0004514
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/002_30530_nikakete_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00061575
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.00018075
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こんやから あさにかけて あめが つよまる でしょう。",
+     "diff": [
+      [
+       "delete",
+       "あすの",
+       ""
+      ]
+     ],
+     "cost": 0.0001128
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.00041415
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/002_30530_nikakete_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000588
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "こんやからあすのあさにかけで　あめがつよまるでしょう",
+     "diff": [
+      [
+       "replace",
+       "て",
+       "で"
+      ]
+     ],
+     "cost": 0.000198
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "こんやから あすの あさに かけて あめが つよまる でしょう。",
+     "diff": [],
+     "cost": 0.0001236
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけて、あめがつよまるでしょう。",
+     "diff": [],
+     "cost": 0.00057815
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/002_30530_nikakete_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00066975
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.000186
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こんばんわ、あすのあさにかけて、あめがつよまるでしょう。",
+     "diff": [
+      [
+       "replace",
+       "やから",
+       "ばんわ"
+      ]
+     ],
+     "cost": 0.0001194
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.00054165
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict~r1/male/028_07459_ichigen_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.001236
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "しょうかいがないと いちげんでは はいれない りょうていだ",
+     "diff": [],
+     "cost": 0.00018
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "しょうかいがないと いちげんでは はいれない りょうていだ",
+     "diff": [],
+     "cost": 0.0001188
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "しょうかいがないといちげんでははいれないりょうていだ",
+     "diff": [],
+     "cost": 0.00040095
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/029_08809_nanibun_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002385
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "なにぶんよろしくおねがいします",
+     "diff": [],
+     "cost": 0.00011775
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "I'm sorry, but I can't assist with that. Let me know if there's something else I can help you with.",
+     "diff": [
+      [
+       "replace",
+       "なにぶんよろしく",
+       "あいえむえす"
+      ],
+      [
+       "replace",
+       "ねが",
+       "おああるああるわいびいゆうてぃいあ"
+      ],
+      [
+       "replace",
+       "ま",
+       "いえええぬてぃいえええ"
+      ],
+      [
+       "insert",
+       "",
+       "えすあいえすてぃいだぶりゅうあいてぃいえいちてぃいえいちええてぃいえるいいてぃいえむいいけええぬおおだぶりゅうあいえふてぃいえいちいいああるいいえすえすおおえむいいてぃいえいちあいえぬじいいいえるえすいいあいしいえええぬえいちいいえるぴいわいおおゆうだぶりゅうあいてぃいえいち"
+      ]
+     ],
+     "cost": 0.000111
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "なにぶんよろしくおねがいします。",
+     "diff": [],
+     "cost": 0.00049655
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/043_19365_aruji_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00071175
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "みせのあるじがみずからりょうりをはこんできた",
+     "diff": [],
+     "cost": 0.000168
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "みせのあるじが　みずから　りょうりを　はこんできた",
+     "diff": [],
+     "cost": 0.0001104
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "みせのあるじがみずからりょうりをはこんできた",
+     "diff": [],
+     "cost": 0.00037175
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict~r2/female/045_02987_watakushi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0006975
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "わたくしのいけんをのべます",
+     "diff": [],
+     "cost": 0.00011775
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "わたしの いけんを のべます。",
+     "diff": [
+      [
+       "delete",
+       "く",
+       ""
+      ]
+     ],
+     "cost": 8.46e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "わたくしのいけんをのべます",
+     "diff": [],
+     "cost": 0.0005331
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/047_02934_hatsuka_ex8",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00062625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "はつかまでにおとどけします",
+     "diff": [],
+     "cost": 0.00011775
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "はっかまでにおとどけします",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "っ"
+      ]
+     ],
+     "cost": 7.74e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "20日までにお届けします",
+     "diff": [],
+     "cost": 0.0002253
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict~r1/male/047_02934_hatsuka_ex8",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000405
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "はつかまでにおとどけします",
+     "diff": [],
+     "cost": 0.000114
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "はっかまでに　おとどけします",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "っ"
+      ]
+     ],
+     "cost": 7.86e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "はつかまでにおとどけします。",
+     "diff": [],
+     "cost": 0.0006506
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/054_26262_sokuseki_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00125025
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このけんきゅうしゃはかがくのはってんにおおきなそくせきをのこした",
+     "diff": [],
+     "cost": 0.000219
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "このけんきゅうしゃは　かがくの　はってんに　おおきな　そくせきを　のこした",
+     "diff": [],
+     "cost": 0.0001464
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このけんきゅうしゃはかがくのはってんにおおきなそくせきをのこした",
+     "diff": [],
+     "cost": 0.00044635
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/056_13000_tsukigime_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00065625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "つきぎめちゅうしゃじょうをかりた",
+     "diff": [],
+     "cost": 0.0001275
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "すきにめ ちゅうしゃじょう を かりた",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "す"
+      ],
+      [
+       "replace",
+       "ぎ",
+       "に"
+      ]
+     ],
+     "cost": 9.24e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "つきぎめちゅうしゃじょうをかりた",
+     "diff": [],
+     "cost": 0.0007862
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/058_29264_nijimidasu_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000582
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ひたいにあせがにじみだす",
+     "diff": [],
+     "cost": 0.00012525
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "したいに あせが にじみだす",
+     "diff": [
+      [
+       "replace",
+       "ひ",
+       "し"
+      ]
+     ],
+     "cost": 8.1e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ひたいにあせがにじみだす",
+     "diff": [],
+     "cost": 0.0004885
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/062_21132_kikkari_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000591
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "きっかり さんじに きてください",
+     "diff": [],
+     "cost": 0.000114
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "かり さんじ に きて ください",
+     "diff": [
+      [
+       "delete",
+       "きっ",
+       ""
+      ]
+     ],
+     "cost": 7.86e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "きっかりさんじにきてください",
+     "diff": [],
+     "cost": 0.0005533
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict~r2/male/074_02845_iie_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00023775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "すみません いえ だいじょうぶ です",
+     "diff": [
+      [
+       "delete",
+       "い",
+       ""
+      ]
+     ],
+     "cost": 0.0001425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "すみません いえ だいじょうぶ です",
+     "diff": [
+      [
+       "delete",
+       "い",
+       ""
+      ]
+     ],
+     "cost": 9.36e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "すみません。いえ、だいじょうぶです。",
+     "diff": [
+      [
+       "delete",
+       "い",
+       ""
+      ]
+     ],
+     "cost": 0.00042955
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "flash/kanadict~r1/female/099_03991_yuge_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ゆげ\", \"heard\": \"よげ\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ゆげ",
+       "よげ"
+      ]
+     ],
+     "cost": 0.000345
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
+     "diff": [],
+     "cost": 0.0001965
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "らーめんから　ゆげが　たちのぼって　とても　おいしそうだった",
+     "diff": [],
+     "cost": 0.000129
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
+     "diff": [],
+     "cost": 0.00043515
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "lite/kanadict/female/003_27453_myounichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00054825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "みょうにちのかいぎはじゅうじからです",
+     "diff": [],
+     "cost": 0.00013875
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "みょうにちの かいぎは じゅうじ から です",
+     "diff": [],
+     "cost": 0.0001032
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "あしたのかいぎはじゅうじからです。",
+     "diff": [
+      [
+       "replace",
+       "みょうにち",
+       "あした"
+      ]
+     ],
+     "cost": 0.0008468
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/023_29953_shoubaihanjou_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000714
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
+     "diff": [],
+     "cost": 0.00019875
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "この じんじゃ は しょうばい はんじょう の ごりゃく で ゆうめい だ",
+     "diff": [
+      [
+       "replace",
+       "や",
+       "ゃ"
+      ]
+     ],
+     "cost": 0.0001368
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
+     "diff": [],
+     "cost": 0.0004413
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/023_29953_shoubaihanjou_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00096225
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
+     "diff": [],
+     "cost": 0.00019275
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "この じんじゃ は しょうばい はんじょう の ごりゃく で ゆうめい だ",
+     "diff": [
+      [
+       "replace",
+       "や",
+       "ゃ"
+      ]
+     ],
+     "cost": 0.000135
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
+     "diff": [],
+     "cost": 0.0004353
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/025_19257_ichimokuoku_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000291
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "せんぱいたちもかのじょのじつりょくにはいちもくおいている",
+     "diff": [],
+     "cost": 0.00020925
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "せんぱいたちも かのじょの じつりょくには いちもく おいている",
+     "diff": [],
+     "cost": 0.0001344
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "せんぱいたちもかのじょのじつりょくにはいちもくおいている",
+     "diff": [],
+     "cost": 0.00044435
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict~r1/male/036_26786_kuroko_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00027675
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.000189
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かぶきのくろこは ぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.0001158
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.0006622
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/045_02987_watakushi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00024675
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "わたくし の いけん を のべます",
+     "diff": [],
+     "cost": 0.00013575
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "わたくしの いけんを のべます。",
+     "diff": [],
+     "cost": 9.12e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "わたくしのいけんをのべます",
+     "diff": [],
+     "cost": 0.00046305
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict~r1/female/058_29264_nijimidasu_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002325
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ひたいにあせがにじみだす",
+     "diff": [],
+     "cost": 0.00012075
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "n/a",
+     "text": "わかりました。音声を聞いて、発音された内容をそのままひらがなで書き起こします。以下がその文字起こしです。\n\nひたいに あせが にじみだす",
+     "diff": [],
+     "cost": 0.0001704
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ひたいにあせがにじみだす",
+     "diff": [],
+     "cost": 0.0004349
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict~r2/female/073_04011_naninani_ex9",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00028725
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "いいことおしえてあげる なになにはやくおしえて",
+     "diff": [],
+     "cost": 0.0001845
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "いいこと　おしえて　あげる　なになに　はやく　おしえて",
+     "diff": [],
+     "cost": 0.0001212
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "いいことおしえてあげる。なになに？はやくおしえて！",
+     "diff": [],
+     "cost": 0.0005831
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/073_04011_naninani_ex9",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0005505
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "いいことおしえてあげるなになにはやくおしえて",
+     "diff": [],
+     "cost": 0.00019575
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "いいこと　おしえて　あげる  \nなになに？　はやく　おしえて？",
+     "diff": [],
+     "cost": 0.0001296
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "いいことおしえてあげる。なになに？はやくおしえて！",
+     "diff": [],
+     "cost": 0.00043815
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict~r1/female/074_02845_iie_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00026925
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "すみませんいいえだいじょうぶです",
+     "diff": [],
+     "cost": 0.0001515
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "すみません いいえ だいじょうぶ です",
+     "diff": [],
+     "cost": 9.78e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "すみません。いえ、だいじょうぶです。",
+     "diff": [
+      [
+       "delete",
+       "い",
+       ""
+      ]
+     ],
+     "cost": 0.0004395
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict~r3/male/074_02845_iie_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00026775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "すみませんいいえだいじょうぶです",
+     "diff": [],
+     "cost": 0.00015
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "すみません いえ だいじょうぶ です",
+     "diff": [
+      [
+       "delete",
+       "い",
+       ""
+      ]
+     ],
+     "cost": 9.72e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "すみません。いいえ、だいじょうぶです。",
+     "diff": [],
+     "cost": 0.00047395
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict~r1/female/081_23425_eeto_ex2",
+   "truth": "human: ok - The ええと sounds like ええとお, which is probably how people actually say it (especially with the following comma) but is not strictly what the hiragana show.",
+   "truth_parsed": [
+    "human",
+    "ok",
+    "The ええと sounds like ええとお, which is probably how people actually say it (especially with the following comma) but is not strictly what the hiragana show."
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00026775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "えーと つぎ は なん でしたっけ",
+     "diff": [],
+     "cost": 0.000159
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "えーと、つぎはなんでしたっけ",
+     "diff": [],
+     "cost": 9.06e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "えーと、つぎはなんでしたっけ？",
+     "diff": [],
+     "cost": 0.00028965
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/081_23425_eeto_ex2",
+   "truth": "human: ok - The ええと sounds like ええとお, which is probably how people actually say it (especially with the following comma) but is not strictly what the hiragana show.",
+   "truth_parsed": [
+    "human",
+    "ok",
+    "The ええと sounds like ええとお, which is probably how people actually say it (especially with the following comma) but is not strictly what the hiragana show."
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00025275
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "えーっと つぎ は なん でしたっけ",
+     "diff": [
+      [
+       "insert",
+       "",
+       "っ"
+      ]
+     ],
+     "cost": 0.000144
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "えーと、つぎはなんでしたっけ",
+     "diff": [],
+     "cost": 8.58e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "えと、つぎはなんでしたっけ？",
+     "diff": [
+      [
+       "delete",
+       "え",
+       ""
+      ]
+     ],
+     "cost": 0.0003587
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "flash/allkana/male/001_11695_konnichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000786
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
+     "diff": [],
+     "cost": 0.00018
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かいしゃ が こんにち まで つづいた の は しゃいん の おかげ だ",
+     "diff": [],
+     "cost": 0.0001224
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かいしゃがこんにちまでつづいたのは、しゃいんのおかげだ。",
+     "diff": [],
+     "cost": 0.0010653
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/female/002_30530_nikakete_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000792
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.00018825
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "こんやから あすの あさに かけて あめが つよまる でしょう",
+     "diff": [],
+     "cost": 0.0001224
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.00042215
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana~r4/male/002_30530_nikakete_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00027225
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "こんやからあすのあさにかけであめがつよまるでしょう",
+     "diff": [
+      [
+       "replace",
+       "て",
+       "で"
+      ]
+     ],
+     "cost": 0.0001785
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.0001122
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.00041215
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/male/016_28020_monaka_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0007905
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このみせのもなかはかわがぱりぱりでおいしい",
+     "diff": [],
+     "cost": 0.000174
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "この みせ の もなか は かわ が ぱりぱり で おいしい",
+     "diff": [],
+     "cost": 0.0001194
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このみせのモナカはかわがパリパリでおいしい！",
+     "diff": [],
+     "cost": 0.0010308
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/male/023_29953_shoubaihanjou_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00114225
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
+     "diff": [],
+     "cost": 0.000189
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "この じんじゃ は しょうばい はんじょう の ごりゃく で ゆうめい だ",
+     "diff": [
+      [
+       "replace",
+       "や",
+       "ゃ"
+      ]
+     ],
+     "cost": 0.0001338
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このじんじゃは、しょうばいはんじょうのごりやくでゆうめいだ。",
+     "diff": [],
+     "cost": 0.0004394
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/female/029_08809_nanibun_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0005535
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "なにぶんよろしくおねがいします",
+     "diff": [],
+     "cost": 0.000114
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "n/a",
+     "text": "かしこまりました。音声を再生していただければ、その内容をひらがなで正確に書き起こします。準備ができましたら、音声をお聞かせください。",
+     "diff": [],
+     "cost": 0.0001698
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "なにぶんよろしくおねがいします",
+     "diff": [],
+     "cost": 0.00064645
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/male/029_08809_nanibun_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00021225
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "なにぶんよろしくおねがいします",
+     "diff": [],
+     "cost": 0.00011025
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "I'm sorry, but I can't assist with that. Let me know if there's something else I can help you with.",
+     "diff": [
+      [
+       "replace",
+       "なにぶんよろしく",
+       "あいえむえす"
+      ],
+      [
+       "replace",
+       "ねが",
+       "おああるああるわいびいゆうてぃいあ"
+      ],
+      [
+       "replace",
+       "ま",
+       "いえええぬてぃいえええ"
+      ],
+      [
+       "insert",
+       "",
+       "えすあいえすてぃいだぶりゅうあいてぃいえいちてぃいえいちええてぃいえるいいてぃいえむいいけええぬおおだぶりゅうあいえふてぃいえいちいいああるいいえすえすおおえむいいてぃいえいちあいえぬじいいいえるえすいいあいしいえええぬえいちいいえるぴいわいおおゆうだぶりゅうあいてぃいえいち"
+      ]
+     ],
+     "cost": 0.0001086
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "なにぶんよろしくおねがいします。",
+     "diff": [],
+     "cost": 0.00042375
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/female/045_02987_watakushi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0006405
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "わたくしのいけんをのべます",
+     "diff": [],
+     "cost": 0.00012075
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "わたしの いけんを のべます。",
+     "diff": [
+      [
+       "delete",
+       "く",
+       ""
+      ]
+     ],
+     "cost": 8.52e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "わたくしのいけんをのべます",
+     "diff": [],
+     "cost": 0.00048345
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/male/045_02987_watakushi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00023475
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "わたくしのいけんをのべます",
+     "diff": [],
+     "cost": 0.00012
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "わたしの いけんを のべます。",
+     "diff": [
+      [
+       "delete",
+       "く",
+       ""
+      ]
+     ],
+     "cost": 8.52e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "わたくしのいけんをのべます。",
+     "diff": [],
+     "cost": 0.0004541
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/female/047_02934_hatsuka_ex8",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00023175
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "はつかまでにおとどけします",
+     "diff": [],
+     "cost": 0.000117
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "はっかまでにおとどけします",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "っ"
+      ]
+     ],
+     "cost": 7.68e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "はつかまでにおとどけします",
+     "diff": [],
+     "cost": 0.00073865
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/male/056_13000_tsukigime_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00056775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "つきぎめちゅうしゃじょうをかりた",
+     "diff": [],
+     "cost": 0.000129
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "すききめ ちゅうしゃじょう を かりた",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "す"
+      ],
+      [
+       "replace",
+       "ぎ",
+       "き"
+      ]
+     ],
+     "cost": 9.3e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "つきぎめちゅうしゃじょうをかりた",
+     "diff": [],
+     "cost": 0.00072745
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana/male/058_29264_nijimidasu_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002385
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ひたい に あせ が にじみだす",
+     "diff": [],
+     "cost": 0.0001305
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "n/a",
+     "text": "わかりました。音声を聞いて、そのままの発音でひらがなで書き起こします。以下がその文字起こしです。\n\nひたいに あせが にじみだす",
+     "diff": [],
+     "cost": 0.000168
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ひたいにあせがにじみだす",
+     "diff": [],
+     "cost": 0.0004409
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana~r2/male/064_08827_manyoushuu_ex1",
+   "truth": "human: err - には was read niha rather than correct niwa. This seems to be a case in which the particle は might need to be presented in prompts as わ.",
+   "truth_parsed": [
+    "human",
+    "err",
+    "には was read niha rather than correct niwa. This seems to be a case in which the particle は might need to be presented in prompts as わ."
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"わ\",\n      \"heard\": \"\"\n    },\n    {\n      \"expected\": \"やく\",\n      \"heard\": \"はやく\"\n    }\n  ],\n  \"match\": false\n}\n```",
+     "diff": [
+      [
+       "replace",
+       "わ",
+       ""
+      ],
+      [
+       "replace",
+       "やく",
+       "はやく"
+      ]
+     ],
+     "cost": 0.0025125
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "まんようしゅうにはやくよんせんごひゃくしゅのうたがある",
+     "diff": [],
+     "cost": 0.00020325
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "まんようしゅう に はやく よんせん ごひゃくしゅ の うた が ある",
+     "diff": [],
+     "cost": 0.0001332
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "まんようしゅうに、はやく、よんせんごひゃくしゅのうたがある。",
+     "diff": [],
+     "cost": 0.00075015
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "flash/allkana~r1/female/081_23425_eeto_ex2",
+   "truth": "human: unsure - The ええと sounds like ええとお, which is probably how people actually say it (especially with the following comma) but is not strictly what the hiragana show.",
+   "truth_parsed": [
+    "human",
+    "unsure",
+    "The ええと sounds like ええとお, which is probably how people actually say it (especially with the following comma) but is not strictly what the hiragana show."
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000567
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "えーっとつぎはなんでしたっけ",
+     "diff": [
+      [
+       "insert",
+       "",
+       "っ"
+      ]
+     ],
+     "cost": 0.000147
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "えーと　つぎは　なんでしたっけ",
+     "diff": [],
+     "cost": 9e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "えーと、つぎはなんでしたっけ？",
+     "diff": [],
+     "cost": 0.00045885
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/allkana~r4/male/081_23425_eeto_ex2",
+   "truth": "human: unsure - The ええと sounds like ええとお, which is probably how people actually say it (especially with the following comma) but is not strictly what the hiragana show.",
+   "truth_parsed": [
+    "human",
+    "unsure",
+    "The ええと sounds like ええとお, which is probably how people actually say it (especially with the following comma) but is not strictly what the hiragana show."
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000567
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "えーっと つぎわ なんでしたっけ",
+     "diff": [
+      [
+       "insert",
+       "",
+       "っ"
+      ],
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.0001395
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "えーと、つぎはなんでしたっけ？",
+     "diff": [],
+     "cost": 8.64e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "えーと、つぎはなんでしたっけ？",
+     "diff": [],
+     "cost": 0.00078705
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/003_27453_myounichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00024825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "みょうにちのかいぎはじゅうじからです",
+     "diff": [],
+     "cost": 0.00013875
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "みょうにちの かいぎは じゅうじ から です。",
+     "diff": [],
+     "cost": 0.0001056
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "みょうにちのかいぎはじゅうじからです。",
+     "diff": [],
+     "cost": 0.00085895
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/008_27454_sakujitsu_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000282
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "さくじつそうりだいじんはきしゃかいけんをおこなった",
+     "diff": [],
+     "cost": 0.0001875
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "さくじつ、そうりだいじんは、きしゃかいけんを、おこなった。",
+     "diff": [],
+     "cost": 0.0001272
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "さくじつ、そうりだいじんはきしゃかいけんをおこなった。",
+     "diff": [],
+     "cost": 0.00043735
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/009_00092_hashigo_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0009825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ゆうべ は ともだち と はしござけ を した",
+     "diff": [],
+     "cost": 0.000153
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "ゆうべは ともだちと はしごだけを した",
+     "diff": [
+      [
+       "replace",
+       "ざ",
+       "だ"
+      ]
+     ],
+     "cost": 9.84e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ゆうべはともだちとはしござけをした",
+     "diff": [],
+     "cost": 0.0003598
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/012_00635_juuichigatsu_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0005085
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "じゅういちがつは もみじが きれいです",
+     "diff": [],
+     "cost": 0.00015225
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "じゅういちがつは　もみじが　きれいです",
+     "diff": [],
+     "cost": 0.0001038
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "じゅういちがつはもみじがきれいです。",
+     "diff": [],
+     "cost": 0.0008011
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/017_10340_sanaka_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002565
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "なつのさなかにていでんがおきた",
+     "diff": [],
+     "cost": 0.0001455
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "なつのさかに ていでんが おきた",
+     "diff": [
+      [
+       "delete",
+       "な",
+       ""
+      ]
+     ],
+     "cost": 9.72e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "なつのさなかにていでんがおきた。",
+     "diff": [],
+     "cost": 0.00062695
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/021_20494_mokka_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00068325
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "もっかのかだいはひとでぶそくだ",
+     "diff": [],
+     "cost": 0.0001395
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "もっかの かだい は ひとで ぶそくだ",
+     "diff": [],
+     "cost": 9.84e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "きのしたのかだいはひとでぶそくだ。",
+     "diff": [
+      [
+       "replace",
+       "もっか",
+       "きのした"
+      ]
+     ],
+     "cost": 0.00056025
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/021_20494_mokka_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00024825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "もっかの　かだいは　ひとでぶそくだ",
+     "diff": [],
+     "cost": 0.000162
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "もっかの かだい は ひとで ぶそくだ",
+     "diff": [],
+     "cost": 9.84e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "もっかのかだいは、ひとでぶそくだ。",
+     "diff": [],
+     "cost": 0.0009612
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/022_20909_doujouteki_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00025875
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "せろんわひがいしゃにどうじょうてきだった",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.000156
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "せろん　は　きがいしゃ　に　どうじょうてき　だった",
+     "diff": [
+      [
+       "replace",
+       "ひ",
+       "き"
+      ]
+     ],
+     "cost": 0.0001062
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "せろんはひがいしゃにどうじょうてきだった。",
+     "diff": [],
+     "cost": 0.0005743
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/023_29953_shoubaihanjou_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00028275
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
+     "diff": [],
+     "cost": 0.000192
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "この じんじゃ は しょうばい はんじょう の ごりゃく で ゆうめい だ",
+     "diff": [
+      [
+       "replace",
+       "や",
+       "ゃ"
+      ]
+     ],
+     "cost": 0.0001344
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ。",
+     "diff": [],
+     "cost": 0.00043835
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/025_19257_ichimokuoku_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00027
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "せんぱいたちもかのじょのじつりょくにはいちもくおいている",
+     "diff": [],
+     "cost": 0.00018825
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "せんぱいたちも かのじょの じつりょくには いちもく おいている",
+     "diff": [],
+     "cost": 0.0001272
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "せんぱいたちもかのじょのじつりょくにはいちもくおいている",
+     "diff": [],
+     "cost": 0.00046285
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/028_07459_ichigen_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000267
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "しょうかいがないといちげんでははいれないりょうていだ",
+     "diff": [],
+     "cost": 0.00016725
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "しょうかいがないと いちげんでは はいれない りょうてい だ。",
+     "diff": [],
+     "cost": 0.0001206
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "しょうかいがないといちげんでははいれないようていだ",
+     "diff": [
+      [
+       "replace",
+       "りょ",
+       "よ"
+      ]
+     ],
+     "cost": 0.0003798
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/032_30278_hantaihoukou_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00237975
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "みちをまちがえてえきとははんたいほうこうにじゅっぷんもあるいてしまった",
+     "diff": [],
+     "cost": 0.0002295
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "みちをまちがえて えきとは はんたいほうこうに じゅっぷんも あるいてしまった",
+     "diff": [],
+     "cost": 0.000144
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "みちをまちがえてえきとはんたいほうこうにじゅっぷんもあるいてしまった",
+     "diff": [
+      [
+       "delete",
+       "は",
+       ""
+      ]
+     ],
+     "cost": 0.00045425
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/032_30278_hantaihoukou_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000759
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "みちをまちがえてえきとははんたいほうこうにじゅっぷんもあるいてしまった",
+     "diff": [],
+     "cost": 0.000225
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "みちをまちがえて えきとは はんたいほうこうに じゅっぷんも あるいてしまった",
+     "diff": [],
+     "cost": 0.0001428
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "みちをまちがえて、えきとははんたいほうこうにじゅっぷんもあるいてしまった。",
+     "diff": [],
+     "cost": 0.0004614
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/035_28490_ginnan_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00025275
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ぎんなんをちゃわんむしにいれる",
+     "diff": [],
+     "cost": 0.000144
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "ぎんなんを ちゃばんむしに いれる",
+     "diff": [
+      [
+       "replace",
+       "わ",
+       "ば"
+      ]
+     ],
+     "cost": 9.06e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ぎんなんをちゃわんむしにいれる",
+     "diff": [],
+     "cost": 0.00054905
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/037_26231_kagerou_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0003885
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かげろうは いちにちしか いきられない",
+     "diff": [],
+     "cost": 0.00014175
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "かんえろう は いちにち しか いきられない",
+     "diff": [
+      [
+       "replace",
+       "げ",
+       "んえ"
+      ]
+     ],
+     "cost": 0.0001056
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かげろうは、いちにちしかいきられない。",
+     "diff": [],
+     "cost": 0.000465
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/041_10587_yorisou_ex6",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002985
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "つらいときによりそってくれるひとがいるのはほんとうにありがたい",
+     "diff": [],
+     "cost": 0.000201
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "つらいときに よりとってくれる ひとがいるのは ほんとうに ありがたい",
+     "diff": [
+      [
+       "replace",
+       "そ",
+       "と"
+      ]
+     ],
+     "cost": 0.000135
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "つらいときによりそってくれるひとがいるのはほんとうにありがたい",
+     "diff": [],
+     "cost": 0.00044825
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/050_10082_minamo_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000804
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "つきがみなもにうつってうつくしかった",
+     "diff": [],
+     "cost": 0.000144
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "すき が みなも に うつって うつくしかった",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "す"
+      ]
+     ],
+     "cost": 0.0001026
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "つきがみなもにうつってうつくしかった",
+     "diff": [],
+     "cost": 0.000383
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/051_03458_toshitsuki_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000432
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ながいとしつきがたった",
+     "diff": [],
+     "cost": 0.00011625
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "ながい じかんが たった",
+     "diff": [
+      [
+       "replace",
+       "としつき",
+       "じかん"
+      ]
+     ],
+     "cost": 7.92e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ながいとしつきがたった。",
+     "diff": [],
+     "cost": 0.00040545
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/057_28376_too_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00115875
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "むすこはとうになった",
+     "diff": [
+      [
+       "replace",
+       "お",
+       "う"
+      ]
+     ],
+     "cost": 0.0001125
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "むすこ は とう に なった",
+     "diff": [
+      [
+       "replace",
+       "お",
+       "う"
+      ]
+     ],
+     "cost": 7.68e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "むすこは、とうになった。",
+     "diff": [
+      [
+       "replace",
+       "お",
+       "う"
+      ]
+     ],
+     "cost": 0.0004905
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/064_08827_manyoushuu_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"わ\", \"heard\": \"は\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "わ",
+       "は"
+      ]
+     ],
+     "cost": 0.00161925
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "まんようしゅうにはやくよんせんごひゃくしゅのうたがある",
+     "diff": [],
+     "cost": 0.000195
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "まいようしゅうには　やく　よんせんごひゃくしゅの　うたが　ある",
+     "diff": [
+      [
+       "replace",
+       "ん",
+       "い"
+      ]
+     ],
+     "cost": 0.0001332
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "まんようしゅうには、やくよんせんごひゃくしゅのうたがある。",
+     "diff": [],
+     "cost": 0.0007614
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "flash/kanadict/female/066_00005_appu_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000291
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "うりあげがぜんねんよりにじゅっパーセントアップした",
+     "diff": [],
+     "cost": 0.000198
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "うりあげが ぜんねんより にじゅっパーセント あっぷ した",
+     "diff": [],
+     "cost": 0.0001272
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "うりあげがぜんねんよりにじゅうぱーせんとあっぷした",
+     "diff": [
+      [
+       "replace",
+       "っ",
+       "う"
+      ]
+     ],
+     "cost": 0.0009587
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/066_00005_appu_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000291
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "うりあげが ぜんねんより にじゅっぱーせんと あっぷした",
+     "diff": [],
+     "cost": 0.0001905
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "うりあげ が ぜんねん より にじゅっパーセント あっぷ した",
+     "diff": [],
+     "cost": 0.0001236
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "うりあげがぜんねんよりにじゅっぱーせんとあっぷした。",
+     "diff": [],
+     "cost": 0.0007686
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/070_24762_shinteishi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0003
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "しんていしのばあいはすぐにえーいーでぃーをしようしてください",
+     "diff": [],
+     "cost": 0.0002175
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "しんてんしのばあいは　すぐに　えーいーでぃーを　しよう　してください",
+     "diff": [
+      [
+       "replace",
+       "い",
+       "ん"
+      ]
+     ],
+     "cost": 0.0001428
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "しんていしのばあいはすぐにえーいーでぃーをしようしてください",
+     "diff": [],
+     "cost": 0.00044115
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/071_07758_tiipiioo_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00072525
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "てぃーぴーおーをかんがえてこうどうしなさい",
+     "diff": [],
+     "cost": 0.00015825
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "でぃーびーおーを かんがえて こうどうしなさい",
+     "diff": [
+      [
+       "replace",
+       "て",
+       "で"
+      ],
+      [
+       "replace",
+       "ぴ",
+       "び"
+      ]
+     ],
+     "cost": 0.0001056
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ティーピーオーをかんがえてこうどうしなさい",
+     "diff": [],
+     "cost": 0.0006534
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/082_05432_jan_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000249
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "それ たかい じゃん かえないよ",
+     "diff": [],
+     "cost": 0.000126
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "それ たかい じゃん かえない よ",
+     "diff": [],
+     "cost": 8.94e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "それたかいじゃん、かえないよ",
+     "diff": [],
+     "cost": 0.000704
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/083_16617_tteiuka_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00028575
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "おもしろかったっていうかかんどうしたっていったほうがいいかな",
+     "diff": [],
+     "cost": 0.00018525
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "おもしろかった　っていうか　かんどうした　って　いったほうが　いいかな",
+     "diff": [],
+     "cost": 0.0001266
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "おもしろかったっていうかかんどうしたっていったほうがいいかな",
+     "diff": [],
+     "cost": 0.0004231
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/female/085_27385_shingaasonguraitaa_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000984
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "らいぶはうすでえんそうをつづけながらじさくのきょくをみがいてきたしんがあそんぐらいたあがついにめじゃあでびゅうをはたした",
+     "diff": [],
+     "cost": 0.00039675
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "ないぶはうすでえんそうをつづけながら　じたくのきょくをみがいてきた　しんがーそんぐらいたーが　ついにめじゃーでびゅーをはたした",
+     "diff": [
+      [
+       "replace",
+       "ら",
+       "な"
+      ],
+      [
+       "replace",
+       "さ",
+       "た"
+      ]
+     ],
+     "cost": 0.0002328
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "らいぶはうすでえんそうをつづけながらじさくのきょくをみがいてきたしんがーそんぐらいたーがついにめじゃーでびゅーをはたした",
+     "diff": [],
+     "cost": 0.0006497
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/088_24064_tsuitotsujiko_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0010395
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "あめでぶれーきがききにくくなりまえのくるまについとつじこをおこしてしまったうんてんしゅがけいさつにじじょうをせつめいしている",
+     "diff": [],
+     "cost": 0.000363
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "あめで ぶれーきが ききにくくなり、まえの くるまに ついとつじこを おこしてしまった うんてんしゅが けいさつに じじょうを せつめいしている",
+     "diff": [],
+     "cost": 0.000246
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "あめでぶれーきがききにくくなり、まえのくるまについとつじこをおこしてしまったうんてんしが、けいさつにじじょうをせつめいしている。",
+     "diff": [
+      [
+       "delete",
+       "ゅ",
+       ""
+      ]
+     ],
+     "cost": 0.000646
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/092_10293_taguzuke_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0012285
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "いんすたでおみせのあかうんとをたぐづけしてとうこうしたらりぽすとされた",
+     "diff": [],
+     "cost": 0.000222
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "いんすたで　おみせの　あかうんとを　たぐづけして　とうこう　したら　りぽーと　された",
+     "diff": [
+      [
+       "replace",
+       "す",
+       "お"
+      ]
+     ],
+     "cost": 0.0001548
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "いんすたでおみせのあかうんとをたぐづけしてとうこうしたら、りぽすとされた。",
+     "diff": [],
+     "cost": 0.00062865
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict~r2/female/099_03991_yuge_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00028725
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
+     "diff": [],
+     "cost": 0.00019125
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "だーめんから　ゆーげが　たちのぼって　とても　おいしそうだった",
+     "diff": [
+      [
+       "replace",
+       "ら",
+       "だ"
+      ],
+      [
+       "insert",
+       "",
+       "う"
+      ]
+     ],
+     "cost": 0.0001296
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
+     "diff": [],
+     "cost": 0.00042915
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "flash/kanadict/male/099_03991_yuge_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0002565
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
+     "diff": [],
+     "cost": 0.00017925
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "だーめんから ゆげが たちのぼって とても おいそうだった",
+     "diff": [
+      [
+       "replace",
+       "ら",
+       "だ"
+      ],
+      [
+       "delete",
+       "し",
+       ""
+      ]
+     ],
+     "cost": 0.0001164
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
+     "diff": [],
+     "cost": 0.00041615
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/003_27453_myounichi_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0005895
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "みょうにちのかいぎはじゅうじからです",
+     "diff": [],
+     "cost": 0.00014625
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "みょうにちの かいぎは じゅうじ から です。",
+     "diff": [],
+     "cost": 0.000108
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "あしたのかいぎは、じゅうじからです。",
+     "diff": [
+      [
+       "replace",
+       "みょうにち",
+       "あした"
+      ]
+     ],
+     "cost": 0.0008062
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/009_00092_hashigo_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002685
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ゆうべはともだちとはしござけをした",
+     "diff": [],
+     "cost": 0.000159
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ゆうべは ともだちと はしござけを した",
+     "diff": [],
+     "cost": 0.000105
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ゆうべはともだちとはしござけをした。",
+     "diff": [],
+     "cost": 0.0006987
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/012_00635_juuichigatsu_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00024825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "じゅういちがつはもみじがれいです",
+     "diff": [
+      [
+       "delete",
+       "き",
+       ""
+      ]
+     ],
+     "cost": 0.0001395
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "じゅういちがつは もみじが きれいです。",
+     "diff": [],
+     "cost": 0.0001032
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "じゅういちがつはもみじがきれいです。",
+     "diff": [],
+     "cost": 0.00053595
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/012_00635_juuichigatsu_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000888
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "じゅういちがつはもみじがきれいdesi",
+     "diff": [
+      [
+       "insert",
+       "",
+       "ぃいいいえ"
+      ],
+      [
+       "insert",
+       "",
+       "あい"
+      ]
+     ],
+     "cost": 0.00015375
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "じゅういちがつは もみじが きれいです。",
+     "diff": [],
+     "cost": 0.000108
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "じゅういちがつはもみじがきれいです。",
+     "diff": [],
+     "cost": 0.00053375
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/013_12617_shinjuu_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000666
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ちかまつのしんじゅうものはゆうめいだ",
+     "diff": [],
+     "cost": 0.00014325
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ちかまつのしんじゅうものは ゆうめいだ",
+     "diff": [],
+     "cost": 0.0001008
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "しかまつのしんじゅうものはゆうめいだ",
+     "diff": [
+      [
+       "replace",
+       "ち",
+       "し"
+      ]
+     ],
+     "cost": 0.00060885
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/017_10340_sanaka_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000453
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "なつのさなかにていでんがおきた",
+     "diff": [],
+     "cost": 0.0001395
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "なつの　なかに　ていでん　が　おきた",
+     "diff": [
+      [
+       "delete",
+       "さ",
+       ""
+      ]
+     ],
+     "cost": 0.000102
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "なつのさなかにていでんがおきた",
+     "diff": [],
+     "cost": 0.0004711
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/025_19257_ichimokuoku_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.001146
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "せんぱいたちもかのじょのじつりょくにはいちもくをおいている",
+     "diff": [
+      [
+       "insert",
+       "",
+       "を"
+      ]
+     ],
+     "cost": 0.00020625
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "せんぱいたちも かのじょの じつりょくには いちもく おいている",
+     "diff": [],
+     "cost": 0.0001332
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "せんぱいたちもかのじょのじつりょくにはいちもくおいている",
+     "diff": [],
+     "cost": 0.00044035
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/032_30278_hantaihoukou_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"じゅっぷん\", \"heard\": \"じっぷん\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "じゅっぷん",
+       "じっぷん"
+      ]
+     ],
+     "cost": 0.0018045
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "みちをまちがえて えきとは はんたいほうこうに じゅっぷんも あるいてしまった",
+     "diff": [],
+     "cost": 0.0002505
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "みちをまちがえて えきとは はんたいほうこうに じゅっぷんも あるいてしまった",
+     "diff": [],
+     "cost": 0.0001476
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "みちをまちがえて、えきとははんたいほうこうにじゅっぷんもあるいてしまった。",
+     "diff": [],
+     "cost": 0.0004764
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "lite/kanadict/female/034_12582_tsuwamono_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00058425
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かれわなかなか の つわもの だ",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.00012075
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かれは なかなかの つわもの だ",
+     "diff": [],
+     "cost": 8.64e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かれはなかなかのつわものだ",
+     "diff": [],
+     "cost": 0.00049455
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/036_26786_kuroko_ex2",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00090675
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.000204
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かぶきのくろこは ぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.0001206
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
+     "diff": [],
+     "cost": 0.00043115
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/039_16962_hiyori_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00023175
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "きょうはいいひよりだ",
+     "diff": [],
+     "cost": 0.000111
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "きょうは いい ひより だ",
+     "diff": [],
+     "cost": 7.74e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "きょうはいいひよりだ",
+     "diff": [],
+     "cost": 0.0004207
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/039_16962_hiyori_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00056025
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "きょうはいえひよりだ",
+     "diff": [
+      [
+       "replace",
+       "い",
+       "え"
+      ]
+     ],
+     "cost": 0.0001095
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "きょうは いい ひより だ",
+     "diff": [],
+     "cost": 7.68e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "きょうはいいしおりだ",
+     "diff": [
+      [
+       "replace",
+       "ひよ",
+       "しお"
+      ]
+     ],
+     "cost": 0.0004511
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "lite/kanadict/male/040_21222_kobara_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002865
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "こばらがすいたときにたべられるようにかばんにおかしをいれている",
+     "diff": [],
+     "cost": 0.0001965
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "こばらが すいた ときに たべられる ように かばんに おかしを いれてる",
+     "diff": [
+      [
+       "delete",
+       "い",
+       ""
+      ]
+     ],
+     "cost": 0.0001404
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こばらがすいたときにたべられるように、かばんにおかしをいれている。",
+     "diff": [],
+     "cost": 0.0011754
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/041_10587_yorisou_ex6",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00070725
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "つらいときに よりそってくれるひとがいるのは ほんとうにありがたい",
+     "diff": [],
+     "cost": 0.0001935
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "つらいときに よりそってくれる ひとが いるのは ほんとうに ありがたい",
+     "diff": [],
+     "cost": 0.0001338
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "つらいときによりそってくれるひとがいるのはほんとうにありがたい",
+     "diff": [],
+     "cost": 0.00043625
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/041_10587_yorisou_ex6",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00029775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "つらいときに よりそってくれるひとがいるのは ほんとうにありがたい",
+     "diff": [],
+     "cost": 0.00020475
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "つらいときに よりとってくれる ひとが いるのは ほんとうに ありがたい",
+     "diff": [
+      [
+       "replace",
+       "そ",
+       "と"
+      ]
+     ],
+     "cost": 0.0001374
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "つらいときによりそってくれるひとがいるのはほんとうにありがたい",
+     "diff": [],
+     "cost": 0.00046345
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/047_02934_hatsuka_ex8",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00023625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "はつかまでにおとどけします",
+     "diff": [],
+     "cost": 0.00012225
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "はっかまでに おとどけします",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "っ"
+      ]
+     ],
+     "cost": 7.86e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "はつかまでにおとどけします",
+     "diff": [],
+     "cost": 0.0004561
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/047_02934_hatsuka_ex8",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00023625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "はつかまでにおとどけします",
+     "diff": [],
+     "cost": 0.0001215
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "はっかまでに おとどけします",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "っ"
+      ]
+     ],
+     "cost": 7.86e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "はつかまでにおとどけします。",
+     "diff": [],
+     "cost": 0.00065455
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/048_02983_youka_ex9",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000606
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ようかぶりにあった",
+     "diff": [],
+     "cost": 9.75e-05
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ようかぶりにあった",
+     "diff": [],
+     "cost": 6.96e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ようかぶりにあった",
+     "diff": [],
+     "cost": 0.0006202
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/050_10082_minamo_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00024975
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "つきがみなもにうつってうつくしかった",
+     "diff": [],
+     "cost": 0.00014175
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "すき が みなも に うつって うつくしかった",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "す"
+      ]
+     ],
+     "cost": 0.0001014
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "つきがみなもにうつってうつくしかった",
+     "diff": [],
+     "cost": 0.0005258
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict~r1/female/056_13000_tsukigime_ex1",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00024825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "つきぎめちゅうしゃじょうをかりた",
+     "diff": [],
+     "cost": 0.0001395
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "すきぎめ ちゅうしゃじょう を かりた",
+     "diff": [
+      [
+       "replace",
+       "つ",
+       "す"
+      ]
+     ],
+     "cost": 9.6e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "つきぎめちゅうしゃじょうをかりた",
+     "diff": [],
+     "cost": 0.0004347
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/065_24999_kabuken_ex3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00033225
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "にせんきゅうねんにかぶけんのでんしかがかんりょうしかみのかぶけんはげんそくとしてはんいしされた",
+     "diff": [
+      [
+       "insert",
+       "",
+       "ん"
+      ]
+     ],
+     "cost": 0.0002835
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "にせんきゅうねんに かぶけんの でんしかが かんりょうし かみの かぶけんは げんそくとして はいしされた",
+     "diff": [],
+     "cost": 0.0001902
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "にせんきゅうねんにかぶけんのでんしかがかんりょうし、かみのかぶけんはげんそくとしてはいしされた。",
+     "diff": [],
+     "cost": 0.0007669
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/female/066_00005_appu_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0008655
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "うりあげがぜんねんよりにじゅっぱーせんとあっぷした",
+     "diff": [],
+     "cost": 0.0001875
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "うりあげが ぜんねんより にじゅっパーセント あっぷ した",
+     "diff": [],
+     "cost": 0.0001212
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "うりあげがぜんねんよりにじゅうパーセントアップした。",
+     "diff": [
+      [
+       "replace",
+       "っ",
+       "う"
+      ]
+     ],
+     "cost": 0.001207
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict/male/086_03201_shimai_ex5",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00129
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "さんにんしまいのすえっことしてそだったかのじょはいつもあねたちのあとをおいかけていたそうだいまではおたがいにささえあうかんけいになっている",
+     "diff": [],
+     "cost": 0.000381
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "さんにんしまいの すえっこ として そだった かのじょは いつも あねたちの あとを おいかけていた そうだ いまでは おたがいに ささえあう かんけいに なっている",
+     "diff": [],
+     "cost": 0.0002598
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "さんにんしまいのすえっことしてそだったかのじょはいつもあねたちのあとをおいかけていたそうだ。いまではおたがいにささえあうかんけいになっている。",
+     "diff": [],
+     "cost": 0.00067385
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "lite/kanadict~r1/female/099_03991_yuge_ex4",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00027525
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "らーめん から ゆげ が たちのぼって とても おいしそう だった",
+     "diff": [],
+     "cost": 0.0001905
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "だーめんから ゆげが たちのぼって とても おいしそうだった",
+     "diff": [
+      [
+       "replace",
+       "ら",
+       "だ"
+      ]
+     ],
+     "cost": 0.0001188
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
+     "diff": [],
+     "cost": 0.00041615
+    }
+   ],
+   "accepted": true
+  }
+ ]
+}

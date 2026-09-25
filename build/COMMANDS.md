@@ -106,6 +106,20 @@ python3 build/review_transitivity.py --all-missing --budget 1.00   # transitivit
 python3 build/review_runner.py --pass screening --range 1 100      # furigana screener (manual use only; 2% precision)
 ```
 
+## Example audio (requires OPENROUTER_API_KEY; AUDIO_WORKFLOW.md)
+
+```bash
+make audio-deps                                        # fugashi + unidic-lite (MeCab), lameenc, miniaudio
+python3 build/audio_pipeline.py status                 # coverage by tier, stale, undetermined, needs-human, store use
+python3 build/audio_pipeline.py plan --budget 2.30     # choose examples in priority order → audio_work/plan.json
+python3 build/audio_pipeline.py run --workers 12       # generate → check → regenerate; stage accepted MP3s in audio_work/
+python3 build/audio_pipeline.py publish                # push MP3s to the audio repository, then write audio/manifest/
+python3 build/audio_pipeline.py testset --voice Aoede  # voice pilot on the 100-sentence test set
+python3 build/audio_pipeline.py undetermined --reason bare-kanji malformed   # examples whose reading is not determined
+python3 build/audio_regression.py                      # the 163 regression clips; required before any workflow change
+python3 build/check_no_binaries.py                     # CI gate: no audio files in je-dict-1
+```
+
 ## Routine and pipeline
 
 ```bash
