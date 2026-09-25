@@ -40,6 +40,7 @@ def neutral_signals():
     # active; open_backlog_items > 0 so systemic-fix is active; wiki not
     # triggered (no unharvested observations).
     return {
+        "audio_production_enabled": True,
         "candidate_count": 80,
         "seen_in_entry_count": 0,
         "max_entry_id": 29000,
@@ -276,6 +277,35 @@ class TestForceAndParams(unittest.TestCase):
         p = rn.build_params("candidates", sig, cfg, remaining=5.0)
         # deficit 25, floored at 30
         self.assertEqual(p["approx_new"], 30)
+
+
+class TestAudioMode(unittest.TestCase):
+    def test_audio_suppressed_until_production_enabled(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["audio_production_enabled"] = False
+        mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["audio"], 0.0)
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=200)
+        self.assertNotIn("audio", tally)
+
+    def test_audio_suppressed_when_budget_low(self):
+        cfg = base_config()
+        mult, _ = rn.compute_multipliers(neutral_signals(), cfg, remaining=0.3)
+        self.assertEqual(mult["audio"], 0.0)
+
+    def test_audio_gets_about_a_quarter(self):
+        cfg = base_config()
+        n = 2000
+        tally, _ = simulate(cfg, neutral_signals(), remaining=5.0, n=n)
+        self.assertAlmostEqual(tally["audio"] / n, 0.25, delta=0.03)
+
+    def test_audio_params_budget(self):
+        cfg = base_config()
+        self.assertEqual(rn.build_params("audio", neutral_signals(), cfg, 5.0)
+                         ["openrouter_session_budget_usd"], 2.4)
+        self.assertEqual(rn.build_params("audio", neutral_signals(), cfg, 1.1)
+                         ["openrouter_session_budget_usd"], 1.1)
 
 
 if __name__ == "__main__":

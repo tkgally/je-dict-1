@@ -1701,6 +1701,21 @@
       "scope_estimate": 1,
       "severity": "medium",
       "notes": "Three runs report roughly half of notes-fact flags quote text that is not where claimed or is two bullets spliced together. quote_in_notes() accepts the whole quote OR its first 25 characters, so a quote whose opening matches and whose remainder is invented or spliced passes the gate. Also: the plain-text extraction drops furigana, so {脂性|あぶらせい} vs 脂性 look identical to the model. See tooling-backlog.md item 146."
+    },
+    {
+      "id": "audio-undetermined-furigana",
+      "title": "Examples with kanji lacking furigana or malformed markup cannot be recorded",
+      "source": "AUDIO_WORKFLOW.md §3 (2026-09-25): the audio pipeline skips these because their reading is not determined",
+      "detect": "python3 build/audio_pipeline.py undetermined --reason bare-kanji malformed",
+      "filter": null,
+      "fix_type": "judgment: add the missing furigana {漢字|かな} (for ヶ, take it into the neighbouring group: {三|さん}{ヶ月|かげつ}; never kana-only braces), repair the markup; one entry at a time",
+      "verify": "the detector no longer lists the example; python3 build/validate.py --id <id>",
+      "priority": 8,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 90,
+      "severity": "low",
+      "notes": "82 bare-kanji and 8 malformed examples on 2026-09-25 (e.g. 00067_genshi_ex3 原始的, 00952_juuni_ex2 十二ヶ月). Each fix also makes the example recordable by the audio mode. Digits and Latin letters (about 2,500) are not part of this item: they have no furigana by design (AUDIO_WORKFLOW.md §3.1)."
     }
   ]
 }

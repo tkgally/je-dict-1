@@ -304,3 +304,80 @@ class TestRegressionSummary(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestSiteButton(unittest.TestCase):
+    """The site shows the recording button only when the manifest's hash matches."""
+
+    def setUp(self):
+        import audio_manifest as M
+        self.M = M
+        self.raw = "⟦{本|ほん}→本：00100_hon⟧を{読|よ}む。"
+        rec = {"ex": "00001_a_ex1", "h": T.text_hash("{本|ほん}を{読|よ}む。")[:16], "s": "a1",
+               "f": "00000/00001_a_ex1.abcd1234.mp3"}
+        M._CACHE = ({"a1": "https://example.org/audio/"}, {"00001_a_ex1": rec})
+
+    def tearDown(self):
+        self.M.reset_cache()
+
+    def test_recording_url(self):
+        self.assertEqual(self.M.recording_url({"id": "00001_a_ex1", "japanese": self.raw}),
+                         "https://example.org/audio/00000/00001_a_ex1.abcd1234.mp3")
+        self.assertIsNone(self.M.recording_url({"id": "00001_a_ex1", "japanese": "{本|ほん}を{買|か}う。"}))
+        self.assertIsNone(self.M.recording_url({"id": "00001_a_ex2", "japanese": self.raw}))
+
+    def test_render_examples(self):
+        import entry_renderer as R
+        html_ok = R.render_examples([{"id": "00001_a_ex1", "japanese": self.raw, "english": "x"}], {})
+        self.assertIn('class="audio-btn"', html_ok)
+        self.assertIn("00001_a_ex1.abcd1234.mp3", html_ok)
+        self.assertNotIn("tts-btn", html_ok)
+        html_stale = R.render_examples([{"id": "00001_a_ex1", "japanese": "{本|ほん}を{買|か}う。",
+                                         "english": "x"}], {})
+        self.assertIn('class="tts-btn"', html_stale)
+        self.assertNotIn("audio-btn", html_stale)
+
+
+class TestMaintenance(unittest.TestCase):
+    def setUp(self):
+        import audio_maintenance as M
+        self.M = M
+        self.tmp = tempfile.TemporaryDirectory()
+        d = Path(self.tmp.name)
+        self.saved = (M.REG_HISTORY, M.PILOTS, P.load_manifest)
+        M.REG_HISTORY, M.PILOTS = d / "history.jsonl", d / "pilots.jsonl"
+        P.load_manifest = lambda: {}
+        self.cfg = {"checkers": [{"kind": "pcompare", "model": "m1"}], "rule": "p2",
+                    "tts_model": "t1", "prompt_strategy": "E", "mp3_kbps": 48, "voices": ["Kore"]}
+
+    def tearDown(self):
+        self.M.REG_HISTORY, self.M.PILOTS, P.load_manifest = self.saved
+        self.tmp.cleanup()
+
+    def write(self, path, rows):
+        path.write_text("".join(json.dumps(r) + "\n" for r in rows), encoding="utf-8")
+
+    def test_blocked_without_regression_and_pilot(self):
+        blocked = {t for t, b, _ in self.M.due_tasks(self.cfg, st={}) if b}
+        self.assertEqual(blocked, {"regression", "pilot"})
+
+    def test_unblocked_after_regression_and_pilot(self):
+        M, cfg = self.M, self.cfg
+        now = P.now_iso()
+        self.write(M.REG_HISTORY, [{"at": now, "checkers_rule_hash": M.checks_fingerprint(cfg),
+                                    "passed": True, "kbps": None, "clips": 163}])
+        self.write(M.PILOTS, [{"voice": "Kore", "acceptable": True,
+                               "generation_fingerprint": M.generation_fingerprint(cfg),
+                               "checks_fingerprint": M.checks_fingerprint(cfg)}])
+        st = {"models": now[:10], "reevaluate": now[:10]}
+        self.assertEqual(M.due_tasks(cfg, st=st), [])
+        # changing a checker model blocks production again (regression and pilot)
+        cfg2 = {**cfg, "checkers": [{"kind": "pcompare", "model": "m2"}]}
+        self.assertEqual({t for t, b, _ in M.due_tasks(cfg2, st=st) if b}, {"regression", "pilot"})
+        # changing the bit rate needs a new pilot only
+        cfg3 = {**cfg, "mp3_kbps": 32}
+        self.assertEqual({t for t, b, _ in M.due_tasks(cfg3, st=st) if b}, {"pilot"})
+        # a failed or bit-rate-test regression run does not count
+        self.write(M.REG_HISTORY, [{"at": now, "checkers_rule_hash": M.checks_fingerprint(cfg),
+                                    "passed": True, "kbps": 32, "clips": 163}])
+        self.assertIn("regression", {t for t, b, _ in M.due_tasks(cfg, st=st) if b})

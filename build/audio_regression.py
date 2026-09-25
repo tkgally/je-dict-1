@@ -10,6 +10,8 @@ The clips (audio/regression/*.mp3, listed in index.json) are:
     omitted, substituted, inserted, repeated words). 6 are inaudible: the TTS
     "corrected" them (index field "audible": false).
   - 113 rated by Tom by ear: 3 errors ("err"), 2 unsure, the rest correct.
+  - later: production clips Tom rated in spot checks (by URL; "url" and "raw"
+    instead of "file" and "n").
 
 Pass criteria for any workflow change (AUDIO_WORKFLOW.md §10): every audible
 injected error and every one of Tom's errors is rejected, and the false-alarm
@@ -31,7 +33,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from audio_checks import accept, checker_name, run_checkers  # noqa: E402
-from audio_text import loose, norm_kana  # noqa: E402
+from audio_text import loose, norm_kana, parse_example  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 REG = ROOT / "audio" / "regression"
@@ -120,23 +122,30 @@ def main():
     ap.add_argument("--limit", type=int, help="first N clips only (smoke test)")
     ap.add_argument("--tag", default="", help="note stored with the summary")
     ap.add_argument("--no-write", action="store_true", help="print only")
+    ap.add_argument("--config", help="trial config, e.g. a new checker model (default audio/config.json)")
     ap.add_argument("--freeze-audibility", action="store_true",
                     help="write the audibility decided by this run into index.json "
                          "for injected clips that lack it")
     args = ap.parse_args()
 
     from audio_api import OpenRouter
-    cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
+    cfg = json.loads(Path(args.config or CONFIG).read_text(encoding="utf-8"))
     sentences = {s["n"]: s for s in json.loads(TESTSET.read_text(encoding="utf-8"))}
     index = json.loads((REG / "index.json").read_text(encoding="utf-8"))
     clips = index[: args.limit] if args.limit else index
     api = OpenRouter()
 
     def one(clip):
-        mp3 = (REG / clip["file"]).read_bytes()
+        # a clip is a file here (the original set) or a URL in the audio repository
+        # (production clips Tom rated in a spot check, added by audio_maintenance.py)
+        if clip.get("file"):
+            mp3 = (REG / clip["file"]).read_bytes()
+        else:
+            import requests
+            mp3 = requests.get(clip["url"], timeout=60).content
         if args.kbps:
             mp3 = reencode(mp3, args.kbps)
-        s = sentences[clip["n"]]
+        s = sentences[clip["n"]] if "n" in clip else parse_example(clip["raw"])
         checks = run_checkers(mp3, s, cfg["checkers"], api)
         row = {"key": clip["key"], "truth": clip["truth"], "truth_parsed": truth_of(clip),
                "checks": checks, "accepted": accept(cfg["rule"], [c["verdict"] for c in checks])}
@@ -182,6 +191,8 @@ def main():
         print("audibility written to index.json")
 
     if not args.no_write:
+        from audio_pipeline import record_ledger
+        record_ledger(api.spent, "regression", len(rows))
         stamp = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
         cfg_hash = hashlib.sha256(json.dumps(
             {k: cfg[k] for k in ("checkers", "rule")}, sort_keys=True).encode()).hexdigest()[:12]

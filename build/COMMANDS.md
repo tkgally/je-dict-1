@@ -117,6 +117,13 @@ python3 build/audio_pipeline.py publish                # push MP3s to the audio 
 python3 build/audio_pipeline.py testset --voice Aoede  # voice pilot on the 100-sentence test set
 python3 build/audio_pipeline.py undetermined --reason bare-kanji malformed   # examples whose reading is not determined
 python3 build/audio_regression.py                      # the 163 regression clips; required before any workflow change
+python3 build/audio_pipeline.py verify                 # wait until GitHub Pages serves the new recordings
+python3 build/audio_maintenance.py due                 # maintenance due; exit 2 = production blocked (regression/pilot)
+python3 build/audio_maintenance.py check-models        # configured model IDs alive; new TTS/audio models
+python3 build/audio_maintenance.py drift               # first-pass rate and cost of recent runs vs baseline
+python3 build/audio_maintenance.py spotcheck --n 30    # listening page for Tom (published by the next publish)
+python3 build/audio_maintenance.py import-ratings audio/spotchecks/*.json   # Tom's ratings → regression suite
+python3 build/audio_maintenance.py reaudit --sample 100 --budget 0.40       # re-check existing recordings
 python3 build/check_no_binaries.py                     # CI gate: no audio files in je-dict-1
 ```
 

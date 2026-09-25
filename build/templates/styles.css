@@ -1904,6 +1904,31 @@ body.tts-available .tts-btn {
     background: var(--color-surface);
 }
 
+/* Play button for a verified recording (audio/manifest): always shown, fully opaque,
+   with a thin border so a learner can tell a recording from browser speech */
+.audio-btn {
+    display: inline-block;
+    margin-left: 0.4rem;
+    padding: 0 0.3rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    background: none;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.audio-btn:hover,
+.audio-btn:focus,
+.audio-btn.playing {
+    background: var(--color-surface);
+}
+
+.audio-btn.playing {
+    border-color: currentColor;
+}
+
 /* Search result cards */
 .result-meta {
     display: flex;
