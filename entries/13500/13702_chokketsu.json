@@ -115,7 +115,7 @@
     },
     {
       "id": "13702_chokketsu_ex2",
-      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧{売|う}り{上|あ}げ⟦に→に：00314_ni⟧{直結|ちょっけつ}⟦する→する：00392_suru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦{売|う}り→売り：12159_uri⟧{上|あ}げ⟦に→に：00314_ni⟧{直結|ちょっけつ}⟦する→する：00392_suru⟧。",
       "english": "This problem is directly linked to sales.",
       "notes": null,
       "has_audio": false,
@@ -138,7 +138,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-02-26T13:31:18Z",
-    "modified": "2026-09-02T04:01:34Z",
+    "modified": "2026-09-25T06:18:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     }
   }
 }

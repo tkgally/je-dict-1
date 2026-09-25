@@ -125,7 +125,7 @@
     },
     {
       "id": "13937_jishou_ex3",
-      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧{自称|じしょう}⟦{会社員|かいしゃいん}→会社員：03018_kaishain⟧で、⟦{実際|じっさい}→実際：02502_jissai⟧⟦の→の：09472_no⟧⟦{職業|しょくぎょう}→職業：03245_shokugyou⟧⟦は→は：00079_ha⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦{中|ちゅう}→〜中：09840_chuu⟧だ。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧{自称|じしょう}⟦{会社員|かいしゃいん}→会社員：03018_kaishain⟧⟦で→で：00502_de⟧、⟦{実際|じっさい}→実際：02502_jissai⟧⟦の→の：09472_no⟧⟦{職業|しょくぎょう}→職業：03245_shokugyou⟧⟦は→は：00079_ha⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦{中|ちゅう}→〜中：09840_chuu⟧だ。",
       "english": "The suspect claims to be a company employee, but his actual occupation is being verified.",
       "notes": null,
       "has_audio": false,
@@ -137,7 +137,7 @@
   "notes": "USAGE:\nAlmost always carries a skeptical tone. When news reports use {自称|じしょう}, it signals that the claim has not been verified — for example, {自称|じしょう}⟦{会社員|かいしゃいん}→会社員：03018_kaishain⟧ in a crime report means the suspect says they are an office worker but this hasn't been confirmed. In casual use, it's often ironic or humorous.\n\nCOMMON PATTERNS:\n- {自称|じしょう} + noun (self-proclaimed ~): {自称|じしょう}⟦{専門家|せんもんか}→専門家：03088_senmonka⟧, {自称|じしょう}⟦プロ→プロ：03871_puro⟧, {自称|じしょう}⟦{天才|てんさい}→天才：09934_tensai⟧\n- ～⟦と→と：00512_to⟧{自称|じしょう}⟦する→する：00392_suru⟧ (claim to be ~)\n\nLINGUISTIC NOTE:\nIn grammar, {自称|じしょう} also means \"first person\" (as in first-person pronouns), though this technical usage is rare outside linguistics.",
   "metadata": {
     "created": "2026-02-27T07:09:16Z",
-    "modified": "2026-09-02T04:01:35Z",
+    "modified": "2026-09-25T06:18:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,7 +150,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }
