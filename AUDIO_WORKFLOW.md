@@ -84,10 +84,11 @@ before trusting it. Until then, leave these 2.1% of examples on browser speech.
   voices. The response is raw 24 kHz, mono, 16-bit PCM; the billed cost is looked up afterwards at
   `GET /api/v1/generation?id=<x-generation-id header>` (it can take a few seconds to appear).
 - **Output differs on every call**, even for the same prompt. That is what makes regeneration work.
-- **Encoding**: production uses **48 kbps** mono MP3 at 24 kHz, encoded with `lameenc` (pip; ffmpeg
-  is not installed in Routine sessions). The local experiment used 64 kbps. The checks catch errors
-  equally well at 32 and 48 kbps (changelog, 2026-09-25); 32 kbps would save a third of the
-  storage if Tom finds it clean enough.
+- **Encoding**: production uses **32 kbps** mono MP3 at 24 kHz (Tom's choice after listening,
+  2026-09-25), encoded with `lameenc` (pip; ffmpeg is not installed in Routine sessions). About
+  13 KB per clip. The local experiment used 64 kbps; the checks catch errors equally well at 32,
+  48 and 64 kbps (changelog, 2026-09-25). The first 308 recordings were made at 48 kbps and stay
+  as they are.
 
 ### 4.1 The prompt (strategy E, `kanadict` in the reference code)
 
@@ -134,8 +135,9 @@ Lessons from the prompts:
 
 ## 5. Voices
 
-Production voices are listed in `audio/config.json` (`voices`). Today: **Kore** (female) and
-**Charon** (male). Tom wants **two female and two male voices** in rotation.
+Production voices are listed in `audio/config.json` (`voices`): **Kore** (female), **Charon**
+(male), **Erinome** (female) and **Iapetus** (male), in that order, so consecutive examples
+alternate female and male. Tom approved Erinome and Iapetus after listening on 2026-09-25.
 
 Candidates piloted on 2026-09-25: **Erinome** (female; Google calls it "clear") and **Iapetus**
 (male; "clear"). They were chosen after a gender and character probe of 15 voices, in which
@@ -150,10 +152,10 @@ so the probe is worth repeating for any new candidate. Pilot on the 100-sentence
 | Erinome | 91 | 99 | 1 (いいえ ex4) | 24% | $0.31 |
 | Iapetus | 92 | 100 | 0 | 13% | $0.30 |
 
-Both candidates pass the numeric bar (`audio/pilots.jsonl`, `acceptable: true`). Erinome is
-misheard a little more often by gpt-audio-mini, which costs regenerations but lets no error
-through: the rule needs the particle-aware compare to pass. The remaining condition is Tom's
-ear. His listening page (20 sentences × 4 voices, plus a 32/48/64 kbps comparison) is a
+Erinome is misheard a little more often by gpt-audio-mini, which costs regenerations but lets no
+error through: the rule needs the particle-aware compare to pass. At 32 kbps the four voices
+scored 92, 92, 91 and 87 on the first attempt and 100, 99, 100 and 99 within five (changelog).
+Tom's listening page (20 sentences × 4 voices, plus a 32/48/64 kbps comparison) is a
 private claude.ai artifact: https://claude.ai/artifact/NKwVgJejhrxzh4bvjcHccL. Other
 candidates, if he dislikes these: female Aoede, Leda, Zephyr, Despina; male Orus, Alnilam,
 Rasalgethi.
@@ -232,7 +234,7 @@ exception is the fixed regression set.
 
 **Setup**: separate public repositories, each served by GitHub Pages from its `main` branch
 (`.nojekyll` at the root), each kept under **900 MB** of live files (`limit_mb`):
-`tkgally/je-dict-audio-1`, then `-2`, … The whole dictionary is about 2.6 GB at 48 kbps (about 120
+`tkgally/je-dict-audio-1`, then `-2`, … The whole dictionary is about 1.5 GB at 32 kbps (about 120
 hours), so three repositories. The stores are listed in `audio/config.json` (`stores`: id,
 repo, `base_url`, `limit_mb`, `status` active/full). The site builds each URL as `base_url` +
 path, so moving to a custom subdomain (for example `audio1.tkgje.jp`, a CNAME to
@@ -292,12 +294,13 @@ not used.
   Simulated over 400 runs with today's signals, audio gets 26%. The mode is suppressed while
   `audio/config.json` `production.enabled` is false, and on days when less than
   $0.50 of the OpenRouter daily cap remains.
-- **Budget**: `openrouter.audio_session_cap_usd` = $2.40 per run, within the existing $2.50 per
-  session and $5 per day (an audio run changes no entries, so it needs no self-check). At the
-  measured $0.0025–0.003 per example that is 800–950 examples per run. With two Routine runs a
-  day, an audio run comes about every two days. The basic and core tiers (20,000 examples) then
-  take about 45 audio runs (three months), and the whole dictionary (117,000 recordable
-  examples) about 130 runs (roughly nine months). A higher cap shortens that in proportion (§12).
+- **Budget** (raised by Tom on 2026-09-25): `openrouter.audio_session_cap_usd` = $4.80 per audio
+  run, daily cap $7.50 shared with the other modes (an audio run changes no entries, so it needs
+  no self-check). At the measured $0.0024–0.0026 per example that is about 1,800 examples per
+  run, about 25 minutes of `run` calls. With two Routine runs a day an audio run comes about
+  every two days, so the basic and core tiers (20,000 examples) take about 11 audio runs (three
+  weeks) and the whole dictionary (about 117,000 recordable examples) about 65 runs (four to
+  five months).
 - **Per run** (`prompts/audio.md`): `make audio-deps` → attach the audio repository → maintenance
   (`audio_maintenance.py due`) → `plan` (priority order) → `run` (resumable, 8-minute calls, 12
   workers) → `publish` → `verify` → note examples left for a human → session log, metrics,
@@ -387,16 +390,13 @@ production.
 ## 12. Decisions for Tom
 
 Open:
-- **Voices**: Erinome and Iapetus, after listening (§5)? Until then production uses Kore and
-  Charon only.
-- **Bit rate**: 48 kbps (planned) or 32 kbps (§5 page has both; detection is the same).
-- **Budget**: $2.40 per audio run within the current caps records the dictionary in about nine
-  months. Raising `audio_session_cap_usd` to $4.80 and the daily cap to $7.50 would halve that.
-- **Spot checks**: monthly, about 30 clips (§10). Say if a different rhythm suits better.
-- Flash (current) or Lite (about 30% cheaper, more regenerations): Flash for now, since Tom liked
-  its voices.
+- **Spot checks**: monthly, about 30 clips (§10), unless Tom asks for a different rhythm.
+- Flash (current) or Lite (about 30% cheaper, more regenerations): Flash, since Tom liked its
+  voices.
 
-Settled 2026-09-25: hosting on GitHub Pages in separate audio repositories (§7).
+Settled 2026-09-25: hosting on GitHub Pages in separate audio repositories (§7); four voices,
+Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and a $7.50 daily cap
+(§9).
 
 ## Changelog
 
@@ -449,3 +449,20 @@ Settled 2026-09-25: hosting on GitHub Pages in separate audio repositories (§7)
   served by GitHub Pages with `content-type: audio/mp3` and `access-control-allow-origin: *`.
   Production is enabled in `audio/config.json`, so the Routine's audio mode now takes part in
   the rotation.
+- 2026-09-25: Tom listened to the voice page and to part of the first spot-check page ("they all
+  sounded fine"; no ratings file). He chose 32 kbps and all four voices, and raised the budget to
+  $4.80 per audio run and $7.50 a day.
+- 2026-09-25: 32 kbps pilots, as the new bit rate requires: first attempt / within five, out of
+  100 test sentences: Kore 92/100, Charon 92/99, Erinome 91/100, Iapetus 87/99 (いいえ ex4 is the
+  sentence left over, as before). Iapetus scored 92 at 48 kbps the same day. The pilot bar had
+  been "first attempt within 8 points of 95.5%", a baseline from a single 64 kbps run in the local
+  experiment, so 87 missed it by one sentence. The eight pilots of the day range from 87 to 94,
+  and one 100-sentence run varies by about ±3 points, so the baseline is now the measured mean,
+  91.5% (bar 83.5%). The gate now judges each pilot against the current baseline
+  (`pilot_acceptable()`), not by a flag stored when it ran. Iapetus's first-attempt misses were
+  the usual ones (long vowels, いいえ said いえ, single-checker objections), and every one was
+  caught and regenerated.
+- 2026-09-25: second production batch, the first with four voices at 32 kbps and run as the
+  Routine will run it (plan → run → publish from a fresh thin clone → verify): 800 examples from
+  95 basic-tier entries (00426 読む – 00560 口), all 800 accepted, 761 on the first attempt,
+  $1.94 ($0.0024 per example), 10 MB. 1,108 examples now have recordings.

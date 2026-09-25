@@ -64,7 +64,11 @@ the browser-speech button.
 voices Kore and Charon, $0.76. 292 passed on the first take. The batch also found a furigana
 error, 00111 本 {少|すこ}なくとも → すく, which is now fixed.
 
-**The Routine has a new `audio` mode (a quarter of runs, $2.40 each).** It works through
+**Then 800 more** (00426 読む to 00560 口), after Tom chose four voices (Kore, Charon, Erinome,
+Iapetus), 32 kbps, and a budget of $4.80 per audio run within a $7.50 daily cap: all 800
+accepted, 761 on the first take, $1.94. 1,108 examples now have recordings.
+
+**The Routine has a new `audio` mode (a quarter of runs, $4.80 each).** It works through
 stale recordings first, then the basic, core and general tiers. It runs maintenance checks
 before recording: a regression suite of 163 clips with known answers, voice pilots, model
 checks, and monthly spot-check pages for Tom. Examples with digits, Latin letters or symbols

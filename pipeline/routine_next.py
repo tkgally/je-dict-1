@@ -84,8 +84,8 @@ DEFAULT_CONFIG = {
     "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix",
                           "candidates", "wiki", "audio"],
     "anti_repeat_override_multiplier": 1.8,
-    "openrouter": {"daily_cap_usd": 5.0, "per_session_cap_usd": 2.5,
-                   "self_check_cap_usd": 0.25, "audio_session_cap_usd": 2.4,
+    "openrouter": {"daily_cap_usd": 7.5, "per_session_cap_usd": 2.5,
+                   "self_check_cap_usd": 0.25, "audio_session_cap_usd": 4.8,
                    "audio_min_budget_usd": 0.5},
 }
 
@@ -425,7 +425,7 @@ def build_params(choice, signals, config, remaining):
     if choice == "wiki":
         return {}
     if choice == "audio":
-        cap = float(config["openrouter"].get("audio_session_cap_usd", 2.4))
+        cap = float(config["openrouter"].get("audio_session_cap_usd", 4.8))
         return {"openrouter_session_budget_usd": round(min(remaining, cap), 2)}
     if choice == "systemic-fix":
         item = select_backlog_item(load_backlog_queue())

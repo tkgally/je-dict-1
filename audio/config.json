@@ -28,14 +28,18 @@
   ],
   "rule": "p2",
   "max_attempts": 5,
-  "mp3_kbps": 48,
+  "mp3_kbps": 32,
   "voices": [
     "Kore",
-    "Charon"
+    "Charon",
+    "Erinome",
+    "Iapetus"
   ],
   "voice_gender": {
     "Kore": "female",
-    "Charon": "male"
+    "Charon": "male",
+    "Erinome": "female",
+    "Iapetus": "male"
   },
   "voice_candidates": [],
   "stores": [
@@ -49,9 +53,9 @@
   ],
   "est_cost_per_example_usd": 0.0025,
   "baseline": {
-    "_doc": "v2 with Kore and Charon on the 100-sentence test set (local experiment, 64 kbps): used to judge pilots and production drift",
-    "first_pass_rate": 0.955,
+    "_doc": "Measured 2026-09-25 in je-dict-1: mean first-take rate of the Kore, Charon, Erinome and Iapetus pilots at 48 and 32 kbps (0.87-0.94, run-to-run noise about ±3 points on 100 sentences). Used to judge pilots (within 8 points) and production drift.",
+    "first_pass_rate": 0.915,
     "needs_human_rate": 0.005,
-    "cost_per_accepted_usd": 0.003
+    "cost_per_accepted_usd": 0.0028
   }
 }

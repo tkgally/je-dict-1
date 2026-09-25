@@ -1,5 +1,5 @@
 {
-  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine2.md). 'enabled_modes' controls which modes the selector may pick; 'weights' are the long-run share of runs (normalized). A mode with weight 0 never runs on rotation; 'floors' gives such a mode a temporary effective weight when its trigger fires (wiki: unharvested observations >= observations_unharvested_lines AND at least wiki_min_days_between_runs since the last wiki run). systemic-fix self-suppresses when planning/wiki/ideas/backlog-queue.json has no open batch-ready item; candidates self-suppresses while candidate_words.json holds >= candidate_restock_threshold words; accuracy-review self-suppresses when the OpenRouter daily cap is spent. Reweighted 2026-09-02 (enhancement/assessment-2026-09-02.md §6.A3): accuracy and systemic-fix up, new-entries down (internal closure only), wiki trigger-only. Audio added 2026-09-25 (AUDIO_WORKFLOW.md §9): about a quarter of runs record example audio; the other weights scaled by 0.75. audio self-suppresses while audio/config.json production.enabled is false or less than audio_min_budget_usd of the daily OpenRouter cap remains.",
+  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine2.md). 'enabled_modes' controls which modes the selector may pick; 'weights' are the long-run share of runs (normalized). A mode with weight 0 never runs on rotation; 'floors' gives such a mode a temporary effective weight when its trigger fires (wiki: unharvested observations >= observations_unharvested_lines AND at least wiki_min_days_between_runs since the last wiki run). systemic-fix self-suppresses when planning/wiki/ideas/backlog-queue.json has no open batch-ready item; candidates self-suppresses while candidate_words.json holds >= candidate_restock_threshold words; accuracy-review self-suppresses when the OpenRouter daily cap is spent. Reweighted 2026-09-02 (enhancement/assessment-2026-09-02.md §6.A3): accuracy and systemic-fix up, new-entries down (internal closure only), wiki trigger-only. Audio added 2026-09-25 (AUDIO_WORKFLOW.md §9): about a quarter of runs record example audio; the other weights scaled by 0.75. Tom raised the daily cap to $7.50 and set audio_session_cap_usd to $4.80 on 2026-09-25. audio self-suppresses while audio/config.json production.enabled is false or less than audio_min_budget_usd of the daily OpenRouter cap remains.",
   "enabled_modes": [
     "polish",
     "systemic-fix",
@@ -41,10 +41,10 @@
   ],
   "anti_repeat_override_multiplier": 1.8,
   "openrouter": {
-    "daily_cap_usd": 5.0,
+    "daily_cap_usd": 7.5,
     "per_session_cap_usd": 2.5,
     "self_check_cap_usd": 0.4,
-    "audio_session_cap_usd": 2.4,
+    "audio_session_cap_usd": 4.8,
     "audio_min_budget_usd": 0.5
   }
 }

@@ -84,8 +84,8 @@ python3 build/audio_pipeline.py run          # repeat until it prints "remaining
 `run` stops starting new examples after 8 minutes, so a call stays under the
 tool timeout. Call it again, in the foreground, until `remaining` is 0. It
 resumes where it stopped and counts earlier calls against the budget. At about
-$0.0025 per example, B = $2.40 records about 900 examples. That is about 12
-minutes of calls with the default 12 workers.
+$0.0025 per example, B = $4.80 records about 1,800 examples. That is about 25
+minutes of calls (three or four `run` calls) with the default 12 workers.
 
 **Priorities** (`plan` applies them; do not reorder by hand):
 1. **Stale recordings**: examples whose text or furigana changed after they

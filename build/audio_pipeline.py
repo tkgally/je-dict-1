@@ -490,11 +490,10 @@ def record_pilot(cfg, voice, summ):
     production when its first-pass and final acceptance are close to the
     baseline (config "baseline") and Tom has approved its sound (the voice is
     then listed in config "voices"); see AUDIO_WORKFLOW.md §5."""
-    from audio_maintenance import checks_fingerprint, generation_fingerprint
-    base = cfg.get("baseline", {})
+    from audio_maintenance import checks_fingerprint, generation_fingerprint, pilot_acceptable
     n = summ["items"]
     fp, acc = summ["first_pass"] / n, summ["accepted"] / n
-    ok = fp >= base.get("first_pass_rate", 0.9) - 0.08 and acc >= 0.97
+    ok = pilot_acceptable({"first_pass_rate": fp, "accepted_rate": acc}, cfg)
     line = {"at": now_iso(), "voice": voice, "tts": cfg["tts_model"],
             "generation_fingerprint": generation_fingerprint(cfg),
             "checks_fingerprint": checks_fingerprint(cfg), "items": n,
@@ -696,7 +695,9 @@ def cmd_verify(args):
     if not rows:
         sys.exit("no published recordings in audio_work/results.jsonl")
     store = active_store(cfg)
-    urls = [store["base_url"] + r["file"] for r in (rows[0], rows[-1])]
+    newest = max(r.get("at", "") for r in rows)[:13]  # the latest batch (same hour)
+    batch = [r for r in rows if r.get("at", "")[:13] == newest] or rows
+    urls = [store["base_url"] + r["file"] for r in (batch[0], batch[-1])]
     deadline = time.time() + args.wait
     while True:
         codes = []
