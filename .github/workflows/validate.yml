@@ -20,7 +20,8 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r build/requirements.txt
+        # requirements-audio.txt: MeCab/UniDic for the audio unit tests (build/tests/test_audio.py)
+        run: pip install -r build/requirements.txt -r build/requirements-audio.txt
 
       - name: Unit tests
         run: python3 -m unittest discover -s build/tests -t .
@@ -64,3 +65,8 @@ jobs:
         # with a keep decision in reviews/link_decisions.jsonl, and a link removed
         # by an unlink decision must not come back.
         run: python3 build/check_link_homophones.py --gate
+
+      - name: No binary files
+        # Example recordings live in the audio repositories, never in je-dict-1
+        # (AUDIO_WORKFLOW.md §7). The fixed regression clips are the one exception.
+        run: python3 build/check_no_binaries.py

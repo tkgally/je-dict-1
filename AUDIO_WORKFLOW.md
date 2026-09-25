@@ -16,8 +16,8 @@ speech synthesis (`tts-btn`, `build/entry_renderer.py` and `generate_tts_script(
 `build/html_utils.py`). Voices rotate through two female and two male voices.
 
 About 25% of Routine sessions should do this work. The workflow below was developed and
-validated on 2026-09-24/25 in a local experiment; the reference code and test data are in
-`audio-reference/` (section 11).
+validated on 2026-09-24/25 in a local experiment and ported into je-dict-1 on 2026-09-25
+(section 11).
 
 ### What was validated
 
@@ -137,7 +137,7 @@ rotation. Candidates among Gemini's prebuilt voices: female Aoede, Leda, Zephyr;
 Fenrir. Check the current voice list, and whether each voice is female or male, before choosing.
 
 **Before any new voice is used in production**, run the full v2 pipeline on the 100-sentence test
-set (`audio-reference/testset/sentences.json`) with that voice (about $1 per voice). Accept the
+set (`audio/testset/sentences.json`) with that voice (`python3 build/audio_pipeline.py testset --voice <Name>`) (about $1 per voice). Accept the
 voice if its first-pass and final acceptance rates are close to Kore's and Charon's, and if Tom,
 listening to about 20 of its clips, is satisfied with the sound. A voice that misreads more often
 only costs more regenerations, but a voice the checkers hear less clearly would weaken the checks,
@@ -271,9 +271,9 @@ Suggested shape, for the session that integrates this to decide:
 
 ## 10. Keeping it correct over time
 
-- **Regression suite**: `audio-reference/regression_audio/` holds 163 clips with known answers:
+- **Regression suite**: `audio/regression/` holds 163 clips with known answers:
   50 with injected errors, and 113 rated by Tom (3 errors, 2 unsure, the rest correct), plus
-  `index.json`. It could move to the audio repository. Before changing any part of the workflow
+  `index.json`. Run it with `python3 build/audio_regression.py`. Before changing any part of the workflow
   (a new TTS model, a new checker or checker model, a prompt edit, a rule change), run the checks
   on these clips. The changed workflow must still catch all 44 audible injected errors (6 of the
   50 turned out inaudible: the TTS "corrected" them) and all 3 of Tom's errors. Its false-alarm
@@ -292,29 +292,38 @@ Suggested shape, for the session that integrates this to decide:
   audio, cost per example drifting, and repeat offenders (examples that are always left for a
   human). The last are often furigana errors, which are worth fixing in the entry.
 
-## 11. Reference material (`audio-reference/`)
+## 11. Code and data in je-dict-1
 
-Research code from the local experiment. It is not production code: paths, file layout and
-concurrency are rough. Reuse the logic; rewrite the plumbing to fit `build/` and `pipeline/`.
+Production code (ported 2026-09-25 from the research code; same logic, verified
+identical on the test set, see the changelog):
 
-- `scripts/common.py`: markup parsing, OpenRouter calls, cost log.
-- `scripts/prompts.py`: all TTS prompt strategies (E is `kanadict`).
-- `scripts/evaluate.py`: normalization, transcription scoring, `kana_substituted()`.
-- `scripts/verify.py`: compare, particle-aware compare (`pcompare`) and choice checkers;
-  `phonetic_kana()`.
-- `scripts/transcribe.py`: hiragana transcription and STT calls.
-- `scripts/generate_tts.py`: TTS call, PCM → MP3, cost lookup.
-- `scripts/pipeline.py`: generate → check → regenerate (`--rule p2` is v2).
-- `scripts/controls.py`: how the error-injection clips were made.
-- `scripts/report_pipeline.py`, `scripts/analyze2.py`: the evaluation analyses.
-- `scripts/extract_examples.py`, `scripts/select_sentences.py`: reading index and test set.
-- `testset/sentences.json`: the 100 test sentences, with hand-written readings for the digit/Latin
-  ones.
-- `testset/ratings_*.json`: Tom's ratings (the second file includes the first).
-- `testset/particle_test.json`: the particle-aware compare on Tom's rated clips.
-- `regression_audio/`: 163 MP3s plus `index.json` (clip, prompt, voice, known answer).
+- `build/audio_text.py`: markup parsing, expected reading, `text_hash()`, phonetic reading,
+  prompt E (`kana_substituted()`, `build_tts_prompt()`), normalization. Pure; MeCab is loaded
+  lazily so the site build can import it without the audio dependencies.
+- `build/audio_checks.py`: checker prompts, scoring (`score_compare()`,
+  `score_transcript()`), the acceptance rule (`accept()`), `run_checkers()`.
+- `build/audio_api.py`: OpenRouter calls (TTS, audio-input chat, cost lookup) and MP3
+  encoding (`lameenc`, or ffmpeg).
+- `build/audio_pipeline.py`: `status`, `plan`, `run`, `publish`, `testset` (voice pilot),
+  `undetermined`.
+- `build/audio_regression.py`: reruns the checks on the regression clips (`make audio-regression`).
+- `build/tests/test_audio.py`: unit tests for the deterministic parts.
+- `build/check_no_binaries.py`: CI gate; no audio file may be added to je-dict-1 outside
+  `audio/regression/`.
+- `audio/config.json`: models, checkers, rule, attempts, bit rate, voices, audio stores.
+- `audio/testset/`: the 100 test sentences (hand-written readings for the digit/Latin ones),
+  Tom's ratings, the particle test.
+- `audio/regression/`: the 163 clips, `index.json` (clip, prompt, voice, known answer;
+  `audible` marks whether an injected error survived into the audio), `history.jsonl` (one
+  line per regression run) and `last_run.json` (every verdict of the latest baseline run).
 
-Dependencies: `requests`, `fugashi`, `unidic-lite`; ffmpeg (or `lameenc`); `OPENROUTER_API_KEY`.
+Dependencies: `make audio-deps` (`build/requirements-audio.txt`: fugashi, unidic-lite,
+lameenc, miniaudio, requests) and `OPENROUTER_API_KEY`. On the Routine's Debian Python,
+unidic-lite only builds after `pip install -U setuptools`; the make target does that.
+
+`audio-reference/scripts/` keeps the research code of the local experiment for reference
+(prompt strategies A–H, the choice checker, the latent-class analysis). It is not used by
+production.
 
 ## 12. Decisions for Tom
 
@@ -328,3 +337,28 @@ Dependencies: `requests`, `fugashi`, `unidic-lite`; ffmpeg (or `lameenc`); `OPEN
 
 - 2026-09-25: first version (workflow v2), from the local experiment "20260924 Japanese TTS
   test for dictionary examples".
+- 2026-09-25: ported into je-dict-1 (`build/audio_*.py`, section 11). Evidence that the port is
+  faithful: on all 100 test sentences, prompt E's transcript and the phonetic reading are
+  identical to the research code's (reading index rebuilt from the current dictionary); the
+  scoring gives the same verdict on all 652 checker replies of the regression run. Regression
+  run with the ported code: 44/44 audible injected errors caught, 3/3 of Tom's errors caught,
+  8 false alarms on the 108 clips Tom rated correct, $0.25 (`audio/regression/history.jsonl`).
+- 2026-09-25: the 6 inaudible injected clips are now labelled in `audio/regression/index.json`
+  (`"audible": false`): うわて, ついたち, いちば, ごりやく, にっぽん (the TTS said the right reading)
+  and しきし (the TTS said いろはら: wrong, but not the injected reading; the checks reject it).
+  One run's own transcribers cannot decide audibility reliably (もっか was heard by only one
+  of three), so it is fixed data now.
+- 2026-09-25: the recording's text hash is SHA-256 of the example with link markup removed and
+  furigana kept (`text_hash()`), not of the raw `japanese` field: the linker adds and removes
+  links without changing what is said, and a hash over links would invalidate recordings for
+  nothing. The manifest stores its first 16 hex digits.
+- 2026-09-25: the particle-aware compare now lists alternative readings separated by " / "
+  and says all are acceptable, as section 6 always described; the research code gave it only
+  the first reading. Affects only examples with hand-written alternatives (none in
+  production yet).
+- 2026-09-25: bit rate. The regression clips re-encoded (decoded and encoded again, so worse
+  than production) at 48 kbps and at 32 kbps, two runs each: 44/44 and 3/3 in all four runs;
+  false alarms 8 and 13 (48 kbps), 11 and 9 (32 kbps) against 8 at 64 kbps. Run-to-run noise
+  is of that size, so detection does not depend on bit rate down to 32 kbps. Production uses
+  48 kbps (about 2.6 GB for the dictionary); 32 kbps (about 1.7 GB) is Tom's call after
+  listening.

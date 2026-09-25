@@ -1,4 +1,4 @@
-.PHONY: gate test install-hooks metrics-page validate validate-articles validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
+.PHONY: gate audio-deps audio-status audio-regression test install-hooks metrics-page validate validate-articles validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
 
 validate:
 	python3 build/validate.py
@@ -23,6 +23,7 @@ gate:
 	python3 build/check_note_headers.py --gate
 	python3 build/check_link_baseform.py --gate
 	python3 build/check_link_homophones.py --gate
+	python3 build/check_no_binaries.py
 
 index: validate
 	python3 build/update_indexes.py
@@ -117,3 +118,15 @@ install-hooks:
 
 metrics-page:
 	python3 pipeline/metrics_report.py
+
+# Example audio (AUDIO_WORKFLOW.md). audio-deps: MeCab/UniDic and the MP3 encoder.
+audio-deps:
+	pip install -q -U setuptools || true
+	pip install -q -r build/requirements-audio.txt
+
+audio-status:
+	python3 build/audio_pipeline.py status
+
+# Rerun the checks on the 163 regression clips (about $0.25); required before any workflow change.
+audio-regression:
+	python3 build/audio_regression.py

@@ -1,0 +1,10 @@
+# Example-audio workflow (AUDIO_WORKFLOW.md; build/audio_*.py).
+# MeCab with UniDic-lite: expected and phonetic readings, prompt E's kana substitution.
+# On Debian/Ubuntu system Python, unidic-lite needs a current setuptools first:
+#   pip install -U setuptools && pip install -r build/requirements-audio.txt
+fugashi>=1.3
+unidic-lite>=1.0.8
+# MP3 encoding without ffmpeg; MP3 decoding for the regression suite's --kbps option
+lameenc>=1.7
+miniaudio>=1.59
+requests>=2.28
