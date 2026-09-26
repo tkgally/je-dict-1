@@ -115,7 +115,7 @@
     },
     {
       "id": "15610_rikisou_ex2",
-      "japanese": "⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧{力走|りきそう}⟦して→する：00392_suru⟧、⟦ゴール→ゴール：03845_gooru⟧⟦に→に：00314_ni⟧たどり{着|つ}いた。",
+      "japanese": "⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧{力走|りきそう}⟦して→する：00392_suru⟧、⟦ゴール→ゴール：03845_gooru⟧⟦に→に：00314_ni⟧たどり⟦{着|つ}いた→着く：00680_tsuku⟧。",
       "english": "He ran with all his might to the end and reached the finish line.",
       "notes": null,
       "has_audio": false,
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:09:07Z",
-    "modified": "2026-09-02T04:01:41Z",
+    "modified": "2026-09-26T03:50:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "movement",
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }
