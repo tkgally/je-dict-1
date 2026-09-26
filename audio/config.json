@@ -1,9 +1,9 @@
 {
   "_doc": "Settings for the example-audio workflow (AUDIO_WORKFLOW.md). Changing tts_model, prompt_strategy, checkers, rule or mp3_kbps is a workflow change: rerun the regression suite (python3 build/audio_regression.py) first and log it in the AUDIO_WORKFLOW.md changelog.",
   "production": {
-    "enabled": true,
-    "since": "2026-09-25",
-    "reason": "audio repository tkgally/je-dict-audio-1 in place; first 308 recordings published"
+    "enabled": false,
+    "since": "2026-09-26",
+    "reason": "checker thinkingmachines/inkling rejects MP3 input since 2026-09-26 (OpenRouter error: 'unsupported audio format (only WAV is supported)'); every check returned n/a, so clips were accepted on three checkers and ~5-9% were left for a human. Resume after the checker gets WAV input (or is replaced), audio_regression.py passes and the changelog records it."
   },
   "workflow_version": "v2",
   "tts_model": "google/gemini-3.8-flash-tts",
