@@ -25,7 +25,7 @@
     },
     {
       "id": "20993_sensuisuru_ex2",
-      "japanese": "⟦{潜水艦|せんすいかん}→潜水艦：15701_sensuikan⟧⟦が→が：00051_ga⟧⟦{深|ふか}く→深い：01211_fukai⟧{潜水|せんすい}した。",
+      "japanese": "⟦{潜水艦|せんすいかん}→潜水艦：15701_sensuikan⟧⟦が→が：00051_ga⟧⟦{深|ふか}く→深い：01211_fukai⟧⟦{潜水|せんすい}→潜水：14817_sensui⟧した。",
       "english": "The submarine submerged deep underwater.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20993_sensuisuru_ex3",
-      "japanese": "⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧⟦から→から：00504_kara⟧、⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧{潜水|せんすい}した{時|とき}⟦は→は：00079_ha⟧⟦{感動|かんどう}した→感動する：21603_kandousuru⟧。",
+      "japanese": "⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧⟦から→から：00504_kara⟧、⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{潜水|せんすい}→潜水：14817_sensui⟧した{時|とき}⟦は→は：00079_ha⟧⟦{感動|かんどう}した→感動する：21603_kandousuru⟧。",
       "english": "I was moved when I dived alone for the first time after getting certified.",
       "sense_numbers": [
         1
@@ -61,6 +61,13 @@
       "reading": "すもぐり",
       "headword": "{素潜|すもぐ}り",
       "label": "free diving, skin diving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05238_daibingu",
+      "reading": "だいびんぐ",
+      "headword": "ダイビング",
+      "label": "diving"
     }
   ],
   "metadata": {
@@ -75,10 +82,11 @@
         "action",
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-31T09:51:08Z",
-    "modified": "2026-09-02T04:02:01Z"
+    "modified": "2026-09-26T22:40:26Z"
   },
   "conjugation": {
     "type": "suru",
