@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-09-18",
+ "updated": "2026-09-26",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -20810,6 +20810,18 @@
     "reviewed": 2,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "むしる": {
+   "target": "31036_mushiru",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "The verb 'むしる' is almost exclusively written in kana and has no common homophones or alternative grammatical interpretations.",
+    "model": "google/gemini-2.5-flash",
+    "date": "2026-09-26"
    }
   },
   "むしろ": {
