@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18620_tanshinfunin_ex1",
-      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{単身|たんしん}{赴任|ふにん}{中|ちゅう}だ。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{単身|たんしん}{赴任|ふにん}⟦{中|ちゅう}→〜中：09840_chuu⟧だ。",
       "english": "My father is currently living away from us for work.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA very common term in Japanese corporate life. Companies frequently transfer employees to branch offices across the country, and many workers choose to go alone rather than uproot their families, especially if children are in school.\n\nCOMMON COLLOCATIONS:\n- {単身|たんしん}{赴任|ふにん}{中|ちゅう} (currently on solo transfer)\n- {単身|たんしん}{赴任|ふにん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (life away from family for work)\n- {単身|たんしん}{赴任|ふにん}{手当|てあて} (solo transfer allowance)\n- {単身|たんしん}{赴任|ふにん}{先|さき} (transfer destination)",
+  "notes": "USAGE:\nA very common term in Japanese corporate life. Companies frequently transfer employees to branch offices across the country, and many workers choose to go alone rather than uproot their families, especially if children are in school.\n\nCOMMON COLLOCATIONS:\n- {単身|たんしん}{赴任|ふにん}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently on solo transfer)\n- {単身|たんしん}{赴任|ふにん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (life away from family for work)\n- {単身|たんしん}{赴任|ふにん}⟦{手当|てあて}→手当：04881_teate⟧ (solo transfer allowance)\n- {単身|たんしん}{赴任|ふにん}⟦{先|さき}→先：02883_saki⟧ (transfer destination)",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-09-02T04:01:52Z",
+    "modified": "2026-09-26T21:18:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +155,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

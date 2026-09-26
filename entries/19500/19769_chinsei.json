@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19769_chinsei_ex1",
-      "japanese": "{鎮静|ちんせい}{剤|ざい}⟦を→を：00422_wo⟧⟦{投与|とうよ}→投与：12894_touyo⟧⟦する→する：00392_suru⟧。",
+      "japanese": "{鎮静|ちんせい}⟦{剤|ざい}→〜剤：30790_zai⟧⟦を→を：00422_wo⟧⟦{投与|とうよ}→投与：12894_touyo⟧⟦する→する：00392_suru⟧。",
       "english": "To administer a sedative.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19769_chinsei_ex3",
-      "japanese": "⟦{検査|けんさ}→検査：02707_kensa⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{鎮静|ちんせい}{剤|ざい}⟦で→で：00502_de⟧{眠|ねむ}らされる⟦の→の：09472_no⟧で、⟦{痛|いた}み→痛み：01795_itami⟧⟦は→は：00079_ha⟧⟦{感|かん}じません→感じる：02044_kanjiru⟧。",
+      "japanese": "⟦{検査|けんさ}→検査：02707_kensa⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{鎮静|ちんせい}⟦{剤|ざい}→〜剤：30790_zai⟧⟦で→で：00502_de⟧{眠|ねむ}らされる⟦の→の：09472_no⟧⟦で→で：00502_de⟧、⟦{痛|いた}み→痛み：01795_itami⟧⟦は→は：00079_ha⟧⟦{感|かん}じません→感じる：02044_kanjiru⟧。",
       "english": "You'll be put to sleep with a sedative before the examination, so you won't feel any pain.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {鎮|ちん} (to suppress, to calm) and {静|せい} (quiet, still). Used both as a noun and as a ⟦する→する：00392_suru⟧ verb ({鎮静|ちんせい}⟦する→する：00392_suru⟧ — to calm down, to subside). Covers both medical sedation and the settling of disturbances.\n\nCOMMON COLLOCATIONS:\n- {鎮静|ちんせい}{剤|ざい} — sedative, tranquilizer\n- {鎮静|ちんせい}⟦{作用|さよう}→作用：05761_sayou⟧ — sedative effect, calming action\n- {鎮静|ちんせい}⟦する→する：00392_suru⟧ — to calm down, to subside\n- ⟦{事態|じたい}→事態：10151_jitai⟧⟦が→が：00051_ga⟧{鎮静|ちんせい}⟦する→する：00392_suru⟧ — the situation calms down\n\nUSAGE:\nIn medical contexts, {鎮静|ちんせい} specifically refers to sedation — putting a patient into a calm or sleepy state. In news and formal writing, it describes the subsiding of social unrest, market turbulence, or other disturbances.\n\nRELATED WORDS:\n- ⟦{鎮痛|ちんつう}→鎮痛：14515_chintsuu⟧ — pain relief; often paired as ⟦{鎮痛|ちんつう}→鎮痛：14515_chintsuu⟧{鎮静|ちんせい} (pain relief and sedation)\n- {沈静|ちんせい} — subsiding, dying down; homophone with slightly different nuance, emphasizing natural quieting\n- ⟦{安静|あんせい}→安静：12267_ansei⟧ — rest, repose; describes the state of being still and resting",
+  "notes": "Composed of {鎮|ちん} (to suppress, to calm) and {静|せい} (quiet, still). Used both as a noun and as a ⟦する→する：00392_suru⟧ verb ({鎮静|ちんせい}⟦する→する：00392_suru⟧ — to calm down, to subside). Covers both medical sedation and the settling of disturbances.\n\nCOMMON COLLOCATIONS:\n- {鎮静|ちんせい}⟦{剤|ざい}→〜剤：30790_zai⟧ — sedative, tranquilizer\n- {鎮静|ちんせい}⟦{作用|さよう}→作用：05761_sayou⟧ — sedative effect, calming action\n- {鎮静|ちんせい}⟦する→する：00392_suru⟧ — to calm down, to subside\n- ⟦{事態|じたい}→事態：10151_jitai⟧⟦が→が：00051_ga⟧{鎮静|ちんせい}⟦する→する：00392_suru⟧ — the situation calms down\n\nUSAGE:\nIn medical contexts, {鎮静|ちんせい} specifically refers to sedation — putting a patient into a calm or sleepy state. In news and formal writing, it describes the subsiding of social unrest, market turbulence, or other disturbances.\n\nRELATED WORDS:\n- ⟦{鎮痛|ちんつう}→鎮痛：14515_chintsuu⟧ — pain relief; often paired as ⟦{鎮痛|ちんつう}→鎮痛：14515_chintsuu⟧{鎮静|ちんせい} (pain relief and sedation)\n- {沈静|ちんせい} — subsiding, dying down; homophone with slightly different nuance, emphasizing natural quieting\n- ⟦{安静|あんせい}→安静：12267_ansei⟧ — rest, repose; describes the state of being still and resting",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -179,9 +179,10 @@
         "health",
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-03-26T23:24:44Z",
-    "modified": "2026-09-02T04:01:57Z"
+    "modified": "2026-09-26T21:18:09Z"
   }
 }
