@@ -115,6 +115,15 @@ def generate_word_lookup():
         'by_headword': dict(sorted(by_headword.items()))
     }
 
+    # Keep the old "generated" stamp when nothing else changed (no timestamp-only diffs)
+    try:
+        previous = json.loads(Path(output_file).read_text(encoding='utf-8'))
+        if {**previous, 'metadata': {**previous['metadata'], 'generated': None}} == \
+                {**lookup, 'metadata': {**lookup['metadata'], 'generated': None}}:
+            lookup['metadata']['generated'] = previous['metadata']['generated']
+    except (OSError, ValueError, KeyError, TypeError):
+        pass
+
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(lookup, f, ensure_ascii=False, indent=2)
 

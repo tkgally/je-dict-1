@@ -2,13 +2,12 @@
 
 Add new entries to the Japanese-English learner's dictionary from candidate_words.json.
 
-## Pre-flight: sweep stranded PRs
+## Pre-flight and wrap-up
 
-**Run this as the first step of every session, before you read any candidate or entry data.**
-
-Perform the stranded-PR sweep **via MCP**, as described in `CLAUDE.md` → "Sweep stranded PRs via MCP" (`mcp__github__list_pull_requests` → for each open `claude/*` PR, `mcp__github__pull_request_read` `method: "get_files"` → close the ones whose maximum entry ID is below `polishing/tasks/comprehensive/progress.txt`'s `next:` value). It will never close a new-entries PR by accident — those entries always have IDs far above the comprehensive-polish cursor.
-
-**Do not run `pipeline/sweep-stranded-prs.py`** — direct GitHub REST returns HTTP 403 in the Routine/web environment, so it's a no-op there (it now exits cleanly with a pointer to the MCP procedure).
+In the Routine, `prompts/routine2.md` does the pre-flight (§0: rescue and sweep open PRs) and the
+wrap-up (§5–§7: metrics, session log, `make gate`, `make index`, PR, CI, merge). In an
+interactive session, follow CLAUDE.md ("Sessions: start, work, finish" and "PR, CI, and merge
+workflow"). This prompt covers only creating the entries.
 
 ## Per-session budget
 
@@ -128,9 +127,7 @@ grep -B1 -A3 -E '"seen in entry|used in' candidate_words.json | head -80
    python3 build/add_adjective_conjugations.py            # Conjugation tables for new i-adjectives
    python3 build/update_indexes.py                        # Sync candidate_words.json, word lookup
    python3 build/update_kanji_index.py --check-new        # New kanji need on'yomi, kun'yomi, gloss
-   python3 build/normalize_notes.py --ids <ids> --apply   # Canonical headers, '- ' bullets
-   python3 build/auto_link.py --ids <ids> --apply --confirm-real-entries   # Unambiguous inline links in the new entries
-   python3 build/harvest_crossrefs.py --ids <ids> --apply # Cross-references named in the notes
+   make mechanical IDS=<ids>                              # Notes, inline links, cross-references, validation
    python3 build/check_stale_noentry.py --class A1 A2 --json   # Markers elsewhere now resolvable by the new entries
    python3 build/check_link_newcomers.py --since $(date -u +%Y-%m-%d) --json  # Links whose word just gained a homograph
    python3 build/check_link_homophones.py --unscreened          # Kana words the homophone list does not know yet
@@ -154,7 +151,7 @@ grep -B1 -A3 -E '"seen in entry|used in' candidate_words.json | head -80
 
 ## Critical Rules
 
-- **NEVER add inline word links (⟦...⟧)** - Inline links are added in a separate polishing step using `prompts/polish_add_inline_links.md`. Do NOT add links when creating entries.
+- **NEVER hand-write inline word links (⟦...⟧)** - `build/auto_link.py` places them in the mechanical pass after the entries are written (routine2.md §3).
 - **NEVER create an entry without first running `check_duplicate.py`** - this is the #1 cause of duplicates
 - Each entry must be written individually (no automation scripts)
 - **All explanations must be in English** - Definitions, notes, etymology, usage explanations, and cultural context must be in English. Japanese text appears only in example phrases, collocations, and patterns — never as explanatory prose. This is a bilingual dictionary for English-speaking learners.
@@ -406,36 +403,9 @@ All required fields per the `example-sentences` skill:
 
 ## PR and merge workflow
 
-Follow the workflow described in CLAUDE.md under "End-of-session PR and merge workflow." For Routine and any unattended session, use the **MCP path** — the `gh` CLI is not authorized in those environments.
-
-### Before the PR
-
-1. **Run `make index`** (validation plus `entries_index.json`, `build/word_id_lookup.json`, and
-   `kanji/` refresh). Do not run `make build`: the site is built and deployed by the
-   `Build and Deploy Site` workflow after the merge.
-2. **Stage everything** with `git add -A` (entries, indexes, `kanji/`, session logs, candidate list).
-3. **Commit and push** to the feature branch.
-
-### MCP path (Routine / unattended default)
-
-1. Call `mcp__github__create_pull_request` with `owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus a clear title and body. Note the PR number.
-2. **Wait for CI by polling check-runs over MCP** (`pipeline/wait-for-pr-checks.sh` 403s here — do not use it; full loop in `CLAUDE.md` → "MCP path" step 5). Call `mcp__github__pull_request_read` with `method: "get_check_runs"` (**not** `get_status`). *green* = `total_count >= 1` and every run `completed` with `conclusion` `success`/`neutral`/`skipped`; *failed* = any other completed conclusion; *pending* = otherwise. While pending, wait with a backgrounded `sleep 30` (Bash `run_in_background: true`) and re-poll, up to ~16 times (~8 min).
-3. **Merge based on the result**:
-   - **green**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is done.
-   - **failed / still pending at the cap**: leave the PR open, add a one-line note to your session log, and stop. The next Routine session's pre-flight MCP sweep cleans up once main has advanced past the entry range.
-4. **Do not** `git checkout main`, **do not** delete the feature branch from inside this session — the session is on that branch. The repo's "Automatically delete head branches" setting handles remote cleanup once the merge fires.
-
-Do **not** call `mcp__github__enable_pr_auto_merge` from a Routine — it usually fails because the PR is in `unstable` state immediately after creation.
-
-### `gh` path (interactive sessions only)
-
-If `gh` is on PATH and authorized (only true for interactive curator sessions), the equivalent is `gh pr create --repo tkgally/je-dict-1 --head <branch> --base main --title "..." --body "..."` → `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast` → `gh pr merge <number> --repo tkgally/je-dict-1 --squash`. Do not wrap `gh pr checks --watch` in a `while`/`sleep`/`curl` loop — `--watch` already waits, and hand-rolled streaming loops get routed through Monitor, which can deadlock unattended sessions.
-
-### CRITICAL — both paths
-
-The PR must include the refreshed indexes (`entries_index.json`, `build/word_id_lookup.json`,
-`kanji/`). Without them the next session starts from stale lookups. `docs/` is no longer
-committed (since 2026-09-02).
+See "Pre-flight and wrap-up" above: the PR, CI and merge steps are in `prompts/routine2.md` §7
+and CLAUDE.md. The PR must include the refreshed indexes from `make index`
+(`entries_index.json`, `build/word_id_lookup.json`, `kanji/`).
 
 ## If Duplicates Are Found During Validation
 

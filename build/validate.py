@@ -628,7 +628,7 @@ def check_katakana_readings(entries_data: list[tuple[Path, dict]]) -> list[tuple
             errors.append((
                 file_path,
                 f"Reading '{reading}' contains katakana. Readings must be in hiragana only. "
-                f"Use: python3 build/fix_katakana_readings.py to fix."
+                f"Write the reading in hiragana (a katakana headword keeps its katakana; only the reading changes)."
             ))
 
     return errors

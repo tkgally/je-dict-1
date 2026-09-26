@@ -22,24 +22,11 @@ When a polishing session starts, read this skill, then read the specific prompt 
 7. Writes a session log to `polishing/sessions/comprehensive_{YYYY-MM-DD}_{NNN}.md`.
 8. Runs `make index`, commits, and creates a PR following the end-of-session workflow in `CLAUDE.md` (the site is built by GitHub Actions after the merge).
 
-The comprehensive task subsumes the targeted polish prompts listed below. Use it unless you have a specific reason to run a focused sweep.
-
-## Targeted polish tasks (special-purpose)
-
-| Prompt file | Focus | Progress file |
-|---|---|---|
-| `prompts/polish_furigana_completeness.md` | Add missing furigana | `polishing/tasks/furigana-completeness/progress.txt` |
-| `prompts/polish_furigana_correctness.md` | Verify reading correctness | `polishing/tasks/furigana-correctness/progress.txt` |
-| `prompts/polish_example_sentences.md` | Example count, tier compliance, length progression | `polishing/tasks/example-sentences/progress.txt` |
-| `prompts/polish_add_inline_links.md` | Add `⟦…⟧` cross-reference links | `polishing/tasks/inline-links/progress.txt` |
-| `prompts/polish_semantic_labels.md` | Verify semantic tags | `polishing/tasks/semantic-labels/progress.txt` |
-| `prompts/polish_verb_transitivity.md` | Add transitivity tags and pair links | `polishing/tasks/verb-transitivity/progress.txt` |
-| `prompts/polish_aspect_notes.md` | Document non-obvious ている behavior | `polishing/tasks/aspect-notes/progress.txt` |
-| `prompts/expand-short-notes.md` | Expand inadequate notes | `polishing/tasks/expand-short-notes/progress.txt` |
-| `prompts/add_cross-references.md` | Add `prominent_see_also` and `cross_references` | `polishing/tasks/cross-references/` (varies) |
-| `prompts/polish_cross_model_review.md` | Apply multi-model review corrections | `polishing/tasks/cross-model-review/progress.txt` |
-
-Each targeted prompt advances its own progress pointer. They remain available for occasional focused work but are not the default workflow.
+The comprehensive task subsumes the older targeted polish prompts (furigana, example sentences,
+inline links, semantic labels, transitivity, aspect notes, short notes, cross-references,
+cross-model review). Those prompts are retired and kept for reference in `archive/prompts/`;
+inline links and cross-references named in notes are now placed by deterministic scripts
+(`build/auto_link.py`, `build/harvest_crossrefs.py`).
 
 ## Progress files
 

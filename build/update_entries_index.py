@@ -110,6 +110,15 @@ def update_entries_index():
     }
 
     # Write index file
+    # Keep the old "generated" stamp when nothing else changed (no timestamp-only diffs)
+    try:
+        previous = json.loads(Path(index_file).read_text(encoding='utf-8'))
+        if {**previous, 'metadata': {**previous['metadata'], 'generated': None}} == \
+                {**index_data, 'metadata': {**index_data['metadata'], 'generated': None}}:
+            index_data['metadata']['generated'] = previous['metadata']['generated']
+    except (OSError, ValueError, KeyError, TypeError):
+        pass
+
     with open(index_file, 'w', encoding='utf-8') as f:
         json.dump(index_data, f, ensure_ascii=False, indent=2)
 

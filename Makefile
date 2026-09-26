@@ -1,4 +1,4 @@
-.PHONY: gate audio-deps audio-status audio-regression test install-hooks metrics-page validate validate-articles validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
+.PHONY: gate mechanical audio-deps audio-status audio-regression test install-hooks metrics-page validate validate-articles validate-changed index build quick check-furigana check-kanji report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status
 
 validate:
 	python3 build/validate.py
@@ -25,6 +25,15 @@ gate:
 	python3 build/check_link_homophones.py --gate
 	python3 build/check_no_binaries.py
 
+# The deterministic pass after changing entries (CLAUDE.md, routine2.md §3):
+#   make mechanical IDS=00426,31073
+mechanical:
+	@test -n "$(IDS)" || { echo "usage: make mechanical IDS=<comma-separated entry IDs>"; exit 2; }
+	python3 build/normalize_notes.py --ids $(IDS) --apply
+	python3 build/auto_link.py --ids $(IDS) --apply --confirm-real-entries
+	python3 build/harvest_crossrefs.py --ids $(IDS) --apply
+	@for i in $$(echo "$(IDS)" | tr ',' ' '); do python3 build/validate.py --id $$i || exit 1; done
+
 index: validate
 	python3 build/update_indexes.py
 	python3 build/update_kanji_index.py
@@ -43,9 +52,6 @@ check-furigana:
 
 check-kanji:
 	python3 build/verify_kanji_index.py
-
-stats:
-	python3 build/tag_statistics.py
 
 report:
 	python3 build/report.py
@@ -85,27 +91,6 @@ consistency:
 
 lock-status:
 	python3 build/entry_lock.py status
-
-queue-populate:
-	python3 pipeline/task_queue.py populate --all
-
-queue-status:
-	python3 pipeline/task_queue.py status
-
-queue-cleanup:
-	python3 pipeline/task_queue.py cleanup
-
-orchestrate:
-	python3 pipeline/orchestrator.py start
-
-orchestrate-status:
-	python3 pipeline/orchestrator.py status
-
-orchestrate-stop:
-	python3 pipeline/orchestrator.py stop
-
-monitor:
-	python3 pipeline/monitor.py
 
 full: clean build
 

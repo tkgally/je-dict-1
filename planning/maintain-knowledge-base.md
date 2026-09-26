@@ -48,7 +48,9 @@ retired; its history is in git.
    detector exists, rerun the detector's `--summary` and update
    `scope_estimate`; mark items with zero scope `resolved` with today's date.
    Keep the prose backlog pages consistent with the JSON only where they
-   disagree; the JSON is the source of truth.
+   disagree; the JSON is the source of truth. When an item is resolved or
+   retired, move its section from `cleanup-backlog.md` / `tooling-backlog.md`
+   to the matching `-resolved.md` page and point the item's `source` there.
 4. **Regenerate the metrics page**:
    ```bash
    python3 pipeline/metrics_report.py

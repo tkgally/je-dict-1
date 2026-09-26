@@ -130,7 +130,7 @@ CONCRETE_TAG_KEYWORDS = {
 # These two checks carve the *batch-ready* slices out of the noisy
 # semantic-mismatch heuristic. Both were calibrated against the 5700-6340 dense
 # block (the highest-density P11 pocket; see cleanup-backlog.md P11 update
-# 2026-06-17) before shipping — see prompts/fix_semantic_tag_drift.md for the
+# 2026-06-17) before shipping — see archive/prompts/fix_semantic_tag_drift.md for the
 # measured precision/recall.
 
 # Physical-object / creature domains that essentially never apply to an abstract

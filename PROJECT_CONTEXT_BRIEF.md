@@ -23,25 +23,26 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 4. **New entries include** `"schema_version": "2.0"` in metadata.
 5. **Run duplicate check before creating any entry**: `python3 build/check_duplicate.py --skip-candidates "word" "reading"`
 6. **Timestamps from script only**: `python3 build/get_timestamp.py`
-7. **Never add inline word links (⟦...⟧) during entry creation** — those are added in a separate polishing step.
+7. **Inline links are placed by `build/auto_link.py`**, never by hand (CLAUDE.md, Entry rules).
 
 ## Essential Commands
 
 ```bash
-make validate              # Validate all entries
-make build                 # Full pipeline: validate + update_indexes + build
-make quick                 # Incremental build (changed entries only)
-make report                # Dictionary health dashboard
-python3 build/get_entry_path.py <reading> <id>   # Correct file path for an entry
+python3 build/get_next_id.py                      # Fresh ID, immediately before each new entry
+python3 build/get_entry_path.py <id> <romaji>     # Correct file path for an entry
 python3 build/get_timestamp.py                    # UTC timestamp for metadata
-python3 build/check_duplicate.py "word" "reading" # Duplicate check
+python3 build/check_duplicate.py --skip-candidates "word" "reading"   # Duplicate check
+make mechanical IDS=<ids>  # After changing entries: notes, links, cross-references, validation
+make gate                  # The checks CI runs on a PR
+make index                 # Indexes, kanji, has_audio flags (last step before commit)
+make report                # Dictionary health dashboard
 ```
 
 ## File Placement
 
 - Path: `entries/{range}/{id}_{romaji}.json`
 - Range = ID rounded down to nearest 500 (e.g., 31074 → `entries/31000/`)
-- Use `python3 build/get_entry_path.py <reading> <id>` to confirm
+- Use `python3 build/get_entry_path.py <id> <romaji>` to confirm
 
 ## Vocabulary Tier Policy
 
@@ -53,8 +54,8 @@ python3 build/check_duplicate.py "word" "reading" # Duplicate check
 
 Detailed task instructions live in `.claude/skills/`. Start with `entry-guidelines` for general quality standards. Use `verb-entry`, `adjective-entry`, `particle-entry`, or `other-entries` for type-specific guidance.
 
-## After Each Session
+## Finishing a Session
 
-1. Run `make build` (or `make quick` for incremental).
-2. Update `PROJECT_STATUS.md` Recent Changes section (keep only 5 most recent; rotate oldest to archive).
-3. Commit and push.
+Follow CLAUDE.md ("Sessions: start, work, finish"): `make gate`, then `make index`, commit
+everything, push, open the PR, wait for CI, squash-merge. Do not run `make build` or commit
+`docs/`: GitHub Actions builds and deploys the site after the merge.

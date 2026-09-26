@@ -163,9 +163,9 @@ a fix for a problem found across many entries, new entries for words the diction
 does not define, or example audio. The session then:
 
 1. makes its changes following the guidelines in `.claude/skills/`;
-2. runs the deterministic passes: note formatting (`build/normalize_notes.py`), inline links
-   (`build/auto_link.py`, which uses the SudachiPy morphological analyzer), and cross-references
-   named in notes (`build/harvest_crossrefs.py`);
+2. runs the deterministic passes (`make mechanical`): note formatting
+   (`build/normalize_notes.py`), inline links (`build/auto_link.py`, which uses the SudachiPy
+   morphological analyzer), and cross-references named in notes (`build/harvest_crossrefs.py`);
 3. has a model from another company review the changed entries (`build/review_accuracy.py` and
    `build/review_links.py`, through OpenRouter) and decides on each point it raises, logging the
    decision in `reviews/decisions.jsonl`;
@@ -199,9 +199,12 @@ planning/wiki/    Research notes on Japanese lexicography and the project backlo
 polishing/        Progress of the polishing passes, session logs, observations
 reviews/          Review decisions, accuracy flags, questions for the editor
 .github/workflows CI checks on pull requests; site build and deployment
+archive/          Prompts, plans and logs from earlier stages of the project, kept for the record
 ```
 
 `CLAUDE.md` is the working guide for Claude sessions; `PROJECT_STATUS.md` records recent history.
+`planning/LLM-wiki.md` is Andrej Karpathy's "LLM wiki" pattern, on which the knowledge base in
+`planning/wiki/` is modelled.
 
 ## Building the site locally
 

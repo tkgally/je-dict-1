@@ -35,10 +35,12 @@ prompts/            Task prompts; prompts/routine2.md is the scheduled Routine
 planning/wiki/      Knowledge base (research library + backlog); planning/maintain-knowledge-base.md
 polishing/          Cursors (tasks/), priority lists (priority/), session logs (sessions/), observations.md
 reviews/            decisions.jsonl (adjudications), accuracy_flags.jsonl, screening/screening_status.json,
-                    queue.txt, needs_curator.txt. Per-entry review files are local artifacts (gitignored).
+                    queue.txt (appended by `make index`), needs_curator.txt. Per-entry review files are local
+                    artifacts (gitignored).
 candidate_words.json  Words queued for entry creation (internal-closure queue)
 .claude/skills/     Detailed guidelines (entry-guidelines, verb-entry, vocabulary-notes, inline-word-links, …)
-.github/workflows/  validate.yml (PR gates + tests), pages.yml (site build + deploy), review-queue.yml, update-brief.yml
+.github/workflows/  validate.yml (PR gates + tests), pages.yml (site build + deploy)
+archive/            Retired prompts, plans, old session logs and sweep snapshots (nothing reads them; archive/README.md)
 ```
 
 ## Entry rules
@@ -111,10 +113,7 @@ skill for the entry type you touch.
 **After changing entries**, in this order:
 
 ```bash
-python3 build/normalize_notes.py --ids <ids> --apply
-python3 build/auto_link.py --ids <ids> --apply --confirm-real-entries
-python3 build/harvest_crossrefs.py --ids <ids> --apply
-python3 build/validate.py --id <id>            # each changed entry
+make mechanical IDS=<ids>      # normalize_notes → auto_link → harvest_crossrefs → validate each
 python3 build/review_accuracy.py --ids <ids> --budget 0.40   # independent check (needs OPENROUTER_API_KEY)
 python3 build/review_links.py --ids <ids> --skip-decided --budget 0.10   # kana links checked in context (same key)
 ```
@@ -126,7 +125,8 @@ unlinks.
 
 **Finish**: `make gate` (exactly the checks CI runs on a PR: unit tests, full validation, the
 ratchet gates on changed entries; fix what it reports), then `make index` (`entries_index.json`,
-`build/word_id_lookup.json`, `kanji/`). Do not run `make build` and do not commit `docs/`: the site
+`build/word_id_lookup.json`, `kanji/`, the examples' `has_audio` flags, this branch's changed entries in
+`reviews/queue.txt`, and `PROJECT_CONTEXT_BRIEF.md`). Do not run `make build` and do not commit `docs/`: the site
 is built and deployed by GitHub Actions when the PR merges. Commit everything else with
 `git add -A`, push, open the PR, wait for CI, squash-merge. Push nothing more after opening the
 PR: each push starts a new CI run.

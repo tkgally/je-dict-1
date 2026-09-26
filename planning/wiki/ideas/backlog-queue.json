@@ -22,7 +22,7 @@
     {
       "id": "mojibake-ufffd",
       "title": "U+FFFD replacement-character mojibake in entry text (kanji/readings/inline-link markers)",
-      "source": "ideas/tooling-backlog.md#16",
+      "source": "ideas/tooling-backlog-resolved.md#16",
       "detect": "python3 build/check_mojibake.py --json",
       "filter": "Reconstruct each U+FFFD-run from context: the standard reading of the wrapper's kanji, the headword/reading, or the inline-link delimiter (⟦ ⟧ → ：). Bulk-fix structural-marker and fixed-reading runs; handle ambiguous runs individually.",
       "fix_type": "verify",
@@ -38,7 +38,7 @@
     {
       "id": "artifact-teiru-brace",
       "title": "{ている} furigana-brace artifact in notes/examples",
-      "source": "ideas/cleanup-backlog.md#priority-15",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-15",
       "detect": "python3 build/check_artifacts.py --issue teiru-brace --json",
       "fix_type": "mechanical-safe",
       "verify": "per-entry",
@@ -53,7 +53,7 @@
     {
       "id": "artifact-register-trailer",
       "title": "[Register: ...] legacy trailer in notes",
-      "source": "ideas/cleanup-backlog.md#priority-16",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-16",
       "detect": "python3 build/check_artifacts.py --issue register-trailer --json",
       "fix_type": "verify",
       "verify": "per-entry",
@@ -68,7 +68,7 @@
     {
       "id": "furigana-slash-reading",
       "title": "Dual-reading furigana with slash separators",
-      "source": "ideas/cleanup-backlog.md#priority-12",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-12",
       "detect": "python3 build/check_furigana_format.py --json",
       "filter": "subpattern == 'slash-reading'",
       "fix_type": "verify",
@@ -100,7 +100,7 @@
     {
       "id": "tag-conjugation-no-verb-pos",
       "title": "Conjugation field on a non-verb / non-i-adjective entry",
-      "source": "ideas/cleanup-backlog.md#priority-6",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-6",
       "detect": "python3 build/check_tag_drift.py --check conjugation-no-verb-pos --json",
       "fix_type": "verify",
       "verify": "per-entry",
@@ -115,7 +115,7 @@
     {
       "id": "tag-politeness-unsupported",
       "title": "politeness=humble/honorific with no supporting notes",
-      "source": "ideas/cleanup-backlog.md#priority-7",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-7",
       "detect": "python3 build/check_tag_drift.py --check politeness-unsupported --json",
       "fix_type": "semantic",
       "verify": "per-entry",
@@ -276,7 +276,7 @@
     {
       "id": "entry-missing-vocabulary-tier",
       "title": "20 entries (29181-29200) missing metadata.vocabulary_tier",
-      "source": "ideas/cleanup-backlog.md#priority-23",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-23",
       "detect": "python3 -c \"import json,glob; [print(json.load(open(f)).get('id')) for f in glob.glob('entries/*/[0-9]*.json') if json.load(open(f)).get('metadata',{}).get('vocabulary_tier') not in ('basic','core','general')]\"",
       "fix_type": "mechanical-safe",
       "verify": "spot-check",
@@ -291,7 +291,7 @@
     {
       "id": "inline-link-braced-base-form",
       "title": "Inline-link base forms written with furigana braces instead of plain kanji",
-      "source": "ideas/cleanup-backlog.md#priority-24",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-24",
       "detect": "grep -rlE '→\\{[^}]*\\|[^}]*\\}：' entries/",
       "fix_type": "mechanical-safe",
       "verify": "spot-check",
@@ -394,7 +394,7 @@
     {
       "id": "furigana-latin-in-reading",
       "title": "Latin characters inside furigana readings ({旅|たbi})",
-      "source": "ideas/cleanup-backlog.md#priority-30",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-30",
       "detect": "scan every {kanji|reading} wrapper for [A-Za-z] inside the reading segment",
       "fix_type": "mechanical",
       "verify": "spot-check",
@@ -564,7 +564,7 @@
     {
       "id": "tag-formality-contradicts-register-note",
       "title": "formality: formal on an entry whose own REGISTER line opens 'Informal/Casual'",
-      "source": "ideas/tooling-backlog.md#44",
+      "source": "ideas/tooling-backlog-resolved.md#44",
       "detect": "REGISTER|TONE|STYLE line whose characterization opens Informal/Casual/Colloquial/Slang vs tags.formality == 'formal'",
       "fix_type": "mechanical-safe",
       "verify": "spot-check",
@@ -578,7 +578,7 @@
     {
       "id": "inline-link-stale-noentry",
       "title": "Stale `noentry` inline links whose word now has an entry (123 short-base pairs left, per-entry)",
-      "source": "ideas/cleanup-backlog.md#priority-35-stale-noentry-inline-links--3797-markers-now-resolve-2887-mechanically",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-35-stale-noentry-inline-links--3797-markers-now-resolve-2887-mechanically",
       "detect": "python3 build/check_stale_noentry.py --summary   # read-only; --class A1 A2 / --mechanical / --json",
       "filter": "A1+A2 only. The 903 multi-character (len>=4) pairs were swept 2026-08-08; 180 more short-base pairs (entries 00443-01435) were hand-verified and swept 2026-08-09; a further 178 (entries 01440-02229) on 2026-08-11; a further 180 (entries 02232-03163) on 2026-08-12; a further 181 (entries 03167-03756) on 2026-08-13; a further 174 (entries 03757-04458) on 2026-08-14; a further 176 (entries 04459-04999) on 2026-08-16; a further 179 (entries 05000-05857) on 2026-08-20; a further 173 (entries 05879-06388) on 2026-08-25; a further 177 (entries 06389-06810) on 2026-08-29. 123 pairs remain on 2-3 character bases, which carry a real polysemy rate and need per-entry context reading. Class R (reading mismatch), B, C, D stay out.",
       "fix_type": "verify",
@@ -626,7 +626,7 @@
     {
       "id": "crossref-missing-from-notes-prose",
       "title": "Contrast words named in notes prose but absent from `cross_references`",
-      "source": "ideas/tooling-backlog.md#55-detector-contrast-words-named-in-notes-prose-but-absent-from-cross_references",
+      "source": "ideas/tooling-backlog-resolved.md#55-detector-contrast-words-named-in-notes-prose-but-absent-from-cross_references",
       "detect": "scan notes for a link at the HEAD of its bullet inside a discrimination section (SIMILAR WORDS / CONTRAST / OPPOSITE / COMPARISON / SYNONYMS) and diff its target ID against cross_references + prominent_see_also target IDs",
       "filter": "bullet-leading links only (mid-bullet links are collocational tokens, not the named neighbour); discrimination sections only -- the thematic RELATED* half (1,470 entries / 2,999 refs) needs a convention decision first",
       "fix_type": "verify",
@@ -642,7 +642,7 @@
     {
       "id": "headword-missing-furigana",
       "title": "Headwords written as bare kanji with no furigana braces (248 entries)",
-      "source": "ideas/cleanup-backlog.md#priority-36",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-36",
       "detect": "python3 - <<'PY'  # strip {..|..} from metadata headword, flag any remaining [一-鿿]",
       "filter": "all-kanji headwords first (197, mechanical: {headword|reading}); kana+kanji mixes (51) per-entry for okurigana alignment",
       "fix_type": "verify",
@@ -718,7 +718,7 @@
     {
       "id": "conjugation-potential-of-potential",
       "title": "Conjugation tables publish the potential/passive/imperative of verbs that are already potential (できられる, 見えられる)",
-      "source": "ideas/cleanup-backlog.md#priority-41",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-41",
       "detect": "python3 - : flag entries whose notes/gloss describe the headword as a potential form AND whose conjugation.forms still contains a 'Potential' row; seed list = 00557 dekiru, 01165 mieru, 01229 kikoeru, 02376 toreru, 15166 nemureru, 06957 ikeru, 30367 machikireru",
       "filter": "do NOT use the headword-shape test (-kireru returns 9 but mixes lexicalized potentials with ordinary intransitive pair members like 途切れる/千切れる, whose potential is rare but not ungrammatical)",
       "fix_type": "verify",
@@ -779,7 +779,7 @@
     {
       "id": "inline-link-block-06800-07100",
       "title": "The 06800-07100 block is 96% unlinked (288 of 301 entries have zero inline links)",
-      "source": "ideas/cleanup-backlog.md#priority-43-the-0680007100-block-is-96-unlinked--a-bounded-batch-not-a-frontier-problem",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-43-the-0680007100-block-is-96-unlinked--a-bounded-batch-not-a-frontier-problem",
       "detect": "for each entry in 06800-07100, count ⟦…⟧ spans across examples and notes; report entries with zero",
       "filter": "Run AFTER inline-link-stale-noentry and tooling item 78 (wrong-target detector). Writing 288 entries of new links against a lookup that answers katakana from by_headword only (tooling item 76) manufactures a fresh cohort of spurious noentry markers.",
       "fix_type": "verify",
@@ -896,7 +896,7 @@
     {
       "id": "inline-link-missing-baseform-segment",
       "title": "Inline links missing the base-form segment and full-width colon entirely",
-      "source": "ideas/cleanup-backlog.md#priority-48-inline-links-with-the-base-form-segment-missing-entirely-17-instances--7-entries",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-48-inline-links-with-the-base-form-segment-missing-entirely-17-instances--7-entries",
       "detect": "validate.py already reports these; or scan for link spans containing no full-width colon",
       "filter": null,
       "fix_type": "mechanical",
@@ -982,7 +982,7 @@
     {
       "id": "zero-link-behind-frontier",
       "title": "Zero inline links anywhere, in entries the polish frontier already passed (57)",
-      "source": "ideas/cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46",
       "detect": "entry has >=1 examples[].japanese containing kanji, zero U+27E6 anywhere in the file, and numeric id < comprehensive frontier (next: in polishing/tasks/comprehensive/progress.txt)",
       "filter": "numeric id below the comprehensive frontier ONLY — unfiltered the same scan returns 23,404 entries (77%), which is the frontier position, not a defect",
       "fix_type": "content",
@@ -1068,7 +1068,7 @@
     {
       "id": "bare-kanji-headwords",
       "title": "Kanji headwords with no furigana (259 entries) — invisible to every furigana instrument",
-      "source": "ideas/cleanup-backlog.md#priority-52-kanji-headwords-with-no-furigana-at-all-259-entries--invisible-to-every-furigana-instrument",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-52-kanji-headwords-with-no-furigana-at-all-259-entries--invisible-to-every-furigana-instrument",
       "detect": "re.search(r'[一-鿿]', headword) and '{' not in headword",
       "filter": "split into the easy class (single kanji / opaque compound, reading field covers the whole headword) and the mixed kana-kanji class (言い値, 召し上がる) which needs kana alignment first",
       "fix_type": "content",
@@ -1164,7 +1164,7 @@
     {
       "id": "crossref-bare-target",
       "title": "One-way cross-references whose target holds no references at all (2,183 pairs / 1,550 entries)",
-      "source": "ideas/cleanup-backlog.md#priority-57-cross-reference-targets-that-hold-no-references-of-their-own--1550-entries",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-57-cross-reference-targets-that-hold-no-references-of-their-own--1550-entries",
       "detect": "build/find_merge_candidates.py --asymmetry-only --json, keeping pairs whose target entry has empty cross_references AND empty prominent_see_also",
       "fix_type": "semantic",
       "verify": "per-entry",
@@ -1210,7 +1210,7 @@
     {
       "id": "conjugation-suru-single-kanji-potential",
       "title": "Single-kanji サ変 verbs whose generated potential is 〜できる instead of 〜せる (32 entries)",
-      "source": "ideas/cleanup-backlog.md#priority-59-single-kanji-サ変-verbs-whose-generated-potential-form-is-not-japanese--32-entries",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-59-single-kanji-サ変-verbs-whose-generated-potential-form-is-not-japanese--32-entries",
       "detect": "conjugation.type == 'suru' AND the headword's pre-する portion (furigana stripped) is one character AND the Potential row's affirmative contains できる",
       "fix_type": "mechanical",
       "verify": "spot-check",
@@ -1288,7 +1288,7 @@
     {
       "id": "collocation-heading-synonyms",
       "title": "Collocation/pattern section headings that are near-synonyms of the house standard -- 730 entries",
-      "source": "ideas/cleanup-backlog.md#p63-collocation-section-heading-near-synonyms--730-entries-heading-only-rename",
+      "source": "ideas/cleanup-backlog-resolved.md#p63-collocation-section-heading-near-synonyms--730-entries-heading-only-rename",
       "detect": "line-anchored scan of the notes field for COLLOCATIONS:, PATTERN:, PATTERNS:, USAGE PATTERNS:, KEY PATTERNS:",
       "filter": "whole-line ALL-CAPS heading only; do NOT touch COMMON EXPRESSIONS:/SIMILAR EXPRESSIONS:/RELATED EXPRESSIONS:/PARTICLE PATTERNS:, which are different sections",
       "fix_type": "mechanical",
@@ -1305,7 +1305,7 @@
     {
       "id": "furigana-okurigana-in-ruby",
       "title": "Okurigana swallowed into the furigana ruby ({痛|いたみ} for {痛|いた}み) -- 123 instances",
-      "source": "ideas/cleanup-backlog.md#p64-okurigana-swallowed-into-the-furigana-ruby--123-instances-invisible-to-every-checker",
+      "source": "ideas/cleanup-backlog-resolved.md#p64-okurigana-swallowed-into-the-furigana-ruby--123-instances-invisible-to-every-checker",
       "detect": "build/check_okurigana_ruby.py --json (shipped 2026-09-14)",
       "filter": "reject genuine multi-kana readings ({止|とど} = とどまる), no-separate-kana-slot compounds ({冷|ひや}{奴|やっこ}, {源|みなもとの}{頼朝|よりとも}), on-yomi sokuon assimilation ({悪|あっ}化), and name/nanori readings ({明|あきら} in 黒澤明) -- per-entry check required",
       "fix_type": "per-entry",
@@ -1406,7 +1406,7 @@
     {
       "id": "furigana-kana-only-braces",
       "title": "Furigana braces around kana-only text -- 753 instances, invisible to validate.py",
-      "source": "ideas/cleanup-backlog.md#p69-furigana-braces-around-kana-only-text--529-entries-753-instances",
+      "source": "ideas/cleanup-backlog-resolved.md#p69-furigana-braces-around-kana-only-text--529-entries-753-instances",
       "detect": "regex \\{[^|{}]*\\} in examples and notes where the contents are entirely kana",
       "filter": "split by whether the match sits inside a U+27E6...U+27E7 inline link: ~29 do (mechanical), ~724 do not and include notes that use braces to quote a reading",
       "fix_type": "format",
@@ -1424,7 +1424,7 @@
     {
       "id": "notes-required-section-heading-mismatch",
       "title": "score_note_quality.py does not credit COMMON COLLOCATIONS as a patterns section -- 5,748 entries penalised",
-      "source": "ideas/tooling-backlog.md#140-score_note_qualitypy-does-not-recognise-common-collocations-as-a-patterns-section--5748-entries-penalised-and-it-is-what-the-notes-priority-list-is-mostly-ranking",
+      "source": "ideas/tooling-backlog-resolved.md#140-score_note_qualitypy-does-not-recognise-common-collocations-as-a-patterns-section--5748-entries-penalised-and-it-is-what-the-notes-priority-list-is-mostly-ranking",
       "detect": "for each entry with a POS template declaring required_sections, run score_note_quality.find_sections over notes and report entries >=250 chars missing a required section",
       "filter": "split by the heading actually present: COMMON COLLOCATIONS is 2,499 of the 2,965 verb-suru cases",
       "fix_type": "tooling",
@@ -1474,7 +1474,7 @@
     {
       "id": "stale-noentry-katakana-demotion",
       "title": "Demote katakana base forms out of check_stale_noentry.py's mechanical bucket -- 22 of 123 pairs",
-      "source": "ideas/tooling-backlog.md#143-demote-katakana-base-forms-out-of-check_stale_noentrypys-mechanical-bucket--22-of-123-pairs-and-it-removes-every-known-false-positive",
+      "source": "ideas/tooling-backlog-resolved.md#143-demote-katakana-base-forms-out-of-check_stale_noentrypys-mechanical-bucket--22-of-123-pairs-and-it-removes-every-known-false-positive",
       "detect": "in check_stale_noentry.py, base form matching ^[katakana]+$ -> judgment queue instead of mechanical",
       "fix_type": "tooling",
       "verify": "none",
@@ -1554,7 +1554,7 @@
     {
       "id": "notes-unknown-headers-fold",
       "title": "Notes sections headed by a non-canonical label (baselined; fold into the canonical vocabulary)",
-      "source": "build/check_note_headers.py --summary; reviews/sweeps/unknown_headers.json (2026-09-02)",
+      "source": "build/check_note_headers.py --summary; archive/reviews/sweeps/unknown_headers.json (2026-09-02)",
       "detect": "python3 build/check_note_headers.py --json",
       "filter": null,
       "fix_type": "per-entry judgment: rename the header to the canonical one that fits (USAGE, CULTURAL NOTE, WATCH OUT, FORMS, ...) or merge the section; then python3 build/check_note_headers.py --write-baseline",
@@ -1569,7 +1569,7 @@
     {
       "id": "register-backfill-holdouts",
       "title": "Entries whose notes mention register but carry no politeness/formality tag",
-      "source": "reviews/sweeps/register_holdouts.json (2026-09-02)",
+      "source": "archive/reviews/sweeps/register_holdouts.json (2026-09-02)",
       "detect": "python3 build/backfill_register.py --report /tmp/r.json; cat /tmp/r.json",
       "filter": null,
       "fix_type": "per-entry judgment: set formality/politeness from the notes' own register statement",
@@ -1584,7 +1584,7 @@
     {
       "id": "pos-display-holdouts",
       "title": "part_of_speech display strings that disagree with tags.pos or could not be parsed",
-      "source": "reviews/sweeps/pos_holdouts.json (2026-09-02)",
+      "source": "archive/reviews/sweeps/pos_holdouts.json (2026-09-02)",
       "detect": "python3 build/normalize_pos.py --report /tmp/p.json; cat /tmp/p.json",
       "filter": null,
       "fix_type": "per-entry judgment: fix tags.pos (and transitivity) or the display string so they agree",
