@@ -460,7 +460,7 @@ def persist(state, choice, debt, ledger):
     state["last_run_mode"] = choice
     hist = state.get("history", [])
     hist.append({"at": now_iso(), "mode": choice})
-    state["history"] = hist[-20:]
+    state["history"] = hist[-400:]  # several cycles per run: keep over a week of picks for days_since_mode
     dt = state.get("day_tally", {}) or {}
     if dt.get("date") != today_str():
         dt = {"date": today_str()}

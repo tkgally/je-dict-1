@@ -1,10 +1,12 @@
 # Unified Improvement Routine v3
 
-**The single scheduled task for je-dict-1.** Each run does ONE focused unit of
-work chosen by a deterministic selector, verifies its own changes with an
-independent model before merging, records one line of quality metrics, and
-merges its own pull request. It runs unattended every three hours and is written for
-a mid-size model: follow it literally, in order, and do not improvise around it.
+**The single scheduled task for je-dict-1.** Each run lasts about two hours and
+is a series of **cycles**. A cycle is one focused unit of work chosen by a
+deterministic selector: it verifies its own changes with an independent model
+before merging, records one line of quality metrics, and merges its own pull
+request. The run starts cycle after cycle until the run clock says stop. It
+runs unattended every three hours and is written for a mid-size model: follow
+it literally, in order, and do not improvise around it.
 
 v3 (2026-09-02) replaces v2 after the assessment in
 `enhancement/assessment-2026-09-02.md`. What changed: mechanical work (inline
@@ -18,6 +20,52 @@ Scope is Japanese→English only. Never renumber or rename an entry (IDs are liv
 URLs). Never edit basic- or core-tier headwords or tiers.
 
 ---
+
+## Run shape: cycles until the clock says stop
+
+The run's **first command**, before anything else:
+
+```bash
+python3 pipeline/run_clock.py start
+```
+
+It records the start time. Running it again does not reset the time. Then:
+
+1. **Cycle 1** is §0 (pre-flight, once per run) followed by §1–§7: select,
+   execute, mechanical pass, self-check, metrics, wrap-up through the
+   squash-merge. Cycles 2, 3, … skip §0 and start at §1. Each cycle is complete
+   on its own: its own session log, metrics line, `make index`, PR and merge.
+   If a later cycle is cut short, the earlier ones are safe on `main`.
+2. **After each cycle's PR merges**, run `python3 pipeline/run_clock.py`. It
+   prints the minutes elapsed and `next cycle: yes` or `next cycle: no`.
+   - `yes` → restart the branch from the merged `main` under the same name and
+     begin the next cycle at §1:
+     ```bash
+     BR="$(git rev-parse --abbrev-ref HEAD)"
+     git fetch --prune origin && git checkout -B "$BR" origin/main
+     ```
+   - `no` → end the run with the report (§7 step 7).
+   - A cycle whose PR did not merge (it failed twice, or it was still pending
+     at the poll cap) also ends the run. Never start a cycle on top of an
+     unmerged one.
+3. **Within a cycle**, run `python3 pipeline/run_clock.py` between batches (about
+   every ten entries, and before each paid call). Once it prints
+   `wrap up now`, stop the content work wherever it stands and go to §3. A
+   smaller unit that merges is better than a larger one that runs into the
+   next scheduled run.
+4. **Unit sizes bound a cycle, not the context window.** Keep each cycle to
+   the size its mode prompt gives (25–40 entries for polish, 800–1,200 for
+   accuracy-review, about 20 for new-entries, …). Read any "percent of
+   context" limit in a mode prompt as the context *this cycle* has used. If
+   the harness warns that context is running low, finish the current cycle
+   and end the run.
+5. **Start every cycle by re-reading** this section and the playbook for the
+   mode the selector picks. In a long run the early conversation may have been
+   summarized, and the files are the reliable copy of the rules.
+6. **Budget** is per cycle and per day as before: the selector reads the
+   ledger, so `params` already reflect what earlier cycles spent, and it stops
+   picking accuracy-review and audio once the daily cap is spent. Record each
+   cycle's spend in the ledger before the next cycle's selector runs.
 
 ## 0. Pre-flight (before reading any entry)
 
@@ -59,7 +107,7 @@ A gate failure names its remedy: kana-only furigana braces such as `{を|を}`
 `make gate` until it is clean and continue the run with that content
 included. If `make index` at wrap-up reports a kanji needing an ID, the
 absorbed entries introduced it: add it to `kanji/kanji_list.json` with the
-next free ID (kanji-index skill) and rerun `make index`. At wrap-up, once this run's own PR has merged, comment on the
+next free ID (kanji-index skill) and rerun `make index`. At wrap-up, once cycle 1's own PR has merged, comment on the
 absorbed PR (`mcp__github__add_issue_comment`: "absorbed into PR #<yours>")
 and close it (`mcp__github__update_pull_request`, `state: "closed"`). If the
 tool prints `ABORTED` (an entry or a code file conflicts), it has undone the
@@ -84,8 +132,8 @@ closing comment is not Claude-signed), leave the branch and write one line to
 `reviews/needs_curator.txt`; otherwise absorb it as in 0b (`--pr` if it had
 one). Zero strands and zero orphans is the normal case.
 
-There is no lock step: each run is a fresh container and the schedule never
-overlaps runs.
+There is no lock step: each run is a fresh container, and the run clock ends
+each run well before the next one is scheduled.
 
 ## 1. Select the mode
 
@@ -183,14 +231,15 @@ previous snapshot. If the script errors, note it and continue.
 
 ## 6. Budget and context discipline
 
-- Finish the mode's content work by about 55 percent of the context window.
-  §3–§5 and the wrap-up need the rest. Running out of context mid-merge is the
-  one failure that costs a whole run.
+- Finish the mode's content work at the unit size its prompt gives, or when
+  `run_clock.py` says `wrap up now`, whichever comes first. §3–§5 and the
+  wrap-up need the rest. Running out of time or context mid-merge is the one
+  failure that costs a whole cycle.
 - Take stock every ten entries; wrap up early if tool output is truncating.
 - Do not run `make build`; the site is built by GitHub Actions after merge.
-  Run `make index` exactly once at wrap-up (validation plus index and kanji
-  JSON refresh). After it, make no further edits: log anything you notice as an
-  `[entry]` observation.
+  Run `make index` exactly once per cycle, at its wrap-up (validation plus
+  index and kanji JSON refresh). After it, make no further edits in that
+  cycle: log anything you notice as an `[entry]` observation.
 
 ## 7. Wrap up
 
@@ -217,9 +266,11 @@ previous snapshot. If the script errors, note it and continue.
    `reviews/accuracy_flags.jsonl`, `reviews/screening/screening_status.json`:
    ```bash
    git add -A && git commit -m "routine(<mode>): <short summary>"
-   git push -u origin "$(git rev-parse --abbrev-ref HEAD)"
+   git push -u --force-with-lease origin "$(git rev-parse --abbrev-ref HEAD)"
    ```
-   This is the run's last push. Commit nothing more on this branch afterwards:
+   (`--force-with-lease` matters from cycle 2 on: the branch was restarted from
+   `main`, and its old commits are already on `main` through the squash merge.)
+   This is the cycle's last push. Commit nothing more on this branch afterwards:
    every push starts a new CI run, and the merge waits for the newest one (the
    "CI still pending" notes earlier runs pushed after opening their PR were
    what kept those PRs from ever showing green in time).
@@ -247,8 +298,10 @@ previous snapshot. If the script errors, note it and continue.
       the next run's §0a rescues it.
    - Never `enable_pr_auto_merge`, never `git checkout main`, never delete the
      branch.
-7. **End with a clear report** per the `clear-reports` skill: what this run did
-   and found, in plain English, and what if anything needs the curator.
+   Merged → back to **Run shape** step 2 (clock check, next cycle or end).
+7. **End the run with a clear report** per the `clear-reports` skill: what the
+   run did and found, one short paragraph per cycle with its PR link, in plain
+   English, and what if anything needs the curator.
 
 ---
 
@@ -368,6 +421,7 @@ per occurrence (this ledger is read by the linker and by the CI gate):
 mcp__github__list_pull_requests / list_branches          # §0 rescue and sweeps
 python3 pipeline/absorb_branch.py <branch> --pr N        # §0b take over a red predecessor
 python3 pipeline/absorb_branch.py --residue <branch>     # §0c what an orphan branch still holds
+python3 pipeline/run_clock.py start | (no arg)          # run start; between batches and cycles
 python3 pipeline/routine_next.py                         # §1 pick the mode
 make mechanical IDS=…                                    # §3 mechanical pass
 python3 build/review_accuracy.py --ids … --budget 0.40   # §4 self-check
