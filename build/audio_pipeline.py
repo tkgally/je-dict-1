@@ -554,6 +554,36 @@ def ensure_clone(store, repo_dir):
     git(repo_dir, "read-tree", "HEAD")
 
 
+def store_dir(store, repo_dir=None):
+    """Where to work on the store: --repo-dir, else a clone the session already
+    has next to je-dict-1 (a Routine with the audio repository among its
+    repositories), else a thin clone in audio_work/."""
+    if repo_dir:
+        return Path(repo_dir)
+    sibling = ROOT.parent / store["repo"].split("/")[-1]
+    if (sibling / ".git").exists():
+        return sibling
+    return WORK / "repo" / store["id"]
+
+
+def cmd_check_access(args):
+    """Can this session push to the active store? Costs nothing: a thin clone
+    (or fetch) and a dry-run push. Exit 1 with the git error if not."""
+    store = active_store(load_config())
+    repo_dir = store_dir(store, args.repo_dir)
+    try:
+        ensure_clone(store, repo_dir)
+    except subprocess.CalledProcessError as e:
+        print(json.dumps({"store": store["repo"], "push": False,
+                          "error": f"clone/fetch failed: {(e.stderr or '')[:300]}"}, indent=2))
+        return 1
+    p = git(repo_dir, "push", "--dry-run", "origin", "HEAD:refs/heads/access-check", check=False)
+    ok = p.returncode == 0
+    print(json.dumps({"store": store["repo"], "repo_dir": str(repo_dir), "push": ok,
+                      **({} if ok else {"error": (p.stderr or p.stdout).strip()[:300]})}, indent=2))
+    return 0 if ok else 1
+
+
 def stage_file(repo_dir, path_in_repo, src):
     sha = git(repo_dir, "hash-object", "-w", str(src)).stdout.strip()
     git(repo_dir, "update-index", "--add", "--cacheinfo", f"100644,{sha},{path_in_repo}")
@@ -582,7 +612,7 @@ def cmd_publish(args):
         sys.exit(f"store {store['id']} would hold {after_mb:.0f} MB > limit {store['limit_mb']} MB: "
                  "a new audio repository is needed (see AUDIO_WORKFLOW.md §7)")
 
-    repo_dir = Path(args.repo_dir) if args.repo_dir else WORK / "repo" / store["id"]
+    repo_dir = store_dir(store, args.repo_dir)
     if accepted or pages:
         ensure_clone(store, repo_dir)
         for page in pages:  # spot-check pages (audio_maintenance.py spotcheck)
@@ -735,6 +765,8 @@ def main():
                    help="stop starting new items after this long (0 = no limit); call again to resume")
     p = sub.add_parser("publish")
     p.add_argument("--repo-dir", help="existing clone of the audio repository")
+    p = sub.add_parser("check-access")
+    p.add_argument("--repo-dir")
     p = sub.add_parser("verify")
     p.add_argument("--wait", type=int, default=540, help="seconds to wait for GitHub Pages")
     p = sub.add_parser("testset")
@@ -745,8 +777,10 @@ def main():
     p.add_argument("--budget", type=float, default=1.5)
     p.add_argument("--workers", type=int, default=12)
     args = ap.parse_args()
-    {"status": cmd_status, "undetermined": cmd_undetermined, "plan": cmd_plan, "run": cmd_run,
-     "publish": cmd_publish, "testset": cmd_testset, "verify": cmd_verify}[args.cmd](args)
+    rc = {"status": cmd_status, "undetermined": cmd_undetermined, "plan": cmd_plan, "run": cmd_run,
+     "publish": cmd_publish, "testset": cmd_testset, "verify": cmd_verify,
+     "check-access": cmd_check_access}[args.cmd](args)
+    sys.exit(rc or 0)
 
 
 if __name__ == "__main__":
