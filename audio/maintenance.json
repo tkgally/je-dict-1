@@ -1,6 +1,7 @@
 {
   "_doc": "Dates of the last maintenance task of each kind (build/audio_maintenance.py). Updated by the tool; edit only to record a task done by hand.",
   "known_models": [
+    "bytedance-seed/seed-audio-1-0",
     "canopylabs/orpheus-3b-0.1-ft",
     "deepgram/aura-2",
     "deepgram/flux-tts:free",
@@ -49,11 +50,13 @@
     "openai/gpt-audio",
     "openrouter/auto",
     "openrouter/auto-beta",
+    "perceptron/perceptron-mk1.5",
     "qwen/qwen-audio-3.0-tts-flash",
     "qwen/qwen-audio-3.0-tts-plus",
     "qwen/qwen3.8-omni-flash",
     "sesame/csm-1b",
     "thinkingmachines/inkling-small",
+    "typesafe/jev-router",
     "x-ai/grok-voice-tts-1.0",
     "xiaomi/mimo-v2.5",
     "xiaomi/mimo-v2.6-flash",
@@ -62,7 +65,9 @@
     "~google/gemini-flash-latest",
     "~google/gemini-pro-latest"
   ],
-  "models": "2026-09-25",
+  "models": "2026-09-26",
+  "reaudit": "2026-09-26",
+  "reaudit_records": 1108,
   "reevaluate": "2026-09-25",
   "reevaluate_note": "the local experiment of 2026-09-24/25 evaluated prompts A-H, 13 STT models and 8 audio-LLM checkers",
   "spotcheck": "2026-09-25",
