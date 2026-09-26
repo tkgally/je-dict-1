@@ -117,10 +117,11 @@ Run this after the mode's content work and before the self-check, on the IDs
 you changed (see §4 step 1 for the command that lists them):
 
 ```bash
-python3 build/normalize_notes.py --ids <ids> --apply      # canonical headers, '- ' bullets
-python3 build/auto_link.py --ids <ids> --apply --confirm-real-entries   # unambiguous inline links
-python3 build/harvest_crossrefs.py --ids <ids> --apply    # cross-references named in notes
-python3 build/validate.py --id <id> ...                   # each changed entry
+make mechanical IDS=<ids>    # comma-separated; runs, in order:
+#   normalize_notes.py --apply                  canonical headers, '- ' bullets
+#   auto_link.py --apply --confirm-real-entries  unambiguous inline links
+#   harvest_crossrefs.py --apply                cross-references named in notes
+#   validate.py --id                            each changed entry
 ```
 
 Never hand-place inline links; the linker leaves ambiguous tokens alone, and a
@@ -322,7 +323,8 @@ converging.
    spot-checked. When in doubt, verify.
 4. Run §3 and §4 on the changed entries.
 5. Update the item's `status` and `scope_estimate` in `backlog-queue.json` and
-   its prose page (RESOLVED, or the remaining scope), then wrap up.
+   its prose page (the remaining scope; a resolved item's section moves to the
+   page's `-resolved.md` companion, and its `source` follows), then wrap up.
 
 ## §C. Decision ledger
 
@@ -367,9 +369,7 @@ mcp__github__list_pull_requests / list_branches          # §0 rescue and sweeps
 python3 pipeline/absorb_branch.py <branch> --pr N        # §0b take over a red predecessor
 python3 pipeline/absorb_branch.py --residue <branch>     # §0c what an orphan branch still holds
 python3 pipeline/routine_next.py                         # §1 pick the mode
-python3 build/normalize_notes.py --ids … --apply         # §3 mechanical pass
-python3 build/auto_link.py --ids … --apply --confirm-real-entries
-python3 build/harvest_crossrefs.py --ids … --apply
+make mechanical IDS=…                                    # §3 mechanical pass
 python3 build/review_accuracy.py --ids … --budget 0.40   # §4 self-check
 python3 build/review_accuracy.py --range S E --budget B  # §A sweep
 python3 build/audio_pipeline.py plan / run / publish / verify   # audio mode (prompts/audio.md)

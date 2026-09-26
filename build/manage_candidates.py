@@ -118,9 +118,19 @@ def check_duplicate(word: str, reading: str, candidates_data: dict = None) -> di
 
 
 def save_candidates(data: dict):
-    """Save the candidates file."""
-    data['metadata']['last_updated'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    """Save the candidates file. last_updated changes only when the content does,
+    so a run that changes nothing leaves the file untouched."""
     data['metadata']['total_candidates'] = len(data['candidates'])
+    try:
+        old = json.loads(CANDIDATES_FILE.read_text(encoding='utf-8'))
+        old.get('metadata', {}).pop('last_updated', None)
+        new = json.loads(json.dumps(data))
+        new['metadata'].pop('last_updated', None)
+        if old == new:
+            return
+    except (OSError, ValueError):
+        pass
+    data['metadata']['last_updated'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     try:
         with open(CANDIDATES_FILE, 'w', encoding='utf-8') as f:

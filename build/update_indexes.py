@@ -13,6 +13,8 @@ It will:
 3. Regenerate build/word_id_lookup.json
 4. Check for new kanji
 5. Set each example's has_audio from audio/manifest/ (build/sync_audio_flags.py)
+6. Add this branch's changed entries to reviews/queue.txt (build/queue_reviews.py)
+7. Refresh PROJECT_CONTEXT_BRIEF.md (pipeline/update-brief.py)
 
 Usage:
     python build/update_indexes.py
@@ -126,6 +128,21 @@ def main():
     if result.returncode != 0:
         print(f"   ERROR: sync_audio_flags.py failed with exit code {result.returncode}")
         has_errors = True
+
+    # 6. Queue this branch's changed entries for cross-model review, and
+    # 7. refresh PROJECT_CONTEXT_BRIEF.md (both were GitHub Actions commits to main
+    #    after every merge until 2026-09-26)
+    for n, label, script in ((6, "Queueing this branch's changed entries in reviews/queue.txt",
+                              project_root / 'build' / 'queue_reviews.py'),
+                             (7, "Refreshing PROJECT_CONTEXT_BRIEF.md",
+                              project_root / 'pipeline' / 'update-brief.py')):
+        print(f"\n{n}. {label}...")
+        result = subprocess.run([sys.executable, str(script)], capture_output=True, text=True,
+                                cwd=str(project_root))
+        print("   " + (result.stdout.strip().splitlines() or [result.stderr.strip()])[0])
+        if result.returncode != 0:
+            print(f"   ERROR: {script.name} failed with exit code {result.returncode}")
+            has_errors = True
 
     print("\n" + "=" * 50)
     if has_errors:

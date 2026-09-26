@@ -440,4 +440,4 @@ python3 build/check_semantic_clusters.py
 
 ### Cluster processing
 
-When fixing symmetry issues, process related entries together as a cluster rather than one at a time. This ensures both sides of a relationship are updated in the same session. See the "Cluster Mode" section in `prompts/add_cross-references.md` for the detailed workflow.
+When fixing symmetry issues, process related entries together as a cluster rather than one at a time. This ensures both sides of a relationship are updated in the same session. The retired prompt `archive/prompts/add_cross-references.md` ("Cluster Mode") describes the workflow in detail.

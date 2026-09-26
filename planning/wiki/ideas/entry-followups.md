@@ -1204,7 +1204,7 @@ defect rather than a limit of the detector.**
 
 12738 covers 五百; 二百/三百/四百/六百/七百/八百/九百 have no entries, so 00780's SOUND CHANGES
 list mixes one live link with eight `noentry` markers — which is exactly the shape that later gets
-refiled as a stale-`noentry` finding ([P35](cleanup-backlog.md#priority-35-stale-noentry-inline-links--3797-markers-now-resolve-2887-mechanically)).
+refiled as a stale-`noentry` finding ([P35](cleanup-backlog-resolved.md#priority-35-stale-noentry-inline-links--3797-markers-now-resolve-2887-mechanically)).
 This is a **decision, not a task**: either the hundreds are in scope (in which case eight entries
 close it permanently, and they are among the cheapest entries the project could create, since the
 sound changes are the entire content) or they are out of scope, in which case the exclusion should
@@ -1362,7 +1362,7 @@ sizing and rationale in
 one polish run's budget alongside other entries. The 2026-08-09 run left the frontier cursor at
 06844 so the next `polish` run can spend most of its frontier budget on this single entry. The
 entry's *content* is good (3 senses, well distributed) — this is a linking cost, not a quality
-problem. It is also a member of [Cleanup P50](cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46).
+problem. It is also a member of [Cleanup P50](cleanup-backlog-resolved.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46).
 
 **Proper-noun scope — fourth filing, now with a fresh candidate.** C22806 夏目漱石 was captured
 again by the 2026-08-09 polish run ("seen in entry 06801") and left in the candidate list
@@ -1779,7 +1779,7 @@ expression is already documented as an expression. No new sense, no deletion.
 
 ### Four katakana nouns tagged `formality: "formal"`
 
-The residue of the [refuted formality detector](cleanup-backlog.md#refuted-a-formality-formal-detector-for-everyday-concrete-nouns):
+The residue of the [refuted formality detector](cleanup-backlog-resolved.md#refuted-a-formality-formal-detector-for-everyday-concrete-nouns):
 restricting "everyday concrete noun tagged `formal`" to pure-katakana headwords leaves exactly
 four entries dictionary-wide, and three are wrong on sight.
 

@@ -41,11 +41,11 @@ are batch-ready from the four that are not.
 | Class | Scope | Nature | Where filed |
 |---|---|---|---|
 | Dead `target_id` (points at no entry) | 292 → gated | Defect | [Cleanup P27](../ideas/cleanup-backlog.md#priority-27-dead-inline-link-target-ids), CI ratchet |
-| Base form written with furigana braces | **36 entries / 226 instances** | Defect, provably safe | [Cleanup P24](../ideas/cleanup-backlog.md#priority-24-inline-link-base-forms-written-with-furigana-braces) |
+| Base form written with furigana braces | **36 entries / 226 instances** | Defect, provably safe | [Cleanup P24](../ideas/cleanup-backlog-resolved.md#priority-24-inline-link-base-forms-written-with-furigana-braces) |
 | Base form written in kana, not dictionary form | 3,567 | Cosmetic/lookup | [Cleanup P32](../ideas/cleanup-backlog.md#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form) |
 | Target disagrees with the base form (homophone substitution) | 405 → 318 | Defect, per-entry | `link-target-baseform-disagreement` |
 | **Stale `noentry` markers** | **3,809** (2,887 unique-target; 447 never correct) | **Defect, batch-ready** | [Cleanup P35](../ideas/cleanup-backlog.md) *(new, this page's measurement)* |
-| **Entries with zero links** | **23,444** (of which **55** behind the frontier) | **Not a defect above the frontier — see below**; the 55 are | *(structural; do not file)* + [Cleanup P50](../ideas/cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46) |
+| **Entries with zero links** | **23,444** (of which **55** behind the frontier) | **Not a defect above the frontier — see below**; the 55 are | *(structural; do not file)* + [Cleanup P50](../ideas/cleanup-backlog-resolved.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46) |
 | `Xする` base label on a bare-noun target | 441 (267 decidable) | Convention gap, not a defect | [Cleanup informational](../ideas/cleanup-backlog.md#informational-inline-link-base-forms-labelled-xする-while-targeting-the-bare-noun-entry-441-links) |
 
 The two bold rows were both proposed as backlog items by 2026-07-31 / 2026-08-01 polish runs
@@ -573,7 +573,7 @@ is what produced the below-frontier split and P50, which six earlier filings had
 3. **Do not file a zero-link detector — file a zero-link-*behind-the-frontier* detector.** The
    unfiltered version measures the polish frontier, which is already measured. Intersected with
    the cursor it returns 55 entries the schedule passed and left bare, which is a real queue
-   ([P50](../ideas/cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46)).
+   ([P50](../ideas/cleanup-backlog-resolved.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46)).
    The same intersection is what makes P46 an item rather than an anecdote, and it is worth
    applying to any future coverage detector before deciding it is useless.
 4. **Treat "this looks like a bad creation batch" as a hypothesis, not a finding.** Both

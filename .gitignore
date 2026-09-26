@@ -55,8 +55,6 @@ backups/
 .claude/settings.local.json
 docs_build_temp/
 
-# Batch script logs
-prompts/batch/logs/
 
 # Brainstorming temp files (large data file + transient results)
 prompts/entries-and-candidates-for-brainstorming.md
@@ -87,3 +85,6 @@ reviews/links/
 # Generated site (2026-09-02): built and deployed by .github/workflows/pages.yml; never committed
 docs/
 audio_work/
+
+# Per-entry review reports (local artifacts of review_runner.py)
+reviews/[0-9]*.json

@@ -218,7 +218,7 @@ Pattern: `{entry_id}_ex{N}`
 
 ## Common Issues to Avoid
 
-1. **Adding inline links**: Do NOT add inline word links (⟦...⟧) when creating or revising examples. Links are added in a separate polishing step via `prompts/polish_add_inline_links.md`.
+1. **Adding inline links**: Do NOT add inline word links (⟦...⟧) when creating or revising examples. Links are placed afterwards by `build/auto_link.py` (the mechanical pass; see the `inline-word-links` skill).
 2. **Missing furigana**: `お金が余った` instead of `お{金|かね}が{余|あま}った`
 3. **Overly literal translations**: "As for me, I eat sushi" instead of "I eat sushi"
 4. **Wrong sense_numbers**: Example linked to wrong definition

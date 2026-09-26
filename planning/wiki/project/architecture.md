@@ -2,6 +2,11 @@
 
 **Last updated**: 2026-06-06
 
+> **2026-09-26:** the task queue, orchestrator, monitor, `run-pipeline.sh` and the `pipeline.yml`
+> workflow described below were never part of the Routine and have been deleted (they remain in
+> the git history); the old prompts are in `archive/prompts/`. The site is no longer committed in
+> `docs/`: GitHub Actions builds it. The current process is in `CLAUDE.md` and `prompts/routine2.md`.
+
 ## Overview
 
 je-dict-1 is a static site generated from JSON source files. The architecture has three layers:

@@ -15,7 +15,8 @@ effective weight given in config "floors". `audio` (example recordings,
 prompts/audio.md) self-suppresses while audio/config.json has production
 disabled or the day's OpenRouter budget has less than audio_min_budget_usd left.
 
-Design: enhancement/unified-routine-plan-2026-06-09.md §4.
+Design: archive/enhancement/unified-routine-plan-2026-06-09.md §4 (updated by
+enhancement/assessment-2026-09-02.md).
 
 Determinism: there is no randomness. Each enabled mode accrues "debt" equal to
 its (nudged, normalized) weight every run and resets to 0 when chosen; the

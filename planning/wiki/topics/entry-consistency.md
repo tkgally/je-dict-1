@@ -159,7 +159,7 @@ entry cannot be right both ways.
 
 | Contradiction | Fields that disagree | Measured scope |
 |---|---|---|
-| Prose says the verb is already a potential form; the conjugation table still generates a potential of it | `notes`/`gloss` vs `conjugation.forms` | 6 exact, ~15 with the known list ([P41](../ideas/cleanup-backlog.md#priority-41-conjugation-tables-generate-the-potential-of-a-verb-that-is-already-potential)) |
+| Prose says the verb is already a potential form; the conjugation table still generates a potential of it | `notes`/`gloss` vs `conjugation.forms` | 6 exact, ~15 with the known list ([P41](../ideas/cleanup-backlog-resolved.md#priority-41-conjugation-tables-generate-the-potential-of-a-verb-that-is-already-potential)) |
 | Notes say the word is the everyday form; the tag says `formality: "formal"` | `notes` vs `tags.formality` | 24 katakana entries carry `formal`; several self-refuting ([P37 update](../ideas/cleanup-backlog.md#priority-37-politeness-polite-on-plain-vocabulary--and-the-detector-that-reports-zero)) |
 | `explanation` is a verbatim copy of the sense's own `gloss` | `definitions[].explanation` vs `.gloss` | 201 senses / 179 entries ([P39](../ideas/cleanup-backlog.md#priority-39-definitionsexplanation-is-a-verbatim-copy-of-its-own-gloss-201-senses-179-entries)) |
 | `tags.verb_class` says `suru`; `tags.pos` says `verb-godan` (or the reverse) | tag vs tag | 5 live, all fixed 2026-08-03 ([Tooling 71](../ideas/tooling-backlog.md)) |

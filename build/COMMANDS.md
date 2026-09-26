@@ -27,7 +27,9 @@ python3 build/update_indexes.py                    # entries_index.json, candida
 python3 build/update_kanji_index.py                # Rebuild kanji JSON; --check-new lists kanji needing IDs
 python3 build/build_flat.py                        # Full site build into docs/ (CI does this on merge)
 python3 build/build_flat.py --quick                # Incremental site build (local preview)
-make index                                         # validate + indexes + kanji JSON (the wrap-up step)
+make index                                         # validate + indexes + kanji JSON + has_audio flags + review queue + brief (the wrap-up step)
+python3 build/queue_reviews.py [--dry-run]         # Append this branch's changed entries to reviews/queue.txt (run by make index)
+python3 pipeline/update-brief.py                   # Regenerate PROJECT_CONTEXT_BRIEF.md (run by make index)
 make build                                         # index + full site build (local preview only)
 make test                                          # unit tests (build/tests)
 make install-hooks                                 # activate .githooks/pre-commit
@@ -38,6 +40,7 @@ make metrics-page                                  # regenerate planning/wiki/to
 ## Mechanical passes (safe, deterministic; --dry-run by default)
 
 ```bash
+make mechanical IDS=01234,01235                             # The pass after changing entries: normalize_notes, auto_link, harvest_crossrefs (all --apply), validate each
 python3 build/auto_link.py --ids 01234,01235 --apply        # Inline links for unambiguous tokens (honours the kana homophone list and the link ledger)
 python3 build/auto_link.py --range 20000 20499 --report     # Dry-run statistics for a block
 python3 build/review_links.py --apply-decisions --ids 01234 # Strip links the ledger says to unlink, then re-link the entry
@@ -157,6 +160,4 @@ make audit-fields / make audit-scenarios / make audit-tiers
 ```bash
 python3 build/entry_lock.py lock --range 10000 10499 --session "s1"
 python3 build/parallel_coordinator.py branch1 branch2
-python3 pipeline/task_queue.py status
-python3 pipeline/orchestrator.py status
 ```
