@@ -19,11 +19,22 @@ make audio-deps                                  # MeCab/UniDic, MP3 encoder (ab
 python3 build/audio_pipeline.py status           # coverage; copy the numbers into the session log
 ```
 
-Attach the audio repository named by the active store in `audio/config.json`
-(`stores[].repo` with `status: "active"`, today `tkgally/je-dict-audio-1`): call
-`add_repo` with that owner and repo and `access: "push"`. If it fails, append
-one line to `reviews/needs_curator.txt` (`<UTC> audio-store — cannot attach
-<repo>: <reason>`), skip to §6 and wrap up with the session log only.
+Make sure this session can push to the audio repository (the active store in
+`audio/config.json`, today `tkgally/je-dict-audio-1`) before spending anything:
+
+```bash
+python3 build/audio_pipeline.py check-access     # "push": true → go on
+```
+
+If `push` is false, call `add_repo` (owner and repo from the store, `access:
+"push"`) if that tool is available, and run `check-access` again. If it is still
+false (or `add_repo` is not available): set `production.enabled` to false in
+`audio/config.json` with the reason "the Routine cannot push to <repo>: add it to
+the Routine's repositories", append one line to `reviews/needs_curator.txt`
+(`<UTC> audio-store — the Routine cannot push to <repo>; add it to the Routine's
+repositories in its settings, then set production.enabled to true in
+audio/config.json`), skip to §6 and wrap up. Switching production off stops the
+selector from choosing this mode again until Tom has fixed the access.
 
 ## 2. Maintenance first (AUDIO_WORKFLOW.md §10)
 

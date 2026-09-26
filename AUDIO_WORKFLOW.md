@@ -297,10 +297,15 @@ not used.
 - **Budget** (raised by Tom on 2026-09-25): `openrouter.audio_session_cap_usd` = $4.80 per audio
   run, daily cap $7.50 shared with the other modes (an audio run changes no entries, so it needs
   no self-check). At the measured $0.0024–0.0026 per example that is about 1,800 examples per
-  run, about 25 minutes of `run` calls. With two Routine runs a day an audio run comes about
-  every two days, so the basic and core tiers (20,000 examples) take about 11 audio runs (three
-  weeks) and the whole dictionary (about 117,000 recordable examples) about 65 runs (four to
-  five months).
+  run, about 25 minutes of `run` calls. The Routine runs every three hours (eight runs a day),
+  so about two runs a day are audio runs; the $7.50 daily cap, shared with the accuracy review,
+  is then the real limit, at roughly $3–5 of audio a day (1,200–2,000 examples). At that pace the
+  basic and core tiers (20,000 examples) take about two weeks and the whole dictionary (about
+  117,000 recordable examples) roughly three months.
+- **Access**: a session can push only to repositories attached to it (the git proxy refuses the
+  rest). Each audio run checks with `audio_pipeline.py check-access` before spending anything;
+  if it cannot push and cannot attach the repository, it switches production off and tells Tom.
+  When a Routine lists the audio repository among its repositories, `publish` uses that clone.
 - **Per run** (`prompts/audio.md`): `make audio-deps` → attach the audio repository → maintenance
   (`audio_maintenance.py due`) → `plan` (priority order) → `run` (resumable, 8-minute calls, 12
   workers) → `publish` → `verify` → note examples left for a human → session log, metrics,
@@ -466,3 +471,9 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   Routine will run it (plan → run → publish from a fresh thin clone → verify): 800 examples from
   95 basic-tier entries (00426 読む – 00560 口), all 800 accepted, 761 on the first attempt,
   $1.94 ($0.0024 per example), 10 MB. 1,108 examples now have recordings.
+- 2026-09-26: `check-access` (dry-run push, no cost) added as the first step of every audio run, after
+  checking the Routine's settings: it runs every three hours with je-dict-1 as its only
+  repository, and it is not certain that `add_repo` is available there. Verified both ways:
+  push allowed to the attached audio repository; refused, with the proxy naming the fix ("add the
+  repository to the session's sources"), for an unattached one. §9 pacing corrected for eight
+  runs a day.

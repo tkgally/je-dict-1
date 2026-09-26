@@ -3,7 +3,7 @@
 **The single scheduled task for je-dict-1.** Each run does ONE focused unit of
 work chosen by a deterministic selector, verifies its own changes with an
 independent model before merging, records one line of quality metrics, and
-merges its own pull request. It runs unattended twice a day and is written for
+merges its own pull request. It runs unattended every three hours and is written for
 a mid-size model: follow it literally, in order, and do not improvise around it.
 
 v3 (2026-09-02) replaces v2 after the assessment in

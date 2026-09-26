@@ -93,7 +93,7 @@ on each listed entry's page; use the entry's own headword.
 
 ## The Routine
 
-`prompts/routine2.md` is the one scheduled task (twice a day). Each run: pre-flight rescue and
+`prompts/routine2.md` is the one scheduled task (every three hours). Each run: pre-flight rescue and
 sweep → `python3 pipeline/routine_next.py` picks a mode → the mode's prompt → mechanical pass on
 changed entries → independent-model self-check → metrics snapshot → `make index` → commit → PR →
 CI → squash-merge. Modes and weights (`pipeline/routine-config.json`): audio 0.25 (off until
