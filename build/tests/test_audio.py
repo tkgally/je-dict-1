@@ -339,6 +339,56 @@ class TestSiteButton(unittest.TestCase):
         self.assertIn('class="tts-btn"', html_stale)
         self.assertNotIn("audio-btn", html_stale)
 
+    def test_has_audio_follows_manifest(self):
+        import sync_audio_flags as S
+        entry = {"examples": [
+            {"id": "00001_a_ex1", "japanese": self.raw, "has_audio": False},     # recorded
+            {"id": "00001_a_ex2", "japanese": self.raw, "has_audio": True},      # no recording
+            {"id": "00001_a_ex3", "japanese": self.raw}]}                        # no field, none
+        self.assertEqual(S.sync_entry(entry), 2)
+        self.assertEqual([e.get("has_audio") for e in entry["examples"]], [True, False, None])
+        self.assertEqual(S.sync_entry(entry), 0)
+        entry["examples"][0]["japanese"] = "{本|ほん}を{買|か}う。"               # edited: stale
+        self.assertEqual(S.sync_entry(entry), 1)
+        self.assertFalse(entry["examples"][0]["has_audio"])
+
+    def test_latest_recording_at(self):
+        self.M._CACHE[1]["00001_a_ex1"]["at"] = "2026-09-26T03:00:00Z"
+        entry = {"examples": [{"id": "00001_a_ex1", "japanese": self.raw},
+                              {"id": "00001_a_ex2", "japanese": self.raw}]}
+        self.assertEqual(self.M.latest_recording_at(entry), "2026-09-26T03:00:00Z")
+        entry["examples"][0]["japanese"] = "{本|ほん}を{買|か}う。"
+        self.assertIsNone(self.M.latest_recording_at(entry))
+
+
+class TestRecentPage(unittest.TestCase):
+    """NEW / REVISED / REVISED (audio) on the Recent page (build/page_generators.py)."""
+
+    @staticmethod
+    def entry(i, created, modified):
+        return {"id": f"{i:05d}_x", "headword": "x", "gloss": "x",
+                "metadata": {"created": created, "modified": modified}}
+
+    def test_recent_event(self):
+        from page_generators import recent_event
+        new = self.entry(1, "2026-09-26T01:23:32Z", "2026-09-26T01:26:29Z")
+        self.assertEqual(recent_event(new)[0], "NEW")
+        self.assertEqual(recent_event(self.entry(2, "2026-09-26T01:00:00Z", "2026-09-26T01:00:00Z"))[0], "NEW")
+        old = self.entry(3, "2026-02-19T13:39:55Z", "2026-09-24T21:18:07Z")
+        self.assertEqual(recent_event(old)[0], "REVISED")
+        self.assertEqual(recent_event(old, "2026-09-25T15:04:52Z")[0], "REVISED (audio)")
+        self.assertEqual(recent_event(old, "2026-09-20T00:00:00Z")[0], "REVISED")  # text is newer
+        self.assertEqual(recent_event(new, "2026-09-25")[0], "NEW")                # bare date, older
+
+    def test_audio_additions_do_not_crowd_out_text_changes(self):
+        from page_generators import build_recent_entries
+        text = [self.entry(i, "2026-01-01T00:00:00Z", f"2026-09-2{i}T00:00:00Z") for i in range(1, 4)]
+        audio = [self.entry(10 + i, "2026-01-01T00:00:00Z", "2026-02-01T00:00:00Z") for i in range(5)]
+        at = {e["id"]: "2026-09-26T00:00:00Z" for e in audio}
+        rows = build_recent_entries(text + audio, limit=2, audio_limit=3, audio_at=lambda e: at.get(e["id"]))
+        self.assertEqual([r["status"] for r in rows], ["REVISED (audio)"] * 3 + ["REVISED"] * 2)
+        self.assertEqual(rows[3]["id"], "00003_x")
+
 
 class TestMaintenance(unittest.TestCase):
     def setUp(self):

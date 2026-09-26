@@ -1,6 +1,7 @@
 """Read side of the example-audio manifest, for the site build.
 
     recording_url(example) → URL of the example's MP3, or None
+    latest_recording_at(entry) → when its newest valid recording was published
 
 An example has a valid recording when audio/manifest/<range>.jsonl holds a
 line for its id whose "h" equals the first 16 hex digits of
@@ -49,15 +50,30 @@ def reset_cache():
     _CACHE = None
 
 
-def recording_url(example):
-    """URL of a valid recording for this example (a dict with id and japanese), or None."""
+def valid_record(example):
+    """The manifest record of a valid recording for this example (a dict with id
+    and japanese), or None when there is none or the text changed since."""
     stores, records = _load()
     r = records.get(example.get("id"))
     if not r or r.get("s") not in stores:
         return None
     if r.get("h") != text_hash(example.get("japanese", ""))[:HASH_LEN]:
         return None
-    return stores[r["s"]] + r["f"]
+    return r
+
+
+def recording_url(example):
+    """URL of a valid recording for this example, or None."""
+    r = valid_record(example)
+    return _load()[0][r["s"]] + r["f"] if r else None
+
+
+def latest_recording_at(entry):
+    """When the newest valid recording of any of this entry's examples was
+    published (the record's "at", an ISO UTC timestamp), or None."""
+    times = [r.get("at", "") for r in (valid_record(ex) for ex in entry.get("examples") or [])
+             if r and r.get("at")]
+    return max(times) if times else None
 
 
 def stats():

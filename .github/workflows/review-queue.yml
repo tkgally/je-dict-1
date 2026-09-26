@@ -29,8 +29,15 @@ jobs:
           # Record the entries changed by the triggering commit *before*
           # doing any git manipulation in the push loop below, so we can
           # re-apply the same list after a reset to the latest main.
-          git diff --name-only HEAD~1 HEAD -- 'entries/**/*.json' \
-            > /tmp/changed-entries.txt
+          # An entry whose only change is its examples' has_audio flags (set
+          # from the audio manifest by audio runs and `make index`) is not
+          # queued: its text did not change.
+          : > /tmp/changed-entries.txt
+          git diff --name-only HEAD~1 HEAD -- 'entries/**/*.json' | while read -r f; do
+            if git diff HEAD~1 HEAD -- "$f" | grep '^[-+] ' | grep -qv '"has_audio": '; then
+              echo "$f" >> /tmp/changed-entries.txt
+            fi
+          done
           echo "Changed entry files captured:"
           cat /tmp/changed-entries.txt || true
 

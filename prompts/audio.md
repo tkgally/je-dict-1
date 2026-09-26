@@ -7,8 +7,9 @@ evidence for it, and its changelog are in `AUDIO_WORKFLOW.md`; read §2 and §6
 there before a first audio run, not every time.
 
 Runs as `prompts/routine2.md`'s `audio` mode. `params.openrouter_session_budget_usd`
-(call it B) is this run's OpenRouter cap. This mode changes no entry, so §3 and
-§4 of routine2.md (mechanical pass, self-check) do not apply. Everything is
+(call it B) is this run's OpenRouter cap. This mode changes no entry text (`publish`
+only sets the recorded examples' `has_audio` flags), so §3 and §4 of routine2.md
+(mechanical pass, self-check) do not apply. Everything is
 deterministic code: your judgment is needed only for maintenance results and
 for the examples left for a human.
 
@@ -134,8 +135,8 @@ python3 build/audio_pipeline.py publish      # push MP3s (and any spot-check pag
 python3 build/audio_pipeline.py verify       # waits up to 9 minutes for GitHub Pages to serve them
 ```
 
-`publish` writes the manifest only after the push succeeds, so a failed push
-leaves je-dict-1 unchanged. Retry once; if it fails again, flag it and wrap
+`publish` writes the manifest, and sets `has_audio` to true on the recorded
+examples, only after the push succeeds, so a failed push leaves je-dict-1 unchanged. Retry once; if it fails again, flag it and wrap
 up. If `publish` stops because the store is full, set that store's `status` to
 `"full"` in `audio/config.json`, flag to the curator that the next audio
 repository is needed (`AUDIO_WORKFLOW.md` §7), and wrap up. A `verify` timeout
@@ -157,7 +158,8 @@ Otherwise the item simply waits for Tom; the report names how many there are.
   and after, maintenance done and its results, examples planned / accepted /
   first-pass / left for a human, cost (`audio/runs.jsonl` last line), entry range
   recorded, `verify` result.
-- `make gate`, `make index`, commit (`audio/`, the ledger, the session log),
+- `make gate`, `make index`, commit (`audio/`, the entries whose `has_audio` flags changed, the
+  ledger, the session log),
   push, PR titled `routine(audio): <N> recordings, entries <first>–<last>`,
   CI, merge. The PR body says how many examples now have recordings, what it
   cost, and anything Tom must do (a spot-check page to rate, a model to approve).

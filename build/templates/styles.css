@@ -1022,6 +1022,10 @@ main {
     transition: background-color 0.15s;
 }
 
+.recent-item[hidden] {
+    display: none;
+}
+
 .recent-item:hover {
     background-color: var(--color-bg);
 }
@@ -1057,6 +1061,35 @@ main {
 
 .recent-status.revised {
     color: #8b5cf6;
+}
+
+.recent-status.audio {
+    color: #0e7490;
+    text-transform: none;
+}
+
+.recent-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.recent-filter button {
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.recent-filter button[aria-pressed="true"] {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
 }
 
 .recent-date {

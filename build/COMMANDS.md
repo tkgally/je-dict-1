@@ -113,7 +113,8 @@ make audio-deps                                        # fugashi + unidic-lite (
 python3 build/audio_pipeline.py status                 # coverage by tier, stale, undetermined, needs-human, store use
 python3 build/audio_pipeline.py plan --budget 2.30     # choose examples in priority order → audio_work/plan.json
 python3 build/audio_pipeline.py run --workers 12       # generate → check → regenerate; stage accepted MP3s in audio_work/
-python3 build/audio_pipeline.py publish                # push MP3s to the audio repository, then write audio/manifest/
+python3 build/audio_pipeline.py publish                # push MP3s to the audio repository, then write audio/manifest/ and has_audio
+python3 build/sync_audio_flags.py [--check]            # set examples' has_audio from audio/manifest/ (also run by make index)
 python3 build/audio_pipeline.py testset --voice Aoede  # voice pilot on the 100-sentence test set
 python3 build/audio_pipeline.py undetermined --reason bare-kanji malformed   # examples whose reading is not determined
 python3 build/audio_regression.py                      # the 163 regression clips; required before any workflow change
