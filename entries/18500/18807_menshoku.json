@@ -115,7 +115,7 @@
     },
     {
       "id": "18807_menshoku_ex2",
-      "japanese": "{懲戒|ちょうかい}{免職|めんしょく}⟦の→の：09472_no⟧⟦{処分|しょぶん}→処分：05520_shobun⟧⟦が→が：00051_ga⟧⟦{下|くだ}された→下す：12329_kudasu⟧。",
+      "japanese": "⟦{懲戒|ちょうかい}→懲戒：09469_choukai⟧{免職|めんしょく}⟦の→の：09472_no⟧⟦{処分|しょぶん}→処分：05520_shobun⟧⟦が→が：00051_ga⟧⟦{下|くだ}された→下す：12329_kudasu⟧。",
       "english": "A disciplinary dismissal was handed down.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{免職|めんしょく} is a formal term for dismissal from an official position, primarily used for ⟦{公務員|こうむいん}→公務員：01588_koumuin⟧ (civil servants) and government employees.\n\nCOMMON COLLOCATIONS:\n- {免職|めんしょく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to be dismissed from one's post\n- {免職|めんしょく}⟦する→する：00392_suru⟧: to dismiss someone\n- {免職|めんしょく}⟦{処分|しょぶん}→処分：05520_shobun⟧: dismissal action\n\nTYPES:\n- {懲戒|ちょうかい}{免職|めんしょく}: disciplinary dismissal (most severe)\n- {諭旨|ゆし}{免職|めんしょく}: dismissal under advisement (less severe, allows the person to resign)\n\nSIMILAR WORDS:\n- ⟦{解雇|かいこ}→解雇：04561_kaiko⟧: firing/dismissal (for private-sector employees)\n- ⟦{罷免|ひめん}→罷免：29397_himen⟧: removal from office (for high-ranking officials)\n- ⟦{首|くび}→首：00792_kubi⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧/⟦なる→なる：01970_naru⟧: to fire/be fired (colloquial)\n\nUSAGE:\n{免職|めんしょく} appears mainly in news reports about public servants. For private companies, ⟦{解雇|かいこ}→解雇：04561_kaiko⟧ or the colloquial ⟦{首|くび}→首：00792_kubi⟧ is used instead.",
+  "notes": "{免職|めんしょく} is a formal term for dismissal from an official position, primarily used for ⟦{公務員|こうむいん}→公務員：01588_koumuin⟧ (civil servants) and government employees.\n\nCOMMON COLLOCATIONS:\n- {免職|めんしょく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to be dismissed from one's post\n- {免職|めんしょく}⟦する→する：00392_suru⟧: to dismiss someone\n- {免職|めんしょく}⟦{処分|しょぶん}→処分：05520_shobun⟧: dismissal action\n\nTYPES:\n- ⟦{懲戒|ちょうかい}→懲戒：09469_choukai⟧{免職|めんしょく}: disciplinary dismissal (most severe)\n- {諭旨|ゆし}{免職|めんしょく}: dismissal under advisement (less severe, allows the person to resign)\n\nSIMILAR WORDS:\n- ⟦{解雇|かいこ}→解雇：04561_kaiko⟧: firing/dismissal (for private-sector employees)\n- ⟦{罷免|ひめん}→罷免：29397_himen⟧: removal from office (for high-ranking officials)\n- ⟦{首|くび}→首：00792_kubi⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧/⟦なる→なる：01970_naru⟧: to fire/be fired (colloquial)\n\nUSAGE:\n{免職|めんしょく} appears mainly in news reports about public servants. For private companies, ⟦{解雇|かいこ}→解雇：04561_kaiko⟧ or the colloquial ⟦{首|くび}→首：00792_kubi⟧ is used instead.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
@@ -160,6 +160,13 @@
       "reading": "めんかん",
       "headword": "{免官|めんかん}",
       "label": "dismissal from office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01970_naru",
+      "reading": "なる",
+      "headword": "なる",
+      "label": "to fire/be fired"
     }
   ],
   "metadata": {
@@ -177,9 +184,10 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-23T04:40:45Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-09-26T21:18:12Z"
   }
 }
