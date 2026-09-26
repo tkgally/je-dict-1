@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-26 (Routine v3: new-entries — 3 New Entries, IDs 31074–31076)
+
+A short end-of-run cycle. 柴刈り (gathering brushwood, the Momotarō しばかり), the one internal-closure
+candidate, added after the 芝刈り polish; 無印良品 and 朝日新聞 from the curated proper-noun queue. Two old
+`noentry` markers (01639 新聞社, 03990 無地) now link to them. Self-check clean. Candidate queue stands at 113.
+
 ### 2026-09-26 (Routine v3: new-entries — 20 New Entries, IDs 31054–31073)
 
 Five internal-closure words that earlier entries mentioned without defining: 立ち飲み, 既成,
@@ -117,34 +123,3 @@ inside 建て直す, 続け inside 描き続け, 子 inside 子ども, 売り in
 now says the Great Wave is on the *new* 1,000-yen note issued in 2024. Rejected: removing `food`
 from 31032 {築地|つきじ}. Kana-link check: 17 links, 0 flagged. Cost $0.013.
 
-### 2026-09-21 (Routine v3: new-entries — 20 New Entries, IDs 30994–31013)
-
-Created 20 general-tier entries: 5 from the "seen in entry" internal-closure lane plus 15 curated
-proper nouns from the queue (7 countries, 8 historical/literary figures) to round out the session.
-Two internal-closure candidates in the queue, {見|み}ごたえ (C23499) and {読|よ}みごたえ (C23500),
-were dropped first as stale duplicates — kana-only spellings of the existing kanji entries
-{見応|みごた}え (07274) and {読|よ}み{応|ごた}え (07273).
-
-Internal-closure words: {損得勘定|そんとくかんじょう} (from 08055 {打算的|ださんてき}),
-{希望退職|きぼうたいしょく} (from 08070 {早期退職|そうきたいしょく}), やけ{酒|ざけ} (from 08073
-やけ{食|ぐ}い), {見|み}がい and やりごたえ (both from 08074/08085's related-word lists). Queue
-proper nouns: スペイン, ロシア, ブラジル, タイ, ベトナム, スイス, エジプト, and the historical
-figures {徳川家康|とくがわいえやす}, {坂本龍馬|さかもとりょうま}, {福沢諭吉|ふくざわゆきち},
-{野口英世|のぐちひでよ}, {樋口一葉|ひぐちいちよう}, {芥川龍之介|あくたがわりゅうのすけ},
-{太宰治|だざいおさむ}, {川端康成|かわばたやすなり}. Added kanji 之 to the kanji index (from
-{龍之介|りゅうのすけ}).
-
-**Four stale `noentry` markers resolved** (class A2, hand-verified): 03382 {対|たい} (ブラジル),
-04285 {南米|なんべい} (スペイン, ブラジル), and 05324 {古代|こだい} (エジプト). Cross-reference
-harvest also added reciprocal links into 16450 {定年退職|ていねんたいしょく}, 08061
-{暴飲暴食|ぼういんぼうしょく}, 06653 やり{甲斐|がい}, and 08039 {食|た}べごたえ.
-
-**§4 self-check on all 27 changed entries (20 new plus 7 neighbors touched by linking and
-`noentry` repair): 1 flag applied, 3 rejected.** 31013 {川端康成|かわばたやすなり}'s notes wrongly
-said he died "four years after" {三島由紀夫|みしまゆきお}'s 1970 suicide — corrected to "about a
-year and a half after" (Kawabata died April 1972). The three rejected flags were reviewer noise:
-a restatement of 05324's already-correct "up to around the 12th century" (1185, the end of the
-Heian period, is in the 12th century), and two no-op flags on 31002 タイ and 31011
-{芥川龍之介|あくたがわりゅうのすけ} that suggested changing values to themselves. In-context
-kana-link check: 4 links reviewed, 0 flagged. Cost: $0.0130 self-check, $0.9982 spent today
-against the $5.00 daily cap.
