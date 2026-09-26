@@ -86,7 +86,7 @@
           },
           "has_audio": {
             "type": "boolean",
-            "description": "Whether audio exists for this example"
+            "description": "Whether a valid recording of this example exists (audio/manifest/). Set by build/sync_audio_flags.py; write false in new examples"
           },
           "sense_numbers": {
             "type": "array",

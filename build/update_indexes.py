@@ -10,6 +10,9 @@ This script should be run after:
 It will:
 1. Update entries_index.json with current entry list
 2. Remove from candidate_words.json any words that now exist as entries
+3. Regenerate build/word_id_lookup.json
+4. Check for new kanji
+5. Set each example's has_audio from audio/manifest/ (build/sync_audio_flags.py)
 
 Usage:
     python build/update_indexes.py
@@ -110,6 +113,19 @@ def main():
             print(result.stdout)
         else:
             print("   No new kanji found.")
+
+    # 5. Example audio flags follow the audio manifest (an edited example loses its recording)
+    print("\n5. Syncing example has_audio flags with audio/manifest/...")
+    result = subprocess.run(
+        [sys.executable, str(project_root / 'build' / 'sync_audio_flags.py')],
+        capture_output=True,
+        text=True,
+        cwd=str(project_root)
+    )
+    print("   " + (result.stdout.strip() or result.stderr.strip()))
+    if result.returncode != 0:
+        print(f"   ERROR: sync_audio_flags.py failed with exit code {result.returncode}")
+        has_errors = True
 
     print("\n" + "=" * 50)
     if has_errors:

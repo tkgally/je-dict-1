@@ -272,8 +272,8 @@ je-dict-1 keeps text only, all under `audio/`:
 - `manifest/<range>.jsonl`: one line per recorded example: `ex` (example ID), `h` (first 16 hex
   digits of `text_hash()` of its `japanese` field: SHA-256 of the text with link markup removed
   and furigana kept), `v` voice, `s` store, `f` path in the store, `d` seconds, `b` bytes, `at`
-  date, `wf` workflow version, `tts` model, `n` attempts used, `obj` checkers that objected on
-  the accepted attempt. Sharded by entry range so a run touches few files.
+  publication time (UTC), `wf` workflow version, `tts` model, `n` attempts used, `obj` checkers
+  that objected on the accepted attempt. Sharded by entry range so a run touches few files.
 - `needs_human.jsonl`: examples no attempt passed, with the verdicts and diffs of every attempt.
   They are not retried while the text and the workflow version are unchanged.
 - `runs.jsonl`: one summary line per production run (examples, first-pass, needs-human,
@@ -284,8 +284,15 @@ je-dict-1 keeps text only, all under `audio/`:
 The site build (`build/audio_manifest.py`, used by `render_examples()` in
 `build/entry_renderer.py`) gives an example the recording button only when its manifest `h`
 matches the current text. Otherwise the example keeps the browser-speech button, and
-`plan` queues it again as *stale*, ahead of everything else. The entries' old `has_audio` field is
-not used.
+`plan` queues it again as *stale*, ahead of everything else.
+
+Each example's `has_audio` field in the entry JSON mirrors the same test, for readers of the data:
+it is true exactly when the manifest holds a valid recording of the example's current text.
+`build/sync_audio_flags.py` sets it (`--check` reports without changing); `publish` runs it on the
+entries just recorded and `make index` runs it on every entry, so an edited example goes back to
+false in the same commit. It is derived data: the sync does not change `metadata.modified`, and
+nothing in the build reads the field. The Recent page lists an entry as "REVISED (audio)" when a
+recording of one of its examples was published after its last text change (manifest `at`).
 
 ## 9. The Routine's `audio` mode
 
@@ -295,7 +302,7 @@ not used.
   `audio/config.json` `production.enabled` is false, and on days when less than
   $0.50 of the OpenRouter daily cap remains.
 - **Budget** (raised by Tom on 2026-09-25): `openrouter.audio_session_cap_usd` = $4.80 per audio
-  run, daily cap $7.50 shared with the other modes (an audio run changes no entries, so it needs
+  run, daily cap $7.50 shared with the other modes (an audio run changes no entry text, so it needs
   no self-check). At the measured $0.0024–0.0026 per example that is about 1,800 examples per
   run, about 25 minutes of `run` calls. The Routine runs every three hours (eight runs a day),
   so about two runs a day are audio runs; the $7.50 daily cap, shared with the accuracy review,
@@ -374,6 +381,9 @@ identical on the test set, see the changelog):
 - `build/audio_pipeline.py`: `status`, `plan`, `run`, `publish`, `testset` (voice pilot),
   `undetermined`.
 - `build/audio_regression.py`: reruns the checks on the regression clips (`make audio-regression`).
+- `build/audio_manifest.py`: read side of the manifest for the site build (recording URL,
+  newest recording of an entry for the Recent page).
+- `build/sync_audio_flags.py`: sets the examples' `has_audio` from the manifest (§8).
 - `build/tests/test_audio.py`: unit tests for the deterministic parts.
 - `build/check_no_binaries.py`: CI gate; no audio file may be added to je-dict-1 outside
   `audio/regression/`.
@@ -477,3 +487,8 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   push allowed to the attached audio repository; refused, with the proxy naming the fix ("add the
   repository to the session's sources"), for an unattached one. §9 pacing corrected for eight
   runs a day.
+- 2026-09-26: `has_audio` in the entries is set from the manifest (`build/sync_audio_flags.py`,
+  run by `publish` and `make index`; §8); it had been left false. The manifest's `at` is now the
+  publication timestamp rather than the date (the 1,108 existing records got the time of their
+  run from the audio repository's `logs/`), so the Recent page can place audio additions among
+  text changes. The spot check compares its date part. No change to generation or checking.

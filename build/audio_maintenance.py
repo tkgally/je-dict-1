@@ -217,7 +217,7 @@ def cmd_spotcheck(args):
     manifest = P.load_manifest()
     stores = {s["id"]: s["base_url"] for s in cfg["stores"]}
     examples = {x["ex"]: x for x in P.load_examples()}
-    recent = [r for r in manifest.values() if r.get("at", "") > since and r["ex"] in examples
+    recent = [r for r in manifest.values() if r.get("at", "")[:10] > since and r["ex"] in examples
               and P.short_hash(examples[r["ex"]]["raw"]) == r["h"]]
     rng = random.Random(args.seed or today().isoformat())
     risky = sorted([r for r in recent if risk_score(r) > 0], key=lambda r: -risk_score(r))

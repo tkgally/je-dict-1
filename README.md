@@ -1,474 +1,222 @@
 # TKG Japanese-English Learner's Dictionary
 
-This is the repository for a Japanese-English learner's dictionary delivered as a static website. Its production is being supervised by [Tom Gally](https://www.gally.net/about.html). All of the entry-writing and coding is being done by Claude in Claude Code for the Web, with some bug-hunting and improvement-suggesting by ChatGPT and Gemini.
+**Live site: https://www.tkgje.jp/**
 
-**Live site**: https://www.tkgje.jp/
+An explanatory Japanese-English dictionary for intermediate learners of Japanese: people who can
+read hiragana and katakana, know some kanji, and want to understand words well enough to use
+them, not just to look up a translation. This repository holds all of the dictionary's data and
+all of the code that builds the site.
 
-This dictionary is licensed under Creative Commons Zero v1.0 Universal, and anyone is free to copy the data and code for whatever purpose they like, including commercial uses.
+The project is supervised by [Tom Gally](https://www.gally.net/about.html). Almost all of the
+entry writing, checking and coding has been done by Claude (Anthropic) working in Claude Code,
+with independent checks by models from other companies. The story of the project, in Tom's
+words, is on the site's [About page](https://www.tkgje.jp/about.html).
 
-## Overview
+Everything here is dedicated to the public domain under [CC0 1.0 Universal](LICENSE). You may copy,
+adapt and redistribute the data and code for any purpose, including commercial use, without
+asking permission. Credit is welcome but not required.
 
-This dictionary is designed for learners of Japanese as a second language. It uses an original three-tier vocabulary classification system:
-- **Basic tier**: About one thousand fundamental words essential for basic communication
-- **Core tier**: About two thousand needed for adult-level communication
-- **General tier**: All other vocabulary useful for learners
+## What the dictionary contains
 
-Dictionary features include:
+As of late September 2026:
 
-- **Explanatory definitions** that go beyond simple glosses
-- **Natural example sentences** optimized for learning
-- **Usage notes** covering grammar, register, and common patterns
-- **Furigana support** with toggle to show/hide readings above kanji
-- **Kanji index** linking each kanji in headwords to all other entries containing that kanji
-- **Multiple interface modes**: Search, Browse, Recent, and Random views
-- **Cross-reference linking** with prominent top-of-entry links for homophones, verb pairs, and N/Nする pairs, plus structured "Related Words" boxes for antonyms, keigo, synonyms, and more
-- **Inline word links** in example sentences allowing navigation to any word's entry
-- **Transitivity and aspect information** for verbs
-- **Collocation patterns** showing natural word combinations
-- **Keigo (honorific) verb coverage** with usage guidance
+| | |
+|---|---|
+| Entries | about 30,900 |
+| Example sentences | about 120,000, each with an English translation |
+| Inline links from words in examples and notes to their entries | about 1,000,000 |
+| Cross-references between entries (synonyms, antonyms, verb pairs, keigo, …) | about 78,000 |
+| Kanji in the kanji index | about 2,800 |
+| Verbs and i-adjectives with full conjugation tables | about 7,800 |
+| Articles on topics that single entries cannot cover (keigo, counters, giving and receiving, …) | 10 |
 
-Audio readings for example sentences will be added in the future.
+The dictionary is now in a maintenance phase. Existing entries are reviewed, corrected and
+connected to one another; a new entry is added mainly when the dictionary already uses a word
+that has no entry of its own.
 
-## Current Status
+### Vocabulary tiers
 
-- **Over 14,000 entries** across three vocabulary tiers
-- **Vocabulary tiers**: Basic (801), Core (1,998), General (the rest) — all new entries are added to general tier
-- **Many cross-references** linking related entries
-- **Over 50,000 example sentences** with inline word links
-- **Claude Code skills** for consistent entry creation and revision
-- **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
-- **Automated pipeline** for batch dictionary maintenance tasks
-- **Unattended improvement Routine** (`prompts/routine2.md`) — scheduled Claude sessions that rotate between polishing, entry creation, cross-model accuracy review (via OpenRouter, budget-capped), systemic fixes, and knowledge-base maintenance; each run verifies its own entry changes with an independent model, records quality metrics, and merges its own PR
-- **Robust build system** with atomic builds, XSS protection, and comprehensive validation
-- **CI/CD** with GitHub Actions for validation and automated pipeline runs
+Instead of JLPT levels, every entry belongs to one of three tiers:
 
-## Target Users
+- **Basic** (801 entries): the words needed for simple everyday communication.
+- **Core** (1,982 entries): the words an adult needs for ordinary communication.
+- **General** (everything else): words a learner will meet in reading, conversation and media.
 
-Intermediate learners of Japanese who:
-- Can read hiragana and katakana fluently
-- Know some kanji and are building vocabulary
-- Want to understand words fully, not just look them up quickly
+The basic and core tiers are closed. Example sentences in basic and core entries are written
+with simpler vocabulary.
 
-## Technology
+### What an entry offers
 
-The dictionary is built as a **completely static website**:
-- No server required—just open `index.html` directly in your browser
-- No external dependencies—pure HTML, CSS, and JavaScript
-- Offline-capable—download and use anywhere
+- Glosses and explanatory definitions, sense by sense
+- Example sentences that progress from short and simple to longer and more natural
+- Usage notes on grammar, register, collocations, commonly confused words and culture
+- Furigana on every kanji, which readers can switch on or off
+- For verbs: transitivity, the intransitive or transitive partner, how the ている form behaves, and a
+  conjugation table
+- Tags for part of speech, formality, politeness and meaning
+- Links from every word in the examples and notes to that word's entry
+- Recorded readings of the example sentences (being added; see [Example audio](#example-audio))
 
-## Site Structure
+## Using the site
 
-The dictionary is built as a static HTML site at `docs/`:
+The site is fully static: HTML, CSS and JavaScript, with no server-side code. It counts page
+views with GoatCounter, a privacy-friendly counter that sets no cookies.
 
-- **Individual pages**: Each entry has its own standalone HTML file
-- **Lightweight pages**: Each page loads only the content needed
-- **Deep linking**: Direct URLs to specific entries
+- **Search** (the home page): look up a word by Japanese, romaji or English.
+- **Browse**: entries by the first kana of their reading.
+- **Kanji**: every kanji used in headwords, each with a page listing the entries that contain it.
+- **Lists**: the basic and core tiers, and entries grouped by subject tag.
+- **Articles**: longer explanations of topics such as keigo, counters and onomatopoeia.
+- **Recent**: the most recently changed entries, marked **NEW** (a new entry), **REVISED** (its
+  text was changed) or **REVISED (audio)** (recordings of its examples were added).
+- **Random**: a cloud of randomly chosen headwords for browsing.
 
-### URL Structure
+Three buttons in the header control what entry pages show: **Examples** (show or hide the example
+sentences), **Furigana** (readings above kanji) and **Links** (underline the linked words in
+examples and notes). The site remembers these settings in the browser.
 
-Entry pages are organized by numeric ID ranges (500 entries per directory):
-```
-docs/
-├── index.html           # Home page
-├── search.html          # Search interface
-├── browse.html          # Browse by kana row
-├── recent.html          # Recently modified entries
-├── random.html          # Random word cloud
-├── entries/
-│   ├── 00000/           # Entries 00000-00499
-│   │   ├── 00396_taberu.html
-│   │   └── 00499_sakana.html
-│   ├── 00500/           # Entries 00500-00999
-│   ├── 01000/           # Entries 01000-01499
-│   └── ...
-└── kanji/               # Kanji index pages
-    ├── 00001_teki_mato_target.html
-    ├── 00009_jin_hito_person.html
-    └── ...              # One page per kanji
-```
+Each example sentence has a play button. When the example has a recorded reading, the button
+plays it; otherwise it uses the browser's own text-to-speech voice.
 
-This numeric range structure allows the dictionary to scale to 10,000+ entries while staying within GitHub's 1,000 files per directory limit.
+## Using the data
 
-## Web Interface
+Each entry is a JSON file in `entries/`, named `<id>_<romaji>.json` and grouped by ID in
+directories of 500 (`entries/00000/`, `entries/00500/`, …). An entry's ID is permanent: it is
+also its page's URL (`https://www.tkgje.jp/entries/00000/00426_yomu.html`), so IDs are never
+changed or reused. `build/schema.json` defines the format.
 
-The dictionary provides four different ways to explore entries:
-
-### Search Mode
-Quick lookup by Japanese, romaji, or English. The traditional dictionary experience for users who know what word they're looking for.
-
-### Browse Mode
-Explore entries organized by:
-- **Starting Kana**: あ行, か行, さ行, etc.
-- **Vocabulary Tier**: Basic (801 fundamental words), Core (1,998 adult-communication words), General (all other vocabulary)
-
-The dictionary uses an original three-tier classification system instead of JLPT levels. All new entries are added to the general tier.
-
-### Recent Mode
-View the most recently added or revised entries (up to 250). Each entry shows:
-- **NEW**: Newly created entries
-- **REVISED**: Updated existing entries
-- Date of addition/revision
-
-Useful for tracking dictionary updates and discovering new content.
-
-### Random Mode
-A word cloud of randomly selected entries. Click any word to view its full entry. Great for serendipitous discovery and vocabulary review.
-
-## Furigana System
-
-The dictionary uses a custom notation for furigana (reading annotations above kanji):
-
-### Format
-```
-{kanji|reading}
-```
-
-Examples:
-- `{食|た}べる` → 食べる with た above 食
-- `{友達|ともだち}` → 友達 with ともだち above it
-- `{日本語|にほんご}が{分|わ}かる` → Multiple annotations in one sentence
-
-### In the Web Interface
-- Click the **Furigana** button in the header to toggle readings on/off
-- When enabled, readings appear above kanji using HTML `<ruby>` tags
-- Preference is saved in localStorage
-
-## Inline Word Links
-
-Example sentences can contain inline word links that allow users to click any word to navigate to its dictionary entry.
-
-### Link Format
-
-In JSON source files, links use special Unicode delimiters:
-
-```
-⟦{surface|reading}→baseform：entry_id⟧
-```
-
-**Components:**
-- `⟦` (U+27E6) - Opening bracket
-- `surface` - The word as it appears in the sentence (may include furigana notation)
-- `→` (U+2192) - Arrow separator
-- `baseform` - The dictionary form of the word (displayed in tooltip)
-- `：` (U+FF1A) - Fullwidth colon separator
-- `entry_id` - The target dictionary entry ID (e.g., `00111_hon`)
-- `⟧` (U+27E7) - Closing bracket
-
-Example:
-```json
-"japanese": "⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。"
-```
-
-### In the Web Interface
-
-- Click the **Wordlinks** button in the header to toggle link visibility
-- When enabled, words with links show a dotted underline
-- Hover over a linked word to see a tooltip with the dictionary form
-- Click to navigate to that word's entry
-- Preference is saved in localStorage
-
-### Special Cases
-
-- **`noentry`**: Use for words without dictionary entries: `⟦{矍鑠|かくしゃく}→矍鑠：noentry⟧`
-- **Conjugated forms**: Link to the dictionary form (e.g., 食べました → 食べる)
-- **No self-reference**: Don't link the headword in its own examples
-- **Punctuation**: Do not link punctuation marks (。、？！)
-
-## Kanji Index
-
-The kanji index allows users to find all dictionary entries containing a specific kanji character.
-
-### How It Works
-
-1. **On entry pages**: Each kanji in the headword is a clickable link
-2. **Hover tooltip**: Shows "Other words with this kanji" when hovering over a kanji
-3. **Kanji page**: Clicking displays a page with the kanji and all entries containing it
-4. **Entry list**: Sorted by hiragana reading order
-
-### Kanji ID Format
-
-Each kanji is identified by a unique ID:
-```
-{5-digit number}_{onyomi}_{kunyomi}_{gloss}
-```
-
-Examples:
-- `00009_jin_hito_person` (人)
-- `00116_kou_taka_tall` (高)
-- `00431_yo_ama_surplus` (余)
-
-The ID uses `none` when a kanji lacks on'yomi or kun'yomi.
-
-### Technical Details
-
-- **2,040 kanji** indexed from dictionary headwords
-- **kanji_list.json**: Master mapping of kanji characters to IDs
-- **Individual JSON files**: Entry lists for each kanji in `kanji/`
-- **HTML pages**: Generated in `docs/kanji/` during site build
-- **Automatic updates**: New kanji are detected and indexed when entries are added
-
-## Project Structure
-
-```
-je-dict-1/
-├── entries/              # Dictionary entries (one JSON file per word)
-│   ├── 00000/            # Entries 00000-00499
-│   ├── 00500/            # Entries 00500-00999
-│   ├── 01000/            # Entries 01000-01499
-│   └── ...               # (500 entries per directory)
-├── kanji/                # Kanji index data
-│   ├── kanji_list.json   # Master list mapping kanji to IDs
-│   └── {kanji_id}.json   # Entry lists for each kanji
-├── build/                # Build and management scripts
-│   ├── schema.json       # JSON schema for entries
-│   ├── validate.py       # Entry validation (schema, cross-refs)
-│   ├── validate_tags.py  # Tag taxonomy validation
-│   ├── build_flat.py     # Static HTML site generator (atomic builds)
-│   ├── entry_renderer.py # Entry page HTML generation
-│   ├── page_generators.py      # Navigation page generation
-│   ├── search_index_builder.py # Search index and JS generation
-│   ├── report.py         # Dictionary health dashboard
-│   ├── generate_word_lookup.py # Builds word_id_lookup.json
-│   ├── path_utils.py     # Shared path/prefix utilities
-│   ├── japanese_utils.py # Hiragana/romaji/furigana utilities
-│   ├── constants.py      # Centralized cross-reference type definitions
-│   ├── update_indexes.py # Updates entries_index.json and candidate list
-│   ├── manage_candidates.py    # Manages candidate_words.json
-│   ├── get_entry_path.py       # Computes correct path for new entries
-│   ├── get_timestamp.py        # Generates UTC timestamp for metadata
-│   ├── check_duplicate.py      # Checks for duplicate entries
-│   ├── verify_furigana.py      # Verifies furigana coverage
-│   ├── templates/        # CSS and JS templates (styles.css, search.js, etc.)
-│   ├── tests/            # Unit tests (pytest)
-│   ├── archive/          # One-time migration scripts (no longer used)
-│   └── requirements.txt  # Python 3.10+ dependencies
-├── pipeline/             # Automated task pipeline
-│   ├── run-pipeline.sh   # Task runner (reads config, invokes claude, validates)
-│   ├── validate-task.sh  # Task-specific validation gates
-│   ├── update-status.py  # Pipeline status tracking and reporting
-│   ├── update-brief.py   # Regenerates PROJECT_CONTEXT_BRIEF.md
-│   ├── recommend-tasks.py      # Task scheduler recommendations
-│   ├── routine_next.py   # Unified Routine mode selector (weighted rotation + health nudges)
-│   ├── metrics_snapshot.py     # Per-run quality metrics → metrics-history.jsonl
-│   ├── openrouter-ledger.json  # Daily OpenRouter spend ledger ($5/day cap)
-│   └── pipeline-config.json    # Active pipeline configuration
-├── polishing/            # Progress tracking for polishing tasks
-├── prompts/              # Task prompts (interactive and batch/)
-├── docs/                 # Generated output (served as static site)
-│   ├── entries/          # Individual entry HTML files
-│   │   ├── 00000/        # (same numeric range structure as entries/)
-│   │   └── ...
-│   └── kanji/            # Kanji index HTML pages
-├── .claude/              # Claude Code configuration
-│   ├── skills/           # Agent skills for entry guidelines (auto-loaded)
-│   └── settings.json
-├── .github/workflows/    # GitHub Actions (validate.yml, pipeline.yml)
-├── Makefile              # Build runner (make validate, make build, etc.)
-├── entries_index.json    # Index of all dictionary entries
-├── candidate_words.json  # Words to potentially add in future
-├── PROJECT_CONTEXT_BRIEF.md  # Quick-reference counts for session start
-└── PROJECT_STATUS.md     # Session continuity and recent change log
-```
-
-### Entry Schema
-
-Each entry is a JSON file with the following structure:
+An abridged entry:
 
 ```json
 {
-  "id": "00396_taberu",
-  "headword": "{食|た}べる",
-  "reading": "たべる",
-  "part_of_speech": "verb (ichidan)",
-  "gloss": "to eat",
+  "id": "00426_yomu",
+  "headword": "{読|よ}む",
+  "reading": "よむ",
+  "part_of_speech": "verb (godan)",
+  "gloss": "to read",
   "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to eat",
-      "explanation": "The most common verb for eating..."
-    }
+    {"sense_number": 1, "gloss": "to read",
+     "explanation": "To look at and comprehend written text. Used for books, newspapers, signs, emails, and any written material."}
   ],
   "examples": [
-    {
-      "id": "00396_taberu_ex1",
-      "japanese": "{朝|あさ}ごはんを{食|た}べましたか。",
-      "english": "Did you eat breakfast?",
-      "notes": null,
-      "sense_numbers": [1]
-    }
+    {"id": "00426_yomu_ex1",
+     "japanese": "⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{読|よ}む。",
+     "english": "I read a book.",
+     "notes": null,
+     "has_audio": true,
+     "sense_numbers": [1]}
   ],
-  "notes": "Usage notes, grammar notes, etc.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). …",
   "cross_references": [
-    {
-      "type": "pair",
-      "reading": "たべもの",
-      "headword": "{食|た}べ{物|もの}"
-    }
+    {"type": "contrast", "target_id": "26844_hatsuonsuru", "reading": "はつおんする",
+     "headword": "{発音|はつおん}する", "label": "to pronounce"}
   ],
+  "conjugation": {"…": "…"},
   "metadata": {
-    "created": "2026-01-05T10:00:00Z",
-    "modified": "2026-01-05T10:00:00Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "basic"
+    "created": "2026-01-05T12:03:41Z",
+    "modified": "2026-09-02T04:00:57Z",
+    "vocabulary_tier": "basic",
+    "tags": {"pos": ["verb-godan"], "transitivity": "transitive", "formality": "neutral",
+             "politeness": "plain", "semantic": ["communication"], "verb_class": "godan-mu"}
   }
 }
 ```
 
-### Sense Numbers in Examples
+Two kinds of markup appear inside Japanese text:
 
-The `sense_numbers` field on example sentences links each example to one or more definition senses:
+- **Furigana**: `{漢字|かんじ}` puts the reading かんじ over 漢字.
+- **Inline links**: `⟦surface→dictionary form：entry id⟧` marks a word and the entry it links to.
+  In `⟦{読|よ}んで→読む：00426_yomu⟧`, the text says 読んで, and the link goes to the entry for 読む.
 
-- **Required for multi-sense entries**: Every example must specify which sense(s) it illustrates
-- **Format**: Array of integers matching `sense_number` values in definitions (e.g., `[1]`, `[2]`, or `[1, 2]`)
-- **Single-sense entries**: Use `[1]` for all examples
-- **Multi-sense examples**: An example can illustrate multiple senses with `[1, 2]`
+To get plain text, replace each link with its surface part (the text between `⟦` and `→`), then
+each `{漢字|かんじ}` with 漢字 (or with かんじ for a kana reading).
 
-This enables future features like filtering examples by sense and helps learners understand which meaning each example demonstrates.
+Other data files:
 
-### File Naming Convention
+- `entries_index.json`: every entry's ID, headword, reading, gloss and tier.
+- `kanji/`: the kanji index (`kanji_list.json` and one file per kanji).
+- `articles/`: the articles, as JSON with a markdown body using the same markup.
+- `audio/manifest/`: the recorded readings (see below).
 
-Files use the format: `{id}_{romanized_reading}.json`
+## Example audio
 
-- IDs are 5-digit zero-padded numbers at the START of the filename
-- Use Modified Hepburn romanization for the reading
-- Long vowels follow kana spelling: 東京 → `toukyou`, not `tokyo`
-- Katakana loanwords use hiragana reading (e.g., アルバイト → `arubaito`)
+Example sentences are being given recorded readings, starting with the basic and core tiers.
+Each recording is made by a text-to-speech model (Gemini TTS) and is accepted only after four
+automatic checks, using models from different companies, agree that every word was pronounced
+as the example's furigana indicate. The MP3 files are kept in a separate repository,
+[tkgally/je-dict-audio-1](https://github.com/tkgally/je-dict-audio-1), and served from its
+GitHub Pages site.
 
-### Directory Placement
+`audio/manifest/<range>.jsonl` lists every recording: the example ID, a hash of the text that was
+recorded, the file's path and the voice used. A recording counts only while the example's text
+and furigana are unchanged; when an example is edited, the site falls back to browser speech
+until the example is recorded again. An example's `has_audio` field says whether it currently
+has a valid recording. The whole workflow, the evidence for it and its changelog are in
+[AUDIO_WORKFLOW.md](AUDIO_WORKFLOW.md).
 
-Files go in directories based on the numeric ID range (500 entries per directory):
-- Entry 00396_taberu → `entries/00000/00396_taberu.json`
-- Entry 00538_aruku → `entries/00500/00538_aruku.json`
-- Entry 01186_mukau → `entries/01000/01186_mukau.json`
+## How the dictionary is made and maintained
 
-The directory name is determined by rounding down to the nearest 500:
-- IDs 00000-00499 → `entries/00000/`
-- IDs 00500-00999 → `entries/00500/`
-- IDs 01000-01499 → `entries/01000/`
+The dictionary is written and maintained by Claude in scheduled sessions (Claude Code
+"Routines"). Each session follows `prompts/routine2.md`: a selector (`pipeline/routine_next.py`)
+chooses one kind of work, such as polishing a batch of entries, a cross-model accuracy review,
+a fix for a problem found across many entries, new entries for words the dictionary uses but
+does not define, or example audio. The session then:
 
-## Phased Roadmap
+1. makes its changes following the guidelines in `.claude/skills/`;
+2. runs the deterministic passes: note formatting (`build/normalize_notes.py`), inline links
+   (`build/auto_link.py`, which uses the SudachiPy morphological analyzer), and cross-references
+   named in notes (`build/harvest_crossrefs.py`);
+3. has a model from another company review the changed entries (`build/review_accuracy.py` and
+   `build/review_links.py`, through OpenRouter) and decides on each point it raises, logging the
+   decision in `reviews/decisions.jsonl`;
+4. runs the same checks as continuous integration (`make gate`), updates the indexes
+   (`make index`) and opens a pull request, which it merges once the checks pass.
 
-### Phase 1: Foundation ✓ COMPLETE
-- [x] Project structure and schema
-- [x] Build and validation scripts
-- [x] Basic web interface
-- [x] Furigana system with toggle
+When a pull request is merged, GitHub Actions builds the site from the JSON
+(`.github/workflows/pages.yml`) and deploys it to GitHub Pages. The generated site is not stored
+in the repository.
 
-### Phase 2: Core Vocabulary ✓ COMPLETE
-- [x] Basic vocabulary foundation (~761 entries)
-- [x] Multi-model LLM evaluation
-- [x] Quality specification v2
-- [x] Entry revision to v2 standards
+Tom reads the pull requests and the questions sessions leave for him in
+`reviews/needs_curator.txt`.
 
-### Phase 3: Entry Enhancement ✓ COMPLETE
-- [x] Add transitivity/aspect to all verbs
-- [x] Expand particle entries with predicate lists
-- [x] Add collocation patterns
-- [x] Standardize adjective forms
-- [x] Notes formatting with bullet points
+## Repository layout
 
-### Phase 4: Vocabulary Expansion & Interface ✓ COMPLETE
-- [x] Added ~7,500+ vocabulary entries (10,300+ total)
-- [x] Multiple interface modes (Search, Browse, Recent, Random)
-- [x] Sticky header with interface toggle and furigana button
-- [x] Entry tracking system (`entries_index.json`, `candidate_words.json`)
-- [x] Cross-reference linking system (3,300+ references)
-- [x] Inline word links in example sentences
-- [x] Static HTML site generation (flat HTML only)
-- [x] Prefix-based subdirectory structure (scalable to 10,000+ entries)
-- [x] Three-tier vocabulary system (basic 801, core 1,998, general 7,504+)
-- [x] Vocabulary tier realignment complete — all entries assigned
-- [x] Tier-based filtering in Browse mode
+```
+entries/          The dictionary entries (JSON), 500 per directory
+articles/         The articles (JSON)
+audio/            Audio manifest, workflow configuration and test data (no audio files)
+kanji/            Kanji index data
+build/            Site build, validation, deterministic passes, review tools, unit tests
+  schema.json       Entry format
+  data/             Controlled vocabularies and baselines used by the checks
+  templates/        Site CSS and JavaScript
+  tests/            Unit tests
+  COMMANDS.md       Every command, grouped by task
+prompts/          Instructions for the scheduled sessions (routine2.md and its mode prompts)
+pipeline/         Session selector, metrics and spending ledgers
+.claude/skills/   Editorial guidelines by entry type
+planning/wiki/    Research notes on Japanese lexicography and the project backlog
+polishing/        Progress of the polishing passes, session logs, observations
+reviews/          Review decisions, accuracy flags, questions for the editor
+.github/workflows CI checks on pull requests; site build and deployment
+```
 
-### Phase 5: Code Refactoring & Automation ✓ COMPLETE
-- [x] Extracted CSS/JS from build_flat.py to standalone templates
-- [x] Split build_flat.py into entry_renderer.py, page_generators.py, search_index_builder.py
-- [x] Unit tests for japanese_utils.py and path_utils.py
-- [x] Makefile with validate, build, quick, report targets
-- [x] Dictionary health dashboard (build/report.py)
-- [x] GitHub Actions CI for validation on push/PR
-- [x] Automated pipeline system (pipeline/run-pipeline.sh)
-- [x] GitHub Actions pipeline workflow for browser-triggered runs
+`CLAUDE.md` is the working guide for Claude sessions; `PROJECT_STATUS.md` records recent history.
 
-### Phase 6: Continued Expansion & Polish (Current)
-- [ ] Continue adding vocabulary
-- [ ] Add audio readings for example sentences
-- [ ] Conjugation search indexing
-- [ ] Offline package generation
-- [ ] Export to Anki format
+## Building the site locally
 
-## For AI Assistants
+Python 3.10 or later is needed.
 
-### Available Skills
+```bash
+pip install -r build/requirements.txt
+make build                 # validate, update indexes, generate the site in docs/
+open docs/index.html       # or open the file in any browser; no web server is needed
+make gate                  # the checks CI runs on a pull request (unit tests, validation)
+```
 
-The following skills are available in `.claude/skills/` and will be automatically invoked by Claude Code when relevant:
+The audio tools need extra packages (`make audio-deps`) and an OpenRouter API key; the site
+build does not.
 
-| Skill | Purpose |
-|-------|---------|
-| `entry-guidelines` | General quality standards for all entries |
-| `verb-entry` | Requirements for verb entries (transitivity, aspect, collocations) |
-| `adjective-entry` | Requirements for adjective entries (forms, conjugations) |
-| `particle-entry` | Requirements for particle entries (predicate lists, contrasts) |
-| `other-entries` | Requirements for nouns, counters, adverbs, expressions |
-| `example-sentences` | Requirements for example sentences (counts, length, vocabulary) |
-| `vocabulary-notes` | Formatting guidelines for notes field |
-| `vocabulary-tiers` | Guidelines for the three-tier vocabulary system |
-| `cross-reference-entry` | Guidelines for adding cross-references between entries |
-| `find-candidates` | Guidelines for finding new candidate words to add |
-| `revise-entries` | Checklist for revising existing entries to v2 standards |
-| `polish-entries` | Systematic review and improvement of entries |
-| `delete-entry` | Guidelines for safely deleting entries |
-| `resolve-duplicates` | Guidelines for identifying and resolving duplicate entries |
-| `kanji-index` | Guidelines for maintaining the kanji index feature |
-| `inline-word-links` | Guidelines for adding inline cross-reference links to examples |
+## Contact
 
-Skills are automatically loaded when Claude determines they're relevant to the current task.
-
-### Workflow for Creating/Editing Entries
-
-1. **Read PROJECT_CONTEXT_BRIEF.md** for current counts and rules
-2. **Claude will automatically load relevant skills** based on the entry type being created/revised
-3. **Follow the guidelines** from the loaded skills
-4. **Validate entries** after creation: `make validate`
-5. **Place files correctly** based on the numeric ID range
-6. **Build the site**: `make build` (or `make quick` for incremental)
-7. **Update PROJECT_STATUS.md** at the end of each session
-
-### Key Quality Standards (v2)
-
-Based on multi-model LLM evaluation, these are HIGH PRIORITY for all entries:
-
-**For Verbs:**
-- Transitivity type and pair verb
-- Aspect/ている behavior
-- Common collocations
-
-**For Particles:**
-- List of predicates requiring this particle
-- Contrast with similar particles
-
-**For All Entries:**
-- Examples progress from simple to complex
-- At least one collocation or fixed phrase
-- Consistent depth with similar entries
-
-### Directory Structure Quick Reference
-
-Entries are organized by numeric ID ranges (500 entries per directory):
-
-| ID Range | Directory |
-|----------|-----------|
-| 00000-00499 | `entries/00000/` |
-| 00500-00999 | `entries/00500/` |
-| 01000-01499 | `entries/01000/` |
-| ... | ... |
-
-Use `python3 build/get_entry_path.py <reading> <entry_id>` to get the correct path for new entries.
-
-## License
-
-Creative Commons Zero v1.0 Universal
-
-## Contributing
-
-Email suggestions for enhancements to [Tom Gally](https://www.gally.net/about.html).
+Suggestions and corrections are welcome: write to [Tom Gally](https://www.gally.net/about.html).

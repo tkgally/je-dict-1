@@ -10,7 +10,7 @@ recent, random, and pending.
 import html
 import random
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from path_utils import get_directory_range
 from japanese_utils import KANA_ROWS, strip_furigana, is_kanji, romaji_to_hiragana, romaji_to_katakana
@@ -804,16 +804,29 @@ def generate_browse_row_page(row: dict, row_entries: list) -> str:
 
 
 def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
-    """Generate the recent.html page."""
+    """Generate the recent.html page, with buttons that filter it by status."""
     html_parts = [
         generate_html_head("Recent Entries"),
         '<body>',
         generate_nav_header(),
         '<main class="recent-page">',
         '<h1>Recent Entries</h1>',
-        '<p class="recent-intro">Most recently added or revised entries.</p>',
-        '<div class="recent-list">',
+        '<p class="recent-intro">Most recently added or revised entries. '
+        '<b>NEW</b>: a new entry. <b>REVISED</b>: an entry whose text was changed. '
+        '<b>REVISED (audio)</b>: an entry with new recorded readings of its example sentences.</p>',
     ]
+
+    counts = defaultdict(int)
+    for item in recent_entries:
+        counts[item.get('status', 'NEW')] += 1
+    filters = [('all', 'All', len(recent_entries))] + [
+        (cls, label, counts[label]) for label, cls in RECENT_STATUS_CLASSES.items() if counts[label]]
+    if len(filters) > 2:
+        buttons = ''.join(
+            f'<button type="button" data-filter="{cls}" aria-pressed="{str(cls == "all").lower()}">'
+            f'{html.escape(label)} ({n:,})</button>' for cls, label, n in filters)
+        html_parts.append(f'<div class="recent-filter" role="group" aria-label="Show">{buttons}</div>')
+    html_parts.append('<div class="recent-list">')
 
     for item in recent_entries:
         entry_id = item['id']
@@ -827,13 +840,13 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
         date = item.get('date', '')
         gloss = item.get('gloss', entry.get('gloss', ''))
 
-        status_class = status.lower()
+        status_class = RECENT_STATUS_CLASSES.get(status, 'revised')
 
         html_parts.append(f'''
-            <a href="entries/{dir_range}/{entry_id}.html" class="recent-item">
+            <a href="entries/{dir_range}/{entry_id}.html" class="recent-item" data-status="{status_class}">
                 <span class="recent-headword">{headword_html}</span>
                 <span class="recent-gloss">{html.escape(gloss)}</span>
-                <span class="recent-status {status_class}">{status}</span>
+                <span class="recent-status {status_class}">{html.escape(status)}</span>
                 <span class="recent-date">{html.escape(date)}</span>
             </a>
         ''')
@@ -844,6 +857,19 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
         <footer>
             <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
         </footer>
+        <script>
+        document.querySelectorAll('.recent-filter button').forEach(function (b) {
+            b.addEventListener('click', function () {
+                var f = b.dataset.filter;
+                document.querySelectorAll('.recent-filter button').forEach(function (o) {
+                    o.setAttribute('aria-pressed', o === b ? 'true' : 'false');
+                });
+                document.querySelectorAll('.recent-item').forEach(function (i) {
+                    i.hidden = f !== 'all' && i.dataset.status !== f;
+                });
+            });
+        });
+        </script>
     ''')
     html_parts.append(generate_header_search_redirect_script())
     html_parts.append(generate_furigana_script())
@@ -971,38 +997,71 @@ def generate_pending_page(candidates: list) -> str:
     return '\n'.join(html_parts)
 
 
-def build_recent_entries(entries: list, limit: int = 250) -> list:
-    """Build a list of recently added or modified entries."""
-    def get_modified_date(entry):
-        try:
-            dt = datetime.fromisoformat(entry['metadata']['modified'].replace('Z', '+00:00'))
-            # Handle timezone-naive datetimes (assume UTC)
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            return dt
-        except (KeyError, ValueError):
-            # Return timezone-aware fallback to avoid mixing with aware datetimes
-            return datetime.min.replace(tzinfo=timezone.utc)
+# An entry revised within this long of its creation (in the same session, or by
+# the next day's review of it) is still listed as NEW.
+RECENT_NEW_WINDOW = timedelta(hours=24)
 
-    sorted_entries = sorted(entries, key=get_modified_date, reverse=True)
+# Recent-page status → CSS class and filter key
+RECENT_STATUS_CLASSES = {'NEW': 'new', 'REVISED': 'revised', 'REVISED (audio)': 'audio'}
 
-    recent = []
-    for entry in sorted_entries[:limit]:
-        metadata = entry.get('metadata', {})
-        modified = metadata.get('modified', '')
-        created = metadata.get('created', '')
-        status = 'NEW' if created == modified else 'REVISED'
-        date_str = format_jst_datetime(modified)
 
-        recent.append({
-            'id': entry['id'],
-            'headword': entry['headword'],
-            'gloss': entry['gloss'],
-            'status': status,
-            'date': date_str
-        })
+def _parse_utc(value):
+    """ISO timestamp (or bare date) → aware UTC datetime; None if unparseable."""
+    try:
+        dt = datetime.fromisoformat(str(value).replace('Z', '+00:00'))
+    except (TypeError, ValueError):
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
 
-    return recent
+
+def recent_event(entry, audio_at=None):
+    """(status, when) of the entry's latest change.
+
+    NEW: its text was last changed within RECENT_NEW_WINDOW of its creation.
+    REVISED: its text was changed later than that.
+    REVISED (audio): the newest thing about it is a recording of one of its
+    examples (audio_at, from audio/manifest/), published after its last text change.
+    """
+    md = entry.get('metadata', {})
+    modified = _parse_utc(md.get('modified'))
+    created = _parse_utc(md.get('created'))
+    audio = _parse_utc(audio_at) if audio_at else None
+    if audio and (modified is None or audio > modified):
+        return 'REVISED (audio)', audio
+    if modified is None:
+        return 'REVISED', datetime.min.replace(tzinfo=timezone.utc)
+    if created is not None and modified - created <= RECENT_NEW_WINDOW:
+        return 'NEW', modified
+    return 'REVISED', modified
+
+
+def build_recent_entries(entries: list, limit: int = 250, audio_limit: int = 250,
+                         audio_at=None) -> list:
+    """Recently added or revised entries, newest first.
+
+    The `limit` most recent text changes (NEW / REVISED) and, separately, the
+    `audio_limit` most recent audio additions (REVISED (audio)), merged by time,
+    so that a large recording run does not push the text changes off the page.
+    audio_at(entry) gives when the entry's newest valid recording was published
+    (default: build/audio_manifest.py).
+    """
+    if audio_at is None:
+        from audio_manifest import latest_recording_at as audio_at
+    text_events, audio_events = [], []
+    for entry in entries:
+        status, when = recent_event(entry, audio_at(entry))
+        (audio_events if status == 'REVISED (audio)' else text_events).append((when, status, entry))
+    text_events.sort(key=lambda e: e[0], reverse=True)
+    audio_events.sort(key=lambda e: e[0], reverse=True)
+    merged = sorted(text_events[:limit] + audio_events[:audio_limit],
+                    key=lambda e: e[0], reverse=True)
+    return [{
+        'id': entry['id'],
+        'headword': entry['headword'],
+        'gloss': entry['gloss'],
+        'status': status,
+        'date': format_jst_datetime(when.isoformat()),
+    } for when, status, entry in merged]
 
 
 # Kanji index groups: (minimum headword count, label)

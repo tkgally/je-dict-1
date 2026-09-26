@@ -661,15 +661,22 @@ def cmd_publish(args):
 
     # manifest and needs-human records (only after a successful push)
     today = datetime.now(timezone.utc).date().isoformat()
+    published_at = now_iso()  # the Recent page dates audio additions by this
     recs = []
     for r in accepted:
         last = r["attempts"][-1]
         recs.append({"ex": r["ex"], "h": r["h"], "v": r["voice"], "s": store["id"], "f": r["file"],
-                     "d": r["duration"], "b": r["bytes"], "at": today,
+                     "d": r["duration"], "b": r["bytes"], "at": published_at,
                      "wf": cfg["workflow_version"], "tts": cfg["tts_model"],
                      "n": r["n_attempts"],
                      "obj": sorted(k for k, v in last["verdicts"].items() if v != "match")})
     write_manifest_records(recs)
+    # has_audio in the entries follows the manifest (build/sync_audio_flags.py)
+    if recs:
+        sync = subprocess.run([sys.executable, str(ROOT / "build" / "sync_audio_flags.py"), "--ids",
+                               ",".join(sorted({r["ex"][:5] for r in recs}))],
+                              capture_output=True, text=True)
+        print(sync.stdout.strip() or sync.stderr.strip(), file=sys.stderr)
     nh = load_jsonl_by_ex(NEEDS_HUMAN)
     for r in accepted:
         nh.pop(r["ex"], None)

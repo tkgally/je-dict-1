@@ -211,7 +211,7 @@ Pattern: `{entry_id}_ex{N}`
 | `japanese` | Yes | Japanese sentence with furigana |
 | `english` | Yes | Natural English translation |
 | `sense_numbers` | Yes | Array of sense numbers illustrated |
-| `has_audio` | Yes | Boolean (usually `false`) |
+| `has_audio` | Yes | `false` in a new example; `make index` sets it from the audio manifest, never by hand |
 | `notes` | Yes | Explanatory note or `null` |
 
 ---
@@ -260,7 +260,7 @@ When reviewing or revising examples, verify:
 - [ ] IDs follow `{entry_id}_ex{N}` pattern
 - [ ] IDs are sequential (ex1, ex2, ex3...)
 - [ ] All required fields present
-- [ ] `has_audio` is accurate
+- [ ] `has_audio` present (`false` when new; `make index` keeps it in step with the audio manifest)
 - [ ] `notes` field present (null if not needed)
 
 ---
