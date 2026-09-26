@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16383_rishoku_ex1",
-      "japanese": "{離職|りしょく}{率|りつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
+      "japanese": "{離職|りしょく}⟦{率|りつ}→率：03802_ritsu⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The turnover rate is high.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{離職|りしょく} is a formal, neutral term that covers both quitting and being let go. It is the standard term used in official documents such as the {離職票|りしょくひょう} (certificate of separation from employment), which is needed to apply for unemployment insurance.\n\nCOMMON COLLOCATIONS:\n- {離職|りしょく}{率|りつ} (turnover rate)\n- {離職|りしょく}{票|ひょう} (certificate of separation from employment)\n- {離職|りしょく}{届|とどけ} (notice of separation)\n- {離職|りしょく}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent employee turnover)\n- {離職|りしょく}⟦{期間|きかん}→期間：00229_kikan⟧ (period of unemployment)\n\nSIMILAR WORDS:\n⟦{退職|たいしょく}→退職：04559_taishoku⟧ emphasizes voluntary resignation or retirement, while {離職|りしょく} is a broader, more neutral administrative term covering any departure from employment.",
+  "notes": "USAGE:\n{離職|りしょく} is a formal, neutral term that covers both quitting and being let go. It is the standard term used in official documents such as the {離職票|りしょくひょう} (certificate of separation from employment), which is needed to apply for unemployment insurance.\n\nCOMMON COLLOCATIONS:\n- {離職|りしょく}⟦{率|りつ}→率：03802_ritsu⟧ (turnover rate)\n- {離職|りしょく}⟦{票|ひょう}→票：03582_hyou⟧ (certificate of separation from employment)\n- {離職|りしょく}{届|とどけ} (notice of separation)\n- {離職|りしょく}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent employee turnover)\n- {離職|りしょく}⟦{期間|きかん}→期間：00229_kikan⟧ (period of unemployment)\n\nSIMILAR WORDS:\n⟦{退職|たいしょく}→退職：04559_taishoku⟧ emphasizes voluntary resignation or retirement, while {離職|りしょく} is a broader, more neutral administrative term covering any departure from employment.",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-12T05:13:33Z",
-    "modified": "2026-09-02T04:01:44Z",
+    "modified": "2026-09-26T16:52:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }
