@@ -95,11 +95,13 @@ on each listed entry's page; use the entry's own headword.
 
 ## The Routine
 
-`prompts/routine2.md` is the one scheduled task (every three hours). Each run: pre-flight rescue and
-sweep → `python3 pipeline/routine_next.py` picks a mode → the mode's prompt → mechanical pass on
-changed entries → independent-model self-check → metrics snapshot → `make index` → commit → PR →
-CI → squash-merge. Modes and weights (`pipeline/routine-config.json`): audio 0.25 (off until
-`audio/config.json` enables production), polish 0.22, accuracy-review 0.22, systemic-fix 0.19,
+`prompts/routine2.md` is the one scheduled task (every three hours). A run lasts about two hours
+(`pipeline/run_clock.py`) and is a series of cycles, each merged before the next starts. Run start:
+pre-flight rescue and sweep. Each cycle: `python3 pipeline/routine_next.py` picks a mode → the
+mode's prompt → mechanical pass on changed entries → independent-model self-check → metrics
+snapshot → `make index` → commit → PR → CI → squash-merge → the branch restarts from `main`.
+Modes and weights (`pipeline/routine-config.json`): audio 0.25 (off until `audio/config.json`
+enables production), polish 0.22, accuracy-review 0.22, systemic-fix 0.19,
 new-entries 0.08, candidates 0.04 (self-suppressing), wiki (trigger-only). Mode prompts:
 `audio.md`, `comprehensive_polish.md`, `newentries.md`, `newcandidates.md`,
 `planning/maintain-knowledge-base.md`; the accuracy-review and systemic-fix playbooks are inside

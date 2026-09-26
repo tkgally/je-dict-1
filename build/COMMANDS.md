@@ -144,6 +144,8 @@ python3 pipeline/absorb_branch.py <branch> --pr N   # Merge a stranded Routine b
 python3 pipeline/absorb_branch.py --residue <branch> # What a claude/* branch still holds that main lacks (empty = safe to prune)
 #   pipeline/absorbed-branches.jsonl records every absorbed branch tip; a recorded branch never reports residue
 python3 pipeline/wait.py 60                         # Foreground wait between CI polls (a backgrounded sleep does not wait)
+python3 pipeline/run_clock.py start                 # First command of a Routine run: record its start time
+python3 pipeline/run_clock.py                       # Elapsed minutes; may another cycle start; wrap up now?
 ```
 
 ## Coverage analysis
