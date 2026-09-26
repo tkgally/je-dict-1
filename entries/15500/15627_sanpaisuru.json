@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15627_sanpaisuru_ex1",
-      "japanese": "{初詣|はつもうで}で⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧{参拝|さんぱい}した。",
+      "japanese": "⟦{初詣|はつもうで}→初詣：05804_hatsumoude⟧⟦で→で：00502_de⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧⟦{参拝|さんぱい}→参拝：10634_sanpai⟧した。",
       "english": "I visited the shrine for the New Year's first worship.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15627_sanpaisuru_ex3",
-      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦で→で：00502_de⟧⟦{京都|きょうと}→京都：09484_kyouto⟧⟦を→を：00422_wo⟧⟦{訪|おとず}れ→訪れる：07678_otozureru⟧、⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{神社|じんじゃ}→神社：01620_jinja⟧や⟦{寺|てら}→寺：01676_tera⟧⟦を→を：00422_wo⟧{参拝|さんぱい}した。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦で→で：00502_de⟧⟦{京都|きょうと}→京都：09484_kyouto⟧⟦を→を：00422_wo⟧⟦{訪|おとず}れ→訪れる：07678_otozureru⟧、⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{神社|じんじゃ}→神社：01620_jinja⟧や⟦{寺|てら}→寺：01676_tera⟧⟦を→を：00422_wo⟧⟦{参拝|さんぱい}→参拝：10634_sanpai⟧した。",
       "english": "I visited Kyoto on a trip and worshipped at famous shrines and temples.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-09-02T04:01:41Z",
+    "modified": "2026-09-26T03:50:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +173,8 @@
       "semantic": [
         "religion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [
