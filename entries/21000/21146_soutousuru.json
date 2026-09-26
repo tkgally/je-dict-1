@@ -17,7 +17,7 @@
   "examples": [
     {
       "id": "21146_soutousuru_ex1",
-      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{日本円|にほんえん}⟦で→で：00502_de⟧１{万円|まんえん}⟦に→に：00314_ni⟧{相当|そうとう}する。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{日本円|にほんえん}⟦で→で：00502_de⟧１⟦{万円|まんえん}→万円：09900_manen⟧⟦に→に：00314_ni⟧{相当|そうとう}する。",
       "english": "This corresponds to 10,000 yen in Japanese currency.",
       "sense_numbers": [
         1
@@ -82,10 +82,11 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-31T21:34:14Z",
-    "modified": "2026-09-02T04:02:02Z"
+    "modified": "2026-09-26T22:40:24Z"
   },
   "conjugation": {
     "type": "suru",

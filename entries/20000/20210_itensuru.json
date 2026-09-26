@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "20210_itensuru_ex1",
-      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{移転|いてん}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧⟦{移転|いてん}→移転：04000_iten⟧した。",
       "english": "The company relocated.",
       "sense_numbers": [
         1
@@ -150,7 +150,7 @@
     },
     {
       "id": "20210_itensuru_ex5",
-      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦の→の：09472_no⟧⟦{登記|とうき}→登記：19798_touki⟧⟦を→を：00422_wo⟧{移転|いてん}した。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦の→の：09472_no⟧⟦{登記|とうき}→登記：19798_touki⟧⟦を→を：00422_wo⟧⟦{移転|いてん}→移転：04000_iten⟧した。",
       "english": "I transferred the real estate registration.",
       "sense_numbers": [
         2
@@ -160,7 +160,7 @@
     },
     {
       "id": "20210_itensuru_ex6",
-      "japanese": "⟦{相続|そうぞく}→相続：03690_souzoku⟧⟦によって→によって：06801_niyotte⟧⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧⟦{所有権|しょゆうけん}→所有権：17082_shoyuuken⟧⟦が→が：00051_ga⟧{子|こ}ども⟦に→に：00314_ni⟧{移転|いてん}された。",
+      "japanese": "⟦{相続|そうぞく}→相続：03690_souzoku⟧⟦によって→によって：06801_niyotte⟧⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧⟦{所有権|しょゆうけん}→所有権：17082_shoyuuken⟧⟦が→が：00051_ga⟧⟦{子|こ}→子：09851_ko⟧ども⟦に→に：00314_ni⟧⟦{移転|いてん}→移転：04000_iten⟧された。",
       "english": "Ownership of the land was transferred to the children through inheritance.",
       "sense_numbers": [
         2
@@ -207,9 +207,10 @@
         "action",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-03-28T17:10:08Z",
-    "modified": "2026-09-02T04:01:58Z"
+    "modified": "2026-09-26T22:40:24Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20676_kanryousuru_ex1",
-      "japanese": "⟦ダウンロード→ダウンロード：04725_daunroodo⟧⟦が→が：00051_ga⟧{完了|かんりょう}した。",
+      "japanese": "⟦ダウンロード→ダウンロード：04725_daunroodo⟧⟦が→が：00051_ga⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧した。",
       "english": "The download is complete.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20676_kanryousuru_ex2",
-      "japanese": "⟦{登録|とうろく}→登録：05703_touroku⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧{完了|かんりょう}しました。",
+      "japanese": "⟦{登録|とうろく}→登録：05703_touroku⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧しました。",
       "english": "The registration process has been completed.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for completion, commonly used in business, technology, and official contexts. Frequently seen in system messages, notifications, and formal reports. In grammar, ⟦{完了|かんりょう}→完了：02560_kanryou⟧ also refers to the perfective aspect.\n\nCOMMON COLLOCATIONS:\n- {完了|かんりょう}する: to complete\n- {完了|かんりょう}しました: (it) has been completed (polite notification)\n- ⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧: task complete\n- ⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧: procedure complete\n- ⟦{支払|しはら}い→支払う：02116_shiharau⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧: payment complete\n\nCOMMON PATTERNS:\nIn Japanese grammar, ⟦{完了|かんりょう}{形|けい}→完了形：30331_kanryoukei⟧ refers to the perfective form (past tense), indicating a completed action.\n\nSIMILAR WORDS:\n- ⟦{終了|しゅうりょう}する→終了する：22990_shuuryousuru⟧: to end, to finish — emphasizes that something has stopped or ended\n- ⟦{完成|かんせい}する→完成する：25528_kanseisuru⟧: to complete (a creation) — used for completing a product, building, or work of art\n- ⟦{済|す}む→済む：01950_sumu⟧: to be finished — more casual and conversational",
+  "notes": "A formal word for completion, commonly used in business, technology, and official contexts. Frequently seen in system messages, notifications, and formal reports. In grammar, ⟦{完了|かんりょう}→完了：02560_kanryou⟧ also refers to the perfective aspect.\n\nCOMMON COLLOCATIONS:\n- {完了|かんりょう}する: to complete\n- ⟦{完了|かんりょう}→完了：02560_kanryou⟧しました: (it) has been completed (polite notification)\n- ⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧: task complete\n- ⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧: procedure complete\n- ⟦{支払|しはら}い→支払う：02116_shiharau⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧: payment complete\n\nCOMMON PATTERNS:\nIn Japanese grammar, ⟦{完了|かんりょう}{形|けい}→完了形：30331_kanryoukei⟧ refers to the perfective form (past tense), indicating a completed action.\n\nSIMILAR WORDS:\n- ⟦{終了|しゅうりょう}する→終了する：22990_shuuryousuru⟧: to end, to finish — emphasizes that something has stopped or ended\n- ⟦{完成|かんせい}する→完成する：25528_kanseisuru⟧: to complete (a creation) — used for completing a product, building, or work of art\n- ⟦{済|す}む→済む：01950_sumu⟧: to be finished — more casual and conversational",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,10 +88,11 @@
         "action",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-03-30T06:39:03Z",
-    "modified": "2026-09-02T04:02:00Z"
+    "modified": "2026-09-26T22:40:24Z"
   },
   "conjugation": {
     "type": "suru",
