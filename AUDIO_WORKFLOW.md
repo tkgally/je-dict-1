@@ -492,3 +492,10 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   publication timestamp rather than the date (the 1,108 existing records got the time of their
   run from the audio repository's `logs/`), so the Recent page can place audio additions among
   text changes. The spot check compares its date part. No change to generation or checking.
+- 2026-09-26: production switched off. The checker `thinkingmachines/inkling` began rejecting MP3
+  input on OpenRouter ("unsupported audio format (only WAV is supported)"); `ask_audio` turned the
+  error into `n/a`, so it gave no verdict on any of about 3,500 checks in two runs today (2,470
+  examples, 2,316 accepted on the other three checkers, 154 left for a human). `check-models`
+  still lists the model as alive, so the maintenance check did not notice. Not fixed here: the
+  fix (send WAV to this checker, rerun the regression suite, bump the workflow version so today's
+  left-for-human examples are retried, reaudit today's clips) is for the curator.
