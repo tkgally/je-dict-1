@@ -50,6 +50,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-26 (Routine v3: new-entries — 20 New Entries, IDs 31054–31073)
+
+Five internal-closure words that earlier entries mentioned without defining: 立ち飲み, 既成,
+滑り込み, 申し送る, 濡れ衣. Fifteen proper nouns and cultural terms from the curated queue:
+the classics 竹取物語, 平家物語, 徒然草, 方丈記, 奥の細道, 忠臣蔵; the historical figures 源頼朝,
+武田信玄, 上杉謙信, 千利休, 世阿弥, 渋沢栄一; 道頓堀, 祇園祭, and 大河ドラマ. Five old `noentry`
+markers in four entries (03735 祭り, 04314 随筆, 04455, 04768) now link to the new entries.
+Self-check: 3 flags, 1 applied, 2 rejected. Candidate queue stands at 115.
+
 ### 2026-09-25 (Interactive: recorded audio for example sentences)
 
 Example sentences can now carry recorded readings. Each MP3 is made by Gemini TTS and is
@@ -139,46 +148,3 @@ Heian period, is in the 12th century), and two no-op flags on 31002 タイ and 3
 {芥川龍之介|あくたがわりゅうのすけ} that suggested changing values to themselves. In-context
 kana-link check: 4 links reviewed, 0 flagged. Cost: $0.0130 self-check, $0.9982 spent today
 against the $5.00 daily cap.
-
-### 2026-09-20 (Routine v3: new-entries — 20 New Entries, IDs 30974–30993)
-
-Created 20 general-tier entries: 18 from the "seen in entry" internal-closure lane (19 available,
-one — {しがち}, C23483 — dropped as a stale duplicate of the existing `〜がち` suffix entry, which
-already documents しがち as its する-stem example) plus two curated historical figures from the
-proper-noun queue to round out the session: {織田信長|おだのぶなが} and {豊臣秀吉|とよとみひでよし}.
-Internal-closure words: {大口真神|おおくちのまかみ} (the wolf deity, from 04334 {狼|おおかみ}),
-{師|し} (the bound "teacher/mentor" noun, from 07388 {凌|しの}ぐ), {藤田|ふじた} and {藤井|ふじい}
-(common {藤|ふじ}-based surnames, from 04396 {藤|ふじ}), {地竜|じりゅう} (dried earthworm in folk
-medicine, from 04932 {蚯蚓|みみず}), {両生|りょうせい} (the "amphibious" compound element, from
-04924 {両生類|りょうせいるい}), イモリ (newt, also from 04924), がぶがぶ (gulping greedily, from
-05776/05778 ごくごく/ちびちび), {寝|ね}ぼすけ (sleepyhead, from 05347 {寝惚|ねぼ}ける), せせら
-{笑|わら}う (to sneer, from 07449 {鼻|はな}で{笑|わら}う), {二言目|ふたことめ}には (from 00736
-{二|に}), {余剰金|よじょうきん} and {設備投資|せつびとうし} (from 08005 {充当|じゅうとう}), and
-the four remaining longevity milestones from 05807 {還暦|かんれき}: {傘寿|さんじゅ} (80),
-{米寿|べいじゅ} (88), {卒寿|そつじゅ} (90), {白寿|はくじゅ} (99), plus ちゃんちゃんこ (the padded
-vest given at {還暦|かんれき}).
-
-**Note for the curator**: the 2026-09-18 session log set aside {大口真神|おおくちのまかみ}, {師|し},
-{両生|りょうせい}, and {藤田|ふじた}/{藤井|ふじい} as too thin for standalone entries. This session
-wrote them anyway, on the following reasoning: {大口真神|おおくちのまかみ} follows the existing
-{天狗|てんぐ} pattern (`semantic: religion, culture`, no proper-noun tag) rather than needing a
-proper-noun category; {師|し} and {両生|りょうせい} are documented candidly as bound
-forms that mostly appear in fixed phrases or compounds (matching how the dictionary already treats
-the `〜師` suffix entry, 30801); and {藤田|ふじた}/{藤井|ふじい} follow the precedent already set by
-27597 {佐藤|さとう} (a generic-surname entry, tagged `person`, no specific referent). Worth a spot
-check if this reasoning doesn't hold up.
-
-**Newcomer-ambiguity retargets**: creating {師|し} (30975) gave the existing suffix entry
-{〜師|し} (30801) a homograph. `check_link_newcomers.py` flagged 9 existing inline links to 30801;
-7 were correctly suffix uses (狂言{師|し}, 木彫り{師|し}, {彫|ほ}り{師|し}, {指圧|しあつ}{師|し},
-{整体|せいたい}{師|し} — left unchanged) and 2 were retargeted to the new entry because the
-sentence meant the bound noun "teacher," not the practitioner suffix: 07388 {凌|しの}ぐ's example
-("{弟子|でし}が{師|し}を{凌|しの}ぐ" — a student surpassing their teacher) and 12421
-{師匠|ししょう}'s etymology note (師 + 匠 = teacher + artisan).
-
-**§4 self-check on all 20 new entries: 0 flags.** In-context kana-link check: no kana-base links
-in the selection. Cost: $0.0096 self-check, $0.4908 spent today against the $5.00 daily cap.
-
-**Queue**: 20 candidates auto-cleared on `update_indexes.py` (19 internal-closure matches plus the
-two curated additions); one further removed by hand as a stale duplicate before writing (see above).
-Candidate queue stands at 174.
