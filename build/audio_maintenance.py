@@ -144,6 +144,29 @@ def cmd_due(args):
 
 
 # --------------------------------------------------------------------------- models
+def probe_checkers(cfg, models):
+    """Send one regression clip to each checker model with the kana prompt.
+    Returns {"errors": {model: error}, "usd": cost}. About $0.001 per model."""
+    from audio_api import OpenRouter
+    from audio_checks import KANA_PROMPT
+    index = json.loads((ROOT / "audio" / "regression" / "index.json").read_text(encoding="utf-8"))
+    clips = index if isinstance(index, list) else index.get("clips", [])
+    clip = next((c for c in clips if c.get("file")), None)
+    if clip is None or not models:
+        return {"errors": {}, "usd": 0.0}
+    mp3 = (ROOT / "audio" / "regression" / clip["file"]).read_bytes()
+    api = OpenRouter()
+    errors = {}
+    for m in models:
+        try:
+            text, _ = api.ask_audio(m, KANA_PROMPT, mp3)
+            if not text:
+                errors[m] = "empty reply"
+        except Exception as e:  # noqa: BLE001
+            errors[m] = repr(e)[:300]
+    return {"errors": errors, "usd": round(api.spent, 4)}
+
+
 def cmd_check_models(args):
     import requests
     cfg = P.load_config()
@@ -154,6 +177,12 @@ def cmd_check_models(args):
         r = requests.get(f"{api}/models/{m}/endpoints", timeout=30)
         ok = r.ok and (r.json().get("data") or {}).get("endpoints")
         (alive if ok else dead).append(m)
+    # A listed model can still refuse every request (inkling rejected MP3 input
+    # from 2026-09-26 while its listing looked fine), so ask each checker once.
+    probe = probe_checkers(cfg, [m for m in alive if m != cfg["tts_model"]])
+    for m, err in probe["errors"].items():
+        alive.remove(m)
+        dead.append(m)
     listing = requests.get(f"{api}/models", timeout=60).json().get("data", [])
     audio_in = sorted(m["id"] for m in listing
                       if "audio" in (m.get("architecture") or {}).get("input_modalities", [])
@@ -166,7 +195,8 @@ def cmd_check_models(args):
     st["known_models"] = sorted(known | set(audio_in) | set(tts_like))
     st["models"] = today().isoformat()
     save_state(st)
-    out = {"alive": alive, "dead": dead,
+    out = {"alive": alive, "dead": dead, "probe_errors": probe["errors"],
+           "probe_usd": probe["usd"],
            "new_since_last_check": new,
            "other_audio_input_models": audio_in, "other_tts_models": tts_like}
     print(json.dumps(out, indent=2))

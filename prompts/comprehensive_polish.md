@@ -29,14 +29,22 @@ routine2.md and are not repeated here.
    ranks entries by substantive need: never modified since creation, verbs
    without transitivity, notes that name words without cross-referencing them,
    missing register tags, unresolved reviewer flags, thin or bloated notes.
-   Start at the line in `polishing/tasks/comprehensive/priority-cursor.txt`
-   (create it with `line: 1` if missing); skip IDs with no file and entries
-   modified in the last 30 days. If the priority file is older than 14 days,
-   regenerate it at wrap-up with `make priorities` and reset the cursor to
-   `line: 1`.
+   Get this cycle's entries with
+   `python3 pipeline/priority_lane.py next --n 15`: it starts at the priority
+   cursor, skips entries any polish cycle read in the last 30 days (the ledger
+   `polishing/tasks/comprehensive/polished.jsonl`), and regenerates the list
+   itself when it is used up or more than 14 days old. Read them in the order
+   given.
 2. **Frontier lane** (the rest). Sequential from `params.start_id` (or the
    `next:` value in `polishing/tasks/comprehensive/progress.txt`); skip IDs
    with no file. At wrap-up set `next:` to the ID after the last one you read.
+
+At wrap-up, record what you read in both lanes (this also advances the
+priority cursor past the last priority entry you read):
+
+```bash
+python3 pipeline/priority_lane.py record --priority <ids read from the priority lane> --frontier <ids read from the frontier>
+```
 
 ## Per-entry checklist
 
@@ -111,7 +119,7 @@ Then `python3 build/validate.py --id <id>`.
 
 1. Mechanical pass on the changed IDs: `normalize_notes.py`, `auto_link.py`,
    `harvest_crossrefs.py` with `--ids … --apply`, then `validate.py --id` for each.
-2. Update both cursors.
+2. Update both cursors (`priority_lane.py record`, and `next:` in `progress.txt`).
 3. Session log `polishing/sessions/comprehensive_{YYYY-MM-DD}_{NNN}.md`: range,
    one bullet per entry (what was wrong, what was added, what was cut),
    candidates added, observations, next cursor values.

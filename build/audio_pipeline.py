@@ -341,10 +341,29 @@ def process_item(item, sentence, prompt, cfg, api, cost_pool, cost_futs):
     return {"accepted": False, "attempts": attempts}
 
 
+# A checker that gives no verdict ("n/a": API error, refusal, unparseable reply)
+# on most attempts is broken, not strict. Under rule p2 an n/a counts as an
+# objection, so a dead checker silently tightens the rule and leaves examples
+# for a human; the run stops instead of spending its budget that way.
+CHECKER_NA_MIN_ATTEMPTS = 40
+CHECKER_NA_MAX_RATE = 0.5
+
+
+def failing_checkers(na, attempts, min_attempts=CHECKER_NA_MIN_ATTEMPTS,
+                     max_rate=CHECKER_NA_MAX_RATE):
+    """na: {checker name: n/a count} over `attempts` checked attempts. Returns
+    {name: n/a rate} for every checker at or above max_rate, once enough
+    attempts have been seen."""
+    if attempts < min_attempts:
+        return {}
+    return {k: round(v / attempts, 3) for k, v in sorted(na.items()) if v / attempts >= max_rate}
+
+
 def run_items(items, make_sentence, cfg, budget, workers, out_path, stage_dir, majority,
               reserve_per_item=0.008, deadline=None):
     """Shared by `run` and `testset`. Resumable: items already in out_path are
-    skipped. Stops starting new items when the budget would be exceeded."""
+    skipped. Stops starting new items when the budget would be exceeded, or
+    when a checker gives no verdict on most attempts (stats["checker_failure"])."""
     from audio_api import OpenRouter
     api = OpenRouter()
     done = set()
@@ -357,10 +376,15 @@ def run_items(items, make_sentence, cfg, budget, workers, out_path, stage_dir, m
     cost_pool = ThreadPoolExecutor(4)
     cost_futs = {}
     stats = Counter()
+    na, checked = Counter(), [0]
+    failure = {}
     t0 = time.time()
 
     def one(x):
         with lock:
+            if failure:
+                stats["deferred_checker"] += 1
+                return
             if budget is not None and api.spent + reserve_per_item > budget:
                 stats["deferred_budget"] += 1
                 return
@@ -386,6 +410,14 @@ def run_items(items, make_sentence, cfg, budget, workers, out_path, stage_dir, m
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
             stats["accepted" if res["accepted"] else "failed"] += 1
             stats["first_pass"] += bool(res["attempts"] and res["attempts"][0].get("accepted"))
+            for a in res["attempts"]:
+                if "verdicts" in a:
+                    checked[0] += 1
+                    na.update(k for k, v in a["verdicts"].items() if v == "n/a")
+            if not failure:
+                failure.update(failing_checkers(na, checked[0]))
+                if failure:
+                    print(f"  STOP: checker(s) gave no verdict on most attempts: {failure}", flush=True)
             n = stats["accepted"] + stats["failed"]
             if n % 50 == 0:
                 print(f"  {n}/{len(todo)} done, ${api.spent:.3f} spent, "
@@ -401,6 +433,8 @@ def run_items(items, make_sentence, cfg, budget, workers, out_path, stage_dir, m
             tts_cost[gen_id] = None
     cost_pool.shutdown(wait=True)
     add_costs(out_path, tts_cost, api.tts_estimate)
+    if failure:
+        stats["checker_failure"] = failure
     return stats, api.spent
 
 
@@ -459,9 +493,14 @@ def cmd_run(args):
                       "done": len(done), "accepted": sum(1 for r in rows if r["accepted"]),
                       "remaining": 0 if budget_out else len(remaining),
                       "stopped_for_budget": budget_out,
+                      "stopped_for_checker": stats.get("checker_failure", {}),
                       "spent_on_plan_usd": round(sum(r.get("cost", 0.0) for r in rows
                                                      if r["key"] in keys and not r.get("published")), 4)},
                      indent=2))
+    if stats.get("checker_failure"):
+        print("A checker gave no verdict on most attempts: stop recording (prompts/audio.md, "
+              "'A checker stops answering'). Publish what was accepted, then flag it for Tom.")
+        return 2
 
 
 # --------------------------------------------------------------------------- testset (voice pilot)

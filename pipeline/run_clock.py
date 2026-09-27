@@ -19,8 +19,8 @@ import time
 from pathlib import Path
 
 START_FILE = Path("/tmp") / f"{Path(__file__).resolve().parents[1].name}-run-start"
-NEW_CYCLE_UNTIL = 105
-WRAP_UP_AT = 130
+NEW_CYCLE_UNTIL = 120  # 105 until 2026-09-27: runs ended about an hour before the next one
+WRAP_UP_AT = 145
 STALE_AFTER = 240
 
 

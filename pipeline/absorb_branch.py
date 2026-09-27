@@ -69,11 +69,13 @@ GENERATED_PREFIXES = (
     "reviews/screening/",
     "polishing/tasks/comprehensive/progress.txt",
     "polishing/tasks/comprehensive/priority-cursor.txt",
+    "polishing/priority/",
     "polishing/tasks/cross-model-review/progress.txt",
     "docs/",
 )
 
 UNION_FILES = (
+    "polishing/tasks/comprehensive/polished.jsonl",
     "reviews/decisions.jsonl",
     "reviews/accuracy_flags.jsonl",
     "reviews/link_decisions.jsonl",

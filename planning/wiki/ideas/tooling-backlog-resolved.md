@@ -1331,3 +1331,21 @@ fix this pass; the change closes the false-positive path for future A2 hits.
   argument for making that check the documented last step rather than a lucky accident. Already
   filed among the 2026-08-27 prompt recommendations.
 
+## Resolved 2026-09-27 (interactive: overnight Routine review)
+
+### 144. Priority-lane skip window (queue: `priority-lane-skip-window`, resolved 2026-09-27)
+Nine polish runs scanned 7,000–27,000 priority lines for about 15 entries each. The cause is the data, not the list: 11 of 30,804 entries have a `modified` date older than 30 days, because 23,592 were stamped 2026-09-02 and 3,164 were stamped 2026-09-04. The lane reopens by itself around 2026-10-04. Until then the scan costs budget and finds nothing. The choices are in the queue item.
+Resolved: the window would not have reopened, because every mechanical pass stamps `modified`
+again (27,542 of 27,549 listed entries were within 30 days on 2026-09-27, and the cursor had
+walked to the end of the list serving nothing). `pipeline/priority_lane.py` now serves the lane
+and skips only entries a polish cycle read in the last 30 days, from its own ledger
+(`polishing/tasks/comprehensive/polished.jsonl`, seeded from the September polish logs). It
+regenerates the list when it is used up or older than 14 days.
+
+### Reviewer formality flags asking for a value above `formal` (queue: `reviewer-formality-noise`, resolved 2026-09-27)
+The accuracy-review cycles of 2026-09-26/27 rejected dozens of `tags.formality` flags on entries
+already tagged `formal` whose suggestion was "literary", "technical" or "written", which the closed
+list does not have. `postfilter_issues()` in `build/review_accuracy.py` now drops such a flag
+(counted as `register-closest`) unless the suggestion names another allowed value. Flags that
+propose neutral or informal, and flags on entries not tagged formal, still reach the adjudicator.
+

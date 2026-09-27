@@ -4692,9 +4692,6 @@ measurement of the same family at the same rate, and 127's runner-side post-filt
 
 ## Updates 2026-09-23 (wiki harvest)
 
-### 144. Priority-lane skip window (queue: `priority-lane-skip-window`, needs-decision)
-Nine polish runs scanned 7,000–27,000 priority lines for about 15 entries each. The cause is the data, not the list: 11 of 30,804 entries have a `modified` date older than 30 days, because 23,592 were stamped 2026-09-02 and 3,164 were stamped 2026-09-04. The lane reopens by itself around 2026-10-04. Until then the scan costs budget and finds nothing. The choices are in the queue item.
-
 ### 145. `auto_link.py` ignores unlink decisions for kanji surfaces (queue: `auto-link-kanji-surface-ledger`)
 `guard()` returns early for any surface that is not all hiragana, so an `unlink` line for 照れ in 08152 照れる is ignored, and each re-run links it back to 00404 照る. The fix is to consult `ctx.excluded` for every surface and to never link a form of the entry's own headword.
 

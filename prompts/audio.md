@@ -61,9 +61,10 @@ maintenance spends (each command prints its cost); it comes out of B.
 - **pilot** (blocking): for each production voice it names,
   `python3 build/audio_pipeline.py testset --voice <Voice>` (about $0.30 each).
   Not acceptable → as for a failed regression.
-- **models**: `python3 build/audio_maintenance.py check-models`. A configured model
-  in `dead` → set `production.enabled` false, flag it, wrap up (replacing a model
-  is a workflow change for Tom to approve). Models in `new_since_last_check` →
+- **models**: `python3 build/audio_maintenance.py check-models` (it also asks each
+  checker to transcribe one clip; `probe_errors` names any that failed). A configured
+  model in `dead` → set `production.enabled` false with the error it printed, flag it,
+  wrap up (replacing a model is a workflow change for Tom to approve). Models in `new_since_last_check` →
   one `[tooling]` line in `polishing/observations.md` naming them.
 - **spotcheck**: `python3 build/audio_maintenance.py spotcheck --n 30`. The page is
   published with the recordings in §4 and announced in `reviews/needs_curator.txt`.
@@ -92,6 +93,14 @@ If production is still blocked, wrap up (§6).
 python3 build/audio_pipeline.py plan --budget <B − maintenance spend − 0.10>
 python3 build/audio_pipeline.py run          # repeat until it prints "remaining": 0
 ```
+
+**A checker stops answering.** If `run` prints `stopped_for_checker` (exit code
+2), one checker gave no verdict on most attempts: it is failing, not strict. Do
+not call `run` again. Publish what was accepted (§4), set `production.enabled` to
+false in `audio/config.json` with the checker's name and the error from a direct
+call (`python3 build/audio_maintenance.py check-models` shows it under
+`probe_errors`), add a changelog entry in `AUDIO_WORKFLOW.md`, append one line
+to `reviews/needs_curator.txt`, and wrap up.
 
 `run` stops starting new examples after 8 minutes, so a call stays under the
 tool timeout. Call it again, in the foreground, until `remaining` is 0. It

@@ -304,6 +304,64 @@ class TestRegressionSummary(unittest.TestCase):
         self.assertFalse(R.summarize(rows, None)["passed"])
 
 
+class TestCheckerFailure(unittest.TestCase):
+    def test_needs_enough_attempts(self):
+        self.assertEqual(P.failing_checkers({"kana:x": 10}, 10), {})
+
+    def test_dead_checker_found(self):
+        na = {"kana:inkling": 45, "kana:gpt": 6}
+        self.assertEqual(P.failing_checkers(na, 50), {"kana:inkling": 0.9})
+
+    def test_occasional_na_is_fine(self):
+        self.assertEqual(P.failing_checkers({"kana:gpt": 20}, 100), {})
+
+
+class TestWavFallback(unittest.TestCase):
+    def setUp(self):
+        import audio_api
+        self.A = audio_api
+
+    def test_pcm_to_wav_header(self):
+        wav = self.A.pcm_to_wav(b"\x00\x00" * 2400)
+        self.assertTrue(wav.startswith(b"RIFF") and wav[8:12] == b"WAVE")
+        self.assertEqual(len(wav), 44 + 4800)
+
+    def test_retries_as_wav_after_mp3_refusal(self):
+        A = self.A
+        api = A.OpenRouter.__new__(A.OpenRouter)
+        sent = []
+
+        def fake(model, prompt, data, fmt):
+            sent.append(fmt)
+            if fmt == "mp3":
+                raise RuntimeError("m: unsupported audio format (only WAV is supported)")
+            return "ok", 0.0
+        api._ask_audio = fake
+        old_conv, old_set = A.mp3_to_wav, set(A.WAV_ONLY)
+        A.mp3_to_wav = lambda mp3: b"RIFF"
+        try:
+            A.WAV_ONLY.discard("test/model")
+            self.assertEqual(api.ask_audio("test/model", "p", b"mp3"), ("ok", 0.0))
+            self.assertEqual(sent, ["mp3", "wav"])
+            self.assertIn("test/model", A.WAV_ONLY)
+            api.ask_audio("test/model", "p", b"mp3")
+            self.assertEqual(sent, ["mp3", "wav", "wav"])
+        finally:
+            A.mp3_to_wav = old_conv
+            A.WAV_ONLY.clear()
+            A.WAV_ONLY.update(old_set)
+
+    def test_other_errors_raise(self):
+        A = self.A
+        api = A.OpenRouter.__new__(A.OpenRouter)
+
+        def fake(model, prompt, data, fmt):
+            raise RuntimeError("m: 400 bad request")
+        api._ask_audio = fake
+        with self.assertRaises(RuntimeError):
+            api.ask_audio("other/model", "p", b"mp3")
+
+
 if __name__ == "__main__":
     unittest.main()
 

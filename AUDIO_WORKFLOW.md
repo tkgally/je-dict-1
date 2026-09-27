@@ -173,7 +173,10 @@ A re-recording keeps its previous voice while that voice is in production.
 ## 6. The checks
 
 Four checkers. All are called through OpenRouter `/chat/completions` with the MP3 as
-`input_audio` (base64, format mp3), `temperature: 0`, `reasoning: {"effort": "low"}`.
+`input_audio` (base64, format mp3), `temperature: 0`, `reasoning: {"effort": "low"}`. A model
+that accepts only WAV (`thinkingmachines/inkling` since 2026-09-26) gets the same clip decoded
+to 16-bit PCM WAV (`WAV_ONLY` and `mp3_to_wav()` in `build/audio_api.py`; a model that starts
+refusing MP3 with that error is added at run time).
 
 1. **Particle-aware compare**, `google/gemini-3.8-flash` (`pcompare_prompt()` in `verify.py`):
    ```
@@ -301,14 +304,12 @@ recording of one of its examples was published after its last text change (manif
   Simulated over 400 runs with today's signals, audio gets 26%. The mode is suppressed while
   `audio/config.json` `production.enabled` is false, and on days when less than
   $0.50 of the OpenRouter daily cap remains.
-- **Budget** (raised by Tom on 2026-09-25): `openrouter.audio_session_cap_usd` = $4.80 per audio
-  run, daily cap $7.50 shared with the other modes (an audio run changes no entry text, so it needs
-  no self-check). At the measured $0.0024–0.0026 per example that is about 1,800 examples per
-  run, about 25 minutes of `run` calls. The Routine runs every three hours (eight runs a day),
-  so about two runs a day are audio runs; the $7.50 daily cap, shared with the accuracy review,
-  is then the real limit, at roughly $3–5 of audio a day (1,200–2,000 examples). At that pace the
-  basic and core tiers (20,000 examples) take about two weeks and the whole dictionary (about
-  117,000 recordable examples) roughly three months.
+- **Budget** (raised by Tom on 2026-09-26): `openrouter.audio_session_cap_usd` = $5.50 per audio
+  cycle, daily cap $15 shared with the other modes (an audio cycle changes no entry text, so it
+  needs no self-check). At the measured $0.0024–0.0028 per example that is about 2,000 examples
+  per cycle, about 25–30 minutes of `run` calls. A Routine run lasts about two hours and is a
+  series of cycles, so one run can hold two audio cycles; the daily cap, shared with the
+  accuracy review, is then the real limit (on 2026-09-26 audio took $6.71 of the day's $9.40).
 - **Access**: a session can push only to repositories attached to it (the git proxy refuses the
   rest). Each audio run checks with `audio_pipeline.py check-access` before spending anything;
   if it cannot push and cannot attach the repository, it switches production off and tells Tom.
@@ -343,9 +344,15 @@ recording of one of its examples was published after its last text change (manif
 - **Pilot** (`audio_pipeline.py testset --voice V`, about $0.30 a voice): **blocking** when the TTS
   model, prompt strategy, bit rate or checkers changed since the last acceptable pilot of each
   production voice (`audio/pilots.jsonl`).
-- **Model check** (every 30 days, free): configured model IDs still served? New TTS and audio-input
-  models since the last check are listed. A retired model stops production until Tom approves a
-  replacement.
+- **Model check** (every 30 days, about $0.001): configured model IDs still served, and does each
+  checker answer one regression clip? (A listed model can still refuse every request.) New TTS
+  and audio-input models since the last check are listed. A retired or failing model stops
+  production until it is fixed or Tom approves a replacement.
+- **Checker failure** (every `run` call): once 40 attempts have been checked, a checker that gave
+  no verdict (`n/a`) on half of them or more stops the call (`failing_checkers()` in
+  `audio_pipeline.py`; `run` prints `stopped_for_checker` and exits 2). Under rule p2 an `n/a`
+  counts as an objection, so a dead checker does not let bad clips through; it makes the rule
+  stricter, leaves more examples for a human and wastes the budget.
 - **Drift** (every run): first-pass rate, left-for-human rate and cost per clip of the last six
   runs against `baseline` in the config. Warnings go to `reviews/needs_curator.txt`.
 - **Spot checks by Tom** (every 30 days once 200 new clips exist): `spotcheck --n 30` builds a
@@ -499,3 +506,19 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   still lists the model as alive, so the maintenance check did not notice. Not fixed here: the
   fix (send WAV to this checker, rerun the regression suite, bump the workflow version so today's
   left-for-human examples are retried, reaudit today's clips) is for the curator.
+- 2026-09-27: checker fix, workflow v2.1, production on again. `ask_audio` now sends WAV to a
+  model that accepts only WAV (decoded from the same MP3 with miniaudio, already an audio
+  dependency); a direct call confirmed inkling transcribes the WAV correctly (なにぶんよろしく
+  おねがいします) and still rejects MP3. Regression run with all four checkers answering: 44/44
+  audible injected errors caught, 3/3 of Tom's errors, 7 false alarms on the 108 correct clips
+  (8 at v2's first run), inkling objecting 65 times against 55–62 on 09-25; $0.24, PASS.
+  `check-models` now asks each checker to transcribe one regression clip (all four answered,
+  $0.0005), and `run` stops when a checker gives no verdict on most attempts (§10). The
+  checker settings are unchanged, so the pilots stay valid. `workflow_version` v2 → v2.1 so that
+  the 154 examples left for a human on 09-26 (45 of them only for lack of verdicts) are
+  retried. The 2,316 clips accepted on 09-26 are not re-audited as a batch: with inkling's `n/a`
+  counted as an objection, each was accepted only when the compare and both remaining
+  transcribers all said match, which is stricter than the normal rule. The regular 90-day
+  re-audit samples them with the other clips.
+- 2026-09-27: the 2026-09-25 spot-check page was archived unrated at Tom's request (removed from
+  `reviews/needs_curator.txt`). The next spot check is due under the normal schedule (§10).
