@@ -45,7 +45,7 @@
     },
     {
       "id": "30362_nibanme_ex4",
-      "japanese": "⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦の→の：09472_no⟧⟦{順番|じゅんばん}→順番：03283_junban⟧⟦は→は：00079_ha⟧{二番目|にばんめ}な⟦の→の：09472_no⟧で、⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}き→聞く：00483_kiku⟧⟦ながら→ながら：10530_nagara⟧⟦{準備|じゅんび}できる→準備する：22427_junbisuru⟧。",
+      "japanese": "⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦の→の：09472_no⟧⟦{順番|じゅんばん}→順番：03283_junban⟧⟦は→は：00079_ha⟧{二番目|にばんめ}な⟦の→の：09472_no⟧⟦で→で：00502_de⟧、⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}き→聞く：00483_kiku⟧⟦ながら→ながら：10530_nagara⟧⟦{準備|じゅんび}できる→準備する：22427_junbisuru⟧。",
       "english": "I'm second in the presentation order, so I can prepare while listening to the first person.",
       "sense_numbers": [
         1
@@ -54,13 +54,20 @@
       "notes": null
     }
   ],
-  "notes": "Formed from ⟦{二|に}→二：00736_ni⟧ + the ordinal suffix ⟦{番目|ばんめ}→番目：12733_banme⟧. The same pattern gives {一番目|いちばんめ}, {三番目|さんばんめ}, and so on, though {一番目|いちばんめ} is usually replaced by ⟦{最初|さいしょ}→最初：00882_saisho⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{左|ひだり}→左：00628_hidari⟧⟦から→から：00504_kara⟧{二番目|にばんめ}: second from the left\n- {二番目|にばんめ}⟦の→の：09472_no⟧⟦{子|こ}→子：09851_ko⟧: the second child\n- {二番目|にばんめ}⟦に→に：00314_ni⟧⟦{大|おお}きい→大きい：00335_ookii⟧: second largest\n\nSIMILAR WORDS:\n- ⟦{二|に}→二：00736_ni⟧つ⟦{目|め}→目：00525_me⟧: the second one — counts physical objects with つ, not positions in a ranking\n- {第二|だいに}: the second — prefix form used in titles and formal writing ({第二章|だいにしょう}, chapter two)",
+  "notes": "Formed from ⟦{二|に}→二：00736_ni⟧ + the ordinal suffix ⟦{番目|ばんめ}→番目：12733_banme⟧. The same pattern gives {一番目|いちばんめ}, {三番目|さんばんめ}, and so on, though {一番目|いちばんめ} is usually replaced by ⟦{最初|さいしょ}→最初：00882_saisho⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{左|ひだり}→左：00628_hidari⟧⟦から→から：00504_kara⟧{二番目|にばんめ}: second from the left\n- {二番目|にばんめ}⟦の→の：09472_no⟧⟦{子|こ}→子：09851_ko⟧: the second child\n- {二番目|にばんめ}⟦に→に：00314_ni⟧⟦{大|おお}きい→大きい：00335_ookii⟧: second largest\n\nSIMILAR WORDS:\n- ⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦{目|め}→目：00525_me⟧: the second one — counts physical objects with つ, not positions in a ranking\n- {第二|だいに}: the second — prefix form used in titles and formal writing ({第二章|だいにしょう}, chapter two)",
   "cross_references": [
     {
       "type": "related",
       "target_id": "12733_banme",
       "reading": "ばんめ",
       "headword": "{番目|ばんめ}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30351_futatsume",
+      "reading": "ふたつめ",
+      "headword": "{二|ふた}つ{目|め}",
+      "label": "the second one"
     }
   ],
   "schema_version": "2.0",
@@ -78,6 +85,6 @@
       "domain": []
     },
     "created": "2026-08-03T18:20:32Z",
-    "modified": "2026-09-02T04:02:39Z"
+    "modified": "2026-09-27T16:50:58Z"
   }
 }
