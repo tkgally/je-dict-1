@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-27 (Routine v3: new-entries — 16 New Entries, IDs 31077–31092)
+
+All sixteen are internal-closure words that polish runs found used but undefined: the sports terms
+先制, 決勝点, 追加点, 四球; 聞き違い, 言い間違える, 燃え尽きる, 文字起こし, 明朝; and workplace words
+介護離職, 産業医, 長時間労働, 追い出し部屋, 業務委託, 正規雇用, 組替え. 下茹で was dropped from the queue as a
+duplicate of 下ゆで. Harvest added reciprocal cross-references on 22 neighbouring entries. Self-check: one
+flag on a neighbour, rejected. Candidate queue stands at 113.
+
 ### 2026-09-26 (Routine v3: new-entries — 3 New Entries, IDs 31074–31076)
 
 A short end-of-run cycle. 柴刈り (gathering brushwood, the Momotarō しばかり), the one internal-closure
@@ -103,23 +111,3 @@ Created 20 general-tier entries: all 7 internal-closure candidates (ラジオ{�
 
 **§4 self-check on 36 entries: 1 applied, 2 rejected.** Applied: `clothing` tag on 31045 {原宿|はらじゅく}
 replaced with `culture`. Kana-link check: 29 links, 0 flagged. Cost $0.019.
-
-### 2026-09-23 (Routine v3: new-entries — 20 New Entries, IDs 31014–31033)
-
-Created 20 general-tier entries: all 5 internal-closure candidates ({台木|だいぎ} and {穂木|ほぎ} from
-08106 {接|つ}ぎ{木|き}, {百万長者|ひゃくまんちょうじゃ}, {口車|くちぐるま} from 08111 {舌先|したさき},
-{卵|たまご}とじ) plus 15 from the queue: the proverb {餅|もち}は{餅屋|もちや}, {自転車操業|じてんしゃそうぎょう},
-{玉石混交|ぎょくせきこんこう}, three people ({宮沢賢治|みやざわけんじ}, {手塚治虫|てづかおさむ},
-{葛飾北斎|かつしかほくさい}), three classics ({源氏物語|げんじものがたり}, {枕草子|まくらのそうし},
-{古事記|こじき}), five places ({清水寺|きよみずでら}, {金閣寺|きんかくじ}, {永田町|ながたちょう},
-{霞|かすみ}が{関|せき}, {築地|つきじ}) and {任天堂|にんてんどう}. Candidate C23001 棚からぼたもち was dropped
-as a kana duplicate of 06196 {棚|たな}から{牡丹餅|ぼたもち}.
-
-**Seven stale `noentry` markers resolved** (class A1) in 00242, 01676, 04314, 05051, 07059. Five
-wrong partial-word links placed by the linker were removed by rewording (霞 inside 霞ヶ関, 建て
-inside 建て直す, 続け inside 描き続け, 子 inside 子ども, 売り inside 売り上げ).
-
-**§4 self-check on 25 entries: 1 applied, 1 rejected.** Applied: 31024 {葛飾北斎|かつしかほくさい}
-now says the Great Wave is on the *new* 1,000-yen note issued in 2024. Rejected: removing `food`
-from 31032 {築地|つきじ}. Kana-link check: 17 links, 0 flagged. Cost $0.013.
-
