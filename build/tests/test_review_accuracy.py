@@ -35,6 +35,10 @@ class TestPayload(unittest.TestCase):
         self.assertEqual(p["semantic_tags"], ["body-part", "action"])
         self.assertIn("A formal word used mainly in 書き言葉.", p["notes"])
 
+    def test_plain_arrow_in_prose_kept(self):
+        text = "⟦{食|た}べる→食べる：00396_taberu⟧ → ⟦{食|た}べます→食べる：00396_taberu⟧ (polite)"
+        self.assertEqual(ra.plain_jp(text), "食べる → 食べます (polite)")
+
     def test_notes_omitted_when_not_needed(self):
         self.assertNotIn("notes", ra.entry_payload(ENTRY, include_notes=False))
 

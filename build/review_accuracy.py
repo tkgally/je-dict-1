@@ -87,7 +87,9 @@ FALLBACK_TAGS = {"general", "descriptive", "expression", "onomatopoeia",
                  "grammatical", "action", "abstract"}
 
 FURIGANA_RE = re.compile(r"\{([^|]+)\|[^}]+\}")
-LINK_TAIL_RE = re.compile(r"→[^⟧]*⟧")
+# A link tail never crosses ⟦, so a plain arrow in the prose (食べる → 食べます)
+# is left alone instead of swallowing text up to the next link.
+LINK_TAIL_RE = re.compile(r"→[^⟧⟦]*⟧")
 
 # --------------------------------------------------------------------------- #
 # Noise families (regexes over the model's own wording)
