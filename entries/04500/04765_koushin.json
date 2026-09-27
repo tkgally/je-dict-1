@@ -208,10 +208,10 @@
       ]
     }
   ],
-  "notes": "KANJI: ⟦{更|こう}→更：noentry⟧ (renew) + ⟦{新|しん}→新：noentry⟧ (new) = update/renewal.\n\nDIGITAL CONTEXT:\n- ⟦ソフトウェア→ソフトウェア：04719_sofutowea⟧⟦を→を：00422_wo⟧{更新|こうしん}⟦する→する：00392_suru⟧: to update software\n- ⟦{自動|じどう}→自動：03339_jidou⟧{更新|こうしん}: automatic update\n- {更新|こうしん}⟦ボタン→ボタン：02963_botan⟧: refresh/update button\n\nDOCUMENTS/CONTRACTS:\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦の→の：09472_no⟧{更新|こうしん}: license renewal\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧{更新|こうしん}: contract renewal\n- ⟦パスポート→パスポート：00341_pasupooto⟧⟦の→の：09472_no⟧{更新|こうしん}: passport renewal\n\nOTHER USES:\n- ⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{更新|こうしん}⟦する→する：00392_suru⟧: to break a record\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦{記録|きろく}→記録：02490_kiroku⟧{更新|こうしん}: world record update\n\nSuru-verb: {更新|こうしん}⟦する→する：00392_suru⟧ (to update/renew).",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦ソフトウェア→ソフトウェア：04719_sofutowea⟧⟦を→を：00422_wo⟧{更新|こうしん}⟦する→する：00392_suru⟧: to update software\n- ⟦{自動|じどう}→自動：03339_jidou⟧{更新|こうしん}: automatic update (of software or a subscription)\n- {更新|こうしん}⟦ボタン→ボタン：02963_botan⟧: refresh/reload button (in a browser)\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦の→の：09472_no⟧{更新|こうしん} / ⟦{契約|けいやく}→契約：02698_keiyaku⟧{更新|こうしん}: license renewal / contract renewal\n- ⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{更新|こうしん}⟦する→する：00392_suru⟧: to set a new record (literally \"renew the record\")\n\nSIMILAR WORDS:\n- ⟦{変更|へんこう}→変更：03616_henkou⟧: change, alteration — {更新|こうしん} replaces something with a newer version or extends its term; ⟦{変更|へんこう}→変更：03616_henkou⟧ makes it different (⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧, to change plans). A password is {更新|こうしん}d on a schedule, but ⟦{変更|へんこう}→変更：03616_henkou⟧d when you choose a new one for any reason.",
   "cross_references": [
     {
-      "type": "synonym",
+      "type": "contrast",
       "target_id": "03616_henkou",
       "reading": "へんこう",
       "headword": "{変更|へんこう}",
@@ -248,7 +248,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T00:23:38Z",
-    "modified": "2026-09-16T12:45:30Z",
+    "modified": "2026-09-27T17:11:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -259,7 +259,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "time-general"
+        "technology",
+        "change"
       ],
       "verb_class": "suru",
       "transitivity": "transitive"
