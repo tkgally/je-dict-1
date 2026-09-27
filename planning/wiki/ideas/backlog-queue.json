@@ -1720,18 +1720,18 @@
     {
       "id": "furigana-numeral-counter-readings",
       "title": "Furigana on number + counter words that ignore the sound changes (一本 いちぽん, 九時 きゅうじ, 四人 よんにん, 二つ につ)",
-      "source": "ideas/cleanup-backlog.md#numeral-counter-furigana-2026-09-27; polishing/observations.md [pattern] 2026-09-26 audio",
+      "source": "ideas/cleanup-backlog-resolved.md#numeral-counter-furigana-2026-09-27; polishing/observations.md [pattern] 2026-09-26 audio",
       "detect": "python3 build/check_numeral_readings.py --json",
       "filter": null,
       "fix_type": "per-entry judgment: read the sentence, confirm which word is meant (十分 じゅっぷん or じゅうぶん, 一日 ついたち or いちにち), then correct the furigana to the standard reading the detector lists; a finding that is a different word is left alone and its pattern added to the detector's exceptions",
       "verify": "python3 build/check_numeral_readings.py --ids <ids>; python3 build/validate.py --id <id>",
       "priority": 4,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 100,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_measured_at": "2026-09-27",
       "severity": "high",
-      "notes": "Found by the audio checks: the TTS said the right reading, all checkers heard it, and the example was left for a human because the furigana disagreed (about 40 examples in the basic tier on 2026-09-26). These readings are shown to learners on every page. 2026-09-27 detector: 100 findings in 70 entries, mostly basic-tier number entries (00632-01009). Fixing an example's furigana makes its recording stale, and the audio mode re-records it."
+      "notes": "Found by the audio checks: the TTS said the right reading, all checkers heard it, and the example was left for a human because the furigana disagreed (about 40 examples in the basic tier on 2026-09-26). These readings are shown to learners on every page. 2026-09-27 detector: 100 findings in 70 entries, mostly basic-tier number entries (00632-01009). Fixing an example's furigana makes its recording stale, and the audio mode re-records it. 2026-09-27 routine: 99 of 100 fixed in 69 entries; the remaining 00736 notes ににん is deliberate."
     }
   ]
 }

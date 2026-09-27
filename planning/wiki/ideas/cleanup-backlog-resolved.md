@@ -1529,3 +1529,21 @@ none makes the false claim. 00959 was a one-off, already fixed. No item.
   half is a tooling question already covered by 111/127's shape: `validate.py` reports these as a
   *note* rather than an error, so they pass CI silently and render as dead rows.
 
+
+### Numeral + counter furigana — resolved 2026-09-27 {#numeral-counter-furigana-2026-09-27}
+
+Queue item `furigana-numeral-counter-readings`. The audio checks of 2026-09-26 left about 40
+basic-tier examples for a human because the TTS said the standard reading and the furigana gave
+another: {一|いち}{本|ぽん} (いっぽん), {九|きゅう}{時|じ} (くじ), {四|よん}{人|にん} (よにん),
+{二|に}つ (ふたつ), {十八|じゅうはち}{歳|さい} (じゅうはっさい), {十四|じゅうよん}{日|にち} (じゅうよっか).
+`build/check_numeral_readings.py` checks every kanji numeral from 1 to 99 with furigana before a
+common counter against the standard readings (accepting common alternatives) and passes over
+other words with the same spelling (十分 じゅうぶん, 一回り, 三日月, fractions, 腹八分). First run:
+100 findings in 70 entries.
+
+**Resolved 2026-09-27 (routine systemic-fix).** 99 of the 100 findings fixed in 69 entries (each
+read in context; 二十歳 in 00975 ex4 became はたち, 00697 五日 became いつか, 00705's "いち before most
+counters" line rewritten). Where a numeral was linked to the number entry before つ
+(⟦三→三⟧つ), the wrong link was dropped and the linker relinked the whole word (三つ). The one
+remaining finding, 00736 notes 二人 (ににん), is deliberate: the note describes that rare reading.
+Also fixed on the way: 00697 五十音 was read ごじゅっおん. The detector now returns 1 finding.
