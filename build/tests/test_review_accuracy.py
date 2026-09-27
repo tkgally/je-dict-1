@@ -126,6 +126,21 @@ class TestPostFilter(unittest.TestCase):
         kept, dropped = self._run([dict(base, quote="This word is casual and everyday.")])
         self.assertEqual(kept, [])
 
+    def test_formality_flag_with_nothing_above_formal_dropped(self):
+        e = {"notes": "REGISTER: literary and formal; used in writing.",
+             "metadata": {"tags": {"semantic": ["general"], "formality": "formal"}}}
+        base = {"dimension": "tags", "location": "tags.formality", "severity": "error",
+                "concern": "the tag 'formal' contradicts the note: the word is literary",
+                "quote": "literary and formal; used in writing."}
+        kept, dropped = ra.postfilter_issues(e, [dict(base, suggestion="Change 'formal' to 'literary'.")], DIMS)
+        self.assertEqual(kept, [])
+        self.assertEqual(dropped, {"register-closest": 1})
+        kept, _ = ra.postfilter_issues(e, [dict(base, suggestion="Change 'formal' to 'neutral'.")], DIMS)
+        self.assertEqual(len(kept), 1)
+        e["metadata"]["tags"]["formality"] = "neutral"
+        kept, _ = ra.postfilter_issues(e, [dict(base, suggestion="Change to 'literary'.")], DIMS)
+        self.assertEqual(len(kept), 1)
+
     def test_notes_flag_requires_quote_and_error(self):
         base = {"dimension": "notes", "location": "notes", "severity": "error",
                 "concern": "ものの attaches to any plain form, not only the past tense",

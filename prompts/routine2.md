@@ -148,7 +148,7 @@ Read the JSON: `mode` is this run's focus, `params` its inputs, `reason` and
 
 | `mode` | Do this |
 |---|---|
-| `polish` | Follow **`prompts/comprehensive_polish.md`**. Two lanes: the priority lane (`polishing/priority/notes.txt` from the cursor in `polishing/tasks/comprehensive/priority-cursor.txt`) for about half the budget, then the sequential frontier from `params.start_id`. Judgment work only: correctness, the one contrast or warning a learner needs, trimming, tags. Scripts handle links and cross-references at wrap-up (§3). Target 25–40 entries. |
+| `polish` | Follow **`prompts/comprehensive_polish.md`**. Two lanes: the priority lane (`python3 pipeline/priority_lane.py next --n 15`) for about half the budget, then the sequential frontier from `params.start_id`. Judgment work only: correctness, the one contrast or warning a learner needs, trimming, tags. Scripts handle links and cross-references at wrap-up (§3). Target 25–40 entries. |
 | `accuracy-review` | Follow **§A**: send a range of 800–1,200 entries starting at `params.start_id` to the external reviewer (gloss, translation, tags, notes), adjudicate every surviving flag, fix what is wrong, maintain the queue. No furigana screening pass. |
 | `systemic-fix` | Follow **§B** with `params.backlog_item`: run its detector, verify each flagged entry, fix a bounded batch, update the item's status. |
 | `new-entries` | Follow **`prompts/newentries.md`**. Create about `params.approx_count` (20) entries, taking candidates whose notes say "seen in entry" or "used in" first (internal closure); if fewer than 20 such candidates exist, take the rest from the queue and stop early rather than inventing headwords. Then run the post-creation sequence in that prompt, which links, cross-references, and re-checks homographs. |
@@ -244,7 +244,7 @@ previous snapshot. If the script errors, note it and continue.
 ## 7. Wrap up
 
 1. **Advance the cursors**: `polish` → `polishing/tasks/comprehensive/progress.txt`
-   (`next: <after last frontier entry>`) and `priority-cursor.txt`;
+   (`next: <after last frontier entry>`) and `python3 pipeline/priority_lane.py record --priority … --frontier …`;
    `accuracy-review` → `polishing/tasks/cross-model-review/progress.txt` and
    the queue (§A step 7); `new-entries` and `candidates` → the
    `PROJECT_STATUS.md` Recent Changes section (keep five); `wiki` →

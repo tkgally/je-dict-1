@@ -30,8 +30,9 @@ out). v4 therefore:
   * requires a verbatim `quote` from the notes for register and notes flags, and
     drops any such flag whose quote is not actually in the notes;
   * post-filters breadth complaints, flags naming a tag the entry does not carry,
-    out-of-list suggestions, and (by default) all `warn`-severity issues, which
-    measured ~1% precision;
+    out-of-list suggestions, formality flags on an entry already tagged formal
+    that propose no other allowed value (2026-09-27: "literary" is not a value),
+    and (by default) all `warn`-severity issues, which measured ~1% precision;
   * stamps every surviving issue with a regex-assigned `family` so precision can
     be computed per family from reviews/decisions.jsonl without free-text notes.
 Dropped issues are counted per family in the review file (`dropped`), so the
@@ -320,6 +321,21 @@ def assign_family(issue):
     return "other"
 
 
+FORMALITY_VALUES = ("formal", "neutral", "informal", "vulgar")
+
+
+def formality_already_closest(issue, tags):
+    """A formality flag on an entry already tagged formal whose suggestion names
+    no other allowed value ("literary", "technical", "written", or formal
+    again). The closed list has no value above formal, so there is nothing to
+    change: 2026-09 accuracy reviews rejected these by the dozen."""
+    if "formality" not in str(issue.get("location") or "") or tags.get("formality") != "formal":
+        return False
+    sugg = str(issue.get("suggestion") or "").lower()
+    named = set(re.findall(r"\b(?:in)?formal\b|\bneutral\b|\bvulgar\b", sugg))
+    return not (named - {"formal"})
+
+
 def postfilter_issues(entry, issues, dimensions, keep_warn=False):
     """Apply the code-side noise filters. Returns (kept, dropped_by_family)."""
     kept, dropped = [], {}
@@ -360,6 +376,9 @@ def postfilter_issues(entry, issues, dimensions, keep_warn=False):
                 q = it.get("quote")
                 if not q or not quote_in_notes(q, notes_plain):
                     drop("register-noquote")
+                    continue
+                if formality_already_closest(it, tags):
+                    drop("register-closest")
                     continue
             else:
                 # A wrong-category flag must name a tag the entry carries, and

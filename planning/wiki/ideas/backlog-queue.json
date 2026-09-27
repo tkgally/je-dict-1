@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-09-23",
+  "updated": "2026-09-27",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -796,17 +796,17 @@
     {
       "id": "reviewer-formality-noise",
       "title": "accuracy reviewer's tags.formality sub-family runs at 10% precision",
-      "source": "ideas/tooling-backlog.md#77-the-accuracy-reviewers-formality-flags-run-at-10--split-them-out-or-suppress-them",
+      "source": "ideas/tooling-backlog-resolved.md#reviewer-formality-noise",
       "detect": "reviews/decisions.jsonl: dim=tags decisions whose note names formality/register",
       "fix_type": "prompt-change",
       "verify": "n/a",
       "priority": 12,
       "batch_ready": false,
-      "status": "needs-decision",
+      "status": "resolved",
       "scope_estimate": 30,
       "scope_measured_at": "2026-08-07",
       "severity": "warn",
-      "notes": "Measured across the 2026-08-05..2026-08-07 ledger window: 3 applied of 30 decided (10.0%), against 99.4% for off-vocabulary migration and 28.1% for in-list substitution in the SAME dim. Two runs found it independently (1/10 on 26701-27000; 0/5 on 27001-27313, where four of the five entries' own notes state the word IS the formal term). routine2.md §A already has the right policy — apply a formality flag only when the entry's own register description contradicts the label — but the reviewer is not told the rule its adjudicator uses. Fix in cost order: (1) one line in the reviewer prompt; (2) emit formality findings under their own dim so the ledger separates them without note-string heuristics; (3) drop the sub-dimension if (1) does not move the rate."
+      "notes": "Measured across the 2026-08-05..2026-08-07 ledger window: 3 applied of 30 decided (10.0%), against 99.4% for off-vocabulary migration and 28.1% for in-list substitution in the SAME dim. Two runs found it independently (1/10 on 26701-27000; 0/5 on 27001-27313, where four of the five entries' own notes state the word IS the formal term). routine2.md §A already has the right policy — apply a formality flag only when the entry's own register description contradicts the label — but the reviewer is not told the rule its adjudicator uses. Fix in cost order: (1) one line in the reviewer prompt; (2) emit formality findings under their own dim so the ledger separates them without note-string heuristics; (3) drop the sub-dimension if (1) does not move the rate. 2026-09-27 (interactive): the dominant noise is now a flag on an entry already tagged formal asking for a value above formal (\"literary\", \"technical\", \"written\") that the closed list does not have; accuracy-review cycles on 2026-09-26/27 rejected these by the dozen. review_accuracy.py drops a tags.formality flag when the entry is tagged formal and the suggestion names no other allowed value (family counted as register-closest). Flags proposing neutral/informal, and flags on neutral or untagged entries, still reach the adjudicator."
     },
     {
       "id": "furigana-unbalanced-braces",
@@ -1660,17 +1660,17 @@
     {
       "id": "priority-lane-skip-window",
       "title": "Polish priority lane: the 30-day skip leaves 9 eligible entries of 27,477 until about 2026-10-02",
-      "source": "polishing/observations.md, nine polish runs 2026-09-03 to 2026-09-22",
+      "source": "ideas/tooling-backlog-resolved.md#144",
       "detect": "count entries whose metadata.modified is older than 30 days (2026-09-23: 11 of 30,804; 9 of the 27,477 lines in priority/notes.txt)",
       "filter": null,
       "fix_type": "prompt/policy change (curator)",
       "verify": "n/a",
       "priority": 2,
       "batch_ready": false,
-      "status": "needs-decision",
+      "status": "resolved",
       "scope_estimate": 1,
       "severity": "medium",
-      "notes": "Not a regeneration problem: 23,592 entries carry modified=2026-09-02 (the v3 mechanical sweep), 3,164 carry 2026-09-04, and every later sweep adds ~300/day. They age out on 2026-10-02 and 2026-10-04, after which the lane reopens by itself. Options: (a) until then, give the polish run's whole budget to the frontier lane and skip the priority scan (saves the 7,000-27,000-line scans runs have been doing); (b) have prioritize_polishing.py drop entries modified in the last 30 days so the cursor never walks them; (c) record a separate 'last judgment edit' field so mechanical passes stop resetting the clock. See tooling-backlog.md item 144."
+      "notes": "Not a regeneration problem: 23,592 entries carry modified=2026-09-02 (the v3 mechanical sweep), 3,164 carry 2026-09-04, and every later sweep adds ~300/day. They age out on 2026-10-02 and 2026-10-04, after which the lane reopens by itself. Options: (a) until then, give the polish run's whole budget to the frontier lane and skip the priority scan (saves the 7,000-27,000-line scans runs have been doing); (b) have prioritize_polishing.py drop entries modified in the last 30 days so the cursor never walks them; (c) record a separate 'last judgment edit' field so mechanical passes stop resetting the clock. See tooling-backlog.md item 144. 2026-09-27 (interactive): resolved. The window never reopens by itself: the mechanical passes keep stamping `modified` (27,542 of 27,549 listed entries were within 30 days on 2026-09-27). pipeline/priority_lane.py now serves the lane and skips only entries a polish cycle actually read in the last 30 days (ledger polishing/tasks/comprehensive/polished.jsonl, seeded from the September polish logs), regenerating the list when it is used up or older than 14 days. List regenerated and cursor reset to line 1."
     },
     {
       "id": "auto-link-kanji-surface-ledger",
@@ -1716,6 +1716,22 @@
       "scope_estimate": 90,
       "severity": "low",
       "notes": "82 bare-kanji and 8 malformed examples on 2026-09-25 (e.g. 00067_genshi_ex3 原始的, 00952_juuni_ex2 十二ヶ月). Each fix also makes the example recordable by the audio mode. Digits and Latin letters (about 2,500) are not part of this item: they have no furigana by design (AUDIO_WORKFLOW.md §3.1)."
+    },
+    {
+      "id": "furigana-numeral-counter-readings",
+      "title": "Furigana on number + counter words that ignore the sound changes (一本 いちぽん, 九時 きゅうじ, 四人 よんにん, 二つ につ)",
+      "source": "ideas/cleanup-backlog.md#numeral-counter-furigana-2026-09-27; polishing/observations.md [pattern] 2026-09-26 audio",
+      "detect": "python3 build/check_numeral_readings.py --json",
+      "filter": null,
+      "fix_type": "per-entry judgment: read the sentence, confirm which word is meant (十分 じゅっぷん or じゅうぶん, 一日 ついたち or いちにち), then correct the furigana to the standard reading the detector lists; a finding that is a different word is left alone and its pattern added to the detector's exceptions",
+      "verify": "python3 build/check_numeral_readings.py --ids <ids>; python3 build/validate.py --id <id>",
+      "priority": 4,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 100,
+      "scope_measured_at": "2026-09-27",
+      "severity": "high",
+      "notes": "Found by the audio checks: the TTS said the right reading, all checkers heard it, and the example was left for a human because the furigana disagreed (about 40 examples in the basic tier on 2026-09-26). These readings are shown to learners on every page. 2026-09-27 detector: 100 findings in 70 entries, mostly basic-tier number entries (00632-01009). Fixing an example's furigana makes its recording stale, and the audio mode re-records it."
     }
   ]
 }

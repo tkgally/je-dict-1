@@ -34,6 +34,8 @@ make build                                         # index + full site build (lo
 make test                                          # unit tests (build/tests)
 make install-hooks                                 # activate .githooks/pre-commit
 make priorities                                    # regenerate polishing/priority/*.txt
+python3 pipeline/priority_lane.py next --n 15      # polish: next priority-lane entries (skips polished ≤30 days)
+python3 pipeline/priority_lane.py record --priority … --frontier …   # polish wrap-up: ledger + cursor
 make metrics-page                                  # regenerate planning/wiki/topics/quality-metrics.md
 ```
 

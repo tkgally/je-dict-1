@@ -44,13 +44,13 @@ class RunClockTest(unittest.TestCase):
         self.assertIn("elapsed: 30 min", out)
 
     def test_past_new_cycle_limit(self):
-        self.file.write_text(f"{time.time() - 110 * 60:.0f}\n")
+        self.file.write_text(f"{time.time() - 125 * 60:.0f}\n")
         out = run("--file", str(self.file))
         self.assertIn("next cycle: no", out)
         self.assertNotIn("wrap up now", out)
 
     def test_past_wrap_up_limit(self):
-        self.file.write_text(f"{time.time() - 131 * 60:.0f}\n")
+        self.file.write_text(f"{time.time() - 146 * 60:.0f}\n")
         out = run("--file", str(self.file))
         self.assertIn("next cycle: no", out)
         self.assertIn("wrap up now", out)

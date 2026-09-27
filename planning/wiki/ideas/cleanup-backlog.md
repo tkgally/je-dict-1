@@ -4063,6 +4063,19 @@ kana surface to a kanji-headed entry (きて→来る, たち→達, しまう�
 ください→下さい). The linker never writes these, so they are all old semantic-pass links, never
 independently checked. Same review path, no tiering.
 
+## Updates 2026-09-27 (interactive: overnight Routine review)
+
+### Numeral + counter furigana (2026-09-27) {#numeral-counter-furigana-2026-09-27}
+
+Queue item `furigana-numeral-counter-readings`. The audio checks of 2026-09-26 left about 40
+basic-tier examples for a human because the TTS said the standard reading and the furigana gave
+another: {一|いち}{本|ぽん} (いっぽん), {九|きゅう}{時|じ} (くじ), {四|よん}{人|にん} (よにん),
+{二|に}つ (ふたつ), {十八|じゅうはち}{歳|さい} (じゅうはっさい), {十四|じゅうよん}{日|にち} (じゅうよっか).
+`build/check_numeral_readings.py` checks every kanji numeral from 1 to 99 with furigana before a
+common counter against the standard readings (accepting common alternatives) and passes over
+other words with the same spelling (十分 じゅうぶん, 一回り, 三日月, fractions, 腹八分). First run:
+100 findings in 70 entries.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

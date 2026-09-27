@@ -1,7 +1,8 @@
 """OpenRouter calls and MP3 encoding for the example-audio workflow.
 
 - OpenRouter.tts(model, prompt, voice)      → raw 24 kHz mono 16-bit PCM + generation id
-- OpenRouter.ask_audio(model, prompt, mp3)  → (reply text, billed cost)
+- OpenRouter.ask_audio(model, prompt, mp3)  → (reply text, billed cost); a model that
+                                              accepts only WAV gets the clip decoded to WAV
 - OpenRouter.generation_cost(gen_id)        → billed cost of a TTS call (looked up afterwards)
 - encode_mp3(pcm, kbps)                     → MP3 bytes (lameenc, or ffmpeg if lameenc is missing)
 
@@ -10,16 +11,21 @@ stop at a budget. TTS responses carry no usage; until the generation lookup
 answers, a TTS call is charged at `tts_estimate_usd` and corrected afterwards.
 """
 import base64
+import io
 import os
 import shutil
 import subprocess
 import threading
 import time
+import wave
 
 import requests
 
 API = "https://openrouter.ai/api/v1"
 SAMPLE_RATE = 24000
+# Models that refuse MP3 input ("only WAV is supported"). Filled at run time the
+# first time a model gives that error; thinkingmachines/inkling did from 2026-09-26.
+WAV_ONLY = {"thinkingmachines/inkling"}
 
 
 class OpenRouter:
@@ -83,8 +89,20 @@ class OpenRouter:
 
     # ------------------------------------------------------------------ audio-input chat
     def ask_audio(self, model, prompt, mp3, fmt="mp3"):
-        """Send a prompt plus an audio clip; return (text, cost)."""
-        b64 = base64.b64encode(mp3).decode()
+        """Send a prompt plus an audio clip; return (text, cost). A model that
+        accepts only WAV gets the MP3 decoded to 16-bit PCM WAV."""
+        if fmt == "mp3" and model in WAV_ONLY:
+            return self._ask_audio(model, prompt, mp3_to_wav(mp3), "wav")
+        try:
+            return self._ask_audio(model, prompt, mp3, fmt)
+        except RuntimeError as e:
+            if fmt != "mp3" or "only WAV is supported" not in str(e):
+                raise
+            WAV_ONLY.add(model)
+            return self._ask_audio(model, prompt, mp3_to_wav(mp3), "wav")
+
+    def _ask_audio(self, model, prompt, data, fmt):
+        b64 = base64.b64encode(data).decode()
         r = self.post("/chat/completions", {
             "model": model, "temperature": 0, "reasoning": {"effort": "low"},
             "messages": [{"role": "user", "content": [
@@ -129,6 +147,24 @@ def encode_mp3(pcm, kbps=48, rate=SAMPLE_RATE):
              "-codec:a", "libmp3lame", "-b:a", f"{kbps}k", "-f", "mp3", "pipe:1"],
             input=pcm, capture_output=True, check=True).stdout
     raise RuntimeError("no MP3 encoder: pip install lameenc (or install ffmpeg)")
+
+
+def pcm_to_wav(pcm, rate=SAMPLE_RATE):
+    """16-bit mono PCM → WAV bytes."""
+    buf = io.BytesIO()
+    with wave.open(buf, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(rate)
+        w.writeframes(pcm)
+    return buf.getvalue()
+
+
+def mp3_to_wav(mp3):
+    """Decode an MP3 (miniaudio) to 16-bit mono WAV bytes at its own sample rate."""
+    import miniaudio
+    d = miniaudio.decode(mp3, output_format=miniaudio.SampleFormat.SIGNED16, nchannels=1)
+    return pcm_to_wav(d.samples.tobytes(), d.sample_rate)
 
 
 def pcm_duration(pcm, rate=SAMPLE_RATE):
