@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "HEALTH TERM:\n{内臓脂肪|ないぞうしぼう} is considered more dangerous to health than ⟦{皮下脂肪|ひかしぼう}→皮下脂肪：23233_hikashibou⟧ (subcutaneous fat).\n\nHEALTH RISKS:\n- ⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧ - diabetes\n- ⟦{高血圧|こうけつあつ}→高血圧：04415_kouketsuatsu⟧ - high blood pressure\n- ⟦{動脈硬化|どうみゃくこうか}→動脈硬化：24512_doumyakukouka⟧ - arteriosclerosis\n- ⟦{心臓病|しんぞうびょう}→心臓病：04418_shinzoubyou⟧ - heart disease\n\nSIMILAR WORDS:\n- {内臓脂肪|ないぞうしぼう} - visceral fat (around organs)\n- ⟦{皮下脂肪|ひかしぼう}→皮下脂肪：23233_hikashibou⟧ - subcutaneous fat (under skin)\n\nMETABOLIC SYNDROME:\n{内臓脂肪|ないぞうしぼう}{型|がた}⟦{肥満|ひまん}→肥満：13920_himan⟧ (visceral fat obesity) is a key criterion for メタボリックシンドローム.\n\nREDUCTION METHODS:\n- ⟦{有酸素運動|ゆうさんそうんどう}→有酸素運動：23338_yuusansoundou⟧ - aerobic exercise\n- {食事制限|しょくじせいげん} - dietary restriction\n- ⟦{糖質|とうしつ}→糖質：11091_toushitsu⟧⟦カット→カット：10818_katto⟧ - reducing carbohydrates\n\nMEASUREMENT:\n- {腹囲|ふくい} - waist circumference\n- CT⟦スキャン→スキャン：07342_sukyan⟧ - CT scan (for accurate measurement)",
+  "notes": "Fat stored around the internal organs of the abdomen. It is linked more closely to diabetes, high blood pressure and arteriosclerosis than fat under the skin, and a large waist measurement ({腹囲|ふくい}) is its main screening sign in Japanese health checkups, where it is the core criterion for メタボ (metabolic syndrome).\n\nSIMILAR WORDS:\n- ⟦{皮下脂肪|ひかしぼう}→皮下脂肪：23233_hikashibou⟧: subcutaneous fat, under the skin; harder to lose but less risky\n- ⟦{中性脂肪|ちゅうせいしぼう}→中性脂肪：23227_chuuseishibou⟧: triglycerides, a blood-test value, not a place in the body\n- ⟦{体脂肪|たいしぼう}→体脂肪：18660_taishibou⟧: body fat in general\n\nCOMMON COLLOCATIONS:\n- {内臓脂肪|ないぞうしぼう}⟦を→を：00422_wo⟧⟦{減|へ}らす→減らす：02414_herasu⟧: to reduce visceral fat\n- {内臓脂肪|ないぞうしぼう}⟦を→を：00422_wo⟧⟦{燃焼|ねんしょう}→燃焼：15053_nenshou⟧⟦させる→する：00392_suru⟧: to burn visceral fat\n- {内臓脂肪|ないぞうしぼう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: to have a lot of visceral fat\n- {内臓脂肪型肥満|ないぞうしぼうがたひまん}: visceral fat obesity",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +57,7 @@
       ]
     },
     "created": "2026-01-27T12:31:57Z",
-    "modified": "2026-09-02T04:01:15Z"
+    "modified": "2026-09-27T20:44:04Z"
   },
   "cross_references": [
     {
@@ -80,6 +80,13 @@
       "reading": "たいしぼうりつ",
       "headword": "{体脂肪率|たいしぼうりつ}",
       "label": "body fat percentage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18660_taishibou",
+      "reading": "たいしぼう",
+      "headword": "{体脂肪|たいしぼう}",
+      "label": "body fat in general"
     }
   ]
 }

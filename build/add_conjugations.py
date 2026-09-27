@@ -414,6 +414,9 @@ def _detect_passive_headword(entry: dict) -> bool:
     return False
 
 
+_HONORIFIC_ARU = ('くださる', 'なさる', 'いらっしゃる', 'おっしゃる', 'ござる')
+
+
 def generate_conjugation(entry: dict) -> dict:
     """
     Generate full conjugation data for a verb entry.
@@ -430,6 +433,17 @@ def generate_conjugation(entry: dict) -> dict:
         reading = entry.get('reading', '')
         is_iku = (reading == 'いく' or reading == 'ゆく') and details.get('ending') == 'く'
         forms = _generate_godan_forms(details['stem'], details['ending'], is_iku=is_iku)
+        # The five honorific ~aru verbs take い, not り, before ます and in the
+        # imperative: くださいます / ください, not くださります / くだされ.
+        if details.get('ending') == 'る' and reading.endswith(_HONORIFIC_ARU):
+            stem = details['stem']
+            for f in forms:
+                if f['label'] in ('Present polite', 'Past polite', 'Volitional polite'):
+                    f['affirmative'] = f['affirmative'].replace(f'{stem}り', f'{stem}い', 1)
+                    if f['negative']:
+                        f['negative'] = f['negative'].replace(f'{stem}り', f'{stem}い', 1)
+                elif f['label'] == 'Imperative' and not reading.endswith('ござる'):
+                    f['affirmative'] = f'{stem}い'
     elif verb_type == 'ichidan':
         forms = _generate_ichidan_forms(details['stem'])
     elif verb_type == 'zuru':

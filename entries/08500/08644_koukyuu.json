@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS (SENSE 1):\n- {高級|こうきゅう}⟦ホテル→ホテル：01027_hoteru⟧ - luxury hotel\n- {高級|こうきゅう}⟦レストラン→レストラン：01048_resutoran⟧ - high-end restaurant\n- {高級|こうきゅう}⟦{住宅街|じゅうたくがい}→住宅街：09394_juutakugai⟧ - upscale neighborhood\n- {高級|こうきゅう}⟦{品|ひん}→品：03712_hin⟧ - luxury goods\n- {高級|こうきゅう}⟦ブランド→ブランド：05221_burando⟧ - luxury brand\n- {高級|こうきゅう}{車|しゃ} - luxury car\n- {高級|こうきゅう}⟦{食材|しょくざい}→食材：04940_shokuzai⟧ - premium ingredients\n\nCOMMON COLLOCATIONS (SENSE 2):\n- {高級|こうきゅう}⟦{官僚|かんりょう}→官僚：02780_kanryou⟧ - senior bureaucrat\n- {高級|こうきゅう}⟦{幹部|かんぶ}→幹部：06875_kanbu⟧ - senior executive\n- {高級|こうきゅう}⟦{将校|しょうこう}→将校：27992_shoukou⟧ - high-ranking officer\n\nSIMILAR WORDS:\n- {低級|ていきゅう} - low-grade, vulgar\n- ⟦{安物|やすもの}→安物：22116_yasumono⟧ - cheap item",
+  "notes": "COMMON COLLOCATIONS (SENSE 1):\n- {高級|こうきゅう}⟦ホテル→ホテル：01027_hoteru⟧ - luxury hotel\n- {高級|こうきゅう}⟦レストラン→レストラン：01048_resutoran⟧ - high-end restaurant\n- {高級|こうきゅう}⟦{住宅街|じゅうたくがい}→住宅街：09394_juutakugai⟧ - upscale neighborhood\n- {高級|こうきゅう}⟦{品|ひん}→品：03712_hin⟧ - luxury goods\n- {高級|こうきゅう}⟦ブランド→ブランド：05221_burando⟧ - luxury brand\n- {高級|こうきゅう}{車|しゃ} - luxury car\n- {高級|こうきゅう}⟦{食材|しょくざい}→食材：04940_shokuzai⟧ - premium ingredients\n\nCOMMON COLLOCATIONS (SENSE 2):\n- {高級|こうきゅう}⟦{官僚|かんりょう}→官僚：02780_kanryou⟧ - senior bureaucrat\n- {高級|こうきゅう}⟦{幹部|かんぶ}→幹部：06875_kanbu⟧ - senior executive\n- {高級|こうきゅう}⟦{将校|しょうこう}→将校：27992_shoukou⟧ - high-ranking officer\n\nSIMILAR WORDS:\n- ⟦{高価|こうか}→高価：02796_kouka⟧: expensive; says only that the price is high, while {高級|こうきゅう} says the quality or class is high\n- {低級|ていきゅう} - low-grade, vulgar\n- ⟦{安物|やすもの}→安物：22116_yasumono⟧ - cheap item",
   "cross_references": [
     {
       "type": "contrast",
@@ -107,6 +107,13 @@
       "reading": "かくしきたかい",
       "headword": "{格式高|かくしきたか}い",
       "label": "prestigious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02796_kouka",
+      "reading": "こうか",
+      "headword": "{高価|こうか}",
+      "label": "expensive"
     }
   ],
   "metadata": {
@@ -118,9 +125,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "evaluation",
+        "descriptive"
+      ]
     },
     "created": "2026-01-27T13:19:14Z",
-    "modified": "2026-09-02T04:01:15Z"
+    "modified": "2026-09-27T20:44:04Z"
   }
 }

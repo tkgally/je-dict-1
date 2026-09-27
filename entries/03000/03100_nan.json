@@ -118,18 +118,39 @@
       ]
     }
   ],
-  "notes": "PRONUNCIATION: なん vs なに\n- なん: Before た/だ/な row sounds and counters\n- なに: Before other sounds, or standalone\n\nCOMMON PATTERNS:\n- ⟦{何|なん}{時|じ}→何時：00973_nanji⟧ (what time)\n- ⟦{何|なん}{曜日|ようび}→何曜日：30346_nanyoubi⟧ (what day of the week)\n- ⟦{何|なん}{人|にん}→何人：17593_nannin⟧ (how many people)\n- ⟦{何|なん}{個|こ}→何個：26687_nanko⟧ (how many items)\n- ⟦{何|なん}{歳|さい}→何歳：17594_nansai⟧ (how old)\n- ⟦{何|なん}{月|がつ}→何月：22086_nangatsu⟧ (what month)\n- ⟦{何|なん}{日|にち}→何日：23870_nannichi⟧ (what day of the month)\n- ⟦{何|なん}{番|ばん}→何番：09490_nanban⟧ (what number)\n\nALSO:\n- {何|なん}⟦で→で：00502_de⟧ (why; by what means)\n- {何|なん}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ (anything, whatever)\n- {何|なん}⟦と→と：00512_to⟧⟦か→か：09473_ka⟧ (somehow, something or other)",
+  "notes": "PRONUNCIATION: なん vs なに\n- なん: before counters, before sounds of the た, だ and な rows, and before ⟦の→の：09472_no⟧ ({何|なん}⟦の→の：09472_no⟧)\n- なに: Before other sounds, or standalone\n\nCOMMON PATTERNS:\n- ⟦{何|なん}{時|じ}→何時：00973_nanji⟧ (what time)\n- ⟦{何|なん}{曜日|ようび}→何曜日：30346_nanyoubi⟧ (what day of the week)\n- ⟦{何|なん}{人|にん}→何人：17593_nannin⟧ (how many people)\n- ⟦{何|なん}{個|こ}→何個：26687_nanko⟧ (how many items)\n- ⟦{何|なん}{歳|さい}→何歳：17594_nansai⟧ (how old)\n- ⟦{何|なん}{月|がつ}→何月：22086_nangatsu⟧ (what month)\n- ⟦{何|なん}{日|にち}→何日：23870_nannichi⟧ (what day of the month)\n- ⟦{何|なん}{番|ばん}→何番：09490_nanban⟧ (what number)\n\nRELATED WORDS:\n- {何|なん}⟦で→で：00502_de⟧ (why; by what means)\n- {何|なん}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ (anything, whatever)\n- {何|なん}⟦と→と：00512_to⟧⟦か→か：09473_ka⟧ (somehow, something or other)",
   "cross_references": [
     {
       "type": "related",
       "reading": "なに",
       "headword": "{何|なに}",
       "target_id": "00498_nani"
+    },
+    {
+      "type": "related",
+      "target_id": "03875_nande",
+      "reading": "なんで",
+      "headword": "{何|なん}で",
+      "label": "why"
+    },
+    {
+      "type": "related",
+      "target_id": "00304_nandemo",
+      "reading": "なんでも",
+      "headword": "{何|なん}でも",
+      "label": "anything, whatever"
+    },
+    {
+      "type": "related",
+      "target_id": "01126_nantoka",
+      "reading": "なんとか",
+      "headword": "{何|なん}とか",
+      "label": "somehow, something or other"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:08:32Z",
-    "modified": "2026-09-02T04:01:02Z",
+    "modified": "2026-09-27T20:44:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -137,7 +158,11 @@
         "prefix"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "grammatical",
+        "number"
+      ]
     }
   }
 }
