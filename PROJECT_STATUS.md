@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31175–31194)
+
+All twenty are internal-closure words already used by older entries: 縄文, 必殺技, 発泡, マムシ, グローブ, 貧富,
+ボンベ, 被写体, 資本金, クリスマスイブ, ゴールイン, レーザー, 直下, コピペ, なめこ, 外堀, and the proper nouns
+文部科学省, 大航海時代, ノーベル賞, 大阪城. 33 old `noentry` markers in 21 entries now link to them. Stale candidate
+四方山話 removed (duplicate of よもやま話, 26013). Self-check skipped (daily review budget spent). Candidate queue
+stands at 77.
+
 ### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31155–31174)
 
 All twenty are internal-closure words already used by older entries: 三唱, レザー, 御礼, ハムスター, スティック,
@@ -79,12 +87,3 @@ queue had no other "seen in entry" words, so the rest came from the vetted prope
 黒澤明, 空海, 宮本武蔵, 西郷隆盛, 伊藤博文; organizations and brands トヨタ, ソニー, ユニクロ, 早稲田, 慶応, ジブリ;
 works ドラえもん, サザエさん, ポケモン; places 高野山, 吉祥寺, 難波, 梅田. Old `noentry` markers for 高野山 (02168)
 and 早稲田 (03221) now link. New kanji 澤 added to the index. Self-check: clean. Candidate queue stands at 72.
-
-### 2026-09-28 (Routine v3: new-entries — 22 New Entries, IDs 31093–31114)
-
-Three internal-closure words first: 窺う (to peer at, to gauge — distinct from humble 伺う; 03714's 様子を窺った
-now links to it), そうする, 独楽回し. Then from the vetted queue: 厚生年金, 食品ロス, 上棟式, 竣工式, 施主, 感謝状,
-丹精; four-character idioms 温故知新, 一挙両得, 十中八九, 千載一遇; idioms 目が高い, 頭が下がる, 気が置けない,
-水に流す, 馬が合う, 雀の涙, 音を上げる, 棚に上げる. New kanji 窺 added to the index. 04764's old 一挙両得
-`noentry` marker now links. Self-check: one reviewer flag rejected, one gloss fixed. Candidate queue stands at 91.
-
