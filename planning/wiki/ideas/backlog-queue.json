@@ -866,19 +866,20 @@
     {
       "id": "inline-link-examples-bare-notes-linked",
       "title": "Entries with fully-linked notes and zero links in any example",
-      "source": "ideas/cleanup-backlog.md#priority-46-notes-fully-linked-examples-completely-bare-33-entries--behind-the-frontier",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-46-notes-fully-linked-examples-completely-bare--resolved-2026-09-28",
       "detect": "entry has >=1 link in notes AND zero links across all examples[].japanese",
       "filter": null,
       "fix_type": "content",
       "verify": "each example's linkable vocabulary resolves via word_id_lookup.json",
       "priority": 6,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 33,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "entries",
       "scope_measured_at": "2026-08-08",
       "severity": "warn",
-      "notes": "32 of 33 sit BEHIND the polish frontier (next: 06842) in six contiguous runs (06038-06047, 06457-06462, 06631-06638, 06669, 06723-06729) plus outlier 18725. Session-shape signature, not creation-era: the frontier linked notes and ran out of context before examples. Worth keeping as a standing check, since no cursor returns to entries the frontier already passed."
+      "notes": "RESOLVED 2026-09-28: re-running the detector finds 0 entries (earlier polish and mechanical passes linked the examples). 32 of 33 sit BEHIND the polish frontier (next: 06842) in six contiguous runs (06038-06047, 06457-06462, 06631-06638, 06669, 06723-06729) plus outlier 18725. Session-shape signature, not creation-era: the frontier linked notes and ran out of context before examples. Worth keeping as a standing check, since no cursor returns to entries the frontier already passed.",
+      "resolved_date": "2026-09-28"
     },
     {
       "id": "inline-link-split-compound",

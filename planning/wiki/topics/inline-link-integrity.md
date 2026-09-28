@@ -231,7 +231,7 @@ turns a non-item into a real queue:
 | Zero-link **above** `next: 06845` | 23,349 | the frontier position, restated |
 | Zero-link **below** `next: 06845` | **55** | work the frontier reached and did not do |
 
-The 55 are the strict sibling of [Cleanup P46](../ideas/cleanup-backlog.md#priority-46-notes-fully-linked-examples-completely-bare-33-entries--behind-the-frontier)
+The 55 are the strict sibling of [Cleanup P46](../ideas/cleanup-backlog-resolved.md#priority-46-notes-fully-linked-examples-completely-bare--resolved-2026-09-28)
 (notes linked, examples bare). P46 is half-finished linking; this is un-started linking in
 entries the cursor has already passed. **Neither will ever be revisited**, because the
 comprehensive cursor only moves forward — which is the entire reason a below-frontier filter

@@ -912,7 +912,7 @@ are its sixth and seventh independent rediscovery, which is itself the item's mo
 signal (see P46 and the "why these keep being rediscovered" section on that page).
 
 **Filtered to below the frontier, however, the same scan yields a real 55-entry queue** — the
-strict sibling of [P46](#priority-46-notes-fully-linked-examples-completely-bare-33-entries--behind-the-frontier).
+strict sibling of [P46](#priority-46-notes-fully-linked-examples-completely-bare--resolved-2026-09-28).
 P46 is *half*-linked entries the frontier passed; this is *un*-linked entries the frontier
 passed. Both are work no cursor will ever return to. The 55 are almost entirely contiguous
 blocks, not scattered singletons:
@@ -1573,4 +1573,44 @@ second rule that turned out to be worthless (see the Informational entry below).
 34-instance real defect with a 931-instance false positive is what kept both unbuilt.
 
 **Resolved 2026-09-28** (routine systemic-fix): the 29 fields still unbalanced (29 entries) were fixed one by one. 26 had a single stray `{` or `}`, which was removed; three had a kanji with its reading missing (`{好{勝負|しょうぶ}`, `{荷{積|づ}み`, `{大{移動|いどう}`), which now carry `{好|こう}`, `{荷|に}`, `{大|だい}`. 04471 had already been fixed. The whole-corpus count check now finds none.
+
+## Priority 46: Notes fully linked, examples completely bare — RESOLVED 2026-09-28
+
+**Source**: 2026-08-08 routine polish observation on 06835–06841 ("entries have fully-linked
+notes but zero inline links in their examples … looks like a creation-era batch signature").
+**Sized 2026-08-08 by whole-corpus scan**, and the measurement changes the diagnosis.
+
+**Detect**: entry has ≥1 `⟦…⟧` in `notes` **and** zero `⟦…⟧` across every
+`examples[].japanese`. Mechanical, no judgment.
+**Scope**: **33 entries**. **Status**: open, batch-ready, no cursor needed.
+
+The observing run's own block does not appear in the result — it fixed it in-run. What remains
+is a different and more interesting population, because **32 of the 33 sit behind the polish
+frontier** (`next: 06842`) in six tight consecutive runs, plus one outlier far beyond it:
+
+| Run | IDs | n |
+|---|---|---|
+| 1 | 06038–06047 | 10 |
+| 2 | 06457–06462 | 6 |
+| 3 | 06631–06638 | 8 |
+| 4 | 06669 | 1 |
+| 5 | 06723–06729 | 7 |
+| — | 18725 | 1 |
+
+**These are not unlinked entries — they are half-linked ones.** Each carries 8–11 links in its
+notes while its examples, which are full of linkable vocabulary, carry none: 06038 `閉め出す`
+has ten note links and examples containing 鍵/忘れる/家/猫/外; 06631 `面影` has eleven and
+examples containing 町/昔/母親/残る. Their `modified` stamps are polish-run dates
+(06631: 2026-07-26; 06723: 2026-08-08), so **the frontier passed them and left the examples
+bare** — this is not a creation-era signature but a *session-shape* one. The runs are
+contiguous and end abruptly, which is what a session that linked notes for a batch and then
+ran out of context before the examples looks like.
+
+**Why it matters beyond 33 entries**: [P43](#priority-43-the-06800-07100-block-is-96-unlinked)
+treats unlinked stretches as work the frontier has not yet reached. This class is work the
+frontier *did* reach and completed only half of, so no cursor will ever return to it. That
+makes the detector worth keeping as a standing check rather than a one-off sweep — it is the
+cheapest available audit of whether the inline-link step actually finished.
+
+**Resolved 2026-09-28** (routine systemic-fix): the detector (≥1 link in notes, zero links in every example) now finds no entries; earlier polish and mechanical passes linked the examples.
 
