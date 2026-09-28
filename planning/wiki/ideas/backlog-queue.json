@@ -534,16 +534,17 @@
     {
       "id": "crossref-missing-target-id-unlabeled",
       "title": "Cross-reference with neither target_id nor label (renders as nothing)",
-      "source": "ideas/tooling-backlog.md#51",
+      "source": "ideas/tooling-backlog-resolved.md#51",
       "detect": "scan cross_references[] for objects with no target_id and no label",
       "fix_type": "semantic",
       "verify": "per-entry",
       "priority": 6,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 5,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "warn",
-      "notes": "Measured 2026-07-30: 64 refs dictionary-wide lack target_id; 59 of them carry a label and are INTENTIONAL pointers to entry-less words (homophone/contrast display refs) — do not touch those. The 5 unlabeled ones are defects: 06057 (推薦する), 06060 (創造する), 06063 (肯定する), 29601 (年少), 29610 (炭素). validate.py checks that a target_id resolves, not that one is present, so these pass and render as nothing. The durable fix is a schema clause 'target_id OR label required' — NOT a bare required:[target_id], which would break the 59."
+      "notes": "RESOLVED 2026-09-28: the class had grown from 5 to 46 refs in 37 entries (new-entries batch 30338–30393 wrote bare refs). Each named a word with an entry; target_id added (homophones picked by headword). The refs had rendered by reading fallback or as unlinked text, not as nothing. schema.json now requires target_id OR label on cross_references[] items. Measured 2026-07-30: 64 refs dictionary-wide lack target_id; 59 of them carry a label and are INTENTIONAL pointers to entry-less words (homophone/contrast display refs) — do not touch those. The 5 unlabeled ones are defects: 06057 (推薦する), 06060 (創造する), 06063 (肯定する), 29601 (年少), 29610 (炭素). validate.py checks that a target_id resolves, not that one is present, so these pass and render as nothing. The durable fix is a schema clause 'target_id OR label required' — NOT a bare required:[target_id], which would break the 59.",
+      "resolved_date": "2026-09-28"
     },
     {
       "id": "notes-duplicate-conjugation-block",

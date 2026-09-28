@@ -1130,7 +1130,7 @@ find a less-wrong target*). Left for the curator because 採れる may deserve i
 
 `30380_tsukaiyasui` carries a `cross_references` entry for 使いにくい with the `target_id` field
 absent — `validate.py` reports it as a note rather than an error (the schema gap written up in
-[Tooling 51](tooling-backlog.md#51-a-cross-reference-with-no-target_id-validates-cleanly--but-the-obvious-schema-fix-would-break-59-intentional-refs)),
+[Tooling 51](tooling-backlog-resolved.md)),
 so it renders as an unlinked label.
 
 Self-resolving: the run added 使いにくい to the candidate list, and the ref becomes valid the

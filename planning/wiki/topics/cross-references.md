@@ -69,7 +69,8 @@ and then renders as nothing. Dictionary-wide there are 64 such objects — but o
 defects: the other **59** carry a `label` and are deliberate pointers to words that have no entry
 ("laborer (homophone)"). The rule the schema wants is therefore **"`target_id` or `label` is
 required"**, not "`target_id` is required"; see
-[Tooling 51](../ideas/tooling-backlog.md#51-a-cross-reference-with-no-target_id-validates-cleanly--but-the-obvious-schema-fix-would-break-59-intentional-refs).
+[Tooling 51](../ideas/tooling-backlog-resolved.md). *Resolved 2026-09-28:* the schema now enforces
+exactly that rule, after 46 bare references (37 entries) were given their `target_id`.
 
 **3. The pair a machine can see is not always the pair the entry describes.** 00649 曲がる /
 02529 曲げる and 00711 かかる / 00854 かける each documented their transitivity pair in the notes
