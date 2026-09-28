@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "MEDICAL TERMS:\n- {皮下|ひか}⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧ - subcutaneous injection\n- {皮下|ひか}⟦{脂肪|しぼう}→脂肪：03199_shibou⟧ - subcutaneous fat\n- {皮下|ひか}⟦{組織|そしき}→組織：03320_soshiki⟧ - subcutaneous tissue\n- {皮下|ひか}⟦{出血|しゅっけつ}→出血：11735_shukketsu⟧ - subcutaneous hemorrhage\n\nCONTRAST WITH OTHER INJECTION TYPES:\n- {皮下|ひか}⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧ - subcutaneous injection\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧ - intramuscular injection\n- ⟦{静脈|じょうみゃく}{注射|ちゅうしゃ}→静脈注射：24680_joumyakuchuusha⟧ - intravenous injection\n\nBODY FAT TYPES:\n- {皮下|ひか}⟦{脂肪|しぼう}→脂肪：03199_shibou⟧ - subcutaneous fat (under the skin)\n- ⟦{内臓|ないぞう}{脂肪|しぼう}→内臓脂肪：08626_naizoushibou⟧ - visceral fat (around organs)",
+  "notes": "COMPOUNDS:\n- {皮下|ひか}⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧: subcutaneous injection\n- {皮下|ひか}⟦{脂肪|しぼう}→脂肪：03199_shibou⟧: subcutaneous fat\n- {皮下|ひか}⟦{組織|そしき}→組織：03320_soshiki⟧: subcutaneous tissue\n- {皮下|ひか}⟦{出血|しゅっけつ}→出血：11735_shukketsu⟧: bleeding under the skin, bruising\n\nRELATED WORDS:\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧ / ⟦{静脈|じょうみゃく}{注射|ちゅうしゃ}→静脈注射：24680_joumyakuchuusha⟧: intramuscular / intravenous injection\n- ⟦{内臓|ないぞう}{脂肪|しぼう}→内臓脂肪：08626_naizoushibou⟧: visceral fat — the fat around the organs, contrasted with {皮下|ひか}⟦{脂肪|しぼう}→脂肪：03199_shibou⟧ in health checkups",
   "cross_references": [
     {
       "type": "related",
@@ -65,6 +65,13 @@
       "reading": "じょうみゃくちゅうしゃ",
       "headword": "{静脈注射|じょうみゃくちゅうしゃ}",
       "label": "intravenous injection"
+    },
+    {
+      "type": "related",
+      "target_id": "08626_naizoushibou",
+      "reading": "ないぞうしぼう",
+      "headword": "{内臓脂肪|ないぞうしぼう}",
+      "label": "visceral fat"
     }
   ],
   "metadata": {
@@ -81,6 +88,6 @@
       ]
     },
     "created": "2026-01-28T03:35:56Z",
-    "modified": "2026-09-02T04:01:16Z"
+    "modified": "2026-09-28T13:10:45Z"
   }
 }
