@@ -1364,3 +1364,12 @@ linked tokenizer-free; re-linking its 24 entries with Sudachi found 27 wrong or 
 split from 抽象, お返し's 返し), all removed and re-linked. Earlier tokenizer-free runs were not
 re-audited (see the queue item).
 
+### 151. Old link-tail pattern in `check_furigana_format.py` (queue: `check-furigana-format-link-tail`, resolved 2026-09-28)
+The same `→[^⟧]*⟧` bug fixed in `review_accuracy.py` on 2026-09-27.
+Resolved: the tail-only pattern is now `→[^⟧⟦]*⟧` in `check_furigana_format.py`, and in the three
+other checkers that had the same bug: `find_missing_furigana.py` (two places),
+`verify_furigana.py` and `score_note_quality.py`. The patterns anchored on `⟦` (in
+`apply_transitivity_agreement.py` and `check_example_headword.py`) were already safe. New
+`build/tests/test_link_tail_pattern.py` covers "食べる → 食べます" followed by a link; it fails on
+the old pattern.
+

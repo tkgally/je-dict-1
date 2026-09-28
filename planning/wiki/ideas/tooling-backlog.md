@@ -4715,9 +4715,6 @@ Since 2026-09-01, `notes-fact` flags were 304 applied against 618 rejected (33%)
 ### 150. Numeral-reading detector gaps (queue: `numeral-readings-detector-gaps`)
 Runs that start after a kanji, most following kanji, 五十/八十 + 歳, and ページ are missed. Seven audio left-for-human items on 2026-09-27 were in these gaps.
 
-### 151. Old link-tail pattern in `check_furigana_format.py` (queue: `check-furigana-format-link-tail`)
-The same `→[^⟧]*⟧` bug fixed in `review_accuracy.py` on 2026-09-27.
-
 ### Prompt recommendations (for the curator)
 - `newentries.md` still says proper nouns take `part_of_speech: "noun (proper)"`; the POS ratchet rejects it (PR #3350). New nouns also need `politeness: "plain"`; CI failed on it again on 2026-09-28 (PR #3412). `make gate` reports these only for files git already tracks, so stage new files before running it.
 - Priority lane: empty since 2026-09-23 (every line modified within 30 days). It will stay empty until about 2026-10-04/07; the prompt regenerates the list only when it is over 14 days old.

@@ -332,7 +332,7 @@ def strip_furigana_text(text):
 # Baseform + entry-id tail of an inline word link: ⟦{surface|reading}→baseform：id⟧.
 # The baseform is lookup metadata, never rendered, so by spec it carries no
 # furigana — it must not count as bare kanji in the display text.
-INLINE_LINK_TAIL_PATTERN = re.compile(r'→[^⟧]*⟧')
+INLINE_LINK_TAIL_PATTERN = re.compile(r'→[^⟧⟦]*⟧')
 
 
 def has_bare_kanji(text):
