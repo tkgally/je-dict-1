@@ -1572,6 +1572,15 @@ The generalisable point, and the reason this update exists: *"regenerate a deriv
 source" is only safe once you have checked that the field really is derived.* Here 99.8% of it was
 and 0.2% was not, and the 0.2% is recoverable rather than fatal — but only if someone counts first.
 
+### Update 2026-09-28 — the backfill half is done (queue `pos-freetext-transitivity-backfill` resolved)
+
+A re-run of the detector found nothing left: every one of the 496 entries whose free text states transitivity now has
+`tags.transitivity`, and no free text says "proverb" or "idiom" any more (earlier runs moved those into the semantic
+tags). Checking text against tag turned up 7 disagreements: ほざく (17566) was tagged transitive but its text said
+intransitive (it takes を; text fixed), and six verbs tagged `both` whose text named only one half (落ち着ける, 整列する,
+決定する, 連発する, 透過する, 終了する; text now "transitive/intransitive"). The normalizer itself is still blocked on the
+house-style choice, and the 19 "verb phrase" qualifiers still have no schema home.
+
 ## Priority 25: Fabricated conjugation tables from a mis-assigned verb class
 
 **Source**: 2026-07-25 routine polish run (06624 甘える; second case found at 09361)
