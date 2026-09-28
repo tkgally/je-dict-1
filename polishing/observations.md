@@ -1567,3 +1567,4 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - [entry] 18785 {仮装|かそう}: sense 2 (disguise) examples use it for criminals and spies, where 変装 is the everyday word; consider trimming sense 2 to the camouflage/formal use.
 - [entry] 26031 {格上|かくじょう} appears to be a non-word duplicating 13122 格上げ with wrong furigana; logged to needs_curator.txt (found during the transitivity queue).
 - [tooling] check_stale_noentry.py: markers on a kanji stem (湯呑 in 04480, 箸置 in 04481) are classed unresolved although 湯呑み/箸置き entries exist; the okurigana sits outside the marker. Retarget or reclassify. (routine 2026-09-28 #021)
+- [tooling] pipeline/routine_next.py suppresses accuracy-review only when remaining == 0; with $0.0039 left it picked the mode with session budget 0.0, costing a no-op cycle (routine 2026-09-28 #023). Use a minimum such as the self-check's $0.05, as audio already does with audio_min_budget_usd.
