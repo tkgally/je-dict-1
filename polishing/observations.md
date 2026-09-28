@@ -1563,3 +1563,5 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - [entry] 02812: audio checks heard くる for {来|き}る in 02812_konnani_ex2 (来るとは); the furigana き is wrong.
 - [entry] 02909: 02909_tabako_ex5 reads 禁煙ので, missing な (禁煙なので); every checker heard な inserted. Fix the text.
 - [entry] 02052: audio checks heard たいないどけい for {時計|とけい} in 02052_kuruu_ex6 (体内時計); check the furigana (rendaku).
+- [tooling] auto_link.py honours `unlink` ledger lines only for kana bases (`load_unlink_decisions`), so a wrong kanji-surface link (⟦言い→言う⟧ inside 言い過ぎ in 08680) comes back on the next pass; had to drop the bullet until 言い過ぎ (candidate C23537) has an entry.
+- [entry] 18785 {仮装|かそう}: sense 2 (disguise) examples use it for criminals and spies, where 変装 is the everyday word; consider trimming sense 2 to the camouflage/formal use.
