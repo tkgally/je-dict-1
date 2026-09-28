@@ -38,7 +38,7 @@ def contains_unannotated_kanji(text: str) -> tuple[bool, list[str]]:
         return False, []
 
     # Strip inline link routing (→base：id⟧) so base forms don't cause false positives
-    text = re.sub(r'→[^⟧]*⟧', '', text)
+    text = re.sub(r'→[^⟧⟦]*⟧', '', text)
 
     # Remove all furigana-annotated text
     text_without_furigana = FURIGANA_PATTERN.sub('', text)
@@ -57,7 +57,7 @@ def extract_unannotated_context(text: str) -> list[str]:
         return []
 
     # Strip inline link routing (→base：id⟧) so base forms don't pollute context
-    text = re.sub(r'→[^⟧]*⟧', '', text)
+    text = re.sub(r'→[^⟧⟦]*⟧', '', text)
 
     contexts = []
     # Split by furigana patterns

@@ -33,7 +33,7 @@ ENTRIES_DIR = PROJECT_ROOT / "entries"
 
 WRAPPER_RE = re.compile(r"\{([^|{}]*)\|([^}{]*)\}")
 KANJI_RE = re.compile(r"[一-鿿㐀-䶿]")
-LINK_TAIL_RE = re.compile(r"→[^⟧]*⟧")
+LINK_TAIL_RE = re.compile(r"→[^⟧⟦]*⟧")
 
 
 def _hiragana(s):

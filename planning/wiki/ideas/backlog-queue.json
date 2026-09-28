@@ -1801,17 +1801,17 @@
       "filter": null,
       "priority": 3,
       "batch_ready": true,
-      "status": "open",
+      "status": "resolved",
       "scope_measured_at": "2026-09-28",
       "severity": "low",
       "id": "check-furigana-format-link-tail",
       "title": "check_furigana_format.py strips link tails with the old pattern →[^⟧]*⟧, which also eats a plain arrow in prose",
-      "source": "ideas/tooling-backlog.md#151; polishing/observations.md [tooling] 2026-09-27 accuracy-review",
+      "source": "ideas/tooling-backlog-resolved.md#151; polishing/observations.md [tooling] 2026-09-27 accuracy-review",
       "detect": "grep -n \"→\\[\\^⟧\\]\\*⟧\" build/*.py",
       "fix_type": "code: use →[^⟧⟦]*⟧ as review_accuracy.py now does, with a test on \"食べる → 食べます\"",
       "verify": "python3 -m unittest discover build/tests",
-      "scope_estimate": 1,
-      "notes": "review_accuracy.py was fixed on 2026-09-27 (5 of 31 flags in 22901-23900 were this artifact)."
+      "scope_estimate": 0,
+      "notes": "review_accuracy.py was fixed on 2026-09-27 (5 of 31 flags in 22901-23900 were this artifact). 2026-09-28 routine: fixed in check_furigana_format.py, find_missing_furigana.py, verify_furigana.py and score_note_quality.py; test added."
     }
   ]
 }
