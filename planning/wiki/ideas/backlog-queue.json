@@ -1637,11 +1637,12 @@
       "fix_type": "mechanical once read: strip {kanji|reading} to kanji in the base segment only; keep a counter tilde if the target headword has one",
       "verify": "python3 build/validate.py --id <id> --ratchet",
       "priority": 5,
-      "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 21,
+      "batch_ready": false,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "low",
-      "notes": "Same tooltip bug as the resolved inline-link-braced-base-form item; that item's anchored regex required pure brace groups. Measured 2026-09-23: 54 occurrences in 21 files (the observation guessed 'much larger'). Commonest: 〜{人|にん} ×5, 〜{本|ほん} ×3, 〜{個|こ} ×3, {消|け}す ×3."
+      "notes": "RESOLVED 2026-09-28: detector now returns 0. 63 link base forms in 23 entries (00697-00971 block, 01484, 04471) had their furigana braces stripped to plain kanji ({書|か}く → 書く, 〜{人|にん} → 〜人; counter tildes kept since the targets' headwords carry them). 04471 おたま also held a broken marker that split a furigana group (⟦かき{混→かき{混：noentry⟧|ま}ぜ); unwrapped, and the linker then linked it to 15739 かき混ぜる. Same tooltip bug as the resolved inline-link-braced-base-form item; that item's anchored regex required pure brace groups. Measured 2026-09-23: 54 occurrences in 21 files (the observation guessed 'much larger'). Commonest: 〜{人|にん} ×5, 〜{本|ほん} ×3, 〜{個|こ} ×3, {消|け}す ×3.",
+      "resolved_date": "2026-09-28"
     },
     {
       "id": "tag-language-on-loanwords",
