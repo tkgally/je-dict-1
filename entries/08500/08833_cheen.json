@@ -113,7 +113,7 @@
       "notes": null
     }
   ],
-  "notes": "PHYSICAL CHAIN (SENSE 1):\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦の→の：09472_no⟧チェーン - bicycle chain\n- チェーン⟦ロック→ロック：08116_rokku⟧ - chain lock\n- チェーンソー - chainsaw\n\nBUSINESS CHAIN (SENSE 2):\n- チェーン{店|てん} - chain store\n- チェーン⟦{展開|てんかい}→展開：04542_tenkai⟧ - chain expansion\n- ⟦{飲食|いんしょく}→飲食：03010_inshoku⟧チェーン - restaurant chain\n- ホテルチェーン - hotel chain\n- ⟦コンビニ→コンビニ：01081_konbini⟧チェーン - convenience store chain\n\nTIRE CHAINS (SENSE 3):\n- チェーン⟦{規制|きせい}→規制：02598_kisei⟧ - chain requirement (road regulation)\n- チェーン⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧ / ⟦つける→つける：00562_tsukeru⟧ - to put on chains\n- ⟦スタッドレスタイヤ→スタッドレスタイヤ：29586_sutaddoresutaiya⟧ - studless tires (alternative to chains)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦の→の：09472_no⟧チェーン: bicycle chain (sense 1)\n- チェーンソー: chainsaw (sense 1)\n- チェーン{店|てん}: chain store (sense 2)\n- チェーン⟦{展開|てんかい}→展開：04542_tenkai⟧: expanding as a chain (sense 2)\n- チェーン⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧: to put on tire chains (sense 3)\n- チェーン⟦{規制|きせい}→規制：02598_kisei⟧: a road rule requiring tire chains (sense 3)\n\nRELATED WORDS:\n- ⟦{鎖|くさり}→鎖：02658_kusari⟧: chain — the native word, used for sense 1 but never for businesses\n- ⟦スタッドレスタイヤ→スタッドレスタイヤ：29586_sutaddoresutaiya⟧: studless winter tires, the usual alternative to chains",
   "cross_references": [
     {
       "type": "related",
@@ -121,6 +121,20 @@
       "reading": "ぺんだんと",
       "headword": "ペンダント",
       "label": "pendant (necklace ornament)"
+    },
+    {
+      "type": "related",
+      "target_id": "02658_kusari",
+      "reading": "くさり",
+      "headword": "{鎖|くさり}",
+      "label": "chain"
+    },
+    {
+      "type": "related",
+      "target_id": "29586_sutaddoresutaiya",
+      "reading": "すたっどれすたいや",
+      "headword": "スタッドレスタイヤ",
+      "label": "studless winter tires, the usual…"
     }
   ],
   "metadata": {
@@ -130,9 +144,14 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "tool",
+        "business",
+        "transportation"
+      ]
     },
     "created": "2026-01-28T14:45:41Z",
-    "modified": "2026-09-02T04:01:16Z"
+    "modified": "2026-09-28T21:04:32Z"
   }
 }
