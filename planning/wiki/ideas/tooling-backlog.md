@@ -1923,30 +1923,6 @@ or drop the flag so the failure is loud at argument-parsing time. Either is a fe
 current state is the one state that should not exist: an option that claims a contract it does
 not honour.
 
-## 51. A cross-reference with no `target_id` validates cleanly — but the obvious schema fix would break 59 intentional refs
-
-**Source**: 2026-07-30 routine polish run (06704, removed in-run) + this harvest's corpus scan
-
-`build/validate.py` checks that a `target_id` *resolves*, not that one is *present*. A reference
-object of the shape `{type, reading, headword, label}` with no `target_id` at all therefore passes
-validation and renders as nothing on the page — silently invisible.
-
-The polish run proposed a one-line schema `required: ["target_id"]` on `cross_references[]`.
-**A corpus scan says that would fail.** Dictionary-wide, 64 reference objects have no `target_id`:
-
-| Shape | Count | Verdict |
-|---|---|---|
-| No `target_id`, **has** a `label` | 59 | **Intentional** — homophone/contrast pointers to words with no entry (`{工夫\|こうふ}` "laborer (homophone)", `イエス` "yes"), the class [Cleanup P2](cleanup-backlog.md#priority-2-missing-or-broken-cross-references) and item 25 already documented |
-| No `target_id`, **no** `label` | 5 | **Defects** — 06057, 06060, 06063, 29601, 29610 |
-
-So the rule the schema wants is not "`target_id` is required" but **"`target_id` or `label` is
-required"** — a reference must either point somewhere or say why it does not. That expresses the
-existing convention exactly, closes the 5 defects, and leaves the 59 deliberate pointers valid.
-
-Scope is small enough to fix by hand (5 entries: each names a real word — 推薦する, 創造する,
-肯定する, 年少, 炭素 — that has or deserves an entry), but the schema clause is what prevents the
-class from returning.
-
 ## 52. Does `check_semantic_clusters.py` count a `prominent_see_also` mention as satisfying the pair requirement?
 
 **Source**: 2026-07-30 routine polish run (00649 曲がる / 02529 曲げる, 00711 かかる / 00854 かける)

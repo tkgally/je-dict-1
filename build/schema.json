@@ -135,9 +135,10 @@
     "cross_references": {
       "type": "array",
       "items": {
-        "$comment": "Legacy plain-string format removed 2026-02-06 after converting all 28 remaining entries to object format",
+        "$comment": "Legacy plain-string format removed 2026-02-06 after converting all 28 remaining entries to object format. A reference must point somewhere (target_id) or say why it cannot (label, for words with no entry).",
         "type": "object",
         "required": ["type", "reading"],
+        "anyOf": [{"required": ["target_id"]}, {"required": ["label"]}],
         "properties": {
           "type": {
             "type": "string",

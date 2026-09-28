@@ -1373,3 +1373,34 @@ other checkers that had the same bug: `find_missing_furigana.py` (two places),
 `build/tests/test_link_tail_pattern.py` covers "食べる → 食べます" followed by a link; it fails on
 the old pattern.
 
+### 51. A cross-reference with no `target_id` validates cleanly — but the obvious schema fix would break 59 intentional refs (queue: `crossref-missing-target-id-unlabeled`, resolved 2026-09-28)
+
+**Source**: 2026-07-30 routine polish run (06704, removed in-run) + this harvest's corpus scan
+
+`build/validate.py` checks that a `target_id` *resolves*, not that one is *present*. A reference
+object of the shape `{type, reading, headword, label}` with no `target_id` at all therefore passes
+validation and renders as nothing on the page — silently invisible.
+
+The polish run proposed a one-line schema `required: ["target_id"]` on `cross_references[]`.
+**A corpus scan says that would fail.** Dictionary-wide, 64 reference objects have no `target_id`:
+
+| Shape | Count | Verdict |
+|---|---|---|
+| No `target_id`, **has** a `label` | 59 | **Intentional** — homophone/contrast pointers to words with no entry (`{工夫\|こうふ}` "laborer (homophone)", `イエス` "yes"), the class [Cleanup P2](cleanup-backlog.md#priority-2-missing-or-broken-cross-references) and item 25 already documented |
+| No `target_id`, **no** `label` | 5 | **Defects** — 06057, 06060, 06063, 29601, 29610 |
+
+So the rule the schema wants is not "`target_id` is required" but **"`target_id` or `label` is
+required"** — a reference must either point somewhere or say why it does not. That expresses the
+existing convention exactly, closes the 5 defects, and leaves the 59 deliberate pointers valid.
+
+Scope is small enough to fix by hand (5 entries: each names a real word — 推薦する, 創造する,
+肯定する, 年少, 炭素 — that has or deserves an entry), but the schema clause is what prevents the
+class from returning.
+Resolved: by 2026-09-28 the class had grown to 46 references in 37 entries; the new-entries batch
+30338–30393 alone wrote 39 of them. Every one named a word with an entry, so each got a `target_id`
+(homophones chosen by headword: 自身 30345, 待つ 00469, 症状 03234, 〜たい 30375, 曲 09881, 上奏 30675,
+年少 29613, 創造する 29393). The premise "renders as nothing" was wrong: `entry_renderer.py` falls back
+to reading/headword lookup and otherwise shows the headword unlinked, so these showed as plain text
+or fragile links. `build/schema.json` now requires `target_id` or `label` on each
+`cross_references[]` item (`anyOf`), so validation and CI reject a bare reference;
+`harvest_crossrefs.py` already always writes `target_id`.
