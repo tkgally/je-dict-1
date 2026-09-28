@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{半|はん}→半：noentry⟧ (half) + ⟦{年|とし}→年：00486_toshi⟧ (year)\n\nALTERNATE READING: {半年|はんねん} is also used in some contexts (more formal).\n\nTIME EXPRESSIONS:\n- ⟦{半日|はんにち}→半日：27978_hannichi⟧ (half a day)\n- ⟦{半月|はんつき}→半月：15662_hantsuki⟧ (half a month)\n- {半年|はんとし} (half a year)\n- ⟦{一年半|いちねんはん}→一年半：noentry⟧ (one and a half years)\n\nCOMMON PATTERNS:\n- {半年|はんとし}⟦で→で：00502_de⟧ (in half a year)\n- {半年|はんとし}⟦ぶり→ぶり：noentry⟧⟦に→に：00314_ni⟧ (for the first time in half a year)\n- {半年|はんとし}⟦ごと→〜毎：04012_goto⟧⟦に→に：00314_ni⟧ (every half year)\n- {半年|はんとし}⟦{後|ご}→後：noentry⟧ (half a year later)",
+  "notes": "⟦{半|はん}→半：10460_han⟧ (half) + ⟦{年|とし}→年：00486_toshi⟧ (year).\n\nCOMMON PATTERNS:\n- {半年|はんとし}⟦で→で：00502_de⟧: in half a year\n- {半年|はんとし}⟦ぶり→〜ぶり：28358_buri⟧⟦に→に：00314_ni⟧: for the first time in half a year\n- {半年|はんとし}ごと⟦に→に：00314_ni⟧: every six months\n- {半年|はんとし}⟦{後|ご}→後：30157_go⟧ / {半年|はんとし}⟦{前|まえ}→前：02255_mae⟧: six months later / ago\n\nPRONUNCIATION:\n- はんとし is the everyday reading; はんねん is also heard in formal and business contexts ({半年間|はんとしかん} or {半年間|はんねんかん})\n\nRELATED WORDS:\n- ⟦{半日|はんにち}→半日：27978_hannichi⟧: half a day\n- ⟦{半月|はんつき}→半月：15662_hantsuki⟧: half a month\n- {一年半|いちねんはん}: a year and a half",
   "cross_references": [
     {
       "type": "contrast",
@@ -78,11 +78,18 @@
       "reading": "ろっかげつ",
       "headword": "{六|ろっ}ヶ{月|げつ}",
       "label": "six months"
+    },
+    {
+      "type": "related",
+      "target_id": "27978_hannichi",
+      "reading": "はんにち",
+      "headword": "{半日|はんにち}",
+      "label": "half a day"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:29:07Z",
-    "modified": "2026-09-04T12:29:38Z",
+    "modified": "2026-09-28T13:10:45Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -92,7 +99,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "time-period"
       ]
     }
   }
