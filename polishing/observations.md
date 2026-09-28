@@ -1555,3 +1555,11 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 
 
 - [tooling] 2026-09-28 (systemic-fix `linker-requires-sudachi`): even with SudachiPy, auto_link.py split 来るので into ⟦の⟧+で in 03899 ex5 (Sudachi reads くるので as 来る/の/で); hand-corrected to ⟦ので⟧. It also links と+も separately in 上下巻とも ("both"); the example was reworded. A guard that never splits ので after a dictionary-form verb would catch the first.
+- [entry] 01194: audio checks heard けいたいがいしゃ for {会社|かいしゃ} in 01194_norikaeru_ex9 (携帯会社); check the furigana (rendaku).
+- [entry] 01294, 02397: audio checks heard ひゃっキロ for {百|ひゃく}キロ in 01294_ika_ex8 and 02397_hanareru_ex11; check the furigana.
+- [entry] 02014: audio checks heard かんがえうる for {考|かんが}え{得|え}る in 02014_eru_ex12; 考え得る is usually read うる; check the furigana.
+- [entry] 02545: audio checks heard むこうぎし for {向|む}こう{岸|きし} in 02545_kishi_ex2; check the furigana (rendaku).
+- [entry] 02768: audio checks heard ものおきごや for {物置|ものおき}{小屋|こや} in 02768_koya_ex3; check the furigana (rendaku).
+- [entry] 02812: audio checks heard くる for {来|き}る in 02812_konnani_ex2 (来るとは); the furigana き is wrong.
+- [entry] 02909: 02909_tabako_ex5 reads 禁煙ので, missing な (禁煙なので); every checker heard な inserted. Fix the text.
+- [entry] 02052: audio checks heard たいないどけい for {時計|とけい} in 02052_kuruu_ex6 (体内時計); check the furigana (rendaku).
