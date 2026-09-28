@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "MEDICAL DEPARTMENTS:\nOther common medical department terms:\n- ⟦{内科|ないか}→内科：04076_naika⟧ - internal medicine\n- ⟦{外科|げか}→外科：03983_geka⟧ - surgery\n- ⟦{整形外科|せいけいげか}→整形外科：22066_seikeigeka⟧ - orthopedics\n- ⟦{皮膚科|ひふか}→皮膚科：11073_hifuka⟧ - dermatology\n- ⟦{眼科|がんか}→眼科：11071_ganka⟧ - ophthalmology\n- ⟦{耳鼻科|じびか}→耳鼻科：22874_jibika⟧ - ENT (ear, nose, throat)\n- ⟦{歯科|しか}→歯科：11072_shika⟧ - dentistry\n- ⟦{産婦人科|さんふじんか}→産婦人科：16784_sanfujinka⟧ - obstetrics and gynecology\n\nRELATED WORDS:\n- {小児科|しょうにか}{医|い} - pediatrician\n- ⟦{小児|しょうに}→小児：27025_shouni⟧ - child (medical term)\n- ⟦{乳幼児|にゅうようじ}→乳幼児：14882_nyuuyouji⟧ - infants and toddlers\n\nJAPAN CONTEXT:\n{小児科|しょうにか}{医|い}⟦{不足|ふそく}→不足：03598_fusoku⟧ (pediatrician shortage) is a social issue in Japan.",
+  "notes": "RELATED WORDS:\n- {小児科|しょうにか}{医|い}: pediatrician\n- ⟦{小児|しょうに}→小児：27025_shouni⟧: child (medical and official term)\n- ⟦{乳幼児|にゅうようじ}→乳幼児：14882_nyuuyouji⟧: infants and toddlers\n\nOther hospital departments: ⟦{内科|ないか}→内科：04076_naika⟧ (internal medicine), ⟦{外科|げか}→外科：03983_geka⟧ (surgery), ⟦{整形外科|せいけいげか}→整形外科：22066_seikeigeka⟧ (orthopedics), ⟦{皮膚科|ひふか}→皮膚科：11073_hifuka⟧ (dermatology), ⟦{眼科|がんか}→眼科：11071_ganka⟧ (ophthalmology), ⟦{耳鼻科|じびか}→耳鼻科：22874_jibika⟧ (ear, nose and throat), ⟦{歯科|しか}→歯科：11072_shika⟧ (dentistry), ⟦{産婦人科|さんふじんか}→産婦人科：16784_sanfujinka⟧ (obstetrics and gynecology).\n\nUSAGE:\nLike other 〜{科|か} words, {小児科|しょうにか} names both the specialty and the clinic or department, so {小児科|しょうにか}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ means going to a pediatrician's. Children in Japan usually see a {小児科|しょうにか} until about junior-high age.",
   "cross_references": [
     {
       "type": "related",
@@ -93,6 +93,13 @@
       "reading": "にゅうようじ",
       "headword": "{乳幼児|にゅうようじ}",
       "label": "infants and toddlers"
+    },
+    {
+      "type": "related",
+      "target_id": "04076_naika",
+      "reading": "ないか",
+      "headword": "{内科|ないか}",
+      "label": "internal medicine"
     }
   ],
   "metadata": {
@@ -105,9 +112,12 @@
       "politeness": "plain",
       "domain": [
         "medical"
+      ],
+      "semantic": [
+        "health"
       ]
     },
     "created": "2026-01-27T13:22:03Z",
-    "modified": "2026-09-02T04:01:15Z"
+    "modified": "2026-09-28T04:19:43Z"
   }
 }
