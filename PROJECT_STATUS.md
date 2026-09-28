@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-28 (Routine v3: new-entries — 22 New Entries, IDs 31093–31114)
+
+Three internal-closure words first: 窺う (to peer at, to gauge — distinct from humble 伺う; 03714's 様子を窺った
+now links to it), そうする, 独楽回し. Then from the vetted queue: 厚生年金, 食品ロス, 上棟式, 竣工式, 施主, 感謝状,
+丹精; four-character idioms 温故知新, 一挙両得, 十中八九, 千載一遇; idioms 目が高い, 頭が下がる, 気が置けない,
+水に流す, 馬が合う, 雀の涙, 音を上げる, 棚に上げる. New kanji 窺 added to the index. 04764's old 一挙両得
+`noentry` marker now links. Self-check: one reviewer flag rejected, one gloss fixed. Candidate queue stands at 91.
+
 ### 2026-09-27 (Routine v3: new-entries — 16 New Entries, IDs 31077–31092)
 
 All sixteen are internal-closure words that polish runs found used but undefined: the sports terms
@@ -98,16 +106,3 @@ checks, and monthly spot-check pages for Tom. Examples with digits, Latin letter
 (about 2,500), or with kanji lacking furigana (90), are skipped for now. Workflow, evidence and
 changelog: `AUDIO_WORKFLOW.md`.
 
-### 2026-09-24 (Routine v3: new-entries — 20 New Entries, IDs 31034–31053)
-
-Created 20 general-tier entries: all 7 internal-closure candidates (ラジオ{体操|たいそう} from 01541,
-{人|ひと}となり from 08163, むしる from 08195, {添|そ}え{物|もの}, {燻|いぶ}し{銀|ぎん}, {衣紋掛|えもんか}け,
-{移植|いしょく}ごて) plus 13 from the queue: four eras ({平安時代|へいあんじだい}, {鎌倉時代|かまくらじだい},
-{室町時代|むろまちじだい}, {大正時代|たいしょうじだい}), six places ({原宿|はらじゅく}, {祇園|ぎおん},
-{東海道|とうかいどう}, {伊勢神宮|いせじんぐう}, {東大寺|とうだいじ}, {桜島|さくらじま}), two events
-({箱根駅伝|はこねえきでん}, {阿波踊|あわおど}り) and {源義経|みなもとのよしつね}. New kanji 祇 added to the index.
-
-**Four stale `noentry` markers resolved** (class A1) in 01676, 03757, 04020, 05638.
-
-**§4 self-check on 36 entries: 1 applied, 2 rejected.** Applied: `clothing` tag on 31045 {原宿|はらじゅく}
-replaced with `culture`. Kana-link check: 29 links, 0 flagged. Cost $0.019.
