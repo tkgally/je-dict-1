@@ -997,6 +997,12 @@ Saturday", no frequency expressions (00621 土曜日 is the type specimen). Beca
 formulaically similar, adding a USAGE section to each is an unusually well-bounded
 `systemic-fix` batch: one template, ~17 entries, no per-entry judgment beyond the word itself.
 
+**Resolved 2026-09-28** (routine systemic-fix, queue `crossref-calendar-family`): the nine listed entries now link
+their series neighbours (八月 added on 九月, 土曜日 on 金曜日) and each has a USAGE section: に with months and
+weekdays, に dropped in casual speech, は for what happens on a day in general, 〜ヶ月 for durations. 何月 has a
+WATCH OUT for 何ヶ月. The other calendar entries (00621 土曜日 and the rest of the 00624–00672 family) still lack
+the USAGE section; they were outside this item's ID list.
+
 ## The 00680–00760 calendar/time band: notes whose series lists are naked Japanese
 
 **Source**: 2026-08-01 routine polish run (priority lane, 00687–00745).
