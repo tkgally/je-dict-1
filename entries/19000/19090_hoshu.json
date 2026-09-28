@@ -169,7 +169,7 @@
       "notes": null
     }
   ],
-  "notes": "Two distinct usage domains. In politics, the opposite is ⟦{革新|かくしん}→革新：05617_kakushin⟧ (progressive/reform) or ⟦リベラル→リベラル：11707_riberaru⟧ (liberal). Common political collocations: {保守|ほしゅ}{党|とう} (conservative party), {保守|ほしゅ}{派|は} (conservative faction), {保守|ほしゅ}{的|てき} (conservative). In the technical/business sense, common collocations include {保守|ほしゅ}⟦{管理|かんり}→管理：00178_kanri⟧ (maintenance management), {保守|ほしゅ}⟦{契約|けいやく}→契約：02698_keiyaku⟧ (maintenance contract), and {保守|ほしゅ}⟦{点検|てんけん}→点検：09765_tenken⟧ (maintenance inspection). Also used as a ⟦する→する：00392_suru⟧ verb: {保守|ほしゅ}⟦する→する：00392_suru⟧ (to maintain).",
+  "notes": "Two unrelated uses: political conservatism (sense 1) and the upkeep of machines and systems (sense 2). Only sense 2 works as a ⟦する→する：00392_suru⟧ verb: {保守|ほしゅ}⟦する→する：00392_suru⟧ (to maintain).\n\nCOMMON COLLOCATIONS:\n- {保守|ほしゅ}{的|てき}: conservative\n- {保守|ほしゅ}{派|は} / {保守|ほしゅ}{党|とう}: conservative faction / party\n- {保守|ほしゅ}⟦{点検|てんけん}→点検：09765_tenken⟧: maintenance inspection\n- {保守|ほしゅ}⟦{契約|けいやく}→契約：02698_keiyaku⟧: maintenance contract\n\nRELATED WORDS:\n- ⟦{革新|かくしん}→革新：05617_kakushin⟧: progressive, reformist (the political opposite)\n- ⟦リベラル→リベラル：11707_riberaru⟧: liberal",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -178,6 +178,20 @@
       "reading": "きょくう",
       "headword": "{極右|きょくう}",
       "label": "far right"
+    },
+    {
+      "type": "related",
+      "target_id": "05617_kakushin",
+      "reading": "かくしん",
+      "headword": "{革新|かくしん}",
+      "label": "progressive, reformist"
+    },
+    {
+      "type": "related",
+      "target_id": "11707_riberaru",
+      "reading": "りべらる",
+      "headword": "リベラル",
+      "label": "liberal"
     }
   ],
   "metadata": {
@@ -190,12 +204,13 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "politics",
+        "technology"
       ],
       "transitivity": "transitive",
       "verb_class": "suru"
     },
     "created": "2026-03-24T09:35:44Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-09-28T09:40:10Z"
   }
 }
