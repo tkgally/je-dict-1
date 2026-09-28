@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-28 (Routine v3: candidates — 61 words queued, C23538–C23598)
+
+Internal-closure restock from `check_stale_noentry.py`'s unresolved class: every word is one an existing entry
+already uses but the dictionary does not define (期する, 連体詞, 厚生, 一次/二次, 胴, 無機, 借主, 遺志, 対称, 転じる,
+与る, 辞する, かしこまる, ピンとくる, ケースバイケース, ゴールイン …), plus places and events those entries name
+(東京都, 山梨県, 伊豆, 知床, 姫路城, 大阪城, 歌舞伎座, 東日本大震災, 文部科学省). Affixes, number+counter strings and
+variant spellings of existing entries (湯呑み, 箸置き, 売上, 和歌山県 …) were skipped. Queue: 72 → 133.
+
 ### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31115–31134)
 
 One internal-closure word, 言い過ぎ (found in 08680 誇張, whose SIMILAR WORDS bullet now links to it). The
@@ -79,13 +87,4 @@ flag on a neighbour, rejected. Candidate queue stands at 113.
 A short end-of-run cycle. 柴刈り (gathering brushwood, the Momotarō しばかり), the one internal-closure
 candidate, added after the 芝刈り polish; 無印良品 and 朝日新聞 from the curated proper-noun queue. Two old
 `noentry` markers (01639 新聞社, 03990 無地) now link to them. Self-check clean. Candidate queue stands at 113.
-
-### 2026-09-26 (Routine v3: new-entries — 20 New Entries, IDs 31054–31073)
-
-Five internal-closure words that earlier entries mentioned without defining: 立ち飲み, 既成,
-滑り込み, 申し送る, 濡れ衣. Fifteen proper nouns and cultural terms from the curated queue:
-the classics 竹取物語, 平家物語, 徒然草, 方丈記, 奥の細道, 忠臣蔵; the historical figures 源頼朝,
-武田信玄, 上杉謙信, 千利休, 世阿弥, 渋沢栄一; 道頓堀, 祇園祭, and 大河ドラマ. Five old `noentry`
-markers in four entries (03735 祭り, 04314 随筆, 04455, 04768) now link to the new entries.
-Self-check: 3 flags, 1 applied, 2 rejected. Candidate queue stands at 115.
 
