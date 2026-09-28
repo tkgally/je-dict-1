@@ -397,5 +397,36 @@ class TestTokenizerFreeFallback(unittest.TestCase):
         self.assertEqual(link(link(text, tokenizer=None), tokenizer=None), link(text, tokenizer=None))
 
 
+class TestTokenizerRequiredForWrites(unittest.TestCase):
+    """A write run must not degrade silently to the tokenizer-free mode."""
+
+    def _without_sudachi(self):
+        from unittest import mock
+        return mock.patch.dict(sys.modules, {"sudachipy": None, "sudachidict_core": None})
+
+    def test_required_load_raises_with_install_hint(self):
+        with self._without_sudachi():
+            with self.assertRaises(al.TokenizerUnavailable) as cm:
+                al.load_tokenizer(required=True)
+        self.assertIn(al.INSTALL_HINT, str(cm.exception))
+
+    def test_optional_load_and_explicit_opt_out_return_none(self):
+        with self._without_sudachi():
+            self.assertIsNone(al.load_tokenizer())
+            self.assertIsNone(al.load_tokenizer(disabled=True, required=True))
+
+    def test_apply_without_sudachi_exits_nonzero(self):
+        import contextlib
+        import io
+        import tempfile
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as tmp, self._without_sudachi():
+            argv = ["auto_link.py", "--apply", "--entries-dir", tmp]
+            err = io.StringIO()
+            with mock.patch.object(sys, "argv", argv), contextlib.redirect_stderr(err):
+                self.assertEqual(al.main(), 3)
+        self.assertIn(al.INSTALL_HINT, err.getvalue())
+
+
 if __name__ == "__main__":
     unittest.main()

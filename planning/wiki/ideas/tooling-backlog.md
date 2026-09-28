@@ -4706,9 +4706,6 @@ Since 2026-09-01, `notes-fact` flags were 304 applied against 618 rejected (33%)
 
 ## Updates 2026-09-28 (wiki harvest)
 
-### 147. `make mechanical` links without SudachiPy (queue: `linker-requires-sudachi`)
-Seven fresh containers in five days had no SudachiPy, and `auto_link.py` silently fell back to kanji-only matching: で of ので, 子 of 子ども, ナス inside ボーナス. Fix: `--apply` refuses to run without the tokenizer, and the environment setup installs `build/requirements.txt`.
-
 ### 148. Hiragana surfaces linked to katakana heads are never screened (queue: `link-hiragana-surface-katakana-base`)
 がり was linked to ガリ "pickled ginger" 52 times. The homophone screen only looks at hiragana-surface, hiragana-base links.
 

@@ -29,7 +29,15 @@ The run's **first command**, before anything else:
 python3 pipeline/run_clock.py start
 ```
 
-It records the start time. Running it again does not reset the time. Then:
+It records the start time. Running it again does not reset the time. Next,
+install the build dependencies (each run is a fresh container, and the inline
+linker refuses to write links without SudachiPy):
+
+```bash
+pip install -q -r build/requirements.txt
+```
+
+Then:
 
 1. **Cycle 1** is §0 (pre-flight, once per run) followed by §1–§7: select,
    execute, mechanical pass, self-check, metrics, wrap-up through the

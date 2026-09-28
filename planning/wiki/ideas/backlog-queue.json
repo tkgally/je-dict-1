@@ -1737,17 +1737,17 @@
       "filter": null,
       "priority": 1,
       "batch_ready": true,
-      "status": "open",
+      "status": "resolved",
       "scope_measured_at": "2026-09-28",
       "severity": "high",
       "id": "linker-requires-sudachi",
       "title": "make mechanical runs auto_link.py tokenizer-free when SudachiPy is missing, and wrong links land silently",
-      "source": "ideas/tooling-backlog.md#147; polishing/observations.md [tooling] 2026-09-24 (x3), 09-25 (x2), 09-27, 09-28",
+      "source": "ideas/tooling-backlog-resolved.md#147; polishing/observations.md [tooling] 2026-09-24 (x3), 09-25 (x2), 09-27, 09-28",
       "detect": "python3 -c \"import sudachipy, sudachidict_core\"",
       "fix_type": "code: auto_link.py --apply exits non-zero when Sudachi cannot be imported (a --no-tokenizer flag already exists for deliberate use); environment setup or routine pre-flight runs pip install -r build/requirements.txt",
       "verify": "in a venv without sudachipy, make mechanical IDS=<id> fails with a message naming the install command",
-      "scope_estimate": 1,
-      "notes": "Seven fresh containers in five days lacked SudachiPy (make audio-deps installs only requirements-audio.txt). Each time the tokenizer-free pass linked wrong lexemes: で of ので, 子 of 子ども (17201, 17450, 17456), 立て→立つ, 込まれる→込む, か of 8か月, 出来て→出来, ナス inside ボーナス (31112, caught 2026-09-28). Runs caught these by eye; runs that did not look may have left similar links."
+      "scope_estimate": 0,
+      "notes": "Seven fresh containers in five days lacked SudachiPy (make audio-deps installs only requirements-audio.txt). Each time the tokenizer-free pass linked wrong lexemes: で of ので, 子 of 子ども (17201, 17450, 17456), 立て→立つ, 込まれる→込む, か of 8か月, 出来て→出来, ナス inside ボーナス (31112, caught 2026-09-28). Runs caught these by eye; runs that did not look may have left similar links. 2026-09-28 routine: linker write paths now exit 3 without SudachiPy; routine2.md installs build/requirements.txt at run start; PR #3416's tokenizer-free links re-audited (27 fixed). Links from earlier tokenizer-free runs (09-24 to 09-28) were not systematically re-audited; a re-link comparison like the one in this run's session log would find them."
     },
     {
       "filter": null,

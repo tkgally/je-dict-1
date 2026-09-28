@@ -1553,3 +1553,5 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 
 
 
+
+- [tooling] 2026-09-28 (systemic-fix `linker-requires-sudachi`): even with SudachiPy, auto_link.py split 来るので into ⟦の⟧+で in 03899 ex5 (Sudachi reads くるので as 来る/の/で); hand-corrected to ⟦ので⟧. It also links と+も separately in 上下巻とも ("both"); the example was reworded. A guard that never splits ので after a dictionary-form verb would catch the first.
