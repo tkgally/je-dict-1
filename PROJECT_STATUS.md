@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31155–31174)
+
+All twenty are internal-closure words already used by older entries: 三唱, レザー, 御礼, ハムスター, スティック,
+五角形, カーナビ, ノースリーブ, ピンとくる, 漆塗り, あんパン, ポップス, 螺旋, ワルツ, リクルートスーツ, and the proper
+nouns 伊豆, 山梨県, 歌舞伎座, アラビア, 朝鮮. 51 old `noentry` markers in 32 entries now link to them. New kanji 螺
+(02809). Self-check skipped (daily review budget spent). Candidate queue stands at 95.
+
 ### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31135–31154)
 
 All twenty are internal-closure words from the restock earlier today, each one already used by older entries:
@@ -80,12 +87,4 @@ now links to it), そうする, 独楽回し. Then from the vetted queue: 厚生
 丹精; four-character idioms 温故知新, 一挙両得, 十中八九, 千載一遇; idioms 目が高い, 頭が下がる, 気が置けない,
 水に流す, 馬が合う, 雀の涙, 音を上げる, 棚に上げる. New kanji 窺 added to the index. 04764's old 一挙両得
 `noentry` marker now links. Self-check: one reviewer flag rejected, one gloss fixed. Candidate queue stands at 91.
-
-### 2026-09-27 (Routine v3: new-entries — 16 New Entries, IDs 31077–31092)
-
-All sixteen are internal-closure words that polish runs found used but undefined: the sports terms
-先制, 決勝点, 追加点, 四球; 聞き違い, 言い間違える, 燃え尽きる, 文字起こし, 明朝; and workplace words
-介護離職, 産業医, 長時間労働, 追い出し部屋, 業務委託, 正規雇用, 組替え. 下茹で was dropped from the queue as a
-duplicate of 下ゆで. Harvest added reciprocal cross-references on 22 neighbouring entries. Self-check: one
-flag on a neighbour, rejected. Candidate queue stands at 113.
 
