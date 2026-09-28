@@ -1565,3 +1565,4 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - [entry] 02052: audio checks heard たいないどけい for {時計|とけい} in 02052_kuruu_ex6 (体内時計); check the furigana (rendaku).
 - [tooling] auto_link.py honours `unlink` ledger lines only for kana bases (`load_unlink_decisions`), so a wrong kanji-surface link (⟦言い→言う⟧ inside 言い過ぎ in 08680) comes back on the next pass; had to drop the bullet until 言い過ぎ (candidate C23537) has an entry.
 - [entry] 18785 {仮装|かそう}: sense 2 (disguise) examples use it for criminals and spies, where 変装 is the everyday word; consider trimming sense 2 to the camouflage/formal use.
+- [entry] 26031 {格上|かくじょう} appears to be a non-word duplicating 13122 格上げ with wrong furigana; logged to needs_curator.txt (found during the transitivity queue).
