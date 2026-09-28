@@ -2788,7 +2788,7 @@ over the whole corpus on 2026-08-08:
 
 - **(b) unbalanced braces: 34 instances / 33 entries.** Real, deterministic, and *visible on
   the live site* (`08385` renders "ぎ}" in English prose). **Ship it** — now filed as
-  [Cleanup P45](cleanup-backlog.md#priority-45-unbalanced-furigana-braces-34-instances--33-entries--visible-on-the-live-site).
+  [Cleanup P45](cleanup-backlog-resolved.md#priority-45-unbalanced-furigana-braces--resolved-2026-09-28).
 - **(a) pipe-less `{…}` spans: 931 instances / 623 entries, ~100% false.** The rule collides
   head-on with an undocumented convention — braces are also used as **mention-quotes** around
   a word, reading, or character under discussion (`Usually read as {だて}`). **Retire it.**

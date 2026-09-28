@@ -2504,30 +2504,6 @@ accuracy-review lane and needs no instrument of its own.** One local confirmatio
 run: 06809 下味 carried sole `["general"]`, retagged `["cooking","food"]` — and the rest of the
 06800–06900 block, created in the same 2026-01-18 batch as [P43](#priority-43-the-0680007100-block-is-96-unlinked--a-bounded-batch-not-a-frontier-problem), likely shares the default.
 
-## Priority 45: Unbalanced furigana braces (34 instances / 33 entries) — visible on the live site
-
-**Source**: 2026-08-07 routine polish observation (06824 `magirawashii` carried a stray closing
-brace, `{分|わ}かりにくい}`, fixed in-run); sized 2026-08-08 by whole-corpus scan.
-**Detect**: for every string field in every entry, compare `count('{')` with `count('}')`.
-**Scope**: **34 instances across 33 entries** — 20 in `notes`, 14 in `examples[].japanese`.
-**Status**: open, batch-ready, no cursor needed.
-
-This is the smallest genuinely-broken class currently on this page, and the only one on the
-furigana side that is **plainly visible to a reader**. `08385`'s rendered page reads
-"**ぎ} tends to be used for**" — a literal brace sitting in English prose. The imbalance runs
-in both directions (dropped `}` in 04471/09020/09801; extra `}` in 08385/11708/12060/16849),
-so the repair is per-entry rather than one regex, but 33 files is a single sitting.
-
-One instance is worse than cosmetic and should be looked at first: **04471** contains
-`かき{混→かき{混：noentry⟧|ま}ぜ`, a furigana wrapper and an inline `⟦…⟧` link interleaved into
-one another. Neither structure parses; the link cannot be recovered mechanically and the
-phrase needs re-authoring.
-
-**Why it went unnoticed for two months**: the check was proposed on 2026-06-17 as half of
-[Tooling 8](tooling-backlog-resolved.md#8-furigana-format-validator-check_furigana_formatpy)'s enhancement, bundled with a
-second rule that turned out to be worthless (see the Informational entry below). Bundling a
-34-instance real defect with a 931-instance false positive is what kept both unbuilt.
-
 ## Informational: the brace is also a mention-quote (1,084 spans) — a convention, not a defect
 
 **Measured 2026-08-08.** The other half of Tooling 8's June proposal — "flag any `{…}` span

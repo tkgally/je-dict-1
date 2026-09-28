@@ -1547,3 +1547,30 @@ counters" line rewritten). Where a numeral was linked to the number entry before
 (⟦三→三⟧つ), the wrong link was dropped and the linker relinked the whole word (三つ). The one
 remaining finding, 00736 notes 二人 (ににん), is deliberate: the note describes that rare reading.
 Also fixed on the way: 00697 五十音 was read ごじゅっおん. The detector now returns 1 finding.
+
+## Priority 45: Unbalanced furigana braces — RESOLVED 2026-09-28
+
+**Source**: 2026-08-07 routine polish observation (06824 `magirawashii` carried a stray closing
+brace, `{分|わ}かりにくい}`, fixed in-run); sized 2026-08-08 by whole-corpus scan.
+**Detect**: for every string field in every entry, compare `count('{')` with `count('}')`.
+**Scope**: **34 instances across 33 entries** — 20 in `notes`, 14 in `examples[].japanese`.
+**Status**: open, batch-ready, no cursor needed.
+
+This is the smallest genuinely-broken class currently on this page, and the only one on the
+furigana side that is **plainly visible to a reader**. `08385`'s rendered page reads
+"**ぎ} tends to be used for**" — a literal brace sitting in English prose. The imbalance runs
+in both directions (dropped `}` in 04471/09020/09801; extra `}` in 08385/11708/12060/16849),
+so the repair is per-entry rather than one regex, but 33 files is a single sitting.
+
+One instance is worse than cosmetic and should be looked at first: **04471** contains
+`かき{混→かき{混：noentry⟧|ま}ぜ`, a furigana wrapper and an inline `⟦…⟧` link interleaved into
+one another. Neither structure parses; the link cannot be recovered mechanically and the
+phrase needs re-authoring.
+
+**Why it went unnoticed for two months**: the check was proposed on 2026-06-17 as half of
+[Tooling 8](tooling-backlog-resolved.md#8-furigana-format-validator-check_furigana_formatpy)'s enhancement, bundled with a
+second rule that turned out to be worthless (see the Informational entry below). Bundling a
+34-instance real defect with a 931-instance false positive is what kept both unbuilt.
+
+**Resolved 2026-09-28** (routine systemic-fix): the 29 fields still unbalanced (29 entries) were fixed one by one. 26 had a single stray `{` or `}`, which was removed; three had a kanji with its reading missing (`{好{勝負|しょうぶ}`, `{荷{積|づ}み`, `{大{移動|いどう}`), which now carry `{好|こう}`, `{荷|に}`, `{大|だい}`. 04471 had already been fixed. The whole-corpus count check now finds none.
+
