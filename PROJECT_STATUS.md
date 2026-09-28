@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31135–31154)
+
+All twenty are internal-closure words from the restock earlier today, each one already used by older entries:
+連体詞, 期する, 厚生, 一次, 二次, 胴, 無機, 借主, 遺志, 対称, 転じる, 与る, 辞する, かしこまる, ケースバイケース,
+民主的, 北緯, and the proper nouns 東京都, 姫路城, 東日本大震災. 47 old `noentry` markers in 30 entries now link to
+them. Self-check skipped (daily review budget spent). Candidate queue stands at 113.
+
 ### 2026-09-28 (Routine v3: candidates — 61 words queued, C23538–C23598)
 
 Internal-closure restock from `check_stale_noentry.py`'s unresolved class: every word is one an existing entry
@@ -81,10 +88,4 @@ All sixteen are internal-closure words that polish runs found used but undefined
 介護離職, 産業医, 長時間労働, 追い出し部屋, 業務委託, 正規雇用, 組替え. 下茹で was dropped from the queue as a
 duplicate of 下ゆで. Harvest added reciprocal cross-references on 22 neighbouring entries. Self-check: one
 flag on a neighbour, rejected. Candidate queue stands at 113.
-
-### 2026-09-26 (Routine v3: new-entries — 3 New Entries, IDs 31074–31076)
-
-A short end-of-run cycle. 柴刈り (gathering brushwood, the Momotarō しばかり), the one internal-closure
-candidate, added after the 芝刈り polish; 無印良品 and 朝日新聞 from the curated proper-noun queue. Two old
-`noentry` markers (01639 新聞社, 03990 無地) now link to them. Self-check clean. Candidate queue stands at 113.
 
