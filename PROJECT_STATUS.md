@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-28 (Routine v3: new-entries — 8 New Entries, IDs 31195–31202)
+
+The last six internal-closure candidates: 知床, 鳶が鷹を生む, 大根役者, 笑い皺, 追々 (gradually; distinct from 08812
+おいおい 'bawling'), これまで; then two from the vetted proper-noun queue, 湯川秀樹 and 嵐山. 05387's old `noentry`
+marker for 嵐山 now links, and 08731's cross-reference to 鳶が鷹を生む is hardened. Stopped at eight because the
+run clock was near its end. Self-check skipped (daily review budget spent). Candidate queue stands at 70.
+
 ### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31175–31194)
 
 All twenty are internal-closure words already used by older entries: 縄文, 必殺技, 発泡, マムシ, グローブ, 貧富,
@@ -79,11 +86,3 @@ already uses but the dictionary does not define (期する, 連体詞, 厚生, �
 与る, 辞する, かしこまる, ピンとくる, ケースバイケース, ゴールイン …), plus places and events those entries name
 (東京都, 山梨県, 伊豆, 知床, 姫路城, 大阪城, 歌舞伎座, 東日本大震災, 文部科学省). Affixes, number+counter strings and
 variant spellings of existing entries (湯呑み, 箸置き, 売上, 和歌山県 …) were skipped. Queue: 72 → 133.
-
-### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31115–31134)
-
-One internal-closure word, 言い過ぎ (found in 08680 誇張, whose SIMILAR WORDS bullet now links to it). The
-queue had no other "seen in entry" words, so the rest came from the vetted proper-noun stream: people 村上春樹,
-黒澤明, 空海, 宮本武蔵, 西郷隆盛, 伊藤博文; organizations and brands トヨタ, ソニー, ユニクロ, 早稲田, 慶応, ジブリ;
-works ドラえもん, サザエさん, ポケモン; places 高野山, 吉祥寺, 難波, 梅田. Old `noentry` markers for 高野山 (02168)
-and 早稲田 (03221) now link. New kanji 澤 added to the index. Self-check: clean. Candidate queue stands at 72.
