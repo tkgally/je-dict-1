@@ -4704,6 +4704,28 @@ Since 2026-09-01, `notes-fact` flags were 304 applied against 618 rejected (33%)
 - CI polling: the status can be stale for about 29 minutes, and `get_check_run`/`actions_get` read the same cache. Only a longer poll cap helps.
 - `sudachipy` is listed in `build/requirements.txt` but is missing from the container image. Without it, `auto_link.py` falls back to matching on kanji alone.
 
+## Updates 2026-09-28 (wiki harvest)
+
+### 147. `make mechanical` links without SudachiPy (queue: `linker-requires-sudachi`)
+Seven fresh containers in five days had no SudachiPy, and `auto_link.py` silently fell back to kanji-only matching: で of ので, 子 of 子ども, ナス inside ボーナス. Fix: `--apply` refuses to run without the tokenizer, and the environment setup installs `build/requirements.txt`.
+
+### 148. Hiragana surfaces linked to katakana heads are never screened (queue: `link-hiragana-surface-katakana-base`)
+がり was linked to ガリ "pickled ginger" 52 times. The homophone screen only looks at hiragana-surface, hiragana-base links.
+
+### 149. Cross-references harvested from derived-noun links (queue: `harvest-crossref-derived-surface`)
+⟦出たがり→出る⟧ in a notes bullet produced a contrast cross-reference to 出る.
+
+### 150. Numeral-reading detector gaps (queue: `numeral-readings-detector-gaps`)
+Runs that start after a kanji, most following kanji, 五十/八十 + 歳, and ページ are missed. Seven audio left-for-human items on 2026-09-27 were in these gaps.
+
+### 151. Old link-tail pattern in `check_furigana_format.py` (queue: `check-furigana-format-link-tail`)
+The same `→[^⟧]*⟧` bug fixed in `review_accuracy.py` on 2026-09-27.
+
+### Prompt recommendations (for the curator)
+- `newentries.md` still says proper nouns take `part_of_speech: "noun (proper)"`; the POS ratchet rejects it (PR #3350). New nouns also need `politeness: "plain"`; CI failed on it again on 2026-09-28 (PR #3412). `make gate` reports these only for files git already tracks, so stage new files before running it.
+- Priority lane: empty since 2026-09-23 (every line modified within 30 days). It will stay empty until about 2026-10-04/07; the prompt regenerates the list only when it is over 14 days old.
+- Audio checker `thinkingmachines/inkling` answered n/a on all 2,806 attempts on 2026-09-26. Under workflow v2.1 (2026-09-27 onward) it is objecting normally again (128 and 136 objections per run), so there is nothing to file.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address
