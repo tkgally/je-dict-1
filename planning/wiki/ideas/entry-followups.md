@@ -1879,6 +1879,18 @@ co-equal gloss — is already with the curator.
 - **Zodiac signs**: 亥 is candidate C23414. The other eleven (子丑寅卯辰巳午未申酉戌) have not been checked. A candidates run should probe all twelve at once.
 - **Brace mention-quotes**: 00319 {匂}/{臭} and 21046 {疑いない} are the documented mention-quote convention, not errors. 22988 has had its transitivity set since then.
 
+## Harvested 2026-09-28
+
+- **00111 本 ex5**: its 本 (book) links to 00688 〜本 (the counter). Check the entry's other examples for the same link.
+- **01312 一度 ex10** 三十七度一度の熱: 37.1 degrees is 三十七度一分. Replacing it removes the headword, so write a new example for this sense.
+- **00784 ex10**: reported ようににね (doubled に); not found on 2026-09-28, probably already fixed.
+- **Audio: checkers heard the standard reading** — 00682 ex6 二つ上 (につ); 00732 ex2–4 毎月一回 (いちかい); 00923 ex9 一週間近く; 00930 ex5 五十歳; 00948 ex5 十八歳; 01452 ex5 八十歳; 00955 ex3 二月十四日; 00975 ex3 二十ページ; 01009 ex5 四十ページ, 十ページ; 00925 ex7 何でも (なんでも); 00995 ex9 何と (なんと). Most are the detector gaps in `numeral-readings-detector-gaps`. 00734 ex1 七時 ななじ is an accepted reading and can wait.
+- **01810 ex4** {皆|みな}で: the voice read みんな twice. みなで is valid, so either keep it and leave it for Tom, or change the furigana to みんな.
+- **01194 ex9** 携帯会社: all four checkers heard けいたいがいしゃ on every take. Decide whether the furigana should show がいしゃ.
+- **01294 ex8** 百キロ: the natural reading ひゃっキロ cannot be shown with furigana on 百 alone. Leave it for the digit/counter reading workflow.
+- **04339 万歳 sense 2** ("giving up"): five examples read as invented. The real figurative uses are 万歳する "to throw up one's hands" and the baseball fielder misjudging a fly ball. Rewrite the sense and its examples.
+- **Fixed 2026-09-28** (wiki harvest): {話|はなし}し{方|かた} → {話|はな}し in 00875 and 01628, {話|はな}し{合|あ}い in 04226, {今週|こんしゅう} in 00957. 03092 ex4 一枚 and 00111 少なくとも were already fixed.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

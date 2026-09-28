@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -361,7 +361,7 @@
       "status": "needs-detector",
       "scope_estimate": 887,
       "severity": "warn",
-      "notes": "Measured 2026-07-27: 887 instances across 616 entries. FURIGANA_PATTERN in build/japanese_utils.py requires a pipe, so these spans are never matched, never stripped, and render as literal curly braces on the live site; all five check_furigana_format.py subpatterns share that assumption, so this family is missing from every P9 scope estimate. Two sub-shapes: (a) kana/loanword spans to de-brace ({コンビニ}, {ゴミ}, {スカート}, {おひたし}); (b) bare kanji with no reading ({稀}, {続}, {匂}, {漸}) which also leave the kanji unglossed. NOT mechanical: a minority are intentional notation that must keep its braces -- {1, 2, 3, ...} set notation (23397 自然数), {X} pattern placeholders, {emotion} category labels. Ship a no-pipe subpattern in check_furigana_format.py with those as a documented reject family (tooling-backlog item 8) before sweeping."
+      "notes": "Measured 2026-07-27: 887 instances across 616 entries. FURIGANA_PATTERN in build/japanese_utils.py requires a pipe, so these spans are never matched, never stripped, and render as literal curly braces on the live site; all five check_furigana_format.py subpatterns share that assumption, so this family is missing from every P9 scope estimate. Two sub-shapes: (a) kana/loanword spans to de-brace ({コンビニ}, {ゴミ}, {スカート}, {おひたし}); (b) bare kanji with no reading ({稀}, {続}, {匂}, {漸}) which also leave the kanji unglossed. NOT mechanical: a minority are intentional notation that must keep its braces -- {1, 2, 3, ...} set notation (23397 自然数), {X} pattern placeholders, {emotion} category labels. Ship a no-pipe subpattern in check_furigana_format.py with those as a documented reject family (tooling-backlog item 8) before sweeping. 2026-09-23: 75 entry files contain a brace group with no reading (e.g. {人となり} (ひととなり) in 08163, fixed); detector grep -rlP '\\{[^|{}⟦⟧]+\\}' entries; mention-quotes such as {匂} are the documented convention and must be excluded."
     },
     {
       "id": "notes-bullet-nakaguro",
@@ -1564,7 +1564,7 @@
       "status": "open",
       "scope_estimate": 6884,
       "severity": "low",
-      "notes": "Frequent labels can be added as aliases in build/data/note_headers.json instead of edited entry by entry (e.g. MODERN USAGE -> USAGE). 2026-09-23: the detector requires an ALL-CAPS line, so Title-Case pseudo-headers (\"Characteristics:\", \"Suffix Note:\") are invisible to it and to normalize_notes.py; a 2026-09-03 polish run hand-renamed them in 18 of 32 entries. Extend the header regex before sizing the fold."
+      "notes": "Frequent labels can be added as aliases in build/data/note_headers.json instead of edited entry by entry (e.g. MODERN USAGE -> USAGE). 2026-09-23: the detector requires an ALL-CAPS line, so Title-Case pseudo-headers (\"Characteristics:\", \"Suffix Note:\") are invisible to it and to normalize_notes.py; a 2026-09-03 polish run hand-renamed them in 18 of 32 entries. Extend the header regex before sizing the fold. 2026-09-24/27 harvest: the creation-time template blocks 08244-08645 carry invented headers (PRICING, AVAILABILITY, RELATED ABILITIES, MOON PHASES, HEALTH RISKS, BENEFITS …); most sections under them restate the gloss and need deleting, not renaming. Safe aliases: COMPOUND VERB → ETYMOLOGY, FROM <LANGUAGE> → ETYMOLOGY, and COMPOUNDS whose only line is an \"X (…) + Y (…)\" breakdown → ETYMOLOGY. ALTERNATE READING usually holds a WRITING note, so it must not alias to a reading header. Polish found factual slips inside the padding (08604, 08609, 08610, 08614, 08620)."
     },
     {
       "id": "register-backfill-holdouts",
@@ -1685,7 +1685,7 @@
       "status": "open",
       "scope_estimate": 1,
       "severity": "medium",
-      "notes": "Any godan X-る whose potential/imperative stem equals an ichidan Xれる's stem collides the same way. 08152 is currently clean (0 links to 00404) because the run fixed it by hand and left it out of later auto_link passes; the next auto_link run over 08152 would reintroduce 6 bad links. See tooling-backlog.md item 145."
+      "notes": "Any godan X-る whose potential/imperative stem equals an ichidan Xれる's stem collides the same way. 08152 is currently clean (0 links to 00404) because the run fixed it by hand and left it out of later auto_link passes; the next auto_link run over 08152 would reintroduce 6 bad links. See tooling-backlog.md item 145. 2026-09-23/25 harvest: same cause behind kanji heads of compounds written with okurigana between kanji (建て in 建て直す → 建つ, 描き続け → 続く, 霞ヶ関 → 霞, 売り上げ → 売り, 子ども → 子) and behind 08322 駆け巡る, where 巡って inside the headword itself was linked in all six examples. Suggested: skip a kanji-base match when the following characters continue a longer headword in the index, and never link inside a span that spells the entry's own headword."
     },
     {
       "id": "reviewer-notes-fact-quote-prefix",
@@ -1700,7 +1700,7 @@
       "status": "open",
       "scope_estimate": 1,
       "severity": "medium",
-      "notes": "Three runs report roughly half of notes-fact flags quote text that is not where claimed or is two bullets spliced together. quote_in_notes() accepts the whole quote OR its first 25 characters, so a quote whose opening matches and whose remainder is invented or spliced passes the gate. Also: the plain-text extraction drops furigana, so {脂性|あぶらせい} vs 脂性 look identical to the model. See tooling-backlog.md item 146."
+      "notes": "Three runs report roughly half of notes-fact flags quote text that is not where claimed or is two bullets spliced together. quote_in_notes() accepts the whole quote OR its first 25 characters, so a quote whose opening matches and whose remainder is invented or spliced passes the gate. Also: the plain-text extraction drops furigana, so {脂性|あぶらせい} vs 脂性 look identical to the model. See tooling-backlog.md item 146. 2026-09-25/27 harvest: 5 of 6 notes-fact flags in one self-check quoted fragments of separate lines joined together (require the quote to occur contiguously); 7 flags in 17001-18000 attributed a list line's gloss to the wrong word (prompt should say each list line glosses the word that begins it); 6 of 14 on the number entries came from notes sent with furigana stripped, so 一日 ついたち vs 一日 いちにち reached the model as \"一日 … but 一日\" (render furigana as 漢字(かな) in the payload)."
     },
     {
       "id": "audio-undetermined-furigana",
@@ -1732,6 +1732,86 @@
       "scope_measured_at": "2026-09-27",
       "severity": "high",
       "notes": "Found by the audio checks: the TTS said the right reading, all checkers heard it, and the example was left for a human because the furigana disagreed (about 40 examples in the basic tier on 2026-09-26). These readings are shown to learners on every page. 2026-09-27 detector: 100 findings in 70 entries, mostly basic-tier number entries (00632-01009). Fixing an example's furigana makes its recording stale, and the audio mode re-records it. 2026-09-27 routine: 99 of 100 fixed in 69 entries; the remaining 00736 notes ににん is deliberate."
+    },
+    {
+      "filter": null,
+      "priority": 1,
+      "batch_ready": true,
+      "status": "open",
+      "scope_measured_at": "2026-09-28",
+      "severity": "high",
+      "id": "linker-requires-sudachi",
+      "title": "make mechanical runs auto_link.py tokenizer-free when SudachiPy is missing, and wrong links land silently",
+      "source": "ideas/tooling-backlog.md#147; polishing/observations.md [tooling] 2026-09-24 (x3), 09-25 (x2), 09-27, 09-28",
+      "detect": "python3 -c \"import sudachipy, sudachidict_core\"",
+      "fix_type": "code: auto_link.py --apply exits non-zero when Sudachi cannot be imported (a --no-tokenizer flag already exists for deliberate use); environment setup or routine pre-flight runs pip install -r build/requirements.txt",
+      "verify": "in a venv without sudachipy, make mechanical IDS=<id> fails with a message naming the install command",
+      "scope_estimate": 1,
+      "notes": "Seven fresh containers in five days lacked SudachiPy (make audio-deps installs only requirements-audio.txt). Each time the tokenizer-free pass linked wrong lexemes: で of ので, 子 of 子ども (17201, 17450, 17456), 立て→立つ, 込まれる→込む, か of 8か月, 出来て→出来, ナス inside ボーナス (31112, caught 2026-09-28). Runs caught these by eye; runs that did not look may have left similar links."
+    },
+    {
+      "filter": null,
+      "priority": 3,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_measured_at": "2026-09-28",
+      "severity": "medium",
+      "id": "link-hiragana-surface-katakana-base",
+      "title": "Hiragana-surface links to katakana-headed entries are never screened (がり → ガリ \"pickled ginger\", 52 links)",
+      "source": "ideas/tooling-backlog.md#148; polishing/observations.md [tooling] 2026-09-26 polish",
+      "detect": "python3 build/check_link_homophones.py --unscreened (extend: also list links whose surface is hiragana and whose target headword is katakana)",
+      "fix_type": "code: extend the screen and gate to hiragana-surface / katakana-base links; then per-link keep/unlink in reviews/link_decisions.jsonl",
+      "verify": "python3 build/check_link_homophones.py --gate",
+      "scope_estimate": null,
+      "notes": "The 52 がり links in 28 entries were unlinked by hand on 2026-09-26 and ガリ was added as block/tier_locked. Other katakana heads with a common hiragana homophone (e.g. suffixes, particles) may carry the same kind of link."
+    },
+    {
+      "filter": null,
+      "priority": 3,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_measured_at": "2026-09-28",
+      "severity": "low",
+      "id": "harvest-crossref-derived-surface",
+      "title": "harvest_crossrefs.py harvests a cross-reference to the base verb from a link on a derived noun (出たがり → 出る)",
+      "source": "ideas/tooling-backlog.md#149; polishing/observations.md [tooling] 2026-09-26 polish",
+      "detect": null,
+      "fix_type": "code: skip a SIMILAR/RELATED bullet whose link surface is a derived form (surface longer than the base and not an inflection of it)",
+      "verify": "python3 build/harvest_crossrefs.py --ids 20427 (dry run proposes nothing for 出たがり)",
+      "scope_estimate": null,
+      "notes": "20427: the note line ⟦出たがり→出る⟧ produced a contrast cross-reference to 00513 出る and a back-link on 出る; removed by hand."
+    },
+    {
+      "filter": null,
+      "priority": 2,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_measured_at": "2026-09-28",
+      "severity": "high",
+      "id": "numeral-readings-detector-gaps",
+      "title": "check_numeral_readings.py misses numerals after a kanji, before most kanji, 五十/八十 + 歳, and the counter ページ",
+      "source": "ideas/tooling-backlog.md#150; polishing/observations.md [tooling] 2026-09-27 audio",
+      "detect": "python3 build/check_numeral_readings.py --json",
+      "fix_type": "code: widen the run boundaries (毎月一回, 二月十四日), the following-kanji set (一週間近く, 二つ上), 十の倍数 + 歳, and add ページ; then fix findings per furigana-numeral-counter-readings",
+      "verify": "python3 build/check_numeral_readings.py --ids 00732,00955,00923,00682,00930,01452,00975,01009",
+      "scope_estimate": null,
+      "notes": "Seven of the 21 left-for-human audio items on 2026-09-27 fell in these gaps (00732 ex2-4, 00955 ex3, 00923 ex9, 00682 ex6, 00930 ex5, 01452 ex5, 00975 ex3, 01009 ex5). Learner-visible furigana, and each blocks a recording."
+    },
+    {
+      "filter": null,
+      "priority": 3,
+      "batch_ready": true,
+      "status": "open",
+      "scope_measured_at": "2026-09-28",
+      "severity": "low",
+      "id": "check-furigana-format-link-tail",
+      "title": "check_furigana_format.py strips link tails with the old pattern →[^⟧]*⟧, which also eats a plain arrow in prose",
+      "source": "ideas/tooling-backlog.md#151; polishing/observations.md [tooling] 2026-09-27 accuracy-review",
+      "detect": "grep -n \"→\\[\\^⟧\\]\\*⟧\" build/*.py",
+      "fix_type": "code: use →[^⟧⟦]*⟧ as review_accuracy.py now does, with a test on \"食べる → 食べます\"",
+      "verify": "python3 -m unittest discover build/tests",
+      "scope_estimate": 1,
+      "notes": "review_accuracy.py was fixed on 2026-09-27 (5 of 31 flags in 22901-23900 were this artifact)."
     }
   ]
 }
