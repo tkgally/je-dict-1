@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26917_tennyuusuru_ex1",
-      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦から→から：00504_kara⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦に→に：00314_ni⟧⟦{転入|てんにゅう}→転入：22235_tennyuu⟧した。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦から→から：00504_kara⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦に→に：00314_ni⟧⟦{転入|てんにゅう}→転入：22235_tennyuu⟧⟦した→する：00392_suru⟧。",
       "english": "I transferred my residence from Tokyo to Osaka.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26917_tennyuusuru_ex3",
-      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{転入|てんにゅう}→転入：22235_tennyuu⟧した⟦ばかり→〜ばかり：02006_bakari⟧⟦で→で：00502_de⟧、⟦まだ→まだ：00603_mada⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧がいない。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{転入|てんにゅう}→転入：22235_tennyuu⟧⟦した→する：00392_suru⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦で→で：00502_de⟧、⟦まだ→まだ：00603_mada⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧がいない。",
       "english": "I just transferred to a new school, so I don't have any friends yet.",
       "sense_numbers": [
         1
@@ -81,10 +81,11 @@
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-05T16:12:26Z",
-    "modified": "2026-09-04T12:31:10Z"
+    "modified": "2026-09-28T13:24:57Z"
   },
   "conjugation": {
     "type": "suru",
