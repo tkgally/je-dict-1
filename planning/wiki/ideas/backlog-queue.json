@@ -757,10 +757,11 @@
       "verify": "spot-check",
       "priority": 6,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 71,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "warn",
-      "notes": "Measured 2026-08-04 by the wiki harvest after a 2026-08-03 polish run re-filed Cleanup P22 (the free-text part_of_speech field: 401 distinct values across 30,187 entries, 6,573 deviating from their own tag-set's plurality spelling). The key finding is that P22 and tooling item 29 both call the normalizer 'display-only' and 'deterministic', which is false for 71 entries where the free text is the SOLE record of something -- a tags.pos-driven rewrite would delete it. This backfill is the safe, style-question-free half and is worth doing whether or not the normalizer ever runs: it adds 50 machine-readable transitivity tags that find_missing_transitivity.py reports as missing today, plus 8 proverb and 13 idiom tags. NOT included: 19 entries whose 'verb phrase' qualifier has no schema home (curator decision). The normalizer itself stays blocked on the house-style choice."
+      "notes": "RESOLVED 2026-09-28: detector re-run found 0 missing (earlier runs had backfilled all 50 transitivity, 8 proverb and 13 idiom cases). Text/tag agreement check fixed 7 part_of_speech texts (ほざく transitive; six both-ways verbs). Measured 2026-08-04 by the wiki harvest after a 2026-08-03 polish run re-filed Cleanup P22 (the free-text part_of_speech field: 401 distinct values across 30,187 entries, 6,573 deviating from their own tag-set's plurality spelling). The key finding is that P22 and tooling item 29 both call the normalizer 'display-only' and 'deterministic', which is false for 71 entries where the free text is the SOLE record of something -- a tags.pos-driven rewrite would delete it. This backfill is the safe, style-question-free half and is worth doing whether or not the normalizer ever runs: it adds 50 machine-readable transitivity tags that find_missing_transitivity.py reports as missing today, plus 8 proverb and 13 idiom tags. NOT included: 19 entries whose 'verb phrase' qualifier has no schema home (curator decision). The normalizer itself stays blocked on the house-style choice.",
+      "resolved_date": "2026-09-28"
     },
     {
       "id": "entry-pair-consolidation",
