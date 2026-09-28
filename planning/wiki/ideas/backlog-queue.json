@@ -604,10 +604,11 @@
       "verify": "per-entry",
       "priority": 6,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 9,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "info",
-      "notes": "The 2026-08-01 polish run wired the day/month entries it touched plus direct neighbours; these 9 remain. Two defects per entry: no structured series links (the structure lives only in prose, so check_semantic_clusters.py cannot see it), and notes that are kanji-etymology plus a set list with no usage information at all — no particle, no 'on Saturday', no frequency expressions. Formulaically similar, so one template covers the set."
+      "notes": "RESOLVED 2026-09-28: all 9 now carry prev/next series refs (added 八月 on 九月, 土曜日 on 金曜日; the rest were already wired) and a USAGE section (に with months and weekdays, dropping に in casual speech, は for habitual days, 〜ヶ月 for durations); 何月 got a WATCH OUT for 何ヶ月. 師走 folk etymology softened on 十二月. The 2026-08-01 polish run wired the day/month entries it touched plus direct neighbours; these 9 remain. Two defects per entry: no structured series links (the structure lives only in prose, so check_semantic_clusters.py cannot see it), and notes that are kanji-etymology plus a set list with no usage information at all — no particle, no 'on Saturday', no frequency expressions. Formulaically similar, so one template covers the set.",
+      "resolved_date": "2026-09-28"
     },
     {
       "id": "candidate-list-noise-filter",
