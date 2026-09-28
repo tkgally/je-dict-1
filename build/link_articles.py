@@ -49,8 +49,8 @@ def parse_ids(spec: str | None) -> set[str] | None:
     return {s.strip() for s in spec.split(",") if s.strip()}
 
 
-def build_linker(no_tokenizer: bool = False, no_guards: bool = False):
-    tokenizer = al.load_tokenizer(no_tokenizer)
+def build_linker(no_tokenizer: bool = False, no_guards: bool = False, required: bool = False):
+    tokenizer = al.load_tokenizer(no_tokenizer, required=required)
     blocked = frozenset() if no_guards else al.load_blocked_bases()
     unlinked = {} if no_guards else al.load_unlink_decisions()
     resolver = al.Resolver(al.iter_entries(al.ENTRIES_DIR), blocked=blocked, unlinked=unlinked)
@@ -146,7 +146,11 @@ def main() -> int:
     ap.add_argument("--quiet", action="store_true", help="no per-article lines")
     args = ap.parse_args()
 
-    linker, resolver = build_linker(args.no_tokenizer, args.no_guards)
+    try:
+        linker, resolver = build_linker(args.no_tokenizer, args.no_guards, required=args.apply)
+    except al.TokenizerUnavailable as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 3
     ids = parse_ids(args.ids)
     stats = al.Stats()
     totals = Counter()

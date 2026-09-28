@@ -674,7 +674,11 @@ def run_apply(args) -> int:
     if not by_entry:
         print("no unlink decisions to apply")
         return 0
-    tokenizer = None if args.no_relink else al.load_tokenizer()
+    try:
+        tokenizer = None if args.no_relink else al.load_tokenizer(required=not args.dry_run)
+    except al.TokenizerUnavailable as exc:
+        print(f"error: {exc} (or pass --no-relink)", file=sys.stderr)
+        return 3
     resolver = linker = None
     if not args.no_relink:
         resolver = al.Resolver(al.iter_entries(args.entries_dir),

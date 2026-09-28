@@ -519,12 +519,31 @@ class SudachiTokenizer:
                    m.normalized_form(), tuple(m.part_of_speech()), m, offset)
 
 
-def load_tokenizer(disabled: bool = False):
+INSTALL_HINT = "pip install -r build/requirements.txt"
+
+
+class TokenizerUnavailable(RuntimeError):
+    """SudachiPy is required (a write run) but cannot be loaded."""
+
+
+def load_tokenizer(disabled: bool = False, required: bool = False):
+    """Return a SudachiTokenizer, or None in tokenizer-free mode.
+
+    ``required`` is for runs that write links: the tokenizer-free mode links
+    wrong lexemes (で of ので, 子 of 子ども, ナス inside ボーナス), so a write
+    run without SudachiPy must fail loudly instead of degrading silently.
+    ``disabled`` (``--no-tokenizer``) is the deliberate opt-in to that mode.
+    """
     if disabled:
         return None
     try:
         return SudachiTokenizer()
     except Exception as exc:  # ImportError or dictionary problems
+        if required:
+            raise TokenizerUnavailable(
+                f"SudachiPy unavailable ({exc}). Install it with: {INSTALL_HINT} "
+                "(or pass --no-tokenizer to accept the tokenizer-free mode deliberately)"
+            ) from exc
         print(f"note: SudachiPy unavailable ({exc}); running in tokenizer-free mode",
               file=sys.stderr)
         return None
@@ -1425,7 +1444,11 @@ def main() -> int:
               file=sys.stderr)
         return 2
 
-    tokenizer = load_tokenizer(args.no_tokenizer)
+    try:
+        tokenizer = load_tokenizer(args.no_tokenizer, required=args.apply)
+    except TokenizerUnavailable as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 3
     blocked = frozenset() if args.no_guards else load_blocked_bases(args.homophones)
     unlinked = {} if args.no_guards else load_unlink_decisions(args.decisions)
     resolver = Resolver(iter_entries(index_dir), blocked=blocked, unlinked=unlinked)

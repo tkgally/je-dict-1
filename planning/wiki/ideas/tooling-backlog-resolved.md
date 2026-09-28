@@ -1349,3 +1349,18 @@ list does not have. `postfilter_issues()` in `build/review_accuracy.py` now drop
 (counted as `register-closest`) unless the suggestion names another allowed value. Flags that
 propose neutral or informal, and flags on entries not tagged formal, still reach the adjudicator.
 
+## Resolved 2026-09-28 (routine systemic-fix)
+
+### 147. `make mechanical` links without SudachiPy (queue: `linker-requires-sudachi`, resolved 2026-09-28)
+Seven fresh containers in five days had no SudachiPy, and `auto_link.py` silently fell back to kanji-only matching: で of ので, 子 of 子ども, ナス inside ボーナス. Fix: `--apply` refuses to run without the tokenizer, and the environment setup installs `build/requirements.txt`.
+Resolved: `load_tokenizer(required=True)` raises `TokenizerUnavailable`, and `auto_link.py --apply`,
+`link_articles.py --apply` and `review_links.py --apply-decisions` (unless `--dry-run` or
+`--no-relink`) exit 3 with the install command when SudachiPy cannot be loaded; `--no-tokenizer`
+remains the deliberate opt-out. Dry runs still fall back with a note. `prompts/routine2.md` now
+installs `build/requirements.txt` right after the run clock starts. Verified in a venv without
+SudachiPy: `make mechanical` stops at the linker. The 2026-09-28 polish cycle (PR #3416) had
+linked tokenizer-free; re-linking its 24 entries with Sudachi found 27 wrong or doubtful links
+(と+も inside 二冊とも, 読み for 読み終えた, 泊まり for the verb stem, レジ inside レジ袋, 〜的 and 〜化
+split from 抽象, お返し's 返し), all removed and re-linked. Earlier tokenizer-free runs were not
+re-audited (see the queue item).
+
