@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31115–31134)
+
+One internal-closure word, 言い過ぎ (found in 08680 誇張, whose SIMILAR WORDS bullet now links to it). The
+queue had no other "seen in entry" words, so the rest came from the vetted proper-noun stream: people 村上春樹,
+黒澤明, 空海, 宮本武蔵, 西郷隆盛, 伊藤博文; organizations and brands トヨタ, ソニー, ユニクロ, 早稲田, 慶応, ジブリ;
+works ドラえもん, サザエさん, ポケモン; places 高野山, 吉祥寺, 難波, 梅田. Old `noentry` markers for 高野山 (02168)
+and 早稲田 (03221) now link. New kanji 澤 added to the index. Self-check: clean. Candidate queue stands at 72.
+
 ### 2026-09-28 (Routine v3: new-entries — 22 New Entries, IDs 31093–31114)
 
 Three internal-closure words first: 窺う (to peer at, to gauge — distinct from humble 伺う; 03714's 様子を窺った
@@ -80,29 +88,4 @@ the classics 竹取物語, 平家物語, 徒然草, 方丈記, 奥の細道, 忠
 武田信玄, 上杉謙信, 千利休, 世阿弥, 渋沢栄一; 道頓堀, 祇園祭, and 大河ドラマ. Five old `noentry`
 markers in four entries (03735 祭り, 04314 随筆, 04455, 04768) now link to the new entries.
 Self-check: 3 flags, 1 applied, 2 rejected. Candidate queue stands at 115.
-
-### 2026-09-25 (Interactive: recorded audio for example sentences)
-
-Example sentences can now carry recorded readings. Each MP3 is made by Gemini TTS and is
-accepted only when four AI checkers from three companies agree it follows the furigana; a failed
-take is regenerated up to five times. The recordings live in a separate repository,
-`tkgally/je-dict-audio-1`, served by GitHub Pages, so no audio enters this repository. On
-an entry page, an example with a valid recording gets a play button for the MP3. The recording
-counts as valid while the example's text and furigana are unchanged; every other example keeps
-the browser-speech button.
-
-**First recordings: 308 examples from the first 33 basic-tier entries** (00006 ある to 00422 を),
-voices Kore and Charon, $0.76. 292 passed on the first take. The batch also found a furigana
-error, 00111 本 {少|すこ}なくとも → すく, which is now fixed.
-
-**Then 800 more** (00426 読む to 00560 口), after Tom chose four voices (Kore, Charon, Erinome,
-Iapetus), 32 kbps, and a budget of $4.80 per audio run within a $7.50 daily cap: all 800
-accepted, 761 on the first take, $1.94. 1,108 examples now have recordings.
-
-**The Routine has a new `audio` mode (a quarter of runs, $4.80 each).** It works through
-stale recordings first, then the basic, core and general tiers. It runs maintenance checks
-before recording: a regression suite of 163 clips with known answers, voice pilots, model
-checks, and monthly spot-check pages for Tom. Examples with digits, Latin letters or symbols
-(about 2,500), or with kanji lacking furigana (90), are skipped for now. Workflow, evidence and
-changelog: `AUDIO_WORKFLOW.md`.
 
