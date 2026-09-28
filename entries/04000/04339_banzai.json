@@ -119,7 +119,7 @@
     },
     {
       "id": "04339_banzai_ex2",
-      "japanese": "{万歳|ばんざい}⟦を→を：00422_wo⟧⟦{三唱|さんしょう}→三唱：noentry⟧⟦しましょう→する：00392_suru⟧。",
+      "japanese": "{万歳|ばんざい}⟦を→を：00422_wo⟧⟦{三唱|さんしょう}→三唱：31156_sanshou⟧⟦しましょう→する：00392_suru⟧。",
       "english": "Let's shout banzai three times.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "04339_banzai_ex5",
-      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧、⟦みんな→みんな：02972_minna⟧⟦で→で：00502_de⟧⟦{新郎|しんろう}→新郎：12982_shinrou⟧⟦{新婦|しんぷ}→新婦：12981_shinpu⟧⟦の→の：09472_no⟧⟦ために→ために：28332_tameni⟧{万歳|ばんざい}⟦{三唱|さんしょう}→三唱：noentry⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧、⟦みんな→みんな：02972_minna⟧⟦で→で：00502_de⟧⟦{新郎|しんろう}→新郎：12982_shinrou⟧⟦{新婦|しんぷ}→新婦：12981_shinpu⟧⟦の→の：09472_no⟧⟦ために→ために：28332_tameni⟧{万歳|ばんざい}⟦{三唱|さんしょう}→三唱：31156_sanshou⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "At the end of the wedding ceremony, everyone shouted banzai three times for the bride and groom.",
       "notes": null,
       "has_audio": false,
@@ -208,11 +208,19 @@
       ]
     }
   ],
-  "notes": "USAGE: {万歳|ばんざい} literally means 'ten thousand years' and is used as a celebratory cheer. It's traditionally shouted three times (⟦{三唱|さんしょう}→三唱：noentry⟧) while raising both arms high.\n\nCOMMON PATTERNS:\n- {万歳|ばんざい}！ (Banzai! / Hurray!)\n- {万歳|ばんざい}⟦{三唱|さんしょう}→三唱：noentry⟧ (shouting banzai three times)\n- {万歳|ばんざい}⟦する→する：00392_suru⟧ (to raise arms in celebration/surrender)\n\nUSAGE:\n- Celebrations (weddings, victories, achievements)\n- Political rallies\n- Figuratively: giving up or surrendering\n\nCULTURAL NOTE: The gesture of raising both arms (⟦{両手|りょうて}→両手：09518_ryoute⟧⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：00546_ageru⟧) with {万歳|ばんざい} is a distinctive Japanese tradition used at formal celebrations.",
-  "cross_references": [],
+  "notes": "USAGE: {万歳|ばんざい} literally means 'ten thousand years' and is used as a celebratory cheer. It's traditionally shouted three times (⟦{三唱|さんしょう}→三唱：31156_sanshou⟧) while raising both arms high.\n\nCOMMON PATTERNS:\n- {万歳|ばんざい}！ (Banzai! / Hurray!)\n- {万歳|ばんざい}⟦{三唱|さんしょう}→三唱：31156_sanshou⟧ (shouting banzai three times)\n- {万歳|ばんざい}⟦する→する：00392_suru⟧ (to raise arms in celebration/surrender)\n\nUSAGE:\n- Celebrations (weddings, victories, achievements)\n- Political rallies\n- Figuratively: giving up or surrendering\n\nCULTURAL NOTE: The gesture of raising both arms (⟦{両手|りょうて}→両手：09518_ryoute⟧⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：00546_ageru⟧) with {万歳|ばんざい} is a distinctive Japanese tradition used at formal celebrations.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "31156_sanshou",
+      "reading": "さんしょう",
+      "headword": "{三唱|さんしょう}",
+      "label": "calling out three times"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-09-22T16:22:24Z",
+    "modified": "2026-09-28T16:41:24Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
