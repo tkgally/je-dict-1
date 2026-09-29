@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-29 (Routine v3: new-entries — 10 New Entries, IDs 31290–31299)
+
+Ten words that older entries used inside stripped `noentry` markers: お古, どっちつかず, 大損, 出し合う, 勤め人, 印紙,
+司法試験, 形容動詞, 語幹, 空豆. Reciprocal cross-references added on eleven neighbours (活用, 会社員, 弁護士, 中古, 損失,
+サラリーマン, 曖昧, 中途半端, 語尾, 自営業, 枝豆). No new kanji. Kept to ten because the run clock was near its end.
+Self-check skipped: the day's OpenRouter budget was spent.
+
 ### 2026-09-29 (Routine v3: new-entries — 15 New Entries, IDs 31275–31289)
 
 Fifteen words that older entries used inside stripped `noentry` markers: テロ, ミュージカル, カップラーメン, 器用貧乏,
@@ -78,10 +85,4 @@ Twenty internal-closure words that older entries already used: 暮れる, 女の
 Seventeen old `noentry` markers in fourteen entries now link to them. The newcomer check found no kana くれる link that
 means 暮れる, but eight old くれる links were wrong (くん the name suffix, くれない "crimson") and were unlinked.
 Self-check skipped: the day's OpenRouter budget was spent.
-
-### 2026-09-29 (Routine v3: new-entries — 14 New Entries, IDs 31211–31224)
-
-Fourteen internal-closure words that older entries already used: 一発屋, システムエンジニア, 自由主義, 丹頂鶴,
-消毒液, 探知機, 手品師, 得意客, キャンプ場, スキー場, リップクリーム, 代表団, 玄関先, ハザードマップ. Fifteen
-old `noentry` markers in fifteen entries now link to them. Self-check skipped: the day's OpenRouter budget was spent.
 
