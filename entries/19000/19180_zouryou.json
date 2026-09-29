@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {増|ぞう} (increase) + ⟦{量|りょう}→量：03799_ryou⟧ (quantity). Very commonly seen on food packaging in Japan as a marketing term: {増量|ぞうりょう}⟦{中|ちゅう}→〜中：09840_chuu⟧ (now with more!), 20%{増量|ぞうりょう} (20% extra). The opposite is ⟦{減量|げんりょう}→減量：13355_genryou⟧ (reduction in quantity; also weight loss in sports/dieting). Common collocations: {増量|ぞうりょう}⟦する→する：00392_suru⟧ (to increase the amount), {増量|ぞうりょう}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently offering extra), {増量|ぞうりょう}⟦{分|ぶん}→分：26216_bun⟧ (the extra portion).",
+  "notes": "COMMON COLLOCATIONS:\n- 20%{増量|ぞうりょう}: 20% extra (on packaging)\n- {増量|ぞうりょう}⟦{中|ちゅう}→〜中：09840_chuu⟧: now with more (a marketing label)\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{増量|ぞうりょう}⟦する→する：00392_suru⟧: to raise a dose\n\nSIMILAR WORDS:\n- ⟦{減量|げんりょう}→減量：13355_genryou⟧: the opposite, a reduction in quantity; also losing weight, especially for boxers and other athletes making weight.\n- ⟦{増加|ぞうか}→増加：03329_zouka⟧: an increase in number or amount as a trend (⟦{人口|じんこう}→人口：01618_jinkou⟧⟦の→の：09472_no⟧⟦{増加|ぞうか}→増加：03329_zouka⟧). {増量|ぞうりょう} is deliberately adding to the amount of a specific thing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13355_genryou",
+      "reading": "げんりょう",
+      "headword": "{減量|げんりょう}",
+      "label": "the opposite, a reduction in quantity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03329_zouka",
+      "reading": "ぞうか",
+      "headword": "{増加|ぞうか}",
+      "label": "an increase in number or amount…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "transitivity": "transitive"
     },
     "created": "2026-03-24T13:54:17Z",
-    "modified": "2026-09-02T04:01:55Z"
+    "modified": "2026-09-29T17:54:58Z"
   }
 }

@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of ⟦{例|れい}→例：09932_rei⟧ (example) + {証|しょう} (proof, evidence). A formal/academic term used in writing and argumentation. Common collocations: {例証|れいしょう}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧ (to cite an example as proof), {例証|れいしょう}⟦する→する：00392_suru⟧ (to illustrate/exemplify), {例証|れいしょう}⟦として→として：06802_toshite⟧ (as an illustration). Not to be confused with the homophone ⟦{冷笑|れいしょう}→冷笑：09918_reishou⟧ (sneer, cold smile). Related terms: ⟦{実証|じっしょう}→実証：12350_jisshou⟧ (empirical proof), ⟦{論証|ろんしょう}→論証：21103_ronshou⟧ (logical proof), ⟦{立証|りっしょう}→立証：23853_risshou⟧ (establishing proof).",
+  "notes": "COMMON COLLOCATIONS:\n- {例証|れいしょう}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧: to give an illustrative example as support\n- {例証|れいしょう}⟦として→として：06802_toshite⟧: by way of illustration\n- X⟦を→を：00422_wo⟧{例証|れいしょう}⟦する→する：00392_suru⟧: to illustrate X with examples\n\nSIMILAR WORDS:\n- ⟦{実証|じっしょう}→実証：12350_jisshou⟧: proof by evidence or experiment.\n- ⟦{論証|ろんしょう}→論証：21103_ronshou⟧: proof by reasoning.\n- ⟦{立証|りっしょう}→立証：23853_risshou⟧: establishing a fact, especially in court.\n{例証|れいしょう} supports a claim with concrete cases; it is academic and written.\n\nWATCH OUT:\n- The homophone ⟦{冷笑|れいしょう}→冷笑：09918_reishou⟧ means a sneer.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12350_jisshou",
+      "reading": "じっしょう",
+      "headword": "{実証|じっしょう}",
+      "label": "proof by evidence or experiment."
+    },
+    {
+      "type": "contrast",
+      "target_id": "21103_ronshou",
+      "reading": "ろんしょう",
+      "headword": "{論証|ろんしょう}",
+      "label": "proof by reasoning."
+    },
+    {
+      "type": "contrast",
+      "target_id": "23853_risshou",
+      "reading": "りっしょう",
+      "headword": "{立証|りっしょう}",
+      "label": "establishing a fact, especially…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +181,6 @@
       "transitivity": "transitive"
     },
     "created": "2026-03-24T13:58:27Z",
-    "modified": "2026-09-19T16:19:23Z"
+    "modified": "2026-09-29T17:54:58Z"
   }
 }
