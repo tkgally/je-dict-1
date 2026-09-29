@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-29 (Routine v3: new-entries — 8 New Entries, IDs 31203–31210)
+
+Eight internal-closure words that older entries already used: マグネット, ピクセル, クレーター, ブザー, 泡風呂,
+海鮮丼, 警告灯, 拳骨. Ten old `noentry` markers in ten entries now link to them, and the harvester added
+contrast cross-references from 磁石, 画素, 火口, 警報 and ちらし寿司. Stopped at eight because the run clock was
+near its end. Self-check clean.
+
 ### 2026-09-29 (Routine v3: candidates — 73 internal-closure candidates)
 
 73 words that older entries already mark as missing (`noentry`), each noted with the entry it was seen in: everyday
@@ -79,11 +86,4 @@ All twenty are internal-closure words already used by older entries: 三唱, レ
 五角形, カーナビ, ノースリーブ, ピンとくる, 漆塗り, あんパン, ポップス, 螺旋, ワルツ, リクルートスーツ, and the proper
 nouns 伊豆, 山梨県, 歌舞伎座, アラビア, 朝鮮. 51 old `noentry` markers in 32 entries now link to them. New kanji 螺
 (02809). Self-check skipped (daily review budget spent). Candidate queue stands at 95.
-
-### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31135–31154)
-
-All twenty are internal-closure words from the restock earlier today, each one already used by older entries:
-連体詞, 期する, 厚生, 一次, 二次, 胴, 無機, 借主, 遺志, 対称, 転じる, 与る, 辞する, かしこまる, ケースバイケース,
-民主的, 北緯, and the proper nouns 東京都, 姫路城, 東日本大震災. 47 old `noentry` markers in 30 entries now link to
-them. Self-check skipped (daily review budget spent). Candidate queue stands at 113.
 
