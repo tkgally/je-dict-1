@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-29 (Routine v3: new-entries — 14 New Entries, IDs 31211–31224)
+
+Fourteen internal-closure words that older entries already used: 一発屋, システムエンジニア, 自由主義, 丹頂鶴,
+消毒液, 探知機, 手品師, 得意客, キャンプ場, スキー場, リップクリーム, 代表団, 玄関先, ハザードマップ. Fifteen
+old `noentry` markers in fifteen entries now link to them. Self-check skipped: the day's OpenRouter budget was spent.
+
 ### 2026-09-29 (Routine v3: new-entries — 8 New Entries, IDs 31203–31210)
 
 Eight internal-closure words that older entries already used: マグネット, ピクセル, クレーター, ブザー, 泡風呂,
@@ -79,11 +85,3 @@ All twenty are internal-closure words already used by older entries: 縄文, 必
 文部科学省, 大航海時代, ノーベル賞, 大阪城. 33 old `noentry` markers in 21 entries now link to them. Stale candidate
 四方山話 removed (duplicate of よもやま話, 26013). Self-check skipped (daily review budget spent). Candidate queue
 stands at 77.
-
-### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31155–31174)
-
-All twenty are internal-closure words already used by older entries: 三唱, レザー, 御礼, ハムスター, スティック,
-五角形, カーナビ, ノースリーブ, ピンとくる, 漆塗り, あんパン, ポップス, 螺旋, ワルツ, リクルートスーツ, and the proper
-nouns 伊豆, 山梨県, 歌舞伎座, アラビア, 朝鮮. 51 old `noentry` markers in 32 entries now link to them. New kanji 螺
-(02809). Self-check skipped (daily review budget spent). Candidate queue stands at 95.
-
