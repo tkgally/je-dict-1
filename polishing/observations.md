@@ -1576,3 +1576,7 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - [entry] 03629: audio checks heard すれば for 成功すれは in 03629_bouken_ex8; the example has a typo (すれは → すれば). (routine 2026-09-29 #001) Fixed in routine 2026-09-29 #004.
 - [entry] 03830: audio checks heard なると for 夏になるとと in 03830_aisukuriimu_ex4; the example has a typo (doubled と). (routine 2026-09-29 #001) Fixed in routine 2026-09-29 #004.
 - [tooling] auto_link.py links 身につけている as 身 (01764) alone rather than 身につける (03158); the conjugated compound verb is not matched after a hand edit removed the old link (03619 ex1, routine 2026-09-29 #004; retargeted via link_decisions.jsonl).
+- [entry] 04113: audio checks heard みつもり for {見積|みつも}もり in 04113_ooyoso_ex2; the furigana doubles も (should be {見積|みつ}もり). (routine 2026-09-29 #005)
+- [entry] 04160: audio checks objected to 04160_saiten_ex4, which begins {枚|まい}もの{答案|とうあん}; the number before 枚 is missing. (routine 2026-09-29 #005)
+- [entry] 04318: audio checks heard 出てくると for 出てくるとと in 04318_hanayome_ex5; the example has a typo (doubled と). (routine 2026-09-29 #005)
+- [entry] 04239: audio checks heard でんりょくがいしゃ for {電力|でんりょく}{会社|かいしゃ} in 04239_kirikaeru_ex5; check the furigana (がいしゃ is the usual reading in this compound). (routine 2026-09-29 #005)
