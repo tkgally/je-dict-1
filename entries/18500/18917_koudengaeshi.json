@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of ⟦{香典|こうでん}→香典：06127_kouden⟧ (condolence money given at funerals) + ⟦{返|かえ}し→返し：24802_kaeshi⟧ (return, reciprocation). The return gift is typically worth about half the value of the condolence money received ({半返|はんがえ}し). Common choices include tea, towels, soap, and catalog gifts. Usually sent after the ⟦{四十九日|しじゅうくにち}→四十九日：06017_shijuukunichi⟧ (49-day mourning period). This custom reflects the broader Japanese practice of ⟦{返礼|へんれい}→返礼：16228_henrei⟧ (gift reciprocation). Related: ⟦{内祝|うちいわ}い→内祝い：16037_uchiiwai⟧ (return gift for celebratory occasions).",
+  "notes": "Composed of ⟦{香典|こうでん}→香典：06127_kouden⟧ (condolence money given at a funeral) + {返|がえ}し (return).\n\nCULTURAL NOTE:\n- The gift is typically worth about half the condolence money received ({半返|はんがえ}し).\n- Common choices are tea, towels, soap, and catalog gifts.\n- It is traditionally sent after the ⟦{四十九日|しじゅうくにち}→四十九日：06017_shijuukunichi⟧ memorial, but many families now hand it over on the day of the funeral ({当日返|とうじつがえ}し).\n\nRELATED WORDS:\n- ⟦{内祝|うちいわ}い→内祝い：16037_uchiiwai⟧: a return gift for a happy occasion\n- ⟦{返礼|へんれい}→返礼：16228_henrei⟧: a gift or greeting given in return",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -53,6 +53,20 @@
       "reading": "おかえし",
       "headword": "お{返|かえ}し",
       "label": "return gift"
+    },
+    {
+      "type": "related",
+      "target_id": "16037_uchiiwai",
+      "reading": "うちいわい",
+      "headword": "{内祝|うちいわ}い",
+      "label": "a return gift for a happy occasion"
+    },
+    {
+      "type": "related",
+      "target_id": "16228_henrei",
+      "reading": "へんれい",
+      "headword": "{返礼|へんれい}",
+      "label": "a gift or greeting given in return"
     }
   ],
   "metadata": {
@@ -64,10 +78,10 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "culture"
       ]
     },
     "created": "2026-03-23T09:27:32Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-09-29T20:42:44Z"
   }
 }

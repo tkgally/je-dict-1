@@ -3,20 +3,35 @@
   "headword": "{宿|やど}",
   "reading": "やど",
   "part_of_speech": "noun",
-  "gloss": "inn, lodging",
+  "gloss": "inn; lodging; place to stay",
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "inn, lodging, accommodation",
+      "gloss": "inn; lodging; accommodation; place to stay",
       "explanation": "A place to stay overnight, especially a traditional Japanese inn or lodging establishment."
-    },
-    {
-      "sense_number": 2,
-      "gloss": "home, residence",
-      "explanation": "One's dwelling place or home (literary or formal usage)."
     }
   ],
   "examples": [
+    {
+      "id": "03641_yado_ex6",
+      "japanese": "{宿|やど}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧。",
+      "english": "To go back to the inn.",
+      "notes": "literary/formal usage",
+      "has_audio": true,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03641_yado_ex7",
+      "japanese": "{宿|やど}⟦を→を：00422_wo⟧⟦{出|で}て→出る：00513_deru⟧、⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{町|まち}→町：00613_machi⟧⟦へ→へ：02473_he⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
+      "english": "I left the inn and headed for the next town.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
     {
       "id": "03641_yado_ex1",
       "japanese": "{宿|やど}⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧。",
@@ -33,6 +48,16 @@
       "english": "I'm looking for lodging.",
       "notes": null,
       "has_audio": true,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03641_yado_ex9",
+      "japanese": "⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧⟦{歩|ある}き{回|まわ}って→歩き回る：04605_arukimawaru⟧、⟦やっと→やっと：01561_yatto⟧{宿|やど}⟦に→に：00314_ni⟧⟦{戻|もど}る→戻る：01117_modoru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
+      "english": "After walking around all day, I was finally able to get back to the inn.",
+      "notes": null,
+      "has_audio": false,
       "sense_numbers": [
         1
       ]
@@ -68,57 +93,17 @@
       ]
     },
     {
-      "id": "03641_yado_ex6",
-      "japanese": "{宿|やど}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧。",
-      "english": "To go home.",
-      "notes": "literary/formal usage",
-      "has_audio": true,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "03641_yado_ex7",
-      "japanese": "{宿|やど}⟦を→を：00422_wo⟧⟦{出|で}て→出る：00513_deru⟧⟦{旅|たび}→旅：03407_tabi⟧⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
-      "english": "He left home and set out on a journey.",
-      "notes": null,
-      "has_audio": true,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "03641_yado_ex8",
-      "japanese": "⟦{雨宿|あまやど}り→雨宿り：14929_amayadori⟧⟦を→を：00422_wo⟧⟦していたら→する：00392_suru⟧、⟦やがて→やがて：03637_yagate⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{晴|は}れてきた→晴れる：00701_hareru⟧。",
-      "english": "While taking shelter from the rain, the sky eventually cleared up.",
-      "notes": "⟦{雨宿|あまやど}り→雨宿り：14929_amayadori⟧ = taking shelter from rain",
-      "has_audio": true,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "03641_yado_ex9",
-      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{旅|たび}→旅：03407_tabi⟧⟦を→を：00422_wo⟧⟦{終|お}えて→終える：02019_oeru⟧、⟦やっと→やっと：01561_yatto⟧{宿|やど}⟦に→に：00314_ni⟧⟦{戻|もど}ることができた→戻る：01117_modoru⟧。",
-      "english": "After finishing a long journey, I was finally able to return home.",
-      "notes": null,
-      "has_audio": true,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
       "id": "03641_yado_ex10",
       "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{歌|うた}→歌：02179_uta⟧⟦の→の：09472_no⟧⟦{中|なか}→中：noentry⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{旅人|たびびと}→旅人：12725_tabibito⟧⟦が→が：00051_ga⟧{宿|やど}⟦を→を：00422_wo⟧⟦{離|はな}れて→離れる：02397_hanareru⟧⟦{遠|とお}い→遠い：00529_tooi⟧⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{描|えが}かれている→描く：02013_egaku⟧。",
-      "english": "In old songs, scenes of travelers leaving home and heading for distant lands are often depicted.",
+      "english": "In old songs, scenes of travelers leaving their lodgings and heading for distant lands are often depicted.",
       "notes": null,
       "has_audio": true,
       "sense_numbers": [
-        2
+        1
       ]
     }
   ],
-  "notes": "USAGE: {宿|やど} often refers to traditional Japanese-style inns, particularly in travel contexts. For modern hotels, ⟦ホテル→ホテル：01027_hoteru⟧ is more common.\n\nCOMMON PATTERNS:\n- {宿|やど}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to book lodging)\n- {宿|やど}⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧ (to stay at an inn)\n- ⟦{温泉|おんせん}→温泉：04117_onsen⟧{宿|やど} (hot spring inn)\n- {宿|やど}⟦{代|だい}→〜代：28331_dai⟧ (lodging fee)\n\nRELATED WORDS:\n- ⟦{旅館|りょかん}→旅館：01049_ryokan⟧ (traditional Japanese inn — more specific)",
+  "notes": "USAGE:\n- {宿|やど} is a place to stay the night while traveling, and often suggests a traditional Japanese inn. For a modern hotel, ⟦ホテル→ホテル：01027_hoteru⟧ is more usual.\n- In old poetry {宿|やど} can also mean one's own home.\n\nCOMMON PATTERNS:\n- {宿|やど}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to book lodging\n- {宿|やど}⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧: to stay at an inn\n- {温泉宿|おんせんやど}: hot spring inn\n- ⟦{宿代|やどだい}→宿代：25794_yadodai⟧: lodging fee\n\nWATCH OUT:\n- ⟦{雨宿|あまやど}り→雨宿り：14929_amayadori⟧ (taking shelter from the rain) comes from the verb ⟦{宿|やど}る→宿る：12351_yadoru⟧, not from \"inn\".\n\nRELATED WORDS:\n- ⟦{旅館|りょかん}→旅館：01049_ryokan⟧: traditional Japanese inn — the more specific word",
   "cross_references": [
     {
       "type": "related",
@@ -137,17 +122,18 @@
   ],
   "metadata": {
     "created": "2026-01-12T16:02:00Z",
-    "modified": "2026-09-02T04:01:03Z",
+    "modified": "2026-09-29T20:42:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "travel",
+        "building"
       ]
     }
   }
