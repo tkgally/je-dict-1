@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Used with ⟦する→する：00392_suru⟧ to form {論述|ろんじゅつ}⟦する→する：00392_suru⟧ (to expound, to present an argument). Common collocations: {論述|ろんじゅつ}⟦{試験|しけん}→試験：01422_shiken⟧ (essay exam), {論述|ろんじゅつ}⟦{問題|もんだい}→問題：00797_mondai⟧ (essay question), {論述|ろんじゅつ}{式|しき} (essay-type format). Primarily found in academic and examination settings. Related: ⟦{論文|ろんぶん}→論文：03787_ronbun⟧ (thesis, academic paper — the finished product), ⟦{記述|きじゅつ}→記述：05819_kijutsu⟧ (description — broader, not necessarily argumentative), ⟦{論証|ろんしょう}→論証：21103_ronshou⟧ (demonstration, proof — focuses on proving a point).",
+  "notes": "COMMON COLLOCATIONS:\n- {論述|ろんじゅつ}⟦{試験|しけん}→試験：01422_shiken⟧: essay exam\n- {論述|ろんじゅつ}⟦{問題|もんだい}→問題：00797_mondai⟧: essay question\n- ⟦{論理的|ろんりてき}→論理的：05672_ronriteki⟧⟦に→に：00314_ni⟧{論述|ろんじゅつ}⟦する→する：00392_suru⟧: to set out an argument logically\n\nSIMILAR WORDS:\n- ⟦{記述|きじゅつ}→記述：05819_kijutsu⟧: description, a written account; not necessarily an argument (⟦{記述|きじゅつ}{式|しき}→記述式：19067_kijutsushiki⟧, short written answers).\n- ⟦{論文|ろんぶん}→論文：03787_ronbun⟧: a paper or thesis, the finished piece of writing.\n- ⟦{論証|ろんしょう}→論証：21103_ronshou⟧: demonstration, proving a claim with reasons.\n{論述|ろんじゅつ} is setting out one's view with supporting reasons, mostly in academic and exam settings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05819_kijutsu",
+      "reading": "きじゅつ",
+      "headword": "{記述|きじゅつ}",
+      "label": "description, a written account"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03787_ronbun",
+      "reading": "ろんぶん",
+      "headword": "{論文|ろんぶん}",
+      "label": "a paper or thesis, the finished piece…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21103_ronshou",
+      "reading": "ろんしょう",
+      "headword": "{論証|ろんしょう}",
+      "label": "demonstration, proving a claim…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +178,6 @@
       "transitivity": "transitive"
     },
     "created": "2026-03-23T03:38:33Z",
-    "modified": "2026-09-19T16:18:39Z"
+    "modified": "2026-09-29T17:25:28Z"
   }
 }

@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of ⟦{意思|いし}→意思：12742_ishi⟧ (intention, will) + ⟦{疎通|そつう}→疎通：18049_sotsuu⟧ (mutual understanding, free flow). The most common collocation is {意思疎通|いしそつう}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧ (to seek/attempt mutual understanding). Also: {意思疎通|いしそつう}⟦が→が：00051_ga⟧⟦{取|と}れる→取れる：02376_toreru⟧ (to be able to communicate), {意思疎通|いしそつう}⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦している→する：00392_suru⟧ (there is a lack of communication). A formal, slightly stiff word often used in business and organizational contexts. More casual alternatives: ⟦コミュニケーション→コミュニケーション：08425_komyunikeeshon⟧, ⟦{話|はな}し{合|あ}い→話し合い：14176_hanashiai⟧ (discussion).",
+  "notes": "COMMON COLLOCATIONS:\n- {意思疎通|いしそつう}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧: to try to reach mutual understanding; the most common use\n- {意思疎通|いしそつう}⟦が→が：00051_ga⟧⟦{取|と}れる→取れる：02376_toreru⟧: to be able to communicate\n- {意思疎通|いしそつう}⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦する→する：00392_suru⟧: communication is lacking\n\nSIMILAR WORDS:\n- ⟦コミュニケーション→コミュニケーション：08425_komyunikeeshon⟧: communication; the everyday word.\n- ⟦{話|はな}し{合|あ}い→話し合い：14176_hanashiai⟧: a discussion, talking things over.\n{意思疎通|いしそつう} is formal and stresses whether each side actually understands the other.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08425_komyunikeeshon",
+      "reading": "こみゅにけーしょん",
+      "headword": "コミュニケーション",
+      "label": "communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14176_hanashiai",
+      "reading": "はなしあい",
+      "headword": "{話|はな}し{合|あ}い",
+      "label": "a discussion, talking things over."
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "transitivity": "intransitive"
     },
     "created": "2026-03-23T09:28:42Z",
-    "modified": "2026-09-19T16:19:23Z"
+    "modified": "2026-09-29T17:25:28Z"
   }
 }
