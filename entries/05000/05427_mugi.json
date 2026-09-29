@@ -44,8 +44,8 @@
     },
     {
       "id": "05427_mugi_ex4",
-      "japanese": "⟦この→この：00962_kono⟧{麦|むぎ}⟦は→は：00079_ha⟧⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦{植|う}えます→植える：01210_ueru⟧。",
-      "english": "This wheat is planted in autumn.",
+      "japanese": "{麦|むぎ}⟦は→は：00079_ha⟧⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦{種|たね}→種：02157_tane⟧⟦を→を：00422_wo⟧まいて、⟦{初夏|しょか}→初夏：11740_shoka⟧⟦に→に：00314_ni⟧⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧⟦する→する：00392_suru⟧。",
+      "english": "Wheat and barley are sown in autumn and harvested in early summer.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{麦|むぎ} is a general term covering several cereal grains. Unlike English, which distinguishes wheat, barley, oats, and rye with separate words, Japanese uses {麦|むぎ} as the umbrella term.\n\nTYPES:\n- ⟦{小麦|こむぎ}→小麦：01407_komugi⟧: wheat (most common in bread, noodles)\n- ⟦{大麦|おおむぎ}→大麦：12215_oomugi⟧: barley (used for tea, beer)\n- ⟦{燕麦|えんばく}→燕麦：noentry⟧: oats\n- ⟦ライ{麦|むぎ}→ライ麦：23185_raimugi⟧: rye\n\nCOMMON PRODUCTS:\n- ⟦{麦茶|むぎちゃ}→麦茶：16494_mugicha⟧: barley tea (a staple cold drink in summer)\n- {麦|むぎ}⟦ご{飯|はん}→ご飯：00776_gohan⟧: rice cooked with barley\n- {麦|むぎ}⟦わら→わら：27567_wara⟧⟦{帽子|ぼうし}→帽子：00692_boushi⟧: straw hat\n- {麦|むぎ}⟦{畑|ばたけ}→畑：00842_hatake⟧: wheat/barley field\n\nCULTURAL NOTE:\n⟦{麦茶|むぎちゃ}→麦茶：16494_mugicha⟧ is one of the most common beverages in Japanese households, especially during summer.",
+  "notes": "{麦|むぎ} is the umbrella term for wheat, barley, rye, and oats; English has no single everyday word for this group. Use ⟦{小麦|こむぎ}→小麦：01407_komugi⟧ or ⟦{大麦|おおむぎ}→大麦：12215_oomugi⟧ when the kind matters.\n\nTYPES:\n- ⟦{小麦|こむぎ}→小麦：01407_komugi⟧: wheat (bread, noodles, flour)\n- ⟦{大麦|おおむぎ}→大麦：12215_oomugi⟧: barley (tea, beer, {麦|むぎ}ご{飯|はん})\n- ⟦ライ{麦|むぎ}→ライ麦：23185_raimugi⟧: rye\n- オーツ{麦|むぎ} / {燕麦|えんばく}: oats\n\nCOMPOUNDS:\n- ⟦{麦茶|むぎちゃ}→麦茶：16494_mugicha⟧: roasted barley tea, the standard cold drink of a Japanese summer\n- {麦|むぎ}ご{飯|はん}: rice cooked with barley\n- {麦|むぎ}わら⟦{帽子|ぼうし}→帽子：00692_boushi⟧: straw hat\n- {麦|むぎ}{畑|ばたけ}: wheat or barley field",
   "cross_references": [
     {
       "type": "related",
@@ -82,7 +82,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T06:00:17Z",
-    "modified": "2026-09-02T04:01:06Z",
+    "modified": "2026-09-29T08:34:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -92,7 +92,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "plant-general",
+        "food"
       ]
     }
   }
