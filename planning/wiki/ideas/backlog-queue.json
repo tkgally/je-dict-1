@@ -1631,9 +1631,9 @@
       "priority": 6,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 1816,
+      "scope_estimate": 1714,
       "severity": "medium",
-      "notes": "CLAUDE.md now forbids noentry markers; these predate the rule. Polish runs have been fixing them 5-10 at a time (C23421-C23449 came from this). check_stale_noentry.py covers only the subset whose word gained an entry. A batch must not queue proper-noun or inflected-form candidates blindly: vet each word. 2026-09-29: block 00000-00499 done (213 markers in 113 entries stripped; linker re-linked 34 where an entry now exists; 20 candidates queued). Block 00500-00999 done the same day (111 markers in 70 entries; 32 relinked; 20 candidates). Next: block 01000."
+      "notes": "CLAUDE.md now forbids noentry markers; these predate the rule. Polish runs have been fixing them 5-10 at a time (C23421-C23449 came from this). check_stale_noentry.py covers only the subset whose word gained an entry. A batch must not queue proper-noun or inflected-form candidates blindly: vet each word. 2026-09-29: block 00000-00499 done (213 markers in 113 entries stripped; linker re-linked 34 where an entry now exists; 20 candidates queued). Block 00500-00999 done the same day (111 markers in 70 entries; 32 relinked; 20 candidates). Block 01000-01499 done too (176 markers in 102 entries; 35 relinked, 2 wrong ones unlinked; 20 candidates). Next: block 01500."
     },
     {
       "id": "inline-link-braced-base-okurigana",
