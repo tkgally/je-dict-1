@@ -71,11 +71,25 @@
       "reading": "こども",
       "headword": "{子供|こども}",
       "label": "child (neutral)"
+    },
+    {
+      "type": "related",
+      "target_id": "30841_musukosan",
+      "reading": "むすこさん",
+      "headword": "{息子|むすこ}さん",
+      "label": "(someone else's) son"
+    },
+    {
+      "type": "related",
+      "target_id": "30842_musumesan",
+      "reading": "むすめさん",
+      "headword": "{娘|むすめ}さん",
+      "label": "(someone else's) daughter"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:32:23Z",
-    "modified": "2026-09-02T04:01:00Z",
+    "modified": "2026-09-29T09:11:16Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
@@ -85,7 +99,8 @@
       "politeness": "polite",
       "formality": "neutral",
       "semantic": [
-        "general"
+        "family",
+        "person"
       ]
     }
   }
