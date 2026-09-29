@@ -3,6 +3,14 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-09-29 (Routine v3: candidates — 73 internal-closure candidates)
+
+73 words that older entries already mark as missing (`noentry`), each noted with the entry it was seen in: everyday
+loanwords (マグネット, ピクセル, ブザー, リップクリーム, ジグソーパズル), compounds (キャンプ場, 泡風呂, 海鮮丼, 警告灯),
+verbs (暮れる, 縫い付ける, 創出する), and eight prefecture and region names (千葉, 神奈川, 埼玉, 茨城, 滋賀, 湘南, …).
+Eight proposals dropped as duplicates or variant spellings of existing entries (箸置き, 湯呑, 売り上げ, ひな人形,
+長葱, 心掛ける, 寝間着, 和歌山 = 和歌山県). Candidate queue stands at 144.
+
 ### 2026-09-28 (Routine v3: new-entries — 8 New Entries, IDs 31195–31202)
 
 The last six internal-closure candidates: 知床, 鳶が鷹を生む, 大根役者, 笑い皺, 追々 (gradually; distinct from 08812

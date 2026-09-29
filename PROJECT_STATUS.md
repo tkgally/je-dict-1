@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-29 (Routine v3: new-entries — 10 New Entries, IDs 31265–31274)
+
+Ten words that this day's earlier entries and notes named: 曽祖母, 曽孫, 県道, 有償, 訃報, 朗報, 潜める (with its pair
+潜む now cross-linked), 巧遅, 期日, 合鍵. New kanji 訃 added to the kanji index. Kept to ten because the run clock
+was near its end. Self-check skipped: the day's OpenRouter budget was spent.
+
 ### 2026-09-29 (Routine v3: new-entries — 20 New Entries, IDs 31245–31264)
 
 Twenty internal-closure words that older entries already used: 頼み, 国道, 郵便番号, 曽祖父, 社会科, 副社長, 末裔,
@@ -78,12 +84,4 @@ Eight internal-closure words that older entries already used: マグネット, �
 海鮮丼, 警告灯, 拳骨. Ten old `noentry` markers in ten entries now link to them, and the harvester added
 contrast cross-references from 磁石, 画素, 火口, 警報 and ちらし寿司. Stopped at eight because the run clock was
 near its end. Self-check clean.
-
-### 2026-09-29 (Routine v3: candidates — 73 internal-closure candidates)
-
-73 words that older entries already mark as missing (`noentry`), each noted with the entry it was seen in: everyday
-loanwords (マグネット, ピクセル, ブザー, リップクリーム, ジグソーパズル), compounds (キャンプ場, 泡風呂, 海鮮丼, 警告灯),
-verbs (暮れる, 縫い付ける, 創出する), and eight prefecture and region names (千葉, 神奈川, 埼玉, 茨城, 滋賀, 湘南, …).
-Eight proposals dropped as duplicates or variant spellings of existing entries (箸置き, 湯呑, 売り上げ, ひな人形,
-長葱, 心掛ける, 寝間着, 和歌山 = 和歌山県). Candidate queue stands at 144.
 
