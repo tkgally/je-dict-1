@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-29 (Routine v3: candidates — 73 internal-closure candidates)
+
+73 words that older entries already mark as missing (`noentry`), each noted with the entry it was seen in: everyday
+loanwords (マグネット, ピクセル, ブザー, リップクリーム, ジグソーパズル), compounds (キャンプ場, 泡風呂, 海鮮丼, 警告灯),
+verbs (暮れる, 縫い付ける, 創出する), and eight prefecture and region names (千葉, 神奈川, 埼玉, 茨城, 滋賀, 湘南, …).
+Eight proposals dropped as duplicates or variant spellings of existing entries (箸置き, 湯呑, 売り上げ, ひな人形,
+長葱, 心掛ける, 寝間着, 和歌山 = 和歌山県). Candidate queue stands at 144.
+
 ### 2026-09-28 (Routine v3: new-entries — 8 New Entries, IDs 31195–31202)
 
 The last six internal-closure candidates: 知床, 鳶が鷹を生む, 大根役者, 笑い皺, 追々 (gradually; distinct from 08812
@@ -79,10 +87,3 @@ All twenty are internal-closure words from the restock earlier today, each one a
 民主的, 北緯, and the proper nouns 東京都, 姫路城, 東日本大震災. 47 old `noentry` markers in 30 entries now link to
 them. Self-check skipped (daily review budget spent). Candidate queue stands at 113.
 
-### 2026-09-28 (Routine v3: candidates — 61 words queued, C23538–C23598)
-
-Internal-closure restock from `check_stale_noentry.py`'s unresolved class: every word is one an existing entry
-already uses but the dictionary does not define (期する, 連体詞, 厚生, 一次/二次, 胴, 無機, 借主, 遺志, 対称, 転じる,
-与る, 辞する, かしこまる, ピンとくる, ケースバイケース, ゴールイン …), plus places and events those entries name
-(東京都, 山梨県, 伊豆, 知床, 姫路城, 大阪城, 歌舞伎座, 東日本大震災, 文部科学省). Affixes, number+counter strings and
-variant spellings of existing entries (湯呑み, 箸置き, 売上, 和歌山県 …) were skipped. Queue: 72 → 133.
