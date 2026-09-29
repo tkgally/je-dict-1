@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-29 (Routine v3: new-entries — 20 New Entries, IDs 31225–31244)
+
+Twenty internal-closure words that older entries already used: 暮れる, 女の人, 割れ目, ほのか, じきに, ギャップ,
+漁村, 秋祭り, 石橋, 編集部, 訳文, 福利, 従事者, 血中, 手縫い, 縫い付ける, 最敬礼, 競馬場, 大震災, 潜り抜ける.
+Seventeen old `noentry` markers in fourteen entries now link to them. The newcomer check found no kana くれる link that
+means 暮れる, but eight old くれる links were wrong (くん the name suffix, くれない "crimson") and were unlinked.
+Self-check skipped: the day's OpenRouter budget was spent.
+
 ### 2026-09-29 (Routine v3: new-entries — 14 New Entries, IDs 31211–31224)
 
 Fourteen internal-closure words that older entries already used: 一発屋, システムエンジニア, 自由主義, 丹頂鶴,
@@ -77,11 +85,3 @@ The last six internal-closure candidates: 知床, 鳶が鷹を生む, 大根役�
 おいおい 'bawling'), これまで; then two from the vetted proper-noun queue, 湯川秀樹 and 嵐山. 05387's old `noentry`
 marker for 嵐山 now links, and 08731's cross-reference to 鳶が鷹を生む is hardened. Stopped at eight because the
 run clock was near its end. Self-check skipped (daily review budget spent). Candidate queue stands at 70.
-
-### 2026-09-28 (Routine v3: new-entries — 20 New Entries, IDs 31175–31194)
-
-All twenty are internal-closure words already used by older entries: 縄文, 必殺技, 発泡, マムシ, グローブ, 貧富,
-ボンベ, 被写体, 資本金, クリスマスイブ, ゴールイン, レーザー, 直下, コピペ, なめこ, 外堀, and the proper nouns
-文部科学省, 大航海時代, ノーベル賞, 大阪城. 33 old `noentry` markers in 21 entries now link to them. Stale candidate
-四方山話 removed (duplicate of よもやま話, 26013). Self-check skipped (daily review budget spent). Candidate queue
-stands at 77.
