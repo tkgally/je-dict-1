@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {拙|せつ} (clumsy, unskillful) + {劣|れつ} (inferior). A formal/written term expressing strong criticism of quality or skill. The opposite is ⟦{巧妙|こうみょう}→巧妙：07933_koumyou⟧ (skillful, clever). Common collocations: {拙劣|せつれつ}な⟦{手口|てぐち}→手口：12756_teguchi⟧ (clumsy tactics), {拙劣|せつれつ}な⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧ (poor technique), {拙劣|せつれつ}な⟦{対応|たいおう}→対応：02510_taiou⟧ (poor handling). More formal and harsher than ⟦{下手|へた}→下手：00703_heta⟧ (unskillful, poor at). Related words: ⟦{稚拙|ちせつ}→稚拙：09062_chisetsu⟧ (immature, childish — implies lack of sophistication), ⟦{粗雑|そざつ}→粗雑：09209_sozatsu⟧ (rough, sloppy).",
+  "notes": "Composed of {拙|せつ} (clumsy) + {劣|れつ} (inferior). A formal, mostly written word that harshly criticizes the quality of work, skill, or handling.\n\nCOMMON COLLOCATIONS:\n- {拙劣|せつれつ}な⟦{手口|てぐち}→手口：12756_teguchi⟧: clumsy tactics\n- {拙劣|せつれつ}な⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: poor technique\n- {拙劣|せつれつ}な⟦{対応|たいおう}→対応：02510_taiou⟧: poor handling (of a situation)\n\nSIMILAR WORDS:\n- ⟦{下手|へた}→下手：00703_heta⟧: the everyday word for unskillful; {拙劣|せつれつ} is more formal and harsher\n- ⟦{稚拙|ちせつ}→稚拙：09062_chisetsu⟧: immature, childish — lacking sophistication rather than competence\n- ⟦{粗雑|そざつ}→粗雑：09209_sozatsu⟧: rough, sloppy — careless rather than unskilled\n- ⟦{巧妙|こうみょう}→巧妙：07933_koumyou⟧: skillful, clever (the opposite)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00703_heta",
+      "reading": "へた",
+      "headword": "{下手|へた}",
+      "label": "the everyday word for unskillful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09062_chisetsu",
+      "reading": "ちせつ",
+      "headword": "{稚拙|ちせつ}",
+      "label": "immature, childish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09209_sozatsu",
+      "reading": "そざつ",
+      "headword": "{粗雑|そざつ}",
+      "label": "rough, sloppy"
+    },
+    {
+      "type": "antonym",
+      "target_id": "07933_koumyou",
+      "reading": "こうみょう",
+      "headword": "{巧妙|こうみょう}",
+      "label": "skillful, clever"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +93,6 @@
       ]
     },
     "created": "2026-03-24T14:05:19Z",
-    "modified": "2026-09-02T04:01:55Z"
+    "modified": "2026-09-29T20:42:44Z"
   }
 }
