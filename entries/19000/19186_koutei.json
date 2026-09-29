@@ -4,7 +4,7 @@
   "reading": "こうてい",
   "romaji": "koutei",
   "part_of_speech": "noun",
-  "gloss": "journey; distance; itinerary; process (in manufacturing)",
+  "gloss": "journey; distance; itinerary; stroke (of an engine)",
   "definitions": [
     {
       "sense_number": 1,
@@ -13,8 +13,8 @@
     },
     {
       "sense_number": 2,
-      "gloss": "process; stroke (in manufacturing or engineering)",
-      "explanation": "A step or stage in a manufacturing or mechanical process, including the stroke of a piston or similar mechanism."
+      "gloss": "stroke (of a piston or engine)",
+      "explanation": "In engineering, the distance a piston travels in one movement, or one such movement within an engine cycle."
     }
   ],
   "examples": [
@@ -70,8 +70,8 @@
     },
     {
       "id": "19186_koutei_ex6",
-      "japanese": "⟦{製造|せいぞう}→製造：03289_seizou⟧{行程|こうてい}⟦の→の：09472_no⟧{各段階|かくだんかい}⟦で→で：00502_de⟧⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
-      "english": "Quality inspections are conducted at each stage of the manufacturing process.",
+      "japanese": "4{行程|こうてい}⟦エンジン→エンジン：03835_enjin⟧⟦は→は：00079_ha⟧2{行程|こうてい}⟦エンジン→エンジン：03835_enjin⟧⟦より→より：09476_yori⟧⟦{燃費|ねんぴ}→燃費：18969_nenpi⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
+      "english": "A four-stroke engine gets better fuel economy than a two-stroke engine.",
       "sense_numbers": [
         2
       ],
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {行|こう} (go, travel) + {程|てい} (degree, extent, distance). Not to be confused with the homophone ⟦{工程|こうてい}→工程：12415_koutei⟧ (work process, production schedule), which focuses specifically on work/production steps, while {行程|こうてい} in sense 2 refers to mechanical strokes or stages. Common collocations: {行程|こうてい}{表|ひょう} (itinerary chart), ⟦{往復|おうふく}→往復：04111_oufuku⟧{行程|こうてい} (round-trip distance), ⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{行程|こうてい} (a day's journey). In mountaineering and hiking, {行程|こうてい} specifically refers to the route distance and time estimate for the climb.",
+  "notes": "Composed of {行|こう} (go, travel) + {程|てい} (extent, distance).\n\nCOMMON COLLOCATIONS:\n- {行程表|こうていひょう}: itinerary chart\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{行程|こうてい}: a day's journey\n- ⟦{往復|おうふく}→往復：04111_oufuku⟧⟦の→の：09472_no⟧{行程|こうてい}: the round trip\n\nUSAGE:\n- In hiking guides, {行程|こうてい} is the route with its distance and time estimate.\n\nWATCH OUT:\n- The homophone ⟦{工程|こうてい}→工程：12415_koutei⟧ means a stage of work or production: {製造工程|せいぞうこうてい} (manufacturing process), not ⟦{製造|せいぞう}→製造：03289_seizou⟧{行程|こうてい}. {行程|こうてい} in engineering is only the stroke of an engine.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -99,11 +99,11 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "transportation",
-        "general"
+        "travel",
+        "transportation"
       ]
     },
     "created": "2026-03-24T13:56:08Z",
-    "modified": "2026-09-02T04:01:55Z"
+    "modified": "2026-09-29T21:14:01Z"
   }
 }
