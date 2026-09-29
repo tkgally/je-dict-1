@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "The {算盤|そろばん} (Japanese abacus) has been used in Japan for centuries. Despite calculators, abacus education remains popular as it develops mental calculation skills.\n\nCOMMON PATTERNS:\nThe Japanese abacus has:\n- 5 beads on the lower deck (each worth 1)\n- 1 bead on the upper deck (worth 5)\n- Multiple columns for different place values\n\nABACUS EDUCATION:\n- {算盤|そろばん}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: abacus school\n- ⟦{珠算|しゅざん}→珠算：28871_shuzan⟧: abacus calculation, soroban arithmetic\n- ⟦{暗算|あんざん}→暗算：15852_anzan⟧: mental arithmetic (often trained through soroban)\n- ⟦{珠算|しゅざん}→珠算：28871_shuzan⟧⟦{検定|けんてい}→検定：13131_kentei⟧: abacus proficiency test\n\nCULTURAL NOTE:\nMany Japanese children attend after-school abacus classes ({算盤|そろばん}⟦{塾|じゅく}→塾：04702_juku⟧) to develop calculation skills and concentration.",
+  "notes": "Usually written in kana, そろばん. Despite calculators, abacus education remains popular in Japan because it trains mental calculation.\n\nCULTURAL NOTE:\nThe modern Japanese abacus has one bead above the bar (worth 5) and four beads below it (each worth 1) on every rod; older abacuses had five below. Many children attend after-school abacus classes ({算盤|そろばん}⟦{塾|じゅく}→塾：04702_juku⟧ or {算盤|そろばん}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧) and take graded proficiency tests.\n\nRELATED WORDS:\n- ⟦{珠算|しゅざん}→珠算：28871_shuzan⟧: abacus arithmetic (the formal term, used in ⟦{珠算|しゅざん}→珠算：28871_shuzan⟧⟦{検定|けんてい}→検定：13131_kentei⟧, the abacus proficiency test)\n- ⟦{暗算|あんざん}→暗算：15852_anzan⟧: mental arithmetic, often trained by imagining the abacus\n\nCOMMON EXPRESSIONS:\n- そろばん⟦を→を：00422_wo⟧はじく: to work the abacus; figuratively, to calculate one's gains",
   "cross_references": [
     {
       "type": "contrast",
@@ -78,11 +78,18 @@
       "reading": "しゅざん",
       "headword": "{珠算|しゅざん}",
       "label": "abacus calculation"
+    },
+    {
+      "type": "related",
+      "target_id": "15852_anzan",
+      "reading": "あんざん",
+      "headword": "{暗算|あんざん}",
+      "label": "mental arithmetic, often trained…"
     }
   ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-09-29T08:34:47Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -92,7 +99,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "education",
+        "tool"
       ]
     }
   }
