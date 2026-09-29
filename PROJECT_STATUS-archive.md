@@ -3,6 +3,13 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-09-28 (Routine v3: new-entries — 8 New Entries, IDs 31195–31202)
+
+The last six internal-closure candidates: 知床, 鳶が鷹を生む, 大根役者, 笑い皺, 追々 (gradually; distinct from 08812
+おいおい 'bawling'), これまで; then two from the vetted proper-noun queue, 湯川秀樹 and 嵐山. 05387's old `noentry`
+marker for 嵐山 now links, and 08731's cross-reference to 鳶が鷹を生む is hardened. Stopped at eight because the
+run clock was near its end. Self-check skipped (daily review budget spent). Candidate queue stands at 70.
+
 ### 2026-09-18 (Routine v3: new-entries — 21 New Entries, IDs 30953–30973)
 
 Created 21 general-tier entries, all from the "seen in entry" internal-closure lane (34 available,
