@@ -1404,3 +1404,31 @@ to reading/headword lookup and otherwise shows the headword unlinked, so these s
 or fragile links. `build/schema.json` now requires `target_id` or `label` on each
 `cross_references[]` item (`anyOf`), so validation and CI reject a bare reference;
 `harvest_crossrefs.py` already always writes `target_id`.
+
+### 141. The deep furigana pass cannot run inside a Routine — `gemini-2.5-pro` is the whole cost
+
+A 2026-08-30 accuracy-review run reported that `review_runner.py --pass deep` completed **one
+entry in ~15 minutes** in the scheduled environment, which puts the 62 screening-flagged entries
+in 14330–14930 at roughly eight hours. The same session ran the screening pass and
+`review_accuracy.py` at ~6 entries/minute, so this is not the network.
+
+The source agrees with the report: `SCREENING_MODEL = "google/gemini-2.5-flash"` but
+`DEEP_MODELS = ["openai/gpt-4.1", "google/gemini-2.5-pro"]` (`review_runner.py:50–52`), and
+`RATE_LIMIT_INTERVAL = 6.0` is per model, so rate limiting accounts for at most ~12 s of the 15
+minutes. The remainder is 2.5-pro's own latency on a reasoning-heavy prompt.
+
+Three fixes, any one sufficient: swap the second deep model for a fast one; add a per-entry
+wall-clock timeout that drops to a single model; or accept the deep pass as a curator-run tool
+and let the Routine lean on §A's known-noise shortcut by default. The third is nearly the status
+quo already — the shortcut has skipped the deep pass on the last several accuracy-review runs
+because screening precision over polished ranges is 0–5%. **The operational point is that a
+Routine that does start the deep pass has no way to stop it**, which is how a run loses its
+context budget before the wrap-up.
+
+**Resolved 2026-09-29 (systemic-fix routine).** `review_runner.py --pass deep` now has two
+wall-clock guards. A model whose call takes longer than `--slow-seconds` (default 90) is dropped
+for the rest of the pass while another model remains, so a slow `gemini-2.5-pro` costs one call
+and the pass continues on `gpt-4.1` alone. The pass stops after `--max-minutes` (default 20; 0
+disables it) and prints the unreached IDs as a ready `--ids` list. Each report's `models_used`
+records which models actually answered. Tests: `build/tests/test_review_runner_deep.py`. The
+Routine still does not run the furigana screener or the deep pass (routine2.md §A step 2).

@@ -20,6 +20,11 @@ Usage:
     python3 build/review_runner.py --pass screening --range 1 1000 --budget 5.00
     python3 build/review_runner.py --pass deep --range 1 1000
     python3 build/review_runner.py --pass deep --ids 00123,00456
+    python3 build/review_runner.py --pass deep --ids 00123 --max-minutes 10 --slow-seconds 60
+
+The deep pass stops after --max-minutes (default 20) and prints the IDs it did
+not reach; a model slower than --slow-seconds per call (default 90) is dropped
+for the rest of the pass while another model remains.
 """
 
 import argparse
@@ -55,6 +60,14 @@ FURIGANA_RE = re.compile(r"\{([^|{}]+)\|([^}]+)\}")
 
 # Rate limiting: max 10 requests per minute per model
 RATE_LIMIT_INTERVAL = 6.0  # seconds between requests per model
+
+# Deep-pass wall-clock guards. google/gemini-2.5-pro took ~15 minutes per entry
+# in the scheduled environment (tooling backlog item 141), and a pass had no way
+# to stop. A model whose call takes longer than SLOW_MODEL_SECONDS is dropped
+# for the rest of the pass while another model remains; the pass itself stops
+# after DEEP_MAX_MINUTES and prints the IDs it did not reach.
+SLOW_MODEL_SECONDS = 90.0
+DEEP_MAX_MINUTES = 20.0
 
 # Approximate cost per 1K tokens (USD) for budget estimation
 MODEL_COSTS = {
@@ -425,8 +438,16 @@ def get_flagged_entry_ids():
     return flagged
 
 
-def run_deep_pass(entry_ids, api_key, models, dry_run=False, budget=None):
-    """Run Pass 2: deep review with strong models on flagged entries."""
+def run_deep_pass(entry_ids, api_key, models, dry_run=False, budget=None,
+                  max_minutes=DEEP_MAX_MINUTES, slow_seconds=SLOW_MODEL_SECONDS,
+                  clock=time.monotonic):
+    """Run Pass 2: deep review with strong models on flagged entries.
+
+    Stops after ``max_minutes`` of wall time (None = no limit) and drops any
+    model slower than ``slow_seconds`` per call while another model remains.
+    Returns the list of entry IDs left unreviewed because of the time limit.
+    """
+    models = list(models)
     print(f"DEEP REVIEW PASS — models: {', '.join(models)}")
 
     # If no explicit IDs given, use flagged entries from screening
@@ -444,14 +465,27 @@ def run_deep_pass(entry_ids, api_key, models, dry_run=False, budget=None):
     if dry_run:
         print("DRY RUN — prompts will be printed but not sent.\n")
 
+    if max_minutes is not None and not dry_run:
+        print(f"Wall-clock limit: {max_minutes:g} min; a model slower than "
+              f"{slow_seconds:g}s per call is dropped while another remains")
+
     total_cost = 0.0
     reviewed = 0
     flagged_total = 0
     skipped = 0
+    started = clock()
+    unreached = []
 
-    for entry_id_str in entry_ids:
+    for n, entry_id_str in enumerate(entry_ids):
         if budget is not None and total_cost >= budget:
             print(f"\nBudget limit reached (${total_cost:.4f} >= ${budget:.2f}). Stopping.")
+            break
+        if (max_minutes is not None and not dry_run
+                and clock() - started >= max_minutes * 60):
+            unreached = list(entry_ids[n:])
+            print(f"\nWall-clock limit reached ({max_minutes:g} min). Stopping with "
+                  f"{len(unreached)} entries unreviewed:")
+            print(f"  --ids {','.join(unreached)}")
             break
 
         entry_path = find_entry_file(entry_id_str)
@@ -480,7 +514,14 @@ def run_deep_pass(entry_ids, api_key, models, dry_run=False, budget=None):
         for model in models:
             total_cost += estimate_cost(model, prompt_tokens, 500)
 
-        report = review_entry(entry, entry_id_str, api_key, models, dry_run=False)
+        timings = {}
+        report = review_entry(entry, entry_id_str, api_key, models, dry_run=False,
+                              timings=timings, clock=clock)
+        for model, seconds in timings.items():
+            if seconds > slow_seconds and len(models) > 1 and model in models:
+                models.remove(model)
+                print(f"  {model} took {seconds:.0f}s (> {slow_seconds:g}s): dropped for the "
+                      f"rest of the pass; continuing with {', '.join(models)}")
         if report:
             # Add screening context if available
             screening_file = SCREENING_DIR / f"{entry_id_str}.json"
@@ -502,7 +543,8 @@ def run_deep_pass(entry_ids, api_key, models, dry_run=False, budget=None):
 
     if not dry_run:
         print(f"\nDeep review complete. Reviewed: {reviewed}, Flagged: {flagged_total}, "
-              f"Skipped: {skipped}, Est. cost: ${total_cost:.4f}")
+              f"Skipped: {skipped}, Unreached: {len(unreached)}, Est. cost: ${total_cost:.4f}")
+    return unreached
 
 
 def build_review_prompt(entry, pairs):
@@ -741,8 +783,12 @@ def classify_severity(results_by_model, unique_pairs):
     return issues
 
 
-def review_entry(entry, entry_id_str, api_key, models, dry_run=False):
-    """Review a single entry and return the report."""
+def review_entry(entry, entry_id_str, api_key, models, dry_run=False, timings=None,
+                 clock=time.monotonic):
+    """Review a single entry and return the report.
+
+    If ``timings`` is a dict, each model's call time in seconds is stored in it.
+    """
     pairs = extract_furigana_pairs(entry)
     if not pairs:
         print(f"  {entry_id_str}: No furigana pairs found, skipping.")
@@ -762,7 +808,10 @@ def review_entry(entry, entry_id_str, api_key, models, dry_run=False):
     results_by_model = {}
     for model in models:
         print(f"  Querying {model}...")
+        t0 = clock()
         response = call_openrouter(api_key, model, prompt)
+        if timings is not None:
+            timings[model] = clock() - t0
         parsed = parse_model_response(response)
         if parsed is None:
             print(f"  WARNING: Failed to get valid response from {model}")
@@ -945,6 +994,12 @@ def main():
                         help="Review pass type: 'screening' (cheap, bulk) or 'deep' (multi-model)")
     parser.add_argument("--budget", type=float, metavar="AMOUNT",
                         help="Stop processing when estimated cost exceeds AMOUNT (USD)")
+    parser.add_argument("--max-minutes", type=float, default=DEEP_MAX_MINUTES,
+                        help=f"deep pass: stop after this many minutes of wall time "
+                             f"(default {DEEP_MAX_MINUTES:g}; 0 = no limit)")
+    parser.add_argument("--slow-seconds", type=float, default=SLOW_MODEL_SECONDS,
+                        help=f"deep pass: drop a model slower than this per call while "
+                             f"another remains (default {SLOW_MODEL_SECONDS:g})")
     parser.add_argument("--report", action="store_true",
                         help="Summarize existing review results")
 
@@ -987,7 +1042,8 @@ def main():
                 return
         else:
             entry_ids = []
-        run_deep_pass(entry_ids, api_key, models, dry_run=args.dry_run, budget=args.budget)
+        run_deep_pass(entry_ids, api_key, models, dry_run=args.dry_run, budget=args.budget,
+                      max_minutes=args.max_minutes or None, slow_seconds=args.slow_seconds)
         return
 
     # Original mode (no --pass flag)
