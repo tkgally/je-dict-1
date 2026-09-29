@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {在|ざい} (exist, be present) + {任|にん} (duty, appointment). A formal term used in political and business reporting. Common collocations: {在任|ざいにん}⟦{中|ちゅう}→〜中：09840_chuu⟧ (during one's tenure), {在任|ざいにん}⟦{期間|きかん}→期間：00229_kikan⟧ (period of office/tenure), {在任|ざいにん}⟦{日数|にっすう}→日数：12953_nissuu⟧ (number of days in office). Not to be confused with the homophone ⟦{罪人|ざいにん}→罪人：13984_zainin⟧ (criminal, sinner), which has a completely different meaning and kanji. Similar terms: ⟦{在職|ざいしょく}→在職：12129_zaishoku⟧ (being employed/in a position — broader, includes non-official jobs), ⟦{任期|にんき}→任期：11553_ninki⟧ (term of office — the defined period rather than the act of holding office).",
+  "notes": "COMMON COLLOCATIONS:\n- {在任|ざいにん}{中|ちゅう}: while in office\n- {在任|ざいにん}⟦{期間|きかん}→期間：00229_kikan⟧: time in office\n- {在任|ざいにん}⟦{日数|にっすう}→日数：12953_nissuu⟧: number of days in office (often in records for prime ministers)\n\nSIMILAR WORDS:\n- ⟦{任期|にんき}→任期：11553_ninki⟧: the fixed term of an office, as set by rule. {在任|ざいにん} is the actual time someone holds it.\n- ⟦{在職|ざいしょく}→在職：12129_zaishoku⟧: being employed in a job; broader, not limited to official posts.\n\nWATCH OUT:\n- The homophone ⟦{罪人|ざいにん}→罪人：13984_zainin⟧ means a criminal or sinner.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11553_ninki",
+      "reading": "にんき",
+      "headword": "{任期|にんき}",
+      "label": "the fixed term of an office, as set…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12129_zaishoku",
+      "reading": "ざいしょく",
+      "headword": "{在職|ざいしょく}",
+      "label": "being employed in a job"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -146,7 +162,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "work"
+        "work",
+        "politics"
       ],
       "style": [
         "written"
@@ -155,6 +172,6 @@
       "transitivity": "intransitive"
     },
     "created": "2026-03-24T13:57:49Z",
-    "modified": "2026-09-26T21:18:09Z"
+    "modified": "2026-09-29T17:54:58Z"
   }
 }
