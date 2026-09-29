@@ -1580,3 +1580,6 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - [entry] 04160: audio checks objected to 04160_saiten_ex4, which begins {枚|まい}もの{答案|とうあん}; the number before 枚 is missing. (routine 2026-09-29 #005)
 - [entry] 04318: audio checks heard 出てくると for 出てくるとと in 04318_hanayome_ex5; the example has a typo (doubled と). (routine 2026-09-29 #005)
 - [entry] 04239: audio checks heard でんりょくがいしゃ for {電力|でんりょく}{会社|かいしゃ} in 04239_kirikaeru_ex5; check the furigana (がいしゃ is the usual reading in this compound). (routine 2026-09-29 #005)
+- [entry] 04646: audio checks heard ねづいて in 04646_netsuku_ex10; the example is wrong, not the furigana: it uses {寝付|ねつ}いて (fall asleep) for a tradition "firmly established", which is 根付く (ねづく), and the verb is doubled (寝付いて + いて). Replace the example with a 寝付く sentence; check whether 根付く has an entry. (routine 2026-09-29 #009)
+- [entry] 05137: audio checks heard ぶつりゅうがいしゃ for {物流|ぶつりゅう}{会社|かいしゃ} in 05137_butsuryuu_ex4; check the furigana (がいしゃ is the usual reading in this compound, as with 04239). (routine 2026-09-29 #009)
+- [entry] 04987: audio checks heard しゃけちゃづけ for {鮭茶漬|さけちゃづ}け in 04987_chazuke_ex2; しゃけ is a common reading of 鮭 in this dish name; consider it in the furigana or leave for Tom. (routine 2026-09-29 #009)
