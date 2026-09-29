@@ -329,8 +329,9 @@ def compute_multipliers(signals, config, remaining):
             f"not triggered ({unharv} unharvested < {nz['observations_unharvested_lines']} "
             f"or {days:.0f} days < {min_days:.0f})")
 
-    # accuracy-review: hard suppression when out of budget
-    if remaining <= 0:
+    # accuracy-review: hard suppression when out of budget. The session budget
+    # is rounded to cents (build_params), so a remainder under one cent is none.
+    if remaining < 0.01:
         mult["accuracy-review"] = 0.0
         reasons["accuracy-review"].append("OpenRouter daily cap reached")
 

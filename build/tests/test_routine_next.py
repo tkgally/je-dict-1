@@ -102,6 +102,14 @@ class TestScheduler(unittest.TestCase):
         tally, _ = simulate(cfg, neutral_signals(), remaining=5.0, n=2000)
         self.assertNotIn("systemic-fix", tally)
 
+    def test_accuracy_review_suppressed_below_one_cent(self):
+        # A remainder that rounds to a $0.00 session budget can buy no review.
+        cfg = base_config()
+        tally, _ = simulate(cfg, neutral_signals(), remaining=0.0016, n=2000)
+        self.assertNotIn("accuracy-review", tally)
+        tally, _ = simulate(cfg, neutral_signals(), remaining=0.5, n=2000)
+        self.assertGreater(tally.get("accuracy-review", 0), 0)
+
     def test_systemic_fix_suppressed_when_no_backlog(self):
         cfg = base_config()  # systemic-fix enabled
         sig = neutral_signals()
