@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-29 (Routine v3: new-entries — 20 New Entries, IDs 31245–31264)
+
+Twenty internal-closure words that older entries already used: 頼み, 国道, 郵便番号, 曽祖父, 社会科, 副社長, 末裔,
+随行, 回送, 方便, 無償, 満場, 埋蔵, 半期, 膝小僧, 暑中, 速力, レース (race; lace), マイル (mile; airline miles), 悲報.
+Two old `noentry` markers for 暑中 (in 夏 and 見舞い) now link. New kanji 曽 and 裔 added to the kanji index. Six
+words named in the new notes queued as candidates (曽祖母, 曽孫, 県道, 有償, 訃報, 朗報). Self-check skipped: the
+day's OpenRouter budget was spent.
+
 ### 2026-09-29 (Routine v3: new-entries — 20 New Entries, IDs 31225–31244)
 
 Twenty internal-closure words that older entries already used: 暮れる, 女の人, 割れ目, ほのか, じきに, ギャップ,
@@ -79,9 +87,3 @@ verbs (暮れる, 縫い付ける, 創出する), and eight prefecture and regio
 Eight proposals dropped as duplicates or variant spellings of existing entries (箸置き, 湯呑, 売り上げ, ひな人形,
 長葱, 心掛ける, 寝間着, 和歌山 = 和歌山県). Candidate queue stands at 144.
 
-### 2026-09-28 (Routine v3: new-entries — 8 New Entries, IDs 31195–31202)
-
-The last six internal-closure candidates: 知床, 鳶が鷹を生む, 大根役者, 笑い皺, 追々 (gradually; distinct from 08812
-おいおい 'bawling'), これまで; then two from the vetted proper-noun queue, 湯川秀樹 and 嵐山. 05387's old `noentry`
-marker for 嵐山 now links, and 08731's cross-reference to 鳶が鷹を生む is hardened. Stopped at eight because the
-run clock was near its end. Self-check skipped (daily review budget spent). Candidate queue stands at 70.
