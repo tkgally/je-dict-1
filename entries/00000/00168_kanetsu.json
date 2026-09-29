@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "COOKING:\n- {加熱|かねつ}⟦する→する：00392_suru⟧ (to heat)\n- {加熱|かねつ}⟦{調理|ちょうり}→調理：07156_chouri⟧ (cooking with heat)\n- {加熱|かねつ}⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧ (heat sterilization)\n- ⟦{要|よう}→要：10000_you⟧{加熱|かねつ} (requires heating)\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{加熱|かねつ}⟦する→する：00392_suru⟧\n\nFOOD SAFETY:\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦に→に：00314_ni⟧{加熱|かねつ}⟦する→する：00392_suru⟧ (to heat thoroughly)\n- {加熱|かねつ}⟦{不足|ふそく}→不足：03598_fusoku⟧ (insufficient heating)\n\nTECHNICAL:\n- {加熱|かねつ}⟦{式|しき}→式：02000_shiki⟧⟦タバコ→たばこ：02909_tabako⟧ (heated tobacco product)\n- {加熱|かねつ}⟦{装置|そうち}→装置：03318_souchi⟧ (heating device)\n\nSIMILAR WORDS:\n- ⟦{冷却|れいきゃく}→冷却：09796_reikyaku⟧ (cooling)\n\nSIMILAR:\n- ⟦{温|あたた}める→温める：02096_atatameru⟧ (to warm up - general)\n- ⟦{熱|ねっ}する→熱する：09794_nessuru⟧ (to heat - technical)",
+  "notes": "COMMON COLLOCATIONS:\n- {加熱|かねつ}⟦{調理|ちょうり}→調理：07156_chouri⟧: cooking with heat\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦に→に：00314_ni⟧{加熱|かねつ}⟦する→する：00392_suru⟧: to heat thoroughly\n- {加熱|かねつ}⟦{不足|ふそく}→不足：03598_fusoku⟧: insufficient heating\n- ⟦{要|よう}→要：10000_you⟧{加熱|かねつ}: must be heated (label on food)\n- {加熱|かねつ}⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧: heat sterilization, pasteurization\n- {加熱|かねつ}{式|しき}タバコ: heated tobacco product\n\nTRANSITIVITY:\nTransitive: [noun]⟦を→を：00422_wo⟧{加熱|かねつ}⟦する→する：00392_suru⟧. No intransitive pair.\n\nSIMILAR WORDS:\n- ⟦{温|あたた}める→温める：02096_atatameru⟧: to warm up, the everyday word (⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧⟦で→で：00502_de⟧⟦{温|あたた}める→温める：02096_atatameru⟧); {加熱|かねつ}⟦する→する：00392_suru⟧ is the word on labels and instructions\n- ⟦{熱|ねっ}する→熱する：09794_nessuru⟧: to heat, written and technical\n- ⟦{冷却|れいきゃく}→冷却：09796_reikyaku⟧: cooling (the opposite)\n\nWATCH OUT:\n⟦{過熱|かねつ}→過熱：17157_kanetsu⟧ (overheating) has the same reading.",
   "cross_references": [
     {
       "type": "antonym",
@@ -186,7 +186,7 @@
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-09-04T12:29:38Z",
+    "modified": "2026-09-29T09:11:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -201,6 +201,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
+        "cooking",
         "action"
       ],
       "verb_class": "suru"
