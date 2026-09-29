@@ -5,7 +5,7 @@
   "part_of_speech": "verb (godan)",
   "verb_type": "godan",
   "transitivity": "intransitive",
-  "gloss": "to vacate; to move out; to evacuate",
+  "gloss": "to vacate; to move out (of a property)",
   "conjugation": {
     "type": "godan",
     "forms": [
@@ -99,8 +99,8 @@
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "to vacate; to move out; to evacuate",
-      "explanation": "To leave and empty a place, especially a residence or property, often due to eviction, development, or emergency."
+      "gloss": "to vacate; to move out; to clear out",
+      "explanation": "To leave and give up a place one has been occupying, especially a home or premises, typically because of eviction, redevelopment, or an order."
     }
   ],
   "examples": [
@@ -126,8 +126,8 @@
     },
     {
       "id": "09011_tachinoku_ex3",
-      "japanese": "⟦{火災|かさい}→火災：02561_kasai⟧⟦{発生|はっせい}→発生：03133_hassei⟧⟦で→で：00502_de⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦ビル→ビル：01500_biru⟧⟦から→から：00504_kara⟧{立|た}ち{退|の}いた。",
-      "english": "Everyone evacuated the building when the fire broke out.",
+      "japanese": "⟦{家主|やぬし}→家主：04079_yanushi⟧⟦から→から：00504_kara⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{立|た}ち{退|の}くよう⟦{求|もと}められて→求める：02316_motomeru⟧、⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{引|ひ}っ{越|こ}し{先|さき}→引っ越し先：21647_hikkoshisaki⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
+      "english": "The landlord has asked me to move out by next month, so I'm hurrying to find a new place.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -135,7 +135,7 @@
       ]
     }
   ],
-  "notes": "{立|た}ち{退|の}く is used for formally leaving a property or area.\n\nCOMMON COLLOCATIONS:\n- ⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧⟦を→を：00422_wo⟧⟦{命|めい}じられる→命じる：02309_meijiru⟧: to be ordered to vacate\n- ⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧⟦{料|りょう}→料：28172_ryou⟧: eviction compensation\n- ⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧⟦{要求|ようきゅう}→要求：03658_youkyuu⟧: demand to vacate\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧: forced eviction\n\nUSAGE:\n- {立|た}ち{退|の}かせる (causative): to evict, to force out\n- {立|た}ち{退|の}かされる (passive): to be evicted\n\nRELATED WORDS:\n- ⟦{退去|たいきょ}→退去：06693_taikyo⟧⟦する→する：00392_suru⟧: to leave, to vacate (more formal)\n- ⟦{明|あ}け→明け：13157_ake⟧⟦{渡|わた}す→渡す：02442_watasu⟧: to hand over, to vacate",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧⟦を→を：00422_wo⟧⟦{命|めい}じられる→命じる：02309_meijiru⟧: to be ordered to vacate\n- {立|た}ち{退|の}き⟦{料|りょう}→料：28172_ryou⟧: compensation paid to a tenant for moving out\n- ⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧⟦{要求|ようきゅう}→要求：03658_youkyuu⟧: demand to vacate\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧: forced eviction\n\nCOMMON PATTERNS:\n- {立|た}ち{退|の}かせる (causative): to evict, to force out\n- {立|た}ち{退|の}かされる (causative passive): to be evicted\n\nSIMILAR WORDS:\n- ⟦{退去|たいきょ}→退去：06693_taikyo⟧⟦する→する：00392_suru⟧: to leave, to vacate; more formal, and used in rental contracts and official orders.\n- ⟦{避難|ひなん}する→避難する：26827_hinansuru⟧: to evacuate from danger (fire, flood). For an emergency, use ⟦{避難|ひなん}する→避難する：26827_hinansuru⟧ rather than {立|た}ち{退|の}く.",
   "cross_references": [
     {
       "type": "related",
@@ -143,11 +143,18 @@
       "reading": "たいきょ",
       "headword": "{退去|たいきょ}",
       "label": "to leave, to vacate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26827_hinansuru",
+      "reading": "ひなんする",
+      "headword": "{避難|ひなん}する",
+      "label": "to evacuate from danger (fire, flood).…"
     }
   ],
   "metadata": {
     "created": "2026-01-30T14:52:14Z",
-    "modified": "2026-09-04T12:31:08Z",
+    "modified": "2026-09-29T16:25:42Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

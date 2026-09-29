@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Ichidan verb. The transitive counterpart of {低|ひく}まる (to become lower). Common collocations: ⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧{低|ひく}める (lower one's voice), ⟦リスク→リスク：06752_risuku⟧⟦を→を：00422_wo⟧{低|ひく}める (reduce risk), ⟦ハードル→ハードル：11117_haadoru⟧⟦を→を：00422_wo⟧{低|ひく}める (lower the bar/hurdle), ⟦{敷居|しきい}→敷居：06937_shikii⟧⟦を→を：00422_wo⟧{低|ひく}める (lower the threshold, make something more accessible). Compare with ⟦{下|さ}げる→下げる：00807_sageru⟧, which is more general and everyday; {低|ひく}める specifically focuses on making something lower in height, level, or degree.",
+  "notes": "TRANSITIVITY:\n- ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive), paired with the intransitive {低|ひく}まる (to become lower).\n\nCOMMON COLLOCATIONS:\n- ⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧{低|ひく}める: to lower one's voice\n- ⟦リスク→リスク：06752_risuku⟧⟦を→を：00422_wo⟧{低|ひく}める: to reduce a risk\n- ⟦ハードル→ハードル：11117_haadoru⟧⟦を→を：00422_wo⟧{低|ひく}める: to lower the bar\n- ⟦{敷居|しきい}→敷居：06937_shikii⟧⟦を→を：00422_wo⟧{低|ひく}める: to make something more approachable\n\nSIMILAR WORDS:\n- ⟦{下|さ}げる→下げる：00807_sageru⟧: to lower; the general everyday word (prices, a flag, the temperature, one's head). {低|ひく}める is for level or degree, often in written language, and is not used for prices: ⟦{値段|ねだん}→値段：00871_nedan⟧⟦を→を：00422_wo⟧⟦{下|さ}げる→下げる：00807_sageru⟧, not ⟦{値段|ねだん}→値段：00871_nedan⟧⟦を→を：00422_wo⟧{低|ひく}める.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00807_sageru",
+      "reading": "さげる",
+      "headword": "{下|さ}げる",
+      "label": "to lower"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +160,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-23T01:57:36Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-09-29T16:25:42Z"
   }
 }

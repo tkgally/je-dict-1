@@ -2,7 +2,7 @@
   "id": "03344_joukyou",
   "headword": "{上京|じょうきょう}",
   "reading": "じょうきょう",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "going to Tokyo",
   "definitions": [
     {
@@ -63,23 +63,116 @@
       ]
     }
   ],
-  "notes": "{上京|じょうきょう}⟦する→する：00392_suru⟧ is used as a ⟦する→する：00392_suru⟧-verb meaning \"to go up to Tokyo.\"\n\nETYMOLOGY:\nThe term {上京|じょうきょう} literally means \"going up to the capital.\" Historically, this referred to Kyoto (⟦{京都|きょうと}→京都：09484_kyouto⟧). After the Meiji Restoration (1868), when the capital moved to Tokyo, {上京|じょうきょう} came to mean going to Tokyo.\n\nCOMMON COLLOCATIONS:\n- {上京|じょうきょう}⟦する→する：00392_suru⟧ (to go to Tokyo)\n- {上京|じょうきょう}⟦{組|ぐみ}→組：02668_kumi⟧ (people who moved to Tokyo)\n\nRELATED WORDS:\n- ⟦{帰京|ききょう}→帰京：noentry⟧: returning to Tokyo\n- ⟦{在京|ざいきょう}→在京：noentry⟧: being in Tokyo\n- ⟦{入京|にゅうきょう}→入京：noentry⟧: entering the capital (literary)",
+  "notes": "TRANSITIVITY:\n- ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive): {上京|じょうきょう}⟦する→する：00392_suru⟧. The starting point takes から: ⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦から→から：00504_kara⟧{上京|じょうきょう}⟦する→する：00392_suru⟧.\n\nWATCH OUT:\n- {上京|じょうきょう} is going to Tokyo from elsewhere in Japan, usually to live, study, or work there, and it carries a sense of coming up to the capital. It is not used for going to Tokyo from abroad, and it is used for either direction of view: a speaker in Tokyo says {上京|じょうきょう}してきた, one elsewhere says {上京|じょうきょう}⟦した→する：00392_suru⟧.\n\nETYMOLOGY:\n- Literally \"going up to the capital.\" It referred to Kyoto until the capital moved to Tokyo after the Meiji Restoration (1868).\n\nRELATED WORDS:\n- {帰京|ききょう}: returning to Tokyo\n- {在京|ざいきょう}: being based in Tokyo\n- {上京|じょうきょう}{組|ぐみ}: people who moved to Tokyo from elsewhere",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-12T06:33:30Z",
-    "modified": "2026-09-27T16:50:15Z",
+    "modified": "2026-09-29T16:25:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "travel",
         "geography"
-      ]
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{上京|じょうきょう}する",
+        "negative": "{上京|じょうきょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{上京|じょうきょう}します",
+        "negative": "{上京|じょうきょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{上京|じょうきょう}した",
+        "negative": "{上京|じょうきょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{上京|じょうきょう}しました",
+        "negative": "{上京|じょうきょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{上京|じょうきょう}して",
+        "negative": "{上京|じょうきょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{上京|じょうきょう}している",
+        "negative": "{上京|じょうきょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{上京|じょうきょう}しています",
+        "negative": "{上京|じょうきょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{上京|じょうきょう}していた",
+        "negative": "{上京|じょうきょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{上京|じょうきょう}していました",
+        "negative": "{上京|じょうきょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{上京|じょうきょう}すれば",
+        "negative": "{上京|じょうきょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{上京|じょうきょう}したら",
+        "negative": "{上京|じょうきょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{上京|じょうきょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{上京|じょうきょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{上京|じょうきょう}できる",
+        "negative": "{上京|じょうきょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{上京|じょうきょう}される",
+        "negative": "{上京|じょうきょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{上京|じょうきょう}させる",
+        "negative": "{上京|じょうきょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{上京|じょうきょう}しろ",
+        "negative": "{上京|じょうきょう}するな"
+      }
+    ]
   }
 }
