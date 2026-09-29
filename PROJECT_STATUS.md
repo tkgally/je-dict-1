@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-29 (Routine v3: new-entries — 15 New Entries, IDs 31275–31289)
+
+Fifteen words that older entries used inside stripped `noentry` markers: テロ, ミュージカル, カップラーメン, 器用貧乏,
+改憲, 空輸, 逆輸入, 遠洋, 米屋, 明晩, 活気づく, 追い求める, 無駄死に, 細心, 自費. Reciprocal cross-references added on
+eight neighbours (八百屋, 輸送, 追求, 酒屋, 魚屋, 追いかける, 多才, 沖合). No new kanji. Self-check skipped: the day's
+OpenRouter budget was spent.
+
 ### 2026-09-29 (Routine v3: new-entries — 10 New Entries, IDs 31265–31274)
 
 Ten words that this day's earlier entries and notes named: 曽祖母, 曽孫, 県道, 有償, 訃報, 朗報, 潜める (with its pair
@@ -77,11 +84,4 @@ Self-check skipped: the day's OpenRouter budget was spent.
 Fourteen internal-closure words that older entries already used: 一発屋, システムエンジニア, 自由主義, 丹頂鶴,
 消毒液, 探知機, 手品師, 得意客, キャンプ場, スキー場, リップクリーム, 代表団, 玄関先, ハザードマップ. Fifteen
 old `noentry` markers in fifteen entries now link to them. Self-check skipped: the day's OpenRouter budget was spent.
-
-### 2026-09-29 (Routine v3: new-entries — 8 New Entries, IDs 31203–31210)
-
-Eight internal-closure words that older entries already used: マグネット, ピクセル, クレーター, ブザー, 泡風呂,
-海鮮丼, 警告灯, 拳骨. Ten old `noentry` markers in ten entries now link to them, and the harvester added
-contrast cross-references from 磁石, 画素, 火口, 警報 and ちらし寿司. Stopped at eight because the run clock was
-near its end. Self-check clean.
 
