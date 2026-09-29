@@ -109,6 +109,7 @@ python3 build/review_accuracy.py --ids 05907 --dimensions notes --dry-run
 python3 build/review_accuracy.py --report
 python3 build/review_transitivity.py --all-missing --budget 1.00   # transitivity proposals for untagged verbs
 python3 build/review_runner.py --pass screening --range 1 100      # furigana screener (manual use only; 2% precision)
+python3 build/review_runner.py --pass deep --ids 00123 --max-minutes 20   # deep furigana pass (manual; drops a model slower than 90s/call, stops at the time limit)
 ```
 
 ## Example audio (requires OPENROUTER_API_KEY; AUDIO_WORKFLOW.md)

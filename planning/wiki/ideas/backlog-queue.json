@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -1448,18 +1448,18 @@
     {
       "id": "review-deep-pass-unusable-in-routine",
       "title": "review_runner.py --pass deep runs ~1 entry per 15 minutes in the scheduled environment",
-      "source": "ideas/tooling-backlog.md#141-the-deep-furigana-pass-cannot-run-inside-a-routine--gemini-25-pro-is-the-whole-cost",
+      "source": "ideas/tooling-backlog-resolved.md#141-the-deep-furigana-pass-cannot-run-inside-a-routine--gemini-25-pro-is-the-whole-cost",
       "detect": "n/a (operational)",
       "fix_type": "tooling",
       "verify": "none",
       "priority": 6,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 1,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "items",
-      "scope_measured_at": "2026-08-31",
+      "scope_measured_at": "2026-09-29",
       "severity": "error",
-      "notes": "DEEP_MODELS = [openai/gpt-4.1, google/gemini-2.5-pro] at review_runner.py:52; RATE_LIMIT_INTERVAL=6.0 is per model and accounts for ~12s of the 15 minutes, so the rest is 2.5-pro latency. Screening (flash) and review_accuracy.py both run ~6 entries/min in the same session. Fix: faster second deep model, or a per-entry wall-clock timeout dropping to one model, or make the deep pass curator-only. A Routine that starts the deep pass has no way to stop it, which is how a run loses its wrap-up budget."
+      "notes": "DEEP_MODELS = [openai/gpt-4.1, google/gemini-2.5-pro] at review_runner.py:52; RATE_LIMIT_INTERVAL=6.0 is per model and accounts for ~12s of the 15 minutes, so the rest is 2.5-pro latency. Screening (flash) and review_accuracy.py both run ~6 entries/min in the same session. Fix: faster second deep model, or a per-entry wall-clock timeout dropping to one model, or make the deep pass curator-only. A Routine that starts the deep pass has no way to stop it, which is how a run loses its wrap-up budget. RESOLVED 2026-09-29: --slow-seconds (default 90) drops a slow model while another remains; --max-minutes (default 20) stops the pass and prints unreached IDs."
     },
     {
       "id": "accuracy-review-artifact-staleness",

@@ -4575,26 +4575,6 @@ thing on this page.
 
 ## Updates 2026-08-31 (wiki harvest)
 
-### 141. The deep furigana pass cannot run inside a Routine — `gemini-2.5-pro` is the whole cost
-
-A 2026-08-30 accuracy-review run reported that `review_runner.py --pass deep` completed **one
-entry in ~15 minutes** in the scheduled environment, which puts the 62 screening-flagged entries
-in 14330–14930 at roughly eight hours. The same session ran the screening pass and
-`review_accuracy.py` at ~6 entries/minute, so this is not the network.
-
-The source agrees with the report: `SCREENING_MODEL = "google/gemini-2.5-flash"` but
-`DEEP_MODELS = ["openai/gpt-4.1", "google/gemini-2.5-pro"]` (`review_runner.py:50–52`), and
-`RATE_LIMIT_INTERVAL = 6.0` is per model, so rate limiting accounts for at most ~12 s of the 15
-minutes. The remainder is 2.5-pro's own latency on a reasoning-heavy prompt.
-
-Three fixes, any one sufficient: swap the second deep model for a fast one; add a per-entry
-wall-clock timeout that drops to a single model; or accept the deep pass as a curator-run tool
-and let the Routine lean on §A's known-noise shortcut by default. The third is nearly the status
-quo already — the shortcut has skipped the deep pass on the last several accuracy-review runs
-because screening precision over polished ranges is 0–5%. **The operational point is that a
-Routine that does start the deep pass has no way to stop it**, which is how a run loses its
-context budget before the wrap-up.
-
 ### 142. `reviews/accuracy/*.json` go stale silently, and adjudicating from them wastes a run
 
 Stored accuracy reviews carry no marker saying which version of the entry they describe. The
