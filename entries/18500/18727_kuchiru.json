@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "An ichidan verb with a somewhat literary or elevated register. Common collocations: ⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{朽|く}ちる (wood decays), ⟦{骨|ほね}→骨：02166_hone⟧⟦が→が：00051_ga⟧{朽|く}ちる (bones crumble away), ⟦{名|な}→名：03496_na⟧⟦が→が：00051_ga⟧{朽|く}ちる (a name fades into obscurity). The compound {朽|く}ち⟦{果|は}てる→果てる：28565_hateru⟧ means 'to rot away completely.' Contrasts with the more everyday ⟦{腐|くさ}る→腐る：02049_kusaru⟧, which focuses on biological decomposition with unpleasant qualities (smell, slime), while {朽|く}ちる suggests gradual deterioration over a long period.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{朽|く}ちる: wood decays\n- {朽|く}ちかける: to begin to crumble\n- ⟦{名|な}→名：03496_na⟧⟦も→も：00484_mo⟧⟦なく→ない：01118_nai⟧{朽|く}ちる: to die in obscurity\n- {朽|く}ち⟦{果|は}てる→果てる：28565_hateru⟧: to rot away completely\n\nSIMILAR WORDS:\n- ⟦{腐|くさ}る→腐る：02049_kusaru⟧: to rot, to go bad; the everyday word, for food and organic matter breaking down, usually with smell or slime. {朽|く}ちる is slow crumbling over years, mostly of wood and buildings, and sounds literary.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02049_kusaru",
+      "reading": "くさる",
+      "headword": "{腐|くさ}る",
+      "label": "to rot, to go bad"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -146,7 +155,8 @@
       "politeness": "plain",
       "transitivity": "intransitive",
       "semantic": [
-        "existence"
+        "change",
+        "nature"
       ],
       "style": [
         "literary"
@@ -154,6 +164,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-23T01:55:52Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-09-29T16:25:42Z"
   }
 }
