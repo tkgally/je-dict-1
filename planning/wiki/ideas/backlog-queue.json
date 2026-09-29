@@ -1553,10 +1553,11 @@
       "verify": "python3 build/check_link_baseform.py --gate",
       "priority": 6,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 8,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "low",
-      "notes": "The new-entries post-creation sequence runs the detector with --since; this item catches whatever accumulates."
+      "notes": "The new-entries post-creation sequence runs the detector with --since; this item catches whatever accumulates. RESOLVED 2026-09-29: queue 180 → 0. The detector now drops a competitor when the surface's kanji exclude it, or when build/data/link_newcomer_judgments.json records a pair judgment (どう→how over 胴, kana only; 〜師 suffix over 師). Before this, a judged link stayed listed until its entry was next edited. Reopen if the new-entries --since check starts leaving findings.",
+      "scope_measured_at": "2026-09-29"
     },
     {
       "id": "notes-unknown-headers-fold",

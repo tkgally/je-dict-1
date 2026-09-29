@@ -60,6 +60,7 @@ python3 build/add_adjective_conjugations.py                  # Conjugation table
 
 ```bash
 python3 build/check_link_newcomers.py --since 2026-09-01 --json  # Links whose word gained a homograph
+# judged pairs (kept links) go in build/data/link_newcomer_judgments.json; kanji surfaces that exclude a competitor are cleared automatically
 python3 build/check_link_homophones.py                  # Kana-base links by tier (unique / verify / block / unscreened)
 python3 build/check_link_homophones.py --unscreened     # Kana bases the curated list does not know yet
 python3 build/check_link_homophones.py --json --tier verify --sample 60   # Occurrence queue for review_links.py

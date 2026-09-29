@@ -25,6 +25,16 @@ Usage:
     python3 build/check_link_newcomers.py --json           # machine-readable queue
     python3 build/check_link_newcomers.py --range 7000 7999
     python3 build/check_link_newcomers.py --since 2026-08-01   # competitors created since
+
+Two things take a competitor out of a finding, so a judged link is not listed
+again on every run:
+
+- The link's surface is written with kanji and none of the competitor's kanji
+  appear in it ({伺|うかが}う cannot be 窺う). Deterministic.
+- A pair judgment in build/data/link_newcomer_judgments.json: base form, the
+  linked target, the competitor, and ``"surface": "kana"`` (only kana surfaces)
+  or ``"any"``. One line covers every link of that base to that target, e.g.
+  kana どう → 00543_dou (how) over 31140_dou 胴, which is written in kanji.
 """
 
 from __future__ import annotations
@@ -39,6 +49,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ENTRIES_DIR = ROOT / "entries"
 LOOKUP_PATH = ROOT / "build" / "word_id_lookup.json"
+JUDGMENTS_PATH = ROOT / "build" / "data" / "link_newcomer_judgments.json"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from check_stale_noentry import reading_agrees, to_hiragana  # noqa: E402
@@ -84,6 +95,36 @@ def load_lookup(path: Path = LOOKUP_PATH) -> tuple[dict, dict]:
     return by_headword, by_reading
 
 
+def load_judgments(path: Path = JUDGMENTS_PATH) -> dict[tuple[str, str, str], str]:
+    """(base, target, competitor) -> 'kana' | 'any' for each recorded keep judgment."""
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    out = {}
+    for j in data.get("judgments", []):
+        if j.get("decision") != "keep":
+            continue
+        key = (normalize(strip_furigana(j["base"])), j["target"], j["competitor"])
+        out[key] = j.get("surface", "any")
+    return out
+
+
+def kanji_excludes(surface: str, competitor_headword: str) -> bool:
+    """True when the surface is written with kanji that the competitor never uses."""
+    s_kanji = set(KANJI_PATTERN.findall(strip_furigana(surface)))
+    c_kanji = set(KANJI_PATTERN.findall(strip_furigana(competitor_headword)))
+    return bool(s_kanji) and bool(c_kanji) and not (s_kanji & c_kanji)
+
+
+def judged(surface: str, base: str, target: str, competitor: dict, judgments: dict) -> bool:
+    if kanji_excludes(surface, competitor.get("headword", "")):
+        return True
+    scope = judgments.get((normalize(strip_furigana(base)), target, competitor["id"]))
+    if scope is None:
+        return False
+    return scope == "any" or not KANJI_PATTERN.search(strip_furigana(surface))
+
+
 def load_entries(entries_dir: Path = ENTRIES_DIR) -> dict[str, tuple[Path, dict]]:
     entries = {}
     for path in sorted(entries_dir.glob("*/*.json")):
@@ -107,8 +148,9 @@ def candidates_for_link(surface: str, base: str, by_headword: dict, by_reading: 
 
 
 def scan(id_range=None, since: str | None = None, entries_dir: Path = ENTRIES_DIR,
-         lookup_path: Path = LOOKUP_PATH) -> tuple[list[dict], dict]:
+         lookup_path: Path = LOOKUP_PATH, judgments_path: Path = JUDGMENTS_PATH) -> tuple[list[dict], dict]:
     by_headword, by_reading = load_lookup(lookup_path)
+    judgments = load_judgments(judgments_path)
     entries = load_entries(entries_dir)
     created = {stem: ((e.get("metadata") or {}).get("created") or "") for stem, (_p, e) in entries.items()}
     headword_of = {stem: strip_furigana(e.get("headword") or "") for stem, (_p, e) in entries.items()}
@@ -120,7 +162,7 @@ def scan(id_range=None, since: str | None = None, entries_dir: Path = ENTRIES_DI
 
     findings: list[dict] = []
     stats = {"links": 0, "noentry": 0, "dead-target": 0, "single-candidate": 0,
-             "multi-old": 0, "multi-newcomer": 0, "xrefs": 0, "xref-newcomer": 0}
+             "multi-old": 0, "multi-newcomer": 0, "judged": 0, "xrefs": 0, "xref-newcomer": 0}
 
     def newer_competitors(ids: list[str], target: str, modified: str) -> list[dict]:
         out = []
@@ -176,6 +218,10 @@ def scan(id_range=None, since: str | None = None, entries_dir: Path = ENTRIES_DI
                 newer = newer_competitors(ids, target, modified)
                 if not newer:
                     stats["multi-old"] += 1
+                    continue
+                newer = [c for c in newer if not judged(surface, base, target, c, judgments)]
+                if not newer:
+                    stats["judged"] += 1
                     continue
                 stats["multi-newcomer"] += 1
                 findings.append({
@@ -254,6 +300,7 @@ def summarize(findings: list[dict], stats: dict) -> None:
     print(f"  dead target:            {stats['dead-target']}  (check_link_targets.py)")
     print(f"  single candidate:       {stats['single-candidate']}")
     print(f"  multi, all older:       {stats['multi-old']}")
+    print(f"  multi, judged:          {stats['judged']}  (kanji mismatch or link_newcomer_judgments.json)")
     print(f"  multi, NEWCOMER:        {stats['multi-newcomer']}")
     print(f"  cross-refs scanned:     {stats['xrefs']}")
     print(f"  cross-ref NEWCOMER:     {stats['xref-newcomer']}")
