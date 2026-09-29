@@ -134,11 +134,27 @@
       "notes": null
     }
   ],
-  "notes": "Implies learning through sustained effort and practice, resulting in genuine proficiency. Contrasts with ⟦{学|まな}ぶ→学ぶ：01987_manabu⟧ (to study/learn, more general) and ⟦{覚|おぼ}える→覚える：00739_oboeru⟧ (to memorize/learn, often for specific facts). Common objects include ⟦{言語|げんご}→言語：02717_gengo⟧ (language), ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧ (technique/skill), ⟦{知識|ちしき}→知識：01463_chishiki⟧ (knowledge), and ⟦スキル→スキル：08815_sukiru⟧ (skill). The related word ⟦{取得|しゅとく}→取得：11947_shutoku⟧ focuses on formally obtaining qualifications or certifications.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{言語|げんご}→言語：02717_gengo⟧⟦を→を：00422_wo⟧{習得|しゅうとく}する: to acquire a language\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧{習得|しゅうとく}する: to master a technique\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧⟦を→を：00422_wo⟧{習得|しゅうとく}する: to acquire knowledge\n\nSIMILAR WORDS:\n- ⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: to study, to learn; the general word, for the process rather than the result.\n- ⟦{身|み}につける→身につける：03158_minitsukeru⟧: to acquire, to make one's own; the everyday phrase with much the same meaning.\n{習得|しゅうとく}する stresses reaching real proficiency through sustained practice.\n\nWATCH OUT:\n- ⟦{取得|しゅとく}→取得：11947_shutoku⟧: obtaining a qualification, license, or document (⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧).\n- The homophone {修得|しゅうとく} is used for completing academic credits: ⟦{単位|たんい}→単位：03412_tani⟧⟦を→を：00422_wo⟧{修得|しゅうとく}⟦する→する：00392_suru⟧.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01987_manabu",
+      "reading": "まなぶ",
+      "headword": "{学|まな}ぶ",
+      "label": "to study, to learn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03158_minitsukeru",
+      "reading": "みにつける",
+      "headword": "{身|み}につける",
+      "label": "to acquire, to make one's own"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -156,6 +172,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T05:33:51Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-09-29T17:25:28Z"
   }
 }

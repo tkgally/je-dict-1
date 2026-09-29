@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of ⟦{再|さい}→再〜：03953_sai⟧ (again) + ⟦{構築|こうちく}→構築：13164_kouchiku⟧ (construction, building). Takes ⟦する→する：00392_suru⟧ to form a verb. Common collocations: ⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦の→の：09472_no⟧{再構築|さいこうちく} (rebuilding trust), ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{再構築|さいこうちく} (restructuring an organization), ⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧{再構築|さいこうちく} (rebuilding a system). In IT contexts, often refers to rebuilding a system or database. Distinct from ⟦{改修|かいしゅう}→改修：12924_kaishuu⟧ (renovation/patching) — {再構築|さいこうちく} implies starting over.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{信頼|しんらい}{関係|かんけい}→信頼関係：16095_shinraikankei⟧⟦を→を：00422_wo⟧{再構築|さいこうちく}⟦する→する：00392_suru⟧: to rebuild trust\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{再構築|さいこうちく}: restructuring an organization\n- ⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧{再構築|さいこうちく}: rebuilding a system (common in IT)\n\nSIMILAR WORDS:\n- ⟦{改修|かいしゅう}→改修：12924_kaishuu⟧: repair and renovation of what exists.\n- ⟦{立|た}て{直|なお}す→立て直す：03113_tatenaosu⟧: to rebuild, to put back on its feet; the everyday verb.\n{再構築|さいこうちく} implies a fundamental redesign, starting over rather than patching.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12924_kaishuu",
+      "reading": "かいしゅう",
+      "headword": "{改修|かいしゅう}",
+      "label": "repair and renovation of what exists."
+    },
+    {
+      "type": "contrast",
+      "target_id": "03113_tatenaosu",
+      "reading": "たてなおす",
+      "headword": "{立|た}て{直|なお}す",
+      "label": "to rebuild, to put back on its feet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "transitivity": "transitive"
     },
     "created": "2026-03-23T09:27:15Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-09-29T17:25:28Z"
   }
 }
