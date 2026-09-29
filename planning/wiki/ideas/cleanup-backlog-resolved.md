@@ -1614,3 +1614,26 @@ cheapest available audit of whether the inline-link step actually finished.
 
 **Resolved 2026-09-28** (routine systemic-fix): the detector (≥1 link in notes, zero links in every example) now finds no entries; earlier polish and mechanical passes linked the examples.
 
+## Priority 49: Wrong furigana inside inline-link surfaces (40 pairs) — a blind spot in every furigana instrument
+
+**Source**: 2026-08-08 routine polish observation on `check_stale_noentry.py`'s class R
+(link surface's furigana contradicts the target entry's reading).
+
+The detector was built to find stale `noentry` markers; class R is an **unintended furigana-error
+detector**, and the hand-checked pairs are genuine errors in the source entries:
+来春 written らいはる, 農作物 のうさくもつ, 墓石 はかいし, 完全試合 かんぜんしあい,
+白和え しろあえ, 部屋干し へやほし, and 言い及ぶ wrapped as `{言|い}{及|およ}ぶ`.
+
+**Scope**: **40 pairs**. **Status**: resolved 2026-09-29 (13 pairs fixed; the remaining 30 class-R pairs are legitimate readings; 犬種 to the curator); verify each against the target entry before applying
+(the target's reading is the authority, but a link surface may legitimately carry an inflected
+reading).
+
+**Why these survived every net**: all 40 sit inside a `⟦…⟧` link *surface*, and both
+`find_missing_furigana.py` and the OpenRouter furigana screener read past link surfaces to the
+sentence text. This is the third instance of the same shape —
+[P36](#priority-36-headwords-missing-furigana) (headword field) and
+[Tooling 47](tooling-backlog.md#47-cross-reference-headword-fields-are-invisible-to-every-furigana-instrument-7-confirmed-defects)
+(cross-reference headwords) were the first two: **a field outside `examples[].japanese` and
+`notes` falls through every furigana instrument the project owns.** The recurring fix is not 40
+edits but folding link surfaces into the instruments, which is why this is filed here *and*
+noted against Tooling 47's family.

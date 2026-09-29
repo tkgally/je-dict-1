@@ -2884,7 +2884,7 @@ target entry's reading, and in doing so found 40 pairs of genuine furigana error
 部屋干し/へやほし, 言い及ぶ as `{言|い}{及|およ}ぶ`). It found them **by accident** — it was built
 to detect stale `noentry` markers. Every one sits inside a `⟦…⟧` surface, which
 `find_missing_furigana.py` and the OpenRouter screener both read past. Filed as
-[Cleanup P49](cleanup-backlog.md#priority-49-wrong-furigana-inside-inline-link-surfaces-40-pairs--a-blind-spot-in-every-furigana-instrument);
+[Cleanup P49](cleanup-backlog-resolved.md#priority-49-wrong-furigana-inside-inline-link-surfaces-40-pairs--a-blind-spot-in-every-furigana-instrument);
 the durable fix is to fold link surfaces into the furigana instruments' input, not to hand-fix
 40 pairs and wait for the fourth member.
 

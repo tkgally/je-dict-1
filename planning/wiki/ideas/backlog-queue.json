@@ -919,19 +919,20 @@
     {
       "id": "furigana-in-link-surfaces",
       "title": "Wrong furigana inside inline-link surfaces (check_stale_noentry.py class R)",
-      "source": "ideas/cleanup-backlog.md#priority-49-wrong-furigana-inside-inline-link-surfaces-40-pairs--a-blind-spot-in-every-furigana-instrument",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-49-wrong-furigana-inside-inline-link-surfaces-40-pairs--a-blind-spot-in-every-furigana-instrument",
       "detect": "build/check_stale_noentry.py class R — link surface furigana contradicts the target entry's reading",
       "filter": null,
       "fix_type": "content",
       "verify": "per pair against the target entry's reading; an inflected surface reading can be legitimate",
       "priority": 6,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 40,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "pairs",
-      "scope_measured_at": "2026-08-08",
+      "scope_measured_at": "2026-09-29",
       "severity": "error",
-      "notes": "Found by accident by a stale-noentry detector. Genuine errors: 来春/らいはる, 農作物/のうさくもつ, 墓石/はかいし, 完全試合/かんぜんしあい, 白和え/しろあえ, 部屋干し/へやほし, 言い及ぶ as {言|い}{及|およ}ぶ. Third member of the Tooling 47 family (fields outside examples/notes fall through every furigana instrument); durable fix is folding link surfaces into the instruments."
+      "notes": "Found by accident by a stale-noentry detector. Genuine errors: 来春/らいはる, 農作物/のうさくもつ, 墓石/はかいし, 完全試合/かんぜんしあい, 白和え/しろあえ, 部屋干し/へやほし, 言い及ぶ as {言|い}{及|およ}ぶ. Third member of the Tooling 47 family (fields outside examples/notes fall through every furigana instrument); durable fix is folding link surfaces into the instruments. RESOLVED 2026-09-29: 13 pairs corrected in 13 entries (一回り, 言い及ぶ, 農作物 x2, 洗濯機, 大規模, 日照り, 白和え, お色直し, 部屋干し, 完全試合, 足手まとい, 後手/うしろで), then relinked by the linker. The 30 pairs class R still reports are legitimate: rendaku or inflected surfaces (細工/ざいく, 心地/ごこち, 疲れ/づかれ), bound morphemes (性/せい, 中/じゅう, 読/どく), and accepted alternate readings (来春/らいはる, 七人/ななにん, 墓石/はかいし, 修業/しゅうぎょう, 塩水/えんすい, 派出所/はしゅつじょ, 三階/さんかい). 犬種 (28415 reads いぬしゅ; けんしゅ is standard) went to the curator.",
+      "resolved_date": "2026-09-29"
     },
     {
       "id": "review-accuracy-parallel-workers",
