@@ -46,7 +46,22 @@
   ],
   "notes": "COMMON COLLOCATIONS:\n- {悲報|ひほう}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧: sad news arrives\n- {悲報|ひほう}⟦に→に：00314_ni⟧⟦{接|せっ}する→接する：12920_sessuru⟧: to receive sad news (formal)\n\nSIMILAR WORDS:\n- {訃報|ふほう}: an announcement of someone's death; the standard term in newspapers and formal notices.\n- {朗報|ろうほう}: good news, the opposite. Online, 【{悲報|ひほう}】 and 【{朗報|ろうほう}】 are paired headline tags used half-jokingly.",
   "schema_version": "2.0",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "31269_fuhou",
+      "reading": "ふほう",
+      "headword": "{訃報|ふほう}",
+      "label": "news of someone's death"
+    },
+    {
+      "type": "antonym",
+      "target_id": "31270_rouhou",
+      "reading": "ろうほう",
+      "headword": "{朗報|ろうほう}",
+      "label": "good news"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +77,6 @@
       "domain": []
     },
     "created": "2026-09-29T17:08:11Z",
-    "modified": "2026-09-29T17:09:54Z"
+    "modified": "2026-09-29T18:08:50Z"
   }
 }

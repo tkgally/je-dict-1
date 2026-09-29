@@ -46,7 +46,22 @@
   ],
   "notes": "REGISTER:\n- Like ⟦{祖父|そふ}→祖父：01452_sofu⟧, {曽祖父|そうそふ} belongs to writing and formal speech, and is used for one's own family. In conversation people say ひい⟦おじいさん→おじいさん：02860_ojiisan⟧ or ひい⟦おじいちゃん→おじいちゃん：20642_ojiichan⟧.\n\nRELATED WORDS:\n- {曽祖母|そうそぼ}: great-grandmother\n- ⟦{祖父|そふ}→祖父：01452_sofu⟧: grandfather\n- {曽孫|ひまご}: great-grandchild\n\nWRITING:\n- Also written {曾祖父|そうそふ}, with the traditional form of the first kanji.",
   "schema_version": "2.0",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "31265_sousobo",
+      "reading": "そうそぼ",
+      "headword": "{曽祖母|そうそぼ}",
+      "label": "great-grandmother"
+    },
+    {
+      "type": "related",
+      "target_id": "31266_himago",
+      "reading": "ひまご",
+      "headword": "{曽孫|ひまご}",
+      "label": "great-grandchild"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-09-29T17:04:17Z",
-    "modified": "2026-09-29T17:09:54Z"
+    "modified": "2026-09-29T18:08:50Z"
   }
 }
