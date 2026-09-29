@@ -2807,34 +2807,6 @@ in [Tooling 17](tooling-backlog.md): suppress in-list narrowness suggestions ent
 off-list migrations and category errors. No change to the item; the evidence is now
 overwhelming and the fix remains unshipped.
 
-## Priority 51: Stale calendar-month links — 29 entries point 「月」(がつ) at the *moon* entry
-
-**Source**: 2026-08-10 routine polish observation (fixed in 00956 か月 during that run, the rest
-left). **Measured 2026-08-10 by whole-corpus grep: 29 entries**, confirming the filing exactly.
-
-The suffix entry `30418_gatsu` (〜{月|がつ}, the calendar-month suffix) was created after the
-links were written, so every earlier linking pass had nowhere to point but `02230_tsuki`
-({月|つき}, moon / month-as-a-period). The result is 29 entries whose 一月/七月/九月 examples
-link the learner to the wrong word.
-
-**Detect**: literal string `がつ}→月：02230_tsuki` anywhere in an entry file.
-**Fix**: replace `⟦{月|がつ}→月：02230_tsuki⟧` with `⟦{月|がつ}→月：30418_gatsu⟧`; bump `modified`.
-**Scope**: **29 entries**. **Status**: open, batch-ready.
-
-This is one of the rare items that qualifies as **provably safe under the §B "purely-mechanical"
-carve-out**: the reading がつ is unambiguously the counter-suffix reading of 月 — the moon sense
-is つき and the month-period sense is つき/げつ — so the surface `{月|がつ}` cannot denote the
-target the link currently names. No per-entry semantic judgment is required, only the usual
-post-sweep validation and spot-check.
-
-**Generalise before running it.** The same shape must exist wherever a suffix, counter, or
-bound-morpheme entry was created *after* the homographic free noun it shares a kanji with:
-every link written in the interval points at the noun. A worthwhile companion scan is "inline
-links whose surface reading disagrees with the reading of the entry they target" — that is a
-mechanical string comparison against `entries_index.json` and would find this family and its
-siblings in one pass, rather than one stale-suffix filing at a time. Filed as
-[Tooling 97](tooling-backlog.md).
-
 ## Priority 53: Counter entries with an empty `cross_references` array (39 of 79)
 
 **Source**: 2026-08-10 routine polish observation on the basic-tier counters — 00620 台,

@@ -3228,7 +3228,7 @@ cost; only the current ambiguity pays it every sweep.
 ## 97. Scan for inline links whose surface reading disagrees with the target entry's reading
 
 **Source**: generalised from the 2026-08-10 stale calendar-month finding
-([Cleanup P51](cleanup-backlog.md#priority-51-stale-calendar-month-links--29-entries-point-月がつ-at-the-moon-entry)).
+([Cleanup P51](cleanup-backlog-resolved.md#priority-51-stale-calendar-month-links--29-entries-point-月がつ-at-the-moon-entry)).
 
 29 entries link `⟦{月|がつ}→月：02230_tsuki⟧` — a がつ surface pointing at an entry whose reading
 is つき. The cause is structural rather than careless: the suffix entry `30418_gatsu` was created

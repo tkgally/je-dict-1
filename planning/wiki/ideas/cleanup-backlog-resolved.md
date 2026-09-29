@@ -1637,3 +1637,33 @@ sentence text. This is the third instance of the same shape —
 `notes` falls through every furigana instrument the project owns.** The recurring fix is not 40
 edits but folding link surfaces into the instruments, which is why this is filed here *and*
 noted against Tooling 47's family.
+
+## Priority 51: Stale calendar-month links — 29 entries point 「月」(がつ) at the *moon* entry
+
+**RESOLVED (2026-09-29).** The routine systemic-fix cycle retargeted every remaining `⟦{月|がつ}→月：02230_tsuki⟧` link to `30418_gatsu` in **28 entries** (the 29th, 00956, was fixed on 2026-08-10); modified dates bumped, all 28 validated, independent self-check clean (2 notes flags, both model misreadings). The detector grep now returns 0. The generalised scan (link surface reading vs target reading) remains open as [Tooling 97](tooling-backlog.md).
+
+**Source**: 2026-08-10 routine polish observation (fixed in 00956 か月 during that run, the rest
+left). **Measured 2026-08-10 by whole-corpus grep: 29 entries**, confirming the filing exactly.
+
+The suffix entry `30418_gatsu` (〜{月|がつ}, the calendar-month suffix) was created after the
+links were written, so every earlier linking pass had nowhere to point but `02230_tsuki`
+({月|つき}, moon / month-as-a-period). The result is 29 entries whose 一月/七月/九月 examples
+link the learner to the wrong word.
+
+**Detect**: literal string `がつ}→月：02230_tsuki` anywhere in an entry file.
+**Fix**: replace `⟦{月|がつ}→月：02230_tsuki⟧` with `⟦{月|がつ}→月：30418_gatsu⟧`; bump `modified`.
+**Scope**: **29 entries**. **Status**: open, batch-ready.
+
+This is one of the rare items that qualifies as **provably safe under the §B "purely-mechanical"
+carve-out**: the reading がつ is unambiguously the counter-suffix reading of 月 — the moon sense
+is つき and the month-period sense is つき/げつ — so the surface `{月|がつ}` cannot denote the
+target the link currently names. No per-entry semantic judgment is required, only the usual
+post-sweep validation and spot-check.
+
+**Generalise before running it.** The same shape must exist wherever a suffix, counter, or
+bound-morpheme entry was created *after* the homographic free noun it shares a kanji with:
+every link written in the interval points at the noun. A worthwhile companion scan is "inline
+links whose surface reading disagrees with the reading of the entry they target" — that is a
+mechanical string comparison against `entries_index.json` and would find this family and its
+siblings in one pass, rather than one stale-suffix filing at a time. Filed as
+[Tooling 97](tooling-backlog.md).
