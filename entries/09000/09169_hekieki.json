@@ -2,7 +2,7 @@
   "id": "09169_hekieki",
   "headword": "{辟易|へきえき}",
   "reading": "へきえき",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shrinking back, being fed up, weariness",
   "definitions": [
     {
@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE: Used with ⟦する→する：00392_suru⟧ to form the verb {辟易|へきえき}⟦する→する：00392_suru⟧. Can also be used as a taru-adjective: {辟易|へきえき}たる⟦{思|おも}い→思い：10248_omoi⟧.\n\nNUANCE: {辟易|へきえき} originally meant being pushed back by a powerful force (sense 1), but is now more commonly used to mean being fed up or disgusted (sense 2). Both senses convey being overwhelmed by something.\n\nETYMOLOGY: From Chinese, originally describing retreating from battle.\n\nCOMMON COLLOCATIONS:\n- {辟易|へきえき}⟦する→する：00392_suru⟧ (to be overwhelmed/fed up)\n- ～⟦に→に：00314_ni⟧{辟易|へきえき}⟦する→する：00392_suru⟧ (to be fed up with ~)\n- {辟易|へきえき}⟦させる→する：00392_suru⟧ (to put someone off)\n\nRELATED WORDS:\n- ⟦うんざりする→うんざりする：20665_unzarisuru⟧ (to be fed up - more casual)\n- ⟦{閉口|へいこう}する→閉口する：17303_heikousuru⟧ (to be at a loss, fed up)\n- ⟦{嫌気|いやけ}が{差|さ}す→嫌気が差す：16258_iyakegasasu⟧ (to be sick of)",
+  "notes": "USAGE: Used with ⟦する→する：00392_suru⟧ to form the verb {辟易|へきえき}⟦する→する：00392_suru⟧.\n\nNUANCE: {辟易|へきえき} originally meant being pushed back by a powerful force (sense 1), but is now more commonly used to mean being fed up or disgusted (sense 2). Both senses convey being overwhelmed by something.\n\nETYMOLOGY: From Chinese, originally describing retreating from battle.\n\nCOMMON COLLOCATIONS:\n- {辟易|へきえき}⟦する→する：00392_suru⟧ (to be overwhelmed/fed up)\n- ～⟦に→に：00314_ni⟧{辟易|へきえき}⟦する→する：00392_suru⟧ (to be fed up with ~)\n- {辟易|へきえき}⟦させる→する：00392_suru⟧ (to put someone off)\n\nRELATED WORDS:\n- ⟦うんざりする→うんざりする：20665_unzarisuru⟧ (to be fed up - more casual)\n- ⟦{閉口|へいこう}する→閉口する：17303_heikousuru⟧ (to be at a loss, fed up)\n- ⟦{嫌気|いやけ}が{差|さ}す→嫌気が差す：16258_iyakegasasu⟧ (to be sick of)",
   "cross_references": [
     {
       "type": "synonym",
@@ -111,18 +111,21 @@
   ],
   "metadata": {
     "created": "2026-01-31T11:35:28Z",
-    "modified": "2026-09-02T04:01:17Z",
+    "modified": "2026-09-30T08:58:23Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
         "emotion"
-      ]
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
   },
   "prominent_see_also": [
@@ -132,5 +135,95 @@
       "headword": "{辟易|へきえき}する",
       "note": "verb form"
     }
-  ]
+  ],
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{辟易|へきえき}する",
+        "negative": "{辟易|へきえき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{辟易|へきえき}します",
+        "negative": "{辟易|へきえき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{辟易|へきえき}した",
+        "negative": "{辟易|へきえき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{辟易|へきえき}しました",
+        "negative": "{辟易|へきえき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{辟易|へきえき}して",
+        "negative": "{辟易|へきえき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{辟易|へきえき}している",
+        "negative": "{辟易|へきえき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{辟易|へきえき}しています",
+        "negative": "{辟易|へきえき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{辟易|へきえき}していた",
+        "negative": "{辟易|へきえき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{辟易|へきえき}していました",
+        "negative": "{辟易|へきえき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{辟易|へきえき}すれば",
+        "negative": "{辟易|へきえき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{辟易|へきえき}したら",
+        "negative": "{辟易|へきえき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{辟易|へきえき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{辟易|へきえき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{辟易|へきえき}できる",
+        "negative": "{辟易|へきえき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{辟易|へきえき}される",
+        "negative": "{辟易|へきえき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{辟易|へきえき}させる",
+        "negative": "{辟易|へきえき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{辟易|へきえき}しろ",
+        "negative": "{辟易|へきえき}するな"
+      }
+    ]
+  }
 }
