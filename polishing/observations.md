@@ -1607,3 +1607,5 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - [entry] 00346 2026-09-30 audio: audio checks heard じゅっ for じゅう in 00346_purasu_ex5 (十パーセント); じゅっパーセント is the usual spoken form, consider the furigana.
 - [entry] 01620 2026-09-30 audio: checks heard おまもり for {お守|まも}り in 01620_jinja_ex2; the furigana braces include the お (should be お{守|まも}り), so お has no reading.
 - [entry] 01350 2026-09-30 audio: checks heard じゅっキロ / ひゃっキロ / はちじゅっセンチ for じゅう / ひゃく / はちじゅう in 01350_kiro_ex2–3 and 01372_senchi_ex1, ex3; the spoken forms are the usual ones, consider the furigana.
+- [entry] 00969 2026-09-30 accuracy-review: examples 10–14 and the notes split または into また + ⟦は→は：00079_ha⟧ (topic particle link); または has its own entry (01808_mataha). The reviewer read these as bare また meaning 'or'. Relink as one unit or unlink the は.
+- [tooling] 2026-09-30 accuracy-review: 9 of 43 flags in 00901–01221 were furigana misreads (the reviewer sees {何|なん} rendered as bare 何, so '何 becomes 何' looks wrong: 00925, 00928, 00942, 00955, 00992, 01034). Rendering the reading in parentheses for the reviewer would remove this noise family.
