@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "USAGE RULES:\n- お〜: Used with native Japanese words (⟦{和語|わご}→和語：12074_wago⟧)\n- ご〜: Used with Sino-Japanese words (⟦{漢語|かんご}→漢語：13439_kango⟧)\n\nCOMMON お〜 WORDS:\n- ⟦お{水|みず}→お水：23575_omizu⟧ (water)\n- ⟦お{茶|ちゃ}→お茶：00576_ocha⟧ (tea)\n- ⟦お{酒|さけ}→お酒：01045_osake⟧ (sake, alcohol)\n- ⟦お{金|かね}→お金：00611_okane⟧ (money)\n- ⟦お{名前|なまえ}→お名前：22188_onamae⟧ (name)\n- お⟦{仕事|しごと}→仕事：00480_shigoto⟧ (work, job)\n- お⟦{元気|げんき}→元気：00696_genki⟧ (health, energy)\n\nWORDS THAT ALWAYS USE お〜:\n- ⟦お{腹|なか}→お腹：00805_onaka⟧ (stomach) - rarely used without お\n- ⟦お{箸|はし}→お箸：10275_ohashi⟧ (chopsticks) - standard\n- ⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧ (bath) - standard\n- ⟦お{菓子|かし}→お菓子：02852_okashi⟧ (sweets) - standard\n\nHONORIFIC VERB PATTERNS:\n- お + verb stem + ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (honorific action)\n- お + verb stem + ⟦する→する：00392_suru⟧ (humble action)\n\nExample: ⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧お⟦{帰|かえ}り→帰る：00508_kaeru⟧になった (The teacher went home - honorific).",
+  "notes": "USAGE RULES:\n- お〜: Used with native Japanese words (⟦{和語|わご}→和語：12074_wago⟧)\n- ご〜: Used with Sino-Japanese words (⟦{漢語|かんご}→漢語：13439_kango⟧); a few common ⟦{漢語|かんご}→漢語：13439_kango⟧ take お〜 instead (お⟦{電話|でんわ}→電話：01471_denwa⟧, ⟦お{時間|じかん}→お時間：30572_ojikan⟧)\n\nCOMMON お〜 WORDS:\n- ⟦お{水|みず}→お水：23575_omizu⟧ (water)\n- ⟦お{茶|ちゃ}→お茶：00576_ocha⟧ (tea)\n- ⟦お{酒|さけ}→お酒：01045_osake⟧ (sake, alcohol)\n- ⟦お{金|かね}→お金：00611_okane⟧ (money)\n- ⟦お{名前|なまえ}→お名前：22188_onamae⟧ (name)\n- お⟦{仕事|しごと}→仕事：00480_shigoto⟧ (work, job)\n- お⟦{元気|げんき}→元気：00696_genki⟧ (health, energy)\n- ⟦お{腹|なか}→お腹：00805_onaka⟧ (stomach) - rarely said without お in speech\n- ⟦お{箸|はし}→お箸：10275_ohashi⟧ (chopsticks) - usual in speech; plain ⟦{箸|はし}→箸：01026_hashi⟧ in compounds and writing\n- ⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧ (bath) - usual; plain ⟦{風呂|ふろ}→風呂：14633_furo⟧ in compounds such as ⟦{風呂場|ふろば}→風呂場：28822_furoba⟧\n- ⟦お{菓子|かし}→お菓子：02852_okashi⟧ (sweets) - usual; plain ⟦{菓子|かし}→菓子：00191_kashi⟧ in compounds such as ⟦{和菓子|わがし}→和菓子：04962_wagashi⟧\n\nHONORIFIC VERB PATTERNS:\n- お + verb stem + ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (honorific action)\n- お + verb stem + ⟦する→する：00392_suru⟧ (humble action)\n\nExample: ⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧お⟦{帰|かえ}り→帰る：00508_kaeru⟧になった (The teacher went home - honorific).",
   "cross_references": [
     {
       "type": "contrast",
@@ -130,7 +130,7 @@
   ],
   "metadata": {
     "created": "2026-01-11T12:07:09Z",
-    "modified": "2026-09-02T04:01:02Z",
+    "modified": "2026-09-30T01:53:55Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
@@ -139,7 +139,10 @@
         "prefix"
       ],
       "politeness": "honorific",
-      "formality": "neutral"
+      "formality": "neutral",
+      "semantic": [
+        "grammatical"
+      ]
     }
   }
 }
