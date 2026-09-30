@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-30 (Routine v3: new-entries — 20 New Entries, IDs 31309–31328)
+
+Twenty words that older entries already used but never defined: 創出する, 保養所, 大草原, ブロガー, 赤蜻蛉, エコカー,
+ライブハウス, ジグソーパズル, 控訴審, 独裁的, オリオン座, 競艇, 情報化, マスカラ, ハンドクリーム, サワークリーム,
+ホイップクリーム, フレグランス, アロマ, スポーツマン. Three older "no entry" markers now link to them (in 控訴, 独裁 and 星座).
+New kanji 艇 (02813). Self-check skipped: the day's OpenRouter budget was spent.
+
 ### 2026-09-30 (Routine v3: new-entries — 9 New Entries, IDs 31300–31308)
 
 Nine words that older entries used inside stripped `noentry` markers (block 04000–04499, cycle 2 of this run):
@@ -76,12 +83,4 @@ OpenRouter budget was spent.
 Ten words that this day's earlier entries and notes named: 曽祖母, 曽孫, 県道, 有償, 訃報, 朗報, 潜める (with its pair
 潜む now cross-linked), 巧遅, 期日, 合鍵. New kanji 訃 added to the kanji index. Kept to ten because the run clock
 was near its end. Self-check skipped: the day's OpenRouter budget was spent.
-
-### 2026-09-29 (Routine v3: new-entries — 20 New Entries, IDs 31245–31264)
-
-Twenty internal-closure words that older entries already used: 頼み, 国道, 郵便番号, 曽祖父, 社会科, 副社長, 末裔,
-随行, 回送, 方便, 無償, 満場, 埋蔵, 半期, 膝小僧, 暑中, 速力, レース (race; lace), マイル (mile; airline miles), 悲報.
-Two old `noentry` markers for 暑中 (in 夏 and 見舞い) now link. New kanji 曽 and 裔 added to the kanji index. Six
-words named in the new notes queued as candidates (曽祖母, 曽孫, 県道, 有償, 訃報, 朗報). Self-check skipped: the
-day's OpenRouter budget was spent.
 
