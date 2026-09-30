@@ -1602,3 +1602,6 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - [entry] 05509 2026-09-30 audio: checks heard the text without the doubled と in 05509_ibiki_ex5 (…大きくなるとと言われている); the example has a typo (とと → と).
 - [entry] 05938 2026-09-30 audio: checks heard one ね in 05938_mushimushi_ex1 (むしむしするねね); the example has a typo (ねね → ね).
 - [entry] 06702 2026-09-30 audio: audio checks heard ぶそく for ふそく in 06702_uchikiru_ex3 (予算不足); check the furigana (予算不足 is usually よさんぶそく).
+- [entry] 00002 2026-09-30 audio: checks heard さんぼん/みっぽん for {三|み}{本|ぼん} in 00002_amu_ex5 (ひもを三本束ねて編んだ); the furigana み is wrong: 三本 is さんぼん.
+- [entry] 00410 2026-09-30 audio: audio checks heard ばこ for はこ in 00410_tsubusu_ex5 (段ボール箱); check the furigana (段ボール箱 is だんボールばこ).
+- [entry] 00346 2026-09-30 audio: audio checks heard じゅっ for じゅう in 00346_purasu_ex5 (十パーセント); じゅっパーセント is the usual spoken form, consider the furigana.
