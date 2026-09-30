@@ -27,7 +27,6 @@ MAIN_PAGES = [
     ("index.html", 1.0, "daily"),           # Homepage
     ("browse.html", 0.9, "weekly"),         # Browse index (kana rows)
     ("about.html", 0.9, "monthly"),         # About page
-    ("advanced.html", 0.8, "monthly"),      # Tag-based search
     ("kanji.html", 0.8, "weekly"),          # Kanji index
     ("recent.html", 0.6, "daily"),          # Recently added/revised entries
     ("lists/index.html", 0.8, "weekly"),    # Study lists

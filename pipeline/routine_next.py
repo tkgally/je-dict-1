@@ -5,7 +5,8 @@ Picks ONE focus ("mode") for the current Routine run using a deterministic
 debt-based weighted scheduler with bounded health nudges, then emits the choice
 as JSON on stdout for prompts/routine2.md to act on.
 
-Modes: polish, systemic-fix, accuracy-review, new-entries, candidates, wiki, audio.
+Modes: polish, systemic-fix, accuracy-review, new-entries, candidates, wiki, audio,
+conjugation-check.
 `candidates` self-suppresses while the candidate queue is sufficiently stocked;
 `systemic-fix` self-suppresses with no open batch-ready backlog item;
 `accuracy-review` self-suppresses when the OpenRouter daily cap is spent; `wiki`
@@ -14,6 +15,10 @@ above the threshold and at least N days since the last wiki run), at the
 effective weight given in config "floors". `audio` (example recordings,
 prompts/audio.md) self-suppresses while audio/config.json has production
 disabled or the day's OpenRouter budget has less than audio_min_budget_usd left.
+`conjugation-check` (re-checks the verb and adjective conjugation tables,
+prompts/routine2.md §D) has weight 0 like wiki and runs when at least
+conjugation_check_min_days_between_runs days have passed since the last one
+(about once in eight Routine runs at one day), at its "floors" weight.
 
 Design: archive/enhancement/unified-routine-plan-2026-06-09.md §4 (updated by
 enhancement/assessment-2026-09-02.md).
@@ -57,11 +62,11 @@ BACKLOG_QUEUE = PROJECT_ROOT / "planning" / "wiki" / "ideas" / "backlog-queue.js
 AUDIO_CONFIG = PROJECT_ROOT / "audio" / "config.json"
 
 ALL_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries",
-             "candidates", "wiki", "audio"]
+             "candidates", "wiki", "audio", "conjugation-check"]
 
 DEFAULT_CONFIG = {
     "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries",
-                      "candidates", "wiki", "audio"],
+                      "candidates", "wiki", "audio", "conjugation-check"],
     "weights": {
         "polish": 0.22,
         "systemic-fix": 0.19,
@@ -70,8 +75,9 @@ DEFAULT_CONFIG = {
         "candidates": 0.04,
         "wiki": 0.0,
         "audio": 0.25,
+        "conjugation-check": 0.0,
     },
-    "floors": {"wiki": 0.15},
+    "floors": {"wiki": 0.15, "conjugation-check": 0.3},
     "nudges": {
         "candidate_high_threshold": 400,
         "candidate_low_threshold": 40,
@@ -79,15 +85,16 @@ DEFAULT_CONFIG = {
         "seen_in_entry_high_threshold": 50,
         "observations_unharvested_lines": 40,
         "wiki_min_days_between_runs": 7,
+        "conjugation_check_min_days_between_runs": 1.0,
         "min_multiplier": 0.5,
         "max_multiplier": 2.0,
     },
     "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix",
-                          "candidates", "wiki", "audio"],
+                          "candidates", "wiki", "audio", "conjugation-check"],
     "anti_repeat_override_multiplier": 1.8,
     "openrouter": {"daily_cap_usd": 7.5, "per_session_cap_usd": 2.5,
                    "self_check_cap_usd": 0.25, "audio_session_cap_usd": 4.8,
-                   "audio_min_budget_usd": 0.5},
+                   "audio_min_budget_usd": 0.5, "conjugation_check_cap_usd": 1.0},
 }
 
 STATE_DOC = "Auto-managed by pipeline/routine_next.py. Do not hand-edit."
@@ -329,6 +336,22 @@ def compute_multipliers(signals, config, remaining):
             f"not triggered ({unharv} unharvested < {nz['observations_unharvested_lines']} "
             f"or {days:.0f} days < {min_days:.0f})")
 
+    # conjugation-check: trigger-only like wiki, on a clock. The deterministic
+    # checks cost nothing, so the mode runs even when the model budget is spent
+    # (params then give a zero model budget and the playbook skips that step).
+    cdays = signals.get("days_since_conjugation_check", 9999.0)
+    if cdays is None:
+        cdays = 9999.0
+    cmin = float(nz.get("conjugation_check_min_days_between_runs", 1.0))
+    if cdays >= cmin:
+        mult["conjugation-check"] = 1.0
+        reasons["conjugation-check"].append(
+            f"triggered: {cdays:.1f} days since the last conjugation check")
+    else:
+        mult["conjugation-check"] = 0.0
+        reasons["conjugation-check"].append(
+            f"not triggered ({cdays:.1f} days < {cmin:.1f})")
+
     # accuracy-review: hard suppression when out of budget. The session budget
     # is rounded to cents (build_params), so a remainder under one cent is none.
     if remaining < 0.01:
@@ -426,6 +449,10 @@ def build_params(choice, signals, config, remaining):
         }
     if choice == "wiki":
         return {}
+    if choice == "conjugation-check":
+        cap = float(config["openrouter"].get("conjugation_check_cap_usd", 1.0))
+        return {"model_tables": 1000,
+                "openrouter_session_budget_usd": round(max(0.0, min(remaining, cap)), 2)}
     if choice == "audio":
         cap = float(config["openrouter"].get("audio_session_cap_usd", 4.8))
         return {"openrouter_session_budget_usd": round(min(remaining, cap), 2)}
@@ -536,6 +563,7 @@ def main():
     state = load_state()
     signals = compute_signals()
     signals["days_since_wiki"] = round(days_since_mode(state, "wiki"), 1)
+    signals["days_since_conjugation_check"] = round(days_since_mode(state, "conjugation-check"), 1)
     ledger, spent, cap, remaining, _reset = read_ledger(config)
 
     if args.simulate is not None:

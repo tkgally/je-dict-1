@@ -162,6 +162,7 @@ Read the JSON: `mode` is this run's focus, `params` its inputs, `reason` and
 | `new-entries` | Follow **`prompts/newentries.md`**. Create about `params.approx_count` (20) entries, taking candidates whose notes say "seen in entry" or "used in" first (internal closure); if fewer than 20 such candidates exist, take the rest from the queue and stop early rather than inventing headwords. Then run the post-creation sequence in that prompt, which links, cross-references, and re-checks homographs. |
 | `candidates` | Follow **`prompts/newcandidates.md`**: restock the queue with words the dictionary already uses but has not defined (`check_stale_noentry.py` unresolved class, words seen during review), each vetted individually; at most ten curated additions from other lenses per run. |
 | `audio` | Follow **`prompts/audio.md`**: maintenance checks first (regression suite, pilots, model IDs, spot checks, re-audits; `build/audio_maintenance.py due`), then record example sentences in priority order with `params.openrouter_session_budget_usd`, publish the MP3s to the audio repository, update `audio/manifest/` and the recorded examples' `has_audio` flags. Changes no entry text, so §3 and §4 do not apply. |
+| `conjugation-check` | Follow **§D**: re-check the verb and i-adjective conjugation tables (deterministic checks over the whole dictionary, then an independent model on the next `params.model_tables` tables within `params.openrouter_session_budget_usd`), fix every table confirmed wrong (the generator first when the error is a pattern), and record the tables confirmed right. Runs about once a day (weight 0; trigger in `routine_next.py`). |
 | `wiki` | Follow **`planning/maintain-knowledge-base.md`**: harvest `polishing/observations.md` into `planning/wiki/ideas/backlog-queue.json`, write one short log entry, regenerate the metrics page with `python3 pipeline/metrics_report.py`. No essays, no new prose on the metrics page, no page may grow by more than 300 words. |
 
 Before working a range, glance only at wiki pages directly relevant to it
@@ -256,7 +257,9 @@ previous snapshot. If the script errors, note it and continue.
    `accuracy-review` → `polishing/tasks/cross-model-review/progress.txt` and
    the queue (§A step 7); `new-entries` and `candidates` → the
    `PROJECT_STATUS.md` Recent Changes section (keep five); `wiki` →
-   `planning/wiki/log.md`; `audio` → nothing (the manifest is its cursor).
+   `planning/wiki/log.md`; `audio` → nothing (the manifest is its cursor);
+   `conjugation-check` → nothing (the tool advances
+   `polishing/tasks/conjugation-check/progress.txt` itself).
    The selector already persisted its state.
 2. **Write the session log** `polishing/sessions/routine_{YYYY-MM-DD}_{NNN}.md`
    (next free NNN): mode and reason, range or params, per-item changes, the
@@ -353,7 +356,7 @@ converging.
        L["date"], L["spent_usd"], L["calls"] = today, 0.0, []
    L["spent_usd"] = round(float(L.get("spent_usd", 0)) + est, 4)
    L["calls"].append({"ts": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                      "mode": "accuracy-review" if phase != "self-check" else "self-check",
+                      "mode": phase if phase in ("self-check", "conjugation-check") else "accuracy-review",
                       "phase": phase, "entries": n, "est_usd": round(est, 4)})
    p.write_text(json.dumps(L, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
    print("ledger spent_usd:", L["spent_usd"])
@@ -396,8 +399,8 @@ For every adjudicated flag append one line to `reviews/decisions.jsonl`
 {"ts":"2026-09-02T03:12:00Z","entry":"00123","src":"accuracy","dim":"gloss","family":"gloss-meaning","sev":"error","decision":"apply","note":"gloss said borrow, word means lend"}
 ```
 
-- `src`: `accuracy` | `self-check`
-- `dim`: `gloss` | `translation` | `tags` | `notes`
+- `src`: `accuracy` | `self-check` | `conjugation`
+- `dim`: `gloss` | `translation` | `tags` | `notes` | `conjugation`
 - `family`: copy the issue's `family` field
 - `decision`: `apply` | `reject` | `flag`
 - `note`: at most ten words.
@@ -421,6 +424,62 @@ per occurrence (this ledger is read by the linker and by the CI gate):
   glossed only "to take time, to cost") is a `keep`; note the sense gap in
   `reviews/needs_curator.txt` rather than unlinking.
 
+## §D. conjugation-check playbook
+
+Goal: catch conjugation tables that the generators (`build/add_conjugations.py`,
+`build/add_adjective_conjugations.py`) got wrong. Past errors: 乞う and 問う shown as
+乞った / 問った (they keep the う: 乞うた, 問うた); ついていく as ついていいた; ふける
+(耽る), 読みふける and 見返る tagged ichidan; あざとかわいい conjugated like いい.
+
+1. **Deterministic checks** (free, whole dictionary, about ten seconds):
+   ```bash
+   python3 build/check_conjugations.py
+   ```
+   Each open flag names the entry and the kind: `missing` (verb or i-adjective with
+   no table), `generator` (the stored table differs from what the generators
+   produce now), `class` (SudachiPy reads the headword as another conjugation
+   class), `example` (the examples or notes use a た/て form the table lacks), `model`
+   (an earlier model flag on the same table).
+2. **Model check**, if `params.openrouter_session_budget_usd` is at least 0.05:
+   ```bash
+   python3 build/check_conjugations.py --llm --n <params.model_tables> --budget <params.openrouter_session_budget_usd>
+   ```
+   It sends the next tables from the cursor to an independent model
+   (`openai/gpt-6.1-sol`), skipping tables it has already checked unchanged
+   (`polishing/tasks/conjugation-check/model_checked.json`), appends what it calls
+   wrong to `reviews/conjugation_flags.jsonl`, advances the cursor and prints
+   `EST_COST=` (the billed cost). Once every table has been checked, a run sends
+   only new and changed tables and costs a few cents. Record that cost in the ledger with the §A step 5
+   snippet (`phase: "conjugation-check"`). Then run step 1 again: the model flags
+   now appear as `model`.
+3. **Adjudicate every open flag.** Open the entry. Decide from your own knowledge
+   of Japanese, the entry's examples and notes, and, when unsure, a second opinion
+   from `python3 build/check_conjugations.py --llm --ids <id> --model google/gemini-3.8-flash --budget 0.02`.
+   - **Table wrong, and the error is a pattern** (a class of verbs the generator
+     mishandles): fix the generator, add a unit test to
+     `build/tests/test_add_conjugations.py`, then rewrite every affected table with
+     `python3 build/check_conjugations.py --regenerate --ids <ids>`.
+   - **Table wrong because the entry is mis-tagged** (godan tagged ichidan): fix
+     `metadata.tags.pos`, `verb_class` and `part_of_speech`, fix any sentence in
+     the notes that states the wrong class, then `--regenerate --ids <id>`.
+   - **Irregular forms** (乞うた, くれ, 行った): make sure the notes say so, in a
+     `FORMS:` section of one or two lines ("{乞|こ}う keeps the う before た and て:
+     {乞|こ}うた, {乞|こ}うて (not {乞|こ}った)"). Wrong forms named in the notes go
+     in parentheses starting with "not", which the example check skips.
+   - **Table right** (a Sudachi misreading, a hand-made table the generators cannot
+     produce, a noun in the examples that looks like a verb form): record it, so it
+     is not flagged again until the table changes:
+     ```bash
+     python3 build/check_conjugations.py --verify <id> --note "<ten words or fewer>"
+     ```
+   - **Genuinely unsure**: one line in `reviews/needs_curator.txt`, no change.
+   Update `modified` on every entry you change, and log each decision to
+   `reviews/decisions.jsonl` (§C) with `"src":"conjugation"`, `"dim":"conjugation"`,
+   `"family"` set to the flag kind.
+4. Run §3 and §4 on the changed entries (the auto-linker reads conjugation tables,
+   so a corrected table can add or change links), then wrap up. A check that finds
+   nothing still gets its session log and metrics line; say "no open flags".
+
 ---
 
 ## Quick reference
@@ -436,6 +495,7 @@ python3 build/review_accuracy.py --ids … --budget 0.40   # §4 self-check
 python3 build/review_accuracy.py --range S E --budget B  # §A sweep
 python3 build/audio_pipeline.py plan / run / publish / verify   # audio mode (prompts/audio.md)
 python3 build/audio_maintenance.py due                   # audio mode: maintenance due, production blocked?
+python3 build/check_conjugations.py [--llm --n N --budget B]   # §D conjugation tables
 python3 pipeline/metrics_snapshot.py --mode M --changed N
 make gate                                                # §7 the CI checks, before the push
 make index                                               # §7 indexes (no site build)

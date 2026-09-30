@@ -102,10 +102,11 @@ mode's prompt → mechanical pass on changed entries → independent-model self-
 snapshot → `make index` → commit → PR → CI → squash-merge → the branch restarts from `main`.
 Modes and weights (`pipeline/routine-config.json`): audio 0.25 (off until `audio/config.json`
 enables production), polish 0.22, accuracy-review 0.22, systemic-fix 0.19,
-new-entries 0.08, candidates 0.04 (self-suppressing), wiki (trigger-only). Mode prompts:
+new-entries 0.08, candidates 0.04 (self-suppressing), wiki (trigger-only), conjugation-check
+(trigger-only, about once a day: re-checks the conjugation tables). Mode prompts:
 `audio.md`, `comprehensive_polish.md`, `newentries.md`, `newcandidates.md`,
-`planning/maintain-knowledge-base.md`; the accuracy-review and systemic-fix playbooks are inside
-`routine2.md`.
+`planning/maintain-knowledge-base.md`; the accuracy-review, systemic-fix and conjugation-check
+playbooks are inside `routine2.md`.
 
 ## Sessions: start, work, finish
 
@@ -188,7 +189,7 @@ then one line in `reviews/needs_curator.txt` and no action.
 
 Examples get recorded MP3 readings (Gemini TTS, four AI checkers, `AUDIO_WORKFLOW.md`). A recording
 is valid only while the example's text and furigana are unchanged (text hash in
-`audio/manifest/`); the site then shows a play button, otherwise browser speech. Editing an example
+`audio/manifest/`); the site then shows a play button, otherwise none. Editing an example
 is always fine: the audio mode re-records stale examples first. Never commit an MP3 to je-dict-1
 (`build/check_no_binaries.py` is a CI gate). Any change to the TTS model, prompt, checkers or
 acceptance rule needs `python3 build/audio_regression.py` and a changelog entry in

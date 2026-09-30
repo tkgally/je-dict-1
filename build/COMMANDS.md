@@ -54,6 +54,10 @@ python3 build/backfill_register.py --range 1 30999 --apply  # politeness/formali
 python3 build/fix_furigana_format.py --range 1 30999 --apply # Safe furigana wrapper repairs
 python3 build/add_conjugations.py                            # Conjugation tables for verbs (skips existing)
 python3 build/add_adjective_conjugations.py                  # Conjugation tables for i-adjectives
+python3 build/check_conjugations.py                          # Re-check all tables (missing, stale, class, examples)
+python3 build/check_conjugations.py --llm --n 1000 --budget 1   # Independent model check from the cursor (paid)
+python3 build/check_conjugations.py --regenerate --ids <ids> # Rewrite named tables from the generators
+python3 build/check_conjugations.py --verify <id> --note "…" # Record a flagged table as checked and correct
 ```
 
 ## Detectors (read-only review queues)

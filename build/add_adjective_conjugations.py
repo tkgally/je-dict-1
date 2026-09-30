@@ -40,8 +40,9 @@ from japanese_utils import strip_furigana
 FURIGANA_RE = re.compile(r'\{([^|{}]+)\|([^|{}]+)\}')
 
 # Regular i-adjectives whose reading ends in いい but are NOT いい compounds.
-# These conjugate regularly (e.g., かわいい → かわいくない, NOT かわよくない).
-_REGULAR_II_ENDINGS = {'かわいい'}
+# These conjugate regularly (e.g., かわいい → かわいくない, NOT かわよくない),
+# and so do their compounds (あざとかわいい → あざとかわいかった).
+_REGULAR_II_ENDINGS = ('かわいい',)
 
 
 def _generate_i_adjective_forms(stem: str) -> list:
@@ -123,7 +124,7 @@ def _detect_adjective_type(entry: dict) -> tuple:
         return None, None
 
     # Check for いい compounds: reading ends in いい and is not a known regular exception
-    if reading.endswith('いい') and reading not in _REGULAR_II_ENDINGS:
+    if reading.endswith('いい') and not reading.endswith(_REGULAR_II_ENDINGS):
         # This is an いい compound (or いい itself)
         prefix = _strip_suffix_from_headword(headword, 'いい')
         if prefix == headword:

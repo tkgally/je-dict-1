@@ -75,24 +75,6 @@ def process_furigana(text: str, furigana_pattern: re.Pattern, show_furigana: boo
     return ''.join(parts)
 
 
-def plain_japanese_text(text: str, furigana_pattern: re.Pattern) -> str:
-    """Reduce marked-up Japanese to plain text (for speech synthesis).
-
-    Inline word links ⟦surface→base：id⟧ become their surface form,
-    furigana {漢字|かんじ} becomes 漢字, and stray `{X}` wrappers become X.
-    """
-    if not text:
-        return ''
-
-    def link_surface(match):
-        info = LINK_INFO_PATTERN.match(match.group(1))
-        return info.group(1) if info else match.group(1)
-
-    text = LINK_BLOCK_PATTERN.sub(link_surface, text)
-    text = furigana_pattern.sub(r'\1', text)
-    return unwrap_plain_braces(text)
-
-
 def generate_nav_header(relative_path: str = '', show_all_links: bool = True) -> str:
     """
     Generate navigation header HTML.
@@ -362,40 +344,15 @@ def generate_wordlinks_script() -> str:
 
 
 def generate_tts_script() -> str:
-    """Generate the example-sentence listen script.
+    """Generate the example-sentence play script.
 
     Examples with a verified recording carry `button.audio-btn[data-src]`,
-    which plays the MP3 (always shown). The others carry
-    `button.tts-btn[data-text]` (Web Speech API): those buttons stay hidden
-    (CSS) unless speechSynthesis exists and a Japanese voice is available;
-    voices often load asynchronously, so `voiceschanged` is observed too.
+    which plays the MP3. Examples without a recording have no button (the
+    browser speech fallback was retired on 2026-09-30).
     """
     return '''<script>
 (function() {
-    var synth = ('speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined')
-        ? window.speechSynthesis : null;
-    var jaVoice = null;
     var player = null, playingBtn = null;
-
-    function findJaVoice() {
-        var voices = synth.getVoices() || [];
-        for (var i = 0; i < voices.length; i++) {
-            if (/^ja([-_]|$)/i.test(voices[i].lang)) return voices[i];
-        }
-        return null;
-    }
-
-    function enable() {
-        jaVoice = findJaVoice();
-        if (jaVoice) document.body.classList.add('tts-available');
-    }
-
-    if (synth) {
-        enable();
-        if (typeof synth.onvoiceschanged !== 'undefined') {
-            synth.addEventListener('voiceschanged', enable);
-        }
-    }
 
     function stopRecording() {
         if (player) { player.pause(); }
@@ -404,33 +361,20 @@ def generate_tts_script() -> str:
 
     document.addEventListener('click', function(e) {
         var audioBtn = e.target.closest ? e.target.closest('.audio-btn') : null;
-        if (audioBtn && audioBtn.dataset.src) {
-            e.preventDefault();
-            if (synth && synth.speaking) synth.cancel();
-            if (playingBtn === audioBtn) { stopRecording(); return; }
-            stopRecording();
-            if (!player) {
-                player = new Audio();
-                player.addEventListener('ended', stopRecording);
-                player.addEventListener('error', stopRecording);
-            }
-            player.src = audioBtn.dataset.src;
-            playingBtn = audioBtn;
-            audioBtn.classList.add('playing');
-            var p = player.play();
-            if (p && p.catch) p.catch(stopRecording);
-            return;
-        }
-        var btn = e.target.closest ? e.target.closest('.tts-btn') : null;
-        if (!btn || !btn.dataset.text || !synth) return;
+        if (!audioBtn || !audioBtn.dataset.src) return;
         e.preventDefault();
+        if (playingBtn === audioBtn) { stopRecording(); return; }
         stopRecording();
-        if (synth.speaking) synth.cancel();
-        var u = new SpeechSynthesisUtterance(btn.dataset.text);
-        u.lang = 'ja-JP';
-        try { if (jaVoice) u.voice = jaVoice; } catch (err) {}
-        u.rate = 0.9;
-        synth.speak(u);
+        if (!player) {
+            player = new Audio();
+            player.addEventListener('ended', stopRecording);
+            player.addEventListener('error', stopRecording);
+        }
+        player.src = audioBtn.dataset.src;
+        playingBtn = audioBtn;
+        audioBtn.classList.add('playing');
+        var p = player.play();
+        if (p && p.catch) p.catch(stopRecording);
     });
 })();
 </script>'''

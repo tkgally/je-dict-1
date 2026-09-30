@@ -3,8 +3,8 @@
 Navigation page generators for je-dict-1 dictionary.
 
 Extracted from build_flat.py to keep the build script manageable.
-Generates HTML content for navigation pages: index, advanced, browse,
-recent, random, and pending.
+Generates HTML content for navigation pages: index, curator (tag search),
+the advanced.html redirect, browse, recent, random, and pending.
 """
 
 import html
@@ -40,8 +40,13 @@ def generate_header_search_redirect_script() -> str:
     return generate_header_search_script('')
 
 
-def generate_index_page(entry_count: int, tier_counts: dict, example_count: int, build_time_jst: str) -> str:
-    """Generate the main index.html page."""
+def generate_index_page(entry_count: int, tier_counts: dict, example_count: int, build_time_jst: str,
+                        audio_count: int = 0) -> str:
+    """Generate the main index.html page.
+
+    audio_count is the number of examples with a valid recording (audio/manifest),
+    counted at build time, so the figure follows every merged audio run.
+    """
     basic_count = tier_counts.get('basic', 0)
     core_count = tier_counts.get('core', 0)
     general_count = tier_counts.get('general', 0)
@@ -67,15 +72,6 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
             <label><input type="radio" name="search-type" value="english"> English</label>
         </div>
 
-        <div class="home-nav-links">
-            <a href="browse.html">Browse</a>
-            <a href="kanji.html">Kanji</a>
-            <a href="lists/index.html">Lists</a>
-            <a href="articles/index.html">Articles</a>
-            <a href="recent.html">Recent</a>
-            <a href="advanced.html">Advanced</a>
-        </div>
-
         <div id="results-section" class="results-section" style="display: none;">
             <h2 id="results-heading">Results</h2>
             <div id="results-list" class="results-list"></div>
@@ -90,7 +86,8 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
     </section>
 
     <section class="intro" id="intro-section">
-        <p>The TKG Japanese-English Learner's Dictionary (TKGJE) is an explanatory dictionary designed for learners of Japanese as a second language. It currently contains {entry_count:,} entries, including {basic_count:,} basic words for beginners and {core_count:,} core vocabulary for intermediate learners, as well as {example_count:,} natural example sentences optimized for learning. Each entry includes explanatory definitions; usage notes covering grammar, register, common patterns, and related expressions; and furigana readings for all kanji. The dictionary is under active development.</p>
+        <p>The TKG Japanese-English Learner's Dictionary (TKGJE) is an explanatory dictionary designed for learners of Japanese as a second language. It currently contains {entry_count:,} entries, including {basic_count:,} basic words for beginners and {core_count:,} core vocabulary for intermediate learners, as well as {example_count:,} natural example sentences optimized for learning, {audio_count:,} of which have recorded audio readings. Each entry includes explanatory definitions; usage notes covering grammar, register, common patterns, and related expressions; and furigana readings for all kanji. Verb and <i>i</i>-adjective entries have full conjugation tables, and the words in example sentences and notes link to their own entries. The dictionary also has study lists by level and topic, a kanji index, and articles on topics such as keigo, counters, and giving and receiving.</p>
+        <p>All entries are now being checked and refined, and audio readings are being added to more example sentences regularly. Entries with newly recorded examples are marked on the <a href="recent.html">Recent</a> page.</p>
     </section>
 </main>
 
@@ -662,6 +659,31 @@ def generate_advanced_page(curator_tools: bool = False) -> str:
 {generate_examples_script()}
 {generate_wordlinks_script()}
 {generate_goatcounter_script()}
+</body>
+</html>'''
+
+
+def generate_redirect_page(target: str, title: str) -> str:
+    """A small page that sends the visitor (and search engines) to `target`.
+
+    Used for retired pages that may still be indexed: advanced.html (the public
+    tag search, retired 2026-09-30) now points to lists/index.html. The canonical
+    link and noindex tell crawlers to drop the old URL; the meta refresh and
+    location.replace move visitors on without a history entry.
+    """
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={target}">
+    <link rel="canonical" href="https://www.tkgje.jp/{target}">
+    <title>{title} - TKG Japanese-English Learner's Dictionary</title>
+    <script>window.location.replace("{target}");</script>
+</head>
+<body>
+    <p>This page has moved to <a href="{target}">{title}</a>.</p>
 </body>
 </html>'''
 

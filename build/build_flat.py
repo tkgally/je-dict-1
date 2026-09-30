@@ -51,6 +51,7 @@ from pathlib import Path
 from datetime import datetime
 
 from path_utils import get_directory_range
+from audio_manifest import recording_url
 from entry_renderer import (
     generate_entry_html,
     JST,
@@ -65,6 +66,7 @@ from search_index_builder import (
 from page_generators import (
     generate_index_page,
     generate_advanced_page,
+    generate_redirect_page,
     generate_browse_page,
     generate_browse_row_page,
     group_entries_by_kana_row,
@@ -309,9 +311,10 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
                 f.write(entry_html)
         print(f"  Generated {len(entries)} entry pages")
 
-    # Count vocabulary tiers and examples
+    # Count vocabulary tiers, examples, and examples with a valid recording
     tier_counts = {'basic': 0, 'core': 0, 'general': 0, 'unassigned': 0}
     total_examples = 0
+    audio_examples = 0
     for entry in entries:
         tier = entry.get('metadata', {}).get('vocabulary_tier', '')
         if tier in ('basic', 'core', 'general'):
@@ -319,6 +322,7 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
         else:
             tier_counts['unassigned'] += 1
         total_examples += len(entry.get('examples', []))
+        audio_examples += sum(1 for ex in entry.get('examples', []) if recording_url(ex))
 
     # Generate build timestamp in JST
     build_time = datetime.now(JST)
@@ -332,11 +336,13 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
 
     # Index page (with search form)
     with open(docs_dir / 'index.html', 'w', encoding='utf-8') as f:
-        f.write(generate_index_page(len(entries), tier_counts, total_examples, build_time_jst))
+        f.write(generate_index_page(len(entries), tier_counts, total_examples, build_time_jst,
+                                     audio_count=audio_examples))
 
-    # Advanced search page (tag-based) and the unlinked curator tools page
+    # advanced.html (the retired public tag search) redirects to the study lists;
+    # the tag search lives on only in the unlinked curator tools page
     with open(docs_dir / 'advanced.html', 'w', encoding='utf-8') as f:
-        f.write(generate_advanced_page())
+        f.write(generate_redirect_page('lists/index.html', 'Lists'))
     with open(docs_dir / 'curator.html', 'w', encoding='utf-8') as f:
         f.write(generate_advanced_page(curator_tools=True))
 
@@ -411,7 +417,7 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
     else:
         print("  No articles found")
 
-    print("  Generated index.html, advanced.html, curator.html, browse.html (+ browse/), recent.html, random.html, pending.html, kanji.html")
+    print("  Generated index.html, advanced.html (redirect), curator.html, browse.html (+ browse/), recent.html, random.html, pending.html, kanji.html")
 
     timings['4_navigation_pages'] = time.time() - phase_start
 

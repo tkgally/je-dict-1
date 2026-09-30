@@ -1,5 +1,5 @@
 {
-  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine2.md). 'enabled_modes' controls which modes the selector may pick; 'weights' are the long-run share of runs (normalized). A mode with weight 0 never runs on rotation; 'floors' gives such a mode a temporary effective weight when its trigger fires (wiki: unharvested observations >= observations_unharvested_lines AND at least wiki_min_days_between_runs since the last wiki run). systemic-fix self-suppresses when planning/wiki/ideas/backlog-queue.json has no open batch-ready item; candidates self-suppresses while candidate_words.json holds >= candidate_restock_threshold words; accuracy-review self-suppresses when the OpenRouter daily cap is spent. Reweighted 2026-09-02 (enhancement/assessment-2026-09-02.md §6.A3): accuracy and systemic-fix up, new-entries down (internal closure only), wiki trigger-only. Audio added 2026-09-25 (AUDIO_WORKFLOW.md §9): about a quarter of runs record example audio; the other weights scaled by 0.75. Tom raised the daily cap to $7.50 and set audio_session_cap_usd to $4.80 on 2026-09-25. audio self-suppresses while audio/config.json production.enabled is false or less than audio_min_budget_usd of the daily OpenRouter cap remains.",
+  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine2.md). 'enabled_modes' controls which modes the selector may pick; 'weights' are the long-run share of runs (normalized). A mode with weight 0 never runs on rotation; 'floors' gives such a mode a temporary effective weight when its trigger fires (wiki: unharvested observations >= observations_unharvested_lines AND at least wiki_min_days_between_runs since the last wiki run). systemic-fix self-suppresses when planning/wiki/ideas/backlog-queue.json has no open batch-ready item; candidates self-suppresses while candidate_words.json holds >= candidate_restock_threshold words; accuracy-review self-suppresses when the OpenRouter daily cap is spent. Reweighted 2026-09-02 (enhancement/assessment-2026-09-02.md §6.A3): accuracy and systemic-fix up, new-entries down (internal closure only), wiki trigger-only. Audio added 2026-09-25 (AUDIO_WORKFLOW.md §9): about a quarter of runs record example audio; the other weights scaled by 0.75. Tom raised the daily cap to $7.50 and set audio_session_cap_usd to $4.80 on 2026-09-25. audio self-suppresses while audio/config.json production.enabled is false or less than audio_min_budget_usd of the daily OpenRouter cap remains. conjugation-check added 2026-09-30 (Tom asked for an occasional re-check of the generated conjugation tables): weight 0, trigger-only like wiki, fires once conjugation_check_min_days_between_runs (1 day, about one Routine run in eight) has passed since the last one, at the 'floors' weight; its model pass is capped by conjugation_check_cap_usd.",
   "enabled_modes": [
     "polish",
     "systemic-fix",
@@ -7,7 +7,8 @@
     "new-entries",
     "candidates",
     "wiki",
-    "audio"
+    "audio",
+    "conjugation-check"
   ],
   "weights": {
     "polish": 0.22,
@@ -16,10 +17,12 @@
     "new-entries": 0.08,
     "candidates": 0.04,
     "wiki": 0.0,
-    "audio": 0.25
+    "audio": 0.25,
+    "conjugation-check": 0.0
   },
   "floors": {
-    "wiki": 0.15
+    "wiki": 0.15,
+    "conjugation-check": 0.3
   },
   "nudges": {
     "candidate_high_threshold": 400,
@@ -29,7 +32,8 @@
     "observations_unharvested_lines": 40,
     "wiki_min_days_between_runs": 7,
     "min_multiplier": 0.5,
-    "max_multiplier": 2.0
+    "max_multiplier": 2.0,
+    "conjugation_check_min_days_between_runs": 1.0
   },
   "anti_repeat_modes": [
     "new-entries",
@@ -37,7 +41,8 @@
     "systemic-fix",
     "candidates",
     "wiki",
-    "audio"
+    "audio",
+    "conjugation-check"
   ],
   "anti_repeat_override_multiplier": 1.8,
   "openrouter": {
@@ -45,6 +50,7 @@
     "per_session_cap_usd": 5.5,
     "self_check_cap_usd": 0.4,
     "audio_session_cap_usd": 5.5,
-    "audio_min_budget_usd": 0.5
+    "audio_min_budget_usd": 0.5,
+    "conjugation_check_cap_usd": 1.0
   }
 }

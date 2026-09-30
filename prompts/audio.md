@@ -2,7 +2,7 @@
 
 Record MP3 readings of example sentences with Gemini TTS, check each one with
 four AI checkers, and publish the accepted ones to the audio repository. The
-site then plays the recording in place of browser speech. The workflow, the
+site then shows a play button for the recording (examples without one have none). The workflow, the
 evidence for it, and its changelog are in `AUDIO_WORKFLOW.md`; read §2 and §6
 there before a first audio run, not every time.
 
@@ -110,7 +110,7 @@ minutes of calls (three or four `run` calls) with the default 12 workers.
 
 **Priorities** (`plan` applies them; do not reorder by hand):
 1. **Stale recordings**: examples whose text or furigana changed after they
-   were recorded. The site has fallen back to browser speech for them.
+   were recorded. The site shows no play button for them until they are re-recorded.
 2. **Basic tier** (6,044 examples), then **core** (13,907): the most visited
    entries, and closed tiers whose examples rarely change.
 3. **General tier, entries the polish frontier has passed**
@@ -125,11 +125,11 @@ split across runs. Voices rotate within each entry (`audio/config.json`
 **Examples that are not recorded** (`plan` skips them and counts them; nothing
 to do by hand):
 - *Digits and Latin letters* (3時, 20%, NHK; about 2,500 examples): furigana does
-  not give their reading. They keep browser speech until readings written by a
+  not give their reading. They stay unrecorded until readings written by a
   text model have been validated by ear (`AUDIO_WORKFLOW.md` §3.1). Do not write
   readings for them in this mode.
 - *Symbols* (× ○ + ÷ = ℃, about 30 examples): their reading is not fixed (ばつ or ばってん).
-  They keep browser speech, like digits.
+  They stay unrecorded, like digits.
 - *Kanji without furigana* (82) and *malformed markup* (8): these are furigana
   errors in the entry. The systemic-fix backlog item
   `audio-undetermined-furigana` fixes them. List them with

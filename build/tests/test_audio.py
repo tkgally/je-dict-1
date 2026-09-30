@@ -394,8 +394,9 @@ class TestSiteButton(unittest.TestCase):
         self.assertNotIn("tts-btn", html_ok)
         html_stale = R.render_examples([{"id": "00001_a_ex1", "japanese": "{本|ほん}を{買|か}う。",
                                          "english": "x"}], {})
-        self.assertIn('class="tts-btn"', html_stale)
+        self.assertNotIn("tts-btn", html_stale)
         self.assertNotIn("audio-btn", html_stale)
+        self.assertNotIn("<button", html_stale)
 
     def test_has_audio_follows_manifest(self):
         import sync_audio_flags as S

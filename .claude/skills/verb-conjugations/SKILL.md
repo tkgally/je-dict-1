@@ -66,7 +66,18 @@ The standard conjugation table includes these forms in order:
 | む | ま | み | め | も | んで/んだ |
 | る | ら | り | れ | ろ | って/った |
 
-**Special case:** 行く conjugates て form as 行って (not 行いて).
+**Special cases** (the generator handles each; the entry's notes should mention them in a
+`FORMS:` section):
+- 行く, 逝く and their compounds (持っていく, 連れて行く, ついていく): 行って, 行った (not 行いて).
+- 問う, 乞う, 請う, 恋う keep the う: 問うた, 問うて (not 問った). Other う-verbs are regular
+  (買った, 追った).
+- くださる, なさる, いらっしゃる, おっしゃる, ござる: い before ます and in the imperative
+  (くださいます, ください).
+- くれる: imperative くれ (not くれろ).
+- ございます: only its ます forms (ございません, ございました, ございまして).
+- A headword that writes くる in kana (持ってくる) keeps the table in kana (持ってきた).
+- Literary verbs whose modern survivals are a few fixed forms (恐る) get no table
+  (`NO_TABLE_IDS` in `build/add_conjugations.py`).
 
 ## Ichidan Verbs
 
@@ -104,6 +115,18 @@ python3 build/add_conjugations.py           # Process all verbs
 python3 build/add_conjugations.py --dry-run # Preview without writing
 python3 build/add_conjugations.py --force   # Overwrite existing conjugation data
 ```
+
+`--force` also overwrites the few tables written by hand (variant headwords such as
+易しい／優しい, 若い); prefer `python3 build/check_conjugations.py --regenerate --ids <ids>`
+for named entries.
+
+## Checking Tables
+
+`python3 build/check_conjugations.py` re-checks every table: missing tables, tables that
+differ from the current generators, SudachiPy's conjugation class against the table's,
+and た/て forms in the examples that the table lacks. `--llm` adds an independent model
+check from a cursor. The Routine runs it about once a day as the `conjugation-check`
+mode (`prompts/routine2.md` §D); a table confirmed correct is recorded with `--verify`.
 
 ## I-Adjective Conjugation
 

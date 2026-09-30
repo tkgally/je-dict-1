@@ -6,7 +6,7 @@
 An example has a valid recording when audio/manifest/<range>.jsonl holds a
 line for its id whose "h" equals the first 16 hex digits of
 audio_text.text_hash(example["japanese"]). A changed example (new text or new
-furigana) therefore falls back to browser speech until it is re-recorded.
+furigana) therefore shows no play button until it is re-recorded.
 The URL is the store's base_url (audio/config.json) plus the file path, so the
 audio can move to another host by editing the config alone.
 """

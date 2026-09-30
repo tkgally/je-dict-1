@@ -1322,26 +1322,6 @@ ruby rt {
     flex: 1;
 }
 
-/* Home Page Navigation Links */
-.home-nav-links {
-    display: flex;
-    gap: var(--spacing-lg);
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: var(--spacing-md);
-}
-
-.home-nav-links a {
-    color: var(--color-accent);
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
-.home-nav-links a:hover {
-    text-decoration: underline;
-}
-
 /* Kanji List Page */
 .kanji-list-page h1 {
     margin-bottom: var(--spacing-lg);
@@ -1911,34 +1891,8 @@ a.badge-semantic:focus {
     min-width: 100%;
 }
 
-/* Read-aloud button on example sentences (shown only when a Japanese voice exists) */
-.tts-btn {
-    display: none;
-    margin-left: 0.4rem;
-    padding: 0 0.3rem;
-    font-size: 0.9rem;
-    line-height: 1.4;
-    background: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    cursor: pointer;
-    vertical-align: middle;
-    opacity: 0.6;
-}
-
-body.tts-available .tts-btn {
-    display: inline-block;
-}
-
-.tts-btn:hover,
-.tts-btn:focus {
-    opacity: 1;
-    border-color: var(--color-border);
-    background: var(--color-surface);
-}
-
-/* Play button for a verified recording (audio/manifest): always shown, fully opaque,
-   with a thin border so a learner can tell a recording from browser speech */
+/* Play button for a verified recording (audio/manifest); examples without a
+   recording have no button */
 .audio-btn {
     display: inline-block;
     margin-left: 0.4rem;

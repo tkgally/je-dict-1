@@ -50,6 +50,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-30 (Interactive: homepage, audio buttons, conjugation fixes and a conjugation-check mode)
+
+Homepage: the Browse/Kanji/Lists/Articles/Recent/Advanced link row is gone (the header has the same links),
+the intro gives the number of examples with recorded audio (counted at each build), and advanced.html now
+redirects to lists/index.html. Browser-speech listen buttons are removed: only examples with a recording show
+the boxed 🔊 button. Conjugation tables: 乞う and 問う (乞うた, 問うた), the 行く compounds ついていく, 連れていく,
+持っていく, くれる (imperative くれ), ふける, 読みふける and 見返る (godan, were ichidan), あざとかわいい, ございます,
+the ずる verbs, passive headwords, and 27 stative one-kanji する verbs fixed; 恐る has no table. New
+`build/check_conjugations.py` and a trigger-only `conjugation-check` Routine mode (about once a day, §D).
+
 ### 2026-09-30 (Routine v3: new-entries — 20 New Entries, IDs 31349–31368)
 
 Twenty more words that older entries already used: スクール, ピンからキリまで, そっくりさん, 交じり, 仕事着, the affixes 〜権 and 脱〜,
@@ -75,11 +85,3 @@ Nine words that older entries used inside stripped `noentry` markers (block 0400
 総選挙, 年輪, 樹皮, 超音波, 太字, 触角, 編集長, 人体, 家庭科. 触角 carries a WATCH OUT against its homophone 触覚 and
 a see-also to it. Stale candidate 狸寝入り removed (exists as タヌキ寝入り 24457). No new kanji. Kept to nine because
 the run clock was near its end. Self-check clean.
-
-### 2026-09-29 (Routine v3: new-entries — 10 New Entries, IDs 31290–31299)
-
-Ten words that older entries used inside stripped `noentry` markers: お古, どっちつかず, 大損, 出し合う, 勤め人, 印紙,
-司法試験, 形容動詞, 語幹, 空豆. Reciprocal cross-references added on eleven neighbours (活用, 会社員, 弁護士, 中古, 損失,
-サラリーマン, 曖昧, 中途半端, 語尾, 自営業, 枝豆). No new kanji. Kept to ten because the run clock was near its end.
-Self-check skipped: the day's OpenRouter budget was spent.
-
