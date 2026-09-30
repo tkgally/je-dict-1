@@ -2,7 +2,7 @@
   "id": "09166_kiokure",
   "headword": "{気後|きおく}れ",
   "reading": "きおくれ",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "timidity, feeling daunted, intimidation",
   "definitions": [
     {
@@ -76,18 +76,111 @@
   ],
   "metadata": {
     "created": "2026-01-31T11:34:12Z",
-    "modified": "2026-09-02T04:01:17Z",
+    "modified": "2026-09-30T08:58:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "emotion"
-      ]
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{気後|きおく}れする",
+        "negative": "{気後|きおく}れしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{気後|きおく}れします",
+        "negative": "{気後|きおく}れしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{気後|きおく}れした",
+        "negative": "{気後|きおく}れしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{気後|きおく}れしました",
+        "negative": "{気後|きおく}れしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{気後|きおく}れして",
+        "negative": "{気後|きおく}れしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{気後|きおく}れしている",
+        "negative": "{気後|きおく}れしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{気後|きおく}れしています",
+        "negative": "{気後|きおく}れしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{気後|きおく}れしていた",
+        "negative": "{気後|きおく}れしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{気後|きおく}れしていました",
+        "negative": "{気後|きおく}れしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{気後|きおく}れすれば",
+        "negative": "{気後|きおく}れしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{気後|きおく}れしたら",
+        "negative": "{気後|きおく}れしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{気後|きおく}れしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{気後|きおく}れしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{気後|きおく}れできる",
+        "negative": "{気後|きおく}れできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{気後|きおく}れされる",
+        "negative": "{気後|きおく}れされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{気後|きおく}れさせる",
+        "negative": "{気後|きおく}れさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{気後|きおく}れしろ",
+        "negative": "{気後|きおく}れするな"
+      }
+    ]
   }
 }
