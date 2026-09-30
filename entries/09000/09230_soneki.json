@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "{損益|そんえき} is a financial/accounting term referring to profit and loss.\n\nWORD COMPOSITION:\n- ⟦{損|そん}→損：03325_son⟧: loss, damage\n- ⟦{益|えき}→益：02275_eki⟧: profit, gain\n\nCOMMON COLLOCATIONS:\n- {損益|そんえき}{計算書|けいさんしょ}: profit and loss statement, income statement\n- {損益|そんえき}⟦{分岐点|ぶんきてん}→分岐点：09388_bunkiten⟧: break-even point\n- {損益|そんえき}{通算|つうさん}: netting of gains and losses\n- {損益|そんえき}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to record profit/loss\n\nBUSINESS CONTEXT:\n- Key document in financial reporting\n- Shows revenues, expenses, and net profit/loss\n- Abbreviated as P/L (Profit & Loss) in English",
-  "cross_references": [],
+  "notes": "An accounting and finance term.\n\nCOMMON COLLOCATIONS:\n- {損益|そんえき}{計算書|けいさんしょ}: profit and loss statement, income statement\n- {損益|そんえき}⟦{分岐点|ぶんきてん}→分岐点：09388_bunkiten⟧: break-even point\n- {損益|そんえき}{通算|つうさん}: netting of gains and losses\n- {損益|そんえき}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to record profit/loss\n\nRELATED WORDS:\n- ⟦{利益|りえき}→利益：03673_rieki⟧: profit\n- ⟦{損失|そんしつ}→損失：04875_sonshitsu⟧: loss\n- ⟦{収支|しゅうし}→収支：08313_shuushi⟧: income and expenditure — of a household or budget rather than business results",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03673_rieki",
+      "reading": "りえき",
+      "headword": "{利益|りえき}",
+      "label": "profit"
+    },
+    {
+      "type": "related",
+      "target_id": "04875_sonshitsu",
+      "reading": "そんしつ",
+      "headword": "{損失|そんしつ}",
+      "label": "loss"
+    },
+    {
+      "type": "related",
+      "target_id": "08313_shuushi",
+      "reading": "しゅうし",
+      "headword": "{収支|しゅうし}",
+      "label": "income and expenditure"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T02:46:31Z",
-    "modified": "2026-09-02T04:01:17Z",
+    "modified": "2026-09-30T13:43:47Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
