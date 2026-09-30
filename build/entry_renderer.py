@@ -27,7 +27,6 @@ from html_utils import (
     generate_tts_script,
     generate_goatcounter_script,
     process_word_links as _process_word_links_base,
-    plain_japanese_text as _plain_japanese_text_base,
     unwrap_plain_braces,
     semantic_tag_slug,
 )
@@ -54,11 +53,6 @@ def process_furigana(text: str, show_furigana: bool = True) -> str:
 def process_word_links(text: str, entries_dict: dict, relative_path: str = '../../') -> str:
     """Process word link markup in text and generate HTML with links."""
     return _process_word_links_base(text, entries_dict, relative_path, FURIGANA_PATTERN)
-
-
-def plain_japanese_text(text: str) -> str:
-    """Plain Japanese text: links -> surface form, furigana -> base text."""
-    return _plain_japanese_text_base(text, FURIGANA_PATTERN)
 
 
 def format_jst_datetime(iso_string: str) -> str:
@@ -378,7 +372,7 @@ def generate_tag_badges(entry: dict, relative_path: str = '../../') -> str:
 
 
 def render_examples(examples_list, entries_dict: dict, relative_path: str = '../../'):
-    """Render a list of examples as HTML with word links and a read-aloud button."""
+    """Render a list of examples as HTML with word links and, when recorded, a play button."""
     parts = []
     for ex in examples_list:
         japanese = ex.get('japanese', '')
@@ -388,8 +382,8 @@ def render_examples(examples_list, entries_dict: dict, relative_path: str = '../
         japanese_html = process_word_links(japanese, entries_dict, relative_path)
         notes_html = process_word_links(notes, entries_dict, relative_path) if notes else ''
         # A valid recording (audio/manifest, text hash matches) gets a button that plays the
-        # MP3; otherwise the read-aloud button (hidden by CSS unless a Japanese voice is
-        # available; see generate_tts_script).
+        # MP3; an example without one gets no listen button (browser speech was retired
+        # 2026-09-30).
         audio_url = recording_url(ex)
         if audio_url:
             tts_button = (
@@ -397,10 +391,7 @@ def render_examples(examples_list, entries_dict: dict, relative_path: str = '../
                 f'title="Listen (recording)" aria-label="Play a recording of this sentence">🔊</button>'
             )
         else:
-            tts_button = (
-                f'<button type="button" class="tts-btn" data-text="{html.escape(plain_japanese_text(japanese))}" '
-                f'title="Listen" aria-label="Listen to this sentence">🔊</button>'
-            )
+            tts_button = ''
         parts.append(f'''
                 <div class="example-item">
                     <div class="example-japanese" lang="ja">{japanese_html}{tts_button}</div>

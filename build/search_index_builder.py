@@ -4,7 +4,7 @@ Search index generation for je-dict-1 dictionary.
 Generates two JavaScript data files and loads the client-side search scripts
 from templates.
 
-search-index.js  (loaded by index.html, advanced.html, curator.html)
+search-index.js  (loaded by index.html and curator.html)
     window.SEARCH_INDEX = {
         japanese: {"食べる": 396, "たべる": [396, ...], ...},   # headwords + readings
         romaji:   {"taberu": 396, ...},                          # Hepburn of the reading
@@ -22,7 +22,7 @@ search-index.js  (loaded by index.html, advanced.html, curator.html)
     reading, gloss, part of speech, tier letter b/c/g]. Text is HTML-escaped here
     because search.js renders it with innerHTML.
 
-search-tags.js  (loaded only by advanced.html and curator.html)
+search-tags.js  (loaded only by curator.html)
     window.SEARCH_TAGS = {"396": {"pos": ["verb-ichidan"], "transitivity": "transitive", ...}, ...}
     Empty tag fields are omitted.
 """
@@ -185,7 +185,7 @@ window.SEARCH_ENTRIES = {json.dumps(entries_data, ensure_ascii=False, separators
 
 def generate_search_tags_js(tags_data: dict) -> str:
     """Generate search-tags.js (tag data for the advanced/curator pages)."""
-    return f'''// Auto-generated tag data for advanced.html / curator.html - do not edit manually
+    return f'''// Auto-generated tag data for curator.html - do not edit manually
 // Generated: {datetime.now(timezone.utc).isoformat()}
 // SEARCH_TAGS: numeric id -> tag record (empty fields omitted)
 

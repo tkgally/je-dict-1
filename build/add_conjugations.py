@@ -54,7 +54,27 @@ _GODAN_ROWS = {
 }
 
 
-def _generate_godan_forms(stem: str, ending: str, is_iku: bool = False) -> list:
+# Godan う-verbs whose た/て forms keep the う (ウ音便): 問う → 問うた / 問うて,
+# not 問った / 問って. The class is closed (JMdict "v5u-s"); these are the
+# plain headwords, matched at the end of the headword so compounds follow.
+UON_BIN_VERBS = ('問う', '乞う', '請う', '恋う')
+
+
+def is_iku_verb(headword_plain: str, reading: str) -> bool:
+    """行く, 逝く and their compounds (持っていく, 連れて行く, ついていく)."""
+    if not reading.endswith(('いく', 'ゆく')):
+        return False
+    return (reading in ('いく', 'ゆく')
+            or headword_plain.endswith(('行く', '逝く'))
+            or reading.endswith(('ていく', 'てゆく', 'でいく', 'でゆく')))
+
+
+def is_uon_bin_verb(headword_plain: str) -> bool:
+    return headword_plain.endswith(UON_BIN_VERBS)
+
+
+def _generate_godan_forms(stem: str, ending: str, is_iku: bool = False,
+                          uon_bin: bool = False) -> list:
     """Generate all conjugation forms for a godan verb."""
     if ending not in _GODAN_ROWS:
         return []
@@ -64,6 +84,10 @@ def _generate_godan_forms(stem: str, ending: str, is_iku: bool = False) -> list:
     if is_iku:
         te = 'って'
         ta = 'った'
+    # Special case: 問う, 乞う, 請う, 恋う keep the う (問うた, 問うて)
+    if uon_bin and ending == 'う':
+        te = 'うて'
+        ta = 'うた'
 
     return [
         {'label': 'Present', 'affirmative': f'{stem}{ending}', 'negative': f'{stem}{a}ない'},
@@ -110,21 +134,34 @@ def _generate_ichidan_forms(stem: str) -> list:
     ]
 
 
+_KUN_NOUN_STEMS = {'噂', '旅'}
+# Single-kanji サ変 verbs whose 〜せる potential is in real use (愛せる, 察せない,
+# 声を発せない, 危機を脱せない). The others (関する, 面する, 値する, 有する, 属する, …)
+# are mostly stative and have no potential in use: 関せる, 面せる, 値せる are not
+# words, so their tables have no Potential row. Checked 2026-09-30 with
+# build/check_conjugations.py --llm.
+_SERU_POTENTIAL_STEMS = {'愛', '察', '罰', '発', '脱', '達', '訳', '略'}
+
+
 def _generate_suru_forms(prefix: str) -> list:
     """Generate all conjugation forms for a する compound verb.
 
     The potential form is normally 〜できる (勉強する → 勉強できる), but a
     single-kanji サ変 stem takes 〜せる instead (愛する → 愛せる, not
     愛できる, which is not a possible Japanese word). See planning/wiki
-    tooling-backlog.md item 122.
+    tooling-backlog.md item 122. Most single-kanji サ変 verbs are stative
+    (関する, 値する) and have no potential in use; only the stems in
+    _SERU_POTENTIAL_STEMS keep the row.
     """
     p = prefix
-    is_single_kanji_stem = len(strip_furigana(prefix)) == 1
+    # A native (kun-read) noun stem takes できる like any noun: 噂できる.
+    is_single_kanji_stem = (len(strip_furigana(prefix)) == 1
+                            and strip_furigana(prefix) not in _KUN_NOUN_STEMS)
     if is_single_kanji_stem:
         potential = {'label': 'Potential', 'affirmative': f'{p}せる', 'negative': f'{p}せない'}
     else:
         potential = {'label': 'Potential', 'affirmative': f'{p}できる', 'negative': f'{p}できない'}
-    return [
+    forms = [
         {'label': 'Present', 'affirmative': f'{p}する', 'negative': f'{p}しない'},
         {'label': 'Present polite', 'affirmative': f'{p}します', 'negative': f'{p}しません'},
         {'label': 'Past', 'affirmative': f'{p}した', 'negative': f'{p}しなかった'},
@@ -143,12 +180,19 @@ def _generate_suru_forms(prefix: str) -> list:
         {'label': 'Causative', 'affirmative': f'{p}させる', 'negative': f'{p}させない'},
         {'label': 'Imperative', 'affirmative': f'{p}しろ', 'negative': f'{p}するな'},
     ]
+    if is_single_kanji_stem and strip_furigana(prefix) not in _SERU_POTENTIAL_STEMS:
+        forms = [f for f in forms if f['label'] != 'Potential']
+    return forms
 
 
-def _generate_kuru_forms(prefix: str) -> list:
-    """Generate all conjugation forms for a 来る verb."""
+def _generate_kuru_forms(prefix: str, kana: bool = False) -> list:
+    """Generate all conjugation forms for a 来る verb.
+
+    kana=True for a headword that writes the verb in kana (持ってくる,
+    ピンとくる): the table then keeps kana (持ってきた, not 持って来た).
+    """
     p = prefix
-    return [
+    forms = [
         {'label': 'Present', 'affirmative': f'{p}{{来|く}}る', 'negative': f'{p}{{来|こ}}ない'},
         {'label': 'Present polite', 'affirmative': f'{p}{{来|き}}ます', 'negative': f'{p}{{来|き}}ません'},
         {'label': 'Past', 'affirmative': f'{p}{{来|き}}た', 'negative': f'{p}{{来|こ}}なかった'},
@@ -167,6 +211,13 @@ def _generate_kuru_forms(prefix: str) -> list:
         {'label': 'Causative', 'affirmative': f'{p}{{来|こ}}させる', 'negative': f'{p}{{来|こ}}させない'},
         {'label': 'Imperative', 'affirmative': f'{p}{{来|こ}}い', 'negative': f'{p}{{来|く}}るな'},
     ]
+    if kana:
+        kana_re = re.compile(r'\{来\|(.)\}')
+        for f in forms:
+            for k in ('affirmative', 'negative'):
+                if f[k]:
+                    f[k] = kana_re.sub(r'\1', f[k])
+    return forms
 
 
 def _generate_zuru_forms(stem: str) -> list:
@@ -174,10 +225,12 @@ def _generate_zuru_forms(stem: str) -> list:
 
     ずる verbs are classical forms that conjugate with a じ stem in modern Japanese.
     The stem parameter is the part before ずる (e.g., {断|だん} for 断ずる).
+    The forms built on the dictionary form keep ずる (断ずる, 断ずれば, 断ずるな);
+    断じる, 断じれば belong to the ichidan variant 断じる.
     """
     s = stem
     return [
-        {'label': 'Present', 'affirmative': f'{s}じる', 'negative': f'{s}じない'},
+        {'label': 'Present', 'affirmative': f'{s}ずる', 'negative': f'{s}じない'},
         {'label': 'Present polite', 'affirmative': f'{s}じます', 'negative': f'{s}じません'},
         {'label': 'Past', 'affirmative': f'{s}じた', 'negative': f'{s}じなかった'},
         {'label': 'Past polite', 'affirmative': f'{s}じました', 'negative': f'{s}じませんでした'},
@@ -186,15 +239,32 @@ def _generate_zuru_forms(stem: str) -> list:
         {'label': 'ている polite', 'affirmative': f'{s}じています', 'negative': f'{s}じていません'},
         {'label': 'ている past', 'affirmative': f'{s}じていた', 'negative': f'{s}じていなかった'},
         {'label': 'ている past polite', 'affirmative': f'{s}じていました', 'negative': f'{s}じていませんでした'},
-        {'label': 'Conditional ば', 'affirmative': f'{s}じれば', 'negative': f'{s}じなければ'},
+        {'label': 'Conditional ば', 'affirmative': f'{s}ずれば', 'negative': f'{s}じなければ'},
         {'label': 'Conditional たら', 'affirmative': f'{s}じたら', 'negative': f'{s}じなかったら'},
         {'label': 'Volitional', 'affirmative': f'{s}じよう', 'negative': None},
         {'label': 'Volitional polite', 'affirmative': f'{s}じましょう', 'negative': None},
         {'label': 'Potential', 'affirmative': f'{s}じられる', 'negative': f'{s}じられない'},
         {'label': 'Passive', 'affirmative': f'{s}じられる', 'negative': f'{s}じられない'},
         {'label': 'Causative', 'affirmative': f'{s}じさせる', 'negative': f'{s}じさせない'},
-        {'label': 'Imperative', 'affirmative': f'{s}じろ', 'negative': f'{s}じるな'},
+        {'label': 'Imperative', 'affirmative': f'{s}じろ', 'negative': f'{s}ずるな'},
     ]
+
+
+def _generate_gozaimasu_forms() -> list:
+    """ございます is itself the ます form of ござる; only its ます forms exist."""
+    return [
+        {'label': 'Present polite', 'affirmative': 'ございます', 'negative': 'ございません'},
+        {'label': 'Past polite', 'affirmative': 'ございました', 'negative': 'ございませんでした'},
+        {'label': 'て form', 'affirmative': 'ございまして', 'negative': None},
+        {'label': 'Conditional たら', 'affirmative': 'ございましたら', 'negative': 'ございませんでしたら'},
+        {'label': 'Volitional polite', 'affirmative': 'ございましょう', 'negative': None},
+    ]
+
+
+# Entries that get no generated table: literary verbs whose modern survivals are a
+# few fixed forms (恐る: 恐るべき, 恐るに足りない, 恐る恐る). A godan table for
+# them would list forms nobody uses (恐らない, 恐った).
+NO_TABLE_IDS = {'01913_osoru'}
 
 
 def _generate_aru_forms() -> list:
@@ -281,7 +351,8 @@ def _detect_verb_type(entry: dict) -> tuple:
                 prefix = ''
         else:
             prefix = ''
-        return 'kuru', {'prefix': prefix}
+        return 'kuru', {'prefix': prefix,
+                        'kana': not plain.endswith('来る') and plain.endswith('くる')}
 
     # Detect ずる verbs (e.g., 断ずる, 案ずる, 準ずる) — must come before ichidan
     # These are classical verbs that conjugate with a じ stem in modern Japanese.
@@ -405,8 +476,10 @@ def _detect_passive_headword(entry: dict) -> bool:
 
     # Common passive endings
     if reading.endswith('れる') or reading.endswith('られる'):
-        # Check if notes mention passive
-        if notes and ('passive' in notes.lower() or '受身' in notes or '受け身' in notes):
+        # The notes call it a passive ("the passive form of 恵む", "passive-derived"),
+        # not merely passive in meaning ("a passive, gravity-driven motion": 垂れる)
+        if notes and (re.search(r'passive[- ](?:form|of|voice|derived)', notes, re.I)
+                      or '受身' in notes or '受け身' in notes):
             return True
         if 'passive' in pos:
             return True
@@ -424,15 +497,22 @@ def generate_conjugation(entry: dict) -> dict:
     Returns a dict with 'type' and 'forms' keys, or None if not a verb
     or type can't be determined.
     """
+    if entry.get('id') in NO_TABLE_IDS:
+        return None
+    if entry.get('reading') == 'ございます':
+        return {'type': 'godan', 'forms': _generate_gozaimasu_forms()}
+
     verb_type, details = _detect_verb_type(entry)
     if verb_type is None:
         return None
 
     if verb_type == 'godan':
-        # Detect 行く special case (て form is 行って, not 行いて)
         reading = entry.get('reading', '')
-        is_iku = (reading == 'いく' or reading == 'ゆく') and details.get('ending') == 'く'
-        forms = _generate_godan_forms(details['stem'], details['ending'], is_iku=is_iku)
+        plain_hw = strip_furigana(entry.get('headword', ''))
+        # 行く and its compounds: て form 行って, not 行いて
+        is_iku = details.get('ending') == 'く' and is_iku_verb(plain_hw, reading)
+        forms = _generate_godan_forms(details['stem'], details['ending'], is_iku=is_iku,
+                                      uon_bin=is_uon_bin_verb(plain_hw))
         # The five honorific ~aru verbs take い, not り, before ます and in the
         # imperative: くださいます / ください, not くださります / くだされ.
         if details.get('ending') == 'る' and reading.endswith(_HONORIFIC_ARU):
@@ -446,12 +526,17 @@ def generate_conjugation(entry: dict) -> dict:
                     f['affirmative'] = f'{stem}い'
     elif verb_type == 'ichidan':
         forms = _generate_ichidan_forms(details['stem'])
+        # くれる (to give me) has the imperative くれ, not くれろ
+        if strip_furigana(entry.get('headword', '')) in ('くれる', '呉れる'):
+            for f in forms:
+                if f['label'] == 'Imperative':
+                    f['affirmative'] = f"{details['stem']}"
     elif verb_type == 'zuru':
         forms = _generate_zuru_forms(details['stem'])
     elif verb_type == 'suru':
         forms = _generate_suru_forms(details['prefix'])
     elif verb_type == 'kuru':
-        forms = _generate_kuru_forms(details['prefix'])
+        forms = _generate_kuru_forms(details['prefix'], kana=details.get('kana', False))
     elif verb_type == 'aru':
         forms = _generate_aru_forms()
     else:
@@ -460,9 +545,10 @@ def generate_conjugation(entry: dict) -> dict:
     if not forms:
         return None
 
-    # Suppress passive row if headword is already passive
+    # A headword that is itself a passive (流される, 嫌われる) has no passive,
+    # potential or causative of its own (流されられる, 流されさせる are not words)
     if _detect_passive_headword(entry):
-        forms = [f for f in forms if f['label'] != 'Passive']
+        forms = [f for f in forms if f['label'] not in ('Passive', 'Potential', 'Causative')]
 
     return {
         'type': verb_type,

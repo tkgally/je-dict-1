@@ -74,16 +74,6 @@
         "negative": null
       },
       {
-        "label": "Potential",
-        "affirmative": "{振|ふ}られられる",
-        "negative": "{振|ふ}られられない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{振|ふ}られさせる",
-        "negative": "{振|ふ}られさせない"
-      },
-      {
         "label": "Imperative",
         "affirmative": "{振|ふ}られろ",
         "negative": "{振|ふ}られるな"
@@ -137,11 +127,18 @@
       "reading": "しつれん",
       "headword": "{失恋|しつれん}",
       "label": "broken heart, heartbreak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02102_kotowaru",
+      "reading": "ことわる",
+      "headword": "{断|ことわ}る",
+      "label": "to be refused"
     }
   ],
   "metadata": {
     "created": "2026-03-18T02:00:27Z",
-    "modified": "2026-09-02T04:01:48Z",
+    "modified": "2026-09-30T15:30:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

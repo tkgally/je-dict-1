@@ -149,7 +149,7 @@ GitHub Pages site.
 
 `audio/manifest/<range>.jsonl` lists every recording: the example ID, a hash of the text that was
 recorded, the file's path and the voice used. A recording counts only while the example's text
-and furigana are unchanged; when an example is edited, the site falls back to browser speech
+and furigana are unchanged; when an example is edited, the site shows no play button for it
 until the example is recorded again. An example's `has_audio` field says whether it currently
 has a valid recording. The whole workflow, the evidence for it and its changelog are in
 [AUDIO_WORKFLOW.md](AUDIO_WORKFLOW.md).

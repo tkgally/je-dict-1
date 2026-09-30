@@ -10,10 +10,10 @@ the changelog at the end.
 Tom wants every example sentence in the dictionary to get a recorded MP3 reading made by a
 text-to-speech (TTS) model. **The readings must be correct**, meaning every word pronounced as the
 dictionary's furigana says, nothing missing, added or repeated. They must be checked **by AI
-only**: Tom cannot listen to 120,000 clips. When an example has an MP3, the site shows a button
-that plays it, in place of the current 🔊 button that uses the browser's or operating system's
-speech synthesis (`tts-btn`, `build/entry_renderer.py` and `generate_tts_script()` in
-`build/html_utils.py`). Voices rotate through two female and two male voices.
+only**: Tom cannot listen to 120,000 clips. When an example has an MP3, the site shows a boxed 🔊 button
+that plays it (`audio-btn`, `build/entry_renderer.py` and `generate_tts_script()` in
+`build/html_utils.py`); an example without one has no listen button (the browser speech-synthesis
+fallback was removed on 2026-09-30). Voices rotate through two female and two male voices.
 
 About 25% of Routine sessions should do this work. The workflow below was developed and
 validated on 2026-09-24/25 in a local experiment and ported into je-dict-1 on 2026-09-25
@@ -74,7 +74,7 @@ Furigana does not cover 3時, 1泊, 20%, NHK or Wi-Fi. In the test, their readin
 hand, with acceptable alternatives (`にじゅっパーセント|にじっパーセント`,
 `エヌエイチケー|エヌエッチケー`). For production, generate them with a strong text model, asking for
 every acceptable reading, and have a second model confirm. Then validate on a sample with Tom's ear
-before trusting it. Until then, leave these 2.1% of examples on browser speech.
+before trusting it. Until then, leave these 2.1% of examples unrecorded.
 
 ## 4. TTS generation
 

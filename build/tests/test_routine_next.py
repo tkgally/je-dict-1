@@ -49,6 +49,7 @@ def neutral_signals():
         "unharvested_observations": 0,
         "open_backlog_items": 5,
         "days_since_wiki": 30.0,
+        "days_since_conjugation_check": 0.2,
     }
 
 
@@ -209,6 +210,34 @@ class TestNudges(unittest.TestCase):
         mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
         self.assertEqual(mult["candidates"], 1.5)
         self.assertTrue(any("restock" in r for r in reasons["candidates"]))
+
+
+class TestConjugationCheckTrigger(unittest.TestCase):
+    def test_never_rotates_within_the_interval(self):
+        cfg = base_config()
+        tally, _ = simulate(cfg, neutral_signals(), remaining=5.0, n=3000)
+        self.assertNotIn("conjugation-check", tally)
+
+    def test_runs_after_a_day(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["days_since_conjugation_check"] = 1.5
+        mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["conjugation-check"], 1.0)
+        self.assertTrue(any("triggered" in r for r in reasons["conjugation-check"]))
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=20)
+        self.assertGreater(tally.get("conjugation-check", 0), 0)
+
+    def test_runs_without_budget_and_params_cap_spend(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["days_since_conjugation_check"] = 3.0
+        mult, _ = rn.compute_multipliers(sig, cfg, remaining=0.0)
+        self.assertEqual(mult["conjugation-check"], 1.0)
+        params = rn.build_params("conjugation-check", sig, cfg, remaining=0.0)
+        self.assertEqual(params["openrouter_session_budget_usd"], 0.0)
+        params = rn.build_params("conjugation-check", sig, cfg, remaining=9.0)
+        self.assertEqual(params["openrouter_session_budget_usd"], 1.0)
 
 
 class TestWikiTrigger(unittest.TestCase):
