@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-30 (Routine v3: new-entries — 20 New Entries, IDs 31329–31348)
+
+Twenty words that older entries already used but never defined: デスクワーク, スポーツカー, 南緯, ホーロー, マシン,
+the six Kanto prefectures around Tokyo 千葉, 神奈川, 埼玉, 栃木, 群馬, 茨城, plus 滋賀 and 湘南, ソファベッド, フィーリング, ヘアピン,
+王政, パイプライン, 居宅, ニス. New kanji 埼, 栃, 湘, 茨 (02814–02817). Self-check skipped: the day's OpenRouter budget was spent.
+
 ### 2026-09-30 (Routine v3: new-entries — 20 New Entries, IDs 31309–31328)
 
 Twenty words that older entries already used but never defined: 創出する, 保養所, 大草原, ブロガー, 赤蜻蛉, エコカー,
@@ -77,10 +83,4 @@ Fifteen words that older entries used inside stripped `noentry` markers: テロ,
 改憲, 空輸, 逆輸入, 遠洋, 米屋, 明晩, 活気づく, 追い求める, 無駄死に, 細心, 自費. Reciprocal cross-references added on
 eight neighbours (八百屋, 輸送, 追求, 酒屋, 魚屋, 追いかける, 多才, 沖合). No new kanji. Self-check skipped: the day's
 OpenRouter budget was spent.
-
-### 2026-09-29 (Routine v3: new-entries — 10 New Entries, IDs 31265–31274)
-
-Ten words that this day's earlier entries and notes named: 曽祖母, 曽孫, 県道, 有償, 訃報, 朗報, 潜める (with its pair
-潜む now cross-linked), 巧遅, 期日, 合鍵. New kanji 訃 added to the kanji index. Kept to ten because the run clock
-was near its end. Self-check skipped: the day's OpenRouter budget was spent.
 
