@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "Strongly negative evaluation word. Common collocations: {低俗|ていぞく}な⟦{番組|ばんぐみ}→番組：01705_bangumi⟧ (trashy TV show), {低俗|ていぞく}な⟦{内容|ないよう}→内容：01482_naiyou⟧ (crude/vulgar content), {低俗|ていぞく}な⟦{趣味|しゅみ}→趣味：00889_shumi⟧ (lowbrow taste). The opposite is ⟦{高尚|こうしょう}→高尚：14761_koushou⟧ (refined, noble). Compare with ⟦{下品|げひん}→下品：00060_gehin⟧ (vulgar in manners) — {低俗|ていぞく} focuses more on intellectual or cultural lack of quality, while ⟦{下品|げひん}→下品：00060_gehin⟧ focuses on manners and behavior.",
+  "notes": "A strongly negative evaluation, used mainly of entertainment, media and humor.\n\nCOMMON COLLOCATIONS:\n- {低俗|ていぞく}な⟦{番組|ばんぐみ}→番組：01705_bangumi⟧: a trashy TV show\n- {低俗|ていぞく}な⟦{内容|ないよう}→内容：01482_naiyou⟧: crude content\n- {低俗|ていぞく}な⟦{趣味|しゅみ}→趣味：00889_shumi⟧: lowbrow taste\n\nSIMILAR WORDS:\n- ⟦{下品|げひん}→下品：00060_gehin⟧: vulgar — about manners and behavior; {低俗|ていぞく} is about a lack of intellectual or cultural quality\n- ⟦{高尚|こうしょう}→高尚：14761_koushou⟧: refined, highbrow — the opposite",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -52,6 +52,20 @@
       "reading": "ていじげん",
       "headword": "低次元",
       "label": "low-dimensional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00060_gehin",
+      "reading": "げひん",
+      "headword": "{下品|げひん}",
+      "label": "vulgar"
+    },
+    {
+      "type": "antonym",
+      "target_id": "14761_koushou",
+      "reading": "こうしょう",
+      "headword": "{高尚|こうしょう}",
+      "label": "refined, highbrow"
     }
   ],
   "metadata": {
@@ -67,6 +81,6 @@
       ]
     },
     "created": "2026-03-23T12:10:08Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-09-30T09:13:49Z"
   }
 }

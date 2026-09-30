@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "The お is a standard honorific prefix and is almost always included. Used as a ⟦する→する：00392_suru⟧ verb: お{披露目|ひろめ}⟦する→する：00392_suru⟧. Common collocations include お{披露目|ひろめ}⟦{会|かい}→会：27493_kai⟧ (unveiling event, debut party), お{披露目|ひろめ}⟦{公演|こうえん}→公演：11639_kouen⟧ (debut performance), and お{披露目|ひろめ}⟦{興行|こうぎょう}→興行：13985_kougyou⟧ (debut show, especially in kabuki and sumo). Traditionally used in the performing arts world, but now widely used for product launches, baby introductions, and any first public showing.",
+  "notes": "Almost always said with お. In origin a term of the traditional performing arts, it is now used for any first public showing: a new product, a new building, a newborn baby shown to relatives.\n\nCOMMON COLLOCATIONS:\n- お{披露目|ひろめ}⟦する→する：00392_suru⟧: to unveil, to show for the first time\n- お{披露目|ひろめ}⟦{会|かい}→会：27493_kai⟧: an unveiling event, a debut party\n- お{披露目|ひろめ}⟦{公演|こうえん}→公演：11639_kouen⟧: a debut performance\n- ⟦{新車|しんしゃ}→新車：11334_shinsha⟧⟦の→の：09472_no⟧お{披露目|ひろめ}: the unveiling of a new car\n\nSIMILAR WORDS:\n- ⟦{披露|ひろう}→披露：09683_hirou⟧: showing, announcing — the plain noun, also in {結婚披露宴|けっこんひろうえん} (wedding reception)\n- ⟦{初公開|はつこうかい}→初公開：18413_hatsukoukai⟧: first public showing (news and press-release style)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -143,6 +143,20 @@
       "reading": "かんせいひろう",
       "headword": "{完成|かんせい}{披露|ひろう}",
       "label": "premiere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09683_hirou",
+      "reading": "ひろう",
+      "headword": "{披露|ひろう}",
+      "label": "showing, announcing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18413_hatsukoukai",
+      "reading": "はつこうかい",
+      "headword": "{初公開|はつこうかい}",
+      "label": "first public showing"
     }
   ],
   "metadata": {
@@ -155,12 +169,13 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "culture",
+        "entertainment"
       ],
       "transitivity": "transitive",
       "verb_class": "suru"
     },
     "created": "2026-03-24T09:37:22Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-09-30T09:13:49Z"
   }
 }
