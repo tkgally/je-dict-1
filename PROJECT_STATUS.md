@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-30 (Routine v3: new-entries — 20 New Entries, IDs 31349–31368)
+
+Twenty more words that older entries already used: スクール, ピンからキリまで, そっくりさん, 交じり, 仕事着, the affixes 〜権 and 脱〜,
+クロワッサン, フランスパン, チャリンコ, 二つ折り, 開き戸, ベレー帽, 忌み数, シャトルバス, 低脂肪, 正答, 盛り塩, 流砂, ティースプーン.
+No new kanji. Self-check skipped: the day's OpenRouter budget was spent.
+
 ### 2026-09-30 (Routine v3: new-entries — 20 New Entries, IDs 31329–31348)
 
 Twenty words that older entries already used but never defined: デスクワーク, スポーツカー, 南緯, ホーロー, マシン,
@@ -76,11 +82,4 @@ Ten words that older entries used inside stripped `noentry` markers: お古, ど
 司法試験, 形容動詞, 語幹, 空豆. Reciprocal cross-references added on eleven neighbours (活用, 会社員, 弁護士, 中古, 損失,
 サラリーマン, 曖昧, 中途半端, 語尾, 自営業, 枝豆). No new kanji. Kept to ten because the run clock was near its end.
 Self-check skipped: the day's OpenRouter budget was spent.
-
-### 2026-09-29 (Routine v3: new-entries — 15 New Entries, IDs 31275–31289)
-
-Fifteen words that older entries used inside stripped `noentry` markers: テロ, ミュージカル, カップラーメン, 器用貧乏,
-改憲, 空輸, 逆輸入, 遠洋, 米屋, 明晩, 活気づく, 追い求める, 無駄死に, 細心, 自費. Reciprocal cross-references added on
-eight neighbours (八百屋, 輸送, 追求, 酒屋, 魚屋, 追いかける, 多才, 沖合). No new kanji. Self-check skipped: the day's
-OpenRouter budget was spent.
 
