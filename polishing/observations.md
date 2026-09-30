@@ -1605,3 +1605,5 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - [entry] 00002 2026-09-30 audio: checks heard さんぼん/みっぽん for {三|み}{本|ぼん} in 00002_amu_ex5 (ひもを三本束ねて編んだ); the furigana み is wrong: 三本 is さんぼん.
 - [entry] 00410 2026-09-30 audio: audio checks heard ばこ for はこ in 00410_tsubusu_ex5 (段ボール箱); check the furigana (段ボール箱 is だんボールばこ).
 - [entry] 00346 2026-09-30 audio: audio checks heard じゅっ for じゅう in 00346_purasu_ex5 (十パーセント); じゅっパーセント is the usual spoken form, consider the furigana.
+- [entry] 01620 2026-09-30 audio: checks heard おまもり for {お守|まも}り in 01620_jinja_ex2; the furigana braces include the お (should be お{守|まも}り), so お has no reading.
+- [entry] 01350 2026-09-30 audio: checks heard じゅっキロ / ひゃっキロ / はちじゅっセンチ for じゅう / ひゃく / はちじゅう in 01350_kiro_ex2–3 and 01372_senchi_ex1, ex3; the spoken forms are the usual ones, consider the furigana.
