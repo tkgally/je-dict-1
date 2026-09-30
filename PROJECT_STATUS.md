@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-09-30 (Routine v3: new-entries — 9 New Entries, IDs 31300–31308)
+
+Nine words that older entries used inside stripped `noentry` markers (block 04000–04499, cycle 2 of this run):
+総選挙, 年輪, 樹皮, 超音波, 太字, 触角, 編集長, 人体, 家庭科. 触角 carries a WATCH OUT against its homophone 触覚 and
+a see-also to it. Stale candidate 狸寝入り removed (exists as タヌキ寝入り 24457). No new kanji. Kept to nine because
+the run clock was near its end. Self-check clean.
+
 ### 2026-09-29 (Routine v3: new-entries — 10 New Entries, IDs 31290–31299)
 
 Ten words that older entries used inside stripped `noentry` markers: お古, どっちつかず, 大損, 出し合う, 勤め人, 印紙,
@@ -77,12 +84,4 @@ Twenty internal-closure words that older entries already used: 頼み, 国道, �
 Two old `noentry` markers for 暑中 (in 夏 and 見舞い) now link. New kanji 曽 and 裔 added to the kanji index. Six
 words named in the new notes queued as candidates (曽祖母, 曽孫, 県道, 有償, 訃報, 朗報). Self-check skipped: the
 day's OpenRouter budget was spent.
-
-### 2026-09-29 (Routine v3: new-entries — 20 New Entries, IDs 31225–31244)
-
-Twenty internal-closure words that older entries already used: 暮れる, 女の人, 割れ目, ほのか, じきに, ギャップ,
-漁村, 秋祭り, 石橋, 編集部, 訳文, 福利, 従事者, 血中, 手縫い, 縫い付ける, 最敬礼, 競馬場, 大震災, 潜り抜ける.
-Seventeen old `noentry` markers in fourteen entries now link to them. The newcomer check found no kana くれる link that
-means 暮れる, but eight old くれる links were wrong (くん the name suffix, くれない "crimson") and were unlinked.
-Self-check skipped: the day's OpenRouter budget was spent.
 
