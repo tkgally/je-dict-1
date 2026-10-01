@@ -1613,3 +1613,5 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 
 - 2026-09-30 [entry] 09225 書き込み has only computing senses (writing data; an online post). The everyday sense "notes written in a book or form" (教科書の書き込み, 書き込みのある古本) is missing; mentioned in USAGE for now, deserves a sense with examples.
 - 2026-09-30 [entry] 00110 頬 (ほほ) and 03717 頬 (ほお) are two entries for one word with its two standard readings, with no cross-reference between them. Consolidate (consolidate-entries skill) or at least link them; 00110's notes now say both readings are standard.
+- 2026-10-01 [pattern] About 1,277 entries use a FORMS: section for the kanji composition ("{駐|ちゅう} (park) + {輪|りん} (wheel) + {場|じょう} (place)"), which belongs under ETYMOLOGY; the whole 09231–09260 block does it. A detector plus a mechanical rename (FORMS → ETYMOLOGY when the section is only a "X (gloss) + Y (gloss)" line and the entry has no other ETYMOLOGY) would clear it as a systemic-fix item.
+- 2026-10-01 [entry] 02007 〜まま is tagged noun + particle; まま is a formal noun (形式名詞), not a particle. Left as is pending a decision on how formal nouns are tagged.
