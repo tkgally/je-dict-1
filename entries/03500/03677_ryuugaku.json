@@ -2,7 +2,7 @@
   "id": "03677_ryuugaku",
   "headword": "{留学|りゅうがく}",
   "reading": "りゅうがく",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "study abroad",
   "definitions": [
     {
@@ -89,18 +89,112 @@
   ],
   "metadata": {
     "created": "2026-01-12T16:09:00Z",
-    "modified": "2026-09-29T22:00:04Z",
+    "modified": "2026-10-01T20:05:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
-      ]
+        "education",
+        "travel"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{留学|りゅうがく}する",
+        "negative": "{留学|りゅうがく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{留学|りゅうがく}します",
+        "negative": "{留学|りゅうがく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{留学|りゅうがく}した",
+        "negative": "{留学|りゅうがく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{留学|りゅうがく}しました",
+        "negative": "{留学|りゅうがく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{留学|りゅうがく}して",
+        "negative": "{留学|りゅうがく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{留学|りゅうがく}している",
+        "negative": "{留学|りゅうがく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{留学|りゅうがく}しています",
+        "negative": "{留学|りゅうがく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{留学|りゅうがく}していた",
+        "negative": "{留学|りゅうがく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{留学|りゅうがく}していました",
+        "negative": "{留学|りゅうがく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{留学|りゅうがく}すれば",
+        "negative": "{留学|りゅうがく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{留学|りゅうがく}したら",
+        "negative": "{留学|りゅうがく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{留学|りゅうがく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{留学|りゅうがく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{留学|りゅうがく}できる",
+        "negative": "{留学|りゅうがく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{留学|りゅうがく}される",
+        "negative": "{留学|りゅうがく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{留学|りゅうがく}させる",
+        "negative": "{留学|りゅうがく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{留学|りゅうがく}しろ",
+        "negative": "{留学|りゅうがく}するな"
+      }
+    ]
   }
 }
