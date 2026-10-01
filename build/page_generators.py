@@ -87,7 +87,7 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
 
     <section class="intro" id="intro-section">
         <p>The TKG Japanese-English Learner's Dictionary (TKGJE) is an explanatory dictionary designed for learners of Japanese as a second language. It currently contains {entry_count:,} entries, including {basic_count:,} basic words for beginners and {core_count:,} core vocabulary for intermediate learners, as well as {example_count:,} natural example sentences optimized for learning, {audio_count:,} of which have recorded audio readings. Each entry includes explanatory definitions; usage notes covering grammar, register, common patterns, and related expressions; and furigana readings for all kanji. Verb and <i>i</i>-adjective entries have full conjugation tables, and the words in example sentences and notes link to their own entries. The dictionary also has study lists by level and topic, a kanji index, and articles on topics such as keigo, counters, and giving and receiving.</p>
-        <p></p>
+        <br>
         <p>All entries are now being checked and refined, and audio readings are being added to more example sentences regularly. Entries with newly recorded examples are marked on the <a href="recent.html">Recent</a> page.</p>
     </section>
 </main>
