@@ -1825,8 +1825,8 @@
     {
       "filter": null,
       "priority": 4,
-      "batch_ready": true,
-      "status": "open",
+      "batch_ready": false,
+      "status": "resolved",
       "scope_measured_at": "2026-10-01",
       "severity": "low",
       "id": "gloss-register-parentheticals",
@@ -1835,8 +1835,9 @@
       "detect": "python3 - <<'X'\nimport json,glob,re\npat=re.compile(r'\\((?:very |rather |somewhat |slightly )?(formal|informal|casual|colloquial|polite|humble|honorific|vulgar|slang|literary|written|spoken)[^)]*\\)',re.I)\nfor f in sorted(glob.glob('entries/*/*.json')):\n    g=json.load(open(f)).get('gloss','')\n    if pat.search(g): print(f, g)\nX",
       "fix_type": "per entry: remove the parenthetical from the top-level gloss when metadata.tags.formality/politeness/style already say the same; if the label carries information the tags lack (e.g. 'archaic', a restriction to one sense), move it to the definition's explanation or the notes instead of deleting it",
       "verify": "detect returns 0; make gate",
-      "scope_estimate": 270,
-      "notes": "Measured 270 at filing. Definitions' own glosses are out of scope; only the top-level gloss."
+      "scope_estimate": 0,
+      "notes": "Measured 270 at filing. Definitions' own glosses are out of scope; only the top-level gloss. Resolved 2026-10-01 (routine_2026-10-01_010): all 270 cleaned in one cycle; detect returns 0. Where the label was the only record, the tags were filled (formality/politeness/style); kin and keigo labels that meant 'one's own' or 'someone else's' became that wording in the gloss.",
+      "resolved_date": "2026-10-01"
     }
   ]
 }
