@@ -3204,24 +3204,6 @@ new-entries run, and the 2026-08-14 accuracy-review and polish runs. Two become 
 one filing's premise is refuted and the item survives in a different shape; and one standing
 curator escalation is **half-closed by measurement** rather than by a ruling.
 
-### Priority 58: Baseball vocabulary split between `sports` and `leisure` — 24 entries
-
-**Source**: 2026-08-13 accuracy-review (09309–09808), which counted "about 30 `sports` and about
-12 `leisure`" and proposed a cheap sweep. Measured dictionary-wide over entries whose gloss or
-definitions mention baseball: **132 entries — 83 `sports`, 24 `leisure`, 12 sole-`general`, 12
-other, 1 both.** `sports` is the convention by better than three to one.
-
-The `leisure` cohort: アウト, 大リーグ, 代打, ソフトボール, 野球 itself, ストライク, 防御率,
-ノーヒット, 変化球, ノック, キャップ, フォアボール, ツーストライク, ダッグアウト, スリーボール,
-バッター, 野手, 豪速球, 外野, 内野 …
-
-**The false-positive family is inside the cohort, not outside it.** キャップ (a cap), ノック (a
-knock) and アウト (out, in several senses) mention baseball in *one* sense of a polysemous entry;
-`leisure` may be right for them on other grounds and the tag should be judged against the
-headword, not the mention. So this is a per-entry systemic-fix batch of ~24, not a mechanical
-substitution — small enough that the verification is the cheap part. **Status**: open,
-batch-ready. **Detect**: gloss/definitions match `baseball` AND `semantic` contains `leisure`.
-
 ### The `location`/`urban` off-vocabulary family has an in-list destination — half the standing escalation closes
 
 The 2026-08-13 harvest escalated to the curator that `VALID_SEMANTIC` has no place/location tag

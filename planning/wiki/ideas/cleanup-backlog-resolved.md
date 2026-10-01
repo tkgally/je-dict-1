@@ -2,6 +2,27 @@
 
 Items moved here from [cleanup-backlog.md](cleanup-backlog.md) on 2026-09-26 because they are resolved, shipped, retired or refuted (by their `backlog-queue.json` status where they have one, otherwise by the status the item itself records). Kept for the record and for their measurements. If an item here turns out to be open, move it back.
 
+## Priority 58: Baseball vocabulary split between `sports` and `leisure` — 24 entries
+
+**RESOLVED (2026-10-01).** Systemic-fix cycle: the detector found 19 entries still tagged `leisure` (アウト, 防御率, ノーヒット, 外野 and 内野 had already moved to `sports`). 17 moved to `sports`, keeping their other tags. Two were judged on the headword: キャップ (cap; lid) is now `clothing`, and ノック is now `daily-life` (door knock) plus `sports` (fungo). 代打 lost its fallback `general`. The detector now returns 0. Not covered: the 12 baseball entries tagged only `general`.
+
+
+**Source**: 2026-08-13 accuracy-review (09309–09808), which counted "about 30 `sports` and about
+12 `leisure`" and proposed a cheap sweep. Measured dictionary-wide over entries whose gloss or
+definitions mention baseball: **132 entries — 83 `sports`, 24 `leisure`, 12 sole-`general`, 12
+other, 1 both.** `sports` is the convention by better than three to one.
+
+The `leisure` cohort: アウト, 大リーグ, 代打, ソフトボール, 野球 itself, ストライク, 防御率,
+ノーヒット, 変化球, ノック, キャップ, フォアボール, ツーストライク, ダッグアウト, スリーボール,
+バッター, 野手, 豪速球, 外野, 内野 …
+
+**The false-positive family is inside the cohort, not outside it.** キャップ (a cap), ノック (a
+knock) and アウト (out, in several senses) mention baseball in *one* sense of a polysemous entry;
+`leisure` may be right for them on other grounds and the tag should be judged against the
+headword, not the mention. So this is a per-entry systemic-fix batch of ~24, not a mechanical
+substitution — small enough that the verification is the cheap part. **Status**: open,
+batch-ready. **Detect**: gloss/definitions match `baseball` AND `semantic` contains `leisure`.
+
 ## Priority 6: Spurious conjugation tables on non-verb entries
 
 **RESOLVED (2026-06-08).** The one-time non-verb conjugation sweep cleaned **133 entries** (101 non-expression non-verbs — adverbs, onomatopoeia, noun-adverbs, na-adjectives, nouns, auxiliaries — plus 32 reviewed `expression` entries), removing both the `conjugation` field and the stray `verb_class` tag from each. (133 vs. the 130 estimated here: the audit detector counted only entries with a `conjugation` field, whereas the pruner also catches a few that had a stray `verb_class` tag but no table, e.g. 04214_jisseki; one of the original twelve onomatopoeia, 05646_gyuugyuu, had already been cleaned on 2026-06-07.) The reusable pruner `build/prune_nonverb_conjugations.py` was built and committed, and a **defensive exact-enum verb-POS guard** was added to `add_conjugations.py` — the previous guard used the substring test `'verb' in p`, which is true for `"adverb"` and let adverbs with a stray `verb_class` tag generate godan nonsense. The detector one-liner below now returns **0**; re-running both retrofits re-adds nothing. The 31→32 expression cases were all confirmed as multi-word idioms, proverbs, adverbial phrases, or compound-ている forms (not single mis-tagged verbs); the one borderline keigo case (お会いする, 22190) was stripped and logged for a curator second look in [Entry Follow-ups](entry-followups.md).
