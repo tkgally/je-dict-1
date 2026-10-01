@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18194_nanchou_ex1",
-      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{難聴|なんちょう}⟦で→で：00502_de⟧{補聴器|ほちょうき}⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{難聴|なんちょう}⟦で→で：00502_de⟧⟦{補聴器|ほちょうき}→補聴器：30854_hochouki⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "My grandfather has hearing loss and uses a hearing aid.",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
   ],
   "metadata": {
     "created": "2026-03-20T12:12:44Z",
-    "modified": "2026-09-02T04:01:51Z",
+    "modified": "2026-10-01T08:29:13Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -80,7 +80,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "body-internal"
+        "health",
+        "sense"
       ],
       "domain": [
         "medical"

@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-09-29",
+  "updated": "2026-10-01",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -1821,6 +1821,22 @@
       "verify": "python3 -m unittest discover build/tests",
       "scope_estimate": 0,
       "notes": "review_accuracy.py was fixed on 2026-09-27 (5 of 31 flags in 22901-23900 were this artifact). 2026-09-28 routine: fixed in check_furigana_format.py, find_missing_furigana.py, verify_furigana.py and score_note_quality.py; test added."
+    },
+    {
+      "filter": null,
+      "priority": 4,
+      "batch_ready": true,
+      "status": "open",
+      "scope_measured_at": "2026-10-01",
+      "severity": "low",
+      "id": "gloss-register-parentheticals",
+      "title": "Top-level glosses carry register labels such as \"(formal)\" or \"(casual)\" that the formality field already records",
+      "source": "reviews/needs_curator.txt 2026-08-31 ruling request; curator ruled 2026-10-01: the ban in prompts/newentries.md stands, clean up the existing ones",
+      "detect": "python3 - <<'X'\nimport json,glob,re\npat=re.compile(r'\\((?:very |rather |somewhat |slightly )?(formal|informal|casual|colloquial|polite|humble|honorific|vulgar|slang|literary|written|spoken)[^)]*\\)',re.I)\nfor f in sorted(glob.glob('entries/*/*.json')):\n    g=json.load(open(f)).get('gloss','')\n    if pat.search(g): print(f, g)\nX",
+      "fix_type": "per entry: remove the parenthetical from the top-level gloss when metadata.tags.formality/politeness/style already say the same; if the label carries information the tags lack (e.g. 'archaic', a restriction to one sense), move it to the definition's explanation or the notes instead of deleting it",
+      "verify": "detect returns 0; make gate",
+      "scope_estimate": 270,
+      "notes": "Measured 270 at filing. Definitions' own glosses are out of scope; only the top-level gloss."
     }
   ]
 }

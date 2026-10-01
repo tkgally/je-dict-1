@@ -50,6 +50,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-01 (Interactive: curator backlog cleared — 42 rulings, old URLs now redirect)
+
+Tom worked through reviews/needs_curator.txt (439 lines). About 380 lines were stale: every semantic-tag
+item (no entry carries an off-list tag), branch and PR notes, and flags later runs had already fixed. The
+rest were ruled on and done. **Retiring entries is now possible**: `build/retire_entry.py` deletes or
+renames an entry, repoints its links, and records the old id in `build/data/retired_entries.json`; the
+site build writes a redirect page at the old URL. Retired: 格上 (かくじょう, invented), 車席, 解像, 罪犯, 紆余,
+the combined 易しい／優しい, a second 礼拝堂, and one of each duplicate pair 幸せ, 気持ち, 若い, 向こう, 近く, 〜軒.
+Readings corrected (URL renamed, old one redirects): 犬種 けんしゅ, 長財布 ながざいふ, 我 が (now "ego,
+self-will"). かける, かかる and つける are now full nine-sense entries; 付ける covers only 付ける. 優しい and 易しい
+are split. Senses added to 〜代, 形, 時, スマート, 馳せる, 末端, ポーチ, 半切り, 水切り; senses removed or merged
+in 現す, 確かに, 訓読, 今日 (こんにち), 人事. Tags: new semantic tags `sense` and `place`, a `dialect` domain,
+`existence` narrowed, grammar terms on `language`, question words on `grammatical`. Smaller fixes to about
+twenty entries' examples and notes. Session log: polishing/sessions/curator_2026-10-01.md.
+
 ### 2026-10-01 (Routine v3: new-entries — 8 New Entries, IDs 31369–31376)
 
 Eight words that older entries already used, a short batch at the end of a six-cycle run: 魚釣り, 金曜, マスカット,

@@ -63,6 +63,9 @@ Common compounds: {案内|あんない}{所|じょ} (information desk), {道|み
 ### 3. Section Headers
 
 Use clear section headers followed by a colon for distinct categories of information.
+Notes may open directly with a section header (`USAGE:`, `KANJI:`, `COMMON PATTERNS:`); an
+opening sentence restating the meaning is not required, since the gloss and definitions already
+give it (curator ruling 2026-10-01; about 8,200 entries open this way).
 **Headers come from a closed list** (`build/data/note_headers.json`; CI blocks a new
 header outside it, and `build/normalize_notes.py` renames legacy spellings):
 

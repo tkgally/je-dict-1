@@ -114,6 +114,28 @@ def load_decisions(path: Path = DECISIONS_PATH) -> list[dict]:
     return out
 
 
+def superseded_removed(decisions: list[dict]) -> list[dict]:
+    """Drop ``unlink``/``retarget`` lines that a LATER ``keep`` line overrides.
+
+    The ledger is append-only, so a verdict is reversed by appending, not by
+    editing: a ``keep`` for the same entry, base and target, written after an
+    ``unlink`` (for example once the target entry gains the missing sense),
+    cancels it for the tools that apply unlinks.
+    """
+    last_keep: dict[tuple[str, str, str], int] = {}
+    for i, rec in enumerate(decisions):
+        if rec.get("decision") == "keep" and rec.get("entry"):
+            last_keep[(entry_num(rec["entry"]), norm_base(rec.get("base", "")), rec.get("target", ""))] = i
+    out = []
+    for i, rec in enumerate(decisions):
+        if rec.get("decision") in ("unlink", "retarget") and rec.get("entry"):
+            key = (entry_num(rec["entry"]), norm_base(rec.get("base", "")), rec.get("target", ""))
+            if last_keep.get(key, -1) > i:
+                continue
+        out.append(rec)
+    return out
+
+
 def decision_index(decisions: list[dict]) -> dict[tuple[str, str, str], set[str]]:
     """``(entry number, base, target) -> {decisions}`` over the whole ledger.
 

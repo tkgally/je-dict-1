@@ -2,13 +2,18 @@
   "id": "09869_ji",
   "headword": "{時|じ}",
   "reading": "じ",
-  "part_of_speech": "counter",
-  "gloss": "o'clock; hour (counter)",
+  "part_of_speech": "counter, suffix",
+  "gloss": "o'clock (counter); at the time of (suffix)",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "o'clock; hour (counter)",
       "explanation": "Counter for hours of the day (clock time)."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "at the time of; during (suffix)",
+      "explanation": "Attached directly to a noun, usually a Sino-Japanese one, to mean 'at the time of' or 'while ... is happening': {離陸|りりく}{時|じ} (at takeoff), {睡眠|すいみん}{時|じ} (during sleep), {緊急|きんきゅう}{時|じ} (in an emergency). It is the compact, written-style equivalent of 〜の{時|とき}, common in announcements, manuals, and notices."
     }
   ],
   "examples": [
@@ -41,9 +46,39 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "09869_ji_ex4",
+      "japanese": "⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{時|じ}⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧⟦{押|お}して→押す：02854_osu⟧⟦ください→ください：02899_kudasai⟧。",
+      "english": "In an emergency, press this button.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "09869_ji_ex5",
+      "japanese": "⟦{離陸|りりく}→離陸：05981_ririku⟧{時|じ}⟦と→と：00512_to⟧⟦{着陸|ちゃくりく}→着陸：05982_chakuriku⟧{時|じ}⟦は→は：00079_ha⟧、⟦シートベルト→シートベルト：29083_shiitoberuto⟧⟦を→を：00422_wo⟧お⟦{締|し}め→締める：10057_shimeru⟧⟦ください→ください：02899_kudasai⟧。",
+      "english": "Please fasten your seat belt during takeoff and landing.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "09869_ji_ex6",
+      "japanese": "⟦{睡眠|すいみん}→睡眠：03359_suimin⟧{時|じ}⟦に→に：00314_ni⟧⟦{呼吸|こきゅう}→呼吸：02754_kokyuu⟧⟦が→が：00051_ga⟧⟦{止|と}まる→止まる：00555_tomaru⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧こと⟦を→を：00422_wo⟧、⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧⟦{言|い}われて→言う：00515_iu⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{知|し}った→知る：00458_shiru⟧。",
+      "english": "I only learned that there is an illness in which breathing stops during sleep when my doctor told me.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
     }
   ],
-  "notes": "{時|じ} is the counter for hours when telling time.\n\nCOUNTING PATTERN (o'clock):\n1: ⟦{一時|いちじ}→一時：01799_ichiji⟧      6: ⟦{六時|ろくじ}→六時：10982_rokuji⟧\n2: {二時|にじ}       7: ⟦{七時|しちじ}→七時：10114_shichiji⟧\n3: ⟦{三時|さんじ}→三時：10983_sanji⟧     8: {八時|はちじ}\n4: ⟦{四時|よじ}→四時：30328_yoji⟧       9: ⟦{九時|くじ}→九時：10980_kuji⟧\n5: {五時|ごじ}      10: {十時|じゅうじ}\n\nCOUNTING PATTERNS:\n- 4: ⟦よ→よ：09475_yo⟧じ (not よんじ)\n- 7: しちじ (ななじ also exists but less standard)\n- 9: くじ (not きゅうじ)\n\nCOMMON PATTERNS:\n- ⟦{何時|なんじ}→何時：00973_nanji⟧: what time?\n- ～{時|じ}{半|はん}: half past ~\n- ～{時|じ}⟦ちょうど→ちょうど：02916_choudo⟧: exactly ~ o'clock\n- ～{時|じ}⟦{頃|ごろ}→頃：00932_goro⟧: around ~ o'clock\n\nRELATED COUNTERS:\n- ～⟦{分|ふん}→分：00928_fun⟧/{分|ぷん}: minutes\n- ～⟦{秒|びょう}→秒：00921_byou⟧: seconds\n- ～⟦{時間|じかん}→時間：00468_jikan⟧: duration in hours",
+  "notes": "{時|じ} is the counter for hours when telling time (sense 1), and a suffix meaning 'at the time of' (sense 2).\n\nCOUNTING PATTERN (o'clock):\n1: ⟦{一時|いちじ}→一時：01799_ichiji⟧      6: ⟦{六時|ろくじ}→六時：10982_rokuji⟧\n2: {二時|にじ}       7: ⟦{七時|しちじ}→七時：10114_shichiji⟧\n3: ⟦{三時|さんじ}→三時：10983_sanji⟧     8: {八時|はちじ}\n4: ⟦{四時|よじ}→四時：30328_yoji⟧       9: ⟦{九時|くじ}→九時：10980_kuji⟧\n5: ⟦{五時|ごじ}→五時：30899_goji⟧      10: {十時|じゅうじ}\n\nCOUNTING PATTERNS:\n- 4: ⟦よ→よ：09475_yo⟧じ (not よんじ)\n- 7: しちじ or ななじ (ななじ is common in speech, to avoid confusion with いちじ)\n- 9: くじ (not きゅうじ)\n\nCOMMON PATTERNS:\n- ⟦{何時|なんじ}→何時：00973_nanji⟧: what time?\n- ～{時|じ}{半|はん}: half past ~\n- ～{時|じ}⟦ちょうど→ちょうど：02916_choudo⟧: exactly ~ o'clock\n- ～{時|じ}⟦{頃|ごろ}→頃：00932_goro⟧: around ~ o'clock\n\nRELATED COUNTERS:\n- ～⟦{分|ふん}→分：00928_fun⟧/{分|ぷん}: minutes\n- ～⟦{秒|びょう}→秒：00921_byou⟧: seconds\n- ～⟦{時間|じかん}→時間：00468_jikan⟧: duration in hours\n\nUSAGE:\nIn sense 2, 〜{時|じ} attaches directly to the noun with no ⟦の→の：09472_no⟧, and belongs to written and official language: signs, manuals, announcements. In conversation, 〜⟦の→の：09472_no⟧{時|とき} is more natural (⟦{離陸|りりく}→離陸：05981_ririku⟧⟦の→の：09472_no⟧{時|とき}).\n- ⟦{使用|しよう}→使用：01637_shiyou⟧{時|じ}: when in use\n- ⟦{災害|さいがい}→災害：09636_saigai⟧{時|じ}: in a disaster\n- ⟦{入社|にゅうしゃ}→入社：03131_nyuusha⟧{時|じ}: on joining the company\n- ⟦{非常時|ひじょうじ}→非常時：30241_hijouji⟧: in an emergency",
   "cross_references": [
     {
       "type": "related",
@@ -85,7 +120,8 @@
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "counter"
+        "counter",
+        "suffix"
       ],
       "formality": "neutral",
       "politeness": "plain",
@@ -94,6 +130,6 @@
       ]
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-09-02T04:01:19Z"
+    "modified": "2026-10-01T08:34:04Z"
   }
 }

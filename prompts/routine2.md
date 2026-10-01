@@ -300,6 +300,10 @@ previous snapshot. If the script errors, note it and continue.
       is the proof) and re-poll, at most 15 times. The `validate` check takes
       five to seven minutes. Never wait with a backgrounded `sleep`: it returns
       at once, and a loop built on it "polls sixteen times" in two minutes.
+      The check-runs list can be served stale: before concluding a run is still
+      pending after five polls, or at the cap, read that run directly with
+      `mcp__github__get_check_run` (its id is in the list) and trust its
+      `status`/`conclusion` (ruling 2026-10-01).
    3. Green → `mcp__github__merge_pull_request` with `merge_method: "squash"`.
       Failed → read the failing step (`mcp__github__get_job_logs` with
       `failed_only: true` and the `run_id` from the check run's `html_url`),

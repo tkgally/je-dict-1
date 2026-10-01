@@ -4,7 +4,7 @@
   "headword": "{訓読|くんどく}",
   "reading": "くんどく",
   "part_of_speech": "noun, suru verb",
-  "gloss": "kun reading; reading kanji by native Japanese meaning; reading classical Chinese in Japanese word order",
+  "gloss": "kundoku; reading classical Chinese as Japanese",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -98,30 +98,20 @@
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "kun reading; reading a kanji using its native Japanese meaning; reading classical Chinese texts in Japanese word order",
-      "explanation": "Reading kanji with the native Japanese word that matches the character's meaning, as opposed to the on'yomi (Sino-Japanese reading). Also refers to the practice of reading classical Chinese texts with Japanese word order."
+      "gloss": "kundoku; reading classical Chinese as Japanese",
+      "explanation": "The traditional technique of reading a classical Chinese text ({漢文|かんぶん}) directly as Japanese: the reader follows marks that reorder the words into Japanese order and supplies particles and verb endings. It is taught in Japanese high schools as part of classical literature."
     }
   ],
   "examples": [
     {
-      "id": "18554_kundoku_ex1",
-      "japanese": "「⟦{山|やま}→山：02168_yama⟧」⟦の→の：09472_no⟧{訓読|くんよ}み⟦は→は：00079_ha⟧「やま」だ。",
-      "english": "The kun reading of 山 is 'yama.'",
-      "notes": null,
-      "has_audio": false,
+      "id": "18554_kundoku_ex4",
+      "japanese": "⟦{漢文|かんぶん}→漢文：13398_kanbun⟧⟦を→を：00422_wo⟧{訓読|くんどく}⟦する→する：00392_suru⟧。",
+      "english": "To read a classical Chinese text as Japanese.",
       "sense_numbers": [
         1
-      ]
-    },
-    {
-      "id": "18554_kundoku_ex2",
-      "japanese": "⟦この→この：00962_kono⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦は→は：00079_ha⟧{訓読|くんよ}み⟦と→と：00512_to⟧⟦{音読|おんよ}み→音読み：10453_onyomi⟧⟦で→で：00502_de⟧⟦{意味|いみ}→意味：01155_imi⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
-      "english": "This kanji changes meaning depending on the kun or on reading.",
-      "notes": null,
+      ],
       "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
+      "notes": null
     },
     {
       "id": "18554_kundoku_ex3",
@@ -132,21 +122,55 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "18554_kundoku_ex5",
+      "japanese": "{返|かえ}り{点|てん}⟦を→を：00422_wo⟧⟦{頼|たよ}り→頼り：14634_tayori⟧⟦に→に：00314_ni⟧、⟦{漢文|かんぶん}→漢文：13398_kanbun⟧⟦を→を：00422_wo⟧{訓読|くんどく}⟦して→する：00392_suru⟧みた。",
+      "english": "Using the reordering marks as a guide, I tried reading the classical Chinese text as Japanese.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "18554_kundoku_ex6",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦は→は：00079_ha⟧、⟦{中国|ちゅうごく}→中国：28300_chuugoku⟧⟦の→の：09472_no⟧⟦{古典|こてん}→古典：00242_koten⟧⟦を→を：00422_wo⟧{訓読|くんどく}⟦によって→によって：06801_niyotte⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦として→として：06802_toshite⟧⟦{読|よ}んでいた→読む：00426_yomu⟧。",
+      "english": "In the past, Japanese readers read the Chinese classics as Japanese by means of kundoku.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
     }
   ],
-  "notes": "USAGE:\nIn everyday kanji study, {訓読|くんよ}み (kun'yomi) refers to the native Japanese reading of a kanji character, while ⟦{音読|おんよ}み→音読み：10453_onyomi⟧ (on'yomi) is the Sino-Japanese reading. In classical studies, {訓読|くんどく} also refers to the technique of rearranging classical Chinese (⟦{漢文|かんぶん}→漢文：13398_kanbun⟧) into Japanese word order for reading.\n\nCOMMON COLLOCATIONS:\n- {訓読|くんよ}み⟦する→する：00392_suru⟧ (to read using kun reading)\n- {訓読|くんよ}み (kun reading — the more common everyday form)\n- ⟦{漢文|かんぶん}→漢文：13398_kanbun⟧⟦の→の：09472_no⟧{訓読|くんどく} (reading classical Chinese in Japanese)\n\nSIMILAR WORDS:\n- ⟦{音読|おんよ}み→音読み：10453_onyomi⟧: on'yomi — the Sino-Japanese reading of a kanji character\n- {訓|くん}: kun — shortened form often used in dictionaries for the native reading",
+  "notes": "{訓読|くんどく} names the method of reading ⟦{漢文|かんぶん}→漢文：13398_kanbun⟧ as Japanese. Marks added to the Chinese text, such as {返|かえ}り{点|てん} (reordering marks) and ⟦{送|おく}り{仮名|がな}→送り仮名：15047_okurigana⟧, tell the reader what order to read in and which endings to add. Writing the result out in kanji and kana gives a ⟦{書|か}き{下|くだ}し{文|ぶん}→書き下し文：22266_kakikudashibun⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{漢文|かんぶん}→漢文：13398_kanbun⟧⟦を→を：00422_wo⟧{訓読|くんどく}⟦する→する：00392_suru⟧: to read a classical Chinese text as Japanese\n- ⟦{漢文|かんぶん}→漢文：13398_kanbun⟧{訓読|くんどく}: kanbun kundoku (the full term)\n- {訓読|くんどく}⟦{文|ぶん}→文：03716_bun⟧: a text in kundoku style\n\nWATCH OUT:\nThe spelling {訓読|くんよみ}, without み, is sometimes read くんよみ as a variant of ⟦{訓読|くんよ}み→訓読み：10454_kunyomi⟧, the native Japanese reading of a single kanji (as in ⟦{山|やま}→山：02168_yama⟧ read やま). Read くんどく, the word means only the reading of classical Chinese. For a kanji's kun reading, use {訓読|くんよ}み, paired with ⟦{音読|おんよ}み→音読み：10453_onyomi⟧.",
   "cross_references": [
     {
       "type": "contrast",
-      "target_id": "10453_onyomi",
-      "reading": "おんよみ",
-      "headword": "{音読|おんよ}み",
-      "label": "on'yomi"
+      "target_id": "10454_kunyomi",
+      "reading": "くんよみ",
+      "headword": "{訓読|くんよ}み",
+      "label": "kun reading of a kanji"
+    },
+    {
+      "type": "related",
+      "target_id": "13398_kanbun",
+      "reading": "かんぶん",
+      "headword": "{漢文|かんぶん}",
+      "label": "classical Chinese text"
+    },
+    {
+      "type": "related",
+      "target_id": "22266_kakikudashibun",
+      "reading": "かきくだしぶん",
+      "headword": "{書|か}き{下|くだ}し{文|ぶん}",
+      "label": "kanbun rendered in Japanese"
     }
   ],
   "metadata": {
     "created": "2026-03-22T08:54:03Z",
-    "modified": "2026-09-19T16:18:39Z",
+    "modified": "2026-10-01T08:29:13Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

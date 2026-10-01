@@ -227,14 +227,14 @@ The `metadata.tags.pos` array must use **only** these exact values:
 | **Time** | `time-day-of-week`, `time-month`, `time-season`, `time-period`, `time-general` |
 | **Nature** | `animal-mammal`, `animal-bird`, `animal-fish`, `animal-insect`, `animal-general`, `plant-tree`, `plant-flower`, `plant-general`, `weather`, `geography`, `nature` |
 | **Human** | `body-part`, `body-internal`, `family`, `occupation`, `person`, `personality`, `appearance` |
-| **Abstract** | `emotion`, `color`, `number`, `direction`, `size`, `quantity`, `abstract`, `change`, `evaluation` |
+| **Abstract** | `emotion`, `color`, `number`, `direction`, `size`, `quantity`, `abstract`, `change`, `evaluation`, `place` (generic place/location words: 場所, 位置, 地点, 現場), `sense` (sound, sight, touch, smell, taste, perception: 音, 匂い, 味, 手触り, 視覚) |
 | **Objects** | `food`, `clothing`, `building`, `transportation`, `tool`, `furniture`, `electronics`, `money` |
-| **Actions** | `movement`, `communication`, `cognition`, `existence`, `creation`, `consumption` |
+| **Actions** | `movement`, `communication`, `cognition`, `existence` (being, existing, appearing, disappearing, remaining only; change of state → `change`), `creation`, `consumption` |
 | **Social life** | `greeting`, `education`, `work`, `leisure`, `daily-life`, `shopping`, `travel`, `cooking` |
 | **Fields & topics** | `business`, `economics`, `finance`, `law`, `politics`, `society`, `culture`, `religion`, `history`, `science`, `technology`, `health`, `language`, `media`, `music`, `art`, `entertainment`, `sports`, `military` |
 | **Special** | `proverb`, `idiom` |
 | **Proper nouns** | `proper-noun` (umbrella — required on every proper-noun entry) plus at least one of: `place-name`, `person-name`, `organization-name`, `work-name`, `event-name`, `brand-name` |
-| **Fallbacks** | `general`, `action`, `descriptive`, `grammatical`, `expression`, `onomatopoeia` |
+| **Fallbacks** | `general`, `action`, `descriptive`, `grammatical` (function words and patterns only; question words take it too; grammar and writing terms such as 名詞, 送り仮名 take `language`), `expression`, `onomatopoeia` |
 
 ### Common mistakes to avoid:
 ```
@@ -246,10 +246,16 @@ The `metadata.tags.pos` array must use **only** these exact values:
 ✗ "description"          → use "descriptive"
 ✗ "animals"              → use "animal-general"
 ✗ "economy"              → use "economics"
-✗ "object"/"place"/"body" → too vague; pick the specific in-list tag
+✗ "object"/"body"        → too vague; pick the specific in-list tag
+✗ "location"             → use "place" ("place-name" is for proper nouns)
+✗ "sound"/"perception"   → use "sense"
 ```
 
-Fallback conventions: internal organs use `body-internal`; external anatomy uses `body-part`; `health` is for conditions/procedures. Mimetic adverbs use `descriptive`. Suru-verbs and action nouns carry `action`. Domain tags (`metadata.tags.domain`) have their own closed list: `business`, `academic`, `technical`, `legal`, `medical`, `colloquial`, `internet`.
+Fallback conventions: internal organs use `body-internal`; external anatomy uses `body-part`; `health` is for conditions/procedures. Mimetic adverbs use `descriptive`. Suru-verbs and action nouns carry `action`. Domain tags (`metadata.tags.domain`) have their own closed list: `business`, `academic`, `technical`, `legal`, `medical`, `colloquial`, `internet`, `dialect` (regional words; the notes name the region).
+
+Register tags are closed lists too: `formality` is exactly one of `formal`, `neutral`, `informal`, `vulgar`
+(`casual` is invalid: use `informal`), and `politeness` is one of `honorific`, `humble`, `polite`, `plain`. One value
+per entry, chosen by the commonest sense; when senses differ in register, say so in the notes.
 
 ## Proper-Noun Entries (policy adopted 2026-08-11)
 

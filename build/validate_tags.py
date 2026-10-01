@@ -51,7 +51,8 @@ VALID_POLITENESS = {"honorific", "humble", "polite", "plain", None}
 
 VALID_STYLE = {"written", "spoken", "literary", "archaic", "slang"}
 
-VALID_DOMAIN = {"business", "academic", "technical", "legal", "medical", "colloquial", "internet"}
+VALID_DOMAIN = {"business", "academic", "technical", "legal", "medical", "colloquial", "internet",
+                "dialect"}  # "dialect": regional, non-standard words (curator ruling 2026-10-01)
 
 # Valid semantic categories from taxonomy
 VALID_SEMANTIC = {
@@ -92,6 +93,12 @@ VALID_SEMANTIC = {
     # one specific category; validate_entry_tags() enforces the pairing.
     "proper-noun", "place-name", "person-name", "organization-name",
     "work-name", "event-name", "brand-name",
+    # Curator ruling 2026-10-01: two gaps in the taxonomy closed.
+    # "sense": words for sound, sight, touch, smell, taste and perception
+    #   (音, 物音, 騒音, 匂い, 香り, 味, 手触り, 感触, 視覚).
+    # "place": generic place and location words (場所, 所, 位置, 地点, 現場),
+    #   as against "place-name" for proper nouns.
+    "sense", "place",
 }
 
 # Specific proper-noun categories. Entries with any of these must also carry

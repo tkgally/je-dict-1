@@ -3,7 +3,7 @@
   "headword": "かかる",
   "reading": "かかる",
   "part_of_speech": "verb (godan)",
-  "gloss": "to take (time/money), to cost",
+  "gloss": "to take (time); to cost; to hang; to catch (an illness)",
   "conjugation": {
     "type": "godan",
     "forms": [
@@ -98,12 +98,47 @@
     {
       "sense_number": 1,
       "gloss": "to take (time)",
-      "explanation": "Describes the amount of time required to do something. Used with time expressions."
+      "explanation": "Of a task or journey, to take a certain amount of time. The time is the subject (が, or no particle with a bare amount) and the activity takes に: {駅|えき}まで{十分|じゅっぷん}かかる, {読|よ}むのに{三日|みっか}かかる."
     },
     {
       "sense_number": 2,
       "gloss": "to cost (money)",
-      "explanation": "Describes the amount of money required for something. Used with money/cost expressions."
+      "explanation": "To cost or require money. The amount or お{金|かね} is the subject and the thing paid for takes に: {修理|しゅうり}に{五万円|ごまんえん}かかる. Unlike {払|はら}う, the cost happens to you rather than being something you do."
+    },
+    {
+      "sense_number": 3,
+      "gloss": "to hang; to hang over; to span",
+      "explanation": "To be hanging or suspended (a picture on a wall, a coat on a hook); of clouds, mist or a shadow, to hang over or veil something; of a bridge, to span a river. Pattern: YにXがかかる, usually as the state かかっている."
+    },
+    {
+      "sense_number": 4,
+      "gloss": "to be locked; to start (of an engine, music)",
+      "explanation": "The intransitive side of かける in its 'set going' senses: a lock is on ({鍵|かぎ}がかかる), an engine starts (エンジンがかかる), music is playing ({音楽|おんがく}がかかる), the brakes come on, a spell takes hold."
+    },
+    {
+      "sense_number": 5,
+      "gloss": "(of a phone call) to come in",
+      "explanation": "Of a telephone call, to come in. Usually {電話|でんわ}がかかってくる, from the point of view of the person receiving it; the caller's side is {電話|でんわ}をかける."
+    },
+    {
+      "sense_number": 6,
+      "gloss": "to fall on; to splash on; to burden",
+      "explanation": "Of a liquid, to splash or land on something ({水|みず}がかかる); of trouble, cost or strain, to fall on someone or something ({迷惑|めいわく}がかかる, {負担|ふたん}がかかる). The person or thing affected takes に."
+    },
+    {
+      "sense_number": 7,
+      "gloss": "to catch (an illness); to see (a doctor)",
+      "explanation": "To come down with an illness ({病気|びょうき}にかかる; also written {罹|かか}る), and with {医者|いしゃ}, to see or be treated by a doctor ({医者|いしゃ}にかかる). For a cold, {風邪|かぜ}をひく is the usual verb."
+    },
+    {
+      "sense_number": 8,
+      "gloss": "to set about, to start on (a task)",
+      "explanation": "To set about or get down to a task ({仕事|しごと}にかかる, {取|と}りかかる). After a て-form it means to approach something with a given attitude: なめてかかる (underestimate from the start), {疑|うたが}ってかかる (be suspicious from the outset)."
+    },
+    {
+      "sense_number": 9,
+      "gloss": "to depend on (〜にかかっている)",
+      "explanation": "In the pattern Xにかかっている, to depend or rest on X: an outcome, someone's future, a decision. The subject is usually a result or a question such as 〜かどうか (whether ...)."
     }
   ],
   "examples": [
@@ -118,19 +153,19 @@
       ]
     },
     {
-      "id": "00711_kakaru_ex2",
-      "japanese": "⟦いくら→幾ら：00943_ikura⟧かかります⟦か→か：09473_ka⟧。",
-      "english": "How much does it cost?",
-      "notes": null,
-      "has_audio": true,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
       "id": "00711_kakaru_ex3",
       "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦は→は：00079_ha⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧かかります。",
       "english": "This work takes time.",
+      "notes": null,
+      "has_audio": true,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex8",
+      "japanese": "⟦{思|おも}った→思う：00492_omou⟧⟦より→より：09476_yori⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧かかった。",
+      "english": "It took longer than I thought.",
       "notes": null,
       "has_audio": true,
       "sense_numbers": [
@@ -158,6 +193,16 @@
       ]
     },
     {
+      "id": "00711_kakaru_ex2",
+      "japanese": "⟦いくら→幾ら：00943_ikura⟧かかります⟦か→か：09473_ka⟧。",
+      "english": "How much does it cost?",
+      "notes": null,
+      "has_audio": true,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
       "id": "00711_kakaru_ex6",
       "japanese": "⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧かかりました。",
       "english": "It cost a lot of money.",
@@ -165,26 +210,6 @@
       "has_audio": true,
       "sense_numbers": [
         2
-      ]
-    },
-    {
-      "id": "00711_kakaru_ex7",
-      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦どのくらい→どのくらい：09584_donokurai⟧かかります⟦か→か：09473_ka⟧。⟦{三|さん}→三：00749_san⟧⟦{百|びゃく}→百：00780_hyaku⟧⟦{万|まん}→万：00795_man⟧⟦{円|えん}→円：00774_en⟧⟦ぐらい→ぐらい：02900_gurai⟧かかる⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
-      "english": "How much does it cost to buy a new car? I think it costs about 3 million yen.",
-      "notes": null,
-      "has_audio": true,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "00711_kakaru_ex8",
-      "japanese": "⟦{思|おも}った→思う：00492_omou⟧⟦より→より：09476_yori⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧かかった。",
-      "english": "It took longer than I thought.",
-      "notes": null,
-      "has_audio": true,
-      "sense_numbers": [
-        1
       ]
     },
     {
@@ -206,9 +231,369 @@
       "sense_numbers": [
         2
       ]
+    },
+    {
+      "id": "00711_kakaru_ex7",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦どのくらい→どのくらい：09584_donokurai⟧かかります⟦か→か：09473_ka⟧。⟦{三|さん}→三：00749_san⟧⟦{百|びゃく}→百：00780_hyaku⟧⟦{万|まん}→万：00795_man⟧⟦{円|えん}→円：00774_en⟧⟦ぐらい→ぐらい：02900_gurai⟧かかる⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
+      "english": "How much does it cost to buy a new car? I think it costs about 3 million yen.",
+      "notes": null,
+      "has_audio": true,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex11",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦{絵|え}→絵：02613_e⟧⟦が→が：00051_ga⟧かかって⟦いる→いる：00495_iru⟧。",
+      "english": "A picture is hanging on the wall.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex12",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦{雲|くも}→雲：02202_kumo⟧⟦が→が：00051_ga⟧かかって⟦いる→いる：00495_iru⟧。",
+      "english": "Clouds are hanging over the mountain.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex13",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦{古|ふる}い→古い：00488_furui⟧⟦{橋|はし}→橋：02163_hashi⟧⟦が→が：00051_ga⟧かかって⟦いる→いる：00495_iru⟧。",
+      "english": "An old bridge spans the river.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex14",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦は→は：00079_ha⟧⟦{霧|きり}→霧：02200_kiri⟧⟦が→が：00051_ga⟧かかって⟦いて→いる：00495_iru⟧、{遠|とお}く⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{見|み}えなかった→見える：01165_mieru⟧。",
+      "english": "There was mist in the morning, and I couldn't see very far.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex15",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦の→の：09472_no⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦みんな→みんな：02972_minna⟧⟦の→の：09472_no⟧⟦コート→コート：01358_kooto⟧⟦が→が：00051_ga⟧かかって⟦いて→いる：00495_iru⟧、⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧いっぱい⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
+      "english": "The whole family's coats hang on the wall by the entrance, and in winter it's always crowded with them.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex16",
+      "japanese": "⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦が→が：00051_ga⟧かかって⟦いる→いる：00495_iru⟧。",
+      "english": "It's locked.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        4
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex17",
+      "japanese": "⟦この→この：00962_kono⟧⟦ドア→ドア：00773_doa⟧⟦は→は：00079_ha⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦が→が：00051_ga⟧かからない。",
+      "english": "This door won't lock.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        4
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex18",
+      "japanese": "⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{古|ふる}い→古い：00488_furui⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦が→が：00051_ga⟧かかって⟦いた→いる：00495_iru⟧。",
+      "english": "Old music was playing in the shop.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        4
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex19",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧、⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧⟦エンジン→エンジン：03835_enjin⟧⟦が→が：00051_ga⟧⟦なかなか→なかなか：01547_nakanaka⟧かからない。",
+      "english": "On cold days the car engine just won't start.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        4
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex20",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧⟦ブレーキ→ブレーキ：00022_bureeki⟧⟦が→が：00051_ga⟧かかって、⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{立|た}っていた→立つ：00758_tatsu⟧⟦{人|ひと}→人：00476_hito⟧たち⟦が→が：00051_ga⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{倒|たお}れ→倒れる：01160_taoreru⟧そうになった。",
+      "english": "The brakes suddenly came on, and the people standing in the train nearly fell forward.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        4
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex21",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧かかってきた。",
+      "english": "I got a phone call.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        5
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex22",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦{遅|おそ}く→遅い：00533_osoi⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦から→から：00504_kara⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧かかってきた。",
+      "english": "A friend called me late at night.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        5
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex23",
+      "japanese": "⟦{知|し}らない→知る：00458_shiru⟧⟦{番号|ばんごう}→番号：02939_bangou⟧⟦から→から：00504_kara⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧かかってきたら、⟦{出|で}ない→出る：00513_deru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
+      "english": "If a call comes from a number you don't know, it's better not to answer.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        5
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex24",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧かかってきて⟦ばかり→〜ばかり：02006_bakari⟧で、⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧⟦{全然|ぜんぜん}→全然：00598_zenzen⟧⟦{進|すす}まない→進む：01225_susumu⟧。",
+      "english": "The phone hasn't stopped ringing since this morning, and I'm getting no work done at all.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        5
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex25",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{母|はは}→母：00549_haha⟧⟦から→から：00504_kara⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧かかってきた⟦の→の：09472_no⟧で、⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{出|で}て→出る：00513_deru⟧、⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧かけ{直|なお}す⟦と→と：00512_to⟧⟦{伝|つた}えた→伝える：01220_tsutaeru⟧。",
+      "english": "My mother called in the middle of a meeting, so I stepped out of the room and told her I'd call her back later.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        5
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex26",
+      "japanese": "⟦{服|ふく}→服：00695_fuku⟧⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧かかった。",
+      "english": "Water splashed on my clothes.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        6
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex27",
+      "japanese": "⟦みんな→みんな：02972_minna⟧⟦に→に：00314_ni⟧⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦が→が：00051_ga⟧かかる。",
+      "english": "It will cause everyone trouble.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        6
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex28",
+      "japanese": "⟦{重|おも}い→重い：00804_omoi⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦と→と：00512_to⟧、⟦{腰|こし}→腰：02210_koshi⟧⟦に→に：00314_ni⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦が→が：00051_ga⟧かかる。",
+      "english": "Carrying heavy bags puts a strain on your lower back.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        6
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex29",
+      "japanese": "⟦{遅|おく}れる→遅れる：00741_okureru⟧⟦と→と：00512_to⟧⟦{他|ほか}→他：04129_hoka⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦が→が：00051_ga⟧かかる⟦から→から：00504_kara⟧、{気|き}をつけて⟦ね→ね：09474_ne⟧。",
+      "english": "Be careful not to be late; it causes trouble for other people.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        6
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex30",
+      "japanese": "⟦{一人|ひとり}→一人：00630_hitori⟧⟦の→の：09472_no⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦に→に：00314_ni⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦が→が：00051_ga⟧かかって⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧で、⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧ことになった。",
+      "english": "The workload has been falling on a single employee, so we've decided to take on more staff from next month.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        6
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex31",
+      "japanese": "⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧かかる。",
+      "english": "To fall ill.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        7
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex32",
+      "japanese": "⟦{弟|おとうと}→弟：00572_otouto⟧⟦が→が：00051_ga⟧⟦{重|おも}い→重い：00804_omoi⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧かかった。",
+      "english": "My younger brother came down with a serious illness.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        7
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex33",
+      "japanese": "⟦{熱|ねつ}→熱：01690_netsu⟧⟦が→が：00051_ga⟧⟦{下|さ}がらない→下がる：01188_sagaru⟧なら、⟦{早|はや}く→早い：00514_hayai⟧⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧かかった⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
+      "english": "If your fever won't come down, you should see a doctor soon.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        7
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex34",
+      "japanese": "⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧⟦に→に：00314_ni⟧かからないよう⟦に→に：00314_ni⟧、⟦{外|そと}→外：00671_soto⟧⟦から→から：00504_kara⟧⟦{帰|かえ}ったら→帰る：00508_kaeru⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{洗|あら}っている→洗う：00827_arau⟧。",
+      "english": "To avoid catching the flu, I wash my hands well whenever I come home.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        7
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex35",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{若|わか}い→若い：00823_wakai⟧⟦ころ→〜ころ：03091_koro⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧かかった⟦が→が：00051_ga⟧、⟦それ→それ：00994_sore⟧⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧{気|き}をつけて、⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{元気|げんき}→元気：00696_genki⟧⟦に→に：00314_ni⟧⟦{暮|く}らしている→暮らす：01937_kurasu⟧。",
+      "english": "My grandfather had a serious illness when he was young, but since then he has looked after his health and is still living a healthy life.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        7
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex36",
+      "japanese": "⟦さあ→さあ：02904_saa⟧、⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧かかろう。",
+      "english": "Right, let's get to work.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        8
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex37",
+      "japanese": "⟦{晩|ばん}ご{飯|はん}→晩ご飯：02940_bangohan⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦すぐ→すぐ：00814_sugu⟧⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦に→に：00314_ni⟧{取|と}りかかった。",
+      "english": "Right after dinner I got started on my homework.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        8
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex38",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧⟦{弱|よわ}い→弱い：00825_yowai⟧⟦と→と：00512_to⟧⟦{思|おも}って→思う：00492_omou⟧なめてかかる⟦と→と：00512_to⟧、⟦{負|ま}ける→負ける：01134_makeru⟧⟦よ→よ：09475_yo⟧。",
+      "english": "If you assume your opponent is weak and don't take them seriously, you'll lose.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        8
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex39",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{取|と}りかかる⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦まず→まず：00796_mazu⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧おこう。",
+      "english": "Before we start on the new job, let's check the overall schedule first.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        8
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex40",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦うまい→うまい：01279_umai⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{疑|うたが}って→疑う：01889_utagau⟧かかる⟦の→の：09472_no⟧で、⟦{一度|いちど}→一度：01312_ichido⟧⟦も→も：00484_mo⟧だまされたこと⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
+      "english": "He always treats offers that sound too good with suspicion, so he has never once been taken in.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        8
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex41",
+      "japanese": "⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦{君|きみ}→君：01384_kimi⟧⟦に→に：00314_ni⟧かかって⟦いる→いる：00495_iru⟧。",
+      "english": "Everything depends on you.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        9
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex42",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧⟦{天気|てんき}→天気：00582_tenki⟧⟦に→に：00314_ni⟧かかって⟦いる→いる：00495_iru⟧。",
+      "english": "Tomorrow's game depends on the weather.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        9
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex43",
+      "japanese": "⟦{合格|ごうかく}できる→合格する：27949_goukakusuru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦は→は：00079_ha⟧、⟦これ→これ：00963_kore⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦に→に：00314_ni⟧かかって⟦いる→いる：00495_iru⟧。",
+      "english": "Whether you pass depends on the effort you make from now on.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        9
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex44",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{将来|しょうらい}→将来：01438_shourai⟧⟦は→は：00079_ha⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦が→が：00051_ga⟧⟦{売|う}れる→売れる：02012_ureru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦に→に：00314_ni⟧かかって⟦いる→いる：00495_iru⟧。",
+      "english": "This company's future depends on whether its new product sells.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        9
+      ]
+    },
+    {
+      "id": "00711_kakaru_ex45",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦が→が：00051_ga⟧⟦うまく→うまい：01279_umai⟧いく⟦かどうか→かどうか：28299_kadouka⟧⟦は→は：00079_ha⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦{本人|ほんにん}→本人：03627_honnin⟧⟦の→の：09472_no⟧⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧かかって⟦いる→いる：00495_iru⟧、⟦と→と：00512_to⟧⟦{医者|いしゃ}→医者：02847_isha⟧⟦は→は：00079_ha⟧⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
+      "english": "The doctor explained that whether the operation succeeds also depends on the patient's own strength.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        9
+      ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦かける→かける：00854_kakeru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧かかる (X is required/incurred).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates resulting state. かかって⟦いる→いる：00495_iru⟧ = 'is taking time.'\n\nCOMMON PATTERNS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧かかる (takes time)\n- ⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧かかる (costs money)\n- ⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧かかる (receive a call)\n- ⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦が→が：00051_ga⟧かかる (be locked)\n\nFRAMES: the resource spent is the grammatical subject and takes ⟦が→が：00051_ga⟧, while the activity consuming it takes ⟦に→に：00314_ni⟧ - ⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦に→に：00314_ni⟧⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧かかる (the repair costs money). With a verb, nominalize it first: ⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧かかる. A bare amount can also stand alone with no particle at all (⟦{十|じゅっ}→十：00708_juu⟧⟦{分|ぷん}→分：00928_fun⟧かかる).\n\nMULTIPLE MEANINGS: This verb has many senses depending on context. Written with various kanji ({掛|か}かる, {係|かか}る, etc.).",
+  "notes": "TRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: かける (transitive): ⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧かける → ⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦が→が：00051_ga⟧かかる\n- Pattern: X⟦が→が：00051_ga⟧かかる; with a cost or a duration, (activity)⟦に→に：00314_ni⟧X⟦が→が：00051_ga⟧かかる\n\nWRITING:\nUsually written in kana. The kanji depend on the sense:\n- {掛|か}かる: most senses (take, cost, hang, be locked, set about)\n- {架|か}かる: span, as in ⟦{橋|はし}→橋：02163_hashi⟧⟦が→が：00051_ga⟧{架|か}かる\n- {罹|かか}る: catch an illness, as in ⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧{罹|かか}る\n- {係|かか}る: depend on, concern (formal writing)\n\nCOMMON PATTERNS:\n- ⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦に→に：00314_ni⟧⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧かかる: the repair costs money (the activity takes ⟦に→に：00314_ni⟧, the cost takes が)\n- ⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{三日|みっか}→三日：02969_mikka⟧かかる: after a verb, add ⟦の→の：09472_no⟧⟦に→に：00314_ni⟧; a bare amount needs no particle\n- ⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧かかってくる: a call comes in\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧かかる, ⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧かかる: fall ill; see a doctor\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧かかる, {取|と}りかかる: set to work\n- X⟦に→に：00314_ni⟧かかって⟦いる→いる：00495_iru⟧: depend on X\n- ⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧⟦{針|はり}→針：03566_hari⟧⟦に→に：00314_ni⟧かかる, ⟦{罠|わな}→罠：13816_wana⟧⟦に→に：00314_ni⟧かかる: be caught on a hook, in a trap\n\nASPECT (ている):\nかかって⟦いる→いる：00495_iru⟧ usually describes a state: ⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦が→が：00051_ga⟧かかって⟦いる→いる：00495_iru⟧ (it is locked), ⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦{絵|え}→絵：02613_e⟧⟦が→が：00051_ga⟧かかって⟦いる→いる：00495_iru⟧ (a picture hangs on the wall), ⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦が→が：00051_ga⟧かかって⟦いる→いる：00495_iru⟧ (music is playing). With time or money it can describe an ongoing cost: ⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧かかって⟦いる→いる：00495_iru⟧.",
   "prominent_see_also": [
     {
       "target_id": "00854_kakeru",
@@ -219,13 +604,6 @@
   ],
   "cross_references": [
     {
-      "type": "pair",
-      "reading": "かける",
-      "headword": "かける",
-      "label": "transitive counterpart",
-      "target_id": "00854_kakeru"
-    },
-    {
       "type": "contrast",
       "target_id": "22367_hasshousuru",
       "reading": "はっしょうする",
@@ -235,7 +613,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:21:07Z",
-    "modified": "2026-09-28T13:59:11Z",
+    "modified": "2026-10-01T08:29:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -247,7 +625,8 @@
       "politeness": "plain",
       "semantic": [
         "time-general",
-        "money"
+        "money",
+        "action"
       ],
       "verb_class": "godan-ru"
     }

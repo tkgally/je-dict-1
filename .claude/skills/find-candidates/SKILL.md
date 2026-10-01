@@ -102,6 +102,9 @@ fades; neutrality risks), and disputed or sensitive names.
 they map onto the semantic tags `place-name`, `person-name`,
 `organization-name`, `work-name`, `event-name`, `brand-name` (each paired
 with the `proper-noun` umbrella tag; see the entry-guidelines skill).
+Historical era names (平安時代, 鎌倉時代, 大正時代) are not events: mark them
+`proper noun (era)`; their entries take the semantic tags `time-period` and
+`history` (ruling 2026-08-12, confirmed 2026-10-01).
 
 ## Discovery lenses
 

@@ -657,7 +657,8 @@ def strip_link(text: str, surface: str, base: str, target: str, context: str = "
 
 
 def run_apply(args) -> int:
-    decisions = [d for d in clh.load_decisions(args.decisions) if d["decision"] in ("unlink", "retarget")]
+    decisions = [d for d in clh.superseded_removed(clh.load_decisions(args.decisions))
+                 if d["decision"] in ("unlink", "retarget")]
     known_ids = {p.stem for p in args.entries_dir.glob("*/*.json")}
     for d in decisions:
         if d["decision"] == "retarget" and d.get("new_target") not in known_ids:

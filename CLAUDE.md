@@ -47,8 +47,12 @@ archive/            Retired prompts, plans, old session logs and sweep snapshots
 
 - Path `entries/{range}/{id}_{romaji}.json`; range = ID rounded down to 500. Use
   `python3 build/get_entry_path.py <id> <romaji>`.
-- **IDs are live URLs: never renumber, rename, or reuse an ID.** Get a fresh ID with
-  `python3 build/get_next_id.py` immediately before each new entry.
+- **IDs are live URLs: never renumber or reuse an ID, and never delete or rename an entry file by
+  hand.** Get a fresh ID with `python3 build/get_next_id.py` immediately before each new entry.
+  Retiring a bogus or duplicate entry, or correcting a reading that changes the romaji, is a
+  curator decision; once made, `python3 build/retire_entry.py retire|rename` does it and records
+  the old id in `build/data/retired_entries.json`, and the site build turns the old URL into a
+  redirect.
 - Romaji in IDs is the full reading with no internal underscores (`ketteisuru`, `kaowodasu`).
 - POS tags are hyphenated (`verb-suru`, `adjective-na`); semantic tags come from the closed list in
   `build/validate_tags.py`; notes section headers come from `build/data/note_headers.json`.
@@ -150,6 +154,8 @@ the GitHub MCP tools reach GitHub.
    = otherwise. While pending, wait in the foreground with `python3 pipeline/wait.py 60` via
    Bash, then re-poll; at most 15 polls (the check takes five to seven minutes). Never a
    backgrounded `sleep`: it returns immediately, so the loop finishes long before CI does.
+   The list can be served stale: before treating a run as still pending after five polls, read it
+   directly with `mcp__github__get_check_run` and trust that answer.
 3. Green → `mcp__github__merge_pull_request` with `merge_method: "squash"`. Failed → read the
    failing step's log (`mcp__github__get_job_logs`, `failed_only: true`), fix, `make gate`, push
    once more and re-poll; if it fails again leave the PR open and report it (the next Routine
