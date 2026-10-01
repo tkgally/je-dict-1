@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "すっぱい is an i-adjective describing a sour or acidic taste, like vinegar or citrus fruits.\n\nFORMS:\n- すっぱい: sour (adjective)\n- すっぱく: sourly (adverb)\n- すっぱさ: sourness (noun)\n\nWRITING:\nCan be written as {酸|す}っぱい, but hiragana is more common.\n\nFIVE BASIC TASTES:\n- ⟦{甘|あま}い→甘い：00617_amai⟧: sweet\n- すっぱい/{酸|す}っぱい: sour\n- ⟦{辛|から}い→辛い：00638_karai⟧: spicy/hot\n- ⟦{苦|にが}い→苦い：01201_nigai⟧: bitter\n- ⟦{塩辛|しおから}い→塩辛い：02522_shiokarai⟧/⟦しょっぱい→しょっぱい：02493_shoppai⟧: salty\n\nCOMMON SOUR FOODS:\n- ⟦レモン→レモン：10456_remon⟧: lemon\n- ⟦{酢|す}→酢：01057_su⟧: vinegar\n- ⟦{梅干|うめぼ}し→梅干し：13110_umeboshi⟧: pickled plum\n- ⟦ヨーグルト→ヨーグルト：11133_yooguruto⟧: yogurt",
+  "notes": "すっぱい describes a sour or acidic taste, like vinegar or citrus fruit. It is also the usual word for food that has gone sour.\n\nWRITING:\nCan be written {酸|す}っぱい, but hiragana is more common.\n\nCOMMON EXPRESSIONS:\n- ⟦{甘酸|あまず}っぱい→甘酸っぱい：05916_amazuppai⟧: sweet and sour; bittersweet (of a memory or first love)\n- ⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧{酸|す}っぱく⟦して→する：00392_suru⟧⟦{言|い}う→言う：00515_iu⟧: to tell someone over and over\n\nRELATED WORDS:\n- ⟦{甘|あま}い→甘い：00617_amai⟧: sweet\n- ⟦{辛|から}い→辛い：00638_karai⟧: spicy, hot\n- ⟦{苦|にが}い→苦い：01201_nigai⟧: bitter\n- ⟦{塩辛|しおから}い→塩辛い：02522_shiokarai⟧ / ⟦しょっぱい→しょっぱい：02493_shoppai⟧: salty\n- すっぱさ: sourness (noun)",
   "cross_references": [
     {
       "type": "contrast",
@@ -84,11 +84,25 @@
       "reading": "にがい",
       "headword": "{苦|にが}い",
       "target_id": "01201_nigai"
+    },
+    {
+      "type": "related",
+      "target_id": "02522_shiokarai",
+      "reading": "しおからい",
+      "headword": "{塩辛|しおから}い",
+      "label": "salty"
+    },
+    {
+      "type": "related",
+      "target_id": "02493_shoppai",
+      "reading": "しょっぱい",
+      "headword": "しょっぱい",
+      "label": "salty"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:25:27Z",
-    "modified": "2026-09-02T04:01:01Z",
+    "modified": "2026-10-01T04:22:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
@@ -98,7 +112,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "descriptive",
+        "food"
       ]
     }
   },
