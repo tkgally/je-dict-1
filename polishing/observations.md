@@ -1630,3 +1630,6 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-01 [entry] 03054: audio checks heard けんきゅうじょ for けんきゅうしょ in 03054_kenkyuusho_ex1, ex2; both readings are in use (じょ is common in speech and in many institute names). Consider noting the variant in the entry.
 - 2026-10-01 [entry] 03207: audio checks heard 学んだだけでなく for 学んだけでなく in 03207_shuukaku_ex6; the text is missing a だ. Fix the example.
 - 2026-10-01 [entry] 01964: audio checks heard さんじゅっセンチ for さんじゅうセンチ in 01964_tsumoru_ex3; さんじゅっ is the usual spoken form before セ. Consider furigana {三十|さんじゅっ}.
+- 2026-10-01 [entry] 07659 賜る: entry covers only the humble "receive" use; the honorific "bestow, grant" (陛下がお言葉を賜る) is missing as a sense.
+- 2026-10-01 [entry] 04526 ワンピース: top gloss names a one-piece swimsuit, but no definition or example covers it.
+- 2026-10-01 [entry] 26515 お召し上がり: glossed as "please help yourself" though the headword is a noun used in お召し上がりください / お召し上がりになる; consider glossing the noun and moving the request to a pattern.

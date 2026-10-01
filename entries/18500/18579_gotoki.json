@@ -4,7 +4,7 @@
   "headword": "{如|ごと}き",
   "reading": "ごとき",
   "part_of_speech": "suffix",
-  "gloss": "like; similar to; such as (literary)",
+  "gloss": "like; similar to; such as",
   "definitions": [
     {
       "sense_number": 1,
@@ -80,10 +80,18 @@
     }
   ],
   "notes": "USAGE:\nA classical Japanese expression still used in modern literary, dramatic, and formal contexts. Follows the pattern Noun + ⟦の→の：09472_no⟧{如|ごと}き + Noun (sense 1) or Noun + {如|ごと}き (sense 2, dismissive). The adverbial form is {如|ごと}く. Also written as ごとき in hiragana.\n\nFORMS:\n- {如|ごと}き — attributive (before nouns)\n- {如|ごと}く — adverbial (before verbs)\n- {如|ごと}し — predicative (sentence-ending)\n\nSIMILAR WORDS:\n- ⟦の→の：09472_no⟧ような: like — the standard modern equivalent of {如|ごと}き\n- ⟦まるで→まるで：03739_marude⟧: just like, as if — adds emphasis to comparisons",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03739_marude",
+      "reading": "まるで",
+      "headword": "まるで",
+      "label": "just like, as if"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:02:03Z",
-    "modified": "2026-09-02T04:01:52Z",
+    "modified": "2026-10-01T09:55:14Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -97,6 +105,9 @@
       ],
       "domain": [
         "academic"
+      ],
+      "style": [
+        "literary"
       ]
     }
   }
