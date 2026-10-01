@@ -202,5 +202,27 @@ class TestFilterIssues(unittest.TestCase):
         self.assertEqual(ra.filter_issues({}, ("tags",)), [])
 
 
+class TestReviewIsStale(unittest.TestCase):
+    def _entry(self, modified):
+        return {"id": "00001_a", "metadata": {"modified": modified}}
+
+    def test_stamped_review_matches_current_version(self):
+        rec = {"reviewed_at": "2026-10-01T10:00:00Z", "entry_modified": "2026-09-01T00:00:00Z"}
+        self.assertFalse(ra.review_is_stale(rec, self._entry("2026-09-01T00:00:00Z")))
+
+    def test_stamped_review_of_older_version_is_stale(self):
+        rec = {"reviewed_at": "2026-10-01T10:00:00Z", "entry_modified": "2026-09-01T00:00:00Z"}
+        self.assertTrue(ra.review_is_stale(rec, self._entry("2026-10-01T11:00:00Z")))
+
+    def test_unstamped_review_falls_back_to_reviewed_at(self):
+        rec = {"reviewed_at": "2026-07-13T00:00:00Z"}
+        self.assertTrue(ra.review_is_stale(rec, self._entry("2026-08-30T00:00:00Z")))
+        self.assertFalse(ra.review_is_stale(rec, self._entry("2026-07-01T00:00:00Z")))
+
+    def test_entry_without_modified_is_never_stale(self):
+        rec = {"reviewed_at": "2026-07-13T00:00:00Z"}
+        self.assertFalse(ra.review_is_stale(rec, {"id": "00001_a", "metadata": {}}))
+
+
 if __name__ == "__main__":
     unittest.main()

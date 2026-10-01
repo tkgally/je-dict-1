@@ -114,6 +114,7 @@ python3 build/review_accuracy.py --range 5800 5900 --budget 1.00   # gloss, tran
 python3 build/review_accuracy.py --ids 05907 --budget 0.40         # self-check of specific entries
 python3 build/review_accuracy.py --ids 05907 --dimensions notes --dry-run
 python3 build/review_accuracy.py --report
+python3 build/review_accuracy.py --show --range 5800 5900      # stored issues to adjudicate; STALE = entry changed since review, re-run
 python3 build/review_transitivity.py --all-missing --budget 1.00   # transitivity proposals for untagged verbs
 python3 build/review_runner.py --pass screening --range 1 100      # furigana screener (manual use only; 2% precision)
 python3 build/review_runner.py --pass deep --ids 00123 --max-minutes 20   # deep furigana pass (manual; drops a model slower than 90s/call, stops at the time limit)

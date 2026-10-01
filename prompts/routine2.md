@@ -204,7 +204,8 @@ One verification pass, one fix round, then stop; never re-verify the fix round.
    ```bash
    python3 build/review_accuracy.py --ids <id1,id2,...> --budget 0.40
    ```
-   It writes `reviews/accuracy/{id}.json` (local) and appends flagged entries
+   It writes `reviews/accuracy/{id}.json` (local; `--show --ids …` lists the
+   issues) and appends flagged entries
    to `reviews/accuracy_flags.jsonl`. Off-vocabulary tags are flagged by code;
    breadth complaints, unquoted register or notes flags, and `warn` severity
    are already filtered out.
@@ -343,8 +344,10 @@ converging.
    apply the migration to the suggested or best in-list tag),
    `wrong-category`, `register` (comes with a verbatim quote), `gloss-meaning`,
    `translation-meaning`, `notes-fact` (comes with a verbatim quote).
-4. **Adjudicate** every issue: APPLY / REJECT / FLAG per §C. Never apply
-   blindly; open the entry. For `notes-fact`, check the claim against your own
+4. **Adjudicate** every issue: APPLY / REJECT / FLAG per §C. List them with
+   `python3 build/review_accuracy.py --show --range <start> <end>`; it hides
+   reviews older than their entry (marked STALE: re-run those, never adjudicate
+   them). Never apply blindly; open the entry. For `notes-fact`, check the claim against your own
    knowledge and the rest of the entry. If more than 25 percent of entries
    come back flagged, that is reviewer noise: log a `[tooling]` observation
    with examples. Update `modified` on every entry you change.

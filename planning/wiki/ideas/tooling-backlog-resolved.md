@@ -2,6 +2,25 @@
 
 Items moved here from [tooling-backlog.md](tooling-backlog.md) on 2026-09-26 because they are resolved, shipped, retired or refuted (by their `backlog-queue.json` status where they have one, otherwise by the status the item itself records). Kept for the record and for their measurements. If an item here turns out to be open, move it back.
 
+## 142. `reviews/accuracy/*.json` go stale silently, and adjudicating from them wastes a run
+
+**RESOLVED (2026-10-01).** `review_accuracy.py` already stamped each review with the entry's `modified` (`entry_modified`); nothing read it. Now `review_accuracy.py --show --ids|--range` lists the stored issues and marks a review STALE, issues hidden, when the entry changed after it (`review_is_stale`; unstamped reviews fall back to `reviewed_at`). The flag lines in `accuracy_flags.jsonl` carry `entry_modified` too. routine2.md §A step 4 now adjudicates from `--show` and says to re-run stale reviews. Unit tests in `build/tests/test_review_accuracy.py`.
+
+
+Stored accuracy reviews carry no marker saying which version of the entry they describe. The
+2026-08-30 run adjudicated 14330–14630 from on-disk artifacts dated 2026-07-13 that carried 14
+"semantic tag is not in the valid tag list" flags — **every one already migrated**; a direct
+check against `VALID_SEMANTIC` found zero off-vocabulary semantic tags left in that range. Nothing
+in the file said so.
+
+The fix is small: stamp each review with the entry's `modified` timestamp at review time, and
+have the Routine skip any artifact older than the entry it describes. Re-running is cheap enough
+(~$0.10 for 236 entries) that "always re-run" is an acceptable interim rule, and is what that run
+ended up doing — but only after spending the analysis. This is the same defect shape as
+[137](#137-screening_statusjson-is-missing-12016-of-the-22991-screening-results-on-disk) and
+[138](#138-screenings-skips-are-silent-and-that-is-how-partial-passes-get-misread) in the
+screening half: the review artifacts on disk cannot say when they were true.
+
 ## 2. Fix verify_furigana.py false positives on inline links
 
 **Source**: Comprehensive-polish 2026-05-08 session 002 and 2026-05-09 session 001
