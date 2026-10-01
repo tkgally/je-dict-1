@@ -70,6 +70,10 @@ def find_entry_file(entry_id: str, entries_dir: Path) -> Optional[Path]:
     for json_file in entries_dir.rglob('*.json'):
         if json_file.stem == entry_id:
             return json_file
+    # A bare five-digit ID (the form the documentation gives): 06940
+    if entry_id.isdigit() and len(entry_id) == 5:
+        for json_file in entries_dir.rglob(f'{entry_id}_*.json'):
+            return json_file
     return None
 
 
@@ -145,6 +149,10 @@ def main():
     print(f"Entries with issues: {issues_found}")
     print(f"Entries OK: {entries_checked - issues_found}")
 
+    if entries_checked == 0:
+        # Nothing was checked (every name unresolved): never report that as clean
+        print("ERROR: no entries were checked", file=sys.stderr)
+        sys.exit(2)
     sys.exit(0 if issues_found == 0 else 1)
 
 

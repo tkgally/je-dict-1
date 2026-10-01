@@ -390,6 +390,11 @@ Valid values: `noun`, `verb-godan`, `verb-ichidan`, `verb-suru`, `verb-kuru`, `v
 - `informal`: Casual/colloquial usage (くだけた表現)
 - `vulgar`: Strong/offensive language (use sparingly)
 
+**One value per entry.** Formality and politeness are set once for the headword, by its commonest
+sense. When senses differ in register (念: formal in 感謝の念, everyday in 念のため; 主人: humble as "my
+husband", neutral as "owner"), keep the tag for the commonest sense and state the difference in the notes
+(curator ruling 2026-10-01; there is no per-sense register field).
+
 ### Politeness (Keigo Classification)
 
 - `honorific`: 尊敬語 - Elevates the subject (いらっしゃる, おっしゃる)
@@ -411,7 +416,8 @@ flagged by cross-model review:
 - Human: `body-part`, `body-internal`, `family`, `person`, `occupation`, `personality`, `appearance`
 - Objects: `food`, `clothing`, `building`, `transportation`, `tool`, `furniture`, `electronics`, `money`
 - Abstract: `emotion`, `color`, `number`, `direction`, `size`, `quantity`, `abstract`, `change`, `evaluation`
-- Actions: `movement`, `communication`, `cognition`, `existence`, `creation`, `consumption`
+- Place and perception (added 2026-10-01): `place` for generic place and location words (場所, 所, 位置, 地点, 現場; proper names take `place-name`), `sense` for words of sound, sight, touch, smell, taste and perception (音, 物音, 匂い, 香り, 味, 手触り, 視覚, 聞こえる)
+- Actions: `movement`, `communication`, `cognition`, `existence`, `creation`, `consumption`. `existence` means being, existing, appearing, disappearing or remaining (ある, いる, 存在する, 現れる, 消える, 残る, 生じる); a change of state takes `change`
 - Social life: `greeting`, `education`, `work`, `leisure`, `daily-life`, `shopping`, `travel`, `cooking`
 - Fields & topics: `business`, `economics`, `finance`, `law`, `politics`, `society`, `culture`, `religion`, `history`, `science`, `technology`, `health`, `language`, `media`, `music`, `art`, `entertainment`, `sports`, `military`
 - Special: `proverb`, `idiom`
@@ -429,7 +435,7 @@ flagged by cross-model review:
 - `general`: For nouns without a specific semantic category
 - `action`: For verbs not fitting other action categories
 - `descriptive`: For adjectives, adverbs, and mimetic manner/quality words
-- `grammatical`: For particles and conjunctions
+- `grammatical`: For function words and patterns: particles, conjunctions, auxiliaries, question words (何, 誰, どこ, なぜ). Grammar and writing terms (名詞, 助詞, 送り仮名, 部首, 敬語) take `language` only
 - `expression`: For fixed expressions and interjections
 - `onomatopoeia`: For mimetic words
 
@@ -453,7 +459,7 @@ domain tag), `transportation` (not `transport`), `animal-general` (not
 
 - `transitivity`: Required for verbs - indicates if verb takes a direct object
 - `style`: Use when word is strongly associated with a medium
-- `domain`: Use when word is specialized/technical
+- `domain`: Use when word is specialized/technical. Values: `business`, `academic`, `technical`, `legal`, `medical`, `colloquial`, `internet`, `dialect`. `dialect` marks a regional (non-standard) word such as ホンマに or おもろい; its notes must name the region
 
 ### Tag Selection Tips
 

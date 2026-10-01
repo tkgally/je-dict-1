@@ -565,6 +565,7 @@ def generate_tag_search_section(curator_tools: bool = False) -> str:
                     <label><input type="checkbox" name="domain" value="medical"> medical</label>
                     <label><input type="checkbox" name="domain" value="colloquial"> colloquial</label>
                     <label><input type="checkbox" name="domain" value="internet"> internet</label>
+                    <label><input type="checkbox" name="domain" value="dialect"> dialect</label>
                 </div>
             </div>
         </div>
@@ -664,27 +665,32 @@ def generate_advanced_page(curator_tools: bool = False) -> str:
 </html>'''
 
 
-def generate_redirect_page(target: str, title: str) -> str:
+def generate_redirect_page(target: str, title: str, href: str = None) -> str:
     """A small page that sends the visitor (and search engines) to `target`.
 
     Used for retired pages that may still be indexed: advanced.html (the public
     tag search, retired 2026-09-30) now points to lists/index.html. The canonical
     link and noindex tell crawlers to drop the old URL; the meta refresh and
     location.replace move visitors on without a history entry.
+
+    `target` is the site-root path (for the canonical link); `href` is the
+    path relative to the redirect page itself, when that page is not at the
+    site root (retired entry pages: build/data/retired_entries.json).
     """
+    href = href or target
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
-    <meta http-equiv="refresh" content="0; url={target}">
+    <meta http-equiv="refresh" content="0; url={href}">
     <link rel="canonical" href="https://www.tkgje.jp/{target}">
     <title>{title} - TKG Japanese-English Learner's Dictionary</title>
-    <script>window.location.replace("{target}");</script>
+    <script>window.location.replace("{href}");</script>
 </head>
 <body>
-    <p>This page has moved to <a href="{target}">{title}</a>.</p>
+    <p>This page has moved to <a href="{href}">{title}</a>.</p>
 </body>
 </html>'''
 

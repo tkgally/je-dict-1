@@ -605,16 +605,24 @@ def score_entry(entry_data, notes_text, template, table=None):
     required = template.get('required_sections', []) or []
     optional = template.get('optional_sections', []) or []
     found = analysis['sections_found']
+    # A required section may list alternatives separated by "|" (any one counts):
+    # "common patterns|common collocations" for suru verbs (ruling 2026-10-01)
+    required_alts = []
     required_canon = []
     for s in required:
-        c = table.canonical_for_template_section(s)
-        if c not in required_canon:
-            required_canon.append(c)
-    if not required_canon:
+        alts = []
+        for alt in s.split('|'):
+            c = table.canonical_for_template_section(alt.strip())
+            if c not in alts:
+                alts.append(c)
+            if c not in required_canon:
+                required_canon.append(c)
+        required_alts.append(alts)
+    if not required_alts:
         breakdown['required'] = POINTS['required']
     else:
-        hits = sum(1 for c in required_canon if c in found)
-        breakdown['required'] = int(round(POINTS['required'] * hits / len(required_canon)))
+        hits = sum(1 for alts in required_alts if any(c in found for c in alts))
+        breakdown['required'] = int(round(POINTS['required'] * hits / len(required_alts)))
 
     # 7. Optional sections (2.5 each, capped)
     optional_canon = []

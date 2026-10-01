@@ -7,6 +7,16 @@ description: Guidelines for safely deleting dictionary entries while properly up
 
 Use this skill when you need to remove an entry from the dictionary. This ensures all indexes and cross-references are properly updated.
 
+> **Use `build/retire_entry.py` (since 2026-10-01).** Entry ids are live URLs. Deleting an entry is
+> a curator decision; once it is made, run
+> `python3 build/retire_entry.py retire OLD_ID --to NEW_ID --reason "..."`. It deletes the file,
+> repoints inline links and articles to the replacement, drops cross-references to the old entry,
+> and records the old id in `build/data/retired_entries.json`, so the site build writes a
+> redirect at the old URL. Correcting a reading that changes the romaji is
+> `retire_entry.py rename OLD_ID NEW_ID` (same number). Merge any content worth keeping into the
+> replacement first, check the links it lists, then `make index` and `python3 build/validate.py`.
+> The manual steps below explain what the tool automates; never `rm` an entry file by hand.
+
 ## When to Delete an Entry
 
 Valid reasons for deletion:

@@ -44,6 +44,7 @@ import json
 import os
 import shutil
 import sys
+import re
 import subprocess
 import time
 from collections import defaultdict
@@ -90,6 +91,38 @@ from article_renderer import (
 # This ensures the CNAME file is always restored even if accidentally deleted
 GITHUB_PAGES_CNAME = "www.tkgje.jp"
 
+
+
+def write_retired_redirects(entries_output_dir, entries) -> int:
+    """Write a redirect page at the old URL of every retired or renamed entry.
+
+    build/data/retired_entries.json maps an old id to the id that replaced it
+    (build/retire_entry.py maintains it). Entry ids are live URLs, so the old
+    page keeps working and sends visitors on to the replacement.
+    """
+    path = Path(__file__).resolve().parent / 'data' / 'retired_entries.json'
+    if not path.exists():
+        return 0
+    retired = json.loads(path.read_text(encoding='utf-8'))
+    by_id = {e['id']: e for e in entries}
+    count = 0
+    for old, info in retired.items():
+        new = info['to']
+        seen = set()
+        while new in retired and new not in seen:
+            seen.add(new)
+            new = retired[new]['to']
+        target = by_id.get(new)
+        if target is None or old in by_id:
+            continue
+        title = re.sub(r'\{([^|}]*)\|[^}]*\}', r'\1', target.get('headword', new))
+        out_dir = entries_output_dir / get_directory_range(old)
+        out_dir.mkdir(parents=True, exist_ok=True)
+        rel = f"../{get_directory_range(new)}/{new}.html"
+        with open(out_dir / f"{old}.html", 'w', encoding='utf-8') as f:
+            f.write(generate_redirect_page(f"entries/{get_directory_range(new)}/{new}.html", title, href=rel))
+        count += 1
+    return count
 
 def generate_stylesheet() -> str:
     """Generate the shared CSS stylesheet for the flat site."""
@@ -227,6 +260,7 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
             regenerated += 1
 
         print(f"  Regenerated {regenerated} entry pages, skipped {skipped} unchanged")
+        print(f"  Generated {write_retired_redirects(entries_output_dir, entries)} retired-entry redirects")
     else:
         # Full mode: atomic build pattern (temp dir + swap)
         # Step 2: Create output directories
@@ -310,6 +344,7 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(entry_html)
         print(f"  Generated {len(entries)} entry pages")
+        print(f"  Generated {write_retired_redirects(entries_output_dir, entries)} retired-entry redirects")
 
     # Count vocabulary tiers, examples, and examples with a valid recording
     tier_counts = {'basic': 0, 'core': 0, 'general': 0, 'unassigned': 0}

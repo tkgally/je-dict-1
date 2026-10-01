@@ -1,5 +1,5 @@
 {
-  "_comment": "POS note templates for score_note_quality.py. Sections are matched case-insensitively against section headers in notes (e.g., 'TRANSITIVITY:', 'COMMON PATTERNS:').",
+  "_comment": "POS note templates for score_note_quality.py. Sections are matched case-insensitively against section headers in notes (e.g., 'TRANSITIVITY:', 'COMMON PATTERNS:'). A required section written 'a|b' is satisfied by either.",
   "verb-ichidan": {
     "required_sections": ["transitivity", "common patterns"],
     "optional_sections": ["aspect", "collocations", "particles", "similar verbs", "register", "negative usage", "keigo"],
@@ -13,7 +13,7 @@
     "expected_order": ["transitivity", "aspect", "common patterns", "similar verbs", "register"]
   },
   "verb-suru": {
-    "required_sections": ["common patterns"],
+    "required_sections": ["common patterns|common collocations"],
     "optional_sections": ["transitivity", "aspect", "collocations", "particles", "similar verbs", "register", "keigo"],
     "min_length": 100,
     "expected_order": ["transitivity", "aspect", "common patterns", "similar verbs", "register"]

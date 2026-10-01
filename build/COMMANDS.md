@@ -103,6 +103,8 @@ python3 build/manage_candidates.py add-batch proposed.json      # Many, duplicat
 python3 build/manage_candidates.py remove C00123
 python3 build/manage_candidates.py sync                         # Drop candidates that now exist
 python3 build/manage_candidates.py stats
+python3 build/retire_entry.py retire OLD_ID --to NEW_ID --reason "..."   # Delete an entry; old URL redirects (curator decision)
+python3 build/retire_entry.py rename OLD_ID NEW_ID --reason "..."        # New romaji, same number; old URL redirects
 ```
 
 ## External review (requires OPENROUTER_API_KEY)

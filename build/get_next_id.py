@@ -18,6 +18,7 @@ Usage:
 """
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
@@ -43,6 +44,13 @@ def get_max_entry_id(entries_dir: Path) -> int:
             numeric_id = int(match.group(1))
             if numeric_id > max_id:
                 max_id = numeric_id
+
+    # A retired entry's number is a live redirect URL and is never reused
+    retired = entries_dir.parent / 'build' / 'data' / 'retired_entries.json'
+    if retired.exists():
+        for old in json.loads(retired.read_text(encoding='utf-8')):
+            if old[:5].isdigit():
+                max_id = max(max_id, int(old[:5]))
 
     return max_id
 

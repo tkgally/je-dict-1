@@ -46,7 +46,15 @@
   ],
   "notes": "COMMON COLLOCATIONS:\n- {郵便番号|ゆうびんばんごう}⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧: to fill in the postal code\n- {郵便番号|ゆうびんばんごう}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to look up a postal code\n\nCULTURAL NOTE:\n- A Japanese address is written from the largest unit to the smallest: 〒 and the postal code, then prefecture, city, district, block number, and building. Forms usually have a separate box for the {郵便番号|ゆうびんばんごう}, and entering it often fills in the rest of the ⟦{住所|じゅうしょ}→住所：01430_juusho⟧ automatically.",
   "schema_version": "2.0",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01430_juusho",
+      "reading": "じゅうしょ",
+      "headword": "{住所|じゅうしょ}",
+      "label": "address"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +69,6 @@
       "domain": []
     },
     "created": "2026-09-29T17:04:15Z",
-    "modified": "2026-09-29T17:09:54Z"
+    "modified": "2026-10-01T08:29:18Z"
   }
 }

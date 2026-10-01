@@ -32,6 +32,8 @@ TRANSITIVITY:
 - 出る/出す, 入る/入れる, 付く/付ける, 消える/消す
 - 割れる/割る, 壊れる/壊す, 決まる/決める, 変わる/変える
 
+**〜がる verbs** (adjective + がる: 嫌がる, 痛がる, 寂しがる …): tag transitivity by whether the verb takes a を object in normal use (curator ruling 2026-10-01). Transitive: 嫌がる, 欲しがる, 怖がる, かわいがる, 面白がる, 煙たがる (Xを嫌がる). Intransitive: 痛がる, 寂しがる, 強がる, 恥ずかしがる, 悔しがる (Xが痛がる); an occasional を naming where the feeling is located (耳を痛がる) does not make the verb transitive. Verbs where がる is part of the root (上がる, 曲がる, 繋がる) are ordinary verbs, not this pattern.
+
 **Pair linking**: Use `prominent_see_also` (NOT `cross_references`) to link transitive/intransitive pair verbs. The `note` field should indicate what the *target* entry is ("transitive" or "intransitive"). Always verify the back-link exists on the pair entry.
 
 ### 2. Aspect/ている Behavior (when non-obvious)
@@ -203,7 +205,8 @@ All verb entries must include these tags in `metadata.tags`:
 - `movement`: 行く, 来る, 歩く, 走る, 泳ぐ
 - `communication`: 話す, 聞く, 言う, 読む, 書く
 - `cognition`: 思う, 知る, 考える, 覚える, 忘れる
-- `existence`: ある, いる, なる, できる
+- `existence`: being, existing, appearing, disappearing, remaining only: ある, いる, 存在する, 現れる, 消える, 残る, 生じる. A verb of becoming or changing state (なる, 変わる, 固まる) takes `change`; a verb of making takes `creation`; anything else takes its subject tag
+  (curator ruling 2026-10-01)
 - `consumption`: 食べる, 飲む, 使う, 買う
 - `action`: Fallback for verbs not fitting other categories
 

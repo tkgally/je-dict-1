@@ -3,12 +3,17 @@
   "headword": "ポーチ",
   "reading": "ぽーち",
   "part_of_speech": "noun",
-  "gloss": "pouch, small bag",
+  "gloss": "pouch, small bag; porch (of a house)",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "pouch, small bag",
       "explanation": "A small bag or case for carrying small items."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "porch (of a house)",
+      "explanation": "The covered area just outside the front door of a house or building. This is a separate loanword, from English 'porch', and far less common than sense 1; it is mostly heard in house-building and real-estate language, above all in {玄関|げんかん}ポーチ."
     }
   ],
   "examples": [
@@ -38,9 +43,29 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "09488_poochi_ex4",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧ポーチ⟦に→に：00314_ni⟧⟦{植木鉢|うえきばち}→植木鉢：06329_uekibachi⟧⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧。",
+      "english": "Put potted plants on the front porch.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "09488_poochi_ex5",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{濡|ぬ}れない→濡れる：00800_nureru⟧よう⟦に→に：00314_ni⟧、⟦{玄関|げんかん}→玄関：05003_genkan⟧ポーチ⟦に→に：00314_ni⟧⟦{屋根|やね}→屋根：02264_yane⟧⟦を→を：00422_wo⟧⟦{付|つ}けた→付ける：00761_tsukeru⟧。",
+      "english": "We put a roof over the front porch so that we don't get wet even on rainy days.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
     }
   ],
-  "notes": "ポーチ comes from English \"pouch.\" It refers to a small bag or case, typically with a zipper, used to organize and carry small items.\n\nTYPES:\n- ⟦{化粧|けしょう}→化粧：02699_keshou⟧ポーチ: cosmetics pouch (most common usage)\n- ペンポーチ: pen case\n- トラベルポーチ: travel organizer pouch\n- ⟦ガジェット→ガジェット：06462_gajetto⟧ポーチ: gadget/electronics pouch\n\nCOMMON COLLOCATIONS:\n- ポーチ⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in a pouch\n- ポーチ⟦から→から：00504_kara⟧⟦{出|だ}す→出す：01087_dasu⟧: to take out of a pouch",
+  "notes": "In sense 1, ポーチ comes from English \"pouch\": a small bag or case, typically with a zipper, used to organize and carry small items.\n\nTYPES:\n- ⟦{化粧|けしょう}→化粧：02699_keshou⟧ポーチ: cosmetics pouch (most common usage)\n- ペンポーチ: pen case\n- トラベルポーチ: travel organizer pouch\n- ⟦ガジェット→ガジェット：06462_gajetto⟧ポーチ: gadget/electronics pouch\n\nCOMMON COLLOCATIONS:\n- ポーチ⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in a pouch\n- ポーチ⟦から→から：00504_kara⟧⟦{出|だ}す→出す：01087_dasu⟧: to take out of a pouch\n\nWATCH OUT:\nEnglish \"pouch\" and \"porch\" both become ポーチ in Japanese. Context separates them: a ポーチ you put things in is a pouch, while the ポーチ of a house, usually ⟦{玄関|げんかん}→玄関：05003_genkan⟧ポーチ, is a porch. In a Japanese house the porch is typically the small tiled step outside the front door, not a large veranda; for an open platform, ⟦ベランダ→ベランダ：05072_beranda⟧ or ⟦テラス→テラス：28798_terasu⟧ is used.",
   "cross_references": [
     {
       "type": "related",
@@ -66,7 +91,7 @@
   ],
   "metadata": {
     "created": "2026-02-02T07:47:12Z",
-    "modified": "2026-09-22T04:41:21Z",
+    "modified": "2026-10-01T08:29:13Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -76,7 +101,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "daily-life"
+        "daily-life",
+        "building"
       ]
     }
   }

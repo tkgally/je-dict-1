@@ -276,10 +276,13 @@ def load_blocked_bases(path: Path = HOMOPHONES_PATH) -> frozenset[str]:
 
 
 def load_unlink_decisions(path: Path = DECISIONS_PATH) -> dict[str, frozenset[str]]:
-    """``entry number -> kana bases`` that an adjudicated decision unlinked in that entry."""
+    """``entry number -> bases`` that an adjudicated decision unlinked in that entry
+    (and that no later ``keep`` line for the same entry and base reversed)."""
     if not path.exists():
         return {}
-    out: dict[str, set[str]] = defaultdict(set)
+    # entry number -> base -> targets unlinked; a later keep for the same entry,
+    # base and target reverses that unlink (the ledger is append-only)
+    found: dict[str, dict[str, set[str]]] = defaultdict(lambda: defaultdict(set))
     for line in path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line:
@@ -288,9 +291,16 @@ def load_unlink_decisions(path: Path = DECISIONS_PATH) -> dict[str, frozenset[st
             rec = json.loads(line)
         except json.JSONDecodeError:
             continue
-        if isinstance(rec, dict) and rec.get("decision") in ("unlink", "retarget") and rec.get("base"):
-            out[str(rec.get("entry", ""))[:5]].add(strip_tilde(str(rec["base"])))
-    return {k: frozenset(v) for k, v in out.items()}
+        if not (isinstance(rec, dict) and rec.get("base")):
+            continue
+        num, base = str(rec.get("entry", ""))[:5], strip_tilde(str(rec["base"]))
+        if rec.get("decision") in ("unlink", "retarget"):
+            found[num][base].add(str(rec.get("target", "")))
+        elif rec.get("decision") == "keep" and rec.get("entry") and base in found.get(num, {}):
+            found[num][base].discard(str(rec.get("target", "")))
+    return {num: frozenset(b for b, targets in bases.items() if targets)
+            for num, bases in found.items()
+            if any(bases.values())}
 
 
 # ---------------------------------------------------------------------------

@@ -292,6 +292,27 @@ def find_furigana_brace_errors(entry: dict, ignore_allowlist: bool = False) -> l
     return errors
 
 
+_FURIGANA_GROUP_RE = re.compile(r'\{([^{}|]+)\|([^{}]*)\}')
+_LATIN_RE = re.compile(r'[A-Za-zＡ-Ｚａ-ｚ]')
+
+
+def find_latin_furigana_errors(entry: dict) -> list[str]:
+    """Error if a furigana reading `{漢字|...}` contains a Latin letter.
+
+    A reading is kana; a Latin letter there is a typo or romaji left in by
+    mistake (eight such defects were fixed dictionary-wide on 2026-07-28, and
+    the corpus has had none since). Hard error, no baseline.
+    """
+    if not isinstance(entry, dict):
+        return []
+    errors = []
+    for field_path, text in _entry_text_fields(entry):
+        for m in _FURIGANA_GROUP_RE.finditer(text):
+            if _LATIN_RE.search(m.group(2)):
+                errors.append(f"Latin letter in furigana reading in '{field_path}': {m.group(0)}")
+    return errors
+
+
 def find_bare_kanji_headword_errors(entry: dict) -> list[str]:
     """Error if `headword` contains kanji with no furigana brace at all.
 
@@ -523,6 +544,7 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: 
     # only fire with --ratchet.
     errors.extend(find_furigana_brace_errors(entry))
     errors.extend(find_bare_kanji_headword_errors(entry))
+    errors.extend(find_latin_furigana_errors(entry))
     if RATCHET:
         errors.extend(find_ratchet_errors(entry))
 
@@ -793,6 +815,35 @@ def check_pos_consistency(entries_data: list[tuple[Path, dict]]) -> tuple[list[t
             ))
 
     return warnings, empty_count
+
+
+def check_retired_entries(entries_data, project_root: Path) -> list:
+    """Errors for build/data/retired_entries.json (written by retire_entry.py).
+
+    An entry id that was retired or renamed is a redirect on the live site, so
+    no entry file may carry that id again, and every redirect must resolve
+    (following chains) to an entry that exists.
+    """
+    path = project_root / 'build' / 'data' / 'retired_entries.json'
+    if not path.exists():
+        return []
+    try:
+        retired = json.loads(path.read_text(encoding='utf-8'))
+    except ValueError as e:
+        return [(path, f"retired_entries.json is not valid JSON: {e}")]
+    live = {entry.get('id'): fp for fp, entry in entries_data}
+    errors = []
+    for old, info in retired.items():
+        if old in live:
+            errors.append((live[old], f"Entry id '{old}' was retired ({info.get('kind', 'retired')} "
+                                      f"→ {info.get('to')}) and must not be reused"))
+        new, seen = info.get('to'), {old}
+        while new in retired and new not in seen:
+            seen.add(new)
+            new = retired[new].get('to')
+        if new not in live:
+            errors.append((path, f"Retired id '{old}' redirects to '{new}', which does not exist"))
+    return errors
 
 
 def check_word_links(
@@ -1261,6 +1312,11 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
         else:
             invalid_files.append((file_path, [error_msg]))
             valid -= 1
+
+    # Retired ids (build/data/retired_entries.json) must stay retired, and each
+    # must lead to a live entry, or its redirect page would point nowhere
+    for file_path, error_msg in check_retired_entries(entries_data, project_root):
+        invalid_files.append((file_path, [error_msg]))
 
     # Check cross_references point to existing IDs
     # These are tracked separately as warnings (don't prevent build)

@@ -7856,10 +7856,6 @@
 {"ts": "2026-08-26T13:03:00Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 3, "note": "family: misc tag nits, not clearly false"}
 {"ts": "2026-08-26T13:10:00Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 5, "note": "family: okurigana stem/split false positives"}
 {"ts":"2026-08-27T12:51:45Z","entry":"07023","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"formality formal->neutral, everyday word"}
-{"ts":"2026-08-28T00:30:04Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":25,"note":"family: confabulated truncated reading; entries hold full reading"}
-{"ts":"2026-08-28T00:30:04Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":10,"note":"family: okurigana split; partial reading correct by design"}
-{"ts":"2026-08-28T00:30:04Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":4,"note":"family: rendaku/compound vs standalone reading"}
-{"ts":"2026-08-28T00:30:04Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":2,"note":"family: reading the entry itself discusses"}
 {"ts":"2026-08-28T00:33:24Z","entry":"13920","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"own notes say clinical neutral; formal->neutral"}
 {"ts":"2026-08-28T00:33:24Z","entry":"13981","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"gitei rendered as plain otouto; added in-law"}
 {"ts":"2026-08-28T00:33:24Z","entry":"13983","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"literary fiction tagged education; -> art"}
@@ -7888,7 +7884,7 @@
 {"ts":"2026-08-28T00:36:00Z","entry":"14306","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"additive nit; not a wrong tag"}
 {"ts":"2026-08-28T00:36:00Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":6,"note":"family: keigo-only reading of formal; entry notes support label"}
 {"ts":"2026-08-28T00:36:00Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":25,"note":"family: in-list too-broad/too-narrow substitution nits"}
-{"ts":"2026-08-28T00:44:30Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":0,"note":"RETRACTION of 4 earlier lines today (n=25/10/4/2): counted stale July screening files as this run's flags"}
+{"ts":"2026-08-28T00:44:30Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":0,"note":"RETRACTION of 4 earlier lines today (n=25/10/4/2): counted stale July screening files as this run's flags; those 4 lines were deleted 2026-10-01 by curator ruling"}
 {"ts":"2026-08-28T00:44:30Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":7,"note":"corrected: 7 of 222 screened this run; okurigana, rendaku, entry-discussed, cross-word"}
 {"ts":"2026-08-28T12:41:35Z","entry":"30766","src":"self-check","dim":"gloss","sev":"error","decision":"reject","note":"register paren is house practice"}
 {"ts":"2026-08-28T12:41:35Z","entry":"30767","src":"self-check","dim":"gloss","sev":"error","decision":"apply","note":"scope wider than clothing"}
@@ -11808,3 +11804,12 @@
 {"ts": "2026-10-01T06:22:53Z", "entry": "02473", "src": "accuracy", "dim": "notes", "family": "notes-fact", "sev": "error", "decision": "reject", "note": "distinction stated"}
 {"ts": "2026-10-01T06:22:53Z", "entry": "02487", "src": "accuracy", "dim": "notes", "family": "notes-fact", "sev": "error", "decision": "reject", "note": "readings described correctly"}
 {"ts": "2026-10-01T06:22:53Z", "entry": "02506", "src": "accuracy", "dim": "tags", "family": "register", "sev": "error", "decision": "reject", "note": "お世話 is polite"}
+{"ts": "2026-10-01T08:34:14Z", "entry": "00562", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "note": "sense 4 gloss 'to wear, to put on (a mask, a ring)' already names the scope; 着ける is the right kanji for accessories"}
+{"ts": "2026-10-01T08:34:14Z", "entry": "00923", "src": "accuracy", "dim": "notes", "sev": "error", "decision": "apply", "note": "noted the adverbial 'soon, shortly' use (近く発表される)"}
+{"ts": "2026-10-01T08:34:14Z", "entry": "00987", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "note": "curator ruling 2026-10-01: one politeness value per entry, by the commonest sense; notes state sense 2 is neutral"}
+{"ts": "2026-10-01T08:34:14Z", "entry": "02097", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "apply", "note": "gloss reworded 'to put in an appearance' (transitive, as in 姿を現す) instead of 'to appear/show oneself'"}
+{"ts": "2026-10-01T08:34:14Z", "entry": "08356", "src": "accuracy", "dim": "notes", "sev": "error", "decision": "reject", "note": "ご (honorific) + 祝儀 (celebratory gift) is accurate; wording nit"}
+{"ts": "2026-10-01T08:34:14Z", "entry": "09869", "src": "accuracy", "dim": "notes", "sev": "error", "decision": "apply", "note": "7 o'clock: しちじ or ななじ, ななじ common in speech"}
+{"ts": "2026-10-01T08:34:14Z", "entry": "10486", "src": "accuracy", "dim": "notes", "sev": "error", "decision": "reject", "note": "馳せる is ichidan (馳せた, 馳せない); reviewer wrong"}
+{"ts": "2026-10-01T08:34:14Z", "entry": "18554", "src": "accuracy", "dim": "notes", "sev": "error", "decision": "reject", "note": "送り仮名 are added to the Chinese text in kanbun kundoku, alongside 返り点; note is correct"}
+{"ts": "2026-10-01T08:34:14Z", "entry": "22105", "src": "accuracy", "dim": "notes", "sev": "error", "decision": "reject", "note": "'primarily Christian' plus a Buddhist reading note is not a contradiction"}

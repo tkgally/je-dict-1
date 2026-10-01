@@ -3,34 +3,29 @@
   "headword": "{末端|まったん}",
   "reading": "まったん",
   "part_of_speech": "noun",
-  "gloss": "end; tip; extremity",
+  "gloss": "end; tip; extremity; lowest level; retail level",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "end; tip; extremity",
-      "explanation": "Used for physical endpoints or the outermost parts."
+      "explanation": "The far end or outermost part of something that extends or branches out, such as the tips of nerves or the hands and feet."
     },
     {
       "sense_number": 2,
       "gloss": "lowest level; bottom rung (of an organization)",
-      "explanation": "Used figuratively for the bottom of hierarchies."
+      "explanation": "Used figuratively for the bottom of a hierarchy: the people furthest from the top of an organization."
+    },
+    {
+      "sense_number": 3,
+      "gloss": "end of a distribution chain; retail level",
+      "explanation": "The last stage of distribution, where goods reach the final buyer, as in {末端|まったん}{価格|かかく} (retail price; for illegal drugs, street value) and {末端|まったん}{消費者|しょうひしゃ} (end consumer). Mostly found in business and news language."
     }
   ],
   "examples": [
     {
       "id": "06788_mattan_ex1",
-      "japanese": "⟦{神経|しんけい}→神経：03257_shinkei⟧⟦の→の：09472_no⟧{末端|まったん}⟦まで→まで：00490_made⟧⟦{行|い}き{届|とど}く→行き届く：30420_ikitodoku⟧。",
-      "english": "It reaches to the nerve endings.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "06788_mattan_ex2",
-      "japanese": "{末端|まったん}⟦{価格|かかく}→価格：00147_kakaku⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧1⟦{万円|まんえん}→万円：09900_manen⟧⟦だ→だ：09496_da⟧。",
-      "english": "The retail price is about 10,000 yen.",
+      "japanese": "⟦{指先|ゆびさき}→指先：12727_yubisaki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{神経|しんけい}→神経：03257_shinkei⟧⟦の→の：09472_no⟧{末端|まったん}⟦が→が：00051_ga⟧⟦{集|あつ}まっている→集まる：01162_atsumaru⟧。",
+      "english": "Nerve endings are concentrated in the fingertips.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -46,6 +41,16 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "06788_mattan_ex9",
+      "japanese": "⟦{血行|けっこう}→血行：23356_kekkou⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦と→と：00512_to⟧、⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧{末端|まったん}⟦まで→まで：00490_made⟧⟦{血液|けつえき}→血液：02703_ketsueki⟧⟦が→が：00051_ga⟧⟦{届|とど}き→届く：00899_todoku⟧にくく⟦なる→なる：01970_naru⟧。",
+      "english": "When circulation is poor, blood has trouble reaching the body's extremities.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
     },
     {
       "id": "06788_mattan_ex4",
@@ -76,12 +81,42 @@
       "sense_numbers": [
         2
       ]
+    },
+    {
+      "id": "06788_mattan_ex2",
+      "japanese": "{末端|まったん}⟦{価格|かかく}→価格：00147_kakaku⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧1⟦{万円|まんえん}→万円：09900_manen⟧⟦だ→だ：09496_da⟧。",
+      "english": "The retail price is about 10,000 yen.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "06788_mattan_ex7",
+      "japanese": "⟦{原材料|げんざいりょう}→原材料：18966_genzairyou⟧⟦の→の：09472_no⟧⟦{値上|ねあ}がり→値上がり：11538_neagari⟧⟦は→は：00079_ha⟧、⟦やがて→やがて：03637_yagate⟧{末端|まったん}⟦の→の：09472_no⟧⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{及|およ}ぶ→及ぶ：01921_oyobu⟧。",
+      "english": "Rises in the price of raw materials eventually reach the end consumer as well.",
+      "sense_numbers": [
+        3
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "06788_mattan_ex8",
+      "japanese": "⟦{押収|おうしゅう}→押収：19033_oushuu⟧⟦された→する：00392_suru⟧⟦{麻薬|まやく}→麻薬：18796_mayaku⟧⟦は→は：00079_ha⟧、{末端|まったん}⟦{価格|かかく}→価格：00147_kakaku⟧⟦で→で：00502_de⟧⟦{約|やく}→約：09563_yaku⟧5{億円|おくえん}⟦に→に：00314_ni⟧⟦{相当|そうとう}する→相当する：21146_soutousuru⟧⟦という→という：09577_toiu⟧。",
+      "english": "The seized drugs are said to be worth about 500 million yen at street value.",
+      "sense_numbers": [
+        3
+      ],
+      "has_audio": false,
+      "notes": null
     }
   ],
-  "notes": "{末端|まったん} refers to ends, tips, or peripheral parts.\n\nSENSE 1 - PHYSICAL:\n- ⟦{神経|しんけい}→神経：03257_shinkei⟧⟦の→の：09472_no⟧{末端|まったん} - nerve endings\n- ⟦{指|ゆび}→指：01518_yubi⟧⟦の→の：09472_no⟧{末端|まったん} - fingertips\n- {末端|まったん}⟦{冷|ひ}え{性|しょう}→冷え性：18211_hieshou⟧ - cold extremities\n\nSENSE 2 - ORGANIZATIONAL:\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{末端|まったん} - bottom of organization\n- {末端|まったん}⟦{社員|しゃいん}→社員：03065_shain⟧ - rank-and-file employees\n\nCOMMON COLLOCATIONS:\n- {末端|まったん}⟦{価格|かかく}→価格：00147_kakaku⟧ - retail price\n- {末端|まったん}⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧ - end consumer\n\nRELATED WORDS:\n- ⟦{先端|せんたん}→先端：04370_sentan⟧ - tip, cutting edge\n- ⟦{端|はし}→端：00936_hashi⟧ - edge, end",
+  "notes": "{末端|まったん} is the far end of something that extends or branches outward: the tips of the body (sense 1), the bottom of a hierarchy (sense 2), or the last link in a chain of distribution (sense 3).\n\nCOMMON COLLOCATIONS:\n- ⟦{神経|しんけい}→神経：03257_shinkei⟧⟦の→の：09472_no⟧{末端|まったん}: nerve endings (sense 1)\n- ⟦{指|ゆび}→指：01518_yubi⟧⟦の→の：09472_no⟧{末端|まったん}: fingertips (sense 1)\n- {末端|まったん}⟦{冷|ひ}え{性|しょう}→冷え性：18211_hieshou⟧: cold hands and feet (sense 1)\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{末端|まったん}: the lowest level of an organization (sense 2)\n- {末端|まったん}⟦の→の：09472_no⟧⟦{社員|しゃいん}→社員：03065_shain⟧: rank-and-file employees (sense 2)\n- {末端|まったん}⟦{価格|かかく}→価格：00147_kakaku⟧: retail price; street value (sense 3)\n- {末端|まったん}⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧: end consumer (sense 3)\n\nUSAGE:\nIn news reports, {末端|まったん}⟦{価格|かかく}→価格：00147_kakaku⟧ most often gives the street value of seized drugs: the price they would fetch when sold to users.\n\nRELATED WORDS:\n- ⟦{先端|せんたん}→先端：04370_sentan⟧: tip; cutting edge\n- ⟦{端|はし}→端：00936_hashi⟧: edge, end",
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-09-20T12:00:00Z",
+    "modified": "2026-10-01T08:29:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
