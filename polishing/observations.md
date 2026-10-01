@@ -1617,3 +1617,8 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-01 [entry] 02007 〜まま is tagged noun + particle; まま is a formal noun (形式名詞), not a particle. Left as is pending a decision on how formal nouns are tagged.
 - 2026-10-01 [entry] 01920 否 (いや, core): every example writes the everyday interjection いや with the kanji 否 (否、待って; 否、やっぱり今日行こう), which modern Japanese never does outside literary set phrases (賛成か否か, 否と言えない, usually read いな). The casual "no / no wait" いや should be a kana entry and this one limited to the literary 否; needs restructuring by the curator.
 - 2026-10-01 [entry] 01913 恐る: the entry is for the classical verb, but all three examples use modern 恐れる (失敗を恐れる, 恐れ入ります, 恐れることはない). Examples should show the surviving forms (恐るべき, 恐るに足りない, 恐る恐る) or the entry be merged into 恐れる.
+- 2026-10-01 [entry] 01770: audio checks heard か for かか in 01770_atari_ex2 (text reads ありますかか: the linked surface ありますか is followed by a second か); remove the duplicate か.
+- 2026-10-01 [entry] 01771: audio checks heard か for かか in 01771_arukooru_ex3 (入っていますかか, same duplicated-か defect); remove the duplicate か.
+- 2026-10-01 [entry] 01856: audio checks heard 暖めよう for 暖まろう in 01856_atatamaru_ex2; the sentence 体を暖まろう is ungrammatical (暖まる is intransitive). Rewrite as 体を暖めよう (then it belongs to 暖める) or 体が暖まる.
+- 2026-10-01 [entry] 02013: audio checks heard かいた for えがいた in 02013_egaku_ex4 (子供が花の絵を描いた); a child's drawing is normally かく. Check the furigana or choose a sentence where えがく is natural.
+- 2026-10-01 [entry] 01800: audio checks heard かっこいい for かっこういい in 01800_kakkou_ex3; the furigana {格好|かっこう}いい gives a reading speakers do not use. Check the furigana.
