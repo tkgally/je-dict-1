@@ -1640,3 +1640,4 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-01 [entry] 03626: 03626_hozon_ex2 reads 保存すれは; typo for すれば.
 - 2026-10-01 [entry] 03635: 03635_moyou_ex5 reads 雨模様ので; ungrammatical, should be 雨模様なので.
 - 2026-10-01 [entry] 03496: audio checks heard お名前 for お名 in 03496_na_ex1 (お名は何とおっしゃいますか); check the example is natural.
+- [tooling] 2026-10-01 new-entries: auto_link.py's function-word rule ignores unlink decisions in reviews/link_decisions.jsonl: in rendaku notes ("the か becomes が", "the は becomes ば") it linked か/が/は as particles, review_links.py --apply-decisions removed them and its relink step put them straight back. Worked around by writing the sounds in romaji (31395, 31386); the three unlink lines stay in the ledger. Same family as the 2026-09-30 verb-chain note.

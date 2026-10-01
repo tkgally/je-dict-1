@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-01 (Routine v3: new-entries — 20 New Entries, IDs 31377–31396)
+
+Twenty words that older entries already used: お母様, おばあさま, ふくよか, ファーストクラス, リチウム, 操り人形, ハイオク,
+ワインセラー, たまり, 塗り箸, 低まる, 朽ち果てる, カウンセラー, アニメーション, ノンアルコール, 店子, 白昼夢, 耐火, 薄型, 化繊.
+Self-check: one notes flag, rejected; the ファーストクラス gloss tightened to air travel.
+
 ### 2026-10-01 (Interactive: curator backlog cleared — 42 rulings, old URLs now redirect)
 
 Tom worked through reviews/needs_curator.txt (439 lines). About 380 lines were stale: every semantic-tag
@@ -85,17 +91,3 @@ the ずる verbs, passive headwords, and 27 stative one-kanji する verbs fixed
 Twenty more words that older entries already used: スクール, ピンからキリまで, そっくりさん, 交じり, 仕事着, the affixes 〜権 and 脱〜,
 クロワッサン, フランスパン, チャリンコ, 二つ折り, 開き戸, ベレー帽, 忌み数, シャトルバス, 低脂肪, 正答, 盛り塩, 流砂, ティースプーン.
 No new kanji. Self-check skipped: the day's OpenRouter budget was spent.
-
-### 2026-09-30 (Routine v3: new-entries — 20 New Entries, IDs 31329–31348)
-
-Twenty words that older entries already used but never defined: デスクワーク, スポーツカー, 南緯, ホーロー, マシン,
-the six Kanto prefectures around Tokyo 千葉, 神奈川, 埼玉, 栃木, 群馬, 茨城, plus 滋賀 and 湘南, ソファベッド, フィーリング, ヘアピン,
-王政, パイプライン, 居宅, ニス. New kanji 埼, 栃, 湘, 茨 (02814–02817). Self-check skipped: the day's OpenRouter budget was spent.
-
-### 2026-09-30 (Routine v3: new-entries — 20 New Entries, IDs 31309–31328)
-
-Twenty words that older entries already used but never defined: 創出する, 保養所, 大草原, ブロガー, 赤蜻蛉, エコカー,
-ライブハウス, ジグソーパズル, 控訴審, 独裁的, オリオン座, 競艇, 情報化, マスカラ, ハンドクリーム, サワークリーム,
-ホイップクリーム, フレグランス, アロマ, スポーツマン. Three older "no entry" markers now link to them (in 控訴, 独裁 and 星座).
-New kanji 艇 (02813). Self-check skipped: the day's OpenRouter budget was spent.
-
