@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-01 (Routine v3: new-entries — 8 New Entries, IDs 31369–31376)
+
+Eight words that older entries already used, a short batch at the end of a six-cycle run: 魚釣り, 金曜, マスカット,
+統計学, カシミヤ, 絵日記, 国際空港, 社会福祉. Self-check clean.
+
 ### 2026-09-30 (Interactive: homepage, audio buttons, conjugation fixes and a conjugation-check mode)
 
 Homepage: the Browse/Kanji/Lists/Articles/Recent/Advanced link row is gone (the header has the same links),
@@ -79,9 +84,3 @@ Twenty words that older entries already used but never defined: 創出する, �
 ホイップクリーム, フレグランス, アロマ, スポーツマン. Three older "no entry" markers now link to them (in 控訴, 独裁 and 星座).
 New kanji 艇 (02813). Self-check skipped: the day's OpenRouter budget was spent.
 
-### 2026-09-30 (Routine v3: new-entries — 9 New Entries, IDs 31300–31308)
-
-Nine words that older entries used inside stripped `noentry` markers (block 04000–04499, cycle 2 of this run):
-総選挙, 年輪, 樹皮, 超音波, 太字, 触角, 編集長, 人体, 家庭科. 触角 carries a WATCH OUT against its homophone 触覚 and
-a see-also to it. Stale candidate 狸寝入り removed (exists as タヌキ寝入り 24457). No new kanji. Kept to nine because
-the run clock was near its end. Self-check clean.
