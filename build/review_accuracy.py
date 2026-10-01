@@ -441,6 +441,7 @@ def _append_flag_line(record):
         return
     FLAGS_FILE.parent.mkdir(parents=True, exist_ok=True)
     line = {"entry_id": record["entry_id"], "reviewed_at": record["reviewed_at"],
+            "entry_modified": record.get("entry_modified"),
             "prompt_version": record["prompt_version"],
             "issues": [{k: it.get(k) for k in ("dimension", "location", "severity",
                                                  "concern", "suggestion", "family")}
@@ -515,6 +516,62 @@ def run_review(entries, model, dimensions, budget, dry_run, keep_warn=False):
     return total_cost
 
 
+def review_is_stale(record, entry):
+    """True when the entry changed after this review was made.
+
+    A review describes the entry as it was at review time: ``entry_modified``
+    holds that version's ``metadata.modified``.  Older artifacts lack the stamp;
+    for them the review is stale when the entry was modified after ``reviewed_at``.
+    ISO-8601 UTC strings of the same shape compare correctly as text.
+    """
+    current = (entry.get("metadata") or {}).get("modified")
+    if not current:
+        return False
+    stamped = record.get("entry_modified")
+    if stamped:
+        return stamped != current
+    reviewed_at = record.get("reviewed_at")
+    return bool(reviewed_at) and current > reviewed_at
+
+
+def run_show(entries, include_stale=False):
+    """Print the surviving issues of the stored reviews for these entries.
+
+    Reviews older than their entry are listed as STALE without their issues
+    (re-run the review instead of adjudicating them), unless include_stale.
+    """
+    shown = stale = missing = 0
+    for entry, _path in entries:
+        eid = entry.get("id")
+        f = OUT_DIR / f"{eid}.json"
+        if not f.exists():
+            missing += 1
+            continue
+        try:
+            record = json.loads(f.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        is_stale = review_is_stale(record, entry)
+        if is_stale:
+            stale += 1
+            print(f"STALE {eid}: reviewed {record.get('reviewed_at')}, entry modified "
+                  f"{(entry.get('metadata') or {}).get('modified')}; re-run the review")
+            if not include_stale:
+                continue
+        for it in record.get("issues") or []:
+            shown += 1
+            print(f"## {eid} {it.get('family') or assign_family(it)} {it.get('location')}"
+                  f" [{it.get('severity')}]")
+            print(f"   concern: {it.get('concern')}")
+            if it.get("quote"):
+                print(f"   quote: {it.get('quote')}")
+            if it.get("suggestion"):
+                print(f"   suggestion: {it.get('suggestion')}")
+    print(f"{shown} issue(s) shown; {stale} stale review(s)"
+          f"{' (issues hidden)' if stale and not include_stale else ''}; "
+          f"{missing} entr{'y' if missing == 1 else 'ies'} without a review")
+
+
 def run_report():
     if not OUT_DIR.exists():
         print("No accuracy reviews yet.")
@@ -559,6 +616,11 @@ def main():
                     help="Keep warn-severity issues (dropped by default; ~1%% precision).")
     ap.add_argument("--dry-run", action="store_true", help="Print prompts; no API calls.")
     ap.add_argument("--report", action="store_true", help="Summarize existing accuracy reviews.")
+    ap.add_argument("--show", action="store_true",
+                    help="Print the stored issues for --ids/--range; reviews older than "
+                         "their entry are listed as STALE and their issues hidden.")
+    ap.add_argument("--include-stale", action="store_true",
+                    help="With --show, print the issues of stale reviews too.")
     args = ap.parse_args()
 
     if args.report:
@@ -577,6 +639,10 @@ def main():
     if not entries:
         print("No matching entries found.", file=sys.stderr)
         return 1
+
+    if args.show:
+        run_show(entries, include_stale=args.include_stale)
+        return 0
 
     run_review(entries, args.model, dims, args.budget, args.dry_run,
                keep_warn=args.keep_warn)
