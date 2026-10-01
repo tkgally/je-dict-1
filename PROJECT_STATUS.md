@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-01 (Routine v3: new-entries — 20 New Entries, IDs 31397–31416)
+
+Twenty more words that older entries already used: 見せかける, 預言, 量子, 脱兎, 大穴, 平和主義, 輸出入, へそくり, カプチーノ,
+三毛猫, 世界史, 日本史, 二世帯, 吊り橋, 国歌, 日本刀, 村八分, 枯山水, 枝葉末節, 無益. No new kanji.
+Self-check skipped: the day's OpenRouter budget was spent.
+
 ### 2026-10-01 (Routine v3: new-entries — 20 New Entries, IDs 31377–31396)
 
 Twenty words that older entries already used: お母様, おばあさま, ふくよか, ファーストクラス, リチウム, 操り人形, ハイオク,
@@ -85,9 +91,3 @@ the boxed 🔊 button. Conjugation tables: 乞う and 問う (乞うた, 問う�
 持っていく, くれる (imperative くれ), ふける, 読みふける and 見返る (godan, were ichidan), あざとかわいい, ございます,
 the ずる verbs, passive headwords, and 27 stative one-kanji する verbs fixed; 恐る has no table. New
 `build/check_conjugations.py` and a trigger-only `conjugation-check` Routine mode (about once a day, §D).
-
-### 2026-09-30 (Routine v3: new-entries — 20 New Entries, IDs 31349–31368)
-
-Twenty more words that older entries already used: スクール, ピンからキリまで, そっくりさん, 交じり, 仕事着, the affixes 〜権 and 脱〜,
-クロワッサン, フランスパン, チャリンコ, 二つ折り, 開き戸, ベレー帽, 忌み数, シャトルバス, 低脂肪, 正答, 盛り塩, 流砂, ティースプーン.
-No new kanji. Self-check skipped: the day's OpenRouter budget was spent.
