@@ -1186,14 +1186,14 @@
     {
       "id": "tag-baseball-leisure",
       "title": "Baseball vocabulary tagged `leisure` instead of the house convention `sports` (24 entries)",
-      "source": "ideas/cleanup-backlog.md#priority-58-baseball-vocabulary-split-between-sports-and-leisure--24-entries",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-58-baseball-vocabulary-split-between-sports-and-leisure--24-entries",
       "detect": "gloss or definitions match 'baseball' AND metadata.tags.semantic contains 'leisure'",
       "fix_type": "semantic",
       "verify": "per-entry",
       "priority": 7,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 25,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "entries",
       "severity": "info",
       "notes": "Measured 2026-08-14 over the 132 entries whose gloss/definitions mention baseball: 83 `sports`, 24 `leisure`, 12 sole-`general`, 12 other, 1 both. `sports` is the convention by better than 3:1. False positives live inside the cohort, not outside it: キャップ, ノック and アウト mention baseball in one sense of a polysemous entry and may keep `leisure` on other grounds, so judge each tag against the headword. Small enough that per-entry verification is the cheap part."
