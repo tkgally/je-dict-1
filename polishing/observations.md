@@ -1626,3 +1626,7 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-01 [entry] 06163 取り締まる sense 2 ("supervise, manage") is now marked somewhat old-fashioned; its examples (番頭 supervising staff, a grandmother running a shop) are period-flavoured by design.
 - 2026-10-01 [tags] `existence` was narrowed by curator ruling (being, existing, appearing, disappearing, remaining). The retag kept it on birth/death/survival words (死ぬ, 誕生, 生き残る) as coming into or going out of being; 65 entries carry it.
 - 2026-10-01 [entry] 02771 差 has three examples (below the usual minimum); 26473 右党's examples now include one on the sweets side. 18069 茶店: collocations in the notes put さてん furigana on teahouse uses (茶店で一服する) that fit ちゃみせ better.
+- 2026-10-01 [entry] 02552: audio checks heard がかり for かかり in 02552_kakari_ex1, ex2, ex4, ex6 (受付係, 掃除係, 案内係, 給食係); as a suffix 係 is voiced (rendaku). Check the furigana: {係|がかり} in those compounds.
+- 2026-10-01 [entry] 03054: audio checks heard けんきゅうじょ for けんきゅうしょ in 03054_kenkyuusho_ex1, ex2; both readings are in use (じょ is common in speech and in many institute names). Consider noting the variant in the entry.
+- 2026-10-01 [entry] 03207: audio checks heard 学んだだけでなく for 学んだけでなく in 03207_shuukaku_ex6; the text is missing a だ. Fix the example.
+- 2026-10-01 [entry] 01964: audio checks heard さんじゅっセンチ for さんじゅうセンチ in 01964_tsumoru_ex3; さんじゅっ is the usual spoken form before セ. Consider furigana {三十|さんじゅっ}.
