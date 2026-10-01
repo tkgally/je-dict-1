@@ -1633,3 +1633,10 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-01 [entry] 07659 賜る: entry covers only the humble "receive" use; the honorific "bestow, grant" (陛下がお言葉を賜る) is missing as a sense.
 - 2026-10-01 [entry] 04526 ワンピース: top gloss names a one-piece swimsuit, but no definition or example covers it.
 - 2026-10-01 [entry] 26515 お召し上がり: glossed as "please help yourself" though the headword is a noun used in お召し上がりください / お召し上がりになる; consider glossing the noun and moving the request to a pattern.
+- 2026-10-01 [entry] 03362: audio checks heard とし for ねん in 03362_sue_ex8 (年の末); 年の末 is read としのすえ. Fix the furigana.
+- 2026-10-01 [entry] 03373: audio checks heard にじゅういっせいき for にじゅういちせいき in 03373_seiki_ex1; consider furigana {二十一|にじゅういっ}.
+- 2026-10-01 [entry] 03437: audio checks heard づとめ for つとめ in 03437_tsutome_ex1, ex2 (銀行勤め, 会社勤め: rendaku). Fix the furigana.
+- 2026-10-01 [entry] 03520: audio checks heard づきあい for つきあい in 03520_tsukiai_ex1 (近所付き合い: rendaku). Fix the furigana.
+- 2026-10-01 [entry] 03626: 03626_hozon_ex2 reads 保存すれは; typo for すれば.
+- 2026-10-01 [entry] 03635: 03635_moyou_ex5 reads 雨模様ので; ungrammatical, should be 雨模様なので.
+- 2026-10-01 [entry] 03496: audio checks heard お名前 for お名 in 03496_na_ex1 (お名は何とおっしゃいますか); check the example is natural.
