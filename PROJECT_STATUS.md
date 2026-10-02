@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-02 (Routine v3: new-entries — 20 New Entries, IDs 31447–31466)
+
+Twenty words that older entries already used: 護憲, 狩人, サンタクロース, ばば抜き, 地下足袋, エイプリルフール,
+カルチャーショック, 高官, 最古, 建国, カーソル, 屑籠, 長官, 駅長, 保育所, 朝ドラ, 脳梗塞, 社宅, 生活保護, 握り飯.
+No new kanji. The linker connected 12 of them in the entries where they were first seen.
+Self-check skipped (daily OpenRouter cap spent).
+
 ### 2026-10-02 (Routine v3: new-entries — 10 New Entries, IDs 31437–31446)
 
 Ten words that older entries already used: 降り積もる, プレーヤー, レモンティー, 重金属, アンパイア, 抜け目ない,
@@ -71,10 +78,3 @@ Twelve words that older entries already used: 裏庭, 歴然, 箱入り娘, 伊�
 Twenty more words that older entries already used: 見せかける, 預言, 量子, 脱兎, 大穴, 平和主義, 輸出入, へそくり, カプチーノ,
 三毛猫, 世界史, 日本史, 二世帯, 吊り橋, 国歌, 日本刀, 村八分, 枯山水, 枝葉末節, 無益. No new kanji.
 Self-check skipped: the day's OpenRouter budget was spent.
-
-### 2026-10-01 (Routine v3: new-entries — 20 New Entries, IDs 31377–31396)
-
-Twenty words that older entries already used: お母様, おばあさま, ふくよか, ファーストクラス, リチウム, 操り人形, ハイオク,
-ワインセラー, たまり, 塗り箸, 低まる, 朽ち果てる, カウンセラー, アニメーション, ノンアルコール, 店子, 白昼夢, 耐火, 薄型, 化繊.
-Self-check: one notes flag, rejected; the ファーストクラス gloss tightened to air travel.
-
