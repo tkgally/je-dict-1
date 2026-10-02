@@ -2349,7 +2349,7 @@ asks the same script for a breakdown by tag; this asks for the breakdown by *loc
 
 One-line check — `definitions[i].explanation == definitions[i].gloss`, string-exact — with a
 measured live scope of **201 senses in 179 entries**, all inside six contiguous creation blocks
-(see [Cleanup P39](cleanup-backlog.md#priority-39-definitionsexplanation-is-a-verbatim-copy-of-its-own-gloss-201-senses-179-entries)).
+(see [Cleanup P39](cleanup-backlog-resolved.md#priority-39-definitionsexplanation-is-a-verbatim-copy-of-its-own-gloss-201-senses-179-entries)).
 Normalised comparison adds zero hits, so no fuzzy matching is needed. It belongs in
 `check_consistency.py` as a new issue type rather than in a standalone detector: it is an
 entry-internal invariant, which is exactly that script's remit, and the fix (drop the duplicate)
