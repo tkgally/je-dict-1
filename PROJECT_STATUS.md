@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-02 (Routine v3: new-entries — 12 New Entries, IDs 31417–31428)
+
+Twelve words that older entries already used: 裏庭, 歴然, 箱入り娘, 伊勢海老, 角煮, 丸損, 女帝, 就職難, 泥試合, 点字,
+偉業, 別状. No new kanji. Also fixed five example errors found by the audio checks (でははない in 安易, お願います,
+使い過ぎ read しい, 屈しない read くしない, 決まり台詞 without rendaku). Self-check: one tag fix (伊勢海老 is not a fish).
+
 ### 2026-10-01 (Routine v3: new-entries — 20 New Entries, IDs 31397–31416)
 
 Twenty more words that older entries already used: 見せかける, 預言, 量子, 脱兎, 大穴, 平和主義, 輸出入, へそくり, カプチーノ,
@@ -82,12 +88,3 @@ twenty entries' examples and notes. Session log: polishing/sessions/curator_2026
 Eight words that older entries already used, a short batch at the end of a six-cycle run: 魚釣り, 金曜, マスカット,
 統計学, カシミヤ, 絵日記, 国際空港, 社会福祉. Self-check clean.
 
-### 2026-09-30 (Interactive: homepage, audio buttons, conjugation fixes and a conjugation-check mode)
-
-Homepage: the Browse/Kanji/Lists/Articles/Recent/Advanced link row is gone (the header has the same links),
-the intro gives the number of examples with recorded audio (counted at each build), and advanced.html now
-redirects to lists/index.html. Browser-speech listen buttons are removed: only examples with a recording show
-the boxed 🔊 button. Conjugation tables: 乞う and 問う (乞うた, 問うた), the 行く compounds ついていく, 連れていく,
-持っていく, くれる (imperative くれ), ふける, 読みふける and 見返る (godan, were ichidan), あざとかわいい, ございます,
-the ずる verbs, passive headwords, and 27 stative one-kanji する verbs fixed; 恐る has no table. New
-`build/check_conjugations.py` and a trigger-only `conjugation-check` Routine mode (about once a day, §D).
