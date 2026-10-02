@@ -45,7 +45,7 @@
     {
       "id": "01259_sorosoro_ex3",
       "japanese": "そろそろ⟦{帰|かえ}らなければなりません→帰る：00508_kaeru⟧。",
-      "english": "I have to go home soon.",
+      "english": "It's about time I went home.",
       "notes": "Polite way to excuse oneself",
       "has_audio": true,
       "sense_numbers": [
@@ -134,10 +134,10 @@
     },
     {
       "id": "01259_sorosoro_ex12",
-      "japanese": "そろそろ⟦{歩|ある}き→歩く：00538_aruku⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
-      "english": "They gradually started walking.",
+      "japanese": "⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦に→に：00314_ni⟧{気|き}をつけて、そろそろ⟦と→と：00512_to⟧⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧⟦{降|お}りた→降りる：00568_oriru⟧。",
+      "english": "Watching my step, I slowly made my way down the stairs.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         3
       ]
@@ -183,11 +183,26 @@
       ]
     }
   ],
-  "notes": "そろそろ is an adverb meaning 'soon' or 'it's about time.'\n\nPosition: Usually at the beginning of a sentence or before the verb.\n\nUsage notes:\n- Very commonly used when suggesting it's time to do something (polite way to signal departure, etc.)\n- Implies awareness of time or appropriate timing\n- Can suggest gentle urgency\n\nSimilar expressions:\n- そろそろ vs. ⟦もうすぐ→もうすぐ：01218_mousugu⟧: ⟦もうすぐ→もうすぐ：01218_mousugu⟧ simply states 'very soon'; そろそろ often implies 'it's about time' or suggests action.\n- そろそろ vs. ⟦まもなく→間もなく：02491_mamonaku⟧: ⟦まもなく→間もなく：02491_mamonaku⟧ is more formal and objective ('shortly'); そろそろ is conversational with nuance of readiness.\n\nCommon usage: Very frequently used when leaving a gathering: そろそろ⟦{失礼|しつれい}→失礼：01247_shitsurei⟧⟦します→する：00392_suru⟧ (I should be going soon).\n\nOrthography: Usually written in hiragana.",
-  "cross_references": [],
+  "notes": "そろそろ is an adverb meaning \"soon\" or \"it's about time\"; as そろそろ⟦と→と：00512_to⟧ it means \"slowly, cautiously.\"\n\nPOSITION IN SENTENCE:\n- Usually at the beginning of the sentence or just before the verb.\n\nUSAGE:\n- Very common for suggesting that it is time to do something, especially to leave: そろそろ{失礼|しつれい}します (I should be going).\n- Implies the speaker's sense that the right moment has come.\n\nSIMILAR WORDS:\n- ⟦もうすぐ→もうすぐ：01218_mousugu⟧: simply states that something will happen very soon; そろそろ adds \"it's about time\" and often suggests action.\n- ⟦まもなく→間もなく：02491_mamonaku⟧: more formal and objective (\"shortly\"), as in station announcements.\n\nWRITING:\n- Usually written in hiragana.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01218_mousugu",
+      "reading": "もうすぐ",
+      "headword": "もうすぐ",
+      "label": "simply states that something will…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02491_mamonaku",
+      "reading": "まもなく",
+      "headword": "{間|ま}もなく",
+      "label": "more formal and objective (\"shortly\")…"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:10:07Z",
-    "modified": "2026-09-13T00:50:01Z",
+    "modified": "2026-10-02T13:24:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
