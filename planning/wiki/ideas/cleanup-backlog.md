@@ -2299,7 +2299,7 @@ re-scan returning zero), then let the ordinary polish frontier write real explan
 04470–04563 block when it arrives. Queue item: `definition-explanation-duplicates-gloss`.
 
 
-**Update 2026-10-02**: systemic-fix cycle rewrote 24 senses (04470–04524, kitchenware, furniture, bathroom and clothing nouns) with one- or two-sentence English explanations. 193 senses were left before the batch; 169 remain. A second cycle the same day rewrote 19 more (04526–04563, clothing, accessories and workplace nouns), closing the 2026-01 block; 150 remain, all in the 2026-04 blocks.
+**Update 2026-10-02**: systemic-fix cycle rewrote 24 senses (04470–04524, kitchenware, furniture, bathroom and clothing nouns) with one- or two-sentence English explanations. 193 senses were left before the batch; 169 remain. A second cycle the same day rewrote 19 more (04526–04563, clothing, accessories and workplace nouns), closing the 2026-01 block; 150 remain, all in the 2026-04 blocks. A third cycle rewrote 55 more (24159–24188 and 24539–24558); 95 remain, in 24786–24815, 25222–25245 and 25301–25330.
 
 ## Informational: `〜の前で` where `〜の前に` is meant — measured at zero live scope
 
