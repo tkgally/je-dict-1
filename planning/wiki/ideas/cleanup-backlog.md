@@ -2253,54 +2253,6 @@ an entry — is filed under [Expository Articles](expository-articles.md) as the
 that still serves the learner. Until the curator picks one, polishing runs should keep writing
 `noentry` (the status quo) and should not invent an entry for it.
 
-## Priority 39: `definitions[].explanation` is a verbatim copy of its own `gloss` (201 senses, 179 entries)
-
-**Source**: 2026-08-03 routine accuracy-review run, which found `24542 突出` and `24544 可憐`
-carrying an `explanation` identical to the sense's `gloss` and proposed a one-line detector.
-**Measured dictionary-wide by the 2026-08-03 wiki harvest.**
-
-The check is `definitions[i].explanation == definitions[i].gloss`, string-exact. Across 30,148
-entries / 36,199 senses (36,153 of which carry an `explanation`), it fires **201 times in 179
-entries** — and normalising whitespace and punctuation adds **zero** further hits, so the defect
-is pure duplication rather than near-duplication.
-
-The distribution is the useful part. It is not spread across the dictionary; it sits in **six
-tight contiguous blocks**:
-
-| Block | Entries | Created |
-|---|---|---|
-| 04470–04563 | 49 | 2026-01 |
-| 24159–24188 | 29 | 2026-04 |
-| 24539–24558 | 20 | 2026-04 |
-| 24786–24815 | 30 | 2026-04 |
-| 25222–25245 | 21 | 2026-04 |
-| 25301–25330 | 30 | 2026-04 |
-
-Zero occurrences outside them. This is the batch-creation signature the project has now seen
-several times (P11, P20, P21): a generation run adopts a bad habit, carries it for a few hundred
-consecutive IDs, and stops. The 2026-01 block is the loanword/household cohort (お玉, 箸置き,
-テーブル, ベッド, シャワー…) where the gloss is a single word and an "explanation" repeating it
-is visibly empty; the 2026-04 blocks are Sino-Japanese nouns with multi-clause glosses.
-
-**Why it matters**: the renderer emits gloss and explanation as separate lines, so every one of
-these entries shows the learner the same text twice. It is also a silent quality signal — a sense
-that has never had an explanation written is indistinguishable, downstream, from one that has.
-
-**The fix has a provably-safe option.** `build/schema.json` requires only `sense_number` and
-`gloss` in a definition; `explanation` is optional. Deleting a verbatim-duplicate `explanation`
-therefore **removes no information and cannot introduce a false claim** — it is the same asymmetry
-the 2026-08-03 accuracy-review run established for off-vocabulary tags (`drop` is safe where
-`migrate` is not). Writing a real explanation for 201 senses is the better outcome but is a
-content task, not a sweep; the drop is the mechanical action, and it leaves the sense in exactly
-the state of the ~99.4% of senses that were never given a duplicate.
-
-**Suggested sequencing**: drop the 201 duplicates as one systemic-fix batch (validated by a
-re-scan returning zero), then let the ordinary polish frontier write real explanations for the
-04470–04563 block when it arrives. Queue item: `definition-explanation-duplicates-gloss`.
-
-
-**Update 2026-10-02**: systemic-fix cycle rewrote 24 senses (04470–04524, kitchenware, furniture, bathroom and clothing nouns) with one- or two-sentence English explanations. 193 senses were left before the batch; 169 remain. A second cycle the same day rewrote 19 more (04526–04563, clothing, accessories and workplace nouns), closing the 2026-01 block; 150 remain, all in the 2026-04 blocks. A third cycle rewrote 55 more (24159–24188 and 24539–24558); 95 remain, in 24786–24815, 25222–25245 and 25301–25330.
-
 ## Informational: `〜の前で` where `〜の前に` is meant — measured at zero live scope
 
 **Source**: 2026-08-02 routine polish run, which corrected `06757_uzuuzu`'s
