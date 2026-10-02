@@ -80,7 +80,15 @@
     }
   ],
   "notes": "A na-adjective formed from ⟦{都会|とかい}→都会：02475_tokai⟧ (city; urban area) + ⟦{的|てき}→〜的：09839_teki⟧. Has two related senses: one describing the physical or lifestyle characteristics of city areas, and another describing the refined, fashionable sensibility associated with city people.\n\nThe second sense (sophisticated) is particularly common as a compliment when describing someone's appearance or manner, implying they are polished and worldly.\n\nCOMMON COLLOCATIONS:\n- {都会的|とかいてき}な⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: urban/sophisticated atmosphere\n- {都会的|とかいてき}な⟦センス→センス：10468_sensu⟧: sophisticated taste\n- {都会的|とかいてき}な⟦{生活|せいかつ}→生活：01443_seikatsu⟧: urban lifestyle\n- {都会的|とかいてき}な⟦{街|まち}→街：17306_machi⟧: urban-style town\n- {都会的|とかいてき}な⟦{暮|く}らし→暮らし：02670_kurashi⟧: city living\n\nSIMILAR WORDS:\n- ⟦{洗練|せんれん}された→洗練される：22304_senrensareru⟧: refined; polished — focuses purely on sophistication without the city connection\n- ⟦おしゃれ→おしゃれ：02515_oshare⟧な: fashionable; stylish — more casual and broadly applicable\n- ⟦{田舎|いなか}→田舎：01320_inaka⟧⟦っぽい→っぽい：06781_ppoi⟧: rustic; country-like — the opposite in nuance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22304_senrensareru",
+      "reading": "せんれんされる",
+      "headword": "{洗練|せんれん}される",
+      "label": "refined"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -92,9 +100,10 @@
       "semantic": [
         "descriptive",
         "appearance"
-      ]
+      ],
+      "formality": "neutral"
     },
     "created": "2026-04-28T11:21:02Z",
-    "modified": "2026-09-02T04:02:24Z"
+    "modified": "2026-10-02T00:21:14Z"
   }
 }

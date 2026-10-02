@@ -25,7 +25,7 @@
     },
     {
       "id": "26329_tehada_ex2",
-      "japanese": "{手肌|てはだ}⟦に→に：00314_ni⟧{優|やさ}しい⟦{洗剤|せんざい}→洗剤：03304_senzai⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
+      "japanese": "{手肌|てはだ}⟦に→に：00314_ni⟧⟦{優|やさ}しい→優しい：02640_yasashii⟧⟦{洗剤|せんざい}→洗剤：03304_senzai⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I use a detergent that is gentle on the hands.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of ⟦{手|て}→手：00569_te⟧ (hand) and ⟦{肌|はだ}→肌：02243_hada⟧ (skin). A practical compound frequently seen in advertising for skincare products, hand creams, and household cleaners. The word highlights the skin's condition — roughness, dryness, softness — rather than the hand itself.\n\nCOMMON COLLOCATIONS:\n- {手肌|てはだ}⟦に→に：00314_ni⟧{優|やさ}しい: gentle on the hands\n- {手肌|てはだ}⟦が→が：00051_ga⟧⟦{荒|あ}れる→荒れる：04577_areru⟧: the skin on one's hands becomes rough\n- {手肌|てはだ}⟦の→の：09472_no⟧⟦{乾燥|かんそう}→乾燥：00184_kansou⟧: dryness of the hand skin\n- {手肌|てはだ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect one's hand skin\n- {手肌|てはだ}⟦{用|よう}→〜用：09842_you⟧: for hand skin care\n\nRELATED WORDS:\n- ⟦{肌荒|はだあ}れ→肌荒れ：08421_hadaare⟧: rough skin; skin irritation — broader term for any skin roughness\n- ⟦{素肌|すはだ}→素肌：20256_suhada⟧: bare skin — skin without makeup or covering\n- ハンド⟦クリーム→クリーム：00253_kuriimu⟧: hand cream — the product most associated with {手肌|てはだ} care",
+  "notes": "Composed of ⟦{手|て}→手：00569_te⟧ (hand) and ⟦{肌|はだ}→肌：02243_hada⟧ (skin). A practical compound frequently seen in advertising for skincare products, hand creams, and household cleaners. The word highlights the skin's condition — roughness, dryness, softness — rather than the hand itself.\n\nCOMMON COLLOCATIONS:\n- {手肌|てはだ}⟦に→に：00314_ni⟧⟦{優|やさ}しい→優しい：02640_yasashii⟧: gentle on the hands\n- {手肌|てはだ}⟦が→が：00051_ga⟧⟦{荒|あ}れる→荒れる：04577_areru⟧: the skin on one's hands becomes rough\n- {手肌|てはだ}⟦の→の：09472_no⟧⟦{乾燥|かんそう}→乾燥：00184_kansou⟧: dryness of the hand skin\n- {手肌|てはだ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect one's hand skin\n- {手肌|てはだ}⟦{用|よう}→〜用：09842_you⟧: for hand skin care\n\nRELATED WORDS:\n- ⟦{肌荒|はだあ}れ→肌荒れ：08421_hadaare⟧: rough skin; skin irritation — broader term for any skin roughness\n- ⟦{素肌|すはだ}→素肌：20256_suhada⟧: bare skin — skin without makeup or covering\n- ハンド⟦クリーム→クリーム：00253_kuriimu⟧: hand cream — the product most associated with {手肌|てはだ} care",
   "cross_references": [
     {
       "type": "related",
@@ -59,6 +59,13 @@
       "reading": "すはだ",
       "headword": "{素肌|すはだ}",
       "label": "bare skin"
+    },
+    {
+      "type": "related",
+      "target_id": "31323_handokuriimu",
+      "reading": "はんどくりーむ",
+      "headword": "ハンドクリーム",
+      "label": "hand cream"
     }
   ],
   "schema_version": "2.0",
@@ -72,9 +79,10 @@
       "semantic": [
         "body-part",
         "daily-life"
-      ]
+      ],
+      "formality": "neutral"
     },
     "created": "2026-04-30T16:25:48Z",
-    "modified": "2026-09-02T04:02:26Z"
+    "modified": "2026-10-02T00:21:14Z"
   }
 }

@@ -1577,17 +1577,18 @@
     {
       "id": "register-backfill-holdouts",
       "title": "Entries whose notes mention register but carry no politeness/formality tag",
-      "source": "archive/reviews/sweeps/register_holdouts.json (2026-09-02)",
+      "source": "ideas/cleanup-backlog-resolved.md#register-backfill-holdouts",
       "detect": "python3 build/backfill_register.py --report /tmp/r.json; cat /tmp/r.json",
       "filter": null,
       "fix_type": "per-entry judgment: set formality/politeness from the notes' own register statement",
       "verify": "python3 build/validate.py --id <id> --ratchet",
       "priority": 7,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 906,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "low",
-      "notes": "Held out deliberately by the backfill because a mechanical default could contradict the notes."
+      "notes": "RESOLVED 2026-10-02: all 831 held-out entries tagged by hand (48 politeness, 797 formality, 14 both); backfill_register.py now reports 0 held. The detector stays as a standing guard.",
+      "resolved_date": "2026-10-02"
     },
     {
       "id": "pos-display-holdouts",
