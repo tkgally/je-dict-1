@@ -713,9 +713,9 @@
       "priority": 8,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 169,
+      "scope_estimate": 150,
       "severity": "warn",
-      "notes": "Measured 2026-08-03 by the wiki harvest, from a 2026-08-03 accuracy-review observation on 24542 and 24544. 201 senses in 179 entries out of 36,153 senses carrying an explanation; zero occurrences outside the six blocks, so it is a batch-creation signature (49 from 2026-01, 130 from 2026-04). The renderer emits gloss and explanation separately, so these entries show the learner the same text twice. Safe mechanical action is DROP the duplicate: schema.json requires only sense_number and gloss, so removing a verbatim duplicate removes no information and cannot introduce a false claim (same drop-vs-migrate asymmetry as the off-vocab tag work). Writing real explanations is a content task for the polish frontier, not a sweep. Detector belongs in check_consistency.py -- see tooling-backlog item 68. 2026-10-02: 24 senses rewritten (04470–04524); 169 senses remain (193 measured before the batch)."
+      "notes": "Measured 2026-08-03 by the wiki harvest, from a 2026-08-03 accuracy-review observation on 24542 and 24544. 201 senses in 179 entries out of 36,153 senses carrying an explanation; zero occurrences outside the six blocks, so it is a batch-creation signature (49 from 2026-01, 130 from 2026-04). The renderer emits gloss and explanation separately, so these entries show the learner the same text twice. Safe mechanical action is DROP the duplicate: schema.json requires only sense_number and gloss, so removing a verbatim duplicate removes no information and cannot introduce a false claim (same drop-vs-migrate asymmetry as the off-vocab tag work). Writing real explanations is a content task for the polish frontier, not a sweep. Detector belongs in check_consistency.py -- see tooling-backlog item 68. 2026-10-02: 24 senses rewritten (04470–04524); 169 senses remain (193 measured before the batch). 2026-10-02 (second cycle): 19 more senses rewritten (04526–04563, clothing, accessories and workplace nouns); 150 senses remain, all in the 2026-04 blocks 24159–25330."
     },
     {
       "id": "conjugation-potential-of-potential",
