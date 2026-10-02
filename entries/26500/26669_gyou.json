@@ -80,7 +80,22 @@
     }
   ],
   "notes": "Read as ぎょう, this word refers to a line of text or a row in a chart. Do not confuse with other readings of the same kanji: ⟦{行|い}く→行く：00119_iku⟧ (to go), ⟦{行|おこな}う→行う：01238_okonau⟧ (to carry out), or {行|こう} (used in compounds like ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧).\n\nAs a counter, {行|ぎょう} counts lines of text: {一行|いちぎょう} (one line), {二行|にぎょう} (two lines), {三行|さんぎょう} (three lines). The suffix {行目|ぎょうめ} specifies the ordinal position: {一行目|いちぎょうめ} (first line).\n\nCOMMON COLLOCATIONS:\n- {行|ぎょう}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧: to start a new line\n- ⟦{行|ぎょう}{間|かん}→行間：07324_gyoukan⟧: line spacing\n- {空白行|くうはくぎょう}: blank line\n- {行|ぎょう}⟦{番号|ばんごう}→番号：02939_bangou⟧: line number\n- ⟦{改行|かいぎょう}→改行：16256_kaigyou⟧: line break; new line\n\nKANA CHART USAGE:\nIn the {五十音図|ごじゅうおんず}, each consonant group is called a {行|ぎょう}: {あ行|あぎょう}, {か行|かぎょう}, {さ行|さぎょう}, etc. Each column is called a ⟦{段|だん}→段：03424_dan⟧ (だん): {あ段|あだん}, {い段|いだん}, etc.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03424_dan",
+      "reading": "だん",
+      "headword": "{段|だん}",
+      "label": "column (in the kana chart)"
+    },
+    {
+      "type": "related",
+      "target_id": "16256_kaigyou",
+      "reading": "かいぎょう",
+      "headword": "{改行|かいぎょう}",
+      "label": "line break"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -96,6 +111,6 @@
       ]
     },
     "created": "2026-05-04T12:43:58Z",
-    "modified": "2026-09-04T12:31:10Z"
+    "modified": "2026-10-02T18:51:34Z"
   }
 }

@@ -2784,6 +2784,8 @@ notes supply the answer.
 **Sample**: 00196 か所, 00108 歩, 00407 トン, 00443 位, 02446 軒, 27628 合, 27655 着,
 27977 坪, 28160 便, 28497 一箱, 19765 号車, 30419 客.
 
+**Update 2026-10-02**: a systemic-fix cycle measured 19 left (80 counter entries) and gave 18 of them cross-references taken from their own notes. The one remaining, 28699 テラバイト, has nothing apt to point at until the candidate ギガバイト becomes an entry; the item is blocked on that.
+
 ## Priority 54: The compound-verb conjugation preamble (37 entries) — bounded, pending a curator call
 
 **Source**: filed twice — 2026-08-10 routine polish (removed by hand in 06850, 06853, 06854,
