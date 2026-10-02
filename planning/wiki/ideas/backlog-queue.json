@@ -1601,10 +1601,11 @@
       "verify": "python3 build/validate.py --id <id>",
       "priority": 8,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 152,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "low",
-      "notes": "52 verbs say transitive/intransitive in the string but carry no tags.transitivity."
+      "notes": "52 verbs say transitive/intransitive in the string but carry no tags.transitivity. 2026-10-02 systemic-fix cycle: measured 22 disagreements, 67 clean rewrites, 177 unparsed. All 22 disagreements adjudicated per entry: tags corrected on 7 (越す, 踏み込む, 突っ込む, 巻き返す transitivity → both; 粛々 and 荒涼 adjective-na → adjective-taru; そこそこ + adjective-no; 市立 pre-noun-adjectival → adjective-no), display string corrected on 15 (e.g. ほんの 'adverb' → pre-noun adjectival, 一通 'noun' → counter). normalize_pos.py --apply rewrote 70 clean strings. Of the unparsed, 4 were real (two 'suru verb, both', 奪い取る 'r-column', 荒涼) and fixed. The 173 left are correct strings carrying a qualifier the parser does not know (137 'proper', 17 'verb phrase', と/to-adverb, dialect, humble…): a parser change, not entry work (tooling observation logged). Resolved.",
+      "resolved_date": "2026-10-02"
     },
     {
       "id": "kana-surface-kanji-base-links",
