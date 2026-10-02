@@ -1688,3 +1688,7 @@ links whose surface reading disagrees with the reading of the entry they target"
 mechanical string comparison against `entries_index.json` and would find this family and its
 siblings in one pass, rather than one stale-suffix filing at a time. Filed as
 [Tooling 97](tooling-backlog.md).
+
+## Register backfill holdouts
+
+**RESOLVED (2026-10-02).** Systemic-fix cycle (`register-backfill-holdouts` in `backlog-queue.json`). `build/backfill_register.py` had held 831 entries out of its mechanical default because their notes mention a register word (formal, casual, honorific, humble …). Read one by one, the keyword almost always described a *related* word (a SIMILAR WORDS line), not the headword. Result: politeness set on 48 (35 plain, 6 polite — お墓, お供え, お七夜, お焚き上げ, 仲居さん, お決まり; 5 honorific — 御意, 御霊前, 御仏前, ご労苦, 御神木; 2 humble — 僭越, 手前味噌); formality set on 797 (631 neutral, 145 formal for written or literary kango such as 陥穽, 波濤, 耽溺, 21 informal such as ワンピ, 全集中, こいつら, 外人). The detector now reports 0 held and stays as a standing guard for new entries.

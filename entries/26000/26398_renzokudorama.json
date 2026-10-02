@@ -45,7 +45,15 @@
     }
   ],
   "notes": "A television drama format that runs weekly across multiple episodes, forming the backbone of Japanese prime-time programming. In Japan, dramas typically follow a seasonal pattern (winter, spring, summer, fall) with each season lasting about three months (one cour).\n\nCOMMON COLLOCATIONS:\n- {連続|れんぞく}ドラマ⟦に→に：00314_ni⟧⟦{出演|しゅつえん}→出演：11732_shutsuen⟧⟦する→する：00392_suru⟧: to appear in a serial drama\n- {連続|れんぞく}ドラマ⟦の→の：09472_no⟧⟦{最終回|さいしゅうかい}→最終回：26891_saishuukai⟧: the final episode of a serial drama\n- {連続|れんぞく}ドラマ⟦の→の：09472_no⟧⟦{視聴率|しちょうりつ}→視聴率：08381_shichouritsu⟧: viewership ratings of a serial drama\n- {月|げつ}9⟦ドラマ→ドラマ：03867_dorama⟧: Monday 9 PM drama (famous Fuji TV time slot)\n\nFORMS:\nCommonly shortened to 連ドラ (れんドラ) in casual speech. This abbreviation is widely used in everyday conversation, entertainment news, and social media.\n\nSIMILAR WORDS:\n- ⟦{単発|たんぱつ}→単発：20543_tanpatsu⟧⟦ドラマ→ドラマ：03867_dorama⟧: one-off/special drama — a standalone drama broadcast as a single episode\n- {朝|あさ}ドラ: morning drama — NHK's serialized 15-minute morning drama (formally ⟦{連続|れんぞく}→連続：03783_renzoku⟧⟦テレビ→テレビ：01536_terebi⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧)\n- ⟦{大河|たいが}→大河：12197_taiga⟧⟦ドラマ→ドラマ：03867_dorama⟧: historical drama — NHK's year-long Sunday drama series",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "31073_taigadorama",
+      "reading": "たいがどらま",
+      "headword": "{大河|たいが}ドラマ",
+      "label": "historical drama"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -57,9 +65,10 @@
       "semantic": [
         "entertainment",
         "media"
-      ]
+      ],
+      "formality": "neutral"
     },
     "created": "2026-05-01T14:08:09Z",
-    "modified": "2026-09-02T04:02:26Z"
+    "modified": "2026-10-02T00:21:14Z"
   }
 }
