@@ -111,7 +111,7 @@
     {
       "id": "18926_roujou_ex1",
       "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦に→に：00314_ni⟧{籠城|ろうじょう}⟦する→する：00392_suru⟧。",
-      "english": "To hole up in the castle.",
+      "english": "To shut oneself up in the castle.",
       "sense_numbers": [
         1
       ],
@@ -121,7 +121,7 @@
     {
       "id": "18926_roujou_ex2",
       "japanese": "{兵糧|ひょうろう}{攻|ぜ}め⟦で→で：00502_de⟧{籠城|ろうじょう}⟦は→は：00079_ha⟧⟦{長|なが}く→長い：00491_nagai⟧⟦{続|つづ}かなかった→続く：00903_tsuzuku⟧。",
-      "english": "The siege did not last long due to a food blockade.",
+      "english": "Under the starvation siege, the defenders could not hold out for long.",
       "sense_numbers": [
         1
       ],
@@ -169,8 +169,17 @@
       "notes": null
     }
   ],
-  "notes": "{籠城|ろうじょう} originally means barricading oneself inside a castle for defense. In modern Japanese, it commonly means holing up indoors to work or study intensively.\n\nWRITING:\nComposed of {籠|ろう} (cage, confine) + {城|じょう} (castle). Also written as {篭城|ろうじょう} with the simplified kanji.\n\nHISTORICAL COMPOUNDS:\n- {籠城戦|ろうじょうせん}: siege warfare\n- {籠城|ろうじょう}⟦{作戦|さくせん}→作戦：09673_sakusen⟧: siege strategy\n\nMODERN USAGE:\nThe figurative sense is very common and often humorous or self-deprecating:\n- ⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{籠城|ろうじょう}⟦する→する：00392_suru⟧: to hole up at home\n- ⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦に→に：00314_ni⟧{籠城|ろうじょう}⟦する→する：00392_suru⟧: to hole up in the library\n- ⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧{籠城|ろうじょう}だ: I'm holing up this weekend\n\nREGISTER:\nThe historical sense appears in period dramas and history books. The figurative sense is casual and lighthearted.",
+  "notes": "USAGE:\nOriginally a military term: defenders shutting themselves inside a castle to withstand a siege. Today it is more often used figuratively, and often humorously, for holing up indoors to study or work: ⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{籠城|ろうじょう}⟦する→する：00392_suru⟧, ⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦に→に：00314_ni⟧{籠城|ろうじょう}⟦する→する：00392_suru⟧. The historical sense appears in period dramas and history books.\n\nCOMPOUNDS:\n- {籠城戦|ろうじょうせん}: a siege, seen from the defenders' side\n- {籠城|ろうじょう}⟦{作戦|さくせん}→作戦：09673_sakusen⟧: a strategy of holding out\n\nSIMILAR WORDS:\n- ⟦{引|ひ}きこもる→引きこもる：19546_hikikomoru⟧: to withdraw from society and stay at home, often for a long time; {籠城|ろうじょう} is a temporary, purposeful holing up.\n\nWRITING:\nAlso written {篭城|ろうじょう}, with a simplified form of the first kanji.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19546_hikikomoru",
+      "reading": "ひきこもる",
+      "headword": "{引|ひ}きこもる",
+      "label": "to withdraw from society and stay…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -181,12 +190,13 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "military"
       ],
       "verb_class": "suru",
       "transitivity": "intransitive"
     },
     "created": "2026-03-23T09:30:17Z",
-    "modified": "2026-09-26T21:18:09Z"
+    "modified": "2026-10-02T06:55:13Z"
   }
 }

@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Common collocations: {石油|せきゆ}ストーブ⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to turn on), {石油|せきゆ}ストーブ⟦を→を：00422_wo⟧⟦{消|け}す→消す：00528_kesu⟧ (to turn off), {石油|せきゆ}ストーブ⟦に→に：00314_ni⟧⟦{灯油|とうゆ}→灯油：04071_touyu⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to add kerosene). Many Japanese place a kettle on top for humidity. Requires regular refueling with ⟦{灯油|とうゆ}→灯油：04071_touyu⟧ (kerosene), which is sold at gas stations and delivered by truck in residential areas. Also called ⟦{灯油|とうゆ}→灯油：04071_touyu⟧⟦ストーブ→ストーブ：02906_sutoobu⟧. Distinguished from ⟦{電気|でんき}→電気：09780_denki⟧⟦ストーブ→ストーブ：02906_sutoobu⟧ (electric heater) and ⟦エアコン→エアコン：05282_eakon⟧ (air conditioning/heating).",
+  "notes": "COMMON COLLOCATIONS:\n- {石油|せきゆ}ストーブ⟦を→を：00422_wo⟧つける / ⟦{消|け}す→消す：00528_kesu⟧: to turn the kerosene heater on / off\n- {石油|せきゆ}ストーブ⟦に→に：00314_ni⟧⟦{灯油|とうゆ}→灯油：04071_touyu⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to fill the heater with kerosene\n\nCULTURAL NOTE:\nCommon in Japanese homes, many of which have no central heating. People set a kettle on top to humidify the room, and buy ⟦{灯油|とうゆ}→灯油：04071_touyu⟧ (kerosene) at gas stations or from delivery trucks that tour neighborhoods in winter.\n\nWATCH OUT:\n⟦{石油|せきゆ}→石油：01448_sekiyu⟧ here means kerosene, not gasoline; the fuel itself is called ⟦{灯油|とうゆ}→灯油：04071_touyu⟧, and the heater is also called a ⟦{灯油|とうゆ}→灯油：04071_touyu⟧⟦ストーブ→ストーブ：02906_sutoobu⟧.\n\nSIMILAR WORDS:\n- ⟦{電気|でんき}→電気：09780_denki⟧⟦ストーブ→ストーブ：02906_sutoobu⟧: electric heater\n- ⟦{石油|せきゆ}→石油：01448_sekiyu⟧⟦ファン→ファン：10065_fan⟧⟦ヒーター→ヒーター：05283_hiitaa⟧: kerosene heater with a fan\n- ⟦エアコン→エアコン：05282_eakon⟧: air conditioner, also used for heating",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05282_eakon",
+      "reading": "えあこん",
+      "headword": "エアコン",
+      "label": "air conditioner, also used for heating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +64,11 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "electronics",
-        "tool"
+        "tool",
+        "daily-life"
       ]
     },
     "created": "2026-03-24T04:37:23Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-10-02T06:55:13Z"
   }
 }
