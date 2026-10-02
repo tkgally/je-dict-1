@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-10-01",
+ "updated": "2026-10-02",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -1219,6 +1219,18 @@
     "reviewed": 5,
     "wrong": 1,
     "date": "2026-09-08"
+   }
+  },
+  "いじける": {
+   "target": "09422_ijikeru",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "The kana string 'いじける' almost exclusively refers to this verb.",
+    "model": "google/gemini-2.5-flash",
+    "date": "2026-10-02"
    }
   },
   "いじめ": {
