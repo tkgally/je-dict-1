@@ -1724,10 +1724,11 @@
       "verify": "the detector no longer lists the example; python3 build/validate.py --id <id>",
       "priority": 8,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 90,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "low",
-      "notes": "82 bare-kanji and 8 malformed examples on 2026-09-25 (e.g. 00067_genshi_ex3 原始的, 00952_juuni_ex2 十二ヶ月). Each fix also makes the example recordable by the audio mode. Digits and Latin letters (about 2,500) are not part of this item: they have no furigana by design (AUDIO_WORKFLOW.md §3.1)."
+      "notes": "82 bare-kanji and 8 malformed examples on 2026-09-25 (e.g. 00067_genshi_ex3 原始的, 00952_juuni_ex2 十二ヶ月). Each fix also makes the example recordable by the audio mode. Digits and Latin letters (about 2,500) are not part of this item: they have no furigana by design (AUDIO_WORKFLOW.md §3.1). 2026-10-02 systemic-fix cycle: 83 listed (82 bare-kanji, 1 malformed); all fixed. 々 taken into its group with the reading checked per word (次々 つぎつぎ, 人々 ひとびと, 年々 ねんねん, 木々 きぎ, 日々 ひび, 隅々 すみずみ, 様々 さまざま, 色々, 時々, 軽々); ヶ taken into {ヶ月|かげつ} (also ヶ月間, ヶ月分) and into the proper nouns {関ヶ原|せきがはら}, {鬼ヶ島|おにがしま}; two wrong readings fixed on the way ({一|いち}ヶ月 → いっ, {三|み}ヶ月 → さん) and {通|とお}用 → {通用|つうよう}; the rest given furigana one by one (的 into 原始的/儀式的, numerals, 彼女, 群れ, 見かけた, 破る, 汚す). One malformed link brace in 09882_go_ex2 unwrapped. Detector returns 0. Resolved.",
+      "resolved_date": "2026-10-02"
     },
     {
       "id": "furigana-numeral-counter-readings",
