@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-02 (Routine v3: new-entries — 8 New Entries, IDs 31429–31436)
+
+Eight words that older entries already used: アイスティー, レフェリー, 筏, 開場, 際どい, 弟子入り, 連邦, 紛らす.
+One new kanji (筏, ID 02818). Self-check: clean.
+
 ### 2026-10-02 (Routine v3: new-entries — 12 New Entries, IDs 31417–31428)
 
 Twelve words that older entries already used: 裏庭, 歴然, 箱入り娘, 伊勢海老, 角煮, 丸損, 女帝, 就職難, 泥試合, 点字,
@@ -82,9 +87,3 @@ are split. Senses added to 〜代, 形, 時, スマート, 馳せる, 末端, �
 in 現す, 確かに, 訓読, 今日 (こんにち), 人事. Tags: new semantic tags `sense` and `place`, a `dialect` domain,
 `existence` narrowed, grammar terms on `language`, question words on `grammatical`. Smaller fixes to about
 twenty entries' examples and notes. Session log: polishing/sessions/curator_2026-10-01.md.
-
-### 2026-10-01 (Routine v3: new-entries — 8 New Entries, IDs 31369–31376)
-
-Eight words that older entries already used, a short batch at the end of a six-cycle run: 魚釣り, 金曜, マスカット,
-統計学, カシミヤ, 絵日記, 国際空港, 社会福祉. Self-check clean.
-
