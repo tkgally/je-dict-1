@@ -1649,3 +1649,4 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-02 [entry] 03948: audio checks heard くっしない for {屈|く}しない in 03948_gai_ex2; 屈する is くっする, so the furigana should be {屈|くっ}しない.
 - 2026-10-02 [entry] 04038: audio checks heard きまりぜりふ for {決|き}まり{台詞|せりふ} in 04038_serifu_ex6; the compound has rendaku, furigana should be {台詞|ぜりふ}.
 - 2026-10-02 [entry] 03802: audio checks heard ごじゅっパーセント for {五十|ごじゅう}パーセント in 03802_ritsu_ex2; check the furigana (ごじゅっ is the usual reading before パーセント).
+- 2026-10-02 [entry] 05153: audio checks heard みつもり for {見積|みつも}もり in 05153_mitsumori_ex1–ex3; the furigana doubles も throughout the entry (12 occurrences), should be {見積|みつ}もり.
