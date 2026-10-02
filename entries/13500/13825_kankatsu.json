@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13825_kankatsu_ex1",
-      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{東京都|とうきょうと}⟦の→の：09472_no⟧{管轄|かんかつ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{東京都|とうきょうと}→東京都：31151_toukyouto⟧⟦の→の：09472_no⟧{管轄|かんかつ}だ。",
       "english": "This area is under Tokyo's jurisdiction.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{管轄|かんかつ} is used in legal, governmental, and organizational contexts. It describes the scope of authority an agency or body has. Can be used as a ⟦する→する：00392_suru⟧ verb: {管轄|かんかつ}⟦する→する：00392_suru⟧ (to have jurisdiction over).\n\nCOMMON COLLOCATIONS:\n- {管轄|かんかつ}⟦{区域|くいき}→区域：00251_kuiki⟧: jurisdictional area\n- {管轄|かんかつ}⟦{外|がい}→外〜：03948_gai⟧: outside one's jurisdiction\n- {管轄|かんかつ}⟦{官庁|かんちょう}→官庁：12470_kanchou⟧: competent authority\n- {管轄|かんかつ}⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧: court of jurisdiction\n- {管轄|かんかつ}⟦{警察署|けいさつしょ}→警察署：01078_keisatsusho⟧: police station with jurisdiction",
+  "notes": "USAGE:\n{管轄|かんかつ} is used in legal, governmental, and organizational contexts. It describes the scope of authority an agency or body has.\n\nCOMMON COLLOCATIONS:\n- {管轄|かんかつ}⟦{区域|くいき}→区域：00251_kuiki⟧: jurisdictional area\n- {管轄|かんかつ}⟦{外|がい}→外〜：03948_gai⟧: outside one's jurisdiction\n- {管轄|かんかつ}⟦{官庁|かんちょう}→官庁：12470_kanchou⟧: competent authority\n- {管轄|かんかつ}⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧: court of jurisdiction\n- {管轄|かんかつ}⟦{警察署|けいさつしょ}→警察署：01078_keisatsusho⟧: police station with jurisdiction",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-27T05:06:54Z",
-    "modified": "2026-09-18T06:45:54Z",
+    "modified": "2026-10-02T00:45:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -149,7 +149,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "politics",
+        "law"
       ],
       "domain": [
         "legal"
