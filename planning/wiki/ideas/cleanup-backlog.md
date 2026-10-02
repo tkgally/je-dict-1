@@ -2298,6 +2298,9 @@ the state of the ~99.4% of senses that were never given a duplicate.
 re-scan returning zero), then let the ordinary polish frontier write real explanations for the
 04470–04563 block when it arrives. Queue item: `definition-explanation-duplicates-gloss`.
 
+
+**Update 2026-10-02**: systemic-fix cycle rewrote 24 senses (04470–04524, kitchenware, furniture, bathroom and clothing nouns) with one- or two-sentence English explanations. 193 senses were left before the batch; 169 remain.
+
 ## Informational: `〜の前で` where `〜の前に` is meant — measured at zero live scope
 
 **Source**: 2026-08-02 routine polish run, which corrected `06757_uzuuzu`'s
