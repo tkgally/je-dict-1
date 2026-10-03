@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-03 (Routine v3: new-entries — 4 New Entries, IDs 31507–31510)
+
+Four words that older entries already used: ガイドブック, 不時着, 精鋭, 北枕. A short cycle at the end of the run. No new
+kanji. Self-check skipped (daily OpenRouter budget spent), so these four have had no independent review yet.
+
 ### 2026-10-03 (Routine v3: new-entries — 20 New Entries, IDs 31487–31506)
 
 Twenty words that older entries already used: 排出量, 追随, 内出血, 歯石, 肝硬変, 国家試験, 添乗員, 偽造品, 雄鶏,
@@ -74,9 +79,3 @@ Self-check skipped (daily OpenRouter cap spent).
 
 Ten words that older entries already used: 降り積もる, プレーヤー, レモンティー, 重金属, アンパイア, 抜け目ない,
 誇り高い, 禅寺, 表面張力, 訪問販売. No new kanji. Self-check skipped (daily OpenRouter cap spent).
-
-### 2026-10-02 (Routine v3: new-entries — 8 New Entries, IDs 31429–31436)
-
-Eight words that older entries already used: アイスティー, レフェリー, 筏, 開場, 際どい, 弟子入り, 連邦, 紛らす.
-One new kanji (筏, ID 02818). Self-check: clean.
-
