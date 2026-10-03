@@ -2,6 +2,364 @@
 
 Items moved here from [cleanup-backlog.md](cleanup-backlog.md) on 2026-09-26 because they are resolved, shipped, retired or refuted (by their `backlog-queue.json` status where they have one, otherwise by the status the item itself records). Kept for the record and for their measurements. If an item here turns out to be open, move it back.
 
+## Priority 20: Out-of-taxonomy semantic tags (post-expansion migration)
+
+**RESOLVED (2026-10-03).** Systemic-fix cycle: `check_tag_drift.py --check unknown-semantic` returns 0 flags across 0 entries dictionary-wide (31,264 entries), and `validate_tags.py --check-no-new-unknown` reports 0 baselined off-vocabulary tags left. The accuracy-review lane and earlier systemic-fix batches drained the last 24 entries recorded on 2026-08-23. The CI gate already blocks any new off-list tag, so no further migration is needed; the detector stays as a standing check.
+
+
+**Source**: Curator tag-policy decision 2026-06-11 (see
+[Schema Tag Reliability](../topics/schema-tag-reliability.md) → "The
+tag-vocabulary contradiction and its resolution")
+
+A 2026-06-11 audit found 17,762 semantic-tag instances across 1,204 distinct
+tags outside `VALID_SEMANTIC` — the root cause of the contradictory tag
+adjudications in the first Routine v2 runs. The taxonomy was expanded with 30
+established categories (≥100 uses each), legitimizing ~49% of those instances.
+What remains to migrate (measured at expansion time): **9,036 instances across
+7,292 entries**.
+
+- **Near-duplicates with 1:1 targets** (~2,060 instances): `time`→`time-general`,
+  `people`→`person`, `social`→`society`, `description`→`descriptive`,
+  `medical`/`medicine`→`health`, `transport`→`transportation`,
+  `animals`→`animal-general`, `economy`→`economics`. The detector suggests the
+  target; still verify per entry (a word tagged `medical` may be better served
+  by `body-internal`, etc.).
+- **Long tail** (~7,000 instances, 1,160+ distinct tags, 889 of them used <5
+  times): no automatic target — choose the best `VALID_SEMANTIC` tag per entry.
+
+**Detection**: `python3 build/check_tag_drift.py --check unknown-semantic
+--summary` (or `--json` for the systemic-fix review queue; each record carries
+the offending tag and, for near-duplicates, the suggested target).
+
+**Suggested action**: systemic-fix batches with per-entry verification,
+starting with the 1:1 near-duplicates (highest confidence). The
+accuracy-review mode also drains this organically — reviewer prompt v3 flags
+out-of-list tags with suggested in-list replacements, and the standing
+adjudication rule (routine2.md §A) is to apply them. Queued as
+`unknown-semantic-tags` in `backlog-queue.json`.
+
+**Update 2026-06-21 (the drift extends to a dense 7815–8037 block — a new
+creation cohort, 73% out-of-taxonomy)**: A 2026-06-21 accuracy-review run over
+**7815–8037** ran a deterministic scan against `build/validate_tags.VALID_SEMANTIC`
+and found **163 of 223 entries (73%)** carrying at least one out-of-taxonomy
+semantic tag — a far higher density than the 01490–06925 batch P11 documents, and
+a different creation cohort (the 7000–8500 band appears to share a free-form
+tagging origin, distinct from the 2026-04-14 claude-opus-4-5 batch). The run
+migrated only the **43** that the cross-model accuracy reviewer flagged at `error`
+severity (architecture/house→building, social/speech→communication,
+economy→economics, progress / 'change of state'→change); **120 entries still carry
+invalid tags.** The drift families are large and mostly **1:1-mappable**, so this
+is **systemic-fix territory, not per-run accuracy-review** (the reviewer surfaces
+only a fraction per pass and at high adjudication cost; the deterministic detector
+is the scalable instrument):
+- **Free-form domain words** (no current 1:1 entry in the migration map):
+  `career`, `lifestyle`, `place`, `document`, `accommodation`, `commerce`,
+  `accounting`, `employment`, `logistics`, `personnel`.
+- **Underscore/space variants**: `daily_life` / `daily life` → `daily-life`;
+  `Japanese_cuisine` / `Japanese cuisine` → drop (entries already carry `food`).
+- **Body/health splits**: `body` → `body-part`, `sleep` → `health`,
+  `injury` → `health`.
+
+**Recommended next action**: expand `build/check_tag_drift.py`'s migration map
+(Tooling item 6) to cover these families, commit it, then run a
+deterministic+spot-checked systemic-fix sweep over the whole 7815–8037 block **and
+the adjacent ~7000–8500 creation cohort** that appears to share the origin. This
+is the highest-yield migration target measured to date and is queued under the
+existing `unknown-semantic-tags` backlog item.
+
+**Update 2026-06-21 (the cohort continues unbroken into 8038–8237 — even denser)**:
+A 2026-06-21 accuracy-review run over **8038–8237** (cross-model-review cursor;
+phase furigana) ran the same deterministic `VALID_SEMANTIC` scan and found **177
+of 200 entries (88%)** carrying ≥1 out-of-taxonomy semantic tag — **305 instances
+across 162 distinct out-of-list tags** — confirming the free-form creation cohort
+extends contiguously from 7815 through at least 8237 and is *denser* here than the
+7815–8037 block (88% vs 73%). New distinct families seen this block beyond those
+already enumerated: `loanword`, `household`, `instrument`/`equipment` (→`tool`/`music`),
+`competition`, `office`/`stationery`/`documents`/`writing`, `kitchen`/`ingredient`/
+`food-preparation`, `perception`/`clarity`/`meaning`/`vision` (→`cognition`),
+`gardening`/`agriculture`/`plants` (→`plant-general`), `anatomy` (→`body-internal`),
+`body` (→`body-part`/`health` per sense). The run migrated only a **14-entry
+hand-verified slice** of the highest-confidence near-duplicates (per-entry verified,
+logged in `reviews/decisions.jsonl`) and **deferred the ~240-instance long tail to
+the systemic sweep** — reconfirming this is systemic-fix territory, not per-run
+accuracy-review. The recommended 7000–8500 sweep should now be scoped to **at least
+7815–8237** (and likely the full 7000–8500 band).
+
+**Update 2026-06-23 (dict-wide scale quantified; the long tail has no 1:1 target and is
+now being mass-escalated)**: Two findings sharpen the scope and the remedy.
+- **Dict-wide count**: as of 2026-06-22, `check_tag_drift.py --check unknown-semantic`
+  reports **8,698 unknown-semantic flags** dictionary-wide. A 2026-06-22 routine polish
+  observation spot-measured **8459–8632 at ~95 of 174 entries (55%)** carrying
+  non-`VALID_SEMANTIC` tags (ability, medical, kitchen, baseball, psychology, train, …) —
+  the free-form creation cohort continues unbroken above 8237.
+- **The long tail is judgment-dependent, not mechanically mappable**: a 2026-06-23
+  accuracy-review over **8633–9239** found **496 not-in-list semantic tags across 323 of
+  607 entries (~180 distinct off-list names**: positive, body, medical, object, aesthetics,
+  quality, psychology, concept, childcare, …). Critically, `check_tag_drift`'s
+  `unknown-semantic` map returns `-> None` for nearly all of them (no 1:1 target), so they
+  need **per-word judgment, not a mechanical migration**. That run applied **102
+  provably-safe 1:1 migrations** (plural/synonym/strict-subdomain: emotions→emotion,
+  train→transportation, medical→health, etc.) across 91 entries and **escalated 394
+  judgment-dependent tags across 288 entries to the curator/systemic-fix lane** (logged in
+  `reviews/decisions.jsonl`). Combined with the 2026-06-21 240-flag escalation, the
+  decision ledger now carries **635 flags →curator this metrics window** — the first
+  large escalation event in the project (all-time →curator was 16 before 2026-06-21).
+
+**Recommended next action (updated)**: the per-run accuracy-review budget cannot drain an
+8,698-flag dict-wide backlog one ~600-entry range at a time, and the bulk of it has no 1:1
+map. This needs (a) a **dedicated systemic-fix/curator pass with an expanded *curated*
+migration table** (more than the deterministic 1:1 families now in `check_tag_drift.py`),
+and (b) **promoting unknown-semantic from a `validate_tags.py` warning to a CI error /
+pre-commit gate** so new entries stop adding to the backlog (see
+[Tooling Backlog](tooling-backlog.md) → item 27). Without (b), the systemic-fix pass drains
+a backlog that new-entry creation keeps refilling.
+
+**Update 2026-06-24 (the free-form cohort continues unbroken into 9240–9456)**: A 2026-06-23
+accuracy-review over **9240–9456** ran the deterministic `VALID_SEMANTIC` scan and found
+**~121 of 217 entries (56%)** carrying out-of-list semantic tags — confirming the pre-March
+general-tier creation cohort runs contiguously above 9239 at the same ~55% density. The run
+**migrated the 35 error-severity-flagged entries** to in-list tags (5 track-and-field events
+`leisure`→`sports`; `place`/`manner`/`behavior`/`location`/`physical-state`→best in-list) and
+left **~86 entries still carrying out-of-list tags** (top residual offenders: `location`×11,
+`behavior`×10, `urban`×5, `state`/`manner`/`social`/`place`/`degree`×4 each). The observing
+run reiterates the standing recommendation: a **dictionary-wide `check_tag_drift` sweep over
+the whole pre-March general range** would clear this far faster than per-range accuracy-review,
+which migrates only the error-severity flags it surfaces each pass. This is the same
+`unknown-semantic-tags` backlog item; the per-run accuracy-review lane is keeping the frontier
+honest but cannot drain the dict-wide 8,698-flag backlog one ~200-entry range at a time
+(reinforces the [Tooling item 27](tooling-backlog.md) CI-gate sequencing).
+
+**Update 2026-06-25 (the cohort reaches a denser daily-life/errands sub-batch at ~9657–9740)**: A 2026-06-24
+routine polish run reported a distinct, even-denser pocket of the same free-form creation cohort: the
+**~09689–09740 daily-life/errands batch** (delivery, dining, medical, housing, mobile themes) was created with an
+ad-hoc out-of-taxonomy semantic vocabulary, and **48 of 84 entries in 9657–9740 (57%)** carried invalid tags —
+`daily_life` underscore form plus `restaurant`/`delivery`/`medical`/`housing`/`payment`/`service`/`lifestyle`/
+`real_estate`/`device`/`phone`. The run migrated that batch to the controlled vocabulary, but the observing run
+flagged that **adjacent ID ranges from the same thematic creation batch likely carry the same drift** and
+recommended a confirming `check_tag_drift.py --check unknown-semantic` sweep over **9600–9800**. This is the same
+`unknown-semantic-tags` backlog item — a further data point that the pre-March general-tier cohort is themed in
+contiguous blocks (each errands/daily-life sub-batch shares one ad-hoc tag vocabulary), which is exactly the shape
+a dictionary-wide `check_tag_drift` migration (vs. per-range accuracy-review) is best suited to drain.
+
+**Update 2026-06-26 (the daily-life/errands cohort continues into 9741–9814; and a *new* shopping/tech cohort at 9815–9849)**: Two more themed sub-batches of the same pre-March free-form creation cohort were measured and migrated this window:
+- A 2026-06-25 accuracy-review over **9741–9814** found **14/70 entries (20%)** carrying out-of-list tags, concentrated in two themed blocks — subscriptions/services/promotions at 9741–9748 (`subscription`, `service`, `promotion`, `restaurant`, `facility`, `daily_life`-underscore) and civil-paperwork at 9809–9814 (`administrative`, `documents`, `moving`, `stationery`, `legal`, `housing`, `smartphone`); all migrated to `VALID_SEMANTIC` this run.
+- A 2026-06-26 new-entries run reported a **distinct, denser shopping/tech cohort at 9815–9849** (recently-created vocabulary) with **21/35 entries (60%)** carrying off-list tags (`smartphone`, `internet`, `marketing`, `retail`, `housing`, `bathing`, `delivery`, `service`, `medicine`, `environment`, `contract`); all 21 migrated to in-list tags in that run. The observing run recommends sweeping the surrounding range **and adding a note to the new-entry skill**, since entry creation in this period kept reaching for an off-vocabulary tag set.
+
+These reconfirm the cohort's defining shape — **contiguous, theme-named sub-batches each sharing one ad-hoc tag vocabulary** — and that per-range migration keeps the frontier honest but cannot drain the dict-wide backlog (see the enforcement note below for why fresh inflow is now gated). The recommended single systemic-fix `check_tag_drift.py --check unknown-semantic` sweep over ~9600–9850 still stands.
+
+**Update 2026-06-26 (enforce-side shipped — the off-vocab ratchet now blocks *new* drift in CI)**: A 2026-06-25 tooling-fix session closed the inflow half of this problem (the [Tooling item 27](tooling-backlog.md) sequencing). `validate_tags.py` previously only *warned* on out-of-`VALID_SEMANTIC` tags and CI ran only `validate.py` (schema), so the cohort passed CI silently. The session re-measured the live dict-wide scope at **8,267 instances / 6,759 entries / 1,109 distinct tags** and added a **baseline ratchet** — `build/data/unknown_semantic_baseline.json` + `validate_tags.py --check-no-new-unknown`, now a CI step — that fails only when an entry introduces a *new* off-vocab tag, leaving the legacy tail to the gradual accuracy-review/systemic-fix migration. Regenerate the baseline after each migration batch with `--write-unknown-baseline`. This is the partial-and-correctly-sequenced form of Tooling item 27: a hard *error* on the whole legacy tail would block legitimate work on 6,759 existing entries, so the ratchet gates inflow now and the full error-gate flip waits on the curated-migration drain. Documented in [Schema Tag Reliability](../topics/schema-tag-reliability.md). No mass content migration was done in that session — that stays the gradual lane's job.
+
+**Update 2026-06-28 (the free-form cohort reaches the 10400–10700 band — and the reviewer misses ~9 even where it migrates 64)**: Two 2026-06-27 accuracy-review observations push the mapped cohort far above the previously-documented ~9849 ceiling, into the **10xxx** general-tier batch:
+- A **10469–10527** sub-batch (created onomatopoeia/adverbs/adjectives) carries an ad-hoc out-of-taxonomy vocabulary — `texture-quality`, `degree-extent`, `emotion-feeling`, `action-physical`, `manner-style`, `quality-evaluation`, `state-change` — with **~50 of 100 entries in 10450–10549** carrying a tag not in `VALID_SEMANTIC`. The accuracy-review migrated this range; adjacent batch blocks (10550+ and similar) very likely share the density.
+- A **10550–10715** accuracy-review caught off-vocab tags well (**64 migrated**) but **missed ~9 in the same range** — `emotion-feeling` on 10587/10594/10629/10630, `social` on 10636/10661, `marriage` on 10617, `culture-tradition` on 10691, `action-physical`/`position` on 10613. This is the key new diagnostic: **the reviewer-driven mode leaves a residue even in ranges it has "reviewed,"** so the deterministic `check_tag_drift.py --check unknown-semantic` sweep is still needed to clear unflagged off-vocab drift in nominally-reviewed ranges, not just ahead of the frontier. Reinforces the standing recommendation (a dict-wide deterministic sweep + the [Tooling item 27](tooling-backlog.md) CI gate) over per-range accuracy-review, and confirms the contiguous free-form creation cohort runs at least through 10715. Same `unknown-semantic-tags` backlog item.
+
+**Update 2026-06-28 (the cohort reaches the 10700–11000 katakana/slang/loanword block — a dense, contiguous pocket worth a single scoped sweep)**: Two 2026-06-28 accuracy-review observations push the mapped cohort up another ~300 IDs and pin down a concentrated cluster:
+- A **10716–10887** accuracy-review found **45 of 67 tag flags** were off-vocab semantic tags on the 10700–10800 katakana/slang/loanword block (`housing-architecture`, `discourse-connector`, `food-sweets`, `shopping-product`, …) — entries created with a richer-but-off-list tag vocabulary; all migrated. The `general`-too-broad family (12) and formality flags (2) were the usual reviewer noise (rejected), and furigana screening was 0/9 (rendaku/okurigana/alt-reading FPs).
+- A **10888–10947** range (spot-measured during a furigana phase) carried off-taxonomy tags on **25 of 60 entries** in a tight 10905–10934 pocket — a **2026-02 creation batch by claude-opus-4-6** with a pre-taxonomy vocabulary: `abstract-concept`→abstract ×9, `people-personality`→personality ×6, `food-ingredient`/`food-dish`/`food-fruit`→food, `nature-plant`→plant-general, `nature-geography`→geography, `place-description`/`people-description`/`body-action`→descriptive/action, `commerce`→business, `group`→society, `reasoning`→cognition, `time`→time-general; all migrated this window.
+
+Together these confirm the free-form cohort runs contiguously through at least **10947**, with the 10700–11000 band a particularly dense, mostly-1:1-mappable katakana/loanword pocket. Both observing runs recommend **a single scoped `check_tag_drift.py --check unknown-semantic` sweep over 10700–11000** rather than chipping at it 25–67 entries per accuracy-review pass — the same `unknown-semantic-tags` backlog item, and another data point that per-range review keeps the frontier honest but cannot drain the dict-wide backlog (reinforces [Tooling item 27](tooling-backlog.md)).
+
+**Update 2026-06-30 (the cohort reaches the 11300s 不-/中-/下-/両- compound band)**: A 2026-06-30 accuracy-review run pushed the mapped cohort into the **11300s**, where the off-vocab drift clusters in negative/positional kanji-prefix compounds (不-, 中-, 下-, 両-). The recurring families are mostly **1:1-mappable**: `quality`→`descriptive`, `position-direction`→`direction`, `people`→`person`, `place`→`geography`, plus one-offs (`information`→`cognition`, `emotion-feeling`→`emotion`, `rank`→`society`, `nature-water`, `time-manner`). The run migrated the genuine cluster (**24 applied / 11 rejected** — the rejects are the in-list `general`-too-broad narrowness family, Tooling item 17). The observing run reiterates the standing recommendation: fold these families into `check_tag_drift.py`'s migration map (Tooling item 6) and clear the band with a deterministic `--check unknown-semantic` sweep rather than the monthly per-range accuracy-review cadence — same `unknown-semantic-tags` backlog item, another data point that the free-form/off-vocab cohort runs contiguously well above 11000.
+
+**Update 2026-07-01 (the cohort reaches the 11500s — a dense ~Feb-2026 claude-opus-4-6 batch)**: A 2026-07-01 accuracy-review run over **11515–11553** found **26 of ~72 entries** carrying at least one tag absent from `VALID_SEMANTIC` — a finer, more granular off-taxonomy tag set than the earlier bands, pointing to the same early batch-creation era (~Feb 2026, `ai_model: claude-opus-4-6`) already documented at 10905–10934. The offending tags were an over-specified hyphenated vocabulary: `action-physical`, `action-consumption`, `action-addition`, `action-repair`, `event`, `sensation`, `work-process`, `deception`, `crime`, `sign-indication`, `quantity-comparison`, `quantity-change`, `religion-buddhism`, `religion-philosophy`, `person-occupation`, `status-rank`, `quality-aesthetic`, `quality-positive`, `cause-reason`, `origin`, `space-room`, `economics-price`, `business-operation`, `politics-diplomacy`, `location`, `behavior`, `attitude`. All migrated 1:1 to in-list tags this run (`action-*`→`action`, `religion-*`→`religion`, `quality-*`→`descriptive`, `person-occupation`→`occupation`, `location`→`geography`, `behavior`/`attitude`→`descriptive`, etc.). The observing run recommends a **targeted systemic-fix sweep over 11500–12500** with `build/validate_tags.py --check-no-new-unknown`, since this granular hyphenated tag set is likely shared across the surrounding claude-opus-4-6 batch. Same `unknown-semantic-tags` backlog item; another data point that the free-form/off-vocab cohort runs contiguously well above 11300, and that its tag vocabulary shifts by creation batch (the 11500s batch used compound `noun-subtype` names rather than the free-form domain words seen lower down).
+
+**Update 2026-07-08 (the cohort reaches the 12507–13199 band — a dense off-list pocket that needs an expanded migration map, not per-range review)**: Two 2026-07-06/08 accuracy-review runs pushed the mapped cohort into the **12507–13199** range and quantified how much of it needs curator judgment rather than a 1:1 map:
+- A **12507–12673** run migrated **39** off-vocab tags. The 12520–12577 sub-band is a single creation batch that systematically used compound off-vocab tags — `action-construction`, `action-creation`, `action-coercion`, `thought-cognition`, `thought-intention`, `society-role`, `society-welfare`, `society-population`, `culture-traditional-arts`, `abstract-concept`, `language-writing`, `place-general`, `space-area`, `nature-landscape`, `quality-strength`, `attitude-stance` — the same `noun-subtype` compounding as the 11500s batch, migrated to in-list parents.
+- A **12674–13199** run flagged **121 of 526** entries on `tags`; **65** carried genuinely off-list semantic tags (place, war, degree, quality, material, crime, information, sensation, …). **28** were auto-migrated via a provably-safe hyponym→parent map; **37** had no safe 1:1 target and were escalated to `reviews/needs_curator.txt` for per-entry judgment.
+
+The new datum is that this band's long tail is **judgment-dependent** (37 curator escalations in one run), so per-range accuracy-review only partially drains it. Both observing runs recommend a **dedicated systemic-fix pass with an expanded migration map** — `degree`→`quantity`/`general`, `place`→`geography`/`building`, `quality`→`evaluation`, `information`→`cognition`/`communication` — over 12507–13199 and its adjacent same-signature batches, folded into `check_tag_drift.py` (Tooling item 6). Same `unknown-semantic-tags` backlog item; the cohort is now confirmed contiguous well past 13000, and the escalation count is the metric to watch (it feeds the [Quality Metrics](../topics/quality-metrics.md) escalation trend).
+
+**Update 2026-07-09 (the 13200–13299 death/crime/martial-arts cohort — six clean 1:1 mappings to add to the migration map)**: A 2026-07-09 accuracy-review over **13200–13299** (a death/crime/martial-arts vocab cluster) migrated a recurring set of off-taxonomy tags that, unlike the 12674–13199 judgment-dependent tail, are **clean context-independent 1:1 mappings**: `death`→`existence`, `crime`→`law`, `martial-arts`→`sports`, `writing`→`language`, `sport`→`sports`, `body`→`body-part`. They recurred across ~11 entries in the range (13224/13225/13226/13236/13237/13240/13241/13243/13244/13247/13248). None are yet in `check_tag_drift.py`'s `TAG_MIGRATION`, so this is a concrete, safe expansion of the migration map ([Tooling item 6](tooling-backlog.md) update 2026-07-09) that would let `--check unknown-semantic` auto-detect and the systemic-fix mode auto-migrate them dictionary-wide — exactly the deterministic-over-per-range-review argument this priority has made since the 7000–8500 cohort. Same `unknown-semantic-tags` backlog item; the free-form/off-vocab cohort now confirmed contiguous into the 13200s.
+
+**Update 2026-07-10 (the 13300–13549 block is uniformly ~40% off-vocab — the strongest single-batch case yet for a dedicated systemic-fix pass)**: Two 2026-07-09/10 accuracy-review runs measured the density across the whole 13300s block and found it consistent and high: a **13300–13349** run migrated **20 of 50 entries (40%)** and a **13350–13549** run migrated **46 of 200 entries (23%)** carrying off-vocabulary semantic tags, all mapped 1:1 to in-list tags this window. The recurring families are the now-familiar `noun-subtype`/`action-subtype` compound vocabulary plus a batch-specific nature/abstract set: `motion`→`movement`, `nature-water`/`nature-weather`/`nature-geology`/`nature-ocean`→`nature`, `action-general`→`action`, `house`→`building`, `nature-plant`→`plant-general`, `season`→`time-season`, `quality`→`abstract`/`descriptive`, `spatial`→`size`, `conflict`→`action`, `food-cooking`→`food`, `abstract-concept`→`abstract`, and the `*-concept`/`*-speech` families. Both observing runs independently reached the same conclusion the P20 chain has drawn since the 7000–8500 cohort — **the whole 13xxx block (and likely adjacent ranges) is a single mostly-1:1-mappable off-vocab creation batch that a dedicated `check_tag_drift.py --check unknown-semantic` systemic-fix sweep would clear far faster than incremental per-range accuracy-review**, which chips ~20–46 entries at a time at high adjudication cost. This is the same signature and recommendation as the 12507–13199 band above, now confirmed contiguous through **13549**. Same `unknown-semantic-tags` backlog item.
+
+**Update 2026-07-14 (the cohort confirmed contiguous into the 14000s; the systemic-fix mode migrated a 14387–14899 pocket; and the ~6,235-entry dict-wide residue restated)**: A 2026-07-13 systemic-fix run (working the furigana-wrapper item but capturing tag drift in its accuracy-review self-check window) migrated **19 legacy off-vocab semantic tags** across **14387–14899** — place, conflict, relation, time, medicine, transport, household, philosophy, interpersonal, quality — all 1:1-mappable to in-list tags, confirming the free-form/off-vocab creation-batch cohort runs contiguously into the 14000s. The observing run put the dict-wide residue at **~6,235 entries still carrying baselined off-vocab tags** and reiterated the standing conclusion of this whole priority: a single `build/check_tag_drift.py --check unknown-semantic` **systemic-fix sweep with the expanded migration map would migrate them far faster than the accuracy reviewer surfacing them one range at a time** (which, per [Tooling item 17](tooling-backlog.md), also drags ~4× the adjudication cost through the in-list-narrowness noise on these ranges). Same `unknown-semantic-tags` backlog item; reinforces [Tooling item 27](tooling-backlog.md) (promote unknown-semantic to a CI error once the migration drain lands). A separate small P20 instance the same window: **08788 マタハラ** tagged `social-issues` (→`society`) — see the [P11](cleanup-backlog.md#priority-11-batch-creation-semantic-tag-transportation-misapplied) harassment-cluster update 2026-07-14.
+
+**Update 2026-07-15 (the cohort reaches the 15100s; a 15100–15153 accuracy-review migrated ~30/54)**: A 2026-07-15 accuracy-review over **15100–15153** found **~30 of 54 entries** carrying off-vocabulary semantic tags — `people`, `body`, `degree`, `sensation`, `manner`, `behavior`, `place`, `state`, `substance`, `classification`, `housing`, plus a run of compound coinages (`administrative-procedure`, `achievement-success`, `social-behavior`) — and migrated them to in-list tags in-run. This range predates the closed-vocabulary tag policy, extending the contiguous off-vocab creation-batch cohort from the already-mapped 13xxx–14xxx blocks into the **15000s**; the observing run recommends a confirming `check_tag_drift.py --check unknown-semantic` systemic-fix sweep over **15000–15500** to clear the neighbours the sequential accuracy-review lane hasn't reached. Same `unknown-semantic-tags` backlog item; the deterministic-sweep-beats-per-range argument (with the ~6,235-entry dict-wide residue) is unchanged.
+
+**Update 2026-07-18 (the cohort reaches the 15567–15766 band — ~45 genuine off-vocab migrations at a 28% flag rate)**: A 2026-07-17 accuracy-review over **15567–15766** flagged **56 of 200 entries (28%)** on `tags`, above the 20% reviewer-noise line. The breakdown is the now-standard two-regime split: **~45 genuine off-vocab semantic tags** (`object`, `legal`, `behavior`, `medical`, `housing`, `description`, …) migrated to in-list tags in-run — a real, recurring quality issue in this ~2026-03 creation band that predates closed-vocabulary enforcement — versus **~15 low-value in-list `general`-too-broad narrowness substitutions** the reviewer keeps proposing (rejected per §A; see [Tooling item 17](tooling-backlog.md)). The observing run again recommends tuning `review_accuracy.py`'s tags prompt to suppress the in-list narrowness family and focus on the off-vocab tags that are the genuine signal. This extends the contiguous off-vocab creation-batch cohort from the 15100s into the **15700s**; same `unknown-semantic-tags` backlog item, same deterministic-sweep-beats-per-range conclusion. (Furigana screening over the same band ran 19/191, 100% documented false-positive families — okurigana splits, prompt-context truncation, contextual readings like お腹→なか — deep pass skipped per the known-noise shortcut; see [Tooling item 24](tooling-backlog.md).)
+
+**Update 2026-07-18 (second) (the cohort runs contiguous through 16166 — ~35–39% off-vocab across two back-to-back accuracy-review blocks)**: Two 2026-07-18 accuracy-review runs measured the next contiguous slice above the 15700s and found the same dense, mostly-1:1-mappable off-vocab creation-batch signature:
+- A **15767–15966** run flagged **85 off-vocab semantic tags across 76 of 197 entries (~39%)** — all `claude-opus-4-6` batch creations carrying the familiar pre-taxonomy vocabulary (`quality`, `thought`, `writing`, `social`, `body`, `time`, `people`, `manner`, …) — migrated 1:1 in-run.
+- A **15967–16166** run flagged **~30% of entries (60 of 199)** carrying off-vocabulary tags (`body`, `social`, `place`, `sport`, `animal`, `time`, `thought`, `manner`, `spatial`, `quality`), all 1:1-migratable to in-list tags; the 15900–16200 block "looks systematically pre-enforcement" (created ~2026-03).
+
+Both observing runs independently reach the same conclusion the P20 chain has drawn since the 7000–8500 cohort: the whole **15000–17000 band is a single mostly-1:1-mappable off-vocab creation batch that a dedicated `build/check_tag_drift.py --check unknown-semantic` systemic-fix sweep would clear far faster than incremental per-range accuracy-review** (which chips 60–85 tags at a time at ~4× adjudication cost through the in-list-narrowness noise, [Tooling item 17](tooling-backlog.md)). Cohort now confirmed contiguous through **16166**; the dict-wide `unknown-semantic` residue stands at **7,323** (detector 2026-07-18, down from 7,505 on 2026-07-16 as this window's migrations landed). Same `unknown-semantic-tags` backlog item; reinforces [Tooling item 27](tooling-backlog.md) (promote unknown-semantic to a CI error once the curated-migration drain lands).
+
+**Update 2026-07-20 (the cohort reaches the 16424–16623 band — a dense 92/200 off-list pocket)**: A 2026-07-20 accuracy-review over **16424–16623** found a **dense block of 92 of 200 entries (46%)** carrying off-list semantic tags from an older batch-creation cohort — `social`, `medical`, `linguistics`, `food-drink`, `sport`, `body-part` (e.g. `body-type` on 体型), and similar free-form/compound tags — and migrated them to `VALID_SEMANTIC` in-run (98 applied / 19 rejected that run, the rejects the standing in-list `general`-too-broad narrowness family). This extends the contiguous off-vocab creation-batch cohort from the already-mapped 15767–16166 block into the **16400–16600s** (with a short reviewed gap around 16167–16423). The observing run reiterates the standing conclusion of this whole priority: **adjacent ranges above the polish frontier likely carry the same drift, and a single `build/check_tag_drift.py --check unknown-semantic` systemic-fix sweep would clear it faster than per-range accuracy-review**. Same `unknown-semantic-tags` backlog item; the dict-wide `unknown-semantic` residue stands at **7,211** (detector 2026-07-20, down from 7,323 on 2026-07-18 as this window's migrations land). Reinforces [Tooling item 27](tooling-backlog.md) (promote unknown-semantic to a CI error once the curated-migration drain lands).
+
+**Update 2026-07-21 (the cohort runs contiguous through 16900 — and 16711–16900 is the densest pocket yet, with a judgment-dependent tail that has no clean 1:1 target)**: Two 2026-07-21 accuracy-review blocks measured the slice just above the 16424–16623 pocket and found the off-vocab creation-batch signature continuing, denser than ever:
+- A **16624–16710** run flagged **44 of 87 entries (~51%)** carrying off-vocabulary semantic tags (`household`, `object`, `commerce`, `literature`, `social`, `time`, `body`, `game`, …), migrated to `VALID_SEMANTIC` in-run.
+- A **16711–16900** run flagged **92 of 173 entries (~53%)** — the densest off-vocab pocket the P20 chain has measured. **54 were auto-migrated in-run via safe 1:1 synonym renames** (`time`→`time-general`, `description`→`descriptive`, `transport`/`vehicle`→`transportation`, `people`→`person`, `medicine`→`health`, `animal`→`animal-general`, `psychology`/`thinking`/`logic`/`perception`→`cognition`, `position`→`direction`, `culture-traditional`→`culture`, `arts`/`craft`→`art`, `life`/`lifestyle`→`daily-life`, `crime`→`law`, `government`→`politics`, `calendar`/`holiday`→`time-general`, `season`→`time-season`, `social`→`society`, `property`→`finance`, `food-eating`→`consumption`), but **47 entries still carry judgment-dependent off-vocab tags with no clean 1:1 target** (`body`, `state`, `degree`, `gift`, `effort`, `achievement`, `ceremony`, `celebration`, `interpersonal`, `household`, `food-cooking`/`ingredient`/`drink`, `material`, `sound`, …) — these need per-entry systemic-fix adjudication, not a mechanical rename. This is the same batch-creation-cohort signature with a consistent off-vocab vocabulary; the observing run recommends a **targeted systemic-fix sweep of 16700–17250** (with the expanded migration map for the 1:1 families and per-entry judgment for the residue) to clear most of it faster than the per-range accuracy-review lane. Cohort now confirmed contiguous through **16900**; same `unknown-semantic-tags` backlog item, same deterministic-sweep-beats-per-range conclusion, reinforcing [Tooling item 27](tooling-backlog.md).
+
+**Update 2026-07-22 (the cohort runs contiguous into 17085 — a 45/150 off-list pocket migrated in-run; detector 7,103→7,041)**: A 2026-07-22 accuracy-review over the next contiguous slice found the off-vocab creation-batch signature continuing just above the 16900 mark: **16936–17085 carried off-vocabulary semantic tags on 45 of 150 entries (~30%)** — `food-drink`×8, `body`×4, `social`×3, plus architecture / service / community / writing / commerce / mathematics and similar free-form/compound tags — all migrated to in-list `VALID_SEMANTIC` in-run. This extends the contiguous off-vocab cohort from the 16711–16900 densest-pocket band into the **17000s**, consistent with the observing run's read that "ranges just above ~16900 look like a batch-creation cohort with a pre-taxonomy tag vocabulary" — reinforcing the standing recommendation for a **targeted `check_tag_drift.py --check unknown-semantic` systemic-fix sweep of 16700–17250** (the same window the 2026-07-21 update proposed, now with a confirmed second dense block inside it). The dict-wide `unknown-semantic` residue stands at **7,041 flags across 5,718 entries** (detector 2026-07-22, down from 7,103 on 2026-07-21 as this window's migrations land). Same `unknown-semantic-tags` backlog item; reinforces [Tooling item 27](tooling-backlog.md).
+
+**Update 2026-07-23 (the cohort runs contiguous into 17086–17202 — a dense 53/117 off-list pocket migrated in-run)**: A 2026-07-22 accuracy-review over **17086–17202** found **53 of 117 entries (~45%)** carrying semantic tags outside `VALID_SEMANTIC` and migrated all 53 to in-list tags in-run — extending the contiguous off-vocab creation-batch cohort just above the 16936–17085 block into the 17200s. The off-list families were the now-familiar free-form set: `human-relations`, `motion`, `disaster`, `environment`, `medical`/`medicine`, `industry`, `competition`, `hobby`, `literature`, `house`, `object`, `material`, `place`, `social`, `body`, `sensation`, `grammar`, `formal-writing`, `keigo`, `behavior`, `children`, `people`, `time` — nearly all cleanly 1:1-mappable (the observing run's suggested additions to `check_tag_drift.py`'s `TAG_MIGRATION` are recorded in the [Tooling item 6](tooling-backlog.md) update 2026-07-23). The run reiterated the standing conclusion of this whole priority: **adjacent ranges from the same creation batch (roughly 16000–18000) likely carry the same drift, and a single `check_tag_drift.py --check unknown-semantic` systemic-fix sweep across that band would clear it faster than the accuracy-review frontier**. Same `unknown-semantic-tags` backlog item; reinforces [Tooling item 27](tooling-backlog.md).
+
+**Update 2026-07-24 (the cohort runs contiguous through 17203–17560 — two more dense off-list pockets migrated in-run)**: A 2026-07-23 accuracy-review continued the sweep above 17202 and found the off-vocab creation-batch signature unbroken: **17203–17301** carried a high density of off-vocab semantic tags (`time`, `thinking`, `decision`, `learning`, `body`, `people`, `relationships`, `space`, `behavior`, `news`, `vehicle`, `transport`, `cleaning`, `manufacturing`, `life-stage`, `documents`, `energy`, `infrastructure`, `writing`, `calligraphy`, `academic`, `martial-arts`, `hospitality`, `position`, `place`, `house`, `sensation`, `time-frequency`) — 30 entries migrated in one run — and **17374–17560** carried a further dense block (**56 entries / 76 invalid tags in one 250-ID range**: `medicine`, `culture-tradition`, `social-interaction`, `stationery`, `body-sensation`, `commerce`, `writing`, `place`, `degree`, …), migrated to in-list tags in the same run. This extends the contiguous off-vocab cohort from the 17086–17202 block through **17560**, reconfirming the whole ~16000–18000 band predates closed-vocabulary enforcement. The dict-wide `unknown-semantic` residue stands at **6,875 flags** (detector 2026-07-24, down from 6,983 on 2026-07-23 as this window's migrations land) with semantic-mismatch 809 alongside. Same `unknown-semantic-tags` backlog item; the observing runs again recommend a **dedicated `check_tag_drift.py --check unknown-semantic` systemic-fix sweep of the 17000–17999 band** over incremental per-range accuracy-review, reinforcing [Tooling item 27](tooling-backlog.md).
+
+**Update 2026-07-25 (the cohort runs contiguous into the 17561–17760 band — 75 entries migrated in-run; detector 6,875→6,721)**: A 2026-07-24 accuracy-review continued the sweep above 17560 and found the off-vocab creation-batch signature unbroken into the **17561–17760** band, with the now-standard free-form pre-taxonomy vocabulary — `celestial`, `ability`, `memory`, `martial-arts`, `culture-tradition`, `location`, `place`, `land`, `property`, `equipment`, `audio`, `housing`, `rooms`, … — and **migrated 75 entries** to in-list `VALID_SEMANTIC` tags in the same run. This extends the contiguous off-vocab cohort from the 17203–17560 block through **17760**; the observing run notes the broader **17000–17700 band likely needs the same treatment** and reiterates the standing conclusion of this whole priority — a **dedicated `check_tag_drift.py --check unknown-semantic` systemic-fix `unknown-semantic` batch over the 17000–17999 band would clear it faster than incremental per-range accuracy-review**. The dict-wide `unknown-semantic` residue stands at **6,721 flags across ~10,060 entries** (detector 2026-07-25, down from 6,875 on 2026-07-24 as this window's migrations land; semantic-mismatch 813, sole-general 3,825 alongside). Same `unknown-semantic-tags` backlog item; reinforces [Tooling item 27](tooling-backlog.md).
+
+**Update 2026-07-25 (second run of the day — the cohort continues into 18250–18300; detector 6,721→6,696)**: A 2026-07-25 accuracy-review over the 17911–18345 band reported the off-vocab cluster continuing into the **18250–18300** block (`security`, `vision`, `speech`, `group`, `tourism`, `place`, `posture`, `strategy`, `event`, `shape`, `body`, `biology`, `reading`). The observing run adds a **throughput judgment worth recording**: the `tags` dimension of `review_accuracy.py` "reliably surfaces them and the migrations are unambiguous, so this is the cheapest remaining lever on the off-vocab backlog." That is a *qualified* counterpoint to this priority's standing recommendation — the dedicated `check_tag_drift --check unknown-semantic` sweep is still the higher-throughput instrument per dollar, but where an accuracy-review is already pointed at a band, its tag flags convert to migrations at near-100% and should always be worked rather than deferred to the eventual sweep. Dict-wide `unknown-semantic` residue now **6,696** (detector 2026-07-25 second reading, down from 6,721 earlier the same day; total `tag_drift` 11,339 across 10,037 entries — sole-general 3,823, semantic-mismatch 813, concrete-noun-domain-mismatch 6, proverb-idiom-mismatch 1). Same backlog item; reinforces [Tooling item 27](tooling-backlog.md).
+
+**Update 2026-07-26 (the cohort runs unbroken through 19200 — and the decisive measurement that the *model* is the wrong detector for this class)**: Two sweeps this cycle extend the cohort and settle a method question.
+
+**Extent.** 18550–18660 came back dense with off-vocab tags (location, people, place, thing, object, commerce, character, thought, quality, organization, event, method, desire, judgment, assistance, environment, degree) — **37 migrated in-run from reviewer flags alone**. The next sweep, over **18653–19200**, found **51 of 548 entries (9.3%)** carrying tags absent from `VALID_SEMANTIC` (`body`, `transport`, `time`, `thought`, `interpersonal`, `event`, `commerce`, `crime`, `state`, …). The contaminated creation-batch cohort is therefore contiguous from the 15000s (2026-07-18 update) through **19200** with no clean gap.
+
+**Method — the finding that should change how every accuracy-review run starts.** In that same 548-entry range the cross-model reviewer caught **32 of the 51**. A deterministic scan of `metadata.tags.semantic` against `VALID_SEMANTIC` found **all 51, in seconds, for free**. The model missed 37% of a defect class that is decidable by set membership.
+
+> **Run the deterministic off-vocab scan first in every accuracy-review run, and treat the model's tag flags as corroboration rather than as the detector.**
+
+`build/check_tag_drift.py --check unknown-semantic` already implements the scan — nothing needs building. What is missing is the **run-level habit**, which belongs in routine2.md §A step 3 (do the free scan, migrate the 1:1 cases, *then* spend model budget on the residue). This also explains part of the chronic tag-dimension noise measured in [Tooling 17](tooling-backlog.md#17-accuracy-review-prompt-suppress-general-tag-noise-false-positives): the reviewer spends its attention proposing in-list narrowness substitutions while under-detecting the one tag defect that actually matters.
+
+**Recommended next sweep**: `unknown-semantic` over **18500–19000**, which the 2026-07-25 run flagged as clearable far faster by systemic-fix than by accumulating accuracy-review flags.
+
+**Update 2026-07-27 (the band measures 50% of *entries* at 19701–19950 — and the ~50 safe renames each sweep re-derives belong in `TAG_MIGRATION`)**: The 2026-07-27 accuracy-review over **19701–19950** found **124 of 250 entries (49.6%)** carrying at least one tag outside `VALID_SEMANTIC` — **143 occurrences across 83 distinct off-list tags**. The cross-model `tags` dimension produced **130 of the run's 131 flags** in this band, and essentially all were applicable: "tag not in the list" is true by construction, not a judgment call. (Window `tags` apply-among-decided: 71.1% — see [quality-metrics](../topics/quality-metrics.md).)
+
+The operational finding is that **the model is the wrong instrument for most of this work**. The large families are unambiguous 1:1 synonym renames — `time`→`time-general`, `body`→`body-part`, `thought`→`cognition`, `social`→`society`, `medical`/`medicine`→`health`, `people`→`person`, `description`→`descriptive`, `transport`→`transportation`, `grammar`→`grammatical`, `food-drink`/`food-and-drink`→`food` — of which `check_tag_drift.py`'s `TAG_MIGRATION` map covers only **nine**. At ~250 entries per accuracy-review run this band alone would take ~20 runs; a mapped deterministic sweep plus per-entry review of the ambiguous residue (~7% of occurrences) could clear it in a few. Dictionary-wide scope is unchanged in kind and large in size: `validate_tags.py --check-no-new-unknown` reports **5,109 entries / 6,325 tolerated off-vocab uses** still baselined, and `check_tag_drift.py --summary` counts **6,325 unknown-semantic** flags this refresh.
+
+The genuinely judgment-dependent residue splits in two, and neither part is a rename: **compound tags with no in-list synonym** (`safety`, `logic`, `degree`, `object`, `deception`, `event`, `physical`, `material`, `sensation`, `craft`, `quality-*`), and **labels that are not semantic categories at all** (`figurative`, `loanword`, `yojijukugo`) which should simply be dropped. Filed as a map extension to [Tooling item 6](tooling-backlog-resolved.md#6-tag-drift-detector); promoting the mapped portion to a dedicated `systemic-fix` item is the recommended next step.
+
+**Update 2026-07-28 (the band holds at ~44% into 19951–20450, and the *unmappable* residue is now the larger half)**: A 2026-07-28 accuracy-review over **19951–20450** found **221 of 498 entries (44%)** carrying at least one off-vocabulary semantic tag — the cohort is contiguous from 19701 through 20450 at 44–50% of entries, and the observing run calls it "the single largest quality defect in this ID band."
+
+The new datum is the **mappable/unmappable split, which has inverted**. Of the 221 entries, only **99** had a 1:1 migration target (the official `TAG_MIGRATION` map plus orthographic variants such as `food-drink`→`food`); **129 need a taxonomy decision** and cannot be swept. Earlier bands ran the other way — the 2026-07-27 measurement at 19701–19950 put the judgment-dependent residue at ~7% of occurrences. Two readings are consistent with that, and they have different consequences:
+
+- **The 19951+ creation batch used a genuinely different tag vocabulary** from the 19701–19950 one, in which case the residue is a one-band problem and the ~50-rename `TAG_MIGRATION` extension already filed under [Tooling item 6](tooling-backlog-resolved.md#6-tag-drift-detector) still clears most of what lies beyond it.
+- **The map extension has been absorbing the easy families as it grows**, so what is left in each successive band is increasingly the hard tail. On this reading the mapped-sweep strategy has a natural stopping point, and the curator taxonomy decision (which off-vocab tags become in-list, which get dropped, which get a nearest-in-list home) becomes the binding constraint rather than tooling.
+
+Distinguishing them is cheap and worth doing before the next sweep is sized: run `check_tag_drift.py --check unknown-semantic` over 19701–20450 and compare the *distinct off-list tag sets* of the two halves. If they overlap heavily, the second reading holds and the taxonomy decision should be escalated to the curator ahead of further migration runs.
+
+**Update 2026-08-02 (dictionary-wide measurement — the shipped map has 660 unapplied hits, and the tail says the map strategy stops near half)**: The 2026-08-02 wiki harvest measured the whole population directly rather than band by band, which answers the 2026-07-28 question above and reframes the sequencing.
+
+**Population**: **4,900 off-vocabulary instances across 3,874 entries and 818 distinct labels.** The distribution is far flatter than any single band suggested — 345 labels occur exactly once, only 199 occur five times or more, and the top 50 labels account for just 48.4% of instances.
+
+| Instrument | Labels | Instances covered | Share |
+|---|---|---|---|
+| `TAG_MIGRATION` **as shipped today** | 9 | **660** | **13.5%** |
+| Shipped 9 + the 22 mappings proposed in the 2026-08-01 observations | 31 | 1,365 | 27.9% |
+| A curated map over the top 50 labels | 50 | 2,370 | 48.4% |
+| The remaining tail | 768 | 2,530 | 51.6% |
+
+**The first row is the finding.** `TAG_MIGRATION` has covered `time`→`time-general` (204 live instances), `people`→`person` (129), `social`→`society` (73), `medical`/`medicine`→`health` (95), `transport`→`transportation` (52), `description`→`descriptive` (51), `animals`→`animal-general` (34) and `economy`→`economics` (22) since it shipped — and all 660 are still in the corpus. Meanwhile successive accuracy-review runs have been migrating 35–104 tags apiece by paid LLM review, re-deriving decisions the map already encodes. **A deterministic sweep of the nine mappings already in the repo is free, needs no judgment, and clears more instances than the last ten LLM runs combined.** It should run before any further map extension is debated.
+
+**Where the residue sits settles the "reviewed ranges are clean" question**: 79 instances (1.6%) below the polish frontier, **2,290 (46.7%) inside 6739–23607 — the band accuracy-review has already swept** — and 2,531 (51.7%) above the un-reviewed frontier at 23608. Reviewer-driven migration leaves roughly as much behind in the ranges it covered as sits in the ranges it has never seen. The 2026-06-28 observation that a 10550–10715 review "migrated 64 but missed ~9" was not a local miss; it is the dictionary-wide rate. The deterministic sweep should therefore run over the **whole** corpus, not just ahead of the frontier.
+
+**And the tail settles the 2026-07-28 fork** in favour of the second reading: with 818 labels and half the population outside the top 50, the mapped-sweep strategy has a natural ceiling near 50%. Extending the map past the top ~50 labels buys less per entry added, and what remains is not a rename problem — it is the curator taxonomy decision (which off-vocab labels join `VALID_SEMANTIC`, which map to a nearest in-list home, which are not semantic fields at all and get dropped). **Recommended sequencing: (1) sweep the shipped nine, dictionary-wide; (2) extend the map to the top ~50 labels and sweep again; (3) escalate the ~2,500-instance tail as one taxonomy decision rather than 768 individual ones.** Steps 1 and 2 are `systemic-fix` work; step 3 is not Routine work at all.
+
+**Update 2026-08-02 — step 2's map splits into two provably different classes, and `drop` is the correct default for one of them.** A 2026-08-02 accuracy-review run (23608–23907) built a migration map by hand, caught its own first draft producing wrong destinations, and reported the distinction:
+
+- **Forced renames** — the destination is determined by the tag *name alone*, with no reference to the entry: `medicine`→`health`, `linguistics`→`language`, `animals`→`animal-general`, `transport`→`transportation`. These are the shipped nine plus their obvious siblings, and a sweep cannot get them wrong.
+- **Context-dependent labels** — `academic`, `safety`, `environment`, `winter`, `conflict`, `industry`, `bureaucracy`, `department`, `statistics`, `innovation` — have **no entry-independent destination**. The run's first-draft map produced `education` for 立証 "proof", `nature` for 焼却炉 "incinerator", `time-season` for ゲレンデ "ski slope", and `business` for 溶鉱炉 "blast furnace": four wrong claims from four plausible-looking map rows.
+
+**The asymmetry that resolves it: dropping an off-vocabulary tag never adds a false claim, while migrating one can.** An entry that loses `environment` is under-tagged; an entry that gains `nature` is wrong. So for the context-dependent class the safe default is **drop**, and migration should be reserved for the cases where the destination is forced. That converts most of step 3's "taxonomy decision" into a mechanical drop plus a much smaller list of labels genuinely worth admitting to `VALID_SEMANTIC` — and it means step 2 should extend the map only with forced renames, not with the top 50 by frequency.
+
+### Update 2026-08-03 — the drop-vs-migrate rule survived its first deliberate test
+
+The 2026-08-03 accuracy-review run (24501–25100) applied the asymmetry above as a *procedure*
+rather than a principle: it split the block's 138 off-vocabulary labels into **forced renames**
+(destination follows from the label itself) and **context-dependent labels** (destination depends
+on the entry), inspected every entry in the second class before choosing, and then **re-audited
+the finished diff against the entries**.
+
+The audit caught **8 wrong or weak destinations that the generic map had produced** — the clearest
+being `place`→`building`, which turned **パリ** into a building — plus `environment`→`nature` on
+焼却場 (an incinerator plant is not about nature) and `material`→`nature` on 銅板. **Every one was
+in the context-dependent class; zero forced renames were wrong.** The rule is therefore promoted
+from a proposal to a procedure:
+
+> Run forced renames mechanically. For context-dependent labels, either read the entry or drop the
+> tag — and **audit the resulting diff against the headwords**, because reading the entry *list* is
+> not the same as reading the *diff*.
+
+Two further measurements from the same window:
+
+- **Density is holding at 40–53% for a third consecutive high-ID block** (23908–24500: 315/592
+  entries, 374 occurrences over 142 labels; 24501–25100: 246/600 entries over 138 labels). The
+  *shape* is what changed: **106 of the 138 labels occur once or twice**, so plural/synonym
+  variants (`arts`, `people`, `transport`, `tools`) are now a minority of label *types* even
+  though they remain most of the *occurrences*. A frequency-ranked migration map hits diminishing
+  returns fast; the residue is all one-off context-dependent labels — which is precisely the class
+  the rule above says to drop rather than map.
+- **A `--dimensions tags` pass over freshly-migrated entries is an independent check, not a
+  redundant one.** The external reviewer caught one of the same run's own migrations (`math`→
+  `number` on 直方体 and 交点, both geometry rather than arithmetic) — the same defect class the
+  self-audit exists to catch, found from the opposite direction, at ~$0.0004/entry.
+
+**Named residue**: the off-vocabulary tag `interrogative` survives on exactly three entries — 00534 誰, 00543 どう, 23898 でしょうか — after a 2026-08-02 polish run migrated 00536 いつ to `grammatical`. Too small for its own item; fold into the next systemic-fix or accuracy-review pass. Recorded so it is not rediscovered a fourth time.
+
+**Update 2026-08-04 — a fourth consecutive high-ID block at the same density.** The 2026-08-04
+accuracy-review over 25101–25600 found **201 of 495 entries (41%) carrying tags outside
+`VALID_SEMANTIC`** (top labels: `body` 19, `time` 14, `transport` 8, `people` 7, `material` 7), of
+which the reviewer's `tags` dimension independently caught ~136. The run recorded the reading that
+matters for adjudication policy: **the standing ">20% of entries flagged means reviewer noise"
+heuristic misfires on this cohort**, because the underlying rate really is ~40%. Off-vocabulary
+density is now measured at 40–53% across four consecutive 500-entry blocks from 23908 to 25600,
+which makes it a property of the high-ID creation cohort rather than of any one batch — and
+strengthens the case for tooling item 67 (a per-range density report), since the CI ratchet can
+gate but cannot target.
+
+**Update 2026-08-05 — a fifth consecutive block, and the first sign of the density falling.** The
+2026-08-04 accuracy-review measured **197 of ~600 entries (33%)** off-vocabulary in 25601–26200
+(`time`, `body`, `people`, `social`, `emotions`, `place`, `transport`, `household`) and migrated 45
+of them in range. The label families are the same ones the four earlier blocks named, so this is
+the same cohort continuing rather than a new one; the datum worth keeping is that 33% is the first
+reading below the 40–53% band, on the highest block measured so far. The repo-wide baseline still
+counts **2,808 affected entries**, and the arithmetic that has driven this item for three harvests
+is unchanged: a per-range paid pass migrates tens per run against a residue in the thousands, so
+the **step-1 sweep of the nine mappings already shipped in `TAG_MIGRATION`** — still unrun after
+four harvests recommending it — remains the highest-yield action available and needs no new
+detector, no budget, and no curator decision.
+
+**Update 2026-08-06 — the whole population counted, and the map-extension premise sized against
+it.** The 2026-08-06 accuracy-review proposed extending `TAG_MIGRATION` with "~55 more 1:1
+mappings" to make "the remaining ~2,500 baselined entries batch-fixable". The full repo scan that
+proposal implies had never been run, so this harvest ran it. Current state of the whole queue:
+
+| measure | value |
+|---|---|
+| entries carrying ≥1 off-list semantic tag | **2,530** (was 2,808 at the last harvest — the lane *is* converging) |
+| off-list tag instances | **3,208** |
+| distinct off-list tag *names* | **687** |
+| instances the 9 shipped `TAG_MIGRATION` mappings already cover | **364 (11.3%)** |
+| names occurring ≤2 times | 438 names / 574 instances |
+
+Four results, in the order they change decisions:
+
+1. **The standing step-1 sweep is a 364-instance job, not a thousands-instance one.** Five
+   harvests have recommended sweeping the nine already-shipped mappings without anyone counting
+   what they cover. They cover 364 instances — one bounded systemic-fix batch, verifiable per
+   entry, needing no detector, no budget and no curator decision. The reason to do it is no
+   longer "highest-yield"; it is that it is *small*, and it has been deferred five times on the
+   assumption that it was not.
+2. **"~55 more mappings" buys 40.6%, not the remainder.** Mapping the 55 highest-frequency
+   unmapped names covers 1,304 of 3,208 instances and leaves **1,540 instances across 623
+   names**. The distribution is the reason: the top 20 names carry 28.3% of the mass, the top 100
+   carry 62.4%, and you need 249 names for 82%. A frequency-ranked map cannot finish this queue;
+   it can only decapitate it.
+3. **The head is not spelling variants — that family is 6% of the mass.** Applying every
+   mechanical rule that could generate a mapping without judgment (depluralize, strip a
+   `-qualifier` suffix, add `-general`, normalize separators/case) yields exactly **78 names /
+   196 instances (6.1%)** — `arts`→`art`, `tools`→`tool`, `food-drink`/`food-cooking`→`food`,
+   `emotion-feeling`→`emotion`, `daily life`/`daily_life`→`daily-life`. Everything above them in
+   the ranking requires a decision.
+4. **What the head actually is, is the taxonomy gap this backlog already named from the other
+   direction.** The ten largest unmapped names after `body`(85) are `place`(54), `location`(50),
+   `object`(46), `state`(32), `quality`(32), `manner`(30), `degree`(30), `document`(20),
+   `position`(14), `objects`(14) — **322 instances in the spatial/positional/metadata region
+   `VALID_SEMANTIC` has no slot for**. [P13](cleanup-backlog.md#priority-13-overuse-of-general-as-sole-semantic-tag)'s
+   2026-07-30 update reached the same seven strings (`location, place, position, object, space,
+   status, document`) from the *reviewer* side and concluded the model was answering honestly
+   about a gap in the list. This count confirms it from the *corpus* side and adds the number:
+   the gap is not a reviewer artifact, it is the single largest identifiable block of this
+   migration queue, and no mapping work can touch it until the curator answers the taxonomy
+   question.
+
+**Prioritization datum, new here**: of the 2,530 affected entries, **1,121 carry off-list tags
+*and nothing else*** — they have zero valid semantic tags today, so they are functionally
+untagged for search and browse — while 1,409 already carry a valid tag alongside the off-list one.
+The two halves are not equally urgent: the migration changes user-visible behaviour for the 1,121
+and is bookkeeping for the 1,409. If this queue is ever worked by priority rather than by ID
+range, that is the split to use.
+
 ## Priority 58: Baseball vocabulary split between `sports` and `leisure` — 24 entries
 
 **RESOLVED (2026-10-01).** Systemic-fix cycle: the detector found 19 entries still tagged `leisure` (アウト, 防御率, ノーヒット, 外野 and 内野 had already moved to `sports`). 17 moved to `sports`, keeping their other tags. Two were judged on the headword: キャップ (cap; lid) is now `clothing`, and ノック is now `daily-life` (door knock) plus `sports` (fungo). 代打 lost its fallback `general`. The detector now returns 0. Not covered: the 12 baseball entries tagged only `general`.
