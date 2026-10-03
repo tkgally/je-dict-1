@@ -35,8 +35,8 @@
     },
     {
       "id": "28219_houshasei_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦{元素|げんそ}→元素：09662_genso⟧⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧{放射性|ほうしゃせい}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
-      "english": "This element has strong radioactivity.",
+      "japanese": "{放射性|ほうしゃせい}{同位体|どういたい}⟦は→は：00079_ha⟧⟦{医療|いりょう}→医療：01836_iryou⟧⟦の→の：09472_no⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
+      "english": "Radioactive isotopes are also used in medical tests.",
       "sense_numbers": [
         1
       ],
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "⟦{放射|ほうしゃ}→放射：16334_housha⟧ (radiation) plus 〜⟦{性|せい}→性：09880_sei⟧ (property, -ness). Used attributively before a noun, where it behaves like a no-adjective.\n\nCOMMON COLLOCATIONS:\n- {放射性物質|ほうしゃせいぶっしつ}: radioactive material\n- ⟦{放射性廃棄物|ほうしゃせいはいきぶつ}→放射性廃棄物：17909_houshaseihaikibutsu⟧: radioactive waste\n- {放射性|ほうしゃせい}⟦を→を：00422_wo⟧⟦{帯|お}びる→帯びる：12428_obiru⟧: to be radioactive\n\nDOMAIN:\nA physics and environmental-science term; common in news about nuclear power and accidents.",
+  "notes": "⟦{放射|ほうしゃ}→放射：16334_housha⟧ (radiation) plus 〜⟦{性|せい}→性：09880_sei⟧ (property, -ness). Used attributively before a noun, where it behaves like a no-adjective.\n\nCOMMON COLLOCATIONS:\n- {放射性物質|ほうしゃせいぶっしつ}: radioactive material\n- ⟦{放射性廃棄物|ほうしゃせいはいきぶつ}→放射性廃棄物：17909_houshaseihaikibutsu⟧: radioactive waste\n- {放射性同位体|ほうしゃせいどういたい}: radioactive isotope\n\nSIMILAR WORDS:\n- {放射性|ほうしゃせい}: the property of being radioactive; mostly attached to a noun\n- ⟦{放射能|ほうしゃのう}→放射能：13035_houshanou⟧: radioactivity as a quantity, and in everyday speech radioactive contamination (⟦{放射能|ほうしゃのう}→放射能：13035_houshanou⟧⟦を→を：00422_wo⟧⟦{帯|お}びる→帯びる：12428_obiru⟧, to become radioactive)\n- ⟦{放射線|ほうしゃせん}→放射線：14998_houshasen⟧: the radiation itself (X-rays, gamma rays)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -53,6 +53,13 @@
       "reading": "ほうしゃのう",
       "headword": "{放射能|ほうしゃのう}",
       "label": "radioactivity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14998_houshasen",
+      "reading": "ほうしゃせん",
+      "headword": "{放射線|ほうしゃせん}",
+      "label": "the radiation itself"
     }
   ],
   "metadata": {
@@ -65,13 +72,13 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "science"
       ],
       "domain": [
         "technical"
       ]
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-09-02T04:02:33Z"
+    "modified": "2026-10-03T00:22:26Z"
   }
 }
