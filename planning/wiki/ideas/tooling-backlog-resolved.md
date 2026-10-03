@@ -2,6 +2,30 @@
 
 Items moved here from [tooling-backlog.md](tooling-backlog.md) on 2026-09-26 because they are resolved, shipped, retired or refuted (by their `backlog-queue.json` status where they have one, otherwise by the status the item itself records). Kept for the record and for their measurements. If an item here turns out to be open, move it back.
 
+## 87. `review_accuracy.py` should run its own subranges in parallel
+
+**RESOLVED (2026-10-03).** `review_accuracy.py --workers N` (default 4) runs the API calls in a thread pool. The entries the budget covers are chosen before any call, so the cut-off and the cost tally are the same as serial; results are printed and written in entry order from the main thread. Measured 20 entries in 6 seconds with four workers (serial ran about 50 a minute on 2026-10-03). The screening-starvation caveat no longer applies: §A no longer runs `review_runner.py`. Unit test in `build/tests/test_review_accuracy.py`.
+
+**Source**: 2026-08-08 accuracy-review run, measured in-run.
+**Status**: open, well-evidenced, and the highest-leverage throughput item currently filed.
+
+The script runs at **~2.4 entries/min single-process**. The same run launched **four parallel
+processes over disjoint subranges and measured ~30 entries/min with no rate-limit errors** —
+better than 4× because the serial path is latency-bound, not quota-bound. At the single-process
+rate a 550-entry range costs ~4 hours of wall clock, which is what forces runs to stop mid-range
+to protect the wrap-up budget; at 30/min it is under 20 minutes.
+
+Build it into the script (`--workers N`, splitting the range into N contiguous chunks, each
+writing its own `reviews/accuracy/{id}.json`) rather than leaving each run to hand-roll it. The
+per-entry output files are independent, so there is no merge step and no shared state beyond the
+cost tally — which should be summed across workers before the ledger write.
+
+This is the same bound [item 84](#84-review_runnerpys-6-second-serial-rate-limit-is-what-bounds-an-accuracy-review-run)
+identified from the other side: 84 says the *furigana* pass is rate-limited by a hard-coded
+6-second interval, this says the *accuracy* pass is latency-limited by seriality. Together they
+explain why recent runs cover their whole range on the accuracy side and a fraction of it on the
+furigana side.
+
 ## 142. `reviews/accuracy/*.json` go stale silently, and adjudicating from them wastes a run
 
 **RESOLVED (2026-10-01).** `review_accuracy.py` already stamped each review with the entry's `modified` (`entry_modified`); nothing read it. Now `review_accuracy.py --show --ids|--range` lists the stored issues and marks a review STALE, issues hidden, when the entry changed after it (`review_is_stale`; unstamped reviews fall back to `reviewed_at`). The flag lines in `accuracy_flags.jsonl` carry `entry_modified` too. routine2.md §A step 4 now adjudicates from `--show` and says to re-run stale reviews. Unit tests in `build/tests/test_review_accuracy.py`.

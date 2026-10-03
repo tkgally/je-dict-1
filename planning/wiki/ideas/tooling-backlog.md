@@ -2825,28 +2825,6 @@ tilde measurement.** The 159-instance affix finding was produced by trying `X〜
 records. Both findings say the lookup's key space is narrower than its callers assume, and
 both were discovered by a caller working around it rather than by reading it.
 
-## 87. `review_accuracy.py` should run its own subranges in parallel
-
-**Source**: 2026-08-08 accuracy-review run, measured in-run.
-**Status**: open, well-evidenced, and the highest-leverage throughput item currently filed.
-
-The script runs at **~2.4 entries/min single-process**. The same run launched **four parallel
-processes over disjoint subranges and measured ~30 entries/min with no rate-limit errors** —
-better than 4× because the serial path is latency-bound, not quota-bound. At the single-process
-rate a 550-entry range costs ~4 hours of wall clock, which is what forces runs to stop mid-range
-to protect the wrap-up budget; at 30/min it is under 20 minutes.
-
-Build it into the script (`--workers N`, splitting the range into N contiguous chunks, each
-writing its own `reviews/accuracy/{id}.json`) rather than leaving each run to hand-roll it. The
-per-entry output files are independent, so there is no merge step and no shared state beyond the
-cost tally — which should be summed across workers before the ledger write.
-
-This is the same bound [item 84](#84-review_runnerpys-6-second-serial-rate-limit-is-what-bounds-an-accuracy-review-run)
-identified from the other side: 84 says the *furigana* pass is rate-limited by a hard-coded
-6-second interval, this says the *accuracy* pass is latency-limited by seriality. Together they
-explain why recent runs cover their whole range on the accuracy side and a fraction of it on the
-furigana side.
-
 ## 88. `get_next_id.py` should print the target directory alongside the ID
 
 **Source**: 2026-08-08 new-entries run.

@@ -40,10 +40,12 @@ filter itself stays measurable.
 
 Reuses review_runner.py's OpenRouter plumbing. Respects a per-invocation
 --budget (USD, estimated); the Routine enforces the $5/day cap via the ledger.
+--workers N (default 4) runs N calls at once; output stays in entry order.
 
 Usage:
     python3 build/review_accuracy.py --ids 05891,05907 --budget 0.50
     python3 build/review_accuracy.py --range 5800 5900 --budget 1.00
+    python3 build/review_accuracy.py --range 5800 6700 --budget 1.00 --workers 8
     python3 build/review_accuracy.py --ids 05907 --dimensions tags --dry-run
     python3 build/review_accuracy.py --report
 """
@@ -51,6 +53,7 @@ import argparse
 import json
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -471,7 +474,7 @@ def save_review(entry, model, dimensions, issues, dropped=None):
     _append_flag_line(record)
 
 
-def run_review(entries, model, dimensions, budget, dry_run, keep_warn=False):
+def run_review(entries, model, dimensions, budget, dry_run, keep_warn=False, workers=1):
     if dry_run:
         for entry, _ in entries[:3]:
             print(f"--- prompt for {entry.get('id')} ---")
@@ -481,31 +484,51 @@ def run_review(entries, model, dimensions, budget, dry_run, keep_warn=False):
         return 0.0
 
     api_key = get_api_key()
+    # Choose the entries the budget covers before any call, so the stopping
+    # point is the same whatever the number of workers.
     total_cost = 0.0
-    reviewed = flagged = failed = 0
-    dropped_total = {}
+    planned = []
     for entry, _ in entries:
-        prompt = build_prompt(entry, dimensions)
-        est = estimate_cost(model, rough_token_count(prompt), 400)
+        est = estimate_cost(model, rough_token_count(build_prompt(entry, dimensions)), 400)
         if budget is not None and total_cost + est > budget:
             print(f"\nBudget limit reached (${total_cost:.4f} + ${est:.4f} > "
-                  f"${budget:.2f}). Stopping.")
+                  f"${budget:.2f}). Stopping after {len(planned)} entries.")
             break
-        issues, dropped, _ = review_entry(entry, api_key, model, dimensions,
-                                          keep_warn=keep_warn)
         total_cost += est
-        if issues is None:
-            failed += 1
-            print(f"  {entry.get('id')}: parse/API failure, skipped")
-            continue
-        for k, v in dropped.items():
-            dropped_total[k] = dropped_total.get(k, 0) + v
-        save_review(entry, model, dimensions, issues, dropped)
-        reviewed += 1
-        if issues:
-            flagged += 1
-        print(f"  {entry.get('id')} {entry.get('headword','')}: "
-              f"{len(issues)} issue(s), {sum(dropped.values())} filtered  (~${est:.4f})")
+        planned.append((entry, est))
+
+    def one(item):
+        return review_entry(item[0], api_key, model, dimensions, keep_warn=keep_warn)
+
+    # The calls are latency-bound, not quota-bound (tooling backlog 87), so
+    # they run in parallel threads; results come back in entry order and all
+    # file writes stay in this thread.
+    if workers > 1 and len(planned) > 1:
+        pool = ThreadPoolExecutor(max_workers=workers)
+        results = pool.map(one, planned)
+    else:
+        pool = None
+        results = map(one, planned)
+    reviewed = flagged = failed = 0
+    dropped_total = {}
+    try:
+        for (entry, est), (issues, dropped, _) in zip(planned, results):
+            if issues is None:
+                failed += 1
+                print(f"  {entry.get('id')}: parse/API failure, skipped")
+                continue
+            for k, v in dropped.items():
+                dropped_total[k] = dropped_total.get(k, 0) + v
+            save_review(entry, model, dimensions, issues, dropped)
+            reviewed += 1
+            if issues:
+                flagged += 1
+            print(f"  {entry.get('id')} {entry.get('headword','')}: "
+                  f"{len(issues)} issue(s), {sum(dropped.values())} filtered  (~${est:.4f})",
+                  flush=True)
+    finally:
+        if pool is not None:
+            pool.shutdown(wait=True)
     print(f"\nReviewed: {reviewed}, Flagged: {flagged}, Failed: {failed}, "
           f"Est. cost: ${total_cost:.4f}")
     if dropped_total:
@@ -614,6 +637,8 @@ def main():
     ap.add_argument("--budget", type=float, help="Stop when estimated cost exceeds this (USD).")
     ap.add_argument("--keep-warn", action="store_true",
                     help="Keep warn-severity issues (dropped by default; ~1%% precision).")
+    ap.add_argument("--workers", type=int, default=4,
+                    help="Parallel API calls (default 4; 1 = serial).")
     ap.add_argument("--dry-run", action="store_true", help="Print prompts; no API calls.")
     ap.add_argument("--report", action="store_true", help="Summarize existing accuracy reviews.")
     ap.add_argument("--show", action="store_true",
@@ -645,7 +670,7 @@ def main():
         return 0
 
     run_review(entries, args.model, dims, args.budget, args.dry_run,
-               keep_warn=args.keep_warn)
+               keep_warn=args.keep_warn, workers=max(1, args.workers))
     return 0
 
 
