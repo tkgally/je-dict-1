@@ -62,16 +62,6 @@
       ]
     },
     {
-      "id": "00268_mainasu_ex5",
-      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧マイナス⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
-      "english": "That will be a disadvantage.",
-      "notes": null,
-      "has_audio": true,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
       "id": "00268_mainasu_ex6",
       "japanese": "マイナス⟦{面|めん}→面：09933_men⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦プラス→プラス：00346_purasu⟧⟦{面|めん}→面：09933_men⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are negative aspects, but there are positive aspects too.",
@@ -122,7 +112,7 @@
       ]
     }
   ],
-  "notes": "マイナス is used for mathematical subtraction and figuratively for negative aspects.\n\nMATH USAGE:\n- 10マイナス3 (10 − 3)\n- マイナス⟦{記号|きごう}→記号：00224_kigou⟧ (minus sign)\n\nNEGATIVE MEANING:\n- マイナス⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become negative/detrimental)\n- マイナス⟦{面|めん}→面：09933_men⟧ (negative aspect)\n- マイナス⟦イメージ→イメージ：03832_imeeji⟧ (negative image)\n- マイナス⟦{要因|よういん}→要因：05581_youin⟧ (negative factor)\n\nTEMPERATURE USAGE:\n- マイナス10⟦{度|ど}→度：09845_do⟧ (−10 degrees / 10 degrees below zero)\n- ⟦{氷点下|ひょうてんか}→氷点下：07669_hyoutenka⟧ is the formal term for \"below freezing\"\n\nThe opposite is ⟦プラス→プラス：00346_purasu⟧ (plus/positive).",
+  "notes": "COMMON COLLOCATIONS:\n- 10マイナス3 (10 − 3) (sense 1)\n- マイナス⟦{記号|きごう}→記号：00224_kigou⟧ (minus sign) (sense 1)\n- マイナス⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become negative/detrimental) (sense 2)\n- マイナス⟦{面|めん}→面：09933_men⟧ (negative aspect) (sense 2)\n- マイナス⟦イメージ→イメージ：03832_imeeji⟧ (negative image) (sense 2)\n- マイナス⟦{要因|よういん}→要因：05581_youin⟧ (negative factor) (sense 2)\n- マイナス10⟦{度|ど}→度：09845_do⟧ (−10 degrees, 10 degrees below zero) (sense 3)\n\nSIMILAR WORDS:\n- ⟦{氷点下|ひょうてんか}→氷点下：07669_hyoutenka⟧: below freezing (the formal term in forecasts)\n- ⟦プラス→プラス：00346_purasu⟧: plus, positive (the opposite)",
   "cross_references": [
     {
       "type": "antonym",
@@ -151,11 +141,18 @@
       "reading": "れいど",
       "headword": "{零度|れいど}",
       "label": "zero degrees"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07669_hyoutenka",
+      "reading": "ひょうてんか",
+      "headword": "{氷点下|ひょうてんか}",
+      "label": "below freezing"
     }
   ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-10-03T19:44:06Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
