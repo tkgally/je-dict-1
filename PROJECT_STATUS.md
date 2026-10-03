@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-03 (Routine v3: new-entries — 8 New Entries, IDs 31511–31518)
+
+Eight words that older entries already used: 何より, 叙述, 呵責, 押し返す, 理路整然, 改善策, 労災, 走り抜ける. One new
+kanji (呵, kanji ID 02820). A short cycle at the end of the run. Self-check skipped (daily OpenRouter budget spent), so
+these eight have had no independent review yet. 22 links of ふける (耽る) checked against the newer 更ける entry: all stay.
+
 ### 2026-10-03 (Routine v3: new-entries — 4 New Entries, IDs 31507–31510)
 
 Four words that older entries already used: ガイドブック, 不時着, 精鋭, 北枕. A short cycle at the end of the run. No new
@@ -74,8 +80,3 @@ Twenty words that older entries already used: 護憲, 狩人, サンタクロー
 カルチャーショック, 高官, 最古, 建国, カーソル, 屑籠, 長官, 駅長, 保育所, 朝ドラ, 脳梗塞, 社宅, 生活保護, 握り飯.
 No new kanji. The linker connected 12 of them in the entries where they were first seen.
 Self-check skipped (daily OpenRouter cap spent).
-
-### 2026-10-02 (Routine v3: new-entries — 10 New Entries, IDs 31437–31446)
-
-Ten words that older entries already used: 降り積もる, プレーヤー, レモンティー, 重金属, アンパイア, 抜け目ない,
-誇り高い, 禅寺, 表面張力, 訪問販売. No new kanji. Self-check skipped (daily OpenRouter cap spent).

@@ -1,6 +1,7 @@
 {
   "_doc": "Pair judgments for build/check_link_newcomers.py: a link of this base form to this target was weighed against this newer competitor and stays. surface 'kana' covers only links whose surface is kana; 'any' covers every surface. One line per (base, target, competitor); append, never renumber. Kanji-surface links whose kanji the competitor does not use are cleared by the detector itself and need no line here.",
   "judgments": [
+    {"base": "ふける", "target": "09960_fukeru", "competitor": "31475_fukeru", "surface": "kana", "decision": "keep", "date": "2026-10-03", "by": "claude", "note": "kana ふける after 〜に (空想・回想・瞑想・思索にふける) is 耽る 'to be absorbed in'; 更ける (night growing late) takes が. All 22 links read in context on 2026-10-03; none is 更ける."},
     {"base": "どう", "target": "00543_dou", "competitor": "31140_dou", "surface": "kana", "decision": "keep", "date": "2026-09-29", "by": "claude", "note": "kana どう is the adverb 'how'; 胴 (torso) is written in kanji. all 170 links read in context on 2026-09-29; none is 胴 (five that sat inside reading explanations were unlinked instead)."},
     {"base": "〜師", "target": "30801_shi", "competitor": "30975_shi", "surface": "any", "decision": "keep", "date": "2026-09-29", "by": "claude", "note": "links are compounds (狂言師, 指圧師, 整体師, 彫り師, 木彫り師): the suffix entry, not the noun 師 (mentor). 7 links read."}
   ]
