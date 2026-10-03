@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-03 (Routine v3: new-entries — 20 New Entries, IDs 31487–31506)
+
+Twenty words that older entries already used: 排出量, 追随, 内出血, 歯石, 肝硬変, 国家試験, 添乗員, 偽造品, 雄鶏,
+雌鶏, 研修生, 巻き毛, 資本家, 二乗, 勾配, 元値, 考え事, 名優, 発言権, 本命. No new kanji. The linker connected them in
+the entries where they were first seen. Candidate 浸食 dropped (variant spelling of 侵食 10927). Self-check: clean;
+one kana link retargeted (なさい).
+
 ### 2026-10-03 (Routine v3: new-entries — 20 New Entries, IDs 31467–31486)
 
 Twenty words that older entries already used: 冷や水, 違える, 吾輩, 呼び起こす, 再三再四, 取らぬ狸の皮算用,
@@ -72,10 +79,4 @@ Ten words that older entries already used: 降り積もる, プレーヤー, レ
 
 Eight words that older entries already used: アイスティー, レフェリー, 筏, 開場, 際どい, 弟子入り, 連邦, 紛らす.
 One new kanji (筏, ID 02818). Self-check: clean.
-
-### 2026-10-02 (Routine v3: new-entries — 12 New Entries, IDs 31417–31428)
-
-Twelve words that older entries already used: 裏庭, 歴然, 箱入り娘, 伊勢海老, 角煮, 丸損, 女帝, 就職難, 泥試合, 点字,
-偉業, 別状. No new kanji. Also fixed five example errors found by the audio checks (でははない in 安易, お願います,
-使い過ぎ read しい, 屈しない read くしない, 決まり台詞 without rendaku). Self-check: one tag fix (伊勢海老 is not a fish).
 
