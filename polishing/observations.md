@@ -1663,3 +1663,5 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-03 [entry] 06231: audio checks heard わしょくには in 06231_shirumono_ex1; the text reads {和食|わしょく}のには, a stray の.
 - 2026-10-03 [entry] 06233: audio checks heard にひゃっこ for {二|に}{百|ひゃく}{個|こ} in 06233_kokkaku_ex3; check the furigana (ひゃっこ is the usual reading).
 - 2026-10-03 [tooling] review_accuracy.py sends the notes with furigana stripped, so a note that names another reading of the same kanji (06618 施工 せこう / しこう, 06103 牧場 ぼくじょう / まきば) reads as "施工 can also be read as 施工" and is flagged as a typo at error severity: two such false flags in one 900-entry range, and 06618 again on re-review. Keeping the reading in parentheses after a kanji whose furigana differs from the headword's would remove the family (routine #009).
+- 2026-10-03 [entry] 06748: audio checks heard なんでも for {何|なに}でも in 06748_sakkaku_ex6; the furigana is wrong (何でも is なんでも).
+- 2026-10-03 [entry] 06863: audio checks heard ひとつ for {一|いち}つ in 06863_tsuketasu_ex4; the furigana is wrong (一つ is ひとつ).
