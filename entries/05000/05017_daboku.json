@@ -23,7 +23,7 @@
     },
     {
       "id": "05017_daboku_ex2",
-      "japanese": "⟦{診断|しんだん}→診断：04209_shindan⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{骨折|こっせつ}→骨折：02763_kossetsu⟧で⟦は→は：00079_ha⟧⟦なく→ない：01118_nai⟧{打撲|だぼく}⟦だった→だ：09496_da⟧。",
+      "japanese": "⟦{診断|しんだん}→診断：04209_shindan⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{骨折|こっせつ}→骨折：02763_kossetsu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦なく→ない：01118_nai⟧{打撲|だぼく}⟦だった→だ：09496_da⟧。",
       "english": "The diagnosis showed it was a bruise, not a fracture.",
       "has_audio": true,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "05017_daboku_ex3",
-      "japanese": "{打撲|だぼく}⟦による→による：28349_niyoru⟧{内出血|ないしゅっけつ}⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
+      "japanese": "{打撲|だぼく}⟦による→による：28349_niyoru⟧⟦{内出血|ないしゅっけつ}→内出血：31489_naishukketsu⟧⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "Internal bleeding from the bruise can be seen.",
       "has_audio": true,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{打撲|だぼく} refers to a bruise or contusion from blunt impact. The verb form is {打撲|だぼく}⟦する→する：00392_suru⟧.\n\nCOMMON EXPRESSIONS:\n- ⟦{打撲傷|だぼくしょう}→打撲傷：30952_dabokushou⟧: bruise injury\n- {打撲|だぼく}⟦を→を：00422_wo⟧⟦{負|お}う→負う：02017_ou⟧: to sustain a bruise\n- ⟦{軽|かる}い→軽い：00785_karui⟧{打撲|だぼく}: mild bruise\n- ⟦{全身|ぜんしん}→全身：03313_zenshin⟧{打撲|だぼく}: full-body bruising\n\nSYMPTOMS:\n- {腫|は}れ: swelling\n- {内出血|ないしゅっけつ}: internal bleeding\n- ⟦{痛|いた}み→痛み：01795_itami⟧: pain\n- {変色|へんしょく}: discoloration\n\nCASUAL EQUIVALENT:\nIn everyday speech, ⟦あざ→あざ：18828_aza⟧ (bruise mark) or {青|あお}あざ (blue bruise) are more common than the medical term {打撲|だぼく}.",
+  "notes": "{打撲|だぼく} refers to a bruise or contusion from blunt impact. The verb form is {打撲|だぼく}⟦する→する：00392_suru⟧.\n\nCOMMON EXPRESSIONS:\n- ⟦{打撲傷|だぼくしょう}→打撲傷：30952_dabokushou⟧: bruise injury\n- {打撲|だぼく}⟦を→を：00422_wo⟧⟦{負|お}う→負う：02017_ou⟧: to sustain a bruise\n- ⟦{軽|かる}い→軽い：00785_karui⟧{打撲|だぼく}: mild bruise\n- ⟦{全身|ぜんしん}→全身：03313_zenshin⟧{打撲|だぼく}: full-body bruising\n\nSYMPTOMS:\n- {腫|は}れ: swelling\n- ⟦{内出血|ないしゅっけつ}→内出血：31489_naishukketsu⟧: internal bleeding\n- ⟦{痛|いた}み→痛み：01795_itami⟧: pain\n- {変色|へんしょく}: discoloration\n\nCASUAL EQUIVALENT:\nIn everyday speech, ⟦あざ→あざ：18828_aza⟧ (bruise mark) or {青|あお}あざ (blue bruise) are more common than the medical term {打撲|だぼく}.",
   "cross_references": [
     {
       "type": "synonym",
@@ -90,11 +90,18 @@
       "reading": "けいしょう",
       "headword": "{軽傷|けいしょう}",
       "label": "minor injury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "31489_naishukketsu",
+      "reading": "ないしゅっけつ",
+      "headword": "{内出血|ないしゅっけつ}",
+      "label": "internal bleeding"
     }
   ],
   "metadata": {
     "created": "2026-01-14T10:37:17Z",
-    "modified": "2026-09-30T05:58:21Z",
+    "modified": "2026-10-03T07:38:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
