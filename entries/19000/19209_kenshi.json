@@ -4,7 +4,7 @@
   "reading": "けんし",
   "romaji": "kenshi",
   "part_of_speech": "noun, suru verb",
-  "gloss": "autopsy; postmortem examination; coroner's inquest",
+  "gloss": "postmortem examination; examination of a body; autopsy (loosely)",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -98,8 +98,8 @@
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "autopsy; postmortem examination; coroner's inquest",
-      "explanation": "The examination of a dead body to determine the cause and manner of death. Includes both external examination by police/prosecutors and internal examination (autopsy) by a medical examiner."
+      "gloss": "postmortem examination; examination of a body; autopsy (loosely)",
+      "explanation": "The examination of a dead body to determine the cause and circumstances of death. Strictly the external examination by police or a prosecutor; in everyday use often also covers the autopsy."
     }
   ],
   "examples": [
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {検|けん} (examine, inspect) + ⟦{死|し}→死：13248_shi⟧ (death). Strictly speaking, {検死|けんし} refers to the external examination of a body (also written ⟦{検視|けんし}→検視：21854_kenshi⟧), while ⟦{解剖|かいぼう}→解剖：14191_kaibou⟧ or ⟦{司法解剖|しほうかいぼう}→司法解剖：25185_shihoukaibou⟧ refers to the internal autopsy. However, in common usage {検死|けんし} often covers both. Common collocations: {検死|けんし}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to conduct a postmortem), {検死|けんし}⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧ (autopsy report), {検死|けんし}{官|かん} (coroner/medical examiner). Not to be confused with the homophone ⟦{剣士|けんし}→剣士：11912_kenshi⟧ (swordsman). Frequently appears in mystery novels and crime dramas.",
+  "notes": "Composed of {検|けん} (examine, inspect) + ⟦{死|し}→死：13248_shi⟧ (death). {検死|けんし} is the everyday and media spelling; the legal term is ⟦{検視|けんし}→検視：21854_kenshi⟧, the external examination of a body by police or a prosecutor. An internal examination is ⟦{解剖|かいぼう}→解剖：14191_kaibou⟧ (⟦{司法解剖|しほうかいぼう}→司法解剖：25185_shihoukaibou⟧ when ordered in a criminal case), but in casual usage {検死|けんし} often covers both. Common collocations: {検死|けんし}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to conduct a postmortem), {検死|けんし}⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧ (autopsy report), {検死|けんし}{官|かん} (coroner, mostly in foreign settings and fiction). Not to be confused with the homophone ⟦{剣士|けんし}→剣士：11912_kenshi⟧ (swordsman).",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -145,7 +145,7 @@
       "label": "cause of death"
     },
     {
-      "type": "homophone",
+      "type": "synonym",
       "target_id": "21854_kenshi",
       "reading": "けんし",
       "headword": "{検視|けんし}",
@@ -180,6 +180,6 @@
       "transitivity": "transitive"
     },
     "created": "2026-03-24T14:03:58Z",
-    "modified": "2026-09-19T16:19:23Z"
+    "modified": "2026-10-03T00:22:23Z"
   }
 }
