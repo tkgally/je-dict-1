@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "⟦やる→やる：02980_yaru⟧ + the aspect marker ～てしまう. The two senses share one form but are usually clear from context — present/volitional usually means completion, past usually means regret.\n\nCONTRACTIONS:\n- やってしまう → ⟦やっ→やる：02980_yaru⟧ちゃう (casual)\n- やってしまった → ⟦やっ→やる：02980_yaru⟧ちゃった (casual, the most common form of sense 2)\n\nSIMILAR PATTERNS:\n- ⟦{済|す}ませる→済ませる：02121_sumaseru⟧: to finish off; to get over with — focused on completion only, no regret reading\n- ～⟦{切|き}る→切る：02693_kiru⟧: to do thoroughly to the end — full completion, no negative nuance\n- しまう alone: same aspect marker after other verbs (⟦{食|た}べて→食べる：00396_taberu⟧しまう, ⟦{忘|わす}れて→忘れる：00474_wasureru⟧しまう)",
+  "notes": "⟦やる→やる：02980_yaru⟧ + the aspect marker ～てしまう. The two senses share one form but are usually clear from context — present/volitional usually means completion, past usually means regret.\n\nCONTRACTIONS:\n- やってしまう → ⟦やっ→やる：02980_yaru⟧ちゃう (casual)\n- やってしまった → ⟦やっ→やる：02980_yaru⟧ちゃった (casual, the most common form of sense 2)\n\nRELATED WORDS:\n- ⟦{済|す}ませる→済ませる：02121_sumaseru⟧: to finish off; to get over with — focused on completion only, no regret reading\n- ～⟦{切|き}る→切る：02693_kiru⟧: to do thoroughly to the end — full completion, no negative nuance\n- しまう alone: same aspect marker after other verbs (⟦{食|た}べて→食べる：00396_taberu⟧しまう, ⟦{忘|わす}れて→忘れる：00474_wasureru⟧しまう)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02121_sumaseru",
+      "reading": "すませる",
+      "headword": "{済|す}ませる",
+      "label": "to finish off"
+    },
+    {
+      "type": "related",
+      "target_id": "03064_shimau",
+      "reading": "しまう",
+      "headword": "{仕舞|しま}う",
+      "label": "alone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -95,6 +111,6 @@
       "domain": []
     },
     "created": "2026-06-03T04:14:43Z",
-    "modified": "2026-09-02T04:02:34Z"
+    "modified": "2026-10-03T19:17:33Z"
   }
 }

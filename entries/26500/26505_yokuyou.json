@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {浴|よく} (bathing) and ⟦{用|よう}→〜用：09842_you⟧ (use, purpose). A label term found on everyday products like soap, towels, and bath additives. Follows the common Japanese pattern of X⟦{用|よう}→〜用：09842_you⟧ meaning \"for X use.\"\n\nCOMMON COLLOCATIONS:\n- {浴用|よくよう}⟦{石鹸|せっけん}→石鹸：04981_sekken⟧: bath soap\n- {浴用|よくよう}⟦タオル→タオル：01533_taoru⟧: bath towel\n- {浴用|よくよう}⟦{剤|ざい}→〜剤：30790_zai⟧: bath additive/bath agent\n\nSIMILAR PATTERNS:\n- {飲用|いんよう}: for drinking use\n- ⟦{食用|しょくよう}→食用：25328_shokuyou⟧: for eating use / edible\n- {洗顔用|せんがんよう}: for face-washing use\n- {外用|がいよう}: for external use (medicine)",
-  "cross_references": [],
+  "notes": "Composed of {浴|よく} (bathing) and ⟦{用|よう}→〜用：09842_you⟧ (use, purpose). A label term found on everyday products like soap, towels, and bath additives. Follows the common Japanese pattern of X⟦{用|よう}→〜用：09842_you⟧ meaning \"for X use.\"\n\nCOMMON COLLOCATIONS:\n- {浴用|よくよう}⟦{石鹸|せっけん}→石鹸：04981_sekken⟧: bath soap\n- {浴用|よくよう}⟦タオル→タオル：01533_taoru⟧: bath towel\n- {浴用|よくよう}⟦{剤|ざい}→〜剤：30790_zai⟧: bath additive/bath agent\n\nRELATED WORDS:\n- {飲用|いんよう}: for drinking use\n- ⟦{食用|しょくよう}→食用：25328_shokuyou⟧: for eating use / edible\n- {洗顔用|せんがんよう}: for face-washing use\n- {外用|がいよう}: for external use (medicine)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25328_shokuyou",
+      "reading": "しょくよう",
+      "headword": "{食用|しょくよう}",
+      "label": "for eating use / edible"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +70,6 @@
       "domain": []
     },
     "created": "2026-05-02T13:33:39Z",
-    "modified": "2026-09-02T04:02:26Z"
+    "modified": "2026-10-03T19:17:33Z"
   }
 }
