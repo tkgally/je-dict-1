@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-03T19:28:19Z",
+  "generated": "2026-10-03T20:16:16Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE",
@@ -249,11 +249,6 @@
     "00265_maaketto": [
       "ECONOMIC/BUSINESS USAGE",
       "PHYSICAL MARKETPLACE"
-    ],
-    "00268_mainasu": [
-      "MATH USAGE",
-      "NEGATIVE MEANING",
-      "TEMPERATURE USAGE"
     ],
     "00269_mare": [
       "REGISTER AND WRITING"
@@ -538,9 +533,6 @@
     "00534_dare": [
       "DERIVED EXPRESSIONS",
       "POLITENESS LEVELS"
-    ],
-    "00539_doko": [
-      "こそあど SERIES (PLACE)"
     ],
     "00540_hiru": [
       "TIME PROGRESSION"
@@ -1003,11 +995,6 @@
     "00793_kusuri": [
       "RELATED PLACES",
       "TYPES OF MEDICINE"
-    ],
-    "00794_kyoushitsu": [
-      "OTHER 〜{室|しつ} COMPOUNDS",
-      "SENSE 1 - CLASSROOM",
-      "SENSE 2 - CLASS/COURSE"
     ],
     "00795_man": [
       "COUNTING SYSTEM",
@@ -2119,9 +2106,6 @@
     "01550_kansei": [
       "TRANSITIVITY (as suru verb)"
     ],
-    "01553_ten": [
-      "AS A NOUN"
-    ],
     "01555_kubetsu": [
       "TRANSITIVITY (as suru verb)"
     ],
@@ -2274,9 +2258,6 @@
     ],
     "01718_fukushuu": [
       "LEARNING CYCLE"
-    ],
-    "01719_izen": [
-      "COMMON FORMS"
     ],
     "01720_futon": [
       "COMMON VERBS",
@@ -2970,7 +2951,6 @@
       "SETSUBUN"
     ],
     "02185_ore": [
-      "COMMON FORMS",
       "COMPARISON OF FIRST-PERSON PRONOUNS"
     ],
     "02186_kawa": [
@@ -3651,11 +3631,6 @@
     "02586_kyodai": [
       "SCALE COMPARISON"
     ],
-    "02589_kyouju": [
-      "ACADEMIC RANKS",
-      "SENSE 1 - PROFESSOR",
-      "SENSE 2 - TEACHING"
-    ],
     "02592_kabu": [
       "COMPOUND WORDS (FINANCIAL)",
       "IDIOMATIC",
@@ -3825,9 +3800,6 @@
       "AS ADVERB",
       "AS NA-ADJECTIVE",
       "AS NOUN"
-    ],
-    "02675_gutai": [
-      "COMMON FORMS"
     ],
     "02677_gun": [
       "AS SUFFIX",
@@ -4369,9 +4341,6 @@
     "02972_minna": [
       "POLITENESS SCALE"
     ],
-    "02973_muika": [
-      "DAYS OF MONTH (1-10)"
-    ],
     "02974_muttsu": [
       "CHINESE VS. NATIVE",
       "EXAMPLE CONTRAST",
@@ -4766,9 +4735,6 @@
       "NEGATIVE PATTERNS (very common)",
       "POSITIVE PATTERNS"
     ],
-    "03394_taishou": [
-      "COMMON FORMS"
-    ],
     "03395_taijuu": [
       "RELATED BODY MEASUREMENTS"
     ],
@@ -4875,9 +4841,6 @@
     ],
     "03553_hakushu": [
       "TYPES OF APPLAUSE"
-    ],
-    "03556_tenkei": [
-      "COMMON FORMS"
     ],
     "03560_tennen": [
       "COLLOQUIAL USAGE"
@@ -5751,9 +5714,6 @@
     ],
     "04383_zenpan": [
       "EXAMPLES OF USE"
-    ],
-    "04386_sousaku": [
-      "VS. OTHER 'CREATION' WORDS"
     ],
     "04388_naku": [
       "ANIMAL SOUNDS IN JAPANESE"
@@ -7273,8 +7233,7 @@
       "WHAT HAPPENS"
     ],
     "05495_nyuugakushiki": [
-      "ATTIRE",
-      "TIMING"
+      "ATTIRE"
     ],
     "05496_janguru": [
       "JAPANESE SYNONYMS"
@@ -7397,8 +7356,7 @@
       "CULTURAL TRADITIONS"
     ],
     "05587_obon": [
-      "CULTURAL TRADITIONS",
-      "TIMING"
+      "CULTURAL TRADITIONS"
     ],
     "05588_momijigari": [
       "FAMOUS SPOTS",
@@ -7408,8 +7366,7 @@
       "COMMON ACTIVITIES"
     ],
     "05590_shuugakuryokou": [
-      "COMMON DESTINATIONS",
-      "TIMING"
+      "COMMON DESTINATIONS"
     ],
     "05592_higata": [
       "ECOLOGICAL IMPORTANCE"
@@ -7475,12 +7432,8 @@
       "THE LEGEND",
       "TRADITIONS"
     ],
-    "05634_houji": [
-      "TIMING"
-    ],
     "05638_bonodori": [
-      "FAMOUS DANCES",
-      "TIMING"
+      "FAMOUS DANCES"
     ],
     "05640_osoushiki": [
       "ATTIRE",
@@ -7669,8 +7622,7 @@
       "SENSE 2 - REPUTATION/GOODWILL"
     ],
     "05804_hatsumoude": [
-      "ACTIVITIES",
-      "TIMING"
+      "ACTIVITIES"
     ],
     "05809_yakudoshi": [
       "UNLUCKY AGES (counted by {数|かぞ}え{年|どし}, traditional age counting)"
@@ -7884,8 +7836,7 @@
     ],
     "05925_omiyamairi": [
       "CUSTOMS",
-      "RELATED EVENTS",
-      "TIMING"
+      "RELATED EVENTS"
     ],
     "05926_shuuto": [
       "TYPES OF SHOTS (soccer)"
@@ -8229,14 +8180,12 @@
     "06125_ochuugen": [
       "COMMON GIFTS",
       "ETIQUETTE",
-      "RELATED CUSTOM",
-      "TIMING"
+      "RELATED CUSTOM"
     ],
     "06126_oseibo": [
       "COMMON GIFTS",
       "COMPARISON WITH お{中元|ちゅうげん}",
-      "MODERN TRENDS",
-      "TIMING"
+      "MODERN TRENDS"
     ],
     "06127_kouden": [
       "AMOUNT",
@@ -8818,9 +8767,6 @@
     "06464_futae": [
       "NOTE ON READING",
       "SENSE 2 - EYELID USAGE"
-    ],
-    "06468_senren": [
-      "COMMON FORMS"
     ],
     "06469_keewai": [
       "USAGE AS NA-ADJECTIVE"
@@ -10636,7 +10582,6 @@
       "SPORTS/PSYCHOLOGY"
     ],
     "07523_zeijaku": [
-      "COMMON FORMS",
       "IT/SECURITY CONTEXT",
       "OTHER CONTEXTS"
     ],
@@ -11118,9 +11063,6 @@
     ],
     "07831_taiyoukouhatsuden": [
       "JAPAN'S SOLAR ENERGY"
-    ],
-    "07834_hishimeku": [
-      "COMMON FORMS"
     ],
     "07837_yodomu": [
       "RELATED FORM",
@@ -11866,11 +11808,9 @@
       "RELATED SEASONAL WEATHER"
     ],
     "08337_tsuyuiri": [
-      "ALTERNATE READING",
-      "TIMING"
+      "ALTERNATE READING"
     ],
     "08338_tsuyuake": [
-      "TIMING",
       "WHAT FOLLOWS"
     ],
     "08339_amatou": [
@@ -12024,12 +11964,6 @@
     "08485_yuzame": [
       "PREVENTION"
     ],
-    "08486_tsuukinrasshu": [
-      "TIMING"
-    ],
-    "08487_kitakurasshu": [
-      "TIMING"
-    ],
     "08488_kakekomijousha": [
       "CONSEQUENCES",
       "SAFETY WARNING"
@@ -12087,17 +12021,14 @@
     ],
     "08662_sotsugyouiwai": [
       "COMMON GIFTS",
-      "RELATED OCCASIONS",
-      "TIMING"
+      "RELATED OCCASIONS"
     ],
     "08663_kaikiiwai": [
       "COMMON GIFTS",
-      "TIMING",
       "UNIQUE GIFT DIRECTION"
     ],
     "08664_shuushokuiwai": [
-      "COMMON GIFTS",
-      "TIMING"
+      "COMMON GIFTS"
     ],
     "08666_nechigai": [
       "COMMON CAUSES"
@@ -12818,18 +12749,6 @@
     "09569_haijin": [
       "FAMOUS {俳人|はいじん}"
     ],
-    "09634_kisuu": [
-      "RELATED MATH TERMS"
-    ],
-    "09636_saigai": [
-      "TYPES OF DISASTERS"
-    ],
-    "09640_budou": [
-      "TYPES OF {武道|ぶどう}"
-    ],
-    "09645_tobichiru": [
-      "COMMON SUBJECTS"
-    ],
     "09647_kaku": [
       "IDIOMS AND SET PHRASES"
     ],
@@ -13468,9 +13387,6 @@
     ],
     "10375_zawameki": [
       "RELATED ONOMATOPOEIA"
-    ],
-    "10382_zubanukeru": [
-      "COMMON FORMS"
     ],
     "10394_toumorokoshi": [
       "REGIONAL VARIANTS"
@@ -15857,12 +15773,6 @@
     "18697_maibyou": [
       "RELATED {毎|まい}〜 SERIES"
     ],
-    "18698_takawokukuru": [
-      "COMMON FORMS"
-    ],
-    "18702_shokunitsuku": [
-      "COMMON FORMS"
-    ],
     "18703_ashigasukumu": [
       "COMMON TRIGGERS"
     ],
@@ -16449,9 +16359,6 @@
     ],
     "20350_nademawasu": [
       "RELATED COMPOUND VERBS WITH 〜{回|まわ}す"
-    ],
-    "20352_moushiwakenai": [
-      "COMMON FORMS"
     ],
     "20353_yayoi": [
       "TRADITIONAL MONTH NAMES"
@@ -18674,9 +18581,6 @@
     "28667_ossha": [
       "SIMILAR INTERJECTIONS"
     ],
-    "28672_ohirewotsukeru": [
-      "COMMON FORMS"
-    ],
     "28699_terabaito": [
       "RELATED UNITS"
     ],
@@ -18827,8 +18731,7 @@
       "COMMON COMPOUNDS (sense 2 — interest)"
     ],
     "29147_mitaida": [
-      "ATTACHMENT",
-      "COMMON FORMS"
+      "ATTACHMENT"
     ],
     "29148_souya": [
       "COMMON VARIANTS"
@@ -19097,12 +19000,6 @@
     ],
     "30673_tokuigao": [
       "EXPRESSION SERIES"
-    ],
-    "30762_suku": [
-      "COMMON FORMS"
-    ],
-    "30764_doujiru": [
-      "COMMON FORMS"
     ]
   }
 }
