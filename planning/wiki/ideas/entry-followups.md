@@ -1092,7 +1092,7 @@ long; this one has been live since April.
 outside its own range.
 
 Both labels are outside `VALID_SEMANTIC`. This is an instance of
-[Cleanup P20](cleanup-backlog.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration),
+[Cleanup P20](cleanup-backlog-resolved.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration),
 recorded here only so the ID is not lost — `apology` is a context-dependent label with no forced
 rename (the drop-vs-migrate rule says drop it), while `official` most plausibly maps to `formal`
 register rather than a semantic tag at all. It should be swept with the surrounding block rather
