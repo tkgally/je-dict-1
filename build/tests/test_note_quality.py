@@ -89,7 +89,7 @@ class TestSectionDetection(unittest.TestCase):
 
     def test_unknown_label_needs_all_caps(self):
         self.assertTrue(snq.analyze_notes("KANJI BREAKDOWN:\n- {確|かく}: certain")["has_header"])
-        self.assertFalse(snq.analyze_notes("Conjugation:\n- {確認|かくにん}して")["has_header"])
+        self.assertFalse(snq.analyze_notes("Characteristics:\n- {確認|かくにん}して")["has_header"])
         # a known alias in legacy casing is still a header
         self.assertEqual(snq.find_sections("Common collocations:\n- x", ["collocations"]), {"collocations"})
 
