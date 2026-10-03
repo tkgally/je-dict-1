@@ -1659,3 +1659,6 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-03 [entry] 00956: audio checks heard じゅっかげつ for {十|じゅう}{ヶ月|かげつ} in 00956_kagetsu_ex5 (all four checkers, every attempt); check the furigana (じゅっ/じっ is the standard reading before か).
 - 2026-10-03 [entry] 05886: audio checks heard ざあざあぶり for ざあざあ{降|ふ}り in 05886_zaazaa_ex3; check the furigana (rendaku, as in 土砂降り どしゃぶり).
 - 2026-10-03 [entry] 06004: audio checks kept hearing 倦怠感 in 06004_kentai_ex2 ({夏|なつ}バテで{倦怠|けんたい}を{感|かん}じる); the TTS adds 感, which suggests the sentence wants {倦怠感|けんたいかん} or a different verb.
+- 2026-10-03 [entry] 06160: audio checks heard はなしあい in 06160_mochidasu_ex6; the text reads {話|はなし}し{合|あ}い, an extra し (should be {話|はな}し{合|あ}い).
+- 2026-10-03 [entry] 06231: audio checks heard わしょくには in 06231_shirumono_ex1; the text reads {和食|わしょく}のには, a stray の.
+- 2026-10-03 [entry] 06233: audio checks heard にひゃっこ for {二|に}{百|ひゃく}{個|こ} in 06233_kokkaku_ex3; check the furigana (ひゃっこ is the usual reading).
