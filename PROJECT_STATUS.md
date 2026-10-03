@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-03 (Routine v3: new-entries — 20 New Entries, IDs 31467–31486)
+
+Twenty words that older entries already used: 冷や水, 違える, 吾輩, 呼び起こす, 再三再四, 取らぬ狸の皮算用,
+爪弾く, 托鉢, 更ける, 身につく, 括り付ける, 無用, 受給, 信託, 非現実的, 最大化, 法人税, 敵地, 言い訳がましい,
+深海魚. One new kanji (吾, 02819). Self-check: 1 applied (所得税 tag), 1 rejected.
+
 ### 2026-10-02 (Routine v3: new-entries — 20 New Entries, IDs 31447–31466)
 
 Twenty words that older entries already used: 護憲, 狩人, サンタクロース, ばば抜き, 地下足袋, エイプリルフール,
@@ -73,8 +79,3 @@ Twelve words that older entries already used: 裏庭, 歴然, 箱入り娘, 伊�
 偉業, 別状. No new kanji. Also fixed five example errors found by the audio checks (でははない in 安易, お願います,
 使い過ぎ read しい, 屈しない read くしない, 決まり台詞 without rendaku). Self-check: one tag fix (伊勢海老 is not a fish).
 
-### 2026-10-01 (Routine v3: new-entries — 20 New Entries, IDs 31397–31416)
-
-Twenty more words that older entries already used: 見せかける, 預言, 量子, 脱兎, 大穴, 平和主義, 輸出入, へそくり, カプチーノ,
-三毛猫, 世界史, 日本史, 二世帯, 吊り橋, 国歌, 日本刀, 村八分, 枯山水, 枝葉末節, 無益. No new kanji.
-Self-check skipped: the day's OpenRouter budget was spent.
