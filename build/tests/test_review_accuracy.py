@@ -224,5 +224,38 @@ class TestReviewIsStale(unittest.TestCase):
         self.assertFalse(ra.review_is_stale(rec, {"id": "00001_a", "metadata": {}}))
 
 
+class TestRunReviewWorkers(unittest.TestCase):
+    """--workers: same entries reviewed, same order, same budget cut-off."""
+
+    def _run(self, workers, budget):
+        import threading, time
+        saved, threads = [], set()
+        orig = (ra.review_entry, ra.save_review, ra.get_api_key, ra.estimate_cost)
+
+        def fake_review(entry, *a, **k):
+            threads.add(threading.get_ident())
+            time.sleep(0.02 if entry["id"].startswith("0000") else 0.0)
+            return [], {}, ""
+
+        ra.review_entry = fake_review
+        ra.save_review = lambda entry, *a, **k: saved.append(entry["id"])
+        ra.get_api_key = lambda: "k"
+        ra.estimate_cost = lambda *a, **k: 0.01
+        try:
+            entries = [(dict(ENTRY, id=f"{i:05d}_x"), None) for i in range(10)]
+            cost = ra.run_review(entries, "m", DIMS, budget, False, workers=workers)
+        finally:
+            ra.review_entry, ra.save_review, ra.get_api_key, ra.estimate_cost = orig
+        return saved, cost, threads
+
+    def test_parallel_matches_serial_order_and_budget(self):
+        serial, c1, _ = self._run(1, 0.065)
+        parallel, c2, threads = self._run(4, 0.065)
+        self.assertEqual(serial, [f"{i:05d}_x" for i in range(6)])
+        self.assertEqual(parallel, serial)
+        self.assertAlmostEqual(c1, c2)
+        self.assertGreater(len(threads), 1)
+
+
 if __name__ == "__main__":
     unittest.main()

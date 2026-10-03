@@ -939,19 +939,19 @@
     {
       "id": "review-accuracy-parallel-workers",
       "title": "review_accuracy.py: built-in parallel workers over disjoint subranges",
-      "source": "ideas/tooling-backlog.md#87-review_accuracypy-should-run-its-own-subranges-in-parallel",
+      "source": "ideas/tooling-backlog-resolved.md#87-review_accuracypy-should-run-its-own-subranges-in-parallel",
       "detect": "n/a — script change",
       "filter": null,
       "fix_type": "tooling",
       "verify": "cost tally summed across workers before the ledger write",
       "priority": 9,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 1,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "script change",
       "scope_measured_at": "2026-08-08",
       "severity": "info",
-      "notes": "Measured 2026-08-08: ~2.4 entries/min single-process vs ~30/min with four parallel processes, no rate-limit errors. Must land with a shared throttle or distinct models — cross-pass concurrency already starves review_runner.py screening to ~1.2/min (Tooling 84 update)."
+      "notes": "Measured 2026-08-08: ~2.4 entries/min single-process vs ~30/min with four parallel processes, no rate-limit errors. Must land with a shared throttle or distinct models — cross-pass concurrency already starves review_runner.py screening to ~1.2/min (Tooling 84 update). RESOLVED 2026-10-03: --workers N (default 4) in review_accuracy.py; budget chosen before calls; measured 20 entries in 6 s vs ~50/min serial. Screening (review_runner.py) is no longer run by §A, so the starvation concern no longer applies."
     },
     {
       "id": "get-next-id-print-directory",
