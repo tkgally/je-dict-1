@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{南|みなみ} is one of the four cardinal directions.\n\nFOUR DIRECTIONS:\n- ⟦{東|ひがし}→東：02250_higashi⟧: east\n- ⟦{西|にし}→西：00659_nishi⟧: west\n- {南|みなみ}: south\n- ⟦{北|きた}→北：00644_kita⟧: north\n\nCOMMON EXPRESSIONS:\n- ⟦{南口|みなみぐち}→南口：24066_minamiguchi⟧: south exit (at stations)\n- ⟦{南側|みなみがわ}→南側：27543_minamigawa⟧: south side\n- ⟦{南向|みなみむ}き→南向き：22595_minamimuki⟧: facing south\n- ⟦{南風|みなみかぜ}→南風：27544_minamikaze⟧: south wind\n\nPLACE NAMES:\n- ⟦{南|みなみ}アメリカ→南アメリカ：26753_minamiamerika⟧: South America\n- ⟦{南極|なんきょく}→南極：11936_nankyoku⟧: Antarctica (South Pole)\n- ⟦{東南|とうなん}アジア→東南アジア：16277_tounanajia⟧: Southeast Asia\n\nCULTURAL NOTE:\nSouth-facing (⟦{南向|みなみむ}き→南向き：22595_minamimuki⟧) rooms are preferred in Japan for good sunlight, making them more desirable in housing.",
+  "notes": "{南|みなみ} is one of the four cardinal directions.\n\nRELATED WORDS:\n- ⟦{東|ひがし}→東：02250_higashi⟧: east\n- ⟦{西|にし}→西：00659_nishi⟧: west\n- {南|みなみ}: south\n- ⟦{北|きた}→北：00644_kita⟧: north\n\nCOMPOUNDS:\n- ⟦{南口|みなみぐち}→南口：24066_minamiguchi⟧: south exit (at stations)\n- ⟦{南側|みなみがわ}→南側：27543_minamigawa⟧: south side\n- ⟦{南向|みなみむ}き→南向き：22595_minamimuki⟧: facing south\n- ⟦{南風|みなみかぜ}→南風：27544_minamikaze⟧: south wind\n- ⟦{南|みなみ}アメリカ→南アメリカ：26753_minamiamerika⟧: South America\n- ⟦{南極|なんきょく}→南極：11936_nankyoku⟧: Antarctica (South Pole)\n- ⟦{東南|とうなん}アジア→東南アジア：16277_tounanajia⟧: Southeast Asia\n\nCULTURAL NOTE:\nSouth-facing (⟦{南向|みなみむ}き→南向き：22595_minamimuki⟧) rooms are preferred in Japan for good sunlight, making them more desirable in housing.\n\nWATCH OUT:\nIn compounds {南|みなみ} is often read なん: ⟦{南東|なんとう}→南東：30083_nantou⟧ (southeast), ⟦{南西|なんせい}→南西：19716_nansei⟧ (southwest), ⟦{南極|なんきょく}→南極：11936_nankyoku⟧ (Antarctica). Compass points put south first, as in English (⟦{南東|なんとう}→南東：30083_nantou⟧), but ⟦{東南|とうなん}アジア→東南アジア：16277_tounanajia⟧ (Southeast Asia) reverses the order.",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,25 @@
       "reading": "にし",
       "headword": "{西|にし}",
       "label": "west"
+    },
+    {
+      "type": "related",
+      "target_id": "02250_higashi",
+      "reading": "ひがし",
+      "headword": "{東|ひがし}",
+      "label": "east"
+    },
+    {
+      "type": "related",
+      "target_id": "00644_kita",
+      "reading": "きた",
+      "headword": "{北|きた}",
+      "label": "north"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:10:42Z",
-    "modified": "2026-10-02T06:55:13Z",
+    "modified": "2026-10-03T13:18:29Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

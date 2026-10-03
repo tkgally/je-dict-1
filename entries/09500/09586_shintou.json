@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{神道|しんとう} is Japan's indigenous spiritual tradition.\n\nKEY CONCEPTS:\n- ⟦{神|かみ}→神：02147_kami⟧ (kami): spirits/deities\n- ⟦{神社|じんじゃ}→神社：01620_jinja⟧: Shinto shrine\n- ⟦{鳥居|とりい}→鳥居：05956_torii⟧: shrine gate (torii)\n- ⟦{祭|まつ}り→祭り：03735_matsuri⟧: festivals\n\nRELATED WORDS:\n- {神道|しんとう}{式|しき}: Shinto-style (ceremony)\n- ⟦{神主|かんぬし}→神主：16732_kannushi⟧: Shinto priest\n- ⟦{巫女|みこ}→巫女：12408_miko⟧: shrine maiden\n\nCULTURAL NOTE:\n- Many Japanese practice both {神道|しんとう} and ⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧ (Buddhism)\n- Weddings often follow {神道|しんとう} traditions\n- Funerals typically follow ⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧ traditions\n\nNOTE: Not to be confused with ⟦{浸透|しんとう}→浸透：07593_shintou⟧ (permeation, infiltration).",
+  "notes": "{神道|しんとう} is Japan's indigenous spiritual tradition.\n\nRELATED WORDS:\n- {神道|しんとう}{式|しき}: Shinto-style (ceremony)\n- ⟦{神主|かんぬし}→神主：16732_kannushi⟧: Shinto priest\n- ⟦{巫女|みこ}→巫女：12408_miko⟧: shrine maiden\n- ⟦{神|かみ}→神：02147_kami⟧ (kami): spirits/deities\n- ⟦{神社|じんじゃ}→神社：01620_jinja⟧: Shinto shrine\n- ⟦{鳥居|とりい}→鳥居：05956_torii⟧: shrine gate (torii)\n- ⟦{祭|まつ}り→祭り：03735_matsuri⟧: festivals\n\nCULTURAL NOTE:\n- Many Japanese practice both {神道|しんとう} and ⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧ (Buddhism)\n- Shinto-style weddings (⟦{神前式|しんぜんしき}→神前式：28943_shinzenshiki⟧) are one traditional choice\n- Funerals typically follow ⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧ traditions\n\nWATCH OUT:\nDo not confuse with ⟦{浸透|しんとう}→浸透：07593_shintou⟧ (permeation, infiltration), which has the same reading.",
   "cross_references": [
     {
       "type": "contrast",
@@ -69,11 +69,32 @@
       "reading": "いすらむきょう",
       "headword": "イスラム{教|きょう}",
       "label": "Islam"
+    },
+    {
+      "type": "related",
+      "target_id": "01620_jinja",
+      "reading": "じんじゃ",
+      "headword": "{神社|じんじゃ}",
+      "label": "Shinto shrine"
+    },
+    {
+      "type": "related",
+      "target_id": "05956_torii",
+      "reading": "とりい",
+      "headword": "{鳥居|とりい}",
+      "label": "shrine gate"
+    },
+    {
+      "type": "related",
+      "target_id": "03735_matsuri",
+      "reading": "まつり",
+      "headword": "{祭|まつ}り",
+      "label": "festivals"
     }
   ],
   "metadata": {
     "created": "2026-02-03T01:45:11Z",
-    "modified": "2026-09-02T04:01:18Z",
+    "modified": "2026-10-03T13:18:29Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -83,7 +104,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "religion",
+        "culture"
       ]
     }
   }
