@@ -2,7 +2,7 @@
   "id": "04159_saisoku",
   "headword": "{催促|さいそく}",
   "reading": "さいそく",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "urging, pressing, demand",
   "definitions": [
     {
@@ -55,7 +55,7 @@
     {
       "id": "04159_saisoku_ex5",
       "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦を→を：00422_wo⟧⟦{過|す}ぎても→過ぎる：01219_sugiru⟧⟦{提出|ていしゅつ}されなかった→提出する：03542_teishutsu⟧⟦ため→ため：01145_tame⟧、⟦{事務局|じむきょく}→事務局：17056_jimukyoku⟧⟦から→から：00504_kara⟧{催促|さいそく}⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
-      "english": "Since it was not submitted past the deadline, a reminder letter arrived from the office.",
+      "english": "It still hadn't been submitted after the deadline, so a reminder letter arrived from the office.",
       "notes": null,
       "has_audio": true,
       "sense_numbers": [
@@ -66,18 +66,22 @@
   "notes": "{催促|さいそく} means urging or pressing someone to do something they should have already done—often regarding payments, responses, or deadlines.\n\nCOMMON PATTERNS:\n- Functions as noun or ⟦する→する：00392_suru⟧ verb: {催促|さいそく}⟦する→する：00392_suru⟧ (to urge, to press)\n- Often used in passive: {催促|さいそく}⟦される→する：00392_suru⟧ (to be pressed/reminded)\n- {催促|さいそく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a reminder)\n- {催促|さいそく}⟦{状|じょう}→状：09878_jou⟧ (reminder letter, dunning letter)\n- ⟦{支払|しはら}い→支払い：03193_shiharai⟧⟦の→の：09472_no⟧{催促|さいそく} (payment reminder)\n- ⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{催促|さいそく}⟦する→する：00392_suru⟧ (to remind repeatedly)\n\nUSAGE:\nImplies some frustration or urgency—the person being urged is behind schedule or has not responded. More direct than ⟦{お願|ねが}いする→お願いする：10299_onegai⟧.\n\nRELATED WORDS:\n- ⟦{督促|とくそく}→督促：09002_tokusoku⟧: stronger/more formal demand (often legal)\n- ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧: billing, invoice request",
   "metadata": {
     "created": "2026-01-13T14:00:08Z",
-    "modified": "2026-09-02T04:01:04Z",
+    "modified": "2026-10-03T07:48:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
-      ]
+        "communication",
+        "business"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
   },
   "cross_references": [
@@ -109,5 +113,95 @@
       "headword": "督促状",
       "label": "reminder letter"
     }
-  ]
+  ],
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{催促|さいそく}する",
+        "negative": "{催促|さいそく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{催促|さいそく}します",
+        "negative": "{催促|さいそく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{催促|さいそく}した",
+        "negative": "{催促|さいそく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{催促|さいそく}しました",
+        "negative": "{催促|さいそく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{催促|さいそく}して",
+        "negative": "{催促|さいそく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{催促|さいそく}している",
+        "negative": "{催促|さいそく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{催促|さいそく}しています",
+        "negative": "{催促|さいそく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{催促|さいそく}していた",
+        "negative": "{催促|さいそく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{催促|さいそく}していました",
+        "negative": "{催促|さいそく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{催促|さいそく}すれば",
+        "negative": "{催促|さいそく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{催促|さいそく}したら",
+        "negative": "{催促|さいそく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{催促|さいそく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{催促|さいそく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{催促|さいそく}できる",
+        "negative": "{催促|さいそく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{催促|さいそく}される",
+        "negative": "{催促|さいそく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{催促|さいそく}させる",
+        "negative": "{催促|さいそく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{催促|さいそく}しろ",
+        "negative": "{催促|さいそく}するな"
+      }
+    ]
+  }
 }
