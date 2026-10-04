@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Common collocations: {動力源|どうりょくげん} (power source), {動力|どうりょく}⟦{装置|そうち}→装置：03318_souchi⟧ (power unit/drive system), {動力|どうりょく}⟦{伝達|でんたつ}→伝達：11570_dentatsu⟧ (power transmission), {原子力|げんしりょく}{動力|どうりょく} (nuclear power). Often appears in discussions of engines, industrial machinery, and energy technology. Related: ⟦エンジン→エンジン：03835_enjin⟧ (engine — the mechanical device itself), ⟦{馬力|ばりき}→馬力：14653_bariki⟧ (horsepower — a unit of power), ⟦{推進力|すいしんりょく}→推進力：15905_suishinryoku⟧ (propulsive force — emphasizes forward movement).",
+  "notes": "COMMON COLLOCATIONS:\n- {動力源|どうりょくげん}: power source\n- {動力|どうりょく}⟦{装置|そうち}→装置：03318_souchi⟧: power unit, drive system\n- {動力|どうりょく}⟦{伝達|でんたつ}→伝達：11570_dentatsu⟧: power transmission\n- {原子力|げんしりょく}{動力|どうりょく}: nuclear power (as propulsion)\n\nSIMILAR WORDS:\n- ⟦エンジン→エンジン：03835_enjin⟧: engine, the machine itself\n- ⟦{馬力|ばりき}→馬力：14653_bariki⟧: horsepower, a unit of power\n- ⟦{推進力|すいしんりょく}→推進力：15905_suishinryoku⟧: propulsive force; stresses forward movement",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -60,6 +60,27 @@
       "reading": "くどう",
       "headword": "{駆動|くどう}",
       "label": "drive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03835_enjin",
+      "reading": "えんじん",
+      "headword": "エンジン",
+      "label": "engine, the machine itself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14653_bariki",
+      "reading": "ばりき",
+      "headword": "{馬力|ばりき}",
+      "label": "horsepower, a unit of power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15905_suishinryoku",
+      "reading": "すいしんりょく",
+      "headword": "{推進力|すいしんりょく}",
+      "label": "propulsive force"
     }
   ],
   "metadata": {
@@ -71,13 +92,13 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "technology"
       ],
       "domain": [
         "technical"
       ]
     },
     "created": "2026-03-23T03:39:42Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-10-04T13:17:03Z"
   }
 }
