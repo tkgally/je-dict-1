@@ -1669,3 +1669,7 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-03 [entry] 08032 足踏み: {続|つづ}ける in 足踏みを続ける links to 続く (00903) instead of a 続ける entry.
 - 2026-10-03 [tooling] auto_link.py's verb-chain rule ignores unlink decisions: in 06291 the ledger unlinks base なる, yet the rule relinked なら (為ならず) and the classical copula なり to 01970 なる on the next run; only rewording the note kept them out. The guard in the kana-candidate filter (unlinked-by-decision) should apply to verb-chain links too.
 - 2026-10-03 [entry] 18384 熟す (and 06338 心機一転, 〜を機に; reworded there to 〜をきっかけに): in 機が熟す the 機 (opportunity) links to 09843 〜機 (machine suffix). A kanji-surface link, so the ledger cannot keep it out; needs a 機 (chance) entry or a linker exception.
+- 2026-10-04 [entry] 07312: audio checks heard はなし for {話|はな} in 07312_sennyuukan_ex1 (話を聞こう); the noun needs {話|はなし}; check the furigana
+- 2026-10-04 [entry] 07450: audio checks heard あたり for {辺|へん}り in 07450_tewoutsu_ex5 (この辺りで); should be {辺|あた}り; check the furigana
+- 2026-10-04 [entry] 07611: audio checks heard いっしゃせん for {一|いち}{車線|しゃせん} in 07611_sebameru_ex3; 一車線 is いっしゃせん; check the furigana
+- 2026-10-04 [entry] 07664: audio checks heard みつもり for {見積|みつも}もり in 07664_oomaka_ex3; the も is doubled, should be {見積|みつ}もり; check the furigana
