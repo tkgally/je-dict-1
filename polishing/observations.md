@@ -1673,3 +1673,4 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-04 [entry] 07450: audio checks heard あたり for {辺|へん}り in 07450_tewoutsu_ex5 (この辺りで); should be {辺|あた}り; check the furigana
 - 2026-10-04 [entry] 07611: audio checks heard いっしゃせん for {一|いち}{車線|しゃせん} in 07611_sebameru_ex3; 一車線 is いっしゃせん; check the furigana
 - 2026-10-04 [entry] 07664: audio checks heard みつもり for {見積|みつも}もり in 07664_oomaka_ex3; the も is doubled, should be {見積|みつ}もり; check the furigana
+- 2026-10-04 [tooling] Doubled okurigana in furigana went undetected in 15 entries ({見積|みつも}もり, read みつももり; also in a headword, 05153). verify_furigana.py does not catch a reading whose last kana repeats the kana right after the brace; the audio checkers found it. A detector for {K|…X}X where the dictionary reading has a single X would catch the rest.
