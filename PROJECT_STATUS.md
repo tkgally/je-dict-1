@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-04 (Routine v3: new-entries — 20 New Entries, IDs 31553–31572)
+
+Twenty words that older entries already used: 道路交通法, 無失点, ぞろ目, 面取り, 水温計, 烏天狗, 差し押さえる,
+頭角を現す, 返り点, 開幕式, 球審, 成績証明書, 遠距離恋愛, ギガバイト, タイピング, 汚す (けがす), 同位体, 決選投票,
+神経衰弱 (two senses: nervous exhaustion; the card game), 一皿. No new kanji. Candidate 焼印 dropped (= 焼き印 27135).
+Self-check skipped (daily OpenRouter budget spent); くちばし and ひつまぶし await kana screening.
+
 ### 2026-10-04 (Routine v3: new-entries — 20 New Entries, IDs 31533–31552)
 
 Twenty words that older entries already used: 抑うつ, 財務省, 院内感染, 機能障害, 動脈瘤, 静脈瘤, 四角四面, フレイル,
@@ -74,11 +81,4 @@ these eight have had no independent review yet. 22 links of ふける (耽る) c
 
 Four words that older entries already used: ガイドブック, 不時着, 精鋭, 北枕. A short cycle at the end of the run. No new
 kanji. Self-check skipped (daily OpenRouter budget spent), so these four have had no independent review yet.
-
-### 2026-10-03 (Routine v3: new-entries — 20 New Entries, IDs 31487–31506)
-
-Twenty words that older entries already used: 排出量, 追随, 内出血, 歯石, 肝硬変, 国家試験, 添乗員, 偽造品, 雄鶏,
-雌鶏, 研修生, 巻き毛, 資本家, 二乗, 勾配, 元値, 考え事, 名優, 発言権, 本命. No new kanji. The linker connected them in
-the entries where they were first seen. Candidate 浸食 dropped (variant spelling of 侵食 10927). Self-check: clean;
-one kana link retargeted (なさい).
 
