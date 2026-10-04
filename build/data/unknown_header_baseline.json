@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-04T08:16:42Z",
+  "generated": "2026-10-04T13:03:10Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE",
@@ -471,11 +471,7 @@
     ],
     "00505_michi": [
       "COMPOUNDS WITH どう",
-      "KANJI READINGS",
       "METAPHORICAL USES"
-    ],
-    "00506_atarashii": [
-      "KANJI READINGS"
     ],
     "00507_heya": [
       "ROOM TYPES"
@@ -494,15 +490,11 @@
       "SPELLING NOTE",
       "USAGE RANGE"
     ],
-    "00524_ki": [
-      "KANJI READINGS"
-    ],
     "00525_me": [
       "COUNTER SUFFIX"
     ],
     "00534_dare": [
-      "DERIVED EXPRESSIONS",
-      "POLITENESS LEVELS"
+      "DERIVED EXPRESSIONS"
     ],
     "00540_hiru": [
       "TIME PROGRESSION"
@@ -527,18 +519,10 @@
       "こそあど SERIES"
     ],
     "00554_kodomo": [
-      "GENDERED TERMS",
-      "POLITENESS LEVELS"
+      "GENDERED TERMS"
     ],
     "00558_kao": [
       "FACIAL EXPRESSIONS"
-    ],
-    "00559_onna": [
-      "KANJI READINGS",
-      "POLITENESS LEVELS"
-    ],
-    "00561_otoko": [
-      "POLITENESS LEVELS"
     ],
     "00566_chichi": [
       "POLITENESS SYSTEM"
@@ -950,9 +934,6 @@
     "00797_mondai": [
       "ACADEMIC USAGE"
     ],
-    "00799_musuko": [
-      "POLITENESS LEVELS"
-    ],
     "00809_sen": [
       "KUN'YOMI READING"
     ],
@@ -1014,7 +995,6 @@
       "SIZE DISTINCTION"
     ],
     "00859_kinou": [
-      "ALTERNATIVE READING",
       "TIME SEQUENCE"
     ],
     "00860_kitto": [
@@ -1022,9 +1002,6 @@
     ],
     "00862_koppu": [
       "CONTRAST WITH カップ"
-    ],
-    "00865_kyaku": [
-      "POLITENESS LEVELS"
     ],
     "00866_massugu": [
       "FIGURATIVE MEANING",
@@ -1214,8 +1191,7 @@
       "SPECIAL READING"
     ],
     "00978_oba": [
-      "KANJI FORMS",
-      "POLITENESS LEVELS"
+      "KANJI FORMS"
     ],
     "00979_oji": [
       "KANJI FORMS"
@@ -1241,8 +1217,7 @@
       "EMOTIONAL USAGE"
     ],
     "00990_sochira": [
-      "KO-SO-A-DO SET",
-      "POLITENESS LEVELS"
+      "KO-SO-A-DO SET"
     ],
     "00991_soko": [
       "KO-SO-A-DO LOCATION WORDS"
@@ -1759,8 +1734,7 @@
       "OTHER MEANINGS"
     ],
     "01381_kisha": [
-      "CONTRAST WITH OTHER TRAINS",
-      "REGIONAL NOTE"
+      "CONTRAST WITH OTHER TRAINS"
     ],
     "01384_kimi": [
       "OTHER SECOND-PERSON PRONOUNS"
@@ -2244,9 +2218,6 @@
     "01797_aisatsusuru": [
       "COMMON GREETINGS"
     ],
-    "01799_ichiji": [
-      "ALTERNATE READING"
-    ],
     "01801_ichidoni": [
       "TYPICAL USAGE"
     ],
@@ -2335,9 +2306,6 @@
     "01906_oudan": [
       "COMMON COMPOUNDS (TRAVERSAL)"
     ],
-    "01907_ooya": [
-      "KANJI READINGS"
-    ],
     "01909_oshie": [
       "USAGE BY SENSE"
     ],
@@ -2358,9 +2326,6 @@
       "ACADEMIC GRADING",
       "SIGNS AND NOTICES",
       "USAGE AS PREFIX"
-    ],
-    "01924_e": [
-      "KANJI READINGS"
     ],
     "01929_katameru": [
       "RELATED ADJECTIVE"
@@ -2508,7 +2473,6 @@
       "SENSE 3 - TO IMAGINE/ENVISION"
     ],
     "02014_eru": [
-      "ALTERNATIVE READING",
       "AS AUXILIARY (〜{得|え}る = can/possible)",
       "AS MAIN VERB (to obtain/gain)"
     ],
@@ -2752,9 +2716,6 @@
       "FIGURATIVE USES (source/cause)",
       "LITERAL USES (seeds)"
     ],
-    "02158_tsuno": [
-      "KANJI READINGS"
-    ],
     "02160_numa": [
       "SLANG"
     ],
@@ -2787,9 +2748,6 @@
     "02179_uta": [
       "SENSE 1 - SONG",
       "SENSE 2 - POETRY"
-    ],
-    "02182_en": [
-      "ALTERNATE READING"
     ],
     "02183_oka": [
       "SIZE COMPARISON"
@@ -2862,14 +2820,8 @@
     "02213_saru": [
       "ZODIAC"
     ],
-    "02214_sato": [
-      "ALTERNATE READING"
-    ],
     "02215_seki": [
       "EXTENDED MEANING"
-    ],
-    "02216_sora": [
-      "KANJI READINGS"
     ],
     "02217_sode": [
       "TYPES OF SLEEVES"
@@ -3174,7 +3126,6 @@
       "THREE MAIN MEANINGS"
     ],
     "02377_doku": [
-      "ALTERNATE READING",
       "IMPERATIVE FORMS"
     ],
     "02378_naguru": [
@@ -3312,9 +3263,6 @@
     "02465_kosu": [
       "KANJI DISTINCTION (same reading)"
     ],
-    "02470_tsugu": [
-      "ALTERNATE READING"
-    ],
     "02471_tsugu": [
       "KANJI DISTINCTION (homophones)"
     ],
@@ -3330,9 +3278,6 @@
     "02483_kuwashii": [
       "SIMILAR ADJECTIVES AND RELATED WORDS"
     ],
-    "02487_yuube": [
-      "KANJI READINGS"
-    ],
     "02488_tetsudai": [
       "SENSE 1 - HELP/ASSISTANCE",
       "SENSE 2 - HELPER/ASSISTANT"
@@ -3341,7 +3286,6 @@
       "COMPARISON (PROBABILITY SCALE)"
     ],
     "02493_shoppai": [
-      "REGIONAL NOTE",
       "TASTE ADJECTIVES"
     ],
     "02494_kinchou": [
@@ -3381,7 +3325,6 @@
       "EXAMPLE CONTEXTS"
     ],
     "02552_kakari": [
-      "ALTERNATIVE READING",
       "SCHOOL ROLES (common in Japan)"
     ],
     "02557_kangei": [
@@ -4085,7 +4028,6 @@
       "FOR PEOPLE"
     ],
     "02956_butaniku": [
-      "KANJI READINGS",
       "OTHER TYPES OF MEAT",
       "POPULAR PORK DISHES",
       "PORK CUTS"
@@ -4440,8 +4382,7 @@
       "RELATED READINGS"
     ],
     "03255_shiro": [
-      "FAMOUS JAPANESE CASTLES",
-      "KANJI READINGS"
+      "FAMOUS JAPANESE CASTLES"
     ],
     "03258_shingou": [
       "TRAFFIC LIGHT COLORS"
@@ -4711,7 +4652,6 @@
       "PRINTING TERMS"
     ],
     "03708_hitokoto": [
-      "ALTERNATIVE READING",
       "COUNTER NOTE"
     ],
     "03709_hitogomi": [
@@ -4735,9 +4675,6 @@
     "03716_bun": [
       "MEANING 1 - SENTENCE",
       "MEANING 2 - PORTION/SHARE (as suffix)"
-    ],
-    "03717_hoo": [
-      "ALTERNATIVE READING"
     ],
     "03719_hoshou": [
       "HOMOPHONES (all ほしょう)",
@@ -4828,9 +4765,6 @@
     ],
     "03806_mettani": [
       "FREQUENCY SCALE (with negative)"
-    ],
-    "03810_moushiwake": [
-      "POLITENESS LEVELS"
     ],
     "03830_aisukuriimu": [
       "RELATED FROZEN TREATS"
@@ -5306,9 +5240,6 @@
       "SIMILAR WORDS (adverb meaning)",
       "TWO USAGES"
     ],
-    "04202_shoumi": [
-      "REGIONAL NOTE"
-    ],
     "04212_jishuu": [
       "SCHOOL CONTEXT"
     ],
@@ -5336,9 +5267,6 @@
     ],
     "04244_shikomu": [
       "TRADITIONAL CONTEXT"
-    ],
-    "04246_yugamu": [
-      "ALTERNATE READING"
     ],
     "04247_hazumu": [
       "IDIOMATIC EXPRESSION"
@@ -5557,7 +5485,6 @@
       "SENSE 2 - CONTAINER"
     ],
     "04464_shamisen": [
-      "ALTERNATE READING",
       "PARTS",
       "TYPES/STYLES"
     ],
@@ -6271,9 +6198,6 @@
     "05087_jounetsu": [
       "DERIVED FORM"
     ],
-    "05091_ryoukai": [
-      "POLITENESS LEVELS"
-    ],
     "05094_renkei": [
       "TWO MAIN CONTEXTS"
     ],
@@ -6375,9 +6299,6 @@
     ],
     "05186_daikon": [
       "COMMON PREPARATIONS"
-    ],
-    "05189_negi": [
-      "REGIONAL NOTE"
     ],
     "05190_ninniku": [
       "COMMON PREPARATIONS"
@@ -6596,7 +6517,6 @@
       "SIMILAR EXPRESSIONS (from casual to formal)"
     ],
     "05311_bochibochi": [
-      "REGIONAL NOTE",
       "USAGE BY SENSE"
     ],
     "05313_nanmin": [
@@ -6931,7 +6851,6 @@
       "CONTRAST WITH {会議|かいぎ}"
     ],
     "05507_chadou": [
-      "ALTERNATIVE READING",
       "KEY VOCABULARY",
       "MAJOR SCHOOLS"
     ],
@@ -7123,9 +7042,6 @@
     ],
     "05665_hihanteki": [
       "TWO NUANCES"
-    ],
-    "05697_shichitenhakki": [
-      "ALTERNATE READING"
     ],
     "05698_gokan": [
       "THE FIVE SENSES"
@@ -7404,9 +7320,6 @@
     ],
     "05895_doudou": [
       "GRAMMAR FORMS"
-    ],
-    "05899_daidai": [
-      "ALTERNATE READING"
     ],
     "05900_garigari": [
       "SIMILAR WORDS (SOUND)",
@@ -7728,9 +7641,6 @@
     "06102_hiryou": [
       "TYPES OF FERTILIZER"
     ],
-    "06103_bokujou": [
-      "REGIONAL NOTE"
-    ],
     "06104_rakunou": [
       "JAPAN CONTEXT"
     ],
@@ -7739,7 +7649,6 @@
     ],
     "06106_katsuo": [
       "CULINARY USES",
-      "REGIONAL NOTE",
       "SEASONAL VARIETIES"
     ],
     "06109_karorii": [
@@ -8758,7 +8667,6 @@
       "SIMILAR COMPOUND WORDS"
     ],
     "06611_omoteura": [
-      "ALTERNATE READING",
       "SIMILAR COMPOUND WORDS"
     ],
     "06612_roppou": [
@@ -10031,24 +9939,16 @@
       "MIMETIC TYPE"
     ],
     "07528_honma": [
-      "DIALECT",
-      "RELATED DIALECT WORDS",
-      "STANDARD EQUIVALENT"
+      "RELATED DIALECT WORDS"
     ],
     "07529_nandeyanen": [
-      "COMEDY CONTEXT",
-      "DIALECT",
-      "STANDARD EQUIVALENT"
+      "COMEDY CONTEXT"
     ],
     "07530_ookini": [
-      "DIALECT",
-      "RELATED KYOTO VARIANT",
-      "STANDARD EQUIVALENT"
+      "RELATED KYOTO VARIANT"
     ],
     "07531_akan": [
-      "DIALECT",
-      "IDIOMATIC",
-      "STANDARD EQUIVALENT"
+      "IDIOMATIC"
     ],
     "07532_dagakki": [
       "TYPES OF PERCUSSION"
@@ -10072,48 +9972,24 @@
       "GENRES",
       "RELATED BRASS INSTRUMENTS"
     ],
-    "07542_seya": [
-      "DIALECT",
-      "STANDARD EQUIVALENT"
-    ],
-    "07543_waya": [
-      "DIALECT",
-      "STANDARD EQUIVALENT"
-    ],
     "07544_batten": [
-      "DIALECT",
-      "REGIONAL VARIATION",
-      "STANDARD EQUIVALENT"
+      "REGIONAL VARIATION"
     ],
     "07545_yoka": [
       "CONJUGATION IN DIALECT",
-      "DIALECT",
-      "RELATED KYUSHU EXPRESSIONS",
-      "STANDARD EQUIVALENT"
+      "RELATED KYUSHU EXPRESSIONS"
     ],
     "07546_namara": [
-      "DIALECT",
-      "OTHER HOKKAIDO DIALECT WORDS",
-      "STANDARD EQUIVALENT"
+      "OTHER HOKKAIDO DIALECT WORDS"
     ],
     "07547_shitakke": [
-      "DIALECT",
-      "OTHER HOKKAIDO EXPRESSIONS",
-      "STANDARD EQUIVALENT"
+      "OTHER HOKKAIDO EXPRESSIONS"
     ],
     "07549_eeyan": [
-      "DIALECT",
-      "RELATED KANSAI EXPRESSIONS",
-      "STANDARD EQUIVALENT"
-    ],
-    "07550_donaiyanen": [
-      "DIALECT",
-      "STANDARD EQUIVALENT"
+      "RELATED KANSAI EXPRESSIONS"
     ],
     "07551_izui": [
-      "DIALECT",
-      "EXAMPLES OF いずい SITUATIONS",
-      "STANDARD EQUIVALENT"
+      "EXAMPLES OF いずい SITUATIONS"
     ],
     "07552_ofurain": [
       "TECH CONTEXT"
@@ -10588,9 +10464,6 @@
       "SENSE 1 - EMBEZZLEMENT",
       "SENSE 2 - WEARING IN"
     ],
-    "07878_sagyouba": [
-      "ALTERNATIVE READING"
-    ],
     "07880_omoteguchi": [
       "CONTRAST WITH {裏口|うらぐち}"
     ],
@@ -10764,7 +10637,6 @@
       "RELATED 〜{返|かえ}す COMPOUND VERBS"
     ],
     "07958_arari": [
-      "ALTERNATIVE READING",
       "CALCULATION"
     ],
     "07959_taishokukin": [
@@ -11180,9 +11052,6 @@
     "08335_akibare": [
       "RELATED SEASONAL WEATHER"
     ],
-    "08337_tsuyuiri": [
-      "ALTERNATE READING"
-    ],
     "08338_tsuyuake": [
       "WHAT FOLLOWS"
     ],
@@ -11221,7 +11090,6 @@
       "WEDDING GIFT AMOUNTS"
     ],
     "08357_nigawarai": [
-      "ALTERNATE READING",
       "TYPES OF SMILES IN JAPANESE"
     ],
     "08359_shusse": [
@@ -12128,22 +11996,11 @@
     "09746_osusume": [
       "KANJI FORM"
     ],
-    "09747_junbanmachi": [
-      "MODERN SYSTEMS"
-    ],
-    "09748_jidoudoa": [
-      "COMMON LOCATIONS",
-      "SIGNS"
-    ],
     "09749_kan": [
-      "CONTRAST WITH パイプ",
-      "RELATED KANJI COMPOUNDS"
+      "CONTRAST WITH パイプ"
     ],
     "09753_sankakkei": [
       "RELATED SHAPE TERMS"
-    ],
-    "09754_shiori": [
-      "ADDITIONAL MEANINGS"
     ],
     "09759_sanseitasuu": [
       "CONTRASTING TERMS"
@@ -12169,9 +12026,6 @@
     "09795_uchiage": [
       "SENSE 1 - LAUNCH",
       "SENSE 2 - WRAP-UP PARTY"
-    ],
-    "09797_youdai": [
-      "ALTERNATIVE READING"
     ],
     "09802_wahou": [
       "TYPES OF SPEECH"
@@ -12260,7 +12114,6 @@
       "SPELLING NOTE"
     ],
     "09886_arigatougozaimasu": [
-      "POLITENESS LEVELS",
       "WHEN TO USE PAST FORM"
     ],
     "09888_atsui": [
@@ -12689,9 +12542,6 @@
     "10446_tsutomeru": [
       "SIMILAR WORDS (same reading, different kanji)"
     ],
-    "10459_aku": [
-      "KANJI READINGS"
-    ],
     "10461_ya": [
       "IDIOMS AND PROVERBS"
     ],
@@ -12855,7 +12705,6 @@
       "CONTRACTION CHAIN"
     ],
     "10771_honmani": [
-      "DIALECT",
       "RELATED KANSAI FORMS"
     ],
     "10781_busaiku": [
@@ -13214,9 +13063,6 @@
     ],
     "11519_shiage": [
       "DOMAINS"
-    ],
-    "11521_nisemono": [
-      "ALTERNATIVE READING"
     ],
     "11528_hatarakimono": [
       "SIMILAR ～{者|もの} COMPOUNDS"
@@ -13782,9 +13628,6 @@
     "14634_tayori": [
       "CONFUSION NOTE"
     ],
-    "14645_ougon": [
-      "ALTERNATE READING"
-    ],
     "14646_kamigata": [
       "COMMON STYLES"
     ],
@@ -13945,9 +13788,6 @@
     "15214_gunkanmaki": [
       "COMMON TOPPINGS",
       "SUSHI FORMAT"
-    ],
-    "15215_otsukuri": [
-      "REGIONAL NOTE"
     ],
     "15222_kouchoushitsu": [
       "SIMILAR 〜{室|しつ} COMPOUNDS"
@@ -14292,17 +14132,11 @@
     "17163_kicchou": [
       "TRADITIONAL GOOD OMENS IN JAPAN"
     ],
-    "17197_orareru": [
-      "REGIONAL NOTE"
-    ],
     "17203_ichigakki": [
       "JAPANESE SCHOOL TERMS"
     ],
     "17223_torihikijo": [
       "NOTABLE EXAMPLES"
-    ],
-    "17224_kagai": [
-      "ALTERNATE READING"
     ],
     "17227_jinruigaku": [
       "BRANCHES"
@@ -14670,9 +14504,6 @@
     "18045_ikkaikiri": [
       "THE SUFFIX きり"
     ],
-    "18059_toutobu": [
-      "ALTERNATIVE READING"
-    ],
     "18061_sokonau": [
       "VERB SUFFIX PATTERN"
     ],
@@ -14926,9 +14757,6 @@
     ],
     "18711_hakichigaeru": [
       "COMMON PATTERNS (figurative)"
-    ],
-    "18720_kazuookuno": [
-      "ALTERNATE READING"
     ],
     "18728_tsuranuku": [
       "COMMON COLLOCATIONS (figurative)",
@@ -15417,9 +15245,6 @@
     "19822_hie": [
       "HEALTH CONTEXT"
     ],
-    "19868_donataka": [
-      "POLITENESS LEVELS"
-    ],
     "19874_shouchuu": [
       "COMMON DRINKING STYLES"
     ],
@@ -15532,9 +15357,6 @@
     "20400_kikin": [
       "NOTABLE EXAMPLES"
     ],
-    "20407_kingan": [
-      "ALTERNATIVE READING"
-    ],
     "20408_ryuuseigun": [
       "WELL-KNOWN METEOR SHOWERS IN JAPAN"
     ],
@@ -15547,9 +15369,6 @@
     ],
     "20420_keitaibangou": [
       "JAPAN NOTE"
-    ],
-    "20421_gense": [
-      "ALTERNATIVE READING"
     ],
     "20422_mawata": [
       "IDIOMATIC EXPRESSION"
@@ -15583,9 +15402,6 @@
     ],
     "20517_suujitsu": [
       "RELATED TERMS WITH {数|すう}"
-    ],
-    "20640_shiasatte": [
-      "REGIONAL NOTE"
     ],
     "20650_nando": [
       "REAL ESTATE USAGE"
@@ -15734,9 +15550,6 @@
     ],
     "21185_kanshakangeki": [
       "EXTENDED FORM"
-    ],
-    "21187_kijitsu": [
-      "ALTERNATE READING"
     ],
     "21203_nikkouyoku": [
       "RELATED WORDS WITH 〜{浴|よく}"
@@ -15946,9 +15759,6 @@
     "22109_kakisokoneru": [
       "RELATED COMPOUND VERBS WITH 〜{損|そこ}ねる"
     ],
-    "22190_oaisuru": [
-      "POLITENESS LEVELS"
-    ],
     "22205_shintaisou": [
       "APPARATUS"
     ],
@@ -16106,9 +15916,6 @@
     "22948_meireikei": [
       "IMPERATIVE FORM BY VERB TYPE"
     ],
-    "22949_tanindon": [
-      "REGIONAL NOTE"
-    ],
     "22950_sanshokudon": [
       "TYPICAL TOPPINGS"
     ],
@@ -16120,9 +15927,6 @@
     ],
     "22958_ruriiro": [
       "SIMILAR COLORS"
-    ],
-    "23002_fuda": [
-      "KANJI READINGS"
     ],
     "23007_sottosuru": [
       "RELATED ADVERB"
@@ -16406,9 +16210,6 @@
     ],
     "23536_shimukaado": [
       "FOR TRAVELERS"
-    ],
-    "23537_yaku": [
-      "KANJI READINGS"
     ],
     "23538_goaisatsu": [
       "COMMON SITUATIONS"
@@ -17125,9 +16926,6 @@
     "27214_isourou": [
       "SET EXPRESSION"
     ],
-    "27262_omatase": [
-      "POLITENESS LEVELS"
-    ],
     "27264_hokorimamire": [
       "THE まみれ PATTERN"
     ],
@@ -17684,9 +17482,6 @@
     ],
     "28803_shutsudou": [
       "TYPICAL SUBJECTS"
-    ],
-    "28810_nikuman": [
-      "REGIONAL NOTE"
     ],
     "28812_tandai": [
       "CONTRAST WITH OTHER INSTITUTIONS"
