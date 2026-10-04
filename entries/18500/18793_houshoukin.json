@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Common collocations: {報奨金|ほうしょうきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧ (to receive a reward), {報奨金|ほうしょうきん}⟦{制度|せいど}→制度：03291_seido⟧ (incentive/reward system), {報奨金|ほうしょうきん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to offer a reward). Used in various contexts: criminal investigations (reward for information), corporate incentives (performance bonuses), and government programs (incentive payments). Related: ⟦ボーナス→ボーナス：05878_boonasu⟧ (bonus — mainly for regular employment bonuses), ⟦{賞金|しょうきん}→賞金：14234_shoukin⟧ (prize money — for competitions), ⟦{懸賞金|けんしょうきん}→懸賞金：22330_kenshoukin⟧ (bounty — for wanted persons).",
+  "notes": "USAGE:\nUsed for rewards for information in criminal investigations, performance bonuses at companies, and government incentive payments.\n\nCOMMON COLLOCATIONS:\n- {報奨金|ほうしょうきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive a reward\n- {報奨金|ほうしょうきん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to offer a reward\n- {報奨金|ほうしょうきん}⟦{制度|せいど}→制度：03291_seido⟧: incentive or reward system\n\nSIMILAR WORDS:\n- ⟦ボーナス→ボーナス：05878_boonasu⟧: bonus; mainly the regular seasonal bonus paid to employees\n- ⟦{賞金|しょうきん}→賞金：14234_shoukin⟧: prize money in a competition\n- ⟦{懸賞金|けんしょうきん}→懸賞金：22330_kenshoukin⟧: bounty for a wanted person",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -60,6 +60,20 @@
       "reading": "けんしょうきん",
       "headword": "{懸賞金|けんしょうきん}",
       "label": "prize money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05878_boonasu",
+      "reading": "ぼーなす",
+      "headword": "ボーナス",
+      "label": "bonus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14234_shoukin",
+      "reading": "しょうきん",
+      "headword": "{賞金|しょうきん}",
+      "label": "prize money in a competition"
     }
   ],
   "metadata": {
@@ -71,13 +85,14 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "money",
+        "work"
       ],
       "domain": [
         "business"
       ]
     },
     "created": "2026-03-23T03:42:33Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-10-04T13:17:03Z"
   }
 }
