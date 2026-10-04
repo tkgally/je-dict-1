@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{駐車|ちゅうしゃ} means parking (of vehicles). As a verbal noun, it forms {駐車|ちゅうしゃ}⟦する→する：00392_suru⟧ (to park).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {駐車|ちゅうしゃ}⟦する→する：00392_suru⟧\n\nCOMMON EXPRESSIONS:\n- {駐車|ちゅうしゃ}⟦する→する：00392_suru⟧: to park\n- {駐車|ちゅうしゃ}⟦{場|じょう}→場：03699_ba⟧: parking lot\n- {駐車|ちゅうしゃ}⟦{禁止|きんし}→禁止：02643_kinshi⟧: no parking\n- {駐車|ちゅうしゃ}⟦{違反|いはん}→違反：01824_ihan⟧: parking violation\n- ⟦ここ→ここ：00961_koko⟧⟦に→に：00314_ni⟧{駐車|ちゅうしゃ}⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧です⟦か→か：09473_ka⟧: May I park here?\n- {駐車|ちゅうしゃ}⟦{場|じょう}→場：03699_ba⟧⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for a parking lot\n- ⟦{違法|いほう}→違法：09687_ihou⟧{駐車|ちゅうしゃ}: illegal parking\n\nRELATED WORDS:\n- ⟦{駐輪|ちゅうりん}→駐輪：15100_chuurin⟧: bicycle parking\n- ⟦{駐輪場|ちゅうりんじょう}→駐輪場：09240_chuurinjou⟧: bicycle parking area\n- ⟦{路上|ろじょう}→路上：19441_rojou⟧{駐車|ちゅうしゃ}: street parking",
+  "notes": "TRANSITIVITY:\nUsed both ways: ⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{駐車|ちゅうしゃ}⟦する→する：00392_suru⟧ (to park the car) and, without an object, ⟦ここ→ここ：00961_koko⟧⟦に→に：00314_ni⟧{駐車|ちゅうしゃ}⟦する→する：00392_suru⟧ (to park here).\n\nCOMMON EXPRESSIONS:\n- {駐車|ちゅうしゃ}{場|じょう}: parking lot\n- {駐車|ちゅうしゃ}{禁止|きんし}: no parking\n- {駐車|ちゅうしゃ}⟦{違反|いはん}→違反：01824_ihan⟧: parking violation\n- ⟦{違法|いほう}→違法：09687_ihou⟧{駐車|ちゅうしゃ}: illegal parking\n- {路上|ろじょう}{駐車|ちゅうしゃ}: street parking\n\nSIMILAR WORDS:\n- ⟦{停車|ていしゃ}→停車：04534_teisha⟧: a brief stop with the driver ready to move off (dropping someone off, waiting at a light). {駐車|ちゅうしゃ} is leaving the vehicle, or stopping long enough that it counts as parked. A {駐停車禁止|ちゅうていしゃきんし} sign bans both.\n- ⟦{駐輪|ちゅうりん}→駐輪：15100_chuurin⟧: parking a bicycle (⟦{駐輪場|ちゅうりんじょう}→駐輪場：09240_chuurinjou⟧, bicycle parking area).\n\nWATCH OUT:\n⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧ (injection) has the same reading.",
   "cross_references": [
     {
       "type": "related",
@@ -168,11 +168,18 @@
       "reading": "ちゅうりんじょう",
       "headword": "{駐輪場|ちゅうりんじょう}",
       "label": "bicycle parking area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04534_teisha",
+      "reading": "ていしゃ",
+      "headword": "{停車|ていしゃ}",
+      "label": "a brief stop with the driver ready…"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:16:25Z",
-    "modified": "2026-09-02T04:00:59Z",
+    "modified": "2026-10-04T19:00:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -180,7 +187,7 @@
         "noun",
         "verb-suru"
       ],
-      "transitivity": "intransitive",
+      "transitivity": "both",
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
