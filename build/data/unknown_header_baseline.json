@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-04T00:59:38Z",
+  "generated": "2026-10-04T06:52:49Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE",
@@ -136,9 +136,6 @@
     "00137_kaisei": [
       "WEATHER VOCABULARY HIERARCHY"
     ],
-    "00140_kaiteki": [
-      "GRAMMATICAL FORMS"
-    ],
     "00146_kajitsu": [
       "USAGE DIFFERENCE"
     ],
@@ -203,9 +200,6 @@
     ],
     "00218_ketsuatsu": [
       "READINGS ON A CHART"
-    ],
-    "00221_kibou": [
-      "VERBAL USE"
     ],
     "00224_kigou": [
       "COMPUTING",
@@ -381,9 +375,6 @@
     "00406_tokoroga": [
       "DIFFERENCE FROM OTHER CONJUNCTIONS"
     ],
-    "00407_ton": [
-      "RELATED UNITS"
-    ],
     "00408_toreeningu": [
       "PHYSICAL TRAINING",
       "SKILL/JOB TRAINING"
@@ -442,9 +433,6 @@
     "00463_wakaru": [
       "COMPARED WITH {知|し}る"
     ],
-    "00464_yasui": [
-      "IMPORTANT DISTINCTION"
-    ],
     "00468_jikan": [
       "KEY DISTINCTION",
       "SENSE 1 - TIME (GENERAL)",
@@ -454,9 +442,6 @@
     "00472_shiyou": [
       "1. WAY/METHOD (only with negatives)",
       "2. SPECIFICATIONS (technical)"
-    ],
-    "00480_shigoto": [
-      "VERBAL USE"
     ],
     "00484_mo": [
       "PARTICLE BEHAVIOR",
@@ -812,7 +797,6 @@
       "TYPES OF SEATING"
     ],
     "00707_jouzu": [
-      "GRAMMATICAL FORMS",
       "USING IT ABOUT PEOPLE",
       "{上手|じょうず} VS {得意|とくい} VS {上手|うま}い"
     ],
@@ -1203,7 +1187,6 @@
       "KO-SO-A-DO SERIES (adjectival)"
     ],
     "00963_kore": [
-      "IMPORTANT DISTINCTION",
       "KO-SO-A-DO SYSTEM"
     ],
     "00964_kyoudai": [
@@ -1415,9 +1398,6 @@
       "RELATED APPLIANCES",
       "SIZE TERMS"
     ],
-    "01047_renji": [
-      "ONOMATOPOEIA"
-    ],
     "01048_resutoran": [
       "TYPES OF EATING ESTABLISHMENTS"
     ],
@@ -1591,12 +1571,6 @@
     "01157_kou": [
       "KO-SO-A-DO SYSTEM"
     ],
-    "01161_yureru": [
-      "ONOMATOPOEIA"
-    ],
-    "01163_hikaru": [
-      "ONOMATOPOEIA"
-    ],
     "01164_koto": [
       "KEY GRAMMAR PATTERNS",
       "NOMINALIZER こと VS の",
@@ -1707,7 +1681,6 @@
       "KEIGO SYSTEM FOR {言|い}う"
     ],
     "01301_igaku": [
-      "IMPORTANT DISTINCTION",
       "RELATED FIELDS"
     ],
     "01305_kudasaru": [
@@ -1757,7 +1730,6 @@
       "FULL FORMS"
     ],
     "01354_guramu": [
-      "RELATED UNITS",
       "SHOPPING NOTE"
     ],
     "01356_keeki": [
@@ -1781,9 +1753,6 @@
     "01369_suteeki": [
       "COOKING LEVELS ({焼|や}き{加減|かげん})"
     ],
-    "01372_senchi": [
-      "RELATED UNITS"
-    ],
     "01373_sofuaa": [
       "RELATED FURNITURE"
     ],
@@ -1794,9 +1763,6 @@
     ],
     "01375_handobaggu": [
       "RELATED BAG TYPES"
-    ],
-    "01377_fuakkusu": [
-      "VERBAL USE"
     ],
     "01378_furonto": [
       "OTHER MEANINGS"
@@ -1810,9 +1776,6 @@
     ],
     "01386_kyuukou": [
       "TRAIN TYPES (slowest to fastest)"
-    ],
-    "01388_kyousou": [
-      "VERBAL USE"
     ],
     "01391_guai": [
       "FOR HEALTH",
@@ -1869,15 +1832,9 @@
     "01431_junbi": [
       "VERBAL USAGE"
     ],
-    "01432_shoukai": [
-      "VERBAL USE"
-    ],
     "01434_shousetsu": [
       "TYPES BY GENRE",
       "TYPES BY LENGTH"
-    ],
-    "01435_shoutai": [
-      "VERBAL USE"
     ],
     "01437_shoubu": [
       "VERBAL USAGE"
@@ -1957,9 +1914,6 @@
     ],
     "01494_hakubutsukan": [
       "TYPES OF MUSEUMS"
-    ],
-    "01497_hantai": [
-      "VERBAL USE"
     ],
     "01502_futsuu": [
       "AS AN ADJECTIVE",
@@ -2249,7 +2203,6 @@
       "THE AMERICAS"
     ],
     "01774_ootobai": [
-      "ALTERNATE TERMS",
       "LICENSING"
     ],
     "01776_an": [
@@ -2269,8 +2222,7 @@
       "RELATED RACKET SPORTS"
     ],
     "01785_hanbaagu": [
-      "COMMON VARIETIES",
-      "IMPORTANT DISTINCTION"
+      "COMMON VARIETIES"
     ],
     "01787_izumi": [
       "NAME NOTE"
@@ -2434,7 +2386,6 @@
       "CONJUGATION (godan む-verb)"
     ],
     "01939_kurushimeru": [
-      "COMMON SUBJECTS",
       "TRANSITIVE/INTRANSITIVE PAIR"
     ],
     "01945_komeru": [
@@ -2442,9 +2393,6 @@
     ],
     "01946_sasaeru": [
       "USAGE TYPES"
-    ],
-    "01949_susumeru": [
-      "HOMOPHONE DISTINCTION"
     ],
     "01951_sodatsu": [
       "SUBJECTS"
@@ -2495,9 +2443,6 @@
     ],
     "01979_hiraku": [
       "DON'T CONFUSE (all use {開|ひら})"
-    ],
-    "01980_hirogaru": [
-      "COMMON SUBJECTS"
     ],
     "01986_mamoru": [
       "MEANING 1 (PROTECT)",
@@ -2608,9 +2553,6 @@
     ],
     "02033_kagiru": [
       "KEY GRAMMAR PATTERNS"
-    ],
-    "02036_kagu": [
-      "ONOMATOPOEIA"
     ],
     "02038_kasanaru": [
       "ACCUMULATION",
@@ -3098,12 +3040,6 @@
       "CONTRAST WITH {超|こ}える",
       "THREE MAIN MEANINGS"
     ],
-    "02283_sakeru": [
-      "HOMOPHONE DISTINCTION"
-    ],
-    "02284_semeru": [
-      "HOMOPHONE DISTINCTION"
-    ],
     "02285_taku": [
       "DISTINCTION FROM {炊|た}く"
     ],
@@ -3127,9 +3063,6 @@
     "02300_toosu": [
       "AS SUFFIX (-{通|とお}す)"
     ],
-    "02301_toku": [
-      "HOMOPHONE DISTINCTION"
-    ],
     "02303_tojiru": [
       "CONTRAST WITH {閉|し}める",
       "DISTINCTION (homophones)"
@@ -3137,9 +3070,6 @@
     "02304_muku": [
       "DIRECTION (facing)",
       "SUITABILITY (〜に{向|む}いている)"
-    ],
-    "02305_muku": [
-      "HOMOPHONE DISTINCTION"
     ],
     "02306_mukeru": [
       "VERB PAIR"
@@ -3188,7 +3118,6 @@
       "COMPOUND VERBS"
     ],
     "02330_yowamaru": [
-      "COMMON SUBJECTS",
       "RELATED {弱|よわ} VERBS",
       "VERB PAIR EXAMPLES"
     ],
@@ -3279,7 +3208,6 @@
       "HOMOPHONE ALERT"
     ],
     "02392_haeru": [
-      "HOMOPHONE DISTINCTION",
       "WHAT CAN {生|は}える"
     ],
     "02393_haeru": [
@@ -3345,8 +3273,7 @@
       "MEANING 2 - RICE BALL"
     ],
     "02432_meiwaku": [
-      "APOLOGY PATTERNS",
-      "GRAMMATICAL FORMS"
+      "APOLOGY PATTERNS"
     ],
     "02438_yatou": [
       "KEY POLITICAL TERMS"
@@ -3391,15 +3318,11 @@
       "SENSE 1 - WHOLESALE",
       "SENSE 2 - GRATE"
     ],
-    "02464_kumu": [
-      "HOMOPHONE DISTINCTION"
-    ],
     "02465_kosu": [
       "KANJI DISTINCTION (same reading)"
     ],
     "02470_tsugu": [
-      "ALTERNATE READING",
-      "HOMOPHONE DISTINCTION"
+      "ALTERNATE READING"
     ],
     "02471_tsugu": [
       "KANJI DISTINCTION (homophones)"
@@ -3714,7 +3637,6 @@
       "FORMAL CONTEXTS"
     ],
     "02685_kikan": [
-      "MEDICAL TERMS",
       "TYPES OF ORGANS"
     ],
     "02687_kyoku": [
@@ -3816,8 +3738,7 @@
       "FORMAL EXPRESSIONS"
     ],
     "02754_kokyuu": [
-      "BREATHING PATTERNS",
-      "MEDICAL TERMS"
+      "BREATHING PATTERNS"
     ],
     "02756_kokuban": [
       "MODERN ALTERNATIVE"
@@ -3830,7 +3751,6 @@
       "FAMOUS EXPRESSION"
     ],
     "02763_kossetsu": [
-      "MEDICAL TERMS",
       "TYPES OF FRACTURES"
     ],
     "02764_kozutsumi": [
@@ -3971,7 +3891,6 @@
     ],
     "02863_obaasan": [
       "GRANDMOTHER TERMS BY FORMALITY",
-      "IMPORTANT DISTINCTION",
       "PATERNAL VS MATERNAL"
     ],
     "02866_katakana": [
@@ -3988,12 +3907,6 @@
     ],
     "02871_kirai": [
       "INTENSITY SCALE"
-    ],
-    "02872_kiroguramu": [
-      "RELATED UNITS"
-    ],
-    "02873_kiromeetoru": [
-      "RELATED UNITS"
     ],
     "02874_gyuuniku": [
       "FAMOUS JAPANESE BEEF",
@@ -4100,7 +4013,6 @@
       "TENSE IN とき CLAUSES"
     ],
     "02919_toriniku": [
-      "ALTERNATE TERMS",
       "COMMON CUTS AND DISHES",
       "OTHER MEAT WORDS"
     ],
@@ -4231,9 +4143,6 @@
       "CHINESE VS. NATIVE",
       "EXAMPLE CONTRAST",
       "NATIVE COUNTING SYSTEM (1-10)"
-    ],
-    "02975_meetoru": [
-      "RELATED UNITS"
     ],
     "02978_yaoya": [
       "TRADITIONAL SPECIALTY SHOPS"
@@ -4397,9 +4306,6 @@
     "03107_ripooto": [
       "リポート VS レポート"
     ],
-    "03108_zenjitsu": [
-      "RELATED TIME EXPRESSIONS"
-    ],
     "03110_sofubo": [
       "FAMILY TERMS"
     ],
@@ -4425,8 +4331,7 @@
       "USED IN"
     ],
     "03148_heihoumeetoru": [
-      "JAPANESE AREA MEASUREMENTS",
-      "RELATED UNITS"
+      "JAPANESE AREA MEASUREMENTS"
     ],
     "03150_bengoshi": [
       "RELATED LEGAL PROFESSIONS"
@@ -5364,7 +5269,6 @@
       "SCIENTIFIC CONTEXT"
     ],
     "04152_kokuou": [
-      "IMPORTANT DISTINCTION",
       "ROYAL FAMILY TERMS"
     ],
     "04155_kondate": [
@@ -5406,12 +5310,6 @@
     "04185_goudou": [
       "SENSE 1 - JOINT/COMBINED",
       "SENSE 2 - CONGRUENCE (MATH)"
-    ],
-    "04186_sakusei": [
-      "HOMOPHONE DISTINCTION"
-    ],
-    "04187_sakusei": [
-      "HOMOPHONE DISTINCTION"
     ],
     "04192_shijuu": [
       "SIMILAR WORDS (adverb meaning)",
@@ -5840,9 +5738,6 @@
       "GOVERNMENT",
       "OTHER"
     ],
-    "04673_shokkiaraiki": [
-      "ALTERNATIVE NAMES"
-    ],
     "04675_toosutaa": [
       "TYPES IN JAPAN"
     ],
@@ -5867,12 +5762,6 @@
     ],
     "04683_taitsu": [
       "COMPARISON WITH ストッキング"
-    ],
-    "04684_iyaringu": [
-      "IMPORTANT DISTINCTION"
-    ],
-    "04685_piasu": [
-      "IMPORTANT DISTINCTION"
     ],
     "04691_rirekisho": [
       "JAPANESE RESUME FORMAT"
@@ -6022,8 +5911,7 @@
       "VERBAL NOUN"
     ],
     "04776_hensai": [
-      "RELATED FINANCIAL TERMS",
-      "VERBAL USE"
+      "RELATED FINANCIAL TERMS"
     ],
     "04780_baishuu": [
       "MEANING 1 - ACQUISITION",
@@ -6089,17 +5977,13 @@
     "04823_juuyousei": [
       "CONTRAST WITH {重要|じゅうよう}"
     ],
-    "04824_musutto": [
-      "VERBAL USE"
-    ],
     "04825_tayousei": [
       "RELATED LOANWORD"
     ],
     "04826_puripuri": [
       "PART OF SPEECH",
       "SENSE 1 - HUFFY/ANNOYED",
-      "SENSE 2 - PLUMP/FIRM TEXTURE",
-      "SIMILAR ONOMATOPOEIA"
+      "SENSE 2 - PLUMP/FIRM TEXTURE"
     ],
     "04835_pasapasa": [
       "COMMONLY DESCRIBES"
@@ -6440,7 +6324,6 @@
       "LITERAL SENSE"
     ],
     "05129_shakkuri": [
-      "ALTERNATE FORMS",
       "FOLK REMEDIES"
     ],
     "05130_kuwagata": [
@@ -6528,12 +6411,8 @@
     "05197_raion": [
       "KANJI EQUIVALENT"
     ],
-    "05201_ahiru": [
-      "ONOMATOPOEIA"
-    ],
     "05202_niwatori": [
       "AS FOOD ({鶏|とり})",
-      "ONOMATOPOEIA",
       "SPECIFIC TERMS"
     ],
     "05203_yagi": [
@@ -6612,9 +6491,6 @@
     "05245_seisouken": [
       "ATMOSPHERIC LAYERS (low to high)",
       "KEY FACTS"
-    ],
-    "05247_myaku": [
-      "MEDICAL TERMS"
     ],
     "05251_adaputaa": [
       "TRAVEL NOTE"
@@ -6715,7 +6591,6 @@
       "TRAIN USAGE"
     ],
     "05298_joushaken": [
-      "IMPORTANT DISTINCTION",
       "MODERN ALTERNATIVES",
       "TICKET TYPES"
     ],
@@ -6807,8 +6682,7 @@
     ],
     "05356_patto": [
       "SENSE 1 - SUDDENLY",
-      "SENSE 2 - BRIGHTLY",
-      "SIMILAR ONOMATOPOEIA"
+      "SENSE 2 - BRIGHTLY"
     ],
     "05364_butsubutsu": [
       "COMMON PATTERNS (bumps)",
@@ -6817,9 +6691,6 @@
     ],
     "05366_bishobisho": [
       "DEGREES OF WETNESS"
-    ],
-    "05369_orooro": [
-      "SIMILAR ONOMATOPOEIA"
     ],
     "05372_chikuchiku": [
       "PHYSICAL SENSATIONS",
@@ -6877,9 +6748,6 @@
       "CONTRAST WITH クリック",
       "RELATED TOUCH ACTIONS"
     ],
-    "05396_sabusuku": [
-      "FULL FORM"
-    ],
     "05401_ichijiteishi": [
       "MEDIA CONTROLS",
       "TRAFFIC"
@@ -6922,9 +6790,6 @@
     ],
     "05421_furikomi": [
       "TRANSFER METHODS"
-    ],
-    "05425_mayonaka": [
-      "RELATED TIME EXPRESSIONS"
     ],
     "05426_shimi": [
       "COMMON PATTERNS (fabric)",
@@ -7025,9 +6890,6 @@
     "05480_monosashi": [
       "LITERAL USE"
     ],
-    "05481_dentaku": [
-      "FULL FORM"
-    ],
     "05483_bouenkyou": [
       "RELATED OPTICAL INSTRUMENTS",
       "TYPES OF TELESCOPES"
@@ -7101,8 +6963,7 @@
       "SENSE 2 - STRAP/BAND"
     ],
     "05509_ibiki": [
-      "HEALTH NOTE",
-      "ONOMATOPOEIA"
+      "HEALTH NOTE"
     ],
     "05510_negaeri": [
       "FIGURATIVE MEANING",
@@ -7214,9 +7075,6 @@
     "05596_bundoki": [
       "RELATED GEOMETRY TOOLS"
     ],
-    "05597_mushimegane": [
-      "ALTERNATE TERMS"
-    ],
     "05602_webu": [
       "ALTERNATE"
     ],
@@ -7248,9 +7106,6 @@
     ],
     "05620_itaku": [
       "BUSINESS USES"
-    ],
-    "05626_zantei": [
-      "GRAMMATICAL FORMS"
     ],
     "05633_tanabata": [
       "REGIONAL VARIATION",
@@ -7401,9 +7256,6 @@
       "BIAS/PARTIALITY",
       "IMBALANCE/UNEVENNESS"
     ],
-    "05775_mogumogu": [
-      "SIMILAR ONOMATOPOEIA"
-    ],
     "05783_suyasuya": [
       "TYPICAL SUBJECTS"
     ],
@@ -7412,8 +7264,7 @@
     ],
     "05786_nukunuku": [
       "SENSE 1 - PHYSICAL WARMTH",
-      "SENSE 2 - SHELTERED LIFE (often negative)",
-      "VERBAL USE"
+      "SENSE 2 - SHELTERED LIFE (often negative)"
     ],
     "05790_jieitai": [
       "BRANCHES"
@@ -7461,13 +7312,9 @@
     "05833_konkatsu": [
       "RELATED 〜{活|かつ} WORDS"
     ],
-    "05836_hinyari": [
-      "ONOMATOPOEIA"
-    ],
     "05837_shittori": [
       "COMMON CONTEXTS (ATMOSPHERE)",
-      "COMMON CONTEXTS (MOISTURE)",
-      "ONOMATOPOEIA"
+      "COMMON CONTEXTS (MOISTURE)"
     ],
     "05838_tekuteku": [
       "CONTRAST WITH OTHER WALKING WORDS"
@@ -7713,18 +7560,15 @@
     ],
     "05960_suizou": [
       "LOCATION",
-      "MEDICAL TERMS",
       "RELATED ORGANS"
     ],
     "05961_hizou": [
       "INTERESTING FACT",
       "LOCATION",
-      "MEDICAL TERMS",
       "RELATED ORGANS"
     ],
     "05962_rokkotsu": [
-      "ANATOMY",
-      "MEDICAL TERMS"
+      "ANATOMY"
     ],
     "05963_kotsuban": [
       "ANATOMY",
@@ -7733,8 +7577,7 @@
       "HEALTH CONTEXT"
     ],
     "05964_nankotsu": [
-      "AS FOOD",
-      "MEDICAL TERMS"
+      "AS FOOD"
     ],
     "05965_kikyaku": [
       "DIFFERENCE FROM {却下|きゃっか}"
@@ -7774,16 +7617,13 @@
       "INSURANCE"
     ],
     "05976_shohou": [
-      "JAPANESE HEALTHCARE",
-      "MEDICAL TERMS"
+      "JAPANESE HEALTHCARE"
     ],
     "05977_kansen": [
-      "MEDICAL TERMS",
       "PREVENTION"
     ],
     "05978_enshou": [
-      "FIVE SIGNS OF INFLAMMATION",
-      "MEDICAL TERMS"
+      "FIVE SIGNS OF INFLAMMATION"
     ],
     "05979_kenkoushindan": [
       "JAPANESE HEALTHCARE SYSTEM",
@@ -7811,9 +7651,6 @@
     "05986_gasagasa": [
       "SOUND MEANING",
       "TEXTURE MEANING"
-    ],
-    "05991_pechapecha": [
-      "SIMILAR ONOMATOPOEIA"
     ],
     "05992_patapata": [
       "SENSE 1 (flapping)",
@@ -7843,8 +7680,7 @@
       "MEDICAL CONTEXT"
     ],
     "06010_kotsuzui": [
-      "IDIOMATIC USE",
-      "MEDICAL TERMS"
+      "IDIOMATIC USE"
     ],
     "06011_kokyuuki": [
       "RELATED BODY SYSTEMS"
@@ -8557,9 +8393,6 @@
       "GEOGRAPHICAL USAGE",
       "RELATED CLOTHING PARTS"
     ],
-    "06490_getabako": [
-      "ALTERNATIVE NAMES"
-    ],
     "06491_kashitsuki": [
       "RELATED APPLIANCES",
       "TYPES OF HUMIDIFIERS"
@@ -8602,7 +8435,6 @@
       "TYPES OF ペンギン"
     ],
     "06503_nejimawashi": [
-      "ALTERNATE TERMS",
       "TYPES OF ねじ{回|まわ}し"
     ],
     "06504_baree": [
@@ -8775,7 +8607,6 @@
       "KANJI WRITING"
     ],
     "06550_winkaa": [
-      "ALTERNATE TERMS",
       "RELATED VEHICLE PARTS"
     ],
     "06551_dasshuboodo": [
@@ -8784,7 +8615,6 @@
       "NOTE ON SAFETY"
     ],
     "06552_saidomiraa": [
-      "ALTERNATE TERMS",
       "MIRROR FEATURES",
       "RELATED MIRRORS"
     ],
@@ -8985,7 +8815,6 @@
     ],
     "06608_waahori": [
       "AGE REQUIREMENT",
-      "FULL FORM",
       "POPULAR DESTINATIONS FOR JAPANESE"
     ],
     "06609_deiri": [
@@ -9541,9 +9370,6 @@
     "07062_shugei": [
       "WHAT IT COVERS"
     ],
-    "07065_junyuushitsu": [
-      "ALTERNATE TERMS"
-    ],
     "07066_tenmado": [
       "BENEFITS",
       "RELATED WINDOW TYPES"
@@ -9554,11 +9380,7 @@
     "07068_dakkyuu": [
       "RELATED MEDICAL TERMS"
     ],
-    "07069_keikoupen": [
-      "ALTERNATE TERMS"
-    ],
     "07071_kamiyasuri": [
-      "ALTERNATE TERMS",
       "GRIT TYPES",
       "RELATED TOOLS"
     ],
@@ -9696,13 +9518,11 @@
       "WHEN NOT TO USE"
     ],
     "07134_terekusai": [
-      "COMMON SITUATIONS",
-      "GRAMMATICAL FORMS"
+      "COMMON SITUATIONS"
     ],
     "07135_kihazukashii": [
       "COMMON SITUATIONS",
-      "DIFFERENCE FROM SIMILAR WORDS",
-      "GRAMMATICAL FORMS"
+      "DIFFERENCE FROM SIMILAR WORDS"
     ],
     "07136_setsuden": [
       "COMMON MEASURES"
@@ -9995,8 +9815,7 @@
       "DERIVED FROM"
     ],
     "07434_mushamusha": [
-      "ONOMATOPOEIA TYPE",
-      "SIMILAR ONOMATOPOEIA"
+      "ONOMATOPOEIA TYPE"
     ],
     "07436_taishite": [
       "KANJI FORM"
@@ -10005,7 +9824,6 @@
       "IDIOM ORIGIN"
     ],
     "07438_tewoyaku": [
-      "COMMON SUBJECTS",
       "IDIOM ORIGIN"
     ],
     "07439_atamawokakaeru": [
@@ -10266,11 +10084,9 @@
       "MIMETIC ORIGIN"
     ],
     "07514_kyorokyoro": [
-      "GRAMMATICAL FORMS",
       "MIMETIC TYPE"
     ],
     "07515_motamota": [
-      "GRAMMATICAL FORMS",
       "MIMETIC TYPE"
     ],
     "07516_sosokusa": [
@@ -10292,7 +10108,6 @@
       "OTHER CONTEXTS"
     ],
     "07527_magomago": [
-      "GRAMMATICAL FORMS",
       "MIMETIC TYPE"
     ],
     "07528_honma": [
@@ -10384,7 +10199,6 @@
       "TECH CONTEXT"
     ],
     "07553_mobairubatterii": [
-      "ALTERNATIVE NAMES",
       "SPECIFICATIONS VOCABULARY"
     ],
     "07554_shishitsu": [
@@ -10510,9 +10324,6 @@
       "SENSE 2 (Figurative - Disappearance)",
       "SIMILAR PHYSICAL PROCESSES"
     ],
-    "07652_hottosuru": [
-      "ONOMATOPOEIA"
-    ],
     "07655_jouchou": [
       "TECHNICAL USE"
     ],
@@ -10528,20 +10339,11 @@
     "07665_tsukaisute": [
       "ENVIRONMENTAL CONTEXT"
     ],
-    "07673_tadotadoshii": [
-      "ONOMATOPOEIA"
-    ],
-    "07677_kirameku": [
-      "ONOMATOPOEIA"
-    ],
     "07680_doshaburi": [
       "INTENSITY SCALE (rain)"
     ],
     "07681_anshoubangou": [
       "SECURITY NOTE"
-    ],
-    "07682_yuugure": [
-      "RELATED TIME EXPRESSIONS"
     ],
     "07684_kirisame": [
       "RAIN VOCABULARY (light → heavy)"
@@ -10859,7 +10661,6 @@
       "LITERAL VS FIGURATIVE"
     ],
     "07875_mekureru": [
-      "COMMON SUBJECTS",
       "KANJI WRITING",
       "TRANSITIVE PAIR"
     ],
@@ -10947,9 +10748,6 @@
       "POLITICAL CONTEXT",
       "SENSE 1 VS SENSE 2"
     ],
-    "07918_kasabaru": [
-      "COMMON SUBJECTS"
-    ],
     "07919_shitazawari": [
       "COMMON DESCRIPTIONS",
       "COMMON WITH"
@@ -11030,7 +10828,6 @@
       "SENSE 2 (HABITUAL)"
     ],
     "07948_kouyadoufu": [
-      "ALTERNATIVE NAMES",
       "BENEFITS",
       "HOW IT'S MADE",
       "NAME ORIGIN",
@@ -11105,9 +10902,6 @@
     "07975_kikikomu": [
       "DERIVED NOUN"
     ],
-    "07976_furisosogu": [
-      "COMMON SUBJECTS"
-    ],
     "07977_tsumitate": [
       "FINANCIAL CONTEXT",
       "{積立|つみたて}NISA"
@@ -11128,9 +10922,6 @@
     "07997_fuhai": [
       "SENSE 1 (Physical decay)",
       "SENSE 2 (Corruption)"
-    ],
-    "08000_donka": [
-      "COMMON SUBJECTS"
     ],
     "08005_juutou": [
       "BUSINESS/LEGAL CONTEXT"
@@ -11284,9 +11075,6 @@
     "08081_susumekata": [
       "RELATED {〜方|かた} WORDS"
     ],
-    "08082_taishuuka": [
-      "VERBAL USE"
-    ],
     "08085_nomigotae": [
       "RELATED 〜ごたえ WORDS"
     ],
@@ -11391,7 +11179,6 @@
       "MATERIAL"
     ],
     "08134_sukuiami": [
-      "ALTERNATIVE NAMES",
       "KITCHEN USE",
       "RELATED TOOLS"
     ],
@@ -11424,7 +11211,6 @@
       "MUSIC SENSE"
     ],
     "08149_kontorabasu": [
-      "ALTERNATIVE NAMES",
       "RELATED INSTRUMENTS"
     ],
     "08154_kewashii": [
@@ -11619,7 +11405,6 @@
       "COMMON ANNOUNCEMENT PHRASES"
     ],
     "08476_chienshoumei": [
-      "FULL FORM",
       "HOW TO GET"
     ],
     "08477_saabisuzangyou": [
@@ -11752,8 +11537,7 @@
       "RELATED ～{力|りょく} COMPOUNDS"
     ],
     "08723_mibunshoumei": [
-      "COMMON FORMS OF ID IN JAPAN",
-      "FULL FORM"
+      "COMMON FORMS OF ID IN JAPAN"
     ],
     "08727_hyakka": [
       "NOTABLE ENCYCLOPEDIAS"
@@ -12004,9 +11788,6 @@
     "08886_esuefu": [
       "JAPANESE SF"
     ],
-    "08887_hitoban": [
-      "RELATED TIME EXPRESSIONS"
-    ],
     "08888_ippon": [
       "COMPOUND EXPRESSIONS (Sense 3)",
       "COUNTER USAGE (Sense 1)",
@@ -12096,7 +11877,6 @@
       "MEASUREMENT"
     ],
     "08969_piiee": [
-      "ALTERNATIVE NAMES",
       "RELATED SOCCER TERMS"
     ],
     "08970_eeshii": [
@@ -12128,7 +11908,6 @@
       "RELATED CONDITIONS"
     ],
     "08983_waiyaresujuuden": [
-      "ALTERNATIVE NAMES",
       "COMMON TERMS"
     ],
     "08984_kitteshuushuu": [
@@ -12200,9 +11979,6 @@
     "09183_yabottai": [
       "ADJECTIVE FORMS"
     ],
-    "09210_seizen": [
-      "GRAMMATICAL FORMS"
-    ],
     "09261_ukiwa": [
       "RELATED SWIMMING ITEMS"
     ],
@@ -12266,9 +12042,6 @@
     ],
     "09345_tadoritsuku": [
       "DIFFERENCE FROM {着|つ}く"
-    ],
-    "09346_ikizumaru": [
-      "COMMON SUBJECTS"
     ],
     "09410_mizo": [
       "FIGURATIVE MEANING",
@@ -12462,9 +12235,6 @@
     ],
     "09733_kuriininguten": [
       "COMMON SERVICES"
-    ],
-    "09735_kutsubako": [
-      "ALTERNATE TERMS"
     ],
     "09738_juudengire": [
       "PREVENTION"
@@ -13008,7 +12778,6 @@
       "COMMON PAIRS"
     ],
     "10419_keiyoushi": [
-      "IMPORTANT DISTINCTION",
       "RELATED GRAMMAR TERMS"
     ],
     "10420_meishi": [
@@ -13364,9 +13133,6 @@
     "11087_choueki": [
       "NOTE ON SENTENCING"
     ],
-    "11089_kouseibusshitsu": [
-      "IMPORTANT DISTINCTION"
-    ],
     "11091_toushitsu": [
       "NUTRITION LABEL NOTE",
       "RELATED NUTRITION TERMS"
@@ -13674,8 +13440,7 @@
       "USAGE BY SENSE"
     ],
     "11910_zenshin": [
-      "EXAMPLE",
-      "IMPORTANT DISTINCTION"
+      "EXAMPLE"
     ],
     "11924_koukaon": [
       "DOMAINS"
@@ -14270,9 +14035,6 @@
     "15142_honninkakunin": [
       "ACCEPTED DOCUMENTS"
     ],
-    "15144_tsukihajime": [
-      "RELATED TIME EXPRESSIONS"
-    ],
     "15146_taishaku": [
       "ACCOUNTING"
     ],
@@ -14519,17 +14281,11 @@
       "DEMONSTRATIVE SET",
       "POLITENESS SCALE"
     ],
-    "16620_zenzengetsu": [
-      "RELATED TIME EXPRESSIONS"
-    ],
     "16629_shotoukyouiku": [
       "JAPANESE EDUCATION LEVELS"
     ],
     "16632_jidousho": [
       "FOR LEARNERS"
-    ],
-    "16639_kakugee": [
-      "FULL FORM"
     ],
     "16640_gakuseki": [
       "STATUS TYPES"
@@ -14629,9 +14385,6 @@
     "16894_fukurahagi": [
       "HEALTH NOTE"
     ],
-    "16932_haraharasuru": [
-      "ONOMATOPOEIA"
-    ],
     "16990_joukentsuki": [
       "THE 〜{付|つ}き PATTERN"
     ],
@@ -14665,9 +14418,6 @@
     ],
     "17203_ichigakki": [
       "JAPANESE SCHOOL TERMS"
-    ],
-    "17204_reiji": [
-      "RELATED TIME EXPRESSIONS"
     ],
     "17223_torihikijo": [
       "NOTABLE EXAMPLES"
@@ -14922,11 +14672,7 @@
       "CONTRAST WITH だめだ"
     ],
     "17649_onakasuita": [
-      "FULL FORM",
       "RELATED BODY-STATE EXPRESSIONS"
-    ],
-    "17650_nodokawaita": [
-      "FULL FORM"
     ],
     "17651_nanikore": [
       "TONE VARIATIONS"
@@ -15008,9 +14754,6 @@
     "17815_boukenshin": [
       "RELATED PATTERN"
     ],
-    "17817_mouiwofuruu": [
-      "COMMON SUBJECTS"
-    ],
     "17821_tojimari": [
       "NOTE ON SPELLING"
     ],
@@ -15086,9 +14829,6 @@
     "18107_kokusairengou": [
       "RELATED ORGANIZATIONS"
     ],
-    "18113_anpori": [
-      "FULL FORM"
-    ],
     "18116_kanreizensen": [
       "RELATED WEATHER TERMS"
     ],
@@ -15097,9 +14837,6 @@
     ],
     "18131_nikushokudoubutsu": [
       "ANIMAL CLASSIFICATION SET"
-    ],
-    "18139_furaigaeshi": [
-      "ALTERNATIVE NAMES"
     ],
     "18147_kisaimore": [
       "RELATED ～{漏|も}れ COMPOUNDS"
@@ -15130,7 +14867,6 @@
       "CONTRAST WITH {美人|びじん}"
     ],
     "18341_fukudokuhon": [
-      "COMMON SUBJECTS",
       "KEY DIFFERENCE FROM {教科書|きょうかしょ}"
     ],
     "18356_yukamen": [
@@ -15140,7 +14876,6 @@
       "RANK HIERARCHY ({佐|さ} tier)"
     ],
     "18360_kasokuki": [
-      "FULL FORM",
       "JAPAN CONTEXT"
     ],
     "18362_kyuushi": [
@@ -15455,7 +15190,6 @@
       "SIMILAR 〜{遊|あそ}び COMPOUNDS"
     ],
     "18965_jidoukaisatsu": [
-      "FULL FORM",
       "HOW IT WORKS"
     ],
     "18966_genzairyou": [
@@ -16009,9 +15743,6 @@
     "20801_hinanshiji": [
       "EVACUATION ALERT LEVELS (from lowest to highest)"
     ],
-    "20816_gosogososuru": [
-      "SIMILAR ONOMATOPOEIA"
-    ],
     "20818_gokurousamadesu": [
       "COMMON VARIATIONS",
       "USAGE RULES"
@@ -16021,9 +15752,6 @@
     ],
     "20823_sekkekkyuu": [
       "RELATED BLOOD CELL TYPES"
-    ],
-    "20828_kyuutto": [
-      "SIMILAR ONOMATOPOEIA"
     ],
     "20831_aojiso": [
       "COMMON USES IN COOKING",
@@ -16250,15 +15978,6 @@
     "21613_koukuugaisha": [
       "MAJOR JAPANESE AIRLINES"
     ],
-    "21615_suushuukan": [
-      "RELATED TIME EXPRESSIONS"
-    ],
-    "21622_suujikan": [
-      "RELATED TIME EXPRESSIONS"
-    ],
-    "21623_suufun": [
-      "RELATED TIME EXPRESSIONS"
-    ],
     "21632_bikubikusuru": [
       "RELATED WORD びくっとする"
     ],
@@ -16334,9 +16053,6 @@
     ],
     "22026_kanshouyou": [
       "NOTE ON KANJI"
-    ],
-    "22066_seikeigeka": [
-      "IMPORTANT DISTINCTION"
     ],
     "22069_mizubukure": [
       "CAUSES"
@@ -16611,14 +16327,8 @@
     "23313_hatarakikatakaikaku": [
       "KEY GOALS"
     ],
-    "23339_saikensa": [
-      "VERBAL USE"
-    ],
     "23340_mafuyubi": [
       "TEMPERATURE DAY TERMS (Japan Meteorological Agency)"
-    ],
-    "23343_kagikoukan": [
-      "VERBAL USE"
     ],
     "23344_anarogudokei": [
       "COMPOUND READING"
@@ -17081,7 +16791,6 @@
       "COOKING TIPS"
     ],
     "24843_momokaiwai": [
-      "ALTERNATIVE NAMES",
       "RELATED CELEBRATIONS",
       "THE お{食|く}い{初|ぞ}め CEREMONY"
     ],
@@ -17305,13 +17014,6 @@
     ],
     "26078_ichiwari": [
       "THE {割|わり} SYSTEM"
-    ],
-    "26080_ponpon": [
-      "SIMILAR ONOMATOPOEIA"
-    ],
-    "26081_pukupuku": [
-      "GRAMMATICAL FORMS",
-      "SIMILAR ONOMATOPOEIA"
     ],
     "26082_jikangakakaru": [
       "SPECIFIC DURATIONS"
@@ -17855,9 +17557,6 @@
     "27655_chaku": [
       "USED FOR"
     ],
-    "27693_miriguramu": [
-      "RELATED UNITS"
-    ],
     "27745_sessokudoubutsu": [
       "INCLUDES"
     ],
@@ -18069,12 +17768,6 @@
     ],
     "28667_ossha": [
       "SIMILAR INTERJECTIONS"
-    ],
-    "28699_terabaito": [
-      "RELATED UNITS"
-    ],
-    "28700_miririttoru": [
-      "RELATED UNITS"
     ],
     "28701_henondoubutsu": [
       "SIMILAR / CONTRASTING WORDS"
