@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-04 (Routine v3: new-entries — 20 New Entries, IDs 31533–31552)
+
+Twenty words that older entries already used: 抑うつ, 財務省, 院内感染, 機能障害, 動脈瘤, 静脈瘤, 四角四面, フレイル,
+闇バイト, うな重, うな丼, ひつまぶし, 白焼き, 戻りガツオ, 表装, 文房四宝, されど, 追い抜き, 共同浴場, 新快速. No new
+kanji. The harvester added back-links in 15 neighbours. Two stale candidates removed (許しがたい and そうはいっても
+duplicate 許し難い and そうは言っても). Self-check skipped (daily OpenRouter budget spent); ひつまぶし awaits kana screening.
+
 ### 2026-10-04 (Routine v3: new-entries — 14 New Entries, IDs 31519–31532)
 
 Fourteen words that older entries already used: 軍勢, 疼痛, 着水, 巡航, 配当金, 提供者, 銃弾, 論理学, 無礼者, 前年比,
@@ -74,10 +81,4 @@ Twenty words that older entries already used: 排出量, 追随, 内出血, 歯�
 雌鶏, 研修生, 巻き毛, 資本家, 二乗, 勾配, 元値, 考え事, 名優, 発言権, 本命. No new kanji. The linker connected them in
 the entries where they were first seen. Candidate 浸食 dropped (variant spelling of 侵食 10927). Self-check: clean;
 one kana link retargeted (なさい).
-
-### 2026-10-03 (Routine v3: new-entries — 20 New Entries, IDs 31467–31486)
-
-Twenty words that older entries already used: 冷や水, 違える, 吾輩, 呼び起こす, 再三再四, 取らぬ狸の皮算用,
-爪弾く, 托鉢, 更ける, 身につく, 括り付ける, 無用, 受給, 信託, 非現実的, 最大化, 法人税, 敵地, 言い訳がましい,
-深海魚. One new kanji (吾, 02819). Self-check: 1 applied (所得税 tag), 1 rejected.
 
