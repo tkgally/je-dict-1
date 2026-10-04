@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{栽培|さいばい}する means to cultivate or grow plants.\n\nCOMMON COLLOCATIONS:\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧{栽培|さいばい}する: to grow vegetables\n- ⟦{米|こめ}→米：01323_kome⟧⟦を→を：00422_wo⟧{栽培|さいばい}する: to cultivate rice\n- ⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧{栽培|さいばい}する: to grow flowers\n\nCOMPOUNDS:\n- {有機栽培|ゆうきさいばい}: organic cultivation\n- ⟦{水耕栽培|すいこうさいばい}→水耕栽培：23270_suikousaibai⟧: hydroponic cultivation\n- {栽培農家|さいばいのうか}: cultivating farmer\n- {栽培品種|さいばいひんしゅ}: cultivated variety\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: 〜⟦を→を：00422_wo⟧{栽培|さいばい}する",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧{栽培|さいばい}する: to grow vegetables\n- ⟦{米|こめ}→米：01323_kome⟧⟦を→を：00422_wo⟧{栽培|さいばい}する: to cultivate rice\n- ⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧{栽培|さいばい}する: to grow flowers\n\nCOMPOUNDS:\n- {有機栽培|ゆうきさいばい}: organic cultivation\n- ⟦{水耕栽培|すいこうさいばい}→水耕栽培：23270_suikousaibai⟧: hydroponic cultivation\n- {栽培品種|さいばいひんしゅ}: cultivated variety\n\nSIMILAR WORDS:\n- ⟦{育|そだ}てる→育てる：01235_sodateru⟧ - the everyday verb, used for plants, animals and children alike. {栽培|さいばい}する is only for plants, and sounds like farming or systematic growing; for a few tomatoes on the balcony, ⟦{育|そだ}てる→育てる：01235_sodateru⟧ is more natural.\n- ⟦{飼育|しいく}する→飼育する：22505_shiikusuru⟧ - the corresponding word for raising animals.\n\nTRANSITIVITY:\nTransitive: 〜⟦を→を：00422_wo⟧{栽培|さいばい}する. The passive 〜⟦が→が：00051_ga⟧{栽培|さいばい}されて⟦いる→いる：00495_iru⟧ is common for what a region grows.",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,18 @@
       "reading": "しゅうかく",
       "headword": "{収穫|しゅうかく}",
       "label": "harvest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22505_shiikusuru",
+      "reading": "しいくする",
+      "headword": "{飼育|しいく}する",
+      "label": "the corresponding word for raising…"
     }
   ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-09-02T04:01:19Z",
+    "modified": "2026-10-04T18:21:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -164,7 +171,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "plant-general",
+        "work"
       ],
       "verb_class": "suru"
     }
