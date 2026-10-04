@@ -53,11 +53,40 @@
       "notes": null
     }
   ],
-  "notes": "{串揚|くしあ}げ is a popular Japanese fried food.\n\nETYMOLOGY:\nOriginated in Osaka and is a specialty of the Shinsekai district.\n\nALSO CALLED:\n⟦{串|くし}カツ→串カツ：11354_kushikatsu⟧ (kushikatsu) - more common in Osaka\n\nSERVING STYLE:\nTypically served with a communal pot of sauce. The rule {二度漬|にどづ}け⟦{禁止|きんし}→禁止：02643_kinshi⟧ (no double-dipping) is strictly followed for hygiene.\n\nCOMMON INGREDIENTS:\n- ⟦{肉|にく}→肉：02240_niku⟧: meat (pork, beef)\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧: vegetables (onion, lotus root)\n- ⟦{海鮮|かいせん}→海鮮：05881_kaisen⟧: seafood (shrimp, squid)\n- ⟦{卵|たまご}→卵：02222_tamago⟧: quail eggs",
-  "cross_references": [],
+  "notes": "{串揚|くしあ}げ is a popular Japanese fried food.\n\nETYMOLOGY:\nOriginated in Osaka and is a specialty of the Shinsekai district.\n\nALSO CALLED:\n⟦{串|くし}カツ→串カツ：11354_kushikatsu⟧ (kushikatsu) - more common in Osaka\n\nSERVING STYLE:\nTypically served with a communal pot of sauce. The rule {二度漬|にどづ}け⟦{禁止|きんし}→禁止：02643_kinshi⟧ (no double-dipping) is strictly followed for hygiene.\n\nRELATED WORDS:\n- ⟦{肉|にく}→肉：02240_niku⟧: meat (pork, beef)\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧: vegetables (onion, lotus root)\n- ⟦{海鮮|かいせん}→海鮮：05881_kaisen⟧: seafood (shrimp, squid)\n- ⟦{卵|たまご}→卵：02222_tamago⟧: quail eggs",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02240_niku",
+      "reading": "にく",
+      "headword": "{肉|にく}",
+      "label": "meat"
+    },
+    {
+      "type": "related",
+      "target_id": "02265_yasai",
+      "reading": "やさい",
+      "headword": "{野菜|やさい}",
+      "label": "vegetables"
+    },
+    {
+      "type": "related",
+      "target_id": "05881_kaisen",
+      "reading": "かいせん",
+      "headword": "{海鮮|かいせん}",
+      "label": "seafood"
+    },
+    {
+      "type": "related",
+      "target_id": "02222_tamago",
+      "reading": "たまご",
+      "headword": "{卵|たまご}",
+      "label": "quail eggs"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-09-02T04:01:19Z",
+    "modified": "2026-10-04T14:09:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-04T13:29:37Z",
+  "generated": "2026-10-04T14:09:05Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE",
@@ -570,9 +570,6 @@
     ],
     "00583_ame": [
       "TYPES OF RAIN"
-    ],
-    "00588_kuroi": [
-      "RELATED COLORS"
     ],
     "00590_tsumaranai": [
       "CULTURAL EXPRESSION"
@@ -2109,7 +2106,6 @@
       "LEARNING CYCLE"
     ],
     "01720_futon": [
-      "COMMON VERBS",
       "TYPES OF FUTON"
     ],
     "01728_isshou": [
@@ -2132,9 +2128,6 @@
     "01740_yu": [
       "BATH/HOT SPRING SENSE",
       "HOT WATER SENSE"
-    ],
-    "01744_yubiwa": [
-      "COMMON VERBS"
     ],
     "01748_yoshuu": [
       "LEARNING CYCLE"
@@ -2196,7 +2189,6 @@
       "AS PRONOUN (which/either)"
     ],
     "01791_purezento": [
-      "COMMON VERBS",
       "OCCASIONS"
     ],
     "01793_ippai": [
@@ -2763,7 +2755,6 @@
       "READINGS IN COMPOUNDS"
     ],
     "02187_kawa": [
-      "COMMON VERBS",
       "COMPARE SIMILAR WORDS"
     ],
     "02191_kage": [
@@ -3879,7 +3870,6 @@
       "FORMALITY SCALE (most to least formal)"
     ],
     "02894_osara": [
-      "COMMON VERBS",
       "RELATED TABLEWARE",
       "TYPES OF DISHES"
     ],
@@ -3987,9 +3977,6 @@
     ],
     "02942_jibiki": [
       "MODERN ALTERNATIVES"
-    ],
-    "02943_soushite": [
-      "COMPARISON WITH SIMILAR WORDS"
     ],
     "02944_soredeha": [
       "こそあど SERIES"
@@ -4140,9 +4127,6 @@
     "03041_iyagaru": [
       "GRAMMAR POINT"
     ],
-    "03046_kawazoi": [
-      "SIMILAR COMPOUNDS"
-    ],
     "03050_kibousha": [
       "RELATED ～{者|しゃ} COMPOUNDS"
     ],
@@ -4213,9 +4197,6 @@
     ],
     "03102_teshimau": [
       "CONTRACTED FORMS (casual speech)"
-    ],
-    "03103_nitsuite": [
-      "COMMON VERBS"
     ],
     "03104_niyoruto": [
       "COMMON SOURCES",
@@ -4838,9 +4819,6 @@
     "03884_keta": [
       "NUMBER VOCABULARY"
     ],
-    "03885_kon": [
-      "RELATED COLORS"
-    ],
     "03887_sabi": [
       "TYPES OF RUST"
     ],
@@ -5295,9 +5273,6 @@
     "04302_suibun": [
       "HEALTH NOTE"
     ],
-    "04303_haiiro": [
-      "RELATED COLORS"
-    ],
     "04312_hatsuden": [
       "TYPES OF POWER GENERATION"
     ],
@@ -5641,9 +5616,6 @@
     ],
     "04679_shinku": [
       "MATERIALS"
-    ],
-    "04680_irui": [
-      "COMPARISON WITH SIMILAR WORDS"
     ],
     "04681_besuto": [
       "1. CLOTHING (from English 'vest')",
@@ -6144,12 +6116,6 @@
     "05060_puroguramaa": [
       "JAPANESE WORK CULTURE",
       "RELATED IT VOCABULARY"
-    ],
-    "05067_kiniro": [
-      "RELATED COLORS"
-    ],
-    "05068_giniro": [
-      "RELATED COLORS"
     ],
     "05073_gareeji": [
       "CONTRAST WITH SIMILAR TERMS"
@@ -8221,7 +8187,6 @@
       "TYPES OF UNDERGROUND PASSAGES"
     ],
     "06496_shohousen": [
-      "COMMON VERBS",
       "JAPANESE HEALTHCARE SYSTEM",
       "KEY TERMS"
     ],
@@ -8806,7 +8771,6 @@
       "NEUTRAL, NOT PRAISE"
     ],
     "06744_houkokusho": [
-      "COMMON VERBS",
       "TYPES OF REPORTS"
     ],
     "06749_chien": [
@@ -9701,29 +9665,24 @@
       "SIMILAR ～{際|ぎわ} COMPOUNDS"
     ],
     "07472_mijingiri": [
-      "COMMON INGREDIENTS",
       "CUTTING TECHNIQUE",
       "RELATED CUTTING TERMS"
     ],
     "07473_sengiri": [
       "CLASSIC COMBINATION",
-      "COMMON INGREDIENTS",
       "CUTTING TECHNIQUE",
       "RELATED CUTTING TERMS"
     ],
     "07474_wagiri": [
-      "COMMON INGREDIENTS",
       "CUTTING TECHNIQUE",
       "RELATED CUTTING TERMS",
       "THICKNESS VARIATIONS"
     ],
     "07475_usugiri": [
-      "COMMON INGREDIENTS",
       "CUTTING TECHNIQUE",
       "MEAT TERMINOLOGY"
     ],
     "07476_atsugiri": [
-      "COMMON INGREDIENTS",
       "CUTTING TECHNIQUE",
       "MARKET TERMINOLOGY"
     ],
@@ -10729,9 +10688,6 @@
       "DISPOSAL PROCESS",
       "EXAMPLES OF BULKY WASTE"
     ],
-    "08050_ayafuya": [
-      "COMPARISON WITH SIMILAR WORDS"
-    ],
     "08053_sassuru": [
       "CULTURAL IMPORTANCE",
       "FORMAL EXPRESSION"
@@ -10785,7 +10741,6 @@
       "RELATED PROPERTIES"
     ],
     "08080_kessekitodoke": [
-      "COMMON VERBS",
       "RELATED DOCUMENTS"
     ],
     "08081_susumekata": [
@@ -11307,7 +11262,6 @@
       "NPO IN JAPAN"
     ],
     "08791_kengi": [
-      "COMPARISON WITH SIMILAR WORDS",
       "FORMAL REGISTER"
     ],
     "08792_aiootii": [
@@ -11897,9 +11851,6 @@
     "09711_zutsuuyaku": [
       "COMMON BRANDS IN JAPAN"
     ],
-    "09713_genetsuzai": [
-      "COMMON INGREDIENTS"
-    ],
     "09715_mushiyoke": [
       "COMMON PRODUCTS"
     ],
@@ -12157,7 +12108,6 @@
     ],
     "10040_kushiage": [
       "ALSO CALLED",
-      "COMMON INGREDIENTS",
       "SERVING STYLE"
     ],
     "10041_hazakaiki": [
@@ -13231,23 +13181,8 @@
     "12790_haikei": [
       "OTHER LETTER OPENINGS"
     ],
-    "12800_gihou": [
-      "COMPARISON WITH SIMILAR WORDS"
-    ],
-    "12801_ginou": [
-      "COMPARISON WITH SIMILAR WORDS"
-    ],
     "12806_osaeru": [
       "COMPARISON WITH {押|お}さえる"
-    ],
-    "12812_kakuchou": [
-      "COMPARISON WITH SIMILAR WORDS"
-    ],
-    "12821_suisoku": [
-      "COMPARISON WITH SIMILAR WORDS"
-    ],
-    "12822_tettai": [
-      "COMPARISON WITH SIMILAR WORDS"
     ],
     "12846_sankinkoutai": [
       "KEY TERMS"
@@ -13517,17 +13452,11 @@
       "SENSE 1 (deserted)",
       "SENSE 2 (slack/slow)"
     ],
-    "14587_amaoto": [
-      "SIMILAR COMPOUNDS"
-    ],
     "14634_tayori": [
       "CONFUSION NOTE"
     ],
     "14646_kamigata": [
       "COMMON STYLES"
-    ],
-    "14666_yukigeshiki": [
-      "SIMILAR COMPOUNDS"
     ],
     "14692_hinagata": [
       "SENSE 1 (model)",
@@ -13583,9 +13512,6 @@
     "14725_kuyamu": [
       "SENSE 1 (regret)",
       "SENSE 2 (condolences)"
-    ],
-    "14727_oden": [
-      "COMMON INGREDIENTS"
     ],
     "14732_deisui": [
       "DEGREES OF DRUNKENNESS (from mild to severe)"
@@ -13730,15 +13656,6 @@
     ],
     "15586_hyakubun": [
       "NOTE ON USAGE"
-    ],
-    "15605_kimidori": [
-      "RELATED COLORS"
-    ],
-    "15614_sakurairo": [
-      "RELATED COLORS"
-    ],
-    "15616_noukon": [
-      "RELATED COLORS"
     ],
     "15730_kuramu": [
       "USAGE BY SENSE"
@@ -14393,9 +14310,6 @@
     "18061_sokonau": [
       "VERB SUFFIX PATTERN"
     ],
-    "18065_taiouryoku": [
-      "SIMILAR COMPOUNDS"
-    ],
     "18072_hei": [
       "TEN HEAVENLY STEMS"
     ],
@@ -14403,12 +14317,6 @@
       "AS A COUNTER",
       "COMMON COMPOUNDS (TABLE)",
       "OTHER COMPOUNDS"
-    ],
-    "18080_seikatsuku": [
-      "SIMILAR COMPOUNDS"
-    ],
-    "18086_mukibutsu": [
-      "SIMILAR COMPOUNDS"
     ],
     "18088_shitsureiitashimasu": [
       "COMMON SITUATIONS"
@@ -15034,9 +14942,6 @@
     "19391_shouchikubai": [
       "RANKING ORDER"
     ],
-    "19402_nikuryouri": [
-      "SIMILAR COMPOUNDS"
-    ],
     "19405_nagoya": [
       "KNOWN FOR"
     ],
@@ -15062,9 +14967,6 @@
     ],
     "19454_nyuujouken": [
       "RELATED TICKET WORDS"
-    ],
-    "19455_ryouude": [
-      "SIMILAR COMPOUNDS"
     ],
     "19534_okasu": [
       "THE THREE おかす VERBS"
@@ -15352,9 +15254,6 @@
     "20915_fonto": [
       "JAPANESE FONT CATEGORIES"
     ],
-    "20984_sumashijiru": [
-      "COMMON INGREDIENTS"
-    ],
     "20988_hiseikikoyou": [
       "TYPES OF NON-REGULAR WORK"
     ],
@@ -15519,9 +15418,6 @@
     ],
     "21526_kuyashigaru": [
       "THE ～がる PATTERN"
-    ],
-    "21533_koutei": [
-      "SIMILAR COMPOUNDS"
     ],
     "21539_hoshoku": [
       "COMMON COMPLEMENTARY PAIRS"
