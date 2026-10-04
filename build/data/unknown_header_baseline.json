@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-04T06:52:49Z",
+  "generated": "2026-10-04T08:16:42Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE",
@@ -240,11 +240,6 @@
     ],
     "00269_mare": [
       "REGISTER AND WRITING"
-    ],
-    "00273_masutaa": [
-      "ACADEMIC DEGREE",
-      "BAR/SHOP OWNER",
-      "VERB USAGE (to master)"
     ],
     "00285_misu": [
       "MISTAKE USAGE",
@@ -662,8 +657,7 @@
     "00625_gogatsu": [
       "GOLDEN WEEK HOLIDAYS",
       "JAPANESE MONTHS",
-      "MAY TRADITIONS",
-      "SEASON"
+      "MAY TRADITIONS"
     ],
     "00626_hachigatsu": [
       "MONTH PATTERN"
@@ -687,12 +681,10 @@
       "JAPANESE BREEDS"
     ],
     "00634_juugatsu": [
-      "EVENTS",
-      "SEASON"
+      "EVENTS"
     ],
     "00635_juuichigatsu": [
-      "EVENTS",
-      "SEASON"
+      "EVENTS"
     ],
     "00637_kaban": [
       "TYPES OF BAGS"
@@ -739,8 +731,7 @@
     ],
     "00667_shichigatsu": [
       "JAPANESE MONTHS",
-      "JULY EVENTS",
-      "SEASON"
+      "JULY EVENTS"
     ],
     "00669_shinu": [
       "WHICH VERB FOR WHAT DIES"
@@ -6147,14 +6138,9 @@
       "AFFECTED AREAS"
     ],
     "05020_youtsuu": [
-      "CAUSES",
       "TREATMENT"
     ],
-    "05021_hakike": [
-      "COMMON CAUSES"
-    ],
     "05022_memai": [
-      "CAUSES",
       "TYPES OF DIZZINESS"
     ],
     "05023_kentaikan": [
@@ -6329,14 +6315,8 @@
     "05130_kuwagata": [
       "FULL NAME"
     ],
-    "05131_gokiburi": [
-      "SEASON"
-    ],
     "05139_fugoukaku": [
       "CASUAL ALTERNATIVES"
-    ],
-    "05141_ryuunen": [
-      "COMMON CAUSES"
     ],
     "05145_daisuu": [
       "EDUCATION CONTEXT",
@@ -6513,9 +6493,6 @@
     ],
     "05263_hirihiri": [
       "TYPICAL CAUSES"
-    ],
-    "05264_jinjin": [
-      "COMMON CAUSES"
     ],
     "05265_mukamuka": [
       "SENSE 1 - PHYSICAL NAUSEA",
@@ -7049,8 +7026,7 @@
       "CULTURAL TRADITIONS"
     ],
     "05588_momijigari": [
-      "FAMOUS SPOTS",
-      "SEASON"
+      "FAMOUS SPOTS"
     ],
     "05589_bunkasai": [
       "COMMON ACTIVITIES"
@@ -7156,9 +7132,6 @@
     ],
     "05700_kuku": [
       "HOW IT'S TAUGHT"
-    ],
-    "05701_sawayaka": [
-      "SEASON"
     ],
     "05702_azayaka": [
       "SENSE 1 - VIVID COLORS",
@@ -7503,9 +7476,6 @@
       "LITERARY USAGE",
       "MODERN BUSINESS USAGE"
     ],
-    "05933_inekari": [
-      "SEASON"
-    ],
     "05938_mushimushi": [
       "SEASONAL USAGE"
     ],
@@ -7666,9 +7636,6 @@
       "SENSE 1 - ECSTASY",
       "SENSE 2 - SENILITY"
     ],
-    "06003_kyodatsu": [
-      "MEDICAL CONTEXT"
-    ],
     "06004_kentai": [
       "MEDICAL USAGE"
     ],
@@ -7676,8 +7643,7 @@
       "BLOOD VESSEL HIERARCHY"
     ],
     "06009_rinpa": [
-      "EVERYDAY USE",
-      "MEDICAL CONTEXT"
+      "EVERYDAY USE"
     ],
     "06010_kotsuzui": [
       "IDIOMATIC USE"
@@ -7828,23 +7794,14 @@
       "LEGAL/OFFICIAL CONTEXT"
     ],
     "06140_sarumokikaraochiru": [
-      "PROVERB MEANING",
       "RELATED PROVERBS"
     ],
     "06141_nanakorobiyaoki": [
-      "DARUMA CONNECTION",
-      "PROVERB MEANING"
-    ],
-    "06142_toudaimotokurashi": [
-      "PROVERB MEANING"
-    ],
-    "06143_oninikanabou": [
-      "PROVERB MEANING"
+      "DARUMA CONNECTION"
     ],
     "06144_inonakanokawazu": [
       "EXTENDED VERSION",
-      "FULL VERSION",
-      "PROVERB MEANING"
+      "FULL VERSION"
     ],
     "06148_yuugenjikkou": [
       "CONTRAST WITH {不言実行|ふげんじっこう}"
@@ -7980,14 +7937,7 @@
       "MODERN FAN CULTURE USAGE",
       "ORIGINAL MEANING"
     ],
-    "06290_nouarutakahatsumewokakusu": [
-      "PROVERB MEANING"
-    ],
-    "06292_umanomimininenbutsu": [
-      "PROVERB MEANING"
-    ],
     "06293_abuhachitorazu": [
-      "PROVERB MEANING",
       "SIMILAR JAPANESE EXPRESSIONS"
     ],
     "06294_montsuki": [
@@ -8008,13 +7958,10 @@
       "TECHNICAL USAGE (sense 2)"
     ],
     "06298_kinnikutsuu": [
-      "CAUSES",
       "COLLOQUIAL NOTE",
       "MEDICAL/HEALTH TERM"
     ],
     "06299_douki": [
-      "CAUSES",
-      "MEDICAL CONTEXT",
       "MEDICAL TERM"
     ],
     "06300_ikigire": [
@@ -8024,7 +7971,6 @@
       "WHEN TO SEE A DOCTOR"
     ],
     "06301_keiren": [
-      "CAUSES",
       "COMMON LOCATIONS",
       "MEDICAL TERM",
       "MEDICAL WARNING"
@@ -8136,15 +8082,6 @@
     "06332_akuseru": [
       "DRIVING SAFETY",
       "RELATED CAR PARTS"
-    ],
-    "06335_hayaokihasanmonnotoku": [
-      "PROVERB MEANING"
-    ],
-    "06336_hyakubunhaikkennishikazu": [
-      "PROVERB MEANING"
-    ],
-    "06337_isogabamaware": [
-      "PROVERB MEANING"
     ],
     "06345_tobiagaru": [
       "IDIOMATIC"
@@ -8538,9 +8475,6 @@
       "ACTIVITIES AT LOW TIDE",
       "FISHING CONTEXT",
       "SAFETY NOTE"
-    ],
-    "06532_kuufuku": [
-      "MEDICAL CONTEXT"
     ],
     "06533_manpuku": [
       "DINING CULTURE",
@@ -9103,9 +9037,6 @@
       "COMMON INGREDIENTS REQUIRING {灰汁|あく}{抜|ぬ}き",
       "COMMON METHODS"
     ],
-    "06819_senkoku": [
-      "MEDICAL CONTEXT"
-    ],
     "06841_tsukidasu": [
       "COMPOUND VERB NOTES"
     ],
@@ -9628,18 +9559,12 @@
       "RELATED ～{応|ごた}え WORDS"
     ],
     "07276_shibire": [
-      "MEDICAL CONTEXT",
       "RELATED PHYSICAL SENSATIONS"
     ],
     "07277_mukumi": [
-      "CAUSES",
       "RELATED PHYSICAL SENSATIONS"
     ],
-    "07278_kayumi": [
-      "COMMON CAUSES"
-    ],
     "07279_kori": [
-      "CAUSES",
       "RELATED PHYSICAL SENSATIONS"
     ],
     "07280_jibyou": [
@@ -9712,9 +9637,6 @@
     ],
     "07350_sugoroku": [
       "GAMEPLAY"
-    ],
-    "07354_mukumu": [
-      "MEDICAL CONTEXT"
     ],
     "07370_omomuroni": [
       "COMMON MISUNDERSTANDING"
@@ -9827,7 +9749,6 @@
       "IDIOM ORIGIN"
     ],
     "07439_atamawokakaeru": [
-      "COMMON CAUSES",
       "IDIOM MEANING"
     ],
     "07441_meisou": [
@@ -10026,7 +9947,6 @@
       "USED IN"
     ],
     "07494_kamizumari": [
-      "COMMON CAUSES",
       "PREVENTION",
       "TROUBLESHOOTING"
     ],
@@ -10776,9 +10696,6 @@
       "SENSE 1 (IGNORING)",
       "SENSE 2 (BACKGROUND LISTENING)"
     ],
-    "07928_norisugosu": [
-      "COMMON CAUSES"
-    ],
     "07929_kikinogasu": [
       "CONTRAST WITH {聞|き}き{流|なが}す",
       "SENSE 1 (ACCIDENTAL)",
@@ -10796,9 +10713,6 @@
     ],
     "07934_kakan": [
       "WORD TYPE"
-    ],
-    "07935_amamori": [
-      "COMMON CAUSES"
     ],
     "07938_nizukuri": [
       "DIFFERENCE FROM {梱包|こんぽう}",
@@ -10987,7 +10901,6 @@
       "FULL PROVERB"
     ],
     "08034_nechigae": [
-      "CAUSES",
       "REMEDIES"
     ],
     "08035_gikkurigoshi": [
@@ -11106,9 +11019,6 @@
       "COOKING",
       "NUTRITION",
       "PREPARATION"
-    ],
-    "08100_nenmaku": [
-      "MEDICAL CONTEXT"
     ],
     "08101_oukakumaku": [
       "ANATOMY",
@@ -11349,9 +11259,6 @@
       "HOUSING NOTE",
       "RELATED BATH CONTROLS"
     ],
-    "08421_hadaare": [
-      "COMMON CAUSES"
-    ],
     "08422_shokuatari": [
       "PREVENTION",
       "SYMPTOMS"
@@ -11362,7 +11269,6 @@
     ],
     "08439_hanabie": [
       "RELATED SEASONAL TERMS",
-      "SEASON",
       "SEASONAL TERM"
     ],
     "08440_kuwazugirai": [
@@ -11492,9 +11398,6 @@
     "08664_shuushokuiwai": [
       "COMMON GIFTS"
     ],
-    "08666_nechigai": [
-      "COMMON CAUSES"
-    ],
     "08667_doukisuru": [
       "TECHNOLOGY CONTEXT"
     ],
@@ -11508,7 +11411,6 @@
       "SIMILAR PATTERNS WITH {屋|や}"
     ],
     "08695_untenmiawase": [
-      "COMMON CAUSES",
       "TRAIN ANNOUNCEMENT PATTERNS"
     ],
     "08696_untensaikai": [
@@ -11904,7 +11806,6 @@
       "RELATED AMOUNTS"
     ],
     "08982_ukketsu": [
-      "CAUSES",
       "RELATED CONDITIONS"
     ],
     "08983_waiyaresujuuden": [
@@ -12191,10 +12092,6 @@
     "09569_haijin": [
       "FAMOUS {俳人|はいじん}"
     ],
-    "09699_gyouretsu": [
-      "SENSE 1 COLLOCATIONS (queue)",
-      "SENSE 2 COLLOCATIONS (procession)"
-    ],
     "09708_monshinhyou": [
       "TYPICAL QUESTIONS"
     ],
@@ -12205,24 +12102,13 @@
       "COMMON BRANDS IN JAPAN"
     ],
     "09713_genetsuzai": [
-      "COMMON INGREDIENTS",
-      "RELATED MEDICINE WORDS"
+      "COMMON INGREDIENTS"
     ],
     "09715_mushiyoke": [
       "COMMON PRODUCTS"
     ],
-    "09716_shuugoujuutaku": [
-      "TYPES INCLUDED"
-    ],
     "09717_naiken": [
       "WHAT TO CHECK"
-    ],
-    "09718_chuukai": [
-      "SENSE 1 (general mediation)",
-      "SENSE 2 (real estate brokerage)"
-    ],
-    "09721_daibiki": [
-      "OTHER PAYMENT METHODS"
     ],
     "09723_haitatsujoukyou": [
       "COMMON STATUS TERMS"
@@ -12566,8 +12452,7 @@
       "WORK CULTURE"
     ],
     "10105_hanabitaikai": [
-      "FAMOUS FIREWORKS FESTIVALS",
-      "SEASON"
+      "FAMOUS FIREWORKS FESTIVALS"
     ],
     "10106_roten": [
       "COMMON FESTIVAL STALLS"
@@ -12975,9 +12860,6 @@
     ],
     "10781_busaiku": [
       "RELATED SLANG"
-    ],
-    "10791_gakugaku": [
-      "COMMON CAUSES"
     ],
     "10798_kukkii": [
       "クッキー VS ビスケット"
@@ -14086,9 +13968,6 @@
       "SENSE 1 (PROVISO)",
       "SENSE 2 (RECEIPT)"
     ],
-    "15315_kanou": [
-      "MEDICAL CONTEXT"
-    ],
     "15316_futoku": [
       "FIXED PATTERN"
     ],
@@ -14952,8 +14831,6 @@
       "RELATED COOKING ONOMATOPOEIA (from gentle to vigorous)"
     ],
     "18535_juuketsu": [
-      "COMMON CAUSES",
-      "MEDICAL CONTEXT",
       "MOST COMMON USE"
     ],
     "18540_osokarehayakare": [
@@ -16053,9 +15930,6 @@
     ],
     "22026_kanshouyou": [
       "NOTE ON KANJI"
-    ],
-    "22069_mizubukure": [
-      "CAUSES"
     ],
     "22072_kamishitsu": [
       "HAIR TYPES"
@@ -17272,9 +17146,6 @@
     "27277_sobako": [
       "ALLERGY NOTE",
       "SOBA NOODLE RATIOS"
-    ],
-    "27280_shikisochinchaku": [
-      "COMMON CAUSES"
     ],
     "27281_meigenshuu": [
       "THE ～{集|しゅう} PATTERN"
