@@ -3,7 +3,7 @@
   "headword": "{切|き}り{上|あ}げる",
   "reading": "きりあげる",
   "part_of_speech": "verb (ichidan, transitive)",
-  "gloss": "to wrap up; to round up; to raise (prices)",
+  "gloss": "to wrap up; to round up; to revalue (a currency) upward",
   "conjugation": {
     "type": "ichidan",
     "forms": [
@@ -107,8 +107,8 @@
     },
     {
       "sense_number": 3,
-      "gloss": "to raise; to increase",
-      "explanation": "To increase prices, values, or standards."
+      "gloss": "to revalue upward (a currency)",
+      "explanation": "To raise the official exchange value of a currency. Raising prices or wages takes a different verb (see notes)."
     }
   ],
   "examples": [
@@ -174,20 +174,20 @@
     },
     {
       "id": "06979_kiriageru_ex7",
-      "japanese": "⟦{定価|ていか}→定価：04066_teika⟧⟦を→を：00422_wo⟧{切|き}り{上|あ}げる⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
-      "english": "It was decided to raise the list price.",
+      "japanese": "⟦{円|えん}→円：00774_en⟧⟦を→を：00422_wo⟧{切|き}り{上|あ}げる。",
+      "english": "To revalue the yen upward.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         3
       ]
     },
     {
       "id": "06979_kiriageru_ex8",
-      "japanese": "⟦{最低賃金|さいていちんぎん}→最低賃金：13442_saiteichingin⟧⟦を→を：00422_wo⟧{切|き}り{上|あ}げる⟦べきだ→べきだ：26592_bekida⟧。",
-      "english": "The minimum wage should be raised.",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{通貨|つうか}→通貨：03508_tsuuka⟧⟦を→を：00422_wo⟧10⟦パーセント→パーセント：01537_paasento⟧{切|き}り{上|あ}げた。",
+      "english": "The government revalued the currency upward by 10 percent.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         3
       ]
@@ -203,7 +203,7 @@
       ]
     }
   ],
-  "notes": "- {切|き}り{上|あ}げる → {切|き}り{上|あ}げない (negative)\n- {切|き}り{上|あ}げる → {切|き}り{上|あ}げて (te-form)\n- {切|き}り{上|あ}げる → {切|き}り{上|あ}げた (past)\n\nFORMS:\nCompound verb: ⟦{切|き}る→切る：02693_kiru⟧ (to cut) + ⟦{上|あ}げる→上げる：02443_ageru⟧ (up)\n\nCOMMON COLLOCATIONS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{切|き}り{上|あ}げる - to wrap up a meeting\n- ⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧⟦を→を：00422_wo⟧{切|き}り{上|あ}げる - to leave a drinking party early\n- ⟦{端数|はすう}→端数：23501_hasuu⟧⟦を→を：00422_wo⟧{切|き}り{上|あ}げる - to round up fractions\n\nSIMILAR WORDS:\n- ⟦{切|き}り{下|さ}げる→切り下げる：07267_kirisageru⟧ - to round down; to lower",
+  "notes": "- {切|き}り{上|あ}げる → {切|き}り{上|あ}げない (negative)\n- {切|き}り{上|あ}げる → {切|き}り{上|あ}げて (te-form)\n- {切|き}り{上|あ}げる → {切|き}り{上|あ}げた (past)\n\nFORMS:\nCompound verb: ⟦{切|き}る→切る：02693_kiru⟧ (to cut) + ⟦{上|あ}げる→上げる：02443_ageru⟧ (up)\n\nCOMMON COLLOCATIONS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{切|き}り{上|あ}げる - to wrap up a meeting\n- ⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧⟦を→を：00422_wo⟧{切|き}り{上|あ}げる - to leave a drinking party early\n- ⟦{端数|はすう}→端数：23501_hasuu⟧⟦を→を：00422_wo⟧{切|き}り{上|あ}げる - to round up fractions\n\nSIMILAR WORDS:\n- ⟦{切|き}り{捨|す}てる→切り捨てる：05747_kirisuteru⟧ - to round down (a number)\n- ⟦{切|き}り{下|さ}げる→切り下げる：07267_kirisageru⟧ - to devalue (a currency)\n- ⟦{引|ひ}き{上|あ}げる→引き上げる：05689_hikiageru⟧ - to raise (prices, wages); not {切|き}り{上|あ}げる",
   "cross_references": [
     {
       "type": "antonym",
@@ -218,11 +218,18 @@
       "reading": "きりすてる",
       "headword": "{切|き}り{捨|す}てる",
       "label": "to cut down, to discard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05689_hikiageru",
+      "reading": "ひきあげる",
+      "headword": "{引|ひ}き{上|あ}げる",
+      "label": "to raise"
     }
   ],
   "metadata": {
     "created": "2026-01-18T13:10:21Z",
-    "modified": "2026-09-02T04:05:40Z",
+    "modified": "2026-10-04T00:47:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
