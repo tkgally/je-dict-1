@@ -115,8 +115,8 @@
     },
     {
       "id": "13707_kakutei_ex2",
-      "japanese": "{確定|かくてい}{申告|しんこく}⟦の→の：09472_no⟧⟦{期限|きげん}→期限：12861_kigen⟧⟦は→は：00079_ha⟧⟦{三月|さんがつ}→三月：00665_sangatsu⟧⟦まで→まで：00490_made⟧だ。",
-      "english": "The deadline for filing a final tax return is by March.",
+      "japanese": "{確定|かくてい}{申告|しんこく}⟦の→の：09472_no⟧⟦{期限|きげん}→期限：12861_kigen⟧⟦は→は：00079_ha⟧⟦{三月|さんがつ}→三月：00665_sangatsu⟧⟦{十五日|じゅうごにち}→十五日：27633_juugonichi⟧だ。",
+      "english": "The deadline for filing the final income tax return is March 15.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA very common word in business, legal, and administrative Japanese. The compound {確定|かくてい}{申告|しんこく} (final tax return) is one of the most well-known collocations and is relevant to anyone working or living in Japan.\n\nCOMMON COLLOCATIONS:\n- {確定|かくてい}{申告|しんこく}: final tax return\n- {確定|かくてい}⟦{判決|はんけつ}→判決：05906_hanketsu⟧: final verdict\n- ⟦{日程|にってい}→日程：04289_nittei⟧⟦が→が：00051_ga⟧{確定|かくてい}⟦する→する：00392_suru⟧: the schedule is finalized\n- ⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧{確定|かくてい}⟦する→する：00392_suru⟧: the results are confirmed\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧{確定|かくてい}⟦する→する：00392_suru⟧: to confirm a reservation",
+  "notes": "USAGE:\nA very common word in business, legal, and administrative Japanese. The compound {確定|かくてい}{申告|しんこく} (final income tax return) is one of the best-known collocations.\n\nTRANSITIVITY:\nUsed both ways: ⟦{日程|にってい}→日程：04289_nittei⟧⟦が→が：00051_ga⟧{確定|かくてい}⟦する→する：00392_suru⟧ (the schedule becomes final) and ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧{確定|かくてい}⟦する→する：00392_suru⟧ (to confirm a reservation).\n\nSIMILAR WORDS:\n- ⟦{決定|けってい}→決定：02701_kettei⟧: the act of deciding. {確定|かくてい} stresses that the outcome is now fixed and will not change; a decision (⟦{決定|けってい}→決定：02701_kettei⟧) can still be provisional, a {確定|かくてい} result cannot.\n\nCOMMON COLLOCATIONS:\n- {確定|かくてい}{申告|しんこく}: final tax return\n- {確定|かくてい}⟦{判決|はんけつ}→判決：05906_hanketsu⟧: final verdict\n- ⟦{日程|にってい}→日程：04289_nittei⟧⟦が→が：00051_ga⟧{確定|かくてい}⟦する→する：00392_suru⟧: the schedule is finalized\n- ⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧{確定|かくてい}⟦する→する：00392_suru⟧: the results are confirmed\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧{確定|かくてい}⟦する→する：00392_suru⟧: to confirm a reservation",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,18 @@
       "reading": "けっていする",
       "headword": "{決定|けってい}する",
       "label": "to decide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02701_kettei",
+      "reading": "けってい",
+      "headword": "{決定|けってい}",
+      "label": "the act of deciding. stresses that…"
     }
   ],
   "metadata": {
     "created": "2026-02-26T13:32:51Z",
-    "modified": "2026-09-02T04:01:34Z",
+    "modified": "2026-10-04T12:21:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -164,7 +171,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "business"
       ],
       "verb_class": "suru",
       "transitivity": "both"
