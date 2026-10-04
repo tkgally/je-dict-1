@@ -1674,3 +1674,9 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-04 [entry] 07611: audio checks heard いっしゃせん for {一|いち}{車線|しゃせん} in 07611_sebameru_ex3; 一車線 is いっしゃせん; check the furigana
 - 2026-10-04 [entry] 07664: audio checks heard みつもり for {見積|みつも}もり in 07664_oomaka_ex3; the も is doubled, should be {見積|みつ}もり; check the furigana
 - 2026-10-04 [tooling] Doubled okurigana in furigana went undetected in 15 entries ({見積|みつも}もり, read みつももり; also in a headword, 05153). verify_furigana.py does not catch a reading whose last kana repeats the kana right after the brace; the audio checkers found it. A detector for {K|…X}X where the dictionary reading has a single X would catch the rest.
+- 2026-10-04 [entry] 08028: audio checks heard かたすかし for {肩透|かたすか}かし in 08028_katasukashi_ex2/ex4/ex5; the か is doubled (reads かたすかかし) in the headword, every example and the notes; should be {肩|かた}{透|す}かし; check the furigana
+- 2026-10-04 [entry] 08340: audio checks heard すきみ/しゅみ for {好|す}み in 08340_karatou_ex3 (好みがまったく違う); 好み is このみ, should be {好|この}み; check the furigana
+- 2026-10-04 [entry] 08093: audio checks heard きりぼし for {切|き}り{干|ほ}し{大根|だいこん} in 08093_kiriboshidaikon_ex1/ex2/ex3 (and the headword); the usual reading is きりぼしだいこん, {干|ぼ}; check the furigana
+- 2026-10-04 [entry] 08295: audio checks heard かけこみでら for {駆|か}け{込|こ}み{寺|てら} in 08295_kakekomi_ex4; 駆け込み寺 is かけこみでら; check the furigana (the 寺 link surface)
+- 2026-10-04 [entry] 08345: audio checks heard レシピぼん for レシピ{本|ほん} in 08345_tsukurioki_ex3; ぼん is the usual rendaku reading here; check the furigana
+- 2026-10-04 [entry] 07463: audio checks heard ななふしぎ for {七|なな}{不可思議|ふかしぎ} in 07463_fukashigi_ex4; the set phrase is 七不思議, so the example's wording itself looks wrong; check the example
