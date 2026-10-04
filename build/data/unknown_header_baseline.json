@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-04T14:09:05Z",
+  "generated": "2026-10-04T18:46:08Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE",
@@ -194,9 +194,6 @@
     "00209_keido": [
       "GEOGRAPHY",
       "PAIR WORD"
-    ],
-    "00212_keito": [
-      "MATERIALS"
     ],
     "00218_ketsuatsu": [
       "READINGS ON A CHART"
@@ -427,12 +424,6 @@
     ],
     "00463_wakaru": [
       "COMPARED WITH {知|し}る"
-    ],
-    "00468_jikan": [
-      "KEY DISTINCTION",
-      "SENSE 1 - TIME (GENERAL)",
-      "SENSE 2 - COUNTER (HOURS)",
-      "SPECIAL USAGE"
     ],
     "00472_shiyou": [
       "1. WAY/METHOD (only with negatives)",
@@ -1430,8 +1421,7 @@
     ],
     "01077_kappu": [
       "AS A CONTAINER",
-      "AS A MEASUREMENT",
-      "COOKING USAGE"
+      "AS A MEASUREMENT"
     ],
     "01079_kissaten": [
       "CONTRAST WITH カフェ",
@@ -1571,9 +1561,6 @@
     "01208_shiraseru": [
       "CONTRAST WITH {伝|つた}える"
     ],
-    "01210_ueru": [
-      "COMPOUND VERBS"
-    ],
     "01219_sugiru": [
       "AUXILIARY USE (very common)"
     ],
@@ -1658,8 +1645,7 @@
       "KEIGO SYSTEM"
     ],
     "01322_mairu": [
-      "KEIGO TYPE",
-      "SPECIAL USAGE"
+      "KEIGO TYPE"
     ],
     "01323_kome": [
       "MEASURING",
@@ -1949,12 +1935,6 @@
     "01549_sama": [
       "POLITENESS SCALE"
     ],
-    "01550_kansei": [
-      "TRANSITIVITY (as suru verb)"
-    ],
-    "01555_kubetsu": [
-      "TRANSITIVITY (as suru verb)"
-    ],
     "01569_otaku": [
       "USAGES"
     ],
@@ -1975,9 +1955,6 @@
     ],
     "01586_koudou": [
       "TYPICAL EVENTS HELD IN A {講堂|こうどう}"
-    ],
-    "01587_senkou": [
-      "TRANSITIVITY (as suru verb)"
     ],
     "01590_kotori": [
       "COMMON PET BIRDS IN JAPAN"
@@ -2012,21 +1989,12 @@
     "01623_suiei": [
       "SWIMMING STROKES"
     ],
-    "01624_iji": [
-      "TRANSITIVITY (as suru verb)"
-    ],
     "01627_suruto": [
       "DIFFERENCE FROM そして",
       "SIMILAR CONJUNCTIONS"
     ],
     "01631_oideninaru": [
       "HONORIFIC EQUIVALENTS"
-    ],
-    "01633_sabetsu": [
-      "TRANSITIVITY (as suru verb)"
-    ],
-    "01637_shiyou": [
-      "TRANSITIVITY (as suru verb)"
     ],
     "01639_shinbunsha": [
       "MAJOR JAPANESE NEWSPAPERS"
@@ -2039,9 +2007,6 @@
     ],
     "01646_sonnani": [
       "KO-SO-A-DO DEGREE ADVERBS"
-    ],
-    "01652_tettei": [
-      "TRANSITIVITY (as suru verb)"
     ],
     "01653_daigakusei": [
       "RELATED STUDENT TERMS",
@@ -2062,14 +2027,8 @@
     "01672_tsugou": [
       "POLITE USAGE"
     ],
-    "01675_aizu": [
-      "TRANSITIVITY (as suru verb)"
-    ],
     "01676_tera": [
       "FAMOUS TEMPLES"
-    ],
-    "01683_akushu": [
-      "TRANSITIVITY (as suru verb)"
     ],
     "01684_tochuu": [
       "EXAMPLES BY CONTEXT"
@@ -2259,9 +2218,6 @@
     ],
     "01870_arawareru": [
       "ALTERNATE KANJI"
-    ],
-    "01872_awaseru": [
-      "COMPOUND VERBS"
     ],
     "01876_annani": [
       "KO-SO-A-DO SERIES"
@@ -2467,9 +2423,6 @@
       "AS AUXILIARY (〜{得|え}る = can/possible)",
       "AS MAIN VERB (to obtain/gain)"
     ],
-    "02016_ou": [
-      "COMPOUND VERBS"
-    ],
     "02019_oeru": [
       "COMPOUND VERB PATTERN"
     ],
@@ -2536,7 +2489,6 @@
       "DON'T CONFUSE WITH {加|くわ}える"
     ],
     "02054_keru": [
-      "COMPOUND VERBS",
       "SPORTS"
     ],
     "02056_sasu": [
@@ -3044,9 +2996,6 @@
     "02325_yurusu": [
       "FORMAL ALTERNATIVES"
     ],
-    "02329_yoseru": [
-      "COMPOUND VERBS"
-    ],
     "02330_yowamaru": [
       "RELATED {弱|よわ} VERBS",
       "VERB PAIR EXAMPLES"
@@ -3109,7 +3058,6 @@
       "WARNING SIGN"
     ],
     "02375_toriageru": [
-      "SPECIAL USAGE",
       "THREE MAIN MEANINGS"
     ],
     "02377_doku": [
@@ -3172,7 +3120,6 @@
       "RESTAURANT USAGE"
     ],
     "02418_maku": [
-      "COMPOUND VERBS",
       "DON'T CONFUSE (all まく)"
     ],
     "02419_maku": [
@@ -3345,9 +3292,6 @@
     ],
     "02573_kenkyuusha": [
       "WORD COMPOSITION"
-    ],
-    "02574_komu": [
-      "COMPOUND VERBS"
     ],
     "02576_kutsurogu": [
       "POLITE USAGE"
@@ -3567,9 +3511,6 @@
       "AS METER (suffix)",
       "AS PLAN",
       "AS TOTAL"
-    ],
-    "02693_kiru": [
-      "COMPOUND VERBS"
     ],
     "02694_keiki": [
       "COMMON PATTERNS (sense 1)",
@@ -5378,9 +5319,6 @@
     "04434_sumaatofon": [
       "SHORTENED FORM"
     ],
-    "04436_chatto": [
-      "USAGE IN JAPAN"
-    ],
     "04442_saisei": [
       "COLLOCATIONS (playback)",
       "COLLOCATIONS (regeneration)"
@@ -5511,7 +5449,6 @@
       "COMPOUND EXPRESSIONS"
     ],
     "04601_karameru": [
-      "COOKING USAGE",
       "{絡|から}める VS {絡|から}む"
     ],
     "04602_yomitoru": [
@@ -5528,7 +5465,6 @@
       "RELATED KANJI"
     ],
     "04611_nogasu": [
-      "COMPOUND VERBS",
       "{逃|のが}す VS {逃|に}がす"
     ],
     "04613_kobamu": [
@@ -5613,9 +5549,6 @@
     ],
     "04678_kankisen": [
       "COMMON LOCATIONS"
-    ],
-    "04679_shinku": [
-      "MATERIALS"
     ],
     "04681_besuto": [
       "1. CLOTHING (from English 'vest')",
@@ -5915,9 +5848,6 @@
     ],
     "04885_intaahon": [
       "USAGE IN JAPAN"
-    ],
-    "04886_hyousatsu": [
-      "MATERIALS"
     ],
     "04887_youryou": [
       "COMPUTING CONTEXT"
@@ -6414,9 +6344,6 @@
       "MODERN TREND",
       "TYPES OF SEALS"
     ],
-    "05291_reshiito": [
-      "KEY DISTINCTION"
-    ],
     "05293_komekami": [
       "HEADACHE CONTEXT"
     ],
@@ -6546,9 +6473,6 @@
     ],
     "05379_shokuinshitsu": [
       "RELATED SCHOOL ROOMS"
-    ],
-    "05381_toshoshitsu": [
-      "KEY DISTINCTION"
     ],
     "05382_geri": [
       "AT THE DOCTOR"
@@ -7457,10 +7381,6 @@
     "05983_maunto": [
       "ALTERNATIVE EXPRESSIONS"
     ],
-    "05984_moyamoya": [
-      "EMOTIONAL MEANING (Sense 2)",
-      "VISUAL MEANING (Sense 1)"
-    ],
     "05986_gasagasa": [
       "SOUND MEANING",
       "TEXTURE MEANING"
@@ -7737,14 +7657,10 @@
     "06249_iwakan": [
       "ANTONYM CONCEPT"
     ],
-    "06252_jikkuri": [
-      "COOKING USAGE"
-    ],
     "06253_tsukuzuku": [
       "KANJI FORM"
     ],
     "06254_fuwatto": [
-      "COOKING USAGE",
       "ONOMATOPOEIA TYPE"
     ],
     "06255_takumashii": [
@@ -7904,7 +7820,6 @@
       "WATERING TIPS"
     ],
     "06329_uekibachi": [
-      "MATERIALS",
       "SIZE SYSTEM"
     ],
     "06330_taiya": [
@@ -8222,12 +8137,6 @@
       "MATERIALS AND TYPES",
       "VS OTHER BOWLS"
     ],
-    "06508_nabeshiki": [
-      "MATERIALS"
-    ],
-    "06509_magukappu": [
-      "MATERIALS"
-    ],
     "06510_kuukiseijouki": [
       "COMBINED DEVICES"
     ],
@@ -8272,19 +8181,11 @@
       "PHYSICAL CHARACTERISTICS",
       "SIMILAR CREATURES"
     ],
-    "06522_tengu": [
-      "FAMOUS LOCATIONS",
-      "FOLKLORE",
-      "IDIOMATIC USE",
-      "PHYSICAL FEATURES",
-      "TYPES OF TENGU"
-    ],
     "06523_kendama": [
       "BASIC TRICKS",
       "PARTS OF THE KENDAMA"
     ],
     "06524_saikoro": [
-      "COOKING USAGE",
       "DICE TERMINOLOGY"
     ],
     "06525_toishi": [
@@ -9087,9 +8988,6 @@
     "06991_nebukuro": [
       "ALSO CALLED"
     ],
-    "06993_sankyaku": [
-      "PRACTICAL NOTE"
-    ],
     "06998_umami": [
       "SCIENTIFIC BACKGROUND",
       "UMAMI-RICH FOODS"
@@ -9152,10 +9050,6 @@
     ],
     "07074_tousen": [
       "ELECTION COLLOCATIONS"
-    ],
-    "07076_aburae": [
-      "MATERIALS",
-      "RELATED ART TERMS"
     ],
     "07077_suisaiga": [
       "RELATED ART TERMS"
@@ -9328,8 +9222,7 @@
     ],
     "07145_amadoi": [
       "COMPONENTS OF GUTTER SYSTEM",
-      "MAINTENANCE",
-      "MATERIALS"
+      "MAINTENANCE"
     ],
     "07146_dodai": [
       "CONCRETE USE",
@@ -9589,36 +9482,11 @@
     "07445_torishimari": [
       "TYPES OF {取|と}り{締|し}まり"
     ],
-    "07446_ikiwohisomeru": [
-      "IDIOM STRUCTURE"
-    ],
-    "07447_kuchibiruwokamu": [
-      "IDIOM STRUCTURE"
-    ],
-    "07448_mewomarukusuru": [
-      "IDIOM STRUCTURE"
-    ],
-    "07449_hanadewarau": [
-      "IDIOM STRUCTURE"
-    ],
     "07450_tewoutsu": [
       "1. TAKE MEASURES",
       "2. STRIKE A DEAL",
       "3. CLAP HANDS (literal)",
-      "IDIOM STRUCTURE",
       "MULTIPLE MEANINGS"
-    ],
-    "07451_tewosomeru": [
-      "IDIOM STRUCTURE"
-    ],
-    "07452_udewofuruu": [
-      "IDIOM STRUCTURE"
-    ],
-    "07453_udewomigaku": [
-      "IDIOM STRUCTURE"
-    ],
-    "07454_mewoubawareru": [
-      "IDIOM STRUCTURE"
     ],
     "07457_furukabu": [
       "OFTEN CONTRASTED WITH"
@@ -9801,12 +9669,6 @@
     "07504_suribachi": [
       "FEATURES",
       "RELATED TOOL"
-    ],
-    "07506_hitasu": [
-      "COOKING USAGE"
-    ],
-    "07508_uragaesu": [
-      "COOKING USAGE"
     ],
     "07509_sogu": [
       "COMMON FIGURATIVE USES",
@@ -10383,19 +10245,11 @@
     "07888_bappon": [
       "MOST COMMON FORM"
     ],
-    "07893_shimikomu": [
-      "COOKING USAGE",
-      "SENSE 1 VS SENSE 2"
-    ],
     "07895_moriageru": [
-      "INTRANSITIVE PAIR",
-      "SENSE 1 VS SENSE 2"
+      "INTRANSITIVE PAIR"
     ],
     "07897_yawarageru": [
       "INTRANSITIVE PAIR"
-    ],
-    "07899_tanomoshii": [
-      "SENSE 1 VS SENSE 2"
     ],
     "07903_asshou": [
       "ANTONYM PAIRS",
@@ -10417,34 +10271,22 @@
     "07910_mijitaku": [
       "WHAT IT INCLUDES"
     ],
-    "07911_atoshimatsu": [
-      "SENSE 1 VS SENSE 2"
-    ],
     "07913_soukai": [
       "MARKETING"
     ],
-    "07914_kokkei": [
-      "SENSE 1 VS SENSE 2"
-    ],
-    "07916_shikake": [
-      "SENSE 1 VS SENSE 2"
-    ],
     "07917_shiwake": [
       "ACCOUNTING CONTEXT",
-      "POLITICAL CONTEXT",
-      "SENSE 1 VS SENSE 2"
+      "POLITICAL CONTEXT"
     ],
     "07919_shitazawari": [
       "COMMON DESCRIPTIONS",
       "COMMON WITH"
     ],
     "07920_tsumiageru": [
-      "INTRANSITIVE PAIR",
-      "SENSE 1 VS SENSE 2"
+      "INTRANSITIVE PAIR"
     ],
     "07921_naritatsu": [
-      "NEGATIVE FORM",
-      "SENSE 1 VS SENSE 2"
+      "NEGATIVE FORM"
     ],
     "07923_zawameku": [
       "COMPARISON WITH どよめく",
@@ -10521,9 +10363,6 @@
       "METEOROLOGICAL DEFINITION",
       "TYPHOON-RELATED",
       "WARNING LEVELS"
-    ],
-    "07952_mizuke": [
-      "COOKING USAGE"
     ],
     "07954_yomikaesu": [
       "RELATED 〜{返|かえ}す COMPOUND VERBS"
@@ -10636,7 +10475,6 @@
       "SENSE 2 (Ongoing costs)"
     ],
     "08019_monohoshizao": [
-      "MATERIALS",
       "PHRASE"
     ],
     "08020_fushoku": [
@@ -11894,12 +11732,6 @@
       "SENSE 1 - LAUNCH",
       "SENSE 2 - WRAP-UP PARTY"
     ],
-    "09802_wahou": [
-      "TYPES OF SPEECH"
-    ],
-    "09807_kousui": [
-      "INCLUDES"
-    ],
     "09840_chuu": [
       "READING DISTINCTION"
     ],
@@ -12016,9 +11848,6 @@
       "COMMON SPECIES",
       "KANJI ORTHOGRAPHY"
     ],
-    "09932_rei": [
-      "SPECIAL USAGE"
-    ],
     "09933_men": [
       "AS A NOUN (\"surface\")",
       "AS A SUFFIX (\"aspect\")"
@@ -12049,7 +11878,6 @@
       "DEFENSE PROCESS"
     ],
     "09971_tsuishi": [
-      "KEY DISTINCTION",
       "RELATED EXAM VOCABULARY"
     ],
     "09975_tsuushinkyouiku": [
@@ -12195,9 +12023,6 @@
     ],
     "10126_jeiaaru": [
       "MAIN COMPANIES"
-    ],
-    "10130_kakei": [
-      "SPECIAL USAGE"
     ],
     "10139_hokuou": [
       "COUNTRIES INCLUDED"
@@ -12604,16 +12429,10 @@
       "SENSE 1 (grinding/scraping)",
       "SENSE 2 (aggressively/hardcore)"
     ],
-    "10872_kyasuto": [
-      "SPECIAL USAGE"
-    ],
     "10873_kyacchi": [
       "SENSE 1 (catching)",
       "SENSE 2 (catchphrase)",
       "SENSE 3 (street solicitation)"
-    ],
-    "10874_kuraimakkusu": [
-      "SPECIAL USAGE"
     ],
     "10886_hajiku": [
       "HOMOGRAPH NOTE"
@@ -13266,9 +13085,6 @@
     "13412_kasei": [
       "THE PLANETS IN JAPANESE"
     ],
-    "13420_mumei": [
-      "SPECIAL USAGE"
-    ],
     "13489_shuumai": [
       "CONTRAST WITH {餃子|ぎょうざ}"
     ],
@@ -13600,8 +13416,7 @@
       "RELATED 〜{界|かい} COMPOUNDS"
     ],
     "15209_ryouji": [
-      "CONTRAST WITH {大使|たいし}",
-      "KEY DISTINCTION"
+      "CONTRAST WITH {大使|たいし}"
     ],
     "15210_keihou": [
       "CONTRAST WITH OTHER LAWS"
@@ -13999,14 +13814,8 @@
     "17492_mihosou": [
       "THE {未|み}～ PREFIX"
     ],
-    "17495_kosekishouhon": [
-      "KEY DISTINCTION"
-    ],
     "17499_ichiisenshin": [
       "SIMILAR FOUR-CHARACTER COMPOUNDS"
-    ],
-    "17512_shuuryoushiki": [
-      "KEY DISTINCTION"
     ],
     "17554_tsutsushinde": [
       "COMMON SET PHRASES"
@@ -14218,9 +14027,6 @@
     "17661_yacchatta": [
       "CONTRACTION",
       "〜ちゃった PATTERN"
-    ],
-    "17662_kakuyasushimu": [
-      "PRACTICAL NOTE"
     ],
     "17663_che": [
       "FRUSTRATION SCALE"
@@ -14591,7 +14397,6 @@
       "SENSE 3 (BEGGING)"
     ],
     "18804_hatsushimo": [
-      "PRACTICAL NOTE",
       "RELATED SEASONAL FIRSTS",
       "SEASONAL SIGNIFICANCE"
     ],
@@ -15955,15 +15760,11 @@
     "23528_pettoka": [
       "RELATED HOUSING LISTING TERMS"
     ],
-    "23529_onseigaido": [
-      "PRACTICAL NOTE"
-    ],
     "23530_hokengaisha": [
       "TYPES OF INSURANCE"
     ],
     "23534_kokuminnenkin": [
-      "JAPAN'S PENSION SYSTEM",
-      "PRACTICAL NOTE"
+      "JAPAN'S PENSION SYSTEM"
     ],
     "23536_shimukaado": [
       "FOR TRAVELERS"
@@ -16320,18 +16121,6 @@
     "25809_tougai": [
       "DOMAIN-SPECIFIC USAGE"
     ],
-    "25813_haitatsushoumei": [
-      "PRACTICAL NOTE"
-    ],
-    "25817_kakitomeyuubin": [
-      "PRACTICAL NOTE"
-    ],
-    "25818_futsuuyuubin": [
-      "PRACTICAL NOTE"
-    ],
-    "25819_minjisekinin": [
-      "KEY DISTINCTION"
-    ],
     "25820_keijisekinin": [
       "KEY CONCEPTS"
     ],
@@ -16343,9 +16132,6 @@
     ],
     "25826_tamagoryouri": [
       "COMMON JAPANESE EGG DISHES"
-    ],
-    "25827_moushikomiyoushi": [
-      "PRACTICAL NOTE"
     ],
     "25829_enjaku": [
       "FAMOUS PROVERB"
