@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-04 (Routine v3: new-entries — 20 New Entries, IDs 31573–31592)
+
+Eight words older entries already used: 〜末 (まつ), 雷サージ, 角 (かく), 〜棟 (とう), 保証会社, 現金書留, 炊ける, 飯台.
+With the internal-closure queue then empty, twelve vetted idioms from the queue: 虫がいい, 首を突っ込む, 気が引ける,
+襟を正す, 気が滅入る, 気を許す, 目を疑う, 目に余る, 手を尽くす, 口を揃える, 焼け石に水, 後の祭り. No new kanji.
+45 existing links to 角 (かど) checked against the new 角 (かく): all read かど, unchanged. Self-check skipped (daily
+OpenRouter budget spent); くちばし and ひつまぶし still await kana screening.
+
 ### 2026-10-04 (Routine v3: new-entries — 20 New Entries, IDs 31553–31572)
 
 Twenty words that older entries already used: 道路交通法, 無失点, ぞろ目, 面取り, 水温計, 烏天狗, 差し押さえる,
@@ -76,9 +84,4 @@ kana link checked and kept.
 Eight words that older entries already used: 何より, 叙述, 呵責, 押し返す, 理路整然, 改善策, 労災, 走り抜ける. One new
 kanji (呵, kanji ID 02820). A short cycle at the end of the run. Self-check skipped (daily OpenRouter budget spent), so
 these eight have had no independent review yet. 22 links of ふける (耽る) checked against the newer 更ける entry: all stay.
-
-### 2026-10-03 (Routine v3: new-entries — 4 New Entries, IDs 31507–31510)
-
-Four words that older entries already used: ガイドブック, 不時着, 精鋭, 北枕. A short cycle at the end of the run. No new
-kanji. Self-check skipped (daily OpenRouter budget spent), so these four have had no independent review yet.
 
