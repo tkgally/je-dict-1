@@ -1680,3 +1680,5 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-04 [entry] 08295: audio checks heard かけこみでら for {駆|か}け{込|こ}み{寺|てら} in 08295_kakekomi_ex4; 駆け込み寺 is かけこみでら; check the furigana (the 寺 link surface)
 - 2026-10-04 [entry] 08345: audio checks heard レシピぼん for レシピ{本|ほん} in 08345_tsukurioki_ex3; ぼん is the usual rendaku reading here; check the furigana
 - 2026-10-04 [entry] 07463: audio checks heard ななふしぎ for {七|なな}{不可思議|ふかしぎ} in 07463_fukashigi_ex4; the set phrase is 七不思議, so the example's wording itself looks wrong; check the example
+- 2026-10-04 [entry] 09724 お弁当温め: the headword is not a set lexical item (clerks ask お弁当温めますか; a customer says 温めてください / 温めは大丈夫です), and two examples are unnatural (お弁当温めは無料ですか, お弁当温めは結構です). Curator: retire, or retitle around 温め / 温める with natural examples.
+- 2026-10-04 [pattern] Frontier block 09694–09727 (shopping, delivery and housing vocabulary): several nouns used with する in their own examples were tagged noun-only (閉店, 内見, 仲介, 追跡, 追加注文; fixed in polish). A detector for "examples use XXする but pos lacks verb-suru" would find the rest.
