@@ -2,7 +2,7 @@
   "id": "09727_tsuikachuumon",
   "headword": "{追加|ついか}{注文|ちゅうもん}",
   "reading": "ついかちゅうもん",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "additional order",
   "definitions": [
     {
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{追加|ついか}{注文|ちゅうもん} means an additional order placed after the initial one. Very common at restaurants, especially izakaya and family restaurants.\n\nCOMMON COLLOCATIONS:\n- {追加|ついか}{注文|ちゅうもん}⟦する→する：00392_suru⟧: to place an additional order\n- {追加|ついか}{注文|ちゅうもん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to take an additional order\n- {追加|ついか}{注文|ちゅうもん}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧: Would you like to order anything else?\n\nFORMS:\n⟦{追加|ついか}→追加：04060_tsuika⟧ (addition) + ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧ (order). Both components are productive: ⟦{追加|ついか}{料金|りょうきん}→追加料金：22313_tsuikaryoukin⟧ (extra charge), ⟦{注文|ちゅうもん}{品|ひん}→注文品：08964_chuumonhin⟧ (ordered items).\n\nRELATED WORDS:\n- ⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: first/initial order\n- ⟦ラストオーダー→ラストオーダー：09697_rasutooodaa⟧: last order (before kitchen closes)\n- お{替|か}わり: refill, second helping",
+  "notes": "{追加|ついか}{注文|ちゅうもん} is very common at restaurants, especially izakaya and family restaurants.\n\nCOMMON COLLOCATIONS:\n- {追加|ついか}{注文|ちゅうもん}⟦する→する：00392_suru⟧: to place an additional order\n- {追加|ついか}{注文|ちゅうもん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to take an additional order\n- {追加|ついか}{注文|ちゅうもん}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧: Would you like to order anything else?\n\nETYMOLOGY:\n⟦{追加|ついか}→追加：04060_tsuika⟧ (addition) + ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧ (order). Both components are productive: ⟦{追加|ついか}{料金|りょうきん}→追加料金：22313_tsuikaryoukin⟧ (extra charge), ⟦{注文|ちゅうもん}{品|ひん}→注文品：08964_chuumonhin⟧ (ordered items).\n\nRELATED WORDS:\n- ⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: first/initial order\n- ⟦ラストオーダー→ラストオーダー：09697_rasutooodaa⟧: last order (before kitchen closes)\n- ⟦おかわり→おかわり：10967_okawari⟧ (お⟦{代|か}わり→代わり：01296_kawari⟧): a refill, a second helping of the same thing",
   "cross_references": [
     {
       "type": "related",
@@ -51,23 +51,123 @@
       "reading": "らすとおーだー",
       "headword": "ラストオーダー",
       "label": "last order"
+    },
+    {
+      "type": "related",
+      "target_id": "10967_okawari",
+      "reading": "おかわり",
+      "headword": "おかわり",
+      "label": "second helping, refill"
     }
   ],
   "metadata": {
     "created": "2026-02-03T07:18:38Z",
-    "modified": "2026-09-02T04:01:19Z",
+    "modified": "2026-10-04T07:23:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "consumption",
         "shopping"
-      ]
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}する",
+        "negative": "{追加|ついか}{注文|ちゅうもん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}します",
+        "negative": "{追加|ついか}{注文|ちゅうもん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}した",
+        "negative": "{追加|ついか}{注文|ちゅうもん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}しました",
+        "negative": "{追加|ついか}{注文|ちゅうもん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}して",
+        "negative": "{追加|ついか}{注文|ちゅうもん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}している",
+        "negative": "{追加|ついか}{注文|ちゅうもん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}しています",
+        "negative": "{追加|ついか}{注文|ちゅうもん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}していた",
+        "negative": "{追加|ついか}{注文|ちゅうもん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}していました",
+        "negative": "{追加|ついか}{注文|ちゅうもん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}すれば",
+        "negative": "{追加|ついか}{注文|ちゅうもん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}したら",
+        "negative": "{追加|ついか}{注文|ちゅうもん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}できる",
+        "negative": "{追加|ついか}{注文|ちゅうもん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}される",
+        "negative": "{追加|ついか}{注文|ちゅうもん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}させる",
+        "negative": "{追加|ついか}{注文|ちゅうもん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{追加|ついか}{注文|ちゅうもん}しろ",
+        "negative": "{追加|ついか}{注文|ちゅうもん}するな"
+      }
+    ]
   }
 }

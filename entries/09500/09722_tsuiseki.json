@@ -2,7 +2,7 @@
   "id": "09722_tsuiseki",
   "headword": "{追跡|ついせき}",
   "reading": "ついせき",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "tracking; pursuit",
   "definitions": [
     {
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{追跡|ついせき} covers two main meanings: tracking/monitoring (packages, data, progress) and physical pursuit (chasing a suspect or animal).\n\nSENSE 1 — TRACKING:\n- {追跡|ついせき}⟦{番号|ばんごう}→番号：02939_bangou⟧: tracking number\n- {追跡|ついせき}⟦サービス→サービス：01531_saabisu⟧: tracking service\n- {追跡|ついせき}⟦{調査|ちょうさ}→調査：03489_chousa⟧: follow-up investigation\n- GPS{追跡|ついせき}: GPS tracking\n\nSENSE 2 — PURSUIT:\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{追跡|ついせき}⟦する→する：00392_suru⟧: to pursue a criminal\n- {追跡|ついせき}⟦{劇|げき}→劇：02713_geki⟧: chase scene\n- ⟦カー→カー：00130_kaa⟧{追跡|ついせき}: car chase\n\nFORMS:\n{追跡|ついせき}⟦する→する：00392_suru⟧ is a ⟦する→する：00392_suru⟧ verb. In the tracking sense, the particle ⟦を→を：00422_wo⟧ marks the object being tracked.\n\nSIMILAR WORDS:\n- ⟦{追|お}いかける→追いかける：16734_oikakeru⟧: to chase (everyday, physical)\n- ⟦{尾行|びこう}→尾行：18952_bikou⟧: tailing, shadowing (stealthy following of a person)\n- トラッキング: tracking (loanword, used in tech contexts)",
+  "notes": "COMMON COLLOCATIONS:\n- {追跡|ついせき}⟦{番号|ばんごう}→番号：02939_bangou⟧: tracking number\n- {追跡|ついせき}⟦サービス→サービス：01531_saabisu⟧: tracking service\n- {追跡|ついせき}⟦{調査|ちょうさ}→調査：03489_chousa⟧: follow-up investigation\n- GPS{追跡|ついせき}: GPS tracking\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{追跡|ついせき}⟦する→する：00392_suru⟧: to pursue a criminal\n- {追跡|ついせき}⟦{劇|げき}→劇：02713_geki⟧: chase scene\n\nSIMILAR WORDS:\n- ⟦{追|お}いかける→追いかける：16734_oikakeru⟧: to chase (everyday, physical)\n- ⟦{尾行|びこう}→尾行：18952_bikou⟧: tailing, shadowing (stealthy following of a person)\n- トラッキング: tracking (loanword, used in tech contexts)",
   "cross_references": [
     {
       "type": "contrast",
@@ -111,18 +111,111 @@
   ],
   "metadata": {
     "created": "2026-02-03T07:17:27Z",
-    "modified": "2026-09-02T04:01:19Z",
+    "modified": "2026-10-04T07:22:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "action"
-      ]
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{追跡|ついせき}する",
+        "negative": "{追跡|ついせき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{追跡|ついせき}します",
+        "negative": "{追跡|ついせき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{追跡|ついせき}した",
+        "negative": "{追跡|ついせき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{追跡|ついせき}しました",
+        "negative": "{追跡|ついせき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{追跡|ついせき}して",
+        "negative": "{追跡|ついせき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{追跡|ついせき}している",
+        "negative": "{追跡|ついせき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{追跡|ついせき}しています",
+        "negative": "{追跡|ついせき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{追跡|ついせき}していた",
+        "negative": "{追跡|ついせき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{追跡|ついせき}していました",
+        "negative": "{追跡|ついせき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{追跡|ついせき}すれば",
+        "negative": "{追跡|ついせき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{追跡|ついせき}したら",
+        "negative": "{追跡|ついせき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{追跡|ついせき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{追跡|ついせき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{追跡|ついせき}できる",
+        "negative": "{追跡|ついせき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{追跡|ついせき}される",
+        "negative": "{追跡|ついせき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{追跡|ついせき}させる",
+        "negative": "{追跡|ついせき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{追跡|ついせき}しろ",
+        "negative": "{追跡|ついせき}するな"
+      }
+    ]
   }
 }

@@ -2,7 +2,7 @@
   "id": "09717_naiken",
   "headword": "{内見|ないけん}",
   "reading": "ないけん",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "property viewing; apartment showing",
   "definitions": [
     {
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{内見|ないけん} is an important step in finding housing in Japan.\n\nCOMMON PATTERNS:\n- {内見|ないけん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go for a property viewing)\n- {内見|ないけん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to do a property viewing)\n- {内見|ないけん}⟦の→の：09472_no⟧⟦{予約|よやく}→予約：01522_yoyaku⟧ (property viewing appointment)\n\nWHAT TO CHECK:\n- ⟦{日当|ひあ}たり→日当たり：07498_hiatari⟧ (sunlight)\n- ⟦{収納|しゅうのう}→収納：07497_shuunou⟧ (storage space)\n- ⟦{設備|せつび}→設備：03301_setsubi⟧ (facilities)\n- ⟦{周辺環境|しゅうへんかんきょう}→周辺環境：23972_shuuhenkankyou⟧ (surrounding area)\n\nRELATED WORDS:\n- ⟦{物件|ぶっけん}→物件：06743_bukken⟧: property\n- ⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧: real estate\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧: brokerage",
+  "notes": "COMMON PATTERNS:\n- {内見|ないけん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go for a property viewing)\n- {内見|ないけん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to do a property viewing); also ⟦{物件|ぶっけん}→物件：06743_bukken⟧⟦を→を：00422_wo⟧{内見|ないけん}⟦する→する：00392_suru⟧\n- {内見|ないけん}⟦の→の：09472_no⟧⟦{予約|よやく}→予約：01522_yoyaku⟧ (property viewing appointment)\n\nWHAT TO CHECK:\n- ⟦{日当|ひあ}たり→日当たり：07498_hiatari⟧ (sunlight)\n- ⟦{収納|しゅうのう}→収納：07497_shuunou⟧ (storage space)\n- ⟦{設備|せつび}→設備：03301_setsubi⟧ (facilities)\n- ⟦{周辺環境|しゅうへんかんきょう}→周辺環境：23972_shuuhenkankyou⟧ (surrounding area)\n\nRELATED WORDS:\n- ⟦{物件|ぶっけん}→物件：06743_bukken⟧: property\n- ⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧: real estate\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧: brokerage\n- ⟦{内覧|ないらん}→内覧：11109_nairan⟧: a near-synonym, usual for new-built condominiums and for previews of exhibitions",
   "cross_references": [
     {
       "type": "related",
@@ -65,23 +65,123 @@
       "reading": "ちゅうかい",
       "headword": "{仲介|ちゅうかい}",
       "label": "brokerage"
+    },
+    {
+      "type": "related",
+      "target_id": "11109_nairan",
+      "reading": "ないらん",
+      "headword": "{内覧|ないらん}",
+      "label": "a near-synonym, usual for new-built…"
     }
   ],
   "metadata": {
     "created": "2026-02-03T06:56:37Z",
-    "modified": "2026-09-02T04:01:19Z",
+    "modified": "2026-10-04T07:23:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "building",
         "business"
-      ]
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{内見|ないけん}する",
+        "negative": "{内見|ないけん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{内見|ないけん}します",
+        "negative": "{内見|ないけん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{内見|ないけん}した",
+        "negative": "{内見|ないけん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{内見|ないけん}しました",
+        "negative": "{内見|ないけん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{内見|ないけん}して",
+        "negative": "{内見|ないけん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{内見|ないけん}している",
+        "negative": "{内見|ないけん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{内見|ないけん}しています",
+        "negative": "{内見|ないけん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{内見|ないけん}していた",
+        "negative": "{内見|ないけん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{内見|ないけん}していました",
+        "negative": "{内見|ないけん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{内見|ないけん}すれば",
+        "negative": "{内見|ないけん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{内見|ないけん}したら",
+        "negative": "{内見|ないけん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{内見|ないけん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{内見|ないけん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{内見|ないけん}できる",
+        "negative": "{内見|ないけん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{内見|ないけん}される",
+        "negative": "{内見|ないけん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{内見|ないけん}させる",
+        "negative": "{内見|ないけん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{内見|ないけん}しろ",
+        "negative": "{内見|ないけん}するな"
+      }
+    ]
   }
 }

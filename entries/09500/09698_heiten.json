@@ -2,7 +2,7 @@
   "id": "09698_heiten",
   "headword": "{閉店|へいてん}",
   "reading": "へいてん",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "store closing; closing time",
   "definitions": [
     {
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{閉店|へいてん} has two distinct meanings: daily closing (sense 1) and permanent closure (sense 2). Context usually makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- {閉店|へいてん}⟦{時間|じかん}→時間：00468_jikan⟧: closing time (daily)\n- {閉店|へいてん}⟦セール→セール：07780_seeru⟧: going-out-of-business sale (permanent)\n- {閉店|へいてん}⟦{間際|まぎわ}→間際：14564_magiwa⟧: just before closing\n- {閉店|へいてん}⟦する→する：00392_suru⟧: to close\n- {閉店|へいてん}ガラガラ: the sound of shutters closing (onomatopoeic)\n\nSIMILAR WORDS:\n- ⟦{開店|かいてん}→開店：14569_kaiten⟧: opening (opposite)\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧: end of business hours (formal)\n- ⟦{廃業|はいぎょう}→廃業：20645_haigyou⟧: going out of business (formal, permanent)\n\nFor permanent closure, {閉店|へいてん}⟦セール→セール：07780_seeru⟧ is a familiar sight — stores offer deep discounts to clear remaining inventory before shutting down.",
+  "notes": "{閉店|へいてん} has two distinct meanings: daily closing (sense 1) and permanent closure (sense 2). Context usually makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- {閉店|へいてん}⟦{時間|じかん}→時間：00468_jikan⟧: closing time (daily)\n- {閉店|へいてん}⟦セール→セール：07780_seeru⟧: going-out-of-business sale (permanent)\n- {閉店|へいてん}⟦{間際|まぎわ}→間際：14564_magiwa⟧: just before closing\n- {閉店|へいてん}⟦する→する：00392_suru⟧: to close\n\nSIMILAR WORDS:\n- ⟦{開店|かいてん}→開店：14569_kaiten⟧: opening (opposite)\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧: end of business hours (formal)\n- ⟦{廃業|はいぎょう}→廃業：20645_haigyou⟧: going out of business (formal, permanent)",
   "cross_references": [
     {
       "type": "antonym",
@@ -111,19 +111,112 @@
   ],
   "metadata": {
     "created": "2026-02-03T06:50:50Z",
-    "modified": "2026-09-04T12:29:39Z",
+    "modified": "2026-10-04T07:20:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "business",
         "time-general"
-      ]
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{閉店|へいてん}する",
+        "negative": "{閉店|へいてん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{閉店|へいてん}します",
+        "negative": "{閉店|へいてん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{閉店|へいてん}した",
+        "negative": "{閉店|へいてん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{閉店|へいてん}しました",
+        "negative": "{閉店|へいてん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{閉店|へいてん}して",
+        "negative": "{閉店|へいてん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{閉店|へいてん}している",
+        "negative": "{閉店|へいてん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{閉店|へいてん}しています",
+        "negative": "{閉店|へいてん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{閉店|へいてん}していた",
+        "negative": "{閉店|へいてん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{閉店|へいてん}していました",
+        "negative": "{閉店|へいてん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{閉店|へいてん}すれば",
+        "negative": "{閉店|へいてん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{閉店|へいてん}したら",
+        "negative": "{閉店|へいてん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{閉店|へいてん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{閉店|へいてん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{閉店|へいてん}できる",
+        "negative": "{閉店|へいてん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{閉店|へいてん}される",
+        "negative": "{閉店|へいてん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{閉店|へいてん}させる",
+        "negative": "{閉店|へいてん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{閉店|へいてん}しろ",
+        "negative": "{閉店|へいてん}するな"
+      }
+    ]
   }
 }
