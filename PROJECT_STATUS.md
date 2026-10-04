@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-04 (Routine v3: new-entries — 14 New Entries, IDs 31519–31532)
+
+Fourteen words that older entries already used: 軍勢, 疼痛, 着水, 巡航, 配当金, 提供者, 銃弾, 論理学, 無礼者, 前年比,
+使用済み, スペアタイヤ, 地方裁判所, 精白米. One new kanji (疼, kanji ID 02821). The linker connected them where they
+were first seen, and the harvester added back-links in 18 neighbours. Self-check: clean (no issues on 32 entries); one
+kana link checked and kept.
+
 ### 2026-10-03 (Routine v3: new-entries — 8 New Entries, IDs 31511–31518)
 
 Eight words that older entries already used: 何より, 叙述, 呵責, 押し返す, 理路整然, 改善策, 労災, 走り抜ける. One new
@@ -74,9 +81,3 @@ Twenty words that older entries already used: 冷や水, 違える, 吾輩, 呼�
 爪弾く, 托鉢, 更ける, 身につく, 括り付ける, 無用, 受給, 信託, 非現実的, 最大化, 法人税, 敵地, 言い訳がましい,
 深海魚. One new kanji (吾, 02819). Self-check: 1 applied (所得税 tag), 1 rejected.
 
-### 2026-10-02 (Routine v3: new-entries — 20 New Entries, IDs 31447–31466)
-
-Twenty words that older entries already used: 護憲, 狩人, サンタクロース, ばば抜き, 地下足袋, エイプリルフール,
-カルチャーショック, 高官, 最古, 建国, カーソル, 屑籠, 長官, 駅長, 保育所, 朝ドラ, 脳梗塞, 社宅, 生活保護, 握り飯.
-No new kanji. The linker connected 12 of them in the entries where they were first seen.
-Self-check skipped (daily OpenRouter cap spent).
