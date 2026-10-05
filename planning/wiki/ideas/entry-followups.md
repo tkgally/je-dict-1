@@ -1897,6 +1897,43 @@ co-equal gloss — is already with the curator.
 - **04339 万歳 sense 2** ("giving up"): five examples read as invented. The real figurative uses are 万歳する "to throw up one's hands" and the baseball fielder misjudging a fly ball. Rewrite the sense and its examples.
 - **Fixed 2026-09-28** (wiki harvest): {話|はなし}し{方|かた} → {話|はな}し in 00875 and 01628, {話|はな}し{合|あ}い in 04226, {今週|こんしゅう} in 00957. 03092 ex4 一枚 and 00111 少なくとも were already fixed.
 
+## Harvested 2026-10-05
+
+- **Fixed 2026-10-05** (wiki harvest, routine_2026-10-05_010): typos 04318 ex5 (とと), 01770 ex2 and 01771 ex3 (かか), 03626 ex2 (すれは), 06231 ex1 (和食のには), 06160 ex6 ({話|はな}し合い); furigana 00002 ex5 三本 さんぼん, 01620 お{守|まも}り, 03362 ex8 {年|とし}の末, 06748 ex6 {何|なん}でも, 06863 ex4 {一|ひと}つ, 01800 {格好|かっこ}いい, 00087 {手持|ても}ち; rendaku 03437 銀行/会社{勤|づと}め, 03520 近所{付|づ}き合い, 02552 〜{係|がかり} (ex1, 2, 4, 5, 6), 04239 電力{会社|がいしゃ}, 05137 物流{会社|がいしゃ}, 00410 段ボール{箱|ばこ}, 05886 ざあざあ{降|ぶ}り; 04160 ex4 now 百枚もの; 01856 ex2 体を暖まろう → 暖まろう, transitivity both → intransitive; 04646 寝付く (core) sense 2 "take root" removed with its five examples (that is 根付く 13113), WATCH OUT added. The other audio typos in the 2026-09-29 to 2026-10-04 observations (02812, 02909, 03207, 03635, 03997, 04113, 04118, 04295, 03948, 05153, 05509, 05515, 05938, 06702, 07312, 07450, 07611, 07664, 08028, 08093, 08295, 08340, 02545, 02768, 02052, 01194 ex9) were already fixed when checked.
+- **Number readings the furigana cannot show** (leave for the digit/counter workflow): 01294 ex8 and 02397 ex11 百キロ; 00346 ex5 十パーセント; 01350 ex2–3 and 01372 ex1, ex3; 01964 ex3 三十センチ; 03373 ex1 二十一世紀; 03802 ex2 五十パーセント; 00956 ex5 十ヶ月; 06233 ex3 二百個; 08507 ex3 十キロ (that example also uses 半月 as はんげつ in the time sense, which the entry's own note says is usually はんつき).
+- **18785 仮装** sense 2 (disguise): examples use it for criminals and spies, where 変装 is the everyday word; trim sense 2 to the camouflage/formal use.
+- **26031 格上 (かくじょう)**: looks like a non-word duplicating 13122 格上げ with wrong furigana; in needs_curator.txt.
+- **04987 鮭茶漬け**: checkers hear しゃけちゃづけ; しゃけ is common for this dish. Tom's call.
+- **01300 ございます**: tagged godan-su; it is ござる + ます. Class and table need a curator decision.
+- **08985 日日 (ひにち)**: the usual spelling is 日にち; changing the headword needs its examples and the 3 entries linking to base 日日 updated together.
+- **08986 店屋**: sense 2 "shopkeeper" doubtful; both its examples mean the shop.
+- **08970 AC**: sense 1 "air conditioning" is panel/switch text; the spoken examples may be unnatural; consider retiring the sense.
+- **09009 刷り込む**: sense 2 "rub in" is 擦り込む; a separate 擦り込む entry would be cleaner.
+- **28333 我**: mixes readings (我を通す/我を張る が; 我を忘れる/我に返る われ); in needs_curator.txt.
+- **04265 踵**: 踵を返す / 踵を接して read きびす; an entry for きびす or 踵を返す would define it.
+- **00969 また**: ex10–14 and the notes split または into また + は; relink as または (01808) or unlink the は. See backlog `auto-link-kana-function-split`.
+- **09225 書き込み**: missing the everyday sense "notes written in a book or form" (教科書の書き込み).
+- **00110 頬 (ほほ) / 03717 頬 (ほお)**: one word, two entries, no cross-reference. Consolidate or link.
+- **02007 〜まま**: tagged noun + particle; it is a formal noun. Pending a convention for formal nouns.
+- **01920 否 (core)**: every example writes the interjection いや as 否, which modern Japanese does not do. Rewrite the examples with いや or around 否か / 否と.
+- **01913 恐る**: entry is the classical verb, but the examples use 恐れる. Use 恐るべき, 恐るに足りない, 恐る恐る, or merge.
+- **02013 描く ex4**: a child drawing a flower is normally かく; pick a sentence where えがく is natural.
+- **02771 差** has three examples; **18069 茶店**: collocations put さてん on teahouse uses that fit ちゃみせ.
+- **03054 研究所**: checkers hear けんきゅうじょ; both are in use; note the variant.
+- **07659 賜る**: the honorific "bestow" sense (陛下がお言葉を賜る) is missing.
+- **04526 ワンピース**: top gloss names a swimsuit that no definition or example covers.
+- **26515 お召し上がり**: glossed "please help yourself"; gloss the noun and move the request to a pattern.
+- **03496 お名**: check that お名は何とおっしゃいますか is natural (checkers kept hearing お名前).
+- **06004 倦怠 ex2**: the voice keeps adding 感 (倦怠感を感じる); consider 倦怠感 or another verb.
+- **08032 足踏み**: 続ける links to 続く (00903) for want of a 続ける entry.
+- **18384 熟す**: 機が熟す links 機 to the machine suffix 09843; needs a 機 (chance) entry or a linker exception.
+- **07463 不可思議 ex4**: 七不可思議 should be 七不思議; rewrite the example.
+- **09724 お弁当温め**: not a set item; two examples unnatural. Curator: retire or retitle around 温め / 温める.
+- **08903 SE**: needs the everyday sense システムエンジニア (systems engineer) with examples and the occupation tag.
+- **00618 暖かい** sense 2 (warm personality) uses 暖かい where 温かい (13395) is standard; consider moving the sense and its examples.
+- **06163 取り締まる** sense 2 is now marked old-fashioned; its examples are period-flavoured by design (no action).
+- **The ご飯 words**: 昼ご飯 02950 and 夜ご飯 12332 are informal while 朝ご飯 and 晩ご飯 are neutral; one consistent decision.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
