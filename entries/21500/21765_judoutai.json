@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "A grammar term composed of ⟦{受動|じゅどう}→受動：12070_judou⟧ (passive) + {態|たい} (voice/mood). Essential vocabulary for language study. Japanese has two types of passive: direct passive ({直接受身|ちょくせつうけみ}) where the subject is the direct object of the active sentence, and indirect passive ({間接受身|かんせつうけみ}, also called \"suffering passive\") where the subject is adversely affected by an action.\n\nRELATED GRAMMAR TERMS:\n- {能動態|のうどうたい}: active voice\n- {使役態|しえきたい}: causative voice\n- {使役受動態|しえきじゅどうたい}: causative-passive voice\n- ⟦{受|う}け{身|み}→受け身：19674_ukemi⟧: passive (native Japanese term, also common)\n\nUSAGE:\nIn linguistic and educational contexts, {受動態|じゅどうたい} is the Sino-Japanese term, while ⟦{受|う}け{身|み}→受け身：19674_ukemi⟧ is the native Japanese equivalent. Both are widely used, but ⟦{受|う}け{身|み}→受け身：19674_ukemi⟧ is more common in everyday Japanese language instruction.",
+  "notes": "A grammar term composed of ⟦{受動|じゅどう}→受動：12070_judou⟧ (passive) + {態|たい} (voice/mood). Essential vocabulary for language study. Japanese has two types of passive: direct passive ({直接受身|ちょくせつうけみ}) where the subject is the direct object of the active sentence, and indirect passive ({間接受身|かんせつうけみ}, also called \"suffering passive\") where the subject is adversely affected by an action.\n\nRELATED WORDS:\n- {能動態|のうどうたい}: active voice\n- {使役態|しえきたい}: causative voice\n- {使役受動態|しえきじゅどうたい}: causative-passive voice\n- ⟦{受|う}け{身|み}→受け身：19674_ukemi⟧: passive (native Japanese term, also common)\n\nUSAGE:\nIn linguistic and educational contexts, {受動態|じゅどうたい} is the Sino-Japanese term, while ⟦{受|う}け{身|み}→受け身：19674_ukemi⟧ is the native Japanese equivalent. Both are widely used, but ⟦{受|う}け{身|み}→受け身：19674_ukemi⟧ is more common in everyday Japanese language instruction.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19674_ukemi",
+      "reading": "うけみ",
+      "headword": "{受|う}け{身|み}",
+      "label": "passive"
+    },
+    {
+      "type": "related",
+      "target_id": "30331_kanryoukei",
+      "reading": "かんりょうけい",
+      "headword": "{完了形|かんりょうけい}",
+      "label": "perfect tense"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +74,6 @@
       ]
     },
     "created": "2026-04-03T16:10:28Z",
-    "modified": "2026-09-08T15:22:31Z"
+    "modified": "2026-10-05T02:11:28Z"
   }
 }

@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A standard grammar term used in language learning and linguistics. Made up of ⟦{否定|ひてい}→否定：03707_hitei⟧ (negation) + ⟦{文|ぶん}→文：03716_bun⟧ (sentence).\n\nRELATED GRAMMAR TERMS:\n- {肯定文|こうていぶん}: affirmative sentence (antonym)\n- {疑問文|ぎもんぶん}: interrogative sentence\n- ⟦{命令文|めいれいぶん}→命令文：28285_meireibun⟧: imperative sentence\n- ⟦{否定形|ひていけい}→否定形：11500_hiteikei⟧: negative form (of a verb or adjective)\n- ⟦{全否定|ぜんひてい}→全否定：28304_zenhitei⟧: complete denial; total negation",
+  "notes": "A standard grammar term used in language learning and linguistics. Made up of ⟦{否定|ひてい}→否定：03707_hitei⟧ (negation) + ⟦{文|ぶん}→文：03716_bun⟧ (sentence).\n\nRELATED WORDS:\n- {肯定文|こうていぶん}: affirmative sentence (antonym)\n- {疑問文|ぎもんぶん}: interrogative sentence\n- ⟦{命令文|めいれいぶん}→命令文：28285_meireibun⟧: imperative sentence\n- ⟦{否定形|ひていけい}→否定形：11500_hiteikei⟧: negative form (of a verb or adjective)\n- ⟦{全否定|ぜんひてい}→全否定：28304_zenhitei⟧: complete denial; total negation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28285_meireibun",
+      "reading": "めいれいぶん",
+      "headword": "{命令文|めいれいぶん}",
+      "label": "imperative sentence"
+    },
+    {
+      "type": "related",
+      "target_id": "11500_hiteikei",
+      "reading": "ひていけい",
+      "headword": "{否定形|ひていけい}",
+      "label": "negative form"
+    },
+    {
+      "type": "related",
+      "target_id": "28304_zenhitei",
+      "reading": "ぜんひてい",
+      "headword": "{全否定|ぜんひてい}",
+      "label": "complete denial"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-05-28T04:14:18Z",
-    "modified": "2026-10-01T08:07:17Z"
+    "modified": "2026-10-05T02:11:28Z"
   }
 }

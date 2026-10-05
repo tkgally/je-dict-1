@@ -45,10 +45,25 @@
     }
   ],
   "notes": "A grammatical term from ⟦{副|ふく}→副〜：03965_fuku⟧ (secondary, adverbial) + ⟦{助詞|じょし}→助詞：03351_joshi⟧ (particle). This is one of the standard particle categories in Japanese school grammar ({学校文法|がっこうぶんぽう}).\n\nCOMMON {副助詞|ふくじょし}:\n- ⟦は→は：00079_ha⟧: topic marker (also contrast)\n- ⟦も→も：00484_mo⟧: also, even\n- ⟦こそ→こそ：12731_koso⟧: emphasis (it is precisely...)\n- さえ: even\n- ⟦でも→でも：00925_demo⟧: even, or something\n- しか: only (with negative)\n- ⟦まで→まで：00490_made⟧: even, as far as\n- ⟦ばかり→〜ばかり：02006_bakari⟧: only, nothing but\n- ⟦など→〜など：03095_nado⟧: and so on, such as\n- くらい/⟦ぐらい→ぐらい：02900_gurai⟧: about, approximately\n\nOTHER PARTICLE CATEGORIES:\n- ⟦{格助詞|かくじょし}→格助詞：16675_kakujoshi⟧: case particles (が, ⟦を→を：00422_wo⟧, ⟦に→に：00314_ni⟧, で, etc.)\n- ⟦{接続助詞|せつぞくじょし}→接続助詞：26609_setsuzokujoshi⟧: conjunctive particles (て, ば, から, etc.)\n- ⟦{終助詞|しゅうじょし}→終助詞：26064_shuujoshi⟧: sentence-final particles (⟦ね→ね：09474_ne⟧, ⟦よ→よ：09475_yo⟧, ⟦か→か：09473_ka⟧, etc.)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26064_shuujoshi",
+      "reading": "しゅうじょし",
+      "headword": "{終助詞|しゅうじょし}",
+      "label": "sentence-final particle"
+    },
+    {
+      "type": "related",
+      "target_id": "26609_setsuzokujoshi",
+      "reading": "せつぞくじょし",
+      "headword": "{接続|せつぞく}{助詞|じょし}",
+      "label": "conjunctive particle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:16:12Z",
-    "modified": "2026-10-01T08:07:16Z",
+    "modified": "2026-10-05T02:11:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
