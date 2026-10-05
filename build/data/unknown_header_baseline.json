@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-05T00:36:16Z",
+  "generated": "2026-10-05T01:37:45Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE",
@@ -534,9 +534,6 @@
       "ADVERB USE (very)",
       "NA-ADJECTIVE USE (difficult)"
     ],
-    "00599_itsumo": [
-      "FREQUENCY SCALE"
-    ],
     "00600_tokidoki": [
       "FREQUENCY SPECTRUM"
     ],
@@ -568,8 +565,7 @@
       "SENSE 2 - CHEERFUL/OPTIMISTIC"
     ],
     "00622_futari": [
-      "IRREGULAR PEOPLE COUNTERS",
-      "MORE FORMAL ALTERNATIVE"
+      "IRREGULAR PEOPLE COUNTERS"
     ],
     "00623_fuyu": [
       "CULTURAL ASSOCIATIONS",
@@ -627,10 +623,6 @@
     ],
     "00643_kippu": [
       "CONTRAST WITH チケット"
-    ],
-    "00645_ko": [
-      "COMMON OBJECTS COUNTED",
-      "COUNTING (with sound changes)"
     ],
     "00647_kurai": [
       "SENSE 1 - PHYSICAL DARKNESS",
@@ -724,10 +716,6 @@
     "00718_kitte": [
       "WHERE TO BUY"
     ],
-    "00721_konshuu": [
-      "RELATED こん- WORDS (the prefix meaning \"this, current\")",
-      "TIME SERIES"
-    ],
     "00722_kotoshi": [
       "YEAR SERIES"
     ],
@@ -741,10 +729,6 @@
     "00726_kutsushita": [
       "COUNTERS",
       "VERBS"
-    ],
-    "00727_kyonen": [
-      "NO PARTICLE NEEDED",
-      "YEAR REFERENCE SERIES"
     ],
     "00728_kyuu": [
       "READINGS BY CONTEXT",
@@ -11304,26 +11288,6 @@
     "09849_jin": [
       "COMMON NATIONALITIES",
       "REGIONAL IDENTITY"
-    ],
-    "09851_ko": [
-      "AS A PREFIX (= young/baby)",
-      "IN COMPOUNDS"
-    ],
-    "09852_chi": [
-      "SIMILAR SUFFIXES"
-    ],
-    "09854_douka": [
-      "MEANING 1 - PLEASE",
-      "MEANING 2 - WHETHER"
-    ],
-    "09855_dearu": [
-      "STYLE COMPARISON"
-    ],
-    "09856_nasai": [
-      "SOFTENED FORM"
-    ],
-    "09862_okuru": [
-      "DIFFERENCE FROM {送|おく}る"
     ],
     "09865_ha": [
       "RELATED KANJI"
