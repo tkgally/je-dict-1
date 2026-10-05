@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-10-03",
+  "updated": "2026-10-05",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -91,11 +91,11 @@
       "priority": 5,
       "batch_ready": false,
       "status": "open",
-      "scope_estimate": 45,
+      "scope_estimate": 15,
       "severity": "warn",
       "notes": "A dangling reference object lacks target_id. Resolve the intended entry id (build/word_id_lookup.json), or drop the reference if no entry exists. PROGRESS 2026-06-17: detector down 190->136 (180->130 entries). Filled target_id on the 54 refs whose headword AND reading both uniquely match an existing entry (provably-correct exact-match resolution; structural diff confirmed only target_id+modified changed). The remaining 136 are 'headword has no entry' cases that need the drop-or-keep judgment per ref (homophone notes like 00250 工夫/こうふ 'laborer' are deliberately labeled pointers to no-entry words; do NOT bulk-drop). Future runs: verify each, drop only genuine dangling refs, leave intentional homophone/contrast notes. PROGRESS 2026-06-19: detector 136->96. Resolved 40 refs across 37 entries: promoted 22 vestigial `id`->`target_id`, repointed 4 stale ids (01040/02032/00373/00213 -> 02500_shinjin/04555_tenkin/00333_ondo/02869_gaikokujin), added target_id to 14 reading/surface-verified refs (incl. reciprocal kana antonym pairs and kanji variants 堪->耐/満ち潮->満潮/交じる->混じる). Self-checked all 37 via furigana screener: clean (6 flags, all partial-reading/misparse false positives, rejected). REMAINING 96 are mostly INTENTIONAL target-less refs: referenced word has no entry, many are homophone/contrast/antonym display labels that must be KEPT (do NOT drop). Captured 14 entry-worthy referenced words as candidates. Recommend refining the detector to exclude type=homophone/contrast (or labeled) refs whose reading has no entry, so this queue converges instead of flagging permanent intentional pointers. PROGRESS 2026-06-20: detector 96->82. Filled target_id on 13 refs (00296/03477/06242/11797/12070/14705/15551/15688/16184/16466/16476/16900/17729) whose headword AND reading both uniquely match a newly-created 29338-29351 entry (curator restock of antonym/related pairs: 有限/小学/独創/実名/能動/低温/高地/父性/好天/近刊/避寒/大食/答申). Provably-correct exact-match resolution, each target read and semantically confirmed. Self-checked all 13 via furigana screener: clean (2 flags, both false positives — model misread どくそうてき, and 毎年=まいとし is valid — rejected). Captured 4 entry-worthy referenced antonyms as candidates (悪徳/急減/軟質/一神教). REMAINING 82 are overwhelmingly INTENTIONAL target-less pointers (referenced word has no entry; homophone/contrast/antonym display labels that must be KEPT). The detector now mostly flags permanent intentional pointers; refining it to exclude type=homophone/contrast/labeled refs whose reading has no entry would let this queue converge instead of re-surfacing the same ~80 every run. PROGRESS 2026-06-21: RESOLVED. Filled the 5 newly-resolvable refs (06214/12651/12671/13899/16910 -> 29383/29371/29369/29368/29370 curator restock antonym/synonym pairs; each target read and semantically confirmed). 0 resolvable target-less refs now remain dictionary-wide. Implemented the 2026-06-19/06-20 detector recommendation: check_artifacts.py missing-target-id now flags ONLY refs whose referenced word has an entry (resolvable); intentional pointers to no-entry words (homophone/antonym/contrast labels, transitivity-pair pointers) are excluded so the queue converges. `--include-intentional` restores the full 77-item audit list. Self-check (furigana screener) on the 5: 1 flag, a false positive (大切 furigana correct), rejected. Captured 10 entry-worthy referenced words as candidates. REFILL 2026-07-29: the wiki refresh re-ran the detector and it reports 12 instances across 12 entries, against the 0 recorded when this item was marked resolved on 2026-06-21. The detector was narrowed that day to flag only refs whose referenced word HAS an entry, so a refill is the expected consequence of the dictionary growing into previously-intentional pointers: a homophone/antonym label that legitimately had no target when it was written acquires one the day that word gets an entry. This is the same back-edge problem as the stale-`noentry` markers (Tooling item 19) — new entries silently invalidate old 'no entry exists' annotations. Treat as a small recurring drain, not a regression. | 2026-08-31: check_artifacts.py reports 44 instances across 40 entries; the stored 12 predated several creation batches. validate.py reports these as a note, not an error, so they pass CI and render as dead cross-reference rows.",
       "scope_unit": "instances",
-      "scope_measured_at": "2026-08-31"
+      "scope_measured_at": "2026-10-05"
     },
     {
       "id": "tag-conjugation-no-verb-pos",
@@ -152,9 +152,10 @@
       "priority": 10,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 3504,
+      "scope_estimate": 3080,
       "severity": "info",
-      "notes": "Low-urgency enrichment, not an error. 2026-08-06: the gloss-keyword suggester this item and Tooling 6 have proposed since 2026-05-23 was built empirically and measured -- it proposes for only 14.8% of the queue (2.9% at a trustworthy threshold) and ~1 in 5 proposals is wrong, and its errors are P11 defects by construction (tag taken from context the gloss mentions, not from what the headword denotes). Instrument question CLOSED: do not automate from gloss text. Remaining levers: the 350 pure-katakana entries (retag from the English source word), the within-block-inconsistency heuristic (06690/06691 exam pair), and frontier applies. Only replace 'general' when a specific tag clearly applies; otherwise leave it. Large scope -- drain slowly. | 2026-08-11: detector 3,681 (was 3,741). A polish run found 5 of 11 entries in 06865-06875 sole-general and ALL 5 replaceable with precise in-list tags, so same-era creation blocks are worth batching even though the dictionary-wide population is a slow drain. Separately: the accuracy reviewer's 'general is too broad' flags are ~25-30% of tag-flag volume every sweep and are rejected wholesale under standing policy -- escalated to the curator 2026-08-11 (tooling 95). If the curator rules general unacceptable as a sole tag, this detector becomes the whole instrument and the reviewer stops being asked the question. | Re-measured 2026-08-15: 3,642 entries (3,151 general, 442 core, 49 basic), down from 3,681 on 2026-08-14 -- hand-clearing runs at roughly 40/day against a class of 3,600. A 2026-08-14 accuracy-review run asked for 'a dedicated systemic-fix backlog item' for this class; it is this item, open and batch_ready since 2026-08-01."
+      "notes": "Low-urgency enrichment, not an error. 2026-08-06: the gloss-keyword suggester this item and Tooling 6 have proposed since 2026-05-23 was built empirically and measured -- it proposes for only 14.8% of the queue (2.9% at a trustworthy threshold) and ~1 in 5 proposals is wrong, and its errors are P11 defects by construction (tag taken from context the gloss mentions, not from what the headword denotes). Instrument question CLOSED: do not automate from gloss text. Remaining levers: the 350 pure-katakana entries (retag from the English source word), the within-block-inconsistency heuristic (06690/06691 exam pair), and frontier applies. Only replace 'general' when a specific tag clearly applies; otherwise leave it. Large scope -- drain slowly. | 2026-08-11: detector 3,681 (was 3,741). A polish run found 5 of 11 entries in 06865-06875 sole-general and ALL 5 replaceable with precise in-list tags, so same-era creation blocks are worth batching even though the dictionary-wide population is a slow drain. Separately: the accuracy reviewer's 'general is too broad' flags are ~25-30% of tag-flag volume every sweep and are rejected wholesale under standing policy -- escalated to the curator 2026-08-11 (tooling 95). If the curator rules general unacceptable as a sole tag, this detector becomes the whole instrument and the reviewer stops being asked the question. | Re-measured 2026-08-15: 3,642 entries (3,151 general, 442 core, 49 basic), down from 3,681 on 2026-08-14 -- hand-clearing runs at roughly 40/day against a class of 3,600. A 2026-08-14 accuracy-review run asked for 'a dedicated systemic-fix backlog item' for this class; it is this item, open and batch_ready since 2026-08-01.",
+      "scope_measured_at": "2026-10-05"
     },
     {
       "id": "tag-formality-over-applied",
@@ -168,7 +169,7 @@
       "status": "accuracy-review-driven",
       "scope_estimate": 50,
       "severity": "warn",
-      "notes": "batch_ready:false — the accuracy-review mode's formality-dimension pass is the right instrument (cross-model signal helps distinguish genuinely formal vocabulary from over-tagged neutrals). The accuracy-review frontier is currently fixing these as it advances through the 00001–00500 range; confirmed range through 00450. Once accuracy-review passes 00500, reassess if a standalone systemic-fix batch is warranted."
+      "notes": "batch_ready:false — the accuracy-review mode's formality-dimension pass is the right instrument (cross-model signal helps distinguish genuinely formal vocabulary from over-tagged neutrals). The accuracy-review frontier is currently fixing these as it advances through the 00001–00500 range; confirmed range through 00450. Once accuracy-review passes 00500, reassess if a standalone systemic-fix batch is warranted. 2026-10-05: polish (priority lane 04117–05233) found and fixed formal on 鼻水 04430 (with domain medical), 辞書 04707, バイク 05081, 呼び出す 04813; 嵌める 04255 was informal. A core-tier audit of formal is worth a batch."
     },
     {
       "id": "tag-descriptive-overuse",
@@ -194,9 +195,10 @@
       "priority": 99,
       "batch_ready": false,
       "status": "detector-experimental",
-      "scope_estimate": 865,
+      "scope_estimate": 970,
       "severity": "warn",
-      "notes": "P11 is the most pervasive tag-drift problem. The AUTHORITATIVE path for the in-list-but-wrong-category long tail is the accuracy-review mode's LLM tag pass (build/review_accuracy.py --dimensions tags), which judges each semantic tag against the headword (not example topics). For the MECHANICALLY-detectable slices, two high-precision checks were carved out of this noisy heuristic 2026-06-17 and ARE batch_ready: tag-proverb-idiom-mismatch and tag-concrete-noun-domain-mismatch (below). This keyword detector (check_tag_drift.py --check semantic-mismatch) stays batch_ready:false / experimental — it is a free, noisy manual-audit aid only (flags boat=transportation, school=building). Do NOT drive systemic-fix from it; use the two high-precision checks or the accuracy-review tags pass. Remediation prompt: prompts/fix_semantic_tag_drift.md."
+      "notes": "P11 is the most pervasive tag-drift problem. The AUTHORITATIVE path for the in-list-but-wrong-category long tail is the accuracy-review mode's LLM tag pass (build/review_accuracy.py --dimensions tags), which judges each semantic tag against the headword (not example topics). For the MECHANICALLY-detectable slices, two high-precision checks were carved out of this noisy heuristic 2026-06-17 and ARE batch_ready: tag-proverb-idiom-mismatch and tag-concrete-noun-domain-mismatch (below). This keyword detector (check_tag_drift.py --check semantic-mismatch) stays batch_ready:false / experimental — it is a free, noisy manual-audit aid only (flags boat=transportation, school=building). Do NOT drive systemic-fix from it; use the two high-precision checks or the accuracy-review tags pass. Remediation prompt: prompts/fix_semantic_tag_drift.md.",
+      "scope_measured_at": "2026-10-05"
     },
     {
       "id": "tag-concrete-noun-domain-mismatch",
@@ -209,9 +211,10 @@
       "priority": 11,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 17,
+      "scope_estimate": 18,
       "severity": "warn",
-      "notes": "High-precision STRUCTURAL slice of P11: a non-verb headword tagged with two or more mutually-distant hard physical-object domains is the batch garbage multi-tag signature (横断歩道 -> animal-mammal+clothing+transportation; 油絵 -> body-part+tool). Independent of keyword completeness, so it sidesteps the semantic-mismatch noise floor. Measured ~77% clear precision on the first batch (2026-06-17); 18 entries fixed. The residual ~6 are loanword/accessory/fixture polysemy where the dual tag is correct on review (マウス animal+device, 腕時計, ショルダーバッグ, 車席, 電話ボックス, 化粧ポーチ) — VERIFY per entry and KEEP defensible duals; do not force a single tag. Remediation: prompts/fix_semantic_tag_drift.md."
+      "notes": "High-precision STRUCTURAL slice of P11: a non-verb headword tagged with two or more mutually-distant hard physical-object domains is the batch garbage multi-tag signature (横断歩道 -> animal-mammal+clothing+transportation; 油絵 -> body-part+tool). Independent of keyword completeness, so it sidesteps the semantic-mismatch noise floor. Measured ~77% clear precision on the first batch (2026-06-17); 18 entries fixed. The residual ~6 are loanword/accessory/fixture polysemy where the dual tag is correct on review (マウス animal+device, 腕時計, ショルダーバッグ, 車席, 電話ボックス, 化粧ポーチ) — VERIFY per entry and KEEP defensible duals; do not force a single tag. Remediation: prompts/fix_semantic_tag_drift.md.",
+      "scope_measured_at": "2026-10-05"
     },
     {
       "id": "tag-proverb-idiom-mismatch",
@@ -226,7 +229,8 @@
       "status": "open",
       "scope_estimate": 2,
       "severity": "warn",
-      "notes": "High-precision DETERMINISTIC slice of P11: a proverb/yojijukugo/set-expression headword tagged with a physical-object/creature domain (furniture, clothing, electronics, food, animal-*) with no keyword support — the 一期一会/四苦八苦/起死回生 -> furniture family. Measured ~93% precision (2026-06-17); 14 entries fixed and the detector now returns 0 dictionary-wide. Kept open as a STANDING check (new entries can reintroduce it). Replace the object-domain tag with 'idiom'/'proverb' (or 'expression') after confirming the headword is a set phrase. Remediation: prompts/fix_semantic_tag_drift.md. Re-measured 2026-07-28: detector back to 1 flag (was 0), so the check is live again rather than exhausted."
+      "notes": "High-precision DETERMINISTIC slice of P11: a proverb/yojijukugo/set-expression headword tagged with a physical-object/creature domain (furniture, clothing, electronics, food, animal-*) with no keyword support — the 一期一会/四苦八苦/起死回生 -> furniture family. Measured ~93% precision (2026-06-17); 14 entries fixed and the detector now returns 0 dictionary-wide. Kept open as a STANDING check (new entries can reintroduce it). Replace the object-domain tag with 'idiom'/'proverb' (or 'expression') after confirming the headword is a set phrase. Remediation: prompts/fix_semantic_tag_drift.md. Re-measured 2026-07-28: detector back to 1 flag (was 0), so the check is live again rather than exhausted.",
+      "scope_measured_at": "2026-10-05"
     },
     {
       "id": "example-headword-missing",
@@ -238,9 +242,10 @@
       "priority": 3,
       "batch_ready": false,
       "status": "open",
-      "scope_estimate": 53,
+      "scope_estimate": 65,
       "severity": "warn",
-      "notes": "Two tiers: 'reading-only' (14 — kana reading present without the kanji form; either a cross-boundary misparse like 仕様 inside 直しようがない, or legitimate kana orthography like ごちそう — judge per entry) and 'headword-absent' (129 — example may show a related compound, a verb form of the nominal, or simply the wrong word, e.g. 目玉焼き in the 卵 entry). Replace bad examples with genuine headword examples carrying full inline links, or remove if the entry has examples to spare. Motivating case 00472 仕様 fixed 2026-06-10 (curator-directed). Partial fix 2026-06-11: 9 entries corrected (16 bad examples fixed/removed). Run 2026-06-12_007: 40 more entries fixed (25 removals + 15 replacements); ~45 bad examples removed or replaced. 246 encoding-corrupted entries (U+FFFD in furigana, mostly 20000-29000+) excluded from scope — need a dedicated tooling pass. Remaining scope ~88. Run 2026-06-13: 15 more entries fixed (9 removals + 6 replacements, plus 3 osewa examples corrected). Also fixed 8 tag issues found during self-check. Remaining scope ~73. Run 2026-06-14_routine: adjudicated all 31 currently-flagged entries (53 examples). Only 1 genuine fix — 22875 出回り ex2 used the verb 出回る; replaced with the noun collocation 出回りの時期; self-check also migrated 2 out-of-list semantic tags (commerce→economics, food-drink→food). The remaining ~30 flagged entries are either U+FFFD-corrupted (out of scope — owned by tooling-backlog #16, the mojibake repair pass) or legitimate kana/katakana orthography & ～-prefix headword false positives (ごちそう, おむすび, ヤギ, シミ, カツオ, カキ, しわ寄せ, 〜届 documented compounds, うかんむり radical sense, 〜時). Clean-entry semantic-fix frontier is EXHAUSTED, so batch_ready set false: any genuine headword-absent cases now hiding behind mojibake will re-surface for this lane only after tooling-backlog #16 repairs the corrupted text. REFILL 2026-07-29: detector reports 33 suspect examples in 13 noun entries (headword-absent 19, reading-only 14) against the 0 recorded here. Same standing-check refill pattern as artifact-missing-target-id."
+      "notes": "Two tiers: 'reading-only' (14 — kana reading present without the kanji form; either a cross-boundary misparse like 仕様 inside 直しようがない, or legitimate kana orthography like ごちそう — judge per entry) and 'headword-absent' (129 — example may show a related compound, a verb form of the nominal, or simply the wrong word, e.g. 目玉焼き in the 卵 entry). Replace bad examples with genuine headword examples carrying full inline links, or remove if the entry has examples to spare. Motivating case 00472 仕様 fixed 2026-06-10 (curator-directed). Partial fix 2026-06-11: 9 entries corrected (16 bad examples fixed/removed). Run 2026-06-12_007: 40 more entries fixed (25 removals + 15 replacements); ~45 bad examples removed or replaced. 246 encoding-corrupted entries (U+FFFD in furigana, mostly 20000-29000+) excluded from scope — need a dedicated tooling pass. Remaining scope ~88. Run 2026-06-13: 15 more entries fixed (9 removals + 6 replacements, plus 3 osewa examples corrected). Also fixed 8 tag issues found during self-check. Remaining scope ~73. Run 2026-06-14_routine: adjudicated all 31 currently-flagged entries (53 examples). Only 1 genuine fix — 22875 出回り ex2 used the verb 出回る; replaced with the noun collocation 出回りの時期; self-check also migrated 2 out-of-list semantic tags (commerce→economics, food-drink→food). The remaining ~30 flagged entries are either U+FFFD-corrupted (out of scope — owned by tooling-backlog #16, the mojibake repair pass) or legitimate kana/katakana orthography & ～-prefix headword false positives (ごちそう, おむすび, ヤギ, シミ, カツオ, カキ, しわ寄せ, 〜届 documented compounds, うかんむり radical sense, 〜時). Clean-entry semantic-fix frontier is EXHAUSTED, so batch_ready set false: any genuine headword-absent cases now hiding behind mojibake will re-surface for this lane only after tooling-backlog #16 repairs the corrupted text. REFILL 2026-07-29: detector reports 33 suspect examples in 13 noun entries (headword-absent 19, reading-only 14) against the 0 recorded here. Same standing-check refill pattern as artifact-missing-target-id.",
+      "scope_measured_at": "2026-10-05"
     },
     {
       "id": "unknown-semantic-tags",
@@ -272,7 +277,7 @@
       "status": "needs-detector",
       "scope_estimate": null,
       "severity": "info",
-      "notes": "Display-text only: tags.pos is canonical and is what renderer/search use, so no functional bug. part_of_speech surface variants coexist dict-wide (adjective (i-adjective) 98 vs i-adjective 256; four suru-verb spellings). batch_ready:false until the normalizer/detector (tooling item 29) exists and the curator agrees the canonical tags.pos -> display-string map (the one editorial choice). Then it becomes a safe text-substitution systemic-fix validated against the structured tag. Changes visible header text on thousands of pages -> spot-check, curator sign-off on the map."
+      "notes": "Display-text only: tags.pos is canonical and is what renderer/search use, so no functional bug. part_of_speech surface variants coexist dict-wide (adjective (i-adjective) 98 vs i-adjective 256; four suru-verb spellings). batch_ready:false until the normalizer/detector (tooling item 29) exists and the curator agrees the canonical tags.pos -> display-string map (the one editorial choice). Then it becomes a safe text-substitution systemic-fix validated against the structured tag. Changes visible header text on thousands of pages -> spot-check, curator sign-off on the map. 2026-10-05: build/normalize_pos.py now exists and reports 173 unparsed strings that are correct (137 \"noun (proper)\", 17 \"expression, verb phrase\", と-adverb, dialect, humble/keigo qualifiers); teach it to accept these as display qualifiers before any batch."
     },
     {
       "id": "entry-missing-vocabulary-tier",
@@ -1259,7 +1264,7 @@
       "scope_estimate": 11,
       "scope_unit": "entries",
       "severity": "error",
-      "notes": "Measured 2026-08-15, correcting the 2026-08-14 filing's composition: 5 〜ずる verbs with verb_class ichidan vs POS verb-irregular (09029, 13144, 18394, 19600, 20377); 3 (not 1) proper nouns carrying organization-name without the proper-noun umbrella (08853 NGO, 08907 NBA, 08908 MLB); and the 3 genuinely irregular verbs 00006 ある / 00254 来る / 00392 する, where verb_class holds the precise value and the POS tag the coarse one -- arguably the validator's bug. The 3 proper nouns are a one-line fix each; the other 8 need a ruling on which axis each field describes. Not batch_ready until that ruling. Standing cost: every run must re-read 11 errors to confirm none is its own."
+      "notes": "Measured 2026-08-15, correcting the 2026-08-14 filing's composition: 5 〜ずる verbs with verb_class ichidan vs POS verb-irregular (09029, 13144, 18394, 19600, 20377); 3 (not 1) proper nouns carrying organization-name without the proper-noun umbrella (08853 NGO, 08907 NBA, 08908 MLB); and the 3 genuinely irregular verbs 00006 ある / 00254 来る / 00392 する, where verb_class holds the precise value and the POS tag the coarse one -- arguably the validator's bug. The 3 proper nouns are a one-line fix each; the other 8 need a ruling on which axis each field describes. Not batch_ready until that ruling. Standing cost: every run must re-read 11 errors to confirm none is its own. 2026-10-05: the ずる verbs 13144 案ずる, 18394 乗ずる, 19600 禁ずる, 20377 断ずる still show verb_class ichidan vs pos verb-irregular after their tables were fixed 2026-09-30; reconcile with the class the tables now follow."
     },
     {
       "id": "tag-grammar-terminology-convention",
@@ -1522,12 +1527,12 @@
       "verify": "per-entry (after the ruling)",
       "priority": 18,
       "batch_ready": false,
-      "status": "needs-decision",
-      "scope_estimate": 129,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "entries",
       "scope_measured_at": "2026-08-31",
       "severity": "warn",
-      "notes": "129 entries, 102 of them verbs. The accuracy reviewer flags it repeatedly on stative/intransitive verbs (14449, 14468, 14625, 14612, 14370) and every flag rejects because the proposed replacements are worse. Not a sweep -- the 2026-08-27 harvest showed most holders are genuinely about existing and the crisp state-change cut is 6 entries. What is needed is one ruling: narrow the tag to be/exist/remain and migrate the stative residue to `descriptive`, or accept the broad reading and put the definition in the reviewer prompt. Escalated 2026-08-31."
+      "notes": "129 entries, 102 of them verbs. The accuracy reviewer flags it repeatedly on stative/intransitive verbs (14449, 14468, 14625, 14612, 14370) and every flag rejects because the proposed replacements are worse. Not a sweep -- the 2026-08-27 harvest showed most holders are genuinely about existing and the crisp state-change cut is 6 entries. What is needed is one ruling: narrow the tag to be/exist/remain and migrate the stative residue to `descriptive`, or accept the broad reading and put the definition in the reviewer prompt. Escalated 2026-08-31. Resolved 2026-10-05 harvest: curator narrowed the tag 2026-10-01 (being, existing, appearing, disappearing, remaining); the retag kept it on birth/death/survival words; 65 entries carry it."
     },
     {
       "id": "transitivity-review-queue",
@@ -1572,7 +1577,7 @@
       "priority": 9,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 4932,
+      "scope_estimate": 4931,
       "severity": "low",
       "notes": "Frequent labels can be added as aliases in build/data/note_headers.json instead of edited entry by entry (e.g. MODERN USAGE -> USAGE). 2026-09-23: the detector requires an ALL-CAPS line, so Title-Case pseudo-headers (\"Characteristics:\", \"Suffix Note:\") are invisible to it and to normalize_notes.py; a 2026-09-03 polish run hand-renamed them in 18 of 32 entries. Extend the header regex before sizing the fold. 2026-09-24/27 harvest: the creation-time template blocks 08244-08645 carry invented headers (PRICING, AVAILABILITY, RELATED ABILITIES, MOON PHASES, HEALTH RISKS, BENEFITS …); most sections under them restate the gloss and need deleting, not renaming. Safe aliases: COMPOUND VERB → ETYMOLOGY, FROM <LANGUAGE> → ETYMOLOGY, and COMPOUNDS whose only line is an \"X (…) + Y (…)\" breakdown → ETYMOLOGY. ALTERNATE READING usually holds a WRITING note, so it must not alias to a reading header. Polish found factual slips inside the padding (08604, 08609, 08610, 08614, 08620). 2026-10-03 systemic-fix: six labels folded by alias after reading every section (MODERN USAGE→USAGE, COMPOUND VERB→ETYMOLOGY, NOTE ON HOMOPHONES→WATCH OUT, FORMALITY LEVELS/FORMALITY SCALE→REGISTER, KANJI DISTINCTION→WRITING), 217 entries; three misfits renamed by hand first (02124 COMPOUNDS, 06294 CULTURAL NOTE, 09595 RELATED WORDS). 2026-10-03 (second cycle): COUNTER→COUNTING PATTERNS, SIMILAR→SIMILAR WORDS, RELATED VERB/RELATED NOUN→RELATED WORDS, PROVERB→COMMON EXPRESSIONS, VERB TYPE→TRANSITIVITY as aliases (227 entries); SIMILAR / RELATED TERMS (42, all from the 27318–27385 creation batch) split by hand, 21 to SIMILAR WORDS and 21 to RELATED WORDS, so it is not an alias. 2026-10-03 (third cycle): aliases CONJUGATION and its five class variants → FORMS, VERB USAGE/SURU-VERB USAGE → COMMON PATTERNS, LEGAL CONTEXT/LEGAL NOTE/FAMOUS EXAMPLES/WELL-KNOWN EXAMPLES → CULTURAL NOTE, LEGAL USAGE → USAGE, RELATED LEGAL TERMS → RELATED WORDS. Split by hand (not aliases): COMMON EXAMPLES and EXAMPLES (TYPES for category members, COMPOUNDS for suffix compounds, COMMON COLLOCATIONS for phrases), CHARACTERISTICS (CULTURAL NOTE or USAGE), LEGAL TERMS (COMPOUNDS or RELATED WORDS), ENGLISH EQUIVALENTS (USAGE with a 'Close English equivalents:' lead line). 2026-10-03 (fourth cycle): aliases KEY PATTERN → COMMON PATTERNS, KEY EXPRESSION → COMMON EXPRESSIONS, COMMON OBJECTS → COMMON COLLOCATIONS, COMMON DISHES → RELATED WORDS (RELATED PATTERNS and SIMILAR PATTERNS renamed to RELATED WORDS once, not aliased: the harvester treats PATTERNS headers as non-word), CONTRAST WITH SIMILAR WORDS/ALTERNATIVE TERMS → SIMILAR WORDS, FOUR-CHARACTER IDIOM (四字熟語) → ETYMOLOGY, VARIANT → FORMS (hand exceptions 00937, 06944, 18422, 07847). 2026-10-03 (fifth cycle): COMMON FORMS → FORMS, TIMING → CULTURAL NOTE (32 entries). Next labels to read: ALTERNATE READING (not a reading alias; see above), BUSINESS USAGE, TWO MEANINGS, KANJI READINGS, POLITENESS LEVELS, COMMON CAUSES, DIALECT, VERBAL USE, IMPORTANT DISTINCTION, STANDARD EQUIVALENT. 2026-10-04: aliases RELATED COMPOUND VERBS/BODY PARTS/FAMILY TERMS/TIME WORDS/ONOMATOPOEIA → RELATED WORDS, COMMON PATTERN → COMMON PATTERNS, ALTERNATIVE WRITING → WRITING, NOTE ON READING → PRONUNCIATION, LOANWORD → ETYMOLOGY, TWO MEANINGS/TWO MAIN MEANINGS/BUSINESS USAGE/BUSINESS CONTEXT/OTHER USES → USAGE (190 entries). Hand first: 00427 (ALTERNATIVE WRITING held a synonym → SIMILAR WORDS), 13248 (NOTE ON READING held the 四/死 superstition → CULTURAL NOTE), 03976 (claimed 各々 was a spelling of 銘々), 26819 (帛紗 without furigana), 00334, and two doubtful reading claims deleted (13463 かたげん, 15498 すうた). Next labels to read: ALTERNATE READING, ALTERNATIVE READING, KANJI READINGS (two hold reading pairs for 昨夜, 毎月), POLITENESS LEVELS, COMMON CAUSES, DIALECT, STANDARD EQUIVALENT, REGIONAL NOTE, VERBAL USE, IMPORTANT DISTINCTION, ONOMATOPOEIA, MEDICAL TERMS, GRAMMATICAL FORMS, COMMON SUBJECTS. 2026-10-04 (second cycle): aliases RELATED UNITS/RELATED TIME EXPRESSIONS/MEDICAL TERMS → RELATED WORDS, SIMILAR ONOMATOPOEIA/ALTERNATE TERMS/ALTERNATIVE NAMES → SIMILAR WORDS, HOMOPHONE DISTINCTION/IMPORTANT DISTINCTION → WATCH OUT, GRAMMATICAL FORMS/VERBAL USE → FORMS, FULL FORM → ETYMOLOGY, COMMON SUBJECTS → COMMON COLLOCATIONS (126 entries). ONOMATOPOEIA is not an alias: 17 sections split by hand (RELATED WORDS for sound lists, USAGE or ETYMOLOGY for prose). Hand first: 05298 (CULTURAL NOTE), 18341 (TYPES), 23339/23343 (USAGE). Watch the merge step: in 00140, 05626 and 08082 an existing FORMS section held a kanji breakdown and absorbed the aliased forms; split back into ETYMOLOGY + FORMS. Next labels to read: ALTERNATE READING, ALTERNATIVE READING, KANJI READINGS, POLITENESS LEVELS, COMMON CAUSES, CAUSES, DIALECT, STANDARD EQUIVALENT, REGIONAL NOTE, COMMON COLLOCATIONS (sense N), PROVERB MEANING, PREPARATION, SEASON, IDIOMATIC, NOTE ON KANJI, MEDICAL CONTEXT. 2026-10-04 (third cycle): aliases PROVERB MEANING → ETYMOLOGY, SEASON → CULTURAL NOTE, MEDICAL CONTEXT → USAGE; CAUSES / COMMON CAUSES (24 entries) rewritten as USAGE with a 'Common causes:' lead line rather than aliased; hand: 05701 SEASON → USAGE, 06299 MEDICAL CONTEXT → RELATED WORDS, 06532/06819 MEDICAL CONTEXT → COMPOUNDS, 06335 FORMS (a spelling note) → WRITING. 53 entries. Next labels to read: ALTERNATE READING, ALTERNATIVE READING, KANJI READINGS, POLITENESS LEVELS, DIALECT, STANDARD EQUIVALENT, REGIONAL NOTE, COMMON COLLOCATIONS (sense N), PREPARATION, IDIOMATIC, NOTE ON KANJI. 2026-10-04 (fourth cycle): aliases POLITENESS LEVELS/DIALECT → REGISTER, STANDARD EQUIVALENT → SIMILAR WORDS, REGIONAL NOTE → USAGE (51 headers). ALTERNATE/ALTERNATIVE READING (29) and KANJI READINGS (14) are not aliases: split by hand into PRONUNCIATION (other readings of the same word), WATCH OUT (a different word with the same kanji: 縁/ふち, 里/り, 火口/ひぐち, 大家/たいか), FORMS (05697, 07958), SIMILAR WORDS (08357), WRITING (09797); 06377 claimed a reading いちもくりょうねん that is a misreading, deleted; 05697 had kana inside a furigana span; 06103/06106 REGIONAL NOTE → CULTURAL NOTE. 15215 merge left a repeated sentence, trimmed. Next labels to read: COMMON COLLOCATIONS (sense N) (the gate rejects new ones; consider an alias that keeps the sense marker), PREPARATION, IDIOMATIC, NOTE ON KANJI, CONTRASTING TERMS, MATERIALS, ALTERNATIVE, COOKING USAGE, COMPOUND VERBS, TRANSITIVITY (as suru verb), TRANSITIVE PAIR, ALTERNATE WRITING. 2026-10-04 (fifth cycle): aliases CONTRASTING TERMS → SIMILAR WORDS, TRANSITIVE PAIR → TRANSITIVITY, ALTERNATE WRITING → WRITING, PREPARATION → CULTURAL NOTE, IDIOMATIC → COMMON EXPRESSIONS (46 headers). NOTE ON KANJI and ALTERNATIVE split by hand (WRITING / WATCH OUT / SIMILAR WORDS / COMMON COLLOCATIONS); 01203 NOTE ON KANJI was a stray remark about a vocabulary list, deleted. normalize_notes.py does not rename a header with text on the same line ('TRANSITIVE PAIR: 崩す'), and so does not merge it: 04246–04256 and 10881 fixed by hand; 04357/04363/04371 had two TRANSITIVITY sections after the merge, the duplicate list removed. Fixes found: 肝が座る → 肝が据わる (05029), 日向に出る 'spotlight' deleted (05044), あかん子ほどかわいい deleted (07531), {取替|とりかえ}え furigana (18493). Next labels to read: COMMON COLLOCATIONS (sense N), MATERIALS, COOKING USAGE, COMPOUND VERBS, TRANSITIVITY (as suru verb), COMMON VERBS, COMPARISON WITH SIMILAR WORDS, SIMILAR COMPOUNDS, PRACTICAL NOTE, IDIOM STRUCTURE, COMMON INGREDIENTS, SENSE 1 VS SENSE 2, KEY DISTINCTION, SPECIAL USAGE, RELATED COLORS. Tooling: let normalize_notes handle same-line headers. 2026-10-04 (sixth cycle): aliases COMMON VERBS → COMMON COLLOCATIONS, COMPARISON WITH SIMILAR WORDS → SIMILAR WORDS, RELATED COLORS/SIMILAR COMPOUNDS/COMMON INGREDIENTS → RELATED WORDS (43 headers); same-line SIMILAR COMPOUNDS in 05560/08124 rewritten by hand; 15614 薄桃色 glossed 'light peach' → 'pale pink'. Next labels to read: COMMON COLLOCATIONS (sense N), MATERIALS, COOKING USAGE, COMPOUND VERBS, TRANSITIVITY (as suru verb), PRACTICAL NOTE, IDIOM STRUCTURE, SENSE 1 VS SENSE 2, KEY DISTINCTION, SPECIAL USAGE. 2026-10-04 (seventh cycle): aliases MATERIALS → TYPES, COOKING USAGE/SENSE 1 VS SENSE 2/SPECIAL USAGE → USAGE, COMPOUND VERBS → COMPOUNDS, TRANSITIVITY (AS SURU VERB) → TRANSITIVITY, PRACTICAL NOTE → CULTURAL NOTE, IDIOM STRUCTURE → ETYMOLOGY, KEY DISTINCTION → SIMILAR WORDS (75 headers, 74 entries). Hand first: 07076 MATERIALS (art supplies) → RELATED WORDS; 06794 and 00349 same-line headers rewritten; 00468 時間 notes restructured (KEY DISTINCTION → WATCH OUT); 13420 SPECIAL USAGE claimed 無名 is the sword term for an unsigned blade (it is 無銘), rewritten as WATCH OUT; 23529 dated price claim and 17662 'convenience stores sell prepaid SIMs' softened; merges fixed by hand in 25819 (prose under a list), 25818 (fact list moved to USAGE), 17662 (literal \\n in a bullet). Next labels to read: COMMON COLLOCATIONS (sense N), ETIQUETTE, JAPANESE SCHOOL SYSTEM, VERBAL USAGE, COMMON VARIETIES, USAGE AS VERB, KANJI FORM, FIGURATIVE SENSE, TYPICAL SUBJECTS, FEATURES, JAPANESE EQUIVALENTS, RELATED TOOLS, COMMON SITUATIONS, KANJI WRITING. 2026-10-04 (eighth cycle): aliases ETIQUETTE/JAPANESE SCHOOL SYSTEM → CULTURAL NOTE, VERBAL USAGE/USAGE AS VERB → FORMS, KANJI FORM → WRITING, COMMON VARIETIES → TYPES, FIGURATIVE SENSE → USAGE, TYPICAL SUBJECTS → COMMON COLLOCATIONS, JAPANESE EQUIVALENTS → SIMILAR WORDS (71 headers). Hand first: 03464 とにかく, 06932 おずおず, 07126 ひょこひょこ (same-line TYPE/NUANCE/TYPICAL SUBJECTS rewritten; 07126 called びっこを引く 'neutral/clinical', it is a slur, replaced by 足を引きずる; 06932 listed itself in SIMILAR WORDS); 24487 香典袋 said the name is written in black ink (traditionally pale 薄墨); 05797 床の間 said guests sit with their back to it 'as humility' (that seat is the seat of honor). After the merge, FORMS in 02704/04816/07376/07377/07379 held kanji breakdowns, split back into ETYMOLOGY; 05445 平行して進める (standard is 並行) removed. FEATURES not aliased: its sections mix product features, parts and word lists. Next labels to read: COMMON COLLOCATIONS (sense N), FEATURES, RELATED TOOLS, COMMON SITUATIONS, KANJI WRITING, RELATED ～力 COMPOUNDS, DOMAINS, SCOPE NOTES, RELATED WEATHER TERMS, ADJECTIVE FORMS, EQUIPMENT, LITERAL SENSE. 2026-10-05: aliases RELATED TOOLS/RELATED WEATHER TERMS/EQUIPMENT/RELATED ～{力|りょく} COMPOUNDS → RELATED WORDS, KANJI WRITING → WRITING, ADJECTIVE FORMS → FORMS, LITERAL SENSE/COMMON SITUATIONS/DOMAINS/SCOPE NOTES/WHAT IT COUNTS/OTHER MEANINGS/FIGURATIVE MEANING/MULTIPLE MEANINGS → USAGE, NOTE ON READINGS → PRONUNCIATION, INTRANSITIVE PAIR → TRANSITIVITY, JAPAN CONTEXT → CULTURAL NOTE, ALTERNATE NAMES → SIMILAR WORDS (126 headers, 124 entries). FEATURES not aliased: the eight ALL-CAPS ones split by hand (RELATED WORDS 05038/06494/07332/07981, USAGE 07504, CULTURAL NOTE 08489/09732/16711); Title-case 'Features:' (04475, 04972) is invisible to the detector. Hand first: 17398 LITERAL SENSE → CULTURAL NOTE, 01378/02687 OTHER MEANINGS → COMPOUNDS, 22403 NOTE ON READINGS → WATCH OUT, same-line headers in 06499/09175/09183/04403, 03751 stray forms list deleted, 04360 duplicate TRANSITIVITY merged by hand. Next labels to read: COMMON COLLOCATIONS (sense N), COMMON LOCATIONS, KEY TERMS, ALTERNATIVE EXPRESSIONS, CONTRASTED WITH, RELATED COUNTERS, RELATED GRAMMAR TERMS, TYPICAL USES, RELATED COUNTS, ALTERNATE FORMS, FAMOUS FOR. 2026-10-05 (second cycle): aliases ALTERNATE FORMS → FORMS, COMMON LOCATIONS/TYPICAL USES → USAGE, KEY TERMS/RELATED COUNTERS/RELATED COUNTS/RELATED GRAMMAR TERMS → RELATED WORDS, ALTERNATIVE EXPRESSIONS/CONTRASTED WITH → SIMILAR WORDS (63 headers). Merges tidied by hand in 06301, 18431 (kanji breakdown split back into ETYMOLOGY), 30347 (二枚目 prose → WATCH OUT). Fixes found: 06496 処方箋薬 → 処方薬; 26059 nonword 苦局 removed; 21061 練乳 'informally called 練乳 or れんみるく' removed; 23829 茶筅 {筅} furigana, food tag removed. Next labels to read: COMMON COLLOCATIONS (sense N), FAMOUS FOR, then the next rows of check_note_headers.py --summary.",
       "scope_measured_at": "2026-10-05"
@@ -1688,7 +1693,7 @@
     },
     {
       "id": "auto-link-kanji-surface-ledger",
-      "title": "auto_link.py ignores unlink decisions for kanji surfaces (照れ in 照れる linked to 照る)",
+      "title": "auto_link.py relinks occurrences the ledger unlinks (kanji surfaces, the function-word rule, the verb-chain rule, katakana content words)",
       "source": "polishing/observations.md 2026-09-22 polish (08152_tereru)",
       "detect": "n/a — code defect in build/auto_link.py guard() (line ~712: returns early for any surface that is not pure hiragana)",
       "filter": null,
@@ -1699,7 +1704,7 @@
       "status": "open",
       "scope_estimate": 1,
       "severity": "medium",
-      "notes": "Any godan X-る whose potential/imperative stem equals an ichidan Xれる's stem collides the same way. 08152 is currently clean (0 links to 00404) because the run fixed it by hand and left it out of later auto_link passes; the next auto_link run over 08152 would reintroduce 6 bad links. See tooling-backlog.md item 145. 2026-09-23/25 harvest: same cause behind kanji heads of compounds written with okurigana between kanji (建て in 建て直す → 建つ, 描き続け → 続く, 霞ヶ関 → 霞, 売り上げ → 売り, 子ども → 子) and behind 08322 駆け巡る, where 巡って inside the headword itself was linked in all six examples. Suggested: skip a kanji-base match when the following characters continue a longer headword in the index, and never link inside a span that spells the entry's own headword."
+      "notes": "Any godan X-る whose potential/imperative stem equals an ichidan Xれる's stem collides the same way. 08152 is currently clean (0 links to 00404) because the run fixed it by hand and left it out of later auto_link passes; the next auto_link run over 08152 would reintroduce 6 bad links. See tooling-backlog.md item 145. 2026-09-23/25 harvest: same cause behind kanji heads of compounds written with okurigana between kanji (建て in 建て直す → 建つ, 描き続け → 続く, 霞ヶ関 → 霞, 売り上げ → 売り, 子ども → 子) and behind 08322 駆け巡る, where 巡って inside the headword itself was linked in all six examples. Suggested: skip a kanji-base match when the following characters continue a longer headword in the index, and never link inside a span that spells the entry's own headword. 2026-10-05 harvest: the guard gap is wider than kanji surfaces. Reported since 09-28: 言い in 言い過ぎ (08680); the function-word rule relinking か/が/は in rendaku notes (2026-10-01 new-entries); ダークホース → ホース \"hose\" (31401); the verb-chain rule relinking なら/なり to なる (06291) and いっ (いっかい, いっかげつ) to いい (00956, 27512); 及び in 及びません → the conjunction (01921). Each time review_links.py --apply-decisions removed the link and its relink step put it back. Fix: one ledger check applied to every candidate link regardless of the rule that produced it; add a unit test per path."
     },
     {
       "id": "reviewer-notes-fact-quote-prefix",
@@ -1844,6 +1849,134 @@
       "scope_estimate": 0,
       "notes": "Measured 270 at filing. Definitions' own glosses are out of scope; only the top-level gloss. Resolved 2026-10-01 (routine_2026-10-01_010): all 270 cleaned in one cycle; detect returns 0. Where the label was the only record, the tags were filled (formality/politeness/style); kin and keigo labels that meant 'one's own' or 'someone else's' became that wording in the gloss.",
       "resolved_date": "2026-10-01"
+    },
+    {
+      "id": "auto-link-kana-function-split",
+      "title": "auto_link.py splits kana conjunctions and adverbs into particle links (ので → の+で, のに, とも, または, どうか/どうも)",
+      "source": "polishing/observations.md 2026-09-28 to 2026-10-03 harvest (7 observations)",
+      "detect": "python3 - <<'X'\nimport glob,re\nn=0\nfor f in glob.glob('entries/*/*.json'):\n    k=len(re.findall(r'⟦の→の：09472_no⟧で',open(f).read()))\n    if k: n+=k; print(f,k)\nprint('total',n)\nX",
+      "filter": "occurrences where の+で is the conjunction ので (after a plain-form verb or adjective, or な); other split families (のに, とも, または, どう+か/も/やら/にか) by the same longest-match rule",
+      "fix_type": "tooling first: a longest-match rule (or function-table entries) so the linker links ので/のに/または/どうか as one unit or leaves them bare; then relink the affected entries with make mechanical",
+      "verify": "detect total falls to the residue of genuine の + で; unit tests for each family",
+      "priority": 3,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_estimate": 1426,
+      "severity": "medium",
+      "notes": "Measured 2026-10-05: 1,426 occurrences of ⟦の⟧で dictionary-wide (most are ので). Also seen: とも \"both\" → と+も (02773), ころっと → と (02676), に of にわたって (02803), quoted particles explained in prose (でも → で+も; 30473 よ, に), または → また + は (00969 ex10–14, the reviewer then reads bare また as \"or\"), ピンと → ピン \"pin\" (31168), 誠に → 誠+に (28350 exists), 甲斐 province → 甲斐 \"worth\" (15851), 機 \"chance\" → 〜機 machine (18384, 06338).",
+      "scope_measured_at": "2026-10-05"
+    },
+    {
+      "id": "pos-missing-verb-suru",
+      "title": "Sino-Japanese nouns tagged noun only although their own examples use them with する",
+      "source": "polishing/observations.md 2026-09-29 and 2026-10-04 [pattern]",
+      "detect": "python3 - <<'X'\nimport json,glob,re\nc=lambda s:re.sub(r'\\{([^|}]+)\\|[^}]+\\}',r'\\1',re.sub(r'⟦([^→⟧]*)→[^⟧]*⟧',r'\\1',s or ''))\nfor f in sorted(glob.glob('entries/*/*.json')):\n    e=json.load(open(f)); pos=e['metadata']['tags'].get('pos',[]); hw=c(e['headword'])\n    if 'noun' in pos and 'verb-suru' not in pos and re.match(r'^[一-龯々]{2,}$',hw) and any(hw+'する' in c(x['japanese']) or hw+'し' in c(x['japanese']) for x in e['examples']): print(f)\nX",
+      "filter": "open each: the example really uses the word as a suru verb (not 〜し as part of another word)",
+      "fix_type": "add verb-suru to tags.pos and the part_of_speech display string; add transitivity; check prominent_see_also to an existing XXする entry",
+      "verify": "make gate",
+      "priority": 20,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 256,
+      "severity": "low",
+      "notes": "Measured 2026-10-05: 256 entries (the regex also matches 〜し as a stem of other words; expect some false positives). Reported for the 09000 medical/business block (督促, 延滞, 憔悴, 激昂, 硬直, 麻痺, 発症 …) and 09694–09727 (閉店, 内見, 仲介, 追跡 fixed in polish).",
+      "scope_measured_at": "2026-10-05"
+    },
+    {
+      "id": "reading-missing-suru",
+      "title": "Headword ends in する but the reading omits it (14 entries)",
+      "source": "polishing/observations.md 2026-10-02 [pattern]",
+      "detect": "python3 - <<'X'\nimport json,glob,re\nfor f in sorted(glob.glob('entries/*/*.json')):\n    e=json.load(open(f)); hw=re.sub(r'\\{([^|}]+)\\|[^}]+\\}',r'\\1',e['headword'])\n    if hw.endswith('する') and not e['reading'].endswith('する'): print(f, e['reading'])\nX",
+      "filter": null,
+      "fix_type": "append する to reading; the romaji in the ID then differs from the reading, which is acceptable (IDs never change)",
+      "verify": "detect returns 0; make gate",
+      "priority": 10,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 14,
+      "severity": "low",
+      "notes": "Measured 2026-10-05: 18776, 18777, 21374–21378, 21383–21388, 21390. Check whether anything (search, sort, audio) keys on the reading before changing it.",
+      "scope_measured_at": "2026-10-05"
+    },
+    {
+      "id": "notes-forms-holds-etymology",
+      "title": "FORMS: sections that hold a kanji breakdown (\"{駐|ちゅう} (park) + {輪|りん} (wheel)\") which belongs under ETYMOLOGY",
+      "source": "polishing/observations.md 2026-10-01 [pattern]",
+      "detect": "python3 - <<'X'\nimport json,glob,re\nfor f in sorted(glob.glob('entries/*/*.json')):\n    n=json.load(open(f)).get('notes') or ''\n    if re.search(r'FORMS:\\n[^\\n]*\\} \\([^)]*\\) \\+ \\{',n): print(f)\nX",
+      "filter": "FORMS section whose only content is the character breakdown",
+      "fix_type": "rename that FORMS header to ETYMOLOGY (or merge into an existing ETYMOLOGY section)",
+      "verify": "detect returns 0; make gate",
+      "priority": 30,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 260,
+      "severity": "low",
+      "notes": "Measured 2026-10-05: 260 entries with this detector (the observation estimated 1,277 with a looser count). The 09231–09260 block does it throughout.",
+      "scope_measured_at": "2026-10-05"
+    },
+    {
+      "id": "furigana-doubled-okurigana",
+      "title": "Furigana whose reading repeats the okurigana that follows ({見積|みつも}もり, {肩透|かたすか}かし, {手持|てもち}ち)",
+      "source": "polishing/observations.md 2026-10-04 [tooling]",
+      "detect": null,
+      "filter": null,
+      "fix_type": "detector: compare the braced reading plus the following kana against a Sudachi or dictionary reading of the surface; flag a doubled kana. Then fix by hand.",
+      "verify": "audio checkers stop reporting doubled kana",
+      "priority": 15,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_estimate": null,
+      "severity": "medium",
+      "notes": "2026-10-05: the naive regex (reading ends with the kana after the brace) gives 1,910 hits, almost all legitimate ({高|たか}かった, {母|はは}は). Found by audio so far: 04113, 05153 (12 occurrences), 07664, 08028 (headword); 00087 {手持|ても}ち fixed 2026-10-05. verify_furigana.py does not catch them.",
+      "scope_measured_at": "2026-10-05"
+    },
+    {
+      "id": "reviewer-sees-furigana-stripped",
+      "title": "review_accuracy.py strips furigana, so notes naming another reading of the same kanji look like typos to the reviewer",
+      "source": "polishing/observations.md 2026-09-30 and 2026-10-03 [tooling]",
+      "detect": null,
+      "filter": null,
+      "fix_type": "render {漢字|かな} as 漢字(かな) in the reviewer payload instead of stripping the reading",
+      "verify": "rerun on 06618, 06103, 00925, 00928 and the flags disappear",
+      "priority": 12,
+      "batch_ready": false,
+      "status": "open",
+      "scope_estimate": 1,
+      "severity": "low",
+      "notes": "9 of 43 flags in the 00901–01221 accuracy-review range were this noise ({何|なん} read as 何 → 何); 06618 施工 せこう/しこう and 06103 牧場 ぼくじょう/まきば flagged at error severity.",
+      "scope_measured_at": "2026-10-05"
+    },
+    {
+      "id": "audio-quoted-particle-reading",
+      "title": "Audio reads a particle quoted on its own (「は」) by its kana (ha), not as the particle (wa)",
+      "source": "polishing/observations.md 2026-10-02 [tooling] (requested by Tom)",
+      "detect": null,
+      "filter": null,
+      "fix_type": "build/audio_text.py: MeCab tags a lone quoted particle as 記号, so phonetic_kana() keeps the kana; map 「は」→わ, 「へ」→え, 「を」→お inside quotes. This is a workflow change: audio_regression.py and an AUDIO_WORKFLOW.md changelog entry first.",
+      "verify": "03351_joshi_ex1 re-recorded and checked",
+      "priority": 8,
+      "batch_ready": false,
+      "status": "open",
+      "scope_estimate": 1,
+      "severity": "medium",
+      "notes": "Example: 03351_joshi_ex1 「は」と「が」は日本語の代表的な助詞だ。 Other grammar entries quoting particles are likely affected.",
+      "scope_measured_at": "2026-10-05"
+    },
+    {
+      "id": "inline-link-own-form-other-entry",
+      "title": "Legacy inline links point an entry's own verb forms at another entry (傷つけ → 傷つく in 01935)",
+      "source": "polishing/observations.md 2026-10-03 [tooling]",
+      "detect": null,
+      "filter": null,
+      "fix_type": "detector: a link whose surface is a conjugated form of the entry's own headword but whose target is another entry; unlink (the current linker never self-links)",
+      "verify": "make gate",
+      "priority": 25,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_estimate": null,
+      "severity": "low",
+      "notes": "Seen: 01935 傷つけ→傷つく, 01952 揃え→揃う, 02385 抜け→抜く, 10516 ひっくり返した→返す, 10587 寄り添って→添う. The current linker does not create them.",
+      "scope_measured_at": "2026-10-05"
     }
   ]
 }

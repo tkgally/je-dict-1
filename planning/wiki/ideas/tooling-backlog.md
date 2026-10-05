@@ -4645,3 +4645,5 @@ Runs that start after a kanji, most following kanji, 五十/八十 + 歳, and �
 - [Architecture and Build System](../project/architecture.md) — build script overview
 - [Schema Tag Reliability](../topics/schema-tag-reliability.md) — analysis of the tag-drift patterns that items 5 and 6 address
 - [Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md) — analysis of the wrapper-format patterns that items 8 and 9 address
+
+- 2026-10-05 harvest: `check_stale_noentry.py` classes markers on a kanji stem as unresolved when the okurigana sits outside the marker (湯呑 in 04480, 箸置 in 04481) although 湯呑み / 箸置き entries exist; match the stem plus the following kana. (The noentry markers themselves were retired by `noentry-marker-legacy`, so this matters only for the residue.)
