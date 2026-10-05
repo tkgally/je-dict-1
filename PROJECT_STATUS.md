@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-05 (Routine v3: new-entries — 12 New Entries, IDs 31593–31604)
+
+No internal-closure candidates were queued, so twelve vetted idioms and proverbs from the queue: 腕が鳴る, 拍車をかける,
+白羽の矢が立つ, 太鼓判を押す, 血も涙もない, 覆水盆に返らず, 転ばぬ先の杖, 備えあれば憂いなし, 住めば都, 鶴の一声,
+火に油を注ぐ, 泣きっ面に蜂. No new kanji. Self-check clean. Seven words their notes use were queued as candidates
+(後悔先に立たず, 弱り目に祟り目, 踏んだり蹴ったり, 石橋を叩いて渡る, 腕が上がる, 物価高, 活字離れ); くちばし and ひつまぶし screened.
+
 ### 2026-10-04 (Routine v3: new-entries — 20 New Entries, IDs 31573–31592)
 
 Eight words older entries already used: 〜末 (まつ), 雷サージ, 角 (かく), 〜棟 (とう), 保証会社, 現金書留, 炊ける, 飯台.
@@ -78,10 +85,3 @@ Fourteen words that older entries already used: 軍勢, 疼痛, 着水, 巡航, 
 使用済み, スペアタイヤ, 地方裁判所, 精白米. One new kanji (疼, kanji ID 02821). The linker connected them where they
 were first seen, and the harvester added back-links in 18 neighbours. Self-check: clean (no issues on 32 entries); one
 kana link checked and kept.
-
-### 2026-10-03 (Routine v3: new-entries — 8 New Entries, IDs 31511–31518)
-
-Eight words that older entries already used: 何より, 叙述, 呵責, 押し返す, 理路整然, 改善策, 労災, 走り抜ける. One new
-kanji (呵, kanji ID 02820). A short cycle at the end of the run. Self-check skipped (daily OpenRouter budget spent), so
-these eight have had no independent review yet. 22 links of ふける (耽る) checked against the newer 更ける entry: all stay.
-
