@@ -1684,3 +1684,7 @@ _(The 40 observations from 2026-08-31 to 2026-09-22 (the polish, accuracy-review
 - 2026-10-04 [pattern] Frontier block 09694–09727 (shopping, delivery and housing vocabulary): several nouns used with する in their own examples were tagged noun-only (閉店, 内見, 仲介, 追跡, 追加注文; fixed in polish). A detector for "examples use XXする but pos lacks verb-suru" would find the rest.
 - 2026-10-04 [entry] 08903 SE: glossed only as "sound effect"; the more common everyday meaning is システムエンジニア (systems engineer, an IT job title). Needs a second sense with examples and the occupation tag.
 - 2026-10-04 [entry] 08507: audio checks heard じゅっキロ for {十|じゅう}キロ in 08507_hangetsu_ex3 (半月で十キロ痩せた); じゅっ is the usual reading; also the example uses 半月 in the time sense with はんげつ, which the entry's own note says is usually はんつき; check the furigana
+- 2026-10-05 [entry] 09738: audio checks heard じゅうでんぎれ for {充電|じゅうでん}{切|き}れ in 09738_juudengire_ex1–ex3; check the furigana (rendaku ぎれ is the usual reading)
+- 2026-10-05 [entry] 09367: audio checks heard れいぶん / たとえ for {例|れい}え in 09367_pintokonai_ex2; check the furigana (例え reads たとえ)
+- 2026-10-05 [entry] 09698: audio checks heard ぶそく for {不足|ふそく} in 後継者不足, 09698_heiten_ex6; check the furigana (こうけいしゃぶそく)
+- 2026-10-05 [entry] 09791: audio checks heard がいしゃ for {会社|かいしゃ} in 運送会社, 09791_unsou_ex1; check the furigana (うんそうがいしゃ)
