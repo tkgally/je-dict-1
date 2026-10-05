@@ -1030,8 +1030,12 @@ class Linker:
                 cands = [c for c in cands if c.how == "forms"]
         own = [c for c in cands if c.id == ctx.own_id]
         cands = [c for c in cands if c.id != ctx.own_id]
+        if own:
+            # The surface is this entry's own headword: never hand it to a
+            # same-spelled entry (金 in 金 linked to the suffix 〜金).
+            return [], "self-headword"
         if not cands:
-            return [], ("self-headword" if own else reason)
+            return [], reason
         if len(cands) > 1:
             return [], ("ambiguous-kana" if is_pure_hiragana(surface) else "multi-candidate-kanji")
         cands, guard_reason = self.r.guard(cands, surface, ctx)
