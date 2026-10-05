@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-05T01:37:45Z",
+  "generated": "2026-10-05T02:11:22Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE",
@@ -269,9 +269,6 @@
     "00307_neji": [
       "COMMON PATTERNS (screw)",
       "COMMON PATTERNS (winding)"
-    ],
-    "00308_nemaki": [
-      "ALTERNATE FORMS"
     ],
     "00311_nenjuu": [
       "ALL YEAR ROUND",
@@ -1736,8 +1733,7 @@
       "PRONUNCIATION NOTES"
     ],
     "01493_baiten": [
-      "COMMON ITEMS SOLD",
-      "COMMON LOCATIONS"
+      "COMMON ITEMS SOLD"
     ],
     "01494_hakubutsukan": [
       "TYPES OF MUSEUMS"
@@ -3401,8 +3397,7 @@
     ],
     "02744_kenpou": [
       "ARTICLE 9",
-      "JAPAN'S CONSTITUTION",
-      "KEY TERMS"
+      "JAPAN'S CONSTITUTION"
     ],
     "02745_kouka": [
       "JAPANESE COINS"
@@ -3754,7 +3749,6 @@
       "USES OF HIRAGANA"
     ],
     "02950_hirugohan": [
-      "ALTERNATIVE EXPRESSIONS",
       "MEAL VOCABULARY"
     ],
     "02951_firumu": [
@@ -5042,9 +5036,6 @@
     "04346_seibetsu": [
       "FORM OPTIONS (traditional)"
     ],
-    "04350_seimon": [
-      "COMMON LOCATIONS"
-    ],
     "04355_seireki": [
       "CALENDAR SYSTEMS IN JAPAN"
     ],
@@ -5122,7 +5113,6 @@
     ],
     "04451_sadou": [
       "ALTERNATE READINGS",
-      "KEY TERMS",
       "MAJOR SCHOOLS"
     ],
     "04452_kendou": [
@@ -5328,9 +5318,6 @@
     ],
     "04676_mikisaa": [
       "RELATED APPLIANCES"
-    ],
-    "04678_kankisen": [
-      "COMMON LOCATIONS"
     ],
     "04681_besuto": [
       "1. CLOTHING (from English 'vest')",
@@ -5888,9 +5875,6 @@
     ],
     "05151_haadowea": [
       "CONTRAST WITH SOFTWARE"
-    ],
-    "05152_webusaito": [
-      "ALTERNATE FORMS"
     ],
     "05156_fuwafuwa": [
       "TYPICAL THINGS DESCRIBED AS ふわふわ"
@@ -6622,9 +6606,6 @@
     "05651_jamasuru": [
       "POLITE EXPRESSION"
     ],
-    "05652_denwasuru": [
-      "ALTERNATIVE EXPRESSIONS"
-    ],
     "05654_onegaisuru": [
       "SENSE 2 (PRAYER)"
     ],
@@ -7105,9 +7086,6 @@
       "ANNOUNCEMENTS",
       "TYPES OF LANDING"
     ],
-    "05983_maunto": [
-      "ALTERNATIVE EXPRESSIONS"
-    ],
     "05986_gasagasa": [
       "SOUND MEANING",
       "TEXTURE MEANING"
@@ -7227,12 +7205,6 @@
     ],
     "06109_karorii": [
       "TECHNICAL NOTE"
-    ],
-    "06111_kakeoriru": [
-      "ALTERNATE FORMS"
-    ],
-    "06115_seitenhekireki": [
-      "ALTERNATE FORMS"
     ],
     "06120_zabuton": [
       "POPULAR CULTURE"
@@ -7427,7 +7399,6 @@
       "WHEN TO SEE A DOCTOR"
     ],
     "06301_keiren": [
-      "COMMON LOCATIONS",
       "MEDICAL TERM",
       "MEDICAL WARNING"
     ],
@@ -7792,8 +7763,7 @@
       "TYPES OF UNDERGROUND PASSAGES"
     ],
     "06496_shohousen": [
-      "JAPANESE HEALTHCARE SYSTEM",
-      "KEY TERMS"
+      "JAPANESE HEALTHCARE SYSTEM"
     ],
     "06497_tentoumushi": [
       "ECOLOGICAL ROLE",
@@ -7958,7 +7928,6 @@
       "RELATED MIRRORS"
     ],
     "06553_kuracchi": [
-      "KEY TERMS",
       "THREE PEDALS (MT)",
       "TRANSMISSION TYPES"
     ],
@@ -8068,8 +8037,7 @@
       "COMMON COMPOUND TERMS"
     ],
     "06579_roon": [
-      "JAPANESE HOUSING LOANS",
-      "KEY TERMS"
+      "JAPANESE HOUSING LOANS"
     ],
     "06580_oshikatsu": [
       "COMMON ACTIVITIES",
@@ -8831,7 +8799,6 @@
       "COMMON MEASURES"
     ],
     "07137_bouhankamera": [
-      "COMMON LOCATIONS",
       "SIGNAGE"
     ],
     "07138_hinankeiro": [
@@ -9119,11 +9086,7 @@
     "07457_furukabu": [
       "OFTEN CONTRASTED WITH"
     ],
-    "07458_shingao": [
-      "CONTRASTED WITH"
-    ],
     "07459_ichigen": [
-      "CONTRASTED WITH",
       "KEY PHRASE"
     ],
     "07460_innen": [
@@ -9397,7 +9360,6 @@
       "COMMON TYPES OF {届出|とどけで}"
     ],
     "07556_hikiotoshi": [
-      "ALTERNATIVE EXPRESSIONS",
       "COMMON USES IN JAPAN"
     ],
     "07557_kariire": [
@@ -10851,7 +10813,6 @@
       "JUDO USAGE (Sense 2)"
     ],
     "08889_ichimai": [
-      "RELATED COUNTERS",
       "THINGS COUNTED WITH {枚|まい}"
     ],
     "08890_ippo": [
@@ -10864,8 +10825,7 @@
     ],
     "08892_ippaku": [
       "BOOKING EXPRESSIONS",
-      "COMMON ACCOMMODATION TERMS",
-      "RELATED COUNTERS"
+      "COMMON ACCOMMODATION TERMS"
     ],
     "08893_itteki": [
       "EMPHATIC NEGATIVE (Sense 2)",
@@ -11212,9 +11172,6 @@
     "09547_nichiyouhin": [
       "COMMON ITEMS"
     ],
-    "09553_kenbaiki": [
-      "COMMON LOCATIONS"
-    ],
     "09554_shiyouchuu": [
       "RELATED 〜{中|ちゅう} EXPRESSIONS"
     ],
@@ -11293,8 +11250,7 @@
       "RELATED KANJI"
     ],
     "09869_ji": [
-      "COUNTING PATTERN (o'clock)",
-      "RELATED COUNTERS"
+      "COUNTING PATTERN (o'clock)"
     ],
     "09870_fu": [
       "JAPANESE PREFECTURAL DIVISIONS"
@@ -11394,9 +11350,6 @@
     ],
     "09977_jukenbenkyou": [
       "COMMON PERIODS"
-    ],
-    "09980_butsugiwokamosu": [
-      "ALTERNATIVE EXPRESSIONS"
     ],
     "09990_otokui": [
       "SENSE 1 (specialty)",
@@ -11583,9 +11536,6 @@
     "10189_seisanki": [
       "WITH IC CARDS"
     ],
-    "10190_ryougaeki": [
-      "COMMON LOCATIONS"
-    ],
     "10194_nenmatsuchousei": [
       "TAX SYSTEM NOTES"
     ],
@@ -11697,9 +11647,6 @@
     "10418_tadoushi": [
       "COMMON PAIRS"
     ],
-    "10419_keiyoushi": [
-      "RELATED GRAMMAR TERMS"
-    ],
     "10420_meishi": [
       "JAPANESE PARTS OF SPEECH ({品詞|ひんし})"
     ],
@@ -11726,9 +11673,6 @@
     ],
     "10461_ya": [
       "IDIOMS AND PROVERBS"
-    ],
-    "10474_hitokuchi": [
-      "RELATED COUNTERS"
     ],
     "10479_shabushabu": [
       "HOW IT IS EATEN"
@@ -12440,8 +12384,7 @@
     ],
     "12732_nichi": [
       "COUNTING PATTERN (duration)",
-      "DATES VS. DURATION",
-      "RELATED COUNTERS"
+      "DATES VS. DURATION"
     ],
     "12733_banme": [
       "CONTRAST WITH {目|め}"
@@ -12483,9 +12426,6 @@
     ],
     "12806_osaeru": [
       "COMPARISON WITH {押|お}さえる"
-    ],
-    "12846_sankinkoutai": [
-      "KEY TERMS"
     ],
     "12964_utsuru": [
       "EXTENDED USAGE"
@@ -12883,9 +12823,6 @@
     ],
     "15167_maiyuu": [
       "SERIES"
-    ],
-    "15171_kirifuki": [
-      "TYPICAL USES"
     ],
     "15187_banzuke": [
       "SUMO CONTEXT"
@@ -13330,11 +13267,7 @@
     "17591_shiokaze": [
       "POETIC USAGE"
     ],
-    "17593_nannin": [
-      "RELATED COUNTERS"
-    ],
     "17594_nansai": [
-      "ALTERNATIVE EXPRESSIONS",
       "POLITENESS NOTE"
     ],
     "17595_akegata": [
@@ -13633,9 +13566,6 @@
     "18418_hiyoke": [
       "RELATED ～{除|よ}け WORDS"
     ],
-    "18431_haraippai": [
-      "ALTERNATE FORMS"
-    ],
     "18435_hinkonsou": [
       "RELATED SOCIAL STRATA ({層|そう})"
     ],
@@ -13869,9 +13799,6 @@
     "18837_nomikawasu": [
       "OTHER ～{交|か}わす VERBS"
     ],
-    "18895_joumonjidai": [
-      "KEY TERMS"
-    ],
     "18900_kouji": [
       "PRODUCTS MADE WITH KOJI"
     ],
@@ -14047,9 +13974,6 @@
     ],
     "19226_kyousan": [
       "EVENT CREDIT HIERARCHY"
-    ],
-    "19227_rougankyou": [
-      "ALTERNATIVE EXPRESSIONS"
     ],
     "19230_funenbutsu": [
       "ALSO CALLED",
@@ -14499,9 +14423,6 @@
     "21054_satooya": [
       "PET ADOPTION"
     ],
-    "21061_rennyuu": [
-      "ALTERNATE FORMS"
-    ],
     "21063_jinseikan": [
       "RELATED ～{観|かん} COMPOUNDS"
     ],
@@ -14669,9 +14590,6 @@
     ],
     "21764_minazuki": [
       "TRADITIONAL MONTH NAMES"
-    ],
-    "21765_judoutai": [
-      "RELATED GRAMMAR TERMS"
     ],
     "21812_matto": [
       "COMMON COLLOCATIONS (sense 1)",
@@ -15154,7 +15072,6 @@
       "OTHER PAYMENT METHODS"
     ],
     "23525_moenaigomi": [
-      "ALTERNATE FORMS",
       "MAIN TRASH CATEGORIES"
     ],
     "23526_zairyuukaado": [
@@ -15574,9 +15491,6 @@
       "MEASUREMENT SYSTEM",
       "STILL USED IN"
     ],
-    "26045_kamibaitai": [
-      "CONTRASTED WITH"
-    ],
     "26049_marukakko": [
       "JAPANESE BRACKET TYPES"
     ],
@@ -15589,25 +15503,14 @@
     "26055_nihonfuu": [
       "SIMILAR PATTERNS WITH {風|ふう}"
     ],
-    "26057_oodaiware": [
-      "CONTRASTED WITH"
-    ],
-    "26059_koukyoku": [
-      "CONTRASTED WITH"
-    ],
     "26060_teikettou": [
-      "COMMON SYMPTOMS",
-      "CONTRASTED WITH"
+      "COMMON SYMPTOMS"
     ],
     "26061_fukushokuhin": [
       "JAPANESE MEAL STRUCTURE"
     ],
-    "26063_benchiiri": [
-      "CONTRASTED WITH"
-    ],
     "26064_shuujoshi": [
-      "COMMON SENTENCE-FINAL PARTICLES",
-      "RELATED GRAMMAR TERMS"
+      "COMMON SENTENCE-FINAL PARTICLES"
     ],
     "26072_eikyouwoataeru": [
       "COMMON MODIFIERS"
@@ -15726,8 +15629,7 @@
       "FAMOUS PROVERBS"
     ],
     "26609_setsuzokujoshi": [
-      "COMMON CONJUNCTIVE PARTICLES",
-      "RELATED GRAMMAR TERMS"
+      "COMMON CONJUNCTIVE PARTICLES"
     ],
     "26610_hyoushigigiri": [
       "RELATED CUTTING TERMS"
@@ -16109,12 +16011,10 @@
       "COMMON COMPOUNDS ({空|から}-prefix)"
     ],
     "27641_hitofusa": [
-      "COUNTING WITH {房|ふさ}",
-      "TYPICAL USES"
+      "COUNTING WITH {房|ふさ}"
     ],
     "27642_hitotsubu": [
-      "COUNTING WITH {粒|つぶ}",
-      "TYPICAL USES"
+      "COUNTING WITH {粒|つぶ}"
     ],
     "27647_nankai": [
       "DISAMBIGUATION"
@@ -16123,8 +16023,7 @@
       "WRITING VARIANTS"
     ],
     "27650_roppon": [
-      "SOUND CHANGES WITH {本|ほん}",
-      "TYPICAL USES"
+      "SOUND CHANGES WITH {本|ほん}"
     ],
     "27655_chaku": [
       "USED FOR"
@@ -16166,12 +16065,6 @@
     "28139_sapporo": [
       "FAMOUS FOR"
     ],
-    "28142_uun": [
-      "TYPICAL USES"
-    ],
-    "28143_a": [
-      "TYPICAL USES"
-    ],
     "28145_aomoriken": [
       "FAMOUS FOR"
     ],
@@ -16186,9 +16079,6 @@
     ],
     "28297_bei": [
       "CROSS-REFERENCE"
-    ],
-    "28303_hiteibun": [
-      "RELATED GRAMMAR TERMS"
     ],
     "28307_irogami": [
       "CROSS-REFERENCE"
@@ -16246,9 +16136,6 @@
     ],
     "28436_kaku": [
       "DO NOT CONFUSE WITH"
-    ],
-    "28450_fukubun": [
-      "RELATED GRAMMAR TERMS"
     ],
     "28451_shubun": [
       "GRAMMAR USE (sense 1)",
@@ -16517,14 +16404,8 @@
     "29579_yurika": [
       "NOTABLE MEMBERS"
     ],
-    "29594_karuishi": [
-      "TYPICAL USES"
-    ],
     "29815_suudai": [
       "THE {数|すう}〜 PATTERN"
-    ],
-    "29820_suukai": [
-      "RELATED COUNTS"
     ],
     "29826_kudamonogari": [
       "RELATED OUTINGS"
@@ -16583,20 +16464,13 @@
     "30328_yoji": [
       "IRREGULAR HOUR READINGS"
     ],
-    "30331_kanryoukei": [
-      "RELATED GRAMMAR TERMS"
-    ],
     "30343_nankaime": [
       "ANSWERING"
     ],
     "30346_nanyoubi": [
       "ANSWERING"
     ],
-    "30347_nimai": [
-      "RELATED COUNTERS"
-    ],
     "30350_shichinin": [
-      "RELATED COUNTS",
       "WHICH READING"
     ],
     "30352_juuichinichi": [
@@ -16705,21 +16579,12 @@
       "MAIN FORMS"
     ],
     "30566_yonin": [
-      "RELATED COUNTS",
       "WHICH READING"
-    ],
-    "30567_gonin": [
-      "RELATED COUNTS"
     ],
     "30568_rokunin": [
-      "RELATED COUNTS",
       "WHICH READING"
     ],
-    "30569_hachinin": [
-      "RELATED COUNTS"
-    ],
     "30570_kyuunin": [
-      "RELATED COUNTS",
       "WHICH READING"
     ],
     "30663_tameraigachi": [
