@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-05 (Routine v3: new-entries — 10 New Entries, IDs 31610–31619)
+
+Ten internal-closure nouns that existing examples and notes already use: 賛否両論, 取り調べ, 講習, 臭み, 尋問 (noun +
+する, conjugation table added), 国際法, 損害賠償, 和平, 水性, 雪道. No new kanji; no stale markers or newcomer link
+ambiguities. Self-check skipped (the day's OpenRouter allowance was spent). 23 internal-closure candidates remain.
+
 ### 2026-10-05 (Routine v3: new-entries — 5 New Entries, IDs 31605–31609)
 
 A short last cycle (started at 112 min): five internal-closure nouns that existing examples already use, 今季, 強豪,
@@ -78,11 +84,3 @@ With the internal-closure queue then empty, twelve vetted idioms from the queue:
 襟を正す, 気が滅入る, 気を許す, 目を疑う, 目に余る, 手を尽くす, 口を揃える, 焼け石に水, 後の祭り. No new kanji.
 45 existing links to 角 (かど) checked against the new 角 (かく): all read かど, unchanged. Self-check skipped (daily
 OpenRouter budget spent); くちばし and ひつまぶし still await kana screening.
-
-### 2026-10-04 (Routine v3: new-entries — 20 New Entries, IDs 31553–31572)
-
-Twenty words that older entries already used: 道路交通法, 無失点, ぞろ目, 面取り, 水温計, 烏天狗, 差し押さえる,
-頭角を現す, 返り点, 開幕式, 球審, 成績証明書, 遠距離恋愛, ギガバイト, タイピング, 汚す (けがす), 同位体, 決選投票,
-神経衰弱 (two senses: nervous exhaustion; the card game), 一皿. No new kanji. Candidate 焼印 dropped (= 焼き印 27135).
-Self-check skipped (daily OpenRouter budget spent); くちばし and ひつまぶし await kana screening.
-
