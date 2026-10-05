@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n- ⟦{高血圧|こうけつあつ}→高血圧：04415_kouketsuatsu⟧ (high blood pressure, hypertension)\n\nRELATED MEDICAL TERMS:\n- ⟦{血圧|けつあつ}→血圧：00218_ketsuatsu⟧ (blood pressure)\n- ⟦{血圧計|けつあつけい}→血圧計：15567_ketsuatsukei⟧ (blood pressure monitor)\n- {起立性低血圧|きりつせいていけつあつ} (orthostatic hypotension)\n\nSYMPTOMS:\n- めまい (dizziness)\n- ⟦{立|た}ちくらみ→立ちくらみ：14791_tachikurami⟧ (lightheadedness upon standing)\n- {疲労感|ひろうかん} (fatigue)\n- ⟦{朝|あさ}→朝：02277_asa⟧⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧ (difficulty waking up)\n\nCULTURAL NOTE: In Japan, being {低血圧|ていけつあつ} is commonly given as an explanation for being sluggish in the morning or having difficulty waking up, though the medical connection is not strongly supported.",
+  "notes": "SIMILAR WORDS:\n- ⟦{高血圧|こうけつあつ}→高血圧：04415_kouketsuatsu⟧ (high blood pressure, hypertension)\n\nRELATED WORDS:\n- ⟦{血圧|けつあつ}→血圧：00218_ketsuatsu⟧ (blood pressure)\n- ⟦{血圧計|けつあつけい}→血圧計：15567_ketsuatsukei⟧ (blood pressure monitor)\n- {起立性低血圧|きりつせいていけつあつ} (orthostatic hypotension)\n\nRELATED WORDS (symptoms):\n- めまい (dizziness)\n- ⟦{立|た}ちくらみ→立ちくらみ：14791_tachikurami⟧ (lightheadedness upon standing)\n- {疲労感|ひろうかん} (fatigue)\n- ⟦{朝|あさ}→朝：02277_asa⟧⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧ (difficulty waking up)\n\nCULTURAL NOTE: In Japan, being {低血圧|ていけつあつ} is commonly given as an explanation for being sluggish in the morning or having difficulty waking up, though the medical connection is not strongly supported.",
   "cross_references": [
     {
       "type": "antonym",
@@ -85,11 +85,25 @@
       "reading": "けつあつけい",
       "headword": "{血圧計|けつあつけい}",
       "label": "blood pressure monitor"
+    },
+    {
+      "type": "related",
+      "target_id": "05022_memai",
+      "reading": "めまい",
+      "headword": "{眩暈|めまい}",
+      "label": "dizziness"
+    },
+    {
+      "type": "related",
+      "target_id": "14791_tachikurami",
+      "reading": "たちくらみ",
+      "headword": "{立|た}ちくらみ",
+      "label": "lightheadedness upon standing"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:16:50Z",
-    "modified": "2026-09-02T04:01:10Z",
+    "modified": "2026-10-05T18:42:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

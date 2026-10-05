@@ -3362,3 +3362,4 @@
 {"ts":"2026-10-05T12:52:30Z","entry":"04820","field":"examples[4]","surface":"ので","base":"ので","target":"09501_node","context":"平日な【ので】店はがらがらです。","decision":"keep","src":"self-check","by":"claude","note":"conjunction ので"}
 {"ts":"2026-10-05T13:08:20Z","entry":"00956","field":"notes","surface":"か","base":"か","target":"09473_ka","context":"カ月, 【か】月 and 箇月","decision":"unlink","src":"polish","by":"claude","note":"part of the spelling か月, not the particle"}
 {"ts":"2026-10-05T13:13:55Z","entry":"00927","field":"examples[4]","surface":"です","base":"です","target":"09485_desu","context":"仕事に遅れたくないん【です】。","decision":"keep","src":"self-check","by":"claude","note":"んです is の + です"}
+{"ts": "2026-10-05T19:00:00Z", "entry": "05007", "field": "notes", "surface": "食った", "base": "食らう", "target": "10022_kurau", "decision": "retarget", "src": "systemic-fix", "by": "claude", "note": "くった is the past of 食う, not 食らう", "new_base": "食う", "new_target": "02657_kuu"}
