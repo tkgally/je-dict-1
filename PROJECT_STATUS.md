@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-05 (Routine v3: new-entries — 5 New Entries, IDs 31605–31609)
+
+A short last cycle (started at 112 min): five internal-closure nouns that existing examples already use, 今季, 強豪,
+満足度, 両社, 冷戦. No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped (the day's OpenRouter
+allowance was spent). 33 internal-closure candidates remain.
+
 ### 2026-10-05 (Routine v3: candidates — 31 internal-closure candidates, C24002–C24032)
 
 The noentry-marker source is empty since the markers were retired, so this run scanned the unlinked text of every example
@@ -80,9 +86,3 @@ Twenty words that older entries already used: 道路交通法, 無失点, ぞろ
 神経衰弱 (two senses: nervous exhaustion; the card game), 一皿. No new kanji. Candidate 焼印 dropped (= 焼き印 27135).
 Self-check skipped (daily OpenRouter budget spent); くちばし and ひつまぶし await kana screening.
 
-### 2026-10-04 (Routine v3: new-entries — 20 New Entries, IDs 31533–31552)
-
-Twenty words that older entries already used: 抑うつ, 財務省, 院内感染, 機能障害, 動脈瘤, 静脈瘤, 四角四面, フレイル,
-闇バイト, うな重, うな丼, ひつまぶし, 白焼き, 戻りガツオ, 表装, 文房四宝, されど, 追い抜き, 共同浴場, 新快速. No new
-kanji. The harvester added back-links in 15 neighbours. Two stale candidates removed (許しがたい and そうはいっても
-duplicate 許し難い and そうは言っても). Self-check skipped (daily OpenRouter budget spent); ひつまぶし awaits kana screening.
