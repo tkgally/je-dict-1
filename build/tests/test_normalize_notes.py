@@ -97,6 +97,22 @@ class TestNormalizeNotes(unittest.TestCase):
         self.assertFalse(ch.changed)
         self.assertEqual(nn.unknown_headers(notes, VOCAB), ["ZZZ UNKNOWN SECTION"])
 
+    def test_qualified_canonical_headers(self):
+        notes = ("COLLOCATIONS (sense 1):\n- a\n\nCOMMON COLLOCATIONS (sense 2):\n- b\n\n"
+                 "COMMON COLLOCATIONS (sense 1):\n- c")
+        out, ch = nn.normalize_notes(notes, VOCAB)
+        self.assertEqual(out, "COMMON COLLOCATIONS (sense 1):\n- a\n- c\n\n"
+                              "COMMON COLLOCATIONS (sense 2):\n- b")
+        self.assertEqual(nn.unknown_headers(out, VOCAB), [])
+        self.assertEqual(nn.resolve_header("WATCH OUT (all しんこう)", VOCAB), "WATCH OUT (all しんこう)")
+
+    def test_qualifier_needs_a_known_base(self):
+        self.assertIsNone(nn.resolve_header("ZZZ UNKNOWN (sense 1)", VOCAB))
+        # canonical names with their own parenthetical take no second one
+        self.assertIsNone(nn.resolve_header("ASPECT (こぼれている)", VOCAB))
+        self.assertEqual(nn.resolve_header("ASPECT (ている)", VOCAB), "ASPECT (ている)")
+        self.assertEqual(nn.unknown_headers("ZZZ UNKNOWN (sense 1):\nx", VOCAB), ["ZZZ UNKNOWN (sense 1)"])
+
     def test_unknown_duplicates_are_not_merged(self):
         notes = "ZZZ UNKNOWN SECTION:\na\n\nZZZ UNKNOWN SECTION:\nb"
         out, ch = nn.normalize_notes(notes, VOCAB)

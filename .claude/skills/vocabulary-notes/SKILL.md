@@ -96,7 +96,9 @@ header outside it, and `build/normalize_notes.py` renames legacy spellings):
 Legacy names such as `GRAMMAR:`, `COLLOCATIONS:`, `SIMILAR VERBS:`, `USAGE NOTES:`,
 `CONTRAST:`, `CULTURAL CONTEXT:`, `COMMON MISTAKES:` map to the canonical ones above
 and are renamed by the normalizer. Do not invent a topical header ("PET ADOPTION:");
-put that material under `USAGE:` or `CULTURAL NOTE:`.
+put that material under `USAGE:` or `CULTURAL NOTE:`. A canonical header may carry one
+trailing parenthetical qualifier to split a section by sense or kind:
+`COMMON COLLOCATIONS (sense 1):`, `COMMON COLLOCATIONS (figurative):`, `WATCH OUT (homophones):`.
 
 Example:
 
