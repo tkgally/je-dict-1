@@ -54,8 +54,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of ⟦{鉄|てつ}→鉄：02225_tetsu⟧ (iron) + ⟦{製|せい}→〜製：02001_sei⟧ (made of). The suffix ⟦{製|せい}→〜製：02001_sei⟧ is highly productive and attaches to material names to indicate what something is made from. Understanding this pattern unlocks many similar compounds.\n\nCOMMON COLLOCATIONS:\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦フライパン→フライパン：01025_furaipan⟧: iron frying pan\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦{門|もん}→門：14603_mon⟧: iron gate\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦{柵|さく}→柵：13103_saku⟧: iron fence\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦{鍋|なべ}→鍋：01038_nabe⟧: iron pot\n\nSIMILAR PATTERN (⟦{製|せい}→〜製：02001_sei⟧ compounds):\n- ⟦{木製|もくせい}→木製：13083_mokusei_b⟧: made of wood\n- ⟦{金属製|きんぞくせい}→金属製：28457_kinzokusei⟧: made of metal\n- ⟦{革製|かわせい}→革製：26255_kawasei⟧: made of leather\n- {陶製|とうせい}: made of ceramic\n- {銅製|どうせい}: made of copper\n- ⟦プラスチック→プラスチック：00347_purasuchikku⟧⟦{製|せい}→〜製：02001_sei⟧: made of plastic",
-  "cross_references": [],
+  "notes": "Composed of ⟦{鉄|てつ}→鉄：02225_tetsu⟧ (iron) + ⟦{製|せい}→〜製：02001_sei⟧ (made of). The suffix ⟦{製|せい}→〜製：02001_sei⟧ is highly productive and attaches to material names to indicate what something is made from. Understanding this pattern unlocks many similar compounds.\n\nCOMMON COLLOCATIONS:\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦フライパン→フライパン：01025_furaipan⟧: iron frying pan\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦{門|もん}→門：14603_mon⟧: iron gate\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦{柵|さく}→柵：13103_saku⟧: iron fence\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦{鍋|なべ}→鍋：01038_nabe⟧: iron pot\n\nRELATED WORDS (⟦{製|せい}→〜製：02001_sei⟧ compounds):\n- ⟦{木製|もくせい}→木製：13083_mokusei_b⟧: made of wood\n- ⟦{金属製|きんぞくせい}→金属製：28457_kinzokusei⟧: made of metal\n- ⟦{革製|かわせい}→革製：26255_kawasei⟧: made of leather\n- {陶製|とうせい}: made of ceramic\n- {銅製|どうせい}: made of copper\n- ⟦プラスチック→プラスチック：00347_purasuchikku⟧⟦{製|せい}→〜製：02001_sei⟧: made of plastic",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13083_mokusei_b",
+      "reading": "もくせい",
+      "headword": "{木製|もくせい}",
+      "label": "made of wood"
+    },
+    {
+      "type": "related",
+      "target_id": "28457_kinzokusei",
+      "reading": "きんぞくせい",
+      "headword": "{金属製|きんぞくせい}",
+      "label": "made of metal"
+    },
+    {
+      "type": "related",
+      "target_id": "26255_kawasei",
+      "reading": "かわせい",
+      "headword": "{革製|かわせい}",
+      "label": "made of leather"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +93,6 @@
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-09-02T04:02:24Z"
+    "modified": "2026-10-05T18:42:50Z"
   }
 }
