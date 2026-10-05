@@ -205,6 +205,19 @@ class TestRulesWithSudachi(unittest.TestCase):
         # a question particle on its own still links to か
         self.assertIn("⟦か→か：09473_ka⟧", linker.link_text("{本|ほん}を{読|よ}むか。", ctx))
 
+    def test_own_headword_is_not_handed_to_a_same_spelled_entry(self):
+        mini = MINI + [entry("02666_kin", "{金|きん}", "きん"), entry("30106_kin", "〜{金|きん}", "きん", "suffix")]
+        resolver = al.Resolver(mini)
+        linker = al.Linker(resolver, _SUDACHI)
+        ctx = resolver.entry_ctx({"id": "02666_kin", "headword": "{金|きん}", "reading": "きん"}, _SUDACHI)
+        self.assertNotIn("30106_kin", linker.link_text("{金|きん}は{高|たか}い。", ctx))
+        # another entry still links 金 to the suffix when it is the only candidate
+        mini2 = MINI + [entry("30106_kin", "〜{金|きん}", "きん", "suffix")]
+        resolver2 = al.Resolver(mini2)
+        linker2 = al.Linker(resolver2, _SUDACHI)
+        ctx2 = resolver2.entry_ctx({"id": "99999_test", "headword": "テスト", "reading": "てすと"}, _SUDACHI)
+        self.assertIn("30106_kin", linker2.link_text("{金|きん}を{払|はら}う。", ctx2))
+
     def test_content_word_plus_particle_is_not_merged(self):
         # そこで exists as a conjunction, but そこ + で must stay two links
         self.assertEqual(link("そこで"), "⟦そこ→そこ：00991_soko⟧⟦で→で：00502_de⟧")
