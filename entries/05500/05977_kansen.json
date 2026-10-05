@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "RELATED WORDS:\n- ⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧: infectious disease\n- ⟦{感染者|かんせんしゃ}→感染者：28388_kansensha⟧: infected person\n- ⟦{感染経路|かんせんけいろ}→感染経路：17484_kansenkeiro⟧: route of infection\n- {感染拡大|かんせんかくだい}: spread of infection\n- {院内感染|いんないかんせん}: hospital-acquired infection\n\nTYPES:\n- ⟦ウイルス→ウイルス：05223_uirusu⟧{感染|かんせん}: viral infection\n- ⟦{細菌|さいきん}→細菌：13791_saikin⟧{感染|かんせん}: bacterial infection\n- ⟦{飛沫|ひまつ}→飛沫：29069_himatsu⟧{感染|かんせん}: droplet transmission\n- ⟦{接触|せっしょく}→接触：12904_sesshoku⟧{感染|かんせん}: contact transmission\n\nPREVENTION:\n- ⟦{手洗|てあら}い→手洗い：12761_tearai⟧: hand washing\n- ⟦マスク→マスク：05075_masuku⟧: mask\n- ⟦{換気|かんき}→換気：00172_kanki⟧: ventilation\n- ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: disinfection",
+  "notes": "RELATED WORDS:\n- ⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧: infectious disease\n- ⟦{感染者|かんせんしゃ}→感染者：28388_kansensha⟧: infected person\n- ⟦{感染経路|かんせんけいろ}→感染経路：17484_kansenkeiro⟧: route of infection\n- {感染拡大|かんせんかくだい}: spread of infection\n- ⟦{院内感染|いんないかんせん}→院内感染：31535_innaikansen⟧: hospital-acquired infection\n- ⟦{手洗|てあら}い→手洗い：12761_tearai⟧: hand washing\n- ⟦マスク→マスク：05075_masuku⟧: mask\n- ⟦{換気|かんき}→換気：00172_kanki⟧: ventilation\n- ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: disinfection\n\nTYPES:\n- ⟦ウイルス→ウイルス：05223_uirusu⟧{感染|かんせん}: viral infection\n- ⟦{細菌|さいきん}→細菌：13791_saikin⟧{感染|かんせん}: bacterial infection\n- ⟦{飛沫|ひまつ}→飛沫：29069_himatsu⟧{感染|かんせん}: droplet transmission\n- ⟦{接触|せっしょく}→接触：12904_sesshoku⟧{感染|かんせん}: contact transmission",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,39 @@
       "headword": "{炎症|えんしょう}",
       "label": "inflammation",
       "target_id": "05978_enshou"
+    },
+    {
+      "type": "related",
+      "target_id": "12761_tearai",
+      "reading": "てあらい",
+      "headword": "{手洗|てあら}い",
+      "label": "hand washing"
+    },
+    {
+      "type": "related",
+      "target_id": "05075_masuku",
+      "reading": "ますく",
+      "headword": "マスク",
+      "label": "mask"
+    },
+    {
+      "type": "related",
+      "target_id": "00172_kanki",
+      "reading": "かんき",
+      "headword": "{換気|かんき}",
+      "label": "ventilation"
+    },
+    {
+      "type": "related",
+      "target_id": "07591_shoudoku",
+      "reading": "しょうどく",
+      "headword": "{消毒|しょうどく}",
+      "label": "disinfection"
     }
   ],
   "metadata": {
     "created": "2026-01-16T17:32:04Z",
-    "modified": "2026-10-04T06:51:41Z",
+    "modified": "2026-10-05T12:34:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

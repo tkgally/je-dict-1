@@ -1,5 +1,5 @@
 {
-  "_doc": "Canonical section headers for the notes field, with the legacy spellings that map to each. Consumed by build/normalize_notes.py (rename sweep), build/check_note_headers.py (CI ratchet: no new header outside this list), build/score_note_quality.py (section detection), and documented for writers in .claude/skills/vocabulary-notes/SKILL.md. A header is an ALL-CAPS line ending in a colon. Aliases are matched case-insensitively after trimming; a parenthetical Japanese gloss like 'ASPECT (ている)' is kept on the canonical form where listed. Headers not listed anywhere here are 'unknown': the ratchet tolerates the ones in build/data/unknown_header_baseline.json and blocks new ones.",
+  "_doc": "Canonical section headers for the notes field, with the legacy spellings that map to each. Consumed by build/normalize_notes.py (rename sweep), build/check_note_headers.py (CI ratchet: no new header outside this list), build/score_note_quality.py (section detection), and documented for writers in .claude/skills/vocabulary-notes/SKILL.md. A header is an ALL-CAPS line ending in a colon. Aliases are matched case-insensitively after trimming; a parenthetical Japanese gloss like 'ASPECT (ている)' is kept on the canonical form where listed. A canonical name or alias followed by one trailing parenthetical qualifier ('COLLOCATIONS (sense 2)') is canonical too and is written 'CANONICAL (qualifier)'; canonical names that carry their own parenthetical take no qualifier. Headers not listed anywhere here are 'unknown': the ratchet tolerates the ones in build/data/unknown_header_baseline.json and blocks new ones.",
   "canonical": {
     "USAGE": {
       "aliases": [
@@ -67,7 +67,12 @@
         "FIGURATIVE MEANING",
         "MULTIPLE MEANINGS",
         "COMMON LOCATIONS",
-        "TYPICAL USES"
+        "TYPICAL USES",
+        "SENSE DISTINCTION",
+        "TWO NUANCES",
+        "SLANG",
+        "DISAMBIGUATION",
+        "DOMAIN"
       ],
       "description": "How and when the word is used; core meaning beyond the gloss; restrictions; nuance."
     },
@@ -180,7 +185,9 @@
         "COMPOUND FORMS",
         "COMMON COMPOUND WORDS",
         "KEY COMPOUNDS",
-        "COMPOUND VERBS"
+        "COMPOUND VERBS",
+        "COMMON TERMS",
+        "COMMON COMPOUND"
       ],
       "description": "Compound words containing the headword."
     },
@@ -227,7 +234,9 @@
         "VERBAL USAGE",
         "USAGE AS VERB",
         "ADJECTIVE FORMS",
-        "ALTERNATE FORMS"
+        "ALTERNATE FORMS",
+        "SHORTENED FORM",
+        "WORD TYPE"
       ],
       "description": "Inflectional and derivational forms (〜く / 〜さ / 〜的 / 〜化), variant spellings."
     },
@@ -294,7 +303,8 @@
         "JAPANESE EQUIVALENTS",
         "ALTERNATE NAMES",
         "ALTERNATIVE EXPRESSIONS",
-        "CONTRASTED WITH"
+        "CONTRASTED WITH",
+        "SIMILAR PROVERBS"
       ],
       "description": "Near-synonyms, contrasts, and antonyms, each with the distinction a learner needs."
     },
@@ -340,7 +350,10 @@
         "KEY TERMS",
         "RELATED COUNTERS",
         "RELATED COUNTS",
-        "RELATED GRAMMAR TERMS"
+        "RELATED GRAMMAR TERMS",
+        "KO-SO-A-DO SERIES",
+        "SCIENTIFIC TERMS",
+        "SOCCER POSITIONS"
       ],
       "description": "Thematically connected vocabulary (not near-synonyms)."
     },
@@ -462,7 +475,14 @@
         "PRACTICAL NOTE",
         "ETIQUETTE",
         "JAPANESE SCHOOL SYSTEM",
-        "JAPAN CONTEXT"
+        "JAPAN CONTEXT",
+        "FAMOUS FOR",
+        "SAFETY NOTE",
+        "HEALTH NOTE",
+        "SEASONAL CONTEXT",
+        "PREVENTION",
+        "HOW IT WORKS",
+        "NUTRITION"
       ],
       "description": "Cultural, social, or practical background a learner needs."
     },
@@ -500,7 +520,8 @@
         "LOANWORD",
         "FULL FORM",
         "PROVERB MEANING",
-        "IDIOM STRUCTURE"
+        "IDIOM STRUCTURE",
+        "COMPOUND VERB STRUCTURE"
       ],
       "description": "Where the word comes from, including the source word of a loanword."
     },
@@ -590,7 +611,8 @@
         "COUNTING STREAKS",
         "COUNTER USE",
         "COUNTER USES",
-        "COUNTER"
+        "COUNTER",
+        "AS A COUNTER"
       ],
       "description": "Counters: the number forms and sound changes."
     },
@@ -608,7 +630,8 @@
         "EXAMPLES OF TYPES",
         "SUBTYPES",
         "MATERIALS",
-        "COMMON VARIETIES"
+        "COMMON VARIETIES",
+        "INCLUDES"
       ],
       "description": "Kinds of the thing named, when the list helps a learner."
     },
@@ -638,7 +661,8 @@
         "SOUND",
         "HOW TO READ",
         "NOTE ON READING",
-        "NOTE ON READINGS"
+        "NOTE ON READINGS",
+        "SOUND CHANGES IN THE THOUSANDS"
       ],
       "description": "Reading and accent notes when they matter."
     },
@@ -674,7 +698,8 @@
         "ALTERNATIVE WRITING",
         "ALTERNATE WRITING",
         "KANJI FORM",
-        "KANJI WRITING"
+        "KANJI WRITING",
+        "RELATED KANJI"
       ],
       "description": "Whether to write in kanji or kana; variant kanji; okurigana."
     }

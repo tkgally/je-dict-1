@@ -8,13 +8,18 @@ header lines and bullet markers:
   (a) a header line whose text (trimmed, trailing colon removed, whitespace
       collapsed, case-insensitive, inline links reduced to their surface text)
       equals a canonical header or one of its aliases is rewritten to the
-      canonical ``CANONICAL:`` form;
+      canonical ``CANONICAL:`` form; a canonical header or alias followed by
+      one trailing parenthetical qualifier (``COLLOCATIONS (sense 2):``) is
+      canonical too and becomes ``CANONICAL (qualifier):``, qualifier kept as
+      written (canonical names that carry their own parenthetical, such as
+      ``ASPECT (ている)``, take no qualifier);
   (b) bullet lines starting with ``・`` or ``•`` (optionally indented; a space
       after the marker is optional) or with ``‐``/``–`` followed by a space are
       rewritten as ``- `` bullets, keeping any indentation;
   (c) when two sections end up under the same canonical header (e.g. an entry
       had both COLLOCATIONS: and COMMON COLLOCATIONS:), the later section's
-      lines are appended to the first and the duplicate header dropped;
+      lines are appended to the first and the duplicate header dropped
+      (qualified headers merge only with the identical qualified header);
   (d) runs of three or more consecutive newlines (two or more blank lines) are
       collapsed to a single blank line, which is the corpus convention;
   (e) headers that are neither canonical nor an alias are reported (counts,
@@ -83,6 +88,30 @@ def normalize_header_text(body: str) -> str:
 
 def header_key(body: str) -> str:
     return normalize_header_text(body).upper()
+
+
+QUALIFIER_RE = re.compile(r"^(?P<base>.*?\S)\s*(?P<qual>[(（][^()（）]*[)）])$")
+
+
+def resolve_header(body: str, vocab: dict):
+    """Return the canonical form of header text `body`, or None when unknown.
+
+    An exact canonical name or alias maps to the canonical name. Failing that,
+    a canonical name or alias followed by one trailing parenthetical qualifier
+    maps to ``CANONICAL (qualifier)``; build/harvest_crossrefs.py and
+    build/score_note_quality.py already read such headers by their base.
+    """
+    key = header_key(body)
+    canon = vocab.get(key)
+    if canon is not None:
+        return canon
+    m = QUALIFIER_RE.match(normalize_header_text(body))
+    if not m:
+        return None
+    canon = vocab.get(header_key(m.group("base")))
+    if canon is None or "(" in canon:
+        return None
+    return f"{canon} {m.group('qual')}"
 
 
 def load_header_vocab(path: Path = DEFAULT_VOCAB) -> dict:
@@ -175,8 +204,7 @@ def normalize_notes(notes: str, vocab: dict) -> tuple:
     for line in lines:
         body = header_body(line)
         if body is not None:
-            key = header_key(body)
-            canon = vocab.get(key)
+            canon = resolve_header(body, vocab)
             if canon is not None:
                 new_line = f"{canon}:"
                 if new_line != line:
@@ -242,7 +270,7 @@ def find_headers(notes: str, vocab: dict):
         body = header_body(line)
         if body is None:
             continue
-        yield i, normalize_header_text(body), vocab.get(header_key(body))
+        yield i, normalize_header_text(body), resolve_header(body, vocab)
 
 
 def unknown_headers(notes: str, vocab: dict) -> list:
