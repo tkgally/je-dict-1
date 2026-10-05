@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-05 (Routine v3: candidates — 31 internal-closure candidates, C24002–C24032)
+
+The noentry-marker source is empty since the markers were retired, so this run scanned the unlinked text of every example
+with SudachiPy for content-word lemmas that have no entry, excluding each entry's own headword. Queued 31 words that 2 to 24
+examples already use: 今季, 強豪, 満足度, 両社, 賛否両論, 冷戦, 取り調べ, 講習, 臭み, 乗り上げる, 尋問, 国際法, 損害賠償, 和平,
+水性, 株主総会, 航行, 選挙戦, 細める, 雪道, 拡充, 忠臣, 飛び交う, 両家, 定食屋, 満塁, 通気性, 浴びせる, 先立つ, 党内, 絶つ.
+Variant spellings of existing entries (子ども, 気づく, 引っ越し, 玉ねぎ, 人混み …) were dropped. Queue: 84.
+
 ### 2026-10-05 (Routine v3: new-entries — 12 New Entries, IDs 31593–31604)
 
 No internal-closure candidates were queued, so twelve vetted idioms and proverbs from the queue: 腕が鳴る, 拍車をかける,
@@ -78,10 +86,3 @@ Twenty words that older entries already used: 抑うつ, 財務省, 院内感染
 闇バイト, うな重, うな丼, ひつまぶし, 白焼き, 戻りガツオ, 表装, 文房四宝, されど, 追い抜き, 共同浴場, 新快速. No new
 kanji. The harvester added back-links in 15 neighbours. Two stale candidates removed (許しがたい and そうはいっても
 duplicate 許し難い and そうは言っても). Self-check skipped (daily OpenRouter budget spent); ひつまぶし awaits kana screening.
-
-### 2026-10-04 (Routine v3: new-entries — 14 New Entries, IDs 31519–31532)
-
-Fourteen words that older entries already used: 軍勢, 疼痛, 着水, 巡航, 配当金, 提供者, 銃弾, 論理学, 無礼者, 前年比,
-使用済み, スペアタイヤ, 地方裁判所, 精白米. One new kanji (疼, kanji ID 02821). The linker connected them where they
-were first seen, and the harvester added back-links in 18 neighbours. Self-check: clean (no issues on 32 entries); one
-kana link checked and kept.
