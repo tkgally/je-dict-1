@@ -7,3 +7,4 @@
 2026-10-04T02:10Z 04699 見積り and 05153 見積もり are the same word (spelling variants, both general tier, both 'estimate; quotation'). Consider retiring one into the other with build/retire_entry.py and noting the other spelling under WRITING.
 2026-10-04T07:58Z 08985 日日 (ひにち): the headword is written 日日, but the entry's own note says that spelling is rare for this reading and the usual one is 日にち (日日 is more often にちにち or ひび). Decide whether to change the headword to 日にち (same ID and romaji) and rewrite the notes and examples to match.
 2026-10-06T06:18Z prune-branch claude/confident-planck-kywnj1 — absorbed
+2026-10-06T12:23Z 14265 術 (じゅつ): sense 2 ("means, way", as in 為す術がない) is really the native word すべ written with the same kanji. This run corrected the furigana there to すべ and said so in the notes. Decide whether to give すべ its own entry (queued as candidate C24089) and drop sense 2 from the じゅつ entry.
