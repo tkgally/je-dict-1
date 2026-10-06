@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-06T13:27:44Z",
+  "generated": "2026-10-06T13:45:18Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE"
@@ -553,9 +553,6 @@
     ],
     "00676_to": [
       "CONTRAST WITH ドア"
-    ],
-    "00677_tokei": [
-      "RENDAKU"
     ],
     "00679_tori": [
       "DUAL MEANING"
@@ -1626,10 +1623,6 @@
     ],
     "01738_momen": [
       "RELATED FABRIC TERMS"
-    ],
-    "01740_yu": [
-      "BATH/HOT SPRING SENSE",
-      "HOT WATER SENSE"
     ],
     "01748_yoshuu": [
       "LEARNING CYCLE"
@@ -2820,9 +2813,6 @@
     "02837_shikaku": [
       "THE FIVE SENSES ({五感|ごかん})"
     ],
-    "02839_konnichiha": [
-      "TIME-BASED GREETINGS"
-    ],
     "02841_ao": [
       "COLOR RANGE"
     ],
@@ -2991,10 +2981,6 @@
     ],
     "02944_soredeha": [
       "こそあど SERIES"
-    ],
-    "02949_hiragana": [
-      "JAPANESE WRITING SYSTEMS",
-      "USES OF HIRAGANA"
     ],
     "02950_hirugohan": [
       "MEAL VOCABULARY"
@@ -9461,11 +9447,7 @@
       "2. COMPARISON (〜のように)"
     ],
     "10090_izayoi": [
-      "MOON PHASE NAMES",
-      "POETIC SIGNIFICANCE"
-    ],
-    "10091_ageha": [
-      "COMMON SPECIES IN JAPAN"
+      "MOON PHASE NAMES"
     ],
     "10102_zangyoudai": [
       "WORK CULTURE"
