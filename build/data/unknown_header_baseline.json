@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-06T13:45:18Z",
+  "generated": "2026-10-06T14:15:22Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE"
@@ -204,10 +204,6 @@
     ],
     "00269_mare": [
       "REGISTER AND WRITING"
-    ],
-    "00285_misu": [
-      "MISTAKE USAGE",
-      "TITLE USAGE"
     ],
     "00286_mizugi": [
       "TYPES OF SWIMWEAR"
@@ -6763,11 +6759,6 @@
       "IN SAKE PRODUCTION",
       "RICE TYPES"
     ],
-    "06616_dakkoku": [
-      "MODERN EQUIPMENT",
-      "RICE PRODUCTION PROCESS",
-      "TRADITIONAL TOOLS"
-    ],
     "06618_sekou": [
       "DO NOT CONFUSE WITH"
     ],
@@ -9448,9 +9439,6 @@
     ],
     "10090_izayoi": [
       "MOON PHASE NAMES"
-    ],
-    "10102_zangyoudai": [
-      "WORK CULTURE"
     ],
     "10105_hanabitaikai": [
       "FAMOUS FIREWORKS FESTIVALS"
