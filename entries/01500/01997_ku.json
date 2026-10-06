@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "〜{区|く} is a suffix indicating a ward or administrative district within a city.\n\nTOKYO'S 23 WARDS:\nTokyo has 23 ⟦{特別区|とくべつく}→特別区：28159_tokubetsuku⟧ (special wards), which function similarly to cities. Examples:\n- {渋谷区|しぶやく}: Shibuya Ward\n- {新宿区|しんじゅくく}: Shinjuku Ward\n- {港区|みなとく}: Minato Ward\n\nOTHER CITIES:\nMajor cities like ⟦{大阪|おおさか}→大阪：09779_oosaka⟧, ⟦{横浜|よこはま}→横浜：28138_yokohama⟧, ⟦{名古屋|なごや}→名古屋：19405_nagoya⟧, and ⟦{札幌|さっぽろ}→札幌：28139_sapporo⟧ also have wards (called ⟦{行政区|ぎょうせいく}→行政区：26247_gyouseiku⟧).\n\nADMINISTRATIVE HIERARCHY:\n- ⟦{都道府県|とどうふけん}→都道府県：14502_todoufuken⟧: prefecture\n- ⟦{市|し}→市：01599_shi⟧: city\n- {区|く}: ward\n- ⟦{町|まち}→町：00613_machi⟧: town\n- ⟦{村|むら}→村：02261_mura⟧: village\n\nUSAGE:\n⟦{区役所|くやくしょ}→区役所：21563_kuyakusho⟧ is the ward office where residents handle registration, taxes, and other administrative tasks.",
-  "cross_references": [],
+  "notes": "〜{区|く} is a suffix indicating a ward or administrative district within a city.\n\nTOKYO'S 23 WARDS:\nTokyo has 23 ⟦{特別区|とくべつく}→特別区：28159_tokubetsuku⟧ (special wards), which function similarly to cities. Examples:\n- {渋谷区|しぶやく}: Shibuya Ward\n- {新宿区|しんじゅくく}: Shinjuku Ward\n- {港区|みなとく}: Minato Ward\n\nOTHER CITIES:\nMajor cities like ⟦{大阪|おおさか}→大阪：09779_oosaka⟧, ⟦{横浜|よこはま}→横浜：28138_yokohama⟧, ⟦{名古屋|なごや}→名古屋：19405_nagoya⟧, and ⟦{札幌|さっぽろ}→札幌：28139_sapporo⟧ also have wards (called ⟦{行政区|ぎょうせいく}→行政区：26247_gyouseiku⟧).\n\nRELATED WORDS:\n- ⟦{都道府県|とどうふけん}→都道府県：14502_todoufuken⟧: prefecture\n- ⟦{市|し}→市：01599_shi⟧: city\n- {区|く}: ward\n- ⟦{町|まち}→町：00613_machi⟧: town\n- ⟦{村|むら}→村：02261_mura⟧: village\n\nUSAGE:\n⟦{区役所|くやくしょ}→区役所：21563_kuyakusho⟧ is the ward office where residents handle registration, taxes, and other administrative tasks.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14502_todoufuken",
+      "reading": "とどうふけん",
+      "headword": "{都道府県|とどうふけん}",
+      "label": "prefecture"
+    },
+    {
+      "type": "related",
+      "target_id": "01599_shi",
+      "reading": "し",
+      "headword": "{市|し}",
+      "label": "city"
+    },
+    {
+      "type": "related",
+      "target_id": "00613_machi",
+      "reading": "まち",
+      "headword": "{町|まち}",
+      "label": "town"
+    },
+    {
+      "type": "related",
+      "target_id": "02261_mura",
+      "reading": "むら",
+      "headword": "{村|むら}",
+      "label": "village"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:31:57Z",
-    "modified": "2026-09-29T16:52:22Z",
+    "modified": "2026-10-06T19:24:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

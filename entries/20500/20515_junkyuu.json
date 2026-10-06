@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A train service level between local (⟦{各駅停車|かくえきていしゃ}→各駅停車：15471_kakuekiteisha⟧) and express (⟦{急行|きゅうこう}→急行：01386_kyuukou⟧). Composed of {準|じゅん} (semi-/quasi-) + ⟦{急|きゅう}→急：13042_kyuu⟧ (express), short for {準急行|じゅんきゅうこう}.\n\nTRAIN SPEED HIERARCHY (slowest to fastest):\n- ⟦{各駅停車|かくえきていしゃ}→各駅停車：15471_kakuekiteisha⟧/⟦{普通|ふつう}→普通：01502_futsuu⟧: local (stops at every station)\n- {準急|じゅんきゅう}: semi-express\n- ⟦{急行|きゅうこう}→急行：01386_kyuukou⟧: express\n- {快速急行|かいそくきゅうこう}: rapid express\n- ⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧: limited express\n\nCOMMON COLLOCATIONS:\n- {準急|じゅんきゅう}⟦{電車|でんしゃ}→電車：00522_densha⟧: semi-express train\n- {準急|じゅんきゅう}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride the semi-express\n- {準急|じゅんきゅう}{停車駅|ていしゃえき}: semi-express stopping stations\n\nUSAGE:\nNot all rail lines in Japan use the {準急|じゅんきゅう} designation. Some private railway companies use it while others do not. Unlike ⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧, a {準急|じゅんきゅう} does not usually require an additional surcharge beyond the base fare.",
+  "notes": "A train service level between local (⟦{各駅停車|かくえきていしゃ}→各駅停車：15471_kakuekiteisha⟧) and express (⟦{急行|きゅうこう}→急行：01386_kyuukou⟧). Composed of {準|じゅん} (semi-/quasi-) + ⟦{急|きゅう}→急：13042_kyuu⟧ (express), short for {準急行|じゅんきゅうこう}.\n\nRELATED WORDS (slowest to fastest):\n- ⟦{各駅停車|かくえきていしゃ}→各駅停車：15471_kakuekiteisha⟧/⟦{普通|ふつう}→普通：01502_futsuu⟧: local (stops at every station)\n- {準急|じゅんきゅう}: semi-express\n- ⟦{急行|きゅうこう}→急行：01386_kyuukou⟧: express\n- {快速急行|かいそくきゅうこう}: rapid express\n- ⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧: limited express\n\nCOMMON COLLOCATIONS:\n- {準急|じゅんきゅう}⟦{電車|でんしゃ}→電車：00522_densha⟧: semi-express train\n- {準急|じゅんきゅう}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride the semi-express\n- {準急|じゅんきゅう}{停車駅|ていしゃえき}: semi-express stopping stations\n\nUSAGE:\nNot all rail lines in Japan use the {準急|じゅんきゅう} designation. Some private railway companies use it while others do not. Unlike ⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧, a {準急|じゅんきゅう} does not usually require an additional surcharge beyond the base fare.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15471_kakuekiteisha",
+      "reading": "かくえきていしゃ",
+      "headword": "{各駅停車|かくえきていしゃ}",
+      "label": "local"
+    },
+    {
+      "type": "related",
+      "target_id": "01502_futsuu",
+      "reading": "ふつう",
+      "headword": "{普通|ふつう}",
+      "label": "local"
+    },
+    {
+      "type": "related",
+      "target_id": "01386_kyuukou",
+      "reading": "きゅうこう",
+      "headword": "{急行|きゅうこう}",
+      "label": "express"
+    },
+    {
+      "type": "related",
+      "target_id": "01476_tokkyuu",
+      "reading": "とっきゅう",
+      "headword": "{特急|とっきゅう}",
+      "label": "limited express"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-29T16:25:13Z",
-    "modified": "2026-09-11T17:04:13Z"
+    "modified": "2026-10-06T19:24:28Z"
   }
 }
