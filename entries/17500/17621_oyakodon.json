@@ -34,7 +34,7 @@
     },
     {
       "id": "17621_oyakodon_ex3",
-      "japanese": "{定食屋|ていしょくや}⟦で→で：00502_de⟧{親子丼|おやこどん}⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
+      "japanese": "⟦{定食屋|ていしょくや}→定食屋：31623_teishokuya⟧⟦で→で：00502_de⟧{親子丼|おやこどん}⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered oyakodon at a set meal restaurant.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "NAME ORIGIN:\n⟦{親|おや}→親：01357_oya⟧ (parent) + ⟦{子|こ}→子：09851_ko⟧ (child) + {丼|どん} (rice bowl) → \"parent and child bowl\"\nThe name comes from the combination of chicken (parent) and egg (child).\n\nINGREDIENTS:\n- ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧ (chicken)\n- ⟦{卵|たまご}→卵：02222_tamago⟧ (egg)\n- {玉|たま}ねぎ (onion)\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ (soy sauce)\n- みりん (sweet cooking sake)\n- ⟦{出汁|だし}→出汁：04917_dashi⟧ (dashi broth)\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧ (rice)\n\nCOOKING TIP:\nThe egg should be slightly runny (⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧) for the best texture.\n\nRELATED {丼|どんぶり} DISHES:\n- ⟦カツ{丼|どん}→カツ丼：08539_katsudon⟧ (pork cutlet rice bowl)\n- ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧ (beef rice bowl)\n- ⟦{天丼|てんどん}→天丼：19279_tendon⟧ (tempura rice bowl)\n- {海鮮丼|かいせんどん} (seafood rice bowl)",
+  "notes": "ETYMOLOGY:\n⟦{親|おや}→親：01357_oya⟧ (parent) + ⟦{子|こ}→子：09851_ko⟧ (child) + {丼|どん} (rice bowl) → \"parent and child bowl\"\nThe name comes from the combination of chicken (parent) and egg (child).\n\nRELATED WORDS:\n- ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧ (chicken)\n- ⟦{卵|たまご}→卵：02222_tamago⟧ (egg)\n- {玉|たま}ねぎ (onion)\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ (soy sauce)\n- みりん (sweet cooking sake)\n- ⟦{出汁|だし}→出汁：04917_dashi⟧ (dashi broth)\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧ (rice)\n\nCOOKING TIP:\nThe egg should be slightly runny (⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧) for the best texture.\n\nRELATED {丼|どんぶり} DISHES:\n- ⟦カツ{丼|どん}→カツ丼：08539_katsudon⟧ (pork cutlet rice bowl)\n- ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧ (beef rice bowl)\n- ⟦{天丼|てんどん}→天丼：19279_tendon⟧ (tempura rice bowl)\n- ⟦{海鮮丼|かいせんどん}→海鮮丼：31208_kaisendon⟧ (seafood rice bowl)",
   "cross_references": [
     {
       "type": "related",
@@ -107,6 +107,55 @@
       "reading": "たまごとじ",
       "headword": "{卵|たまご}とじ",
       "label": "dish bound with beaten egg"
+    },
+    {
+      "type": "related",
+      "target_id": "02919_toriniku",
+      "reading": "とりにく",
+      "headword": "{鶏肉|とりにく}",
+      "label": "chicken"
+    },
+    {
+      "type": "related",
+      "target_id": "02222_tamago",
+      "reading": "たまご",
+      "headword": "{卵|たまご}",
+      "label": "egg"
+    },
+    {
+      "type": "related",
+      "target_id": "01056_shouyu",
+      "reading": "しょうゆ",
+      "headword": "{醤油|しょうゆ}",
+      "label": "soy sauce"
+    },
+    {
+      "type": "related",
+      "target_id": "04918_mirin",
+      "reading": "みりん",
+      "headword": "{味醂|みりん}",
+      "label": "sweet cooking sake"
+    },
+    {
+      "type": "related",
+      "target_id": "04917_dashi",
+      "reading": "だし",
+      "headword": "{出汁|だし}",
+      "label": "dashi broth"
+    },
+    {
+      "type": "related",
+      "target_id": "00776_gohan",
+      "reading": "ごはん",
+      "headword": "ご{飯|はん}",
+      "label": "rice"
+    },
+    {
+      "type": "related",
+      "target_id": "31208_kaisendon",
+      "reading": "かいせんどん",
+      "headword": "{海鮮丼|かいせんどん}",
+      "label": "seafood rice bowl"
     }
   ],
   "metadata": {
@@ -123,6 +172,6 @@
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-09-23T06:54:49Z"
+    "modified": "2026-10-06T06:22:57Z"
   }
 }
