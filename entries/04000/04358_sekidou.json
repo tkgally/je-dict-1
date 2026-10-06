@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "The {赤道|せきどう} is the line of 0° latitude that circles the Earth at its widest point. The name literally means 'red path' (⟦{赤|あか}→赤：02842_aka⟧ = red, ⟦{道|みち}→道：00505_michi⟧ = road/path).\n\nGEOGRAPHICAL TERMS:\n- ⟦{北半球|きたはんきゅう}→北半球：20906_kitahankyuu⟧: Northern Hemisphere\n- ⟦{南半球|みなみはんきゅう}→南半球：19054_minamihankyuu⟧: Southern Hemisphere\n- ⟦{北緯|ほくい}→北緯：31154_hokui⟧: north latitude\n- {南緯|なんい}: south latitude\n- {赤道|せきどう}⟦{直下|ちょっか}→直下：31191_chokka⟧: directly on/under the equator\n\nCLIMATE ZONES:\n- ⟦{熱帯|ねったい}→熱帯：03531_nettai⟧: tropical zone (near the equator)\n- ⟦{温帯|おんたい}→温帯：04479_ontai⟧: temperate zone\n- ⟦{寒帯|かんたい}→寒帯：04124_kantai⟧: frigid zone (polar regions)",
+  "notes": "The {赤道|せきどう} is the line of 0° latitude that circles the Earth at its widest point. The name literally means 'red path' (⟦{赤|あか}→赤：02842_aka⟧ = red, ⟦{道|みち}→道：00505_michi⟧ = road/path).\n\nGEOGRAPHICAL TERMS:\n- ⟦{北半球|きたはんきゅう}→北半球：20906_kitahankyuu⟧: Northern Hemisphere\n- ⟦{南半球|みなみはんきゅう}→南半球：19054_minamihankyuu⟧: Southern Hemisphere\n- ⟦{北緯|ほくい}→北緯：31154_hokui⟧: north latitude\n- ⟦{南緯|なんい}→南緯：31331_nani⟧: south latitude\n- {赤道|せきどう}⟦{直下|ちょっか}→直下：31191_chokka⟧: directly on/under the equator\n\nRELATED WORDS:\n- ⟦{熱帯|ねったい}→熱帯：03531_nettai⟧: tropical zone (near the equator)\n- ⟦{温帯|おんたい}→温帯：04479_ontai⟧: temperate zone\n- ⟦{寒帯|かんたい}→寒帯：04124_kantai⟧: frigid zone (polar regions)",
   "cross_references": [
     {
       "type": "related",
@@ -106,11 +106,32 @@
       "reading": "なんい",
       "headword": "{南緯|なんい}",
       "label": "south latitude"
+    },
+    {
+      "type": "related",
+      "target_id": "03531_nettai",
+      "reading": "ねったい",
+      "headword": "{熱帯|ねったい}",
+      "label": "tropical zone"
+    },
+    {
+      "type": "related",
+      "target_id": "04479_ontai",
+      "reading": "おんたい",
+      "headword": "{温帯|おんたい}",
+      "label": "temperate zone"
+    },
+    {
+      "type": "related",
+      "target_id": "04124_kantai",
+      "reading": "かんたい",
+      "headword": "{寒帯|かんたい}",
+      "label": "frigid zone"
     }
   ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-09-30T12:46:39Z",
+    "modified": "2026-10-06T00:38:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
