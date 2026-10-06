@@ -1561,3 +1561,6 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 11062: audio checks heard すいた for {空|あ}いた in 11062_aku_ex4 (お腹が空いた, all four checkers, every attempt); お腹が空く is read すく, so this example belongs under すく or needs {空|す}いた. Check the furigana. (audio 2026-10-06)
 - [entry] 11030: audio checks heard さんじゅっ for {三十|さんじゅう} in 11030_seebu_ex5 (三十セーブ); the sokuon form is the natural reading before セーブ. Check the furigana. (audio 2026-10-06)
 - [entry] 10054: 控える lacks the common sense 'to make a note of' ({電話番号|でんわばんごう}を{控|ひか}える, メモを控える); add it as a sense with examples. (polish 2026-10-06)
+- [entry] 11579: audio checks heard かろやか for 軽やか (furigana かるやか) in 11579_suteppu_ex6, all checkers; 軽やか is read かろやか. Fix the furigana. (audio 2026-10-06)
+- [entry] 11645: audio checks heard じたて for 仕立て in 11645_shitate_ex5 and ex6 (物語仕立て etc.); the compound takes rendaku. Check the furigana. (audio 2026-10-06)
+- [entry] 11409: audio checks heard がいしゃ for 会社 in 11409_nottoru_ex3 (rendaku in a compound); check the furigana. (audio 2026-10-06)
