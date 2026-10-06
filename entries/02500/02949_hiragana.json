@@ -44,10 +44,10 @@
     },
     {
       "id": "02949_hiragana_ex4",
-      "japanese": "⟦この→この：00962_kono⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦を→を：00422_wo⟧{平仮名|ひらがな}⟦で→で：00502_de⟧⟦{読|よ}めます→読む：00426_yomu⟧⟦か→か：09473_ka⟧。",
-      "english": "Can you read this kanji in hiragana?",
+      "japanese": "⟦この→この：00962_kono⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦の→の：09472_no⟧⟦{読|よ}み{方|かた}→読み方：14269_yomikata⟧⟦を→を：00422_wo⟧{平仮名|ひらがな}⟦で→で：00502_de⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
+      "english": "Please write the reading of this kanji in hiragana.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         1
       ]
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{平仮名|ひらがな} is one of the three main Japanese writing systems. It is the first script most learners study and the foundation of Japanese literacy.\n\nETYMOLOGY:\n{平|ひら} (ordinary, simple) + ⟦{仮名|かな}→仮名：03979_kana⟧ (phonetic script). Developed from simplified cursive forms of ⟦{漢字|かんじ}→漢字：09480_kanji⟧.\n\nJAPANESE WRITING SYSTEMS:\n- {平仮名|ひらがな}: cursive syllabary (46 basic characters)\n- ⟦{片仮名|かたかな}→片仮名：02866_katakana⟧: angular syllabary (for loanwords, emphasis)\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧: Chinese characters (meaning-based)\n\nUSES OF HIRAGANA:\n- Grammatical particles: ⟦は→は：00079_ha⟧、⟦が→が：00051_ga⟧、⟦を→を：00422_wo⟧、⟦に→に：00314_ni⟧\n- Verb and adjective endings (⟦{送|おく}り{仮名|がな}→送り仮名：15047_okurigana⟧)\n- Words without standard kanji\n- Furigana (reading aids above kanji)\n\nCOMMON EXPRESSIONS:\n- {平仮名|ひらがな}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧: to write in hiragana\n- {平仮名|ひらがな}⟦{表|ひょう}→表：19354_hyou⟧: hiragana chart",
+  "notes": "{平仮名|ひらがな} is one of the three main Japanese writing systems. It is the first script most learners study and the foundation of Japanese literacy.\n\nETYMOLOGY:\n{平|ひら} (ordinary, simple) + ⟦{仮名|かな}→仮名：03979_kana⟧ (phonetic script). Developed from simplified cursive forms of ⟦{漢字|かんじ}→漢字：09480_kanji⟧.\n\nRELATED WORDS:\n- {平仮名|ひらがな}: cursive syllabary (46 basic characters)\n- ⟦{片仮名|かたかな}→片仮名：02866_katakana⟧: angular syllabary (for loanwords, emphasis)\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧: Chinese characters (meaning-based)\n\nUSAGE:\n- Grammatical particles: ⟦は→は：00079_ha⟧、⟦が→が：00051_ga⟧、⟦を→を：00422_wo⟧、⟦に→に：00314_ni⟧\n- Verb and adjective endings (⟦{送|おく}り{仮名|がな}→送り仮名：15047_okurigana⟧)\n- Words without standard kanji\n- Furigana (reading aids above kanji)\n\nCOMMON EXPRESSIONS:\n- {平仮名|ひらがな}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧: to write in hiragana\n- {平仮名|ひらがな}⟦{表|ひょう}→表：19354_hyou⟧: hiragana chart",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,18 @@
       "reading": "じ",
       "headword": "{字|じ}",
       "label": "letter, character"
+    },
+    {
+      "type": "related",
+      "target_id": "09480_kanji",
+      "reading": "かんじ",
+      "headword": "{漢字|かんじ}",
+      "label": "Chinese characters"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-10-01T08:07:17Z",
+    "modified": "2026-10-06T13:43:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
