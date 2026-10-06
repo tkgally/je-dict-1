@@ -120,7 +120,7 @@ class TestHeaders(unittest.TestCase):
         self.assertEqual(hc.classify_header("HONORIFIC FORMS")[:2], ("KEIGO", "keigo"))
         self.assertEqual(hc.classify_header("TRANSITIVITY")[1], "transitivity")
         self.assertEqual(hc.classify_header("INTRANSITIVE PAIR")[0], "TRANSITIVITY")
-        self.assertEqual(hc.classify_header("RELATED WEATHER WORDS")[:3], ("RELATED WORDS", "related", "fuzzy"))
+        self.assertEqual(hc.classify_header("RELATED BIRD WORDS")[:3], ("RELATED WORDS", "related", "fuzzy"))
         self.assertEqual(hc.classify_header("CONTRAST WITH SIMILAR WORDS")[1], "contrast")
         self.assertEqual(hc.classify_header("SIMILAR ～{種|しゅ} WORDS")[1], "related")
         self.assertEqual(hc.classify_header("COMMON COLLOCATIONS")[0], None)   # other canonical

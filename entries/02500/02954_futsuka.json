@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{二日|ふつか} means both \"two days\" (duration) and \"the 2nd\" (date).\n\nUSAGE:\n- Duration: {二日|ふつか}⟦かかる→かかる：00711_kakaru⟧ (takes two days)\n- Date: 1⟦{月|がつ}→月：30418_gatsu⟧{二日|ふつか} (January 2nd)\nFrom the 11th onward, regular readings are used (⟦{十一日|じゅういちにち}→十一日：30352_juuichinichi⟧), except ⟦{十四日|じゅうよっか}→十四日：30216_juuyokka⟧, ⟦{二十日|はつか}→二十日：02934_hatsuka⟧ and ⟦{二十四日|にじゅうよっか}→二十四日：30217_nijuuyokka⟧.\n\nDAYS OF THE MONTH (1-10):\nThese have irregular native Japanese readings:\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧ (1st), {二日|ふつか} (2nd), ⟦{三日|みっか}→三日：02969_mikka⟧ (3rd)\n- ⟦{四日|よっか}→四日：02985_yokka⟧ (4th), ⟦{五日|いつか}→五日：28460_itsuka⟧ (5th), ⟦{六日|むいか}→六日：02973_muika⟧ (6th)\n- ⟦{七日|なのか}→七日：02927_nanoka⟧ (7th), ⟦{八日|ようか}→八日：02983_youka⟧ (8th), ⟦{九日|ここのか}→九日：02901_kokonoka⟧ (9th), ⟦{十日|とおか}→十日：02917_tooka⟧ (10th)",
+  "notes": "{二日|ふつか} means both \"two days\" (duration) and \"the 2nd\" (date).\n\nUSAGE:\n- Duration: {二日|ふつか}⟦かかる→かかる：00711_kakaru⟧ (takes two days)\n- Date: 1⟦{月|がつ}→月：30418_gatsu⟧{二日|ふつか} (January 2nd)\nFrom the 11th onward, regular readings are used (⟦{十一日|じゅういちにち}→十一日：30352_juuichinichi⟧), except ⟦{十四日|じゅうよっか}→十四日：30216_juuyokka⟧, ⟦{二十日|はつか}→二十日：02934_hatsuka⟧ and ⟦{二十四日|にじゅうよっか}→二十四日：30217_nijuuyokka⟧.\n\nRELATED WORDS (days 1-10):\nThese have irregular native Japanese readings:\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧ (1st), {二日|ふつか} (2nd), ⟦{三日|みっか}→三日：02969_mikka⟧ (3rd)\n- ⟦{四日|よっか}→四日：02985_yokka⟧ (4th), ⟦{五日|いつか}→五日：28460_itsuka⟧ (5th), ⟦{六日|むいか}→六日：02973_muika⟧ (6th)\n- ⟦{七日|なのか}→七日：02927_nanoka⟧ (7th), ⟦{八日|ようか}→八日：02983_youka⟧ (8th), ⟦{九日|ここのか}→九日：02901_kokonoka⟧ (9th), ⟦{十日|とおか}→十日：02917_tooka⟧ (10th)",
   "cross_references": [
     {
       "type": "related",
@@ -147,11 +147,32 @@
       "reading": "むいか",
       "headword": "{六日|むいか}",
       "label": "six days"
+    },
+    {
+      "type": "related",
+      "target_id": "02985_yokka",
+      "reading": "よっか",
+      "headword": "{四日|よっか}",
+      "label": "4th"
+    },
+    {
+      "type": "related",
+      "target_id": "02927_nanoka",
+      "reading": "なのか",
+      "headword": "{七日|なのか}",
+      "label": "7th"
+    },
+    {
+      "type": "related",
+      "target_id": "02917_tooka",
+      "reading": "とおか",
+      "headword": "{十日|とおか}",
+      "label": "ten days, tenth day"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-10-06T00:23:28Z",
+    "modified": "2026-10-06T00:38:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
