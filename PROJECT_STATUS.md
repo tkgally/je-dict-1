@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-06 (Routine v3: new-entries — 6 New Entries, IDs 31620–31625)
+
+A short last cycle (started at 108 min): six internal-closure nouns that existing examples and notes already use,
+物価高, 株主総会, 選挙戦, 定食屋, 満塁, 通気性. No new kanji; no stale markers or newcomer link ambiguities. Self-check
+clean (0 flags). 17 internal-closure candidates remain.
+
 ### 2026-10-05 (Routine v3: new-entries — 10 New Entries, IDs 31610–31619)
 
 Ten internal-closure nouns that existing examples and notes already use: 賛否両論, 取り調べ, 講習, 臭み, 尋問 (noun +
@@ -77,10 +83,3 @@ No internal-closure candidates were queued, so twelve vetted idioms and proverbs
 火に油を注ぐ, 泣きっ面に蜂. No new kanji. Self-check clean. Seven words their notes use were queued as candidates
 (後悔先に立たず, 弱り目に祟り目, 踏んだり蹴ったり, 石橋を叩いて渡る, 腕が上がる, 物価高, 活字離れ); くちばし and ひつまぶし screened.
 
-### 2026-10-04 (Routine v3: new-entries — 20 New Entries, IDs 31573–31592)
-
-Eight words older entries already used: 〜末 (まつ), 雷サージ, 角 (かく), 〜棟 (とう), 保証会社, 現金書留, 炊ける, 飯台.
-With the internal-closure queue then empty, twelve vetted idioms from the queue: 虫がいい, 首を突っ込む, 気が引ける,
-襟を正す, 気が滅入る, 気を許す, 目を疑う, 目に余る, 手を尽くす, 口を揃える, 焼け石に水, 後の祭り. No new kanji.
-45 existing links to 角 (かど) checked against the new 角 (かく): all read かど, unchanged. Self-check skipped (daily
-OpenRouter budget spent); くちばし and ひつまぶし still await kana screening.
