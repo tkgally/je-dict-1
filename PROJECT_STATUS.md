@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-06 (Routine v3: new-entries — 20 New Entries, IDs 31638–31657)
+
+Twenty internal-closure candidates that existing entries already use: the sayings 弱り目に祟り目, 踏んだり蹴ったり and 腕が上がる; the verbs 乗り上げる (including 暗礁に乗り上げる), 先立つ, 絶つ, 通ずる and 儲かる (conjugation tables added); the nouns 活字離れ, 忠臣, 党内, 取り返し, 相手方, 我が社, 保健所, 蔵元, 寸断 (noun + する), 広がり; 慢性的 (na-adjective); and 外務省 (proper noun). No new kanji, stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter budget was spent. 43 internal-closure candidates remain.
+
 ### 2026-10-06 (Routine v3: new-entries — 12 New Entries, IDs 31626–31637)
 
 Twelve internal-closure candidates that existing entries already use: the proverbs 後悔先に立たず and 石橋を叩いて渡る, 航行 and 拡充 (noun + する, conjugation tables added), 細める, 飛び交う and 浴びせる (verbs, tables added), 両家, 理系, 定評, 見分け, 色使い. A short cycle (started at 95 min). No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped (the day's OpenRouter allowance was spent). 63 internal-closure candidates remain.
@@ -69,9 +73,3 @@ clean (0 flags). 17 internal-closure candidates remain.
 Ten internal-closure nouns that existing examples and notes already use: 賛否両論, 取り調べ, 講習, 臭み, 尋問 (noun +
 する, conjugation table added), 国際法, 損害賠償, 和平, 水性, 雪道. No new kanji; no stale markers or newcomer link
 ambiguities. Self-check skipped (the day's OpenRouter allowance was spent). 23 internal-closure candidates remain.
-
-### 2026-10-05 (Routine v3: new-entries — 5 New Entries, IDs 31605–31609)
-
-A short last cycle (started at 112 min): five internal-closure nouns that existing examples already use, 今季, 強豪,
-満足度, 両社, 冷戦. No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped (the day's OpenRouter
-allowance was spent). 33 internal-closure candidates remain.
