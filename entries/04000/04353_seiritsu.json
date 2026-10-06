@@ -110,7 +110,7 @@
     {
       "id": "04353_seiritsu_ex1",
       "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦が→が：00051_ga⟧{成立|せいりつ}⟦した→する：00392_suru⟧。",
-      "english": "A new law was established.",
+      "english": "A new law was passed.",
       "notes": null,
       "has_audio": true,
       "sense_numbers": [
@@ -119,8 +119,8 @@
     },
     {
       "id": "04353_seiritsu_ex2",
-      "japanese": "⟦この→この：00962_kono⟧⟦{組織|そしき}→組織：03320_soshiki⟧⟦は→は：00079_ha⟧1950⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧{成立|せいりつ}⟦した→する：00392_suru⟧。",
-      "english": "This organization was established in 1950.",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{内閣|ないかく}→内閣：04800_naikaku⟧⟦が→が：00051_ga⟧{成立|せいりつ}⟦した→する：00392_suru⟧。",
+      "english": "A new cabinet was formed.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -168,10 +168,19 @@
       ]
     }
   ],
-  "notes": "{成立|せいりつ} describes when something comes into existence or is formally established, or when a deal/agreement is successfully concluded.\n\nUSAGE:\n- Laws and regulations being enacted\n- Organizations being established\n- Contracts and deals being concluded\n- Theories being formed\n\nCOMMON EXPRESSIONS:\n- ⟦{法案|ほうあん}→法案：09758_houan⟧⟦が→が：00051_ga⟧{成立|せいりつ}⟦する→する：00392_suru⟧: a bill is passed\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦が→が：00051_ga⟧{成立|せいりつ}⟦する→する：00392_suru⟧: a contract is concluded\n- ⟦{取引|とりひき}→取引：04700_torihiki⟧⟦が→が：00051_ga⟧{成立|せいりつ}⟦する→する：00392_suru⟧: a deal is made\n- {成立|せいりつ}⟦{条件|じょうけん}→条件：03285_jouken⟧: conditions for establishment\n\nSIMILAR WORDS:\n- {不成立|ふせいりつ}: failure to establish, breakdown of negotiations",
+  "notes": "{成立|せいりつ} describes when something comes into existence or is formally established, or when a deal/agreement is successfully concluded.\n\nUSAGE:\n- Laws and regulations being enacted\n- Governments and cabinets being formed\n- Contracts and deals being concluded\n- An argument or claim holding up (⟦その→その：00993_sono⟧⟦{理屈|りくつ}→理屈：02513_rikutsu⟧⟦は→は：00079_ha⟧{成立|せいりつ}⟦しない→する：00392_suru⟧: that reasoning doesn't hold)\n\nCOMMON EXPRESSIONS:\n- ⟦{法案|ほうあん}→法案：09758_houan⟧⟦が→が：00051_ga⟧{成立|せいりつ}⟦する→する：00392_suru⟧: a bill is passed\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦が→が：00051_ga⟧{成立|せいりつ}⟦する→する：00392_suru⟧: a contract is concluded\n- ⟦{取引|とりひき}→取引：04700_torihiki⟧⟦が→が：00051_ga⟧{成立|せいりつ}⟦する→する：00392_suru⟧: a deal is made\n- {成立|せいりつ}⟦{条件|じょうけん}→条件：03285_jouken⟧: conditions for establishment\n\nSIMILAR WORDS:\n- ⟦{設立|せつりつ}→設立：14171_setsuritsu⟧: founding a company, school or organization, something people do (⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧). {成立|せいりつ} is intransitive: a law, deal or government comes into being (⟦{法案|ほうあん}→法案：09758_houan⟧⟦が→が：00051_ga⟧{成立|せいりつ}⟦する→する：00392_suru⟧), so a new company is ⟦{設立|せつりつ}→設立：14171_setsuritsu⟧⟦された→する：00392_suru⟧, not {成立|せいりつ}⟦した→する：00392_suru⟧.\n\nRELATED WORDS:\n- {不成立|ふせいりつ}: failure to go through (a bill, deal or negotiation)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14171_setsuritsu",
+      "reading": "せつりつ",
+      "headword": "{設立|せつりつ}",
+      "label": "founding a company, school…"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-09-02T04:00:52Z",
+    "modified": "2026-10-06T13:11:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +192,7 @@
       "politeness": "plain",
       "semantic": [
         "society",
-        "work"
+        "law"
       ],
       "verb_class": "suru",
       "transitivity": "intransitive"
