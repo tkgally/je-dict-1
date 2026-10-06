@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-06T12:38:49Z",
+  "generated": "2026-10-06T13:14:00Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE"
@@ -376,11 +376,6 @@
       "CONTRAST WITH {晩|ばん}",
       "TIME OF DAY SEQUENCE"
     ],
-    "00490_made": [
-      "'EVEN' USAGE",
-      "VERB FORM BEFORE まで",
-      "まで VS までに"
-    ],
     "00497_mise": [
       "TYPES OF SHOPS (〜{屋|や})"
     ],
@@ -529,9 +524,6 @@
     "00637_kaban": [
       "TYPES OF BAGS"
     ],
-    "00638_karai": [
-      "CAUTION - DIFFERENT WORD"
-    ],
     "00640_kayoubi": [
       "WEEKDAY SERIES"
     ],
@@ -548,10 +540,6 @@
     "00648_kuukou": [
       "MAJOR JAPANESE AIRPORTS",
       "TRAVEL VOCABULARY"
-    ],
-    "00657_nigatsu": [
-      "KEY EVENTS IN FEBRUARY",
-      "RELATED MONTHS"
     ],
     "00667_shichigatsu": [
       "JAPANESE MONTHS",
@@ -4738,9 +4726,6 @@
     ],
     "05022_memai": [
       "TYPES OF DIZZINESS"
-    ],
-    "05023_kentaikan": [
-      "OFTEN A SYMPTOM OF"
     ],
     "05024_fuminshou": [
       "TREATMENT"
@@ -9592,31 +9577,13 @@
     "10040_kushiage": [
       "SERVING STYLE"
     ],
-    "10065_fan": [
-      "HOMONYM"
-    ],
     "10076_souda": [
       "1. HEARSAY (〜そうだ)",
-      "2. APPEARANCE (〜そうだ)",
-      "GRAMMATICAL DISTINCTION"
+      "2. APPEARANCE (〜そうだ)"
     ],
     "10081_youni": [
       "1. PURPOSE (〜ように)",
       "2. COMPARISON (〜のように)"
-    ],
-    "10082_minamo": [
-      "READING DISTINCTION"
-    ],
-    "10083_kagerou": [
-      "LITERARY USE",
-      "SEASONAL REFERENCE"
-    ],
-    "10084_aozora": [
-      "AS PREFIX (= open-air)"
-    ],
-    "10085_nyuudougumo": [
-      "SEASONAL REFERENCE",
-      "WEATHER NOTE"
     ],
     "10090_izayoi": [
       "MOON PHASE NAMES",
