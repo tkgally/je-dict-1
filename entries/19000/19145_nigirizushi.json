@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The most iconic form of sushi, made by pressing vinegared rice by hand and topping it with a slice of fish or seafood. Also called {握|にぎ}りずし or simply {握|にぎ}り.\n\nCOUNTING PATTERNS:\n⟦{一貫|いっかん}→一貫：17700_ikkan_b⟧、{二貫|にかん} — pieces are counted with ⟦{貫|かん}→貫：28717_kan⟧.\n\nCOMMON TOPPINGS (ネタ):\n- {鮪|まぐろ}: tuna\n- ⟦{鮭|さけ}→鮭：19337_sake⟧/⟦サーモン→サーモン：08836_saamon⟧: salmon\n- ⟦{海老|えび}→海老：02272_ebi⟧: shrimp\n- ⟦{烏賊|いか}→烏賊：04319_ika⟧: squid\n- {玉子|たまご}: egg\n\nOTHER SUSHI TYPES:\n- ⟦{巻|ま}き{寿司|ずし}→巻き寿司：12410_makizushi⟧: rolled sushi\n- {散|ち}らし{寿司|ずし}: scattered sushi\n- ⟦{押|お}し{寿司|ずし}→押し寿司：22489_oshizushi⟧: pressed sushi\n\nCULTURAL NOTE:\nOriginated in the Edo period as a quick street food. Eating at a ⟦{回転|かいてん}{寿司|ずし}→回転寿司：11900_kaitenzushi⟧ (conveyor belt sushi) restaurant is an affordable way to enjoy {握|にぎ}り{寿司|ずし}.",
+  "notes": "The most iconic form of sushi, made by pressing vinegared rice by hand and topping it with a slice of fish or seafood. Also called {握|にぎ}りずし or simply {握|にぎ}り.\n\nCOUNTING PATTERNS:\n⟦{一貫|いっかん}→一貫：17700_ikkan_b⟧、{二貫|にかん} — pieces are counted with ⟦{貫|かん}→貫：28717_kan⟧.\n\nRELATED WORDS (ネタ):\n- {鮪|まぐろ}: tuna\n- ⟦{鮭|さけ}→鮭：19337_sake⟧/⟦サーモン→サーモン：08836_saamon⟧: salmon\n- ⟦{海老|えび}→海老：02272_ebi⟧: shrimp\n- ⟦{烏賊|いか}→烏賊：04319_ika⟧: squid\n- {玉子|たまご}: egg\n\nOTHER SUSHI TYPES:\n- ⟦{巻|ま}き{寿司|ずし}→巻き寿司：12410_makizushi⟧: rolled sushi\n- {散|ち}らし{寿司|ずし}: scattered sushi\n- ⟦{押|お}し{寿司|ずし}→押し寿司：22489_oshizushi⟧: pressed sushi\n\nCULTURAL NOTE:\nOriginated in the Edo period as a quick street food. Eating at a ⟦{回転|かいてん}{寿司|ずし}→回転寿司：11900_kaitenzushi⟧ (conveyor belt sushi) restaurant is an affordable way to enjoy {握|にぎ}り{寿司|ずし}.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -53,6 +53,34 @@
       "reading": "おしずし",
       "headword": "{押|お}し{寿司|ずし}",
       "label": "pressed sushi"
+    },
+    {
+      "type": "related",
+      "target_id": "19337_sake",
+      "reading": "さけ",
+      "headword": "{鮭|さけ}",
+      "label": "salmon"
+    },
+    {
+      "type": "related",
+      "target_id": "08836_saamon",
+      "reading": "さーもん",
+      "headword": "サーモン",
+      "label": "salmon"
+    },
+    {
+      "type": "related",
+      "target_id": "02272_ebi",
+      "reading": "えび",
+      "headword": "{海老|えび}",
+      "label": "shrimp"
+    },
+    {
+      "type": "related",
+      "target_id": "04319_ika",
+      "reading": "いか",
+      "headword": "{烏賊|いか}",
+      "label": "squid"
     }
   ],
   "metadata": {
@@ -68,6 +96,6 @@
       ]
     },
     "created": "2026-03-24T11:20:22Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-10-06T12:39:00Z"
   }
 }
