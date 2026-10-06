@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-06T19:24:10Z",
+  "generated": "2026-10-06T19:57:33Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE"
@@ -979,9 +979,6 @@
     "01132_betsuni": [
       "AS A STANDALONE RESPONSE"
     ],
-    "01133_kusai": [
-      "AS A SUFFIX (〜くさい)"
-    ],
     "01134_makeru": [
       "DISCOUNT USAGE (colloquial)"
     ],
@@ -1213,15 +1210,11 @@
     "01458_tatemono": [
       "TYPES OF BUILDINGS"
     ],
-    "01468_teido": [
-      "AS A SUFFIX (approximately)"
-    ],
     "01472_denchi": [
       "TYPES OF BATTERIES"
     ],
     "01475_toori": [
-      "AS A NOUN (street)",
-      "AS A SUFFIX (manner/conformity)"
+      "AS A NOUN (street)"
     ],
     "01481_douro": [
       "TYPES OF ROADS"
@@ -1415,9 +1408,6 @@
       "COMMON COMPOUNDS WITH {米|べい}",
       "FORMAL NAMES",
       "THE AMERICAS"
-    ],
-    "01776_an": [
-      "AS A SUFFIX (～{案|あん})"
     ],
     "01779_jamu": [
       "RELATED SPREADS"
@@ -2638,9 +2628,6 @@
     "03041_iyagaru": [
       "GRAMMAR POINT"
     ],
-    "03050_kibousha": [
-      "RELATED ～{者|しゃ} COMPOUNDS"
-    ],
     "03053_ketsuekigata": [
       "BLOOD TYPES"
     ],
@@ -2652,9 +2639,6 @@
     ],
     "03058_saijou": [
       "{最|さい}～ SERIES"
-    ],
-    "03059_sankasha": [
-      "RELATED ～{者|しゃ} COMPOUNDS"
     ],
     "03067_shiyakusho": [
       "RELATED GOVERNMENT OFFICES"
@@ -2671,14 +2655,8 @@
     "03081_jouhin": [
       "SIMILAR/OPPOSITE WORDS"
     ],
-    "03084_seijika": [
-      "RELATED ～{家|か} WORDS"
-    ],
     "03086_seifuku": [
       "TYPES OF UNIFORMS"
-    ],
-    "03088_senmonka": [
-      "RELATED ～{家|か} WORDS"
     ],
     "03094_toki": [
       "TENSE NUANCE"
@@ -2701,7 +2679,6 @@
       "CONTRACTED FORMS (casual speech)"
     ],
     "03104_niyoruto": [
-      "COMMON SOURCES",
       "OFTEN PAIRED WITH"
     ],
     "03106_paato": [
@@ -2722,9 +2699,6 @@
     "03124_tennai": [
       "SIMILAR LOCATION COMPOUNDS"
     ],
-    "03133_hassei": [
-      "OFTEN USED FOR"
-    ],
     "03135_hanataba": [
       "COMMON OCCASIONS FOR {花束|はなたば}"
     ],
@@ -2736,9 +2710,6 @@
     ],
     "03150_bengoshi": [
       "RELATED LEGAL PROFESSIONS"
-    ],
-    "03152_hokousha": [
-      "TRAFFIC TERMS"
     ],
     "03155_mama": [
       "FAMILY TERMS FOR MOTHER"
@@ -2776,9 +2747,6 @@
       "MEANING 1 - THEATER",
       "MEANING 2 - ACT/PRETENSE"
     ],
-    "03202_shimo": [
-      "SEASONAL NOTE"
-    ],
     "03205_shuu": [
       "CONTINENT MEANING"
     ],
@@ -2794,7 +2762,6 @@
       "MEANING 2 - CENTRALIZATION"
     ],
     "03215_shugi": [
-      "AS A SUFFIX (○○{主義|しゅぎ})",
       "RELATED SUFFIX"
     ],
     "03217_shushou": [
@@ -2802,9 +2769,6 @@
     ],
     "03224_shuto": [
       "WORLD CAPITALS"
-    ],
-    "03227_shou": [
-      "AS A SUFFIX (○○{賞|しょう})"
     ],
     "03228_shougai": [
       "MEANING 1 - OBSTACLE",
@@ -2872,9 +2836,6 @@
       "PAIR USAGE",
       "VERSUS USAGE"
     ],
-    "03383_tai": [
-      "AS A SUFFIX"
-    ],
     "03392_taishita": [
       "NEGATIVE PATTERNS (very common)",
       "POSITIVE PATTERNS"
@@ -2888,9 +2849,6 @@
     "03412_tani": [
       "SENSE 1 - UNITS",
       "SENSE 2 - ACADEMIC"
-    ],
-    "03413_tango": [
-      "LANGUAGE LEARNING"
     ],
     "03417_daijin": [
       "MAJOR CABINET POSITIONS"
@@ -2991,9 +2949,6 @@
     "03632_moji": [
       "JAPANESE WRITING SYSTEMS"
     ],
-    "03634_monogatari": [
-      "FAMOUS WORKS"
-    ],
     "03635_moyou": [
       "APPEARANCE/STATE",
       "DECORATIVE PATTERNS"
@@ -3022,17 +2977,11 @@
       "IMAGE COMPOUNDS",
       "STATUE COMPOUNDS"
     ],
-    "03697_han": [
-      "USAGE IN SCHOOLS"
-    ],
     "03698_han": [
       "PRINTING TERMS"
     ],
     "03708_hitokoto": [
       "COUNTER NOTE"
-    ],
-    "03709_hitogomi": [
-      "WRITING VARIANTS"
     ],
     "03712_hin": [
       "AS STANDALONE (elegance)"
@@ -3050,12 +2999,6 @@
     "03716_bun": [
       "MEANING 1 - SENTENCE",
       "MEANING 2 - PORTION/SHARE (as suffix)"
-    ],
-    "03719_hoshou": [
-      "MEMORY TIP"
-    ],
-    "03720_hoshou": [
-      "MEMORY TIP"
     ],
     "03722_hotoke": [
       "MEANING 1 - BUDDHA",
@@ -3107,9 +3050,6 @@
     "03806_mettani": [
       "FREQUENCY SCALE (with negative)"
     ],
-    "03830_aisukuriimu": [
-      "RELATED FROZEN TREATS"
-    ],
     "03831_arubamu": [
       "MUSIC ALBUM COLLOCATIONS",
       "PHOTO ALBUM COLLOCATIONS"
@@ -3128,9 +3068,6 @@
     "03850_sukejuuru": [
       "スケジュール VS {予定|よてい}"
     ],
-    "03851_sutairu": [
-      "NOTE FOR LEARNERS"
-    ],
     "03854_sentaa": [
       "COMMON FACILITY TYPES",
       "OTHER EXPRESSIONS",
@@ -3141,9 +3078,6 @@
     ],
     "03857_chansu": [
       "VS. {機会|きかい}"
-    ],
-    "03860_dezain": [
-      "COMMON FIELDS"
     ],
     "03864_toranpu": [
       "CARD GAMES"
@@ -3216,12 +3150,6 @@
     "03962_dou": [
       "FORMAL/WRITTEN USE (THE SAID)"
     ],
-    "03963_naga": [
-      "SINO-JAPANESE PREFIX"
-    ],
-    "03966_furu": [
-      "SINO-JAPANESE PREFIX"
-    ],
     "03969_mei": [
       "SIMILAR PREFIX"
     ],
@@ -3258,9 +3186,6 @@
     ],
     "04022_keigo": [
       "TYPES OF KEIGO"
-    ],
-    "04023_sashimi": [
-      "SERVING STYLE"
     ],
     "04024_gou": [
       "CONTRAST WITH 〜{番|ばん}"
@@ -3314,9 +3239,6 @@
       "1. FINANCIAL/BUSINESS",
       "2. PERSONALITY/ATTITUDE"
     ],
-    "04070_denpa": [
-      "TECHNICAL USE"
-    ],
     "04072_toshin": [
       "TOKYO SPECIFIC"
     ],
@@ -3325,9 +3247,6 @@
     ],
     "04074_dousa": [
       "FOR MACHINES/COMPUTERS"
-    ],
-    "04075_douwa": [
-      "FAMOUS COLLECTIONS"
     ],
     "04076_naika": [
       "HOSPITAL DEPARTMENTS (common)",
@@ -3362,15 +3281,9 @@
       "FINGER NAMES",
       "FOR BIG TOE"
     ],
-    "04115_onkei": [
-      "COMMON SOURCES"
-    ],
     "04117_onsen": [
       "FAMOUS {温泉|おんせん} AREAS",
       "TYPES OF {温泉|おんせん}"
-    ],
-    "04118_kaikai": [
-      "POLITICAL USE"
     ],
     "04119_kaikan": [
       "SIMILAR BUILDINGS"
@@ -3627,9 +3540,6 @@
     "04577_areru": [
       "{荒|あ}れる VS {暴|あば}れる"
     ],
-    "04583_kikitoru": [
-      "LANGUAGE LEARNING"
-    ],
     "04592_shioreru": [
       "{萎|しお}れる VS {枯|か}れる"
     ],
@@ -3654,9 +3564,6 @@
     ],
     "04613_kobamu": [
       "{拒|こば}む VS {断|ことわ}る"
-    ],
-    "04623_oikosu": [
-      "TRAFFIC TERMS"
     ],
     "04627_kikouhendou": [
       "{気候変動|きこうへんどう} VS {地球|ちきゅう}{温暖化|おんだんか}"
@@ -3697,9 +3604,6 @@
     ],
     "04657_nichibotsu": [
       "{日没|にちぼつ} VS {日|ひ}の{入|い}り VS {夕暮|ゆうぐ}れ"
-    ],
-    "04660_sha": [
-      "AS A SUFFIX"
     ],
     "04662_sha": [
       "COMMON WORDS WITH 〜{者|しゃ}",
@@ -3914,7 +3818,6 @@
       "PSYCHOLOGY TERM"
     ],
     "04859_senmongakkou": [
-      "COMMON FIELDS",
       "JAPANESE EDUCATION PATHS"
     ],
     "04861_rishuu": [
@@ -4236,9 +4139,6 @@
     ],
     "05226_tacchipaneru": [
       "COMMON DEVICES"
-    ],
-    "05230_waka": [
-      "FAMOUS COLLECTIONS"
     ],
     "05231_wagakki": [
       "MAJOR INSTRUMENTS"
@@ -5384,8 +5284,7 @@
     ],
     "06323_nawatobi": [
       "GROUP ACTIVITIES",
-      "TYPES OF JUMPS",
-      "USAGE IN SCHOOLS"
+      "TYPES OF JUMPS"
     ],
     "06326_sunaba": [
       "COMMON TOOLS",
@@ -6083,9 +5982,6 @@
     "06769_piza": [
       "POPULAR TOPPINGS IN JAPAN"
     ],
-    "06770_aisu": [
-      "RELATED FROZEN TREATS"
-    ],
     "06771_rofuto": [
       "JAPANESE HOUSING"
     ],
@@ -6664,9 +6560,6 @@
       "3. PREPAREDNESS",
       "MEANING DISTINCTIONS"
     ],
-    "07468_kachiki": [
-      "OFTEN USED FOR"
-    ],
     "07470_soshina": [
       "COMMON {粗品|そしな} ITEMS"
     ],
@@ -6939,9 +6832,6 @@
       "SENSE 1 (Physical)",
       "SENSE 2 (Figurative - Disappearance)",
       "SIMILAR PHYSICAL PROCESSES"
-    ],
-    "07655_jouchou": [
-      "TECHNICAL USE"
     ],
     "07659_tamawaru": [
       "RELATED KEIGO"
@@ -8328,8 +8218,7 @@
       "KANJI ORTHOGRAPHY"
     ],
     "09933_men": [
-      "AS A NOUN (\"surface\")",
-      "AS A SUFFIX (\"aspect\")"
+      "AS A NOUN (\"surface\")"
     ],
     "09950_shippaidan": [
       "SIMILAR 〜{談|だん} COMPOUNDS"
@@ -8385,9 +8274,6 @@
     "10039_warishita": [
       "BASIC RECIPE"
     ],
-    "10040_kushiage": [
-      "SERVING STYLE"
-    ],
     "10076_souda": [
       "1. HEARSAY (〜そうだ)",
       "2. APPEARANCE (〜そうだ)"
@@ -8401,9 +8287,6 @@
     ],
     "10105_hanabitaikai": [
       "FAMOUS FIREWORKS FESTIVALS"
-    ],
-    "10126_jeiaaru": [
-      "MAIN COMPANIES"
     ],
     "10139_hokuou": [
       "COUNTRIES INCLUDED"
@@ -8826,9 +8709,6 @@
     "11181_reiwa": [
       "ERA SYSTEM"
     ],
-    "11211_rinobeeshon": [
-      "リノベーション VS リフォーム"
-    ],
     "11213_beesuappu": [
       "ベースアップ VS {昇給|しょうきゅう}"
     ],
@@ -9063,9 +8943,6 @@
     ],
     "12601_satoru": [
       "KEY NOUN"
-    ],
-    "12608_kaidan": [
-      "FAMOUS WORKS"
     ],
     "12610_hikikae": [
       "SENSE 1 (exchange)",
@@ -9696,9 +9573,6 @@
     "17428_kabegiwa": [
       "SIMILAR ~{際|ぎわ} WORDS"
     ],
-    "17455_kentousuru": [
-      "NOTE FOR LEARNERS"
-    ],
     "17476_meikyoku": [
       "RELATED {名|めい}~ WORDS"
     ],
@@ -9992,8 +9866,7 @@
       "CONTRAST WITH {割|わ}り{勘|かん}"
     ],
     "18515_misshitsu": [
-      "MYSTERY FICTION",
-      "POLITICAL USE"
+      "MYSTERY FICTION"
     ],
     "18528_honshuu": [
       "JAPAN'S FOUR MAIN ISLANDS",
@@ -10316,9 +10189,6 @@
     ],
     "19349_shizuku": [
       "AS A NAME"
-    ],
-    "19353_ou": [
-      "AS A SUFFIX (~{王|おう})"
     ],
     "19354_hyou": [
       "DIFFERENT READINGS OF {表|ひょう}"
@@ -10645,9 +10515,6 @@
     ],
     "21206_yokugetsu": [
       "RELATED TIME WORDS WITH {翌|よく}"
-    ],
-    "21211_hinoiri": [
-      "SEASONAL NOTE"
     ],
     "21224_boodogeemu": [
       "TRADITIONAL JAPANESE BOARD GAMES"
@@ -11875,9 +11742,6 @@
     ],
     "27642_hitotsubu": [
       "COUNTING WITH {粒|つぶ}"
-    ],
-    "27649_rokkagetsu": [
-      "WRITING VARIANTS"
     ],
     "27650_roppon": [
       "SOUND CHANGES WITH {本|ほん}"
