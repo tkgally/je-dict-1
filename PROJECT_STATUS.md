@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-06 (Routine v3: candidates — 56 Internal-Closure Candidates, C24033–C24088)
+
+A SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is empty). 72 proposed; 11 variant spellings of existing entries dropped (活かす, うかがう, 見惚れる, 辿り着く, 取り掛かる …) and a few transparent compounds; 56 added, each with the entry it was seen in (保健所, 少子高齢化, 黙秘権, 遺品, 持ち越す, 面持ち …). Queue 63 → 119.
+
 ### 2026-10-06 (Routine v3: new-entries — 6 New Entries, IDs 31620–31625)
 
 A short last cycle (started at 108 min): six internal-closure nouns that existing examples and notes already use,
@@ -75,11 +79,3 @@ with SudachiPy for content-word lemmas that have no entry, excluding each entry'
 examples already use: 今季, 強豪, 満足度, 両社, 賛否両論, 冷戦, 取り調べ, 講習, 臭み, 乗り上げる, 尋問, 国際法, 損害賠償, 和平,
 水性, 株主総会, 航行, 選挙戦, 細める, 雪道, 拡充, 忠臣, 飛び交う, 両家, 定食屋, 満塁, 通気性, 浴びせる, 先立つ, 党内, 絶つ.
 Variant spellings of existing entries (子ども, 気づく, 引っ越し, 玉ねぎ, 人混み …) were dropped. Queue: 84.
-
-### 2026-10-05 (Routine v3: new-entries — 12 New Entries, IDs 31593–31604)
-
-No internal-closure candidates were queued, so twelve vetted idioms and proverbs from the queue: 腕が鳴る, 拍車をかける,
-白羽の矢が立つ, 太鼓判を押す, 血も涙もない, 覆水盆に返らず, 転ばぬ先の杖, 備えあれば憂いなし, 住めば都, 鶴の一声,
-火に油を注ぐ, 泣きっ面に蜂. No new kanji. Self-check clean. Seven words their notes use were queued as candidates
-(後悔先に立たず, 弱り目に祟り目, 踏んだり蹴ったり, 石橋を叩いて渡る, 腕が上がる, 物価高, 活字離れ); くちばし and ひつまぶし screened.
-
