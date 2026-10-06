@@ -1,12 +1,9 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-06T13:14:00Z",
+  "generated": "2026-10-06T13:27:44Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE"
-    ],
-    "00009_baiorin": [
-      "RELATED INSTRUMENTS (violin family)"
     ],
     "00013_benchi": [
       "SPORTS USAGE"
@@ -1463,8 +1460,7 @@
     ],
     "01502_futsuu": [
       "AS AN ADJECTIVE",
-      "AS AN ADVERB",
-      "TRAIN TERMINOLOGY"
+      "AS AN ADVERB"
     ],
     "01505_bungaku": [
       "RELATED FIELDS"
@@ -1536,9 +1532,6 @@
     ],
     "01597_sashiageru": [
       "KEIGO FORMS OF あげる"
-    ],
-    "01599_shi": [
-      "JAPANESE ADMINISTRATIVE DIVISIONS"
     ],
     "01605_shitagi": [
       "TYPES OF UNDERWEAR"
@@ -1664,12 +1657,8 @@
     ],
     "01769_amerika": [
       "COMMON COMPOUNDS WITH {米|べい}",
-      "DERIVED",
       "FORMAL NAMES",
       "THE AMERICAS"
-    ],
-    "01774_ootobai": [
-      "LICENSING"
     ],
     "01776_an": [
       "AS A SUFFIX (～{案|あん})"
@@ -1692,9 +1681,6 @@
     "01789_izure": [
       "AS ADVERB (someday)",
       "AS PRONOUN (which/either)"
-    ],
-    "01791_purezento": [
-      "OCCASIONS"
     ],
     "01793_ippai": [
       "A LOT (adverbial)",
@@ -1773,9 +1759,6 @@
     "01905_uranau": [
       "TYPES OF FORTUNE-TELLING"
     ],
-    "01915_osou": [
-      "PASSIVE FORM (COMMON)"
-    ],
     "01922_fuka": [
       "ACADEMIC GRADING",
       "SIGNS AND NOTICES",
@@ -1788,9 +1771,6 @@
       "SENSE 1 (be cut/break)",
       "SENSE 2 (run out/expire)",
       "SENSE 3 (snap/lose temper)"
-    ],
-    "01939_kurushimeru": [
-      "TRANSITIVE/INTRANSITIVE PAIR"
     ],
     "01945_komeru": [
       "SENSE 2 (load)"
@@ -1820,8 +1800,7 @@
       "になる VS にする"
     ],
     "01971_niru": [
-      "OTHER COOKING VERBS",
-      "RELATED COOKING TERMS"
+      "OTHER COOKING VERBS"
     ],
     "01976_nozomu": [
       "SENSE 1 - DESIRE",
@@ -1893,14 +1872,8 @@
       "AS AUXILIARY (〜{得|え}る = can/possible)",
       "AS MAIN VERB (to obtain/gain)"
     ],
-    "02019_oeru": [
-      "COMPOUND VERB PATTERN"
-    ],
     "02024_osowaru": [
       "CONTRAST WITH {習|なら}う"
-    ],
-    "02026_oboreru": [
-      "FIGURATIVE EXPRESSIONS"
     ],
     "02031_kakaeru": [
       "CONTRAST WITH {抱|だ}く AND {持|も}つ",
@@ -1913,9 +1886,6 @@
       "ACCUMULATION",
       "OVERLAPPING/COINCIDING",
       "PHYSICAL STACKING"
-    ],
-    "02042_kanashimu": [
-      "WORD FAMILY"
     ],
     "02043_karu": [
       "SENSE 1 - TO CUT (hair/grass)",
@@ -1935,15 +1905,9 @@
     "02053_kuwaeru": [
       "DON'T CONFUSE WITH {加|くわ}える"
     ],
-    "02054_keru": [
-      "SPORTS"
-    ],
     "02060_shizumeru": [
       "SENSE 1 - PHYSICAL (to sink)",
       "SENSE 2 - EMOTIONAL (to calm/suppress)"
-    ],
-    "02063_sukuu": [
-      "PASSIVE FORM"
     ],
     "02064_sumasu": [
       "SENSE 1 - TO FINISH/COMPLETE",
@@ -1974,8 +1938,7 @@
       "CONVENIENCE STORE PHRASE"
     ],
     "02103_konomu": [
-      "CONTRAST WITH {好|す}き",
-      "WORD FAMILY"
+      "CONTRAST WITH {好|す}き"
     ],
     "02112_sabaku": [
       "HANDLING MEANING",
@@ -1989,9 +1952,6 @@
     ],
     "02116_shiharau": [
       "COMPARISON WITH {払|はら}う"
-    ],
-    "02118_shoujiru": [
-      "ALTERNATE FORM"
     ],
     "02120_susumeru": [
       "USEFUL EXPRESSION"
@@ -2032,9 +1992,6 @@
     "02151_ken": [
       "JAPAN'S ADMINISTRATIVE DIVISIONS ({都道府県|とどうふけん})"
     ],
-    "02152_koto": [
-      "RELATED INSTRUMENTS"
-    ],
     "02153_satsu": [
       "CONTRAST WITH COINS",
       "JAPANESE BILLS",
@@ -2047,8 +2004,7 @@
       "LITERAL USES (seeds)"
     ],
     "02164_hana": [
-      "COMMON PHYSICAL EXPRESSIONS",
-      "FIGURATIVE EXPRESSIONS"
+      "COMMON PHYSICAL EXPRESSIONS"
     ],
     "02167_maru": [
       "IN NAMES",
@@ -2114,9 +2070,6 @@
       "COLOR MEANING",
       "SLANG MEANING"
     ],
-    "02206_kusa": [
-      "INTERNET SLANG"
-    ],
     "02209_koi": [
       "CHILDREN'S DAY ({子供|こども}の{日|ひ})",
       "TYPES OF CARP"
@@ -2134,9 +2087,6 @@
     "02219_taki": [
       "FAMOUS WATERFALLS"
     ],
-    "02224_tatami": [
-      "MEASUREMENT"
-    ],
     "02225_tetsu": [
       "SIMILAR MATERIALS"
     ],
@@ -2148,9 +2098,6 @@
     ],
     "02231_tsura": [
       "ALTERNATE READINGS OF {面|めん}"
-    ],
-    "02233_tsuyu": [
-      "LITERARY NOTE"
     ],
     "02234_namae": [
       "JAPANESE NAME ORDER",
@@ -2175,9 +2122,6 @@
     "02240_niku": [
       "TYPES OF MEAT"
     ],
-    "02241_ha": [
-      "SEASONAL TERMS"
-    ],
     "02242_hachi": [
       "TYPES OF BEES/WASPS"
     ],
@@ -2189,7 +2133,6 @@
     ],
     "02246_hebi": [
       "IDIOMS AND EXPRESSIONS",
-      "KANJI READING",
       "TYPES OF SNAKES"
     ],
     "02248_hi": [
@@ -2202,7 +2145,6 @@
       "NAME"
     ],
     "02253_hotaru": [
-      "CULTURAL TRADITIONS",
       "JAPANESE SPECIES"
     ],
     "02255_mae": [
@@ -2254,9 +2196,6 @@
     "02285_taku": [
       "DISTINCTION FROM {炊|た}く"
     ],
-    "02286_damasu": [
-      "PASSIVE FORM"
-    ],
     "02289_tsuujiru": [
       "SENSE 1 - CONNECTION",
       "SENSE 2 - COMMUNICATION",
@@ -2285,9 +2224,6 @@
       "ABSTRACT USES",
       "CONCRETE USES"
     ],
-    "02309_meijiru": [
-      "ALTERNATE FORM"
-    ],
     "02314_mochiiru": [
       "COMMON IN"
     ],
@@ -2304,8 +2240,7 @@
     ],
     "02322_yabureru": [
       "COMPETITION CONTEXTS",
-      "THINGS THAT GET TORN",
-      "TRANSITIVE/INTRANSITIVE PAIR"
+      "THINGS THAT GET TORN"
     ],
     "02324_yuderu": [
       "SIMILAR COOKING METHODS"
@@ -2319,8 +2254,7 @@
     ],
     "02333_wakeru": [
       "SENSE 1 - DIVIDE",
-      "SENSE 2 - SHARE/DISTRIBUTE",
-      "TRANSITIVE/INTRANSITIVE PAIR"
+      "SENSE 2 - SHARE/DISTRIBUTE"
     ],
     "02334_waru": [
       "BREAKING (Sense 2)",
@@ -2424,9 +2358,6 @@
     ],
     "02427_migaku": [
       "LITERAL USES (physical polishing)"
-    ],
-    "02429_mitomeru": [
-      "PASSIVE FORM"
     ],
     "02430_musubi": [
       "MEANING 1 - CONCLUSION",
@@ -2653,8 +2584,7 @@
       "ACADEMIC PROGRAMS"
     ],
     "02659_kudari": [
-      "TEXT PASSAGE",
-      "TRAIN TERMINOLOGY"
+      "TEXT PASSAGE"
     ],
     "02660_giin": [
       "TYPES OF LEGISLATORS"
@@ -3157,9 +3087,6 @@
     "03001_nikaidate": [
       "STORY PATTERN ([number]{階建|かいだ}て)"
     ],
-    "03004_furidasu": [
-      "COMPOUND VERB PATTERN"
-    ],
     "03006_yuushoku": [
       "MEAL VOCABULARY"
     ],
@@ -3576,7 +3503,6 @@
     ],
     "03652_yuka": [
       "FLOOR TYPES",
-      "KANJI READING",
       "RELATED ROOM PARTS"
     ],
     "03655_yoake": [
@@ -3584,9 +3510,6 @@
     ],
     "03675_riku": [
       "THREE DOMAINS"
-    ],
-    "03676_risou": [
-      "DERIVED"
     ],
     "03684_shiri": [
       "POLITE ALTERNATIVES"
@@ -3696,9 +3619,6 @@
       "MUSIC ALBUM COLLOCATIONS",
       "PHOTO ALBUM COLLOCATIONS"
     ],
-    "03834_enerugii": [
-      "DERIVED"
-    ],
     "03836_kaado": [
       "TYPES OF CARDS"
     ],
@@ -3708,8 +3628,7 @@
     ],
     "03845_gooru": [
       "FINISH LINE",
-      "OBJECTIVE",
-      "SPORTS"
+      "OBJECTIVE"
     ],
     "03850_sukejuuru": [
       "スケジュール VS {予定|よてい}"
@@ -3795,12 +3714,6 @@
     ],
     "03923_saguru": [
       "COMPARISON WITH {探|さが}す"
-    ],
-    "03943_nobori": [
-      "TRAIN TERMINOLOGY"
-    ],
-    "03945_gun": [
-      "JAPANESE ADMINISTRATIVE DIVISIONS"
     ],
     "03950_gen": [
       "WITH POSITIONS"
@@ -4222,9 +4135,6 @@
     ],
     "04461_gitaa": [
       "PLAYING TECHNIQUES"
-    ],
-    "04462_furuuto": [
-      "RELATED INSTRUMENTS"
     ],
     "04463_doramu": [
       "DRUM KIT PARTS",
@@ -5206,9 +5116,6 @@
     "05403_makimodoshi": [
       "MEDIA CONTROL VOCABULARY"
     ],
-    "05404_kanashimi": [
-      "WORD FAMILY"
-    ],
     "05405_osore": [
       "SPECIAL EXPRESSION"
     ],
@@ -5389,8 +5296,7 @@
     ],
     "05515_kaikyuu": [
       "MILITARY RANKS",
-      "SOCIAL CLASS",
-      "SPORTS (WEIGHT CLASS)"
+      "SOCIAL CLASS"
     ],
     "05520_shobun": [
       "SENSE 1 - DISPOSAL",
@@ -5434,12 +5340,6 @@
     ],
     "05562_noutan": [
       "ART CONTEXT"
-    ],
-    "05586_oshougatsu": [
-      "CULTURAL TRADITIONS"
-    ],
-    "05587_obon": [
-      "CULTURAL TRADITIONS"
     ],
     "05588_momijigari": [
       "FAMOUS SPOTS"
@@ -5757,7 +5657,6 @@
       "KEIGO LEVEL"
     ],
     "05912_zonjiru": [
-      "ALTERNATE FORM",
       "KEIGO USAGE"
     ],
     "05913_choudaisuru": [
@@ -6159,7 +6058,6 @@
     ],
     "06294_montsuki": [
       "FULL FORMAL OUTFIT",
-      "OCCASIONS",
       "TRADITIONAL JAPANESE FORMAL WEAR"
     ],
     "06295_bangasa": [
@@ -6287,9 +6185,6 @@
     ],
     "06357_mukatsuku": [
       "SLANG/COLLOQUIAL"
-    ],
-    "06358_guguru": [
-      "INTERNET SLANG"
     ],
     "06359_tatsumaki": [
       "WEATHER TERM"
@@ -6758,13 +6653,11 @@
       "SEASONAL SIGNIFICANCE"
     ],
     "06571_zeirishi": [
-      "LICENSING",
       "SCOPE OF WORK"
     ],
     "06572_fudousanya": [
       "FEES",
-      "FORMAL ALTERNATIVES",
-      "LICENSING"
+      "FORMAL ALTERNATIVES"
     ],
     "06573_renpa": [
       "NUMBERED FORMS"
@@ -7958,9 +7851,6 @@
       "COMMON PAIR",
       "DIFFERENCE FROM {整理|せいり}"
     ],
-    "07620_kusuguru": [
-      "FIGURATIVE EXPRESSIONS"
-    ],
     "07623_honnou": [
       "CONTRAST WITH {直感|ちょっかん}"
     ],
@@ -8093,8 +7983,7 @@
       "TECHNICAL NOTES"
     ],
     "07812_kabaa": [
-      "MUSIC USAGE (Sense 2)",
-      "SPORTS"
+      "MUSIC USAGE (Sense 2)"
     ],
     "07813_aitemu": [
       "FASHION/RETAIL USAGE",
@@ -8660,9 +8549,6 @@
       "GENERAL SENSE",
       "MUSIC SENSE"
     ],
-    "08149_kontorabasu": [
-      "RELATED INSTRUMENTS"
-    ],
     "08154_kewashii": [
       "SENSE 1 - STEEP",
       "SENSE 2 - HARSH/STERN"
@@ -8847,8 +8733,7 @@
       "CONCERNS"
     ],
     "08493_noshibukuro": [
-      "ELEMENTS",
-      "OCCASIONS"
+      "ELEMENTS"
     ],
     "08494_hikkoshiiwai": [
       "GIFT IDEAS",
@@ -8863,9 +8748,6 @@
     ],
     "08516_kyakuryoku": [
       "RELATED BODY STRENGTH TERMS"
-    ],
-    "08518_akuryoku": [
-      "MEASUREMENT"
     ],
     "08632_kokyaku": [
       "BUSINESS VOCABULARY"
@@ -8952,9 +8834,6 @@
     ],
     "08785_nakya": [
       "CASUAL CONTRACTION"
-    ],
-    "08786_warota": [
-      "INTERNET SLANG"
     ],
     "08787_burakku": [
       "COFFEE USAGE",
@@ -9142,9 +9021,6 @@
     "08889_ichimai": [
       "THINGS COUNTED WITH {枚|まい}"
     ],
-    "08890_ippo": [
-      "FIGURATIVE EXPRESSIONS (Sense 2)"
-    ],
     "08891_ikki": [
       "DRINKING CONTEXT (Sense 2)"
     ],
@@ -9203,8 +9079,7 @@
       "ASTRONOMY"
     ],
     "08958_isshoubin": [
-      "COMMON SIZES",
-      "MEASUREMENT"
+      "COMMON SIZES"
     ],
     "08969_piiee": [
       "RELATED SOCCER TERMS"
@@ -10436,9 +10311,6 @@
     "13167_kakeru": [
       "TEIRU FORM"
     ],
-    "13168_kakera": [
-      "KANJI READING"
-    ],
     "13177_yokotawaru": [
       "TEIRU FORM"
     ],
@@ -11400,7 +11272,6 @@
       "TYPES OF FAT"
     ],
     "18668_natsuyasai": [
-      "SEASONAL TERMS",
       "TYPICAL SUMMER VEGETABLES"
     ],
     "18684_nikkin": [
@@ -11776,9 +11647,6 @@
     "19621_daida": [
       "RELATED BASEBALL TERMS"
     ],
-    "19623_banka": [
-      "SEASONAL TERMS"
-    ],
     "19656_kekkoniwai": [
       "GIFT CUSTOMS"
     ],
@@ -11887,9 +11755,6 @@
     ],
     "20377_danzuru": [
       "CONJUGATION NOTE"
-    ],
-    "20379_nabebuta": [
-      "RELATED COOKING TERMS"
     ],
     "20397_kakigenkin": [
       "RELATED SIGN PHRASES"
@@ -12236,9 +12101,6 @@
     "22268_gimonkei": [
       "JAPANESE QUESTION FORMATION"
     ],
-    "22272_kakihajimeru": [
-      "COMPOUND VERB PATTERN"
-    ],
     "22276_yarinage": [
       "RELATED THROWING EVENTS"
     ],
@@ -12293,9 +12155,6 @@
     "22456_warabeuta": [
       "EXAMPLES OF FAMOUS わらべうた"
     ],
-    "22460_sasameyuki": [
-      "LITERARY NOTE"
-    ],
     "22462_chauke": [
       "COMMON TEA SNACKS"
     ],
@@ -12313,8 +12172,7 @@
       "CAUTION FOR LEARNERS"
     ],
     "22553_aburawokiru": [
-      "COMMON METHODS",
-      "RELATED COOKING TERMS"
+      "COMMON METHODS"
     ],
     "22574_koufungimi": [
       "RELATED ～{気味|ぎみ} EXPRESSIONS"
@@ -12387,9 +12245,6 @@
     ],
     "23044_jin": [
       "THE FIVE CONFUCIAN VIRTUES ({五常|ごじょう})"
-    ],
-    "23060_gaitou": [
-      "LITERARY NOTE"
     ],
     "23067_annaigakari": [
       "NOTE ON {係|がかり}"
@@ -13008,9 +12863,6 @@
     ],
     "26238_hanagara": [
       "RELATED PATTERN WORDS"
-    ],
-    "26247_gyouseiku": [
-      "JAPANESE ADMINISTRATIVE DIVISIONS"
     ],
     "26254_agekamaboko": [
       "REGIONAL NAMES"
