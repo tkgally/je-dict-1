@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of ⟦{何|なん}→何〜：03100_nan⟧ (what / how many) and ⟦{個|こ}→〜個：00645_ko⟧ (counter for small objects). This is one of the most frequently used counter question words in daily conversation, since ⟦{個|こ}→〜個：00645_ko⟧ is the most versatile general counter for objects.\n\nRELATED COUNTER QUESTIONS:\n- {何本|なんぼん}: how many (long objects — bottles, pens, umbrellas)\n- ⟦{何枚|なんまい}→何枚：08777_nanmai⟧: how many (flat objects — sheets, tickets, plates)\n- ⟦{何杯|なんばい}→何杯：08779_nanbai⟧: how many (cups, glasses, bowls)\n- {何台|なんだい}: how many (machines, vehicles)\n\nUSAGE:\nThe counter ⟦{個|こ}→〜個：00645_ko⟧ applies broadly to small, compact, or round items: fruits, eggs, balls, boxes, bags, pieces. When the specific counter is unknown, ⟦{個|こ}→〜個：00645_ko⟧ serves as a safe default for physical objects.",
-  "cross_references": [],
+  "notes": "Composed of ⟦{何|なん}→何〜：03100_nan⟧ (what / how many) and ⟦{個|こ}→〜個：00645_ko⟧ (counter for small objects). This is one of the most frequently used counter question words in daily conversation, since ⟦{個|こ}→〜個：00645_ko⟧ is the most versatile general counter for objects.\n\nRELATED WORDS:\n- {何本|なんぼん}: how many (long objects — bottles, pens, umbrellas)\n- ⟦{何枚|なんまい}→何枚：08777_nanmai⟧: how many (flat objects — sheets, tickets, plates)\n- ⟦{何杯|なんばい}→何杯：08779_nanbai⟧: how many (cups, glasses, bowls)\n- {何台|なんだい}: how many (machines, vehicles)\n\nUSAGE:\nThe counter ⟦{個|こ}→〜個：00645_ko⟧ applies broadly to small, compact, or round items: fruits, eggs, balls, boxes, bags, pieces. When the specific counter is unknown, ⟦{個|こ}→〜個：00645_ko⟧ serves as a safe default for physical objects.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08777_nanmai",
+      "reading": "なんまい",
+      "headword": "{何枚|なんまい}",
+      "label": "how many (flat objects"
+    },
+    {
+      "type": "related",
+      "target_id": "08779_nanbai",
+      "reading": "なんばい",
+      "headword": "{何杯|なんばい}",
+      "label": "how many"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       ]
     },
     "created": "2026-05-04T13:50:27Z",
-    "modified": "2026-09-04T12:29:42Z"
+    "modified": "2026-10-06T18:24:42Z"
   }
 }
