@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "READING BATTING AVERAGES IN JAPANESE:\n- .300 = 3⟦{割|わり}→割：03194_wari⟧ (san-wari)\n- .250 = 2⟦{割|わり}→割：03194_wari⟧5{分|ぶ} (ni-wari go-bu)\n- .333 = 3⟦{割|わり}→割：03194_wari⟧3{分|ぶ}3{厘|りん} (san-wari san-bu san-rin)\n\nRELATED BASEBALL STATISTICS:\n- ⟦{防御率|ぼうぎょりつ}→防御率：08871_bougyoritsu⟧ (ERA - earned run average)\n- ⟦{出塁率|しゅつるいりつ}→出塁率：29931_shutsuruiritsu⟧ (on-base percentage)\n- ⟦{打点|だてん}→打点：08589_daten⟧ (RBI - runs batted in)\n- ⟦{本塁打|ほんるいだ}→本塁打：24569_honruida⟧ (home run)\n- ⟦{安打|あんだ}→安打：19717_anda⟧ (hit)\n\nBASEBALL AWARDS:\n- ⟦{首位|しゅい}{打者|だしゃ}→首位打者：26604_shuidasha⟧ (batting champion)\n- ⟦{最優秀|さいゆうしゅう}{選手|せんしゅ}→最優秀選手：23383_saiyuushuusenshu⟧ (MVP)\n- ⟦{新人王|しんじんおう}→新人王：18556_shinjinou⟧ (Rookie of the Year)",
+  "notes": "READING BATTING AVERAGES IN JAPANESE:\n- .300 = 3⟦{割|わり}→割：03194_wari⟧ (san-wari)\n- .250 = 2⟦{割|わり}→割：03194_wari⟧5{分|ぶ} (ni-wari go-bu)\n- .333 = 3⟦{割|わり}→割：03194_wari⟧3{分|ぶ}3{厘|りん} (san-wari san-bu san-rin)\n\nRELATED WORDS:\n- ⟦{防御率|ぼうぎょりつ}→防御率：08871_bougyoritsu⟧ (ERA - earned run average)\n- ⟦{出塁率|しゅつるいりつ}→出塁率：29931_shutsuruiritsu⟧ (on-base percentage)\n- ⟦{打点|だてん}→打点：08589_daten⟧ (RBI - runs batted in)\n- ⟦{本塁打|ほんるいだ}→本塁打：24569_honruida⟧ (home run)\n- ⟦{安打|あんだ}→安打：19717_anda⟧ (hit)\n\nBASEBALL AWARDS:\n- ⟦{首位|しゅい}{打者|だしゃ}→首位打者：26604_shuidasha⟧ (batting champion)\n- ⟦{最優秀|さいゆうしゅう}{選手|せんしゅ}→最優秀選手：23383_saiyuushuusenshu⟧ (MVP)\n- ⟦{新人王|しんじんおう}→新人王：18556_shinjinou⟧ (Rookie of the Year)",
   "cross_references": [
     {
       "type": "related",
@@ -93,11 +93,18 @@
       "reading": "しゅいだしゃ",
       "headword": "{首位|しゅい}{打者|だしゃ}",
       "label": "batting champion"
+    },
+    {
+      "type": "related",
+      "target_id": "06564_dasha",
+      "reading": "だしゃ",
+      "headword": "{打者|だしゃ}",
+      "label": "batter"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:18:44Z",
-    "modified": "2026-09-02T04:01:10Z",
+    "modified": "2026-10-07T00:26:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
