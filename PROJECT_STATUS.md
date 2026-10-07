@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31678–31697)
+
+Twenty internal-closure candidates that existing entries already use: 面持ち, 大仏, 選手団, 遺品, 文末, 黙秘権, 海峡, 流れ着く and 度重なる (godan verbs, conjugation tables added), 北上 and 飛来 (noun + する), 昨年度, 登山家, 冬山, 家族連れ, 作曲家, 耐性菌, 表書き, 仕打ち, 頭部. No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent. Four internal-closure candidates remain (投資信託, 術 (すべ), 蜉蝣, こどもの日).
+
 ### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31658–31677)
 
 Twenty internal-closure candidates that existing entries already use: 落札 (noun + する), 悪霊, 少子高齢化, 海岸線, 専門医, 最高裁 (proper noun), 受刑者, 通学路, 与野党, 雑貨屋, 客先, 三塁, 南国, 肖像, 戦車; the verbs 酔っぱらう, 立ち尽くす, 吹きかける, 手向ける, 持ち越す (conjugation tables added). The twenty entries that mentioned these words were relinked (27 new inline links). No new kanji, stale markers or newcomer link ambiguities. Self-check: no issues. 23 internal-closure candidates remain.
@@ -66,8 +70,3 @@ Twelve internal-closure candidates that existing entries already use: the prover
 
 A SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is empty). 72 proposed; 11 variant spellings of existing entries dropped (活かす, うかがう, 見惚れる, 辿り着く, 取り掛かる …) and a few transparent compounds; 56 added, each with the entry it was seen in (保健所, 少子高齢化, 黙秘権, 遺品, 持ち越す, 面持ち …). Queue 63 → 119.
 
-### 2026-10-06 (Routine v3: new-entries — 6 New Entries, IDs 31620–31625)
-
-A short last cycle (started at 108 min): six internal-closure nouns that existing examples and notes already use,
-物価高, 株主総会, 選挙戦, 定食屋, 満塁, 通気性. No new kanji; no stale markers or newcomer link ambiguities. Self-check
-clean (0 flags). 17 internal-closure candidates remain.
