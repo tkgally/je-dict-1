@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-07 (Routine v3: candidates — 60 Internal-Closure Candidates, C24092–C24175)
+
+The same SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is still empty). 110 proposed; the duplicate probe dropped 読み聞かせ and 17 variant spellings of existing entries (歯ごたえ, 寄りかかる, 肩こり, 折りたたむ, 生ごみ, 改ざん, 子猫 …); transparent compounds (合格者, 手術室, 緊急時 …) and 24 lower-value words were left out. 60 added, each with the entry it was seen in (策定, 人通り, 危機感, 覗き込む, 浪士, 志士, 被爆, 陽性 …). Queue 50 → 110.
+
 ### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31678–31697)
 
 Twenty internal-closure candidates that existing entries already use: 面持ち, 大仏, 選手団, 遺品, 文末, 黙秘権, 海峡, 流れ着く and 度重なる (godan verbs, conjugation tables added), 北上 and 飛来 (noun + する), 昨年度, 登山家, 冬山, 家族連れ, 作曲家, 耐性菌, 表書き, 仕打ち, 頭部. No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent. Four internal-closure candidates remain (投資信託, 術 (すべ), 蜉蝣, こどもの日).
@@ -65,8 +69,4 @@ Twenty internal-closure candidates that existing entries already use: the saying
 ### 2026-10-06 (Routine v3: new-entries — 12 New Entries, IDs 31626–31637)
 
 Twelve internal-closure candidates that existing entries already use: the proverbs 後悔先に立たず and 石橋を叩いて渡る, 航行 and 拡充 (noun + する, conjugation tables added), 細める, 飛び交う and 浴びせる (verbs, tables added), 両家, 理系, 定評, 見分け, 色使い. A short cycle (started at 95 min). No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped (the day's OpenRouter allowance was spent). 63 internal-closure candidates remain.
-
-### 2026-10-06 (Routine v3: candidates — 56 Internal-Closure Candidates, C24033–C24088)
-
-A SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is empty). 72 proposed; 11 variant spellings of existing entries dropped (活かす, うかがう, 見惚れる, 辿り着く, 取り掛かる …) and a few transparent compounds; 56 added, each with the entry it was seen in (保健所, 少子高齢化, 黙秘権, 遺品, 持ち越す, 面持ち …). Queue 63 → 119.
 
