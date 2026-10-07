@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A traditional Japanese home cooking technique. The key is to let the ingredients soak in the broth after simmering, which allows the flavors to fully penetrate. Popular variations: なす⟦の→の：09472_no⟧{煮浸|にびた}し (eggplant nibitashi), ⟦{小松菜|こまつな}→小松菜：12520_komatsuna⟧⟦の→の：09472_no⟧{煮浸|にびた}し (komatsuna nibitashi), ⟦{油揚|あぶらあ}げ→油揚げ：07477_aburaage⟧⟦の→の：09472_no⟧{煮浸|にびた}し (fried tofu nibitashi). Can be served warm or chilled, making it a versatile side dish. The broth is typically ⟦{出汁|だし}→出汁：04917_dashi⟧-based with ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ and みりん. Related cooking terms: ⟦{煮物|にもの}→煮物：04971_nimono⟧ (simmered dish), おひたし (blanched and seasoned vegetables).",
+  "notes": "Home-style cooking: ingredients are simmered briefly in ⟦{出汁|だし}→出汁：04917_dashi⟧ seasoned with ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ and みりん, then left to soak up the broth as it cools. Served warm or chilled.\n\nCOMMON COLLOCATIONS:\n- なす⟦の→の：09472_no⟧{煮浸|にびた}し: eggplant nibitashi\n- ⟦{小松菜|こまつな}→小松菜：12520_komatsuna⟧⟦の→の：09472_no⟧{煮浸|にびた}し: komatsuna nibitashi\n- ⟦{油揚|あぶらあ}げ→油揚げ：07477_aburaage⟧⟦の→の：09472_no⟧{煮浸|にびた}し: nibitashi with fried tofu\n\nSIMILAR WORDS:\n- ⟦{煮物|にもの}→煮物：04971_nimono⟧: simmered dish — cooked longer, served without the soaking broth\n- おひたし: blanched greens — boiled, then dressed with soy-flavored broth, not simmered in it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04971_nimono",
+      "reading": "にもの",
+      "headword": "{煮物|にもの}",
+      "label": "simmered dish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10245_ohitashi",
+      "reading": "おひたし",
+      "headword": "お{浸|ひた}し",
+      "label": "blanched greens"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-22T11:49:34Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-10-07T14:15:22Z"
   }
 }
