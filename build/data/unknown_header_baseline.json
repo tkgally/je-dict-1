@@ -1,104 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-07T06:39:01Z",
+  "generated": "2026-10-07T08:16:37Z",
   "headers": {
-    "00003_anmari": [
-      "EXCESSIVE USAGE"
-    ],
-    "00016_booi": [
-      "SERVICE INDUSTRY USAGE"
-    ],
-    "00017_booru": [
-      "BASEBALL PITCH",
-      "COOKING BOWL",
-      "SPORTS BALL"
-    ],
-    "00018_booto": [
-      "TYPES OF BOATS"
-    ],
-    "00022_bureeki": [
-      "TYPES OF BRAKES"
-    ],
-    "00024_chaimu": [
-      "1. DOORBELL",
-      "2. SCHOOL BELL",
-      "3. OTHER"
-    ],
-    "00025_chiisai": [
-      "SPECIAL FORMS"
-    ],
-    "00026_chiizu": [
-      "COMMON FOODS WITH CHEESE",
-      "TYPES OF CHEESE"
-    ],
-    "00029_chikajika": [
-      "ALTERNATIVE READINGS"
-    ],
-    "00032_daiya": [
-      "1. DIAMOND",
-      "2. TRAIN SCHEDULE (short for ダイヤグラム)"
-    ],
-    "00036_dezaato": [
-      "COMMON DESSERTS"
-    ],
-    "00037_doresu": [
-      "ドレス VS ワンピース"
-    ],
-    "00038_douka": [
-      "COIN TYPES BY MATERIAL"
-    ],
-    "00039_erai": [
-      "MEANING 1 - ADMIRABLE",
-      "MEANING 2 - HIGH-RANKING",
-      "MEANING 3 - COLLOQUIAL INTENSIFIER",
-      "REGIONAL USE"
-    ],
-    "00045_funka": [
-      "RELATED VOLCANIC TERMS"
-    ],
-    "00053_gakka": [
-      "DRIVER'S LICENSE"
-    ],
-    "00055_gakkou": [
-      "SCHOOL LEVELS"
-    ],
-    "00058_gamu": [
-      "CONFUSABLE WORD",
-      "NOTE ON ガムテープ"
-    ],
-    "00071_gishiki": [
-      "TYPES OF CEREMONIES"
-    ],
-    "00075_gurando": [
-      "GRAND PREFIX USAGE",
-      "SPORTS FIELD USAGE"
-    ],
-    "00076_gurasu": [
-      "TYPES OF GLASSES"
-    ],
-    "00084_haitatsu": [
-      "TYPES OF DELIVERY"
-    ],
-    "00098_hibiki": [
-      "USAGE FOR WORDS"
-    ],
-    "00105_hirosa": [
-      "MEASUREMENT USAGE",
-      "RELATED MEASUREMENTS"
-    ],
-    "00107_hizashi": [
-      "ALTERNATE SPELLINGS"
-    ],
-    "00113_hoomu": [
-      "HOME USAGE (from \"home\")",
-      "PLATFORM USAGE (from \"platform\")"
-    ],
-    "00118_ii": [
-      "AMBIGUITY NOTE"
-    ],
-    "00119_iku": [
-      "IRREGULAR FORMS"
-    ],
     "00132_kadai": [
       "SENSE 1 - ASSIGNMENTS",
       "SENSE 2 - ISSUES/CHALLENGES"
@@ -567,10 +470,6 @@
     ],
     "00772_daijoubu": [
       "MODERN USAGE NOTE"
-    ],
-    "00773_doa": [
-      "JAPANESE DOOR WORDS",
-      "TYPES OF DOORS"
     ],
     "00774_en": [
       "BILLS",
@@ -1396,9 +1295,6 @@
     "01761_akusesarii": [
       "TYPES OF ACCESSORIES"
     ],
-    "01763_ajia": [
-      "OTHER CONTINENTS"
-    ],
     "01765_anaunsaa": [
       "RELATED BROADCAST TERMS",
       "TYPES OF ANNOUNCERS"
@@ -1502,10 +1398,6 @@
     ],
     "01951_sodatsu": [
       "SUBJECTS"
-    ],
-    "01957_chigau": [
-      "SENSE 1 - DIFFERENT",
-      "SENSE 2 - WRONG/INCORRECT"
     ],
     "01958_chikazuku": [
       "NEGATIVE WARNING"
@@ -4741,9 +4633,6 @@
       "CORPORATE GOVERNANCE",
       "TYPES OF {監査|かんさ}"
     ],
-    "05973_kessan": [
-      "RETAIL CONTEXT"
-    ],
     "05975_tsuuin": [
       "INSURANCE"
     ],
@@ -7624,48 +7513,6 @@
     "10105_hanabitaikai": [
       "FAMOUS FIREWORKS FESTIVALS"
     ],
-    "10166_sushiya": [
-      "THE {屋|や} SUFFIX",
-      "TYPES OF SUSHI RESTAURANTS"
-    ],
-    "10171_sekaijuu": [
-      "SIMILAR 〜{中|じゅう} COMPOUNDS"
-    ],
-    "10173_chuuouginkou": [
-      "EXAMPLES BY COUNTRY"
-    ],
-    "10177_gaibukiki": [
-      "EXAMPLES OF DEVICES"
-    ],
-    "10180_ronbunhappyou": [
-      "PRESENTATION TYPES"
-    ],
-    "10184_yamanote": [
-      "FAMOUS REFERENCE",
-      "GEOGRAPHICAL NOTES"
-    ],
-    "10186_manatsubi": [
-      "METEOROLOGICAL TERMS"
-    ],
-    "10187_nettaiya": [
-      "DEFINITION",
-      "HEALTH NOTES"
-    ],
-    "10188_kandenchi": [
-      "COMMON SIZES (Japanese naming)"
-    ],
-    "10189_seisanki": [
-      "WITH IC CARDS"
-    ],
-    "10194_nenmatsuchousei": [
-      "TAX SYSTEM NOTES"
-    ],
-    "10196_gakui": [
-      "COMMON DEGREE TYPES"
-    ],
-    "10198_hakubo": [
-      "TRAFFIC SAFETY"
-    ],
     "10201_ete": [
       "CONTRAST WITH {不得手|ふえて}"
     ],
@@ -10083,9 +9930,6 @@
     "24344_houdounojiyuu": [
       "RELATED 〜の{自由|じゆう} PHRASES"
     ],
-    "24346_burandoka": [
-      "RELATED {〜化|か} COMPOUNDS"
-    ],
     "24348_hitotsuzutsu": [
       "THE ずつ PATTERN"
     ],
@@ -10103,9 +9947,6 @@
     ],
     "24495_kokumotsusu": [
       "TYPES OF VINEGAR"
-    ],
-    "24497_hikume": [
-      "OTHER め WORDS"
     ],
     "24504_suuken": [
       "OTHER {数|すう}+ COUNTER WORDS"
