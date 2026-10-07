@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "ドア is a loanword from English 'door,' used mainly for Western-style hinged doors.\n\nCOMMON EXPRESSIONS:\n- ドア⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧: to open the door\n- ドア⟦を→を：00422_wo⟧⟦{閉|し}める→閉める：00485_shimeru⟧: to close the door\n- ドア⟦を→を：00422_wo⟧⟦ノック→ノック：03868_nokku⟧⟦する→する：00392_suru⟧: to knock on the door\n- ドア⟦が→が：00051_ga⟧⟦{開|あ}く→開く：00689_aku⟧: the door opens (intransitive)\n\nTYPES OF DOORS:\n- ⟦{自動|じどう}→自動：03339_jidou⟧ドア: automatic door\n- ⟦{回転|かいてん}→回転：00141_kaiten⟧ドア: revolving door\n- ⟦フロント→フロント：01378_furonto⟧ドア: front door\n\nJAPANESE DOOR WORDS:\n- ⟦{戸|と}→戸：00676_to⟧: door (traditional/general)\n- ⟦{扉|とびら}→扉：04494_tobira⟧: door (formal/literary)\n- ⟦{引|ひ}き{戸|ど}→引き戸：27509_hikido⟧: sliding door\n- ⟦{襖|ふすま}→襖：03908_fusuma⟧: fusuma (paper sliding door)\n- ⟦{障子|しょうじ}→障子：04201_shouji⟧: shoji (paper screen door)",
+  "notes": "ドア is a loanword from English 'door.' It covers Western-style hinged doors and the doors of cars, trains and elevators (even sliding ones: ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧ドア). Traditional Japanese doors have their own words (SIMILAR WORDS).\n\nCOMMON COLLOCATIONS:\n- ドア⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧: to open the door\n- ドア⟦を→を：00422_wo⟧⟦{閉|し}める→閉める：00485_shimeru⟧: to close the door\n- ドア⟦を→を：00422_wo⟧⟦ノック→ノック：03868_nokku⟧⟦する→する：00392_suru⟧: to knock on the door\n- ドア⟦が→が：00051_ga⟧⟦{開|あ}く→開く：00689_aku⟧: the door opens (intransitive)\n\nTYPES:\n- ⟦{自動|じどう}→自動：03339_jidou⟧ドア: automatic door\n- ⟦{回転|かいてん}→回転：00141_kaiten⟧ドア: revolving door\n- フロントドア: front door (of a car); the front door of a house is ⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦の→の：09472_no⟧ドア\n\nSIMILAR WORDS:\n- ⟦{戸|と}→戸：00676_to⟧: door (traditional/general)\n- ⟦{扉|とびら}→扉：04494_tobira⟧: door (formal/literary)\n- ⟦{引|ひ}き{戸|ど}→引き戸：27509_hikido⟧: sliding door\n- ⟦{襖|ふすま}→襖：03908_fusuma⟧: fusuma (paper sliding door)\n- ⟦{障子|しょうじ}→障子：04201_shouji⟧: shoji (paper screen door)",
   "cross_references": [
     {
       "type": "contrast",
@@ -92,11 +92,39 @@
       "reading": "ひらきど",
       "headword": "{開|ひら}き{戸|ど}",
       "label": "hinged door"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04494_tobira",
+      "reading": "とびら",
+      "headword": "{扉|とびら}",
+      "label": "door"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27509_hikido",
+      "reading": "ひきど",
+      "headword": "{引|ひ}き{戸|ど}",
+      "label": "sliding door"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03908_fusuma",
+      "reading": "ふすま",
+      "headword": "{襖|ふすま}",
+      "label": "fusuma"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04201_shouji",
+      "reading": "しょうじ",
+      "headword": "{障子|しょうじ}",
+      "label": "shoji"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:31:27Z",
-    "modified": "2026-09-30T14:00:37Z",
+    "modified": "2026-10-07T06:55:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -106,7 +134,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "furniture"
+        "building"
       ]
     }
   }
