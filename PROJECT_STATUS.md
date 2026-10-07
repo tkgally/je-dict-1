@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31658–31677)
+
+Twenty internal-closure candidates that existing entries already use: 落札 (noun + する), 悪霊, 少子高齢化, 海岸線, 専門医, 最高裁 (proper noun), 受刑者, 通学路, 与野党, 雑貨屋, 客先, 三塁, 南国, 肖像, 戦車; the verbs 酔っぱらう, 立ち尽くす, 吹きかける, 手向ける, 持ち越す (conjugation tables added). The twenty entries that mentioned these words were relinked (27 new inline links). No new kanji, stale markers or newcomer link ambiguities. Self-check: no issues. 23 internal-closure candidates remain.
+
 ### 2026-10-06 (Routine v3: new-entries — 20 New Entries, IDs 31638–31657)
 
 Twenty internal-closure candidates that existing entries already use: the sayings 弱り目に祟り目, 踏んだり蹴ったり and 腕が上がる; the verbs 乗り上げる (including 暗礁に乗り上げる), 先立つ, 絶つ, 通ずる and 儲かる (conjugation tables added); the nouns 活字離れ, 忠臣, 党内, 取り返し, 相手方, 我が社, 保健所, 蔵元, 寸断 (noun + する), 広がり; 慢性的 (na-adjective); and 外務省 (proper noun). No new kanji, stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter budget was spent. 43 internal-closure candidates remain.
@@ -67,9 +71,3 @@ A SudachiPy scan of the examples' unlinked text for kanji words with no entry (t
 A short last cycle (started at 108 min): six internal-closure nouns that existing examples and notes already use,
 物価高, 株主総会, 選挙戦, 定食屋, 満塁, 通気性. No new kanji; no stale markers or newcomer link ambiguities. Self-check
 clean (0 flags). 17 internal-closure candidates remain.
-
-### 2026-10-05 (Routine v3: new-entries — 10 New Entries, IDs 31610–31619)
-
-Ten internal-closure nouns that existing examples and notes already use: 賛否両論, 取り調べ, 講習, 臭み, 尋問 (noun +
-する, conjugation table added), 国際法, 損害賠償, 和平, 水性, 雪道. No new kanji; no stale markers or newcomer link
-ambiguities. Self-check skipped (the day's OpenRouter allowance was spent). 23 internal-closure candidates remain.
