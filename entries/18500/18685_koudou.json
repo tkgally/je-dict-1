@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Note the homophone distinction: {坑道|こうどう} (mine tunnel) vs ⟦{行動|こうどう}→行動：02728_koudou⟧ (action) vs ⟦{講堂|こうどう}→講堂：01586_koudou⟧ (lecture hall/auditorium). The kanji {坑|こう} specifically relates to mines and excavation. Common collocations: {坑道|こうどう}⟦を→を：00422_wo⟧⟦{掘|ほ}る→掘る：00442_horu⟧ (to dig a mine tunnel), {坑道|こうどう}⟦{内|ない}→〜内：09853_nai⟧ (inside the tunnel). In military usage, refers to underground passages or siege tunnels. Related: ⟦{炭鉱|たんこう}→炭鉱：04504_tankou⟧ (coal mine), ⟦{鉱山|こうざん}→鉱山：15746_kouzan⟧ (mine — the site), ⟦{採掘|さいくつ}→採掘：07996_saikutsu⟧ (mining, excavation).",
+  "notes": "WATCH OUT:\nHomophones: {坑道|こうどう} (mine tunnel), ⟦{行動|こうどう}→行動：02728_koudou⟧ (action), ⟦{講堂|こうどう}→講堂：01586_koudou⟧ (auditorium). The kanji {坑|こう} belongs to mines and pits.\n\nCOMMON COLLOCATIONS:\n- {坑道|こうどう}⟦を→を：00422_wo⟧⟦{掘|ほ}る→掘る：00442_horu⟧ (to dig a tunnel)\n- {坑道|こうどう}⟦{内|ない}→〜内：09853_nai⟧ (inside the tunnel)\n\nUSAGE:\nAlso used in military history for tunnels dug under enemy positions.\n\nRELATED WORDS:\n- ⟦{炭鉱|たんこう}→炭鉱：04504_tankou⟧ (coal mine)\n- ⟦{鉱山|こうざん}→鉱山：15746_kouzan⟧ (mine, the site)\n- ⟦{採掘|さいくつ}→採掘：07996_saikutsu⟧ (mining, excavation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04504_tankou",
+      "reading": "たんこう",
+      "headword": "{炭鉱|たんこう}",
+      "label": "coal mine"
+    },
+    {
+      "type": "related",
+      "target_id": "15746_kouzan",
+      "reading": "こうざん",
+      "headword": "{鉱山|こうざん}",
+      "label": "mine, the site"
+    },
+    {
+      "type": "related",
+      "target_id": "07996_saikutsu",
+      "reading": "さいくつ",
+      "headword": "{採掘|さいくつ}",
+      "label": "mining, excavation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-22T11:54:13Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-10-07T18:51:28Z"
   }
 }
