@@ -1569,3 +1569,7 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 11858: audio checks heard はなしあい for {話|はなし}し{合|あ}い in 11858_osamaru_ex6; the furigana should be {話|はな}し{合|あ}い (2026-10-07 audio)
 - [entry] 11919: audio checks heard まじわる/こうさする for {交|こう}わる in 11919_juuji_ex1; 交わる is まじわる, fix the furigana (2026-10-07 audio)
 - [entry] 11952: audio checks heard かぞえきれない for {数|かず}え{切|き}れない in 11952_shiseki_ex3; 数える is かぞえる, fix the furigana (2026-10-07 audio)
+- [entry] 12770: audio checks heard てっとりばやい for {手|て}っ{取|と}り{早|はや}い in 12770_tettoribayai_ex1/ex2/ex3; check the furigana (早 should be ばや in this word).
+- [entry] 12426: audio checks heard a mismatch for {流行|りゅうこう}った in 12426_sutareru_ex2; check the furigana (流行った is はやった).
+- [entry] 12438: audio checks heard ひとりぐらし for {一人|ひとり}{暮|く}らし in 12438_yamaoku_ex3; check the furigana.
+- [entry] 12612: audio checks heard くるしみ for {苦|く}しみ in 12612_higan_ex5; check the furigana.
