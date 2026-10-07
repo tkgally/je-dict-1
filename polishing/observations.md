@@ -1566,3 +1566,6 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 11409: audio checks heard がいしゃ for 会社 in 11409_nottoru_ex3 (rendaku in a compound); check the furigana. (audio 2026-10-06)
 - [tooling] 2026-10-06: plain `pip install -r build/requirements.txt` (pip from /usr/lib/python3) did not make sudachipy importable by /usr/local/bin/python3; `python3 -m pip install` did. routine2.md's install line could use python3 -m pip.
 - [tooling] 2026-10-06: auto_link.py ignores an `unlink` decision for an inflected kana verb surface (06611: うえした, した linked to する; review_links --apply-decisions removed it, then its relink step and auto_link both re-added it). Worked around by rewording the note. The excluded-base guard seems to miss the conjugated-form path. (systemic-fix 2026-10-06)
+- [entry] 11858: audio checks heard はなしあい for {話|はなし}し{合|あ}い in 11858_osamaru_ex6; the furigana should be {話|はな}し{合|あ}い (2026-10-07 audio)
+- [entry] 11919: audio checks heard まじわる/こうさする for {交|こう}わる in 11919_juuji_ex1; 交わる is まじわる, fix the furigana (2026-10-07 audio)
+- [entry] 11952: audio checks heard かぞえきれない for {数|かず}え{切|き}れない in 11952_shiseki_ex3; 数える is かぞえる, fix the furigana (2026-10-07 audio)
