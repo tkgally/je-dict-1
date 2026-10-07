@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-07T00:41:35Z",
+  "generated": "2026-10-07T01:20:53Z",
   "headers": {
     "00003_anmari": [
       "EXCESSIVE USAGE"
@@ -7727,12 +7727,6 @@
     ],
     "10105_hanabitaikai": [
       "FAMOUS FIREWORKS FESTIVALS"
-    ],
-    "10159_denwabangou": [
-      "JAPANESE PHONE NUMBERS"
-    ],
-    "10160_hatsubaibi": [
-      "SIMILAR DATE COMPOUNDS"
     ],
     "10166_sushiya": [
       "THE {屋|や} SUFFIX",
