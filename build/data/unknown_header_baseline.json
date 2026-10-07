@@ -1,94 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-07T19:08:08Z",
+  "generated": "2026-10-07T19:49:31Z",
   "headers": {
-    "00610_gakusei": [
-      "STUDENT TYPES BY LEVEL"
-    ],
-    "00614_nihongo": [
-      "PATTERN FOR LANGUAGES"
-    ],
-    "00616_akarui": [
-      "SENSE 1 - PHYSICAL BRIGHTNESS",
-      "SENSE 2 - CHEERFUL/OPTIMISTIC"
-    ],
-    "00622_futari": [
-      "IRREGULAR PEOPLE COUNTERS"
-    ],
-    "00623_fuyu": [
-      "CULTURAL ASSOCIATIONS",
-      "SEASONS IN JAPANESE"
-    ],
-    "00625_gogatsu": [
-      "GOLDEN WEEK HOLIDAYS",
-      "MAY TRADITIONS"
-    ],
-    "00627_haru": [
-      "SPRING VOCABULARY",
-      "THE FOUR SEASONS"
-    ],
-    "00628_hidari": [
-      "TRAFFIC NOTE"
-    ],
-    "00630_hitori": [
-      "IRREGULAR COUNTING"
-    ],
-    "00631_ichigatsu": [
-      "NEW YEAR GREETINGS"
-    ],
-    "00632_inu": [
-      "JAPANESE BREEDS"
-    ],
-    "00637_kaban": [
-      "TYPES OF BAGS"
-    ],
-    "00640_kayoubi": [
-      "WEEKDAY SERIES"
-    ],
-    "00641_kaze": [
-      "TYPES OF WIND"
-    ],
-    "00643_kippu": [
-      "CONTRAST WITH チケット"
-    ],
-    "00647_kurai": [
-      "SENSE 1 - PHYSICAL DARKNESS",
-      "SENSE 2 - GLOOMY/DEPRESSED"
-    ],
-    "00648_kuukou": [
-      "TRAVEL VOCABULARY"
-    ],
-    "00667_shichigatsu": [
-      "JULY EVENTS"
-    ],
-    "00669_shinu": [
-      "WHICH VERB FOR WHAT DIES"
-    ],
-    "00670_shita": [
-      "USAGE FOR AGE"
-    ],
-    "00674_suzushii": [
-      "TEMPERATURE ADJECTIVES COMPARISON"
-    ],
-    "00676_to": [
-      "CONTRAST WITH ドア"
-    ],
-    "00679_tori": [
-      "DUAL MEANING"
-    ],
-    "00682_ue": [
-      "POSITION PATTERNS",
-      "RANK/STATUS"
-    ],
-    "00686_zasshi": [
-      "PUBLICATION FREQUENCY"
-    ],
-    "00691_boorupen": [
-      "RELATED WRITING INSTRUMENTS"
-    ],
-    "00692_boushi": [
-      "TYPES OF HATS"
-    ],
     "00695_fuku": [
       "TYPES OF CLOTHING"
     ],
@@ -7205,15 +7118,6 @@
     ],
     "10105_hanabitaikai": [
       "FAMOUS FIREWORKS FESTIVALS"
-    ],
-    "10252_okonomiyaki": [
-      "REGIONAL STYLES"
-    ],
-    "10253_okyakusan": [
-      "AS A FORM OF ADDRESS"
-    ],
-    "10256_sutoroo": [
-      "ENVIRONMENTAL NOTE"
     ],
     "10259_tenkenchuu": [
       "THE ～{中|ちゅう} PATTERN"
