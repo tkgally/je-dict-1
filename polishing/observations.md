@@ -1579,3 +1579,6 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 12936: audio checks heard だいニュース for 大ニュース in 12936_yurugasu_ex6; 大ニュース is だいニュース; check the furigana
 - [entry] 12988: audio checks heard ぶそく for 不足 in 12988_danzetsu_ex3; 後継者不足 is usually こうけいしゃぶそく (rendaku); check the furigana
 - [entry] 13064: audio checks heard にじゅっ for 二十 before ページ in 13064_honbun_ex3; にじゅっページ is the common spoken form; check whether to keep にじゅう
+- [entry] 12930: audio checks heard よばん for 四番 in 12930_keien_ex4; entry 30009 四番 is よんばん and covers the baseball sense, so the example was left as is. Whether 30009 should mention よばん (the usual reading for the cleanup hitter) is a curator call.
+- [entry] 12698: audio checks heard だかい in 悪名高い (12698_akumei_ex1, ex3); the entry reads 悪名 as あくめい, and 悪名高い is usually あくみょうだかい. Left for the curator: the example illustrates the あくめい reading.
+- [tooling] In this container `pip` installs for Python 3.13 while `python3` is 3.11, so `make audio-deps` and `pip install -r build/requirements.txt` installed into the wrong interpreter (audio `run` failed on `import requests`). `python3 -m pip install …` fixed it; the Makefile and routine2.md could use `python3 -m pip`.

@@ -103,7 +103,7 @@
     {
       "sense_number": 2,
       "gloss": "to garnish, to arrange as decoration",
-      "explanation": "Used in cooking to describe arranging garnishes or decorative elements."
+      "explanation": "To add something as a garnish or decorative accent, to food, clothing or a design."
     }
   ],
   "examples": [
@@ -168,11 +168,26 @@
       ]
     }
   ],
-  "notes": "あしらう has two distinct meanings: treating or dealing with a person (often dismissively), and garnishing or decorating food or objects.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nASPECT (ている):\nあしらって⟦いる→いる：00495_iru⟧ describes an ongoing state of treating someone in a certain way, or a completed garnish arrangement.\n\nSENSE 1 — TREATING SOMEONE:\n- ⟦{冷|つめ}たく→冷たい：00681_tsumetai⟧あしらう: to treat coldly, to give the cold shoulder\n- ⟦{適当|てきとう}→適当：01674_tekitou⟧⟦に→に：00314_ni⟧あしらう: to deal with someone casually/dismissively\n- ⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧あしらう: to handle someone skillfully\n\nSENSE 2 — GARNISHING:\n- ⟦{料理|りょうり}→料理：01523_ryouri⟧⟦に→に：00314_ni⟧あしらう: to garnish a dish\n- ⟦{大葉|おおば}→大葉：17713_ooba⟧⟦を→を：00422_wo⟧あしらう: to garnish with shiso leaves\n\nREGISTER:\nSlightly literary. In everyday speech, sense 1 is more common than sense 2. For garnishing, ⟦{飾|かざ}る→飾る：01185_kazaru⟧ or ⟦{添|そ}える→添える：13315_soeru⟧ are more casual alternatives.",
-  "cross_references": [],
+  "notes": "USAGE: In sense 1 the adverb carries the meaning, and it is usually unflattering (⟦{冷|つめ}たく→冷たい：00681_tsumetai⟧, ⟦{適当|てきとう}→適当：01674_tekitou⟧⟦に→に：00314_ni⟧, ⟦{鼻|はな}→鼻：02164_hana⟧⟦で→で：00502_de⟧). Sense 2 is common in recipes, fashion and product descriptions, often in the passive: ⟦{刺繍|ししゅう}→刺繍：05411_shishuu⟧⟦が→が：00051_ga⟧あしらわれて⟦いる→いる：00495_iru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{冷|つめ}たく→冷たい：00681_tsumetai⟧あしらう: to give someone the cold shoulder\n- ⟦{適当|てきとう}→適当：01674_tekitou⟧⟦に→に：00314_ni⟧あしらう: to brush someone off\n- ⟦{鼻|はな}→鼻：02164_hana⟧⟦で→で：00502_de⟧あしらう: to treat someone with contempt\n- ⟦{軽|かる}く→軽い：00785_karui⟧あしらう: to handle an opponent with ease\n- ⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧あしらった⟦デザイン→デザイン：03860_dezain⟧: a design decorated with flowers\n\nSIMILAR WORDS:\n- ⟦{扱|あつか}う→扱う：01862_atsukau⟧: to treat, to handle — neutral\n- ⟦{添|そ}える→添える：13315_soeru⟧: to add as an accompaniment — the plain word for putting a garnish beside food",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01862_atsukau",
+      "reading": "あつかう",
+      "headword": "{扱|あつか}う",
+      "label": "to treat, to handle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13315_soeru",
+      "reading": "そえる",
+      "headword": "{添|そ}える",
+      "label": "to add as an accompaniment"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T14:29:50Z",
-    "modified": "2026-09-02T04:01:20Z",
+    "modified": "2026-10-07T13:41:14Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -182,7 +197,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "communication",
+        "cooking"
       ],
       "verb_class": "godan-u"
     }
