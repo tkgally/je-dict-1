@@ -1573,3 +1573,9 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 12426: audio checks heard a mismatch for {流行|りゅうこう}った in 12426_sutareru_ex2; check the furigana (流行った is はやった).
 - [entry] 12438: audio checks heard ひとりぐらし for {一人|ひとり}{暮|く}らし in 12438_yamaoku_ex3; check the furigana.
 - [entry] 12612: audio checks heard くるしみ for {苦|く}しみ in 12612_higan_ex5; check the furigana.
+- [entry] 12698: audio checks heard だかい for 高い in 12698_akumei_ex1; 悪名高い is あくみょうだかい (rendaku, and あくみょう is the usual reading in this compound); check the furigana
+- [entry] 12893: audio checks heard くうぼ around 空 in 12893_touka_ex2; 空から投下された reads そらから, not くうから (and the link points to the prefix 空〜); check the furigana and link
+- [entry] 12930: audio checks heard よばん for 四番 in 12930_keien_ex4; in baseball 四番バッター is normally よばんバッター; check the furigana
+- [entry] 12936: audio checks heard だいニュース for 大ニュース in 12936_yurugasu_ex6; 大ニュース is だいニュース; check the furigana
+- [entry] 12988: audio checks heard ぶそく for 不足 in 12988_danzetsu_ex3; 後継者不足 is usually こうけいしゃぶそく (rendaku); check the furigana
+- [entry] 13064: audio checks heard にじゅっ for 二十 before ページ in 13064_honbun_ex3; にじゅっページ is the common spoken form; check whether to keep にじゅう
