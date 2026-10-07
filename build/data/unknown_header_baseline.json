@@ -1,122 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-07T18:22:32Z",
+  "generated": "2026-10-07T19:08:08Z",
   "headers": {
-    "00425_yomi": [
-      "KANJI READING TYPES"
-    ],
-    "00431_yuu": [
-      "GRADING SYSTEM"
-    ],
-    "00435_zettai": [
-      "ADVERBIAL USES",
-      "NOUN/ADJECTIVE USES"
-    ],
-    "00440_bu": [
-      "MEANING 1 - COMPANY DEPARTMENT",
-      "MEANING 2 - SCHOOL CLUB",
-      "MEANING 3 - BODY PART/SECTION"
-    ],
-    "00459_shiyou": [
-      "SIMILAR/OPPOSITE TERMS"
-    ],
-    "00461_tokuchou": [
-      "EXAMPLE OF THE DIFFERENCE"
-    ],
-    "00463_wakaru": [
-      "COMPARED WITH {知|し}る"
-    ],
-    "00472_shiyou": [
-      "1. WAY/METHOD (only with negatives)",
-      "2. SPECIFICATIONS (technical)"
-    ],
-    "00484_mo": [
-      "PARTICLE BEHAVIOR",
-      "QUESTION WORD + も + NEGATIVE"
-    ],
-    "00487_yoru": [
-      "CONTRAST WITH {晩|ばん}",
-      "TIME OF DAY SEQUENCE"
-    ],
-    "00497_mise": [
-      "TYPES OF SHOPS (〜{屋|や})"
-    ],
-    "00504_kara": [
-      "から VS ので (REASON)",
-      "から VS より (FROM)"
-    ],
-    "00509_kudamono": [
-      "COMMON FRUITS"
-    ],
-    "00512_to": [
-      "ACCOMPANIMENT (～と)",
-      "CONDITIONAL (～と)",
-      "LISTING (AとB)",
-      "QUOTATION (～と{言|い}う／{思|おも}う)"
-    ],
-    "00525_me": [
-      "COUNTER SUFFIX"
-    ],
-    "00540_hiru": [
-      "TIME PROGRESSION"
-    ],
-    "00542_ban": [
-      "DISTINCTION FROM {夜|よる}"
-    ],
-    "00554_kodomo": [
-      "GENDERED TERMS"
-    ],
-    "00558_kao": [
-      "FACIAL EXPRESSIONS"
-    ],
-    "00575_ashi": [
-      "BODY PART PARALLEL"
-    ],
-    "00577_byouin": [
-      "RELATED PEOPLE",
-      "TYPES OF FACILITIES"
-    ],
-    "00578_ginkou": [
-      "JAPANESE BANKING"
-    ],
-    "00579_yuubinkyoku": [
-      "SERVICES"
-    ],
-    "00581_kouen": [
-      "TYPES OF PARKS"
-    ],
-    "00582_tenki": [
-      "WEATHER TYPES"
-    ],
-    "00583_ame": [
-      "TYPES OF RAIN"
-    ],
-    "00592_hima": [
-      "SAME KANJI, DIFFERENT READING"
-    ],
-    "00593_totemo": [
-      "NEGATIVE PATTERN"
-    ],
-    "00594_taihen": [
-      "ADVERB USE (very)",
-      "NA-ADJECTIVE USE (difficult)"
-    ],
-    "00600_tokidoki": [
-      "FREQUENCY SPECTRUM"
-    ],
-    "00601_yoku": [
-      "FREQUENCY SCALE"
-    ],
-    "00602_mou": [
-      "HOW TO TELL THE SENSES APART",
-      "SPOKEN USE"
-    ],
-    "00603_mada": [
-      "CONTRAST WITH もう"
-    ],
-    "00604_amari": [
-      "DEGREE COMPARISON"
-    ],
     "00610_gakusei": [
       "STUDENT TYPES BY LEVEL"
     ],
@@ -7320,9 +7205,6 @@
     ],
     "10105_hanabitaikai": [
       "FAMOUS FIREWORKS FESTIVALS"
-    ],
-    "10228_itoma": [
-      "CONTRAST WITH ひま"
     ],
     "10252_okonomiyaki": [
       "REGIONAL STYLES"
