@@ -1,83 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-07T08:16:37Z",
+  "generated": "2026-10-07T14:04:43Z",
   "headers": {
-    "00132_kadai": [
-      "SENSE 1 - ASSIGNMENTS",
-      "SENSE 2 - ISSUES/CHALLENGES"
-    ],
-    "00134_kaigai": [
-      "CONTRAST WITH {外国|がいこく}"
-    ],
-    "00137_kaisei": [
-      "WEATHER VOCABULARY HIERARCHY"
-    ],
-    "00148_kaketsu": [
-      "TYPES OF PASSAGE"
-    ],
-    "00149_kakine": [
-      "TYPES OF HEDGES/FENCES"
-    ],
-    "00151_kakko": [
-      "TYPES OF BRACKETS"
-    ],
-    "00152_kako": [
-      "TIME CONTRAST"
-    ],
-    "00156_kakudo": [
-      "MATHEMATICAL TERMS"
-    ],
-    "00165_kamotsu": [
-      "LOGISTICS"
-    ],
-    "00175_kanou": [
-      "VS. できる"
-    ],
-    "00185_kantoku": [
-      "AS A PERSON",
-      "AS AN ACTION"
-    ],
-    "00198_kasoku": [
-      "PHYSICS"
-    ],
-    "00201_katsudou": [
-      "COMMON ABBREVIATIONS"
-    ],
-    "00203_kazei": [
-      "TAX-RELATED TERMS",
-      "TYPES OF TAXATION"
-    ],
-    "00218_ketsuatsu": [
-      "READINGS ON A CHART"
-    ],
-    "00224_kigou": [
-      "TYPES OF SYMBOLS"
-    ],
-    "00225_kigyou": [
-      "CONTRAST WITH {会社|かいしゃ}"
-    ],
-    "00230_kikin": [
-      "HISTORICAL FAMINES IN JAPAN"
-    ],
-    "00231_kikou": [
-      "CONTRAST WITH WEATHER"
-    ],
-    "00240_ko": [
-      "CONTRAST WITH {大|おお}〜"
-    ],
-    "00241_koodo": [
-      "1. CODE (programming/secret)",
-      "2. CORD (electrical)",
-      "3. CHORD (music)"
-    ],
-    "00251_kuiki": [
-      "TYPES OF ZONES",
-      "URBAN PLANNING"
-    ],
-    "00253_kuriimu": [
-      "TYPES OF CREAM (cosmetic)",
-      "TYPES OF CREAM (dairy)"
-    ],
     "00265_maaketto": [
       "ECONOMIC/BUSINESS USAGE",
       "PHYSICAL MARKETPLACE"
@@ -3349,9 +3273,6 @@
     ],
     "04458_manzai": [
       "OSAKA CONNECTION"
-    ],
-    "04461_gitaa": [
-      "PLAYING TECHNIQUES"
     ],
     "04464_shamisen": [
       "TYPES/STYLES"
@@ -7512,16 +7433,6 @@
     ],
     "10105_hanabitaikai": [
       "FAMOUS FIREWORKS FESTIVALS"
-    ],
-    "10201_ete": [
-      "CONTRAST WITH {不得手|ふえて}"
-    ],
-    "10203_azukenimotsu": [
-      "AIRPORT VOCABULARY"
-    ],
-    "10204_kinaimochikomi": [
-      "LIQUID RESTRICTIONS",
-      "SIZE/WEIGHT LIMITS"
     ],
     "10228_itoma": [
       "CONTRAST WITH ひま"
