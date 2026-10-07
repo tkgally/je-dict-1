@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A compound of ⟦{小口|こぐち}→小口：23841_koguchi⟧ (small edge/end face) + {切|ぎ}り (cutting). Refers specifically to cutting from the end of a cylindrical vegetable, producing thin circular slices. A fundamental technique in Japanese cooking.\n\nCOMMON COLLOCATIONS:\n- {小口切|こぐちぎ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to cut into thin rounds\n- ネギ⟦の→の：09472_no⟧{小口切|こぐちぎ}り: thinly sliced green onion\n- ⟦{薄|うす}い→薄い：00764_usui⟧{小口切|こぐちぎ}り: thin round slices\n\nOTHER JAPANESE CUTTING TECHNIQUES:\n- ⟦{千切|せんぎ}り→千切り：07473_sengiri⟧: julienne — cutting into thin matchstick strips\n- ⟦{乱切|らんぎ}り→乱切り：08067_rangiri⟧: rolling cut — cutting at irregular angles for even cooking\n- ⟦{輪切|わぎ}り→輪切り：07474_wagiri⟧: round slicing — similar to {小口切|こぐちぎ}り but thicker slices\n- ⟦{斜|なな}め{切|ぎ}り→斜め切り：08090_nanamegiri⟧: diagonal cut — slicing at an angle\n- ⟦みじん{切|ぎ}り→みじん切り：07472_mijingiri⟧: mincing — cutting into very fine pieces",
+  "notes": "A compound of ⟦{小口|こぐち}→小口：23841_koguchi⟧ (small edge/end face) + {切|ぎ}り (cutting). Refers specifically to cutting from the end of a cylindrical vegetable, producing thin circular slices. A fundamental technique in Japanese cooking.\n\nCOMMON COLLOCATIONS:\n- {小口切|こぐちぎ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to cut into thin rounds\n- ネギ⟦の→の：09472_no⟧{小口切|こぐちぎ}り: thinly sliced green onion\n- ⟦{薄|うす}い→薄い：00764_usui⟧{小口切|こぐちぎ}り: thin round slices\n\nRELATED WORDS:\n- ⟦{千切|せんぎ}り→千切り：07473_sengiri⟧: julienne — cutting into thin matchstick strips\n- ⟦{乱切|らんぎ}り→乱切り：08067_rangiri⟧: rolling cut — cutting at irregular angles for even cooking\n- ⟦{輪切|わぎ}り→輪切り：07474_wagiri⟧: round slicing — similar to {小口切|こぐちぎ}り but thicker slices\n- ⟦{斜|なな}め{切|ぎ}り→斜め切り：08090_nanamegiri⟧: diagonal cut — slicing at an angle\n- ⟦みじん{切|ぎ}り→みじん切り：07472_mijingiri⟧: mincing — cutting into very fine pieces",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07473_sengiri",
+      "reading": "せんぎり",
+      "headword": "{千切|せんぎ}り",
+      "label": "julienne"
+    },
+    {
+      "type": "related",
+      "target_id": "08067_rangiri",
+      "reading": "らんぎり",
+      "headword": "{乱切|らんぎ}り",
+      "label": "rolling cut"
+    },
+    {
+      "type": "related",
+      "target_id": "07474_wagiri",
+      "reading": "わぎり",
+      "headword": "{輪切|わぎ}り",
+      "label": "round slicing"
+    },
+    {
+      "type": "related",
+      "target_id": "08090_nanamegiri",
+      "reading": "ななめぎり",
+      "headword": "{斜|なな}め{切|ぎ}り",
+      "label": "diagonal cut"
+    },
+    {
+      "type": "related",
+      "target_id": "07472_mijingiri",
+      "reading": "みじんぎり",
+      "headword": "みじん{切|ぎ}り",
+      "label": "mincing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +99,7 @@
       "transitivity": "transitive"
     },
     "created": "2026-04-08T17:36:50Z",
-    "modified": "2026-09-27T22:07:10Z"
+    "modified": "2026-10-07T06:25:42Z"
   },
   "conjugation": {
     "type": "suru",
