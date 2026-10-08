@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{会議室|かいぎしつ} means conference room or meeting room.\n\nFORMS:\n⟦{会議|かいぎ}→会議：00710_kaigi⟧ (meeting) + ⟦{室|しつ}→室：09946_shitsu⟧ (room)\n\nCOMMON EXPRESSIONS:\n- {会議室|かいぎしつ}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧: to reserve a meeting room\n- {会議室|かいぎしつ}⟦が→が：00051_ga⟧⟦{空|あ}いている→空く：11062_aku⟧: the meeting room is available\n- {会議室|かいぎしつ}A/B/C: Conference Room A/B/C\n\nROOM TYPES WITH ⟦{室|しつ}→室：09946_shitsu⟧:\n- ⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: classroom\n- ⟦{事務室|じむしつ}→事務室：03079_jimushitsu⟧: office\n- ⟦{研究室|けんきゅうしつ}→研究室：01397_kenkyuushitsu⟧: laboratory, professor's office\n- ⟦{控室|ひかえしつ}→控室：17258_hikaeshitsu⟧: waiting room\n- ⟦{応接室|おうせつしつ}→応接室：20242_ousetsushitsu⟧: reception room\n- ⟦{休憩室|きゅうけいしつ}→休憩室：23410_kyuukeishitsu⟧: break room\n\nNOTE: In Japanese offices, meeting rooms are often named with letters (A, B, C) or numbers rather than creative names.",
+  "notes": "{会議室|かいぎしつ} means conference room or meeting room.\n\nFORMS:\n⟦{会議|かいぎ}→会議：00710_kaigi⟧ (meeting) + ⟦{室|しつ}→室：09946_shitsu⟧ (room)\n\nCOMMON EXPRESSIONS:\n- {会議室|かいぎしつ}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧: to reserve a meeting room\n- {会議室|かいぎしつ}⟦が→が：00051_ga⟧⟦{空|あ}いている→空く：11062_aku⟧: the meeting room is available\n- {会議室|かいぎしつ}A/B/C: Conference Room A/B/C\n\nRELATED WORDS:\nOther rooms named with 〜⟦{室|しつ}→室：09946_shitsu⟧:\n- ⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: classroom\n- ⟦{事務室|じむしつ}→事務室：03079_jimushitsu⟧: office\n- ⟦{研究室|けんきゅうしつ}→研究室：01397_kenkyuushitsu⟧: laboratory, professor's office\n- ⟦{控室|ひかえしつ}→控室：17258_hikaeshitsu⟧: waiting room\n- ⟦{応接室|おうせつしつ}→応接室：20242_ousetsushitsu⟧: reception room\n- ⟦{休憩室|きゅうけいしつ}→休憩室：23410_kyuukeishitsu⟧: break room\n\nNOTE: In Japanese offices, meeting rooms are often named with letters (A, B, C) or numbers rather than creative names.",
   "cross_references": [
     {
       "type": "see_also",
@@ -92,11 +92,39 @@
       "reading": "きょうしつ",
       "headword": "{教室|きょうしつ}",
       "label": "classroom"
+    },
+    {
+      "type": "related",
+      "target_id": "03079_jimushitsu",
+      "reading": "じむしつ",
+      "headword": "{事務室|じむしつ}",
+      "label": "office"
+    },
+    {
+      "type": "related",
+      "target_id": "01397_kenkyuushitsu",
+      "reading": "けんきゅうしつ",
+      "headword": "{研究室|けんきゅうしつ}",
+      "label": "laboratory, professor's office"
+    },
+    {
+      "type": "related",
+      "target_id": "17258_hikaeshitsu",
+      "reading": "ひかえしつ",
+      "headword": "{控室|ひかえしつ}",
+      "label": "waiting room"
+    },
+    {
+      "type": "related",
+      "target_id": "23410_kyuukeishitsu",
+      "reading": "きゅうけいしつ",
+      "headword": "{休憩室|きゅうけいしつ}",
+      "label": "break room"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:59:56Z",
-    "modified": "2026-10-03T19:44:06Z",
+    "modified": "2026-10-08T19:35:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

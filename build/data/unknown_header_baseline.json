@@ -1,164 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-08T18:24:52Z",
+  "generated": "2026-10-08T19:36:51Z",
   "headers": {
-    "01106_yuumei": [
-      "{有名|ゆうめい} VS {人気|にんき}",
-      "〜で{有名|ゆうめい} VS 〜として{有名|ゆうめい}"
-    ],
-    "01113_wakareru": [
-      "CONTRAST WITH {分|わ}かれる"
-    ],
-    "01123_yaku": [
-      "FOOD-RELATED TERMS"
-    ],
-    "01126_nantoka": [
-      "USE 1 - SOMEHOW",
-      "USE 2 - PLACEHOLDER"
-    ],
-    "01128_sugoi": [
-      "AS AN INTENSIFIER",
-      "CASUAL VARIANTS"
-    ],
-    "01130_yakunitatsu": [
-      "POLITE VARIATIONS"
-    ],
-    "01132_betsuni": [
-      "AS A STANDALONE RESPONSE"
-    ],
-    "01134_makeru": [
-      "DISCOUNT USAGE (colloquial)"
-    ],
-    "01135_nageru": [
-      "BASEBALL TERMS"
-    ],
-    "01137_tokoro": [
-      "COMPARED WITH {場所|ばしょ}",
-      "PAST OF THE PATTERN"
-    ],
-    "01140_ichiban": [
-      "SUPERLATIVE PATTERN"
-    ],
-    "01141_kiken": [
-      "AS A NA-ADJECTIVE"
-    ],
-    "01145_tame": [
-      "CAUSE ため VS. から/ので",
-      "DISTINGUISHING PURPOSE VS. CAUSE"
-    ],
-    "01149_kanari": [
-      "DEGREE SCALE"
-    ],
-    "01152_tsumori": [
-      "BELIEF/ASSUMPTION (Sense 2)",
-      "INTENTION (Sense 1)"
-    ],
-    "01153_yamu": [
-      "CONTRAST WITH {止|と}まる"
-    ],
-    "01164_koto": [
-      "NOMINALIZER こと VS の",
-      "こと VS もの"
-    ],
-    "01165_mieru": [
-      "CONTRAST WITH {見|み}る"
-    ],
-    "01168_tasu": [
-      "MATH VOCABULARY"
-    ],
-    "01171_hikkosu": [
-      "CONTRAST WITH {移|うつ}る"
-    ],
-    "01175_tazuneru": [
-      "CONTRAST WITH {聞|き}く"
-    ],
-    "01178_bikkurisuru": [
-      "CONTRAST WITH {驚|おどろ}く"
-    ],
-    "01179_keiken": [
-      "CONTRAST WITH {体験|たいけん}"
-    ],
-    "01181_nemuru": [
-      "CONTRAST WITH {寝|ね}る"
-    ],
-    "01194_norikaeru": [
-      "SIMILAR VERBS AND TRAVEL VOCABULARY"
-    ],
-    "01202_shikaru": [
-      "CONTRAST WITH {怒|おこ}る"
-    ],
-    "01208_shiraseru": [
-      "CONTRAST WITH {伝|つた}える"
-    ],
-    "01221_utsu": [
-      "SPECIAL EXPRESSIONS"
-    ],
-    "01230_suberu": [
-      "COLLOQUIAL MEANINGS"
-    ],
-    "01231_tsuzukeru": [
-      "AUXILIARY VERB USAGE (very common)",
-      "MAIN VERB PATTERNS"
-    ],
-    "01240_tsureru": [
-      "CONTRAST WITH {持|も}って{行|い}く",
-      "KEY COMPOUND PATTERNS"
-    ],
-    "01258_omoidasu": [
-      "CONTRAST WITH {覚|おぼ}える"
-    ],
-    "01264_sakki": [
-      "TIME REFERENCE WORDS"
-    ],
-    "01265_kaigishitsu": [
-      "ROOM TYPES WITH {室|しつ}"
-    ],
-    "01273_ukagau": [
-      "EQUIVALENTS"
-    ],
-    "01275_kaeri": [
-      "EXAMPLES OF USAGE"
-    ],
-    "01276_tamani": [
-      "FREQUENCY SCALE (HIGH → LOW)"
-    ],
-    "01281_narubeku": [
-      "EXAMPLE NUANCES"
-    ],
-    "01284_moshi": [
-      "CONDITIONAL PAIRS",
-      "OPTIONALITY"
-    ],
-    "01285_asobi": [
-      "IMPORTANT USAGE",
-      "MECHANICAL SENSE"
-    ],
-    "01286_kanojo": [
-      "AS PRONOUN (\"she/her\")",
-      "COUNTERPART"
-    ],
-    "01290_kabe": [
-      "FIGURATIVE COLLOCATIONS",
-      "LITERAL COLLOCATIONS"
-    ],
-    "01292_kare": [
-      "AS 'BOYFRIEND'",
-      "AS PRONOUN"
-    ],
-    "01299_ossharu": [
-      "KEIGO SYSTEM FOR {言|い}う"
-    ],
-    "01323_kome": [
-      "MEASURING",
-      "RICE VOCABULARY",
-      "THE こめ / ごはん BOUNDARY"
-    ],
-    "01326_itadaku": [
-      "HONORIFIC COUNTERPARTS"
-    ],
-    "01330_suri": [
-      "WARNING SIGNS"
-    ],
     "01332_hige": [
       "ANIMALS"
     ],
@@ -1797,9 +1640,6 @@
       "MEANING 1 - MENTAL FOCUS",
       "MEANING 2 - CENTRALIZATION"
     ],
-    "03215_shugi": [
-      "RELATED SUFFIX"
-    ],
     "03217_shushou": [
       "NOTE ON TERMINOLOGY"
     ],
@@ -2009,9 +1849,6 @@
     "03698_han": [
       "PRINTING TERMS"
     ],
-    "03708_hitokoto": [
-      "COUNTER NOTE"
-    ],
     "03712_hin": [
       "AS STANDALONE (elegance)"
     ],
@@ -2062,9 +1899,6 @@
     "03757_zen": [
       "MAJOR ZEN SCHOOLS IN JAPAN",
       "ZEN-RELATED TERMS"
-    ],
-    "03767_zei": [
-      "COMMON TAX TYPES"
     ],
     "03768_shou": [
       "1. CHAPTER/SECTION",
@@ -2203,9 +2037,6 @@
     "04005_uketamawaru": [
       "NORMAL EQUIVALENTS"
     ],
-    "04014_teki": [
-      "COMMONLY COUNTED"
-    ],
     "04018_eiwa": [
       "DICTIONARY NAMING PATTERN"
     ],
@@ -2280,9 +2111,6 @@
     "04076_naika": [
       "HOSPITAL DEPARTMENTS (common)",
       "SUBSPECIALTIES"
-    ],
-    "04077_yakedo": [
-      "SEVERITY LEVELS"
     ],
     "04083_yuketsu": [
       "RELATED MEDICAL 〜{血|けつ} TERMS"
@@ -2659,9 +2487,6 @@
     ],
     "04707_jisho": [
       "TYPES OF {辞書|じしょ}"
-    ],
-    "04710_buta": [
-      "COMMON FOOD TERMS"
     ],
     "04711_toushi": [
       "TYPES OF {投資|とうし}"
@@ -3248,9 +3073,6 @@
     "05401_ichijiteishi": [
       "MEDIA CONTROLS",
       "TRAFFIC"
-    ],
-    "05403_makimodoshi": [
-      "MEDIA CONTROL VOCABULARY"
     ],
     "05405_osore": [
       "SPECIAL EXPRESSION"
@@ -4386,9 +4208,6 @@
     "06547_tagane": [
       "DIFFERENCE FROM WOOD CHISEL"
     ],
-    "06550_winkaa": [
-      "RELATED VEHICLE PARTS"
-    ],
     "06551_dasshuboodo": [
       "COMMON DASHBOARD INSTRUMENTS",
       "COMPARTMENTS",
@@ -4541,10 +4360,6 @@
     ],
     "06613_happou": [
       "THE EIGHT DIRECTIONS"
-    ],
-    "06615_seimai": [
-      "IN SAKE PRODUCTION",
-      "RICE TYPES"
     ],
     "06619_nettairin": [
       "MAJOR TROPICAL FORESTS"
@@ -5258,9 +5073,6 @@
     ],
     "07509_sogu": [
       "COOKING CUTTING TECHNIQUE"
-    ],
-    "07518_satei": [
-      "TYPES OF {査定|さてい}"
     ],
     "07521_fukkyuu": [
       "DISASTER CONTEXT"
