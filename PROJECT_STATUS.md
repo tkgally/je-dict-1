@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-08 (Routine v3: candidates — 48 Internal-Closure Candidates, C24177–C24224)
+
+The SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is still empty). About 75 proposed; dropped as variant spellings of existing entries (下さる, 頂く, 痒い, 成す, 下りる, 浸ける, 引っ越し, 売り上げ …) and as tokenizer misreadings (吊る from 吊り下げる, 法師 from 一寸法師, which has an entry). 48 added, each with the entry it was seen in (捕らえる, 執る, 急ぎ, 一手, 家中, 無病息災, 日常生活, 学生時代, 宮内庁, 松の内, 腫れ …). Queue 70 → 118.
+
 ### 2026-10-08 (Routine v3: new-entries — 20 New Entries, IDs 31718–31737)
 
 Twenty internal-closure candidates that existing entries already use: 賠償金, 振りまく (two senses), 計り知れない (i-adjective), 合否, 無作為, 釣り糸, 立ち込める, 絡み合う (two senses), 育て上げる, 切り立つ, 木目, 街中, 駄菓子屋, 奪い返す, 問題視 (noun + する), 危機感, 吹きこぼれる, 健康的, 断り (two senses), 科する (contrasted with 課する, now a candidate). Conjugation tables added for the nine verbs and the adjective. The source entries were relinked (23 new inline links). The cross-reference harvester wrongly tied 科する to 課 (lesson); reverted. Self-check clean on the new entries.
@@ -65,8 +69,3 @@ The same SudachiPy scan of the examples' unlinked text for kanji words with no e
 ### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31678–31697)
 
 Twenty internal-closure candidates that existing entries already use: 面持ち, 大仏, 選手団, 遺品, 文末, 黙秘権, 海峡, 流れ着く and 度重なる (godan verbs, conjugation tables added), 北上 and 飛来 (noun + する), 昨年度, 登山家, 冬山, 家族連れ, 作曲家, 耐性菌, 表書き, 仕打ち, 頭部. No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent. Four internal-closure candidates remain (投資信託, 術 (すべ), 蜉蝣, こどもの日).
-
-### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31658–31677)
-
-Twenty internal-closure candidates that existing entries already use: 落札 (noun + する), 悪霊, 少子高齢化, 海岸線, 専門医, 最高裁 (proper noun), 受刑者, 通学路, 与野党, 雑貨屋, 客先, 三塁, 南国, 肖像, 戦車; the verbs 酔っぱらう, 立ち尽くす, 吹きかける, 手向ける, 持ち越す (conjugation tables added). The twenty entries that mentioned these words were relinked (27 new inline links). No new kanji, stale markers or newcomer link ambiguities. Self-check: no issues. 23 internal-closure candidates remain.
-
