@@ -42,6 +42,7 @@ AUDIO = ROOT / "audio"
 CONFIG = AUDIO / "config.json"
 MANIFEST_DIR = AUDIO / "manifest"
 NEEDS_HUMAN = AUDIO / "needs_human.jsonl"
+OVERRIDES = AUDIO / "reading_overrides.json"
 RUNS = AUDIO / "runs.jsonl"
 TESTSET = AUDIO / "testset" / "sentences.json"
 WORK = ROOT / "audio_work"
@@ -89,6 +90,29 @@ def load_examples():
                 out.append({"ex": e["id"], "entry": d["id"], "num": num, "idx": i,
                             "tier": tier, "raw": e["japanese"]})
     return out
+
+
+def load_overrides(path=None):
+    """example id → reading override ({h, say, why, added}; AUDIO_WORKFLOW.md §3.2)."""
+    try:
+        data = json.loads(Path(path or OVERRIDES).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return data.get("overrides") or {}
+
+
+def active_override(x, overrides):
+    """The override for this example while it was written for the current text, else None."""
+    ov = (overrides or {}).get(x["ex"])
+    return ov if ov and ov.get("h") == short_hash(x["raw"]) else None
+
+
+def spoken_example(x, overrides=None):
+    """The parsed text the recording is made and checked from: the example
+    itself, or its override's `say` (same sentence, the reading spelled out
+    where the furigana cannot say it, as 「わ」 for a quoted particle は)."""
+    ov = active_override(x, overrides)
+    return parse_example(ov["say"] if ov else x["raw"])
 
 
 def majority_from_examples(examples):
@@ -190,19 +214,26 @@ def priority_key(x, cursor):
     return (stale, tier, ahead, x["num"], x["idx"])
 
 
-def classify(examples, manifest, needs_human, wf):
+def classify(examples, manifest, needs_human, wf, overrides=None):
     """Split examples into recorded (valid), candidates (to record, with stale
     flag), undetermined (reason), and held (left for a human with this text
-    and this workflow version)."""
+    and this workflow version). A recording made before its example's reading
+    override was added is stale; an override written for an earlier text
+    holds the example back (reason override-stale) until it is updated."""
     recorded, todo, undetermined, held = [], [], [], []
     for x in examples:
         h = short_hash(x["raw"])
         x["h"] = h
         m = manifest.get(x["ex"])
-        if m and m.get("h") == h:
+        ov = active_override(x, overrides)
+        if m and m.get("h") == h and not (ov and m.get("at", "") < ov.get("added", "")):
             recorded.append(x)
             continue
-        reason = undetermined_reason(parse_example(x["raw"]))
+        if x["ex"] in (overrides or {}) and not ov:
+            x["reason"] = "override-stale"
+            undetermined.append(x)
+            continue
+        reason = undetermined_reason(spoken_example(x, overrides))
         if reason:
             x["reason"] = reason
             undetermined.append(x)
@@ -224,7 +255,7 @@ def cmd_status(args):
     manifest = load_manifest()
     needs_human = load_jsonl_by_ex(NEEDS_HUMAN)
     recorded, todo, undetermined, held = classify(examples, manifest, needs_human,
-                                                  cfg["workflow_version"])
+                                                  cfg["workflow_version"], load_overrides())
     by_tier = defaultdict(Counter)
     for x in examples:
         by_tier[x["tier"]]["examples"] += 1
@@ -273,7 +304,7 @@ def cmd_plan(args):
     manifest = load_manifest()
     needs_human = load_jsonl_by_ex(NEEDS_HUMAN)
     _recorded, todo, undetermined, held = classify(examples, manifest, needs_human,
-                                                   cfg["workflow_version"])
+                                                   cfg["workflow_version"], load_overrides())
     if args.ids:
         want = {i.strip()[:5] for i in args.ids.split(",") if i.strip()}
         todo = [x for x in todo if f"{x['num']:05d}" in want]
@@ -483,7 +514,8 @@ def cmd_run(args):
                 if r["key"] in keys and not r.get("published"))
     left = None if budget is None else max(0.0, budget - prior)
     deadline = time.time() + 60 * args.max_minutes if args.max_minutes else None
-    stats, spent = run_items(items, lambda x: parse_example(x["raw"]), cfg, left,
+    overrides = load_overrides()
+    stats, spent = run_items(items, lambda x: spoken_example(x, overrides), cfg, left,
                              args.workers, RESULTS, STAGED, majority, deadline=deadline)
     rows = results_rows()
     done = {r["key"] for r in rows} & keys
@@ -580,6 +612,21 @@ def active_store(cfg):
     sys.exit("no active audio store in audio/config.json")
 
 
+def roll_over_store(cfg, path=None):
+    """The active store would pass its limit: mark it full and make the next
+    store with status "next" active (written to audio/config.json). Returns
+    the new store, or None when no store is waiting."""
+    nxt = next((s for s in cfg["stores"] if s["status"] == "next"), None)
+    if nxt is None:
+        return None
+    old = active_store(cfg)
+    old["status"], nxt["status"] = "full", "active"
+    old["full_since"] = nxt["active_since"] = now_iso()
+    Path(path or CONFIG).write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n",
+                                    encoding="utf-8")
+    return nxt
+
+
 def ensure_clone(store, repo_dir):
     """A thin clone of the audio repository: one commit deep, no file contents."""
     if (repo_dir / ".git").exists():
@@ -641,15 +688,25 @@ def cmd_publish(args):
     accepted = [r for r in rows if r["accepted"]]
     failed = [r for r in rows if not r["accepted"]]
 
-    # capacity
-    used = sum(int(m.get("b", 0)) for m in manifest.values() if m.get("s") == store["id"])
-    replaced = sum(int(manifest[r["ex"]].get("b", 0)) for r in accepted
-                   if r["ex"] in manifest and manifest[r["ex"]].get("s") == store["id"])
+    # capacity: a full store hands over to the next one (status "next" in the config)
     new = sum(r["bytes"] for r in accepted)
-    after_mb = (used - replaced + new) / 1e6
-    if after_mb > store["limit_mb"]:
-        sys.exit(f"store {store['id']} would hold {after_mb:.0f} MB > limit {store['limit_mb']} MB: "
-                 "a new audio repository is needed (see AUDIO_WORKFLOW.md §7)")
+    for _ in range(2):
+        used = sum(int(m.get("b", 0)) for m in manifest.values() if m.get("s") == store["id"])
+        replaced = sum(int(manifest[r["ex"]].get("b", 0)) for r in accepted
+                       if r["ex"] in manifest and manifest[r["ex"]].get("s") == store["id"])
+        after_mb = (used - replaced + new) / 1e6
+        if after_mb <= store["limit_mb"]:
+            break
+        full = store
+        store = roll_over_store(cfg)
+        if store is None:
+            sys.exit(f"store {full['id']} would hold {after_mb:.0f} MB > limit {full['limit_mb']} MB "
+                     "and no store has status \"next\": a new audio repository is needed "
+                     "(see AUDIO_WORKFLOW.md §7)")
+        print(f"store {full['id']} is full ({after_mb:.0f} MB with this batch); publishing to "
+              f"{store['id']} ({store['repo']}) from now on (audio/config.json updated)", file=sys.stderr)
+    else:
+        sys.exit(f"store {store['id']} cannot take this batch either ({after_mb:.0f} MB)")
 
     repo_dir = store_dir(store, args.repo_dir)
     if accepted or pages:

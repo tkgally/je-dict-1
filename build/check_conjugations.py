@@ -565,7 +565,7 @@ def main():
     flags = run_checks(entries, use_sudachi=not args.no_sudachi)
     if not args.no_sudachi and not tokenizer():
         print("note: SudachiPy unavailable; class check skipped "
-              "(pip install -r build/requirements.txt)")
+              "(python3 -m pip install -r build/requirements.txt)")
     by_kind = {}
     for fl in flags:
         by_kind[fl["kind"]] = by_kind.get(fl["kind"], 0) + 1

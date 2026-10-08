@@ -270,6 +270,36 @@ class TestPipelineLogic(unittest.TestCase):
             finally:
                 P.MANIFEST_DIR = old
 
+    def test_reading_override(self):
+        raw = "「⟦は→は：00079_ha⟧」⟦は→は：00079_ha⟧{助詞|じょし}だ。"
+        x = {"ex": "00001_a_ex1", "entry": "00001_a", "num": 1, "idx": 0, "tier": "general", "raw": raw}
+        h = P.short_hash(raw)
+        ov = {"00001_a_ex1": {"h": h, "say": "「わ」は{助詞|じょし}だ。", "added": "2026-10-08T00:00:00Z"}}
+        self.assertEqual(P.spoken_example(x, ov)["kana"], "「わ」はじょしだ。")
+        self.assertEqual(P.spoken_example(x, {})["kana"], "「は」はじょしだ。")
+        # a recording made before the override was added is stale; one made after is valid
+        old = {"00001_a_ex1": {"ex": "00001_a_ex1", "h": h, "v": "Kore", "at": "2026-10-01T00:00:00Z"}}
+        rec, todo, und, held = P.classify([dict(x)], old, {}, "v2", ov)
+        self.assertEqual(([y["ex"] for y in todo], todo[0]["stale"]), (["00001_a_ex1"], True))
+        new = {"00001_a_ex1": {**old["00001_a_ex1"], "at": "2026-10-09T00:00:00Z"}}
+        rec, todo, und, held = P.classify([dict(x)], new, {}, "v2", ov)
+        self.assertEqual([y["ex"] for y in rec], ["00001_a_ex1"])
+        # an override written for an earlier text holds the example back
+        edited = dict(x, raw="「は」は{係助詞|かかりじょし}だ。")
+        self.assertEqual(P.spoken_example(edited, ov)["kana"], "「は」はかかりじょしだ。")
+        rec, todo, und, held = P.classify([edited], {}, {}, "v2", ov)
+        self.assertEqual((len(todo), und[0]["reason"]), (0, "override-stale"))
+
+    def test_store_rollover(self):
+        cfg = {"stores": [{"id": "a1", "status": "full"}, {"id": "a2", "status": "active"},
+                          {"id": "a3", "status": "next"}]}
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "config.json"
+            self.assertEqual(P.roll_over_store(cfg, path)["id"], "a3")
+            self.assertEqual([s["status"] for s in cfg["stores"]], ["full", "full", "active"])
+            self.assertEqual(json.loads(path.read_text(encoding="utf-8")), cfg)
+            self.assertIsNone(P.roll_over_store(cfg, path))
+
     def test_entry_range(self):
         self.assertEqual(P.entry_range("07061_toraburu"), "07000")
         self.assertEqual(P.entry_range("00499_x_ex1"), "00000")

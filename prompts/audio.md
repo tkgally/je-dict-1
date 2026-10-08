@@ -146,9 +146,14 @@ python3 build/audio_pipeline.py verify       # waits up to 9 minutes for GitHub 
 
 `publish` writes the manifest, and sets `has_audio` to true on the recorded
 examples, only after the push succeeds, so a failed push leaves je-dict-1 unchanged. Retry once; if it fails again, flag it and wrap
-up. If `publish` stops because the store is full, set that store's `status` to
-`"full"` in `audio/config.json`, flag to the curator that the next audio
-repository is needed (`AUDIO_WORKFLOW.md` §7), and wrap up. A `verify` timeout
+up. When the active store would pass its limit and a store with `status: "next"` is
+listed, `publish` switches to it and updates `audio/config.json` itself (it prints
+which); say so in the session log, and flag to the curator that a further repository
+will be needed in time. If `publish` stops because the store is full and none is
+waiting, set that store's `status` to `"full"` in `audio/config.json`, flag to the
+curator that the next audio repository is needed (`AUDIO_WORKFLOW.md` §7), and wrap up.
+The next store must be attached like the active one (`check-access` checks only the
+active store; run `add_repo` for the waiting one too when it is not in this session). A `verify` timeout
 is not fatal: Pages can lag. Say so in the session log and continue.
 
 ## 5. Examples left for a human

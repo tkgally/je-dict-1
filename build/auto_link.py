@@ -529,7 +529,7 @@ class SudachiTokenizer:
                    m.normalized_form(), tuple(m.part_of_speech()), m, offset)
 
 
-INSTALL_HINT = "pip install -r build/requirements.txt"
+INSTALL_HINT = "python3 -m pip install -r build/requirements.txt"
 
 
 class TokenizerUnavailable(RuntimeError):

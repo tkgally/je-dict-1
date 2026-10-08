@@ -34,7 +34,7 @@ install the build dependencies (each run is a fresh container, and the inline
 linker refuses to write links without SudachiPy):
 
 ```bash
-pip install -q -r build/requirements.txt
+python3 -m pip install -q -r build/requirements.txt   # python3 -m pip: plain pip can belong to another Python here
 ```
 
 Then:

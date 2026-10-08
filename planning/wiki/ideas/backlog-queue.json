@@ -1956,11 +1956,13 @@
       "verify": "03351_joshi_ex1 re-recorded and checked",
       "priority": 8,
       "batch_ready": false,
-      "status": "open",
+      "status": "resolved",
       "scope_estimate": 1,
       "severity": "medium",
       "notes": "Example: 03351_joshi_ex1 「は」と「が」は日本語の代表的な助詞だ。 Other grammar entries quoting particles are likely affected.",
-      "scope_measured_at": "2026-10-05"
+      "scope_measured_at": "2026-10-05",
+      "resolved_at": "2026-10-08",
+      "resolution": "Per-example reading overrides (audio/reading_overrides.json, AUDIO_WORKFLOW.md §3.2) rather than a blanket 「は」→わ rule, since 02135_nigoru_ex8 quotes the kana は itself. 03351_joshi_ex1, 20890_fukujoshi_ex1 and 29609_kakarijoshi_ex1 recorded with わ; 13147_kaku_ex6 rewritten (は is not a case marker)."
     },
     {
       "id": "inline-link-own-form-other-entry",

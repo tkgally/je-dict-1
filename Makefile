@@ -106,8 +106,8 @@ metrics-page:
 
 # Example audio (AUDIO_WORKFLOW.md). audio-deps: MeCab/UniDic and the MP3 encoder.
 audio-deps:
-	pip install -q -U setuptools || true
-	pip install -q -r build/requirements-audio.txt
+	python3 -m pip install -q -U setuptools || true
+	python3 -m pip install -q -r build/requirements-audio.txt
 
 audio-status:
 	python3 build/audio_pipeline.py status

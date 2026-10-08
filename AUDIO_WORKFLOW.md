@@ -76,6 +76,24 @@ hand, with acceptable alternatives (`にじゅっパーセント|にじっパー
 every acceptable reading, and have a second model confirm. Then validate on a sample with Tom's ear
 before trusting it. Until then, leave these 2.1% of examples unrecorded.
 
+### 3.2 Per-example reading overrides
+
+Furigana cannot say every reading. A particle quoted on its own, as in 「は」と「が」は日本語の代表的な
+助詞だ, names the particle and is said わ, but MeCab tags a lone quoted は as a symbol, so the
+phonetic reading keeps は and the TTS says "ha". The same quote can also mean the kana itself
+(「は」が濁ると「ば」になる, said "ha"), so no general rule decides it.
+
+`audio/reading_overrides.json` holds overrides by example ID: `say` is the same sentence in the
+same markup (furigana, no links) with the reading spelled out (「わ」), `h` the short text hash of
+the example it was written for, `why`, and `added`. The TTS prompt and all four checks use `say`
+in place of the example (`spoken_example()` in `build/audio_pipeline.py`; the re-audit, the
+spot-check page and imported ratings too). The site text and the manifest hash stay those of the
+example itself. A recording older than `added` is stale, so adding an override re-records the
+example. When the example is edited, its override no longer applies and the example is held
+back (`undetermined` reason `override-stale`) until someone updates `h` and `say` or removes the
+override. Overrides are for the rare reading furigana cannot express; a wrong reading is fixed
+in the furigana.
+
 ## 4. TTS generation
 
 - **Model**: `google/gemini-3.8-flash-tts` through OpenRouter (`POST /api/v1/audio/speech`, body
@@ -261,8 +279,13 @@ name, so browser caches never serve a stale clip, and the old file is deleted fr
 published tree. It stays in the audio repository's history, which is why clips are not
 re-recorded without cause.
 
-When a store fills, `publish` stops with a message. Tom creates the next repository with Pages
-enabled, and a session adds it to `stores` as `active` and marks the old one `full`.
+When a store fills, `publish` moves on by itself if a store is waiting: Tom creates the next
+repository with Pages enabled (and attaches it to the Routine), a session adds it to `stores`
+with `status: "next"`, and the first batch that would take the active store past `limit_mb`
+marks that store `full` and the waiting one `active` in `audio/config.json`
+(`roll_over_store()`), then publishes there. Without a waiting store, `publish` stops with a
+message. Recordings already in a full store stay there and keep being served from it; a
+re-recording goes to the active store, and the old clip stays in the full store's tree.
 
 Alternatives considered: Cloudflare R2 (10 GB free, no egress fees) would need credentials in the
 environment and a bucket Tom sets up. GitHub release assets cannot be uploaded from a
@@ -395,6 +418,7 @@ identical on the test set, see the changelog):
 - `build/check_no_binaries.py`: CI gate; no audio file may be added to je-dict-1 outside
   `audio/regression/`.
 - `audio/config.json`: models, checkers, rule, attempts, bit rate, voices, audio stores.
+- `audio/reading_overrides.json`: per-example reading overrides (§3.2).
 - `audio/testset/`: the 100 test sentences (hand-written readings for the digit/Latin ones),
   Tom's ratings, the particle test.
 - `audio/regression/`: the 163 clips, `index.json` (clip, prompt, voice, known answer;
@@ -522,3 +546,12 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   re-audit samples them with the other clips.
 - 2026-09-27: the 2026-09-25 spot-check page was archived unrated at Tom's request (removed from
   `reviews/needs_curator.txt`). The next spot check is due under the normal schedule (§10).
+- 2026-10-08: per-example reading overrides (§3.2), asked for by Tom for 03351_joshi_ex1
+  (「は」 read "ha"). Three overrides (03351_joshi_ex1, 20890_fukujoshi_ex1,
+  29609_kakarijoshi_ex1: a quoted particle は said わ); 02135_nigoru_ex8 (「は」が濁ると「ば」,
+  the kana itself) correctly has none. The TTS model, prompt strategy, checkers and acceptance
+  rule are unchanged, so the regression suite (fixed clips and readings) is unaffected and was
+  not rerun; only the text these examples are recorded and checked from changes. Store
+  rollover: `tkgally/je-dict-audio-2` (store `a2`, Pages from `main`, `.nojekyll`, push
+  verified) added with `status: "next"`; `publish` switches to it when `a1` (853 of 900 MB)
+  would pass its limit.
