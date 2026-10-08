@@ -1,37 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-08T19:36:51Z",
+  "generated": "2026-10-08T20:10:44Z",
   "headers": {
-    "01332_hige": [
-      "ANIMALS"
-    ],
-    "01338_esukareetaa": [
-      "REGIONAL ETIQUETTE"
-    ],
-    "01348_gasorinsutando": [
-      "ABBREVIATIONS AND ALTERNATIVES"
-    ],
-    "01350_kiro": [
-      "CONTEXT CLUES",
-      "FULL FORMS"
-    ],
-    "01354_guramu": [
-      "SHOPPING NOTE"
-    ],
-    "01356_keeki": [
-      "OCCASION CAKES",
-      "POPULAR TYPES IN JAPAN"
-    ],
-    "01358_kooto": [
-      "MEANING 1 - COAT",
-      "MEANING 2 - COURT"
-    ],
-    "01359_orei": [
-      "MEANING DISTINCTION"
-    ],
-    "01363_saizu": [
-      "CLOTHING SIZES"
-    ],
     "01368_sukuriin": [
       "MOVIE CONTEXT",
       "SCREEN VOCABULARY"
@@ -65,10 +35,6 @@
     ],
     "01409_konkai": [
       "RELATED 〜{回|かい} WORDS"
-    ],
-    "01416_saraishuu": [
-      "RELATED {再来|さらい} WORDS",
-      "WEEK SEQUENCE"
     ],
     "01417_sarainen": [
       "TIME REFERENCE SEQUENCE"
@@ -7620,9 +7586,6 @@
     ],
     "17941_hijikakeisu": [
       "RELATED CHAIR TYPES"
-    ],
-    "18021_genkin": [
-      "COMMON SIGN PATTERNS"
     ],
     "18029_mibarai": [
       "OTHER {未|み} COMPOUNDS"
