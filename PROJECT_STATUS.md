@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-08 (Routine v3: new-entries — 11 New Entries, IDs 31764–31774)
+
+Eleven internal-closure candidates that existing entries already use: 一手 (two senses: a move in shogi or go; 一手に "single-handedly"), 神前 (contrasted with 仏前), 岩壁 (WATCH OUT 岸壁), 家中 (two senses; かちゅう noted), 米作り (with 稲作), 常任理事国, 川幅 (related 道幅, 肩幅), 日常生活, 保守派 (〜派 words), にじみ出る (two senses; ichidan, table added), 無病息災 (四字熟語). 聞き入る was skipped: its source, 04586, uses 聞き入れる, so the candidate came from a tokenizer misreading. The source entries were relinked (10 new links to the new entries). No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent.
+
 ### 2026-10-08 (Routine v3: new-entries — 16 New Entries, IDs 31748–31763)
 
 Sixteen internal-closure candidates that existing entries already use: 弄する and 課する (する verbs; 課する contrasted with 科する), 転ずる (ずる verb, cross-referenced with 転じる), 射る and 捕らえる (ichidan; 捕らえる contrasted with 捉える and 捕まえる), 帰還 and 被爆 (noun + する; 被爆 contrasted with 被曝), 生理 (two senses), 称号, 陽性, 一節, 文系, 鮎 (new kanji, added to the kanji index), 赤み, 急ぎ, 宗教的 (na-adjective). Conjugation tables added for the six verbs. The source entries were relinked (21 new inline links); one, 転じた in 29845, was retargeted from the new 転ずる to 転じる. The newcomer check listed 6,209 kana いる links now sharing a reading with 射る; none means 射る, so none moved. Self-check skipped: the day's OpenRouter cap was spent.
@@ -65,7 +69,3 @@ The SudachiPy scan of the examples' unlinked text for kanji words with no entry 
 ### 2026-10-08 (Routine v3: new-entries — 20 New Entries, IDs 31718–31737)
 
 Twenty internal-closure candidates that existing entries already use: 賠償金, 振りまく (two senses), 計り知れない (i-adjective), 合否, 無作為, 釣り糸, 立ち込める, 絡み合う (two senses), 育て上げる, 切り立つ, 木目, 街中, 駄菓子屋, 奪い返す, 問題視 (noun + する), 危機感, 吹きこぼれる, 健康的, 断り (two senses), 科する (contrasted with 課する, now a candidate). Conjugation tables added for the nine verbs and the adjective. The source entries were relinked (23 new inline links). The cross-reference harvester wrongly tied 科する to 課 (lesson); reverted. Self-check clean on the new entries.
-
-### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31698–31717)
-
-Twenty internal-closure candidates that existing entries already use: 投資信託, 術 (すべ, as in 為す術がない), こどもの日 (proper noun, event), 策定 and 加担 (noun + する), 人通り, 審議会, 驚異的 (na-adjective), 糧 (two senses), 南部, 象牙, 民間人, 第一線, 厚み (two senses), 猛攻, 解脱 (noun + する); the verbs 覗き込む, 切り込む and 滅ぶ (conjugation tables added; 滅ぶ paired with 滅ぼす and 滅びる); 手早い (i-adjective, table added). 蜉蝣 was dropped from the queue as a variant spelling of the existing 蜻蛉 (かげろう). The source entries were relinked (25 new inline links). No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent.
