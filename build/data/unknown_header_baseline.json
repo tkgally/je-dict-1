@@ -1,108 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-08T14:11:21Z",
+  "generated": "2026-10-08T18:24:52Z",
   "headers": {
-    "01019_chawan": [
-      "SENSE 1 - RICE BOWL (common)",
-      "SENSE 2 - TEA BOWL (traditional)"
-    ],
-    "01021_daidokoro": [
-      "{台所|だいどころ} VS キッチン"
-    ],
-    "01024_eigakan": [
-      "OTHER {館|かん} BUILDINGS"
-    ],
-    "01027_hoteru": [
-      "CONTRAST WITH {旅館|りょかん}"
-    ],
-    "01035_manshon": [
-      "CONTRAST WITH アパート"
-    ],
-    "01039_naifu": [
-      "TYPES OF KNIVES IN JAPANESE"
-    ],
-    "01041_noriba": [
-      "NUMBERED PLATFORMS"
-    ],
-    "01043_omedetou": [
-      "COMMON OCCASIONS"
-    ],
-    "01044_orenji": [
-      "AS A COLOR",
-      "AS A FRUIT"
-    ],
-    "01045_osake": [
-      "TYPES OF SAKE"
-    ],
-    "01046_reizouko": [
-      "INFORMAL",
-      "SIZE TERMS"
-    ],
-    "01048_resutoran": [
-      "TYPES OF EATING ESTABLISHMENTS"
-    ],
-    "01051_seito": [
-      "STUDENT TERMS BY LEVEL"
-    ],
-    "01052_shatsu": [
-      "TYPES OF SHIRTS"
-    ],
-    "01053_shinkansen": [
-      "TRAIN TYPES (Tokaido line)"
-    ],
-    "01062_tadaima": [
-      "PAIRED EXPRESSION"
-    ],
-    "01063_tebukuro": [
-      "VERBS FOR WEARING"
-    ],
-    "01064_teikiken": [
-      "PRACTICAL INFO"
-    ],
-    "01067_wain": [
-      "JAPANESE WINE"
-    ],
-    "01068_waishatsu": [
-      "BUSINESS ATTIRE"
-    ],
-    "01071_zangyou": [
-      "WORK REFORM"
-    ],
-    "01072_zubon": [
-      "ALTERNATES"
-    ],
-    "01074_ganbatte": [
-      "RELATED FORMS OF THE SAME VERB",
-      "WHEN IT IS USED"
-    ],
-    "01076_kan": [
-      "ALTERNATIVE KANJI"
-    ],
-    "01077_kappu": [
-      "AS A CONTAINER",
-      "AS A MEASUREMENT"
-    ],
-    "01079_kissaten": [
-      "CONTRAST WITH カフェ",
-      "TYPICAL MENU"
-    ],
-    "01080_kiwotsukete": [
-      "1. FAREWELL (when someone is leaving)",
-      "2. WARNING (about specific dangers)",
-      "3. GENERAL CAUTION"
-    ],
-    "01081_konbini": [
-      "MAJOR CHAINS"
-    ],
-    "01083_koukou": [
-      "GRADE LEVELS"
-    ],
-    "01085_kyoukasho": [
-      "JAPANESE EDUCATION SYSTEM"
-    ],
-    "01090_meishi": [
-      "BUSINESS ETIQUETTE"
-    ],
     "01106_yuumei": [
       "{有名|ゆうめい} VS {人気|にんき}",
       "〜で{有名|ゆうめい} VS 〜として{有名|ゆうめい}"
@@ -1972,10 +1871,6 @@
     "03382_tai": [
       "PAIR USAGE",
       "VERSUS USAGE"
-    ],
-    "03392_taishita": [
-      "NEGATIVE PATTERNS (very common)",
-      "POSITIVE PATTERNS"
     ],
     "03395_taijuu": [
       "RELATED BODY MEASUREMENTS"
