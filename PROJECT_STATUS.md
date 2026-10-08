@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-08 (Routine v3: new-entries — 16 New Entries, IDs 31748–31763)
+
+Sixteen internal-closure candidates that existing entries already use: 弄する and 課する (する verbs; 課する contrasted with 科する), 転ずる (ずる verb, cross-referenced with 転じる), 射る and 捕らえる (ichidan; 捕らえる contrasted with 捉える and 捕まえる), 帰還 and 被爆 (noun + する; 被爆 contrasted with 被曝), 生理 (two senses), 称号, 陽性, 一節, 文系, 鮎 (new kanji, added to the kanji index), 赤み, 急ぎ, 宗教的 (na-adjective). Conjugation tables added for the six verbs. The source entries were relinked (21 new inline links); one, 転じた in 29845, was retargeted from the new 転ずる to 転じる. The newcomer check listed 6,209 kana いる links now sharing a reading with 射る; none means 射る, so none moved. Self-check skipped: the day's OpenRouter cap was spent.
+
 ### 2026-10-08 (Routine v3: new-entries — 10 New Entries, IDs 31738–31747)
 
 Ten internal-closure candidates that existing entries already use, all nouns: 浪士 and 志士 (historical; 浪士 contrasted with 浪人), 栄華, 実権, 船舶, 要人, 後世 (notes separate the Buddhist ごせ), 急用 (contrasted with 用事), 当店 and 支社 (contrasted with 支店 and 営業所). A small unit, to fit the end of the run. The ten source entries were relinked (15 new inline links), and the harvester added reciprocal contrasts to 浪人, 用事, 当社, 支店 and 営業所. No new kanji. Self-check: no issues (25 entries, 32 kana links).
@@ -65,7 +69,3 @@ Twenty internal-closure candidates that existing entries already use: 賠償金,
 ### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31698–31717)
 
 Twenty internal-closure candidates that existing entries already use: 投資信託, 術 (すべ, as in 為す術がない), こどもの日 (proper noun, event), 策定 and 加担 (noun + する), 人通り, 審議会, 驚異的 (na-adjective), 糧 (two senses), 南部, 象牙, 民間人, 第一線, 厚み (two senses), 猛攻, 解脱 (noun + する); the verbs 覗き込む, 切り込む and 滅ぶ (conjugation tables added; 滅ぶ paired with 滅ぼす and 滅びる); 手早い (i-adjective, table added). 蜉蝣 was dropped from the queue as a variant spelling of the existing 蜻蛉 (かげろう). The source entries were relinked (25 new inline links). No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent.
-
-### 2026-10-07 (Routine v3: candidates — 60 Internal-Closure Candidates, C24092–C24175)
-
-The same SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is still empty). 110 proposed; the duplicate probe dropped 読み聞かせ and 17 variant spellings of existing entries (歯ごたえ, 寄りかかる, 肩こり, 折りたたむ, 生ごみ, 改ざん, 子猫 …); transparent compounds (合格者, 手術室, 緊急時 …) and 24 lower-value words were left out. 60 added, each with the entry it was seen in (策定, 人通り, 危機感, 覗き込む, 浪士, 志士, 被爆, 陽性 …). Queue 50 → 110.
