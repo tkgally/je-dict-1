@@ -1584,3 +1584,7 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [tooling] In this container `pip` installs for Python 3.13 while `python3` is 3.11, so `make audio-deps` and `pip install -r build/requirements.txt` installed into the wrong interpreter (audio `run` failed on `import requests`). `python3 -m pip install …` fixed it; the Makefile and routine2.md could use `python3 -m pip`.
 - [tooling] harvest_crossrefs.py read `{課|か}する` in 31737 (科する) SIMILAR WORDS as the noun 課 (01548, "lesson; section") and added a contrast both ways; reverted by hand. A suru-verb form in a notes bullet should not resolve to the bare noun headword. 課する is now a candidate (C24176).
 - [tooling] Seen again 2026-10-08: `pip install -r build/requirements.txt` (routine2.md run start) installs for the wrong interpreter; `make mechanical` then fails on SudachiPy. `python3 -m pip` works.
+- [entry] 13141: audio checks heard a reading other than きゅう for 急 in 13141_kyokudo_ex3 (支援が{急|きゅう}がれている); the furigana is wrong, 急がれる is いそがれる. Check the furigana.
+- [entry] 13600: audio checks heard ぎゃくてんがち for 逆転勝ち in 13600_rikabarii_ex2; the furigana gives {勝|か}ち (rendaku missing). Check the furigana.
+- [entry] 13628: audio checks heard めざましい where the furigana {目覚|めざま}ましい produces めざまましい, in 13628_mezamashii_ex1 and ex3; the brace should be {目覚|めざ}ましい. Check the headword and notes too.
+- [tooling] Audio store tkgally/je-dict-audio-1 is at 821 of 900 MB after the 2026-10-08 run (about 31 MB per $5 run), so two or three more runs fill it.
