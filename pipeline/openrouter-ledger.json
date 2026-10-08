@@ -1,106 +1,22 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "daily_cap_usd": 15.0,
-  "spent_usd": 14.9928,
+  "spent_usd": 0.029,
   "calls": [
     {
-      "ts": "2026-10-07T00:41:25Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 273,
-      "est_usd": 0.149
-    },
-    {
-      "ts": "2026-10-07T01:01:37Z",
+      "ts": "2026-10-08T00:26:36Z",
       "mode": "self-check",
       "phase": "self-check",
       "entries": 20,
       "est_usd": 0.011
     },
     {
-      "ts": "2026-10-07T01:17:55Z",
+      "ts": "2026-10-08T00:28:08Z",
       "mode": "self-check",
       "phase": "self-check",
-      "entries": 33,
-      "est_usd": 0.017
-    },
-    {
-      "ts": "2026-10-07T01:31:41Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 1000,
-      "est_usd": 0.4824
-    },
-    {
-      "ts": "2026-10-07T02:09:40Z",
-      "mode": "audio",
-      "phase": "production",
-      "entries": 2018,
-      "est_usd": 5.4178
-    },
-    {
-      "ts": "2026-10-07T06:38:44Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 270,
-      "est_usd": 0.144
-    },
-    {
-      "ts": "2026-10-07T06:58:14Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 55,
-      "est_usd": 0.029
-    },
-    {
-      "ts": "2026-10-07T07:14:18Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 994,
-      "est_usd": 0.4786
-    },
-    {
-      "ts": "2026-10-07T07:47:36Z",
-      "mode": "audio",
-      "phase": "production",
-      "entries": 2032,
-      "est_usd": 5.4012
-    },
-    {
-      "ts": "2026-10-07T08:03:01Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 24,
-      "est_usd": 0.013
-    },
-    {
-      "ts": "2026-10-07T08:16:33Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 28,
-      "est_usd": 0.015
-    },
-    {
-      "ts": "2026-10-07T12:42:17Z",
-      "mode": "audio",
-      "phase": "production",
-      "entries": 1028,
-      "est_usd": 2.7478
-    },
-    {
-      "ts": "2026-10-07T12:57:15Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 150,
-      "est_usd": 0.0725
-    },
-    {
-      "ts": "2026-10-07T13:52:56Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 30,
-      "est_usd": 0.0145
+      "entries": 32,
+      "est_usd": 0.018
     }
   ]
 }
