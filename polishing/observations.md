@@ -1588,3 +1588,8 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 13600: audio checks heard ぎゃくてんがち for 逆転勝ち in 13600_rikabarii_ex2; the furigana gives {勝|か}ち (rendaku missing). Check the furigana.
 - [entry] 13628: audio checks heard めざましい where the furigana {目覚|めざま}ましい produces めざまましい, in 13628_mezamashii_ex1 and ex3; the brace should be {目覚|めざ}ましい. Check the headword and notes too.
 - [tooling] Audio store tkgally/je-dict-audio-1 is at 821 of 900 MB after the 2026-10-08 run (about 31 MB per $5 run), so two or three more runs fill it.
+- [entry] 13941: audio checks heard ここのつ / きゅうれつ for {九|きゅう}つ in 13941_doutai_ex5; 九つ is ここのつ, so the furigana is wrong (or the sentence meant 九列).
+- [entry] 13984: audio checks heard つみびと for {罪人|ざいにん} in 13984_zainin_ex6 (a Bible sentence, where つみびと is the usual reading); check the furigana or the example.
+- [entry] 14009: audio checks heard いんたいじあい for {引退|いんたい}{試合|しあい} in 14009_hanamichi_ex4 (rendaku); check the furigana.
+- [entry] 14008: audio checks heard すうひゃっき for {数百|すうひゃく}{機|き} in 14008_koukuuki_ex3; check the furigana.
+- [tooling] Audio store tkgally/je-dict-audio-1 is at 853 of 900 MB after the second 2026-10-08 run (32 MB per $5.4 run); one more run fits.
