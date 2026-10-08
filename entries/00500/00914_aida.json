@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "{間|あいだ} expresses space between things, duration of time, or relationships between people.\n\nCOMMON PATTERNS:\n- A⟦と→と：00512_to⟧B⟦の→の：09472_no⟧{間|あいだ}: between A and B (space)\n- [noun]⟦の→の：09472_no⟧{間|あいだ}: during [noun] (time)\n- [verb-て⟦いる→いる：00495_iru⟧]{間|あいだ}: while [verb-ing]\n- ⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧{間|あいだ}: between the two (relationship)\n\nPRONUNCIATION:\n- {間|あいだ}: between, during, while\n- ⟦{間|かん}→〜間：28469_kan⟧: interval, used in compounds (⟦{時間|じかん}→時間：00468_jikan⟧, ⟦{空間|くうかん}→空間：13754_kuukan⟧)\n- ⟦{間|ま}→間：30796_ma⟧: pause, timing, room\n\n{間|あいだ} VS ⟦{内|うち}→内：01328_uchi⟧に:\n{間|あいだ}⟦に→に：00314_ni⟧ emphasizes duration throughout; ⟦{内|うち}→内：01328_uchi⟧⟦に→に：00314_ni⟧ emphasizes completing within a time limit.",
+  "notes": "{間|あいだ} expresses space between things, duration of time, or relationships between people.\n\nCOMMON PATTERNS:\n- A⟦と→と：00512_to⟧B⟦の→の：09472_no⟧{間|あいだ}: between A and B (space)\n- [noun]⟦の→の：09472_no⟧{間|あいだ}: during [noun] (time)\n- [verb-て⟦いる→いる：00495_iru⟧]{間|あいだ}: while [verb-ing]\n- ⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧{間|あいだ}: between the two (relationship)\n\nPRONUNCIATION:\n- {間|あいだ}: between, during, while\n- ⟦{間|かん}→〜間：28469_kan⟧: interval, used in compounds (⟦{時間|じかん}→時間：00468_jikan⟧, ⟦{空間|くうかん}→空間：13754_kuukan⟧)\n- ⟦{間|ま}→間：30796_ma⟧: pause, timing, room\n\nSIMILAR WORDS:\n- {間|あいだ} without ⟦に→に：00314_ni⟧ means throughout the whole period: ⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦の→の：09472_no⟧{間|あいだ}、⟦ずっと→ずっと：00912_zutto⟧⟦{働|はたら}いた→働く：00503_hataraku⟧ (I worked all through the summer break).\n- {間|あいだ}⟦に→に：00314_ni⟧ means at some point within it: ⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦の→の：09472_no⟧{間|あいだ}⟦に→に：00314_ni⟧⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦を→を：00422_wo⟧⟦{終|お}える→終える：02019_oeru⟧ (finish the homework during the break).\n- ⟦{内|うち}→内：01328_uchi⟧⟦に→に：00314_ni⟧ adds that the chance will pass: ⟦{熱|あつ}い→熱い：09888_atsui⟧うち⟦に→に：00314_ni⟧⟦{食|た}べて→食べる：00396_taberu⟧ (eat it while it's hot).",
   "cross_references": [
     {
       "type": "contrast",
@@ -188,11 +188,18 @@
       "reading": "うちに",
       "headword": "うちに",
       "label": "while"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01328_uchi",
+      "reading": "うち",
+      "headword": "{内|うち}",
+      "label": "adds that the chance will pass"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:56:28Z",
-    "modified": "2026-09-17T12:45:40Z",
+    "modified": "2026-10-08T06:23:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
