@@ -1601,3 +1601,4 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 14369: audio checks heard ひゃっぷん for {百|ひゃく}{分|ぷん} in 14369_tsuuwa_ex3; check the furigana — should be {百分|ひゃっぷん}. (routine_2026-10-08_014)
 - [entry] 14403: audio checks heard だされた for {出|で}された in 14403_tousou_ex3; check the furigana — 出された (issued) is だされた. (routine_2026-10-08_014)
 - [entry] 14264: audio checks heard たにぞこ for 谷底 (たにそこ) in 14264_tanisoko_ex1; both readings exist, so probably fine. (routine_2026-10-08_014)
+- [tooling] 2026-10-08 01011 ゼロ notes: in "03-0123 = ゼロさん・まるいちにさん …" the digit-2 に is linked to the particle に (twice). Two unlink lines with contexts from marked_context() were applied by review_links.py --apply-decisions, but its relink step put both links back, so the lines were withdrawn and the links left as before. Needs a look at why the linker does not honour these unlinks (perhaps the kana-homophone tier of に). (routine_2026-10-08_016)
