@@ -1596,3 +1596,8 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [tooling] review_links.py --apply-decisions treats a one-occurrence `retarget` as an entry-wide unlink of the old base: retargeting です (だ→です) in 01799 ex1 also stripped the correct だった→だ link in ex9, and auto_link will not restore it even with a `keep` line for that occurrence. Retarget should be per-occurrence.
 - [tooling] 2026-10-08 (curator session): the pip/python3 mismatch is fixed in the repository: Makefile audio-deps and routine2.md's install line now use python3 -m pip.
 - [tooling] 2026-10-08 18355 銅色: auto_link had linked a kana reading in the notes ("read どういろ") as どう (how) + いろ→いる (to be). Kana readings quoted in notes may be worth excluding from linking. (routine_2026-10-08_012)
+- [entry] 14297: audio checks heard かろやか for 軽やか (かるやか) in 14297_karuyaka_ex1–ex3; check the furigana — the headword reading itself is likely wrong (standard reading かろやか). (routine_2026-10-08_014)
+- [entry] 14249: audio checks heard あきらか for {明|あき}るみ in 14249_ooikakusu_ex3; check the furigana — 明るみ is あかるみ, so the furigana is wrong. (routine_2026-10-08_014)
+- [entry] 14369: audio checks heard ひゃっぷん for {百|ひゃく}{分|ぷん} in 14369_tsuuwa_ex3; check the furigana — should be {百分|ひゃっぷん}. (routine_2026-10-08_014)
+- [entry] 14403: audio checks heard だされた for {出|で}された in 14403_tousou_ex3; check the furigana — 出された (issued) is だされた. (routine_2026-10-08_014)
+- [entry] 14264: audio checks heard たにぞこ for 谷底 (たにそこ) in 14264_tanisoko_ex1; both readings exist, so probably fine. (routine_2026-10-08_014)
