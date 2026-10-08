@@ -1,0 +1,23 @@
+{
+  "_doc": "Per-example reading overrides for the audio workflow (AUDIO_WORKFLOW.md §3.2). An override replaces the example's text, for recording and checking only, with `say`: the same sentence with a reading spelled out in kana where the furigana cannot express it (a quoted particle は said wa). `h` is the short text hash of the example the override was written for: when the example is edited, the override stops applying and the example is held back (reason override-stale) until the override is updated or removed. A recording older than `added` is re-recorded.",
+  "overrides": {
+    "03351_joshi_ex1": {
+      "h": "f8415772252d0221",
+      "say": "「わ」と「が」は{日本語|にほんご}の{代表|だいひょう}{的|てき}な{助詞|じょし}だ。",
+      "why": "「は」 names the particle, pronounced wa; the furigana cannot say so (MeCab tags a lone quoted は as a symbol, so it would be read ha).",
+      "added": "2026-10-08T08:05:37Z"
+    },
+    "20890_fukujoshi_ex1": {
+      "h": "eeb539894320f15b",
+      "say": "「わ」は{副助詞|ふくじょし}に{分類|ぶんるい}される。",
+      "why": "「は」 names the particle, pronounced wa; the furigana cannot say so (MeCab tags a lone quoted は as a symbol, so it would be read ha).",
+      "added": "2026-10-08T08:05:37Z"
+    },
+    "29609_kakarijoshi_ex1": {
+      "h": "4459a1cd538b4d6c",
+      "say": "「ワ」や「モ」は{係助詞|かかりじょし}だ。",
+      "why": "「は」 names the particle, pronounced wa; the furigana cannot say so (MeCab tags a lone quoted は as a symbol, so it would be read ha). Katakana here: with hiragana 「わ」や the TTS said わいや on all five attempts.",
+      "added": "2026-10-08T08:05:37Z"
+    }
+  }
+}

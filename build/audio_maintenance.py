@@ -30,7 +30,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import audio_pipeline as P  # noqa: E402
-from audio_text import parse_example  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 AUDIO = ROOT / "audio"
@@ -247,6 +246,7 @@ def cmd_spotcheck(args):
     manifest = P.load_manifest()
     stores = {s["id"]: s["base_url"] for s in cfg["stores"]}
     examples = {x["ex"]: x for x in P.load_examples()}
+    overrides = P.load_overrides()
     recent = [r for r in manifest.values() if r.get("at", "")[:10] > since and r["ex"] in examples
               and P.short_hash(examples[r["ex"]]["raw"]) == r["h"]]
     rng = random.Random(args.seed or today().isoformat())
@@ -257,7 +257,7 @@ def cmd_spotcheck(args):
     chosen = risky[:n_risky] + plain[:args.n - n_risky]
     clips = []
     for r in chosen:
-        p = parse_example(examples[r["ex"]]["raw"])
+        p = P.spoken_example(examples[r["ex"]], overrides)
         reason = (f"a checker objected ({', '.join(r['obj'])})" if r.get("obj") else "") + \
                  (f"; accepted on attempt {r['n']}" if r.get("n", 1) > 1 else "")
         clips.append({"key": r["ex"], "text": p["plain"], "reading": p["kana"],
@@ -293,6 +293,7 @@ def cmd_import_ratings(args):
     known = {c["key"] for c in index}
     tests = {s["id"]: s for s in json.loads(P.TESTSET.read_text(encoding="utf-8"))}
     examples = {x["ex"]: x for x in P.load_examples()}
+    overrides = P.load_overrides()
     added, wrong, skipped = 0, [], 0
     for path in args.files:
         data = json.loads(Path(path).read_text(encoding="utf-8"))
@@ -304,9 +305,9 @@ def cmd_import_ratings(args):
                 continue
             clip_key = f"production/{rec['f']}"
             if clip_key not in known:
-                p = parse_example(examples[key]["raw"])
+                ov = P.active_override(examples[key], overrides)
                 index.append({"key": clip_key, "url": stores[rec["s"]] + rec["f"], "voice": rec["v"],
-                              "example_id": key, "raw": examples[key]["raw"],
+                              "example_id": key, "raw": ov["say"] if ov else examples[key]["raw"],
                               "truth": f"human: {r}" + (f" - {v['c']}" if v.get("c") else ""),
                               "source": data.get("page")})
                 known.add(clip_key)
@@ -350,6 +351,7 @@ def cmd_reaudit(args):
     stores = {s["id"]: s["base_url"] for s in cfg["stores"]}
     manifest = P.load_manifest()
     examples = {x["ex"]: x for x in P.load_examples()}
+    overrides = P.load_overrides()
     valid = [r for r in manifest.values() if r["ex"] in examples
              and P.short_hash(examples[r["ex"]]["raw"]) == r["h"]]
     rng = random.Random(args.seed or today().isoformat())
@@ -360,7 +362,7 @@ def cmd_reaudit(args):
         if api.spent > args.budget:
             return None
         mp3 = requests.get(stores[r["s"]] + r["f"], timeout=60).content
-        checks = run_checkers(mp3, parse_example(examples[r["ex"]]["raw"]), cfg["checkers"], api)
+        checks = run_checkers(mp3, P.spoken_example(examples[r["ex"]], overrides), cfg["checkers"], api)
         return {"ex": r["ex"], "f": r["f"], "accepted": accept(cfg["rule"], [c["verdict"] for c in checks]),
                 "verdicts": {c["name"]: c["verdict"] for c in checks},
                 "diffs": {c["name"]: c["diff"] for c in checks if c["diff"]}}

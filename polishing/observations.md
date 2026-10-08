@@ -1594,3 +1594,4 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 14008: audio checks heard すうひゃっき for {数百|すうひゃく}{機|き} in 14008_koukuuki_ex3; check the furigana.
 - [tooling] Audio store tkgally/je-dict-audio-1 is at 853 of 900 MB after the second 2026-10-08 run (32 MB per $5.4 run); one more run fits.
 - [tooling] review_links.py --apply-decisions treats a one-occurrence `retarget` as an entry-wide unlink of the old base: retargeting です (だ→です) in 01799 ex1 also stripped the correct だった→だ link in ex9, and auto_link will not restore it even with a `keep` line for that occurrence. Retarget should be per-occurrence.
+- [tooling] 2026-10-08 (curator session): the pip/python3 mismatch is fixed in the repository: Makefile audio-deps and routine2.md's install line now use python3 -m pip.
