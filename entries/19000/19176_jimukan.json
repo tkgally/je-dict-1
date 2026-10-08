@@ -35,7 +35,7 @@
     },
     {
       "id": "19176_jimukan_ex3",
-      "japanese": "{外務省|がいむしょう}⟦の→の：09472_no⟧{事務官|じむかん}⟦は→は：00079_ha⟧⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧な⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{携|たずさ}わる→携わる：09333_tazusawaru⟧。",
+      "japanese": "⟦{外務省|がいむしょう}→外務省：31654_gaimushou⟧⟦の→の：09472_no⟧{事務官|じむかん}⟦は→は：00079_ha⟧⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧な⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{携|たずさ}わる→携わる：09333_tazusawaru⟧。",
       "english": "Administrative officials at the Ministry of Foreign Affairs are also involved in international affairs.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "In the Japanese civil service, {事務官|じむかん} is contrasted with {技官|ぎかん} (technical officer). Common compound terms: ⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧{事務官|じむかん} (court clerk), ⟦{検察|けんさつ}→検察：11086_kensatsu⟧{事務官|じむかん} (prosecution clerk), ⟦{外務|がいむ}→外務：24160_gaimu⟧{事務官|じむかん} (foreign affairs administrative officer). The title indicates a general administrative role within a government ministry or agency. Compare with ⟦{事務員|じむいん}→事務員：25266_jimuin⟧ (office worker — used for private sector), ⟦{官僚|かんりょう}→官僚：02780_kanryou⟧ (bureaucrat — higher-ranking).",
+  "notes": "In the Japanese civil service {事務官|じむかん} (administrative officer) is contrasted with {技官|ぎかん} (technical officer).\n\nCOMPOUNDS:\n- ⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧{事務官|じむかん}: court clerk\n- ⟦{検察|けんさつ}→検察：11086_kensatsu⟧{事務官|じむかん}: prosecution clerk\n- ⟦{外務|がいむ}→外務：24160_gaimu⟧{事務官|じむかん}: foreign-ministry administrative officer\n\nSIMILAR WORDS:\n- ⟦{事務員|じむいん}→事務員：25266_jimuin⟧: office clerk; mostly in private companies\n- ⟦{官僚|かんりょう}→官僚：02780_kanryou⟧: bureaucrat; a senior government official",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25266_jimuin",
+      "reading": "じむいん",
+      "headword": "{事務員|じむいん}",
+      "label": "office clerk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02780_kanryou",
+      "reading": "かんりょう",
+      "headword": "{官僚|かんりょう}",
+      "label": "bureaucrat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-24T11:32:37Z",
-    "modified": "2026-09-02T04:01:55Z"
+    "modified": "2026-10-08T00:43:05Z"
   }
 }
