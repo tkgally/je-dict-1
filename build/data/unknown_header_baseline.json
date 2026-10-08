@@ -1,38 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-08T06:30:01Z",
+  "generated": "2026-10-08T14:11:21Z",
   "headers": {
-    "01004_tsu": [
-      "AGE OF YOUNG CHILDREN",
-      "ASKING HOW MANY",
-      "LIMITATIONS"
-    ],
-    "01009_yonjuu": [
-      "COMMON COUNTERS",
-      "RELATED NUMBERS"
-    ],
-    "01010_yuugata": [
-      "RELATED {夕|ゆう} WORDS"
-    ],
-    "01011_zero": [
-      "IN PHONE/ROOM NUMBERS"
-    ],
-    "01012_apaato": [
-      "JAPANESE HOUSING DISTINCTION"
-    ],
-    "01013_banana": [
-      "RIPENESS"
-    ],
-    "01014_bentou": [
-      "TYPES OF BENTO"
-    ],
-    "01017_buchou": [
-      "IN SCHOOL CLUBS"
-    ],
-    "01018_budou": [
-      "JAPANESE VARIETIES",
-      "RELATED PRODUCTS"
-    ],
     "01019_chawan": [
       "SENSE 1 - RICE BOWL (common)",
       "SENSE 2 - TEA BOWL (traditional)"
@@ -40,34 +9,11 @@
     "01021_daidokoro": [
       "{台所|だいどころ} VS キッチン"
     ],
-    "01022_depaato": [
-      "FAMOUS CHAINS",
-      "JAPANESE DEPARTMENT STORES"
-    ],
     "01024_eigakan": [
       "OTHER {館|かん} BUILDINGS"
     ],
-    "01025_furaipan": [
-      "COOKING VERBS",
-      "RELATED COOKWARE"
-    ],
     "01027_hoteru": [
-      "CONTRAST WITH {旅館|りょかん}",
-      "TYPES OF HOTELS"
-    ],
-    "01028_ichigo": [
-      "JAPANESE STRAWBERRIES",
-      "POPULAR USES",
-      "SEASONAL ACTIVITY"
-    ],
-    "01030_itterasshai": [
-      "COMMON ADDITIONS"
-    ],
-    "01033_juusu": [
-      "BROADER MEANING IN JAPANESE"
-    ],
-    "01034_kai": [
-      "JAPANESE VS. BRITISH ENGLISH"
+      "CONTRAST WITH {旅館|りょかん}"
     ],
     "01035_manshon": [
       "CONTRAST WITH アパート"
@@ -667,9 +613,6 @@
     ],
     "01869_ume": [
       "RANKING SYSTEM ({松竹梅|しょうちくばい})"
-    ],
-    "01893_unaru": [
-      "USAGE BY SUBJECT"
     ],
     "01897_umaru": [
       "PHYSICAL BURIAL"
@@ -2796,9 +2739,6 @@
     ],
     "04697_ryoushuusho": [
       "JAPANESE RECEIPT FORMAT"
-    ],
-    "04699_mitsumori": [
-      "BUSINESS PRACTICE"
     ],
     "04700_torihiki": [
       "TYPES OF TRANSACTIONS"
@@ -6812,15 +6752,6 @@
     ],
     "10105_hanabitaikai": [
       "FAMOUS FIREWORKS FESTIVALS"
-    ],
-    "10289_hozonhouhou": [
-      "COMMON STORAGE INSTRUCTIONS ON LABELS"
-    ],
-    "10292_hanraku": [
-      "RELATED MARKET TERMS"
-    ],
-    "10300_kakigoori": [
-      "COMMON FLAVORS"
     ],
     "10343_shocchuu": [
       "FREQUENCY SCALE (high → low)"
