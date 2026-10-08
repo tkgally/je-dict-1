@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-08 (Routine v3: new-entries — 20 New Entries, IDs 31718–31737)
+
+Twenty internal-closure candidates that existing entries already use: 賠償金, 振りまく (two senses), 計り知れない (i-adjective), 合否, 無作為, 釣り糸, 立ち込める, 絡み合う (two senses), 育て上げる, 切り立つ, 木目, 街中, 駄菓子屋, 奪い返す, 問題視 (noun + する), 危機感, 吹きこぼれる, 健康的, 断り (two senses), 科する (contrasted with 課する, now a candidate). Conjugation tables added for the nine verbs and the adjective. The source entries were relinked (23 new inline links). The cross-reference harvester wrongly tied 科する to 課 (lesson); reverted. Self-check clean on the new entries.
+
 ### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31698–31717)
 
 Twenty internal-closure candidates that existing entries already use: 投資信託, 術 (すべ, as in 為す術がない), こどもの日 (proper noun, event), 策定 and 加担 (noun + する), 人通り, 審議会, 驚異的 (na-adjective), 糧 (two senses), 南部, 象牙, 民間人, 第一線, 厚み (two senses), 猛攻, 解脱 (noun + する); the verbs 覗き込む, 切り込む and 滅ぶ (conjugation tables added; 滅ぶ paired with 滅ぼす and 滅びる); 手早い (i-adjective, table added). 蜉蝣 was dropped from the queue as a variant spelling of the existing 蜻蛉 (かげろう). The source entries were relinked (25 new inline links). No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent.
@@ -65,8 +69,4 @@ Twenty internal-closure candidates that existing entries already use: 面持ち,
 ### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31658–31677)
 
 Twenty internal-closure candidates that existing entries already use: 落札 (noun + する), 悪霊, 少子高齢化, 海岸線, 専門医, 最高裁 (proper noun), 受刑者, 通学路, 与野党, 雑貨屋, 客先, 三塁, 南国, 肖像, 戦車; the verbs 酔っぱらう, 立ち尽くす, 吹きかける, 手向ける, 持ち越す (conjugation tables added). The twenty entries that mentioned these words were relinked (27 new inline links). No new kanji, stale markers or newcomer link ambiguities. Self-check: no issues. 23 internal-closure candidates remain.
-
-### 2026-10-06 (Routine v3: new-entries — 20 New Entries, IDs 31638–31657)
-
-Twenty internal-closure candidates that existing entries already use: the sayings 弱り目に祟り目, 踏んだり蹴ったり and 腕が上がる; the verbs 乗り上げる (including 暗礁に乗り上げる), 先立つ, 絶つ, 通ずる and 儲かる (conjugation tables added); the nouns 活字離れ, 忠臣, 党内, 取り返し, 相手方, 我が社, 保健所, 蔵元, 寸断 (noun + する), 広がり; 慢性的 (na-adjective); and 外務省 (proper noun). No new kanji, stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter budget was spent. 43 internal-closure candidates remain.
 
