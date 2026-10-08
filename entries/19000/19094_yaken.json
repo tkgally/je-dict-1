@@ -35,7 +35,7 @@
     },
     {
       "id": "19094_yaken_ex3",
-      "japanese": "{野犬|やけん}⟦に→に：00314_ni⟧⟦{近|ちか}づく→近づく：01958_chikazuku⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧な⟦の→の：09472_no⟧⟦で→で：00502_de⟧、⟦{見|み}つけたら→見つける：01180_mitsukeru⟧{保健所|ほけんじょ}⟦に→に：00314_ni⟧⟦{連絡|れんらく}して→連絡する：20202_renrakusuru⟧⟦ください→下さい：02899_kudasai⟧。",
+      "japanese": "{野犬|やけん}⟦に→に：00314_ni⟧⟦{近|ちか}づく→近づく：01958_chikazuku⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧な⟦の→の：09472_no⟧⟦で→で：00502_de⟧、⟦{見|み}つけたら→見つける：01180_mitsukeru⟧⟦{保健所|ほけんじょ}→保健所：31651_hokenjo⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}して→連絡する：20202_renrakusuru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Approaching stray dogs is dangerous, so if you find one, please contact the public health center.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Also sometimes read as ⟦の→の：09472_no⟧いぬ, though やけん is the standard reading. Common collocations include {野犬|やけん}{狩|が}り (rounding up stray dogs) and {野犬|やけん}⟦の→の：09472_no⟧⟦{群|む}れ→群れ：00298_mure⟧ (a pack of stray dogs). Compare with ⟦{野良犬|のらいぬ}→野良犬：14464_norainu⟧ (stray dog, more colloquial) and ⟦{捨|す}て{犬|いぬ}→捨て犬：24573_suteinu⟧ (abandoned dog). In Japan, stray dogs are managed by {保健所|ほけんじょ} (public health centers) and {動物愛護|どうぶつあいご}⟦センター→センター：03854_sentaa⟧ (animal welfare centers).",
+  "notes": "{野犬|やけん} is the word of news, notices and local government; in conversation people say ⟦{野良犬|のらいぬ}→野良犬：14464_norainu⟧.\n\nCOMMON COLLOCATIONS:\n- {野犬|やけん}⟦の→の：09472_no⟧⟦{群|む}れ→群れ：00298_mure⟧: a pack of stray dogs\n- {野犬|やけん}⟦に→に：00314_ni⟧⟦{襲|おそ}われる→襲う：01915_osou⟧: to be attacked by a stray dog\n- {野犬|やけん}{狩|が}り: rounding up stray dogs\n\nSIMILAR WORDS:\n- ⟦{野良犬|のらいぬ}→野良犬：14464_norainu⟧: stray dog; the everyday word\n- ⟦{捨|す}て{犬|いぬ}→捨て犬：24573_suteinu⟧: a dog abandoned by its owner",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14464_norainu",
+      "reading": "のらいぬ",
+      "headword": "{野良犬|のらいぬ}",
+      "label": "stray dog"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24573_suteinu",
+      "reading": "すていぬ",
+      "headword": "{捨|す}て{犬|いぬ}",
+      "label": "a dog abandoned by its owner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-24T09:37:04Z",
-    "modified": "2026-09-04T12:31:09Z"
+    "modified": "2026-10-08T00:43:05Z"
   }
 }
