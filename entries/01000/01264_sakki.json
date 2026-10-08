@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "さっき is an adverb meaning \"a little while ago\" or \"just now,\" referring to the very recent past (usually minutes to an hour ago).\n\nCOMMON PATTERNS:\n- さっき〜⟦した→する：00392_suru⟧: did ~ just now\n- さっき⟦まで→まで：00490_made⟧: until just now\n- さっき⟦から→から：00504_kara⟧: since a little while ago\n- さっき⟦の→の：09472_no⟧: the one from just now\n\nTIME REFERENCE WORDS:\n- さっき: a few minutes ago (very recent)\n- ⟦このあいだ→この間：01257_konoaida⟧: the other day (days to weeks)\n- ⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧: before (general past)\n- ⟦{最近|さいきん}→最近：00881_saikin⟧: recently (days to weeks)\n- ⟦{先|さき}ほど→先程：04165_sakihodo⟧: a little while ago (more formal than さっき)\n\nUSAGE:\nさっき is casual. In formal situations, use ⟦{先|さき}ほど→先程：04165_sakihodo⟧ instead.",
+  "notes": "さっき is an adverb meaning \"a little while ago\" or \"just now,\" referring to the very recent past (usually minutes to an hour ago).\n\nCOMMON PATTERNS:\n- さっき〜⟦した→する：00392_suru⟧: did ~ just now\n- さっき⟦まで→まで：00490_made⟧: until just now\n- さっき⟦から→から：00504_kara⟧: since a little while ago\n- さっき⟦の→の：09472_no⟧: the one from just now\n\nSIMILAR WORDS:\n- さっき: a few minutes ago (very recent)\n- ⟦このあいだ→この間：01257_konoaida⟧: the other day (days to weeks)\n- ⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧: before (general past)\n- ⟦{最近|さいきん}→最近：00881_saikin⟧: recently (days to weeks)\n- ⟦{先|さき}ほど→先程：04165_sakihodo⟧: a little while ago (more formal than さっき)\n\nUSAGE:\nさっき is casual. In formal situations, use ⟦{先|さき}ほど→先程：04165_sakihodo⟧ instead.",
   "cross_references": [
     {
       "type": "synonym",
@@ -72,11 +72,39 @@
       "reading": "すこしまえ",
       "headword": "{少|すこ}し{前|まえ}",
       "label": "a little while ago"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01257_konoaida",
+      "reading": "このあいだ",
+      "headword": "この{間|あいだ}",
+      "label": "the other day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00965_maeni",
+      "reading": "まえに",
+      "headword": "{前|まえ}に",
+      "label": "before"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00881_saikin",
+      "reading": "さいきん",
+      "headword": "{最近|さいきん}",
+      "label": "recently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04165_sakihodo",
+      "reading": "さきほど",
+      "headword": "{先程|さきほど}",
+      "label": "a little while ago"
     }
   ],
   "metadata": {
     "created": "2026-01-08T03:50:31Z",
-    "modified": "2026-09-02T04:00:59Z",
+    "modified": "2026-10-08T19:35:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
