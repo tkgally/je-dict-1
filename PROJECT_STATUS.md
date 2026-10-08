@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-08 (Routine v3: new-entries — 10 New Entries, IDs 31738–31747)
+
+Ten internal-closure candidates that existing entries already use, all nouns: 浪士 and 志士 (historical; 浪士 contrasted with 浪人), 栄華, 実権, 船舶, 要人, 後世 (notes separate the Buddhist ごせ), 急用 (contrasted with 用事), 当店 and 支社 (contrasted with 支店 and 営業所). A small unit, to fit the end of the run. The ten source entries were relinked (15 new inline links), and the harvester added reciprocal contrasts to 浪人, 用事, 当社, 支店 and 営業所. No new kanji. Self-check: no issues (25 entries, 32 kana links).
+
 ### 2026-10-08 (Routine v3: candidates — 48 Internal-Closure Candidates, C24177–C24224)
 
 The SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is still empty). About 75 proposed; dropped as variant spellings of existing entries (下さる, 頂く, 痒い, 成す, 下りる, 浸ける, 引っ越し, 売り上げ …) and as tokenizer misreadings (吊る from 吊り下げる, 法師 from 一寸法師, which has an entry). 48 added, each with the entry it was seen in (捕らえる, 執る, 急ぎ, 一手, 家中, 無病息災, 日常生活, 学生時代, 宮内庁, 松の内, 腫れ …). Queue 70 → 118.
@@ -65,7 +69,3 @@ Twenty internal-closure candidates that existing entries already use: 投資信�
 ### 2026-10-07 (Routine v3: candidates — 60 Internal-Closure Candidates, C24092–C24175)
 
 The same SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is still empty). 110 proposed; the duplicate probe dropped 読み聞かせ and 17 variant spellings of existing entries (歯ごたえ, 寄りかかる, 肩こり, 折りたたむ, 生ごみ, 改ざん, 子猫 …); transparent compounds (合格者, 手術室, 緊急時 …) and 24 lower-value words were left out. 60 added, each with the entry it was seen in (策定, 人通り, 危機感, 覗き込む, 浪士, 志士, 被爆, 陽性 …). Queue 50 → 110.
-
-### 2026-10-07 (Routine v3: new-entries — 20 New Entries, IDs 31678–31697)
-
-Twenty internal-closure candidates that existing entries already use: 面持ち, 大仏, 選手団, 遺品, 文末, 黙秘権, 海峡, 流れ着く and 度重なる (godan verbs, conjugation tables added), 北上 and 飛来 (noun + する), 昨年度, 登山家, 冬山, 家族連れ, 作曲家, 耐性菌, 表書き, 仕打ち, 頭部. No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent. Four internal-closure candidates remain (投資信託, 術 (すべ), 蜉蝣, こどもの日).
