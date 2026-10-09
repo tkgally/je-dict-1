@@ -120,7 +120,7 @@
     },
     {
       "id": "10442_chouseisuru_ex2",
-      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧して⟦ください→下さい：02899_kudasai⟧。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦して→する：00392_suru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please adjust the temperature.",
       "notes": null,
       "has_audio": true,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10442_chouseisuru_ex3",
-      "japanese": "⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧して、⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
+      "japanese": "⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦して→する：00392_suru⟧、⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "We coordinated our schedules and decided on the meeting date.",
       "notes": null,
       "has_audio": true,
@@ -139,7 +139,7 @@
       ]
     }
   ],
-  "notes": "{調整|ちょうせい}する is composed of {調|ちょう} (tune, investigate) + {整|せい} (arrange, put in order).\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: 〜⟦を→を：00422_wo⟧{調整|ちょうせい}する\n\nCOMMON COLLOCATIONS:\n- ⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する: to coordinate schedules\n- ⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する: to adjust temperature\n- ⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する: to manage one's physical condition\n- ⟦{日程|にってい}{調整|ちょうせい}→日程調整：07805_nitteichousei⟧: schedule coordination",
+  "notes": "{調整|ちょうせい}する is composed of {調|ちょう} (tune, investigate) + {整|せい} (arrange, put in order).\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: 〜⟦を→を：00422_wo⟧{調整|ちょうせい}する\n\nCOMMON COLLOCATIONS:\n- ⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する: to coordinate schedules\n- ⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する: to adjust temperature\n- ⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する: to manage one's physical condition\n- ⟦{日程|にってい}{調整|ちょうせい}→日程調整：07805_nitteichousei⟧: schedule coordination\n\nSIMILAR WORDS:\n- ⟦{調節|ちょうせつ}→調節：17947_chousetsu⟧: adjusting a measurable quantity to the right level (⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧⟦{調節|ちょうせつ}→調節：17947_chousetsu⟧⟦する→する：00392_suru⟧, ⟦{音量|おんりょう}→音量：10009_onryou⟧⟦を→を：00422_wo⟧⟦{調節|ちょうせつ}→調節：17947_chousetsu⟧⟦する→する：00392_suru⟧); {調整|ちょうせい}する also covers coordinating people, schedules and opinions, which ⟦{調節|ちょうせつ}→調節：17947_chousetsu⟧ cannot",
   "cross_references": [
     {
       "type": "related",
@@ -154,11 +154,18 @@
       "reading": "ほせいする",
       "headword": "{補正|ほせい}する",
       "label": "to correct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17947_chousetsu",
+      "reading": "ちょうせつ",
+      "headword": "{調節|ちょうせつ}",
+      "label": "adjusting a measurable quantity…"
     }
   ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-09-04T12:31:08Z",
+    "modified": "2026-10-09T18:21:13Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
