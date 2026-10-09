@@ -1,138 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-09T00:40:03Z",
+  "generated": "2026-10-09T07:19:40Z",
   "headers": {
-    "01623_suiei": [
-      "SWIMMING STROKES"
-    ],
-    "01627_suruto": [
-      "DIFFERENCE FROM そして"
-    ],
-    "01631_oideninaru": [
-      "HONORIFIC EQUIVALENTS"
-    ],
-    "01639_shinbunsha": [
-      "MAJOR JAPANESE NEWSPAPERS"
-    ],
-    "01640_jiten": [
-      "TYPES OF DICTIONARIES"
-    ],
-    "01646_sonnani": [
-      "KO-SO-A-DO DEGREE ADVERBS"
-    ],
-    "01653_daigakusei": [
-      "RELATED STUDENT TERMS",
-      "YEARS IN UNIVERSITY"
-    ],
-    "01657_danbou": [
-      "TYPES OF HEATING"
-    ],
-    "01665_chuusha": [
-      "TYPES OF INJECTIONS"
-    ],
-    "01676_tera": [
-      "FAMOUS TEMPLES"
-    ],
-    "01684_tochuu": [
-      "EXAMPLES BY CONTEXT"
-    ],
-    "01686_doubutsuen": [
-      "FAMOUS JAPANESE ZOOS"
-    ],
-    "01696_haisha": [
-      "DENTAL TERMS"
-    ],
-    "01705_bangumi": [
-      "TYPES OF PROGRAMS"
-    ],
-    "01713_hiruma": [
-      "TIME OF DAY TERMS"
-    ],
-    "01715_hiruyasumi": [
-      "TYPICAL LUNCH BREAKS"
-    ],
-    "01717_bijutsukan": [
-      "FAMOUS JAPANESE ART MUSEUMS",
-      "SIMILAR FACILITIES"
-    ],
-    "01720_futon": [
-      "TYPES OF FUTON"
-    ],
-    "01728_isshou": [
-      "AS A NOUN ({一生|いっしょう}の〜)",
-      "AS AN ADVERB ({一生|いっしょう}〜)"
-    ],
-    "01738_momen": [
-      "RELATED FABRIC TERMS"
-    ],
-    "01750_ryouhou": [
-      "RELATED {両|りょう} COMPOUNDS"
-    ],
-    "01760_wariai": [
-      "ADVERB (relatively)",
-      "NOUN (ratio)"
-    ],
-    "01761_akusesarii": [
-      "TYPES OF ACCESSORIES"
-    ],
-    "01765_anaunsaa": [
-      "RELATED BROADCAST TERMS",
-      "TYPES OF ANNOUNCERS"
-    ],
-    "01769_amerika": [
-      "COMMON COMPOUNDS WITH {米|べい}",
-      "FORMAL NAMES",
-      "THE AMERICAS"
-    ],
-    "01779_jamu": [
-      "RELATED SPREADS"
-    ],
-    "01782_ikioi": [
-      "NOUN USES"
-    ],
-    "01783_ikimono": [
-      "CONTRAST WITH {生物|せいぶつ}"
-    ],
-    "01784_tenisu": [
-      "RELATED RACKET SPORTS"
-    ],
-    "01787_izumi": [
-      "NAME NOTE"
-    ],
-    "01789_izure": [
-      "AS ADVERB (someday)",
-      "AS PRONOUN (which/either)"
-    ],
-    "01793_ippai": [
-      "A LOT (adverbial)",
-      "FULL",
-      "ONE CUP/GLASS (counter)"
-    ],
-    "01794_itazura": [
-      "AS NA-ADJECTIVE/ADVERB (literary)",
-      "TAMPERING"
-    ],
-    "01795_itami": [
-      "DAMAGE/SPOILAGE",
-      "EMOTIONAL PAIN",
-      "PHYSICAL PAIN PATTERNS"
-    ],
-    "01802_karera": [
-      "PRONOUN SYSTEM"
-    ],
-    "01803_ichiba": [
-      "CRITICAL READING DISTINCTION"
-    ],
-    "01805_isshun": [
-      "ADVERBIAL USAGE"
-    ],
-    "01809_itsuka": [
-      "FUTURE (someday)",
-      "PAST (at some point)"
-    ],
-    "01820_ine": [
-      "RICE TERMINOLOGY"
-    ],
     "01832_shuppatsusuru": [
       "TRAVEL EXPRESSIONS"
     ],
@@ -1116,9 +985,6 @@
     ],
     "02878_koucha": [
       "TEA TYPES IN JAPANESE"
-    ],
-    "02879_kouban": [
-      "COMMON FUNCTIONS"
     ],
     "02882_konban": [
       "CONTRAST WITH {今夜|こんや}"

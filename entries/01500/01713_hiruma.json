@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{昼間|ひるま} specifically refers to daylight hours.\n\nTIME OF DAY TERMS:\n- ⟦{朝|あさ}→朝：02277_asa⟧: morning\n- ⟦{昼|ひる}→昼：00540_hiru⟧: noon, daytime\n- {昼間|ひるま}: daytime (emphasizes daylight hours)\n- ⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧: evening\n- ⟦{夜|よる}→夜：00487_yoru⟧: night\n- ⟦{夜中|よなか}→夜中：01008_yonaka⟧: middle of the night\n\n⟦{昼|ひる}→昼：00540_hiru⟧ vs {昼間|ひるま}:\n- ⟦{昼|ひる}→昼：00540_hiru⟧: noon, midday (also used broadly for daytime)\n- {昼間|ひるま}: daytime hours (contrasts with nighttime)\n\nOPPOSITE: ⟦{夜間|やかん}→夜間：04133_yakan⟧ (nighttime)",
+  "notes": "{昼間|ひるま} specifically refers to daylight hours.\n\nRELATED WORDS (times of day):\n- ⟦{朝|あさ}→朝：02277_asa⟧: morning\n- ⟦{昼|ひる}→昼：00540_hiru⟧: noon, daytime\n- {昼間|ひるま}: daytime (emphasizes daylight hours)\n- ⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧: evening\n- ⟦{夜|よる}→夜：00487_yoru⟧: night\n- ⟦{夜中|よなか}→夜中：01008_yonaka⟧: middle of the night\n\nSIMILAR WORDS:\n- ⟦{昼|ひる}→昼：00540_hiru⟧: noon, midday; also used broadly for daytime, while {昼間|ひるま} stresses the daylight hours as opposed to night\n- ⟦{夜間|やかん}→夜間：04133_yakan⟧: nighttime — the opposite of {昼間|ひるま}",
   "cross_references": [
     {
       "type": "antonym",
@@ -85,11 +85,39 @@
       "reading": "はくちゅう",
       "headword": "{白昼|はくちゅう}",
       "label": "broad daylight"
+    },
+    {
+      "type": "related",
+      "target_id": "02277_asa",
+      "reading": "あさ",
+      "headword": "{朝|あさ}",
+      "label": "morning"
+    },
+    {
+      "type": "related",
+      "target_id": "01010_yuugata",
+      "reading": "ゆうがた",
+      "headword": "{夕方|ゆうがた}",
+      "label": "evening"
+    },
+    {
+      "type": "related",
+      "target_id": "00487_yoru",
+      "reading": "よる",
+      "headword": "{夜|よる}",
+      "label": "night"
+    },
+    {
+      "type": "related",
+      "target_id": "01008_yonaka",
+      "reading": "よなか",
+      "headword": "{夜中|よなか}",
+      "label": "middle of the night"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:11:24Z",
-    "modified": "2026-09-04T12:29:38Z",
+    "modified": "2026-10-09T07:17:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
