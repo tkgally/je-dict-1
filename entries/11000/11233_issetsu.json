@@ -35,20 +35,28 @@
     },
     {
       "id": "11233_issetsu_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦の→の：09472_no⟧⟦{語源|ごげん}→語源：14215_gogen⟧⟦について→〜について：03103_nitsuite⟧⟦は→は：00079_ha⟧{一説|いっせつ}⟦ある→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦{定|さだ}か→定か：12296_sadaka⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
-      "english": "There is a theory about the etymology of this word, but it's not definitive.",
+      "japanese": "{一説|いっせつ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦この→この：00962_kono⟧⟦{寺|てら}→寺：01676_tera⟧⟦は→は：00079_ha⟧{千年|せんねん}⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{建|た}てられた→建てる：01189_tateru⟧⟦という→という：09577_toiu⟧。",
+      "english": "According to one account, this temple was built a thousand years ago.",
       "sense_numbers": [
         1
       ],
-      "has_audio": true,
+      "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{一説|いっせつ} is used to introduce one particular theory or view when multiple explanations exist. It signals that the information is not definitive.\n\nFORMS:\n{一|いっ} (one) + ⟦{説|せつ}→説：00360_setsu⟧ (theory, explanation) = one theory\n\nCOMMON PATTERNS:\n- {一説|いっせつ}⟦によると→〜によると：03104_niyoruto⟧: according to one theory\n- {一説|いっせつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧: according to one account\n- {一説|いっせつ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧: in one theory\n- {一説|いっせつ}⟦ある→ある：00006_aru⟧: there is a (certain) theory\n\nUSAGE:\nThis word is commonly found in academic writing, encyclopedias, and trivia discussions. It hedges a claim by acknowledging that other explanations may exist.",
-  "cross_references": [],
+  "notes": "FORMS:\n{一|いっ} (one) + ⟦{説|せつ}→説：00360_setsu⟧ (theory, explanation) = one theory\n\nCOMMON PATTERNS:\n- {一説|いっせつ}⟦によると→〜によると：03104_niyoruto⟧: according to one theory\n- {一説|いっせつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧: according to one account\n- {一説|いっせつ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧: in one theory\n- {一説|いっせつ}⟦ある→ある：00006_aru⟧: there is a (certain) theory\n\nUSAGE:\nThis word is commonly found in academic writing, encyclopedias, and trivia discussions. It hedges a claim by acknowledging that other explanations may exist.\n\nSIMILAR WORDS:\n- ⟦{諸説|しょせつ}→諸説：19128_shosetsu⟧: various theories; ⟦{諸説|しょせつ}→諸説：19128_shosetsu⟧⟦ある→ある：00006_aru⟧ (there are several theories) is the set phrase for saying an origin is disputed, where {一説|いっせつ} introduces one of them",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19128_shosetsu",
+      "reading": "しょせつ",
+      "headword": "{諸説|しょせつ}",
+      "label": "various theories"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T02:43:51Z",
-    "modified": "2026-09-02T04:01:24Z",
+    "modified": "2026-10-09T18:52:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +69,8 @@
         "written"
       ],
       "semantic": [
-        "general"
+        "cognition",
+        "language"
       ]
     }
   }
