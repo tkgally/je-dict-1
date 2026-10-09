@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{牛肉|ぎゅうにく} means beef. Combines ⟦{牛|うし}→牛：01857_ushi⟧ (cow) + ⟦{肉|にく}→肉：02240_niku⟧ (meat).\n\nOTHER MEAT TYPES:\n- ⟦{豚肉|ぶたにく}→豚肉：02956_butaniku⟧: pork\n- ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧: chicken\n- ⟦{羊肉|ようにく}→羊肉：30426_youniku⟧: lamb/mutton\n- ⟦{馬肉|ばにく}→馬肉：30430_baniku⟧: horse meat\n\nPOPULAR BEEF DISHES:\n- ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧: beef bowl\n- ⟦{焼肉|やきにく}→焼肉：04984_yakiniku⟧: grilled meat (BBQ)\n- ⟦すき{焼|や}き→すき焼き：10368_sukiyaki⟧: sukiyaki\n- ⟦しゃぶしゃぶ→しゃぶしゃぶ：10479_shabushabu⟧: shabu-shabu\n- ⟦ステーキ→ステーキ：01369_suteeki⟧: steak\n\nFAMOUS JAPANESE BEEF:\n- ⟦{和牛|わぎゅう}→和牛：27668_wagyuu⟧: wagyu (Japanese beef)\n- ⟦{神戸牛|こうべぎゅう}→神戸牛：30922_koubegyuu⟧: Kobe beef\n- ⟦{松阪牛|まつさかぎゅう}→松阪牛：30923_matsusakagyuu⟧: Matsusaka beef\n\nCOMMON EXPRESSIONS:\n- {牛肉|ぎゅうにく}⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧: to grill beef\n- {牛肉|ぎゅうにく}⟦の→の：09472_no⟧⟦{赤身|あかみ}→赤身：19617_akami⟧: lean beef",
+  "notes": "{牛肉|ぎゅうにく} means beef. Combines ⟦{牛|うし}→牛：01857_ushi⟧ (cow) + ⟦{肉|にく}→肉：02240_niku⟧ (meat).\n\nRELATED WORDS (other meats):\n- ⟦{豚肉|ぶたにく}→豚肉：02956_butaniku⟧: pork\n- ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧: chicken\n- ⟦{羊肉|ようにく}→羊肉：30426_youniku⟧: lamb/mutton\n- ⟦{馬肉|ばにく}→馬肉：30430_baniku⟧: horse meat\n\nRELATED WORDS (beef dishes):\n- ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧: beef bowl\n- ⟦{焼肉|やきにく}→焼肉：04984_yakiniku⟧: grilled meat (BBQ)\n- ⟦すき{焼|や}き→すき焼き：10368_sukiyaki⟧: sukiyaki\n- ⟦しゃぶしゃぶ→しゃぶしゃぶ：10479_shabushabu⟧: shabu-shabu\n- ⟦ステーキ→ステーキ：01369_suteeki⟧: steak\n\nCULTURAL NOTE (famous Japanese beef):\n- ⟦{和牛|わぎゅう}→和牛：27668_wagyuu⟧: wagyu (Japanese beef)\n- ⟦{神戸牛|こうべぎゅう}→神戸牛：30922_koubegyuu⟧: Kobe beef\n- ⟦{松阪牛|まつさかぎゅう}→松阪牛：30923_matsusakagyuu⟧: Matsusaka beef\n\nCOMMON EXPRESSIONS:\n- {牛肉|ぎゅうにく}⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧: to grill beef\n- {牛肉|ぎゅうにく}⟦の→の：09472_no⟧⟦{赤身|あかみ}→赤身：19617_akami⟧: lean beef",
   "cross_references": [
     {
       "type": "related",
@@ -85,11 +85,60 @@
       "reading": "うすぎり",
       "headword": "{薄切|うすぎ}り",
       "label": "thin slices"
+    },
+    {
+      "type": "related",
+      "target_id": "30426_youniku",
+      "reading": "ようにく",
+      "headword": "{羊肉|ようにく}",
+      "label": "lamb/mutton"
+    },
+    {
+      "type": "related",
+      "target_id": "30430_baniku",
+      "reading": "ばにく",
+      "headword": "{馬肉|ばにく}",
+      "label": "horse meat"
+    },
+    {
+      "type": "related",
+      "target_id": "08600_gyuudon",
+      "reading": "ぎゅうどん",
+      "headword": "{牛丼|ぎゅうどん}",
+      "label": "beef bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "04984_yakiniku",
+      "reading": "やきにく",
+      "headword": "{焼肉|やきにく}",
+      "label": "grilled meat"
+    },
+    {
+      "type": "related",
+      "target_id": "10368_sukiyaki",
+      "reading": "すきやき",
+      "headword": "すき{焼|や}き",
+      "label": "sukiyaki"
+    },
+    {
+      "type": "related",
+      "target_id": "10479_shabushabu",
+      "reading": "しゃぶしゃぶ",
+      "headword": "しゃぶしゃぶ",
+      "label": "shabu-shabu"
+    },
+    {
+      "type": "related",
+      "target_id": "01369_suteeki",
+      "reading": "すてーき",
+      "headword": "ステーキ",
+      "label": "steak"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:35:00Z",
-    "modified": "2026-10-04T14:09:14Z",
+    "modified": "2026-10-09T19:21:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

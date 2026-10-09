@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{曇|くも}り describes cloudy weather or cloudiness.\n\nWRITING:\nBoth read くも but use different kanji:\n- {曇|くも}り: cloudy weather\n- ⟦{雲|くも}→雲：02202_kumo⟧: cloud\nThe kanji differ by their radicals (sun vs rain).\n\nWEATHER TERMS:\n- ⟦{晴|は}れ→晴れ：02936_hare⟧: sunny\n- {曇|くも}り: cloudy\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain\n- ⟦{雪|ゆき}→雪：00584_yuki⟧: snow\n\nWEATHER FORECAST EXPRESSIONS:\n- {曇|くも}り⟦のち→後：03545_nochi⟧⟦{晴|は}れ→晴れ：02936_hare⟧: cloudy then sunny\n- {曇|くも}り⟦のち→後：03545_nochi⟧⟦{雨|あめ}→雨：00583_ame⟧: cloudy then rain\n- {曇|くも}り⟦{時々|ときどき}→時々：00600_tokidoki⟧⟦{雨|あめ}→雨：00583_ame⟧: cloudy with occasional rain\n- {曇|くも}り⟦{一時|いちじ}→一時：01799_ichiji⟧⟦{雨|あめ}→雨：00583_ame⟧: cloudy with brief rain\n\nRELATED WORDS:\n- ⟦{曇|くも}る→曇る：00723_kumoru⟧: to become cloudy, to cloud over\n- ⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{曇|くも}る→曇る：00723_kumoru⟧: the sky clouds over",
+  "notes": "{曇|くも}り describes cloudy weather or cloudiness.\n\nWRITING:\nBoth read くも but use different kanji:\n- {曇|くも}り: cloudy weather\n- ⟦{雲|くも}→雲：02202_kumo⟧: cloud\nThe kanji differ by their radicals (sun vs rain).\n\nRELATED WORDS:\n- ⟦{晴|は}れ→晴れ：02936_hare⟧: sunny\n- {曇|くも}り: cloudy\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain\n- ⟦{雪|ゆき}→雪：00584_yuki⟧: snow\n- ⟦{曇|くも}る→曇る：00723_kumoru⟧: to become cloudy, to cloud over\n- ⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{曇|くも}る→曇る：00723_kumoru⟧: the sky clouds over\n\nCOMMON EXPRESSIONS (weather forecasts):\n- {曇|くも}り⟦のち→後：03545_nochi⟧⟦{晴|は}れ→晴れ：02936_hare⟧: cloudy then sunny\n- {曇|くも}り⟦のち→後：03545_nochi⟧⟦{雨|あめ}→雨：00583_ame⟧: cloudy then rain\n- {曇|くも}り⟦{時々|ときどき}→時々：00600_tokidoki⟧⟦{雨|あめ}→雨：00583_ame⟧: cloudy with occasional rain\n- {曇|くも}り⟦{一時|いちじ}→一時：01799_ichiji⟧⟦{雨|あめ}→雨：00583_ame⟧: cloudy with brief rain",
   "prominent_see_also": [
     {
       "target_id": "00723_kumoru",
@@ -94,11 +94,25 @@
       "reading": "てんき",
       "headword": "{天気|てんき}",
       "label": "weather"
+    },
+    {
+      "type": "related",
+      "target_id": "00583_ame",
+      "reading": "あめ",
+      "headword": "{雨|あめ}",
+      "label": "rain"
+    },
+    {
+      "type": "related",
+      "target_id": "00584_yuki",
+      "reading": "ゆき",
+      "headword": "{雪|ゆき}",
+      "label": "snow"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:35:00Z",
-    "modified": "2026-10-07T19:06:45Z",
+    "modified": "2026-10-09T19:21:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
