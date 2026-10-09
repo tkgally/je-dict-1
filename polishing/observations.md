@@ -1615,3 +1615,6 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 2026-10-09 14880: audio checks disagreed on 百八つ in 14880_bonnou_ex3 (furigana ひゃくはちつ; the reading is ひゃくやっつ); check the furigana. (routine_2026-10-09_004)
 - [entry] 2026-10-09 14895: audio checks heard はなしあい for 話し合い in 14895_ketsuretsu_ex2 (furigana {話|はなし}し doubles the し); check the furigana. (routine_2026-10-09_004)
 - [entry] 2026-10-09 14951: audio checks rejected よめぎさき for 嫁ぎ先 in 14951_shikitari_ex3; the reading is とつぎさき ({嫁|とつ}ぎ). Check the furigana. (routine_2026-10-09_004)
+- [entry] 2026-10-09 15295: audio checks heard まっとう for 真っ当 in 15295_mattou_ex1–ex3 (furigana {真|まっ}っ doubles the っ; should be {真|ま}っ{当|とう}, 5 occurrences); check the furigana. (routine_2026-10-09_008)
+- [entry] 2026-10-09 15551: audio checks heard だされた for 出された in 15551_teichi_ex3 (furigana {出|で}された; passive of 出す is {出|だ}された); check the furigana. (routine_2026-10-09_008)
+- [entry] 2026-10-09 15271: audio checks heard のうさくもつ for 農作物 in 15271_nousakubutsu_ex3; のうさくもつ is the more common reading, and the entry may want to mention both. (routine_2026-10-09_008)
