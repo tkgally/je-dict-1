@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{実験|じっけん}⟦する→する：00392_suru⟧ is used as a ⟦する→する：00392_suru⟧-verb meaning \"to experiment.\"\n\nCOMMON COLLOCATIONS:\n- {実験|じっけん}⟦する→する：00392_suru⟧ (to experiment)\n- ⟦{実験|じっけん}{室|しつ}→実験室：25411_jikkenshitsu⟧ (laboratory)\n- {実験|じっけん}⟦{結果|けっか}→結果：02486_kekka⟧ (experimental results)\n- {実験|じっけん}⟦{台|だい}→〜台：00620_dai⟧ (experimental subject, test bench)\n- {実験|じっけん}⟦{動物|どうぶつ}→動物：01480_doubutsu⟧ (laboratory animal)\n- {実験|じっけん}⟦{的|てき}→〜的：09839_teki⟧ (experimental)\n\nSIMILAR WORDS:\n- {実験|じっけん}: experiment (scientific testing)\n- ⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧: research (broader investigation)",
+  "notes": "COMMON COLLOCATIONS:\n- {実験|じっけん}⟦する→する：00392_suru⟧ (to experiment)\n- ⟦{実験|じっけん}{室|しつ}→実験室：25411_jikkenshitsu⟧ (laboratory)\n- {実験|じっけん}⟦{結果|けっか}→結果：02486_kekka⟧ (experimental results)\n- {実験|じっけん}{台|だい} (guinea pig, test subject; also figurative: ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{実験台|じっけんだい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧)\n- {実験|じっけん}⟦{動物|どうぶつ}→動物：01480_doubutsu⟧ (laboratory animal)\n- {実験|じっけん}⟦{的|てき}→〜的：09839_teki⟧ (experimental)\n\nSIMILAR WORDS:\n- ⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧: research in general; an {実験|じっけん} is one hands-on trial within it\n- ⟦{試験|しけん}→試験：01422_shiken⟧: a test or exam of someone's ability, or trial use of something new ({試験的|しけんてき}⟦に→に：00314_ni⟧⟦{導入|どうにゅう}する→導入する：16055_dounyuusuru⟧); {実験|じっけん} tests a hypothesis or idea",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "かせつ",
       "headword": "{仮説|かせつ}",
       "label": "hypothesis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01422_shiken",
+      "reading": "しけん",
+      "headword": "{試験|しけん}",
+      "label": "a test or exam of someone's ability…"
     }
   ],
   "metadata": {
     "created": "2026-01-12T00:56:10Z",
-    "modified": "2026-09-22T16:22:24Z",
+    "modified": "2026-10-09T18:21:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -73,7 +80,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "science"
       ],
       "verb_class": "suru",
       "transitivity": "transitive"
