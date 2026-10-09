@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-09 (Routine v3: candidates — 25 internal-closure candidates, C24234–C24258)
+
+A scan of example sentences for furigana-marked words with no entry and no link found 25 real words the dictionary already uses but has not defined, each with its source entry: 懐石料理, 過去最高, 点差, 山間部, 互換, 薄手, 大軍, 華族, 商家, 来航, 汁粉, 遍路, 私腹を肥やす, 白物家電, 知的財産権, 最大公約数, 日経平均, 不要不急, 首脳会談, 日本列島, and the proper nouns 第二次世界大戦, 国会議事堂, 屋久島, 日本国憲法, 本能寺の変. Variant spellings of existing entries (怪我, 入口, 人混み, 綺麗, 名字, …), free compounds (〜後, 〜中, 技術力, 生産量) and seven existing idioms were dropped. The noentry-marker source is empty. Queue: 80 → 105.
+
 ### 2026-10-09 (Routine v3: new-entries — 10 New Entries, IDs 31775–31784)
 
 Ten internal-closure candidates that existing entries already use: 聞き入る (used in 22792, 25882, 27922, though not in its listed source 04586), そびえ立つ (ASPECT note), 寝込む (two senses: laid up in bed; fall fast asleep), 積み重ね (two senses), 過ぎ去る, 窯元, 冬場 (with 冬季), 歩数 (counter 歩), 心拍数 (with 脈拍), 金箔 (new kanji 箔 added to the kanji index; WATCH OUT 緊迫). Conjugation tables added for the four verbs. Source entries relinked (10 new inline links). No stale markers or newcomer link ambiguities. Self-check: no issues on the 28 new and touched entries; one on a relinked entry (22792 耳を聞き澄ます, ungrammatical, example replaced). One kana link checked and kept.
@@ -65,8 +69,3 @@ Sixteen internal-closure candidates that existing entries already use: 弄する
 ### 2026-10-08 (Routine v3: new-entries — 10 New Entries, IDs 31738–31747)
 
 Ten internal-closure candidates that existing entries already use, all nouns: 浪士 and 志士 (historical; 浪士 contrasted with 浪人), 栄華, 実権, 船舶, 要人, 後世 (notes separate the Buddhist ごせ), 急用 (contrasted with 用事), 当店 and 支社 (contrasted with 支店 and 営業所). A small unit, to fit the end of the run. The ten source entries were relinked (15 new inline links), and the harvester added reciprocal contrasts to 浪人, 用事, 当社, 支店 and 営業所. No new kanji. Self-check: no issues (25 entries, 32 kana links).
-
-### 2026-10-08 (Routine v3: candidates — 48 Internal-Closure Candidates, C24177–C24224)
-
-The SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is still empty). About 75 proposed; dropped as variant spellings of existing entries (下さる, 頂く, 痒い, 成す, 下りる, 浸ける, 引っ越し, 売り上げ …) and as tokenizer misreadings (吊る from 吊り下げる, 法師 from 一寸法師, which has an entry). 48 added, each with the entry it was seen in (捕らえる, 執る, 急ぎ, 一手, 家中, 無病息災, 日常生活, 学生時代, 宮内庁, 松の内, 腫れ …). Queue 70 → 118.
-
