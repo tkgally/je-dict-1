@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-09 (Routine v3: new-entries — 10 New Entries, IDs 31775–31784)
+
+Ten internal-closure candidates that existing entries already use: 聞き入る (used in 22792, 25882, 27922, though not in its listed source 04586), そびえ立つ (ASPECT note), 寝込む (two senses: laid up in bed; fall fast asleep), 積み重ね (two senses), 過ぎ去る, 窯元, 冬場 (with 冬季), 歩数 (counter 歩), 心拍数 (with 脈拍), 金箔 (new kanji 箔 added to the kanji index; WATCH OUT 緊迫). Conjugation tables added for the four verbs. Source entries relinked (10 new inline links). No stale markers or newcomer link ambiguities. Self-check: no issues on the 28 new and touched entries; one on a relinked entry (22792 耳を聞き澄ます, ungrammatical, example replaced). One kana link checked and kept.
+
 ### 2026-10-08 (Routine v3: new-entries — 11 New Entries, IDs 31764–31774)
 
 Eleven internal-closure candidates that existing entries already use: 一手 (two senses: a move in shogi or go; 一手に "single-handedly"), 神前 (contrasted with 仏前), 岩壁 (WATCH OUT 岸壁), 家中 (two senses; かちゅう noted), 米作り (with 稲作), 常任理事国, 川幅 (related 道幅, 肩幅), 日常生活, 保守派 (〜派 words), にじみ出る (two senses; ichidan, table added), 無病息災 (四字熟語). 聞き入る was skipped: its source, 04586, uses 聞き入れる, so the candidate came from a tokenizer misreading. The source entries were relinked (10 new links to the new entries). No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent.
@@ -66,6 +70,3 @@ Ten internal-closure candidates that existing entries already use, all nouns: �
 
 The SudachiPy scan of the examples' unlinked text for kanji words with no entry (the stale-noentry source is still empty). About 75 proposed; dropped as variant spellings of existing entries (下さる, 頂く, 痒い, 成す, 下りる, 浸ける, 引っ越し, 売り上げ …) and as tokenizer misreadings (吊る from 吊り下げる, 法師 from 一寸法師, which has an entry). 48 added, each with the entry it was seen in (捕らえる, 執る, 急ぎ, 一手, 家中, 無病息災, 日常生活, 学生時代, 宮内庁, 松の内, 腫れ …). Queue 70 → 118.
 
-### 2026-10-08 (Routine v3: new-entries — 20 New Entries, IDs 31718–31737)
-
-Twenty internal-closure candidates that existing entries already use: 賠償金, 振りまく (two senses), 計り知れない (i-adjective), 合否, 無作為, 釣り糸, 立ち込める, 絡み合う (two senses), 育て上げる, 切り立つ, 木目, 街中, 駄菓子屋, 奪い返す, 問題視 (noun + する), 危機感, 吹きこぼれる, 健康的, 断り (two senses), 科する (contrasted with 課する, now a candidate). Conjugation tables added for the nine verbs and the adjective. The source entries were relinked (23 new inline links). The cross-reference harvester wrongly tied 科する to 課 (lesson); reverted. Self-check clean on the new entries.
