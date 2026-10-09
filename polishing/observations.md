@@ -1618,3 +1618,4 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 2026-10-09 15295: audio checks heard まっとう for 真っ当 in 15295_mattou_ex1–ex3 (furigana {真|まっ}っ doubles the っ; should be {真|ま}っ{当|とう}, 5 occurrences); check the furigana. (routine_2026-10-09_008)
 - [entry] 2026-10-09 15551: audio checks heard だされた for 出された in 15551_teichi_ex3 (furigana {出|で}された; passive of 出す is {出|だ}された); check the furigana. (routine_2026-10-09_008)
 - [entry] 2026-10-09 15271: audio checks heard のうさくもつ for 農作物 in 15271_nousakubutsu_ex3; のうさくもつ is the more common reading, and the entry may want to mention both. (routine_2026-10-09_008)
+- [entry] 2026-10-09 15641: audio checks heard しょうじた for 生じた in 15641_fuseikaku_ex3 (furigana {生|う}じた; 生じる is しょうじる); check the furigana. (routine_2026-10-09_011)
