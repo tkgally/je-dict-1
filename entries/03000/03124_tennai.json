@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{店|てん}→店：10011_ten⟧ (store) + ⟦{内|ない}→〜内：09853_nai⟧ (inside)\n\nCOMMON EXPRESSIONS:\n- {店内|てんない}⟦で→で：00502_de⟧ (inside the store)\n- {店内|てんない}⟦で→で：00502_de⟧⟦の→の：09472_no⟧〜 (~ inside the store)\n- {店内|てんない}⟦で→で：00502_de⟧⟦お{召|め}し{上|あ}がり→お召し上がり：26515_omeshiagari⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧ (Will you eat here? - polite)\n\nSIMILAR LOCATION COMPOUNDS:\n- ⟦{室内|しつない}→室内：03061_shitsunai⟧ (indoors, inside a room)\n- ⟦{車内|しゃない}→車内：06203_shanai⟧ (inside a vehicle)\n- ⟦{社内|しゃない}→社内：13731_shanai⟧ (inside a company)\n- ⟦{校内|こうない}→校内：26870_kounai⟧ (inside a school)\n\nWhen ordering at cafes or restaurants, you may be asked 「{店内|てんない}⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧、⟦お{持|も}ち{帰|かえ}り→お持ち帰り：08161_mochikaeri⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧」 (For here or to go?).",
+  "notes": "COMPOUND: ⟦{店|てん}→店：10011_ten⟧ (store) + ⟦{内|ない}→〜内：09853_nai⟧ (inside)\n\nCOMMON EXPRESSIONS:\n- {店内|てんない}⟦で→で：00502_de⟧ (inside the store)\n- {店内|てんない}⟦で→で：00502_de⟧⟦の→の：09472_no⟧〜 (~ inside the store)\n- {店内|てんない}⟦で→で：00502_de⟧⟦お{召|め}し{上|あ}がり→お召し上がり：26515_omeshiagari⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧ (Will you eat here? - polite)\n\nRELATED WORDS (inside places):\n- ⟦{室内|しつない}→室内：03061_shitsunai⟧ (indoors, inside a room)\n- ⟦{車内|しゃない}→車内：06203_shanai⟧ (inside a vehicle)\n- ⟦{社内|しゃない}→社内：13731_shanai⟧ (inside a company)\n- ⟦{校内|こうない}→校内：26870_kounai⟧ (inside a school)\n\nWhen ordering at cafes or restaurants, you may be asked 「{店内|てんない}⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧、⟦お{持|も}ち{帰|かえ}り→お持ち帰り：08161_mochikaeri⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧」 (For here or to go?).",
   "cross_references": [
     {
       "type": "related",
@@ -84,11 +84,32 @@
       "reading": "きない",
       "headword": "{機内|きない}",
       "label": "inside an aircraft"
+    },
+    {
+      "type": "related",
+      "target_id": "06203_shanai",
+      "reading": "しゃない",
+      "headword": "{車内|しゃない}",
+      "label": "inside a vehicle"
+    },
+    {
+      "type": "related",
+      "target_id": "13731_shanai",
+      "reading": "しゃない",
+      "headword": "{社内|しゃない}",
+      "label": "inside a company"
+    },
+    {
+      "type": "related",
+      "target_id": "26870_kounai",
+      "reading": "こうない",
+      "headword": "{校内|こうない}",
+      "label": "inside a school"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:39:58Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-10-09T19:58:37Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

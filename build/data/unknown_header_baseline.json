@@ -1,150 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-09T19:23:56Z",
+  "generated": "2026-10-09T20:00:16Z",
   "headers": {
-    "02963_botan": [
-      "CLOTHING BUTTONS (Sense 1)",
-      "COMPUTER/INTERFACE",
-      "PUSH BUTTONS (Sense 2)"
-    ],
-    "02964_poketto": [
-      "TYPES OF POCKETS"
-    ],
-    "02965_posuto": [
-      "SENSE 1 - MAILBOX",
-      "SENSE 2 - POSITION/POST"
-    ],
-    "02978_yaoya": [
-      "TRADITIONAL SPECIALTY SHOPS"
-    ],
-    "02980_yaru": [
-      "GIVING HIERARCHY"
-    ],
-    "02981_yuuhan": [
-      "DINNER WORDS (by formality)",
-      "MEAL WORDS IN JAPANESE"
-    ],
-    "02984_yoko": [
-      "SENSE 1 - BESIDE/SIDE",
-      "SENSE 2 - HORIZONTAL/WIDTH"
-    ],
-    "02987_watakushi": [
-      "SENSE 2 - PRIVATE"
-    ],
-    "02988_watashi": [
-      "FIRST-PERSON PRONOUN HIERARCHY"
-    ],
-    "02995_keredomo": [
-      "SENTENCE-FINAL USAGE"
-    ],
-    "02997_koutougakkou": [
-      "JAPAN SCHOOL SYSTEM"
-    ],
-    "03001_nikaidate": [
-      "STORY PATTERN ([number]{階建|かいだ}て)"
-    ],
-    "03008_itamu": [
-      "DISTINCTION FROM {痛|いた}い"
-    ],
-    "03009_ichiryuu": [
-      "RANK SERIES"
-    ],
-    "03026_kinisuru": [
-      "COMMON PHRASE",
-      "CONTRAST WITH {気|き}になる"
-    ],
-    "03027_kininaru": [
-      "CONTRAST WITH {気|き}にする"
-    ],
-    "03039_yottsu": [
-      "NATIVE COUNTING SERIES"
-    ],
-    "03041_iyagaru": [
-      "GRAMMAR POINT"
-    ],
-    "03053_ketsuekigata": [
-      "BLOOD TYPES"
-    ],
-    "03054_kenkyuusho": [
-      "NOTE ON ～{所|しょ} COMPOUNDS"
-    ],
-    "03056_koutsuuhi": [
-      "RELATED ～{費|ひ} COMPOUNDS"
-    ],
-    "03058_saijou": [
-      "{最|さい}～ SERIES"
-    ],
-    "03067_shiyakusho": [
-      "RELATED GOVERNMENT OFFICES"
-    ],
-    "03070_shousetsuka": [
-      "RELATED ～{家|か} PROFESSIONS"
-    ],
-    "03078_jidouhanbaiki": [
-      "WHAT VENDING MACHINES SELL IN JAPAN"
-    ],
-    "03079_jimushitsu": [
-      "RELATED ～{室|しつ} COMPOUNDS"
-    ],
-    "03081_jouhin": [
-      "SIMILAR/OPPOSITE WORDS"
-    ],
-    "03086_seifuku": [
-      "TYPES OF UNIFORMS"
-    ],
-    "03094_toki": [
-      "TENSE NUANCE"
-    ],
-    "03096_ya": [
-      "COMMON SHOP NAMES"
-    ],
-    "03097_o": [
-      "COMMON お〜 WORDS",
-      "HONORIFIC VERB PATTERNS"
-    ],
-    "03098_soudesu": [
-      "NEGATIVE FORMS",
-      "TWO DIFFERENT PATTERNS"
-    ],
-    "03099_teepurekoodaa": [
-      "WHY LEARNERS ENCOUNTER IT"
-    ],
-    "03102_teshimau": [
-      "CONTRACTED FORMS (casual speech)"
-    ],
-    "03104_niyoruto": [
-      "OFTEN PAIRED WITH"
-    ],
-    "03106_paato": [
-      "USAGE DISTINCTION"
-    ],
-    "03107_ripooto": [
-      "リポート VS レポート"
-    ],
-    "03110_sofubo": [
-      "FAMILY TERMS"
-    ],
-    "03111_taiikukan": [
-      "SCHOOL FACILITIES"
-    ],
-    "03123_teishoku": [
-      "TYPICAL {定食|ていしょく} COMPONENTS"
-    ],
-    "03124_tennai": [
-      "SIMILAR LOCATION COMPOUNDS"
-    ],
-    "03135_hanataba": [
-      "COMMON OCCASIONS FOR {花束|はなたば}"
-    ],
-    "03136_hanaya": [
-      "COMMON SHOP SUFFIX {屋|や}"
-    ],
-    "03148_heihoumeetoru": [
-      "JAPANESE AREA MEASUREMENTS"
-    ],
-    "03150_bengoshi": [
-      "RELATED LEGAL PROFESSIONS"
-    ],
     "03155_mama": [
       "FAMILY TERMS FOR MOTHER"
     ],
@@ -613,9 +470,6 @@
     "04037_seibi": [
       "1. MAINTENANCE (vehicles, equipment)",
       "2. INFRASTRUCTURE DEVELOPMENT"
-    ],
-    "04039_sensu": [
-      "VERBS USED WITH {扇子|せんす}"
     ],
     "04042_zengo": [
       "1. SPATIAL (front/back)",
@@ -5009,9 +4863,6 @@
     "10420_meishi": [
       "JAPANESE PARTS OF SPEECH ({品詞|ひんし})"
     ],
-    "10484_tsukemen": [
-      "COMMON VOCABULARY"
-    ],
     "10529_noni": [
       "CONNECTION PATTERNS",
       "CONTRAST WITH けど/けれども"
@@ -6901,9 +6752,6 @@
     ],
     "21944_kenun": [
       "OTHER CLOUD TYPES"
-    ],
-    "21951_saihakkousuru": [
-      "THINGS COMMONLY REISSUED"
     ],
     "21952_shumizanmai": [
       "OTHER ～{三昧|ざんまい} COMPOUNDS"
