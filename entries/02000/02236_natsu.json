@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{夏|なつ} is summer, the hottest season in Japan (June-August).\n\nJAPANESE SEASONS:\n- ⟦{春|はる}→春：00627_haru⟧: spring\n- {夏|なつ}: summer\n- ⟦{秋|あき}→秋：02276_aki⟧: autumn/fall\n- ⟦{冬|ふゆ}→冬：00623_fuyu⟧: winter\n\nCOMPOUNDS:\n- ⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧: summer vacation\n- ⟦{真夏|まなつ}→真夏：27793_manatsu⟧: midsummer\n- ⟦{夏祭|なつまつ}り→夏祭り：09871_natsumatsuri⟧: summer festival\n- ⟦{夏服|なつふく}→夏服：23421_natsufuku⟧: summer clothes\n- ⟦{夏|なつ}バテ→夏バテ：15545_natsubate⟧: summer fatigue\n\nCULTURAL NOTE:\n- お⟦{盆|ぼん}→盆：03897_bon⟧: Obon festival (mid-August)\n- ⟦{花火|はなび}→花火：00087_hanabi⟧⟦{大会|たいかい}→大会：03386_taikai⟧: fireworks festivals\n- ⟦{甲子園|こうしえん}→甲子園：23102_koushien⟧: high school baseball championship\n\nSEASONAL GREETING:\n⟦{暑中|しょちゅう}→暑中：31260_shochuu⟧お⟦{見舞|みま}い→見舞い：03745_mimai⟧⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧: summer greeting card phrase",
+  "notes": "{夏|なつ} is summer, the hottest season in Japan (June-August).\n\nRELATED WORDS:\n- ⟦{春|はる}→春：00627_haru⟧: spring\n- {夏|なつ}: summer\n- ⟦{秋|あき}→秋：02276_aki⟧: autumn/fall\n- ⟦{冬|ふゆ}→冬：00623_fuyu⟧: winter\n\nCOMPOUNDS:\n- ⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧: summer vacation\n- ⟦{真夏|まなつ}→真夏：27793_manatsu⟧: midsummer\n- ⟦{夏祭|なつまつ}り→夏祭り：09871_natsumatsuri⟧: summer festival\n- ⟦{夏服|なつふく}→夏服：23421_natsufuku⟧: summer clothes\n- ⟦{夏|なつ}バテ→夏バテ：15545_natsubate⟧: summer fatigue\n\nCULTURAL NOTE:\n- お⟦{盆|ぼん}→盆：03897_bon⟧: Obon festival (mid-August)\n- ⟦{花火|はなび}→花火：00087_hanabi⟧⟦{大会|たいかい}→大会：03386_taikai⟧: fireworks festivals\n- ⟦{甲子園|こうしえん}→甲子園：23102_koushien⟧: high school baseball championship\n\nCULTURAL NOTE (seasonal greeting):\n⟦{暑中|しょちゅう}→暑中：31260_shochuu⟧お⟦{見舞|みま}い→見舞い：03745_mimai⟧⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧: summer greeting card phrase",
   "cross_references": [
     {
       "type": "antonym",
@@ -78,11 +78,25 @@
       "reading": "ふうぶつし",
       "headword": "{風物詩|ふうぶつし}",
       "label": "seasonal feature"
+    },
+    {
+      "type": "related",
+      "target_id": "00627_haru",
+      "reading": "はる",
+      "headword": "{春|はる}",
+      "label": "spring"
+    },
+    {
+      "type": "related",
+      "target_id": "02276_aki",
+      "reading": "あき",
+      "headword": "{秋|あき}",
+      "label": "autumn/fall"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:40:52Z",
-    "modified": "2026-09-29T17:11:52Z",
+    "modified": "2026-10-09T13:44:55Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
