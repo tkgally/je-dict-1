@@ -8,7 +8,7 @@
     {
       "sense_number": 1,
       "gloss": "pair, couple, set",
-      "explanation": "Two things that form a matching set or are meant to go together."
+      "explanation": "Two things that form a matching set. In this sense the character is usually read つい, as in {一対|いっつい} (a pair); see {対|つい}."
     },
     {
       "sense_number": 2,
@@ -136,11 +136,18 @@
       "headword": "{対策|たいさく}",
       "label": "compound",
       "target_id": "02511_taisaku"
+    },
+    {
+      "type": "contrast",
+      "reading": "つい",
+      "headword": "{対|つい}",
+      "label": "pair (read つい)",
+      "target_id": "00411_tsui"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:02:00Z",
-    "modified": "2026-09-21T16:27:03Z",
+    "modified": "2026-10-09T00:19:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -150,7 +157,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "sports",
+        "abstract"
       ]
     }
   },
