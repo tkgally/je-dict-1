@@ -1,209 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-09T18:38:00Z",
+  "generated": "2026-10-09T19:23:56Z",
   "headers": {
-    "02824_sakkyoku": [
-      "MUSIC PRODUCTION VOCABULARY"
-    ],
-    "02826_sayuu": [
-      "SPATIAL MEANING"
-    ],
-    "02829_sansei": [
-      "IN VOTING"
-    ],
-    "02830_sanso": [
-      "RELATED ELEMENTS"
-    ],
-    "02832_zaseki": [
-      "AIRPLANE/TRAIN SEATS"
-    ],
-    "02833_zatto": [
-      "1. APPROXIMATION",
-      "2. QUICK/CURSORY ACTION"
-    ],
-    "02836_shikaku": [
-      "PRECISE GEOMETRIC TERMS"
-    ],
-    "02841_ao": [
-      "COLOR RANGE"
-    ],
-    "02843_asagohan": [
-      "THREE MEALS",
-      "TRADITIONAL JAPANESE BREAKFAST"
-    ],
-    "02847_isha": [
-      "SPECIALISTS"
-    ],
-    "02850_oozei": [
-      "ALTERNATIVES FOR 'MANY'",
-      "IMPORTANT RESTRICTION"
-    ],
-    "02853_okusan": [
-      "WIFE TERMS IN JAPANESE"
-    ],
-    "02854_osu": [
-      "DOOR SIGNS"
-    ],
-    "02858_oniisan": [
-      "ADDRESSING STRANGERS",
-      "FAMILY TERM VARIANTS"
-    ],
-    "02859_oneesan": [
-      "CONTRAST WITH YOUNGER SISTER",
-      "FAMILY TERM SYSTEM",
-      "SENSE 1 - OLDER SISTER",
-      "SENSE 2 - YOUNG WOMAN"
-    ],
-    "02862_otokonoko": [
-      "CHILDREN VOCABULARY"
-    ],
-    "02863_obaasan": [
-      "GRANDMOTHER TERMS BY FORMALITY",
-      "PATERNAL VS MATERNAL"
-    ],
-    "02866_katakana": [
-      "JAPANESE SCRIPTS"
-    ],
-    "02867_kabin": [
-      "TYPES/MATERIALS"
-    ],
-    "02869_gaikokujin": [
-      "WORD COMPARISON"
-    ],
-    "02870_kiiro": [
-      "MULTIPLE FORMS"
-    ],
-    "02874_gyuuniku": [
-      "FAMOUS JAPANESE BEEF",
-      "OTHER MEAT TYPES",
-      "POPULAR BEEF DISHES"
-    ],
-    "02875_kumori": [
-      "WEATHER FORECAST EXPRESSIONS",
-      "WEATHER TERMS"
-    ],
-    "02876_keikan": [
-      "REGISTER DIFFERENCES"
-    ],
-    "02878_koucha": [
-      "TEA TYPES IN JAPANESE"
-    ],
-    "02882_konban": [
-      "CONTRAST WITH {今夜|こんや}"
-    ],
-    "02883_saki": [
-      "PHYSICAL (tip)",
-      "SPATIAL (ahead)",
-      "TEMPORAL (future / earlier)"
-    ],
-    "02887_jibun": [
-      "FLEXIBLE REFERENCE"
-    ],
-    "02889_souji": [
-      "TYPES OF CLEANING"
-    ],
-    "02895_ototoshi": [
-      "YEAR SEQUENCE"
-    ],
-    "02897_karendaa": [
-      "TYPES OF CALENDARS"
-    ],
-    "02898_karee": [
-      "SPICE LEVELS"
-    ],
-    "02901_kokonoka": [
-      "DAYS OF THE MONTH (native readings, 1st-10th)",
-      "DURATION VS DATE"
-    ],
-    "02902_kokonotsu": [
-      "COMPARISON WITH SINO-JAPANESE",
-      "NATIVE COUNTING SYSTEM ({和語|わご})"
-    ],
-    "02907_se": [
-      "BACK EXPRESSIONS",
-      "HEIGHT EXPRESSIONS"
-    ],
-    "02912_dareka": [
-      "INDEFINITE PRONOUN PATTERN",
-      "NEGATIVE FORMS (with も + negative verb)"
-    ],
-    "02913_chiisana": [
-      "COMPARISON WITH {小|ちい}さい"
-    ],
-    "02914_chizu": [
-      "TYPES OF MAPS"
-    ],
-    "02915_chairo": [
-      "BASIC JAPANESE COLORS",
-      "SHADES OF BROWN"
-    ],
-    "02916_choudo": [
-      "SENSE 1 - EXACTNESS",
-      "SENSE 2 - TIMING"
-    ],
-    "02917_tooka": [
-      "DURATION USAGE"
-    ],
-    "02918_toki": [
-      "TENSE IN とき CLAUSES"
-    ],
-    "02919_toriniku": [
-      "COMMON CUTS AND DISHES",
-      "OTHER MEAT WORDS"
-    ],
-    "02921_doumo": [
-      "AS EMPHASIZER",
-      "AS GREETING/THANKS (casual)",
-      "AS UNCERTAINTY MARKER",
-      "WITH A NEGATIVE PREDICATE"
-    ],
-    "02925_natsuyasumi": [
-      "SEASONAL VACATIONS"
-    ],
-    "02926_nanatsu": [
-      "CONTRAST WITH SINO-JAPANESE",
-      "NOTE ON {七|なな}",
-      "THE NATIVE COUNTING SYSTEM (1-10)"
-    ],
-    "02928_nurui": [
-      "TEMPERATURE SCALE"
-    ],
-    "02934_hatsuka": [
-      "AFTER THE 10TH",
-      "SPECIAL DAY READINGS (1st-10th)"
-    ],
-    "02937_hankachi": [
-      "IN JAPANESE DAILY LIFE"
-    ],
-    "02938_hanbun": [
-      "RELATED COMPOUNDS WITH {半|はん}"
-    ],
-    "02940_bangohan": [
-      "ALTERNATIVE WORDS FOR DINNER",
-      "MEAL SERIES (～ご{飯|はん})"
-    ],
-    "02951_firumu": [
-      "PHOTOGRAPHY EXPRESSIONS"
-    ],
-    "02952_fuutou": [
-      "RELATED POSTAL ITEMS",
-      "TYPES OF ENVELOPES"
-    ],
-    "02956_butaniku": [
-      "OTHER TYPES OF MEAT",
-      "POPULAR PORK DISHES",
-      "PORK CUTS"
-    ],
-    "02957_bunshou": [
-      "HIERARCHY OF TEXT"
-    ],
-    "02959_petto": [
-      "COMMON PETS IN JAPAN",
-      "HOUSING/RULES"
-    ],
-    "02960_pen": [
-      "TYPES OF PENS"
-    ],
     "02963_botan": [
       "CLOTHING BUTTONS (Sense 1)",
       "COMPUTER/INTERFACE",
@@ -1460,9 +1258,6 @@
     "05032_meneki": [
       "IMMUNE SYSTEM TERMS"
     ],
-    "05034_chouryoku": [
-      "HEARING LOSS"
-    ],
     "05036_shicchi": [
       "ENVIRONMENTAL IMPORTANCE"
     ],
@@ -2557,10 +2352,6 @@
     ],
     "06293_abuhachitorazu": [
       "SIMILAR JAPANESE EXPRESSIONS"
-    ],
-    "06294_montsuki": [
-      "FULL FORMAL OUTFIT",
-      "TRADITIONAL JAPANESE FORMAL WEAR"
     ],
     "06295_bangasa": [
       "TYPES OF JAPANESE UMBRELLAS"
@@ -4147,11 +3938,6 @@
     "07872_katayoru": [
       "NOUN FORM {偏|かたよ}り"
     ],
-    "07873_makanau": [
-      "RELATED NOUN まかない",
-      "SENSE 1 - FOOD",
-      "SENSE 2 - FINANCES"
-    ],
     "07874_houmuru": [
       "LITERAL VS FIGURATIVE"
     ],
@@ -5222,9 +5008,6 @@
     ],
     "10420_meishi": [
       "JAPANESE PARTS OF SPEECH ({品詞|ひんし})"
-    ],
-    "10480_shinnari": [
-      "OFTEN USED WITH"
     ],
     "10484_tsukemen": [
       "COMMON VOCABULARY"
