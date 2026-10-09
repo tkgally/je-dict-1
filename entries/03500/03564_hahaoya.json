@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {母親|ははおや} is a neutral/objective term for 'mother.' It's used when discussing mothers in general or referring to someone else's mother in a neutral way.\n\nFAMILY TERM COMPARISON:\n- ⟦{母|はは}→母：00549_haha⟧ - my mother (humble, when speaking to others)\n- {母親|ははおや} - mother (neutral, objective)\n- ⟦お{母|かあ}さん→お母さん：02851_okaasan⟧ - mother, mom (familiar, can be used for others' mothers too)\n- ⟦ママ→ママ：03155_mama⟧ - mommy (casual)\n\nCOMMON PATTERNS:\n- {母親|ははおや}⟦として→として：06802_toshite⟧ (as a mother)\n- {母親|ははおや}⟦の→の：09472_no⟧⟦{愛|あい}→愛：02370_ai⟧ (mother's love)\n- ⟦{片|かた}{親|おや}→片親：27516_kataoya⟧ (single parent)\n- ⟦{実|じつ}→実：28344_jitsu⟧⟦の→の：09472_no⟧{母親|ははおや} (biological mother)\n\nSIMILAR WORDS:\n- ⟦{父親|ちちおや}→父親：03469_chichioya⟧ (father)",
+  "notes": "USAGE: {母親|ははおや} is a neutral, objective term for 'mother.' It is used when talking about mothers in general or about someone else's mother in a matter-of-fact way; it is not used to address one's own mother.\n\nSIMILAR WORDS:\n- ⟦{母|はは}→母：00549_haha⟧ - my mother (used when speaking of one's own mother to others)\n- ⟦お{母|かあ}さん→お母さん：02851_okaasan⟧ - mother, mom (used to address one's own mother and to refer politely to someone else's)\n- ⟦ママ→ママ：03155_mama⟧ - mommy (casual, children's speech)\n- ⟦おふくろ→おふくろ：10246_ofukuro⟧ - my mom (casual, mostly used by men)\n\nCOMMON PATTERNS:\n- {母親|ははおや}⟦として→として：06802_toshite⟧ (as a mother)\n- {母親|ははおや}⟦の→の：09472_no⟧⟦{愛|あい}→愛：02370_ai⟧ (a mother's love)\n- ⟦{実|じつ}→実：28344_jitsu⟧⟦の→の：09472_no⟧{母親|ははおや} (biological mother)\n\nRELATED WORDS:\n- ⟦{父親|ちちおや}→父親：03469_chichioya⟧ (father)\n- ⟦{片親|かたおや}→片親：27516_kataoya⟧ (single parent)",
   "cross_references": [
     {
       "type": "antonym",
@@ -99,11 +99,32 @@
       "reading": "ぼせい",
       "headword": "{母性|ぼせい}",
       "label": "motherhood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02851_okaasan",
+      "reading": "おかあさん",
+      "headword": "お{母|かあ}さん",
+      "label": "mother, mom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03155_mama",
+      "reading": "まま",
+      "headword": "ママ",
+      "label": "mommy"
+    },
+    {
+      "type": "related",
+      "target_id": "27516_kataoya",
+      "reading": "かたおや",
+      "headword": "{片親|かたおや}",
+      "label": "single parent"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:38:00Z",
-    "modified": "2026-09-29T21:54:12Z",
+    "modified": "2026-10-09T12:28:21Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
