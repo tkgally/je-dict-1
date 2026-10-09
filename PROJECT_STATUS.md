@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-09 (Routine v3: new-entries — 10 New Entries, IDs 31805–31814)
+
+Ten internal-closure candidates that existing entries already use: 学生時代, 生後 (WATCH OUT 生前 is not "before birth"), 基準値, 主成分, 短期的, 開校 (WATCH OUT 開講), おかか (女房詞 for 鰹節), 〜番線 (vs ホーム), ハクション, 一言一句 (reading いちごん). A short last cycle of the run; self-check skipped (daily OpenRouter cap spent).
+
 ### 2026-10-09 (Routine v3: new-entries — 20 New Entries, IDs 31785–31804)
 
 Twenty internal-closure candidates that existing entries already use: 漁 (りょう; reading note for 漁業/漁師), 必要事項, 聴取 (two senses: official questioning; radio listening), 清潔感, 執る (WRITING vs 取る), 戦地 (vs 戦場), 外務大臣 (外相), 打球, 販路, 風合い (vs 手触り, 質感), 振り下ろす, 政治犯, 大はしゃぎ, 学び直す (学び直し), 後進 (WATCH OUT 後進国 dated), 松の内 (Jan 7 / Jan 15, 寒中見舞い), 本尊 (humorous ご本尊), 宮内庁 (proper noun; 御用達), 繰り越す, 腫れ. Self-check skipped (daily OpenRouter cap spent); one wrong link (指導にあたって → the grammar entry) unlinked by decision.
@@ -65,8 +69,3 @@ Ten internal-closure candidates that existing entries already use: 聞き入る 
 ### 2026-10-08 (Routine v3: new-entries — 11 New Entries, IDs 31764–31774)
 
 Eleven internal-closure candidates that existing entries already use: 一手 (two senses: a move in shogi or go; 一手に "single-handedly"), 神前 (contrasted with 仏前), 岩壁 (WATCH OUT 岸壁), 家中 (two senses; かちゅう noted), 米作り (with 稲作), 常任理事国, 川幅 (related 道幅, 肩幅), 日常生活, 保守派 (〜派 words), にじみ出る (two senses; ichidan, table added), 無病息災 (四字熟語). 聞き入る was skipped: its source, 04586, uses 聞き入れる, so the candidate came from a tokenizer misreading. The source entries were relinked (10 new links to the new entries). No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent.
-
-### 2026-10-08 (Routine v3: new-entries — 16 New Entries, IDs 31748–31763)
-
-Sixteen internal-closure candidates that existing entries already use: 弄する and 課する (する verbs; 課する contrasted with 科する), 転ずる (ずる verb, cross-referenced with 転じる), 射る and 捕らえる (ichidan; 捕らえる contrasted with 捉える and 捕まえる), 帰還 and 被爆 (noun + する; 被爆 contrasted with 被曝), 生理 (two senses), 称号, 陽性, 一節, 文系, 鮎 (new kanji, added to the kanji index), 赤み, 急ぎ, 宗教的 (na-adjective). Conjugation tables added for the six verbs. The source entries were relinked (21 new inline links); one, 転じた in 29845, was retargeted from the new 転ずる to 転じる. The newcomer check listed 6,209 kana いる links now sharing a reading with 射る; none means 射る, so none moved. Self-check skipped: the day's OpenRouter cap was spent.
-
