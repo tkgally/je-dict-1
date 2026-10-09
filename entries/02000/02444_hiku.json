@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{弾|ひ}く is used for playing stringed and keyboard instruments where keys or strings are pressed/plucked.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{弾|ひ}く\n\nCOMMON COLLOCATIONS:\n- ⟦ピアノ→ピアノ：01376_piano⟧: piano\n- ⟦ギター→ギター：04461_gitaa⟧: guitar\n- ⟦バイオリン→バイオリン：00009_baiorin⟧: violin\n- ⟦{三味線|しゃみせん}→三味線：04464_shamisen⟧: shamisen\n\nINSTRUMENT VERB DISTINCTIONS:\n- {弾|ひ}く: stringed/keyboard (piano, guitar)\n- ⟦{吹|ふ}く→吹く：02445_fuku⟧: wind instruments (flute, trumpet)\n- ⟦{叩|たた}く→叩く：02072_tataku⟧/⟦{打|う}つ→打つ：01221_utsu⟧: percussion (drums)\n- ⟦{演奏|えんそう}する→演奏する：20349_ensousuru⟧: to perform (any instrument, formal)\n\nUSAGE:\nDo not confuse with other verbs read as ひく:\n- ⟦{引|ひ}く→引く：01978_hiku⟧: to pull\n- ⟦{惹|ひ}く→惹く：27838_hiku⟧: to attract",
+  "notes": "{弾|ひ}く is used for playing stringed and keyboard instruments where keys or strings are pressed/plucked.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{弾|ひ}く\n\nCOMMON COLLOCATIONS:\n- ⟦ピアノ→ピアノ：01376_piano⟧: piano\n- ⟦ギター→ギター：04461_gitaa⟧: guitar\n- ⟦バイオリン→バイオリン：00009_baiorin⟧: violin\n- ⟦{三味線|しゃみせん}→三味線：04464_shamisen⟧: shamisen\n\nSIMILAR WORDS (instrument verbs):\n- {弾|ひ}く: stringed/keyboard (piano, guitar)\n- ⟦{吹|ふ}く→吹く：02445_fuku⟧: wind instruments (flute, trumpet)\n- ⟦{叩|たた}く→叩く：02072_tataku⟧/⟦{打|う}つ→打つ：01221_utsu⟧: percussion (drums)\n- ⟦{演奏|えんそう}する→演奏する：20349_ensousuru⟧: to perform (any instrument, formal)\n\nUSAGE:\nDo not confuse with other verbs read as ひく:\n- ⟦{引|ひ}く→引く：01978_hiku⟧: to pull\n- ⟦{惹|ひ}く→惹く：27838_hiku⟧: to attract",
   "cross_references": [
     {
       "type": "homophone",
@@ -162,11 +162,32 @@
       "reading": "ひきがたり",
       "headword": "{弾|ひ}き{語|がた}り",
       "label": "playing and singing at the same time (esp. solo)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02445_fuku",
+      "reading": "ふく",
+      "headword": "{吹|ふ}く",
+      "label": "wind instruments"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02072_tataku",
+      "reading": "たたく",
+      "headword": "{叩|たた}く",
+      "label": "percussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01221_utsu",
+      "reading": "うつ",
+      "headword": "{打|う}つ",
+      "label": "percussion"
     }
   ],
   "metadata": {
     "created": "2026-01-09T09:00:25Z",
-    "modified": "2026-10-05T19:12:34Z",
+    "modified": "2026-10-09T14:20:11Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
