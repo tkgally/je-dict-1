@@ -1,57 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-09T07:19:40Z",
+  "generated": "2026-10-09T08:12:48Z",
   "headers": {
-    "01832_shuppatsusuru": [
-      "TRAVEL EXPRESSIONS"
-    ],
-    "01851_nyuugakusuru": [
-      "SCHOOL PROGRESSION"
-    ],
-    "01858_atatameru": [
-      "KANJI VARIATION"
-    ],
-    "01869_ume": [
-      "RANKING SYSTEM ({松竹梅|しょうちくばい})"
-    ],
-    "01897_umaru": [
-      "PHYSICAL BURIAL"
-    ],
-    "01898_o": [
-      "IDIOMS AND PATTERNS"
-    ],
-    "01902_ousama": [
-      "RELATED ROYALTY"
-    ],
-    "01904_ouji": [
-      "RELATED ROYAL TERMS"
-    ],
-    "01905_uranau": [
-      "TYPES OF FORTUNE-TELLING"
-    ],
-    "01922_fuka": [
-      "ACADEMIC GRADING",
-      "SIGNS AND NOTICES",
-      "USAGE AS PREFIX"
-    ],
-    "01936_kireru": [
-      "SENSE 1 (be cut/break)",
-      "SENSE 2 (run out/expire)",
-      "SENSE 3 (snap/lose temper)"
-    ],
-    "01945_komeru": [
-      "SENSE 2 (load)"
-    ],
-    "01951_sodatsu": [
-      "SUBJECTS"
-    ],
-    "01958_chikazuku": [
-      "NEGATIVE WARNING"
-    ],
-    "01964_tsumoru": [
-      "SENSE 1 (physical accumulation)",
-      "SENSE 2 (abstract accumulation)"
-    ],
     "01970_naru": [
       "なる VS {変|か}わる",
       "になる VS にする"
