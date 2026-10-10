@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-10 (Routine v3: new-entries — 20 New Entries, IDs 31825–31844)
+
+Twenty internal-closure candidates that existing entries already use, in queue order: 大軍 (WATCH OUT 大群), 華族 (five peerage ranks; WATCH OUT 家族), 商家, 来航 (ペリー来航), 汁粉 (Kansai vs Kanto ぜんざい), 遍路 (お接待), 私腹を肥やす (godan, conjugation table), 白物家電, 知的財産権, 最大公約数 (two senses; WATCH OUT "lowest common denominator"), 日経平均, 不要不急, 首脳会談, 日本列島, 第二次世界大戦 (太平洋戦争), 国会議事堂, 屋久島, 日本国憲法, 本能寺の変 (敵は本能寺にあり), カレーパン. Self-check skipped (daily OpenRouter cap spent).
+
 ### 2026-10-10 (Routine v3: candidates — 63 internal-closure candidates, C24263–C24325)
 
 No noentry markers remain, so every candidate comes from a scan of example sentences for furigana-marked words that have no entry; each names the entry that uses it. Okurigana stems of existing verbs (苛立つ, 見張る, 名乗る …) and free compounds (〜後, 〜中, 〜者) were dropped after the duplicate probe. Added: everyday and news words (手短, 変色, 横行, 時効, 事情聴取, 殺処分, 土砂災害, 蝶番, 福引, 婦人科, 新婚旅行, 大勝, 大成 …), formal-letter words (時下, 清栄, 平素), and culturally weighty proper nouns (天照大神, 赤穂浪士, 平家, 法然, 菅原道真, 祇園精舎, 明治神宮, 鹿児島, 熊本, 青森, 長野, 金沢, 博多, 讃岐, 輪島塗, 備長炭). Queue 68 → 131.
@@ -66,6 +70,3 @@ Ten internal-closure candidates that existing entries already use: 学生時代,
 
 Twenty internal-closure candidates that existing entries already use: 漁 (りょう; reading note for 漁業/漁師), 必要事項, 聴取 (two senses: official questioning; radio listening), 清潔感, 執る (WRITING vs 取る), 戦地 (vs 戦場), 外務大臣 (外相), 打球, 販路, 風合い (vs 手触り, 質感), 振り下ろす, 政治犯, 大はしゃぎ, 学び直す (学び直し), 後進 (WATCH OUT 後進国 dated), 松の内 (Jan 7 / Jan 15, 寒中見舞い), 本尊 (humorous ご本尊), 宮内庁 (proper noun; 御用達), 繰り越す, 腫れ. Self-check skipped (daily OpenRouter cap spent); one wrong link (指導にあたって → the grammar entry) unlinked by decision.
 
-### 2026-10-09 (Routine v3: candidates — 25 internal-closure candidates, C24234–C24258)
-
-A scan of example sentences for furigana-marked words with no entry and no link found 25 real words the dictionary already uses but has not defined, each with its source entry: 懐石料理, 過去最高, 点差, 山間部, 互換, 薄手, 大軍, 華族, 商家, 来航, 汁粉, 遍路, 私腹を肥やす, 白物家電, 知的財産権, 最大公約数, 日経平均, 不要不急, 首脳会談, 日本列島, and the proper nouns 第二次世界大戦, 国会議事堂, 屋久島, 日本国憲法, 本能寺の変. Variant spellings of existing entries (怪我, 入口, 人混み, 綺麗, 名字, …), free compounds (〜後, 〜中, 技術力, 生産量) and seven existing idioms were dropped. The noentry-marker source is empty. Queue: 80 → 105.
