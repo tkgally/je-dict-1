@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair. Pattern: X⟦が→が：00051_ga⟧{鳴|な}く (X [animal] makes sound).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {鳴|な}いて⟦いる→いる：00495_iru⟧ = 'is singing/crying.'\n\nWATCH OUT:\n- {鳴|な}く - animals making sounds (this entry)\n- ⟦{泣|な}く→泣く：00655_naku⟧ - to cry (humans, tears)\n\nANIMAL SOUNDS IN JAPANESE:\n- ⟦{犬|いぬ}→犬：00632_inu⟧: ワンワン (wan wan)\n- ⟦{猫|ねこ}→猫：02237_neko⟧: ニャー (nyaa)\n- ⟦{鳥|とり}→鳥：00679_tori⟧: ピーピー/⟦チュンチュン→チュンチュン：29101_chunchun⟧\n- ⟦{蛙|かえる}→蛙：04300_kaeru⟧: ケロケロ (kero kero)\n- ⟦{蝉|せみ}→セミ：09931_semi⟧: ミンミン (min min)\n\nCOMMON PATTERNS:\n- ⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{鳴|な}く (birds sing)\n- ⟦{虫|むし}→虫：02262_mushi⟧⟦が→が：00051_ga⟧{鳴|な}く (insects chirp)\n- ⟦{蝉|せみ}→セミ：09931_semi⟧⟦が→が：00051_ga⟧{鳴|な}く (cicadas cry)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair. Pattern: X⟦が→が：00051_ga⟧{鳴|な}く (X [animal] makes sound).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {鳴|な}いて⟦いる→いる：00495_iru⟧ = 'is singing/crying.'\n\nWATCH OUT:\n- {鳴|な}く - animals making sounds (this entry)\n- ⟦{泣|な}く→泣く：00655_naku⟧ - to cry (humans, tears)\n\nRELATED WORDS (animal sounds):\n- ⟦{犬|いぬ}→犬：00632_inu⟧: ワンワン (wan wan)\n- ⟦{猫|ねこ}→猫：02237_neko⟧: ニャー (nyaa)\n- ⟦{鳥|とり}→鳥：00679_tori⟧: ピーピー/⟦チュンチュン→チュンチュン：29101_chunchun⟧\n- ⟦{蛙|かえる}→蛙：04300_kaeru⟧: ケロケロ (kero kero)\n- ⟦{蝉|せみ}→セミ：09931_semi⟧: ミンミン (min min)\n\nCOMMON PATTERNS:\n- ⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{鳴|な}く (birds sing)\n- ⟦{虫|むし}→虫：02262_mushi⟧⟦が→が：00051_ga⟧{鳴|な}く (insects chirp)\n- ⟦{蝉|せみ}→セミ：09931_semi⟧⟦が→が：00051_ga⟧{鳴|な}く (cicadas cry)",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,6 +141,41 @@
       "reading": "さえずる",
       "headword": "さえずる",
       "label": "to chirp"
+    },
+    {
+      "type": "related",
+      "target_id": "00632_inu",
+      "reading": "いぬ",
+      "headword": "{犬|いぬ}",
+      "label": "dog"
+    },
+    {
+      "type": "related",
+      "target_id": "02237_neko",
+      "reading": "ねこ",
+      "headword": "{猫|ねこ}",
+      "label": "cat"
+    },
+    {
+      "type": "related",
+      "target_id": "00679_tori",
+      "reading": "とり",
+      "headword": "{鳥|とり}",
+      "label": "bird"
+    },
+    {
+      "type": "related",
+      "target_id": "04300_kaeru",
+      "reading": "かえる",
+      "headword": "{蛙|かえる}",
+      "label": "frog"
+    },
+    {
+      "type": "related",
+      "target_id": "09931_semi",
+      "reading": "せみ",
+      "headword": "セミ",
+      "label": "cicada"
     }
   ],
   "prominent_see_also": [
@@ -153,7 +188,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-09-02T04:01:04Z",
+    "modified": "2026-10-10T07:55:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
