@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{文字|もじ} is the general term for any written character or letter, regardless of writing system.\n\nPRONUNCIATION:\n- もじ: the standard reading\n- もんじ: a less common variant reading (same meaning)\n\nJAPANESE WRITING SYSTEMS:\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧: kanji (Chinese characters)\n- ひらがな: hiragana\n- カタカナ: katakana\n- ⟦アルファベット→アルファベット：10709_arufabetto⟧: alphabet (Latin characters)\n\nSEE ALSO: ⟦{文字|もんじ}→文字：00290_monji⟧ (alternative reading/form)",
+  "notes": "{文字|もじ} is the general term for any written character or letter, regardless of writing system.\n\nPRONUNCIATION:\n- もじ: the standard reading\n- もんじ: a less common variant reading (same meaning)\n\nRELATED WORDS (writing systems):\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧: kanji (Chinese characters)\n- ひらがな: hiragana\n- カタカナ: katakana\n- ⟦アルファベット→アルファベット：10709_arufabetto⟧: alphabet (Latin characters)\n\nSEE ALSO: ⟦{文字|もんじ}→文字：00290_monji⟧ (alternative reading/form)",
   "metadata": {
     "created": "2026-01-12T16:49:59Z",
-    "modified": "2026-10-01T08:07:18Z",
+    "modified": "2026-10-10T00:36:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +67,34 @@
       "headword": "{文字|もんじ}",
       "label": "letter (formal/compound reading)",
       "target_id": "00290_monji"
+    },
+    {
+      "type": "related",
+      "target_id": "09480_kanji",
+      "reading": "かんじ",
+      "headword": "{漢字|かんじ}",
+      "label": "kanji"
+    },
+    {
+      "type": "related",
+      "target_id": "02949_hiragana",
+      "reading": "ひらがな",
+      "headword": "{平仮名|ひらがな}",
+      "label": "hiragana"
+    },
+    {
+      "type": "related",
+      "target_id": "02866_katakana",
+      "reading": "かたかな",
+      "headword": "{片仮名|かたかな}",
+      "label": "katakana"
+    },
+    {
+      "type": "related",
+      "target_id": "10709_arufabetto",
+      "reading": "あるふぁべっと",
+      "headword": "アルファベット",
+      "label": "alphabet"
     }
   ]
 }
