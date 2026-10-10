@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "HOSPITAL DEPARTMENTS (common):\n- {内科|ないか} (internal medicine)\n- ⟦{外科|げか}→外科：03983_geka⟧ (surgery)\n- ⟦{小児科|しょうにか}→小児科：08652_shounika⟧ (pediatrics)\n- ⟦{産婦人科|さんふじんか}→産婦人科：16784_sanfujinka⟧ (obstetrics & gynecology)\n- ⟦{眼科|がんか}→眼科：11071_ganka⟧ (ophthalmology)\n- ⟦{耳鼻科|じびか}→耳鼻科：22874_jibika⟧ (ENT - ear, nose, throat)\n- ⟦{皮膚科|ひふか}→皮膚科：11073_hifuka⟧ (dermatology)\n- ⟦{精神科|せいしんか}→精神科：21587_seishinka⟧ (psychiatry)\n\nSUBSPECIALTIES:\n- ⟦{消化器|しょうかき}→消化器：06012_shoukaki⟧{内科|ないか} (gastroenterology)\n- ⟦{循環器|じゅんかんき}→循環器：06013_junkanki⟧{内科|ないか} (cardiology)\n- ⟦{呼吸器|こきゅうき}→呼吸器：06011_kokyuuki⟧{内科|ないか} (pulmonology)\n\nSIMILAR WORDS:\n- {内科|ないか} - treats with medication, non-invasive\n- ⟦{外科|げか}→外科：03983_geka⟧ - treats with surgery",
+  "notes": "RELATED WORDS (hospital departments):\n- {内科|ないか} (internal medicine)\n- ⟦{外科|げか}→外科：03983_geka⟧ (surgery)\n- ⟦{小児科|しょうにか}→小児科：08652_shounika⟧ (pediatrics)\n- ⟦{産婦人科|さんふじんか}→産婦人科：16784_sanfujinka⟧ (obstetrics & gynecology)\n- ⟦{眼科|がんか}→眼科：11071_ganka⟧ (ophthalmology)\n- ⟦{耳鼻科|じびか}→耳鼻科：22874_jibika⟧ (ENT - ear, nose, throat)\n- ⟦{皮膚科|ひふか}→皮膚科：11073_hifuka⟧ (dermatology)\n- ⟦{精神科|せいしんか}→精神科：21587_seishinka⟧ (psychiatry)\n\nCOMPOUNDS (subspecialties):\n- ⟦{消化器|しょうかき}→消化器：06012_shoukaki⟧{内科|ないか} (gastroenterology)\n- ⟦{循環器|じゅんかんき}→循環器：06013_junkanki⟧{内科|ないか} (cardiology)\n- ⟦{呼吸器|こきゅうき}→呼吸器：06011_kokyuuki⟧{内科|ないか} (pulmonology)\n\nSIMILAR WORDS:\n- {内科|ないか} - treats with medication, non-invasive\n- ⟦{外科|げか}→外科：03983_geka⟧ - treats with surgery",
   "cross_references": [
     {
       "type": "contrast",
@@ -100,11 +100,25 @@
       "reading": "しょうにか",
       "headword": "{小児科|しょうにか}",
       "label": "pediatrics"
+    },
+    {
+      "type": "related",
+      "target_id": "16784_sanfujinka",
+      "reading": "さんふじんか",
+      "headword": "{産婦人科|さんふじんか}",
+      "label": "obstetrics & gynecology"
+    },
+    {
+      "type": "related",
+      "target_id": "21587_seishinka",
+      "reading": "せいしんか",
+      "headword": "{精神科|せいしんか}",
+      "label": "psychiatry"
     }
   ],
   "metadata": {
     "created": "2026-01-13T11:35:35Z",
-    "modified": "2026-09-28T04:19:43Z",
+    "modified": "2026-10-10T06:21:24Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
