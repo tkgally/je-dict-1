@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-10 (Routine v3: new-entries — 10 New Entries, IDs 31815–31824)
+
+Ten internal-closure candidates that existing entries already use: くるまる (intransitive partner of くるむ; prominent see-also both ways), 彼方 (かなた, literary), なめす (皮 vs 革), 馬小屋, 懐石料理 (WATCH OUT 会席料理), 過去最高, 点差, 山間部 (weather-forecast term; 平野部), 互換 (上位互換, 互換性), 薄手 (opposite 厚手). Self-check clean.
+
 ### 2026-10-09 (Routine v3: new-entries — 10 New Entries, IDs 31805–31814)
 
 Ten internal-closure candidates that existing entries already use: 学生時代, 生後 (WATCH OUT 生前 is not "before birth"), 基準値, 主成分, 短期的, 開校 (WATCH OUT 開講), おかか (女房詞 for 鰹節), 〜番線 (vs ホーム), ハクション, 一言一句 (reading いちごん). A short last cycle of the run; self-check skipped (daily OpenRouter cap spent).
@@ -65,7 +69,3 @@ A scan of example sentences for furigana-marked words with no entry and no link 
 ### 2026-10-09 (Routine v3: new-entries — 10 New Entries, IDs 31775–31784)
 
 Ten internal-closure candidates that existing entries already use: 聞き入る (used in 22792, 25882, 27922, though not in its listed source 04586), そびえ立つ (ASPECT note), 寝込む (two senses: laid up in bed; fall fast asleep), 積み重ね (two senses), 過ぎ去る, 窯元, 冬場 (with 冬季), 歩数 (counter 歩), 心拍数 (with 脈拍), 金箔 (new kanji 箔 added to the kanji index; WATCH OUT 緊迫). Conjugation tables added for the four verbs. Source entries relinked (10 new inline links). No stale markers or newcomer link ambiguities. Self-check: no issues on the 28 new and touched entries; one on a relinked entry (22792 耳を聞き澄ます, ungrammatical, example replaced). One kana link checked and kept.
-
-### 2026-10-08 (Routine v3: new-entries — 11 New Entries, IDs 31764–31774)
-
-Eleven internal-closure candidates that existing entries already use: 一手 (two senses: a move in shogi or go; 一手に "single-handedly"), 神前 (contrasted with 仏前), 岩壁 (WATCH OUT 岸壁), 家中 (two senses; かちゅう noted), 米作り (with 稲作), 常任理事国, 川幅 (related 道幅, 肩幅), 日常生活, 保守派 (〜派 words), にじみ出る (two senses; ichidan, table added), 無病息災 (四字熟語). 聞き入る was skipped: its source, 04586, uses 聞き入れる, so the candidate came from a tokenizer misreading. The source entries were relinked (10 new links to the new entries). No new kanji; no stale markers or newcomer link ambiguities. Self-check skipped: the day's OpenRouter cap was spent.
