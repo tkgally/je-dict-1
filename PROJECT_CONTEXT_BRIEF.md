@@ -6,12 +6,12 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 
 | Metric | Value |
 |--------|-------|
-| Total entries | 31,646 |
+| Total entries | 31,651 |
 | Basic tier | 800 (closed) |
 | Core tier | 1,979 (closed) |
-| General tier | 28,867 (open — all new entries here) |
-| Next entry ID | 31870 |
-| Candidate words | 89 |
+| General tier | 28,872 (open — all new entries here) |
+| Next entry ID | 31875 |
+| Candidate words | 84 |
 | Cross-references | ~83,000 |
 | Example sentences | ~122,700 |
 
@@ -41,14 +41,14 @@ make report                # Dictionary health dashboard
 ## File Placement
 
 - Path: `entries/{range}/{id}_{romaji}.json`
-- Range = ID rounded down to nearest 500 (e.g., 31870 → `entries/31500/`)
+- Range = ID rounded down to nearest 500 (e.g., 31875 → `entries/31500/`)
 - Use `python3 build/get_entry_path.py <id> <romaji>` to confirm
 
 ## Vocabulary Tier Policy
 
 - **Basic** (800): Foundational words. Closed — do not add or modify.
 - **Core** (1,979): Essential adult communication. Closed — do not add or modify.
-- **General** (28,867+): All other vocabulary. All new entries go here.
+- **General** (28,872+): All other vocabulary. All new entries go here.
 
 ## Skills
 

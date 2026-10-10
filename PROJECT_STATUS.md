@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-10 (Routine v3: new-entries — 5 New Entries, IDs 31870–31874)
+
+Five internal-closure candidates in queue order, a short last cycle of the run: 大成 (two senses: 〜として大成する, and bringing a field to completion as in 集大成), 競走馬 (WATCH OUT 競走/競争), 博多 (博多駅, 博多ラーメン, Fukuoka vs Hakata), 新任 (vs 新人; WATCH OUT 信任), 紙面 (紙面を割く, 紙面の都合で). Self-check skipped (daily OpenRouter cap spent).
+
 ### 2026-10-10 (Routine v3: new-entries — 15 New Entries, IDs 31855–31869)
 
 Fifteen internal-closure candidates that existing entries already use, in queue order: 買主 (WATCH OUT 飼い主), 熊本 (熊本城, 2016 earthquakes), 平家 (平家物語, 驕る平家は久しからず), 大勝 (vs 圧勝/完勝; homophones), 就労 (就労ビザ, 28-hour student limit), 讃岐 (讃岐うどん), 鬼ヶ島, 青森 (apples, ねぶた), 神々 (WATCH OUT 神々しい こうごうしい), 長野 (信州, 1998 Olympics), 清栄 (letter openings), 印象派, 名工 (現代の名工), 米軍 (在日米軍), 変色 (WATCH OUT 偏食). New kanji 讃 added to the kanji index. Self-check skipped (daily OpenRouter cap spent).
@@ -65,8 +69,3 @@ Twenty internal-closure candidates that existing entries already use, in queue o
 ### 2026-10-10 (Routine v3: candidates — 63 internal-closure candidates, C24263–C24325)
 
 No noentry markers remain, so every candidate comes from a scan of example sentences for furigana-marked words that have no entry; each names the entry that uses it. Okurigana stems of existing verbs (苛立つ, 見張る, 名乗る …) and free compounds (〜後, 〜中, 〜者) were dropped after the duplicate probe. Added: everyday and news words (手短, 変色, 横行, 時効, 事情聴取, 殺処分, 土砂災害, 蝶番, 福引, 婦人科, 新婚旅行, 大勝, 大成 …), formal-letter words (時下, 清栄, 平素), and culturally weighty proper nouns (天照大神, 赤穂浪士, 平家, 法然, 菅原道真, 祇園精舎, 明治神宮, 鹿児島, 熊本, 青森, 長野, 金沢, 博多, 讃岐, 輪島塗, 備長炭). Queue 68 → 131.
-
-### 2026-10-10 (Routine v3: new-entries — 10 New Entries, IDs 31815–31824)
-
-Ten internal-closure candidates that existing entries already use: くるまる (intransitive partner of くるむ; prominent see-also both ways), 彼方 (かなた, literary), なめす (皮 vs 革), 馬小屋, 懐石料理 (WATCH OUT 会席料理), 過去最高, 点差, 山間部 (weather-forecast term; 平野部), 互換 (上位互換, 互換性), 薄手 (opposite 厚手). Self-check clean.
-
