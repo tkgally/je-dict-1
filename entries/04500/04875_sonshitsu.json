@@ -33,7 +33,7 @@
     {
       "id": "04875_sonshitsu_ex3",
       "japanese": "⟦{機会|きかい}→機会：01302_kikai⟧{損失|そんしつ}⟦は→は：00079_ha⟧⟦{避|さ}けたい→避ける：02109_sakeru⟧。",
-      "english": "I want to avoid opportunity costs.",
+      "english": "I want to avoid lost opportunities.",
       "has_audio": true,
       "sense_numbers": [
         1
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "notes": "{損失|そんしつ} refers to loss, especially financial loss, in business and formal contexts.\n\nCOMMON EXPRESSIONS:\n- {損失|そんしつ}⟦を→を：00422_wo⟧⟦{被|こうむ}る→被る：18070_koumuru⟧: to suffer a loss\n- {損失|そんしつ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to incur a loss\n- {損失|そんしつ}⟦を→を：00422_wo⟧⟦{補|おぎな}う→補う：00329_oginau⟧: to cover/offset losses\n- {損失|そんしつ}⟦を→を：00422_wo⟧⟦{最小限|さいしょうげん}→最小限：13072_saishougen⟧⟦に→に：00314_ni⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to minimize losses\n\nCOMPOUNDS:\n- {損失|そんしつ}⟦{補填|ほてん}→補填：16968_hoten⟧: loss coverage\n- ⟦{機会|きかい}→機会：01302_kikai⟧{損失|そんしつ}: opportunity cost\n- ⟦{純|じゅん}→純〜：28361_jun⟧{損失|そんしつ}: net loss\n\nSIMILAR WORDS:\n- {損失|そんしつ}: loss (formal, financial)\n- ⟦{損|そん}→損：03325_son⟧: loss (general, casual)\n- ⟦{利益|りえき}→利益：03673_rieki⟧: profit (opposite)",
+  "notes": "COMMON EXPRESSIONS:\n- {損失|そんしつ}⟦を→を：00422_wo⟧⟦{被|こうむ}る→被る：18070_koumuru⟧: to suffer a loss\n- {損失|そんしつ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to incur a loss\n- {損失|そんしつ}⟦を→を：00422_wo⟧⟦{補|おぎな}う→補う：00329_oginau⟧: to cover/offset losses\n- {損失|そんしつ}⟦を→を：00422_wo⟧⟦{最小限|さいしょうげん}→最小限：13072_saishougen⟧⟦に→に：00314_ni⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to minimize losses\n\nCOMPOUNDS:\n- {損失|そんしつ}⟦{補填|ほてん}→補填：16968_hoten⟧: loss coverage\n- ⟦{機会|きかい}→機会：01302_kikai⟧{損失|そんしつ}: opportunity cost\n- ⟦{純|じゅん}→純〜：28361_jun⟧{損失|そんしつ}: net loss\n\nSIMILAR WORDS:\n- ⟦{損|そん}→損：03325_son⟧: loss, disadvantage — the everyday word, also for small personal losses (⟦{損|そん}をする→損をする：30214_sonwosuru⟧, ⟦{損|そん}→損：03325_son⟧な⟦{役|やく}→役：12557_yaku⟧); {損失|そんしつ} is the formal word for business, financial, or large-scale losses\n- ⟦{損害|そんがい}→損害：02615_songai⟧: damage — harm done by an event such as a disaster or accident; {損失|そんしつ} is the value lost as a result\n- ⟦{利益|りえき}→利益：03673_rieki⟧: profit (opposite)",
   "cross_references": [
     {
       "type": "antonym",
@@ -101,11 +101,18 @@
       "reading": "そんえき",
       "headword": "{損益|そんえき}",
       "label": "profit and loss, gains and losses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02615_songai",
+      "reading": "そんがい",
+      "headword": "{損害|そんがい}",
+      "label": "damage"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:02:45Z",
-    "modified": "2026-09-30T13:43:47Z",
+    "modified": "2026-10-10T12:40:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -118,7 +125,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "work"
+        "business",
+        "finance"
       ]
     }
   }
