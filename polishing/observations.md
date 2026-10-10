@@ -1628,3 +1628,6 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 2026-10-10 16851 不公平: audio checks heard いかり for {怒|おこ}り in 16851_fukouhei_ex2 (怒りを感じた); check the furigana (怒りを感じる is read いかり).
 - [entry] 2026-10-10 16961 年頃: example 5 「あの方は五十歳年頃に見える」 is unnatural (left for a human by the audio checks); 五十歳くらいに見える or 五十がらみ would be the usual wording.
 - [pattern] 2026-10-10 Kanji breakdowns ("X (…) + Y (…). Literally …") filed under WRITING instead of ETYMOLOGY: 13 fixed in 10560–10574 during polish; 14 more remain (04492, 05203, 05213, 07401, 07402, 07898, 09551, 11237, …, 11923, 13326, 13530, 13531, 18528). A small systemic-fix batch.
+- [entry] 2026-10-10 17018 手押し車: audio checks heard ておしぐるま for {手押|ておし}し{車|ぐるま} in 17018_teoshiguruma_ex1–ex3 (and likely the headword): the furigana repeats the し; should be {手押|てお}し.
+- [entry] 2026-10-10 17168 成果物: audio checks heard さんぼん for 三本 in 17168_seikabutsu_ex3; the furigana {本|ぽん} is wrong (三本 is さんぼん).
+- [entry] 2026-10-10 17332 幕を閉じる: audio checks heard いんたいじあい for 引退試合 in 17332_makuwotojiru_ex3; the furigana gives しあい (rendaku じあい is the usual reading); check.
