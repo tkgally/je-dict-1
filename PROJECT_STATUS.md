@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-10 (Routine v3: new-entries — 10 New Entries, IDs 31845–31854)
+
+Ten internal-closure candidates that existing entries already use: 結婚観 (〜観 compounds), 拘禁刑 (the unified prison sentence since June 2025; WATCH OUT 懲役/禁錮), 山中 (WATCH OUT surname やまなか), 鹿児島 (薩摩, さつまいも), 浄土宗 (WATCH OUT 浄土真宗), 天照大神 (天岩戸, Ise), 赤穂浪士 (忠臣蔵, 泉岳寺), 手短 (手短に言うと), 時下 (business-letter opening), 輪島塗 (2024 Noto earthquake). A short last cycle of the run; self-check skipped (daily OpenRouter cap spent).
+
 ### 2026-10-10 (Routine v3: new-entries — 20 New Entries, IDs 31825–31844)
 
 Twenty internal-closure candidates that existing entries already use, in queue order: 大軍 (WATCH OUT 大群), 華族 (five peerage ranks; WATCH OUT 家族), 商家, 来航 (ペリー来航), 汁粉 (Kansai vs Kanto ぜんざい), 遍路 (お接待), 私腹を肥やす (godan, conjugation table), 白物家電, 知的財産権, 最大公約数 (two senses; WATCH OUT "lowest common denominator"), 日経平均, 不要不急, 首脳会談, 日本列島, 第二次世界大戦 (太平洋戦争), 国会議事堂, 屋久島, 日本国憲法, 本能寺の変 (敵は本能寺にあり), カレーパン. Self-check skipped (daily OpenRouter cap spent).
@@ -65,8 +69,4 @@ Ten internal-closure candidates that existing entries already use: くるまる 
 ### 2026-10-09 (Routine v3: new-entries — 10 New Entries, IDs 31805–31814)
 
 Ten internal-closure candidates that existing entries already use: 学生時代, 生後 (WATCH OUT 生前 is not "before birth"), 基準値, 主成分, 短期的, 開校 (WATCH OUT 開講), おかか (女房詞 for 鰹節), 〜番線 (vs ホーム), ハクション, 一言一句 (reading いちごん). A short last cycle of the run; self-check skipped (daily OpenRouter cap spent).
-
-### 2026-10-09 (Routine v3: new-entries — 20 New Entries, IDs 31785–31804)
-
-Twenty internal-closure candidates that existing entries already use: 漁 (りょう; reading note for 漁業/漁師), 必要事項, 聴取 (two senses: official questioning; radio listening), 清潔感, 執る (WRITING vs 取る), 戦地 (vs 戦場), 外務大臣 (外相), 打球, 販路, 風合い (vs 手触り, 質感), 振り下ろす, 政治犯, 大はしゃぎ, 学び直す (学び直し), 後進 (WATCH OUT 後進国 dated), 松の内 (Jan 7 / Jan 15, 寒中見舞い), 本尊 (humorous ご本尊), 宮内庁 (proper noun; 御用達), 繰り越す, 腫れ. Self-check skipped (daily OpenRouter cap spent); one wrong link (指導にあたって → the grammar entry) unlinked by decision.
 
