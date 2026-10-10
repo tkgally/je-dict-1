@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-10 (Routine v3: candidates — 63 internal-closure candidates, C24263–C24325)
+
+No noentry markers remain, so every candidate comes from a scan of example sentences for furigana-marked words that have no entry; each names the entry that uses it. Okurigana stems of existing verbs (苛立つ, 見張る, 名乗る …) and free compounds (〜後, 〜中, 〜者) were dropped after the duplicate probe. Added: everyday and news words (手短, 変色, 横行, 時効, 事情聴取, 殺処分, 土砂災害, 蝶番, 福引, 婦人科, 新婚旅行, 大勝, 大成 …), formal-letter words (時下, 清栄, 平素), and culturally weighty proper nouns (天照大神, 赤穂浪士, 平家, 法然, 菅原道真, 祇園精舎, 明治神宮, 鹿児島, 熊本, 青森, 長野, 金沢, 博多, 讃岐, 輪島塗, 備長炭). Queue 68 → 131.
+
 ### 2026-10-10 (Routine v3: new-entries — 10 New Entries, IDs 31815–31824)
 
 Ten internal-closure candidates that existing entries already use: くるまる (intransitive partner of くるむ; prominent see-also both ways), 彼方 (かなた, literary), なめす (皮 vs 革), 馬小屋, 懐石料理 (WATCH OUT 会席料理), 過去最高, 点差, 山間部 (weather-forecast term; 平野部), 互換 (上位互換, 互換性), 薄手 (opposite 厚手). Self-check clean.
@@ -65,7 +69,3 @@ Twenty internal-closure candidates that existing entries already use: 漁 (り�
 ### 2026-10-09 (Routine v3: candidates — 25 internal-closure candidates, C24234–C24258)
 
 A scan of example sentences for furigana-marked words with no entry and no link found 25 real words the dictionary already uses but has not defined, each with its source entry: 懐石料理, 過去最高, 点差, 山間部, 互換, 薄手, 大軍, 華族, 商家, 来航, 汁粉, 遍路, 私腹を肥やす, 白物家電, 知的財産権, 最大公約数, 日経平均, 不要不急, 首脳会談, 日本列島, and the proper nouns 第二次世界大戦, 国会議事堂, 屋久島, 日本国憲法, 本能寺の変. Variant spellings of existing entries (怪我, 入口, 人混み, 綺麗, 名字, …), free compounds (〜後, 〜中, 技術力, 生産量) and seven existing idioms were dropped. The noentry-marker source is empty. Queue: 80 → 105.
-
-### 2026-10-09 (Routine v3: new-entries — 10 New Entries, IDs 31775–31784)
-
-Ten internal-closure candidates that existing entries already use: 聞き入る (used in 22792, 25882, 27922, though not in its listed source 04586), そびえ立つ (ASPECT note), 寝込む (two senses: laid up in bed; fall fast asleep), 積み重ね (two senses), 過ぎ去る, 窯元, 冬場 (with 冬季), 歩数 (counter 歩), 心拍数 (with 脈拍), 金箔 (new kanji 箔 added to the kanji index; WATCH OUT 緊迫). Conjugation tables added for the four verbs. Source entries relinked (10 new inline links). No stale markers or newcomer link ambiguities. Self-check: no issues on the 28 new and touched entries; one on a relinked entry (22792 耳を聞き澄ます, ungrammatical, example replaced). One kana link checked and kept.
