@@ -1,101 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-10T13:33:01Z",
+  "generated": "2026-10-10T13:55:31Z",
   "headers": {
-    "05102_sedai": [
-      "COMMON GENERATION TERMS"
-    ],
-    "05105_monitaa": [
-      "SENSE 1 - DISPLAY",
-      "SENSE 2 - TESTER"
-    ],
-    "05113_yakusha": [
-      "CONTRAST WITH {俳優|はいゆう}"
-    ],
-    "05120_hiyakedome": [
-      "PRODUCT TERMS"
-    ],
-    "05123_ukiuki": [
-      "ONOMATOPOEIA NOTES"
-    ],
-    "05124_shiwa": [
-      "FABRIC CREASE COLLOCATIONS",
-      "SKIN WRINKLE COLLOCATIONS"
-    ],
-    "05129_shakkuri": [
-      "FOLK REMEDIES"
-    ],
-    "05130_kuwagata": [
-      "FULL NAME"
-    ],
-    "05139_fugoukaku": [
-      "CASUAL ALTERNATIVES"
-    ],
-    "05145_daisuu": [
-      "EDUCATION CONTEXT",
-      "RELATED MATH BRANCHES"
-    ],
-    "05149_teisuu": [
-      "CONTRAST WITH VARIABLE"
-    ],
-    "05151_haadowea": [
-      "CONTRAST WITH SOFTWARE"
-    ],
-    "05156_fuwafuwa": [
-      "TYPICAL THINGS DESCRIBED AS ふわふわ"
-    ],
-    "05167_burabura": [
-      "DANGLING/SWINGING",
-      "WANDERING/IDLING"
-    ],
-    "05172_karakara": [
-      "DRYNESS PATTERNS",
-      "SOUND PATTERNS"
-    ],
-    "05173_nurunuru": [
-      "TYPICAL THINGS DESCRIBED"
-    ],
-    "05178_mechakucha": [
-      "DISORDER PATTERNS",
-      "INTENSIFIER PATTERNS"
-    ],
-    "05181_raamen": [
-      "COMMON BROTH TYPES"
-    ],
-    "05191_shouga": [
-      "HEALTH"
-    ],
-    "05194_meron": [
-      "FAMOUS VARIETIES"
-    ],
-    "05197_raion": [
-      "KANJI EQUIVALENT"
-    ],
-    "05202_niwatori": [
-      "AS FOOD ({鶏|とり})",
-      "SPECIFIC TERMS"
-    ],
-    "05203_yagi": [
-      "CONTRAST WITH {羊|ひつじ}"
-    ],
-    "05204_tonbo": [
-      "SPECIES"
-    ],
-    "05207_douitashimashite": [
-      "ALTERNATIVE RESPONSES (casual → formal)"
-    ],
-    "05216_chouwa": [
-      "COMMON DOMAINS"
-    ],
-    "05217_kinkou": [
-      "FIELDS OF USE"
-    ],
-    "05221_burando": [
-      "NUANCE IN JAPANESE"
-    ],
-    "05225_gaso": [
-      "CAMERA SPECIFICATIONS"
-    ],
     "05231_wagakki": [
       "MAJOR INSTRUMENTS"
     ],
@@ -1279,9 +1185,6 @@
     "06482_nidoto": [
       "COMPARISON WITH SIMILAR EXPRESSIONS"
     ],
-    "06487_eri": [
-      "COLLAR TYPES"
-    ],
     "06488_suso": [
       "GEOGRAPHICAL USAGE"
     ],
@@ -1437,12 +1340,6 @@
     ],
     "06557_takeuma": [
       "RELATED TRADITIONAL GAMES"
-    ],
-    "06558_zashikiwarashi": [
-      "BELIEFS",
-      "FAMOUS LOCATION",
-      "IN MODERN CULTURE",
-      "NAME MEANING"
     ],
     "06559_shinkirou": [
       "FAMOUS VIEWING SPOTS IN JAPAN",
@@ -1637,11 +1534,6 @@
     "06698_dorinkubaa": [
       "PRICING",
       "TYPICAL OFFERINGS"
-    ],
-    "06718_karikari": [
-      "RELATED ONOMATOPOEIA FOR TEXTURE",
-      "USAGE - SENSE 1 (crispy)",
-      "USAGE - SENSE 2 (irritated)"
     ],
     "06721_bareru": [
       "ALTERNATIVE FORM"
@@ -2763,10 +2655,6 @@
       "COMMON TARGETS OF SEIZURE",
       "LEGAL COLLOCATIONS"
     ],
-    "08018_ranningu": [
-      "SENSE 1 (Exercise)",
-      "SENSE 2 (Ongoing costs)"
-    ],
     "08019_monohoshizao": [
       "PHRASE"
     ],
@@ -3691,13 +3579,6 @@
       "SENSE 1 - FLAT TIRE",
       "SENSE 2 - FIGURATIVE (OVERLOADED)"
     ],
-    "10649_yue": [
-      "FAMOUS QUOTE"
-    ],
-    "10653_yohodo": [
-      "SENSE 1 - CONSIDERABLY",
-      "SENSE 2 - NEARLY"
-    ],
     "10666_mottekuru": [
       "CONTRAST WITH {持|も}っていく"
     ],
@@ -3911,9 +3792,6 @@
     "11336_denwadai": [
       "OTHER BILLS WITH 〜{代|だい}",
       "{代|だい} VS {費|ひ} VS {料|りょう}"
-    ],
-    "11372_kasou": [
-      "LAYER HIERARCHY"
     ],
     "11380_chuusotsu": [
       "RELATED EDUCATION LEVELS"
@@ -5011,9 +4889,6 @@
     "18820_chuuki": [
       "PLANNING HORIZON SET",
       "TIME PERIOD SET"
-    ],
-    "18821_chouzai": [
-      "JAPANESE HEALTHCARE CONTEXT"
     ],
     "18837_nomikawasu": [
       "OTHER ～{交|か}わす VERBS"
