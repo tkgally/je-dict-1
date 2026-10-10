@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Decision Models for je-dict-1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+JP:wght@400;500;600&family=Shippori+Mincho+B1:wght@600;800&display=swap">
+<style>
+/* Layout: one reading column (~68ch) with full-width figure bands; a dictionary-report look: indigo ink on cool paper, mincho display. */
+:root {
+  --bg: #f4f6f9;
+  --paper: #ffffff;
+  --ink: #15202f;
+  --ink-2: #47536a;
+  --muted: #727d90;
+  --rule: #dde2ea;
+  --accent: #2b4c7e;
+  --accent-soft: #e6edf8;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+  --good: #1f7a4d; --good-bg: #e3f3ea;
+  --warn: #8a5a00; --warn-bg: #fbf0d9;
+  --bad: #a3322f; --bad-bg: #f8e4e3;
+  --track: #edf0f4;
+  --font-display: "Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", Georgia, serif;
+  --font-body: "IBM Plex Sans JP", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10141b; --paper: #171c25; --ink: #e8ecf3; --ink-2: #b6bfce; --muted: #8b95a6; --rule: #2a313d;
+    --accent: #9db8e8; --accent-soft: #1e2a3d;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+    --good: #7fd3a6; --good-bg: #16301f; --warn: #f0c46a; --warn-bg: #33280f; --bad: #f19b98; --bad-bg: #3a1c1c;
+    --track: #222936;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10141b; --paper: #171c25; --ink: #e8ecf3; --ink-2: #b6bfce; --muted: #8b95a6; --rule: #2a313d;
+  --accent: #9db8e8; --accent-soft: #1e2a3d;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+  --good: #7fd3a6; --good-bg: #16301f; --warn: #f0c46a; --warn-bg: #33280f; --bad: #f19b98; --bad-bg: #3a1c1c;
+  --track: #222936;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 16px/1.65 var(--font-body); }
+.wrap { max-width: 1040px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 80px; }
+.col { max-width: 46rem; }
+header.top { padding-block: 8px 28px; border-bottom: 1px solid var(--rule); margin-bottom: 36px; }
+.eyebrow { font: 500 12px/1.4 var(--font-data); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font: 800 clamp(30px, 5vw, 46px)/1.15 var(--font-display); margin: 10px 0 14px; text-wrap: balance; letter-spacing: .01em; }
+h1 .jp { color: var(--accent); font-weight: 600; }
+.lede { font-size: 18px; color: var(--ink-2); max-width: 44rem; margin: 0; }
+h2 { font: 600 26px/1.25 var(--font-display); margin: 56px 0 12px; text-wrap: balance; }
+h2 .sec { font: 500 12px var(--font-data); color: var(--accent); letter-spacing: .08em; display: block; margin-bottom: 6px; text-transform: uppercase; }
+h3 { font: 600 17px/1.35 var(--font-body); margin: 28px 0 8px; }
+p { margin: 0 0 14px; }
+.small, .mid { font-size: 13px; color: var(--muted); }
+.mid { font-size: 12px; line-height: 1.35; margin-top: 2px; font-family: var(--font-data); }
+code, .mono { font-family: var(--font-data); font-size: .88em; }
+code { background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
+a { color: var(--accent); }
+ul { padding-left: 1.2em; margin: 0 0 14px; }
+li { margin-bottom: 6px; }
+strong { font-weight: 600; }
+
+.answer { background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 22px 24px; margin-top: 8px; }
+.answer h2 { margin-top: 0; }
+.answer ol { margin: 0; padding-left: 1.3em; }
+.answer li { margin-bottom: 10px; }
+
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 22px 0 26px; }
+.tile { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; }
+.tile .big { font: 500 26px/1.1 var(--font-data); color: var(--ink); font-variant-numeric: tabular-nums; }
+.tile .lab { font-size: 13px; color: var(--ink-2); margin-top: 6px; line-height: 1.4; }
+
+.tbl { overflow-x: auto; margin: 14px 0 8px; background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font: 500 11.5px/1.3 var(--font-data); letter-spacing: .05em; text-transform: uppercase; color: var(--muted); background: var(--bg); }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; font-family: var(--font-data); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.verdict td:first-child { font-weight: 600; }
+.verdict { min-width: 860px; }
+.verdict td:last-child { width: 30%; min-width: 240px; }
+.chip { display: inline-block; font: 500 11.5px/1 var(--font-data); padding: 5px 8px; border-radius: 999px; white-space: nowrap; letter-spacing: .02em; }
+.chip.go { color: var(--good); background: var(--good-bg); }
+.chip.part { color: var(--warn); background: var(--warn-bg); }
+.chip.no { color: var(--bad); background: var(--bad-bg); }
+.chip::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: currentColor; margin-right: 6px; vertical-align: 1px; }
+
+figure { margin: 22px 0 10px; background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 18px 18px 12px; }
+figure .scroll { overflow-x: auto; }
+figcaption { font-size: 13.5px; color: var(--ink-2); margin-top: 10px; max-width: 46rem; }
+figcaption b { color: var(--ink); font-weight: 600; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); margin-bottom: 8px; }
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.sw.dot { border-radius: 50%; }
+
+svg.chart { display: block; width: 100%; height: auto; max-width: 100%; font-family: var(--font-body); }
+svg.heat { width: auto; max-width: none; min-width: 640px; }
+svg .grid { stroke: var(--rule); stroke-width: 1; }
+svg .axis { stroke: var(--muted); stroke-width: 1; }
+svg .tick { fill: var(--muted); font: 11px var(--font-data); }
+svg .axis-lab { fill: var(--ink-2); font: 500 12px var(--font-body); }
+svg .row-lab { fill: var(--ink); font: 12.5px var(--font-body); }
+svg .grp-lab { fill: var(--accent); font: 500 11px var(--font-data); letter-spacing: .08em; }
+svg .cell-txt { font: 500 12px var(--font-data); }
+svg .cell-txt.na { fill: var(--muted); font-weight: 400; }
+svg .cell-na { fill: var(--track); }
+svg .pt-dec { fill: var(--s1); stroke: var(--paper); stroke-width: 2; }
+svg .pt-llm { fill: var(--s2); stroke: var(--paper); stroke-width: 2; }
+svg .pt-lab { fill: var(--ink-2); font: 11.5px var(--font-body); }
+svg .bar-s1 { fill: var(--s1); } svg .bar-s2 { fill: var(--s2); } svg .bar-s3 { fill: var(--s3); } svg .bar-s4 { fill: var(--s4); }
+svg .track { fill: var(--track); }
+svg .val { fill: var(--ink-2); font: 11.5px var(--font-data); }
+svg .hov:hover rect, svg .hov:hover circle { opacity: .82; }
+
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; font-size: 15px; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.two > * { min-width: 0; }
+footer { margin-top: 64px; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--muted); }
+@media (max-width: 520px) {
+  body { font-size: 15.5px; }
+  .wrap { padding-inline: 16px; }
+  .answer { padding: 18px 16px; }
+  th, td { padding: 8px 9px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow">je-dict-1 · model evaluation · 10 October 2026</div>
+  <h1>Decision models for je-dict-1 <span class="jp">判定モデル</span></h1>
+  <p class="lede">Eighteen “decision models” appeared on OpenRouter in the past few weeks. They return a typed yes/no or multiple-choice answer with a probability instead of generated text, and they cost almost nothing per call. Could they take over any of the dictionary’s checking work? I tested all sixteen that can be called on 1,357 items drawn from seven real dictionary tasks, and compared them with four LLMs.</p>
+</header>
+
+<section class="answer col" aria-labelledby="short">
+  <h2 id="short"><span class="sec">Summary</span>The short answer</h2>
+  <ol>
+    <li><strong>All sixteen have enough Japanese to be usable.</strong> Every one matched Japanese sentences to their translations and picked the right meaning of common words perfectly in the screening test. They differ on finer points: readings, homophones, conjugation.</li>
+    <li><strong>Two tasks can move to a decision model now:</strong> checking that an example’s English translation matches the Japanese, and checking which sense of a headword an example illustrates. On these the best decision models score within one or two points of the LLMs (translation 98.4% vs. 99.5%; sense 96.2% vs. 96.9%) at a tenth to a hundredth of the cost. A full pass over all 122,570 example translations would cost about $0.60.</li>
+    <li><strong>For readings, links and conjugations, decision models are not good enough on their own.</strong> The best one, GPT-6 Luna Decisions, is close to the cheap LLMs but behind them, and it costs about the same per item as batched Claude Haiku 5.5. A new cheap LLM is the better buy for these.</li>
+    <li><strong>Nothing, decision model or LLM, can predict how Claude adjudicates reviewer flags</strong> from the flag text alone (best 60%, where chance is 50%). The largest time cost in the Routine, Claude reading and deciding about 200 flags a day, cannot be cut this way.</li>
+    <li><strong>Time savings are small; cost savings are real but only matter because of the $15 daily cap.</strong> A decision model answers one item in 0.4–2.8 seconds, but a batched LLM checks 20 items in 4–13 seconds, so bulk throughput is similar. The cap is already spent every day, mostly on audio, so text checks often run on a few cents. Cheaper checks would let more of them run.</li>
+  </ol>
+</section>
+
+<h2><span class="sec">Verdicts</span>Task by task</h2>
+<div class="tbl">
+<table class="verdict">
+<thead><tr><th>Task</th><th>Verdict</th><th class="num">Best decision model</th><th class="num">Claude Haiku 5.5</th><th class="num">Current model</th><th>What to do</th></tr></thead>
+<tbody>
+<tr><td>Translation fidelity</td><td><span class="chip go">Adopt</span></td><td class="num">98.4%<div class="mid">$0.005/1k</div></td><td class="num">99.5%<div class="mid">$0.044/1k</div></td><td class="num">none<div class="mid">no such check yet</div></td><td>A new whole-dictionary sweep with Microsoft-Decision-1 or Jev; Claude reviews only what it flags. It misses about 1 in 14 subtle errors (a changed tense or number).</td></tr>
+<tr><td>Sense of an example</td><td><span class="chip go">Adopt</span></td><td class="num">96.2%<div class="mid">$0.003/1k</div></td><td class="num">95.0%<div class="mid">$0.043/1k</div></td><td class="num">none<div class="mid">done in polish by Claude</div></td><td>Check every <code>sense_numbers</code> value in multi-sense entries; flag disagreements.</td></tr>
+<tr><td>Conjugated forms</td><td><span class="chip part">Pre-screen only</span></td><td class="num">93.3%<div class="mid">$0.024/1k</div></td><td class="num">99.4%<div class="mid">$0.053/1k</div></td><td class="num">100.0%<div class="mid">GPT-6.1 Sol · $0.397/1k</div></td><td>Switching the conjugation check from GPT-6.1 Sol to Claude Haiku 5.5 saves more than adding a decision model would.</td></tr>
+<tr><td>Inline-link sense</td><td><span class="chip part">Replace the screener</span></td><td class="num">81.9%<div class="mid">$0.034/1k</div></td><td class="num">83.8%<div class="mid">$0.075/1k</div></td><td class="num">66.2%<div class="mid">Gemini 2.5 Flash · $0.117/1k</div></td><td>The current screener is the weakest model tested here. Replace it with GPT-6 Luna Decisions or Claude Haiku 5.5; Claude still adjudicates the flags.</td></tr>
+<tr><td>Furigana readings</td><td><span class="chip no">Not alone</span></td><td class="num">92.2%<div class="mid">$0.028/1k</div></td><td class="num">97.0%<div class="mid">$0.044/1k</div></td><td class="num">94.8%<div class="mid">Gemini 2.5 Flash · $0.103/1k</div></td><td>Decision models miss sound-change errors (voicing, long vowels, counters). Use Claude Haiku 5.5 for reading checks.</td></tr>
+<tr><td>Transitivity</td><td><span class="chip no">Not needed</span></td><td class="num">82.9%<div class="mid">$0.022/1k</div></td><td class="num">89.5%<div class="mid">$0.063/1k</div></td><td class="num">81.2%<div class="mid">Gemini 2.5 Flash</div></td><td>Only 5 verbs still lack a tag. Decision models rarely answer “both”. GPT-6 Luna (the LLM) was best at 96.1%.</td></tr>
+<tr><td>Flag triage</td><td><span class="chip no">Don’t</span></td><td class="num">53.5%<div class="mid">GPT-6 Luna Decisions</div></td><td class="num">60.0%<div class="mid">$0.088/1k</div></td><td class="num">Claude<div class="mid">in the Routine session</div></td><td>No model predicts apply vs. reject from the flag alone. Keep Claude adjudicating.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="small">Accuracy is the share of test items judged correctly at the models’ own 0.5 cut-off. Cost is the measured OpenRouter charge per 1,000 items; LLMs were batched 20 items per call, as the project’s review scripts do.</p>
+
+<h2><span class="sec">Background</span>What a decision model is</h2>
+<div class="col">
+<p>A decision model reads a <em>state</em> (text or JSON) and answers typed questions about it: <strong>noul</strong> (yes/no, returning the probability of yes), <strong>choice</strong> (one option from a list, with a probability for each), or <strong>score</strong> (a position on an ordered scale). OpenRouter serves them through one endpoint, <code>POST /api/alpha/decisions</code>. TypeSafe’s Jev was the first, in mid-September; the rest arrived in the following weeks, most in the past few days. They charge only for input tokens: $0.02–0.24 per million, against $0.10–2.00 for the LLMs below. They give no explanation, so a person or an LLM still has to say why something is wrong.</p>
+<p>Of the six models named in the request, five are decision models. <strong>StepFun Step 5 Preview is an ordinary text LLM</strong> (600B-parameter mixture of experts) and was not tested here. OpenRouter lists 19 decision-model IDs in all. Two are aliases (<code>inception/mercury-decide:free</code> and <code>~typesafe/jev-latest</code>), leaving the sixteen tested below. Respan’s two Span models accept only yes/no questions and a plain-string state, so they skipped the two multiple-choice tasks; Span-01 and Span-01 Lite gave identical answers on every item.</p>
+</div>
+
+<h2><span class="sec">Step 1</span>Screening: do they read Japanese?</h2>
+<div class="col">
+<p>A 48-item battery in four parts, with items taken from the dictionary: 16 sentence–translation pairs (half correct, half paired with an unrelated sentence’s English), 8 basic-tier words with four candidate glosses, 16 reading checks on common words (half with a deliberate misreading), and 8 English-only questions as a control. Passing meant clearly above chance on the Japanese parts and a clean control.</p>
+</div>
+<div class="tbl">
+<table>
+<thead><tr><th>Model</th><th class="num">$ / M input</th><th class="num">Sentence ↔ English</th><th class="num">Word meaning</th><th class="num">Reading check</th><th class="num">English control</th><th class="num">Median time</th></tr></thead>
+<tbody>
+<tr><td>GPT-6 Luna Decisions<div class='mid'>openai/gpt-6-luna-decisions</div></td><td class='num'>$0.100</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>88%</td><td class='num'>100%</td><td class='num'>0.93 s</td></tr>
+<tr><td>Solar Decide<div class='mid'>upstage/solar-decide</div></td><td class='num'>$0.050</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>88%</td><td class='num'>100%</td><td class='num'>0.95 s</td></tr>
+<tr><td>Solar Decide Flash<div class='mid'>upstage/solar-decide-flash</div></td><td class='num'>$0.050</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>81%</td><td class='num'>100%</td><td class='num'>1.02 s</td></tr>
+<tr><td>Clef (27B)<div class='mid'>cloudflare/clef</div></td><td class='num'>$0.240</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>62%</td><td class='num'>100%</td><td class='num'>1.57 s</td></tr>
+<tr><td>Clef Omni<div class='mid'>cloudflare/clef-omni</div></td><td class='num'>$0.150</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>75%</td><td class='num'>100%</td><td class='num'>0.73 s</td></tr>
+<tr><td>Clef Flash<div class='mid'>cloudflare/clef-flash</div></td><td class='num'>$0.038</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>81%</td><td class='num'>100%</td><td class='num'>0.76 s</td></tr>
+<tr><td>Perplexity Decider 1.1<div class='mid'>perplexity/pplx-decider-v1.1-27b</div></td><td class='num'>$0.020</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>69%</td><td class='num'>100%</td><td class='num'>0.55 s</td></tr>
+<tr><td>Liquid d1<div class='mid'>liquid/d1</div></td><td class='num'>$0.040</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>69%</td><td class='num'>100%</td><td class='num'>0.63 s</td></tr>
+<tr><td>Mercury Decide<div class='mid'>inception/mercury-decide</div></td><td class='num'>$0.020</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>75%</td><td class='num'>100%</td><td class='num'>1.20 s</td></tr>
+<tr><td>Microsoft-Decision-1<div class='mid'>microsoft/microsoft-decision-1</div></td><td class='num'>$0.042</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>62%</td><td class='num'>100%</td><td class='num'>0.69 s</td></tr>
+<tr><td>Nace Drex 1.5<div class='mid'>nace-ai/drex-v1.5</div></td><td class='num'>$0.040</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>50%</td><td class='num'>100%</td><td class='num'>0.93 s</td></tr>
+<tr><td>TypeSafe Jev 1.13<div class='mid'>typesafe/jev-1.13</div></td><td class='num'>$0.042</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>56%</td><td class='num'>100%</td><td class='num'>0.85 s</td></tr>
+<tr><td>Kev 4B<div class='mid'>jaredpalmer/kev-4b</div></td><td class='num'>$0.042</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>56%</td><td class='num'>100%</td><td class='num'>0.91 s</td></tr>
+<tr><td>Together Tev1 4B<div class='mid'>togethercomputer/tev1-4b-experimental</div></td><td class='num'>$0.042</td><td class='num'>100%</td><td class='num'>100%</td><td class='num'>56%</td><td class='num'>100%</td><td class='num'>0.93 s</td></tr>
+<tr><td>Respan Span-01<div class='mid'>respan/span-01</div></td><td class='num'>$0.020</td><td class='num'>100%</td><td class='num'>0%</td><td class='num'>69%</td><td class='num'>100%</td><td class='num'>0.52 s</td></tr>
+<tr><td>Respan Span-01 Lite<div class='mid'>respan/span-01-lite</div></td><td class='num'>$0.000</td><td class='num'>100%</td><td class='num'>0%</td><td class='num'>69%</td><td class='num'>100%</td><td class='num'>0.58 s</td></tr>
+</tbody>
+</table>
+</div>
+<p class="small">The Respan models cannot answer multiple-choice questions, hence 0% on word meaning; they passed everything they could answer. Reading checks were the only part that separated the models, so all sixteen went on to Step 2.</p>
+
+<h2><span class="sec">Step 2</span>Seven tasks from the real workflow</h2>
+<div class="col">
+<p>Each task asks the question a script or Claude asks today, or one the dictionary would benefit from. Wherever possible the right answers come from the project’s own records rather than from me.</p>
+<ul>
+  <li><strong>Furigana reading</strong> (230 items, yes/no). Is this reading right for the marked word in this example? 100 correct readings from examples; 70 plausible misreadings (lost voicing or rendaku, dropped long vowel, small ゃ written large); 16 counter readings (三本 さんぼん, 六匹 ろっぴき, 一日 ついたち…); 14 homographs given the other word’s reading (分別 ふんべつ for ぶんべつ, 方々 ほうぼう for かたがた), plus 30 homographs given their own correct reading. 16 further homograph items were dropped after checking because the “wrong” reading is acceptable (日本 にっぽん, 足跡 そくせき, 紅葉 こうよう).</li>
+  <li><strong>Inline-link sense</strong> (216, yes/no). Is the marked kana word really the linked entry’s word? Answers come from <code>reviews/link_decisions.jsonl</code>: 110 <em>keep</em> and 110 <em>unlink</em>/<em>retarget</em> verdicts, at most three per base form.</li>
+  <li><strong>Conjugated form</strong> (180, yes/no). Is this the correct て-form, negative, potential…? Correct forms come from the entries’ tables; wrong ones were built by conjugating with the wrong verb class or sound change (帰て, 食べらない, 書って).</li>
+  <li><strong>Translation fidelity</strong> (190, yes/no). Does the English say what the Japanese says? 100 real pairs; 50 with a sibling example’s English; 40 with one meaning change made by an LLM (negation, tense, number, opposite adjective). Ten generated changes were dropped as still acceptable, mostly because Japanese leaves the subject unstated.</li>
+  <li><strong>Sense of example</strong> (160, choice). Which sense of the headword does this example use? Answers from <code>sense_numbers</code>.</li>
+  <li><strong>Transitivity</strong> (181, choice of transitive / intransitive / both). Answers from <code>tags.transitivity</code>. Nine items were dropped because all three strong LLMs disagreed with the tag, and the tag looks wrong: 悲観 (tagged transitive), 閉塞 (tagged intransitive), 裁判 (tagged intransitive), ぱたぱたする (tagged intransitive), 荷造り (tagged intransitive), 取引 (tagged intransitive), 参拝する (tagged intransitive), 推理 (tagged both), 復活 (tagged both).</li>
+  <li><strong>Flag triage</strong> (200, yes/no). Given a flag from <code>review_accuracy.py</code> (its concern and suggestion), would the editor apply it? Answers come from <code>reviews/decisions.jsonl</code>: 100 applied and 100 rejected gloss, notes and translation flags.</li>
+</ul>
+</div>
+
+<figure>
+  <div class="scroll"><svg class="chart heat" viewBox="0 0 796 622" width="796" role="img" aria-label="Heat map">
+<text class="axis-lab" x="242.0" y="26" text-anchor="middle">Furigana</text>
+<text class="axis-lab" x="242.0" y="40" text-anchor="middle">reading</text>
+<text class="axis-lab" x="326.0" y="26" text-anchor="middle">Inline-link</text>
+<text class="axis-lab" x="326.0" y="40" text-anchor="middle">sense</text>
+<text class="axis-lab" x="410.0" y="26" text-anchor="middle">Conjugated</text>
+<text class="axis-lab" x="410.0" y="40" text-anchor="middle">form</text>
+<text class="axis-lab" x="494.0" y="26" text-anchor="middle">Translation</text>
+<text class="axis-lab" x="494.0" y="40" text-anchor="middle">fidelity</text>
+<text class="axis-lab" x="578.0" y="26" text-anchor="middle">Sense</text>
+<text class="axis-lab" x="578.0" y="40" text-anchor="middle">of example</text>
+<text class="axis-lab" x="662.0" y="26" text-anchor="middle">Transitivity</text>
+<text class="axis-lab" x="746.0" y="26" text-anchor="middle">Flag</text>
+<text class="axis-lab" x="746.0" y="40" text-anchor="middle">triage</text>
+<text class="grp-lab" x="0" y="67">DECISION MODELS</text>
+<text class="row-lab" x="190" y="91.0" text-anchor="end">GPT-6 Luna Decisions</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Furigana reading: 92.2% correct</title><rect x="201" y="75" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="242.0" y="91.0" text-anchor="middle" fill="#ffffff">92</text></g>
+<g class="hov"><title>GPT-6 Luna Decisions · Inline-link sense: 81.9% correct</title><rect x="285" y="75" width="82" height="24" rx="3" fill="#256abf"/><text class="cell-txt" x="326.0" y="91.0" text-anchor="middle" fill="#ffffff">82</text></g>
+<g class="hov"><title>GPT-6 Luna Decisions · Conjugated form: 93.3% correct</title><rect x="369" y="75" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="410.0" y="91.0" text-anchor="middle" fill="#ffffff">93</text></g>
+<g class="hov"><title>GPT-6 Luna Decisions · Translation fidelity: 97.4% correct</title><rect x="453" y="75" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="494.0" y="91.0" text-anchor="middle" fill="#ffffff">97</text></g>
+<g class="hov"><title>GPT-6 Luna Decisions · Sense of example: 95.0% correct</title><rect x="537" y="75" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="578.0" y="91.0" text-anchor="middle" fill="#ffffff">95</text></g>
+<g class="hov"><title>GPT-6 Luna Decisions · Transitivity: 81.2% correct</title><rect x="621" y="75" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="662.0" y="91.0" text-anchor="middle" fill="#ffffff">81</text></g>
+<g class="hov"><title>GPT-6 Luna Decisions · Flag triage: 53.5% correct</title><rect x="705" y="75" width="82" height="24" rx="3" fill="#b7d3f6"/><text class="cell-txt" x="746.0" y="91.0" text-anchor="middle" fill="#0b1a2e">54</text></g>
+<text class="row-lab" x="190" y="117.0" text-anchor="end">Solar Decide</text>
+<g class="hov"><title>Solar Decide · Furigana reading: 85.2% correct</title><rect x="201" y="101" width="82" height="24" rx="3" fill="#256abf"/><text class="cell-txt" x="242.0" y="117.0" text-anchor="middle" fill="#ffffff">85</text></g>
+<g class="hov"><title>Solar Decide · Inline-link sense: 63.9% correct</title><rect x="285" y="101" width="82" height="24" rx="3" fill="#86b6ef"/><text class="cell-txt" x="326.0" y="117.0" text-anchor="middle" fill="#0b1a2e">64</text></g>
+<g class="hov"><title>Solar Decide · Conjugated form: 76.1% correct</title><rect x="369" y="101" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="410.0" y="117.0" text-anchor="middle" fill="#ffffff">76</text></g>
+<g class="hov"><title>Solar Decide · Translation fidelity: 83.2% correct</title><rect x="453" y="101" width="82" height="24" rx="3" fill="#256abf"/><text class="cell-txt" x="494.0" y="117.0" text-anchor="middle" fill="#ffffff">83</text></g>
+<g class="hov"><title>Solar Decide · Sense of example: 87.5% correct</title><rect x="537" y="101" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="578.0" y="117.0" text-anchor="middle" fill="#ffffff">88</text></g>
+<g class="hov"><title>Solar Decide · Transitivity: 66.9% correct</title><rect x="621" y="101" width="82" height="24" rx="3" fill="#6da7ec"/><text class="cell-txt" x="662.0" y="117.0" text-anchor="middle" fill="#0b1a2e">67</text></g>
+<g class="hov"><title>Solar Decide · Flag triage: 54.0% correct</title><rect x="705" y="101" width="82" height="24" rx="3" fill="#b7d3f6"/><text class="cell-txt" x="746.0" y="117.0" text-anchor="middle" fill="#0b1a2e">54</text></g>
+<text class="row-lab" x="190" y="143.0" text-anchor="end">Solar Decide Flash</text>
+<g class="hov"><title>Solar Decide Flash · Furigana reading: 73.5% correct</title><rect x="201" y="127" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="242.0" y="143.0" text-anchor="middle" fill="#ffffff">73</text></g>
+<g class="hov"><title>Solar Decide Flash · Inline-link sense: 56.5% correct</title><rect x="285" y="127" width="82" height="24" rx="3" fill="#9ec5f4"/><text class="cell-txt" x="326.0" y="143.0" text-anchor="middle" fill="#0b1a2e">56</text></g>
+<g class="hov"><title>Solar Decide Flash · Conjugated form: 72.2% correct</title><rect x="369" y="127" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="410.0" y="143.0" text-anchor="middle" fill="#0b1a2e">72</text></g>
+<g class="hov"><title>Solar Decide Flash · Translation fidelity: 79.5% correct</title><rect x="453" y="127" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="494.0" y="143.0" text-anchor="middle" fill="#ffffff">79</text></g>
+<g class="hov"><title>Solar Decide Flash · Sense of example: 83.1% correct</title><rect x="537" y="127" width="82" height="24" rx="3" fill="#256abf"/><text class="cell-txt" x="578.0" y="143.0" text-anchor="middle" fill="#ffffff">83</text></g>
+<g class="hov"><title>Solar Decide Flash · Transitivity: 15.5% correct</title><rect x="621" y="127" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="662.0" y="143.0" text-anchor="middle" fill="#0b1a2e">15</text></g>
+<g class="hov"><title>Solar Decide Flash · Flag triage: 50.5% correct</title><rect x="705" y="127" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="143.0" text-anchor="middle" fill="#0b1a2e">50</text></g>
+<text class="row-lab" x="190" y="169.0" text-anchor="end">Clef (27B)</text>
+<g class="hov"><title>Clef (27B) · Furigana reading: 73.9% correct</title><rect x="201" y="153" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="242.0" y="169.0" text-anchor="middle" fill="#ffffff">74</text></g>
+<g class="hov"><title>Clef (27B) · Inline-link sense: 69.4% correct</title><rect x="285" y="153" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="326.0" y="169.0" text-anchor="middle" fill="#0b1a2e">69</text></g>
+<g class="hov"><title>Clef (27B) · Conjugated form: 71.7% correct</title><rect x="369" y="153" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="410.0" y="169.0" text-anchor="middle" fill="#0b1a2e">72</text></g>
+<g class="hov"><title>Clef (27B) · Translation fidelity: 92.6% correct</title><rect x="453" y="153" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="494.0" y="169.0" text-anchor="middle" fill="#ffffff">93</text></g>
+<g class="hov"><title>Clef (27B) · Sense of example: 92.5% correct</title><rect x="537" y="153" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="578.0" y="169.0" text-anchor="middle" fill="#ffffff">92</text></g>
+<g class="hov"><title>Clef (27B) · Transitivity: 76.8% correct</title><rect x="621" y="153" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="662.0" y="169.0" text-anchor="middle" fill="#ffffff">77</text></g>
+<g class="hov"><title>Clef (27B) · Flag triage: 51.0% correct</title><rect x="705" y="153" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="169.0" text-anchor="middle" fill="#0b1a2e">51</text></g>
+<text class="row-lab" x="190" y="195.0" text-anchor="end">Clef Omni</text>
+<g class="hov"><title>Clef Omni · Furigana reading: 69.6% correct</title><rect x="201" y="179" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="242.0" y="195.0" text-anchor="middle" fill="#0b1a2e">70</text></g>
+<g class="hov"><title>Clef Omni · Inline-link sense: 56.0% correct</title><rect x="285" y="179" width="82" height="24" rx="3" fill="#b7d3f6"/><text class="cell-txt" x="326.0" y="195.0" text-anchor="middle" fill="#0b1a2e">56</text></g>
+<g class="hov"><title>Clef Omni · Conjugated form: 61.7% correct</title><rect x="369" y="179" width="82" height="24" rx="3" fill="#86b6ef"/><text class="cell-txt" x="410.0" y="195.0" text-anchor="middle" fill="#0b1a2e">62</text></g>
+<g class="hov"><title>Clef Omni · Translation fidelity: 85.3% correct</title><rect x="453" y="179" width="82" height="24" rx="3" fill="#256abf"/><text class="cell-txt" x="494.0" y="195.0" text-anchor="middle" fill="#ffffff">85</text></g>
+<g class="hov"><title>Clef Omni · Sense of example: 92.5% correct</title><rect x="537" y="179" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="578.0" y="195.0" text-anchor="middle" fill="#ffffff">92</text></g>
+<g class="hov"><title>Clef Omni · Transitivity: 54.7% correct</title><rect x="621" y="179" width="82" height="24" rx="3" fill="#b7d3f6"/><text class="cell-txt" x="662.0" y="195.0" text-anchor="middle" fill="#0b1a2e">55</text></g>
+<g class="hov"><title>Clef Omni · Flag triage: 49.0% correct</title><rect x="705" y="179" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="195.0" text-anchor="middle" fill="#0b1a2e">49</text></g>
+<text class="row-lab" x="190" y="221.0" text-anchor="end">Clef Flash</text>
+<g class="hov"><title>Clef Flash · Furigana reading: 74.3% correct</title><rect x="201" y="205" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="242.0" y="221.0" text-anchor="middle" fill="#ffffff">74</text></g>
+<g class="hov"><title>Clef Flash · Inline-link sense: 69.0% correct</title><rect x="285" y="205" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="326.0" y="221.0" text-anchor="middle" fill="#0b1a2e">69</text></g>
+<g class="hov"><title>Clef Flash · Conjugated form: 60.0% correct</title><rect x="369" y="205" width="82" height="24" rx="3" fill="#9ec5f4"/><text class="cell-txt" x="410.0" y="221.0" text-anchor="middle" fill="#0b1a2e">60</text></g>
+<g class="hov"><title>Clef Flash · Translation fidelity: 91.6% correct</title><rect x="453" y="205" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="494.0" y="221.0" text-anchor="middle" fill="#ffffff">92</text></g>
+<g class="hov"><title>Clef Flash · Sense of example: 92.5% correct</title><rect x="537" y="205" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="578.0" y="221.0" text-anchor="middle" fill="#ffffff">92</text></g>
+<g class="hov"><title>Clef Flash · Transitivity: 76.8% correct</title><rect x="621" y="205" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="662.0" y="221.0" text-anchor="middle" fill="#ffffff">77</text></g>
+<g class="hov"><title>Clef Flash · Flag triage: 49.0% correct</title><rect x="705" y="205" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="221.0" text-anchor="middle" fill="#0b1a2e">49</text></g>
+<text class="row-lab" x="190" y="247.0" text-anchor="end">Perplexity Decider 1.1</text>
+<g class="hov"><title>Perplexity Decider 1.1 · Furigana reading: 71.3% correct</title><rect x="201" y="231" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="242.0" y="247.0" text-anchor="middle" fill="#0b1a2e">71</text></g>
+<g class="hov"><title>Perplexity Decider 1.1 · Inline-link sense: 78.7% correct</title><rect x="285" y="231" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="326.0" y="247.0" text-anchor="middle" fill="#ffffff">79</text></g>
+<g class="hov"><title>Perplexity Decider 1.1 · Conjugated form: 79.4% correct</title><rect x="369" y="231" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="410.0" y="247.0" text-anchor="middle" fill="#ffffff">79</text></g>
+<g class="hov"><title>Perplexity Decider 1.1 · Translation fidelity: 94.7% correct</title><rect x="453" y="231" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="494.0" y="247.0" text-anchor="middle" fill="#ffffff">95</text></g>
+<g class="hov"><title>Perplexity Decider 1.1 · Sense of example: 96.2% correct</title><rect x="537" y="231" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="578.0" y="247.0" text-anchor="middle" fill="#ffffff">96</text></g>
+<g class="hov"><title>Perplexity Decider 1.1 · Transitivity: 80.7% correct</title><rect x="621" y="231" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="662.0" y="247.0" text-anchor="middle" fill="#ffffff">81</text></g>
+<g class="hov"><title>Perplexity Decider 1.1 · Flag triage: 47.5% correct</title><rect x="705" y="231" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="247.0" text-anchor="middle" fill="#0b1a2e">48</text></g>
+<text class="row-lab" x="190" y="273.0" text-anchor="end">Liquid d1</text>
+<g class="hov"><title>Liquid d1 · Furigana reading: 74.8% correct</title><rect x="201" y="257" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="242.0" y="273.0" text-anchor="middle" fill="#ffffff">75</text></g>
+<g class="hov"><title>Liquid d1 · Inline-link sense: 70.8% correct</title><rect x="285" y="257" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="326.0" y="273.0" text-anchor="middle" fill="#0b1a2e">71</text></g>
+<g class="hov"><title>Liquid d1 · Conjugated form: 86.7% correct</title><rect x="369" y="257" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="410.0" y="273.0" text-anchor="middle" fill="#ffffff">87</text></g>
+<g class="hov"><title>Liquid d1 · Translation fidelity: 96.8% correct</title><rect x="453" y="257" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="494.0" y="273.0" text-anchor="middle" fill="#ffffff">97</text></g>
+<g class="hov"><title>Liquid d1 · Sense of example: 94.4% correct</title><rect x="537" y="257" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="578.0" y="273.0" text-anchor="middle" fill="#ffffff">94</text></g>
+<g class="hov"><title>Liquid d1 · Transitivity: 80.7% correct</title><rect x="621" y="257" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="662.0" y="273.0" text-anchor="middle" fill="#ffffff">81</text></g>
+<g class="hov"><title>Liquid d1 · Flag triage: 49.5% correct</title><rect x="705" y="257" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="273.0" text-anchor="middle" fill="#0b1a2e">50</text></g>
+<text class="row-lab" x="190" y="299.0" text-anchor="end">Mercury Decide</text>
+<g class="hov"><title>Mercury Decide · Furigana reading: 73.9% correct</title><rect x="201" y="283" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="242.0" y="299.0" text-anchor="middle" fill="#ffffff">74</text></g>
+<g class="hov"><title>Mercury Decide · Inline-link sense: 75.5% correct</title><rect x="285" y="283" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="326.0" y="299.0" text-anchor="middle" fill="#ffffff">75</text></g>
+<g class="hov"><title>Mercury Decide · Conjugated form: 85.6% correct</title><rect x="369" y="283" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="410.0" y="299.0" text-anchor="middle" fill="#ffffff">86</text></g>
+<g class="hov"><title>Mercury Decide · Translation fidelity: 97.4% correct</title><rect x="453" y="283" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="494.0" y="299.0" text-anchor="middle" fill="#ffffff">97</text></g>
+<g class="hov"><title>Mercury Decide · Sense of example: 91.2% correct</title><rect x="537" y="283" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="578.0" y="299.0" text-anchor="middle" fill="#ffffff">91</text></g>
+<g class="hov"><title>Mercury Decide · Transitivity: 70.2% correct</title><rect x="621" y="283" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="662.0" y="299.0" text-anchor="middle" fill="#0b1a2e">70</text></g>
+<g class="hov"><title>Mercury Decide · Flag triage: 45.0% correct</title><rect x="705" y="283" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="299.0" text-anchor="middle" fill="#0b1a2e">45</text></g>
+<text class="row-lab" x="190" y="325.0" text-anchor="end">Microsoft-Decision-1</text>
+<g class="hov"><title>Microsoft-Decision-1 · Furigana reading: 73.9% correct</title><rect x="201" y="309" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="242.0" y="325.0" text-anchor="middle" fill="#ffffff">74</text></g>
+<g class="hov"><title>Microsoft-Decision-1 · Inline-link sense: 74.5% correct</title><rect x="285" y="309" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="326.0" y="325.0" text-anchor="middle" fill="#ffffff">75</text></g>
+<g class="hov"><title>Microsoft-Decision-1 · Conjugated form: 87.2% correct</title><rect x="369" y="309" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="410.0" y="325.0" text-anchor="middle" fill="#ffffff">87</text></g>
+<g class="hov"><title>Microsoft-Decision-1 · Translation fidelity: 98.4% correct</title><rect x="453" y="309" width="82" height="24" rx="3" fill="#0d366b"/><text class="cell-txt" x="494.0" y="325.0" text-anchor="middle" fill="#ffffff">98</text></g>
+<g class="hov"><title>Microsoft-Decision-1 · Sense of example: 93.8% correct</title><rect x="537" y="309" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="578.0" y="325.0" text-anchor="middle" fill="#ffffff">94</text></g>
+<g class="hov"><title>Microsoft-Decision-1 · Transitivity: 78.5% correct</title><rect x="621" y="309" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="662.0" y="325.0" text-anchor="middle" fill="#ffffff">78</text></g>
+<g class="hov"><title>Microsoft-Decision-1 · Flag triage: 48.0% correct</title><rect x="705" y="309" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="325.0" text-anchor="middle" fill="#0b1a2e">48</text></g>
+<text class="row-lab" x="190" y="351.0" text-anchor="end">Nace Drex 1.5</text>
+<g class="hov"><title>Nace Drex 1.5 · Furigana reading: 77.4% correct</title><rect x="201" y="335" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="242.0" y="351.0" text-anchor="middle" fill="#ffffff">77</text></g>
+<g class="hov"><title>Nace Drex 1.5 · Inline-link sense: 57.9% correct</title><rect x="285" y="335" width="82" height="24" rx="3" fill="#9ec5f4"/><text class="cell-txt" x="326.0" y="351.0" text-anchor="middle" fill="#0b1a2e">58</text></g>
+<g class="hov"><title>Nace Drex 1.5 · Conjugated form: 86.1% correct</title><rect x="369" y="335" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="410.0" y="351.0" text-anchor="middle" fill="#ffffff">86</text></g>
+<g class="hov"><title>Nace Drex 1.5 · Translation fidelity: 95.8% correct</title><rect x="453" y="335" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="494.0" y="351.0" text-anchor="middle" fill="#ffffff">96</text></g>
+<g class="hov"><title>Nace Drex 1.5 · Sense of example: 86.2% correct</title><rect x="537" y="335" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="578.0" y="351.0" text-anchor="middle" fill="#ffffff">86</text></g>
+<g class="hov"><title>Nace Drex 1.5 · Transitivity: 70.7% correct</title><rect x="621" y="335" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="662.0" y="351.0" text-anchor="middle" fill="#0b1a2e">71</text></g>
+<g class="hov"><title>Nace Drex 1.5 · Flag triage: 51.0% correct</title><rect x="705" y="335" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="351.0" text-anchor="middle" fill="#0b1a2e">51</text></g>
+<text class="row-lab" x="190" y="377.0" text-anchor="end">TypeSafe Jev 1.13</text>
+<g class="hov"><title>TypeSafe Jev 1.13 · Furigana reading: 77.0% correct</title><rect x="201" y="361" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="242.0" y="377.0" text-anchor="middle" fill="#ffffff">77</text></g>
+<g class="hov"><title>TypeSafe Jev 1.13 · Inline-link sense: 77.3% correct</title><rect x="285" y="361" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="326.0" y="377.0" text-anchor="middle" fill="#ffffff">77</text></g>
+<g class="hov"><title>TypeSafe Jev 1.13 · Conjugated form: 89.4% correct</title><rect x="369" y="361" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="410.0" y="377.0" text-anchor="middle" fill="#ffffff">89</text></g>
+<g class="hov"><title>TypeSafe Jev 1.13 · Translation fidelity: 98.4% correct</title><rect x="453" y="361" width="82" height="24" rx="3" fill="#0d366b"/><text class="cell-txt" x="494.0" y="377.0" text-anchor="middle" fill="#ffffff">98</text></g>
+<g class="hov"><title>TypeSafe Jev 1.13 · Sense of example: 95.0% correct</title><rect x="537" y="361" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="578.0" y="377.0" text-anchor="middle" fill="#ffffff">95</text></g>
+<g class="hov"><title>TypeSafe Jev 1.13 · Transitivity: 82.9% correct</title><rect x="621" y="361" width="82" height="24" rx="3" fill="#256abf"/><text class="cell-txt" x="662.0" y="377.0" text-anchor="middle" fill="#ffffff">83</text></g>
+<g class="hov"><title>TypeSafe Jev 1.13 · Flag triage: 50.5% correct</title><rect x="705" y="361" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="377.0" text-anchor="middle" fill="#0b1a2e">50</text></g>
+<text class="row-lab" x="190" y="403.0" text-anchor="end">Kev 4B</text>
+<g class="hov"><title>Kev 4B · Furigana reading: 67.0% correct</title><rect x="201" y="387" width="82" height="24" rx="3" fill="#6da7ec"/><text class="cell-txt" x="242.0" y="403.0" text-anchor="middle" fill="#0b1a2e">67</text></g>
+<g class="hov"><title>Kev 4B · Inline-link sense: 66.7% correct</title><rect x="285" y="387" width="82" height="24" rx="3" fill="#6da7ec"/><text class="cell-txt" x="326.0" y="403.0" text-anchor="middle" fill="#0b1a2e">67</text></g>
+<g class="hov"><title>Kev 4B · Conjugated form: 74.4% correct</title><rect x="369" y="387" width="82" height="24" rx="3" fill="#3987e5"/><text class="cell-txt" x="410.0" y="403.0" text-anchor="middle" fill="#ffffff">74</text></g>
+<g class="hov"><title>Kev 4B · Translation fidelity: 95.3% correct</title><rect x="453" y="387" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="494.0" y="403.0" text-anchor="middle" fill="#ffffff">95</text></g>
+<g class="hov"><title>Kev 4B · Sense of example: 88.1% correct</title><rect x="537" y="387" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="578.0" y="403.0" text-anchor="middle" fill="#ffffff">88</text></g>
+<g class="hov"><title>Kev 4B · Transitivity: 66.9% correct</title><rect x="621" y="387" width="82" height="24" rx="3" fill="#6da7ec"/><text class="cell-txt" x="662.0" y="403.0" text-anchor="middle" fill="#0b1a2e">67</text></g>
+<g class="hov"><title>Kev 4B · Flag triage: 50.5% correct</title><rect x="705" y="387" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="403.0" text-anchor="middle" fill="#0b1a2e">50</text></g>
+<text class="row-lab" x="190" y="429.0" text-anchor="end">Together Tev1 4B</text>
+<g class="hov"><title>Together Tev1 4B · Furigana reading: 68.3% correct</title><rect x="201" y="413" width="82" height="24" rx="3" fill="#6da7ec"/><text class="cell-txt" x="242.0" y="429.0" text-anchor="middle" fill="#0b1a2e">68</text></g>
+<g class="hov"><title>Together Tev1 4B · Inline-link sense: 63.4% correct</title><rect x="285" y="413" width="82" height="24" rx="3" fill="#86b6ef"/><text class="cell-txt" x="326.0" y="429.0" text-anchor="middle" fill="#0b1a2e">63</text></g>
+<g class="hov"><title>Together Tev1 4B · Conjugated form: 78.9% correct</title><rect x="369" y="413" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="410.0" y="429.0" text-anchor="middle" fill="#ffffff">79</text></g>
+<g class="hov"><title>Together Tev1 4B · Translation fidelity: 85.3% correct</title><rect x="453" y="413" width="82" height="24" rx="3" fill="#256abf"/><text class="cell-txt" x="494.0" y="429.0" text-anchor="middle" fill="#ffffff">85</text></g>
+<g class="hov"><title>Together Tev1 4B · Sense of example: 88.1% correct</title><rect x="537" y="413" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="578.0" y="429.0" text-anchor="middle" fill="#ffffff">88</text></g>
+<g class="hov"><title>Together Tev1 4B · Transitivity: 63.5% correct</title><rect x="621" y="413" width="82" height="24" rx="3" fill="#86b6ef"/><text class="cell-txt" x="662.0" y="429.0" text-anchor="middle" fill="#0b1a2e">64</text></g>
+<g class="hov"><title>Together Tev1 4B · Flag triage: 57.0% correct</title><rect x="705" y="413" width="82" height="24" rx="3" fill="#9ec5f4"/><text class="cell-txt" x="746.0" y="429.0" text-anchor="middle" fill="#0b1a2e">57</text></g>
+<text class="row-lab" x="190" y="455.0" text-anchor="end">Respan Span-01</text>
+<g class="hov"><title>Respan Span-01 · Furigana reading: 69.1% correct</title><rect x="201" y="439" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="242.0" y="455.0" text-anchor="middle" fill="#0b1a2e">69</text></g>
+<g class="hov"><title>Respan Span-01 · Inline-link sense: 54.2% correct</title><rect x="285" y="439" width="82" height="24" rx="3" fill="#b7d3f6"/><text class="cell-txt" x="326.0" y="455.0" text-anchor="middle" fill="#0b1a2e">54</text></g>
+<g class="hov"><title>Respan Span-01 · Conjugated form: 61.1% correct</title><rect x="369" y="439" width="82" height="24" rx="3" fill="#86b6ef"/><text class="cell-txt" x="410.0" y="455.0" text-anchor="middle" fill="#0b1a2e">61</text></g>
+<g class="hov"><title>Respan Span-01 · Translation fidelity: 80.0% correct</title><rect x="453" y="439" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="494.0" y="455.0" text-anchor="middle" fill="#ffffff">80</text></g>
+<rect x="537" y="439" width="82" height="24" rx="3" class="cell-na"/><text class="cell-txt na" x="578.0" y="455.0" text-anchor="middle">n/a</text>
+<rect x="621" y="439" width="82" height="24" rx="3" class="cell-na"/><text class="cell-txt na" x="662.0" y="455.0" text-anchor="middle">n/a</text>
+<g class="hov"><title>Respan Span-01 · Flag triage: 50.0% correct</title><rect x="705" y="439" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="455.0" text-anchor="middle" fill="#0b1a2e">50</text></g>
+<text class="row-lab" x="190" y="481.0" text-anchor="end">Respan Span-01 Lite</text>
+<g class="hov"><title>Respan Span-01 Lite · Furigana reading: 69.1% correct</title><rect x="201" y="465" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="242.0" y="481.0" text-anchor="middle" fill="#0b1a2e">69</text></g>
+<g class="hov"><title>Respan Span-01 Lite · Inline-link sense: 54.2% correct</title><rect x="285" y="465" width="82" height="24" rx="3" fill="#b7d3f6"/><text class="cell-txt" x="326.0" y="481.0" text-anchor="middle" fill="#0b1a2e">54</text></g>
+<g class="hov"><title>Respan Span-01 Lite · Conjugated form: 61.1% correct</title><rect x="369" y="465" width="82" height="24" rx="3" fill="#86b6ef"/><text class="cell-txt" x="410.0" y="481.0" text-anchor="middle" fill="#0b1a2e">61</text></g>
+<g class="hov"><title>Respan Span-01 Lite · Translation fidelity: 80.0% correct</title><rect x="453" y="465" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="494.0" y="481.0" text-anchor="middle" fill="#ffffff">80</text></g>
+<rect x="537" y="465" width="82" height="24" rx="3" class="cell-na"/><text class="cell-txt na" x="578.0" y="481.0" text-anchor="middle">n/a</text>
+<rect x="621" y="465" width="82" height="24" rx="3" class="cell-na"/><text class="cell-txt na" x="662.0" y="481.0" text-anchor="middle">n/a</text>
+<g class="hov"><title>Respan Span-01 Lite · Flag triage: 50.0% correct</title><rect x="705" y="465" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="481.0" text-anchor="middle" fill="#0b1a2e">50</text></g>
+<text class="grp-lab" x="0" y="505">LLMs FOR COMPARISON (batched, 20 items per call)</text>
+<text class="row-lab" x="190" y="529.0" text-anchor="end">Gemini 2.5 Flash</text>
+<g class="hov"><title>Gemini 2.5 Flash · Furigana reading: 94.8% correct</title><rect x="201" y="513" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="242.0" y="529.0" text-anchor="middle" fill="#ffffff">95</text></g>
+<g class="hov"><title>Gemini 2.5 Flash · Inline-link sense: 66.2% correct</title><rect x="285" y="513" width="82" height="24" rx="3" fill="#6da7ec"/><text class="cell-txt" x="326.0" y="529.0" text-anchor="middle" fill="#0b1a2e">66</text></g>
+<g class="hov"><title>Gemini 2.5 Flash · Conjugated form: 87.2% correct</title><rect x="369" y="513" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="410.0" y="529.0" text-anchor="middle" fill="#ffffff">87</text></g>
+<g class="hov"><title>Gemini 2.5 Flash · Translation fidelity: 98.9% correct</title><rect x="453" y="513" width="82" height="24" rx="3" fill="#0d366b"/><text class="cell-txt" x="494.0" y="529.0" text-anchor="middle" fill="#ffffff">99</text></g>
+<g class="hov"><title>Gemini 2.5 Flash · Sense of example: 96.2% correct</title><rect x="537" y="513" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="578.0" y="529.0" text-anchor="middle" fill="#ffffff">96</text></g>
+<g class="hov"><title>Gemini 2.5 Flash · Transitivity: 81.2% correct</title><rect x="621" y="513" width="82" height="24" rx="3" fill="#2a78d6"/><text class="cell-txt" x="662.0" y="529.0" text-anchor="middle" fill="#ffffff">81</text></g>
+<g class="hov"><title>Gemini 2.5 Flash · Flag triage: 50.5% correct</title><rect x="705" y="513" width="82" height="24" rx="3" fill="#cde2fb"/><text class="cell-txt" x="746.0" y="529.0" text-anchor="middle" fill="#0b1a2e">50</text></g>
+<text class="row-lab" x="190" y="555.0" text-anchor="end">GPT-6 Luna</text>
+<g class="hov"><title>GPT-6 Luna · Furigana reading: 93.9% correct</title><rect x="201" y="539" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="242.0" y="555.0" text-anchor="middle" fill="#ffffff">94</text></g>
+<g class="hov"><title>GPT-6 Luna · Inline-link sense: 81.9% correct</title><rect x="285" y="539" width="82" height="24" rx="3" fill="#256abf"/><text class="cell-txt" x="326.0" y="555.0" text-anchor="middle" fill="#ffffff">82</text></g>
+<g class="hov"><title>GPT-6 Luna · Conjugated form: 72.2% correct</title><rect x="369" y="539" width="82" height="24" rx="3" fill="#5598e7"/><text class="cell-txt" x="410.0" y="555.0" text-anchor="middle" fill="#0b1a2e">72</text></g>
+<g class="hov"><title>GPT-6 Luna · Translation fidelity: 99.5% correct</title><rect x="453" y="539" width="82" height="24" rx="3" fill="#0d366b"/><text class="cell-txt" x="494.0" y="555.0" text-anchor="middle" fill="#ffffff">99</text></g>
+<g class="hov"><title>GPT-6 Luna · Sense of example: 95.6% correct</title><rect x="537" y="539" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="578.0" y="555.0" text-anchor="middle" fill="#ffffff">96</text></g>
+<g class="hov"><title>GPT-6 Luna · Transitivity: 96.1% correct</title><rect x="621" y="539" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="662.0" y="555.0" text-anchor="middle" fill="#ffffff">96</text></g>
+<g class="hov"><title>GPT-6 Luna · Flag triage: 55.0% correct</title><rect x="705" y="539" width="82" height="24" rx="3" fill="#b7d3f6"/><text class="cell-txt" x="746.0" y="555.0" text-anchor="middle" fill="#0b1a2e">55</text></g>
+<text class="row-lab" x="190" y="581.0" text-anchor="end">Claude Haiku 5.5</text>
+<g class="hov"><title>Claude Haiku 5.5 · Furigana reading: 97.0% correct</title><rect x="201" y="565" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="242.0" y="581.0" text-anchor="middle" fill="#ffffff">97</text></g>
+<g class="hov"><title>Claude Haiku 5.5 · Inline-link sense: 83.8% correct</title><rect x="285" y="565" width="82" height="24" rx="3" fill="#256abf"/><text class="cell-txt" x="326.0" y="581.0" text-anchor="middle" fill="#ffffff">84</text></g>
+<g class="hov"><title>Claude Haiku 5.5 · Conjugated form: 99.4% correct</title><rect x="369" y="565" width="82" height="24" rx="3" fill="#0d366b"/><text class="cell-txt" x="410.0" y="581.0" text-anchor="middle" fill="#ffffff">99</text></g>
+<g class="hov"><title>Claude Haiku 5.5 · Translation fidelity: 99.5% correct</title><rect x="453" y="565" width="82" height="24" rx="3" fill="#0d366b"/><text class="cell-txt" x="494.0" y="581.0" text-anchor="middle" fill="#ffffff">99</text></g>
+<g class="hov"><title>Claude Haiku 5.5 · Sense of example: 95.0% correct</title><rect x="537" y="565" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="578.0" y="581.0" text-anchor="middle" fill="#ffffff">95</text></g>
+<g class="hov"><title>Claude Haiku 5.5 · Transitivity: 89.5% correct</title><rect x="621" y="565" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="662.0" y="581.0" text-anchor="middle" fill="#ffffff">90</text></g>
+<g class="hov"><title>Claude Haiku 5.5 · Flag triage: 60.0% correct</title><rect x="705" y="565" width="82" height="24" rx="3" fill="#9ec5f4"/><text class="cell-txt" x="746.0" y="581.0" text-anchor="middle" fill="#0b1a2e">60</text></g>
+<text class="row-lab" x="190" y="607.0" text-anchor="end">GPT-6.1 Sol</text>
+<g class="hov"><title>GPT-6.1 Sol · Furigana reading: 98.7% correct</title><rect x="201" y="591" width="82" height="24" rx="3" fill="#0d366b"/><text class="cell-txt" x="242.0" y="607.0" text-anchor="middle" fill="#ffffff">99</text></g>
+<g class="hov"><title>GPT-6.1 Sol · Inline-link sense: 86.1% correct</title><rect x="285" y="591" width="82" height="24" rx="3" fill="#1c5cab"/><text class="cell-txt" x="326.0" y="607.0" text-anchor="middle" fill="#ffffff">86</text></g>
+<g class="hov"><title>GPT-6.1 Sol · Conjugated form: 100.0% correct</title><rect x="369" y="591" width="82" height="24" rx="3" fill="#0d366b"/><text class="cell-txt" x="410.0" y="607.0" text-anchor="middle" fill="#ffffff">100</text></g>
+<g class="hov"><title>GPT-6.1 Sol · Translation fidelity: 100.0% correct</title><rect x="453" y="591" width="82" height="24" rx="3" fill="#0d366b"/><text class="cell-txt" x="494.0" y="607.0" text-anchor="middle" fill="#ffffff">100</text></g>
+<g class="hov"><title>GPT-6.1 Sol · Sense of example: 96.9% correct</title><rect x="537" y="591" width="82" height="24" rx="3" fill="#104281"/><text class="cell-txt" x="578.0" y="607.0" text-anchor="middle" fill="#ffffff">97</text></g>
+<g class="hov"><title>GPT-6.1 Sol · Transitivity: 92.8% correct</title><rect x="621" y="591" width="82" height="24" rx="3" fill="#184f95"/><text class="cell-txt" x="662.0" y="607.0" text-anchor="middle" fill="#ffffff">93</text></g>
+<g class="hov"><title>GPT-6.1 Sol · Flag triage: 59.0% correct</title><rect x="705" y="591" width="82" height="24" rx="3" fill="#9ec5f4"/><text class="cell-txt" x="746.0" y="607.0" text-anchor="middle" fill="#0b1a2e">59</text></g>
+</svg></div>
+  <figcaption><b>Accuracy by model and task (%).</b> Darker is better; 50% is chance on the yes/no tasks. Decision models are strong on meaning (translation, sense) and weaker where the question turns on kana-level detail (readings, conjugation) or on a word’s grammatical identity (links). Flag triage is near chance for every model. Hover a cell for the exact figure.</figcaption>
+</figure>
+
+<h2><span class="sec">Price and accuracy</span>Cheap is not the same as good value</h2>
+<figure>
+  <div class="legend"><span><i class="sw dot" style="background:var(--s1)"></i>Decision model</span><span><i class="sw" style="background:var(--s2)"></i>LLM, batched 20 per call</span></div>
+  <svg class="chart" viewBox="0 0 720 380" role="img" aria-label="Mean accuracy on four tasks against Cost per 1,000 items checked (USD, log scale)">
+<line class="grid" x1="56.0" x2="56.0" y1="16" y2="332"/>
+<text class="tick" x="56.0" y="350" text-anchor="middle">$0.001</text>
+<line class="grid" x1="269.3333333333333" x2="269.3333333333333" y1="16" y2="332"/>
+<text class="tick" x="269.3333333333333" y="350" text-anchor="middle">$0.01</text>
+<line class="grid" x1="482.66666666666663" x2="482.66666666666663" y1="16" y2="332"/>
+<text class="tick" x="482.66666666666663" y="350" text-anchor="middle">$0.1</text>
+<line class="grid" x1="696.0" x2="696.0" y1="16" y2="332"/>
+<text class="tick" x="696.0" y="350" text-anchor="middle">$1</text>
+<line class="grid" x1="56" x2="696" y1="331.99999999999994" y2="331.99999999999994"/>
+<text class="tick" x="48" y="335.99999999999994" text-anchor="end">60%</text>
+<line class="grid" x1="56" x2="696" y1="252.99999999999994" y2="252.99999999999994"/>
+<text class="tick" x="48" y="256.99999999999994" text-anchor="end">70%</text>
+<line class="grid" x1="56" x2="696" y1="173.99999999999997" y2="173.99999999999997"/>
+<text class="tick" x="48" y="177.99999999999997" text-anchor="end">80%</text>
+<line class="grid" x1="56" x2="696" y1="94.99999999999997" y2="94.99999999999997"/>
+<text class="tick" x="48" y="98.99999999999997" text-anchor="end">90%</text>
+<line class="grid" x1="56" x2="696" y1="16.0" y2="16.0"/>
+<text class="tick" x="48" y="20.0" text-anchor="end">100%</text>
+<text class="axis-lab" x="376.0" y="372" text-anchor="middle">Cost per 1,000 items checked (USD, log scale)</text>
+<text class="axis-lab" transform="translate(14 174.0) rotate(-90)" text-anchor="middle">Mean accuracy on four tasks</text>
+<g class="hov"><title>GPT-6 Luna Decisions: 91.2% mean accuracy, $0.028 per 1,000 items</title><circle cx="364.4698199670121" cy="85.48027904907191" r="6" class="pt-dec"/></g>
+<text class="pt-lab" x="374.4698199670121" y="89.48027904907191" text-anchor="start">GPT-6 Luna Decisions</text>
+<g class="hov"><title>Solar Decide: 77.1% mean accuracy, $0.025 per 1,000 items</title><circle cx="353.60277738281656" cy="196.9588100686499" r="6" class="pt-dec"/></g>
+<g class="hov"><title>Solar Decide Flash: 70.4% mean accuracy, $0.025 per 1,000 items</title><circle cx="353.60277738281656" cy="249.73009365200434" r="6" class="pt-dec"/></g>
+<text class="pt-lab" x="363.60277738281656" y="253.73009365200434" text-anchor="start">Solar Decide Flash</text>
+<g class="hov"><title>Clef (27B): 76.9% mean accuracy, $0.057 per 1,000 items</title><circle cx="431.3597948103402" cy="198.37992626493772" r="6" class="pt-dec"/></g>
+<text class="pt-lab" x="421.3597948103402" y="202.37992626493772" text-anchor="end">Clef (27B)</text>
+<g class="hov"><title>Clef Omni: 68.1% mean accuracy, $0.036 per 1,000 items</title><circle cx="387.5095182192108" cy="267.7857180693279" r="6" class="pt-dec"/></g>
+<g class="hov"><title>Clef Flash: 73.7% mean accuracy, $0.009 per 1,000 items</title><circle cx="260.5978672977573" cy="223.5561964997034" r="6" class="pt-dec"/></g>
+<g class="hov"><title>Perplexity Decider 1.1: 81.0% mean accuracy, $0.004 per 1,000 items</title><circle cx="186.2886225751454" cy="165.726057292991" r="6" class="pt-dec"/></g>
+<text class="pt-lab" x="176.2886225751454" y="177.726057292991" text-anchor="end">Perplexity Decider 1.1</text>
+<g class="hov"><title>Liquid d1: 82.3% mean accuracy, $0.007 per 1,000 items</title><circle cx="232.96143128961762" cy="155.97868993135006" r="6" class="pt-dec"/></g>
+<g class="hov"><title>Mercury Decide: 83.1% mean accuracy, $0.004 per 1,000 items</title><circle cx="174.04971132615142" cy="149.7075334774133" r="6" class="pt-dec"/></g>
+<text class="pt-lab" x="164.04971132615142" y="147.7075334774133" text-anchor="end">Mercury Decide</text>
+<g class="hov"><title>Microsoft-Decision-1: 83.5% mean accuracy, $0.006 per 1,000 items</title><circle cx="223.37931510726168" cy="146.16562314602936" r="6" class="pt-dec"/></g>
+<text class="pt-lab" x="233.37931510726168" y="162.16562314602936" text-anchor="start">Microsoft-Decision-1</text>
+<g class="hov"><title>Nace Drex 1.5: 79.3% mean accuracy, $0.005 per 1,000 items</title><circle cx="212.43585826560232" cy="179.60453746080177" r="6" class="pt-dec"/></g>
+<g class="hov"><title>TypeSafe Jev 1.13: 85.5% mean accuracy, $0.018 per 1,000 items</title><circle cx="324.527194831649" cy="130.2797535808119" r="6" class="pt-dec"/></g>
+<text class="pt-lab" x="314.527194831649" y="120.2797535808119" text-anchor="end">TypeSafe Jev 1.13</text>
+<g class="hov"><title>Kev 4B: 75.8% mean accuracy, $0.006 per 1,000 items</title><circle cx="216.95624206718912" cy="206.92168827866766" r="6" class="pt-dec"/></g>
+<g class="hov"><title>Together Tev1 4B: 74.0% mean accuracy, $0.008 per 1,000 items</title><circle cx="254.09737729637942" cy="221.71828650733113" r="6" class="pt-dec"/></g>
+<g class="hov"><title>Respan Span-01: 66.1% mean accuracy, $0.004 per 1,000 items</title><circle cx="192.9717712531562" cy="283.7937801932367" r="6" class="pt-dec"/></g>
+<g class="hov"><title>Gemini 2.5 Flash: 86.8% mean accuracy, $0.105 per 1,000 items</title><rect x="481.51206717272066" y="114.36709149080428" width="12" height="12" rx="2" class="pt-llm"/></g>
+<text class="pt-lab" x="497.51206717272066" y="124.36709149080428" text-anchor="start">Gemini 2.5 Flash</text>
+<g class="hov"><title>GPT-6 Luna: 86.9% mean accuracy, $0.039 per 1,000 items</title><rect x="388.3506401513717" y="113.58204614797863" width="12" height="12" rx="2" class="pt-llm"/></g>
+<text class="pt-lab" x="404.3506401513717" y="133.58204614797864" text-anchor="start">GPT-6 Luna</text>
+<g class="hov"><title>Claude Haiku 5.5: 94.9% mean accuracy, $0.054 per 1,000 items</title><rect x="419.3318254229973" y="50.14988028646495" width="12" height="12" rx="2" class="pt-llm"/></g>
+<text class="pt-lab" x="435.3318254229973" y="48.14988028646495" text-anchor="start">Claude Haiku 5.5</text>
+<g class="hov"><title>GPT-6.1 Sol: 96.2% mean accuracy, $0.441 per 1,000 items</title><rect x="614.2209082585648" y="40.00664251207729" width="12" height="12" rx="2" class="pt-llm"/></g>
+<text class="pt-lab" x="610.2209082585648" y="50.00664251207729" text-anchor="end">GPT-6.1 Sol</text>
+</svg>
+  <figcaption><b>Mean accuracy on the four yes/no tasks every model answered</b> (furigana, links, conjugation, translation) against measured cost per 1,000 items. Most decision models sit far to the left, but well below the LLMs. Only GPT-6 Luna Decisions, and to a lesser degree Jev, reach the LLMs’ band, and there Claude Haiku 5.5 and GPT-6 Luna (both new, both $0.10 per million input tokens) cost little more and score higher. GPT-6.1 Sol is best but about ten times the price of the cheap LLMs.</figcaption>
+</figure>
+
+<h2><span class="sec">Where they fail</span>Readings and links in detail</h2>
+<figure>
+  <div class="legend"><span><i class="sw" style="background:var(--s1)"></i>GPT-6 Luna Decisions</span><span><i class="sw" style="background:var(--s3)"></i>Microsoft-Decision-1</span><span><i class="sw" style="background:var(--s2)"></i>Gemini 2.5 Flash</span><span><i class="sw" style="background:var(--s4)"></i>Claude Haiku 5.5</span></div>
+  <svg class="chart" viewBox="0 0 720 300" role="img" aria-label="Share judged correctly">
+<line class="grid" x1="48" x2="710" y1="244" y2="244"/><text class="tick" x="40" y="248" text-anchor="end">0%</text>
+<line class="grid" x1="48" x2="710" y1="186.5" y2="186.5"/><text class="tick" x="40" y="190.5" text-anchor="end">25%</text>
+<line class="grid" x1="48" x2="710" y1="129.0" y2="129.0"/><text class="tick" x="40" y="133.0" text-anchor="end">50%</text>
+<line class="grid" x1="48" x2="710" y1="71.5" y2="71.5"/><text class="tick" x="40" y="75.5" text-anchor="end">75%</text>
+<line class="grid" x1="48" x2="710" y1="14.0" y2="14.0"/><text class="tick" x="40" y="18.0" text-anchor="end">100%</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Correct
+readings: 95%</title><rect x="56.166666666666664" y="25.5" width="22" height="218.5" rx="2" class="bar-s1"/></g>
+<g class="hov"><title>Microsoft-Decision-1 · Correct
+readings: 95%</title><rect x="80.16666666666666" y="25.5" width="22" height="218.5" rx="2" class="bar-s3"/></g>
+<g class="hov"><title>Gemini 2.5 Flash (current) · Correct
+readings: 99%</title><rect x="104.16666666666666" y="16.30000000000001" width="22" height="227.7" rx="2" class="bar-s2"/></g>
+<g class="hov"><title>Claude Haiku 5.5 · Correct
+readings: 100%</title><rect x="128.16666666666666" y="14.0" width="22" height="230.0" rx="2" class="bar-s4"/></g>
+<text class="tick" x="103.16666666666666" y="260" text-anchor="middle">Correct</text>
+<text class="tick" x="103.16666666666666" y="273" text-anchor="middle">readings</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Voicing
+(rendaku): 91%</title><rect x="166.49999999999997" y="35.395348837209326" width="22" height="208.60465116279067" rx="2" class="bar-s1"/></g>
+<g class="hov"><title>Microsoft-Decision-1 · Voicing
+(rendaku): 51%</title><rect x="190.49999999999997" y="126.32558139534883" width="22" height="117.67441860465117" rx="2" class="bar-s3"/></g>
+<g class="hov"><title>Gemini 2.5 Flash (current) · Voicing
+(rendaku): 100%</title><rect x="214.49999999999997" y="14.0" width="22" height="230.0" rx="2" class="bar-s2"/></g>
+<g class="hov"><title>Claude Haiku 5.5 · Voicing
+(rendaku): 100%</title><rect x="238.49999999999997" y="14.0" width="22" height="230.0" rx="2" class="bar-s4"/></g>
+<text class="tick" x="213.49999999999997" y="260" text-anchor="middle">Voicing</text>
+<text class="tick" x="213.49999999999997" y="273" text-anchor="middle">(rendaku)</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Long
+vowel: 83%</title><rect x="276.8333333333333" y="52.333333333333314" width="22" height="191.66666666666669" rx="2" class="bar-s1"/></g>
+<g class="hov"><title>Microsoft-Decision-1 · Long
+vowel: 28%</title><rect x="300.8333333333333" y="180.11111111111111" width="22" height="63.88888888888889" rx="2" class="bar-s3"/></g>
+<g class="hov"><title>Gemini 2.5 Flash (current) · Long
+vowel: 94%</title><rect x="324.8333333333333" y="26.77777777777777" width="22" height="217.22222222222223" rx="2" class="bar-s2"/></g>
+<g class="hov"><title>Claude Haiku 5.5 · Long
+vowel: 100%</title><rect x="348.8333333333333" y="14.0" width="22" height="230.0" rx="2" class="bar-s4"/></g>
+<text class="tick" x="323.8333333333333" y="260" text-anchor="middle">Long</text>
+<text class="tick" x="323.8333333333333" y="273" text-anchor="middle">vowel</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Small
+ゃゅょ: 100%</title><rect x="387.1666666666667" y="14.0" width="22" height="230.0" rx="2" class="bar-s1"/></g>
+<g class="hov"><title>Microsoft-Decision-1 · Small
+ゃゅょ: 50%</title><rect x="411.1666666666667" y="129.0" width="22" height="115.0" rx="2" class="bar-s3"/></g>
+<g class="hov"><title>Gemini 2.5 Flash (current) · Small
+ゃゅょ: 100%</title><rect x="435.1666666666667" y="14.0" width="22" height="230.0" rx="2" class="bar-s2"/></g>
+<g class="hov"><title>Claude Haiku 5.5 · Small
+ゃゅょ: 100%</title><rect x="459.1666666666667" y="14.0" width="22" height="230.0" rx="2" class="bar-s4"/></g>
+<text class="tick" x="434.1666666666667" y="260" text-anchor="middle">Small</text>
+<text class="tick" x="434.1666666666667" y="273" text-anchor="middle">ゃゅょ</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Counter
+readings: 88%</title><rect x="497.5" y="42.75" width="22" height="201.25" rx="2" class="bar-s1"/></g>
+<g class="hov"><title>Microsoft-Decision-1 · Counter
+readings: 12%</title><rect x="521.5" y="215.25" width="22" height="28.75" rx="2" class="bar-s3"/></g>
+<g class="hov"><title>Gemini 2.5 Flash (current) · Counter
+readings: 88%</title><rect x="545.5" y="42.75" width="22" height="201.25" rx="2" class="bar-s2"/></g>
+<g class="hov"><title>Claude Haiku 5.5 · Counter
+readings: 100%</title><rect x="569.5" y="14.0" width="22" height="230.0" rx="2" class="bar-s4"/></g>
+<text class="tick" x="544.5" y="260" text-anchor="middle">Counter</text>
+<text class="tick" x="544.5" y="273" text-anchor="middle">readings</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Homograph
+(wrong word): 71%</title><rect x="607.8333333333333" y="79.71428571428572" width="22" height="164.28571428571428" rx="2" class="bar-s1"/></g>
+<g class="hov"><title>Microsoft-Decision-1 · Homograph
+(wrong word): 43%</title><rect x="631.8333333333333" y="145.42857142857144" width="22" height="98.57142857142857" rx="2" class="bar-s3"/></g>
+<g class="hov"><title>Gemini 2.5 Flash (current) · Homograph
+(wrong word): 57%</title><rect x="655.8333333333333" y="112.57142857142858" width="22" height="131.42857142857142" rx="2" class="bar-s2"/></g>
+<g class="hov"><title>Claude Haiku 5.5 · Homograph
+(wrong word): 64%</title><rect x="679.8333333333333" y="96.14285714285714" width="22" height="147.85714285714286" rx="2" class="bar-s4"/></g>
+<text class="tick" x="654.8333333333333" y="260" text-anchor="middle">Homograph</text>
+<text class="tick" x="654.8333333333333" y="273" text-anchor="middle">(wrong word)</text>
+<line class="axis" x1="48" x2="710" y1="244" y2="244"/>
+</svg>
+  <figcaption><b>Furigana: share judged correctly, by kind of item.</b> All four accept correct readings. The smaller decision models wave through most sound-change errors: Microsoft-Decision-1 accepts half of the voicing errors and most counter misreadings. Homographs (方々 read ほうぼう in ご出席の方々) are hardest for everyone.</figcaption>
+</figure>
+<figure>
+  <div class="legend"><span><i class="sw" style="background:var(--s1)"></i>GPT-6 Luna Decisions</span><span><i class="sw" style="background:var(--s3)"></i>Microsoft-Decision-1</span><span><i class="sw" style="background:var(--s2)"></i>Gemini 2.5 Flash</span><span><i class="sw" style="background:var(--s4)"></i>Claude Haiku 5.5</span></div>
+  <svg class="chart" viewBox="0 0 720 260" role="img" aria-label="Share judged correctly">
+<line class="grid" x1="48" x2="710" y1="204" y2="204"/><text class="tick" x="40" y="208" text-anchor="end">0%</text>
+<line class="grid" x1="48" x2="710" y1="156.5" y2="156.5"/><text class="tick" x="40" y="160.5" text-anchor="end">25%</text>
+<line class="grid" x1="48" x2="710" y1="109.0" y2="109.0"/><text class="tick" x="40" y="113.0" text-anchor="end">50%</text>
+<line class="grid" x1="48" x2="710" y1="61.5" y2="61.5"/><text class="tick" x="40" y="65.5" text-anchor="end">75%</text>
+<line class="grid" x1="48" x2="710" y1="14.0" y2="14.0"/><text class="tick" x="40" y="18.0" text-anchor="end">100%</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Correct links
+(should keep): 75%</title><rect x="111.33333333333333" y="61.06422018348624" width="22" height="142.93577981651376" rx="2" class="bar-s1"/></g>
+<g class="hov"><title>Microsoft-Decision-1 · Correct links
+(should keep): 76%</title><rect x="135.33333333333331" y="59.32110091743118" width="22" height="144.67889908256882" rx="2" class="bar-s3"/></g>
+<g class="hov"><title>Gemini 2.5 Flash (current) · Correct links
+(should keep): 76%</title><rect x="159.33333333333331" y="59.32110091743118" width="22" height="144.67889908256882" rx="2" class="bar-s2"/></g>
+<g class="hov"><title>Claude Haiku 5.5 · Correct links
+(should keep): 91%</title><rect x="183.33333333333331" y="31.431192660550465" width="22" height="172.56880733944953" rx="2" class="bar-s4"/></g>
+<text class="tick" x="158.33333333333331" y="220" text-anchor="middle">Correct links</text>
+<text class="tick" x="158.33333333333331" y="233" text-anchor="middle">(should keep)</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Wrong links
+(should unlink): 90%</title><rect x="331.99999999999994" y="32.387096774193566" width="22" height="171.61290322580643" rx="2" class="bar-s1"/></g>
+<g class="hov"><title>Microsoft-Decision-1 · Wrong links
+(should unlink): 73%</title><rect x="355.99999999999994" y="65.07526881720429" width="22" height="138.9247311827957" rx="2" class="bar-s3"/></g>
+<g class="hov"><title>Gemini 2.5 Flash (current) · Wrong links
+(should unlink): 57%</title><rect x="379.99999999999994" y="95.72043010752687" width="22" height="108.27956989247313" rx="2" class="bar-s2"/></g>
+<g class="hov"><title>Claude Haiku 5.5 · Wrong links
+(should unlink): 81%</title><rect x="403.99999999999994" y="50.7741935483871" width="22" height="153.2258064516129" rx="2" class="bar-s4"/></g>
+<text class="tick" x="378.99999999999994" y="220" text-anchor="middle">Wrong links</text>
+<text class="tick" x="378.99999999999994" y="233" text-anchor="middle">(should unlink)</text>
+<g class="hov"><title>GPT-6 Luna Decisions · Wrong target
+(retarget): 79%</title><rect x="552.6666666666666" y="54.71428571428572" width="22" height="149.28571428571428" rx="2" class="bar-s1"/></g>
+<g class="hov"><title>Microsoft-Decision-1 · Wrong target
+(retarget): 71%</title><rect x="576.6666666666666" y="68.28571428571428" width="22" height="135.71428571428572" rx="2" class="bar-s3"/></g>
+<g class="hov"><title>Gemini 2.5 Flash (current) · Wrong target
+(retarget): 50%</title><rect x="600.6666666666666" y="109.0" width="22" height="95.0" rx="2" class="bar-s2"/></g>
+<g class="hov"><title>Claude Haiku 5.5 · Wrong target
+(retarget): 50%</title><rect x="624.6666666666666" y="109.0" width="22" height="95.0" rx="2" class="bar-s4"/></g>
+<text class="tick" x="599.6666666666666" y="220" text-anchor="middle">Wrong target</text>
+<text class="tick" x="599.6666666666666" y="233" text-anchor="middle">(retarget)</text>
+<line class="axis" x1="48" x2="710" y1="204" y2="204"/>
+</svg>
+  <figcaption><b>Inline links: share judged correctly.</b> Gemini 2.5 Flash, the screener <code>review_links.py</code> uses now, catches only about half of the wrong links. GPT-6 Luna Decisions catches nine in ten but also questions a quarter of the correct ones, which Claude would then have to clear.</figcaption>
+</figure>
+
+<h2><span class="sec">Workflow</span>Using a decision model as a first pass</h2>
+<div class="col">
+<p>The realistic way to use a cheap model is a cascade: it settles the items it is confident about, and only the rest go to an LLM. I fitted the confidence cut-offs on half of each test set, aiming for 97% agreement on the items settled, and measured on the other half. The table shows what share the best decision model settled, and the accuracy and cost of the combined system compared with each LLM alone.</p>
+</div>
+<div class="tbl">
+<table>
+<thead><tr><th>Task</th><th>First pass</th><th class="num">Settled by it</th><th class="num">+ Haiku 5.5</th><th class="num">Haiku 5.5 alone</th><th class="num">+ GPT-6.1 Sol</th><th class="num">Sol alone</th></tr></thead>
+<tbody>
+<tr><td>Furigana reading</td><td>GPT-6 Luna Decisions</td><td class='num'>55%</td><td class='num'>95.7%<div class='mid'>$0.05/1k</div></td><td class='num'>97.0%<div class='mid'>$0.04/1k</div></td><td class='num'>96.1%<div class='mid'>$0.22/1k</div></td><td class='num'>98.7%<div class='mid'>$0.43/1k</div></td></tr>
+<tr><td>Inline-link sense</td><td>GPT-6 Luna Decisions</td><td class='num'>15%</td><td class='num'>84.3%<div class='mid'>$0.10/1k</div></td><td class='num'>83.8%<div class='mid'>$0.07/1k</div></td><td class='num'>86.1%<div class='mid'>$0.56/1k</div></td><td class='num'>86.1%<div class='mid'>$0.61/1k</div></td></tr>
+<tr><td>Conjugated form</td><td>GPT-6 Luna Decisions</td><td class='num'>86%</td><td class='num'>96.7%<div class='mid'>$0.03/1k</div></td><td class='num'>99.4%<div class='mid'>$0.05/1k</div></td><td class='num'>96.7%<div class='mid'>$0.08/1k</div></td><td class='num'>100.0%<div class='mid'>$0.40/1k</div></td></tr>
+<tr><td>Translation fidelity</td><td>Microsoft-Decision-1</td><td class='num'>97%</td><td class='num'>98.4%<div class='mid'>$0.01/1k</div></td><td class='num'>99.5%<div class='mid'>$0.04/1k</div></td><td class='num'>98.4%<div class='mid'>$0.01/1k</div></td><td class='num'>100.0%<div class='mid'>$0.32/1k</div></td></tr>
+<tr><td>Sense of example</td><td>Perplexity Decider 1.1</td><td class='num'>94%</td><td class='num'>95.6%<div class='mid'>$0.01/1k</div></td><td class='num'>95.0%<div class='mid'>$0.04/1k</div></td><td class='num'>96.2%<div class='mid'>$0.03/1k</div></td><td class='num'>96.9%<div class='mid'>$0.41/1k</div></td></tr>
+<tr><td>Transitivity</td><td>TypeSafe Jev 1.13</td><td class='num'>43%</td><td class='num'>89.5%<div class='mid'>$0.06/1k</div></td><td class='num'>89.5%<div class='mid'>$0.06/1k</div></td><td class='num'>92.3%<div class='mid'>$0.45/1k</div></td><td class='num'>92.8%<div class='mid'>$0.75/1k</div></td></tr>
+</tbody>
+</table>
+</div>
+<div class="col">
+<p>A cascade pays off only where the decision model settles most items: translation, sense and conjugation. Where it settles about half or fewer (readings, links, transitivity), the combined system is no cheaper than Claude Haiku 5.5 alone and less accurate. In front of GPT-6.1 Sol, a decision-model first pass cuts the conjugation check’s cost by about four-fifths, at a loss of three points of accuracy.</p>
+</div>
+
+<h2><span class="sec">Savings</span>What a whole-dictionary pass would cost</h2>
+<div class="col"><p>The measured cost per item, times the number of items in the dictionary today. The first cost column uses the most accurate decision model for that task; the figure under each cost is that model’s accuracy on the test.</p></div>
+<div class="tbl">
+<table>
+<thead><tr><th>Check</th><th class="num">Best decision model</th><th class="num">Gemini 2.5 Flash</th><th class="num">GPT-6 Luna</th><th class="num">Claude Haiku 5.5</th><th class="num">GPT-6.1 Sol</th></tr></thead>
+<tbody>
+<tr><td>Furigana reading<div class='mid'>Every furigana group: 839,843</div></td><td class='num'>$23.5<div class='mid'>GPT-6 Luna Decisions · 92%</div></td><td class='num'>$86.8<div class='mid'>95%</div></td><td class='num'>$26.3<div class='mid'>94%</div></td><td class='num'>$37.1<div class='mid'>97%</div></td><td class='num'>$363<div class='mid'>99%</div></td></tr>
+<tr><td>Inline-link sense<div class='mid'>Kana links in verify/block tiers: 10,508</div></td><td class='num'>$0.36<div class='mid'>GPT-6 Luna Decisions · 82%</div></td><td class='num'>$1.22<div class='mid'>66%</div></td><td class='num'>$0.70<div class='mid'>82%</div></td><td class='num'>$0.79<div class='mid'>84%</div></td><td class='num'>$6.45<div class='mid'>86%</div></td></tr>
+<tr><td>Conjugated form<div class='mid'>Every conjugated form: 242,527</div></td><td class='num'>$5.9<div class='mid'>GPT-6 Luna Decisions · 93%</div></td><td class='num'>$25.0<div class='mid'>87%</div></td><td class='num'>$7.8<div class='mid'>72%</div></td><td class='num'>$12.7<div class='mid'>99%</div></td><td class='num'>$96.3<div class='mid'>100%</div></td></tr>
+<tr><td>Translation fidelity<div class='mid'>Every example translation: 122,570</div></td><td class='num'>$0.62<div class='mid'>Microsoft-Decision-1 · 98%</div></td><td class='num'>$12.0<div class='mid'>99%</div></td><td class='num'>$2.99<div class='mid'>99%</div></td><td class='num'>$5.38<div class='mid'>99%</div></td><td class='num'>$39.5<div class='mid'>100%</div></td></tr>
+<tr><td>Sense of example<div class='mid'>Examples in multi-sense entries: 39,480</div></td><td class='num'>$0.11<div class='mid'>Perplexity Decider 1.1 · 96%</div></td><td class='num'>$4.09<div class='mid'>96%</div></td><td class='num'>$1.04<div class='mid'>96%</div></td><td class='num'>$1.68<div class='mid'>95%</div></td><td class='num'>$16.2<div class='mid'>97%</div></td></tr>
+</tbody>
+</table>
+</div>
+<div class="tiles">
+  <div class="tile"><div class="big">$15 / day</div><div class="lab">OpenRouter cap, reached every day since 28 September. Audio takes most of it, so accuracy reviews often run on a few cents.</div></div>
+  <div class="tile"><div class="big">0.4–2.8 s</div><div class="lab">Median time for one decision-model call. Fast enough to use inside a script as a gate.</div></div>
+  <div class="tile"><div class="big">4–13 s</div><div class="lab">Median time for one LLM call checking 20 items, so bulk throughput is about the same.</div></div>
+  <div class="tile"><div class="big">~200 / day</div><div class="lab">Flags Claude adjudicated per day over the last month (5,950 in 485 cycles). No model tested can take this over.</div></div>
+</div>
+<div class="col">
+<p><strong>Cost.</strong> In absolute terms every check here is cheap; even GPT-6.1 Sol would cover all example translations for under $40. The savings matter because the $15 cap binds. Moving translation and sense checks to decision models, and the reading, link and conjugation checks to Claude Haiku 5.5, would make whole-dictionary passes affordable inside a few days’ leftover budget rather than weeks.</p>
+<p><strong>Time.</strong> Model calls are a small part of a Routine cycle; Claude’s own reading and adjudicating is the large part. Decision models do not shorten that. They could cut it indirectly in one place: a better link screener means fewer false flags for Claude to clear.</p>
+</div>
+
+<h2><span class="sec">Tradeoffs</span>What we would give up</h2>
+<div class="col">
+<ul>
+  <li><strong>Accuracy on fine detail.</strong> Decision models miss errors that turn on kana spelling: voicing, long vowels, counter sound changes, wrong verb class. On meaning-level questions they match LLMs.</li>
+  <li><strong>No explanation.</strong> A decision model says <em>no</em> with a probability, not why. Every flag still needs an LLM or Claude to diagnose and fix it, so they suit sweeps that find rare problems, not fixing.</li>
+  <li><strong>Miscalibration.</strong> Several models rank items well but put their 0.5 cut-off in the wrong place (Perplexity Decider ranks true and false translations almost perfectly, yet at 0.5 it lets a quarter of the subtly altered ones through). Cut-offs need tuning on labelled samples like the ones built here, per model and per version.</li>
+  <li><strong>Immaturity.</strong> The endpoint is labelled alpha, most models are days old, and behaviour changes between versions; pin dated model IDs. In this test GPT-6 Luna Decisions refused four flag items outright (HTTP 502), Solar Decide Flash answered “both” for every transitivity question, and Solar Decide’s endpoint was slow (several seconds per call under load).</li>
+  <li><strong>Calls are one item each.</strong> No batching, so a full pass means hundreds of thousands of HTTP requests; scripts need concurrency, retries and a budget ledger entry, like the existing review scripts.</li>
+</ul>
+</div>
+
+<h2><span class="sec">Recommendations</span>If you want to act on this</h2>
+<div class="col">
+<ol>
+  <li>Add a translation-fidelity sweep (<code>build/review_translations.py</code>) using Microsoft-Decision-1 or Jev 1.13, writing flags to <code>reviews/accuracy_flags.jsonl</code> under the <em>translation</em> dimension for Claude to adjudicate. Cost of a full pass: about $0.60.</li>
+  <li>Add a sense-number check for multi-sense entries using Perplexity Decider 1.1 (about $0.11 for all 39,480 examples).</li>
+  <li>Change the default model in <code>review_links.py</code> from Gemini 2.5 Flash to GPT-6 Luna Decisions (cheaper, catches far more wrong links) or Claude Haiku 5.5 (fewer false alarms). Re-tune on the 220 labelled items first.</li>
+  <li>Separately from decision models: re-test <code>check_conjugations.py</code> and the furigana screen with Claude Haiku 5.5, which came within two points of GPT-6.1 Sol on both tasks here at an eighth to a tenth of the cost.</li>
+  <li>Keep flag adjudication with Claude.</li>
+  <li>Review the nine transitivity tags the LLMs disputed (listed in Step 2).</li>
+</ol>
+</div>
+
+<h2><span class="sec">Method</span>How the tests were run, and their limits</h2>
+<div class="col">
+<ul>
+  <li>Decision models were called through <code>/api/alpha/decisions</code>, one item per call, with the item as a JSON state and one question whose instructions and criteria were the same for every model. LLMs got the same question and criteria in one prompt per 20 items, at temperature 0 and default reasoning settings, and were asked for a yes/no (or option) plus a probability.</li>
+  <li>All models saw the same items once. With 160–230 items per task, differences of about 5 points or less are within noise.</li>
+  <li>Some answers come from the project’s records (links, flags, transitivity, sense), so they reflect Claude’s past judgments. The others were built deliberately (misreadings, wrong conjugations, altered translations) and checked by hand where models disagreed; 16 reading items, 10 translation items and 9 transitivity items were dropped as doubtful.</li>
+  <li>Flag triage gave the models only the flag and the headword, not the whole entry, because applied flags have already changed the entry. Claude had the full entry when deciding, so this test is harder than the real job, but even GPT-6.1 Sol stayed near chance.</li>
+  <li>Prices are OpenRouter’s on 10 October 2026. The whole evaluation cost about $1.50 of OpenRouter credit.</li>
+</ul>
+</div>
+
+<footer>
+  Test sets and scripts: <code>enhancement/decision-models-2026-10-10/</code> in this repository. Prepared by Claude Code for Tom Gally, 10 October 2026.
+</footer>
+</div>
+</body>
+</html>
