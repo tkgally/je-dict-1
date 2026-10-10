@@ -1,45 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-10T07:58:49Z",
+  "generated": "2026-10-10T08:18:39Z",
   "headers": {
-    "04502_tameiki": [
-      "EMOTIONS EXPRESSED"
-    ],
-    "04511_basutaoru": [
-      "TOWEL TYPES"
-    ],
-    "04512_tanpen": [
-      "LENGTH SCALE"
-    ],
-    "04518_dansui": [
-      "RELATED UTILITY TERMS"
-    ],
-    "04535_sangurasu": [
-      "INFORMAL ABBREVIATIONS",
-      "VERB NOTE"
-    ],
-    "04542_tenkai": [
-      "SPECIALIZED USE"
-    ],
-    "04572_shitataru": [
-      "LITERARY USE"
-    ],
-    "04573_mau": [
-      "{舞|ま}う VS {踊|おど}る"
-    ],
-    "04577_areru": [
-      "{荒|あ}れる VS {暴|あば}れる"
-    ],
-    "04592_shioreru": [
-      "{萎|しお}れる VS {枯|か}れる"
-    ],
-    "04597_kakinaosu": [
-      "SIMILAR COMPOUNDS WITH {直|なお}す"
-    ],
-    "04598_yusuru": [
-      "NOTE ON SENSE 2",
-      "{揺|ゆ}する VS {揺|ゆ}れる"
-    ],
     "04601_karameru": [
       "{絡|から}める VS {絡|から}む"
     ],
@@ -87,9 +49,6 @@
     "04655_asayake": [
       "WEATHER PROVERB",
       "{朝焼|あさや}け VS {夕焼|ゆうや}け"
-    ],
-    "04657_nichibotsu": [
-      "{日没|にちぼつ} VS {日|ひ}の{入|い}り VS {夕暮|ゆうぐ}れ"
     ],
     "04662_sha": [
       "COMMON WORDS WITH 〜{者|しゃ}",
@@ -249,9 +208,6 @@
     ],
     "04840_koyou": [
       "EMPLOYMENT TYPES IN JAPAN"
-    ],
-    "04844_fukyou": [
-      "RELATED ECONOMIC TERMS"
     ],
     "04858_aichaku": [
       "PSYCHOLOGY TERM"
