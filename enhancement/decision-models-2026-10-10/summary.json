@@ -1,0 +1,3717 @@
+{
+ "tasks": {
+  "furigana": {
+   "openai/gpt-6-luna-decisions": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.9217391304347826,
+    "auroc": 0.9463610586011342,
+    "lat_med": 0.4108569622039795,
+    "cost": 0.0064278,
+    "by_sub": {
+     "correct": 0.95,
+     "long-vowel": 0.8333333333333334,
+     "youon": 1.0,
+     "voicing": 0.9069767441860465,
+     "sokuon-drop": 1.0,
+     "homograph": 0.7142857142857143,
+     "homograph-correct": 1.0,
+     "counter-correct": 0.875,
+     "counter": 0.875
+    },
+    "triage": {
+     "coverage": 0.5521739130434783,
+     "auto_acc": 0.952755905511811,
+     "auto_n": 127
+    },
+    "tuned_acc": 0.9173913043478261,
+    "cost_per_1k": 0.027946956521739133,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.8521739130434782,
+    "auroc": 0.8548361688720857,
+    "lat_med": 4.19017493724823,
+    "cost": 0.0057254,
+    "by_sub": {
+     "correct": 0.95,
+     "long-vowel": 0.8333333333333334,
+     "youon": 0.625,
+     "voicing": 0.7906976744186046,
+     "sokuon-drop": 1.0,
+     "homograph": 0.5,
+     "homograph-correct": 0.9666666666666667,
+     "counter-correct": 0.875,
+     "counter": 0.375
+    },
+    "triage": {
+     "coverage": 0.13478260869565217,
+     "auto_acc": 0.8387096774193549,
+     "auto_n": 31
+    },
+    "tuned_acc": 0.8695652173913043,
+    "cost_per_1k": 0.024893043478260872,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide-flash": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.7347826086956522,
+    "auroc": 0.8314429741650914,
+    "lat_med": 0.9736884832382202,
+    "cost": 0.0057254,
+    "by_sub": {
+     "correct": 0.89,
+     "long-vowel": 0.6111111111111112,
+     "youon": 0.5,
+     "voicing": 0.5348837209302325,
+     "sokuon-drop": 1.0,
+     "homograph-correct": 0.9,
+     "homograph": 0.2857142857142857,
+     "counter-correct": 0.875,
+     "counter": 0.375
+    },
+    "triage": {
+     "coverage": 0.10434782608695652,
+     "auto_acc": 0.875,
+     "auto_n": 24
+    },
+    "tuned_acc": 0.7695652173913043,
+    "cost_per_1k": 0.024893043478260872,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.7391304347826086,
+    "auroc": 0.8380592312539382,
+    "lat_med": 0.7316262722015381,
+    "cost": 0.01321584,
+    "by_sub": {
+     "correct": 0.98,
+     "long-vowel": 0.2222222222222222,
+     "youon": 0.875,
+     "voicing": 0.4883720930232558,
+     "sokuon-drop": 0.0,
+     "homograph": 0.14285714285714285,
+     "homograph-correct": 0.9666666666666667,
+     "counter-correct": 1.0,
+     "counter": 0.125
+    },
+    "triage": {
+     "coverage": 0.30869565217391304,
+     "auto_acc": 0.8873239436619719,
+     "auto_n": 71
+    },
+    "tuned_acc": 0.7304347826086957,
+    "cost_per_1k": 0.05746017391304348,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-omni": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.6956521739130435,
+    "auroc": 0.7992674858223062,
+    "lat_med": 0.5022180080413818,
+    "cost": 0.0082395,
+    "by_sub": {
+     "correct": 0.93,
+     "long-vowel": 0.2777777777777778,
+     "youon": 0.375,
+     "voicing": 0.4186046511627907,
+     "sokuon-drop": 1.0,
+     "homograph-correct": 1.0,
+     "homograph": 0.21428571428571427,
+     "counter-correct": 0.75,
+     "counter": 0.125
+    },
+    "triage": {
+     "coverage": 0.15217391304347827,
+     "auto_acc": 0.8857142857142857,
+     "auto_n": 35
+    },
+    "tuned_acc": 0.7347826086956522,
+    "cost_per_1k": 0.03582391304347826,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-flash": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.7434782608695653,
+    "auroc": 0.8191556395715186,
+    "lat_med": 0.610369086265564,
+    "cost": 0.002092508,
+    "by_sub": {
+     "correct": 0.75,
+     "long-vowel": 0.7222222222222222,
+     "youon": 0.75,
+     "voicing": 0.7674418604651163,
+     "sokuon-drop": 1.0,
+     "homograph": 0.7142857142857143,
+     "homograph-correct": 0.8333333333333334,
+     "counter-correct": 0.375,
+     "counter": 0.625
+    },
+    "triage": {
+     "coverage": 0.23478260869565218,
+     "auto_acc": 0.8518518518518519,
+     "auto_n": 54
+    },
+    "tuned_acc": 0.7434782608695653,
+    "cost_per_1k": 0.009097860869565218,
+    "batch_lat_med": null
+   },
+   "perplexity/pplx-decider-v1.1-27b": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.7130434782608696,
+    "auroc": 0.8887051039697542,
+    "lat_med": 0.5453890562057495,
+    "cost": 0.00093072,
+    "by_sub": {
+     "correct": 0.96,
+     "youon": 0.5,
+     "long-vowel": 0.2222222222222222,
+     "voicing": 0.46511627906976744,
+     "sokuon-drop": 0.0,
+     "homograph": 0.21428571428571427,
+     "homograph-correct": 0.9666666666666667,
+     "counter": 0.0,
+     "counter-correct": 1.0
+    },
+    "triage": {
+     "coverage": 0.4782608695652174,
+     "auto_acc": 0.9636363636363636,
+     "auto_n": 110
+    },
+    "tuned_acc": 0.782608695652174,
+    "cost_per_1k": 0.004046608695652174,
+    "batch_lat_med": null
+   },
+   "liquid/d1": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.7478260869565218,
+    "auroc": 0.8925252047889098,
+    "lat_med": 0.449038028717041,
+    "cost": 0.00155844,
+    "by_sub": {
+     "correct": 0.96,
+     "long-vowel": 0.3333333333333333,
+     "youon": 0.5,
+     "voicing": 0.5348837209302325,
+     "sokuon-drop": 0.0,
+     "homograph": 0.21428571428571427,
+     "homograph-correct": 1.0,
+     "counter-correct": 1.0,
+     "counter": 0.25
+    },
+    "triage": {
+     "coverage": 0.391304347826087,
+     "auto_acc": 0.9555555555555556,
+     "auto_n": 90
+    },
+    "tuned_acc": 0.7869565217391304,
+    "cost_per_1k": 0.006775826086956521,
+    "batch_lat_med": null
+   },
+   "inception/mercury-decide": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.7391304347826086,
+    "auroc": 0.864760554505356,
+    "lat_med": 1.0815930366516113,
+    "cost": 0.0008161,
+    "by_sub": {
+     "correct": 0.94,
+     "long-vowel": 0.3333333333333333,
+     "youon": 0.75,
+     "voicing": 0.5116279069767442,
+     "sokuon-drop": 0.0,
+     "homograph": 0.2857142857142857,
+     "homograph-correct": 1.0,
+     "counter": 0.0,
+     "counter-correct": 1.0
+    },
+    "triage": {
+     "coverage": 0.4260869565217391,
+     "auto_acc": 0.9081632653061225,
+     "auto_n": 98
+    },
+    "tuned_acc": 0.7130434782608696,
+    "cost_per_1k": 0.0035482608695652177,
+    "batch_lat_med": null
+   },
+   "microsoft/microsoft-decision-1": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.7391304347826086,
+    "auroc": 0.8853182104599874,
+    "lat_med": 0.6014970541000366,
+    "cost": 0.001395072,
+    "by_sub": {
+     "correct": 0.95,
+     "long-vowel": 0.2777777777777778,
+     "voicing": 0.5116279069767442,
+     "youon": 0.5,
+     "sokuon-drop": 0.0,
+     "homograph": 0.42857142857142855,
+     "homograph-correct": 0.9666666666666667,
+     "counter-correct": 1.0,
+     "counter": 0.125
+    },
+    "triage": {
+     "coverage": 0.3565217391304348,
+     "auto_acc": 0.9390243902439024,
+     "auto_n": 82
+    },
+    "tuned_acc": 0.7913043478260869,
+    "cost_per_1k": 0.006065530434782609,
+    "batch_lat_med": null
+   },
+   "nace-ai/drex-v1.5": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.7739130434782608,
+    "auroc": 0.8419580970384373,
+    "lat_med": 0.747971773147583,
+    "cost": 0.0012342,
+    "by_sub": {
+     "correct": 0.91,
+     "long-vowel": 0.5,
+     "voicing": 0.6744186046511628,
+     "youon": 0.5,
+     "sokuon-drop": 1.0,
+     "homograph": 0.5,
+     "homograph-correct": 0.9,
+     "counter": 0.25,
+     "counter-correct": 1.0
+    },
+    "triage": {
+     "coverage": 0.15217391304347827,
+     "auto_acc": 0.9428571428571428,
+     "auto_n": 35
+    },
+    "tuned_acc": 0.7652173913043478,
+    "cost_per_1k": 0.005366086956521739,
+    "batch_lat_med": null
+   },
+   "typesafe/jev-1.13": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.7695652173913043,
+    "auroc": 0.8740154379332074,
+    "lat_med": 0.506973147392273,
+    "cost": 0.004165518,
+    "by_sub": {
+     "correct": 0.94,
+     "long-vowel": 0.2222222222222222,
+     "youon": 0.25,
+     "voicing": 0.7441860465116279,
+     "sokuon-drop": 0.0,
+     "homograph-correct": 0.9,
+     "homograph": 0.5714285714285714,
+     "counter-correct": 0.875,
+     "counter": 0.375
+    },
+    "triage": {
+     "coverage": 0.3826086956521739,
+     "auto_acc": 0.9204545454545454,
+     "auto_n": 88
+    },
+    "tuned_acc": 0.7478260869565218,
+    "cost_per_1k": 0.018110947826086955,
+    "batch_lat_med": null
+   },
+   "jaredpalmer/kev-4b": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.6695652173913044,
+    "auroc": 0.770478890989288,
+    "lat_med": 0.8092550039291382,
+    "cost": 0.00129591,
+    "by_sub": {
+     "correct": 0.93,
+     "long-vowel": 0.16666666666666666,
+     "voicing": 0.3488372093023256,
+     "youon": 0.375,
+     "sokuon-drop": 0.0,
+     "homograph": 0.42857142857142855,
+     "homograph-correct": 0.9,
+     "counter-correct": 0.875,
+     "counter": 0.0
+    },
+    "triage": {
+     "coverage": 0.11304347826086956,
+     "auto_acc": 0.8846153846153846,
+     "auto_n": 26
+    },
+    "tuned_acc": 0.6217391304347826,
+    "cost_per_1k": 0.0056343913043478255,
+    "batch_lat_med": null
+   },
+   "togethercomputer/tev1-4b-experimental": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.6826086956521739,
+    "auroc": 0.7742596093257719,
+    "lat_med": 0.42939555644989014,
+    "cost": 0.001945692,
+    "by_sub": {
+     "correct": 0.89,
+     "long-vowel": 0.3888888888888889,
+     "youon": 0.375,
+     "voicing": 0.4418604651162791,
+     "sokuon-drop": 0.0,
+     "homograph-correct": 0.8666666666666667,
+     "homograph": 0.42857142857142855,
+     "counter": 0.0,
+     "counter-correct": 0.875
+    },
+    "triage": {
+     "coverage": 0.14347826086956522,
+     "auto_acc": 0.9393939393939394,
+     "auto_n": 33
+    },
+    "tuned_acc": 0.6086956521739131,
+    "cost_per_1k": 0.008459530434782609,
+    "batch_lat_med": null
+   },
+   "respan/span-01": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.691304347826087,
+    "auroc": 0.7950535601764335,
+    "lat_med": 0.5163586139678955,
+    "cost": 0.00102346,
+    "by_sub": {
+     "correct": 0.55,
+     "youon": 1.0,
+     "long-vowel": 0.9444444444444444,
+     "voicing": 0.8837209302325582,
+     "homograph": 0.8571428571428571,
+     "homograph-correct": 0.6,
+     "sokuon-drop": 1.0,
+     "counter": 0.875,
+     "counter-correct": 0.375
+    },
+    "triage": {
+     "coverage": 0.10869565217391304,
+     "auto_acc": 0.92,
+     "auto_n": 25
+    },
+    "tuned_acc": 0.6782608695652174,
+    "cost_per_1k": 0.004449826086956521,
+    "batch_lat_med": null
+   },
+   "respan/span-01-lite": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.691304347826087,
+    "auroc": 0.7950535601764335,
+    "lat_med": 0.5328900814056396,
+    "cost": 0,
+    "by_sub": {
+     "correct": 0.55,
+     "long-vowel": 0.9444444444444444,
+     "voicing": 0.8837209302325582,
+     "youon": 1.0,
+     "sokuon-drop": 1.0,
+     "homograph": 0.8571428571428571,
+     "homograph-correct": 0.6,
+     "counter-correct": 0.375,
+     "counter": 0.875
+    },
+    "triage": {
+     "coverage": 0.10869565217391304,
+     "auto_acc": 0.92,
+     "auto_n": 25
+    },
+    "tuned_acc": 0.6782608695652174,
+    "cost_per_1k": 0.0,
+    "batch_lat_med": null
+   },
+   "google/gemini-2.5-flash": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.9478260869565217,
+    "auroc": 0.9647920604914934,
+    "lat_med": 3.882052183151245,
+    "cost": 0.02378291,
+    "by_sub": {
+     "correct": 0.99,
+     "long-vowel": 0.9444444444444444,
+     "youon": 1.0,
+     "voicing": 1.0,
+     "sokuon-drop": 0.0,
+     "homograph-correct": 0.9333333333333333,
+     "homograph": 0.5714285714285714,
+     "counter-correct": 1.0,
+     "counter": 0.875
+    },
+    "triage": {
+     "coverage": 0.41304347826086957,
+     "auto_acc": 0.9578947368421052,
+     "auto_n": 95
+    },
+    "tuned_acc": 0.9478260869565217,
+    "cost_per_1k": 0.10340395652173913,
+    "batch_lat_med": 3.882052183151245
+   },
+   "openai/gpt-6-luna": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.9391304347826087,
+    "auroc": 0.9254095778197857,
+    "lat_med": 11.175264835357666,
+    "cost": 0.00721359125,
+    "by_sub": {
+     "correct": 0.99,
+     "long-vowel": 1.0,
+     "youon": 1.0,
+     "voicing": 1.0,
+     "sokuon-drop": 1.0,
+     "homograph": 0.35714285714285715,
+     "homograph-correct": 0.9666666666666667,
+     "counter-correct": 1.0,
+     "counter": 0.625
+    },
+    "triage": {
+     "coverage": 0.23478260869565218,
+     "auto_acc": 0.9814814814814815,
+     "auto_n": 54
+    },
+    "tuned_acc": 0.9304347826086956,
+    "cost_per_1k": 0.031363440217391306,
+    "batch_lat_med": 11.175264835357666
+   },
+   "anthropic/claude-haiku-5.5": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.9695652173913043,
+    "auroc": 0.985861688720857,
+    "lat_med": 6.6247878074646,
+    "cost": 0.01016369,
+    "by_sub": {
+     "correct": 1.0,
+     "long-vowel": 1.0,
+     "youon": 1.0,
+     "voicing": 1.0,
+     "sokuon-drop": 1.0,
+     "homograph-correct": 0.9666666666666667,
+     "homograph": 0.6428571428571429,
+     "counter-correct": 0.875,
+     "counter": 1.0
+    },
+    "triage": {
+     "coverage": 0.9782608695652174,
+     "auto_acc": 0.9511111111111111,
+     "auto_n": 225
+    },
+    "tuned_acc": 0.9652173913043478,
+    "cost_per_1k": 0.04418995652173913,
+    "batch_lat_med": 6.6247878074646
+   },
+   "openai/gpt-6.1-sol": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.9869565217391304,
+    "auroc": 0.99677063642092,
+    "lat_med": 12.841821908950806,
+    "cost": 0.099323825,
+    "by_sub": {
+     "correct": 1.0,
+     "long-vowel": 1.0,
+     "youon": 1.0,
+     "voicing": 0.9767441860465116,
+     "homograph-correct": 0.9666666666666667,
+     "homograph": 1.0,
+     "sokuon-drop": 1.0,
+     "counter-correct": 1.0,
+     "counter": 0.875
+    },
+    "triage": {
+     "coverage": 0.9956521739130435,
+     "auto_acc": 0.9606986899563319,
+     "auto_n": 229
+    },
+    "tuned_acc": 0.9869565217391304,
+    "cost_per_1k": 0.43184271739130436,
+    "batch_lat_med": 12.841821908950806
+   },
+   "ensemble": {
+    "n": 230,
+    "answered": 230,
+    "acc": 0.8304347826086956,
+    "auroc": 0.9619565217391305,
+    "lat_med": null,
+    "cost": 0,
+    "triage": {
+     "coverage": 0.7260869565217392,
+     "auto_acc": 0.9640718562874252,
+     "auto_n": 167
+    },
+    "members": [
+     "openai/gpt-6-luna-decisions",
+     "liquid/d1",
+     "perplexity/pplx-decider-v1.1-27b"
+    ],
+    "cost_per_1k": 0.038769391304347825
+   },
+   "_cascade": {
+    "dec": "openai/gpt-6-luna-decisions",
+    "google/gemini-2.5-flash": {
+     "acc": 0.9478260869565217,
+     "escalated": 0.44782608695652176,
+     "cost_per_1k": 0.07425394574669188
+    },
+    "openai/gpt-6-luna": {
+     "acc": 0.9391304347826087,
+     "escalated": 0.44782608695652176,
+     "cost_per_1k": 0.041992323227788286
+    },
+    "anthropic/claude-haiku-5.5": {
+     "acc": 0.9565217391304348,
+     "escalated": 0.44782608695652176,
+     "cost_per_1k": 0.0477363718336484
+    },
+    "openai/gpt-6.1-sol": {
+     "acc": 0.9608695652173913,
+     "escalated": 0.44782608695652176,
+     "cost_per_1k": 0.22133739083175807
+    }
+   }
+  },
+  "links": {
+   "openai/gpt-6-luna-decisions": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.8194444444444444,
+    "auroc": 0.875075023578839,
+    "lat_med": 0.45521068572998047,
+    "cost": 0.0073366,
+    "by_sub": {
+     "keep": 0.7522935779816514,
+     "unlink": 0.9032258064516129,
+     "retarget": 0.7857142857142857
+    },
+    "triage": {
+     "coverage": 0.14814814814814814,
+     "auto_acc": 1.0,
+     "auto_n": 32
+    },
+    "tuned_acc": 0.7638888888888888,
+    "cost_per_1k": 0.03396574074074074,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.6388888888888888,
+    "auroc": 0.7411472176969904,
+    "lat_med": 2.790781855583191,
+    "cost": 0.0060409,
+    "by_sub": {
+     "keep": 0.944954128440367,
+     "unlink": 0.3333333333333333,
+     "retarget": 0.2857142857142857
+    },
+    "triage": {
+     "coverage": 0.05555555555555555,
+     "auto_acc": 0.6666666666666666,
+     "auto_n": 12
+    },
+    "tuned_acc": 0.6527777777777778,
+    "cost_per_1k": 0.02796712962962963,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide-flash": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.5648148148148148,
+    "auroc": 0.7200977450055732,
+    "lat_med": 0.9915755987167358,
+    "cost": 0.0060409,
+    "by_sub": {
+     "keep": 0.9908256880733946,
+     "unlink": 0.13978494623655913,
+     "retarget": 0.07142857142857142
+    },
+    "triage": {
+     "coverage": 0.11574074074074074,
+     "auto_acc": 0.88,
+     "auto_n": 25
+    },
+    "tuned_acc": 0.6481481481481481,
+    "cost_per_1k": 0.02796712962962963,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.6944444444444444,
+    "auroc": 0.7745862985509732,
+    "lat_med": 0.6303244829177856,
+    "cost": 0.01548312,
+    "by_sub": {
+     "keep": 0.7706422018348624,
+     "unlink": 0.6021505376344086,
+     "retarget": 0.7142857142857143
+    },
+    "triage": {
+     "coverage": 0.12962962962962962,
+     "auto_acc": 0.8571428571428571,
+     "auto_n": 28
+    },
+    "tuned_acc": 0.6990740740740741,
+    "cost_per_1k": 0.07168111111111111,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-omni": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.5601851851851852,
+    "auroc": 0.666981051187516,
+    "lat_med": 0.46644115447998047,
+    "cost": 0.00969045,
+    "by_sub": {
+     "keep": 0.7706422018348624,
+     "unlink": 0.3225806451612903,
+     "retarget": 0.5
+    },
+    "triage": {
+     "coverage": 0.032407407407407406,
+     "auto_acc": 0.2857142857142857,
+     "auto_n": 7
+    },
+    "tuned_acc": 0.6527777777777778,
+    "cost_per_1k": 0.04486319444444445,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-flash": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.6898148148148148,
+    "auroc": 0.7198405213066964,
+    "lat_med": 0.6521707773208618,
+    "cost": 0.002451152,
+    "by_sub": {
+     "keep": 0.8256880733944955,
+     "unlink": 0.5483870967741935,
+     "retarget": 0.5714285714285714
+    },
+    "triage": {
+     "coverage": 0.08796296296296297,
+     "auto_acc": 0.6842105263157895,
+     "auto_n": 19
+    },
+    "tuned_acc": 0.6111111111111112,
+    "cost_per_1k": 0.011347925925925926,
+    "batch_lat_med": null
+   },
+   "perplexity/pplx-decider-v1.1-27b": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.7870370370370371,
+    "auroc": 0.859298636714396,
+    "lat_med": 0.4590792655944824,
+    "cost": 0.0011618,
+    "by_sub": {
+     "keep": 0.8623853211009175,
+     "unlink": 0.6881720430107527,
+     "retarget": 0.8571428571428571
+    },
+    "triage": {
+     "coverage": 0.14814814814814814,
+     "auto_acc": 0.875,
+     "auto_n": 32
+    },
+    "tuned_acc": 0.75,
+    "cost_per_1k": 0.005378703703703703,
+    "batch_lat_med": null
+   },
+   "liquid/d1": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.7083333333333334,
+    "auroc": 0.8490096887593244,
+    "lat_med": 0.4285210371017456,
+    "cost": 0.00208396,
+    "by_sub": {
+     "keep": 0.9174311926605505,
+     "unlink": 0.5268817204301075,
+     "retarget": 0.2857142857142857
+    },
+    "triage": {
+     "coverage": 0.09259259259259259,
+     "auto_acc": 0.85,
+     "auto_n": 20
+    },
+    "tuned_acc": 0.7175925925925926,
+    "cost_per_1k": 0.009647962962962964,
+    "batch_lat_med": null
+   },
+   "inception/mercury-decide": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.7546296296296297,
+    "auroc": 0.8248306610649061,
+    "lat_med": 1.016065001487732,
+    "cost": 0.00104316,
+    "by_sub": {
+     "keep": 0.6788990825688074,
+     "unlink": 0.8172043010752689,
+     "retarget": 0.9285714285714286
+    },
+    "triage": {
+     "coverage": 0.10648148148148148,
+     "auto_acc": 0.8695652173913043,
+     "auto_n": 23
+    },
+    "tuned_acc": 0.7453703703703703,
+    "cost_per_1k": 0.004829444444444445,
+    "batch_lat_med": null
+   },
+   "microsoft/microsoft-decision-1": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.7453703703703703,
+    "auroc": 0.834776644088142,
+    "lat_med": 0.5148717164993286,
+    "cost": 0.001865976,
+    "by_sub": {
+     "keep": 0.7614678899082569,
+     "unlink": 0.7311827956989247,
+     "retarget": 0.7142857142857143
+    },
+    "triage": {
+     "coverage": 0.3333333333333333,
+     "auto_acc": 0.8888888888888888,
+     "auto_n": 72
+    },
+    "tuned_acc": 0.6851851851851852,
+    "cost_per_1k": 0.008638777777777778,
+    "batch_lat_med": null
+   },
+   "nace-ai/drex-v1.5": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.5787037037037037,
+    "auroc": 0.7075366543770899,
+    "lat_med": 0.7512094974517822,
+    "cost": 0.00171172,
+    "by_sub": {
+     "keep": 0.944954128440367,
+     "unlink": 0.20430107526881722,
+     "retarget": 0.21428571428571427
+    },
+    "triage": {
+     "coverage": 0.13425925925925927,
+     "auto_acc": 0.7931034482758621,
+     "auto_n": 29
+    },
+    "tuned_acc": 0.5509259259259259,
+    "cost_per_1k": 0.007924629629629629,
+    "batch_lat_med": null
+   },
+   "typesafe/jev-1.13": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.7731481481481481,
+    "auroc": 0.8275315099031124,
+    "lat_med": 0.47145354747772217,
+    "cost": 0.004604376,
+    "by_sub": {
+     "keep": 0.8073394495412844,
+     "unlink": 0.7204301075268817,
+     "retarget": 0.8571428571428571
+    },
+    "triage": {
+     "coverage": 0.16666666666666666,
+     "auto_acc": 0.8333333333333334,
+     "auto_n": 36
+    },
+    "tuned_acc": 0.7222222222222222,
+    "cost_per_1k": 0.021316555555555557,
+    "batch_lat_med": null
+   },
+   "jaredpalmer/kev-4b": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.6666666666666666,
+    "auroc": 0.7656692103232444,
+    "lat_med": 0.7723922729492188,
+    "cost": 0.001797306,
+    "by_sub": {
+     "keep": 0.8715596330275229,
+     "unlink": 0.44086021505376344,
+     "retarget": 0.5714285714285714
+    },
+    "triage": {
+     "coverage": 0.0787037037037037,
+     "auto_acc": 0.8823529411764706,
+     "auto_n": 17
+    },
+    "tuned_acc": 0.625,
+    "cost_per_1k": 0.008320861111111112,
+    "batch_lat_med": null
+   },
+   "togethercomputer/tev1-4b-experimental": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.6342592592592593,
+    "auroc": 0.7541370144902684,
+    "lat_med": 0.43558990955352783,
+    "cost": 0.00238308,
+    "by_sub": {
+     "keep": 0.7889908256880734,
+     "unlink": 0.4731182795698925,
+     "retarget": 0.5
+    },
+    "triage": {
+     "coverage": 0.13425925925925927,
+     "auto_acc": 0.7931034482758621,
+     "auto_n": 29
+    },
+    "tuned_acc": 0.625,
+    "cost_per_1k": 0.011032777777777779,
+    "batch_lat_med": null
+   },
+   "respan/span-01": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.5416666666666666,
+    "auroc": 0.7163680013718597,
+    "lat_med": 0.49182236194610596,
+    "cost": 0.0013691,
+    "by_sub": {
+     "keep": 0.8623853211009175,
+     "unlink": 0.20430107526881722,
+     "retarget": 0.2857142857142857
+    },
+    "triage": {
+     "coverage": 0.12962962962962962,
+     "auto_acc": 0.8571428571428571,
+     "auto_n": 28
+    },
+    "tuned_acc": 0.6388888888888888,
+    "cost_per_1k": 0.006338425925925926,
+    "batch_lat_med": null
+   },
+   "respan/span-01-lite": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.5416666666666666,
+    "auroc": 0.7163680013718597,
+    "lat_med": 0.4685748815536499,
+    "cost": 0,
+    "by_sub": {
+     "keep": 0.8623853211009175,
+     "unlink": 0.20430107526881722,
+     "retarget": 0.2857142857142857
+    },
+    "triage": {
+     "coverage": 0.12962962962962962,
+     "auto_acc": 0.8571428571428571,
+     "auto_n": 28
+    },
+    "tuned_acc": 0.6481481481481481,
+    "cost_per_1k": 0.0,
+    "batch_lat_med": null
+   },
+   "google/gemini-2.5-flash": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.6620370370370371,
+    "auroc": 0.7473634570865129,
+    "lat_med": 4.079075336456299,
+    "cost": 0.025178855,
+    "by_sub": {
+     "keep": 0.7614678899082569,
+     "unlink": 0.5698924731182796,
+     "retarget": 0.5
+    },
+    "triage": {
+     "coverage": 0.12962962962962962,
+     "auto_acc": 1.0,
+     "auto_n": 28
+    },
+    "tuned_acc": 0.7453703703703703,
+    "cost_per_1k": 0.11656877314814815,
+    "batch_lat_med": 4.079075336456299
+   },
+   "openai/gpt-6-luna": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.8194444444444444,
+    "auroc": 0.837820457858184,
+    "lat_med": 20.19131875038147,
+    "cost": 0.014318165,
+    "by_sub": {
+     "keep": 0.944954128440367,
+     "unlink": 0.7204301075268817,
+     "retarget": 0.5
+    },
+    "triage": {
+     "coverage": 0.25,
+     "auto_acc": 0.8333333333333334,
+     "auto_n": 54
+    },
+    "tuned_acc": 0.8009259259259259,
+    "cost_per_1k": 0.06628780092592593,
+    "batch_lat_med": 20.19131875038147
+   },
+   "anthropic/claude-haiku-5.5": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.8379629629629629,
+    "auroc": 0.8948812483923518,
+    "lat_med": 12.50504755973816,
+    "cost": 0.016148815,
+    "by_sub": {
+     "keep": 0.908256880733945,
+     "unlink": 0.8064516129032258,
+     "retarget": 0.5
+    },
+    "triage": {
+     "coverage": 0.18981481481481483,
+     "auto_acc": 0.9024390243902439,
+     "auto_n": 41
+    },
+    "tuned_acc": 0.8009259259259259,
+    "cost_per_1k": 0.0747630324074074,
+    "batch_lat_med": 12.50504755973816
+   },
+   "openai/gpt-6.1-sol": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.8611111111111112,
+    "auroc": 0.9281488467804166,
+    "lat_med": 16.110815048217773,
+    "cost": 0.132654925,
+    "by_sub": {
+     "keep": 0.8623853211009175,
+     "unlink": 0.8924731182795699,
+     "retarget": 0.6428571428571429
+    },
+    "triage": {
+     "coverage": 0.4074074074074074,
+     "auto_acc": 0.9204545454545454,
+     "auto_n": 88
+    },
+    "tuned_acc": 0.8240740740740741,
+    "cost_per_1k": 0.6141431712962964,
+    "batch_lat_med": 16.110815048217773
+   },
+   "ensemble": {
+    "n": 216,
+    "answered": 216,
+    "acc": 0.8194444444444444,
+    "auroc": 0.880048015090457,
+    "lat_med": null,
+    "cost": 0,
+    "triage": {
+     "coverage": 0.14814814814814814,
+     "auto_acc": 0.90625,
+     "auto_n": 32
+    },
+    "members": [
+     "openai/gpt-6-luna-decisions",
+     "perplexity/pplx-decider-v1.1-27b",
+     "liquid/d1"
+    ],
+    "cost_per_1k": 0.04899240740740741
+   },
+   "_cascade": {
+    "dec": "openai/gpt-6-luna-decisions",
+    "google/gemini-2.5-flash": {
+     "acc": 0.6712962962962963,
+     "escalated": 0.8518518518518519,
+     "cost_per_1k": 0.13326506601508917
+    },
+    "openai/gpt-6-luna": {
+     "acc": 0.8194444444444444,
+     "escalated": 0.8518518518518519,
+     "cost_per_1k": 0.09043312671467764
+    },
+    "anthropic/claude-haiku-5.5": {
+     "acc": 0.8425925925925926,
+     "escalated": 0.8518518518518519,
+     "cost_per_1k": 0.09765276834705075
+    },
+    "openai/gpt-6.1-sol": {
+     "acc": 0.8611111111111112,
+     "escalated": 0.8518518518518519,
+     "cost_per_1k": 0.5571247385116599
+    }
+   }
+  },
+  "flags": {
+   "openai/gpt-6-luna-decisions": {
+    "n": 200,
+    "answered": 196,
+    "acc": 0.535,
+    "auroc": 0.6232948037071748,
+    "lat_med": 0.45924854278564453,
+    "cost": 0.0073245,
+    "by_sub": {
+     "notes": 0.45045045045045046,
+     "translation": 0.6571428571428571,
+     "gloss": 0.6296296296296297
+    },
+    "triage": {
+     "coverage": 0.085,
+     "auto_acc": 0.7058823529411765,
+     "auto_n": 17
+    },
+    "tuned_acc": 0.54,
+    "cost_per_1k": 0.0366225,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.54,
+    "auroc": 0.6252,
+    "lat_med": 0.9729681015014648,
+    "cost": 0.0058954,
+    "by_sub": {
+     "notes": 0.46846846846846846,
+     "translation": 0.7142857142857143,
+     "gloss": 0.5740740740740741
+    },
+    "triage": {
+     "coverage": 0.055,
+     "auto_acc": 0.8181818181818182,
+     "auto_n": 11
+    },
+    "tuned_acc": 0.625,
+    "cost_per_1k": 0.029477000000000003,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide-flash": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.505,
+    "auroc": 0.611,
+    "lat_med": 1.0401791334152222,
+    "cost": 0.0058954,
+    "by_sub": {
+     "notes": 0.42342342342342343,
+     "gloss": 0.5555555555555556,
+     "translation": 0.6857142857142857
+    },
+    "triage": {
+     "coverage": 0.075,
+     "auto_acc": 0.6666666666666666,
+     "auto_n": 15
+    },
+    "tuned_acc": 0.56,
+    "cost_per_1k": 0.029477000000000003,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.51,
+    "auroc": 0.57825,
+    "lat_med": 0.5635367631912231,
+    "cost": 0.01610328,
+    "by_sub": {
+     "notes": 0.42342342342342343,
+     "translation": 0.7428571428571429,
+     "gloss": 0.5370370370370371
+    },
+    "triage": {
+     "coverage": 0.04,
+     "auto_acc": 0.625,
+     "auto_n": 8
+    },
+    "tuned_acc": 0.555,
+    "cost_per_1k": 0.0805164,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-omni": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.49,
+    "auroc": 0.62955,
+    "lat_med": 0.4860914945602417,
+    "cost": 0.01005075,
+    "by_sub": {
+     "notes": 0.4144144144144144,
+     "gloss": 0.5185185185185185,
+     "translation": 0.6857142857142857
+    },
+    "triage": {
+     "coverage": 0.035,
+     "auto_acc": 0.7142857142857143,
+     "auto_n": 7
+    },
+    "tuned_acc": 0.565,
+    "cost_per_1k": 0.05025375000000001,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-flash": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.49,
+    "auroc": 0.4955,
+    "lat_med": 0.5789699554443359,
+    "cost": 0.002549686,
+    "by_sub": {
+     "notes": 0.40540540540540543,
+     "translation": 0.6857142857142857,
+     "gloss": 0.5370370370370371
+    },
+    "triage": {
+     "coverage": 0.02,
+     "auto_acc": 0.5,
+     "auto_n": 4
+    },
+    "tuned_acc": 0.485,
+    "cost_per_1k": 0.01274843,
+    "batch_lat_med": null
+   },
+   "perplexity/pplx-decider-v1.1-27b": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.475,
+    "auroc": 0.5459,
+    "lat_med": 0.46258723735809326,
+    "cost": 0.00123178,
+    "by_sub": {
+     "notes": 0.4594594594594595,
+     "gloss": 0.3148148148148148,
+     "translation": 0.7714285714285715
+    },
+    "triage": {
+     "coverage": 0.03,
+     "auto_acc": 0.8333333333333334,
+     "auto_n": 6
+    },
+    "tuned_acc": 0.585,
+    "cost_per_1k": 0.0061589,
+    "batch_lat_med": null
+   },
+   "liquid/d1": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.495,
+    "auroc": 0.5457,
+    "lat_med": 0.431296706199646,
+    "cost": 0.00224712,
+    "by_sub": {
+     "gloss": 0.5185185185185185,
+     "translation": 0.7142857142857143,
+     "notes": 0.4144144144144144
+    },
+    "triage": {
+     "coverage": 0.0,
+     "auto_acc": null,
+     "auto_n": 0
+    },
+    "tuned_acc": 0.525,
+    "cost_per_1k": 0.011235600000000002,
+    "batch_lat_med": null
+   },
+   "inception/mercury-decide": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.45,
+    "auroc": 0.5655,
+    "lat_med": 1.0408285856246948,
+    "cost": 0.00111654,
+    "by_sub": {
+     "gloss": 0.2777777777777778,
+     "notes": 0.45045045045045046,
+     "translation": 0.7142857142857143
+    },
+    "triage": {
+     "coverage": 0.05,
+     "auto_acc": 0.6,
+     "auto_n": 10
+    },
+    "tuned_acc": 0.615,
+    "cost_per_1k": 0.0055827,
+    "batch_lat_med": null
+   },
+   "microsoft/microsoft-decision-1": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.48,
+    "auroc": 0.4603,
+    "lat_med": 0.5031567811965942,
+    "cost": 0.002034228,
+    "by_sub": {
+     "notes": 0.4144144144144144,
+     "gloss": 0.42592592592592593,
+     "translation": 0.7714285714285715
+    },
+    "triage": {
+     "coverage": 0.025,
+     "auto_acc": 0.8,
+     "auto_n": 5
+    },
+    "tuned_acc": 0.475,
+    "cost_per_1k": 0.010171139999999999,
+    "batch_lat_med": null
+   },
+   "nace-ai/drex-v1.5": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.51,
+    "auroc": 0.53725,
+    "lat_med": 0.7099101543426514,
+    "cost": 0.00184344,
+    "by_sub": {
+     "notes": 0.43243243243243246,
+     "gloss": 0.5740740740740741,
+     "translation": 0.6571428571428571
+    },
+    "triage": {
+     "coverage": 0.025,
+     "auto_acc": 0.8,
+     "auto_n": 5
+    },
+    "tuned_acc": 0.53,
+    "cost_per_1k": 0.0092172,
+    "batch_lat_med": null
+   },
+   "typesafe/jev-1.13": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.505,
+    "auroc": 0.55625,
+    "lat_med": 0.4601322412490845,
+    "cost": 0.004605762,
+    "by_sub": {
+     "gloss": 0.5185185185185185,
+     "translation": 0.7428571428571429,
+     "notes": 0.42342342342342343
+    },
+    "triage": {
+     "coverage": 0.035,
+     "auto_acc": 0.7142857142857143,
+     "auto_n": 7
+    },
+    "tuned_acc": 0.515,
+    "cost_per_1k": 0.02302881,
+    "batch_lat_med": null
+   },
+   "jaredpalmer/kev-4b": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.505,
+    "auroc": 0.56445,
+    "lat_med": 0.7829846143722534,
+    "cost": 0.001935612,
+    "by_sub": {
+     "translation": 0.6857142857142857,
+     "gloss": 0.5370370370370371,
+     "notes": 0.43243243243243246
+    },
+    "triage": {
+     "coverage": 0.015,
+     "auto_acc": 0.3333333333333333,
+     "auto_n": 3
+    },
+    "tuned_acc": 0.535,
+    "cost_per_1k": 0.009678059999999999,
+    "batch_lat_med": null
+   },
+   "togethercomputer/tev1-4b-experimental": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.57,
+    "auroc": 0.60715,
+    "lat_med": 0.46699821949005127,
+    "cost": 0.002513028,
+    "by_sub": {
+     "notes": 0.4954954954954955,
+     "gloss": 0.5740740740740741,
+     "translation": 0.8
+    },
+    "triage": {
+     "coverage": 0.04,
+     "auto_acc": 0.875,
+     "auto_n": 8
+    },
+    "tuned_acc": 0.565,
+    "cost_per_1k": 0.01256514,
+    "batch_lat_med": null
+   },
+   "respan/span-01": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.5,
+    "auroc": 0.5471,
+    "lat_med": 0.4930621385574341,
+    "cost": 0.00143028,
+    "by_sub": {
+     "notes": 0.4144144144144144,
+     "translation": 0.6857142857142857,
+     "gloss": 0.5555555555555556
+    },
+    "triage": {
+     "coverage": 0.05,
+     "auto_acc": 0.8,
+     "auto_n": 10
+    },
+    "tuned_acc": 0.52,
+    "cost_per_1k": 0.0071514,
+    "batch_lat_med": null
+   },
+   "respan/span-01-lite": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.5,
+    "auroc": 0.5468,
+    "lat_med": 0.4958028793334961,
+    "cost": 0,
+    "by_sub": {
+     "gloss": 0.5555555555555556,
+     "notes": 0.4144144144144144,
+     "translation": 0.6857142857142857
+    },
+    "triage": {
+     "coverage": 0.05,
+     "auto_acc": 0.8,
+     "auto_n": 10
+    },
+    "tuned_acc": 0.515,
+    "cost_per_1k": 0.0,
+    "batch_lat_med": null
+   },
+   "google/gemini-2.5-flash": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.505,
+    "auroc": 0.53625,
+    "lat_med": 3.7438812255859375,
+    "cost": 0.026181,
+    "by_sub": {
+     "notes": 0.4144144144144144,
+     "translation": 0.6857142857142857,
+     "gloss": 0.5740740740740741
+    },
+    "triage": {
+     "coverage": 0.03,
+     "auto_acc": 0.6666666666666666,
+     "auto_n": 6
+    },
+    "tuned_acc": 0.535,
+    "cost_per_1k": 0.130905,
+    "batch_lat_med": 3.7438812255859375
+   },
+   "openai/gpt-6-luna": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.55,
+    "auroc": 0.5742,
+    "lat_med": 23.113728404045105,
+    "cost": 0.01610175,
+    "by_sub": {
+     "gloss": 0.48148148148148145,
+     "notes": 0.5135135135135135,
+     "translation": 0.7714285714285715
+    },
+    "triage": {
+     "coverage": 0.04,
+     "auto_acc": 0.25,
+     "auto_n": 8
+    },
+    "tuned_acc": 0.55,
+    "cost_per_1k": 0.08050875000000002,
+    "batch_lat_med": 23.113728404045105
+   },
+   "anthropic/claude-haiku-5.5": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.6,
+    "auroc": 0.6113,
+    "lat_med": 13.343488931655884,
+    "cost": 0.0175154,
+    "by_sub": {
+     "gloss": 0.42592592592592593,
+     "notes": 0.6486486486486487,
+     "translation": 0.7142857142857143
+    },
+    "triage": {
+     "coverage": 0.015,
+     "auto_acc": 0.6666666666666666,
+     "auto_n": 3
+    },
+    "tuned_acc": 0.58,
+    "cost_per_1k": 0.087577,
+    "batch_lat_med": 13.343488931655884
+   },
+   "openai/gpt-6.1-sol": {
+    "n": 200,
+    "answered": 200,
+    "acc": 0.59,
+    "auroc": 0.68215,
+    "lat_med": 21.2396457195282,
+    "cost": 0.159385,
+    "by_sub": {
+     "notes": 0.6846846846846847,
+     "translation": 0.5142857142857142,
+     "gloss": 0.4444444444444444
+    },
+    "triage": {
+     "coverage": 0.0,
+     "auto_acc": null,
+     "auto_n": 0
+    },
+    "tuned_acc": 0.665,
+    "cost_per_1k": 0.796925,
+    "batch_lat_med": 21.2396457195282
+   },
+   "ensemble": {
+    "n": 196,
+    "answered": 196,
+    "acc": 0.5204081632653061,
+    "auroc": 0.6496928043319796,
+    "lat_med": null,
+    "cost": 0,
+    "triage": {
+     "coverage": 0.0663265306122449,
+     "auto_acc": 0.9230769230769231,
+     "auto_n": 13
+    },
+    "members": [
+     "cloudflare/clef-omni",
+     "upstage/solar-decide",
+     "openai/gpt-6-luna-decisions"
+    ],
+    "cost_per_1k": 0.11635325000000002
+   },
+   "_cascade": {
+    "dec": "togethercomputer/tev1-4b-experimental",
+    "google/gemini-2.5-flash": {
+     "acc": 0.505,
+     "escalated": 0.96,
+     "cost_per_1k": 0.13823394
+    },
+    "openai/gpt-6-luna": {
+     "acc": 0.565,
+     "escalated": 0.96,
+     "cost_per_1k": 0.08985354000000002
+    },
+    "anthropic/claude-haiku-5.5": {
+     "acc": 0.615,
+     "escalated": 0.96,
+     "cost_per_1k": 0.09663906
+    },
+    "openai/gpt-6.1-sol": {
+     "acc": 0.61,
+     "escalated": 0.96,
+     "cost_per_1k": 0.7776131399999999
+    }
+   }
+  },
+  "conjugation": {
+   "openai/gpt-6-luna-decisions": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.9333333333333333,
+    "auroc": 0.9833950617283951,
+    "lat_med": 0.402279257774353,
+    "cost": 0.0043792,
+    "by_sub": {
+     "ichidan": 0.9672131147540983,
+     "godan": 0.9159663865546218
+    },
+    "triage": {
+     "coverage": 0.8555555555555555,
+     "auto_acc": 0.961038961038961,
+     "auto_n": 154
+    },
+    "tuned_acc": 0.9277777777777778,
+    "cost_per_1k": 0.02432888888888889,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.7611111111111111,
+    "auroc": 0.8824691358024691,
+    "lat_med": 9.274754643440247,
+    "cost": 0.0041318,
+    "by_sub": {
+     "godan": 0.7647058823529411,
+     "ichidan": 0.7540983606557377
+    },
+    "triage": {
+     "coverage": 0.4388888888888889,
+     "auto_acc": 0.8860759493670886,
+     "auto_n": 79
+    },
+    "tuned_acc": 0.8055555555555556,
+    "cost_per_1k": 0.022954444444444444,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide-flash": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.7222222222222222,
+    "auroc": 0.8058641975308642,
+    "lat_med": 0.8442025184631348,
+    "cost": 0.0041318,
+    "by_sub": {
+     "ichidan": 0.8852459016393442,
+     "godan": 0.6386554621848739
+    },
+    "triage": {
+     "coverage": 0.2722222222222222,
+     "auto_acc": 0.8775510204081632,
+     "auto_n": 49
+    },
+    "tuned_acc": 0.6777777777777778,
+    "cost_per_1k": 0.022954444444444444,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.7166666666666667,
+    "auroc": 0.8310493827160493,
+    "lat_med": 0.6399345397949219,
+    "cost": 0.00885048,
+    "by_sub": {
+     "ichidan": 0.819672131147541,
+     "godan": 0.6638655462184874
+    },
+    "triage": {
+     "coverage": 0.31666666666666665,
+     "auto_acc": 0.7894736842105263,
+     "auto_n": 57
+    },
+    "tuned_acc": 0.7666666666666667,
+    "cost_per_1k": 0.049169333333333336,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-omni": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.6166666666666667,
+    "auroc": 0.6292592592592593,
+    "lat_med": 0.45610833168029785,
+    "cost": 0.0054792,
+    "by_sub": {
+     "godan": 0.5630252100840336,
+     "ichidan": 0.7213114754098361
+    },
+    "triage": {
+     "coverage": 0.05,
+     "auto_acc": 0.8888888888888888,
+     "auto_n": 9
+    },
+    "tuned_acc": 0.5888888888888889,
+    "cost_per_1k": 0.03044,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-flash": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.6,
+    "auroc": 0.749320987654321,
+    "lat_med": 0.5751866102218628,
+    "cost": 0.001401326,
+    "by_sub": {
+     "ichidan": 0.5737704918032787,
+     "godan": 0.6134453781512605
+    },
+    "triage": {
+     "coverage": 0.08333333333333333,
+     "auto_acc": 0.8,
+     "auto_n": 15
+    },
+    "tuned_acc": 0.6277777777777778,
+    "cost_per_1k": 0.007785144444444445,
+    "batch_lat_med": null
+   },
+   "perplexity/pplx-decider-v1.1-27b": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.7944444444444444,
+    "auroc": 0.945925925925926,
+    "lat_med": 0.45705127716064453,
+    "cost": 0.00061154,
+    "by_sub": {
+     "ichidan": 0.819672131147541,
+     "godan": 0.7815126050420168
+    },
+    "triage": {
+     "coverage": 0.6333333333333333,
+     "auto_acc": 0.9298245614035088,
+     "auto_n": 114
+    },
+    "tuned_acc": 0.8611111111111112,
+    "cost_per_1k": 0.003397444444444445,
+    "batch_lat_med": null
+   },
+   "liquid/d1": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.8666666666666667,
+    "auroc": 0.953395061728395,
+    "lat_med": 0.39979302883148193,
+    "cost": 0.0009374,
+    "by_sub": {
+     "godan": 0.8403361344537815,
+     "ichidan": 0.9180327868852459
+    },
+    "triage": {
+     "coverage": 0.7444444444444445,
+     "auto_acc": 0.9477611940298507,
+     "auto_n": 134
+    },
+    "tuned_acc": 0.8555555555555555,
+    "cost_per_1k": 0.005207777777777778,
+    "batch_lat_med": null
+   },
+   "inception/mercury-decide": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.8555555555555555,
+    "auroc": 0.9530864197530864,
+    "lat_med": 0.8432496786117554,
+    "cost": 0.00052468,
+    "by_sub": {
+     "ichidan": 0.8688524590163934,
+     "godan": 0.8487394957983193
+    },
+    "triage": {
+     "coverage": 0.7888888888888889,
+     "auto_acc": 0.9154929577464789,
+     "auto_n": 142
+    },
+    "tuned_acc": 0.8888888888888888,
+    "cost_per_1k": 0.002914888888888889,
+    "batch_lat_med": null
+   },
+   "microsoft/microsoft-decision-1": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.8722222222222222,
+    "auroc": 0.9588888888888889,
+    "lat_med": 0.48130059242248535,
+    "cost": 0.000830634,
+    "by_sub": {
+     "godan": 0.9159663865546218,
+     "ichidan": 0.7868852459016393
+    },
+    "triage": {
+     "coverage": 0.8333333333333334,
+     "auto_acc": 0.96,
+     "auto_n": 150
+    },
+    "tuned_acc": 0.8555555555555555,
+    "cost_per_1k": 0.004614633333333333,
+    "batch_lat_med": null
+   },
+   "nace-ai/drex-v1.5": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.8611111111111112,
+    "auroc": 0.9235802469135802,
+    "lat_med": 0.6695135831832886,
+    "cost": 0.00072056,
+    "by_sub": {
+     "godan": 0.8235294117647058,
+     "ichidan": 0.9344262295081968
+    },
+    "triage": {
+     "coverage": 0.4722222222222222,
+     "auto_acc": 0.9411764705882353,
+     "auto_n": 85
+    },
+    "tuned_acc": 0.8555555555555555,
+    "cost_per_1k": 0.004003111111111111,
+    "batch_lat_med": null
+   },
+   "typesafe/jev-1.13": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.8944444444444445,
+    "auroc": 0.9509876543209876,
+    "lat_med": 0.45188820362091064,
+    "cost": 0.002983596,
+    "by_sub": {
+     "ichidan": 0.9180327868852459,
+     "godan": 0.8823529411764706
+    },
+    "triage": {
+     "coverage": 0.8,
+     "auto_acc": 0.9305555555555556,
+     "auto_n": 144
+    },
+    "tuned_acc": 0.8666666666666667,
+    "cost_per_1k": 0.016575533333333333,
+    "batch_lat_med": null
+   },
+   "jaredpalmer/kev-4b": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.7444444444444445,
+    "auroc": 0.8920987654320988,
+    "lat_med": 0.8923221826553345,
+    "cost": 0.000756588,
+    "by_sub": {
+     "godan": 0.7058823529411765,
+     "ichidan": 0.819672131147541
+    },
+    "triage": {
+     "coverage": 0.5055555555555555,
+     "auto_acc": 0.8681318681318682,
+     "auto_n": 91
+    },
+    "tuned_acc": 0.8111111111111111,
+    "cost_per_1k": 0.004203266666666667,
+    "batch_lat_med": null
+   },
+   "togethercomputer/tev1-4b-experimental": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.7888888888888889,
+    "auroc": 0.861358024691358,
+    "lat_med": 0.4348766803741455,
+    "cost": 0.001261554,
+    "by_sub": {
+     "ichidan": 0.8852459016393442,
+     "godan": 0.7394957983193278
+    },
+    "triage": {
+     "coverage": 0.24444444444444444,
+     "auto_acc": 0.9090909090909091,
+     "auto_n": 44
+    },
+    "tuned_acc": 0.7833333333333333,
+    "cost_per_1k": 0.007008633333333333,
+    "batch_lat_med": null
+   },
+   "respan/span-01": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.6111111111111112,
+    "auroc": 0.8096296296296296,
+    "lat_med": 0.5402308702468872,
+    "cost": 0.00053836,
+    "by_sub": {
+     "godan": 0.5378151260504201,
+     "ichidan": 0.7540983606557377
+    },
+    "triage": {
+     "coverage": 0.17222222222222222,
+     "auto_acc": 0.9354838709677419,
+     "auto_n": 31
+    },
+    "tuned_acc": 0.7722222222222223,
+    "cost_per_1k": 0.0029908888888888884,
+    "batch_lat_med": null
+   },
+   "respan/span-01-lite": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.6111111111111112,
+    "auroc": 0.8098765432098766,
+    "lat_med": 0.48787105083465576,
+    "cost": 0,
+    "by_sub": {
+     "godan": 0.5378151260504201,
+     "ichidan": 0.7540983606557377
+    },
+    "triage": {
+     "coverage": 0.17222222222222222,
+     "auto_acc": 0.9354838709677419,
+     "auto_n": 31
+    },
+    "tuned_acc": 0.7722222222222223,
+    "cost_per_1k": 0.0,
+    "batch_lat_med": null
+   },
+   "google/gemini-2.5-flash": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.8722222222222222,
+    "auroc": 0.9518518518518518,
+    "lat_med": 3.6403095722198486,
+    "cost": 0.0185856,
+    "by_sub": {
+     "godan": 0.8739495798319328,
+     "ichidan": 0.8688524590163934
+    },
+    "triage": {
+     "coverage": 0.4666666666666667,
+     "auto_acc": 0.9880952380952381,
+     "auto_n": 84
+    },
+    "tuned_acc": 0.9555555555555556,
+    "cost_per_1k": 0.10325333333333334,
+    "batch_lat_med": 3.6403095722198486
+   },
+   "openai/gpt-6-luna": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.7222222222222222,
+    "auroc": 0.7701234567901235,
+    "lat_med": 6.795519590377808,
+    "cost": 0.005792325,
+    "by_sub": {
+     "ichidan": 0.639344262295082,
+     "godan": 0.7647058823529411
+    },
+    "triage": {
+     "coverage": 0.3333333333333333,
+     "auto_acc": 0.9833333333333333,
+     "auto_n": 60
+    },
+    "tuned_acc": 0.7222222222222222,
+    "cost_per_1k": 0.03217958333333333,
+    "batch_lat_med": 6.795519590377808
+   },
+   "anthropic/claude-haiku-5.5": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.9944444444444445,
+    "auroc": 0.9992592592592593,
+    "lat_med": 7.374133825302124,
+    "cost": 0.0094581,
+    "by_sub": {
+     "ichidan": 0.9836065573770492,
+     "godan": 1.0
+    },
+    "triage": {
+     "coverage": 1.0,
+     "auto_acc": 0.9666666666666667,
+     "auto_n": 180
+    },
+    "tuned_acc": 0.9666666666666667,
+    "cost_per_1k": 0.052545,
+    "batch_lat_med": 7.374133825302124
+   },
+   "openai/gpt-6.1-sol": {
+    "n": 180,
+    "answered": 180,
+    "acc": 1.0,
+    "auroc": 1.0,
+    "lat_med": 7.213769197463989,
+    "cost": 0.0714765,
+    "by_sub": {
+     "ichidan": 1.0,
+     "godan": 1.0
+    },
+    "triage": {
+     "coverage": 0.9944444444444445,
+     "auto_acc": 1.0,
+     "auto_n": 179
+    },
+    "tuned_acc": 1.0,
+    "cost_per_1k": 0.3970916666666667,
+    "batch_lat_med": 7.213769197463989
+   },
+   "ensemble": {
+    "n": 180,
+    "answered": 180,
+    "acc": 0.9388888888888889,
+    "auroc": 0.9807407407407407,
+    "lat_med": null,
+    "cost": 0,
+    "triage": {
+     "coverage": 0.9111111111111111,
+     "auto_acc": 0.9695121951219512,
+     "auto_n": 164
+    },
+    "members": [
+     "openai/gpt-6-luna-decisions",
+     "microsoft/microsoft-decision-1",
+     "liquid/d1"
+    ],
+    "cost_per_1k": 0.0341513
+   },
+   "_cascade": {
+    "dec": "openai/gpt-6-luna-decisions",
+    "google/gemini-2.5-flash": {
+     "acc": 0.9277777777777778,
+     "escalated": 0.14444444444444443,
+     "cost_per_1k": 0.039243259259259256
+    },
+    "openai/gpt-6-luna": {
+     "acc": 0.9333333333333333,
+     "escalated": 0.14444444444444443,
+     "cost_per_1k": 0.028977050925925927
+    },
+    "anthropic/claude-haiku-5.5": {
+     "acc": 0.9666666666666667,
+     "escalated": 0.14444444444444443,
+     "cost_per_1k": 0.03191872222222222
+    },
+    "openai/gpt-6.1-sol": {
+     "acc": 0.9666666666666667,
+     "escalated": 0.14444444444444443,
+     "cost_per_1k": 0.08168657407407406
+    }
+   }
+  },
+  "translation": {
+   "openai/gpt-6-luna-decisions": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9736842105263158,
+    "auroc": 0.998,
+    "lat_med": 0.39983105659484863,
+    "cost": 0.0048351,
+    "by_sub": {
+     "sibling-swap": 1.0,
+     "original": 1.0,
+     "perturb": 0.875
+    },
+    "triage": {
+     "coverage": 1.0,
+     "auto_acc": 0.9578947368421052,
+     "auto_n": 190
+    },
+    "tuned_acc": 0.9894736842105263,
+    "cost_per_1k": 0.025447894736842103,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.8315789473684211,
+    "auroc": 0.9168333333333333,
+    "lat_med": 0.9832181930541992,
+    "cost": 0.0044676,
+    "by_sub": {
+     "original": 1.0,
+     "sibling-swap": 0.84,
+     "perturb": 0.4
+    },
+    "triage": {
+     "coverage": 0.5421052631578948,
+     "auto_acc": 0.941747572815534,
+     "auto_n": 103
+    },
+    "tuned_acc": 0.8473684210526315,
+    "cost_per_1k": 0.023513684210526315,
+    "batch_lat_med": null
+   },
+   "upstage/solar-decide-flash": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.7947368421052632,
+    "auroc": 0.9012777777777777,
+    "lat_med": 0.866081953048706,
+    "cost": 0.0044676,
+    "by_sub": {
+     "original": 1.0,
+     "sibling-swap": 0.72,
+     "perturb": 0.375
+    },
+    "triage": {
+     "coverage": 0.47368421052631576,
+     "auto_acc": 0.9444444444444444,
+     "auto_n": 90
+    },
+    "tuned_acc": 0.8473684210526315,
+    "cost_per_1k": 0.023513684210526315,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9263157894736842,
+    "auroc": 0.98,
+    "lat_med": 0.5870009660720825,
+    "cost": 0.009804,
+    "by_sub": {
+     "original": 1.0,
+     "perturb": 0.65,
+     "sibling-swap": 1.0
+    },
+    "triage": {
+     "coverage": 0.9,
+     "auto_acc": 0.9590643274853801,
+     "auto_n": 171
+    },
+    "tuned_acc": 0.9473684210526315,
+    "cost_per_1k": 0.0516,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-omni": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.8526315789473684,
+    "auroc": 0.9739444444444444,
+    "lat_med": 0.4629768133163452,
+    "cost": 0.0060980999999999995,
+    "by_sub": {
+     "original": 1.0,
+     "sibling-swap": 0.92,
+     "perturb": 0.4
+    },
+    "triage": {
+     "coverage": 0.8421052631578947,
+     "auto_acc": 0.925,
+     "auto_n": 160
+    },
+    "tuned_acc": 0.9157894736842105,
+    "cost_per_1k": 0.03209526315789474,
+    "batch_lat_med": null
+   },
+   "cloudflare/clef-flash": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9157894736842105,
+    "auroc": 0.9633333333333334,
+    "lat_med": 0.581987738609314,
+    "cost": 0.0015523,
+    "by_sub": {
+     "original": 1.0,
+     "sibling-swap": 1.0,
+     "perturb": 0.6
+    },
+    "triage": {
+     "coverage": 0.8052631578947368,
+     "auto_acc": 0.9607843137254902,
+     "auto_n": 153
+    },
+    "tuned_acc": 0.9210526315789473,
+    "cost_per_1k": 0.00817,
+    "batch_lat_med": null
+   },
+   "perplexity/pplx-decider-v1.1-27b": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9473684210526315,
+    "auroc": 0.9995555555555555,
+    "lat_med": 0.44910359382629395,
+    "cost": 0.00066496,
+    "by_sub": {
+     "sibling-swap": 1.0,
+     "original": 1.0,
+     "perturb": 0.75
+    },
+    "triage": {
+     "coverage": 1.0,
+     "auto_acc": 0.9842105263157894,
+     "auto_n": 190
+    },
+    "tuned_acc": 0.9631578947368421,
+    "cost_per_1k": 0.0034997894736842105,
+    "batch_lat_med": null
+   },
+   "liquid/d1": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.968421052631579,
+    "auroc": 0.9983333333333333,
+    "lat_med": 0.4141944646835327,
+    "cost": 0.0010224,
+    "by_sub": {
+     "original": 1.0,
+     "sibling-swap": 1.0,
+     "perturb": 0.85
+    },
+    "triage": {
+     "coverage": 0.9947368421052631,
+     "auto_acc": 0.9735449735449735,
+     "auto_n": 189
+    },
+    "tuned_acc": 0.9736842105263158,
+    "cost_per_1k": 0.005381052631578947,
+    "batch_lat_med": null
+   },
+   "inception/mercury-decide": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9736842105263158,
+    "auroc": 0.9984444444444445,
+    "lat_med": 0.8415095806121826,
+    "cost": 0.00057192,
+    "by_sub": {
+     "sibling-swap": 1.0,
+     "original": 1.0,
+     "perturb": 0.875
+    },
+    "triage": {
+     "coverage": 1.0,
+     "auto_acc": 0.9526315789473684,
+     "auto_n": 190
+    },
+    "tuned_acc": 0.9631578947368421,
+    "cost_per_1k": 0.0030101052631578947,
+    "batch_lat_med": null
+   },
+   "microsoft/microsoft-decision-1": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9842105263157894,
+    "auroc": 0.997,
+    "lat_med": 0.4914973974227905,
+    "cost": 0.000957516,
+    "by_sub": {
+     "original": 1.0,
+     "sibling-swap": 1.0,
+     "perturb": 0.925
+    },
+    "triage": {
+     "coverage": 0.9736842105263158,
+     "auto_acc": 0.9837837837837838,
+     "auto_n": 185
+    },
+    "tuned_acc": 0.9789473684210527,
+    "cost_per_1k": 0.005039557894736842,
+    "batch_lat_med": null
+   },
+   "nace-ai/drex-v1.5": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9578947368421052,
+    "auroc": 0.9935555555555555,
+    "lat_med": 0.6816956996917725,
+    "cost": 0.00082668,
+    "by_sub": {
+     "original": 1.0,
+     "sibling-swap": 1.0,
+     "perturb": 0.8
+    },
+    "triage": {
+     "coverage": 0.9315789473684211,
+     "auto_acc": 0.9717514124293786,
+     "auto_n": 177
+    },
+    "tuned_acc": 0.9631578947368421,
+    "cost_per_1k": 0.004350947368421052,
+    "batch_lat_med": null
+   },
+   "typesafe/jev-1.13": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9842105263157894,
+    "auroc": 0.9988333333333334,
+    "lat_med": 0.48230981826782227,
+    "cost": 0.003148488,
+    "by_sub": {
+     "sibling-swap": 1.0,
+     "original": 1.0,
+     "perturb": 0.925
+    },
+    "triage": {
+     "coverage": 0.9894736842105263,
+     "auto_acc": 0.9840425531914894,
+     "auto_n": 188
+    },
+    "tuned_acc": 0.9842105263157894,
+    "cost_per_1k": 0.01657098947368421,
+    "batch_lat_med": null
+   },
+   "jaredpalmer/kev-4b": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9526315789473684,
+    "auroc": 0.9871111111111112,
+    "lat_med": 0.8406134843826294,
+    "cost": 0.000868014,
+    "by_sub": {
+     "sibling-swap": 1.0,
+     "original": 1.0,
+     "perturb": 0.775
+    },
+    "triage": {
+     "coverage": 0.9157894736842105,
+     "auto_acc": 0.9770114942528736,
+     "auto_n": 174
+    },
+    "tuned_acc": 0.9526315789473684,
+    "cost_per_1k": 0.004568494736842105,
+    "batch_lat_med": null
+   },
+   "togethercomputer/tev1-4b-experimental": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.8526315789473684,
+    "auroc": 0.9865555555555555,
+    "lat_med": 0.4583282470703125,
+    "cost": 0.001412376,
+    "by_sub": {
+     "original": 1.0,
+     "perturb": 0.525,
+     "sibling-swap": 0.82
+    },
+    "triage": {
+     "coverage": 0.9473684210526315,
+     "auto_acc": 0.9611111111111111,
+     "auto_n": 180
+    },
+    "tuned_acc": 0.9210526315789473,
+    "cost_per_1k": 0.007433557894736841,
+    "batch_lat_med": null
+   },
+   "respan/span-01": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.8,
+    "auroc": 0.979,
+    "lat_med": 0.4696636199951172,
+    "cost": 0.00071522,
+    "by_sub": {
+     "original": 0.99,
+     "sibling-swap": 0.6,
+     "perturb": 0.575
+    },
+    "triage": {
+     "coverage": 0.9473684210526315,
+     "auto_acc": 0.9555555555555556,
+     "auto_n": 180
+    },
+    "tuned_acc": 0.9473684210526315,
+    "cost_per_1k": 0.0037643157894736846,
+    "batch_lat_med": null
+   },
+   "respan/span-01-lite": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.8,
+    "auroc": 0.979,
+    "lat_med": 0.4861111640930176,
+    "cost": 0,
+    "by_sub": {
+     "original": 0.99,
+     "sibling-swap": 0.6,
+     "perturb": 0.575
+    },
+    "triage": {
+     "coverage": 0.9473684210526315,
+     "auto_acc": 0.9555555555555556,
+     "auto_n": 180
+    },
+    "tuned_acc": 0.9473684210526315,
+    "cost_per_1k": 0.0,
+    "batch_lat_med": null
+   },
+   "google/gemini-2.5-flash": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9894736842105263,
+    "auroc": 0.9944444444444445,
+    "lat_med": 3.991131544113159,
+    "cost": 0.01866748,
+    "by_sub": {
+     "original": 1.0,
+     "sibling-swap": 1.0,
+     "perturb": 0.95
+    },
+    "triage": {
+     "coverage": 0.9736842105263158,
+     "auto_acc": 0.9945945945945946,
+     "auto_n": 185
+    },
+    "tuned_acc": 0.968421052631579,
+    "cost_per_1k": 0.0982498947368421,
+    "batch_lat_med": 3.991131544113159
+   },
+   "openai/gpt-6-luna": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9947368421052631,
+    "auroc": 0.9997777777777778,
+    "lat_med": 7.636179566383362,
+    "cost": 0.004629755,
+    "by_sub": {
+     "original": 0.99,
+     "sibling-swap": 1.0,
+     "perturb": 1.0
+    },
+    "triage": {
+     "coverage": 0.9789473684210527,
+     "auto_acc": 0.9731182795698925,
+     "auto_n": 186
+    },
+    "tuned_acc": 0.9894736842105263,
+    "cost_per_1k": 0.02436713157894737,
+    "batch_lat_med": 7.636179566383362
+   },
+   "anthropic/claude-haiku-5.5": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9947368421052631,
+    "auroc": 0.9998888888888889,
+    "lat_med": 6.8222572803497314,
+    "cost": 0.008346774999999999,
+    "by_sub": {
+     "original": 0.99,
+     "sibling-swap": 1.0,
+     "perturb": 1.0
+    },
+    "triage": {
+     "coverage": 0.9947368421052631,
+     "auto_acc": 0.9841269841269841,
+     "auto_n": 189
+    },
+    "tuned_acc": 0.9947368421052631,
+    "cost_per_1k": 0.0439303947368421,
+    "batch_lat_med": 6.8222572803497314
+   },
+   "openai/gpt-6.1-sol": {
+    "n": 190,
+    "answered": 190,
+    "acc": 1.0,
+    "auroc": 1.0,
+    "lat_med": 9.888268828392029,
+    "cost": 0.0612431,
+    "by_sub": {
+     "original": 1.0,
+     "sibling-swap": 1.0,
+     "perturb": 1.0
+    },
+    "triage": {
+     "coverage": 0.9894736842105263,
+     "auto_acc": 0.9893617021276596,
+     "auto_n": 188
+    },
+    "tuned_acc": 0.9947368421052631,
+    "cost_per_1k": 0.32233210526315786,
+    "batch_lat_med": 9.888268828392029
+   },
+   "ensemble": {
+    "n": 190,
+    "answered": 190,
+    "acc": 0.9789473684210527,
+    "auroc": 0.9995555555555555,
+    "lat_med": null,
+    "cost": 0,
+    "triage": {
+     "coverage": 1.0,
+     "auto_acc": 0.9789473684210527,
+     "auto_n": 190
+    },
+    "members": [
+     "perplexity/pplx-decider-v1.1-27b",
+     "typesafe/jev-1.13",
+     "inception/mercury-decide"
+    ],
+    "cost_per_1k": 0.023080884210526315
+   },
+   "_cascade": {
+    "dec": "microsoft/microsoft-decision-1",
+    "google/gemini-2.5-flash": {
+     "acc": 0.9842105263157894,
+     "escalated": 0.02631578947368421,
+     "cost_per_1k": 0.007625081440443213
+    },
+    "openai/gpt-6-luna": {
+     "acc": 0.9842105263157894,
+     "escalated": 0.02631578947368421,
+     "cost_per_1k": 0.005680798199445983
+    },
+    "anthropic/claude-haiku-5.5": {
+     "acc": 0.9842105263157894,
+     "escalated": 0.02631578947368421,
+     "cost_per_1k": 0.006195620914127424
+    },
+    "openai/gpt-6.1-sol": {
+     "acc": 0.9842105263157894,
+     "escalated": 0.02631578947368421,
+     "cost_per_1k": 0.013521981717451522
+    }
+   }
+  },
+  "transitivity": {
+   "openai/gpt-6-luna-decisions": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.8121546961325967,
+    "auroc": null,
+    "lat_med": 0.435589075088501,
+    "cost": 0.0049627,
+    "by_sub": {
+     "general": 0.8095238095238095,
+     "core": 0.9166666666666666,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.39779005524861877,
+     "auto_acc": 0.9722222222222222,
+     "auto_n": 72
+    },
+    "tuned_acc": 0.8121546961325967,
+    "cost_per_1k": 0.027418232044198895,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->transitive": 78,
+     "transitive->intransitive": 1,
+     "intransitive->intransitive": 67,
+     "intransitive->transitive": 7,
+     "both->intransitive": 11,
+     "both->transitive": 15,
+     "both->both": 2
+    }
+   },
+   "upstage/solar-decide": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.6685082872928176,
+    "auroc": null,
+    "lat_med": 11.190117120742798,
+    "cost": 0.00445575,
+    "by_sub": {
+     "general": 0.6785714285714286,
+     "core": 0.5833333333333334,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.08287292817679558,
+     "auto_acc": 0.9333333333333333,
+     "auto_n": 15
+    },
+    "tuned_acc": 0.6685082872928176,
+    "cost_per_1k": 0.024617403314917123,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->both": 28,
+     "transitive->transitive": 51,
+     "intransitive->intransitive": 55,
+     "intransitive->both": 17,
+     "intransitive->transitive": 2,
+     "both->both": 15,
+     "both->intransitive": 7,
+     "both->transitive": 6
+    }
+   },
+   "upstage/solar-decide-flash": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.15469613259668508,
+    "auroc": null,
+    "lat_med": 0.8885984420776367,
+    "cost": 0.00445575,
+    "by_sub": {
+     "general": 0.15476190476190477,
+     "core": 0.08333333333333333,
+     "basic": 1.0
+    },
+    "triage": {
+     "coverage": 0.0,
+     "auto_acc": null,
+     "auto_n": 0
+    },
+    "tuned_acc": 0.15469613259668508,
+    "cost_per_1k": 0.024617403314917123,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->both": 79,
+     "intransitive->both": 74,
+     "both->both": 28
+    }
+   },
+   "cloudflare/clef": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.7679558011049724,
+    "auroc": null,
+    "lat_med": 0.5874383449554443,
+    "cost": 0.01266456,
+    "by_sub": {
+     "general": 0.7857142857142857,
+     "core": 0.5833333333333334,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.287292817679558,
+     "auto_acc": 0.9615384615384616,
+     "auto_n": 52
+    },
+    "tuned_acc": 0.7679558011049724,
+    "cost_per_1k": 0.06996994475138121,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->transitive": 62,
+     "transitive->intransitive": 11,
+     "transitive->both": 6,
+     "intransitive->intransitive": 70,
+     "intransitive->both": 4,
+     "both->intransitive": 13,
+     "both->both": 7,
+     "both->transitive": 8
+    }
+   },
+   "cloudflare/clef-omni": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.5469613259668509,
+    "auroc": null,
+    "lat_med": 0.49689412117004395,
+    "cost": 0.007947,
+    "by_sub": {
+     "general": 0.5476190476190477,
+     "core": 0.5833333333333334,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.19889502762430938,
+     "auto_acc": 0.8611111111111112,
+     "auto_n": 36
+    },
+    "tuned_acc": 0.5469613259668509,
+    "cost_per_1k": 0.04390607734806629,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->transitive": 50,
+     "transitive->both": 29,
+     "intransitive->both": 46,
+     "intransitive->intransitive": 27,
+     "both->intransitive": 2,
+     "both->both": 22,
+     "intransitive->transitive": 1,
+     "both->transitive": 4
+    }
+   },
+   "cloudflare/clef-flash": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.7679558011049724,
+    "auroc": null,
+    "lat_med": 0.6397013664245605,
+    "cost": 0.002005222,
+    "by_sub": {
+     "general": 0.7678571428571429,
+     "core": 0.8333333333333334,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.2154696132596685,
+     "auto_acc": 0.9230769230769231,
+     "auto_n": 39
+    },
+    "tuned_acc": 0.7679558011049724,
+    "cost_per_1k": 0.01107857458563536,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->both": 4,
+     "transitive->transitive": 71,
+     "transitive->intransitive": 4,
+     "intransitive->both": 5,
+     "intransitive->intransitive": 64,
+     "intransitive->transitive": 5,
+     "both->intransitive": 12,
+     "both->transitive": 12,
+     "both->both": 4
+    }
+   },
+   "perplexity/pplx-decider-v1.1-27b": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.8066298342541437,
+    "auroc": null,
+    "lat_med": 0.48210716247558594,
+    "cost": 0.00093578,
+    "by_sub": {
+     "general": 0.8095238095238095,
+     "core": 0.8333333333333334,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.5303867403314917,
+     "auto_acc": 0.9791666666666666,
+     "auto_n": 96
+    },
+    "tuned_acc": 0.8066298342541437,
+    "cost_per_1k": 0.005170055248618784,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->intransitive": 9,
+     "transitive->transitive": 66,
+     "transitive->both": 4,
+     "intransitive->intransitive": 74,
+     "both->intransitive": 17,
+     "both->transitive": 5,
+     "both->both": 6
+    }
+   },
+   "liquid/d1": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.8066298342541437,
+    "auroc": null,
+    "lat_med": 0.44350266456604004,
+    "cost": 0.00166748,
+    "by_sub": {
+     "general": 0.7976190476190477,
+     "core": 1.0,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.27071823204419887,
+     "auto_acc": 0.9387755102040817,
+     "auto_n": 49
+    },
+    "tuned_acc": 0.8066298342541437,
+    "cost_per_1k": 0.009212596685082874,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->transitive": 74,
+     "transitive->both": 3,
+     "transitive->intransitive": 2,
+     "intransitive->intransitive": 63,
+     "intransitive->transitive": 8,
+     "intransitive->both": 3,
+     "both->both": 9,
+     "both->intransitive": 10,
+     "both->transitive": 9
+    }
+   },
+   "inception/mercury-decide": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.7016574585635359,
+    "auroc": null,
+    "lat_med": 1.0753540992736816,
+    "cost": 0.00087134,
+    "by_sub": {
+     "general": 0.7023809523809523,
+     "core": 0.75,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.3425414364640884,
+     "auto_acc": 0.9193548387096774,
+     "auto_n": 62
+    },
+    "tuned_acc": 0.7016574585635359,
+    "cost_per_1k": 0.0048140331491712705,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->intransitive": 26,
+     "transitive->transitive": 51,
+     "transitive->both": 2,
+     "intransitive->intransitive": 73,
+     "intransitive->transitive": 1,
+     "both->intransitive": 19,
+     "both->both": 3,
+     "both->transitive": 6
+    }
+   },
+   "microsoft/microsoft-decision-1": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.7845303867403315,
+    "auroc": null,
+    "lat_med": 0.49892687797546387,
+    "cost": 0.00143304,
+    "by_sub": {
+     "general": 0.7797619047619048,
+     "core": 0.9166666666666666,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.13812154696132597,
+     "auto_acc": 0.96,
+     "auto_n": 25
+    },
+    "tuned_acc": 0.7845303867403315,
+    "cost_per_1k": 0.007917348066298343,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->transitive": 69,
+     "transitive->intransitive": 7,
+     "transitive->both": 3,
+     "intransitive->intransitive": 70,
+     "intransitive->transitive": 3,
+     "intransitive->both": 1,
+     "both->intransitive": 13,
+     "both->both": 3,
+     "both->transitive": 12
+    }
+   },
+   "nace-ai/drex-v1.5": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.7071823204419889,
+    "auroc": null,
+    "lat_med": 0.7219600677490234,
+    "cost": 0.00130576,
+    "by_sub": {
+     "general": 0.6904761904761905,
+     "core": 1.0,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.27071823204419887,
+     "auto_acc": 0.9591836734693877,
+     "auto_n": 49
+    },
+    "tuned_acc": 0.7071823204419889,
+    "cost_per_1k": 0.00721414364640884,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->both": 19,
+     "transitive->transitive": 56,
+     "transitive->intransitive": 4,
+     "intransitive->intransitive": 60,
+     "intransitive->both": 13,
+     "intransitive->transitive": 1,
+     "both->both": 12,
+     "both->intransitive": 9,
+     "both->transitive": 7
+    }
+   },
+   "typesafe/jev-1.13": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.8287292817679558,
+    "auroc": null,
+    "lat_med": 0.4897172451019287,
+    "cost": 0.004002684,
+    "by_sub": {
+     "general": 0.8333333333333334,
+     "core": 0.8333333333333334,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.425414364640884,
+     "auto_acc": 0.974025974025974,
+     "auto_n": 77
+    },
+    "tuned_acc": 0.8287292817679558,
+    "cost_per_1k": 0.022114276243093926,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->transitive": 73,
+     "transitive->both": 3,
+     "transitive->intransitive": 3,
+     "intransitive->transitive": 9,
+     "intransitive->intransitive": 62,
+     "intransitive->both": 3,
+     "both->both": 15,
+     "both->intransitive": 4,
+     "both->transitive": 9
+    }
+   },
+   "jaredpalmer/kev-4b": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.6685082872928176,
+    "auroc": null,
+    "lat_med": 0.7819585800170898,
+    "cost": 0.001371048,
+    "by_sub": {
+     "general": 0.6547619047619048,
+     "core": 0.9166666666666666,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.15469613259668508,
+     "auto_acc": 0.9642857142857143,
+     "auto_n": 28
+    },
+    "tuned_acc": 0.6685082872928176,
+    "cost_per_1k": 0.007574850828729281,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->transitive": 50,
+     "transitive->both": 25,
+     "transitive->intransitive": 4,
+     "intransitive->both": 20,
+     "intransitive->intransitive": 54,
+     "both->both": 17,
+     "both->intransitive": 7,
+     "both->transitive": 4
+    }
+   },
+   "togethercomputer/tev1-4b-experimental": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.6353591160220995,
+    "auroc": null,
+    "lat_med": 0.47237586975097656,
+    "cost": 0.00192717,
+    "by_sub": {
+     "general": 0.6309523809523809,
+     "core": 0.75,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.24861878453038674,
+     "auto_acc": 0.9555555555555556,
+     "auto_n": 45
+    },
+    "tuned_acc": 0.6353591160220995,
+    "cost_per_1k": 0.010647348066298343,
+    "batch_lat_med": null,
+    "confusion": {
+     "transitive->transitive": 63,
+     "transitive->both": 15,
+     "transitive->intransitive": 1,
+     "intransitive->both": 22,
+     "intransitive->intransitive": 32,
+     "intransitive->transitive": 20,
+     "both->both": 20,
+     "both->transitive": 5,
+     "both->intransitive": 3
+    }
+   },
+   "google/gemini-2.5-flash": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.8121546961325967,
+    "auroc": null,
+    "lat_med": 3.82802414894104,
+    "cost": 0.02079116,
+    "by_sub": {
+     "general": 0.8035714285714286,
+     "core": 1.0,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.0,
+     "auto_acc": null,
+     "auto_n": 0
+    },
+    "tuned_acc": 0.8121546961325967,
+    "cost_per_1k": 0.11486828729281767,
+    "batch_lat_med": 3.82802414894104,
+    "confusion": {
+     "transitive->transitive": 69,
+     "transitive->both": 7,
+     "transitive->intransitive": 3,
+     "intransitive->intransitive": 65,
+     "intransitive->transitive": 8,
+     "both->both": 13,
+     "both->transitive": 7,
+     "both->intransitive": 8,
+     "intransitive->both": 1
+    }
+   },
+   "openai/gpt-6-luna": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.9613259668508287,
+    "auroc": null,
+    "lat_med": 18.513108253479004,
+    "cost": 0.0122886875,
+    "by_sub": {
+     "general": 0.9583333333333334,
+     "core": 1.0,
+     "basic": 1.0
+    },
+    "triage": {
+     "coverage": 0.9668508287292817,
+     "auto_acc": 0.9771428571428571,
+     "auto_n": 175
+    },
+    "tuned_acc": 0.9613259668508287,
+    "cost_per_1k": 0.06789330110497238,
+    "batch_lat_med": 18.513108253479004,
+    "confusion": {
+     "transitive->transitive": 75,
+     "transitive->both": 3,
+     "transitive->intransitive": 1,
+     "intransitive->intransitive": 73,
+     "intransitive->transitive": 1,
+     "both->both": 26,
+     "both->transitive": 1,
+     "both->intransitive": 1
+    }
+   },
+   "anthropic/claude-haiku-5.5": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.8950276243093923,
+    "auroc": null,
+    "lat_med": 9.893802642822266,
+    "cost": 0.01135049,
+    "by_sub": {
+     "general": 0.8988095238095238,
+     "core": 0.9166666666666666,
+     "basic": 0.0
+    },
+    "triage": {
+     "coverage": 0.6685082872928176,
+     "auto_acc": 0.9669421487603306,
+     "auto_n": 121
+    },
+    "tuned_acc": 0.8950276243093923,
+    "cost_per_1k": 0.06270988950276242,
+    "batch_lat_med": 9.893802642822266,
+    "confusion": {
+     "transitive->transitive": 76,
+     "transitive->both": 3,
+     "intransitive->intransitive": 69,
+     "intransitive->transitive": 3,
+     "intransitive->both": 2,
+     "both->intransitive": 4,
+     "both->both": 17,
+     "both->transitive": 7
+    }
+   },
+   "openai/gpt-6.1-sol": {
+    "n": 181,
+    "answered": 181,
+    "acc": 0.9281767955801105,
+    "auroc": null,
+    "lat_med": 18.9142587184906,
+    "cost": 0.13629225,
+    "by_sub": {
+     "general": 0.9285714285714286,
+     "core": 0.9166666666666666,
+     "basic": 1.0
+    },
+    "triage": {
+     "coverage": 0.856353591160221,
+     "auto_acc": 0.9870967741935484,
+     "auto_n": 155
+    },
+    "tuned_acc": 0.9281767955801105,
+    "cost_per_1k": 0.7529958563535911,
+    "batch_lat_med": 18.9142587184906,
+    "confusion": {
+     "transitive->transitive": 77,
+     "transitive->both": 2,
+     "intransitive->intransitive": 69,
+     "intransitive->both": 4,
+     "intransitive->transitive": 1,
+     "both->transitive": 5,
+     "both->both": 22,
+     "both->intransitive": 1
+    }
+   },
+   "_cascade": {
+    "dec": "typesafe/jev-1.13",
+    "google/gemini-2.5-flash": {
+     "acc": 0.8232044198895028,
+     "escalated": 0.574585635359116,
+     "cost_per_1k": 0.08811594407985103
+    },
+    "openai/gpt-6-luna": {
+     "acc": 0.9502762430939227,
+     "escalated": 0.574585635359116,
+     "cost_per_1k": 0.06112479179512226
+    },
+    "anthropic/claude-haiku-5.5": {
+     "acc": 0.8950276243093923,
+     "escalated": 0.574585635359116,
+     "cost_per_1k": 0.058146477946338634
+    },
+    "openai/gpt-6.1-sol": {
+     "acc": 0.9226519337016574,
+     "escalated": 0.574585635359116,
+     "cost_per_1k": 0.45477487878880374
+    }
+   }
+  },
+  "sense": {
+   "openai/gpt-6-luna-decisions": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.95,
+    "auroc": null,
+    "lat_med": 0.3847721815109253,
+    "cost": 0.0025767,
+    "by_sub": {
+     "2-sense": 0.9533333333333334,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.94375,
+     "auto_acc": 0.9602649006622517,
+     "auto_n": 151
+    },
+    "tuned_acc": 0.95,
+    "cost_per_1k": 0.016104374999999997,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense2->sense2": 68,
+     "sense1->sense1": 81,
+     "sense2->sense1": 6,
+     "sense3->sense1": 1,
+     "sense1->sense2": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "upstage/solar-decide": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.875,
+    "auroc": null,
+    "lat_med": 0.9842740297317505,
+    "cost": 0.00308475,
+    "by_sub": {
+     "2-sense": 0.88,
+     "3-sense": 0.7777777777777778,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.13125,
+     "auto_acc": 0.7619047619047619,
+     "auto_n": 21
+    },
+    "tuned_acc": 0.875,
+    "cost_per_1k": 0.019279687499999996,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense1->sense1": 80,
+     "sense2->sense2": 57,
+     "sense2->sense1": 17,
+     "sense3->sense1": 1,
+     "sense1->sense2": 2,
+     "sense3->sense3": 3
+    }
+   },
+   "upstage/solar-decide-flash": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.83125,
+    "auroc": null,
+    "lat_med": 0.8885383605957031,
+    "cost": 0.00308475,
+    "by_sub": {
+     "2-sense": 0.8333333333333334,
+     "3-sense": 0.7777777777777778,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.2625,
+     "auto_acc": 0.9523809523809523,
+     "auto_n": 42
+    },
+    "tuned_acc": 0.83125,
+    "cost_per_1k": 0.019279687499999996,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense1->sense1": 75,
+     "sense2->sense2": 55,
+     "sense1->sense2": 6,
+     "sense2->sense1": 19,
+     "sense3->sense1": 1,
+     "sense3->sense3": 3,
+     "sense1->sense3": 1
+    }
+   },
+   "cloudflare/clef": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.925,
+    "auroc": null,
+    "lat_med": 0.5284410715103149,
+    "cost": 0.00656544,
+    "by_sub": {
+     "2-sense": 0.9266666666666666,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.8625,
+     "auto_acc": 0.9710144927536232,
+     "auto_n": 138
+    },
+    "tuned_acc": 0.925,
+    "cost_per_1k": 0.041034,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense2->sense2": 64,
+     "sense1->sense1": 81,
+     "sense1->sense2": 1,
+     "sense2->sense1": 10,
+     "sense3->sense1": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "cloudflare/clef-omni": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.925,
+    "auroc": null,
+    "lat_med": 0.4583299160003662,
+    "cost": 0.0041037,
+    "by_sub": {
+     "2-sense": 0.9266666666666666,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.70625,
+     "auto_acc": 0.9557522123893806,
+     "auto_n": 113
+    },
+    "tuned_acc": 0.925,
+    "cost_per_1k": 0.025648125,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense1->sense1": 82,
+     "sense2->sense2": 63,
+     "sense2->sense1": 11,
+     "sense3->sense2": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "cloudflare/clef-flash": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.925,
+    "auroc": null,
+    "lat_med": 0.49420881271362305,
+    "cost": 0.001039528,
+    "by_sub": {
+     "2-sense": 0.92,
+     "3-sense": 1.0,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.725,
+     "auto_acc": 0.9655172413793104,
+     "auto_n": 116
+    },
+    "tuned_acc": 0.925,
+    "cost_per_1k": 0.00649705,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense1->sense1": 81,
+     "sense2->sense2": 63,
+     "sense2->sense1": 11,
+     "sense3->sense3": 4,
+     "sense1->sense2": 1
+    }
+   },
+   "perplexity/pplx-decider-v1.1-27b": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.9625,
+    "auroc": null,
+    "lat_med": 0.42796850204467773,
+    "cost": 0.00043188,
+    "by_sub": {
+     "2-sense": 0.9666666666666667,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.9375,
+     "auto_acc": 0.9666666666666667,
+     "auto_n": 150
+    },
+    "tuned_acc": 0.9625,
+    "cost_per_1k": 0.00269925,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense1->sense1": 82,
+     "sense2->sense2": 69,
+     "sense2->sense1": 5,
+     "sense3->sense2": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "liquid/d1": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.94375,
+    "auroc": null,
+    "lat_med": 0.40465855598449707,
+    "cost": 0.00058796,
+    "by_sub": {
+     "2-sense": 0.9466666666666667,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.94375,
+     "auto_acc": 0.9735099337748344,
+     "auto_n": 151
+    },
+    "tuned_acc": 0.94375,
+    "cost_per_1k": 0.00367475,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense1->sense1": 80,
+     "sense2->sense2": 68,
+     "sense1->sense2": 2,
+     "sense2->sense1": 6,
+     "sense3->sense2": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "inception/mercury-decide": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.9125,
+    "auroc": null,
+    "lat_med": 0.8779256343841553,
+    "cost": 0.00035498,
+    "by_sub": {
+     "2-sense": 0.9133333333333333,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.8875,
+     "auto_acc": 0.9788732394366197,
+     "auto_n": 142
+    },
+    "tuned_acc": 0.9125,
+    "cost_per_1k": 0.002218625,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense2->sense2": 63,
+     "sense1->sense1": 80,
+     "sense1->sense2": 2,
+     "sense2->sense1": 11,
+     "sense3->sense2": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "microsoft/microsoft-decision-1": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.9375,
+    "auroc": null,
+    "lat_med": 0.47126054763793945,
+    "cost": 0.000506268,
+    "by_sub": {
+     "2-sense": 0.94,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.85625,
+     "auto_acc": 0.9708029197080292,
+     "auto_n": 137
+    },
+    "tuned_acc": 0.9375,
+    "cost_per_1k": 0.0031641750000000004,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense2->sense2": 67,
+     "sense1->sense1": 80,
+     "sense2->sense1": 7,
+     "sense3->sense1": 1,
+     "sense1->sense2": 2,
+     "sense3->sense3": 3
+    }
+   },
+   "nace-ai/drex-v1.5": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.8625,
+    "auroc": null,
+    "lat_med": 0.5738540887832642,
+    "cost": 0.00041008,
+    "by_sub": {
+     "2-sense": 0.86,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.61875,
+     "auto_acc": 0.98989898989899,
+     "auto_n": 99
+    },
+    "tuned_acc": 0.8625,
+    "cost_per_1k": 0.002563,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense1->sense1": 78,
+     "sense2->sense2": 57,
+     "sense2->sense1": 17,
+     "sense3->sense1": 1,
+     "sense1->sense2": 4,
+     "sense3->sense3": 3
+    }
+   },
+   "typesafe/jev-1.13": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.95,
+    "auroc": null,
+    "lat_med": 0.4489138126373291,
+    "cost": 0.00250614,
+    "by_sub": {
+     "2-sense": 0.9533333333333334,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.95625,
+     "auto_acc": 0.9738562091503268,
+     "auto_n": 153
+    },
+    "tuned_acc": 0.95,
+    "cost_per_1k": 0.015663375,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense1->sense1": 82,
+     "sense2->sense2": 67,
+     "sense3->sense1": 1,
+     "sense2->sense1": 7,
+     "sense3->sense3": 3
+    }
+   },
+   "jaredpalmer/kev-4b": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.88125,
+    "auroc": null,
+    "lat_med": 0.7765189409255981,
+    "cost": 0.000430584,
+    "by_sub": {
+     "2-sense": 0.88,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.48125,
+     "auto_acc": 0.9090909090909091,
+     "auto_n": 77
+    },
+    "tuned_acc": 0.88125,
+    "cost_per_1k": 0.0026911500000000002,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense1->sense1": 79,
+     "sense2->sense2": 59,
+     "sense1->sense2": 3,
+     "sense2->sense1": 15,
+     "sense3->sense1": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "togethercomputer/tev1-4b-experimental": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.88125,
+    "auroc": null,
+    "lat_med": 0.44557714462280273,
+    "cost": 0.000893802,
+    "by_sub": {
+     "3-sense": 0.8888888888888888,
+     "2-sense": 0.88,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.75,
+     "auto_acc": 0.9583333333333334,
+     "auto_n": 120
+    },
+    "tuned_acc": 0.88125,
+    "cost_per_1k": 0.0055862624999999996,
+    "batch_lat_med": null,
+    "confusion": {
+     "sense2->sense2": 60,
+     "sense1->sense1": 78,
+     "sense2->sense1": 14,
+     "sense3->sense1": 1,
+     "sense1->sense2": 4,
+     "sense3->sense3": 3
+    }
+   },
+   "google/gemini-2.5-flash": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.9625,
+    "auroc": null,
+    "lat_med": 3.3644391298294067,
+    "cost": 0.0165821,
+    "by_sub": {
+     "2-sense": 0.9666666666666667,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.825,
+     "auto_acc": 0.9696969696969697,
+     "auto_n": 132
+    },
+    "tuned_acc": 0.9625,
+    "cost_per_1k": 0.103638125,
+    "batch_lat_med": 3.3644391298294067,
+    "confusion": {
+     "sense1->sense2": 1,
+     "sense2->sense1": 4,
+     "sense2->sense2": 70,
+     "sense3->sense1": 1,
+     "sense1->sense1": 81,
+     "sense3->sense3": 3
+    }
+   },
+   "openai/gpt-6-luna": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.95625,
+    "auroc": null,
+    "lat_med": 5.703959107398987,
+    "cost": 0.004203775,
+    "by_sub": {
+     "2-sense": 0.96,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.9375,
+     "auto_acc": 0.96,
+     "auto_n": 150
+    },
+    "tuned_acc": 0.95625,
+    "cost_per_1k": 0.02627359375,
+    "batch_lat_med": 5.703959107398987,
+    "confusion": {
+     "sense1->sense1": 80,
+     "sense2->sense2": 70,
+     "sense2->sense1": 4,
+     "sense1->sense2": 2,
+     "sense3->sense1": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "anthropic/claude-haiku-5.5": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.95,
+    "auroc": null,
+    "lat_med": 6.6519564390182495,
+    "cost": 0.006812,
+    "by_sub": {
+     "2-sense": 0.9533333333333334,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.93125,
+     "auto_acc": 0.9731543624161074,
+     "auto_n": 149
+    },
+    "tuned_acc": 0.95,
+    "cost_per_1k": 0.042575,
+    "batch_lat_med": 6.6519564390182495,
+    "confusion": {
+     "sense1->sense1": 82,
+     "sense2->sense2": 67,
+     "sense2->sense1": 7,
+     "sense3->sense1": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "openai/gpt-6.1-sol": {
+    "n": 160,
+    "answered": 160,
+    "acc": 0.96875,
+    "auroc": null,
+    "lat_med": 7.153488397598267,
+    "cost": 0.0655355,
+    "by_sub": {
+     "2-sense": 0.9733333333333334,
+     "3-sense": 0.8888888888888888,
+     "4-sense": 1.0
+    },
+    "triage": {
+     "coverage": 0.9875,
+     "auto_acc": 0.9683544303797469,
+     "auto_n": 158
+    },
+    "tuned_acc": 0.96875,
+    "cost_per_1k": 0.40959687499999997,
+    "batch_lat_med": 7.153488397598267,
+    "confusion": {
+     "sense1->sense1": 82,
+     "sense2->sense1": 4,
+     "sense2->sense2": 70,
+     "sense3->sense2": 1,
+     "sense3->sense3": 3
+    }
+   },
+   "_cascade": {
+    "dec": "perplexity/pplx-decider-v1.1-27b",
+    "google/gemini-2.5-flash": {
+     "acc": 0.95625,
+     "escalated": 0.0625,
+     "cost_per_1k": 0.0091766328125
+    },
+    "openai/gpt-6-luna": {
+     "acc": 0.95,
+     "escalated": 0.0625,
+     "cost_per_1k": 0.004341349609375
+    },
+    "anthropic/claude-haiku-5.5": {
+     "acc": 0.95625,
+     "escalated": 0.0625,
+     "cost_per_1k": 0.0053601875
+    },
+    "openai/gpt-6.1-sol": {
+     "acc": 0.9625,
+     "escalated": 0.0625,
+     "cost_per_1k": 0.0282990546875
+    }
+   }
+  }
+ },
+ "models": {
+  "decision": [
+   "openai/gpt-6-luna-decisions",
+   "upstage/solar-decide",
+   "upstage/solar-decide-flash",
+   "cloudflare/clef",
+   "cloudflare/clef-omni",
+   "cloudflare/clef-flash",
+   "perplexity/pplx-decider-v1.1-27b",
+   "liquid/d1",
+   "inception/mercury-decide",
+   "microsoft/microsoft-decision-1",
+   "nace-ai/drex-v1.5",
+   "typesafe/jev-1.13",
+   "jaredpalmer/kev-4b",
+   "togethercomputer/tev1-4b-experimental",
+   "respan/span-01",
+   "respan/span-01-lite"
+  ],
+  "llm": [
+   "google/gemini-2.5-flash",
+   "openai/gpt-6-luna",
+   "anthropic/claude-haiku-5.5",
+   "openai/gpt-6.1-sol"
+  ]
+ },
+ "screen": {
+  "openai/gpt-6-luna-decisions": {
+   "reading": 0.875,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.928051233291626
+  },
+  "upstage/solar-decide": {
+   "reading": 0.875,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.9507647752761841
+  },
+  "upstage/solar-decide-flash": {
+   "reading": 0.8125,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 1.020310878753662
+  },
+  "cloudflare/clef": {
+   "reading": 0.625,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 1.5692750215530396
+  },
+  "cloudflare/clef-omni": {
+   "reading": 0.75,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.7283629179000854
+  },
+  "cloudflare/clef-flash": {
+   "reading": 0.8125,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.7575936317443848
+  },
+  "perplexity/pplx-decider-v1.1-27b": {
+   "reading": 0.6875,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.5547409057617188
+  },
+  "liquid/d1": {
+   "reading": 0.6875,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.6303046941757202
+  },
+  "inception/mercury-decide": {
+   "reading": 0.75,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 1.2014083862304688
+  },
+  "microsoft/microsoft-decision-1": {
+   "reading": 0.625,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.6929210424423218
+  },
+  "nace-ai/drex-v1.5": {
+   "reading": 0.5,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.9266341924667358
+  },
+  "typesafe/jev-1.13": {
+   "reading": 0.5625,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.8476485013961792
+  },
+  "jaredpalmer/kev-4b": {
+   "reading": 0.5625,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.9118344783782959
+  },
+  "togethercomputer/tev1-4b-experimental": {
+   "reading": 0.5625,
+   "translation": 1.0,
+   "meaning": 1.0,
+   "control": 1.0,
+   "lat_med": 0.9268461465835571
+  },
+  "respan/span-01": {
+   "reading": 0.6875,
+   "translation": 1.0,
+   "meaning": 0.0,
+   "control": 1.0,
+   "lat_med": 0.5170400142669678
+  },
+  "respan/span-01-lite": {
+   "reading": 0.6875,
+   "translation": 1.0,
+   "meaning": 0.0,
+   "control": 1.0,
+   "lat_med": 0.5848064422607422
+  },
+  "google/gemini-2.5-flash": {
+   "meaning": 1.0,
+   "control": 1.0,
+   "reading": 0.875,
+   "translation": 1.0,
+   "lat_med": 2.5537779331207275
+  },
+  "openai/gpt-6-luna": {
+   "translation": 1.0,
+   "meaning": 1.0,
+   "reading": 1.0,
+   "control": 1.0,
+   "lat_med": 5.038861393928528
+  },
+  "anthropic/claude-haiku-5.5": {
+   "control": 1.0,
+   "meaning": 1.0,
+   "translation": 1.0,
+   "reading": 1.0,
+   "lat_med": 9.255702257156372
+  },
+  "openai/gpt-6.1-sol": {
+   "meaning": 1.0,
+   "translation": 1.0,
+   "reading": 1.0,
+   "control": 1.0,
+   "lat_med": 9.936319231987
+  }
+ }
+}
