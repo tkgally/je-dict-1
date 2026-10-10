@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "パスワード is a loanword from English \"password.\"\n\nCOMMON PATTERNS:\n- パスワード⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧⟦する→する：00392_suru⟧: to enter a password\n- パスワード⟦を→を：00422_wo⟧⟦{変更|へんこう}→変更：03616_henkou⟧⟦する→する：00392_suru⟧: to change a password\n- パスワード⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget a password\n- パスワード⟦を→を：00422_wo⟧⟦リセット→リセット：11199_risetto⟧⟦する→する：00392_suru⟧: to reset a password\n\nSECURITY TERMS:\n- ⟦{暗証番号|あんしょうばんごう}→暗証番号：07681_anshoubangou⟧: PIN number\n- ⟦{二段階認証|にだんかいにんしょう}→二段階認証：08618_nidankaininshou⟧: two-factor authentication\n- ⟦{指紋認証|しもんにんしょう}→指紋認証：08592_shimonninshou⟧: fingerprint authentication",
+  "notes": "パスワード is a loanword from English \"password.\"\n\nCOMMON PATTERNS:\n- パスワード⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧⟦する→する：00392_suru⟧: to enter a password\n- パスワード⟦を→を：00422_wo⟧⟦{変更|へんこう}→変更：03616_henkou⟧⟦する→する：00392_suru⟧: to change a password\n- パスワード⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget a password\n- パスワード⟦を→を：00422_wo⟧⟦リセット→リセット：11199_risetto⟧⟦する→する：00392_suru⟧: to reset a password\n\nRELATED WORDS:\n- ⟦{暗証番号|あんしょうばんごう}→暗証番号：07681_anshoubangou⟧: PIN number\n- ⟦{二段階認証|にだんかいにんしょう}→二段階認証：08618_nidankaininshou⟧: two-factor authentication\n- ⟦{指紋認証|しもんにんしょう}→指紋認証：08592_shimonninshou⟧: fingerprint authentication",
   "cross_references": [
     {
       "type": "related",
@@ -72,11 +72,25 @@
       "reading": "あんごうかぎ",
       "headword": "{暗号鍵|あんごうかぎ}",
       "label": "encryption key"
+    },
+    {
+      "type": "related",
+      "target_id": "08618_nidankaininshou",
+      "reading": "にだんかいにんしょう",
+      "headword": "{二段階認証|にだんかいにんしょう}",
+      "label": "two-factor authentication"
+    },
+    {
+      "type": "related",
+      "target_id": "08592_shimonninshou",
+      "reading": "しもんにんしょう",
+      "headword": "{指紋認証|しもんにんしょう}",
+      "label": "fingerprint authentication"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-09-04T12:29:39Z",
+    "modified": "2026-10-10T18:34:47Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
