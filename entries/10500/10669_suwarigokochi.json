@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\nFormed from {verb stem} + {心地|ごこち} (comfort/feel). Other common ～{心地|ごこち} words:\n- ⟦{寝|ね}{心地|ごこち}→寝心地：07270_negokochi⟧: sleeping comfort\n- ⟦{着|き}{心地|ごこち}→着心地：07269_kigokochi⟧: wearing comfort\n- ⟦{住|す}み{心地|ごこち}→住み心地：08349_sumigokochi⟧: living comfort\n- ⟦{乗|の}り{心地|ごこち}→乗り心地：07268_norigokochi⟧: ride comfort\n- {座|すわ}り{心地|ごこち}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: comfortable to sit on\n- {座|すわ}り{心地|ごこち}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: uncomfortable to sit on\n- {座|すわ}り{心地|ごこち}⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧⟦{椅子|いす}→椅子：00706_isu⟧: a comfortable chair",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n- {座|すわ}り{心地|ごこち}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: comfortable to sit on\n- {座|すわ}り{心地|ごこち}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: uncomfortable to sit on\n- {座|すわ}り{心地|ごこち}⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧⟦{椅子|いす}→椅子：00706_isu⟧: a comfortable chair\n\nRELATED WORDS:\nVerb stem + {心地|ごこち} (read ごこち) names how something feels in use:\n- ⟦{寝|ね}{心地|ごこち}→寝心地：07270_negokochi⟧: how comfortable a bed is to sleep on\n- ⟦{着|き}{心地|ごこち}→着心地：07269_kigokochi⟧: how comfortable clothing is to wear\n- ⟦{住|す}み{心地|ごこち}→住み心地：08349_sumigokochi⟧: how comfortable a place is to live in\n- ⟦{乗|の}り{心地|ごこち}→乗り心地：07268_norigokochi⟧: how comfortable a vehicle is to ride in",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07270_negokochi",
+      "reading": "ねごこち",
+      "headword": "{寝心地|ねごこち}",
+      "label": "how comfortable a bed is to sleep on"
+    },
+    {
+      "type": "related",
+      "target_id": "07269_kigokochi",
+      "reading": "きごこち",
+      "headword": "{着心地|きごこち}",
+      "label": "how comfortable clothing is to wear"
+    },
+    {
+      "type": "related",
+      "target_id": "08349_sumigokochi",
+      "reading": "すみごこち",
+      "headword": "{住|す}み{心地|ごこち}",
+      "label": "how comfortable a place is to live in"
+    },
+    {
+      "type": "related",
+      "target_id": "07268_norigokochi",
+      "reading": "のりごこち",
+      "headword": "{乗|の}り{心地|ごこち}",
+      "label": "how comfortable a vehicle is to ride in"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T02:36:47Z",
-    "modified": "2026-09-02T04:01:22Z",
+    "modified": "2026-10-10T18:21:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -58,7 +87,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "descriptive",
+        "furniture"
       ]
     }
   }

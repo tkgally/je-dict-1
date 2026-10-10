@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n- もち{米|ごめ} ({糯米|もちごめ}) — glutinous/sticky rice, used for ⟦{餅|もち}→餅：03900_mochi⟧, ⟦{赤飯|せきはん}→赤飯：18955_sekihan⟧, ⟦おこわ→おこわ：22455_okowa⟧, etc.\n- うるち{米|まい} ({粳米|うるちまい}) — ordinary rice, the standard rice eaten daily\n\nCOMMON COLLOCATIONS:\n- ⟦{餅|もち}→餅：03900_mochi⟧ (mochi) — pounded rice cakes\n- ⟦{赤飯|せきはん}→赤飯：18955_sekihan⟧ (sekihan) — rice with red beans for celebrations\n- ⟦おこわ→おこわ：22455_okowa⟧ — steamed glutinous rice dishes\n- ⟦おはぎ→おはぎ：29365_ohagi⟧ — rice balls coated in sweet bean paste\n- もち{米|ごめ}⟦を→を：00422_wo⟧⟦{蒸|む}す→蒸す：02307_musu⟧ (to steam glutinous rice)\n- もち{米|ごめ}⟦を→を：00422_wo⟧{搗|つ}く (to pound glutinous rice into mochi)",
-  "cross_references": [],
+  "notes": "Also written {糯米|もちごめ}. The rice used for ⟦{餅|もち}→餅：03900_mochi⟧, ⟦{赤飯|せきはん}→赤飯：18955_sekihan⟧, and ⟦おこわ→おこわ：22455_okowa⟧; it is steamed rather than boiled.\n\nSIMILAR WORDS:\n- うるち{米|まい} ({粳米|うるちまい}): ordinary non-glutinous rice, the rice eaten at everyday meals\n\nRELATED WORDS:\n- ⟦{餅|もち}→餅：03900_mochi⟧: rice cake made by pounding steamed もち{米|ごめ}\n- ⟦{赤飯|せきはん}→赤飯：18955_sekihan⟧: もち{米|ごめ} steamed with red beans, for celebrations\n- ⟦おこわ→おこわ：22455_okowa⟧: steamed glutinous rice dishes\n- ⟦おはぎ→おはぎ：29365_ohagi⟧: sweet balls of もち{米|ごめ} (often mixed with ordinary rice) coated in bean paste\n\nCOMMON COLLOCATIONS:\n- もち{米|ごめ}⟦を→を：00422_wo⟧⟦{蒸|む}す→蒸す：02307_musu⟧: to steam glutinous rice\n- もち{米|ごめ}⟦を→を：00422_wo⟧{搗|つ}く: to pound (steamed) glutinous rice into mochi",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03900_mochi",
+      "reading": "もち",
+      "headword": "{餅|もち}",
+      "label": "rice cake made by pounding steamed"
+    },
+    {
+      "type": "related",
+      "target_id": "18955_sekihan",
+      "reading": "せきはん",
+      "headword": "{赤飯|せきはん}",
+      "label": "steamed with red beans, for celebrations"
+    },
+    {
+      "type": "related",
+      "target_id": "22455_okowa",
+      "reading": "おこわ",
+      "headword": "おこわ",
+      "label": "steamed glutinous rice dishes"
+    },
+    {
+      "type": "related",
+      "target_id": "29365_ohagi",
+      "reading": "おはぎ",
+      "headword": "おはぎ",
+      "label": "sweet balls (often mixed with ordinary…"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T15:14:06Z",
-    "modified": "2026-09-02T04:01:22Z",
+    "modified": "2026-10-10T18:21:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
