@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-10 (Routine v3: new-entries — 15 New Entries, IDs 31855–31869)
+
+Fifteen internal-closure candidates that existing entries already use, in queue order: 買主 (WATCH OUT 飼い主), 熊本 (熊本城, 2016 earthquakes), 平家 (平家物語, 驕る平家は久しからず), 大勝 (vs 圧勝/完勝; homophones), 就労 (就労ビザ, 28-hour student limit), 讃岐 (讃岐うどん), 鬼ヶ島, 青森 (apples, ねぶた), 神々 (WATCH OUT 神々しい こうごうしい), 長野 (信州, 1998 Olympics), 清栄 (letter openings), 印象派, 名工 (現代の名工), 米軍 (在日米軍), 変色 (WATCH OUT 偏食). New kanji 讃 added to the kanji index. Self-check skipped (daily OpenRouter cap spent).
+
 ### 2026-10-10 (Routine v3: new-entries — 10 New Entries, IDs 31845–31854)
 
 Ten internal-closure candidates that existing entries already use: 結婚観 (〜観 compounds), 拘禁刑 (the unified prison sentence since June 2025; WATCH OUT 懲役/禁錮), 山中 (WATCH OUT surname やまなか), 鹿児島 (薩摩, さつまいも), 浄土宗 (WATCH OUT 浄土真宗), 天照大神 (天岩戸, Ise), 赤穂浪士 (忠臣蔵, 泉岳寺), 手短 (手短に言うと), 時下 (business-letter opening), 輪島塗 (2024 Noto earthquake). A short last cycle of the run; self-check skipped (daily OpenRouter cap spent).
@@ -65,8 +69,4 @@ No noentry markers remain, so every candidate comes from a scan of example sente
 ### 2026-10-10 (Routine v3: new-entries — 10 New Entries, IDs 31815–31824)
 
 Ten internal-closure candidates that existing entries already use: くるまる (intransitive partner of くるむ; prominent see-also both ways), 彼方 (かなた, literary), なめす (皮 vs 革), 馬小屋, 懐石料理 (WATCH OUT 会席料理), 過去最高, 点差, 山間部 (weather-forecast term; 平野部), 互換 (上位互換, 互換性), 薄手 (opposite 厚手). Self-check clean.
-
-### 2026-10-09 (Routine v3: new-entries — 10 New Entries, IDs 31805–31814)
-
-Ten internal-closure candidates that existing entries already use: 学生時代, 生後 (WATCH OUT 生前 is not "before birth"), 基準値, 主成分, 短期的, 開校 (WATCH OUT 開講), おかか (女房詞 for 鰹節), 〜番線 (vs ホーム), ハクション, 一言一句 (reading いちごん). A short last cycle of the run; self-check skipped (daily OpenRouter cap spent).
 
