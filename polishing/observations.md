@@ -1631,3 +1631,4 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 2026-10-10 17018 手押し車: audio checks heard ておしぐるま for {手押|ておし}し{車|ぐるま} in 17018_teoshiguruma_ex1–ex3 (and likely the headword): the furigana repeats the し; should be {手押|てお}し.
 - [entry] 2026-10-10 17168 成果物: audio checks heard さんぼん for 三本 in 17168_seikabutsu_ex3; the furigana {本|ぽん} is wrong (三本 is さんぼん).
 - [entry] 2026-10-10 17332 幕を閉じる: audio checks heard いんたいじあい for 引退試合 in 17332_makuwotojiru_ex3; the furigana gives しあい (rendaku じあい is the usual reading); check.
+- [tooling] 2026-10-10 The candidates scan found many furigana-marked words in examples left unlinked although their entry exists: 気持ち in 147 entries, 怪我 48, 入口 23, 綺麗 15, and okurigana verbs (苛立つ, 見張る, 名乗る, 相次ぐ, 度重なる …). Worth checking why auto_link.py skips them (variant spelling vs headword, or a guard).
