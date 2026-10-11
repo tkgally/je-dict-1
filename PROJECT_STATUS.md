@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-11 (Routine v3: new-entries — 20 New Entries, IDs 31880–31899)
+
+Twenty internal-closure candidates that existing entries already use, in queue order: 出廷 (vs 出頭), 殺処分 (official term; 殺処分ゼロ), 横行 (of wrongdoing; vs はびこる/蔓延), 糠床, 土砂災害 (土石流/崖崩れ/地滑り), 明治神宮, 親方 (two senses: master craftsman, sumo stable master; 親方日の丸), 盗塁, 乾季 (also 乾期; WATCH OUT 換気/寒気), 答辞 (vs 送辞), 金沢, 婦人科, 武勇伝, 収入印紙, 御利益 (りやく vs 利益 りえき), 重鎮 (vs 大御所/第一人者), 備長炭, 物産展, 目先 (two senses; 目先の利益, 目先が利く), 宗派. The candidate 福引 was dropped as a duplicate of 福引き (17826). The conjugation generator also filled in tables missing from four する-nouns of an earlier run (大勝, 就労, 変色, 大成). Self-check clean.
+
 ### 2026-10-11 (Routine v3: candidates — 39 Candidates Added, C24329–C24367)
 
 No unresolved noentry markers remain, so the source was a scan of example sentences for furigana-marked kanji words with no link that match no headword or candidate. 39 added, each with the entry that uses it: 国際社会, 寝入る, 明星, 過払い, 脆弱性, 同社, 色濃い, 光学, 集合写真, 保冷, 病魔, 滅入る, 交通手段, 吸水性, 低金利, 浮世絵師, 時期尚早, 日付変更線, 従属節, 文人, 未来永劫, 黄身, 善玉菌, 無形文化遺産, 問答, 善光寺, 白内障, 売主, 徳島, 多幸, 論語, 波打つ, 所狭し, 隣家, 稜線, 大物, 平均寿命, 本能寺, 書道家. Queue 79 → 118.
@@ -65,8 +69,3 @@ Five internal-closure candidates in queue order, a short last cycle of the run: 
 ### 2026-10-10 (Routine v3: new-entries — 15 New Entries, IDs 31855–31869)
 
 Fifteen internal-closure candidates that existing entries already use, in queue order: 買主 (WATCH OUT 飼い主), 熊本 (熊本城, 2016 earthquakes), 平家 (平家物語, 驕る平家は久しからず), 大勝 (vs 圧勝/完勝; homophones), 就労 (就労ビザ, 28-hour student limit), 讃岐 (讃岐うどん), 鬼ヶ島, 青森 (apples, ねぶた), 神々 (WATCH OUT 神々しい こうごうしい), 長野 (信州, 1998 Olympics), 清栄 (letter openings), 印象派, 名工 (現代の名工), 米軍 (在日米軍), 変色 (WATCH OUT 偏食). New kanji 讃 added to the kanji index. Self-check skipped (daily OpenRouter cap spent).
-
-### 2026-10-10 (Routine v3: new-entries — 10 New Entries, IDs 31845–31854)
-
-Ten internal-closure candidates that existing entries already use: 結婚観 (〜観 compounds), 拘禁刑 (the unified prison sentence since June 2025; WATCH OUT 懲役/禁錮), 山中 (WATCH OUT surname やまなか), 鹿児島 (薩摩, さつまいも), 浄土宗 (WATCH OUT 浄土真宗), 天照大神 (天岩戸, Ise), 赤穂浪士 (忠臣蔵, 泉岳寺), 手短 (手短に言うと), 時下 (business-letter opening), 輪島塗 (2024 Noto earthquake). A short last cycle of the run; self-check skipped (daily OpenRouter cap spent).
-
