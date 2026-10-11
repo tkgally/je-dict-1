@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-10-05",
+ "updated": "2026-10-11",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -8188,6 +8188,18 @@
     "reviewed": 7,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "されど": {
+   "target": "31549_saredo",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "The word 'されど' is almost exclusively used as the conjunction 'however; and yet' in modern Japanese.",
+    "model": "google/gemini-2.5-flash",
+    "date": "2026-10-11"
    }
   },
   "さん": {
