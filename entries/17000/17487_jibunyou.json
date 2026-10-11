@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "{自分用|じぶんよう} means \"for one's own use\" or \"for personal use.\" Especially common when distinguishing personal purchases from gifts or shared items.\n\nFORMS:\n⟦{自分|じぶん}→自分：02887_jibun⟧ (oneself) + ⟦{用|よう}→〜用：09842_you⟧ (for the use of). The suffix ～⟦{用|よう}→〜用：09842_you⟧ is productive and attaches to nouns.\n\nCOMMON PATTERNS:\n- {自分用|じぶんよう}⟦に→に：00314_ni⟧⟦{買|か}う→買う：00489_kau⟧: to buy for oneself\n- {自分用|じぶんよう}⟦の→の：09472_no⟧⟦メモ→メモ：00274_memo⟧: notes for personal use\n- ⟦お{土産|みやげ}→お土産：01353_omiyage⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{別|べつ}→別：01216_betsu⟧⟦に→に：00314_ni⟧{自分用|じぶんよう}: for myself, separate from souvenirs\nUsed as a no-adjective: {自分用|じぶんよう}⟦の→の：09472_no⟧⟦パソコン→パソコン：01538_pasokon⟧ (a computer for personal use).\n\nRELATED ～{用|よう} COMPOUNDS:\n- {子供用|こどもよう}: for children\n- {大人用|おとなよう}: for adults\n- {仕事用|しごとよう}: for work\n- {来客用|らいきゃくよう}: for guests\n- ⟦{業務用|ぎょうむよう}→業務用：13148_gyoumuyou⟧: for commercial/business use\n- ⟦{個人用|こじんよう}→個人用：26704_kojinyou⟧: for personal use (more formal than {自分用|じぶんよう})",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n⟦{自分|じぶん}→自分：02887_jibun⟧ (oneself) + ⟦{用|よう}→〜用：09842_you⟧ (for the use of). The suffix ～⟦{用|よう}→〜用：09842_you⟧ is productive and attaches to nouns.\n\nCOMMON PATTERNS:\n- {自分用|じぶんよう}⟦に→に：00314_ni⟧⟦{買|か}う→買う：00489_kau⟧: to buy for oneself\n- {自分用|じぶんよう}⟦の→の：09472_no⟧⟦メモ→メモ：00274_memo⟧: notes for personal use\nUsed as a no-adjective: {自分用|じぶんよう}⟦の→の：09472_no⟧⟦パソコン→パソコン：01538_pasokon⟧ (a computer for personal use).\n\nRELATED WORDS (other ～⟦{用|よう}→〜用：09842_you⟧ compounds):\n- {子供用|こどもよう}: for children\n- {大人用|おとなよう}: for adults\n- {仕事用|しごとよう}: for work\n- {来客用|らいきゃくよう}: for guests\n- ⟦{業務用|ぎょうむよう}→業務用：13148_gyoumuyou⟧: for commercial/business use\n- ⟦{個人用|こじんよう}→個人用：26704_kojinyou⟧: for personal use (more formal than {自分用|じぶんよう})",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13148_gyoumuyou",
+      "reading": "ぎょうむよう",
+      "headword": "{業務用|ぎょうむよう}",
+      "label": "for commercial/business use"
+    },
+    {
+      "type": "related",
+      "target_id": "26704_kojinyou",
+      "reading": "こじんよう",
+      "headword": "{個人用|こじんよう}",
+      "label": "for personal use"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:27:22Z",
-    "modified": "2026-09-02T04:01:48Z",
+    "modified": "2026-10-11T00:41:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -59,7 +74,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "daily-life",
+        "shopping"
       ]
     }
   }
