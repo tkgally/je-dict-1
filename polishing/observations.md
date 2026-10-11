@@ -1645,3 +1645,8 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 18489: audio checks heard がい for かい in 18489_kaineko_ex2; check the furigana (室内飼い is usually しつないがい). (2026-10-11 audio)
 - [entry] 18245: audio checks heard うらめん for りめん in 18245_rimen_ex1, ex2, ex5; check the furigana (everyday "back of a card/form" is often うらめん). (2026-10-11 audio)
 - [entry] 18361: audio checks heard はい for ぱい in 18361_pai_ex2; check the furigana (standalone 牌 may want はい or katakana パイ). (2026-10-11 audio)
+- [entry] 18989: audio checks heard つつましい for {慎|つつま}ましい in 18989_tsutsumashii_ex1, ex2, ex3; the furigana doubles ま (should be {慎|つつ}ましい); check the headword and notes too. (2026-10-11 audio)
+- [entry] 18772: audio checks heard わらい for {笑|わら}み in 18772_jaaku_ex3; the furigana is wrong either way (笑み is {笑|え}み). (2026-10-11 audio)
+- [entry] 18738: audio checks heard ばらい for {払|はら}い in 18738_harai_ex1 (カード払い); check the furigana (rendaku: カードばらい). (2026-10-11 audio)
+- [entry] 18871: audio checks heard く for {九|きゅう} in 18871_hyoujunji_ex3 (九時間); check the furigana (九時間 is usually くじかん). (2026-10-11 audio)
+- [entry] 18949: audio checks heard いっしゃせん for {一|いち}{車線|しゃせん} in 18949_shasen_ex3; check the furigana (一車線 is usually いっしゃせん). (2026-10-11 audio)
