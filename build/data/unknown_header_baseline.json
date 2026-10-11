@@ -1,125 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-11T14:08:32Z",
+  "generated": "2026-10-11T18:43:39Z",
   "headers": {
-    "07560_kurafutobiiru": [
-      "BEER STYLES COMMONLY SEEN",
-      "JAPANESE CRAFT BEER SCENE"
-    ],
-    "07562_tamagokakegohan": [
-      "FOOD SAFETY NOTE",
-      "HOW TO MAKE"
-    ],
-    "07573_hoshigaru": [
-      "OTHER -がる VERBS"
-    ],
-    "07574_kowagaru": [
-      "RELATED -がる VERBS"
-    ],
-    "07581_jigo": [
-      "LEGAL TERM"
-    ],
-    "07587_renkyuu": [
-      "JAPANESE HOLIDAY PERIODS"
-    ],
-    "07589_bichiku": [
-      "DISASTER PREPAREDNESS"
-    ],
-    "07590_fukkou": [
-      "GOVERNMENT TERMINOLOGY",
-      "HISTORICAL CONTEXTS"
-    ],
-    "07591_shoudoku": [
-      "MEDICAL/HEALTH CONTEXTS"
-    ],
-    "07593_shintou": [
-      "NUANCE VS {普及|ふきゅう}"
-    ],
-    "07599_fubi": [
-      "USAGE IN APOLOGIES"
-    ],
-    "07603_omoiukabu": [
-      "VERB STRUCTURE"
-    ],
-    "07610_sebamaru": [
-      "RELATION TO {狭|せま}い"
-    ],
-    "07613_masshiro": [
-      "RELATED COLOR INTENSIFIERS"
-    ],
-    "07617_seiton": [
-      "5S IN JAPANESE WORKPLACES",
-      "COMMON PAIR",
-      "DIFFERENCE FROM {整理|せいり}"
-    ],
-    "07623_honnou": [
-      "CONTRAST WITH {直感|ちょっかん}"
-    ],
-    "07638_kenjitsu": [
-      "POSITIVE CONNOTATION"
-    ],
-    "07651_jouhatsu": [
-      "SENSE 1 (Physical)",
-      "SENSE 2 (Figurative - Disappearance)",
-      "SIMILAR PHYSICAL PROCESSES"
-    ],
-    "07659_tamawaru": [
-      "RELATED KEIGO"
-    ],
-    "07662_betsubetsuni": [
-      "USEFUL PHRASE"
-    ],
-    "07663_chokuchoku": [
-      "FREQUENCY SCALE (approximate)"
-    ],
-    "07684_kirisame": [
-      "RAIN VOCABULARY (light → heavy)"
-    ],
-    "07685_chakushin": [
-      "RELATED PHONE VOCABULARY"
-    ],
-    "07687_manaamoodo": [
-      "RELATED PHONE MODES"
-    ],
-    "07688_denchigire": [
-      "SIMILAR ～{切|ぎ}れ EXPRESSIONS"
-    ],
-    "07689_kengai": [
-      "PHONE DISPLAY"
-    ],
-    "07690_shichaku": [
-      "SHOPPING NOTES"
-    ],
-    "07691_shoudougai": [
-      "RELATED 〜{買|が}い COMPOUNDS"
-    ],
-    "07695_katakori": [
-      "RELATED BODY COMPLAINTS"
-    ],
-    "07707_tsumekae": [
-      "ECO-FRIENDLY SHOPPING"
-    ],
-    "07709_koromogae": [
-      "TYPICAL ACTIVITIES"
-    ],
-    "07710_enkyoku": [
-      "USAGE IN JAPANESE COMMUNICATION"
-    ],
-    "07751_emubui": [
-      "MV VS PV"
-    ],
-    "07760_emutii": [
-      "LICENSING IN JAPAN"
-    ],
-    "07770_osomatsu": [
-      "RESPONSE PATTERN"
-    ],
-    "07782_hitoyasumi": [
-      "SIMILAR ひと〜 WORDS"
-    ],
-    "07785_mashita": [
-      "THE {真|ま}- PREFIX"
-    ],
     "07804_kurisage": [
       "PENSION CONTEXT"
     ],
@@ -1367,15 +1249,6 @@
     "10798_kukkii": [
       "クッキー VS ビスケット"
     ],
-    "10815_kicchin": [
-      "COMPARISON WITH {台所|だいどころ}"
-    ],
-    "10822_kyanpasu": [
-      "CONFUSABLE"
-    ],
-    "10824_gifuto": [
-      "USAGE COMPARISON"
-    ],
     "10860_kontakuto": [
       "SENSE 1 (contact lenses)",
       "SENSE 2 (communication)"
@@ -2408,9 +2281,6 @@
     ],
     "18095_kyakushitsujoumuin": [
       "OLDER TERMS"
-    ],
-    "18107_kokusairengou": [
-      "RELATED ORGANIZATIONS"
     ],
     "18120_jiyuugata": [
       "OTHER SWIMMING STROKES"
