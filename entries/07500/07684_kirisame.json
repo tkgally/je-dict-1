@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{霧雨|きりさめ} is very fine, mist-like rain — lighter than ⟦{小雨|こさめ}→小雨：05861_kosame⟧ (light rain). The droplets are so fine they almost float in the air rather than clearly falling.\n\nETYMOLOGY:\n⟦{霧|きり}→霧：02200_kiri⟧ (mist, fog) + {雨|さめ} (rain) — literally \"mist-rain.\" The reading さめ is a combining form of あめ.\n\nCOMMON COLLOCATIONS:\n- {霧雨|きりさめ}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: drizzle falls\n- {霧雨|きりさめ}⟦に→に：00314_ni⟧⟦{濡|ぬ}れる→濡れる：00800_nureru⟧: to get wet from drizzle\n- {霧雨|きりさめ}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: drizzle continues\n\nRAIN VOCABULARY (light → heavy):\n- {霧雨|きりさめ}: misty drizzle (finest)\n- ⟦{小雨|こさめ}→小雨：05861_kosame⟧: light rain\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain\n- ⟦{大雨|おおあめ}→大雨：03015_ooame⟧: heavy rain\n- ⟦{土砂降|どしゃぶ}り→土砂降り：07680_doshaburi⟧: downpour\n- ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧: torrential rain\n\nUSAGE:\nOften described as rain so light you may not need an ⟦{傘|かさ}→傘：00639_kasa⟧ (umbrella), though it still gets you damp over time.",
+  "notes": "USAGE:\n{霧雨|きりさめ} is very fine, mist-like rain — lighter than ⟦{小雨|こさめ}→小雨：05861_kosame⟧ (light rain). The droplets are so fine they almost float in the air rather than clearly falling. Often described as rain so light you may not need an ⟦{傘|かさ}→傘：00639_kasa⟧ (umbrella), though it still gets you damp over time.\n\nETYMOLOGY:\n⟦{霧|きり}→霧：02200_kiri⟧ (mist, fog) + {雨|さめ} (rain) — literally \"mist-rain.\" The reading さめ is a combining form of あめ.\n\nCOMMON COLLOCATIONS:\n- {霧雨|きりさめ}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: drizzle falls\n- {霧雨|きりさめ}⟦に→に：00314_ni⟧⟦{濡|ぬ}れる→濡れる：00800_nureru⟧: to get wet from drizzle\n- {霧雨|きりさめ}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: drizzle continues\n\nRELATED WORDS (rain, light to heavy):\n- {霧雨|きりさめ}: misty drizzle (finest)\n- ⟦{小雨|こさめ}→小雨：05861_kosame⟧: light rain\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain\n- ⟦{大雨|おおあめ}→大雨：03015_ooame⟧: heavy rain\n- ⟦{土砂降|どしゃぶ}り→土砂降り：07680_doshaburi⟧: downpour\n- ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧: torrential rain",
   "cross_references": [
     {
       "type": "contrast",
@@ -55,11 +55,32 @@
       "reading": "こさめ",
       "headword": "{小雨|こさめ}",
       "label": "light rain, drizzle"
+    },
+    {
+      "type": "related",
+      "target_id": "03015_ooame",
+      "reading": "おおあめ",
+      "headword": "{大雨|おおあめ}",
+      "label": "heavy rain"
+    },
+    {
+      "type": "related",
+      "target_id": "07680_doshaburi",
+      "reading": "どしゃぶり",
+      "headword": "{土砂降|どしゃぶ}り",
+      "label": "downpour"
+    },
+    {
+      "type": "related",
+      "target_id": "05860_gouu",
+      "reading": "ごうう",
+      "headword": "{豪雨|ごうう}",
+      "label": "torrential rain"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-10-07T00:26:11Z",
+    "modified": "2026-10-11T18:42:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
