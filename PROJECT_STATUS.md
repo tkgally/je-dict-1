@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-11 (Routine v3: new-entries — 10 New Entries, IDs 31900–31909)
+
+Ten internal-closure candidates in queue order, a short last cycle of the run: 法然 (専修念仏, 知恩院), 菅原道真 (天神, 天満宮, 飛梅), 祇園精舎 (平家物語 opening; WATCH OUT Kyoto's 祇園), 時効 (two senses: legal, and もう時効だから言うけど; 2010 abolition for murder), 忠誠心 (vs 忠誠), 事情聴取 (vs 取り調べ, 聞き込み), 創出 (雇用創出), 船乗り (vs 船員), 新婚旅行 (vs ハネムーン), 上市 (pharma launch; WATCH OUT 上司). New kanji 菅 added to the kanji index. Self-check skipped (daily OpenRouter cap spent).
+
 ### 2026-10-11 (Routine v3: new-entries — 20 New Entries, IDs 31880–31899)
 
 Twenty internal-closure candidates that existing entries already use, in queue order: 出廷 (vs 出頭), 殺処分 (official term; 殺処分ゼロ), 横行 (of wrongdoing; vs はびこる/蔓延), 糠床, 土砂災害 (土石流/崖崩れ/地滑り), 明治神宮, 親方 (two senses: master craftsman, sumo stable master; 親方日の丸), 盗塁, 乾季 (also 乾期; WATCH OUT 換気/寒気), 答辞 (vs 送辞), 金沢, 婦人科, 武勇伝, 収入印紙, 御利益 (りやく vs 利益 りえき), 重鎮 (vs 大御所/第一人者), 備長炭, 物産展, 目先 (two senses; 目先の利益, 目先が利く), 宗派. The candidate 福引 was dropped as a duplicate of 福引き (17826). The conjugation generator also filled in tables missing from four する-nouns of an earlier run (大勝, 就労, 変色, 大成). Self-check clean.
@@ -65,7 +69,3 @@ Five internal-closure candidates in queue order, a short last cycle of the run: 
 ### 2026-10-10 (Routine v3: new-entries — 5 New Entries, IDs 31870–31874)
 
 Five internal-closure candidates in queue order, a short last cycle of the run: 大成 (two senses: 〜として大成する, and bringing a field to completion as in 集大成), 競走馬 (WATCH OUT 競走/競争), 博多 (博多駅, 博多ラーメン, Fukuoka vs Hakata), 新任 (vs 新人; WATCH OUT 信任), 紙面 (紙面を割く, 紙面の都合で). Self-check skipped (daily OpenRouter cap spent).
-
-### 2026-10-10 (Routine v3: new-entries — 15 New Entries, IDs 31855–31869)
-
-Fifteen internal-closure candidates that existing entries already use, in queue order: 買主 (WATCH OUT 飼い主), 熊本 (熊本城, 2016 earthquakes), 平家 (平家物語, 驕る平家は久しからず), 大勝 (vs 圧勝/完勝; homophones), 就労 (就労ビザ, 28-hour student limit), 讃岐 (讃岐うどん), 鬼ヶ島, 青森 (apples, ねぶた), 神々 (WATCH OUT 神々しい こうごうしい), 長野 (信州, 1998 Olympics), 清栄 (letter openings), 印象派, 名工 (現代の名工), 米軍 (在日米軍), 変色 (WATCH OUT 偏食). New kanji 讃 added to the kanji index. Self-check skipped (daily OpenRouter cap spent).
