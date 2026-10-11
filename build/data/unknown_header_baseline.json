@@ -1,175 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-11T01:39:53Z",
+  "generated": "2026-10-11T07:18:52Z",
   "headers": {
-    "06901_koshiwosueru": [
-      "OTHER {腰|こし} EXPRESSIONS"
-    ],
-    "06903_mimiwokatamukeru": [
-      "OTHER {耳|みみ} EXPRESSIONS"
-    ],
-    "06904_mewotoosu": [
-      "DEGREES OF THOROUGHNESS",
-      "OTHER {目|め} EXPRESSIONS"
-    ],
-    "06905_tewonuku": [
-      "OTHER {手|て} EXPRESSIONS"
-    ],
-    "06906_ashiwohipparu": [
-      "OTHER {足|あし} EXPRESSIONS"
-    ],
-    "06910_eeto": [
-      "SIMILAR FILLERS"
-    ],
-    "06911_anoo": [
-      "COMPARISON WITH えーと"
-    ],
-    "06913_nee": [
-      "DUAL FUNCTION",
-      "VS. ね"
-    ],
-    "06916_ze": [
-      "COMPARISON WITH ぞ",
-      "COMPARISON WITH よ"
-    ],
-    "06917_zo": [
-      "VS. ぜ"
-    ],
-    "06918_nante": [
-      "1. EXCLAMATORY (なんて + adj/noun)",
-      "2. DISMISSIVE/HUMBLE (X なんて)",
-      "3. QUOTATIVE (X なんて + {言|い}う/Y)"
-    ],
-    "06919_tteiu": [
-      "FOLLOWED BY"
-    ],
-    "06921_kashira": [
-      "GRAMMATICAL ATTACHMENT",
-      "VS. かな"
-    ],
-    "06922_oyobi": [
-      "VS. {並|なら}びに"
-    ],
-    "06923_narabini": [
-      "EXAMPLE STRUCTURE",
-      "VS. {及|およ}び"
-    ],
-    "06926_shikashinagara": [
-      "COMMON IN BUSINESS"
-    ],
-    "06928_donomichi": [
-      "VS. どうせ"
-    ],
-    "06929_sashiatari": [
-      "VS. とりあえず"
-    ],
-    "06930_imashigata": [
-      "CONTRAST WITH さっき"
-    ],
-    "06935_bukubuku": [
-      "SIMILAR MIMETIC (weight)"
-    ],
-    "06937_shikii": [
-      "RELATED ARCHITECTURE"
-    ],
-    "06946_womotte": [
-      "SENSE DISTINCTIONS"
-    ],
-    "06947_isshokusokuhatsu": [
-      "SIMILAR IDIOMS"
-    ],
-    "06949_kikiippatsu": [
-      "TRIVIA"
-    ],
-    "06952_bunsuu": [
-      "HOW FRACTIONS ARE READ",
-      "OPERATIONS"
-    ],
-    "06954_nokorazu": [
-      "COMMON VARIANT"
-    ],
-    "06958_ajenda": [
-      "JAPANESE ALTERNATIVES"
-    ],
-    "06961_pien": [
-      "INTENSIFIED FORMS"
-    ],
-    "06962_mamatomo": [
-      "CONTEXTS WHERE MOM FRIENDS ARE MADE"
-    ],
-    "06965_fukyouwaon": [
-      "MUSICAL VS. FIGURATIVE"
-    ],
-    "06967_jikobesuto": [
-      "SHORTER FORMS",
-      "WHERE IT IS USED"
-    ],
-    "06969_goyousha": [
-      "WHAT IT ACTUALLY ASKS FOR"
-    ],
-    "06970_tsumazuku": [
-      "WHAT IT DOES AND DOESN'T MEAN"
-    ],
-    "06998_umami": [
-      "UMAMI-RICH FOODS"
-    ],
-    "07000_tsukkomu": [
-      "COMEDY USAGE"
-    ],
-    "07045_hijouguchi": [
-      "SIGN"
-    ],
-    "07047_jiyuuseki": [
-      "COST"
-    ],
-    "07048_sudomari": [
-      "ACCOMMODATION OPTIONS"
-    ],
-    "07055_kabi": [
-      "VERB PATTERNS"
-    ],
-    "07056_nyuujouryou": [
-      "CHOOSING THE RIGHT FEE WORD",
-      "DISCOUNTS"
-    ],
-    "07058_yoyakusei": [
-      "WHERE YOU MEET IT"
-    ],
-    "07060_baa": [
-      "SIMILAR PLACES"
-    ],
-    "07061_toraburu": [
-      "TWO MAIN AREAS"
-    ],
-    "07071_kamiyasuri": [
-      "GRIT TYPES"
-    ],
-    "07072_ganpon": [
-      "FINANCIAL USAGE"
-    ],
-    "07074_tousen": [
-      "ELECTION COLLOCATIONS"
-    ],
-    "07077_suisaiga": [
-      "RELATED ART TERMS"
-    ],
-    "07096_fukinuke": [
-      "RELATED ARCHITECTURAL TERMS"
-    ],
-    "07098_mattoresu": [
-      "JAPANESE BEDDING CONTRAST",
-      "TYPES OF MATTRESSES"
-    ],
-    "07101_uraji": [
-      "MATERIALS USED FOR LININGS"
-    ],
-    "07102_nuime": [
-      "TYPES OF SEAMS"
-    ],
-    "07104_fuseimyaku": [
-      "RELATED CARDIAC TERMS",
-      "TYPES OF ARRHYTHMIA"
-    ],
     "07105_enshi": [
       "CONTRAST WITH OTHER VISION CONDITIONS"
     ],
@@ -1933,15 +1765,6 @@
     ],
     "10675_hijoukin": [
       "CONTRAST WITH {常勤|じょうきん}"
-    ],
-    "10748_foroba": [
-      "SOCIAL MEDIA CULTURE"
-    ],
-    "10749_akushon": [
-      "ENTERTAINMENT USAGE"
-    ],
-    "10755_mitai": [
-      "COMPARISON WITH よう"
     ],
     "10763_dayone": [
       "TWO FUNCTIONS"
@@ -4915,9 +4738,6 @@
     ],
     "30562_masu": [
       "MAIN FORMS"
-    ],
-    "30663_tameraigachi": [
-      "THE 〜がち SUFFIX"
     ],
     "30664_gobogobo": [
       "SIMILAR SOUND WORDS"

@@ -54,7 +54,7 @@
     },
     {
       "id": "06903_mimiwokatamukeru_ex5",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{耳|みみ}→耳：01513_mimi⟧⟦を→を：00422_wo⟧{傾|かたむ}けない。⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{考|かんが}え→考え：00855_kangae⟧⟦が→が：00051_ga⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦と→と：00512_to⟧⟦{思|おも}い{込|こ}んでいる→思い込む：04588_omoikomu⟧。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{耳|みみ}→耳：01513_mimi⟧⟦を→を：00422_wo⟧⟦{傾|かたむ}けない→傾ける：11516_katamukeru⟧。⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{考|かんが}え→考え：00855_kangae⟧⟦が→が：00051_ga⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦と→と：00512_to⟧⟦{思|おも}い{込|こ}んでいる→思い込む：04588_omoikomu⟧。",
       "english": "He doesn't listen to anyone. He's convinced that his own thinking is right.",
       "sense_numbers": [
         1
@@ -63,7 +63,7 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: ⟦{耳|みみ}→耳：01513_mimi⟧ (ear) + ⟦を→を：00422_wo⟧ + ⟦{傾|かたむ}ける→傾ける：11516_katamukeru⟧ (to incline, tilt). Literally 'to incline one's ear' toward something.\n\nREGISTER: Somewhat formal/literary. Common in:\n- Business contexts (listening to feedback)\n- Political/civic discourse (listening to constituents)\n- Advice-giving situations\n\nNUANCE: Implies active, respectful listening rather than just hearing. Suggests openness to what is being said.\n\nRELATED WORDS:\n- ⟦{聞|き}く→聞く：00483_kiku⟧ (to listen) - neutral\n- ⟦{傾聴|けいちょう}する→傾聴：19024_keichou⟧ (to listen attentively) - formal\n- ⟦{耳|みみ}を{貸|か}す→耳を貸す：20071_mimiwokasu⟧ (to lend an ear) - similar meaning\n\nOTHER ⟦{耳|みみ}→耳：01513_mimi⟧ EXPRESSIONS:\n- ⟦{耳|みみ}が{痛|いた}い→耳が痛い：06892_mimigaitai⟧: hard to hear (criticism hits home)\n- ⟦{耳|みみ}にする→耳にする：17115_miminisuru⟧: to hear about\n- ⟦{耳|みみ}に{残|のこ}る→耳に残る：30620_mimininokoru⟧: to stay in one's ears (memorable)",
+  "notes": "STRUCTURE: ⟦{耳|みみ}→耳：01513_mimi⟧ (ear) + ⟦を→を：00422_wo⟧ + ⟦{傾|かたむ}ける→傾ける：11516_katamukeru⟧ (to incline, tilt). Literally 'to incline one's ear' toward something.\n\nREGISTER: Somewhat formal/literary. Common in:\n- Business contexts (listening to feedback)\n- Political/civic discourse (listening to constituents)\n- Advice-giving situations\n\nNUANCE: Implies active, respectful listening rather than just hearing. Suggests openness to what is being said.\n\nRELATED WORDS:\n- ⟦{聞|き}く→聞く：00483_kiku⟧ (to listen) - neutral\n- ⟦{傾聴|けいちょう}する→傾聴：19024_keichou⟧ (to listen attentively) - formal\n- ⟦{耳|みみ}を{貸|か}す→耳を貸す：20071_mimiwokasu⟧ (to lend an ear) - similar meaning\n\nRELATED WORDS (other ⟦{耳|みみ}→耳：01513_mimi⟧ expressions):\n- ⟦{耳|みみ}が{痛|いた}い→耳が痛い：06892_mimigaitai⟧: hard to hear (criticism hits home)\n- ⟦{耳|みみ}にする→耳にする：17115_miminisuru⟧: to hear about\n- ⟦{耳|みみ}に{残|のこ}る→耳に残る：30620_mimininokoru⟧: to stay in one's ears (memorable)",
   "cross_references": [
     {
       "type": "related",
@@ -113,11 +113,18 @@
       "reading": "ききいる",
       "headword": "{聞|き}き{入|い}る",
       "label": "to listen intently"
+    },
+    {
+      "type": "related",
+      "target_id": "30620_mimininokoru",
+      "reading": "みみにのこる",
+      "headword": "{耳|みみ}に{残|のこ}る",
+      "label": "to stay in one's ears"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-10-09T01:53:06Z",
+    "modified": "2026-10-11T07:18:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
