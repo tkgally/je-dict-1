@@ -119,7 +119,7 @@
     },
     {
       "id": "06383_fumitaosu_ex2",
-      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧⟦{稲|いね}→稲：01820_ine⟧⟦が→が：00051_ga⟧{踏|ふ}み{倒|たお}された⟦ように→ように：10081_youni⟧⟦なっている→なる：01970_naru⟧。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧⟦{稲|いね}→稲：01820_ine⟧⟦が→が：00051_ga⟧{踏|ふ}み{倒|たお}された⟦ように→よう：01114_you⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The rice plants look like they've been trampled down by the wind.",
       "notes": null,
       "has_audio": true,
@@ -168,10 +168,33 @@
       ]
     }
   ],
-  "notes": "COMPOUND VERB: ⟦{踏|ふ}む→踏む：01197_fumu⟧ (to step on) + ⟦{倒|たお}す→倒す：01954_taosu⟧ (to knock down) = to step on and knock down\n\nTRANSITIVITY: Transitive. Takes ⟦を→を：00422_wo⟧ to mark what is being trampled or the debt being defaulted.\n\nCOMMON COLLOCATIONS:\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧{踏|ふ}み{倒|たお}す (to default on a debt)\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧⟦を→を：00422_wo⟧{踏|ふ}み{倒|たお}す (to skip out on rent)\n- ⟦{飲|の}み{代|だい}→飲み代：29658_nomidai⟧⟦を→を：00422_wo⟧{踏|ふ}み{倒|たお}す (to dine and dash)\n- ⟦ツケ→ツケ：29659_tsuke⟧⟦を→を：00422_wo⟧{踏|ふ}み{倒|たお}す (to skip out on a tab)\n\nNUANCE: Sense 2 (defaulting on payment) is the more common usage in everyday conversation. It carries a strong negative connotation of dishonesty and irresponsibility.\n\nRELATED ～{倒|たお}す COMPOUND VERBS:\n- ⟦{蹴|け}り{倒|たお}す→蹴り倒す：06266_keritaosu⟧ - to kick down\n- ⟦{殴|なぐ}り{倒|たお}す→殴り倒す：06212_naguritaosu⟧ - to knock down (with fists)\n- ⟦{押|お}し{倒|たお}す→押し倒す：06047_oshitaosu⟧ - to push down",
+  "notes": "COMPOUND VERB: ⟦{踏|ふ}む→踏む：01197_fumu⟧ (to step on) + ⟦{倒|たお}す→倒す：01954_taosu⟧ (to knock down) = to step on and knock down\n\nTRANSITIVITY: Transitive. Takes ⟦を→を：00422_wo⟧ to mark what is being trampled or the debt being defaulted.\n\nCOMMON COLLOCATIONS:\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧{踏|ふ}み{倒|たお}す (to default on a debt)\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧⟦を→を：00422_wo⟧{踏|ふ}み{倒|たお}す (to skip out on rent)\n- ⟦{飲|の}み{代|だい}→飲み代：29658_nomidai⟧⟦を→を：00422_wo⟧{踏|ふ}み{倒|たお}す (to dine and dash)\n- ⟦ツケ→ツケ：29659_tsuke⟧⟦を→を：00422_wo⟧{踏|ふ}み{倒|たお}す (to skip out on a tab)\n\nNUANCE: Sense 2 (defaulting on payment) is the more common usage in everyday conversation. It carries a strong negative connotation of dishonesty and irresponsibility.\n\nRELATED WORDS (other ～⟦{倒|たお}す→倒す：01954_taosu⟧ verbs):\n- ⟦{蹴|け}り{倒|たお}す→蹴り倒す：06266_keritaosu⟧ - to kick down\n- ⟦{殴|なぐ}り{倒|たお}す→殴り倒す：06212_naguritaosu⟧ - to knock down (with fists)\n- ⟦{押|お}し{倒|たお}す→押し倒す：06047_oshitaosu⟧ - to push down",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06266_keritaosu",
+      "reading": "けりたおす",
+      "headword": "{蹴|け}り{倒|たお}す",
+      "label": "to kick down"
+    },
+    {
+      "type": "related",
+      "target_id": "06212_naguritaosu",
+      "reading": "なぐりたおす",
+      "headword": "{殴|なぐ}り{倒|たお}す",
+      "label": "to knock down"
+    },
+    {
+      "type": "related",
+      "target_id": "06047_oshitaosu",
+      "reading": "おしたおす",
+      "headword": "{押|お}し{倒|たお}す",
+      "label": "to push down"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T12:02:09Z",
-    "modified": "2026-09-02T02:55:10Z",
+    "modified": "2026-10-11T00:28:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
