@@ -1,172 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-11T00:28:49Z",
+  "generated": "2026-10-11T01:39:53Z",
   "headers": {
-    "06649_nasake": [
-      "NOTE ON {情|なさ}けない",
-      "RELATED KANJI COMPOUNDS"
-    ],
-    "06650_nayami": [
-      "TYPES OF {悩|なや}み"
-    ],
-    "06653_yarigai": [
-      "PRODUCTIVE PATTERN 〜{甲斐|がい}"
-    ],
-    "06656_hikagen": [
-      "HEAT LEVELS IN JAPANESE"
-    ],
-    "06659_kakushiaji": [
-      "COMMON {隠|かく}し{味|あじ} INGREDIENTS"
-    ],
-    "06660_koubashii": [
-      "COMMON FOODS DESCRIBED"
-    ],
-    "06664_shiite": [
-      "SENSE 1 - FORCIBLY",
-      "SENSE 2 - IF PRESSED"
-    ],
-    "06665_douyara": [
-      "SENSE 1 - INFERENCE",
-      "SENSE 2 - BARELY"
-    ],
-    "06669_niwakaame": [
-      "WEATHER FORECAST EXPRESSION"
-    ],
-    "06690_kimatsushiken": [
-      "SCHOOL YEAR CONTEXT"
-    ],
-    "06693_taikyo": [
-      "SENSE 1 (RENTAL CONTEXT)",
-      "SENSE 2 (EVACUATION, REMOVAL)"
-    ],
-    "06695_ogawa": [
-      "BY SIZE"
-    ],
-    "06696_torendo": [
-      "COMPARED WITH {流行|りゅうこう}"
-    ],
-    "06698_dorinkubaa": [
-      "PRICING",
-      "TYPICAL OFFERINGS"
-    ],
-    "06721_bareru": [
-      "ALTERNATIVE FORM"
-    ],
-    "06726_fudousan": [
-      "APARTMENT HUNTING"
-    ],
-    "06740_tokuchouteki": [
-      "NEUTRAL, NOT PRAISE"
-    ],
-    "06744_houkokusho": [
-      "TYPES OF REPORTS"
-    ],
-    "06758_kurakura": [
-      "CAUSES (the cause takes で)"
-    ],
-    "06767_kafe": [
-      "CONTRAST WITH {喫茶店|きっさてん}",
-      "TYPES OF CAFES IN JAPAN"
-    ],
-    "06768_pasuta": [
-      "POPULAR DISHES IN JAPAN"
-    ],
-    "06769_piza": [
-      "POPULAR TOPPINGS IN JAPAN"
-    ],
-    "06771_rofuto": [
-      "JAPANESE HOUSING"
-    ],
-    "06772_barukonii": [
-      "バルコニー VS ベランダ"
-    ],
-    "06774_baree": [
-      "DISTINGUISHING THE TWO"
-    ],
-    "06776_kyanseru": [
-      "キャンセルする VS キャンセルになる"
-    ],
-    "06781_ppoi": [
-      "ATTACHMENT PATTERNS"
-    ],
-    "06782_ichininmae": [
-      "SENSE 1 - FOOD PORTIONS",
-      "SENSE 2 - FULLY QUALIFIED"
-    ],
-    "06786_enkaku": [
-      "WEBSITE USAGE"
-    ],
-    "06789_kuyashisa": [
-      "SIMILAR EMOTION NOUNS"
-    ],
-    "06809_shitaaji": [
-      "TYPICAL SEASONINGS"
-    ],
-    "06810_tsureai": [
-      "CONTRAST WITH OTHER TERMS"
-    ],
-    "06813_mousou": [
-      "CASUAL USAGE (Sense 2)"
-    ],
-    "06815_kabureru": [
-      "COMMON TRIGGERS (Sense 1)"
-    ],
-    "06818_akunuki": [
-      "COMMON INGREDIENTS REQUIRING {灰汁|あく}{抜|ぬ}き"
-    ],
-    "06842_tatakiotosu": [
-      "SENSE 2 REGISTER"
-    ],
-    "06843_haideru": [
-      "NEAR-SYNONYM"
-    ],
-    "06846_korikori": [
-      "FOODS DESCRIBED AS コリコリ"
-    ],
-    "06847_puchipuchi": [
-      "FOODS DESCRIBED AS プチプチ"
-    ],
-    "06850_yomitobasu": [
-      "THE ～{飛|と}ばす PATTERN"
-    ],
-    "06851_kakitasu": [
-      "THE ～{足|た}す PATTERN"
-    ],
-    "06853_yakitsukeru": [
-      "SENSE 2 (memory)"
-    ],
-    "06854_hajikidasu": [
-      "SENSE 2 (exclusion)"
-    ],
-    "06855_haritsukeru": [
-      "COMPUTING USE"
-    ],
-    "06861_neriageru": [
-      "THE TWO SENSES"
-    ],
-    "06876_chuuken": [
-      "BASEBALL"
-    ],
-    "06877_shinmai": [
-      "SENSE 1 - NEWCOMER",
-      "SENSE 2 - NEW RICE"
-    ],
-    "06894_koshigahikui": [
-      "CONTRAST WITH {腰|こし} EXPRESSIONS"
-    ],
-    "06895_kubiwofuru": [
-      "DIRECTION MATTERS"
-    ],
-    "06896_katawosukumeru": [
-      "OTHER {肩|かた} EXPRESSIONS",
-      "RELATED GESTURE EXPRESSIONS"
-    ],
-    "06899_kaowodasu": [
-      "OTHER {顔|かお} EXPRESSIONS"
-    ],
-    "06900_munewoharu": [
-      "OTHER {胸|むね} EXPRESSIONS"
-    ],
     "06901_koshiwosueru": [
       "OTHER {腰|こし} EXPRESSIONS"
     ],
@@ -2099,12 +1934,6 @@
     "10675_hijoukin": [
       "CONTRAST WITH {常勤|じょうきん}"
     ],
-    "10731_oiru": [
-      "CONTRAST WITH {油|あぶら}"
-    ],
-    "10734_autoputto": [
-      "アウトプット VS インプット"
-    ],
     "10748_foroba": [
       "SOCIAL MEDIA CULTURE"
     ],
@@ -2650,10 +2479,6 @@
     "14551_ginpatsu": [
       "POP CULTURE"
     ],
-    "14561_heisoku": [
-      "SENSE 1 (blockage)",
-      "SENSE 2 (stagnation)"
-    ],
     "14563_kansan": [
       "SENSE 1 (deserted)",
       "SENSE 2 (slack/slow)"
@@ -2999,9 +2824,6 @@
     ],
     "17484_kansenkeiro": [
       "TYPES OF TRANSMISSION"
-    ],
-    "17487_jibunyou": [
-      "RELATED ～{用|よう} COMPOUNDS"
     ],
     "17492_mihosou": [
       "THE {未|み}～ PREFIX"
@@ -3585,10 +3407,6 @@
     "19416_demo": [
       "SENSE 1 (PROTEST) COLLOCATIONS",
       "SENSE 2 (DEMO/PREVIEW) COLLOCATIONS"
-    ],
-    "19421_makuru": [
-      "SENSE 1 (ROLL UP)",
-      "SENSE 2 (SUFFIX 〜まくる)"
     ],
     "19443_dou": [
       "OLYMPIC MEDALS"
@@ -4654,9 +4472,6 @@
     ],
     "26653_kakushuukan": [
       "PUBLICATION FREQUENCY PATTERN"
-    ],
-    "26669_gyou": [
-      "KANA CHART USAGE"
     ],
     "26682_aishougo": [
       "JAPANESE PET NAME PATTERNS"
