@@ -1641,3 +1641,7 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 17545: audio checks heard うえ for {上|うわ} in 17545_uwamuku_ex1, ex2, ex3 (上を向く, 鼻を上に向けて); check the furigana (上を向く is うえ; うわ only in the compound 上向く). (2026-10-11 audio)
 - [entry] 17572: 17572_gyoi_ex2 reads 殿様のご御意のままに — ご + 御意 doubles the honorific; check the example. (2026-10-11 audio)
 - [entry] 18069: audio checks heard きっさてん for {茶店|さてん} in 18069_saten_ex2; the furigana matches the headword, but check whether 茶店 should be written サテン in this slang sense. (2026-10-11 audio)
+- [entry] 18616: audio checks heard きて for くて in 18616_tsukiaigaii_ex2; check the furigana ({来|く}てくれて should be {来|き}てくれて). (2026-10-11 audio)
+- [entry] 18489: audio checks heard がい for かい in 18489_kaineko_ex2; check the furigana (室内飼い is usually しつないがい). (2026-10-11 audio)
+- [entry] 18245: audio checks heard うらめん for りめん in 18245_rimen_ex1, ex2, ex5; check the furigana (everyday "back of a card/form" is often うらめん). (2026-10-11 audio)
+- [entry] 18361: audio checks heard はい for ぱい in 18361_pai_ex2; check the furigana (standalone 牌 may want はい or katakana パイ). (2026-10-11 audio)
