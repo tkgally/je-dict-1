@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-11 (Routine v3: candidates — 39 Candidates Added, C24329–C24367)
+
+No unresolved noentry markers remain, so the source was a scan of example sentences for furigana-marked kanji words with no link that match no headword or candidate. 39 added, each with the entry that uses it: 国際社会, 寝入る, 明星, 過払い, 脆弱性, 同社, 色濃い, 光学, 集合写真, 保冷, 病魔, 滅入る, 交通手段, 吸水性, 低金利, 浮世絵師, 時期尚早, 日付変更線, 従属節, 文人, 未来永劫, 黄身, 善玉菌, 無形文化遺産, 問答, 善光寺, 白内障, 売主, 徳島, 多幸, 論語, 波打つ, 所狭し, 隣家, 稜線, 大物, 平均寿命, 本能寺, 書道家. Queue 79 → 118.
+
 ### 2026-10-11 (Routine v3: new-entries — 5 New Entries, IDs 31875–31879)
 
 Five internal-closure candidates in queue order, a short last cycle of the run: 平素 (平素より as a letter opening; vs 普段/日頃), 朝鮮半島 (朝鮮 vs 韓国 as names), 稚魚 (稚魚を放流する), 釈迦 (お釈迦様, 釈迦に説法, お釈迦になる, 花祭り), 蝶番 (also 丁番; butterfly-wing etymology). New kanji 迦 added to the kanji index. Self-check clean.
@@ -66,6 +70,3 @@ Fifteen internal-closure candidates that existing entries already use, in queue 
 
 Ten internal-closure candidates that existing entries already use: 結婚観 (〜観 compounds), 拘禁刑 (the unified prison sentence since June 2025; WATCH OUT 懲役/禁錮), 山中 (WATCH OUT surname やまなか), 鹿児島 (薩摩, さつまいも), 浄土宗 (WATCH OUT 浄土真宗), 天照大神 (天岩戸, Ise), 赤穂浪士 (忠臣蔵, 泉岳寺), 手短 (手短に言うと), 時下 (business-letter opening), 輪島塗 (2024 Noto earthquake). A short last cycle of the run; self-check skipped (daily OpenRouter cap spent).
 
-### 2026-10-10 (Routine v3: new-entries — 20 New Entries, IDs 31825–31844)
-
-Twenty internal-closure candidates that existing entries already use, in queue order: 大軍 (WATCH OUT 大群), 華族 (five peerage ranks; WATCH OUT 家族), 商家, 来航 (ペリー来航), 汁粉 (Kansai vs Kanto ぜんざい), 遍路 (お接待), 私腹を肥やす (godan, conjugation table), 白物家電, 知的財産権, 最大公約数 (two senses; WATCH OUT "lowest common denominator"), 日経平均, 不要不急, 首脳会談, 日本列島, 第二次世界大戦 (太平洋戦争), 国会議事堂, 屋久島, 日本国憲法, 本能寺の変 (敵は本能寺にあり), カレーパン. Self-check skipped (daily OpenRouter cap spent).
