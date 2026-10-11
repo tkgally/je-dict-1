@@ -1650,3 +1650,4 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 18738: [fixed 2026-10-11 #015] audio checks heard ばらい for {払|はら}い in 18738_harai_ex1 (カード払い); check the furigana (rendaku: カードばらい). (2026-10-11 audio)
 - [entry] 18871: [fixed 2026-10-11 #015] audio checks heard く for {九|きゅう} in 18871_hyoujunji_ex3 (九時間); check the furigana (九時間 is usually くじかん). (2026-10-11 audio)
 - [entry] 18949: [fixed 2026-10-11 #015] audio checks heard いっしゃせん for {一|いち}{車線|しゃせん} in 18949_shasen_ex3; check the furigana (一車線 is usually いっしゃせん). (2026-10-11 audio)
+- [entry] 09352/16740: duplicate ため口 / タメ口 found while polishing 10777 タメ語; flagged to needs_curator (retirement is a curator decision). (2026-10-11 polish #020)

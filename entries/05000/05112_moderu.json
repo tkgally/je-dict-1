@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "モデル is a versatile loanword from English with two distinct uses.\n\nUSAGE (sense 1):\nRefers to someone who models for photos, fashion shows, or advertisements.\n- ⟦ファッション→ファッション：11167_fasshon⟧モデル: fashion model\n- ⟦{読者|どくしゃ}→読者：16554_dokusha⟧モデル: reader model (regular person featured in magazines)\n- モデル⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to work as a model\n\nUSAGE (sense 2):\nRefers to a version, prototype, or example to follow.\n- ⟦{最新|さいしん}→最新：04831_saishin⟧モデル: latest model (of a product)\n- ⟦{旧|きゅう}→旧：19346_kyuu⟧モデル: old/previous model\n- ⟦ロールモデル→ロールモデル：11218_roorumoderu⟧: role model\n- ⟦ビジネス→ビジネス：11162_bijinesu⟧モデル: business model\n- 〜⟦を→を：00422_wo⟧モデル⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to base something on ~\n\nUSAGE:\n⟦{手本|てほん}→手本：10563_tehon⟧ is the native Japanese word for 'model' in the sense of 'example to follow.'",
+  "notes": "USAGE (sense 1):\nSomeone who models for photos, fashion shows, or advertisements.\n- ファッションモデル: fashion model\n- {読者|どくしゃ}モデル: reader model (an ordinary person featured in magazines)\n- モデル⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to work as a model\n\nUSAGE (sense 2):\nA version of a product, or an example something is based on.\n- ⟦{最新|さいしん}→最新：04831_saishin⟧モデル: latest model (of a product)\n- ⟦{旧|きゅう}→旧：19346_kyuu⟧モデル: old/previous model\n- ロールモデル: role model\n- ビジネスモデル: business model\n- 〜⟦を→を：00422_wo⟧モデル⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to base something on ~\n\nSIMILAR WORDS:\n- ⟦{手本|てほん}→手本：10563_tehon⟧: a model to follow or imitate; the native word, never used for a product version or a fashion model\n- ⟦{模型|もけい}→模型：07079_mokei⟧: a scale model of a ship, building, etc.; a plastic kit is a プラモデル",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,18 @@
       "reading": "てほん",
       "headword": "{手本|てほん}",
       "label": "model, example (native)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07079_mokei",
+      "reading": "もけい",
+      "headword": "{模型|もけい}",
+      "label": "a scale model of a ship, building, etc."
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-10-07T00:20:29Z",
+    "modified": "2026-10-11T13:08:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -103,7 +110,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "occupation"
+        "occupation",
+        "abstract"
       ]
     }
   }
