@@ -3,11 +3,11 @@
   "headword": "{時速|じそく}",
   "reading": "じそく",
   "part_of_speech": "noun",
-  "gloss": "speed per hour",
+  "gloss": "speed per hour (km/h, mph)",
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "speed per hour, hourly speed",
+      "gloss": "speed per hour (km/h, mph)",
       "explanation": "A measure of speed expressed as distance traveled in one hour."
     }
   ],
@@ -15,7 +15,7 @@
     {
       "id": "00128_jisoku_ex1",
       "japanese": "{時速|じそく}100⟦キロ→キロ：01350_kiro⟧⟦で→で：00502_de⟧⟦{走|はし}っている→走る：00519_hashiru⟧。",
-      "english": "I'm driving at 100 km/h.",
+      "english": "We're going at 100 km/h.",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{時速|じそく} expresses speed in terms of distance per hour.\n\nUsage:\n- {時速|じそく}〜⟦キロ→キロ：01350_kiro⟧ (~ km per hour)\n- {時速|じそく}〜マイル (~ miles per hour)\n\nRelated speed terms:\n- ⟦{分速|ふんそく}→分速：16680_funsoku⟧ (speed per minute)\n- ⟦{秒速|びょうそく}→秒速：16679_byousoku⟧ (speed per second)\n- ⟦{速度|そくど}→速度：03319_sokudo⟧ (speed, velocity - general term)\n- {速力|そくりょく} (speed - often for ships)\n\nCommon collocations:\n- ⟦{制限|せいげん}→制限：03375_seigen⟧⟦{速度|そくど}→速度：03319_sokudo⟧ (speed limit)\n- ⟦{最高|さいこう}→最高：02637_saikou⟧{時速|じそく} (maximum speed)\n- ⟦{平均|へいきん}→平均：03614_heikin⟧{時速|じそく} (average speed)",
+  "notes": "COMMON PATTERNS:\n- {時速|じそく}〜⟦キロ→キロ：01350_kiro⟧ (~ km per hour)\n- {時速|じそく}〜⟦マイル→マイル：31263_mairu⟧ (~ miles per hour)\n\nCOMMON COLLOCATIONS:\n- ⟦{最高|さいこう}→最高：02637_saikou⟧{時速|じそく} (top speed)\n- ⟦{平均|へいきん}→平均：03614_heikin⟧{時速|じそく} (average speed)\n\nRELATED WORDS:\n- ⟦{分速|ふんそく}→分速：16680_funsoku⟧ (speed per minute)\n- ⟦{秒速|びょうそく}→秒速：16679_byousoku⟧ (speed per second)\n- ⟦{速度|そくど}→速度：03319_sokudo⟧ (speed, velocity; general term, as in ⟦{制限速度|せいげんそくど}→制限速度：26875_seigensokudo⟧, speed limit)\n- ⟦{速力|そくりょく}→速力：31261_sokuryoku⟧ (speed, often of ships)",
   "cross_references": [
     {
       "type": "contrast",
@@ -48,11 +48,39 @@
       "reading": "そうこうそくど",
       "headword": "{走行速度|そうこうそくど}",
       "label": "running speed"
+    },
+    {
+      "type": "related",
+      "target_id": "16680_funsoku",
+      "reading": "ふんそく",
+      "headword": "{分速|ふんそく}",
+      "label": "speed per minute"
+    },
+    {
+      "type": "related",
+      "target_id": "16679_byousoku",
+      "reading": "びょうそく",
+      "headword": "{秒速|びょうそく}",
+      "label": "speed per second"
+    },
+    {
+      "type": "related",
+      "target_id": "03319_sokudo",
+      "reading": "そくど",
+      "headword": "{速度|そくど}",
+      "label": "speed, velocity"
+    },
+    {
+      "type": "related",
+      "target_id": "31261_sokuryoku",
+      "reading": "そくりょく",
+      "headword": "{速力|そくりょく}",
+      "label": "speed, often of ships"
     }
   ],
   "metadata": {
     "created": "2026-01-13T11:15:03Z",
-    "modified": "2026-09-02T03:02:30Z",
+    "modified": "2026-10-11T07:05:41Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
