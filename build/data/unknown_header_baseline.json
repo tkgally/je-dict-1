@@ -1,69 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-11T13:22:11Z",
+  "generated": "2026-10-11T14:08:32Z",
   "headers": {
-    "07504_suribachi": [
-      "RELATED TOOL"
-    ],
-    "07509_sogu": [
-      "COOKING CUTTING TECHNIQUE"
-    ],
-    "07521_fukkyuu": [
-      "DISASTER CONTEXT"
-    ],
-    "07522_kirikae": [
-      "IT/TECHNICAL USES",
-      "SPORTS/PSYCHOLOGY"
-    ],
-    "07528_honma": [
-      "RELATED DIALECT WORDS"
-    ],
-    "07529_nandeyanen": [
-      "COMEDY CONTEXT"
-    ],
-    "07530_ookini": [
-      "RELATED KYOTO VARIANT"
-    ],
-    "07532_dagakki": [
-      "TYPES OF PERCUSSION"
-    ],
-    "07534_gengakki": [
-      "TYPES OF STRING INSTRUMENTS"
-    ],
-    "07538_kyuufu": [
-      "TYPES OF RESTS"
-    ],
-    "07540_sakkusu": [
-      "TYPES OF SAXOPHONE"
-    ],
-    "07541_toranpetto": [
-      "RELATED BRASS INSTRUMENTS"
-    ],
-    "07545_yoka": [
-      "CONJUGATION IN DIALECT",
-      "RELATED KYUSHU EXPRESSIONS"
-    ],
-    "07546_namara": [
-      "OTHER HOKKAIDO DIALECT WORDS"
-    ],
-    "07547_shitakke": [
-      "OTHER HOKKAIDO EXPRESSIONS"
-    ],
-    "07549_eeyan": [
-      "RELATED KANSAI EXPRESSIONS"
-    ],
-    "07551_izui": [
-      "EXAMPLES OF いずい SITUATIONS"
-    ],
-    "07553_mobairubatterii": [
-      "SPECIFICATIONS VOCABULARY"
-    ],
-    "07555_todokede": [
-      "COMMON TYPES OF {届出|とどけで}"
-    ],
-    "07558_todoke": [
-      "COMMON DOCUMENT TYPES"
-    ],
     "07560_kurafutobiiru": [
       "BEER STYLES COMMONLY SEEN",
       "JAPANESE CRAFT BEER SCENE"
@@ -533,10 +471,6 @@
     "08045_sodaigomi": [
       "DISPOSAL PROCESS",
       "EXAMPLES OF BULKY WASTE"
-    ],
-    "08056_fukumi": [
-      "SENSE 1 (implication)",
-      "SENSE 2 (financial)"
     ],
     "08067_rangiri": [
       "BEST FOR"
@@ -1433,9 +1367,6 @@
     "10798_kukkii": [
       "クッキー VS ビスケット"
     ],
-    "10802_kakuteru": [
-      "RELATED DRINK WORDS"
-    ],
     "10815_kicchin": [
       "COMPARISON WITH {台所|だいどころ}"
     ],
@@ -1583,9 +1514,6 @@
     ],
     "11311_heikou": [
       "CONTRAST WITH {平行|へいこう}"
-    ],
-    "11322_chuuka": [
-      "COMMON FOOD COMPOUNDS"
     ],
     "11323_chuuban": [
       "THREE-STAGE STRUCTURE"
