@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-11 (Routine v3: new-entries — 5 New Entries, IDs 31875–31879)
+
+Five internal-closure candidates in queue order, a short last cycle of the run: 平素 (平素より as a letter opening; vs 普段/日頃), 朝鮮半島 (朝鮮 vs 韓国 as names), 稚魚 (稚魚を放流する), 釈迦 (お釈迦様, 釈迦に説法, お釈迦になる, 花祭り), 蝶番 (also 丁番; butterfly-wing etymology). New kanji 迦 added to the kanji index. Self-check clean.
+
 ### 2026-10-10 (Routine v3: new-entries — 5 New Entries, IDs 31870–31874)
 
 Five internal-closure candidates in queue order, a short last cycle of the run: 大成 (two senses: 〜として大成する, and bringing a field to completion as in 集大成), 競走馬 (WATCH OUT 競走/競争), 博多 (博多駅, 博多ラーメン, Fukuoka vs Hakata), 新任 (vs 新人; WATCH OUT 信任), 紙面 (紙面を割く, 紙面の都合で). Self-check skipped (daily OpenRouter cap spent).
@@ -65,7 +69,3 @@ Ten internal-closure candidates that existing entries already use: 結婚観 (�
 ### 2026-10-10 (Routine v3: new-entries — 20 New Entries, IDs 31825–31844)
 
 Twenty internal-closure candidates that existing entries already use, in queue order: 大軍 (WATCH OUT 大群), 華族 (five peerage ranks; WATCH OUT 家族), 商家, 来航 (ペリー来航), 汁粉 (Kansai vs Kanto ぜんざい), 遍路 (お接待), 私腹を肥やす (godan, conjugation table), 白物家電, 知的財産権, 最大公約数 (two senses; WATCH OUT "lowest common denominator"), 日経平均, 不要不急, 首脳会談, 日本列島, 第二次世界大戦 (太平洋戦争), 国会議事堂, 屋久島, 日本国憲法, 本能寺の変 (敵は本能寺にあり), カレーパン. Self-check skipped (daily OpenRouter cap spent).
-
-### 2026-10-10 (Routine v3: candidates — 63 internal-closure candidates, C24263–C24325)
-
-No noentry markers remain, so every candidate comes from a scan of example sentences for furigana-marked words that have no entry; each names the entry that uses it. Okurigana stems of existing verbs (苛立つ, 見張る, 名乗る …) and free compounds (〜後, 〜中, 〜者) were dropped after the duplicate probe. Added: everyday and news words (手短, 変色, 横行, 時効, 事情聴取, 殺処分, 土砂災害, 蝶番, 福引, 婦人科, 新婚旅行, 大勝, 大成 …), formal-letter words (時下, 清栄, 平素), and culturally weighty proper nouns (天照大神, 赤穂浪士, 平家, 法然, 菅原道真, 祇園精舎, 明治神宮, 鹿児島, 熊本, 青森, 長野, 金沢, 博多, 讃岐, 輪島塗, 備長炭). Queue 68 → 131.
