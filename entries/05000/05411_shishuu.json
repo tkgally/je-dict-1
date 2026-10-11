@@ -2,7 +2,7 @@
   "id": "05411_shishuu",
   "headword": "{刺繍|ししゅう}",
   "reading": "ししゅう",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "embroidery",
   "definitions": [
     {
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{刺繍|ししゅう} refers to both the craft of embroidery and the embroidered design itself. The kanji {刺|し} means \"to pierce\" and {繍|しゅう} means \"to embroider,\" reflecting the needlework process.\n\nCOMMON PATTERNS:\n- {刺繍|ししゅう}⟦する→する：00392_suru⟧: to embroider\n- {刺繍|ししゅう}⟦を→を：00422_wo⟧⟦{施|ほどこ}す→施す：12985_hodokosu⟧: to add embroidery (slightly formal)\n- {刺繍|ししゅう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in embroidery\n- {刺繍糸|ししゅういと}: embroidery thread\n- {刺繍針|ししゅうばり}: embroidery needle\n\nTYPES:\n- {日本刺繍|にほんししゅう}: Japanese embroidery (uses silk thread on silk fabric)\n- ⟦フランス→フランス：19418_furansu⟧{刺繍|ししゅう}: French embroidery\n- ⟦クロス→クロス：27429_kurosu⟧ステッチ: cross-stitch\n- ⟦{機械|きかい}→機械：02366_kikai⟧{刺繍|ししゅう}: machine embroidery\n\n{刺繍|ししゅう} remains a popular hobby in Japan, often seen on ⟦{着物|きもの}→着物：01309_kimono⟧, bags, and handkerchiefs.",
+  "notes": "{刺繍|ししゅう} means both the craft of embroidery and the embroidered design itself.\n\nCOMMON COLLOCATIONS:\n- {刺繍|ししゅう}⟦する→する：00392_suru⟧: to embroider\n- {刺繍|ししゅう}⟦を→を：00422_wo⟧⟦{施|ほどこ}す→施す：12985_hodokosu⟧: to add embroidery (slightly formal)\n- {刺繍|ししゅう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in embroidery\n- {刺繍糸|ししゅういと}: embroidery thread\n- {刺繍針|ししゅうばり}: embroidery needle\n\nTYPES:\n- {日本刺繍|にほんししゅう}: Japanese embroidery (silk thread on silk, seen on ⟦{着物|きもの}→着物：01309_kimono⟧ and ⟦{帯|おび}→帯：02610_obi⟧)\n- ⟦フランス→フランス：19418_furansu⟧{刺繍|ししゅう}: French embroidery\n- ⟦クロス→クロス：27429_kurosu⟧ステッチ: cross-stitch\n- ⟦{機械|きかい}→機械：02366_kikai⟧{刺繍|ししゅう}: machine embroidery",
   "cross_references": [
     {
       "type": "contrast",
@@ -55,18 +55,112 @@
   ],
   "metadata": {
     "created": "2026-01-16T05:48:20Z",
-    "modified": "2026-09-30T05:51:10Z",
+    "modified": "2026-10-11T13:08:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
-      ]
+        "art",
+        "clothing"
+      ],
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{刺繍|ししゅう}する",
+        "negative": "{刺繍|ししゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{刺繍|ししゅう}します",
+        "negative": "{刺繍|ししゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{刺繍|ししゅう}した",
+        "negative": "{刺繍|ししゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{刺繍|ししゅう}しました",
+        "negative": "{刺繍|ししゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{刺繍|ししゅう}して",
+        "negative": "{刺繍|ししゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{刺繍|ししゅう}している",
+        "negative": "{刺繍|ししゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{刺繍|ししゅう}しています",
+        "negative": "{刺繍|ししゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{刺繍|ししゅう}していた",
+        "negative": "{刺繍|ししゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{刺繍|ししゅう}していました",
+        "negative": "{刺繍|ししゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{刺繍|ししゅう}すれば",
+        "negative": "{刺繍|ししゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{刺繍|ししゅう}したら",
+        "negative": "{刺繍|ししゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{刺繍|ししゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{刺繍|ししゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{刺繍|ししゅう}できる",
+        "negative": "{刺繍|ししゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{刺繍|ししゅう}される",
+        "negative": "{刺繍|ししゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{刺繍|ししゅう}させる",
+        "negative": "{刺繍|ししゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{刺繍|ししゅう}しろ",
+        "negative": "{刺繍|ししゅう}するな"
+      }
+    ]
   }
 }
