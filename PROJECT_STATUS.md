@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-12 (Routine v3: new-entries — 10 New Entries, IDs 31930–31939)
+
+Ten internal-closure candidates, a short last cycle of the run: 黄身 (WATCH OUT 君/気味; 卵黄), 白内障 (WATCH OUT 緑内障), 売主 (vs 買主, 売り手), 隣家 (news word; お隣), 稜線 (vs 尾根), 平均寿命 (健康寿命), 書道家 (vs 書家, 習字), 文人 (文人画, 文人墨客), 頓着 (almost always negative; 無頓着), 波打つ (胸が波打つ, 波打ち際). New kanji 稜 added to the kanji index. Self-check clean.
+
 ### 2026-10-11 (Routine v3: new-entries — 20 New Entries, IDs 31910–31929)
 
 Twenty internal-closure candidates in queue order: へたり込む (vs 座り込む), 馬術 (vs 乗馬; 障害馬術, 馬場馬術), 国際社会, 寝入る (vs 寝付く, 眠り込む), 明星 (two senses: 明けの/宵の明星, and a rising star; the 明星 poetry magazine), 過払い (過払い金 claims after the 2006 Supreme Court ruling), 脆弱性, 同社 (news-style back-reference; 同氏, 当社), 色濃い (色濃く残る), 光学 (WATCH OUT 工学, 高額), 集合写真, 保冷 (保冷剤), 病魔, 滅入る (気が滅入る), 交通手段 (vs 交通機関), 吸水性 (vs 撥水), 低金利, 浮世絵師 (絵師, 彫師, 摺師, 版元), 時期尚早, 日付変更線. The linker then linked the new words in the 20 entries that had used them. Self-check skipped (daily OpenRouter cap spent).
@@ -65,8 +69,3 @@ Twenty internal-closure candidates that existing entries already use, in queue o
 ### 2026-10-11 (Routine v3: candidates — 39 Candidates Added, C24329–C24367)
 
 No unresolved noentry markers remain, so the source was a scan of example sentences for furigana-marked kanji words with no link that match no headword or candidate. 39 added, each with the entry that uses it: 国際社会, 寝入る, 明星, 過払い, 脆弱性, 同社, 色濃い, 光学, 集合写真, 保冷, 病魔, 滅入る, 交通手段, 吸水性, 低金利, 浮世絵師, 時期尚早, 日付変更線, 従属節, 文人, 未来永劫, 黄身, 善玉菌, 無形文化遺産, 問答, 善光寺, 白内障, 売主, 徳島, 多幸, 論語, 波打つ, 所狭し, 隣家, 稜線, 大物, 平均寿命, 本能寺, 書道家. Queue 79 → 118.
-
-### 2026-10-11 (Routine v3: new-entries — 5 New Entries, IDs 31875–31879)
-
-Five internal-closure candidates in queue order, a short last cycle of the run: 平素 (平素より as a letter opening; vs 普段/日頃), 朝鮮半島 (朝鮮 vs 韓国 as names), 稚魚 (稚魚を放流する), 釈迦 (お釈迦様, 釈迦に説法, お釈迦になる, 花祭り), 蝶番 (also 丁番; butterfly-wing etymology). New kanji 迦 added to the kanji index. Self-check clean.
-
