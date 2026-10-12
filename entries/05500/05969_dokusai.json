@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "RELATED WORDS:\n- ⟦{独裁者|どくさいしゃ}→独裁者：15406_dokusaisha⟧: dictator\n- {独裁政権|どくさいせいけん}: dictatorship; autocratic regime\n- ⟦{独裁的|どくさいてき}→独裁的：31318_dokusaiteki⟧: dictatorial; autocratic\n- {独裁国家|どくさいこっか}: dictatorial state\n\nSIMILAR WORDS:\n- ⟦{民主主義|みんしゅしゅぎ}→民主主義：05413_minshushugi⟧: democracy\n- ⟦{民主|みんしゅ}→民主：06028_minshu⟧: democratic\n\nUSAGE:\nUsed in political contexts but also metaphorically for:\n- Workplace: ⟦ワンマン→ワンマン：11210_wanman⟧⟦{経営|けいえい}→経営：02740_keiei⟧ (one-man management)\n- Family: ⟦{家族|かぞく}→家族：00552_kazoku⟧⟦{内|ない}→〜内：09853_nai⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{独裁|どくさい}\n- Organizations: ⟦{組織|そしき}→組織：03320_soshiki⟧{内|ない}⟦の→の：09472_no⟧{独裁|どくさい}⟦{体制|たいせい}→体制：04490_taisei⟧",
+  "notes": "RELATED WORDS:\n- ⟦{独裁者|どくさいしゃ}→独裁者：15406_dokusaisha⟧: dictator\n- {独裁|どくさい}⟦{政権|せいけん}→政権：12883_seiken⟧: dictatorial regime\n- ⟦{独裁的|どくさいてき}→独裁的：31318_dokusaiteki⟧: dictatorial, autocratic\n- Opposite: ⟦{民主主義|みんしゅしゅぎ}→民主主義：05413_minshushugi⟧ (democracy)\n\nSIMILAR WORDS:\n- ⟦{専制|せんせい}→専制：17739_sensei⟧: absolute rule, typically a monarch's ({専制君主|せんせいくんしゅ}); more historical and bookish than {独裁|どくさい}.\n- ⟦ワンマン→ワンマン：11210_wanman⟧: one-man, bossy; the everyday word for a company president or leader who decides everything alone.\n\nUSAGE:\nBesides politics, {独裁|どくさい} is used critically of anyone who runs an organization or a household alone: ⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧{独裁|どくさい}, {独裁|どくさい}⟦{体制|たいせい}→体制：04490_taisei⟧.",
   "cross_references": [
     {
       "type": "antonym",
@@ -176,11 +176,25 @@
       "reading": "ぼうせい",
       "headword": "{暴政|ぼうせい}",
       "label": "tyranny"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17739_sensei",
+      "reading": "せんせい",
+      "headword": "{専制|せんせい}",
+      "label": "absolute rule, typically a monarch's"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11210_wanman",
+      "reading": "わんまん",
+      "headword": "ワンマン",
+      "label": "one-man, bossy"
     }
   ],
   "metadata": {
     "created": "2026-01-16T17:29:19Z",
-    "modified": "2026-10-06T18:22:25Z",
+    "modified": "2026-10-12T00:25:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -191,7 +205,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "politics"
       ],
       "verb_class": "suru",
       "transitivity": "intransitive"

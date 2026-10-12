@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "GRAMMAR: Functions as a noun and as a ⟦する→する：00392_suru⟧ verb ({乱入|らんにゅう}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦ステージ→ステージ：11047_suteeji⟧⟦に→に：00314_ni⟧{乱入|らんにゅう}⟦する→する：00392_suru⟧ (to rush onto the stage)\n- {乱入|らんにゅう}⟦{者|しゃ}→〜者：04662_sha⟧ (intruder, person who barges in)\n- ⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧{乱入|らんにゅう}⟦する→する：00392_suru⟧ (to crash a match)\n\nUSAGE: In gaming and streaming culture, {乱入|らんにゅう} is used for unexpected players joining a game session. In professional wrestling, it refers to a planned or unplanned interference in a match.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- ⟦ステージ→ステージ：11047_suteeji⟧⟦に→に：00314_ni⟧{乱入|らんにゅう}⟦する→する：00392_suru⟧: to rush onto the stage\n- ⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧{乱入|らんにゅう}⟦する→する：00392_suru⟧: to interfere in a match\n- {乱入|らんにゅう}⟦{者|しゃ}→〜者：04662_sha⟧: intruder, someone who barges in\n\nSIMILAR WORDS:\n- ⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧: unlawful or stealthy entry (a burglar, a virus, enemy troops); {乱入|らんにゅう} is a sudden, disruptive rush into a place where people are gathered, often in plain view.\n\nUSAGE:\nIn professional wrestling it is a run-in, another wrestler interfering in a match. In arcade fighting games it is a second player challenging someone mid-game.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11440_shinnyuu",
+      "reading": "しんにゅう",
+      "headword": "{侵入|しんにゅう}",
+      "label": "unlawful or stealthy entry"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T10:57:49Z",
-    "modified": "2026-09-24T21:17:55Z",
+    "modified": "2026-10-12T00:25:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -149,7 +157,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "movement",
+        "action"
       ],
       "verb_class": "suru",
       "transitivity": "intransitive"
