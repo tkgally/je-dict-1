@@ -2,7 +2,7 @@
   "id": "04154_kongou",
   "headword": "{混合|こんごう}",
   "reading": "こんごう",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mixing, mixture, blend",
   "definitions": [
     {
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{混合|こんごう} means mixing or combining two or more things together.\n\nCOMMON PATTERNS:\nCan function as a noun or ⟦する→する：00392_suru⟧ verb ({混合|こんごう}⟦する→する：00392_suru⟧ = to mix).\n\nCOMPOUNDS:\n- {混合|こんごう}⟦{物|ぶつ}→物：28336_butsu⟧: mixture, blend\n- {混合|こんごう}⟦{気|き}{体|たい}→気体：02632_kitai⟧: mixed gas\n- {混合|こんごう}⟦チーム→チーム：03858_chiimu⟧: mixed team\n- {混合|こんごう}⟦ワクチン→ワクチン：05074_wakuchin⟧: combined vaccine\n- {混合|こんごう}⟦{栄養|えいよう}→栄養：01882_eiyou⟧: mixed feeding (breast milk and formula)\n\nSIMILAR WORDS:\n- {混合|こんごう}: mixing (technical, combining substances)\n- ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to mix (everyday verb)\n- ⟦{配合|はいごう}→配合：16196_haigou⟧: blending, compounding (in formulas)\n- ⟦{融合|ゆうごう}→融合：14036_yuugou⟧: fusion, merging (becoming one)",
+  "notes": "COMPOUNDS:\n- {混合|こんごう}{物|ぶつ}: mixture, blend\n- {混合|こんごう}⟦{気|き}{体|たい}→気体：02632_kitai⟧: mixed gas\n- {混合|こんごう}⟦チーム→チーム：03858_chiimu⟧: mixed team\n- {混合|こんごう}⟦ワクチン→ワクチン：05074_wakuchin⟧: combined vaccine\n- {混合|こんごう}⟦{栄養|えいよう}→栄養：01882_eiyou⟧: mixed feeding (breast milk and formula)\n\nSIMILAR WORDS:\n- ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to mix; the everyday verb. {混合|こんごう}⟦する→する：00392_suru⟧ is technical and written\n- ⟦{配合|はいごう}→配合：16196_haigou⟧: blending, compounding (in formulas)\n- ⟦{融合|ゆうごう}→融合：14036_yuugou⟧: fusion, merging (becoming one)",
   "cross_references": [
     {
       "type": "contrast",
@@ -103,18 +103,112 @@
   ],
   "metadata": {
     "created": "2026-01-13T14:00:53Z",
-    "modified": "2026-09-04T12:29:38Z",
+    "modified": "2026-10-12T18:57:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
-      ]
+        "science",
+        "change"
+      ],
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{混合|こんごう}する",
+        "negative": "{混合|こんごう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{混合|こんごう}します",
+        "negative": "{混合|こんごう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{混合|こんごう}した",
+        "negative": "{混合|こんごう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{混合|こんごう}しました",
+        "negative": "{混合|こんごう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{混合|こんごう}して",
+        "negative": "{混合|こんごう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{混合|こんごう}している",
+        "negative": "{混合|こんごう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{混合|こんごう}しています",
+        "negative": "{混合|こんごう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{混合|こんごう}していた",
+        "negative": "{混合|こんごう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{混合|こんごう}していました",
+        "negative": "{混合|こんごう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{混合|こんごう}すれば",
+        "negative": "{混合|こんごう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{混合|こんごう}したら",
+        "negative": "{混合|こんごう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{混合|こんごう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{混合|こんごう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{混合|こんごう}できる",
+        "negative": "{混合|こんごう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{混合|こんごう}される",
+        "negative": "{混合|こんごう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{混合|こんごう}させる",
+        "negative": "{混合|こんごう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{混合|こんごう}しろ",
+        "negative": "{混合|こんごう}するな"
+      }
+    ]
   }
 }
