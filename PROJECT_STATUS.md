@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-12 (Routine v3: candidates — 10 Internal-Closure Candidates)
+
+The noentry source is empty, so this restock ran a SudachiPy scan of the unlinked text in all examples for noun, verb and adjective lemmas with no entry, then a duplicate probe on about 95 of them. Most hits were variant spellings (怪我/けが, 引っ越し/引越し, 子ども/子供) or words split out of phrase entries that already exist (思いがけない, 人見知り, 紆余曲折). Ten survived: 技術力, 生産量, 浮世, 一人称, 反逆, 長者, 入館, 回答者, 片足, 躍る, each with "seen in entry". Queue 60 → 70.
+
 ### 2026-10-12 (Routine v3: new-entries — 10 New Entries, IDs 31930–31939)
 
 Ten internal-closure candidates, a short last cycle of the run: 黄身 (WATCH OUT 君/気味; 卵黄), 白内障 (WATCH OUT 緑内障), 売主 (vs 買主, 売り手), 隣家 (news word; お隣), 稜線 (vs 尾根), 平均寿命 (健康寿命), 書道家 (vs 書家, 習字), 文人 (文人画, 文人墨客), 頓着 (almost always negative; 無頓着), 波打つ (胸が波打つ, 波打ち際). New kanji 稜 added to the kanji index. Self-check clean.
@@ -66,6 +70,3 @@ Ten internal-closure candidates in queue order, a short last cycle of the run: �
 
 Twenty internal-closure candidates that existing entries already use, in queue order: 出廷 (vs 出頭), 殺処分 (official term; 殺処分ゼロ), 横行 (of wrongdoing; vs はびこる/蔓延), 糠床, 土砂災害 (土石流/崖崩れ/地滑り), 明治神宮, 親方 (two senses: master craftsman, sumo stable master; 親方日の丸), 盗塁, 乾季 (also 乾期; WATCH OUT 換気/寒気), 答辞 (vs 送辞), 金沢, 婦人科, 武勇伝, 収入印紙, 御利益 (りやく vs 利益 りえき), 重鎮 (vs 大御所/第一人者), 備長炭, 物産展, 目先 (two senses; 目先の利益, 目先が利く), 宗派. The candidate 福引 was dropped as a duplicate of 福引き (17826). The conjugation generator also filled in tables missing from four する-nouns of an earlier run (大勝, 就労, 変色, 大成). Self-check clean.
 
-### 2026-10-11 (Routine v3: candidates — 39 Candidates Added, C24329–C24367)
-
-No unresolved noentry markers remain, so the source was a scan of example sentences for furigana-marked kanji words with no link that match no headword or candidate. 39 added, each with the entry that uses it: 国際社会, 寝入る, 明星, 過払い, 脆弱性, 同社, 色濃い, 光学, 集合写真, 保冷, 病魔, 滅入る, 交通手段, 吸水性, 低金利, 浮世絵師, 時期尚早, 日付変更線, 従属節, 文人, 未来永劫, 黄身, 善玉菌, 無形文化遺産, 問答, 善光寺, 白内障, 売主, 徳島, 多幸, 論語, 波打つ, 所狭し, 隣家, 稜線, 大物, 平均寿命, 本能寺, 書道家. Queue 79 → 118.
