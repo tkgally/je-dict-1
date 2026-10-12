@@ -1557,3 +1557,5 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 
 _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 2026-10-12 wiki run (routine_2026-10-12_014): 14 new backlog-queue items and 4 updated; Tooling 152–154; 30 audio-found furigana errors fixed in the same run; the remaining [entry] lines are in ideas/entry-followups.md "Harvested 2026-10-12".)_
 
+
+- 2026-10-12 [tooling] harvest_crossrefs.py treats example word pairs listed under RELATED WORDS in a grammar-term entry (自動詞 10977: 開く/開ける, 閉まる/閉める …) as related words and writes reciprocal "related → 自動詞" links onto the eight basic verbs. Reverted by hand and the list moved under COMMON PATTERNS. Worth a guard: skip reciprocals when the source entry is a metalanguage term (tag `language`, grammar noun).

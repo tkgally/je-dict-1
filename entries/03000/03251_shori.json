@@ -2,7 +2,7 @@
   "id": "03251_shori",
   "headword": "{処理|しょり}",
   "reading": "しょり",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "processing, handling",
   "definitions": [
     {
@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "notes": "{処理|しょり}⟦する→する：00392_suru⟧ is commonly used as a ⟦する→する：00392_suru⟧-verb in business and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {処理|しょり}⟦する→する：00392_suru⟧ (to process, to handle)\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{処理|しょり} (information processing)\n- ⟦データ→データ：03944_deeta⟧{処理|しょり} (data processing)\n- ⟦{廃棄物|はいきぶつ}→廃棄物：04634_haikibutsu⟧{処理|しょり} (waste disposal)\n- {処理|しょり}⟦{能力|のうりょく}→能力：03541_nouryoku⟧ (processing capacity)\n- {処理|しょり}⟦{速度|そくど}→速度：03319_sokudo⟧ (processing speed)\n\nUSAGE:\n- ⟦{事務|じむ}→事務：11418_jimu⟧{処理|しょり} (administrative work)\n- ⟦{迅速|じんそく}→迅速：14294_jinsoku⟧⟦に→に：00314_ni⟧{処理|しょり}⟦する→する：00392_suru⟧ (to handle promptly)",
+  "notes": "COMMON COLLOCATIONS:\n- {情報|じょうほう}{処理|しょり} (information processing)\n- ⟦データ→データ：03944_deeta⟧{処理|しょり} (data processing)\n- ⟦{廃棄物|はいきぶつ}→廃棄物：04634_haikibutsu⟧{処理|しょり} (waste disposal)\n- {処理|しょり}⟦{能力|のうりょく}→能力：03541_nouryoku⟧ (processing capacity)\n- {処理|しょり}{速度|そくど} (processing speed)\n- {事務|じむ}{処理|しょり} (administrative work)\n- ⟦{迅速|じんそく}→迅速：14294_jinsoku⟧⟦に→に：00314_ni⟧{処理|しょり}⟦する→する：00392_suru⟧ (to handle promptly)\n\nSIMILAR WORDS:\n- ⟦{対処|たいしょ}→対処：05518_taisho⟧: dealing with a problem or situation as it arises (⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦{対処|たいしょ}する→対処する：20049_taishosuru⟧). {処理|しょり} is working through a task or material until it is done (⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{処理|しょり}⟦する→する：00392_suru⟧).",
   "cross_references": [
     {
       "type": "contrast",
@@ -147,12 +147,13 @@
   ],
   "metadata": {
     "created": "2026-01-12T00:54:20Z",
-    "modified": "2026-10-04T00:59:31Z",
+    "modified": "2026-10-12T18:22:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "domain": [
         "business",
@@ -161,8 +162,101 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
-      ]
+        "work",
+        "technology"
+      ],
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{処理|しょり}する",
+        "negative": "{処理|しょり}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{処理|しょり}します",
+        "negative": "{処理|しょり}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{処理|しょり}した",
+        "negative": "{処理|しょり}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{処理|しょり}しました",
+        "negative": "{処理|しょり}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{処理|しょり}して",
+        "negative": "{処理|しょり}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{処理|しょり}している",
+        "negative": "{処理|しょり}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{処理|しょり}しています",
+        "negative": "{処理|しょり}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{処理|しょり}していた",
+        "negative": "{処理|しょり}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{処理|しょり}していました",
+        "negative": "{処理|しょり}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{処理|しょり}すれば",
+        "negative": "{処理|しょり}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{処理|しょり}したら",
+        "negative": "{処理|しょり}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{処理|しょり}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{処理|しょり}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{処理|しょり}できる",
+        "negative": "{処理|しょり}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{処理|しょり}される",
+        "negative": "{処理|しょり}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{処理|しょり}させる",
+        "negative": "{処理|しょり}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{処理|しょり}しろ",
+        "negative": "{処理|しょり}するな"
+      }
+    ]
   }
 }
