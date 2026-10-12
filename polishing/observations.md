@@ -1667,3 +1667,4 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 20150: audio checks heard いっしゃせん for {一車線|いちしゃせん} in 20150_katagawa_ex2; check the furigana (一車線 is normally いっしゃせん).
 - [entry] 20123: audio checks heard かっこいい for {格好|かっこう}いい in 20123_paritto_ex5; check the furigana (格好いい is normally かっこいい).
 - [entry] 19661: audio checks heard しゅじゅつ for {施術|しじゅつ} in 19661_shijutsu_ex1 (TTS misreading as 手術); the more common reading of 施術 is せじゅつ, so consider whether the headword should give せじゅつ first.
+- [tooling] auto_link.py re-links a particle (も in がんも, entry 07973 notes) even after an `unlink` line in reviews/link_decisions.jsonl; the decision guard seems to skip particle candidates, and review_links.py --apply-decisions reports the removal without making it. The mislink predates 2026-10-12.
