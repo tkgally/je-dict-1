@@ -1656,3 +1656,8 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 07663 ちょくちょく: in the notes' frequency list, めったに has its に linked to the particle 00314 (めった⟦に⟧); should be one word (めったに has no entry, or should link whole). Not hand-fixed. (2026-10-11 systemic-fix #027)
 - [tooling] auto_link re-adds an unlinked kana link in notes even with a context-matched unlink line: 26609 lists ても and けれど(も), the linker links the も to particle 00484; review_links --apply-decisions removes it, the next auto_link run puts it back, and check_link_homophones --gate still passes. load_unlink_decisions keys on entry+base, so the Resolver should have blocked も in 26609; worth a look. Left the links in place and did not log the unlink lines, so a later gate fix cannot trip CI on them. (2026-10-11 polish #028)
 - [entry] 05482 顕微鏡: TYPES linked {光学} to 04862 工学 (homophone); retargeted to the new 31919 光学 after the base-form gate caught it. (2026-10-11 new-entries #030)
+- [entry] 19481: audio checks heard のがれた for {逃|に}れた in 19481_boumeisha_ex3; check the furigana (逃れる = のがれる).
+- [entry] 19496: audio checks heard だされた for {出|で}された in 19496_kuchibiwokiru_ex3; check the furigana (意見が出される = だされる).
+- [entry] 19549: audio checks heard あらたな for {新|あたら}たな in 19549_fujousuru_ex6; check the furigana (新たな = あらたな).
+- [entry] 19582: audio checks heard かおり for {香|か}り in 19582_kaoru_ex2; check the furigana (香り = かおり).
+- [entry] 19553: audio checks heard いんたいじあい for {引退|いんたい}{試合|しあい} in 19553_kanmuryou_ex3; check the furigana (試合 takes rendaku in compounds: 引退試合 = いんたいじあい).
