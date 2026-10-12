@@ -1,106 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-12T14:10:05Z",
+  "generated": "2026-10-12T18:42:28Z",
   "headers": {
-    "08178_kakusan": [
-      "SENSE 1 - SCIENCE",
-      "SENSE 2 - GENERAL SPREAD"
-    ],
-    "08180_koru": [
-      "SENSE 1 - MUSCLE STIFFNESS",
-      "SENSE 2 - BEING ABSORBED"
-    ],
-    "08181_uruou": [
-      "SENSE 1 - MOISTURE",
-      "SENSE 2 - PROFIT/ENRICHMENT"
-    ],
-    "08199_donyoku": [
-      "SENSE 1 - NEGATIVE (greed)",
-      "SENSE 2 - POSITIVE (eagerness)"
-    ],
-    "08204_hirakinaoru": [
-      "CAN BE POSITIVE"
-    ],
-    "08329_ekichika": [
-      "RELATED REAL ESTATE TERMS"
-    ],
-    "08330_necchuushou": [
-      "SYMPTOMS ({症状|しょうじょう})"
-    ],
-    "08333_kamin": [
-      "DIFFERENCE FROM OTHER SLEEP WORDS"
-    ],
-    "08335_akibare": [
-      "RELATED SEASONAL WEATHER"
-    ],
-    "08338_tsuyuake": [
-      "WHAT FOLLOWS"
-    ],
-    "08339_amatou": [
-      "CONTRAST WITH {辛党|からとう}"
-    ],
-    "08340_karatou": [
-      "MODERN SHIFT"
-    ],
-    "08343_dekitate": [
-      "THE ～{立|た}て PATTERN"
-    ],
-    "08348_danshari": [
-      "THREE PRINCIPLES"
-    ],
-    "08349_sumigokochi": [
-      "THE ～{心地|ごこち} PATTERN"
-    ],
-    "08353_temiyage": [
-      "DIFFERENCE FROM お{土産|みやげ}"
-    ],
-    "08354_okaeshi": [
-      "COMMON お{返|かえ}し OCCASIONS",
-      "VALUE GUIDELINES"
-    ],
-    "08356_goshuugi": [
-      "GIFT ENVELOPE",
-      "IMPORTANT RULES",
-      "WEDDING GIFT AMOUNTS"
-    ],
-    "08357_nigawarai": [
-      "TYPES OF SMILES IN JAPANESE"
-    ],
-    "08366_hanbouki": [
-      "INDUSTRY EXAMPLES"
-    ],
-    "08368_kinmusaki": [
-      "FORM FIELDS"
-    ],
-    "08377_butaiura": [
-      "MEDIA USAGE"
-    ],
-    "08407_sojou": [
-      "CONTENTS OF A COMPLAINT"
-    ],
-    "08414_shouroku": [
-      "COMPONENTS OF AN ABSTRACT"
-    ],
-    "08419_oidaki": [
-      "HOUSING NOTE",
-      "RELATED BATH CONTROLS"
-    ],
-    "08429_eraa": [
-      "SENSE 1 (COMPUTING/TECHNICAL)",
-      "SENSE 2 (BASEBALL)"
-    ],
-    "08439_hanabie": [
-      "SEASONAL TERM"
-    ],
-    "08440_kuwazugirai": [
-      "BROADER MEANING"
-    ],
-    "08446_outo": [
-      "RELATED SYMPTOMS"
-    ],
-    "08447_hougaku": [
-      "CARDINAL DIRECTIONS"
-    ],
     "08448_shijou": [
       "RELATED {試|し}-COMPOUNDS"
     ],
@@ -791,28 +692,6 @@
     "10867_gorigori": [
       "SENSE 1 (grinding/scraping)",
       "SENSE 2 (aggressively/hardcore)"
-    ],
-    "10966_chuugokugo": [
-      "SPECIFIC VARIETIES"
-    ],
-    "10975_hidarite": [
-      "DIRECTION USAGE"
-    ],
-    "10977_jidoushi": [
-      "COMMON PAIRS (intransitive / transitive)"
-    ],
-    "10979_isshuukan": [
-      "COUNTING WEEKS"
-    ],
-    "10981_juuniji": [
-      "CLARIFYING EXPRESSIONS"
-    ],
-    "10985_hyakunin": [
-      "COUNTING NOTES"
-    ],
-    "10988_mono": [
-      "SENSE 1 - REASON/EXCUSE",
-      "SENSE 2 - GENERAL TRUTH (ものだ)"
     ],
     "10993_tsuitachi": [
       "DAYS OF THE MONTH (irregular readings, 1st-10th)",
