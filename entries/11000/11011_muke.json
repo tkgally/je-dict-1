@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{向|む}け is a suffix that attaches to nouns: N + {向|む}け.\n\nCOMMON PATTERNS:\n- {子|こ}ども{向|む}け: for children\n- ⟦{大人|おとな}→大人：02856_otona⟧{向|む}け: for adults\n- ⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧{向|む}け: for beginners\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧{向|む}け: for overseas / export\n- ⟦{女性|じょせい}→女性：01617_josei⟧{向|む}け: for women\n- ⟦{日本|にほん}→日本：03876_nihon⟧{向|む}け: for the Japanese market\n- N{向|む}け⟦の→の：09472_no⟧ + noun: {子|こ}ども{向|む}け⟦の→の：09472_no⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧ (a program for children)\n- N{向|む}け⟦に→に：00314_ni⟧ + verb: ⟦{海外|かいがい}→海外：00134_kaigai⟧{向|む}け⟦に→に：00314_ni⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (make for overseas)\n- N{向|む}けだ: ⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧{向|む}けだ (it's for beginners)\n\nSIMILAR WORDS:\n- {向|む}け emphasizes the intended target or purpose\n- ⟦{用|よう}→〜用：09842_you⟧ emphasizes practical use: ⟦{業務用|ぎょうむよう}→業務用：13148_gyoumuyou⟧ (for business use)",
+  "notes": "COMMON PATTERNS:\n- {子|こ}ども{向|む}け: for children\n- ⟦{大人|おとな}→大人：02856_otona⟧{向|む}け: for adults\n- ⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧{向|む}け: for beginners\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧{向|む}け: for overseas / export\n- ⟦{女性|じょせい}→女性：01617_josei⟧{向|む}け: for women\n- ⟦{日本|にほん}→日本：03876_nihon⟧{向|む}け: for the Japanese market\n- N{向|む}け⟦の→の：09472_no⟧ + noun: {子|こ}ども{向|む}け⟦の→の：09472_no⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧ (a program for children)\n- N{向|む}け⟦に→に：00314_ni⟧ + verb: ⟦{海外|かいがい}→海外：00134_kaigai⟧{向|む}け⟦に→に：00314_ni⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (make for overseas)\n- N{向|む}けだ: ⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧{向|む}けだ (it's for beginners)\n\nSIMILAR WORDS:\n- ⟦{向|む}き→向き：12041_muki⟧: suited to, whether or not it was made for that group ({子|こ}ども⟦{向|む}き→向き：12041_muki⟧⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧, a taste children like). {向|む}け means made or aimed for it ({子|こ}ども{向|む}け⟦の→の：09472_no⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧, a program produced for children).\n- ⟦{用|よう}→〜用：09842_you⟧: for the use of, stressing practical purpose: ⟦{業務用|ぎょうむよう}→業務用：13148_gyoumuyou⟧ (for business use)",
   "cross_references": [
     {
       "type": "contrast",
@@ -58,12 +58,19 @@
       "reading": "をたいしょうに",
       "headword": "を{対象|たいしょう}に",
       "label": "aimed at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09842_you",
+      "reading": "よう",
+      "headword": "〜{用|よう}",
+      "label": "for ~ use (practical purpose)"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-12T07:24:00Z",
-    "modified": "2026-09-02T04:01:23Z",
+    "modified": "2026-10-12T19:41:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -73,7 +80,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "grammatical"
       ]
     }
   }
