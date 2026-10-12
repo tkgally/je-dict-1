@@ -1661,3 +1661,9 @@ _(The 133 observation lines from 2026-09-28 to 2026-10-05 were harvested by the 
 - [entry] 19549: audio checks heard あらたな for {新|あたら}たな in 19549_fujousuru_ex6; check the furigana (新たな = あらたな). FIXED 2026-10-12 cycle 6.
 - [entry] 19582: audio checks heard かおり for {香|か}り in 19582_kaoru_ex2; check the furigana (香り = かおり). FIXED 2026-10-12 cycle 6.
 - [entry] 19553: audio checks heard いんたいじあい for {引退|いんたい}{試合|しあい} in 19553_kanmuryou_ex3; check the furigana (試合 takes rendaku in compounds: 引退試合 = いんたいじあい).
+- [entry] 20032: audio checks heard あいびき for {合|あい}い{挽|び}き in 20032_minchi_ex3; check the furigana (合い挽き = {合|あ}い{挽|び}き; the current braces read あいいびき).
+- [entry] 20142: audio checks heard ひとあじ for {一味違|いちみちが}った in 20142_ichimichigau_ex3; the headword reading itself looks wrong (一味違う = ひとあじちがう). Flagged to curator (reading change renames the entry).
+- [entry] 20226: audio checks heard やくたたず for {役立|やくだ}たず in 20226_yakudatazu_ex1 and ex3 (やくたたず is the usual reading). Flagged to curator.
+- [entry] 20150: audio checks heard いっしゃせん for {一車線|いちしゃせん} in 20150_katagawa_ex2; check the furigana (一車線 is normally いっしゃせん).
+- [entry] 20123: audio checks heard かっこいい for {格好|かっこう}いい in 20123_paritto_ex5; check the furigana (格好いい is normally かっこいい).
+- [entry] 19661: audio checks heard しゅじゅつ for {施術|しじゅつ} in 19661_shijutsu_ex1 (TTS misreading as 手術); the more common reading of 施術 is せじゅつ, so consider whether the headword should give せじゅつ first.
