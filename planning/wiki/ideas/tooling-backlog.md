@@ -4638,6 +4638,32 @@ Runs that start after a kanji, most following kanji, 五十/八十 + 歳, and �
 - Priority lane: empty since 2026-09-23 (every line modified within 30 days). It will stay empty until about 2026-10-04/07; the prompt regenerates the list only when it is over 14 days old.
 - Audio checker `thinkingmachines/inkling` answered n/a on all 2,806 attempts on 2026-09-26. Under workflow v2.1 (2026-09-27 onward) it is objecting normally again (128 and 136 objections per run), so there is nothing to file.
 
+## Updates 2026-10-12 (wiki harvest)
+
+Fourteen new queue items, all described in `backlog-queue.json`: `find-unlinked-lemmas`,
+`auto-link-own-suffix-twin`, `auto-link-quoted-readings`, `auto-link-jiru-zuru-resolver`,
+`sense-absorbed-from-homophone`, `similar-words-self-bullet`, `auto-link-header-lines`,
+`auto-link-skips-existing-words`, `furigana-on-digits`, `link-intransitive-pair-mislink`,
+`example-notes-missing-furigana`, `notes-writing-holds-etymology`, `loanword-native-label-kango`,
+`loanword-unheaded-gloss-restatement`.
+
+### 152. The linker ignores unlink decisions for kana surfaces too (queue: `auto-link-kanji-surface-ledger`)
+Seven reports in a week: inflected kana verbs (06611 した), particles (26609 も, 07973 がんも), digit
+readings (01011 に), より in 〜により (31874), and a loanword inside a katakana compound (10481 グラス).
+`review_links.py --apply-decisions` also turns a one-occurrence `retarget` into an entry-wide unlink
+(01799, 19871). This is now the most-reported linker defect; it needs one test per shape.
+
+### 153. Audio store size
+tkgally/je-dict-audio-1 was at 853 of 900 MB on 2026-10-08 (about 32 MB per run). The audio mode
+needs a second store or a size check before publishing.
+
+### 154. `make gate` needs `requests`
+`build/tests/test_audio.py` imports `audio_api`, which imports `requests`. `requests` is listed only in
+`build/requirements-audio.txt`, and routine2.md's run-start line installs `build/requirements.txt`
+alone, so `make gate` fails in a fresh container (seen 2026-10-12) until `requests` is installed.
+Either add `requests` to `build/requirements.txt` or install both files at run start (curator: the
+install line is in routine2.md). (The earlier pip/python3 mismatch was fixed by the curator on 2026-10-08.)
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address
