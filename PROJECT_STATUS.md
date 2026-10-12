@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-12 (Routine v3: new-entries — 11 New Entries, IDs 31960–31970)
+
+Five internal-closure candidates (善光寺 with 牛に引かれて善光寺参り, 徳島, 多幸 as in ご多幸をお祈りします, 本能寺 with 本能寺の変 and 敵は本能寺にあり, 遊撃手 vs ショート) and six from the queue: 信州, the proverb 案ずるより産むが易し, だとしたら, でなければ (two senses; vs でないと, さもなければ), 最小公倍数, 迷信深い. そうでないと was skipped as already covered by the でないと entry. Cross-reference harvest wrote 16 references on 14 entries. Self-check skipped (OpenRouter budget spent). Queue 51 → 40.
+
 ### 2026-10-12 (Routine v3: new-entries — 20 New Entries, IDs 31940–31959)
 
 Twenty internal-closure candidates: 従属節 (主節), 未来永劫 (vs 永遠に, 永久に), 善玉菌 (悪玉菌), 無形文化遺産 (vs 世界遺産, 無形文化財), 問答 (two senses; 問答無用, 禅問答, 押し問答), 論語 (proper noun; sayings still in use), 所狭し (所狭しと), 大物 (two senses: big shot, big item/catch), エンディング, 斉唱 (vs 合唱), 技術力, 生産量, 浮世 (two senses; 憂き世 origin), 一人称 (私/僕/俺/うち), 反逆 (vs 反抗, 謀反), 長者 (億万長者, わらしべ長者), 入館 (vs 入場), 回答者 (WATCH OUT 回答/解答), 片足, 躍る (two senses; WRITING 躍る vs 踊る). Cross-reference harvest wrote 47 references on 35 entries. Self-check skipped (OpenRouter budget spent).
@@ -66,6 +70,3 @@ Ten internal-closure candidates, a short last cycle of the run: 黄身 (WATCH OU
 
 Twenty internal-closure candidates in queue order: へたり込む (vs 座り込む), 馬術 (vs 乗馬; 障害馬術, 馬場馬術), 国際社会, 寝入る (vs 寝付く, 眠り込む), 明星 (two senses: 明けの/宵の明星, and a rising star; the 明星 poetry magazine), 過払い (過払い金 claims after the 2006 Supreme Court ruling), 脆弱性, 同社 (news-style back-reference; 同氏, 当社), 色濃い (色濃く残る), 光学 (WATCH OUT 工学, 高額), 集合写真, 保冷 (保冷剤), 病魔, 滅入る (気が滅入る), 交通手段 (vs 交通機関), 吸水性 (vs 撥水), 低金利, 浮世絵師 (絵師, 彫師, 摺師, 版元), 時期尚早, 日付変更線. The linker then linked the new words in the 20 entries that had used them. Self-check skipped (daily OpenRouter cap spent).
 
-### 2026-10-11 (Routine v3: new-entries — 10 New Entries, IDs 31900–31909)
-
-Ten internal-closure candidates in queue order, a short last cycle of the run: 法然 (専修念仏, 知恩院), 菅原道真 (天神, 天満宮, 飛梅), 祇園精舎 (平家物語 opening; WATCH OUT Kyoto's 祇園), 時効 (two senses: legal, and もう時効だから言うけど; 2010 abolition for murder), 忠誠心 (vs 忠誠), 事情聴取 (vs 取り調べ, 聞き込み), 創出 (雇用創出), 船乗り (vs 船員), 新婚旅行 (vs ハネムーン), 上市 (pharma launch; WATCH OUT 上司). New kanji 菅 added to the kanji index. Self-check skipped (daily OpenRouter cap spent).
