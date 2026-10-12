@@ -1,6 +1,6 @@
 # Quality Metrics
 
-**Generated**: 2026-10-05 by `pipeline/metrics_report.py` from `pipeline/metrics-history.jsonl` (926 runs since 2026-06-10) and `reviews/decisions.jsonl` (12474 adjudication lines). Do not edit by hand; rerun the script. The narrative history that used to live on this page is preserved in git (`git log -- planning/wiki/topics/quality-metrics.md`).
+**Generated**: 2026-10-12 by `pipeline/metrics_report.py` from `pipeline/metrics-history.jsonl` (1136 runs since 2026-06-10) and `reviews/decisions.jsonl` (13246 adjudication lines). Do not edit by hand; rerun the script. The narrative history that used to live on this page is preserved in git (`git log -- planning/wiki/topics/quality-metrics.md`).
 
 ## How to read this page
 
@@ -11,7 +11,6 @@
 
 | Week | Runs | Modes | Entries changed | Flags applied / rejected | Frontier | Review queue | Candidates | Entries | OpenRouter $ |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-W26 | 53 | pol17 acc13 sys5 new10 wik8 | 884 | 604 / 410 | 6320 | 14620 | 1215 | 29342 | 2.49 |
 | 2026-W27 | 53 | pol18 acc13 sys5 new10 wik7 | 482 | 153 / 368 | 6418 | 14242 | 1172 | 29481 | 1.48 |
 | 2026-W28 | 40 | pol13 acc9 sys4 new8 wik6 | 449 | 210 / 324 | 6463 | 13758 | 1147 | 29594 | 1.68 |
 | 2026-W29 | 55 | pol19 acc13 sys5 new10 wik8 | 752 | 378 / 570 | 6553 | 13024 | 1102 | 29762 | 1.76 |
@@ -26,9 +25,10 @@
 | 2026-W38 | 42 | pol15 acc13 sys10 new4 | 1795 | 977 / 839 | 8076 | 4106 | 178 | 30784 | 6.73 |
 | 2026-W39 | 65 | pol19 acc19 sys16 new6 wik1 | 2690 | 581 / 749 | 8652 | 3014 | 113 | 30883 | 25.13 |
 | 2026-W40 | 218 | pol65 acc37 sys56 new32 can2 wik1 | 8721 | 349 / 1097 | 9847 | 6063 | 58 | 31370 | 104.98 |
-| 2026-W41 | 9 | pol2 acc2 sys2 new1 | 308 | 18 / 70 | 9894 | 5623 | 53 | 31382 | 11.92 |
+| 2026-W41 | 206 | pol62 acc27 sys56 new25 can7 wik1 | 7210 | 213 / 562 | 10899 | 7607 | 68 | 31706 | 105.02 |
+| 2026-W42 | 13 | pol3 acc3 sys2 new1 can1 | 158 | 50 / 65 | 10943 | 7190 | 70 | 31716 | 14.98 |
 
-Latest detector queue depths (2026-10-02): furigana_format 233, artifacts 15, tag_drift 4235
+Latest detector queue depths (2026-10-09): furigana_format 222, artifacts 15, tag_drift 3908
 
 ## Reviewer-flag precision, last 30 days
 
@@ -38,33 +38,34 @@ Latest detector queue depths (2026-10-02): furigana_format 233, artifacts 15, ta
 | None/notes | 3 | 9 | 0 | 25% |
 | None/tags | 2 | 8 | 0 | 20% |
 | None/translation | 0 | 7 | 0 | 0% |
-| accuracy/gloss | 225 | 264 | 5 | 46% |
-| accuracy/notes | 431 | 1262 | 19 | 25% |
-| accuracy/tags | 1190 | 429 | 2 | 73% |
-| accuracy/translation | 115 | 158 | 3 | 42% |
+| accuracy/gloss | 248 | 342 | 5 | 42% |
+| accuracy/notes | 489 | 1397 | 17 | 26% |
+| accuracy/tags | 864 | 493 | 2 | 64% |
+| accuracy/translation | 132 | 188 | 3 | 41% |
 | conjugation/conjugation | 0 | 0 | 1 | 0% |
-| self-check/gloss | 26 | 55 | 2 | 31% |
-| self-check/notes | 60 | 214 | 1 | 22% |
-| self-check/tags | 60 | 65 | 1 | 48% |
-| self-check/translation | 15 | 22 | 0 | 41% |
+| self-check/gloss | 32 | 79 | 1 | 29% |
+| self-check/notes | 94 | 290 | 1 | 24% |
+| self-check/tags | 65 | 85 | 1 | 43% |
+| self-check/translation | 24 | 44 | 1 | 35% |
 
 | dim:family | apply | reject | flag | precision |
 |---|---|---|---|---|
 | conjugation:example | 0 | 0 | 1 | 0% |
 | gloss:(unlabelled) | 2 | 1 | 0 | 67% |
-| gloss:gloss-meaning | 249 | 327 | 7 | 43% |
-| gloss:notes-fact | 3 | 0 | 0 | 100% |
+| gloss:gloss-meaning | 279 | 429 | 6 | 39% |
+| gloss:notes-fact | 2 | 0 | 0 | 100% |
 | notes:(unlabelled) | 2 | 4 | 0 | 33% |
-| notes:notes-fact | 491 | 1481 | 20 | 25% |
+| notes:crossref-harvest | 1 | 0 | 0 | 100% |
+| notes:notes-fact | 582 | 1692 | 18 | 25% |
 | notes:register | 1 | 0 | 0 | 100% |
 | tags:(unlabelled) | 11 | 2 | 0 | 85% |
-| tags:notes-fact | 12 | 1 | 0 | 92% |
-| tags:offvocab | 748 | 0 | 2 | 100% |
-| tags:register | 215 | 400 | 1 | 35% |
-| tags:wrong-category | 266 | 99 | 0 | 73% |
+| tags:notes-fact | 8 | 1 | 0 | 89% |
+| tags:offvocab | 434 | 0 | 2 | 100% |
+| tags:register | 212 | 448 | 1 | 32% |
+| tags:wrong-category | 266 | 135 | 0 | 66% |
 | translation:(unlabelled) | 1 | 1 | 0 | 50% |
-| translation:notes-fact | 1 | 0 | 0 | 100% |
-| translation:translation-meaning | 128 | 186 | 3 | 40% |
+| translation:notes-fact | 2 | 0 | 0 | 100% |
+| translation:translation-meaning | 153 | 238 | 4 | 39% |
 
 ## Reviewer-flag precision, all time
 
@@ -78,19 +79,19 @@ Latest detector queue depths (2026-10-02): furigana_format 233, artifacts 15, ta
 | accuracy-review/gloss | 1 | 19 | 2 | 5% |
 | accuracy-review/tags | 32 | 260 | 0 | 11% |
 | accuracy-review/translation | 4 | 24 | 0 | 14% |
-| accuracy/gloss | 409 | 761 | 21 | 34% |
+| accuracy/gloss | 448 | 842 | 21 | 34% |
 | accuracy/gloss/translation | 0 | 0 | 1 | 0% |
-| accuracy/notes | 449 | 1289 | 19 | 26% |
-| accuracy/tags | 8932 | 4664 | 1115 | 61% |
-| accuracy/translation | 251 | 494 | 10 | 33% |
+| accuracy/notes | 527 | 1477 | 19 | 26% |
+| accuracy/tags | 8964 | 4756 | 1115 | 60% |
+| accuracy/translation | 279 | 532 | 10 | 34% |
 | conjugation/conjugation | 0 | 0 | 1 | 0% |
 | furigana-screening/furigana | 0 | 1 | 0 | 0% |
 | furigana/furigana | 52 | 2281 | 4 | 2% |
 | furigana/tags | 1 | 0 | 0 | 100% |
 | screening/furigana | 0 | 515 | 0 | 0% |
 | self-check/furigana | 3 | 65 | 0 | 4% |
-| self-check/gloss | 102 | 177 | 11 | 35% |
-| self-check/notes | 73 | 282 | 2 | 20% |
-| self-check/tags | 464 | 536 | 96 | 42% |
-| self-check/translation | 71 | 151 | 5 | 31% |
+| self-check/gloss | 111 | 204 | 11 | 34% |
+| self-check/notes | 109 | 367 | 2 | 23% |
+| self-check/tags | 472 | 556 | 96 | 42% |
+| self-check/translation | 80 | 174 | 6 | 31% |
 

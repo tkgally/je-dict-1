@@ -1934,6 +1934,33 @@ co-equal gloss — is already with the curator.
 - **06163 取り締まる** sense 2 is now marked old-fashioned; its examples are period-flavoured by design (no action).
 - **The ご飯 words**: 昼ご飯 02950 and 夜ご飯 12332 are informal while 朝ご飯 and 晩ご飯 are neutral; one consistent decision.
 
+## Harvested 2026-10-12
+
+From observations 2026-10-05 to 2026-10-12. Thirty audio-reported furigana errors were fixed in the
+harvest run itself (routine_2026-10-12_014); the lines below are what is left.
+
+- **11062 空く ex4**: お腹が空いた is read すいた, so the example belongs under すく, not あく; move or replace it.
+- **10054 控える**: missing the sense "to make a note of" (電話番号を控える, メモを控える).
+- **14297 軽やか**: the headword reading かるやか looks wrong (standard かろやか); a reading change renames the entry (curator).
+- **12698 悪名高い / 悪名**: 悪名高い is usually あくみょうだかい; the entry reads 悪名 as あくめい (curator).
+- **12930 / 30009 四番**: the cleanup hitter is usually よばん; should 30009 mention it? (curator).
+- **20142 一味違う** (ひとあじちがう?) and **20226 役立たず** (やくたたず?): headword readings, with the curator.
+- **19661 施術**: せじゅつ is the more common reading; consider giving it first.
+- **14008 ex3** 数百機 should read すうひゃっき and **14369 ex3** 百分 ひゃっぷん: both split across inline links, so a hand fix must unlink first.
+- **11030 ex5** 三十セーブ and **13064 ex3** 二十ページ: さんじゅっ / にじゅっ are the spoken forms; optional.
+- **13984 ex6** 罪人 in a Bible sentence is usually つみびと.
+- **14706 ex6** 鬱とした天気 looks wrong (鬱陶しい天気?).
+- **15271 農作物**: mention the reading のうさくもつ.
+- **16961 年頃 ex5** 五十歳年頃に見える is unnatural.
+- **17545 上向く**: examples 上を向く read うえ, not うわ; fix the furigana or the examples.
+- **18069 茶店**: in the slang sense, should it be written サテン?
+- **18245 裏面**: everyday "back of a form" is often うらめん; mention it.
+- **18361 牌**: standalone 牌 may want はい or katakana パイ.
+- **03382 対(たい)**: sense 1 "pair" belongs to 対(つい) 00411; moving it restructures a core entry (curator).
+- **03915 為す**: sense 2 is 成す, which has no entry (curator).
+- **07663 ちょくちょく**: めったに has its に linked to the particle.
+- **09352 / 16740 ため口 / タメ口**: duplicate pair, in needs_curator.txt.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
