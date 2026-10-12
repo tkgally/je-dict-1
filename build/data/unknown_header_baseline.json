@@ -1,24 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-12T20:04:43Z",
+  "generated": "2026-10-12T20:14:38Z",
   "headers": {
-    "08788_matahara": [
-      "EXAMPLES OF マタハラ",
-      "HARASSMENT VOCABULARY"
-    ],
-    "08789_esudiijiizu": [
-      "THE 17 GOALS"
-    ],
-    "08790_enupiioo": [
-      "NPO IN JAPAN"
-    ],
-    "08792_aiootii": [
-      "INDUSTRY APPLICATION",
-      "TECHNOLOGY TERM"
-    ],
-    "08796_ritsuiito": [
-      "SOCIAL MEDIA TERM"
-    ],
     "08797_kyasshubakku": [
       "CONSUMER PROMOTION"
     ],
