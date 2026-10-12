@@ -1,59 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-12T13:13:56Z",
+  "generated": "2026-10-12T14:10:05Z",
   "headers": {
-    "08129_akutori": [
-      "THE UTENSIL"
-    ],
-    "08131_sushioke": [
-      "CARE",
-      "MATERIAL"
-    ],
-    "08134_sukuiami": [
-      "KITCHEN USE"
-    ],
-    "08137_kopiiyoushi": [
-      "COMMON SIZES IN JAPAN"
-    ],
-    "08140_hippuhoppu": [
-      "FOUR ELEMENTS"
-    ],
-    "08141_pikku": [
-      "TYPES BY MATERIAL",
-      "TYPES BY THICKNESS"
-    ],
-    "08143_tokushitsu": [
-      "SENSE 1 - PROS AND CONS",
-      "SENSE 2 - SPORTS (GOAL DIFFERENCE)"
-    ],
-    "08146_baromeetaa": [
-      "SENSE 1 - FIGURATIVE (common)",
-      "SENSE 2 - LITERAL (technical)"
-    ],
-    "08147_rifu": [
-      "MUSIC CONTEXT"
-    ],
-    "08154_kewashii": [
-      "SENSE 1 - STEEP",
-      "SENSE 2 - HARSH/STERN"
-    ],
-    "08157_ogoru": [
-      "INFORMAL KANJI"
-    ],
-    "08159_fukubukuro": [
-      "MODERN VARIATIONS"
-    ],
-    "08160_omake": [
-      "SENSE 1 - BONUS",
-      "SENSE 2 - IN ADDITION"
-    ],
-    "08162_oomori": [
-      "RELATED SERVING SIZES"
-    ],
-    "08165_minshuku": [
-      "MEAL OPTIONS",
-      "RELATED ACCOMMODATION TYPES"
-    ],
     "08178_kakusan": [
       "SENSE 1 - SCIENCE",
       "SENSE 2 - GENERAL SPREAD"
