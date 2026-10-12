@@ -105,6 +105,11 @@
       "sense_number": 2,
       "gloss": "short circuit",
       "explanation": "An electrical short circuit, or the act of short-circuiting."
+    },
+    {
+      "sense_number": 3,
+      "gloss": "shortstop (baseball)",
+      "explanation": "The infield position between second and third base, or the player who plays it. Short for ショートストップ."
     }
   ],
   "examples": [
@@ -167,9 +172,39 @@
       "sense_numbers": [
         2
       ]
+    },
+    {
+      "id": "10951_shooto_ex7",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦で→で：00502_de⟧ショート⟦を→を：00422_wo⟧⟦{守|まも}っている→守る：01986_mamoru⟧。",
+      "english": "He plays shortstop for the team.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "10951_shooto_ex8",
+      "japanese": "ショート⟦が→が：00051_ga⟧ゴロ⟦を→を：00422_wo⟧⟦{捕|と}って→捕る：28715_toru⟧{一塁|いちるい}⟦に→に：00314_ni⟧⟦{投|な}げた→投げる：01135_nageru⟧。",
+      "english": "The shortstop fielded the grounder and threw to first.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
+    },
+    {
+      "id": "10951_shooto_ex9",
+      "japanese": "⟦{高校|こうこう}→高校：01083_koukou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧ショートだった⟦が→が：00051_ga⟧、⟦プロ→プロ：03871_puro⟧⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧セカンド⟦に→に：00314_ni⟧⟦{転向|てんこう}→転向：19314_tenkou⟧⟦した→する：00392_suru⟧。",
+      "english": "He was a shortstop in high school but switched to second base after turning pro.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\nSense 1:\n- ショートヘア: short hair\n- ショートカット: short haircut (note: not used for computer shortcuts as in English)\n- ショートケーキ: shortcake (Japanese-style strawberry sponge cake)\n- ショートパンツ: shorts\n- ショート⟦フィルム→フィルム：02951_firumu⟧: short film\n\nSense 2:\n- ショート⟦する→する：00392_suru⟧: to short-circuit\n- ショート⟦{回路|かいろ}→回路：12038_kairo⟧: short circuit\n\nWATCH OUT:\nJapanese ショートケーキ refers to a strawberry sponge cake with whipped cream, which is different from what \"shortcake\" means in American English (a biscuit-based dessert).\n\nショートカット in Japanese typically means a short hairstyle for women, not a keyboard shortcut or a shorter route.",
+  "notes": "COMMON COLLOCATIONS (sense 1, short):\n- ショートヘア: short hair\n- ショートカット: a short haircut; also a computer shortcut (ショートカットキー)\n- ショートケーキ: shortcake (Japanese-style strawberry sponge cake)\n- ショートパンツ: shorts\n- ショート⟦フィルム→フィルム：02951_firumu⟧: short film\n\nCOMMON COLLOCATIONS (sense 2, short circuit):\n- ショート⟦する→する：00392_suru⟧: to short-circuit\n- ショート⟦{回路|かいろ}→回路：12038_kairo⟧: short circuit\n\nCOMMON COLLOCATIONS (sense 3, baseball):\n- ショート⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to play shortstop\n- {遊撃手|ゆうげきしゅ}: the formal term for shortstop, used in newspapers\n\nWATCH OUT:\n- Japanese ショートケーキ refers to a strawberry sponge cake with whipped cream, which is different from what \"shortcake\" means in American English (a biscuit-based dessert).\n- ショートカット said of a person means a short haircut; for a shorter route, ⟦{近道|ちかみち}→近道：03118_chikamichi⟧ is the usual word.",
   "cross_references": [
     {
       "type": "related",
@@ -181,7 +216,7 @@
   ],
   "metadata": {
     "created": "2026-02-11T19:13:09Z",
-    "modified": "2026-09-24T21:17:55Z",
+    "modified": "2026-10-12T13:28:12Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -192,7 +227,9 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "appearance",
+        "electronics",
+        "sports"
       ],
       "verb_class": "suru",
       "transitivity": "intransitive"
