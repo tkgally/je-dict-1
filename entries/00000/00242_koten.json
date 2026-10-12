@@ -39,7 +39,7 @@
     },
     {
       "id": "00242_koten_ex3",
-      "japanese": "{源氏物語|げんじものがたり}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{古典|こてん}⟦の→の：09472_no⟧⟦{代表作|だいひょうさく}→代表作：09952_daihyousaku⟧⟦だ→だ：09496_da⟧。⟦{学校|がっこう}→学校：00055_gakkou⟧⟦でも→でも：00925_demo⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧。",
+      "japanese": "⟦{源氏物語|げんじものがたり}→源氏物語：31025_genjimonogatari⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{古典|こてん}⟦の→の：09472_no⟧⟦{代表作|だいひょうさく}→代表作：09952_daihyousaku⟧⟦だ→だ：09496_da⟧。⟦{学校|がっこう}→学校：00055_gakkou⟧⟦でも→でも：00925_demo⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧。",
       "english": "The Tale of Genji is a masterpiece of Japanese classical literature. We study it in school.",
       "notes": null,
       "has_audio": true,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{古典|こてん} refers to classical works or classics in literature, music, art, and other fields.\n\nCommon collocations:\n- {古典|こてん}⟦{文学|ぶんがく}→文学：01505_bungaku⟧ (classical literature)\n- {古典|こてん}⟦{音楽|おんがく}→音楽：00661_ongaku⟧ (classical music)\n- ⟦{古典的|こてんてき}→古典的：16845_kotenteki⟧ (classical, traditional)\n- {古典|こてん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (to read classics)\n\nIn Japanese education:\n- {古典|こてん} as a school subject refers to classical Japanese literature (文語文), including works like ⟦{源氏物語|げんじものがたり}→源氏物語：31025_genjimonogatari⟧ and ⟦{枕草子|まくらのそうし}→枕草子：31026_makuranosoushi⟧.\n\nRelated: ⟦クラシック→クラシック：03838_kurashikku⟧ (classical music, or anything classic in a Western context)",
+  "notes": "COMMON COLLOCATIONS:\n- {古典|こてん}⟦{文学|ぶんがく}→文学：01505_bungaku⟧: classical literature\n- {古典|こてん}⟦{音楽|おんがく}→音楽：00661_ongaku⟧: classical music\n- {古典|こてん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read the classics\n\nFORMS:\n- ⟦{古典的|こてんてき}→古典的：16845_kotenteki⟧: classical, traditional; also \"old-fashioned\" (⟦{古典的|こてんてき}→古典的：16845_kotenteki⟧な⟦{手口|てぐち}→手口：12756_teguchi⟧, a classic trick)\n\nCULTURAL NOTE:\n- As a high-school subject, {古典|こてん} covers ⟦{古文|こぶん}→古文：17172_kobun⟧ (classical Japanese, such as ⟦{源氏物語|げんじものがたり}→源氏物語：31025_genjimonogatari⟧ and ⟦{枕草子|まくらのそうし}→枕草子：31026_makuranosoushi⟧) and ⟦{漢文|かんぶん}→漢文：13398_kanbun⟧ (classical Chinese read as Japanese).\n\nSIMILAR WORDS:\n- ⟦クラシック→クラシック：03838_kurashikku⟧: the everyday word for Western classical music; {古典|こてん}⟦{音楽|おんがく}→音楽：00661_ongaku⟧ is more formal and can also mean traditional Japanese music.",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,18 @@
       "reading": "こもんじょ",
       "headword": "{古文書|こもんじょ}",
       "label": "ancient document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03838_kurashikku",
+      "reading": "くらしっく",
+      "headword": "クラシック",
+      "label": "the everyday word for Western classical…"
     }
   ],
   "metadata": {
     "created": "2026-01-13T11:15:03Z",
-    "modified": "2026-09-02T04:00:57Z",
+    "modified": "2026-10-12T18:22:47Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -102,7 +109,7 @@
       "politeness": "plain",
       "semantic": [
         "education",
-        "time-general"
+        "art"
       ]
     }
   }
