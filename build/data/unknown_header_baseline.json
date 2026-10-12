@@ -1,76 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-11T20:16:25Z",
+  "generated": "2026-10-12T01:47:27Z",
   "headers": {
-    "07872_katayoru": [
-      "NOUN FORM {偏|かたよ}り"
-    ],
-    "07874_houmuru": [
-      "LITERAL VS FIGURATIVE"
-    ],
-    "07876_tsukaikomu": [
-      "SENSE 1 - EMBEZZLEMENT",
-      "SENSE 2 - WEARING IN"
-    ],
-    "07880_omoteguchi": [
-      "CONTRAST WITH {裏口|うらぐち}"
-    ],
-    "07881_haikyuu": [
-      "FILM INDUSTRY"
-    ],
-    "07882_shea": [
-      "SENSE 1 - MARKET SHARE",
-      "SENSE 2 - SHARING"
-    ],
-    "07884_habakaru": [
-      "EUPHEMISTIC NOUN",
-      "NEGATIVE FORM MEANING"
-    ],
-    "07887_tenmei": [
-      "FAMOUS CONFUCIAN SAYING",
-      "PHILOSOPHICAL CONTEXT"
-    ],
-    "07888_bappon": [
-      "MOST COMMON FORM"
-    ],
-    "07903_asshou": [
-      "ANTONYM PAIRS",
-      "DEGREES OF VICTORY (from easiest to closest)"
-    ],
-    "07904_sekihai": [
-      "DEGREES OF DEFEAT (from heaviest to lightest)"
-    ],
-    "07905_noukou": [
-      "COVID-19 TERM",
-      "SENSE 1 (TASTE/TEXTURE)",
-      "SENSE 2 (PROBABILITY)"
-    ],
-    "07906_tanpaku": [
-      "SENSE 1 (TASTE)",
-      "SENSE 2 (PERSONALITY)"
-    ],
-    "07917_shiwake": [
-      "POLITICAL CONTEXT"
-    ],
-    "07919_shitazawari": [
-      "COMMON DESCRIPTIONS",
-      "COMMON WITH"
-    ],
-    "07923_zawameku": [
-      "COMPARISON WITH どよめく"
-    ],
-    "07924_aoru": [
-      "SENSE 1 (FANNING)",
-      "SENSE 2 (INCITING)",
-      "SENSE 3 (TAILGATING)"
-    ],
-    "07926_tsuchikau": [
-      "DIFFERENCE FROM SIMILAR VERBS"
-    ],
-    "07927_kikinagasu": [
-      "SENSE 1 (IGNORING)",
-      "SENSE 2 (BACKGROUND LISTENING)"
-    ],
     "07929_kikinogasu": [
       "CONTRAST WITH {聞|き}き{流|なが}す",
       "SENSE 1 (ACCIDENTAL)",
@@ -3688,9 +3619,6 @@
     ],
     "27308_supeedo": [
       "FOUR CARD SUITS (Japanese)"
-    ],
-    "27312_doresukoodo": [
-      "COMMON DRESS CODE LABELS IN JAPAN"
     ],
     "27317_fudanzukai": [
       "SIMILAR PHRASES"
