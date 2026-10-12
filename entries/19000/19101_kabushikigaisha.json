@@ -35,7 +35,7 @@
     },
     {
       "id": "19101_kabushikigaisha_ex3",
-      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧{株式会社|かぶしきがいしゃ}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{資本金|しほんきん}⟦が→が：00051_ga⟧{一円|いちえん}⟦から→から：00504_kara⟧⟦{可能|かのう}→可能：00175_kanou⟧になった。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧{株式会社|かぶしきがいしゃ}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{資本金|しほんきん}→資本金：31185_shihonkin⟧⟦が→が：00051_ga⟧{一円|いちえん}⟦から→から：00504_kara⟧⟦{可能|かのう}→可能：00175_kanou⟧になった。",
       "english": "In Japan, it has become possible to create a corporation with as little as one yen in capital.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Often abbreviated as ({株|かぶ}) in written contexts, placed either before or after the company name: {株式会社|かぶしきがいしゃ}トヨタ or トヨタ{株式会社|かぶしきがいしゃ}. The position (before or after) is determined by the company's official registration. Other Japanese corporate forms include {合同会社|ごうどうがいしゃ} (LLC, abbreviated ⟦{合|ごう}→合：27628_gou⟧), {合資会社|ごうしがいしゃ} (limited partnership), and {合名会社|ごうめいがいしゃ} (general partnership). Colloquially often shortened to ⟦{株|かぶ}→株：02592_kabu⟧ when referring to shares or the stock market.",
+  "notes": "WRITING:\nWritten ({株|かぶ}) or ㈱ in company names, before or after the name according to the company's registration: {株式会社|かぶしきがいしゃ}〇〇 ({前株|まえかぶ}) or 〇〇{株式会社|かぶしきがいしゃ} ({後株|あとかぶ}). Getting the position right matters on envelopes and invoices.\n\nRELATED WORDS:\n- {合同会社|ごうどうがいしゃ}: limited liability company (LLC)\n- ⟦{有限会社|ゆうげんがいしゃ}→有限会社：27499_yuugengaisha⟧: limited company — no new ones since 2006, but many remain\n- ⟦{株|かぶ}→株：02592_kabu⟧: a share (of stock) — a separate word, not a short form of this one",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -60,6 +60,13 @@
       "reading": "ゆうげんがいしゃ",
       "headword": "{有限会社|ゆうげんがいしゃ}",
       "label": "limited liability company"
+    },
+    {
+      "type": "related",
+      "target_id": "02592_kabu",
+      "reading": "かぶ",
+      "headword": "{株|かぶ}",
+      "label": "a share"
     }
   ],
   "metadata": {
@@ -71,13 +78,13 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "work"
+        "business"
       ],
       "domain": [
         "business"
       ]
     },
     "created": "2026-03-24T09:39:14Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-10-12T14:19:26Z"
   }
 }
