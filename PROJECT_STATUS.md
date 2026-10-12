@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-12 (Routine v3: new-entries — 20 New Entries, IDs 31940–31959)
+
+Twenty internal-closure candidates: 従属節 (主節), 未来永劫 (vs 永遠に, 永久に), 善玉菌 (悪玉菌), 無形文化遺産 (vs 世界遺産, 無形文化財), 問答 (two senses; 問答無用, 禅問答, 押し問答), 論語 (proper noun; sayings still in use), 所狭し (所狭しと), 大物 (two senses: big shot, big item/catch), エンディング, 斉唱 (vs 合唱), 技術力, 生産量, 浮世 (two senses; 憂き世 origin), 一人称 (私/僕/俺/うち), 反逆 (vs 反抗, 謀反), 長者 (億万長者, わらしべ長者), 入館 (vs 入場), 回答者 (WATCH OUT 回答/解答), 片足, 躍る (two senses; WRITING 躍る vs 踊る). Cross-reference harvest wrote 47 references on 35 entries. Self-check skipped (OpenRouter budget spent).
+
 ### 2026-10-12 (Routine v3: candidates — 10 Internal-Closure Candidates)
 
 The noentry source is empty, so this restock ran a SudachiPy scan of the unlinked text in all examples for noun, verb and adjective lemmas with no entry, then a duplicate probe on about 95 of them. Most hits were variant spellings (怪我/けが, 引っ越し/引越し, 子ども/子供) or words split out of phrase entries that already exist (思いがけない, 人見知り, 紆余曲折). Ten survived: 技術力, 生産量, 浮世, 一人称, 反逆, 長者, 入館, 回答者, 片足, 躍る, each with "seen in entry". Queue 60 → 70.
@@ -65,8 +69,3 @@ Twenty internal-closure candidates in queue order: へたり込む (vs 座り込
 ### 2026-10-11 (Routine v3: new-entries — 10 New Entries, IDs 31900–31909)
 
 Ten internal-closure candidates in queue order, a short last cycle of the run: 法然 (専修念仏, 知恩院), 菅原道真 (天神, 天満宮, 飛梅), 祇園精舎 (平家物語 opening; WATCH OUT Kyoto's 祇園), 時効 (two senses: legal, and もう時効だから言うけど; 2010 abolition for murder), 忠誠心 (vs 忠誠), 事情聴取 (vs 取り調べ, 聞き込み), 創出 (雇用創出), 船乗り (vs 船員), 新婚旅行 (vs ハネムーン), 上市 (pharma launch; WATCH OUT 上司). New kanji 菅 added to the kanji index. Self-check skipped (daily OpenRouter cap spent).
-
-### 2026-10-11 (Routine v3: new-entries — 20 New Entries, IDs 31880–31899)
-
-Twenty internal-closure candidates that existing entries already use, in queue order: 出廷 (vs 出頭), 殺処分 (official term; 殺処分ゼロ), 横行 (of wrongdoing; vs はびこる/蔓延), 糠床, 土砂災害 (土石流/崖崩れ/地滑り), 明治神宮, 親方 (two senses: master craftsman, sumo stable master; 親方日の丸), 盗塁, 乾季 (also 乾期; WATCH OUT 換気/寒気), 答辞 (vs 送辞), 金沢, 婦人科, 武勇伝, 収入印紙, 御利益 (りやく vs 利益 りえき), 重鎮 (vs 大御所/第一人者), 備長炭, 物産展, 目先 (two senses; 目先の利益, 目先が利く), 宗派. The candidate 福引 was dropped as a duplicate of 福引き (17826). The conjugation generator also filled in tables missing from four する-nouns of an earlier run (大勝, 就労, 変色, 大成). Self-check clean.
-
