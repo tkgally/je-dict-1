@@ -35,7 +35,7 @@
     },
     {
       "id": "14253_chouhou_ex3",
-      "japanese": "{冷戦|れいせん}⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦が→が：00051_ga⟧{諜報|ちょうほう}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧⟦{莫大|ばくだい}→莫大：03700_bakudai⟧な⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{費|つい}やしていた→費やす：10424_tsuiyasu⟧。",
+      "japanese": "⟦{冷戦|れいせん}→冷戦：31609_reisen⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦が→が：00051_ga⟧{諜報|ちょうほう}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧⟦{莫大|ばくだい}→莫大：03700_bakudai⟧な⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{費|つい}やしていた→費やす：10424_tsuiyasu⟧。",
       "english": "During the Cold War era, countries spent enormous budgets on intelligence activities.",
       "notes": null,
       "has_audio": true,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "{諜報|ちょうほう} refers to espionage or intelligence-gathering, especially in a military or political context.\n\nCOMMON COLLOCATIONS:\n- {諜報|ちょうほう}⟦{活動|かつどう}→活動：00201_katsudou⟧ (espionage activities)\n- {諜報|ちょうほう}⟦{機関|きかん}→機関：02630_kikan⟧ (intelligence agency)\n- {諜報|ちょうほう}{員|いん} (spy, intelligence agent)\n- {諜報|ちょうほう}⟦{戦|せん}→〜戦：28346_sen⟧ (intelligence war)\n\nThe word carries a serious, formal tone and is commonly encountered in news, historical writing, and spy fiction. It is distinct from ⟦スパイ→スパイ：18236_supai⟧, which is the more casual, everyday word for a spy.",
-  "cross_references": [],
+  "notes": "REGISTER:\nSerious and formal; found in news, historical writing and spy fiction.\n\nCOMMON COLLOCATIONS:\n- {諜報|ちょうほう}⟦{活動|かつどう}→活動：00201_katsudou⟧: espionage activities\n- {諜報|ちょうほう}⟦{機関|きかん}→機関：02630_kikan⟧: intelligence agency\n- {諜報|ちょうほう}{員|いん}: spy, intelligence agent\n- {諜報|ちょうほう}⟦{戦|せん}→〜戦：28346_sen⟧: intelligence war\n\nSIMILAR WORDS:\n- ⟦スパイ→スパイ：18236_supai⟧: spy — the everyday word, mainly for the person; {諜報|ちょうほう} names the activity",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18236_supai",
+      "reading": "すぱい",
+      "headword": "スパイ",
+      "label": "spy"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T07:57:20Z",
-    "modified": "2026-09-02T04:01:36Z",
+    "modified": "2026-10-13T07:39:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -58,7 +66,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "military",
+        "politics"
       ]
     }
   }
