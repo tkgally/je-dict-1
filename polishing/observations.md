@@ -1571,3 +1571,5 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-13 [entry] 21470: audio checks heard りゅうこうして for {流行|りゅうこう}っている in 21470_autaa_ex2; the furigana should be {流行|はや}っている.
 - 2026-10-13 [entry] 21540: audio checks heard しんしへい for {新|しん}しい{紙幣|しへい} in 21540_zugara_ex3; the furigana should be {新|あたら}しい.
 - 2026-10-13 [entry] 01795: the 痛み entry's examples include 果物の傷みが早い and 床の傷みが激しい, which are 傷み (damage, spoilage), a different word; move or replace them once 傷み has an entry (candidate added).
+- 2026-10-13 [entry] 21850: audio checks heard たてよこ for {縦横|じゅうおう} in 21850_juuou_ex1 (縦横十メートルの部屋); dimensions are read たてよこ, so this example belongs to a たてよこ sense, not じゅうおう; fix the furigana or replace the example.
+- 2026-10-13 [entry] 21881: audio checks stumbled on {私事|しじ} in 21881_shiji_ex2 (私事ではございますが、この度結婚いたしました); this set phrase is normally read わたくしごと; check the reading.
