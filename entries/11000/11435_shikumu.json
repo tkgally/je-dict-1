@@ -140,10 +140,10 @@
     },
     {
       "id": "11435_shikumu_ex4",
-      "japanese": "⟦{時計|とけい}→時計：00677_tokei⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧{仕組|しく}む。",
-      "english": "To construct the mechanism inside a clock.",
+      "japanese": "⟦{巧|たく}み→巧み：07153_takumi⟧⟦に→に：00314_ni⟧{仕組|しく}まれた⟦{装置|そうち}→装置：03318_souchi⟧。",
+      "english": "A cleverly constructed device.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         2
       ]
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "{仕組|しく}む means to devise, plot, or set up a mechanism. Sense 1 (plotting) often carries a negative connotation of secrecy or manipulation.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nASPECT (ている):\n{仕組|しく}んで⟦いる→いる：00495_iru⟧ can mean either \"has set up\" (resulting state) or \"is plotting\" (ongoing). The passive {仕組|しく}まれて⟦いる→いる：00495_iru⟧ (\"is rigged/staged\") is very common.\n\nCOMMON PATTERNS:\n- ⟦{罠|わな}→罠：13816_wana⟧⟦を→を：00422_wo⟧{仕組|しく}む (to set a trap)\n- ⟦{陰謀|いんぼう}→陰謀：10887_inbou⟧⟦を→を：00422_wo⟧{仕組|しく}む (to hatch a conspiracy)\n- {仕組|しく}まれた⟦{事件|じけん}→事件：01568_jiken⟧ (a staged incident)\n- ～よう⟦に→に：00314_ni⟧{仕組|しく}む (to set things up so that ~)\n\nRELATED WORDS:\nThe noun ⟦{仕組|しく}み→仕組み：07168_shikumi⟧ (mechanism, system, structure) is derived from this verb and is extremely common in everyday Japanese.",
-  "cross_references": [],
+  "notes": "Sense 1 (plotting) usually implies secrecy or manipulation.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nASPECT (ている):\n{仕組|しく}んで⟦いる→いる：00495_iru⟧ can mean either \"has set up\" (resulting state) or \"is plotting\" (ongoing). The passive {仕組|しく}まれて⟦いる→いる：00495_iru⟧ (\"is rigged/staged\") is very common.\n\nCOMMON PATTERNS:\n- ⟦{罠|わな}→罠：13816_wana⟧⟦を→を：00422_wo⟧{仕組|しく}む (to set a trap)\n- ⟦{陰謀|いんぼう}→陰謀：10887_inbou⟧⟦を→を：00422_wo⟧{仕組|しく}む (to hatch a conspiracy)\n- {仕組|しく}まれた⟦{事件|じけん}→事件：01568_jiken⟧ (a staged incident)\n- ～よう⟦に→に：00314_ni⟧{仕組|しく}む (to set things up so that ~)\n\nSIMILAR WORDS:\n- {企|たくら}む: to plot, always with bad intent; {仕組|しく}む stresses the careful arranging of events\n\nRELATED WORDS:\n- ⟦{仕組|しく}み→仕組み：07168_shikumi⟧: mechanism, system, structure; the derived noun, far commoner than the verb",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07168_shikumi",
+      "reading": "しくみ",
+      "headword": "{仕組|しく}み",
+      "label": "mechanism, system, structure"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T12:22:00Z",
-    "modified": "2026-09-02T04:01:25Z",
+    "modified": "2026-10-13T00:44:04Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -185,7 +193,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "cognition",
+        "creation"
       ]
     }
   }
