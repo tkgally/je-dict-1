@@ -1565,3 +1565,8 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-13 [entry] 20854: audio checks heard よくぶかい for {欲深|よくふか}い in 20854_yokufukai_ex1–ex4; check the reading (よくぶかい is the commoner reading; the entry is よくふかい throughout).
 - 2026-10-13 [entry] 20889: audio checks heard みつぼし for {三|み}つ{星|ほし} in 20889_yoyakukonnan_ex3; check the furigana ({星|ぼし}). (fixed in routine #006)
 - 2026-10-13 [entry] 20902: audio checks heard すき for {好|す}み in 20902_hosome_ex2 (パスタは細めが好みです); the furigana should be {好|この}み. (fixed in routine #006)
+- 2026-10-13 [entry] 21164: audio checks heard きます for {来|く}ます in 21164_omise_ex3 (よく来ます); the furigana should be {来|き}ます.
+- 2026-10-13 [entry] 21206: audio checks heard よくげつばらい for {翌月|よくげつ}{払|はら}い in 21206_yokugetsu_ex2; check the furigana ({払|ばら}い, rendaku).
+- 2026-10-13 [entry] 21226: audio checks heard きゅうむ / いそがれ for {急|きゅう}がれている in 21226_koujouteki_ex3; the furigana should be {急|いそ}がれている.
+- 2026-10-13 [entry] 21470: audio checks heard りゅうこうして for {流行|りゅうこう}っている in 21470_autaa_ex2; the furigana should be {流行|はや}っている.
+- 2026-10-13 [entry] 21540: audio checks heard しんしへい for {新|しん}しい{紙幣|しへい} in 21540_zugara_ex3; the furigana should be {新|あたら}しい.
