@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-13 (Routine v3: new-entries — 20 New Entries, IDs 31990–32009)
+
+All twenty are internal-closure candidates (words already used in other entries): ビート板, 酔い (two senses: drunkenness, motion sickness), 傷み (vs 痛み), 法師, 弱小, 新鋭, 収蔵 (vs 所蔵), 構内 (vs 校内), 集積回路, 集積 (vs 蓄積), 原子核, 生体, 二塁, 一級 (two senses; downward grade numbering explained), 両用 (vs 兼用), 刷る, 切らす (two senses; pair 切れる), 陰り, 火気, 両軍. 企む was dropped from the queue as a duplicate of たくらむ (07676). The new ビート板 entry fixes 09261's link, which had pointed ビート at "beat (music)". Self-check skipped: daily OpenRouter budget spent.
+
 ### 2026-10-13 (Routine v3: candidates — 22 Internal-Closure Candidates)
 
 Every one is a word used in some entry's example but not defined anywhere: 酔い, 傷み, 法師, 弱小, 新鋭, 収蔵, 構内, 集積, 集積回路, 原子核, 生体, 二塁, 一級, 両用, 刷る, 両軍, 言行, 切らす, 陰り, 初志貫徹, 大口, 火気. About 130 words were proposed from a scan of the examples' unlinked text. Most were dropped as idioms, proper nouns or compounds that already have entries (the scan sees them inside their own entry's examples), as kanji spellings of kana headwords, or as free compounds. Queue 23 → 45.
@@ -66,6 +70,3 @@ Five internal-closure candidates (善光寺 with 牛に引かれて善光寺参�
 
 Twenty internal-closure candidates: 従属節 (主節), 未来永劫 (vs 永遠に, 永久に), 善玉菌 (悪玉菌), 無形文化遺産 (vs 世界遺産, 無形文化財), 問答 (two senses; 問答無用, 禅問答, 押し問答), 論語 (proper noun; sayings still in use), 所狭し (所狭しと), 大物 (two senses: big shot, big item/catch), エンディング, 斉唱 (vs 合唱), 技術力, 生産量, 浮世 (two senses; 憂き世 origin), 一人称 (私/僕/俺/うち), 反逆 (vs 反抗, 謀反), 長者 (億万長者, わらしべ長者), 入館 (vs 入場), 回答者 (WATCH OUT 回答/解答), 片足, 躍る (two senses; WRITING 躍る vs 踊る). Cross-reference harvest wrote 47 references on 35 entries. Self-check skipped (OpenRouter budget spent).
 
-### 2026-10-12 (Routine v3: candidates — 10 Internal-Closure Candidates)
-
-The noentry source is empty, so this restock ran a SudachiPy scan of the unlinked text in all examples for noun, verb and adjective lemmas with no entry, then a duplicate probe on about 95 of them. Most hits were variant spellings (怪我/けが, 引っ越し/引越し, 子ども/子供) or words split out of phrase entries that already exist (思いがけない, 人見知り, 紆余曲折). Ten survived: 技術力, 生産量, 浮世, 一人称, 反逆, 長者, 入館, 回答者, 片足, 躍る, each with "seen in entry". Queue 60 → 70.
