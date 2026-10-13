@@ -1,104 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-13T12:29:01Z",
+  "generated": "2026-10-13T13:27:44Z",
   "headers": {
-    "09318_misuru": [
-      "SIMILAR LOANWORD VERBS"
-    ],
-    "09340_minaoshi": [
-      "SENSE 1 - REVIEW",
-      "SENSE 2 - REEVALUATION"
-    ],
-    "09341_urikomi": [
-      "SENSE 1 (sales)",
-      "SENSE 2 (self-promotion)"
-    ],
-    "09345_tadoritsuku": [
-      "DIFFERENCE FROM {着|つ}く"
-    ],
-    "09479_seefu": [
-      "BASEBALL USAGE"
-    ],
-    "09482_picchaa": [
-      "RELATED BASEBALL POSITIONS"
-    ],
-    "09483_rannaa": [
-      "BASEBALL USAGE (SENSE 1)"
-    ],
-    "09485_desu": [
-      "PLAIN EQUIVALENTS"
-    ],
-    "09489_biora": [
-      "STRING FAMILY (high to low)"
-    ],
-    "09491_choume": [
-      "ADDRESS ORDER (large to small)"
-    ],
-    "09492_sozai": [
-      "SENSE 1 - PHYSICAL MATERIAL",
-      "SENSE 2 - SOURCE MATERIAL"
-    ],
-    "09493_seikei": [
-      "SENSE 1 - COSMETIC SURGERY",
-      "SENSE 2 - ORTHOPEDICS"
-    ],
-    "09495_sanzui": [
-      "KANJI WITH さんずい"
-    ],
-    "09496_da": [
-      "POLITE EQUIVALENT"
-    ],
-    "09497_na": [
-      "CONTRAST WITH だ"
-    ],
-    "09499_shokugo": [
-      "RELATED TIME-OF-MEAL WORDS"
-    ],
-    "09501_node": [
-      "CONTRAST WITH から"
-    ],
-    "09502_rashii": [
-      "CONTRAST WITH SIMILAR FORMS"
-    ],
-    "09503_nido": [
-      "RELATED COUNTING WORDS"
-    ],
-    "09511_sei": [
-      "CONFUSION ALERT"
-    ],
-    "09518_ryoute": [
-      "SIMILAR {両|りょう}〜 COMPOUNDS"
-    ],
-    "09521_hatsumeika": [
-      "SIMILAR {家|か} COMPOUNDS"
-    ],
-    "09523_shinsaku": [
-      "RELATED {作|さく} COMPOUNDS"
-    ],
-    "09542_tachiirikinshi": [
-      "SIMILAR SIGN EXPRESSIONS"
-    ],
-    "09554_shiyouchuu": [
-      "RELATED 〜{中|ちゅう} EXPRESSIONS"
-    ],
-    "09555_koshouchuu": [
-      "SIMILAR 〜{中|ちゅう} EXPRESSIONS"
-    ],
-    "09557_shinagire": [
-      "COMPARISON WITH {売|う}り{切|き}れ"
-    ],
-    "09561_kigo": [
-      "SEASONAL CATEGORIES"
-    ],
-    "09562_saibankan": [
-      "COURTROOM ROLES"
-    ],
-    "09564_toukyou": [
-      "ADMINISTRATIVE TERMS"
-    ],
-    "09569_haijin": [
-      "FAMOUS {俳人|はいじん}"
-    ],
     "09708_monshinhyou": [
       "TYPICAL QUESTIONS"
     ],
@@ -283,9 +186,6 @@
     "10867_gorigori": [
       "SENSE 1 (grinding/scraping)",
       "SENSE 2 (aggressively/hardcore)"
-    ],
-    "11087_choueki": [
-      "NOTE ON SENTENCING"
     ],
     "11091_toushitsu": [
       "NUTRITION LABEL NOTE"
