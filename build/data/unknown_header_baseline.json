@@ -1,95 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-12T20:14:38Z",
+  "generated": "2026-10-13T01:18:08Z",
   "headers": {
-    "08797_kyasshubakku": [
-      "CONSUMER PROMOTION"
-    ],
-    "08798_pointokangen": [
-      "GOVERNMENT PROGRAM",
-      "JAPANESE CONSUMER CULTURE"
-    ],
-    "08799_fandeeshon": [
-      "MAKEUP TERM",
-      "RELATED MAKEUP TERMS"
-    ],
-    "08800_rippu": [
-      "BEAUTY TERM",
-      "TYPES OF LIP PRODUCTS"
-    ],
-    "08801_dansaa": [
-      "PROFESSION",
-      "TYPES OF DANCERS"
-    ],
-    "08802_tapiru": [
-      "SLANG/TREND"
-    ],
-    "08803_baasu": [
-      "HIP-HOP CONTEXT",
-      "SONG STRUCTURE TERMS"
-    ],
-    "08805_ahaha": [
-      "EMBARRASSED/NERVOUS",
-      "LAUGHTER ONOMATOPOEIA",
-      "NEGATIVE",
-      "OPEN/HEARTY",
-      "QUIET/RESTRAINED"
-    ],
-    "08806_ufufu": [
-      "COMPARISON WITH OTHER LAUGHS",
-      "IN MANGA/ANIME"
-    ],
-    "08807_ehehe": [
-      "IN TEXT/MANGA"
-    ],
-    "08808_meshita": [
-      "HIERARCHY VOCABULARY",
-      "KEIGO CONTEXT"
-    ],
-    "08810_kiritori": [
-      "DIGITAL/COMPUTING",
-      "PHYSICAL"
-    ],
-    "08812_oioi": [
-      "RELATED CRYING EXPRESSIONS"
-    ],
-    "08814_baadowocchingu": [
-      "POPULAR LOCATIONS"
-    ],
-    "08816_tisshu": [
-      "JAPANESE TISSUE CULTURE"
-    ],
-    "08817_tanpakushitsu": [
-      "FITNESS CONTEXT",
-      "HIGH-PROTEIN FOODS"
-    ],
-    "08819_shichifukujin": [
-      "THE SEVEN GODS"
-    ],
-    "08821_rifoomu": [
-      "CLOTHING ALTERATION",
-      "HOME RENOVATION"
-    ],
-    "08822_boke": [
-      "AGING (SENSE 3)",
-      "COMEDY (SENSE 2)",
-      "PHOTOGRAPHY (SENSE 1)"
-    ],
-    "08823_tiikeejii": [
-      "FOOD SAFETY",
-      "THE DISH"
-    ],
-    "08824_shiibui": [
-      "EXAMPLE CREDIT FORMAT"
-    ],
-    "08826_diijee": [
-      "TYPES OF DJS"
-    ],
-    "08827_manyoushuu": [
-      "CONTENTS",
-      "HISTORICAL SIGNIFICANCE",
-      "MODERN RELEVANCE"
-    ],
     "08851_ooesu": [
       "COMMON OS NAMES IN JAPAN"
     ],
@@ -548,9 +460,6 @@
     "10867_gorigori": [
       "SENSE 1 (grinding/scraping)",
       "SENSE 2 (aggressively/hardcore)"
-    ],
-    "11027_sooseeji": [
-      "ソーセージ VS ウインナー"
     ],
     "11045_topikku": [
       "CONTRAST WITH {話題|わだい}"
@@ -3331,9 +3240,6 @@
     ],
     "28881_owabisuru": [
       "REGISTER LADDER (least to most polite)"
-    ],
-    "28884_shin": [
-      "NOTES ON READING"
     ],
     "28962_tanabatakazari": [
       "COMMON COMPONENTS"
