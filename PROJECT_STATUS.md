@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-13 (Routine v3: candidates — 22 Internal-Closure Candidates)
+
+Every one is a word used in some entry's example but not defined anywhere: 酔い, 傷み, 法師, 弱小, 新鋭, 収蔵, 構内, 集積, 集積回路, 原子核, 生体, 二塁, 一級, 両用, 刷る, 両軍, 言行, 切らす, 陰り, 初志貫徹, 大口, 火気. About 130 words were proposed from a scan of the examples' unlinked text. Most were dropped as idioms, proper nouns or compounds that already have entries (the scan sees them inside their own entry's examples), as kanji spellings of kana headwords, or as free compounds. Queue 23 → 45.
+
 ### 2026-10-13 (Routine v3: new-entries — 19 New Entries, IDs 31971–31989)
 
 No internal-closure candidates were left, so all nineteen came from the queue: 既約分数 (約分, 最大公約数), じゃなければ (two senses; vs でなければ, じゃないと), and seventeen proper nouns — 読売新聞, 表参道 (two senses: the Tokyo avenue and a shrine's main approach), 下北沢, 有馬温泉, 道後温泉, 卑弥呼, 平清盛, 正岡子規, 小林一茶, 与謝野晶子, 森鴎外 (new kanji 鴎, ID 02828), 古今和歌集, 羅生門, 吾輩は猫である, 走れメロス, 銀河鉄道の夜, 七人の侍. Self-check: accuracy reviewer clean; three kana-link flags (two kept, やれ in Issa's haiku unlinked and added as a candidate). Two wrong harvested cross-references (Soseki titles resolved to 心 and 坊っちゃん "young boy") reverted. Queue 40 → 22.
@@ -65,7 +69,3 @@ Twenty internal-closure candidates: 従属節 (主節), 未来永劫 (vs 永遠�
 ### 2026-10-12 (Routine v3: candidates — 10 Internal-Closure Candidates)
 
 The noentry source is empty, so this restock ran a SudachiPy scan of the unlinked text in all examples for noun, verb and adjective lemmas with no entry, then a duplicate probe on about 95 of them. Most hits were variant spellings (怪我/けが, 引っ越し/引越し, 子ども/子供) or words split out of phrase entries that already exist (思いがけない, 人見知り, 紆余曲折). Ten survived: 技術力, 生産量, 浮世, 一人称, 反逆, 長者, 入館, 回答者, 片足, 躍る, each with "seen in entry". Queue 60 → 70.
-
-### 2026-10-12 (Routine v3: new-entries — 10 New Entries, IDs 31930–31939)
-
-Ten internal-closure candidates, a short last cycle of the run: 黄身 (WATCH OUT 君/気味; 卵黄), 白内障 (WATCH OUT 緑内障), 売主 (vs 買主, 売り手), 隣家 (news word; お隣), 稜線 (vs 尾根), 平均寿命 (健康寿命), 書道家 (vs 書家, 習字), 文人 (文人画, 文人墨客), 頓着 (almost always negative; 無頓着), 波打つ (胸が波打つ, 波打ち際). New kanji 稜 added to the kanji index. Self-check clean.
