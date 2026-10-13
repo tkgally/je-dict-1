@@ -1,91 +1,7 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-13T07:15:46Z",
+  "generated": "2026-10-13T12:29:01Z",
   "headers": {
-    "08969_piiee": [
-      "RELATED SOCCER TERMS"
-    ],
-    "08970_eeshii": [
-      "SENSE 1 - AIR CONDITIONING",
-      "SENSE 2 - ALTERNATING CURRENT"
-    ],
-    "08971_aarutiiee": [
-      "RTA CATEGORIES"
-    ],
-    "08972_aiooesu": [
-      "RELATED APPLE SYSTEMS"
-    ],
-    "08974_waraisugi": [
-      "RELATED ～すぎ WORDS"
-    ],
-    "08980_senen": [
-      "CURRENCY",
-      "RELATED AMOUNTS"
-    ],
-    "08984_kitteshuushuu": [
-      "POPULAR JAPANESE STAMPS"
-    ],
-    "08987_shorudaabaggu": [
-      "WAYS TO WEAR"
-    ],
-    "08988_opereetingushisutemu": [
-      "MAJOR OPERATING SYSTEMS"
-    ],
-    "08991_bideogeemu": [
-      "SYNONYMS/RELATED TERMS"
-    ],
-    "08994_nebaru": [
-      "SENSE 1 - PERSISTENCE",
-      "SENSE 2 - STICKINESS"
-    ],
-    "09000_datsuzei": [
-      "CONTRAST WITH LEGAL TAX AVOIDANCE"
-    ],
-    "09067_houkai": [
-      "SENSE 1 (GENERAL COLLAPSE)",
-      "SENSE 2 (PHYSICS)"
-    ],
-    "09072_omomuki": [
-      "SENSE 1 (AESTHETIC QUALITY)",
-      "SENSE 2 (MEANING/INTENT)"
-    ],
-    "09082_gero": [
-      "ALTERNATIVES BY FORMALITY"
-    ],
-    "09088_hanakuso": [
-      "RELATED 〜くそ WORDS"
-    ],
-    "09096_nakimushi": [
-      "RELATED PERSONALITY WORDS",
-      "THE ～{虫|むし} PATTERN"
-    ],
-    "09106_anyo": [
-      "MILESTONE"
-    ],
-    "09261_ukiwa": [
-      "RELATED SWIMMING ITEMS"
-    ],
-    "09267_naiya": [
-      "INFIELD POSITIONS"
-    ],
-    "09272_chouyaku": [
-      "JUMPING EVENTS"
-    ],
-    "09278_riree": [
-      "TYPES OF RELAYS"
-    ],
-    "09279_kyuugi": [
-      "EXAMPLES OF {球技|きゅうぎ}"
-    ],
-    "09281_kirokubaitai": [
-      "EXAMPLES OF {記録媒体|きろくばいたい}"
-    ],
-    "09283_suishitsuosen": [
-      "RELATED ENVIRONMENTAL TERMS"
-    ],
-    "09290_dokkairyoku": [
-      "RELATED SKILLS"
-    ],
     "09318_misuru": [
       "SIMILAR LOANWORD VERBS"
     ],
@@ -367,16 +283,6 @@
     "10867_gorigori": [
       "SENSE 1 (grinding/scraping)",
       "SENSE 2 (aggressively/hardcore)"
-    ],
-    "11045_topikku": [
-      "CONTRAST WITH {話題|わだい}"
-    ],
-    "11056_kitaguchi": [
-      "OTHER ～{口|ぐち} COMPOUNDS",
-      "STATION EXIT SET"
-    ],
-    "11057_kakusha": [
-      "SIMILAR {各|かく} COMPOUNDS"
     ],
     "11087_choueki": [
       "NOTE ON SENTENCING"
@@ -754,9 +660,6 @@
     ],
     "13631_raito": [
       "ADJECTIVE USAGE"
-    ],
-    "13635_rinia": [
-      "CHUO SHINKANSEN"
     ],
     "13637_redi": [
       "NOTE ON レディース"
