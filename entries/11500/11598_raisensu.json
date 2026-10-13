@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "ライセンス VS {免許|めんきょ}／{資格|しかく}:\n⟦{免許|めんきょ}→免許：03808_menkyo⟧ is the standard Japanese word for official licenses (driver's license, medical license). ⟦{資格|しかく}→資格：02834_shikaku⟧ means qualification or certification. ライセンス is used more in business, software, and international contexts.\n\nCOMMON COLLOCATIONS:\n- ライセンス⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧: to obtain a license\n- ライセンス{契約|けいやく}: licensing agreement\n- ライセンス{料|りょう}: license fee, royalty\n- ライセンス⟦を→を：00422_wo⟧⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧: to renew a license\n- ライセンス⟦{生産|せいさん}→生産：01444_seisan⟧: licensed production/manufacturing",
-  "cross_references": [],
+  "notes": "SIMILAR WORDS:\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧: the standard word for official licenses (⟦{運転免許|うんてんめんきょ}→運転免許：15285_untenmenkyo⟧, {医師免許|いしめんきょ}); ライセンス is used for these only in some fields (a pilot's or a boxer's license)\n- ⟦{資格|しかく}→資格：02834_shikaku⟧: qualification, certification\n- ライセンス is the usual word for software licenses and for rights to use a brand or character\n\nCOMMON COLLOCATIONS:\n- ライセンス⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧: to obtain a license\n- ライセンス{契約|けいやく}: licensing agreement\n- ライセンス{料|りょう}: license fee, royalty\n- ライセンス⟦を→を：00422_wo⟧⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧: to renew a license\n- ライセンス⟦{生産|せいさん}→生産：01444_seisan⟧: licensed production/manufacturing",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03808_menkyo",
+      "reading": "めんきょ",
+      "headword": "{免許|めんきょ}",
+      "label": "the standard word for official licenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02834_shikaku",
+      "reading": "しかく",
+      "headword": "{資格|しかく}",
+      "label": "qualification, certification"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:49:11Z",
-    "modified": "2026-09-02T04:01:25Z",
+    "modified": "2026-10-13T00:44:04Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -58,7 +73,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "business",
+        "law"
       ],
       "domain": [
         "business"

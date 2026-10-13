@@ -4,12 +4,17 @@
   "headword": "チキン",
   "reading": "ちきん",
   "part_of_speech": "noun",
-  "gloss": "chicken",
+  "gloss": "chicken (as food); coward (slang)",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "chicken (meat, dish)",
       "explanation": "Chicken as a food or ingredient. In Japanese, チキン refers specifically to chicken as prepared food or a menu item, not to the live animal (which is {鶏|にわとり})."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "coward; chicken (slang)",
+      "explanation": "Slang for a timid or cowardly person, as in English \"chicken\". Informal and mildly insulting."
     }
   ],
   "examples": [
@@ -42,9 +47,39 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "11029_chikin_ex4",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧チキンだ。",
+      "english": "He's a chicken.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "11029_chikin_ex5",
+      "japanese": "チキンだ⟦から→から：00504_kara⟧⟦{告白|こくはく}できない→告白する：19631_kokuhakusuru⟧。",
+      "english": "I'm too chicken to tell her how I feel.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "11029_chikin_ex6",
+      "japanese": "⟦{高|たか}い→高い：00500_takai⟧⟦ところ→ところ：01137_tokoro⟧⟦が→が：00051_ga⟧⟦{怖|こわ}くて→怖い：00864_kowai⟧⟦ジェットコースター→ジェットコースター：23535_jettokoosutaa⟧⟦に→に：00314_ni⟧⟦{乗|の}れない→乗る：00511_noru⟧⟦なんて→なんて：06918_nante⟧、⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧チキンだな。",
+      "english": "Too scared of heights to ride a roller coaster? You really are chicken.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
     }
   ],
-  "notes": "USAGE:\nチキン is used for chicken as food, especially in loanword compound dishes: フライドチキン (fried chicken), チキンナゲット (chicken nuggets), チキン⟦カレー→カレー：02898_karee⟧ (chicken curry). For the live bird, ⟦{鶏|にわとり}→鶏：05202_niwatori⟧ is used. For chicken meat in more traditional Japanese cooking contexts, ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧ is preferred.\n\nCULTURAL NOTE:\nEating チキン at Christmas is a well-known Japanese custom, largely popularized by a KFC marketing campaign in the 1970s.\n\nCOMMON COLLOCATIONS:\n- フライドチキン: fried chicken\n- チキン⟦カレー→カレー：02898_karee⟧: chicken curry\n- チキンナゲット: chicken nuggets\n- ⟦{照|て}り{焼|や}き→照り焼き：17668_teriyaki⟧チキン: teriyaki chicken",
+  "notes": "USAGE:\nSense 2 is informal slang (チキン⟦{野郎|やろう}→野郎：14465_yarou⟧, coward); the rest of this note is about sense 1.\n\nチキン is used for chicken as food, especially in loanword compound dishes: フライドチキン (fried chicken), チキンナゲット (chicken nuggets), チキン⟦カレー→カレー：02898_karee⟧ (chicken curry). For the live bird, ⟦{鶏|にわとり}→鶏：05202_niwatori⟧ is used. For chicken meat in more traditional Japanese cooking contexts, ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧ is preferred.\n\nCULTURAL NOTE:\nEating チキン at Christmas is a well-known Japanese custom, largely popularized by a KFC marketing campaign in the 1970s.\n\nCOMMON COLLOCATIONS:\n- フライドチキン: fried chicken\n- チキン⟦カレー→カレー：02898_karee⟧: chicken curry\n- チキンナゲット: chicken nuggets\n- ⟦{照|て}り{焼|や}き→照り焼き：17668_teriyaki⟧チキン: teriyaki chicken",
   "cross_references": [
     {
       "type": "contrast",
@@ -56,7 +91,7 @@
   ],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-10-04T06:53:00Z",
+    "modified": "2026-10-13T00:46:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -66,7 +101,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "food"
+        "food",
+        "personality"
       ]
     }
   }
