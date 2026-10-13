@@ -1563,5 +1563,5 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-13 [tooling] harvest_crossrefs.py resolved "{坊|ぼ}っちゃん, こころ" (Soseki novel titles under RELATED WORDS in 31986) to the common nouns 16357 坊っちゃん and 01321 心 and wrote reciprocal links on both. Reverted by hand; the titles were moved under CULTURAL NOTE.
 - 2026-10-13 [entry] 20732: audio checks heard まっぷたつ for {真|ま}っ{二|ふた}つ in 20732_mafutatsu_ex1–ex6 (all six examples, and probably the headword furigana); check the furigana ({二|ぷた}).
 - 2026-10-13 [entry] 20854: audio checks heard よくぶかい for {欲深|よくふか}い in 20854_yokufukai_ex1–ex4; check the reading (よくぶかい is the commoner reading; the entry is よくふかい throughout).
-- 2026-10-13 [entry] 20889: audio checks heard みつぼし for {三|み}つ{星|ほし} in 20889_yoyakukonnan_ex3; check the furigana ({星|ぼし}).
-- 2026-10-13 [entry] 20902: audio checks heard すき for {好|す}み in 20902_hosome_ex2 (パスタは細めが好みです); the furigana should be {好|この}み.
+- 2026-10-13 [entry] 20889: audio checks heard みつぼし for {三|み}つ{星|ほし} in 20889_yoyakukonnan_ex3; check the furigana ({星|ぼし}). (fixed in routine #006)
+- 2026-10-13 [entry] 20902: audio checks heard すき for {好|す}み in 20902_hosome_ex2 (パスタは細めが好みです); the furigana should be {好|この}み. (fixed in routine #006)
