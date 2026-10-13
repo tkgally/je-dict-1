@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-13 (Routine v3: candidates — 37 Internal-Closure Candidates)
+
+The noentry list is empty and the example scan is exhausted, so this run scanned the unlinked text of every entry's notes (SudachiPy lemmas with kanji that match no headword). Thirty-seven words the notes use but the dictionary never defined: 連濁, 半濁点, 破裂音, 前略, 草々, 起立, 入管, 邦人, 在外, 高等裁判所, 発砲, 弾道, 学界 (vs 学会), 追究 (vs 追及, 追求), 引き揚げる (vs 引き上げる), 有人, 侯爵, 総長, 婿養子, 出生届, 修了証, 場内, 感知器, 不燃, 雌雄, 中層, 統率力, 合皮, 手指, 恥じらい, 緑化, 歌劇団, 菜種油, 盲目的, 縁取る, 先駆ける, 詰め替える. Dropped as variants: 税込み, 税抜き, 挽き肉, 雛祭り, 寝巻き, 人混み, 空っぽ, 折りたたむ, 引き落とし, 純米酒. Found on the way: ひき肉 (17241) and 挽肉 (14783) are duplicate entries (flagged for the curator).
+
 ### 2026-10-13 (Routine v3: new-entries — 20 New Entries, IDs 31990–32009)
 
 All twenty are internal-closure candidates (words already used in other entries): ビート板, 酔い (two senses: drunkenness, motion sickness), 傷み (vs 痛み), 法師, 弱小, 新鋭, 収蔵 (vs 所蔵), 構内 (vs 校内), 集積回路, 集積 (vs 蓄積), 原子核, 生体, 二塁, 一級 (two senses; downward grade numbering explained), 両用 (vs 兼用), 刷る, 切らす (two senses; pair 切れる), 陰り, 火気, 両軍. 企む was dropped from the queue as a duplicate of たくらむ (07676). The new ビート板 entry fixes 09261's link, which had pointed ビート at "beat (music)". Self-check skipped: daily OpenRouter budget spent.
@@ -65,8 +69,4 @@ No internal-closure candidates were left, so all nineteen came from the queue: �
 ### 2026-10-12 (Routine v3: new-entries — 11 New Entries, IDs 31960–31970)
 
 Five internal-closure candidates (善光寺 with 牛に引かれて善光寺参り, 徳島, 多幸 as in ご多幸をお祈りします, 本能寺 with 本能寺の変 and 敵は本能寺にあり, 遊撃手 vs ショート) and six from the queue: 信州, the proverb 案ずるより産むが易し, だとしたら, でなければ (two senses; vs でないと, さもなければ), 最小公倍数, 迷信深い. そうでないと was skipped as already covered by the でないと entry. Cross-reference harvest wrote 16 references on 14 entries. Self-check skipped (OpenRouter budget spent). Queue 51 → 40.
-
-### 2026-10-12 (Routine v3: new-entries — 20 New Entries, IDs 31940–31959)
-
-Twenty internal-closure candidates: 従属節 (主節), 未来永劫 (vs 永遠に, 永久に), 善玉菌 (悪玉菌), 無形文化遺産 (vs 世界遺産, 無形文化財), 問答 (two senses; 問答無用, 禅問答, 押し問答), 論語 (proper noun; sayings still in use), 所狭し (所狭しと), 大物 (two senses: big shot, big item/catch), エンディング, 斉唱 (vs 合唱), 技術力, 生産量, 浮世 (two senses; 憂き世 origin), 一人称 (私/僕/俺/うち), 反逆 (vs 反抗, 謀反), 長者 (億万長者, わらしべ長者), 入館 (vs 入場), 回答者 (WATCH OUT 回答/解答), 片足, 躍る (two senses; WRITING 躍る vs 踊る). Cross-reference harvest wrote 47 references on 35 entries. Self-check skipped (OpenRouter budget spent).
 
