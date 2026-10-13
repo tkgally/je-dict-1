@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{着工|ちゃっこう} is used in news, real estate, and construction contexts. It marks the official beginning of physical construction work.\n\nCOMMON COLLOCATIONS:\n- {着工|ちゃっこう}⟦する→する：00392_suru⟧ (to begin construction)\n- {着工|ちゃっこう}⟦{予定|よてい}→予定：00824_yotei⟧ (scheduled construction start)\n- {着工|ちゃっこう}⟦が→が：00051_ga⟧⟦{遅|おく}れる→遅れる：00741_okureru⟧ (construction start is delayed)\n- {着工|ちゃっこう}{式|しき} (groundbreaking ceremony)\n\nCONSTRUCTION TIMELINE TERMS:\n- {着工|ちゃっこう} (start of construction)\n- ⟦{竣工|しゅんこう}→竣工：16491_shunkou⟧ (completion of construction)\n- ⟦{引|ひ}き{渡|わた}し→引き渡し：30090_hikiwatashi⟧ (handover to the client)",
+  "notes": "USAGE:\n{着工|ちゃっこう} is used in news, real estate, and construction contexts. It marks the official beginning of physical construction work.\n\nCOMMON COLLOCATIONS:\n- {着工|ちゃっこう}⟦する→する：00392_suru⟧ (to begin construction)\n- {着工|ちゃっこう}⟦{予定|よてい}→予定：00824_yotei⟧ (scheduled construction start)\n- {着工|ちゃっこう}⟦が→が：00051_ga⟧⟦{遅|おく}れる→遅れる：00741_okureru⟧ (construction start is delayed)\n- {着工|ちゃっこう}{式|しき} (groundbreaking ceremony)\n\nRELATED WORDS:\n- ⟦{竣工|しゅんこう}→竣工：16491_shunkou⟧ (completion of construction)\n- ⟦{引|ひ}き{渡|わた}し→引き渡し：30090_hikiwatashi⟧ (handover to the client)",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,18 @@
       "reading": "きこう",
       "headword": "{起工|きこう}",
       "label": "commencement of construction"
+    },
+    {
+      "type": "related",
+      "target_id": "30090_hikiwatashi",
+      "reading": "ひきわたし",
+      "headword": "{引|ひ}き{渡|わた}し",
+      "label": "handover to the client"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:41:35Z",
-    "modified": "2026-09-24T21:17:55Z",
+    "modified": "2026-10-13T13:40:15Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -164,7 +171,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "work"
+        "work",
+        "building"
       ],
       "verb_class": "suru",
       "transitivity": "intransitive"
