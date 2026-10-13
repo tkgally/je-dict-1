@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-13 (Routine v3: new-entries — 19 New Entries, IDs 31971–31989)
+
+No internal-closure candidates were left, so all nineteen came from the queue: 既約分数 (約分, 最大公約数), じゃなければ (two senses; vs でなければ, じゃないと), and seventeen proper nouns — 読売新聞, 表参道 (two senses: the Tokyo avenue and a shrine's main approach), 下北沢, 有馬温泉, 道後温泉, 卑弥呼, 平清盛, 正岡子規, 小林一茶, 与謝野晶子, 森鴎外 (new kanji 鴎, ID 02828), 古今和歌集, 羅生門, 吾輩は猫である, 走れメロス, 銀河鉄道の夜, 七人の侍. Self-check: accuracy reviewer clean; three kana-link flags (two kept, やれ in Issa's haiku unlinked and added as a candidate). Two wrong harvested cross-references (Soseki titles resolved to 心 and 坊っちゃん "young boy") reverted. Queue 40 → 22.
+
 ### 2026-10-12 (Routine v3: new-entries — 11 New Entries, IDs 31960–31970)
 
 Five internal-closure candidates (善光寺 with 牛に引かれて善光寺参り, 徳島, 多幸 as in ご多幸をお祈りします, 本能寺 with 本能寺の変 and 敵は本能寺にあり, 遊撃手 vs ショート) and six from the queue: 信州, the proverb 案ずるより産むが易し, だとしたら, でなければ (two senses; vs でないと, さもなければ), 最小公倍数, 迷信深い. そうでないと was skipped as already covered by the でないと entry. Cross-reference harvest wrote 16 references on 14 entries. Self-check skipped (OpenRouter budget spent). Queue 51 → 40.
@@ -65,8 +69,3 @@ The noentry source is empty, so this restock ran a SudachiPy scan of the unlinke
 ### 2026-10-12 (Routine v3: new-entries — 10 New Entries, IDs 31930–31939)
 
 Ten internal-closure candidates, a short last cycle of the run: 黄身 (WATCH OUT 君/気味; 卵黄), 白内障 (WATCH OUT 緑内障), 売主 (vs 買主, 売り手), 隣家 (news word; お隣), 稜線 (vs 尾根), 平均寿命 (健康寿命), 書道家 (vs 書家, 習字), 文人 (文人画, 文人墨客), 頓着 (almost always negative; 無頓着), 波打つ (胸が波打つ, 波打ち際). New kanji 稜 added to the kanji index. Self-check clean.
-
-### 2026-10-11 (Routine v3: new-entries — 20 New Entries, IDs 31910–31929)
-
-Twenty internal-closure candidates in queue order: へたり込む (vs 座り込む), 馬術 (vs 乗馬; 障害馬術, 馬場馬術), 国際社会, 寝入る (vs 寝付く, 眠り込む), 明星 (two senses: 明けの/宵の明星, and a rising star; the 明星 poetry magazine), 過払い (過払い金 claims after the 2006 Supreme Court ruling), 脆弱性, 同社 (news-style back-reference; 同氏, 当社), 色濃い (色濃く残る), 光学 (WATCH OUT 工学, 高額), 集合写真, 保冷 (保冷剤), 病魔, 滅入る (気が滅入る), 交通手段 (vs 交通機関), 吸水性 (vs 撥水), 低金利, 浮世絵師 (絵師, 彫師, 摺師, 版元), 時期尚早, 日付変更線. The linker then linked the new words in the 20 entries that had used them. Self-check skipped (daily OpenRouter cap spent).
-
