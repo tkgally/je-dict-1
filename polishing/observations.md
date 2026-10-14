@@ -1587,3 +1587,4 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-14 [entry] 23069: audio checks heard あかるみ for あきるみ in 23069_akugyou_ex2; check the furigana ({明|あき}るみ should be {明|あか}るみ)
 - 2026-10-14 [entry] 23088: audio checks heard じゅってんぽ for じゅうてんぽ in 23088_tenanto_ex1; check the furigana on {十|じゅう}{店舗|てんぽ}
 - 2026-10-14 [entry] 23182: audio checks heard あっかん for あくかん in 23182_akukan_ex3; check the entry's reading (悪感 is usually read あっかん)
+- 2026-10-14 [entry] 03292: example 3 writes {一|ひと}りの青年; the usual spelling is {一人|ひとり}.

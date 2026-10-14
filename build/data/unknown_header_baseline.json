@@ -1,82 +1,11 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-14T00:46:20Z",
+  "generated": "2026-10-14T14:03:49Z",
   "headers": {
-    "11265_pea": [
-      "USAGE IN SPORTS"
-    ],
-    "11295_kamiza": [
-      "SEATING RULES"
-    ],
-    "11298_joukyuu": [
-      "LEVEL HIERARCHY"
-    ],
-    "11307_chuunen": [
-      "AGE STAGES"
-    ],
-    "11310_ryouritsu": [
-      "FREQUENT PAIRS"
-    ],
-    "11311_heikou": [
-      "CONTRAST WITH {平行|へいこう}"
-    ],
-    "11323_chuuban": [
-      "THREE-STAGE STRUCTURE"
-    ],
-    "11333_saabisueria": [
-      "SA VS PA"
-    ],
-    "11336_denwadai": [
-      "OTHER BILLS WITH 〜{代|だい}",
-      "{代|だい} VS {費|ひ} VS {料|りょう}"
-    ],
-    "11380_chuusotsu": [
-      "RELATED EDUCATION LEVELS"
-    ],
-    "11411_jouyousha": [
-      "CONTRAST WITH OTHER VEHICLE TERMS"
-    ],
-    "11414_nyuuji": [
-      "AGE TERMINOLOGY"
-    ],
-    "11471_hitosashiyubi": [
-      "ALL FIVE FINGERS"
-    ],
-    "11496_sensenshuu": [
-      "PARALLEL PATTERNS",
-      "RELATIVE TIME SERIES (WEEKS)"
-    ],
-    "11500_hiteikei": [
-      "EXAMPLES OF NEGATIVE FORMS"
-    ],
-    "11508_mibunshou": [
-      "COMMON TYPES OF ID IN JAPAN"
-    ],
-    "11511_gayoushi": [
-      "RELATED PAPER TYPES"
-    ],
-    "11512_zairyouhi": [
-      "RELATED COST TERMS"
-    ],
-    "11513_gekkanshi": [
-      "PUBLICATION FREQUENCY TERMS"
-    ],
-    "11518_tsukaikiru": [
-      "OTHER 〜{切|き}る COMPOUNDS"
-    ],
-    "11528_hatarakimono": [
-      "SIMILAR ～{者|もの} COMPOUNDS"
-    ],
     "11577_sutanpu": [
-      "LINE STICKERS",
       "STAMP RALLY"
     ],
-    "11582_suraido": [
-      "SENSE 1 - PRESENTATION",
-      "SENSE 2 - SLIDING/SHIFTING"
-    ],
     "11583_sutajio": [
-      "REAL ESTATE",
       "TV/RADIO"
     ],
     "11587_tekunorojii": [
@@ -386,10 +315,6 @@
     ],
     "14551_ginpatsu": [
       "POP CULTURE"
-    ],
-    "14563_kansan": [
-      "SENSE 1 (deserted)",
-      "SENSE 2 (slack/slow)"
     ],
     "14692_hinagata": [
       "SENSE 1 (model)",
@@ -760,10 +685,6 @@
     "17578_anpu": [
       "RELATED EQUIPMENT"
     ],
-    "17583_fuuka": [
-      "SENSE 1 (Geological weathering)",
-      "SENSE 2 (Fading from memory)"
-    ],
     "17584_gyoushuku": [
       "SENSE 1 (Physical condensation)",
       "SENSE 2 (Metaphorical concentration)"
@@ -1082,10 +1003,6 @@
     ],
     "18800_shashu": [
       "SIMILAR ～{種|しゅ} WORDS"
-    ],
-    "18803_mushin": [
-      "SENSE 1-2 (INNOCENCE / ABSORPTION)",
-      "SENSE 3 (BEGGING)"
     ],
     "18804_hatsushimo": [
       "RELATED SEASONAL FIRSTS"
@@ -2589,9 +2506,6 @@
     ],
     "28079_shouwa": [
       "RELATED ERAS"
-    ],
-    "28101_tedama": [
-      "KEY IDIOM"
     ],
     "28349_niyoru": [
       "FORM VARIATIONS"
