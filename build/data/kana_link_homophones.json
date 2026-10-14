@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-10-11",
+ "updated": "2026-10-14",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -20328,6 +20328,18 @@
     "reviewed": 1,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "ぼったくり": {
+   "target": "09372_bottakuri",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "This word is almost exclusively written in kana and has no common homophones or alternative grammatical interpretations.",
+    "model": "google/gemini-2.5-flash",
+    "date": "2026-10-14"
    }
   },
   "ぼっち": {
