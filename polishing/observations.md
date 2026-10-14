@@ -1580,3 +1580,4 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-14 [entry] 22019: audio checks heard ライバルがいしゃ for ライバル会社 in 22019_jussaku_ex3; check the furigana.
 - 2026-10-14 [entry] 22395: examples 1 and 2 read 約束したなのに / 勉強したなのに, which is ungrammatical (したのに); all four checkers dropped the な. The entry's examples need rewriting.
 - 2026-10-14 [entry] 22361: 浅まる is a rare word; checkers stumbled on 水位 (すいい) in 22361_asamaru_ex2; worth checking whether the example is natural.
+- 2026-10-14 [entry] 01101: 無くなる carries 'pass away' examples written 亡くなる (ex 4, 12, 13 and others); they belong to 02639 亡くなる. Move or replace them, leaving the WATCH OUT pointer.
