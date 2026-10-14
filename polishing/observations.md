@@ -1576,3 +1576,7 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-13 [tooling] auto_link.py: unlink decisions in reviews/link_decisions.jsonl only guard hiragana surfaces (the guard returns early for katakana), so a katakana link the ledger unlinked comes back on the next mechanical pass. Seen in 09261: ⟦ビート⟧{板|ばん} (kickboard) is relinked to ビート "beat (music)" despite unlink lines from 2026-10-01 and 2026-10-13. Either honour unlink decisions for katakana too, or create ビート板 (candidate C24406) so the compound wins.
 - 2026-10-13 [entry] 16962: 日和 sense 2 "opportunism; fence-sitting" belongs to 日和見 (22684), which has its own entry; 日和 alone never means that. Remove sense 2 and its three examples, leaving a pointer to 日和見 in RELATED WORDS.
 - 2026-10-13 [entry] 17241 / 14783: ひき肉 and 挽肉 are two entries for the same word (ground meat); a resolve-duplicates decision for the curator (retire one into the other).
+- 2026-10-14 [entry] 22364: audio checks heard とりこしぐろう for 取り越し苦労 in 22364_torikosu_ex1; check the furigana (dictionaries give とりこしぐろう).
+- 2026-10-14 [entry] 22019: audio checks heard ライバルがいしゃ for ライバル会社 in 22019_jussaku_ex3; check the furigana.
+- 2026-10-14 [entry] 22395: examples 1 and 2 read 約束したなのに / 勉強したなのに, which is ungrammatical (したのに); all four checkers dropped the な. The entry's examples need rewriting.
+- 2026-10-14 [entry] 22361: 浅まる is a rare word; checkers stumbled on 水位 (すいい) in 22361_asamaru_ex2; worth checking whether the example is natural.
