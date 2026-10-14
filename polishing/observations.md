@@ -1581,3 +1581,9 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-14 [entry] 22395: examples 1 and 2 read 約束したなのに / 勉強したなのに, which is ungrammatical (したのに); all four checkers dropped the な. The entry's examples need rewriting.
 - 2026-10-14 [entry] 22361: 浅まる is a rare word; checkers stumbled on 水位 (すいい) in 22361_asamaru_ex2; worth checking whether the example is natural.
 - 2026-10-14 [entry] 01101: 無くなる carries 'pass away' examples written 亡くなる (ex 4, 12, 13 and others); they belong to 02639 亡くなる. Move or replace them, leaving the WATCH OUT pointer.
+- 2026-10-14 [entry] 22590: audio checks heard はなしかた for はなししかた in 22590_jirettai_ex1; check the furigana ({話|はなし}し{方|かた} should be {話|はな}し{方|かた})
+- 2026-10-14 [entry] 22935: audio checks heard とまり for とままり in 22935_tomari_ex2 and ex3; check the furigana ({泊|とま}まり should be {泊|と}まり)
+- 2026-10-14 [entry] 22971: audio checks heard あたらしい for あらしい in 22971_soan_ex2; check the furigana ({新|あら}しい should be {新|あたら}しい)
+- 2026-10-14 [entry] 23069: audio checks heard あかるみ for あきるみ in 23069_akugyou_ex2; check the furigana ({明|あき}るみ should be {明|あか}るみ)
+- 2026-10-14 [entry] 23088: audio checks heard じゅってんぽ for じゅうてんぽ in 23088_tenanto_ex1; check the furigana on {十|じゅう}{店舗|てんぽ}
+- 2026-10-14 [entry] 23182: audio checks heard あっかん for あくかん in 23182_akukan_ex3; check the entry's reading (悪感 is usually read あっかん)
