@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "{大豆|だいず} is one of the most important crops in Japanese food culture.\n\nCOMMON SOYBEAN PRODUCTS:\n- ⟦{豆腐|とうふ}→豆腐：04928_toufu⟧: tofu\n- ⟦{味噌|みそ}→味噌：01037_miso⟧: miso\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧: soy sauce\n- ⟦{納豆|なっとう}→納豆：04930_nattou⟧: fermented soybeans\n- ⟦{枝豆|えだまめ}→枝豆：21197_edamame⟧: edamame (young soybeans)\n- ⟦{豆乳|とうにゅう}→豆乳：14226_tounyuu⟧: soy milk\n\n⟦{節分|せつぶん}→節分：18971_setsubun⟧ (the day before the start of spring) involves throwing roasted {大豆|だいず} while saying ⟦{鬼|おに}→鬼：02184_oni⟧⟦は→は：00079_ha⟧⟦{外|そと}→外：00671_soto⟧、{福|ふく}⟦は→は：00079_ha⟧⟦{内|うち}→内：01328_uchi⟧ (Demons out, good fortune in).",
+  "notes": "{大豆|だいず} is one of the most important crops in Japanese food culture.\n\nRELATED WORDS:\nFoods made from soybeans:\n- ⟦{豆腐|とうふ}→豆腐：04928_toufu⟧: tofu\n- ⟦{味噌|みそ}→味噌：01037_miso⟧: miso\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧: soy sauce\n- ⟦{納豆|なっとう}→納豆：04930_nattou⟧: fermented soybeans\n- ⟦{枝豆|えだまめ}→枝豆：21197_edamame⟧: edamame (young soybeans)\n- ⟦{豆乳|とうにゅう}→豆乳：14226_tounyuu⟧: soy milk\n\n⟦{節分|せつぶん}→節分：18971_setsubun⟧ (the day before the start of spring) involves throwing roasted {大豆|だいず} while saying ⟦{鬼|おに}→鬼：02184_oni⟧⟦は→は：00079_ha⟧⟦{外|そと}→外：00671_soto⟧、{福|ふく}⟦は→は：00079_ha⟧⟦{内|うち}→内：01328_uchi⟧ (Demons out, good fortune in).",
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-08T03:20:10Z",
-    "modified": "2026-09-02T04:01:21Z",
+    "modified": "2026-10-14T00:41:10Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -102,6 +102,41 @@
       "reading": "くろまめ",
       "headword": "{黒豆|くろまめ}",
       "label": "black soybeans"
+    },
+    {
+      "type": "related",
+      "target_id": "01037_miso",
+      "reading": "みそ",
+      "headword": "{味噌|みそ}",
+      "label": "miso"
+    },
+    {
+      "type": "related",
+      "target_id": "01056_shouyu",
+      "reading": "しょうゆ",
+      "headword": "{醤油|しょうゆ}",
+      "label": "soy sauce"
+    },
+    {
+      "type": "related",
+      "target_id": "21197_edamame",
+      "reading": "えだまめ",
+      "headword": "{枝豆|えだまめ}",
+      "label": "edamame"
+    },
+    {
+      "type": "related",
+      "target_id": "14226_tounyuu",
+      "reading": "とうにゅう",
+      "headword": "{豆乳|とうにゅう}",
+      "label": "soy milk"
+    },
+    {
+      "type": "related",
+      "target_id": "18971_setsubun",
+      "reading": "せつぶん",
+      "headword": "{節分|せつぶん}",
+      "label": "the day before the start of spring"
     }
   ]
 }
