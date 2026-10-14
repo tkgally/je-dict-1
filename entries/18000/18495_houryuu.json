@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "18495_houryuu_ex1",
-      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧{稚魚|ちぎょ}⟦を→を：00422_wo⟧{放流|ほうりゅう}⟦する→する：00392_suru⟧。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦{稚魚|ちぎょ}→稚魚：31877_chigyo⟧⟦を→を：00422_wo⟧{放流|ほうりゅう}⟦する→する：00392_suru⟧。",
       "english": "To release fry into the river.",
       "sense_numbers": [
         1
@@ -169,7 +169,7 @@
       "notes": null
     }
   ],
-  "notes": "{放流|ほうりゅう} has two distinct uses: releasing fish/animals into the wild, and discharging water from dams.\n\nFORMS:\n{放|ほう} (release) + {流|りゅう} (flow)\n\nSENSE 1 — FISH STOCKING:\n- {稚魚|ちぎょ}⟦の→の：09472_no⟧{放流|ほうりゅう}: releasing fry (young fish)\n- サケ⟦の→の：09472_no⟧{放流|ほうりゅう}: salmon stocking\n- {放流|ほうりゅう}⟦{体験|たいけん}→体験：11443_taiken⟧: fish-release experience (educational activity)\nCommonly done for conservation and fisheries management.\n\nSENSE 2 — WATER DISCHARGE:\n- ⟦ダム→ダム：00034_damu⟧⟦の→の：09472_no⟧{放流|ほうりゅう}: dam discharge\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{放流|ほうりゅう}: emergency discharge\n- {放流|ほうりゅう}⟦{量|りょう}→量：03799_ryou⟧: discharge volume\nSeen in weather warnings during heavy rainfall. ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{放流|ほうりゅう} alerts warn of sudden water level rises downstream.",
+  "notes": "ETYMOLOGY: {放|ほう} \"release\" + {流|りゅう} \"flow.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{稚魚|ちぎょ}→稚魚：31877_chigyo⟧⟦を→を：00422_wo⟧{放流|ほうりゅう}⟦する→する：00392_suru⟧: to release fry\n- {放流|ほうりゅう}⟦{体験|たいけん}→体験：11443_taiken⟧: a fish-release event (for children)\n- ⟦ダム→ダム：00034_damu⟧⟦の→の：09472_no⟧{放流|ほうりゅう}・⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{放流|ほうりゅう}: dam discharge, emergency discharge\n- {放流|ほうりゅう}⟦{量|りょう}→量：03799_ryou⟧: discharge volume\n\nUSAGE: SENSE 2 is a weather-news word: when a dam has to release water during heavy rain, sirens and warnings tell people downstream to stay away from the river.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -190,12 +190,13 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "nature"
       ],
       "verb_class": "suru",
       "transitivity": "transitive"
     },
     "created": "2026-03-22T03:13:34Z",
-    "modified": "2026-09-02T04:01:52Z"
+    "modified": "2026-10-14T13:34:36Z"
   }
 }
