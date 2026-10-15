@@ -1588,3 +1588,6 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-14 [entry] 23088: audio checks heard じゅってんぽ for じゅうてんぽ in 23088_tenanto_ex1; check the furigana on {十|じゅう}{店舗|てんぽ}
 - 2026-10-14 [entry] 23182: audio checks heard あっかん for あくかん in 23182_akukan_ex3; check the entry's reading (悪感 is usually read あっかん)
 - 2026-10-14 [entry] 03292: example 3 writes {一|ひと}りの青年; the usual spelling is {一人|ひとり}.
+- 2026-10-15 [entry] 23307: audio checks heard はんぷくよことび for はんぷくよことびび in 23307_hanpukuyokotobi_ex1–ex4; check the furigana ({反復横跳|はんぷくよことび}び should be {反復横跳|はんぷくよこと}び)
+- 2026-10-15 [entry] 23467: audio checks heard いっぱくぶん for いちはくぶん in 23467_hatsuon_ex3; check the furigana ({一拍分|いちはくぶん} should be {一拍分|いっぱくぶん})
+- 2026-10-15 [entry] 23262: audio checks objected to すうひゃくぱつ in 23262_kakudantou_ex2; check the furigana ({百|ひゃく}{発|ぱつ} should read すうひゃっぱつ)
