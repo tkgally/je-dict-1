@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12790_haikei_ex1",
-      "japanese": "{拝啓|はいけい}　{時下|じか}⟦ますます→ますます：01604_masumasu⟧ご{清祥|せいしょう}⟦の→の：09472_no⟧こととお{慶|よろこ}び⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧。",
+      "japanese": "{拝啓|はいけい}　⟦{時下|じか}→時下：31853_jika⟧⟦ますます→ますます：01604_masumasu⟧ご{清祥|せいしょう}⟦の→の：09472_no⟧こととお{慶|よろこ}び⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧。",
       "english": "Dear Sir/Madam, I trust you are doing well.",
       "notes": "A standard formal letter opening combining {拝啓|はいけい} with a seasonal greeting.",
       "has_audio": true,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{拝啓|はいけい} literally means \"humbly stating\" ({拝|はい} = humbly + {啓|けい} = to state/inform). It is the standard formal opening for Japanese letters and must always be paired with the closing ⟦{敬具|けいぐ}→敬具：12977_keigu⟧ (\"respectfully concluded\").\n\nFORMAT: In a Japanese letter, {拝啓|はいけい} is followed by a space (full-width) and then a seasonal greeting ({時候|じこう}⟦の→の：09472_no⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧). The body of the letter follows, and the letter ends with ⟦{敬具|けいぐ}→敬具：12977_keigu⟧.\n\nOTHER LETTER OPENINGS:\n- ⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧: more formal than {拝啓|はいけい} (paired with {謹白|きんぱく} or ⟦{敬白|けいはく}→敬白：22308_keihaku⟧)\n- {前略|ぜんりゃく}: \"dispensing with formalities\" — used when skipping the seasonal greeting (paired with {草々|そうそう})\n\nNOTE: {拝啓|はいけい} is used in formal business letters, official correspondence, and ceremonial writing. It is not used in casual emails or messages.",
+  "notes": "{拝啓|はいけい} literally means \"humbly stating\" ({拝|はい} = humbly + {啓|けい} = to state/inform). It is the standard formal opening for Japanese letters and must always be paired with the closing ⟦{敬具|けいぐ}→敬具：12977_keigu⟧ (\"respectfully concluded\").\n\nFORMAT: In a Japanese letter, {拝啓|はいけい} is followed by a space (full-width) and then a seasonal greeting ({時候|じこう}⟦の→の：09472_no⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧). The body of the letter follows, and the letter ends with ⟦{敬具|けいぐ}→敬具：12977_keigu⟧.\n\nRELATED WORDS:\n- ⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧: more formal than {拝啓|はいけい} (paired with {謹白|きんぱく} or ⟦{敬白|けいはく}→敬白：22308_keihaku⟧)\n- ⟦{前略|ぜんりゃく}→前略：32015_zenryaku⟧: \"dispensing with formalities\" — used when skipping the seasonal greeting (paired with ⟦{草々|そうそう}→草々：32016_sousou⟧)\n\nNOTE: {拝啓|はいけい} is used in formal business letters, official correspondence, and ceremonial writing. It is not used in casual emails or messages.",
   "cross_references": [
     {
       "type": "contrast",
@@ -66,11 +66,18 @@
       "reading": "けいはく",
       "headword": "{敬白|けいはく}",
       "label": "respectfully yours"
+    },
+    {
+      "type": "related",
+      "target_id": "32015_zenryaku",
+      "reading": "ぜんりゃく",
+      "headword": "{前略|ぜんりゃく}",
+      "label": "\"dispensing with formalities\""
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:33:07Z",
-    "modified": "2026-10-07T06:25:42Z",
+    "modified": "2026-10-15T01:20:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
