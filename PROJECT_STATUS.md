@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-15 (Routine v3: candidates — 60 Internal-Closure Candidates)
+
+The noentry list is still empty, so this run scanned the unlinked text of every entry's notes and examples (SudachiPy lemmas with kanji that match no headword or candidate), ranks 1–750. Sixty words the dictionary uses but never defined, for example 人称, 野性 (vs 野生), 過大, 優待, 養護, 格子, 不通, 悪性, 心肺, 適格, 道楽, 先々, 果て, 心筋, 既得権, 縁故, 因数, 首長, 立法, 家庭裁判所, 原子力発電所, 御用達, 胃もたれ, 川下, 戒名, 満期, 拒否権, 感嘆符, 受信料, 土石流, 殿下, 規制緩和, 震源地, 液状化, むき出し, 模擬店, 自惚れる, 決する, 子爵, 真っ向. About 300 hits were dropped: exact duplicates, spelling variants (売り上げ/売上, 名字/苗字, 手がかり/手掛かり …), and fragments of set phrases that already have entries (否応なく, 物心つく, 余儀なく, 肩身が狭い …). Queue 42 → 102.
+
 ### 2026-10-14 (Routine v3: new-entries — 20 New Entries, IDs 32010–32029)
 
 All twenty are internal-closure candidates: 言行 (vs 言動), 初志貫徹, 大口 (two senses: big talk; large-lot orders), 連濁, 入管, 前略, 草々, 発砲, 統率力, 学界 (vs 学会), 邦人, 高等裁判所, 有人 (vs 無人), 侯爵 (new kanji 侯, ID 02829), 中層 (three senses), 起立, 修了証, 場内, 破裂音 (two senses), 感知器. Two wrong harvested cross-references (パン "bread" and バン "van" from a "pop, bang" bullet) were reverted. Self-check: two reviewer flags on neighbours, both rejected; one kana link (なさい) retargeted. Queue 62 → 42.
@@ -65,8 +69,4 @@ All twenty are internal-closure candidates (words already used in other entries)
 ### 2026-10-13 (Routine v3: candidates — 22 Internal-Closure Candidates)
 
 Every one is a word used in some entry's example but not defined anywhere: 酔い, 傷み, 法師, 弱小, 新鋭, 収蔵, 構内, 集積, 集積回路, 原子核, 生体, 二塁, 一級, 両用, 刷る, 両軍, 言行, 切らす, 陰り, 初志貫徹, 大口, 火気. About 130 words were proposed from a scan of the examples' unlinked text. Most were dropped as idioms, proper nouns or compounds that already have entries (the scan sees them inside their own entry's examples), as kanji spellings of kana headwords, or as free compounds. Queue 23 → 45.
-
-### 2026-10-13 (Routine v3: new-entries — 19 New Entries, IDs 31971–31989)
-
-No internal-closure candidates were left, so all nineteen came from the queue: 既約分数 (約分, 最大公約数), じゃなければ (two senses; vs でなければ, じゃないと), and seventeen proper nouns — 読売新聞, 表参道 (two senses: the Tokyo avenue and a shrine's main approach), 下北沢, 有馬温泉, 道後温泉, 卑弥呼, 平清盛, 正岡子規, 小林一茶, 与謝野晶子, 森鴎外 (new kanji 鴎, ID 02828), 古今和歌集, 羅生門, 吾輩は猫である, 走れメロス, 銀河鉄道の夜, 七人の侍. Self-check: accuracy reviewer clean; three kana-link flags (two kept, やれ in Issa's haiku unlinked and added as a candidate). Two wrong harvested cross-references (Soseki titles resolved to 心 and 坊っちゃん "young boy") reverted. Queue 40 → 22.
 
