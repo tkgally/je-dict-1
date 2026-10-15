@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{美品|びひん} is extremely common in Japanese online marketplaces like メルカリ (Mercari), ヤフオク (Yahoo Auctions), and ラクマ (Rakuma). It indicates that a secondhand item has been well cared for and shows little wear.\n\nCONDITION SCALE (common in listings):\n- ⟦{新品|しんぴん}→新品：08303_shinpin⟧: brand new\n- ⟦{未使用|みしよう}→未使用：21316_mishiyou⟧: unused\n- {美品|びひん}: excellent condition\n- {良品|りょうひん}: good condition\n- ⟦{難|なん}→難：00452_nan⟧あり: has flaws/defects\n- ジャンク: junk, for parts\n\nCOMMON COLLOCATIONS:\n- {美品|びひん}⟦の→の：09472_no⟧⟦{中古|ちゅうこ}→中古：03479_chuuko⟧〜 (secondhand ~ in excellent condition)\n- {美品|びひん}⟦を→を：00422_wo⟧お{探|さが}し⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧ (for those looking for items in excellent condition)\n- ⟦{状態|じょうたい}→状態：03345_joutai⟧⟦は→は：00079_ha⟧{美品|びひん} (condition is excellent)",
+  "notes": "USAGE:\n{美品|びひん} is extremely common in Japanese online marketplaces like メルカリ (Mercari), ヤフオク (Yahoo Auctions), and ラクマ (Rakuma). It indicates that a secondhand item has been well cared for and shows little wear.\n\nRELATED WORDS (condition grades in listings):\n- ⟦{新品|しんぴん}→新品：08303_shinpin⟧: brand new\n- ⟦{未使用|みしよう}→未使用：21316_mishiyou⟧: unused\n- {美品|びひん}: excellent condition\n- {良品|りょうひん}: good condition\n- ⟦{難|なん}→難：00452_nan⟧あり: has flaws/defects\n- ジャンク: junk, for parts\n\nCOMMON COLLOCATIONS:\n- {美品|びひん}⟦の→の：09472_no⟧⟦{中古|ちゅうこ}→中古：03479_chuuko⟧〜 (secondhand ~ in excellent condition)\n- {美品|びひん}⟦を→を：00422_wo⟧お{探|さが}し⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧ (for those looking for items in excellent condition)\n- ⟦{状態|じょうたい}→状態：03345_joutai⟧⟦は→は：00079_ha⟧{美品|びひん} (condition is excellent)",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,25 @@
       "reading": "しんぴんどうよう",
       "headword": "{新品同様|しんぴんどうよう}",
       "label": "like new"
+    },
+    {
+      "type": "related",
+      "target_id": "08303_shinpin",
+      "reading": "しんぴん",
+      "headword": "{新品|しんぴん}",
+      "label": "brand new"
+    },
+    {
+      "type": "related",
+      "target_id": "21316_mishiyou",
+      "reading": "みしよう",
+      "headword": "{未使用|みしよう}",
+      "label": "unused"
     }
   ],
   "metadata": {
     "created": "2026-03-04T11:09:26Z",
-    "modified": "2026-09-02T04:01:39Z",
+    "modified": "2026-10-15T13:26:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
