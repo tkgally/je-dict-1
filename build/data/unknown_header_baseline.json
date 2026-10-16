@@ -1,6 +1,6 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-16T02:12:09Z",
+  "generated": "2026-10-16T14:15:47Z",
   "headers": {
     "11577_sutanpu": [
       "STAMP RALLY"
@@ -11,17 +11,8 @@
     "15130_kyoudoryouri": [
       "EXAMPLES OF {郷土料理|きょうどりょうり}"
     ],
-    "15142_honninkakunin": [
-      "ACCEPTED DOCUMENTS"
-    ],
-    "15146_taishaku": [
-      "ACCOUNTING"
-    ],
     "15167_maiyuu": [
       "SERIES"
-    ],
-    "15214_gunkanmaki": [
-      "SUSHI FORMAT"
     ],
     "15305_gikyoudai": [
       "PREFIX {義|ぎ}"
@@ -30,33 +21,12 @@
       "SENSE 1 (PROVISO)",
       "SENSE 2 (RECEIPT)"
     ],
-    "15471_kakuekiteisha": [
-      "TRAIN SERVICE HIERARCHY (slowest to fastest)"
-    ],
-    "15831_jijo": [
-      "FAMILY ORDER TERMS"
-    ],
     "15845_shugoshin": [
       "RELIGIOUS SENSE",
       "SPORTS SENSE"
     ],
     "15853_toumin": [
       "ANIMALS THAT HIBERNATE"
-    ],
-    "15860_minasama": [
-      "WHERE USED"
-    ],
-    "15881_futaketa": [
-      "RELATED DIGIT COUNTERS"
-    ],
-    "15893_kigengire": [
-      "JAPANESE FOOD LABELS"
-    ],
-    "16244_juudai": [
-      "AGE DECADE PATTERN"
-    ],
-    "16278_kerakera": [
-      "COMPARISON WITH OTHER LAUGHTER WORDS"
     ],
     "16279_namayasai": [
       "RELATED WORDS WITH {生|なま}"
