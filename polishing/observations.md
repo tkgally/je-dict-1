@@ -1596,3 +1596,9 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-15 [entry] 24004: audio checks heard わかりやすい for ぶんかりやすい in 24004_daiyaguramu_ex1; check the furigana ({分|ぶん}かりやすい should be {分|わ}かりやすい)
 - 2026-10-15 [entry] 24323: audio checks heard さいこうび for さいごび in 24323_saigobi_ex1–ex3; the checkers are right: 最後尾 is read さいこうび. The entry's reading, furigana and romaji (saigobi) are wrong; the fix renames the entry (curator decision).
 - 2026-10-15 [tooling] audio_pipeline.py run: after the 8-minute recording window the end-of-call billed-cost lookups (generation_cost, 8 tries with growing sleeps, f.result(timeout=180) per future) stalled for 20+ minutes although the endpoint answered a fresh session at once; give that phase an overall deadline and fall back to the estimate.
+- 2026-10-16 [entry] 24596: audio checks heard なんぼんも for なんほんも in 24596_tanmono_ex3; 何本 is なんぼん — check the furigana.
+- 2026-10-16 [entry] 24742: audio checks heard いときりばさみ for いときりりばさみ in 24742_saihoudougu_ex3; the furigana seems to double the り — check it.
+- 2026-10-16 [entry] 24812: audio checks heard かしおりの for かしおりりの in 24812_shinjou_ex3; the furigana seems to double the り — check it.
+- 2026-10-16 [entry] 24455: audio checks heard じゅっかしょ for じゅうかしょ in 24455_shuin_ex3; じゅっかしょ is the usual reading — check the furigana.
+- 2026-10-16 [entry] 24643: audio checks heard のうさくもつ for のうさくぶつ in 24643_choujuu_ex3; both exist but のうさくもつ is usual — check the furigana.
+- 2026-10-16 [tooling] audio_pipeline.py run: the end-of-call stall noted 2026-10-15 recurred on both run calls today (no new results for 8+ and 5+ minutes after the recording window); both were killed and resumed/published. Killing loses the call's billed cost, so runs.jsonl and the ledger recorded $0 until corrected by hand to an estimate ($4.65 for 1,432 examples). The fix (an overall deadline on the cost lookups, falling back to the estimate) is still open.
