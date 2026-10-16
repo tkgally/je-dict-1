@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Attaches directly to a counting expression to mean 'every one of that number'. The group must be specific and small (typically 2–5 members), and the speaker is asserting that the predicate holds for each member without exception.\n\nCOMMON PATTERNS:\n- ⟦{二人|ふたり}→二人：00622_futari⟧とも: both people\n- ⟦{二|ふた}つ→二つ：02953_futatsu⟧とも: both things\n- ⟦{三人|さんにん}→三人：10978_sannin⟧とも: all three people\n- ⟦{両方|りょうほう}→両方：01750_ryouhou⟧とも: both (of two options)\n- ⟦{全員|ぜんいん}→全員：03310_zenin⟧とも (less common; usually just ⟦{全員|ぜんいん}→全員：03310_zenin⟧)\n\nSIMILAR WORDS:\n- ⟦{両方|りょうほう}→両方：01750_ryouhou⟧: both — refers to two specific items as a pair\n- ⟦みんな→みんな：02972_minna⟧: everyone — for larger or vaguer groups\n- ⟦{全部|ぜんぶ}→全部：02888_zenbu⟧: all; entirely — for things, not typically people",
+  "notes": "Attaches directly to a counting expression to mean 'every one of that number'. The group must already be identified in context, and the speaker is asserting that the predicate holds for each member without exception.\n\nCOMMON PATTERNS:\n- ⟦{二人|ふたり}→二人：00622_futari⟧とも: both people\n- ⟦{二|ふた}つ→二つ：02953_futatsu⟧とも: both things\n- ⟦{三人|さんにん}→三人：10978_sannin⟧とも: all three people\n- ⟦{両方|りょうほう}→両方：01750_ryouhou⟧とも: both (of two options)\n- ⟦{全員|ぜんいん}→全員：03310_zenin⟧とも (less common; usually just ⟦{全員|ぜんいん}→全員：03310_zenin⟧)\n\nWATCH OUT:\nWith a negative predicate the meaning is \"none of them\", not \"not all of them\": ⟦{二人|ふたり}→二人：00622_futari⟧とも⟦{来|こ}なかった→来る：00254_kuru⟧ means neither of them came.\n\nSIMILAR WORDS:\n- ⟦{両方|りょうほう}→両方：01750_ryouhou⟧: both — refers to two specific items as a pair\n- ⟦みんな→みんな：02972_minna⟧: everyone — for larger or vaguer groups\n- ⟦{全部|ぜんぶ}→全部：02888_zenbu⟧: all; entirely — for things, not typically people",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -60,6 +60,13 @@
       "reading": "ぜんぶ",
       "headword": "{全部|ぜんぶ}",
       "label": "all"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02972_minna",
+      "reading": "みんな",
+      "headword": "みんな",
+      "label": "everyone"
     }
   ],
   "metadata": {
@@ -76,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-09-02T04:02:33Z"
+    "modified": "2026-10-16T12:30:19Z"
   }
 }
