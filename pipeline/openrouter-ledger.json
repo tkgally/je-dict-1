@@ -2,7 +2,7 @@
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
   "date": "2026-10-16",
   "daily_cap_usd": 15.0,
-  "spent_usd": 5.6714,
+  "spent_usd": 11.6414,
   "calls": [
     {
       "ts": "2026-10-16T00:30:38Z",
@@ -53,6 +53,14 @@
       "phase": "accuracy-review",
       "entries": 996,
       "est_usd": 0.4805
+    },
+    {
+      "ts": "2026-10-16T13:46:40Z",
+      "mode": "audio",
+      "phase": "production",
+      "entries": 1820,
+      "est_usd": 5.97,
+      "note": "estimated: checker costs $3.41 from results + 2134 TTS calls at $0.0012; run calls hung waiting for billed-cost lookups and were stopped, so the tool recorded 0"
     }
   ]
 }
