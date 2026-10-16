@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "FORMS:\n{名|めい} (famous, excellent) + {著|ちょ} (book, written work). Part of the {名|めい}～ prefix family that denotes excellence.\n\nRELATED {名|めい}～ COMPOUNDS:\n- ⟦{名作|めいさく}→名作：11869_meisaku⟧ (masterpiece — broader, includes films, art, etc.)\n- ⟦{名曲|めいきょく}→名曲：17476_meikyoku⟧ (famous piece of music)\n- ⟦{名画|めいが}→名画：17385_meiga⟧ (famous painting; classic film)\n- {名演|めいえん} (famous performance)\n\nUSAGE:\n{名著|めいちょ} is specifically for books and written works, while ⟦{名作|めいさく}→名作：11869_meisaku⟧ can refer to any creative work.",
-  "cross_references": [],
+  "notes": "FORMS:\n{名|めい} (famous, excellent) + {著|ちょ} (book, written work). Part of the {名|めい}～ prefix family that denotes excellence.\n\nRELATED WORDS:\n- ⟦{名作|めいさく}→名作：11869_meisaku⟧ (masterpiece — broader, includes films, art, etc.)\n- ⟦{名曲|めいきょく}→名曲：17476_meikyoku⟧ (famous piece of music)\n- ⟦{名画|めいが}→名画：17385_meiga⟧ (famous painting; classic film)\n- {名演|めいえん} (famous performance)\n\nUSAGE:\n{名著|めいちょ} is specifically for books and written works, while ⟦{名作|めいさく}→名作：11869_meisaku⟧ can refer to any creative work.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11869_meisaku",
+      "reading": "めいさく",
+      "headword": "{名作|めいさく}",
+      "label": "masterpiece"
+    },
+    {
+      "type": "related",
+      "target_id": "17476_meikyoku",
+      "reading": "めいきょく",
+      "headword": "{名曲|めいきょく}",
+      "label": "famous piece of music"
+    },
+    {
+      "type": "related",
+      "target_id": "17385_meiga",
+      "reading": "めいが",
+      "headword": "{名画|めいが}",
+      "label": "famous painting"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:37:50Z",
-    "modified": "2026-09-02T04:01:41Z",
+    "modified": "2026-10-16T02:12:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
