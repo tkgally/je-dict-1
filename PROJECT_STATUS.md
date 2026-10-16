@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-16 (Routine v3: new-entries — 12 New Entries, IDs 32052–32063)
+
+All twelve are internal-closure candidates: 同族, 野性 (vs 野生), 過大, 接着, 優待 (株主優待), 養護, 理容 (vs 床屋, 美容), 格子, 悪性 (vs 良性, 悪質), 適格 (vs 的確), 先々 (two senses: the future; 行く先々で), 果て. A smaller batch than usual because this was the run's fourth cycle. Homophone cross-references were added for 野性/野生 and 適格/的確. Self-check: 0 accuracy flags on 12 entries, 0 kana-link flags. 70 candidates remain.
+
 ### 2026-10-16 (Routine v3: new-entries — 22 New Entries, IDs 32030–32051)
 
 All twenty-two are internal-closure candidates (words already used in other entries): やれ (two senses: "hey!"; やれ X だ、やれ Y だ), 不燃, 雌雄 (incl. 雌雄を決する), 総長, 在外, 引き揚げる (withdraw; be repatriated; salvage — distinguished from 引き上げる), 合皮, 手指, 恥じらい, 弾道, 出生届, 緑化, 歌劇団, 菜種油, 婿養子, 半濁点, 追究 (vs 追及, 追求), 盲目的, 縁取る, 先駆ける, 詰め替える, 人称. Self-check: 0 accuracy flags on 33 entries; one kana-link flag rejected (ながら). 81 candidates remain.
@@ -65,7 +69,3 @@ All twenty are internal-closure candidates: 言行 (vs 言動), 初志貫徹, �
 ### 2026-10-13 (Routine v3: candidates — 37 Internal-Closure Candidates)
 
 The noentry list is empty and the example scan is exhausted, so this run scanned the unlinked text of every entry's notes (SudachiPy lemmas with kanji that match no headword). Thirty-seven words the notes use but the dictionary never defined: 連濁, 半濁点, 破裂音, 前略, 草々, 起立, 入管, 邦人, 在外, 高等裁判所, 発砲, 弾道, 学界 (vs 学会), 追究 (vs 追及, 追求), 引き揚げる (vs 引き上げる), 有人, 侯爵, 総長, 婿養子, 出生届, 修了証, 場内, 感知器, 不燃, 雌雄, 中層, 統率力, 合皮, 手指, 恥じらい, 緑化, 歌劇団, 菜種油, 盲目的, 縁取る, 先駆ける, 詰め替える. Dropped as variants: 税込み, 税抜き, 挽き肉, 雛祭り, 寝巻き, 人混み, 空っぽ, 折りたたむ, 引き落とし, 純米酒. Found on the way: ひき肉 (17241) and 挽肉 (14783) are duplicate entries (flagged for the curator).
-
-### 2026-10-13 (Routine v3: new-entries — 20 New Entries, IDs 31990–32009)
-
-All twenty are internal-closure candidates (words already used in other entries): ビート板, 酔い (two senses: drunkenness, motion sickness), 傷み (vs 痛み), 法師, 弱小, 新鋭, 収蔵 (vs 所蔵), 構内 (vs 校内), 集積回路, 集積 (vs 蓄積), 原子核, 生体, 二塁, 一級 (two senses; downward grade numbering explained), 両用 (vs 兼用), 刷る, 切らす (two senses; pair 切れる), 陰り, 火気, 両軍. 企む was dropped from the queue as a duplicate of たくらむ (07676). The new ビート板 entry fixes 09261's link, which had pointed ビート at "beat (music)". Self-check skipped: daily OpenRouter budget spent.
