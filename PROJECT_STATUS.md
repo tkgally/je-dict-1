@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-16 (Routine v3: new-entries — 22 New Entries, IDs 32030–32051)
+
+All twenty-two are internal-closure candidates (words already used in other entries): やれ (two senses: "hey!"; やれ X だ、やれ Y だ), 不燃, 雌雄 (incl. 雌雄を決する), 総長, 在外, 引き揚げる (withdraw; be repatriated; salvage — distinguished from 引き上げる), 合皮, 手指, 恥じらい, 弾道, 出生届, 緑化, 歌劇団, 菜種油, 婿養子, 半濁点, 追究 (vs 追及, 追求), 盲目的, 縁取る, 先駆ける, 詰め替える, 人称. Self-check: 0 accuracy flags on 33 entries; one kana-link flag rejected (ながら). 81 candidates remain.
+
 ### 2026-10-15 (Routine v3: candidates — 60 Internal-Closure Candidates)
 
 The noentry list is still empty, so this run scanned the unlinked text of every entry's notes and examples (SudachiPy lemmas with kanji that match no headword or candidate), ranks 1–750. Sixty words the dictionary uses but never defined, for example 人称, 野性 (vs 野生), 過大, 優待, 養護, 格子, 不通, 悪性, 心肺, 適格, 道楽, 先々, 果て, 心筋, 既得権, 縁故, 因数, 首長, 立法, 家庭裁判所, 原子力発電所, 御用達, 胃もたれ, 川下, 戒名, 満期, 拒否権, 感嘆符, 受信料, 土石流, 殿下, 規制緩和, 震源地, 液状化, むき出し, 模擬店, 自惚れる, 決する, 子爵, 真っ向. About 300 hits were dropped: exact duplicates, spelling variants (売り上げ/売上, 名字/苗字, 手がかり/手掛かり …), and fragments of set phrases that already have entries (否応なく, 物心つく, 余儀なく, 肩身が狭い …). Queue 42 → 102.
@@ -65,8 +69,3 @@ The noentry list is empty and the example scan is exhausted, so this run scanned
 ### 2026-10-13 (Routine v3: new-entries — 20 New Entries, IDs 31990–32009)
 
 All twenty are internal-closure candidates (words already used in other entries): ビート板, 酔い (two senses: drunkenness, motion sickness), 傷み (vs 痛み), 法師, 弱小, 新鋭, 収蔵 (vs 所蔵), 構内 (vs 校内), 集積回路, 集積 (vs 蓄積), 原子核, 生体, 二塁, 一級 (two senses; downward grade numbering explained), 両用 (vs 兼用), 刷る, 切らす (two senses; pair 切れる), 陰り, 火気, 両軍. 企む was dropped from the queue as a duplicate of たくらむ (07676). The new ビート板 entry fixes 09261's link, which had pointed ビート at "beat (music)". Self-check skipped: daily OpenRouter budget spent.
-
-### 2026-10-13 (Routine v3: candidates — 22 Internal-Closure Candidates)
-
-Every one is a word used in some entry's example but not defined anywhere: 酔い, 傷み, 法師, 弱小, 新鋭, 収蔵, 構内, 集積, 集積回路, 原子核, 生体, 二塁, 一級, 両用, 刷る, 両軍, 言行, 切らす, 陰り, 初志貫徹, 大口, 火気. About 130 words were proposed from a scan of the examples' unlinked text. Most were dropped as idioms, proper nouns or compounds that already have entries (the scan sees them inside their own entry's examples), as kanji spellings of kana headwords, or as free compounds. Queue 23 → 45.
-
