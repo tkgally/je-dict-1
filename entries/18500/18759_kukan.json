@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Common collocations: {区間|くかん}⟦{運転|うんてん}→運転：01335_unten⟧ (service on a limited section of a train line), {区間|くかん}{快速|かいそく} (semi-rapid train that runs express on a limited section). In mathematics, {区間|くかん} refers to an interval on a number line. Often appears on train signs and announcements to indicate which portion of a route is affected by delays or service changes. Related: ⟦{区域|くいき}→区域：00251_kuiki⟧ (area, zone — refers to a two-dimensional area rather than a linear section).",
+  "notes": "In train timetables and announcements, {区間|くかん} marks the stretch of line that a delay, suspension or special service applies to. In mathematics it means an interval on a number line.\n\nCOMMON COLLOCATIONS:\n- {区間|くかん}⟦{運転|うんてん}→運転：01335_unten⟧ — service on only part of a line (e.g. after an accident)\n- {区間|くかん}{快速|かいそく} — a train that runs as a rapid on part of its route and stops at every station elsewhere\n- ⟦{運休|うんきゅう}→運休：06807_unkyuu⟧{区間|くかん} — the section where service is suspended\n- {区間|くかん}{賞|しょう} — the best time on one leg of an ekiden relay\n\nSIMILAR WORDS:\n- ⟦{区域|くいき}→区域：00251_kuiki⟧ — an area or zone; {区間|くかん} is a stretch along a line",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00251_kuiki",
+      "reading": "くいき",
+      "headword": "{区域|くいき}",
+      "label": "an area or zone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-23T03:32:12Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-10-17T00:29:03Z"
   }
 }
