@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Common collocations: {純度|じゅんど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧ (high/low purity), {高|こう}{純度|じゅんど} (high purity — as a compound modifier). The suffix ～⟦{度|ど}→〜度：09845_do⟧ indicates degree or level, as in ⟦{濃度|のうど}→濃度：00325_noudo⟧ (concentration), ⟦{精度|せいど}→精度：13787_seido⟧ (precision), ⟦{鮮度|せんど}→鮮度：14643_sendo⟧ (freshness). Gold purity in Japan is expressed as {純度|じゅんど}: 24{金|きん} (⟦{純金|じゅんきん}→純金：16997_junkin⟧, pure gold), 18{金|きん} (75% purity). Related: ⟦{純粋|じゅんすい}→純粋：08673_junsui⟧ (pure — used more broadly, including figuratively for people).",
+  "notes": "The suffix 〜⟦{度|ど}→〜度：09845_do⟧ marks a degree or level, as in ⟦{濃度|のうど}→濃度：00325_noudo⟧ (concentration), ⟦{精度|せいど}→精度：13787_seido⟧ (precision) and ⟦{鮮度|せんど}→鮮度：14643_sendo⟧ (freshness).\n\nCOMMON COLLOCATIONS:\n- {純度|じゅんど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ / ⟦{低|ひく}い→低い：02947_hikui⟧ — high / low purity\n- {高|こう}{純度|じゅんど} — high-purity (as a modifier: {高|こう}{純度|じゅんど}⟦の→の：09472_no⟧⟦シリコン→シリコン：29883_shirikon⟧)\n- {純度|じゅんど}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ — to raise the purity\n\nCULTURAL NOTE:\nGold is usually graded in karats with {金|きん}: 24{金|きん} (pure gold, also ⟦{純金|じゅんきん}→純金：16997_junkin⟧) and 18{金|きん} (75 percent gold).\n\nSIMILAR WORDS:\n- ⟦{純粋|じゅんすい}→純粋：08673_junsui⟧ — pure; used more broadly, including for people and motives",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08673_junsui",
+      "reading": "じゅんすい",
+      "headword": "{純粋|じゅんすい}",
+      "label": "pure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,13 +64,14 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "quantity"
+        "quantity",
+        "science"
       ],
       "domain": [
         "technical"
       ]
     },
     "created": "2026-03-23T03:36:51Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-10-17T01:48:39Z"
   }
 }
