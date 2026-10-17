@@ -1608,3 +1608,13 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-17 [entry] 11250: ルート lacks the math sense "square root" (ルート2, ルートを開く), which is very common; needs a third sense with three examples.
 - 2026-10-17 [entry] 25498: audio checks heard さしおさえ for さしおささえ in 25498_shikkousuru_ex5; the furigana reads {押|おさ}さえ — should be {押|お}さえ.
 - 2026-10-17 [entry] 25422: audio checks heard だされた for でされた in 25422_touronkai_ex3; 意見が出された is read だされた — check the furigana {出|で}.
+- 2026-10-17 [entry] 25684: audio checks heard とおして for とおじて in 25684_nakamaishiki_ex2; 通じて is read つうじて — the furigana {通|とお}じて is wrong.
+- 2026-10-17 [entry] 26299: audio checks heard とおして/つうじて for とおじて in 26299_bunryuu_ex3; 通じて is read つうじて — the furigana {通|とお}じて is wrong.
+- 2026-10-17 [entry] 26540: audio checks heard あきらか/あきらみ for あきるみ in 26540_yuchakukankei_ex2; 明るみに出る is あかるみ — the furigana {明|あき}るみ is wrong.
+- 2026-10-17 [entry] 25875: audio checks heard てっせい for てつせい in 25875_tetsusei_ex2; 鉄製 is normally てっせい — check the headword reading and furigana.
+- 2026-10-17 [entry] 26419: audio checks heard ごしちちょう for ごしっちょう in 26419_goshicchou_ex1 and ex3; dictionaries give 五七調 as ごしちちょう — check the headword reading (curator: romaji change).
+- 2026-10-17 [entry] 26508: audio checks heard がっしょう/がんしょう for ごうしょう in 26508_goushou_ex2 and ex3; the camera term 合焦 is read がっしょう — check the headword reading (curator: romaji change).
+- 2026-10-17 [entry] 26649: audio checks heard こんはいいろ/こうはいいろ for のうはいいろ in 26649_nouhaiiro_ex1 and ex3; 濃灰色 is usually のうかいしょく — check the headword reading.
+- 2026-10-17 [entry] 26578: audio checks heard みずばしら for すいちゅう in 26578_suichuu_ex1; both readings exist, みずばしら is the commoner one — check which the entry should lead with.
+- 2026-10-17 [entry] 26352: audio checks heard よこめ for よこみ in 26352_yokomi_ex3; "glanced at the neighbour's answers" is 横目で, not 横見で — check the example.
+- 2026-10-17 [entry] 26349: audio checks heard のうさくもつ for のうさくぶつ in 26349_gaichou_ex2; 農作物 is usually のうさくもつ — check the furigana.
