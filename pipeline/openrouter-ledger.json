@@ -1,80 +1,15 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "daily_cap_usd": 15.0,
-  "spent_usd": 11.6544,
+  "spent_usd": 0.0086,
   "calls": [
     {
-      "ts": "2026-10-16T00:30:38Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 33,
-      "est_usd": 0.0159
-    },
-    {
-      "ts": "2026-10-16T00:46:24Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 33,
-      "est_usd": 0.017
-    },
-    {
-      "ts": "2026-10-16T01:03:18Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 990,
-      "est_usd": 0.4839
-    },
-    {
-      "ts": "2026-10-16T01:59:33Z",
-      "mode": "audio",
-      "phase": "production",
-      "entries": 1432,
-      "est_usd": 4.65,
-      "note": "estimated from run log; run calls were stopped after hanging, so the tool recorded 0"
-    },
-    {
-      "ts": "2026-10-16T02:13:12Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 23,
-      "est_usd": 0.0111
-    },
-    {
-      "ts": "2026-10-16T12:31:43Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 25,
-      "est_usd": 0.013
-    },
-    {
-      "ts": "2026-10-16T12:52:50Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 996,
-      "est_usd": 0.4805
-    },
-    {
-      "ts": "2026-10-16T13:46:40Z",
-      "mode": "audio",
-      "phase": "production",
-      "entries": 1820,
-      "est_usd": 5.97,
-      "note": "estimated: checker costs $3.41 from results + 2134 TTS calls at $0.0012; run calls hung waiting for billed-cost lookups and were stopped, so the tool recorded 0"
-    },
-    {
-      "ts": "2026-10-16T14:04:52Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 12,
-      "est_usd": 0.006
-    },
-    {
-      "ts": "2026-10-16T14:17:02Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 13,
-      "est_usd": 0.007
+      "ts": "2026-10-17T00:18:25Z",
+      "mode": "conjugation-check",
+      "phase": "conjugation-check",
+      "entries": 9,
+      "est_usd": 0.0086
     }
   ]
 }
