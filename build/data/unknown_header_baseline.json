@@ -1,89 +1,12 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-17T13:29:25Z",
+  "generated": "2026-10-17T14:10:51Z",
   "headers": {
     "11577_sutanpu": [
       "STAMP RALLY"
     ],
     "11583_sutajio": [
       "TV/RADIO"
-    ],
-    "17618_senmenjo": [
-      "COMMON ITEMS IN {洗面所|せんめんじょ}",
-      "JAPANESE HOUSE LAYOUT",
-      "RELATED ROOMS"
-    ],
-    "17619_datsuijo": [
-      "JAPANESE BATH CULTURE",
-      "PUBLIC BATHS"
-    ],
-    "17621_oyakodon": [
-      "RELATED {丼|どんぶり} DISHES"
-    ],
-    "17625_chanpon": [
-      "SENSE 1 (noodle dish)",
-      "SENSE 2 (mixing)"
-    ],
-    "17635_shokubai": [
-      "SENSE 1 (chemistry)"
-    ],
-    "17639_soukana": [
-      "CONTRAST WITH そうだね"
-    ],
-    "17640_soukamo": [
-      "AGREEMENT SPECTRUM"
-    ],
-    "17643_nandedarou": [
-      "POP CULTURE NOTE"
-    ],
-    "17644_majikayo": [
-      "COMMON RESPONSE PATTERNS"
-    ],
-    "17647_murida": [
-      "CONTRAST WITH だめだ"
-    ],
-    "17649_onakasuita": [
-      "RELATED BODY-STATE EXPRESSIONS"
-    ],
-    "17651_nanikore": [
-      "TONE VARIATIONS"
-    ],
-    "17654_unun": [
-      "BACK-CHANNELING ({相槌|あいづち})"
-    ],
-    "17656_sonnawakede": [
-      "SIMILAR CONNECTORS"
-    ],
-    "17657_tenawakede": [
-      "CONTRACTION PATH"
-    ],
-    "17658_suggoi": [
-      "EMPHASIS PATTERN"
-    ],
-    "17660_itsudemoii": [
-      "SCOPED USAGE"
-    ],
-    "17661_yacchatta": [
-      "CONTRACTION",
-      "〜ちゃった PATTERN"
-    ],
-    "17663_che": [
-      "FRUSTRATION SCALE"
-    ],
-    "17665_ryo": [
-      "ABBREVIATION CHAIN",
-      "ACKNOWLEDGMENT SCALE (casual to formal)"
-    ],
-    "17666_azasu": [
-      "ABBREVIATION PATH",
-      "GRATITUDE SCALE (casual to formal)"
-    ],
-    "17673_soosu": [
-      "SAUCE MEANING",
-      "SOURCE MEANING"
-    ],
-    "17681_deforume": [
-      "MEANING IN CONTEXT"
     ],
     "17727_bakusou": [
       "SENSE 1 - RECKLESS DRIVING",
