@@ -1606,3 +1606,5 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-16 [entry] 25195: audio checks heard かたしき for けいしき (型式) in 25195_keishiki_ex1 and ex2; for vehicle model designations かたしき is the usual reading — check the furigana and whether the entry should mention it.
 - 2026-10-16 [entry] 25219: audio checks heard おすめす for ゆうし (雄雌) in 25219_yuushi_ex1 and ex2; 雄雌 is usually read おすめす (the Sino reading is normally 雌雄 しゆう) — check the headword reading.
 - 2026-10-17 [entry] 11250: ルート lacks the math sense "square root" (ルート2, ルートを開く), which is very common; needs a third sense with three examples.
+- 2026-10-17 [entry] 25498: audio checks heard さしおさえ for さしおささえ in 25498_shikkousuru_ex5; the furigana reads {押|おさ}さえ — should be {押|お}さえ.
+- 2026-10-17 [entry] 25422: audio checks heard だされた for でされた in 25422_touronkai_ex3; 意見が出された is read だされた — check the furigana {出|で}.
