@@ -1,113 +1,12 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-17T01:36:22Z",
+  "generated": "2026-10-17T13:29:25Z",
   "headers": {
     "11577_sutanpu": [
       "STAMP RALLY"
     ],
     "11583_sutajio": [
       "TV/RADIO"
-    ],
-    "17203_ichigakki": [
-      "JAPANESE SCHOOL TERMS"
-    ],
-    "17266_nichiji": [
-      "SIMILAR TIME-FREQUENCY TERMS"
-    ],
-    "17271_yokomuki": [
-      "RELATED ORIENTATIONS"
-    ],
-    "17274_omieninaru": [
-      "FORMALITY LEVELS FOR 'TO COME'"
-    ],
-    "17290_jouzai": [
-      "MEDICINE FORMS"
-    ],
-    "17292_mikaiketsu": [
-      "RELATED {未|み}〜 WORDS"
-    ],
-    "17357_hirumeshi": [
-      "SAME REGISTER"
-    ],
-    "17361_shasenhenkou": [
-      "DRIVING CONTEXT"
-    ],
-    "17407_hicchaku": [
-      "IMPORTANT CONTRAST"
-    ],
-    "17428_kabegiwa": [
-      "SIMILAR ~{際|ぎわ} WORDS"
-    ],
-    "17476_meikyoku": [
-      "RELATED {名|めい}~ WORDS"
-    ],
-    "17484_kansenkeiro": [
-      "TYPES OF TRANSMISSION"
-    ],
-    "17492_mihosou": [
-      "THE {未|み}～ PREFIX"
-    ],
-    "17499_ichiisenshin": [
-      "SIMILAR FOUR-CHARACTER COMPOUNDS"
-    ],
-    "17558_suritsubusu": [
-      "COMMON IN COOKING"
-    ],
-    "17563_chikunensuu": [
-      "REAL ESTATE TERM"
-    ],
-    "17568_nikumareguchi": [
-      "NOTE ON CONSTRUCTION"
-    ],
-    "17572_gyoi": [
-      "HISTORICAL/ARCHAIC"
-    ],
-    "17574_kurozu": [
-      "HEALTH BENEFITS"
-    ],
-    "17577_purattohoomu": [
-      "NUMBERING"
-    ],
-    "17578_anpu": [
-      "RELATED EQUIPMENT"
-    ],
-    "17584_gyoushuku": [
-      "SENSE 1 (Physical condensation)",
-      "SENSE 2 (Metaphorical concentration)"
-    ],
-    "17585_youkai": [
-      "SENSE 1 (Dissolution)",
-      "SENSE 2 (Melting)"
-    ],
-    "17587_mineika": [
-      "HISTORICAL EXAMPLES IN JAPAN"
-    ],
-    "17591_shiokaze": [
-      "POETIC USAGE"
-    ],
-    "17594_nansai": [
-      "POLITENESS NOTE"
-    ],
-    "17595_akegata": [
-      "TIME OF DAY"
-    ],
-    "17599_shingetsu": [
-      "ASTRONOMY NOTE"
-    ],
-    "17601_sokobie": [
-      "KYOTO COLD"
-    ],
-    "17605_nagekomu": [
-      "RELATED 〜{込|こ}む VERBS"
-    ],
-    "17606_rishi": [
-      "JAPAN'S LOW INTEREST ERA"
-    ],
-    "17607_bunkatsubarai": [
-      "CREDIT CARDS IN JAPAN"
-    ],
-    "17608_ikkatsubarai": [
-      "CREDIT CARD USAGE"
     ],
     "17618_senmenjo": [
       "COMMON ITEMS IN {洗面所|せんめんじょ}",
@@ -700,9 +599,6 @@
     ],
     "20338_hitobanjuu": [
       "RELATED TIME + {中|じゅう} EXPRESSIONS"
-    ],
-    "20350_nademawasu": [
-      "RELATED COMPOUND VERBS WITH 〜{回|まわ}す"
     ],
     "20363_fukamidori": [
       "SIMILAR COLOR TERMS"
@@ -2005,9 +1901,6 @@
     ],
     "29098_shokushin": [
       "RELATED EXAMINATION TYPES"
-    ],
-    "29177_gakkyuuhada": [
-      "THE 〜{肌|はだ} SUFFIX"
     ],
     "29180_chuusankaikyuu": [
       "SIMILAR WORDS AND RELATED TERMS"
