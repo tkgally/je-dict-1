@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{毎夕|まいゆう} is a formal time word meaning \"every evening.\" In everyday conversation, ⟦{毎晩|まいばん}→毎晩：00967_maiban⟧ (every night) or ⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧ (every day in the evening) is more common.\n\nSERIES:\nPart of a series of ⟦{毎|まい}→毎〜：03968_mai⟧ + time compounds:\n- ⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧ (every morning)\n- {毎昼|まいひる} (every noon — rare)\n- {毎夕|まいゆう} (every evening)\n- ⟦{毎晩|まいばん}→毎晩：00967_maiban⟧ (every night)\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧ (every week)\n- ⟦{毎月|まいつき}→毎月：00732_maitsuki⟧ (every month)",
-  "cross_references": [],
+  "notes": "USAGE:\n{毎夕|まいゆう} is a formal time word meaning \"every evening.\" In everyday conversation, ⟦{毎晩|まいばん}→毎晩：00967_maiban⟧ (every night) or ⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧ (every day in the evening) is more common.\n\nRELATED WORDS:\nPart of a series of ⟦{毎|まい}→毎〜：03968_mai⟧ + time compounds:\n- ⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧ (every morning)\n- {毎昼|まいひる} (every noon — rare)\n- {毎夕|まいゆう} (every evening)\n- ⟦{毎晩|まいばん}→毎晩：00967_maiban⟧ (every night)\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧ (every week)\n- ⟦{毎月|まいつき}→毎月：00732_maitsuki⟧ (every month)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00966_maiasa",
+      "reading": "まいあさ",
+      "headword": "{毎朝|まいあさ}",
+      "label": "every morning"
+    },
+    {
+      "type": "related",
+      "target_id": "00967_maiban",
+      "reading": "まいばん",
+      "headword": "{毎晩|まいばん}",
+      "label": "every night"
+    },
+    {
+      "type": "related",
+      "target_id": "00730_maishuu",
+      "reading": "まいしゅう",
+      "headword": "{毎週|まいしゅう}",
+      "label": "every week"
+    },
+    {
+      "type": "related",
+      "target_id": "00732_maitsuki",
+      "reading": "まいつき",
+      "headword": "{毎月|まいつき}",
+      "label": "every month"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T08:44:37Z",
-    "modified": "2026-09-02T04:01:40Z",
+    "modified": "2026-10-17T01:34:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
