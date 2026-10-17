@@ -98,7 +98,7 @@
     {
       "sense_number": 1,
       "gloss": "to stroke all over; to pet repeatedly; to rub lovingly",
-      "explanation": "To run one's hands over something or someone repeatedly and affectionately. Often used when petting an animal or touching something with great care or affection."
+      "explanation": "To run one's hands over something repeatedly. Used for petting an animal or handling a cherished object with care; with a person as the object it usually suggests unwelcome touching."
     }
   ],
   "examples": [
@@ -133,8 +133,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb from ⟦{撫|な}でる→撫でる：04411_naderu⟧ (to stroke, to pet) + ⟦{回|まわ}す→回す：01158_mawasu⟧ (to turn, to move around). Godan verb conjugating as {撫|な}で{回|まわ}さない, {撫|な}で{回|まわ}します, etc. The 〜⟦{回|まわ}す→回す：01158_mawasu⟧ suffix adds the nuance of doing something thoroughly or all over.\n\nCOMMON COLLOCATIONS:\n- ⟦{猫|ねこ}→猫：02237_neko⟧⟦を→を：00422_wo⟧{撫|な}で{回|まわ}す: to pet a cat all over\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧{撫|な}で{回|まわ}す: to stroke someone's head repeatedly\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{撫|な}で{回|まわ}す: to rub one's body all over\n\nRELATED COMPOUND VERBS WITH 〜{回|まわ}す:\n- ⟦{振|ふ}り{回|まわ}す→振り回す：06051_furimawasu⟧: to swing around\n- ⟦{走|はし}り{回|まわ}る→走り回る：04608_hashirimawaru⟧: to run around\n- ⟦{見|み}{回|まわ}す→見回す：05545_mimawasu⟧: to look around",
+  "notes": "A compound verb from ⟦{撫|な}でる→撫でる：04411_naderu⟧ (to stroke, to pet) + ⟦{回|まわ}す→回す：01158_mawasu⟧ (to turn, to move around). Godan verb conjugating as {撫|な}で{回|まわ}さない, {撫|な}で{回|まわ}します, etc. The 〜⟦{回|まわ}す→回す：01158_mawasu⟧ suffix adds the nuance of doing something thoroughly or all over.\n\nCOMMON COLLOCATIONS:\n- ⟦{猫|ねこ}→猫：02237_neko⟧⟦を→を：00422_wo⟧{撫|な}で{回|まわ}す: to pet a cat all over\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧{撫|な}で{回|まわ}す: to stroke someone's head repeatedly\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{撫|な}で{回|まわ}す: to run one's hands all over someone's body\n\nRELATED WORDS:\n- ⟦{振|ふ}り{回|まわ}す→振り回す：06051_furimawasu⟧: to swing around\n- ⟦{見|み}{回|まわ}す→見回す：05545_mimawasu⟧: to look around\n- ⟦{掻|か}き{回|まわ}す→掻き回す：09915_kakimawasu⟧: to stir; to mess up\n\nWATCH OUT:\nWith another person's body as the object, {撫|な}で{回|まわ}す usually suggests unwanted, groping touching, not affection.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06051_furimawasu",
+      "reading": "ふりまわす",
+      "headword": "{振|ふ}り{回|まわ}す",
+      "label": "to swing around"
+    },
+    {
+      "type": "related",
+      "target_id": "05545_mimawasu",
+      "reading": "みまわす",
+      "headword": "{見回|みまわ}す",
+      "label": "to look around"
+    },
+    {
+      "type": "related",
+      "target_id": "09915_kakimawasu",
+      "reading": "かきまわす",
+      "headword": "{掻|か}き{回|まわ}す",
+      "label": "to stir"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +173,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-28T21:20:24Z",
-    "modified": "2026-09-02T04:01:59Z"
+    "modified": "2026-10-17T01:50:21Z"
   }
 }
