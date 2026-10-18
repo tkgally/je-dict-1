@@ -1626,4 +1626,4 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-18 [entry] 27104: audio checks heard がっこうがえり for がっこうかえり in 27104_geemusentaa_ex2; 学校帰り takes rendaku (がえり) — check the furigana on 帰り.
 - 2026-10-18 [entry] 04369: in 04369_kaben_ex2 the TTS voice read 花弁 as はなびら although the furigana says かべん; the furigana is right (botanical sense), the example is held for a human.
 - 2026-10-18 [entry] 01210 植える: sense 2 (to instill) is illustrated only by 植えつける, which has its own entry 19913; consider dropping the sense or using bare 植える examples.
-- 2026-10-18 [entry] 27566: audio checks rejected 27566_mizuame_ex1; its furigana is {祭|まつり}り (reads まつりり) and should be {祭|まつ}り — fix the furigana.
+- 2026-10-18 [entry] 27566: audio checks rejected 27566_mizuame_ex1; its furigana is {祭|まつり}り (reads まつりり) and should be {祭|まつ}り — fix the furigana. [done 2026-10-18 routine #012]
