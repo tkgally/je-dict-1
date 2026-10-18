@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{本州|ほんしゅう} is the largest and most populous of Japan's four main islands, containing roughly 80% of the country's population.\n\nWRITING:\n{本|ほん} (main, true) + ⟦{州|しゅう}→州：03205_shuu⟧ (province, state). Literally \"main province.\"\n\nJAPAN'S FOUR MAIN ISLANDS:\n- ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧: Hokkaido (northernmost)\n- {本州|ほんしゅう}: Honshu (largest, central)\n- ⟦{四国|しこく}→四国：21447_shikoku⟧: Shikoku (smallest of the four)\n- ⟦{九州|きゅうしゅう}→九州：15647_kyuushuu⟧: Kyushu (southernmost)\n\nREGIONS ON HONSHU:\n- ⟦{東北|とうほく}→東北：27542_touhoku⟧: Tohoku (northeast)\n- ⟦{関東|かんとう}→関東：00186_kantou⟧: Kanto (includes Tokyo)\n- ⟦{中部|ちゅうぶ}→中部：11367_chuubu⟧: Chubu (central)\n- ⟦{近畿|きんき}→近畿：17061_kinki⟧/⟦{関西|かんさい}→関西：00179_kansai⟧: Kinki/Kansai (includes Osaka, Kyoto)\n- ⟦{中国|ちゅうごく}→中国：28300_chuugoku⟧: Chugoku (western)\n\nHonshu is the seventh-largest island in the world by area.",
+  "notes": "{本州|ほんしゅう} is the largest and most populous of Japan's four main islands, containing roughly 80% of the country's population.\n\nETYMOLOGY:\n{本|ほん} (main, true) + ⟦{州|しゅう}→州：03205_shuu⟧ (province, state). Literally \"main province.\"\n\nRELATED WORDS:\nJapan's four main islands:\n- ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧: Hokkaido (northernmost)\n- {本州|ほんしゅう}: Honshu (largest, central)\n- ⟦{四国|しこく}→四国：21447_shikoku⟧: Shikoku (smallest of the four)\n- ⟦{九州|きゅうしゅう}→九州：15647_kyuushuu⟧: Kyushu (southernmost)\n\nRegions on Honshu:\n- ⟦{東北|とうほく}→東北：27542_touhoku⟧: Tohoku (northeast)\n- ⟦{関東|かんとう}→関東：00186_kantou⟧: Kanto (includes Tokyo)\n- ⟦{中部|ちゅうぶ}→中部：11367_chuubu⟧: Chubu (central)\n- ⟦{近畿|きんき}→近畿：17061_kinki⟧/⟦{関西|かんさい}→関西：00179_kansai⟧: Kinki/Kansai (includes Osaka, Kyoto)\n- ⟦{中国|ちゅうごく}→中国：28300_chuugoku⟧: Chugoku (western)\n\nCULTURAL NOTE:\nHonshu is the seventh-largest island in the world by area.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,6 +74,62 @@
       "reading": "しま",
       "headword": "{島|しま}",
       "label": "island"
+    },
+    {
+      "type": "related",
+      "target_id": "11010_hokkaidou",
+      "reading": "ほっかいどう",
+      "headword": "{北海道|ほっかいどう}",
+      "label": "Hokkaido"
+    },
+    {
+      "type": "related",
+      "target_id": "21447_shikoku",
+      "reading": "しこく",
+      "headword": "{四国|しこく}",
+      "label": "Shikoku"
+    },
+    {
+      "type": "related",
+      "target_id": "27542_touhoku",
+      "reading": "とうほく",
+      "headword": "{東北|とうほく}",
+      "label": "Tohoku"
+    },
+    {
+      "type": "related",
+      "target_id": "00186_kantou",
+      "reading": "かんとう",
+      "headword": "{関東|かんとう}",
+      "label": "Kanto"
+    },
+    {
+      "type": "related",
+      "target_id": "11367_chuubu",
+      "reading": "ちゅうぶ",
+      "headword": "{中部|ちゅうぶ}",
+      "label": "Chubu"
+    },
+    {
+      "type": "related",
+      "target_id": "17061_kinki",
+      "reading": "きんき",
+      "headword": "{近畿|きんき}",
+      "label": "Kinki/Kansai"
+    },
+    {
+      "type": "related",
+      "target_id": "00179_kansai",
+      "reading": "かんさい",
+      "headword": "{関西|かんさい}",
+      "label": "Kinki/Kansai"
+    },
+    {
+      "type": "related",
+      "target_id": "28300_chuugoku",
+      "reading": "ちゅうごく",
+      "headword": "{中国|ちゅうごく}",
+      "label": "Chugoku"
     }
   ],
   "metadata": {
@@ -91,6 +147,6 @@
       ]
     },
     "created": "2026-03-22T04:42:37Z",
-    "modified": "2026-10-08T06:23:31Z"
+    "modified": "2026-10-18T00:52:55Z"
   }
 }
