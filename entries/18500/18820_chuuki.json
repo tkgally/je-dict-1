@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The middle portion of a defined time span, used in historical, business, and general contexts.\n\nTIME PERIOD SET:\n- ⟦{初期|しょき}→初期：11742_shoki⟧: early period\n- {中期|ちゅうき}: middle period\n- ⟦{後期|こうき}→後期：12603_kouki⟧: late period\n\nPLANNING HORIZON SET:\n- ⟦{短期|たんき}→短期：04050_tanki⟧: short-term (typically under 1 year)\n- {中期|ちゅうき}: medium-term (typically 3-5 years)\n- ⟦{長期|ちょうき}→長期：03487_chouki⟧: long-term (5+ years)\n\nCOMMON EXPRESSIONS:\n- {中期|ちゅうき}{経営|けいえい}{計画|けいかく}: medium-term management plan\n- {中期|ちゅうき}⟦{目標|もくひょう}→目標：03631_mokuhyou⟧: medium-term goal\n- {中期|ちゅうき}{的|てき}な: medium-term (adjectival)\n- 〜⟦{時代|じだい}→時代：01424_jidai⟧{中期|ちゅうき}: mid-~ period (e.g., ⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧{中期|ちゅうき})",
+  "notes": "The middle portion of a defined time span, used in historical, business, and general contexts.\n\nRELATED WORDS (periods):\n- ⟦{初期|しょき}→初期：11742_shoki⟧: early period\n- ⟦{後期|こうき}→後期：12603_kouki⟧: late period\n\nRELATED WORDS (planning):\nAs a planning term, {中期|ちゅうき} usually means three to five years:\n- ⟦{短期|たんき}→短期：04050_tanki⟧: short-term (typically under 1 year)\n- ⟦{長期|ちょうき}→長期：03487_chouki⟧: long-term (5+ years)\n\nCOMMON EXPRESSIONS:\n- {中期|ちゅうき}{経営|けいえい}{計画|けいかく}: medium-term management plan\n- {中期|ちゅうき}⟦{目標|もくひょう}→目標：03631_mokuhyou⟧: medium-term goal\n- {中期|ちゅうき}{的|てき}な: medium-term (adjectival)\n- 〜⟦{時代|じだい}→時代：01424_jidai⟧{中期|ちゅうき}: mid-~ period (e.g., ⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧{中期|ちゅうき})",
   "synonyms": [],
   "antonyms": [],
   "related": [],
@@ -56,6 +56,27 @@
       "reading": "ちょうき",
       "headword": "{長期|ちょうき}",
       "label": "long-term, long period"
+    },
+    {
+      "type": "related",
+      "target_id": "11742_shoki",
+      "reading": "しょき",
+      "headword": "{初期|しょき}",
+      "label": "early period"
+    },
+    {
+      "type": "related",
+      "target_id": "12603_kouki",
+      "reading": "こうき",
+      "headword": "{後期|こうき}",
+      "label": "late period"
+    },
+    {
+      "type": "related",
+      "target_id": "04050_tanki",
+      "reading": "たんき",
+      "headword": "{短期|たんき}",
+      "label": "short-term"
     }
   ],
   "metadata": {
@@ -71,6 +92,6 @@
       ]
     },
     "created": "2026-03-23T04:44:36Z",
-    "modified": "2026-10-10T00:36:58Z"
+    "modified": "2026-10-18T12:57:35Z"
   }
 }
