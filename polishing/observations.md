@@ -1618,3 +1618,5 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-17 [entry] 26578: audio checks heard みずばしら for すいちゅう in 26578_suichuu_ex1; both readings exist, みずばしら is the commoner one — check which the entry should lead with.
 - 2026-10-17 [entry] 26352: audio checks heard よこめ for よこみ in 26352_yokomi_ex3; "glanced at the neighbour's answers" is 横目で, not 横見で — check the example.
 - 2026-10-17 [entry] 26349: audio checks heard のうさくもつ for のうさくぶつ in 26349_gaichou_ex2; 農作物 is usually のうさくもつ — check the furigana.
+- 2026-10-18 [pattern] In 11302–11341 (general tier, Sept 2 notes), about one entry in three ends with a headerless paragraph after the last bulleted section, and about one in four has a SIMILAR WORDS or RELATED WORDS bullet naming the headword itself (11303, 11307, 11311, 11321, 11323, 11326, 11328, 11330, 11331, 11333). Both are mechanical to detect; a detector would let systemic-fix clear them ahead of the polish frontier.
+- 2026-10-18 [entry] 03717 / 00110: 頬 has two entries, ほお (03717) and ほほ (00110), with overlapping notes; now cross-referenced as synonyms. Whether to merge is a curator call.

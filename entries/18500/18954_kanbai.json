@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {完|かん} (complete) + {売|ばい} (sell). Indicates that all stock or tickets have been sold with none remaining.\n\nCOMMON PATTERNS:\n- {完売|かんばい}⟦する→する：00392_suru⟧: to sell out (active)\n- {完売|かんばい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become sold out (change of state)\n- {完売|かんばい}⟦{済|ず}み→〜済み：04013_zumi⟧: sold out (already completed)\n- {完売|かんばい}{御礼|おんれい}: thank you, sold out (seen on signs)\n\nCOMMON COLLOCATIONS:\n- ⟦チケット→チケット：11014_chiketto⟧⟦が→が：00051_ga⟧{完売|かんばい}⟦する→する：00392_suru⟧: tickets sell out\n- ⟦{即日|そくじつ}→即日：09661_sokujitsu⟧{完売|かんばい}: sold out the same day\n- ⟦{発売|はつばい}{開始|かいし}→発売開始：22166_hatsubaikaishi⟧⟦{直後|ちょくご}→直後：04525_chokugo⟧⟦に→に：00314_ni⟧{完売|かんばい}: sold out immediately after going on sale\n\nSIMILAR WORDS:\n- ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧: sold out (more colloquial, used in everyday speech and shop signs)\n- ⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧: out of stock (focuses on availability rather than sales)\n\nREGISTER:\n{完売|かんばい} is more formal than ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧ and is commonly used in business, event, and media contexts.",
+  "notes": "Composed of {完|かん} (complete) + {売|ばい} (sell). Indicates that all stock or tickets have been sold with none remaining.\n\nCOMMON PATTERNS:\n- {完売|かんばい}⟦する→する：00392_suru⟧: to sell out (active)\n- {完売|かんばい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become sold out (change of state)\n- {完売|かんばい}⟦{済|ず}み→〜済み：04013_zumi⟧: sold out (already completed)\n- {完売|かんばい}⟦{御礼|おんれい}→御礼：31158_onrei⟧: thank you, sold out (seen on signs)\n\nCOMMON COLLOCATIONS:\n- ⟦チケット→チケット：11014_chiketto⟧⟦が→が：00051_ga⟧{完売|かんばい}⟦する→する：00392_suru⟧: tickets sell out\n- ⟦{即日|そくじつ}→即日：09661_sokujitsu⟧{完売|かんばい}: sold out the same day\n- ⟦{発売|はつばい}{開始|かいし}→発売開始：22166_hatsubaikaishi⟧⟦{直後|ちょくご}→直後：04525_chokugo⟧⟦に→に：00314_ni⟧{完売|かんばい}: sold out immediately after going on sale\n\nSIMILAR WORDS:\n- ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧: sold out (more colloquial, used in everyday speech and shop signs)\n- ⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧: out of stock (focuses on availability rather than sales)\n\nREGISTER:\n{完売|かんばい} is more formal than ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧ and is commonly used in business, event, and media contexts.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -171,6 +171,13 @@
       "reading": "さいにゅうか",
       "headword": "{再|さい}{入荷|にゅうか}",
       "label": "restocking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03012_urikireru",
+      "reading": "うりきれる",
+      "headword": "{売|う}り{切|き}れる",
+      "label": "to be sold out"
     }
   ],
   "metadata": {
@@ -189,6 +196,6 @@
       "transitivity": "intransitive"
     },
     "created": "2026-03-23T10:20:50Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-10-18T00:26:54Z"
   }
 }

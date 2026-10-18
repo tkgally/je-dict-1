@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{売|う}り{切|き}れる is a compound verb meaning to be completely sold.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Related noun: ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧ (sold-out state)\n\nCOMMON PATTERNS:\n- ⟦チケット→チケット：11014_chiketto⟧⟦が→が：00051_ga⟧{売|う}り{切|き}れる (tickets sell out)\n- ⟦{完売|かんばい}→完売：18954_kanbai⟧⟦する→する：00392_suru⟧ (to be sold out - formal)\n- ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧て⟦いる→いる：00495_iru⟧ (is sold out - state)\n\nASPECT (ている):\n⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧て⟦いる→いる：00495_iru⟧ indicates the resulting state of being sold out, not an ongoing process.",
+  "notes": "{売|う}り{切|き}れる means that every item on sale has been sold and none is left. The subject is the goods (⟦チケット→チケット：11014_chiketto⟧, ⟦パン→パン：00553_pan⟧, ⟦{商品|しょうひん}→商品：01436_shouhin⟧), marked with が.\n\nTRANSITIVITY:\n- ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). The transitive counterpart ⟦{売|う}り→売る：00906_uru⟧⟦{切|き}る→切る：02693_kiru⟧ (to sell all of one's stock) takes ⟦を→を：00422_wo⟧ and the seller as subject.\n- Related noun: ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧ (sold out), the word on shop signs and vending-machine buttons.\n\nCOMMON PATTERNS:\n- ⟦チケット→チケット：11014_chiketto⟧⟦が→が：00051_ga⟧{売|う}り{切|き}れる (tickets sell out)\n- ⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{売|う}り{切|き}れる (sell out right away)\n- {売|う}り{切|き}れて⟦いる→いる：00495_iru⟧ (is sold out: a state)\n\nASPECT (ている):\n{売|う}り{切|き}れて⟦いる→いる：00495_iru⟧ describes the resulting state (there are none left), not an ongoing process.\n\nSIMILAR WORDS:\n- ⟦{完売|かんばい}→完売：18954_kanbai⟧⟦する→する：00392_suru⟧: same meaning, more formal; used in announcements and news (⟦{全席|ぜんせき}→全席：24363_zenseki⟧⟦{完売|かんばい}→完売：18954_kanbai⟧, all seats sold).",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,18 @@
       "reading": "うれのこる",
       "headword": "{売|う}れ{残|のこ}る",
       "label": "to remain unsold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18954_kanbai",
+      "reading": "かんばい",
+      "headword": "{完売|かんばい}",
+      "label": "same meaning, more formal"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-09-04T12:31:07Z",
+    "modified": "2026-10-18T00:25:21Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -86,7 +93,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "shopping"
       ],
       "verb_class": "ichidan"
     }
