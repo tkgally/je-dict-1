@@ -1,128 +1,12 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-18T00:54:58Z",
+  "generated": "2026-10-18T12:58:49Z",
   "headers": {
     "11577_sutanpu": [
       "STAMP RALLY"
     ],
     "11583_sutajio": [
       "TV/RADIO"
-    ],
-    "18530_gessho": [
-      "MONTH DIVISIONS"
-    ],
-    "18531_gutsugutsu": [
-      "RELATED COOKING ONOMATOPOEIA (from gentle to vigorous)"
-    ],
-    "18535_juuketsu": [
-      "MOST COMMON USE"
-    ],
-    "18544_hitonigiri": [
-      "RELATED QUANTITY WORDS"
-    ],
-    "18570_daredare": [
-      "RELATED REDUPLICATION PATTERNS"
-    ],
-    "18574_kabashira": [
-      "WHEN AND WHERE"
-    ],
-    "18576_ban": [
-      "GAME BOARD COMPOUNDS"
-    ],
-    "18593_nanamemukai": [
-      "RELATED SPATIAL TERMS"
-    ],
-    "18631_betsuuri": [
-      "TYPICAL ITEMS MARKED {別売|べつう}り"
-    ],
-    "18634_torinaoshi": [
-      "SIMILAR ～{直|なお}し WORDS"
-    ],
-    "18651_shoushinshoumei": [
-      "STRENGTH COMPARISON"
-    ],
-    "18655_inko": [
-      "COMMON SPECIES IN JAPAN"
-    ],
-    "18656_kyouwa": [
-      "COUNTRY NAME EXAMPLES"
-    ],
-    "18658_sashou": [
-      "VISA TYPES (using ビザ in everyday speech)"
-    ],
-    "18660_taishibou": [
-      "TYPES OF FAT"
-    ],
-    "18668_natsuyasai": [
-      "TYPICAL SUMMER VEGETABLES"
-    ],
-    "18684_nikkin": [
-      "RELATED SHIFT TERMS"
-    ],
-    "18691_oikaesu": [
-      "SIMILAR {追|お}い～ COMPOUNDS"
-    ],
-    "18694_akeru": [
-      "THREE あける VERBS"
-    ],
-    "18695_keiyakuwomusubu": [
-      "TYPES OF CONTRACTS"
-    ],
-    "18697_maibyou": [
-      "RELATED {毎|まい}〜 SERIES"
-    ],
-    "18705_kieuseru": [
-      "IMPERATIVE FORM"
-    ],
-    "18728_tsuranuku": [
-      "INTENSIFIED FORM"
-    ],
-    "18730_monogataru": [
-      "SENSE 1 - NARRATE",
-      "SENSE 2 - INDICATE/REVEAL"
-    ],
-    "18736_uranai": [
-      "TYPES OF {占|うらな}い"
-    ],
-    "18741_haramochi": [
-      "FOODS OFTEN DESCRIBED THIS WAY",
-      "THE ～{持|も}ち PATTERN"
-    ],
-    "18744_kyuukon": [
-      "WELL-KNOWN BULB PLANTS"
-    ],
-    "18756_tomogui": [
-      "FIGURATIVE/BUSINESS SENSE"
-    ],
-    "18798_tokka": [
-      "RELATED PRICING TERMS"
-    ],
-    "18800_shashu": [
-      "SIMILAR ～{種|しゅ} WORDS"
-    ],
-    "18804_hatsushimo": [
-      "RELATED SEASONAL FIRSTS"
-    ],
-    "18805_karaseki": [
-      "MEDICAL SENSE",
-      "SOCIAL SENSE"
-    ],
-    "18809_kichou": [
-      "BANKING USAGE",
-      "CEREMONIAL USAGE"
-    ],
-    "18813_keiai": [
-      "TYPICAL TARGETS"
-    ],
-    "18818_osoban": [
-      "SHIFT SYSTEM"
-    ],
-    "18819_kinai": [
-      "SIMILAR 〜{内|ない} LOCATION WORDS"
-    ],
-    "18820_chuuki": [
-      "PLANNING HORIZON SET",
-      "TIME PERIOD SET"
     ],
     "18837_nomikawasu": [
       "OTHER ～{交|か}わす VERBS"
