@@ -12,7 +12,7 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 | General tier | 29,122 (open — all new entries here) |
 | Next entry ID | 32125 |
 | Candidate words | 72 |
-| Cross-references | ~84,500 |
+| Cross-references | ~84,600 |
 | Example sentences | ~123,500 |
 
 ## Critical Rules
