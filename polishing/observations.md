@@ -1627,3 +1627,10 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-18 [entry] 04369: in 04369_kaben_ex2 the TTS voice read 花弁 as はなびら although the furigana says かべん; the furigana is right (botanical sense), the example is held for a human.
 - 2026-10-18 [entry] 01210 植える: sense 2 (to instill) is illustrated only by 植えつける, which has its own entry 19913; consider dropping the sense or using bare 植える examples.
 - 2026-10-18 [entry] 27566: audio checks rejected 27566_mizuame_ex1; its furigana is {祭|まつり}り (reads まつりり) and should be {祭|まつ}り — fix the furigana. [done 2026-10-18 routine #012]
+- 2026-10-19 [entry] 28470: audio checks heard いちわりびき for {一|いっ}{割|わり}{引|び}き in 28470_biki_ex3; check the furigana (一割引き is いちわりびき).
+- 2026-10-19 [entry] 28475: audio checks heard おねがいします in 28475_juunin_ex2; the markup {お願|ねが}い puts お inside the braces so the reading drops it; check the furigana (お{願|ねが}い).
+- 2026-10-19 [entry] 28659: audio checks heard くちょう for {口|くち}{調|ちょう} in 28659_mukatte_ex3; check the furigana ({口調|くちょう}).
+- 2026-10-19 [entry] 28889: audio checks heard ながおし for {長押|なが}し in 28889_nagaoshi_ex1–ex3; check the furigana ({長押|ながお}し), probably the headword too.
+- 2026-10-19 [entry] 28671: audio checks heard まぬけだ in 28671_manukeru_ex3 (…{自分|じぶん}でも{間抜|まぬ}けたと{思|おも}う); the sentence wants the noun 間抜けだ, so the example does not show the verb; rewrite it.
+- 2026-10-19 [entry] 28618: audio checks heard しょうしかたいさく for {少子|しょうし}{対策|たいさく} in 28618_shoushi_ex3; the usual phrase is 少子化対策; consider rewording.
+- 2026-10-19 [tooling] audio_pipeline.py plan sized 2,164 examples for a $5.40 budget at its per-example estimate, but the run cost $0.00285 per accepted example and finished at $6.08 (13 percent over); `run` did not stop for budget because the plan was already fixed. Consider planning with the measured cost per example (drift reports 0.00287).
