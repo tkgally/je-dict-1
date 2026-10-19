@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "The highest-ranked fortune on an おみくじ (fortune slip) drawn at shrines and temples. {大|だい} means 'great' and ⟦{吉|きち}→吉：19344_kichi⟧ means 'good fortune.'\n\nOMIKUJI FORTUNE RANKINGS (from best to worst):\n- {大吉|だいきち} — great blessing\n- ⟦{吉|きち}→吉：19344_kichi⟧ — blessing\n- ⟦{中吉|ちゅうきち}→中吉：29072_chuukichi⟧ — moderate blessing\n- ⟦{小吉|しょうきち}→小吉：29073_shoukichi⟧ — small blessing\n- ⟦{末吉|すえきち}→末吉：29074_suekichi⟧ — near-blessing\n- ⟦{凶|きょう}→凶：19345_kyou⟧ — bad luck\n- ⟦{大凶|だいきょう}→大凶：25063_daikyou⟧ — terrible luck\n\nCOMMON COLLOCATIONS:\n- {大吉|だいきち}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ — to draw the best fortune\n- {大吉|だいきち}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ — to get the best fortune\n- おみくじ⟦で→で：00502_de⟧{大吉|だいきち} — best fortune on an omikuji\n\nCULTURAL NOTE:\nDrawing おみくじ is a popular custom at ⟦{初詣|はつもうで}→初詣：05804_hatsumoude⟧ (first shrine visit of the year). Getting {大吉|だいきち} is considered very auspicious. Some people tie bad fortune slips to a tree at the shrine to leave the bad luck behind, while keeping {大吉|だいきち} slips.",
+  "notes": "The highest-ranked fortune on an おみくじ (fortune slip) drawn at shrines and temples. {大|だい} means 'great' and ⟦{吉|きち}→吉：19344_kichi⟧ means 'good fortune.'\n\nRELATED WORDS:\nThe other omikuji fortunes, from best to worst (the exact order varies by shrine):\n- ⟦{吉|きち}→吉：19344_kichi⟧ — blessing\n- ⟦{中吉|ちゅうきち}→中吉：29072_chuukichi⟧ — moderate blessing\n- ⟦{小吉|しょうきち}→小吉：29073_shoukichi⟧ — small blessing\n- ⟦{末吉|すえきち}→末吉：29074_suekichi⟧ — near-blessing\n- ⟦{凶|きょう}→凶：19345_kyou⟧ — bad luck\n- ⟦{大凶|だいきょう}→大凶：25063_daikyou⟧ — terrible luck\n\nCOMMON COLLOCATIONS:\n- {大吉|だいきち}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ — to draw the best fortune\n- {大吉|だいきち}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ — to get the best fortune\n- おみくじ⟦で→で：00502_de⟧{大吉|だいきち} — best fortune on an omikuji\n\nCULTURAL NOTE:\nDrawing おみくじ is a popular custom at ⟦{初詣|はつもうで}→初詣：05804_hatsumoude⟧ (first shrine visit of the year). Getting {大吉|だいきち} is considered very auspicious. Some people tie bad fortune slips to a tree at the shrine to leave the bad luck behind, while keeping {大吉|だいきち} slips.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29072_chuukichi",
+      "reading": "ちゅうきち",
+      "headword": "{中吉|ちゅうきち}",
+      "label": "moderate blessing"
+    },
+    {
+      "type": "related",
+      "target_id": "29073_shoukichi",
+      "reading": "しょうきち",
+      "headword": "{小吉|しょうきち}",
+      "label": "small blessing"
+    },
+    {
+      "type": "related",
+      "target_id": "29074_suekichi",
+      "reading": "すえきち",
+      "headword": "{末吉|すえきち}",
+      "label": "near-blessing"
+    },
+    {
+      "type": "related",
+      "target_id": "19345_kyou",
+      "reading": "きょう",
+      "headword": "{凶|きょう}",
+      "label": "bad luck"
+    },
+    {
+      "type": "related",
+      "target_id": "25063_daikyou",
+      "reading": "だいきょう",
+      "headword": "{大凶|だいきょう}",
+      "label": "terrible luck"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-03-25T08:42:08Z",
-    "modified": "2026-09-02T04:01:55Z"
+    "modified": "2026-10-19T12:31:16Z"
   }
 }

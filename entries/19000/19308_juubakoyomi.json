@@ -4,7 +4,7 @@
   "reading": "じゅうばこよみ",
   "romaji": "juubakoyomi",
   "part_of_speech": "noun",
-  "gloss": "on'yomi + kun'yomi reading of a kanji compound",
+  "gloss": "on'yomi-then-kun'yomi reading of a kanji compound",
   "definitions": [
     {
       "sense_number": 1,
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A linguistics term useful for understanding kanji compound readings. The word ⟦{重箱|じゅうばこ}→重箱：22377_juubako⟧ (tiered food box) itself demonstrates the pattern: {重|じゅう} is on'yomi and {箱|ばこ} is kun'yomi.\n\nCOMMON EXAMPLES OF THIS READING PATTERN:\n- ⟦{重箱|じゅうばこ}→重箱：22377_juubako⟧ — tiered box (on + kun)\n- ⟦{台所|だいどころ}→台所：01021_daidokoro⟧ — kitchen (on + kun)\n- ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧ — program (on + kun)\n- ⟦{本棚|ほんだな}→本棚：04489_hondana⟧ — bookshelf (on + kun)\n\nSIMILAR WORDS:\n- ⟦{湯桶読|ゆとうよ}み→湯桶読み：17017_yutouyomi⟧: the opposite pattern — kun'yomi first, then on'yomi (e.g., {湯桶|ゆとう}, ⟦{見本|みほん}→見本：00279_mihon⟧)\n\nUSAGE:\nPrimarily used in discussions about Japanese language learning and kanji literacy. Understanding these patterns helps learners predict readings of unfamiliar compounds.",
+  "notes": "A linguistics term useful for understanding kanji compound readings. The word ⟦{重箱|じゅうばこ}→重箱：22377_juubako⟧ (tiered food box) itself demonstrates the pattern: {重|じゅう} is on'yomi and {箱|ばこ} is kun'yomi.\n\nRELATED WORDS:\nOther compounds read this way (on + kun):\n- ⟦{重箱|じゅうばこ}→重箱：22377_juubako⟧ — tiered box (on + kun)\n- ⟦{台所|だいどころ}→台所：01021_daidokoro⟧ — kitchen (on + kun)\n- ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧ — program (on + kun)\n- ⟦{本棚|ほんだな}→本棚：04489_hondana⟧ — bookshelf (on + kun)\n\nSIMILAR WORDS:\n- ⟦{湯桶読|ゆとうよ}み→湯桶読み：17017_yutouyomi⟧: the opposite pattern — kun'yomi first, then on'yomi (e.g., {湯桶|ゆとう}, ⟦{見本|みほん}→見本：00279_mihon⟧)\n\nUSAGE:\nPrimarily used in discussions about Japanese language learning and kanji literacy. Understanding these patterns helps learners predict readings of unfamiliar compounds.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01021_daidokoro",
+      "reading": "だいどころ",
+      "headword": "{台所|だいどころ}",
+      "label": "kitchen"
+    },
+    {
+      "type": "related",
+      "target_id": "01705_bangumi",
+      "reading": "ばんぐみ",
+      "headword": "{番組|ばんぐみ}",
+      "label": "program"
+    },
+    {
+      "type": "related",
+      "target_id": "04489_hondana",
+      "reading": "ほんだな",
+      "headword": "{本棚|ほんだな}",
+      "label": "bookshelf"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,7 +82,7 @@
       ]
     },
     "created": "2026-03-25T06:08:22Z",
-    "modified": "2026-09-02T04:01:55Z"
+    "modified": "2026-10-19T12:35:33Z"
   },
   "prominent_see_also": [
     {
