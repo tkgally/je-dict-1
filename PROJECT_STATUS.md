@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-19 (Routine v3: new-entries — 20 New Entries, IDs 32125–32144)
+
+All twenty are internal-closure candidates: 固定資産税, 浄水 (vs 上水), 杜氏, 培養, 模造品, 廃刊 (vs 休刊), 丁稚, 求刑, 能動態, 養子縁組, 醸造酒 (vs 蒸留酒), 自助, 公助 (the 自助・共助・公助 slogan), 無双 (literary and slang uses), 法定 (vs 法廷), 合同会社, 社名, 打掛, 文語体, 感服. Self-check: 0 accuracy flags; one kana link (なさい) retargeted from なさる to the なさい entry. 52 candidates remain.
+
 ### 2026-10-19 (Routine v3: new-entries — 20 New Entries, IDs 32105–32124)
 
 All twenty are internal-closure candidates: 規制緩和, 震源地 (two senses: epicenter; source of a rumor or trend; notes give 震源 vs 震央), 液状化, むき出し (two senses: bare; undisguised), 模擬店, 乳酸菌, 日本三景 (proper noun, place), 春闘, 丸め込む, 黒歴史, 不信任, 舞踏会, 管制, 貸主, 共犯者, 簡易裁判所, 低所得, 不凍液, 製糸, 鉄器. Self-check: one flag, rejected (the model misread the 震源地 note); the note was reworded anyway to name 震央.
@@ -65,8 +69,4 @@ Source 1 (noentry markers) is empty. Added the 29 probe-clean words the 2026-10-
 ### 2026-10-17 (Routine v3: new-entries — 20 New Entries, IDs 32064–32083)
 
 All twenty are internal-closure candidates: 不通 (vs 普通), 心肺, 攪拌, 同質, 道楽 (two senses: hobby; dissipation), 常用 (常用漢字), 心筋, 既得権, 縁故, 表出, 因数, 増補, 首長 (also said くびちょう), 必携, 全権, 反戦, 電化, 弦楽, 均質 (vs 同質), 不相応. 同質 and 均質 point at each other. Self-check skipped: the day's OpenRouter budget was spent by earlier cycles. 50 candidates remain.
-
-### 2026-10-16 (Routine v3: new-entries — 12 New Entries, IDs 32052–32063)
-
-All twelve are internal-closure candidates: 同族, 野性 (vs 野生), 過大, 接着, 優待 (株主優待), 養護, 理容 (vs 床屋, 美容), 格子, 悪性 (vs 良性, 悪質), 適格 (vs 的確), 先々 (two senses: the future; 行く先々で), 果て. A smaller batch than usual because this was the run's fourth cycle. Homophone cross-references were added for 野性/野生 and 適格/的確. Self-check: 0 accuracy flags on 12 entries, 0 kana-link flags. 91 candidates remain.
 
