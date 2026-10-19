@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-19 (Routine v3: new-entries — 20 New Entries, IDs 32105–32124)
+
+All twenty are internal-closure candidates: 規制緩和, 震源地 (two senses: epicenter; source of a rumor or trend; notes give 震源 vs 震央), 液状化, むき出し (two senses: bare; undisguised), 模擬店, 乳酸菌, 日本三景 (proper noun, place), 春闘, 丸め込む, 黒歴史, 不信任, 舞踏会, 管制, 貸主, 共犯者, 簡易裁判所, 低所得, 不凍液, 製糸, 鉄器. Self-check: one flag, rejected (the model misread the 震源地 note); the note was reworded anyway to name 震央.
+
 ### 2026-10-18 (Routine v3: new-entries — 21 New Entries, IDs 32084–32104)
 
 All twenty-one are internal-closure candidates: 西陣織 (proper noun, brand), 概括, 壁掛け, 自惚れる, 決する (notes separate 意を決して from the adverb 決して), 子爵 (with the five peerage ranks), 真っ向, 攻勢 (vs 守勢), 立法, 家庭裁判所, 原子力発電所 (short form 原発), 御用達, 胃もたれ, 川下, 戒名, 満期 (vs 満了), 拒否権, 感嘆符, 受信料, 土石流, 殿下 (vs 陛下). Self-check: 0 accuracy flags on 42 entries (the new ones plus the 21 that gained reciprocal cross-references), 0 kana-link flags. 91 candidates remain.
@@ -65,8 +69,4 @@ All twenty are internal-closure candidates: 不通 (vs 普通), 心肺, 攪拌, 
 ### 2026-10-16 (Routine v3: new-entries — 12 New Entries, IDs 32052–32063)
 
 All twelve are internal-closure candidates: 同族, 野性 (vs 野生), 過大, 接着, 優待 (株主優待), 養護, 理容 (vs 床屋, 美容), 格子, 悪性 (vs 良性, 悪質), 適格 (vs 的確), 先々 (two senses: the future; 行く先々で), 果て. A smaller batch than usual because this was the run's fourth cycle. Homophone cross-references were added for 野性/野生 and 適格/的確. Self-check: 0 accuracy flags on 12 entries, 0 kana-link flags. 91 candidates remain.
-
-### 2026-10-16 (Routine v3: new-entries — 22 New Entries, IDs 32030–32051)
-
-All twenty-two are internal-closure candidates (words already used in other entries): やれ (two senses: "hey!"; やれ X だ、やれ Y だ), 不燃, 雌雄 (incl. 雌雄を決する), 総長, 在外, 引き揚げる (withdraw; be repatriated; salvage — distinguished from 引き上げる), 合皮, 手指, 恥じらい, 弾道, 出生届, 緑化, 歌劇団, 菜種油, 婿養子, 半濁点, 追究 (vs 追及, 追求), 盲目的, 縁取る, 先駆ける, 詰め替える, 人称. Self-check: 0 accuracy flags on 33 entries; one kana-link flag rejected (ながら). 81 candidates remain.
 
