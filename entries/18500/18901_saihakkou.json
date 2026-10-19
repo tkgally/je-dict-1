@@ -134,8 +134,52 @@
       "notes": null
     }
   ],
-  "notes": "{再発行|さいはっこう} means issuing again something that was previously issued — typically official documents or cards that have been lost, damaged, or expired.\n\nFORMS:\n⟦{再|さい}→再〜：03953_sai⟧ (again) + ⟦{発行|はっこう}→発行：03693_hakkou⟧ (issuance, publication).\n\nCOMMON COLLOCATIONS:\n- {再発行|さいはっこう}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to apply for reissuance\n- {再発行|さいはっこう}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: reissue fee\n- {再発行|さいはっこう}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: reissue procedure\n\nCOMMONLY REISSUED ITEMS:\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧: credit card\n- ⟦{保険証|ほけんしょう}→保険証：09707_hokenshou⟧: insurance card\n- ⟦{定期券|ていきけん}→定期券：01064_teikiken⟧: commuter pass\n- ⟦パスポート→パスポート：00341_pasupooto⟧: passport\n- ⟦{免許証|めんきょしょう}→免許証：03160_menkyoshou⟧: driver's license\n- ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧: receipt\n\nUSAGE:\nReissuance usually requires ⟦{本人|ほんにん}{確認|かくにん}→本人確認：15142_honninkakunin⟧ (identity verification) and may involve a ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧ (processing fee).",
+  "notes": "{再発行|さいはっこう} means issuing again something that was previously issued — typically official documents or cards that have been lost, damaged, or expired.\n\nETYMOLOGY:\n⟦{再|さい}→再〜：03953_sai⟧ (again) + ⟦{発行|はっこう}→発行：03693_hakkou⟧ (issuance, publication).\n\nCOMMON COLLOCATIONS:\n- {再発行|さいはっこう}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to apply for reissuance\n- {再発行|さいはっこう}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: reissue fee\n- {再発行|さいはっこう}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: reissue procedure\n\nRELATED WORDS:\nThings commonly reissued:\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧: credit card\n- ⟦{保険証|ほけんしょう}→保険証：09707_hokenshou⟧: insurance card\n- ⟦{定期券|ていきけん}→定期券：01064_teikiken⟧: commuter pass\n- ⟦パスポート→パスポート：00341_pasupooto⟧: passport\n- ⟦{免許証|めんきょしょう}→免許証：03160_menkyoshou⟧: driver's license\n- ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧: receipt\n\nUSAGE:\nReissuance usually requires ⟦{本人|ほんにん}{確認|かくにん}→本人確認：15142_honninkakunin⟧ (identity verification) and may involve a ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧ (processing fee).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06968_kurejittokaado",
+      "reading": "くれじっとかーど",
+      "headword": "クレジットカード",
+      "label": "credit card"
+    },
+    {
+      "type": "related",
+      "target_id": "09707_hokenshou",
+      "reading": "ほけんしょう",
+      "headword": "{保険証|ほけんしょう}",
+      "label": "insurance card"
+    },
+    {
+      "type": "related",
+      "target_id": "01064_teikiken",
+      "reading": "ていきけん",
+      "headword": "{定期券|ていきけん}",
+      "label": "commuter pass"
+    },
+    {
+      "type": "related",
+      "target_id": "00341_pasupooto",
+      "reading": "ぱすぽーと",
+      "headword": "パスポート",
+      "label": "passport"
+    },
+    {
+      "type": "related",
+      "target_id": "03160_menkyoshou",
+      "reading": "めんきょしょう",
+      "headword": "{免許証|めんきょしょう}",
+      "label": "driver's license"
+    },
+    {
+      "type": "related",
+      "target_id": "04697_ryoushuusho",
+      "reading": "りょうしゅうしょ",
+      "headword": "{領収書|りょうしゅうしょ}",
+      "label": "receipt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +196,6 @@
       "transitivity": "transitive"
     },
     "created": "2026-03-23T09:22:58Z",
-    "modified": "2026-09-02T04:01:54Z"
+    "modified": "2026-10-19T00:58:15Z"
   }
 }
