@@ -1,63 +1,12 @@
 {
   "_comment": "Ratchet baseline for notes section headers that are neither canonical nor an alias in build/data/note_headers.json. Maps entry id -> the unknown headers it already carried when generated. `build/check_note_headers.py --gate` (run in CI) fails if any entry gains an unknown header absent from its list here, so the set can only shrink. Regenerate after a normalization sweep: python3 build/check_note_headers.py --write-baseline",
-  "generated": "2026-10-20T12:28:34Z",
+  "generated": "2026-10-20T14:23:14Z",
   "headers": {
     "11577_sutanpu": [
       "STAMP RALLY"
     ],
     "11583_sutajio": [
       "TV/RADIO"
-    ],
-    "22536_giongo": [
-      "EXAMPLES OF {擬音語|ぎおんご}"
-    ],
-    "22574_koufungimi": [
-      "RELATED ～{気味|ぎみ} EXPRESSIONS"
-    ],
-    "22600_morihoudai": [
-      "RELATED 〜{放題|ほうだい} EXPRESSIONS"
-    ],
-    "22606_doreka": [
-      "RELATED INDEFINITE PRONOUNS"
-    ],
-    "22607_onomatope": [
-      "SUBCATEGORIES"
-    ],
-    "22609_yadorigi": [
-      "BOTANICAL NOTE"
-    ],
-    "22857_yasegata": [
-      "RELATED BODY TYPE TERMS"
-    ],
-    "22902_asemamire": [
-      "RELATED ～まみれ EXPRESSIONS"
-    ],
-    "22943_amigami": [
-      "TYPES OF BRAIDS"
-    ],
-    "22946_motouke": [
-      "CONTRACTING HIERARCHY"
-    ],
-    "22947_kouteikei": [
-      "EXAMPLES OF AFFIRMATIVE FORMS"
-    ],
-    "22948_meireikei": [
-      "IMPERATIVE FORM BY VERB TYPE"
-    ],
-    "22950_sanshokudon": [
-      "TYPICAL TOPPINGS"
-    ],
-    "22952_kakesute": [
-      "INSURANCE TYPES"
-    ],
-    "22958_ruriiro": [
-      "SIMILAR COLORS"
-    ],
-    "23007_sottosuru": [
-      "RELATED ADVERB"
-    ],
-    "23013_kagen": [
-      "MOON PHASE VOCABULARY"
     ],
     "23024_geppou": [
       "RELATED REPORT TERMS"
