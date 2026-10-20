@@ -35,7 +35,7 @@
     },
     {
       "id": "14455_muhon_ex3",
-      "japanese": "{明智光秀|あけちみつひで}⟦の→の：09472_no⟧{謀反|むほん}⟦によって→によって：06801_niyotte⟧、{織田信長|おだのぶなが}⟦は→は：00079_ha⟧{本能寺|ほんのうじ}⟦で→で：00502_de⟧⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧⟦{落|お}とした→落とす：01246_otosu⟧。",
+      "japanese": "{明智光秀|あけちみつひで}⟦の→の：09472_no⟧{謀反|むほん}⟦によって→によって：06801_niyotte⟧、⟦{織田信長|おだのぶなが}→織田信長：30992_odanobunaga⟧⟦は→は：00079_ha⟧⟦{本能寺|ほんのうじ}→本能寺：31963_honnouji⟧⟦で→で：00502_de⟧⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧⟦{落|お}とした→落とす：01246_otosu⟧。",
       "english": "Due to Akechi Mitsuhide's rebellion, Oda Nobunaga lost his life at Honnoji Temple.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{謀反|むほん} is primarily used in historical contexts, especially the feudal period. In modern usage, it may appear figuratively to describe betrayal within an organization.\n\nPRONUNCIATION:\nAlso read as {謀反|むへん} in older texts, but {謀反|むほん} is the standard modern reading.\n\nCOMMON COLLOCATIONS:\n- {謀反|むほん}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧ (to stage a rebellion)\n- {謀反|むほん}⟦を→を：00422_wo⟧⟦{企|くわだ}てる→企てる：15422_kuwadateru⟧ (to plot treason)\n- {謀反|むほん}⟦{人|にん}→〜人：00658_nin⟧ (traitor; rebel)\n\nRELATED WORDS:\nCompare with ⟦{反乱|はんらん}→反乱：11860_hanran⟧ (revolt, insurrection — broader, modern term) and ⟦{謀略|ぼうりゃく}→謀略：14482_bouryaku⟧ (stratagem, conspiracy — emphasizes the scheming aspect).",
+  "notes": "USAGE:\n{謀反|むほん} is primarily used in historical contexts, especially the feudal period. In modern usage, it may appear figuratively to describe betrayal within an organization.\n\nWRITING:\nAlso written {謀叛|むほん}.\n\nCOMMON COLLOCATIONS:\n- {謀反|むほん}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧ (to stage a rebellion)\n- {謀反|むほん}⟦を→を：00422_wo⟧⟦{企|くわだ}てる→企てる：15422_kuwadateru⟧ (to plot treason)\n- {謀反|むほん}⟦{人|にん}→〜人：00658_nin⟧ (traitor; rebel)\n\nSIMILAR WORDS:\n- ⟦{反乱|はんらん}→反乱：11860_hanran⟧: revolt, insurrection — broader, the modern term for an armed uprising\n- ⟦{反逆|はんぎゃく}→反逆：31954_hangyaku⟧: treason, rebellion against authority — wider and not tied to the feudal setting\n- ⟦{謀略|ぼうりゃく}→謀略：14482_bouryaku⟧: stratagem, conspiracy — the scheming, not the uprising",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "はんぎゃく",
       "headword": "{反逆|はんぎゃく}",
       "label": "rebellion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14482_bouryaku",
+      "reading": "ぼうりゃく",
+      "headword": "{謀略|ぼうりゃく}",
+      "label": "stratagem, conspiracy"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:56:59Z",
-    "modified": "2026-10-12T13:46:41Z",
+    "modified": "2026-10-20T01:38:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -73,7 +80,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "history",
+        "politics"
       ],
       "style": [
         "written"
