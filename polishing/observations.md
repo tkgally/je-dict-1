@@ -1634,3 +1634,9 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-19 [entry] 28671: audio checks heard まぬけだ in 28671_manukeru_ex3 (…{自分|じぶん}でも{間抜|まぬ}けたと{思|おも}う); the sentence wants the noun 間抜けだ, so the example does not show the verb; rewrite it.
 - 2026-10-19 [entry] 28618: audio checks heard しょうしかたいさく for {少子|しょうし}{対策|たいさく} in 28618_shoushi_ex3; the usual phrase is 少子化対策; consider rewording.
 - 2026-10-19 [tooling] audio_pipeline.py plan sized 2,164 examples for a $5.40 budget at its per-example estimate, but the run cost $0.00285 per accepted example and finished at $6.08 (13 percent over); `run` did not stop for budget because the plan was already fixed. Consider planning with the measured cost per example (drift reports 0.00287).
+- 2026-10-20 [entry] 29215: audio checks heard じょうずな for {上手|じょうず}い in 29215_fashiriteeshon_ex3; 上手い reads うまい — check the furigana (or write 上手な)
+- 2026-10-20 [entry] 29368: audio checks heard あきらかに for {明|あき}るみに in 29368_akutoku_ex3; 明るみ reads あかるみ — check the furigana
+- 2026-10-20 [entry] 29226: audio checks heard じゅっかい for {十|じゅう}{階建|かいだ}て in 29226_kaidate_ex2; usual readings are じっかい / じゅっかい — check the furigana
+- 2026-10-20 [entry] 29409: audio checks heard なん for {何|なに}ですか in 29409_hantaigo_ex1; なんですか is the natural reading — check the furigana
+- 2026-10-20 [entry] 29061: audio checks heard いっかい-like readings for {一街区|ひとがいく} in 29061_gaiku_ex2; the usual reading is いちがいく — check the furigana
+- 2026-10-20 [tooling] audio_pipeline.py run hung for over 12 minutes (no results written after 01:01Z) and ignored its 8-minute stop; it had to be killed, and the run then finished at $6.28 against a $5.40 plan (16 percent over, second day running). Requests inside a call need a hard wall-clock timeout, and plan should size by the measured cost per example (about $0.0030).
