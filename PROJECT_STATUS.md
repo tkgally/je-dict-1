@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-20 (Routine v3: new-entries — 20 New Entries, IDs 32145–32164)
+
+All twenty are internal-closure candidates: 注力, 私情 (vs 市場/史上/至上), 突進, 教官, 登園, 前面 (vs 全面), 第一子, 気位, 内申書 (officially 調査書), 不測 (vs 不足), 催事, 盗掘, 霊前 (御霊前 vs 御仏前), 受験者 (vs 受験生), 手水, 薄茶, 悪玉菌, 財源, 国営 (NHK is not state broadcasting), 民営. The candidate しわ寄せ was dropped as a duplicate of 皺寄せ. Self-check: one flag on a neighbour, applied (資金 tagged formal); one kana link kept. 32 candidates remain.
+
 ### 2026-10-19 (Routine v3: new-entries — 20 New Entries, IDs 32125–32144)
 
 All twenty are internal-closure candidates: 固定資産税, 浄水 (vs 上水), 杜氏, 培養, 模造品, 廃刊 (vs 休刊), 丁稚, 求刑, 能動態, 養子縁組, 醸造酒 (vs 蒸留酒), 自助, 公助 (the 自助・共助・公助 slogan), 無双 (literary and slang uses), 法定 (vs 法廷), 合同会社, 社名, 打掛, 文語体, 感服. Self-check: 0 accuracy flags; one kana link (なさい) retargeted from なさる to the なさい entry. 52 candidates remain.
@@ -65,8 +69,4 @@ All twenty-one are internal-closure candidates: 西陣織 (proper noun, brand), 
 ### 2026-10-18 (Routine v3: candidates — 60 Internal-Closure Candidates)
 
 Source 1 (noentry markers) is empty. Added the 29 probe-clean words the 2026-10-15 run held back (不信任, 舞踏会, 管制, 貸主, 共犯者, 簡易裁判所, 杜氏, 養子縁組, 合同会社, 文語体, …) and 31 more from a fresh scan of unlinked example and notes text (感服, 注力, 私情, しわ寄せ, 登園, 気位, 内申書, 不測, 催事, 手水, 悪玉菌, 財源, 国営, 民営, 経口, 時候, 色白, 黄泉, 屋形船, 松葉杖, 関白, …), all "seen in entry NNNNN". Most high-frequency scan hits are fragments of compounds that already have entries (交感 in 交感神経, 机上 in 机上の空論). C24508–C24567.
-
-### 2026-10-17 (Routine v3: new-entries — 20 New Entries, IDs 32064–32083)
-
-All twenty are internal-closure candidates: 不通 (vs 普通), 心肺, 攪拌, 同質, 道楽 (two senses: hobby; dissipation), 常用 (常用漢字), 心筋, 既得権, 縁故, 表出, 因数, 増補, 首長 (also said くびちょう), 必携, 全権, 反戦, 電化, 弦楽, 均質 (vs 同質), 不相応. 同質 and 均質 point at each other. Self-check skipped: the day's OpenRouter budget was spent by earlier cycles. 50 candidates remain.
 
