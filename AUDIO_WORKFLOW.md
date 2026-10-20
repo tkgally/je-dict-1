@@ -257,7 +257,7 @@ exception is the fixed regression set.
 (`.nojekyll` at the root), each kept under **900 MB** of live files (`limit_mb`):
 `tkgally/je-dict-audio-1`, then `-2`, … The whole dictionary is about 1.5 GB at 32 kbps (about 120
 hours), so three repositories. The stores are listed in `audio/config.json` (`stores`: id,
-repo, `base_url`, `limit_mb`, `status` active/full). The site builds each URL as `base_url` +
+repo, `base_url`, `limit_mb`, `status` active/full/next). The site builds each URL as `base_url` +
 path, so moving to a custom subdomain (for example `audio1.tkgje.jp`, a CNAME to
 `tkgally.github.io`) or to another host means editing `base_url` only. `tkgally.github.io`
 has no user site, so the default URLs are `https://tkgally.github.io/je-dict-audio-1/…`.
@@ -555,3 +555,12 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   rollover: `tkgally/je-dict-audio-2` (store `a2`, Pages from `main`, `.nojekyll`, push
   verified) added with `status: "next"`; `publish` switches to it when `a1` (853 of 900 MB)
   would pass its limit.
+- 2026-10-20: two more stores, created by Tom: `tkgally/je-dict-audio-3` (store `a3`) and
+  `tkgally/je-dict-audio-4` (store `a4`), both added to `audio/config.json` with `status: "next"`.
+  `roll_over_store()` takes the first waiting store in list order, so `a2` (787 of 900 MB) hands
+  over to `a3`, and `a3` later to `a4`, with no further config change (checked on a copy of
+  the config). Both repositories were empty, which `ensure_clone()` cannot handle (it fetches
+  `origin/main`) and which keeps GitHub Pages from being enabled, so each got a first commit on
+  `main` holding only `.nojekyll`. Push access verified from this session for both. A Routine
+  session can push only to the repositories attached to it, so both must be in the Routine's
+  repositories before `a2` fills.
