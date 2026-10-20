@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{事柄|ことがら} (important matters)\n- ⟦{個人的|こじんてき}→個人的：04788_kojinteki⟧な{事柄|ことがら} (personal matters)\n- ⟦{基本的|きほんてき}→基本的：04787_kihonteki⟧な{事柄|ことがら} (basic matters)\n- {事柄|ことがら}⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧ (the content of a matter)\n\n{事柄|ことがら} is more formal than こと and tends to appear in written language, presentations, and official communications. It emphasizes the substance or nature of the matter being discussed.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{事柄|ことがら} (important matters)\n- ⟦{個人的|こじんてき}→個人的：04788_kojinteki⟧な{事柄|ことがら} (personal matters)\n- ⟦{基本的|きほんてき}→基本的：04787_kihonteki⟧な{事柄|ことがら} (basic matters)\n- {事柄|ことがら}⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧ (the content of a matter)\n\nSIMILAR WORDS:\n- ⟦{事項|じこう}→事項：11469_jikou⟧: item, particular — a listed point in a document (⟦{注意事項|ちゅういじこう}→注意事項：30548_chuuijikou⟧, ⟦{決定事項|けっていじこう}→決定事項：18093_ketteijikou⟧); {事柄|ことがら} is the matter itself",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11469_jikou",
+      "reading": "じこう",
+      "headword": "{事項|じこう}",
+      "label": "item, particular"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-09-02T04:01:25Z",
+    "modified": "2026-10-20T12:45:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +69,7 @@
         "written"
       ],
       "semantic": [
-        "general"
+        "abstract"
       ]
     }
   }
