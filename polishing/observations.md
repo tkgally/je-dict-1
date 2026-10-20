@@ -1642,3 +1642,8 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-20 [tooling] audio_pipeline.py run hung for over 12 minutes (no results written after 01:01Z) and ignored its 8-minute stop; it had to be killed, and the run then finished at $6.28 against a $5.40 plan (16 percent over, second day running). Requests inside a call need a hard wall-clock timeout, and plan should size by the measured cost per example (about $0.0030).
 - 2026-10-20 [entry] 29840: audio checks heard ごじ for {誤|ご}り in 29840_yominaosu_ex3; 誤り reads あやまり — fix the furigana
 - 2026-10-20 [entry] 29935: audio checks heard よばん for {四番|よんばん}{打者|だしゃ} in 29935_datenou_ex3; baseball usage is usually よばん — check the furigana
+- 2026-10-20 [entry] 30049: audio checks heard おきゃくさま for {お客様|きゃくさま} in 30049_nyuukinzumi_ex2; the kana お sits inside the furigana brace — write お{客様|きゃくさま}
+- 2026-10-20 [entry] 30392: audio checks heard にげる/にじめる for {辞|じ}める in 30392_tekizentoubou_ex6; 辞める reads やめる — fix the furigana
+- 2026-10-20 [entry] 30009: audio checks heard よばん for {四番|よんばん} in 30009_yonban_ex5; 四番バッター is usually よばん — check the furigana (and the entry's reading)
+- 2026-10-20 [entry] 30107: audio checks heard ろくてんに for {六|ろく}・{二|に} in 30107_kishouchou_ex3; the nakaguro stands for a decimal point — write it so the reading is fixed
+- 2026-10-20 [pattern] audio checks hear the sound change (じゅっ, ひゃっ) where furigana gives the citation form: {十|じゅう}パーセント (30143_joushouritsu_ex3), {六十|ろくじゅう}パーセント (30019_kenpeiritsu_ex1), {三十|さんじゅう}キロ (30389_sokudoihan_ex3), {九百|きゅうひゃく}{件|けん} (30453_kyuuhyaku_ex3); consider furigana that matches speech
