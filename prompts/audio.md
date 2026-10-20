@@ -21,7 +21,7 @@ python3 build/audio_pipeline.py status           # coverage; copy the numbers in
 ```
 
 Make sure this session can push to the audio repository (the active store in
-`audio/config.json`, today `tkgally/je-dict-audio-1`) before spending anything:
+`audio/config.json`; `tkgally/je-dict-audio-2` as of 2026-10-20, with `-3` and `-4` waiting) before spending anything:
 
 ```bash
 python3 build/audio_pipeline.py check-access     # "push": true → go on

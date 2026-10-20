@@ -143,9 +143,13 @@ Other data files:
 Example sentences are being given recorded readings, starting with the basic and core tiers.
 Each recording is made by a text-to-speech model (Gemini TTS) and is accepted only after four
 automatic checks, using models from different companies, agree that every word was pronounced
-as the example's furigana indicate. The MP3 files are kept in a separate repository,
-[tkgally/je-dict-audio-1](https://github.com/tkgally/je-dict-audio-1), and served from its
-GitHub Pages site.
+as the example's furigana indicate. The MP3 files are kept in separate repositories, each served from its own GitHub Pages
+site and kept under 900 MB:
+[tkgally/je-dict-audio-1](https://github.com/tkgally/je-dict-audio-1) (full),
+[tkgally/je-dict-audio-2](https://github.com/tkgally/je-dict-audio-2) (in use), and
+[tkgally/je-dict-audio-3](https://github.com/tkgally/je-dict-audio-3) and
+[tkgally/je-dict-audio-4](https://github.com/tkgally/je-dict-audio-4) (waiting). The list and
+each store's status are in `audio/config.json`.
 
 `audio/manifest/<range>.jsonl` lists every recording: the example ID, a hash of the text that was
 recorded, the file's path and the voice used. A recording counts only while the example's text
