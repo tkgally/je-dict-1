@@ -1640,3 +1640,5 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-20 [entry] 29409: audio checks heard なん for {何|なに}ですか in 29409_hantaigo_ex1; なんですか is the natural reading — check the furigana
 - 2026-10-20 [entry] 29061: audio checks heard いっかい-like readings for {一街区|ひとがいく} in 29061_gaiku_ex2; the usual reading is いちがいく — check the furigana
 - 2026-10-20 [tooling] audio_pipeline.py run hung for over 12 minutes (no results written after 01:01Z) and ignored its 8-minute stop; it had to be killed, and the run then finished at $6.28 against a $5.40 plan (16 percent over, second day running). Requests inside a call need a hard wall-clock timeout, and plan should size by the measured cost per example (about $0.0030).
+- 2026-10-20 [entry] 29840: audio checks heard ごじ for {誤|ご}り in 29840_yominaosu_ex3; 誤り reads あやまり — fix the furigana
+- 2026-10-20 [entry] 29935: audio checks heard よばん for {四番|よんばん}{打者|だしゃ} in 29935_datenou_ex3; baseball usage is usually よばん — check the furigana
