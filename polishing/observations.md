@@ -1648,3 +1648,5 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-20 [entry] 30107: audio checks heard ろくてんに for {六|ろく}・{二|に} in 30107_kishouchou_ex3; the nakaguro stands for a decimal point — write it so the reading is fixed
 - 2026-10-20 [pattern] audio checks hear the sound change (じゅっ, ひゃっ) where furigana gives the citation form: {十|じゅう}パーセント (30143_joushouritsu_ex3), {六十|ろくじゅう}パーセント (30019_kenpeiritsu_ex1), {三十|さんじゅう}キロ (30389_sokudoihan_ex3), {九百|きゅうひゃく}{件|けん} (30453_kyuuhyaku_ex3); consider furigana that matches speech
 - 2026-10-21 [entry] 30594: audio checks heard くしょうした for {苦笑|くしょう}いした in 30594_zuboshi_ex4; the word is 苦笑い (にがわらい), so the furigana should be {苦笑|にがわら}い — fixed in routine_2026-10-21_005
+- 2026-10-21 [entry] 31979: audio checks heard だじょうだいじん for {太政大臣|だいじょうだいじん} in 31979_tairanokiyomori_ex2; check the furigana (school texts use だじょうだいじん).
+- 2026-10-21 [entry] 31165: audio checks heard ごかっけい for {五角形|ごかくけい} in 31165_gokakukei_ex1/ex2; check the furigana (ごかっけい is the common spoken reading).
