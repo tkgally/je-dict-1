@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {真|ま} (true, truly) + ⟦{冬|ふゆ}→冬：00623_fuyu⟧ (winter) + {日|び} (day). Literally \"a true winter day.\" A technical term from the Japan Meteorological Agency, defined as a day whose maximum temperature does not exceed 0°C. The same set of terms defines various types of hot and cold days — see below.\n\nTEMPERATURE DAY TERMS (Japan Meteorological Agency):\n- {冬日|ふゆび}: winter day — minimum temperature below 0°C (a frosty night, but the day may warm up)\n- {真冬日|まふゆび}: midwinter day — maximum temperature below 0°C (stays frozen all day)\n- {夏日|なつび}: summer day — maximum temperature at or above 25°C\n- ⟦{真夏日|まなつび}→真夏日：10186_manatsubi⟧: midsummer day — maximum temperature at or above 30°C\n- ⟦{猛暑日|もうしょび}→猛暑日：09622_moushobi⟧: extremely hot day — maximum temperature at or above 35°C\n- ⟦{熱帯夜|ねったいや}→熱帯夜：10187_nettaiya⟧: tropical night — minimum temperature at or above 25°C\n\nCOMMON COLLOCATIONS:\n- {真冬日|まふゆび}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: days with highs below freezing continue\n- {真冬日|まふゆび}⟦を→を：00422_wo⟧⟦{観測|かんそく}→観測：00183_kansoku⟧⟦する→する：00392_suru⟧: to record/observe a sub-freezing day\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{真冬日|まふゆび}: the first sub-freezing day of this year\n- {真冬日|まふゆび}⟦{日数|にっすう}→日数：12953_nissuu⟧: the number of sub-freezing days\n\nUSAGE:\nThe word appears mainly in weather forecasts, news reports, and climate statistics. Because the definition is precise (maximum below 0°C), it has none of the vague feel of English \"freezing day\" — a {真冬日|まふゆび} is something that can be counted and tallied by weather stations. In Hokkaido, reports often highlight the number of consecutive {真冬日|まふゆび} during cold snaps.",
+  "notes": "Composed of {真|ま} (true, truly) + ⟦{冬|ふゆ}→冬：00623_fuyu⟧ (winter) + {日|び} (day). Literally \"a true winter day.\" A technical term from the Japan Meteorological Agency, defined as a day whose maximum temperature stays below 0°C. The same set of terms defines various types of hot and cold days — see below.\n\nRELATED WORDS:\nThe Japan Meteorological Agency's other temperature-day terms:\n- {冬日|ふゆび}: winter day — minimum temperature below 0°C (a frosty night, but the day may warm up)\n- {夏日|なつび}: summer day — maximum temperature at or above 25°C\n- ⟦{真夏日|まなつび}→真夏日：10186_manatsubi⟧: midsummer day — maximum temperature at or above 30°C\n- ⟦{猛暑日|もうしょび}→猛暑日：09622_moushobi⟧: extremely hot day — maximum temperature at or above 35°C\n- ⟦{熱帯夜|ねったいや}→熱帯夜：10187_nettaiya⟧: tropical night — minimum temperature at or above 25°C\n\nCOMMON COLLOCATIONS:\n- {真冬日|まふゆび}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: days with highs below freezing continue\n- {真冬日|まふゆび}⟦を→を：00422_wo⟧⟦{観測|かんそく}→観測：00183_kansoku⟧⟦する→する：00392_suru⟧: to record/observe a sub-freezing day\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{真冬日|まふゆび}: the first sub-freezing day of this year\n- {真冬日|まふゆび}⟦{日数|にっすう}→日数：12953_nissuu⟧: the number of sub-freezing days\n\nUSAGE:\nThe word appears mainly in weather forecasts, news reports, and climate statistics. Because the definition is precise (maximum below 0°C), it has none of the vague feel of English \"freezing day\" — a {真冬日|まふゆび} is something that can be counted and tallied by weather stations. In Hokkaido, reports often highlight the number of consecutive {真冬日|まふゆび} during cold snaps.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10186_manatsubi",
+      "reading": "まなつび",
+      "headword": "{真夏日|まなつび}",
+      "label": "midsummer day"
+    },
+    {
+      "type": "related",
+      "target_id": "09622_moushobi",
+      "reading": "もうしょび",
+      "headword": "{猛暑日|もうしょび}",
+      "label": "extremely hot day"
+    },
+    {
+      "type": "related",
+      "target_id": "10187_nettaiya",
+      "reading": "ねったいや",
+      "headword": "{熱帯夜|ねったいや}",
+      "label": "tropical night"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +93,6 @@
       ]
     },
     "created": "2026-04-11T18:36:33Z",
-    "modified": "2026-09-02T04:02:12Z"
+    "modified": "2026-10-21T12:23:28Z"
   }
 }
