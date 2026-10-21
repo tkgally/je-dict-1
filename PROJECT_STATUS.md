@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-21 (Routine v3: new-entries — 20 New Entries, IDs 32165–32184)
+
+All twenty are internal-closure candidates: 経口, 時候 (時候の挨拶), 色白, 黄泉, 屋形船, 長月, 松葉杖, 関白 (亭主関白), 熱情 (vs 情熱), 植わる (intransitive pair of 植える), 傍流 (vs 主流), 有期 (有期拘禁刑 since the 2025 penal reform), 傾注, 嘲弄, 各論 (総論賛成、各論反対), 干菓子, 予診, 招集 (vs 召集), 抵当権, 五穀豊穣. The harvester added reciprocal cross-references in 25 existing entries. Self-check: 1 applied, 1 rejected.
+
 ### 2026-10-21 (Routine v3: candidates — 40 words queued, C24570–C24609)
 
 Restocked the candidate queue with 40 words the dictionary already uses in examples or notes but does not define, each noted with the entry it was seen in: 26 held back from the 2026-10-18 restock (傾注, 嘲弄, 各論, 干菓子, 予診, 招集 vs 召集, 抵当権, 五穀豊穣, 送辞, 立憲君主制, 戯画, 略字, 縦走, 成形, 管弦楽, 醸造所, 年俸制, 尺貫法, 濃口醤油, 刀鍛冶, 町奉行, 金目鯛, 四重奏, 弦楽四重奏, 素因数分解, 有期) and 14 from a fresh scan of unlinked example text (発現, 貫徹, 参上, 隊員, 芳名帳, 選り好み, 低価格, 級数, 便宜上, 一塁, 内覧会, 離職率, 浄水場, 一理). Most scan hits were spelling variants or fragments of compound entries that already exist. Queue 32 → 72.
@@ -65,8 +69,4 @@ All twenty are internal-closure candidates: 固定資産税, 浄水 (vs 上水),
 ### 2026-10-19 (Routine v3: new-entries — 20 New Entries, IDs 32105–32124)
 
 All twenty are internal-closure candidates: 規制緩和, 震源地 (two senses: epicenter; source of a rumor or trend; notes give 震源 vs 震央), 液状化, むき出し (two senses: bare; undisguised), 模擬店, 乳酸菌, 日本三景 (proper noun, place), 春闘, 丸め込む, 黒歴史, 不信任, 舞踏会, 管制, 貸主, 共犯者, 簡易裁判所, 低所得, 不凍液, 製糸, 鉄器. Self-check: one flag, rejected (the model misread the 震源地 note); the note was reworded anyway to name 震央.
-
-### 2026-10-18 (Routine v3: new-entries — 21 New Entries, IDs 32084–32104)
-
-All twenty-one are internal-closure candidates: 西陣織 (proper noun, brand), 概括, 壁掛け, 自惚れる, 決する (notes separate 意を決して from the adverb 決して), 子爵 (with the five peerage ranks), 真っ向, 攻勢 (vs 守勢), 立法, 家庭裁判所, 原子力発電所 (short form 原発), 御用達, 胃もたれ, 川下, 戒名, 満期 (vs 満了), 拒否権, 感嘆符, 受信料, 土石流, 殿下 (vs 陛下). Self-check: 0 accuracy flags on 42 entries (the new ones plus the 21 that gained reciprocal cross-references), 0 kana-link flags. 91 candidates remain.
 
