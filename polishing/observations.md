@@ -1647,3 +1647,4 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-20 [entry] 30009: audio checks heard よばん for {四番|よんばん} in 30009_yonban_ex5; 四番バッター is usually よばん — check the furigana (and the entry's reading)
 - 2026-10-20 [entry] 30107: audio checks heard ろくてんに for {六|ろく}・{二|に} in 30107_kishouchou_ex3; the nakaguro stands for a decimal point — write it so the reading is fixed
 - 2026-10-20 [pattern] audio checks hear the sound change (じゅっ, ひゃっ) where furigana gives the citation form: {十|じゅう}パーセント (30143_joushouritsu_ex3), {六十|ろくじゅう}パーセント (30019_kenpeiritsu_ex1), {三十|さんじゅう}キロ (30389_sokudoihan_ex3), {九百|きゅうひゃく}{件|けん} (30453_kyuuhyaku_ex3); consider furigana that matches speech
+- 2026-10-21 [entry] 30594: audio checks heard くしょうした for {苦笑|くしょう}いした in 30594_zuboshi_ex4; the word is 苦笑い (にがわらい), so the furigana should be {苦笑|にがわら}い — fix the furigana
