@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-21 (Routine v3: candidates — 40 words queued, C24570–C24609)
+
+Restocked the candidate queue with 40 words the dictionary already uses in examples or notes but does not define, each noted with the entry it was seen in: 26 held back from the 2026-10-18 restock (傾注, 嘲弄, 各論, 干菓子, 予診, 招集 vs 召集, 抵当権, 五穀豊穣, 送辞, 立憲君主制, 戯画, 略字, 縦走, 成形, 管弦楽, 醸造所, 年俸制, 尺貫法, 濃口醤油, 刀鍛冶, 町奉行, 金目鯛, 四重奏, 弦楽四重奏, 素因数分解, 有期) and 14 from a fresh scan of unlinked example text (発現, 貫徹, 参上, 隊員, 芳名帳, 選り好み, 低価格, 級数, 便宜上, 一塁, 内覧会, 離職率, 浄水場, 一理). Most scan hits were spelling variants or fragments of compound entries that already exist. Queue 32 → 72.
+
 ### 2026-10-20 (Routine v3: new-entries — 20 New Entries, IDs 32145–32164)
 
 All twenty are internal-closure candidates: 注力, 私情 (vs 市場/史上/至上), 突進, 教官, 登園, 前面 (vs 全面), 第一子, 気位, 内申書 (officially 調査書), 不測 (vs 不足), 催事, 盗掘, 霊前 (御霊前 vs 御仏前), 受験者 (vs 受験生), 手水, 薄茶, 悪玉菌, 財源, 国営 (NHK is not state broadcasting), 民営. The candidate しわ寄せ was dropped as a duplicate of 皺寄せ. Self-check: one flag on a neighbour, applied (資金 tagged formal); one kana link kept. 32 candidates remain.
@@ -65,8 +69,4 @@ All twenty are internal-closure candidates: 規制緩和, 震源地 (two senses:
 ### 2026-10-18 (Routine v3: new-entries — 21 New Entries, IDs 32084–32104)
 
 All twenty-one are internal-closure candidates: 西陣織 (proper noun, brand), 概括, 壁掛け, 自惚れる, 決する (notes separate 意を決して from the adverb 決して), 子爵 (with the five peerage ranks), 真っ向, 攻勢 (vs 守勢), 立法, 家庭裁判所, 原子力発電所 (short form 原発), 御用達, 胃もたれ, 川下, 戒名, 満期 (vs 満了), 拒否権, 感嘆符, 受信料, 土石流, 殿下 (vs 陛下). Self-check: 0 accuracy flags on 42 entries (the new ones plus the 21 that gained reciprocal cross-references), 0 kana-link flags. 91 candidates remain.
-
-### 2026-10-18 (Routine v3: candidates — 60 Internal-Closure Candidates)
-
-Source 1 (noentry markers) is empty. Added the 29 probe-clean words the 2026-10-15 run held back (不信任, 舞踏会, 管制, 貸主, 共犯者, 簡易裁判所, 杜氏, 養子縁組, 合同会社, 文語体, …) and 31 more from a fresh scan of unlinked example and notes text (感服, 注力, 私情, しわ寄せ, 登園, 気位, 内申書, 不測, 催事, 手水, 悪玉菌, 財源, 国営, 民営, 経口, 時候, 色白, 黄泉, 屋形船, 松葉杖, 関白, …), all "seen in entry NNNNN". Most high-frequency scan hits are fragments of compounds that already have entries (交感 in 交感神経, 机上 in 机上の空論). C24508–C24567.
 
