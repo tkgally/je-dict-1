@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Because Japanese groups digits in fours and English in threes, this is the point where mental conversion becomes error-prone: 100,000 is {十万|じゅうまん} (ten ⟦{万|まん}→万：00795_man⟧), and 1,000,000 is ⟦{百万|ひゃくまん}→百万：08109_hyakuman⟧ (a hundred ⟦{万|まん}→万：00795_man⟧).\n\nCONVERSION LANDMARKS:\n- ⟦{一万|いちまん}→一万：27599_ichiman⟧: 10,000\n- {十万|じゅうまん}: 100,000\n- ⟦{百万|ひゃくまん}→百万：08109_hyakuman⟧: 1,000,000\n- ⟦{一億|いちおく}→一億：08929_ichioku⟧: 100,000,000\n\nCOMMON EXPRESSIONS:\n- {十万|じゅうまん}⟦{円|えん}→円：00774_en⟧: one hundred thousand yen\n- {十万|じゅうまん}⟦{人|にん}→〜人：00658_nin⟧: one hundred thousand people\n- {十万|じゅうまん}⟦{回|かい}→回：00957_kai⟧: a hundred thousand times",
+  "notes": "Because Japanese groups digits in fours and English in threes, this is the point where mental conversion becomes error-prone: 100,000 is {十万|じゅうまん} (ten ⟦{万|まん}→万：00795_man⟧), and 1,000,000 is ⟦{百万|ひゃくまん}→百万：08109_hyakuman⟧ (a hundred ⟦{万|まん}→万：00795_man⟧).\n\nRELATED WORDS:\n- ⟦{一万|いちまん}→一万：27599_ichiman⟧: 10,000\n- {十万|じゅうまん}: 100,000\n- ⟦{百万|ひゃくまん}→百万：08109_hyakuman⟧: 1,000,000\n- ⟦{一億|いちおく}→一億：08929_ichioku⟧: 100,000,000\n\nCOMMON EXPRESSIONS:\n- {十万|じゅうまん}⟦{円|えん}→円：00774_en⟧: one hundred thousand yen\n- {十万|じゅうまん}⟦{人|にん}→〜人：00658_nin⟧: one hundred thousand people\n- {十万|じゅうまん}⟦{回|かい}→回：00957_kai⟧: a hundred thousand times",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -53,6 +53,27 @@
       "reading": "いちまん",
       "headword": "{一万|いちまん}",
       "label": "ten thousand"
+    },
+    {
+      "type": "related",
+      "target_id": "08109_hyakuman",
+      "reading": "ひゃくまん",
+      "headword": "{百万|ひゃくまん}",
+      "label": "1,000,000"
+    },
+    {
+      "type": "related",
+      "target_id": "08929_ichioku",
+      "reading": "いちおく",
+      "headword": "{一億|いちおく}",
+      "label": "100,000,000"
+    },
+    {
+      "type": "related",
+      "target_id": "30467_sanman",
+      "reading": "さんまん",
+      "headword": "{三万|さんまん}",
+      "label": "thirty thousand"
     }
   ],
   "metadata": {
@@ -70,6 +91,6 @@
       "domain": []
     },
     "created": "2026-08-07T00:23:55Z",
-    "modified": "2026-10-07T06:25:42Z"
+    "modified": "2026-10-22T13:15:30Z"
   }
 }
