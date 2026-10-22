@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of ⟦{出張|しゅっちょう}→出張：01094_shucchou⟧ (business trip) + ⟦{先|さき}→先：02883_saki⟧ (destination; place). The suffix ⟦{先|さき}→先：02883_saki⟧ is productive in Japanese and attaches to many activity nouns to indicate the destination or place associated with that activity.\n\nTHE ～{先|さき} PATTERN:\n- ⟦{旅行先|りょこうさき}→旅行先：28195_ryokousaki⟧: travel destination\n- {転勤先|てんきんさき}: new post (after transfer)\n- ⟦{引|ひ}っ{越|こ}し{先|さき}→引っ越し先：21647_hikkoshisaki⟧: new address (after moving)\n- {就職先|しゅうしょくさき}: place of employment\n- ⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧: contact information\n\nCOMMON COLLOCATIONS:\n- {出張先|しゅっちょうさき}⟦から→から：00504_kara⟧⟦{戻|もど}る→戻る：01117_modoru⟧: to return from a business trip\n- {出張先|しゅっちょうさき}⟦で→で：00502_de⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a meeting at the destination\n- {出張先|しゅっちょうさき}⟦の→の：09472_no⟧⟦ホテル→ホテル：01027_hoteru⟧: hotel at the business trip location\n\nSIMILAR WORDS:\n- {赴任先|ふにんさき}: place of assignment — implies a longer-term posting, not a short trip\n- {出向先|しゅっこうさき}: place of secondment — where one is temporarily transferred to work",
+  "notes": "Compound of ⟦{出張|しゅっちょう}→出張：01094_shucchou⟧ (business trip) + ⟦{先|さき}→先：02883_saki⟧ (destination; place). The suffix ⟦{先|さき}→先：02883_saki⟧ is productive in Japanese and attaches to many activity nouns to indicate the destination or place associated with that activity.\n\nRELATED WORDS:\n- ⟦{旅行先|りょこうさき}→旅行先：28195_ryokousaki⟧: travel destination\n- {転勤先|てんきんさき}: new post (after transfer)\n- ⟦{引|ひ}っ{越|こ}し{先|さき}→引っ越し先：21647_hikkoshisaki⟧: new address (after moving)\n- {就職先|しゅうしょくさき}: place of employment\n- ⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧: contact information\n\nCOMMON COLLOCATIONS:\n- {出張先|しゅっちょうさき}⟦から→から：00504_kara⟧⟦{戻|もど}る→戻る：01117_modoru⟧: to return from a business trip\n- {出張先|しゅっちょうさき}⟦で→で：00502_de⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a meeting at the destination\n- {出張先|しゅっちょうさき}⟦の→の：09472_no⟧⟦ホテル→ホテル：01027_hoteru⟧: hotel at the business trip location\n\nSIMILAR WORDS:\n- {赴任先|ふにんさき}: place of assignment — implies a longer-term posting, not a short trip\n- {出向先|しゅっこうさき}: place of secondment — where one is temporarily transferred to work",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28195_ryokousaki",
+      "reading": "りょこうさき",
+      "headword": "{旅行先|りょこうさき}",
+      "label": "travel destination"
+    },
+    {
+      "type": "related",
+      "target_id": "21647_hikkoshisaki",
+      "reading": "ひっこしさき",
+      "headword": "{引|ひ}っ{越|こ}し{先|さき}",
+      "label": "new address"
+    },
+    {
+      "type": "related",
+      "target_id": "03191_renrakusaki",
+      "reading": "れんらくさき",
+      "headword": "{連絡先|れんらくさき}",
+      "label": "contact information"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-05-08T12:10:02Z",
-    "modified": "2026-09-04T12:29:42Z"
+    "modified": "2026-10-22T01:23:35Z"
   }
 }

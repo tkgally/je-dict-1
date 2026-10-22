@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines ⟦{焼|や}く→焼く：01123_yaku⟧ (to grill/bake/roast) and ⟦{方|かた}→方：10665_kata⟧ (way/method). Very common in restaurant settings, especially when asking how meat should be cooked (rare, medium, well-done). Also used in cooking instruction contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦ステーキ→ステーキ：01369_suteeki⟧⟦の→の：09472_no⟧{焼|や}き{方|かた}: steak doneness\n- {焼|や}き{方|かた}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧: to change the cooking method\n- ⟦{上手|じょうず}→上手：00707_jouzu⟧な{焼|や}き{方|かた}: skillful grilling technique\n\nSTEAK DONENESS LEVELS:\n- ⟦レア→レア：11251_rea⟧: rare\n- ミディアムレア: medium rare\n- ミディアム: medium\n- ウェルダン: well done\n\nRELATED WORDS:\n- ⟦{焼|や}き→焼く：01123_yaku⟧⟦{加減|かげん}→加減：02602_kagen⟧: degree of doneness — focuses on how done something is\n- ⟦{調理法|ちょうりほう}→調理法：20458_chourihou⟧: cooking method — broader term covering all cooking techniques",
+  "notes": "Combines ⟦{焼|や}く→焼く：01123_yaku⟧ (to grill/bake/roast) and ⟦{方|かた}→方：10665_kata⟧ (way/method). Very common in restaurant settings, especially when asking how meat should be cooked (rare, medium, well-done). Also used in cooking instruction contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦ステーキ→ステーキ：01369_suteeki⟧⟦の→の：09472_no⟧{焼|や}き{方|かた}: steak doneness\n- {焼|や}き{方|かた}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧: to change the cooking method\n- ⟦{上手|じょうず}→上手：00707_jouzu⟧な{焼|や}き{方|かた}: skillful grilling technique\n\nRELATED WORDS:\n- ⟦レア→レア：11251_rea⟧: rare\n- ⟦ミディアムレア→ミディアムレア：30960_midiamurea⟧: medium rare\n- ⟦ミディアム→ミディアム：30961_midiamu⟧: medium\n- ⟦ウェルダン→ウェルダン：30962_werudan⟧: well done\n- ⟦{焼|や}き→焼く：01123_yaku⟧⟦{加減|かげん}→加減：02602_kagen⟧: degree of doneness — focuses on how done something is\n- ⟦{調理法|ちょうりほう}→調理法：20458_chourihou⟧: cooking method — broader term covering all cooking techniques",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -63,6 +63,34 @@
       "reading": "ちょうりほう",
       "headword": "{調理法|ちょうりほう}",
       "label": "cooking method"
+    },
+    {
+      "type": "related",
+      "target_id": "11251_rea",
+      "reading": "れあ",
+      "headword": "レア",
+      "label": "rare"
+    },
+    {
+      "type": "related",
+      "target_id": "30960_midiamurea",
+      "reading": "みでぃあむれあ",
+      "headword": "ミディアムレア",
+      "label": "medium rare"
+    },
+    {
+      "type": "related",
+      "target_id": "30961_midiamu",
+      "reading": "みでぃあむ",
+      "headword": "ミディアム",
+      "label": "medium"
+    },
+    {
+      "type": "related",
+      "target_id": "30962_werudan",
+      "reading": "うぇるだん",
+      "headword": "ウェルダン",
+      "label": "well done"
     }
   ],
   "metadata": {
@@ -78,6 +106,6 @@
       ]
     },
     "created": "2026-05-07T12:13:18Z",
-    "modified": "2026-09-02T04:02:29Z"
+    "modified": "2026-10-22T01:23:35Z"
   }
 }
