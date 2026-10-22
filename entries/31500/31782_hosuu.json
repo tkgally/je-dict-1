@@ -46,7 +46,15 @@
   ],
   "notes": "⟦{歩|ほ}→〜歩：00108_ho⟧ (step) + ⟦{数|すう}→数：03360_suu⟧ (number). Steps themselves are counted with the counter ⟦{歩|ほ}→〜歩：00108_ho⟧: ⟦{一歩|いっぽ}→一歩：08890_ippo⟧, ⟦{二歩|にほ}→二歩：27347_niho⟧, {三歩|さんぽ}, {一万歩|いちまんぽ}.\n\nCOMMON COLLOCATIONS:\n- {歩数|ほすう}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure one's steps\n- ⟦{歩数計|ほすうけい}→歩数計：17072_hosuukei⟧: pedometer\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{歩数|ほすう}: daily step count",
   "schema_version": "2.0",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27348_nanpo",
+      "reading": "なんぽ",
+      "headword": "{何歩|なんぽ}",
+      "label": "how many steps"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +70,6 @@
       "domain": []
     },
     "created": "2026-10-09T01:51:15Z",
-    "modified": "2026-10-09T01:53:03Z"
+    "modified": "2026-10-22T01:23:35Z"
   }
 }

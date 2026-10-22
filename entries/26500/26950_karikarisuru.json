@@ -79,8 +79,44 @@
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic word with two distinct meanings. The food sense mimics the sound of biting into something hard and crunchy. The irritation sense may derive from the image of scratching or scraping — a grating, tense feeling.\n\nCOMMON COLLOCATIONS:\n- カリカリ⟦に→に：00314_ni⟧⟦{焼|や}く→焼く：01123_yaku⟧: to bake/grill until crispy\n- カリカリ⟦に→に：00314_ni⟧⟦{揚|あ}げる→揚げる：16879_ageru⟧: to deep-fry until crunchy\n- カリカリした⟦{食感|しょっかん}→食感：06636_shokkan⟧: crunchy texture\n- カリカリしないで: don't get so worked up\n\nTEXTURE COMPARISON:\nJapanese has many onomatopoeia for crunchiness, each evoking a different texture:\n- サクサク: light, flaky crispness (tempura, pastry)\n- カリカリ: hard, brittle crunchiness (toast, bacon)\n- パリパリ: thin, snapping crispness (chips, dried seaweed)\n- ⟦ザクザク→ザクザク：10956_zakuzaku⟧: rough, chunky crunch (gravel, coarse-cut cabbage)\n- ポリポリ: quiet crunching (snacking on crackers)\n- バリバリ: aggressive crunching (chomping through hard food)",
-  "cross_references": [],
+  "notes": "An onomatopoeic word with two distinct meanings. The food sense mimics the sound of biting into something hard and crunchy. The irritation sense may derive from the image of scratching or scraping — a grating, tense feeling.\n\nCOMMON COLLOCATIONS:\n- カリカリ⟦に→に：00314_ni⟧⟦{焼|や}く→焼く：01123_yaku⟧: to bake/grill until crispy\n- カリカリ⟦に→に：00314_ni⟧⟦{揚|あ}げる→揚げる：16879_ageru⟧: to deep-fry until crunchy\n- カリカリした⟦{食感|しょっかん}→食感：06636_shokkan⟧: crunchy texture\n- カリカリしないで: don't get so worked up\n\nSIMILAR WORDS:\nJapanese has many onomatopoeia for crunchiness, each evoking a different texture:\n- サクサク: light, flaky crispness (tempura, pastry)\n- カリカリ: hard, brittle crunchiness (toast, bacon)\n- パリパリ: thin, snapping crispness (chips, dried seaweed)\n- ⟦ザクザク→ザクザク：10956_zakuzaku⟧: rough, chunky crunch (gravel, coarse-cut cabbage)\n- ポリポリ: quiet crunching (snacking on crackers)\n- バリバリ: aggressive crunching (chomping through hard food)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05887_sakusaku",
+      "reading": "さくさく",
+      "headword": "さくさく",
+      "label": "light, flaky crispness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05259_paripari",
+      "reading": "ぱりぱり",
+      "headword": "ぱりぱり",
+      "label": "thin, snapping crispness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10956_zakuzaku",
+      "reading": "ざくざく",
+      "headword": "ザクザク",
+      "label": "rough, chunky crunch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05937_poripori",
+      "reading": "ぽりぽり",
+      "headword": "ぽりぽり",
+      "label": "quiet crunching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05720_baribari",
+      "reading": "ばりばり",
+      "headword": "ばりばり",
+      "label": "aggressive crunching"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -102,7 +138,7 @@
       "transitivity": "intransitive"
     },
     "created": "2026-05-06T11:09:08Z",
-    "modified": "2026-09-28T13:24:21Z"
+    "modified": "2026-10-22T01:23:35Z"
   },
   "conjugation": {
     "type": "suru",
