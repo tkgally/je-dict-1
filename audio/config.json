@@ -1,9 +1,9 @@
 {
   "_doc": "Settings for the example-audio workflow (AUDIO_WORKFLOW.md). Changing tts_model, prompt_strategy, checkers, rule or mp3_kbps is a workflow change: rerun the regression suite (python3 build/audio_regression.py) first and log it in the AUDIO_WORKFLOW.md changelog.",
   "production": {
-    "enabled": true,
-    "since": "2026-09-27",
-    "reason": "inkling gets WAV input (audio_api.py); regression passed 2026-09-27 (44/44, 3/3, 7/108); workflow v2.1"
+    "enabled": false,
+    "since": "2026-10-22",
+    "reason": "stopped_for_checker: kana checker thinkingmachines/inkling gave no verdict on 97.6% of attempts (2026-10-22 13:5xZ run); direct call: 429 'thinkingmachines/inkling is temporarily rate-limited upstream'; check-models lists it as dead. Re-enable once check-models shows it alive (regression first if it was replaced)."
   },
   "workflow_version": "v2.1",
   "tts_model": "google/gemini-3.8-flash-tts",
