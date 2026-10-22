@@ -564,3 +564,10 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   `main` holding only `.nojekyll`. Push access verified from this session for both. A Routine
   session can push only to the repositories attached to it, so both must be in the Routine's
   repositories before `a2` fills.
+- 2026-10-22: production stopped by the checker guard. In the 13:4xZ audio run the kana checker
+  `thinkingmachines/inkling` gave no verdict on 97.6% of attempts (`run` printed
+  `stopped_for_checker`); a direct call returned 429 "temporarily rate-limited upstream", and
+  `check-models` lists the model as dead. 26 of the 60 planned examples were done (25 accepted)
+  and published to `a3`; the other 34 wait. `production.enabled` is false until the model answers
+  again (`check-models`); if it has to be replaced, that is a workflow change (regression suite
+  and pilot first). No change to models, prompt or acceptance rule.
