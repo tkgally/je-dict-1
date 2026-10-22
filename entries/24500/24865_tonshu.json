@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "24865_tonshu_ex1",
-      "japanese": "⟦{拝啓|はいけい}→拝啓：12790_haikei⟧　{時下|じか}⟦ますます→ますます：01604_masumasu⟧ご{清栄|せいえい}⟦の→の：09472_no⟧こととお{慶|よろこ}び⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧。...{頓首|とんしゅ}",
+      "japanese": "⟦{拝啓|はいけい}→拝啓：12790_haikei⟧　⟦{時下|じか}→時下：31853_jika⟧⟦ますます→ますます：01604_masumasu⟧ご⟦{清栄|せいえい}→清栄：31865_seiei⟧⟦の→の：09472_no⟧こととお{慶|よろこ}び⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧。...{頓首|とんしゅ}",
       "english": "Dear Sir/Madam, I hope you are well and prospering. ... Respectfully yours",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
       "notes": null
     }
   ],
-  "notes": "Originally a Chinese custom of prostrating oneself with the forehead touching the ground. In modern Japanese, used almost exclusively as a formal letter-closing formula.\n\nLETTER FORMAT:\nIn traditional Japanese letter writing, openings and closings come in matched pairs:\n- ⟦{拝啓|はいけい}→拝啓：12790_haikei⟧...⟦{敬具|けいぐ}→敬具：12977_keigu⟧: standard formal pair\n- ⟦{拝啓|はいけい}→拝啓：12790_haikei⟧...{頓首|とんしゅ}: more elevated formal pair\n- ⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧...{謹言|きんげん}/{頓首|とんしゅ}: most formal pair\n\nUSAGE:\n{頓首|とんしゅ} is traditionally used by men; women conventionally use かしこ instead. This gender distinction is becoming less strict in modern usage but still observed in very formal correspondence.\n\nSIMILAR WORDS:\n- ⟦{敬具|けいぐ}→敬具：12977_keigu⟧: sincerely; respectfully — the standard formal letter closing, less elevated than {頓首|とんしゅ}\n- かしこ: respectfully (women's letter closing) — the traditional female equivalent\n- {草々|そうそう}: in haste — a less formal closing, paired with {前略|ぜんりゃく}",
+  "notes": "Originally a Chinese custom of prostrating oneself with the forehead touching the ground. In modern Japanese, used almost exclusively as a formal letter-closing formula.\n\nRELATED WORDS:\nIn traditional Japanese letter writing, openings and closings come in matched pairs:\n- ⟦{拝啓|はいけい}→拝啓：12790_haikei⟧...⟦{敬具|けいぐ}→敬具：12977_keigu⟧: standard formal pair\n- ⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧...{謹言|きんげん}/{頓首|とんしゅ}: most formal pair\n\nUSAGE:\n{頓首|とんしゅ} is traditionally used by men; women conventionally use かしこ instead. This gender distinction is becoming less strict in modern usage but still observed in very formal correspondence.\n\nSIMILAR WORDS:\n- ⟦{敬具|けいぐ}→敬具：12977_keigu⟧: sincerely; respectfully — the standard formal letter closing, less elevated than {頓首|とんしゅ}\n- かしこ: respectfully (women's letter closing) — the traditional female equivalent\n- ⟦{草々|そうそう}→草々：32016_sousou⟧: in haste — a less formal closing, paired with ⟦{前略|ぜんりゃく}→前略：32015_zenryaku⟧",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -58,6 +58,13 @@
       "reading": "けいぐ",
       "headword": "{敬具|けいぐ}",
       "label": "sincerely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "32016_sousou",
+      "reading": "そうそう",
+      "headword": "{草々|そうそう}",
+      "label": "in haste"
     }
   ],
   "metadata": {
@@ -76,6 +83,6 @@
       ]
     },
     "created": "2026-04-21T10:32:09Z",
-    "modified": "2026-10-01T09:54:21Z"
+    "modified": "2026-10-22T00:20:26Z"
   }
 }
