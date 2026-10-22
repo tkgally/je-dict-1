@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{習|なら}う (learn X) / X⟦に→に：00314_ni⟧{習|なら}う (learn from X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {習|なら}って⟦いる→いる：00495_iru⟧ = 'is learning/taking lessons.'\n\nCOMMON PATTERNS:\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{習|なら}う (learn Japanese)\n- ⟦ピアノ→ピアノ：01376_piano⟧⟦を→を：00422_wo⟧{習|なら}う (learn piano)\n- ⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧{習|なら}う (learn from teacher)\n- ⟦{習|なら}い{事|ごと}→習い事：13902_naraigoto⟧ (lessons/extracurricular activities)\n\nCounterpart: ⟦{教|おし}える→教える：00526_oshieru⟧ (to teach). Emphasizes learning from someone.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{習|なら}う (learn X) / X⟦に→に：00314_ni⟧{習|なら}う (learn from X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {習|なら}って⟦いる→いる：00495_iru⟧ = 'is learning/taking lessons.'\n\nCOMMON PATTERNS:\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{習|なら}う (learn Japanese)\n- ⟦ピアノ→ピアノ：01376_piano⟧⟦を→を：00422_wo⟧{習|なら}う (learn piano)\n- ⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧{習|なら}う (learn from teacher)\n- ⟦{習|なら}い{事|ごと}→習い事：13902_naraigoto⟧ (lessons/extracurricular activities)\n\nCounterpart: ⟦{教|おし}える→教える：00526_oshieru⟧ (to teach). Emphasizes learning from someone.\n\nSIMILAR WORDS:\n- ⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: to study, to learn — broader and more formal; covers learning from books, experience or history, not only from a teacher\n- ⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧: to study — the everyday word for studying, including on one's own\n- ⟦{教|おそ}わる→教わる：02024_osowaru⟧: to be taught — close to {習|なら}う, but puts more weight on receiving the teaching\n{習|なら}う needs a teacher or a model to follow: lessons, a coach, someone showing you. Teaching yourself from a book is ⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧ or ⟦{学|まな}ぶ→学ぶ：01987_manabu⟧, not {習|なら}う.",
   "cross_references": [
     {
       "type": "contrast",
@@ -175,11 +175,25 @@
       "reading": "おそわる",
       "headword": "{教|おそ}わる",
       "label": "to be taught, to learn from"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01987_manabu",
+      "reading": "まなぶ",
+      "headword": "{学|まな}ぶ",
+      "label": "to study, to learn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00527_benkyousuru",
+      "reading": "べんきょうする",
+      "headword": "{勉強|べんきょう}する",
+      "label": "to study"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:40:19Z",
-    "modified": "2026-09-02T04:00:57Z",
+    "modified": "2026-10-22T00:54:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
