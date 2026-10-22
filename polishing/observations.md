@@ -1650,3 +1650,5 @@ _(The 121 observation lines from 2026-10-05 to 2026-10-12 were harvested by the 
 - 2026-10-21 [entry] 30594: audio checks heard くしょうした for {苦笑|くしょう}いした in 30594_zuboshi_ex4; the word is 苦笑い (にがわらい), so the furigana should be {苦笑|にがわら}い — fixed in routine_2026-10-21_005
 - 2026-10-21 [entry] 31979: audio checks heard だじょうだいじん for {太政大臣|だいじょうだいじん} in 31979_tairanokiyomori_ex2; check the furigana (school texts use だじょうだいじん).
 - 2026-10-21 [entry] 31165: audio checks heard ごかっけい for {五角形|ごかくけい} in 31165_gokakukei_ex1/ex2; check the furigana (ごかっけい is the common spoken reading).
+- 2026-10-22 [entry] 32084: audio checks heard ておりりする for {手織|ており}りする in 32084_nishijinori_ex3; check the furigana (the り is doubled; should be {手織|てお}り).
+- 2026-10-22 [entry] 32139: audio checks heard ろくじゅっ for {六十|ろくじゅう}キロ in 32139_houtei_ex3; check the furigana (ろくじゅっキロ is the usual spoken form).
