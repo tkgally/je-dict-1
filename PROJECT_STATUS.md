@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-22 (Routine v3: new-entries — 20 New Entries, IDs 32185–32204)
+
+All twenty are internal-closure candidates: 一理, 便宜上, 隊員 (vs 退院), 参上, 貫徹, 発現 (vs 発言), 選り好み, 低価格, 一塁, 内覧会, 離職率, 浄水場, 縦走, 成形 (vs 整形), 管弦楽, 四重奏, 弦楽四重奏, 素因数分解, 略字, 戯画. 参上, 貫徹, 発現 and 選り好み already had separate する-verb entries; each pair now cross-references the other. Self-check: one flag on a neighbour, rejected. 32 candidates remain, 11 of them internal-closure.
+
 ### 2026-10-21 (Routine v3: new-entries — 20 New Entries, IDs 32165–32184)
 
 All twenty are internal-closure candidates: 経口, 時候 (時候の挨拶), 色白, 黄泉, 屋形船, 長月, 松葉杖, 関白 (亭主関白), 熱情 (vs 情熱), 植わる (intransitive pair of 植える), 傍流 (vs 主流), 有期 (有期拘禁刑 since the 2025 penal reform), 傾注, 嘲弄, 各論 (総論賛成、各論反対), 干菓子, 予診, 招集 (vs 召集), 抵当権, 五穀豊穣. The harvester added reciprocal cross-references in 25 existing entries. Self-check: 1 applied, 1 rejected.
@@ -65,8 +69,4 @@ All twenty are internal-closure candidates: 注力, 私情 (vs 市場/史上/至
 ### 2026-10-19 (Routine v3: new-entries — 20 New Entries, IDs 32125–32144)
 
 All twenty are internal-closure candidates: 固定資産税, 浄水 (vs 上水), 杜氏, 培養, 模造品, 廃刊 (vs 休刊), 丁稚, 求刑, 能動態, 養子縁組, 醸造酒 (vs 蒸留酒), 自助, 公助 (the 自助・共助・公助 slogan), 無双 (literary and slang uses), 法定 (vs 法廷), 合同会社, 社名, 打掛, 文語体, 感服. Self-check: 0 accuracy flags; one kana link (なさい) retargeted from なさる to the なさい entry. 52 candidates remain.
-
-### 2026-10-19 (Routine v3: new-entries — 20 New Entries, IDs 32105–32124)
-
-All twenty are internal-closure candidates: 規制緩和, 震源地 (two senses: epicenter; source of a rumor or trend; notes give 震源 vs 震央), 液状化, むき出し (two senses: bare; undisguised), 模擬店, 乳酸菌, 日本三景 (proper noun, place), 春闘, 丸め込む, 黒歴史, 不信任, 舞踏会, 管制, 貸主, 共犯者, 簡易裁判所, 低所得, 不凍液, 製糸, 鉄器. Self-check: one flag, rejected (the model misread the 震源地 note); the note was reworded anyway to name 震央.
 
