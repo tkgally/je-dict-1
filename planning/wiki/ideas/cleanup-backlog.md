@@ -3542,6 +3542,23 @@ kana surface to a kanji-headed entry (きて→来る, たち→達, しまう�
 ください→下さい). The linker never writes these, so they are all old semantic-pass links, never
 independently checked. Same review path, no tiering.
 
+## Updates 2026-10-23 (assessment: audio nearly complete)
+
+### Examples held for a human by the audio checks
+
+New queue item **`audio-needs-human-triage`** (priority 5). With 97% of the examples recorded,
+`audio/needs_human.jsonl` holds 727 examples in 594 entries that no recording attempt passed.
+In 642 of them the four checkers heard the same alternative reading at least six times, and
+in a sample of the top 40 about half were errors in the entry, not in the recording: 十四日
+with じゅうよんにち, 毎月一回 with いちかい, 一週間 with いちしゅうかん, 二つ上 with {二|に}つ,
+三十七度一度 for 三十七度一分, 上手い with じょうず, 取り越し苦労 with くろう, 縦横 read じゅうおう in
+縦横十メートル. The rest were TTS slips on rare readings (明後日 みょうごにち, 一昨年 いっさくねん,
+洞穴, 花弁) or acceptable variants (七時 なな/しち). Nobody was going to listen to 727 clips, and
+most need no listening: the checkers' diffs say what was heard. `build/audio_needs_human_triage.py`
+lists the queue, most consistent first; a fixed example leaves it by itself (its text changes,
+and the audio mode records it again), and an example whose entry is right gets a `tts-error`
+or `ambiguous` verdict in `audio/needs_human_triage.jsonl`.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

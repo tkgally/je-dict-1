@@ -163,7 +163,9 @@ with today's date), read the checkers' `diffs`. When the checkers kept hearing
 one plausible reading that differs from the furigana, the furigana may be
 wrong. Log `[entry] NNNNN: audio checks heard <X> for <Y> in <example id>; check
 the furigana` in `polishing/observations.md`. Do not edit entries in this mode.
-Otherwise the item simply waits for Tom; the report names how many there are.
+Every held example is also worked later by the systemic-fix item
+`audio-needs-human-triage` (`build/audio_needs_human_triage.py`), which fixes the
+entry or records why the recording failed; the report names how many were held.
 
 ## 6. Wrap up (routine2.md §5–§7)
 

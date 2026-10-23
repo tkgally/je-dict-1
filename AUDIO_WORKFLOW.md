@@ -302,6 +302,9 @@ je-dict-1 keeps text only, all under `audio/`:
   that objected on the accepted attempt. Sharded by entry range so a run touches few files.
 - `needs_human.jsonl`: examples no attempt passed, with the verdicts and diffs of every attempt.
   They are not retried while the text and the workflow version are unchanged.
+  The systemic-fix item `audio-needs-human-triage` works through them
+  (`build/audio_needs_human_triage.py`): a wrong furigana is fixed in the entry, and an example whose
+  entry is right gets a verdict in `needs_human_triage.jsonl` (`tts-error` or `ambiguous`).
 - `runs.jsonl`: one summary line per production run (examples, first-pass, needs-human,
   objections per checker, cost, bytes, store use). `audio_maintenance.py drift` reads it.
 - `pilots.jsonl`, `regression/history.jsonl`, `reaudits.jsonl`, `maintenance.json`: the
@@ -322,11 +325,14 @@ recording of one of its examples was published after its last text change (manif
 
 ## 9. The Routine's `audio` mode
 
-- **Weight 0.25** in `pipeline/routine-config.json`; the other weights were scaled by 0.75
-  (polish 0.22, accuracy-review 0.22, systemic-fix 0.19, new-entries 0.08, candidates 0.04).
-  Simulated over 400 runs with today's signals, audio gets 26%. The mode is suppressed while
-  `audio/config.json` `production.enabled` is false, and on days when less than
-  $0.50 of the OpenRouter daily cap remains.
+- **Weight 0.10** in `pipeline/routine-config.json` since 2026-10-23 (0.25 from 2026-09-25, while
+  the first recording pass ran; 97% of the examples were recorded by 2026-10-22). The mode now
+  records only what editing leaves behind: new examples and stale ones. It is suppressed while
+  fewer than `audio_min_backlog` (150) examples wait, unless `audio_max_days_between_runs` (3)
+  days have passed since the last audio cycle with any waiting, and doubled at
+  `audio_high_backlog` (1,500; a large fix that rewrites many examples). It is also suppressed
+  while `audio/config.json` `production.enabled` is false, and on days when less than $0.50 of
+  the OpenRouter daily cap remains.
 - **Budget** (raised by Tom on 2026-09-26): `openrouter.audio_session_cap_usd` = $5.50 per audio
   cycle, daily cap $15 shared with the other modes (an audio cycle changes no entry text, so it
   needs no self-check). At the measured $0.0024–0.0028 per example that is about 2,000 examples
@@ -571,3 +577,10 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   and published to `a3`; the other 34 wait. `production.enabled` is false until the model answers
   again (`check-models`); if it has to be replaced, that is a workflow change (regression suite
   and pilot first). No change to models, prompt or acceptance rule.
+- 2026-10-23: production re-enabled. `check-models` shows `thinkingmachines/inkling` alive again
+  (its earlier "dead" probe in a fresh container was partly a missing `miniaudio`; run
+  `make audio-deps` before `check-models`), and `audio_regression.py --limit 30` passed (24/24
+  audible errors caught, $0.045). Routine pacing changed (§9): weight 0.25 → 0.10, gated on the
+  number of examples waiting. The 727 examples held for a human go to the systemic-fix item
+  `audio-needs-human-triage` (`build/audio_needs_human_triage.py`). No change to models, prompt
+  or acceptance rule.
