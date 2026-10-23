@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-23 (Routine v3: new-entries — 25 New Entries, IDs 32205–32229)
+
+Twenty internal-closure candidates (送辞, 立憲君主制, 醸造所, 年俸制, 尺貫法, 濃口醤油, 刀鍛冶, 町奉行, 金目鯛, 芳名帳, 級数, 新生児, 語り明かす, 後ずさり, 憩い, 社交界, 祝い事, 文面, 生え変わる, 見え見え) and the first five brainstorm candidates (菓子パン, ある程度, ごめんください, 数多い, 数少ない), each cross-referenced to its seed entry. The new-entries prompt's filter for brainstorm candidates matched nothing; fixed. The harvester added reciprocal cross-references in 29 existing entries. Self-check: clean. Queue 130 → 105.
+
 ### 2026-10-23 (Interactive: assessment, curator rulings, faster new entries)
 
 Tom approved every recommendation in `enhancement/assessment-2026-10-23.md`. The accuracy reviewer is now gpt-6.1-sol (at most $10 of the $15 daily cap). Six headword readings were corrected (軽やか かろやか, 一味違う ひとあじちがう, 役立たず やくたたず, 真っ二つ まっぷたつ, 欲深い よくぶかい, 最後尾 さいこうび); two of them turned out to duplicate correct entries (17975 真っ二つ, 21693 最後尾) and were merged into them. Four entries were retired into others (演習曲 → 練習曲, 文字(もんじ) → 文字(もじ), ため口 → タメ口, 挽肉 → ひき肉), and 参考, 音符, 休符, かける and 冠 were revised. New entries now get about a quarter of the Routine's cycles, and the candidate queue has a second stream, brainstorming from existing headwords and semantic fields (`build/brainstorm_candidates.py`). Its first round added 38 candidates (さえ, すら, あり得る, ある程度, フラミンゴ, 七面鳥 …). Tom approved the readings for examples with digits or Latin letters after rating 30 sample clips correct; readings for the other 2,540 were written and confirmed, and about 2,600 examples now wait for the audio mode. Digits and Latin letters are now half-width everywhere (52 examples converted; validation enforces it), and 31 examples whose furigana misread a number+counter or a word (3日 にち for みっか, 20分 ふん, 返信 へんじ) were corrected. Session log: `polishing/sessions/interactive_2026-10-23_assessment.md`.
@@ -65,7 +69,3 @@ All twenty are internal-closure candidates: 一理, 便宜上, 隊員 (vs 退院
 ### 2026-10-21 (Routine v3: new-entries — 20 New Entries, IDs 32165–32184)
 
 All twenty are internal-closure candidates: 経口, 時候 (時候の挨拶), 色白, 黄泉, 屋形船, 長月, 松葉杖, 関白 (亭主関白), 熱情 (vs 情熱), 植わる (intransitive pair of 植える), 傍流 (vs 主流), 有期 (有期拘禁刑 since the 2025 penal reform), 傾注, 嘲弄, 各論 (総論賛成、各論反対), 干菓子, 予診, 招集 (vs 召集), 抵当権, 五穀豊穣. The harvester added reciprocal cross-references in 25 existing entries. Self-check: 1 applied, 1 rejected.
-
-### 2026-10-21 (Routine v3: candidates — 40 words queued, C24570–C24609)
-
-Restocked the candidate queue with 40 words the dictionary already uses in examples or notes but does not define, each noted with the entry it was seen in: 26 held back from the 2026-10-18 restock (傾注, 嘲弄, 各論, 干菓子, 予診, 招集 vs 召集, 抵当権, 五穀豊穣, 送辞, 立憲君主制, 戯画, 略字, 縦走, 成形, 管弦楽, 醸造所, 年俸制, 尺貫法, 濃口醤油, 刀鍛冶, 町奉行, 金目鯛, 四重奏, 弦楽四重奏, 素因数分解, 有期) and 14 from a fresh scan of unlinked example text (発現, 貫徹, 参上, 隊員, 芳名帳, 選り好み, 低価格, 級数, 便宜上, 一塁, 内覧会, 離職率, 浄水場, 一理). Most scan hits were spelling variants or fragments of compound entries that already exist. Queue 32 → 72.
