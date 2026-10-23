@@ -349,6 +349,35 @@ class TestHomophoneGuards(unittest.TestCase):
         out = self._link("そうして{本|ほん}を{読|よ}む。", unlinked=unlinked, own_id="26873_koushite")
         self.assertIn("⟦そうして→そうして：02943_soushite⟧", out)
 
+    def test_unlink_decision_holds_for_kanji_and_katakana_surfaces(self):
+        unlinked = {"16667": frozenset({"本", "パソコン"})}
+        out = self._link("{本|ほん}をパソコンで{読|よ}む。", unlinked=unlinked)
+        self.assertNotIn("00111_hon", out)
+        self.assertNotIn("01538_pasokon", out)
+        self.assertIn("⟦{読|よ}む→読む：00426_yomu⟧", out)
+        out = self._link("{本|ほん}を{読|よ}む。", unlinked=unlinked, own_id="26873_koushite")
+        self.assertIn("⟦{本|ほん}→本：00111_hon⟧", out)
+
+    def test_unlink_decision_holds_for_function_words_and_chains(self):
+        unlinked = {"16667": frozenset({"を", "する"})}
+        out = self._link("{本|ほん}を{勉強|べんきょう}している。", unlinked=unlinked)
+        self.assertNotIn("00422_wo", out)
+        self.assertNotIn("00392_suru", out)
+        self.assertIn("⟦{本|ほん}→本：00111_hon⟧", out)
+
+    def test_own_headword_forms_never_link_to_a_same_spelled_entry(self):
+        naosu = [("{直|なお}す", "{直|なお}さない"), ("{直|なお}します", "{直|なお}しません"),
+                 ("{直|なお}した", "{直|なお}さなかった"), ("{直|なお}して", "{直|なお}さなくて"),
+                 ("{直|なお}している", "{直|なお}していない")]
+        entries = MINI + [entry("00869_naosu", "{直|なお}す", "なおす", "verb", forms=naosu),
+                          entry("18371_naosu", "〜{直|なお}す", "なおす", "suffix", forms=naosu)]
+        resolver = al.Resolver(entries)
+        linker = al.Linker(resolver, _SUDACHI)
+        ctx = resolver.entry_ctx(entries[-2], _SUDACHI)
+        out = linker.link_text("{車|くるま}を{直|なお}してください。{直|なお}している。", ctx)
+        self.assertNotIn("18371_naosu", out)
+        self.assertNotIn("00869_naosu", out)
+
     def test_guards_do_not_touch_kanji_or_katakana_surfaces(self):
         out = self._link("{本|ほん}をパソコンで{読|よ}む。", blocked=frozenset({"本", "パソコン", "読む"}))
         self.assertIn("⟦{本|ほん}→本：00111_hon⟧", out)
