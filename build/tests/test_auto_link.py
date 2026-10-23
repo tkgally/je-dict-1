@@ -401,8 +401,7 @@ class TestHomophoneGuards(unittest.TestCase):
                 '{"entry":"01227","base":"いける","target":"06957_ikeru","decision":"retarget","new_base":"いけない","new_target":"02335_ikenai"}\n',
                 encoding="utf-8")
             self.assertEqual(al.load_unlink_decisions(ledger),
-                             {"16667": frozenset({"そうして"}), "00014": frozenset({"ころ"}),
-                              "01227": frozenset({"いける"})})
+                             {"16667": frozenset({"そうして"}), "00014": frozenset({"ころ"})})
             self.assertEqual(al.load_blocked_bases(Path(tmp) / "missing.json"), frozenset())
             self.assertEqual(al.load_unlink_decisions(Path(tmp) / "missing.jsonl"), {})
 

@@ -4610,11 +4610,6 @@ measurement of the same family at the same rate, and 127's runner-side post-filt
 
 ## Updates 2026-09-23 (wiki harvest)
 
-### 145. `auto_link.py` ignores unlink decisions for kanji surfaces (queue: `auto-link-kanji-surface-ledger`)
-`guard()` returns early for any surface that is not all hiragana, so an `unlink` line for 照れ in 08152 照れる is ignored, and each re-run links it back to 00404 照る. The fix is to consult `ctx.excluded` for every surface and to never link a form of the entry's own headword.
-
-**Update 2026-10-23 (systemic-fix):** fixed. `guard()` now honours unlink decisions for every surface; the function-word and verb-chain rules go through it; the verb-chain rule treats a form of the entry's own headword as self. Unit tests added. The 28 wrong suffix-twin links in 直す, 終わる, 続ける, 始める were removed. What remains is the `review_links.py --apply-decisions` retarget problem in item 152.
-
 ### 146. Notes-fact quote gate accepts a 25-character prefix (queue: `reviewer-notes-fact-quote-prefix`)
 Since 2026-09-01, `notes-fact` flags were 304 applied against 618 rejected (33%). `quote_in_notes()` accepts a quote when only its first 25 characters match, so spliced or misplaced quotes get through.
 
@@ -4648,12 +4643,6 @@ Fourteen new queue items, all described in `backlog-queue.json`: `find-unlinked-
 `auto-link-skips-existing-words`, `furigana-on-digits`, `link-intransitive-pair-mislink`,
 `example-notes-missing-furigana`, `notes-writing-holds-etymology`, `loanword-native-label-kango`,
 `loanword-unheaded-gloss-restatement`.
-
-### 152. The linker ignores unlink decisions for kana surfaces too (queue: `auto-link-kanji-surface-ledger`)
-Seven reports in a week: inflected kana verbs (06611 した), particles (26609 も, 07973 がんも), digit
-readings (01011 に), より in 〜により (31874), and a loanword inside a katakana compound (10481 グラス).
-`review_links.py --apply-decisions` also turns a one-occurrence `retarget` into an entry-wide unlink
-(01799, 19871). This is now the most-reported linker defect; it needs one test per shape.
 
 ### 153. Audio store size
 tkgally/je-dict-audio-1 was at 853 of 900 MB on 2026-10-08 (about 32 MB per run). The audio mode

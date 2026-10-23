@@ -139,8 +139,11 @@ def superseded_removed(decisions: list[dict]) -> list[dict]:
 def decision_index(decisions: list[dict]) -> dict[tuple[str, str, str], set[str]]:
     """``(entry number, base, target) -> {decisions}`` over the whole ledger.
 
-    A ``retarget`` line counts as ``unlink`` for the old (base, target) and as
-    ``keep`` for the new one (``new_base``, ``new_target``).
+    A ``retarget`` line counts as ``retarget`` for the old (base, target) and as
+    ``keep`` for the new one (``new_base``, ``new_target``).  It is not an
+    ``unlink``: it pins one occurrence (its context), so the entry's other links
+    to the old base stay legitimate (01799: one です retargeted from だ must not
+    strip every だった).
     """
     idx: dict[tuple[str, str, str], set[str]] = defaultdict(set)
     for rec in decisions:
@@ -149,7 +152,7 @@ def decision_index(decisions: list[dict]) -> dict[tuple[str, str, str], set[str]
         num = entry_num(rec.get("entry", ""))
         key = (num, norm_base(rec.get("base", "")), rec.get("target", ""))
         if rec["decision"] == "retarget":
-            idx[key].add("unlink")
+            idx[key].add("retarget")
             idx[(num, norm_base(rec.get("new_base", "")), rec.get("new_target", ""))].add("keep")
         else:
             idx[key].add(rec["decision"])

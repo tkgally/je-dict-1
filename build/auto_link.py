@@ -277,7 +277,10 @@ def load_blocked_bases(path: Path = HOMOPHONES_PATH) -> frozenset[str]:
 
 def load_unlink_decisions(path: Path = DECISIONS_PATH) -> dict[str, frozenset[str]]:
     """``entry number -> bases`` that an adjudicated decision unlinked in that entry
-    (and that no later ``keep`` line for the same entry and base reversed)."""
+    (and that no later ``keep`` line for the same entry and base reversed).
+
+    A ``retarget`` line is not counted: it rewrites the one occurrence its context
+    pins, and the entry's other uses of the base may still link."""
     if not path.exists():
         return {}
     # entry number -> base -> targets unlinked; a later keep for the same entry,
@@ -294,7 +297,7 @@ def load_unlink_decisions(path: Path = DECISIONS_PATH) -> dict[str, frozenset[st
         if not (isinstance(rec, dict) and rec.get("base")):
             continue
         num, base = str(rec.get("entry", ""))[:5], strip_tilde(str(rec["base"]))
-        if rec.get("decision") in ("unlink", "retarget"):
+        if rec.get("decision") == "unlink":
             found[num][base].add(str(rec.get("target", "")))
         elif rec.get("decision") == "keep" and rec.get("entry") and base in found.get(num, {}):
             found[num][base].discard(str(rec.get("target", "")))
