@@ -2207,6 +2207,22 @@
       "severity": "low",
       "notes": "'From English X. Used in many contexts.' Fixed in 10803–10850; likely through ~10500–11500.",
       "scope_measured_at": "2026-10-12"
+    },
+    {
+      "id": "audio-needs-human-triage",
+      "title": "Examples the audio checkers kept hearing differently from their furigana (727 held for a human)",
+      "source": "planning/wiki/ideas/cleanup-backlog.md 'Updates 2026-10-23' (assessment 2026-10-23)",
+      "detect": "python3 build/audio_needs_human_triage.py",
+      "filter": "open each listed example in its entry; the queue is sorted by how consistently the checkers heard `heard` where the furigana says `expected`",
+      "fix_type": "judgment, one example at a time. Furigana or text wrong (十四日 じゅうよんにち → じゅうよっか, 一回 いちかい → いっかい, {二|に}つ → ふたつ, 今シーズン いま → こん, 十キロ じゅう → じゅっ): fix it in the example (and the same error elsewhere in the entry); the changed text drops the example from the queue and the audio mode records it again. Entry right and the recording wrong (明後日 read あさって, an added particle, 〇〇): `python3 build/audio_needs_human_triage.py --record <ex> --verdict tts-error --note ...`. Both readings acceptable or unsure: `--verdict ambiguous`. A wrong headword reading (romaji changes) is a curator decision: one line in reviews/needs_curator.txt",
+      "verify": "the detector no longer lists the example; python3 build/validate.py --id <id>",
+      "priority": 5,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 727,
+      "severity": "medium",
+      "notes": "Measured 2026-10-23: 727 examples in 594 entries held for a human; in 642 the checkers heard the same alternative reading at least six times. A sample of the top 40 had real furigana or text errors in about half (十四日 じゅうよんにち, 毎月一回 いちかい, 一週間 いちしゅうかん, 二つ上 {二|に}つ, 三十七度一度 for 三十七度一分, 上手い with じょうず, 取り越し苦労 くろう, 悪名高い たかい, 縦横 じゅうおう in 縦横十メートル); the rest were TTS slips on rare readings (明後日 みょうごにち, 一昨年 いっさくねん, 洞穴, 花弁) or acceptable variants (七時 なな/しち, 描く えがく/かく). These readings are shown to learners on every page. About 40 examples per cycle.",
+      "scope_measured_at": "2026-10-23"
     }
   ]
 }

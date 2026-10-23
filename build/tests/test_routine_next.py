@@ -50,6 +50,8 @@ def neutral_signals():
         "open_backlog_items": 5,
         "days_since_wiki": 30.0,
         "days_since_conjugation_check": 0.2,
+        "audio_backlog": 400,
+        "days_since_audio": 0.5,
     }
 
 
@@ -218,10 +220,13 @@ class TestConjugationCheckTrigger(unittest.TestCase):
         tally, _ = simulate(cfg, neutral_signals(), remaining=5.0, n=3000)
         self.assertNotIn("conjugation-check", tally)
 
-    def test_runs_after_a_day(self):
+    def test_runs_after_three_days(self):
         cfg = base_config()
         sig = neutral_signals()
-        sig["days_since_conjugation_check"] = 1.5
+        sig["days_since_conjugation_check"] = 2.5
+        mult, _ = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["conjugation-check"], 0.0)
+        sig["days_since_conjugation_check"] = 3.5
         mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
         self.assertEqual(mult["conjugation-check"], 1.0)
         self.assertTrue(any("triggered" in r for r in reasons["conjugation-check"]))
@@ -331,11 +336,46 @@ class TestAudioMode(unittest.TestCase):
         mult, _ = rn.compute_multipliers(neutral_signals(), cfg, remaining=0.3)
         self.assertEqual(mult["audio"], 0.0)
 
-    def test_audio_gets_about_a_quarter(self):
+    def test_audio_gets_about_a_tenth_with_a_backlog(self):
         cfg = base_config()
         n = 2000
         tally, _ = simulate(cfg, neutral_signals(), remaining=5.0, n=n)
-        self.assertAlmostEqual(tally["audio"] / n, 0.25, delta=0.03)
+        self.assertAlmostEqual(tally["audio"] / n, 0.10, delta=0.03)
+
+    def test_audio_suppressed_when_nothing_waits(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["audio_backlog"] = 0
+        sig["days_since_audio"] = 10.0
+        mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["audio"], 0.0)
+        self.assertTrue(any("no examples" in r for r in reasons["audio"]))
+
+    def test_small_backlog_waits_until_max_days(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["audio_backlog"] = 40
+        sig["days_since_audio"] = 1.0
+        mult, _ = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["audio"], 0.0)
+        sig["days_since_audio"] = 3.5
+        mult, _ = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["audio"], 1.0)
+
+    def test_large_backlog_doubles_audio(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["audio_backlog"] = 2500
+        mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["audio"], 2.0)
+        self.assertTrue(any("large backlog" in r for r in reasons["audio"]))
+
+    def test_unknown_backlog_leaves_audio_on(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["audio_backlog"] = None
+        mult, _ = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["audio"], 1.0)
 
     def test_audio_params_budget(self):
         cfg = base_config()

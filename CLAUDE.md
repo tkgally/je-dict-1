@@ -99,15 +99,16 @@ on each listed entry's page; use the entry's own headword.
 
 ## The Routine
 
-`prompts/routine2.md` is the one scheduled task (every three hours). A run lasts about two hours
-(`pipeline/run_clock.py`) and is a series of cycles, each merged before the next starts. Run start:
+`prompts/routine2.md` is the one scheduled task (every twelve hours, 00:15 and 12:15 UTC). A run lasts
+about two hours (`pipeline/run_clock.py`) and is a series of cycles, each merged before the next starts. Run start:
 pre-flight rescue and sweep. Each cycle: `python3 pipeline/routine_next.py` picks a mode → the
 mode's prompt → mechanical pass on changed entries → independent-model self-check → metrics
 snapshot → `make index` → commit → PR → CI → squash-merge → the branch restarts from `main`.
-Modes and weights (`pipeline/routine-config.json`): audio 0.25 (off until `audio/config.json`
-enables production), polish 0.22, accuracy-review 0.22, systemic-fix 0.19,
-new-entries 0.08, candidates 0.04 (self-suppressing), wiki (trigger-only), conjugation-check
-(trigger-only, about once a day: re-checks the conjugation tables). Mode prompts:
+Modes and weights (`pipeline/routine-config.json`, reweighted 2026-10-23): polish 0.30,
+accuracy-review 0.26, systemic-fix 0.22, audio 0.10 (only when at least 150 new or edited
+examples wait, or three days have passed with any waiting), new-entries 0.08, candidates 0.04
+(self-suppressing), wiki (trigger-only), conjugation-check (trigger-only, every three days:
+re-checks the conjugation tables). Mode prompts:
 `audio.md`, `comprehensive_polish.md`, `newentries.md`, `newcandidates.md`,
 `planning/maintain-knowledge-base.md`; the accuracy-review, systemic-fix and conjugation-check
 playbooks are inside `routine2.md`.

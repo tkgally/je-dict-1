@@ -139,6 +139,7 @@ python3 build/audio_maintenance.py drift               # first-pass rate and cos
 python3 build/audio_maintenance.py spotcheck --n 30    # listening page for Tom (published by the next publish)
 python3 build/audio_maintenance.py import-ratings audio/spotchecks/*.json   # Tom's ratings → regression suite
 python3 build/audio_maintenance.py reaudit --sample 100 --budget 0.40       # re-check existing recordings
+python3 build/audio_needs_human_triage.py [--summary]  # examples left for a human, most consistent mishearing first (systemic-fix)
 python3 build/check_no_binaries.py                     # CI gate: no audio files in je-dict-1
 ```
 

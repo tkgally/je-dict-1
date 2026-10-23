@@ -14,11 +14,14 @@ has weight 0 and runs only when its trigger fires (unharvested observations
 above the threshold and at least N days since the last wiki run), at the
 effective weight given in config "floors". `audio` (example recordings,
 prompts/audio.md) self-suppresses while audio/config.json has production
-disabled or the day's OpenRouter budget has less than audio_min_budget_usd left.
+disabled, the day's OpenRouter budget has less than audio_min_budget_usd left,
+or fewer than audio_min_backlog examples wait to be recorded (new or stale)
+unless audio_max_days_between_runs have passed since the last audio cycle.
 `conjugation-check` (re-checks the verb and adjective conjugation tables,
 prompts/routine2.md §D) has weight 0 like wiki and runs when at least
 conjugation_check_min_days_between_runs days have passed since the last one
-(about once in eight Routine runs at one day), at its "floors" weight.
+(every sixth Routine run at three days and two runs a day), at its "floors"
+weight.
 
 Design: archive/enhancement/unified-routine-plan-2026-06-09.md §4 (updated by
 enhancement/assessment-2026-09-02.md).
@@ -40,6 +43,7 @@ import argparse
 import glob
 import json
 import re
+import subprocess
 import sys
 from copy import deepcopy
 from datetime import datetime, timezone
@@ -68,13 +72,13 @@ DEFAULT_CONFIG = {
     "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries",
                       "candidates", "wiki", "audio", "conjugation-check"],
     "weights": {
-        "polish": 0.22,
-        "systemic-fix": 0.19,
-        "accuracy-review": 0.22,
+        "polish": 0.30,
+        "systemic-fix": 0.22,
+        "accuracy-review": 0.26,
         "new-entries": 0.08,
         "candidates": 0.04,
         "wiki": 0.0,
-        "audio": 0.25,
+        "audio": 0.10,
         "conjugation-check": 0.0,
     },
     "floors": {"wiki": 0.15, "conjugation-check": 0.3},
@@ -85,7 +89,10 @@ DEFAULT_CONFIG = {
         "seen_in_entry_high_threshold": 50,
         "observations_unharvested_lines": 40,
         "wiki_min_days_between_runs": 7,
-        "conjugation_check_min_days_between_runs": 1.0,
+        "conjugation_check_min_days_between_runs": 3.0,
+        "audio_min_backlog": 150,
+        "audio_max_days_between_runs": 3.0,
+        "audio_high_backlog": 1500,
         "min_multiplier": 0.5,
         "max_multiplier": 2.0,
     },
@@ -210,6 +217,7 @@ def compute_signals():
 
     return {
         "audio_production_enabled": audio_enabled,
+        "audio_backlog": audio_backlog() if audio_enabled else None,
         "candidate_count": candidate_count,
         "seen_in_entry_count": seen,
         "max_entry_id": max_id,
@@ -218,6 +226,19 @@ def compute_signals():
         "unharvested_observations": unharvested,
         "open_backlog_items": open_backlog,
     }
+
+
+def audio_backlog():
+    """Examples waiting to be recorded (new plus stale), from
+    `audio_pipeline.py status`; None if the count cannot be read."""
+    try:
+        out = subprocess.run([sys.executable, str(PROJECT_ROOT / "build" / "audio_pipeline.py"),
+                              "status"], capture_output=True, text=True, timeout=120,
+                             cwd=PROJECT_ROOT)
+        tiers = json.loads(out.stdout).get("tiers", {})
+    except (OSError, ValueError, subprocess.SubprocessError):
+        return None
+    return sum(int(t.get("to_record", 0)) + int(t.get("stale", 0)) for t in tiers.values())
 
 
 def days_since_mode(state, mode):
@@ -342,7 +363,7 @@ def compute_multipliers(signals, config, remaining):
     cdays = signals.get("days_since_conjugation_check", 9999.0)
     if cdays is None:
         cdays = 9999.0
-    cmin = float(nz.get("conjugation_check_min_days_between_runs", 1.0))
+    cmin = float(nz.get("conjugation_check_min_days_between_runs", 3.0))
     if cdays >= cmin:
         mult["conjugation-check"] = 1.0
         reasons["conjugation-check"].append(
@@ -366,6 +387,29 @@ def compute_multipliers(signals, config, remaining):
     elif remaining < float(config["openrouter"].get("audio_min_budget_usd", 0.5)):
         mult["audio"] = 0.0
         reasons["audio"].append("OpenRouter daily budget too low for an audio batch")
+    else:
+        # Nearly every example is recorded, so audio runs only when enough
+        # new or edited examples wait (or a small backlog has waited too long)
+        backlog = signals.get("audio_backlog")
+        adays = signals.get("days_since_audio", 9999.0)
+        if adays is None:
+            adays = 9999.0
+        amin = int(nz.get("audio_min_backlog", 150))
+        amax_days = float(nz.get("audio_max_days_between_runs", 3.0))
+        ahigh = int(nz.get("audio_high_backlog", 1500))
+        if backlog is not None and backlog <= 0:
+            mult["audio"] = 0.0
+            reasons["audio"].append("no examples waiting to be recorded")
+        elif backlog is not None and backlog < amin and adays < amax_days:
+            mult["audio"] = 0.0
+            reasons["audio"].append(
+                f"only {backlog} examples waiting (< {amin}) and {adays:.1f} days "
+                f"since the last audio cycle (< {amax_days:.0f})")
+        elif backlog is not None and backlog >= ahigh:
+            mult["audio"] = clamp(2.0)
+            reasons["audio"].append(f"large backlog: {backlog} examples waiting")
+        elif backlog is not None:
+            reasons["audio"].append(f"{backlog} examples waiting to be recorded")
 
     # systemic-fix: hard suppression when there is no open, batch-ready backlog
     if signals.get("open_backlog_items", 0) <= 0:
@@ -564,6 +608,7 @@ def main():
     signals = compute_signals()
     signals["days_since_wiki"] = round(days_since_mode(state, "wiki"), 1)
     signals["days_since_conjugation_check"] = round(days_since_mode(state, "conjugation-check"), 1)
+    signals["days_since_audio"] = round(days_since_mode(state, "audio"), 1)
     ledger, spent, cap, remaining, _reset = read_ledger(config)
 
     if args.simulate is not None:

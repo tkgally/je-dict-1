@@ -6,8 +6,8 @@ another cycle may begin.
     python3 pipeline/run_clock.py          # elapsed minutes, "next cycle: yes|no", "wrap up now" once due
 
 A Routine run is a series of cycles (select a mode, do it, merge its PR). The
-schedule fires every three hours, so a run must end well before the next one
-starts. A new cycle may begin until NEW_CYCLE_UNTIL minutes have passed; from
+schedule fires every twelve hours (every three until 2026-10-13), and a run must
+end well before the next one starts. A new cycle may begin until NEW_CYCLE_UNTIL minutes have passed; from
 WRAP_UP_AT minutes the cycle in progress stops its content work and wraps up.
 The start time is kept outside the repository (it survives a compacted
 conversation, never a new container); a start file older than STALE_AFTER

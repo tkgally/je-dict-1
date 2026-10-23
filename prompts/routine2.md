@@ -5,7 +5,7 @@ is a series of **cycles**. A cycle is one focused unit of work chosen by a
 deterministic selector: it verifies its own changes with an independent model
 before merging, records one line of quality metrics, and merges its own pull
 request. The run starts cycle after cycle until the run clock says stop. It
-runs unattended every three hours and is written for a mid-size model: follow
+runs unattended every twelve hours and is written for a mid-size model: follow
 it literally, in order, and do not improvise around it.
 
 v3 (2026-09-02) replaces v2 after the assessment in
