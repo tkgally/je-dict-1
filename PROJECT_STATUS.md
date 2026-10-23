@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-23 (Routine v3: candidates — 60 words queued, C24610–C24669)
+
+Restocked the candidate queue with 60 words the dictionary already uses in example sentences but does not define, each noted with the entry it was seen in. They came from a fresh SudachiPy scan of unlinked example text, read by hand: everyday words (前歯, 春先, 長旅, 体操服, 酔い止め, 立ち仕事, 新生児), verbs (生え変わる, 見計らう, 追いやる, 負け越す, 勝ち上がる, 垣間見える), set phrases and idioms (我を張る, 難攻不落, 異国情緒, 粒揃い), and Labor Thanksgiving Day (勤労感謝の日). Most scan hits were other spellings of existing entries (子ども, 気づく, 怪我, 可愛い …) that the linker does not link; that is logged as a tooling observation. Queue 32 → 92.
+
 ### 2026-10-22 (Routine v3: new-entries — 20 New Entries, IDs 32185–32204)
 
 All twenty are internal-closure candidates: 一理, 便宜上, 隊員 (vs 退院), 参上, 貫徹, 発現 (vs 発言), 選り好み, 低価格, 一塁, 内覧会, 離職率, 浄水場, 縦走, 成形 (vs 整形), 管弦楽, 四重奏, 弦楽四重奏, 素因数分解, 略字, 戯画. 参上, 貫徹, 発現 and 選り好み already had separate する-verb entries; each pair now cross-references the other. Self-check: one flag on a neighbour, rejected. 32 candidates remain, 11 of them internal-closure.
@@ -65,8 +69,4 @@ Restocked the candidate queue with 40 words the dictionary already uses in examp
 ### 2026-10-20 (Routine v3: new-entries — 20 New Entries, IDs 32145–32164)
 
 All twenty are internal-closure candidates: 注力, 私情 (vs 市場/史上/至上), 突進, 教官, 登園, 前面 (vs 全面), 第一子, 気位, 内申書 (officially 調査書), 不測 (vs 不足), 催事, 盗掘, 霊前 (御霊前 vs 御仏前), 受験者 (vs 受験生), 手水, 薄茶, 悪玉菌, 財源, 国営 (NHK is not state broadcasting), 民営. The candidate しわ寄せ was dropped as a duplicate of 皺寄せ. Self-check: one flag on a neighbour, applied (資金 tagged formal); one kana link kept. 32 candidates remain.
-
-### 2026-10-19 (Routine v3: new-entries — 20 New Entries, IDs 32125–32144)
-
-All twenty are internal-closure candidates: 固定資産税, 浄水 (vs 上水), 杜氏, 培養, 模造品, 廃刊 (vs 休刊), 丁稚, 求刑, 能動態, 養子縁組, 醸造酒 (vs 蒸留酒), 自助, 公助 (the 自助・共助・公助 slogan), 無双 (literary and slang uses), 法定 (vs 法廷), 合同会社, 社名, 打掛, 文語体, 感服. Self-check: 0 accuracy flags; one kana link (なさい) retargeted from なさる to the なさい entry. 52 candidates remain.
 
