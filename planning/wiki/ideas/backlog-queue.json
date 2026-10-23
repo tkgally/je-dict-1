@@ -2126,7 +2126,7 @@
       "status": "open",
       "scope_estimate": 16,
       "severity": "low",
-      "notes": "IDs include 00032, 03863, 04532, 04540, 04551, 23652, 24554, 25005, 28391, 30876; 28700 ミリリットル had split wrong readings ({１|じゅう}{０|ご}).",
+      "notes": "IDs include 00032, 03863, 04532, 04540, 04551, 23652, 24554, 25005, 28391, 30876; 28700 ミリリットル had split wrong readings ({１|じゅう}{０|ご}). Ruling 2026-10-23 (entry-guidelines, Furigana): a bare digit never carries furigana ({1|いち}テラバイト → 1テラバイト), but a group that fuses a number and its counter into one word is the house form ({3日|みっか}, {1日|ついたち}, {2人|ふたり}); leave those.",
       "scope_measured_at": "2026-10-12"
     },
     {
@@ -2235,11 +2235,12 @@
       "verify": "status shows the readings confirmed; the next audio cycle records them",
       "priority": 7,
       "batch_ready": false,
-      "status": "blocked",
-      "scope_estimate": 2458,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "medium",
-      "notes": "Blocked until Tom approves the 30-clip sample (https://claude.ai/artifact/Fox2wSbfn4DWbhXXz8pQpQ); `audio_digit_readings.py approve` then sets method_approved and opens this item. 2026-10-23: 116 of a spread sample of 120 readings stored (4 failed the consistency check), 114 confirmed by gemini-3.8-flash, 2 disputed (both first readings were wrong: B組 くみ for ぐみ, お金 missing お); 30 recorded, all accepted by the four checks. About $0.0016 per example for generate + confirm, so the rest costs about $4 over several cycles.",
-      "scope_measured_at": "2026-10-23"
+      "notes": "Blocked until Tom approves the 30-clip sample (https://claude.ai/artifact/Fox2wSbfn4DWbhXXz8pQpQ); `audio_digit_readings.py approve` then sets method_approved and opens this item. 2026-10-23: 116 of a spread sample of 120 readings stored (4 failed the consistency check), 114 confirmed by gemini-3.8-flash, 2 disputed (both first readings were wrong: B組 くみ for ぐみ, お金 missing お); 30 recorded, all accepted by the four checks. About $0.0016 per example for generate + confirm, so the rest costs about $4 over several cycles. 2026-10-23 (same day): Tom rated all 30 sample clips correct; approved. All remaining readings written and confirmed in the interactive session: 2,571 confirmed, 3 disputed (00421 綿, 07560 IPA, 17946 中火; logged), 1 rejected (06910 えーと 090の…). Fixing the run surfaced 31 furigana errors in the examples (counter after a digit read as the bare counter: 3{日|にち} for みっか, 20{分|ふん}; お金, 一箱, 何です, PA外, B組, 返信), all fixed. New examples with digits get readings at the start of each audio cycle (prompts/audio.md §3). Resolved.",
+      "scope_measured_at": "2026-10-23",
+      "resolved_date": "2026-10-23"
     }
   ]
 }

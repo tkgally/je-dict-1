@@ -86,8 +86,10 @@ pipeline's `spoken_example()` gives a confirmed reading to the example as a hand
 four checks and the acceptance rule are unchanged; a later reading change makes the recording
 stale (`added`). Production uses confirmed readings only once `method_approved` is true, which
 `audio_digit_readings.py approve` sets after Tom has rated the 30-clip sample (published
-2026-10-23 at https://claude.ai/artifact/Fox2wSbfn4DWbhXXz8pQpQ); the same command opens the
-systemic-fix item `audio-digit-readings`, which writes and confirms the rest in batches.
+2026-10-23 at https://claude.ai/artifact/Fox2wSbfn4DWbhXXz8pQpQ). Tom rated all 30 correct the
+same day and the method was approved; the remaining readings were written and confirmed in the
+same session, and the audio mode writes readings for new examples at the start of each
+recording step (`prompts/audio.md` §3).
 
 ### 3.2 Per-example reading overrides
 
@@ -603,3 +605,9 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   116 readings stored, 114 confirmed, 2 disputed (both first readings wrong); 30 recorded, 30
   accepted (28 on the first attempt), $0.08. Waiting for Tom's ear check. No change to models,
   prompt or acceptance rule for any example without such a reading.
+- 2026-10-23: Tom rated all 30 sample clips of §3.1 correct; `method_approved` set. Readings for
+  the remaining examples with digits or Latin letters generated and confirmed in the same
+  session (counts in the session log). Before that, the 52 examples written with full-width
+  digits were converted to half-width (house style; validation now rejects full-width digits and
+  letters), so their readings were written for the new text. No change to models, prompt or
+  acceptance rule.

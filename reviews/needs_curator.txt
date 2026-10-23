@@ -2,4 +2,4 @@
 # The rulings are in polishing/sessions/curator_2026-10-01.md; the old lines are in git history.
 # Cleared 2026-10-23: Tom approved every recommendation in enhancement/assessment-2026-10-23.md §4 (D2 readings, D3 content rulings);
 # carried out in polishing/sessions/interactive_2026-10-23_assessment.md. The old lines are in git history.
-2026-10-23T14:30Z audio-digit-readings — please listen to the 30 sample recordings of sentences with digits or Latin letters and rate them: https://claude.ai/artifact/Fox2wSbfn4DWbhXXz8pQpQ (ratings are saved on the page). If they are right, a session runs `python3 build/audio_digit_readings.py approve --note "…"`, which lets the Routine write and record the other ~2,450.
+2026-10-23T15:10Z 17946 中火: the headword reads なかび, but the usual reading in cooking is ちゅうび (強火 つよび / 中火 ちゅうび / 弱火 よわび); the two models writing audio readings split on it. Rename the entry to ちゅうび (retire_entry.py rename 17946_nakabi 17946_chuubi, noting なかび as a variant), or keep なかび?

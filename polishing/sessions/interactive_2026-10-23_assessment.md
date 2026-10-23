@@ -76,3 +76,35 @@ asked for more new entries plus a brainstorming process for finding candidates.
 ## Spend
 Today's ledger: the assessment calibration ($5.74), the self-check, brainstorming test and round,
 the digit readings and the sample; see pipeline/openrouter-ledger.json.
+
+## Later the same day: digit readings approved, half-width digits
+
+- Tom rated all 30 sample clips correct (ratings read from the page's store) and asked for the
+  rest to be recorded. `audio_digit_readings.py approve` run; the tool now sends batches in
+  parallel (`--workers`).
+- Tom asked for half-width digits throughout (３月 vs 3月). Ruling written into entry-guidelines
+  and example-sentences; `validate.py` now rejects full-width digits and Latin letters
+  (`find_fullwidth_alnum_errors`, test `test_validate_fullwidth.py`). Converted: 52 examples and 6
+  notes in 49 entries, plus 自己ＰＲ → 自己PR (19316: headword, examples, notes, conjugation; the
+  cross-reference in 12331). Every changed field was checked to differ only in width, except three
+  handled by hand: 28699 {１|いち}テラバイト / {２|に}テラバイト → 1テラバイト / 2テラバイト, 28710
+  {３本|さんぼん} → 3{本|ぼん}. No article had full-width digits.
+- Readings written and confirmed for the remaining examples: 2,571 confirmed in all, 3 disputed
+  (00421 綿100% uses the めん word in the わた entry; 07560 IPA（アイピーエー） is read twice;
+  17946 中火 headword なかび vs ちゅうび → needs_curator), 1 left without (06910 えーと 090の…).
+  Spot check of 40 random confirmed readings plus every hard case: all right.
+- The run exposed furigana errors that learners see, fixed by hand (31 examples):
+  - Counter after a digit given the bare reading (24): 3{日|にち} → {3日|みっか} (01487, 01724,
+    02744, 05135, 08593), {2日|ふつか} (07262), {10日|とおか} (03293, 25761), {1日|ついたち} (07907,
+    31243), {3日分|みっかぶん} (07589), {3日間|みっかかん} (22509), {1人|ひとり} / {2人|ふたり} (02856,
+    04409, 17094), 20/30/10/90/23{分|ぷん} (02749, 03521, 05736, 08291, 17596), 46/1/200{本|ぽん}
+    (05243, 08293, 11150), 第3{版|ぱん} (03698), 3{泊|ぱく} (07049), 3{棟|とう} (17094).
+    Convention in entry-guidelines; detector `audio_digit_readings.py counter-furigana` (now 0).
+  - Other: 01923 {お金|かね} → お{金|かね}; 08137 {一|いち}{箱|はこ} → {一箱|ひとはこ} (linked to
+    28497); 08851 {何|なに}です → {何|なん}; 08969 PA{外|そと} → PA{外|がい} (link to the prefix 外〜
+    removed; candidate 〜外 added); 24275 B{組|くみ} → B{組|ぐみ}; 29159 {返信|へんじ} → {返信|へんしん}.
+- Self-check on the 33 edited entries (gpt-6.1-sol): 4 flags, all on older text. Applied: 02744
+  施行 "came into force" (not "was enacted"); 02856 大人しい derives from 大人. Flagged: 01923 降ろす
+  teaches 降ろす for withdrawing money (下ろす); logged as an observation with the fix for polish.
+- Audio: 2,629 examples now wait to be recorded; the selector doubles audio (large backlog), so
+  about four audio cycles at $2 each.

@@ -2,7 +2,7 @@
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
   "date": "2026-10-23",
   "daily_cap_usd": 15.0,
-  "spent_usd": 7.6319,
+  "spent_usd": 11.7702,
   "calls": [
     {
       "ts": "2026-10-23T00:23:55Z",
@@ -102,6 +102,90 @@
       "phase": "self-check",
       "entries": 2,
       "est_usd": 0.0131
+    },
+    {
+      "ts": "2026-10-23T14:15:09Z",
+      "mode": "audio",
+      "phase": "digit-readings generate (interrupted run)",
+      "entries": 120,
+      "est_usd": 0.1
+    },
+    {
+      "ts": "2026-10-23T14:23:04Z",
+      "mode": "audio",
+      "phase": "digit-readings generate",
+      "entries": 2340,
+      "est_usd": 2.3017
+    },
+    {
+      "ts": "2026-10-23T14:28:27Z",
+      "mode": "audio",
+      "phase": "digit-readings confirm",
+      "entries": 2424,
+      "est_usd": 1.3403
+    },
+    {
+      "ts": "2026-10-23T14:32:19Z",
+      "mode": "audio",
+      "phase": "digit-readings generate",
+      "entries": 36,
+      "est_usd": 0.0481
+    },
+    {
+      "ts": "2026-10-23T14:32:40Z",
+      "mode": "audio",
+      "phase": "digit-readings confirm",
+      "entries": 21,
+      "est_usd": 0.0106
+    },
+    {
+      "ts": "2026-10-23T14:34:44Z",
+      "mode": "audio",
+      "phase": "digit-readings generate",
+      "entries": 35,
+      "est_usd": 0.0411
+    },
+    {
+      "ts": "2026-10-23T14:35:26Z",
+      "mode": "audio",
+      "phase": "digit-readings confirm",
+      "entries": 34,
+      "est_usd": 0.0218
+    },
+    {
+      "ts": "2026-10-23T14:38:30Z",
+      "mode": "audio",
+      "phase": "digit-readings generate",
+      "entries": 25,
+      "est_usd": 0.0311
+    },
+    {
+      "ts": "2026-10-23T14:38:49Z",
+      "mode": "audio",
+      "phase": "digit-readings confirm",
+      "entries": 24,
+      "est_usd": 0.0118
+    },
+    {
+      "ts": "2026-10-23T14:40:25Z",
+      "mode": "audio",
+      "phase": "digit-readings generate",
+      "entries": 8,
+      "est_usd": 0.0108
+    },
+    {
+      "ts": "2026-10-23T14:40:43Z",
+      "mode": "audio",
+      "phase": "digit-readings confirm",
+      "entries": 7,
+      "est_usd": 0.0073
+    },
+    {
+      "ts": "2026-10-23T14:42:19Z",
+      "mode": "self-check",
+      "phase": "self-check",
+      "entries": 33,
+      "est_usd": 0.2137
     }
   ]
 }
