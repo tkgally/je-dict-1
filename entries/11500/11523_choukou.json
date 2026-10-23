@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "Used in both medical and general contexts. In medical usage, it refers to observable signs or symptoms of a disease. In everyday usage, it refers to early indicators of a coming change or event.\n\nCOMMON COLLOCATIONS:\n- {兆候|ちょうこう}⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧ (signs are visible)\n- {兆候|ちょうこう}⟦が→が：00051_ga⟧⟦{現|あらわ}れる→現れる：01870_arawareru⟧ (signs appear)\n- {兆候|ちょうこう}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (show signs)\n- ⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦の→の：09472_no⟧{兆候|ちょうこう} (signs of recovery)\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧{兆候|ちょうこう} (symptoms of illness)",
-  "cross_references": [],
+  "notes": "Used in both medical and general contexts. In medical usage, it refers to observable signs or symptoms of a disease. In everyday usage, it refers to early indicators of a coming change or event.\n\nCOMMON COLLOCATIONS:\n- {兆候|ちょうこう}⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧ (signs are visible)\n- {兆候|ちょうこう}⟦が→が：00051_ga⟧⟦{現|あらわ}れる→現れる：01870_arawareru⟧ (signs appear)\n- {兆候|ちょうこう}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (show signs)\n- ⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦の→の：09472_no⟧{兆候|ちょうこう} (signs of recovery)\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧{兆候|ちょうこう} (symptoms of illness)\n\nSIMILAR WORDS:\n- ⟦{兆|きざ}し→兆し：06633_kizashi⟧: a sign or first hint, softer and often hopeful (⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧⟦{兆|きざ}し→兆し：06633_kizashi⟧); {兆候|ちょうこう} sounds more clinical.\n- ⟦{前兆|ぜんちょう}→前兆：09118_zenchou⟧: a sign that comes before an event, an omen.\n- ⟦{症状|しょうじょう}→症状：03234_shoujou⟧: the symptoms a patient actually has; {兆候|ちょうこう} is a sign that points to a condition.\n\nWRITING:\nIn medical writing it is also spelled {徴候|ちょうこう}.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06633_kizashi",
+      "reading": "きざし",
+      "headword": "{兆|きざ}し",
+      "label": "a sign or first hint, softer and often…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09118_zenchou",
+      "reading": "ぜんちょう",
+      "headword": "{前兆|ぜんちょう}",
+      "label": "a sign that comes before an event…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03234_shoujou",
+      "reading": "しょうじょう",
+      "headword": "{症状|しょうじょう}",
+      "label": "the symptoms a patient actually has"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T02:51:20Z",
-    "modified": "2026-09-02T04:01:25Z",
+    "modified": "2026-10-23T00:21:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -61,7 +83,8 @@
         "medical"
       ],
       "semantic": [
-        "general"
+        "health",
+        "change"
       ]
     }
   }
