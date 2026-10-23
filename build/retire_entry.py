@@ -17,7 +17,8 @@ replaces it, and the site build writes a redirect page at the old address.
         --reason "headword reading corrected to けんしゅ"
 
 Both commands rewrite every reference to the old id: inline links in entries
-and articles, cross_references target_ids, articles' related_entries, and the
+and articles, cross_references and prominent_see_also target_ids, articles'
+related_entries, and the
 link-decision ledger. A rename also renames the example ids and their audio
 manifest keys, so recordings survive. On retire, cross-references that pointed
 at the old entry are dropped (they named a different word) unless --duplicate
@@ -132,25 +133,26 @@ def update_references(old: str, new: str, *, drop_crossrefs: bool, dry_run: bool
             continue
         eid = entry.get("id", path.stem)
         changed = rewrite_entry_texts(entry, old, new, report["links"], eid)
-        refs = entry.get("cross_references") or []
-        kept = []
-        has_new = any(r.get("target_id") == new for r in refs)
-        for ref in refs:
-            if ref.get("target_id") == old:
-                if drop_crossrefs or eid == new or has_new:
-                    report["crossrefs_dropped"].append((eid, ref.get("headword") or ref.get("reading")))
+        for field in ("cross_references", "prominent_see_also"):
+            refs = entry.get(field) or []
+            kept = []
+            has_new = any(r.get("target_id") == new for r in refs)
+            for ref in refs:
+                if ref.get("target_id") == old:
+                    if drop_crossrefs or eid == new or has_new:
+                        report["crossrefs_dropped"].append((eid, ref.get("headword") or ref.get("reading")))
+                        changed = True
+                        continue
+                    ref["target_id"] = new
+                    if new_entry is not None:
+                        ref["headword"] = new_entry.get("headword", ref.get("headword"))
+                        ref["reading"] = new_entry.get("reading", ref.get("reading"))
+                    has_new = True
+                    report["crossrefs_repointed"].append((eid, ref.get("headword") or ref.get("reading")))
                     changed = True
-                    continue
-                ref["target_id"] = new
-                if new_entry is not None:
-                    ref["headword"] = new_entry.get("headword", ref.get("headword"))
-                    ref["reading"] = new_entry.get("reading", ref.get("reading"))
-                has_new = True
-                report["crossrefs_repointed"].append((eid, ref.get("headword") or ref.get("reading")))
-                changed = True
-            kept.append(ref)
-        if refs:
-            entry["cross_references"] = kept
+                kept.append(ref)
+            if refs:
+                entry[field] = kept
         if changed:
             report["files"].add(str(path.relative_to(ROOT)))
             if not dry_run:

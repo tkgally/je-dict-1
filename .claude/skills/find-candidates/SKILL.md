@@ -124,7 +124,13 @@ report which lenses you used so the next session can pick different ones.
    naturally: 電話 exists, so does 留守電? predicates like 掛け直す?
 5. **Register and keigo pairs** — formal↔informal, written↔spoken
    equivalents of existing entries (もらう → 頂戴する).
-6. **JLPT N2/N1 staples** — established test-prep vocabulary still missing.
+6. **Brainstorming from headwords and fields** (since 2026-10-23; the main
+   stream of `prompts/newcandidates.md`) — `build/brainstorm_candidates.py`
+   serves 20 seed headwords or one semantic field; you and two independent
+   models propose synonyms, antonyms, same-category words, compounds and set
+   phrases, register counterparts and culturally rich proper names, and the
+   tool drops what exists. Words come from knowledge of Japanese only: never
+   from an existing dictionary, a test-prep list or any other word list.
 7. **Katakana loanword staples** — modern life vocabulary (レシート,
    アンケート class) that earlier phases under-collected.
 8. **Idioms and set phrases** — established units (目が肥える, 腑に落ちる)

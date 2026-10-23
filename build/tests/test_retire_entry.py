@@ -65,6 +65,15 @@ class RetireEntryTest(unittest.TestCase):
     def read(self, eid):
         return json.loads(retire_entry.entry_path(eid).read_text(encoding="utf-8"))
 
+    def test_retire_drops_prominent_see_also_to_the_retired_entry(self):
+        zaseki = self.read("02832_zaseki")
+        zaseki["prominent_see_also"] = [{"target_id": "08989_shaseki", "reading": "しゃせき"}]
+        self.write("02832_zaseki", zaseki)
+        retire_entry.cmd_retire(SimpleNamespace(
+            old="08989_shaseki", to="02832_zaseki", reason="r", save=None, dry_run=False,
+            duplicate=True))
+        self.assertEqual(self.read("02832_zaseki")["prominent_see_also"], [])
+
     def test_retire_moves_links_drops_crossrefs_and_records(self):
         rc = retire_entry.cmd_retire(SimpleNamespace(
             old="08989_shaseki", to="02832_zaseki", reason="r", save=None, dry_run=False,

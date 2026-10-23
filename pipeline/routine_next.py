@@ -72,11 +72,11 @@ DEFAULT_CONFIG = {
     "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries",
                       "candidates", "wiki", "audio", "conjugation-check"],
     "weights": {
-        "polish": 0.30,
-        "systemic-fix": 0.22,
-        "accuracy-review": 0.26,
-        "new-entries": 0.08,
-        "candidates": 0.04,
+        "polish": 0.26,
+        "systemic-fix": 0.18,
+        "accuracy-review": 0.24,
+        "new-entries": 0.16,
+        "candidates": 0.06,
         "wiki": 0.0,
         "audio": 0.10,
         "conjugation-check": 0.0,
@@ -84,8 +84,8 @@ DEFAULT_CONFIG = {
     "floors": {"wiki": 0.15, "conjugation-check": 0.3},
     "nudges": {
         "candidate_high_threshold": 400,
-        "candidate_low_threshold": 40,
-        "candidate_restock_threshold": 100,
+        "candidate_low_threshold": 60,
+        "candidate_restock_threshold": 200,
         "seen_in_entry_high_threshold": 50,
         "observations_unharvested_lines": 40,
         "wiki_min_days_between_runs": 7,
@@ -99,8 +99,9 @@ DEFAULT_CONFIG = {
     "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix",
                           "candidates", "wiki", "audio", "conjugation-check"],
     "anti_repeat_override_multiplier": 1.8,
-    "openrouter": {"daily_cap_usd": 7.5, "per_session_cap_usd": 2.5,
-                   "self_check_cap_usd": 0.25, "audio_session_cap_usd": 4.8,
+    "openrouter": {"daily_cap_usd": 15.0, "per_session_cap_usd": 5.0,
+                   "accuracy_daily_cap_usd": 10.0, "brainstorm_cap_usd": 0.5,
+                   "self_check_cap_usd": 0.4, "audio_session_cap_usd": 4.8,
                    "audio_min_budget_usd": 0.5, "conjugation_check_cap_usd": 1.0},
 }
 
@@ -288,6 +289,17 @@ def read_ledger(config):
     return ledger, spent, cap, remaining, was_reset
 
 
+def accuracy_remaining(config, ledger):
+    """What today's accuracy-review allowance (accuracy_daily_cap_usd) still
+    holds, so the sweep cannot take the budget the self-checks, audio and
+    brainstorming need."""
+    acap = float(config["openrouter"].get("accuracy_daily_cap_usd",
+                                          config["openrouter"]["daily_cap_usd"]))
+    spent = sum(float(c.get("est_usd", 0.0)) for c in ledger.get("calls", []) or []
+                if c.get("mode") == "accuracy-review")
+    return max(0.0, acap - spent)
+
+
 # --------------------------------------------------------------------------- #
 # Scheduler
 # --------------------------------------------------------------------------- #
@@ -298,7 +310,7 @@ def normalized_weights(config):
     return {m: w[m] / s for m in enabled}, enabled
 
 
-def compute_multipliers(signals, config, remaining):
+def compute_multipliers(signals, config, remaining, acc_remaining=None):
     """Bounded health multipliers per mode. accuracy-review is suppressed to 0
     when the daily OpenRouter budget is exhausted."""
     nz = config["nudges"]
@@ -378,6 +390,9 @@ def compute_multipliers(signals, config, remaining):
     if remaining < 0.01:
         mult["accuracy-review"] = 0.0
         reasons["accuracy-review"].append("OpenRouter daily cap reached")
+    elif acc_remaining is not None and acc_remaining < 0.5:
+        mult["accuracy-review"] = 0.0
+        reasons["accuracy-review"].append("today's accuracy-review allowance spent")
 
     # audio: suppressed until production is enabled (audio repository in place)
     # and while the day's OpenRouter budget cannot pay for a useful batch
@@ -470,16 +485,18 @@ def select_mode(config, state, mult, forced=None):
     return choice, debt, eff, norm, enabled, "scheduler"
 
 
-def build_params(choice, signals, config, remaining):
+def build_params(choice, signals, config, remaining, acc_remaining=None):
     if choice == "polish":
         return {"start_id": signals.get("comprehensive_next")}
     if choice == "new-entries":
         cc = signals.get("candidate_count")
         low = cc is not None and cc < config["nudges"]["candidate_low_threshold"]
-        return {"prefer": "internal_closure", "approx_count": 20,
+        return {"prefer": "closure_and_brainstorm", "approx_count": 20,
                 "candidates_low": bool(low)}
     if choice == "accuracy-review":
         per = float(config["openrouter"]["per_session_cap_usd"])
+        if acc_remaining is not None:
+            per = min(per, acc_remaining)
         return {
             "start_id": signals.get("cross_model_review_next"),
             "openrouter_session_budget_usd": round(min(remaining, per), 2),
@@ -487,9 +504,11 @@ def build_params(choice, signals, config, remaining):
     if choice == "candidates":
         cc = signals.get("candidate_count") or 0
         restock = config["nudges"].get("candidate_restock_threshold", 100)
+        bcap = float(config["openrouter"].get("brainstorm_cap_usd", 0.5))
         return {
-            "approx_new": max(30, min(60, restock + 20 - cc)),
-            "source": "internal_closure",
+            "approx_new": max(40, min(80, restock + 40 - cc)),
+            "source": "closure_and_brainstorm",
+            "openrouter_session_budget_usd": round(max(0.0, min(remaining, bcap)), 2),
         }
     if choice == "wiki":
         return {}
@@ -615,7 +634,8 @@ def main():
         run_simulate(config, state, signals, remaining, args.simulate)
         return 0
 
-    mult, reasons = compute_multipliers(signals, config, remaining)
+    acc_rem = accuracy_remaining(config, ledger)
+    mult, reasons = compute_multipliers(signals, config, remaining, acc_rem)
     debt_before = deepcopy(state["debt"])
     choice, debt, eff, norm, enabled, source = select_mode(
         config, state, mult, forced=args.force_mode
@@ -626,7 +646,7 @@ def main():
                     mult, reasons, choice, debt_before, eff, source)
         return 0
 
-    params = build_params(choice, signals, config, remaining)
+    params = build_params(choice, signals, config, remaining, acc_rem)
     output = {
         "mode": choice,
         "params": params,
@@ -636,6 +656,7 @@ def main():
             "spent_today_usd": round(spent, 4),
             "daily_cap_usd": round(cap, 2),
             "remaining_usd": round(remaining, 4),
+            "accuracy_remaining_usd": round(acc_rem, 4),
             "session_budget_usd": params.get("openrouter_session_budget_usd"),
         },
         "generated_at": now_iso(),

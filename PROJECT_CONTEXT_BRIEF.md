@@ -6,14 +6,14 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 
 | Metric | Value |
 |--------|-------|
-| Total entries | 31,981 |
+| Total entries | 31,975 |
 | Basic tier | 800 (closed) |
 | Core tier | 1,979 (closed) |
-| General tier | 29,202 (open — all new entries here) |
+| General tier | 29,196 (open — all new entries here) |
 | Next entry ID | 32205 |
-| Candidate words | 92 |
+| Candidate words | 129 |
 | Cross-references | ~85,200 |
-| Example sentences | ~123,800 |
+| Example sentences | ~123,700 |
 
 ## Critical Rules
 
@@ -48,7 +48,7 @@ make report                # Dictionary health dashboard
 
 - **Basic** (800): Foundational words. Closed — do not add or modify.
 - **Core** (1,979): Essential adult communication. Closed — do not add or modify.
-- **General** (29,202+): All other vocabulary. All new entries go here.
+- **General** (29,196+): All other vocabulary. All new entries go here.
 
 ## Skills
 

@@ -2,9 +2,11 @@
 
 A dictionary for intermediate learners of Japanese who can read kana and are building
 vocabulary. Live site: https://www.tkgje.jp/, a static site built by GitHub Actions from the
-entry JSON and served by GitHub Pages. About 30,600 entries as of September 2026. The
-dictionary is in a maintenance phase: entries are polished, verified, and connected to each
-other; new entries are added only to define words the dictionary already uses.
+entry JSON and served by GitHub Pages. About 32,000 entries as of October 2026. Entries are
+polished, verified, and connected to each other, and the dictionary keeps growing: new entries
+define words it already uses (internal closure) and words found by brainstorming outward from
+its headwords and semantic fields (since 2026-10-23), never words taken from another
+dictionary or word list.
 
 Full command catalog: `build/COMMANDS.md`. Current numbers: `PROJECT_CONTEXT_BRIEF.md`
 (run `python3 pipeline/update-brief.py` at session start). Recent history:
@@ -37,7 +39,7 @@ polishing/          Cursors (tasks/), priority lists (priority/), session logs (
 reviews/            decisions.jsonl (adjudications), accuracy_flags.jsonl, screening/screening_status.json,
                     queue.txt (appended by `make index`), needs_curator.txt. Per-entry review files are local
                     artifacts (gitignored).
-candidate_words.json  Words queued for entry creation (internal-closure queue)
+candidate_words.json  Words queued for entry creation (internal closure + brainstorming; prompts/newcandidates.md)
 .claude/skills/     Detailed guidelines (entry-guidelines, verb-entry, vocabulary-notes, inline-word-links, …)
 .github/workflows/  validate.yml (PR gates + tests), pages.yml (site build + deploy)
 archive/            Retired prompts, plans, old session logs and sweep snapshots (nothing reads them; archive/README.md)
@@ -104,10 +106,11 @@ about two hours (`pipeline/run_clock.py`) and is a series of cycles, each merged
 pre-flight rescue and sweep. Each cycle: `python3 pipeline/routine_next.py` picks a mode → the
 mode's prompt → mechanical pass on changed entries → independent-model self-check → metrics
 snapshot → `make index` → commit → PR → CI → squash-merge → the branch restarts from `main`.
-Modes and weights (`pipeline/routine-config.json`, reweighted 2026-10-23): polish 0.30,
-accuracy-review 0.26, systemic-fix 0.22, audio 0.10 (only when at least 150 new or edited
-examples wait, or three days have passed with any waiting), new-entries 0.08, candidates 0.04
-(self-suppressing), wiki (trigger-only), conjugation-check (trigger-only, every three days:
+Modes and weights (`pipeline/routine-config.json`, reweighted 2026-10-23): polish 0.26,
+accuracy-review 0.24 (at most $10 of the $15 daily OpenRouter cap), systemic-fix 0.18,
+new-entries 0.16, audio 0.10 (only when at least 150 new or edited examples wait, or three days
+have passed with any waiting), candidates 0.06 (runs below 200 queued; closure plus
+brainstorming), wiki (trigger-only), conjugation-check (trigger-only, every three days:
 re-checks the conjugation tables). Mode prompts:
 `audio.md`, `comprehensive_polish.md`, `newentries.md`, `newcandidates.md`,
 `planning/maintain-knowledge-base.md`; the accuracy-review, systemic-fix and conjugation-check
@@ -127,7 +130,8 @@ python3 build/review_links.py --ids <ids> --skip-decided --budget 0.10   # kana 
 ```
 
 Adjudicate every surviving flag (apply / reject / flag to `reviews/needs_curator.txt`) and log each
-decision to `reviews/decisions.jsonl`. A link flag is adjudicated with a `keep` or `unlink` line
+decision to `reviews/decisions.jsonl`. Conventions and pure spelling duplicates are not curator
+questions: settle them yourself (`prompts/routine2.md` §E, standing rule since 2026-10-23). A link flag is adjudicated with a `keep` or `unlink` line
 in `reviews/link_decisions.jsonl`; `review_links.py --apply-decisions --ids <ids>` applies the
 unlinks.
 

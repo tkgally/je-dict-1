@@ -35,8 +35,8 @@ def fresh_state():
 
 
 def neutral_signals():
-    # candidate_count above the low threshold (40) but below the restock
-    # threshold (100) -> no nudges triggered and the candidates mode is
+    # candidate_count above the low threshold (60) but below the restock
+    # threshold (200) -> no nudges triggered and the candidates mode is
     # active; open_backlog_items > 0 so systemic-fix is active; wiki not
     # triggered (no unharvested observations).
     return {
@@ -184,7 +184,7 @@ class TestNudges(unittest.TestCase):
     def test_candidates_low_downnudges_new_entries(self):
         cfg = base_config()
         sig = neutral_signals()
-        sig["candidate_count"] = 10  # below low threshold (40)
+        sig["candidate_count"] = 10  # below low threshold (60)
         mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
         self.assertLess(mult["new-entries"], 1.0)
         self.assertTrue(any("candidates low" in r for r in reasons["new-entries"]))
@@ -192,7 +192,7 @@ class TestNudges(unittest.TestCase):
     def test_candidates_mode_suppressed_when_queue_stocked(self):
         cfg = base_config()
         sig = neutral_signals()
-        sig["candidate_count"] = 500  # above restock threshold (100)
+        sig["candidate_count"] = 500  # above restock threshold (200)
         tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
         self.assertNotIn("candidates", tally)
         for m in ("polish", "new-entries", "systemic-fix"):
@@ -208,7 +208,7 @@ class TestNudges(unittest.TestCase):
     def test_candidates_mode_boosted_when_queue_nearly_empty(self):
         cfg = base_config()
         sig = neutral_signals()
-        sig["candidate_count"] = 20  # below low threshold (40)
+        sig["candidate_count"] = 20  # below low threshold (60)
         mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
         self.assertEqual(mult["candidates"], 1.5)
         self.assertTrue(any("restock" in r for r in reasons["candidates"]))
@@ -312,13 +312,39 @@ class TestForceAndParams(unittest.TestCase):
         sig = neutral_signals()
         sig["candidate_count"] = 20
         p = rn.build_params("candidates", sig, cfg, remaining=5.0)
-        self.assertEqual(p["source"], "internal_closure")
-        # deficit 100+20-20 = 100, capped at 60
-        self.assertEqual(p["approx_new"], 60)
-        sig["candidate_count"] = 95
-        p = rn.build_params("candidates", sig, cfg, remaining=5.0)
-        # deficit 25, floored at 30
-        self.assertEqual(p["approx_new"], 30)
+        self.assertEqual(p["source"], "closure_and_brainstorm")
+        # deficit 200+40-20 = 220, capped at 80
+        self.assertEqual(p["approx_new"], 80)
+        self.assertEqual(p["openrouter_session_budget_usd"], 0.5)
+        sig["candidate_count"] = 195
+        p = rn.build_params("candidates", sig, cfg, remaining=0.2)
+        # deficit 45, floored at 40; the brainstorm budget follows what the day has left
+        self.assertEqual(p["approx_new"], 45)
+        self.assertEqual(p["openrouter_session_budget_usd"], 0.2)
+
+
+class TestAccuracyAllowance(unittest.TestCase):
+    def test_allowance_counts_only_accuracy_calls(self):
+        cfg = base_config()
+        ledger = {"calls": [{"mode": "accuracy-review", "est_usd": 4.0},
+                            {"mode": "self-check", "est_usd": 0.3},
+                            {"mode": "audio", "est_usd": 1.0},
+                            {"mode": "accuracy-review", "est_usd": 3.5}]}
+        self.assertAlmostEqual(rn.accuracy_remaining(cfg, ledger), 2.5)
+
+    def test_spent_allowance_suppresses_accuracy_review(self):
+        cfg = base_config()
+        mult, reasons = rn.compute_multipliers(neutral_signals(), cfg, remaining=6.0,
+                                               acc_remaining=0.2)
+        self.assertEqual(mult["accuracy-review"], 0.0)
+        self.assertTrue(any("allowance" in r for r in reasons["accuracy-review"]))
+
+    def test_session_budget_capped_by_allowance(self):
+        cfg = base_config()
+        p = rn.build_params("accuracy-review", neutral_signals(), cfg, 9.0, acc_remaining=2.0)
+        self.assertEqual(p["openrouter_session_budget_usd"], 2.0)
+        p = rn.build_params("accuracy-review", neutral_signals(), cfg, 9.0, acc_remaining=10.0)
+        self.assertEqual(p["openrouter_session_budget_usd"], 5.0)
 
 
 class TestAudioMode(unittest.TestCase):

@@ -1,0 +1,1138 @@
+{
+ "_doc": "Model-written readings for examples with digits or Latin letters (AUDIO_WORKFLOW.md §3.1; build/audio_digit_readings.py). state: generated (one model), confirmed (a second model agreed), disputed (it did not). h is the short text hash of the example the reading was written for. Production records an example against its reading only when the state is confirmed and method_approved is true (Tom, after listening to a sample).",
+ "method_approved": false,
+ "readings": {
+  "00005_appu_ex4": {
+   "h": "cea28aa95d6d8e4c",
+   "kana": "うりあげがぜんねんよりにじゅうぱーせんとあっぷした",
+   "alt_kana": [
+    "うりあげがぜんねんよりにじっぱーせんとあっぷした",
+    "うりあげがぜんねんよりにじゅっぱーせんとあっぷした"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "00141_kaiten_ex1": {
+   "h": "7bab9a36bde969f3",
+   "kana": "ちきゅうはにじゅうよじかんでいっかいてんする",
+   "alt_kana": [
+    "ちきゅうはにじゅうよんじかんでいっかいてんする"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "00243_koudo_ex2": {
+   "h": "1384484594209dc5",
+   "kana": "ひこうきはこうどいちまんめーとるでとんでいる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "00374_shitetsu_ex5": {
+   "h": "45edaaed770c89a1",
+   "kana": "じぇいあーるとしてつをのりついでかいしゃにかよっている",
+   "alt_kana": [
+    "じぇーあーるとしてつをのりついでかいしゃにかよっている"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "00554_kodomo_ex1": {
+   "h": "da62b7f74a1e360c",
+   "kana": "こどもがさんにんいます",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "01064_teikiken_ex4": {
+   "h": "1250f4c3c860087b",
+   "kana": "ていきけんはあいしーかーどにいれられます",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "01225_susumu_ex9": {
+   "h": "05b751345f9c663b",
+   "kana": "あたらしいとけいをかったのにいちにちにじゅうびょうもすすんでしまう",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "01529_oobaa_ex6": {
+   "h": "aad33ade1af3d659",
+   "kana": "たいじゅうがごきろおーばーなのでだいえっとをはじめることにした",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "01556_genzai_ex5": {
+   "h": "03ed5865e6dc76fe",
+   "kana": "げんざいまでにひゃくめいがさんかとうろくをしています",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "01923_orosu_ex10": {
+   "h": "fe9dddc553f7385c",
+   "kana": "えーてぃーえむでかねをおろした",
+   "alt_kana": [
+    "えいてぃーえむでかねをおろした"
+   ],
+   "state": "disputed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "disputed_by": {
+    "model": "google/gemini-3.8-flash",
+    "kana": "えーてぃーえむでおかねをおろした",
+    "alt": []
+   }
+  },
+  "02219_taki_ex3": {
+   "h": "11ec0690c3536f62",
+   "kana": "このたきはたかさがさんじゅうめーとるもある",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "02601_katei_ex2": {
+   "h": "40dff9d67ee27d75",
+   "kana": "えーがただしいとかていする",
+   "alt_kana": [
+    "えいがただしいとかていする"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "02745_kouka_ex2": {
+   "h": "89231097e827e386",
+   "kana": "ごひゃくえんこうかはおもい",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "02975_meetoru_ex1": {
+   "h": "b0df5fbd7cac1187",
+   "kana": "このへやはごめーとるかけるよんめーとるです",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "03068_shuugou_ex1": {
+   "h": "84e71847590fe685",
+   "kana": "くじにえきまえにしゅうごうしてください",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "03206_shuui_ex6": {
+   "h": "12cf4f7a4b332475",
+   "kana": "ちきゅうのしゅういはやくよんまんきろめーとるでせきどうにそってはかったばあいのすうじである",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "03382_tai_ex4": {
+   "h": "9bb02fa43b9a86ac",
+   "kana": "いちたいぜろでまけた",
+   "alt_kana": [
+    "いちたいれいでまけた"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "03714_furi_ex7": {
+   "h": "814805f69b26006a",
+   "kana": "さんねんぶりにあった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:06Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "03866_doraibu_ex5": {
+   "h": "874dccabd923aef4",
+   "kana": "ゆーえすびーどらいぶにでーたをほぞんした",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "04016_mon_ex3": {
+   "h": "e7588a2a3086f162",
+   "kana": "ごもんちゅうさんもんせいかいだった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "04095_ashiato_ex10": {
+   "h": "d3e39c57fddbff5d",
+   "kana": "このかいしゃのごじゅうねんのあしあとをまとめたほんがしゅっぱんされた",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "04649_mezameru_ex1": {
+   "h": "25003b83ecf7c1a0",
+   "kana": "あさろくじにめざめた",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "04728_bareebooru_ex1": {
+   "h": "72d182cbb5093f4b",
+   "kana": "ばれーぼーるはろくにんでちーむをつくる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "04902_kakuteishinkoku_ex1": {
+   "h": "eafba3bfcc78be88",
+   "kana": "かくていしんこくのしめきりはさんがつです",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "05118_jiipan_ex2": {
+   "h": "5691cf9fc894cd6b",
+   "kana": "じーぱんにてぃーしゃつというかっこうだった",
+   "alt_kana": [
+    "じーぱんにてーしゃつというかっこうだった"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "05329_atsusa_ex1": {
+   "h": "c3240535727e049c",
+   "kana": "このほんのあつさはさんせんちだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "05442_enshuu_ex3": {
+   "h": "1ba7a97111ac8575",
+   "kana": "ちきゅうのえんしゅうはやくよんまんきろめーとるだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "05500_hondo_ex4": {
+   "h": "b45375461442b494",
+   "kana": "ほんどからふねでしまにわたるにはさんじかんかかる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "05601_esuenuesu_ex1": {
+   "h": "8ad8338a4e8a0742",
+   "kana": "えすえぬえすでともだちとつながる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "06108_nintei_ex2": {
+   "h": "3e309e7f44b84735",
+   "kana": "このせいひんはあいえすおーにんていをうけている",
+   "alt_kana": [
+    "このせいひんはあいそにんていをうけている",
+    "このせいひんはいそにんていをうけている"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "06403_kyuuaarukoodo_ex3": {
+   "h": "19fc5201586fa867",
+   "kana": "めいしにきゅーあーるこーどをいれる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "06528_renshou_ex2": {
+   "h": "8a9210cade5f767a",
+   "kana": "れんしょうがじゅうでとまった",
+   "alt_kana": [
+    "れんしょうがとおでとまった"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "06601_kensakuenjin_ex2": {
+   "h": "0fc186dd2db2fcf2",
+   "kana": "けんさくえんじんのさいてきかえすいーおーがじゅうようだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "06811_unyou_ex2": {
+   "h": "ad12c5e7028d88a2",
+   "kana": "えすえぬえすあかうんとのうんようをがいちゅうしている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07031_juui_ex2": {
+   "h": "2d18dcd3defbb455",
+   "kana": "じゅういになるにはろくねんかんだいがくでまなぶひつようがある",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07172_omoikitte_ex3": {
+   "h": "bf8ac709e791439d",
+   "kana": "おもいきってきいてみたらあんがいあっさりおーけーだった",
+   "alt_kana": [
+    "おもいきってきいてみたらあんがいあっさりおっけーだった"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07557_kariire_ex2": {
+   "h": "a572f7f3402744c4",
+   "kana": "かりいれきんがくはごひゃくまんえんだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:34:28Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07713_enujii_ex4": {
+   "h": "d91582857ca3ca87",
+   "kana": "ここではさつえいはえぬじーです",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07719_diiaiwai_ex3": {
+   "h": "f97a475287e0bec9",
+   "kana": "でぃーあいわいようひんをかいにほーむせんたーへいった",
+   "alt_kana": [
+    "でーあいわいようひんをかいにほーむせんたーへいった"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07745_jeedii_ex2": {
+   "h": "295fba5036f3a1a1",
+   "kana": "あねはいまじぇいでぃーだ",
+   "alt_kana": [
+    "あねはいまじぇいでーだ",
+    "あねはいまじぇーでぃーだ",
+    "あねはいまじぇーでーだ"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07750_piibui_ex3": {
+   "h": "3d122c3b10f5d1a1",
+   "kana": "ぴーぶいのさつえいでかいがいろけにいった",
+   "alt_kana": [
+    "ぴーゔぃーのさつえいでかいがいろけにいった"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07757_erudiikee_ex3": {
+   "h": "c5e1fa730ce47a76",
+   "kana": "かぞくさんにんならにえるでぃーけーでじゅうぶんだ",
+   "alt_kana": [
+    "かぞくさんにんならにえるでーけーでじゅうぶんだ"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07764_eeai_ex1": {
+   "h": "73a7bee8f6c98e89",
+   "kana": "えーあいがしんかしている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07811_buruutuusu_ex1": {
+   "h": "b302403c2b42ed2a",
+   "kana": "ぶるーとぅーすでせつぞくする",
+   "alt_kana": [
+    "ぶるーつーすでせつぞくする"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "07992_kansan_ex2": {
+   "h": "88bbf1fb8f0e1cbf",
+   "kana": "にほんえんかんさんでやくひゃくまんえんになる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08289_maeuri_ex2": {
+   "h": "40a220502c589d42",
+   "kana": "まえうりはとうじつよりごひゃくえんやすい",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08577_torobi_ex2": {
+   "h": "dae8f312b13a9c54",
+   "kana": "とろびにしてにじゅっぷんにる",
+   "alt_kana": [
+    "とろびにしてにじっぷんにる"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08764_diienuee_ex1": {
+   "h": "c58c51d45f1c1f86",
+   "kana": "でぃーえぬえーけんさをうけた",
+   "alt_kana": [
+    "でーえぬえーけんさをうけた"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08792_aiootii_ex3": {
+   "h": "e7c5e0ae42fbd938",
+   "kana": "あいおーてぃーでかでんをえんかくそうさできる",
+   "alt_kana": [
+    "あいおーてーでかでんをえんかくそうさできる"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08842_jiipiiesu_ex2": {
+   "h": "cbe301c2bf5bd80c",
+   "kana": "このくるまにはじーぴーえすなびがついている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08849_yuubui_ex2": {
+   "h": "b96f6799c6d92b47",
+   "kana": "なつはゆーぶいかっとのひがさがひつじゅひんだ",
+   "alt_kana": [
+    "なつはゆーゔぃーかっとのひがさがひつじゅひんだ"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08856_shiiiioo_ex3": {
+   "h": "71113411966effeb",
+   "kana": "てっくきぎょうのわかいしーいーおーがちゅうもくをあつめている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08872_piikee_ex3": {
+   "h": "f380f666e670e452",
+   "kana": "ぴーけーせんでしょうはいがきまった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08880_shiipiiaaru_ex1": {
+   "h": "9e86beed50816210",
+   "kana": "しーぴーあーるをおこなう",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08886_esuefu_ex1": {
+   "h": "a6eb78dc9c94f141",
+   "kana": "えすえふえいががすきだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08902_eichipii_ex2": {
+   "h": "23193995210b1250",
+   "kana": "しょうさいはえいちぴーでかくにんしてください",
+   "alt_kana": [
+    "しょうさいはえっちぴーでかくにんしてください",
+    "しょうさいはほーむぺーじでかくにんしてください"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08908_emuerubii_ex2": {
+   "h": "752d5de29c27c307",
+   "kana": "えむえるびーのかいまくせんをたのしみにしている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:04Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08968_esuesu_ex1": {
+   "h": "87fddc0a3b4640b6",
+   "kana": "げーむのえすえすをとった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "08984_kitteshuushuu_ex2": {
+   "h": "067580726840516d",
+   "kana": "きってしゅうしゅうをはじめてにじゅうねんになる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "09529_yamada_ex2": {
+   "h": "706a52a1d7794ed6",
+   "kana": "やまだふさいはらいげつけっこんさんじゅうしゅうねんをむかえる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "09736_shokisettei_ex2": {
+   "h": "cacc724d9a9b4af3",
+   "kana": "しょきせっていにさんじゅっぷんくらいかかった",
+   "alt_kana": [
+    "しょきせっていにさんじっぷんくらいかかった"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "09873_ban_ex1": {
+   "h": "0dde5a4bc04417e1",
+   "kana": "さんばんほーむからはっしゃします",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "09947_shuushin_ex1": {
+   "h": "e766a2f5f53ecc6f",
+   "kana": "しゅうしんじかんはじゅうじです",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "10378_daimyou_ex2": {
+   "h": "b0bebdd39391d709",
+   "kana": "えどじだいにはやくにひゃくろくじゅうのだいみょうがいた",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "10992_furikomu_ex3": {
+   "h": "0b7a4a0bdfe6c17c",
+   "kana": "えーてぃーえむからあいてのこうざにふりこんだ",
+   "alt_kana": [
+    "えいてぃーえむからあいてのこうざにふりこんだ"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "11110_koma_ex2": {
+   "h": "8ac8b91939490d14",
+   "kana": "よんこままんがはみじかくてよみやすい",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "11428_bukkyou_ex2": {
+   "h": "5122ee898d529147",
+   "kana": "ぶっきょうはろくせいきににほんにつたわった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "11658_gannen_ex1": {
+   "h": "90969b167de057ac",
+   "kana": "れいわがんねんはにせんじゅうきゅうねんだ",
+   "alt_kana": [
+    "れいわがんねんはにせんじゅうくねんだ"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "11792_sougyou_ex2": {
+   "h": "db722667a9304d59",
+   "kana": "そうぎょうひゃくねんをむかえたしにせのりょかんだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "12248_baitai_ex2": {
+   "h": "74b2baeb4b199106",
+   "kana": "こうこくばいたいとしてえすえぬえすがちゅうもくされている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "12650_takokuseki_ex3": {
+   "h": "4d24adc53b485f64",
+   "kana": "このちーむはたこくせきでじゅっかこくのめんばーがさんかしている",
+   "alt_kana": [
+    "このちーむはたこくせきでじっかこくのめんばーがさんかしている",
+    "このちーむはたこくせきでじゅうかこくのめんばーがさんかしている"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "13150_kyoku_ex2": {
+   "h": "a92827622cbcba3f",
+   "kana": "じしゃくにはえぬきょくとえすきょくがある",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "13569_otokomae_ex3": {
+   "h": "65fd6319bf04d806",
+   "kana": "おとこまえなはいゆうがしーえむにでるとそのしょうひんのうりあげがのびるそうだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "13849_noufu_ex3": {
+   "h": "bced1cea65b030c3",
+   "kana": "じゅうみんぜいはねんよんかいにわけてのうふすることができる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "14352_oikaze_ex6": {
+   "h": "98eff33c3db86702",
+   "kana": "りもーとわーくのふきゅうがあいてぃーきぎょうにとっておおきなおいかぜとなった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "14746_horidashimono_ex2": {
+   "h": "64145088cead90e9",
+   "kana": "このかびんはほりだしものだったひゃくえんでかったのにほんものだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "14908_shasai_ex3": {
+   "h": "47255128bcf05034",
+   "kana": "さいきんのくるまにはしゃさいわいふぁいがひょうじゅんそうびされているものもおおい",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:35:33Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "15585_fuzairenrakuhyou_ex3": {
+   "h": "ba5e36754b51e029",
+   "kana": "さいきんはふざいれんらくひょうのきゅーあーるこーどからさいはいたつのてつづきができるようになった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "16135_dema_ex2": {
+   "h": "bff3ba5baf5989dd",
+   "kana": "えすえぬえすででまがひろがっている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "16861_toushindai_ex5": {
+   "h": "bdb243dab91da113",
+   "kana": "えすえぬえすではとうしんだいのすがたをみせることがだいじだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "17159_douchouatsuryoku_ex3": {
+   "h": "061786e7ba93def9",
+   "kana": "えすえぬえすじょうのどうちょうあつりょくによってじぶんのいけんをいいにくいふんいきがうまれている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "17987_saikou_sokudo_ex1": {
+   "h": "d08d3c6a412ece2d",
+   "kana": "さいこうそくどはじそくさんびゃくきろだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "18084_chuusei_ex2": {
+   "h": "12d229876ac8f0f8",
+   "kana": "じゅんすいなみずはぴーえいちななでちゅうせいだ",
+   "alt_kana": [
+    "じゅんすいなみずはぴーえいちしちでちゅうせいだ",
+    "じゅんすいなみずはぴーえっちしちでちゅうせいだ",
+    "じゅんすいなみずはぴーえっちななでちゅうせいだ",
+    "じゅんすいなみずはぺーはーしちでちゅうせいだ",
+    "じゅんすいなみずはぺーはーななでちゅうせいだ"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "18758_kenkoutai_ex3": {
+   "h": "40600d7e085daf55",
+   "kana": "かれはななじゅっさいをすぎてもけんこうたいでまいにちじょぎんぐをしている",
+   "alt_kana": [
+    "かれはしちじっさいをすぎてもけんこうたいでまいにちじょぎんぐをしている",
+    "かれはしちじゅっさいをすぎてもけんこうたいでまいにちじょぎんぐをしている",
+    "かれはななじっさいをすぎてもけんこうたいでまいにちじょぎんぐをしている"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "19118_kaibatsu_ex2": {
+   "h": "23cc8f7d9ce2bd62",
+   "kana": "このまちはかいばつやくごひゃくめーとるにある",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "19642_tokuteisuru_ex3": {
+   "h": "0cf9da75f8ec957a",
+   "kana": "じーぴーえすをつかってげんざいちをせいかくにとくていすることができる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "20016_kinzoku_ex1": {
+   "h": "ea2b4ccf8902d5f9",
+   "kana": "きんぞくにじゅうねんになる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "20545_jouhouhasshin_ex1": {
+   "h": "7532b1ba3536e6e8",
+   "kana": "えすえぬえすでじょうほうはっしんをする",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "20778_jouyoukanji_ex1": {
+   "h": "7b139c8a0803e3df",
+   "kana": "じょうようかんじはにせんひゃくさんじゅうろくじある",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "21132_kikkari_ex2": {
+   "h": "782ab0085ee542ae",
+   "kana": "かいぎはきっかりいちじかんでおわった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "21490_bossuru_ex5": {
+   "h": "7126cc8146ff7501",
+   "kana": "そのさっかはせんきゅうひゃくごじゅうねんにぼっしている",
+   "alt_kana": [
+    "そのさっかはいっせんきゅうひゃくごじゅうねんにぼっしている"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "21987_uneisuru_ex1": {
+   "h": "54b1affebcebe40d",
+   "kana": "えぬぴーおーをうんえいする",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "22509_chinkasuru_ex2": {
+   "h": "25c817e3b19c2dda",
+   "kana": "しょうぼうたいのかつどうによりやくにじかんでちんかした",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "22925_hakkan_ex2": {
+   "h": "8edfdaed4a0e87e4",
+   "kana": "そのがくじゅつしはせんきゅうひゃくごじゅうねんにはっかんされた",
+   "alt_kana": [
+    "そのがくじゅつしはいっせんきゅうひゃくごじゅうねんにはっかんされた"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "23400_kiokubaitai_ex1": {
+   "h": "d76c57028dca6708",
+   "kana": "ゆーえすびーめもりもきおくばいたいのいっしゅだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "23527_aishiikaado_ex4": {
+   "h": "a5bd6568ab7717c9",
+   "kana": "かいさつであいしーかーどをたっちする",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:01Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "23706_youryokutai_ex4": {
+   "h": "c1519990cac47edc",
+   "kana": "ようりょくたいはどくじのでぃーえぬえーをもちさいきんにゆらいするとかんがえられている",
+   "alt_kana": [
+    "ようりょくたいはどくじのでーえぬえーをもちさいきんにゆらいするとかんがえられている"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "23959_juuraihin_ex3": {
+   "h": "e26d6beff3b780cd",
+   "kana": "こんかいのかいりょうもでるはじゅうらいひんとくらべてしょうひでんりょくをやくさんじゅうぱーせんとさくげんすることにせいこうした",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "24275_fukutannin_ex1": {
+   "h": "33209c470f668965",
+   "kana": "たなかせんせいはさんねんびーくみのふくたんにんだ",
+   "alt_kana": [],
+   "state": "disputed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "disputed_by": {
+    "model": "google/gemini-3.8-flash",
+    "kana": "たなかせんせいはさんねんびーぐみのふくたんにんだ",
+    "alt": [
+     "たなかせんせいはさんねんびーくみのふくたんにんだ"
+    ]
+   }
+  },
+  "24678_eirihoujin_ex3": {
+   "h": "a8c23a2bdcabc028",
+   "kana": "このじぎょうはえいりほうじんとしてせつりつするかえぬぴーおーとしてうんえいするかけんとうちゅうだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "24957_genteimenkyo_ex1": {
+   "h": "d314216f629d7ac2",
+   "kana": "えーてぃーげんていめんきょをとった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "25301_juuryoku_ex2": {
+   "h": "394f01862811c292",
+   "kana": "つきのじゅうりょくはちきゅうのやくろくぶんのいちだ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "25706_shinkoukigyou_ex2": {
+   "h": "3ec02d56198519ea",
+   "kana": "あいてぃーぶんやのしんこうきぎょうにとうしする",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "26002_keisen_ex3": {
+   "h": "b9f2589a55115a7d",
+   "kana": "にほんのひょうじゅんじはとうけいひゃくさんじゅうごどのけいせんをきじゅんにしている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "26219_utsuribae_ex3": {
+   "h": "4851478395a5105a",
+   "kana": "えすえぬえすではうつりばえのするしゃしんがおおくのいいねをあつめる",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "26415_keninsha_ex3": {
+   "h": "62a238911e287fe8",
+   "kana": "じこげんばにけんいんしゃがとうちゃくするまでいちじかんかかった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "26713_saishuunin_ex2": {
+   "h": "7fdf2561d9087f93",
+   "kana": "ぜんしーいーおーのさいしゅうにんをもとめるこえがたかまっている",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "27107_insutoorusuru_ex3": {
+   "h": "ac00b0bddf24d2ee",
+   "kana": "このあぷりはいんすとーるするのにじかんがかかるのでわいふぁいかんきょうでおこなってください",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "28257_nijiiro_ex3": {
+   "h": "33656ea41661ac2e",
+   "kana": "ひかりがあたるとしーでぃーのうらめんがにじいろにかがやいてみえた",
+   "alt_kana": [
+    "ひかりがあたるとしーでーのうらめんがにじいろにかがやいてみえた"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "28616_zeiritsu_ex1": {
+   "h": "ec9d11ec441e4e15",
+   "kana": "しょうひぜいのぜいりつはじゅうぱーせんとだ",
+   "alt_kana": [
+    "しょうひぜいのぜいりつはじゅっぱーせんとだ"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "29060_haittekuru_ex3": {
+   "h": "ee1b55d78c7a2cda",
+   "kana": "えすえぬえすをとおじてかいがいからもじょうほうがはいってくるようになった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "29233_kiboukourikakaku_ex1": {
+   "h": "d85af43d9a5012f3",
+   "kana": "きぼうこうりかかくはごせんえんです",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "29972_bataashi_ex3": {
+   "h": "37ec9202642aa496",
+   "kana": "ばたあしだけでにじゅうごめーとるおよげるようになった",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "30876_kotton_ex1": {
+   "h": "0157998ac4956ea4",
+   "kana": "こっとんひゃくぱーせんとのてぃーしゃつ",
+   "alt_kana": [],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "31354_ken_ex3": {
+   "h": "1681bbd98a6ce29e",
+   "kana": "じゅうはっさいになるとせんきょけんがあたえられこくせいせんきょにとうひょうできる",
+   "alt_kana": [
+    "じゅうはちさいになるとせんきょけんがあたえられこくせいせんきょにとうひょうできる"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  },
+  "31675_shouzou_ex3": {
+   "h": "0a4ec4fd2bac76cb",
+   "kana": "いちまんえんさつのしょうぞうはにせんにじゅうよねんにふくざわゆきちからしぶさわえいいちにかわった",
+   "alt_kana": [
+    "いちまんえんさつのしょうぞうはにせんにじゅうよんねんにふくざわゆきちからしぶさわえいいちにかわった"
+   ],
+   "state": "confirmed",
+   "by": "openai/gpt-6.1-sol",
+   "added": "2026-10-23T13:36:32Z",
+   "confirmed_by": "google/gemini-3.8-flash"
+  }
+ }
+}

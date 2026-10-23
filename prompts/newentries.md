@@ -69,28 +69,39 @@ The `vocabulary-notes` skill lists six possible content categories. **You do not
 
 Three sections is the target; **four is usually too many; six or more is always too many**. Do not invent extra sections like "WHICH ENGLISH SOURCE WORD", "TYPICAL CONTEXTS", or duplicate "COMMON COMPOUNDS"/"COMMON COLLOCATIONS" pairs just to fill out the entry.
 
-## Candidate Selection Priority (internal closure, policy 2026-09-02)
+## Candidate Selection Priority (closure and brainstorm, policy 2026-10-23)
 
-The dictionary no longer grows for growth's sake: common vocabulary is saturated
-at 30,000 entries. New entries exist to **close the dictionary on itself**, so
-that a word a learner meets inside an example or a note has an entry.
+New entries come from two kinds of candidate (`prompts/newcandidates.md`):
 
-Take candidates in this order:
+- **Closure** candidates, whose notes say `seen in entry NNNNN` or `used in`: words the
+  dictionary already uses in an example or a note but never defined.
+- **Brainstorm** candidates, whose notes start `brainstorm:`: words a learner's dictionary
+  should have, found from the existing headwords (synonyms, antonyms, words of the same kind,
+  compounds and set phrases, register counterparts, culturally important proper names) or from a
+  semantic field's gaps.
 
-1. Candidates whose notes say `seen in entry NNNNN` or `used in` — words the
-   dictionary already references but never defined (added by polish runs, the
-   accuracy sweep, and the `candidates` mode from the stale-`noentry` list).
-2. Only if fewer than the target remain: other vetted candidates in the queue
-   (idioms, proverbs, proper nouns from the curated stream).
+Take about half of each per session, oldest first within each kind; if one kind runs short,
+fill from the other. Within the brainstorm half, prefer basic and everyday words (particles,
+common verbs and adjectives, set phrases a learner meets weekly) over rarer ones. Other vetted
+candidates (older curated idioms and proper nouns) come last.
 
-If the queue cannot supply the target, **stop early**; never invent headwords,
-and never route into candidate discovery mid-run (that is the `candidates`
-mode's job).
+**Connect brainstorm entries to their seed.** When the note names an existing entry
+(`brainstorm: antonym of 00204 数`), the new entry gets a cross-reference to it with the right
+type (antonym → `contrast`, synonym → `related` or `contrast` with the difference in the label,
+same category → `related`), and the seed's notes may name the new word in SIMILAR WORDS when the
+contrast is one a learner needs; the harvester then adds the reciprocal cross-reference. A
+field note (`brainstorm: field animal-bird`) needs no seed link.
 
-To list the internal-closure candidates:
+If the queue cannot supply the target, **stop early**; never invent headwords, and never route
+into candidate discovery mid-run (that is the `candidates` mode's job). Drop a candidate that
+fails a gate when you come to write it (`manage_candidates.py remove C12345`) and say so in the
+session log.
+
+To list the two kinds:
 
 ```bash
 grep -B1 -A3 -E '"seen in entry|used in' candidate_words.json | head -80
+grep -B1 -A3 '"brainstorm:' candidate_words.json | head -80
 ```
 
 ## Session Workflow

@@ -76,6 +76,19 @@ hand, with acceptable alternatives (`にじゅっパーセント|にじっパー
 every acceptable reading, and have a second model confirm. Then validate on a sample with Tom's ear
 before trusting it. Until then, leave these 2.1% of examples unrecorded.
 
+Built 2026-10-23 (Tom approved the plan): `build/audio_digit_readings.py` has `openai/gpt-6.1-sol`
+write the reading of the whole sentence (KNOWN: the furigana reading, which it must keep; it fills
+in only the digits, letters and symbols, and a reading that changes anything else is not stored)
+with every acceptable alternative, and `google/gemini-3.8-flash` confirm it. Readings live in
+`audio/digit_readings.json` (state generated / confirmed / disputed; `h` the text hash). The
+pipeline's `spoken_example()` gives a confirmed reading to the example as a hand-written reading
+(kana, alt_kana, manual_reading), exactly as the test set's digit sentences, so the TTS prompt, the
+four checks and the acceptance rule are unchanged; a later reading change makes the recording
+stale (`added`). Production uses confirmed readings only once `method_approved` is true, which
+`audio_digit_readings.py approve` sets after Tom has rated the 30-clip sample (published
+2026-10-23 at https://claude.ai/artifact/Fox2wSbfn4DWbhXXz8pQpQ); the same command opens the
+systemic-fix item `audio-digit-readings`, which writes and confirms the rest in batches.
+
 ### 3.2 Per-example reading overrides
 
 Furigana cannot say every reading. A particle quoted on its own, as in 「は」と「が」は日本語の代表的な
@@ -584,3 +597,9 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   number of examples waiting. The 727 examples held for a human go to the systemic-fix item
   `audio-needs-human-triage` (`build/audio_needs_human_triage.py`). No change to models, prompt
   or acceptance rule.
+- 2026-10-23: digit and Latin readings (§3.1) built: `build/audio_digit_readings.py`,
+  `audio/digit_readings.json`, and a hook in `spoken_example()` that uses a confirmed reading as a
+  hand-written one once the method is approved. Sample: 120 examples spread over the dictionary,
+  116 readings stored, 114 confirmed, 2 disputed (both first readings wrong); 30 recorded, 30
+  accepted (28 on the first attempt), $0.08. Waiting for Tom's ear check. No change to models,
+  prompt or acceptance rule for any example without such a reading.

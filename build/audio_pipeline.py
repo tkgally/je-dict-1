@@ -43,6 +43,7 @@ CONFIG = AUDIO / "config.json"
 MANIFEST_DIR = AUDIO / "manifest"
 NEEDS_HUMAN = AUDIO / "needs_human.jsonl"
 OVERRIDES = AUDIO / "reading_overrides.json"
+DIGIT_READINGS = AUDIO / "digit_readings.json"
 RUNS = AUDIO / "runs.jsonl"
 TESTSET = AUDIO / "testset" / "sentences.json"
 WORK = ROOT / "audio_work"
@@ -107,12 +108,51 @@ def active_override(x, overrides):
     return ov if ov and ov.get("h") == short_hash(x["raw"]) else None
 
 
-def spoken_example(x, overrides=None):
+def load_digit_readings(path=None, approved_only=True):
+    """example id → model-written reading of an example with digits or Latin
+    letters (AUDIO_WORKFLOW.md §3.1; build/audio_digit_readings.py). Production
+    uses only confirmed readings, and only once Tom has approved the method
+    (method_approved) after listening to a sample."""
+    try:
+        data = json.loads(Path(path or DIGIT_READINGS).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    if approved_only and not data.get("method_approved"):
+        return {}
+    return {k: v for k, v in (data.get("readings") or {}).items() if v.get("state") == "confirmed"}
+
+
+_DIGIT_READINGS = None
+
+
+def digit_readings():
+    global _DIGIT_READINGS
+    if _DIGIT_READINGS is None:
+        _DIGIT_READINGS = load_digit_readings()
+    return _DIGIT_READINGS
+
+
+def active_reading(x, readings):
+    """The digit/Latin reading for this example while it was written for the current text."""
+    r = (readings or {}).get(x["ex"])
+    return r if r and r.get("h") == short_hash(x["raw"]) else None
+
+
+def spoken_example(x, overrides=None, readings=None):
     """The parsed text the recording is made and checked from: the example
     itself, or its override's `say` (same sentence, the reading spelled out
-    where the furigana cannot say it, as 「わ」 for a quoted particle は)."""
+    where the furigana cannot say it, as 「わ」 for a quoted particle は). An
+    example with digits or Latin letters takes its confirmed reading as a
+    hand-written reading (kana, alt_kana, manual_reading), as the test set does."""
     ov = active_override(x, overrides)
-    return parse_example(ov["say"] if ov else x["raw"])
+    if ov:
+        return parse_example(ov["say"])
+    p = parse_example(x["raw"])
+    r = active_reading(x, digit_readings() if readings is None else readings)
+    if r and (p["has_digits"] or p["has_latin"]):
+        p.update(kana=r["kana"], alt_kana=list(r.get("alt_kana") or []), manual_reading=True,
+                 has_digits=False, has_latin=False)
+    return p
 
 
 def majority_from_examples(examples):
@@ -226,7 +266,9 @@ def classify(examples, manifest, needs_human, wf, overrides=None):
         x["h"] = h
         m = manifest.get(x["ex"])
         ov = active_override(x, overrides)
-        if m and m.get("h") == h and not (ov and m.get("at", "") < ov.get("added", "")):
+        rd = active_reading(x, digit_readings())
+        if m and m.get("h") == h and not (ov and m.get("at", "") < ov.get("added", "")) \
+                and not (rd and m.get("at", "") < rd.get("added", "")):
             recorded.append(x)
             continue
         if x["ex"] in (overrides or {}) and not ov:

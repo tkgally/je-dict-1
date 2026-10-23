@@ -183,3 +183,24 @@ accuracy review would cover the dictionary with the new reviewer in about two we
 If the change was to save usage, nothing needs to change. If not, running every six hours again
 (or letting each run go to about four hours in `pipeline/run_clock.py`) would roughly double
 throughput with no other change. Your call; I made no change.
+
+## 5. Tom's answers (same day) and what was done
+
+Tom approved D1–D5, kept the Routine at two runs a day with OpenRouter spending at most $15 a
+day (D6: no change), and asked for new entries at a faster pace with a brainstorming process for
+candidates. Carried out the same day (details in
+`polishing/sessions/interactive_2026-10-23_assessment.md`):
+
+- **D1**: reviewer `openai/gpt-6.1-sol`, accuracy-review capped at $10 a day and $5 a cycle.
+- **D2**: six readings corrected. 真っ二つ and 最後尾 already had correct entries (17975, 21693),
+  so the renamed copies were merged into them under the standing rule.
+- **D3**: all nine rulings applied. `retire_entry.py` now also handles `prominent_see_also`.
+- **D4**: tool and pipeline hook built; 30-clip sample published for Tom's ear check; the rest
+  waits for his approval (backlog item `audio-digit-readings`).
+- **D5**: rulings in the skills, seven backlog items opened, standing rule in routine2.md §E.
+- **New entries**: weights polish 0.26, accuracy-review 0.24, systemic-fix 0.18, new-entries
+  0.16, candidates 0.06, audio 0.10; restock below 200 candidates; candidates mode works two
+  streams, internal closure and brainstorming (`build/brainstorm_candidates.py`, models
+  gpt-6.1-sol and gemini-3.8-flash plus the Routine's own, never another dictionary or word
+  list); new-entries takes half of each and links brainstorm entries to their seeds. First round:
+  38 candidates.

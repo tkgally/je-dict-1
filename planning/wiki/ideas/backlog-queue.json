@@ -348,12 +348,12 @@
       "detect": "python3 -c \"import json,glob,re\\nfor f in glob.glob('entries/*/[0-9]*.json'):\\n    d=json.load(open(f)); s=json.dumps(d,ensure_ascii=False)\\n    if re.search(r'(?:て|で)\\\\{置\\\\|', s): print(d['id'], d['headword'])\"",
       "fix_type": "semantic-verify",
       "verify": "per-entry",
-      "priority": 26,
-      "batch_ready": false,
-      "status": "needs-decision",
+      "priority": 15,
+      "batch_ready": true,
+      "status": "open",
       "scope_estimate": 7,
       "severity": "info",
-      "notes": "Contemporary Japanese writes AUXILIARY verbs in kana (〜ておく/てみる/ていく/てくる), reserving kanji for the same verbs as MAIN verbs. 01092_oku wrote 〜て{置|お}く in 5 of its own examples while its notes used kana. Measured 2026-07-25 (occurrences/entries): て行く 222/200, て来る 203/34, て見る 168/138, て置く 7/7. NOT batch_ready and NOT mechanical: those counts are a superset -- the same strings are correct when the verb is the MAIN verb of a te-form sequence (持って{来|き}て, 駅で{見|み}た). Only the ておく row (7 entries) is a clean bounded batch. てみる/ていく/てくる need a documented house convention FIRST (example-sentences skill is the natural home) -- a blanket rewrite there is a style imposition, not a correction. Curator decision gates the rest."
+      "notes": "Contemporary Japanese writes AUXILIARY verbs in kana (〜ておく/てみる/ていく/てくる), reserving kanji for the same verbs as MAIN verbs. 01092_oku wrote 〜て{置|お}く in 5 of its own examples while its notes used kana. Measured 2026-07-25 (occurrences/entries): て行く 222/200, て来る 203/34, て見る 168/138, て置く 7/7. NOT batch_ready and NOT mechanical: those counts are a superset -- the same strings are correct when the verb is the MAIN verb of a te-form sequence (持って{来|き}て, 駅で{見|み}た). Only the ておく row (7 entries) is a clean bounded batch. てみる/ていく/てくる need a documented house convention FIRST (example-sentences skill is the natural home) -- a blanket rewrite there is a style imposition, not a correction. Curator decision gates the rest. Ruled by Tom 2026-10-23 (enhancement/assessment-2026-10-23.md §4 D5): auxiliary いく/くる/みる/おく (and しまう, あげる, くれる, もらう) after a て-form are written in kana; kanji only for a main verb with its own meaning (example-sentences skill, Common Issues 9). Every occurrence needs reading in context."
     },
     {
       "id": "furigana-no-pipe-span",
@@ -377,12 +377,12 @@
       "detect": "python3 -c \"import json,glob,re;\\nfor f in sorted(glob.glob('entries/*/[0-9]*.json')):\\n    d=json.load(open(f,encoding='utf-8')); n=d.get('notes') or ''\\n    n='\\\\n'.join(map(str,n)) if isinstance(n,list) else n\\n    c=len(re.findall(r'(?m)^\\\\s*・', n))\\n    if c: print(d['id'], c)\"",
       "fix_type": "mechanical",
       "verify": "spot-check",
-      "priority": 28,
-      "batch_ready": false,
-      "status": "needs-decision",
+      "priority": 16,
+      "batch_ready": true,
+      "status": "open",
       "scope_estimate": 18272,
       "severity": "info",
-      "notes": "Measured 2026-07-27: 18,272 line-initial ・ instances across 2,524 entries (~1/12 of the dictionary). Older notes templates use ・ as the list bullet; the house convention is '- '. Both render, and score_note_quality.py's bullet check treats them alike, so nothing surfaces it. Safe rule is doubly anchored: line-initial AND inside the notes field only -- ・ is real punctuation as a compound-name/loanword separator (コーヒー・ブレイク) and as a mid-line list separator, so example sentences, headwords, glosses, and mid-line ・ must not be touched. Sequence: reproduce the count in a detector, sample ~30 entries for line-initial ・ used as genuine punctuation, then sweep in ID blocks with validation after each."
+      "notes": "Measured 2026-07-27: 18,272 line-initial ・ instances across 2,524 entries (~1/12 of the dictionary). Older notes templates use ・ as the list bullet; the house convention is '- '. Both render, and score_note_quality.py's bullet check treats them alike, so nothing surfaces it. Safe rule is doubly anchored: line-initial AND inside the notes field only -- ・ is real punctuation as a compound-name/loanword separator (コーヒー・ブレイク) and as a mid-line list separator, so example sentences, headwords, glosses, and mid-line ・ must not be touched. Sequence: reproduce the count in a detector, sample ~30 entries for line-initial ・ used as genuine punctuation, then sweep in ID blocks with validation after each. Ruled by Tom 2026-10-23 (enhancement/assessment-2026-10-23.md §4 D5): line-initial ・ in notes becomes '- ' (vocabulary-notes skill). Mechanical, but limited to line starts inside the notes field; spot-check ~30 entries first for a ・ that is real punctuation."
     },
     {
       "id": "adjective-set-compound-examples",
@@ -780,13 +780,13 @@
       "filter": "Only the 7 pairs listed with \"class\": \"near-duplicate-pair\" in build/data/link_baseform_allowlist.json are in scope here; the variant-spelling entries in that file are single entries with a kana or variant headword and are NOT duplicates. Confirm with find_merge_candidates.py before merging anything.",
       "fix_type": "verify",
       "verify": "per-entry",
-      "priority": 3,
-      "batch_ready": false,
-      "status": "needs-decision",
+      "priority": 12,
+      "batch_ready": true,
+      "status": "open",
       "scope_estimate": 9,
       "scope_measured_at": "2026-08-07",
       "severity": "warn",
-      "notes": "Surfaced as a by-product of the link-baseform sweep: 7 pairs where one word is held by two entries, so every inline link into either member reports a base-form disagreement forever and both readings of 'correct' are correct. The pairs: 03937 捻る / 04474 捩じる (ねじる, 8 links), 08344 焼き立て / 16735 焼きたて (4), 07982 翳む / 14680 霞む (かすむ, 4), 04628 追い掛ける / 16734 追いかける (3), 09160 控え目 / 17234 控えめ, 04699 見積り / 05153 見積もり, and 02918 / 10077 とき. This is consolidate_entries.md work, not link work -- it needs a keep/merge decision per pair (which spelling is the headword, where the cross-reference goes, what happens to the loser's ID, which is a live URL and must never be renumbered), which is why it is filed needs-decision for the curator rather than batch_ready. Deferring costs nothing: the link detector's allowlist already keeps these out of the CI gate. When a pair is merged, delete its line from build/data/link_baseform_allowlist.json and repoint the surviving links. UPDATE 2026-08-07: add 02586 巨大 / 25544 巨大な (also the source of a check_link_baseform.py false-positive class — see tooling-backlog.md item 83, na-adjective normalization) and re-confirm 01385 気持ち / 02485 気持ち, first filed in the 2026-06-10 harvest and refiled by a 2026-08-06 polish run. Scope 7 -> 9. Still needs-decision: the curator has to pick the surviving headword for each pair; every merge changes a live URL. | 2026-08-23: the 01385/02485 気持ち pair, re-confirmed for a third time by the 2026-08-22 accuracy-review run, now has a MEASURED merge direction rather than a judgment call. 01385 (basic tier, 2 senses, headword {気持ち|きもち}) carries 187 inbound references; 02485 (core tier, 3 senses, headword {気持|きも}ち) carries 19. KEEP 01385 and fold in 02485's third sense ('intention, sentiment'), which 01385 lacks. NOTE: the merge must also fix 01385's headword, which swallows the okurigana ち into the ruby -- a P64 instance sitting on the entry 187 links point at, so the two fixes belong in one edit. Scope 9 -> 10 (this pair was already listed; the addition is the direction, not a new pair)."
+      "notes": "Surfaced as a by-product of the link-baseform sweep: 7 pairs where one word is held by two entries, so every inline link into either member reports a base-form disagreement forever and both readings of 'correct' are correct. The pairs: 03937 捻る / 04474 捩じる (ねじる, 8 links), 08344 焼き立て / 16735 焼きたて (4), 07982 翳む / 14680 霞む (かすむ, 4), 04628 追い掛ける / 16734 追いかける (3), 09160 控え目 / 17234 控えめ, 04699 見積り / 05153 見積もり, and 02918 / 10077 とき. This is consolidate_entries.md work, not link work -- it needs a keep/merge decision per pair (which spelling is the headword, where the cross-reference goes, what happens to the loser's ID, which is a live URL and must never be renumbered), which is why it is filed needs-decision for the curator rather than batch_ready. Deferring costs nothing: the link detector's allowlist already keeps these out of the CI gate. When a pair is merged, delete its line from build/data/link_baseform_allowlist.json and repoint the surviving links. UPDATE 2026-08-07: add 02586 巨大 / 25544 巨大な (also the source of a check_link_baseform.py false-positive class — see tooling-backlog.md item 83, na-adjective normalization) and re-confirm 01385 気持ち / 02485 気持ち, first filed in the 2026-06-10 harvest and refiled by a 2026-08-06 polish run. Scope 7 -> 9. Still needs-decision: the curator has to pick the surviving headword for each pair; every merge changes a live URL. | 2026-08-23: the 01385/02485 気持ち pair, re-confirmed for a third time by the 2026-08-22 accuracy-review run, now has a MEASURED merge direction rather than a judgment call. 01385 (basic tier, 2 senses, headword {気持ち|きもち}) carries 187 inbound references; 02485 (core tier, 3 senses, headword {気持|きも}ち) carries 19. KEEP 01385 and fold in 02485's third sense ('intention, sentiment'), which 01385 lacks. NOTE: the merge must also fix 01385's headword, which swallows the okurigana ち into the ruby -- a P64 instance sitting on the entry 187 links point at, so the two fixes belong in one edit. Scope 9 -> 10 (this pair was already listed; the addition is the direction, not a new pair). Ruled by Tom 2026-10-23 (enhancement/assessment-2026-10-23.md §4 D5): keep the commoner spelling as the entry, merge anything useful from the other, and retire the other with build/retire_entry.py retire --duplicate (standing rule, prompts/routine2.md §E). Remove the pair's line from build/data/link_baseform_allowlist.json when merged."
     },
     {
       "id": "inline-link-block-06800-07100",
@@ -865,12 +865,13 @@
       "verify": "n/a",
       "priority": 11,
       "batch_ready": true,
-      "status": "needs-decision",
-      "scope_estimate": 1,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "prompt edits",
       "scope_measured_at": "2026-08-08",
       "severity": "info",
-      "notes": "Measured on 27314-27850: blended flag rate 41% (would read as noise); after removing off-vocab tag flags, gloss 3.4% and translation 0.9%, inside the predicted band. Converges with quality-metrics.md §14 from the opposite direction."
+      "notes": "Measured on 27314-27850: blended flag rate 41% (would read as noise); after removing off-vocab tag flags, gloss 3.4% and translation 0.9%, inside the predicted band. Converges with quality-metrics.md §14 from the opposite direction. Resolved 2026-10-23 (Tom approved): routine2.md §A step 4 computes the noise rate after removing off-vocabulary tag flags.",
+      "resolved_date": "2026-10-23"
     },
     {
       "id": "inline-link-examples-bare-notes-linked",
@@ -1123,13 +1124,13 @@
       "fix_type": "policy",
       "verify": "n/a until the curator decides whether to strip the preamble; the conjugation field already holds and renders the same information",
       "priority": 18,
-      "batch_ready": false,
-      "status": "needs-decision",
+      "batch_ready": true,
+      "status": "open",
       "scope_estimate": 37,
       "scope_unit": "entries",
       "scope_measured_at": "2026-08-10",
       "severity": "info",
-      "notes": "Filed twice on 2026-08-10 (removed by hand in 06850, 06853, 06854, 06855; left in place in 06856-06864 to avoid inconsistency). The measurement is what makes it cheap to settle: this is a creation-batch habit at 37 entries, not the dictionary-wide convention the filing assumed, so either decision executes in a single run. Members include 01935, 03102, 06703, 06856, 06857, 06859, 06861-06864, 06972, 06974."
+      "notes": "Filed twice on 2026-08-10 (removed by hand in 06850, 06853, 06854, 06855; left in place in 06856-06864 to avoid inconsistency). The measurement is what makes it cheap to settle: this is a creation-batch habit at 37 entries, not the dictionary-wide convention the filing assumed, so either decision executes in a single run. Members include 01935, 03102, 06703, 06856, 06857, 06859, 06861-06864, 06972, 06974. Ruled by Tom 2026-10-23 (enhancement/assessment-2026-10-23.md §4 D5): remove the negative/te-form/past triad from these notes; the conjugation tab shows the forms (vocabulary-notes skill)."
     },
     {
       "id": "tag-missing-semantic-entirely",
@@ -1276,12 +1277,12 @@
       "fix_type": "semantic",
       "verify": "per-entry",
       "priority": 9,
-      "batch_ready": false,
-      "status": "blocked",
+      "batch_ready": true,
+      "status": "open",
       "scope_estimate": 26,
       "scope_unit": "entries",
       "severity": "info",
-      "notes": "Measured 2026-08-15 over 26 terminology headwords: grammatical 8, language 8, education 6, general 4, communication 3. Filed as 'POS terms drift to education, a small closed set worth a one-shot sweep' -- but there is no convention to sweep toward. The filing run fixed 名詞 and 音読み in the same pass to DIFFERENT tags (grammatical vs language), and the sibling pairs 訓読み/音読み and 他動詞/自動詞 are split the same way. Blocked on a curator ruling: is the house tag for metalinguistic vocabulary `grammatical` or `language`? Once chosen the sweep is trivial. Escalated to reviews/needs_curator.txt."
+      "notes": "Measured 2026-08-15 over 26 terminology headwords: grammatical 8, language 8, education 6, general 4, communication 3. Filed as 'POS terms drift to education, a small closed set worth a one-shot sweep' -- but there is no convention to sweep toward. The filing run fixed 名詞 and 音読み in the same pass to DIFFERENT tags (grammatical vs language), and the sibling pairs 訓読み/音読み and 他動詞/自動詞 are split the same way. Blocked on a curator ruling: is the house tag for metalinguistic vocabulary `grammatical` or `language`? Once chosen the sweep is trivial. Escalated to reviews/needs_curator.txt. Ruled by Tom 2026-10-23 (enhancement/assessment-2026-10-23.md §4 D5): the convention in the entry-guidelines skill stands: grammar and writing terms (名詞, 助詞, 送り仮名, 部首, 敬語) take `language` only; `grammatical` is for function words."
     },
     {
       "id": "notes-nakaguro-bullets",
@@ -1342,13 +1343,13 @@
       "fix_type": "mechanical",
       "verify": "spot-check",
       "priority": 14,
-      "batch_ready": false,
-      "status": "needs-decision",
+      "batch_ready": true,
+      "status": "open",
       "scope_estimate": 237,
       "scope_unit": "instances",
       "scope_measured_at": "2026-08-21",
       "severity": "info",
-      "notes": "Measured 2026-08-21: 1,323 instances use the kana base form `ください`, 237 use the entry's own headword form `下さい`. Both render and both resolve; nothing is broken. Recommendation to the curator is to standardise on the kana form: it is 84.8% of existing usage, and the auxiliary/polite-request ください these links mark is conventionally written in kana. That makes the sweep 237 instances instead of 1,323. BLOCKED ON A RULING, and the ruling belongs in .claude/skills/inline-word-links/SKILL.md (see Tooling 133) -- without it the split regenerates as fast as it is cleaned."
+      "notes": "Measured 2026-08-21: 1,323 instances use the kana base form `ください`, 237 use the entry's own headword form `下さい`. Both render and both resolve; nothing is broken. Recommendation to the curator is to standardise on the kana form: it is 84.8% of existing usage, and the auxiliary/polite-request ください these links mark is conventionally written in kana. That makes the sweep 237 instances instead of 1,323. BLOCKED ON A RULING, and the ruling belongs in .claude/skills/inline-word-links/SKILL.md (see Tooling 133) -- without it the split regenerates as fast as it is cleaned. Ruled by Tom 2026-10-23 (enhancement/assessment-2026-10-23.md §4 D5): kana-surface ください links use the kana base ください (inline-word-links skill). Rewrite ⟦ください→下さい：02899_kudasai⟧ to ⟦ください→ください：02899_kudasai⟧."
     },
     {
       "id": "tag-interrogative-family",
@@ -1359,13 +1360,13 @@
       "fix_type": "verify",
       "verify": "per-entry",
       "priority": 15,
-      "batch_ready": false,
-      "status": "needs-decision",
+      "batch_ready": true,
+      "status": "open",
       "scope_estimate": 12,
       "scope_unit": "entries",
       "scope_measured_at": "2026-08-23",
       "severity": "warn",
-      "notes": "Measured 2026-08-23 by the wiki harvest, from two independent observations arriving at the same family from opposite ends: a 2026-08-21 polish run found 00534 誰 carrying the off-list tag `interrogative` and guessed 'likely a small family worth migrating together'; a 2026-08-22 accuracy-review run found 01484 なぜ tagged pos ['noun'] while どうして/なんで are both 'adverb' and guessed 'worth checking the whole interrogative family'. Both guesses are right. All twelve entries are BASIC tier -- among the most-looked-up in the dictionary -- and carry six different semantic labels (interrogative x2 OFF-LIST, grammatical x4, direction x2, descriptive x2, general x1, NOTHING AT ALL x2) and four POS labels (pronoun x5, adverb x4, pre-noun-adjectival x2, noun x1). Three sub-defects are unambiguous: (a) `interrogative` on 00534/00543 is off-list, hence a P20 migration by definition (both already in build/data/unknown_semantic_baseline.json); (b) pos ['noun'] on 01484 なぜ is plainly wrong for an interrogative adverb, and its two synonyms 00834/03875 are both 'adverb'; (c) 00498 何 and 02924 どんな carry no semantic tag at all, which is tag-missing-semantic-entirely territory. The other labels are each defensible alone and only wrong beside each other. FILED needs-decision, NOT open: the item is blocked on one convention ruling -- which in-list semantic tag the family takes. `grammatical` is the plurality (4 of the 10 tagged) and the only candidate that fits all twelve; adopting it would retire `interrogative` from the off-list tail and give the direction/descriptive members a consistent home. Migrating without the ruling just re-scatters the family. Same shape as tag-lexical-family-incoherence (P38) but on a closed set with no membership ambiguity, so it is the better second family to size that instrument on."
+      "notes": "Measured 2026-08-23 by the wiki harvest, from two independent observations arriving at the same family from opposite ends: a 2026-08-21 polish run found 00534 誰 carrying the off-list tag `interrogative` and guessed 'likely a small family worth migrating together'; a 2026-08-22 accuracy-review run found 01484 なぜ tagged pos ['noun'] while どうして/なんで are both 'adverb' and guessed 'worth checking the whole interrogative family'. Both guesses are right. All twelve entries are BASIC tier -- among the most-looked-up in the dictionary -- and carry six different semantic labels (interrogative x2 OFF-LIST, grammatical x4, direction x2, descriptive x2, general x1, NOTHING AT ALL x2) and four POS labels (pronoun x5, adverb x4, pre-noun-adjectival x2, noun x1). Three sub-defects are unambiguous: (a) `interrogative` on 00534/00543 is off-list, hence a P20 migration by definition (both already in build/data/unknown_semantic_baseline.json); (b) pos ['noun'] on 01484 なぜ is plainly wrong for an interrogative adverb, and its two synonyms 00834/03875 are both 'adverb'; (c) 00498 何 and 02924 どんな carry no semantic tag at all, which is tag-missing-semantic-entirely territory. The other labels are each defensible alone and only wrong beside each other. FILED needs-decision, NOT open: the item is blocked on one convention ruling -- which in-list semantic tag the family takes. `grammatical` is the plurality (4 of the 10 tagged) and the only candidate that fits all twelve; adopting it would retire `interrogative` from the off-list tail and give the direction/descriptive members a consistent home. Migrating without the ruling just re-scatters the family. Same shape as tag-lexical-family-incoherence (P38) but on a closed set with no membership ambiguity, so it is the better second family to size that instrument on. Ruled by Tom 2026-10-23 (enhancement/assessment-2026-10-23.md §4 D5): settle by the entry-guidelines convention: question words take `grammatical`; POS follows how each word works (pronoun for 何/誰/どれ/どこ/どちら, adverb for いつ/どう/どうして/なぜ/何で, pre-noun-adjectival for どの/どんな). Basic tier: tags only, never the headword."
     },
     {
       "id": "kanji-list-legacy-count",
@@ -2222,6 +2223,22 @@
       "scope_estimate": 727,
       "severity": "medium",
       "notes": "Measured 2026-10-23: 727 examples in 594 entries held for a human; in 642 the checkers heard the same alternative reading at least six times. A sample of the top 40 had real furigana or text errors in about half (十四日 じゅうよんにち, 毎月一回 いちかい, 一週間 いちしゅうかん, 二つ上 {二|に}つ, 三十七度一度 for 三十七度一分, 上手い with じょうず, 取り越し苦労 くろう, 悪名高い たかい, 縦横 じゅうおう in 縦横十メートル); the rest were TTS slips on rare readings (明後日 みょうごにち, 一昨年 いっさくねん, 洞穴, 花弁) or acceptable variants (七時 なな/しち, 描く えがく/かく). These readings are shown to learners on every page. About 40 examples per cycle.",
+      "scope_measured_at": "2026-10-23"
+    },
+    {
+      "id": "audio-digit-readings",
+      "title": "Write and confirm readings for the ~2,450 examples with digits or Latin letters still unrecorded",
+      "source": "AUDIO_WORKFLOW.md §3.1 (Tom approved the method, subject to his ear check of a sample, 2026-10-23)",
+      "detect": "python3 build/audio_digit_readings.py status",
+      "filter": null,
+      "fix_type": "tool run, no entry edits: python3 build/audio_digit_readings.py generate --n 500 --budget 0.80, then confirm --budget 0.40; read through 30 of the new readings by eye; disputed ones stay unrecorded (list them in the session log)",
+      "verify": "status shows the readings confirmed; the next audio cycle records them",
+      "priority": 7,
+      "batch_ready": false,
+      "status": "blocked",
+      "scope_estimate": 2458,
+      "severity": "medium",
+      "notes": "Blocked until Tom approves the 30-clip sample (https://claude.ai/artifact/Fox2wSbfn4DWbhXXz8pQpQ); `audio_digit_readings.py approve` then sets method_approved and opens this item. 2026-10-23: 116 of a spread sample of 120 readings stored (4 failed the consistency check), 114 confirmed by gemini-3.8-flash, 2 disputed (both first readings were wrong: B組 くみ for ぐみ, お金 missing お); 30 recorded, all accepted by the four checks. About $0.0016 per example for generate + confirm, so the rest costs about $4 over several cycles.",
       "scope_measured_at": "2026-10-23"
     }
   ]
