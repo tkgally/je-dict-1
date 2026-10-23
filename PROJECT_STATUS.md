@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-23 (Routine v3: new-entries — 10 New Entries, IDs 32230–32239)
+
+Five internal-closure candidates (突っ立つ, 粘り, 勤労感謝の日, 酔い止め, 手繰り寄せる) and five brainstorm candidates, each cross-referenced to its seed (ばつが悪い and 二重丸 → ×/バツ, 菓子折り → 菓子, 価格帯 → 価格, だとしても → だけど). A short cycle at the end of a run. Self-check: one translation fixed; two wrong links to として removed from だとしても's notes. Queue 105 → 95.
+
 ### 2026-10-23 (Routine v3: new-entries — 25 New Entries, IDs 32205–32229)
 
 Twenty internal-closure candidates (送辞, 立憲君主制, 醸造所, 年俸制, 尺貫法, 濃口醤油, 刀鍛冶, 町奉行, 金目鯛, 芳名帳, 級数, 新生児, 語り明かす, 後ずさり, 憩い, 社交界, 祝い事, 文面, 生え変わる, 見え見え) and the first five brainstorm candidates (菓子パン, ある程度, ごめんください, 数多い, 数少ない), each cross-referenced to its seed entry. The new-entries prompt's filter for brainstorm candidates matched nothing; fixed. The harvester added reciprocal cross-references in 29 existing entries. Self-check: clean. Queue 130 → 105.
@@ -65,7 +69,3 @@ Restocked the candidate queue with 60 words the dictionary already uses in examp
 ### 2026-10-22 (Routine v3: new-entries — 20 New Entries, IDs 32185–32204)
 
 All twenty are internal-closure candidates: 一理, 便宜上, 隊員 (vs 退院), 参上, 貫徹, 発現 (vs 発言), 選り好み, 低価格, 一塁, 内覧会, 離職率, 浄水場, 縦走, 成形 (vs 整形), 管弦楽, 四重奏, 弦楽四重奏, 素因数分解, 略字, 戯画. 参上, 貫徹, 発現 and 選り好み already had separate する-verb entries; each pair now cross-references the other. Self-check: one flag on a neighbour, rejected. 32 candidates remain, 11 of them internal-closure.
-
-### 2026-10-21 (Routine v3: new-entries — 20 New Entries, IDs 32165–32184)
-
-All twenty are internal-closure candidates: 経口, 時候 (時候の挨拶), 色白, 黄泉, 屋形船, 長月, 松葉杖, 関白 (亭主関白), 熱情 (vs 情熱), 植わる (intransitive pair of 植える), 傍流 (vs 主流), 有期 (有期拘禁刑 since the 2025 penal reform), 傾注, 嘲弄, 各論 (総論賛成、各論反対), 干菓子, 予診, 招集 (vs 召集), 抵当権, 五穀豊穣. The harvester added reciprocal cross-references in 25 existing entries. Self-check: 1 applied, 1 rejected.
