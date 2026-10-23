@@ -3559,6 +3559,10 @@ lists the queue, most consistent first; a fixed example leaves it by itself (its
 and the audio mode records it again), and an example whose entry is right gets a `tts-error`
 or `ambiguous` verdict in `audio/needs_human_triage.jsonl`.
 
+Progress 2026-10-23 (routine #012): the top 45 triaged. 19 examples in 17 entries fixed, 20 marked
+`tts-error`, 6 `ambiguous`; 663 open. The number readings were the commonest real error (十キロ
+with じゅう, 毎月一回 with いち); the rule is now item 11 in the `example-sentences` skill.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns
