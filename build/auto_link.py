@@ -732,17 +732,20 @@ class Resolver:
         return Cand(eid, base, "table")
 
     def guard(self, cands: list[Cand], surface: str, ctx: "EntryCtx") -> tuple[list[Cand], str]:
-        """Drop kana-surface candidates the homophone list or a decision forbids.
+        """Drop candidates a decision or (for kana surfaces) the homophone list forbids.
 
         Returns (surviving candidates, reason) where the reason names the guard
-        that emptied the list.  Kanji and katakana surfaces are never guarded:
-        their furigana or spelling identifies the lexeme.
+        that emptied the list.  An adjudicated unlink holds for every surface,
+        kanji and katakana included; the block tier applies to kana surfaces
+        only, since furigana or spelling identifies the lexeme of the others.
         """
-        if not cands or not is_pure_hiragana(surface):
+        if not cands:
             return cands, ""
         kept = [c for c in cands if strip_tilde(c.base) not in ctx.excluded]
         if not kept:
             return [], "unlinked-by-decision"
+        if not is_pure_hiragana(surface):
+            return kept, ""
         kept2 = [c for c in kept if strip_tilde(c.base) not in self.blocked]
         if not kept2:
             return [], "homophone-guard"
@@ -1006,7 +1009,7 @@ class Linker:
                 return [], "table-guard"
             if cand.id == ctx.own_id:
                 return [], "self-headword"
-            return [cand], ""
+            return self.r.guard([cand], surface, ctx)
         if k - i == 1 and self.copula and surface in COPULA and t.is_aux and not forms_only:
             eid = COPULA[surface]
             if eid in self.r.headword_of and eid != ctx.own_id:
@@ -1169,7 +1172,7 @@ class Linker:
                 return [], "table-guard"
             if cand.id == ctx.own_id:
                 return [], "self-headword"
-            return [Cand(cand.id, cand.base, "chain")], ""
+            return self.r.guard([Cand(cand.id, cand.base, "chain")], surface, ctx)
         reason = "no-entry"
         bases = [t.dict_form]
         if t.norm_form and t.norm_form != t.dict_form and has_kanji(t.norm_form):
@@ -1183,7 +1186,7 @@ class Linker:
                     return [], "table-guard"
                 if cand.id == ctx.own_id:
                     return [], "self-headword"
-                return [Cand(cand.id, cand.base, "chain")], ""
+                return self.r.guard([Cand(cand.id, cand.base, "chain")], surface, ctx)
             if has_kanji(base):
                 if is_pure_hiragana(surface):
                     reason = "kanji-headed-single" if self.r.by_key.get(base) else "no-entry"
@@ -1207,7 +1210,9 @@ class Linker:
                 cands = [Cand(c.id, c.base, "chain") for c in cands]
             own = [c for c in cands if c.id == ctx.own_id]
             cands = [c for c in cands if c.id != ctx.own_id]
-            if own and not cands:
+            if own:
+                # a form of this entry's own headword: never hand it to a
+                # same-spelled entry ({直|なお}して in 直す linked to the suffix 〜直す)
                 return [], "self-headword"
             if len(cands) > 1:
                 return [], "multi-candidate-kanji"
