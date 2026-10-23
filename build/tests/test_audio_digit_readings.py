@@ -19,6 +19,14 @@ class ConsistencyTest(unittest.TestCase):
         self.assertFalse(D.consistent("きっかり3じにきてください。", "きっかりさんじにいってください"))
         self.assertFalse(D.consistent("ATMでおかねをおろした。", "えーてぃーえむでかねをおろした"))
 
+    def test_counter_after_a_digit_is_read_freely(self):
+        known = D.known_reading(P.parse_example("3{日|にち}ほどかかります。"))
+        self.assertEqual(known, "3日ほどかかります。")
+        self.assertTrue(D.consistent(known, "みっかほどかかります"))
+        known = D.known_reading(P.parse_example("{図書室|としょしつ}は3{階|かい}にあります。"))
+        self.assertTrue(D.consistent(known, "としょしつはさんがいにあります"))
+        self.assertFalse(D.consistent(known, "としょしつはさんがいにいきます"))
+
     def test_norm_folds_katakana_and_drops_punctuation(self):
         self.assertEqual(D.norm("エヌ、エイチ・ケー。"), "えぬえいちけー")
 

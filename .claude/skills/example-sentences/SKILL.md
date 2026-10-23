@@ -226,7 +226,10 @@ Pattern: `{entry_id}_ex{N}`
 6. **Vocabulary tier violations**: Using general-tier words in basic-tier examples 1-2
 7. **Insufficient examples**: Not meeting minimum counts per sense
 8. **No length progression**: All examples being similar length
-9. **Auxiliary verbs in kanji** (ruling 2026-10-23): when いく, くる, みる, おく, しまう, あげる,
+9. **Full-width digits or letters** (ruling 2026-10-23): write 3{月|がつ}, 500{円|えん}, 8GB, never
+   ３月, ５００円, ８ＧＢ; no furigana on the digits themselves, and the counter's furigana as said
+   after that number: 20{分|ぷん}, {3日|みっか} (entry-guidelines, Furigana).
+10. **Auxiliary verbs in kanji** (ruling 2026-10-23): when いく, くる, みる, おく, しまう, あげる,
    くれる, もらう follow a て-form as auxiliaries, write them in kana: {持|も}っていく ("take along"
    as one action), {寒|さむ}くなってくる, {食|た}べてみる, {買|か}っておく. Kanji only when the verb
    keeps its own meaning as a main verb: {駅|えき}まで{走|はし}って{行|い}った (ran to the station,

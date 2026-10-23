@@ -190,6 +190,16 @@ Use compound readings for jukugo: `{友達|ともだち}` not `{友|とも}{達|
 python3 build/verify_furigana.py <entry_id>
 ```
 
+**Digits and Latin letters are half-width** (ruling 2026-10-23): `3{月|がつ}`, `{約|やく}500メートル`,
+`8GB`, `{自己|じこ}PR`, never ３月, ５００, ８ＧＢ or ＰＲ, in every field. Validation rejects
+full-width digits and letters. A digit has no furigana of its own (`1テラバイト`, not
+`{1|いち}テラバイト`). The word after it carries its reading **as said after that number**:
+`3{本|ぼん}`, `1{本|ぽん}`, `20{分|ぷん}`, `3{階|がい}`, `{第|だい}3{版|ぱん}`, `3{泊|ぱく}`, never the
+bare counter (`20{分|ふん}`). When number and counter fuse into one word, one furigana group
+covers both: `{3日|みっか}`, `{1日|ついたち}`, `{10日|とおか}`, `{1人|ひとり}`, `{2人|ふたり}`,
+`{3日間|みっかかん}`. `python3 build/audio_digit_readings.py counter-furigana` lists examples whose
+counter furigana contradict how the sentence is read.
+
 ## Entry Structure
 
 Every entry must include:

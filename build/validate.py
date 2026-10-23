@@ -313,6 +313,27 @@ def find_latin_furigana_errors(entry: dict) -> list[str]:
     return errors
 
 
+_FULLWIDTH_ALNUM_RE = re.compile(r'[０-９Ａ-Ｚａ-ｚ]+')
+
+
+def find_fullwidth_alnum_errors(entry: dict) -> list[str]:
+    """Error if any text field holds full-width digits or Latin letters (３月, ＰＲ).
+
+    House style since 2026-10-23 (Tom's ruling): numerals and Latin letters are
+    half-width everywhere (3月, 8GB, 自己PR), as 1,544 example sentences already
+    were when the last 52 full-width ones were converted. Hard error, no baseline.
+    """
+    if not isinstance(entry, dict):
+        return []
+    errors = []
+    for field_path, text in _entry_text_fields(entry):
+        for m in _FULLWIDTH_ALNUM_RE.finditer(text):
+            half = m.group(0).translate({c: c - 0xFEE0 for c in range(0xFF10, 0xFF5B)})
+            errors.append(f"Full-width digits or letters in '{field_path}': {m.group(0)} "
+                          f"(write them half-width: {half})")
+    return errors
+
+
 def find_bare_kanji_headword_errors(entry: dict) -> list[str]:
     """Error if `headword` contains kanji with no furigana brace at all.
 
@@ -545,6 +566,7 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: 
     errors.extend(find_furigana_brace_errors(entry))
     errors.extend(find_bare_kanji_headword_errors(entry))
     errors.extend(find_latin_furigana_errors(entry))
+    errors.extend(find_fullwidth_alnum_errors(entry))
     if RATCHET:
         errors.extend(find_ratchet_errors(entry))
 

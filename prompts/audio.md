@@ -89,6 +89,20 @@ If production is still blocked, wrap up (§6).
 
 ## 3. Record
 
+First give new examples with digits or Latin letters their readings (Tom approved the
+method on 2026-10-23; new entries keep adding such examples). Each command stops at its
+budget and records its spend in the ledger itself; skip it when `status` shows none without
+a reading:
+
+```bash
+python3 build/audio_digit_readings.py status
+python3 build/audio_digit_readings.py generate --budget 0.30
+python3 build/audio_digit_readings.py confirm --budget 0.20
+```
+
+Disputed readings (the second model disagreed) stay unrecorded; name how many in the
+session log.
+
 ```bash
 python3 build/audio_pipeline.py plan --budget <B − maintenance spend − 0.10>
 python3 build/audio_pipeline.py run          # repeat until it prints "remaining": 0
@@ -124,12 +138,9 @@ split across runs. Voices rotate within each entry (`audio/config.json`
 
 **Examples that are not recorded** (`plan` skips them and counts them; nothing
 to do by hand):
-- *Digits and Latin letters* (3時, 20%, NHK; about 2,500 examples): furigana does
-  not give their reading. They stay unrecorded until readings written by a
-  text model have been validated by ear (`AUDIO_WORKFLOW.md` §3.1). Do not write
-  readings for them in this mode: the systemic-fix item `audio-digit-readings`
-  does (`build/audio_digit_readings.py`), and once Tom has approved the method,
-  `plan` picks up the confirmed ones like any other example.
+- *Digits and Latin letters* (3時, 20%, NHK) without a confirmed reading in
+  `audio/digit_readings.json`: the start of §3 writes them. Those with a
+  confirmed reading are recorded like any other example (`AUDIO_WORKFLOW.md` §3.1).
 - *Symbols* (× ○ + ÷ = ℃, about 30 examples): their reading is not fixed (ばつ or ばってん).
   They stay unrecorded, like digits.
 - *Kanji without furigana* (82) and *malformed markup* (8): these are furigana

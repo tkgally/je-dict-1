@@ -26,7 +26,9 @@ import json
 import os
 import re
 import sys
+import threading
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -129,7 +131,7 @@ def call(model, prompt):
 
 GEN_PROMPT = """Below are Japanese example sentences from a learner's dictionary. Each contains Arabic digits, Latin letters or symbols whose reading the text does not show. For each sentence write how a native speaker would read the WHOLE sentence aloud, in hiragana (loanwords and letter names may be in katakana).
 
-- KNOWN gives the reading of every other part (from the furigana). Keep it exactly: change only the digits, letters and symbols. Write the particles は, へ, を as written, not as pronounced.
+- KNOWN gives the reading of every other part (from the furigana). Keep it exactly: change only the digits, letters and symbols, and a word still in kanji right after a number (its counter: 3日 みっか, 20分 にじゅっぷん, 3階 さんがい). Write the particles は, へ, を as written, not as pronounced.
 - Use the reading a careful native speaker would use in this sentence: counters with their sound changes (3本 さんぼん, 1泊 いっぱく, 8分 はっぷん), dates (1日 ついたち, 20日 はつか), years, times, prices, telephone and room numbers as they are said, abbreviations as they are said (NHK エヌエイチケー, JR ジェイアール, Wi-Fi ワイファイ, cm センチ).
 - In "alt" list every other reading a careful native speaker would also accept for the same sentence (じゅっぷん and じっぷん, エヌエイチケー and エヌエッチケー); leave it empty if there is none.
 - If you are not sure how a sentence is read, set "unsure": true.
@@ -146,13 +148,31 @@ Reply with a JSON array only: [{"ex": "…", "ok": true, "kana": "…", "alt": [
 
 
 # --------------------------------------------------------------------------- selection
+DIGIT_OR_LATIN = re.compile(r"[0-9A-Za-z０-９Ａ-Ｚａ-ｚ][%.,:/\-]*$")
+
+
+def known_reading(p):
+    """The reading the furigana fix, as kana, with the gaps the model fills left
+    as they are written. A word with furigana right after a digit or a letter
+    (3{日|にち}, 20{分|ふん}) stays in kanji too: its reading depends on the number
+    (みっか, にじゅっぷん) and the furigana sometimes give the bare counter."""
+    out, prev = [], ""
+    for base, reading in p["tokens"]:
+        if reading and DIGIT_OR_LATIN.search(prev):
+            out.append(base)
+        else:
+            out.append(reading or base)
+        prev = base
+    return "".join(out)
+
+
 def undetermined_examples():
     """Examples whose only reading problem is digits or Latin letters."""
     out = []
     for x in P.load_examples():
         p = P.parse_example(x["raw"])
         if undetermined_reason(p) in ("digits", "latin"):
-            x["plain"], x["known"] = p["plain"], p["kana"]
+            x["plain"], x["known"] = p["plain"], known_reading(p)
             out.append(x)
     return out
 
@@ -182,39 +202,63 @@ def cmd_status(args):
     return 0
 
 
+def run_parallel(batches, ask, apply, budget, workers, data, label):
+    """Send the batches to the model `workers` at a time; apply each answer under a
+    lock and save as it arrives, so an interrupted run keeps what it has. Stops
+    starting batches once `budget` is spent; the spend goes to the ledger at the end."""
+    lock = threading.Lock()
+    state = {"spent": 0.0, "done": 0}
+    total = sum(len(b) for b in batches)
+
+    def one(batch):
+        with lock:
+            if state["spent"] >= budget:
+                return
+        items, cost = ask(batch)
+        with lock:
+            state["spent"] += cost
+            apply(batch, items or [])
+            state["done"] += len(batch)
+            save(data)
+            print(f"  {state['done']}/{total}  ${state['spent']:.3f}", flush=True)
+
+    try:
+        with ThreadPoolExecutor(workers) as pool:
+            list(pool.map(one, batches))
+    finally:
+        if state["spent"]:
+            record_spend(state["spent"], label, state["done"])
+    print(f"EST_COST={state['spent']:.4f}")
+    return state["spent"]
+
+
 def cmd_generate(args):
     data = load()
     todo = [x for x in undetermined_examples()
             if data["readings"].get(x["ex"], {}).get("h") != P.short_hash(x["raw"])]
     todo = spread(todo, args.n) if args.sample else todo[:args.n]
-    spent, stored, rejected = 0.0, 0, 0
-    for i in range(0, len(todo), BATCH):
-        if spent >= args.budget:
-            break
-        batch = todo[i:i + BATCH]
+    counts = {"stored": 0, "rejected": 0}
+
+    def ask(batch):
         lines = "\n".join(f'{x["ex"]}\tTEXT: {x["plain"]}\tKNOWN: {x["known"]}' for x in batch)
-        items, cost = call(args.model, GEN_PROMPT + lines)
-        spent += cost
+        return call(args.model, GEN_PROMPT + lines)
+
+    def apply(batch, items):
         by_ex = {x["ex"]: x for x in batch}
-        for it in items or []:
+        for it in items:
             x = by_ex.get(str(it.get("ex")))
-            if not x or not it.get("kana") or it.get("unsure"):
-                rejected += 1
+            if not x or not it.get("kana") or it.get("unsure") or not consistent(x["known"], it["kana"]):
+                counts["rejected"] += 1
                 continue
             alts = [a for a in (it.get("alt") or []) if a and consistent(x["known"], a)]
-            if not consistent(x["known"], it["kana"]):
-                rejected += 1
-                continue
             data["readings"][x["ex"]] = {"h": P.short_hash(x["raw"]), "kana": norm(it["kana"]),
                                          "alt_kana": sorted({norm(a) for a in alts} - {norm(it["kana"])}),
                                          "state": "generated", "by": args.model, "added": now()}
-            stored += 1
-        save(data)
-        print(f"  {min(i + BATCH, len(todo))}/{len(todo)}  stored {stored}, rejected {rejected}, ${spent:.3f}",
-              flush=True)
-    if spent:
-        record_spend(spent, "digit-readings generate", stored)
-    print(f"EST_COST={spent:.4f}")
+            counts["stored"] += 1
+
+    batches = [todo[i:i + BATCH] for i in range(0, len(todo), BATCH)]
+    run_parallel(batches, ask, apply, args.budget, args.workers, data, "digit-readings generate")
+    print(json.dumps(counts))
     return 0
 
 
@@ -224,18 +268,18 @@ def cmd_confirm(args):
     todo = [(ex, r) for ex, r in data["readings"].items()
             if r.get("state") == "generated" and ex in examples
             and r.get("h") == P.short_hash(examples[ex]["raw"])]
-    spent, counts = 0.0, {"confirmed": 0, "disputed": 0}
-    for i in range(0, len(todo), BATCH):
-        if spent >= args.budget:
-            break
-        batch = dict(todo[i:i + BATCH])
+    counts = {"confirmed": 0, "disputed": 0}
+
+    def ask(batch):
         lines = "\n".join(f'{ex}\tTEXT: {examples[ex]["plain"]}\tREADING: {r["kana"]}'
                           + (f'\tALSO: {" / ".join(r["alt_kana"])}' if r.get("alt_kana") else "")
-                          for ex, r in batch.items())
-        items, cost = call(args.model, CONFIRM_PROMPT + lines)
-        spent += cost
-        for it in items or []:
-            r = batch.get(str(it.get("ex")))
+                          for ex, r in batch)
+        return call(args.model, CONFIRM_PROMPT + lines)
+
+    def apply(batch, items):
+        by_ex = dict(batch)
+        for it in items:
+            r = by_ex.get(str(it.get("ex")))
             if not r:
                 continue
             known = examples[str(it["ex"])]["known"]
@@ -249,11 +293,10 @@ def cmd_confirm(args):
                 r["disputed_by"] = {"model": args.model, "kana": norm(it.get("kana", "")),
                                     "alt": sorted(extra)}
                 counts["disputed"] += 1
-        save(data)
-        print(f"  {min(i + BATCH, len(todo))}/{len(todo)}  {counts}, ${spent:.3f}", flush=True)
-    if spent:
-        record_spend(spent, "digit-readings confirm", sum(counts.values()))
-    print(f"EST_COST={spent:.4f}")
+
+    batches = [todo[i:i + BATCH] for i in range(0, len(todo), BATCH)]
+    run_parallel(batches, ask, apply, args.budget, args.workers, data, "digit-readings confirm")
+    print(json.dumps(counts))
     return 0
 
 
@@ -306,6 +349,24 @@ def load_digit_readings_all():
     return P.load_digit_readings(approved_only=False)
 
 
+def cmd_counter_furigana(args):
+    """Examples whose confirmed reading contradicts the furigana of the word after a
+    number (3{日|にち} said みっか, 3{階|かい} said さんがい): the displayed furigana are
+    wrong. Read-only queue for the systemic-fix item digit-counter-furigana."""
+    data = load()
+    out = []
+    for x in undetermined_examples():
+        r = data["readings"].get(x["ex"])
+        if not r or r.get("state") != "confirmed" or r.get("h") != P.short_hash(x["raw"]):
+            continue
+        strict = P.parse_example(x["raw"])["kana"]
+        if not any(consistent(strict, k) for k in [r["kana"], *r.get("alt_kana", [])]):
+            out.append({"ex": x["ex"], "entry": x["entry"], "text": x["raw"], "said": r["kana"]})
+    print(json.dumps(out, ensure_ascii=False, indent=1))
+    print(f"{len(out)} examples", file=sys.stderr)
+    return 0
+
+
 BACKLOG = P.ROOT / "planning" / "wiki" / "ideas" / "backlog-queue.json"
 BACKLOG_ITEM = "audio-digit-readings"
 
@@ -338,16 +399,20 @@ def main():
     p.add_argument("--budget", type=float, default=1.0)
     p.add_argument("--sample", action="store_true", help="spread the n examples over the dictionary")
     p.add_argument("--model", default=GEN_MODEL)
+    p.add_argument("--workers", type=int, default=6)
     p.set_defaults(fn=cmd_generate)
     p = sub.add_parser("confirm")
     p.add_argument("--budget", type=float, default=0.5)
     p.add_argument("--model", default=CONFIRM_MODEL)
+    p.add_argument("--workers", type=int, default=6)
     p.set_defaults(fn=cmd_confirm)
     p = sub.add_parser("sample")
     p.add_argument("--n", type=int, default=30)
     p.add_argument("--budget", type=float, default=0.3)
     p.add_argument("--out", default=str(P.WORK / "digit_sample"))
     p.set_defaults(fn=cmd_sample)
+    sub.add_parser("counter-furigana", help="examples whose counter furigana contradict the reading").set_defaults(
+        fn=cmd_counter_furigana)
     p = sub.add_parser("approve")
     p.add_argument("--note", required=True)
     p.set_defaults(fn=cmd_approve)
