@@ -47,7 +47,12 @@ Common mistake: Using {知|し}る when you mean 'I know.'
 
 ### 2. Bullet Points for Lists
 
-Any list of 2 or more items MUST use bullet points. Use the hyphen-space format (`- `):
+Any list of 2 or more items MUST use bullet points. Use the hyphen-space format (`- `), never
+a line-initial ・ (ruling 2026-10-23; older notes are being converted). A ・ inside a line, as in
+コーヒー・ブレイク, is punctuation and stays.
+
+Do not open notes, or a section, with a list of the headword's conjugated forms (negative, て-form,
+past): the conjugation tab shows them. Name a form only when it is irregular or easy to get wrong.
 
 ```
 ✓ CORRECT:

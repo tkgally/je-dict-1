@@ -74,7 +74,9 @@ ENTRIES_DIR = PROJECT_ROOT / "entries"
 OUT_DIR = PROJECT_ROOT / "reviews" / "accuracy"
 FLAGS_FILE = PROJECT_ROOT / "reviews" / "accuracy_flags.jsonl"
 
-DEFAULT_MODEL = "google/gemini-2.5-flash"
+# gpt-6.1-sol since 2026-10-23 (enhancement/assessment-2026-10-23.md): on 149 entries
+# gemini-2.5-flash had passed, it found about 12 real errors (precision ~80%)
+DEFAULT_MODEL = "openai/gpt-6.1-sol"
 DIMENSIONS = ("gloss", "translation", "tags", "notes")
 
 # Prompt revision marker, recorded in each review file so calibration stats can

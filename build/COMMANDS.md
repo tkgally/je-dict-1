@@ -103,6 +103,10 @@ python3 build/manage_candidates.py add-batch proposed.json      # Many, duplicat
 python3 build/manage_candidates.py remove C00123
 python3 build/manage_candidates.py sync                         # Drop candidates that now exist
 python3 build/manage_candidates.py stats
+python3 build/brainstorm_candidates.py next > b.json         # Brainstorm batch: 20 seed headwords or one semantic field
+python3 build/brainstorm_candidates.py ask b.json --out m.json --budget 0.40   # Proposals from two independent models
+python3 build/brainstorm_candidates.py filter own.json m.json --out new.json  # Merge, drop existing/rejected, flag variants
+python3 build/brainstorm_candidates.py record b.json verdicts.json            # Log verdicts, advance the lens cursor
 python3 build/retire_entry.py retire OLD_ID --to NEW_ID --reason "..."   # Delete an entry; old URL redirects (curator decision)
 python3 build/retire_entry.py rename OLD_ID NEW_ID --reason "..."        # New romaji, same number; old URL redirects
 ```
@@ -140,6 +144,7 @@ python3 build/audio_maintenance.py spotcheck --n 30    # listening page for Tom 
 python3 build/audio_maintenance.py import-ratings audio/spotchecks/*.json   # Tom's ratings → regression suite
 python3 build/audio_maintenance.py reaudit --sample 100 --budget 0.40       # re-check existing recordings
 python3 build/audio_needs_human_triage.py [--summary]  # examples left for a human, most consistent mishearing first (systemic-fix)
+python3 build/audio_digit_readings.py status|generate|confirm|sample|approve   # readings for examples with digits or Latin letters (§3.1)
 python3 build/check_no_binaries.py                     # CI gate: no audio files in je-dict-1
 ```
 

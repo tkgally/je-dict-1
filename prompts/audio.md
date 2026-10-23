@@ -127,7 +127,9 @@ to do by hand):
 - *Digits and Latin letters* (3時, 20%, NHK; about 2,500 examples): furigana does
   not give their reading. They stay unrecorded until readings written by a
   text model have been validated by ear (`AUDIO_WORKFLOW.md` §3.1). Do not write
-  readings for them in this mode.
+  readings for them in this mode: the systemic-fix item `audio-digit-readings`
+  does (`build/audio_digit_readings.py`), and once Tom has approved the method,
+  `plan` picks up the confirmed ones like any other example.
 - *Symbols* (× ○ + ÷ = ℃, about 30 examples): their reading is not fixed (ばつ or ばってん).
   They stay unrecorded, like digits.
 - *Kanji without furigana* (82) and *malformed markup* (8): these are furigana

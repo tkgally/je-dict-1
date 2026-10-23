@@ -131,6 +131,10 @@ For each word you intend to link:
 - Counter words attached to numerals
 - **Japanese phrases inside the notes field** — collocations, related forms, fixed expressions, contrast pairs all get the same treatment as example sentences
 
+Base forms follow the headword of the target entry, with one ruling (2026-10-23): links to
+02899 ください written in kana use the kana base `ください` (⟦ください→ください：02899_kudasai⟧, not
+→下さい), as 85% already did, because the polite-request auxiliary is written in kana.
+
 ### DO NOT Link:
 - The headword of the entry in its own examples or notes (no self-reference)
 - Punctuation marks (。、？！「」『』…)

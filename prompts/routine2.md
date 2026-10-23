@@ -62,7 +62,7 @@ Then:
    smaller unit that merges is better than a larger one that runs into the
    next scheduled run.
 4. **Unit sizes bound a cycle, not the context window.** Keep each cycle to
-   the size its mode prompt gives (25–40 entries for polish, 800–1,200 for
+   the size its mode prompt gives (25–40 entries for polish, 500–1,200 for
    accuracy-review, about 20 for new-entries, …). Read any "percent of
    context" limit in a mode prompt as the context *this cycle* has used. If
    the harness warns that context is running low, finish the current cycle
@@ -157,10 +157,10 @@ Read the JSON: `mode` is this run's focus, `params` its inputs, `reason` and
 | `mode` | Do this |
 |---|---|
 | `polish` | Follow **`prompts/comprehensive_polish.md`**. Two lanes: the priority lane (`python3 pipeline/priority_lane.py next --n 15`) for about half the budget, then the sequential frontier from `params.start_id`. Judgment work only: correctness, the one contrast or warning a learner needs, trimming, tags. Scripts handle links and cross-references at wrap-up (§3). Target 25–40 entries. |
-| `accuracy-review` | Follow **§A**: send a range of 800–1,200 entries starting at `params.start_id` to the external reviewer (gloss, translation, tags, notes), adjudicate every surviving flag, fix what is wrong, maintain the queue. No furigana screening pass. |
+| `accuracy-review` | Follow **§A**: send a range of entries sized to the session budget (§A step 1, about 770) starting at `params.start_id` to the external reviewer (gloss, translation, tags, notes), adjudicate every surviving flag, fix what is wrong, maintain the queue. No furigana screening pass. |
 | `systemic-fix` | Follow **§B** with `params.backlog_item`: run its detector, verify each flagged entry, fix a bounded batch, update the item's status. |
-| `new-entries` | Follow **`prompts/newentries.md`**. Create about `params.approx_count` (20) entries, taking candidates whose notes say "seen in entry" or "used in" first (internal closure); if fewer than 20 such candidates exist, take the rest from the queue and stop early rather than inventing headwords. Then run the post-creation sequence in that prompt, which links, cross-references, and re-checks homographs. |
-| `candidates` | Follow **`prompts/newcandidates.md`**: restock the queue with words the dictionary already uses but has not defined (`check_stale_noentry.py` unresolved class, words seen during review), each vetted individually; at most ten curated additions from other lenses per run. |
+| `new-entries` | Follow **`prompts/newentries.md`**. Create about `params.approx_count` (20) entries, about half closure candidates ("seen in entry", "used in") and half brainstorm candidates ("brainstorm:"), each brainstorm entry cross-referenced to its seed; if the queue runs short, stop early rather than inventing headwords. Then run the post-creation sequence in that prompt, which links, cross-references, and re-checks homographs. |
+| `candidates` | Follow **`prompts/newcandidates.md`**: restock the queue from two streams, internal closure (words the dictionary uses but has not defined) and brainstorming (`build/brainstorm_candidates.py`: words related to existing headwords, or missing from a semantic field, proposed by you and by two independent models within `params.openrouter_session_budget_usd`), each word vetted individually. |
 | `audio` | Follow **`prompts/audio.md`**: maintenance checks first (regression suite, pilots, model IDs, spot checks, re-audits; `build/audio_maintenance.py due`), then record example sentences in priority order with `params.openrouter_session_budget_usd`, publish the MP3s to the audio repository, update `audio/manifest/` and the recorded examples' `has_audio` flags. Changes no entry text, so §3 and §4 do not apply. |
 | `conjugation-check` | Follow **§D**: re-check the verb and i-adjective conjugation tables (deterministic checks over the whole dictionary, then an independent model on the next `params.model_tables` tables within `params.openrouter_session_budget_usd`), fix every table confirmed wrong (the generator first when the error is a pattern), and record the tables confirmed right. Runs about once a day (weight 0; trigger in `routine_next.py`). |
 | `wiki` | Follow **`planning/maintain-knowledge-base.md`**: harvest `polishing/observations.md` into `planning/wiki/ideas/backlog-queue.json`, write one short log entry, regenerate the metrics page with `python3 pipeline/metrics_report.py`. No essays, no new prose on the metrics page, no page may grow by more than 300 words. |
@@ -328,9 +328,14 @@ applied only where you independently agree, keeping `reviews/queue.txt`
 converging.
 
 1. **Budget.** `params.openrouter_session_budget_usd` is the cap for this run
-   (0 or missing → do not call OpenRouter; log and stop). Cost is about $0.6
-   per 1,000 entries with the notes dimension. Size the range to 800–1,200
-   entries from `params.start_id`; shrink it if adjudication is running long.
+   (0 or missing → do not call OpenRouter; log and stop). The reviewer is
+   `openai/gpt-6.1-sol` (since 2026-10-23; `gemini-2.5-flash` before). It bills
+   about $4.70 per 1,000 entries, and `review_accuracy.py` estimates about $6.50,
+   so size the range to `budget / 0.0065` entries (about 770 at $5) from
+   `params.start_id`, never more than 1,200; shrink it if adjudication is running
+   long. Accuracy review may spend at most `accuracy_daily_cap_usd` ($10) a day,
+   so that the $15 daily cap keeps room for self-checks, audio and brainstorming;
+   the selector enforces both.
 2. **Do not run the furigana screener** (`review_runner.py`). Its flags ran at
    2 percent precision over the whole series; the accuracy reviewer and the
    deterministic furigana checks cover the ground.
@@ -349,8 +354,9 @@ converging.
    reviews older than their entry (marked STALE: re-run those, never adjudicate
    them). Never apply blindly; open the entry. For `notes-fact`, check the claim against your own
    knowledge and the rest of the entry. If more than 25 percent of entries
-   come back flagged, that is reviewer noise: log a `[tooling]` observation
-   with examples. Update `modified` on every entry you change.
+   come back flagged, not counting `offvocab` flags (those are deterministic and
+   cluster in old tag batches), that is reviewer noise: log a `[tooling]`
+   observation with examples. Update `modified` on every entry you change.
 5. **Ledger**:
    ```bash
    python3 - "$EST_COST" "<phase>" "<n_entries>" <<'PY'
@@ -370,9 +376,10 @@ converging.
    PY
    ```
 6. **Cursor**: `polishing/tasks/cross-model-review/progress.txt` → `next: <end+1>`.
-   When the cursor passes the highest entry ID, reset it to `next: 00001`; the
-   second pass reviews with the notes dimension what the first pass reviewed
-   without it.
+   When the cursor passes the highest entry ID, reset it to `next: 00001`. The
+   reviewer changed at 20241 on 2026-10-23: from there to the end is the first
+   review by `gpt-6.1-sol`, and the wrap to 00001 starts its pass over the
+   entries `gemini-2.5-flash` reviewed twice.
 7. **Queue**: remove the reviewed range from `reviews/queue.txt`:
    ```bash
    awk -v s=<start> -v e=<end> -F'[/_]' '!($1=="entries" && $3+0>=s && $3+0<=e)' reviews/queue.txt > /tmp/q.txt && mv /tmp/q.txt reviews/queue.txt
@@ -387,7 +394,8 @@ converging.
    `tooling-backlog.md`.
 2. Run the item's `detect` command; apply its `filter`. Detectors are
    read-only and emit a JSON queue; they never modify entries.
-3. Fix a bounded batch (sized by §6): open each flagged entry, confirm the fix
+3. Fix a bounded batch (sized by §6; conventions and spelling duplicates are
+   yours to settle, §E): open each flagged entry, confirm the fix
    is right for that entry, apply it, update `modified`. Purely mechanical
    application without reading the entry is reserved for transformations that
    provably cannot introduce an error, and even those are validated and
@@ -486,6 +494,30 @@ Goal: catch conjugation tables that the generators (`build/add_conjugations.py`,
 4. Run §3 and §4 on the changed entries (the auto-linker reads conjugation tables,
    so a corrected table can add or change links), then wrap up. A check that finds
    nothing still gets its session log and metrics line; say "no open flags".
+
+## §E. Decisions the Routine makes itself (standing rule, Tom 2026-10-23)
+
+Decide these yourself; do not send them to `reviews/needs_curator.txt`:
+
+- **Conventions**: house style, tagging, markup and link conventions. When the
+  skills do not settle a question, choose the option most entries already
+  follow (or the standard modern usage), write the ruling into the skill it
+  belongs to (`example-sentences`, `vocabulary-notes`, `inline-word-links`,
+  `entry-guidelines`) in one or two lines dated with today's date, and record it in the
+  backlog item's `notes`.
+- **Pure spelling duplicates**: two entries for the same word with the same
+  reading and the same meaning, differing only in spelling (ため口 / タメ口,
+  ひき肉 / 挽肉, 見積り / 見積もり). Keep the entry under the commoner spelling,
+  move anything useful from the other into it (senses, good examples, the
+  other spelling under WRITING), then
+  `python3 build/retire_entry.py retire <other> --to <kept> --duplicate --reason "…"`.
+  Log it in the session log and the PR body.
+
+Still Tom's: a reading correction that changes an entry ID
+(`retire_entry.py rename`), retiring an entry that is not a pure spelling
+duplicate (a different reading, a non-standard word, a wrong sense), and
+questions of meaning or content you cannot settle from your own knowledge.
+Those go to `reviews/needs_curator.txt` as before.
 
 ---
 
