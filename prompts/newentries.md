@@ -75,7 +75,7 @@ New entries come from two kinds of candidate (`prompts/newcandidates.md`):
 
 - **Closure** candidates, whose notes say `seen in entry NNNNN` or `used in`: words the
   dictionary already uses in an example or a note but never defined.
-- **Brainstorm** candidates, whose notes start `brainstorm:`: words a learner's dictionary
+- **Brainstorm** candidates, whose notes contain `brainstorm:` (after the gloss): words a learner's dictionary
   should have, found from the existing headwords (synonyms, antonyms, words of the same kind,
   compounds and set phrases, register counterparts, culturally important proper names) or from a
   semantic field's gaps.
@@ -101,7 +101,7 @@ To list the two kinds:
 
 ```bash
 grep -B1 -A3 -E '"seen in entry|used in' candidate_words.json | head -80
-grep -B1 -A3 '"brainstorm:' candidate_words.json | head -80
+grep -B1 -A3 'brainstorm:' candidate_words.json | head -80
 ```
 
 ## Session Workflow
