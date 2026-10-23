@@ -53,8 +53,9 @@ and the in-context review found, as a **tier**:
 
 `reviews/link_decisions.jsonl` is the ledger: one line per adjudicated occurrence,
 `decision` `keep`, `unlink`, or `retarget` (with `new_base` / `new_target`; format in
-`prompts/routine2.md` §C). The linker never re-links a base that an `unlink` or `retarget` line
-removed from an entry, and CI (`check_link_homophones.py --gate`) fails when a `block` link has
+`prompts/routine2.md` §C). The linker never re-links a base that an `unlink` line removed from an
+entry, on any surface (kanji and katakana included). A `retarget` rewrites only the occurrence its
+`context` pins; the entry's other links to the old base stay. CI (`check_link_homophones.py --gate`) fails when a `block` link has
 no `keep` line or an unlinked link has come back. A link to the right word whose sense the entry
 does not cover is a `keep` plus a curator note about the sense gap, never an unlink.
 

@@ -1475,3 +1475,18 @@ and the pass continues on `gpt-4.1` alone. The pass stops after `--max-minutes` 
 disables it) and prints the unreached IDs as a ready `--ids` list. Each report's `models_used`
 records which models actually answered. Tests: `build/tests/test_review_runner_deep.py`. The
 Routine still does not run the furigana screener or the deep pass (routine2.md §A step 2).
+
+## 145 and 152. `auto_link.py` relinked what the decision ledger unlinked (queue: `auto-link-kanji-surface-ledger`)
+
+**RESOLVED (2026-10-23).** Two systemic-fix cycles. (1) `guard()` honours unlink decisions for every surface, the function-word and verb-chain rules go through it, and the verb-chain rule treats a form of the entry's own headword as self (28 suffix-twin links removed from 直す, 終わる, 続ける, 始める). (2) A `retarget` decision no longer counts as an entry-wide unlink: `load_unlink_decisions()` ignores it and `decision_index()` records it as `retarget`, so `--apply-decisions` no longer strips the entry's other links to the old base as strays (01799 だった) and the CI gate no longer demands a `keep` for them. Unit tests in `build/tests/test_auto_link.py` and `build/tests/test_check_link_homophones.py`. On the 110 entries that carry retarget lines, the change lets one more link through (19539 でいらっしゃる → いらっしゃる, correct).
+
+#### Original text (145). `auto_link.py` ignores unlink decisions for kanji surfaces (queue: `auto-link-kanji-surface-ledger`)
+`guard()` returns early for any surface that is not all hiragana, so an `unlink` line for 照れ in 08152 照れる is ignored, and each re-run links it back to 00404 照る. The fix is to consult `ctx.excluded` for every surface and to never link a form of the entry's own headword.
+
+**Update 2026-10-23 (systemic-fix):** fixed. `guard()` now honours unlink decisions for every surface; the function-word and verb-chain rules go through it; the verb-chain rule treats a form of the entry's own headword as self. Unit tests added. The 28 wrong suffix-twin links in 直す, 終わる, 続ける, 始める were removed. What remains is the `review_links.py --apply-decisions` retarget problem in item 152.
+
+#### Original text (152). The linker ignores unlink decisions for kana surfaces too (queue: `auto-link-kanji-surface-ledger`)
+Seven reports in a week: inflected kana verbs (06611 した), particles (26609 も, 07973 がんも), digit
+readings (01011 に), より in 〜により (31874), and a loanword inside a katakana compound (10481 グラス).
+`review_links.py --apply-decisions` also turns a one-occurrence `retarget` into an entry-wide unlink
+(01799, 19871). This is now the most-reported linker defect; it needs one test per shape.

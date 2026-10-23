@@ -135,13 +135,13 @@ class TestLedgerLogic(unittest.TestCase):
 
 
 class TestRetarget(unittest.TestCase):
-    def test_retarget_rewrites_the_link_and_counts_as_unlink_plus_keep(self):
+    def test_retarget_rewrites_the_link_and_counts_as_retarget_plus_keep(self):
         text = "⟦いけません→いける：06957_ikeru⟧。"
         new, n = rl.strip_link(text, "いけません", "いける", "06957_ikeru", "", "いけない", "02335_ikenai")
         self.assertEqual((new, n), ("⟦いけません→いけない：02335_ikenai⟧。", 1))
         idx = clh.decision_index([{"entry": "01227", "base": "いける", "target": "06957_ikeru",
                                    "decision": "retarget", "new_base": "いけない", "new_target": "02335_ikenai"}])
-        self.assertEqual(idx[("01227", "いける", "06957_ikeru")], {"unlink"})
+        self.assertEqual(idx[("01227", "いける", "06957_ikeru")], {"retarget"})
         self.assertEqual(idx[("01227", "いけない", "02335_ikenai")], {"keep"})
 
 
@@ -193,6 +193,36 @@ class TestFixer(unittest.TestCase):
                           "--decisions", str(ledger), "--data", str(root / "none.json")])
             self.assertEqual(rc, 0)
             self.assertEqual(json.loads(path.read_text(encoding="utf-8"))["notes"], saved["notes"])
+
+
+class TestRetargetStaysOneOccurrence(unittest.TestCase):
+    def test_retarget_leaves_other_links_to_the_old_base(self):
+        entry = {"id": "01799_ichiji", "headword": "{一時|いちじ}", "reading": "いちじ",
+                 "notes": "{措置|そち}⟦です→だ：09496_da⟧。\n{有名|ゆうめい}⟦だった→だ：09496_da⟧。",
+                 "examples": []}
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "01500").mkdir()
+            path = root / "01500" / "01799_ichiji.json"
+            path.write_text(json.dumps(entry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            (root / "09000").mkdir()
+            for eid in ("09485_desu", "09496_da"):
+                (root / "09000" / f"{eid}.json").write_text("{}", encoding="utf-8")
+            ledger = root / "ledger.jsonl"
+            ledger.write_text(json.dumps({"entry": "01799", "field": "notes", "surface": "です", "base": "だ",
+                                          "target": "09496_da", "context": "措置【です】。",
+                                          "decision": "retarget", "new_base": "です",
+                                          "new_target": "09485_desu"}, ensure_ascii=False) + "\n",
+                              encoding="utf-8")
+            rc = rl.main(["--apply-decisions", "--no-relink", "--entries-dir", str(root),
+                          "--decisions", str(ledger), "--data", str(root / "none.json")])
+            self.assertEqual(rc, 0)
+            notes = json.loads(path.read_text(encoding="utf-8"))["notes"]
+            self.assertIn("⟦です→です：09485_desu⟧", notes)
+            self.assertIn("⟦だった→だ：09496_da⟧", notes)     # not stripped as a stray
+            decisions = clh.load_decisions(ledger)
+            self.assertNotIn("unlink", clh.decision_index(decisions)[("01799", "だ", "09496_da")])
+            self.assertEqual(rl.al.load_unlink_decisions(ledger), {})
 
 
 class TestResponseParsing(unittest.TestCase):
