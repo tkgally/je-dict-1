@@ -108,3 +108,7 @@ the digit readings and the sample; see pipeline/openrouter-ledger.json.
   teaches 降ろす for withdrawing money (下ろす); logged as an observation with the fix for polish.
 - Audio: 2,629 examples now wait to be recorded; the selector doubles audio (large backlog), so
   about four audio cycles at $2 each.
+
+## 中火
+
+Tom ruled: 中火 is ちゅうび, なかび a variant. 08169 中火 (ちゅうび) already existed, so instead of a rename (which would have duplicated it) 17946 中火 (なかび) was retired into 08169 (`retire_entry.py retire --duplicate`; the old URL redirects). 08169 now notes なかび as a less common reading and took 17946's example 中火にして5分煮る. Self-check on 08169: clean.
