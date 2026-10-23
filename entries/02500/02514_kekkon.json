@@ -2,7 +2,7 @@
   "id": "02514_kekkon",
   "headword": "{結婚|けっこん}",
   "reading": "けっこん",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "marriage",
   "definitions": [
     {
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{結婚|けっこん} functions as both a noun (marriage) and a ⟦する→する：00392_suru⟧ verb ({結婚|けっこん}⟦する→する：00392_suru⟧ = to marry/get married). The particle ⟦と→と：00512_to⟧ marks the person one marries: 〜⟦と→と：00512_to⟧{結婚|けっこん}⟦する→する：00392_suru⟧.\n\nCOMPOUNDS:\n- {結婚|けっこん}⟦{式|しき}→〜式：02000_shiki⟧: wedding ceremony\n- {結婚|けっこん}⟦{記念日|きねんび}→記念日：05585_kinenbi⟧: wedding anniversary\n- {結婚|けっこん}⟦{相手|あいて}→相手：01677_aite⟧: marriage partner\n- {結婚|けっこん}⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧: wedding ring\n- {結婚|けっこん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: married life\n- {結婚|けっこん}⟦{届|とどけ}→届け：07558_todoke⟧: marriage registration form\n\nKEIGO:\nご{結婚|けっこん} is the polite form used for congratulations and formal references: ご{結婚|けっこん}⟦おめでとうございます→おめでとう：01043_omedetou⟧ (Congratulations on your marriage).\n\nSIMILAR WORDS:\n- ⟦{離婚|りこん}→離婚：02530_rikon⟧: divorce (antonym)\n- ⟦{婚約|こんやく}→婚約：02810_konyaku⟧: engagement (preceding step)",
+  "notes": "{結婚|けっこん} functions as both a noun (marriage) and a ⟦する→する：00392_suru⟧ verb ({結婚|けっこん}⟦する→する：00392_suru⟧ = to marry/get married). The particle ⟦と→と：00512_to⟧ marks the person one marries: 〜⟦と→と：00512_to⟧{結婚|けっこん}⟦する→する：00392_suru⟧.\n\nCOMPOUNDS:\n- {結婚|けっこん}⟦{式|しき}→〜式：02000_shiki⟧: wedding ceremony\n- {結婚|けっこん}⟦{記念日|きねんび}→記念日：05585_kinenbi⟧: wedding anniversary\n- {結婚|けっこん}⟦{相手|あいて}→相手：01677_aite⟧: marriage partner\n- {結婚|けっこん}⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧: wedding ring\n- {結婚|けっこん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: married life\n- {結婚|けっこん}⟦{届|とどけ}→届け：07558_todoke⟧: marriage registration form\n\nKEIGO:\nご{結婚|けっこん} is the polite form used for congratulations and formal references: ご{結婚|けっこん}⟦おめでとうございます→おめでとう：01043_omedetou⟧ (Congratulations on your marriage).\n\nSIMILAR WORDS:\n- ⟦{離婚|りこん}→離婚：02530_rikon⟧: divorce (antonym)\n- ⟦{婚約|こんやく}→婚約：02810_konyaku⟧: engagement (preceding step)\n\nWATCH OUT:\n- {結婚|けっこん}⟦している→する：00392_suru⟧ means \"is married\" (a state), not \"is getting married\": ⟦{姉|あね}→姉：00571_ane⟧⟦は→は：00079_ha⟧{結婚|けっこん}⟦している→する：00392_suru⟧ (my sister is married).\n- The partner takes ⟦と→と：00512_to⟧, not ⟦を→を：00422_wo⟧: ⟦{田中|たなか}→田中：09528_tanaka⟧さん⟦と→と：00512_to⟧{結婚|けっこん}⟦する→する：00392_suru⟧.",
   "cross_references": [
     {
       "type": "antonym",
@@ -138,18 +138,111 @@
   ],
   "metadata": {
     "created": "2026-01-11T12:52:53Z",
-    "modified": "2026-10-04T19:53:07Z",
+    "modified": "2026-10-23T15:41:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "family"
-      ]
+      ],
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{結婚|けっこん}する",
+        "negative": "{結婚|けっこん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{結婚|けっこん}します",
+        "negative": "{結婚|けっこん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{結婚|けっこん}した",
+        "negative": "{結婚|けっこん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{結婚|けっこん}しました",
+        "negative": "{結婚|けっこん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{結婚|けっこん}して",
+        "negative": "{結婚|けっこん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{結婚|けっこん}している",
+        "negative": "{結婚|けっこん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{結婚|けっこん}しています",
+        "negative": "{結婚|けっこん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{結婚|けっこん}していた",
+        "negative": "{結婚|けっこん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{結婚|けっこん}していました",
+        "negative": "{結婚|けっこん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{結婚|けっこん}すれば",
+        "negative": "{結婚|けっこん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{結婚|けっこん}したら",
+        "negative": "{結婚|けっこん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{結婚|けっこん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{結婚|けっこん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{結婚|けっこん}できる",
+        "negative": "{結婚|けっこん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{結婚|けっこん}される",
+        "negative": "{結婚|けっこん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{結婚|けっこん}させる",
+        "negative": "{結婚|けっこん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{結婚|けっこん}しろ",
+        "negative": "{結婚|けっこん}するな"
+      }
+    ]
   }
 }

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: {入|にゅう} (enter) + ⟦{社|しゃ}→社：04660_sha⟧ (company)\n\nCOMMON EXPRESSIONS:\n- {入社|にゅうしゃ}⟦する→する：00392_suru⟧ (to join a company)\n- {入社|にゅうしゃ}⟦{式|しき}→式：02000_shiki⟧ (company entrance ceremony)\n- {入社|にゅうしゃ}⟦{試験|しけん}→試験：01422_shiken⟧ (company entrance exam)\n- {入社|にゅうしゃ}⟦{面接|めんせつ}→面接：01100_mensetsu⟧ (job interview)\n- ⟦{新入社員|しんにゅうしゃいん}→新入社員：15536_shinnyuushain⟧ (new employee)\n\nANTONYM: ⟦{退社|たいしゃ}→退社：06156_taisha⟧ (leaving a company, resignation)\n\nIn Japan, most new graduates join companies in April, and {入社|にゅうしゃ}⟦{式|しき}→式：02000_shiki⟧ (entrance ceremonies) are a significant corporate event.",
+  "notes": "{入|にゅう} (enter) + ⟦{社|しゃ}→〜社：04660_sha⟧ (company). The verb is {入社|にゅうしゃ}⟦する→する：00392_suru⟧; the company takes ⟦に→に：00314_ni⟧: ⟦{商社|しょうしゃ}→商社：18484_shousha⟧⟦に→に：00314_ni⟧{入社|にゅうしゃ}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {入社|にゅうしゃ}{式|しき}: welcoming ceremony for new employees\n- {入社|にゅうしゃ}⟦{試験|しけん}→試験：01422_shiken⟧: company entrance exam\n- ⟦{新入社員|しんにゅうしゃいん}→新入社員：15536_shinnyuushain⟧: new employee\n- {入社|にゅうしゃ}{三年目|さんねんめ}: one's third year with the company\n\nCULTURAL NOTE:\nMost new graduates in Japan join their companies together on April 1, and {入社|にゅうしゃ}{式|しき} is a major event of the corporate year.\n\nSIMILAR WORDS:\n- ⟦{退社|たいしゃ}→退社：06156_taisha⟧: leaving a company; also, leaving the office at the end of the day\n- ⟦{就職|しゅうしょく}→就職：03209_shuushoku⟧: finding employment, getting a job in general",
   "cross_references": [
     {
       "type": "antonym",
@@ -91,11 +91,18 @@
       "reading": "にゅうがく",
       "headword": "{入学|にゅうがく}",
       "label": "enrollment, entry to school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03209_shuushoku",
+      "reading": "しゅうしょく",
+      "headword": "{就職|しゅうしょく}",
+      "label": "finding employment, getting a job…"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:31:54Z",
-    "modified": "2026-10-03T19:17:33Z",
+    "modified": "2026-10-23T15:41:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -105,8 +112,17 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "work",
+        "business"
       ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "25409_nyuushasuru",
+      "reading": "にゅうしゃする",
+      "headword": "{入社|にゅうしゃ}する",
+      "note": "verb form"
+    }
+  ]
 }
