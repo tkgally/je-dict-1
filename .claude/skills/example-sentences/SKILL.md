@@ -234,6 +234,12 @@ Pattern: `{entry_id}_ex{N}`
    as one action), {寒|さむ}くなってくる, {食|た}べてみる, {買|か}っておく. Kanji only when the verb
    keeps its own meaning as a main verb: {駅|えき}まで{走|はし}って{行|い}った (ran to the station,
    going there), {見|み}に{来|く}る.
+11. **Numbers before counters in kanji** (ruling 2026-10-23): the furigana gives the sound change
+   the counter causes. 十 before a k-, s-, t- or p- counter is じゅっ, in 二十, 五十 … too:
+   {十|じゅっ}キロ, {五十|ごじゅっ}{歳|さい}, {四十|よんじゅっ}ページ. 一 there is いっ:
+   {一|いっ}{回|かい}, {一|いっ}{週間|しゅうかん}, {二十一|にじゅういっ}{世紀|せいき}, but
+   {一|いち}{枚|まい}. Dates take their own readings: {十四日|じゅうよっか}. The audio checks hear
+   じゅうキロ, いちかい as errors.
 
 ---
 
