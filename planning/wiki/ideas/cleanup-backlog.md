@@ -3563,6 +3563,16 @@ Progress 2026-10-23 (routine #012): the top 45 triaged. 19 examples in 17 entrie
 `tts-error`, 6 `ambiguous`; 663 open. The number readings were the commonest real error (十キロ
 with じゅう, 毎月一回 with いち); the rule is now item 11 in the `example-sentences` skill.
 
+Progress 2026-10-24 (routine 2026-10-24_004): the next 45 triaged. 7 examples in 7 entries fixed,
+26 marked `tts-error`, 8 `ambiguous`, 1 to the curator; 643 open. Three of the fixes were not in
+the entries at all but in `audio/digit_readings.json`: the model-written readings spell 50% and
+60キロ as ごじゅうぱーせんと and ろくじゅうきろ, against the skill's じゅっ rule, so every digit
+example with a p/k/s/t counter will reach this queue until the readings are regenerated under the
+rule (the old reading is kept in `alt_kana`). The TTS slips in this batch clustered on rare
+kanji readings (淑やか heard おだやか, 我田引水 がてん, 霜害 しょうがい, 平生 へいじょう, 表裏
+おもてうら, 裏面 うらめん, 他人事 たにんごと three times) and on a final small っ, which the
+checkers cannot hear (やばっ ×5, くそっ).
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns
