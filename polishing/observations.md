@@ -1681,3 +1681,9 @@ such example fails its check and lands in `audio/needs_human.jsonl`. Three were 
 hand in the 2026-10-24 systemic-fix cycle, but the whole file should be swept: either regenerate
 the readings with the rule in the prompt, or post-process them (a deterministic じゅう→じゅっ /
 いち→いっ pass before a counter in katakana or kanji), keeping the old form in `alt_kana`.
+
+## 2026-10-24 audio run: examples held for a human
+- 2026-10-24 [entry] 07823: audio checks heard かく for {描|えが}く in 07823_sukeeru_ex6 (15 votes); 絵を描く is said えをかく. Same error as 12174_tenshi_ex1, fixed this run — check the other 描く examples.
+- 2026-10-24 [entry] 06176: audio checks heard ほしてき for {保守的|ほしゅてき} in 06176_hoshuteki_ex3 (12 votes); likely a TTS slip, but worth a look at the furigana.
+- 2026-10-24 [entry] 06297: audio checks heard はつねつ where the phonetic reading says わつねつ in 06297_hatsunetsu_ex3; the は of 発熱 is being treated as the particle は.
+- 2026-10-24 [tooling] Six of the thirteen examples held this run (05331, 05443, 05475, 05480, 08082, 08381) are the じゅう/じゅっ digit-reading class described in the 2026-10-24 systemic-fix observation above. Sweeping audio/digit_readings.json would clear them.
