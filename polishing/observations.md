@@ -1672,3 +1672,12 @@ a confusing gate failure. Fix: have the run-start step install both files (or ad
 `requests` to `build/requirements.txt`). Note that `pip install -r build/requirements-audio.txt`
 as a whole fails in this container (`unidic-lite` has no wheel and cannot build), so
 installing `requests` alone is the working remedy.
+
+## 2026-10-24 [tooling] digit readings spell じゅう where the skill rules じゅっ
+The model-written readings in `audio/digit_readings.json` give 50% as ごじゅうぱーせんと,
+60キロ as ろくじゅうきろ, 20ページ as にじゅうぺーじ. The example-sentences skill (item 11,
+2026-10-23) rules that 十 before a k/s/t/p counter is じゅっ, and the TTS says じゅっ, so every
+such example fails its check and lands in `audio/needs_human.jsonl`. Three were corrected by
+hand in the 2026-10-24 systemic-fix cycle, but the whole file should be swept: either regenerate
+the readings with the rule in the prompt, or post-process them (a deterministic じゅう→じゅっ /
+いち→いっ pass before a counter in katakana or kanji), keeping the old form in `alt_kana`.

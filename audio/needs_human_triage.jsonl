@@ -24,3 +24,37 @@
 {"ex": "02013_egaku_ex4", "h": "c6917294488d1bf7", "verdict": "ambiguous", "note": "絵を描く えがく/かく both standard", "ts": "2026-10-23T15:59:12Z"}
 {"ex": "03710_hitoshii_ex2", "h": "16a5416b76d7df51", "verdict": "ambiguous", "note": "三角形 さんかくけい/さんかっけい both used", "ts": "2026-10-23T15:59:14Z"}
 {"ex": "05308_mendokusai_ex1", "h": "229a9229bd1a22e3", "verdict": "ambiguous", "note": "めんどうくさい/めんどくさい both used", "ts": "2026-10-23T15:59:16Z"}
+{"ex": "04024_gou_ex3", "h": "2d79c72e3abbb9fc", "verdict": "tts-error", "note": "TTS adds 室: reads 5号 as ごごうしつ", "ts": "2026-10-24T01:18:39Z"}
+{"ex": "05737_shitoyaka_ex3", "h": "089ed2d307b7bb65", "verdict": "tts-error", "note": "TTS reads 淑やか as おだやか", "ts": "2026-10-24T01:18:42Z"}
+{"ex": "06220_gadeninsui_ex1", "h": "d69c3f4e16621387", "verdict": "tts-error", "note": "TTS reads 我田引水 as がてんいんすい", "ts": "2026-10-24T01:18:45Z"}
+{"ex": "08121_taikakusen_ex3", "h": "909115bee501a1c5", "verdict": "tts-error", "note": "TTS reads 六角形 as ろっかっけい", "ts": "2026-10-24T01:18:48Z"}
+{"ex": "08806_ufufu_ex1", "h": "0ada44c1dd7b1b15", "verdict": "tts-error", "note": "checkers returned letter noise, not a reading", "ts": "2026-10-24T01:18:51Z"}
+{"ex": "09364_suneru_ex4", "h": "ec138a8fa13cfc0b", "verdict": "tts-error", "note": "TTS drops the す of すねている", "ts": "2026-10-24T01:18:54Z"}
+{"ex": "09570_hitogoto_ex1", "h": "677ccca80740448b", "verdict": "tts-error", "note": "TTS reads 他人事 as たにんごと", "ts": "2026-10-24T01:18:57Z"}
+{"ex": "09570_hitogoto_ex2", "h": "08cbf801934dd02c", "verdict": "tts-error", "note": "TTS reads 他人事 as たにんごと", "ts": "2026-10-24T01:19:00Z"}
+{"ex": "19093_wagami_ex3", "h": "64b892cb5791a1ac", "verdict": "tts-error", "note": "TTS reads 他人事 as たにんごと", "ts": "2026-10-24T01:19:03Z"}
+{"ex": "09992_arasoi_ex2", "h": "581f9795e4348260", "verdict": "tts-error", "note": "TTS replaces 隣人 with となり/のひと", "ts": "2026-10-24T01:19:06Z"}
+{"ex": "10589_nagedasu_ex2", "h": "dec3479ccd92800f", "verdict": "tts-error", "note": "TTS adds a syllable; text and furigana right", "ts": "2026-10-24T01:19:09Z"}
+{"ex": "10780_yaba_ex1", "h": "f647c1929eeb8820", "verdict": "tts-error", "note": "final glottal stop of やばっ inaudible", "ts": "2026-10-24T01:19:12Z"}
+{"ex": "10780_yaba_ex2", "h": "a246d310db90e18c", "verdict": "tts-error", "note": "final glottal stop of やばっ inaudible", "ts": "2026-10-24T01:19:15Z"}
+{"ex": "10780_yaba_ex3", "h": "eaf8689bcfc41d24", "verdict": "tts-error", "note": "final glottal stop of やばっ inaudible", "ts": "2026-10-24T01:19:18Z"}
+{"ex": "10780_yaba_ex4", "h": "90a32f1c7bc933a9", "verdict": "tts-error", "note": "final glottal stop of やばっ inaudible", "ts": "2026-10-24T01:19:20Z"}
+{"ex": "10780_yaba_ex5", "h": "b6dc40077f87ac4c", "verdict": "tts-error", "note": "final glottal stop of やばっ inaudible", "ts": "2026-10-24T01:19:24Z"}
+{"ex": "10783_kuso_ex2", "h": "5216988f71c0d477", "verdict": "tts-error", "note": "final glottal stop of くそっ inaudible", "ts": "2026-10-24T01:19:26Z"}
+{"ex": "12426_sutareru_ex2", "h": "73f6aaa44e03e3e5", "verdict": "tts-error", "note": "TTS inserts は after かつて", "ts": "2026-10-24T01:19:30Z"}
+{"ex": "14978_hyouri_ex2", "h": "28db8217051e01a7", "verdict": "tts-error", "note": "TTS reads 表裏 as おもてうら", "ts": "2026-10-24T01:19:32Z"}
+{"ex": "15558_joushahissui_ex2", "h": "9c2f3cc84e60e958", "verdict": "tts-error", "note": "TTS reads 盛者 as しょうしゃ", "ts": "2026-10-24T01:19:36Z"}
+{"ex": "18245_rimen_ex1", "h": "19391c6af68f3a14", "verdict": "tts-error", "note": "TTS reads 裏面 as うらめん", "ts": "2026-10-24T01:19:38Z"}
+{"ex": "18245_rimen_ex2", "h": "f1a2b17a18834cfd", "verdict": "tts-error", "note": "TTS reads 裏面 as うらめん", "ts": "2026-10-24T01:19:42Z"}
+{"ex": "18361_pai_ex2", "h": "84eaac4de8c9a762", "verdict": "tts-error", "note": "TTS reads 牌 as はい", "ts": "2026-10-24T01:19:45Z"}
+{"ex": "18506_shissaku_ex4", "h": "e0741845efebf189", "verdict": "tts-error", "note": "TTS inserts は before 入った", "ts": "2026-10-24T01:19:48Z"}
+{"ex": "19178_sougai_ex1", "h": "514f99f368f58a7d", "verdict": "tts-error", "note": "TTS reads 霜害 as しょうがい", "ts": "2026-10-24T01:19:51Z"}
+{"ex": "19270_heizei_ex2", "h": "d75c66498adf1ee1", "verdict": "tts-error", "note": "TTS reads 平生 as へいじょう", "ts": "2026-10-24T01:19:54Z"}
+{"ex": "08345_tsukurioki_ex3", "h": "e42f87bf1166907a", "verdict": "ambiguous", "note": "レシピ本: ほん and ぼん both heard", "ts": "2026-10-24T01:19:57Z"}
+{"ex": "08527_omoikiri_ex4", "h": "341292b91eca8107", "verdict": "ambiguous", "note": "思い切り also said おもいっきり", "ts": "2026-10-24T01:20:00Z"}
+{"ex": "11259_merodi_ex1", "h": "ad8d64e8c215e1d2", "verdict": "ambiguous", "note": "メロディ also said メロディー", "ts": "2026-10-24T01:20:03Z"}
+{"ex": "11259_merodi_ex2", "h": "f9ba4a7b15780c52", "verdict": "ambiguous", "note": "メロディ also said メロディー", "ts": "2026-10-24T01:20:06Z"}
+{"ex": "17023_hasshamerodi_ex3", "h": "726ad7e686f607f8", "verdict": "ambiguous", "note": "メロディ also said メロディー", "ts": "2026-10-24T01:20:09Z"}
+{"ex": "13636_fakusu_ex2", "h": "9ae0da019ebc89b4", "verdict": "ambiguous", "note": "ファクス also said ファックス", "ts": "2026-10-24T01:20:12Z"}
+{"ex": "18585_kakkouii_ex2", "h": "2e1dd09623a69718", "verdict": "ambiguous", "note": "格好いい said かっこいい in speech", "ts": "2026-10-24T01:20:15Z"}
+{"ex": "18585_kakkouii_ex3", "h": "fa2c58bae98bf0de", "verdict": "ambiguous", "note": "格好いい said かっこいい in speech", "ts": "2026-10-24T01:20:18Z"}
