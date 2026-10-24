@@ -50,6 +50,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-24 (Routine v3: candidates — 37 words queued, C24709–C24745)
+
+Internal closure found nothing this time: `check_stale_noentry.py` reports no unresolved
+missing-word markers left. The brainstorm seeds lens (basic-tier headwords 見る through 時間)
+is close to saturation: of 169 proposals from me and two independent models, 153 were already
+entries. The seven survivors are 判明する, 周知, 分かり合う, 存じ上げる, それどころか and the
+patterns を通して and をはじめ. The field lens (animal-fish, 37 members) was more productive —
+30 words, mostly fish a learner meets on a menu or in a classroom (アジ, ブリ, ハマチ, カレイ,
+タラ, フグ, ニシン, シシャモ, アナゴ, ホッケ, カンパチ, スズキ, サワラ, メダカ, ドジョウ,
+ナマズ, ニジマス, トビウオ, エイ, タツノオトシゴ, シラス, トロ) plus 海水魚, 川魚, 赤身魚,
+小骨, 三枚おろし, 魚群, 胸びれ, 浮き袋. Twenty-five proposals were rejected as species beyond
+the familiar ones or as trade terms. Queue 95 → 132.
+
 ### 2026-10-23 (Routine v3: new-entries — 10 New Entries, IDs 32230–32239)
 
 Five internal-closure candidates (突っ立つ, 粘り, 勤労感謝の日, 酔い止め, 手繰り寄せる) and five brainstorm candidates, each cross-referenced to its seed (ばつが悪い and 二重丸 → ×/バツ, 菓子折り → 菓子, 価格帯 → 価格, だとしても → だけど). A short cycle at the end of a run. Self-check: one translation fixed; two wrong links to として removed from だとしても's notes. Queue 105 → 95.
@@ -65,7 +78,3 @@ Tom approved every recommendation in `enhancement/assessment-2026-10-23.md`. The
 ### 2026-10-23 (Routine v3: candidates — 60 words queued, C24610–C24669)
 
 Restocked the candidate queue with 60 words the dictionary already uses in example sentences but does not define, each noted with the entry it was seen in. They came from a fresh SudachiPy scan of unlinked example text, read by hand: everyday words (前歯, 春先, 長旅, 体操服, 酔い止め, 立ち仕事, 新生児), verbs (生え変わる, 見計らう, 追いやる, 負け越す, 勝ち上がる, 垣間見える), set phrases and idioms (我を張る, 難攻不落, 異国情緒, 粒揃い), and Labor Thanksgiving Day (勤労感謝の日). Most scan hits were other spellings of existing entries (子ども, 気づく, 怪我, 可愛い …) that the linker does not link; that is logged as a tooling observation. Queue 32 → 92.
-
-### 2026-10-22 (Routine v3: new-entries — 20 New Entries, IDs 32185–32204)
-
-All twenty are internal-closure candidates: 一理, 便宜上, 隊員 (vs 退院), 参上, 貫徹, 発現 (vs 発言), 選り好み, 低価格, 一塁, 内覧会, 離職率, 浄水場, 縦走, 成形 (vs 整形), 管弦楽, 四重奏, 弦楽四重奏, 素因数分解, 略字, 戯画. 参上, 貫徹, 発現 and 選り好み already had separate する-verb entries; each pair now cross-references the other. Self-check: one flag on a neighbour, rejected. 32 candidates remain, 11 of them internal-closure.
