@@ -3573,6 +3573,16 @@ kanji readings (淑やか heard おだやか, 我田引水 がてん, 霜害 し
 おもてうら, 裏面 うらめん, 他人事 たにんごと three times) and on a final small っ, which the
 checkers cannot hear (やばっ ×5, くそっ).
 
+Progress 2026-10-24 (routine 2026-10-24_010): the next 60 triaged. 21 examples fixed in the
+entries, 31 `tts-error`, 7 `ambiguous`; 598 open. Eleven were again counter readings written
+with じゅう or じっ (五十パーセント, 数十軒, 二十世紀 にじっ, 九十歳 きゅうじっ, 二十本 ほん); 一割
+was written いっ. A new class surfaced through お願いします heard with an お the furigana lacked:
+`{お願|ねが}い` puts the お inside the ruby base while the reading omits it, so the expected
+reading drops it. A whole-dictionary scan found 27 such spans in 32 entries ({お金|かね},
+{お腹|なか}, {長押|なが}し, {やり切|き}る, {っ子|こ} …); all were rewritten with the kana outside
+the ruby (お{願|ねが}い), and the scan now finds none. Also: 常住 had two examples that meant 常駐
+(警備員が常住している), replaced.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns
