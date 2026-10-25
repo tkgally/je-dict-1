@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23088_tenanto_ex1",
-      "japanese": "⟦この→この：00962_kono⟧⟦ビル→ビル：01500_biru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧テナント⟦が→が：00051_ga⟧⟦{十|じゅう}→十：00708_juu⟧⟦{店舗|てんぽ}→店舗：12481_tenpo⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ビル→ビル：01500_biru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧テナント⟦が→が：00051_ga⟧⟦{十|じゅっ}→十：00708_juu⟧⟦{店舗|てんぽ}→店舗：12481_tenpo⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "This building has ten tenant shops.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "From English 'tenant,' but in Japanese the word primarily refers to commercial tenants — shops and businesses that rent space in a larger building. Residential renters are typically called {借|か}り{主|ぬし} or ⟦{入居者|にゅうきょしゃ}→入居者：20979_nyuukyosha⟧, not テナント.\n\nCOMMON COLLOCATIONS:\n- テナント⟦{募集|ぼしゅう}→募集：03035_boshuu⟧: tenant wanted; space for rent\n- テナント⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧: a tenant moves in\n- テナント⟦が→が：00051_ga⟧⟦{撤退|てったい}する→撤退する：25360_tettaisuru⟧: a tenant moves out\n- テナント⟦{料|りょう}→料：28172_ryou⟧: tenant fee; rent\n- テナントビル: tenant building (multi-tenant commercial building)\n\nSIMILAR WORDS:\n- {借|か}り{主|ぬし}: renter; lessee — used for residential renters\n- ⟦{入居者|にゅうきょしゃ}→入居者：20979_nyuukyosha⟧: occupant; resident — broader term for anyone occupying a space\n- {店子|たなこ}: tenant (traditional) — older Japanese word for a renter, now less common",
+  "notes": "From English 'tenant,' but in Japanese the word primarily refers to commercial tenants — shops and businesses that rent space in a larger building. Residential renters are typically called {借|か}り{主|ぬし} or ⟦{入居者|にゅうきょしゃ}→入居者：20979_nyuukyosha⟧, not テナント.\n\nCOMMON COLLOCATIONS:\n- テナント⟦{募集|ぼしゅう}→募集：03035_boshuu⟧: tenant wanted; space for rent\n- テナント⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧: a tenant moves in\n- テナント⟦が→が：00051_ga⟧⟦{撤退|てったい}する→撤退する：25360_tettaisuru⟧: a tenant moves out\n- テナント⟦{料|りょう}→料：28172_ryou⟧: tenant fee; rent\n- テナントビル: tenant building (multi-tenant commercial building)\n\nSIMILAR WORDS:\n- {借|か}り{主|ぬし}: renter; lessee — used for residential renters\n- ⟦{入居者|にゅうきょしゃ}→入居者：20979_nyuukyosha⟧: occupant; resident — broader term for anyone occupying a space\n- ⟦{店子|たなこ}→店子：31392_tanako⟧: tenant (traditional) — older Japanese word for a renter, now less common",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -53,6 +53,13 @@
       "reading": "にゅうきょしゃ",
       "headword": "{入居者|にゅうきょしゃ}",
       "label": "occupant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "31392_tanako",
+      "reading": "たなこ",
+      "headword": "{店子|たなこ}",
+      "label": "tenant"
     }
   ],
   "metadata": {
@@ -68,6 +75,6 @@
       ]
     },
     "created": "2026-04-08T18:31:16Z",
-    "modified": "2026-09-02T04:02:10Z"
+    "modified": "2026-10-25T00:28:17Z"
   }
 }

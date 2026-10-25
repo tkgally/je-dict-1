@@ -611,3 +611,8 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   digits were converted to half-width (house style; validation now rejects full-width digits and
   letters), so their readings were written for the new text. No change to models, prompt or
   acceptance rule.
+- 2026-10-25: a needs-human hold now ends when the example's digit reading was written on a
+  later day than the hold (`audio_pipeline.still_held()`, used by `classify()` and
+  `audio_needs_human_triage.py`); before, a corrected reading never reached the recorder. 86
+  readings with じゅう before a p/k/s/t counter moved to じゅっ (example-sentences rule 11), the
+  old reading kept in `alt_kana`. No change to models, prompt or acceptance rule.
