@@ -50,6 +50,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-25 (Routine v3: candidates — 48 words queued, C24751–C24798)
+
+Two streams. Internal closure was thin: no unresolved missing-word markers remain, and a scan of
+example sentences found almost only other spellings of existing entries; two words added
+(否応なしに, 芳名). Brainstorming, two batches: the seeds 待つ … 思う (basic tier) gave 24 words,
+mostly established compounds and set phrases (待ちぼうけ, 待ったなし, お待ちかね, 忘れっぽい, 人出,
+仕事始め, 聞き捨てならない, 習うより慣れよ) and the grammar items までに, までもない and ても; the field
+animal-general gave 22 (クラゲ, ヒトデ, ナマコ, サソリ, ムカデ, ヤモリ, 肉球, 蹄, 狂犬病, 雑種, 在来種,
+固有種, 血統書 …). Of 268 + 93 proposals, most were already entries; spelling variants and
+technical terms were rejected. Queue 111 → 159.
+
 ### 2026-10-25 (Routine v3: new-entries — 16 New Entries, IDs 32250–32265)
 
 Eight internal-closure candidates: ぬるま{湯|ゆ} (lukewarm water and, figuratively, complacency),
@@ -91,7 +102,3 @@ patterns を通して and をはじめ. The field lens (animal-fish, 37 members)
 ナマズ, ニジマス, トビウオ, エイ, タツノオトシゴ, シラス, トロ) plus 海水魚, 川魚, 赤身魚,
 小骨, 三枚おろし, 魚群, 胸びれ, 浮き袋. Twenty-five proposals were rejected as species beyond
 the familiar ones or as trade terms. Queue 95 → 132.
-
-### 2026-10-23 (Routine v3: new-entries — 10 New Entries, IDs 32230–32239)
-
-Five internal-closure candidates (突っ立つ, 粘り, 勤労感謝の日, 酔い止め, 手繰り寄せる) and five brainstorm candidates, each cross-referenced to its seed (ばつが悪い and 二重丸 → ×/バツ, 菓子折り → 菓子, 価格帯 → 価格, だとしても → だけど). A short cycle at the end of a run. Self-check: one translation fixed; two wrong links to として removed from だとしても's notes. Queue 105 → 95.
