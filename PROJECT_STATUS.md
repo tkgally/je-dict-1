@@ -50,6 +50,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-25 (Tom's rulings on two curator questions)
+
+浅まる (22361) is retired: a few web hits exist, but not enough to make it an established word; its
+URL redirects to 浅い, and the cross-references from 浅い, 深まる and 薄れる are dropped. 茶道具 now
+has only the reading ちゃどうぐ: the entry is renamed 22295_sadougu → 22295_chadougu (the old URL
+redirects; example audio keys follow), and its furigana and notes are updated. In 茶杓, the
+furigana {千|せん}{利休|のりきゅう} is corrected to {千利休|せんのりきゅう}, and an independent check
+corrected the serving measure (thin tea about 1½–2 scoops, thick tea about 3 per guest).
+
 ### 2026-10-25 (Claude Opus accuracy pass over 21514–22473)
 
 Tom asked for Claude Opus to re-review the 960 entries gpt-6.1-sol had swept on 24–25 October.
