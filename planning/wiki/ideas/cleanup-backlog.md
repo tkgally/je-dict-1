@@ -3606,7 +3606,7 @@ fixed from the queue and 22 more by scans for the same errors: counters with じ
 for お話しした, {新|あら}しい for 新しい. 密の会議 and 鬱とした天気 were unidiomatic and were reworded.
 111 marked `tts-error`, 31 `ambiguous` (百キロ ひゃっ/ひゃく ×11, 進学校, 鮭 しゃけ, 四十代 しじゅう,
 農作物 のうさくもつ, 四番 よばん, 型式 かたしき), 2 headword readings to the curator (雄雌 ゆうし,
-濃灰色 のうはいいろ).
+濃灰色 のうはいいろ). A second cycle the same run took the next 60: {明|あき}るみ (for あかるみ) turned up in 6 entries and {分|ぶん}かりやすい in one, both fixed by scan, plus 二百個 にひゃっこ; 50 `tts-error`, 7 `ambiguous`; 合焦 (ごうしょう, standard がっしょう) to the curator; 185 open.
 
 ## Related pages
 
