@@ -50,6 +50,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-25 (Routine v3: new-entries — 16 New Entries, IDs 32250–32265)
+
+Eight internal-closure candidates: ぬるま{湯|ゆ} (lukewarm water and, figuratively, complacency),
+{振|ふ}り{子|こ}, {素養|そよう} (contrasted with {教養|きょうよう} and {素質|そしつ}), {我|が}を{張|は}る
+(with {意地|いじ}を{張|は}る), {脅|おど}し, {警戒心|けいかいしん}, {難攻不落|なんこうふらく} and
+{持|も}ち{越|こ}し (with {繰|く}り{越|こ}し). Eight brainstorm candidates: あり{得|え}る (ありうる /
+ありえる and the negative ありえない), the particles さえ (including 〜さえ〜ば) and すら, the idiom
+{御免|ごめん}{被|こうむ}る, and four birds (キツツキ, カワセミ, カッコウ with {閑古鳥|かんこどり}が{鳴|な}く,
+ヒバリ). Self-check: one fix (Japan's commonest woodpecker is コゲラ). Queue 127 → 111.
+
 ### 2026-10-24 (Routine v3: new-entries — 6 New Entries, IDs 32244–32249)
 
 Another short closing cycle (about half an hour left on the run clock). Three internal-closure
@@ -85,7 +95,3 @@ the familiar ones or as trade terms. Queue 95 → 132.
 ### 2026-10-23 (Routine v3: new-entries — 10 New Entries, IDs 32230–32239)
 
 Five internal-closure candidates (突っ立つ, 粘り, 勤労感謝の日, 酔い止め, 手繰り寄せる) and five brainstorm candidates, each cross-referenced to its seed (ばつが悪い and 二重丸 → ×/バツ, 菓子折り → 菓子, 価格帯 → 価格, だとしても → だけど). A short cycle at the end of a run. Self-check: one translation fixed; two wrong links to として removed from だとしても's notes. Queue 105 → 95.
-
-### 2026-10-23 (Routine v3: new-entries — 25 New Entries, IDs 32205–32229)
-
-Twenty internal-closure candidates (送辞, 立憲君主制, 醸造所, 年俸制, 尺貫法, 濃口醤油, 刀鍛冶, 町奉行, 金目鯛, 芳名帳, 級数, 新生児, 語り明かす, 後ずさり, 憩い, 社交界, 祝い事, 文面, 生え変わる, 見え見え) and the first five brainstorm candidates (菓子パン, ある程度, ごめんください, 数多い, 数少ない), each cross-referenced to its seed entry. The new-entries prompt's filter for brainstorm candidates matched nothing; fixed. The harvester added reciprocal cross-references in 29 existing entries. Self-check: clean. Queue 130 → 105.
