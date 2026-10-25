@@ -9,8 +9,10 @@ the systemic-fix mode (backlog item `audio-needs-human-triage`), not by ear.
 
 Lists the held examples whose text and workflow version still match their
 needs-human record and that have no triage verdict for that text, most
-consistent disagreement first. Fixing the entry changes the example's text, so
-it leaves the queue by itself and the audio mode records it again. When the
+consistent disagreement first. Fixing the entry changes the example's text, and
+correcting an example's digit reading (audio/digit_readings.json, with a new
+`added` date) supersedes the hold, so either way it leaves the queue by itself
+and the audio mode records it again. When the
 entry is right and the recording failed for another reason (the TTS said あさって
 for {明後日|みょうごにち}, or added a particle), record a verdict so the example
 is not listed again until its text changes:
@@ -33,7 +35,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from audio_pipeline import (NEEDS_HUMAN, ROOT, load_config, load_examples,  # noqa: E402
-                            load_jsonl_by_ex, short_hash)
+                            load_jsonl_by_ex, short_hash, still_held)
 
 LEDGER = ROOT / "audio" / "needs_human_triage.jsonl"
 VERDICTS = ("tts-error", "ambiguous")
@@ -68,10 +70,10 @@ def queue(entry=None):
     out = []
     for ex, r in held.items():
         x = examples.get(ex)
-        if not x or r.get("wf") != wf:
+        if not x or not still_held(x, r, wf):
             continue
         h = short_hash(x["raw"])
-        if r.get("h") != h or (ex, h) in decided:
+        if (ex, h) in decided:
             continue
         if entry and not x["entry"].startswith(entry):
             continue

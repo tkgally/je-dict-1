@@ -138,6 +138,17 @@ def active_reading(x, readings):
     return r if r and r.get("h") == short_hash(x["raw"]) else None
 
 
+def still_held(x, nh, wf, readings=None):
+    """True while a needs-human record still holds this example back: same text,
+    same workflow version, and no digit/Latin reading written after the hold (a
+    corrected reading gives the example a fresh recording attempt). Compared by
+    date, so a reading written on the day of the hold does not release it."""
+    if not nh or nh.get("h") != short_hash(x["raw"]) or nh.get("wf") != wf:
+        return False
+    rd = active_reading(x, digit_readings() if readings is None else readings)
+    return not (rd and rd.get("added", "")[:10] > nh.get("at", "")[:10])
+
+
 def spoken_example(x, overrides=None, readings=None):
     """The parsed text the recording is made and checked from: the example
     itself, or its override's `say` (same sentence, the reading spelled out
@@ -280,8 +291,7 @@ def classify(examples, manifest, needs_human, wf, overrides=None):
             x["reason"] = reason
             undetermined.append(x)
             continue
-        nh = needs_human.get(x["ex"])
-        if nh and nh.get("h") == h and nh.get("wf") == wf:
+        if still_held(x, needs_human.get(x["ex"]), wf):
             held.append(x)
             continue
         x["stale"] = bool(m)

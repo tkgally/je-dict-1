@@ -305,6 +305,20 @@ class TestPipelineLogic(unittest.TestCase):
         self.assertEqual(P.entry_range("00499_x_ex1"), "00000")
         self.assertEqual(P.entry_range("31054_y"), "31000")
 
+    def test_still_held_released_by_later_digit_reading(self):
+        x = {"ex": "00001_a_ex1", "raw": "30キロ"}
+        h = P.short_hash(x["raw"])
+        nh = {"h": h, "wf": "v2", "at": "2026-10-23"}
+        self.assertTrue(P.still_held(x, nh, "v2", readings={}))
+        self.assertFalse(P.still_held(x, nh, "v3", readings={}))
+        self.assertFalse(P.still_held(x, {**nh, "h": "other"}, "v2", readings={}))
+        same_day = {x["ex"]: {"h": h, "added": "2026-10-23T20:00:00Z"}}
+        self.assertTrue(P.still_held(x, nh, "v2", readings=same_day))
+        later = {x["ex"]: {"h": h, "added": "2026-10-25T01:00:00Z"}}
+        self.assertFalse(P.still_held(x, nh, "v2", readings=later))
+        old_text = {x["ex"]: {"h": "stale", "added": "2026-10-25T01:00:00Z"}}
+        self.assertTrue(P.still_held(x, nh, "v2", readings=old_text))
+
 
 class TestRegressionSummary(unittest.TestCase):
     def test_summarize(self):

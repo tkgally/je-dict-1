@@ -3583,6 +3583,21 @@ reading drops it. A whole-dictionary scan found 27 such spans in 32 entries ({�
 the ruby (お{願|ねが}い), and the scan now finds none. Also: 常住 had two examples that meant 常駐
 (警備員が常住している), replaced.
 
+Progress 2026-10-25 (routine 2026-10-25_001): a bug, then 130 more triaged. Earlier cycles had
+corrected digit readings in `audio/digit_readings.json`, but those examples never left the hold:
+the pipeline kept an example held while its text was unchanged, whatever its reading said. Now
+`audio_pipeline.still_held()` releases a hold when a reading was written on a later day (both
+the recorder and the triage queue use it). 86 model-written readings with じゅう before a
+p/k/s/t counter (50%, 30キロ, 20センチ, 10周年) were moved to じゅっ, the old reading kept as an
+alternative; 32 of them were held and are now back in the recording queue. Of the 130 triaged,
+26 were fixed in the entries (again mostly counters: 三十センチ, 九百件 ひゃっ, 百分 ひゃっ, 六十歳
+written ろくじっ), 84 marked `tts-error`, 19 `ambiguous`; 448 open. A new class surfaced through
+{泊|とま}まり (heard とまり): okurigana repeated at the end of the ruby reading. A scan found 22
+such spellings in 31 entries ({話|はなし}し, {咳|せき}き, {手持|てもち}ち, {菓子折|かしおり}り,
+{未払|みばらい}い …), all corrected. The entry なのに had three ungrammatical examples
+(約束したなのに), replaced. The TTS slips cluster on ソファ/メロディ/コンピュータ (it lengthens the
+final vowel), on devoiced しゅ (退出, 創出, 排出), and on ヴェ/ヴォ, which the checkers hear as べ/ぼ.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns
