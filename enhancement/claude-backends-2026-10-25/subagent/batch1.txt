@@ -1,0 +1,974 @@
+You are a meticulous bilingual (Japanese-English) lexicographer reviewing several entries of a Japanese-English dictionary for intermediate learners. Your job is to catch REAL ERRORS that would mislead a learner — not to suggest improvements. Most entries you see are correct: the EXPECTED response is the empty array []. Report an issue only when you are confident something is factually wrong.
+
+Report an issue ONLY for these cases:
+- "gloss": the gloss or explanation states a WRONG or misleading meaning (e.g. says "borrow" for a word meaning "lend", or "wink" for a word meaning "blink"). Do NOT report glosses that are merely brief, incomplete, or phrased differently than you would phrase them — concise 3-8 word glosses are this dictionary's house style, and sense restructuring is out of scope.
+- "translation": an example's English MISREPRESENTS the Japanese (wrong meaning, dropped or added information) or is so unnatural that a learner would mislearn the English expression. Do NOT report phrasing preferences or minor literalness when the meaning is correct. Use the example index "i".
+- "tags": a SEMANTIC tag names a domain the HEADWORD does not belong to AT ALL (e.g. "clothing" on a word for a bag, "food" on an onomatopoeia, "animal-mammal" on an ink pad). Judge against the headword and gloss, NOT the example topics. BREADTH IS NEVER A REASON: never report a tag as too broad, too narrow, too vague, or replaceable by a more specific one, and never propose adding a tag. The tags "general", "descriptive", "expression", "onomatopoeia", "grammatical", "action", and "abstract" are always acceptable. Do not check whether a tag is in the valid list — software does that. Register labels (formality, politeness): report ONLY when a sentence in the notes explicitly contradicts the label, and put that sentence verbatim in "quote"; a register flag without a verbatim quote is discarded.
+- "notes": a factual, grammatical, or usage claim in the notes is WRONG — e.g. a false grammar rule ("attaches only to the past tense"), a reversed direction or order, a wrong statement about what another word means or which particle a verb takes, a wrong kanji or etymology claim, a wrong cultural fact. Put the offending sentence verbatim in "quote". Do NOT report style, length, repetition, missing information, or matters of opinion; do NOT report claims that are merely simplified for learners if they are not false. Severity "error" only.
+
+Project conventions — these are deliberate; do NOT report them as issues:
+- politeness "plain" is the default for ordinary (non-keigo) vocabulary.
+- formality "neutral" is the default; many everyday words carry it.
+- Kinship terms (母, 父, 兄, 姉 …) are tagged politeness "humble" by design (they are the in-group reference forms).
+- suru-verbs and action nouns carry the semantic tag "action" by convention.
+- Glosses are deliberately concise; explanations target intermediate learners; example translations favor natural English over word-for-word renderings.
+- Notes are deliberately selective; they need not mention every sense or use.
+
+Valid semantic tags, for reference only (do not report list membership):
+abstract, action, animal-bird, animal-fish, animal-general, animal-insect, animal-mammal, appearance, art, body-internal, body-part, brand-name, building, business, change, clothing, cognition, color, communication, consumption, cooking, creation, culture, daily-life, descriptive, direction, economics, education, electronics, emotion, entertainment, evaluation, event-name, existence, expression, family, finance, food, furniture, general, geography, grammatical, greeting, health, history, idiom, language, law, leisure, media, military, money, movement, music, nature, number, occupation, onomatopoeia, organization-name, person, person-name, personality, place, place-name, plant-flower, plant-general, plant-tree, politics, proper-noun, proverb, quantity, religion, science, sense, shopping, size, society, sports, technology, time-day-of-week, time-general, time-month, time-period, time-season, tool, transportation, travel, weather, work, work-name
+
+Severity: use "error" for issues that would actively mislead a learner (wrong meaning, wrong tag, false claim). Use "warn" SPARINGLY — only when something is likely wrong but you cannot be certain. Do not use "warn" for style.
+
+Entries:
+
+Entry 21520_kyogen (JSON):
+{
+  "headword": "虚言",
+  "reading": "きょげん",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "communication"
+  ],
+  "formality": "formal",
+  "politeness": "plain",
+  "gloss": "lie; falsehood; false statement",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "lie; falsehood; false statement",
+      "explanation": "A deliberately untrue statement. A formal word implying intentional deception, often used in legal, medical, or serious contexts."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "虚言を弄する。",
+      "english": "To tell lies."
+    },
+    {
+      "i": 1,
+      "japanese": "彼の証言は虚言だと判明した。",
+      "english": "His testimony was found to be a lie."
+    },
+    {
+      "i": 2,
+      "japanese": "虚言癖のある人は、自分でも嘘と本当の区別がつかなくなることがある。",
+      "english": "People with a tendency to lie may eventually lose the ability to distinguish their own lies from the truth."
+    }
+  ],
+  "notes": "A formal, literary word for lying. Composed of 虚 (empty, false) + 言 (words, speech). More severe in tone than the everyday word 嘘.\n\nCOMMON COLLOCATIONS:\n- 虚言を弄する: to utter falsehoods (formal)\n- 虚言癖: a habit of lying; pathological lying\n- 虚言症: mythomania, pathological lying (clinical term)\n- 虚言を吐く: to tell lies\n\nSIMILAR WORDS:\n- 嘘: lie — the standard everyday word; used in all registers from casual to formal\n- 偽り: falsehood, deception — literary; implies deliberate deception with a broader scope than just words\n- 虚偽: falsehood, untruth — formal/legal; often used for false documents or statements (虚偽申告: false declaration)\n\nUSAGE:\nDo not confuse with the homophone 狂言, which refers to a traditional Japanese comedic theater form. The readings are close but the pitch accent and kanji are different."
+}
+
+Entry 21551_gimukan (JSON):
+{
+  "headword": "義務感",
+  "reading": "ぎむかん",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "emotion",
+    "abstract"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "sense of duty; sense of obligation",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "sense of duty; sense of obligation; feeling of responsibility",
+      "explanation": "The internal feeling that one must do something because it is one's duty or responsibility, regardless of personal desire."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "義務感から参加する。",
+      "english": "To participate out of a sense of duty."
+    },
+    {
+      "i": 1,
+      "japanese": "義務感だけで仕事を続けるのはつらい。",
+      "english": "It's tough to continue working solely out of a sense of obligation."
+    },
+    {
+      "i": 2,
+      "japanese": "強い義務感に駆られて、最後まで責任を果たした。",
+      "english": "Driven by a strong sense of duty, I fulfilled my responsibility to the end."
+    }
+  ],
+  "notes": "Composed of 義務 (duty, obligation) and 感 (feeling, sense). Describes the psychological feeling of being obligated to do something.\n\nCOMMON COLLOCATIONS:\n- 義務感から: out of a sense of duty\n- 義務感に駆られる: to be driven by a sense of duty\n- 強い義務感: a strong sense of duty\n- 義務感を感じる: to feel a sense of obligation\n\nUSAGE:\nOften used in contexts where someone does something not because they want to but because they feel they must. Can carry a slightly negative nuance when implying that the action lacks genuine motivation or enthusiasm.\n\nSIMILAR WORDS:\n- 責任感: sense of responsibility — broader, includes taking ownership of outcomes\n- 義務感: sense of duty — more about feeling compelled by obligation\n- 使命感: sense of mission — implies a higher calling or purpose"
+}
+
+Entry 21573_kaeuta (JSON):
+{
+  "headword": "替え歌",
+  "reading": "かえうた",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "music",
+    "entertainment"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "parody song; song with altered lyrics",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "parody song; song with altered lyrics sung to a familiar melody",
+      "explanation": "A version of an existing song where the original lyrics have been replaced with humorous, satirical, or otherwise different words while keeping the same melody. Popular as entertainment among children and in comedy."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "替え歌を作った。",
+      "english": "I made up a parody song."
+    },
+    {
+      "i": 1,
+      "japanese": "子供たちが替え歌を歌って笑っている。",
+      "english": "The children are singing a parody song and laughing."
+    },
+    {
+      "i": 2,
+      "japanese": "あの芸人は有名な曲の替え歌で人気を集めた。",
+      "english": "That comedian gained popularity with parody versions of famous songs."
+    }
+  ],
+  "notes": "Compound of 替え (replacement, from 替える) and 歌 (song). The concept is similar to English parody songs — the melody stays the same but the lyrics are changed, usually for humorous effect.\n\nCOMMON COLLOCATIONS:\n- 替え歌を作る: to create a parody song\n- 替え歌を歌う: to sing a parody song\n- 替え歌にする: to turn into a parody song\n\nCULTURAL NOTE:\nParody songs are a staple of Japanese comedy (お笑い). Comedians like Shimura Ken and Hiro Iki have made 替え歌 a popular entertainment format. Children also commonly create 替え歌 of school songs and popular tunes."
+}
+
+Entry 21586_zendate (JSON):
+{
+  "headword": "膳立て",
+  "reading": "ぜんだて",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "transitive",
+  "tier": "general",
+  "semantic_tags": [
+    "food",
+    "daily-life"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "preparation; arrangement; setting things up",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "setting up a meal; laying out dishes",
+      "explanation": "The original meaning: preparing and arranging dishes and utensils for a meal."
+    },
+    {
+      "sense": 2,
+      "gloss": "preparation; arrangement; setting things up for someone",
+      "explanation": "By extension, preparing or arranging things in advance so that something will go smoothly. Often implies doing the groundwork so that someone else can proceed easily."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "膳立てをする。",
+      "english": "To prepare the table / to set things up."
+    },
+    {
+      "i": 1,
+      "japanese": "客が来る前に膳立てをしておいた。",
+      "english": "I set up the table before the guests arrived."
+    },
+    {
+      "i": 2,
+      "japanese": "母が全部膳立てしてくれたので、料理はすぐに始められた。",
+      "english": "My mother set everything up for me, so I could start cooking right away."
+    },
+    {
+      "i": 3,
+      "japanese": "上司が膳立てしてくれた。",
+      "english": "My boss set things up for me."
+    },
+    {
+      "i": 4,
+      "japanese": "会議の膳立てが整った。",
+      "english": "The preparations for the meeting are in order."
+    },
+    {
+      "i": 5,
+      "japanese": "彼のために転職の膳立てをしたのに、結局断られた。",
+      "english": "I arranged everything for his job change, but in the end he turned it down."
+    }
+  ],
+  "notes": "Compound of 膳 (dining tray/table) and 立て (setting up). Originally referred to laying out a meal, but now commonly used figuratively to mean preparing or arranging things in advance for someone.\n\nCOMMON COLLOCATIONS:\n- 膳立てをする: to make preparations, to set things up\n- 膳立てが整う: preparations are in order\n- 膳立てが出来ている: everything is set up and ready\n\nSIMILAR WORDS:\n- 準備: preparation — the most general and common word for getting ready\n- 段取り: arrangement, planning — focuses on the order and logistics of preparation\n- 手配: arrangement — arranging for people or resources, often in a business context\n- 下準備: preliminary preparation — basic prep work done in advance"
+}
+
+Entry 21607_fukugaku (JSON):
+{
+  "headword": "復学",
+  "reading": "ふくがく",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "intransitive",
+  "tier": "general",
+  "semantic_tags": [
+    "education"
+  ],
+  "formality": "formal",
+  "politeness": "plain",
+  "gloss": "returning to school; resuming one's studies",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "returning to school; resuming one's studies",
+      "explanation": "Going back to school or university after a period of absence, such as a leave of absence, illness, or suspension."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "来学期復学する予定です。",
+      "english": "I plan to return to school next semester."
+    },
+    {
+      "i": 1,
+      "japanese": "病気が治ったので復学した。",
+      "english": "I returned to school after recovering from my illness."
+    },
+    {
+      "i": 2,
+      "japanese": "休学期間が終わったら、復学届を出す必要がある。",
+      "english": "When the leave of absence ends, you need to submit a return-to-school notification."
+    }
+  ],
+  "notes": "Used in academic and administrative contexts for students who return to their studies after a formal absence.\n\nCOMMON COLLOCATIONS:\n- 復学届: notification of return to school\n- 復学手続き: procedures for returning to school\n- 復学を許可する: to permit return to school\n- 復学後: after returning to school\n\nRELATED WORDS:\n- 休学: leave of absence (from school) — the opposite action\n- 退学: dropping out, withdrawal\n- 編入: transfer (to another school)\n- 復職: returning to work — the workplace equivalent\n\nFORMS:\n復 (return, restore) + 学 (study, school). Parallel to 復職 (returning to work) and 復帰 (returning/comeback)."
+}
+
+Entry 21639_suzushiikao (JSON):
+{
+  "headword": "涼しい顔",
+  "reading": "すずしいかお",
+  "pos": [
+    "expression"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "emotion",
+    "body-part"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "calm face; nonchalant look; acting as if nothing happened",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "calm face; nonchalant look; acting as if nothing happened",
+      "explanation": "Describes someone who appears completely unaffected or unconcerned in a situation where others would be nervous, embarrassed, or troubled. Often implies the person is deliberately hiding their true feelings or pretending innocence."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "彼は涼しい顔をしていた。",
+      "english": "He had a nonchalant look on his face."
+    },
+    {
+      "i": 1,
+      "japanese": "遅刻したのに、涼しい顔で入ってきた。",
+      "english": "Despite being late, he walked in looking completely unfazed."
+    },
+    {
+      "i": 2,
+      "japanese": "自分のミスなのに涼しい顔をして、他人のせいにした。",
+      "english": "Even though it was his own mistake, he put on an innocent face and blamed someone else."
+    }
+  ],
+  "notes": "A figurative expression where 涼しい (cool) describes not temperature but composure. The \"cool face\" is one that shows no embarrassment, guilt, or worry. Often carries a slightly negative nuance — the speaker is implying the person should be more affected than they appear.\n\nCOMMON PATTERNS:\n- 涼しい顔をする: to put on a nonchalant face\n- 涼しい顔で〜する: to do something with a calm/unbothered expression\n- 涼しい顔をして知らんぷり: to pretend not to know with an innocent face\n\nUSAGE:\nCan be used admiringly (staying cool under pressure) but more often implies criticism — the person is being too calm given the circumstances, or is deliberately feigning innocence.\n\nSIMILAR WORDS:\n- 知らんぷり: pretending not to know — focuses on feigning ignorance\n- 平然と: calmly, composedly — more neutral, without the visual image of a face\n- 涼しい目: cool eyes — a related expression focusing on a detached, unimpressed gaze"
+}
+
+Entry 21655_nishiguchi (JSON):
+{
+  "headword": "西口",
+  "reading": "にしぐち",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "direction",
+    "transportation"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "west exit; west entrance",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "west exit; west entrance; west gate",
+      "explanation": "The exit or entrance on the west side of a building, station, or venue. Most commonly used for train station exits."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "西口で待ち合わせしよう。",
+      "english": "Let's meet at the west exit."
+    },
+    {
+      "i": 1,
+      "japanese": "新宿駅の西口から出てください。",
+      "english": "Please leave from the west exit of Shinjuku Station."
+    },
+    {
+      "i": 2,
+      "japanese": "西口を出ると、目の前に大きなバスターミナルがある。",
+      "english": "When you go out the west exit, there's a large bus terminal right in front of you."
+    }
+  ],
+  "notes": "Compound of 西 (west) + 口 (exit/entrance). Essential vocabulary for navigating Japanese train stations, which typically label exits by compass direction.\n\nCOMMON COLLOCATIONS:\n- 西口を出る: to go out the west exit\n- 西口の改札: the west exit ticket gate\n- 西口ロータリー: west exit rotary/roundabout\n\nRELATED WORDS:\n- 東口: east exit\n- 南口: south exit\n- 北口: north exit\n- 中央口: central exit"
+}
+
+Entry 21687_bonyarisuru (JSON):
+{
+  "headword": "ぼんやりする",
+  "reading": "ぼんやりする",
+  "pos": [
+    "verb-suru",
+    "adverb"
+  ],
+  "transitivity": "intransitive",
+  "tier": "general",
+  "semantic_tags": [
+    "cognition",
+    "appearance"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "to be absent-minded; to space out; to be vague",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "to be absent-minded; to space out; to be in a daze",
+      "explanation": "Describes a person whose mind is not focused — daydreaming, zoning out, or not paying attention."
+    },
+    {
+      "sense": 2,
+      "gloss": "to be vague; to be hazy; to be indistinct",
+      "explanation": "Describes things that are unclear or blurry — outlines, memories, shapes seen through fog."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "ぼんやりしないで。",
+      "english": "Don't space out."
+    },
+    {
+      "i": 1,
+      "japanese": "窓の外をぼんやり眺めていた。",
+      "english": "I was gazing absent-mindedly out the window."
+    },
+    {
+      "i": 2,
+      "japanese": "寝不足で一日中ぼんやりしていた。",
+      "english": "I was in a daze all day from lack of sleep."
+    },
+    {
+      "i": 3,
+      "japanese": "遠くの山がぼんやり見える。",
+      "english": "The distant mountains are faintly visible."
+    },
+    {
+      "i": 4,
+      "japanese": "記憶がぼんやりしている。",
+      "english": "My memory is hazy."
+    },
+    {
+      "i": 5,
+      "japanese": "霧で周りの景色がぼんやりとしか見えなかった。",
+      "english": "Because of the fog, the surrounding scenery was only dimly visible."
+    }
+  ],
+  "notes": "An onomatopoeic word (擬態語) that can function as a する verb or as an adverb. Very natural and common in everyday speech.\n\nCOMMON PATTERNS:\n- ぼんやりする: to zone out, be dazed\n- ぼんやり（と）: as an adverb (vaguely, absent-mindedly)\n- ぼんやりした表情: a vacant expression\n- ぼんやりした記憶: a vague memory\n\nSIMILAR WORDS:\n- ぼーっとする: to space out (very close; slightly more colloquial)\n- うっかりする: to be careless, do something absent-mindedly (implies a mistake)\n- 曖昧な: ambiguous, vague (more formal, for statements or situations)"
+}
+
+Entry 21733_hanpen (JSON):
+{
+  "headword": "はんぺん",
+  "reading": "はんぺん",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "food"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "hanpen; white fish cake",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "hanpen; steamed white fish cake made from fish paste",
+      "explanation": "A soft, white, spongy Japanese fish cake made from surimi mixed with grated yam and steamed. A staple ingredient in oden and other soup dishes, prized for its light, fluffy texture."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "おでんにはんぺんを入れた。",
+      "english": "I put hanpen in the oden."
+    },
+    {
+      "i": 1,
+      "japanese": "はんぺんをバターで焼くと美味しい。",
+      "english": "Hanpen is delicious when pan-fried in butter."
+    },
+    {
+      "i": 2,
+      "japanese": "はんぺんは白身魚のすり身と山芋を混ぜて蒸した食品で、ふわふわした食感が特徴だ。",
+      "english": "Hanpen is a food made by mixing white fish paste with yam and steaming it, characterized by its fluffy texture."
+    }
+  ],
+  "notes": "A soft, white, spongy fish cake that is a staple ingredient in Japanese cuisine, especially in oden and soup dishes. Made from surimi (fish paste) mixed with grated yam, giving it a characteristic light, fluffy texture.\n\nUSAGE:\n- Usually written in hiragana; sometimes written as 半片 in kanji\n- Most commonly associated with oden, where it absorbs the flavorful broth\n- Also eaten grilled, pan-fried, or in soups\n- A standard item in Japanese supermarkets, sold in triangular or rectangular shapes\n\nCOMMON COLLOCATIONS:\n- おでんのはんぺん: hanpen in oden\n- はんぺんを焼く: to grill/fry hanpen\n- はんぺんフライ: deep-fried hanpen\n- チーズはんぺん: cheese-stuffed hanpen\n\nCULTURAL NOTE:\n- Particularly associated with the Kanto region; less common in Kansai\n- The name may derive from 半片 (half piece), referring to its shape\n\nSIMILAR WORDS:\n- かまぼこ: kamaboko, fish cake — denser and firmer than hanpen\n- ちくわ: chikuwa, tube-shaped fish cake — cylindrical with a hole through the center\n- さつま揚げ: deep-fried fish cake — fried rather than steamed"
+}
+
+Entry 21763_usowotsuku (JSON):
+{
+  "headword": "嘘をつく",
+  "reading": "うそをつく",
+  "pos": [
+    "expression",
+    "verb-godan"
+  ],
+  "transitivity": "intransitive",
+  "tier": "general",
+  "semantic_tags": [
+    "communication"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "to tell a lie; to lie",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "to tell a lie; to lie; to say something untrue",
+      "explanation": "The standard expression for telling a deliberate falsehood. Uses the verb つく in the sense of uttering or producing."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "嘘をついてはいけない。",
+      "english": "You must not tell lies."
+    },
+    {
+      "i": 1,
+      "japanese": "彼は嘘をついているに違いない。",
+      "english": "He must be lying."
+    },
+    {
+      "i": 2,
+      "japanese": "子どもの頃、よく嘘をついて叱られた。",
+      "english": "When I was a child, I often got scolded for telling lies."
+    },
+    {
+      "i": 3,
+      "japanese": "嘘をつくのは簡単だが、信頼を取り戻すのは難しい。",
+      "english": "Telling a lie is easy, but regaining trust is difficult."
+    }
+  ],
+  "notes": "The most basic and common way to say \"to lie\" in Japanese. The verb つく here is a godan verb meaning \"to utter\" (different from 付く \"to attach\" or 着く \"to arrive\"). The expression is a fixed collocation — 嘘 always takes を and つく in this meaning.\n\nCOMMON COLLOCATIONS:\n- 嘘をつく: to tell a lie\n- 嘘をつき通す: to keep lying, to maintain a lie\n- 大嘘をつく: to tell a big lie\n- 嘘つき: liar (noun)\n\nRELATED WORDS:\n- 嘘も方便: the end justifies the means (proverb — even lies can be expedient)\n- 嘘みたい: unbelievable, too good to be true\n- 嘘でしょ: you're kidding, no way"
+}
+
+Entry 21781_kuwaete (JSON):
+{
+  "headword": "加えて",
+  "reading": "くわえて",
+  "pos": [
+    "conjunction"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "grammatical"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "in addition; moreover; furthermore",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "in addition; moreover; furthermore",
+      "explanation": "Introduces additional information that supplements or builds upon the preceding statement."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "経験に加えて、資格も持っている。",
+      "english": "In addition to experience, she also has qualifications."
+    },
+    {
+      "i": 1,
+      "japanese": "品質がよい。加えて、価格も手頃だ。",
+      "english": "The quality is good. Moreover, the price is reasonable."
+    },
+    {
+      "i": 2,
+      "japanese": "人口の減少に加えて、高齢化も深刻な問題になっている。",
+      "english": "In addition to population decline, the aging of society has also become a serious problem."
+    }
+  ],
+  "notes": "A conjunction derived from the te-form of the verb 加える (to add). Used to introduce additional information that strengthens or supplements a point. Common in both spoken and written Japanese, with a slightly formal tone.\n\nUSAGE:\n- Used in two main patterns:\n  - Aに加えて、B (in addition to A, B) — combines with に to mark what is being added to\n  - Sentence. 加えて、sentence. — begins a new sentence as a conjunction\n- Slightly more formal than それに but less formal than さらに\n\nCOMMON COLLOCATIONS:\n- 経験に加えて: in addition to experience\n- 努力に加えて: in addition to effort\n- それに加えて: on top of that\n\nSIMILAR WORDS:\n- さらに: furthermore — more formal; common in news and academic writing\n- その上: on top of that — similar formality; often used in spoken Japanese\n- それに: besides — more casual and conversational\n- おまけに: to make matters worse — implies the addition is negative or compounds a bad situation"
+}
+
+Entry 21803_nite (JSON):
+{
+  "headword": "〜にて",
+  "reading": "にて",
+  "pos": [
+    "particle"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "grammatical"
+  ],
+  "formality": "formal",
+  "politeness": "plain",
+  "gloss": "at; in; by means of",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "at; in (location)",
+      "explanation": "Formal equivalent of で indicating a place where something occurs."
+    },
+    {
+      "sense": 2,
+      "gloss": "by; by means of; with",
+      "explanation": "Formal equivalent of で indicating means or method."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "会議室にて開催します。",
+      "english": "It will be held in the conference room."
+    },
+    {
+      "i": 1,
+      "japanese": "本日、東京にて記者会見が行われた。",
+      "english": "A press conference was held in Tokyo today."
+    },
+    {
+      "i": 2,
+      "japanese": "大阪駅前にて集合してください。",
+      "english": "Please gather in front of Osaka Station."
+    },
+    {
+      "i": 3,
+      "japanese": "メールにて連絡いたします。",
+      "english": "I will contact you by email."
+    },
+    {
+      "i": 4,
+      "japanese": "書面にて回答いたします。",
+      "english": "We will respond in writing."
+    },
+    {
+      "i": 5,
+      "japanese": "現金にてお支払いいただけますか。",
+      "english": "Could you pay in cash?"
+    }
+  ],
+  "notes": "A formal particle that is the classical/literary equivalent of で. It was the standard form in classical Japanese and survives in modern formal contexts. It can indicate location (where something happens) and means/method (how something is done).\n\nUSAGE:\n- Replaces で in formal written contexts: announcements, business correspondence, official notices\n- Very common in event announcements: ～にて開催 (held at ~)\n- Common in business communication: メールにて, 書面にて, 電話にて\n- Sounds overly formal or archaic in casual conversation\n- Sometimes seen at the end of letters or messages: 東京にて (written in Tokyo)\n\nCOMMON COLLOCATIONS:\n- ～にて開催: held at ~\n- メールにて: by email\n- 現地にて: on-site, at the location\n- 本日にて終了: ending as of today\n\nSIMILAR WORDS:\n- で: at, in, by — the standard casual/neutral equivalent\n- において: in, at — also formal but specifically for \"in the context of\"; more common in academic writing\n- をもって: with, by means of — very formal; used in official documents for deadlines and methods"
+}
+
+Entry 21833_kaboku (JSON):
+{
+  "headword": "花木",
+  "reading": "かぼく",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "nature"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "flowering tree; ornamental tree",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "flowering tree; ornamental tree; flowering shrub",
+      "explanation": "Trees and shrubs that are cultivated or valued primarily for their flowers. Includes cherry blossoms, plum blossoms, azaleas, camellias, and similar decorative plants."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "庭に花木を植える。",
+      "english": "To plant flowering trees in the garden."
+    },
+    {
+      "i": 1,
+      "japanese": "この公園には様々な花木が植えられている。",
+      "english": "Various flowering trees are planted in this park."
+    },
+    {
+      "i": 2,
+      "japanese": "春になると花木が一斉に咲き始め、園内は華やかな雰囲気に包まれる。",
+      "english": "In spring, the flowering trees begin to bloom all at once, and the grounds are enveloped in a gorgeous atmosphere."
+    }
+  ],
+  "notes": "A compound of 花 (flower) and 木 (tree). A general term encompassing all trees and shrubs grown for their ornamental blossoms. Common in gardening, landscaping, and botanical contexts.\n\nCOMMON COLLOCATIONS:\n- 花木を植える: to plant flowering trees\n- 花木の手入れ: care of flowering trees\n- 花木園: flowering tree garden\n- 花木の剪定: pruning of flowering trees\n\nTYPES:\n- 桜: cherry blossom\n- 梅: plum blossom\n- 椿: camellia\n- 山茶花: sasanqua\n- ツツジ: azalea\n- 藤: wisteria\n\nSIMILAR WORDS:\n- 果樹: fruit tree — trees cultivated for their fruit rather than flowers\n- 樹木: tree — general term for trees, regardless of flowers\n- 草花: flowering plants — specifically herbaceous (non-woody) flowering plants, as opposed to trees"
+}
+
+Entry 21851_senbai (JSON):
+{
+  "headword": "専売",
+  "reading": "せんばい",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "transitive",
+  "tier": "general",
+  "semantic_tags": [
+    "business",
+    "economics"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "monopoly; exclusive sale",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "monopoly; exclusive sale",
+      "explanation": "the exclusive right to sell a particular product; a government or private monopoly on the sale of certain goods"
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "タバコは国の専売だった。",
+      "english": "Tobacco was a government monopoly."
+    },
+    {
+      "i": 1,
+      "japanese": "この商品は当店が専売しています。",
+      "english": "This product is sold exclusively at our store."
+    },
+    {
+      "i": 2,
+      "japanese": "かつて塩は専売制度のもとで販売されていた。",
+      "english": "Salt was once sold under a monopoly system."
+    }
+  ],
+  "notes": "Composed of 専 (exclusive) and 売 (sale). Historically significant in Japan — tobacco, salt, and camphor were once under government monopoly (専売制度). The Japan Tobacco and Salt Public Corporation (日本専売公社) managed these until privatization in 1985.\n\nCOMMON COLLOCATIONS:\n- 専売制度: monopoly system\n- 専売権: exclusive selling rights\n- 専売品: monopoly product, exclusively sold item\n- 専売特許: exclusive patent; figuratively, someone's specialty\n\nSIMILAR WORDS:\n- 独占: monopoly — broader term covering market dominance, not just sales\n- 寡占: oligopoly — market dominated by a small number of sellers"
+}
+
+Entry 21874_ikiwotsuku (JSON):
+{
+  "headword": "息をつく",
+  "reading": "いきをつく",
+  "pos": [
+    "expression"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "body-part",
+    "emotion"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "to catch one's breath; to take a breather; to sigh with relief",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "to catch one's breath; to take a breather; to take a rest",
+      "explanation": "To pause and rest briefly, especially after exertion or a period of being busy. Implies a moment of relief or respite."
+    },
+    {
+      "sense": 2,
+      "gloss": "to sigh; to let out a breath",
+      "explanation": "To exhale audibly, often expressing relief, fatigue, or resignation."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "ほっと息をつく。",
+      "english": "To breathe a sigh of relief."
+    },
+    {
+      "i": 1,
+      "japanese": "忙しくて息をつく暇もない。",
+      "english": "I'm so busy I don't even have time to catch my breath."
+    },
+    {
+      "i": 2,
+      "japanese": "仕事が一段落して、やっと息をつくことができた。",
+      "english": "The work reached a stopping point, and I was finally able to take a breather."
+    },
+    {
+      "i": 3,
+      "japanese": "彼女は深い息をついた。",
+      "english": "She let out a deep sigh."
+    },
+    {
+      "i": 4,
+      "japanese": "試験が終わって、大きく息をついた。",
+      "english": "When the exam was over, I let out a big sigh."
+    },
+    {
+      "i": 5,
+      "japanese": "無事に帰ってきた子どもの顔を見て、母親はほっと息をついた。",
+      "english": "Seeing her child come home safely, the mother breathed a sigh of relief."
+    }
+  ],
+  "notes": "An idiomatic expression literally meaning 'to exhale.' The two senses overlap significantly — catching one's breath often involves a sigh of relief.\n\nCOMMON COLLOCATIONS:\n- ほっと息をつく: to breathe a sigh of relief\n- 深い息をつく: to take a deep breath / let out a deep sigh\n- 息をつく暇もない: no time to catch one's breath\n- 大きく息をつく: to let out a big sigh\n\nRELATED WORDS:\n- 息を吸う: to breathe in; to inhale\n- 息を吐く: to breathe out; to exhale\n- 一息つく: to take a short break (similar meaning)\n- ため息をつく: to sigh (with negative connotation — disappointment, weariness)"
+}
+
+Entry 21891_jiten (JSON):
+{
+  "headword": "事典",
+  "reading": "じてん",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "education",
+    "language"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "encyclopedia; subject dictionary",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "encyclopedia; subject dictionary; reference work on topics",
+      "explanation": "A reference work that provides detailed explanations of topics, concepts, and things (as opposed to a word dictionary). Organized by subject matter rather than by individual words."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "百科事典で調べる。",
+      "english": "To look it up in an encyclopedia."
+    },
+    {
+      "i": 1,
+      "japanese": "日本料理事典を買った。",
+      "english": "I bought an encyclopedia of Japanese cuisine."
+    },
+    {
+      "i": 2,
+      "japanese": "この事典には世界の動物が写真つきで詳しく紹介されている。",
+      "english": "This encyclopedia provides detailed introductions to animals of the world with photographs."
+    }
+  ],
+  "notes": "Distinguished from 辞典 (word dictionary) by dealing with topics and things (事) rather than words (辞).\n\nCOMMON COLLOCATIONS:\n- 百科事典: encyclopedia\n- ～事典: encyclopedia/dictionary of ~ (e.g., 料理事典, 音楽事典)\n- 事典を引く: to look up in an encyclopedia\n\nSIMILAR WORDS:\n- 辞典: dictionary — explains words and their meanings\n- 辞書: dictionary — the most common everyday word for dictionary\n- 字典: character dictionary — explains individual kanji\n- 図鑑: illustrated reference book — emphasizes visual identification\n\nWATCH OUT:\nAll three — 事典, 辞典, 字典 — are read じてん. To tell them apart in speech, people sometimes call 事典 ことてん, 辞典 ことばてん, and 字典 もじてん."
+}
+
+Entry 21910_kanrisuru (JSON):
+{
+  "headword": "管理する",
+  "reading": "かんりする",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "transitive",
+  "tier": "general",
+  "semantic_tags": [
+    "work",
+    "action"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "to manage; to administer; to control; to maintain",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "to manage; to administer; to control; to maintain",
+      "explanation": "to oversee and control the operation, maintenance, or condition of something; to be in charge of managing resources, property, or systems"
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "健康を管理する。",
+      "english": "To manage one's health."
+    },
+    {
+      "i": 1,
+      "japanese": "パスワードは厳重に管理してください。",
+      "english": "Please manage your passwords securely."
+    },
+    {
+      "i": 2,
+      "japanese": "このビルは管理会社が管理している。",
+      "english": "This building is managed by a management company."
+    },
+    {
+      "i": 3,
+      "japanese": "在庫をシステムで一元管理することで効率が上がった。",
+      "english": "Efficiency improved by managing inventory centrally through a system."
+    }
+  ],
+  "notes": "An extremely common and versatile word covering management, administration, and maintenance in many domains: property, health, data, employees, finances, and more. The noun 管理 is used extensively in compound words.\n\nCOMMON COLLOCATIONS:\n- 管理者: manager, administrator\n- 管理費: management fee, maintenance fee\n- 管理職: managerial position\n- 品質管理: quality control\n- 健康管理: health management\n- 自己管理: self-management\n- 管理社会: controlled society, surveillance society\n\nSIMILAR WORDS:\n- 経営する: to run, to operate — specifically about running a business or organization\n- 運営する: to operate, to run — focuses on the day-to-day running of an organization or event\n- 監督する: to supervise — emphasizes oversight and directing people\n- 維持する: to maintain — focuses on keeping something in its current state\n\nETYMOLOGY:\nComposed of 管 (pipe, control) + 理 (reason, arrange). The original sense is of channeling and ordering things properly."
+}
+
+Entry 21940_kyuukanbi (JSON):
+{
+  "headword": "休刊日",
+  "reading": "きゅうかんび",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "daily-life",
+    "media"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "newspaper holiday; no-publication day",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "newspaper holiday; no-publication day",
+      "explanation": "A day on which newspapers are not published or delivered. In Japan, all major newspapers observe the same rest days, typically one day per month."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "明日は休刊日だ。",
+      "english": "Tomorrow is a newspaper holiday."
+    },
+    {
+      "i": 1,
+      "japanese": "休刊日には新聞が届かない。",
+      "english": "The newspaper doesn't come on no-publication days."
+    },
+    {
+      "i": 2,
+      "japanese": "日本の新聞の休刊日は月に一回あり、各社一斉に休む。",
+      "english": "Japanese newspapers have one no-publication day per month, and all companies take the same day off."
+    }
+  ],
+  "notes": "A compound of 休刊 (suspension of publication) and 日 (day). Refers specifically to the coordinated days when newspapers are not published.\n\nCOMMON COLLOCATIONS:\n- 新聞休刊日: newspaper holiday\n- 休刊日に当たる: to fall on a no-publication day\n\nCULTURAL NOTE:\nIn Japan, major newspapers coordinate their rest days so that all papers take the same day off, usually once a month. These are often the day after national holidays or during the New Year period. This practice is unique to Japan and reflects the newspaper industry's labor agreements.\n\nSIMILAR WORDS:\n- 休刊: suspension of publication — can also mean a magazine ceasing publication entirely\n- 休業日: business holiday — a day when a business is closed"
+}
+
+Entry 21955_shojijou (JSON):
+{
+  "headword": "諸事情",
+  "reading": "しょじじょう",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "communication"
+  ],
+  "formality": "formal",
+  "politeness": "plain",
+  "gloss": "various circumstances; various reasons",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "various circumstances; various reasons; a number of factors",
+      "explanation": "Refers to multiple reasons or circumstances, often used when the speaker does not wish to specify the exact details."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "諸事情により中止します。",
+      "english": "It will be canceled due to various circumstances."
+    },
+    {
+      "i": 1,
+      "japanese": "諸事情があって参加できません。",
+      "english": "I can't participate due to various reasons."
+    },
+    {
+      "i": 2,
+      "japanese": "諸事情を考慮した結果、計画を変更することになった。",
+      "english": "As a result of considering various circumstances, it was decided to change the plan."
+    }
+  ],
+  "notes": "Composed of 諸 (various, many) + 事情 (circumstances, reasons). This word is commonly used in formal or semi-formal contexts when the speaker wants to cite reasons without going into specifics.\n\nCOMMON COLLOCATIONS:\n- 諸事情により: due to various circumstances\n- 諸事情があって: because of various reasons\n- 諸事情を考慮して: taking various circumstances into account\n- 諸事情から: from various circumstances\n\nUSAGE:\nOften functions as a polite way to avoid giving a specific reason. In announcements, it serves as a catch-all explanation for cancellations, delays, or changes. In everyday speech, it can be a tactful way to decline an invitation or explain a decision without revealing personal details.\n\nSIMILAR WORDS:\n- 事情: circumstances — singular or general; 諸事情 emphasizes that there are multiple factors\n- 都合: convenience/circumstances — more personal and informal"
+}
+
+Entry 21978_ohiregatsuku (JSON):
+{
+  "headword": "尾ひれがつく",
+  "reading": "おひれがつく",
+  "pos": [
+    "expression"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "communication",
+    "idiom"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "to be exaggerated; to have embellishments added",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "to be exaggerated; to have embellishments added; to grow in the telling",
+      "explanation": "Describes how a story or rumor gets embellished and exaggerated as it is passed from person to person, gaining details that were not in the original."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "噂に尾ひれがつく。",
+      "english": "The rumor gets embellished."
+    },
+    {
+      "i": 1,
+      "japanese": "話に尾ひれがついて広まった。",
+      "english": "The story spread with added embellishments."
+    },
+    {
+      "i": 2,
+      "japanese": "小さな失敗だったのに、尾ひれがついて大事件のように語られている。",
+      "english": "It was just a small mistake, but it was exaggerated and talked about as if it were a major incident."
+    }
+  ],
+  "notes": "Literally means 'a tail and fins get attached.' The image is of a story growing extra parts (like a fish growing a tail and fins) as it is retold, becoming increasingly exaggerated and embellished.\n\nFORMS:\n- 尾ひれがつく: embellishments get added (intransitive)\n- 尾ひれをつける: to add embellishments (transitive)\n\nCOMMON COLLOCATIONS:\n- 噂に尾ひれがつく: a rumor gets embellished\n- 話に尾ひれがつく: a story gets exaggerated\n- 尾ひれがついて広まる: to spread with embellishments\n\nSIMILAR WORDS:\n- 大げさになる: to become exaggerated — more straightforward; 尾ひれがつく is more vivid and idiomatic\n- 話が膨らむ: a story inflates — similar concept but without the fish imagery\n- 針小棒大: making a mountain out of a molehill — emphasizes the disproportion between fact and description"
+}
+
+Review each entry independently. Respond with ONLY a JSON object (no prose, no code fences) whose keys are the entry ids and whose values are that entry's array of issue objects. Each object:
+{"dimension": "gloss|translation|tags|notes", "location": "<gloss | definitions[n].gloss | examples[i] | tags.semantic | tags.formality | tags.politeness | notes>", "severity": "error|warn", "concern": "<what is wrong, briefly>", "suggestion": "<concrete fix>", "quote": "<verbatim sentence from the entry, required for tags.formality, tags.politeness, and notes>"}
+An entry that is accurate on the checked dimensions gets []. Include every entry id.

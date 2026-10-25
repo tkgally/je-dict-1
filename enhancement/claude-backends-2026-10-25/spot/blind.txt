@@ -1,0 +1,135 @@
+#1 21781 加えて (くわえて) gloss=in addition; moreover; furthermore tags=['grammatical'] neutral/plain
+   location: notes
+   concern: The ranking is reversed. 加えて is a fairly formal, mostly written conjunction. さらに is common in everyday speech and is not more formal than 加えて.
+   quote: Slightly more formal than それに but less formal than さらに
+   suggestion: Say that 加えて is more formal than both それに and さらに, and drop 'more formal' from the さらに line; さらに is neutral and widely used in speech and writing.
+#2 22122 ニキビ (にきび) gloss=pimple; acne tags=['body-part', 'health'] neutral/plain
+   location: tags.semantic
+   concern: ニキビ denotes a skin lesion or acne, not a body part.
+   suggestion: Remove "body-part"; retain "health".
+#3 22249 鉱石 (こうせき) gloss=ore; mineral ore tags=['nature', 'science'] neutral/plain
+   location: notes
+   concern: Not all ores are minerals. Ore can be rock containing economically extractable minerals, whereas 鉱物 refers to minerals themselves.
+   suggestion: Replace with: "- 鉱物: mineral — a naturally occurring substance; ore is rock or mineral material from which valuable constituents can be extracted economically"
+#4 22470 公認会計士 (こうにんかいけいし) gloss=certified public accountant (CPA) tags=['business'] formal/plain
+   location: notes
+   concern: The usual grouping of Japan's three hardest national exams (三大難関国家資格) is the bar exam, the CPA exam and the real estate appraiser exam (不動産鑑定士). The medical licensing exam has a pass rate of about 90% and is not usually counted among the hardest. Medicine belongs instead to the 'three most prestigious qualifications' (医師・弁護士・公認会計士), which is a different claim from exam difficulty.
+   quote: The Japanese CPA certification is considered one of the three most difficult national examinations, alongside the bar exam (司法試験) and the medical exam.
+   suggestion: Either say 'considered one of the three most difficult national examinations, alongside the bar exam (司法試験) and the real estate appraiser exam (不動産鑑定士試験)', or say 'one of the three most prestigious national qualifications, alongside doctor and lawyer'.
+#5 21827 いかほど (いかほど) gloss=how much; to what extent; how great tags=['quantity'] formal/plain
+   location: notes
+   concern: いかに is not limited to manner. It is also very commonly used for degree, e.g. いかに大切か 'how important'. That use overlaps directly with いかほど.
+   quote: いかに: how, in what way — another formal interrogative, focuses on manner rather than degree
+   suggestion: Say that いかに means 'how' in both senses, manner ('in what way') and degree ('how very'), and is common in rhetorical degree expressions.
+#6 22426 無理する (むりする) gloss=to overdo it; to push oneself too hard; to strain oneself tags=['daily-life'] neutral/plain
+   location: notes
+   concern: 体に無理する is not a standard collocation. Natural forms are 体に無理をさせる or 体に無理がかかる.
+   quote: - 体に無理する: to strain one's body
+   suggestion: Replace with 体に無理をさせる: to put a strain on one's body.
+#7 21579 転任 (てんにん) gloss=transfer; reassignment to a new post tags=['work'] formal/plain
+   location: notes
+   concern: 転勤 is not restricted to company employees; it also applies to government employees, teachers, and others transferred to a different workplace.
+   suggestion: Change to: "転勤: job transfer — emphasizes relocation to a different workplace."
+#8 21901 英雄的 (えいゆうてき) gloss=heroic; valiant tags=['descriptive', 'emotion'] neutral/plain
+   location: notes
+   concern: 勇ましい is a common everyday word (勇ましい音楽, 勇ましい姿), not especially literary; calling it more literary than 英雄的 is likely misleading.
+   quote: 勇ましい: gallant, spirited — more literary; describes a dashing, spirited quality
+   suggestion: Drop 'more literary', e.g. 'gallant, spirited — describes a brave, stirring, energetic quality'.
+#9 22013 宗家 (そうけ) gloss=head family; founding school; grand master's house tags=['culture', 'family'] formal/plain
+   EX: 茶道の宗家を訪ねた。 / I visited the founding school of tea ceremony.
+   location: examples[3]
+   concern: The Japanese refers to visiting a head house or grand master, not a founding school.
+   suggestion: I visited the head house of a tea ceremony lineage.
+#10 21878 降り続く (ふりつづく) gloss=to keep falling (rain, snow); to continue to fall tags=['weather', 'nature'] neutral/plain
+   location: notes
+   concern: 'Exclusively' is too absolute. 降り続く is also used for other things that fall from the sky, such as volcanic ash (火山灰が降り続く).
+   quote: Used exclusively for precipitation — rain, snow, hail, etc. — falling without interruption.
+   suggestion: Change to 'Used mainly for precipitation…' and optionally mention volcanic ash.
+#11 22432 署名する (しょめいする) gloss=to sign; to put one's signature on tags=['business'] formal/plain
+   location: notes
+   concern: 調印する is not restricted to international agreements or treaties; it is also used for contracts and other formal agreements.
+   suggestion: Replace with: "調印する: to formally sign a treaty, contract, or agreement".
+#12 21574 途切れ (とぎれ) gloss=break; interruption; pause tags=['change'] neutral/plain
+   location: notes
+   concern: 中断 does not necessarily mean deliberate stopping; it also describes interruptions caused by accidents, technical failures, or other external circumstances.
+   suggestion: Replace with: "- 中断: interruption or suspension of an activity — more formal; may be intentional or unintentional"
+#13 22206 人名 (じんめい) gloss=person's name; personal name tags=['language'] formal/plain
+   location: notes
+   concern: This incorrectly implies that registered given names must use kanji from these lists. Hiragana and katakana are also permitted.
+   suggestion: Change to: "When using kanji in a child's registered given name, parents must choose from the 人名用漢字 or 常用漢字; hiragana and katakana are also permitted."
+#14 22142 むせ返る (むせかえる) gloss=to choke; to be overwhelmed by a smell or taste tags=['body-part', 'cognition'] neutral/plain
+   location: tags.semantic
+   concern: Neither tag fits the headword: むせ返る describes choking or being physically overwhelmed, not a body part or cognition.
+   suggestion: Remove "body-part" and "cognition".
+#15 21563 区役所 (くやくしょ) gloss=ward office; municipal office of a city ward tags=['politics', 'building'] neutral/plain
+   location: notes
+   concern: The notes limit 区役所 to designated cities. Tokyo's 23 special wards (特別区) also have 区役所, and they are among the best-known examples.
+   quote: The administrative center for a 区 (ward) within designated cities.
+   suggestion: Say it is the administrative office for a ward, whether a Tokyo special ward or a ward of a designated city (政令指定都市).
+#16 22045 下校時間 (げこうじかん) gloss=school dismissal time; time to go home from school tags=['education', 'time-general'] neutral/plain
+   location: notes
+   concern: This conflates school dismissal announcements with municipal neighborhood broadcasts reminding children playing outside to go home. Those broadcasts do not generally announce an elementary school's 下校時間.
+   suggestion: Remove this sentence, or clarify that neighborhood broadcasts reminding children to go home are distinct from school dismissal times.
+#17 22021 週例 (しゅうれい) gloss=weekly (regular event); held every week tags=['business', 'time-general'] formal/plain
+   location: notes
+   concern: 日例 is not an established Japanese word for a daily regular event. Daily recurrence is normally expressed with 毎日の, 日次 (e.g. 日次報告), or 日報.
+   quote: - 日例: daily (regular event)
+   suggestion: Remove 日例 or replace it with a real word such as 日次 (daily; e.g. 日次報告).
+#18 21649 寝坊助 (ねぼうすけ) gloss=sleepyhead; late riser tags=['person', 'daily-life'] informal/plain
+   location: notes
+   concern: 寝坊 can also refer to a person who sleeps late or oversleeps, so explicitly excluding the person sense is incorrect.
+   quote: - 寝坊: oversleeping (the act itself, not the person)
+   suggestion: Change to: 寝坊: oversleeping; also a person who oversleeps or sleeps late.
+#19 21775 鳥小屋 (とりごや) gloss=birdhouse; birdcage; chicken coop; aviary tags=['animal-bird', 'building'] neutral/plain
+   location: gloss
+   concern: 'Birdcage' is wrong. 鳥小屋 is a hut or shed-like structure for birds, such as a coop or aviary. A birdcage is 鳥かご (鳥籠). Learners would use 鳥小屋 for a cage.
+   suggestion: Remove 'birdcage', e.g. 'birdhouse; chicken coop; henhouse; aviary', and point to 鳥かご for birdcage.
+#20 21582 城壁 (じょうへき) gloss=castle wall; rampart; fortification wall tags=['building', 'history'] neutral/plain
+   location: notes
+   concern: 石垣 is not specific to Japanese castles; it also denotes stone walls and retaining walls elsewhere.
+   suggestion: Change to: 石垣: stone wall — a wall made by stacking stones, including castle walls and retaining walls.
+#21 21955 諸事情 (しょじじょう) gloss=various circumstances; various reasons tags=['communication'] formal/plain
+   location: notes
+   concern: 都合 is not informal. It is register-neutral and common in formal use (都合により中止, ご都合はいかがですか). Calling it informal misleads learners about another word.
+   quote: - 都合: convenience/circumstances — more personal and informal
+   suggestion: Change to '都合: convenience/circumstances — refers more to one's personal schedule or convenience'.
+#22 21638 立ち会う (たちあう) gloss=to be present at; to attend; to witness tags=['action'] neutral/plain
+   EX: 弁護士が立ち会いのもとで契約を結んだ。 / The contract was signed in the presence of a lawyer.
+   location: examples[1]
+   concern: The Japanese marks the lawyer with が as the person concluding the contract, whereas the English makes the lawyer a witness. The intended Japanese construction requires の.
+   suggestion: Change the Japanese to 「弁護士の立ち会いのもとで契約を結んだ。」 to match the English.
+#23 22467 無色 (むしょく) gloss=colorless; uncolored tags=['science'] neutral/plain
+   location: definitions[0].gloss
+   concern: 無色 means lacking color, not being transparent. Transparency is a separate property expressed by 透明.
+   suggestion: Remove “transparent”: “colorless; uncolored”.
+#24 22409 焼却 (しょうきゃく) gloss=incineration; burning tags=['action'] formal/plain
+   location: notes
+   concern: The financial term for amortization is 償却, not 消却. 消却 means erasing, eliminating, or extinguishing.
+   quote: - 消却: write-off / amortization — a homophone with completely different meaning (financial)
+   suggestion: Replace 消却 with 償却 in this comparison.
+#25 22294 数え年 (かぞえどし) gloss=traditional age counting; East Asian age reckoning tags=['culture', 'time-general'] neutral/plain
+   location: notes
+   concern: 還暦 is usually celebrated at full age 60 (満60歳), not by 数え年. Traditionally it fell in 数え61, which is the same year. So citing 還暦 as a current use of 数え年 is misleading. 厄年 is a correct example.
+   quote: Japan officially switched to the Western age system (満年齢) in 1950, but 数え年 is still used for some traditional events like 厄年 (unlucky years) and 還暦 (60th birthday celebration).
+   suggestion: Drop 還暦 or replace it with an event still commonly reckoned in 数え年 (e.g. 厄年, some 七五三 or 長寿祝い such as 古希 or 喜寿 in some families). Alternatively, explain that 還暦 is 数え61, equivalent to 満60.
+#26 21940 休刊日 (きゅうかんび) gloss=newspaper holiday; no-publication day tags=['daily-life', 'media'] neutral/plain
+   location: notes
+   concern: 休刊日 is not restricted to coordinated newspaper holidays; it can refer to an individual publication's non-publication day.
+   suggestion: Replace with: "A day when a newspaper or other periodical is not published, often referring to coordinated newspaper holidays in Japan."
+#27 21639 涼しい顔 (すずしいかお) gloss=calm face; nonchalant look; acting as if nothing happened tags=['emotion', 'body-part'] neutral/plain
+   location: tags.semantic
+   concern: 「涼しい顔」 denotes a nonchalant expression or demeanor, not an anatomical body part.
+   suggestion: Remove "body-part".
+#28 22404 滑走 (かっそう) gloss=gliding; taxiing; sliding run tags=['transportation', 'sports'] neutral/plain
+   location: definitions[0].gloss
+   concern: For aircraft, 滑走 mainly means the takeoff or landing roll along the runway at speed. Slow ground taxiing to or from the runway is usually 地上走行 or タキシング. Presenting 'taxiing' as the main aircraft sense may mislead learners.
+   suggestion: gliding; sliding; takeoff/landing run (of an aircraft)
+#29 21742 貫通する (かんつうする) gloss=to penetrate; to pass through; to pierce tags=['action'] neutral/plain
+   location: notes
+   concern: 貫通する has both intransitive and transitive uses; the categorical claim that it is intransitive is incorrect.
+   suggestion: State that 貫通する can be intransitive or transitive: トンネルが貫通する illustrates the intransitive use, while 弾丸が壁を貫通する illustrates the transitive use.
+#30 22260 三拍子 (さんびょうし) gloss=triple time (music); three essential qualities tags=['music', 'evaluation'] neutral/plain
+   location: notes
+   concern: 四拍子 can also be used figuratively in expressions such as 四拍子揃った to describe four desirable qualities; it is not restricted to music.
+   quote: - 四拍子: quadruple time — musical only, no figurative use
+   suggestion: Replace with: "- 四拍子: quadruple time; also used figuratively for four desirable qualities".
