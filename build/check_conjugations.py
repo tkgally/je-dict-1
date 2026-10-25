@@ -62,7 +62,11 @@ VERB_POS = {"verb-godan", "verb-ichidan", "verb-suru", "verb-kuru", "verb-irregu
 # 愛する): gpt-6.1-sol found every error with no false flag; gemini-3.8-flash
 # missed ふける and 読みふける; gemini-2.5-flash called 過る, ふける and 好く wrong
 # the other way round.
-DEFAULT_MODEL = "openai/gpt-6.1-sol"
+# Since 2026-10-25 Claude Haiku on the subscription (enhancement/claude-backends-2026-10-25):
+# perfect on the 180 labeled conjugation forms, as gpt-6.1-sol was. When the claude CLI is
+# missing or the subscription guard has stopped it, the check falls back to FALLBACK_MODEL.
+DEFAULT_MODEL = "claude:haiku"
+FALLBACK_MODEL = "openai/gpt-6.1-sol"
 # USD per 1K tokens (input, output), for the budget estimate
 MODEL_COSTS = {"google/gemini-3.8-flash": (0.00075, 0.00375),
                "google/gemini-2.5-flash": (0.00015, 0.0006),
@@ -408,15 +412,26 @@ def write_cursor(nxt, note):
 
 
 def run_llm(args):
+    import os
+    import claude_backend
     from review_runner import rough_token_count, get_api_key
 
     def estimate_cost(model, tokens_in, tokens_out):
+        if claude_backend.is_claude(model):
+            return 0.0
         cin, cout = MODEL_COSTS.get(model, (0.002, 0.01))
         return tokens_in / 1000 * cin + tokens_out / 1000 * cout
-    api_key = get_api_key()
-    if not api_key:
-        print("OPENROUTER_API_KEY not set; model check skipped")
-        return 1
+    if claude_backend.is_claude(args.model):
+        ok, why = claude_backend.available()
+        if not ok:
+            print(f"{args.model} unavailable ({why}); using {FALLBACK_MODEL}")
+            args.model = FALLBACK_MODEL
+    api_key = None
+    if not claude_backend.is_claude(args.model):
+        if not os.environ.get("OPENROUTER_API_KEY"):
+            print("OPENROUTER_API_KEY not set; model check skipped")
+            return 1
+        api_key = get_api_key()
     if args.ids:
         pool = [e for _, e in load_entries(args.ids.split(",")) if e.get("conjugation")]
         start = None
@@ -497,6 +512,8 @@ def run_llm(args):
         later = [i for i in allt_ids if i > last]
         write_cursor(later[0] if later else "00001",
                      f"{len(covered)} tables checked, {n_flags} flags, ${spent:.3f}")
+    if claude_backend.is_claude(args.model):
+        print(claude_backend.usage_line())
     print(f"EST_COST={spent:.4f}")
     return 0
 
@@ -539,7 +556,8 @@ def main():
     ap.add_argument("--ids", help="comma-separated entry IDs (5-digit)")
     ap.add_argument("--json", metavar="OUT", help="write the open flags to this JSON file")
     ap.add_argument("--no-sudachi", action="store_true", help="skip the SudachiPy class check")
-    ap.add_argument("--llm", action="store_true", help="independent model check (paid)")
+    ap.add_argument("--llm", action="store_true",
+                    help="independent model check (Claude on the subscription by default)")
     ap.add_argument("--n", type=int, default=1000, help="tables per model check (from the cursor)")
     ap.add_argument("--budget", type=float, default=0.30, help="USD cap for --llm (estimated)")
     ap.add_argument("--model", default=DEFAULT_MODEL)

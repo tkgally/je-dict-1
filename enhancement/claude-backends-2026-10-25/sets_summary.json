@@ -1,0 +1,367 @@
+{
+ "furigana": {
+  "haiku": {
+   "n": 230,
+   "answered": 230,
+   "acc": 0.9869565217391304,
+   "auroc": 0.9978339634530561,
+   "lat_med": 10.260119915008545,
+   "cost": 0.01722186,
+   "by_sub": {
+    "correct": 1.0,
+    "long-vowel": 1.0,
+    "youon": 0.75,
+    "voicing": 1.0,
+    "sokuon-drop": 1.0,
+    "homograph": 1.0,
+    "homograph-correct": 0.9666666666666667,
+    "counter-correct": 1.0,
+    "counter": 1.0
+   },
+   "tokens_per_item": 242.72304347826085,
+   "list_cost_per_1k": 0.07487765217391304,
+   "batch_lat_med": 10.260119915008545
+  },
+  "opus": {
+   "n": 230,
+   "answered": 230,
+   "acc": 0.991304347826087,
+   "auroc": 0.9984640831758034,
+   "lat_med": 8.808393716812134,
+   "cost": 0.4601736,
+   "by_sub": {
+    "correct": 1.0,
+    "long-vowel": 1.0,
+    "youon": 1.0,
+    "voicing": 1.0,
+    "sokuon-drop": 1.0,
+    "homograph": 1.0,
+    "homograph-correct": 0.9666666666666667,
+    "counter-correct": 1.0,
+    "counter": 0.875
+   },
+   "tokens_per_item": 192.91,
+   "list_cost_per_1k": 2.0007547826086958,
+   "batch_lat_med": 8.808393716812134
+  },
+  "sonnet": {
+   "n": 230,
+   "answered": 230,
+   "acc": 0.8913043478260869,
+   "auroc": 0.9786546943919344,
+   "lat_med": 6.996274948120117,
+   "cost": 0.2017539,
+   "by_sub": {
+    "correct": 0.87,
+    "long-vowel": 1.0,
+    "youon": 1.0,
+    "voicing": 0.9767441860465116,
+    "sokuon-drop": 1.0,
+    "homograph": 1.0,
+    "homograph-correct": 0.6666666666666666,
+    "counter-correct": 0.875,
+    "counter": 1.0
+   },
+   "tokens_per_item": 184.0091304347826,
+   "list_cost_per_1k": 0.8771908695652175,
+   "batch_lat_med": 6.996274948120117
+  }
+ },
+ "links": {
+  "haiku": {
+   "n": 216,
+   "answered": 216,
+   "acc": 0.8148148148148148,
+   "auroc": 0.8788047672125525,
+   "lat_med": 23.179569959640503,
+   "cost": 0.030052555,
+   "by_sub": {
+    "keep": 0.8256880733944955,
+    "unlink": 0.8494623655913979,
+    "retarget": 0.5
+   },
+   "tokens_per_item": 399.9023148148148,
+   "list_cost_per_1k": 0.13913219907407406,
+   "batch_lat_med": 23.179569959640503
+  },
+  "opus": {
+   "n": 216,
+   "answered": 216,
+   "acc": 0.8611111111111112,
+   "auroc": 0.9238189145159907,
+   "lat_med": 13.570271492004395,
+   "cost": 0.5939298,
+   "by_sub": {
+    "keep": 0.8715596330275229,
+    "unlink": 0.8924731182795699,
+    "retarget": 0.5714285714285714
+   },
+   "tokens_per_item": 259.0361111111111,
+   "list_cost_per_1k": 2.7496749999999994,
+   "batch_lat_med": 13.570271492004395
+  },
+  "sonnet": {
+   "n": 216,
+   "answered": 216,
+   "acc": 0.7546296296296297,
+   "auroc": 0.8484523707450913,
+   "lat_med": 6.391276597976685,
+   "cost": 0.2289147,
+   "by_sub": {
+    "keep": 0.7339449541284404,
+    "unlink": 0.8279569892473119,
+    "retarget": 0.42857142857142855
+   },
+   "tokens_per_item": 227.70694444444445,
+   "list_cost_per_1k": 1.0597902777777777,
+   "batch_lat_med": 6.391276597976685
+  }
+ },
+ "flags": {
+  "haiku": {
+   "n": 200,
+   "answered": 200,
+   "acc": 0.605,
+   "auroc": 0.65595,
+   "lat_med": 24.505629539489746,
+   "cost": 0.0339798,
+   "by_sub": {
+    "gloss": 0.3888888888888889,
+    "notes": 0.6846846846846847,
+    "translation": 0.6857142857142857
+   },
+   "tokens_per_item": 510.53000000000003,
+   "list_cost_per_1k": 0.169899,
+   "batch_lat_med": 24.505629539489746
+  },
+  "opus": {
+   "n": 200,
+   "answered": 200,
+   "acc": 0.6,
+   "auroc": 0.72195,
+   "lat_med": 17.891454458236694,
+   "cost": 0.762632,
+   "by_sub": {
+    "gloss": 0.4074074074074074,
+    "notes": 0.6936936936936937,
+    "translation": 0.6
+   },
+   "tokens_per_item": 361.3,
+   "list_cost_per_1k": 3.81316,
+   "batch_lat_med": 17.891454458236694
+  },
+  "sonnet": {
+   "n": 200,
+   "answered": 200,
+   "acc": 0.545,
+   "auroc": 0.63135,
+   "lat_med": 6.363512754440308,
+   "cost": 0.273746,
+   "by_sub": {
+    "notes": 0.5765765765765766,
+    "translation": 0.5428571428571428,
+    "gloss": 0.48148148148148145
+   },
+   "tokens_per_item": 307.695,
+   "list_cost_per_1k": 1.3687299999999998,
+   "batch_lat_med": 6.363512754440308
+  }
+ },
+ "conjugation": {
+  "haiku": {
+   "n": 180,
+   "answered": 180,
+   "acc": 1.0,
+   "auroc": 1.0,
+   "lat_med": 10.870887041091919,
+   "cost": 0.014568300000000001,
+   "by_sub": {
+    "ichidan": 1.0,
+    "godan": 1.0
+   },
+   "tokens_per_item": 251.5,
+   "list_cost_per_1k": 0.080935,
+   "batch_lat_med": 10.870887041091919
+  },
+  "opus": {
+   "n": 180,
+   "answered": 180,
+   "acc": 1.0,
+   "auroc": 1.0,
+   "lat_med": 9.694036960601807,
+   "cost": 0.34943599999999997,
+   "by_sub": {
+    "ichidan": 1.0,
+    "godan": 1.0
+   },
+   "tokens_per_item": 186.60555555555555,
+   "list_cost_per_1k": 1.941311111111111,
+   "batch_lat_med": 9.694036960601807
+  },
+  "sonnet": {
+   "n": 180,
+   "answered": 180,
+   "acc": 0.9777777777777777,
+   "auroc": 0.9980246913580247,
+   "lat_med": 8.455033302307129,
+   "cost": 0.168114,
+   "by_sub": {
+    "ichidan": 0.9672131147540983,
+    "godan": 0.9831932773109243
+   },
+   "tokens_per_item": 183.11666666666667,
+   "list_cost_per_1k": 0.9339666666666667,
+   "batch_lat_med": 8.455033302307129
+  }
+ },
+ "translation": {
+  "haiku": {
+   "n": 190,
+   "answered": 190,
+   "acc": 0.9894736842105263,
+   "auroc": 1.0,
+   "lat_med": 11.112488865852356,
+   "cost": 0.013837575,
+   "by_sub": {
+    "original": 0.98,
+    "sibling-swap": 1.0,
+    "perturb": 1.0
+   },
+   "tokens_per_item": 219.32473684210527,
+   "list_cost_per_1k": 0.07282934210526316,
+   "batch_lat_med": 11.112488865852356
+  },
+  "opus": {
+   "n": 190,
+   "answered": 190,
+   "acc": 1.0,
+   "auroc": 1.0,
+   "lat_med": 8.901191234588623,
+   "cost": 0.309085,
+   "by_sub": {
+    "original": 1.0,
+    "sibling-swap": 1.0,
+    "perturb": 1.0
+   },
+   "tokens_per_item": 154.9142105263158,
+   "list_cost_per_1k": 1.6267631578947368,
+   "batch_lat_med": 8.901191234588623
+  },
+  "sonnet": {
+   "n": 190,
+   "answered": 190,
+   "acc": 0.9947368421052631,
+   "auroc": 0.9986111111111111,
+   "lat_med": 6.2691380977630615,
+   "cost": 0.1365565,
+   "by_sub": {
+    "original": 1.0,
+    "sibling-swap": 1.0,
+    "perturb": 0.975
+   },
+   "tokens_per_item": 145.6278947368421,
+   "list_cost_per_1k": 0.7187184210526316,
+   "batch_lat_med": 6.2691380977630615
+  }
+ },
+ "transitivity": {
+  "haiku": {
+   "n": 181,
+   "answered": 181,
+   "acc": 0.9116022099447514,
+   "auroc": null,
+   "lat_med": 13.876676082611084,
+   "cost": 0.01989678,
+   "by_sub": {
+    "general": 0.9107142857142857,
+    "core": 1.0,
+    "basic": 0.0
+   },
+   "tokens_per_item": 354.63176795580114,
+   "list_cost_per_1k": 0.10992696132596684,
+   "batch_lat_med": 13.876676082611084
+  },
+  "opus": {
+   "n": 181,
+   "answered": 181,
+   "acc": 0.9392265193370166,
+   "auroc": null,
+   "lat_med": 13.44365406036377,
+   "cost": 0.5149082,
+   "by_sub": {
+    "general": 0.9345238095238095,
+    "core": 1.0,
+    "basic": 1.0
+   },
+   "tokens_per_item": 276.9232044198895,
+   "list_cost_per_1k": 2.8447966850828728,
+   "batch_lat_med": 13.44365406036377
+  },
+  "sonnet": {
+   "n": 181,
+   "answered": 181,
+   "acc": 0.8176795580110497,
+   "auroc": null,
+   "lat_med": 6.242858171463013,
+   "cost": 0.2012736,
+   "by_sub": {
+    "general": 0.8214285714285714,
+    "core": 0.8333333333333334,
+    "basic": 0.0
+   },
+   "tokens_per_item": 246.0732044198895,
+   "list_cost_per_1k": 1.1120088397790056,
+   "batch_lat_med": 6.242858171463013
+  }
+ },
+ "sense": {
+  "haiku": {
+   "n": 160,
+   "answered": 160,
+   "acc": 0.95625,
+   "auroc": null,
+   "lat_med": 9.619948387145996,
+   "cost": 0.0110692,
+   "by_sub": {
+    "2-sense": 0.96,
+    "3-sense": 0.8888888888888888,
+    "4-sense": 1.0
+   },
+   "tokens_per_item": 235.28125,
+   "list_cost_per_1k": 0.0691825,
+   "batch_lat_med": 9.619948387145996
+  },
+  "opus": {
+   "n": 160,
+   "answered": 160,
+   "acc": 0.9625,
+   "auroc": null,
+   "lat_med": 10.136593222618103,
+   "cost": 0.330396,
+   "by_sub": {
+    "2-sense": 0.9666666666666667,
+    "3-sense": 0.8888888888888888,
+    "4-sense": 1.0
+   },
+   "tokens_per_item": 200.075,
+   "list_cost_per_1k": 2.064975,
+   "batch_lat_med": 10.136593222618103
+  },
+  "sonnet": {
+   "n": 160,
+   "answered": 160,
+   "acc": 0.96875,
+   "auroc": null,
+   "lat_med": 5.679836988449097,
+   "cost": 0.13734,
+   "by_sub": {
+    "2-sense": 0.9733333333333334,
+    "3-sense": 0.8888888888888888,
+    "4-sense": 1.0
+   },
+   "tokens_per_item": 182.84375,
+   "list_cost_per_1k": 0.858375,
+   "batch_lat_med": 5.679836988449097
+  }
+ }
+}

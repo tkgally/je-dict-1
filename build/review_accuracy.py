@@ -42,6 +42,19 @@ Reuses review_runner.py's OpenRouter plumbing. Respects a per-invocation
 --budget (USD, estimated); the Routine enforces the $5/day cap via the ledger.
 --workers N (default 4) runs N calls at once; output stays in entry order.
 
+Second reviewer (2026-10-25, enhancement/claude-backends-2026-10-25/REPORT.md).
+`--second claude:opus` reviews the same entries again with Claude Opus on the
+subscription (build/claude_backend.py), one entry per call: on 200 entries it
+found as many real errors as gpt-6.1-sol, and a different quarter of them. The
+Claude reviewer gets prompt version 5 (v4 plus a paragraph naming the error
+classes the adjudication has been accepting: false absolutes such as "only" or
+"exclusively", false claims about a neighbouring word, reversed glosses, shifted
+translations, wrong etymology), and its `warn` flags are kept: it marks many
+real errors `warn` (about 90% held up), unlike gemini-2.5-flash, whose warns
+were about 1% right. Its reviews go to reviews/accuracy/{id}.claude.json; its
+flag lines carry `"model"`. It costs no money; the subscription guard in
+claude_backend.py stops it before it can starve the Routine's own sessions.
+
 Usage:
     python3 build/review_accuracy.py --ids 05891,05907 --budget 0.50
     python3 build/review_accuracy.py --range 5800 5900 --budget 1.00
@@ -63,6 +76,7 @@ from review_runner import (  # noqa: E402  (sibling module, tested plumbing)
     get_api_key,
 )
 from validate_tags import VALID_SEMANTIC  # noqa: E402
+import claude_backend  # noqa: E402
 
 try:  # 1:1 migration map for common off-vocabulary tags (optional)
     from check_tag_drift import TAG_MIGRATION  # noqa: E402
@@ -86,6 +100,22 @@ DIMENSIONS = ("gloss", "translation", "tags", "notes")
 # off-vocabulary detection into code, and post-filters the measured noise
 # families. See reviews/decisions.jsonl for the evidence.
 PROMPT_VERSION = 4
+# v5 = v4 plus CLAUDE_ERROR_CLASSES; used only for the claude: second reviewer.
+CLAUDE_PROMPT_VERSION = 5
+CLAUDE_WORKERS = 6  # parallel claude processes; the Routine's container has four CPUs
+
+CLAUDE_ERROR_CLASSES = """What counts as WRONG (report these; they are not simplifications):
+- an absolute or restriction the language does not have: "only", "exclusively", "always", "never",
+  "almost exclusively", "cannot", "is not used in X" when the word is in fact used more widely;
+- a claim about ANOTHER word (a synonym, contrast or confusable word named in the notes) that is false,
+  including a wrong reading, a wrong meaning or a wrong register for that word;
+- a gloss that reverses who does what (give vs take, lend vs borrow, administer vs take) or names a
+  different, neighbouring concept (conflict of interest vs. stake in something);
+- an English translation that adds, drops or shifts meaning (time, agent, negation, desire, degree);
+- a wrong etymology, origin language, kanji explanation or cultural fact.
+Do not report style, missing information or emphasis.
+
+"""
 
 # Tags the reviewer must never dispute on breadth grounds.
 FALLBACK_TAGS = {"general", "descriptive", "expression", "onomatopoeia",
@@ -182,7 +212,18 @@ def entry_payload(entry, include_notes=True):
     return payload
 
 
-def build_prompt(entry, dimensions):
+def is_claude(model):
+    return str(model or "").startswith("claude:")
+
+
+def build_prompt(entry, dimensions, model=None):
+    prompt = _build_prompt(entry, dimensions)
+    if is_claude(model):
+        prompt = prompt.replace("Project conventions", CLAUDE_ERROR_CLASSES + "Project conventions", 1)
+    return prompt
+
+
+def _build_prompt(entry, dimensions):
     payload = entry_payload(entry, include_notes=("notes" in dimensions
                                                    or "tags" in dimensions))
     checks = []
@@ -427,8 +468,10 @@ def filter_issues(issues, dimensions):
 
 
 def review_entry(entry, api_key, model, dimensions, keep_warn=False):
-    """Returns (issues, dropped, prompt). issues is None on an API/parse failure."""
-    prompt = build_prompt(entry, dimensions)
+    """Returns (issues, dropped, prompt). issues is None on an API/parse failure.
+    A claude: reviewer gets the v5 prompt and keeps its warn flags."""
+    prompt = build_prompt(entry, dimensions, model)
+    keep_warn = keep_warn or is_claude(model)
     resp = call_openrouter(api_key, model, prompt)
     raw = parse_model_response(resp)
     if raw is None:
@@ -448,11 +491,17 @@ def _append_flag_line(record):
     line = {"entry_id": record["entry_id"], "reviewed_at": record["reviewed_at"],
             "entry_modified": record.get("entry_modified"),
             "prompt_version": record["prompt_version"],
+            "model": record.get("model"),
             "issues": [{k: it.get(k) for k in ("dimension", "location", "severity",
                                                  "concern", "suggestion", "family")}
                        for it in record["issues"]]}
     with FLAGS_FILE.open("a", encoding="utf-8") as f:
         f.write(json.dumps(line, ensure_ascii=False) + "\n")
+
+
+def review_path(eid, model):
+    """reviews/accuracy/{id}.json for the main reviewer, {id}.claude.json for a claude: one."""
+    return OUT_DIR / (f"{eid}.claude.json" if is_claude(model) else f"{eid}.json")
 
 
 def save_review(entry, model, dimensions, issues, dropped=None):
@@ -462,7 +511,7 @@ def save_review(entry, model, dimensions, issues, dropped=None):
         "entry_id": eid,
         "headword": entry.get("headword"),
         "model": model,
-        "prompt_version": PROMPT_VERSION,
+        "prompt_version": CLAUDE_PROMPT_VERSION if is_claude(model) else PROMPT_VERSION,
         "dimensions": list(dimensions),
         "reviewed_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "entry_modified": (entry.get("metadata") or {}).get("modified"),
@@ -471,33 +520,46 @@ def save_review(entry, model, dimensions, issues, dropped=None):
         "dropped": dropped or {},
         "issues": issues,
     }
-    (OUT_DIR / f"{eid}.json").write_text(
+    review_path(eid, model).write_text(
         json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     _append_flag_line(record)
 
 
-def run_review(entries, model, dimensions, budget, dry_run, keep_warn=False, workers=1):
+def run_review(entries, model, dimensions, budget, dry_run, keep_warn=False, workers=1,
+               planned_out=None):
+    """Review the entries the budget covers; returns the estimated cost.
+    planned_out, if a list, receives the (entry, path) pairs that were sent."""
     if dry_run:
         for entry, _ in entries[:3]:
             print(f"--- prompt for {entry.get('id')} ---")
-            print(build_prompt(entry, dimensions))
+            print(build_prompt(entry, dimensions, model))
             print()
         print(f"(dry-run: {len(entries)} entries would be reviewed, no API calls)")
         return 0.0
 
-    api_key = get_api_key()
+    if is_claude(model):
+        ok, why = claude_backend.available()
+        if not ok:
+            print(f"{model} review skipped: {why}")
+            return 0.0
+        api_key = None
+    else:
+        api_key = get_api_key()
     # Choose the entries the budget covers before any call, so the stopping
     # point is the same whatever the number of workers.
     total_cost = 0.0
     planned = []
     for entry, _ in entries:
-        est = estimate_cost(model, rough_token_count(build_prompt(entry, dimensions)), 400)
+        est = estimate_cost(model, rough_token_count(build_prompt(entry, dimensions, model)), 400)
         if budget is not None and total_cost + est > budget:
             print(f"\nBudget limit reached (${total_cost:.4f} + ${est:.4f} > "
                   f"${budget:.2f}). Stopping after {len(planned)} entries.")
             break
         total_cost += est
         planned.append((entry, est))
+    if planned_out is not None:
+        sent = {id(e) for e, _ in planned}
+        planned_out.extend(pair for pair in entries if id(pair[0]) in sent)
 
     def one(item):
         return review_entry(item[0], api_key, model, dimensions, keep_warn=keep_warn)
@@ -531,8 +593,10 @@ def run_review(entries, model, dimensions, budget, dry_run, keep_warn=False, wor
     finally:
         if pool is not None:
             pool.shutdown(wait=True)
-    print(f"\nReviewed: {reviewed}, Flagged: {flagged}, Failed: {failed}, "
+    print(f"\n{model}: Reviewed: {reviewed}, Flagged: {flagged}, Failed: {failed}, "
           f"Est. cost: ${total_cost:.4f}")
+    if is_claude(model):
+        print(claude_backend.usage_line())
     if dropped_total:
         print("Filtered by family: " + ", ".join(
             f"{k}={v}" for k, v in sorted(dropped_total.items())))
@@ -568,33 +632,43 @@ def run_show(entries, include_stale=False):
     shown = stale = missing = 0
     for entry, _path in entries:
         eid = entry.get("id")
-        f = OUT_DIR / f"{eid}.json"
-        if not f.exists():
+        files = [f for f in (OUT_DIR / f"{eid}.json", OUT_DIR / f"{eid}.claude.json") if f.exists()]
+        if not files:
             missing += 1
             continue
-        try:
-            record = json.loads(f.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
-            continue
-        is_stale = review_is_stale(record, entry)
-        if is_stale:
-            stale += 1
-            print(f"STALE {eid}: reviewed {record.get('reviewed_at')}, entry modified "
-                  f"{(entry.get('metadata') or {}).get('modified')}; re-run the review")
-            if not include_stale:
+        for f in files:
+            try:
+                record = json.loads(f.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
                 continue
-        for it in record.get("issues") or []:
-            shown += 1
-            print(f"## {eid} {it.get('family') or assign_family(it)} {it.get('location')}"
-                  f" [{it.get('severity')}]")
-            print(f"   concern: {it.get('concern')}")
-            if it.get("quote"):
-                print(f"   quote: {it.get('quote')}")
-            if it.get("suggestion"):
-                print(f"   suggestion: {it.get('suggestion')}")
+            shown_n, stale_n = _show_record(eid, entry, record, include_stale)
+            shown += shown_n
+            stale += stale_n
     print(f"{shown} issue(s) shown; {stale} stale review(s)"
           f"{' (issues hidden)' if stale and not include_stale else ''}; "
           f"{missing} entr{'y' if missing == 1 else 'ies'} without a review")
+
+
+def _show_record(eid, entry, record, include_stale):
+    shown = stale = 0
+    by = record.get("model") or ""
+    is_stale = review_is_stale(record, entry)
+    if is_stale:
+        stale += 1
+        print(f"STALE {eid} ({by}): reviewed {record.get('reviewed_at')}, entry modified "
+              f"{(entry.get('metadata') or {}).get('modified')}; re-run the review")
+        if not include_stale:
+            return shown, stale
+    for it in record.get("issues") or []:
+        shown += 1
+        print(f"## {eid} {it.get('family') or assign_family(it)} {it.get('location')}"
+              f" [{it.get('severity')}] ({by})")
+        print(f"   concern: {it.get('concern')}")
+        if it.get("quote"):
+            print(f"   quote: {it.get('quote')}")
+        if it.get("suggestion"):
+            print(f"   suggestion: {it.get('suggestion')}")
+    return shown, stale
 
 
 def run_report():
@@ -602,7 +676,7 @@ def run_report():
         print("No accuracy reviews yet.")
         return
     files = sorted(OUT_DIR.glob("*.json"))
-    total = flagged = 0
+    total = flagged = by_claude = 0
     by_dim, by_family, dropped = {}, {}, {}
     for f in files:
         try:
@@ -610,6 +684,7 @@ def run_report():
         except json.JSONDecodeError:
             continue
         total += 1
+        by_claude += is_claude(d.get("model"))
         if d.get("issues"):
             flagged += 1
         for it in d.get("issues", []):
@@ -618,7 +693,8 @@ def run_report():
             by_family[fam] = by_family.get(fam, 0) + 1
         for k, v in (d.get("dropped") or {}).items():
             dropped[k] = dropped.get(k, 0) + v
-    print(f"Accuracy reviews on disk: {total} entries, {flagged} with issues")
+    print(f"Accuracy reviews on disk: {total} ({by_claude} by a claude: reviewer), "
+          f"{flagged} with issues")
     for dim in DIMENSIONS:
         if dim in by_dim:
             print(f"  {dim:12} {by_dim[dim]} issue(s)")
@@ -634,6 +710,9 @@ def main():
     ap.add_argument("--ids", help="Comma-separated entry IDs (5-digit numeric).")
     ap.add_argument("--range", nargs=2, type=int, metavar=("START", "END"))
     ap.add_argument("--model", default=DEFAULT_MODEL)
+    ap.add_argument("--second", metavar="MODEL",
+                    help="also review the same entries with this model, e.g. claude:opus "
+                         "(headless Claude on the subscription; v5 prompt, warn flags kept)")
     ap.add_argument("--dimensions", default=",".join(DIMENSIONS),
                     help="Comma-separated subset of: gloss,translation,tags,notes")
     ap.add_argument("--budget", type=float, help="Stop when estimated cost exceeds this (USD).")
@@ -671,8 +750,13 @@ def main():
         run_show(entries, include_stale=args.include_stale)
         return 0
 
+    planned = []
     run_review(entries, args.model, dims, args.budget, args.dry_run,
-               keep_warn=args.keep_warn, workers=max(1, args.workers))
+               keep_warn=args.keep_warn, workers=max(1, args.workers), planned_out=planned)
+    if args.second and not args.dry_run:
+        print(f"\nSecond reviewer {args.second} on the same {len(planned)} entries")
+        run_review(planned, args.second, dims, None, False, keep_warn=args.keep_warn,
+                   workers=CLAUDE_WORKERS if is_claude(args.second) else max(1, args.workers))
     return 0
 
 

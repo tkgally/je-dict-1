@@ -204,6 +204,8 @@ One verification pass, one fix round, then stop; never re-verify the fix round.
    ```bash
    python3 build/review_accuracy.py --ids <id1,id2,...> --budget 0.40
    ```
+   The reviewer is `gpt-6.1-sol` alone, by design: this checks the work you just
+   did, so a reviewer from another model family is the point (no `--second` here).
    It writes `reviews/accuracy/{id}.json` (local; `--show --ids …` lists the
    issues) and appends flagged entries
    to `reviews/accuracy_flags.jsonl`. Off-vocabulary tags are flagged by code;
@@ -220,6 +222,10 @@ One verification pass, one fix round, then stop; never re-verify the fix round.
    ```bash
    python3 build/review_links.py --ids <id1,id2,...> --skip-decided --budget 0.10 --src self-check
    ```
+   The link judge is Claude Opus on the subscription (since 2026-10-25; it judged
+   kana links as well as `gpt-6.1-sol` and far better than `gemini-2.5-flash`, used
+   before), falling back to `gpt-6.1-sol` when the claude CLI is unavailable or the
+   subscription guard has stopped it.
    It appends flags (`other` / `unsure`) to `reviews/link_flags.jsonl`. Open
    each flagged sentence yourself: if the marked word is not the entry's word,
    append an `unlink` line to `reviews/link_decisions.jsonl` (§C) and run
@@ -339,22 +345,38 @@ converging.
 2. **Do not run the furigana screener** (`review_runner.py`). Its flags ran at
    2 percent precision over the whole series; the accuracy reviewer and the
    deterministic furigana checks cover the ground.
-3. **Review**:
+3. **Review** (two reviewers since 2026-10-25):
    ```bash
-   python3 build/review_accuracy.py --range <start> <end> --budget <budget>
+   python3 build/review_accuracy.py --range <start> <end> --budget <budget> --second claude:opus
    ```
-   Each entry's surviving issues land in `reviews/accuracy/{id}.json`; flagged
-   entries are also appended to `reviews/accuracy_flags.jsonl`. The `family`
+   `gpt-6.1-sol` reviews the range on OpenRouter, then Claude Opus reviews the same
+   entries again on the subscription (headless `claude -p`, one entry per call, no
+   money; enhancement/claude-backends-2026-10-25/REPORT.md: each found about two
+   thirds of the known errors, a different two thirds, 85% together). The Opus pass
+   takes about 6 seconds per entry over six parallel calls (about 13 minutes for
+   770 entries) and prints a `CLAUDE_USAGE` line; copy it into the session log. It
+   stops by itself if the subscription's five-hour or seven-day window passes the
+   limit in `pipeline/routine-config.json` (`claude`), so the Routine's own sessions
+   keep their allowance; the line then says STOPPED, and the sol review stands alone
+   for the rest of the range. Each entry's surviving issues land in
+   `reviews/accuracy/{id}.json` (sol) and `reviews/accuracy/{id}.claude.json`
+   (Opus, which also keeps its `warn` flags: they held up about 90% of the time);
+   flagged entries are also appended to `reviews/accuracy_flags.jsonl`. The two
+   reviewers often flag the same problem in different words: adjudicate it once and
+   log one decision. The `family`
    field tells you what kind of flag it is: `offvocab` (deterministic, always
    apply the migration to the suggested or best in-list tag),
    `wrong-category`, `register` (comes with a verbatim quote), `gloss-meaning`,
    `translation-meaning`, `notes-fact` (comes with a verbatim quote).
 4. **Adjudicate** every issue: APPLY / REJECT / FLAG per §C. List them with
-   `python3 build/review_accuracy.py --show --range <start> <end>`; it hides
+   `python3 build/review_accuracy.py --show --range <start> <end> > /tmp/acc_issues.txt`
+   once, before you change anything, and work from that file (each issue names its
+   reviewer): an edit makes both reviewers' reports on that entry stale, so a second
+   `--show` would hide the other reviewer's issues there. `--show` hides
    reviews older than their entry (marked STALE: re-run those, never adjudicate
    them). Never apply blindly; open the entry. For `notes-fact`, check the claim against your own
    knowledge and the rest of the entry. If more than 25 percent of entries
-   come back flagged, not counting `offvocab` flags (those are deterministic and
+   come back flagged by either reviewer, not counting `offvocab` flags (those are deterministic and
    cluster in old tag batches), that is reviewer noise: log a `[tooling]`
    observation with examples. Update `modified` on every entry you change.
 5. **Ledger**:
@@ -411,10 +433,12 @@ For every adjudicated flag append one line to `reviews/decisions.jsonl`
 (always append; never rewrite):
 
 ```json
-{"ts":"2026-09-02T03:12:00Z","entry":"00123","src":"accuracy","dim":"gloss","family":"gloss-meaning","sev":"error","decision":"apply","note":"gloss said borrow, word means lend"}
+{"ts":"2026-09-02T03:12:00Z","entry":"00123","src":"accuracy","by":"sol","dim":"gloss","family":"gloss-meaning","sev":"error","decision":"apply","note":"gloss said borrow, word means lend"}
 ```
 
 - `src`: `accuracy` | `self-check` | `conjugation`
+- `by` (accuracy and self-check flags): which reviewer raised it, `sol` | `claude` |
+  `both`, so each reviewer's precision can be measured
 - `dim`: `gloss` | `translation` | `tags` | `notes` | `conjugation`
 - `family`: copy the issue's `family` field
 - `decision`: `apply` | `reject` | `flag`
@@ -455,12 +479,15 @@ Goal: catch conjugation tables that the generators (`build/add_conjugations.py`,
    produce now), `class` (SudachiPy reads the headword as another conjugation
    class), `example` (the examples or notes use a た/て form the table lacks), `model`
    (an earlier model flag on the same table).
-2. **Model check**, if `params.openrouter_session_budget_usd` is at least 0.05:
+2. **Model check**:
    ```bash
    python3 build/check_conjugations.py --llm --n <params.model_tables> --budget <params.openrouter_session_budget_usd>
    ```
-   It sends the next tables from the cursor to an independent model
-   (`openai/gpt-6.1-sol`), skipping tables it has already checked unchanged
+   It sends the next tables from the cursor to an independent model, Claude Haiku
+   on the subscription since 2026-10-25 (no money: it caught every injected error of
+   the known kinds, as `gpt-6.1-sol` did, with no false flags; if the claude CLI is
+   unavailable or the subscription guard has stopped it, the script falls back to
+   `gpt-6.1-sol` on OpenRouter, which needs the budget to be at least 0.05), skipping tables it has already checked unchanged
    (`polishing/tasks/conjugation-check/model_checked.json`), appends what it calls
    wrong to `reviews/conjugation_flags.jsonl`, advances the cursor and prints
    `EST_COST=` (the billed cost). Once every table has been checked, a run sends
@@ -469,7 +496,7 @@ Goal: catch conjugation tables that the generators (`build/add_conjugations.py`,
    now appear as `model`.
 3. **Adjudicate every open flag.** Open the entry. Decide from your own knowledge
    of Japanese, the entry's examples and notes, and, when unsure, a second opinion
-   from `python3 build/check_conjugations.py --llm --ids <id> --model google/gemini-3.8-flash --budget 0.02`.
+   from `python3 build/check_conjugations.py --llm --ids <id> --model openai/gpt-6.1-sol --budget 0.02`.
    - **Table wrong, and the error is a pattern** (a class of verbs the generator
      mishandles): fix the generator, add a unit test to
      `build/tests/test_add_conjugations.py`, then rewrite every affected table with
@@ -531,7 +558,7 @@ python3 pipeline/run_clock.py start | (no arg)          # run start; between bat
 python3 pipeline/routine_next.py                         # §1 pick the mode
 make mechanical IDS=…                                    # §3 mechanical pass
 python3 build/review_accuracy.py --ids … --budget 0.40   # §4 self-check
-python3 build/review_accuracy.py --range S E --budget B  # §A sweep
+python3 build/review_accuracy.py --range S E --budget B --second claude:opus  # §A sweep, sol + Opus
 python3 build/audio_pipeline.py plan / run / publish / verify   # audio mode (prompts/audio.md)
 python3 build/audio_maintenance.py due                   # audio mode: maintenance due, production blocked?
 python3 build/check_conjugations.py [--llm --n N --budget B]   # §D conjugation tables

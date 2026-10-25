@@ -60,6 +60,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import random
 import re
 import sys
@@ -71,6 +72,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import auto_link as al  # noqa: E402
+import claude_backend  # noqa: E402
 import check_link_homophones as clh  # noqa: E402
 from review_runner import (  # noqa: E402
     MODEL_COSTS, call_openrouter, estimate_cost, extract_message_text, get_api_key,
@@ -86,8 +88,13 @@ DATA_PATH = clh.DATA_PATH
 
 # gemini-2.5-pro was tried for the screen (2026-09-08): its reasoning ate the
 # completion cap and 65 of 66 JSON arrays came back truncated or as prose.
-SCREEN_MODEL = "google/gemini-2.5-flash"
-REVIEW_MODEL = "google/gemini-2.5-flash"
+# Claude Opus on the subscription since 2026-10-25 (enhancement/claude-backends-2026-10-25):
+# on 216 labeled link judgments it scored 0.86, as gpt-6.1-sol did; gemini-2.5-flash, used
+# until then, scored 0.66. When the claude CLI is missing or the subscription guard has
+# stopped it, the review falls back to FALLBACK_MODEL on OpenRouter.
+SCREEN_MODEL = "claude:opus"
+REVIEW_MODEL = "claude:opus"
+FALLBACK_MODEL = "openai/gpt-6.1-sol"
 SCREEN_BATCH = 10
 REVIEW_BATCH = 15
 MAX_TOKENS = 8192
@@ -164,6 +171,8 @@ class Budget:
 
 
 def actual_cost(model: str, response: dict | None) -> float | None:
+    if claude_backend.is_claude(model):
+        return 0.0  # the subscription covers it; usage is in claude_backend.usage_line()
     usage = (response or {}).get("usage") if isinstance(response, dict) else None
     if not isinstance(usage, dict):
         return None
@@ -825,7 +834,7 @@ def main(argv=None) -> int:
     ap.add_argument("--aggregate", action="store_true",
                     help="--ledger-from: one keep line per (base, target) with a count instead of per occurrence")
     ap.add_argument("--src", default="sweep", help="ledger/flag source label (sweep, self-check, hand)")
-    ap.add_argument("--model", help="OpenRouter model id")
+    ap.add_argument("--model", help="model id: claude:<model> (headless Claude) or an OpenRouter id")
     ap.add_argument("--budget", type=float, default=0.50, help="USD cap for this invocation")
     ap.add_argument("--workers", type=int, default=WORKERS)
     ap.add_argument("--dry-run", action="store_true", help="show the first prompt and the estimate")
@@ -839,13 +848,22 @@ def main(argv=None) -> int:
         return run_apply(args)
     if args.ledger_from:
         return run_ledger_from(args)
-    api_key = None if args.dry_run else get_api_key()
-    if api_key is None and not args.dry_run:
-        print("OPENROUTER_API_KEY is not set", file=sys.stderr)
-        return 2
-    if args.screen:
-        return run_screen(args, api_key)
-    return run_review(args, api_key)
+    args.model = args.model or (SCREEN_MODEL if args.screen else REVIEW_MODEL)
+    if claude_backend.is_claude(args.model):
+        ok, why = claude_backend.available()
+        if not ok:
+            print(f"{args.model} unavailable ({why}); using {FALLBACK_MODEL}")
+            args.model = FALLBACK_MODEL
+    api_key = None
+    if not args.dry_run and not claude_backend.is_claude(args.model):
+        if not os.environ.get("OPENROUTER_API_KEY"):
+            print("OPENROUTER_API_KEY is not set", file=sys.stderr)
+            return 2
+        api_key = get_api_key()
+    rc = run_screen(args, api_key) if args.screen else run_review(args, api_key)
+    if claude_backend.is_claude(args.model) and not args.dry_run:
+        print(claude_backend.usage_line())
+    return rc
 
 
 if __name__ == "__main__":

@@ -55,7 +55,7 @@ python3 build/fix_furigana_format.py --range 1 30999 --apply # Safe furigana wra
 python3 build/add_conjugations.py                            # Conjugation tables for verbs (skips existing)
 python3 build/add_adjective_conjugations.py                  # Conjugation tables for i-adjectives
 python3 build/check_conjugations.py                          # Re-check all tables (missing, stale, class, examples)
-python3 build/check_conjugations.py --llm --n 1000 --budget 1   # Independent model check from the cursor (paid)
+python3 build/check_conjugations.py --llm --n 1000 --budget 1   # Independent model check from the cursor (Claude Haiku; sol fallback)
 python3 build/check_conjugations.py --regenerate --ids <ids> # Rewrite named tables from the generators
 python3 build/check_conjugations.py --verify <id> --note "…" # Record a flagged table as checked and correct
 ```
@@ -111,10 +111,18 @@ python3 build/retire_entry.py retire OLD_ID --to NEW_ID --reason "..."   # Delet
 python3 build/retire_entry.py rename OLD_ID NEW_ID --reason "..."        # New romaji, same number; old URL redirects
 ```
 
-## External review (requires OPENROUTER_API_KEY)
+## External review (OPENROUTER_API_KEY, or the Claude subscription for claude: models)
+
+A model id `claude:<model>` (`claude:opus`, `claude:haiku`) runs headless Claude on the
+subscription instead of OpenRouter (`build/claude_backend.py`): no money, a guard that stops
+the calls before the plan's usage windows pass the limits in `pipeline/routine-config.json`
+(`claude`), and a `CLAUDE_USAGE` line at the end. Since 2026-10-25 the kana-link review uses
+`claude:opus` and the conjugation model check `claude:haiku` by default, each falling back to
+`openai/gpt-6.1-sol` when Claude is unavailable.
 
 ```bash
 python3 build/review_accuracy.py --range 5800 5900 --budget 1.00   # gloss, translation, tags, notes
+python3 build/review_accuracy.py --range 5800 5900 --budget 1.00 --second claude:opus   # sweep: sol, then Opus on the same entries
 python3 build/review_accuracy.py --ids 05907 --budget 0.40         # self-check of specific entries
 python3 build/review_accuracy.py --ids 05907 --dimensions notes --dry-run
 python3 build/review_accuracy.py --report

@@ -107,7 +107,8 @@ pre-flight rescue and sweep. Each cycle: `python3 pipeline/routine_next.py` pick
 mode's prompt → mechanical pass on changed entries → independent-model self-check → metrics
 snapshot → `make index` → commit → PR → CI → squash-merge → the branch restarts from `main`.
 Modes and weights (`pipeline/routine-config.json`, reweighted 2026-10-23): polish 0.26,
-accuracy-review 0.24 (at most $10 of the $15 daily OpenRouter cap), systemic-fix 0.18,
+accuracy-review 0.24 (at most $10 of the $15 daily OpenRouter cap, plus a second review by
+Claude Opus on the subscription since 2026-10-25), systemic-fix 0.18,
 new-entries 0.16, audio 0.10 (only when at least 150 new or edited examples wait, or three days
 have passed with any waiting), candidates 0.06 (runs below 200 queued; closure plus
 brainstorming), wiki (trigger-only), conjugation-check (trigger-only, every three days:
@@ -126,8 +127,12 @@ skill for the entry type you touch.
 ```bash
 make mechanical IDS=<ids>      # normalize_notes → auto_link → harvest_crossrefs → validate each
 python3 build/review_accuracy.py --ids <ids> --budget 0.40   # independent check (needs OPENROUTER_API_KEY)
-python3 build/review_links.py --ids <ids> --skip-decided --budget 0.10   # kana links checked in context (same key)
+python3 build/review_links.py --ids <ids> --skip-decided --budget 0.10   # kana links checked in context (Claude Opus)
 ```
+
+Model ids of the form `claude:<model>` run headless Claude on the subscription
+(`build/claude_backend.py`, with a usage guard); the others go to OpenRouter. Which job uses
+which, and why: `enhancement/claude-backends-2026-10-25/REPORT.md`.
 
 Adjudicate every surviving flag (apply / reject / flag to `reviews/needs_curator.txt`) and log each
 decision to `reviews/decisions.jsonl`. Conventions and pure spelling duplicates are not curator

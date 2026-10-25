@@ -1,0 +1,937 @@
+You are a meticulous bilingual (Japanese-English) lexicographer reviewing several entries of a Japanese-English dictionary for intermediate learners. Your job is to catch REAL ERRORS that would mislead a learner — not to suggest improvements. Most entries you see are correct: the EXPECTED response is the empty array []. Report an issue only when you are confident something is factually wrong.
+
+Report an issue ONLY for these cases:
+- "gloss": the gloss or explanation states a WRONG or misleading meaning (e.g. says "borrow" for a word meaning "lend", or "wink" for a word meaning "blink"). Do NOT report glosses that are merely brief, incomplete, or phrased differently than you would phrase them — concise 3-8 word glosses are this dictionary's house style, and sense restructuring is out of scope.
+- "translation": an example's English MISREPRESENTS the Japanese (wrong meaning, dropped or added information) or is so unnatural that a learner would mislearn the English expression. Do NOT report phrasing preferences or minor literalness when the meaning is correct. Use the example index "i".
+- "tags": a SEMANTIC tag names a domain the HEADWORD does not belong to AT ALL (e.g. "clothing" on a word for a bag, "food" on an onomatopoeia, "animal-mammal" on an ink pad). Judge against the headword and gloss, NOT the example topics. BREADTH IS NEVER A REASON: never report a tag as too broad, too narrow, too vague, or replaceable by a more specific one, and never propose adding a tag. The tags "general", "descriptive", "expression", "onomatopoeia", "grammatical", "action", and "abstract" are always acceptable. Do not check whether a tag is in the valid list — software does that. Register labels (formality, politeness): report ONLY when a sentence in the notes explicitly contradicts the label, and put that sentence verbatim in "quote"; a register flag without a verbatim quote is discarded.
+- "notes": a factual, grammatical, or usage claim in the notes is WRONG — e.g. a false grammar rule ("attaches only to the past tense"), a reversed direction or order, a wrong statement about what another word means or which particle a verb takes, a wrong kanji or etymology claim, a wrong cultural fact. Put the offending sentence verbatim in "quote". Do NOT report style, length, repetition, missing information, or matters of opinion; do NOT report claims that are merely simplified for learners if they are not false. Severity "error" only.
+
+Project conventions — these are deliberate; do NOT report them as issues:
+- politeness "plain" is the default for ordinary (non-keigo) vocabulary.
+- formality "neutral" is the default; many everyday words carry it.
+- Kinship terms (母, 父, 兄, 姉 …) are tagged politeness "humble" by design (they are the in-group reference forms).
+- suru-verbs and action nouns carry the semantic tag "action" by convention.
+- Glosses are deliberately concise; explanations target intermediate learners; example translations favor natural English over word-for-word renderings.
+- Notes are deliberately selective; they need not mention every sense or use.
+
+Valid semantic tags, for reference only (do not report list membership):
+abstract, action, animal-bird, animal-fish, animal-general, animal-insect, animal-mammal, appearance, art, body-internal, body-part, brand-name, building, business, change, clothing, cognition, color, communication, consumption, cooking, creation, culture, daily-life, descriptive, direction, economics, education, electronics, emotion, entertainment, evaluation, event-name, existence, expression, family, finance, food, furniture, general, geography, grammatical, greeting, health, history, idiom, language, law, leisure, media, military, money, movement, music, nature, number, occupation, onomatopoeia, organization-name, person, person-name, personality, place, place-name, plant-flower, plant-general, plant-tree, politics, proper-noun, proverb, quantity, religion, science, sense, shopping, size, society, sports, technology, time-day-of-week, time-general, time-month, time-period, time-season, tool, transportation, travel, weather, work, work-name
+
+Severity: use "error" for issues that would actively mislead a learner (wrong meaning, wrong tag, false claim). Use "warn" SPARINGLY — only when something is likely wrong but you cannot be certain. Do not use "warn" for style.
+
+Entries:
+
+Entry 22000_tatari (JSON):
+{
+  "headword": "祟り",
+  "reading": "たたり",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "religion",
+    "culture"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "curse; divine punishment; retribution",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "curse; divine punishment; wrath of a spirit or deity",
+      "explanation": "Supernatural punishment or misfortune believed to be caused by an angry god, spirit, or deceased person. A core concept in Japanese folk religion."
+    },
+    {
+      "sense": 2,
+      "gloss": "bad consequences; ill effects; retribution",
+      "explanation": "Negative consequences resulting from a past action, used figuratively without literal supernatural meaning."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "これは祟りだ。",
+      "english": "This is a curse."
+    },
+    {
+      "i": 1,
+      "japanese": "神の祟りを恐れる。",
+      "english": "To fear divine retribution."
+    },
+    {
+      "i": 2,
+      "japanese": "村人たちは、古い祠を壊したことが祟りの原因だと信じていた。",
+      "english": "The villagers believed that destroying the old shrine was the cause of the curse."
+    },
+    {
+      "i": 3,
+      "japanese": "夜更かしの祟りだ。",
+      "english": "It's the consequence of staying up too late."
+    },
+    {
+      "i": 4,
+      "japanese": "無理をした祟りで体を壊した。",
+      "english": "I ruined my health as a result of overworking myself."
+    },
+    {
+      "i": 5,
+      "japanese": "若い頃の不摂生の祟りが今になって出てきた。",
+      "english": "The ill effects of an unhealthy lifestyle in my youth are showing up now."
+    }
+  ],
+  "notes": "Deeply rooted in Japanese folk religion and Shinto belief. A 祟り is understood as punishment from a supernatural being — a god, spirit, or the dead — that has been angered or disrespected. It is distinct from a deliberate curse cast by a person.\n\nCOMMON COLLOCATIONS:\n- 祟りがある: there is a curse\n- 祟りを受ける: to suffer a curse\n- 神の祟り: divine punishment\n- 怨霊の祟り: curse of a vengeful spirit\n- 祟りを恐れる: to fear a curse\n\nSIMILAR WORDS:\n- 呪い: curse — a curse intentionally cast by a person, unlike 祟り which comes from supernatural beings\n- 罰: punishment — general punishment, not necessarily supernatural\n- 天罰: divine punishment — emphasizes punishment from heaven for moral wrongdoing\n\nCULTURAL NOTE:\nFamous examples include the 祟り of 菅原道真, the exiled scholar whose angry spirit was believed to cause disasters in Kyoto, and the curse associated with disturbing ancient burial sites."
+}
+
+Entry 22026_kanshouyou (JSON):
+{
+  "headword": "観賞用",
+  "reading": "かんしょうよう",
+  "pos": [
+    "noun",
+    "adjective-no"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "nature",
+    "leisure"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "ornamental; for viewing purposes; decorative",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "ornamental; for viewing/appreciation purposes; decorative",
+      "explanation": "Intended for visual enjoyment rather than practical use. Used to describe plants, fish, and other items kept primarily for their beauty."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "観賞用の花を植えた。",
+      "english": "I planted ornamental flowers."
+    },
+    {
+      "i": 1,
+      "japanese": "この魚は観賞用で、食べることはできない。",
+      "english": "This fish is for viewing purposes and cannot be eaten."
+    },
+    {
+      "i": 2,
+      "japanese": "観賞用の植物として人気が高く、園芸店でよく見かける。",
+      "english": "It is popular as an ornamental plant and is commonly seen at garden shops."
+    }
+  ],
+  "notes": "ETYMOLOGY:\nA compound of 観賞 (appreciation; viewing) and 用 (for the purpose of). Distinguishes items kept for beauty from those with practical uses.\n\nCOMMON COLLOCATIONS:\n- 観賞用の植物: ornamental plant\n- 観賞用の魚: ornamental fish\n- 観賞用として育てる: to grow for ornamental purposes\n- 観賞用品種: ornamental variety\n\nSIMILAR WORDS:\n- 鑑賞用: for appreciation — uses 鑑 instead of 観; 鑑賞 tends to be used for art and music, while 観賞 is used for natural beauty like flowers and fish\n- 装飾用: for decoration — emphasizes decorating a space\n- 食用: edible; for eating — the practical counterpart for plants and fish\n\nWATCH OUT:\nBe careful not to confuse 観賞 (appreciating natural beauty) with 鑑賞 (appreciating art). 観賞用 is used for plants, fish, and gardens."
+}
+
+Entry 22051_suijoubasu (JSON):
+{
+  "headword": "水上バス",
+  "reading": "すいじょうばす",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "transportation"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "water bus; river bus; ferry",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "water bus; river bus; sightseeing ferry",
+      "explanation": "A passenger boat that operates on a regular route along rivers or waterways, functioning like a bus on water. Used for both transportation and sightseeing."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "水上バスで浅草まで行く。",
+      "english": "To go to Asakusa by water bus."
+    },
+    {
+      "i": 1,
+      "japanese": "隅田川の水上バスは観光客に人気がある。",
+      "english": "The water bus on the Sumida River is popular with tourists."
+    },
+    {
+      "i": 2,
+      "japanese": "天気が良い日に水上バスに乗って、川から街の景色を楽しんだ。",
+      "english": "On a nice day, I rode the water bus and enjoyed the city scenery from the river."
+    }
+  ],
+  "notes": "Composed of 水上 (on the water) and バス (bus). A boat service that runs on scheduled routes along rivers or waterways, similar to how a bus runs on roads.\n\nCOMMON COLLOCATIONS:\n- 水上バスに乗る: to ride the water bus\n- 水上バスの乗り場: water bus boarding point\n- 水上バスの路線: water bus route\n- 水上バスで観光する: to sightsee by water bus\n\nCULTURAL NOTE:\nIn Tokyo, water buses operate on the 隅田川 (Sumida River), connecting spots like 浅草, 日の出桟橋, and お台場. They are popular for sightseeing, especially during 桜 season and fireworks festivals. Other cities like Osaka and Hiroshima also have water bus services.\n\nRELATED WORDS:\n- 遊覧船: pleasure boat / sightseeing cruise — a broader term for recreational boat trips\n- 渡し船: ferryboat — a smaller boat for crossing a river\n- 屋形船: houseboat / yakatabune — a traditional roofed pleasure boat for dining"
+}
+
+Entry 22062_shikenmondai (JSON):
+{
+  "headword": "試験問題",
+  "reading": "しけんもんだい",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "education"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "exam question; test question; examination problem",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "exam question; test question; examination problem",
+      "explanation": "The individual questions or problems that appear on a test or examination. Widely used in educational contexts from school tests to university entrance exams."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "試験問題は難しかった。",
+      "english": "The exam questions were difficult."
+    },
+    {
+      "i": 1,
+      "japanese": "先生が試験問題を作っている。",
+      "english": "The teacher is making the test questions."
+    },
+    {
+      "i": 2,
+      "japanese": "過去の試験問題を解いて対策を立てた。",
+      "english": "I practiced past exam questions to prepare a study strategy."
+    }
+  ],
+  "notes": "A compound noun combining 試験 (exam) and 問題 (question/problem). Refers to the questions that appear on a test or examination. Widely used in educational contexts from elementary school through university entrance exams.\n\nCOMMON COLLOCATIONS:\n- 試験問題を解く: to solve exam questions\n- 試験問題を作成する: to create exam questions\n- 過去の試験問題: past exam questions\n- 試験問題が漏れる: exam questions are leaked\n\nSIMILAR WORDS:\n- 設問 — question (on a test); more formal, often refers to individual questions within a larger exam\n- 出題 — setting questions (the act of creating exam questions)\n- 問題集 — problem set; workbook of practice questions"
+}
+
+Entry 22087_sejou (JSON):
+{
+  "headword": "施錠",
+  "reading": "せじょう",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "transitive",
+  "tier": "general",
+  "semantic_tags": [
+    "daily-life"
+  ],
+  "formality": "formal",
+  "politeness": "plain",
+  "gloss": "locking; securing a lock",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "locking; securing a lock",
+      "explanation": "The act of locking a door, gate, or other opening. Used in formal and written contexts more than everyday speech."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "施錠を忘れた。",
+      "english": "I forgot to lock up."
+    },
+    {
+      "i": 1,
+      "japanese": "外出する前に施錠を確認する。",
+      "english": "I check that the door is locked before going out."
+    },
+    {
+      "i": 2,
+      "japanese": "閉店後は全ての出入口を施錠してください。",
+      "english": "Please lock all entrances after the store closes."
+    }
+  ],
+  "notes": "A formal word for the act of locking. While 鍵をかける is the everyday expression for locking a door, 施錠 is preferred in written notices, instructions, and formal speech.\n\nCOMMON COLLOCATIONS:\n- 施錠する: to lock\n- 施錠を確認する: to confirm the lock\n- 施錠を忘れる: to forget to lock\n- 自動施錠: automatic locking\n- 施錠管理: lock management\n\nSIMILAR WORDS:\n- 鍵をかける: to lock — the everyday colloquial expression\n- 解錠: unlocking — the formal antonym of 施錠\n- 戸締まり: locking up (the house) — focuses on securing the whole house before leaving or sleeping"
+}
+
+Entry 22122_nikibi (JSON):
+{
+  "headword": "ニキビ",
+  "reading": "にきび",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "body-part",
+    "health"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "pimple; acne",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "pimple; acne; blemish",
+      "explanation": "A small inflamed bump on the skin, especially on the face. Refers both to individual pimples and to acne as a condition. Very common in everyday conversation about skin care."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "ニキビができた。",
+      "english": "I got a pimple."
+    },
+    {
+      "i": 1,
+      "japanese": "思春期にはニキビが増えやすい。",
+      "english": "Pimples tend to increase during puberty."
+    },
+    {
+      "i": 2,
+      "japanese": "ニキビを潰すと跡が残るので、触らないほうがいいと皮膚科の先生に言われた。",
+      "english": "The dermatologist told me not to touch pimples because popping them can leave scars."
+    }
+  ],
+  "notes": "Usually written in katakana (ニキビ) rather than the rare kanji 面皰. This is the standard everyday word for pimples. The medical term is 尋常性ざ瘡 but this is almost never used outside clinical settings.\n\nCOMMON COLLOCATIONS:\n- ニキビができる: to get a pimple\n- ニキビを潰す: to pop a pimple\n- ニキビ跡: acne scar\n- ニキビ肌: acne-prone skin\n- 大人ニキビ: adult acne\n\nSIMILAR WORDS:\n- 吹き出物: skin blemish, breakout — broader term for skin eruptions, often used for adult acne\n- おでき: boil — larger, deeper skin inflammation\n- 肌荒れ: rough skin — a broader skin condition, not limited to pimples"
+}
+
+Entry 22159_touensuru (JSON):
+{
+  "headword": "登園する",
+  "reading": "とうえんする",
+  "pos": [
+    "verb-suru"
+  ],
+  "transitivity": "intransitive",
+  "tier": "general",
+  "semantic_tags": [
+    "movement",
+    "education"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "to go to kindergarten; to go to nursery school",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "to go to kindergarten; to go to nursery school; to attend preschool",
+      "explanation": "To go to a kindergarten ({幼稚園|ようちえん}) or nursery school ({保育園|ほいくえん}). Used for the daily act of a child going to their preschool facility."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "毎朝登園する。",
+      "english": "To go to kindergarten every morning."
+    },
+    {
+      "i": 1,
+      "japanese": "子供が元気に登園した。",
+      "english": "The child went to kindergarten cheerfully."
+    },
+    {
+      "i": 2,
+      "japanese": "熱があるときは無理に登園させないでください。",
+      "english": "Please do not force your child to go to kindergarten when they have a fever."
+    }
+  ],
+  "notes": "Used specifically for going to a 幼稚園 (kindergarten) or 保育園 (nursery/daycare). Part of a series of verbs that pair 登 (to go to) with different institutions.\n\nCOMMON COLLOCATIONS:\n- 登園時間: arrival time at kindergarten\n- 登園拒否: refusal to go to kindergarten\n- 登園自粛: voluntary absence from kindergarten\n- 登園バス: kindergarten bus\n\nRELATED WORDS:\n- 降園する: to leave kindergarten (going home)\n- 登校する: to go to school (elementary school and above)\n- 登社する: to go to the office\n- 通園する: to commute to kindergarten (habitual)\n\nREGISTER:\nNeutral. Commonly used among parents, teachers, and in childcare-related communications such as newsletters and notices from the school."
+}
+
+Entry 22173_renzokusuru (JSON):
+{
+  "headword": "連続する",
+  "reading": "れんぞくする",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "intransitive",
+  "tier": "general",
+  "semantic_tags": [
+    "time-general"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "to continue; to occur in succession; to be consecutive",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "to continue; to occur in succession; to be consecutive",
+      "explanation": "For events, actions, or things to follow one after another without interruption. Emphasizes the unbroken sequence or series nature of occurrences."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "事故が連続して起きた。",
+      "english": "Accidents occurred one after another."
+    },
+    {
+      "i": 1,
+      "japanese": "三日連続で雨が降っている。",
+      "english": "It has been raining for three days in a row."
+    },
+    {
+      "i": 2,
+      "japanese": "あのチームは五年連続で優勝しているから、今年も期待されている。",
+      "english": "That team has won the championship five years in a row, so they're expected to do well this year too."
+    }
+  ],
+  "notes": "Often used as a noun modifier: 連続＋counter (e.g., 三日連続 — three days running). Very common in news and sports contexts.\n\nCOMMON COLLOCATIONS:\n- ～日連続 — ~ days in a row\n- 連続殺人 — serial murder\n- 連続ドラマ — serial drama, TV series\n- 連続記録 — consecutive record\n- 連続優勝 — consecutive championships\n\nSIMILAR WORDS:\n- 続く — to continue (general, everyday); focuses on duration rather than sequence\n- 継続する — to continue, maintain; emphasizes sustained effort or ongoing state\n- 相次ぐ — to occur one after another; emphasizes that similar events keep happening (often negative events)"
+}
+
+Entry 22196_koushin (JSON):
+{
+  "headword": "行進",
+  "reading": "こうしん",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "intransitive",
+  "tier": "general",
+  "semantic_tags": [
+    "movement",
+    "culture"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "march; parade; procession",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "march; parade; procession; marching",
+      "explanation": "An organized group of people walking together in formation, typically in a ceremonial, military, or protest context."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "兵士たちが行進している。",
+      "english": "The soldiers are marching."
+    },
+    {
+      "i": 1,
+      "japanese": "運動会で子どもたちが元気に行進した。",
+      "english": "The children marched energetically at the sports day."
+    },
+    {
+      "i": 2,
+      "japanese": "市民たちは平和を求めて街の中心を行進した。",
+      "english": "The citizens marched through the city center calling for peace."
+    }
+  ],
+  "notes": "Composed of 行 (go) + 進 (advance). Refers to organized, purposeful walking in formation. Can be used as a noun or with する as a verb (行進する — to march).\n\nCOMMON COLLOCATIONS:\n- 行進する — to march\n- 行進曲 — march (music); marching song\n- 軍事行進 — military march\n- 平和行進 — peace march\n- 凱旋行進 — triumphal procession\n\nSIMILAR WORDS:\n- パレード — parade (loanword; often festive or celebratory)\n- デモ行進 — demonstration march (protest)\n- 行列 — procession; queue (less formal, not necessarily in formation)\n- 進軍 — military advance (specifically troops advancing toward battle)"
+}
+
+Entry 22209_tanshoku (JSON):
+{
+  "headword": "単色",
+  "reading": "たんしょく",
+  "pos": [
+    "noun",
+    "adjective-no"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "color",
+    "appearance"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "single color; monochrome; solid color",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "single color; monochrome; solid color; one color",
+      "explanation": "Consisting of only one color, without patterns, gradients, or multiple hues."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "単色のTシャツが欲しい。",
+      "english": "I want a solid-colored T-shirt."
+    },
+    {
+      "i": 1,
+      "japanese": "この部屋は単色の壁紙でまとめてある。",
+      "english": "This room is done in a single-color wallpaper throughout."
+    },
+    {
+      "i": 2,
+      "japanese": "単色の印刷なら費用を抑えることができる。",
+      "english": "If it's single-color printing, we can keep the costs down."
+    }
+  ],
+  "notes": "Composed of 単 (single) + 色 (color). Used in fashion, design, printing, and art contexts. Can modify nouns with の: 単色のデザイン (monochrome design).\n\nCOMMON COLLOCATIONS:\n- 単色のデザイン — monochrome design\n- 単色印刷 — single-color printing\n- 単色刷り — single-color print\n- 単色光 — monochromatic light\n\nSIMILAR WORDS:\n- モノクロ — monochrome (loanword; often specifically means black and white)\n- 無地 — plain, unpatterned (focuses on absence of pattern rather than having one color)\n- 多色 — multicolored (the opposite)\n- 二色 — two-colored, bicolor"
+}
+
+Entry 22239_yuagari (JSON):
+{
+  "headword": "湯上がり",
+  "reading": "ゆあがり",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "daily-life",
+    "culture"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "just after a bath; fresh from the bath",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "just after a bath; fresh from the bath",
+      "explanation": "The state or moment immediately after getting out of a bath or hot spring. Also used as a modifier for things used or done right after bathing."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "湯上がりのビールは最高だ。",
+      "english": "A beer right after a bath is the best."
+    },
+    {
+      "i": 1,
+      "japanese": "湯上がりに冷たい牛乳を飲んだ。",
+      "english": "I drank cold milk right after the bath."
+    },
+    {
+      "i": 2,
+      "japanese": "湯上がりの肌は乾燥しやすいので、すぐに保湿した方がいい。",
+      "english": "Skin right after a bath dries out easily, so it's best to moisturize right away."
+    },
+    {
+      "i": 3,
+      "japanese": "温泉の湯上がりに浴衣を着て旅館の廊下を歩くのは気持ちがいい。",
+      "english": "It feels wonderful to walk through the ryokan hallway in a yukata after the hot spring."
+    }
+  ],
+  "notes": "Compound of 湯 (hot water/bath) and 上がり (coming out of). Strongly associated with Japanese bathing culture — especially 温泉 (hot springs) and 銭湯 (public baths). The image of drinking cold milk or beer after a bath is a classic cultural reference.\n\nCOMMON COLLOCATIONS:\n- 湯上がりタオル: bath towel (for after bathing)\n- 湯上がりの肌: skin fresh from the bath\n- 湯上がりに飲む: to drink right after bathing\n- 湯上がりの一杯: a drink right after the bath\n\nSIMILAR WORDS:\n- 風呂上がり: after a bath — essentially synonymous, but 風呂上がり is slightly more colloquial\n- 入浴後: after bathing — more formal and clinical\n\nCULTURAL NOTE:\nDrinking cold 牛乳 (milk) in the changing room of a 銭湯 after bathing is a beloved Japanese custom, often depicted in media."
+}
+
+Entry 22251_teikiyokin (JSON):
+{
+  "headword": "定期預金",
+  "reading": "ていきよきん",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "economics",
+    "daily-life"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "time deposit; fixed-term deposit; term savings",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "time deposit; fixed-term deposit; term savings",
+      "explanation": "A type of bank deposit where money is deposited for a set period of time at a fixed interest rate. Early withdrawal typically incurs a penalty or reduced interest."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "定期預金に預ける。",
+      "english": "To put money in a time deposit."
+    },
+    {
+      "i": 1,
+      "japanese": "定期預金の金利が低い。",
+      "english": "The interest rate on time deposits is low."
+    },
+    {
+      "i": 2,
+      "japanese": "一年定期預金が満期を迎えた。",
+      "english": "My one-year time deposit has reached maturity."
+    },
+    {
+      "i": 3,
+      "japanese": "普通預金よりも定期預金の方が利率が高い。",
+      "english": "Time deposits have a higher interest rate than regular savings accounts."
+    }
+  ],
+  "notes": "Compound of 定期 (fixed-term) and 預金 (deposit/savings). Often abbreviated as 定期 in casual speech. A basic financial product offered by all Japanese banks.\n\nCOMMON COLLOCATIONS:\n- 定期預金を組む: to set up a time deposit\n- 定期預金を解約する: to cancel/withdraw a time deposit early\n- 定期預金の満期: maturity of a time deposit\n- 定期預金の金利: time deposit interest rate\n- 一年定期: one-year term deposit\n\nSIMILAR WORDS:\n- 普通預金: regular savings account — money can be freely deposited and withdrawn, lower interest\n- 貯金: savings — general term for saving money, can refer to postal savings specifically\n- 積立預金: installment savings — regular deposits over time toward a savings goal"
+}
+
+Entry 22266_kakikudashibun (JSON):
+{
+  "headword": "書き下し文",
+  "reading": "かきくだしぶん",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "language",
+    "education"
+  ],
+  "formality": "formal",
+  "politeness": "plain",
+  "gloss": "Japanese rendering of classical Chinese text (kanbun)",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "Japanese rendering of classical Chinese text; kanbun written in Japanese word order",
+      "explanation": "A version of a classical Chinese (kanbun) text that has been rearranged into Japanese word order and supplemented with Japanese grammatical elements, making it readable as Japanese prose."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "漢文を書き下し文にする。",
+      "english": "To render classical Chinese into Japanese reading order."
+    },
+    {
+      "i": 1,
+      "japanese": "書き下し文を読んで意味を考える。",
+      "english": "To read the Japanese rendering and think about the meaning."
+    },
+    {
+      "i": 2,
+      "japanese": "高校の国語の授業で漢文を書き下し文に変換する練習をした。",
+      "english": "In high school Japanese class, we practiced converting kanbun into Japanese-order renderings."
+    }
+  ],
+  "notes": "A term from classical Japanese education. In kanbun study, the original Chinese text is first annotated with reading marks (返り点 and 送り仮名), then rewritten as 書き下し文 — a version readable as Japanese.\n\nRELATED WORDS:\nThe stages of reading a kanbun text:\n1. 白文: the original Chinese text without annotations\n2. 訓読文: text with reading marks added\n3. 書き下し文: the full Japanese-order rendering\n4. 現代語訳: modern Japanese translation\n\nCOMMON COLLOCATIONS:\n- 書き下し文にする: to render into Japanese reading order\n- 書き下し文に直す: to convert to Japanese reading order\n\nUSAGE:\nThis term is encountered mainly in 国語 (Japanese language) education at the high school level, where students study 漢文 (classical Chinese texts) as part of the curriculum."
+}
+
+Entry 22294_kazoedoshi (JSON):
+{
+  "headword": "数え年",
+  "reading": "かぞえどし",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "culture",
+    "time-general"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "traditional age counting; East Asian age reckoning",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "traditional age counting; East Asian age reckoning",
+      "explanation": "A traditional system of counting age in which a person is one year old at birth and gains a year every New Year's Day, rather than on their birthday."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "数え年では今年三十歳だ。",
+      "english": "In traditional age counting, I am thirty this year."
+    },
+    {
+      "i": 1,
+      "japanese": "七五三は数え年で祝う家庭もある。",
+      "english": "Some families celebrate Shichi-Go-San based on traditional age counting."
+    },
+    {
+      "i": 2,
+      "japanese": "昔は数え年が一般的だったが、今は満年齢が使われている。",
+      "english": "In the past, traditional age counting was common, but now the Western system is used."
+    }
+  ],
+  "notes": "Under this system, a baby is considered one year old (一歳) at birth, and everyone becomes one year older on January 1st (originally based on the lunar new year). This means a person born on December 31st would be considered two years old on the following day.\n\nCOMMON COLLOCATIONS:\n- 数え年で: in traditional age counting\n- 数え年の年齢: age by traditional reckoning\n- 数え年で祝う: to celebrate by traditional age\n\nSIMILAR WORDS:\n- 満年齢: Western-style age — counting from birthday to birthday, which is the standard system in modern Japan\n\nCULTURAL NOTE:\nJapan officially switched to the Western age system (満年齢) in 1950, but 数え年 is still used for some traditional events like 厄年 (unlucky years) and 還暦 (60th birthday celebration)."
+}
+
+Entry 22316_kakeashi (JSON):
+{
+  "headword": "駆け足",
+  "reading": "かけあし",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "movement",
+    "abstract"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "running; double time; quick pace",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "running; jogging; double time",
+      "explanation": "Running at a quick pace, faster than walking but not necessarily sprinting. Often used as a command in military or gym contexts."
+    },
+    {
+      "sense": 2,
+      "gloss": "hurried; rushed; quick overview",
+      "explanation": "Doing something in a hurried manner, often skipping details. Commonly used figuratively to describe a brief or superficial treatment of a topic."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "駆け足で走る。",
+      "english": "To run at a quick pace."
+    },
+    {
+      "i": 1,
+      "japanese": "集合時間に遅れそうで、駆け足で向かった。",
+      "english": "I was about to be late for the meeting time, so I headed there at a run."
+    },
+    {
+      "i": 2,
+      "japanese": "体育の授業で校庭を駆け足で三周した。",
+      "english": "In gym class, we ran three laps around the schoolyard at a jog."
+    },
+    {
+      "i": 3,
+      "japanese": "駆け足で説明する。",
+      "english": "To give a quick overview."
+    },
+    {
+      "i": 4,
+      "japanese": "時間がないので駆け足で紹介します。",
+      "english": "Since we're short on time, I'll give a quick introduction."
+    },
+    {
+      "i": 5,
+      "japanese": "日本の歴史を駆け足で振り返ってみましょう。",
+      "english": "Let's take a quick look back through Japanese history."
+    }
+  ],
+  "notes": "A compound of 駆ける (to run/gallop) + 足 (foot/pace). Has both a literal physical meaning and a very common figurative meaning of doing something hastily or in abbreviated fashion.\n\nCOMMON COLLOCATIONS:\n- 駆け足で回る: to rush through (sightseeing, etc.)\n- 駆け足で説明する: to explain quickly\n- 駆け足で紹介する: to give a quick introduction\n- 駆け足の旅: a whirlwind trip\n\nUSAGE:\nThe figurative sense (sense 2) is used adverbially with で, meaning \"in a rushed manner.\" This usage is extremely common in presentations, lectures, and guided tours where time is limited.\n\nSIMILAR WORDS:\n- 小走り: light jog/trot — physical running only, no figurative use\n- 急ぎ足: hurried pace — walking quickly, not running"
+}
+
+Entry 22352_mekkinsuru (JSON):
+{
+  "headword": "滅菌する",
+  "reading": "めっきんする",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "transitive",
+  "tier": "general",
+  "semantic_tags": [
+    "health"
+  ],
+  "formality": "formal",
+  "politeness": "plain",
+  "gloss": "to sterilize; sterilization",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "to sterilize; to kill all microorganisms",
+      "explanation": "To completely eliminate bacteria and other microorganisms from equipment, instruments, or materials. Used in medical, laboratory, and food safety contexts."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "器具を滅菌する。",
+      "english": "Sterilize the instruments."
+    },
+    {
+      "i": 1,
+      "japanese": "手術前に道具をすべて滅菌しなければならない。",
+      "english": "All tools must be sterilized before surgery."
+    },
+    {
+      "i": 2,
+      "japanese": "この牛乳は高温で滅菌されているので長期保存ができる。",
+      "english": "This milk has been sterilized at high temperature, so it can be stored for a long time."
+    }
+  ],
+  "notes": "A technical term meaning complete elimination of microorganisms, stricter than 殺菌 (which reduces but may not eliminate all bacteria) or 消毒 (disinfection).\n\nCOMMON COLLOCATIONS:\n- 滅菌処理: sterilization treatment\n- 滅菌済み: sterilized; already sterilized\n- 高圧蒸気滅菌: autoclave sterilization\n- 滅菌ガーゼ: sterile gauze\n\nSIMILAR WORDS:\n- 殺菌: bactericidal treatment — reduces bacteria but does not guarantee complete elimination\n- 消毒: disinfection — removal of pathogens from surfaces, broader and less strict\n- 除菌: sanitization — removal of bacteria, common in household product marketing\n\nFORMS:\n滅 (destroy) + 菌 (bacteria). Literally 'destroy bacteria.'"
+}
+
+Entry 22379_hakka (JSON):
+{
+  "headword": "発火",
+  "reading": "はっか",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "intransitive",
+  "tier": "general",
+  "semantic_tags": [
+    "science"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "ignition; catching fire; combustion",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "ignition; catching fire; combustion",
+      "explanation": "The act or event of something catching fire or beginning to burn. Can refer to both spontaneous combustion and deliberate ignition."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "発火の危険がある。",
+      "english": "There is a risk of ignition."
+    },
+    {
+      "i": 1,
+      "japanese": "バッテリーが発火する事故が起きた。",
+      "english": "An accident occurred in which a battery caught fire."
+    },
+    {
+      "i": 2,
+      "japanese": "乾燥した季節は枯れ葉が自然発火することがあるので注意が必要だ。",
+      "english": "In dry seasons, dead leaves can spontaneously combust, so caution is needed."
+    }
+  ],
+  "notes": "Describes the moment when something begins to burn. Often used in safety warnings and accident reports. The verb form 発火する means \"to catch fire\" or \"to ignite.\"\n\nCOMMON COLLOCATIONS:\n- 発火する: to catch fire / to ignite\n- 自然発火: spontaneous combustion\n- 発火点: ignition point / flash point\n- 発火の原因: cause of ignition\n- 発火装置: ignition device\n- 発火の危険: risk of catching fire\n\nSIMILAR WORDS:\n- 着火: ignition — very similar, but often implies intentional lighting; 発火 is more often spontaneous\n- 点火: lighting a fire — deliberately setting fire to something (a stove, fireworks, etc.)\n- 出火: outbreak of fire — the start of a fire as an incident, used in fire investigations\n- 火災: fire (as a disaster) — the resulting fire event, not the moment of ignition"
+}
+
+Entry 22404_kassou (JSON):
+{
+  "headword": "滑走",
+  "reading": "かっそう",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "intransitive",
+  "tier": "general",
+  "semantic_tags": [
+    "transportation",
+    "sports"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "gliding; taxiing; sliding run",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "gliding; sliding; taxiing (of an aircraft)",
+      "explanation": "The act of sliding or gliding along a surface. Most commonly used for aircraft taxiing on a runway, but also for skiing and skating."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "飛行機が滑走を始めた。",
+      "english": "The airplane began taxiing."
+    },
+    {
+      "i": 1,
+      "japanese": "滑走路に向かって滑走する。",
+      "english": "To taxi toward the runway."
+    },
+    {
+      "i": 2,
+      "japanese": "スキー場のゲレンデを気持ちよく滑走した。",
+      "english": "I glided pleasantly down the ski slope."
+    }
+  ],
+  "notes": "Composed of 滑 (slide/glide) and 走 (run). The word covers any smooth sliding movement along a surface, but is most strongly associated with aircraft and skiing.\n\nCOMMON COLLOCATIONS:\n- 滑走路: runway\n- 滑走する: to glide, to taxi\n- 滑走距離: gliding/taxiing distance\n- 滑走速度: taxiing speed\n\nSIMILAR WORDS:\n- 滑る: to slide/slip — the everyday verb for sliding; 滑走 is more formal and implies sustained, purposeful movement\n- 走行: running/traveling — movement of vehicles on roads, not gliding\n- 離陸: takeoff — the act of leaving the ground, which follows 滑走"
+}
+
+Entry 22428_youisuru (JSON):
+{
+  "headword": "用意する",
+  "reading": "よういする",
+  "pos": [
+    "noun",
+    "verb-suru"
+  ],
+  "transitivity": "transitive",
+  "tier": "general",
+  "semantic_tags": [
+    "daily-life"
+  ],
+  "formality": "neutral",
+  "politeness": "plain",
+  "gloss": "to prepare; to arrange; to have ready",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "to prepare; to arrange; to have ready",
+      "explanation": "To make specific items or arrangements ready for use, often implying that the items will be needed soon or are being laid out for someone."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "朝ごはんを用意する。",
+      "english": "To prepare breakfast."
+    },
+    {
+      "i": 1,
+      "japanese": "お客さま用に椅子を用意しました。",
+      "english": "I prepared chairs for the guests."
+    },
+    {
+      "i": 2,
+      "japanese": "万が一に備えて、予備のバッテリーを用意しておいてください。",
+      "english": "Please have a spare battery ready just in case."
+    }
+  ],
+  "notes": "Focuses on having specific items or arrangements ready and at hand. More concrete and action-oriented than 準備する, which covers broader preparation processes.\n\nCOMMON COLLOCATIONS:\n- 食事を用意する: to prepare a meal\n- お金を用意する: to have money ready\n- 席を用意する: to prepare a seat\n- 用意ができた: it's ready\n- 用意ドン: ready, set, go!\n- 用意周到: thoroughly prepared\n\nSIMILAR WORDS:\n- 準備する: to prepare — broader and more process-oriented; covers planning and organizing\n- 支度する: to get ready — personal preparation (getting dressed, packing)\n- 整える: to arrange / to put in order — emphasizes organizing and tidying\n\nUSAGE:\nThe set phrase 用意ドン is used to start races and games, equivalent to \"ready, set, go!\" The compound 用意周到 (thorough preparation) is a common four-character idiom praising someone's careful planning."
+}
+
+Entry 22449_tousha (JSON):
+{
+  "headword": "当社",
+  "reading": "とうしゃ",
+  "pos": [
+    "noun"
+  ],
+  "transitivity": null,
+  "tier": "general",
+  "semantic_tags": [
+    "business"
+  ],
+  "formality": "formal",
+  "politeness": "plain",
+  "gloss": "our company; this company",
+  "definitions": [
+    {
+      "sense": 1,
+      "gloss": "our company; this company",
+      "explanation": "A formal way to refer to one's own company, used in business correspondence, press releases, official announcements, and corporate communications."
+    }
+  ],
+  "examples": [
+    {
+      "i": 0,
+      "japanese": "当社の製品をご利用ください。",
+      "english": "Please use our company's products."
+    },
+    {
+      "i": 1,
+      "japanese": "当社は来月から新しいサービスを開始します。",
+      "english": "Our company will begin a new service starting next month."
+    },
+    {
+      "i": 2,
+      "japanese": "当社では社員の働きやすい環境づくりに力を入れております。",
+      "english": "Our company is committed to creating a comfortable working environment for employees."
+    }
+  ],
+  "notes": "Composed of 当 (this, the relevant) + 社 (company). A formal, somewhat stiff way to refer to one's own company. Standard in business writing, corporate websites, and press releases. Not typically used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- 当社の製品: our company's products\n- 当社では: at our company\n- 当社比: compared to our company\n- 当社規定: our company's regulations\n\nSIMILAR WORDS:\n- 弊社: our company (humble) — more humble and polite, used when addressing clients or external parties\n- 自社: one's own company — neutral, often used in compound phrases like 自社製品 (in-house product)\n- 御社: your company (honorific) — used to respectfully refer to another person's company in speech\n- 貴社: your company (honorific) — the written equivalent of 御社\n\nREGISTER:\nFormal business language. In conversation with external parties, 弊社 is often preferred as a more humble alternative. 当社 is neutral-formal and common in internal documents and public announcements."
+}
+
+Review each entry independently. Respond with ONLY a JSON object (no prose, no code fences) whose keys are the entry ids and whose values are that entry's array of issue objects. Each object:
+{"dimension": "gloss|translation|tags|notes", "location": "<gloss | definitions[n].gloss | examples[i] | tags.semantic | tags.formality | tags.politeness | notes>", "severity": "error|warn", "concern": "<what is wrong, briefly>", "suggestion": "<concrete fix>", "quote": "<verbatim sentence from the entry, required for tags.formality, tags.politeness, and notes>"}
+An entry that is accurate on the checked dimensions gets []. Include every entry id.
