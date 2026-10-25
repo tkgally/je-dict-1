@@ -3598,6 +3598,16 @@ such spellings in 31 entries ({話|はなし}し, {咳|せき}き, {手持|て�
 (約束したなのに), replaced. The TTS slips cluster on ソファ/メロディ/コンピュータ (it lengthens the
 final vowel), on devoiced しゅ (退出, 創出, 排出), and on ヴェ/ヴォ, which the checkers hear as べ/ぼ.
 
+Progress 2026-10-25 (routine 2026-10-25, second run): the next 200 triaged; 246 open. 20 examples
+fixed from the queue and 22 more by scans for the same errors: counters with じゅう or じっ
+(十キロ, 数十棟, 三十セーブ, 百八十センチ, 十分 じっぷん → じゅっぷん in 5 examples, six 〜十パーセント),
+何 read なに where speech says なん (何ですか ×6, 何でも ×2, 何と言いました, 何というの, 何だって,
+何だろう), 三つ read さんつ (三つ下 in 下, 三つ分) and 三つ星 read みっつぼし, 何本 なんほん, お話した
+for お話しした, {新|あら}しい for 新しい. 密の会議 and 鬱とした天気 were unidiomatic and were reworded.
+111 marked `tts-error`, 31 `ambiguous` (百キロ ひゃっ/ひゃく ×11, 進学校, 鮭 しゃけ, 四十代 しじゅう,
+農作物 のうさくもつ, 四番 よばん, 型式 かたしき), 2 headword readings to the curator (雄雌 ゆうし,
+濃灰色 のうはいいろ).
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns
