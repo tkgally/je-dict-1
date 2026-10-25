@@ -50,6 +50,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-25 (Claude Opus accuracy pass over 21514–22473)
+
+Tom asked for Claude Opus to re-review the 960 entries gpt-6.1-sol had swept on 24–25 October.
+Opus flagged 162 issues in 141 entries; 155 were accepted and fixed in 137 entries, 5 dismissed and
+2 set aside for Tom (whether 浅まる is an established word; 茶道具's headword reading さどうぐ vs
+ちゃどうぐ). Among the fixes: 不戦条約 glossed and translated throughout as "non-aggression pact"
+(that is 不可侵条約); the CPA exam ranked with the medical exam among the three hardest; 鳥小屋 glossed
+"birdcage"; 浅まる's example reading 日照り as にっしょうり; 行き止まる's figurative sense, whose examples
+needed 行き詰まる, removed; many false absolutes in notes. gpt-6.1-sol then checked the edits and caught
+three overcorrections, which were fixed.
+
 ### 2026-10-25 (Claude on the subscription joins the model checks)
 
 Tom approved the recommendations of an experiment comparing the OpenRouter checking models with
