@@ -50,6 +50,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-25 (Claude on the subscription joins the model checks)
+
+Tom approved the recommendations of an experiment comparing the OpenRouter checking models with
+Claude run headless on the Max subscription (`enhancement/claude-backends-2026-10-25/REPORT.md`).
+On 200 entries, Claude Opus found as many real errors as gpt-6.1-sol, a different two thirds of
+them (85% together); Sonnet and Haiku found a fifth as many; subagents and batched reviews lost
+most of the gain. Changes: the accuracy sweep now has Opus review the same entries after sol
+(`--second claude:opus`, its "warn" flags kept, one added prompt paragraph naming the error
+classes the adjudication accepts); the kana-link review moves from gemini-2.5-flash (0.66 on
+the labeled set) to Opus (0.86); the conjugation model check moves from sol to Haiku (caught
+every injected error, no false flags). The self-check after each cycle stays on sol alone, so a
+different model family checks Claude's own work, and brainstorming stays as it was. Every
+Claude call reads the plan's usage windows and stops at 70% of the five-hour or 85% of the
+seven-day window (`pipeline/routine-config.json` → `claude`). New: `build/claude_backend.py`,
+`build/tests/test_claude_backend.py`.
+
 ### 2026-10-25 (Routine v3: candidates — 48 words queued, C24751–C24798)
 
 Two streams. Internal closure was thin: no unresolved missing-word markers remain, and a scan of

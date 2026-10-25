@@ -44,6 +44,9 @@ except ImportError:
     import urllib.error
     HAS_REQUESTS = False
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import claude_backend  # noqa: E402  (model ids "claude:<model>" go to headless Claude)
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ENTRIES_DIR = PROJECT_ROOT / "entries"
 REVIEWS_DIR = PROJECT_ROOT / "reviews"
@@ -193,7 +196,9 @@ def deduplicate_pairs(pairs):
 
 
 def estimate_cost(model, prompt_tokens, completion_tokens=200):
-    """Estimate API call cost in USD."""
+    """Estimate API call cost in USD (0 for a claude: model, which the subscription covers)."""
+    if claude_backend.is_claude(model):
+        return 0.0
     costs = MODEL_COSTS.get(model, {"input": 0.002, "output": 0.008})
     return (prompt_tokens / 1000 * costs["input"] +
             completion_tokens / 1000 * costs["output"])
@@ -626,7 +631,11 @@ def call_openrouter(api_key, model, prompt, timeout=60, max_tokens=4096):
 
     ``max_tokens`` caps the completion; for reasoning models the hidden
     reasoning counts against it, so callers expecting long JSON raise it.
+    A ``claude:<model>`` id goes to headless Claude instead (build/claude_backend.py;
+    ``api_key`` and ``max_tokens`` are then unused).
     """
+    if claude_backend.is_claude(model):
+        return claude_backend.call(prompt, model, timeout=max(timeout, 300))
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",

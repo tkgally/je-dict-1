@@ -15,7 +15,18 @@ is whether to save about $300 a month by moving that review to Opus, or to keep 
 as a second reviewer, which catches more errors and uses the subscription you are not using. I
 recommend the second, with the details in §6.
 
-Nothing in the dictionary or on `main` was changed. Everything below is in this directory.
+Nothing in the dictionary or on `main` was changed by the experiment. Everything below is in this
+directory.
+
+**Implemented the same day (Tom approved recommendations 1–5):** `build/claude_backend.py` runs
+any `claude:<model>` id headless with a subscription guard (stops at 70% of the five-hour or 85%
+of the seven-day window, `pipeline/routine-config.json` → `claude`). The accuracy sweep runs
+`--second claude:opus` (prompt v5, "warn" flags kept, reviews in `reviews/accuracy/{id}.claude.json`);
+the kana-link review defaults to `claude:opus` and the conjugation check to `claude:haiku`, both
+falling back to gpt-6.1-sol; the self-check and brainstorming are unchanged. Before switching, Haiku
+was also checked on the conjugation check's own table format: with nine errors of the known kinds
+injected into twenty real tables (乞った, 問った, ついていいた, 見返た, いかった, くれろ …), it caught all
+nine and flagged nothing else, exactly as gpt-6.1-sol did.
 
 ---
 
