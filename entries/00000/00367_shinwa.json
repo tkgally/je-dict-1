@@ -39,7 +39,7 @@
     },
     {
       "id": "00367_shinwa_ex3",
-      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧{神話|しんわ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{天照|あまてらす}{大神|おおみかみ}⟦が→が：00051_ga⟧⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦の→の：09472_no⟧⟦{神|かみ}→神：02147_kami⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧{神話|しんわ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{天照|あまてらす}{大神|おおみかみ}→天照大神：31850_amaterasuoomikami⟧⟦が→が：00051_ga⟧⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦の→の：09472_no⟧⟦{神|かみ}→神：02147_kami⟧⟦だ→だ：09496_da⟧。",
       "english": "In Japanese mythology, Amaterasu is the sun goddess.",
       "has_audio": true,
       "sense_numbers": [
@@ -118,7 +118,7 @@
       "notes": null
     }
   ],
-  "notes": "{神話|しんわ} refers to traditional myths/mythology, but is also used figuratively for widely held beliefs that may be false.\n\nCommon collocations:\n- ⟦ギリシャ→ギリシャ：28897_girisha⟧{神話|しんわ} (Greek mythology)\n- ⟦{日本|にほん}→日本：03876_nihon⟧{神話|しんわ} (Japanese mythology)\n- ⟦{北欧|ほくおう}→北欧：10139_hokuou⟧{神話|しんわ} (Norse mythology)\n- 〜{神話|しんわ} (the myth of ~)\n- {神話|しんわ}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧ (a myth crumbles)\n\nFigurative usage:\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧{神話|しんわ} (safety myth - belief that something is completely safe)\n- ⟦{不敗|ふはい}→不敗：07997_fuhai⟧{神話|しんわ} (myth of invincibility)\n\nRelated words:\n- ⟦{伝説|でんせつ}→伝説：11446_densetsu⟧ (legend - often about historical figures)\n- ⟦{民話|みんわ}→民話：20558_minwa⟧ (folk tale)\n- ⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧ (old tale, fairy tale)",
+  "notes": "Besides stories of gods, {神話|しんわ} is very common for a belief everyone holds without evidence, often one that has just collapsed: 〜{神話|しんわ}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦ギリシャ→ギリシャ：28897_girisha⟧{神話|しんわ} / ⟦{日本|にほん}→日本：03876_nihon⟧{神話|しんわ} / ⟦{北欧|ほくおう}→北欧：10139_hokuou⟧{神話|しんわ}: Greek / Japanese / Norse mythology\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧{神話|しんわ}: the myth that something is completely safe (much used of nuclear power after 2011)\n- {不敗|ふはい}{神話|しんわ}: the myth of invincibility\n- {神話|しんわ}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧: a myth crumbles\n\nSIMILAR WORDS:\n- ⟦{伝説|でんせつ}→伝説：11446_densetsu⟧: legend — stories about people and places, often half-believed as history\n- ⟦{民話|みんわ}→民話：20558_minwa⟧: folk tale\n- ⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧: old tale, fairy tale",
   "cross_references": [
     {
       "type": "contrast",
@@ -133,11 +133,25 @@
       "reading": "ぐうわ",
       "headword": "{寓話|ぐうわ}",
       "label": "fable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11446_densetsu",
+      "reading": "でんせつ",
+      "headword": "{伝説|でんせつ}",
+      "label": "legend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12718_mukashibanashi",
+      "reading": "むかしばなし",
+      "headword": "{昔話|むかしばなし}",
+      "label": "old tale, fairy tale"
     }
   ],
   "metadata": {
     "created": "2026-01-13T11:15:03Z",
-    "modified": "2026-09-02T04:00:57Z",
+    "modified": "2026-10-26T07:06:45Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -147,7 +161,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "culture",
+        "religion"
       ]
     }
   }

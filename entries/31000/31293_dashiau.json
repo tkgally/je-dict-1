@@ -44,9 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "⟦{出|だ}す→出す：01087_dasu⟧ (put out) + 〜⟦{合|あ}う→合う：10466_au⟧ (together, each other).\n\nCOMMON COLLOCATIONS:\n- ⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧{出|だ}し{合|あ}う: to chip in money\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{出|だ}し{合|あ}う: to share opinions\n- ⟦アイデア→アイデア：10161_aidea⟧⟦を→を：00422_wo⟧{出|だ}し{合|あ}う: to pool ideas, to brainstorm\n- ⟦{知恵|ちえ}→知恵：03428_chie⟧⟦を→を：00422_wo⟧{出|だ}し{合|あ}う: to put heads together\n\nTRANSITIVITY:\n- Transitive: the thing contributed takes ⟦を→を：00422_wo⟧.",
+  "notes": "⟦{出|だ}す→出す：01087_dasu⟧ (put out) + 〜⟦{合|あ}う→合う：10466_au⟧ (together, each other).\n\nCOMMON COLLOCATIONS:\n- ⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧{出|だ}し{合|あ}う: to chip in money\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{出|だ}し{合|あ}う: to share opinions\n- ⟦アイデア→アイデア：10161_aidea⟧⟦を→を：00422_wo⟧{出|だ}し{合|あ}う: to pool ideas, to brainstorm\n- ⟦{知恵|ちえ}→知恵：03428_chie⟧⟦を→を：00422_wo⟧{出|だ}し{合|あ}う: to put heads together\n\nTRANSITIVITY:\n- Transitive: the thing contributed takes ⟦を→を：00422_wo⟧.\n\nSIMILAR WORDS:\n- ⟦{持|も}ち{寄|よ}る→持ち寄る：20326_mochiyoru⟧: to each bring something (food, items) to a gathering\n- ⟦{割|わ}り{勘|かん}→割り勘：08156_warikan⟧: splitting the bill equally afterwards, whereas {出|だ}し{合|あ}う is putting money in together",
   "schema_version": "2.0",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20326_mochiyoru",
+      "reading": "もちよる",
+      "headword": "{持|も}ち{寄|よ}る",
+      "label": "to each bring something (food, items)…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08156_warikan",
+      "reading": "わりかん",
+      "headword": "{割|わ}り{勘|かん}",
+      "label": "splitting the bill equally afterwards…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +79,7 @@
       "verb_class": "godan-u"
     },
     "created": "2026-09-29T22:10:31Z",
-    "modified": "2026-09-29T22:13:12Z"
+    "modified": "2026-10-26T07:06:45Z"
   },
   "conjugation": {
     "type": "godan",
