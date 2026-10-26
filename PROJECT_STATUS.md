@@ -50,6 +50,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-26 (30 new candidates)
+
+The candidate queue was restocked from 145 to 175 words. Twelve are closure words that entries
+written or fixed today use without an entry (調子に乗る, 早春, 日長, 歯列, 八重歯, 目白押し, 托卵,
+閑古鳥, 授賞式, 板書, 使節団, 親告罪). Eighteen come from brainstorming the basic seeds 探す–と
+(探し物, 探し出す, 店じまい, 店番, 明くる日, 働きかける, からには, 乗り気, …), including two
+grammar words the dictionary turned out to lack entirely: the conditional たら and the listing
+particle とか.
+
 ### 2026-10-26 (20 new entries, second batch)
 
 Twenty entries added (32298–32317), bringing the dictionary to about 32,090. Ten define words the
@@ -82,15 +91,4 @@ has only the reading ちゃどうぐ: the entry is renamed 22295_sadougu → 222
 redirects; example audio keys follow), and its furigana and notes are updated. In 茶杓, the
 furigana {千|せん}{利休|のりきゅう} is corrected to {千利休|せんのりきゅう}, and an independent check
 corrected the serving measure (thin tea about 1½–2 scoops, thick tea about 3 per guest).
-
-### 2026-10-25 (Claude Opus accuracy pass over 21514–22473)
-
-Tom asked for Claude Opus to re-review the 960 entries gpt-6.1-sol had swept on 24–25 October.
-Opus flagged 162 issues in 141 entries; 155 were accepted and fixed in 137 entries, 5 dismissed and
-2 set aside for Tom (whether 浅まる is an established word; 茶道具's headword reading さどうぐ vs
-ちゃどうぐ). Among the fixes: 不戦条約 glossed and translated throughout as "non-aggression pact"
-(that is 不可侵条約); the CPA exam ranked with the medical exam among the three hardest; 鳥小屋 glossed
-"birdcage"; 浅まる's example reading 日照り as にっしょうり; 行き止まる's figurative sense, whose examples
-needed 行き詰まる, removed; many false absolutes in notes. gpt-6.1-sol then checked the edits and caught
-three overcorrections, which were fixed.
 
