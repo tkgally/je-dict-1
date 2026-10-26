@@ -4,9 +4,12 @@ A dictionary for intermediate learners of Japanese who can read kana and are bui
 vocabulary. Live site: https://www.tkgje.jp/, a static site built by GitHub Actions from the
 entry JSON and served by GitHub Pages. About 32,000 entries as of October 2026. Entries are
 polished, verified, and connected to each other, and the dictionary keeps growing: new entries
-define words it already uses (internal closure) and words found by brainstorming outward from
-its headwords and semantic fields (since 2026-10-23), never words taken from another
-dictionary or word list.
+define words it already uses (internal closure), words found by brainstorming outward from
+its headwords and semantic fields (since 2026-10-23), and words that users of
+[ezFurigana](https://www.ezfurigana.com/) looked up and did not find (since 2026-10-26; that
+site links the words of its users' texts to this dictionary's entries, with Tom's permission,
+and its owner sends lookup reports, `external/ezfurigana/`). Every word is vetted; none is
+taken from another dictionary or word list.
 
 Full command catalog: `build/COMMANDS.md`. Current numbers: `PROJECT_CONTEXT_BRIEF.md`
 (run `python3 pipeline/update-brief.py` at session start). Recent history:
@@ -39,7 +42,8 @@ polishing/          Cursors (tasks/), priority lists (priority/), session logs (
 reviews/            decisions.jsonl (adjudications), accuracy_flags.jsonl, screening/screening_status.json,
                     queue.txt (appended by `make index`), needs_curator.txt. Per-entry review files are local
                     artifacts (gitignored).
-candidate_words.json  Words queued for entry creation (internal closure + brainstorming; prompts/newcandidates.md)
+candidate_words.json  Words queued for entry creation (closure, brainstorming, ezFurigana lookups; prompts/newcandidates.md)
+external/ezfurigana/  Lookup reports from ezFurigana (received/*.tsv) and the verdict ledger; build/ezfurigana_lookups.py
 .claude/skills/     Detailed guidelines (entry-guidelines, verb-entry, vocabulary-notes, inline-word-links, …)
 .github/workflows/  validate.yml (PR gates + tests), pages.yml (site build + deploy)
 archive/            Retired prompts, plans, old session logs and sweep snapshots (nothing reads them; archive/README.md)
@@ -110,8 +114,9 @@ Modes and weights (`pipeline/routine-config.json`, reweighted 2026-10-23): polis
 accuracy-review 0.24 (at most $10 of the $15 daily OpenRouter cap, plus a second review by
 Claude Opus on the subscription since 2026-10-25), systemic-fix 0.18,
 new-entries 0.16, audio 0.10 (only when at least 150 new or edited examples wait, or three days
-have passed with any waiting), candidates 0.06 (runs below 200 queued; closure plus
-brainstorming), wiki (trigger-only), conjugation-check (trigger-only, every three days:
+have passed with any waiting), candidates 0.06 (runs below 200 queued closure and brainstorm
+candidates, or while an ezFurigana report has rows without a verdict; closure, brainstorming,
+ezFurigana), wiki (trigger-only), conjugation-check (trigger-only, every three days:
 re-checks the conjugation tables). Mode prompts:
 `audio.md`, `comprehensive_polish.md`, `newentries.md`, `newcandidates.md`,
 `planning/maintain-knowledge-base.md`; the accuracy-review, systemic-fix and conjugation-check

@@ -1,7 +1,7 @@
 # Candidate Restock (the Routine's `candidates` mode)
 
 Restock `candidate_words.json`, the queue the `new-entries` mode draws from. Since 2026-10-23
-the queue has two streams, and every run works both:
+the queue has two streams of its own, and every run works both:
 
 1. **Internal closure**: words the dictionary already uses in examples or notes but has never
    defined, so that a learner who meets a word inside an entry can look it up.
@@ -12,14 +12,68 @@ the queue has two streams, and every run works both:
    2026-10-23: the brainstorm on the first seeds found the particles さえ and すら, あり得る and
    ある程度 missing, and a field pass on birds found フラミンゴ, ペリカン, 七面鳥 and ダチョウ.
 
-Every word comes from knowledge of Japanese (yours and other models'), **never from an existing
-dictionary or word list** (Tom's rule). Every word is vetted one by one against the
-`find-candidates` gates before it is added.
+Since 2026-10-26 there is a third stream:
 
-Runs as `prompts/routine2.md`'s `candidates` mode when the queue falls below the restock
-threshold (200). `params.approx_new` is the target (40–80); about a third should come from
-closure while it has depth, the rest from brainstorming. `params.openrouter_session_budget_usd`
-caps the model calls (at most $0.50).
+3. **ezFurigana lookups**: words that users of [ezFurigana](https://www.ezfurigana.com/), a
+   site that links the words of the texts its users paste in to this dictionary's entries,
+   looked up and did not find. Its owner sends Tom a report from time to time
+   (`external/ezfurigana/README.md`). A report is a record of what learners met in real texts,
+   so it is evidence of demand, not a word list to copy: each row is vetted like any other
+   proposal, and most rows are names, fragments or forms of existing entries.
+
+Every word comes from knowledge of Japanese (yours and other models'), **never from an existing
+dictionary or word list** (Tom's rule); the ezFurigana reports are the one outside source, by
+Tom's decision of 2026-10-26, and only as a pointer to words that are then vetted. Every word
+is vetted one by one against the `find-candidates` gates before it is added.
+
+Runs as `prompts/routine2.md`'s `candidates` mode when the closure and brainstorm candidates in
+the queue fall below the restock threshold (200; candidates from ezFurigana reports are not
+counted, so a large report never stops the other two streams), and whenever an ezFurigana
+report has rows without a verdict (`params.ezfurigana_pending`). `params.approx_new` is the
+target for streams 1 and 2 (40–80); about a third should come from closure while it has
+depth, the rest from brainstorming. `params.openrouter_session_budget_usd` caps the model calls
+(at most $0.50).
+
+## Stream 3: ezFurigana lookups (first, when `params.ezfurigana_pending` > 0)
+
+Work up to 150 rows a cycle, most looked-up first; the rest wait for the next cycle.
+
+```bash
+python3 build/ezfurigana_lookups.py pending --n 150 > /tmp/ez.json
+```
+
+Each row has the user's `surface` and `reading`, ezFurigana's `category`, the `existing`
+spelling it found, the `lookups` count, and the entries sharing its surface (`same_surface`) or
+reading (`same_reading`). Give every row one verdict:
+
+- **variant**: another spelling or reading of an existing entry (身体 for 体, 何処 for どこ,
+  明日 read あす). Most "another kanji spelling" and "kana form only" rows are this, but check:
+  a kana-only match can be a different word (宋 is not そう; 生(せい) "life" is not せい
+  "fault"), and "another reading" rows are often real homographs (生物 なまもの, 人気 ひとけ,
+  下 もと, 工場 こうば), which are candidates.
+- **exists**: an inflected form, stem or fragment of an existing entry (与え → 与える, 細か →
+  細かい, おいて → において), or a pattern an entry covers (ませんか → ます).
+- **added**: passes G1–G7. Queue the lemma, not the surface: 入管法 → 入管, にわたって →
+  にわたる, 致し方 → 致し方ない; a productive affix as an affix entry (〜沿い, 〜切れ).
+  Grammar rows (には, ずに, ことになる, かねない) are welcome: the dictionary has entries for
+  patterns like ことにする and はずだ.
+- **rejected**: with the reason: personal names and places of little weight (G7), bare
+  single-kanji fragments, transparent compounds (研究費, 開始日), number + counter strings,
+  vulgar or specialized words, slang.
+
+Candidate notes end with the marker `ezfurigana: looked up N×` (and `as <surface>` when the
+lemma differs), which `new-entries` and the selector read:
+`{"word": "幽閉", "reading": "ゆうへい", "notes": "confinement, imprisonment; ezfurigana: looked up 6×"}`.
+Add the survivors with `manage_candidates.py add-batch`, then record every verdict, added or not:
+
+```bash
+python3 build/ezfurigana_lookups.py record /tmp/ez_verdicts.json
+```
+
+`/tmp/ez_verdicts.json` is `[{"surface", "reading", "verdict", "reason", "entry_id"?, "word"?, "word_reading"?}]`
+(`entry_id` for exists and variant). A row the add-batch skipped as a duplicate is `queued`.
+Words the report suggests by association (宋 → the other dynasties 唐, 明, 清) are stream-2
+brainstorm candidates, with a `brainstorm:` note.
 
 ## Stream 1: internal closure (about a third of the target)
 
@@ -84,7 +138,8 @@ cross-reference them: `brainstorm: antonym of 00204 数`, `brainstorm: same cate
 ## Workflow
 
 1. Load the `find-candidates` skill (gates G1–G7).
-2. Run both streams to a proposal list of about 1.5× the target.
+2. Work stream 3 first if `params.ezfurigana_pending` > 0 (it has its own count, outside the
+   target). Then run streams 1 and 2 to a proposal list of about 1.5× the target.
 3. **Probe first, then vet.** For stream 1 (stream 2's filter already did this):
    ```bash
    python3 build/check_duplicate.py --batch --skip-candidates 'word:reading' 'word:reading' …
@@ -126,4 +181,5 @@ cross-reference them: `brainstorm: antonym of 00204 数`, `brainstorm: same cate
 
 At the end: proposed / added / rejected, per stream; for stream 2 the lens and batch (seeds
 and their range, or the field), how many proposals each source made and how many survived;
-queue total.
+for stream 3 the rows worked and the verdict counts (`ezfurigana_lookups.py stats`) and how
+many rows still wait; queue total.

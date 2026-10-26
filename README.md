@@ -30,9 +30,11 @@ As of late September 2026:
 | Verbs and i-adjectives with full conjugation tables | about 7,800 |
 | Articles on topics that single entries cannot cover (keigo, counters, giving and receiving, …) | 10 |
 
-The dictionary is now in a maintenance phase. Existing entries are reviewed, corrected and
-connected to one another; a new entry is added mainly when the dictionary already uses a word
-that has no entry of its own.
+Existing entries are reviewed, corrected and connected to one another, and new entries are
+added for words the dictionary already uses without defining them, for words found missing by
+brainstorming from its headwords and subject areas, and for words that learners using
+[ezFurigana](https://www.ezfurigana.com/) looked up and did not find (see
+[Who uses the data](#who-uses-the-data)).
 
 ### Vocabulary tiers
 
@@ -138,6 +140,15 @@ Other data files:
 - `articles/`: the articles, as JSON with a markdown body using the same markup.
 - `audio/manifest/`: the recorded readings (see below).
 
+### Who uses the data
+
+[ezFurigana](https://www.ezfurigana.com/) adds furigana to Japanese texts that its users paste
+in and links the words in those texts to this dictionary's entries. Its owner sends Tom reports
+of the words his users looked up that the dictionary did not have, and those words are
+considered for new entries (`external/ezfurigana/`).
+
+If you use the data in a project of your own, Tom would be glad to hear about it.
+
 ## Example audio
 
 Example sentences are being given recorded readings, starting with the basic and core tiers.
@@ -163,8 +174,8 @@ has a valid recording. The whole workflow, the evidence for it and its changelog
 The dictionary is written and maintained by Claude in scheduled sessions (Claude Code
 "Routines"). Each session follows `prompts/routine2.md`: a selector (`pipeline/routine_next.py`)
 chooses one kind of work, such as polishing a batch of entries, a cross-model accuracy review,
-a fix for a problem found across many entries, new entries for words the dictionary uses but
-does not define, or example audio. The session then:
+a fix for a problem found across many entries, new entries, the vetting of candidate words for
+new entries, or example audio. The session then:
 
 1. makes its changes following the guidelines in `.claude/skills/`;
 2. runs the deterministic passes (`make mechanical`): note formatting
@@ -202,6 +213,8 @@ pipeline/         Session selector, metrics and spending ledgers
 planning/wiki/    Research notes on Japanese lexicography and the project backlog
 polishing/        Progress of the polishing passes, session logs, observations
 reviews/          Review decisions, accuracy flags, questions for the editor
+candidate_words.json  Vetted words waiting to become entries
+external/         Reports received from users of the data (ezfurigana/: lookup reports and verdicts)
 .github/workflows CI checks on pull requests; site build and deployment
 archive/          Prompts, plans and logs from earlier stages of the project, kept for the record
 ```
