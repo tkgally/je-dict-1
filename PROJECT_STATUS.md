@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-26 (8 new entries, third batch)
+
+Eight entries added (32318–32325). Four define words the dictionary already used: 度外視,
+年老いる, 生まれ育つ, 手術室. Four come from the brainstorm on basic words: 探し物, 店じまい,
+明くる日 (the next day, in narrative, contrasted with 翌日 and 明日), 乗り気. An independent check
+found two overstatements in the new notes, both fixed.
+
 ### 2026-10-26 (30 new candidates)
 
 The candidate queue was restocked from 145 to 175 words. Twelve are closure words that entries
@@ -82,13 +89,4 @@ dictionary already used without an entry: 失業率, 啓発, 暗がり, 山あ�
 from brainstorming the bird vocabulary: オシドリ (おしどり夫婦), コウノトリ, ハゲタカ (with the
 "vulture fund" sense), とさか (とさかに来る), 鳥インフルエンザ, and 孵る (to hatch). An independent
 check found one point (鳥インフルエンザ is a disease, not the virus), fixed.
-
-### 2026-10-25 (Tom's rulings on two curator questions)
-
-浅まる (22361) is retired: a few web hits exist, but not enough to make it an established word; its
-URL redirects to 浅い, and the cross-references from 浅い, 深まる and 薄れる are dropped. 茶道具 now
-has only the reading ちゃどうぐ: the entry is renamed 22295_sadougu → 22295_chadougu (the old URL
-redirects; example audio keys follow), and its furigana and notes are updated. In 茶杓, the
-furigana {千|せん}{利休|のりきゅう} is corrected to {千利休|せんのりきゅう}, and an independent check
-corrected the serving measure (thin tea about 1½–2 scoops, thick tea about 3 per guest).
 
