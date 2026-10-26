@@ -1705,3 +1705,5 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - 2026-10-26 [entry] 23664 正三角形: audio checks heard せいさんかっけい for せいさんかくけい in 23664_seisankakukei_ex2; both readings are in use, consider a PRONUNCIATION note.
 - 2026-10-26 [tooling] accuracy review 24004–24503: 165 of 498 entries (33%) flagged by sol or Opus, over the 25% noise line, but the flags were mostly real: of about 200 adjudicated, 3 rejected/flagged. The excess is Opus `warn` flags on overstated notes ("always", "specifically", "only"): 74 of 85 warns applied. Examples: 24046 四十代 "always よんじゅうだい", 24122 河川敷 "no permanent buildings", 24166 授乳 "specifically breastfeeding".
 - 2026-10-26 [entry] 24083 立方 ex3 一か月: fixed to いっかげつ (routine 2026-10-26_005); the observation above is resolved.
+- 2026-10-26 [entry] 30066 拍 (はく) has only the musical-beat sense; the phonological sense (mora, as in 五拍) is missing.
+- 2026-10-26 [entry] 13144 案ずる and 19881 案じる are two entries for one verb (ずる vs. じる dictionary form); now linked both ways in prominent_see_also. Consolidation is a curator-level call, not a pure spelling duplicate.

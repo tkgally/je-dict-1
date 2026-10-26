@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "The opposite of ⟦{割安|わりやす}→割安：14735_wariyasu⟧ (relatively cheap / good value). Both use ⟦{割|わり}→割：03194_wari⟧ (ratio, proportion) to express price relative to value or compared to alternatives.\n\nCOMMON COLLOCATIONS:\n- {割高|わりだか}⟦に→に：00314_ni⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to feel overpriced)\n- {割高|わりだか}な⟦{商品|しょうひん}→商品：01436_shouhin⟧ (relatively expensive product)\n- ⟦ちょっと→ちょっと：00595_chotto⟧{割高|わりだか} (a bit pricey)\n\nCan be used as a noun or na-adjective: {割高|わりだか}だ / {割高|わりだか}な⟦{値段|ねだん}→値段：00871_nedan⟧.",
+  "notes": "SIMILAR WORDS:\n- ⟦{割安|わりやす}→割安：14735_wariyasu⟧: the opposite, relatively cheap or good value. Both use ⟦{割|わり}→割：03194_wari⟧ (ratio): the price is judged against the quantity, quality, or alternatives, not on its own.\n- ⟦{高|たか}い→高い：00500_takai⟧: simply expensive. A ¥100 item can be {割高|わりだか} if a larger pack costs little more.\n\nCOMMON COLLOCATIONS:\n- {割高|わりだか}⟦に→に：00314_ni⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to feel overpriced)\n- {割高|わりだか}な⟦{商品|しょうひん}→商品：01436_shouhin⟧ (relatively expensive product)\n- {割高|わりだか}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to work out more expensive)\n- ⟦ちょっと→ちょっと：00595_chotto⟧{割高|わりだか} (a bit pricey)",
   "prominent_see_also": [
     {
       "target_id": "14735_wariyasu",
@@ -53,10 +53,18 @@
       "note": "relatively cheap"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00500_takai",
+      "reading": "たかい",
+      "headword": "{高|たか}い",
+      "label": "simply expensive. A ¥100 item can be if…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T09:50:02Z",
-    "modified": "2026-09-02T04:01:38Z",
+    "modified": "2026-10-26T12:47:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -66,7 +74,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "money",
+        "evaluation"
       ]
     }
   }
