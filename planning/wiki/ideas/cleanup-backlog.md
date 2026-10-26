@@ -3598,6 +3598,15 @@ such spellings in 31 entries ({話|はなし}し, {咳|せき}き, {手持|て�
 (約束したなのに), replaced. The TTS slips cluster on ソファ/メロディ/コンピュータ (it lengthens the
 final vowel), on devoiced しゅ (退出, 創出, 排出), and on ヴェ/ヴォ, which the checkers hear as べ/ぼ.
 
+Progress 2026-10-26 (routine 2026-10-26_005): the last 199 triaged; the queue is empty. 7 were
+errors in the entries: 一か月 written いちかげつ, 口調 split into {口|くち}{調|ちょう} (read くちちょう),
+百五十周年 and 五十周年 with じゅう/じっ, the shogi foul 二歩 written にほ (it is にふ; fixed in three
+examples and the notes, the headword keeps にほ for "two steps"), 上向く examples that were really
+上を向く with 上 read うわ (three replaced), and 横見で where 横目で was meant. 167 were marked
+`tts-error` (rare readings: 遅進, 義太夫, 四七日; small kana ぃ/ゅ; an added を or ご), 23
+`ambiguous` (鮭 さけ/しゃけ, 頬 ほお/ほほ, 重複 ちょう/じゅう, 早急 そう/さっ, 下座 げざ/しもざ). With nothing
+open the item is set `batch_ready: false`; turn it back on when the detector lists 50 or more.
+
 Progress 2026-10-25 (routine 2026-10-25, second run): the next 200 triaged; 246 open. 20 examples
 fixed from the queue and 22 more by scans for the same errors: counters with じゅう or じっ
 (十キロ, 数十棟, 三十セーブ, 百八十センチ, 十分 じっぷん → じゅっぷん in 5 examples, six 〜十パーセント),
