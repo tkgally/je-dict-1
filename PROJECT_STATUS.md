@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-10-23
+**Last updated**: 2026-10-26
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -49,6 +49,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-10-26 (ezFurigana lookup report: 498 new candidates; a third candidate stream)
+
+ezFurigana (https://www.ezfurigana.com/), which adds furigana to its users' texts and links the
+words to this dictionary, sent Tom its first report of words users looked up and did not find:
+1,384 rows. Each row was vetted against the find-candidates gates. 498 became candidates (幽閉,
+奴隷, 過言, いち早く, 点く, 勝手に; homographs read another way such as 生物 なまもの, 人気 ひとけ, 下
+もと; grammar patterns the dictionary lacked, such as には, ずに, ないで, ことになる, ことがある,
+ことができる, かねない, たり, れる and られる). 276 were other spellings or forms of existing
+entries, 7 were already queued, and 601 were rejected (mostly names, bare kanji fragments,
+transparent compounds and number + counter strings). Reports now have a home
+(`external/ezfurigana/`) and a tool (`build/ezfurigana_lookups.py`: ingest, pending, record,
+stats, queue, variants); the `candidates` mode works report rows first, `new-entries` takes about
+a third of its words from them (most looked-up first), and the selector no longer counts them
+toward the restock threshold, so closure and brainstorming continue as before. The same session
+ran one brainstorm batch (field animal-insect: 26 candidates such as ダニ, ヒグラシ, 蝉時雨,
+虫の知らせ) and added 8 words the report suggested by association (the dynasties 唐, 明, 清;
+させる, せる, かねる; 東部, 西部). Queue: 167 → 699. README and CLAUDE.md now say the data is used
+by ezFurigana.
 
 ### 2026-10-26 (8 new entries, third batch)
 

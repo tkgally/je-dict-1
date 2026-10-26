@@ -107,6 +107,12 @@ python3 build/brainstorm_candidates.py next > b.json         # Brainstorm batch:
 python3 build/brainstorm_candidates.py ask b.json --out m.json --budget 0.40   # Proposals from two independent models
 python3 build/brainstorm_candidates.py filter own.json m.json --out new.json  # Merge, drop existing/rejected, flag variants
 python3 build/brainstorm_candidates.py record b.json verdicts.json            # Log verdicts, advance the lens cursor
+python3 build/ezfurigana_lookups.py ingest report.tsv        # File an ezFurigana lookup report under external/ezfurigana/received/
+python3 build/ezfurigana_lookups.py pending --n 150 > ez.json   # Report rows still to vet (drops entries, candidates, decided rows)
+python3 build/ezfurigana_lookups.py record verdicts.json      # Log a verdict for every vetted row
+python3 build/ezfurigana_lookups.py stats                     # Rows and verdicts by category
+python3 build/ezfurigana_lookups.py queue --n 40              # Queued ezFurigana candidates, most looked-up first
+python3 build/ezfurigana_lookups.py variants                  # Report rows that are forms of existing entries (TSV)
 python3 build/retire_entry.py retire OLD_ID --to NEW_ID --reason "..."   # Delete an entry; old URL redirects (curator decision)
 python3 build/retire_entry.py rename OLD_ID NEW_ID --reason "..."        # New romaji, same number; old URL redirects
 ```

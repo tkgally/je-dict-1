@@ -69,9 +69,9 @@ The `vocabulary-notes` skill lists six possible content categories. **You do not
 
 Three sections is the target; **four is usually too many; six or more is always too many**. Do not invent extra sections like "WHICH ENGLISH SOURCE WORD", "TYPICAL CONTEXTS", or duplicate "COMMON COMPOUNDS"/"COMMON COLLOCATIONS" pairs just to fill out the entry.
 
-## Candidate Selection Priority (closure and brainstorm, policy 2026-10-23)
+## Candidate Selection Priority (closure, brainstorm and ezFurigana; policy 2026-10-23, 2026-10-26)
 
-New entries come from two kinds of candidate (`prompts/newcandidates.md`):
+New entries come from three kinds of candidate (`prompts/newcandidates.md`):
 
 - **Closure** candidates, whose notes say `seen in entry NNNNN` or `used in`: words the
   dictionary already uses in an example or a note but never defined.
@@ -80,10 +80,21 @@ New entries come from two kinds of candidate (`prompts/newcandidates.md`):
   compounds and set phrases, register counterparts, culturally important proper names) or from a
   semantic field's gaps.
 
-Take about half of each per session, oldest first within each kind; if one kind runs short,
-fill from the other. Within the brainstorm half, prefer basic and everyday words (particles,
-common verbs and adjectives, set phrases a learner meets weekly) over rarer ones. Other vetted
-candidates (older curated idioms and proper nouns) come last.
+- **ezFurigana** candidates, whose notes end with `ezfurigana: looked up N×`: words that users
+  of ezFurigana (https://www.ezfurigana.com/), which links the words of its users' texts to
+  this dictionary, looked up and did not find (`external/ezfurigana/README.md`). Each one is a
+  word a learner has already tried to look up here.
+
+Take about a third of each per session (half and half while one kind is empty); if one kind
+runs short, fill from the others. Closure and brainstorm go oldest first; ezFurigana goes most
+looked-up first (the N in the note), grammar patterns and everyday words before rarer ones.
+Within the brainstorm share, prefer basic and everyday words (particles, common verbs and
+adjectives, set phrases a learner meets weekly) over rarer ones. Other vetted candidates (older
+curated idioms and proper nouns) come last.
+
+**ezFurigana candidates are looked up by their surface form**: when the note says
+`as <surface>` (入管 queued for 入管法, にわたる for にわたって), make sure the entry shows that
+form in an example or a collocation, so that the word the learner met appears on the page.
 
 **Connect brainstorm entries to their seed.** When the note names an existing entry
 (`brainstorm: antonym of 00204 数`), the new entry gets a cross-reference to it with the right
@@ -102,6 +113,7 @@ To list the two kinds:
 ```bash
 grep -B1 -A3 -E '"seen in entry|used in' candidate_words.json | head -80
 grep -B1 -A3 'brainstorm:' candidate_words.json | head -80
+python3 build/ezfurigana_lookups.py queue --n 40      # ezFurigana candidates, most looked-up first
 ```
 
 ## Session Workflow

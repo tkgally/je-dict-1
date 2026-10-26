@@ -7,7 +7,9 @@ as JSON on stdout for prompts/routine2.md to act on.
 
 Modes: polish, systemic-fix, accuracy-review, new-entries, candidates, wiki, audio,
 conjugation-check.
-`candidates` self-suppresses while the candidate queue is sufficiently stocked;
+`candidates` self-suppresses while the candidate queue is sufficiently stocked
+(counting closure and brainstorm candidates, not those from ezFurigana lookup
+reports) unless ezFurigana rows wait for a verdict;
 `systemic-fix` self-suppresses with no open batch-ready backlog item;
 `accuracy-review` self-suppresses when the OpenRouter daily cap is spent; `wiki`
 has weight 0 and runs only when its trigger fires (unharvested observations
@@ -58,6 +60,8 @@ LEDGER_FILE = PIPELINE_DIR / "openrouter-ledger.json"
 
 ENTRIES_INDEX = PROJECT_ROOT / "entries_index.json"
 CANDIDATES_FILE = PROJECT_ROOT / "candidate_words.json"
+# Marker the ezFurigana stream writes in candidate notes (build/ezfurigana_lookups.py)
+EZFURIGANA_MARK = "ezfurigana: looked up"
 OBSERVATIONS_FILE = PROJECT_ROOT / "polishing" / "observations.md"
 COMPREHENSIVE_PROGRESS = PROJECT_ROOT / "polishing" / "tasks" / "comprehensive" / "progress.txt"
 XMODEL_PROGRESS = PROJECT_ROOT / "polishing" / "tasks" / "cross-model-review" / "progress.txt"
@@ -187,12 +191,16 @@ def compute_signals():
     candidates = cand.get("candidates", []) if isinstance(cand, dict) else []
     candidate_count = len(candidates)
     seen = 0
+    ezfurigana = 0
     for c in candidates:
         try:
-            if "seen in entry" in json.dumps(c, ensure_ascii=False):
-                seen += 1
+            text = json.dumps(c, ensure_ascii=False)
         except (TypeError, ValueError):
-            pass
+            continue
+        if "seen in entry" in text:
+            seen += 1
+        if EZFURIGANA_MARK in text:
+            ezfurigana += 1
 
     idx = load_json(ENTRIES_INDEX, {})
     entries = idx.get("entries", []) if isinstance(idx, dict) else []
@@ -220,6 +228,8 @@ def compute_signals():
         "audio_production_enabled": audio_enabled,
         "audio_backlog": audio_backlog() if audio_enabled else None,
         "candidate_count": candidate_count,
+        "candidate_own_count": candidate_count - ezfurigana,
+        "ezfurigana_pending": ezfurigana_pending(),
         "seen_in_entry_count": seen,
         "max_entry_id": max_id,
         "comprehensive_next": parse_next(COMPREHENSIVE_PROGRESS),
@@ -227,6 +237,17 @@ def compute_signals():
         "unharvested_observations": unharvested,
         "open_backlog_items": open_backlog,
     }
+
+
+def ezfurigana_pending():
+    """ezFurigana lookup rows still waiting for a verdict
+    (build/ezfurigana_lookups.py); 0 if none were received or they cannot be read."""
+    try:
+        sys.path.insert(0, str(PROJECT_ROOT / "build"))
+        import ezfurigana_lookups
+        return ezfurigana_lookups.pending_count()
+    except Exception:  # noqa: BLE001 - a broken report must not stop the selector
+        return 0
 
 
 def audio_backlog():
@@ -342,13 +363,22 @@ def compute_multipliers(signals, config, remaining, acc_remaining=None):
     # restocking to do; boosted when the queue is nearly empty. Since the
     # 2026-08-11 cleanup the queue holds only vetted words, so the raw count
     # is a faithful signal of usable material.
+    # The thresholds count only the mode's own streams (closure and
+    # brainstorm): candidates from ezFurigana lookup reports
+    # (build/ezfurigana_lookups.py) arrive in large batches when Tom receives
+    # a report and must not stop the other streams (Tom, 2026-10-26). Rows of
+    # a report still waiting for a verdict make the mode eligible.
     restock = nz.get("candidate_restock_threshold", 150)
-    if cc is not None:
-        if cc >= restock:
+    own = signals.get("candidate_own_count", cc)
+    ez_pending = signals.get("ezfurigana_pending") or 0
+    if own is not None:
+        if own >= restock and ez_pending:
+            reasons["candidates"].append(f"{ez_pending} ezFurigana rows waiting")
+        elif own >= restock:
             mult["candidates"] = 0.0
             reasons["candidates"].append(
-                f"queue sufficiently stocked ({cc} >= {restock})")
-        elif cc < nz["candidate_low_threshold"]:
+                f"queue sufficiently stocked ({own} >= {restock})")
+        elif own < nz["candidate_low_threshold"]:
             mult["candidates"] = clamp(1.5)
             reasons["candidates"].append("queue low — restock urgent")
 
@@ -502,12 +532,13 @@ def build_params(choice, signals, config, remaining, acc_remaining=None):
             "openrouter_session_budget_usd": round(min(remaining, per), 2),
         }
     if choice == "candidates":
-        cc = signals.get("candidate_count") or 0
+        cc = signals.get("candidate_own_count", signals.get("candidate_count")) or 0
         restock = config["nudges"].get("candidate_restock_threshold", 100)
         bcap = float(config["openrouter"].get("brainstorm_cap_usd", 0.5))
         return {
             "approx_new": max(40, min(80, restock + 40 - cc)),
             "source": "closure_and_brainstorm",
+            "ezfurigana_pending": signals.get("ezfurigana_pending") or 0,
             "openrouter_session_budget_usd": round(max(0.0, min(remaining, bcap)), 2),
         }
     if choice == "wiki":

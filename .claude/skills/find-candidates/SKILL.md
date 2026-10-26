@@ -141,6 +141,20 @@ report which lenses you used so the next session can pick different ones.
 10. **Thematic sweeps** — pick an underrepresented domain (weather idioms,
     cooking techniques, office life, health symptoms) and fill it
     systematically.
+11. **ezFurigana lookups** (since 2026-10-26; stream 3 of
+    `prompts/newcandidates.md`) — ezFurigana (https://www.ezfurigana.com/)
+    links the words of the texts its users paste in to this dictionary, and
+    its owner sends Tom reports of the words his users looked up and did not
+    find (`external/ezfurigana/`, `build/ezfurigana_lookups.py`). This is the
+    one outside source Tom allows, and only as evidence of demand: the rows
+    are what a tokenizer cut out of real texts, so most are names, bare
+    kanji fragments (等, 大, 期), stems and inflected forms (与え, 細か),
+    other spellings of existing entries (身体, 子ども) or transparent
+    compounds (研究費). Vet every row through G1–G7 and queue the lemma, not
+    the surface (入管法 → 入管, にわたって → にわたる). What survives is
+    worth having: words learners demonstrably meet (幽閉, 奴隷, 過言,
+    いち早く), homographs read another way (生物 なまもの, 人気 ひとけ),
+    missing grammar patterns (ことになる, かねない, ずに).
 
 ## Duplicate prevention (AUTOMATIC)
 

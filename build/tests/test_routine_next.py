@@ -205,6 +205,27 @@ class TestNudges(unittest.TestCase):
         tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
         self.assertGreater(tally.get("candidates", 0), 0)
 
+    def test_ezfurigana_candidates_do_not_stock_the_queue(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["candidate_count"] = 650  # 520 of them from an ezFurigana report
+        sig["candidate_own_count"] = 130
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
+        self.assertGreater(tally.get("candidates", 0), 0)
+        p = rn.build_params("candidates", sig, cfg, remaining=5.0)
+        self.assertEqual(p["approx_new"], 80)
+
+    def test_ezfurigana_rows_waiting_keep_candidates_eligible(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["candidate_count"] = sig["candidate_own_count"] = 500
+        sig["ezfurigana_pending"] = 120
+        mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["candidates"], 1.0)
+        self.assertTrue(any("ezFurigana" in r for r in reasons["candidates"]))
+        p = rn.build_params("candidates", sig, cfg, remaining=5.0)
+        self.assertEqual(p["ezfurigana_pending"], 120)
+
     def test_candidates_mode_boosted_when_queue_nearly_empty(self):
         cfg = base_config()
         sig = neutral_signals()
