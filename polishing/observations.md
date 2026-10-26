@@ -1707,3 +1707,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - 2026-10-26 [entry] 24083 立方 ex3 一か月: fixed to いっかげつ (routine 2026-10-26_005); the observation above is resolved.
 - 2026-10-26 [entry] 30066 拍 (はく) has only the musical-beat sense; the phonological sense (mora, as in 五拍) is missing.
 - 2026-10-26 [entry] 13144 案ずる and 19881 案じる are two entries for one verb (ずる vs. じる dictionary form); now linked both ways in prominent_see_also. Consolidation is a curator-level call, not a pure spelling duplicate.
+- 2026-10-26 [tooling] accuracy review 24504–24763: 68 of 258 entries (26%) flagged by sol or Opus, just over the 25% noise line, but again the flags were real: 81 decisions, 80 applied, 1 to curator, 0 rejected. Most are overstated restrictions in SIMILAR WORDS bullets ("specifically", "exclusively", "almost always"): 24542 傑出, 24548 ペンキ, 24600 賽銭, 24694 割り勘, 24722 押す.
