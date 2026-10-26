@@ -1272,17 +1272,17 @@
     {
       "id": "tag-grammar-terminology-convention",
       "title": "Grammar-terminology entries split across five semantic tags -- needs a convention ruling (26 entries)",
-      "source": "ideas/cleanup-backlog.md#a-small-closed-set-that-is-a-five-way-convention-gap--grammar-terminology",
+      "source": "ideas/cleanup-backlog-resolved.md#a-small-closed-set-that-is-a-five-way-convention-gap--grammar-terminology",
       "detect": "headword in the grammar/writing terminology set (名詞, 動詞, 形容詞, 音読み, 訓読み, 送り仮名, 品詞 ...); report metadata.tags.semantic",
       "fix_type": "semantic",
       "verify": "per-entry",
       "priority": 9,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 26,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "entries",
       "severity": "info",
-      "notes": "Measured 2026-08-15 over 26 terminology headwords: grammatical 8, language 8, education 6, general 4, communication 3. Filed as 'POS terms drift to education, a small closed set worth a one-shot sweep' -- but there is no convention to sweep toward. The filing run fixed 名詞 and 音読み in the same pass to DIFFERENT tags (grammatical vs language), and the sibling pairs 訓読み/音読み and 他動詞/自動詞 are split the same way. Blocked on a curator ruling: is the house tag for metalinguistic vocabulary `grammatical` or `language`? Once chosen the sweep is trivial. Escalated to reviews/needs_curator.txt. Ruled by Tom 2026-10-23 (enhancement/assessment-2026-10-23.md §4 D5): the convention in the entry-guidelines skill stands: grammar and writing terms (名詞, 助詞, 送り仮名, 部首, 敬語) take `language` only; `grammatical` is for function words."
+      "notes": "Measured 2026-08-15 over 26 terminology headwords: grammatical 8, language 8, education 6, general 4, communication 3. Filed as 'POS terms drift to education, a small closed set worth a one-shot sweep' -- but there is no convention to sweep toward. The filing run fixed 名詞 and 音読み in the same pass to DIFFERENT tags (grammatical vs language), and the sibling pairs 訓読み/音読み and 他動詞/自動詞 are split the same way. Blocked on a curator ruling: is the house tag for metalinguistic vocabulary `grammatical` or `language`? Once chosen the sweep is trivial. Escalated to reviews/needs_curator.txt. Ruled by Tom 2026-10-23 (enhancement/assessment-2026-10-23.md §4 D5): the convention in the entry-guidelines skill stands: grammar and writing terms (名詞, 助詞, 送り仮名, 部首, 敬語) take `language` only; `grammatical` is for function words. Resolved 2026-10-26: 100-term scan, 3 moved to language (発音, 方言, アクセント), 5 multi-sense words gained language, そうや grammatical→expression."
     },
     {
       "id": "notes-nakaguro-bullets",
