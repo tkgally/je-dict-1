@@ -1699,3 +1699,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - 2026-10-26 [entry] 30162 南極圏: explanation leads with "the latitude line at about 66.5 degrees south"; 北極圏 (23417) was corrected to mean the region (the line is 南極線/北極線). Apply the same fix.
 - 2026-10-26 [entry] 23470 設定温度: examples 2–3 still present 28°C / 20°C as 設定温度 guidelines, while the notes now say the Cool Biz / Warm Biz figures are room temperatures.
 - 2026-10-26 [entry] 23406–23434: 24 entries have notes over the 1,200 / 2,000-character ceiling (pre-existing); a trimming pass is due.
+- 2026-10-26 [entry] 02176 息: senses 1 (breath) and 2 (breathing) are one meaning split in two; examples like 息が合う / 息を抜く sit under sense 2. A curator may want to merge them (not done; polish rules forbid restructuring senses).
