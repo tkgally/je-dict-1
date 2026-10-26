@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-26 (20 new entries, second batch)
+
+Twenty entries added (32298–32317), bringing the dictionary to about 32,090. Ten define words the
+dictionary already used without an entry: 自然体, 異国情緒, 小細工, 思い上がる, 雪下ろし, 春先, 夜長,
+歯並び, 長旅, 活断層. Ten come from brainstorming the fish and bird vocabulary: ハマチ, カレイ, タラ,
+フグ, ニシン, シシャモ, メジロ, ホトトギス, セキセイインコ, ハチドリ. An independent check found two
+factual slips in the notes (ヒラメ called halibut; why 鸚鵡貝 is so named), both fixed.
+
 ### 2026-10-26 (20 new entries)
 
 Twenty entries added (32278–32297), bringing the dictionary to about 32,070. Ten define words the
@@ -86,18 +94,3 @@ Opus flagged 162 issues in 141 entries; 155 were accepted and fixed in 137 entri
 needed 行き詰まる, removed; many false absolutes in notes. gpt-6.1-sol then checked the edits and caught
 three overcorrections, which were fixed.
 
-### 2026-10-25 (Claude on the subscription joins the model checks)
-
-Tom approved the recommendations of an experiment comparing the OpenRouter checking models with
-Claude run headless on the Max subscription (`enhancement/claude-backends-2026-10-25/REPORT.md`).
-On 200 entries, Claude Opus found as many real errors as gpt-6.1-sol, a different two thirds of
-them (85% together); Sonnet and Haiku found a fifth as many; subagents and batched reviews lost
-most of the gain. Changes: the accuracy sweep now has Opus review the same entries after sol
-(`--second claude:opus`, its "warn" flags kept, one added prompt paragraph naming the error
-classes the adjudication accepts); the kana-link review moves from gemini-2.5-flash (0.66 on
-the labeled set) to Opus (0.86); the conjugation model check moves from sol to Haiku (caught
-every injected error, no false flags). The self-check after each cycle stays on sol alone, so a
-different model family checks Claude's own work, and brainstorming stays as it was. Every
-Claude call reads the plan's usage windows and stops at 70% of the five-hour or 85% of the
-seven-day window (`pipeline/routine-config.json` → `claude`). New: `build/claude_backend.py`,
-`build/tests/test_claude_backend.py`.
