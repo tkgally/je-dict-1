@@ -1703,3 +1703,5 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - 2026-10-26 [entry] 24083 立方: audio checks heard いっかげつ for {一|いち}か{月|げつ} in 24083_rippou_ex3; check the furigana (いっかげつ is the standard reading).
 - 2026-10-26 [entry] 23517 メーター: audio checks heard ひゃっきろ for 100キロ (read ひゃくきろ) in 23517_meetaa_ex3; check the digit reading in audio/digit_readings.json.
 - 2026-10-26 [entry] 23664 正三角形: audio checks heard せいさんかっけい for せいさんかくけい in 23664_seisankakukei_ex2; both readings are in use, consider a PRONUNCIATION note.
+- 2026-10-26 [tooling] accuracy review 24004–24503: 165 of 498 entries (33%) flagged by sol or Opus, over the 25% noise line, but the flags were mostly real: of about 200 adjudicated, 3 rejected/flagged. The excess is Opus `warn` flags on overstated notes ("always", "specifically", "only"): 74 of 85 warns applied. Examples: 24046 四十代 "always よんじゅうだい", 24122 河川敷 "no permanent buildings", 24166 授乳 "specifically breastfeeding".
+- 2026-10-26 [entry] 24083 立方 ex3 一か月: fixed to いっかげつ (routine 2026-10-26_005); the observation above is resolved.
