@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-26 (15 new entries, fourth batch)
+
+32326–32340, five from each stream. Closure: 代替案, 体操服, 最年少, 非公認, 人工的. Brainstorm
+(fish and birds): 穴子, ホッケ, メダカ, ヒヨドリ, ナマズ. ezFurigana lookups: 合衆国, 幽閉, 激甚, 説話,
+薄明かり. Self-check clean (0 flags on 16 entries). 最年長 queued as a candidate.
+
 ### 2026-10-26 (ezFurigana lookup report: 498 new candidates; a third candidate stream)
 
 ezFurigana (https://www.ezfurigana.com/), which adds furigana to its users' texts and links the
@@ -92,20 +98,4 @@ dictionary already used without an entry: 自然体, 異国情緒, 小細工, �
 歯並び, 長旅, 活断層. Ten come from brainstorming the fish and bird vocabulary: ハマチ, カレイ, タラ,
 フグ, ニシン, シシャモ, メジロ, ホトトギス, セキセイインコ, ハチドリ. An independent check found two
 factual slips in the notes (ヒラメ called halibut; why 鸚鵡貝 is so named), both fixed.
-
-### 2026-10-26 (20 new entries)
-
-Twenty entries added (32278–32297), bringing the dictionary to about 32,070. Ten define words the
-dictionary already used without an entry: 追いやる, 立ち仕事, ひしめき合う, 取りまとめる, 見計らう,
-満ち引き, 大舞台, 粒揃い, 計らい, 垣間見える. Ten come from brainstorming: 判明する, を通して, をはじめ,
-分かり合う, 存じ上げる (humble "know", of people), それどころか, 周知, the fish アジ and ブリ, and
-つがい (a mated pair of animals). An independent check found two overstatements in the notes, both fixed.
-
-### 2026-10-25 (12 new entries)
-
-Twelve entries added (32266–32277), bringing the dictionary to about 32,050. Six define words the
-dictionary already used without an entry: 失業率, 啓発, 暗がり, 山あい, 勝ち上がる, 負け越す. Six come
-from brainstorming the bird vocabulary: オシドリ (おしどり夫婦), コウノトリ, ハゲタカ (with the
-"vulture fund" sense), とさか (とさかに来る), 鳥インフルエンザ, and 孵る (to hatch). An independent
-check found one point (鳥インフルエンザ is a disease, not the virus), fixed.
 
