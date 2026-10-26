@@ -1700,3 +1700,6 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - 2026-10-26 [entry] 23470 設定温度: examples 2–3 still present 28°C / 20°C as 設定温度 guidelines, while the notes now say the Cool Biz / Warm Biz figures are room temperatures.
 - 2026-10-26 [entry] 23406–23434: 24 entries have notes over the 1,200 / 2,000-character ceiling (pre-existing); a trimming pass is due.
 - 2026-10-26 [entry] 02176 息: senses 1 (breath) and 2 (breathing) are one meaning split in two; examples like 息が合う / 息を抜く sit under sense 2. A curator may want to merge them (not done; polish rules forbid restructuring senses).
+- 2026-10-26 [entry] 24083 立方: audio checks heard いっかげつ for {一|いち}か{月|げつ} in 24083_rippou_ex3; check the furigana (いっかげつ is the standard reading).
+- 2026-10-26 [entry] 23517 メーター: audio checks heard ひゃっきろ for 100キロ (read ひゃくきろ) in 23517_meetaa_ex3; check the digit reading in audio/digit_readings.json.
+- 2026-10-26 [entry] 23664 正三角形: audio checks heard せいさんかっけい for せいさんかくけい in 23664_seisankakukei_ex2; both readings are in use, consider a PRONUNCIATION note.
