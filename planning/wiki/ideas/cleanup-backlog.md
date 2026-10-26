@@ -2889,35 +2889,6 @@ precise value (`suru`, `kuru`, `irregular`) and the POS tag is carrying the coar
 arguably the validator's bug, not the entries'. Worth resolving as a set, because as long as
 these 11 sit in the output every future run has to re-read them to confirm they are not its own.
 
-### A "small closed set" that is a five-way convention gap — grammar terminology
-
-**Source**: the 2026-08-14 accuracy-review run: "Part-of-speech term entries drift to the
-`education` tag. 名詞 and 音読み were both fixed this run; 形容詞 is still tagged `education`
-while 動詞 and 助詞 correctly use `grammatical`. A small closed set — worth a one-shot sweep."
-
-**There is no convention to sweep toward.** Measured over 26 grammar-and-writing terminology
-headwords, the cohort uses **five different semantic tags**:
-
-| tag | count | examples |
-|---|---|---|
-| `grammatical` | 8 | 主語, 助詞, 動詞, 名詞, 活用, 命令形, 目的語, 過去形 |
-| `language` | 8 | 品詞, 感動詞, 漢字, 自動詞, 音読み, 命令形, 目的語, 過去形 |
-| `education` | 6 | 他動詞, 形容詞, 接続詞, 訓読み, 語彙, 送り仮名 |
-| `general` | 4 | 助動詞, 平仮名, 片仮名, 述語 |
-| `communication` | 3 | 副詞, 敬語, 文法 |
-
-(Three entries carry two tags, which is why the column exceeds 26.)
-
-The sharpest evidence is inside the filing itself. The run reports fixing 名詞 and 音読み
-together — and it fixed them to **different tags**: 名詞 is now `grammatical`, 音読み is
-`language`. Its sibling 訓読み is still `education`, and 他動詞 (`education`) and 自動詞
-(`language`) split the same pair. The reviewer is not drifting toward `education`; it is picking
-freely among four in-list tags that all fit, because the project has never chosen one.
-
-**This needs a curator ruling, not a systemic-fix run**: is the house tag for metalinguistic
-vocabulary `grammatical` or `language`, and does `education` belong to the学習 sense at all?
-Once chosen, the sweep is 26 entries and trivial. Filed to `reviews/needs_curator.txt`.
-
 ## Updates 2026-08-15 (wiki harvest, run 2)
 
 Twelve observations from the three runs since the midday harvest. One new priority, one

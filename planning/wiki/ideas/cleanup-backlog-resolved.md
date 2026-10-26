@@ -2100,3 +2100,35 @@ re-scan returning zero), then let the ordinary polish frontier write real explan
 **Update 2026-10-02**: systemic-fix cycle rewrote 24 senses (04470–04524, kitchenware, furniture, bathroom and clothing nouns) with one- or two-sentence English explanations. 193 senses were left before the batch; 169 remain. A second cycle the same day rewrote 19 more (04526–04563, clothing, accessories and workplace nouns), closing the 2026-01 block; 150 remain, all in the 2026-04 blocks. A third cycle rewrote 55 more (24159–24188 and 24539–24558); 95 remain, in 24786–24815, 25222–25245 and 25301–25330. A fourth cycle rewrote the last 95 (24786–24815, 25222–25245, 25301–25330, Sino-Japanese nouns, する-verbs and set phrases).
 
 **RESOLVED (2026-10-02).** All 201 duplicated explanations were replaced by real one- or two-sentence English explanations written for each sense (none dropped). The detector (explanation == gloss) returns 0.
+
+## A "small closed set" that is a five-way convention gap — grammar terminology
+
+**RESOLVED (2026-10-26).** Systemic-fix cycle after Tom's ruling of 2026-10-23 (grammar and writing terms take `language`). A scan of 100 grammar, writing and phonology terms found all but three already on `language`; 発音, 方言 and アクセント moved from `communication` to `language` (方言 keeps `geography`). Five words with a grammar sense beside an everyday one (疑問, 否定, 命令, 原形, 格) gained `language` as an extra tag, and そうや lost a stray `grammatical` (now `expression`). 節 (ふし, joint/melody) and 拍 (musical beat only) are not grammar terms and were left alone.
+
+
+**Source**: the 2026-08-14 accuracy-review run: "Part-of-speech term entries drift to the
+`education` tag. 名詞 and 音読み were both fixed this run; 形容詞 is still tagged `education`
+while 動詞 and 助詞 correctly use `grammatical`. A small closed set — worth a one-shot sweep."
+
+**There is no convention to sweep toward.** Measured over 26 grammar-and-writing terminology
+headwords, the cohort uses **five different semantic tags**:
+
+| tag | count | examples |
+|---|---|---|
+| `grammatical` | 8 | 主語, 助詞, 動詞, 名詞, 活用, 命令形, 目的語, 過去形 |
+| `language` | 8 | 品詞, 感動詞, 漢字, 自動詞, 音読み, 命令形, 目的語, 過去形 |
+| `education` | 6 | 他動詞, 形容詞, 接続詞, 訓読み, 語彙, 送り仮名 |
+| `general` | 4 | 助動詞, 平仮名, 片仮名, 述語 |
+| `communication` | 3 | 副詞, 敬語, 文法 |
+
+(Three entries carry two tags, which is why the column exceeds 26.)
+
+The sharpest evidence is inside the filing itself. The run reports fixing 名詞 and 音読み
+together — and it fixed them to **different tags**: 名詞 is now `grammatical`, 音読み is
+`language`. Its sibling 訓読み is still `education`, and 他動詞 (`education`) and 自動詞
+(`language`) split the same pair. The reviewer is not drifting toward `education`; it is picking
+freely among four in-list tags that all fit, because the project has never chosen one.
+
+**This needs a curator ruling, not a systemic-fix run**: is the house tag for metalinguistic
+vocabulary `grammatical` or `language`, and does `education` belong to the学習 sense at all?
+Once chosen, the sweep is 26 entries and trivial. Filed to `reviews/needs_curator.txt`.
