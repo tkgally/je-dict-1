@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -18118,6 +18118,18 @@
     "reviewed": 10,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "ひしめく": {
+   "target": "07834_hishimeku",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "ひしめく is only the verb 犇めく 'to crowd together'; it has no common homophone or alternate parse.",
+    "model": "claude:opus",
+    "date": "2026-10-26"
    }
   },
   "ひじき": {

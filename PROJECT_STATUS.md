@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-26 (20 new entries)
+
+Twenty entries added (32278–32297), bringing the dictionary to about 32,070. Ten define words the
+dictionary already used without an entry: 追いやる, 立ち仕事, ひしめき合う, 取りまとめる, 見計らう,
+満ち引き, 大舞台, 粒揃い, 計らい, 垣間見える. Ten come from brainstorming: 判明する, を通して, をはじめ,
+分かり合う, 存じ上げる (humble "know", of people), それどころか, 周知, the fish アジ and ブリ, and
+つがい (a mated pair of animals). An independent check found two overstatements in the notes, both fixed.
+
 ### 2026-10-25 (12 new entries)
 
 Twelve entries added (32266–32277), bringing the dictionary to about 32,050. Six define words the
@@ -93,15 +101,3 @@ different model family checks Claude's own work, and brainstorming stays as it w
 Claude call reads the plan's usage windows and stops at 70% of the five-hour or 85% of the
 seven-day window (`pipeline/routine-config.json` → `claude`). New: `build/claude_backend.py`,
 `build/tests/test_claude_backend.py`.
-
-### 2026-10-25 (Routine v3: candidates — 48 words queued, C24751–C24798)
-
-Two streams. Internal closure was thin: no unresolved missing-word markers remain, and a scan of
-example sentences found almost only other spellings of existing entries; two words added
-(否応なしに, 芳名). Brainstorming, two batches: the seeds 待つ … 思う (basic tier) gave 24 words,
-mostly established compounds and set phrases (待ちぼうけ, 待ったなし, お待ちかね, 忘れっぽい, 人出,
-仕事始め, 聞き捨てならない, 習うより慣れよ) and the grammar items までに, までもない and ても; the field
-animal-general gave 22 (クラゲ, ヒトデ, ナマコ, サソリ, ムカデ, ヤモリ, 肉球, 蹄, 狂犬病, 雑種, 在来種,
-固有種, 血統書 …). Of 268 + 93 proposals, most were already entries; spelling variants and
-technical terms were rejected. Queue 111 → 159.
-
