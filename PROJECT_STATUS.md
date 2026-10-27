@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-27 (15 new entries, third batch)
+
+32373–32387. Closure: 計画倒れ, 平服, 尾てい骨, 共同親権, 国民皆保険. Brainstorm (bird and fish fields):
+ムクドリ, 九官鳥, カンパチ, ドジョウ, トビウオ. ezFurigana lookups: 勝手に, 主たる, 奴隷, 点く, 横殴り.
+点く is now the intransitive pair of つける (00562). Self-check: 2 flags, both applied.
+
 ### 2026-10-27 (12 new entries, second batch)
 
 32361–32372. Closure: 満ち欠け, 考案者, 厚志, 通じ合う. Brainstorm: 一仕事, 待ち望む, 忘れ去る,
@@ -90,9 +96,3 @@ ran one brainstorm batch (field animal-insect: 26 candidates such as ダニ, ヒ
 させる, せる, かねる; 東部, 西部). Queue: 167 → 699. README and CLAUDE.md now say the data is used
 by ezFurigana.
 
-### 2026-10-26 (8 new entries, third batch)
-
-Eight entries added (32318–32325). Four define words the dictionary already used: 度外視,
-年老いる, 生まれ育つ, 手術室. Four come from the brainstorm on basic words: 探し物, 店じまい,
-明くる日 (the next day, in narrative, contrasted with 翌日 and 明日), 乗り気. An independent check
-found two overstatements in the new notes, both fixed.
