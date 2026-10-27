@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-27 (candidates: 21 added)
+
+Closure 12 (words today's accuracy review and new entries named in notes: 単独親権, 国民皆年金, 魔方陣, 計画停電,
+吹き降り, 結び切り, 波括弧, 焼きプリン, 耕作放棄地, 替え刃, 指し棒, 基調講演). Brainstorm seeds 80–99 (出る … 借りる):
+222 proposals, 198 already entries; 9 added (脱ぎ捨てる, 手始め, 借り物, 目に入る, はみ出る, 出遅れる, もらい物,
+勉強家, 前借り), 14 rejected. Queue 660.
+
 ### 2026-10-27 (15 new entries, third batch)
 
 32373–32387. Closure: 計画倒れ, 平服, 尾てい骨, 共同親権, 国民皆保険. Brainstorm (bird and fish fields):
@@ -76,23 +83,4 @@ the prefix 外〜. Self-check: 4 notes flags, all applied. Candidates 頃 and �
 32326–32340, five from each stream. Closure: 代替案, 体操服, 最年少, 非公認, 人工的. Brainstorm
 (fish and birds): 穴子, ホッケ, メダカ, ヒヨドリ, ナマズ. ezFurigana lookups: 合衆国, 幽閉, 激甚, 説話,
 薄明かり. Self-check clean (0 flags on 16 entries). 最年長 queued as a candidate.
-
-### 2026-10-26 (ezFurigana lookup report: 498 new candidates; a third candidate stream)
-
-ezFurigana (https://www.ezfurigana.com/), which adds furigana to its users' texts and links the
-words to this dictionary, sent Tom its first report of words users looked up and did not find:
-1,384 rows. Each row was vetted against the find-candidates gates. 498 became candidates (幽閉,
-奴隷, 過言, いち早く, 点く, 勝手に; homographs read another way such as 生物 なまもの, 人気 ひとけ, 下
-もと; grammar patterns the dictionary lacked, such as には, ずに, ないで, ことになる, ことがある,
-ことができる, かねない, たり, れる and られる). 276 were other spellings or forms of existing
-entries, 7 were already queued, and 601 were rejected (mostly names, bare kanji fragments,
-transparent compounds and number + counter strings). Reports now have a home
-(`external/ezfurigana/`) and a tool (`build/ezfurigana_lookups.py`: ingest, pending, record,
-stats, queue, variants); the `candidates` mode works report rows first, `new-entries` takes about
-a third of its words from them (most looked-up first), and the selector no longer counts them
-toward the restock threshold, so closure and brainstorming continue as before. The same session
-ran one brainstorm batch (field animal-insect: 26 candidates such as ダニ, ヒグラシ, 蝉時雨,
-虫の知らせ) and added 8 words the report suggested by association (the dynasties 唐, 明, 清;
-させる, せる, かねる; 東部, 西部). Queue: 167 → 699. README and CLAUDE.md now say the data is used
-by ezFurigana.
 
