@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-27 (12 new entries, second batch)
+
+32361–32372. Closure: 満ち欠け, 考案者, 厚志, 通じ合う. Brainstorm: 一仕事, 待ち望む, 忘れ去る,
+習うより慣れよ. ezFurigana lookups: 術式, 工場 (こうば), 叫び, 狂乱. The 248 existing links on 工場 all
+carry the reading こうじょう and stay on 01082. Self-check: 1 flag, applied. 〜型 (がた) was left for a
+later batch, because it will need its existing 型 links sorted the way 〜外 was.
+
 ### 2026-10-27 (20 new entries, first batch)
 
 32341–32360. Closure: 〜外 (suffix), 暴利, 相当額, 芳名, 座り仕事, を通じて, 計らう. Brainstorm:
@@ -89,12 +96,3 @@ Eight entries added (32318–32325). Four define words the dictionary already us
 年老いる, 生まれ育つ, 手術室. Four come from the brainstorm on basic words: 探し物, 店じまい,
 明くる日 (the next day, in narrative, contrasted with 翌日 and 明日), 乗り気. An independent check
 found two overstatements in the new notes, both fixed.
-
-### 2026-10-26 (30 new candidates)
-
-The candidate queue was restocked from 145 to 175 words. Twelve are closure words that entries
-written or fixed today use without an entry (調子に乗る, 早春, 日長, 歯列, 八重歯, 目白押し, 托卵,
-閑古鳥, 授賞式, 板書, 使節団, 親告罪). Eighteen come from brainstorming the basic seeds 探す–と
-(探し物, 探し出す, 店じまい, 店番, 明くる日, 働きかける, からには, 乗り気, …), including two
-grammar words the dictionary turned out to lack entirely: the conditional たら and the listing
-particle とか.
