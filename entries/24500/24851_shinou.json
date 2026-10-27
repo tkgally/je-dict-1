@@ -35,7 +35,7 @@
     },
     {
       "id": "24851_shinou_ex3",
-      "japanese": "⟦{気象庁|きしょうちょう}→気象庁：30107_kishouchou⟧⟦の→の：09472_no⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦によると→〜によると：03104_niyoruto⟧、{震央|しんおう}⟦は→は：00079_ha⟧{千葉県|ちばけん}{南部|なんぶ}⟦で→で：00502_de⟧、⟦{震源|しんげん}→震源：16060_shingen⟧⟦の→の：09472_no⟧⟦{深|ふか}さ→深さ：05328_fukasa⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧30⟦キロ→キロ：01350_kiro⟧だった。",
+      "japanese": "⟦{気象庁|きしょうちょう}→気象庁：30107_kishouchou⟧⟦の→の：09472_no⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦によると→〜によると：03104_niyoruto⟧、{震央|しんおう}⟦は→は：00079_ha⟧{千葉県|ちばけん}⟦{南部|なんぶ}→南部：31707_nanbu⟧⟦で→で：00502_de⟧、⟦{震源|しんげん}→震源：16060_shingen⟧⟦の→の：09472_no⟧⟦{深|ふか}さ→深さ：05328_fukasa⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧30⟦キロ→キロ：01350_kiro⟧だった。",
       "english": "According to the Japan Meteorological Agency's announcement, the epicenter was in southern Chiba Prefecture, with a hypocenter depth of approximately 30 kilometers.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {震|しん} (earthquake/tremor) + {央|おう} (center). This is the technical seismological term for the surface point above the earthquake origin. In everyday Japanese, ⟦{震源|しんげん}→震源：16060_shingen⟧ or {震源地|しんげんち} are used more loosely to mean \"epicenter\" even though they technically refer to the underground origin point.\n\nCOMMON COLLOCATIONS:\n- {震央|しんおう}⟦{付近|ふきん}→付近：00044_fukin⟧: near the epicenter\n- {震央|しんおう}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{距離|きょり}→距離：05331_kyori⟧: distance from the epicenter\n- {震央|しんおう}⟦{分布|ぶんぷ}→分布：00021_bunpu⟧: epicenter distribution\n\nSIMILAR WORDS:\n- ⟦{震源|しんげん}→震源：16060_shingen⟧: seismic focus; hypocenter — the underground point where the earthquake originates\n- {震源地|しんげんち}: the place of origin — often used loosely as a synonym for epicenter, and also used figuratively for the source of a problem",
+  "notes": "Composed of {震|しん} (earthquake/tremor) + {央|おう} (center). This is the technical seismological term for the surface point above the earthquake origin. ⟦{震源|しんげん}→震源：16060_shingen⟧ is technically the underground focus, while ⟦{震源地|しんげんち}→震源地：32106_shingenchi⟧ commonly means the area on the surface above it; in everyday Japanese both are used loosely for \"epicenter\".\n\nCOMMON COLLOCATIONS:\n- {震央|しんおう}⟦{付近|ふきん}→付近：00044_fukin⟧: near the epicenter\n- {震央|しんおう}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{距離|きょり}→距離：05331_kyori⟧: distance from the epicenter\n- {震央|しんおう}⟦{分布|ぶんぷ}→分布：00021_bunpu⟧: epicenter distribution\n\nSIMILAR WORDS:\n- ⟦{震源|しんげん}→震源：16060_shingen⟧: seismic focus; hypocenter — the underground point where the earthquake originates\n- ⟦{震源地|しんげんち}→震源地：32106_shingenchi⟧: the place of origin — often used loosely as a synonym for epicenter, and also used figuratively for the source of a problem",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -53,6 +53,13 @@
       "reading": "しんげん",
       "headword": "{震源|しんげん}",
       "label": "seismic focus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "32106_shingenchi",
+      "reading": "しんげんち",
+      "headword": "{震源地|しんげんち}",
+      "label": "the place of origin"
     }
   ],
   "metadata": {
@@ -71,6 +78,6 @@
       ]
     },
     "created": "2026-04-21T10:26:00Z",
-    "modified": "2026-09-02T04:02:20Z"
+    "modified": "2026-10-27T01:42:29Z"
   }
 }
