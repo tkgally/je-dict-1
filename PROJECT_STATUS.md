@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-27 (20 new entries, first batch)
+
+32341–32360. Closure: 〜外 (suffix), 暴利, 相当額, 芳名, 座り仕事, を通じて, 計らう. Brainstorm:
+までに, お待ちかね, 買い込む, 待ちぼうけ, 忘れっぽい, ても, 人出. ezFurigana lookups: 〜等, には, 大〜, 下 (もと),
+願, とは. 45 existing links to 外 that were the suffix (予想外, 圏外, 時間外, …) now point to 〜外 instead of
+the prefix 外〜. Self-check: 4 notes flags, all applied. Candidates 頃 and 否応なしに dropped (covered by
+〜ころ and 否応なし); 取り計らう queued.
+
 ### 2026-10-26 (15 new entries, fourth batch)
 
 32326–32340, five from each stream. Closure: 代替案, 体操服, 最年少, 非公認, 人工的. Brainstorm
@@ -90,12 +98,3 @@ written or fixed today use without an entry (調子に乗る, 早春, 日長, �
 (探し物, 探し出す, 店じまい, 店番, 明くる日, 働きかける, からには, 乗り気, …), including two
 grammar words the dictionary turned out to lack entirely: the conditional たら and the listing
 particle とか.
-
-### 2026-10-26 (20 new entries, second batch)
-
-Twenty entries added (32298–32317), bringing the dictionary to about 32,090. Ten define words the
-dictionary already used without an entry: 自然体, 異国情緒, 小細工, 思い上がる, 雪下ろし, 春先, 夜長,
-歯並び, 長旅, 活断層. Ten come from brainstorming the fish and bird vocabulary: ハマチ, カレイ, タラ,
-フグ, ニシン, シシャモ, メジロ, ホトトギス, セキセイインコ, ハチドリ. An independent check found two
-factual slips in the notes (ヒラメ called halibut; why 鸚鵡貝 is so named), both fixed.
-
