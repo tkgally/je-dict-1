@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-27",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -1714,17 +1714,17 @@
     {
       "id": "reviewer-notes-fact-quote-prefix",
       "title": "review_accuracy.py accepts a notes quote on its first 25 characters, so composite and misplaced quotes pass",
-      "source": "polishing/observations.md 2026-09-16, 2026-09-21, 2026-09-22 accuracy-review runs",
+      "source": "planning/wiki/ideas/tooling-backlog-resolved.md",
       "detect": "reviews/decisions.jsonl since 2026-09-01: notes-fact 304 apply / 618 reject / 14 flag (33% precision)",
       "filter": null,
       "fix_type": "tooling: code change in quote_in_notes() (build/review_accuracy.py:288)",
       "verify": "re-review one 200-entry range and compare notes-fact precision",
       "priority": 9,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 1,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "medium",
-      "notes": "Three runs report roughly half of notes-fact flags quote text that is not where claimed or is two bullets spliced together. quote_in_notes() accepts the whole quote OR its first 25 characters, so a quote whose opening matches and whose remainder is invented or spliced passes the gate. Also: the plain-text extraction drops furigana, so {脂性|あぶらせい} vs 脂性 look identical to the model. See tooling-backlog.md item 146. 2026-09-25/27 harvest: 5 of 6 notes-fact flags in one self-check quoted fragments of separate lines joined together (require the quote to occur contiguously); 7 flags in 17001-18000 attributed a list line's gloss to the wrong word (prompt should say each list line glosses the word that begins it); 6 of 14 on the number entries came from notes sent with furigana stripped, so 一日 ついたち vs 一日 いちにち reached the model as \"一日 … but 一日\" (render furigana as 漢字(かな) in the payload)."
+      "notes": "Three runs report roughly half of notes-fact flags quote text that is not where claimed or is two bullets spliced together. quote_in_notes() accepts the whole quote OR its first 25 characters, so a quote whose opening matches and whose remainder is invented or spliced passes the gate. Also: the plain-text extraction drops furigana, so {脂性|あぶらせい} vs 脂性 look identical to the model. See tooling-backlog.md item 146. 2026-09-25/27 harvest: 5 of 6 notes-fact flags in one self-check quoted fragments of separate lines joined together (require the quote to occur contiguously); 7 flags in 17001-18000 attributed a list line's gloss to the wrong word (prompt should say each list line glosses the word that begins it); 6 of 14 on the number entries came from notes sent with furigana stripped, so 一日 ついたち vs 一日 いちにち reached the model as \"一日 … but 一日\" (render furigana as 漢字(かな) in the payload). RESOLVED 2026-10-27 (systemic-fix): quote_in_notes() requires the whole quote within one notes line (ellipsis pieces in order on that line); notes go to the reviewer as 漢字(かな); the prompt says each list line is about its first word and quotes come from one line. PROMPT_VERSION 6 (claude 7). Verify: re-review of 24564-24763 by gpt-6.1-sol: 9 notes/register flags, all quotes single-line and passing both gates, 10 flags in all, 10 applied (4 were wrong readings in notes the plain payload had hidden)."
     },
     {
       "id": "audio-undetermined-furigana",

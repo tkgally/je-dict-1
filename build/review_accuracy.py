@@ -98,10 +98,14 @@ DIMENSIONS = ("gloss", "translation", "tags", "notes")
 # (2026-06-10) embedded project conventions; v3 (2026-06-11) followed the
 # taxonomy expansion; v4 (2026-09-02) adds the notes dimension, moves
 # off-vocabulary detection into code, and post-filters the measured noise
-# families. See reviews/decisions.jsonl for the evidence.
-PROMPT_VERSION = 4
-# v5 = v4 plus CLAUDE_ERROR_CLASSES; used only for the claude: second reviewer.
-CLAUDE_PROMPT_VERSION = 5
+# families. See reviews/decisions.jsonl for the evidence. v6 (2026-10-27) sends
+# the notes with readings as 漢字(かな) and asks for one-line quotes; the quote
+# gate then requires the whole quote inside one notes line (backlog item
+# reviewer-notes-fact-quote-prefix: notes-fact ran at 33% precision, half of the
+# rejects quoting spliced or misattributed text).
+PROMPT_VERSION = 6
+# v5/v7 = v4/v6 plus CLAUDE_ERROR_CLASSES; used only for the claude: second reviewer.
+CLAUDE_PROMPT_VERSION = 7
 CLAUDE_WORKERS = 6  # parallel claude processes; the Routine's container has four CPUs
 
 CLAUDE_ERROR_CLASSES = """What counts as WRONG (report these; they are not simplifications):
@@ -122,6 +126,10 @@ FALLBACK_TAGS = {"general", "descriptive", "expression", "onomatopoeia",
                  "grammatical", "action", "abstract"}
 
 FURIGANA_RE = re.compile(r"\{([^|]+)\|[^}]+\}")
+FURIGANA_RE_READING = re.compile(r"\{([^|]+)\|([^}]+)\}")
+# A reading in parentheses right after kanji, as annotated_jp() writes it.
+READING_PAREN_RE = re.compile(r"(?<=[\u3400-\u9fff々〆ヶ])[(（][ぁ-ゖー]+[)）]")
+ELLIPSIS_RE = re.compile(r"…+|\.\.\.+")
 # A link tail never crosses ⟦, so a plain arrow in the prose (食べる → 食べます)
 # is left alone instead of swallowing text up to the next link.
 LINK_TAIL_RE = re.compile(r"→[^⟧⟦]*⟧")
@@ -160,6 +168,16 @@ def plain_jp(text):
     text = LINK_TAIL_RE.sub("", text)
     text = text.replace("⟦", "").replace("⟧", "")
     return FURIGANA_RE.sub(r"\1", text)
+
+
+def annotated_jp(text):
+    """Strip inline-link syntax and render furigana as 漢字(かな), so the reviewer
+    sees which reading the notes mean ({一日|ついたち} vs {一日|いちにち})."""
+    if not text:
+        return ""
+    text = LINK_TAIL_RE.sub("", text)
+    text = text.replace("⟦", "").replace("⟧", "")
+    return FURIGANA_RE_READING.sub(r"\1(\2)", text)
 
 
 def numeric_id(s):
@@ -208,7 +226,7 @@ def entry_payload(entry, include_notes=True):
         "examples": exs,
     }
     if include_notes:
-        payload["notes"] = plain_jp(entry.get("notes") or "")
+        payload["notes"] = annotated_jp(entry.get("notes") or "")
     return payload
 
 
@@ -268,7 +286,11 @@ def _build_prompt(entry, dimensions):
                       '"quote". Do NOT report style, length, repetition, missing '
                       'information, or matters of opinion; do NOT report claims '
                       'that are merely simplified for learners if they are not '
-                      'false. Severity "error" only.')
+                      'false. Severity "error" only. Kanji readings are shown in '
+                      'parentheses, 漢字(かな). Each list line ("- X: ...") is '
+                      'about the word X that begins it. Copy the quote from ONE '
+                      'line of the notes; never join text from different lines '
+                      'or bullets.')
     tag_list = ", ".join(sorted(VALID_SEMANTIC))
     return f"""You are a meticulous bilingual (Japanese-English) lexicographer reviewing one \
 entry of a Japanese-English dictionary for intermediate learners. Your job is to catch \
@@ -334,16 +356,32 @@ def _norm_ws(text):
     return re.sub(r"\s+", " ", (text or "")).strip().lower()
 
 
-def quote_in_notes(quote, notes_plain):
-    """True when the quote (normalized) is found in the plain notes.
+def _canon_quote(text):
+    """Whitespace-normalized, lower-cased, readings 漢字(かな) reduced to 漢字."""
+    return _norm_ws(READING_PAREN_RE.sub("", text or ""))
 
-    Accepts the whole quote, or its first 25 characters, so a model that trims
-    a trailing clause still passes; a fabricated quote does not."""
-    q = _norm_ws(quote)
-    if len(q) < 8:
+
+def quote_in_notes(quote, notes_plain):
+    """True when the whole quote occurs within one line of the notes.
+
+    The notes may be given plain or annotated (annotated_jp); a quote with or
+    without the readings matches either. A quote may skip text with an
+    ellipsis, but its pieces must appear in order on the same line, so a quote
+    spliced from two bullets, or one whose tail the model rewrote, fails (until
+    2026-10-27 a matching first 25 characters was enough)."""
+    pieces = [p for p in (_canon_quote(x) for x in ELLIPSIS_RE.split(quote or "")) if p]
+    if sum(len(p) for p in pieces) < 8:
         return False
-    n = _norm_ws(notes_plain)
-    return q in n or q[:25] in n
+    for line in (notes_plain or "").split("\n"):
+        text, pos = _canon_quote(line), 0
+        for piece in pieces:
+            pos = text.find(piece, pos)
+            if pos < 0:
+                break
+            pos += len(piece)
+        else:
+            return True
+    return False
 
 
 def assign_family(issue):

@@ -4610,8 +4610,7 @@ measurement of the same family at the same rate, and 127's runner-side post-filt
 
 ## Updates 2026-09-23 (wiki harvest)
 
-### 146. Notes-fact quote gate accepts a 25-character prefix (queue: `reviewer-notes-fact-quote-prefix`)
-Since 2026-09-01, `notes-fact` flags were 304 applied against 618 rejected (33%). `quote_in_notes()` accepts a quote when only its first 25 characters match, so spliced or misplaced quotes get through.
+### 146. (resolved 2026-10-27; see tooling-backlog-resolved.md)
 
 ### Prompt recommendations (for the curator)
 - `newentries.md`: rewrite the candidate gloss for the headword's part of speech (30776). Grep new files for `⟦` and `noentry` before the mechanical pass. Katakana headwords still need furigana in their examples. Note: `formality` values are already listed at line 370.

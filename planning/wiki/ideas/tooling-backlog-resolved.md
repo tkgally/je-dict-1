@@ -1490,3 +1490,11 @@ Seven reports in a week: inflected kana verbs (06611 した), particles (26609 �
 readings (01011 に), より in 〜により (31874), and a loanword inside a katakana compound (10481 グラス).
 `review_links.py --apply-decisions` also turns a one-occurrence `retarget` into an entry-wide unlink
 (01799, 19871). This is now the most-reported linker defect; it needs one test per shape.
+
+
+## 146. Notes-fact quote gate accepted a 25-character prefix (queue: `reviewer-notes-fact-quote-prefix`)
+
+**RESOLVED (2026-10-27, systemic-fix).** `quote_in_notes()` in `build/review_accuracy.py` now requires the whole quote inside one line of the notes; a quote may skip text with an ellipsis, but its pieces must appear in order on that line. A quote spliced from two bullets, or one with a correct opening and an invented tail, is dropped. The notes go to the reviewer with readings as 漢字(かな) (`annotated_jp()`), and the prompt says each list line is about the word that begins it and that a quote comes from one line. Prompt version 6 (Claude reviewer 7). Unit test: `test_notes_quote_must_sit_on_one_line`. Verification: `gpt-6.1-sol` re-reviewed 24564–24763; 9 notes and register flags, every quote a single line that passed both the old and new gates, and all 10 flags of the run were applied, four of them wrong readings in notes (薄切片, 大豪商, 七難, 不戦敗) that the reviewer could not see while furigana was stripped.
+
+#### Original text
+Since 2026-09-01, `notes-fact` flags were 304 applied against 618 rejected (33%). `quote_in_notes()` accepts a quote when only its first 25 characters match, so spliced or misplaced quotes get through.

@@ -33,7 +33,7 @@ class TestPayload(unittest.TestCase):
         self.assertEqual(p["headword"], "切り捨てる")
         self.assertEqual(p["examples"][0]["japanese"], "無駄な経費を切り捨てる。")
         self.assertEqual(p["semantic_tags"], ["body-part", "action"])
-        self.assertIn("A formal word used mainly in 書き言葉.", p["notes"])
+        self.assertIn("A formal word used mainly in 書(か)き言葉(ことば).", p["notes"])
 
     def test_plain_arrow_in_prose_kept(self):
         text = "⟦{食|た}べる→食べる：00396_taberu⟧ → ⟦{食|た}べます→食べる：00396_taberu⟧ (polite)"
@@ -157,6 +157,21 @@ class TestPostFilter(unittest.TestCase):
         kept, dropped = self._run([dict(base, severity="warn",
                                         quote="Attaches to the past tense only.")])
         self.assertEqual(kept, [])
+
+    def test_notes_quote_must_sit_on_one_line(self):
+        notes = ("SIMILAR WORDS:\n- {明日|あした}: tomorrow — everyday\n"
+                 "- {明日|みょうにち}: tomorrow — formal, used in business letters")
+        q = ra.quote_in_notes
+        plain = ra.plain_jp(notes)
+        self.assertTrue(q("明日: tomorrow — everyday", plain))
+        self.assertTrue(q("明日(みょうにち): tomorrow — formal", plain))   # annotated quote
+        self.assertTrue(q("明日: tomorrow … business letters", plain))   # ellipsis, one line
+        # Spliced from two bullets: fails even though each half is real.
+        self.assertFalse(q("明日: tomorrow — everyday - 明日: tomorrow — formal", plain))
+        self.assertFalse(q("everyday … business letters", plain))
+        # A matching opening with an invented tail no longer passes.
+        self.assertFalse(q("明日: tomorrow — formal, used only in legal documents", plain))
+        self.assertFalse(q("明日", plain))
 
     def test_warn_dropped_unless_kept(self):
         it = {"dimension": "gloss", "location": "gloss", "severity": "warn",
