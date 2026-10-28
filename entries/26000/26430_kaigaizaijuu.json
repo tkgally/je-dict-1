@@ -36,7 +36,7 @@
     {
       "id": "26430_kaigaizaijuu_ex3",
       "japanese": "{海外|かいがい}{在住|ざいじゅう}⟦の→の：09472_no⟧⟦{読者|どくしゃ}→読者：16554_dokusha⟧⟦から→から：00504_kara⟧⟦も→も：00484_mo⟧{多|おお}く⟦の→の：09472_no⟧⟦{感想|かんそう}→感想：00450_kansou⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
-      "english": "We received many impressions from readers living abroad as well.",
+      "english": "We also received a lot of feedback from readers living abroad.",
       "sense_numbers": [
         1
       ],
@@ -45,7 +45,7 @@
     },
     {
       "id": "26430_kaigaizaijuu_ex4",
-      "japanese": "{海外|かいがい}{在住|ざいじゅう}{者|しゃ}⟦は→は：00079_ha⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦の→の：09472_no⟧とき、{在外|ざいがい}⟦{投票|とうひょう}→投票：03453_touhyou⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
+      "japanese": "{海外|かいがい}{在住|ざいじゅう}{者|しゃ}⟦は→は：00079_ha⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦の→の：09472_no⟧とき、⟦{在外|ざいがい}→在外：32034_zaigai⟧⟦{投票|とうひょう}→投票：03453_touhyou⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "People living abroad can cast overseas ballots during elections.",
       "sense_numbers": [
         1
@@ -54,8 +54,16 @@
       "notes": null
     }
   ],
-  "notes": "A compound of ⟦{海外|かいがい}→海外：00134_kaigai⟧ (overseas) and ⟦{在住|ざいじゅう}→在住：12052_zaijuu⟧ (residing). Frequently used as a noun modifier with ⟦の→の：09472_no⟧ to describe people or services connected to living abroad. Common in administrative, media, and online contexts.\n\nCOMMON COLLOCATIONS:\n- {海外|かいがい}{在住|ざいじゅう}⟦の→の：09472_no⟧⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧: Japanese people living abroad\n- {海外|かいがい}{在住|ざいじゅう}{者|しゃ}: overseas resident\n- {海外|かいがい}{在住|ざいじゅう}{歴|れき}: length of time living abroad\n- {海外|かいがい}{在住|ざいじゅう}⟦{経験|けいけん}→経験：01179_keiken⟧: experience of living abroad\n\nSIMILAR WORDS:\n- {在外|ざいがい}: being abroad — more formal, used in official/government contexts ({在外|ざいがい}{邦人|ほうじん}, {在外|ざいがい}{公館|こうかん})\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧: life abroad — focuses on the lifestyle experience rather than the fact of residence\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{赴任|ふにん}→赴任：10601_funin⟧: overseas assignment — specifically for work-related transfers abroad",
-  "cross_references": [],
+  "notes": "A compound of ⟦{海外|かいがい}→海外：00134_kaigai⟧ (overseas) and ⟦{在住|ざいじゅう}→在住：12052_zaijuu⟧ (residing). Frequently used as a noun modifier with ⟦の→の：09472_no⟧ to describe people or services connected to living abroad. Common in administrative, media, and online contexts.\n\nCOMMON COLLOCATIONS:\n- {海外|かいがい}{在住|ざいじゅう}⟦の→の：09472_no⟧⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧: Japanese people living abroad\n- {海外|かいがい}{在住|ざいじゅう}{者|しゃ}: overseas resident\n- {海外|かいがい}{在住|ざいじゅう}{歴|れき}: length of time living abroad\n- {海外|かいがい}{在住|ざいじゅう}⟦{経験|けいけん}→経験：01179_keiken⟧: experience of living abroad\n\nSIMILAR WORDS:\n- ⟦{在外|ざいがい}→在外：32034_zaigai⟧: being abroad — more formal, used in official/government contexts (⟦{在外|ざいがい}→在外：32034_zaigai⟧⟦{邦人|ほうじん}→邦人：32020_houjin⟧, ⟦{在外|ざいがい}→在外：32034_zaigai⟧{公館|こうかん})\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧: life abroad — focuses on the lifestyle experience rather than the fact of residence\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{赴任|ふにん}→赴任：10601_funin⟧: overseas assignment — specifically for work-related transfers abroad",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "32034_zaigai",
+      "reading": "ざいがい",
+      "headword": "{在外|ざいがい}",
+      "label": "being abroad"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +79,6 @@
       "formality": "neutral"
     },
     "created": "2026-05-01T16:18:33Z",
-    "modified": "2026-10-02T00:20:50Z"
+    "modified": "2026-10-28T01:33:30Z"
   }
 }
