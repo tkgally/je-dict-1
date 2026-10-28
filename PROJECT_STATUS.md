@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-28 (9 new entries, third batch)
+
+32415–32423. Closure: 対句, 警棒, 税務調査. Brainstorm (fish field): 川魚, 小骨, 魚群. ezFurigana lookups: 舵取り,
+かのように, 管内. 版 (03698) compound readings fixed (改訂版, 最新版 … are ばん). Self-check: 1 applied, 1 link fixed.
+
 ### 2026-10-28 (6 new entries, second batch)
 
 32409–32414. Closure: 歴史作家, 平面図形. Brainstorm (fish field): トロ, 海水魚. ezFurigana lookups: 宋, 永眠.
@@ -74,9 +79,3 @@ Closure 12 (words today's accuracy review and new entries named in notes: 単独
 ムクドリ, 九官鳥, カンパチ, ドジョウ, トビウオ. ezFurigana lookups: 勝手に, 主たる, 奴隷, 点く, 横殴り.
 点く is now the intransitive pair of つける (00562). Self-check: 2 flags, both applied.
 
-### 2026-10-27 (12 new entries, second batch)
-
-32361–32372. Closure: 満ち欠け, 考案者, 厚志, 通じ合う. Brainstorm: 一仕事, 待ち望む, 忘れ去る,
-習うより慣れよ. ezFurigana lookups: 術式, 工場 (こうば), 叫び, 狂乱. The 248 existing links on 工場 all
-carry the reading こうじょう and stay on 01082. Self-check: 1 flag, applied. 〜型 (がた) was left for a
-later batch, because it will need its existing 型 links sorted the way 〜外 was.
