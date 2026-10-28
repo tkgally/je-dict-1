@@ -11,7 +11,7 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 | Core tier | 1,979 (closed) |
 | General tier | 29,398 (open — all new entries here) |
 | Next entry ID | 32409 |
-| Candidate words | 639 |
+| Candidate words | 640 |
 | Cross-references | ~85,900 |
 | Example sentences | ~124,400 |
 
