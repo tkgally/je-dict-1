@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26804_toriyoseru_ex1",
-      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦から→から：00504_kara⟧カニ⟦を→を：00422_wo⟧{取|と}り{寄|よ}せた。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦から→から：00504_kara⟧⟦カニ→カニ：30938_kani⟧⟦を→を：00422_wo⟧{取|と}り{寄|よ}せた。",
       "english": "I ordered crab from Hokkaido.",
       "sense_numbers": [
         1
@@ -52,6 +52,13 @@
       "reading": "ちゅうもん",
       "headword": "{注文|ちゅうもん}",
       "label": "to order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21390_chuumon",
+      "reading": "ちゅうもん",
+      "headword": "{注文|ちゅうもん}する",
+      "label": "to order"
     }
   ],
   "schema_version": "2.0",
@@ -64,14 +71,13 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "shopping",
-        "food"
+        "shopping"
       ],
       "verb_class": "ichidan",
       "transitivity": "transitive"
     },
     "created": "2026-05-05T12:07:08Z",
-    "modified": "2026-09-02T04:02:27Z"
+    "modified": "2026-10-28T13:12:44Z"
   },
   "conjugation": {
     "type": "ichidan",
