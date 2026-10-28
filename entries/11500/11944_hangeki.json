@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {反撃|はんげき}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧ (go on the counterattack)\n- {反撃|はんげき}⟦を→を：00422_wo⟧⟦{開始|かいし}する→開始する：26826_kaishisuru⟧ (begin a counterattack)\n- {反撃|はんげき}⟦に→に：00314_ni⟧{転|てん}じる (turn to a counterattack)\n- {反撃|はんげき}⟦の→の：09472_no⟧⟦{機会|きかい}→機会：01302_kikai⟧ (opportunity to strike back)\n\nUSAGE:\nFrequently used in sports commentary (especially soccer, baseball, and martial arts), military history, and political debate. In sports, the phrase {反撃|はんげき}⟦の→の：09472_no⟧{狼煙|のろし}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (raise the signal fire of counterattack) is a dramatic expression meaning to begin a comeback.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {反撃|はんげき}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧ (go on the counterattack)\n- {反撃|はんげき}⟦を→を：00422_wo⟧⟦{開始|かいし}する→開始する：26826_kaishisuru⟧ (begin a counterattack)\n- {反撃|はんげき}⟦に→に：00314_ni⟧⟦{転|てん}じる→転じる：31145_tenjiru⟧ (turn to a counterattack)\n- {反撃|はんげき}⟦の→の：09472_no⟧⟦{機会|きかい}→機会：01302_kikai⟧ (opportunity to strike back)\n\nUSAGE:\nFrequently used in sports commentary (especially soccer, baseball, and martial arts), military history, and political debate. In sports, the phrase {反撃|はんげき}⟦の→の：09472_no⟧{狼煙|のろし}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (raise the signal fire of counterattack) is a dramatic expression meaning to begin a comeback.\n\nSIMILAR WORDS:\n- ⟦{反論|はんろん}→反論：08677_hanron⟧: rebuttal — striking back with words in an argument\n- ⟦{逆襲|ぎゃくしゅう}→逆襲：08998_gyakushuu⟧: counterattack — stresses a turnaround by the side that was being beaten",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08677_hanron",
+      "reading": "はんろん",
+      "headword": "{反論|はんろん}",
+      "label": "rebuttal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08998_gyakushuu",
+      "reading": "ぎゃくしゅう",
+      "headword": "{逆襲|ぎゃくしゅう}",
+      "label": "counterattack"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:51:08Z",
-    "modified": "2026-09-17T21:44:16Z",
+    "modified": "2026-10-28T01:03:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -149,7 +164,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "military"
       ],
       "verb_class": "suru",
       "transitivity": "intransitive"
