@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-28 (21 new entries)
+
+32388–32408. Closure: 一点鎖線, 理解し合う, 撥音便, インクパッド, 粗悪品, 方法論, 溝鼠. Brainstorm (bird and
+fish fields): コンドル, スズキ, サワラ, ニジマス, エイ, タツノオトシゴ, シラス. ezFurigana lookups: 〜ずに,
+〜ないで, 〜としても, 〜であれ, 紫色, 罵詈雑言, いち早く. Self-check: 1 applied, 1 link fixed.
+
 ### 2026-10-27 (candidates: 21 added)
 
 Closure 12 (words today's accuracy review and new entries named in notes: 単独親権, 国民皆年金, 魔方陣, 計画停電,
@@ -77,10 +83,3 @@ later batch, because it will need its existing 型 links sorted the way 〜外 w
 願, とは. 45 existing links to 外 that were the suffix (予想外, 圏外, 時間外, …) now point to 〜外 instead of
 the prefix 外〜. Self-check: 4 notes flags, all applied. Candidates 頃 and 否応なしに dropped (covered by
 〜ころ and 否応なし); 取り計らう queued.
-
-### 2026-10-26 (15 new entries, fourth batch)
-
-32326–32340, five from each stream. Closure: 代替案, 体操服, 最年少, 非公認, 人工的. Brainstorm
-(fish and birds): 穴子, ホッケ, メダカ, ヒヨドリ, ナマズ. ezFurigana lookups: 合衆国, 幽閉, 激甚, 説話,
-薄明かり. Self-check clean (0 flags on 16 entries). 最年長 queued as a candidate.
-
