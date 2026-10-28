@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-28 (6 new entries, second batch)
+
+32409–32414. Closure: 歴史作家, 平面図形. Brainstorm (fish field): トロ, 海水魚. ezFurigana lookups: 宋, 永眠.
+Self-check clean.
+
 ### 2026-10-28 (21 new entries)
 
 32388–32408. Closure: 一点鎖線, 理解し合う, 撥音便, インクパッド, 粗悪品, 方法論, 溝鼠. Brainstorm (bird and
@@ -75,11 +80,3 @@ Closure 12 (words today's accuracy review and new entries named in notes: 単独
 習うより慣れよ. ezFurigana lookups: 術式, 工場 (こうば), 叫び, 狂乱. The 248 existing links on 工場 all
 carry the reading こうじょう and stay on 01082. Self-check: 1 flag, applied. 〜型 (がた) was left for a
 later batch, because it will need its existing 型 links sorted the way 〜外 was.
-
-### 2026-10-27 (20 new entries, first batch)
-
-32341–32360. Closure: 〜外 (suffix), 暴利, 相当額, 芳名, 座り仕事, を通じて, 計らう. Brainstorm:
-までに, お待ちかね, 買い込む, 待ちぼうけ, 忘れっぽい, ても, 人出. ezFurigana lookups: 〜等, には, 大〜, 下 (もと),
-願, とは. 45 existing links to 外 that were the suffix (予想外, 圏外, 時間外, …) now point to 〜外 instead of
-the prefix 外〜. Self-check: 4 notes flags, all applied. Candidates 頃 and 否応なしに dropped (covered by
-〜ころ and 否応なし); 取り計らう queued.
