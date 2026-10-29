@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-29 (12 new entries)
+
+32424–32435. Closure: 北極線, 同性婚, 冷やかし客, 訪問診療. Brainstorm: 待ち構える, 待ったなし (seed 待つ), 仕事始め,
+力仕事 (seed 仕事). ezFurigana lookups: 一途をたどる, 疑義, ことになる, 小太り. Self-check clean.
+
 ### 2026-10-29 (candidates: 92 added)
 
 Closure 40 (words that recent entries name in their notes without an entry: 連れ戻す, 結果論, 立役者, 周知徹底,
@@ -71,11 +76,4 @@ Self-check clean.
 32388–32408. Closure: 一点鎖線, 理解し合う, 撥音便, インクパッド, 粗悪品, 方法論, 溝鼠. Brainstorm (bird and
 fish fields): コンドル, スズキ, サワラ, ニジマス, エイ, タツノオトシゴ, シラス. ezFurigana lookups: 〜ずに,
 〜ないで, 〜としても, 〜であれ, 紫色, 罵詈雑言, いち早く. Self-check: 1 applied, 1 link fixed.
-
-### 2026-10-27 (candidates: 21 added)
-
-Closure 12 (words today's accuracy review and new entries named in notes: 単独親権, 国民皆年金, 魔方陣, 計画停電,
-吹き降り, 結び切り, 波括弧, 焼きプリン, 耕作放棄地, 替え刃, 指し棒, 基調講演). Brainstorm seeds 80–99 (出る … 借りる):
-222 proposals, 198 already entries; 9 added (脱ぎ捨てる, 手始め, 借り物, 目に入る, はみ出る, 出遅れる, もらい物,
-勉強家, 前借り), 14 rejected. Queue 660.
 
