@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-29 (20 new entries)
+
+32436–32455. Closure: 調子に乗る, 出品者, 美術展, 冷やっこい, 早春, 日長, 告知書. Brainstorm: 待ち受ける, 巡り会う,
+聞き捨てならない, までもない, 長々と, 人任せ, 肉球. ezFurigana lookups: 〜型 (がた), 環境省, ごまかし, 就業, 宿舎, 衆院.
+Self-check: 3 notes overstatements fixed.
+
 ### 2026-10-29 (12 new entries)
 
 32424–32435. Closure: 北極線, 同性婚, 冷やかし客, 訪問診療. Brainstorm: 待ち構える, 待ったなし (seed 待つ), 仕事始め,
@@ -70,10 +76,4 @@ Closure 40 (words that recent entries name in their notes without an entry: 連�
 
 32409–32414. Closure: 歴史作家, 平面図形. Brainstorm (fish field): トロ, 海水魚. ezFurigana lookups: 宋, 永眠.
 Self-check clean.
-
-### 2026-10-28 (21 new entries)
-
-32388–32408. Closure: 一点鎖線, 理解し合う, 撥音便, インクパッド, 粗悪品, 方法論, 溝鼠. Brainstorm (bird and
-fish fields): コンドル, スズキ, サワラ, ニジマス, エイ, タツノオトシゴ, シラス. ezFurigana lookups: 〜ずに,
-〜ないで, 〜としても, 〜であれ, 紫色, 罵詈雑言, いち早く. Self-check: 1 applied, 1 link fixed.
 
