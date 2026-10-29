@@ -3,7 +3,7 @@
   "headword": "{暗号化|あんごうか}",
   "reading": "あんごうか",
   "part_of_speech": "noun, suru verb",
-  "gloss": "encryption; encoding",
+  "gloss": "encryption",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -97,8 +97,8 @@
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "encryption; encoding",
-      "explanation": "the process of converting data into a coded format to prevent unauthorized access"
+      "gloss": "encryption; encrypting",
+      "explanation": "Converting data into a code that cannot be read without a key, to keep it from unauthorized access."
     }
   ],
   "examples": [
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMS:\n⟦{暗号|あんごう}→暗号：04868_angou⟧ (code, cipher) + ⟦{化|か}→〜化：28335_ka⟧ (change into) → turning into code\n{暗号化|あんごうか}⟦する→する：00392_suru⟧ (to encrypt)\n\nCOMPOUNDS:\n- {暗号化|あんごうか}⟦{鍵|かぎ}→鍵：02189_kagi⟧ / ⟦{暗号|あんごう}{鍵|かぎ}→暗号鍵：23268_angoukagi⟧ (encryption key)\n- {公開鍵暗号|こうかいかぎあんごう} (public-key encryption)\n- {対称|たいしょう}{暗号化|あんごうか} (symmetric encryption)\n- エンドツーエンド{暗号化|あんごうか} (end-to-end encryption)\n\nRELATED WORDS:\n- ⟦{暗号|あんごう}→暗号：04868_angou⟧ (cipher, code)\n- ⟦{復号|ふくごう}→復号：08416_fukugou⟧ (decryption)\n- ⟦セキュリティ→セキュリティ：04867_sekyuriti⟧ (security)",
+  "notes": "⟦{暗号|あんごう}→暗号：04868_angou⟧ (code, cipher) + ⟦{化|か}→〜化：28335_ka⟧ (-ization). As a verb, {暗号化|あんごうか}⟦する→する：00392_suru⟧ (to encrypt) takes ⟦を→を：00422_wo⟧; the passive {暗号化|あんごうか}⟦される→する：00392_suru⟧ describes protected data.\n\nCOMPOUNDS:\n- {暗号化|あんごうか}⟦{鍵|かぎ}→鍵：02189_kagi⟧ / ⟦{暗号|あんごう}{鍵|かぎ}→暗号鍵：23268_angoukagi⟧ (encryption key)\n- {暗号化|あんごうか}⟦{通信|つうしん}→通信：03514_tsuushin⟧ (encrypted communication)\n- エンドツーエンド{暗号化|あんごうか} (end-to-end encryption)\n\nWATCH OUT:\n{暗号化|あんごうか} is only encryption, making data secret. Converting data into another format (text into a character code, sound into MP3) is ⟦{符号化|ふごうか}→符号化：27345_fugouka⟧ or エンコード, even though English may say 'encode' for both.\n\nRELATED WORDS:\n- ⟦{復号|ふくごう}→復号：08416_fukugou⟧ (decryption; also {復号化|ふくごうか})\n- ⟦セキュリティ→セキュリティ：04867_sekyuriti⟧ (security)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -150,7 +150,7 @@
       "transitivity": "transitive"
     },
     "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-09-25T09:20:16Z"
+    "modified": "2026-10-29T13:48:32Z"
   },
   "cross_references": [
     {
@@ -168,7 +168,7 @@
       "label": "security"
     },
     {
-      "type": "contrast",
+      "type": "related",
       "target_id": "23268_angoukagi",
       "reading": "あんごうかぎ",
       "headword": "{暗号鍵|あんごうかぎ}",

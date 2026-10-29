@@ -133,14 +133,14 @@
       ]
     }
   ],
-  "notes": "Often appears in news and literary contexts describing scenes where someone is being physically or verbally restrained.\n\nCOMMON PATTERNS:\n- {制止|せいし}⟦する→する：00392_suru⟧ (to restrain, to stop someone)\n- {制止|せいし}⟦を→を：00422_wo⟧⟦{振|ふ}り{切|き}る→振り切る：06703_furikiru⟧ (to shake off restraint)\n- {制止|せいし}⟦を→を：00422_wo⟧⟦{無視|むし}する→無視する：17288_mushisuru⟧ (to ignore attempts to stop one)\n- {制止|せいし}⟦も→も：00484_mo⟧⟦{聞|き}か→聞く：00483_kiku⟧ず (ignoring attempts to stop one)\n\nSIMILAR WORDS:\n- {制止|せいし} — stopping someone from acting (physical/verbal intervention)\n- ⟦{抑制|よくせい}→抑制：05635_yokusei⟧ — suppression, restraint (broader; includes self-restraint and systemic controls)",
+  "notes": "COMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{制止|せいし}⟦する→する：00392_suru⟧ (to stop / hold back ~; the object is the person, or the act: ⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{制止|せいし}⟦する→する：00392_suru⟧)\n- {制止|せいし}⟦を→を：00422_wo⟧⟦{振|ふ}り{切|き}る→振り切る：06703_furikiru⟧ (to shake off restraint)\n- {制止|せいし}⟦を→を：00422_wo⟧⟦{無視|むし}する→無視する：17288_mushisuru⟧ (to ignore attempts to stop one)\n- {制止|せいし}⟦も→も：00484_mo⟧⟦{聞|き}か→聞く：00483_kiku⟧ず (ignoring attempts to stop one)\n\nSIMILAR WORDS:\n- ⟦{抑制|よくせい}→抑制：05635_yokusei⟧ — suppression, restraint (broader; includes self-restraint and systemic controls)\n- ⟦{阻止|そし}→阻止：07633_soshi⟧ — preventing something from happening at all (blocking a plan, an attack); {制止|せいし} is stopping a person who is already acting or about to act\n\nWATCH OUT:\nDo not confuse with the homophone ⟦{静止|せいし}→静止：15849_seishi⟧ (standing still, being at rest): ⟦{静止|せいし}→静止：15849_seishi⟧⟦{画像|がぞう}→画像：13549_gazou⟧ is a still image, while {制止|せいし} always involves someone stopping someone else.",
   "cross_references": [
     {
       "type": "contrast",
       "target_id": "05635_yokusei",
       "reading": "よくせい",
       "headword": "{抑制|よくせい}",
-      "label": "suppression, restraint (broader"
+      "label": "suppression, restraint"
     },
     {
       "type": "contrast",
@@ -148,11 +148,18 @@
       "reading": "おしとどめる",
       "headword": "{押|お}し{留|とど}める",
       "label": "to restrain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07633_soshi",
+      "reading": "そし",
+      "headword": "{阻止|そし}",
+      "label": "preventing something from happening…"
     }
   ],
   "metadata": {
     "created": "2026-02-18T14:13:17Z",
-    "modified": "2026-09-24T21:17:55Z",
+    "modified": "2026-10-29T13:48:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
