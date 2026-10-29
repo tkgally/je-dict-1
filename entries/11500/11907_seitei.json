@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{制定|せいてい} refers specifically to the formal creation and enactment of laws, regulations, standards, or official rules.\n\nUSAGE:\nUsed only for legal/regulatory matters. Not for general \"creation\" or \"establishment\" of organizations or businesses.\n\nCOMMON PATTERNS:\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧: to enact a law\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧: to establish a system/framework\n- ⟦{基準|きじゅん}→基準：00228_kijun⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧: to set standards\n- ⟦{条例|じょうれい}→条例：08255_jourei⟧⟦が→が：00051_ga⟧{制定|せいてい}⟦される→する：00392_suru⟧: an ordinance is enacted\n\nASPECT (ている):\n{制定|せいてい}⟦している→する：00392_suru⟧ means a law or rule is currently in effect (resulting state), not that someone is in the process of enacting it.\n\nSIMILAR WORDS:\n- ⟦{設立|せつりつ}→設立：14171_setsuritsu⟧: establishment (of organizations, companies)\n- ⟦{創設|そうせつ}→創設：11905_sousetsu⟧: founding, creation (of institutions)\n- {策定|さくてい}: formulation (of plans, policies — often a step before {制定|せいてい})",
+  "notes": "USAGE:\nUsed for formally establishing laws, rules, standards and official symbols or observances (⟦{記念日|きねんび}→記念日：05585_kinenbi⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧, a commemorative day). Not for founding organizations or businesses.\n\nCOMMON PATTERNS:\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧: to enact a law\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧: to establish a system/framework\n- ⟦{基準|きじゅん}→基準：00228_kijun⟧⟦を→を：00422_wo⟧{制定|せいてい}⟦する→する：00392_suru⟧: to set standards\n- ⟦{条例|じょうれい}→条例：08255_jourei⟧⟦が→が：00051_ga⟧{制定|せいてい}⟦される→する：00392_suru⟧: an ordinance is enacted\n\nASPECT (ている):\n{制定|せいてい}⟦されている→する：00392_suru⟧ means the law or rule has been enacted (resulting state; whether it is already in force is ⟦{施行|しこう}→施行：06581_shikou⟧, a separate step); active {制定|せいてい}⟦している→する：00392_suru⟧ usually says that an authority has enacted it.\n\nSIMILAR WORDS:\n- ⟦{設立|せつりつ}→設立：14171_setsuritsu⟧: establishment (of organizations, companies)\n- ⟦{創設|そうせつ}→創設：11905_sousetsu⟧: founding, creation (of institutions)\n- ⟦{策定|さくてい}→策定：31701_sakutei⟧: formulation (of plans, policies — often a step before {制定|せいてい})",
   "cross_references": [
     {
       "type": "contrast",
@@ -155,11 +155,18 @@
       "reading": "こうふ",
       "headword": "{公布|こうふ}",
       "label": "promulgation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "31701_sakutei",
+      "reading": "さくてい",
+      "headword": "{策定|さくてい}",
+      "label": "formulation (of plans, policies"
     }
   ],
   "metadata": {
     "created": "2026-02-18T14:13:02Z",
-    "modified": "2026-09-17T21:44:16Z",
+    "modified": "2026-10-29T01:38:07Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -171,7 +178,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "law",
+        "politics"
       ],
       "domain": [
         "legal"

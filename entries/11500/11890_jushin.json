@@ -124,7 +124,7 @@
     },
     {
       "id": "11890_jushin_ex3",
-      "japanese": "⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦が→が：00051_ga⟧⟦{改善|かいぜん}しない→改善する：26828_kaizensuru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、{専門医|せんもんい}⟦を→を：00422_wo⟧{受診|じゅしん}⟦する→する：00392_suru⟧こと⟦を→を：00422_wo⟧お⟦{勧|すす}め→勧める：02120_susumeru⟧⟦します→する：00392_suru⟧。",
+      "japanese": "⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦が→が：00051_ga⟧⟦{改善|かいぜん}しない→改善する：26828_kaizensuru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、⟦{専門医|せんもんい}→専門医：31663_senmoni⟧⟦を→を：00422_wo⟧{受診|じゅしん}⟦する→する：00392_suru⟧こと⟦を→を：00422_wo⟧お⟦{勧|すす}め→勧める：02120_susumeru⟧⟦します→する：00392_suru⟧。",
       "english": "If the symptoms do not improve, we recommend consulting a specialist.",
       "notes": null,
       "has_audio": true,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- ⟦{病院|びょういん}→病院：00577_byouin⟧⟦を→を：00422_wo⟧{受診|じゅしん}⟦する→する：00392_suru⟧ (visit a hospital)\n- ⟦{医師|いし}→医師：11851_ishi⟧⟦を→を：00422_wo⟧{受診|じゅしん}⟦する→する：00392_suru⟧ (see a doctor)\n- {受診|じゅしん}⟦{券|けん}→券：02150_ken⟧ (medical examination voucher)\n- {受診|じゅしん}⟦{率|りつ}→率：03802_ritsu⟧ (consultation rate)\n- ⟦{初|はつ}→初：10632_hatsu⟧{受診|じゅしん} (first consultation)\n\nA formal and common medical term used in healthcare settings, pamphlets, and official communications. Not to be confused with the homophone ⟦{受信|じゅしん}→受信：04896_jushin⟧ (receiving a signal/message).",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{病院|びょういん}→病院：00577_byouin⟧⟦を→を：00422_wo⟧{受診|じゅしん}⟦する→する：00392_suru⟧ (visit a hospital)\n- ⟦{医師|いし}→医師：11851_ishi⟧⟦を→を：00422_wo⟧{受診|じゅしん}⟦する→する：00392_suru⟧ (see a doctor)\n- {受診|じゅしん}⟦{券|けん}→券：02150_ken⟧ (medical examination voucher)\n- {受診|じゅしん}⟦{率|りつ}→率：03802_ritsu⟧ (consultation rate)\n- {受診|じゅしん}⟦を→を：00422_wo⟧⟦{勧|すす}める→勧める：02120_susumeru⟧ (advise someone to see a doctor)\n\nA formal and common medical term used in healthcare settings, pamphlets, and official communications. Not to be confused with the homophone ⟦{受信|じゅしん}→受信：04896_jushin⟧ (receiving a signal/message).\n\nSIMILAR WORDS:\n- ⟦{診察|しんさつ}→診察：03259_shinsatsu⟧: medical examination, seen from the doctor's side (⟦{医師|いし}→医師：11851_ishi⟧⟦が→が：00051_ga⟧⟦{診察|しんさつ}→診察：03259_shinsatsu⟧⟦する→する：00392_suru⟧); {受診|じゅしん} is the patient's side",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,18 @@
       "reading": "さいしん",
       "headword": "{再診|さいしん}",
       "label": "follow-up medical visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03259_shinsatsu",
+      "reading": "しんさつ",
+      "headword": "{診察|しんさつ}",
+      "label": "medical examination, seen…"
     }
   ],
   "metadata": {
     "created": "2026-02-18T14:02:22Z",
-    "modified": "2026-09-17T21:44:16Z",
+    "modified": "2026-10-29T01:36:20Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
