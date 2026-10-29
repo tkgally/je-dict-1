@@ -104,10 +104,10 @@
   "examples": [
     {
       "id": "11913_hagu_ex1",
-      "japanese": "⟦{皮|かわ}→皮：02187_kawa⟧⟦を→を：00422_wo⟧{剥|は}いで⟦{食|た}べる→食べる：00396_taberu⟧。",
-      "english": "I peel off the skin and eat it.",
+      "japanese": "⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧⟦を→を：00422_wo⟧{剥|は}ぐ。",
+      "english": "Strip the bark from a tree.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         1
       ]
@@ -133,14 +133,14 @@
       ]
     }
   ],
-  "notes": "Conjugates as a godan verb: {剥|は}がない, {剥|は}いで, {剥|は}いだ. The action is more forceful and rough compared to ⟦{剥|む}く→剥く：02305_muku⟧ (to peel gently, as with fruit).\n\nSIMILAR WORDS:\n- {剥|は}ぐ — to strip/tear off (forceful removal of a covering)\n- ⟦{剥|む}く→剥く：02305_muku⟧ — to peel (gentler; fruit, vegetables)\n- ⟦{剥|は}がす→剥がす：00081_hagasu⟧ — to peel off, to remove (stickers, labels, tape)\n\nCOMMON PATTERNS:\n- ⟦{皮|かわ}→皮：02187_kawa⟧⟦を→を：00422_wo⟧{剥|は}ぐ (to strip off skin/bark)\n- ⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧{剥|は}ぐ (to strip someone of clothes)\n- ⟦{仮面|かめん}→仮面：11439_kamen⟧⟦を→を：00422_wo⟧{剥|は}ぐ (to tear off a mask — also figurative)",
+  "notes": "TRANSITIVITY:\nTransitive (〜⟦を→を：00422_wo⟧{剥|は}ぐ). The intransitive counterpart is ⟦{剥|は}げる→剥げる：29715_hageru⟧ (paint, gilt or a coating comes off).\n\nSIMILAR WORDS:\n- ⟦{剥|む}く→剥く：02305_muku⟧ — to peel (the everyday word for fruit and vegetable skins: ⟦りんご→りんご：02269_ringo⟧⟦の→の：09472_no⟧⟦{皮|かわ}をむく→皮をむく：18103_kawawomuku⟧, not {剥|は}ぐ)\n- ⟦{剥|は}がす→剥がす：00081_hagasu⟧ — to peel off, to remove (stickers, labels, tape)\n\nCOMMON PATTERNS:\n- ⟦{皮|かわ}→皮：02187_kawa⟧⟦を→を：00422_wo⟧{剥|は}ぐ (to strip off skin/bark)\n- ⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧{剥|は}ぐ (to strip someone of clothes)\n- ⟦{仮面|かめん}→仮面：11439_kamen⟧⟦を→を：00422_wo⟧{剥|は}ぐ (to tear off a mask; figuratively, to unmask someone)\n- ⟦{布団|ふとん}→布団：01720_futon⟧⟦を→を：00422_wo⟧{剥|は}ぐ (to pull the covers off someone)",
   "cross_references": [
     {
       "type": "contrast",
       "target_id": "02305_muku",
       "reading": "むく",
       "headword": "{剥|む}く",
-      "label": "to peel (gentler"
+      "label": "to peel (fruit, vegetables)"
     },
     {
       "type": "contrast",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-02-18T14:14:43Z",
-    "modified": "2026-09-02T04:01:26Z",
+    "modified": "2026-10-29T13:48:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -168,5 +168,13 @@
       ],
       "verb_class": "godan-gu"
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "29715_hageru",
+      "reading": "はげる",
+      "headword": "{剥|は}げる",
+      "note": "intransitive counterpart: to come off"
+    }
+  ]
 }
