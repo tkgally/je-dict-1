@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-29 (candidates: 92 added)
+
+Closure 40 (words that recent entries name in their notes without an entry: 連れ戻す, 結果論, 立役者, 周知徹底,
+有効求人倍率, 前方後円墳, マイナンバー …). Brainstorm (mammal field): 96 proposals, 29 already entries; 52 added
+(コアラ, シャチ, ラッコ, チーター, モグラ, ロバ, 介助犬, 牧羊犬, 張り子の虎, 猫の額, 虎の子 …), 10 rejected. Queue 715.
+
 ### 2026-10-28 (9 new entries, third batch)
 
 32415–32423. Closure: 対句, 警棒, 税務調査. Brainstorm (fish field): 川魚, 小骨, 魚群. ezFurigana lookups: 舵取り,
@@ -72,10 +78,4 @@ Closure 12 (words today's accuracy review and new entries named in notes: 単独
 吹き降り, 結び切り, 波括弧, 焼きプリン, 耕作放棄地, 替え刃, 指し棒, 基調講演). Brainstorm seeds 80–99 (出る … 借りる):
 222 proposals, 198 already entries; 9 added (脱ぎ捨てる, 手始め, 借り物, 目に入る, はみ出る, 出遅れる, もらい物,
 勉強家, 前借り), 14 rejected. Queue 660.
-
-### 2026-10-27 (15 new entries, third batch)
-
-32373–32387. Closure: 計画倒れ, 平服, 尾てい骨, 共同親権, 国民皆保険. Brainstorm (bird and fish fields):
-ムクドリ, 九官鳥, カンパチ, ドジョウ, トビウオ. ezFurigana lookups: 勝手に, 主たる, 奴隷, 点く, 横殴り.
-点く is now the intransitive pair of つける (00562). Self-check: 2 flags, both applied.
 
