@@ -1,92 +1,15 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "daily_cap_usd": 15.0,
-  "spent_usd": 6.9121,
+  "spent_usd": 0.055,
   "calls": [
     {
-      "ts": "2026-10-28T00:31:00Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 21,
-      "est_usd": 0.137
-    },
-    {
-      "ts": "2026-10-28T00:49:23Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 54,
-      "est_usd": 0.3545
-    },
-    {
-      "ts": "2026-10-28T01:06:29Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 27,
-      "est_usd": 0.1789
-    },
-    {
-      "ts": "2026-10-28T01:48:09Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 399,
-      "est_usd": 2.67
-    },
-    {
-      "ts": "2026-10-28T02:01:22Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 12,
-      "est_usd": 0.0789
-    },
-    {
-      "ts": "2026-10-28T02:15:55Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 6,
-      "est_usd": 0.0388
-    },
-    {
-      "ts": "2026-10-28T12:39:03Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 60,
-      "est_usd": 0.3951
-    },
-    {
-      "ts": "2026-10-28T13:19:29Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 398,
-      "est_usd": 2.6578
-    },
-    {
-      "ts": "2026-10-28T13:36:01Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 18,
-      "est_usd": 0.1188
-    },
-    {
-      "ts": "2026-10-28T13:54:24Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 10,
-      "est_usd": 0.0655
-    },
-    {
-      "ts": "2026-10-28T14:06:05Z",
-      "mode": "conjugation-check",
-      "phase": "conjugation-check",
-      "entries": 27,
-      "est_usd": 0.0
-    },
-    {
-      "ts": "2026-10-28T14:21:15Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 33,
-      "est_usd": 0.2168
+      "ts": "2026-10-29T00:22:31Z",
+      "mode": "candidates",
+      "phase": "brainstorm",
+      "entries": 100,
+      "est_usd": 0.055
     }
   ]
 }
