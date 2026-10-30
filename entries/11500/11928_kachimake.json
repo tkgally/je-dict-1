@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "A compound of ⟦{勝|か}ち→勝ち：02540_kachi⟧ (winning) and ⟦{負|ま}け→負け：02569_make⟧ (losing), treating the two as a single concept. Often used in contexts discussing whether outcomes matter, or when talking about competition philosophy.\n\nCOMMON PATTERNS:\n- {勝|か}ち{負|ま}け⟦に→に：00314_ni⟧⟦こだわる→こだわる：10319_kodawaru⟧ (to be fixated on winning/losing)\n- {勝|か}ち{負|ま}け⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to determine the outcome)\n- {勝|か}ち{負|ま}け⟦は→は：00079_ha⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦ない→ない：01118_nai⟧ (winning or losing doesn't matter)\n- {勝|か}ち{負|ま}け⟦が→が：00051_ga⟧つく (an outcome is decided)",
-  "cross_references": [],
+  "notes": "A compound of ⟦{勝|か}ち→勝ち：02540_kachi⟧ (winning) and ⟦{負|ま}け→負け：02569_make⟧ (losing), treating the two as a single concept.\n\nCOMMON PATTERNS:\n- {勝|か}ち{負|ま}け⟦に→に：00314_ni⟧⟦こだわる→こだわる：10319_kodawaru⟧ (to be fixated on winning/losing)\n- {勝|か}ち{負|ま}け⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to determine the outcome)\n- {勝|か}ち{負|ま}け⟦は→は：00079_ha⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦ない→ない：01118_nai⟧ (winning or losing doesn't matter)\n- {勝|か}ち{負|ま}け⟦が→が：00051_ga⟧つく (an outcome is decided)\n\nSIMILAR WORDS:\n- ⟦{勝敗|しょうはい}→勝敗：04905_shouhai⟧: victory or defeat; the formal, written equivalent\n- ⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧: a match or contest itself, the act of competing",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04905_shouhai",
+      "reading": "しょうはい",
+      "headword": "{勝敗|しょうはい}",
+      "label": "victory or defeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01437_shoubu",
+      "reading": "しょうぶ",
+      "headword": "{勝負|しょうぶ}",
+      "label": "a match or contest itself, the act…"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:19:30Z",
-    "modified": "2026-09-02T04:01:27Z",
+    "modified": "2026-10-30T00:42:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -58,7 +73,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "sports",
+        "evaluation"
       ]
     }
   }
