@@ -696,6 +696,8 @@ already named — the katakana filter (350), the within-block-inconsistency heur
 update: neighbours where one sibling carries a specific tag and the other sole-`general`, the
 06690/06691 exam pair being the control case), and frontier applies. None of them read the gloss.
 
+**Update 2026-10-30 (second systemic-fix)**: 80 entries in 03314–03675 retagged by hand from what the headword denotes; abstract nouns with no clear tag (真理, 範囲, 方法, 目標 …) left as `general`. Detector 2,020.
+
 ## Priority 14: Notes content copied from wrong entry
 
 **Source**: Comprehensive-polish 2026-05-25 session 021 (entries 03491–03510)
