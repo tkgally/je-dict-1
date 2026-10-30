@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-30 (8 new entries)
+
+32476–32483. Closure: 歯列, 八重歯, 目白押し. Brainstorm: 三枚おろし, 胸びれ, 在来種. ezFurigana lookups: 上海, 除染.
+Self-check: 1 pre-existing overstatement fixed in 盛りだくさん.
+
 ### 2026-10-30 (20 new entries)
 
 32456–32475. Closure: カバー力, 投影図, 熊鼠, 据え置き機, 素魚, 軽空母, 交戦権. Brainstorm: 待ちわびる (seed 待つ),
@@ -72,9 +77,4 @@ Self-check: 3 notes overstatements fixed.
 Closure 40 (words that recent entries name in their notes without an entry: 連れ戻す, 結果論, 立役者, 周知徹底,
 有効求人倍率, 前方後円墳, マイナンバー …). Brainstorm (mammal field): 96 proposals, 29 already entries; 52 added
 (コアラ, シャチ, ラッコ, チーター, モグラ, ロバ, 介助犬, 牧羊犬, 張り子の虎, 猫の額, 虎の子 …), 10 rejected. Queue 715.
-
-### 2026-10-28 (9 new entries, third batch)
-
-32415–32423. Closure: 対句, 警棒, 税務調査. Brainstorm (fish field): 川魚, 小骨, 魚群. ezFurigana lookups: 舵取り,
-かのように, 管内. 版 (03698) compound readings fixed (改訂版, 最新版 … are ばん). Self-check: 1 applied, 1 link fixed.
 
