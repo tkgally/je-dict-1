@@ -50,6 +50,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-30 (20 new entries)
+
+32456–32475. Closure: カバー力, 投影図, 熊鼠, 据え置き機, 素魚, 軽空母, 交戦権. Brainstorm: 待ちわびる (seed 待つ),
+古道具 (seed 古い), 仕事人間 (seed 仕事), 放し飼い, 雑種, 狂犬病, 浮き袋. ezFurigana lookups: 〜期, 〜沿い, 〜省,
+神出鬼没, 推計, 専門性. Self-check: 2 pre-existing errors fixed in 護衛艦 (JMSDF unit names).
+
 ### 2026-10-29 (20 new entries)
 
 32436–32455. Closure: 調子に乗る, 出品者, 美術展, 冷やっこい, 早春, 日長, 告知書. Brainstorm: 待ち受ける, 巡り会う,
@@ -71,9 +77,4 @@ Closure 40 (words that recent entries name in their notes without an entry: 連�
 
 32415–32423. Closure: 対句, 警棒, 税務調査. Brainstorm (fish field): 川魚, 小骨, 魚群. ezFurigana lookups: 舵取り,
 かのように, 管内. 版 (03698) compound readings fixed (改訂版, 最新版 … are ばん). Self-check: 1 applied, 1 link fixed.
-
-### 2026-10-28 (6 new entries, second batch)
-
-32409–32414. Closure: 歴史作家, 平面図形. Brainstorm (fish field): トロ, 海水魚. ezFurigana lookups: 宋, 永眠.
-Self-check clean.
 
