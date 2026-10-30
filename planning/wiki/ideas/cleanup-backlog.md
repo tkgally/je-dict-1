@@ -580,6 +580,8 @@ Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
+**Update 2026-10-30 (systemic-fix):** 55 entries in 03053–03313 retagged by hand (身近, 申し込み, 品, 賞, 障害, 証明 and abstract nouns such as 事実, 条件, 責任 left general); detector 2,166 → 2,102.
+
 **Update 2026-10-29 (systemic-fix):** 20 entries in 02896–03051 retagged by hand (外国産, 記念品 left general); detector 2,188 → 2,166.
 
 **Update 2026-10-28 (third systemic-fix):** 33 entries in 02367–02895 retagged by hand (abstract nouns such as 結果, 対策, 被害 left general); detector 2,221 → 2,188.
