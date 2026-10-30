@@ -1720,3 +1720,5 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - 2026-10-29 [entry] 32034 在外: part_of_speech "noun" while tags include adjective-no.
 - 2026-10-29 [entry] 29715 剥げる: TRANSITIVITY names 剥がす as its transitive pair; the usual pairs are 剥ぐ/剥げる and 剥がす/剥がれる. The wrong self-link (剥げ → 剥ぐ) in its ASPECT section was unlinked this cycle; the pair statement remains.
 - 2026-10-29 [pattern] Harvested cross-reference labels cut off at the first parenthesis ("(broader", "(gentler" in 11908, 11913): check harvest_crossrefs.py label extraction.
+- 2026-10-30 [tooling] accuracy-review 28419–29188 (sol + Opus): 242 of 763 entries flagged (32%, above the 25% noise line), yet adjudication applied 284 of 294 decisions: the flags were mostly real older errors (wrong readings 毛糸/四部/多角形/前編/古今, false etymologies, overstated 'always/never' rules, mistranslated glosses), not noise. One applied reading 'fix' was wrong (示威 → しい; it is じい) and was reverted. The 28000s cohort looks error-dense; worth keeping both reviewers on it.
+- 2026-10-30 [entry] 28715 捕る: example 2 uses 捕らえた, which is a different verb (捕らえる) from the headword.
