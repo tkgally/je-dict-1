@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-31 (19 new entries, third cycle)
+
+32519–32537. Closure: 異存, 連れ戻す, ソースコード, コードレス, 替え刃, 基調講演. Brainstorm: 探し回る, 探し出す (seed 探す), 入室 (seed 入る), 夜店, 店番 (seed 店), 働きかける (seed 働く), ペットショップ. ezFurigana lookups: 短刀, 生物 (なまもの), 付加, 膨らみ, 崩落, 孫の手. Candidate 授賞式 was the standard spelling of 24267 受賞式, so that entry now has the headword 授賞式 (same ID) and a WRITING note.
+Self-check: clean; 1 link removed (孫の手でかく read as でかい).
+
 ### 2026-10-31 (12 new entries, second cycle)
 
 32507–32518. Closure: 動線, 吹き降り, 結び切り, 波括弧. Brainstorm (animal-general field): ナマコ, ヤモリ, 保護犬, カメレオン. ezFurigana lookups: 嘆き, 晴れ姿, 運び (three senses, incl. 〜の運びとなる), 戯れ.
@@ -69,10 +74,3 @@ Self-check: 1 doubtful claim (蹄 not Jōyō) removed.
 
 32476–32483. Closure: 歯列, 八重歯, 目白押し. Brainstorm: 三枚おろし, 胸びれ, 在来種. ezFurigana lookups: 上海, 除染.
 Self-check: 1 pre-existing overstatement fixed in 盛りだくさん.
-
-### 2026-10-30 (20 new entries)
-
-32456–32475. Closure: カバー力, 投影図, 熊鼠, 据え置き機, 素魚, 軽空母, 交戦権. Brainstorm: 待ちわびる (seed 待つ),
-古道具 (seed 古い), 仕事人間 (seed 仕事), 放し飼い, 雑種, 狂犬病, 浮き袋. ezFurigana lookups: 〜期, 〜沿い, 〜省,
-神出鬼没, 推計, 専門性. Self-check: 2 pre-existing errors fixed in 護衛艦 (JMSDF unit names).
-
