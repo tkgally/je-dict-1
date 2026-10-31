@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -14208,6 +14208,20 @@
     "reviewed": 14,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "でなければ": {
+   "target": "31968_denakereba",
+   "tier": "verify",
+   "competitors": [
+    "出なければ (if one does not leave/appear/attend; conditional of 出る)"
+   ],
+   "screen": {
+    "verdict": "ambiguous",
+    "risk": "rare",
+    "note": "The same string is the negative conditional of 出る, which is normally written in kanji, so the 'unless it is' sense dominates; でなければならない ('must be') and particle で + なければ also fall within this entry's meaning.",
+    "model": "claude:opus",
+    "date": "2026-10-31"
    }
   },
   "では": {
