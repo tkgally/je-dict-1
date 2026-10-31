@@ -34,7 +34,7 @@
     },
     {
       "id": "30809_pekin_ex3",
-      "japanese": "{北京|ぺきん}⟦オリンピック→オリンピック：09899_orinpikku⟧⟦は→は：00079_ha⟧{二〇〇八年|にせんはちねん}⟦に→に：00314_ni⟧⟦{開催|かいさい}→開催：10457_kaisai⟧された。",
+      "japanese": "{北京|ぺきん}⟦オリンピック→オリンピック：09899_orinpikku⟧⟦は→は：00079_ha⟧{二〇〇八年|にせんはちねん}⟦に→に：00314_ni⟧⟦{開催|かいさい}→開催：10457_kaisai⟧⟦された→する：00392_suru⟧。",
       "english": "The Beijing Olympics were held in 2008.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{北京|ぺきん} is written with the same kanji as in Chinese, but read with the Japanese on'yomi pronunciation ぺきん rather than a transliteration of the Mandarin name.\n\nCOMMON COLLOCATIONS:\n- {北京|ぺきん}⟦オリンピック→オリンピック：09899_orinpikku⟧: the Beijing Olympics\n- {北京語|ぺきんご}: the Beijing dialect (colloquial term sometimes used loosely for Mandarin)\n- {北京|ぺきん}ダック: Peking duck\n\nRELATED WORDS:\n- {上海|しゃんはい}: Shanghai — China's largest city and commercial center, distinct from the political capital {北京|ぺきん}.",
+  "notes": "{北京|ぺきん} is written with the same kanji as in Chinese, but read ぺきん, a borrowing of an older Chinese pronunciation (the source of English 'Peking'), not a Japanese on'yomi.\n\nCOMMON COLLOCATIONS:\n- {北京|ぺきん}⟦オリンピック→オリンピック：09899_orinpikku⟧: the Beijing Olympics\n- {北京語|ぺきんご}: the Beijing dialect (colloquial term sometimes used loosely for Mandarin)\n- {北京|ぺきん}ダック: Peking duck\n\nRELATED WORDS:\n- ⟦{上海|しゃんはい}→上海：32482_shanhai⟧: Shanghai — China's largest city and commercial center, distinct from the political capital {北京|ぺきん}.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -52,6 +52,13 @@
       "reading": "しゅと",
       "headword": "{首都|しゅと}",
       "label": "capital city"
+    },
+    {
+      "type": "related",
+      "target_id": "32482_shanhai",
+      "reading": "しゃんはい",
+      "headword": "{上海|しゃんはい}",
+      "label": "Shanghai"
     }
   ],
   "metadata": {
@@ -70,6 +77,6 @@
       "domain": []
     },
     "created": "2026-09-03T12:27:39Z",
-    "modified": "2026-10-10T00:36:58Z"
+    "modified": "2026-10-31T02:07:48Z"
   }
 }
