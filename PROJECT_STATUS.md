@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-31 (15 new entries)
+
+32492–32506. Closure: 托卵, 閑古鳥, ぶり返す, 計画停電, 取り計らう. Brainstorm (animal-general field): クラゲ, ヒトデ, ムカデ, 触手, サソリ. ezFurigana lookups: にわたる (as にわたって), ばかりか, 抱き合う, 白衣, 鼻息.
+Self-check: 2 fixes (触手が動く is a slip for 食指が動く; どころか contrast softened).
+
 ### 2026-10-30 (8 new entries, second run)
 
 32484–32491. Closure: 板書, 最年長, 使節団. Brainstorm (animal-general field): 蹄, 猟犬, 固有種. ezFurigana lookups: 胎動, 壁ドン.
@@ -71,9 +76,4 @@ Self-check: 1 pre-existing overstatement fixed in 盛りだくさん.
 32436–32455. Closure: 調子に乗る, 出品者, 美術展, 冷やっこい, 早春, 日長, 告知書. Brainstorm: 待ち受ける, 巡り会う,
 聞き捨てならない, までもない, 長々と, 人任せ, 肉球. ezFurigana lookups: 〜型 (がた), 環境省, ごまかし, 就業, 宿舎, 衆院.
 Self-check: 3 notes overstatements fixed.
-
-### 2026-10-29 (12 new entries)
-
-32424–32435. Closure: 北極線, 同性婚, 冷やかし客, 訪問診療. Brainstorm: 待ち構える, 待ったなし (seed 待つ), 仕事始め,
-力仕事 (seed 仕事). ezFurigana lookups: 一途をたどる, 疑義, ことになる, 小太り. Self-check clean.
 
