@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-31 (12 new entries, second cycle)
+
+32507–32518. Closure: 動線, 吹き降り, 結び切り, 波括弧. Brainstorm (animal-general field): ナマコ, ヤモリ, 保護犬, カメレオン. ezFurigana lookups: 嘆き, 晴れ姿, 運び (three senses, incl. 〜の運びとなる), 戯れ.
+Self-check: 1 tag fix (戯れ emotion → leisure).
+
 ### 2026-10-31 (15 new entries)
 
 32492–32506. Closure: 托卵, 閑古鳥, ぶり返す, 計画停電, 取り計らう. Brainstorm (animal-general field): クラゲ, ヒトデ, ムカデ, 触手, サソリ. ezFurigana lookups: にわたる (as にわたって), ばかりか, 抱き合う, 白衣, 鼻息.
@@ -70,10 +75,4 @@ Self-check: 1 pre-existing overstatement fixed in 盛りだくさん.
 32456–32475. Closure: カバー力, 投影図, 熊鼠, 据え置き機, 素魚, 軽空母, 交戦権. Brainstorm: 待ちわびる (seed 待つ),
 古道具 (seed 古い), 仕事人間 (seed 仕事), 放し飼い, 雑種, 狂犬病, 浮き袋. ezFurigana lookups: 〜期, 〜沿い, 〜省,
 神出鬼没, 推計, 専門性. Self-check: 2 pre-existing errors fixed in 護衛艦 (JMSDF unit names).
-
-### 2026-10-29 (20 new entries)
-
-32436–32455. Closure: 調子に乗る, 出品者, 美術展, 冷やっこい, 早春, 日長, 告知書. Brainstorm: 待ち受ける, 巡り会う,
-聞き捨てならない, までもない, 長々と, 人任せ, 肉球. ezFurigana lookups: 〜型 (がた), 環境省, ごまかし, 就業, 宿舎, 衆院.
-Self-check: 3 notes overstatements fixed.
 
