@@ -1724,3 +1724,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - 2026-10-30 [entry] 28715 捕る: example 2 uses 捕らえた, which is a different verb (捕らえる) from the headword.
 
 - 2026-10-30 [entry] 02199 気 sense 3 (air, atmosphere): several examples (山の頂上は気が澄んでいて, この場所は気がいい) read unnaturally; most speakers would say 空気. The sense and its five examples need a rethink, not a polish pass.
+- 2026-10-31 [pattern] accuracy-review 29789–30554 (sol + Opus): 169 of 766 entries flagged (22%), 180 of 183 decisions applied. Most were false absolutes in notes written at creation ('only', 'always', 'never', 'not standard': 増収する/増益する/減収する called non-standard, 今週末に marked ×, 自身 'cannot stand alone', 万 alone 'not used', しちこ/しちせん 'not used'), plus wrong contrasts in SIMILAR WORDS (未収金/未払金 as 'accrued', 本格派 as 'full-repertoire'). The new-entries prompt could warn against restriction claims the writer cannot back with a counterexample check.
