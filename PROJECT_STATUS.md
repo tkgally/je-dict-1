@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-10-31 (10 new entries, fourth cycle)
+
+32538–32547. Closure: 親告罪, ご機嫌よう, 庭先, 出世頭. Brainstorm: からには (seed から), 帰り際 (seed 帰る), 働き口 (seed 働く). ezFurigana lookups: もがく, まがい, 旨.
+Self-check: clean; 1 link removed (旨としている read as the particle として).
+
 ### 2026-10-31 (19 new entries, third cycle)
 
 32519–32537. Closure: 異存, 連れ戻す, ソースコード, コードレス, 替え刃, 基調講演. Brainstorm: 探し回る, 探し出す (seed 探す), 入室 (seed 入る), 夜店, 店番 (seed 店), 働きかける (seed 働く), ペットショップ. ezFurigana lookups: 短刀, 生物 (なまもの), 付加, 膨らみ, 崩落, 孫の手. Candidate 授賞式 was the standard spelling of 24267 受賞式, so that entry now has the headword 授賞式 (same ID) and a WRITING note.
@@ -69,8 +74,3 @@ Self-check: 2 fixes (触手が動く is a slip for 食指が動く; どころか
 
 32484–32491. Closure: 板書, 最年長, 使節団. Brainstorm (animal-general field): 蹄, 猟犬, 固有種. ezFurigana lookups: 胎動, 壁ドン.
 Self-check: 1 doubtful claim (蹄 not Jōyō) removed.
-
-### 2026-10-30 (8 new entries)
-
-32476–32483. Closure: 歯列, 八重歯, 目白押し. Brainstorm: 三枚おろし, 胸びれ, 在来種. ezFurigana lookups: 上海, 除染.
-Self-check: 1 pre-existing overstatement fixed in 盛りだくさん.
