@@ -13,7 +13,7 @@
     {
       "sense_number": 2,
       "gloss": "unlucky age, critical age",
-      "explanation": "Specific ages in Japanese superstition considered prone to misfortune (yakudoshi). Traditionally 25, 42, and 61 for men; 19, 33, and 37 for women."
+      "explanation": "Specific ages in Japanese superstition considered prone to misfortune (yakudoshi). Traditionally 25, 42, and 61 for men; 19, 33, and 37 for women, counted in the old way ({数|かぞ}え{年|どし}, one's age plus one)."
     }
   ],
   "examples": [
@@ -49,10 +49,10 @@
     },
     {
       "id": "11989_yaku_ex4",
-      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧{厄|やく}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧。",
-      "english": "Next year falls on an unlucky age.",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{四十二|しじゅうに}⟦の→の：09472_no⟧{厄|やく}⟦を→を：00422_wo⟧⟦{無事|ぶじ}→無事：01602_buji⟧⟦に→に：00314_ni⟧⟦{乗|の}り{越|こ}えた→乗り越える：04620_norikoeru⟧。",
+      "english": "My father got safely through his unlucky forty-second year.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         2
       ]
@@ -78,11 +78,11 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {厄|やく}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (ward off misfortune)\n- {厄|やく}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧ (cleanse misfortune)\n- {厄|やく}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (fall on an unlucky age)\n- {厄|やく}⟦が→が：00051_ga⟧⟦{明|あ}ける→明ける：21288_akeru⟧ (unlucky period ends)\n- ⟦{厄年|やくどし}→厄年：05809_yakudoshi⟧ (unlucky year/age)\n\nUSAGE:\nThe concept of ⟦{厄年|やくどし}→厄年：05809_yakudoshi⟧ (unlucky ages) is deeply rooted in Japanese folk belief. The most feared unlucky ages are {大厄|たいやく}: 42 for men and 33 for women, both of which have wordplay associations with death ({四十二|しじゅうに} sounds like ⟦{死|し}に→死ぬ：00669_shinu⟧, and {三十三|さんじゅうさん} like ⟦{散々|さんざん}→散々：10323_sanzan⟧). Many people visit shrines for {厄払|やくはら}い (misfortune-cleansing rituals) at these ages.",
+  "notes": "COMMON COLLOCATIONS:\n- {厄|やく}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (ward off misfortune)\n- {厄|やく}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧ (cleanse misfortune)\n- {厄|やく}⟦が→が：00051_ga⟧⟦{明|あ}ける→明ける：21288_akeru⟧ (unlucky period ends)\n- ⟦{厄年|やくどし}→厄年：05809_yakudoshi⟧ (unlucky year/age)\n\nUSAGE:\nThe concept of ⟦{厄年|やくどし}→厄年：05809_yakudoshi⟧ (unlucky ages) is deeply rooted in Japanese folk belief. The most feared unlucky ages are {大厄|たいやく}: 42 for men and 33 for women, both with unlucky wordplay ({四十二|しじゅうに} sounds like ⟦{死|し}に→死ぬ：00669_shinu⟧, and {三十三|さんじゅうさん} like ⟦{散々|さんざん}→散々：10323_sanzan⟧, 'terrible'). Many people visit shrines for {厄払|やくはら}い (misfortune-cleansing rituals) at these ages.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-19T11:18:55Z",
-    "modified": "2026-09-02T04:01:27Z",
+    "modified": "2026-10-31T13:03:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -93,7 +93,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "religion",
+        "culture"
       ]
     }
   }
