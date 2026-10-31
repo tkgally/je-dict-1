@@ -700,6 +700,8 @@ update: neighbours where one sibling carries a specific tag and the other sole-`
 
 **Update 2026-10-30 (second systemic-fix)**: 80 entries in 03314–03675 retagged by hand from what the headword denotes; abstract nouns with no clear tag (真理, 範囲, 方法, 目標 …) left as `general`. Detector 2,020.
 
+**Update 2026-10-31 (second systemic-fix)**: 74 entries in 04307–04869 retagged by hand (楽器・音楽 words→music, 檜/幹/大木→plant-tree, インフレ/デフレ→economics+money, 少子化/高齢化→society …); abstract nouns (段階, 本質, 可能性, 必要性 …) and 図表/グラフ left as `general`. Detector 1,861.
+
 ## Priority 14: Notes content copied from wrong entry
 
 **Source**: Comprehensive-polish 2026-05-25 session 021 (entries 03491–03510)
