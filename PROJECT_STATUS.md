@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-01 (20 new entries, third cycle)
+
+32575–32594. Closure: 高級車, 勝ち進む, 勝ち越す, エキゾチック, 時代小説, 願掛け, 啓蒙. Brainstorm: たら, とか (seed と), 東部, 西部 (seed 南部), ダニ, ヒグラシ, カメムシ (animal-insect field). ezFurigana lookups: 証, アスリート, 雨脚, あらかた, 在り処, あらあら.
+Self-check: clean (0 accuracy flags); 1 kana link removed (について in カメムシ was に + 付く). ば's cross-reference to たら pointed at タラ (cod); now points at the new たら entry. New kanji 蒙 added to the kanji index.
+
 ### 2026-11-01 (11 new entries, second cycle)
 
 32564–32574. Closure: 耕作放棄地, 指し棒, ポチ袋, 動体視力. Brainstorm: 赤身魚 (animal-fish field), 動物愛護 (animal-general field), 人捜し (seed 探す). ezFurigana lookups: 枡席, 約束事, 瑠璃, リサーチ.
@@ -69,9 +74,4 @@ Self-check: clean; 1 link removed (旨としている read as the particle と�
 
 32519–32537. Closure: 異存, 連れ戻す, ソースコード, コードレス, 替え刃, 基調講演. Brainstorm: 探し回る, 探し出す (seed 探す), 入室 (seed 入る), 夜店, 店番 (seed 店), 働きかける (seed 働く), ペットショップ. ezFurigana lookups: 短刀, 生物 (なまもの), 付加, 膨らみ, 崩落, 孫の手. Candidate 授賞式 was the standard spelling of 24267 受賞式, so that entry now has the headword 授賞式 (same ID) and a WRITING note.
 Self-check: clean; 1 link removed (孫の手でかく read as でかい).
-
-### 2026-10-31 (12 new entries, second cycle)
-
-32507–32518. Closure: 動線, 吹き降り, 結び切り, 波括弧. Brainstorm (animal-general field): ナマコ, ヤモリ, 保護犬, カメレオン. ezFurigana lookups: 嘆き, 晴れ姿, 運び (three senses, incl. 〜の運びとなる), 戯れ.
-Self-check: 1 tag fix (戯れ emotion → leisure).
 
