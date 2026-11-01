@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-01 (11 new entries, fourth cycle)
+
+32595–32605. Closure: プレゼンター, 周知徹底, 大トロ, 有効求人倍率. Brainstorm: 蟻地獄 (animal-insect field), 唐, 明, 清 (seed 宋). ezFurigana lookups: アドベンチャー, あいうえお, 太郎. Candidate かねる dropped (covered by 兼ねる sense 2).
+Self-check: 2 flags applied (明 has other readings such as みょう; 日清食品's 清 is not the dynasty).
+
 ### 2026-11-01 (20 new entries, third cycle)
 
 32575–32594. Closure: 高級車, 勝ち進む, 勝ち越す, エキゾチック, 時代小説, 願掛け, 啓蒙. Brainstorm: たら, とか (seed と), 東部, 西部 (seed 南部), ダニ, ヒグラシ, カメムシ (animal-insect field). ezFurigana lookups: 証, アスリート, 雨脚, あらかた, 在り処, あらあら.
@@ -69,9 +74,3 @@ Self-check: clean (0 flags); 9 kana links checked, none flagged.
 
 32538–32547. Closure: 親告罪, ご機嫌よう, 庭先, 出世頭. Brainstorm: からには (seed から), 帰り際 (seed 帰る), 働き口 (seed 働く). ezFurigana lookups: もがく, まがい, 旨.
 Self-check: clean; 1 link removed (旨としている read as the particle として).
-
-### 2026-10-31 (19 new entries, third cycle)
-
-32519–32537. Closure: 異存, 連れ戻す, ソースコード, コードレス, 替え刃, 基調講演. Brainstorm: 探し回る, 探し出す (seed 探す), 入室 (seed 入る), 夜店, 店番 (seed 店), 働きかける (seed 働く), ペットショップ. ezFurigana lookups: 短刀, 生物 (なまもの), 付加, 膨らみ, 崩落, 孫の手. Candidate 授賞式 was the standard spelling of 24267 受賞式, so that entry now has the headword 授賞式 (same ID) and a WRITING note.
-Self-check: clean; 1 link removed (孫の手でかく read as でかい).
-

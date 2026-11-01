@@ -46,7 +46,15 @@
   ],
   "notes": "⟦{失業|しつぎょう}→失業：03179_shitsugyou⟧ (unemployment) + ⟦{率|りつ}→率：03802_ritsu⟧ (rate).\n\nCOMMON COLLOCATIONS:\n- {失業率|しつぎょうりつ}⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}する→上昇する：21681_joushousuru⟧ / ⟦{低下|ていか}→低下：04065_teika⟧⟦する→する：00392_suru⟧: the unemployment rate rises / falls\n- {完全失業率|かんぜんしつぎょうりつ}: the official unemployment rate (the government statistic)\n- ⟦{若年層|じゃくねんそう}→若年層：20942_jakunensou⟧⟦の→の：09472_no⟧{失業率|しつぎょうりつ}: youth unemployment rate\n\nSIMILAR WORDS:\n- {有効求人倍率|ゆうこうきゅうじんばいりつ}: job-openings-to-applicants ratio — the other headline labor statistic in Japan",
   "schema_version": "2.0",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "32598_yuukoukyuujinbairitsu",
+      "reading": "ゆうこうきゅうじんばいりつ",
+      "headword": "{有効求人倍率|ゆうこうきゅうじんばいりつ}",
+      "label": "ratio of job openings to job seekers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +70,6 @@
       "domain": []
     },
     "created": "2026-10-25T13:57:36Z",
-    "modified": "2026-10-25T13:59:04Z"
+    "modified": "2026-11-01T14:06:29Z"
   }
 }
