@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-01 (11 new entries, second cycle)
+
+32564–32574. Closure: 耕作放棄地, 指し棒, ポチ袋, 動体視力. Brainstorm: 赤身魚 (animal-fish field), 動物愛護 (animal-general field), 人捜し (seed 探す). ezFurigana lookups: 枡席, 約束事, 瑠璃, リサーチ.
+Self-check: clean (0 flags). New kanji 枡 added to the kanji index.
+
 ### 2026-11-01 (16 new entries)
 
 32548–32563. Closure: 焼きプリン, 先読み, 高速鉄道, 若旦那, 気象予報士, 結果論. Brainstorm: 恒温動物, 珍獣, 血統書 (animal-general field), 果物屋 (seed 果物), 店構え (seed 店). ezFurigana lookups: パルプ, 墓標, 魔術師, 約款, 悠久.
@@ -69,9 +74,4 @@ Self-check: clean; 1 link removed (孫の手でかく read as でかい).
 
 32507–32518. Closure: 動線, 吹き降り, 結び切り, 波括弧. Brainstorm (animal-general field): ナマコ, ヤモリ, 保護犬, カメレオン. ezFurigana lookups: 嘆き, 晴れ姿, 運び (three senses, incl. 〜の運びとなる), 戯れ.
 Self-check: 1 tag fix (戯れ emotion → leisure).
-
-### 2026-10-31 (15 new entries)
-
-32492–32506. Closure: 托卵, 閑古鳥, ぶり返す, 計画停電, 取り計らう. Brainstorm (animal-general field): クラゲ, ヒトデ, ムカデ, 触手, サソリ. ezFurigana lookups: にわたる (as にわたって), ばかりか, 抱き合う, 白衣, 鼻息.
-Self-check: 2 fixes (触手が動く is a slip for 食指が動く; どころか contrast softened).
 
