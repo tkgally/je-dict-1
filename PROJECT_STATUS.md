@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-01 (16 new entries)
+
+32548–32563. Closure: 焼きプリン, 先読み, 高速鉄道, 若旦那, 気象予報士, 結果論. Brainstorm: 恒温動物, 珍獣, 血統書 (animal-general field), 果物屋 (seed 果物), 店構え (seed 店). ezFurigana lookups: パルプ, 墓標, 魔術師, 約款, 悠久.
+Self-check: clean (0 flags); 9 kana links checked, none flagged.
+
 ### 2026-10-31 (10 new entries, fourth cycle)
 
 32538–32547. Closure: 親告罪, ご機嫌よう, 庭先, 出世頭. Brainstorm: からには (seed から), 帰り際 (seed 帰る), 働き口 (seed 働く). ezFurigana lookups: もがく, まがい, 旨.
@@ -70,7 +75,3 @@ Self-check: 1 tag fix (戯れ emotion → leisure).
 32492–32506. Closure: 托卵, 閑古鳥, ぶり返す, 計画停電, 取り計らう. Brainstorm (animal-general field): クラゲ, ヒトデ, ムカデ, 触手, サソリ. ezFurigana lookups: にわたる (as にわたって), ばかりか, 抱き合う, 白衣, 鼻息.
 Self-check: 2 fixes (触手が動く is a slip for 食指が動く; どころか contrast softened).
 
-### 2026-10-30 (8 new entries, second run)
-
-32484–32491. Closure: 板書, 最年長, 使節団. Brainstorm (animal-general field): 蹄, 猟犬, 固有種. ezFurigana lookups: 胎動, 壁ドン.
-Self-check: 1 doubtful claim (蹄 not Jōyō) removed.
