@@ -2,7 +2,7 @@
   "id": "05219_saikai",
   "headword": "{再開|さいかい}",
   "reading": "さいかい",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "resumption; reopening; restart",
   "definitions": [
     {
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{再開|さいかい} means to resume or restart something that was interrupted or stopped. It applies to activities, operations, services, and events — not to machines or devices (use ⟦{再起動|さいきどう}→再起動：09222_saikidou⟧ for those).\n\nCOMMON PATTERNS:\n- {再開|さいかい}⟦する→する：00392_suru⟧: to resume, to reopen\n- {再開|さいかい}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to decide to resume\n- {再開|さいかい}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to demand resumption\n- {再開|さいかい}⟦される→する：00392_suru⟧: to be resumed (passive)\n- 〜⟦の→の：09472_no⟧{再開|さいかい}: resumption of ~\n\nUSAGE:\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦を→を：00422_wo⟧{再開|さいかい}⟦する→する：00392_suru⟧: to resume business\n- ⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦の→の：09472_no⟧{再開|さいかい}: resumption of negotiations\n- ⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧{再開|さいかい}⟦される→する：00392_suru⟧: the game is resumed\n- ⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧{再開|さいかい}⟦する→する：00392_suru⟧: to restart a service\n\nWATCH OUT:\n⟦{再会|さいかい}→再会：11667_saikai⟧ (reunion — meeting someone again) uses different kanji and has a completely different meaning. Be careful not to confuse them.",
+  "notes": "{再開|さいかい} means to resume or restart something that was interrupted or stopped. It applies to activities, operations, services, and events — not to machines or devices (use ⟦{再起動|さいきどう}→再起動：09222_saikidou⟧ for those).\n\nTRANSITIVITY:\n- Both: 〜⟦を→を：00422_wo⟧{再開|さいかい}⟦する→する：00392_suru⟧ (to resume ~) and 〜⟦が→が：00051_ga⟧{再開|さいかい}⟦する→する：00392_suru⟧ (~ resumes); the passive 〜⟦が→が：00051_ga⟧{再開|さいかい}⟦される→する：00392_suru⟧ is also common.\n\nCOMMON PATTERNS:\n- {再開|さいかい}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to decide to resume\n- {再開|さいかい}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to demand resumption\n- 〜⟦の→の：09472_no⟧{再開|さいかい}: resumption of ~\n\nWATCH OUT:\n⟦{再会|さいかい}→再会：11667_saikai⟧ (reunion — meeting someone again) uses different kanji and has a completely different meaning. Be careful not to confuse them.",
   "cross_references": [
     {
       "type": "antonym",
@@ -76,18 +76,22 @@
   ],
   "metadata": {
     "created": "2026-01-16T03:30:33Z",
-    "modified": "2026-09-02T04:01:06Z",
+    "modified": "2026-11-01T00:20:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
-      ]
+        "action",
+        "change"
+      ],
+      "verb_class": "suru",
+      "transitivity": "both"
     }
   },
   "prominent_see_also": [
@@ -97,5 +101,95 @@
       "headword": "{再会|さいかい}",
       "note": "reunion"
     }
-  ]
+  ],
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{再開|さいかい}する",
+        "negative": "{再開|さいかい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{再開|さいかい}します",
+        "negative": "{再開|さいかい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{再開|さいかい}した",
+        "negative": "{再開|さいかい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{再開|さいかい}しました",
+        "negative": "{再開|さいかい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{再開|さいかい}して",
+        "negative": "{再開|さいかい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{再開|さいかい}している",
+        "negative": "{再開|さいかい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{再開|さいかい}しています",
+        "negative": "{再開|さいかい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{再開|さいかい}していた",
+        "negative": "{再開|さいかい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{再開|さいかい}していました",
+        "negative": "{再開|さいかい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{再開|さいかい}すれば",
+        "negative": "{再開|さいかい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{再開|さいかい}したら",
+        "negative": "{再開|さいかい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{再開|さいかい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{再開|さいかい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{再開|さいかい}できる",
+        "negative": "{再開|さいかい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{再開|さいかい}される",
+        "negative": "{再開|さいかい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{再開|さいかい}させる",
+        "negative": "{再開|さいかい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{再開|さいかい}しろ",
+        "negative": "{再開|さいかい}するな"
+      }
+    ]
+  }
 }

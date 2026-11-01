@@ -19,10 +19,10 @@
   "examples": [
     {
       "id": "06072_yabo_ex1",
-      "japanese": "{野暮|やぼ}な⟦{服装|ふくそう}→服装：03594_fukusou⟧⟦は→は：00079_ha⟧⟦やめよう→やめる：00909_yameru⟧。",
-      "english": "Let's not wear unfashionable clothes.",
+      "japanese": "{野暮|やぼ}な⟦{服装|ふくそう}→服装：03594_fukusou⟧⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧⟦の→の：09472_no⟧はやめよう。",
+      "english": "Let's not go dressed in such unstylish clothes.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         1
       ]
@@ -78,13 +78,14 @@
       ]
     }
   ],
-  "notes": "FORMS:\n- Noun: {野暮|やぼ} (used as noun meaning 'boor' or 'philistine')\n- Set phrase: {野暮|やぼ}なこと (tactless thing)\n\nCOMMON PATTERNS:\n- {野暮|やぼ}なこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧ (say something tactless)\n- {野暮|やぼ}⟦を→を：00422_wo⟧⟦{承知|しょうち}→承知：02086_shouchi⟧⟦で→で：00502_de⟧ (knowing it's tactless, but...)\n- {野暮|やぼ}{天|てん} (boor, philistine - noun)\n\nCULTURAL NOTE: Originated in Edo-period culture where it contrasted with ⟦{粋|いき}→粋：13773_iki⟧ (stylishness, chic). Someone who doesn't understand the unwritten rules of social elegance was called {野暮|やぼ}.\n\nANTONYM: ⟦{粋|いき}→粋：13773_iki⟧ (chic, sophisticated).",
+  "notes": "COMMON PATTERNS:\n- {野暮|やぼ}なこと (a tactless thing to do or say)\n- {野暮|やぼ}なこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧ (say something tactless)\n- {野暮|やぼ}⟦を→を：00422_wo⟧⟦{承知|しょうち}→承知：02086_shouchi⟧⟦で→で：00502_de⟧ (knowing it's tactless, but...)\n- {野暮|やぼ}{天|てん} (boor, philistine - noun)\n- {野暮|やぼ}ったい (frumpy, unstylish)\n\nCULTURAL NOTE: Originated in Edo-period culture where it contrasted with ⟦{粋|いき}→粋：13773_iki⟧ (stylishness, chic). Someone who doesn't understand the unwritten rules of social elegance was called {野暮|やぼ}.",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "いき",
       "headword": "{粋|いき}",
-      "target_id": "13773_iki"
+      "target_id": "13773_iki",
+      "label": "chic, stylish"
     },
     {
       "type": "antonym",
@@ -110,7 +111,7 @@
   ],
   "metadata": {
     "created": "2026-01-17T02:07:38Z",
-    "modified": "2026-09-02T04:01:07Z",
+    "modified": "2026-11-01T00:20:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "02490_kiroku",
   "headword": "{記録|きろく}",
   "reading": "きろく",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "record, document",
   "definitions": [
     {
@@ -20,7 +20,7 @@
     {
       "id": "02490_kiroku_ex1",
       "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{記録|きろく}⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
-      "english": "I took notes of the meeting.",
+      "english": "I took the minutes of the meeting.",
       "notes": null,
       "has_audio": true,
       "sense_numbers": [
@@ -125,18 +125,112 @@
   ],
   "metadata": {
     "created": "2026-01-11T12:03:22Z",
-    "modified": "2026-09-02T04:01:01Z",
+    "modified": "2026-11-01T00:18:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
-      ]
+        "abstract",
+        "sports"
+      ],
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{記録|きろく}する",
+        "negative": "{記録|きろく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{記録|きろく}します",
+        "negative": "{記録|きろく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{記録|きろく}した",
+        "negative": "{記録|きろく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{記録|きろく}しました",
+        "negative": "{記録|きろく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{記録|きろく}して",
+        "negative": "{記録|きろく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{記録|きろく}している",
+        "negative": "{記録|きろく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{記録|きろく}しています",
+        "negative": "{記録|きろく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{記録|きろく}していた",
+        "negative": "{記録|きろく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{記録|きろく}していました",
+        "negative": "{記録|きろく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{記録|きろく}すれば",
+        "negative": "{記録|きろく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{記録|きろく}したら",
+        "negative": "{記録|きろく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{記録|きろく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{記録|きろく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{記録|きろく}できる",
+        "negative": "{記録|きろく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{記録|きろく}される",
+        "negative": "{記録|きろく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{記録|きろく}させる",
+        "negative": "{記録|きろく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{記録|きろく}しろ",
+        "negative": "{記録|きろく}するな"
+      }
+    ]
   }
 }
