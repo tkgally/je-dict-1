@@ -2,7 +2,7 @@
   "id": "02510_taiou",
   "headword": "{対応|たいおう}",
   "reading": "たいおう",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "response, correspondence",
   "definitions": [
     {
@@ -127,23 +127,116 @@
       "target_id": "27532_sabaku",
       "reading": "さばく",
       "headword": "{捌|さば}く",
-      "label": "to dress (fish)"
+      "label": "to handle (a heavy workload)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:06:02Z",
-    "modified": "2026-10-09T14:20:01Z",
+    "modified": "2026-11-01T00:18:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "action"
-      ]
+      ],
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{対応|たいおう}する",
+        "negative": "{対応|たいおう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{対応|たいおう}します",
+        "negative": "{対応|たいおう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{対応|たいおう}した",
+        "negative": "{対応|たいおう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{対応|たいおう}しました",
+        "negative": "{対応|たいおう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{対応|たいおう}して",
+        "negative": "{対応|たいおう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{対応|たいおう}している",
+        "negative": "{対応|たいおう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{対応|たいおう}しています",
+        "negative": "{対応|たいおう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{対応|たいおう}していた",
+        "negative": "{対応|たいおう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{対応|たいおう}していました",
+        "negative": "{対応|たいおう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{対応|たいおう}すれば",
+        "negative": "{対応|たいおう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{対応|たいおう}したら",
+        "negative": "{対応|たいおう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{対応|たいおう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{対応|たいおう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{対応|たいおう}できる",
+        "negative": "{対応|たいおう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{対応|たいおう}される",
+        "negative": "{対応|たいおう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{対応|たいおう}させる",
+        "negative": "{対応|たいおう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{対応|たいおう}しろ",
+        "negative": "{対応|たいおう}するな"
+      }
+    ]
   }
 }
