@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of ⟦{待|ま}つ→待つ：00469_matsu⟧ (to wait) and ⟦{構|かま}える→構える：09567_kamaeru⟧ (to take a stance, to get ready). It adds readiness to plain waiting: the person is poised to act the moment the awaited thing arrives. The object takes ⟦を→を：00422_wo⟧; the subject can also be a thing that lies ahead, such as hardships or work.\n\nCOMMON COLLOCATIONS:\n- ⟦{獲物|えもの}→獲物：08638_emono⟧⟦を→を：00422_wo⟧{待|ま}ち{構|かま}える: to lie in wait for prey\n- ⟦{今|いま}→今：00945_ima⟧⟦か→か：09473_ka⟧⟦{今|いま}→今：00945_ima⟧⟦か→か：09473_ka⟧⟦と→と：00512_to⟧{待|ま}ち{構|かま}える: to wait impatiently, wondering if it is now\n- ⟦{困難|こんなん}→困難：01410_konnan⟧⟦が→が：00051_ga⟧{待|ま}ち{構|かま}えて⟦いる→いる：00495_iru⟧: difficulties lie ahead\n\nSIMILAR WORDS:\n- {待|ま}ち{受|う}ける: to await, to lie ahead — close, but without the sense of being braced or poised\n- {待|ま}ちわびる: to wait impatiently — stresses the long, tiring wait rather than readiness",
+  "notes": "A compound of ⟦{待|ま}つ→待つ：00469_matsu⟧ (to wait) and ⟦{構|かま}える→構える：09567_kamaeru⟧ (to take a stance, to get ready). It adds readiness to plain waiting: the person is poised to act the moment the awaited thing arrives. The object takes ⟦を→を：00422_wo⟧; the subject can also be a thing that lies ahead, such as hardships or work.\n\nCOMMON COLLOCATIONS:\n- ⟦{獲物|えもの}→獲物：08638_emono⟧⟦を→を：00422_wo⟧{待|ま}ち{構|かま}える: to lie in wait for prey\n- ⟦{今|いま}→今：00945_ima⟧⟦か→か：09473_ka⟧⟦{今|いま}→今：00945_ima⟧⟦か→か：09473_ka⟧⟦と→と：00512_to⟧{待|ま}ち{構|かま}える: to wait impatiently, wondering if it is now\n- ⟦{困難|こんなん}→困難：01410_konnan⟧⟦が→が：00051_ga⟧{待|ま}ち{構|かま}えて⟦いる→いる：00495_iru⟧: difficulties lie ahead\n\nSIMILAR WORDS:\n- ⟦{待|ま}ち{受|う}ける→待ち受ける：32443_machiukeru⟧: to await, to lie ahead — close, but without the sense of being braced or poised\n- ⟦{待|ま}ちわびる→待ちわびる：32463_machiwabiru⟧: to wait impatiently — stresses the long, tiring wait rather than readiness",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -63,6 +63,20 @@
       "reading": "まつ",
       "headword": "{待|ま}つ",
       "label": "to wait"
+    },
+    {
+      "type": "contrast",
+      "target_id": "32443_machiukeru",
+      "reading": "まちうける",
+      "headword": "{待|ま}ち{受|う}ける",
+      "label": "to await, to lie ahead"
+    },
+    {
+      "type": "contrast",
+      "target_id": "32463_machiwabiru",
+      "reading": "まちわびる",
+      "headword": "{待|ま}ちわびる",
+      "label": "to wait impatiently"
     }
   ],
   "metadata": {
@@ -74,15 +88,14 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action",
-        "movement"
+        "action"
       ],
       "domain": [],
       "verb_class": "ichidan",
       "transitivity": "transitive"
     },
     "created": "2026-10-29T01:49:26Z",
-    "modified": "2026-10-29T01:57:39Z"
+    "modified": "2026-11-01T13:20:33Z"
   },
   "conjugation": {
     "type": "ichidan",
