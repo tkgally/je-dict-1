@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -14624,6 +14624,18 @@
     "reviewed": 1,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "とさか": {
+   "target": "32275_tosaka",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "とさか (鶏冠) is effectively the only common word with this reading; figurative uses like とさかに来る are the same word.",
+    "model": "claude:opus",
+    "date": "2026-11-01"
    }
   },
   "として": {
