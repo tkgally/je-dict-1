@@ -580,6 +580,8 @@ Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
+**Update 2026-11-01 (second systemic-fix):** 62 entries in 05426–05624 retagged by hand (abstract nouns such as 手順, 様式, 要因, 必然 left general); detector 1,770 → 1,705.
+
 **Update 2026-11-01 (systemic-fix):** 85 entries in 04871–05424 retagged by hand (abstract nouns such as 正義, 倫理, 矛盾, 調和, 均衡 left general); detector 1,855 → 1,770.
 
 **Update 2026-10-31 (systemic-fix):** 82 entries in 03678–04302 retagged by hand (abstract nouns such as 例外, 基礎, 要旨, 実績 left general); detector 2,016 → 1,933.
