@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-02 (candidate restock, 70 added)
+
+Queue 550 → 620 (C25567–C25636). Closure (49, words named in notes of entries changed since 2026-10-31): e.g. 感謝祭, 直角三角形, 奥の手, 九分九厘, 絵空事, 第一人者, 統合失調症, 鉤括弧. Brainstorm (seeds 遅い…パン, 20 basic headwords; 21 added of 50 new proposals): e.g. 母の日, どこもかしこも, 歩きスマホ, 遊び半分, 家族葬, コッペパン.
+
 ### 2026-11-02 (12 new entries, fifth cycle)
 
 32624–32635. Closure: 瀬戸物, 頭数, 証明写真, 個包装. Brainstorm (animal-insect field): モンシロチョウ, アブラゼミ, ミンミンゼミ, ボウフラ. ezFurigana lookups: 致し方ない (as 致し方), いやに, 入れ歯, 後ろ姿.
@@ -69,9 +73,4 @@ Self-check: 2 flags applied (明 has other readings such as みょう; 日清食
 
 32575–32594. Closure: 高級車, 勝ち進む, 勝ち越す, エキゾチック, 時代小説, 願掛け, 啓蒙. Brainstorm: たら, とか (seed と), 東部, 西部 (seed 南部), ダニ, ヒグラシ, カメムシ (animal-insect field). ezFurigana lookups: 証, アスリート, 雨脚, あらかた, 在り処, あらあら.
 Self-check: clean (0 accuracy flags); 1 kana link removed (について in カメムシ was に + 付く). ば's cross-reference to たら pointed at タラ (cod); now points at the new たら entry. New kanji 蒙 added to the kanji index.
-
-### 2026-11-01 (11 new entries, second cycle)
-
-32564–32574. Closure: 耕作放棄地, 指し棒, ポチ袋, 動体視力. Brainstorm: 赤身魚 (animal-fish field), 動物愛護 (animal-general field), 人捜し (seed 探す). ezFurigana lookups: 枡席, 約束事, 瑠璃, リサーチ.
-Self-check: clean (0 flags). New kanji 枡 added to the kanji index.
 
