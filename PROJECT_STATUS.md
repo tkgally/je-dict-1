@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-02 (18 new entries, ninth cycle)
+
+32636–32653. Closure: 単独親権, 国民皆年金, 魔方陣, 急ごしらえ, 前方後円墳, 選び抜く. Brainstorm (animal-insect field): カミキリムシ, ウジ, ミノムシ, 虫取り, 虫食い (two senses), 蝉時雨. ezFurigana lookups: 色味, 迂闊, 内回り, 移ろう, 畝, ウラン.
+Self-check: 1 accuracy flag applied (魔方陣 note: 法 means "law, method", not "magic"); 6 kana links confirmed.
+
 ### 2026-11-02 (candidate restock, 70 added)
 
 Queue 550 → 620 (C25567–C25636). Closure (49, words named in notes of entries changed since 2026-10-31): e.g. 感謝祭, 直角三角形, 奥の手, 九分九厘, 絵空事, 第一人者, 統合失調症, 鉤括弧. Brainstorm (seeds 遅い…パン, 20 basic headwords; 21 added of 50 new proposals): e.g. 母の日, どこもかしこも, 歩きスマホ, 遊び半分, 家族葬, コッペパン.
@@ -68,9 +73,4 @@ Self-check: clean (0 accuracy flags, 17 kana links confirmed).
 
 32595–32605. Closure: プレゼンター, 周知徹底, 大トロ, 有効求人倍率. Brainstorm: 蟻地獄 (animal-insect field), 唐, 明, 清 (seed 宋). ezFurigana lookups: アドベンチャー, あいうえお, 太郎. Candidate かねる dropped (covered by 兼ねる sense 2).
 Self-check: 2 flags applied (明 has other readings such as みょう; 日清食品's 清 is not the dynasty).
-
-### 2026-11-01 (20 new entries, third cycle)
-
-32575–32594. Closure: 高級車, 勝ち進む, 勝ち越す, エキゾチック, 時代小説, 願掛け, 啓蒙. Brainstorm: たら, とか (seed と), 東部, 西部 (seed 南部), ダニ, ヒグラシ, カメムシ (animal-insect field). ezFurigana lookups: 証, アスリート, 雨脚, あらかた, 在り処, あらあら.
-Self-check: clean (0 accuracy flags); 1 kana link removed (について in カメムシ was に + 付く). ば's cross-reference to たら pointed at タラ (cod); now points at the new たら entry. New kanji 蒙 added to the kanji index.
 
