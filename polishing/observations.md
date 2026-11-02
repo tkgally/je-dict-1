@@ -1731,3 +1731,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - 2026-11-02 [entry] 00263 急に had a sense "quickly, hurriedly" with five examples that meant 急いで; the sense is now "sharply (of a change)" and the examples were replaced. Other old adverb entries may confuse 急に/急いで or すぐ/早く the same way.
 - 2026-11-02 [entry] 32573 瑠璃: audio checks (all four) heard しちほう for {七宝|しっぽう} in 32573_ruri_ex2; in the Buddhist "seven treasures" sense しちほう is the usual reading (しっぽう is cloisonné). Check the furigana.
 - 2026-11-02 [entry] 32606 二等辺三角形: audio checks heard さんかっけい for さんかくけい in ex1 and ex3 (same as 23664 正三角形); both readings are in use, consider a PRONUNCIATION note.
+- 2026-11-02 [tooling] auto_link.py links the intransitive ほどける/ほどけ to 10504 ほどく though 18700 解ける (ほどける) exists (07102 縫い目, retargeted by hand this cycle); other entries may carry the same mislink.
