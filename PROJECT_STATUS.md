@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-02 (18 new entries, second cycle)
+
+32606–32623. Closure: 二等辺三角形, 夢物語, 立役者, すり合わせる, 出がらし, おから. Brainstorm (animal-insect field): ダンゴムシ, アメンボ, 蜘蛛の巣, 虫かご, コバエ, ヤゴ. ezFurigana lookups: 異色, 痛手, 一体化, 凍てつく, いとも, 域.
+Self-check: clean (0 accuracy flags, 17 kana links confirmed).
+
 ### 2026-11-01 (11 new entries, fourth cycle)
 
 32595–32605. Closure: プレゼンター, 周知徹底, 大トロ, 有効求人倍率. Brainstorm: 蟻地獄 (animal-insect field), 唐, 明, 清 (seed 宋). ezFurigana lookups: アドベンチャー, あいうえお, 太郎. Candidate かねる dropped (covered by 兼ねる sense 2).
@@ -70,7 +75,3 @@ Self-check: clean (0 flags). New kanji 枡 added to the kanji index.
 32548–32563. Closure: 焼きプリン, 先読み, 高速鉄道, 若旦那, 気象予報士, 結果論. Brainstorm: 恒温動物, 珍獣, 血統書 (animal-general field), 果物屋 (seed 果物), 店構え (seed 店). ezFurigana lookups: パルプ, 墓標, 魔術師, 約款, 悠久.
 Self-check: clean (0 flags); 9 kana links checked, none flagged.
 
-### 2026-10-31 (10 new entries, fourth cycle)
-
-32538–32547. Closure: 親告罪, ご機嫌よう, 庭先, 出世頭. Brainstorm: からには (seed から), 帰り際 (seed 帰る), 働き口 (seed 働く). ezFurigana lookups: もがく, まがい, 旨.
-Self-check: clean; 1 link removed (旨としている read as the particle として).
