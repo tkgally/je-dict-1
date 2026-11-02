@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-02 (6 new entries, fourteenth cycle)
+
+32654–32659. Closure: 潔癖症, 送り届ける. Brainstorm (animal-insect field): 虫の知らせ, 青虫. ezFurigana lookups: 憂う, 英検.
+Self-check: 1 tag flag applied (英検 is a test, not an organization); 1 kana link removed (という in 虫の知らせというのか is と + 言う).
+
 ### 2026-11-02 (18 new entries, ninth cycle)
 
 32636–32653. Closure: 単独親権, 国民皆年金, 魔方陣, 急ごしらえ, 前方後円墳, 選び抜く. Brainstorm (animal-insect field): カミキリムシ, ウジ, ミノムシ, 虫取り, 虫食い (two senses), 蝉時雨. ezFurigana lookups: 色味, 迂闊, 内回り, 移ろう, 畝, ウラン.
@@ -68,9 +73,4 @@ Self-check: clean (0 accuracy flags); 1 kana link kept (子供のころ → 〜�
 
 32606–32623. Closure: 二等辺三角形, 夢物語, 立役者, すり合わせる, 出がらし, おから. Brainstorm (animal-insect field): ダンゴムシ, アメンボ, 蜘蛛の巣, 虫かご, コバエ, ヤゴ. ezFurigana lookups: 異色, 痛手, 一体化, 凍てつく, いとも, 域.
 Self-check: clean (0 accuracy flags, 17 kana links confirmed).
-
-### 2026-11-01 (11 new entries, fourth cycle)
-
-32595–32605. Closure: プレゼンター, 周知徹底, 大トロ, 有効求人倍率. Brainstorm: 蟻地獄 (animal-insect field), 唐, 明, 清 (seed 宋). ezFurigana lookups: アドベンチャー, あいうえお, 太郎. Candidate かねる dropped (covered by 兼ねる sense 2).
-Self-check: 2 flags applied (明 has other readings such as みょう; 日清食品's 清 is not the dynasty).
 
