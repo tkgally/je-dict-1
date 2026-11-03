@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-03 (6 new entries, fifth cycle of the 02:49 run)
+
+32684–32689. Closure: 仏頂面, しかめっ面 (both from 02231, contrasted with each other). Brainstorm: もらい物 (from もらう), 勉強家 (from 勉強する). ezFurigana lookups: 男友達, お膝元. Candidates added: ガリ勉, 読書家, 女友達.
+Self-check: 1 notes flag applied (plain 膝元 can also mean a ruler's seat).
+
 ### 2026-11-03 (6 new entries, sixth cycle)
 
 32678–32683. Closure: 台布巾, 記名投票. Brainstorm: 借り物 (from 借りる), はみ出る (from 出る). ezFurigana lookups: 開口一番, 影武者. Also fixed the reading of 遅れて in 32673 出遅れる ex2 (おく, not おそ).
@@ -69,8 +74,4 @@ Self-check: 1 tag flag applied (英検 is a test, not an organization); 1 kana l
 
 32636–32653. Closure: 単独親権, 国民皆年金, 魔方陣, 急ごしらえ, 前方後円墳, 選び抜く. Brainstorm (animal-insect field): カミキリムシ, ウジ, ミノムシ, 虫取り, 虫食い (two senses), 蝉時雨. ezFurigana lookups: 色味, 迂闊, 内回り, 移ろう, 畝, ウラン.
 Self-check: 1 accuracy flag applied (魔方陣 note: 法 means "law, method", not "magic"); 6 kana links confirmed.
-
-### 2026-11-02 (candidate restock, 70 added)
-
-Queue 550 → 620 (C25567–C25636). Closure (49, words named in notes of entries changed since 2026-10-31): e.g. 感謝祭, 直角三角形, 奥の手, 九分九厘, 絵空事, 第一人者, 統合失調症, 鉤括弧. Brainstorm (seeds 遅い…パン, 20 basic headwords; 21 added of 50 new proposals): e.g. 母の日, どこもかしこも, 歩きスマホ, 遊び半分, 家族葬, コッペパン.
 
