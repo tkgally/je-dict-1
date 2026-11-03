@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-03 (18 new entries, fifth cycle of the 12:15 run)
+
+32743–32760. Closure: 疑義照会, 青票 (contrasted with 白票), 告知義務, 環境大臣, 国民宿舎, 就業者. Brainstorm: せる (causative after godan verbs, paired with させる), フェレット, ムササビ, モモンガ, ヒョウ, ヤマネコ. ezFurigana lookups: 寒色, 勘当, 雁 (new kanji 2838), 眼下, 忌引き, 急ブレーキ.
+Self-check: 1 flag applied (待たせる can be permissive in context; WATCH OUT softened).
+
 ### 2026-11-03 (20 new entries, second cycle of the 12:15 run)
 
 32723–32742. Closure: 申告書, 待ち受け画面, 参院, 衆院選, 最新型, 就業率, 他人任せ. Brainstorm: させる (causative auxiliary), 飛んで火に入る夏の虫, ハイエナ, ハリネズミ, ヒグマ, モグラ, サイ. ezFurigana lookups: 舵, 活動家, かなぐり捨てる, 〜かねない, 紙パック, 川面.
@@ -69,9 +74,3 @@ Self-check: 2 flags applied (サブタイトル can also mean film subtitles; �
 
 32690–32704. Closure: 後述, 先述 (both from 11911 前述), フェンシング, 写真展, 販売者. Brainstorm: 前借り (from 借りる), コアラ, ラッコ, シャチ, 虫取り網 (animal fields). ezFurigana lookups: おめでたい (happy; naive), 思いの丈, 買い戻す, 返り討ち, オランダ.
 Self-check: clean (0 accuracy flags, 13 kana links confirmed).
-
-### 2026-11-03 (6 new entries, fifth cycle of the 02:49 run)
-
-32684–32689. Closure: 仏頂面, しかめっ面 (both from 02231, contrasted with each other). Brainstorm: もらい物 (from もらう), 勉強家 (from 勉強する). ezFurigana lookups: 男友達, お膝元. Candidates added: ガリ勉, 読書家, 女友達.
-Self-check: 1 notes flag applied (plain 膝元 can also mean a ruler's seat).
-
