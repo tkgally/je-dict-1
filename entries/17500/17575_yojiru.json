@@ -113,9 +113,9 @@
     },
     {
       "id": "17575_yojiru_ex2",
-      "japanese": "⟦{笑|わら}いすぎ→笑いすぎ：08974_waraisugi⟧て⟦お{腹|なか}→お腹：00805_onaka⟧⟦を→を：00422_wo⟧よじった。",
-      "english": "I laughed so hard my stomach hurt (I twisted my belly from laughing).",
-      "has_audio": true,
+      "japanese": "⟦{腹|はら}→腹：02165_hara⟧⟦を→を：00422_wo⟧よじって⟦{笑|わら}った→笑う：00685_warau⟧。",
+      "english": "I doubled over with laughter.",
+      "has_audio": false,
       "sense_numbers": [
         1
       ]
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n- ⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧よじる - to twist one's body (often from pain, tickling, or trying to escape)\n- ⟦{腹|はら}→腹：02165_hara⟧/⟦お{腹|なか}→お腹：00805_onaka⟧⟦を→を：00422_wo⟧よじる - to twist one's belly (from laughing hard)\n- ⟦{腕|うで}→腕：01006_ude⟧⟦を→を：00422_wo⟧よじる - to twist someone's arm\n\nFORMS:\nGodan verb conjugating with る. Dictionary form: よじる\n\nRELATED WORDS:\n- ⟦{捻|ひね}る→捻る：00102_hineru⟧ - to twist, turn (more general)\n- ⟦{絞|しぼ}る→絞る：03926_shiboru⟧ - to wring, squeeze\n- よじ{登|のぼ}る - to climb (by twisting one's body)",
+  "notes": "COMMON EXPRESSIONS:\n- ⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧よじる: to writhe, squirm (from pain, tickling, or trying to get free)\n- ⟦{腹|はら}→腹：02165_hara⟧⟦を→を：00422_wo⟧よじって⟦{笑|わら}う→笑う：00685_warau⟧: to double over with laughter (⟦{腹|はら}→腹：02165_hara⟧⟦が→が：00051_ga⟧よじれる, to split one's sides)\n- ⟦{腕|うで}→腕：01006_ude⟧⟦を→を：00422_wo⟧よじる: to twist someone's arm\n\nSIMILAR WORDS:\n- ⟦{捩|ね}じる→捩じる：04474_nejiru⟧: to twist; the everyday word for objects (a lid, wire, a cap); よじる is mostly used of bodies\n- ⟦{捻|ひね}る→捻る：00102_hineru⟧: to twist, turn (a tap, one's head); more general\n- ⟦{絞|しぼ}る→絞る：03926_shiboru⟧: to wring, squeeze (a towel)\n\nWATCH OUT:\nよじ{登|のぼ}る (to clamber up) comes from a different verb, {攀|よ}じる (to cling), not from this one.",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,18 @@
       "reading": "しぼる",
       "headword": "{絞|しぼ}る",
       "label": "wring, squeeze"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04474_nejiru",
+      "reading": "ねじる",
+      "headword": "{捩|ね}じる",
+      "label": "to twist"
     }
   ],
   "metadata": {
     "created": "2026-01-22T23:40:24Z",
-    "modified": "2026-10-07T06:24:11Z",
+    "modified": "2026-11-03T04:52:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -161,9 +168,6 @@
       "semantic": [
         "movement",
         "action"
-      ],
-      "domain": [
-        "colloquial"
       ],
       "verb_class": "godan-ru",
       "transitivity": "transitive"
