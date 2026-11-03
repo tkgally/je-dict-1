@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for both automatic and manual lighting. Common in traffic contexts (⟦{信号|しんごう}→信号：03258_shingou⟧⟦の→の：09472_no⟧{点灯|てんとう} — traffic light activation), event contexts (tree-lighting ceremonies), and everyday appliance descriptions.\n\nBe careful not to confuse with homophones: ⟦{店頭|てんとう}→店頭：12488_tentou⟧ (storefront) and ⟦{転倒|てんとう}→転倒：14303_tentou⟧ (falling over).\n\nCOMMON COLLOCATIONS:\n- {点灯|てんとう}⟦する→する：00392_suru⟧ (to light up, to turn on)\n- {点灯|てんとう}{式|しき} (lighting ceremony)\n- ⟦ランプ→ランプ：11260_ranpu⟧⟦が→が：00051_ga⟧{点灯|てんとう}⟦する→する：00392_suru⟧ (a lamp turns on)\n- {警告灯|けいこくとう}⟦が→が：00051_ga⟧{点灯|てんとう}⟦する→する：00392_suru⟧ (a warning light comes on)\n\nSIMILAR WORDS:\n- ⟦{消灯|しょうとう}→消灯：18944_shoutou⟧: lights out — the opposite; turning off lights\n- {点|つ}ける: to turn on — casual, everyday equivalent",
+  "notes": "USAGE:\nUsed for both automatic and manual lighting. Common in traffic contexts (⟦{信号|しんごう}→信号：03258_shingou⟧⟦の→の：09472_no⟧{点灯|てんとう} — traffic light activation), event contexts (tree-lighting ceremonies), and everyday appliance descriptions.\n\nBe careful not to confuse with homophones: ⟦{店頭|てんとう}→店頭：12488_tentou⟧ (storefront) and ⟦{転倒|てんとう}→転倒：14303_tentou⟧ (falling over).\n\nCOMMON COLLOCATIONS:\n- {点灯|てんとう}⟦する→する：00392_suru⟧ (to light up, to turn on)\n- {点灯|てんとう}{式|しき} (lighting ceremony)\n- ⟦ランプ→ランプ：11260_ranpu⟧⟦が→が：00051_ga⟧{点灯|てんとう}⟦する→する：00392_suru⟧ (a lamp turns on)\n- ⟦{警告灯|けいこくとう}→警告灯：31209_keikokutou⟧⟦が→が：00051_ga⟧{点灯|てんとう}⟦する→する：00392_suru⟧ (a warning light comes on)\n\nSIMILAR WORDS:\n- ⟦{消灯|しょうとう}→消灯：18944_shoutou⟧: lights out — the opposite; turning off lights\n- ⟦{点|つ}ける→点く：32386_tsuku⟧: to turn on — casual, everyday equivalent",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,18 @@
       "reading": "てんめつ",
       "headword": "{点滅|てんめつ}",
       "label": "flashing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "32386_tsuku",
+      "reading": "つく",
+      "headword": "{点|つ}く",
+      "label": "to turn on"
     }
   ],
   "metadata": {
     "created": "2026-03-18T02:11:33Z",
-    "modified": "2026-09-19T16:17:22Z",
+    "modified": "2026-11-03T12:21:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -164,7 +171,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "electronics",
+        "daily-life"
       ],
       "verb_class": "suru",
       "transitivity": "both"

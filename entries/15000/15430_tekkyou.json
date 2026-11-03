@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{鉄橋|てっきょう} typically refers to a bridge carrying railway tracks, though it can mean any bridge made of iron or steel. It often evokes images of classic industrial-era infrastructure.\n\nCOMMON COLLOCATIONS:\n- {鉄橋|てっきょう}⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧ (to cross a railway bridge)\n- {鉄橋|てっきょう}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧ (to run across a bridge)\n- {鉄橋|てっきょう}⟦を→を：00422_wo⟧{架|か}ける (to build a bridge)\n\nRELATED WORDS:\n- ⟦{橋|はし}→橋：02163_hashi⟧: bridge (general)\n- {陸橋|りっきょう}: overpass, footbridge\n- {石橋|いしばし}: stone bridge\n- {吊|つ}り{橋|ばし}: suspension bridge",
+  "notes": "USAGE:\n{鉄橋|てっきょう} typically refers to a bridge carrying railway tracks, though it can mean any bridge made of iron or steel. It often evokes images of classic industrial-era infrastructure.\n\nCOMMON COLLOCATIONS:\n- {鉄橋|てっきょう}⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧ (to cross a railway bridge)\n- {鉄橋|てっきょう}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧ (to run across a bridge)\n- {鉄橋|てっきょう}⟦を→を：00422_wo⟧{架|か}ける (to build a bridge)\n\nRELATED WORDS:\n- ⟦{橋|はし}→橋：02163_hashi⟧: bridge (general)\n- {陸橋|りっきょう}: overpass, footbridge\n- ⟦{石橋|いしばし}→石橋：31233_ishibashi⟧: stone bridge\n- ⟦{吊|つ}り{橋|ばし}→吊り橋：31410_tsuribashi⟧: suspension bridge",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "はし",
       "headword": "{橋|はし}",
       "label": "bridge"
+    },
+    {
+      "type": "related",
+      "target_id": "31233_ishibashi",
+      "reading": "いしばし",
+      "headword": "{石橋|いしばし}",
+      "label": "stone bridge"
+    },
+    {
+      "type": "related",
+      "target_id": "31410_tsuribashi",
+      "reading": "つりばし",
+      "headword": "{吊|つ}り{橋|ばし}",
+      "label": "suspension bridge"
     }
   ],
   "metadata": {
     "created": "2026-03-06T13:48:57Z",
-    "modified": "2026-09-02T04:01:41Z",
+    "modified": "2026-11-03T12:21:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -66,7 +80,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "building",
+        "transportation"
       ],
       "domain": []
     }
