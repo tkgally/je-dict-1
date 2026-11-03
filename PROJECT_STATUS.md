@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-03 (6 new entries, sixth cycle)
+
+32678–32683. Closure: 台布巾, 記名投票. Brainstorm: 借り物 (from 借りる), はみ出る (from 出る). ezFurigana lookups: 開口一番, 影武者. Also fixed the reading of 遅れて in 32673 出遅れる ex2 (おく, not おそ).
+Self-check: 2 translation flags applied (台布巾 is a table-wiping cloth, not a tablecloth).
+
 ### 2026-11-03 (18 new entries, third cycle)
 
 32660–32677. Closure: マイナンバー, スピンオフ, 白夜, 巾着, 人相, 謀る. Brainstorm: シラミ, ノミ (animal-insect field), 脱ぎ捨てる, 手始め, 目に入る, 出遅れる (seeded from 脱ぐ, 始める, 目, 出る). ezFurigana lookups: 英単語, 覆いかぶさる, お子様, 雄叫び, 落ち度, 岩手. Candidate 嗜む dropped (spelling of existing たしなむ).
@@ -68,9 +73,4 @@ Self-check: 1 accuracy flag applied (魔方陣 note: 法 means "law, method", no
 ### 2026-11-02 (candidate restock, 70 added)
 
 Queue 550 → 620 (C25567–C25636). Closure (49, words named in notes of entries changed since 2026-10-31): e.g. 感謝祭, 直角三角形, 奥の手, 九分九厘, 絵空事, 第一人者, 統合失調症, 鉤括弧. Brainstorm (seeds 遅い…パン, 20 basic headwords; 21 added of 50 new proposals): e.g. 母の日, どこもかしこも, 歩きスマホ, 遊び半分, 家族葬, コッペパン.
-
-### 2026-11-02 (12 new entries, fifth cycle)
-
-32624–32635. Closure: 瀬戸物, 頭数, 証明写真, 個包装. Brainstorm (animal-insect field): モンシロチョウ, アブラゼミ, ミンミンゼミ, ボウフラ. ezFurigana lookups: 致し方ない (as 致し方), いやに, 入れ歯, 後ろ姿.
-Self-check: clean (0 accuracy flags); 1 kana link kept (子供のころ → 〜ころ, which lacks the "time when" sense; sent to the curator).
 
