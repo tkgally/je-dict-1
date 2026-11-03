@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-03 (20 new entries, second cycle of the 12:15 run)
+
+32723–32742. Closure: 申告書, 待ち受け画面, 参院, 衆院選, 最新型, 就業率, 他人任せ. Brainstorm: させる (causative auxiliary), 飛んで火に入る夏の虫, ハイエナ, ハリネズミ, ヒグマ, モグラ, サイ. ezFurigana lookups: 舵, 活動家, かなぐり捨てる, 〜かねない, 紙パック, 川面.
+Self-check: 4 flags applied (2 on new entries: ハリネズミ do live wild in parts of Japan; 猫の写真 translation; 2 pre-existing in neighbours: 海抜 is not a synonym of 海面, 型落ち means superseded).
+
 ### 2026-11-03 (6 new entries, eighth cycle of the 05:50 run)
 
 32717–32722. Closure: 国士無双 (peerless; the mahjong hand), 在外公館. Brainstorm (animal-mammal field): アルパカ, ツキノワグマ. ezFurigana lookups: 禍根, 頭文字.
@@ -69,9 +74,4 @@ Self-check: clean (0 accuracy flags, 13 kana links confirmed).
 
 32684–32689. Closure: 仏頂面, しかめっ面 (both from 02231, contrasted with each other). Brainstorm: もらい物 (from もらう), 勉強家 (from 勉強する). ezFurigana lookups: 男友達, お膝元. Candidates added: ガリ勉, 読書家, 女友達.
 Self-check: 1 notes flag applied (plain 膝元 can also mean a ruler's seat).
-
-### 2026-11-03 (6 new entries, sixth cycle)
-
-32678–32683. Closure: 台布巾, 記名投票. Brainstorm: 借り物 (from 借りる), はみ出る (from 出る). ezFurigana lookups: 開口一番, 影武者. Also fixed the reading of 遅れて in 32673 出遅れる ex2 (おく, not おそ).
-Self-check: 2 translation flags applied (台布巾 is a table-wiping cloth, not a tablecloth).
 
