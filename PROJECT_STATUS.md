@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-03 (12 new entries, fifth cycle of the 05:50 run)
+
+32705–32716. Closure: 効能書き, サブタイトル, 落札者, 天下無双. Brainstorm (animal-mammal field): カワウソ (cross-referenced to ラッコ), セイウチ, チーター, ナマケモノ (contrasted with 怠け者). ezFurigana lookups: 思える (seem; can believe), 過言, 関わり, 勝ち組.
+Self-check: 2 flags applied (サブタイトル can also mean film subtitles; 関わり is not a person tag).
+
 ### 2026-11-03 (15 new entries, third cycle of the 05:50 run)
 
 32690–32704. Closure: 後述, 先述 (both from 11911 前述), フェンシング, 写真展, 販売者. Brainstorm: 前借り (from 借りる), コアラ, ラッコ, シャチ, 虫取り網 (animal fields). ezFurigana lookups: おめでたい (happy; naive), 思いの丈, 買い戻す, 返り討ち, オランダ.
@@ -69,9 +74,4 @@ Self-check: 2 translation flags applied (台布巾 is a table-wiping cloth, not 
 
 32660–32677. Closure: マイナンバー, スピンオフ, 白夜, 巾着, 人相, 謀る. Brainstorm: シラミ, ノミ (animal-insect field), 脱ぎ捨てる, 手始め, 目に入る, 出遅れる (seeded from 脱ぐ, 始める, 目, 出る). ezFurigana lookups: 英単語, 覆いかぶさる, お子様, 雄叫び, 落ち度, 岩手. Candidate 嗜む dropped (spelling of existing たしなむ).
 Self-check: clean (0 accuracy flags, 15 kana links confirmed).
-
-### 2026-11-02 (6 new entries, fourteenth cycle)
-
-32654–32659. Closure: 潔癖症, 送り届ける. Brainstorm (animal-insect field): 虫の知らせ, 青虫. ezFurigana lookups: 憂う, 英検.
-Self-check: 1 tag flag applied (英検 is a test, not an organization); 1 kana link removed (という in 虫の知らせというのか is と + 言う).
 
