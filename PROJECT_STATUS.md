@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-03 (18 new entries, third cycle)
+
+32660–32677. Closure: マイナンバー, スピンオフ, 白夜, 巾着, 人相, 謀る. Brainstorm: シラミ, ノミ (animal-insect field), 脱ぎ捨てる, 手始め, 目に入る, 出遅れる (seeded from 脱ぐ, 始める, 目, 出る). ezFurigana lookups: 英単語, 覆いかぶさる, お子様, 雄叫び, 落ち度, 岩手. Candidate 嗜む dropped (spelling of existing たしなむ).
+Self-check: clean (0 accuracy flags, 15 kana links confirmed).
+
 ### 2026-11-02 (6 new entries, fourteenth cycle)
 
 32654–32659. Closure: 潔癖症, 送り届ける. Brainstorm (animal-insect field): 虫の知らせ, 青虫. ezFurigana lookups: 憂う, 英検.
@@ -68,9 +73,4 @@ Queue 550 → 620 (C25567–C25636). Closure (49, words named in notes of entrie
 
 32624–32635. Closure: 瀬戸物, 頭数, 証明写真, 個包装. Brainstorm (animal-insect field): モンシロチョウ, アブラゼミ, ミンミンゼミ, ボウフラ. ezFurigana lookups: 致し方ない (as 致し方), いやに, 入れ歯, 後ろ姿.
 Self-check: clean (0 accuracy flags); 1 kana link kept (子供のころ → 〜ころ, which lacks the "time when" sense; sent to the curator).
-
-### 2026-11-02 (18 new entries, second cycle)
-
-32606–32623. Closure: 二等辺三角形, 夢物語, 立役者, すり合わせる, 出がらし, おから. Brainstorm (animal-insect field): ダンゴムシ, アメンボ, 蜘蛛の巣, 虫かご, コバエ, ヤゴ. ezFurigana lookups: 異色, 痛手, 一体化, 凍てつく, いとも, 域.
-Self-check: clean (0 accuracy flags, 17 kana links confirmed).
 
