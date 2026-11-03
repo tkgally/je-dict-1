@@ -106,7 +106,7 @@
     {
       "id": "12123_baikyaku_ex1",
       "japanese": "⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{売却|ばいきゃく}⟦する→する：00392_suru⟧。",
-      "english": "To sell off a piece of land.",
+      "english": "To sell the land.",
       "notes": null,
       "has_audio": true,
       "sense_numbers": [
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{売却|ばいきゃく} is a formal term used for the sale of significant assets such as real estate, businesses, stocks, or other property. It is common in news, business, and legal contexts. For everyday selling (e.g., selling at a market), ⟦{売|う}る→売る：00906_uru⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- ⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{売却|ばいきゃく}⟦する→する：00392_suru⟧: to sell land\n- ⟦{株式|かぶしき}→株式：04772_kabushiki⟧⟦を→を：00422_wo⟧{売却|ばいきゃく}⟦する→する：00392_suru⟧: to sell stocks\n- ⟦{資産|しさん}→資産：15655_shisan⟧⟦の→の：09472_no⟧{売却|ばいきゃく}: sale of assets\n- {売却|ばいきゃく}⟦{益|えき}→益：02275_eki⟧: profit from a sale\n- {売却|ばいきゃく}⟦{価格|かかく}→価格：00147_kakaku⟧: selling price",
+  "notes": "USAGE:\n{売却|ばいきゃく} is a formal term used for the sale of significant assets such as real estate, businesses, stocks, or other property. It is common in news, business, and legal contexts. For everyday selling (e.g., selling at a market), ⟦{売|う}る→売る：00906_uru⟧ is used instead.\n\nSIMILAR WORDS:\n- ⟦{販売|はんばい}→販売：03573_hanbai⟧: selling goods to customers as an ongoing business (⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦する→する：00392_suru⟧). {売却|ばいきゃく} is a one-off sale of something one owns, such as land, shares or a business.\n\nCOMMON COLLOCATIONS:\n- ⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{売却|ばいきゃく}⟦する→する：00392_suru⟧: to sell land\n- ⟦{株式|かぶしき}→株式：04772_kabushiki⟧⟦を→を：00422_wo⟧{売却|ばいきゃく}⟦する→する：00392_suru⟧: to sell stocks\n- ⟦{資産|しさん}→資産：15655_shisan⟧⟦の→の：09472_no⟧{売却|ばいきゃく}: sale of assets\n- {売却|ばいきゃく}⟦{益|えき}→益：02275_eki⟧: profit from a sale\n- {売却|ばいきゃく}⟦{価格|かかく}→価格：00147_kakaku⟧: selling price",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,18 @@
       "reading": "こうにゅう",
       "headword": "{購入|こうにゅう}",
       "label": "purchase, acquisition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03573_hanbai",
+      "reading": "はんばい",
+      "headword": "{販売|はんばい}",
+      "label": "selling goods to customers…"
     }
   ],
   "metadata": {
     "created": "2026-02-20T08:52:58Z",
-    "modified": "2026-09-02T04:01:27Z",
+    "modified": "2026-11-03T01:15:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -157,7 +164,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "work"
+        "business",
+        "money"
       ],
       "domain": [
         "business",
