@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used with negative quantities — debts, deficits, losses, fatigue. Also used in neutral/technical contexts like {累積|るいせき}⟦データ→データ：03944_deeta⟧ (cumulative data) and {累積|るいせき}⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{数|すう}→数：03360_suu⟧ (cumulative sales figures). Common in finance, business, and statistics.\n\nSIMILAR WORDS:\n- ⟦{蓄積|ちくせき}→蓄積：14023_chikuseki⟧: accumulation, storage (more positive, for knowledge, experience)\n- {集積|しゅうせき}: aggregation, concentration (clustering together)\n\nCOMMON COLLOCATIONS:\n- {累積|るいせき}⟦{赤字|あかじ}→赤字：04712_akaji⟧: accumulated deficit\n- {累積|るいせき}⟦{債務|さいむ}→債務：06578_saimu⟧: accumulated debt\n- {累積|るいせき}⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{数|すう}→数：03360_suu⟧: cumulative sales figures\n- ⟦{疲労|ひろう}→疲労：13603_hirou⟧⟦が→が：00051_ga⟧{累積|るいせき}⟦する→する：00392_suru⟧: fatigue accumulates",
+  "notes": "USAGE:\nOften used with negative quantities — debts, deficits, losses, fatigue. Also used in neutral/technical contexts like {累積|るいせき}⟦データ→データ：03944_deeta⟧ (cumulative data) and {累積|るいせき}⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{数|すう}→数：03360_suu⟧ (cumulative sales figures). Common in finance, business, and statistics.\n\nSIMILAR WORDS:\n- ⟦{蓄積|ちくせき}→蓄積：14023_chikuseki⟧: accumulation, storage (more positive, for knowledge, experience)\n- ⟦{集積|しゅうせき}→集積：31999_shuuseki⟧: aggregation, concentration (clustering together)\n\nCOMMON COLLOCATIONS:\n- {累積|るいせき}⟦{赤字|あかじ}→赤字：04712_akaji⟧: accumulated deficit\n- {累積|るいせき}⟦{債務|さいむ}→債務：06578_saimu⟧: accumulated debt\n- {累積|るいせき}⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{数|すう}→数：03360_suu⟧: cumulative sales figures\n- ⟦{疲労|ひろう}→疲労：13603_hirou⟧⟦が→が：00051_ga⟧{累積|るいせき}⟦する→する：00392_suru⟧: fatigue accumulates",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "ちくせき",
       "headword": "{蓄積|ちくせき}",
       "label": "accumulation (positive nuance)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "31999_shuuseki",
+      "reading": "しゅうせき",
+      "headword": "{集積|しゅうせき}",
+      "label": "aggregation, concentration"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:50:03Z",
-    "modified": "2026-09-02T04:01:35Z",
+    "modified": "2026-11-03T05:52:11Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -157,7 +164,7 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "quantity"
       ],
       "domain": [
         "business"

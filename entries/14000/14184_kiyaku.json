@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- ⟦{利用|りよう}→利用：01752_riyou⟧{規約|きやく}: terms of use/service\n- ⟦{管理|かんり}→管理：00178_kanri⟧{規約|きやく}: management bylaws\n- {規約|きやく}⟦に→に：00314_ni⟧⟦{同意|どうい}する→同意する：06056_douisuru⟧: to agree to the terms\n- {規約|きやく}⟦に→に：00314_ni⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦する→する：00392_suru⟧: to violate the terms\n- {規約|きやく}⟦を→を：00422_wo⟧⟦{改定|かいてい}→改定：13036_kaitei⟧⟦する→する：00392_suru⟧: to revise the terms\n\nSIMILAR WORDS:\n- {約款|やっかん}: formal contract terms (insurance, banking — more technical)\n- ⟦{規則|きそく}→規則：01382_kisoku⟧: rules, regulations (broader scope, institutional)\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧: contract (a binding agreement between parties)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{利用|りよう}→利用：01752_riyou⟧{規約|きやく}: terms of use/service\n- ⟦{管理|かんり}→管理：00178_kanri⟧{規約|きやく}: management bylaws\n- {規約|きやく}⟦に→に：00314_ni⟧⟦{同意|どうい}する→同意する：06056_douisuru⟧: to agree to the terms\n- {規約|きやく}⟦に→に：00314_ni⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦する→する：00392_suru⟧: to violate the terms\n- {規約|きやく}⟦を→を：00422_wo⟧⟦{改定|かいてい}→改定：13036_kaitei⟧⟦する→する：00392_suru⟧: to revise the terms\n\nSIMILAR WORDS:\n- ⟦{約款|やっかん}→約款：32562_yakkan⟧: formal contract terms (insurance, banking — more technical)\n- ⟦{規則|きそく}→規則：01382_kisoku⟧: rules, regulations (broader scope, institutional)\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧: contract (a binding agreement between parties)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "けいやく",
       "headword": "{契約|けいやく}",
       "label": "contract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "32562_yakkan",
+      "reading": "やっかん",
+      "headword": "{約款|やっかん}",
+      "label": "formal contract terms (insurance…"
     }
   ],
   "metadata": {
     "created": "2026-02-28T02:15:09Z",
-    "modified": "2026-09-02T04:01:36Z",
+    "modified": "2026-11-03T05:52:11Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -76,7 +83,8 @@
         "legal"
       ],
       "semantic": [
-        "general"
+        "law",
+        "business"
       ]
     }
   }

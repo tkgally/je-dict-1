@@ -580,6 +580,8 @@ Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
+**Update 2026-11-03 (third systemic-fix):** 108 entries in 13260–14545 retagged by hand (legal terms → law, Buddhist and Shinto terms → religion, illness and fatigue → health, government terms → politics, publications → media); 92 abstract or figurative nouns left general; detector 1,399 → 1,291. Next: after 14573.
+
 **Update 2026-11-03 (second systemic-fix):** 61 entries in 12274–13178 retagged by hand (寿命 → health + time-period, 小遣い → money + family, 多神教/カルト/教義 → religion, 抗体 → health + science, 政権/官民 → politics, 文庫本/書評/時事 → media); abstract nouns such as 実質, 安泰, 尊厳, 所以, 拠り所, 正体, 欠如 left general; detector 1,470 → 1,409. Next: after 13209.
 
 **Update 2026-11-03 (systemic-fix):** 24 entries in 07798–12265 retagged by hand (residence status 在留 → law + society, 外伝 → media + entertainment, 大作 → art + creation, 夥しい → quantity); 39 abstract or figurative nouns left general; detector 1,502 → 1,476. Next: after 12265.
