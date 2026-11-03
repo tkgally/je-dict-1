@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{自衛|じえい} means self-defense or self-protection.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {自衛|じえい}⟦する→する：00392_suru⟧\n\nCommon compounds:\n- ⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧ (Self-Defense Forces - Japan's military)\n- {自衛|じえい}⟦{手段|しゅだん}→手段：03219_shudan⟧ (self-defense measures)\n- {自衛|じえい}{権|けん} (right of self-defense)\n- ⟦{正当|せいとう}→正当：13191_seitou⟧⟦{防衛|ぼうえい}→防衛：09783_bouei⟧ (legitimate self-defense - legal term)\n\nJapan's Self-Defense Forces:\n- ⟦{陸上|りくじょう}→陸上：09245_rikujou⟧⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧ (Ground Self-Defense Force)\n- ⟦{海上|かいじょう}→海上：09799_kaijou⟧⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧ (Maritime Self-Defense Force)\n- ⟦{航空|こうくう}→航空：02798_koukuu⟧⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧ (Air Self-Defense Force)\n\nRelated: ⟦{防衛|ぼうえい}→防衛：09783_bouei⟧ (defense - often used for national defense)",
+  "notes": "TRANSITIVITY:\n- Type: intransitive ({自衛|じえい}⟦する→する：00392_suru⟧, to defend oneself); no transitive pair\n\nCOMPOUNDS:\n- ⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧: the Self-Defense Forces, Japan's armed forces (⟦{陸上|りくじょう}→陸上：09245_rikujou⟧・⟦{海上|かいじょう}→海上：09799_kaijou⟧・⟦{航空|こうくう}→航空：02798_koukuu⟧⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧: Ground, Maritime, Air)\n- {自衛|じえい}⟦{手段|しゅだん}→手段：03219_shudan⟧: means of self-protection\n- {自衛権|じえいけん}: right of self-defense (of a state)\n\nSIMILAR WORDS:\n- ⟦{防衛|ぼうえい}→防衛：09783_bouei⟧: defense, usually of a country or a title (⟦{国|くに}→国：02204_kuni⟧⟦を→を：00422_wo⟧⟦{防衛|ぼうえい}→防衛：09783_bouei⟧⟦する→する：00392_suru⟧)\n- ⟦{正当防衛|せいとうぼうえい}→正当防衛：18184_seitoubouei⟧: self-defense as a legal justification in criminal law; {自衛|じえい} is the general act of protecting oneself\n- ⟦{護身|ごしん}→護身：19714_goshin⟧: personal protection against attack (⟦{護身術|ごしんじゅつ}→護身術：18323_goshinjutsu⟧, self-defense techniques)",
   "cross_references": [
     {
       "type": "contrast",
@@ -55,11 +55,25 @@
       "reading": "じこぼうえい",
       "headword": "{自己防衛|じこぼうえい}",
       "label": "self-defense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09783_bouei",
+      "reading": "ぼうえい",
+      "headword": "{防衛|ぼうえい}",
+      "label": "defense, usually of a country or a title"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18184_seitoubouei",
+      "reading": "せいとうぼうえい",
+      "headword": "{正当防衛|せいとうぼうえい}",
+      "label": "self-defense as a legal justification…"
     }
   ],
   "metadata": {
     "created": "2026-01-13T11:15:03Z",
-    "modified": "2026-09-29T06:00:57Z",
+    "modified": "2026-11-03T04:52:40Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,7 +88,9 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "military",
+        "law"
       ],
       "verb_class": "suru"
     }
