@@ -9,7 +9,7 @@
     {
       "sense_number": 1,
       "gloss": "anniversary of a death, memorial anniversary",
-      "explanation": "A counter-like suffix used with numbers to mark the anniversary of a person's death. Used in Buddhist memorial services. The counting system is offset by one: 一回忌 is the first anniversary (one year after death), but 三回忌 is the second anniversary (two years after death)."
+      "explanation": "A counter-like suffix used with numbers to mark the anniversary of a person's death, for Buddhist memorial services. The first anniversary is called {一周忌|いっしゅうき}; from then on the count includes the year of death, so {三回忌|さんかいき} falls two years after death."
     }
   ],
   "examples": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "COUNTING PATTERNS:\nThe counting of {回忌|かいき} follows a traditional system that is offset by one year from the actual elapsed time:\n- ⟦{一周忌|いっしゅうき}→一周忌：06018_isshuuki⟧ / ⟦{一回忌|いっかいき}→一回忌：30889_ikkaiki⟧: 1 year after death\n- ⟦{三回忌|さんかいき}→三回忌：06019_sankaiki⟧: 2 years after death\n- ⟦{七回忌|ななかいき}→七回忌：28963_nanakaiki⟧: 6 years after death\n- ⟦{十三回忌|じゅうさんかいき}→十三回忌：28964_juusankaiki⟧: 12 years after death\n\nThis offset occurs because the year of death itself counts as the first year in the traditional Buddhist counting system.\n\nCOMMON COLLOCATIONS:\n- ⟦{三回忌|さんかいき}→三回忌：06019_sankaiki⟧⟦の→の：09472_no⟧⟦{法要|ほうよう}→法要：05924_houyou⟧: memorial service on the second anniversary of a death\n- {回忌|かいき}⟦{法要|ほうよう}→法要：05924_houyou⟧: memorial service\n- {回忌|かいき}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to reach a death anniversary\n\nCULTURAL NOTE:\nMemorial services (⟦{法要|ほうよう}→法要：05924_houyou⟧) are held at specific intervals after death in Japanese Buddhist tradition. The major anniversaries are the 1st, 3rd, 7th, 13th, 17th, 23rd, 27th, 33rd, and 50th.",
+  "notes": "COUNTING PATTERNS:\nThe counting of {回忌|かいき} follows a traditional system that is offset by one year from the actual elapsed time:\n- ⟦{一周忌|いっしゅうき}→一周忌：06018_isshuuki⟧: 1 year after death (the year of death itself counts as ⟦{一回忌|いっかいき}→一回忌：30889_ikkaiki⟧, so there is no {二回忌|にかいき})\n- ⟦{三回忌|さんかいき}→三回忌：06019_sankaiki⟧: 2 years after death\n- ⟦{七回忌|ななかいき}→七回忌：28963_nanakaiki⟧: 6 years after death\n- ⟦{十三回忌|じゅうさんかいき}→十三回忌：28964_juusankaiki⟧: 12 years after death\n\nThis offset occurs because the year of death itself counts as the first year. ⟦{七回忌|ななかいき}→七回忌：28963_nanakaiki⟧ is also read しちかいき.\n\nCOMMON COLLOCATIONS:\n- ⟦{三回忌|さんかいき}→三回忌：06019_sankaiki⟧⟦の→の：09472_no⟧⟦{法要|ほうよう}→法要：05924_houyou⟧: memorial service on the second anniversary of a death\n- {回忌|かいき}⟦{法要|ほうよう}→法要：05924_houyou⟧: memorial service\n- {回忌|かいき}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to reach a death anniversary\n\nCULTURAL NOTE:\nMemorial services (⟦{法要|ほうよう}→法要：05924_houyou⟧) are held at specific intervals after death in Japanese Buddhist tradition. The major observances are the ⟦{一周忌|いっしゅうき}→一周忌：06018_isshuuki⟧ (first anniversary) and the 3rd, 7th, 13th, 17th, 23rd, 27th, 33rd and 50th 回忌, which fall 2, 6, 12, 16, 22, 26, 32 and 49 years after the death.",
   "cross_references": [
     {
       "type": "related",
@@ -56,7 +56,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T08:54:27Z",
-    "modified": "2026-10-05T07:43:18Z",
+    "modified": "2026-11-03T02:08:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,7 +67,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "time-general"
+        "time-general",
+        "religion"
       ]
     }
   }
