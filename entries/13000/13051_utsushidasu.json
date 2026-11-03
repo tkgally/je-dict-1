@@ -121,7 +121,7 @@
     {
       "id": "13051_utsushidasu_ex2",
       "japanese": "⟦カメラ→カメラ：04417_kamera⟧⟦が→が：00051_ga⟧⟦{夜|よる}→夜：00487_yoru⟧⟦の→の：09472_no⟧⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧{映|うつ}し{出|だ}した。",
-      "english": "The camera projected the nighttime cityscape.",
+      "english": "The camera showed the city at night.",
       "notes": null,
       "has_audio": true,
       "sense_numbers": [
@@ -130,7 +130,7 @@
     },
     {
       "id": "13051_utsushidasu_ex3",
-      "japanese": "プロジェクター⟦が→が：00051_ga⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{地図|ちず}→地図：02914_chizu⟧⟦を→を：00422_wo⟧{映|うつ}し{出|だ}し、⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦できた→できる：00557_dekiru⟧。",
+      "japanese": "⟦プロジェクター→プロジェクター：30966_purojekutaa⟧⟦が→が：00051_ga⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{地図|ちず}→地図：02914_chizu⟧⟦を→を：00422_wo⟧{映|うつ}し{出|だ}し、⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "The projector displayed a large map on the wall so all participants could see it.",
       "notes": null,
       "has_audio": true,
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "Godan verb ({五段動詞|ごだんどうし}), す-ending.\n- Negative: {映|うつ}し{出|だ}さない\n- Polite: {映|うつ}し{出|だ}します\n- Te-form: {映|うつ}し{出|だ}して\n- Past: {映|うつ}し{出|だ}した\n\nCOMMON COLLOCATIONS:\n- ⟦{映像|えいぞう}→映像：04444_eizou⟧⟦を→を：00422_wo⟧{映|うつ}し{出|だ}す: to project footage\n- ⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦を→を：00422_wo⟧{映|うつ}し{出|だ}す: to reflect/portray reality\n- ⟦スクリーン→スクリーン：01368_sukuriin⟧⟦に→に：00314_ni⟧{映|うつ}し{出|だ}す: to project onto a screen\n\nUSAGE:\nThe compound structure ⟦{映|うつ}す→映す：12963_utsusu⟧ + ⟦{出|だ}す→出す：01087_dasu⟧ combines \"to project/reflect\" with \"to bring out,\" emphasizing that something is made visible or brought to light.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{映像|えいぞう}→映像：04444_eizou⟧⟦を→を：00422_wo⟧{映|うつ}し{出|だ}す: to project footage\n- ⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦を→を：00422_wo⟧{映|うつ}し{出|だ}す: to reflect/portray reality\n- ⟦スクリーン→スクリーン：01368_sukuriin⟧⟦に→に：00314_ni⟧{映|うつ}し{出|だ}す: to project onto a screen\n\nSIMILAR WORDS:\n- ⟦{映|うつ}す→映す：12963_utsusu⟧: to reflect, to project, to show — 〜⟦{出|だ}す→出す：01087_dasu⟧ adds that the image is brought clearly into view",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12963_utsusu",
+      "reading": "うつす",
+      "headword": "{映|うつ}す",
+      "label": "to reflect, to project, to show"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:03:07Z",
-    "modified": "2026-09-02T04:01:31Z",
+    "modified": "2026-11-03T13:06:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -184,8 +192,8 @@
       "politeness": "plain",
       "transitivity": "transitive",
       "semantic": [
-        "cognition",
-        "communication"
+        "communication",
+        "media"
       ],
       "verb_class": "godan-su"
     }
