@@ -35,7 +35,7 @@
     },
     {
       "id": "16307_kentoushi_ex3",
-      "japanese": "894⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧{菅原道真|すがわらのみちざね}⟦の→の：09472_no⟧⟦{進言|しんげん}→進言：14512_shingen⟧⟦で→で：00502_de⟧{遣唐使|けんとうし}⟦は→は：00079_ha⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦された→する：00392_suru⟧。",
+      "japanese": "894⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦{菅原道真|すがわらのみちざね}→菅原道真：31901_sugawaranomichizane⟧⟦の→の：09472_no⟧⟦{進言|しんげん}→進言：14512_shingen⟧⟦で→で：00502_de⟧{遣唐使|けんとうし}⟦は→は：00079_ha⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦された→する：00392_suru⟧。",
       "english": "In 894, the Tang envoy missions were abolished on the recommendation of Sugawara no Michizane.",
       "notes": null,
       "has_audio": true,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nThe {遣唐使|けんとうし} missions (630-894 CE) were Japan's primary means of importing Chinese civilization during the Nara and early Heian periods. Envoys brought back the {律令|りつりょう} legal system, Buddhist scriptures, art, architecture, and writing systems. The missions were dangerous — many ships were lost at sea.\n\nRELATED WORDS:\n- {遣隋使|けんずいし} — the earlier missions to Sui dynasty China\n- {菅原道真|すがわらのみちざね} — the scholar who proposed ending the missions\n\nCOMMON COLLOCATIONS:\n- {遣唐使|けんとうし}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧ (to dispatch envoys to Tang)\n- {遣唐使|けんとうし}⟦の→の：09472_no⟧⟦{廃止|はいし}→廃止：12483_haishi⟧ (abolition of the Tang envoy missions)\n- {遣唐使|けんとうし}⟦{船|せん}→船：09875_sen⟧ (envoy ship to Tang)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nThe {遣唐使|けんとうし} missions (630-894 CE) were Japan's primary means of importing Chinese civilization during the Nara and early Heian periods. Envoys brought back the {律令|りつりょう} legal system, Buddhist scriptures, art, architecture, and writing systems. The missions were dangerous — many ships were lost at sea.\n\nRELATED WORDS:\n- {遣隋使|けんずいし} — the earlier missions to Sui dynasty China\n- ⟦{菅原道真|すがわらのみちざね}→菅原道真：31901_sugawaranomichizane⟧ — the scholar who proposed ending the missions\n\nCOMMON COLLOCATIONS:\n- {遣唐使|けんとうし}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧ (to dispatch envoys to Tang)\n- {遣唐使|けんとうし}⟦の→の：09472_no⟧⟦{廃止|はいし}→廃止：12483_haishi⟧ (abolition of the Tang envoy missions)\n- {遣唐使|けんとうし}⟦{船|せん}→船：09875_sen⟧ (envoy ship to Tang)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "31901_sugawaranomichizane",
+      "reading": "すがわらのみちざね",
+      "headword": "{菅原道真|すがわらのみちざね}",
+      "label": "the scholar who proposed ending…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T14:09:23Z",
-    "modified": "2026-09-02T04:01:44Z",
+    "modified": "2026-11-03T12:21:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -58,7 +66,9 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "history",
+        "politics",
+        "person"
       ],
       "domain": [
         "academic"
