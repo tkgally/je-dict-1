@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nTraditionally used for newspapers and magazines, now also applied to digital subscriptions for news sites and online content.\n\nCOMMON COLLOCATIONS:\n- {購読|こうどく}{料|りょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay a subscription fee)\n- ⟦{月額|げつがく}→月額：09739_getsugaku⟧{購読|こうどく}{料|りょう} (monthly subscription fee)\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧{購読|こうどく}{料|りょう} (annual subscription fee)\n- {購読|こうどく}{料|りょう}⟦の→の：09472_no⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧ (subscription price increase)\n\nSIMILAR WORDS:\n- ⟦{購読|こうどく}→購読：04468_koudoku⟧: subscription — the act of subscribing, without specifying the fee\n- {受信料|じゅしんりょう}: reception fee — specifically NHK's broadcasting fee",
-  "cross_references": [],
+  "notes": "USAGE:\nTraditionally used for newspapers and magazines, now also applied to digital subscriptions for news sites and online content.\n\nCOMMON COLLOCATIONS:\n- {購読|こうどく}{料|りょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay a subscription fee)\n- ⟦{月額|げつがく}→月額：09739_getsugaku⟧{購読|こうどく}{料|りょう} (monthly subscription fee)\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧{購読|こうどく}{料|りょう} (annual subscription fee)\n- {購読|こうどく}{料|りょう}⟦の→の：09472_no⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧ (subscription price increase)\n\nSIMILAR WORDS:\n- ⟦{購読|こうどく}→購読：04468_koudoku⟧: subscription — the act of subscribing, without specifying the fee\n- ⟦{受信料|じゅしんりょう}→受信料：32102_jushinryou⟧: reception fee — specifically NHK's broadcasting fee",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "32102_jushinryou",
+      "reading": "じゅしんりょう",
+      "headword": "{受信料|じゅしんりょう}",
+      "label": "reception fee"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:19:13Z",
-    "modified": "2026-09-02T04:01:53Z",
+    "modified": "2026-11-03T14:14:20Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -58,7 +66,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "money",
+        "media"
       ]
     }
   }
