@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-03 (15 new entries, third cycle of the 05:50 run)
+
+32690–32704. Closure: 後述, 先述 (both from 11911 前述), フェンシング, 写真展, 販売者. Brainstorm: 前借り (from 借りる), コアラ, ラッコ, シャチ, 虫取り網 (animal fields). ezFurigana lookups: おめでたい (happy; naive), 思いの丈, 買い戻す, 返り討ち, オランダ.
+Self-check: clean (0 accuracy flags, 13 kana links confirmed).
+
 ### 2026-11-03 (6 new entries, fifth cycle of the 02:49 run)
 
 32684–32689. Closure: 仏頂面, しかめっ面 (both from 02231, contrasted with each other). Brainstorm: もらい物 (from もらう), 勉強家 (from 勉強する). ezFurigana lookups: 男友達, お膝元. Candidates added: ガリ勉, 読書家, 女友達.
@@ -69,9 +74,4 @@ Self-check: clean (0 accuracy flags, 15 kana links confirmed).
 
 32654–32659. Closure: 潔癖症, 送り届ける. Brainstorm (animal-insect field): 虫の知らせ, 青虫. ezFurigana lookups: 憂う, 英検.
 Self-check: 1 tag flag applied (英検 is a test, not an organization); 1 kana link removed (という in 虫の知らせというのか is と + 言う).
-
-### 2026-11-02 (18 new entries, ninth cycle)
-
-32636–32653. Closure: 単独親権, 国民皆年金, 魔方陣, 急ごしらえ, 前方後円墳, 選び抜く. Brainstorm (animal-insect field): カミキリムシ, ウジ, ミノムシ, 虫取り, 虫食い (two senses), 蝉時雨. ezFurigana lookups: 色味, 迂闊, 内回り, 移ろう, 畝, ウラン.
-Self-check: 1 accuracy flag applied (魔方陣 note: 法 means "law, method", not "magic"); 6 kana links confirmed.
 
