@@ -580,6 +580,8 @@ Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
+**Update 2026-11-03 (systemic-fix):** 24 entries in 07798–12265 retagged by hand (residence status 在留 → law + society, 外伝 → media + entertainment, 大作 → art + creation, 夥しい → quantity); 39 abstract or figurative nouns left general; detector 1,502 → 1,476. Next: after 12265.
+
 **Update 2026-11-02 (systemic-fix):** 69 entries in 06149–06595 retagged by hand (eclipses and meteors → science + nature, playground words → leisure, energy sources → science + technology, internet slang 陰キャ/陽キャ/コミュ障 → personality + person; お手数 left general); detector 1,637 → 1,568.
 
 **Update 2026-11-02 (second systemic-fix):** 65 entries in 06597–07794 retagged by hand (computer storage → electronics + technology, sewing and garment parts → clothing, symptoms → health, careful-examination nouns → cognition + action); 15 abstract nouns left general; detector 1,568 → 1,502.
