@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-04 (20 new entries, fourth cycle of the 00:15 run)
+
+32781–32800. Closure: ヒキガエル, 文化系 and 体育会系 (paired as antonyms), ガチャ, 湯取り法, 苦言, 思考回路, 感謝祭. Brainstorm (animal-mammal field): ロバ, アルマジロ, バイソン, シロクマ, カピバラ, シマリス. ezFurigana lookups: 甲 (party A; shell; back of the hand), 主 (main; the Lord), イエス, 関連付け, 貴公子, 肝いり.
+Self-check: clean (0 flags on the 20 new entries and 10 neighbours that gained cross-references).
+
 ### 2026-11-04 (20 new entries, first cycle of the 00:15 run)
 
 32761–32780. Closure: 南極線 (paired with 北極線), 環境庁, 昭和基地, 熟年離婚, 協議離婚, 離婚届, 噛み合わせる, 戦時下. Brainstorm (animal-mammal field): 肉牛, カモシカ, ジャガー, ジュゴン, ビーバー, レッサーパンダ. ezFurigana lookups: られる (passive, potential, honorific), 入り (〜入り; 客の入り), 般若心経 (shown as 心経 too), 極まりない, 急ピッチ, 規格外.
@@ -69,9 +74,4 @@ Self-check: 4 flags applied (2 on new entries: ハリネズミ do live wild in p
 
 32717–32722. Closure: 国士無双 (peerless; the mahjong hand), 在外公館. Brainstorm (animal-mammal field): アルパカ, ツキノワグマ. ezFurigana lookups: 禍根, 頭文字.
 Self-check: clean (0 accuracy flags, kana links confirmed).
-
-### 2026-11-03 (12 new entries, fifth cycle of the 05:50 run)
-
-32705–32716. Closure: 効能書き, サブタイトル, 落札者, 天下無双. Brainstorm (animal-mammal field): カワウソ (cross-referenced to ラッコ), セイウチ, チーター, ナマケモノ (contrasted with 怠け者). ezFurigana lookups: 思える (seem; can believe), 過言, 関わり, 勝ち組.
-Self-check: 2 flags applied (サブタイトル can also mean film subtitles; 関わり is not a person tag).
 
