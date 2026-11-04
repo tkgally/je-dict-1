@@ -50,3 +50,5 @@
 2026-11-02T13:11Z audio-drift — audio_maintenance.py drift still warns: "first-pass rate 80.3% is well below the baseline 92%" (last 6 runs, 2,290 examples; 79.1% on 2026-10-31). Needs-human rate 1.2%, cost per accepted clip $0.0032. Recording continues.
 2026-11-03T13:20Z audio-drift — audio_maintenance.py drift still warns: "first-pass rate 80.6% is well below the baseline 92%" (last 6 runs, 2,247 examples; 80.3% on 2026-11-02). Needs-human rate 0.8%, cost per accepted clip $0.0030. Recording continues.
 2026-11-04T01:07:42Z accuracy 28112 満潮: the headword 満潮 is read みちしお; the usual reading of 満潮 is まんちょう, and みちしお is normally written 満ち潮. Should the reading (and ID) change, or the headword become 満ち潮? (06530 is already 満潮 まんちょう, so 28112 may be a duplicate.)
+2026-11-04T12:30Z reading 24964 中肉中背: the entry reads ちゅうにくちゅうせい, but the usual reading is ちゅうにくちゅうぜい (its own notes say 中背 is ちゅうぜい). Correcting it changes the ID (retire_entry.py rename to chuunikuchuuzei).
+2026-11-04T12:30Z reading 24257 撫で肩: the entry reads なでかた; the usual reading is なでがた (with rendaku), なでかた being the less common one. Rename to nadegata, or keep and add a PRONUNCIATION note?
