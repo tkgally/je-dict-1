@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Composed of {内燃|ないねん} (internal combustion) and ⟦{機関|きかん}→機関：02630_kikan⟧ (engine, mechanism). This technical term is frequently encountered in news about the automotive industry, particularly discussions of the transition from gasoline-powered vehicles to electric vehicles. Japan's automotive industry makes this a particularly relevant topic in Japanese media.\n\nCOMMON COLLOCATIONS:\n- {内燃機関|ないねんきかん}{車|しゃ}: internal combustion engine vehicle\n- {内燃機関|ないねんきかん}⟦の→の：09472_no⟧⟦{廃止|はいし}→廃止：12483_haishi⟧: phasing out of combustion engines\n- {内燃機関|ないねんきかん}⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: combustion engine development\n- ⟦ガソリン→ガソリン：01346_gasorin⟧{内燃機関|ないねんきかん}: gasoline internal combustion engine\n\nSIMILAR WORDS:\n- ⟦エンジン→エンジン：03835_enjin⟧: engine — the everyday loanword, used in casual conversation\n- {外燃機関|がいねんきかん}: external combustion engine — burns fuel outside the engine (e.g., steam engine)\n- ⟦{電動|でんどう}→電動：06412_dendou⟧⟦モーター→モーター：23127_mootaa⟧: electric motor — the alternative powertrain replacing combustion engines",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03835_enjin",
+      "reading": "えんじん",
+      "headword": "エンジン",
+      "label": "engine"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -56,13 +64,14 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "technology",
+        "transportation"
       ],
       "domain": [
         "technical"
       ]
     },
     "created": "2026-05-02T15:30:19Z",
-    "modified": "2026-09-02T04:02:26Z"
+    "modified": "2026-11-04T14:15:58Z"
   }
 }
