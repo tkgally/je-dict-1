@@ -580,6 +580,8 @@ Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
+**Update 2026-11-04 (systemic-fix):** 77 entries in 18901–21140 retagged by hand (legal and political terms → law / politics, medicines and poisons → health, 天罰/不敬 → religion, adverbs → descriptive, かつ → grammatical); 第一に, 第二に, 順に left general. Detector now 926; continue after 21140.
+
 **Update 2026-11-03 (sixth systemic-fix):** 67 entries in 18044–18898 retagged by hand (legal terms → law, clinical terms → health, offerings and the dead → religion, taxes and insurance → finance, auctions and bargains → shopping); line words (点線, 波線, 横線) and abstract nouns left general; detector 1,073 → 1,004. Next: after 18898.
 
 **Update 2026-11-03 (fifth systemic-fix):** 159 entries in 15417–18043 retagged by hand (medicines and illnesses → health, legal rights and crimes → law, budgets and cabinets → politics, insurance and accounts → finance + money, physics terms → science, newspaper editions → media, funeral and shrine words → religion); abstract nouns and adverbs left general; detector 1,232 → 1,073. Next: after 18043.
