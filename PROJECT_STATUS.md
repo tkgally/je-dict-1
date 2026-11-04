@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-04 (candidate restock, first cycle of the 12:15 run)
+
+70 candidates queued (C25668–C25737), queue 479 → 549. Closure (13, from a tokenizer scan of example sentences for words with no entry): 天皇陛下, 両論併記, 腸内細菌, 素因, 立憲主義, 〜周忌, カツオのたたき, 子々孫々, 待ち焦がれる, 脱原発, 来季, 修行僧, 革命家. Brainstorm (appearance field, 57): えくぼ, 丸顔, 面長, 童顔, 垂れ目, 切れ長, くせ毛, 枝毛, 坊主頭, 二重あご, 無精ひげ, アイシャドウ, つけまつげ, イメチェン, 様になる, 見違える and others.
+
 ### 2026-11-04 (6 new entries, seventh cycle of the 00:15 run)
 
 32801–32806. Closure: 直角三角形, 東側 (also the Cold War East), 火口湖. Brainstorm: シロナガスクジラ. ezFurigana lookups: 教皇 (with the 2019 switch from 法王), 教祖.
@@ -69,9 +73,4 @@ Self-check: clean (0 flags from the reviewer; 1 kana link kept, ころ in 子ど
 
 32743–32760. Closure: 疑義照会, 青票 (contrasted with 白票), 告知義務, 環境大臣, 国民宿舎, 就業者. Brainstorm: せる (causative after godan verbs, paired with させる), フェレット, ムササビ, モモンガ, ヒョウ, ヤマネコ. ezFurigana lookups: 寒色, 勘当, 雁 (new kanji 2838), 眼下, 忌引き, 急ブレーキ.
 Self-check: 1 flag applied (待たせる can be permissive in context; WATCH OUT softened).
-
-### 2026-11-03 (20 new entries, second cycle of the 12:15 run)
-
-32723–32742. Closure: 申告書, 待ち受け画面, 参院, 衆院選, 最新型, 就業率, 他人任せ. Brainstorm: させる (causative auxiliary), 飛んで火に入る夏の虫, ハイエナ, ハリネズミ, ヒグマ, モグラ, サイ. ezFurigana lookups: 舵, 活動家, かなぐり捨てる, 〜かねない, 紙パック, 川面.
-Self-check: 4 flags applied (2 on new entries: ハリネズミ do live wild in parts of Japan; 猫の写真 translation; 2 pre-existing in neighbours: 海抜 is not a synonym of 海面, 型落ち means superseded).
 
