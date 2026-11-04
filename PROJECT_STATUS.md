@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-04 (18 new entries, fourth cycle of the 12:15 run)
+
+32807–32824. Closure: お供, 造船所, 脳出血, 費用対効果, 奥の手, 逃げ場. Brainstorm (animal-mammal field): ホッキョクグマ (linked to シロクマ), 介助犬, 牧羊犬, 闘牛 (Spanish and Japanese bull contests), アリクイ, マングース. ezFurigana lookups: 〜業, 〜切れ, 苦 (苦にする, 苦もなく), 禁忌, 供与, 近海.
+Self-check: clean (0 flags on 18 entries, 9 kana links confirmed).
+
 ### 2026-11-04 (candidate restock, first cycle of the 12:15 run)
 
 70 candidates queued (C25668–C25737), queue 479 → 549. Closure (13, from a tokenizer scan of example sentences for words with no entry): 天皇陛下, 両論併記, 腸内細菌, 素因, 立憲主義, 〜周忌, カツオのたたき, 子々孫々, 待ち焦がれる, 脱原発, 来季, 修行僧, 革命家. Brainstorm (appearance field, 57): えくぼ, 丸顔, 面長, 童顔, 垂れ目, 切れ長, くせ毛, 枝毛, 坊主頭, 二重あご, 無精ひげ, アイシャドウ, つけまつげ, イメチェン, 様になる, 見違える and others.
@@ -68,9 +73,4 @@ Self-check: clean (0 flags on the 20 new entries and 10 neighbours that gained c
 
 32761–32780. Closure: 南極線 (paired with 北極線), 環境庁, 昭和基地, 熟年離婚, 協議離婚, 離婚届, 噛み合わせる, 戦時下. Brainstorm (animal-mammal field): 肉牛, カモシカ, ジャガー, ジュゴン, ビーバー, レッサーパンダ. ezFurigana lookups: られる (passive, potential, honorific), 入り (〜入り; 客の入り), 般若心経 (shown as 心経 too), 極まりない, 急ピッチ, 規格外.
 Self-check: clean (0 flags from the reviewer; 1 kana link kept, ころ in 子どものころ).
-
-### 2026-11-03 (18 new entries, fifth cycle of the 12:15 run)
-
-32743–32760. Closure: 疑義照会, 青票 (contrasted with 白票), 告知義務, 環境大臣, 国民宿舎, 就業者. Brainstorm: せる (causative after godan verbs, paired with させる), フェレット, ムササビ, モモンガ, ヒョウ, ヤマネコ. ezFurigana lookups: 寒色, 勘当, 雁 (new kanji 2838), 眼下, 忌引き, 急ブレーキ.
-Self-check: 1 flag applied (待たせる can be permissive in context; WATCH OUT softened).
 
