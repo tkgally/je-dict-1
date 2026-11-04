@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -14679,6 +14679,20 @@
     "reviewed": 1692,
     "wrong": 109,
     "date": "2026-09-08"
+   }
+  },
+  "としても": {
+   "target": "32404_toshitemo",
+   "tier": "verify",
+   "competitors": [
+    "〜(よ)うとしても (volitional + とする: even if one tries to ~)"
+   ],
+   "screen": {
+    "verdict": "ambiguous",
+    "risk": "rare",
+    "note": "Almost always the expression 'as ~ too / even if', but after a volitional verb (行こうとしても) it is the て-form of 〜うとする, meaning 'even if one tries to'.",
+    "model": "claude:opus",
+    "date": "2026-11-04"
    }
   },
   "とっておき": {

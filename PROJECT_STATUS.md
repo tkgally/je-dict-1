@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-04 (20 new entries, first cycle of the 00:15 run)
+
+32761–32780. Closure: 南極線 (paired with 北極線), 環境庁, 昭和基地, 熟年離婚, 協議離婚, 離婚届, 噛み合わせる, 戦時下. Brainstorm (animal-mammal field): 肉牛, カモシカ, ジャガー, ジュゴン, ビーバー, レッサーパンダ. ezFurigana lookups: られる (passive, potential, honorific), 入り (〜入り; 客の入り), 般若心経 (shown as 心経 too), 極まりない, 急ピッチ, 規格外.
+Self-check: clean (0 flags from the reviewer; 1 kana link kept, ころ in 子どものころ).
+
 ### 2026-11-03 (18 new entries, fifth cycle of the 12:15 run)
 
 32743–32760. Closure: 疑義照会, 青票 (contrasted with 白票), 告知義務, 環境大臣, 国民宿舎, 就業者. Brainstorm: せる (causative after godan verbs, paired with させる), フェレット, ムササビ, モモンガ, ヒョウ, ヤマネコ. ezFurigana lookups: 寒色, 勘当, 雁 (new kanji 2838), 眼下, 忌引き, 急ブレーキ.
@@ -70,7 +75,3 @@ Self-check: clean (0 accuracy flags, kana links confirmed).
 32705–32716. Closure: 効能書き, サブタイトル, 落札者, 天下無双. Brainstorm (animal-mammal field): カワウソ (cross-referenced to ラッコ), セイウチ, チーター, ナマケモノ (contrasted with 怠け者). ezFurigana lookups: 思える (seem; can believe), 過言, 関わり, 勝ち組.
 Self-check: 2 flags applied (サブタイトル can also mean film subtitles; 関わり is not a person tag).
 
-### 2026-11-03 (15 new entries, third cycle of the 05:50 run)
-
-32690–32704. Closure: 後述, 先述 (both from 11911 前述), フェンシング, 写真展, 販売者. Brainstorm: 前借り (from 借りる), コアラ, ラッコ, シャチ, 虫取り網 (animal fields). ezFurigana lookups: おめでたい (happy; naive), 思いの丈, 買い戻す, 返り討ち, オランダ.
-Self-check: clean (0 accuracy flags, 13 kana links confirmed).
