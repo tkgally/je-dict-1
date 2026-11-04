@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-04 (9 new entries, sixth cycle of the 12:15 run)
+
+32825–32833. Closure: 幹細胞, 遺伝子組み換え, 回顧録. Brainstorm (animal-mammal field): ヤマアラシ (contrasted with ハリネズミ), ポニー, スカンク. ezFurigana lookups: 食い物 (also 〜を食い物にする), くびれ, 串刺し.
+Self-check: clean (0 flags on 9 entries, 3 kana links confirmed).
+
 ### 2026-11-04 (18 new entries, fourth cycle of the 12:15 run)
 
 32807–32824. Closure: お供, 造船所, 脳出血, 費用対効果, 奥の手, 逃げ場. Brainstorm (animal-mammal field): ホッキョクグマ (linked to シロクマ), 介助犬, 牧羊犬, 闘牛 (Spanish and Japanese bull contests), アリクイ, マングース. ezFurigana lookups: 〜業, 〜切れ, 苦 (苦にする, 苦もなく), 禁忌, 供与, 近海.
@@ -68,9 +73,4 @@ Self-check: clean (0 flags on 12 entries, 4 kana links confirmed).
 
 32781–32800. Closure: ヒキガエル, 文化系 and 体育会系 (paired as antonyms), ガチャ, 湯取り法, 苦言, 思考回路, 感謝祭. Brainstorm (animal-mammal field): ロバ, アルマジロ, バイソン, シロクマ, カピバラ, シマリス. ezFurigana lookups: 甲 (party A; shell; back of the hand), 主 (main; the Lord), イエス, 関連付け, 貴公子, 肝いり.
 Self-check: clean (0 flags on the 20 new entries and 10 neighbours that gained cross-references).
-
-### 2026-11-04 (20 new entries, first cycle of the 00:15 run)
-
-32761–32780. Closure: 南極線 (paired with 北極線), 環境庁, 昭和基地, 熟年離婚, 協議離婚, 離婚届, 噛み合わせる, 戦時下. Brainstorm (animal-mammal field): 肉牛, カモシカ, ジャガー, ジュゴン, ビーバー, レッサーパンダ. ezFurigana lookups: られる (passive, potential, honorific), 入り (〜入り; 客の入り), 般若心経 (shown as 心経 too), 極まりない, 急ピッチ, 規格外.
-Self-check: clean (0 flags from the reviewer; 1 kana link kept, ころ in 子どものころ).
 
