@@ -46,7 +46,15 @@
   ],
   "notes": "The opposite is ⟦{可燃|かねん}→可燃：26077_kanen⟧ (combustible). Most municipalities split household waste into ⟦{可燃|かねん}ごみ→可燃ごみ：09535_kanengomi⟧ (also ⟦{燃|も}える→燃える：02312_moeru⟧⟦ごみ→ゴミ：00840_gomi⟧) and {不燃|ふねん}ごみ (also ⟦{燃|も}えない→燃える：02312_moeru⟧⟦ごみ→ゴミ：00840_gomi⟧); collection days for each are posted at the neighborhood collection point.\n\nCOMMON COLLOCATIONS:\n- {不燃|ふねん}ごみ: noncombustible garbage (metal, glass, ceramics)\n- {不燃|ふねん}{材|ざい}: noncombustible building material\n- {不燃|ふねん}{性|せい}: nonflammability\n- {不燃|ふねん}⟦{物|ぶつ}→〜物：28336_butsu⟧: noncombustible items",
   "schema_version": "2.0",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26077_kanen",
+      "reading": "かねん",
+      "headword": "{可燃|かねん}",
+      "label": "flammable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +71,6 @@
       "domain": []
     },
     "created": "2026-10-16T00:21:28Z",
-    "modified": "2026-10-16T00:26:29Z"
+    "modified": "2026-11-04T12:38:03Z"
   }
 }
