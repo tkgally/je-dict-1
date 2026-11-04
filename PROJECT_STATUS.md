@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-04 (6 new entries, seventh cycle of the 00:15 run)
+
+32801–32806. Closure: 直角三角形, 東側 (also the Cold War East), 火口湖. Brainstorm: シロナガスクジラ. ezFurigana lookups: 教皇 (with the 2019 switch from 法王), 教祖.
+Self-check: clean (0 flags on 12 entries, 4 kana links confirmed).
+
 ### 2026-11-04 (20 new entries, fourth cycle of the 00:15 run)
 
 32781–32800. Closure: ヒキガエル, 文化系 and 体育会系 (paired as antonyms), ガチャ, 湯取り法, 苦言, 思考回路, 感謝祭. Brainstorm (animal-mammal field): ロバ, アルマジロ, バイソン, シロクマ, カピバラ, シマリス. ezFurigana lookups: 甲 (party A; shell; back of the hand), 主 (main; the Lord), イエス, 関連付け, 貴公子, 肝いり.
@@ -69,9 +74,4 @@ Self-check: 1 flag applied (待たせる can be permissive in context; WATCH OUT
 
 32723–32742. Closure: 申告書, 待ち受け画面, 参院, 衆院選, 最新型, 就業率, 他人任せ. Brainstorm: させる (causative auxiliary), 飛んで火に入る夏の虫, ハイエナ, ハリネズミ, ヒグマ, モグラ, サイ. ezFurigana lookups: 舵, 活動家, かなぐり捨てる, 〜かねない, 紙パック, 川面.
 Self-check: 4 flags applied (2 on new entries: ハリネズミ do live wild in parts of Japan; 猫の写真 translation; 2 pre-existing in neighbours: 海抜 is not a synonym of 海面, 型落ち means superseded).
-
-### 2026-11-03 (6 new entries, eighth cycle of the 05:50 run)
-
-32717–32722. Closure: 国士無双 (peerless; the mahjong hand), 在外公館. Brainstorm (animal-mammal field): アルパカ, ツキノワグマ. ezFurigana lookups: 禍根, 頭文字.
-Self-check: clean (0 accuracy flags, kana links confirmed).
 
