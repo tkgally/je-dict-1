@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{行事|ぎょうじ} refers to organized events, ceremonies, or functions.\n\nTypes of {行事|ぎょうじ}:\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧{行事|ぎょうじ} (school events)\n- ⟦{年中|ねんじゅう}→年中：00311_nenjuu⟧{行事|ぎょうじ} (annual events/ceremonies)\n- ⟦{宗教|しゅうきょう}→宗教：03208_shuukyou⟧{行事|ぎょうじ} (religious ceremonies)\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{行事|ぎょうじ} (company events)\n\nCommon collocations:\n- {行事|ぎょうじ}⟦に→に：00314_ni⟧⟦{参加|さんか}→参加：02498_sanka⟧⟦する→する：00392_suru⟧ (to participate in an event)\n- {行事|ぎょうじ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to hold an event)\n- {行事|ぎょうじ}⟦{予定|よてい}→予定：00824_yotei⟧ (event schedule)\n\nRelated terms:\n- ⟦イベント→イベント：09594_ibento⟧ (event - loanword, more casual)\n- ⟦{催|もよお}し→催し：00295_moyooshi⟧ (event, gathering)\n- ⟦{式典|しきてん}→式典：09526_shikiten⟧ (ceremony - more formal)",
+  "notes": "TYPES:\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧{行事|ぎょうじ}: school events (sports day, field trips, ceremonies)\n- ⟦{年中|ねんじゅう}→年中：00311_nenjuu⟧{行事|ぎょうじ}: the yearly round of seasonal observances (New Year, Setsubun, Obon)\n- ⟦{宗教|しゅうきょう}→宗教：03208_shuukyou⟧{行事|ぎょうじ}: religious ceremonies\n\nCOMMON COLLOCATIONS:\n- {行事|ぎょうじ}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to take part in an event\n- {行事|ぎょうじ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to hold an event\n- {行事|ぎょうじ}⟦{予定|よてい}→予定：00824_yotei⟧: schedule of events\n\nSIMILAR WORDS:\n- ⟦イベント→イベント：09594_ibento⟧: event; used for one-off, commercial or entertainment events, while {行事|ぎょうじ} suggests a planned, often yearly function of a school, company or community\n- ⟦{催|もよお}し→催し：00295_moyooshi⟧: event, gathering (somewhat formal)\n- ⟦{式典|しきてん}→式典：09526_shikiten⟧: formal ceremony",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,32 @@
       "reading": "できごと",
       "headword": "{出来事|できごと}",
       "label": "event, incident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09594_ibento",
+      "reading": "いべんと",
+      "headword": "イベント",
+      "label": "event"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00295_moyooshi",
+      "reading": "もよおし",
+      "headword": "{催|もよお}し",
+      "label": "event, gathering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09526_shikiten",
+      "reading": "しきてん",
+      "headword": "{式典|しきてん}",
+      "label": "formal ceremony"
     }
   ],
   "metadata": {
     "created": "2026-01-13T12:17:38Z",
-    "modified": "2026-10-27T02:15:00Z",
+    "modified": "2026-11-05T16:56:57Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
