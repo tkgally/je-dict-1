@@ -616,3 +616,17 @@ Kore, Charon, Erinome and Iapetus (§5); 32 kbps (§4); $4.80 per audio run and 
   `audio_needs_human_triage.py`); before, a corrected reading never reached the recorder. 86
   readings with じゅう before a p/k/s/t counter moved to じゅっ (example-sentences rule 11), the
   old reading kept in `alt_kana`. No change to models, prompt or acceptance rule.
+- 2026-11-05: Tom's listening review (an interactive session; page published as a claude.ai
+  artifact with the clips bundled and ratings stored with the page, instead of a page in the
+  audio repository and a downloaded ratings file). Spot check: 60 clips (the never-rated 25 October
+  page plus 30 new), 58 correct, 1 wrong (00460 shuushoku ex3: しゅうしょく heard as ちゅうしょく;
+  manifest line dropped, re-recorded by the next run), 1 unsure that was a furigana error in the
+  entry (03955 ex1, now replaced). All 60 joined the regression suite. Held examples: one fresh take
+  each for 105 (about $0.33); 29 accepted by Tom and 6 that passed all four checkers on the new take
+  were published through `publish` (35 clips, its runs.jsonl line tagged `human_review`; `drift`
+  now skips tagged lines). Outcomes per example in `audio/held_review.jsonl`. Regression rerun
+  after the import ($0.33): 44/44 audible injected errors caught, but Tom's errors 3/4 — the new
+  ちゅう/しゅう clip passes all four checkers — and 19 false alarms on 166 clips Tom rated correct, so
+  the script's bar now FAILS. Nothing was changed in models, prompt or acceptance rule, so
+  production is unaffected; but any future workflow change will fail the bar until a checker
+  catches that clip, which is a question for Tom (reviews/needs_curator.txt).
