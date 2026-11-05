@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-05 (12 new entries, sixth cycle of the 15:30 run)
+
+32914–32925. Closure: 自衛権, 若女将, 歴史小説 (contrasted with 時代小説), 煮崩れ. Brainstorm: 丸顔, 面長 (appearance field), コッペパン (from パン), 猫可愛がり. ezFurigana lookups: グリーン (color; golf), 豪奢, ごまんと, 佐賀 (shown as 佐賀県). A short cycle near the end of the run.
+Self-check: 1 flag on 17 entries, applied to the existing 長崎 entry (Dejima was the only window onto Europe, not onto all foreign countries); 15 kana links confirmed.
+
 ### 2026-11-05 (candidates restock, fourth cycle of the 15:30 run)
 
 71 candidates added. Closure (27, words used in entries but not defined): 高裁, 家裁, 不信任案, 健勝, 番頭, 色打掛, 濃茶, 鳥獣戯画, 今場所, 写経, 親鸞, 琵琶法師, 核分裂, 本塁, 三人称, 鉄格子, 鹿鳴館, 手水舎, 落雁, 八宝菜, 下関, 北原白秋, 子猫, 百害あって一利なし, 心躍る, 熊本城, 岩倉使節団. Brainstorm (44, seeds 子供 … 頭): 父の日, 姉貴, 子供騙し, 海の幸, 山の幸, 海開き, 出来損ない, 顔負け, 女々しい, 口約束, 男勝り, 開けっ放し, 手取り足取り, 姉妹都市, 頭ごなし, 頭隠して尻隠さず and others; 7 proposals rejected (6 spelling variants of existing entries, 味付ける).
@@ -68,9 +73,4 @@ Self-check: 3 flags on 26 entries, all applied (ことができる "every verb" 
 
 32851–32871. Closure: 当たりくじ, 約数, 公倍数, 九分九厘, 無理難題, 絵空事, 大御所. Brainstorm: どれでも (from どれ), いつごろ (from いつ), 遊び回る (from 遊ぶ), 払い込む (from 払う), 大股 and 歩きスマホ (from 歩く), 子熊. ezFurigana lookups: 公算, 構造的, 光明, 小躍り, 小競り合い, ことから, 欠損.
 Self-check: 4 flags on 23 entries, all applied (九分九厘まで, 夜の街を遊び回る, a 公算 translation and tag); 27 kana links confirmed.
-
-### 2026-11-05 (15 new entries, third cycle of the 00:15 run)
-
-32834–32848. Closure: 舌先三寸 (linked to the variant 口先三寸), 登録商標, 残念賞, 前奏, 来週末. Brainstorm: 猫の額, 虎の子, 袋のねずみ (animal idioms), 母の日 (from 母), どこも (from どこ). ezFurigana lookups: キャビネット, 〜ぐるみ, 決闘, 激情, 煌めき.
-Self-check: 1 flag on 15 entries, applied (キャビネット: a government cabinet is normally 内閣, softened from "never"); 22 kana links confirmed.
 
