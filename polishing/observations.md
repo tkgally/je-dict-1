@@ -1742,3 +1742,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - 2026-11-04 [tooling] review_links.py (Claude Opus) flags ころ after の or a clause (子どものころ, 小さいころ) as "the noun 頃, not 03091 〜ころ" in nearly every self-check; 15 keep decisions now say 03091 covers that use. Either widen 03091's gloss to "time (when)" so the judge stops flagging it, or give the judge prompt the entry's full sense list.
 - 2026-11-04 [entry] 26062 抜け込む is glossed "to slip into; to sneak into", but 抜け込む is not a common verb (忍び込む, 潜り込む are the usual ones); check whether the entry should be retired or rewritten (curator).
 - 2026-11-05 [entry] 32770: audio checks heard かろやか for 軽やか (furigana かるやか) in 32770_kamoshika_ex3; check the furigana (軽やか is read かろやか).
+- 2026-11-05 [entry] 24806 跳ね返し: after the curator dropped sense 2, sense 1's examples 批判を跳ね返しにする and 逆境からの跳ね返し read as unnatural; a polish pass should replace them.
