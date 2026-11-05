@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-05 (21 new entries, first cycle of the 12:15 run)
+
+32851–32871. Closure: 当たりくじ, 約数, 公倍数, 九分九厘, 無理難題, 絵空事, 大御所. Brainstorm: どれでも (from どれ), いつごろ (from いつ), 遊び回る (from 遊ぶ), 払い込む (from 払う), 大股 and 歩きスマホ (from 歩く), 子熊. ezFurigana lookups: 公算, 構造的, 光明, 小躍り, 小競り合い, ことから, 欠損.
+Self-check: 4 flags on 23 entries, all applied (九分九厘まで, 夜の街を遊び回る, a 公算 translation and tag); 27 kana links confirmed.
+
 ### 2026-11-05 (15 new entries, third cycle of the 00:15 run)
 
 32834–32848. Closure: 舌先三寸 (linked to the variant 口先三寸), 登録商標, 残念賞, 前奏, 来週末. Brainstorm: 猫の額, 虎の子, 袋のねずみ (animal idioms), 母の日 (from 母), どこも (from どこ). ezFurigana lookups: キャビネット, 〜ぐるみ, 決闘, 激情, 煌めき.
@@ -68,9 +73,3 @@ Self-check: clean (0 flags on 18 entries, 9 kana links confirmed).
 ### 2026-11-04 (candidate restock, first cycle of the 12:15 run)
 
 70 candidates queued (C25668–C25737), queue 479 → 549. Closure (13, from a tokenizer scan of example sentences for words with no entry): 天皇陛下, 両論併記, 腸内細菌, 素因, 立憲主義, 〜周忌, カツオのたたき, 子々孫々, 待ち焦がれる, 脱原発, 来季, 修行僧, 革命家. Brainstorm (appearance field, 57): えくぼ, 丸顔, 面長, 童顔, 垂れ目, 切れ長, くせ毛, 枝毛, 坊主頭, 二重あご, 無精ひげ, アイシャドウ, つけまつげ, イメチェン, 様になる, 見違える and others.
-
-### 2026-11-04 (6 new entries, seventh cycle of the 00:15 run)
-
-32801–32806. Closure: 直角三角形, 東側 (also the Cold War East), 火口湖. Brainstorm: シロナガスクジラ. ezFurigana lookups: 教皇 (with the 2019 switch from 法王), 教祖.
-Self-check: clean (0 flags on 12 entries, 4 kana links confirmed).
-

@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -16993,6 +16993,20 @@
     "reviewed": 30,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "にわたる": {
+   "target": "32502_niwataru",
+   "tier": "verify",
+   "competitors": [
+    "に + 渡る (to cross over / go across to a place, e.g. 向こう岸にわたる)"
+   ],
+   "screen": {
+    "verdict": "ambiguous",
+    "risk": "rare",
+    "note": "Written in kana, にわたる is almost always the range expression, but the literal に + 渡る (cross to a place, emigrate to a country) is occasionally also written in kana.",
+    "model": "claude:opus",
+    "date": "2026-11-05"
    }
   },
   "にんべん": {
