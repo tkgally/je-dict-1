@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-05 (21 new entries, first cycle of the 15:30 run)
+
+32893–32913. Closure: 防衛省, 負け越し, 寒中見舞い, 後ろ足, 鉤括弧, 功労者, 変幻自在. Brainstorm: 猫かぶり, 張り子の虎 (animal idioms), 家族葬 (from 家族), パンの耳 (from パン), えくぼ, やつれる, くせ毛 (appearance field). ezFurigana lookups: 教委, クラスター, 公安, 拷問, 権化, 斎場, コントローラー. New kanji 拷 and 鉤 added to the kanji index.
+Self-check: 3 flags on 26 entries, all applied (a 負け越し translation, 家族葬 and 権化 notes softened); 28 kana links judged, 1 unlinked (として after a clause in 外務省).
+
 ### 2026-11-05 (21 new entries, fourth cycle of the 12:15 run)
 
 32872–32892. Closure: 第一人者, 西部劇, 救命胴衣, 法務省, 開業医, 物思い, 真後ろ. Brainstorm: どこもかしこも (from どこ), 立ち泳ぎ (from 泳ぐ), 午前様 (from 午前), 母子家庭 (from 母), 遊び半分 and 火遊び (from 遊ぶ), 小鹿. ezFurigana lookups: ことがある, ことができる (grammar patterns), さぞ, グミ, 語気, 小人 (with the しょうにん and しょうじん readings), 裁判員. どれくらい dropped from the queue as a spelling variant of どれぐらい.
@@ -70,7 +75,3 @@ Self-check: 1 flag on 15 entries, applied (キャビネット: a government cabi
 32825–32833. Closure: 幹細胞, 遺伝子組み換え, 回顧録. Brainstorm (animal-mammal field): ヤマアラシ (contrasted with ハリネズミ), ポニー, スカンク. ezFurigana lookups: 食い物 (also 〜を食い物にする), くびれ, 串刺し.
 Self-check: clean (0 flags on 9 entries, 3 kana links confirmed).
 
-### 2026-11-04 (18 new entries, fourth cycle of the 12:15 run)
-
-32807–32824. Closure: お供, 造船所, 脳出血, 費用対効果, 奥の手, 逃げ場. Brainstorm (animal-mammal field): ホッキョクグマ (linked to シロクマ), 介助犬, 牧羊犬, 闘牛 (Spanish and Japanese bull contests), アリクイ, マングース. ezFurigana lookups: 〜業, 〜切れ, 苦 (苦にする, 苦もなく), 禁忌, 供与, 近海.
-Self-check: clean (0 flags on 18 entries, 9 kana links confirmed).
