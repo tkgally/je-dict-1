@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-05 (15 new entries, third cycle of the 00:15 run)
+
+32834–32848. Closure: 舌先三寸 (linked to the variant 口先三寸), 登録商標, 残念賞, 前奏, 来週末. Brainstorm: 猫の額, 虎の子, 袋のねずみ (animal idioms), 母の日 (from 母), どこも (from どこ). ezFurigana lookups: キャビネット, 〜ぐるみ, 決闘, 激情, 煌めき.
+Self-check: 1 flag on 15 entries, applied (キャビネット: a government cabinet is normally 内閣, softened from "never"); 22 kana links confirmed.
+
 ### 2026-11-04 (9 new entries, sixth cycle of the 12:15 run)
 
 32825–32833. Closure: 幹細胞, 遺伝子組み換え, 回顧録. Brainstorm (animal-mammal field): ヤマアラシ (contrasted with ハリネズミ), ポニー, スカンク. ezFurigana lookups: 食い物 (also 〜を食い物にする), くびれ, 串刺し.
@@ -68,9 +73,4 @@ Self-check: clean (0 flags on 18 entries, 9 kana links confirmed).
 
 32801–32806. Closure: 直角三角形, 東側 (also the Cold War East), 火口湖. Brainstorm: シロナガスクジラ. ezFurigana lookups: 教皇 (with the 2019 switch from 法王), 教祖.
 Self-check: clean (0 flags on 12 entries, 4 kana links confirmed).
-
-### 2026-11-04 (20 new entries, fourth cycle of the 00:15 run)
-
-32781–32800. Closure: ヒキガエル, 文化系 and 体育会系 (paired as antonyms), ガチャ, 湯取り法, 苦言, 思考回路, 感謝祭. Brainstorm (animal-mammal field): ロバ, アルマジロ, バイソン, シロクマ, カピバラ, シマリス. ezFurigana lookups: 甲 (party A; shell; back of the hand), 主 (main; the Lord), イエス, 関連付け, 貴公子, 肝いり.
-Self-check: clean (0 flags on the 20 new entries and 10 neighbours that gained cross-references).
 
