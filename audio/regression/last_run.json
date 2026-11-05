@@ -1,5 +1,5 @@
 {
- "at": "2026-09-27T14:40:21+00:00",
+ "at": "2026-11-05T12:47:46+00:00",
  "config": {
   "checkers": [
    {
@@ -37,12 +37,12 @@
      "verdict": "match",
      "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.0007335
+     "cost": 0.0007935
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "かれのほうが いちまいうわてだ",
+     "text": "かれのほうがいちまいうわてだ",
      "diff": [],
      "cost": 0.0001305
     },
@@ -58,7 +58,7 @@
      "verdict": "match",
      "text": "かれのほうがいちまいうわてだ",
      "diff": [],
-     "cost": 0.00053095
+     "cost": 0.00052285
     }
    ],
    "accepted": true,
@@ -84,12 +84,12 @@
        "あした"
       ]
      ],
-     "cost": 0.00097875
+     "cost": 0.0007425
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "あしたのかいぎはじゅうじからです",
+     "text": "あした の かいぎ は じゅう じ から です",
      "diff": [
       [
        "replace",
@@ -97,7 +97,7 @@
        "あした"
       ]
      ],
-     "cost": 0.000123
+     "cost": 0.00014175
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -123,7 +123,7 @@
        "あした"
       ]
      ],
-     "cost": 0.00052695
+     "cost": 0.00053505
     }
    ],
    "accepted": false,
@@ -149,12 +149,12 @@
        "あした"
       ]
      ],
-     "cost": 0.0008355
+     "cost": 0.0005505
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "こんやからあしたのあさにかけで、あめがつよまるでしょう。",
+     "text": "こんやからあしたのあさにかけで　あめがつよまるでしょう",
      "diff": [
       [
        "replace",
@@ -167,7 +167,7 @@
        "で"
       ]
      ],
-     "cost": 0.0002055
+     "cost": 0.00020925
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -224,7 +224,7 @@
        "きょう"
       ]
      ],
-     "cost": 0.00092625
+     "cost": 0.00098625
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -263,7 +263,7 @@
        "きょう"
       ]
      ],
-     "cost": 0.0004446
+     "cost": 0.00040005
     }
    ],
    "accepted": false,
@@ -281,30 +281,30 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0006105
+     "cost": 0.00101925
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "いちがつ ついたち は がんじつ です",
+     "text": "いちがつ ついたちは がんじつ です",
      "diff": [],
-     "cost": 0.0001425
+     "cost": 0.00013875
     },
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "match",
-     "text": "いちがつ ついたちは がんじつ です",
+     "text": "いちがつ ついたちは がんじつ です。",
      "diff": [],
-     "cost": 9.24e-05
+     "cost": 9.48e-05
     },
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
      "text": "いちがつついたちはがんじつです。",
      "diff": [],
-     "cost": 0.0005035
+     "cost": 0.00056425
     }
    ],
    "accepted": true,
@@ -330,20 +330,20 @@
        "さくや"
       ]
      ],
-     "cost": 0.00089325
+     "cost": 0.000717
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "さくやはともだちとはしござけをした",
+     "text": "さくやわともだちとはしござけをした",
      "diff": [
       [
        "replace",
-       "ゆうべ",
-       "さくや"
+       "ゆうべは",
+       "さくやわ"
       ]
      ],
-     "cost": 0.00014625
+     "cost": 0.0001425
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -361,7 +361,7 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "さくやはともだちとはしござけをした。",
+     "text": "さくやはともだちとはしござけをした",
      "diff": [
       [
        "replace",
@@ -369,7 +369,7 @@
        "さくや"
       ]
      ],
-     "cost": 0.0005562
+     "cost": 0.000378
     }
    ],
    "accepted": false,
@@ -387,7 +387,7 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"さくじつ\",\n      \"heard\": \"きのう\"\n    }\n  ],\n  \"match\": false\n}\n```",
+     "text": "```json\n{\"differences\": [{\"expected\": \"さくじつ\", \"heard\": \"きのう\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
@@ -395,22 +395,17 @@
        "きのう"
       ]
      ],
-     "cost": 0.00093375
+     "cost": 0.00091875
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "きのうそうりだいじんわきしゃかいけんをおこなった",
+     "text": "きのうそうりだいじんはきしゃかいけんをおこなった",
      "diff": [
       [
        "replace",
        "さくじつ",
        "きのう"
-      ],
-      [
-       "replace",
-       "は",
-       "わ"
       ]
      ],
      "cost": 0.000168
@@ -439,7 +434,7 @@
        "きのう"
       ]
      ],
-     "cost": 0.00053065
+     "cost": 0.00043345
     }
    ],
    "accepted": false,
@@ -457,16 +452,22 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.0008655
+     "cost": 0.00053175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "ちちはまいしゅうさかなをかいにいちばへいきます",
-     "diff": [],
-     "cost": 0.0001725
+     "text": "ちち は まいしゅう さかな を かい に いちば え いきます",
+     "diff": [
+      [
+       "replace",
+       "へ",
+       "え"
+      ]
+     ],
+     "cost": 0.00019125
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -480,7 +481,7 @@
      "verdict": "match",
      "text": "ちちはまいしゅう、さかなをかいにいちばへいきます。",
      "diff": [],
-     "cost": 0.0005964
+     "cost": 0.00065715
     }
    ],
    "accepted": true,
@@ -506,12 +507,12 @@
        "だいじ"
       ]
      ],
-     "cost": 0.000366
+     "cost": 0.00121725
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "あのばめんできてんをきかせてうそをついたおかげでだいじにならずにすんだ",
+     "text": "あのばめんで きてんをきかせて うそをついたおかげで だいじにならずにすんだ",
      "diff": [
       [
        "replace",
@@ -519,7 +520,7 @@
        "だいじ"
       ]
      ],
-     "cost": 0.000243
+     "cost": 0.0002505
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -545,7 +546,7 @@
        "だいじ"
       ]
      ],
-     "cost": 0.00047345
+     "cost": 0.0004046
     }
    ],
    "accepted": false,
@@ -571,7 +572,7 @@
        "こきょう"
       ]
      ],
-     "cost": 0.0007455
+     "cost": 0.0006255
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -602,7 +603,7 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "こきょうをはなれてよりどころのないきもちになった",
+     "text": "こきょうをはなれて、よりどころのないきもちになった。",
      "diff": [
       [
        "replace",
@@ -610,7 +611,7 @@
        "こきょう"
       ]
      ],
-     "cost": 0.0003919
+     "cost": 0.0005539
     }
    ],
    "accepted": false,
@@ -628,7 +629,7 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "{\"differences\": [{\"expected\": \"さむけ\", \"heard\": \"かんき\"}], \"match\": false}",
+     "text": "```json\n{\"differences\": [{\"expected\": \"さむけ\", \"heard\": \"かんき\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
@@ -636,7 +637,7 @@
        "かんき"
       ]
      ],
-     "cost": 0.00069
+     "cost": 0.00075
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -666,16 +667,10 @@
     },
     {
      "name": "kana:thinkingmachines/inkling",
-     "verdict": "mismatch",
-     "text": "ねつがでるまえにかんきをかんじた",
-     "diff": [
-      [
-       "replace",
-       "さむけ",
-       "かんき"
-      ]
-     ],
-     "cost": 0.0008305
+     "verdict": "match",
+     "text": "ねつがでるまえにさむけをかんじた",
+     "diff": [],
+     "cost": 0.00084265
     }
    ],
    "accepted": false,
@@ -701,12 +696,12 @@
        "こうよう"
       ]
      ],
-     "cost": 0.00070275
+     "cost": 0.000534
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "じゅういちがつはこうようがれいです",
+     "text": "じゅういちがつはこうようがきれいですね",
      "diff": [
       [
        "replace",
@@ -714,9 +709,9 @@
        "こうよう"
       ],
       [
-       "delete",
-       "き",
-       ""
+       "insert",
+       "",
+       "ね"
       ]
      ],
      "cost": 0.00014775
@@ -737,7 +732,7 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "じゅういちがつはこうようがきれいです。",
+     "text": "じゅういちがつはこうようがきれいです",
      "diff": [
       [
        "replace",
@@ -745,7 +740,7 @@
        "こうよう"
       ]
      ],
-     "cost": 0.0008942
+     "cost": 0.0003677
     }
    ],
    "accepted": false,
@@ -763,7 +758,7 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"しきし\", \"heard\": \"いろはら\"}], \"match\": false}\n```",
+     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"しきし\",\n      \"heard\": \"いろはら\"\n    }\n  ],\n  \"match\": false\n}\n```",
      "diff": [
       [
        "replace",
@@ -771,7 +766,7 @@
        "いろはら"
       ]
      ],
-     "cost": 0.001503
+     "cost": 0.00142425
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -802,15 +797,15 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "たいしょくするせんぱいにいろはらをかいた",
+     "text": "たいしょくするせんぱいにいろがみをかいた",
      "diff": [
       [
        "replace",
        "しきし",
-       "いろはら"
+       "いろがみ"
       ]
      ],
-     "cost": 0.00055515
+     "cost": 0.0008022
     }
    ],
    "accepted": false,
@@ -836,13 +831,19 @@
        "さいちゅう"
       ]
      ],
-     "cost": 0.00091275
+     "cost": 0.00062775
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "このみせのもなかはかわがぱりぱりでおいしい",
-     "diff": [],
+     "verdict": "mismatch",
+     "text": "このみせのさいちゅうはかわがパリパリでおいしい",
+     "diff": [
+      [
+       "replace",
+       "もなか",
+       "さいちゅう"
+      ]
+     ],
      "cost": 0.000165
     },
     {
@@ -895,7 +896,7 @@
        "ぶんべつ"
       ]
      ],
-     "cost": 0.0012465
+     "cost": 0.0003015
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -934,7 +935,7 @@
        "ぶ"
       ]
      ],
-     "cost": 0.0005229
+     "cost": 0.0004986
     }
    ],
    "accepted": false,
@@ -960,18 +961,13 @@
        "にじゅう"
       ]
      ],
-     "cost": 0.00059325
+     "cost": 0.0010545
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "かのじょわうまれつきにじゅうまぶただ",
+     "text": "かのじょはうまれつきにじゅうまぶただ",
      "diff": [
-      [
-       "replace",
-       "は",
-       "わ"
-      ],
       [
        "replace",
        "ふたえ",
@@ -983,7 +979,7 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "かのじょ　は　うまれつき　にじゅうまぶた　だ",
+     "text": "かのじょ　は　うまれつき　にじゅう　まぶた　だ",
      "diff": [
       [
        "replace",
@@ -991,7 +987,7 @@
        "にじゅう"
       ]
      ],
-     "cost": 0.0001092
+     "cost": 0.0001116
     },
     {
      "name": "kana:thinkingmachines/inkling",
@@ -1004,7 +1000,7 @@
        "にじゅう"
       ]
      ],
-     "cost": 0.00058765
+     "cost": 0.00063625
     }
    ],
    "accepted": false,
@@ -1030,7 +1026,7 @@
        "めした"
       ]
      ],
-     "cost": 0.000303
+     "cost": 0.0011205
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1095,12 +1091,12 @@
        "よろん"
       ]
      ],
-     "cost": 0.00085725
+     "cost": 0.00057975
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "よろんはいがいしゃにどうじょうてきだった",
+     "text": "よろんわひがいしゃにどうじょうてきだった",
      "diff": [
       [
        "replace",
@@ -1109,11 +1105,11 @@
       ],
       [
        "replace",
-       "ひ",
-       "い"
+       "は",
+       "わ"
       ]
      ],
-     "cost": 0.0001395
+     "cost": 0.00014325
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -1139,7 +1135,7 @@
        "よ"
       ]
      ],
-     "cost": 0.0005532
+     "cost": 0.00080025
     }
    ],
    "accepted": false,
@@ -1165,7 +1161,7 @@
        "ふうしゃ"
       ]
      ],
-     "cost": 0.000699
+     "cost": 0.00087525
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1204,7 +1200,7 @@
        "ふうしゃ"
       ]
      ],
-     "cost": 0.00044475
+     "cost": 0.0004164
     }
    ],
    "accepted": false,
@@ -1224,7 +1220,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000876
+     "cost": 0.0008235
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1257,7 +1253,7 @@
      "verdict": "match",
      "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
      "diff": [],
-     "cost": 0.00042425
+     "cost": 0.000404
     }
    ],
    "accepted": true,
@@ -1277,7 +1273,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000213
+     "cost": 0.00053175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1298,7 +1294,7 @@
      "verdict": "match",
      "text": "がんばれにっぽん！",
      "diff": [],
-     "cost": 0.0005313
+     "cost": 0.00056775
     }
    ],
    "accepted": true,
@@ -1324,25 +1320,25 @@
        "しんたい"
       ]
      ],
-     "cost": 0.0007215
+     "cost": 0.00077775
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "あのこはしんたいがたっしゃでスポーツならなんでもこなす",
+     "text": "あの こ わ しんたい が たっしゃ で すぽーつ なら なん で も こなす",
      "diff": [
       [
        "replace",
-       "からだ",
-       "しんたい"
+       "はからだ",
+       "わしんたい"
       ]
      ],
-     "cost": 0.0001785
+     "cost": 0.00019725
     },
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "あのこは しんたいが たっしゃで、スポーツなら なんでも こなす。",
+     "text": "あのこは しんたいが たっしゃで スポーツ なら なんでも こなす",
      "diff": [
       [
        "replace",
@@ -1381,7 +1377,7 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"みそか\",\n      \"heard\": \"さんじゅうにち\"\n    }\n  ],\n  \"match\": false\n}\n```",
+     "text": "{\"differences\": [{\"expected\": \"みそか\", \"heard\": \"さんじゅうにち\"}], \"match\": false}",
      "diff": [
       [
        "replace",
@@ -1389,7 +1385,7 @@
        "さんじゅうにち"
       ]
      ],
-     "cost": 0.00099375
+     "cost": 0.001035
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1433,7 +1429,7 @@
        "さんじゅうにち"
       ]
      ],
-     "cost": 0.00085085
+     "cost": 0.00083465
     }
    ],
    "accepted": false,
@@ -1459,19 +1455,13 @@
        "じゅうぶん"
       ]
      ],
-     "cost": 0.0009585
+     "cost": 0.00125475
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "みちをまちがえて えきとははんたいほうこうに じっぷんもあるいてしまった",
-     "diff": [
-      [
-       "delete",
-       "ゅ",
-       ""
-      ]
-     ],
+     "verdict": "match",
+     "text": "みちをまちがえてえきとははんたいほうこうにじゅっぷんもあるいてしまった",
+     "diff": [],
      "cost": 0.00022575
     },
     {
@@ -1498,7 +1488,7 @@
        "うぶ"
       ]
      ],
-     "cost": 0.0004553
+     "cost": 0.00046745
     }
    ],
    "accepted": false,
@@ -1524,7 +1514,7 @@
        "からい"
       ]
      ],
-     "cost": 0.00034125
+     "cost": 0.000615
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1581,7 +1571,7 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"わたくし\", \"heard\": \"わたし\"}], \"match\": false}\n```",
+     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"わたくし\",\n      \"heard\": \"わたし\"\n    }\n  ],\n  \"match\": false\n}\n```",
      "diff": [
       [
        "replace",
@@ -1589,7 +1579,7 @@
        "わたし"
       ]
      ],
-     "cost": 0.000522
+     "cost": 0.000672
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1628,7 +1618,7 @@
        ""
       ]
      ],
-     "cost": 0.0004379
+     "cost": 0.00043385
     }
    ],
    "accepted": false,
@@ -1654,7 +1644,7 @@
        "にじゅっさい"
       ]
      ],
-     "cost": 0.00073425
+     "cost": 0.00089175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1672,7 +1662,7 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "にじゅっさいになったら　おさけが　のめるようになる",
+     "text": "にじゅっさい になったら おさけ が のめる よう に なる",
      "diff": [
       [
        "replace",
@@ -1680,12 +1670,12 @@
        "にじゅっさい"
       ]
      ],
-     "cost": 0.0001074
+     "cost": 0.0001122
     },
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "にじゅっさいになったら、おさけがのめるようになる。",
+     "text": "にじゅっさいになったらおさけがのめるようになる",
      "diff": [
       [
        "replace",
@@ -1693,7 +1683,7 @@
        "にじゅっさい"
       ]
      ],
-     "cost": 0.0008304
+     "cost": 0.00042945
     }
    ],
    "accepted": false,
@@ -1719,7 +1709,7 @@
        "にじゅうにち"
       ]
      ],
-     "cost": 0.00063075
+     "cost": 0.000612
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1737,7 +1727,7 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "にじゅうにちまでにおとどけします",
+     "text": "にじゅうにちまでに おとどけします",
      "diff": [
       [
        "replace",
@@ -1758,7 +1748,7 @@
        "にじゅうにち"
       ]
      ],
-     "cost": 0.0005229
+     "cost": 0.00070515
     }
    ],
    "accepted": false,
@@ -1784,7 +1774,7 @@
        "ねんげつ"
       ]
      ],
-     "cost": 0.00056775
+     "cost": 0.00048525
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1838,7 +1828,7 @@
        ""
       ]
      ],
-     "cost": 0.0004643
+     "cost": 0.00046835
     }
    ],
    "accepted": false,
@@ -1864,7 +1854,7 @@
        "がく"
       ]
      ],
-     "cost": 0.000837
+     "cost": 0.00065325
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -1929,12 +1919,12 @@
        ""
       ]
      ],
-     "cost": 0.00132675
+     "cost": 0.00115425
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "さんにんしまい の すえっこ と して そだった かのじょ は あねたち の あと を おいかけていた そうだ いま で は おたがい に ささえあう かんけい に なっている",
+     "text": "さんにんしまいのすえっことしてそだったかのじょはあねたちのあとをおいかけていたそうだいまではおたがいにささえあうかんけいになっている",
      "diff": [
       [
        "delete",
@@ -1942,7 +1932,7 @@
        ""
       ]
      ],
-     "cost": 0.00042225
+     "cost": 0.00038475
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -1960,7 +1950,7 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "さんにんしまいのすえっことしてそだったかのじょは、あねたちのあとをおいかけていたそうだ。いまではおたがいにささえあうかんけいになっている。",
+     "text": "さんにんしまいのすえっことしてそだったかのじょはあねたちのあとをおいかけていたそうだ。いまではおたがいにささえあうかんけいになっている。",
      "diff": [
       [
        "delete",
@@ -1968,7 +1958,7 @@
        ""
       ]
      ],
-     "cost": 0.00067475
+     "cost": 0.0006626
     }
    ],
    "accepted": false,
@@ -1986,15 +1976,15 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"まえのくるまについとつじこ\", \"heard\": \"ついとつじこ\"}], \"match\": false}\n```",
+     "text": "```json\n{\"differences\": [{\"expected\": \"まえのくるまに\", \"heard\": \"\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
-       "まえのくるまについとつじこ",
-       "ついとつじこ"
+       "まえのくるまに",
+       ""
       ]
      ],
-     "cost": 0.001026
+     "cost": 0.00142725
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -2038,7 +2028,7 @@
        ""
       ]
      ],
-     "cost": 0.0005572
+     "cost": 0.0005734
     }
    ],
    "accepted": false,
@@ -2064,12 +2054,12 @@
        ""
       ]
      ],
-     "cost": 0.0011895
+     "cost": 0.000327
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "ほんじつ ごさんか いただきました かたがたに おんれい もうしあげます",
+     "text": "ほんじつごさんかいただきましたかたがたにおんれいもうしあげます",
      "diff": [
       [
        "delete",
@@ -2077,7 +2067,7 @@
        ""
       ]
      ],
-     "cost": 0.000198
+     "cost": 0.0001905
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -2103,7 +2093,7 @@
        ""
       ]
      ],
-     "cost": 0.00044145
+     "cost": 0.00040905
     }
    ],
    "accepted": false,
@@ -2121,15 +2111,15 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"とても\", \"heard\": \"\"}], \"match\": false}\n```",
+     "text": "```json\n{\"differences\": [{\"expected\": \"とてもおいしそうだった\", \"heard\": \"おいしそうだった\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
-       "とても",
-       ""
+       "とてもおいしそうだった",
+       "おいしそうだった"
       ]
      ],
-     "cost": 0.00030375
+     "cost": 0.0003375
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -2168,7 +2158,7 @@
        ""
       ]
      ],
-     "cost": 0.0004122
+     "cost": 0.0003069
     }
    ],
    "accepted": false,
@@ -2194,7 +2184,7 @@
        ""
       ]
      ],
-     "cost": 0.001005
+     "cost": 0.0006375
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -2212,15 +2202,20 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "こうばん に けいさつかん が ふたり いた の で、さいふ を おとした こと を とどけでた",
+     "text": "こうばん に けいさつかん が ふたり いた の で、さいふ を おとした こと を とどけ だ。",
      "diff": [
       [
        "delete",
        "えきまえの",
        ""
+      ],
+      [
+       "replace",
+       "でた",
+       "だ"
       ]
      ],
-     "cost": 0.0001506
+     "cost": 0.000153
     },
     {
      "name": "kana:thinkingmachines/inkling",
@@ -2259,12 +2254,12 @@
        ""
       ]
      ],
-     "cost": 0.00109875
+     "cost": 0.000405
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "らいぶはうすでえんそうをつづけながらじさくのきょくをみがいてきたしんがーそんぐらいたーがめじゃーでびゅーをはたした",
+     "text": "らいぶはうすで えんそうを つづけながら じさくの きょくを みがいてきた しんがーそんぐらいたーが めじゃーでびゅーを はたした",
      "diff": [
       [
        "delete",
@@ -2272,7 +2267,7 @@
        ""
       ]
      ],
-     "cost": 0.0003615
+     "cost": 0.00037275
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -2303,7 +2298,7 @@
        ""
       ]
      ],
-     "cost": 0.0005934
+     "cost": 0.0006015
     }
    ],
    "accepted": false,
@@ -2321,11 +2316,11 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"しゅうのうおじょうずにつかうのがたいせつです。\", \"heard\": \"\"}], \"match\": false}\n```",
+     "text": "```json\n{\"differences\": [{\"expected\": \"しゅうのうおじょうずにつかうのがたいせつです\", \"heard\": \"\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
-       "しゅうのうおじょうずにつかうのがたいせつです。",
+       "しゅうのうおじょうずにつかうのがたいせつです",
        ""
       ]
      ],
@@ -2368,7 +2363,7 @@
        ""
       ]
      ],
-     "cost": 0.0004513
+     "cost": 0.00047155
     }
    ],
    "accepted": false,
@@ -2394,7 +2389,7 @@
        "あつい"
       ]
      ],
-     "cost": 0.00050925
+     "cost": 0.00056175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -2433,7 +2428,7 @@
        "あつ"
       ]
      ],
-     "cost": 0.0004056
+     "cost": 0.00033675
     }
    ],
    "accepted": false,
@@ -2451,7 +2446,7 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"あなからさきがみとおせることから\", \"heard\": \"\"}], \"match\": false}\n```",
+     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"あなからさきがみとおせることから\",\n      \"heard\": \"\"\n    }\n  ],\n  \"match\": false\n}\n```",
      "diff": [
       [
        "replace",
@@ -2459,7 +2454,7 @@
        ""
       ]
      ],
-     "cost": 0.00123075
+     "cost": 0.001347
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -2477,20 +2472,15 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "おせちりょうりに れんこんが はいっているのは みとうしが よい という えんぎを かついでいる",
+     "text": "おせちりょうりに れんこんが はいっているのは みとおしが よい という えんぎを かついでいる",
      "diff": [
       [
        "delete",
-       "あなからさきが",
+       "あなからさきがみとおせることから",
        ""
-      ],
-      [
-       "replace",
-       "おせることからみとお",
-       "う"
       ]
      ],
-     "cost": 0.000168
+     "cost": 0.0001704
     },
     {
      "name": "kana:thinkingmachines/inkling",
@@ -2529,7 +2519,7 @@
        "きた"
       ]
      ],
-     "cost": 0.0005625
+     "cost": 0.00055875
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -2568,7 +2558,7 @@
        "きた"
       ]
      ],
-     "cost": 0.0007021
+     "cost": 0.00042265
     }
    ],
    "accepted": false,
@@ -2594,12 +2584,12 @@
        "くらく"
       ]
      ],
-     "cost": 0.0005505
+     "cost": 0.00050175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "あめがやんで そらがくらくなりました",
+     "text": "あめがやんでそらがくらくなりました",
      "diff": [
       [
        "replace",
@@ -2633,7 +2623,7 @@
        "くら"
       ]
      ],
-     "cost": 0.00052675
+     "cost": 0.0004822
     }
    ],
    "accepted": false,
@@ -2659,12 +2649,12 @@
        "よじ"
       ]
      ],
-     "cost": 0.000462
+     "cost": 0.0004695
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "きっかり よじに きて ください",
+     "text": "きっかり よじ に きて ください",
      "diff": [
       [
        "replace",
@@ -2698,7 +2688,7 @@
        "よ"
       ]
      ],
-     "cost": 0.00039035
+     "cost": 0.000443
     }
    ],
    "accepted": false,
@@ -2724,7 +2714,7 @@
        "そうじ"
       ]
      ],
-     "cost": 0.00069375
+     "cost": 0.00067125
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -2778,7 +2768,7 @@
        "じ"
       ]
      ],
-     "cost": 0.0004885
+     "cost": 0.00052495
     }
    ],
    "accepted": false,
@@ -2809,7 +2799,7 @@
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "きにいっ たので いろ ちがい で にまい かって しまった",
+     "text": "きにいったので いろちがいで にまいかってしまった",
      "diff": [
       [
        "replace",
@@ -2817,7 +2807,7 @@
        "に"
       ]
      ],
-     "cost": 0.00017025
+     "cost": 0.000159
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -2869,7 +2859,7 @@
        "ずっと"
       ]
      ],
-     "cost": 0.00049575
+     "cost": 0.00093825
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -2908,7 +2898,7 @@
        "ずっと"
       ]
      ],
-     "cost": 0.00047015
+     "cost": 0.0004661
     }
    ],
    "accepted": false,
@@ -2926,15 +2916,15 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"いれる\", \"heard\": \"たくさんいれる\"}], \"match\": false}\n```",
+     "text": "```json\n{\"differences\": [{\"expected\": \"\", \"heard\": \"たくさん\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
-       "いれる",
-       "たくさんいれる"
+       "",
+       "たくさん"
       ]
      ],
-     "cost": 0.000753
+     "cost": 0.00083175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -2978,7 +2968,7 @@
        "たくさん"
       ]
      ],
-     "cost": 0.00046195
+     "cost": 0.0004498
     }
    ],
    "accepted": false,
@@ -3004,7 +2994,7 @@
        "ごけんちょうとごかつやくのことと"
       ]
      ],
-     "cost": 0.001395
+     "cost": 0.00176625
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3058,7 +3048,7 @@
        "とごかつやく"
       ]
      ],
-     "cost": 0.00052995
+     "cost": 0.00043275
     }
    ],
    "accepted": false,
@@ -3076,20 +3066,20 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"おもたせている\", \"heard\": \"おまいつきもたせている\"}], \"match\": false}\n```",
+     "text": "```json\n{\"differences\": [{\"expected\": \"\", \"heard\": \"まいつき\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
-       "おもたせている",
-       "おまいつきもたせている"
+       "",
+       "まいつき"
       ]
      ],
-     "cost": 0.0016515
+     "cost": 0.0012015
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "こどもにつかいすぎさせたくないのでクレジットカードではなくプリペイドカードをまいつきもたせている",
+     "text": "こどもにつかいすぎさせたくないのでくれじっとかーどではなくぷりぺいどかーどをまいつきもたせている",
      "diff": [
       [
        "insert",
@@ -3097,7 +3087,7 @@
        "まいつき"
       ]
      ],
-     "cost": 0.00024825
+     "cost": 0.000282
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -3115,7 +3105,7 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "こどもにつかいすぎさせたくないのでくれじっとかーどではなくぷりぺいどかーどをまいつきもたせている",
+     "text": "こどもにつかいすぎさせたくないので、くれじっとかーどではなく、ぷりぺいどかーどをまいつきもたせている。",
      "diff": [
       [
        "insert",
@@ -3188,7 +3178,7 @@
        "とうちゃくした"
       ]
      ],
-     "cost": 0.0005842
+     "cost": 0.0006085
     }
    ],
    "accepted": false,
@@ -3206,12 +3196,12 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\n  \"differences\": [\n    {\n      \"expected\": \"かいしゃが\",\n      \"heard\": \"かいしゃが かいしゃが\"\n    },\n    {\n      \"expected\": \"こんにち\",\n      \"heard\": \"きょう\"\n    }\n  ],\n  \"match\": false\n}\n```",
+     "text": "```json\n{\"differences\": [{\"expected\": \"\", \"heard\": \"かいしゃが\"}, {\"expected\": \"こんにち\", \"heard\": \"きょう\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
-       "かいしゃが",
-       "かいしゃが かいしゃが"
+       "",
+       "かいしゃが"
       ],
       [
        "replace",
@@ -3219,7 +3209,7 @@
        "きょう"
       ]
      ],
-     "cost": 0.00111825
+     "cost": 0.0007545
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3250,7 +3240,7 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "かいしゃが、かいしゃがきょうまでつづいたのはしゃいんのおかげだ。",
+     "text": "かいしゃが かいしゃがきょうまでつづいたのはしゃいんのおかげだ",
      "diff": [
       [
        "replace",
@@ -3258,7 +3248,7 @@
        "かいしゃがきょう"
       ]
      ],
-     "cost": 0.00045335
+     "cost": 0.00042905
     }
    ],
    "accepted": false,
@@ -3278,7 +3268,7 @@
      "verdict": "match",
      "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00121575
+     "cost": 0.00095325
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3290,9 +3280,9 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "match",
-     "text": "かいしゃ が こんにち まで つづいた の は しゃいん の おかげ だ",
+     "text": "かいしゃが こんにちまで つづいたのは しゃいんの おかげだ",
      "diff": [],
-     "cost": 0.0001218
+     "cost": 0.000117
     },
     {
      "name": "kana:thinkingmachines/inkling",
@@ -3315,16 +3305,10 @@
    "checks": [
     {
      "name": "pcompare:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"つづいたのわ\", \"heard\": \"つづいてたのわ\"}], \"match\": false}\n```",
-     "diff": [
-      [
-       "replace",
-       "つづいたのわ",
-       "つづいてたのわ"
-      ]
-     ],
-     "cost": 0.00184725
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00139725
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3345,10 +3329,10 @@
      "verdict": "match",
      "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
      "diff": [],
-     "cost": 0.00075855
+     "cost": 0.0010299
     }
    ],
-   "accepted": false
+   "accepted": true
   },
   {
    "key": "flash/plain/female/002_30530_nikakete_ex2",
@@ -3362,22 +3346,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00053925
+     "cost": 0.00026925
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "こんやからあすのあさにかけで　あめがつよまるでしょう",
-     "diff": [
-      [
-       "replace",
-       "て",
-       "で"
-      ]
-     ],
-     "cost": 0.0001905
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
+     "cost": 0.00017625
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -3391,7 +3369,7 @@
      "verdict": "match",
      "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
      "diff": [],
-     "cost": 0.0004537
+     "cost": 0.0004213
     }
    ],
    "accepted": true
@@ -3410,7 +3388,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0002685
+     "cost": 0.0007935
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3431,7 +3409,7 @@
      "verdict": "match",
      "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
      "diff": [],
-     "cost": 0.00065015
+     "cost": 0.000638
     }
    ],
    "accepted": true
@@ -3450,7 +3428,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0007665
+     "cost": 0.00072225
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3471,7 +3449,7 @@
      "verdict": "match",
      "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
      "diff": [],
-     "cost": 0.0004061
+     "cost": 0.00065315
     }
    ],
    "accepted": true
@@ -3487,10 +3465,16 @@
    "checks": [
     {
      "name": "pcompare:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
-     "diff": [],
-     "cost": 0.001008
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"くろこ\", \"heard\": \"くろご\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "くろこ",
+       "くろご"
+      ]
+     ],
+     "cost": 0.00032925
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3511,10 +3495,10 @@
      "verdict": "match",
      "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
      "diff": [],
-     "cost": 0.0005013
+     "cost": 0.0005985
     }
    ],
-   "accepted": true
+   "accepted": false
   },
   {
    "key": "flash/plain/female/092_10293_taguzuke_ex3",
@@ -3541,23 +3525,17 @@
     },
     {
      "name": "kana:openai/gpt-audio-mini",
-     "verdict": "mismatch",
-     "text": "いんすたで　おみせの　あかうんとを　たぐづけして　とうこう　したら　りぽーすと　された",
-     "diff": [
-      [
-       "insert",
-       "",
-       "お"
-      ]
-     ],
-     "cost": 0.000156
+     "verdict": "match",
+     "text": "いんすたで　おみせの　あかうんとを　たぐづけして　とうこう　したら　りぽすと　された",
+     "diff": [],
+     "cost": 0.0001536
     },
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "いんすたでおみせのあかうんとをたぐづけしてとうこうしたらりぽすとされた",
+     "text": "インスタでおみせのアカウントをタグづけしてとうこうしたらリポストされた",
      "diff": [],
-     "cost": 0.00036545
+     "cost": 0.00118355
     }
    ],
    "accepted": true
@@ -3573,23 +3551,17 @@
    "checks": [
     {
      "name": "pcompare:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"こんにち\", \"heard\": \"こんにちは\"}], \"match\": false}\n```",
-     "diff": [
-      [
-       "replace",
-       "こんにち",
-       "こんにちは"
-      ]
-     ],
-     "cost": 0.0010125
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00028125
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
      "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
      "diff": [],
-     "cost": 0.00019275
+     "cost": 0.0001935
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -3606,7 +3578,7 @@
      "cost": 0.00041205
     }
    ],
-   "accepted": false
+   "accepted": true
   },
   {
    "key": "flash/kanadict/male/001_11695_konnichi_ex2",
@@ -3620,9 +3592,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.001065
+     "cost": 0.0011775
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3660,9 +3632,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00122925
+     "cost": 0.001008
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3708,7 +3680,7 @@
        "きょう"
       ]
      ],
-     "cost": 0.00069375
+     "cost": 0.00061875
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3747,7 +3719,7 @@
        "きょう"
       ]
      ],
-     "cost": 0.00040005
+     "cost": 0.00041625
     }
    ],
    "accepted": false
@@ -3764,9 +3736,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.001209
+     "cost": 0.00122775
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3787,7 +3759,7 @@
      "verdict": "match",
      "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
      "diff": [],
-     "cost": 0.00041305
+     "cost": 0.0006358
     }
    ],
    "accepted": true
@@ -3804,9 +3776,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00028275
+     "cost": 0.001044
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3827,7 +3799,7 @@
      "verdict": "match",
      "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
      "diff": [],
-     "cost": 0.00032395
+     "cost": 0.00031585
     }
    ],
    "accepted": true
@@ -3852,12 +3824,12 @@
        "あした"
       ]
      ],
-     "cost": 0.0003195
+     "cost": 0.00075825
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "こんやからあしたのあさにかけ てあめがつよまるでしょう",
+     "text": "こんやからあしたのあさにかけてあめがつよまるでしょう",
      "diff": [
       [
        "replace",
@@ -3865,17 +3837,17 @@
        "した"
       ]
      ],
-     "cost": 0.000177
+     "cost": 0.00017325
     },
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "こんばんからあしたのあさにかけてあめがつよまるでしょう。",
+     "text": "こんばんわ、あしたのあさにかけて、あめがつよまるでしょう。",
      "diff": [
       [
        "replace",
-       "や",
-       "ばん"
+       "やから",
+       "ばんわ"
       ],
       [
        "replace",
@@ -3883,12 +3855,12 @@
        "した"
       ]
      ],
-     "cost": 0.0001104
+     "cost": 0.0001152
     },
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "こんやからあしたのあさにかけて、あめがつよまるでしょう。",
+     "text": "こんやからあしたのあさにかけてあめがつよまるでしょう",
      "diff": [
       [
        "replace",
@@ -3896,7 +3868,7 @@
        "した"
       ]
      ],
-     "cost": 0.000557
+     "cost": 0.0004031
     }
    ],
    "accepted": false
@@ -3915,14 +3887,20 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00059025
+     "cost": 0.00078525
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
-     "diff": [],
-     "cost": 0.0001965
+     "verdict": "mismatch",
+     "text": "こんやからあすのあさにかけで あめがつよまるでしょう",
+     "diff": [
+      [
+       "replace",
+       "て",
+       "で"
+      ]
+     ],
+     "cost": 0.00020025
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -3947,10 +3925,10 @@
      "verdict": "match",
      "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
      "diff": [],
-     "cost": 0.0004281
+     "cost": 0.0004443
     }
    ],
-   "accepted": true
+   "accepted": false
   },
   {
    "key": "flash/kanadict/male/002_30530_nikakete_ex2",
@@ -3964,9 +3942,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00078075
+     "cost": 0.0002745
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -3993,7 +3971,7 @@
      "verdict": "match",
      "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
      "diff": [],
-     "cost": 0.0004111
+     "cost": 0.00039895
     }
    ],
    "accepted": true
@@ -4012,20 +3990,14 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000453
+     "cost": 0.00027675
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "こんやからあすのあさにかけで　あめがつよまるでしょう",
-     "diff": [
-      [
-       "replace",
-       "て",
-       "で"
-      ]
-     ],
-     "cost": 0.000198
+     "verdict": "match",
+     "text": "こんやから あすの あさに かけて あめが つよまるでしょう",
+     "diff": [],
+     "cost": 0.0001905
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -4039,7 +4011,7 @@
      "verdict": "match",
      "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
      "diff": [],
-     "cost": 0.0004131
+     "cost": 0.00039285
     }
    ],
    "accepted": true
@@ -4056,16 +4028,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000666
+     "cost": 0.00027975
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "text": "こんや から あす の あさ に かけて あめ が つよまる でしょう",
      "diff": [],
-     "cost": 0.000186
+     "cost": 0.00019725
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -4085,7 +4057,7 @@
      "verdict": "match",
      "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
      "diff": [],
-     "cost": 0.00040495
+     "cost": 0.0004171
     }
    ],
    "accepted": true
@@ -4104,12 +4076,12 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00063975
+     "cost": 0.000606
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "しょうかいがないと いちげんでは はいれない りょうていだ",
+     "text": "しょうかいがないと いちげんでは はいれないりょうていだ",
      "diff": [],
      "cost": 0.00018
     },
@@ -4144,7 +4116,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0002385
+     "cost": 0.00059475
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4205,7 +4177,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00064425
+     "cost": 0.00078675
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4243,9 +4215,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00079875
+     "cost": 0.0002325
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4257,7 +4229,7 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "わたしの いけんを のべます",
+     "text": "わたしの いけんを のべます。",
      "diff": [
       [
        "delete",
@@ -4265,14 +4237,14 @@
        ""
       ]
      ],
-     "cost": 8.22e-05
+     "cost": 8.46e-05
     },
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
      "text": "わたくしのいけんをのべます",
      "diff": [],
-     "cost": 0.0004612
+     "cost": 0.00043285
     }
    ],
    "accepted": true
@@ -4289,16 +4261,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00055125
+     "cost": 0.0002325
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
      "text": "はつかまでにおとどけします",
      "diff": [],
-     "cost": 0.00011775
+     "cost": 0.0001185
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -4318,7 +4290,7 @@
      "verdict": "match",
      "text": "はつかまでにおとどけします。",
      "diff": [],
-     "cost": 0.00068395
+     "cost": 0.00049765
     }
    ],
    "accepted": true
@@ -4335,16 +4307,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00052875
+     "cost": 0.00022875
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
      "text": "はつかまでにおとどけします",
      "diff": [],
-     "cost": 0.000114
+     "cost": 0.00011475
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -4381,9 +4353,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00122025
+     "cost": 0.000294
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4404,7 +4376,7 @@
      "verdict": "match",
      "text": "このけんきゅうしゃはかがくのはってんにおおきなそくせきをのこした",
      "diff": [],
-     "cost": 0.00045545
+     "cost": 0.0004352
     }
    ],
    "accepted": true
@@ -4421,9 +4393,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00062625
+     "cost": 0.00023625
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4455,7 +4427,7 @@
      "verdict": "match",
      "text": "つきぎめちゅうしゃじょうをかりた",
      "diff": [],
-     "cost": 0.0007953
+     "cost": 0.0005442
     }
    ],
    "accepted": true
@@ -4474,7 +4446,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0004245
+     "cost": 0.00042075
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4499,9 +4471,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "ひたいにあせがにじみだす。",
+     "text": "ひたいにあせがにじみだす",
      "diff": [],
-     "cost": 0.00049355
+     "cost": 0.0004571
     }
    ],
    "accepted": true
@@ -4520,7 +4492,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0004785
+     "cost": 0.000666
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4547,7 +4519,7 @@
      "verdict": "match",
      "text": "きっかりさんじにきてください",
      "diff": [],
-     "cost": 0.0007406
+     "cost": 0.00049355
     }
    ],
    "accepted": true
@@ -4572,19 +4544,19 @@
        "いえ"
       ]
      ],
-     "cost": 0.001044
+     "cost": 0.00084525
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "すみません いいえ だいじょうぶ です",
+     "text": "すみませんいいえだいじょうぶです",
      "diff": [],
-     "cost": 0.0001425
+     "cost": 0.00013875
     },
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "すみません いえ だいじょうぶ です",
+     "text": "すみません、いえ、だいじょうぶです。",
      "diff": [
       [
        "delete",
@@ -4596,16 +4568,10 @@
     },
     {
      "name": "kana:thinkingmachines/inkling",
-     "verdict": "mismatch",
-     "text": "すみません。いえ、だいじょうぶです。",
-     "diff": [
-      [
-       "delete",
-       "い",
-       ""
-      ]
-     ],
-     "cost": 0.00059255
+     "verdict": "match",
+     "text": "すみません。いいえ、だいじょうぶです。",
+     "diff": [],
+     "cost": 0.00046295
     }
    ],
    "accepted": false
@@ -4621,16 +4587,10 @@
    "checks": [
     {
      "name": "pcompare:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"ゆげ\", \"heard\": \"よげ\"}], \"match\": false}\n```",
-     "diff": [
-      [
-       "replace",
-       "ゆげ",
-       "よげ"
-      ]
-     ],
-     "cost": 0.000345
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002925
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4649,12 +4609,12 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった。",
+     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
      "diff": [],
-     "cost": 0.0006832
+     "cost": 0.00041995
     }
    ],
-   "accepted": false
+   "accepted": true
   },
   {
    "key": "lite/kanadict/female/003_27453_myounichi_ex2",
@@ -4668,16 +4628,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000477
+     "cost": 0.00080325
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
      "text": "みょうにちのかいぎはじゅうじからです",
      "diff": [],
-     "cost": 0.00013875
+     "cost": 0.0001395
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -4688,16 +4648,10 @@
     },
     {
      "name": "kana:thinkingmachines/inkling",
-     "verdict": "mismatch",
-     "text": "あしたのかいぎはじゅうじからです。",
-     "diff": [
-      [
-       "replace",
-       "みょうにち",
-       "あした"
-      ]
-     ],
-     "cost": 0.0008235
+     "verdict": "match",
+     "text": "みょうにちのかいぎはじゅうじからです。",
+     "diff": [],
+     "cost": 0.00052785
     }
    ],
    "accepted": true
@@ -4714,9 +4668,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.0009345
+     "cost": 0.00069825
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4741,9 +4695,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ。",
      "diff": [],
-     "cost": 0.00045445
+     "cost": 0.0004423
     }
    ],
    "accepted": true
@@ -4760,9 +4714,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00070725
+     "cost": 0.000966
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4808,7 +4762,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000291
+     "cost": 0.00087975
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4848,7 +4802,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000858
+     "cost": 0.0008805
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4869,7 +4823,7 @@
      "verdict": "match",
      "text": "かぶきのくろこはぜんしんくろいいしょうをきている",
      "diff": [],
-     "cost": 0.0004121
+     "cost": 0.00065915
     }
    ],
    "accepted": true
@@ -4893,9 +4847,9 @@
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "わたくし の いけん を のべます",
+     "text": "わたくしのいけんをのべます",
      "diff": [],
-     "cost": 0.00013575
+     "cost": 0.000132
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -4909,7 +4863,7 @@
      "verdict": "match",
      "text": "わたくしのいけんをのべます",
      "diff": [],
-     "cost": 0.00045595
+     "cost": 0.0004924
     }
    ],
    "accepted": true
@@ -4926,9 +4880,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.0002325
+     "cost": 0.00058875
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -4940,16 +4894,16 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "n/a",
-     "text": "わかりました。音声を聞いて、発音された内容をそのままひらがなで書き起こします。以下がその文字起こしです。\n\nひたいに あせが にじみます",
+     "text": "わかりました。音声を聞いて、発音された内容をそのままひらがなで書き起こします。以下がその文字起こしです。\n\nひたいに あせが にじみだす",
      "diff": [],
-     "cost": 0.000168
+     "cost": 0.0001704
     },
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
      "text": "ひたいにあせがにじみだす",
      "diff": [],
-     "cost": 0.00039945
+     "cost": 0.0005412
     }
    ],
    "accepted": true
@@ -4966,16 +4920,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00052725
+     "cost": 0.00060225
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "いいこと おしえてあげる なになに はやく おしえて",
+     "text": "いいことおしえてあげる なになにはやくおしえて",
      "diff": [],
-     "cost": 0.0001875
+     "cost": 0.00018375
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -4995,7 +4949,7 @@
        "を"
       ]
      ],
-     "cost": 0.0004059
+     "cost": 0.00042615
     }
    ],
    "accepted": true
@@ -5012,14 +4966,14 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.000678
+     "cost": 0.00074925
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "いいことおしえてあげるなになにはやくおしえて",
+     "text": "いいことおしえてあげる なになにはやくおしえて",
      "diff": [],
      "cost": 0.00019575
     },
@@ -5032,10 +4986,16 @@
     },
     {
      "name": "kana:thinkingmachines/inkling",
-     "verdict": "match",
-     "text": "いいことおしえてあげる。なに？なに？はやくおしえて。",
-     "diff": [],
-     "cost": 0.0004432
+     "verdict": "mismatch",
+     "text": "いいことおしえてあげる。なに？はやくおしえて。",
+     "diff": [
+      [
+       "delete",
+       "なに",
+       ""
+      ]
+     ],
+     "cost": 0.00043105
     }
    ],
    "accepted": true
@@ -5081,7 +5041,7 @@
        ""
       ]
      ],
-     "cost": 0.00052555
+     "cost": 0.0004972
     }
    ],
    "accepted": true
@@ -5100,14 +5060,20 @@
      "verdict": "match",
      "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00051525
+     "cost": 0.00066525
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "すみませんいいえだいじょうぶです",
-     "diff": [],
-     "cost": 0.00015
+     "verdict": "mismatch",
+     "text": "すみませんいえだいじょうぶです",
+     "diff": [
+      [
+       "delete",
+       "い",
+       ""
+      ]
+     ],
+     "cost": 0.00014625
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -5127,10 +5093,10 @@
      "verdict": "match",
      "text": "すみません。いいえ、だいじょうぶです。",
      "diff": [],
-     "cost": 0.00046685
+     "cost": 0.00047495
     }
    ],
-   "accepted": true
+   "accepted": false
   },
   {
    "key": "lite/kanadict~r1/female/081_23425_eeto_ex2",
@@ -5146,19 +5112,13 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00026775
+     "cost": 0.00064275
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "えーっとつぎはなんでしたっけ",
-     "diff": [
-      [
-       "insert",
-       "",
-       "っ"
-      ]
-     ],
+     "verdict": "match",
+     "text": "ええとつぎはなんでしたっけ",
+     "diff": [],
      "cost": 0.00015525
     },
     {
@@ -5171,9 +5131,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "えーと、つぎはなんでしたっけ",
+     "text": "えーと、つぎはなんでしたっけ？",
      "diff": [],
-     "cost": 0.0003595
+     "cost": 0.000481
     }
    ],
    "accepted": true
@@ -5189,27 +5149,22 @@
    "checks": [
     {
      "name": "pcompare:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
-     "diff": [],
-     "cost": 0.00025275
-    },
-    {
-     "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "えっと つぎ わ なん でしたっけ",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ええと\", \"heard\": \"えっとー\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
-       "え",
-       "っ"
-      ],
-      [
-       "replace",
-       "は",
-       "わ"
+       "ええと",
+       "えっとー"
       ]
      ],
+     "cost": 0.0012315
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "えーとつぎはなんでしたっけ",
+     "diff": [],
      "cost": 0.00014025
     },
     {
@@ -5222,15 +5177,15 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "えと、つぎはなんでしたっけ？",
+     "text": "えっと、つぎはなんでしたっけ？",
      "diff": [
       [
-       "delete",
+       "replace",
        "え",
-       ""
+       "っ"
       ]
      ],
-     "cost": 0.0003435
+     "cost": 0.00044475
     }
    ],
    "accepted": false
@@ -5247,9 +5202,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.0002685
+     "cost": 0.0007785
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -5270,7 +5225,7 @@
      "verdict": "match",
      "text": "かいしゃがこんにちまでつづいたのはしゃいんのおかげだ",
      "diff": [],
-     "cost": 0.00039805
+     "cost": 0.00041425
     }
    ],
    "accepted": true
@@ -5287,23 +5242,29 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\n  \"differences\": [],\n  \"match\": true\n}\n```",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0007395
+     "cost": 0.00090825
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
-     "diff": [],
-     "cost": 0.00018825
+     "verdict": "mismatch",
+     "text": "こんやからあすのあさにかけで あめがつよまるでしょう",
+     "diff": [
+      [
+       "replace",
+       "て",
+       "で"
+      ]
+     ],
+     "cost": 0.000192
     },
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "match",
-     "text": "こんやから あすの あさに かけて あめが つよまる でしょう",
+     "text": "こんやからあすのあさにかけて あめがつよまるでしょう",
      "diff": [],
-     "cost": 0.0001224
+     "cost": 0.0001152
     },
     {
      "name": "kana:thinkingmachines/inkling",
@@ -5333,15 +5294,9 @@
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "こんやからあすのあさにかけであめがつよまるでしょう",
-     "diff": [
-      [
-       "replace",
-       "て",
-       "で"
-      ]
-     ],
+     "verdict": "match",
+     "text": "こんやからあすのあさにかけてあめがつよまるでしょう",
+     "diff": [],
      "cost": 0.0001785
     },
     {
@@ -5375,14 +5330,14 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00106425
+     "cost": 0.00116925
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "このみせのもなかはかわがパリパリでおいしい",
+     "text": "このみせのもなかはかわがぱりぱりでおいしい",
      "diff": [],
-     "cost": 0.0001665
+     "cost": 0.000174
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -5394,9 +5349,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "このみせのもなかはかわがぱりぱりでおいしい",
+     "text": "このみせのもなかは、かわがぱりぱりでおいしい。",
      "diff": [],
-     "cost": 0.0004
+     "cost": 0.00166765
     }
    ],
    "accepted": true
@@ -5413,21 +5368,15 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00123975
+     "cost": 0.00027975
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "このじんじゃわしょうばいはんじょうのごりやくでゆうめいだ",
-     "diff": [
-      [
-       "replace",
-       "は",
-       "わ"
-      ]
-     ],
+     "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ",
+     "diff": [],
      "cost": 0.000189
     },
     {
@@ -5448,7 +5397,7 @@
      "verdict": "match",
      "text": "このじんじゃは、しょうばいはんじょうのごりやくでゆうめいだ。",
      "diff": [],
-     "cost": 0.0004242
+     "cost": 0.0004161
     }
    ],
    "accepted": true
@@ -5465,9 +5414,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0004185
+     "cost": 0.00023475
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -5488,7 +5437,7 @@
      "verdict": "match",
      "text": "なにぶんよろしくおねがいします",
      "diff": [],
-     "cost": 0.000449
+     "cost": 0.0004328
     }
    ],
    "accepted": true
@@ -5507,7 +5456,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000231
+     "cost": 0.000531
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -5549,7 +5498,7 @@
      "verdict": "match",
      "text": "なにぶんよろしくおねがいします。",
      "diff": [],
-     "cost": 0.00064345
+     "cost": 0.0004855
     }
    ],
    "accepted": true
@@ -5568,14 +5517,14 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0002355
+     "cost": 0.00068175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "わたくし の いけん を のべます",
+     "text": "わたくしのいけんをのべます",
      "diff": [],
-     "cost": 0.0001245
+     "cost": 0.00012075
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -5593,9 +5542,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "わたくしのいけんをのべます",
+     "text": "わたくしのいけんをのべます。",
      "diff": [],
-     "cost": 0.000448
+     "cost": 0.0004399
     }
    ],
    "accepted": true
@@ -5612,16 +5561,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00023475
+     "cost": 0.00081225
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "わたくしのいけんをのべます",
+     "text": "わたくし の いけん を のべます",
      "diff": [],
-     "cost": 0.00012
+     "cost": 0.00012375
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -5641,7 +5590,7 @@
      "verdict": "match",
      "text": "わたくしのいけんをのべます",
      "diff": [],
-     "cost": 0.000447
+     "cost": 0.00047535
     }
    ],
    "accepted": true
@@ -5660,7 +5609,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00044925
+     "cost": 0.0005955
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -5685,9 +5634,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "はつかまでにおとどけします。",
+     "text": "はつかまでにおとどけします",
      "diff": [],
-     "cost": 0.00069105
+     "cost": 0.0006627
     }
    ],
    "accepted": true
@@ -5704,16 +5653,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000714
+     "cost": 0.00053775
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "つきぎめちゅうしゃじょうをかりた",
+     "text": "つきぎめ ちゅうしゃじょう を かりた",
      "diff": [],
-     "cost": 0.000129
+     "cost": 0.00013275
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -5738,7 +5687,7 @@
      "verdict": "match",
      "text": "つきぎめちゅうしゃじょうをかりた",
      "diff": [],
-     "cost": 0.0003518
+     "cost": 0.0005462
     }
    ],
    "accepted": true
@@ -5757,7 +5706,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0002385
+     "cost": 0.0005085
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -5769,16 +5718,16 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "n/a",
-     "text": "わかりました。音声を聞いて、そのままの発音でひらがなで書き起こします。以下がその文字起こしです。\n\nひたいに あせが にじみだす",
+     "text": "わかりました。音声を再生していただけますか？",
      "diff": [],
-     "cost": 0.000168
+     "cost": 9.12e-05
     },
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
      "text": "ひたいにあせがにじみだす",
      "diff": [],
-     "cost": 0.00043785
+     "cost": 0.0004824
     }
    ],
    "accepted": true
@@ -5795,20 +5744,15 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"わ\", \"heard\": \"\"}, {\"expected\": \"やく\", \"heard\": \"はやく\"}], \"match\": false}\n```",
+     "text": "```json\n{\"differences\": [{\"expected\": \"わやく\", \"heard\": \"はやく\"}], \"match\": false}\n```",
      "diff": [
       [
        "replace",
-       "わ",
-       ""
-      ],
-      [
-       "replace",
-       "やく",
+       "わやく",
        "はやく"
       ]
      ],
-     "cost": 0.00037875
+     "cost": 0.00159
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -5827,9 +5771,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "まんようしゅうに、はやくよんせんごひゃくしゅのうたがある",
+     "text": "まんようしゅうに、はやく、よんせんごひゃくしゅのうたがある",
      "diff": [],
-     "cost": 0.00042715
+     "cost": 0.00105895
     }
    ],
    "accepted": false
@@ -5848,16 +5792,16 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000732
+     "cost": 0.0002595
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "えっと つぎ は なん でしたっけ",
+     "text": "えーっとつぎはなんでしたっけ",
      "diff": [
       [
-       "replace",
-       "え",
+       "insert",
+       "",
        "っ"
       ]
      ],
@@ -5875,7 +5819,7 @@
      "verdict": "match",
      "text": "えーと、つぎはなんでしたっけ？",
      "diff": [],
-     "cost": 0.00050845
+     "cost": 0.00035455
     }
    ],
    "accepted": true
@@ -5892,22 +5836,22 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0002295
+     "cost": 0.00024825
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "えーっと つぎは なんでしたっけ",
+     "verdict": "match",
+     "text": "えーとつぎわなんでしたっけ",
      "diff": [
       [
-       "insert",
-       "",
-       "っ"
+       "replace",
+       "は",
+       "わ"
       ]
      ],
-     "cost": 0.0001395
+     "cost": 0.00013575
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -5938,9 +5882,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00024825
+     "cost": 0.00067575
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -5967,7 +5911,7 @@
        "あした"
       ]
      ],
-     "cost": 0.000783
+     "cost": 0.00091665
     }
    ],
    "accepted": true
@@ -5986,7 +5930,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000282
+     "cost": 0.0006795
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -6053,7 +5997,7 @@
      "verdict": "match",
      "text": "ゆうべはともだちとはしござけをした",
      "diff": [],
-     "cost": 0.0003608
+     "cost": 0.00037295
     }
    ],
    "accepted": true
@@ -6072,17 +6016,17 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000486
+     "cost": 0.000546
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "じゅういちがつわもみじがきれいです",
+     "verdict": "mismatch",
+     "text": "じゅういちがつはもみじがきれいですね",
      "diff": [
       [
-       "replace",
-       "は",
-       "わ"
+       "insert",
+       "",
+       "ね"
       ]
      ],
      "cost": 0.0001485
@@ -6099,7 +6043,7 @@
      "verdict": "match",
      "text": "じゅういちがつはもみじがきれいです。",
      "diff": [],
-     "cost": 0.0008021
+     "cost": 0.0007535
     }
    ],
    "accepted": true
@@ -6118,12 +6062,12 @@
      "verdict": "match",
      "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00023775
+     "cost": 0.00056775
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "なつのさなかにていでんがおきた",
+     "text": "なつのさなかに ていでんがおきた",
      "diff": [],
      "cost": 0.0001455
     },
@@ -6145,7 +6089,7 @@
      "verdict": "match",
      "text": "なつのさなかにていでんがおきた。",
      "diff": [],
-     "cost": 0.00066845
+     "cost": 0.0006239
     }
    ],
    "accepted": true
@@ -6164,14 +6108,14 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0007395
+     "cost": 0.000777
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "もっかの　かだいは　ひとでぶそくだ",
+     "text": "もっかの かだいは ひとでぶそくだ",
      "diff": [],
-     "cost": 0.000162
+     "cost": 0.00014325
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -6182,16 +6126,10 @@
     },
     {
      "name": "kana:thinkingmachines/inkling",
-     "verdict": "mismatch",
-     "text": "きのしたのかだいは、ひとでぶそくだ。",
-     "diff": [
-      [
-       "replace",
-       "もっか",
-       "きのした"
-      ]
-     ],
-     "cost": 0.0005653
+     "verdict": "match",
+     "text": "もっかのかだいはひとでぶそくだ",
+     "diff": [],
+     "cost": 0.00034255
     }
    ],
    "accepted": true
@@ -6210,14 +6148,14 @@
      "verdict": "match",
      "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00102825
+     "cost": 0.00057825
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "もっかの かだいは ひとでぶそくだ",
+     "text": "もっかのかだいはひとでぶそくだ",
      "diff": [],
-     "cost": 0.00014325
+     "cost": 0.0001395
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -6237,7 +6175,7 @@
        "きのした"
       ]
      ],
-     "cost": 0.00056125
+     "cost": 0.0005815
     }
    ],
    "accepted": true
@@ -6254,15 +6192,21 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00095625
+     "cost": 0.00025875
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "せろんはひがいしゃにどうじょうてきだった",
-     "diff": [],
+     "text": "せろんわひがいしゃにどうじょうてきだった",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
      "cost": 0.000156
     },
     {
@@ -6283,7 +6227,7 @@
      "verdict": "match",
      "text": "せろんはひがいしゃにどうじょうてきだった",
      "diff": [],
-     "cost": 0.0005672
+     "cost": 0.0003728
     }
    ],
    "accepted": true
@@ -6299,16 +6243,10 @@
    "checks": [
     {
      "name": "pcompare:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "```json\n{\"differences\": [{\"expected\": \"ごりやく\", \"heard\": \"ごりあく\"}], \"match\": false}\n```",
-     "diff": [
-      [
-       "replace",
-       "ごりやく",
-       "ごりあく"
-      ]
-     ],
-     "cost": 0.0003465
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00099525
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -6335,10 +6273,10 @@
      "verdict": "match",
      "text": "このじんじゃはしょうばいはんじょうのごりやくでゆうめいだ。",
      "diff": [],
-     "cost": 0.00041505
+     "cost": 0.0004353
     }
    ],
-   "accepted": false
+   "accepted": true
   },
   {
    "key": "flash/kanadict/female/025_19257_ichimokuoku_ex2",
@@ -6352,21 +6290,15 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00069
+     "cost": 0.00027075
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "せんぱいたちもかのじょのじつりょくにはいちもくをおいている",
-     "diff": [
-      [
-       "insert",
-       "",
-       "を"
-      ]
-     ],
+     "verdict": "match",
+     "text": "せんぱいたちもかのじょのじつりょくにはいちもくおいている",
+     "diff": [],
      "cost": 0.00018825
     },
     {
@@ -6381,7 +6313,7 @@
      "verdict": "match",
      "text": "せんぱいたちもかのじょのじつりょくにはいちもくおいている",
      "diff": [],
-     "cost": 0.0007838
+     "cost": 0.0004193
     }
    ],
    "accepted": true
@@ -6400,14 +6332,14 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00059325
+     "cost": 0.00080325
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "しょうかいがないと いちげんでは はいれない りょうていだ",
+     "text": "しょうかいがないといちげんでははいれないりょうていだ",
      "diff": [],
-     "cost": 0.000171
+     "cost": 0.00016725
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -6427,7 +6359,7 @@
        "よ"
       ]
      ],
-     "cost": 0.0004132
+     "cost": 0.000397
     }
    ],
    "accepted": true
@@ -6443,17 +6375,23 @@
    "checks": [
     {
      "name": "pcompare:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
-     "diff": [],
-     "cost": 0.0014685
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"じゅっぷん\", \"heard\": \"じっぷん\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "じゅっぷん",
+       "じっぷん"
+      ]
+     ],
+     "cost": 0.001281
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "みちをまちがえてえきとははんたいほうこうにじゅっぷんもあるいてしまった",
+     "text": "みちをまちがえて えきとははんたいほうこうに じゅっぷんもあるいてしまった",
      "diff": [],
-     "cost": 0.0002295
+     "cost": 0.00023325
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -6473,10 +6411,10 @@
        ""
       ]
      ],
-     "cost": 0.00046335
+     "cost": 0.00047955
     }
    ],
-   "accepted": true
+   "accepted": false
   },
   {
    "key": "flash/kanadict/male/032_30278_hantaihoukou_ex3",
@@ -6490,9 +6428,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000969
+     "cost": 0.00158775
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -6513,7 +6451,7 @@
      "verdict": "match",
      "text": "みちをまちがえて、えきとははんたいほうこうにじゅっぷんもあるいてしまった。",
      "diff": [],
-     "cost": 0.0003814
+     "cost": 0.0004867
     }
    ],
    "accepted": true
@@ -6529,10 +6467,16 @@
    "checks": [
     {
      "name": "pcompare:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
-     "diff": [],
-     "cost": 0.00108525
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ぎんなんおちゃわんむしにいれる\", \"heard\": \"ぎんなんをちゃわんむしにいれる\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ぎんなんおちゃわんむしにいれる",
+       "ぎんなんをちゃわんむしにいれる"
+      ]
+     ],
+     "cost": 0.00037275
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -6559,10 +6503,10 @@
      "verdict": "match",
      "text": "ぎんなんをちゃわんむしにいれる",
      "diff": [],
-     "cost": 0.000789
+     "cost": 0.00041235
     }
    ],
-   "accepted": true
+   "accepted": false
   },
   {
    "key": "flash/kanadict/male/037_26231_kagerou_ex1",
@@ -6578,7 +6522,7 @@
      "verdict": "match",
      "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.0007335
+     "cost": 0.00066975
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -6610,7 +6554,7 @@
      "verdict": "match",
      "text": "かげろうは、いちにちしかいきられない。",
      "diff": [],
-     "cost": 0.0005065
+     "cost": 0.0005227
     }
    ],
    "accepted": true
@@ -6634,9 +6578,9 @@
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "つらいときによりそってくれるひとがいるのはほんとうにありがたい",
+     "text": "つらいときに よりそってくれるひとがいるのは ほんとうに ありがたい",
      "diff": [],
-     "cost": 0.000201
+     "cost": 0.0002085
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -6656,7 +6600,7 @@
      "verdict": "match",
      "text": "つらいときによりそってくれるひとがいるのはほんとうにありがたい",
      "diff": [],
-     "cost": 0.00042495
+     "cost": 0.0004452
     }
    ],
    "accepted": true
@@ -6673,9 +6617,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00025275
+     "cost": 0.000534
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -6700,9 +6644,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "つきがみなもにうつってうつくしかった",
+     "text": "つきがみなもにうつって、うつくしかった。",
      "diff": [],
-     "cost": 0.00037185
+     "cost": 0.00058245
     }
    ],
    "accepted": true
@@ -6721,7 +6665,7 @@
      "verdict": "match",
      "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.000612
+     "cost": 0.00070575
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -6733,7 +6677,7 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "ながい じかんが たった",
+     "text": "ながい じかん が たった",
      "diff": [
       [
        "replace",
@@ -6748,7 +6692,7 @@
      "verdict": "match",
      "text": "ながいとしつきがたった",
      "diff": [],
-     "cost": 0.00046315
+     "cost": 0.00047125
     }
    ],
    "accepted": true
@@ -6765,14 +6709,14 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00087375
+     "cost": 0.0018375
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "むすこはとうに なった",
+     "text": "むすこは とうに なった",
      "diff": [
       [
        "replace",
@@ -6780,7 +6724,7 @@
        "う"
       ]
      ],
-     "cost": 0.00012
+     "cost": 0.00012375
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -6798,7 +6742,7 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "むすこはとうになった",
+     "text": "むすこは、とうになった。",
      "diff": [
       [
        "replace",
@@ -6806,7 +6750,7 @@
        "う"
       ]
      ],
-     "cost": 0.0005158
+     "cost": 0.0006778
     }
    ],
    "accepted": true
@@ -6825,7 +6769,7 @@
      "verdict": "match",
      "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.001248
+     "cost": 0.0011655
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -6850,9 +6794,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "まんようしゅうにはやくよんせんごひゃくしゅのうたがある",
+     "text": "まんようしゅうには、やくよんせんごひゃくしゅのうたがある。",
      "diff": [],
-     "cost": 0.000406
+     "cost": 0.0009406
     }
    ],
    "accepted": true
@@ -6869,9 +6813,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000291
+     "cost": 0.00030975
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -6889,16 +6833,10 @@
     },
     {
      "name": "kana:thinkingmachines/inkling",
-     "verdict": "mismatch",
-     "text": "うりあげが、ぜんねんよりにじゅうパーセントアップした。",
-     "diff": [
-      [
-       "replace",
-       "っ",
-       "う"
-      ]
-     ],
-     "cost": 0.000822
+     "verdict": "match",
+     "text": "うりあげがぜんねんよりにじゅっぱーせんとあっぷした",
+     "diff": [],
+     "cost": 0.0011784
     }
    ],
    "accepted": true
@@ -6917,14 +6855,14 @@
      "verdict": "match",
      "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00067725
+     "cost": 0.00063225
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "うりあげが ぜんねんより にじゅっぱーせんと あっぷした",
+     "text": "うりあげがぜんねんよりにじゅっぱーせんとあっぷした",
      "diff": [],
-     "cost": 0.0001905
+     "cost": 0.00018675
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -6935,16 +6873,10 @@
     },
     {
      "name": "kana:thinkingmachines/inkling",
-     "verdict": "mismatch",
-     "text": "うりあげがぜんねんより20%あっぷした。",
-     "diff": [
-      [
-       "replace",
-       "にじっ",
-       "二十"
-      ]
-     ],
-     "cost": 0.00066025
+     "verdict": "match",
+     "text": "うりあげがぜんねんよりにじゅっぱーせんとあっぷした",
+     "diff": [],
+     "cost": 0.0008668
     }
    ],
    "accepted": true
@@ -6961,16 +6893,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "```json\n{\n  \"differences\": [],\n  \"match\": true\n}\n```",
      "diff": [],
-     "cost": 0.0003
+     "cost": 0.001185
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "しんていしのばあいはすぐにAEDをしようしてください",
+     "text": "しんていしのばあいはすぐにえーいーでぃーをしようしてください",
      "diff": [],
-     "cost": 0.000195
+     "cost": 0.0002175
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -6988,9 +6920,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "しんていしのばあいは、すぐにエーイーディーをしようしてください。",
+     "text": "しんていしのばあいは、すぐにえーいーでぃーをしようしてください。",
      "diff": [],
-     "cost": 0.00105775
+     "cost": 0.0011185
     }
    ],
    "accepted": true
@@ -7007,16 +6939,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00056025
+     "cost": 0.00044775
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "てぃーぴーおーをかんがえてこうどうしなさい",
+     "text": "TPOをかんがえてこうどうしなさい",
      "diff": [],
-     "cost": 0.00015825
+     "cost": 0.0001395
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -7039,9 +6971,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "てぃーぴーおーをかんがえてこうどうしなさい",
+     "text": "ティーピーオーをかんがえてこうどうしなさい",
      "diff": [],
-     "cost": 0.0005977
+     "cost": 0.0006706
     }
    ],
    "accepted": true
@@ -7064,16 +6996,10 @@
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "それたかいじゃんかえないよー",
-     "diff": [
-      [
-       "insert",
-       "",
-       "お"
-      ]
-     ],
-     "cost": 0.0001335
+     "verdict": "match",
+     "text": "それたかいじゃんかえないよ",
+     "diff": [],
+     "cost": 0.00012975
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -7087,7 +7013,7 @@
      "verdict": "match",
      "text": "それたかいじゃん、かえないよ",
      "diff": [],
-     "cost": 0.0004863
+     "cost": 0.00043365
     }
    ],
    "accepted": true
@@ -7110,10 +7036,16 @@
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "おもしろかったっていうかかんどうしたっていったほうがいいかな",
-     "diff": [],
-     "cost": 0.00018525
+     "verdict": "mismatch",
+     "text": "おもしろかったていうかかんどうしたっていったほうがいいかな",
+     "diff": [
+      [
+       "delete",
+       "っ",
+       ""
+      ]
+     ],
+     "cost": 0.000189
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -7146,14 +7078,14 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00039525
+     "cost": 0.000999
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
      "text": "らいぶはうすでえんそうをつづけながらじさくのきょくをみがいてきたしんがーそんぐらいたーがついにめじゃーでびゅーをはたした",
      "diff": [],
-     "cost": 0.00039675
+     "cost": 0.0004005
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -7178,7 +7110,7 @@
      "verdict": "match",
      "text": "らいぶはうすでえんそうをつづけながらじさくのきょくをみがいてきたしんがーそんぐらいたーがついにめじゃーでびゅーをはたした",
      "diff": [],
-     "cost": 0.00063855
+     "cost": 0.00064665
     }
    ],
    "accepted": true
@@ -7195,9 +7127,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ききにくくなり\", \"heard\": \"ききにくくなり\"}], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00084
+     "cost": 0.00043875
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -7241,9 +7173,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.000966
+     "cost": 0.00096225
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -7270,7 +7202,7 @@
      "verdict": "match",
      "text": "いんすたでおみせのあかうんとをたぐづけしてとうこうしたらりぽすとされた",
      "diff": [],
-     "cost": 0.0004474
+     "cost": 0.00045955
     }
    ],
    "accepted": true
@@ -7289,7 +7221,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00028725
+     "cost": 0.0005985
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -7321,7 +7253,7 @@
      "verdict": "match",
      "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
      "diff": [],
-     "cost": 0.0004261
+     "cost": 0.00041395
     }
    ],
    "accepted": true
@@ -7370,9 +7302,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "らーめんからゆげがたちのぼって、とてもおいしそうだった。",
+     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
      "diff": [],
-     "cost": 0.000405
+     "cost": 0.0004131
     }
    ],
    "accepted": true
@@ -7389,9 +7321,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00089325
+     "cost": 0.00075825
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -7410,15 +7342,15 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "mismatch",
-     "text": "みょうにちのかんぎは、じゅうじからです。",
+     "text": "あしたのかいぎは、じゅうじからです。",
      "diff": [
       [
        "replace",
-       "い",
-       "ん"
+       "みょうにち",
+       "あした"
       ]
      ],
-     "cost": 0.0007667
+     "cost": 0.00085985
     }
    ],
    "accepted": true
@@ -7437,14 +7369,14 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0002685
+     "cost": 0.0010335
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "ゆうべは ともだちと はしござけをした",
+     "text": "ゆうべはともだちとはしござけをした",
      "diff": [],
-     "cost": 0.0001665
+     "cost": 0.000159
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -7458,7 +7390,7 @@
      "verdict": "match",
      "text": "ゆうべはともだちとはしござけをした",
      "diff": [],
-     "cost": 0.0003676
+     "cost": 0.00036355
     }
    ],
    "accepted": true
@@ -7477,17 +7409,17 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0007695
+     "cost": 0.00024825
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "mismatch",
-     "text": "じゅういちがつはもみじがきれいですね",
+     "text": "じゅういちがつはもみじがれいです",
      "diff": [
       [
-       "insert",
-       "",
-       "ね"
+       "delete",
+       "き",
+       ""
       ]
      ],
      "cost": 0.0001395
@@ -7495,16 +7427,16 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "match",
-     "text": "じゅういちがつは　もみじが　きれい　です。",
+     "text": "じゅういちがつは もみじが きれいです。",
      "diff": [],
-     "cost": 0.0001056
+     "cost": 0.0001032
     },
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
      "text": "じゅういちがつはもみじがきれいです。",
      "diff": [],
-     "cost": 0.0007678
+     "cost": 0.0008164
     }
    ],
    "accepted": true
@@ -7521,15 +7453,21 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0008805
+     "cost": 0.00086175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "じゅういちがつはもみじが綺麗です",
-     "diff": [],
+     "verdict": "mismatch",
+     "text": "じゅういちがつはもみじがれいです",
+     "diff": [
+      [
+       "delete",
+       "き",
+       ""
+      ]
+     ],
      "cost": 0.000153
     },
     {
@@ -7542,9 +7480,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "じゅういちがつはもみじがきれいです。",
+     "text": "じゅういちがつはもみじがきれいです",
      "diff": [],
-     "cost": 0.00078585
+     "cost": 0.0007818
     }
    ],
    "accepted": true
@@ -7563,7 +7501,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.001566
+     "cost": 0.00097725
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -7595,7 +7533,7 @@
        "ば"
       ]
      ],
-     "cost": 0.00056125
+     "cost": 0.0005653
     }
    ],
    "accepted": true
@@ -7641,7 +7579,7 @@
      "verdict": "match",
      "text": "なつのさなかにていでんがおきた",
      "diff": [],
-     "cost": 0.00054095
+     "cost": 0.0005369
     }
    ],
    "accepted": true
@@ -7664,15 +7602,9 @@
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "せんばいたちもかのじょのじつりょくにはいちもくおいている",
-     "diff": [
-      [
-       "replace",
-       "ぱ",
-       "ば"
-      ]
-     ],
+     "verdict": "match",
+     "text": "せんぱいたちもかのじょのじつりょくにはいちもくおいている",
+     "diff": [],
      "cost": 0.0002055
     },
     {
@@ -7687,7 +7619,7 @@
      "verdict": "match",
      "text": "せんぱいたちもかのじょのじつりょくにはいちもくおいている",
      "diff": [],
-     "cost": 0.0004535
+     "cost": 0.0004373
     }
    ],
    "accepted": true
@@ -7706,7 +7638,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0010845
+     "cost": 0.0003195
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -7724,16 +7656,10 @@
     },
     {
      "name": "kana:thinkingmachines/inkling",
-     "verdict": "mismatch",
-     "text": "みちをまちがえて、えきとはんたいほうこうにじゅっぷんもあるいてしまった。",
-     "diff": [
-      [
-       "delete",
-       "は",
-       ""
-      ]
-     ],
-     "cost": 0.0004693
+     "verdict": "match",
+     "text": "みちをまちがえて、えきとははんたいほうこうにじゅっぷんもあるいてしまった。",
+     "diff": [],
+     "cost": 0.00047335
     }
    ],
    "accepted": true
@@ -7752,14 +7678,14 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0007785
+     "cost": 0.0002385
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "かれは なかなか の つわもの だ",
+     "text": "かれはなかなか の つわもの だ",
      "diff": [],
-     "cost": 0.00012375
+     "cost": 0.00012
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -7773,7 +7699,7 @@
      "verdict": "match",
      "text": "かれはなかなかのつわものだ",
      "diff": [],
-     "cost": 0.0004591
+     "cost": 0.0004915
     }
    ],
    "accepted": true
@@ -7790,9 +7716,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00110925
+     "cost": 0.00029175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -7836,22 +7762,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0006405
+     "cost": 0.000693
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "きょうはいひよりだ",
-     "diff": [
-      [
-       "delete",
-       "い",
-       ""
-      ]
-     ],
-     "cost": 0.00010725
+     "verdict": "match",
+     "text": "きょうはいいひよりだ",
+     "diff": [],
+     "cost": 0.000111
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -7882,22 +7802,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00060525
+     "cost": 0.00068025
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "mismatch",
-     "text": "きょうはいひよりだ",
-     "diff": [
-      [
-       "delete",
-       "い",
-       ""
-      ]
-     ],
-     "cost": 0.00010575
+     "verdict": "match",
+     "text": "きょうはいーひよりだ",
+     "diff": [],
+     "cost": 0.0001095
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -7920,7 +7834,7 @@
      "cost": 0.0003954
     }
    ],
-   "accepted": false
+   "accepted": true
   },
   {
    "key": "lite/kanadict/male/040_21222_kobara_ex3",
@@ -7934,9 +7848,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0013665
+     "cost": 0.00072525
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -7963,7 +7877,7 @@
      "verdict": "match",
      "text": "こばらがすいたときにたべられるようにかばんにおかしをいれている",
      "diff": [],
-     "cost": 0.00045955
+     "cost": 0.0004312
     }
    ],
    "accepted": true
@@ -7980,9 +7894,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.000816
+     "cost": 0.00059175
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -8033,9 +7947,9 @@
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "つらいときに よりそってくれるひとがいるのは ほんとうにありがたい",
+     "text": "つらいときに よりそってくれるひとがいるのは ほんとうに ありがたい",
      "diff": [],
-     "cost": 0.000204
+     "cost": 0.00020775
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -8055,7 +7969,7 @@
      "verdict": "match",
      "text": "つらいときによりそってくれるひとがいるのはほんとうにありがたい",
      "diff": [],
-     "cost": 0.0004442
+     "cost": 0.0004604
     }
    ],
    "accepted": true
@@ -8072,9 +7986,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "{\"differences\": [], \"match\": true}",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00058125
+     "cost": 0.00023625
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -8101,7 +8015,7 @@
      "verdict": "match",
      "text": "はつかまでにおとどけします。",
      "diff": [],
-     "cost": 0.00065555
+     "cost": 0.0007082
     }
    ],
    "accepted": true
@@ -8118,9 +8032,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00066
+     "cost": 0.0004725
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -8132,7 +8046,7 @@
     {
      "name": "kana:openai/gpt-audio-mini",
      "verdict": "mismatch",
-     "text": "はっかまでに おとどけします",
+     "text": "はっかまでに　おとどけします",
      "diff": [
       [
        "replace",
@@ -8140,14 +8054,14 @@
        "っ"
       ]
      ],
-     "cost": 7.86e-05
+     "cost": 8.1e-05
     },
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
      "text": "はつかまでにおとどけします",
      "diff": [],
-     "cost": 0.00053
+     "cost": 0.0006434
     }
    ],
    "accepted": true
@@ -8166,7 +8080,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.0006285
+     "cost": 0.000516
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -8239,7 +8153,7 @@
      "verdict": "match",
      "text": "つきがみなもにうつってうつくしかった",
      "diff": [],
-     "cost": 0.00038505
+     "cost": 0.00053085
     }
    ],
    "accepted": true
@@ -8256,9 +8170,9 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.0006045
+     "cost": 0.00099825
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -8285,7 +8199,7 @@
      "verdict": "match",
      "text": "つきぎめちゅうしゃじょうをかりた",
      "diff": [],
-     "cost": 0.0004519
+     "cost": 0.0007516
     }
    ],
    "accepted": true
@@ -8308,9 +8222,15 @@
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "にせんきゅうねんにかぶけんのでんしかがかんりょうしかみのかぶけんはげんそくとしてはいしされた",
-     "diff": [],
+     "verdict": "mismatch",
+     "text": "にせんきゅうねんにかぶけんのでんしかがかんりょうしかみのかぶけんはげんそくとしてはいいしされた",
+     "diff": [
+      [
+       "insert",
+       "",
+       "い"
+      ]
+     ],
      "cost": 0.000279
     },
     {
@@ -8344,7 +8264,7 @@
      "verdict": "match",
      "text": "```json\n{\"differences\": [], \"match\": true}\n```",
      "diff": [],
-     "cost": 0.00029175
+     "cost": 0.0007755
     },
     {
      "name": "kana:google/gemini-3.8-flash",
@@ -8363,9 +8283,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "うりあげがぜんねんよりにじゅっぱーせんとあっぷした。",
+     "text": "うりあげがぜんねんよりにじゅっぱーせんとあっぷした",
      "diff": [],
-     "cost": 0.00092855
+     "cost": 0.00101765
     }
    ],
    "accepted": true
@@ -8382,16 +8302,16 @@
     {
      "name": "pcompare:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "text": "{\"differences\": [], \"match\": true}",
      "diff": [],
-     "cost": 0.00146175
+     "cost": 0.0015255
     },
     {
      "name": "kana:google/gemini-3.8-flash",
      "verdict": "match",
-     "text": "さんにんしまい の すえっこ と して そだった かのじょ は いつも あねたち の あと を おいかけていた そうだ いまでは おたがいに ささえあう かんけい に なっている",
+     "text": "さんにんしまい の すえっこ と して そだった かのじょ は いつも あね たち の あと を おいかけていた そう だ いま で は おたがい に ささえあう かんけい に なっている",
      "diff": [],
-     "cost": 0.00041475
+     "cost": 0.00042225
     },
     {
      "name": "kana:openai/gpt-audio-mini",
@@ -8403,9 +8323,9 @@
     {
      "name": "kana:thinkingmachines/inkling",
      "verdict": "match",
-     "text": "さんにんしまいのすえっことしてそだったかのじょは、いつもあねたちのあとをおいかけていたそうだ。いまではおたがいにささえあうかんけいになっている。",
+     "text": "さんにんしまいのすえっことしてそだったかのじょはいつもあねたちのあとをおいかけていたそうだ。いまではおたがいにささえあうかんけいになっている。",
      "diff": [],
-     "cost": 0.00067485
+     "cost": 0.0006627
     }
    ],
    "accepted": true
@@ -8428,9 +8348,20 @@
     },
     {
      "name": "kana:google/gemini-3.8-flash",
-     "verdict": "match",
-     "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
-     "diff": [],
+     "verdict": "mismatch",
+     "text": "らーめんからゆげたちがのぼってとてもおいしそうだった",
+     "diff": [
+      [
+       "delete",
+       "が",
+       ""
+      ],
+      [
+       "insert",
+       "",
+       "が"
+      ]
+     ],
      "cost": 0.00017925
     },
     {
@@ -8451,7 +8382,2777 @@
      "verdict": "match",
      "text": "らーめんからゆげがたちのぼってとてもおいしそうだった",
      "diff": [],
-     "cost": 0.00039285
+     "cost": 0.0004131
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/12000/12334_hai_ex1.405c060b.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000228
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "はいでこきゅうする",
+     "diff": [],
+     "cost": 0.00010425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "はい で こきゅう する",
+     "diff": [],
+     "cost": 7.62e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "はいでこきゅうする",
+     "diff": [],
+     "cost": 0.0003529
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/20500/20622_ragan_ex2.1bf6f190.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0007215
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "らがんしりょくはさいゆうともれえてんさんです",
+     "diff": [
+      [
+       "insert",
+       "",
+       "い"
+      ],
+      [
+       "replace",
+       "03",
+       "れえてんさん"
+      ]
+     ],
+     "cost": 0.00017175
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "だがんしりょくは さゆうとも れいてんさん です。",
+     "diff": [
+      [
+       "replace",
+       "ら",
+       "だ"
+      ],
+      [
+       "replace",
+       "03",
+       "れいてんさん"
+      ]
+     ],
+     "cost": 0.0001134
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "らがんしりょくはさゆうともれいてんさんです。",
+     "diff": [
+      [
+       "replace",
+       "03",
+       "れいてんさん"
+      ]
+     ],
+     "cost": 0.00094375
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/01500/01815_akiru_ex5.7046755f.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00047475
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このけしきわなんどみてもあきない",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.00015525
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "このけしきは　なんど　みても　あきない",
+     "diff": [],
+     "cost": 9.78e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このけしきは、なんどみてもあきない。",
+     "diff": [],
+     "cost": 0.0005054
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00513_deru_ex15.c2bc4154.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00071925
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "らいげつのパーティーにでるよていですがじかんがあるかどうかわかりません",
+     "diff": [],
+     "cost": 0.00021
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "らいげつの　ぱーてぃーに　でる　よてい　ですが、　じかん　が　ある　か　どうか　わかりません。",
+     "diff": [],
+     "cost": 0.0001716
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "らいげつのぱーてぃーにでるよていですが、じかんがあるかどうかわかりません。",
+     "diff": [],
+     "cost": 0.00047465
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/17500/17986_eiseikanri_ex2.37b5d479.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0008055
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このこうじょうではえいせいかんりがきびしい",
+     "diff": [],
+     "cost": 0.0001545
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "この こうじょう では えいせい かんり が きびしい",
+     "diff": [],
+     "cost": 0.0001104
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このこうじょうではえいせいかんりがきびしい。",
+     "diff": [],
+     "cost": 0.00061785
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/11500/11878_betsumei_ex2.bec13f80.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002715
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ふじさんはべつめいふようほうともよばれる",
+     "diff": [],
+     "cost": 0.0001695
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ふじさん　は　べつめい　ふようほう　とも　よばれる",
+     "diff": [],
+     "cost": 0.000114
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ふじさんはべつめいふようほうともよばれる",
+     "diff": [],
+     "cost": 0.00037065
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00999_tatoeba_ex1.e4cbb4ed.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00045675
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "たとえばなに",
+     "diff": [],
+     "cost": 8.475e-05
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "たとえば なに",
+     "diff": [],
+     "cost": 6.3e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "たとえばなに？",
+     "diff": [],
+     "cost": 0.0003398
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32460_shirouo_ex1.764c1b78.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00095625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "しろ魚は春がしゅんだ",
+     "diff": [
+      [
+       "replace",
+       "素魚",
+       "しろ魚"
+      ]
+     ],
+     "cost": 0.00012825
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "しろうおは　はるが　しゅんだ",
+     "diff": [],
+     "cost": 9.12e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "しろうおははるがしゅんだ",
+     "diff": [],
+     "cost": 0.00074755
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32456_kabaaryoku_ex3.501a7e37.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00201225
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "うすづきなのにかばーりょくがあるのでまいにちのけしょうにつかいやすい",
+     "diff": [],
+     "cost": 0.0002205
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "うすづきなのに　カバーりょくが　あるので　まいにちの　けしょうに　つかいやすい",
+     "diff": [],
+     "cost": 0.0001482
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "うすづきなのにかばーりょくがあるのでまいにちのけしょうにつかいやすい",
+     "diff": [],
+     "cost": 0.00046145
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32199_kangengaku_ex3.aac34a81.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00031575
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このきょくわもともとぴあのきょくだったがのちにかんげんがくにへんきょくされた",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.00025725
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "このきょくは　もともと　ぴあのきょくだったが　のちに　かんげんがくに　へんきょくされた",
+     "diff": [],
+     "cost": 0.0001662
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このきょくはもともとぴあのきょくだったが、のちにかんげんがくにへんきょくされた。",
+     "diff": [],
+     "cost": 0.0004937
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/22500/22700_kenmin_ex3.20bbad9c.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00062625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "あたらしいちじわけんみんのきたいをあつめている",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.000174
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "あたらしい ちじ は けんみん の きたい を あつめて いる",
+     "diff": [],
+     "cost": 0.000123
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "あたらしいちじはけんみんのきたいをあつめている",
+     "diff": [],
+     "cost": 0.00057005
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32407_barizougon_ex2.c82f1eb0.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"ばりぞうごん\", \"heard\": \"ばりぞんごん\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "ばりぞうごん",
+       "ばりぞんごん"
+      ]
+     ],
+     "cost": 0.001665
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ねっとじょうにはばりぞうごんがあふれている",
+     "diff": [],
+     "cost": 0.0001665
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ねっとじょうには ばりぞうごんが あふれている",
+     "diff": [],
+     "cost": 0.0001032
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "ねっとじょうには、わるいぞうごがあふれている。",
+     "diff": [
+      [
+       "replace",
+       "ばり",
+       "わるい"
+      ],
+      [
+       "delete",
+       "ん",
+       ""
+      ]
+     ],
+     "cost": 0.0008648
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/24000/24009_yuiitsusei_ex3.23140276.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00029925
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "でーたべーすではあいでぃーのゆいいつせいをほしょうするひつようがある",
+     "diff": [
+      [
+       "replace",
+       "ID",
+       "あいでぃい"
+      ]
+     ],
+     "cost": 0.00023475
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "でーたべーす では あいでぃー の ゆういつせい を ほしょう する ひつよう が ある",
+     "diff": [
+      [
+       "replace",
+       "ID",
+       "あいでぃい"
+      ],
+      [
+       "replace",
+       "い",
+       "う"
+      ]
+     ],
+     "cost": 0.0001542
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "でーたべーすではあいでぃーのゆいいつせいをほしょうするひつようがある",
+     "diff": [
+      [
+       "replace",
+       "ID",
+       "あいでぃい"
+      ]
+     ],
+     "cost": 0.0004685
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/06000/06233_kokkaku_ex3.0e89bfaa.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00095625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "にんげんの こっかくは にひゃっこ いじょうの ほねから なる",
+     "diff": [],
+     "cost": 0.00021075
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "にんげんの こっかく は にひゃっこ いじょう の ほね から なる",
+     "diff": [],
+     "cost": 0.0001344
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "にんげんのこっかくはにひゃっこいじょうのほねからなる",
+     "diff": [],
+     "cost": 0.00069045
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/03500/03955_sho_ex1.90edc7d5.mp3",
+   "truth": "human: unsure - 初めて is read as しょめて as the furigana show, but shouldn't it be はじめて?",
+   "truth_parsed": [
+    "human",
+    "unsure",
+    "初めて is read as しょめて as the furigana show, but shouldn't it be はじめて?"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00138375
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "はじめてのかいがいりょこうだ",
+     "diff": [
+      [
+       "replace",
+       "しょ",
+       "はじ"
+      ]
+     ],
+     "cost": 0.0001215
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "しょめての かいがい りょこう だ",
+     "diff": [],
+     "cost": 9.3e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "はじめてのかいがいりょこうだ",
+     "diff": [
+      [
+       "replace",
+       "しょ",
+       "はじ"
+      ]
+     ],
+     "cost": 0.00048545
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/32000/32362_kouansha_ex1.83566831.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0005715
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このげーむのこうあんしゃはだれですか",
+     "diff": [],
+     "cost": 0.00014475
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "この げーむ の こうあんしゃ は だれ です か",
+     "diff": [],
+     "cost": 0.0001038
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このげーむのこうあんしゃはだれですか？",
+     "diff": [],
+     "cost": 0.00046505
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/22500/22590_jirettai_ex1.35343101.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00053325
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "じれったいはなしかただなぁ",
+     "diff": [
+      [
+       "insert",
+       "",
+       "ぁ"
+      ]
+     ],
+     "cost": 0.00011925
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "じれったい はなしかた だな",
+     "diff": [],
+     "cost": 8.1e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "じれったいはなしかただな",
+     "diff": [],
+     "cost": 0.0004338
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00000/00177_kanren_ex2.81be6750.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "```json\n{\"differences\": [{\"expected\": \"かんれんかいしゃ\", \"heard\": \"かんれんがいしゃ\"}], \"match\": false}\n```",
+     "diff": [
+      [
+       "replace",
+       "かんれんかいしゃ",
+       "かんれんがいしゃ"
+      ]
+     ],
+     "cost": 0.00031425
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "かんれんがいしゃではたらいている",
+     "diff": [
+      [
+       "replace",
+       "か",
+       "が"
+      ]
+     ],
+     "cost": 0.0001215
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かんれんかいしゃで はたらいている",
+     "diff": [],
+     "cost": 8.7e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かんれんかいしゃではたらいている",
+     "diff": [],
+     "cost": 0.00070005
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/24000/24004_daiyaguramu_ex1.d5e9ea9a.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000234
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "わかりやすいだいやぐらむ",
+     "diff": [],
+     "cost": 0.0001155
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "わかりやすい だいやぐらむ",
+     "diff": [],
+     "cost": 8.34e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "わかりやすいダイアグラム",
+     "diff": [
+      [
+       "replace",
+       "や",
+       "あ"
+      ]
+     ],
+     "cost": 0.0005634
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/04000/04128_tatoe_ex10.c92535cf.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0006225
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "たとえじかんがかかってもさいごまでじぶんのちからでやりたい",
+     "diff": [],
+     "cost": 0.00020025
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "たとえ じかん が かかっても さいご まで じぶん の ちから で やりたい",
+     "diff": [],
+     "cost": 0.0001458
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "たとえじかんがかかってもさいごまでじぶんのちからでやりたい",
+     "diff": [],
+     "cost": 0.00042815
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/23500/23511_binmei_ex2.9a15a63c.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00102675
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "びんめいはJLさんまるごです",
+     "diff": [
+      [
+       "replace",
+       "JL305",
+       "じぇええるさんまるご"
+      ]
+     ],
+     "cost": 0.0001545
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "びーんめいは じぇいえる さんまるご です",
+     "diff": [
+      [
+       "insert",
+       "",
+       "い"
+      ],
+      [
+       "replace",
+       "JL305",
+       "じぇいえるさんまるご"
+      ]
+     ],
+     "cost": 0.0001056
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "びんめいはジェイエルさんまるごです。",
+     "diff": [
+      [
+       "replace",
+       "JL305",
+       "じぇいえるさんまるご"
+      ]
+     ],
+     "cost": 0.00073915
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/09500/09672_sanjuppun_ex3.43eb6bbe.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0009105
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "あとさんじゅっぷんでおわる",
+     "diff": [],
+     "cost": 0.00011025
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "あと さんじゅっぷん で おわる",
+     "diff": [],
+     "cost": 7.86e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "あとさんじゅっぷんでおわる。",
+     "diff": [],
+     "cost": 0.00060705
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/26000/26068_gaiaku_ex3.28b23bc5.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0006195
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "えすえぬえすのひぼうちゅうしょうはしゃかいにとっておおきながいあくであるとしてきされている",
+     "diff": [
+      [
+       "replace",
+       "SNS",
+       "えすえぬえす"
+      ]
+     ],
+     "cost": 0.0002745
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "えすえぬえすの ひぼうちゅうしょうは しゃかいにとって おおきながいやくである と してきされている",
+     "diff": [
+      [
+       "replace",
+       "SNS",
+       "えすえぬえす"
+      ],
+      [
+       "replace",
+       "あ",
+       "や"
+      ]
+     ],
+     "cost": 0.0001764
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "SNSの誹謗中傷は、社会にとって大きな害悪であると指摘されている。",
+     "diff": [],
+     "cost": 0.0005035
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/32000/32396_suzuki_ex1.1c3ea85d.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000396
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "すずきがつれた",
+     "diff": [],
+     "cost": 9.675e-05
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "すずき が つれた",
+     "diff": [],
+     "cost": 7.02e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "すずきがつれた",
+     "diff": [],
+     "cost": 0.000438
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00602_mou_ex13.6094cba8.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00048075
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "もうすこしまってください",
+     "diff": [],
+     "cost": 0.00011025
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "もうすこしまってください",
+     "diff": [],
+     "cost": 7.02e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "もうすこしまってください",
+     "diff": [],
+     "cost": 0.00041655
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00568_oriru_ex1.7a968823.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000567
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ばすをおりる",
+     "diff": [],
+     "cost": 9.6e-05
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ばすを おりる",
+     "diff": [],
+     "cost": 6.54e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "バスをおりる",
+     "diff": [],
+     "cost": 0.00047345
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32500/32745_kokuchigimu_ex1.e1160072.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00058575
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "こくちぎむがある",
+     "diff": [],
+     "cost": 9.825e-05
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "こくちぎむがある",
+     "diff": [],
+     "cost": 6.72e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こくちぎむがある",
+     "diff": [],
+     "cost": 0.0003388
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/02500/02904_saa_ex1.38864c21.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00051375
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "さあはじめましょう",
+     "diff": [],
+     "cost": 9.825e-05
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "I'm sorry, but I can't assist with that. Let me know if there's something else I can help you with.",
+     "diff": [
+      [
+       "delete",
+       "さ",
+       ""
+      ],
+      [
+       "replace",
+       "は",
+       "いえむえすおおああるああるわいびいゆうてぃいあいしいえええぬてぃいえええすえすあいえすてぃいだぶりゅうあいてぃいえいちてぃいえいちええてぃいえるいいてぃいえむいいけええぬおおだぶりゅうあいえふてぃいえいちいいああるいいえすえすおおえむいいてぃいえいちあいえぬ"
+      ],
+      [
+       "replace",
+       "めま",
+       "いいいえるえすいいあい"
+      ],
+      [
+       "replace",
+       "ょ",
+       "いえええぬえいちいいえるぴいわいおおゆ"
+      ],
+      [
+       "insert",
+       "",
+       "だぶりゅうあいてぃいえいち"
+      ]
+     ],
+     "cost": 0.000108
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "さあ、はじめましょう。",
+     "diff": [],
+     "cost": 0.00041565
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32334_hiyodori_ex3.3f86ebc5.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000333
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "ひよどりわぴーよとおおきなこえでなくのですかたがみえなくてもすぐわかる",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ],
+      [
+       "replace",
+       "が",
+       "か"
+      ]
+     ],
+     "cost": 0.00026325
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ひよどりは　ぴーよ　と　おおきな　こえで　なくので　すがたが　みえなくても　すぐ　わかる",
+     "diff": [],
+     "cost": 0.00018
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ひよどりはぴいよとおおきなこえでなくので、すがたがみえなくてもすぐわかる。",
+     "diff": [],
+     "cost": 0.00051165
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/07500/07996_saikutsu_ex1.d49e9e12.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00023775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "せきたんをさいくつする",
+     "diff": [],
+     "cost": 0.00012
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "せきたん を さいくつ する",
+     "diff": [],
+     "cost": 8.16e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "せきたんをさいくつする",
+     "diff": [],
+     "cost": 0.0004105
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/03500/03870_baransu_ex6.ac75994b.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00081825
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "しゅうにゅう と ししゅつ の バランス を かんがえて せいかつ して いる",
+     "diff": [],
+     "cost": 0.00021075
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "しゅうにゅう と ししつ の ばらんす を かんがえて せいかつ している",
+     "diff": [
+      [
+       "delete",
+       "ゅ",
+       ""
+      ]
+     ],
+     "cost": 0.0001404
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "しゅうにゅうとししつのばらんすをかんがえてせいかつしている",
+     "diff": [
+      [
+       "delete",
+       "ゅ",
+       ""
+      ]
+     ],
+     "cost": 0.0004556
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/00500/00922_chairoi_ex1.c3de415e.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00023625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ちゃいろいいぬがいる",
+     "diff": [],
+     "cost": 0.0001095
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ちゃいろい いぬ が いる",
+     "diff": [],
+     "cost": 8.16e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ちゃいろいいぬがいる",
+     "diff": [],
+     "cost": 0.0008165
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32398_nijimasu_ex1.6819663a.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00023175
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "にじますをつった",
+     "diff": [],
+     "cost": 0.00010425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "にじますをつった",
+     "diff": [],
+     "cost": 6.78e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "にじますをつった",
+     "diff": [],
+     "cost": 0.0003245
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00913_achira_ex8.f1a08034.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00041325
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "あちらにきいてください",
+     "diff": [],
+     "cost": 0.000102
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "あちらに きいて ください",
+     "diff": [],
+     "cost": 7.08e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "あちらにきいてください",
+     "diff": [],
+     "cost": 0.00041165
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32422_kanoyouni_ex1.022f5439.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002595
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かれわなにもしらないかのよう にわらった",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.0001515
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かれは なにも しらない かの ように わらった",
+     "diff": [],
+     "cost": 0.0001074
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かれはなにもしらないかのようにわらった。",
+     "diff": [],
+     "cost": 0.0005621
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/29500/29666_ronriwa_ex2.3c608221.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0040665
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "おあかいろはろんりわをしゅつりょくする",
+     "diff": [
+      [
+       "replace",
+       "OR",
+       "おあ"
+      ]
+     ],
+     "cost": 0.0001635
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "おわかいろは　ろんりわ　を　しゅつりょく　する",
+     "diff": [
+      [
+       "replace",
+       "OR",
+       "おわ"
+      ]
+     ],
+     "cost": 0.000111
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "おわかいろはろんりわをしゅつりょくする",
+     "diff": [
+      [
+       "replace",
+       "OR",
+       "おわ"
+      ]
+     ],
+     "cost": 0.00099245
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/23000/23490_kyosei_ex5.ea4801b6.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00107625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "きせいによってメディアがきょせいされてはならない",
+     "diff": [],
+     "cost": 0.00015825
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "きせい に よって メディア が きょせい されて は ならない",
+     "diff": [],
+     "cost": 0.0001176
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "きせいによってメディアがきょうせいされてはならない。",
+     "diff": [
+      [
+       "insert",
+       "",
+       "う"
+      ]
+     ],
+     "cost": 0.00093355
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32451_kankyoushou_ex2.c1a7bb79.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00029775
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "かんきょうしょうはねっちゅうしょうへのちゅういをとびかけている",
+     "diff": [
+      [
+       "replace",
+       "よ",
+       "と"
+      ]
+     ],
+     "cost": 0.00020625
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かんきょうしょう　は　ねっちゅうしょう　への　ちゅうい　を　よびかけて　いる",
+     "diff": [],
+     "cost": 0.0001488
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "かんきょうしょうはねっちゅうしょうへのちゅういをよびかけている",
+     "diff": [],
+     "cost": 0.00043815
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32439_hiyakkoi_ex1.b272a90d.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00065925
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "てがひゃっこいね",
+     "diff": [
+      [
+       "replace",
+       "や",
+       "ゃ"
+      ]
+     ],
+     "cost": 0.0001035
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "て　が　ひゃっこい　ね",
+     "diff": [
+      [
+       "replace",
+       "や",
+       "ゃ"
+      ]
+     ],
+     "cost": 7.74e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "てがひやっこいね",
+     "diff": [],
+     "cost": 0.0003317
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/00000/00460_shuushoku_ex3.7a5d4a54.mp3",
+   "truth": "human: err - しゅうしょく sounds like ちゅうしょく",
+   "truth_parsed": [
+    "human",
+    "err",
+    "しゅうしょく sounds like ちゅうしょく"
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000273
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "このぶんのしゅうしょくかんけいをせつめいしてください",
+     "diff": [],
+     "cost": 0.0001755
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "n/a",
+     "text": "申し訳ありませんが、音声を聞くことはできません。音声の内容を文字に起こすことはできないため、別の方法でお手伝いできることがあれば教えてください。",
+     "diff": [],
+     "cost": 0.0001818
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "このぶんのしゅうしょくかんけいをせつめいしてください。",
+     "diff": [],
+     "cost": 0.00045365
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00568_oriru_ex7.3dc65cba.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000432
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "やまをおおりました",
+     "diff": [
+      [
+       "insert",
+       "",
+       "お"
+      ]
+     ],
+     "cost": 9.6e-05
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "やまを　おりました。",
+     "diff": [],
+     "cost": 6.9e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "やまをおりました",
+     "diff": [],
+     "cost": 0.00033165
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32500/32571_masuseki_ex2.02b8fd6f.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0007755
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ますせきのちけっとはたかい",
+     "diff": [],
+     "cost": 0.000123
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "まさせきの ちけっと は たかい",
+     "diff": [
+      [
+       "replace",
+       "す",
+       "さ"
+      ]
+     ],
+     "cost": 8.82e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ますせきのちけっとはたかい",
+     "diff": [],
+     "cost": 0.0007497
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32294_shuuchi_ex4.29b6f05c.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000231
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "しゃいんにしゅうちする",
+     "diff": [],
+     "cost": 0.00011025
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "しゃいん に しゅうち する",
+     "diff": [],
+     "cost": 7.92e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "しゃいんにしゅうちする",
+     "diff": [],
+     "cost": 0.000525
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00693_dame_ex7.0f3ee918.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000243
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "わたしわおよぐのがだめです",
+     "diff": [
+      [
+       "replace",
+       "は",
+       "わ"
+      ]
+     ],
+     "cost": 0.00012825
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "わたし　は　およぐ　の　が　だめ　です。",
+     "diff": [],
+     "cost": 0.000102
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "わたしはおよぐのがだめです",
+     "diff": [],
+     "cost": 0.00046815
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32401_shirasu_ex2.d3cba855.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0005955
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "しょうなんに いったら しらすどんを たべたい",
+     "diff": [],
+     "cost": 0.0001485
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "しょうなんに　いったら　しらすどんを　たべたい",
+     "diff": [],
+     "cost": 0.0001026
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "しょうなんにいったら、しらすどんをたべたい",
+     "diff": [],
+     "cost": 0.00045285
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/25000/25377_haishutsusuru_ex2.fe89767c.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00072975
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "しーおーつーのはいしゅつりょうをさくげんするひつようがある",
+     "diff": [
+      [
+       "replace",
+       "CO2",
+       "しいおおつう"
+      ]
+     ],
+     "cost": 0.00020625
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "しーおーつーの はいしつりょうを さくげんする ひつようが ある",
+     "diff": [
+      [
+       "replace",
+       "CO2",
+       "しいおおつう"
+      ],
+      [
+       "delete",
+       "ゅ",
+       ""
+      ]
+     ],
+     "cost": 0.0001296
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "しーおーつーのはいしゅつりょうをさくげんするひつようがある",
+     "diff": [
+      [
+       "replace",
+       "CO2",
+       "しいおおつう"
+      ]
+     ],
+     "cost": 0.0015927
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/32000/32331_anago_ex2.a19a3122.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.000567
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "てんどんにあなごのてんぷらがのっている",
+     "diff": [],
+     "cost": 0.00016425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "てんどんに あなごの てんぷらが のっている",
+     "diff": [],
+     "cost": 0.0001062
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "てんどんにあなごのてんぷらがのっている",
+     "diff": [],
+     "cost": 0.00039295
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00953_juuroku_ex4.58714549.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0010485
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "くらすにじゅうろくにんのがくせいがいます",
+     "diff": [],
+     "cost": 0.0001665
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "くらす に じゅうろく にん の がくせい が います",
+     "diff": [],
+     "cost": 0.0001098
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "くらすにじゅうろくにんのがくせいがいます",
+     "diff": [],
+     "cost": 0.00039595
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32417_zeimuchousa_ex2.64b722d5.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00027375
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "らいげつかいしゃにぜーむちょーさがくるよてーだ",
+     "diff": [
+      [
+       "replace",
+       "い",
+       "え"
+      ],
+      [
+       "replace",
+       "う",
+       "お"
+      ],
+      [
+       "replace",
+       "い",
+       "え"
+      ]
+     ],
+     "cost": 0.0001845
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "だいげつ、かいしゃに ぜいむちょうさが くる よていだ。",
+     "diff": [
+      [
+       "replace",
+       "ら",
+       "だ"
+      ]
+     ],
+     "cost": 0.0001248
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "らいげつ、かいしゃにぜいむちょうさがくるよていだ。",
+     "diff": [],
+     "cost": 0.00042225
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/03000/03220_shuchou_ex3.ac0bebec.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000366
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "かのじょのしゅちょうにはせっとくりょくがあるでーたにもとづいてろんりてきにはなすのではんろんするのがむずかしい",
+     "diff": [],
+     "cost": 0.00032925
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "かのじょのしゅちょうには せっとくりょくが ある データにもとづいて ろんりてきにはなすので はんろんするのが むずかしい",
+     "diff": [],
+     "cost": 0.0002022
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "かのじょのしちょうにはせっとくりょくがある。でーたにもとづいてろんりてきにはなすので、はんろんするのがむずかしい。",
+     "diff": [
+      [
+       "delete",
+       "ゅ",
+       ""
+      ]
+     ],
+     "cost": 0.0005822
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00000/00286_mizugi_ex2.41626ff6.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00037875
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "あたらしいみずぎをかった",
+     "diff": [],
+     "cost": 0.00011175
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "あたらしい みずぎ を かった",
+     "diff": [],
+     "cost": 7.98e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "あたらしいみずぎをかった。",
+     "diff": [],
+     "cost": 0.0003974
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00790_kotae_ex7.c02cb0ec.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00022725
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ただしいこたえをえらんでください",
+     "diff": [],
+     "cost": 0.00013425
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ただしい こたえ を えらんで ください",
+     "diff": [],
+     "cost": 9.3e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ただしいこたえをえらんでください。",
+     "diff": [],
+     "cost": 0.00052685
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/00500/00701_hareru_ex5.f44c86c3.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00072675
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "あさはくもがおおかったですがごごからはれてとてもきもちがいいへんきになりました",
+     "diff": [
+      [
+       "replace",
+       "て",
+       "へ"
+      ]
+     ],
+     "cost": 0.00023775
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "あさは くもが おおかった ですが ごごから はれて とても きもちが いい てんきに なりました",
+     "diff": [],
+     "cost": 0.0001578
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "あさはくもがおおかったですが、ごごからはれてとてもきもちがいいてんきになりました。",
+     "diff": [],
+     "cost": 0.00046825
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/04000/04193_shitamachi_ex2.4c04a56c.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0005205
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "したまちのふんいきがすきだ",
+     "diff": [],
+     "cost": 0.000135
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "すたまちのふんいきがすきだ",
+     "diff": [
+      [
+       "replace",
+       "し",
+       "す"
+      ]
+     ],
+     "cost": 8.88e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "したまちのふんいきがすきだ",
+     "diff": [],
+     "cost": 0.0005319
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/02000/02393_haeru_ex7.5c5a8f69.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00054225
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ばえすぽっとをさがす",
+     "diff": [],
+     "cost": 0.0001185
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "mismatch",
+     "text": "ばいすぽっとを　さがす",
+     "diff": [
+      [
+       "replace",
+       "え",
+       "い"
+      ]
+     ],
+     "cost": 7.86e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "バエスポットをさがす",
+     "diff": [],
+     "cost": 0.00053
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/02500/02649_gyaku_ex5.c09e806d.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.00022425
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ぎゃくこうかになった",
+     "diff": [],
+     "cost": 0.0001005
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ぎゃくこうかに なった",
+     "diff": [],
+     "cost": 7.02e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "ぎゃっこうかになった",
+     "diff": [
+      [
+       "replace",
+       "く",
+       "っ"
+      ]
+     ],
+     "cost": 0.00042585
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/11500/11842_fukitobu_ex5.ee059670.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.0002655
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "こどものえがおをみたらつかれがふきとんだ",
+     "diff": [],
+     "cost": 0.00016575
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "こどもの えがおを みたら つかれが ふきとんだ",
+     "diff": [],
+     "cost": 0.0001152
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "こどものえがおをみたらつかれがふきとんだ",
+     "diff": [],
+     "cost": 0.00038285
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/01500/01799_ichiji_ex3.65e8b7b9.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "```json\n{\"differences\": [], \"match\": true}\n```",
+     "diff": [],
+     "cost": 0.000483
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "ごごいちじにあいましょう",
+     "diff": [],
+     "cost": 0.0001035
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ごご いちじ に あいましょう",
+     "diff": [],
+     "cost": 7.74e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "ごごいちじにあいましょう",
+     "diff": [],
+     "cost": 0.00081365
+    }
+   ],
+   "accepted": true
+  },
+  {
+   "key": "production/32000/32313_shishamo_ex1.5ee36568.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.0005955
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "mismatch",
+     "text": "ししゃもをやっ",
+     "diff": [
+      [
+       "replace",
+       "く",
+       "っ"
+      ]
+     ],
+     "cost": 0.00010125
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "ししゃもをやく",
+     "diff": [],
+     "cost": 6.72e-05
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "mismatch",
+     "text": "ししゃもおおく",
+     "diff": [
+      [
+       "replace",
+       "をや",
+       "おお"
+      ]
+     ],
+     "cost": 0.00037415
+    }
+   ],
+   "accepted": false
+  },
+  {
+   "key": "production/04000/04128_tatoe_ex9.8d1582ef.mp3",
+   "truth": "human: ok",
+   "truth_parsed": [
+    "human",
+    "ok",
+    ""
+   ],
+   "checks": [
+    {
+     "name": "pcompare:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "{\"differences\": [], \"match\": true}",
+     "diff": [],
+     "cost": 0.00056625
+    },
+    {
+     "name": "kana:google/gemini-3.8-flash",
+     "verdict": "match",
+     "text": "たとえむずかしくてもちょうせんするかちはある",
+     "diff": [],
+     "cost": 0.00016725
+    },
+    {
+     "name": "kana:openai/gpt-audio-mini",
+     "verdict": "match",
+     "text": "たとえ むずかしくても ちょうせん する かちは ある",
+     "diff": [],
+     "cost": 0.0001158
+    },
+    {
+     "name": "kana:thinkingmachines/inkling",
+     "verdict": "match",
+     "text": "たとえむずかしくてもちょうせんするかちはある",
+     "diff": [],
+     "cost": 0.00052145
     }
    ],
    "accepted": true

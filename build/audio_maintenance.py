@@ -212,6 +212,8 @@ def cmd_drift(args):
     if not runs:
         print("no production runs yet")
         return 0
+    # a human-review publish (held takes approved by ear) is not a production run
+    runs = [r for r in runs if not r.get("human_review")]
     recent = runs[-args.last:]
     ex = sum(r["examples"] for r in recent)
     fp = sum(r["first_pass"] for r in recent) / max(1, ex)
