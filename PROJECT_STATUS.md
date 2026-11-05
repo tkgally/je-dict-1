@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-05 (candidates restock, fourth cycle of the 15:30 run)
+
+71 candidates added. Closure (27, words used in entries but not defined): 高裁, 家裁, 不信任案, 健勝, 番頭, 色打掛, 濃茶, 鳥獣戯画, 今場所, 写経, 親鸞, 琵琶法師, 核分裂, 本塁, 三人称, 鉄格子, 鹿鳴館, 手水舎, 落雁, 八宝菜, 下関, 北原白秋, 子猫, 百害あって一利なし, 心躍る, 熊本城, 岩倉使節団. Brainstorm (44, seeds 子供 … 頭): 父の日, 姉貴, 子供騙し, 海の幸, 山の幸, 海開き, 出来損ない, 顔負け, 女々しい, 口約束, 男勝り, 開けっ放し, 手取り足取り, 姉妹都市, 頭ごなし, 頭隠して尻隠さず and others; 7 proposals rejected (6 spelling variants of existing entries, 味付ける).
+
 ### 2026-11-05 (21 new entries, first cycle of the 15:30 run)
 
 32893–32913. Closure: 防衛省, 負け越し, 寒中見舞い, 後ろ足, 鉤括弧, 功労者, 変幻自在. Brainstorm: 猫かぶり, 張り子の虎 (animal idioms), 家族葬 (from 家族), パンの耳 (from パン), えくぼ, やつれる, くせ毛 (appearance field). ezFurigana lookups: 教委, クラスター, 公安, 拷問, 権化, 斎場, コントローラー. New kanji 拷 and 鉤 added to the kanji index.
@@ -69,9 +73,4 @@ Self-check: 4 flags on 23 entries, all applied (九分九厘まで, 夜の街を
 
 32834–32848. Closure: 舌先三寸 (linked to the variant 口先三寸), 登録商標, 残念賞, 前奏, 来週末. Brainstorm: 猫の額, 虎の子, 袋のねずみ (animal idioms), 母の日 (from 母), どこも (from どこ). ezFurigana lookups: キャビネット, 〜ぐるみ, 決闘, 激情, 煌めき.
 Self-check: 1 flag on 15 entries, applied (キャビネット: a government cabinet is normally 内閣, softened from "never"); 22 kana links confirmed.
-
-### 2026-11-04 (9 new entries, sixth cycle of the 12:15 run)
-
-32825–32833. Closure: 幹細胞, 遺伝子組み換え, 回顧録. Brainstorm (animal-mammal field): ヤマアラシ (contrasted with ハリネズミ), ポニー, スカンク. ezFurigana lookups: 食い物 (also 〜を食い物にする), くびれ, 串刺し.
-Self-check: clean (0 flags on 9 entries, 3 kana links confirmed).
 
