@@ -580,6 +580,8 @@ Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
+**Update 2026-11-06 (second pass reaches the end):** 184 entries in 15431–30057 retagged by hand, mostly abstract nouns → `abstract`, plus change (異変, 表面化, 好転), place (物陰, 起点, 圏内), sense (清涼感, 万雷), descriptive adverbs (一向に, 何だか), grammatical (ああいう, っていうか, どっちも) and language (典拠, 原典). Concrete or figurative nouns with no clear tag left general (障害物, 結び目, 点線, 天然ゴム, 全開, 隠れ蓑 …). Detector 540 → 356; what remains is the set earlier passes deliberately left.
+
 **Update 2026-11-05 (second pass begins):** the first pass reached the end of the dictionary. A second pass from 00001 retagged 119 of the residual entries in 00082–15426, chiefly abstract nouns (原因, 結果, 条件, 本質, 可能性, the 〜性 nouns) given `abstract`, which is already the sole tag on 601 entries; plus 彼 → person, はず/つもり → grammatical, 最後/終わり/始まり → time-general, 程度/残り → quantity. Detector 663 → 543. Next: after 15426.
 
 **Update 2026-11-04 (systemic-fix):** 77 entries in 18901–21140 retagged by hand (legal and political terms → law / politics, medicines and poisons → health, 天罰/不敬 → religion, adverbs → descriptive, かつ → grammatical); 第一に, 第二に, 順に left general. Detector now 926; continue after 21140.
