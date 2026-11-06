@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-06 (8 new entries, seventh cycle of the 00:15 run)
+
+32946–32953. Closure: 代表取締役, 極夜 (antonym of 白夜), 腰巾着. Brainstorm (appearance field): アイライン, 童顔, 坊主頭. ezFurigana lookups: 四股, 柘榴. A short cycle near the end of the run; 至近 left in the queue (至近距離 already has an entry). New kanji 柘 added to the kanji index.
+Self-check: clean (0 flags on 8 entries); 1 kana link removed (について in 上司について回る is ついて回る).
+
 ### 2026-11-06 (20 new entries, first cycle of the 00:15 run)
 
 32926–32945. Closure: 統合失調症, 大儲け, 蒸留所, 座礁, 一元化, 人工呼吸器, 人間臭い. Brainstorm: マナティー, ハクビシン, ヘラジカ (animal-mammal field), 乳母 (from 母), 遊び人 (from 遊ぶ), 総菜パン (from パン), アイシャドウ (appearance field). ezFurigana lookups: 空自, 黒人, 祭祀, 三位一体 (two senses), 材質, 四肢. Candidate 照れくさい dropped: 07134 てれくさい already covers it. New kanji 祀 added to the kanji index.
@@ -68,8 +73,3 @@ Self-check: 1 flag on 17 entries, applied to the existing 長崎 entry (Dejima w
 
 32893–32913. Closure: 防衛省, 負け越し, 寒中見舞い, 後ろ足, 鉤括弧, 功労者, 変幻自在. Brainstorm: 猫かぶり, 張り子の虎 (animal idioms), 家族葬 (from 家族), パンの耳 (from パン), えくぼ, やつれる, くせ毛 (appearance field). ezFurigana lookups: 教委, クラスター, 公安, 拷問, 権化, 斎場, コントローラー. New kanji 拷 and 鉤 added to the kanji index.
 Self-check: 3 flags on 26 entries, all applied (a 負け越し translation, 家族葬 and 権化 notes softened); 28 kana links judged, 1 unlinked (として after a clause in 外務省).
-
-### 2026-11-05 (21 new entries, fourth cycle of the 12:15 run)
-
-32872–32892. Closure: 第一人者, 西部劇, 救命胴衣, 法務省, 開業医, 物思い, 真後ろ. Brainstorm: どこもかしこも (from どこ), 立ち泳ぎ (from 泳ぐ), 午前様 (from 午前), 母子家庭 (from 母), 遊び半分 and 火遊び (from 遊ぶ), 小鹿. ezFurigana lookups: ことがある, ことができる (grammar patterns), さぞ, グミ, 語気, 小人 (with the しょうにん and しょうじん readings), 裁判員. どれくらい dropped from the queue as a spelling variant of どれぐらい.
-Self-check: 3 flags on 26 entries, all applied (ことができる "every verb" narrowed; さぞ register wording); 33 kana links confirmed.
