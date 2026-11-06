@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-06 (10 new entries, eighth cycle of the 12:15 run)
+
+33003–33012. Closure: 連帯債務, 器楽, 製造者, 武器商人. Brainstorm (appearance field): 美少年, 色黒, 長髪. ezFurigana lookups: 市議, 主席 (contrasted with 首席), 集合体. A short cycle at the end of the run.
+Self-check: clean (0 flags on 10 entries); 7 kana links confirmed.
+
 ### 2026-11-06 (21 new entries, fourth cycle of the 12:15 run)
 
 32982–33002. Closure: はみ出し者, 借り物競走, 女友達, よじ登る, ユーカリ, 蘭学, 出島, 負け組. Brainstorm (appearance field): 分け目, 切れ長, 刈り上げ, 団子鼻, 垂れ目, 枝毛, 短髪. ezFurigana lookups: 主眼, 主軸, 所感, 所長, 周遊, 職人技.
@@ -68,9 +73,4 @@ Self-check: 1 flag applied (大の読書家 reads だいの); 7 kana links confi
 
 32954–32973. Closure: ありあり, のしかかる, わんこそば, 南部鉄器, 中尊寺 (all three from 岩手), 無記名投票, 第一声. Brainstorm (appearance field): ルックス, 若作り, 隈, おかっぱ, ぱっちり, 二重あご, つり目. ezFurigana lookups: 至近, 私大, 使途, 酌, 謝辞, 車中泊.
 Self-check: 1 flag applied (中尊寺 was founded in 850, not the 12th century); 2 kana links removed (として in a quotative, わら in 座敷わらし).
-
-### 2026-11-06 (8 new entries, seventh cycle of the 00:15 run)
-
-32946–32953. Closure: 代表取締役, 極夜 (antonym of 白夜), 腰巾着. Brainstorm (appearance field): アイライン, 童顔, 坊主頭. ezFurigana lookups: 四股, 柘榴. A short cycle near the end of the run; 至近 left in the queue (至近距離 already has an entry). New kanji 柘 added to the kanji index.
-Self-check: clean (0 flags on 8 entries); 1 kana link removed (について in 上司について回る is ついて回る).
 
