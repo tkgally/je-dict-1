@@ -20,10 +20,10 @@
   "examples": [
     {
       "id": "12386_shougun_ex1",
-      "japanese": "{徳川|とくがわ}{家康|いえやす}⟦は→は：00079_ha⟧⟦{初代|しょだい}→初代：11778_shodai⟧{将軍|しょうぐん}だ。",
-      "english": "Tokugawa Ieyasu was the first shogun.",
+      "japanese": "⟦{徳川家康|とくがわいえやす}→徳川家康：31006_tokugawaieyasu⟧⟦は→は：00079_ha⟧{江戸幕府|えどばくふ}⟦の→の：09472_no⟧⟦{初代|しょだい}→初代：11778_shodai⟧{将軍|しょうぐん}だ。",
+      "english": "Tokugawa Ieyasu was the first shogun of the Edo shogunate.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         1
       ]
@@ -40,7 +40,7 @@
     },
     {
       "id": "12386_shougun_ex3",
-      "japanese": "⟦{鎌倉|かまくら}→鎌倉：30711_kamakura⟧⟦{幕府|ばくふ}→幕府：12448_bakufu⟧⟦は→は：00079_ha⟧{源|みなもとの}{頼朝|よりとも}⟦が→が：00051_ga⟧{将軍|しょうぐん}⟦に→に：00314_ni⟧⟦{任命|にんめい}→任命：09764_ninmei⟧⟦されて→する：00392_suru⟧⟦{成立|せいりつ}した→成立する：25497_seiritsusuru⟧。",
+      "japanese": "⟦{鎌倉|かまくら}→鎌倉：30711_kamakura⟧⟦{幕府|ばくふ}→幕府：12448_bakufu⟧⟦は→は：00079_ha⟧⟦{源|みなもとの}{頼朝|よりとも}→源頼朝：31065_minamotonoyoritomo⟧⟦が→が：00051_ga⟧{将軍|しょうぐん}⟦に→に：00314_ni⟧⟦{任命|にんめい}→任命：09764_ninmei⟧⟦されて→する：00392_suru⟧⟦{成立|せいりつ}した→成立する：25497_seiritsusuru⟧。",
       "english": "The Kamakura shogunate was established when Minamoto no Yoritomo was appointed shogun.",
       "notes": null,
       "has_audio": true,
@@ -112,7 +112,7 @@
   ],
   "metadata": {
     "created": "2026-02-21T05:50:07Z",
-    "modified": "2026-09-02T04:01:28Z",
+    "modified": "2026-11-06T12:56:06Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -122,7 +122,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "person"
+        "person",
+        "history"
       ],
       "domain": [
         "academic"
