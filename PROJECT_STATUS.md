@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-06 (8 new entries, sixth cycle of the 08:50 run)
+
+32974–32981. Closure: 岩手山, 起立採決, はみ出す, ガリ勉, 読書家. Brainstorm (appearance field): チーク, ムキムキ. ezFurigana lookup: 清水 (with a warning that 清水寺 and 清水の舞台 read きよみず). A short cycle at the end of the run.
+Self-check: 1 flag applied (大の読書家 reads だいの); 7 kana links confirmed.
+
 ### 2026-11-06 (20 new entries, third cycle of the 08:50 run)
 
 32954–32973. Closure: ありあり, のしかかる, わんこそば, 南部鉄器, 中尊寺 (all three from 岩手), 無記名投票, 第一声. Brainstorm (appearance field): ルックス, 若作り, 隈, おかっぱ, ぱっちり, 二重あご, つり目. ezFurigana lookups: 至近, 私大, 使途, 酌, 謝辞, 車中泊.
@@ -69,7 +74,3 @@ Self-check: clean (0 flags on 20 entries); 12 kana links confirmed.
 
 32914–32925. Closure: 自衛権, 若女将, 歴史小説 (contrasted with 時代小説), 煮崩れ. Brainstorm: 丸顔, 面長 (appearance field), コッペパン (from パン), 猫可愛がり. ezFurigana lookups: グリーン (color; golf), 豪奢, ごまんと, 佐賀 (shown as 佐賀県). A short cycle near the end of the run.
 Self-check: 1 flag on 17 entries, applied to the existing 長崎 entry (Dejima was the only window onto Europe, not onto all foreign countries); 15 kana links confirmed.
-
-### 2026-11-05 (candidates restock, fourth cycle of the 15:30 run)
-
-71 candidates added. Closure (27, words used in entries but not defined): 高裁, 家裁, 不信任案, 健勝, 番頭, 色打掛, 濃茶, 鳥獣戯画, 今場所, 写経, 親鸞, 琵琶法師, 核分裂, 本塁, 三人称, 鉄格子, 鹿鳴館, 手水舎, 落雁, 八宝菜, 下関, 北原白秋, 子猫, 百害あって一利なし, 心躍る, 熊本城, 岩倉使節団. Brainstorm (44, seeds 子供 … 頭): 父の日, 姉貴, 子供騙し, 海の幸, 山の幸, 海開き, 出来損ない, 顔負け, 女々しい, 口約束, 男勝り, 開けっ放し, 手取り足取り, 姉妹都市, 頭ごなし, 頭隠して尻隠さず and others; 7 proposals rejected (6 spelling variants of existing entries, 味付ける).
