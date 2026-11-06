@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -2791,6 +2791,18 @@
     "reviewed": 1,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "おかか": {
+   "target": "31811_okaka",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "In modern Japanese おかか almost always means bonito flakes; the old or dialectal おかか meaning 'wife' or 'mother' is negligible for learners.",
+    "model": "claude:opus",
+    "date": "2026-11-06"
    }
   },
   "おかげ": {
@@ -21019,6 +21031,18 @@
     "reviewed": 30,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "まざまざ": {
+   "target": "30749_mazamaza",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "まざまざ is a single mimetic adverb with no common homophones or alternative parses.",
+    "model": "claude:opus",
+    "date": "2026-11-06"
    }
   },
   "まし": {
