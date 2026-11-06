@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-06 (20 new entries, third cycle of the 08:50 run)
+
+32954–32973. Closure: ありあり, のしかかる, わんこそば, 南部鉄器, 中尊寺 (all three from 岩手), 無記名投票, 第一声. Brainstorm (appearance field): ルックス, 若作り, 隈, おかっぱ, ぱっちり, 二重あご, つり目. ezFurigana lookups: 至近, 私大, 使途, 酌, 謝辞, 車中泊.
+Self-check: 1 flag applied (中尊寺 was founded in 850, not the 12th century); 2 kana links removed (として in a quotative, わら in 座敷わらし).
+
 ### 2026-11-06 (8 new entries, seventh cycle of the 00:15 run)
 
 32946–32953. Closure: 代表取締役, 極夜 (antonym of 白夜), 腰巾着. Brainstorm (appearance field): アイライン, 童顔, 坊主頭. ezFurigana lookups: 四股, 柘榴. A short cycle near the end of the run; 至近 left in the queue (至近距離 already has an entry). New kanji 柘 added to the kanji index.
@@ -68,8 +73,3 @@ Self-check: 1 flag on 17 entries, applied to the existing 長崎 entry (Dejima w
 ### 2026-11-05 (candidates restock, fourth cycle of the 15:30 run)
 
 71 candidates added. Closure (27, words used in entries but not defined): 高裁, 家裁, 不信任案, 健勝, 番頭, 色打掛, 濃茶, 鳥獣戯画, 今場所, 写経, 親鸞, 琵琶法師, 核分裂, 本塁, 三人称, 鉄格子, 鹿鳴館, 手水舎, 落雁, 八宝菜, 下関, 北原白秋, 子猫, 百害あって一利なし, 心躍る, 熊本城, 岩倉使節団. Brainstorm (44, seeds 子供 … 頭): 父の日, 姉貴, 子供騙し, 海の幸, 山の幸, 海開き, 出来損ない, 顔負け, 女々しい, 口約束, 男勝り, 開けっ放し, 手取り足取り, 姉妹都市, 頭ごなし, 頭隠して尻隠さず and others; 7 proposals rejected (6 spelling variants of existing entries, 味付ける).
-
-### 2026-11-05 (21 new entries, first cycle of the 15:30 run)
-
-32893–32913. Closure: 防衛省, 負け越し, 寒中見舞い, 後ろ足, 鉤括弧, 功労者, 変幻自在. Brainstorm: 猫かぶり, 張り子の虎 (animal idioms), 家族葬 (from 家族), パンの耳 (from パン), えくぼ, やつれる, くせ毛 (appearance field). ezFurigana lookups: 教委, クラスター, 公安, 拷問, 権化, 斎場, コントローラー. New kanji 拷 and 鉤 added to the kanji index.
-Self-check: 3 flags on 26 entries, all applied (a 負け越し translation, 家族葬 and 権化 notes softened); 28 kana links judged, 1 unlinked (として after a clause in 外務省).
