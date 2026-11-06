@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-06 (21 new entries, fourth cycle of the 12:15 run)
+
+32982–33002. Closure: はみ出し者, 借り物競走, 女友達, よじ登る, ユーカリ, 蘭学, 出島, 負け組. Brainstorm (appearance field): 分け目, 切れ長, 刈り上げ, 団子鼻, 垂れ目, 枝毛, 短髪. ezFurigana lookups: 主眼, 主軸, 所感, 所長, 周遊, 職人技.
+Self-check: clean (0 flags on 21 entries); 14 kana links confirmed.
+
 ### 2026-11-06 (80 candidates added, first cycle of the 12:15 run)
 
 Closure (34, from words used in entries 31000+ without an entry): 鎌倉幕府, 室町幕府, 日本書紀, 関東大震災, 第一次世界大戦, 北方領土, 基本的人権, 教育委員会, 文科省, 厚労省, 被爆者, 喪主, 暗礁 and others. Brainstorm (art field, 46): キャンバス, パレット, 静物画, 自画像, 下絵, 蒔絵, 九谷焼, 備前焼, 雪舟, 尾形光琳, ゴッホ, ピカソ, 美大, 贋作 and others; 7 rejected. Queue 451 → 531.
@@ -68,9 +73,4 @@ Self-check: 1 flag applied (中尊寺 was founded in 850, not the 12th century);
 
 32946–32953. Closure: 代表取締役, 極夜 (antonym of 白夜), 腰巾着. Brainstorm (appearance field): アイライン, 童顔, 坊主頭. ezFurigana lookups: 四股, 柘榴. A short cycle near the end of the run; 至近 left in the queue (至近距離 already has an entry). New kanji 柘 added to the kanji index.
 Self-check: clean (0 flags on 8 entries); 1 kana link removed (について in 上司について回る is ついて回る).
-
-### 2026-11-06 (20 new entries, first cycle of the 00:15 run)
-
-32926–32945. Closure: 統合失調症, 大儲け, 蒸留所, 座礁, 一元化, 人工呼吸器, 人間臭い. Brainstorm: マナティー, ハクビシン, ヘラジカ (animal-mammal field), 乳母 (from 母), 遊び人 (from 遊ぶ), 総菜パン (from パン), アイシャドウ (appearance field). ezFurigana lookups: 空自, 黒人, 祭祀, 三位一体 (two senses), 材質, 四肢. Candidate 照れくさい dropped: 07134 てれくさい already covers it. New kanji 祀 added to the kanji index.
-Self-check: clean (0 flags on 20 entries); 12 kana links confirmed.
 
