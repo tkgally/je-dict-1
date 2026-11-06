@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-06 (20 new entries, first cycle of the 00:15 run)
+
+32926–32945. Closure: 統合失調症, 大儲け, 蒸留所, 座礁, 一元化, 人工呼吸器, 人間臭い. Brainstorm: マナティー, ハクビシン, ヘラジカ (animal-mammal field), 乳母 (from 母), 遊び人 (from 遊ぶ), 総菜パン (from パン), アイシャドウ (appearance field). ezFurigana lookups: 空自, 黒人, 祭祀, 三位一体 (two senses), 材質, 四肢. Candidate 照れくさい dropped: 07134 てれくさい already covers it. New kanji 祀 added to the kanji index.
+Self-check: clean (0 flags on 20 entries); 12 kana links confirmed.
+
 ### 2026-11-05 (12 new entries, sixth cycle of the 15:30 run)
 
 32914–32925. Closure: 自衛権, 若女将, 歴史小説 (contrasted with 時代小説), 煮崩れ. Brainstorm: 丸顔, 面長 (appearance field), コッペパン (from パン), 猫可愛がり. ezFurigana lookups: グリーン (color; golf), 豪奢, ごまんと, 佐賀 (shown as 佐賀県). A short cycle near the end of the run.
@@ -68,9 +73,3 @@ Self-check: 3 flags on 26 entries, all applied (a 負け越し translation, 家�
 
 32872–32892. Closure: 第一人者, 西部劇, 救命胴衣, 法務省, 開業医, 物思い, 真後ろ. Brainstorm: どこもかしこも (from どこ), 立ち泳ぎ (from 泳ぐ), 午前様 (from 午前), 母子家庭 (from 母), 遊び半分 and 火遊び (from 遊ぶ), 小鹿. ezFurigana lookups: ことがある, ことができる (grammar patterns), さぞ, グミ, 語気, 小人 (with the しょうにん and しょうじん readings), 裁判員. どれくらい dropped from the queue as a spelling variant of どれぐらい.
 Self-check: 3 flags on 26 entries, all applied (ことができる "every verb" narrowed; さぞ register wording); 33 kana links confirmed.
-
-### 2026-11-05 (21 new entries, first cycle of the 12:15 run)
-
-32851–32871. Closure: 当たりくじ, 約数, 公倍数, 九分九厘, 無理難題, 絵空事, 大御所. Brainstorm: どれでも (from どれ), いつごろ (from いつ), 遊び回る (from 遊ぶ), 払い込む (from 払う), 大股 and 歩きスマホ (from 歩く), 子熊. ezFurigana lookups: 公算, 構造的, 光明, 小躍り, 小競り合い, ことから, 欠損.
-Self-check: 4 flags on 23 entries, all applied (九分九厘まで, 夜の街を遊び回る, a 公算 translation and tag); 27 kana links confirmed.
-
