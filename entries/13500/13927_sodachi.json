@@ -70,7 +70,7 @@
     },
     {
       "id": "13927_sodachi_ex6",
-      "japanese": "⟦{生|う}まれ→生まれ：01867_umare⟧⟦も→も：00484_mo⟧{育|そだ}ち⟦も→も：00484_mo⟧⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦で→で：00502_de⟧、{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧⟦{雪|ゆき}→雪：00584_yuki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{慣|な}れている→慣れる：00870_nareru⟧。",
+      "japanese": "⟦{生|う}まれ→生まれ：01867_umare⟧⟦も→も：00484_mo⟧{育|そだ}ち⟦も→も：00484_mo⟧⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦で→で：00502_de⟧、{子|こ}ども⟦の→の：09472_no⟧⟦{頃|ころ}→頃：32850_koro⟧⟦から→から：00504_kara⟧⟦{雪|ゆき}→雪：00584_yuki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{慣|な}れている→慣れる：00870_nareru⟧。",
       "english": "I was both born and raised in Hokkaido, so I've been used to snow since childhood.",
       "notes": null,
       "has_audio": true,
@@ -94,11 +94,18 @@
       "reading": "しゅっしん",
       "headword": "{出身|しゅっしん}",
       "label": "origin, where one is from"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01951_sodatsu",
+      "reading": "そだつ",
+      "headword": "{育|そだ}つ",
+      "label": "child-rearing, raising (active"
     }
   ],
   "metadata": {
     "created": "2026-02-27T07:03:50Z",
-    "modified": "2026-09-02T04:01:35Z",
+    "modified": "2026-11-06T13:49:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -108,7 +115,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "family"
       ]
     }
   }
