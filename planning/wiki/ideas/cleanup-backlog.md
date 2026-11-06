@@ -740,6 +740,8 @@ update: neighbours where one sibling carries a specific tag and the other sole-`
 
 **Update 2026-11-05 (systemic-fix)**: 152 entries in 26585–30295 retagged by hand (rights and penalties→law, particle physics and geometry→science, building materials→building, currencies→money, grammar patterns→grammatical …); 62 abstract or figurative nouns left as `general`. Detector 663; continue after 30295.
 
+**Update 2026-11-06 (routine #020)**: 83 more entries in 13495–28385 retagged by hand, mostly abstract nouns → `abstract` and change-of-state nouns → `change`; concrete or multi-sense nouns with no single fitting tag left general. Detector 266 → 183.
+
 ## Priority 14: Notes content copied from wrong entry
 
 **Source**: Comprehensive-polish 2026-05-25 session 021 (entries 03491–03510)
