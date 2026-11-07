@@ -20004,3 +20004,5 @@
 {"ts": "2026-11-07T13:08:50Z", "entry": "07058", "src": "accuracy", "by": "claude", "dim": "translation", "family": "translation-meaning", "sev": "warn", "decision": "apply", "note": "unnatural English"}
 {"ts":"2026-11-07T13:38:07Z","entry":"03904","src":"self-check","by":"sol","dim":"notes","family":"notes-fact","sev":"error","decision":"reject","note":"ruby covers only 丼 (どん); correct"}
 {"ts": "2026-11-07T13:53:21Z", "entry": "33086", "src": "self-check", "by": "sol", "dim": "notes", "family": "notes-fact", "sev": "error", "decision": "apply", "note": "異常 not always negative"}
+{"ts": "2026-11-07T14:06:51Z", "entry": "03878", "src": "self-check", "by": "sol", "dim": "translation", "family": "translation-meaning", "sev": "error", "decision": "apply", "note": "戻す transitive: restore something"}
+{"ts": "2026-11-07T14:06:51Z", "entry": "03381", "src": "self-check", "by": "sol", "dim": "notes", "family": "notes-fact", "sev": "error", "decision": "reject", "note": "ruby covers only 他 (た); correct"}
