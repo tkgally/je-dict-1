@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-07 (20 new entries, fourth cycle of the 00:15 run)
+
+33035–33054. Closure: 来季, 修行僧, 革命家, 陸の孤島, 高裁, 家裁, 不信任案. Brainstorm (appearance field): エステ, スキンヘッド, 丸刈り, 出っ歯, 口ひげ, 小顔, 天然パーマ (入れ墨 dropped: covered by 刺青 09639). ezFurigana lookups: 心技体, 親身, 時空, 辞書形, 地蔵, 実地.
+Self-check: clean (0 flags on 20 entries); 22 kana links confirmed.
+
 ### 2026-11-07 (22 new entries, second cycle of the 00:15 run)
 
 33013–33034. Closure: 役満, 天皇陛下, 両論併記, 腸内細菌, 素因, 立憲主義, 待ち焦がれる, 脱原発, 子々孫々. Brainstorm (appearance field): いかり肩, おめかし, けばけばしい, こざっぱり, つけまつげ, もみあげ, イメチェン. ezFurigana lookups: クレイジー, シック, 初老, 調べ, 新歓, 処理水.
@@ -68,8 +73,3 @@ Self-check: clean (0 flags on 21 entries); 14 kana links confirmed.
 ### 2026-11-06 (80 candidates added, first cycle of the 12:15 run)
 
 Closure (34, from words used in entries 31000+ without an entry): 鎌倉幕府, 室町幕府, 日本書紀, 関東大震災, 第一次世界大戦, 北方領土, 基本的人権, 教育委員会, 文科省, 厚労省, 被爆者, 喪主, 暗礁 and others. Brainstorm (art field, 46): キャンバス, パレット, 静物画, 自画像, 下絵, 蒔絵, 九谷焼, 備前焼, 雪舟, 尾形光琳, ゴッホ, ピカソ, 美大, 贋作 and others; 7 rejected. Queue 451 → 531.
-
-### 2026-11-06 (8 new entries, sixth cycle of the 08:50 run)
-
-32974–32981. Closure: 岩手山, 起立採決, はみ出す, ガリ勉, 読書家. Brainstorm (appearance field): チーク, ムキムキ. ezFurigana lookup: 清水 (with a warning that 清水寺 and 清水の舞台 read きよみず). A short cycle at the end of the run.
-Self-check: 1 flag applied (大の読書家 reads だいの); 7 kana links confirmed.
