@@ -6943,6 +6943,18 @@
     "date": "2026-09-08"
    }
   },
+  "こざっぱり": {
+   "target": "33023_kozappari",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "こざっぱり is a single mimetic-style adverb meaning neat and tidy, and no other word shares this reading.",
+    "model": "claude:opus",
+    "date": "2026-11-07"
+   }
+  },
   "こしあん": {
    "target": "20791_koshian",
    "tier": "unique",
@@ -7186,6 +7198,20 @@
     "reviewed": 984,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "ことがある": {
+   "target": "32886_kotogaaru",
+   "tier": "verify",
+   "competitors": [
+    "こと + が + ある (there is something (to do or say), as in 話したいことがある or やることがある)"
+   ],
+   "screen": {
+    "verdict": "ambiguous",
+    "risk": "common",
+    "note": "After desiderative or plain verbs and adjectives, the string often literally means 'there is a matter or thing' rather than the experiential or occasional pattern.",
+    "model": "claude:opus",
+    "date": "2026-11-07"
    }
   },
   "ことができる": {
