@@ -580,6 +580,8 @@ Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
+**Update 2026-11-07 (routine 012):** 32 of the first 40 residue rows retagged after all where one tag fits (見本, ラベル, 品 → `shopping`; 事故 → `transportation` + `society`; 灰, 煙 → `nature`; 跡, 足跡 → `existence`; 群, 塊 → `quantity`; 他, 互い, 元 → `abstract` …). Left general: 破片, 穴, 丸, 玉, 物, 表面, ケース, 実物. Detector 152 → 120.
+
 **Update 2026-11-07 (routine 006):** 6 more retagged (法面, 残熱, 錆, 小技, 揃い踏み, 中性). Detector 159 → 153. The residue now needs taxonomy tags it lacks (material, shape, disaster); further hand passes will not pay.
 
 **Update 2026-11-07 (routine 001):** 24 more retagged by hand from the residue (機会, 好機, 奇跡, 末路, 混沌, 指針 → `abstract`; 決着, 波乱, 底上げ → `change`; 挙句, 次いで → `grammatical`; 身代わり, 道連れ → `person`; 写り具合 → `appearance` …). Detector 183 → 159. What is left is concrete, multi-sense or shape/material nouns.
