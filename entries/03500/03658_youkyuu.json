@@ -2,7 +2,7 @@
   "id": "03658_youkyuu",
   "headword": "{要求|ようきゅう}",
   "reading": "ようきゅう",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "demand, request",
   "definitions": [
     {
@@ -63,26 +63,29 @@
       ]
     }
   ],
-  "notes": "{要求|ようきゅう} is a demand: something the speaker states they must have, with the expectation that the other party will comply. It is the strongest of the everyday 'request' words, and it is at home in negotiations, labour disputes, customer complaints, and legal or diplomatic language rather than in ordinary favours between friends.\n\nGrammar: {要求|ようきゅう} is a noun that also works as a ⟦する→する：00392_suru⟧ verb. The thing demanded is marked with ⟦を→を：00422_wo⟧ and the person demanded of with ⟦に→に：00314_ni⟧.\n\nCommon patterns:\n- {要求|ようきゅう}⟦する→する：00392_suru⟧: to demand\n- {要求|ようきゅう}⟦に→に：00314_ni⟧⟦{応|こた}える→応える：09893_kotaeru⟧: to meet a demand\n- {要求|ようきゅう}⟦を→を：00422_wo⟧⟦{満|み}たす→満たす：09889_mitasu⟧: to satisfy a requirement\n- {要求|ようきゅう}⟦を→を：00422_wo⟧⟦{拒否|きょひ}→拒否：08242_kyohi⟧⟦する→する：00392_suru⟧: to refuse a demand\n\nSimilar words, from softest to strongest:\n- ⟦{依頼|いらい}→依頼：02594_irai⟧: a polite request, which the other party is free to decline.\n- ⟦{要請|ようせい}→要請：05463_yousei⟧: a formal, often official request — a government or organization ⟦{要請|ようせい}→要請：05463_yousei⟧s cooperation. Close to {要求|ようきゅう} but less confrontational.\n- {要求|ようきゅう}: a demand that expects compliance.\n- ⟦{命令|めいれい}→命令：03754_meirei⟧: an order from someone with the authority to give it, which leaves no choice at all.\n\nAlso distinguish ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧, a formal claim or request, most often for payment (a bill) but also for documents or legal remedies (⟦{資料|しりょう}→資料：04166_shiryou⟧⟦{請求|せいきゅう}→請求：03374_seikyuu⟧, ⟦{再審|さいしん}→再審：15180_saishin⟧⟦{請求|せいきゅう}→請求：03374_seikyuu⟧).",
+  "notes": "{要求|ようきゅう} is a demand: something the speaker states they must have, with the expectation that the other party will comply. It is the strongest of the everyday 'request' words, and it is at home in negotiations, labour disputes, customer complaints, and legal or diplomatic language rather than in ordinary favours between friends.\n\nUSAGE:\n{要求|ようきゅう} is a noun that also works as a ⟦する→する：00392_suru⟧ verb. The thing demanded is marked with ⟦を→を：00422_wo⟧ and the person demanded of with ⟦に→に：00314_ni⟧.\n\nCOMMON PATTERNS:\n- {要求|ようきゅう}⟦する→する：00392_suru⟧: to demand\n- {要求|ようきゅう}⟦に→に：00314_ni⟧⟦{応|こた}える→応える：09893_kotaeru⟧: to meet a demand\n- {要求|ようきゅう}⟦を→を：00422_wo⟧⟦{満|み}たす→満たす：09889_mitasu⟧: to satisfy a requirement\n- {要求|ようきゅう}⟦を→を：00422_wo⟧⟦{拒否|きょひ}→拒否：08242_kyohi⟧⟦する→する：00392_suru⟧: to refuse a demand\n\nSIMILAR WORDS:\nFrom softest to strongest:\n- ⟦{依頼|いらい}→依頼：02594_irai⟧: a polite request, which the other party is free to decline.\n- ⟦{要請|ようせい}→要請：05463_yousei⟧: a formal, often official request — a government or organization ⟦{要請|ようせい}→要請：05463_yousei⟧s cooperation. Close to {要求|ようきゅう} but less confrontational.\n- {要求|ようきゅう}: a demand that expects compliance.\n- ⟦{命令|めいれい}→命令：03754_meirei⟧: an order from someone with the authority to give it, which leaves no choice at all.\n\nAlso distinguish ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧, a formal claim or request, most often for payment (a bill) but also for documents or legal remedies (⟦{資料|しりょう}→資料：04166_shiryou⟧⟦{請求|せいきゅう}→請求：03374_seikyuu⟧, ⟦{再審|さいしん}→再審：15180_saishin⟧⟦{請求|せいきゅう}→請求：03374_seikyuu⟧).",
   "metadata": {
     "created": "2026-01-12T16:05:00Z",
-    "modified": "2026-11-05T02:09:59Z",
+    "modified": "2026-11-07T02:10:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
         "communication"
-      ]
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
   },
   "cross_references": [
     {
-      "type": "synonym",
+      "type": "contrast",
       "target_id": "05463_yousei",
       "reading": "ようせい",
       "headword": "{要請|ようせい}",
@@ -101,6 +104,103 @@
       "reading": "せいきゅう",
       "headword": "{請求|せいきゅう}",
       "label": "claim, billing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03754_meirei",
+      "reading": "めいれい",
+      "headword": "{命令|めいれい}",
+      "label": "an order from someone…"
     }
-  ]
+  ],
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{要求|ようきゅう}する",
+        "negative": "{要求|ようきゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{要求|ようきゅう}します",
+        "negative": "{要求|ようきゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{要求|ようきゅう}した",
+        "negative": "{要求|ようきゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{要求|ようきゅう}しました",
+        "negative": "{要求|ようきゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{要求|ようきゅう}して",
+        "negative": "{要求|ようきゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{要求|ようきゅう}している",
+        "negative": "{要求|ようきゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{要求|ようきゅう}しています",
+        "negative": "{要求|ようきゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{要求|ようきゅう}していた",
+        "negative": "{要求|ようきゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{要求|ようきゅう}していました",
+        "negative": "{要求|ようきゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{要求|ようきゅう}すれば",
+        "negative": "{要求|ようきゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{要求|ようきゅう}したら",
+        "negative": "{要求|ようきゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{要求|ようきゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{要求|ようきゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{要求|ようきゅう}できる",
+        "negative": "{要求|ようきゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{要求|ようきゅう}される",
+        "negative": "{要求|ようきゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{要求|ようきゅう}させる",
+        "negative": "{要求|ようきゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{要求|ようきゅう}しろ",
+        "negative": "{要求|ようきゅう}するな"
+      }
+    ]
+  }
 }
