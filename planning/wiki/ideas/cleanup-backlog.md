@@ -580,6 +580,8 @@ Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
+**Update 2026-11-07 (routine 001):** 24 more retagged by hand from the residue (機会, 好機, 奇跡, 末路, 混沌, 指針 → `abstract`; 決着, 波乱, 底上げ → `change`; 挙句, 次いで → `grammatical`; 身代わり, 道連れ → `person`; 写り具合 → `appearance` …). Detector 183 → 159. What is left is concrete, multi-sense or shape/material nouns.
+
 **Update 2026-11-06 (fourth look, routine #011):** 30 more retagged from the first 130 detector rows (00082–13411): function nouns 以外/以上/内/方 → `grammatical` (+ quantity/place/direction), 表/裏 → direction, 機関/機構 → society+technology, 障害 → health, 節 → music/plant-general/body-part, 形見 → family+culture, and others. Detector 299 → 269. Most remaining rows in that span are genuinely general (物, 他, 元, 玉) or need a shape/material tag the taxonomy lacks (輪, 丸, 穴, プラスチック).
 
 **Update 2026-11-06 (third look at the low-ID residue):** 54 more abstract nouns below 07800 retagged (mostly `abstract`; also society, evaluation, quantity, sense). Detector 356 → 302. The remainder is concrete or multi-sense nouns (破片, 穴, 灰, 煙, 輪, 影, 跡, 物 …) for which no single tag fits; further passes are unlikely to pay.
