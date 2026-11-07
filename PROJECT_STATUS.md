@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-07 (22 new entries, second cycle of the 00:15 run)
+
+33013–33034. Closure: 役満, 天皇陛下, 両論併記, 腸内細菌, 素因, 立憲主義, 待ち焦がれる, 脱原発, 子々孫々. Brainstorm (appearance field): いかり肩, おめかし, けばけばしい, こざっぱり, つけまつげ, もみあげ, イメチェン. ezFurigana lookups: クレイジー, シック, 初老, 調べ, 新歓, 処理水.
+Self-check: 2 flags applied (つけまつげ is not a body part; 漏電 is electrical leakage); 22 kana links confirmed; 1 wrong kanji link removed (付け in 付けまつげ).
+
 ### 2026-11-06 (10 new entries, eighth cycle of the 12:15 run)
 
 33003–33012. Closure: 連帯債務, 器楽, 製造者, 武器商人. Brainstorm (appearance field): 美少年, 色黒, 長髪. ezFurigana lookups: 市議, 主席 (contrasted with 首席), 集合体. A short cycle at the end of the run.
@@ -68,9 +73,3 @@ Closure (34, from words used in entries 31000+ without an entry): 鎌倉幕府, 
 
 32974–32981. Closure: 岩手山, 起立採決, はみ出す, ガリ勉, 読書家. Brainstorm (appearance field): チーク, ムキムキ. ezFurigana lookup: 清水 (with a warning that 清水寺 and 清水の舞台 read きよみず). A short cycle at the end of the run.
 Self-check: 1 flag applied (大の読書家 reads だいの); 7 kana links confirmed.
-
-### 2026-11-06 (20 new entries, third cycle of the 08:50 run)
-
-32954–32973. Closure: ありあり, のしかかる, わんこそば, 南部鉄器, 中尊寺 (all three from 岩手), 無記名投票, 第一声. Brainstorm (appearance field): ルックス, 若作り, 隈, おかっぱ, ぱっちり, 二重あご, つり目. ezFurigana lookups: 至近, 私大, 使途, 酌, 謝辞, 車中泊.
-Self-check: 1 flag applied (中尊寺 was founded in 850, not the 12th century); 2 kana links removed (として in a quotative, わら in 座敷わらし).
-
