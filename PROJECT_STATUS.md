@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-07 (12 new entries, fourth cycle of the 12:15 run)
+
+33075–33086. Closure: カツオのたたき, 色打掛, 核分裂, 本塁. Brainstorm: 絵になる, 見違える (appearance field), 父の日, 姉貴. ezFurigana lookups: 重症化, 常備薬, 助産師 (looked up as 助産婦), 尋常.
+Self-check: 1 flag applied (異常 is not always negative); 8 kana links confirmed.
+
 ### 2026-11-07 (20 new entries, first cycle of the 12:15 run)
 
 33055–33074. Closure: ダッシュ, 健勝, 番頭, 濃茶, 今場所, 写経, 親鸞. Brainstorm (appearance field): ヘアスタイル, 小綺麗, 彫りが深い, 恰幅, 様になる, 無精ひげ, 目鼻立ち. ezFurigana lookups: ショット, シンガポール, 実験的, 邪念, ジャーナリスト, 重軽傷.
@@ -69,9 +74,4 @@ Self-check: 2 flags applied (つけまつげ is not a body part; 漏電 is elect
 
 33003–33012. Closure: 連帯債務, 器楽, 製造者, 武器商人. Brainstorm (appearance field): 美少年, 色黒, 長髪. ezFurigana lookups: 市議, 主席 (contrasted with 首席), 集合体. A short cycle at the end of the run.
 Self-check: clean (0 flags on 10 entries); 7 kana links confirmed.
-
-### 2026-11-06 (21 new entries, fourth cycle of the 12:15 run)
-
-32982–33002. Closure: はみ出し者, 借り物競走, 女友達, よじ登る, ユーカリ, 蘭学, 出島, 負け組. Brainstorm (appearance field): 分け目, 切れ長, 刈り上げ, 団子鼻, 垂れ目, 枝毛, 短髪. ezFurigana lookups: 主眼, 主軸, 所感, 所長, 周遊, 職人技.
-Self-check: clean (0 flags on 21 entries); 14 kana links confirmed.
 
