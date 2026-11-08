@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-08 (6 new entries, eighth cycle of the 00:15 run)
+
+33119–33124. Closure: 鳥獣戯画, 北原白秋, 〜周忌. Brainstorm (appearance field): 老け顔, マッチョ. ezFurigana lookups: 〜場 (looked up as 場).
+Self-check: clean (0 flags); kana links confirmed.
+
 ### 2026-11-08 (12 new entries, sixth cycle of the 00:15 run)
 
 33107–33118. Closure: 下関, 琵琶法師, 鹿鳴館, やれやれ. Brainstorm: 父子, 子供心, 妹分, 猫っ毛. ezFurigana lookups: 薩摩, 殉教, 色即是空, スロー. New kanji 殉, 薩 added to the kanji index.
@@ -69,9 +74,4 @@ Self-check: 1 flag applied (異常 is not always negative); 8 kana links confirm
 
 33055–33074. Closure: ダッシュ, 健勝, 番頭, 濃茶, 今場所, 写経, 親鸞. Brainstorm (appearance field): ヘアスタイル, 小綺麗, 彫りが深い, 恰幅, 様になる, 無精ひげ, 目鼻立ち. ezFurigana lookups: ショット, シンガポール, 実験的, 邪念, ジャーナリスト, 重軽傷.
 Self-check: 3 flags applied (初日 read しょにち; 健勝 claim softened; 恰幅 not a body part); 25 kana links confirmed.
-
-### 2026-11-07 (20 new entries, fourth cycle of the 00:15 run)
-
-33035–33054. Closure: 来季, 修行僧, 革命家, 陸の孤島, 高裁, 家裁, 不信任案. Brainstorm (appearance field): エステ, スキンヘッド, 丸刈り, 出っ歯, 口ひげ, 小顔, 天然パーマ (入れ墨 dropped: covered by 刺青 09639). ezFurigana lookups: 心技体, 親身, 時空, 辞書形, 地蔵, 実地.
-Self-check: clean (0 flags on 20 entries); 22 kana links confirmed.
 
