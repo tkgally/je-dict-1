@@ -752,6 +752,8 @@ update: neighbours where one sibling carries a specific tag and the other sole-`
 
 **Update 2026-11-06 (routine #020)**: 83 more entries in 13495–28385 retagged by hand, mostly abstract nouns → `abstract` and change-of-state nouns → `change`; concrete or multi-sense nouns with no single fitting tag left general. Detector 266 → 183.
 
+**Update 2026-11-08 (routine 015)**: fourth pass over the residue: 14 retagged where an existing entry sets the precedent (materials → `science` as 鉄/金属; lists and "the above" words → `communication` as 上記/欄; fakes → `evaluation` as 本物). Detector 93 → 79. The rest is genuinely general; the queue item is now `batch_ready: false`, so the selector no longer schedules passes over it.
+
 ## Priority 14: Notes content copied from wrong entry
 
 **Source**: Comprehensive-polish 2026-05-25 session 021 (entries 03491–03510)
