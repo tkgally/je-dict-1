@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-08 (20 new entries, third cycle of the 00:15 run)
+
+33087–33106. Closure: 鉄格子, 心躍る, 手水舎, 落雁, 八宝菜, 三人称, 百害あって一利なし (子猫 dropped: 仔猫 24479 already covers it). Brainstorm: 手に取る, 口を出す, 開け放す, 子供扱い, 子供騙し, 海の家, 白髪交じり. ezFurigana lookups: 素通り, すり減らす, ずんぐり, ステッカー, 実弾, 従者.
+Self-check: clean (0 flags); 11 kana links confirmed.
+
 ### 2026-11-07 (12 new entries, fourth cycle of the 12:15 run)
 
 33075–33086. Closure: カツオのたたき, 色打掛, 核分裂, 本塁. Brainstorm: 絵になる, 見違える (appearance field), 父の日, 姉貴. ezFurigana lookups: 重症化, 常備薬, 助産師 (looked up as 助産婦), 尋常.
@@ -69,9 +74,4 @@ Self-check: clean (0 flags on 20 entries); 22 kana links confirmed.
 
 33013–33034. Closure: 役満, 天皇陛下, 両論併記, 腸内細菌, 素因, 立憲主義, 待ち焦がれる, 脱原発, 子々孫々. Brainstorm (appearance field): いかり肩, おめかし, けばけばしい, こざっぱり, つけまつげ, もみあげ, イメチェン. ezFurigana lookups: クレイジー, シック, 初老, 調べ, 新歓, 処理水.
 Self-check: 2 flags applied (つけまつげ is not a body part; 漏電 is electrical leakage); 22 kana links confirmed; 1 wrong kanji link removed (付け in 付けまつげ).
-
-### 2026-11-06 (10 new entries, eighth cycle of the 12:15 run)
-
-33003–33012. Closure: 連帯債務, 器楽, 製造者, 武器商人. Brainstorm (appearance field): 美少年, 色黒, 長髪. ezFurigana lookups: 市議, 主席 (contrasted with 首席), 集合体. A short cycle at the end of the run.
-Self-check: clean (0 flags on 10 entries); 7 kana links confirmed.
 
