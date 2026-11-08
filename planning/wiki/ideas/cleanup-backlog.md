@@ -580,6 +580,8 @@ Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
+**Update 2026-11-08 (routine 011):** a third look at the residue retagged 13 where one tag fits (一息, 使い方, 使い慣れる, 早技, 渾身 → `action`; 真っ先, 偏る → `descriptive`; 物資 → `economics`; 憚る → `society`; ペース → `time-general`; 予約席 → `daily-life`; 振替 → `finance` + `time-general`; 賞品 → `leisure`). Detector 106 → 93. The rest has now been read three times and needs tags the taxonomy lacks (material, shape, line, light); more passes will not pay.
+
 **Update 2026-11-08 (routine 004):** rows 41–120 of the residue re-read; 14 retagged where a tag clearly fits (経路 → `direction`; 輪郭 → `appearance`; 関門 → `place`; 牽引力 → `science`; 複合, 該当, 障壁, 付随, 相当する → `abstract`; 第一に, 第二に, 順に → `descriptive` …). Detector 120 → 106. What is left is materials, lights, lines, cracks and multi-sense concrete nouns.
 
 **Update 2026-11-07 (routine 012):** 32 of the first 40 residue rows retagged after all where one tag fits (見本, ラベル, 品 → `shopping`; 事故 → `transportation` + `society`; 灰, 煙 → `nature`; 跡, 足跡 → `existence`; 群, 塊 → `quantity`; 他, 互い, 元 → `abstract` …). Left general: 破片, 穴, 丸, 玉, 物, 表面, ケース, 実物. Detector 152 → 120.
