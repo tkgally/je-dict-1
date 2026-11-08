@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-08 (8 new entries, fifth cycle of the 12:15 run)
+
+33125–33132. Closure: 対称的, 冥利, 定形. Brainstorm: とめどない, 海の幸, 山の幸. ezFurigana lookups: 精悍, ご清聴.
+Self-check: clean; 9 kana links confirmed. New kanji 悍 added to the kanji index.
+
 ### 2026-11-08 (33 candidates queued, fourth cycle of the 12:15 run)
 
 Candidates mode. Closure: 20 words that entries use without an entry of their own (ガス欠, 反則金, 内閣改造, 企業統治, 得失点差, 直行直帰, 先勝, 先負, …). Brainstorm (seeds 00575–00595, 足 to ちょっと): 13 of 32 vetted proposals added (大学病院, 面白半分, 国立国会図書館, 上野公園, 足が棒になる, 雪合戦, 暇人, …). Queue 396 → 429.
@@ -68,8 +73,3 @@ Self-check: 3 flags applied (関門 joins 下関's 関 and 門司's 門, also fi
 
 33087–33106. Closure: 鉄格子, 心躍る, 手水舎, 落雁, 八宝菜, 三人称, 百害あって一利なし (子猫 dropped: 仔猫 24479 already covers it). Brainstorm: 手に取る, 口を出す, 開け放す, 子供扱い, 子供騙し, 海の家, 白髪交じり. ezFurigana lookups: 素通り, すり減らす, ずんぐり, ステッカー, 実弾, 従者.
 Self-check: clean (0 flags); 11 kana links confirmed.
-
-### 2026-11-07 (12 new entries, fourth cycle of the 12:15 run)
-
-33075–33086. Closure: カツオのたたき, 色打掛, 核分裂, 本塁. Brainstorm: 絵になる, 見違える (appearance field), 父の日, 姉貴. ezFurigana lookups: 重症化, 常備薬, 助産師 (looked up as 助産婦), 尋常.
-Self-check: 1 flag applied (異常 is not always negative); 8 kana links confirmed.
