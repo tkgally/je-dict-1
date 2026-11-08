@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-08 (12 new entries, sixth cycle of the 00:15 run)
+
+33107–33118. Closure: 下関, 琵琶法師, 鹿鳴館, やれやれ. Brainstorm: 父子, 子供心, 妹分, 猫っ毛. ezFurigana lookups: 薩摩, 殉教, 色即是空, スロー. New kanji 殉, 薩 added to the kanji index.
+Self-check: 3 flags applied (関門 joins 下関's 関 and 門司's 門, also fixed in 14573; Dan-no-ura is the Heike's climax; 子供心 not a person); 19 kana links confirmed.
+
 ### 2026-11-08 (20 new entries, third cycle of the 00:15 run)
 
 33087–33106. Closure: 鉄格子, 心躍る, 手水舎, 落雁, 八宝菜, 三人称, 百害あって一利なし (子猫 dropped: 仔猫 24479 already covers it). Brainstorm: 手に取る, 口を出す, 開け放す, 子供扱い, 子供騙し, 海の家, 白髪交じり. ezFurigana lookups: 素通り, すり減らす, ずんぐり, ステッカー, 実弾, 従者.
@@ -69,9 +74,4 @@ Self-check: 3 flags applied (初日 read しょにち; 健勝 claim softened; �
 
 33035–33054. Closure: 来季, 修行僧, 革命家, 陸の孤島, 高裁, 家裁, 不信任案. Brainstorm (appearance field): エステ, スキンヘッド, 丸刈り, 出っ歯, 口ひげ, 小顔, 天然パーマ (入れ墨 dropped: covered by 刺青 09639). ezFurigana lookups: 心技体, 親身, 時空, 辞書形, 地蔵, 実地.
 Self-check: clean (0 flags on 20 entries); 22 kana links confirmed.
-
-### 2026-11-07 (22 new entries, second cycle of the 00:15 run)
-
-33013–33034. Closure: 役満, 天皇陛下, 両論併記, 腸内細菌, 素因, 立憲主義, 待ち焦がれる, 脱原発, 子々孫々. Brainstorm (appearance field): いかり肩, おめかし, けばけばしい, こざっぱり, つけまつげ, もみあげ, イメチェン. ezFurigana lookups: クレイジー, シック, 初老, 調べ, 新歓, 処理水.
-Self-check: 2 flags applied (つけまつげ is not a body part; 漏電 is electrical leakage); 22 kana links confirmed; 1 wrong kanji link removed (付け in 付けまつげ).
 
