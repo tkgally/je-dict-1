@@ -2825,22 +2825,6 @@ tilde measurement.** The 159-instance affix finding was produced by trying `X〜
 records. Both findings say the lookup's key space is narrower than its callers assume, and
 both were discovered by a caller working around it rather than by reading it.
 
-## 88. `get_next_id.py` should print the target directory alongside the ID
-
-**Source**: 2026-08-08 new-entries run.
-**Status**: open, trivial, and it has already cost a session once.
-
-Entries 30495–30499 were written into `entries/30500/` before `validate.py` caught the mismatch.
-The ID/directory rule is "round *down* to the nearest 500", so an ID like 30495 belongs in
-`entries/30000/`, but the visual similarity of `304xx`/`305xx` to the directory name `30500`
-makes the wrong choice look right — and the trap is worst **exactly at a 500 boundary**, which is
-where new-entry batches inevitably sit as they extend the corpus.
-
-`get_entry_path.py` already computes this correctly. The fix is to have `get_next_id.py` print
-the directory it implies (`30495 → entries/30000/`) and, better, to warn when a batch of the
-requested size would cross a boundary. One line of output removes a class of error that
-currently depends on `validate.py` catching it after the files are written.
-
 ## Updates 2026-08-08 (run 2) to existing items
 
 **Item 84 (`review_runner.py`'s 6-second rate limit) — a second, larger bound found:

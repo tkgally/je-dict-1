@@ -1498,3 +1498,21 @@ readings (01011 に), より in 〜により (31874), and a loanword inside a ka
 
 #### Original text
 Since 2026-09-01, `notes-fact` flags were 304 applied against 618 rejected (33%). `quote_in_notes()` accepts a quote when only its first 25 characters match, so spliced or misplaced quotes get through.
+
+## 88. `get_next_id.py` should print the target directory alongside the ID
+
+**Resolved 2026-11-08 (routine 022)**: `get_next_id.py` now prints `Directory: entries/NNNNN/` after the ID, notes when the ID is the first of a new directory, and with `--count N` warns when a batch of N crosses a 500 boundary (e.g. 30495 + 10 → 30495–30499 in entries/30000/, 30500 onward in entries/30500/). `--number-only` output is unchanged. Tests: `build/tests/test_get_next_id.py` (checked against `path_utils.get_directory_range`).
+
+**Source**: 2026-08-08 new-entries run.
+**Status**: open, trivial, and it has already cost a session once.
+
+Entries 30495–30499 were written into `entries/30500/` before `validate.py` caught the mismatch.
+The ID/directory rule is "round *down* to the nearest 500", so an ID like 30495 belongs in
+`entries/30000/`, but the visual similarity of `304xx`/`305xx` to the directory name `30500`
+makes the wrong choice look right — and the trap is worst **exactly at a 500 boundary**, which is
+where new-entry batches inevitably sit as they extend the corpus.
+
+`get_entry_path.py` already computes this correctly. The fix is to have `get_next_id.py` print
+the directory it implies (`30495 → entries/30000/`) and, better, to warn when a batch of the
+requested size would cross a boundary. One line of output removes a class of error that
+currently depends on `validate.py` catching it after the files are written.

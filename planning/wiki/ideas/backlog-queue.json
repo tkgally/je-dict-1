@@ -964,19 +964,20 @@
     {
       "id": "get-next-id-print-directory",
       "title": "get_next_id.py should print the target directory and warn at 500 boundaries",
-      "source": "ideas/tooling-backlog.md#88-get_next_idpy-should-print-the-target-directory-alongside-the-id",
+      "source": "ideas/tooling-backlog-resolved.md#88-get_next_idpy-should-print-the-target-directory-alongside-the-id",
       "detect": "n/a — script change",
       "filter": null,
       "fix_type": "tooling",
       "verify": "output matches get_entry_path.py for the same id",
       "priority": 10,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 1,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "script change",
       "scope_measured_at": "2026-08-08",
       "severity": "info",
-      "notes": "Cost a session once: entries 30495-30499 were written into entries/30500/ before validate.py caught it. The trap is worst exactly at a 500 boundary, which is where new-entry batches always sit."
+      "notes": "Cost a session once: entries 30495-30499 were written into entries/30500/ before validate.py caught it. The trap is worst exactly at a 500 boundary, which is where new-entry batches always sit. | 2026-11-08 (routine 022): resolved — prints the directory, flags a new-directory first ID, and --count N warns on a 500-boundary crossing; test_get_next_id.py.",
+      "resolved_date": "2026-11-08"
     },
     {
       "id": "tag-domain-single-example-contamination",
