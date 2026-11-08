@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-08 (33 candidates queued, fourth cycle of the 12:15 run)
+
+Candidates mode. Closure: 20 words that entries use without an entry of their own (ガス欠, 反則金, 内閣改造, 企業統治, 得失点差, 直行直帰, 先勝, 先負, …). Brainstorm (seeds 00575–00595, 足 to ちょっと): 13 of 32 vetted proposals added (大学病院, 面白半分, 国立国会図書館, 上野公園, 足が棒になる, 雪合戦, 暇人, …). Queue 396 → 429.
+
 ### 2026-11-08 (6 new entries, eighth cycle of the 00:15 run)
 
 33119–33124. Closure: 鳥獣戯画, 北原白秋, 〜周忌. Brainstorm (appearance field): 老け顔, マッチョ. ezFurigana lookups: 〜場 (looked up as 場).
@@ -69,9 +73,3 @@ Self-check: clean (0 flags); 11 kana links confirmed.
 
 33075–33086. Closure: カツオのたたき, 色打掛, 核分裂, 本塁. Brainstorm: 絵になる, 見違える (appearance field), 父の日, 姉貴. ezFurigana lookups: 重症化, 常備薬, 助産師 (looked up as 助産婦), 尋常.
 Self-check: 1 flag applied (異常 is not always negative); 8 kana links confirmed.
-
-### 2026-11-07 (20 new entries, first cycle of the 12:15 run)
-
-33055–33074. Closure: ダッシュ, 健勝, 番頭, 濃茶, 今場所, 写経, 親鸞. Brainstorm (appearance field): ヘアスタイル, 小綺麗, 彫りが深い, 恰幅, 様になる, 無精ひげ, 目鼻立ち. ezFurigana lookups: ショット, シンガポール, 実験的, 邪念, ジャーナリスト, 重軽傷.
-Self-check: 3 flags applied (初日 read しょにち; 健勝 claim softened; 恰幅 not a body part); 25 kana links confirmed.
-
