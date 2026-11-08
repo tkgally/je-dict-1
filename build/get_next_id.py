@@ -15,6 +15,10 @@ Usage:
 
     python3 build/get_next_id.py --number-only
     # Output: 11494
+
+    python3 build/get_next_id.py --count 20
+    # Also warns when a batch of 20 starting at the next ID crosses a
+    # 500-entry directory boundary (IDs round DOWN: 30495 -> entries/30000/).
 """
 
 import argparse
@@ -55,6 +59,31 @@ def get_max_entry_id(entries_dir: Path) -> int:
     return max_id
 
 
+def entry_directory(numeric_id: int) -> str:
+    """Directory an ID belongs in: the ID rounded down to the nearest 500."""
+    return f"entries/{numeric_id // 500 * 500:05d}/"
+
+
+def boundary_lines(next_id: int, count: int = 1) -> list:
+    """Lines telling where the next ID (and a batch of `count`) must be written.
+
+    Entries 30495-30499 were once written into entries/30500/ because 304xx
+    looks like 30500; printing the directory removes that trap.
+    """
+    lines = [f"Directory: {entry_directory(next_id)}"]
+    if next_id % 500 == 0:
+        lines.append(f"NOTE: {next_id:05d} is the first ID of a new directory.")
+    last = next_id + max(count, 1) - 1
+    boundary = (next_id // 500 + 1) * 500
+    if last >= boundary:
+        lines.append(
+            f"WARNING: a batch of {count} ({next_id:05d}-{last:05d}) crosses a directory "
+            f"boundary: {next_id:05d}-{boundary - 1:05d} go in {entry_directory(next_id)}, "
+            f"{boundary:05d} onward in {entry_directory(boundary)}."
+        )
+    return lines
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Get the next available entry ID by scanning the filesystem.'
@@ -62,6 +91,10 @@ def main():
     parser.add_argument(
         '--number-only', action='store_true',
         help='Print only the numeric ID (for use in scripts)'
+    )
+    parser.add_argument(
+        '--count', type=int, default=1,
+        help='Batch size: warn if this many IDs from the next one cross a 500 boundary'
     )
     args = parser.parse_args()
 
@@ -82,6 +115,8 @@ def main():
     else:
         print(f"Highest existing ID: {max_id:05d}")
         print(f"Next available ID: {next_id:05d}")
+        for line in boundary_lines(next_id, args.count):
+            print(line)
 
 
 if __name__ == '__main__':

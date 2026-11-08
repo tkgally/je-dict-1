@@ -133,6 +133,8 @@ python3 build/ezfurigana_lookups.py queue --n 40      # ezFurigana candidates, m
      ```bash
      python3 build/get_next_id.py
      ```
+     It also prints the directory the ID belongs in (`Directory: entries/33000/`); write the file
+     there. With `--count N` it warns when a batch of N crosses a 500-entry boundary.
    - Get timestamp: `python3 build/get_timestamp.py` (CRITICAL - always run this, never guess)
    - Write entry using the appropriate skill (auto-loaded based on part of speech)
    - **Include sense_numbers on all examples**: Every example must have a `sense_numbers` field
