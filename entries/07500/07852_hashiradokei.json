@@ -8,18 +8,18 @@
     {
       "sense_number": 1,
       "gloss": "pendulum clock",
-      "explanation": "a wall-mounted clock with a pendulum; a grandfather clock mounted on a wall or pillar"
+      "explanation": "a pendulum clock hung on a wall or pillar"
     }
   ],
   "examples": [
     {
       "id": "07852_hashiradokei_ex1",
-      "japanese": "{柱時計|はしらどけい}⟦が→が：00051_ga⟧⟦{時|じ}→時：09869_ji⟧⟦を→を：00422_wo⟧⟦{打|う}った→打つ：01221_utsu⟧。",
+      "japanese": "{柱時計|はしらどけい}⟦が→が：00051_ga⟧{時|とき}⟦を→を：00422_wo⟧⟦{打|う}った→打つ：01221_utsu⟧。",
       "english": "The pendulum clock struck the hour.",
       "sense_numbers": [
         1
       ],
-      "has_audio": true,
+      "has_audio": false,
       "notes": null
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "id": "07852_hashiradokei_ex3",
-      "japanese": "{柱時計|はしらどけい}⟦の→の：09472_no⟧{振|ふ}り{子|こ}⟦が→が：00051_ga⟧⟦{規則正|きそくただ}しく→規則正しい：20039_kisokutadashii⟧⟦{動|うご}いている→動く：00904_ugoku⟧。",
+      "japanese": "{柱時計|はしらどけい}⟦の→の：09472_no⟧⟦{振|ふ}り{子|こ}→振り子：32251_furiko⟧⟦が→が：00051_ga⟧⟦{規則正|きそくただ}しく→規則正しい：20039_kisokutadashii⟧⟦{動|うご}いている→動く：00904_ugoku⟧。",
       "english": "The pendulum of the wall clock is swinging regularly.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\n- ⟦{柱|はしら}→柱：05009_hashira⟧: Pillar, post\n- ⟦{時計|とけい}→時計：00677_tokei⟧: Clock\n\nCULTURAL NOTE:\n- Mounted on a wall or pillar\n- Features a visible pendulum\n- Often chimes on the hour\n- Associated with traditional or older homes\n{柱時計|はしらどけい} evokes nostalgia for traditional Japanese homes and the Showa era. The rhythmic ticking and hourly chimes are associated with a slower, more deliberate pace of life.\n\nRELATED WORDS:\n- {振|ふ}り{子|こ}: Pendulum\n- ⟦{時|じ}→時：09869_ji⟧⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: To strike the hour\n- ⟦{掛|か}け{時計|どけい}→掛け時計：19745_kakedokei⟧: Wall clock (general term)\n\nTYPES:\n- {柱時計|はしらどけい}: Pendulum wall clock\n- ⟦{掛|か}け{時計|どけい}→掛け時計：19745_kakedokei⟧: Wall clock\n- ⟦{目覚|めざ}まし{時計|どけい}→目覚まし時計：03159_mezamashidokei⟧: Alarm clock\n- {置|お}き{時計|どけい}: Table clock",
+  "notes": "ETYMOLOGY:\n- ⟦{柱|はしら}→柱：05009_hashira⟧: Pillar, post\n- ⟦{時計|とけい}→時計：00677_tokei⟧: Clock\n\nCULTURAL NOTE:\n- Mounted on a wall or pillar\n- Features a visible pendulum\n- Often chimes on the hour\n- Associated with traditional or older homes\n{柱時計|はしらどけい} evokes nostalgia for traditional Japanese homes and the Showa era. The rhythmic ticking and hourly chimes are associated with a slower, more deliberate pace of life.\n\nRELATED WORDS:\n- ⟦{振|ふ}り{子|こ}→振り子：32251_furiko⟧: Pendulum\n- {時|とき}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: To strike the hour\n- ⟦{掛|か}け{時計|どけい}→掛け時計：19745_kakedokei⟧: Wall clock (general term)\n\nTYPES:\n- {柱時計|はしらどけい}: Pendulum wall clock\n- ⟦{掛|か}け{時計|どけい}→掛け時計：19745_kakedokei⟧: Wall clock\n- ⟦{目覚|めざ}まし{時計|どけい}→目覚まし時計：03159_mezamashidokei⟧: Alarm clock\n- {置|お}き{時計|どけい}: Table clock",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,13 @@
       "reading": "かけどけい",
       "headword": "{掛|か}け{時計|どけい}",
       "label": "Wall clock"
+    },
+    {
+      "type": "related",
+      "target_id": "32251_furiko",
+      "reading": "ふりこ",
+      "headword": "{振|ふ}り{子|こ}",
+      "label": "Pendulum"
     }
   ],
   "metadata": {
@@ -67,6 +74,6 @@
       ]
     },
     "created": "2026-01-21T11:33:19Z",
-    "modified": "2026-10-11T19:54:15Z"
+    "modified": "2026-11-08T12:47:44Z"
   }
 }
