@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-08 (20 new entries, third cycle of the 16:15 run)
+
+33133–33152. Closure: 万歳三唱, 二世帯住宅, 激甚災害, 鎌倉幕府, 室町幕府, 宝塚歌劇団, 平泉. Brainstorm: 子沢山, 止まり木, 海原, 海開き, 海鳴り, 荒海, 顔負け. ezFurigana lookups: 籍, 精, 刹那的, 責め, セラピスト, 星条旗.
+Dropped as spelling duplicates: たれ目 (垂れ目 32994 exists), 座敷わらし (座敷童 06558). Self-check: 1 notes flag applied (セラピスト: カウンセラー is not a licensed title); 10 kana links confirmed.
+
 ### 2026-11-08 (8 new entries, fifth cycle of the 12:15 run)
 
 33125–33132. Closure: 対称的, 冥利, 定形. Brainstorm: とめどない, 海の幸, 山の幸. ezFurigana lookups: 精悍, ご清聴.
@@ -69,7 +74,3 @@ Self-check: clean (0 flags); kana links confirmed.
 33107–33118. Closure: 下関, 琵琶法師, 鹿鳴館, やれやれ. Brainstorm: 父子, 子供心, 妹分, 猫っ毛. ezFurigana lookups: 薩摩, 殉教, 色即是空, スロー. New kanji 殉, 薩 added to the kanji index.
 Self-check: 3 flags applied (関門 joins 下関's 関 and 門司's 門, also fixed in 14573; Dan-no-ura is the Heike's climax; 子供心 not a person); 19 kana links confirmed.
 
-### 2026-11-08 (20 new entries, third cycle of the 00:15 run)
-
-33087–33106. Closure: 鉄格子, 心躍る, 手水舎, 落雁, 八宝菜, 三人称, 百害あって一利なし (子猫 dropped: 仔猫 24479 already covers it). Brainstorm: 手に取る, 口を出す, 開け放す, 子供扱い, 子供騙し, 海の家, 白髪交じり. ezFurigana lookups: 素通り, すり減らす, ずんぐり, ステッカー, 実弾, 従者.
-Self-check: clean (0 flags); 11 kana links confirmed.
