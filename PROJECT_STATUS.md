@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-09 (20 new entries, fourth cycle of the 16:15 run)
+
+33237–33256. Closure: 岩倉使節団, 人間失格, 航空自衛隊, 弘法大師, 浄土真宗, 邪馬台国, 日本書紀. Brainstorm (field art): 現代美術, 静物画, 芸術的, 下絵, 切り絵, 抽象画, 絵筆. ezFurigana lookups: 生 (せい), 側室, タウン, 単線, 端を発する, 抱き寄せる.
+Self-check: 3 notes flags applied (人間失格's famous line opens the first notebook; 魏志倭人伝 the main, not only, source for 邪馬台国; タウン誌 not always free); 4 kana links removed (こく in やまとこく, ブルー in ブルーインパルス ×2, ベッド in ベッドタウン), 19 confirmed.
+
 ### 2026-11-09 (20 new entries, fourth cycle of the 08:15 run)
 
 33217–33236. Closure: 厚労省, 第一次世界大戦, 暗礁, 汚染水, 誘因, 直毛, 毒々しい. Brainstorm: 姉さん女房, 姉御肌, 兄弟げんか, 頭を冷やす, 頭隠して尻隠さず, キャンバス, パレット. ezFurigana lookups: 造作 (ぞうさ), 絶え絶え, 類 (たぐい), たてつく, 立て膝, 単純化.
@@ -68,9 +73,4 @@ Self-check: 1 notes flag applied (体幹 is the trunk, not the core muscles); 7 
 ### 2026-11-09 (53 candidates queued, third cycle of the 00:15 run)
 
 Candidates mode. Closure: 24 words this run's new and polished entries name without an entry (名古屋城, 加藤清正, 西南戦争, 第三のビール, 相対性理論, 器物損壊, 全壊, 半壊, 真打, 足元をすくう, やましい, 強制送還, …). Brainstorm (field body-internal): 29 of 38 vetted proposals added (子宮, 小腸, 盲腸, 膀胱, 食道, 扁桃腺, 網膜, アキレス腱, 五臓六腑, 脳みそ, …); 9 rejected as specialized anatomy. Queue 364 → 417.
-
-### 2026-11-09 (20 new entries, first cycle of the 00:15 run)
-
-33168–33187. Closure: 熊本城, 左右対称, 発泡酒, 量子力学, 天地無用, 被爆者, 生理痛. Brainstorm: コーディネート, 女々しい, 女心, 男勝り, 男手, こじ開ける, 開けっ放し. ezFurigana lookups: 善人, 総量, 即, 体勢, 損壊, 前座.
-Self-check: 2 flags applied (量子力学 translation; 天地無用 note: 上積み厳禁 means "no stacking"); 1 kana link removed (したとして in 損壊), 15 confirmed.
 
