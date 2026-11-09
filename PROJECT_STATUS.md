@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-09 (53 candidates queued, third cycle of the 00:15 run)
+
+Candidates mode. Closure: 24 words this run's new and polished entries name without an entry (名古屋城, 加藤清正, 西南戦争, 第三のビール, 相対性理論, 器物損壊, 全壊, 半壊, 真打, 足元をすくう, やましい, 強制送還, …). Brainstorm (field body-internal): 29 of 38 vetted proposals added (子宮, 小腸, 盲腸, 膀胱, 食道, 扁桃腺, 網膜, アキレス腱, 五臓六腑, 脳みそ, …); 9 rejected as specialized anatomy. Queue 364 → 417.
+
 ### 2026-11-09 (20 new entries, first cycle of the 00:15 run)
 
 33168–33187. Closure: 熊本城, 左右対称, 発泡酒, 量子力学, 天地無用, 被爆者, 生理痛. Brainstorm: コーディネート, 女々しい, 女心, 男勝り, 男手, こじ開ける, 開けっ放し. ezFurigana lookups: 善人, 総量, 即, 体勢, 損壊, 前座.
@@ -69,7 +73,3 @@ Dropped as spelling duplicates: たれ目 (垂れ目 32994 exists), 座敷わら
 
 33125–33132. Closure: 対称的, 冥利, 定形. Brainstorm: とめどない, 海の幸, 山の幸. ezFurigana lookups: 精悍, ご清聴.
 Self-check: clean; 9 kana links confirmed. New kanji 悍 added to the kanji index.
-
-### 2026-11-08 (33 candidates queued, fourth cycle of the 12:15 run)
-
-Candidates mode. Closure: 20 words that entries use without an entry of their own (ガス欠, 反則金, 内閣改造, 企業統治, 得失点差, 直行直帰, 先勝, 先負, …). Brainstorm (seeds 00575–00595, 足 to ちょっと): 13 of 32 vetted proposals added (大学病院, 面白半分, 国立国会図書館, 上野公園, 足が棒になる, 雪合戦, 暇人, …). Queue 396 → 429.
