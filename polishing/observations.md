@@ -1754,3 +1754,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 
 - [entry] 33121: audio checks heard こうざんじ for 高山寺 (furigana こうさんじ) in 33121_choujuugiga_ex2; check the furigana — the Kyoto temple of the Chōjū-giga is usually read こうざんじ. (routine 2026-11-08 #023, audio)
 - [tooling] 33157: audio checks heard ひゃっきろ for 100キロ (stored digit reading ひゃくきろ) in 33157_houteisokudo_ex2; the digit reading should allow the sound change before キロ (ひゃっキロ). (routine 2026-11-08 #023, audio)
+- [tooling] 2026-11-09 routine 019: auto_link split kana inside a quoted reading (やまと|こく → コク) and katakana compounds (ブルー|インパルス, ベッド|タウン); review_links (Opus) passed all three. Consider skipping kana tokens inside a quoted reading and inside an unbroken katakana run.
