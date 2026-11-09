@@ -210,11 +210,11 @@
       "verify": "per-entry",
       "priority": 11,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 18,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "warn",
-      "notes": "High-precision STRUCTURAL slice of P11: a non-verb headword tagged with two or more mutually-distant hard physical-object domains is the batch garbage multi-tag signature (横断歩道 -> animal-mammal+clothing+transportation; 油絵 -> body-part+tool). Independent of keyword completeness, so it sidesteps the semantic-mismatch noise floor. Measured ~77% clear precision on the first batch (2026-06-17); 18 entries fixed. The residual ~6 are loanword/accessory/fixture polysemy where the dual tag is correct on review (マウス animal+device, 腕時計, ショルダーバッグ, 車席, 電話ボックス, 化粧ポーチ) — VERIFY per entry and KEEP defensible duals; do not force a single tag. Remediation: prompts/fix_semantic_tag_drift.md.",
-      "scope_measured_at": "2026-10-05"
+      "notes": "High-precision STRUCTURAL slice of P11: a non-verb headword tagged with two or more mutually-distant hard physical-object domains is the batch garbage multi-tag signature (横断歩道 -> animal-mammal+clothing+transportation; 油絵 -> body-part+tool). Independent of keyword completeness, so it sidesteps the semantic-mismatch noise floor. Measured ~77% clear precision on the first batch (2026-06-17); 18 entries fixed. The residual ~6 are loanword/accessory/fixture polysemy where the dual tag is correct on review (マウス animal+device, 腕時計, ショルダーバッグ, 車席, 電話ボックス, 化粧ポーチ) — VERIFY per entry and KEEP defensible duals; do not force a single tag. Remediation: prompts/fix_semantic_tag_drift.md. 2026-11-09: the detector's 27 flags were verified one by one. Ruling (entry-guidelines skill): animal anatomy takes animal+body-part and animal housing animal+building; the detector now treats both pairs as adjacent (12 flags). Two genuine mis-tags fixed (05071 アイロン clothing dropped; 07496 ブレーカー building dropped). The 15 remaining flags are verified, defensible duals and are left as they are: 02832 座席, 03528 翼, 04208 寝台, 04413 マウス, 04538 腕時計, 10189 精算機, 19574 鳥籠, 24259 電話ボックス, 25285 床暖房, 25738 ハンガーラック, 26461 繭糸, 31166 カーナビ, 32699 虫取り網, 32874 救命胴衣, 33141 止まり木. Reopen only if a flag outside this list appears.",
+      "scope_measured_at": "2026-11-09"
     },
     {
       "id": "tag-proverb-idiom-mismatch",

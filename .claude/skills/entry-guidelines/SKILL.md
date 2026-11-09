@@ -456,6 +456,9 @@ near-misses: use `time-general` (not `time`), `person` (not `people`),
 `society` (not `social`), `health` (not `medical`/`medicine` — `medical` is a
 domain tag), `transportation` (not `transport`), `animal-general` (not
 `animals`), `economics` (not `economy`).
+Animal anatomy (くちばし, えら, たてがみ) takes the animal tag plus `body-part`, and animal
+housing (鳥小屋, 馬小屋) the animal tag plus `building`; tag a tool or appliance by what it is
+(アイロン `tool`), not by what it is used on (2026-11-09).
 
 ### Optional Tag Categories
 

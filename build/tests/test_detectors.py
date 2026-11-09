@@ -105,6 +105,9 @@ class TestDistantObjectDomains(unittest.TestCase):
         self.assertEqual(td.distant_object_domains(["electronics", "tool"]), [])
         # seafood: animal-fish + food
         self.assertEqual(td.distant_object_domains(["animal-fish", "food"]), [])
+        # beak: animal anatomy; stable: animal housing (ruling 2026-11-09)
+        self.assertEqual(td.distant_object_domains(["animal-bird", "body-part"]), [])
+        self.assertEqual(td.distant_object_domains(["building", "animal-mammal"]), [])
 
     def test_single_hard_domain_not_flagged(self):
         self.assertEqual(td.distant_object_domains(["furniture"]), [])

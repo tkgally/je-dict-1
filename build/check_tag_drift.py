@@ -163,7 +163,8 @@ HARD_OBJECT_DOMAINS = {"furniture", "clothing", "electronics", "transportation",
 
 # Pairs of hard domains that DO legitimately co-occur on one headword
 # (infrastructure: building↔transportation; devices: electronics↔tool; fixtures:
-# building↔furniture; worn items: clothing↔body-part; food animals: animal↔food).
+# building↔furniture; worn items: clothing↔body-part; food animals: animal↔food;
+# animal anatomy and housing: animal↔body-part, animal↔building).
 # Excluded so the detector flags only genuinely distant clusters.
 ADJACENT_OBJECT_DOMAINS = {
     frozenset(pair) for pair in [
@@ -173,6 +174,10 @@ ADJACENT_OBJECT_DOMAINS = {
         ("transportation", "tool"), ("clothing", "body-part"),
         ("animal-fish", "food"), ("animal-mammal", "food"),
         ("animal-bird", "food"),
+        # animal anatomy (くちばし, えら, たてがみ) and animal housing (鳥小屋, 馬小屋),
+        # ruling 2026-11-09 (entry-guidelines skill)
+        *[(a, other) for a in ("animal-mammal", "animal-bird", "animal-fish", "animal-insect")
+          for other in ("body-part", "building")],
     ]
 }
 
