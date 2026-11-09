@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-09 (20 new entries, first cycle of the 00:15 run)
+
+33168–33187. Closure: 熊本城, 左右対称, 発泡酒, 量子力学, 天地無用, 被爆者, 生理痛. Brainstorm: コーディネート, 女々しい, 女心, 男勝り, 男手, こじ開ける, 開けっ放し. ezFurigana lookups: 善人, 総量, 即, 体勢, 損壊, 前座.
+Self-check: 2 flags applied (量子力学 translation; 天地無用 note: 上積み厳禁 means "no stacking"); 1 kana link removed (したとして in 損壊), 15 confirmed.
+
 ### 2026-11-08 (15 new entries, sixth cycle of the 16:15 run)
 
 33153–33167. Closure: 教育委員会, 参院選, 教鞭, 国歌斉唱, 法定速度. Brainstorm: 出来損ない, 女手一つ, 口約束, 男泣き, 備え付け. ezFurigana lookups: 身上, 生理学, 征服者, セクション, セレクション.
@@ -68,8 +73,3 @@ Self-check: clean; 9 kana links confirmed. New kanji 悍 added to the kanji inde
 ### 2026-11-08 (33 candidates queued, fourth cycle of the 12:15 run)
 
 Candidates mode. Closure: 20 words that entries use without an entry of their own (ガス欠, 反則金, 内閣改造, 企業統治, 得失点差, 直行直帰, 先勝, 先負, …). Brainstorm (seeds 00575–00595, 足 to ちょっと): 13 of 32 vetted proposals added (大学病院, 面白半分, 国立国会図書館, 上野公園, 足が棒になる, 雪合戦, 暇人, …). Queue 396 → 429.
-
-### 2026-11-08 (6 new entries, eighth cycle of the 00:15 run)
-
-33119–33124. Closure: 鳥獣戯画, 北原白秋, 〜周忌. Brainstorm (appearance field): 老け顔, マッチョ. ezFurigana lookups: 〜場 (looked up as 場).
-Self-check: clean (0 flags); kana links confirmed.
