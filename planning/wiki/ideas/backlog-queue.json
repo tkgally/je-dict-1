@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-11-09",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -1898,11 +1898,12 @@
       "verify": "detect returns 0; make gate",
       "priority": 10,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 14,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "low",
-      "notes": "Measured 2026-10-05: 18776, 18777, 21374–21378, 21383–21388, 21390. Check whether anything (search, sort, audio) keys on the reading before changing it.",
-      "scope_measured_at": "2026-10-12"
+      "notes": "RESOLVED 2026-11-09: する appended to the reading (and romaji field) of the 12 remaining entries; IDs unchanged. build/validate.py now accepts an ID romaji that lacks the final 'suru' of a する reading (id_romaji_matches, test_validate_id_romaji.py). Nothing else keys on the reading except the search index's romaji, which becomes more accurate. The fix exposed two exact duplicates, retired with --duplicate: 18776_keishi → 25406_keishisuru, 21374_kasoku → 21391_kasokusuru. Measured 2026-10-05: 18776, 18777, 21374–21378, 21383–21388, 21390. Check whether anything (search, sort, audio) keys on the reading before changing it.",
+      "scope_measured_at": "2026-10-12",
+      "resolved_at": "2026-11-09"
     },
     {
       "id": "notes-forms-holds-etymology",

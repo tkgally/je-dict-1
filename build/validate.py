@@ -533,6 +533,22 @@ def validate_cross_ref_types_sync(schema: dict) -> list[str]:
     return errors
 
 
+def id_romaji_matches(id_romaji: str, reading: str) -> bool:
+    """True when the romaji in an entry ID matches the entry's reading.
+
+    One allowance (2026-11-09, backlog item reading-missing-suru): a する verb
+    whose ID was minted from the reading without する (18776_keishi for
+    軽視する) keeps its ID, since IDs are live URLs, while its reading gains
+    the する; the ID romaji may therefore lack the final "suru".
+    """
+    expected = hiragana_to_romaji(normalize_reading(reading))
+    if id_romaji == expected:
+        return True
+    return (normalize_reading(reading).endswith("する")
+            and expected.endswith("suru")
+            and id_romaji == expected[:-len("suru")])
+
+
 def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: Draft7Validator = None) -> tuple[list[str], dict | None]:
     """
     Validate a single entry file.
@@ -617,7 +633,7 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: 
         # Normalize reading first (converts katakana to hiragana if needed)
         normalized_reading = normalize_reading(reading)
         expected_romaji = hiragana_to_romaji(normalized_reading)
-        if id_romaji != expected_romaji:
+        if not id_romaji_matches(id_romaji, reading):
             errors.append(f"ID romanization mismatch: '{id_romaji}' doesn't match reading '{reading}' (expected '{expected_romaji}')")
     else:
         errors.append(f"ID format error: expected '00000_romaji' or '00000_romaji_suffix', got '{entry_id}'")
