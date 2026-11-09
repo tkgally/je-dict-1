@@ -1706,7 +1706,7 @@ analogue — same shape, different placeholder),
 [P11](#priority-11-batch-creation-semantic-tag-transportation-misapplied) (wrong-category tags,
 which a detector *can* see).
 
-**Update 2026-11-09**: Routine systemic-fix batch of 25 (00001–00173) retagged by meaning; 2,056 remain. Next batch starts after 00173.
+**Update 2026-11-09**: Routine systemic-fix batches of 25 (00001–00173) and 25 (00178–00330) retagged by meaning; 2,031 remain. Next batch starts after 00330.
 
 ## Priority 38: Semantic tags disagree *within a closed lexical family* (tableware: 32 entries, 12 tag-sets)
 
