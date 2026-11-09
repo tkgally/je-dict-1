@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-09 (9 new entries, seventh cycle of the 00:15 run)
+
+33188–33196. Closure: つけっぱなし, やましい, 全壊, 真打. Brainstorm (body-internal): 盲腸, 食道, 扁桃腺. ezFurigana lookups: 体感, 対外.
+Self-check: 1 notes flag applied (体幹 is the trunk, not the core muscles); 7 kana links confirmed.
+
 ### 2026-11-09 (53 candidates queued, third cycle of the 00:15 run)
 
 Candidates mode. Closure: 24 words this run's new and polished entries name without an entry (名古屋城, 加藤清正, 西南戦争, 第三のビール, 相対性理論, 器物損壊, 全壊, 半壊, 真打, 足元をすくう, やましい, 強制送還, …). Brainstorm (field body-internal): 29 of 38 vetted proposals added (子宮, 小腸, 盲腸, 膀胱, 食道, 扁桃腺, 網膜, アキレス腱, 五臓六腑, 脳みそ, …); 9 rejected as specialized anatomy. Queue 364 → 417.
@@ -68,8 +73,3 @@ Self-check: clean (0 flags); 9 kana links confirmed. 24 cross-references harvest
 
 33133–33152. Closure: 万歳三唱, 二世帯住宅, 激甚災害, 鎌倉幕府, 室町幕府, 宝塚歌劇団, 平泉. Brainstorm: 子沢山, 止まり木, 海原, 海開き, 海鳴り, 荒海, 顔負け. ezFurigana lookups: 籍, 精, 刹那的, 責め, セラピスト, 星条旗.
 Dropped as spelling duplicates: たれ目 (垂れ目 32994 exists), 座敷わらし (座敷童 06558). Self-check: 1 notes flag applied (セラピスト: カウンセラー is not a licensed title); 10 kana links confirmed.
-
-### 2026-11-08 (8 new entries, fifth cycle of the 12:15 run)
-
-33125–33132. Closure: 対称的, 冥利, 定形. Brainstorm: とめどない, 海の幸, 山の幸. ezFurigana lookups: 精悍, ご清聴.
-Self-check: clean; 9 kana links confirmed. New kanji 悍 added to the kanji index.
