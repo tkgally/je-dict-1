@@ -535,9 +535,10 @@
       "priority": 11,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 2133,
+      "scope_estimate": 2056,
       "severity": "info",
-      "notes": "Measured 2026-07-30 across all 30,049 entries. 'action' IS in VALID_SEMANTIC, so the unknown-semantic detector is blind to it by construction — the defect is tautology, not invalidity: pos:['verb-godan'] + semantic:['action'] tells a learner nothing about domain. Same shape as tag-sole-general one category over. No migration table possible; destination depends on meaning and is often two tags (かかる → time-general + money). Cap per run — this is a standing lane, not a sweep. Good first cut: verbs whose gloss already names a domain the taxonomy has a tag for. Examples fixed 2026-07-30: 00684 歌う→music, 06701 差し引く→finance, 06704 飛び付く→movement."
+      "notes": "Measured 2026-07-30 across all 30,049 entries. 'action' IS in VALID_SEMANTIC, so the unknown-semantic detector is blind to it by construction — the defect is tautology, not invalidity: pos:['verb-godan'] + semantic:['action'] tells a learner nothing about domain. Same shape as tag-sole-general one category over. No migration table possible; destination depends on meaning and is often two tags (かかる → time-general + money). Cap per run — this is a standing lane, not a sweep. Good first cut: verbs whose gloss already names a domain the taxonomy has a tag for. Examples fixed 2026-07-30: 00684 歌う→music, 06701 差し引く→finance, 06704 飛び付く→movement. 2026-11-09: batch of 25 (00001–00173, the first by ID) retagged by meaning (余る→quantity, 縮む→change+size, 響く→sense, 可決→politics+law, 観光→travel+leisure, …); 2,056 remain. The next batch starts after 00173.",
+      "scope_measured_at": "2026-11-09"
     },
     {
       "id": "crossref-missing-target-id-unlabeled",
