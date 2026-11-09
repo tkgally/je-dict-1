@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-09 (20 new entries, first cycle of the 08:15 run)
+
+33197–33216. Closure: 北朝鮮, 文科省, 基本的人権, 浦島太郎, 喪主, 関東大震災, 北方領土. Brainstorm: 開けっ広げ, 開け閉め, 手分け, 手取り足取り, 兄弟子, 姉妹都市, 頭ごなし. ezFurigana lookups: 宣戦布告, 線量, ソ連, 高嶺の花, たり (the 〜たり〜たりする pattern, which had no entry), 樽.
+Self-check: 4 flags applied (文科省 note: the minister is 文科相; two たり contrasts with て-form and し reworded; 樽 food tag removed); 20 kana links confirmed.
+
 ### 2026-11-09 (9 new entries, seventh cycle of the 00:15 run)
 
 33188–33196. Closure: つけっぱなし, やましい, 全壊, 真打. Brainstorm (body-internal): 盲腸, 食道, 扁桃腺. ezFurigana lookups: 体感, 対外.
@@ -69,7 +74,3 @@ Self-check: 2 flags applied (量子力学 translation; 天地無用 note: 上積
 33153–33167. Closure: 教育委員会, 参院選, 教鞭, 国歌斉唱, 法定速度. Brainstorm: 出来損ない, 女手一つ, 口約束, 男泣き, 備え付け. ezFurigana lookups: 身上, 生理学, 征服者, セクション, セレクション.
 Self-check: clean (0 flags); 9 kana links confirmed. 24 cross-references harvested (12 reciprocal).
 
-### 2026-11-08 (20 new entries, third cycle of the 16:15 run)
-
-33133–33152. Closure: 万歳三唱, 二世帯住宅, 激甚災害, 鎌倉幕府, 室町幕府, 宝塚歌劇団, 平泉. Brainstorm: 子沢山, 止まり木, 海原, 海開き, 海鳴り, 荒海, 顔負け. ezFurigana lookups: 籍, 精, 刹那的, 責め, セラピスト, 星条旗.
-Dropped as spelling duplicates: たれ目 (垂れ目 32994 exists), 座敷わらし (座敷童 06558). Self-check: 1 notes flag applied (セラピスト: カウンセラー is not a licensed title); 10 kana links confirmed.
