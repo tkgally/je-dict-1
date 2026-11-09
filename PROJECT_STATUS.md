@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-09 (20 new entries, fourth cycle of the 08:15 run)
+
+33217–33236. Closure: 厚労省, 第一次世界大戦, 暗礁, 汚染水, 誘因, 直毛, 毒々しい. Brainstorm: 姉さん女房, 姉御肌, 兄弟げんか, 頭を冷やす, 頭隠して尻隠さず, キャンバス, パレット. ezFurigana lookups: 造作 (ぞうさ), 絶え絶え, 類 (たぐい), たてつく, 立て膝, 単純化.
+Dropped as a spelling duplicate: なで肩 (撫で肩 24257 exists). Self-check: 3 flags applied (姉御 note; two tags); 40 kana links confirmed.
+
 ### 2026-11-09 (20 new entries, first cycle of the 08:15 run)
 
 33197–33216. Closure: 北朝鮮, 文科省, 基本的人権, 浦島太郎, 喪主, 関東大震災, 北方領土. Brainstorm: 開けっ広げ, 開け閉め, 手分け, 手取り足取り, 兄弟子, 姉妹都市, 頭ごなし. ezFurigana lookups: 宣戦布告, 線量, ソ連, 高嶺の花, たり (the 〜たり〜たりする pattern, which had no entry), 樽.
@@ -68,9 +73,4 @@ Candidates mode. Closure: 24 words this run's new and polished entries name with
 
 33168–33187. Closure: 熊本城, 左右対称, 発泡酒, 量子力学, 天地無用, 被爆者, 生理痛. Brainstorm: コーディネート, 女々しい, 女心, 男勝り, 男手, こじ開ける, 開けっ放し. ezFurigana lookups: 善人, 総量, 即, 体勢, 損壊, 前座.
 Self-check: 2 flags applied (量子力学 translation; 天地無用 note: 上積み厳禁 means "no stacking"); 1 kana link removed (したとして in 損壊), 15 confirmed.
-
-### 2026-11-08 (15 new entries, sixth cycle of the 16:15 run)
-
-33153–33167. Closure: 教育委員会, 参院選, 教鞭, 国歌斉唱, 法定速度. Brainstorm: 出来損ない, 女手一つ, 口約束, 男泣き, 備え付け. ezFurigana lookups: 身上, 生理学, 征服者, セクション, セレクション.
-Self-check: clean (0 flags); 9 kana links confirmed. 24 cross-references harvested (12 reciprocal).
 
