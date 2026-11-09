@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -3354,6 +3354,18 @@
     "reviewed": 4,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "おてんば": {
+   "target": "09098_otenba",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "おてんば (お転婆) has no common homophone or alternative parse in modern Japanese.",
+    "model": "claude:opus",
+    "date": "2026-11-09"
    }
   },
   "おでこ": {
