@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-10 (20 new entries, first cycle of the 16:15 run)
+
+33302–33321. Closure: 定時退社, 直行直帰, 本隊, 実体経済, 旧市街, 市街戦, 先勝. Brainstorm (field art): 戯曲, 影絵, 手描き, 文鎮, 句集, ルネサンス, 伊万里焼. ezFurigana lookups: 題目, 調書, 超然, 手痛い, 手立て, てっぺん.
+Self-check clean (no content flags); three として links in 超然 removed (taru-adjective と + する). Candidate 絵巻物 dropped (covered by 絵巻).
+
 ### 2026-11-10 (18 new entries, second cycle of the 08:15 run)
 
 33284–33301. Closure: 科料, 携帯食, 犯行予告, 企業統治, 得失点差, 仕掛け花火. Brainstorm (field art): 友禅, 染物, 連作, ゴッホ, ピカソ, モザイク. ezFurigana lookups: 〜っぱなし, チューハイ, 抽象化, 痛恨, 低減, 超党派.
@@ -67,8 +72,3 @@ Self-check: 1 flag rejected (イーゼル's source word); 8 kana links confirmed
 ### 2026-11-10 (candidate restock, first cycle of the 00:15 run)
 
 90 candidates added (queue 351 → 441). Closure (36, words used in entries 33150–33256 with no entry): 岩倉具視, 大久保利通, 木戸孝允, 魏志倭人伝, 竜宮城, 玉手箱, 土俵際, 国民主権, 陸上自衛隊, 海上自衛隊, 仮設住宅, 弘法にも筆の誤り, …. Brainstorm, seeds 少し–上がる (17): 山ほど, いささか, 年がら年中, ずる休み, 時は金なり, 金に糸目をつけない, 繰り上がる, …; field body-part (37): 奥歯, 耳たぶ, つむじ, 乳歯, 白目, 口角, 涙袋, 鼻の下, ….
-
-### 2026-11-09 (20 new entries, fourth cycle of the 16:15 run)
-
-33237–33256. Closure: 岩倉使節団, 人間失格, 航空自衛隊, 弘法大師, 浄土真宗, 邪馬台国, 日本書紀. Brainstorm (field art): 現代美術, 静物画, 芸術的, 下絵, 切り絵, 抽象画, 絵筆. ezFurigana lookups: 生 (せい), 側室, タウン, 単線, 端を発する, 抱き寄せる.
-Self-check: 3 notes flags applied (人間失格's famous line opens the first notebook; 魏志倭人伝 the main, not only, source for 邪馬台国; タウン誌 not always free); 4 kana links removed (こく in やまとこく, ブルー in ブルーインパルス ×2, ベッド in ベッドタウン), 19 confirmed.
