@@ -124,10 +124,10 @@
     },
     {
       "id": "09459_kanyou_ex3",
-      "japanese": "⟦{森林|しんりん}→森林：01441_shinrin⟧⟦は→は：00079_ha⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{涵養|かんよう}⟦する→する：00392_suru⟧。",
-      "english": "Forests help recharge groundwater.",
+      "japanese": "⟦{森林|しんりん}→森林：01441_shinrin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{水源|すいげん}→水源：09255_suigen⟧⟦を→を：00422_wo⟧{涵養|かんよう}⟦する→する：00392_suru⟧⟦{働|はたら}き→働き：03557_hataraki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "english": "Forests serve to replenish water sources.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         1
       ]
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{涵養|かんよう} implies gradual, patient nurturing over time, like water slowly soaking into the ground. The kanji {涵|かん} means \"to soak\" or \"to immerse.\"\n\nUsage:\n- {涵養|かんよう}⟦する→する：00392_suru⟧ (to cultivate, nurture)\n- {涵養|かんよう}⟦される→する：00392_suru⟧ (to be cultivated)\n\nCommonly used with:\n- ⟦{人材|じんざい}→人材：11426_jinzai⟧ (human resources, talent)\n- ⟦{教養|きょうよう}→教養：09788_kyouyou⟧ (education, refinement)\n- {道徳心|どうとくしん} (moral sense)\n- ⟦{地下水|ちかすい}→地下水：09600_chikasui⟧ (groundwater - technical usage)\n\nNote: ⟦{水源|すいげん}→水源：09255_suigen⟧{涵養|かんよう} (water source recharge) is an important environmental term.\n\nRelated words:\n- ⟦{養成|ようせい}→養成：14655_yousei⟧⟦する→する：00392_suru⟧: to train, develop\n- ⟦{育成|いくせい}→育成：13928_ikusei⟧⟦する→する：00392_suru⟧: to nurture, cultivate\n- ⟦{醸成|じょうせい}→醸成：09133_jousei⟧⟦する→する：00392_suru⟧: to foster, brew",
+  "notes": "{涵養|かんよう} implies gradual, patient nurturing over time, like water slowly soaking into the ground. The kanji {涵|かん} means \"to soak\" or \"to immerse.\"\n\nUSAGE:\nA formal, written word: X⟦を→を：00422_wo⟧{涵養|かんよう}⟦する→する：00392_suru⟧ (to cultivate X), X⟦が→が：00051_ga⟧{涵養|かんよう}⟦される→する：00392_suru⟧. In environmental writing, ⟦{水源|すいげん}→水源：09255_suigen⟧{涵養|かんよう} means the recharging of groundwater by forests and soil.\n\nCOMMON COLLOCATIONS:\n- ⟦{人材|じんざい}→人材：11426_jinzai⟧⟦を→を：00422_wo⟧{涵養|かんよう}⟦する→する：00392_suru⟧: to develop talent\n- ⟦{教養|きょうよう}→教養：09788_kyouyou⟧⟦を→を：00422_wo⟧{涵養|かんよう}⟦する→する：00392_suru⟧: to cultivate refinement\n- {道徳心|どうとくしん}⟦の→の：09472_no⟧{涵養|かんよう}: fostering of moral sense\n- ⟦{水源|すいげん}→水源：09255_suigen⟧{涵養|かんよう}: water-source recharge\n\nSIMILAR WORDS:\n- ⟦{育成|いくせい}→育成：13928_ikusei⟧⟦する→する：00392_suru⟧: to raise, train (people, industries); the everyday word\n- ⟦{養成|ようせい}→養成：14655_yousei⟧⟦する→する：00392_suru⟧: to train people for a specific role\n- ⟦{醸成|じょうせい}→醸成：09133_jousei⟧⟦する→する：00392_suru⟧: to foster a mood or climate\n{涵養|かんよう} is used for inner qualities that grow slowly, not for training to a goal.",
   "metadata": {
     "created": "2026-02-01T15:17:02Z",
-    "modified": "2026-09-02T04:01:18Z",
+    "modified": "2026-11-10T00:46:56Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -174,6 +174,27 @@
       "reading": "こかつ",
       "headword": "{枯渇|こかつ}",
       "label": "exhaustion, depletion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13928_ikusei",
+      "reading": "いくせい",
+      "headword": "{育成|いくせい}",
+      "label": "to raise, train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14655_yousei",
+      "reading": "ようせい",
+      "headword": "{養成|ようせい}",
+      "label": "to train people for a specific role"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09133_jousei",
+      "reading": "じょうせい",
+      "headword": "{醸成|じょうせい}",
+      "label": "to foster a mood or climate"
     }
   ]
 }
