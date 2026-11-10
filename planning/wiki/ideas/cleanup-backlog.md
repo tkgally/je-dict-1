@@ -1708,6 +1708,8 @@ which a detector *can* see).
 
 **Update 2026-11-09**: Routine systemic-fix batches of 25 (00001–00173) and 25 (00178–00330) retagged by meaning; 2,031 remain. Next batch starts after 00330.
 
+**Update 2026-11-10**: third batch of 28 (00355–00615) retagged; six left as `action` because no tag fits better (指定, する, 掘る, 探す, もらう, あげる). 2,001 remain. Next batch starts after 00615.
+
 ## Priority 38: Semantic tags disagree *within a closed lexical family* (tableware: 32 entries, 12 tag-sets)
 
 **Source**: 2026-08-02 routine polish run, which standardised the four 皿 entries to `["tool"]`
