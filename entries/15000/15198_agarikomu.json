@@ -115,7 +115,7 @@
     },
     {
       "id": "15198_agarikomu_ex2",
-      "japanese": "{勝手|かって}に⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{上|あ}がり{込|こ}んで⟦は→は：00079_ha⟧いけない。",
+      "japanese": "⟦{勝手|かって}に→勝手に：32383_katteni⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{上|あ}がり{込|こ}んで⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't just walk into someone's house without permission.",
       "notes": null,
       "has_audio": true,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{上|あ}がり{込|こ}む is a compound verb from ⟦{上|あ}がる→上がる：00615_agaru⟧ (to go up, to enter a house) and ⟦{込|こ}む→込む：00719_komu⟧ (deeply into). Traditional Japanese houses have a raised floor ({上|あ}がり{框|かまち}), so entering a house literally means stepping up. The ⟦{込|こ}む→込む：00719_komu⟧ suffix adds the nuance of going fully inside and settling in.\nThis word often implies entering without much ceremony or sometimes without being properly invited. It can range from neutral (friends casually visiting) to slightly negative (barging in uninvited).\n\nGodan verb (mu-row): {上|あ}がり{込|こ}まない / {上|あ}がり{込|こ}みます / {上|あ}がり{込|こ}んで\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{上|あ}がり{込|こ}む (to enter someone's house)\n- {勝手|かって}に{上|あ}がり{込|こ}む (to enter without permission)",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{上|あ}がる→上がる：00615_agaru⟧ (to step up into a house) and ⟦{込|こ}む→込む：00719_komu⟧ (fully inside). Japanese homes have a raised floor above the entrance, so entering literally means stepping up; ⟦{込|こ}む→込む：00719_komu⟧ adds going right in and settling. It ranges from neutral (friends dropping in) to slightly negative (barging in uninvited).\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{上|あ}がり{込|こ}む (to enter someone's house)\n- ⟦{勝手|かって}に→勝手に：32383_katteni⟧{上|あ}がり{込|こ}む (to enter without permission)\n- {上|あ}がり{込|こ}んで⟦{居座|いすわ}る→居座る：15930_isuwaru⟧ (to come in and stay on)\n\nWRITING:\nAlso written {上|あ}がりこむ.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00615_agaru",
+      "reading": "あがる",
+      "headword": "{上|あ}がる",
+      "label": "to go up; to enter"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:12:00Z",
-    "modified": "2026-09-02T04:01:40Z",
+    "modified": "2026-11-10T09:33:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -153,13 +161,5 @@
       "transitivity": "intransitive",
       "verb_class": "godan-mu"
     }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "16743_agarikomu",
-      "reading": "あがりこむ",
-      "headword": "{上|あ}がりこむ",
-      "note": "enter, walk in (variant)"
-    }
-  ]
+  }
 }

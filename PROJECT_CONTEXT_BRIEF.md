@@ -6,10 +6,10 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 
 | Metric | Value |
 |--------|-------|
-| Total entries | 33,057 |
+| Total entries | 33,056 |
 | Basic tier | 800 (closed) |
 | Core tier | 1,979 (closed) |
-| General tier | 30,278 (open — all new entries here) |
+| General tier | 30,277 (open — all new entries here) |
 | Next entry ID | 33302 |
 | Candidate words | 398 |
 | Cross-references | ~88,400 |
@@ -48,7 +48,7 @@ make report                # Dictionary health dashboard
 
 - **Basic** (800): Foundational words. Closed — do not add or modify.
 - **Core** (1,979): Essential adult communication. Closed — do not add or modify.
-- **General** (30,278+): All other vocabulary. All new entries go here.
+- **General** (30,277+): All other vocabulary. All new entries go here.
 
 ## Skills
 
