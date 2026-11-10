@@ -1758,3 +1758,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - [entry] 33240: audio checks heard はちじゅうはっかしょ for {八十八|はちじゅうはち}か{所|しょ} in 33240_kouboudaishi_ex3 (all four checkers); check the furigana: the furigana should give the っ (はっ) form, e.g. {八十八|はちじゅうはっ}か{所|しょ} or {八十八箇所|はちじゅうはっかしょ}. (2026-11-09 routine 021)
 - 2026-11-10 [tooling] build/brainstorm_candidates.py filter raises TypeError when an own-list row has seed_id null (field lens); sort key should coerce None to ''. (routine 2026-11-10 #001)
 - 2026-11-10 [entry] 12642 幾多 is tagged pre-noun-adjectival, but it takes の (幾多の困難) and is a noun in most analyses (also adverbial: 幾多ある); the POS needs a decision. (routine 2026-11-10 #002)
+- 2026-11-10 [entry] 13904 翻る sense 2 (判決が翻った, 態度が翻った): verdicts and decisions are usually 覆る, and reversing them is 翻す (前言を翻す); the intransitive 翻る for a reversed verdict is doubtful. The sense and its examples need checking. (routine 2026-11-10 #006)
