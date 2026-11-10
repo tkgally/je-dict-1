@@ -1,162 +1,22 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "daily_cap_usd": 15.0,
-  "spent_usd": 8.015,
+  "spent_usd": 0.1547,
   "calls": [
     {
-      "ts": "2026-11-09T00:25:34Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 20,
-      "est_usd": 0.1309
+      "ts": "2026-11-10T00:30:25Z",
+      "mode": "candidates",
+      "phase": "brainstorm",
+      "entries": 195,
+      "est_usd": 0.0845
     },
     {
-      "ts": "2026-11-09T00:40:18Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 25,
-      "est_usd": 0.169
-    },
-    {
-      "ts": "2026-11-09T00:52:40Z",
+      "ts": "2026-11-10T00:32:47Z",
       "mode": "candidates",
       "phase": "brainstorm",
       "entries": 100,
-      "est_usd": 0.0542
-    },
-    {
-      "ts": "2026-11-09T01:07:04Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 15,
-      "est_usd": 0.1007
-    },
-    {
-      "ts": "2026-11-09T01:29:46Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 399,
-      "est_usd": 2.5981
-    },
-    {
-      "ts": "2026-11-09T01:35:00Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 1,
-      "est_usd": 0.0067
-    },
-    {
-      "ts": "2026-11-09T01:45:58Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 8,
-      "est_usd": 0.0536
-    },
-    {
-      "ts": "2026-11-09T02:00:19Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 9,
-      "est_usd": 0.0586
-    },
-    {
-      "ts": "2026-11-09T02:01:32Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 1,
-      "est_usd": 0.0065
-    },
-    {
-      "ts": "2026-11-09T02:14:50Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 99,
-      "est_usd": 0.6492
-    },
-    {
-      "ts": "2026-11-09T08:29:19Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 24,
-      "est_usd": 0.1579
-    },
-    {
-      "ts": "2026-11-09T08:44:27Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 25,
-      "est_usd": 0.1673
-    },
-    {
-      "ts": "2026-11-09T08:57:20Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 2,
-      "est_usd": 0.013
-    },
-    {
-      "ts": "2026-11-09T09:13:32Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 30,
-      "est_usd": 0.1965
-    },
-    {
-      "ts": "2026-11-09T09:25:45Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 13,
-      "est_usd": 0.0868
-    },
-    {
-      "ts": "2026-11-09T09:51:52Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 150,
-      "est_usd": 0.975
-    },
-    {
-      "ts": "2026-11-09T16:21:05Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 25,
-      "est_usd": 0.17
-    },
-    {
-      "ts": "2026-11-09T16:24:00Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 25,
-      "est_usd": 0.1667
-    },
-    {
-      "ts": "2026-11-09T16:35:11Z",
-      "mode": "conjugation-check",
-      "phase": "conjugation-check",
-      "entries": 40,
-      "est_usd": 0.0
-    },
-    {
-      "ts": "2026-11-09T16:49:12Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 29,
-      "est_usd": 0.1898
-    },
-    {
-      "ts": "2026-11-09T17:07:59Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 24,
-      "est_usd": 0.1561
-    },
-    {
-      "ts": "2026-11-09T17:28:21Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 295,
-      "est_usd": 1.9084
+      "est_usd": 0.0702
     }
   ]
 }
