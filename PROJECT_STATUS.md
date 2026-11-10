@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-10 (candidate restock, first cycle of the 00:15 run)
+
+90 candidates added (queue 351 → 441). Closure (36, words used in entries 33150–33256 with no entry): 岩倉具視, 大久保利通, 木戸孝允, 魏志倭人伝, 竜宮城, 玉手箱, 土俵際, 国民主権, 陸上自衛隊, 海上自衛隊, 仮設住宅, 弘法にも筆の誤り, …. Brainstorm, seeds 少し–上がる (17): 山ほど, いささか, 年がら年中, ずる休み, 時は金なり, 金に糸目をつけない, 繰り上がる, …; field body-part (37): 奥歯, 耳たぶ, つむじ, 乳歯, 白目, 口角, 涙袋, 鼻の下, ….
+
 ### 2026-11-09 (20 new entries, fourth cycle of the 16:15 run)
 
 33237–33256. Closure: 岩倉使節団, 人間失格, 航空自衛隊, 弘法大師, 浄土真宗, 邪馬台国, 日本書紀. Brainstorm (field art): 現代美術, 静物画, 芸術的, 下絵, 切り絵, 抽象画, 絵筆. ezFurigana lookups: 生 (せい), 側室, タウン, 単線, 端を発する, 抱き寄せる.
@@ -69,8 +73,4 @@ Self-check: 4 flags applied (文科省 note: the minister is 文科相; two た�
 
 33188–33196. Closure: つけっぱなし, やましい, 全壊, 真打. Brainstorm (body-internal): 盲腸, 食道, 扁桃腺. ezFurigana lookups: 体感, 対外.
 Self-check: 1 notes flag applied (体幹 is the trunk, not the core muscles); 7 kana links confirmed.
-
-### 2026-11-09 (53 candidates queued, third cycle of the 00:15 run)
-
-Candidates mode. Closure: 24 words this run's new and polished entries name without an entry (名古屋城, 加藤清正, 西南戦争, 第三のビール, 相対性理論, 器物損壊, 全壊, 半壊, 真打, 足元をすくう, やましい, 強制送還, …). Brainstorm (field body-internal): 29 of 38 vetted proposals added (子宮, 小腸, 盲腸, 膀胱, 食道, 扁桃腺, 網膜, アキレス腱, 五臓六腑, 脳みそ, …); 9 rejected as specialized anatomy. Queue 364 → 417.
 
