@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-10 (15 new entries, fifth cycle of the 16:15 run)
+
+33322–33336. Closure: 先負, 名古屋城, 西南戦争, 相対性理論, 加藤清正. Brainstorm (field art): 信楽焼, 九谷焼, 喜多川歌麿, 太陽の塔, 東海道五十三次. ezFurigana lookups: 低賃金, 手いっぱい, 適時, 手放し, 転院.
+Self-check clean (no flags; 5 kana links confirmed). New kanji 麿 added. New candidates: 大阪万博, アインシュタイン.
+
 ### 2026-11-10 (20 new entries, first cycle of the 16:15 run)
 
 33302–33321. Closure: 定時退社, 直行直帰, 本隊, 実体経済, 旧市街, 市街戦, 先勝. Brainstorm (field art): 戯曲, 影絵, 手描き, 文鎮, 句集, ルネサンス, 伊万里焼. ezFurigana lookups: 題目, 調書, 超然, 手痛い, 手立て, てっぺん.
@@ -68,7 +73,3 @@ Self-check clean (no flags; 11 kana links confirmed). New candidates: 過料, �
 
 33257–33274. Closure: 反原発, 菩薩, ガス欠, 内閣改造, 禅問答, 殺気. Brainstorm (field art): 自画像, イーゼル, 墨絵, 木版画, クレヨン, ステンドグラス. ezFurigana lookups: 暖色, 地球儀, 地裁, 血なまぐさい, お茶目 (as 茶目), 力技 (as 力業).
 Self-check: 1 flag rejected (イーゼル's source word); 8 kana links confirmed. New kanji 菩 added to the kanji index.
-
-### 2026-11-10 (candidate restock, first cycle of the 00:15 run)
-
-90 candidates added (queue 351 → 441). Closure (36, words used in entries 33150–33256 with no entry): 岩倉具視, 大久保利通, 木戸孝允, 魏志倭人伝, 竜宮城, 玉手箱, 土俵際, 国民主権, 陸上自衛隊, 海上自衛隊, 仮設住宅, 弘法にも筆の誤り, …. Brainstorm, seeds 少し–上がる (17): 山ほど, いささか, 年がら年中, ずる休み, 時は金なり, 金に糸目をつけない, 繰り上がる, …; field body-part (37): 奥歯, 耳たぶ, つむじ, 乳歯, 白目, 口角, 涙袋, 鼻の下, ….
