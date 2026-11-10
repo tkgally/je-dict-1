@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-10 (18 new entries, second cycle of the 08:15 run)
+
+33284–33301. Closure: 科料, 携帯食, 犯行予告, 企業統治, 得失点差, 仕掛け花火. Brainstorm (field art): 友禅, 染物, 連作, ゴッホ, ピカソ, モザイク. ezFurigana lookups: 〜っぱなし, チューハイ, 抽象化, 痛恨, 低減, 超党派.
+Self-check clean (no flags; 11 kana links confirmed). New candidates: 過料, 無念.
+
 ### 2026-11-10 (9 new entries, seventh cycle of the 00:15 run)
 
 33275–33283. Closure: 雲水, 改革者, 反則金. Brainstorm (field art): 蒔絵, グラデーション, コラージュ. ezFurigana lookups: 大韓民国, ダイレクト, 乳房. Self-check clean (no flags; 6 kana links confirmed).
@@ -67,9 +72,3 @@ Self-check: 1 flag rejected (イーゼル's source word); 8 kana links confirmed
 
 33237–33256. Closure: 岩倉使節団, 人間失格, 航空自衛隊, 弘法大師, 浄土真宗, 邪馬台国, 日本書紀. Brainstorm (field art): 現代美術, 静物画, 芸術的, 下絵, 切り絵, 抽象画, 絵筆. ezFurigana lookups: 生 (せい), 側室, タウン, 単線, 端を発する, 抱き寄せる.
 Self-check: 3 notes flags applied (人間失格's famous line opens the first notebook; 魏志倭人伝 the main, not only, source for 邪馬台国; タウン誌 not always free); 4 kana links removed (こく in やまとこく, ブルー in ブルーインパルス ×2, ベッド in ベッドタウン), 19 confirmed.
-
-### 2026-11-09 (20 new entries, fourth cycle of the 08:15 run)
-
-33217–33236. Closure: 厚労省, 第一次世界大戦, 暗礁, 汚染水, 誘因, 直毛, 毒々しい. Brainstorm: 姉さん女房, 姉御肌, 兄弟げんか, 頭を冷やす, 頭隠して尻隠さず, キャンバス, パレット. ezFurigana lookups: 造作 (ぞうさ), 絶え絶え, 類 (たぐい), たてつく, 立て膝, 単純化.
-Dropped as a spelling duplicate: なで肩 (撫で肩 24257 exists). Self-check: 3 flags applied (姉御 note; two tags); 40 kana links confirmed.
-
