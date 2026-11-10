@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-10 (18 new entries, fourth cycle of the 00:15 run)
+
+33257–33274. Closure: 反原発, 菩薩, ガス欠, 内閣改造, 禅問答, 殺気. Brainstorm (field art): 自画像, イーゼル, 墨絵, 木版画, クレヨン, ステンドグラス. ezFurigana lookups: 暖色, 地球儀, 地裁, 血なまぐさい, お茶目 (as 茶目), 力技 (as 力業).
+Self-check: 1 flag rejected (イーゼル's source word); 8 kana links confirmed. New kanji 菩 added to the kanji index.
+
 ### 2026-11-10 (candidate restock, first cycle of the 00:15 run)
 
 90 candidates added (queue 351 → 441). Closure (36, words used in entries 33150–33256 with no entry): 岩倉具視, 大久保利通, 木戸孝允, 魏志倭人伝, 竜宮城, 玉手箱, 土俵際, 国民主権, 陸上自衛隊, 海上自衛隊, 仮設住宅, 弘法にも筆の誤り, …. Brainstorm, seeds 少し–上がる (17): 山ほど, いささか, 年がら年中, ずる休み, 時は金なり, 金に糸目をつけない, 繰り上がる, …; field body-part (37): 奥歯, 耳たぶ, つむじ, 乳歯, 白目, 口角, 涙袋, 鼻の下, ….
@@ -68,9 +73,4 @@ Dropped as a spelling duplicate: なで肩 (撫で肩 24257 exists). Self-check:
 
 33197–33216. Closure: 北朝鮮, 文科省, 基本的人権, 浦島太郎, 喪主, 関東大震災, 北方領土. Brainstorm: 開けっ広げ, 開け閉め, 手分け, 手取り足取り, 兄弟子, 姉妹都市, 頭ごなし. ezFurigana lookups: 宣戦布告, 線量, ソ連, 高嶺の花, たり (the 〜たり〜たりする pattern, which had no entry), 樽.
 Self-check: 4 flags applied (文科省 note: the minister is 文科相; two たり contrasts with て-form and し reworded; 樽 food tag removed); 20 kana links confirmed.
-
-### 2026-11-09 (9 new entries, seventh cycle of the 00:15 run)
-
-33188–33196. Closure: つけっぱなし, やましい, 全壊, 真打. Brainstorm (body-internal): 盲腸, 食道, 扁桃腺. ezFurigana lookups: 体感, 対外.
-Self-check: 1 notes flag applied (体幹 is the trunk, not the core muscles); 7 kana links confirmed.
 
