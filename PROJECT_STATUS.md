@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-10 (9 new entries, seventh cycle of the 00:15 run)
+
+33275–33283. Closure: 雲水, 改革者, 反則金. Brainstorm (field art): 蒔絵, グラデーション, コラージュ. ezFurigana lookups: 大韓民国, ダイレクト, 乳房. Self-check clean (no flags; 6 kana links confirmed).
+
 ### 2026-11-10 (18 new entries, fourth cycle of the 00:15 run)
 
 33257–33274. Closure: 反原発, 菩薩, ガス欠, 内閣改造, 禅問答, 殺気. Brainstorm (field art): 自画像, イーゼル, 墨絵, 木版画, クレヨン, ステンドグラス. ezFurigana lookups: 暖色, 地球儀, 地裁, 血なまぐさい, お茶目 (as 茶目), 力技 (as 力業).
@@ -68,9 +72,4 @@ Self-check: 3 notes flags applied (人間失格's famous line opens the first no
 
 33217–33236. Closure: 厚労省, 第一次世界大戦, 暗礁, 汚染水, 誘因, 直毛, 毒々しい. Brainstorm: 姉さん女房, 姉御肌, 兄弟げんか, 頭を冷やす, 頭隠して尻隠さず, キャンバス, パレット. ezFurigana lookups: 造作 (ぞうさ), 絶え絶え, 類 (たぐい), たてつく, 立て膝, 単純化.
 Dropped as a spelling duplicate: なで肩 (撫で肩 24257 exists). Self-check: 3 flags applied (姉御 note; two tags); 40 kana links confirmed.
-
-### 2026-11-09 (20 new entries, first cycle of the 08:15 run)
-
-33197–33216. Closure: 北朝鮮, 文科省, 基本的人権, 浦島太郎, 喪主, 関東大震災, 北方領土. Brainstorm: 開けっ広げ, 開け閉め, 手分け, 手取り足取り, 兄弟子, 姉妹都市, 頭ごなし. ezFurigana lookups: 宣戦布告, 線量, ソ連, 高嶺の花, たり (the 〜たり〜たりする pattern, which had no entry), 樽.
-Self-check: 4 flags applied (文科省 note: the minister is 文科相; two たり contrasts with て-form and し reworded; 樽 food tag removed); 20 kana links confirmed.
 
