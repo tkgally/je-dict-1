@@ -9493,3 +9493,8 @@ Created 20 general-tier entries. **Twelve came from the "seen in entry" lane** �
 **§4 cross-model self-check on all 21 changed entries: 1 flag, rejected, 0 sent to the curator.** All 20 new entries came back clean. The single flag was on the pre-existing entry 19680 {耐|た}え{難|がた}い, where the model wanted the `formal` register label changed to `neutral`; the entry's own notes describe it as a literary and formal expression, so project policy declines that swap. Cost $0.009.
 
 **Queue note**: the candidate 耐えがたい was removed as a stale duplicate — it is the same word as 19680 {耐|た}え{難|がた}い written with がたい in kana — and 19680's notes now record that spelling. One "seen in entry" candidate was deliberately left in the queue: 脂漏 (seborrhea), harvested from the eczema entry, is a technical dermatology term that a standalone learner entry serves poorly; the reasoning is logged as an observation. Three new candidates were captured from words the new entries reference but do not define: {駅伝|えきでん}, {異人館|いじんかん}, コンソメ. Candidate queue now 154.
+
+### 2026-11-10 (18 new entries, fourth cycle of the 00:15 run)
+
+33257–33274. Closure: 反原発, 菩薩, ガス欠, 内閣改造, 禅問答, 殺気. Brainstorm (field art): 自画像, イーゼル, 墨絵, 木版画, クレヨン, ステンドグラス. ezFurigana lookups: 暖色, 地球儀, 地裁, 血なまぐさい, お茶目 (as 茶目), 力技 (as 力業).
+Self-check: 1 flag rejected (イーゼル's source word); 8 kana links confirmed. New kanji 菩 added to the kanji index.

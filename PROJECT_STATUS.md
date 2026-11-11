@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-11 (20 new entries, first cycle of the 00:15 run)
+
+33337–33356. Closure: 着回し, 雄々しい, 男心, 乙女心, 半壊, 足元をすくう, 強制送還. Brainstorm: 絵はがき, 美大, 贋作, 備前焼 (field art), 大学病院, 面白半分, ネット銀行 (seeded from 病院, 面白い, 銀行). ezFurigana lookups: てんで, 問いただす, 当該, 通り魔, 溶き卵, 遠目.
+Self-check: 2 flags applied (person tag dropped from 乙女心/男心; 偽造 note reworded in 贋作); 12 kana links confirmed. New kanji 贋 added. New candidates: 着回す, 国外退去, ネットバンキング.
+
 ### 2026-11-10 (15 new entries, fifth cycle of the 16:15 run)
 
 33322–33336. Closure: 先負, 名古屋城, 西南戦争, 相対性理論, 加藤清正. Brainstorm (field art): 信楽焼, 九谷焼, 喜多川歌麿, 太陽の塔, 東海道五十三次. ezFurigana lookups: 低賃金, 手いっぱい, 適時, 手放し, 転院.
@@ -69,7 +74,3 @@ Self-check clean (no flags; 11 kana links confirmed). New candidates: 過料, �
 
 33275–33283. Closure: 雲水, 改革者, 反則金. Brainstorm (field art): 蒔絵, グラデーション, コラージュ. ezFurigana lookups: 大韓民国, ダイレクト, 乳房. Self-check clean (no flags; 6 kana links confirmed).
 
-### 2026-11-10 (18 new entries, fourth cycle of the 00:15 run)
-
-33257–33274. Closure: 反原発, 菩薩, ガス欠, 内閣改造, 禅問答, 殺気. Brainstorm (field art): 自画像, イーゼル, 墨絵, 木版画, クレヨン, ステンドグラス. ezFurigana lookups: 暖色, 地球儀, 地裁, 血なまぐさい, お茶目 (as 茶目), 力技 (as 力業).
-Self-check: 1 flag rejected (イーゼル's source word); 8 kana links confirmed. New kanji 菩 added to the kanji index.
