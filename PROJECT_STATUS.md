@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-11 (14 new entries, sixth cycle of the 16:15 run)
+
+33426–33439. Closure: 具象画, 弘法にも筆の誤り, 二世, 対外的, 美声, 親分肌. Brainstorm: 卵巣, 胎盤, 腱, 卵子 (field body-internal). ezFurigana lookups: とする (as とされる), チープ, 毒見, 慟哭.
+Self-check: 4 flags applied (日系二世 is not an emigrant; 腱鞘炎 is tenosynovitis). New kanji 慟, 哭, 腱 added.
+
 ### 2026-11-11 (19 new entries, third cycle of the 16:15 run)
 
 33407–33425. Closure: 体感温度, 失敗作, 姉妹校, 弟弟子, 仮設住宅, 天地, 正室. Brainstorm: 胃酸, 大脳, 小脳, 肺活量, 頭蓋骨, 血栓 (field body-internal). ezFurigana lookups: ないといけない, 同額, 同郷, 長丁場, 生々しい, なおざり.
@@ -68,8 +73,3 @@ Self-check clean (no flags); 23 kana links confirmed. New candidates: 酒税, �
 ### 2026-11-11 (candidates: 20 brainstorm candidates, seventh cycle of the 00:15 run)
 
 Seeds batch 180–200 (明るい … 十一月): 72 own proposals, 110 from gpt-6.1-sol, 105 from gemini-3.8-flash; 139 already entries, 26 vetted, 20 added (明るさ, 二人きり, 二人三脚, 一人ぼっち, 文化の日, 成人の日, 山の日, スポーツの日, 終戦記念日, 春一番, 霜月, 隻, …), 6 rejected (variants of existing entries, 二人前, 貨物機). No unresolved noentry markers; no ezFurigana rows pending. Queue 361.
-
-### 2026-11-11 (12 new entries, fifth cycle of the 00:15 run)
-
-33357–33368. Closure: 取扱注意, 警戒態勢, 器物損壊, 量子コンピューター. Brainstorm: 芸大, 芸術祭, 雪舟 (field art), 国立国会図書館 (seed 図書館). ezFurigana lookups: でんぐり返し, 通り道, 天王山 (as 天王), 堤.
-Self-check clean (no flags); one の inside なので unlinked. New candidates: 前転, 宙返り, 厳戒態勢, 割れ物.
