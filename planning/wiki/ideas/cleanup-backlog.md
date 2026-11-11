@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-11 (00:15 run, systemic-fix):** seventh batch, 01237–01634: 34 retagged by meaning (比べる → cognition + evaluation, 驚く → emotion, 壊す/折る/折れる → change, おっしゃる/申す → communication, 故障 → technology + change, 戦争 → military + politics, けがする → health, …); 6 left as `action` (行う, くださる, なさる, いたす, 準備, 差し上げる). Detector 1,893 → 1,859. Next batch starts after 01634.
+
 **Source**: 2026-07-30 routine polish run (00684 歌う, 00711 かかる, 06701 差し引く, 06704 飛び付く — four of the six verbs the run touched); sized by the 2026-07-30 wiki harvest
 
 Four of six verbs in one polish slot carried `semantic: ["action"]` where a specific in-list tag
