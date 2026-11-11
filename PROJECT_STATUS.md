@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-11 (candidates: 36 brainstorm candidates, ninth cycle of the 16:15 run)
+
+Field brand-name: 20 own proposals, 50 from gpt-6.1-sol, 50 from gemini-3.8-flash; 10 already entries, 63 vetted, 36 added (Suica, PASMO, ダイソー, ローソン, ファミリーマート, 吉野家, ケンタッキー, マクドナルド, 楽天, メルカリ, ペイペイ, and generic trademarks ウォシュレット, サランラップ, シーチキン, バンドエイド, マジックテープ, プリクラ, …), 27 rejected (foreign brands of little weight, Latin-script duplicates, dated). No unresolved noentry markers; no ezFurigana rows pending. Queue 330.
+
 ### 2026-11-11 (14 new entries, sixth cycle of the 16:15 run)
 
 33426–33439. Closure: 具象画, 弘法にも筆の誤り, 二世, 対外的, 美声, 親分肌. Brainstorm: 卵巣, 胎盤, 腱, 卵子 (field body-internal). ezFurigana lookups: とする (as とされる), チープ, 毒見, 慟哭.
@@ -69,7 +73,3 @@ Self-check: 1 flag applied (拘留 vs 勾留 in 抑留); 2 kana links removed (�
 
 33369–33388. Closure: 第三のビール, 生理休暇, 総量規制, オニヤンマ, 非対称, ベッドタウン, 複線. Brainstorm: 大忙し, 一大事, すこぶる, 足が棒になる, 雪合戦, 手すき, 暇人 (seeds 忙しい, 大変, とても, 足, 雪, 暇). ezFurigana lookups: 都市圏, 年相応, 特効薬, 弔い, トランシーバー, 取り分.
 Self-check clean (no flags); 23 kana links confirmed. New candidates: 酒税, 万能薬, 年甲斐もなく, 手漉き.
-
-### 2026-11-11 (candidates: 20 brainstorm candidates, seventh cycle of the 00:15 run)
-
-Seeds batch 180–200 (明るい … 十一月): 72 own proposals, 110 from gpt-6.1-sol, 105 from gemini-3.8-flash; 139 already entries, 26 vetted, 20 added (明るさ, 二人きり, 二人三脚, 一人ぼっち, 文化の日, 成人の日, 山の日, スポーツの日, 終戦記念日, 春一番, 霜月, 隻, …), 6 rejected (variants of existing entries, 二人前, 貨物機). No unresolved noentry markers; no ezFurigana rows pending. Queue 361.
