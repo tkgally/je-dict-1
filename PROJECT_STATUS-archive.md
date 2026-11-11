@@ -9502,3 +9502,8 @@ Self-check: 1 flag rejected (イーゼル's source word); 8 kana links confirmed
 ### 2026-11-10 (9 new entries, seventh cycle of the 00:15 run)
 
 33275–33283. Closure: 雲水, 改革者, 反則金. Brainstorm (field art): 蒔絵, グラデーション, コラージュ. ezFurigana lookups: 大韓民国, ダイレクト, 乳房. Self-check clean (no flags; 6 kana links confirmed).
+
+### 2026-11-10 (18 new entries, second cycle of the 08:15 run)
+
+33284–33301. Closure: 科料, 携帯食, 犯行予告, 企業統治, 得失点差, 仕掛け花火. Brainstorm (field art): 友禅, 染物, 連作, ゴッホ, ピカソ, モザイク. ezFurigana lookups: 〜っぱなし, チューハイ, 抽象化, 痛恨, 低減, 超党派.
+Self-check clean (no flags; 11 kana links confirmed). New candidates: 過料, 無念.
