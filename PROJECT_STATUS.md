@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-11 (20 new entries, first cycle of the 08:15 run)
+
+33369–33388. Closure: 第三のビール, 生理休暇, 総量規制, オニヤンマ, 非対称, ベッドタウン, 複線. Brainstorm: 大忙し, 一大事, すこぶる, 足が棒になる, 雪合戦, 手すき, 暇人 (seeds 忙しい, 大変, とても, 足, 雪, 暇). ezFurigana lookups: 都市圏, 年相応, 特効薬, 弔い, トランシーバー, 取り分.
+Self-check clean (no flags); 23 kana links confirmed. New candidates: 酒税, 万能薬, 年甲斐もなく, 手漉き.
+
 ### 2026-11-11 (candidates: 20 brainstorm candidates, seventh cycle of the 00:15 run)
 
 Seeds batch 180–200 (明るい … 十一月): 72 own proposals, 110 from gpt-6.1-sol, 105 from gemini-3.8-flash; 139 already entries, 26 vetted, 20 added (明るさ, 二人きり, 二人三脚, 一人ぼっち, 文化の日, 成人の日, 山の日, スポーツの日, 終戦記念日, 春一番, 霜月, 隻, …), 6 rejected (variants of existing entries, 二人前, 貨物機). No unresolved noentry markers; no ezFurigana rows pending. Queue 361.
@@ -68,9 +73,3 @@ Self-check: 2 flags applied (person tag dropped from 乙女心/男心; 偽造 no
 
 33322–33336. Closure: 先負, 名古屋城, 西南戦争, 相対性理論, 加藤清正. Brainstorm (field art): 信楽焼, 九谷焼, 喜多川歌麿, 太陽の塔, 東海道五十三次. ezFurigana lookups: 低賃金, 手いっぱい, 適時, 手放し, 転院.
 Self-check clean (no flags; 5 kana links confirmed). New kanji 麿 added. New candidates: 大阪万博, アインシュタイン.
-
-### 2026-11-10 (20 new entries, first cycle of the 16:15 run)
-
-33302–33321. Closure: 定時退社, 直行直帰, 本隊, 実体経済, 旧市街, 市街戦, 先勝. Brainstorm (field art): 戯曲, 影絵, 手描き, 文鎮, 句集, ルネサンス, 伊万里焼. ezFurigana lookups: 題目, 調書, 超然, 手痛い, 手立て, てっぺん.
-Self-check clean (no content flags); three として links in 超然 removed (taru-adjective と + する). Candidate 絵巻物 dropped (covered by 絵巻).
-
