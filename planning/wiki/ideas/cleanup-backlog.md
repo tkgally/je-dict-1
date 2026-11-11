@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-11 (16:15 run, systemic-fix):** tenth batch 2026-11-11 (16:15 run, 01932–01983): 31 retagged (効く→health+evaluation, 気付く/確かめる→cognition, 傷つく/傷つける→health+emotion, 暮らす→daily-life, 加わる→society+quantity, 加える→quantity+number, 誘う→communication+leisure, 育つ→family+change, 倒す→sports+movement, 捕まる→law+movement, 積もる→weather+quantity, 流れる→movement+time-general, 煮る→cooking, 乗せる→transportation, 伸ばす/広がる/広げる→size+change, 残す→existence, 含む/揃える→quantity, …); 9 read and left as action (試みる, 殺す, 込める, 支える, 済む, 付く, 繋ぐ, 繋がる, 開く: no tag fits better); 1,725 remain. The next batch starts after 01983.
+
 **Update 2026-11-11 (08:15 run, systemic-fix, second cycle):** ninth batch, 01874–01931: 22 retagged by meaning (慌てる/恐る/驚かす → emotion, 炒める → cooking, 疑う → cognition, 訴える → law + communication, 演奏 → music, 占う → religion + culture, 起こる → existence + change, 降ろす → movement + transportation + money, …); 6 left as `action` (受け取る, 失う, 奪う, 埋まる, 埋める, 襲う); 1,801 remain; the next batch starts after 01931.
 
 **Update 2026-11-11 (08:15 run, systemic-fix):** eighth batch, 01636–01872: 32 retagged by meaning (失敗→evaluation, 注射/退院する→health, 暗記→education+cognition, 貿易→economics+business, 移動→movement, 諦める→cognition+emotion, 飽きる→emotion, 違反→law, 出発する→travel+movement, 相談する→communication, 放送する→media, 現れる→existence, …); 8 read and left as action (使用, 徹底, 用意, 利用, 与える, 当たる, 当てる, 合わせる); 1,826 remain. The next batch starts after 01872.
