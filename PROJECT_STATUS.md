@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-11 (candidates: 20 brainstorm candidates, seventh cycle of the 00:15 run)
+
+Seeds batch 180–200 (明るい … 十一月): 72 own proposals, 110 from gpt-6.1-sol, 105 from gemini-3.8-flash; 139 already entries, 26 vetted, 20 added (明るさ, 二人きり, 二人三脚, 一人ぼっち, 文化の日, 成人の日, 山の日, スポーツの日, 終戦記念日, 春一番, 霜月, 隻, …), 6 rejected (variants of existing entries, 二人前, 貨物機). No unresolved noentry markers; no ezFurigana rows pending. Queue 361.
+
 ### 2026-11-11 (12 new entries, fifth cycle of the 00:15 run)
 
 33357–33368. Closure: 取扱注意, 警戒態勢, 器物損壊, 量子コンピューター. Brainstorm: 芸大, 芸術祭, 雪舟 (field art), 国立国会図書館 (seed 図書館). ezFurigana lookups: でんぐり返し, 通り道, 天王山 (as 天王), 堤.
@@ -69,9 +73,4 @@ Self-check clean (no flags; 5 kana links confirmed). New kanji 麿 added. New ca
 
 33302–33321. Closure: 定時退社, 直行直帰, 本隊, 実体経済, 旧市街, 市街戦, 先勝. Brainstorm (field art): 戯曲, 影絵, 手描き, 文鎮, 句集, ルネサンス, 伊万里焼. ezFurigana lookups: 題目, 調書, 超然, 手痛い, 手立て, てっぺん.
 Self-check clean (no content flags); three として links in 超然 removed (taru-adjective と + する). Candidate 絵巻物 dropped (covered by 絵巻).
-
-### 2026-11-10 (18 new entries, second cycle of the 08:15 run)
-
-33284–33301. Closure: 科料, 携帯食, 犯行予告, 企業統治, 得失点差, 仕掛け花火. Brainstorm (field art): 友禅, 染物, 連作, ゴッホ, ピカソ, モザイク. ezFurigana lookups: 〜っぱなし, チューハイ, 抽象化, 痛恨, 低減, 超党派.
-Self-check clean (no flags; 11 kana links confirmed). New candidates: 過料, 無念.
 
