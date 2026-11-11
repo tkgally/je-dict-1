@@ -150,12 +150,12 @@
     },
     {
       "id": "18785_kasou_ex5",
-      "japanese": "{密輸品|みつゆひん}⟦は→は：00079_ha⟧⟦{一般|いっぱん}→一般：01737_ippan⟧⟦{貨物|かもつ}→貨物：00165_kamotsu⟧⟦に→に：00314_ni⟧{仮装|かそう}⟦されていた→する：00392_suru⟧。",
-      "english": "The smuggled goods were disguised as regular cargo.",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{旅行者|りょこうしゃ}→旅行者：22927_ryokousha⟧⟦に→に：00314_ni⟧{仮装|かそう}⟦して→する：00392_suru⟧⟦{国境|こっきょう}→国境：02762_kokkyou⟧⟦を→を：00422_wo⟧⟦{越|こ}えた→越える：02099_koeru⟧。",
+      "english": "He crossed the border disguised as a tourist.",
       "sense_numbers": [
         2
       ],
-      "has_audio": true,
+      "has_audio": false,
       "notes": null
     },
     {
@@ -169,7 +169,7 @@
       "notes": null
     }
   ],
-  "notes": "Used with ⟦する→する：00392_suru⟧ to form {仮装|かそう}⟦する→する：00392_suru⟧ (to dress up in costume, to disguise). Common collocations: {仮装|かそう}⟦{大会|たいかい}→大会：03386_taikai⟧ (costume contest), {仮装|かそう}⟦{行列|ぎょうれつ}→行列：09699_gyouretsu⟧ (costume parade), {仮装|かそう}⟦パーティー→パーティー：02946_paatii⟧ (costume party). With the growing popularity of Halloween in Japan, {仮装|かそう} has become strongly associated with Halloween costumes. Homophones: ⟦{仮想|かそう}→仮想：17756_kasou⟧ (virtual, hypothetical), ⟦{火葬|かそう}→火葬：13379_kasou⟧ (cremation), ⟦{下層|かそう}→下層：11372_kasou⟧ (lower stratum) — all different words. Related: ⟦コスプレ→コスプレ：07080_kosupure⟧ (cosplay — dressing as specific characters), ⟦{変装|へんそう}→変装：12098_hensou⟧ (disguise — specifically to conceal identity).",
+  "notes": "COMMON COLLOCATIONS:\n- {仮装|かそう}⟦{大会|たいかい}→大会：03386_taikai⟧: costume contest\n- {仮装|かそう}⟦{行列|ぎょうれつ}→行列：09699_gyouretsu⟧: costume parade\n- {仮装|かそう}⟦パーティー→パーティー：02946_paatii⟧: costume party\n- 〜⟦に→に：00314_ni⟧{仮装|かそう}⟦する→する：00392_suru⟧: to dress up as ~\n\nUSAGE:\nWith the growing popularity of Halloween in Japan, {仮装|かそう} has become strongly associated with Halloween costumes.\n\nSIMILAR WORDS:\n- ⟦コスプレ→コスプレ：07080_kosupure⟧: cosplay, dressing as a specific character\n- ⟦{変装|へんそう}→変装：12098_hensou⟧: disguising oneself to hide one's identity; the usual word for spies and criminals\n- ⟦{偽装|ぎそう}→偽装：09151_gisou⟧: disguising goods or facts, faking (⟦{偽装|ぎそう}→偽装：09151_gisou⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧, false labelling); smuggled goods are ⟦{偽装|ぎそう}→偽装：09151_gisou⟧⟦される→する：00392_suru⟧, not {仮装|かそう}⟦される→する：00392_suru⟧\n\nWATCH OUT:\nHomophones: ⟦{仮想|かそう}→仮想：17756_kasou⟧ (virtual, hypothetical), ⟦{火葬|かそう}→火葬：13379_kasou⟧ (cremation), ⟦{下層|かそう}→下層：11372_kasou⟧ (lower stratum).",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -178,6 +178,20 @@
       "reading": "こすぷれ",
       "headword": "コスプレ",
       "label": "cosplay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12098_hensou",
+      "reading": "へんそう",
+      "headword": "{変装|へんそう}",
+      "label": "disguising oneself to hide one's…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09151_gisou",
+      "reading": "ぎそう",
+      "headword": "{偽装|ぎそう}",
+      "label": "disguising goods or facts, faking"
     }
   ],
   "metadata": {
@@ -196,6 +210,6 @@
       "transitivity": "both"
     },
     "created": "2026-03-23T03:39:58Z",
-    "modified": "2026-09-26T21:17:53Z"
+    "modified": "2026-11-11T16:55:13Z"
   }
 }

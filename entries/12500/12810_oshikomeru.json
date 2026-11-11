@@ -130,10 +130,10 @@
     },
     {
       "id": "12810_oshikomeru_ex3",
-      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{押|お}し{込|こ}め→押し込む：04237_oshikomu⟧られた。",
-      "english": "I was stuck at home all day because of the typhoon.",
+      "japanese": "⟦{人質|ひとじち}→人質：09678_hitojichi⟧⟦は→は：00079_ha⟧⟦{狭|せま}い→狭い：00750_semai⟧⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦に→に：00314_ni⟧{押|お}し{込|こ}められて⟦いた→いる：00495_iru⟧。",
+      "english": "The hostages had been shut away in a cramped warehouse.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         1
       ]
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe passive form {押|お}し{込|こ}められる is very common, especially for describing being stuck or confined somewhere against one's will. The figurative usage in sense 1 (suppressing emotions) is also frequent.\n\nCOMMON COLLOCATIONS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{押|お}し{込|こ}める: to confine in a room\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦を→を：00422_wo⟧{押|お}し{込|こ}める: to suppress feelings\n- ⟦スーツケース→スーツケース：01781_suutsukeesu⟧⟦に→に：00314_ni⟧{押|お}し{込|こ}める: to cram into a suitcase",
-  "cross_references": [],
+  "notes": "USAGE:\nThe passive form {押|お}し{込|こ}められる is very common, especially for describing being stuck or confined somewhere against one's will. The figurative usage in sense 1 (suppressing emotions) is also frequent.\n\nCOMMON COLLOCATIONS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{押|お}し{込|こ}める: to confine in a room\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦を→を：00422_wo⟧{押|お}し{込|こ}める: to suppress feelings\n- ⟦スーツケース→スーツケース：01781_suutsukeesu⟧⟦に→に：00314_ni⟧{押|お}し{込|こ}める: to cram into a suitcase\n\nSIMILAR WORDS:\n- ⟦{閉|と}じ{込|こ}める→閉じ込める：14560_tojikomeru⟧: to shut in, trap; also used when weather or an accident traps someone (⟦{雪|ゆき}→雪：00584_yuki⟧⟦に→に：00314_ni⟧⟦{閉|と}じ{込|こ}められる→閉じ込める：14560_tojikomeru⟧), where {押|お}し{込|こ}める, which implies force, does not fit\n- ⟦{押|お}し{込|こ}む→押し込む：04237_oshikomu⟧: to push in, squeeze in (also intransitive: to break into a house)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14560_tojikomeru",
+      "reading": "とじこめる",
+      "headword": "{閉|と}じ{込|こ}める",
+      "label": "to shut in, trap"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:05:56Z",
-    "modified": "2026-11-10T00:46:53Z",
+    "modified": "2026-11-11T16:55:13Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
