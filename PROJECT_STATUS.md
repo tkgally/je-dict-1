@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-11 (19 new entries, third cycle of the 16:15 run)
+
+33407–33425. Closure: 体感温度, 失敗作, 姉妹校, 弟弟子, 仮設住宅, 天地, 正室. Brainstorm: 胃酸, 大脳, 小脳, 肺活量, 頭蓋骨, 血栓 (field body-internal). ezFurigana lookups: ないといけない, 同額, 同郷, 長丁場, 生々しい, なおざり.
+Self-check: 1 flag applied (体感温度 translation); in ないといけない, links from the auxiliary ない to the adjective ない removed and なきゃ retargeted to its own entry.
+
 ### 2026-11-11 (18 new entries, sixth cycle of the 08:15 run)
 
 33389–33406. Closure: 対向車, 面倒見, 開祖, 抑留, 美的, 姉御. Brainstorm: 移動図書館 (seed 図書館), 子宮, 小腸, 尿, 膀胱, 気管支 (field body-internal). ezFurigana lookups: 党, 取り巻く, とんと, ドアノブ, 恫喝, トリガー.
@@ -68,8 +73,3 @@ Seeds batch 180–200 (明るい … 十一月): 72 own proposals, 110 from gpt-
 
 33357–33368. Closure: 取扱注意, 警戒態勢, 器物損壊, 量子コンピューター. Brainstorm: 芸大, 芸術祭, 雪舟 (field art), 国立国会図書館 (seed 図書館). ezFurigana lookups: でんぐり返し, 通り道, 天王山 (as 天王), 堤.
 Self-check clean (no flags); one の inside なので unlinked. New candidates: 前転, 宙返り, 厳戒態勢, 割れ物.
-
-### 2026-11-11 (20 new entries, first cycle of the 00:15 run)
-
-33337–33356. Closure: 着回し, 雄々しい, 男心, 乙女心, 半壊, 足元をすくう, 強制送還. Brainstorm: 絵はがき, 美大, 贋作, 備前焼 (field art), 大学病院, 面白半分, ネット銀行 (seeded from 病院, 面白い, 銀行). ezFurigana lookups: てんで, 問いただす, 当該, 通り魔, 溶き卵, 遠目.
-Self-check: 2 flags applied (person tag dropped from 乙女心/男心; 偽造 note reworded in 贋作); 12 kana links confirmed. New kanji 贋 added. New candidates: 着回す, 国外退去, ネットバンキング.
