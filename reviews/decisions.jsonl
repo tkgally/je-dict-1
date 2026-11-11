@@ -20701,3 +20701,8 @@
 {"ts": "2026-11-11T01:40:00Z", "entry": "11876", "src": "accuracy", "by": "sol", "dim": "notes", "family": "notes-fact", "sev": "error", "decision": "apply", "note": "前日 not daytime"}
 {"ts": "2026-11-11T01:40:00Z", "entry": "11891", "src": "accuracy", "by": "claude", "dim": "translation", "family": "translation-meaning", "sev": "warn", "decision": "apply", "note": "faint not in Japanese"}
 {"ts": "2026-11-11T01:40:00Z", "entry": "11904", "src": "accuracy", "by": "both", "dim": "tags", "family": "register", "sev": "error", "decision": "apply", "note": "formality formal per notes"}
+{"ts":"2026-11-11T02:20:00Z","entry":"11935","src":"accuracy","by":"claude","dim":"translation","family":"translation-meaning","sev":"warn","decision":"apply","note":"immature → inexperienced"}
+{"ts":"2026-11-11T02:20:00Z","entry":"11959","src":"accuracy","by":"claude","dim":"notes","family":"notes-fact","sev":"warn","decision":"apply","note":"様々な not literary"}
+{"ts":"2026-11-11T02:20:00Z","entry":"11979","src":"accuracy","by":"claude","dim":"notes","family":"notes-fact","sev":"warn","decision":"apply","note":"荒野 is the literary one; 原野 neutral"}
+{"ts":"2026-11-11T02:20:00Z","entry":"11987","src":"accuracy","by":"claude","dim":"notes","family":"notes-fact","sev":"warn","decision":"apply","note":"利上げ is 利 + 上げ, not a clipping"}
+{"ts":"2026-11-11T02:20:00Z","entry":"11999","src":"accuracy","by":"claude","dim":"notes","family":"notes-fact","sev":"warn","decision":"apply","note":"取り交わす also letters, greetings"}
