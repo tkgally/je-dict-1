@@ -199,16 +199,16 @@
     },
     {
       "id": "04339_banzai_ex10",
-      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦が→が：00051_ga⟧⟦{足|た}りなくて→足りる：01209_tariru⟧、⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧⟦しかない→〜しかない：30533_shikanai⟧⟦と→と：00512_to⟧{万歳|ばんざい}⟦した→する：00392_suru⟧。",
-      "english": "The budget wasn't enough, so I gave up and accepted that the plan had to change.",
+      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦{言|い}って→言う：00515_iu⟧⟦も→も：00484_mo⟧⟦{聞|き}かない→聞く：00483_kiku⟧⟦{息子|むすこ}→息子：00799_musuko⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦もう→もう：00602_mou⟧{万歳|ばんざい}だ。",
+      "english": "My son won't listen to anything I say; I give up on him.",
       "notes": null,
-      "has_audio": true,
+      "has_audio": false,
       "sense_numbers": [
         2
       ]
     }
   ],
-  "notes": "USAGE: {万歳|ばんざい} literally means 'ten thousand years' and is used as a celebratory cheer. It's traditionally shouted three times (⟦{三唱|さんしょう}→三唱：31156_sanshou⟧) while raising both arms high.\n\nCOMMON PATTERNS:\n- {万歳|ばんざい}！ (Banzai! / Hurray!)\n- {万歳|ばんざい}⟦{三唱|さんしょう}→三唱：31156_sanshou⟧ (shouting banzai three times)\n- {万歳|ばんざい}⟦する→する：00392_suru⟧ (to raise arms in celebration/surrender)\n\nUSAGE:\n- Celebrations (weddings, victories, achievements)\n- Political rallies\n- Figuratively: giving up or surrendering\n\nCULTURAL NOTE: The gesture of raising both arms (⟦{両手|りょうて}→両手：09518_ryoute⟧⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：00546_ageru⟧) with {万歳|ばんざい} is a distinctive Japanese tradition used at formal celebrations.",
+  "notes": "{万歳|ばんざい} literally means 'ten thousand years' (long life). As a cheer it is shouted three times (⟦{万歳三唱|ばんざいさんしょう}→万歳三唱：33133_banzaisanshou⟧) with both arms raised, at election victories, weddings and send-offs; the same arms-up pose also signals surrender, which gives sense 2.\n\nCOMMON PATTERNS:\n- {万歳|ばんざい}！: Hurray!\n- ⟦{万歳三唱|ばんざいさんしょう}→万歳三唱：33133_banzaisanshou⟧: three cheers of banzai\n- {万歳|ばんざい}⟦する→する：00392_suru⟧: to raise both arms (in joy or in surrender)\n- 〜{万歳|ばんざい}: long live ~, hurray for ~ (⟦{自由|じゆう}→自由：01148_jiyuu⟧{万歳|ばんざい})\n\nSIMILAR WORDS:\n- ⟦お{手上|てあ}げ→お手上げ：07399_oteage⟧: I give up; the usual way to say sense 2",
   "cross_references": [
     {
       "type": "related",
@@ -216,11 +216,18 @@
       "reading": "さんしょう",
       "headword": "{三唱|さんしょう}",
       "label": "calling out three times"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07399_oteage",
+      "reading": "おてあげ",
+      "headword": "お{手上|てあ}げ",
+      "label": "I give up"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-09-30T00:34:55Z",
+    "modified": "2026-11-11T08:56:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -229,11 +236,11 @@
         "noun",
         "verb-suru"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action",
-        "expression"
+        "expression",
+        "culture"
       ],
       "verb_class": "suru",
       "transitivity": "intransitive"
