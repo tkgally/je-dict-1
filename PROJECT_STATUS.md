@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-11 (18 new entries, sixth cycle of the 08:15 run)
+
+33389–33406. Closure: 対向車, 面倒見, 開祖, 抑留, 美的, 姉御. Brainstorm: 移動図書館 (seed 図書館), 子宮, 小腸, 尿, 膀胱, 気管支 (field body-internal). ezFurigana lookups: 党, 取り巻く, とんと, ドアノブ, 恫喝, トリガー.
+Self-check: 1 flag applied (拘留 vs 勾留 in 抑留); 2 kana links removed (やってくる, 困ったことがある). New kanji 恫, 膀, 胱 added.
+
 ### 2026-11-11 (20 new entries, first cycle of the 08:15 run)
 
 33369–33388. Closure: 第三のビール, 生理休暇, 総量規制, オニヤンマ, 非対称, ベッドタウン, 複線. Brainstorm: 大忙し, 一大事, すこぶる, 足が棒になる, 雪合戦, 手すき, 暇人 (seeds 忙しい, 大変, とても, 足, 雪, 暇). ezFurigana lookups: 都市圏, 年相応, 特効薬, 弔い, トランシーバー, 取り分.
@@ -68,8 +73,3 @@ Self-check clean (no flags); one の inside なので unlinked. New candidates: 
 
 33337–33356. Closure: 着回し, 雄々しい, 男心, 乙女心, 半壊, 足元をすくう, 強制送還. Brainstorm: 絵はがき, 美大, 贋作, 備前焼 (field art), 大学病院, 面白半分, ネット銀行 (seeded from 病院, 面白い, 銀行). ezFurigana lookups: てんで, 問いただす, 当該, 通り魔, 溶き卵, 遠目.
 Self-check: 2 flags applied (person tag dropped from 乙女心/男心; 偽造 note reworded in 贋作); 12 kana links confirmed. New kanji 贋 added. New candidates: 着回す, 国外退去, ネットバンキング.
-
-### 2026-11-10 (15 new entries, fifth cycle of the 16:15 run)
-
-33322–33336. Closure: 先負, 名古屋城, 西南戦争, 相対性理論, 加藤清正. Brainstorm (field art): 信楽焼, 九谷焼, 喜多川歌麿, 太陽の塔, 東海道五十三次. ezFurigana lookups: 低賃金, 手いっぱい, 適時, 手放し, 転院.
-Self-check clean (no flags; 5 kana links confirmed). New kanji 麿 added. New candidates: 大阪万博, アインシュタイン.
