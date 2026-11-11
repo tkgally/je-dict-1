@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-11 (12 new entries, fifth cycle of the 00:15 run)
+
+33357–33368. Closure: 取扱注意, 警戒態勢, 器物損壊, 量子コンピューター. Brainstorm: 芸大, 芸術祭, 雪舟 (field art), 国立国会図書館 (seed 図書館). ezFurigana lookups: でんぐり返し, 通り道, 天王山 (as 天王), 堤.
+Self-check clean (no flags); one の inside なので unlinked. New candidates: 前転, 宙返り, 厳戒態勢, 割れ物.
+
 ### 2026-11-11 (20 new entries, first cycle of the 00:15 run)
 
 33337–33356. Closure: 着回し, 雄々しい, 男心, 乙女心, 半壊, 足元をすくう, 強制送還. Brainstorm: 絵はがき, 美大, 贋作, 備前焼 (field art), 大学病院, 面白半分, ネット銀行 (seeded from 病院, 面白い, 銀行). ezFurigana lookups: てんで, 問いただす, 当該, 通り魔, 溶き卵, 遠目.
@@ -69,8 +74,4 @@ Self-check clean (no content flags); three として links in 超然 removed (ta
 
 33284–33301. Closure: 科料, 携帯食, 犯行予告, 企業統治, 得失点差, 仕掛け花火. Brainstorm (field art): 友禅, 染物, 連作, ゴッホ, ピカソ, モザイク. ezFurigana lookups: 〜っぱなし, チューハイ, 抽象化, 痛恨, 低減, 超党派.
 Self-check clean (no flags; 11 kana links confirmed). New candidates: 過料, 無念.
-
-### 2026-11-10 (9 new entries, seventh cycle of the 00:15 run)
-
-33275–33283. Closure: 雲水, 改革者, 反則金. Brainstorm (field art): 蒔絵, グラデーション, コラージュ. ezFurigana lookups: 大韓民国, ダイレクト, 乳房. Self-check clean (no flags; 6 kana links confirmed).
 
