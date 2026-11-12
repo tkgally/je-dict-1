@@ -1,0 +1,142 @@
+/* Explore page (explore.html): the dictionary as a 3D word cloud.
+   Layout: the site's own nav bar on top; below it the cloud (a canvas) with the bar of places under it,
+   and to the right a panel for the arrangement, the selected word and the settings.
+   Every rule is scoped to #explore, so nothing here touches the site header. */
+body.explore-body { height: 100vh; height: 100dvh; display: flex; flex-direction: column; overflow: hidden }
+body.explore-body .nav-header { flex: none }
+#explore {
+  --bg: var(--color-bg, #fafafa); --surface: var(--color-surface, #ffffff); --glass: rgba(255,255,255,.92);
+  --fg: var(--color-text, #1a1a1a); --fg2: #5c6470; --border: #d9dde3;
+  --accent: var(--color-accent, #2563eb); --accent-soft: var(--color-accent-light, #dbeafe); --on-accent: #ffffff;
+  --shadow: 0 8px 28px rgba(15,23,42,.20); --bar-h: 46px;
+  flex: 1; min-height: 0; display: flex; flex-direction: column; font-size: 14px; line-height: 1.45; color: var(--fg); background: var(--bg) }
+#explore button, #explore input { font: inherit; color: inherit }
+#explore button { cursor: pointer }
+#explore :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+#explore [lang="ja"] { font-family: var(--font-jp) }
+#explore rt { font-size: .55em; color: var(--fg2); font-weight: 400 }
+#explore [hidden] { display: none !important }
+#explore noscript p { padding: 24px; max-width: 60ch }
+
+#explore #stage { position: relative; flex: 1; min-height: 0; overflow: hidden; background: #6fa8dc }
+#explore #cv { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; outline-offset: -3px }
+#explore #cv.grabbing { cursor: grabbing }
+#explore #cv.pointing { cursor: pointer }
+
+#explore .float { position: absolute; background: var(--glass); border: 1px solid var(--border); border-radius: 8px; box-shadow: var(--shadow);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px) }
+#explore .btn { background: var(--glass); border: 1px solid var(--border); border-radius: 6px; padding: 6px 11px; white-space: nowrap;
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); box-shadow: 0 2px 8px rgba(15,23,42,.14) }
+#explore .btn:hover { border-color: var(--accent); color: var(--accent) }
+#explore .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600 }
+#explore .btn.primary:hover { color: var(--on-accent); filter: brightness(1.08) }
+#explore .btn[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent) }
+
+#explore #xp-main { flex: 1; min-height: 0; display: flex; position: relative; max-width: none; margin: 0; padding: 0 }
+#explore #view { flex: 1; min-width: 0; display: flex; flex-direction: column }
+#explore .top-left { position: absolute; top: 10px; left: max(12px, env(safe-area-inset-left, 0px)); display: none; gap: 8px; align-items: center; z-index: 4 }
+
+/* Right-hand panel: arrangement, selected word, settings. Nothing in it covers the cloud. */
+#explore #side { flex: none; width: 372px; background: var(--surface); border-left: 1px solid var(--border); overflow-y: auto; display: flex; flex-direction: column; padding-right: env(safe-area-inset-right, 0px) }
+#explore .side-top { position: sticky; top: 0; z-index: 2; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 16px }
+#explore #arr-no { color: var(--fg2); font-variant-numeric: tabular-nums; white-space: nowrap }
+#explore .side-h { font-size: 15px; font-weight: 600; margin: 0 }
+#explore #detail-empty { margin: 0; padding: 14px 16px; color: var(--fg2); border-bottom: 1px solid var(--border) }
+
+/* Settings */
+#explore #settings { padding: 14px 16px 20px; display: flex; flex-direction: column; gap: 13px }
+#explore .field { display: flex; flex-direction: column; gap: 5px; min-width: 0 }
+#explore .field > label, #explore .field > .lab { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--fg2); font-weight: 600 }
+#explore .field .note { font-size: 12px; color: var(--fg2) }
+#explore .seg { display: flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; background: var(--surface) }
+#explore .seg button { flex: 1; border: 0; background: none; padding: 6px 4px; font-size: 13px; border-left: 1px solid var(--border); min-width: 0 }
+#explore .seg button:first-child { border-left: 0 }
+#explore .seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); font-weight: 600 }
+#explore .chips { display: flex; flex-wrap: wrap; gap: 5px }
+#explore .chips button { border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 3px 10px; font-size: 13px; color: var(--fg2) }
+#explore .chips button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600 }
+#explore input[type="range"] { width: 100%; accent-color: var(--accent); margin: 0 }
+#explore input[type="search"] { width: 100%; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 6px 9px }
+#explore #find-results { display: flex; flex-direction: column; gap: 2px }
+#explore #find-results button { text-align: left; border: 0; background: none; padding: 4px 6px; border-radius: 4px; display: flex; gap: 8px; align-items: baseline; min-width: 0 }
+#explore #find-results button:hover { background: var(--accent-soft) }
+#explore #find-results .g { color: var(--fg2); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0 }
+#explore .keys { font-size: 12px; color: var(--fg2); margin: 0; padding: 0; list-style: none; display: grid; gap: 3px }
+#explore kbd { font: inherit; font-size: 11px; border: 1px solid var(--border); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: var(--surface); color: var(--fg) }
+
+/* Word card */
+#explore #detail { position: relative; padding: 14px 16px 16px; border-bottom: 1px solid var(--border) }
+#explore #detail .place-tag { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--fg2); border: 0; background: none; padding: 0 }
+#explore #detail .place-tag:hover { color: var(--accent) }
+#explore .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; display: inline-block }
+#explore #detail .close { position: absolute; top: 8px; right: 8px; border: 0; background: none; font-size: 20px; line-height: 1; padding: 4px 8px; border-radius: 4px; color: var(--fg2) }
+#explore #detail .close:hover { background: var(--accent-soft); color: var(--accent) }
+#explore #detail h2 { font-family: var(--font-jp); font-size: 34px; line-height: 1.5; margin: 16px 0 0; font-weight: 600; text-wrap: balance }
+#explore #detail .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; color: var(--fg2); font-size: 12px; margin-top: 2px }
+#explore .tier { border: 1px solid var(--border); border-radius: 999px; padding: 0 8px; font-size: 11px; letter-spacing: .04em; text-transform: uppercase }
+#explore #detail .gloss { font-size: 16px; margin: 8px 0 0 }
+#explore #detail h3 { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--fg2); margin: 14px 0 6px; font-weight: 600 }
+#explore .ex { display: grid; grid-template-columns: auto 1fr; gap: 2px 9px; align-items: start; padding: 7px 0; border-top: 1px solid var(--border) }
+#explore .ex:first-of-type { border-top: 0; padding-top: 0 }
+#explore .ex .ja { font-family: var(--font-jp); font-size: 17px; line-height: 1.9; min-width: 0 }
+#explore .ex .en { grid-column: 2; color: var(--fg2); font-size: 13px }
+#explore .play { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--border); background: var(--surface); display: grid; place-items: center; margin-top: 5px; padding: 0; color: var(--accent) }
+#explore .play:hover { border-color: var(--accent); background: var(--accent-soft) }
+#explore .play svg { width: 12px; height: 12px; fill: currentColor }
+#explore .play.on { background: var(--accent); color: var(--on-accent); border-color: var(--accent) }
+#explore .audio-note { font-size: 12px; color: var(--fg2); margin: 4px 0 0 }
+#explore .conns { display: flex; flex-direction: column; gap: 2px }
+#explore .conns button, #explore .conns a { display: grid; grid-template-columns: 74px auto 1fr; gap: 8px; align-items: baseline; text-align: left; border: 0; background: none; padding: 4px 6px; margin: 0 -6px; border-radius: 4px; min-width: 0 }
+#explore .conns button:hover, #explore .conns a:hover { background: var(--accent-soft) }
+#explore .conns a { text-decoration: none; color: inherit }
+#explore .conns a .w::after { content: ' ↗'; font-size: 11px; color: var(--fg2) }
+#explore .conns .rel { font-size: 11px; color: var(--fg2); text-transform: uppercase; letter-spacing: .04em }
+#explore .conns .w { font-family: var(--font-jp); font-size: 16px; white-space: nowrap }
+#explore .conns .g { color: var(--fg2); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0 }
+#explore .also { display: flex; flex-wrap: wrap; gap: 5px }
+#explore .also span, #explore .also button { border: 1px solid var(--border); border-radius: 999px; padding: 2px 9px; font-size: 12px; background: var(--surface); color: var(--fg2); display: inline-flex; gap: 5px; align-items: center }
+#explore .also button:hover { border-color: var(--accent); color: var(--accent) }
+#explore .entry-link { display: inline-block; margin-top: 14px; color: var(--accent); font-weight: 600; text-decoration: none }
+#explore .entry-link:hover { text-decoration: underline }
+
+/* Places bar */
+#explore #places { flex: none; height: calc(var(--bar-h) + env(safe-area-inset-bottom, 0px)); background: var(--surface); border-top: 1px solid var(--border);
+  display: flex; align-items: center; gap: 6px; overflow-x: auto; scrollbar-width: thin;
+  padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: max(12px, env(safe-area-inset-left, 0px)); padding-right: 12px }
+#explore #places .lab { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--fg2); font-weight: 600; flex: none; margin-right: 2px }
+#explore .place { flex: none; display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 3px 11px 3px 8px; white-space: nowrap }
+#explore .place:hover { border-color: var(--accent) }
+#explore .place[aria-current="true"] { border-color: var(--accent); background: var(--accent-soft) }
+#explore .place .ja { font-family: var(--font-jp); font-weight: 600 }
+#explore .place .en { color: var(--fg2); font-size: 12px }
+#explore .place .n { color: var(--fg2); font-size: 11px; font-variant-numeric: tabular-nums }
+
+/* Flight pad */
+#explore #pad { position: absolute; right: 12px; bottom: 12px; display: flex; gap: 8px; align-items: flex-end; z-index: 3 }
+#explore #pad .thrust { display: flex; flex-direction: column; gap: 6px }
+#explore #pad .thrust button { width: 42px; height: 42px; padding: 0; border-radius: 50%; display: grid; place-items: center; touch-action: none; user-select: none; -webkit-user-select: none }
+#explore #pad svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round }
+#explore #hint { position: absolute; left: 50%; transform: translateX(-50%); bottom: 14px; background: rgba(12,16,28,.72); color: #f4f6fa; border-radius: 999px; padding: 5px 14px; font-size: 12.5px;
+  white-space: nowrap; pointer-events: none; transition: opacity .6s; z-index: 2; max-width: calc(100% - 140px); overflow: hidden; text-overflow: ellipsis }
+#explore #hint.gone { opacity: 0 }
+
+
+#explore #status { position: absolute; left: 50%; top: 42%; transform: translate(-50%, -50%); background: rgba(12,16,28,.78); color: #f4f6fa; border-radius: 8px; padding: 10px 18px; z-index: 2; text-align: center; max-width: min(80%, 420px) }
+
+@media (max-width: 760px) {
+  #explore .top-left { display: flex }
+  #explore #side { display: contents }
+  #explore .side-top { position: absolute; top: 10px; right: max(12px, env(safe-area-inset-right, 0px)); z-index: 4; padding: 0; border: 0; background: none }
+  #explore #arr-no, #explore #detail-empty, #explore .side-h { display: none }
+  #explore #settings, #explore #detail { position: absolute; background: var(--glass); border: 1px solid var(--border); box-shadow: var(--shadow); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); overflow-y: auto }
+  #explore #settings { top: 52px; left: max(12px, env(safe-area-inset-left, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); max-height: calc(100% - 52px - var(--bar-h) - 16px); border-radius: 8px; padding: 12px 14px 14px; z-index: 6 }
+  #explore #detail { left: 0; right: 0; bottom: calc(var(--bar-h) + env(safe-area-inset-bottom, 0px)); max-height: 52%; border-radius: 12px 12px 0 0; border-width: 1px 0 0; z-index: 5;
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+  #explore #detail h2 { font-size: 28px }
+  #explore #xp-main.has-detail #pad, #explore #xp-main.has-detail #hint { display: none }
+  #explore #pad { right: max(12px, env(safe-area-inset-right, 0px)) }
+  #explore #places { padding-right: max(12px, env(safe-area-inset-right, 0px)) }
+  #explore #hint { max-width: calc(100% - 130px); left: max(12px, env(safe-area-inset-left, 0px)); transform: none }
+  #explore .place .en { display: none }
+}
+@media (prefers-reduced-motion: reduce) { #explore #hint { transition: none } }

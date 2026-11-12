@@ -65,9 +65,13 @@ The site is fully static: HTML, CSS and JavaScript, with no server-side code. It
 views with GoatCounter, a privacy-friendly counter that sets no cookies.
 
 - **Search** (the home page): look up a word by Japanese, romaji or English.
-- **Browse**: entries by the first kana of their reading.
+- **Explore**: the dictionary as a three-dimensional word cloud. Words are grouped by meaning into
+  places you fly between (sky, mountains or city), with lines joining words that are related;
+  click a word for its reading, meaning, examples and recordings. Every visit shows a different
+  selection, and the Explore link on an entry page opens the cloud around that entry.
 - **Kanji**: every kanji used in headwords, each with a page listing the entries that contain it.
-- **Lists**: the basic and core tiers, and entries grouped by subject tag.
+- **Lists**: the basic and core tiers, every entry by the first kana of its reading, and entries
+  grouped by subject tag.
 - **Articles**: longer explanations of topics such as keigo, counters and onomatopoeia.
 - **Recent**: the most recently changed entries, marked **NEW** (a new entry), **REVISED** (its
   text was changed) or **REVISED (audio)** (recordings of its examples were added).

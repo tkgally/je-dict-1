@@ -75,17 +75,21 @@ def process_furigana(text: str, furigana_pattern: re.Pattern, show_furigana: boo
     return ''.join(parts)
 
 
-def generate_nav_header(relative_path: str = '', show_all_links: bool = True) -> str:
+def generate_nav_header(relative_path: str = '', show_all_links: bool = True, explore_word: str = '') -> str:
     """
     Generate navigation header HTML.
 
     Args:
         relative_path: Path prefix to reach the root docs directory
         show_all_links: Retained for compatibility; every page now shows the
-            full navigation (Home · Browse · Kanji · Lists · Articles · Recent ·
+            full navigation (Home · Explore · Kanji · Lists · Articles · Recent ·
             Random · About). Curator pages (pending, curator) are reachable by
-            URL only.
+            URL only. The alphabetical listing (browse.html) is linked from the
+            Lists page.
+        explore_word: an entry id; the Explore link then opens the word cloud
+            around that entry (explore.html?w=<id>). Entry pages pass their own id.
     """
+    explore_href = f'{relative_path or ""}explore.html' + (f'?w={explore_word}' if explore_word else '')
     # Determine the base path to the flat root
     base = relative_path if relative_path else ''
 
@@ -94,7 +98,7 @@ def generate_nav_header(relative_path: str = '', show_all_links: bool = True) ->
 
     nav_links = f'''
         <a href="{base}index.html" class="nav-link nav-home" title="Home" aria-label="Home">{home_icon}</a>
-        <a href="{base}browse.html" class="nav-link">Browse</a>
+        <a href="{explore_href}" class="nav-link">Explore</a>
         <a href="{base}kanji.html" class="nav-link">Kanji</a>
         <a href="{base}lists/index.html" class="nav-link">Lists</a>
         <a href="{base}articles/index.html" class="nav-link">Articles</a>

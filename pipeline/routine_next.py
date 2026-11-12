@@ -6,7 +6,7 @@ debt-based weighted scheduler with bounded health nudges, then emits the choice
 as JSON on stdout for prompts/routine2.md to act on.
 
 Modes: polish, systemic-fix, accuracy-review, new-entries, candidates, wiki, audio,
-conjugation-check.
+conjugation-check, explore-groups.
 `candidates` self-suppresses while the candidate queue is sufficiently stocked
 (counting closure and brainstorm candidates, not those from ezFurigana lookup
 reports) unless ezFurigana rows wait for a verdict;
@@ -23,7 +23,10 @@ unless audio_max_days_between_runs have passed since the last audio cycle.
 prompts/routine2.md §D) has weight 0 like wiki and runs when at least
 conjugation_check_min_days_between_runs days have passed since the last one
 (every sixth Routine run at three days and two runs a day), at its "floors"
-weight.
+weight. `explore-groups` (curated groups for the Explore page,
+prompts/explore_groups.md) self-suppresses while fewer than
+explore_groups_min_ungrouped entries are in no curated group: it works through
+the dictionary once, then wakes only when new entries have piled up.
 
 Design: archive/enhancement/unified-routine-plan-2026-06-09.md §4 (updated by
 enhancement/assessment-2026-09-02.md).
@@ -68,22 +71,24 @@ XMODEL_PROGRESS = PROJECT_ROOT / "polishing" / "tasks" / "cross-model-review" / 
 REVIEWS_DIR = PROJECT_ROOT / "reviews"
 BACKLOG_QUEUE = PROJECT_ROOT / "planning" / "wiki" / "ideas" / "backlog-queue.json"
 AUDIO_CONFIG = PROJECT_ROOT / "audio" / "config.json"
+EXPLORE_GROUPS = PROJECT_ROOT / "explore" / "groups"
 
 ALL_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries",
-             "candidates", "wiki", "audio", "conjugation-check"]
+             "candidates", "wiki", "audio", "conjugation-check", "explore-groups"]
 
 DEFAULT_CONFIG = {
     "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries",
-                      "candidates", "wiki", "audio", "conjugation-check"],
+                      "candidates", "wiki", "audio", "conjugation-check", "explore-groups"],
     "weights": {
-        "polish": 0.26,
-        "systemic-fix": 0.18,
-        "accuracy-review": 0.24,
-        "new-entries": 0.16,
-        "candidates": 0.06,
+        "polish": 0.23,
+        "systemic-fix": 0.16,
+        "accuracy-review": 0.21,
+        "new-entries": 0.14,
+        "candidates": 0.05,
         "wiki": 0.0,
-        "audio": 0.10,
+        "audio": 0.09,
         "conjugation-check": 0.0,
+        "explore-groups": 0.12,
     },
     "floors": {"wiki": 0.15, "conjugation-check": 0.3},
     "nudges": {
@@ -97,11 +102,13 @@ DEFAULT_CONFIG = {
         "audio_min_backlog": 150,
         "audio_max_days_between_runs": 3.0,
         "audio_high_backlog": 1500,
+        "explore_groups_min_ungrouped": 300,
         "min_multiplier": 0.5,
         "max_multiplier": 2.0,
     },
     "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix",
-                          "candidates", "wiki", "audio", "conjugation-check"],
+                          "candidates", "wiki", "audio", "conjugation-check",
+                          "explore-groups"],
     "anti_repeat_override_multiplier": 1.8,
     "openrouter": {"daily_cap_usd": 15.0, "per_session_cap_usd": 5.0,
                    "accuracy_daily_cap_usd": 10.0, "brainstorm_cap_usd": 0.5,
@@ -225,6 +232,7 @@ def compute_signals():
     audio_enabled = bool((audio_cfg.get("production") or {}).get("enabled"))
 
     return {
+        "explore_ungrouped": explore_ungrouped(entries),
         "audio_production_enabled": audio_enabled,
         "audio_backlog": audio_backlog() if audio_enabled else None,
         "candidate_count": candidate_count,
@@ -237,6 +245,24 @@ def compute_signals():
         "unharvested_observations": unharvested,
         "open_backlog_items": open_backlog,
     }
+
+
+def explore_ungrouped(index_entries):
+    """Entries that still wait for a curated group of the Explore page: in no
+    group and not marked as deliberately left over (explore/groups/*.json,
+    build/explore_groups.py); None if the index is empty."""
+    ids = {e.get("id") for e in index_entries if e.get("id")}
+    if not ids:
+        return None
+    grouped = set()
+    for path in sorted(EXPLORE_GROUPS.glob("*.json")) if EXPLORE_GROUPS.exists() else []:
+        data = load_json(path, {})
+        if not isinstance(data, dict):
+            continue
+        for g in data.get("groups") or []:
+            grouped.update(g.get("members") or [])
+        grouped.update(data.get("leftover") or [])
+    return len(ids - grouped)
 
 
 def ezfurigana_pending():
@@ -456,6 +482,17 @@ def compute_multipliers(signals, config, remaining, acc_remaining=None):
         elif backlog is not None:
             reasons["audio"].append(f"{backlog} examples waiting to be recorded")
 
+    # explore-groups: works through the dictionary once, then sleeps until
+    # enough new entries wait to be placed in a curated group
+    ung = signals.get("explore_ungrouped")
+    umin = int(nz.get("explore_groups_min_ungrouped", 300))
+    if ung is not None and ung < umin:
+        mult["explore-groups"] = 0.0
+        reasons["explore-groups"].append(
+            f"only {ung} entries outside a curated group (< {umin})")
+    elif ung is not None:
+        reasons["explore-groups"].append(f"{ung} entries not yet in a curated group")
+
     # systemic-fix: hard suppression when there is no open, batch-ready backlog
     if signals.get("open_backlog_items", 0) <= 0:
         mult["systemic-fix"] = 0.0
@@ -543,6 +580,8 @@ def build_params(choice, signals, config, remaining, acc_remaining=None):
         }
     if choice == "wiki":
         return {}
+    if choice == "explore-groups":
+        return {"ungrouped": signals.get("explore_ungrouped"), "approx_entries": 700}
     if choice == "conjugation-check":
         cap = float(config["openrouter"].get("conjugation_check_cap_usd", 1.0))
         return {"model_tables": 1000,

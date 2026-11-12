@@ -25,7 +25,8 @@ SITE_URL = "https://www.tkgje.jp"
 # Main pages to include (excluding curator/utility pages: random, pending, curator)
 MAIN_PAGES = [
     ("index.html", 1.0, "daily"),           # Homepage
-    ("browse.html", 0.9, "weekly"),         # Browse index (kana rows)
+    ("explore.html", 0.9, "weekly"),        # Explore: the 3D word cloud
+    ("browse.html", 0.7, "weekly"),         # All entries by kana row (linked from Lists)
     ("about.html", 0.9, "monthly"),         # About page
     ("kanji.html", 0.8, "weekly"),          # Kanji index
     ("recent.html", 0.6, "daily"),          # Recently added/revised entries

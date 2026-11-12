@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-12 (Explore page: the dictionary as a 3D word cloud)
+
+`explore.html` replaces Browse in every header; the alphabetical listing is now linked from the Lists page. Places are the 90 semantic tags (`explore/tags.json`) until curated groups (`explore/groups/`) replace them; connections are the entries' cross-references. New Routine mode `explore-groups` (weight 0.12, `prompts/explore_groups.md`) writes the curated groups; the other weights were scaled by 0.88. See CLAUDE.md, "Explore page".
+
 ### 2026-11-12 (20 new entries, second cycle of the 00:15 run)
 
 33440–33459. Closure: 八十八箇所, 南無阿弥陀仏, 本願寺, 人物画, 魏志倭人伝, 岩倉具視, 大久保利通. Brainstorm: 網膜, 角膜, 血流, はらわた, アキレス腱, 五臓六腑, 脳みそ (field body-internal). ezFurigana lookups: 生半可, 難産, いつ何時 (as 何時), 肉親, にして, 日本的.
@@ -69,7 +73,3 @@ Self-check: 4 flags applied (日系二世 is not an emigrant; 腱鞘炎 is tenos
 33407–33425. Closure: 体感温度, 失敗作, 姉妹校, 弟弟子, 仮設住宅, 天地, 正室. Brainstorm: 胃酸, 大脳, 小脳, 肺活量, 頭蓋骨, 血栓 (field body-internal). ezFurigana lookups: ないといけない, 同額, 同郷, 長丁場, 生々しい, なおざり.
 Self-check: 1 flag applied (体感温度 translation); in ないといけない, links from the auxiliary ない to the adjective ない removed and なきゃ retargeted to its own entry.
 
-### 2026-11-11 (18 new entries, sixth cycle of the 08:15 run)
-
-33389–33406. Closure: 対向車, 面倒見, 開祖, 抑留, 美的, 姉御. Brainstorm: 移動図書館 (seed 図書館), 子宮, 小腸, 尿, 膀胱, 気管支 (field body-internal). ezFurigana lookups: 党, 取り巻く, とんと, ドアノブ, 恫喝, トリガー.
-Self-check: 1 flag applied (拘留 vs 勾留 in 抑留); 2 kana links removed (やってくる, 困ったことがある). New kanji 恫, 膀, 胱 added.

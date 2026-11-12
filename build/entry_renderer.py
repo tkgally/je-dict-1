@@ -423,7 +423,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     html_parts = [
         generate_html_head(title, relative_path, description),
         '<body>',
-        generate_nav_header(relative_path, show_all_links=False),
+        generate_nav_header(relative_path, show_all_links=False, explore_word=entry.get('id', '')),
         '<main class="entry-page">',
         '<article class="entry-display">',
     ]
