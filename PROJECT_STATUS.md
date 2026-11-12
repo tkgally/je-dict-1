@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-12 (20 new entries, second cycle of the 00:15 run)
+
+33440–33459. Closure: 八十八箇所, 南無阿弥陀仏, 本願寺, 人物画, 魏志倭人伝, 岩倉具視, 大久保利通. Brainstorm: 網膜, 角膜, 血流, はらわた, アキレス腱, 五臓六腑, 脳みそ (field body-internal). ezFurigana lookups: 生半可, 難産, いつ何時 (as 何時), 肉親, にして, 日本的.
+Self-check: 1 flag applied (the Book of Han mentions Wa before the Gishi Wajinden). New kanji 倭, 魏 added. Cycle 1 (polish) retired 16888 振付 as a spelling duplicate of 12880 振り付け.
+
 ### 2026-11-11 (candidates: 36 brainstorm candidates, ninth cycle of the 16:15 run)
 
 Field brand-name: 20 own proposals, 50 from gpt-6.1-sol, 50 from gemini-3.8-flash; 10 already entries, 63 vetted, 36 added (Suica, PASMO, ダイソー, ローソン, ファミリーマート, 吉野家, ケンタッキー, マクドナルド, 楽天, メルカリ, ペイペイ, and generic trademarks ウォシュレット, サランラップ, シーチキン, バンドエイド, マジックテープ, プリクラ, …), 27 rejected (foreign brands of little weight, Latin-script duplicates, dated). No unresolved noentry markers; no ezFurigana rows pending. Queue 330.
@@ -68,8 +73,3 @@ Self-check: 1 flag applied (体感温度 translation); in ないといけない,
 
 33389–33406. Closure: 対向車, 面倒見, 開祖, 抑留, 美的, 姉御. Brainstorm: 移動図書館 (seed 図書館), 子宮, 小腸, 尿, 膀胱, 気管支 (field body-internal). ezFurigana lookups: 党, 取り巻く, とんと, ドアノブ, 恫喝, トリガー.
 Self-check: 1 flag applied (拘留 vs 勾留 in 抑留); 2 kana links removed (やってくる, 困ったことがある). New kanji 恫, 膀, 胱 added.
-
-### 2026-11-11 (20 new entries, first cycle of the 08:15 run)
-
-33369–33388. Closure: 第三のビール, 生理休暇, 総量規制, オニヤンマ, 非対称, ベッドタウン, 複線. Brainstorm: 大忙し, 一大事, すこぶる, 足が棒になる, 雪合戦, 手すき, 暇人 (seeds 忙しい, 大変, とても, 足, 雪, 暇). ezFurigana lookups: 都市圏, 年相応, 特効薬, 弔い, トランシーバー, 取り分.
-Self-check clean (no flags); 23 kana links confirmed. New candidates: 酒税, 万能薬, 年甲斐もなく, 手漉き.

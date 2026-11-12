@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -14879,6 +14879,21 @@
     "note": "Almost always the expression 'as ~ too / even if', but after a volitional verb (行こうとしても) it is the て-form of 〜うとする, meaning 'even if one tries to'.",
     "model": "claude:opus",
     "date": "2026-11-04"
+   }
+  },
+  "とする": {
+   "target": "33436_tosuru",
+   "tier": "verify",
+   "competitors": [
+    "adverb ending in と + する (ほっとする, じっとする, ちゃんとする, はっきりとする)",
+    "と (comitative 'with') + する (友達とする話 'a talk one has with a friend')"
+   ],
+   "screen": {
+    "verdict": "ambiguous",
+    "risk": "common",
+    "note": "The string often arises when a と-adverb or comitative と is followed by する, so context is needed to confirm the 'regard as / try to' expression.",
+    "model": "claude:opus",
+    "date": "2026-11-12"
    }
   },
   "とっておき": {
