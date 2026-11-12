@@ -1,0 +1,58 @@
+<div id="explore">
+  <noscript><p>The Explore page needs JavaScript. You can still <a href="browse.html">browse every entry in kana order</a>.</p></noscript>
+  <main id="xp-main">
+    <div id="view">
+      <div id="stage">
+        <canvas id="cv" tabindex="0" aria-label="Three-dimensional word cloud. Drag to look around, use W A S D to fly, click a word to open it. The bar of places below the cloud lists every group shown."></canvas>
+        <div id="status" role="status">Gathering words…</div>
+        <div class="top-left">
+          <button class="btn" id="btn-settings" aria-pressed="false" aria-controls="settings">Settings</button>
+        </div>
+        <div id="hint"></div>
+        <div id="pad">
+          <button class="btn" id="btn-tour" aria-pressed="false">Tour</button>
+          <div class="thrust">
+            <button class="btn" id="btn-fwd" aria-label="Fly forward (hold)"><svg viewBox="0 0 16 16"><path d="M3 10l5-5 5 5"/></svg></button>
+            <button class="btn" id="btn-back" aria-label="Fly backward (hold)"><svg viewBox="0 0 16 16"><path d="M3 6l5 5 5-5"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <nav id="places" aria-label="Places in this arrangement"></nav>
+    </div>
+
+    <aside id="side" aria-label="Arrangement, selected word and settings">
+      <div class="side-top">
+        <span id="arr-no"></span>
+        <button class="btn primary" id="btn-new">New arrangement</button>
+      </div>
+      <section id="detail" aria-label="Selected word" hidden></section>
+      <p id="detail-empty">Click a word in the cloud to see its reading, meaning, examples and connections here.</p>
+      <section id="settings" aria-label="Settings">
+      <h2 class="side-h">Settings</h2>
+      <div class="field">
+        <label for="find">Find a word in this cloud</label>
+        <input type="search" id="find" placeholder="Japanese, kana or English" autocomplete="off">
+        <div id="find-results"></div>
+      </div>
+      <div class="field"><span class="lab">World</span><div class="seg" id="seg-world"></div></div>
+      <div class="field"><span class="lab">Time of day</span><div class="seg" id="seg-time"></div></div>
+      <div class="field"><span class="lab">Word labels</span><div class="seg" id="seg-labels"></div></div>
+      <div class="field"><span class="lab">Level</span><div class="chips" id="chips-tier"></div>
+        <span class="note" id="tier-note"></span></div>
+      <div class="field"><span class="lab">Word types</span><div class="chips" id="chips-cat"></div></div>
+      <div class="field"><label for="rng-groups">Places shown: <b id="out-groups"></b></label><input type="range" id="rng-groups" min="3" max="12" step="1"></div>
+      <div class="field"><label for="rng-per">Words in each place: <b id="out-per"></b></label><input type="range" id="rng-per" min="5" max="20" step="1"></div>
+      <div class="field"><span class="lab">Connections</span><div class="seg" id="seg-links"></div></div>
+      <div class="field"><label for="rng-speed">Flying speed</label><input type="range" id="rng-speed" min="0.4" max="2.6" step="0.1"></div>
+      <div class="field"><span class="lab">How to fly</span>
+        <ul class="keys">
+          <li>Drag to look around; scroll or pinch to move</li>
+          <li><kbd>W</kbd> <kbd>S</kbd> forward, back · <kbd>A</kbd> <kbd>D</kbd> sideways</li>
+          <li><kbd>R</kbd> <kbd>F</kbd> up, down · arrow keys turn · <kbd>Shift</kbd> faster</li>
+          <li>Click a word to open it, a sign to visit that place</li>
+        </ul>
+      </div>
+      </section>
+    </aside>
+  </main>
+</div>

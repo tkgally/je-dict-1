@@ -35,6 +35,11 @@ jobs:
         # link targets and related entries exist.
         run: python3 build/validate_articles.py
 
+      - name: Validate Explore groups
+        # explore/tags.json names every semantic tag; explore/groups/*.json (curated
+        # groups of the Explore page) list only real entries, in groups of a usable size.
+        run: python3 build/explore_groups.py validate
+
       - name: Ratchet checks on changed entries
         # Fails only for entries this PR touches: missing politeness/formality,
         # missing transitivity on godan/ichidan verbs, kana-only furigana braces.

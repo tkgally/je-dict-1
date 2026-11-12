@@ -18,8 +18,8 @@ replaces it, and the site build writes a redirect page at the old address.
 
 Both commands rewrite every reference to the old id: inline links in entries
 and articles, cross_references and prominent_see_also target_ids, articles'
-related_entries, and the
-link-decision ledger. A rename also renames the example ids and their audio
+related_entries, the
+link-decision ledger, and the Explore page's curated groups (explore/groups/). A rename also renames the example ids and their audio
 manifest keys, so recordings survive. On retire, cross-references that pointed
 at the old entry are dropped (they named a different word) unless --duplicate
 says the two entries are the same word, when they are repointed; links whose
@@ -200,6 +200,9 @@ def update_references(old: str, new: str, *, drop_crossrefs: bool, dry_run: bool
             report["files"].add(str(LINK_DECISIONS.relative_to(ROOT)))
             if not dry_run:
                 LINK_DECISIONS.write_text("\n".join(out) + "\n", encoding="utf-8")
+    # curated groups of the Explore page (explore/groups/*.json) list entry ids
+    from explore_groups import replace_member
+    report["files"].update(replace_member(old, new, dry_run=dry_run, groups_dir=ROOT / "explore" / "groups"))
     return report
 
 

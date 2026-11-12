@@ -17,6 +17,7 @@ gate:
 	python3 -m unittest discover -s build/tests -t .
 	python3 build/validate.py
 	python3 build/validate_articles.py
+	python3 build/explore_groups.py validate
 	git fetch -q origin main
 	python3 build/validate.py --changed-only --ratchet
 	python3 build/validate_tags.py --check-no-new-unknown

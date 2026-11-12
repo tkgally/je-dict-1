@@ -52,6 +52,7 @@ def neutral_signals():
         "days_since_conjugation_check": 0.2,
         "audio_backlog": 400,
         "days_since_audio": 0.5,
+        "explore_ungrouped": 20000,
     }
 
 
@@ -430,6 +431,59 @@ class TestAudioMode(unittest.TestCase):
                          ["openrouter_session_budget_usd"], 4.8)
         self.assertEqual(rn.build_params("audio", neutral_signals(), cfg, 1.1)
                          ["openrouter_session_budget_usd"], 1.1)
+
+
+
+class TestExploreGroupsMode(unittest.TestCase):
+    def test_runs_while_entries_wait_for_a_group(self):
+        cfg = base_config()
+        mult, reasons = rn.compute_multipliers(neutral_signals(), cfg, remaining=5.0)
+        self.assertEqual(mult["explore-groups"], 1.0)
+        self.assertTrue(any("20000 entries" in r for r in reasons["explore-groups"]))
+        n = 2000
+        tally, _ = simulate(cfg, neutral_signals(), remaining=5.0, n=n)
+        self.assertAlmostEqual(tally["explore-groups"] / n, 0.12, delta=0.03)
+
+    def test_sleeps_once_the_dictionary_is_grouped(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["explore_ungrouped"] = 120
+        mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["explore-groups"], 0.0)
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=300)
+        self.assertNotIn("explore-groups", tally)
+
+    def test_needs_no_openrouter_budget(self):
+        cfg = base_config()
+        mult, _ = rn.compute_multipliers(neutral_signals(), cfg, remaining=0.0)
+        self.assertEqual(mult["explore-groups"], 1.0)
+
+    def test_unknown_count_leaves_the_mode_on(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["explore_ungrouped"] = None
+        mult, _ = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["explore-groups"], 1.0)
+
+    def test_params(self):
+        p = rn.build_params("explore-groups", neutral_signals(), base_config(), 5.0)
+        self.assertEqual(p, {"ungrouped": 20000, "approx_entries": 700})
+
+    def test_ungrouped_counts_index_entries_outside_every_group(self):
+        import json as _json
+        import tempfile
+        saved = rn.EXPLORE_GROUPS
+        with tempfile.TemporaryDirectory() as tmp:
+            rn.EXPLORE_GROUPS = Path(tmp)
+            (Path(tmp) / "weather.json").write_text(_json.dumps(
+                {"tag": "weather", "groups": [{"id": "rain", "members": ["00001_a", "00002_b", "09999_gone"]}],
+                 "leftover": ["00004_d"]}))
+            try:
+                index = [{"id": "00001_a"}, {"id": "00002_b"}, {"id": "00003_c"}, {"id": "00004_d"}]
+                self.assertEqual(rn.explore_ungrouped(index), 1)
+                self.assertIsNone(rn.explore_ungrouped([]))
+            finally:
+                rn.EXPLORE_GROUPS = saved
 
 
 if __name__ == "__main__":

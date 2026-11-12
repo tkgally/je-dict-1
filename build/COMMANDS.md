@@ -22,6 +22,7 @@ python3 build/check_link_targets.py                # Inline links whose target e
 python3 build/check_link_baseform.py --gate        # CI ratchet: link target is the entry for its own base form
 python3 build/check_link_homophones.py --gate      # CI gate: block-tier kana links need a keep decision; unlinked links stay gone
 python3 build/validate_articles.py                 # CI gate: articles/*.json — schema, furigana, link targets, related entries
+python3 build/explore_groups.py validate           # CI gate: Explore page tag names and curated groups
 make gate                                          # Exactly the CI checks on a PR (tests, validation, ratchet gates); run before every push
 python3 build/update_indexes.py                    # entries_index.json, candidate sync, word lookup
 python3 build/update_kanji_index.py                # Rebuild kanji JSON; --check-new lists kanji needing IDs
@@ -160,6 +161,19 @@ python3 build/audio_maintenance.py reaudit --sample 100 --budget 0.40       # re
 python3 build/audio_needs_human_triage.py [--summary]  # examples left for a human, most consistent mishearing first (systemic-fix)
 python3 build/audio_digit_readings.py status|generate|confirm|sample|approve   # readings for examples with digits or Latin letters (§3.1)
 python3 build/check_no_binaries.py                     # CI gate: no audio files in je-dict-1
+```
+
+## Explore page (explore.html; data in explore/, prompts/explore_groups.md)
+
+```bash
+python3 build/explore_groups.py status              # Entries in curated groups and still at tag level, tag by tag
+python3 build/explore_groups.py next                # The tag to curate next (a tag already begun first, then most basic and core entries left)
+python3 build/explore_groups.py worklist weather --limit 700   # A tag's ungrouped entries: id, headword, reading, gloss, tier, POS, cross-references
+python3 build/explore_groups.py apply plan.txt      # Write groups from a plan ("tag: …", "== id | ja | en", entry ids); --dry-run
+python3 build/explore_groups.py show weather        # A tag's groups with each member's headword and gloss
+python3 build/explore_groups.py validate            # CI gate: explore/tags.json and explore/groups/*.json (names, sizes, members exist)
+python3 build/explore_data.py --stats               # Places, shards and curated groups the site build would write
+python3 build/explore_data.py --out /tmp/site       # Write /tmp/site/explore/ (index.json, s/, w/) without building the site
 ```
 
 ## Routine and pipeline

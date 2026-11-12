@@ -53,6 +53,7 @@ from datetime import datetime
 
 from path_utils import get_directory_range
 from audio_manifest import recording_url
+from explore_data import build_explore
 from entry_renderer import (
     generate_entry_html,
     JST,
@@ -69,6 +70,7 @@ from page_generators import (
     generate_advanced_page,
     generate_redirect_page,
     generate_browse_page,
+    generate_explore_page,
     generate_browse_row_page,
     group_entries_by_kana_row,
     generate_recent_page,
@@ -380,6 +382,16 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
         f.write(generate_redirect_page('lists/index.html', 'Lists'))
     with open(docs_dir / 'curator.html', 'w', encoding='utf-8') as f:
         f.write(generate_advanced_page(curator_tools=True))
+
+    # Explore: the 3D word cloud (page, its stylesheet and script, and the words it reads)
+    templates_dir = Path(__file__).parent / 'templates'
+    with open(docs_dir / 'explore.html', 'w', encoding='utf-8') as f:
+        f.write(generate_explore_page())
+    for asset in ('explore.css', 'explore.js'):
+        shutil.copy2(templates_dir / asset, docs_dir / asset)
+    explore_result = build_explore(entries, docs_dir)
+    print(f"  Generated explore.html and explore/ ({explore_result['places']} places, "
+          f"{explore_result['groups']} curated groups, {explore_result['shards']} word files)")
 
     # Browse index plus one page per kana row
     with open(docs_dir / 'browse.html', 'w', encoding='utf-8') as f:

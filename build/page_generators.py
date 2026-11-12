@@ -4,11 +4,12 @@ Navigation page generators for je-dict-1 dictionary.
 
 Extracted from build_flat.py to keep the build script manageable.
 Generates HTML content for navigation pages: index, curator (tag search),
-the advanced.html redirect, browse, recent, random, and pending.
+the advanced.html redirect, explore, browse, recent, random, and pending.
 """
 
 import html
 import random
+from pathlib import Path
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
@@ -772,6 +773,36 @@ def _kana_sections_html(entries: list, relative_path: str) -> str:
     return '\n'.join(parts)
 
 
+def generate_explore_page() -> str:
+    """Generate explore.html: the dictionary as a 3D word cloud.
+
+    The markup is build/templates/explore.html; explore.css and explore.js sit
+    beside it and are copied to the site root by build_flat.py. The words come
+    from explore/ (build/explore_data.py). The page fills the window below the
+    nav bar, so it has no footer.
+    """
+    body = (Path(__file__).parent / 'templates' / 'explore.html').read_text(encoding='utf-8')
+    head = generate_html_head(
+        'Explore', '',
+        "Explore Japanese vocabulary as a three-dimensional word cloud: words grouped by meaning and "
+        "linked to related words — TKG Japanese-English Learner's Dictionary")
+    head = head.replace('</head>', '    <link rel="stylesheet" href="explore.css">\n</head>')
+    return '\n'.join([
+        head,
+        '<body class="explore-body">',
+        generate_nav_header(),
+        body,
+        generate_header_search_script(''),
+        generate_furigana_script(),
+        generate_examples_script(),
+        generate_wordlinks_script(),
+        '<script src="explore.js"></script>',
+        generate_goatcounter_script(),
+        '</body>',
+        '</html>',
+    ])
+
+
 def generate_browse_page(entries: list, entries_dict: dict) -> str:
     """Generate browse.html: an index of kana rows, each linking to browse/<row>.html."""
     grouped = group_entries_by_kana_row(entries)
@@ -1308,7 +1339,7 @@ def generate_lists_index_page(tier_counts: dict, tag_pages: dict) -> str:
         generate_nav_header(relative_path),
         '<main class="browse-page list-page">',
         '<h1>Study Lists</h1>',
-        '<p class="browse-intro">Vocabulary lists by learning tier, and by topic (semantic tag). '
+        '<p class="browse-intro">Vocabulary lists by learning tier, the full alphabetical listing, and lists by topic (semantic tag). '
         'Each list shows the headword with furigana, its reading and a short gloss, linked to the full entry.</p>',
         '<div class="list-card-grid">',
     ]
@@ -1319,6 +1350,12 @@ def generate_lists_index_page(tier_counts: dict, tag_pages: dict) -> str:
             f'<span class="list-card-desc">{blurb} {tier_counts.get(tier, 0):,} entries.</span>'
             f'</a>'
         )
+    html_parts.append(
+        '<a href="../browse.html" class="list-card">'
+        '<span class="list-card-title">All entries</span>'
+        '<span class="list-card-desc">Every entry in kana order, by the first kana of the reading.</span>'
+        '</a>'
+    )
     html_parts.append('</div>')
 
     if tag_pages:

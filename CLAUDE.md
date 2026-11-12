@@ -32,6 +32,8 @@ entries_index.json  Master index (rebuilt by update_indexes.py)
 build/word_id_lookup.json   Word → entry ID lookup (rebuilt by update_indexes.py)
 docs/               Generated site. NOT tracked since 2026-09-02; built by .github/workflows/pages.yml
 articles/           Expository articles (JSON; ten as of 2026-09-09). See "Articles" below
+explore/            Explore page sources: tags.json (names of the tag-level places), groups/<tag>.json (curated
+                    groups). See "Explore page" below
 audio/              Example audio, text only: config.json, manifest/ (recorded examples), needs_human.jsonl,
                     runs.jsonl, regression/ (163 known-answer clips), testset/. MP3s live in the audio repository
                     (tkgally/je-dict-audio-1, GitHub Pages), never here. See AUDIO_WORKFLOW.md
@@ -103,6 +105,26 @@ never link goes in the article's optional `no_link` list. Articles link to one a
 `[text](other-id.html)`. `related_entries` is the curated list shown at the foot of the article and
 on each listed entry's page; use the entry's own headword.
 
+## Explore page
+
+`explore.html` (the Explore link in every header, since 2026-11-12; it replaced Browse, whose
+alphabetical listing is now reached from the Lists page) shows the dictionary as a 3D word cloud:
+*places*, each a sign with a dozen or so words around it, and lines between words that
+cross-reference each other. It has no dependencies (`build/templates/explore.js`, one canvas).
+The Explore link on an entry page opens the cloud around that entry (`explore.html?w=<id>`).
+
+- **Places.** Every semantic tag is a place (`explore/tags.json` names each in Japanese, with
+  furigana, and in English). `explore/groups/<tag>.json` holds **curated groups**: finer places of
+  about 6 to 40 entries that belong together. An entry in a curated group leaves the tag-level
+  places; the rest stay, so the page always covers every entry.
+- **Connections** are the entries' own `cross_references`; nothing about them is stored elsewhere.
+- **Build.** `build/explore_data.py` (called by `build_flat.py`) writes `docs/explore/`: an index
+  of places and one small file per shard of about 48 words. Generated, never tracked.
+- **Curation.** `python3 build/explore_groups.py` (`next`, `worklist`, `apply`, `show`, `status`,
+  `validate`; rules in `prompts/explore_groups.md`). `validate` is a CI gate: every tag has a name,
+  group names carry furigana, every member is an entry, a group has 3 to 45 members, an entry is
+  in at most three groups. `retire_entry.py` keeps memberships pointing at live entries.
+
 ## The Routine
 
 `prompts/routine2.md` is the one scheduled task (every twelve hours, 00:15 and 12:15 UTC). A run lasts
@@ -110,15 +132,18 @@ about two hours (`pipeline/run_clock.py`) and is a series of cycles, each merged
 pre-flight rescue and sweep. Each cycle: `python3 pipeline/routine_next.py` picks a mode → the
 mode's prompt → mechanical pass on changed entries → independent-model self-check → metrics
 snapshot → `make index` → commit → PR → CI → squash-merge → the branch restarts from `main`.
-Modes and weights (`pipeline/routine-config.json`, reweighted 2026-10-23): polish 0.26,
-accuracy-review 0.24 (at most $10 of the $15 daily OpenRouter cap, plus a second review by
-Claude Opus on the subscription since 2026-10-25), systemic-fix 0.18,
-new-entries 0.16, audio 0.10 (only when at least 150 new or edited examples wait, or three days
-have passed with any waiting), candidates 0.06 (runs below 200 queued closure and brainstorm
+Modes and weights (`pipeline/routine-config.json`, reweighted 2026-11-12 when explore-groups
+joined): polish 0.23,
+accuracy-review 0.21 (at most $10 of the $15 daily OpenRouter cap, plus a second review by
+Claude Opus on the subscription since 2026-10-25), systemic-fix 0.16,
+new-entries 0.14, explore-groups 0.12 (curated groups for the Explore page, about 700 entries a
+cycle; sleeps while fewer than 300 entries are outside a curated group), audio 0.09 (only when
+at least 150 new or edited examples wait, or three days
+have passed with any waiting), candidates 0.05 (runs below 200 queued closure and brainstorm
 candidates, or while an ezFurigana report has rows without a verdict; closure, brainstorming,
 ezFurigana), wiki (trigger-only), conjugation-check (trigger-only, every three days:
 re-checks the conjugation tables). Mode prompts:
-`audio.md`, `comprehensive_polish.md`, `newentries.md`, `newcandidates.md`,
+`audio.md`, `comprehensive_polish.md`, `newentries.md`, `newcandidates.md`, `explore_groups.md`,
 `planning/maintain-knowledge-base.md`; the accuracy-review, systemic-fix and conjugation-check
 playbooks are inside `routine2.md`.
 

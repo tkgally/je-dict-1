@@ -163,6 +163,7 @@ Read the JSON: `mode` is this run's focus, `params` its inputs, `reason` and
 | `candidates` | Follow **`prompts/newcandidates.md`**: first, if `params.ezfurigana_pending` > 0, vet up to 150 rows of the ezFurigana lookup reports (`build/ezfurigana_lookups.py`, `external/ezfurigana/`); then restock the queue from the two streams of its own, internal closure (words the dictionary uses but has not defined) and brainstorming (`build/brainstorm_candidates.py`: words related to existing headwords, or missing from a semantic field, proposed by you and by two independent models within `params.openrouter_session_budget_usd`), each word vetted individually. |
 | `audio` | Follow **`prompts/audio.md`**: maintenance checks first (regression suite, pilots, model IDs, spot checks, re-audits; `build/audio_maintenance.py due`), then record example sentences in priority order with `params.openrouter_session_budget_usd`, publish the MP3s to the audio repository, update `audio/manifest/` and the recorded examples' `has_audio` flags. Changes no entry text, so §3 and §4 do not apply. |
 | `conjugation-check` | Follow **§D**: re-check the verb and i-adjective conjugation tables (deterministic checks over the whole dictionary, then an independent model on the next `params.model_tables` tables within `params.openrouter_session_budget_usd`), fix every table confirmed wrong (the generator first when the error is a pattern), and record the tables confirmed right. Runs about once a day (weight 0; trigger in `routine_next.py`). |
+| `explore-groups` | Follow **`prompts/explore_groups.md`**: write curated groups for the Explore page (`explore/groups/<tag>.json`) for about `params.approx_entries` (700) entries of the tag `python3 build/explore_groups.py next` names, through `build/explore_groups.py apply`, and check them with `validate` and `show`. Changes no entry and spends nothing on OpenRouter, so §3 and §4 do not apply. Sleeps while fewer than 300 entries are outside a curated group. |
 | `wiki` | Follow **`planning/maintain-knowledge-base.md`**: harvest `polishing/observations.md` into `planning/wiki/ideas/backlog-queue.json`, write one short log entry, regenerate the metrics page with `python3 pipeline/metrics_report.py`. No essays, no new prose on the metrics page, no page may grow by more than 300 words. |
 
 Before working a range, glance only at wiki pages directly relevant to it
@@ -266,7 +267,8 @@ previous snapshot. If the script errors, note it and continue.
    `PROJECT_STATUS.md` Recent Changes section (keep five); `wiki` →
    `planning/wiki/log.md`; `audio` → nothing (the manifest is its cursor);
    `conjugation-check` → nothing (the tool advances
-   `polishing/tasks/conjugation-check/progress.txt` itself).
+   `polishing/tasks/conjugation-check/progress.txt` itself);
+   `explore-groups` → nothing (`explore/groups/` is its own cursor).
    The selector already persisted its state.
 2. **Write the session log** `polishing/sessions/routine_{YYYY-MM-DD}_{NNN}.md`
    (next free NNN): mode and reason, range or params, per-item changes, the
@@ -562,6 +564,7 @@ python3 build/review_accuracy.py --range S E --budget B --second claude:opus  # 
 python3 build/audio_pipeline.py plan / run / publish / verify   # audio mode (prompts/audio.md)
 python3 build/audio_maintenance.py due                   # audio mode: maintenance due, production blocked?
 python3 build/check_conjugations.py [--llm --n N --budget B]   # §D conjugation tables
+python3 build/explore_groups.py next / worklist / apply / show / validate   # explore-groups mode (prompts/explore_groups.md)
 python3 pipeline/metrics_snapshot.py --mode M --changed N
 make gate                                                # §7 the CI checks, before the push
 make index                                               # §7 indexes (no site build)

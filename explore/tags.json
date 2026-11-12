@@ -1,0 +1,365 @@
+{
+  "_doc": "Names of the tag-level places on the Explore page (explore.html): one per semantic tag in build/validate_tags.py VALID_SEMANTIC. 'ja' carries furigana on every kanji; 'en' is the sign's English line (28 characters at most). 'general' is the catch-all place for entries tagged general or carrying no semantic tag. Checked by python3 build/explore_groups.py validate (a CI gate).",
+  "tags": {
+    "action": {
+      "ja": "{動作|どうさ}",
+      "en": "Actions"
+    },
+    "descriptive": {
+      "ja": "{様子|ようす}",
+      "en": "Describing things"
+    },
+    "communication": {
+      "ja": "コミュニケーション",
+      "en": "Communication"
+    },
+    "food": {
+      "ja": "{食|た}べ{物|もの}",
+      "en": "Food & drink"
+    },
+    "emotion": {
+      "ja": "{感情|かんじょう}",
+      "en": "Feelings"
+    },
+    "society": {
+      "ja": "{社会|しゃかい}",
+      "en": "Society"
+    },
+    "abstract": {
+      "ja": "{抽象|ちゅうしょう}",
+      "en": "Abstract ideas"
+    },
+    "daily-life": {
+      "ja": "{日常生活|にちじょうせいかつ}",
+      "en": "Daily life"
+    },
+    "health": {
+      "ja": "{健康|けんこう}",
+      "en": "Health"
+    },
+    "culture": {
+      "ja": "{文化|ぶんか}",
+      "en": "Culture"
+    },
+    "business": {
+      "ja": "ビジネス",
+      "en": "Business"
+    },
+    "person": {
+      "ja": "{人|ひと}",
+      "en": "People"
+    },
+    "work": {
+      "ja": "{仕事|しごと}",
+      "en": "Work"
+    },
+    "education": {
+      "ja": "{教育|きょういく}",
+      "en": "Education"
+    },
+    "nature": {
+      "ja": "{自然|しぜん}",
+      "en": "Nature"
+    },
+    "time-general": {
+      "ja": "{時|とき}",
+      "en": "Time"
+    },
+    "cognition": {
+      "ja": "{思考|しこう}",
+      "en": "Thinking"
+    },
+    "science": {
+      "ja": "{科学|かがく}",
+      "en": "Science"
+    },
+    "building": {
+      "ja": "{建物|たてもの}",
+      "en": "Buildings"
+    },
+    "geography": {
+      "ja": "{地理|ちり}",
+      "en": "Geography"
+    },
+    "technology": {
+      "ja": "{技術|ぎじゅつ}",
+      "en": "Technology"
+    },
+    "evaluation": {
+      "ja": "{評価|ひょうか}",
+      "en": "Judging & rating"
+    },
+    "transportation": {
+      "ja": "{交通|こうつう}",
+      "en": "Transport"
+    },
+    "leisure": {
+      "ja": "レジャー",
+      "en": "Leisure"
+    },
+    "politics": {
+      "ja": "{政治|せいじ}",
+      "en": "Politics"
+    },
+    "law": {
+      "ja": "{法律|ほうりつ}",
+      "en": "Law"
+    },
+    "tool": {
+      "ja": "{道具|どうぐ}",
+      "en": "Tools"
+    },
+    "sports": {
+      "ja": "スポーツ",
+      "en": "Sports"
+    },
+    "movement": {
+      "ja": "{移動|いどう}",
+      "en": "Movement"
+    },
+    "quantity": {
+      "ja": "{数量|すうりょう}",
+      "en": "Amounts"
+    },
+    "personality": {
+      "ja": "{性格|せいかく}",
+      "en": "Personality"
+    },
+    "language": {
+      "ja": "{言語|げんご}",
+      "en": "Language"
+    },
+    "change": {
+      "ja": "{変化|へんか}",
+      "en": "Change"
+    },
+    "art": {
+      "ja": "{芸術|げいじゅつ}",
+      "en": "Art"
+    },
+    "money": {
+      "ja": "お{金|かね}",
+      "en": "Money"
+    },
+    "occupation": {
+      "ja": "{職業|しょくぎょう}",
+      "en": "Jobs"
+    },
+    "grammatical": {
+      "ja": "{文法|ぶんぽう}",
+      "en": "Grammar words"
+    },
+    "history": {
+      "ja": "{歴史|れきし}",
+      "en": "History"
+    },
+    "religion": {
+      "ja": "{宗教|しゅうきょう}",
+      "en": "Religion"
+    },
+    "clothing": {
+      "ja": "{衣服|いふく}",
+      "en": "Clothing"
+    },
+    "appearance": {
+      "ja": "{外見|がいけん}",
+      "en": "Appearance"
+    },
+    "body-part": {
+      "ja": "{体|からだ}",
+      "en": "The body"
+    },
+    "family": {
+      "ja": "{家族|かぞく}",
+      "en": "Family"
+    },
+    "weather": {
+      "ja": "{天気|てんき}",
+      "en": "Weather"
+    },
+    "media": {
+      "ja": "メディア",
+      "en": "Media"
+    },
+    "shopping": {
+      "ja": "{買|か}い{物|もの}",
+      "en": "Shopping"
+    },
+    "finance": {
+      "ja": "{金融|きんゆう}",
+      "en": "Finance"
+    },
+    "expression": {
+      "ja": "{表現|ひょうげん}",
+      "en": "Expressions"
+    },
+    "proper-noun": {
+      "ja": "{固有名詞|こゆうめいし}",
+      "en": "Names"
+    },
+    "travel": {
+      "ja": "{旅行|りょこう}",
+      "en": "Travel"
+    },
+    "electronics": {
+      "ja": "{電子機器|でんしきき}",
+      "en": "Electronics"
+    },
+    "entertainment": {
+      "ja": "{娯楽|ごらく}",
+      "en": "Entertainment"
+    },
+    "economics": {
+      "ja": "{経済|けいざい}",
+      "en": "Economy"
+    },
+    "number": {
+      "ja": "{数|かず}",
+      "en": "Numbers"
+    },
+    "military": {
+      "ja": "{軍事|ぐんじ}",
+      "en": "Military"
+    },
+    "cooking": {
+      "ja": "{料理|りょうり}",
+      "en": "Cooking"
+    },
+    "idiom": {
+      "ja": "{慣用句|かんようく}",
+      "en": "Idioms"
+    },
+    "music": {
+      "ja": "{音楽|おんがく}",
+      "en": "Music"
+    },
+    "direction": {
+      "ja": "{方向|ほうこう}",
+      "en": "Directions"
+    },
+    "general": {
+      "ja": "その{他|た}",
+      "en": "Other words"
+    },
+    "plant-general": {
+      "ja": "{植物|しょくぶつ}",
+      "en": "Plants"
+    },
+    "place": {
+      "ja": "{場所|ばしょ}",
+      "en": "Places"
+    },
+    "time-period": {
+      "ja": "{時間帯|じかんたい}",
+      "en": "Times & periods"
+    },
+    "place-name": {
+      "ja": "{地名|ちめい}",
+      "en": "Place names"
+    },
+    "onomatopoeia": {
+      "ja": "{擬音語|ぎおんご}・{擬態語|ぎたいご}",
+      "en": "Sound & feel words"
+    },
+    "animal-general": {
+      "ja": "{動物|どうぶつ}",
+      "en": "Animals"
+    },
+    "body-internal": {
+      "ja": "{体|からだ}の{中|なか}",
+      "en": "Inside the body"
+    },
+    "sense": {
+      "ja": "{感覚|かんかく}",
+      "en": "The senses"
+    },
+    "color": {
+      "ja": "{色|いろ}",
+      "en": "Colors"
+    },
+    "size": {
+      "ja": "{大|おお}きさ",
+      "en": "Size"
+    },
+    "animal-mammal": {
+      "ja": "{哺乳類|ほにゅうるい}",
+      "en": "Mammals"
+    },
+    "time-season": {
+      "ja": "{季節|きせつ}",
+      "en": "Seasons"
+    },
+    "furniture": {
+      "ja": "{家具|かぐ}",
+      "en": "Furniture"
+    },
+    "existence": {
+      "ja": "{存在|そんざい}",
+      "en": "Being & having"
+    },
+    "consumption": {
+      "ja": "{消費|しょうひ}",
+      "en": "Using & consuming"
+    },
+    "greeting": {
+      "ja": "{挨拶|あいさつ}",
+      "en": "Greetings"
+    },
+    "creation": {
+      "ja": "ものづくり",
+      "en": "Making things"
+    },
+    "animal-bird": {
+      "ja": "{鳥|とり}",
+      "en": "Birds"
+    },
+    "animal-insect": {
+      "ja": "{虫|むし}",
+      "en": "Insects"
+    },
+    "animal-fish": {
+      "ja": "{魚|さかな}",
+      "en": "Fish"
+    },
+    "person-name": {
+      "ja": "{人名|じんめい}",
+      "en": "People's names"
+    },
+    "proverb": {
+      "ja": "ことわざ",
+      "en": "Proverbs"
+    },
+    "plant-tree": {
+      "ja": "{木|き}",
+      "en": "Trees"
+    },
+    "plant-flower": {
+      "ja": "{花|はな}",
+      "en": "Flowers"
+    },
+    "organization-name": {
+      "ja": "{組織名|そしきめい}",
+      "en": "Organizations"
+    },
+    "work-name": {
+      "ja": "{作品名|さくひんめい}",
+      "en": "Titles of works"
+    },
+    "time-month": {
+      "ja": "{月|つき}",
+      "en": "Months"
+    },
+    "event-name": {
+      "ja": "{行事|ぎょうじ}・{出来事|できごと}",
+      "en": "Events"
+    },
+    "time-day-of-week": {
+      "ja": "{曜日|ようび}",
+      "en": "Days of the week"
+    },
+    "brand-name": {
+      "ja": "ブランド",
+      "en": "Brands"
+    }
+  }
+}
