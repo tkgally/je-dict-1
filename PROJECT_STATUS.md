@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-13 (candidates: 10 brainstorm candidates, ninth cycle of the run started 2026-11-12 23:36 UTC)
+
+One seeds batch (headwords 200–219): own proposals plus gpt-6.1-sol and gemini-3.8-flash ($0.09); 26 survived the filter, 10 added (羽田空港, 成田空港, 関西国際空港, 泣き声, 相合傘, 秋分の日, 折れ曲がる, 中ほど, 隙間風, 北国), 16 rejected (existing entries or variants, free phrases, compositional compounds, slang, one wrong reading). Unit kept small to fit the run clock; closure stream not run.
+
 ### 2026-11-12 (21 new entries, first cycle of the 23:36 UTC run)
 
 33460–33480. Closure: 土俵際, 理学療法士, 玉手箱, 国民主権, 虫垂炎, 片膝, 無念. Brainstorm: もう少し, 山ほど, いささか, ときたま, 年がら年中, よくよく, 並び (each cross-referenced to its seed). ezFurigana lookups: にしても (as にせよ), 年内, 寝泊まり, 柔和, 盗み見る, 迫害, 発出.
@@ -67,9 +71,4 @@ Self-check: 1 flag applied (the Book of Han mentions Wa before the Gishi Wajinde
 ### 2026-11-11 (candidates: 36 brainstorm candidates, ninth cycle of the 16:15 run)
 
 Field brand-name: 20 own proposals, 50 from gpt-6.1-sol, 50 from gemini-3.8-flash; 10 already entries, 63 vetted, 36 added (Suica, PASMO, ダイソー, ローソン, ファミリーマート, 吉野家, ケンタッキー, マクドナルド, 楽天, メルカリ, ペイペイ, and generic trademarks ウォシュレット, サランラップ, シーチキン, バンドエイド, マジックテープ, プリクラ, …), 27 rejected (foreign brands of little weight, Latin-script duplicates, dated). No unresolved noentry markers; no ezFurigana rows pending. Queue 330.
-
-### 2026-11-11 (14 new entries, sixth cycle of the 16:15 run)
-
-33426–33439. Closure: 具象画, 弘法にも筆の誤り, 二世, 対外的, 美声, 親分肌. Brainstorm: 卵巣, 胎盤, 腱, 卵子 (field body-internal). ezFurigana lookups: とする (as とされる), チープ, 毒見, 慟哭.
-Self-check: 4 flags applied (日系二世 is not an emigrant; 腱鞘炎 is tenosynovitis). New kanji 慟, 哭, 腱 added.
 
