@@ -154,9 +154,14 @@ def _generate_suru_forms(prefix: str) -> list:
     _SERU_POTENTIAL_STEMS keep the row.
     """
     p = prefix
+    # The stem is the whole prefix (愛), or, in a phrase verb, the kanji after the
+    # particle that ends the phrase (端を発 → 発, 危機を脱 → 脱): 端を発せる, not 端を発できる
+    # (conjugation check 2026-11-13).
+    plain = strip_furigana(prefix)
+    m = re.search(r'(?:^|[をにがでともへは])([\u4e00-\u9fff々])$', plain)
+    stem = m.group(1) if m else ''
     # A native (kun-read) noun stem takes できる like any noun: 噂できる.
-    is_single_kanji_stem = (len(strip_furigana(prefix)) == 1
-                            and strip_furigana(prefix) not in _KUN_NOUN_STEMS)
+    is_single_kanji_stem = bool(stem) and stem not in _KUN_NOUN_STEMS
     if is_single_kanji_stem:
         potential = {'label': 'Potential', 'affirmative': f'{p}せる', 'negative': f'{p}せない'}
     else:
@@ -180,7 +185,7 @@ def _generate_suru_forms(prefix: str) -> list:
         {'label': 'Causative', 'affirmative': f'{p}させる', 'negative': f'{p}させない'},
         {'label': 'Imperative', 'affirmative': f'{p}しろ', 'negative': f'{p}するな'},
     ]
-    if is_single_kanji_stem and strip_furigana(prefix) not in _SERU_POTENTIAL_STEMS:
+    if is_single_kanji_stem and stem not in _SERU_POTENTIAL_STEMS:
         forms = [f for f in forms if f['label'] != 'Potential']
     return forms
 
