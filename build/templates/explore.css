@@ -1,7 +1,10 @@
 /* Explore page (explore.html): the dictionary as a 3D word cloud.
-   Layout: the site's own nav bar on top; below it the cloud (a canvas) with the bar of places under it,
+   Wide layout: the site's own nav bar on top; below it the cloud (a canvas) with the bar of places under it,
    and to the right a panel for the arrangement, the selected word and the settings.
-   Every rule is scoped to #explore, so nothing here touches the site header. */
+   Compact layout (phones; the media query at the foot of this file): the cloud fills the page. The site's nav
+   bar, the settings and the list of places each open from a button floating over the cloud, and the selected
+   word is a sheet along the bottom that unfolds.
+   Every rule is scoped to #explore or to body.explore-body, and this file is loaded by explore.html alone. */
 body.explore-body { height: 100vh; height: 100dvh; display: flex; flex-direction: column; overflow: hidden }
 body.explore-body .nav-header { flex: none }
 #explore {
@@ -30,17 +33,20 @@ body.explore-body .nav-header { flex: none }
 #explore .btn:hover { border-color: var(--accent); color: var(--accent) }
 #explore .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600 }
 #explore .btn.primary:hover { color: var(--on-accent); filter: brightness(1.08) }
-#explore .btn[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent) }
+#explore .btn[aria-pressed="true"], #explore .btn[aria-expanded="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent) }
+#explore .btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none }
 
 #explore #xp-main { flex: 1; min-height: 0; display: flex; position: relative; max-width: none; margin: 0; padding: 0 }
 #explore #view { flex: 1; min-width: 0; display: flex; flex-direction: column }
 #explore .top-left { position: absolute; top: 10px; left: max(12px, env(safe-area-inset-left, 0px)); display: none; gap: 8px; align-items: center; z-index: 4 }
+#explore #btn-places { display: none }
 
 /* Right-hand panel: arrangement, selected word, settings. Nothing in it covers the cloud. */
 #explore #side { flex: none; width: 372px; background: var(--surface); border-left: 1px solid var(--border); overflow-y: auto; display: flex; flex-direction: column; padding-right: env(safe-area-inset-right, 0px) }
 #explore .side-top { position: sticky; top: 0; z-index: 2; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 16px }
 #explore #arr-no { color: var(--fg2); font-variant-numeric: tabular-nums; white-space: nowrap }
 #explore .side-h { font-size: 15px; font-weight: 600; margin: 0 }
+#explore #settings-close { display: none }
 #explore #detail-empty { margin: 0; padding: 14px 16px; color: var(--fg2); border-bottom: 1px solid var(--border) }
 
 /* Settings */
@@ -69,15 +75,16 @@ body.explore-body .nav-header { flex: none }
 #explore #detail .place-tag { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--fg2); border: 0; background: none; padding: 0 }
 #explore #detail .place-tag:hover { color: var(--accent) }
 #explore .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; display: inline-block }
-#explore #detail .close { position: absolute; top: 8px; right: 8px; border: 0; background: none; font-size: 20px; line-height: 1; padding: 4px 8px; border-radius: 4px; color: var(--fg2) }
-#explore #detail .close:hover { background: var(--accent-soft); color: var(--accent) }
+#explore .close { border: 0; background: none; font-size: 20px; line-height: 1; padding: 4px 8px; border-radius: 4px; color: var(--fg2) }
+#explore .close:hover { background: var(--accent-soft); color: var(--accent) }
+#explore #detail .close { position: absolute; top: 8px; right: 8px }
+#explore #detail .grab, #explore #detail .more-toggle { display: none }
 #explore #detail h2 { font-family: var(--font-jp); font-size: 34px; line-height: 1.5; margin: 16px 0 0; font-weight: 600; text-wrap: balance }
 #explore #detail .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; color: var(--fg2); font-size: 12px; margin-top: 2px }
 #explore .tier { border: 1px solid var(--border); border-radius: 999px; padding: 0 8px; font-size: 11px; letter-spacing: .04em; text-transform: uppercase }
 #explore #detail .gloss { font-size: 16px; margin: 8px 0 0 }
 #explore #detail h3 { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--fg2); margin: 14px 0 6px; font-weight: 600 }
 #explore .ex { display: grid; grid-template-columns: auto 1fr; gap: 2px 9px; align-items: start; padding: 7px 0; border-top: 1px solid var(--border) }
-#explore .ex:first-of-type { border-top: 0; padding-top: 0 }
 #explore .ex .ja { font-family: var(--font-jp); font-size: 17px; line-height: 1.9; min-width: 0 }
 #explore .ex .en { grid-column: 2; color: var(--fg2); font-size: 13px }
 #explore .play { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--border); background: var(--surface); display: grid; place-items: center; margin-top: 5px; padding: 0; color: var(--accent) }
@@ -123,20 +130,91 @@ body.explore-body .nav-header { flex: none }
 
 #explore #status { position: absolute; left: 50%; top: 42%; transform: translate(-50%, -50%); background: rgba(12,16,28,.78); color: #f4f6fa; border-radius: 8px; padding: 10px 18px; z-index: 2; text-align: center; max-width: min(80%, 420px) }
 
-@media (max-width: 760px) {
+/* ---------------------------------------------------------------- compact layout
+   The same query is in explore.js (compactMQ). */
+@media (max-width: 760px), (max-height: 520px) {
+  #explore { --edge-l: max(12px, env(safe-area-inset-left, 0px)); --edge-r: max(12px, env(safe-area-inset-right, 0px)); --edge-b: max(12px, env(safe-area-inset-bottom, 0px)); --card: min(360px, calc(100% - var(--edge-l) - var(--edge-r))) }
+  #explore .btn { min-height: 40px; padding: 8px 13px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; gap: 7px }
+  #explore .btn.icon { width: 40px; padding: 0 }
+  #explore button, body.explore-body .nav-header button, body.explore-body .nav-header a { touch-action: manipulation }   /* no double-tap zoom on the controls */
+  #explore #pad .thrust button { touch-action: none }
+  #explore .btn.primary { background: var(--glass); border-color: var(--border); color: var(--accent) }
   #explore .top-left { display: flex }
   #explore #side { display: contents }
-  #explore .side-top { position: absolute; top: 10px; right: max(12px, env(safe-area-inset-right, 0px)); z-index: 4; padding: 0; border: 0; background: none }
-  #explore #arr-no, #explore #detail-empty, #explore .side-h { display: none }
-  #explore #settings, #explore #detail { position: absolute; background: var(--glass); border: 1px solid var(--border); box-shadow: var(--shadow); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); overflow-y: auto }
-  #explore #settings { top: 52px; left: max(12px, env(safe-area-inset-left, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); max-height: calc(100% - 52px - var(--bar-h) - 16px); border-radius: 8px; padding: 12px 14px 14px; z-index: 6 }
-  #explore #detail { left: 0; right: 0; bottom: calc(var(--bar-h) + env(safe-area-inset-bottom, 0px)); max-height: 52%; border-radius: 12px 12px 0 0; border-width: 1px 0 0; z-index: 5;
-    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
-  #explore #detail h2 { font-size: 28px }
-  #explore #xp-main.has-detail #pad, #explore #xp-main.has-detail #hint { display: none }
-  #explore #pad { right: max(12px, env(safe-area-inset-right, 0px)) }
-  #explore #places { padding-right: max(12px, env(safe-area-inset-right, 0px)) }
-  #explore #hint { max-width: calc(100% - 130px); left: max(12px, env(safe-area-inset-left, 0px)); transform: none }
-  #explore .place .en { display: none }
+  #explore .side-top { position: absolute; top: 10px; right: calc(var(--edge-r) + var(--sheet-w, 0px)); z-index: 4; padding: 0; border: 0; background: none }
+  #explore #arr-no, #explore #detail-empty { display: none }
+  #explore input[type="search"] { font-size: 16px }          /* smaller text makes iOS zoom the page when the field is focused */
+
+  /* Site menu: the site's own header, as a card under the menu button */
+  body.explore-body { position: relative }
+  body.explore-body .nav-header { display: none; position: absolute; top: 60px; left: max(12px, env(safe-area-inset-left, 0px)); width: min(360px, calc(100% - 24px)); max-height: calc(100% - 72px); overflow-y: auto; z-index: 120;
+    flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-items: stretch; gap: 10px; padding: 12px;
+    border: 1px solid var(--color-border, #d9dde3); border-radius: 12px; box-shadow: 0 8px 28px rgba(15,23,42,.2) }
+  body.explore-body.xp-menu .nav-header { display: flex }
+  body.explore-body .nav-header .toggle-buttons { order: 1 }
+  body.explore-body .nav-header .header-search { flex: 1; min-width: 0 }
+  body.explore-body .nav-header .header-search-input, body.explore-body .nav-header .header-search-input:focus { flex: 1; width: auto; min-width: 0; font-size: 16px }
+  body.explore-body .nav-header .toggle-label { display: none }
+  body.explore-body .nav-header .nav-links { order: 2; width: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2px 8px }
+  body.explore-body .nav-header .nav-link { display: flex; align-items: center; min-height: 44px; padding: 4px 12px; font-size: 1rem }
+  body.explore-body .nav-header .nav-home::after { content: 'Home' }
+
+  /* Settings and the list of places: cards over the cloud */
+  #explore #settings, #explore #places, #explore #detail { position: absolute; background: var(--glass); border: 1px solid var(--border); box-shadow: var(--shadow); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px) }
+  #explore #settings { top: 60px; left: var(--edge-l); width: var(--card); max-height: calc(100% - 72px); overflow-y: auto; border-radius: 12px; padding: 8px 14px 14px; z-index: 6 }
+  #explore .panel-h { display: flex; align-items: center; justify-content: space-between; margin-right: -8px }
+  #explore #settings-close { display: block; width: 40px; height: 40px; padding: 0; font-size: 24px }
+  #explore #btn-places { display: inline-flex; position: absolute; left: var(--edge-l); bottom: calc(var(--edge-b) + var(--sheet-h, 0px)); max-width: calc(100% - 150px - var(--sheet-w, 0px)); z-index: 3; border-radius: 999px; padding: 0 12px 0 11px; transition: bottom .26s ease }
+  #explore #btn-places .ja { font-family: var(--font-jp); font-weight: 600 }
+  #explore #btn-places .en { color: var(--fg2); font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; min-width: 0 }
+  #explore #btn-places svg { width: 13px; height: 13px; transition: transform .2s }
+  #explore #btn-places[aria-expanded="true"] svg { transform: rotate(180deg) }
+  #explore #places { display: none; left: var(--edge-l); bottom: calc(var(--edge-b) + 48px + var(--sheet-h, 0px)); width: min(300px, calc(100% - var(--edge-l) - var(--edge-r))); height: auto; max-height: calc(100% - 130px - var(--sheet-h, 0px)); overflow: hidden auto;
+    flex-direction: column; align-items: stretch; gap: 1px; padding: 8px; border-radius: 12px; z-index: 6 }
+  #explore #xp-main.places-open #places { display: flex }
+  #explore #places .lab { padding: 3px 8px 6px; margin: 0 }
+  #explore .place { border: 0; background: none; border-radius: 8px; padding: 0 9px; min-height: 40px; gap: 9px }
+  #explore .place:hover, #explore .place[aria-current="true"] { background: var(--accent-soft) }
+  #explore .place .en { flex: 1; text-align: left; overflow: hidden; text-overflow: ellipsis; min-width: 0 }
+
+  /* Flight pad and hint */
+  #explore #pad { right: calc(var(--edge-r) + var(--sheet-w, 0px)); bottom: calc(var(--edge-b) + var(--sheet-h, 0px)); transition: bottom .26s ease }
+  #explore #hint { top: 60px; bottom: auto; left: var(--edge-l); right: calc(var(--edge-r) + var(--sheet-w, 0px)); transform: none; width: fit-content; max-width: none; margin: 0 auto; white-space: normal; text-align: center; border-radius: 14px }
+
+  /* Word card: a sheet along the bottom. Its head (word, reading, meaning) always shows; the rest unfolds. */
+  #explore #detail { left: 0; right: 0; bottom: 0; max-height: min(74%, 620px); display: flex; flex-direction: column; overflow: hidden; padding: 0; border-radius: 16px 16px 0 0; border-width: 1px 0 0; z-index: 5; animation: xp-rise .26s ease-out }
+  #explore #detail .head { position: relative; flex: none; padding: 0 max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px)); touch-action: none }
+  #explore #detail .grab { display: block; padding: 8px 0 6px; cursor: pointer }
+  #explore #detail .grab::before { content: ''; display: block; width: 38px; height: 4px; border-radius: 2px; background: #c2c8d1; margin: 0 auto }
+  #explore #detail .close { top: 10px; right: 8px; width: 40px; height: 40px; padding: 0; font-size: 24px }
+  #explore #detail .place-tag { min-height: 24px; padding-right: 44px }
+  #explore #detail h2 { font-size: 28px; line-height: 1.45; margin: 4px 44px 0 0 }
+  #explore #detail .gloss { margin-top: 5px }
+  #explore #detail .more-toggle { display: flex; align-items: center; justify-content: center; gap: 7px; width: 100%; min-height: 38px; margin-top: 10px; padding: 0 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--accent); font-weight: 600 }
+  #explore #detail .more-toggle svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s }
+  #explore #detail .more-toggle[aria-expanded="true"] svg { transform: rotate(180deg) }
+  #explore #detail .more-wrap { flex: 0 1 auto; min-height: 0; display: grid; grid-template-rows: 0fr; transition: grid-template-rows .28s ease }
+  #explore #detail .more { min-height: 0; overflow: hidden; visibility: hidden; transition: visibility 0s .28s;
+    padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)) }
+  #explore #detail .more > h3:first-child { margin-top: 6px }
+  #explore #xp-main.sheet-open #detail .more-wrap { grid-template-rows: 1fr }
+  #explore #xp-main.sheet-open #detail .more { visibility: visible; overflow-y: auto; overscroll-behavior: contain; transition: none; padding-bottom: max(18px, env(safe-area-inset-bottom, 0px)) }
+  #explore #xp-main.sheet-open #pad, #explore #xp-main.sheet-open #btn-places, #explore #xp-main.sheet-open #places { visibility: hidden }
+  #explore .conns button, #explore .conns a { min-height: 36px; align-items: center }
+  #explore .entry-link { padding: 6px 0 }
 }
-@media (prefers-reduced-motion: reduce) { #explore #hint { transition: none } }
+/* A short, wide window (a phone held sideways): the word card stands on the right instead, in full. */
+@media (max-height: 520px) and (min-width: 600px) {
+  #explore #detail { left: auto; right: var(--edge-r); top: 10px; bottom: 10px; width: min(340px, 44%); max-height: none; display: block; overflow-y: auto; border-width: 1px; border-radius: 12px; animation-name: xp-slide }
+  #explore #detail .head { touch-action: auto; padding-top: 12px }
+  #explore #detail .grab, #explore #detail .more-toggle { display: none }
+  #explore #detail .more-wrap { display: block }
+  #explore #detail .more, #explore #xp-main.sheet-open #detail .more { visibility: visible; overflow: visible; padding-bottom: 16px }
+  #explore #xp-main.sheet-open #pad, #explore #xp-main.sheet-open #btn-places, #explore #xp-main.sheet-open #places { visibility: visible }
+}
+@keyframes xp-rise { from { transform: translateY(100%) } }
+@keyframes xp-slide { from { transform: translateX(105%) } }
+@media (prefers-reduced-motion: reduce) {
+  #explore #hint, #explore #btn-places, #explore #pad, #explore #detail .more-wrap, #explore #detail .more, #explore .btn svg { transition: none }
+  #explore #detail { animation: none }
+}

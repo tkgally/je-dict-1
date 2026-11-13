@@ -59,6 +59,10 @@ One seeds batch (headwords 200–219): own proposals plus gpt-6.1-sol and gemini
 33460–33480. Closure: 土俵際, 理学療法士, 玉手箱, 国民主権, 虫垂炎, 片膝, 無念. Brainstorm: もう少し, 山ほど, いささか, ときたま, 年がら年中, よくよく, 並び (each cross-referenced to its seed). ezFurigana lookups: にしても (as にせよ), 年内, 寝泊まり, 柔和, 盗み見る, 迫害, 発出.
 Self-check: clean (0 of 21 flagged; 18 kana links judged, 0 flagged). New candidates: 作業療法士, 乙姫.
 
+### 2026-11-13 (Explore page: phone layout, smooth flight to a clicked word)
+
+On a phone the cloud now fills the page. The site header opens from a menu button, the settings from a Settings button, the places from one button that names the current place; the selected word is a short sheet along the bottom (word, reading, meaning) that unfolds to the examples and connections. Held sideways, the word card stands on the right. On every screen a click on a word now turns the view toward it and then flies in, over 1.7 to 4.6 seconds, along a path that goes around the word rather than through it; with the system's reduced-motion setting the old view dissolves into the new one. Only `build/templates/explore.{html,css,js}` changed.
+
 ### 2026-11-12 (Explore page: the dictionary as a 3D word cloud)
 
 `explore.html` replaces Browse in every header; the alphabetical listing is now linked from the Lists page. Places are the 90 semantic tags (`explore/tags.json`) until curated groups (`explore/groups/`) replace them; connections are the entries' cross-references. New Routine mode `explore-groups` (weight 0.12, `prompts/explore_groups.md`) writes the curated groups; the other weights were scaled by 0.88. See CLAUDE.md, "Explore page".

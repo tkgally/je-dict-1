@@ -112,6 +112,10 @@ alphabetical listing is now reached from the Lists page) shows the dictionary as
 *places*, each a sign with a dozen or so words around it, and lines between words that
 cross-reference each other. It has no dependencies (`build/templates/explore.js`, one canvas).
 The Explore link on an entry page opens the cloud around that entry (`explore.html?w=<id>`).
+On a phone (or any window at most 760px wide or 520px high) the cloud fills the page: the site
+header, the settings and the list of places open from buttons floating over it, and the selected
+word is a sheet along the bottom that unfolds (`explore.css`, the media query at its foot;
+`compactMQ` in `explore.js`).
 
 - **Places.** Every semantic tag is a place (`explore/tags.json` names each in Japanese, with
   furigana, and in English). `explore/groups/<tag>.json` holds **curated groups**: finer places of
