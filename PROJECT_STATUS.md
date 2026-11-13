@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-13 (20 new entries, first cycle of the 16:15 UTC run)
+
+33481–33500. Closure: 酒樽, 過料, 着回す, 国外退去, 御託宣, 文部省, 竜宮城. Brainstorm: ずる休み, 所持金, 時は金なり, 大学入試, 国立大学, 軒を並べる, 上野公園 (each cross-referenced to its seed). ezFurigana lookups: ばかりに, 離れ, 半球, 場末, バラ色, 伴走.
+Self-check: 2 notes flags applied (旧帝大 are not the oldest national universities; 繁華街 described correctly); 17 kana links judged, 0 flagged. New candidates: 母屋, 仮病.
+
 ### 2026-11-13 (candidates: 10 brainstorm candidates, ninth cycle of the run started 2026-11-12 23:36 UTC)
 
 One seeds batch (headwords 200–219): own proposals plus gpt-6.1-sol and gemini-3.8-flash ($0.09); 26 survived the filter, 10 added (羽田空港, 成田空港, 関西国際空港, 泣き声, 相合傘, 秋分の日, 折れ曲がる, 中ほど, 隙間風, 北国), 16 rejected (existing entries or variants, free phrases, compositional compounds, slang, one wrong reading). Unit kept small to fit the run clock; closure stream not run.
@@ -66,13 +71,4 @@ On a phone the cloud now fills the page. The site header opens from a menu butto
 ### 2026-11-12 (Explore page: the dictionary as a 3D word cloud)
 
 `explore.html` replaces Browse in every header; the alphabetical listing is now linked from the Lists page. Places are the 90 semantic tags (`explore/tags.json`) until curated groups (`explore/groups/`) replace them; connections are the entries' cross-references. New Routine mode `explore-groups` (weight 0.12, `prompts/explore_groups.md`) writes the curated groups; the other weights were scaled by 0.88. See CLAUDE.md, "Explore page".
-
-### 2026-11-12 (20 new entries, second cycle of the 00:15 run)
-
-33440–33459. Closure: 八十八箇所, 南無阿弥陀仏, 本願寺, 人物画, 魏志倭人伝, 岩倉具視, 大久保利通. Brainstorm: 網膜, 角膜, 血流, はらわた, アキレス腱, 五臓六腑, 脳みそ (field body-internal). ezFurigana lookups: 生半可, 難産, いつ何時 (as 何時), 肉親, にして, 日本的.
-Self-check: 1 flag applied (the Book of Han mentions Wa before the Gishi Wajinden). New kanji 倭, 魏 added. Cycle 1 (polish) retired 16888 振付 as a spelling duplicate of 12880 振り付け.
-
-### 2026-11-11 (candidates: 36 brainstorm candidates, ninth cycle of the 16:15 run)
-
-Field brand-name: 20 own proposals, 50 from gpt-6.1-sol, 50 from gemini-3.8-flash; 10 already entries, 63 vetted, 36 added (Suica, PASMO, ダイソー, ローソン, ファミリーマート, 吉野家, ケンタッキー, マクドナルド, 楽天, メルカリ, ペイペイ, and generic trademarks ウォシュレット, サランラップ, シーチキン, バンドエイド, マジックテープ, プリクラ, …), 27 rejected (foreign brands of little weight, Latin-script duplicates, dated). No unresolved noentry markers; no ezFurigana rows pending. Queue 330.
 
