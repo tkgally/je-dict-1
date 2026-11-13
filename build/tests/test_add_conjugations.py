@@ -128,6 +128,15 @@ class IrregularFormTests(unittest.TestCase):
         self.assertEqual(_forms("{察|さっ}する", "さっする", pos="verb-suru")["Potential"]["affirmative"],
                          "{察|さっ}せる")
 
+    def test_phrase_final_single_kanji_suru(self):
+        # 端を発する: the stem is 発 after the particle, so 端を発せる, not 端を発できる
+        f = _forms("{端|たん}を{発|はっ}する", "たんをはっする", pos="verb-suru")
+        self.assertEqual(f["Potential"]["affirmative"], "{端|たん}を{発|はっ}せる")
+        self.assertNotIn("Potential", _forms("{死|し}に{値|あたい}する", "しにあたいする", pos="verb-suru"))
+        # a katakana loan + 化 keeps できる
+        self.assertEqual(_forms("デジタル{化|か}する", "でじたるかする", pos="verb-suru")["Potential"]["affirmative"],
+                         "デジタル{化|か}できる")
+
 
 class AdjectiveTests(unittest.TestCase):
     def test_kawaii_compounds_are_regular(self):
