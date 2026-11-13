@@ -3,12 +3,14 @@
   <main id="xp-main">
     <div id="view">
       <div id="stage">
-        <canvas id="cv" tabindex="0" aria-label="Three-dimensional word cloud. Drag to look around, use W A S D to fly, click a word to open it. The bar of places below the cloud lists every group shown."></canvas>
+        <canvas id="cv" tabindex="0" aria-label="Three-dimensional word cloud. Drag to look around, use W A S D to fly, click a word to open it. The list of places names every group shown."></canvas>
         <div id="status" role="status">Gathering words…</div>
         <div class="top-left">
+          <button class="btn icon" id="btn-menu" aria-expanded="false" aria-label="Site menu: search and the other pages"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 4h11M2.5 8h11M2.5 12h11"/></svg></button>
           <button class="btn" id="btn-settings" aria-pressed="false" aria-controls="settings">Settings</button>
         </div>
         <div id="hint"></div>
+        <button class="btn" id="btn-places" aria-expanded="false" aria-controls="places" hidden><span class="dot"></span><span class="ja" lang="ja"></span><span class="en"></span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 10l5-5 5 5"/></svg></button>
         <div id="pad">
           <button class="btn" id="btn-tour" aria-pressed="false">Tour</button>
           <div class="thrust">
@@ -28,7 +30,7 @@
       <section id="detail" aria-label="Selected word" hidden></section>
       <p id="detail-empty">Click a word in the cloud to see its reading, meaning, examples and connections here.</p>
       <section id="settings" aria-label="Settings">
-      <h2 class="side-h">Settings</h2>
+      <div class="panel-h"><h2 class="side-h">Settings</h2><button class="close" id="settings-close" aria-label="Close the settings">×</button></div>
       <div class="field">
         <label for="find">Find a word in this cloud</label>
         <input type="search" id="find" placeholder="Japanese, kana or English" autocomplete="off">

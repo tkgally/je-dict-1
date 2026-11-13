@@ -543,7 +543,8 @@ function puffSprites() {
 
 /* ------------------------------------------------------------------ camera + renderer */
 const cv = $('cv'), ctx = cv.getContext('2d', { alpha: false }), stage = $('stage'), main = $('xp-main');
-const narrowMQ = matchMedia('(max-width: 760px)'), isNarrow = () => narrowMQ.matches;
+// Compact layout (phones, and any window too short for the side panel): the cloud fills the page and everything else floats over it.
+const compactMQ = matchMedia('(max-width: 760px), (max-height: 520px)'), isCompact = () => compactMQ.matches;
 const cam = { x: 0, y: 0, z: -600, yaw: 0, pitch: 0 };
 const vel = { x: 0, y: 0, z: 0 };
 let W = 1, H = 1, U = 1, F = 600, CX = 0, CY = 0, cxT = 0, cyT = 0, quality = 1;
@@ -576,9 +577,12 @@ function resize() {
   viewCenter(true); dirty = true;
 }
 function viewCenter(snap) {
-  const r = stage.getBoundingClientRect(); let bot = r.height;
-  if (isNarrow() && !$('detail').hidden) bot = Math.max(120, $('detail').getBoundingClientRect().top - r.top);
-  cxT = r.width / 2 * U; cyT = bot / 2 * U;
+  const r = stage.getBoundingClientRect(), d = $('detail'); let sw = 0, sh = 0;
+  if (isCompact() && !d.hidden) {                 // the word card covers part of the cloud (a sheet along the bottom, or a card on the right): centre what is left
+    if (d.offsetWidth > r.width * 0.8) sh = Math.min(d.offsetHeight, r.height - 110); else sw = Math.min(r.width - d.offsetLeft, r.width - 110);
+  }
+  main.style.setProperty('--sheet-h', sh + 'px'); main.style.setProperty('--sheet-w', sw + 'px');
+  cxT = (r.width - sw) / 2 * U; cyT = (r.height - sh) / 2 * U;
   if (snap) { CX = cxT; CY = cyT; }
 }
 
@@ -720,6 +724,7 @@ function render() {
   }
   ctx.globalAlpha = 1;
   if (selected) { const it = scene.labels.get(selected.id); if (it) drawBillboard(it, true); }
+  if (fade) { ctx.globalAlpha = clamp(fade.a, 0, 1); ctx.drawImage(fade.c, 0, 0, W, H); ctx.globalAlpha = 1; }
 }
 function triPath(x1, y1, x2, y2, x3, y3) {      // a triangle grown by a fraction of a pixel, so neighbours leave no hairline gaps
   const mx = (x1 + x2 + x3) / 3, my = (y1 + y2 + y3) / 3, e = 0.8;
@@ -929,14 +934,24 @@ function drawRoof(b, t, fog) {                 // pitched tile roofs: a gable (t
 /* ------------------------------------------------------------------ flight */
 const keys = Object.create(null);
 let fly = null, orbit = null, tourIdx = 0;
-const ease = t => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+const ease = t => t * t * t * (t * (6 * t - 15) + 10);          // gentle start, gentle stop
+const angDiff = (a, b) => { let d = (a - b) % TAU; if (d > Math.PI) d -= TAU; if (d < -Math.PI) d += TAU; return d; };
 function look(from, to) { const dx = to.x - from.x, dy = to.y - from.y, dz = to.z - from.z; return { yaw: Math.atan2(dx, dz), pitch: Math.atan2(dy, Math.hypot(dx, dz)) }; }
 function groundClamp(p) { if (!scene) return; let m = scene.minY; if (scene.height) m = scene.height(p.x, p.z) + 14; if (p.y < m) p.y = m; }
+// Fly to pos and end up looking at target. The camera travels around the target (its bearing and its distance from
+// the target both change smoothly, so it never passes through or over it) and turns toward it a little ahead of the
+// travel: a word that was clicked glides to the middle of the view and then comes closer.
+let fade = null;                                // reduced motion: the old view dissolves into the new one instead
 function flyTo(pos, target, then) {
   groundClamp(pos);
-  const a = look(pos, target), d = Math.hypot(pos.x - cam.x, pos.y - cam.y, pos.z - cam.z);
+  const r0 = Math.hypot(cam.x - target.x, cam.z - target.z), r1 = Math.hypot(pos.x - target.x, pos.z - target.z);
+  const th0 = Math.atan2(cam.x - target.x, cam.z - target.z), dth = r0 > 1 ? angDiff(Math.atan2(pos.x - target.x, pos.z - target.z), th0) : 0;
+  const l0 = look(cam, target), oy = angDiff(cam.yaw, l0.yaw), op = cam.pitch - l0.pitch;
+  const len = Math.hypot(r1 - r0, pos.y - cam.y) + Math.abs(dth) * (r0 + r1) / 2;
   layoutStuck = 0;
-  fly = { from: { ...cam }, to: { ...pos, yaw: a.yaw, pitch: a.pitch }, t: 0, dur: reduceMotion ? 0.01 : clamp(d / 520, 1.1, 3.6), then };
+  if (reduceMotion && scene && W > 1) { const c = document.createElement('canvas'); c.width = W; c.height = H; c.getContext('2d').drawImage(cv, 0, 0); fade = { c, a: 1 }; }
+  fly = { target: { ...target }, r0, r1, th0: r0 > 1 ? th0 : Math.atan2(pos.x - target.x, pos.z - target.z), dth, y0: cam.y, y1: pos.y, oy, op, t: 0,
+    dur: reduceMotion ? 0.01 : clamp(0.8 + len / 560 + Math.hypot(oy, op) * 0.8, 1.7, 4.6), then };
   orbit = null; vel.x = vel.y = vel.z = 0;
 }
 function overview(G) {
@@ -971,12 +986,13 @@ function update(dt) {
   const kf = (keys.KeyW ? 1 : 0) - (keys.KeyS ? 1 : 0), kr = (keys.KeyD ? 1 : 0) - (keys.KeyA ? 1 : 0), ku = (keys.KeyR || keys.KeyE ? 1 : 0) - (keys.KeyF || keys.KeyQ ? 1 : 0);
   const kt = (keys.ArrowRight ? 1 : 0) - (keys.ArrowLeft ? 1 : 0), kp = (keys.ArrowUp ? 1 : 0) - (keys.ArrowDown ? 1 : 0);
   if (kf || kr || ku || kt || kp) userFlying();
+  if (fade) { fade.a -= dt / 0.45; if (fade.a <= 0) fade = null; dirty = true; }
   if (fly) {
-    fly.t = Math.min(1, fly.t + dt / fly.dur); const e = ease(fly.t), a = fly.from, b = fly.to;
-    cam.x = lerp(a.x, b.x, e); cam.y = lerp(a.y, b.y, e); cam.z = lerp(a.z, b.z, e);
-    let dy = (b.yaw - a.yaw) % TAU; if (dy > Math.PI) dy -= TAU; if (dy < -Math.PI) dy += TAU;
-    cam.yaw = a.yaw + dy * e; cam.pitch = lerp(a.pitch, b.pitch, e);
+    fly.t = Math.min(1, fly.t + dt / fly.dur); const e = ease(fly.t), turned = ease(Math.min(1, fly.t / 0.7)), T = fly.target;
+    const th = fly.th0 + fly.dth * e, r = lerp(fly.r0, fly.r1, e);
+    cam.x = T.x + Math.sin(th) * r; cam.z = T.z + Math.cos(th) * r; cam.y = lerp(fly.y0, fly.y1, e);
     groundClamp(cam);
+    const l = look(cam, T); cam.yaw = l.yaw + fly.oy * (1 - turned); cam.pitch = clamp(l.pitch + fly.op * (1 - turned), -1.35, 1.35);
     if (fly.t >= 1) { const th = fly.then; fly = null; if (th) th(); }
     dirty = true; return;
   }
@@ -1019,6 +1035,7 @@ const pointers = new Map(); let drag = null, pinch = 0;
 const pos = e => { const r = cv.getBoundingClientRect(); return { x: (e.clientX - r.left) * U, y: (e.clientY - r.top) * U }; };
 function hitTest(x, y) { for (let i = hits.length - 1; i >= 0; i--) { const h = hits[i]; if (x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h) return h.it; } return null; }
 cv.addEventListener('pointerdown', e => {
+  if (panel) setPanel(null);
   cv.setPointerCapture(e.pointerId); const p = pos(e); pointers.set(e.pointerId, p);
   if (pointers.size === 1) drag = { x: p.x, y: p.y, moved: 0 }; else { drag = null; pinch = 0; }
 });
@@ -1050,7 +1067,7 @@ cv.addEventListener('wheel', e => { e.preventDefault(); userFlying(); const k = 
 const FLY_KEYS = new Set(['KeyW', 'KeyA', 'KeyS', 'KeyD', 'KeyR', 'KeyF', 'KeyQ', 'KeyE', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'ShiftLeft', 'ShiftRight']);
 window.addEventListener('keydown', e => {
   const t = e.target; if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
-  if (e.code === 'Escape' && selected) { closeDetail(); return; }
+  if (e.code === 'Escape' && (panel || selected)) { if (panel) setPanel(null); else closeDetail(); return; }
   if (e.metaKey || e.ctrlKey || e.altKey) return;
   if (FLY_KEYS.has(e.code)) { keys[e.code] = true; if (e.code.startsWith('Arrow')) e.preventDefault(); }
 });
@@ -1075,27 +1092,33 @@ function playExample(url, btn, note) {
   player.src = url; playingBtn = btn; btn.classList.add('on');
   const p = player.play(); if (p && p.catch) p.catch(failed);
 }
+const CHEVRON = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 10l5-5 5 5"/></svg>';
+let sheetOpen = false;                        // compact layout: is the word card unfolded (examples, connections) or only its head showing?
+function setSheet(open) { sheetOpen = open; main.classList.toggle('sheet-open', open); const b = $('detail').querySelector('.more-toggle'); if (b) b.setAttribute('aria-expanded', String(open)); }
 function selectWord(w) {
   selected = w; if (S.tour) { S.tour = false; syncTour(); }
-  const it = scene.labels.get(w.id), d = $('detail'); d.textContent = ''; d.hidden = false; $('detail-empty').hidden = true; main.classList.add('has-detail'); d.scrollTop = 0; $('side').scrollTop = 0;
-  const close = el('button', 'close', '×'); close.setAttribute('aria-label', 'Close'); close.onclick = closeDetail; d.appendChild(close);
-  if (it) { const tag = el('button', 'place-tag'); const dot = el('span', 'dot'); dot.style.background = `hsl(${it.G.hue} 65% 45%)`; const tj = el('span', null, plain(it.G.g.ja)); tj.lang = 'ja'; tag.append(dot, tj, document.createTextNode(' · ' + it.G.g.en)); tag.onclick = () => gotoGroup(it.G); d.appendChild(tag); }
-  const h = rubyInto(el('h2'), w.hw); h.lang = 'ja'; d.appendChild(h);
-  const meta = el('div', 'meta'); const rd = el('span', null, w.r); rd.lang = 'ja'; meta.append(rd, el('span', null, '·'), el('span', null, w.pos), el('span', 'tier', w.t)); d.appendChild(meta);
-  d.appendChild(el('p', 'gloss', w.g));
+  setPanel(null);
+  const it = scene.labels.get(w.id), d = $('detail'); d.textContent = ''; d.hidden = false; $('detail-empty').hidden = true; main.classList.add('has-detail'); $('side').scrollTop = 0;
+  const head = el('div', 'head'), more = el('div', 'more'), wrap = el('div', 'more-wrap'); wrap.appendChild(more);
+  const grab = el('div', 'grab'); grab.setAttribute('aria-hidden', 'true'); grab.onclick = () => setSheet(!sheetOpen); head.appendChild(grab);
+  const close = el('button', 'close', '×'); close.setAttribute('aria-label', 'Close'); close.onclick = closeDetail; head.appendChild(close);
+  if (it) { const tag = el('button', 'place-tag'); const dot = el('span', 'dot'); dot.style.background = `hsl(${it.G.hue} 65% 45%)`; const tj = el('span', null, plain(it.G.g.ja)); tj.lang = 'ja'; tag.append(dot, tj, document.createTextNode(' · ' + it.G.g.en)); tag.onclick = () => gotoGroup(it.G); head.appendChild(tag); }
+  const h = rubyInto(el('h2'), w.hw); h.lang = 'ja'; head.appendChild(h);
+  const meta = el('div', 'meta'); const rd = el('span', null, w.r); rd.lang = 'ja'; meta.append(rd, el('span', null, '·'), el('span', null, w.pos), el('span', 'tier', w.t)); head.appendChild(meta);
+  head.appendChild(el('p', 'gloss', w.g));
   if (w.ex.length) {
-    d.appendChild(el('h3', null, w.ex.length > 1 ? 'Examples' : 'Example'));
+    more.appendChild(el('h3', null, w.ex.length > 1 ? 'Examples' : 'Example'));
     const note = el('p', 'audio-note'); note.hidden = true;
     for (const x of w.ex) {
       const row = el('div', 'ex'); const b = el('button', 'play'); b.innerHTML = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 1.2v9.6L10.5 6z"/></svg>'; b.setAttribute('aria-label', 'Play the recording');
       if (x.a) b.onclick = () => playExample(x.a, b, note); else b.disabled = true;
-      const ja = rubyInto(el('div', 'ja'), x.ja); ja.lang = 'ja'; row.append(b, ja, el('div', 'en', x.en)); d.appendChild(row);
+      const ja = rubyInto(el('div', 'ja'), x.ja); ja.lang = 'ja'; row.append(b, ja, el('div', 'en', x.en)); more.appendChild(row);
     }
-    d.appendChild(note);
+    more.appendChild(note);
   }
   const conns = w.x.slice().sort((a, b) => (scene.labels.has(b.id) ? 1 : 0) - (scene.labels.has(a.id) ? 1 : 0));
   if (conns.length) {
-    d.appendChild(el('h3', null, 'Connections')); const box = el('div', 'conns');
+    more.appendChild(el('h3', null, 'Connections')); const box = el('div', 'conns');
     for (const c of conns.slice(0, 10)) {
       const here = scene.labels.has(c.id), b = el(here ? 'button' : 'a'); const ww = rubyInto(el('span', 'w'), c.hw); ww.lang = 'ja';
       b.append(el('span', 'rel', REL[c.type] || 'related'), ww, el('span', 'g', c.g));
@@ -1103,19 +1126,33 @@ function selectWord(w) {
       else { b.href = entryUrl(c.id); b.target = '_blank'; b.rel = 'noopener'; b.title = 'Not in this cloud: opens the entry'; }
       box.appendChild(b);
     }
-    d.appendChild(box);
+    more.appendChild(box);
   }
   const others = w.grp.filter(g => (!it || g !== it.G.g.id) && PLACES.has(g));
   if (others.length) {
-    d.appendChild(el('h3', null, 'Also belongs to')); const box = el('div', 'also');
+    more.appendChild(el('h3', null, 'Also belongs to')); const box = el('div', 'also');
     for (const gid of others) { const g = PLACES.get(gid), G = arr.groups.find(x => x.g.id === gid), c = el(G ? 'button' : 'span'); const j = el('span', null, plain(g.ja)); j.lang = 'ja'; c.append(j, document.createTextNode(g.en)); if (G) { c.type = 'button'; c.onclick = () => gotoGroup(G); } box.appendChild(c); }
-    d.appendChild(box);
+    more.appendChild(box);
   }
   const a = el('a', 'entry-link', 'Open the full entry');
-  a.href = entryUrl(w.id); a.target = '_blank'; a.rel = 'noopener'; d.appendChild(a);
+  a.href = entryUrl(w.id); a.target = '_blank'; a.rel = 'noopener'; more.appendChild(a);
+  const what = [w.ex.length ? (w.ex.length > 1 ? 'examples' : 'example') : '', conns.length ? 'connections' : ''].filter(Boolean).join(' and ') || 'more';
+  const tg = el('button', 'more-toggle'); tg.type = 'button'; tg.appendChild(el('span', null, what[0].toUpperCase() + what.slice(1))); tg.insertAdjacentHTML('beforeend', CHEVRON); tg.onclick = () => setSheet(!sheetOpen); head.appendChild(tg);
+  d.append(head, wrap); setSheet(sheetOpen);
   viewCenter(false); gotoWord(w); dirty = true;
 }
-function closeDetail() { selected = null; $('detail').hidden = true; $('detail-empty').hidden = false; main.classList.remove('has-detail'); stopAudio(); viewCenter(false); dirty = true; }
+function closeDetail() { selected = null; $('detail').hidden = true; $('detail-empty').hidden = false; main.classList.remove('has-detail'); setSheet(false); stopAudio(); viewCenter(false); dirty = true; }
+// The bottom sheet answers to a swipe on its head: up unfolds it, down folds it, down again closes it.
+const sheetAtBottom = () => isCompact() && !$('detail').hidden && $('detail').offsetWidth > stage.clientWidth * 0.8;
+let swipe = null, swipedAt = 0;
+$('detail').addEventListener('pointerdown', e => { swipe = sheetAtBottom() && e.target.closest('.head') ? { y: e.clientY, id: e.pointerId } : null; });
+window.addEventListener('pointerup', e => {
+  if (!swipe || swipe.id !== e.pointerId) return; const dy = e.clientY - swipe.y; swipe = null; if (Math.abs(dy) < 28) return;
+  swipedAt = performance.now(); if (dy < 0) setSheet(true); else if (sheetOpen) setSheet(false); else closeDetail();
+});
+window.addEventListener('pointercancel', () => { swipe = null; });
+$('detail').addEventListener('click', e => { if (performance.now() - swipedAt < 400) { e.stopPropagation(); e.preventDefault(); } }, true);   // a swipe that began on a button is not a press
+new ResizeObserver(() => { viewCenter(false); dirty = true; }).observe($('detail'));
 
 /* ------------------------------------------------------------------ controls */
 function segControl(id, opts, get, set) {
@@ -1131,7 +1168,12 @@ function chipControl(id, opts, obj, onChange) {
     box.appendChild(b);
   }
 }
-function markPlaces() { for (const b of $('places').querySelectorAll('.place')) b.setAttribute('aria-current', String(activeGroup && b.dataset.g === activeGroup.g.id)); }
+function markPlaces() {
+  for (const b of $('places').querySelectorAll('.place')) b.setAttribute('aria-current', String(activeGroup && b.dataset.g === activeGroup.g.id));
+  const pill = $('btn-places'), G = activeGroup; pill.hidden = !G; if (!G) return;       // compact layout: one button names the place and opens the list
+  pill.children[0].style.background = `hsl(${G.hue} 65% 45%)`; pill.children[1].textContent = plain(G.g.ja); pill.children[2].textContent = G.g.en;
+  pill.setAttribute('aria-label', `Places. Now at ${G.g.en}`);
+}
 function fillPlaces() {
   const box = $('places'); box.textContent = ''; box.appendChild(el('span', 'lab', 'Places'));
   for (const G of arr.groups) {
@@ -1139,11 +1181,19 @@ function fillPlaces() {
     const dot = el('span', 'dot'); dot.style.background = `hsl(${G.hue} 65% 45%)`;
     const ja = el('span', 'ja', plain(G.g.ja)); ja.lang = 'ja';
     b.append(dot, ja, el('span', 'en', G.g.en), el('span', 'n', String(G.words.length)));
-    b.onclick = () => { if (S.tour) { S.tour = false; syncTour(); } gotoGroup(G); hideHint(); };
+    b.onclick = () => { if (S.tour) { S.tour = false; syncTour(); } setPanel(null); gotoGroup(G); hideHint(); };
     box.appendChild(b);
   }
 }
 function syncTour() { $('btn-tour').setAttribute('aria-pressed', String(S.tour)); $('btn-tour').textContent = S.tour ? 'Touring' : 'Tour'; }
+let panel = null;                             // compact layout: which panel is open over the cloud ('menu', 'settings', 'places'), if any
+function setPanel(name) {
+  panel = name;
+  document.body.classList.toggle('xp-menu', panel === 'menu'); $('btn-menu').setAttribute('aria-expanded', String(panel === 'menu'));
+  $('settings').hidden = isCompact() && panel !== 'settings'; $('btn-settings').setAttribute('aria-pressed', String(panel === 'settings'));
+  main.classList.toggle('places-open', panel === 'places'); $('btn-places').setAttribute('aria-expanded', String(panel === 'places'));
+}
+const togglePanel = name => { setPanel(panel === name ? null : name); hideHint(); };
 let hintGone = false;
 function hideHint() { if (!hintGone) { hintGone = true; $('hint').classList.add('gone'); } }
 
@@ -1166,7 +1216,7 @@ async function rebuild(kind, focus) {
   const total = arr.groups.reduce((s, G) => s + G.words.length, 0);
   $('tier-note').textContent = total ? `${total} words in ${arr.groups.length} places. Larger words are more basic.` : 'No words match these settings.';
   if (!total) setStatus('No words match these settings.');
-  if (!arr.groups.length) { activeGroup = null; fly = orbit = null; dirty = true; return; }
+  if (!arr.groups.length) { activeGroup = null; markPlaces(); fly = orbit = null; dirty = true; return; }
   if (keep) { Object.assign(cam, keep); dirty = true; if (orbit && activeGroup) { const a = orbit.a, t = orbit.time; orbit = { ...overview(activeGroup), a, time: t, w: orbit.w }; } return; }
   const G = (selected && arr.place.get(selected.id)) || arr.groups[0];
   gotoGroup(G, true);
@@ -1184,20 +1234,23 @@ range('rng-groups', 'out-groups', 'nGroups', String, () => rebuild('arr'));
 range('rng-per', 'out-per', 'perGroup', String, () => rebuild('arr'));
 range('rng-speed', null, 'speed', String, null);
 $('btn-new').onclick = () => { let s; do { s = (Math.random() * 9000 + 1000) | 0; } while (s === S.seed); S.seed = s; if (selected) closeDetail(); rebuild('arr'); };
-$('btn-settings').onclick = () => { const p = $('settings'); p.hidden = !p.hidden; $('btn-settings').setAttribute('aria-pressed', String(!p.hidden)); viewCenter(false); dirty = true; };
+$('btn-settings').onclick = () => togglePanel('settings');
+$('btn-menu').onclick = () => togglePanel('menu');
+$('settings-close').onclick = () => setPanel(null);
+$('btn-places').onclick = () => togglePanel('places');
 $('btn-tour').onclick = () => { S.tour = !S.tour; syncTour(); hideHint(); if (S.tour && arr && arr.groups.length) { if (selected) closeDetail(); gotoGroup(activeGroup && !orbit ? activeGroup : arr.groups[(arr.groups.indexOf(activeGroup) + 1) % arr.groups.length]); if (orbit) orbit.w = 0.055; } };
 $('find').addEventListener('input', () => {
   const q = $('find').value.trim().toLowerCase(), box = $('find-results'); box.textContent = ''; if (!q || !scene) return;
   const res = []; for (const it of scene.labels.values()) { const w = it.w; if (plain(w.hw).includes(q) || w.r.includes(q) || w.g.toLowerCase().includes(q)) res.push(w); if (res.length >= 6) break; }
   if (!res.length) { box.appendChild(el('span', 'note', 'No word in this cloud matches.')); return; }
-  for (const w of res) { const b = el('button'); b.type = 'button'; const j = el('span', null, plain(w.hw)); j.lang = 'ja'; b.append(j, el('span', 'g', shortGloss(w))); b.onclick = () => { selectWord(w); if (isNarrow()) $('btn-settings').click(); }; box.appendChild(b); }
+  for (const w of res) { const b = el('button'); b.type = 'button'; const j = el('span', null, plain(w.hw)); j.lang = 'ja'; b.append(j, el('span', 'g', shortGloss(w))); b.onclick = () => selectWord(w); box.appendChild(b); }
 });
 
 /* ------------------------------------------------------------------ start */
 const coarse = matchMedia('(pointer: coarse)').matches;
 $('hint').textContent = coarse ? 'Drag to look · pinch or hold the arrows to fly · tap a word' : 'Drag to look · scroll or W A S D to fly · click a word';
-const fitSettings = () => { $('settings').hidden = isNarrow(); $('btn-settings').setAttribute('aria-pressed', 'false'); };
-fitSettings(); narrowMQ.addEventListener('change', () => { fitSettings(); viewCenter(false); dirty = true; });
+const siteNav = document.querySelector('.nav-header'); if (siteNav) { siteNav.id = siteNav.id || 'site-nav'; $('btn-menu').setAttribute('aria-controls', siteNav.id); }
+setPanel(null); compactMQ.addEventListener('change', () => { setPanel(null); viewCenter(false); dirty = true; });
 syncTour();
 new ResizeObserver(resize).observe(stage);
 resize();
@@ -1214,5 +1267,5 @@ requestAnimationFrame(frame);
   await rebuild('arr', focus);
   if (focus && arr && arr.place.has(focus.id)) selectWord(WORDS.get(focus.id));
 })();
-window.__explore = { S, cam, get scene() { return scene; }, get arr() { return arr; }, get index() { return INDEX; }, selectWord, gotoGroup, rebuild, WORDS, get frameMs() { return frameMs; }, get hits() { return hits; }, get bodies() { return bodies; }, get U() { return U; } };
+window.__explore = { S, cam, get scene() { return scene; }, get arr() { return arr; }, get index() { return INDEX; }, get flying() { return !!fly; }, get selected() { return selected; }, selectWord, gotoGroup, rebuild, WORDS, get frameMs() { return frameMs; }, get hits() { return hits; }, get bodies() { return bodies; }, get U() { return U; } };
 })();
