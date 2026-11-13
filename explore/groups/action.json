@@ -1,0 +1,631 @@
+{
+  "tag": "action",
+  "groups": [
+    {
+      "id": "giving-receiving",
+      "ja": "あげる・もらう",
+      "en": "Giving and receiving",
+      "members": [
+        "00546_ageru",
+        "00520_morau",
+        "00724_kureru",
+        "01597_sashiageru",
+        "01821_ataeru",
+        "01883_uketoru",
+        "01305_kudasaru",
+        "02980_yaru",
+        "02443_ageru",
+        "04234_sashidasu",
+        "02014_eru"
+      ]
+    },
+    {
+      "id": "accepting",
+      "ja": "{引|ひ}き{受|う}ける",
+      "en": "Accepting and taking on",
+      "members": [
+        "01215_ukeru",
+        "05756_uketomeru",
+        "05755_ukeireru",
+        "03140_hikiukeru",
+        "05683_uketsukeru",
+        "04005_uketamawaru",
+        "02417_makaseru",
+        "05685_ukemotsu",
+        "06700_uketsugu"
+      ]
+    },
+    {
+      "id": "doing",
+      "ja": "する・やる",
+      "en": "Doing",
+      "members": [
+        "00392_suru",
+        "01307_nasaru",
+        "01238_okonau",
+        "02980_yaru",
+        "01943_kokoromiru",
+        "03490_doryoku"
+      ]
+    },
+    {
+      "id": "start-finish",
+      "ja": "{始|はじ}めと{終|お}わり",
+      "en": "Starting and finishing",
+      "members": [
+        "02537_kaishi",
+        "00909_yameru",
+        "02328_yosu",
+        "06702_uchikiru",
+        "02064_sumasu",
+        "02121_sumaseru",
+        "02519_kanseisaseru",
+        "04664_shiageru",
+        "02517_enkisuru",
+        "07398_atomawashi",
+        "07175_temadoru",
+        "06749_chien",
+        "06346_denaosu",
+        "02457_tsuzukeru",
+        "02794_kekkou"
+      ]
+    },
+    {
+      "id": "starting-to",
+      "ja": "〜{出|だ}す",
+      "en": "Starting to (〜出す)",
+      "members": [
+        "04593_iidasu",
+        "06678_waraidasu",
+        "03004_furidasu",
+        "06679_hashiridasu",
+        "06086_nagaredasu"
+      ]
+    },
+    {
+      "id": "putting-in-out",
+      "ja": "{入|い}れる・{出|だ}す",
+      "en": "Putting in and taking out",
+      "members": [
+        "01098_ireru",
+        "01087_dasu",
+        "01092_oku",
+        "06852_hourikomu",
+        "03064_shimau",
+        "02022_osameru",
+        "05871_torikomu",
+        "04226_mochikomu",
+        "03002_hikidasu",
+        "04220_toridasu",
+        "01945_komeru",
+        "04629_hairikomu",
+        "06087_yobikomu",
+        "02029_orosu",
+        "04221_toriireru",
+        "03939_houru"
+      ]
+    },
+    {
+      "id": "push-pull",
+      "ja": "{押|お}す・{引|ひ}く",
+      "en": "Pushing and pulling",
+      "members": [
+        "02402_hipparu",
+        "06046_hikiyoseru",
+        "05689_hikiageru",
+        "06047_oshitaosu",
+        "05765_oshidasu",
+        "04237_oshikomu",
+        "05874_oshiireru",
+        "05736_hikikomu",
+        "17604_hikinuku"
+      ]
+    },
+    {
+      "id": "holding-carrying",
+      "ja": "{取|と}る・{抱|かか}える",
+      "en": "Taking, holding, carrying",
+      "members": [
+        "00565_toru",
+        "02375_toriageru",
+        "02031_kakaeru",
+        "02010_idaku",
+        "03917_katsugu",
+        "02053_kuwaeru",
+        "05739_mochiaruku",
+        "01946_sasaeru"
+      ]
+    },
+    {
+      "id": "cutting",
+      "ja": "{切|き}る",
+      "en": "Cutting and breaking",
+      "members": [
+        "02693_kiru",
+        "06054_kirinuku",
+        "06731_kiridasu",
+        "06844_kirikuzusu",
+        "04238_kiritoru",
+        "05747_kirisuteru",
+        "05763_kirihanasu",
+        "07267_kirisageru",
+        "03922_kezuru",
+        "02334_waru",
+        "02321_yaburu",
+        "04377_togu",
+        "06703_furikiru"
+      ]
+    },
+    {
+      "id": "removing",
+      "ja": "{取|と}り{除|のぞ}く",
+      "en": "Removing, getting rid of",
+      "members": [
+        "07631_haijo",
+        "04222_torinozoku",
+        "04625_oidasu",
+        "07979_kuchiku",
+        "14567_jokyo",
+        "16375_jogai",
+        "17350_haiseki",
+        "18244_konzetsu",
+        "19614_bokumetsu",
+        "22368_jokyosuru",
+        "25553_bokumetsusuru",
+        "12068_torisaru",
+        "12069_toriharau",
+        "21037_nukitoru",
+        "23415_nuguisaru",
+        "06347_oiharau",
+        "14313_tsuihou",
+        "18691_oikaesu",
+        "18717_oiotosu",
+        "25392_tsuihousuru",
+        "14729_tekkyo",
+        "16374_kujo",
+        "20003_nedayashi",
+        "21319_kujosuru",
+        "21321_tekkyosuru",
+        "02384_nuku"
+      ]
+    },
+    {
+      "id": "losing-recovering",
+      "ja": "{取|と}り{戻|もど}す",
+      "en": "Losing and getting back",
+      "members": [
+        "01887_ushinau",
+        "04611_nogasu",
+        "07004_yobimodosu",
+        "02317_modosu",
+        "04223_torimodosu",
+        "06050_torikaesu",
+        "03149_henkyaku",
+        "04004_yomigaeru",
+        "05740_ikikaeru",
+        "07006_makikaesu"
+      ]
+    },
+    {
+      "id": "looking",
+      "ja": "{見|み}る",
+      "en": "Looking and watching",
+      "members": [
+        "06975_minuku",
+        "07171_mikiwameru",
+        "04567_miageru",
+        "04569_miorosu",
+        "04574_mimamoru",
+        "05545_mimawasu",
+        "06348_miwakeru",
+        "04232_furimuku",
+        "07424_boukan",
+        "06860_misebirakasu"
+      ]
+    },
+    {
+      "id": "seeing-off-visiting",
+      "ja": "{訪問|ほうもん}と{見送|みおく}り",
+      "en": "Visiting and seeing off",
+      "members": [
+        "04240_miokuru",
+        "03742_miokuri",
+        "06085_okuridasu",
+        "04391_soubetsu",
+        "02611_omenikakaru",
+        "02785_omenikakaru",
+        "03622_houmon",
+        "05911_okoshininaru",
+        "02440_yoru",
+        "04631_dekuwasu"
+      ]
+    },
+    {
+      "id": "moving-about",
+      "ja": "{移動|いどう}",
+      "en": "Moving about",
+      "members": [
+        "04605_arukimawaru",
+        "04608_hashirimawaru",
+        "04623_oikosu",
+        "04628_oikakeru",
+        "02326_yokogiru",
+        "02441_wataru",
+        "02372_toorisugiru",
+        "04636_tachidomaru",
+        "04640_tachisaru",
+        "02377_doku",
+        "02397_hanareru",
+        "05872_hikikaesu",
+        "03931_moguru",
+        "06973_warikomu",
+        "02300_toosu",
+        "02791_keiyu",
+        "04111_oufuku",
+        "03694_hassha",
+        "06808_hacchaku",
+        "02885_sanpo",
+        "03629_bouken",
+        "07441_meisou",
+        "02543_gaishutsu",
+        "02546_kitaku",
+        "05767_soutai"
+      ]
+    },
+    {
+      "id": "sleeping-waking",
+      "ja": "{寝|ね}る・{起|お}きる",
+      "en": "Sleeping and waking",
+      "members": [
+        "04646_netsuku",
+        "01181_nemuru",
+        "04649_mezameru",
+        "01234_okosu",
+        "04648_okiagaru",
+        "04643_nekorobu",
+        "04641_suwarikomu",
+        "05270_utouto"
+      ]
+    },
+    {
+      "id": "yawn-sneeze",
+      "ja": "{欠伸|あくび}とくしゃみ",
+      "en": "Yawning, sneezing, blinking",
+      "members": [
+        "06484_akubi",
+        "05350_akubisuru",
+        "05351_kushamisuru",
+        "06485_mabataki"
+      ]
+    },
+    {
+      "id": "cleaning",
+      "ja": "{掃除|そうじ}",
+      "en": "Cleaning and tidying",
+      "members": [
+        "02889_souji",
+        "02625_katazuke",
+        "04332_seisou",
+        "04263_susugu",
+        "04262_kosuru",
+        "02327_yogosu",
+        "03064_shimau"
+      ]
+    },
+    {
+      "id": "grooming",
+      "ja": "{身支度|みじたく}",
+      "en": "Washing and dressing",
+      "members": [
+        "04376_senmen",
+        "02844_abiru",
+        "04603_kigaeru",
+        "06680_hakikaeru",
+        "01853_ugai",
+        "04259_totonoeru",
+        "02399_hayasu"
+      ]
+    },
+    {
+      "id": "smiling-crying",
+      "ja": "{笑|わら}う・{泣|な}く",
+      "en": "Smiling and crying",
+      "members": [
+        "05766_niyaniya",
+        "03517_nikkori",
+        "04822_herahera",
+        "05935_nitanita",
+        "00655_naku",
+        "05772_mesomeso",
+        "06678_waraidasu",
+        "04824_musutto"
+      ]
+    },
+    {
+      "id": "mood-mimetics",
+      "ja": "{気分|きぶん}のオノマトペ",
+      "en": "Mimetic words for moods",
+      "members": [
+        "01596_nonbiri",
+        "05841_yuttari",
+        "04830_gennari",
+        "05835_guttari",
+        "04833_shinmiri",
+        "05123_ukiuki",
+        "05266_bikubiku",
+        "05272_zotto",
+        "05271_uttori"
+      ]
+    },
+    {
+      "id": "manner-mimetics",
+      "ja": "{動|うご}きのオノマトペ",
+      "en": "Mimetic words for manner",
+      "members": [
+        "01863_ukkari",
+        "05792_kosokoso",
+        "05844_guzuguzu",
+        "06354_kippari",
+        "04817_yurayura",
+        "05944_korokoro",
+        "05941_gosogoso",
+        "05791_karatto"
+      ]
+    },
+    {
+      "id": "eating-sounds",
+      "ja": "{食|た}べる{音|おと}",
+      "en": "Eating sounds",
+      "members": [
+        "05775_mogumogu",
+        "05936_gatsugatsu",
+        "05937_poripori",
+        "05943_shakishaki"
+      ]
+    },
+    {
+      "id": "talking",
+      "ja": "{話|はな}し{合|あ}う",
+      "en": "Talking and asking",
+      "members": [
+        "04813_yobidasu",
+        "02396_hanashiau",
+        "03045_katariau",
+        "03134_hanashikakeru",
+        "04593_iidasu",
+        "05639_setsumeisuru",
+        "05641_shoukaisuru",
+        "05643_yakusokusuru",
+        "05654_onegaisuru",
+        "06481_kikinaosu",
+        "04583_kikitoru",
+        "04604_yomiageru",
+        "00364_shikai",
+        "01871_uwasa",
+        "07353_karakau",
+        "03754_meirei",
+        "05991_pechapecha",
+        "05651_jamasuru"
+      ]
+    },
+    {
+      "id": "agree-oppose",
+      "ja": "{賛成|さんせい}と{反対|はんたい}",
+      "en": "Agreeing and opposing",
+      "members": [
+        "05647_sanseisuru",
+        "05648_hantaisuru",
+        "06063_hiteisuru",
+        "03453_touhyou",
+        "06057_teiansuru",
+        "03338_jitai"
+      ]
+    },
+    {
+      "id": "thinking",
+      "ja": "{考|かんが}える",
+      "en": "Thinking and deciding",
+      "members": [
+        "04591_kangaenaosu",
+        "07174_omoinaosu",
+        "04588_omoikomu",
+        "04590_omoikiru",
+        "06061_kouryosuru",
+        "06064_yosousuru",
+        "04309_hassou",
+        "03026_kinisuru",
+        "03036_machigau",
+        "06721_bareru"
+      ]
+    },
+    {
+      "id": "searching",
+      "ja": "{探|さが}す",
+      "en": "Looking for things",
+      "members": [
+        "00493_sagasu",
+        "02316_motomeru",
+        "04606_asaru",
+        "04729_kensaku"
+      ]
+    },
+    {
+      "id": "writing",
+      "ja": "{書|か}く",
+      "en": "Writing",
+      "members": [
+        "06978_kakiageru",
+        "06730_kakitomeru",
+        "06851_kakitasu",
+        "06836_shitagaki",
+        "04194_shippitsu",
+        "01844_insatsu"
+      ]
+    },
+    {
+      "id": "computers",
+      "ja": "パソコンの{操作|そうさ}",
+      "en": "Computer actions",
+      "members": [
+        "02941_kopiisuru",
+        "04769_nyuuryoku",
+        "05224_haritsuke",
+        "04442_saisei",
+        "04729_kensaku",
+        "04734_bazuru",
+        "04916_chekkusuru"
+      ]
+    },
+    {
+      "id": "using",
+      "ja": "{使|つか}う",
+      "en": "Using",
+      "members": [
+        "01637_shiyou",
+        "02314_mochiiru",
+        "07179_tsukaikonasu",
+        "07433_temochi"
+      ]
+    },
+    {
+      "id": "helping",
+      "ja": "{助|たす}ける",
+      "en": "Helping and protecting",
+      "members": [
+        "00895_tasukeru",
+        "02488_tetsudai",
+        "04654_tasukeau",
+        "01946_sasaeru",
+        "04574_mimamoru",
+        "06625_amayakasu",
+        "03718_hoshou"
+      ]
+    },
+    {
+      "id": "overcoming",
+      "ja": "{乗|の}り{越|こ}える",
+      "en": "Overcoming difficulties",
+      "members": [
+        "02805_kokufuku",
+        "04620_norikoeru",
+        "06981_tachimukau",
+        "07388_shinogu",
+        "05539_funbaru"
+      ]
+    },
+    {
+      "id": "success-failure",
+      "ja": "{成功|せいこう}と{失敗|しっぱい}",
+      "en": "Success and failure",
+      "members": [
+        "02638_seikou",
+        "02816_goukaku",
+        "06528_renshou",
+        "06529_renpai",
+        "05303_kanau"
+      ]
+    },
+    {
+      "id": "fighting",
+      "ja": "{攻撃|こうげき}",
+      "en": "Fighting and violence",
+      "members": [
+        "01944_korosu",
+        "02748_kougeki",
+        "04575_abareru",
+        "02401_bassuru",
+        "03235_shoutotsu",
+        "03575_bakuhatsu"
+      ]
+    },
+    {
+      "id": "coming-apart",
+      "ja": "{崩|くず}れる・{剥|は}がれる",
+      "en": "Falling apart, coming off",
+      "members": [
+        "04248_kuzureru",
+        "04249_tsubureru",
+        "04363_hagareru",
+        "04371_tokeru",
+        "02395_hazureru",
+        "02385_nukeru",
+        "04366_karamu",
+        "04570_nijimu",
+        "02376_toreru"
+      ]
+    },
+    {
+      "id": "growing-withering",
+      "ja": "{茂|しげ}る・{枯|か}れる",
+      "en": "Growing and withering",
+      "members": [
+        "03924_shigeru",
+        "04589_kareru",
+        "02422_masu",
+        "02472_tsumu",
+        "05933_inekari",
+        "02399_hayasu"
+      ]
+    },
+    {
+      "id": "open-close",
+      "ja": "{開|あ}ける・{閉|し}める",
+      "en": "Opening, closing, switching",
+      "members": [
+        "00563_akeru",
+        "01979_hiraku",
+        "02303_tojiru",
+        "00046_fusagu",
+        "00562_tsukeru",
+        "04239_kirikaeru",
+        "01089_kaeru"
+      ]
+    },
+    {
+      "id": "attaching",
+      "ja": "{付|つ}ける",
+      "en": "Attaching and fitting",
+      "members": [
+        "00761_tsukeru",
+        "00854_kakeru",
+        "04255_hameru",
+        "04256_hamaru",
+        "04659_kumiawaseru",
+        "06983_kumikomu",
+        "02424_matomeru",
+        "04243_shikakeru"
+      ]
+    },
+    {
+      "id": "buying-paying",
+      "ja": "{払|はら}う",
+      "en": "Buying and paying",
+      "members": [
+        "00535_harau",
+        "03057_kounyuu",
+        "03485_chuumon",
+        "02280_osameru",
+        "02746_koukan",
+        "07054_chuusen"
+      ]
+    }
+  ],
+  "leftover": [
+    "00168_kanetsu",
+    "00711_kakaru",
+    "02126_taisuru",
+    "02393_haeru",
+    "02530_rikon",
+    "02639_nakunaru",
+    "03020_kakawaru",
+    "03553_hakushu",
+    "03773_senkou",
+    "04580_shizumaru",
+    "05938_mushimushi",
+    "06732_uchiageru",
+    "06858_ukabiagaru",
+    "07005_makiokoru",
+    "07099_nadeorosu",
+    "07114_tobikomi"
+  ]
+}
