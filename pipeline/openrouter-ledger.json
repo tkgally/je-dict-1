@@ -1,92 +1,15 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "daily_cap_usd": 15.0,
-  "spent_usd": 6.3844,
+  "spent_usd": 0.262,
   "calls": [
     {
-      "ts": "2026-11-12T00:22:02Z",
+      "ts": "2026-11-13T00:01:27Z",
       "mode": "self-check",
       "phase": "self-check",
-      "entries": 8,
-      "est_usd": 0.0541
-    },
-    {
-      "ts": "2026-11-12T00:45:21Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 22,
-      "est_usd": 0.1443
-    },
-    {
-      "ts": "2026-11-12T00:58:26Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 34,
-      "est_usd": 0.2283
-    },
-    {
-      "ts": "2026-11-12T01:30:21Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 600,
-      "est_usd": 3.9554
-    },
-    {
-      "ts": "2026-11-12T01:30:21Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 2,
-      "est_usd": 0.0132
-    },
-    {
-      "ts": "2026-11-12T01:42:34Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 8,
-      "est_usd": 0.0537
-    },
-    {
-      "ts": "2026-11-12T01:52:43Z",
-      "mode": "audio",
-      "phase": "digit-readings generate",
-      "entries": 3,
-      "est_usd": 0.0074
-    },
-    {
-      "ts": "2026-11-12T01:52:52Z",
-      "mode": "audio",
-      "phase": "digit-readings confirm",
-      "entries": 2,
-      "est_usd": 0.0029
-    },
-    {
-      "ts": "2026-11-12T01:56:05Z",
-      "mode": "audio",
-      "phase": "production",
-      "entries": 264,
-      "est_usd": 0.7843
-    },
-    {
-      "ts": "2026-11-12T02:12:53Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 150,
-      "est_usd": 0.9919
-    },
-    {
-      "ts": "2026-11-12T02:12:53Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 2,
-      "est_usd": 0.0128
-    },
-    {
-      "ts": "2026-11-12T23:48:18Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 21,
-      "est_usd": 0.1361
+      "entries": 39,
+      "est_usd": 0.262
     }
   ]
 }
