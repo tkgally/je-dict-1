@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-14 (9 new entries, seventh cycle of the 00:15 UTC run)
+
+33522–33530, a short cycle at the end of the run. Closure: ネットバンキング, 年甲斐もなく, 海上自衛隊. Brainstorm: 股, 上唇, つむじ. ezFurigana lookups: 涅槃, 如来, 羽衣. New kanji 涅, 槃.
+Self-check: clean (0 of 10 flagged; 7 kana links judged, 0 flagged).
+
 ### 2026-11-14 (21 new entries, first cycle of the 00:15 UTC run)
 
 33501–33521. Closure: 所在ない, 前転, 宙返り, 厳戒態勢, 割れ物, 酒税, 万能薬. Brainstorm: 奥歯, 耳たぶ, 乳歯, 永久歯, 鼻先, 繰り上がる, 金に糸目をつけない (each cross-referenced to its seed or field neighbour). ezFurigana lookups: ひとえに, 人並み, 筆談, 碑, 翡翠, 流行り廃り, 爆撃機. New kanji 翡, 翠.
@@ -68,7 +73,3 @@ One seeds batch (headwords 200–219): own proposals plus gpt-6.1-sol and gemini
 
 33460–33480. Closure: 土俵際, 理学療法士, 玉手箱, 国民主権, 虫垂炎, 片膝, 無念. Brainstorm: もう少し, 山ほど, いささか, ときたま, 年がら年中, よくよく, 並び (each cross-referenced to its seed). ezFurigana lookups: にしても (as にせよ), 年内, 寝泊まり, 柔和, 盗み見る, 迫害, 発出.
 Self-check: clean (0 of 21 flagged; 18 kana links judged, 0 flagged). New candidates: 作業療法士, 乙姫.
-
-### 2026-11-13 (Explore page: phone layout, smooth flight to a clicked word)
-
-On a phone the cloud now fills the page. The site header opens from a menu button, the settings from a Settings button, the places from one button that names the current place; the selected word is a short sheet along the bottom (word, reading, meaning) that unfolds to the examples and connections. Held sideways, the word card stands on the right. On every screen a click on a word now turns the view toward it and then flies in, over 1.7 to 4.6 seconds, along a path that goes around the word rather than through it; with the system's reduced-motion setting the old view dissolves into the new one. Only `build/templates/explore.{html,css,js}` changed.
