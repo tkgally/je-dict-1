@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-14 (43 candidates queued, third cycle of the 08:15 UTC run)
+
+Closure 32 (words used in examples with no entry, found by scanning bare furigana words: 芭蕉, 江戸幕府, 日本銀行, 東証, 関脇, 豊洲, 肉眼, 寄生虫 …). Brainstorm field building 11 (梁, スロープ, 渡り廊下, 間仕切り, 縁の下 …); 5 rejected. Queue 297.
+
 ### 2026-11-14 (9 new entries, seventh cycle of the 00:15 UTC run)
 
 33522–33530, a short cycle at the end of the run. Closure: ネットバンキング, 年甲斐もなく, 海上自衛隊. Brainstorm: 股, 上唇, つむじ. ezFurigana lookups: 涅槃, 如来, 羽衣. New kanji 涅, 槃.
@@ -69,7 +73,3 @@ Self-check: 2 notes flags applied (旧帝大 are not the oldest national univers
 
 One seeds batch (headwords 200–219): own proposals plus gpt-6.1-sol and gemini-3.8-flash ($0.09); 26 survived the filter, 10 added (羽田空港, 成田空港, 関西国際空港, 泣き声, 相合傘, 秋分の日, 折れ曲がる, 中ほど, 隙間風, 北国), 16 rejected (existing entries or variants, free phrases, compositional compounds, slang, one wrong reading). Unit kept small to fit the run clock; closure stream not run.
 
-### 2026-11-12 (21 new entries, first cycle of the 23:36 UTC run)
-
-33460–33480. Closure: 土俵際, 理学療法士, 玉手箱, 国民主権, 虫垂炎, 片膝, 無念. Brainstorm: もう少し, 山ほど, いささか, ときたま, 年がら年中, よくよく, 並び (each cross-referenced to its seed). ezFurigana lookups: にしても (as にせよ), 年内, 寝泊まり, 柔和, 盗み見る, 迫害, 発出.
-Self-check: clean (0 of 21 flagged; 18 kana links judged, 0 flagged). New candidates: 作業療法士, 乙姫.

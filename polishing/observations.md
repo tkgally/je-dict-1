@@ -1766,3 +1766,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - [entry] 2026-11-12 13147 格: sense 2 "standard, norm" now has one example (格に則って進める) after its 格に合わない example moved to sense 1; the sense itself is doubtful (格式/規格 territory) and needs a rewrite or merge.
 - [entry] 2026-11-14 03423 だって covers only 'but/because' and 'even'; sentence-final だって (だ + quotative って, 本当だって 'it's true, I tell you') has no sense or entry. Link in 03347 ex3 unlinked.
 - [tooling] 2026-11-14 pipeline/metrics_snapshot.py rejects --mode explore-groups (not in its choices), so explore-groups cycles record no metrics line.
+- [tooling] 2026-11-14 Older examples keep bare kanji words whose entries were created later (冷戦 31609 bare in 7 examples, 強豪, 和平, 国際社会, 学生時代, 今季 likewise): auto_link runs only on changed IDs. A periodic whole-dictionary auto_link pass, or a pass over entries that use a newcomer's surface, would link them.
