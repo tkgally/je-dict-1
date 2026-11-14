@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-14 (12 new entries, eighth cycle of the 12:15 UTC run)
+
+33557–33568, a short cycle at the end of the run. Closure: 家督, 工務店, 懸賞, 組曲. Brainstorm (field body-part): 口角, 目やに, 力こぶ, 犬歯. ezFurigana: 深掘り, 吹き出し, 不慣れ, 副産物. Candidate 緑化 (りょくか) dropped: entry 32041 has it as りょっか.
+Self-check: clean; kana links clean.
+
 ### 2026-11-14 (36 candidates queued, seventh cycle of the 12:15 UTC run)
 
 Closure 0: no noentry markers remain, and every bare furigana word in the examples turned out to be an existing entry. Brainstorm 36: seeds 220–260 (〜巻, 息を引き取る, 他界, 死に物狂い, 下調べ, 外面 そとづら, 追伸, 体内時計, のど飴, 駄目出し, 晴れ間, 発つ, 一番乗り …) and field business (社内報, 寿退社, 御用納め, 社員旅行); 21 rejected. Queue 306.
@@ -67,9 +72,4 @@ Self-check: 1 translation fixed (33534); kana links clean.
 ### 2026-11-14 (43 candidates queued, third cycle of the 08:15 UTC run)
 
 Closure 32 (words used in examples with no entry, found by scanning bare furigana words: 芭蕉, 江戸幕府, 日本銀行, 東証, 関脇, 豊洲, 肉眼, 寄生虫 …). Brainstorm field building 11 (梁, スロープ, 渡り廊下, 間仕切り, 縁の下 …); 5 rejected. Queue 297.
-
-### 2026-11-14 (9 new entries, seventh cycle of the 00:15 UTC run)
-
-33522–33530, a short cycle at the end of the run. Closure: ネットバンキング, 年甲斐もなく, 海上自衛隊. Brainstorm: 股, 上唇, つむじ. ezFurigana lookups: 涅槃, 如来, 羽衣. New kanji 涅, 槃.
-Self-check: clean (0 of 10 flagged; 7 kana links judged, 0 flagged).
 
