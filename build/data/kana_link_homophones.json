@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-12",
+ "updated": "2026-11-14",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -103,6 +103,18 @@
     "reviewed": 3,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "あいうえお": {
+   "target": "32604_aiueo",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "The string あいうえお is used almost exclusively to mean the gojūon kana order or the basics, so no competing word exists.",
+    "model": "claude:opus",
+    "date": "2026-11-14"
    }
   },
   "あいこ": {
@@ -16944,6 +16956,22 @@
     "date": "2026-09-08"
    }
   },
+  "にして": {
+   "target": "33458_nishite",
+   "tier": "block",
+   "competitors": [
+    "te-form of にする (XをYにして, using X as Y; 〜ことにして)",
+    "start of にしては / にしても"
+   ],
+   "screen": {
+    "verdict": "ambiguous",
+    "risk": "common",
+    "note": "Most occurrences are the te-form of the verb にする; the particle (一瞬にして, 詩人にして画家) needs a hand link with a keep decision.",
+    "model": "claude",
+    "date": "2026-11-12"
+   },
+   "tier_locked": true
+  },
   "にたにた": {
    "target": "05935_nitanita",
    "tier": "unique",
@@ -24179,22 +24207,6 @@
     "model": "claude",
     "date": "2026-09-26"
    }
-  },
-  "にして": {
-   "target": "33458_nishite",
-   "tier": "block",
-   "competitors": [
-    "te-form of にする (XをYにして, using X as Y; 〜ことにして)",
-    "start of にしては / にしても"
-   ],
-   "screen": {
-    "verdict": "ambiguous",
-    "risk": "common",
-    "note": "Most occurrences are the te-form of the verb にする; the particle (一瞬にして, 詩人にして画家) needs a hand link with a keep decision.",
-    "model": "claude",
-    "date": "2026-11-12"
-   },
-   "tier_locked": true
   }
  }
 }
