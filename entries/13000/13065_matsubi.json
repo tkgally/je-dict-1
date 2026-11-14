@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{末尾|まつび} is a somewhat formal or written term. In everyday speech, ⟦{最後|さいご}→最後：01413_saigo⟧ (last, end) is more common. {末尾|まつび} specifically implies the spatial or sequential end of something, rather than the temporal end.\n\nCOMMON COLLOCATIONS:\n- {末尾|まつび}⟦に→に：00314_ni⟧⟦{追加|ついか}する→追加する：19646_tsuikasuru⟧: to add at the end\n- {末尾|まつび}⟦に→に：00314_ni⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦する→する：00392_suru⟧: to note at the end\n- ⟦{文|ぶん}→文：03716_bun⟧⟦の→の：09472_no⟧{末尾|まつび}: end of a sentence\n- ⟦{一覧|いちらん}→一覧：17694_ichiran⟧⟦の→の：09472_no⟧{末尾|まつび}: end of the list\n\nSIMILAR WORDS:\n{末尾|まつび} (end/tail of a document or sequence) vs. ⟦{冒頭|ぼうとう}→冒頭：11725_boutou⟧ (beginning/opening of a text). These are commonly paired as opposites in written Japanese.",
+  "notes": "USAGE:\n{末尾|まつび} is a somewhat formal or written term. In everyday speech, ⟦{最後|さいご}→最後：01413_saigo⟧ (last, end) is more common. {末尾|まつび} specifically implies the spatial or sequential end of something, rather than the temporal end.\n\nCOMMON COLLOCATIONS:\n- {末尾|まつび}⟦に→に：00314_ni⟧⟦{追加|ついか}する→追加する：19646_tsuikasuru⟧: to add at the end\n- {末尾|まつび}⟦に→に：00314_ni⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦する→する：00392_suru⟧: to note at the end\n- ⟦{文|ぶん}→文：03716_bun⟧⟦の→の：09472_no⟧{末尾|まつび}: end of a sentence\n- ⟦{一覧|いちらん}→一覧：17694_ichiran⟧⟦の→の：09472_no⟧{末尾|まつび}: end of the list\n\nSIMILAR WORDS:\n- ⟦{冒頭|ぼうとう}→冒頭：11725_boutou⟧: the opening of a text; the usual opposite in writing\n- ⟦{最後|さいご}→最後：01413_saigo⟧: last, end; the everyday word",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,11 +59,25 @@
       "reading": "かんまつ",
       "headword": "{巻末|かんまつ}",
       "label": "end of a book"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11725_boutou",
+      "reading": "ぼうとう",
+      "headword": "{冒頭|ぼうとう}",
+      "label": "the opening of a text"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01413_saigo",
+      "reading": "さいご",
+      "headword": "{最後|さいご}",
+      "label": "last, end"
     }
   ],
   "metadata": {
     "created": "2026-02-23T10:08:37Z",
-    "modified": "2026-09-04T12:31:08Z",
+    "modified": "2026-11-14T13:28:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -73,7 +87,7 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "language"
       ],
       "style": [
         "written"
