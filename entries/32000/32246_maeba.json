@@ -46,7 +46,15 @@
   ],
   "notes": "⟦{前|まえ}→前：02255_mae⟧ (front) + ⟦{歯|は}→歯：00778_ha⟧ (tooth), with rendaku (the h-sound of ⟦{歯|は}→歯：00778_ha⟧ voiced to b).\n\nCOMMON COLLOCATIONS:\n- {前歯|まえば}⟦が→が：00051_ga⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧: a front tooth chips\n- {前歯|まえば}⟦が→が：00051_ga⟧⟦{抜|ぬ}ける→抜ける：02385_nukeru⟧: a front tooth comes out\n- {前歯|まえば}⟦で→で：00502_de⟧⟦{噛|か}む→噛む：01205_kamu⟧: to bite with the front teeth\n- {出|で}っ{歯|ぱ}: buck teeth (colloquial)\n\nSIMILAR WORDS:\n- {奥歯|おくば}: back tooth, molar — the opposite end of the mouth\n- {門歯|もんし}: incisor — the anatomical term used by dentists\n- {八重歯|やえば}: a snaggletooth, a canine that sticks out",
   "schema_version": "2.0",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "33508_okuba",
+      "reading": "おくば",
+      "headword": "{奥歯|おくば}",
+      "label": "back tooth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +69,6 @@
       "domain": []
     },
     "created": "2026-10-24T14:09:29Z",
-    "modified": "2026-10-24T14:12:05Z"
+    "modified": "2026-11-14T00:24:46Z"
   }
 }
