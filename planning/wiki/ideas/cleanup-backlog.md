@@ -1738,6 +1738,8 @@ which a detector *can* see).
 
 **Update 2026-11-14 (08:15 run)**: seventeenth batch (02510–02709) read: 40 retagged, one left as `action` (切る). 1,525 remain. Next batch starts after 02709.
 
+**Update 2026-11-14 (12:15 run)**: eighteenth batch (02710–03168) read: 40 retagged, five left as `action` (行動, 享受, 決行, 克服, やる). 1,485 remain. Next batch starts after 03168.
+
 ## Priority 38: Semantic tags disagree *within a closed lexical family* (tableware: 32 entries, 12 tag-sets)
 
 **Source**: 2026-08-02 routine polish run, which standardised the four 皿 entries to `["tool"]`
