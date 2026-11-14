@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-14 (20 new entries, second cycle of the 12:15 UTC run)
+
+33537–33556. Closure: 煮えくり返る, 母屋, 仮病, 商業施設, 支援物資, 江戸幕府, 陸上自衛隊. Brainstorm: 白目, 黒目, 頭皮 (field body-part), 苦学生 (seed 学生), 日本語能力試験 (seed 日本語), 月経, 排卵 (field body-internal). ezFurigana: 昼前, 広間, ビジョン, 一幕, 封, フィンランド. Candidate 日本銀行 dropped (already entry 10141, read にっぽんぎんこう).
+Self-check: 1 notes fix applied (33551: 昼前に is "before noon", not "by noon"); kana links clean.
+
 ### 2026-11-14 (6 new entries, seventh cycle of the 08:15 UTC run)
 
 33531–33536, a short cycle at the end of the run. Closure: 手漉き, 乙姫, 作業療法士. Brainstorm (field body-internal): 精子, 羊水. ezFurigana: 人気 (ひとけ, "sign of people"; homograph of 人気 にんき).
@@ -69,7 +74,3 @@ Self-check: clean (0 of 10 flagged; 7 kana links judged, 0 flagged).
 33501–33521. Closure: 所在ない, 前転, 宙返り, 厳戒態勢, 割れ物, 酒税, 万能薬. Brainstorm: 奥歯, 耳たぶ, 乳歯, 永久歯, 鼻先, 繰り上がる, 金に糸目をつけない (each cross-referenced to its seed or field neighbour). ezFurigana lookups: ひとえに, 人並み, 筆談, 碑, 翡翠, 流行り廃り, 爆撃機. New kanji 翡, 翠.
 Self-check: 3 flags applied (two off-topic semantic tags, one overstatement about 機); 19 kana links judged, 0 flagged.
 
-### 2026-11-13 (20 new entries, first cycle of the 16:15 UTC run)
-
-33481–33500. Closure: 酒樽, 過料, 着回す, 国外退去, 御託宣, 文部省, 竜宮城. Brainstorm: ずる休み, 所持金, 時は金なり, 大学入試, 国立大学, 軒を並べる, 上野公園 (each cross-referenced to its seed). ezFurigana lookups: ばかりに, 離れ, 半球, 場末, バラ色, 伴走.
-Self-check: 2 notes flags applied (旧帝大 are not the oldest national universities; 繁華街 described correctly); 17 kana links judged, 0 flagged. New candidates: 母屋, 仮病.
