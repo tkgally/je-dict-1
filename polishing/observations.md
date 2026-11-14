@@ -1765,3 +1765,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - [entry] 2026-11-11 04582 老いる: sense 2 (to become worn, decline) examples 組織が老いてきている and 文化が老いて read unnaturally; one building example replaced this run; the sense may need rethinking (figurative 老いる is mostly of people's spirit or towns).
 - [entry] 2026-11-12 13147 格: sense 2 "standard, norm" now has one example (格に則って進める) after its 格に合わない example moved to sense 1; the sense itself is doubtful (格式/規格 territory) and needs a rewrite or merge.
 - [entry] 2026-11-14 03423 だって covers only 'but/because' and 'even'; sentence-final だって (だ + quotative って, 本当だって 'it's true, I tell you') has no sense or entry. Link in 03347 ex3 unlinked.
+- [tooling] 2026-11-14 pipeline/metrics_snapshot.py rejects --mode explore-groups (not in its choices), so explore-groups cycles record no metrics line.
