@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-14 (6 new entries, seventh cycle of the 08:15 UTC run)
+
+33531–33536, a short cycle at the end of the run. Closure: 手漉き, 乙姫, 作業療法士. Brainstorm (field body-internal): 精子, 羊水. ezFurigana: 人気 (ひとけ, "sign of people"; homograph of 人気 にんき).
+Self-check: 1 translation fixed (33534); kana links clean.
+
 ### 2026-11-14 (43 candidates queued, third cycle of the 08:15 UTC run)
 
 Closure 32 (words used in examples with no entry, found by scanning bare furigana words: 芭蕉, 江戸幕府, 日本銀行, 東証, 関脇, 豊洲, 肉眼, 寄生虫 …). Brainstorm field building 11 (梁, スロープ, 渡り廊下, 間仕切り, 縁の下 …); 5 rejected. Queue 297.
@@ -68,8 +73,3 @@ Self-check: 3 flags applied (two off-topic semantic tags, one overstatement abou
 
 33481–33500. Closure: 酒樽, 過料, 着回す, 国外退去, 御託宣, 文部省, 竜宮城. Brainstorm: ずる休み, 所持金, 時は金なり, 大学入試, 国立大学, 軒を並べる, 上野公園 (each cross-referenced to its seed). ezFurigana lookups: ばかりに, 離れ, 半球, 場末, バラ色, 伴走.
 Self-check: 2 notes flags applied (旧帝大 are not the oldest national universities; 繁華街 described correctly); 17 kana links judged, 0 flagged. New candidates: 母屋, 仮病.
-
-### 2026-11-13 (candidates: 10 brainstorm candidates, ninth cycle of the run started 2026-11-12 23:36 UTC)
-
-One seeds batch (headwords 200–219): own proposals plus gpt-6.1-sol and gemini-3.8-flash ($0.09); 26 survived the filter, 10 added (羽田空港, 成田空港, 関西国際空港, 泣き声, 相合傘, 秋分の日, 折れ曲がる, 中ほど, 隙間風, 北国), 16 rejected (existing entries or variants, free phrases, compositional compounds, slang, one wrong reading). Unit kept small to fit the run clock; closure stream not run.
-
