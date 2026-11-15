@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-15 (56 candidates queued, sixth cycle of the 16:17 UTC run)
+
+Closure 10: no noentry markers remain; a scan of unlinked words in today's polished and reviewed examples found 正気, 主格, 合板, 拘束力, 取っ組む, 居合, 隔世の感, 抗原検査, 和洋 (極まる was queued earlier in the run). Brainstorm 46 (field clothing; self 21 proposals, gpt-6.1-sol and gemini-3.8-flash 50 each; 59 new after filtering): 裾上げ, ほつれる, 毛玉, 腹巻き, パンプス, 丸首, 着丈, 着付け, 半纏, 襦袢, 襷, よそ行き, 型崩れ, 脱げる, 袂, 雨合羽, 頭巾 …; 15 rejected (variants of existing entries, kimono-specialist and fashion-jargon items). Queue 332.
+
 ### 2026-11-15 (18 new entries, fourth cycle of the 00:15 UTC run)
 
 33569–33586. Closure: 納車, 小選挙区, 漁協, 沐浴, 神保町, アインシュタイン. Brainstorm (field body-part): 利き足, あかぎれ, ささくれ, すね毛, 指の腹, がに股. ezFurigana: 発情期, 備蓄米, 俯瞰的, 復縁, 踏み入れる, 浮遊. New kanji 沐 (02867).
@@ -68,9 +72,3 @@ Closure 0: no noentry markers remain, and every bare furigana word in the exampl
 
 33537–33556. Closure: 煮えくり返る, 母屋, 仮病, 商業施設, 支援物資, 江戸幕府, 陸上自衛隊. Brainstorm: 白目, 黒目, 頭皮 (field body-part), 苦学生 (seed 学生), 日本語能力試験 (seed 日本語), 月経, 排卵 (field body-internal). ezFurigana: 昼前, 広間, ビジョン, 一幕, 封, フィンランド. Candidate 日本銀行 dropped (already entry 10141, read にっぽんぎんこう).
 Self-check: 1 notes fix applied (33551: 昼前に is "before noon", not "by noon"); kana links clean.
-
-### 2026-11-14 (6 new entries, seventh cycle of the 08:15 UTC run)
-
-33531–33536, a short cycle at the end of the run. Closure: 手漉き, 乙姫, 作業療法士. Brainstorm (field body-internal): 精子, 羊水. ezFurigana: 人気 (ひとけ, "sign of people"; homograph of 人気 にんき).
-Self-check: 1 translation fixed (33534); kana links clean.
-

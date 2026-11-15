@@ -1771,3 +1771,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - [entry] 2026-11-14 Possible overlapping entries with the same spelling: 13040 号 (noun, suffix) and 04024 〜号 (suffix); 13041 和 (noun, prefix) and 00418 和〜 (prefix). Each pair is linked by prominent_see_also; a merge would be a curator decision (not a pure spelling duplicate).
 - [tooling] 2026-11-15 pipeline/metrics_snapshot.py rejects --mode explore-groups (its choices predate the mode), so explore-groups cycles record no metrics line; add the mode to its choices.
 - [entry] 2026-11-15 13144 案ずる: pos verb-irregular (ずる verb) but metadata verb_class is "ichidan"; check which class the conjugation table and checker expect before changing (conjugation-check mode).
+- [tooling] 2026-11-15 build/brainstorm_candidates.py filter: TypeError in the sort when a proposal's seed_id is null (field lens, own proposals). Use "" or make the sort key tolerate None.
