@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-15 (16:17 run, systemic-fix, third cycle):** twenty-second batch (04326–04588): 44 retagged by meaning (漂う→movement+sense, 散らかる→daily-life, 鳴く→animal-general+sense, 測定→science+quantity, 編集→media+creation, 購読→media+shopping, 見逃す/見落とす→sense+cognition, 衰える→change+health, 早まる/早める→time-general+change, …); 絡む read and left as action. Detector 1,371 → 1,327. Next batch after 04588.
+
 **Update 2026-11-15 (00:15 run, systemic-fix, sixth cycle):** twenty-first batch (04006–04322): 39 retagged (略す→language, 整備→technology+building, 低下→change+quantity, 輸血→health, 往復→travel+movement, 解散→society+politics, 開通→transportation, 作成/作製/執筆/制作/製作→creation, 失恋→emotion, 消化→health+body-internal, 振る舞う→personality+society, 見送る→travel+time-general, 潰れる→change+business, 掃く/拭く/濯ぐ→daily-life, 発売→business+shopping, …); 6 left as action (取り入れる, 取り除く, 打ち込む, 切り取る, 仕掛ける, 嵌まる); 1,272 remain. Next batch after 04322.
 
 **Update 2026-11-13 (16:15 run, systemic-fix, fifth cycle):** fifteenth batch (02376–02420): 32 retagged (悩む→emotion+cognition, 煮える→cooking, 怠ける→personality+work, 慣らす→change+education, 映える→appearance+sense, 話し合う→communication, 罰する→law, 冷やす→change+cooking, 広まる/広める→communication, 深まる/深める→change, 含める/省く→quantity, 増やす/減らす→quantity+change, 震える→sense+emotion, 吠える→animal-general+sense, 微笑む→emotion, 任せる→work+society, 蒔く→plant-general, 退く/殴る/離れる/引っ張る/ぶつかる/ぶつける→movement, …); 8 read and left as action (握る, 抜く, 抜ける, 除く, 外す, 外れる, 防ぐ, 巻く: no tag fits better); 1,593 remain. The next batch starts after 02420.
