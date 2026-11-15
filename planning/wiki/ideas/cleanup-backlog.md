@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-15 (16:17 run, systemic-fix, seventh cycle):** twenty-third batch (04590–04669): 39 retagged by meaning (思い切る→cognition+emotion, 芽生える→plant-general+change, 着替える→clothing+daily-life, 暴く→communication+law, 排出→science+health, 目覚める→daily-life+cognition, 組み立てる→creation+building, motion compounds→movement, …); 括る, 漁る, 晒す, 逃す, 挟まる left as action. Detector 1,325 → 1,286. Next batch after 04669.
+
 **Update 2026-11-15 (16:17 run, systemic-fix, third cycle):** twenty-second batch (04326–04588): 44 retagged by meaning (漂う→movement+sense, 散らかる→daily-life, 鳴く→animal-general+sense, 測定→science+quantity, 編集→media+creation, 購読→media+shopping, 見逃す/見落とす→sense+cognition, 衰える→change+health, 早まる/早める→time-general+change, …); 絡む read and left as action. Detector 1,371 → 1,327. Next batch after 04588.
 
 **Update 2026-11-15 (00:15 run, systemic-fix, sixth cycle):** twenty-first batch (04006–04322): 39 retagged (略す→language, 整備→technology+building, 低下→change+quantity, 輸血→health, 往復→travel+movement, 解散→society+politics, 開通→transportation, 作成/作製/執筆/制作/製作→creation, 失恋→emotion, 消化→health+body-internal, 振る舞う→personality+society, 見送る→travel+time-general, 潰れる→change+business, 掃く/拭く/濯ぐ→daily-life, 発売→business+shopping, …); 6 left as action (取り入れる, 取り除く, 打ち込む, 切り取る, 仕掛ける, 嵌まる); 1,272 remain. Next batch after 04322.
