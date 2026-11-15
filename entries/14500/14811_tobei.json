@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "A compound of {渡|と} (to cross over) and ⟦{米|べい}→米：28297_bei⟧ (America, from ⟦{米国|べいこく}→米国：19596_beikoku⟧). This pattern exists for other countries:\n\n- {渡英|とえい} — going to England\n- {渡仏|とふつ} — going to France\n- {渡独|とどく} — going to Germany\n- {渡欧|とおう} — going to Europe\n\nThese compounds are more concise and slightly more formal than saying ⟦アメリカ→アメリカ：01769_amerika⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧. They are commonly used in news, biographies, and formal writing.",
-  "cross_references": [],
+  "notes": "REGISTER:\n- More concise and formal than ⟦アメリカ→アメリカ：01769_amerika⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧; common in news, biographies and formal writing, often for a long stay (study, work, emigration).\n\nRELATED WORDS:\n- {渡英|とえい}: going to Britain\n- {渡仏|とふつ}: going to France\n- {渡欧|とおう}: going to Europe\n- ⟦{来日|らいにち}→来日：13060_rainichi⟧: coming to Japan (the opposite direction)\n\nWATCH OUT:\n- ⟦{米|べい}→米：28297_bei⟧ here is short for ⟦{米国|べいこく}→米国：19596_beikoku⟧ (the United States), not rice.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13060_rainichi",
+      "reading": "らいにち",
+      "headword": "{来日|らいにち}",
+      "label": "coming to Japan"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:01:07Z",
-    "modified": "2026-09-26T03:50:28Z",
+    "modified": "2026-11-15T17:02:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -149,7 +157,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "movement"
+        "travel"
       ],
       "verb_class": "suru",
       "transitivity": "intransitive"

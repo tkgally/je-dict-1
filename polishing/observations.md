@@ -1770,3 +1770,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - [entry] 2026-11-14 01300 ございます is tagged verb-godan / verb_class godan-su, but it is the ます form of ござる (an irregular godan-ru verb); the class tag and any conjugation table need a look.
 - [entry] 2026-11-14 Possible overlapping entries with the same spelling: 13040 号 (noun, suffix) and 04024 〜号 (suffix); 13041 和 (noun, prefix) and 00418 和〜 (prefix). Each pair is linked by prominent_see_also; a merge would be a curator decision (not a pure spelling duplicate).
 - [tooling] 2026-11-15 pipeline/metrics_snapshot.py rejects --mode explore-groups (its choices predate the mode), so explore-groups cycles record no metrics line; add the mode to its choices.
+- [entry] 2026-11-15 13144 案ずる: pos verb-irregular (ずる verb) but metadata verb_class is "ichidan"; check which class the conjugation table and checker expect before changing (conjugation-check mode).
