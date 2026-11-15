@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Common collocations: {基礎的|きそてき}な⟦{知識|ちしき}→知識：01463_chishiki⟧ (fundamental knowledge), {基礎的|きそてき}な⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧ (basic/fundamental research), {基礎的|きそてき}な⟦{体力|たいりょく}→体力：05318_tairyoku⟧ (basic physical fitness), {基礎的|きそてき}な⟦{能力|のうりょく}→能力：03541_nouryoku⟧ (basic ability). Compare with ⟦{基本的|きほんてき}→基本的：04787_kihonteki⟧ (basic — more commonly used in everyday speech) and ⟦{根本的|こんぽんてき}→根本的：17920_konponteki⟧ (fundamental — implies getting to the root cause). {基礎的|きそてき} is often used in academic and formal contexts.",
+  "notes": "COMMON COLLOCATIONS:\n- {基礎的|きそてき}な⟦{知識|ちしき}→知識：01463_chishiki⟧: basic knowledge\n- {基礎的|きそてき}な⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧: basic research\n- {基礎的|きそてき}な⟦{体力|たいりょく}→体力：05318_tairyoku⟧: basic physical fitness\n\nSIMILAR WORDS:\n- ⟦{基本的|きほんてき}→基本的：04787_kihonteki⟧: basic; the everyday word. {基礎的|きそてき} stresses the groundwork that later learning builds on and is commoner in academic and formal writing.\n- ⟦{根本的|こんぽんてき}→根本的：17920_konponteki⟧: fundamental, going to the root of a problem (⟦{根本的|こんぽんてき}→根本的：17920_konponteki⟧な⟦{解決|かいけつ}→解決：00136_kaiketsu⟧, a fundamental solution).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04787_kihonteki",
+      "reading": "きほんてき",
+      "headword": "{基本的|きほんてき}",
+      "label": "basic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17920_konponteki",
+      "reading": "こんぽんてき",
+      "headword": "{根本的|こんぽんてき}",
+      "label": "fundamental, going to the root…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-24T11:29:03Z",
-    "modified": "2026-09-02T04:01:55Z"
+    "modified": "2026-11-15T17:02:54Z"
   }
 }
