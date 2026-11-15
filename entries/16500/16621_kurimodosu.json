@@ -4,7 +4,7 @@
   "headword": "{繰|く}り{戻|もど}す",
   "reading": "くりもどす",
   "part_of_speech": "verb (godan)",
-  "gloss": "to carry back; to rewind",
+  "gloss": "to carry back; to transfer back (funds)",
   "conjugation": {
     "type": "godan",
     "forms": [
@@ -98,27 +98,25 @@
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "to carry back; to return to a previous state",
-      "explanation": "To move something back to its original position or state. Used both literally (rewinding tape) and figuratively (reverting financial losses or recovering past payments)."
+      "gloss": "to carry back; to transfer back (funds)",
+      "explanation": "An accounting, tax and public-finance word: to carry a loss back against an earlier year, or to return transferred money to the account or fund it came from."
     }
   ],
   "examples": [
     {
       "id": "16621_kurimodosu_ex1",
-      "japanese": "⟦テープ→テープ：01535_teepu⟧⟦を→を：00422_wo⟧{繰|く}り{戻|もど}した。",
-      "english": "I rewound the tape.",
+      "japanese": "⟦{余|あま}った→余る：00001_amaru⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{一般会計|いっぱんかいけい}⟦に→に：00314_ni⟧{繰|く}り{戻|もど}した。",
+      "english": "The unused budget was transferred back to the general account.",
       "notes": null,
-      "has_audio": true,
       "sense_numbers": [
         1
       ]
     },
     {
       "id": "16621_kurimodosu_ex2",
-      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{繰|く}り{戻|もど}すこと⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧。",
-      "english": "You cannot turn back time.",
+      "japanese": "{取|と}り{崩|くず}した⟦{分|ぶん}→分：26216_bun⟧⟦は→は：00079_ha⟧⟦{来年度|らいねんど}→来年度：28221_rainendo⟧⟦に→に：00314_ni⟧⟦{基金|ききん}→基金：20400_kikin⟧⟦へ→へ：02473_he⟧{繰|く}り{戻|もど}す⟦{予定|よてい}→予定：00824_yotei⟧だ。",
+      "english": "The amount drawn down is to be returned to the fund next fiscal year.",
       "notes": null,
-      "has_audio": true,
       "sense_numbers": [
         1
       ]
@@ -134,11 +132,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nHas both everyday and specialized financial meanings. In tax and accounting contexts, {繰|く}り{戻|もど}す refers to carrying back losses to offset previous years' profits.\n\nCOMMON COLLOCATIONS:\n- ⟦{損失|そんしつ}→損失：04875_sonshitsu⟧⟦を→を：00422_wo⟧{繰|く}り{戻|もど}す (to carry back a loss)\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{繰|く}り{戻|もど}す (to turn back time)\n- {繰戻還付|くりもどしかんぷ} (loss carryback refund)\n\nSIMILAR WORDS:\n- {繰|く}り{越|こ}す: to carry forward (to future periods)",
-  "cross_references": [],
+  "notes": "USAGE:\n- A specialist word. In tax and accounting it means carrying a loss back to offset an earlier year's profits; in budgeting, returning money to the account it was transferred from.\n\nCOMMON COLLOCATIONS:\n- ⟦{損失|そんしつ}→損失：04875_sonshitsu⟧⟦を→を：00422_wo⟧{繰|く}り{戻|もど}す (to carry back a loss)\n- {繰戻還付|くりもどしかんぷ} (loss carryback refund)\n\nSIMILAR WORDS:\n- ⟦{繰|く}り{越|こ}す→繰り越す：31803_kurikosu⟧: to carry forward (to future periods)\n\nWATCH OUT:\n- To rewind a tape or turn back time is ⟦{巻|ま}き{戻|もど}す→巻き戻す：15915_makimodosu⟧: ⟦テープ→テープ：01535_teepu⟧⟦を→を：00422_wo⟧⟦{巻|ま}き{戻|もど}す→巻き戻す：15915_makimodosu⟧, ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{巻|ま}き{戻|もど}す→巻き戻す：15915_makimodosu⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "31803_kurikosu",
+      "reading": "くりこす",
+      "headword": "{繰|く}り{越|こ}す",
+      "label": "to carry forward"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-09-02T04:01:45Z",
+    "modified": "2026-11-15T01:07:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
