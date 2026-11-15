@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A key term in finance and investing. Common collocations: {利回|りまわ}り⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧ (high/low yield), ⟦{表面|ひょうめん}→表面：03587_hyoumen⟧{利回|りまわ}り (gross yield), ⟦{実質|じっしつ}→実質：12282_jisshitsu⟧{利回|りまわ}り (net yield), ⟦{配当|はいとう}→配当：05970_haitou⟧{利回|りまわ}り (dividend yield). Compound structure: ⟦{利|り}→利：29142_ri⟧ (profit, interest) + ⟦{回|まわ}り→回る：01150_mawaru⟧ (rotation, return). Related: ⟦{利率|りりつ}→利率：21159_riritsu⟧ (interest rate — for loans/deposits), ⟦{収益率|しゅうえきりつ}→収益率：24110_shuuekiritsu⟧ (rate of return — more formal).",
+  "notes": "COMMON COLLOCATIONS:\n- {利回|りまわ}り⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ / ⟦{低|ひく}い→低い：02947_hikui⟧: the yield is high / low\n- ⟦{表面|ひょうめん}→表面：03587_hyoumen⟧{利回|りまわ}り: gross yield (before costs)\n- ⟦{実質|じっしつ}→実質：12282_jisshitsu⟧{利回|りまわ}り: net yield (after costs)\n- ⟦{配当|はいとう}→配当：05970_haitou⟧{利回|りまわ}り: dividend yield\n\nSIMILAR WORDS:\n- ⟦{利率|りりつ}→利率：21159_riritsu⟧: the interest rate set on a loan, deposit or bond. {利回|りまわ}り is the return actually earned, so a bond bought below its face value yields more than its ⟦{利率|りりつ}→利率：21159_riritsu⟧.\n- ⟦{収益率|しゅうえきりつ}→収益率：24110_shuuekiritsu⟧: rate of return in general, a more technical term.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -81,6 +81,13 @@
       "reading": "はいとうきん",
       "headword": "{配当金|はいとうきん}",
       "label": "dividend (payment)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21159_riritsu",
+      "reading": "りりつ",
+      "headword": "{利率|りりつ}",
+      "label": "the interest rate set on a loan…"
     }
   ],
   "metadata": {
@@ -99,6 +106,6 @@
       ]
     },
     "created": "2026-03-22T11:46:49Z",
-    "modified": "2026-10-04T01:51:21Z"
+    "modified": "2026-11-15T16:21:16Z"
   }
 }
