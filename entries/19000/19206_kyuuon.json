@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {吸|きゅう} (absorb, inhale) + {音|おん} (sound). Distinct from ⟦{遮音|しゃおん}→遮音：19182_shaon⟧ (sound insulation, which blocks sound transmission) and ⟦{防音|ぼうおん}→防音：14565_bouon⟧ (soundproofing, the general term). {吸音|きゅうおん} specifically reduces echo and reverberation within a space. Common collocations: {吸音|きゅうおん}⟦{材|ざい}→〜材：28347_zai⟧ (sound-absorbing material), {吸音|きゅうおん}⟦パネル→パネル：08840_paneru⟧ (acoustic panel), {吸音|きゅうおん}⟦{率|りつ}→率：03802_ritsu⟧ (sound absorption coefficient), {吸音|きゅうおん}⟦{効果|こうか}→効果：02726_kouka⟧ (sound absorption effect). Materials like felt, foam, and perforated boards are common {吸音|きゅうおん}⟦{材|ざい}→〜材：28347_zai⟧.",
+  "notes": "SIMILAR WORDS:\n- ⟦{遮音|しゃおん}→遮音：19182_shaon⟧: blocking sound from passing through a wall or floor; {吸音|きゅうおん} soaks up sound inside a room to cut echo\n- ⟦{防音|ぼうおん}→防音：14565_bouon⟧: soundproofing, the general everyday word\n\nCOMMON COLLOCATIONS:\n- {吸音材|きゅうおんざい}: sound-absorbing material (felt, foam, perforated board)\n- {吸音|きゅうおん}⟦パネル→パネル：08840_paneru⟧: an acoustic panel\n- {吸音率|きゅうおんりつ}: sound absorption coefficient",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -150,6 +150,13 @@
       "reading": "ぼうおんしつ",
       "headword": "{防音室|ぼうおんしつ}",
       "label": "soundproof room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19182_shaon",
+      "reading": "しゃおん",
+      "headword": "{遮音|しゃおん}",
+      "label": "blocking sound from passing through…"
     }
   ],
   "metadata": {
@@ -171,6 +178,6 @@
       "transitivity": "intransitive"
     },
     "created": "2026-03-24T14:03:02Z",
-    "modified": "2026-09-19T16:20:14Z"
+    "modified": "2026-11-15T00:20:42Z"
   }
 }

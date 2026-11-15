@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "Used both transitively (⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧{中断|ちゅうだん}する, to suspend work) and intransitively (⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧{中断|ちゅうだん}する, work is suspended). Unlike ⟦{中止|ちゅうし}→中止：03481_chuushi⟧ (cancellation, permanent stop), ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧ implies the activity may be resumed. Common collocations: ⟦{一時|いちじ}→一時：01799_ichiji⟧⟦{中断|ちゅうだん}→中断：05218_chuudan⟧ (temporary interruption), ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧⟦なく→ない：01118_nai⟧ (without interruption), ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧⟦を→を：00422_wo⟧⟦{余儀|よぎ}なく→余儀なく：28255_yoginaku⟧⟦される→する：00392_suru⟧ (to be forced to suspend).",
+  "notes": "TRANSITIVITY:\n- Both: ⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧{中断|ちゅうだん}する (to stop work) and ⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧{中断|ちゅうだん}する (work stops). The passive {中断|ちゅうだん}される is also common.\n\nSIMILAR WORDS:\n- ⟦{中止|ちゅうし}→中止：03481_chuushi⟧: called off, before it starts or partway, with no plan to resume; ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧ implies it may resume.\n- ⟦{停止|ていし}→停止：04067_teishi⟧: a halt, especially of machines, services or movement.\n\nCOMMON COLLOCATIONS:\n- ⟦{一時|いちじ}→一時：01799_ichiji⟧⟦{中断|ちゅうだん}→中断：05218_chuudan⟧: a temporary break\n- ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧⟦なく→ない：01118_nai⟧: without a break\n- ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧⟦を→を：00422_wo⟧⟦{余儀|よぎ}なく→余儀なく：28255_yoginaku⟧⟦される→する：00392_suru⟧: to be forced to stop",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -149,6 +149,20 @@
       "reading": "きゅうしする",
       "headword": "{休止|きゅうし}する",
       "label": "to suspend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03481_chuushi",
+      "reading": "ちゅうし",
+      "headword": "{中止|ちゅうし}",
+      "label": "called off, before it starts…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04067_teishi",
+      "reading": "ていし",
+      "headword": "{停止|ていし}",
+      "label": "a halt, especially of machines…"
     }
   ],
   "metadata": {
@@ -167,6 +181,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T12:14:22Z",
-    "modified": "2026-10-02T19:21:24Z"
+    "modified": "2026-11-15T00:20:42Z"
   }
 }
