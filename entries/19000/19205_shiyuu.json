@@ -134,11 +134,11 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {私|し} (private, personal) + {有|ゆう} (possess, own). The opposite is ⟦{公有|こうゆう}→公有：21178_kouyuu⟧ (public ownership) or ⟦{国有|こくゆう}→国有：28390_kokuyuu⟧ (state ownership). Common collocations: {私有|しゆう}{地|ち} (private land), {私有|しゆう}⟦{財産|ざいさん}→財産：01635_zaisan⟧ (private property), {私有|しゆう}{林|りん} (private forest), {私有|しゆう}⟦{物|ぶつ}→〜物：28336_butsu⟧ (private belongings), {私有|しゆう}⟦{化|か}→〜化：28335_ka⟧ (taking something into private hands; privatizing a public company is ⟦{民営化|みんえいか}→民営化：17587_mineika⟧). Part of the {〜有|ゆう} ownership family: ⟦{所有|しょゆう}→所有：12752_shoyuu⟧ (ownership), ⟦{共有|きょうゆう}→共有：11666_kyouyuu⟧ (shared ownership), ⟦{国有|こくゆう}→国有：28390_kokuyuu⟧ (state-owned).",
+  "notes": "SIMILAR WORDS:\n- Opposites: ⟦{公有|こうゆう}→公有：21178_kouyuu⟧ (public ownership), ⟦{国有|こくゆう}→国有：28390_kokuyuu⟧ (state ownership)\n- ⟦{所有|しょゆう}→所有：12752_shoyuu⟧: ownership in general; {私有|しゆう} stresses private as opposed to public\n\nCOMMON COLLOCATIONS:\n- ⟦{私有地|しゆうち}→私有地：22702_shiyuuchi⟧: private land\n- {私有財産|しゆうざいさん}: private property\n- {私有物|しゆうぶつ}: private belongings\n\nWATCH OUT:\n- Privatizing a public company is ⟦{民営化|みんえいか}→民営化：17587_mineika⟧, not ⟦{私有化|しゆうか}→私有化：24836_shiyuuka⟧.",
   "schema_version": "2.0",
   "cross_references": [
     {
-      "type": "contrast",
+      "type": "antonym",
       "target_id": "21178_kouyuu",
       "reading": "こうゆう",
       "headword": "{公有|こうゆう}",
@@ -150,6 +150,13 @@
       "reading": "こくゆう",
       "headword": "{国有|こくゆう}",
       "label": "state-owned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12752_shoyuu",
+      "reading": "しょゆう",
+      "headword": "{所有|しょゆう}",
+      "label": "ownership in general"
     }
   ],
   "metadata": {
@@ -172,6 +179,6 @@
       "transitivity": "transitive"
     },
     "created": "2026-03-24T14:02:45Z",
-    "modified": "2026-10-01T10:39:12Z"
+    "modified": "2026-11-15T00:20:42Z"
   }
 }
