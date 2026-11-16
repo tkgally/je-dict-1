@@ -30,7 +30,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 VALID_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries",
-               "candidates", "wiki", "audio", "conjugation-check"]
+               "candidates", "wiki", "audio", "conjugation-check", "explore-groups"]
 DETECTORS = {
     "furigana_format": "build/check_furigana_format.py",
     "artifacts": "build/check_artifacts.py",
