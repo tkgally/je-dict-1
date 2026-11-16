@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-16 (20 new entries, second cycle of the 00:15 UTC run)
+
+33587–33606. Closure: 停職, 土嚢, 乱獲, 関脇, 心労, 先物, 寄生虫. Brainstorm (field body-part): あばら, 内股, 胸板, 腕っぷし, 腰回り, 膝頭, 赤毛. ezFurigana: 西ドイツ, ヒンドゥー教, フォーカス, 房, フレーバー, 物的.
+Self-check: 2 fixes applied (33597: person tag removed; 33604: 乳房 was wrongly given as a "room" reading of 房); kana links clean.
+
 ### 2026-11-15 (56 candidates queued, sixth cycle of the 16:17 UTC run)
 
 Closure 10: no noentry markers remain; a scan of unlinked words in today's polished and reviewed examples found 正気, 主格, 合板, 拘束力, 取っ組む, 居合, 隔世の感, 抗原検査, 和洋 (極まる was queued earlier in the run). Brainstorm 46 (field clothing; self 21 proposals, gpt-6.1-sol and gemini-3.8-flash 50 each; 59 new after filtering): 裾上げ, ほつれる, 毛玉, 腹巻き, パンプス, 丸首, 着丈, 着付け, 半纏, 襦袢, 襷, よそ行き, 型崩れ, 脱げる, 袂, 雨合羽, 頭巾 …; 15 rejected (variants of existing entries, kimono-specialist and fashion-jargon items). Queue 332.
@@ -68,7 +73,3 @@ Self-check: clean; kana links clean.
 
 Closure 0: no noentry markers remain, and every bare furigana word in the examples turned out to be an existing entry. Brainstorm 36: seeds 220–260 (〜巻, 息を引き取る, 他界, 死に物狂い, 下調べ, 外面 そとづら, 追伸, 体内時計, のど飴, 駄目出し, 晴れ間, 発つ, 一番乗り …) and field business (社内報, 寿退社, 御用納め, 社員旅行); 21 rejected. Queue 306.
 
-### 2026-11-14 (20 new entries, second cycle of the 12:15 UTC run)
-
-33537–33556. Closure: 煮えくり返る, 母屋, 仮病, 商業施設, 支援物資, 江戸幕府, 陸上自衛隊. Brainstorm: 白目, 黒目, 頭皮 (field body-part), 苦学生 (seed 学生), 日本語能力試験 (seed 日本語), 月経, 排卵 (field body-internal). ezFurigana: 昼前, 広間, ビジョン, 一幕, 封, フィンランド. Candidate 日本銀行 dropped (already entry 10141, read にっぽんぎんこう).
-Self-check: 1 notes fix applied (33551: 昼前に is "before noon", not "by noon"); kana links clean.
