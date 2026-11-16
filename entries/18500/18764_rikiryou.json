@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Common collocations: {力量|りきりょう}⟦が→が：00051_ga⟧⟦{問|と}われる→問う：02299_tou⟧ (one's ability is tested/questioned), {力量|りきりょう}⟦を→を：00422_wo⟧⟦{発揮|はっき}する→発揮する：17267_hakkisuru⟧ (to demonstrate one's ability), {力量|りきりょう}{不足|ぶそく} (lack of ability). Often used when assessing someone's suitability for a role or task. Related: ⟦{能力|のうりょく}→能力：03541_nouryoku⟧ (ability — more general), ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧ (real ability — emphasizes what someone can actually do vs. credentials), ⟦{手腕|しゅわん}→手腕：07466_shuwan⟧ (skill/prowess — emphasizes practical skill in handling matters).",
+  "notes": "Often used when judging whether someone is up to a role or task.\n\nCOMMON COLLOCATIONS:\n- {力量|りきりょう}⟦が→が：00051_ga⟧⟦{問|と}われる→問う：02299_tou⟧: one's ability is put to the test\n- {力量|りきりょう}⟦を→を：00422_wo⟧⟦{発揮|はっき}する→発揮する：17267_hakkisuru⟧: to show what one can do\n- {力量|りきりょう}{不足|ぶそく}: lack of ability\n\nSIMILAR WORDS:\n- ⟦{能力|のうりょく}→能力：03541_nouryoku⟧: ability — the general word\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧: real ability — what someone can actually do, as opposed to credentials\n- ⟦{手腕|しゅわん}→手腕：07466_shuwan⟧: skill, prowess — practical skill in handling affairs",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -53,6 +53,20 @@
       "reading": "しゅわん",
       "headword": "{手腕|しゅわん}",
       "label": "skill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03541_nouryoku",
+      "reading": "のうりょく",
+      "headword": "{能力|のうりょく}",
+      "label": "ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03277_jitsuryoku",
+      "reading": "じつりょく",
+      "headword": "{実力|じつりょく}",
+      "label": "real ability"
     }
   ],
   "metadata": {
@@ -68,6 +82,6 @@
       ]
     },
     "created": "2026-03-23T03:33:42Z",
-    "modified": "2026-10-03T00:18:48Z"
+    "modified": "2026-11-16T00:51:22Z"
   }
 }
