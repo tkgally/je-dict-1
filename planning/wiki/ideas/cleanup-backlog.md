@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-16 (00:15 run, systemic-fix, sixth cycle):** twenty-fourth batch (04734–05346): 44 retagged by meaning (バズる→media+communication, 返済→finance+money, 買収→business+law, 介護→health+family, 同盟→politics+military, 微分/積分→science+number, 焦げる→cooking+change, …); 手放す left as action. Detector 1,286 → 1,242. Next batch after 05346.
+
 **Update 2026-11-15 (16:17 run, systemic-fix, seventh cycle):** twenty-third batch (04590–04669): 39 retagged by meaning (思い切る→cognition+emotion, 芽生える→plant-general+change, 着替える→clothing+daily-life, 暴く→communication+law, 排出→science+health, 目覚める→daily-life+cognition, 組み立てる→creation+building, motion compounds→movement, …); 括る, 漁る, 晒す, 逃す, 挟まる left as action. Detector 1,325 → 1,286. Next batch after 04669.
 
 **Update 2026-11-15 (16:17 run, systemic-fix, third cycle):** twenty-second batch (04326–04588): 44 retagged by meaning (漂う→movement+sense, 散らかる→daily-life, 鳴く→animal-general+sense, 測定→science+quantity, 編集→media+creation, 購読→media+shopping, 見逃す/見落とす→sense+cognition, 衰える→change+health, 早まる/早める→time-general+change, …); 絡む read and left as action. Detector 1,371 → 1,327. Next batch after 04588.
