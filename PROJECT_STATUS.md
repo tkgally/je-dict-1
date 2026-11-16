@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-16 (15 new entries, fifth cycle of the 08:15 UTC run)
+
+33622–33636. Closure: 極まる, 正気, 主格, 合板, 拘束力. Brainstorm: 鼻の下, 首根っこ, 胸毛 (field body-part), 文化の日 (seed 十一月), スポーツの日 (seed 十月). ezFurigana: 矛先, 骨太, 文節, 捕捉, ブレーン.
+Self-check: 1 tag fix (33625 合板: tool removed); kana links clean. Candidate 目的格 added (seen in 33624).
+
 ### 2026-11-16 (15 new entries, seventh cycle of the 00:15 UTC run)
 
 33607–33621. Closure: 肉眼, 花崗岩, 連合国, 豊洲, 真言宗. Brainstorm: 明るさ (seed 明るい), 二人きり, 二人暮らし, 二人三脚 (seed 二人), 紙飛行機 (seed 飛行機). ezFurigana: 北部, ホクホク, 勉学, ご指導ご鞭撻, 変調. New kanji 洲 (02868), 崗 (02869), 撻 (02870). Candidate 一人ぼっち dropped (entry 19525 独りぼっち is the same word).
@@ -68,9 +73,4 @@ Closure 10: no noentry markers remain; a scan of unlinked words in today's polis
 
 33569–33586. Closure: 納車, 小選挙区, 漁協, 沐浴, 神保町, アインシュタイン. Brainstorm (field body-part): 利き足, あかぎれ, ささくれ, すね毛, 指の腹, がに股. ezFurigana: 発情期, 備蓄米, 俯瞰的, 復縁, 踏み入れる, 浮遊. New kanji 沐 (02867).
 Self-check: 1 clarification applied (33580: O脚 read オーきゃく); 1 kana link removed (33580: ようとして is not として).
-
-### 2026-11-14 (12 new entries, eighth cycle of the 12:15 UTC run)
-
-33557–33568, a short cycle at the end of the run. Closure: 家督, 工務店, 懸賞, 組曲. Brainstorm (field body-part): 口角, 目やに, 力こぶ, 犬歯. ezFurigana: 深掘り, 吹き出し, 不慣れ, 副産物. Candidate 緑化 (りょくか) dropped: entry 32041 has it as りょっか.
-Self-check: clean; kana links clean.
 
