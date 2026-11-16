@@ -1773,3 +1773,4 @@ the readings with the rule in the prompt, or post-process them (a deterministic 
 - [entry] 2026-11-15 13144 案ずる: pos verb-irregular (ずる verb) but metadata verb_class is "ichidan"; check which class the conjugation table and checker expect before changing (conjugation-check mode).
 - [tooling] 2026-11-15 build/brainstorm_candidates.py filter: TypeError in the sort when a proposal's seed_id is null (field lens, own proposals). Use "" or make the sort key tolerate None.
 - [entry] 2026-11-16 13199 歴代: pos lists pre-noun-adjectival, but 歴代 is a noun used with の or as a prefix (歴代最高), not a 連体詞; check whether the tag should go.
+- [entry] 2026-11-16 33625 合板: audio checks heard ごうばん for 合板 in 33625_gouhan_ex1 and ex3; the furigana ごうはん is the dictionary reading, but ごうばん is common in speech; consider naming it under WATCH OUT or PRONUNCIATION.
