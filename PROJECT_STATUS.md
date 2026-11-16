@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-16 (15 new entries, seventh cycle of the 00:15 UTC run)
+
+33607–33621. Closure: 肉眼, 花崗岩, 連合国, 豊洲, 真言宗. Brainstorm: 明るさ (seed 明るい), 二人きり, 二人暮らし, 二人三脚 (seed 二人), 紙飛行機 (seed 飛行機). ezFurigana: 北部, ホクホク, 勉学, ご指導ご鞭撻, 変調. New kanji 洲 (02868), 崗 (02869), 撻 (02870). Candidate 一人ぼっち dropped (entry 19525 独りぼっち is the same word).
+Self-check: 1 tag fix (33610 豊洲: food removed); 1 kana link retargeted (33612: どんなに, not どんな).
+
 ### 2026-11-16 (20 new entries, second cycle of the 00:15 UTC run)
 
 33587–33606. Closure: 停職, 土嚢, 乱獲, 関脇, 心労, 先物, 寄生虫. Brainstorm (field body-part): あばら, 内股, 胸板, 腕っぷし, 腰回り, 膝頭, 赤毛. ezFurigana: 西ドイツ, ヒンドゥー教, フォーカス, 房, フレーバー, 物的.
@@ -68,8 +73,4 @@ Self-check: 1 clarification applied (33580: O脚 read オーきゃく); 1 kana l
 
 33557–33568, a short cycle at the end of the run. Closure: 家督, 工務店, 懸賞, 組曲. Brainstorm (field body-part): 口角, 目やに, 力こぶ, 犬歯. ezFurigana: 深掘り, 吹き出し, 不慣れ, 副産物. Candidate 緑化 (りょくか) dropped: entry 32041 has it as りょっか.
 Self-check: clean; kana links clean.
-
-### 2026-11-14 (36 candidates queued, seventh cycle of the 12:15 UTC run)
-
-Closure 0: no noentry markers remain, and every bare furigana word in the examples turned out to be an existing entry. Brainstorm 36: seeds 220–260 (〜巻, 息を引き取る, 他界, 死に物狂い, 下調べ, 外面 そとづら, 追伸, 体内時計, のど飴, 駄目出し, 晴れ間, 発つ, 一番乗り …) and field business (社内報, 寿退社, 御用納め, 社員旅行); 21 rejected. Queue 306.
 
