@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-16 (20 new entries, second cycle of the 16:15 UTC run)
+
+33637–33656. Closure: 木戸孝允, 大阪万博, 芭蕉, 鳴門, 東証, 井原西鶴, 越後. Brainstorm: 暑苦しい (seed 暑い), 自転車置き場 (seed 自転車), 成人の日 (seed 一月), 隻 (seed 台), 鼻毛, 涙袋 (field body-part), モナリザ (field art). ezFurigana: 弁, 本書, 本島, 本邦, 奔流, ホームルーム. New kanji 允 (02871), 隻 (02872). Candidates 艘, 薩長同盟, 本稿 added.
+Self-check: clean; kana links clean. 鳴門's fish-cake examples use ナルト, since the linker reads kana なると as なる + と.
+
 ### 2026-11-16 (15 new entries, fifth cycle of the 08:15 UTC run)
 
 33622–33636. Closure: 極まる, 正気, 主格, 合板, 拘束力. Brainstorm: 鼻の下, 首根っこ, 胸毛 (field body-part), 文化の日 (seed 十一月), スポーツの日 (seed 十月). ezFurigana: 矛先, 骨太, 文節, 捕捉, ブレーン.
@@ -68,9 +73,4 @@ Self-check: 2 fixes applied (33597: person tag removed; 33604: 乳房 was wrongl
 ### 2026-11-15 (56 candidates queued, sixth cycle of the 16:17 UTC run)
 
 Closure 10: no noentry markers remain; a scan of unlinked words in today's polished and reviewed examples found 正気, 主格, 合板, 拘束力, 取っ組む, 居合, 隔世の感, 抗原検査, 和洋 (極まる was queued earlier in the run). Brainstorm 46 (field clothing; self 21 proposals, gpt-6.1-sol and gemini-3.8-flash 50 each; 59 new after filtering): 裾上げ, ほつれる, 毛玉, 腹巻き, パンプス, 丸首, 着丈, 着付け, 半纏, 襦袢, 襷, よそ行き, 型崩れ, 脱げる, 袂, 雨合羽, 頭巾 …; 15 rejected (variants of existing entries, kimono-specialist and fashion-jargon items). Queue 332.
-
-### 2026-11-15 (18 new entries, fourth cycle of the 00:15 UTC run)
-
-33569–33586. Closure: 納車, 小選挙区, 漁協, 沐浴, 神保町, アインシュタイン. Brainstorm (field body-part): 利き足, あかぎれ, ささくれ, すね毛, 指の腹, がに股. ezFurigana: 発情期, 備蓄米, 俯瞰的, 復縁, 踏み入れる, 浮遊. New kanji 沐 (02867).
-Self-check: 1 clarification applied (33580: O脚 read オーきゃく); 1 kana link removed (33580: ようとして is not として).
 
