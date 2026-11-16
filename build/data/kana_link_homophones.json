@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-14",
+ "updated": "2026-11-16",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -21058,6 +21058,18 @@
     "reviewed": 4,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "ぽかんとする": {
+   "target": "21457_pokantosuru",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "With する, ぽかんと nearly always means looking blank or dazed; the onomatopoeic 'whack' sense of ぽかん pairs with verbs like 殴る or たたく rather than する.",
+    "model": "claude:opus",
+    "date": "2026-11-16"
    }
   },
   "ぽこぽこ": {
