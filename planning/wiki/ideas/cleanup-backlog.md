@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-16 (08:15 run, systemic-fix):** twenty-fifth batch 2026-11-16 (08:15 run, 05347–05907): 60 retagged by meaning (寝惚ける→daily-life+cognition, しゃぶる→consumption+sense, 欠伸する/くしゃみする→body-internal, 入金→money+finance, しゃがむ/跪く/屈む/跨ぐ/押し出す→movement, 見回す→sense+direction, 質問する→communication+education, 説明する/忠告→communication, 賛成する/反対する→communication+cognition, お見合い→family+culture, 邪魔する→society+greeting, 試行錯誤→cognition+science, 受け持つ→work+education, 生き返る→existence+health, 乗りこなす→transportation+sports, 解除→law+change, 免除→law+money, 早退→time-general+work, 加盟/脱退→society+politics, 初詣→religion+culture, 煮込む→cooking, リプライ→media+communication, 判決→law, 仲裁→law+society, …); none left as action; the detector counts 1,182 remaining. The next batch starts after 05907.
+
 **Update 2026-11-16 (00:15 run, systemic-fix, sixth cycle):** twenty-fourth batch (04734–05346): 44 retagged by meaning (バズる→media+communication, 返済→finance+money, 買収→business+law, 介護→health+family, 同盟→politics+military, 微分/積分→science+number, 焦げる→cooking+change, …); 手放す left as action. Detector 1,286 → 1,242. Next batch after 05346.
 
 **Update 2026-11-15 (16:17 run, systemic-fix, seventh cycle):** twenty-third batch (04590–04669): 39 retagged by meaning (思い切る→cognition+emotion, 芽生える→plant-general+change, 着替える→clothing+daily-life, 暴く→communication+law, 排出→science+health, 目覚める→daily-life+cognition, 組み立てる→creation+building, motion compounds→movement, …); 括る, 漁る, 晒す, 逃す, 挟まる left as action. Detector 1,325 → 1,286. Next batch after 04669.
