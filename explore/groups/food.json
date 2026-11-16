@@ -1,0 +1,421 @@
+{
+  "tag": "food",
+  "groups": [
+    {
+      "id": "meals",
+      "ja": "{食事|しょくじ}",
+      "en": "Meals",
+      "members": [
+        "02087_shokuji",
+        "00776_gohan",
+        "01616_chuushoku",
+        "02843_asagohan",
+        "02940_bangohan",
+        "02950_hirugohan",
+        "03006_yuushoku",
+        "03122_choushoku",
+        "03805_meshi",
+        "02532_ohiru",
+        "02981_yuuhan",
+        "01837_shokujisuru",
+        "00946_itadakimasu",
+        "01336_gochisou",
+        "01310_meshiagaru",
+        "01326_itadaku",
+        "03010_inshoku",
+        "06782_ichininmae"
+      ]
+    },
+    {
+      "id": "food-general",
+      "ja": "{食|た}べ{物|もの}",
+      "en": "Food and foodstuffs",
+      "members": [
+        "02890_tabemono",
+        "03247_shokuhin",
+        "03250_shokuryou",
+        "03761_shokumotsu",
+        "01439_shokuryouhin",
+        "03762_shokuryou",
+        "04940_shokuzai",
+        "05884_seisen",
+        "06232_seisenshokuhin",
+        "06605_kakoushokuhin",
+        "16489_kakouhin",
+        "06075_reitoushokuhin",
+        "24935_shokuhinhozon",
+        "07020_shokuchuudoku"
+      ]
+    },
+    {
+      "id": "rice-grain",
+      "ja": "{米|こめ}と{麦|むぎ}",
+      "en": "Rice, wheat, flour",
+      "members": [
+        "01323_kome",
+        "06101_hakumai",
+        "06100_genmai",
+        "06877_shinmai",
+        "05427_mugi",
+        "01407_komugi",
+        "02806_kokumotsu",
+        "04922_komugiko",
+        "04923_katakuriko",
+        "02766_kona",
+        "03892_tsubu",
+        "03900_mochi"
+      ]
+    },
+    {
+      "id": "rice-dishes",
+      "ja": "ご{飯|はん}もの",
+      "en": "Rice bowls and rice dishes",
+      "members": [
+        "05883_takikomigohan",
+        "04956_onigiri",
+        "01014_bentou",
+        "02864_obentou",
+        "03904_donburi",
+        "04986_zousui",
+        "04987_chazuke",
+        "07502_tamagoyakigohan",
+        "07562_tamagokakegohan",
+        "17621_oyakodon",
+        "08539_katsudon",
+        "08600_gyuudon",
+        "19279_tendon",
+        "22328_butadon",
+        "22949_tanindon",
+        "22950_sanshokudon",
+        "31208_kaisendon"
+      ]
+    },
+    {
+      "id": "drinks",
+      "ja": "{飲|の}み{物|もの}",
+      "en": "Drinks",
+      "members": [
+        "02929_nomimono",
+        "00322_nomu",
+        "01033_juusu",
+        "03011_inryou",
+        "00576_ocha",
+        "02878_koucha",
+        "03433_cha",
+        "00789_koohii",
+        "00284_miruku",
+        "00777_gyuunyuu",
+        "04302_suibun"
+      ]
+    },
+    {
+      "id": "alcohol",
+      "ja": "{酒|さけ}",
+      "en": "Alcohol and sake",
+      "members": [
+        "01067_wain",
+        "01015_biiru",
+        "01045_osake",
+        "02211_sake",
+        "12954_nihonshu",
+        "13354_seishu",
+        "18761_jizake",
+        "19874_shouchuu",
+        "27547_reishu",
+        "31655_kuramoto",
+        "32127_touji",
+        "32135_jouzoushu",
+        "27829_youshu",
+        "13519_amazake",
+        "16001_jouryuushu",
+        "16023_mizuwari",
+        "16637_tansanwari",
+        "28103_oyuwari",
+        "24582_ochoushi",
+        "18900_kouji"
+      ]
+    },
+    {
+      "id": "fruit",
+      "ja": "{果物|くだもの}",
+      "en": "Fruit",
+      "members": [
+        "02187_kawa",
+        "01044_orenji",
+        "01036_mikan",
+        "00509_kudamono",
+        "00146_kajitsu",
+        "01059_suika",
+        "03741_mi",
+        "01018_budou",
+        "01028_ichigo",
+        "02269_ringo",
+        "04382_momo",
+        "04384_kaki"
+      ]
+    },
+    {
+      "id": "vegetables",
+      "ja": "{野菜|やさい}",
+      "en": "Vegetables",
+      "members": [
+        "02265_yasai",
+        "02823_sakumotsu",
+        "05184_jagaimo",
+        "05185_ninjin",
+        "05186_daikon",
+        "05188_hourensou",
+        "05189_negi",
+        "05195_kyuuri",
+        "05196_tamanegi",
+        "07085_kateisaien",
+        "04994_kinoko",
+        "05190_ninniku",
+        "05191_shouga",
+        "03738_mame"
+      ]
+    },
+    {
+      "id": "dish-types",
+      "ja": "{煮物|にもの}と{焼|や}き{物|もの}",
+      "en": "Kinds of dishes",
+      "members": [
+        "04975_agemono",
+        "04948_tenpura",
+        "04949_karaage",
+        "04971_nimono",
+        "04974_yakimono",
+        "04978_mushimono",
+        "04979_aemono",
+        "04982_sunomono",
+        "08537_itamemono",
+        "31018_tamagotoji",
+        "04992_zensai",
+        "04995_shusai",
+        "04938_tsukemono"
+      ]
+    },
+    {
+      "id": "meat",
+      "ja": "{肉|にく}",
+      "en": "Meat and eggs",
+      "members": [
+        "02919_toriniku",
+        "04952_yakitori",
+        "04984_yakiniku",
+        "02240_niku",
+        "02874_gyuuniku",
+        "02956_butaniku",
+        "03199_shibou",
+        "02222_tamago"
+      ]
+    },
+    {
+      "id": "washoku",
+      "ja": "{和食|わしょく}",
+      "en": "Japanese dishes",
+      "members": [
+        "04023_sashimi",
+        "04946_sushi",
+        "10368_sukiyaki",
+        "14727_oden",
+        "17620_nikujaga",
+        "26036_agedashidoufu",
+        "05182_udon",
+        "04954_misoshiru",
+        "04990_suimono"
+      ]
+    },
+    {
+      "id": "western-food",
+      "ja": "{洋食|ようしょく}",
+      "en": "Western-style dishes",
+      "members": [
+        "00553_pan",
+        "01785_hanbaagu",
+        "10857_korokke",
+        "28094_tonkatsu",
+        "15300_menchikatsu",
+        "06769_piza",
+        "01364_sarada",
+        "01366_sandoicchi",
+        "00395_suupu",
+        "30717_konsome",
+        "30698_koonsuupu",
+        "30699_potaaju"
+      ]
+    },
+    {
+      "id": "tofu-konjac",
+      "ja": "{豆腐|とうふ}",
+      "en": "Tofu, fu, konnyaku",
+      "members": [
+        "04928_toufu",
+        "04930_nattou",
+        "07948_kouyadoufu",
+        "22852_kooridoufu",
+        "07478_atsuage",
+        "07477_aburaage",
+        "07947_yuba",
+        "14226_tounyuu",
+        "08112_ofu",
+        "23651_namafu",
+        "08113_kurumafu",
+        "04931_konnyaku",
+        "07480_shirataki",
+        "14995_itokonnyaku"
+      ]
+    },
+    {
+      "id": "sea-dashi",
+      "ja": "{出汁|だし}",
+      "en": "Seaweed, bonito, stock",
+      "members": [
+        "05881_kaisen",
+        "04934_konbu",
+        "04935_katsuobushi",
+        "06750_kaisou",
+        "02145_kai",
+        "08118_tororokonbu",
+        "16802_konbudashi",
+        "04917_dashi"
+      ]
+    },
+    {
+      "id": "sweets",
+      "ja": "お{菓子|かし}",
+      "en": "Sweets and desserts",
+      "members": [
+        "04962_wagashi",
+        "02852_okashi",
+        "04958_senbei",
+        "04959_dango",
+        "04998_yougashi",
+        "05000_manjuu",
+        "05002_youkan",
+        "00687_ame",
+        "00191_kashi",
+        "00036_dezaato",
+        "03830_aisukuriimu",
+        "06770_aisu",
+        "05183_chokoreeto",
+        "01356_keeki"
+      ]
+    },
+    {
+      "id": "seasonings",
+      "ja": "{調味料|ちょうみりょう}",
+      "en": "Seasonings and spices",
+      "members": [
+        "01037_miso",
+        "01056_shouyu",
+        "00887_shio",
+        "01057_su",
+        "04918_mirin",
+        "28722_honmirin",
+        "17180_ryourishu",
+        "04943_koushinryou",
+        "05121_wasabi",
+        "04941_choumiryou",
+        "11054_supaisu",
+        "14678_kouryou",
+        "24338_kousou",
+        "11246_haabu",
+        "28736_peppaa",
+        "10321_koshou",
+        "11871_tougarashi",
+        "23460_choumisuru"
+      ]
+    },
+    {
+      "id": "sugar",
+      "ja": "{砂糖|さとう}",
+      "en": "Sugar and sweeteners",
+      "members": [
+        "00884_satou",
+        "26404_shirozatou",
+        "18292_kurozatou",
+        "18293_kakuzatou",
+        "23597_sanontou",
+        "22930_koorizatou",
+        "24332_kuromitsu",
+        "29769_tensaitou",
+        "23996_guranyuutou",
+        "19618_kokutou",
+        "25163_jouhakutou",
+        "19896_bitou",
+        "19091_mutou",
+        "18192_kanmiryou"
+      ]
+    },
+    {
+      "id": "additives",
+      "ja": "{添加物|てんかぶつ}",
+      "en": "Additives and food labels",
+      "members": [
+        "06593_hozonryou",
+        "06479_tenkabutsu",
+        "18083_boufuzai",
+        "19751_chakushokuryou",
+        "25624_shokuhintenkabutsu",
+        "29836_nyuukazai",
+        "29837_sankaboushizai",
+        "29838_genzairyoumei",
+        "19283_mutenka",
+        "29231_muchakushoku",
+        "19133_munouyaku",
+        "06076_shoumikigen",
+        "06077_shouhikigen"
+      ]
+    },
+    {
+      "id": "vegetarian",
+      "ja": "{菜食|さいしょく}",
+      "en": "Vegetarian food",
+      "members": [
+        "22194_saishoku",
+        "23298_bejitarian",
+        "16101_shoujinryouri"
+      ]
+    },
+    {
+      "id": "eating-out",
+      "ja": "{外食|がいしょく}",
+      "en": "Eating out",
+      "members": [
+        "01048_resutoran",
+        "01054_shokudou",
+        "03024_gaishoku",
+        "03060_shishoku",
+        "04227_mochikaeru",
+        "03123_teishoku"
+      ]
+    },
+    {
+      "id": "kitchen",
+      "ja": "{台所|だいどころ}",
+      "en": "Kitchen and tableware",
+      "members": [
+        "01021_daidokoro",
+        "01038_nabe",
+        "06507_owan",
+        "04481_hashioki",
+        "07157_reshipi"
+      ]
+    },
+    {
+      "id": "taste",
+      "ja": "{味|あじ}",
+      "en": "Taste and appetite",
+      "members": [
+        "00826_aji",
+        "06636_shokkan",
+        "03249_shokuyoku"
+      ]
+    }
+  ],
+  "leftover": [
+    "03991_yuge",
+    "01886_esa"
+  ]
+}
