@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-17 (20 new entries, second cycle of the 00:15 UTC run)
+
+33657–33676. Closure: 取っ組む, 居合, 隔世の感, 和洋, こそばゆい, 目的格, 艘. Brainstorm: 二人連れ (seed 二人), 生暖かい (seed 暖かい), 霜月 (seed 十一月), マウンテンバイク (seed 自転車), 山の日, 終戦記念日 (seed 八月), たこ 'callus' (field body-part). ezFurigana: ポテンシャル, 前のめり, 膜, ボヤ, マイ〜, 幕内.
+Self-check: 2 notes errors fixed (取っ組む's contrast with 取り組む; a false 幕の内弁当 etymology removed from 幕内); kana links clean. New kanji 艘 added to the kanji list. Candidates added: ロードバイク, 凧.
+
 ### 2026-11-16 (20 new entries, second cycle of the 16:15 UTC run)
 
 33637–33656. Closure: 木戸孝允, 大阪万博, 芭蕉, 鳴門, 東証, 井原西鶴, 越後. Brainstorm: 暑苦しい (seed 暑い), 自転車置き場 (seed 自転車), 成人の日 (seed 一月), 隻 (seed 台), 鼻毛, 涙袋 (field body-part), モナリザ (field art). ezFurigana: 弁, 本書, 本島, 本邦, 奔流, ホームルーム. New kanji 允 (02871), 隻 (02872). Candidates 艘, 薩長同盟, 本稿 added.
@@ -69,8 +74,3 @@ Self-check: 1 tag fix (33610 豊洲: food removed); 1 kana link retargeted (3361
 
 33587–33606. Closure: 停職, 土嚢, 乱獲, 関脇, 心労, 先物, 寄生虫. Brainstorm (field body-part): あばら, 内股, 胸板, 腕っぷし, 腰回り, 膝頭, 赤毛. ezFurigana: 西ドイツ, ヒンドゥー教, フォーカス, 房, フレーバー, 物的.
 Self-check: 2 fixes applied (33597: person tag removed; 33604: 乳房 was wrongly given as a "room" reading of 房); kana links clean.
-
-### 2026-11-15 (56 candidates queued, sixth cycle of the 16:17 UTC run)
-
-Closure 10: no noentry markers remain; a scan of unlinked words in today's polished and reviewed examples found 正気, 主格, 合板, 拘束力, 取っ組む, 居合, 隔世の感, 抗原検査, 和洋 (極まる was queued earlier in the run). Brainstorm 46 (field clothing; self 21 proposals, gpt-6.1-sol and gemini-3.8-flash 50 each; 59 new after filtering): 裾上げ, ほつれる, 毛玉, 腹巻き, パンプス, 丸首, 着丈, 着付け, 半纏, 襦袢, 襷, よそ行き, 型崩れ, 脱げる, 袂, 雨合羽, 頭巾 …; 15 rejected (variants of existing entries, kimono-specialist and fashion-jargon items). Queue 332.
-
