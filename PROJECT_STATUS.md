@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-17 (20 new entries, first cycle of the 16:15 UTC run)
+
+33698–33717. Closure: 薩長同盟, 本稿, ロードバイク, 兵糧, 民主制, 修了証書, ケシ. Brainstorm: 乳首, 肛門, 泣き声 (seed 泣く), 折れ曲がる (seed 曲がる), 隙間風 (seed 風), 相合傘 (seed 傘), ダイソー. ezFurigana: むごい, 宿屋, やり口, 磨き, 持ち出し, 模範的.
+Self-check: 1 notes claim removed (ダイソー); kana links clean. New kanji 肛 (02874). Candidates added: 百円ショップ, 百均 (seen in 33711).
+
 ### 2026-11-17 (15 new entries, fifth cycle of the 08:15 UTC run)
 
 33683–33697. Closure: 長州, 蕎麦屋, 抗原検査, 凧, 生活様式. Brainstorm: 春一番 (seed 春), 犬小屋 (seed 犬), 泣きぼくろ, メルカリ, 岡本太郎. ezFurigana: おまじない (looked up as 呪い), 真っ逆さま (as 真っ逆様), まねごと, 万華鏡, プロトコル.
@@ -69,7 +74,3 @@ Closure 7 (no noentry markers remain; a scan of bare words in examples edited si
 33657–33676. Closure: 取っ組む, 居合, 隔世の感, 和洋, こそばゆい, 目的格, 艘. Brainstorm: 二人連れ (seed 二人), 生暖かい (seed 暖かい), 霜月 (seed 十一月), マウンテンバイク (seed 自転車), 山の日, 終戦記念日 (seed 八月), たこ 'callus' (field body-part). ezFurigana: ポテンシャル, 前のめり, 膜, ボヤ, マイ〜, 幕内.
 Self-check: 2 notes errors fixed (取っ組む's contrast with 取り組む; a false 幕の内弁当 etymology removed from 幕内); kana links clean. New kanji 艘 added to the kanji list. Candidates added: ロードバイク, 凧.
 
-### 2026-11-16 (20 new entries, second cycle of the 16:15 UTC run)
-
-33637–33656. Closure: 木戸孝允, 大阪万博, 芭蕉, 鳴門, 東証, 井原西鶴, 越後. Brainstorm: 暑苦しい (seed 暑い), 自転車置き場 (seed 自転車), 成人の日 (seed 一月), 隻 (seed 台), 鼻毛, 涙袋 (field body-part), モナリザ (field art). ezFurigana: 弁, 本書, 本島, 本邦, 奔流, ホームルーム. New kanji 允 (02871), 隻 (02872). Candidates 艘, 薩長同盟, 本稿 added.
-Self-check: clean; kana links clean. 鳴門's fish-cake examples use ナルト, since the linker reads kana なると as なる + と.
