@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-17 (16:15 run, systemic-fix, ninth cycle):** thirty-third batch, 12001–12482: 26 retagged by meaning (入隊→military, 壊滅→change+military, 失踪→existence+law, 奨励→communication+education, 寝かせる→daily-life+cooking, 対決/対抗→sports+society, 廃棄→daily-life+business, …); 3 left as action (取り去る, 妨げる, 封じる). The raw detector counts 770. The next batch starts after 12482.
+
 **Update 2026-11-17 (16:15 run, systemic-fix, fifth cycle):** thirty-second batch, 11053–12000: 53 retagged by meaning (スタート→time-general, 繕う→clothing+appearance, ばらす→communication+change, 主催→society+leisure, 修復→building+change, 供える→religion+culture, 共有→society+technology, 分裂→politics+science, 制御→technology+science, 勃発→military+existence, 呪う→religion+emotion, 司る→politics+work, …); 7 read and left as action (チャレンジ, 反復, 乗り切る, 併用, 兼ねる, 包み込む, 取りやめる). The raw detector counts 797, including entries earlier batches left as action. The next batch starts after 12000.
 
 **Update 2026-11-17 (08:15 run, systemic-fix, seventh cycle):** thirty-first batch, 10416–10996: 52 retagged by meaning (生み出す→creation, 費やす→time-general+money, 開催→society+leisure, 取得する→law+work, 泊まる→travel+daily-life, 発送→business+transportation, 纏う→clothing+appearance, インプット/アウトプット→technology+education, 償う→law+money, …); 3 left as action (活かす, 交える, ゲット). Detector 775 → 723. Next batch after 10996.
