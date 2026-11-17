@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-17 (08:15 run, systemic-fix, third cycle):** thirtieth batch, 09682–10407: 52 retagged by meaning (改装→building+change, 追跡→movement+law, 設置→building+technology, 練る→cooking+cognition, 送金→money+finance, 賭ける→money+leisure, 起訴する/犯す→law, 開拓→geography+business, 締める/留める→clothing, 傷む→change+food, 庇う→society+emotion, こだわる→cognition+personality, 育む→family+education, 出来上がる→creation+change, …); 3 left as action (立てかける, 差し置く, 保つ). Detector 832 → 780. Next batch after 10407.
+
 **Update 2026-11-17 (00:15 run, systemic-fix, seventh cycle):** twenty-ninth batch, 07423–09681: 57 retagged by meaning (妥協→communication+society, 介入→politics+society, 取り締まり→law, 蒸発→science+existence, 鳴り響く→sense+music, 装う→appearance+clothing, サボる→work+education, 発令→law+politics, 洗濯する→daily-life+clothing, 改良→change+technology, …); 3 left as action (まねっこ, いじる, 遭う). Detector 1,015 → 958. Next batch starts after 09681.
 
 **Update 2026-11-17 (00:15 run, systemic-fix, first cycle):** twenty-eighth batch, 06721–07418: 67 retagged by meaning (ばれる→communication, 押し寄せる→movement+quantity, 打ち出す→communication+politics, 居住→daily-life+place, 貼り付ける→technology+daily-life, 吸い込む→health+body-internal, 見極める→cognition+evaluation, 手入れ→daily-life+law, ひるむ→emotion, 滞る→time-general+money, …); 3 left as action (持ち堪える, 繰り広げる, 凌ぐ). Detector 1,082 → 1,015. Next batch starts after 07418.

@@ -203,7 +203,7 @@
       ]
     }
   ],
-  "notes": "{掻|か}き{回|まわ}す is a compound verb (⟦{掻|か}く→掻く：09647_kaku⟧ + ⟦{回|まわ}す→回す：01158_mawasu⟧) with three distinct meanings: physical stirring, rummaging, and causing social disruption.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nASPECT (ている):\n{掻|か}き⟦{回|まわ}して→回す：01158_mawasu⟧⟦いる→いる：00495_iru⟧ describes an ongoing action: ⟦スープ→スープ：00395_suupu⟧⟦を→を：00422_wo⟧{掻|か}き⟦{回|まわ}して→回す：01158_mawasu⟧⟦いる→いる：00495_iru⟧ (is stirring the soup).\n\nCOMMON PATTERNS:\n- ⟦スープ→スープ：00395_suupu⟧⟦を→を：00422_wo⟧{掻|か}き{回|まわ}す: to stir soup\n- ⟦かばん→かばん：00637_kaban⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧{掻|か}き{回|まわ}す: to rummage through a bag\n- ⟦{場|ば}→場：03699_ba⟧⟦を→を：00422_wo⟧{掻|か}き{回|まわ}す: to disrupt a situation, stir up trouble\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧{掻|か}き{回|まわ}す: to disturb someone's peace of mind\n\nSIMILAR WORDS:\n- ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to mix (neutral, general purpose)\n- ⟦かき{混|ま}ぜる→かき混ぜる：15739_kakimazeru⟧: to stir and mix (cooking term)\n- {攪拌|かくはん}⟦する→する：00392_suru⟧: to agitate, stir (technical/scientific)",
+  "notes": "{掻|か}き{回|まわ}す is a compound verb (⟦{掻|か}く→掻く：09647_kaku⟧ + ⟦{回|まわ}す→回す：01158_mawasu⟧) with three distinct meanings: physical stirring, rummaging, and causing social disruption.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nASPECT (ている):\n{掻|か}き⟦{回|まわ}して→回す：01158_mawasu⟧⟦いる→いる：00495_iru⟧ describes an ongoing action: ⟦スープ→スープ：00395_suupu⟧⟦を→を：00422_wo⟧{掻|か}き⟦{回|まわ}して→回す：01158_mawasu⟧⟦いる→いる：00495_iru⟧ (is stirring the soup).\n\nCOMMON PATTERNS:\n- ⟦スープ→スープ：00395_suupu⟧⟦を→を：00422_wo⟧{掻|か}き{回|まわ}す: to stir soup\n- ⟦かばん→かばん：00637_kaban⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧{掻|か}き{回|まわ}す: to rummage through a bag\n- ⟦{場|ば}→場：03699_ba⟧⟦を→を：00422_wo⟧{掻|か}き{回|まわ}す: to disrupt a situation, stir up trouble\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧{掻|か}き{回|まわ}す: to disturb someone's peace of mind\n\nSIMILAR WORDS:\n- ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to mix (neutral, general purpose)\n- ⟦かき{混|ま}ぜる→かき混ぜる：15739_kakimazeru⟧: to stir and mix (cooking term)\n- ⟦{攪拌|かくはん}→攪拌：32066_kakuhan⟧⟦する→する：00392_suru⟧: to agitate, stir (technical/scientific)",
   "cross_references": [
     {
       "type": "contrast",
@@ -232,11 +232,18 @@
       "reading": "なでまわす",
       "headword": "{撫|な}で{回|まわ}す",
       "label": "to stroke all over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "32066_kakuhan",
+      "reading": "かくはん",
+      "headword": "{攪拌|かくはん}",
+      "label": "to agitate, stir"
     }
   ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-10-17T01:48:39Z",
+    "modified": "2026-11-17T08:49:25Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -247,7 +254,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "cooking",
+        "movement"
       ],
       "verb_class": "godan-su"
     }
