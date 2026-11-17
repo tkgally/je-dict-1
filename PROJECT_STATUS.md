@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-17 (9 new entries, eighth cycle of the 16:15 UTC run)
+
+33718–33726. Closure: 百円ショップ, 百均, 真水. Brainstorm: 息を引き取る (seed 死ぬ), 追伸 (seed 手紙), 住み着く (seed 住む). ezFurigana: 民度, 無期, 元夫. Kept small: the cycle started at 103 minutes on the run clock.
+Self-check: 2 fixed (百均 abbreviates 百円均一; 息を引き取る is also said of pets). Candidates added: 元妻, 無期限.
+
 ### 2026-11-17 (20 new entries, first cycle of the 16:15 UTC run)
 
 33698–33717. Closure: 薩長同盟, 本稿, ロードバイク, 兵糧, 民主制, 修了証書, ケシ. Brainstorm: 乳首, 肛門, 泣き声 (seed 泣く), 折れ曲がる (seed 曲がる), 隙間風 (seed 風), 相合傘 (seed 傘), ダイソー. ezFurigana: むごい, 宿屋, やり口, 磨き, 持ち出し, 模範的.
@@ -68,9 +73,4 @@ Self-check: clean; kana links clean. Candidate added: ケシ (seen in 33681).
 ### 2026-11-17 (22 candidates queued, fourth cycle of the 00:15 UTC run)
 
 Closure 7 (no noentry markers remain; a scan of bare words in examples edited since 2026-11-10): 兵糧, 天女, 民主制, 拾い集める, 生活様式, 修了証書, 睨み合う. Brainstorm 15 (seeds 椅子…不味い, cursor 260–280): 九死に一生を得る, 一日おき, かかりつけ, 当月, 雨靴, ハイソックス, 長椅子, 襲いかかる, 通りかかる, 紙コップ, 紙皿, 声変わり, 心変わり, 綺麗事, 変わり. Of 181 proposals, 151 were already entries; 15 rejected.
-
-### 2026-11-17 (20 new entries, second cycle of the 00:15 UTC run)
-
-33657–33676. Closure: 取っ組む, 居合, 隔世の感, 和洋, こそばゆい, 目的格, 艘. Brainstorm: 二人連れ (seed 二人), 生暖かい (seed 暖かい), 霜月 (seed 十一月), マウンテンバイク (seed 自転車), 山の日, 終戦記念日 (seed 八月), たこ 'callus' (field body-part). ezFurigana: ポテンシャル, 前のめり, 膜, ボヤ, マイ〜, 幕内.
-Self-check: 2 notes errors fixed (取っ組む's contrast with 取り組む; a false 幕の内弁当 etymology removed from 幕内); kana links clean. New kanji 艘 added to the kanji list. Candidates added: ロードバイク, 凧.
 
