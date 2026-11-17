@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-17 (22 candidates queued, fourth cycle of the 00:15 UTC run)
+
+Closure 7 (no noentry markers remain; a scan of bare words in examples edited since 2026-11-10): 兵糧, 天女, 民主制, 拾い集める, 生活様式, 修了証書, 睨み合う. Brainstorm 15 (seeds 椅子…不味い, cursor 260–280): 九死に一生を得る, 一日おき, かかりつけ, 当月, 雨靴, ハイソックス, 長椅子, 襲いかかる, 通りかかる, 紙コップ, 紙皿, 声変わり, 心変わり, 綺麗事, 変わり. Of 181 proposals, 151 were already entries; 15 rejected.
+
 ### 2026-11-17 (20 new entries, second cycle of the 00:15 UTC run)
 
 33657–33676. Closure: 取っ組む, 居合, 隔世の感, 和洋, こそばゆい, 目的格, 艘. Brainstorm: 二人連れ (seed 二人), 生暖かい (seed 暖かい), 霜月 (seed 十一月), マウンテンバイク (seed 自転車), 山の日, 終戦記念日 (seed 八月), たこ 'callus' (field body-part). ezFurigana: ポテンシャル, 前のめり, 膜, ボヤ, マイ〜, 幕内.
@@ -69,8 +73,3 @@ Self-check: 1 tag fix (33625 合板: tool removed); kana links clean. Candidate 
 
 33607–33621. Closure: 肉眼, 花崗岩, 連合国, 豊洲, 真言宗. Brainstorm: 明るさ (seed 明るい), 二人きり, 二人暮らし, 二人三脚 (seed 二人), 紙飛行機 (seed 飛行機). ezFurigana: 北部, ホクホク, 勉学, ご指導ご鞭撻, 変調. New kanji 洲 (02868), 崗 (02869), 撻 (02870). Candidate 一人ぼっち dropped (entry 19525 独りぼっち is the same word).
 Self-check: 1 tag fix (33610 豊洲: food removed); 1 kana link retargeted (33612: どんなに, not どんな).
-
-### 2026-11-16 (20 new entries, second cycle of the 00:15 UTC run)
-
-33587–33606. Closure: 停職, 土嚢, 乱獲, 関脇, 心労, 先物, 寄生虫. Brainstorm (field body-part): あばら, 内股, 胸板, 腕っぷし, 腰回り, 膝頭, 赤毛. ezFurigana: 西ドイツ, ヒンドゥー教, フォーカス, 房, フレーバー, 物的.
-Self-check: 2 fixes applied (33597: person tag removed; 33604: 乳房 was wrongly given as a "room" reading of 房); kana links clean.
