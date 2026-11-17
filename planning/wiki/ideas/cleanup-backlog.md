@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-17 (08:15 run, systemic-fix, seventh cycle):** thirty-first batch, 10416–10996: 52 retagged by meaning (生み出す→creation, 費やす→time-general+money, 開催→society+leisure, 取得する→law+work, 泊まる→travel+daily-life, 発送→business+transportation, 纏う→clothing+appearance, インプット/アウトプット→technology+education, 償う→law+money, …); 3 left as action (活かす, 交える, ゲット). Detector 775 → 723. Next batch after 10996.
+
 **Update 2026-11-17 (08:15 run, systemic-fix, third cycle):** thirtieth batch, 09682–10407: 52 retagged by meaning (改装→building+change, 追跡→movement+law, 設置→building+technology, 練る→cooking+cognition, 送金→money+finance, 賭ける→money+leisure, 起訴する/犯す→law, 開拓→geography+business, 締める/留める→clothing, 傷む→change+food, 庇う→society+emotion, こだわる→cognition+personality, 育む→family+education, 出来上がる→creation+change, …); 3 left as action (立てかける, 差し置く, 保つ). Detector 832 → 780. Next batch after 10407.
 
 **Update 2026-11-17 (00:15 run, systemic-fix, seventh cycle):** twenty-ninth batch, 07423–09681: 57 retagged by meaning (妥協→communication+society, 介入→politics+society, 取り締まり→law, 蒸発→science+existence, 鳴り響く→sense+music, 装う→appearance+clothing, サボる→work+education, 発令→law+politics, 洗濯する→daily-life+clothing, 改良→change+technology, …); 3 left as action (まねっこ, いじる, 遭う). Detector 1,015 → 958. Next batch starts after 09681.
