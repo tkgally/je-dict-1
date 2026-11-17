@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-17 (15 new entries, fifth cycle of the 08:15 UTC run)
+
+33683–33697. Closure: 長州, 蕎麦屋, 抗原検査, 凧, 生活様式. Brainstorm: 春一番 (seed 春), 犬小屋 (seed 犬), 泣きぼくろ, メルカリ, 岡本太郎. ezFurigana: おまじない (looked up as 呪い), 真っ逆さま (as 真っ逆様), まねごと, 万華鏡, プロトコル.
+Self-check: 1 tag fixed (犬小屋 was tagged animal-mammal); kana links clean. No new kanji.
+
 ### 2026-11-17 (6 new entries, ninth cycle of the 00:15 UTC run)
 
 33677–33682. Closure: 睨み合う, 拾い集める, 天女. Brainstorm: 通りかかる (seed かかる), 一日おき (seed 毎日). ezFurigana: ポピー. Kept small: the cycle started at 110 minutes on the run clock.
@@ -68,8 +73,3 @@ Self-check: 2 notes errors fixed (取っ組む's contrast with 取り組む; a f
 
 33637–33656. Closure: 木戸孝允, 大阪万博, 芭蕉, 鳴門, 東証, 井原西鶴, 越後. Brainstorm: 暑苦しい (seed 暑い), 自転車置き場 (seed 自転車), 成人の日 (seed 一月), 隻 (seed 台), 鼻毛, 涙袋 (field body-part), モナリザ (field art). ezFurigana: 弁, 本書, 本島, 本邦, 奔流, ホームルーム. New kanji 允 (02871), 隻 (02872). Candidates 艘, 薩長同盟, 本稿 added.
 Self-check: clean; kana links clean. 鳴門's fish-cake examples use ナルト, since the linker reads kana なると as なる + と.
-
-### 2026-11-16 (15 new entries, fifth cycle of the 08:15 UTC run)
-
-33622–33636. Closure: 極まる, 正気, 主格, 合板, 拘束力. Brainstorm: 鼻の下, 首根っこ, 胸毛 (field body-part), 文化の日 (seed 十一月), スポーツの日 (seed 十月). ezFurigana: 矛先, 骨太, 文節, 捕捉, ブレーン.
-Self-check: 1 tag fix (33625 合板: tool removed); kana links clean. Candidate 目的格 added (seen in 33624).
