@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-18 (29 candidates added, fifth cycle of the 16:15 UTC run)
+
+Closure (3): 風雪, 宮家, 温水洗浄便座 (words used in entries edited or created today). Brainstorm, field cognition (16 of 141 proposals new after filtering; 16 added, 3 rejected): 物知り, 気が変わる, 耳を疑う, 頭が切れる, 内省, 勘案, 既視感, 物心がつく, 知ったかぶり, … Brainstorm, seeds 七–飛ぶ (10 added, 9 rejected): 七味唐辛子, 七不思議, 二の次, 二の舞, 三度目の正直, 飛ぶ鳥を落とす勢い, … Queue 223 (177 closure and brainstorm). No unresolved noentry markers remain, so closure had little depth.
+
 ### 2026-11-18 (15 new entries, third cycle of the 16:15 UTC run)
 
 33745–33759. Closure: パロディ. Brainstorm (field brand-name): Suica, ファミリーマート, ローソン, 吉野家, ウォシュレット, サランラップ, ケンタッキー. ezFurigana: プロダクト, モジュール, モルモット, もろ手を挙げて (looked up as 諸手), 宮, マクロ, ボイス.
@@ -69,9 +73,4 @@ Self-check: 2 fixed (百均 abbreviates 百円均一; 息を引き取る is also
 
 33698–33717. Closure: 薩長同盟, 本稿, ロードバイク, 兵糧, 民主制, 修了証書, ケシ. Brainstorm: 乳首, 肛門, 泣き声 (seed 泣く), 折れ曲がる (seed 曲がる), 隙間風 (seed 風), 相合傘 (seed 傘), ダイソー. ezFurigana: むごい, 宿屋, やり口, 磨き, 持ち出し, 模範的.
 Self-check: 1 notes claim removed (ダイソー); kana links clean. New kanji 肛 (02874). Candidates added: 百円ショップ, 百均 (seen in 33711).
-
-### 2026-11-17 (15 new entries, fifth cycle of the 08:15 UTC run)
-
-33683–33697. Closure: 長州, 蕎麦屋, 抗原検査, 凧, 生活様式. Brainstorm: 春一番 (seed 春), 犬小屋 (seed 犬), 泣きぼくろ, メルカリ, 岡本太郎. ezFurigana: おまじない (looked up as 呪い), 真っ逆さま (as 真っ逆様), まねごと, 万華鏡, プロトコル.
-Self-check: 1 tag fixed (犬小屋 was tagged animal-mammal); kana links clean. No new kanji.
 
