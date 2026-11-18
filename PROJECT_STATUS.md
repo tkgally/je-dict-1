@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-18 (15 new entries, third cycle of the 16:15 UTC run)
+
+33745–33759. Closure: パロディ. Brainstorm (field brand-name): Suica, ファミリーマート, ローソン, 吉野家, ウォシュレット, サランラップ, ケンタッキー. ezFurigana: プロダクト, モジュール, モルモット, もろ手を挙げて (looked up as 諸手), 宮, マクロ, ボイス.
+Self-check: 1 fixed (ケンタッキー example: "reserve KFC" → "order KFC in advance"); kana links clean.
+
 ### 2026-11-18 (18 new entries, fourth cycle of the 12:15 UTC run)
 
 33727–33744. Closure: 元妻, 無期限. Brainstorm: 脱げる, 発つ (seed 着く), かかりつけ (seed かかる), 晴れ間 (seed 晴れる), 下調べ (seed 下), 駄目出し (seed だめ), 心変わり (seed 変わる), 綺麗事 (seed きれい), 他界 (seed 死ぬ). ezFurigana: 持てる, 元ネタ, 三つどもえ, 彼岸花 (looked up as 曼珠沙華), メカ, 宮崎, モスクワ.
@@ -69,9 +74,4 @@ Self-check: 1 notes claim removed (ダイソー); kana links clean. New kanji �
 
 33683–33697. Closure: 長州, 蕎麦屋, 抗原検査, 凧, 生活様式. Brainstorm: 春一番 (seed 春), 犬小屋 (seed 犬), 泣きぼくろ, メルカリ, 岡本太郎. ezFurigana: おまじない (looked up as 呪い), 真っ逆さま (as 真っ逆様), まねごと, 万華鏡, プロトコル.
 Self-check: 1 tag fixed (犬小屋 was tagged animal-mammal); kana links clean. No new kanji.
-
-### 2026-11-17 (6 new entries, ninth cycle of the 00:15 UTC run)
-
-33677–33682. Closure: 睨み合う, 拾い集める, 天女. Brainstorm: 通りかかる (seed かかる), 一日おき (seed 毎日). ezFurigana: ポピー. Kept small: the cycle started at 110 minutes on the run clock.
-Self-check: clean; kana links clean. Candidate added: ケシ (seen in 33681).
 

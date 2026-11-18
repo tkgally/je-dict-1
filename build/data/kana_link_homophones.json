@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-16",
+ "updated": "2026-11-18",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -22759,6 +22759,18 @@
     "reviewed": 1,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "もみあげ": {
+   "target": "33025_momiage",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "In modern Japanese もみあげ almost always means sideburns; other readings such as the stem of 揉み上げる are negligible.",
+    "model": "claude:opus",
+    "date": "2026-11-18"
    }
   },
   "もみほぐす": {
