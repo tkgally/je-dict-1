@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-18 (18 new entries, fourth cycle of the 12:15 UTC run)
+
+33727–33744. Closure: 元妻, 無期限. Brainstorm: 脱げる, 発つ (seed 着く), かかりつけ (seed かかる), 晴れ間 (seed 晴れる), 下調べ (seed 下), 駄目出し (seed だめ), 心変わり (seed 変わる), 綺麗事 (seed きれい), 他界 (seed 死ぬ). ezFurigana: 持てる, 元ネタ, 三つどもえ, 彼岸花 (looked up as 曼珠沙華), メカ, 宮崎, モスクワ.
+Self-check: clean (0 flags; kana links clean). Candidate added: パロディ (seen in 33739).
+
 ### 2026-11-17 (9 new entries, eighth cycle of the 16:15 UTC run)
 
 33718–33726. Closure: 百円ショップ, 百均, 真水. Brainstorm: 息を引き取る (seed 死ぬ), 追伸 (seed 手紙), 住み着く (seed 住む). ezFurigana: 民度, 無期, 元夫. Kept small: the cycle started at 103 minutes on the run clock.
@@ -69,8 +74,4 @@ Self-check: 1 tag fixed (犬小屋 was tagged animal-mammal); kana links clean. 
 
 33677–33682. Closure: 睨み合う, 拾い集める, 天女. Brainstorm: 通りかかる (seed かかる), 一日おき (seed 毎日). ezFurigana: ポピー. Kept small: the cycle started at 110 minutes on the run clock.
 Self-check: clean; kana links clean. Candidate added: ケシ (seen in 33681).
-
-### 2026-11-17 (22 candidates queued, fourth cycle of the 00:15 UTC run)
-
-Closure 7 (no noentry markers remain; a scan of bare words in examples edited since 2026-11-10): 兵糧, 天女, 民主制, 拾い集める, 生活様式, 修了証書, 睨み合う. Brainstorm 15 (seeds 椅子…不味い, cursor 260–280): 九死に一生を得る, 一日おき, かかりつけ, 当月, 雨靴, ハイソックス, 長椅子, 襲いかかる, 通りかかる, 紙コップ, 紙皿, 声変わり, 心変わり, 綺麗事, 変わり. Of 181 proposals, 151 were already entries; 15 rejected.
 
