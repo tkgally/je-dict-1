@@ -1,0 +1,832 @@
+{
+  "tag": "grammatical",
+  "groups": [
+    {
+      "id": "but-however",
+      "ja": "しかしとでも",
+      "en": "But, however",
+      "members": [
+        "00925_demo",
+        "00031_daga",
+        "00033_dakedo",
+        "00406_tokoroga",
+        "00986_shikashi",
+        "09477_kedo",
+        "00382_soredemo",
+        "02995_keredomo",
+        "00399_tadashi",
+        "01990_keredo",
+        "06926_shikashinagara",
+        "19871_dakeredomo",
+        "27340_dakedomo",
+        "27341_dakeredo",
+        "31549_saredo",
+        "21788_mottomo",
+        "03423_datte"
+      ]
+    },
+    {
+      "id": "although",
+      "ja": "のにとくせに",
+      "en": "Although, despite",
+      "members": [
+        "10529_noni",
+        "22395_nanoni",
+        "19730_kuseni",
+        "19731_monono",
+        "06282_tohaie",
+        "06283_tohaiumonono",
+        "17199_toittemo",
+        "06778_nimokakawarazu",
+        "06927_sorenanoni",
+        "30623_karatoitte"
+      ]
+    },
+    {
+      "id": "so-therefore",
+      "ja": "だから",
+      "en": "So, therefore",
+      "members": [
+        "00924_dakara",
+        "00926_desukara",
+        "00379_sokode",
+        "00995_sorede",
+        "03819_shitagatte",
+        "08500_sonotame",
+        "06925_yueni",
+        "17273_soreyue",
+        "17337_souiuwakede",
+        "18578_yotte",
+        "29354_nanode"
+      ]
+    },
+    {
+      "id": "because",
+      "ja": "なぜならとので",
+      "en": "Because",
+      "members": [
+        "03766_nazenara",
+        "09501_node",
+        "08760_toiunoha",
+        "18108_toiunomo",
+        "32870_kotokara",
+        "20743_seide",
+        "20315_damon",
+        "10988_mono",
+        "28349_niyoru",
+        "33495_bakarini",
+        "28340_dakeni",
+        "27569_dakarakoso",
+        "28354_karakoso",
+        "32542_karaniha"
+      ]
+    },
+    {
+      "id": "and-then",
+      "ja": "そして",
+      "en": "And, and then",
+      "members": [
+        "00997_soshite",
+        "02943_soushite",
+        "00996_sorekara",
+        "01627_suruto",
+        "06943_sousuruto",
+        "13209_tsuide",
+        "00383_soreto"
+      ]
+    },
+    {
+      "id": "moreover",
+      "ja": "それに",
+      "en": "Moreover, besides",
+      "members": [
+        "00381_sonoue",
+        "01806_soreni",
+        "03818_shikamo",
+        "19736_saraniha",
+        "21779_omakeni",
+        "21781_kuwaete",
+        "19906_katsu",
+        "06922_oyobi",
+        "06923_narabini"
+      ]
+    },
+    {
+      "id": "or",
+      "ja": "または",
+      "en": "Or, whether",
+      "members": [
+        "01808_mataha",
+        "03324_soretomo",
+        "03825_aruiha",
+        "06924_moshikuha",
+        "15995_naishi",
+        "28299_kadouka"
+      ]
+    },
+    {
+      "id": "or-rather",
+      "ja": "というより",
+      "en": "Or rather, in other words",
+      "members": [
+        "06920_teiuka",
+        "06284_teka",
+        "16617_tteiuka",
+        "06941_tsuuka",
+        "17867_toiuyori",
+        "22828_iikaeruto",
+        "08269_gyakuni"
+      ]
+    },
+    {
+      "id": "otherwise",
+      "ja": "さもないと",
+      "en": "Otherwise, unless",
+      "members": [
+        "06942_samonaito",
+        "30681_samonakereba",
+        "30682_soushinaito",
+        "30684_denaito",
+        "30683_janaito",
+        "31968_denakereba",
+        "31972_janakereba"
+      ]
+    },
+    {
+      "id": "well-then",
+      "ja": "さてとところで",
+      "en": "Well then, in that case",
+      "members": [
+        "02945_deha",
+        "01611_sate",
+        "03040_ja",
+        "05785_sorenara",
+        "02944_soredeha",
+        "01002_tokorode",
+        "29023_dattara",
+        "30685_datosuruto",
+        "31967_datoshitara",
+        "30686_toiukotoha"
+      ]
+    },
+    {
+      "id": "who-what-where",
+      "ja": "{誰|だれ}と{何|なに}",
+      "en": "Who, what, where",
+      "members": [
+        "00498_nani",
+        "00534_dare",
+        "00536_itsu",
+        "00539_doko",
+        "00547_dore",
+        "00551_dono",
+        "00927_dochira",
+        "02923_donata",
+        "18614_doitsu",
+        "30296_nanno",
+        "02924_donna",
+        "28147_douiu"
+      ]
+    },
+    {
+      "id": "how-why",
+      "ja": "どうとなぜ",
+      "en": "How and why",
+      "members": [
+        "03875_nande",
+        "00543_dou",
+        "00834_doushite",
+        "01484_naze",
+        "23674_donoyouni",
+        "09961_donoyouna",
+        "10222_ikani",
+        "27496_douyatte",
+        "25841_ikanishite",
+        "24397_ikan"
+      ]
+    },
+    {
+      "id": "how-many",
+      "ja": "{何枚|なんまい}と{何回|なんかい}",
+      "en": "How many",
+      "members": [
+        "03100_nan",
+        "08777_nanmai",
+        "08497_nankai",
+        "08778_nansatsu",
+        "08779_nanbai",
+        "26687_nanko",
+        "27647_nankai",
+        "26595_doregurai",
+        "28149_oikutsu"
+      ]
+    },
+    {
+      "id": "any-none",
+      "ja": "{誰|だれ}でもと{誰|だれ}も",
+      "en": "Anyone, no one, either",
+      "members": [
+        "00304_nandemo",
+        "03874_nanimo",
+        "08498_daredemo",
+        "18610_daremo",
+        "32858_doredemo",
+        "02912_dareka",
+        "32843_dokomo",
+        "25897_docchimo",
+        "08721_dochiramo",
+        "26335_docchika",
+        "22606_doreka"
+      ]
+    },
+    {
+      "id": "this-that",
+      "ja": "これ・それ・あれ",
+      "en": "This, that, there",
+      "members": [
+        "00963_kore",
+        "00916_are",
+        "00994_sore",
+        "00962_kono",
+        "00993_sono",
+        "02814_korera",
+        "22844_sorera",
+        "23758_arera",
+        "00991_soko",
+        "00990_sochira",
+        "00927_dochira"
+      ]
+    },
+    {
+      "id": "this-kind",
+      "ja": "こんなとそんな",
+      "en": "This kind, that kind",
+      "members": [
+        "01574_anna",
+        "01645_sonna",
+        "02881_konna",
+        "02924_donna",
+        "21476_kouiu",
+        "16591_aaiu",
+        "28147_douiu",
+        "21789_soushita",
+        "21780_koushita",
+        "30277_sonoyouna"
+      ]
+    },
+    {
+      "id": "like-this",
+      "ja": "こうやって",
+      "en": "Like this, like that",
+      "members": [
+        "27245_kouyatte",
+        "26873_koushite",
+        "30294_souyatte",
+        "30295_aayatte",
+        "16667_aashite"
+      ]
+    },
+    {
+      "id": "i-you",
+      "ja": "{僕|ぼく}と{俺|おれ}",
+      "en": "I, he, those guys",
+      "members": [
+        "01729_boku",
+        "02185_ore",
+        "28132_atashi",
+        "08267_aitsu",
+        "08268_koitsu",
+        "08759_soitsu",
+        "23330_kanojotachi",
+        "01551_tachi",
+        "03971_waga",
+        "33675_mai"
+      ]
+    },
+    {
+      "id": "oneself",
+      "ja": "{自分|じぶん}",
+      "en": "Oneself, itself",
+      "members": [
+        "02887_jibun",
+        "30345_jishin",
+        "30364_jitai",
+        "28341_onore"
+      ]
+    },
+    {
+      "id": "core-particles",
+      "ja": "はとが",
+      "en": "Core particles",
+      "members": [
+        "00314_ni",
+        "00422_wo",
+        "00490_made",
+        "00502_de",
+        "00512_to",
+        "02473_he",
+        "00051_ga",
+        "00484_mo",
+        "00504_kara",
+        "00079_ha",
+        "09472_no",
+        "09476_yori",
+        "32356_niha",
+        "21803_nite",
+        "32360_toha"
+      ]
+    },
+    {
+      "id": "sentence-endings",
+      "ja": "ねとよ",
+      "en": "Sentence endings",
+      "members": [
+        "09473_ka",
+        "09474_ne",
+        "06914_yone",
+        "09475_yo",
+        "05432_jan",
+        "06916_ze",
+        "06917_zo",
+        "29262_naa",
+        "30248_wayo",
+        "30249_noyo",
+        "06921_kashira",
+        "10989_kana",
+        "30649_kanaa",
+        "10739_kke",
+        "29708_yan",
+        "29887_janka",
+        "29707_janaika",
+        "30627_dehanaika",
+        "23898_deshouka",
+        "28483_janai"
+      ]
+    },
+    {
+      "id": "listing",
+      "ja": "やととか",
+      "en": "Listing: and, or so on",
+      "members": [
+        "10080_ya",
+        "32583_toka",
+        "12730_shi",
+        "33215_tari",
+        "03095_nado",
+        "18397_nadonado",
+        "32355_tou",
+        "19872_toitta",
+        "32290_wohajime",
+        "28338_tomo",
+        "00999_tatoeba"
+      ]
+    },
+    {
+      "id": "only-even",
+      "ja": "だけとしか",
+      "en": "Only, even",
+      "members": [
+        "02006_bakari",
+        "03093_dake",
+        "09959_shika",
+        "30533_shikanai",
+        "32259_sae",
+        "12731_koso",
+        "32260_sura",
+        "06918_nante",
+        "26861_mashiteya",
+        "22821_madashimo",
+        "28579_nihokanaranai",
+        "33458_nishite",
+        "32446_mademonai"
+      ]
+    },
+    {
+      "id": "not-only",
+      "ja": "どころか",
+      "en": "Not only, far from",
+      "members": [
+        "30271_dokoroka",
+        "32293_soredokoroka",
+        "32503_bakarika",
+        "18373_dakedenaku",
+        "09578_dehanaku"
+      ]
+    },
+    {
+      "id": "copula",
+      "ja": "です・だ",
+      "en": "Is, am, are: copulas",
+      "members": [
+        "09485_desu",
+        "09496_da",
+        "09855_dearu",
+        "19539_degozaimasu",
+        "30561_nodesu",
+        "30562_masu",
+        "08813_ssu",
+        "09497_na",
+        "09883_nari",
+        "09856_nasai"
+      ]
+    },
+    {
+      "id": "seems",
+      "ja": "らしいとようだ",
+      "en": "Seems, I hear",
+      "members": [
+        "09502_rashii",
+        "10076_souda",
+        "03098_soudesu",
+        "26593_youda",
+        "29147_mitaida",
+        "10755_mitai",
+        "06781_ppoi",
+        "27635_gimi",
+        "06665_douyara"
+      ]
+    },
+    {
+      "id": "like-as-if",
+      "ja": "ようなとみたい",
+      "en": "Like, as if",
+      "members": [
+        "30292_youna",
+        "30291_noyouni",
+        "26605_gotoshi",
+        "20861_gotoku",
+        "18579_gotoki",
+        "32422_kanoyouni",
+        "01114_you",
+        "09884_doori",
+        "10755_mitai"
+      ]
+    },
+    {
+      "id": "probably",
+      "ja": "だろうとでしょう",
+      "en": "Probably, must be",
+      "members": [
+        "09576_darou",
+        "09887_deshou",
+        "10740_kamo",
+        "18584_nichigainai",
+        "01557_hazu",
+        "26591_hazuda",
+        "32888_sazo",
+        "32740_kanenai"
+      ]
+    },
+    {
+      "id": "must-should",
+      "ja": "なければならない",
+      "en": "Must, should",
+      "members": [
+        "27600_nakerebanaranai",
+        "26592_bekida",
+        "27601_nakutehaikenai",
+        "29168_nebanaranai",
+        "33420_naitoikenai",
+        "10078_hougaii",
+        "08785_nakya",
+        "10016_beki",
+        "29167_beshi",
+        "29169_nakyanaranai",
+        "26955_bekarazu"
+      ]
+    },
+    {
+      "id": "purpose",
+      "ja": "ために",
+      "en": "In order to, for",
+      "members": [
+        "01145_tame",
+        "28332_tameni",
+        "10081_youni",
+        "29166_beku",
+        "32356_niha",
+        "09842_you",
+        "11011_muke"
+      ]
+    },
+    {
+      "id": "even-if",
+      "ja": "ても",
+      "en": "Even if, no matter how",
+      "members": [
+        "32353_temo",
+        "33474_nishitemo",
+        "32404_toshitemo",
+        "32239_datoshitemo",
+        "03405_tatoe",
+        "02008_ikuratemo",
+        "02461_ikuratemo",
+        "03494_donnani",
+        "32405_deare",
+        "22124_dochiranishitemo",
+        "30653_izurenishitemo"
+      ]
+    },
+    {
+      "id": "if",
+      "ja": "たらとば",
+      "en": "If, when",
+      "members": [
+        "09575_nara",
+        "30246_ba",
+        "32582_tara",
+        "15979_naraba",
+        "33436_tosuru"
+      ]
+    },
+    {
+      "id": "depending",
+      "ja": "{次第|しだい}で",
+      "en": "Depending on",
+      "members": [
+        "23874_shidaide",
+        "22761_baainiyotteha",
+        "22822_hitsuyounioujite",
+        "17323_kanounakagiri",
+        "03175_shidai",
+        "28349_niyoru"
+      ]
+    },
+    {
+      "id": "te-helpers",
+      "ja": "〜てしまう",
+      "en": "Verb + te helpers",
+      "members": [
+        "03102_teshimau",
+        "30378_teoku",
+        "30376_teiru",
+        "30377_tearu",
+        "30510_temiru",
+        "08784_chau",
+        "30816_teru",
+        "30817_toku",
+        "30814_teiku",
+        "30815_tekuru"
+      ]
+    },
+    {
+      "id": "start-keep-finish",
+      "ja": "〜{始|はじ}める",
+      "en": "Start, keep, finish, redo",
+      "members": [
+        "02004_tsuzukeru",
+        "18369_owaru",
+        "18370_hajimeru",
+        "18371_naosu",
+        "33296_ppanashi",
+        "09885_sugi"
+      ]
+    },
+    {
+      "id": "easy-hard",
+      "ja": "〜やすいと〜にくい",
+      "en": "Easy to, hard to",
+      "members": [
+        "02005_nikui",
+        "18368_zurai",
+        "17198_gatai",
+        "18367_yasui"
+      ]
+    },
+    {
+      "id": "wanting",
+      "ja": "〜たい",
+      "en": "Wanting to",
+      "members": [
+        "30375_tai",
+        "30379_tagaru",
+        "03089_garu"
+      ]
+    },
+    {
+      "id": "tending",
+      "ja": "〜がち",
+      "en": "Tending to",
+      "members": [
+        "29123_gachi",
+        "27635_gimi",
+        "20442_tomosureba",
+        "32740_kanenai",
+        "06781_ppoi"
+      ]
+    },
+    {
+      "id": "causative-passive",
+      "ja": "させるとられる",
+      "en": "Make, let, be done",
+      "members": [
+        "32730_saseru",
+        "32749_seru",
+        "32775_rareru",
+        "29170_youniiu"
+      ]
+    },
+    {
+      "id": "koto-you-patterns",
+      "ja": "ことにする",
+      "en": "Deciding, becoming, can",
+      "members": [
+        "10986_kotonisuru",
+        "10987_younisuru",
+        "32435_kotoninaru",
+        "28408_youninaru",
+        "32886_kotogaaru",
+        "32887_kotogadekiru"
+      ]
+    },
+    {
+      "id": "about",
+      "ja": "に{対|たい}して",
+      "en": "About, toward, as",
+      "members": [
+        "02045_kansuru",
+        "06800_nitaishite",
+        "17196_nitsuki",
+        "29156_nitsukimashite",
+        "27595_womegutte",
+        "30365_jou",
+        "06802_toshite"
+      ]
+    },
+    {
+      "id": "in-through",
+      "ja": "において",
+      "en": "In, at, through, over",
+      "members": [
+        "06799_nioite",
+        "21802_niokeru",
+        "21803_nite",
+        "32289_wotooshite",
+        "32346_wotsuujite",
+        "30530_nikakete",
+        "32502_niwataru",
+        "23957_nikagitte"
+      ]
+    },
+    {
+      "id": "along-with",
+      "ja": "とともに",
+      "en": "Along with, as",
+      "members": [
+        "06804_nitomonai",
+        "28400_nitsurete",
+        "30485_totomoni"
+      ]
+    },
+    {
+      "id": "while-without",
+      "ja": "ながら",
+      "en": "While, without",
+      "members": [
+        "10530_nagara",
+        "21800_tsutsu",
+        "32402_zuni",
+        "32403_naide",
+        "02007_mama",
+        "33296_ppanashi"
+      ]
+    },
+    {
+      "id": "not-at-all",
+      "ja": "{一向|いっこう}に",
+      "en": "Not, not at all",
+      "members": [
+        "01118_nai",
+        "28483_janai",
+        "12077_ina",
+        "20257_ikkou",
+        "33403_tonto",
+        "08701_dounimo",
+        "30311_nantomo",
+        "06664_shiite"
+      ]
+    },
+    {
+      "id": "called",
+      "ja": "という",
+      "en": "Called, so-called",
+      "members": [
+        "09577_toiu",
+        "32360_toha",
+        "29146_tte",
+        "01840_iwayuru",
+        "01757_tannaru",
+        "33353_tougai"
+      ]
+    },
+    {
+      "id": "honorific",
+      "ja": "お〜と{様|さま}",
+      "en": "Honorific prefixes, -sama",
+      "members": [
+        "03097_o",
+        "00332_on",
+        "09882_go",
+        "01549_sama",
+        "17197_orareru"
+      ]
+    },
+    {
+      "id": "prefixes",
+      "ja": "{未|み}〜と{各|かく}〜",
+      "en": "Prefixes: un-, each, de-",
+      "members": [
+        "00277_mi",
+        "00416_uwa",
+        "00418_wa",
+        "00449_kaku",
+        "31355_datsu"
+      ]
+    },
+    {
+      "id": "kind-maker",
+      "ja": "〜{製|せい}と〜{式|しき}",
+      "en": "Suffixes: made, type, field",
+      "members": [
+        "00440_bu",
+        "01548_ka",
+        "02000_shiki",
+        "02001_sei",
+        "02455_date",
+        "32450_gata",
+        "32819_gyou",
+        "31354_ken",
+        "30801_shi",
+        "30925_kei",
+        "09839_teki"
+      ]
+    },
+    {
+      "id": "full-of-without",
+      "ja": "〜だらけ",
+      "en": "Full of, with, without",
+      "members": [
+        "18372_darake",
+        "32776_iri",
+        "26333_tsuki",
+        "03779_nashi",
+        "32845_gurumi",
+        "32820_gire",
+        "04013_zumi",
+        "11012_tate",
+        "03151_houdai"
+      ]
+    },
+    {
+      "id": "about-each",
+      "ja": "ぐらいとずつ",
+      "en": "About, each, every",
+      "members": [
+        "02900_gurai",
+        "01724_hodo",
+        "03092_zutsu",
+        "30668_gotoni",
+        "00932_goro",
+        "00937_hen",
+        "01453_sorezore",
+        "23374_ookuno",
+        "00449_kaku"
+      ]
+    },
+    {
+      "id": "other-besides",
+      "ja": "{他|ほか}と{以外|いがい}",
+      "en": "Other, besides",
+      "members": [
+        "04129_hoka",
+        "03381_ta",
+        "01297_igai",
+        "01308_ijou",
+        "01328_uchi",
+        "01739_ippou",
+        "11548_tahou"
+      ]
+    },
+    {
+      "id": "formal-nouns",
+      "ja": "こととわけ",
+      "en": "Formal nouns: koto, wake",
+      "members": [
+        "01164_koto",
+        "01137_tokoro",
+        "01095_wake",
+        "01139_hou",
+        "03175_shidai",
+        "00472_shiyou",
+        "12709_ageku",
+        "01152_tsumori",
+        "01557_hazu",
+        "02007_mama"
+      ]
+    }
+  ],
+  "leftover": [
+    "00998_sumimasen",
+    "02575_hontouha"
+  ]
+}
