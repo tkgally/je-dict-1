@@ -1,0 +1,493 @@
+{
+  "tag": "person",
+  "groups": [
+    {
+      "id": "men-women",
+      "ja": "{男|おとこ}と{女|おんな}",
+      "en": "Men and women",
+      "members": [
+        "00559_onna",
+        "00561_otoko",
+        "01617_josei",
+        "03117_danjo",
+        "00337_otokonohito",
+        "01655_dansei",
+        "03425_danshi",
+        "03350_joshi",
+        "01658_fujin",
+        "04346_seibetsu",
+        "01600_bijin"
+      ]
+    },
+    {
+      "id": "children",
+      "ja": "{子供|こども}",
+      "en": "Children",
+      "members": [
+        "00554_kodomo",
+        "01564_okosan",
+        "02862_otokonoko",
+        "02865_onnanoko",
+        "03340_jidou",
+        "03942_bouya",
+        "03238_shounen",
+        "03233_shoujo",
+        "01282_akachan",
+        "01329_akanbou",
+        "03729_maigo",
+        "01566_ojousan"
+      ]
+    },
+    {
+      "id": "young-old",
+      "ja": "{大人|おとな}と{老人|ろうじん}",
+      "en": "Young and old",
+      "members": [
+        "02856_otona",
+        "03037_wakamono",
+        "03292_seinen",
+        "03460_toshiyori",
+        "03784_roujin",
+        "02933_hatachi",
+        "03238_shounen",
+        "03233_shoujo"
+      ]
+    },
+    {
+      "id": "people-everyone",
+      "ja": "{人|ひと}と{皆|みな}",
+      "en": "People, everyone",
+      "members": [
+        "00476_hito",
+        "03141_hitobito",
+        "03523_ningen",
+        "01810_mina",
+        "02778_katagata",
+        "02972_minna",
+        "02971_minasan",
+        "03310_zenin",
+        "00157_kakuji",
+        "02758_kojin",
+        "01459_tanin",
+        "03627_honnin",
+        "26788_tounin",
+        "04286_jinmei"
+      ]
+    },
+    {
+      "id": "i-you",
+      "ja": "{私|わたし}とあなた",
+      "en": "I, you, he, she",
+      "members": [
+        "02988_watashi",
+        "01286_kanojo",
+        "01802_karera",
+        "01292_kare",
+        "01384_kimi",
+        "02533_omae",
+        "02565_anata",
+        "03795_wareware"
+      ]
+    },
+    {
+      "id": "senpai-kouhai",
+      "ja": "{先輩|せんぱい}と{後輩|こうはい}",
+      "en": "Seniors, juniors, bosses",
+      "members": [
+        "01451_senpai",
+        "02501_kouhai",
+        "03032_doukyuusei",
+        "06453_buka",
+        "03286_joushi",
+        "11269_bosu",
+        "02500_shinjin"
+      ]
+    },
+    {
+      "id": "friends",
+      "ja": "{友達|ともだち}",
+      "en": "Friends and foes",
+      "members": [
+        "01478_tomodachi",
+        "03266_shinyuu",
+        "03466_tomo",
+        "03498_nakama",
+        "03649_yuujin",
+        "01762_doushi",
+        "03534_tsure",
+        "03253_shiriai",
+        "07305_kaonajimi",
+        "07304_najimi",
+        "03743_mikata",
+        "03546_teki"
+      ]
+    },
+    {
+      "id": "couples",
+      "ja": "{恋人|こいびと}",
+      "en": "Lovers and spouses",
+      "members": [
+        "02724_koibito",
+        "06456_kareshi",
+        "01286_kanojo",
+        "04318_hanayome",
+        "07430_haiguusha"
+      ]
+    },
+    {
+      "id": "royalty",
+      "ja": "{王様|おうさま}",
+      "en": "Kings and royalty",
+      "members": [
+        "01904_ouji",
+        "01902_ousama",
+        "04108_oujo",
+        "04152_kokuou",
+        "04546_tennou",
+        "15717_koutaishi",
+        "16354_kougou",
+        "13634_ouhi"
+      ]
+    },
+    {
+      "id": "lords-retainers",
+      "ja": "{殿様|とのさま}と{家来|けらい}",
+      "en": "Lords and retainers",
+      "members": [
+        "12397_kerai",
+        "10455_tonosama",
+        "11894_meshitsukai",
+        "12655_kashin",
+        "31643_chuushin",
+        "33106_juusha",
+        "10378_daimyou",
+        "11712_shukun",
+        "14859_ryoushu",
+        "13453_hatamoto",
+        "12386_shougun"
+      ]
+    },
+    {
+      "id": "in-charge",
+      "ja": "{責任者|せきにんしゃ}",
+      "en": "People in charge",
+      "members": [
+        "17175_sekininsha",
+        "09676_tantousha",
+        "24297_kanrisha",
+        "25694_renrakugakari",
+        "03116_daihyousha",
+        "20907_shireikan",
+        "19069_shikikan",
+        "11269_bosu"
+      ]
+    },
+    {
+      "id": "customers",
+      "ja": "お{客|きゃく}さん",
+      "en": "Customers and guests",
+      "members": [
+        "00865_kyaku",
+        "10253_okyakusan",
+        "08780_okyakusama",
+        "08632_kokyaku",
+        "13061_raikyaku",
+        "10849_gesuto",
+        "28262_shoutaikyaku",
+        "28580_raihin",
+        "06878_jouren",
+        "09990_otokui",
+        "09866_shouhisha",
+        "03189_riyousha"
+      ]
+    },
+    {
+      "id": "travelers",
+      "ja": "{旅行者|りょこうしゃ}",
+      "en": "Travelers and passengers",
+      "members": [
+        "03022_kankoukyaku",
+        "22927_ryokousha",
+        "12725_tabibito",
+        "12950_ryokaku",
+        "03284_joukyaku",
+        "03152_hokousha"
+      ]
+    },
+    {
+      "id": "audience",
+      "ja": "{観客|かんきゃく}",
+      "en": "Audiences and visitors",
+      "members": [
+        "02556_kankyaku",
+        "02570_shichousha",
+        "13907_choushuu",
+        "19023_raijousha",
+        "22772_kanshousha",
+        "22893_kanshuu",
+        "23599_nyuujousha",
+        "27722_kenbutsunin",
+        "23179_raikansha",
+        "20148_houmonsha",
+        "29194_nyuukansha",
+        "24478_raihousha"
+      ]
+    },
+    {
+      "id": "members",
+      "ja": "メンバーと{参加者|さんかしゃ}",
+      "en": "Members and participants",
+      "members": [
+        "00275_menbaa",
+        "02535_kaiin",
+        "03059_sankasha",
+        "03050_kibousha",
+        "20975_shussekisha",
+        "28435_sanretsusha"
+      ]
+    },
+    {
+      "id": "onlookers",
+      "ja": "{野次馬|やじうま}",
+      "en": "Onlookers and outsiders",
+      "members": [
+        "16403_yajiuma",
+        "20381_boukansha",
+        "22286_hitodakari",
+        "14930_gunshuu",
+        "26789_daisansha",
+        "15595_bugaisha",
+        "12504_toujisha",
+        "16441_kankeisha",
+        "26731_souguusha"
+      ]
+    },
+    {
+      "id": "fans",
+      "ja": "ファン",
+      "en": "Fans and enthusiasts",
+      "members": [
+        "10065_fan",
+        "06473_anchi",
+        "11150_mania",
+        "15008_aikouka",
+        "15181_otaku",
+        "25823_nekkyousha",
+        "29205_aikousha",
+        "26120_shumijin",
+        "16941_shuushuuka",
+        "04736_oshi",
+        "21045_fujoshi"
+      ]
+    },
+    {
+      "id": "supporters",
+      "ja": "{支持者|しじしゃ}",
+      "en": "Supporters and helpers",
+      "members": [
+        "23373_sandousha",
+        "24483_ouensha",
+        "17852_shijisha",
+        "22959_sanseisha",
+        "24298_kyouryokusha",
+        "25120_yougosha",
+        "21846_kouensha",
+        "24919_shiensha",
+        "25693_kifusha",
+        "26681_enjosha",
+        "02566_onjin"
+      ]
+    },
+    {
+      "id": "believers",
+      "ja": "{信者|しんじゃ}",
+      "en": "Believers and founders",
+      "members": [
+        "23871_bukkyouto",
+        "24233_kyouto",
+        "26243_shito",
+        "11565_shinja",
+        "32806_kyouso",
+        "33391_kaiso"
+      ]
+    },
+    {
+      "id": "criminals",
+      "ja": "{犯人|はんにん}",
+      "en": "Criminals and suspects",
+      "members": [
+        "03572_hannin",
+        "13984_zainin",
+        "15039_yougisha",
+        "18011_shuhan",
+        "19219_hanzaisha",
+        "26787_chouhonnin",
+        "11080_hikoku",
+        "20987_tousousha",
+        "31665_jukeisha",
+        "19171_shubousha",
+        "27691_kyoubousha",
+        "32119_kyouhansha",
+        "15786_toubousha",
+        "26754_inbousha",
+        "15478_kuromaku",
+        "01688_dorobou"
+      ]
+    },
+    {
+      "id": "villains",
+      "ja": "{悪者|わるもの}と{善人|ぜんにん}",
+      "en": "Villains and good people",
+      "members": [
+        "29116_akunin",
+        "12674_akutou",
+        "29398_warumono",
+        "33182_zennin",
+        "12675_akuyaku"
+      ]
+    },
+    {
+      "id": "talent",
+      "ja": "{天才|てんさい}",
+      "en": "Geniuses and talent",
+      "members": [
+        "09934_tensai",
+        "18297_shuusai",
+        "18298_bonjin",
+        "21625_saijin",
+        "24222_kisai",
+        "24435_shunsai",
+        "26007_yuutousei"
+      ]
+    },
+    {
+      "id": "experts",
+      "ja": "{専門家|せんもんか}",
+      "en": "Experts and masters",
+      "members": [
+        "26809_kyoshou",
+        "16613_gahaku",
+        "30012_maesutoro",
+        "32857_oogosho",
+        "31895_juuchin",
+        "32872_daiichininsha",
+        "03088_senmonka",
+        "13022_yuushikisha",
+        "22202_shikisha",
+        "23783_jukurensha",
+        "27982_ekisupaato",
+        "17160_chishikijin",
+        "14378_tatsujin",
+        "07300_sugoude"
+      ]
+    },
+    {
+      "id": "beginners-veterans",
+      "ja": "{初心者|しょしんしゃ}とベテラン",
+      "en": "Beginners and old hands",
+      "members": [
+        "10149_shoshinsha",
+        "19106_joukyuusha",
+        "26952_mijukumono",
+        "26291_mikeikensha",
+        "29204_shokyuusha",
+        "11121_beteran",
+        "07457_furukabu",
+        "06288_kosan",
+        "07458_shingao",
+        "25697_shiniri",
+        "13989_wakate",
+        "02500_shinjin"
+      ]
+    },
+    {
+      "id": "the-masses",
+      "ja": "{庶民|しょみん}",
+      "en": "Ordinary people, the masses",
+      "members": [
+        "18298_bonjin",
+        "22733_ippanjin",
+        "12427_shomin",
+        "10150_taishuu",
+        "13259_minshuu",
+        "01426_shimin",
+        "03281_juumin",
+        "05313_nanmin"
+      ]
+    },
+    {
+      "id": "celebrities",
+      "ja": "{有名人|ゆうめいじん}",
+      "en": "Celebrities",
+      "members": [
+        "17812_yuumeijin",
+        "00393_sutaa",
+        "14959_geinoujin",
+        "17675_serebu",
+        "19887_ninkimono",
+        "21860_meishi",
+        "23055_chomeijin",
+        "25367_tarento",
+        "12110_urekko",
+        "21393_hipparidako"
+      ]
+    },
+    {
+      "id": "big-shots",
+      "ja": "{大物|おおもの}",
+      "en": "Big shots and the rich",
+      "members": [
+        "19082_yuuryokusha",
+        "21845_jitsuryokusha",
+        "25127_kaoyaku",
+        "31947_oomono",
+        "01989_okanemochi",
+        "02993_kanemochi",
+        "32857_oogosho"
+      ]
+    },
+    {
+      "id": "founders",
+      "ja": "{創始者|そうししゃ}",
+      "en": "Founders and inventors",
+      "members": [
+        "27181_soushisha",
+        "12371_shiso",
+        "23283_hatsumeisha",
+        "29027_sougyousha",
+        "30342_teishousha",
+        "32362_kouansha",
+        "33391_kaiso",
+        "26491_sokushinsha",
+        "30334_suishinsha",
+        "32806_kyouso"
+      ]
+    },
+    {
+      "id": "students-slang",
+      "ja": "{女子高生|じょしこうせい}",
+      "en": "Schoolgirls and students",
+      "members": [
+        "12381_joshikousei",
+        "07743_jeeshii",
+        "07744_diikee",
+        "07745_jeedii",
+        "23376_joshichuugakusei",
+        "23937_joshidaisei",
+        "07742_jeekee"
+      ]
+    },
+    {
+      "id": "authors-readers",
+      "ja": "{著者|ちょしゃ}と{読者|どくしゃ}",
+      "en": "Authors and readers",
+      "members": [
+        "03501_chosha",
+        "04348_hissha",
+        "04169_sakusha",
+        "05501_shashinka",
+        "16554_dokusha"
+      ]
+    }
+  ]
+}
