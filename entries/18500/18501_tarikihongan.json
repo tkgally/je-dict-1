@@ -14,7 +14,7 @@
     {
       "sense_number": 2,
       "gloss": "salvation through Amida Buddha's power (Buddhist term)",
-      "explanation": "The original Buddhist meaning: the belief in Pure Land Buddhism that salvation comes through the power (他力) and original vow (本願) of Amida Buddha, rather than through one's own efforts."
+      "explanation": "The original Buddhist meaning: the belief in Pure Land Buddhism that salvation comes through the power ({他力|たりき}) and original vow ({本願|ほんがん}) of Amida Buddha, rather than through one's own efforts."
     }
   ],
   "examples": [
@@ -60,7 +60,7 @@
     },
     {
       "id": "18501_tarikihongan_ex5",
-      "japanese": "{他力本願|たりきほんがん}⟦の→の：09472_no⟧⟦{思想|しそう}→思想：03173_shisou⟧⟦は→は：00079_ha⟧{親鸞|しんらん}⟦によって→によって：06801_niyotte⟧⟦{広|ひろ}められた→広める：02405_hiromeru⟧。",
+      "japanese": "{他力本願|たりきほんがん}⟦の→の：09472_no⟧⟦{思想|しそう}→思想：03173_shisou⟧⟦は→は：00079_ha⟧⟦{親鸞|しんらん}→親鸞：33061_shinran⟧⟦によって→によって：06801_niyotte⟧⟦{広|ひろ}められた→広める：02405_hiromeru⟧。",
       "english": "The concept of salvation through Amida's vow was spread by Shinran.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "18501_tarikihongan_ex6",
-      "japanese": "⟦{本来|ほんらい}→本来：09644_honrai⟧⟦の→の：09472_no⟧{他力本願|たりきほんがん}⟦は→は：00079_ha⟧⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧⟦{用語|ようご}→用語：04086_yougo⟧で⟦あり→ある：00006_aru⟧、{他人任|たにんまか}せ⟦という→という：09577_toiu⟧⟦{意味|いみ}→意味：01155_imi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
+      "japanese": "⟦{本来|ほんらい}→本来：09644_honrai⟧⟦の→の：09472_no⟧{他力本願|たりきほんがん}⟦は→は：00079_ha⟧⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧⟦{用語|ようご}→用語：04086_yougo⟧で⟦あり→ある：00006_aru⟧、⟦{他人任|たにんまか}せ→他人任せ：32729_taninmakase⟧⟦という→という：09577_toiu⟧⟦{意味|いみ}→意味：01155_imi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Originally tariki hongan is a Buddhist term; it does not mean 'leaving things to others.'",
       "sense_numbers": [
         2
@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "A ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧ with a notable gap between its original Buddhist meaning and its everyday usage. In everyday Japanese, it is almost always used in sense 1 with a negative connotation. Buddhist scholars sometimes object to this colloquial usage, noting that the original meaning (sense 2) refers to a profound religious concept in {浄土真宗|じょうどしんしゅう} (Jodo Shinshu Buddhism). The opposite concept is ⟦{自力|じりき}→自力：08513_jiriki⟧ (relying on one's own efforts).",
+  "notes": "A ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧ whose everyday meaning has drifted far from its Buddhist origin.\n\nUSAGE:\nIn everyday Japanese it is almost always sense 1, with a negative tone. Buddhists, especially of ⟦{浄土真宗|じょうどしんしゅう}→浄土真宗：33241_joudoshinshuu⟧, sometimes object to this use, since the original meaning (sense 2) is a central religious idea, not laziness.\n\nRELATED WORDS:\n- ⟦{自力|じりき}→自力：08513_jiriki⟧: one's own efforts (the opposite)\n- ⟦{人任|ひとまか}せ→人任せ：32448_hitomakase⟧: leaving things to others — the everyday word for sense 1",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "08513_jiriki",
+      "reading": "じりき",
+      "headword": "{自力|じりき}",
+      "label": "one's own efforts"
+    },
+    {
+      "type": "related",
+      "target_id": "32448_hitomakase",
+      "reading": "ひとまかせ",
+      "headword": "{人任|ひとまか}せ",
+      "label": "leaving things to others"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -95,6 +111,6 @@
       ]
     },
     "created": "2026-03-22T03:15:23Z",
-    "modified": "2026-10-07T14:14:54Z"
+    "modified": "2026-11-19T14:06:37Z"
   }
 }
