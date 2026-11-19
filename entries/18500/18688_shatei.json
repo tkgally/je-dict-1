@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "Sense 1 is the original meaning: {舎|しゃ} is a humble prefix (as in {舎兄|しゃけい} for older brother) and {弟|てい} means younger brother. This usage is quite formal and archaic. Sense 2 is the more commonly encountered modern usage, strongly associated with yakuza films and fiction. In this context, ⟦{兄貴|あにき}→兄貴：11623_aniki⟧ (big brother/boss) and {舎弟|しゃてい} (follower/junior) form a hierarchical pair. Related: ⟦{弟|おとうと}→弟：00572_otouto⟧ (younger brother — standard), ⟦{兄貴|あにき}→兄貴：11623_aniki⟧ (big brother/boss), ⟦{子分|こぶん}→子分：19895_kobun⟧ (follower, henchman).",
+  "notes": "USAGE:\nSense 1 is the original meaning ({舎|しゃ} is a humble prefix, as in {舎兄|しゃけい}, my older brother); it is formal and now rare. Sense 2 is what most people know today, from yakuza films and fiction, where ⟦{兄貴|あにき}→兄貴：11623_aniki⟧ (big brother, boss) and {舎弟|しゃてい} (sworn younger brother, follower) form a pair.\n\nRELATED WORDS:\n- ⟦{弟|おとうと}→弟：00572_otouto⟧: younger brother (the standard word)\n- ⟦{兄貴|あにき}→兄貴：11623_aniki⟧: big brother; boss (the senior partner of a {舎弟|しゃてい})\n- ⟦{子分|こぶん}→子分：19895_kobun⟧: follower, henchman",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11623_aniki",
+      "reading": "あにき",
+      "headword": "{兄貴|あにき}",
+      "label": "big brother"
+    },
+    {
+      "type": "related",
+      "target_id": "19895_kobun",
+      "reading": "こぶん",
+      "headword": "{子分|こぶん}",
+      "label": "follower, henchman"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -95,6 +111,6 @@
       ]
     },
     "created": "2026-03-22T11:55:06Z",
-    "modified": "2026-09-02T04:01:53Z"
+    "modified": "2026-11-19T14:06:37Z"
   }
 }
