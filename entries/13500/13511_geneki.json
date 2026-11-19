@@ -35,7 +35,7 @@
     },
     {
       "id": "13511_geneki_ex3",
-      "japanese": "3{期|き}⟦{連続|れんぞく}→連続：03783_renzoku⟧⟦の→の：09472_no⟧{減益|げんえき}⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧、⟦{経営|けいえい}{陣|じん}→経営陣：20535_keieijin⟧⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦が→が：00051_ga⟧⟦{問|と}われている→問う：02299_tou⟧。",
+      "japanese": "3⟦{期|き}→〜期：32470_ki⟧⟦{連続|れんぞく}→連続：03783_renzoku⟧⟦の→の：09472_no⟧{減益|げんえき}⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧、⟦{経営|けいえい}{陣|じん}→経営陣：20535_keieijin⟧⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦が→が：00051_ga⟧⟦{問|と}われている→問う：02299_tou⟧。",
       "english": "Following three consecutive periods of declining profits, the management team is being held accountable.",
       "notes": null,
       "has_audio": true,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA business and financial term that appears frequently in earnings reports and economic news. Typically paired with ⟦{増収|ぞうしゅう}→増収：30424_zoushuu⟧/⟦{減収|げんしゅう}→減収：30435_genshuu⟧ (revenue increase/decrease) in financial reporting patterns like ⟦{増収|ぞうしゅう}→増収：30424_zoushuu⟧{減益|げんえき} (higher revenue but lower profit).\n\nThe antonym is ⟦{増益|ぞうえき}→増益：30434_zoueki⟧ (increased profit).\n\nCOMMON COLLOCATIONS:\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧{減益|げんえき}: large profit decline\n- ⟦{減収|げんしゅう}→減収：30435_genshuu⟧{減益|げんえき}: lower revenue and lower profit\n- ⟦{増収|ぞうしゅう}→増収：30424_zoushuu⟧{減益|げんえき}: higher revenue but lower profit\n- {減益|げんえき}⟦{予想|よそう}→予想：03664_yosou⟧: profit decline forecast\n- {減益|げんえき}⟦{幅|はば}→幅：03565_haba⟧: extent of profit decline",
-  "cross_references": [],
+  "notes": "USAGE:\nA term of earnings reports and economic news, paired with ⟦{増収|ぞうしゅう}→増収：30424_zoushuu⟧ / ⟦{減収|げんしゅう}→減収：30435_genshuu⟧ (higher / lower revenue) in fixed four-character labels.\n\nCOMMON COLLOCATIONS:\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧{減益|げんえき}: a sharp fall in profit\n- ⟦{減収|げんしゅう}→減収：30435_genshuu⟧{減益|げんえき}: lower revenue and lower profit\n- ⟦{増収|ぞうしゅう}→増収：30424_zoushuu⟧{減益|げんえき}: higher revenue but lower profit\n- {減益|げんえき}⟦{予想|よそう}→予想：03664_yosou⟧: a forecast of lower profit\n\nRELATED WORDS:\n- ⟦{増益|ぞうえき}→増益：30434_zoueki⟧: higher profit (the opposite)\n- ⟦{減収|げんしゅう}→減収：30435_genshuu⟧: lower revenue — {減益|げんえき} is about profit, ⟦{減収|げんしゅう}→減収：30435_genshuu⟧ about sales",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "30434_zoueki",
+      "reading": "ぞうえき",
+      "headword": "{増益|ぞうえき}",
+      "label": "higher profit"
+    },
+    {
+      "type": "related",
+      "target_id": "30435_genshuu",
+      "reading": "げんしゅう",
+      "headword": "{減収|げんしゅう}",
+      "label": "lower revenue"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T13:33:10Z",
-    "modified": "2026-09-02T04:01:33Z",
+    "modified": "2026-11-19T13:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -58,7 +73,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "work"
+        "business",
+        "economics"
       ],
       "domain": [
         "business"
