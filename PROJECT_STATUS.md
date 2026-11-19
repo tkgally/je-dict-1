@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-19 (47 candidates added, seventh cycle of the 12:15 UTC run)
+
+Brainstorm, field color (96 proposals: 47 own, 50 each from gpt-6.1-sol and gemini-3.8-flash; 44 already entries; 51 new, 47 added, 5 rejected as rare traditional or technical color names): ベージュ, ねずみ色, 黄土色, 白っぽい / 赤っぽい / 黒っぽい, 黄ばむ, くすむ, 色むら, 色移り, 三原色, 蛍光色, モノトーン, 乳白色, 浅黒い, 紅一点, 黄色い声, 白黒をつける, 迷彩, … Closure: no unresolved noentry markers remain. Queue 233 (205 closure and brainstorm).
+
 ### 2026-11-19 (20 new entries, third cycle of the 12:15 UTC run)
 
 33780–33799. Closure: 内弁慶, 縁 (ふち). Brainstorm: 財布の紐 (seed 財布), 移り住む, 住み込み (seed 住む), 晴れ渡る (seed 晴れる), 笑い話 (seed 笑う), 空元気 (seed 元気), のど飴 (seed 飴), 麦わら帽子 (seed 帽子), 体内時計 (seed 時計). ezFurigana: 留意, 余剰, よしみ (looked up as 好), 〜呼ばわり, 理, 利潤, 拉致, 流水, 優位性.
@@ -68,9 +72,4 @@ Closure (3): 風雪, 宮家, 温水洗浄便座 (words used in entries edited or
 
 33745–33759. Closure: パロディ. Brainstorm (field brand-name): Suica, ファミリーマート, ローソン, 吉野家, ウォシュレット, サランラップ, ケンタッキー. ezFurigana: プロダクト, モジュール, モルモット, もろ手を挙げて (looked up as 諸手), 宮, マクロ, ボイス.
 Self-check: 1 fixed (ケンタッキー example: "reserve KFC" → "order KFC in advance"); kana links clean.
-
-### 2026-11-18 (18 new entries, fourth cycle of the 12:15 UTC run)
-
-33727–33744. Closure: 元妻, 無期限. Brainstorm: 脱げる, 発つ (seed 着く), かかりつけ (seed かかる), 晴れ間 (seed 晴れる), 下調べ (seed 下), 駄目出し (seed だめ), 心変わり (seed 変わる), 綺麗事 (seed きれい), 他界 (seed 死ぬ). ezFurigana: 持てる, 元ネタ, 三つどもえ, 彼岸花 (looked up as 曼珠沙華), メカ, 宮崎, モスクワ.
-Self-check: clean (0 flags; kana links clean). Candidate added: パロディ (seen in 33739).
 
