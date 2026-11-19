@@ -25,7 +25,7 @@
   "examples": [
     {
       "id": "23000_otsu_ex1",
-      "japanese": "{甲|こう}⟦と→と：00512_to⟧{乙|おつ}⟦の→の：09472_no⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧。",
+      "japanese": "⟦{甲|こう}→甲：32795_kou⟧⟦と→と：00512_to⟧{乙|おつ}⟦の→の：09472_no⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧。",
       "english": "A contract between Party A and Party B.",
       "sense_numbers": [
         1
@@ -96,7 +96,7 @@
     {
       "id": "23000_otsu_ex8",
       "japanese": "おつ！⟦{今日|きょう}→今日：00496_kyou⟧⟦も→も：00484_mo⟧⟦{楽|たの}しかった→楽しい：00817_tanoshii⟧。",
-      "english": "GG! Today was fun too.",
+      "english": "Good work! That was fun again today.",
       "sense_numbers": [
         3
       ],
@@ -114,7 +114,7 @@
       "notes": null
     }
   ],
-  "notes": "A word with a remarkably wide range of uses, from formal legal documents to casual internet slang.\n\nSENSE 1 — RANKING:\nPart of the {十干|じっかん} (Heavenly Stems) system: {甲|こう}, {乙|おつ}, ⟦{丙|へい}→丙：18072_hei⟧, {丁|てい}... Used in contracts where {甲|こう} is Party A and {乙|おつ} is Party B.\n\nSENSE 2 — STYLISH:\n{乙|おつ}な is a somewhat old-fashioned but still-used expression describing understated elegance. Common set phrases:\n- {乙|おつ}な⟦{味|あじ}→味：00826_aji⟧: a sophisticated flavor\n- {乙|おつ}なもの: something with charm\n- {乙|おつ}な{計|はか}らい: a thoughtful, tasteful arrangement\n\nSENSE 3 — INTERNET SLANG:\nAbbreviation of お⟦{疲|つか}れ→疲れ：03518_tsukare⟧ (otsukare) or ⟦お{疲|つか}れ{様|さま}→お疲れ様：05208_otsukaresama⟧ (otsukaresama). Written in hiragana (おつ) or katakana (オツ). Very common in live streams, gaming, and online communities.\n\nSIMILAR WORDS:\n- ⟦{粋|いき}→粋：13773_iki⟧: stylish, chic — the Edo aesthetic sense; more strongly cultural\n- {甲|こう}: first rank, A — the counterpart to {乙|おつ} in ranking",
+  "notes": "A word with a remarkably wide range of uses, from formal legal documents to casual internet slang.\n\nSENSE 1 — RANKING:\nPart of the {十干|じっかん} (Heavenly Stems) system: ⟦{甲|こう}→甲：32795_kou⟧, {乙|おつ}, ⟦{丙|へい}→丙：18072_hei⟧, {丁|てい}... Used in contracts where ⟦{甲|こう}→甲：32795_kou⟧ is Party A and {乙|おつ} is Party B.\n\nSENSE 2 — STYLISH:\n{乙|おつ}な is a somewhat old-fashioned but still-used expression describing understated elegance. Common set phrases:\n- {乙|おつ}な⟦{味|あじ}→味：00826_aji⟧: a sophisticated flavor\n- {乙|おつ}なもの: something with charm\n- {乙|おつ}な⟦{計|はか}らい→計らい：32286_hakarai⟧: a thoughtful, tasteful arrangement\n\nSENSE 3 — INTERNET SLANG:\nAbbreviation of お⟦{疲|つか}れ→疲れ：03518_tsukare⟧ (otsukare) or ⟦お{疲|つか}れ{様|さま}→お疲れ様：05208_otsukaresama⟧ (otsukaresama). Written in hiragana (おつ) or katakana (オツ). Very common in live streams, gaming, and online communities.\n\nSIMILAR WORDS:\n- ⟦{粋|いき}→粋：13773_iki⟧: stylish, chic — the Edo aesthetic sense; more strongly cultural\n- ⟦{甲|こう}→甲：32795_kou⟧: first rank, A — the counterpart to {乙|おつ} in ranking",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -123,6 +123,13 @@
       "reading": "いき",
       "headword": "{粋|いき}",
       "label": "stylish, chic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "32795_kou",
+      "reading": "こう",
+      "headword": "{甲|こう}",
+      "label": "first rank, A"
     }
   ],
   "metadata": {
@@ -139,6 +146,6 @@
       ]
     },
     "created": "2026-04-08T15:35:55Z",
-    "modified": "2026-10-25T13:15:42Z"
+    "modified": "2026-11-19T01:35:59Z"
   }
 }
