@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-19 (00:15 run, systemic-fix, third cycle):** thirty-sixth batch, 13632–14409: 57 retagged by meaning (破壊→change+building, 直撃/襲来→weather+military, 競う→sports+society, 紡ぐ→clothing+creation, 脱帽→clothing+evaluation, 興す/設立→business+creation, 行使→law+politics, 見舞う→health+society, 転嫁→society+money, 要する→quantity+time-general, 配置→place+work, …); 3 left as `action` (確保, 痛めつける, 遂げる); one reviewer correction to a notes claim in 薄れる (消える can be gradual); the raw detector counts 635. The next batch starts after 14409.
+
 **Update 2026-11-18 (16:15 run, systemic-fix, fourth cycle):** thirty-fifth batch, 12806–13616: 43 retagged by meaning (抑える→emotion+quantity, 拡張→size+change, 放棄→law+politics, 捕獲→animal-general+law, 投与→health, 映す/映る→sense+technology, 換える→change+money, 撃破/激闘→military+sports, 無視→communication+society, 癒す→health+emotion, …; reviewer corrections: 押し込める→movement+place, 振り絞る→emotion); 1 left as `action` (施す); the raw detector counts 693. The next batch starts after 13616.
 
 **Update 2026-11-17 (16:15 run, systemic-fix, ninth cycle):** thirty-third batch, 12001–12482: 26 retagged by meaning (入隊→military, 壊滅→change+military, 失踪→existence+law, 奨励→communication+education, 寝かせる→daily-life+cooking, 対決/対抗→sports+society, 廃棄→daily-life+business, …); 3 left as action (取り去る, 妨げる, 封じる). The raw detector counts 770. The next batch starts after 12482.
