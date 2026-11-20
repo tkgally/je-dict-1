@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-20 (10 new entries, eighth cycle of the 00:15 UTC run)
+
+33820–33829. Brainstorm (field brand-name): プレイステーション, PASMO, カルピス, ヤクルト, グーグル. ezFurigana: 皇室典範 (shows 典範), 両刃, 臨海, 倫理的, 塁. No closure candidates were queued.
+Self-check: clean (0 flags from gpt-6.1-sol; 5 kana links judged, 0 flagged).
+
 ### 2026-11-20 (20 new entries, second cycle of the 00:15 UTC run)
 
 33800–33819. Closure: 鍔 (brim; sword guard, seen in 33789), アンインストール (seen in 04762). Brainstorm (field brand-name and art): 尾形光琳, パナソニック, ホンダ, 楽天, イオン (ion; Aeon), カップヌードル, ドン・キホーテ, ニトリ, 日産. ezFurigana: 悶絶, 友愛, 遊説, 夢見心地, リテラシー, 留置, 両思い (shows 両想い), ミュージック, ラグ (rug; lag). New kanji 琳 (02875), 鍔 (02876).
@@ -68,8 +73,4 @@ Self-check: 1 fixed (のど飴: 食べる is also heard with lozenges); 1 kana l
 
 33760–33779. Closure: 風雪, 宮家, 温水洗浄便座. Brainstorm: スターバックス, マクドナルド (field brand-name), 羽田空港, 成田空港 (seed 空港), 中ほど (seed 中), 下火 (seed 下), 死に物狂い (seed 死ぬ), 外面 そとづら (seed 外). ezFurigana: やら, 行き場, 養分, 予後, 酔いしれる, 要員, 溶接, よそ者, 寄せ書き.
 Self-check: clean (0 flags from gpt-6.1-sol; 16 kana links judged, 0 flagged). Candidate added: 内弁慶 (seen in 33770).
-
-### 2026-11-18 (29 candidates added, fifth cycle of the 16:15 UTC run)
-
-Closure (3): 風雪, 宮家, 温水洗浄便座 (words used in entries edited or created today). Brainstorm, field cognition (16 of 141 proposals new after filtering; 16 added, 3 rejected): 物知り, 気が変わる, 耳を疑う, 頭が切れる, 内省, 勘案, 既視感, 物心がつく, 知ったかぶり, … Brainstorm, seeds 七–飛ぶ (10 added, 9 rejected): 七味唐辛子, 七不思議, 二の次, 二の舞, 三度目の正直, 飛ぶ鳥を落とす勢い, … Queue 223 (177 closure and brainstorm). No unresolved noentry markers remain, so closure had little depth.
 
