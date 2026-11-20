@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "An ichidan verb formed from ⟦{義務|ぎむ}→義務：02647_gimu⟧ (obligation, duty) + {付|づ}ける (to attach). Creates the meaning of attaching an obligation to something or someone. Very frequently used in passive form ({義務付|ぎむづ}けられて⟦いる→いる：00495_iru⟧) to describe existing requirements.\n\nTRANSITIVITY:\nTransitive — takes ⟦を→を：00422_wo⟧ to mark the action being made mandatory, and ⟦に→に：00314_ni⟧ to mark who is obligated.\n\nCOMMON COLLOCATIONS:\n- {義務付|ぎむづ}けられて⟦いる→いる：00495_iru⟧ — is required, is mandatory\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧{義務付|ぎむづ}ける — to require by law\n- {義務付|ぎむづ}けられた⟦{研修|けんしゅう}→研修：05322_kenshuu⟧ — mandatory training\n\nSIMILAR WORDS:\n- ⟦{義務化|ぎむか}→義務化：28603_gimuka⟧⟦する→する：00392_suru⟧ — to make obligatory (noun + ⟦する→する：00392_suru⟧ form)\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧⟦する→する：00392_suru⟧ — to compel, to force (stronger, more coercive)\n- {課|か}す — to impose (a duty, tax, etc.)",
+  "notes": "An ichidan verb formed from ⟦{義務|ぎむ}→義務：02647_gimu⟧ (obligation, duty) + {付|づ}ける (to attach). Creates the meaning of attaching an obligation to something or someone. Very frequently used in passive form ({義務付|ぎむづ}けられて⟦いる→いる：00495_iru⟧) to describe existing requirements.\n\nTRANSITIVITY:\nTransitive — takes ⟦を→を：00422_wo⟧ to mark the action being made mandatory, and ⟦に→に：00314_ni⟧ to mark who is obligated.\n\nCOMMON COLLOCATIONS:\n- {義務付|ぎむづ}けられて⟦いる→いる：00495_iru⟧ — is required, is mandatory\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧{義務付|ぎむづ}ける — to require by law\n- {義務付|ぎむづ}けられた⟦{研修|けんしゅう}→研修：05322_kenshuu⟧ — mandatory training\n\nSIMILAR WORDS:\n- ⟦{義務化|ぎむか}→義務化：28603_gimuka⟧⟦する→する：00392_suru⟧ — to make obligatory (noun + ⟦する→する：00392_suru⟧ form)\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧⟦する→する：00392_suru⟧ — to compel, to force (stronger, more coercive)\n- ⟦{課|か}す→課する：31760_kasuru⟧ — to impose (a duty, tax, etc.)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -150,6 +150,13 @@
       "reading": "きょうせい",
       "headword": "{強制|きょうせい}",
       "label": "to compel, to force"
+    },
+    {
+      "type": "contrast",
+      "target_id": "31760_kasuru",
+      "reading": "かする",
+      "headword": "{課|か}する",
+      "label": "to impose"
     }
   ],
   "metadata": {
@@ -161,12 +168,13 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "law",
+        "politics"
       ],
       "transitivity": "transitive",
       "verb_class": "ichidan"
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-09-02T04:01:58Z"
+    "modified": "2026-11-20T13:09:32Z"
   }
 }
