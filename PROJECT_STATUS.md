@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-20 (16 candidates added, eighth cycle of the 12:15 UTC run)
+
+Brainstorm, seeds 300–320 (撮る … 階段; 177 proposals: 60 own, 107 gpt-6.1-sol, 91 gemini-3.8-flash after merging; 164 already entries; 13 new, 9 added, 4 rejected): 危なっかしい, 授業参観, 記念撮影, 百発百中, 隠し撮り, 危ぶむ, 猛勉強, 病み上がり, ご飯粒. Closure (words used in today's entries): 烙印, 袖の下, 御霊, 枢軸, 頭字語, 点鼻薬, 榴弾. Queue: 208.
+
 ### 2026-11-20 (12 new entries, sixth cycle of the 12:15 UTC run)
 
 33830–33841. Brainstorm: プリクラ, マジックテープ, バンドエイド, エクセル (field brand-name), 秋分の日 (same category as 九月), 関西国際空港 (related to 空港). ezFurigana: レイアウト, レッテル, 連呼, 連名, 沸き返る, 訳あり (shows 訳アリ). No closure candidates queued.
@@ -69,7 +73,3 @@ Self-check: 2 fixed (イオン came via German Ion; 日産 "daily output" stands
 
 Brainstorm, field color (96 proposals: 47 own, 50 each from gpt-6.1-sol and gemini-3.8-flash; 44 already entries; 51 new, 47 added, 5 rejected as rare traditional or technical color names): ベージュ, ねずみ色, 黄土色, 白っぽい / 赤っぽい / 黒っぽい, 黄ばむ, くすむ, 色むら, 色移り, 三原色, 蛍光色, モノトーン, 乳白色, 浅黒い, 紅一点, 黄色い声, 白黒をつける, 迷彩, … Closure: no unresolved noentry markers remain. Queue 233 (205 closure and brainstorm).
 
-### 2026-11-19 (20 new entries, third cycle of the 12:15 UTC run)
-
-33780–33799. Closure: 内弁慶, 縁 (ふち). Brainstorm: 財布の紐 (seed 財布), 移り住む, 住み込み (seed 住む), 晴れ渡る (seed 晴れる), 笑い話 (seed 笑う), 空元気 (seed 元気), のど飴 (seed 飴), 麦わら帽子 (seed 帽子), 体内時計 (seed 時計). ezFurigana: 留意, 余剰, よしみ (looked up as 好), 〜呼ばわり, 理, 利潤, 拉致, 流水, 優位性.
-Self-check: 1 fixed (のど飴: 食べる is also heard with lozenges); 1 kana link removed (つば in 麦わら帽子 is the brim, not saliva). Candidate added: 鍔 (seen in 33789).
