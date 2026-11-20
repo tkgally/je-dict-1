@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-20 (00:15 run, systemic-fix, sixth cycle):** thirty-ninth batch, 17942–19379: 68 retagged by meaning (調節→technology+quantity, 口ずさむ→music, 没収→law, 給油→transportation, 引率→education+travel, 占拠→military+politics, 解凍→cooking+technology, 治す→health, …); 3 left as action (被る, 放っておく, 締まる). The self-check moved しなる to movement. The raw detector counts 431. The next batch starts after 19379.
+
 **Update 2026-11-20 (00:15 run, systemic-fix, first cycle):** thirty-eighth batch, 15621–17849: 66 retagged by meaning (取り壊す→building, 点呼→education+military, 巻き戻す→technology+media, 駆除→animal-insect+daily-life, 払い戻す→money+shopping, 精進する→religion+work, 来襲→military+weather, 身籠る→family+health, 起動する→technology+electronics, 継承する→family+culture, 差す→weather+daily-life, …); 4 left as action (切り抜ける, 回避する, 維持する, 組み合わさる). The self-check moved three `tool` tags that named an object rather than the word (点火, 代用, 結び付ける; 兼用 likewise) and set 仕損じる to formal. The raw detector counts 503. The next batch starts after 17849.
 
 **Update 2026-11-19 (00:15 run, systemic-fix, third cycle):** thirty-sixth batch, 13632–14409: 57 retagged by meaning (破壊→change+building, 直撃/襲来→weather+military, 競う→sports+society, 紡ぐ→clothing+creation, 脱帽→clothing+evaluation, 興す/設立→business+creation, 行使→law+politics, 見舞う→health+society, 転嫁→society+money, 要する→quantity+time-general, 配置→place+work, …); 3 left as `action` (確保, 痛めつける, 遂げる); one reviewer correction to a notes claim in 薄れる (消える can be gradual); the raw detector counts 635. The next batch starts after 14409.
