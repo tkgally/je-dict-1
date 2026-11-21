@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-21 (20 new entries, third cycle of the 00:15 UTC run)
+
+33842–33861. Closure: 隠し撮り, 烙印, 袖の下, 御霊, 枢軸, 頭字語, 点鼻薬, 榴弾. Brainstorm: 北国 (compound of 北), 梁, スロープ, フロア, プレハブ, ユニットバス (field building). ezFurigana: ライフ, 歴訪, 連綿, わけがない, ワット, リーチ. New kanji 烙 (02877). 8 candidates added from the new notes (わけではない, 基軸, キロワット, …).
+Self-check: 3 flags from gpt-6.1-sol on 隠し撮り and 御霊, all applied; 1 kana link unlinked (ことがある in そんなことがあるわけがない).
+
 ### 2026-11-20 (16 candidates added, eighth cycle of the 12:15 UTC run)
 
 Brainstorm, seeds 300–320 (撮る … 階段; 177 proposals: 60 own, 107 gpt-6.1-sol, 91 gemini-3.8-flash after merging; 164 already entries; 13 new, 9 added, 4 rejected): 危なっかしい, 授業参観, 記念撮影, 百発百中, 隠し撮り, 危ぶむ, 猛勉強, 病み上がり, ご飯粒. Closure (words used in today's entries): 烙印, 袖の下, 御霊, 枢軸, 頭字語, 点鼻薬, 榴弾. Queue: 208.
@@ -68,8 +73,4 @@ Self-check: clean (0 flags from gpt-6.1-sol; 5 kana links judged, 0 flagged).
 
 33800–33819. Closure: 鍔 (brim; sword guard, seen in 33789), アンインストール (seen in 04762). Brainstorm (field brand-name and art): 尾形光琳, パナソニック, ホンダ, 楽天, イオン (ion; Aeon), カップヌードル, ドン・キホーテ, ニトリ, 日産. ezFurigana: 悶絶, 友愛, 遊説, 夢見心地, リテラシー, 留置, 両思い (shows 両想い), ミュージック, ラグ (rug; lag). New kanji 琳 (02875), 鍔 (02876).
 Self-check: 2 fixed (イオン came via German Ion; 日産 "daily output" stands alone too); 15 kana links judged, 0 flagged.
-
-### 2026-11-19 (47 candidates added, seventh cycle of the 12:15 UTC run)
-
-Brainstorm, field color (96 proposals: 47 own, 50 each from gpt-6.1-sol and gemini-3.8-flash; 44 already entries; 51 new, 47 added, 5 rejected as rare traditional or technical color names): ベージュ, ねずみ色, 黄土色, 白っぽい / 赤っぽい / 黒っぽい, 黄ばむ, くすむ, 色むら, 色移り, 三原色, 蛍光色, モノトーン, 乳白色, 浅黒い, 紅一点, 黄色い声, 白黒をつける, 迷彩, … Closure: no unresolved noentry markers remain. Queue 233 (205 closure and brainstorm).
 
