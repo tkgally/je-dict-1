@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-18",
+ "updated": "2026-11-21",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -22329,6 +22329,18 @@
     "date": "2026-09-08"
    }
   },
+  "もがく": {
+   "target": "32545_mogaku",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "もがく (藻掻く) has no competing homophone in modern Japanese, so the string always means \"to struggle; to writhe\".",
+    "model": "claude:opus",
+    "date": "2026-11-21"
+   }
+  },
   "もぐもぐ": {
    "target": "05775_mogumogu",
    "tier": "unique",
@@ -24068,6 +24080,18 @@
     "reviewed": 10,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "わけがない": {
+   "target": "33859_wakeganai",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "わけがない is the fixed expression \"there's no way\"; the literal \"there's no reason\" reading belongs to the same word, and 訳ない \"easy\" is normally written without が.",
+    "model": "claude:opus",
+    "date": "2026-11-21"
    }
   },
   "わけぎ": {
