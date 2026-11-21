@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-21 (20 new entries, first cycle of the 12:15 UTC run)
+
+33862–33881. Closure: わけではない, 基軸, キロワット, アンペア, 消費電力, ライフワーク, 橋梁, 引火点 (石榴 dropped: a spelling of the existing 柘榴). Brainstorm: アマゾン, ディズニー (field brand-name), 渡り廊下, 縁の下, 間仕切り (field building), 〜巻 (related to 〜冊), 卯月 (四月), 海の日 (七月), 綿飴 (飴), 一番乗り (一). ezFurigana: トトロ, れる. New kanji 卯 (02878). 4 candidates added (綿菓子, 発火点, 引火, 宮崎駿).
+Self-check: 1 flag from gpt-6.1-sol (アマゾン explanation), applied; 1 link unlinked (縁 'fate' where the note means the veranda).
+
 ### 2026-11-21 (20 new entries, third cycle of the 00:15 UTC run)
 
 33842–33861. Closure: 隠し撮り, 烙印, 袖の下, 御霊, 枢軸, 頭字語, 点鼻薬, 榴弾. Brainstorm: 北国 (compound of 北), 梁, スロープ, フロア, プレハブ, ユニットバス (field building). ezFurigana: ライフ, 歴訪, 連綿, わけがない, ワット, リーチ. New kanji 烙 (02877). 8 candidates added from the new notes (わけではない, 基軸, キロワット, …).
@@ -68,9 +73,4 @@ Self-check: clean (0 flags from gpt-6.1-sol; 8 kana links judged, 0 flagged).
 
 33820–33829. Brainstorm (field brand-name): プレイステーション, PASMO, カルピス, ヤクルト, グーグル. ezFurigana: 皇室典範 (shows 典範), 両刃, 臨海, 倫理的, 塁. No closure candidates were queued.
 Self-check: clean (0 flags from gpt-6.1-sol; 5 kana links judged, 0 flagged).
-
-### 2026-11-20 (20 new entries, second cycle of the 00:15 UTC run)
-
-33800–33819. Closure: 鍔 (brim; sword guard, seen in 33789), アンインストール (seen in 04762). Brainstorm (field brand-name and art): 尾形光琳, パナソニック, ホンダ, 楽天, イオン (ion; Aeon), カップヌードル, ドン・キホーテ, ニトリ, 日産. ezFurigana: 悶絶, 友愛, 遊説, 夢見心地, リテラシー, 留置, 両思い (shows 両想い), ミュージック, ラグ (rug; lag). New kanji 琳 (02875), 鍔 (02876).
-Self-check: 2 fixed (イオン came via German Ion; 日産 "daily output" stands alone too); 15 kana links judged, 0 flagged.
 
