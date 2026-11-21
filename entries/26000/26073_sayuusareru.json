@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The passive form of ⟦{左右|さゆう}→左右：02826_sayuu⟧⟦する→する：00392_suru⟧ (to influence, to control). Literally \"to be moved left and right,\" meaning to be pushed around or determined by outside forces. Almost always used in the passive (⟦される→する：00392_suru⟧), and much more common than the active form in everyday usage.\n\nCOMMON PATTERNS:\n- A⟦が→が：00051_ga⟧B⟦に→に：00314_ni⟧{左右|さゆう}される — A is influenced/affected by B\n\nCOMMON COLLOCATIONS:\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦に→に：00314_ni⟧{左右|さゆう}される — to be swayed by emotions\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧{左右|さゆう}される — to be affected by the environment\n- ⟦{気分|きぶん}→気分：01306_kibun⟧⟦に→に：00314_ni⟧{左右|さゆう}される — to be influenced by one's mood\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{左右|さゆう}される — to be greatly affected\n\nSIMILAR WORDS:\n- ⟦{影響|えいきょう}を{受|う}ける→影響を受ける：25023_eikyouwoukeru⟧ — to be influenced, to be affected (more neutral; broader usage)\n- ⟦{振|ふ}り{回|まわ}される→振り回す：06051_furimawasu⟧ — to be jerked around (stronger; implies frustration)\n- ⟦{支配|しはい}される→支配する：25222_shihaisuru⟧ — to be controlled (stronger; implies dominance)",
+  "notes": "The passive form of ⟦{左右|さゆう}→左右：02826_sayuu⟧⟦する→する：00392_suru⟧ (to influence, to control). Literally \"to be moved left and right,\" meaning to be pushed around or determined by outside forces. Both forms are common: the active A⟦が→が：00051_ga⟧B⟦を→を：00422_wo⟧⟦{左右|さゆう}→左右：02826_sayuu⟧⟦する→する：00392_suru⟧ (A determines B) and the passive B⟦が→が：00051_ga⟧A⟦に→に：00314_ni⟧{左右|さゆう}される (B is at the mercy of A).\n\nCOMMON PATTERNS:\n- A⟦が→が：00051_ga⟧B⟦に→に：00314_ni⟧{左右|さゆう}される — A is influenced/affected by B\n\nCOMMON COLLOCATIONS:\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦に→に：00314_ni⟧{左右|さゆう}される — to be swayed by emotions\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧{左右|さゆう}される — to be affected by the environment\n- ⟦{気分|きぶん}→気分：01306_kibun⟧⟦に→に：00314_ni⟧{左右|さゆう}される — to be influenced by one's mood\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{左右|さゆう}される — to be greatly affected\n\nSIMILAR WORDS:\n- ⟦{影響|えいきょう}を{受|う}ける→影響を受ける：25023_eikyouwoukeru⟧ — to be influenced, to be affected (more neutral; broader usage)\n- ⟦{振|ふ}り{回|まわ}される→振り回す：06051_furimawasu⟧ — to be jerked around (stronger; implies frustration)\n- ⟦{支配|しはい}される→支配する：25222_shihaisuru⟧ — to be controlled (stronger; implies dominance)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -74,6 +74,20 @@
       "reading": "えいきょうされる",
       "headword": "{影響|えいきょう}される",
       "label": "to be influenced"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06051_furimawasu",
+      "reading": "ふりまわす",
+      "headword": "{振|ふ}り{回|まわ}す",
+      "label": "to be jerked around (stronger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25222_shihaisuru",
+      "reading": "しはいする",
+      "headword": "{支配|しはい}する",
+      "label": "to be controlled (stronger"
     }
   ],
   "metadata": {
@@ -89,6 +103,6 @@
       ]
     },
     "created": "2026-04-29T12:34:40Z",
-    "modified": "2026-09-02T04:02:24Z"
+    "modified": "2026-11-21T02:04:58Z"
   }
 }
