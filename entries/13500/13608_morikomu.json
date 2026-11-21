@@ -170,10 +170,18 @@
     }
   ],
   "notes": "FORMS:\n⟦{盛|も}る→盛る：00292_moru⟧ (to heap, to serve) + ⟦{込|こ}む→込む：00719_komu⟧ (into). The ⟦{込|こ}む→込む：00719_komu⟧ suffix adds the nuance of putting something into or packing something in.\n\nUSAGE:\nSense 1 (incorporate) is more common in modern usage, especially in business, government, and media contexts. The passive form {盛|も}り{込|こ}まれる (to be incorporated) is very frequent in news articles about policy and legislation.\n\nCOMMON COLLOCATIONS:\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦に→に：00314_ni⟧{盛|も}り{込|こ}む: incorporate into a plan\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦に→に：00314_ni⟧{盛|も}り{込|こ}む: include in a budget\n- ⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧{盛|も}り{込|こ}む: incorporate content\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧⟦を→を：00422_wo⟧{盛|も}り{込|こ}む: include conditions",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00292_moru",
+      "reading": "もる",
+      "headword": "{盛|も}る",
+      "label": "to heap up, to serve (base verb)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T09:56:15Z",
-    "modified": "2026-11-18T17:25:29Z",
+    "modified": "2026-11-21T12:47:03Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -183,7 +191,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "quantity"
+        "action",
+        "business"
       ],
       "transitivity": "transitive",
       "verb_class": "godan-mu"
