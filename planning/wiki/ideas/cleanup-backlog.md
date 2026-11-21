@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-21 (12:15 run, systemic-fix, third cycle):** forty-third batch, 25392–26963: 34 read, 31 retagged by meaning (熟睡する→daily-life+health, 退治する→animal-insect+culture, 削減する→quantity+economics, 誘致→business+politics, 溶く→cooking, 噴く→nature+movement, 解除する→law+technology, 対戦する→sports+entertainment, 設計する→building+technology, 抗議する→communication+politics, 発見する→cognition+science, …; the self-check moved 切断する from tool+technology to technology+health); 3 read and left as action (そのままにする, やり出す, 開始する: no tag fits better). Detector 307 → 276. Next batch after 26963.
+
 **Update 2026-11-21 (00:15 run, systemic-fix, fifth cycle):** forty-second batch, 22365–25386: 32 retagged by meaning (分離する→science+change, 掌握→politics+cognition, 取り分ける→food+cooking, 待ち伏せる→military+movement, 振り付ける→music+entertainment, 辞去する→greeting+movement, 大あくび→body-internal+daily-life, 復興する→society+change, 正座する→culture+daily-life, …); マーキング keeps action beside animal-general. The self-check removed body-part from ウィンク and 愛撫. 307 remain by the raw detector; the next batch starts after 25386.
 
 **Update 2026-11-20 (12:15 run, systemic-fix, ninth cycle):** forty-first batch, 21338–22363: 26 of 30 retagged by meaning (取り逃す→law, 挑戦する→sports+work, 発送する→shopping+business, 適用する/禁止する→law, 貫き通す→personality, …); 敢行, 敢行する, 続行, 中止する left as action. 339 remain by the raw detector; the next batch starts after 22363.
