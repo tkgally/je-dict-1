@@ -1655,6 +1655,8 @@ that `descriptive` is retained alongside rather than replaced.
 
 ## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
 
+**Update 2026-11-21 (00:15 run, systemic-fix, fifth cycle):** forty-second batch, 22365–25386: 32 retagged by meaning (分離する→science+change, 掌握→politics+cognition, 取り分ける→food+cooking, 待ち伏せる→military+movement, 振り付ける→music+entertainment, 辞去する→greeting+movement, 大あくび→body-internal+daily-life, 復興する→society+change, 正座する→culture+daily-life, …); マーキング keeps action beside animal-general. The self-check removed body-part from ウィンク and 愛撫. 307 remain by the raw detector; the next batch starts after 25386.
+
 **Update 2026-11-20 (12:15 run, systemic-fix, ninth cycle):** forty-first batch, 21338–22363: 26 of 30 retagged by meaning (取り逃す→law, 挑戦する→sports+work, 発送する→shopping+business, 適用する/禁止する→law, 貫き通す→personality, …); 敢行, 敢行する, 続行, 中止する left as action. 339 remain by the raw detector; the next batch starts after 22363.
 
 **Update 2026-11-20 (12:15 run, systemic-fix, fourth cycle):** fortieth batch, 19421–21323: 66 retagged by meaning (静める→emotion, 投降→military, 模写→art, 侵す→military+law, 実施する→work, 執り行う→religion+culture, 点灯する→electronics+technology, なりすます→law, 停止する→transportation+technology, 撤去する→building+law, …); the self-check moved 退避 to movement alone. 365 remain by the raw detector; the next batch starts after 21323.
