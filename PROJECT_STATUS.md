@@ -52,7 +52,7 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ### 2026-11-21 (18 new entries, fifth cycle of the 12:15 UTC run)
 
-33882–33899. Closure: 綿菓子, 発火点, 引火, 宮崎駿 (named in the first cycle's entries). Brainstorm: 土用の丑の日 (related to 七月), 駄目押し (だめ), ニット帽 (帽子), 文字盤 (時計), 社員旅行 (field business), ペイペイ (field brand-name), 毛玉, 裾上げ, ほつれる, 腹巻き, ユニフォーム, ジャージ, 短パン, 着付け (field clothing). No ezFurigana candidates were queued. New kanji 駿 (02879). 6 candidates added (平賀源内, 長針, 短針, 背番号, 気付け, …).
+33882–33899. Closure: 綿菓子, 発火点, 引火, 宮崎駿 (named in the first cycle's entries). Brainstorm: 土用の丑の日 (related to 七月), 駄目押し (だめ), ニット帽 (帽子), 文字盤 (時計), 社員旅行 (field business), ペイペイ (field brand-name), 毛玉, 裾上げ, ほつれる, 腹巻き, ユニフォーム, ジャージ, 短パン, 着付け (field clothing). No ezFurigana candidates were queued. New kanji 駿 (02879). 5 candidates added (平賀源内, 長針, 短針, 背番号, 気付け).
 Self-check: 2 flags from gpt-6.1-sol, both applied (短パン etymology; 発火点 note softened); 21 kana links judged, 0 flagged.
 
 ### 2026-11-21 (20 new entries, first cycle of the 12:15 UTC run)
