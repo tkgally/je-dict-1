@@ -459,6 +459,10 @@ domain tag), `transportation` (not `transport`), `animal-general` (not
 Animal anatomy (くちばし, えら, たてがみ) takes the animal tag plus `body-part`, and animal
 housing (鳥小屋, 馬小屋) the animal tag plus `building`; tag a tool or appliance by what it is
 (アイロン `tool`), not by what it is used on (2026-11-09).
+Tags are denotational: a verb or a verb phrase never takes `body-part` (or another
+concrete-thing tag), even when its headword names a body part (目を伏せる, 首を傾げる,
+手に取る); tag what it means (`movement`, `emotion`, `health`, `sense`, …). Nouns that name a
+posture (立て膝) take `movement` or `daily-life`, not `body-part` (2026-11-22).
 
 ### Optional Tag Categories
 

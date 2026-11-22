@@ -745,17 +745,18 @@
     {
       "id": "tag-bodypart-non-denotational",
       "title": "semantic 'body-part' on entries whose pos is a verb class (41 entries)",
-      "source": "ideas/cleanup-backlog.md#priority-40",
+      "source": "ideas/cleanup-backlog-resolved.md#priority-40",
       "detect": "python3 - : flag entries where 'body-part' in metadata.tags.semantic AND metadata.tags.pos intersects {verb-godan, verb-ichidan, verb-suru, verb-irregular}",
       "filter": "work the 30 entries with no body-part character in the headword first (pure drift: 調査, 舞う, 描く, 溢れる, 染まる, なびく, ときめく, 火傷, 日焼け, 閉経, 大便, 出産する); the 11 whose headword names a body part (目を伏せる, 首を傾げる, 手術, 発汗, 整髪, 洗髪 …) are a topical-vs-denotational convention question -- decide once, not per entry",
       "fix_type": "verify",
       "verify": "per-entry",
       "priority": 11,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 33,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "warn",
-      "notes": "Measured 2026-08-04 by the wiki harvest, from a 2026-08-03 accuracy-review run that corrected six body-adjacent mistags in one 531-entry range. The project's tags are denotational (the accuracy reviewer judges each tag against the headword), so a verb can never denote a body part -- detection is free and needs no corpus comparison, only the destination needs judgment. In-list destinations exist and this is NOT the P20 vocabulary gap: health (火傷, 日焼け, 閉経, 大便, 化膿), appearance (中肉中背, カール), action (あくびをする, さする), body-internal (organs). Generalises to any concrete-thing tag (body-part, body-internal, tool, furniture, clothing, animal-*, plant-*) on a verb-only entry: that is a type error."
+      "notes": "Measured 2026-08-04 by the wiki harvest, from a 2026-08-03 accuracy-review run that corrected six body-adjacent mistags in one 531-entry range. The project's tags are denotational (the accuracy reviewer judges each tag against the headword), so a verb can never denote a body part -- detection is free and needs no corpus comparison, only the destination needs judgment. In-list destinations exist and this is NOT the P20 vocabulary gap: health (火傷, 日焼け, 閉経, 大便, 化膿), appearance (中肉中背, カール), action (あくびをする, さする), body-internal (organs). Generalises to any concrete-thing tag (body-part, body-internal, tool, furniture, clothing, animal-*, plant-*) on a verb-only entry: that is a type error. 2026-11-22: resolved. 29 retagged; convention ruled (verbs never take body-part, entry-guidelines skill); あんよ kept (noun).",
+      "scope_measured_at": "2026-11-22"
     },
     {
       "id": "pos-freetext-transitivity-backfill",
