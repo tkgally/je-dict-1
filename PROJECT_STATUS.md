@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-22 (candidates: 30 added, seventh cycle of the 00:15 UTC run)
+
+Brainstorm only (no closure markers or noted words were waiting; no ezFurigana rows pending). Field communication: 手話, 歓談, 誤訳, 念を押す, 言いふらす, 話が弾む, 釘を刺す. Seeds 00783–00805: インスタントコーヒー, ブラックコーヒー, 缶コーヒー, エスプレッソ (コーヒー), おじちゃん, おじさま, おばさま, お腹が空く, お腹を壊す, 薄汚い, 音楽室, 口が重い, 悲しげ, 答え合わせ, 長風呂. Field consumption: がぶ飲み, 食べ残し, 食べ残す, お冷, 断食, 飲ん兵衛, 食べかけ, 飲みかけ. Most proposals (334 of 383) were already entries. 15 rejected (spellings of existing entries, a derived form, a transparent compound). Model spend about $0.22.
+
 ### 2026-11-22 (20 new entries, first cycle of the 00:15 UTC run)
 
 33900–33919. Closure: 平賀源内, 長針, 短針, 背番号, 気付け (named in the last run's entries). Brainstorm: 手広い (related to 広い), 添え状 (手紙), 被り物 (帽子), 門扉 (field building), 社内報, 御用納め, 寿退社 (field business), サスペンダー, キャミソール, ショートパンツ, パンプス, スパッツ, ローファー, 丸首, 半纏 (field clothing). No ezFurigana candidates were queued. No new kanji. 4 candidates added (永久欠番, 御用始め, エレキテル, クルーネック).
@@ -69,8 +73,3 @@ Self-check: 1 flag from gpt-6.1-sol (アマゾン explanation), applied; 1 link 
 
 33842–33861. Closure: 隠し撮り, 烙印, 袖の下, 御霊, 枢軸, 頭字語, 点鼻薬, 榴弾. Brainstorm: 北国 (compound of 北), 梁, スロープ, フロア, プレハブ, ユニットバス (field building). ezFurigana: ライフ, 歴訪, 連綿, わけがない, ワット, リーチ. New kanji 烙 (02877). 8 candidates added from the new notes (わけではない, 基軸, キロワット, …).
 Self-check: 3 flags from gpt-6.1-sol on 隠し撮り and 御霊, all applied; 1 kana link unlinked (ことがある in そんなことがあるわけがない).
-
-### 2026-11-20 (16 candidates added, eighth cycle of the 12:15 UTC run)
-
-Brainstorm, seeds 300–320 (撮る … 階段; 177 proposals: 60 own, 107 gpt-6.1-sol, 91 gemini-3.8-flash after merging; 164 already entries; 13 new, 9 added, 4 rejected): 危なっかしい, 授業参観, 記念撮影, 百発百中, 隠し撮り, 危ぶむ, 猛勉強, 病み上がり, ご飯粒. Closure (words used in today's entries): 烙印, 袖の下, 御霊, 枢軸, 頭字語, 点鼻薬, 榴弾. Queue: 208.
-
