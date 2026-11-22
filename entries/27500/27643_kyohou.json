@@ -35,7 +35,7 @@
     },
     {
       "id": "27643_kyohou_ex3",
-      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{山梨県|やまなしけん}⟦の→の：09472_no⟧⟦{農園|のうえん}→農園：26824_nouen⟧⟦で→で：00502_de⟧{巨峰|きょほう}{狩|が}り⟦が→が：00051_ga⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{山梨県|やまなしけん}→山梨県：31159_yamanashiken⟧⟦の→の：09472_no⟧⟦{農園|のうえん}→農園：26824_nouen⟧⟦で→で：00502_de⟧{巨峰|きょほう}{狩|が}り⟦が→が：00051_ga⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
       "english": "In autumn you can enjoy Kyoho-grape picking at orchards in Yamanashi Prefecture.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'giant peak' — {巨|きょ} (giant) + {峰|ほう} (peak). The variety was developed in Japan in the 1940s and named after the silhouette of ⟦{富士山|ふじさん}→富士山：09514_fujisan⟧ visible from the breeding station.\n\nCULTURAL NOTE:\nKyoho is treated as a premium gift fruit in Japan. The main production areas are {山梨|やまなし}, {長野|ながの}, and {岡山|おかやま}. The berries are unusually large and are typically eaten by peeling the skin first.\n\nCOMMON COLLOCATIONS:\n- {巨峰|きょほう}{狩|が}り: Kyoho-grape picking (orchard activity)\n- {巨峰|きょほう}⟦ジュース→ジュース：01033_juusu⟧: Kyoho grape juice\n- ⟦{種|たね}→種：02157_tane⟧なし{巨峰|きょほう}: seedless Kyoho\n\nSIMILAR WORDS:\n- ピオーネ: Pione — another large dark grape, often confused with Kyoho\n- マスカット: Muscat — green-skinned aromatic variety\n- シャインマスカット: Shine Muscat — premium green seedless variety, currently very popular",
+  "notes": "Literally 'giant peak' — {巨|きょ} (giant) + {峰|ほう} (peak). The variety was developed in Japan in the 1940s and named after the silhouette of ⟦{富士山|ふじさん}→富士山：09514_fujisan⟧ visible from the breeding station.\n\nCULTURAL NOTE:\nKyoho is treated as a premium gift fruit in Japan. The main production areas are ⟦{長野|ながの}→長野：31864_nagano⟧, {山梨|やまなし}, and ⟦{福岡|ふくおか}→福岡：30729_fukuoka⟧. The berries are unusually large and are typically eaten by peeling the skin first.\n\nCOMMON COLLOCATIONS:\n- {巨峰|きょほう}{狩|が}り: Kyoho-grape picking (orchard activity)\n- {巨峰|きょほう}⟦ジュース→ジュース：01033_juusu⟧: Kyoho grape juice\n- ⟦{種|たね}→種：02157_tane⟧なし{巨峰|きょほう}: seedless Kyoho\n\nSIMILAR WORDS:\n- ピオーネ: Pione — another large dark grape, often confused with Kyoho\n- ⟦マスカット→マスカット：31371_masukatto⟧: Muscat — green-skinned aromatic variety\n- シャイン⟦マスカット→マスカット：31371_masukatto⟧: Shine Muscat — premium green seedless variety, currently very popular",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "31371_masukatto",
+      "reading": "ますかっと",
+      "headword": "マスカット",
+      "label": "Muscat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-09-02T04:02:31Z"
+    "modified": "2026-11-22T12:36:53Z"
   }
 }
