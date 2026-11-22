@@ -70,7 +70,7 @@
     },
     {
       "id": "30023_shitomeru_ex6",
-      "japanese": "{数少|かずすく}ない⟦チャンス→チャンス：03857_chansu⟧⟦を→を：00422_wo⟧⟦{確実|かくじつ}→確実：02538_kakujitsu⟧⟦に→に：00314_ni⟧{仕留|しと}めた⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧{勝|か}ち{上|あ}がった。",
+      "japanese": "⟦{数少|かずすく}ない→数少ない：32229_kazusukunai⟧⟦チャンス→チャンス：03857_chansu⟧⟦を→を：00422_wo⟧⟦{確実|かくじつ}→確実：02538_kakujitsu⟧⟦に→に：00314_ni⟧{仕留|しと}めた⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{勝|か}ち{上|あ}がった→勝ち上がる：32270_kachiagaru⟧。",
       "english": "The team that reliably converted its few chances advanced.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "The literal sense (sense 1) is hunting vocabulary — bringing down game with a weapon. The figurative sense (sense 2) carries the same feel of a single decisive blow into sports and competition.\n\nTRANSITIVITY: Transitive; the target takes ⟦を→を：00422_wo⟧ (⟦{獲物|えもの}→獲物：08638_emono⟧⟦を→を：00422_wo⟧{仕留|しと}める).\n\nCOMMON COLLOCATIONS:\n- ⟦{獲物|えもの}→獲物：08638_emono⟧⟦を→を：00422_wo⟧{仕留|しと}める: to bring down the prey\n- ⟦{一発|いっぱつ}→一発：08895_ippatsu⟧⟦で→で：00502_de⟧{仕留|しと}める: to bring down with one shot\n- ⟦チャンス→チャンス：03857_chansu⟧⟦を→を：00422_wo⟧{仕留|しと}める: to convert a chance decisively\n\nSIMILAR WORDS:\n- {捕|と}らえる: to catch/capture — take alive, not kill\n- ⟦{倒|たお}す→倒す：01954_taosu⟧: to defeat/knock down — broader; does not specifically mean killing prey with a weapon",
+  "notes": "The literal sense (sense 1) is hunting vocabulary — bringing down game with a weapon. The figurative sense (sense 2) carries the same feel of a single decisive blow into sports and competition.\n\nTRANSITIVITY: Transitive; the target takes ⟦を→を：00422_wo⟧ (⟦{獲物|えもの}→獲物：08638_emono⟧⟦を→を：00422_wo⟧{仕留|しと}める).\n\nCOMMON COLLOCATIONS:\n- ⟦{獲物|えもの}→獲物：08638_emono⟧⟦を→を：00422_wo⟧{仕留|しと}める: to bring down the prey\n- ⟦{一発|いっぱつ}→一発：08895_ippatsu⟧⟦で→で：00502_de⟧{仕留|しと}める: to bring down with one shot\n- ⟦チャンス→チャンス：03857_chansu⟧⟦を→を：00422_wo⟧{仕留|しと}める: to convert a chance decisively\n\nSIMILAR WORDS:\n- ⟦{捕|と}らえる→捕らえる：31761_toraeru⟧: to catch/capture — take alive, not kill\n- ⟦{倒|たお}す→倒す：01954_taosu⟧: to defeat/knock down — broader; does not specifically mean killing prey with a weapon",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,6 +88,13 @@
       "reading": "たおす",
       "headword": "{倒|たお}す",
       "label": "to defeat/knock down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "31761_toraeru",
+      "reading": "とらえる",
+      "headword": "{捕|と}らえる",
+      "label": "to catch/capture"
     }
   ],
   "metadata": {
@@ -99,14 +106,15 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "animal-general",
+        "sports"
       ],
       "domain": [],
       "verb_class": "ichidan",
       "transitivity": "transitive"
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-09-02T04:02:38Z"
+    "modified": "2026-11-22T12:48:46Z"
   },
   "conjugation": {
     "type": "ichidan",
