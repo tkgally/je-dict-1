@@ -1938,41 +1938,6 @@ about that example, and the cheap thing to do before designing an instrument is 
 
 Four entries in the 00074–00096 range (00083 俳句, 00086 発揮, 00087 花火, 00088 判事) were already fully linked — suggesting a prior polish pass touched that range. Subsequent sessions entering this area should expect occasional entries needing no work.
 
-## Priority 40: `body-part` on entries that cannot denote a body part (41 verb-POS entries)
-
-**Source**: 2026-08-03 routine accuracy-review run, which corrected six entries in one 531-entry
-range where `body-part` had been applied to actions (脱毛, 除毛, 大あくび, 姿勢矯正), measurements
-(体脂肪率), conditions (しもやけ), products (コンディショナー) and physique descriptions (中肉中背),
-and proposed a dictionary-wide rule. **Measured 2026-08-04.**
-
-The project's semantic tags are **denotational** — the accuracy reviewer's `tags` dimension judges
-each tag against the *headword*, not against the example topics — so a verb can never denote a
-body part. That makes one slice of the family mechanically decidable with no judgment at all:
-**41 entries carry `body-part` while their `pos` includes a verb class.**
-
-Splitting them by whether a body part appears in the headword separates two very different cases:
-
-- **11 entries name a body part in the headword** — 目を伏せる, 目を逸らす, 目が回る, 首を傾げる,
-  息が詰まる, 声が枯れる, 頬杖をつく, 手術, 発汗, 整髪, 洗髪. Here `body-part` is a *topical* read
-  of a phrase that contains one. Defensible under a loose reading of the tag, wrong under the
-  denotational one, and worth deciding once rather than per entry.
-- **30 entries contain no body part anywhere** — and these are pure drift: 調査 "investigation",
-  舞う "to dance", 描く "to draw", 溢れる "to overflow", 染まる "to be dyed", なびく "to sway",
-  ときめく "to throb", タヌキ寝入り "pretending to be asleep", 火傷, 日焼け, 閉経, 大便, 出産する.
-
-**There are in-list destinations**, so this is not the tag-vocabulary gap that P20 documents:
-`health` covers 火傷 / 日焼け / 閉経 / 大便 / 化膿 / しもやけ, `appearance` covers 中肉中背 / カール,
-`action` covers あくびをする / さする, and `body-internal` exists for organs. The correct action is
-per-entry (migrate or drop), not a single mapping — but the *detection* is free, which is the same
-economics P39 and the `VALID_SEMANTIC` diff have: pay for the destination, never for the search.
-
-This is the third measured shape of the same underlying defect after P11 (batch-creation topical
-tags) and P38 (families that drift apart when polished at different times). What makes this one
-distinct is that the mismatch is provable from the entry's own `pos` tag — no corpus comparison,
-no family enumeration. **Generalisable check**: any semantic tag naming a concrete *thing*
-(`body-part`, `body-internal`, `tool`, `furniture`, `clothing`, `animal-*`, `plant-*`) on an entry
-whose `pos` is verb-only is a type error. Queue item: `tag-bodypart-non-denotational`.
-
 ## Informational: 105 entries have no semantic tag at all — and it is two populations, not one
 
 **Source**: 2026-08-03 polish run (「pronoun semantic tagging is inconsistent overall; 12 entries

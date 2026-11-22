@@ -2273,3 +2273,40 @@ which a detector *can* see).
 **Update 2026-11-14 (12:15 run, cycle 9)**: twentieth batch (03785–04005) read: 27 retagged, three left as `action` (為す, 配る, 縛る). 1,411 remain. Next batch starts after 04005.
 
 **Update 2026-11-19 (12:15 run, cycle 2)**: thirty-seventh batch (14410–15618) read: 66 retagged, four left as `action` (阻む, 閉じ込める, 除去, 切り裂く). The raw detector counts 569. Next batch starts after 15618. (Batches 21–36 are recorded in the item's `notes` in backlog-queue.json.)
+
+## Priority 40: `body-part` on entries that cannot denote a body part (41 verb-POS entries) — resolved 2026-11-22
+
+**Update 2026-11-22 (12:15 run, systemic-fix, seventh cycle) — RESOLVED:** the detector found 30 entries; 29 retagged by meaning (噛む→consumption+movement, むくむ→health, うつむく/傾げる/屈める→movement, 凝る→health+leisure, くびれる→descriptive+appearance, 目を伏せる/目を逸らす→emotion+movement, 首を傾げる→cognition+movement, 禿げる→appearance+change, さする→sense+health, 生え変わる→change+nature, 立て膝→daily-life+movement, …). The convention question is settled (§E): tags are denotational, so a verb or verb phrase never takes body-part even when its headword names a body part; ruling written into the entry-guidelines skill. Kept: あんよ (a noun meaning 'foot' in baby talk). Self-check (gpt-6.1-sol) raised one unrelated note fix in 噛む, applied. Detector 30 → 1 (あんよ, correct).
+
+**Source**: 2026-08-03 routine accuracy-review run, which corrected six entries in one 531-entry
+range where `body-part` had been applied to actions (脱毛, 除毛, 大あくび, 姿勢矯正), measurements
+(体脂肪率), conditions (しもやけ), products (コンディショナー) and physique descriptions (中肉中背),
+and proposed a dictionary-wide rule. **Measured 2026-08-04.**
+
+The project's semantic tags are **denotational** — the accuracy reviewer's `tags` dimension judges
+each tag against the *headword*, not against the example topics — so a verb can never denote a
+body part. That makes one slice of the family mechanically decidable with no judgment at all:
+**41 entries carry `body-part` while their `pos` includes a verb class.**
+
+Splitting them by whether a body part appears in the headword separates two very different cases:
+
+- **11 entries name a body part in the headword** — 目を伏せる, 目を逸らす, 目が回る, 首を傾げる,
+  息が詰まる, 声が枯れる, 頬杖をつく, 手術, 発汗, 整髪, 洗髪. Here `body-part` is a *topical* read
+  of a phrase that contains one. Defensible under a loose reading of the tag, wrong under the
+  denotational one, and worth deciding once rather than per entry.
+- **30 entries contain no body part anywhere** — and these are pure drift: 調査 "investigation",
+  舞う "to dance", 描く "to draw", 溢れる "to overflow", 染まる "to be dyed", なびく "to sway",
+  ときめく "to throb", タヌキ寝入り "pretending to be asleep", 火傷, 日焼け, 閉経, 大便, 出産する.
+
+**There are in-list destinations**, so this is not the tag-vocabulary gap that P20 documents:
+`health` covers 火傷 / 日焼け / 閉経 / 大便 / 化膿 / しもやけ, `appearance` covers 中肉中背 / カール,
+`action` covers あくびをする / さする, and `body-internal` exists for organs. The correct action is
+per-entry (migrate or drop), not a single mapping — but the *detection* is free, which is the same
+economics P39 and the `VALID_SEMANTIC` diff have: pay for the destination, never for the search.
+
+This is the third measured shape of the same underlying defect after P11 (batch-creation topical
+tags) and P38 (families that drift apart when polished at different times). What makes this one
+distinct is that the mismatch is provable from the entry's own `pos` tag — no corpus comparison,
+no family enumeration. **Generalisable check**: any semantic tag naming a concrete *thing*
+(`body-part`, `body-internal`, `tool`, `furniture`, `clothing`, `animal-*`, `plant-*`) on an entry
+whose `pos` is verb-only is a type error. Queue item: `tag-bodypart-non-denotational`.

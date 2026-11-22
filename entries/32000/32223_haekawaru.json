@@ -44,9 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "⟦{生|は}える→生える：02392_haeru⟧ (to grow) + ⟦{変|か}わる→変わる：00714_kawaru⟧ (to change).\n\nCOMMON COLLOCATIONS:\n- ⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧{生|は}え{変|か}わる: for one's (baby) teeth to be replaced\n- ⟦{毛|け}→毛：01392_ke⟧⟦が→が：00051_ga⟧{生|は}え{変|か}わる: to molt, for fur to come in anew\n- {羽|はね}⟦が→が：00051_ga⟧{生|は}え{変|か}わる: for feathers to molt and regrow\n\nRELATED WORDS:\n- {乳歯|にゅうし}: baby tooth\n- {永久歯|えいきゅうし}: permanent tooth\n- {換毛|かんもう}: molting of an animal's coat",
+  "notes": "⟦{生|は}える→生える：02392_haeru⟧ (to grow) + ⟦{変|か}わる→変わる：00714_kawaru⟧ (to change).\n\nCOMMON COLLOCATIONS:\n- ⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧{生|は}え{変|か}わる: for one's (baby) teeth to be replaced\n- ⟦{毛|け}→毛：01392_ke⟧⟦が→が：00051_ga⟧{生|は}え{変|か}わる: to molt, for fur to come in anew\n- {羽|はね}⟦が→が：00051_ga⟧{生|は}え{変|か}わる: for feathers to molt and regrow\n\nRELATED WORDS:\n- ⟦{乳歯|にゅうし}→乳歯：33510_nyuushi⟧: baby tooth\n- ⟦{永久歯|えいきゅうし}→永久歯：33511_eikyuushi⟧: permanent tooth\n- {換毛|かんもう}: molting of an animal's coat",
   "schema_version": "2.0",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "33510_nyuushi",
+      "reading": "にゅうし",
+      "headword": "{乳歯|にゅうし}",
+      "label": "baby tooth"
+    },
+    {
+      "type": "related",
+      "target_id": "33511_eikyuushi",
+      "reading": "えいきゅうし",
+      "headword": "{永久歯|えいきゅうし}",
+      "label": "permanent tooth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,14 +72,14 @@
       "politeness": "plain",
       "semantic": [
         "change",
-        "body-part"
+        "nature"
       ],
       "domain": [],
       "verb_class": "godan-ru",
       "transitivity": "intransitive"
     },
     "created": "2026-10-23T15:18:00Z",
-    "modified": "2026-10-30T02:00:50Z"
+    "modified": "2026-11-22T14:02:04Z"
   },
   "conjugation": {
     "type": "godan",
