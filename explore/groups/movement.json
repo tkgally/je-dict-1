@@ -1,0 +1,828 @@
+{
+  "tag": "movement",
+  "groups": [
+    {
+      "id": "going-coming",
+      "ja": "{行|い}く・{来|く}る",
+      "en": "Going and coming",
+      "members": [
+        "00119_iku",
+        "00254_kuru",
+        "01295_irassharu",
+        "01631_oideninaru",
+        "07322_okoshi",
+        "01322_mairu",
+        "25778_sanjousuru",
+        "14261_omomuku",
+        "17457_demuku",
+        "01186_mukau",
+        "26986_shucchousuru",
+        "02614_iki",
+        "17274_omieninaru",
+        "10486_haseru",
+        "14632_kaketsukeru",
+        "10396_harubaru",
+        "17744_enro",
+        "16298_ashiwonobasu",
+        "13067_raiten",
+        "13356_torai"
+      ]
+    },
+    {
+      "id": "returning",
+      "ja": "{帰|かえ}る",
+      "en": "Going home and back",
+      "members": [
+        "00508_kaeru",
+        "01117_modoru",
+        "01275_kaeri",
+        "22169_kitakusuru",
+        "12419_kisei",
+        "02030_kaesu",
+        "29164_kaeru",
+        "31750_kikan",
+        "25395_fukkisuru",
+        "27378_tachikaeru",
+        "17444_satogaeri",
+        "14001_maimodoru",
+        "32035_hikiageru"
+      ]
+    },
+    {
+      "id": "in-out",
+      "ja": "{出|で}る・{入|はい}る",
+      "en": "Going in and out",
+      "members": [
+        "00833_dekakeru",
+        "00513_deru",
+        "00494_hairu",
+        "06609_deiri",
+        "14056_ikiki",
+        "16044_ourai",
+        "14353_taijou",
+        "26367_tachiiru",
+        "11650_irikomu",
+        "29060_haittekuru",
+        "29121_detekuru",
+        "14004_ikikau",
+        "22992_ikikisuru",
+        "18284_taishutsu",
+        "32527_nyuushitsu",
+        "15198_agarikomu",
+        "14547_shinnyuu"
+      ]
+    },
+    {
+      "id": "stopping",
+      "ja": "{止|と}まる",
+      "en": "Stopping",
+      "members": [
+        "00555_tomaru",
+        "00678_tomeru",
+        "04067_teishi",
+        "10415_todomaru",
+        "17522_tachioujou",
+        "26796_seishisuru"
+      ]
+    },
+    {
+      "id": "getting-on-off",
+      "ja": "{乗|の}る・{降|お}りる",
+      "en": "Getting on and off",
+      "members": [
+        "00568_oriru",
+        "00511_noru",
+        "01923_orosu",
+        "10128_noritsugu",
+        "11459_nokkaru",
+        "20612_kousha",
+        "31642_noriageru"
+      ]
+    },
+    {
+      "id": "up-down",
+      "ja": "{上|あ}がる・{下|さ}がる",
+      "en": "Going up and down",
+      "members": [
+        "00615_agaru",
+        "00807_sageru",
+        "21460_noboru",
+        "03943_nobori",
+        "12960_noboru",
+        "11296_joushou",
+        "02659_kudari",
+        "21547_kouka",
+        "20079_jougesuru",
+        "00660_noboru",
+        "10670_tachinoboru",
+        "21681_joushousuru",
+        "15145_noborikudari",
+        "15147_shoukou",
+        "13712_noboritsumeru",
+        "20298_tsurisageru",
+        "28608_taresagaru",
+        "20304_makiageru",
+        "26052_hikiorosu"
+      ]
+    },
+    {
+      "id": "arriving",
+      "ja": "{着|つ}く",
+      "en": "Arriving and reaching",
+      "members": [
+        "00680_tsuku",
+        "02009_itaru",
+        "02129_tassuru",
+        "21537_ikitsuku",
+        "09345_tadoritsuku",
+        "11815_toutatsu",
+        "07264_tsukiataru",
+        "31521_chakusui"
+      ]
+    },
+    {
+      "id": "crossing",
+      "ja": "{越|こ}える",
+      "en": "Crossing and passing",
+      "members": [
+        "01942_koeru",
+        "02099_koeru",
+        "02282_kosu",
+        "01906_oudan",
+        "01243_tooru",
+        "03506_tsuuka",
+        "22435_tsuukasuru",
+        "02122_surechigau",
+        "21035_toukasuru",
+        "14422_toorinukeru",
+        "21651_tsukinukeru",
+        "31518_hashirinukeru",
+        "33101_sudoori",
+        "33679_toorikakaru",
+        "33366_toorimichi",
+        "14554_michisugara",
+        "16066_michinari",
+        "13279_sou",
+        "28247_tsutau",
+        "13621_watari",
+        "18379_majiwaru",
+        "10366_tadoru",
+        "10637_yogiru"
+      ]
+    },
+    {
+      "id": "walk-run",
+      "ja": "{歩|ある}く・{走|はし}る",
+      "en": "Walking and running",
+      "members": [
+        "00519_hashiru",
+        "00538_aruku",
+        "21118_hayaashi",
+        "14454_ashibaya",
+        "17277_ashibayani",
+        "21117_kobashiri",
+        "22316_kakeashi",
+        "32862_oomata",
+        "04738_jogingu",
+        "25674_hayaaruki",
+        "04732_marason",
+        "14714_kakeru",
+        "15597_kakedasu",
+        "13218_hochou",
+        "27780_ashinami",
+        "16016_shinobiashi",
+        "22070_hashiritsuzukeru"
+      ]
+    },
+    {
+      "id": "sprinting",
+      "ja": "{疾走|しっそう}",
+      "en": "Dashing at full speed",
+      "members": [
+        "13666_shissou",
+        "15610_rikisou",
+        "22558_zenryokushissou",
+        "25675_zensokuryoku",
+        "33055_dasshu",
+        "08954_ichimokusan",
+        "22224_masshigura",
+        "08322_kakemeguru",
+        "14681_kakeyoru"
+      ]
+    },
+    {
+      "id": "posture",
+      "ja": "{座|すわ}る・{立|た}つ",
+      "en": "Sitting and standing",
+      "members": [
+        "00757_suwaru",
+        "00758_tatsu",
+        "02128_tachiagaru",
+        "25143_tsumasakidachi",
+        "13930_senobi",
+        "05548_aomuke",
+        "05547_utsubuse",
+        "26371_nokezori",
+        "16769_sorikaeru",
+        "05510_negaeri",
+        "07383_utsumuku",
+        "04231_furikaeru",
+        "02304_muku",
+        "13945_koshikakeru",
+        "15443_koshiwoorosu",
+        "25420_agura",
+        "13828_chokuritsu",
+        "32025_kiritsu",
+        "07835_unadareru",
+        "07930_kashigeru",
+        "13959_somukeru",
+        "11967_soru",
+        "25560_kusshin",
+        "22982_mijirogi",
+        "17545_uwamuku",
+        "21892_mikaeru",
+        "18128_katawonaraberu",
+        "10639_matagaru",
+        "30879_umanori",
+        "27252_zenkeishisei",
+        "33185_taisei",
+        "27148_kamae"
+      ]
+    },
+    {
+      "id": "escape",
+      "ja": "{逃|に}げる",
+      "en": "Escaping and fleeing",
+      "members": [
+        "01151_nigeru",
+        "06041_nigedasu",
+        "14367_toubou",
+        "13934_dasshutsu",
+        "14403_tousou",
+        "15529_dassou",
+        "14402_taisan",
+        "26829_dasshutsusuru",
+        "12822_tettai",
+        "09011_tachinoku",
+        "26827_hinansuru",
+        "02478_nigasu",
+        "10425_nogareru",
+        "26822_nigekomu",
+        "12292_iede",
+        "31400_datto",
+        "18596_hashirisaru",
+        "18381_tatekomoru",
+        "07908_hinan",
+        "12804_nukederu"
+      ]
+    },
+    {
+      "id": "chasing",
+      "ja": "{追|お}う",
+      "en": "Chasing and catching",
+      "members": [
+        "01214_tsukamaeru",
+        "01959_tsukamaru",
+        "16734_oikakeru",
+        "02016_ou",
+        "21389_atowoou",
+        "02015_oitsuku",
+        "10991_tsuiteiku",
+        "29670_tsuitekuru",
+        "14960_oinuku",
+        "15060_oiageru",
+        "31550_oinuki",
+        "32049_sakigakeru",
+        "33878_ichibannori"
+      ]
+    },
+    {
+      "id": "approaching",
+      "ja": "{近|ちか}づく",
+      "en": "Approaching and avoiding",
+      "members": [
+        "01958_chikazuku",
+        "06735_sashikakaru",
+        "02109_sakeru",
+        "14848_yokeru",
+        "19690_toozakeru",
+        "14379_toozakaru",
+        "14429_toonoku",
+        "17401_hachiawaseru",
+        "17454_souguusuru",
+        "25362_sekkinsuru",
+        "15538_chikayoru",
+        "14006_nikuhaku",
+        "15133_shinobiyoru",
+        "17576_suriyoru",
+        "26584_suriyoseru",
+        "02074_chikazukeru"
+      ]
+    },
+    {
+      "id": "push-pull",
+      "ja": "{押|お}す・{引|ひ}く",
+      "en": "Pushing, pulling, throwing",
+      "members": [
+        "01978_hiku",
+        "02854_osu",
+        "01088_hakobu",
+        "00845_hirou",
+        "01135_nageru",
+        "02131_daku",
+        "02466_sasu",
+        "02054_keru",
+        "08940_kikku",
+        "01221_utsu",
+        "25833_hikimodosu",
+        "28250_kerikomu",
+        "30545_hakobikomu"
+      ]
+    },
+    {
+      "id": "swimming",
+      "ja": "{泳|およ}ぐ",
+      "en": "Swimming and floating",
+      "members": [
+        "00545_oyogu",
+        "01623_suiei",
+        "02626_oyogi",
+        "32880_tachioyogi",
+        "00413_uku",
+        "14817_sensui",
+        "03105_oyogikata",
+        "27943_inukaki",
+        "17516_chinbotsu",
+        "19549_fujousuru",
+        "22635_kyuufujou",
+        "15393_fujou",
+        "33586_fuyuu"
+      ]
+    },
+    {
+      "id": "mountains",
+      "ja": "{山登|やまのぼ}り",
+      "en": "Climbing mountains",
+      "members": [
+        "03457_tozan",
+        "03170_yamanobori",
+        "03869_haikingu",
+        "07332_tozangutsu",
+        "11300_gezan",
+        "18398_touchou",
+        "32985_yojinoboru"
+      ]
+    },
+    {
+      "id": "falling-over",
+      "ja": "{転|ころ}ぶ",
+      "en": "Falling over and staggering",
+      "members": [
+        "01160_taoreru",
+        "01954_taosu",
+        "09101_kokeru",
+        "29046_taorekomu",
+        "31910_hetarikomu",
+        "00863_korobu",
+        "06970_tsumazuku",
+        "06971_yoromeku",
+        "21498_yorokeru",
+        "21497_furatsuku",
+        "21965_yoroyorosuru",
+        "21629_furafurasuru",
+        "10023_ketsumazuku",
+        "10544_hikkurikaeru",
+        "27884_korogeru"
+      ]
+    },
+    {
+      "id": "shaking",
+      "ja": "{揺|ゆ}れる",
+      "en": "Shaking and swinging",
+      "members": [
+        "01161_yureru",
+        "07601_yuragu",
+        "12936_yurugasu",
+        "19581_yurugu",
+        "01983_furu",
+        "06051_furimawasu",
+        "10791_gakugaku",
+        "16137_yure",
+        "31939_namiutsu",
+        "16059_myakuutsu"
+      ]
+    },
+    {
+      "id": "stepping-in",
+      "ja": "{踏|ふ}み{込|こ}む",
+      "en": "Stepping and sneaking in",
+      "members": [
+        "06972_fumikomu",
+        "01197_fumu",
+        "14283_fumidasu",
+        "33585_fumiireru",
+        "17343_shinnyuusuru",
+        "12578_shinobikomu",
+        "13389_sennyuu",
+        "15190_mogurikomu",
+        "04095_ashiato"
+      ]
+    },
+    {
+      "id": "falling",
+      "ja": "{落|お}ちる",
+      "en": "Falling and crashing",
+      "members": [
+        "01242_ochiru",
+        "14051_rakka",
+        "17534_katsuraku",
+        "18763_tsuiraku",
+        "19790_tenraku",
+        "21423_tsuirakusuru",
+        "18207_maiochiru",
+        "01246_otosu",
+        "14537_ochiiru",
+        "33694_massakasama",
+        "28386_furikakaru"
+      ]
+    },
+    {
+      "id": "to-school",
+      "ja": "{登校|とうこう}",
+      "en": "Going to and from school",
+      "members": [
+        "16560_toukou",
+        "16177_gekou",
+        "22147_tsuugakusuru",
+        "22159_touensuru",
+        "25401_gekousuru",
+        "18777_toukou"
+      ]
+    },
+    {
+      "id": "detours",
+      "ja": "{回|まわ}り{道|みち}",
+      "en": "Detours and winding roads",
+      "members": [
+        "15766_mawarimichi",
+        "09034_ukai",
+        "12290_yorimichi",
+        "14380_toomawari",
+        "03118_chikamichi",
+        "09036_dakou",
+        "18588_magarikuneru"
+      ]
+    },
+    {
+      "id": "taking-along",
+      "ja": "{連|つ}れていく",
+      "en": "Taking and bringing",
+      "members": [
+        "23753_tsureteiku",
+        "17099_tsuredasu",
+        "21427_doukousuru",
+        "27431_motteiku",
+        "21382_sasoidasu",
+        "10666_mottekuru",
+        "12028_doukou",
+        "12361_michibiku",
+        "15445_hikitsureru",
+        "21381_tsurekomu",
+        "30484_tsureau"
+      ]
+    },
+    {
+      "id": "crawling",
+      "ja": "{這|は}う",
+      "en": "Crawling",
+      "members": [
+        "00094_hau",
+        "06269_haiagaru",
+        "18351_hofukuzenshin",
+        "23177_haikomu",
+        "17010_haidasu",
+        "24786_hofuku"
+      ]
+    },
+    {
+      "id": "turning",
+      "ja": "{回|まわ}る",
+      "en": "Turning and spinning",
+      "members": [
+        "01150_mawaru",
+        "00649_magaru",
+        "00141_kaiten",
+        "23760_gurugurumawaru",
+        "27365_supin",
+        "01158_mawasu",
+        "00102_hineru",
+        "03930_meguru",
+        "12407_junkai",
+        "25376_junkansuru",
+        "27781_komawari",
+        "16481_nejireru",
+        "12414_megurasu",
+        "14812_shuukai",
+        "15617_houkoutenkan"
+      ]
+    },
+    {
+      "id": "flowing",
+      "ja": "{流|なが}れる",
+      "en": "Flowing and spilling",
+      "members": [
+        "01968_nagasu",
+        "03504_nagare",
+        "04250_afureru",
+        "02105_koboreru",
+        "20065_fukideru",
+        "13327_ryuushutsu",
+        "13326_ryuunyuu",
+        "21384_ryuunyuu",
+        "05748_nagarekomu",
+        "22181_shintousuru",
+        "02075_chiru",
+        "09645_tobichiru",
+        "13338_hyouryuu",
+        "16933_hyouchaku",
+        "31685_nagaretsuku",
+        "28677_uchiyoseru",
+        "02124_sosogu",
+        "02281_kumu",
+        "06139_afuredasu",
+        "07442_wakideru",
+        "07593_shintou",
+        "22513_fukiagaru",
+        "20303_suiageru",
+        "02288_chirasu",
+        "12711_maku",
+        "12713_chirabaru",
+        "22510_denpasuru"
+      ]
+    },
+    {
+      "id": "speed",
+      "ja": "{速度|そくど}",
+      "en": "Speed: fast and slow",
+      "members": [
+        "03319_sokudo",
+        "11048_supiido",
+        "31261_sokuryoku",
+        "13336_gensoku_deceleration",
+        "00198_kasoku",
+        "21391_kasokusuru",
+        "09192_donjuu",
+        "09193_kanman",
+        "03321_sotto",
+        "09190_keikai",
+        "15967_teisoku",
+        "22126_choutokkyuu"
+      ]
+    },
+    {
+      "id": "jumping-flying",
+      "ja": "{飛|と}ぶ",
+      "en": "Jumping, flying, dancing",
+      "members": [
+        "04573_mau",
+        "06043_maiagaru",
+        "29739_ranbu",
+        "00759_tobu",
+        "19597_tobu",
+        "11051_janpu",
+        "14060_maioriru",
+        "02373_tobasu",
+        "02374_tobidasu",
+        "06704_tobitsuku",
+        "06999_tobihaneru",
+        "04247_hazumu",
+        "04615_haneagaru",
+        "09272_chouyaku",
+        "28488_pyonpyon",
+        "12831_sukippu",
+        "30267_tobikakaru",
+        "30324_tobinoru",
+        "31631_tobikau",
+        "31692_hirai",
+        "13900_habataku",
+        "13904_hirugaeru",
+        "07357_nabiku",
+        "10539_futtobu",
+        "11842_fukitobu",
+        "29656_fukinagasu",
+        "25248_hajikeru",
+        "07362_hirameku",
+        "15944_yakudou"
+      ]
+    },
+    {
+      "id": "departing",
+      "ja": "{出発|しゅっぱつ}",
+      "en": "Setting off",
+      "members": [
+        "01832_shuppatsusuru",
+        "02085_shuppatsu",
+        "12951_tabidatsu",
+        "22506_ririkusuru",
+        "21033_hasshinsuru",
+        "18597_ugokidasu",
+        "19322_tobitatsu",
+        "30231_shukkou",
+        "33730_tatsu"
+      ]
+    },
+    {
+      "id": "wandering",
+      "ja": "{散策|さんさく}",
+      "en": "Strolling and wandering",
+      "members": [
+        "07618_sansaku",
+        "24224_manpo",
+        "25658_yuuho",
+        "07675_samayou",
+        "17757_hourou",
+        "22648_rurou",
+        "09362_buratsuku",
+        "09418_tamurosuru",
+        "04612_ugokimawaru",
+        "09037_haikai",
+        "09419_urochoro",
+        "16201_urotsuku",
+        "17603_mayoikomu",
+        "28244_hagureru",
+        "11994_uousaou",
+        "17461_tanken",
+        "15470_michikusa"
+      ]
+    },
+    {
+      "id": "advance-retreat",
+      "ja": "{前進|ぜんしん}",
+      "en": "Moving forward and back",
+      "members": [
+        "12556_koutai",
+        "03758_zenshin",
+        "25261_gyakkou",
+        "09397_yokobai",
+        "17339_zenshinsuru",
+        "17340_koutaisuru",
+        "12581_atomodori",
+        "18853_atozusaru",
+        "14387_shinshutsu",
+        "01949_susumeru"
+      ]
+    },
+    {
+      "id": "gathering",
+      "ja": "{集|あつ}まる",
+      "en": "Gathering and lining up",
+      "members": [
+        "01162_atsumaru",
+        "14591_tsudou",
+        "00605_narabu",
+        "15331_muragaru",
+        "18481_mureru",
+        "07834_hishimeku",
+        "14192_tsumekakeru",
+        "14665_shuuketsu",
+        "11902_gouryuu",
+        "14690_jindoru",
+        "12054_irimidareru"
+      ]
+    },
+    {
+      "id": "moving",
+      "ja": "{動|うご}く・{移|うつ}る",
+      "en": "Moving and shifting",
+      "members": [
+        "01232_utsuru",
+        "01171_hikkosu",
+        "22430_idousuru",
+        "00904_ugoku",
+        "04074_dousa",
+        "11926_ugoki",
+        "03370_zureru",
+        "01741_idou",
+        "01885_ugokasu",
+        "10122_utsusu",
+        "31686_hokujou"
+      ]
+    },
+    {
+      "id": "visiting",
+      "ja": "{訪|たず}ねる",
+      "en": "Visiting",
+      "members": [
+        "01182_tazuneru",
+        "07678_otozureru",
+        "13060_rainichi",
+        "14197_hounichi"
+      ]
+    },
+    {
+      "id": "rolls",
+      "ja": "{宙返|ちゅうがえ}り",
+      "en": "Rolls and somersaults",
+      "members": [
+        "33365_dengurigaeshi",
+        "33502_zenten",
+        "33503_chuugaeri"
+      ]
+    },
+    {
+      "id": "lying-crouching",
+      "ja": "{寝転|ねころ}がる",
+      "en": "Lying and crouching",
+      "members": [
+        "12340_nekorogaru",
+        "13177_yokotawaru",
+        "14873_nesoberu",
+        "12383_negaeru",
+        "18290_uzukumaru",
+        "29052_marumaru",
+        "17471_yotsunbai",
+        "05543_motareru"
+      ]
+    },
+    {
+      "id": "hands",
+      "ja": "{手|て}つき",
+      "en": "Using the hands",
+      "members": [
+        "30134_tetsuki",
+        "30146_tesabaki",
+        "10627_udegumi",
+        "02290_tsukamu",
+        "12757_tewatasu",
+        "19021_ubaitoru",
+        "32234_taguriyoseru",
+        "33678_hiroiatsumeru"
+      ]
+    },
+    {
+      "id": "footsteps",
+      "ja": "{足取|あしど}り",
+      "en": "Steps and gait",
+      "members": [
+        "00108_ho",
+        "02991_ashioto",
+        "10625_ashidori",
+        "26773_hoseki",
+        "16470_chidoriashi",
+        "28826_yotayota",
+        "29090_dosudosu",
+        "09106_anyo",
+        "08032_ashibumi",
+        "21865_hokou",
+        "13195_ayumi",
+        "13196_ayumu",
+        "18316_kyouho"
+      ]
+    },
+    {
+      "id": "marching",
+      "ja": "{行進|こうしん}",
+      "en": "Marching and formations",
+      "members": [
+        "18013_shingun",
+        "22196_koushin",
+        "27097_tairetsu",
+        "13881_neriaruku",
+        "18190_heisou"
+      ]
+    },
+    {
+      "id": "sliding",
+      "ja": "{滑|すべ}る",
+      "en": "Sliding and slipping",
+      "members": [
+        "01230_suberu",
+        "18605_suberidasu",
+        "29571_suberioriru",
+        "11582_suraido",
+        "28852_sureru"
+      ]
+    },
+    {
+      "id": "charging",
+      "ja": "{突進|とっしん}",
+      "en": "Charging and breaking in",
+      "members": [
+        "13755_toppa",
+        "13777_totsunyuu",
+        "22618_tosshinsuru",
+        "28182_kakiwakeru"
+      ]
+    }
+  ],
+  "leftover": [
+    "00326_nuu",
+    "06048_haritsuku",
+    "07572_magireru",
+    "08057_miekakure",
+    "18855_nagashi",
+    "24148_shutto",
+    "26244_ritsudou",
+    "32518_hakobi"
+  ]
+}
