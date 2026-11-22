@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-22 (15 new entries, third cycle of the 12:15 UTC run)
+
+33920–33934. Closure: 永久欠番, 御用始め, エレキテル, クルーネック, 笑い転げる (named in recent entries and in 27884's corrected notes). Brainstorm (field clothing): 洋装, 着丈, 蝶ネクタイ, ウエスト, トップス, ボトムス, Vネック, 七分袖, 伸縮性, ノーネクタイ. No ezFurigana candidates were waiting.
+Self-check: 1 flag from gpt-6.1-sol, applied (ウエストマーク names the styling, not the belt); 11 kana links judged, 0 flagged.
+
 ### 2026-11-22 (candidates: 30 added, seventh cycle of the 00:15 UTC run)
 
 Brainstorm only (no closure markers or noted words were waiting; no ezFurigana rows pending). Field communication: 手話, 歓談, 誤訳, 念を押す, 言いふらす, 話が弾む, 釘を刺す. Seeds 00783–00805: インスタントコーヒー, ブラックコーヒー, 缶コーヒー, エスプレッソ (コーヒー), おじちゃん, おじさま, おばさま, お腹が空く, お腹を壊す, 薄汚い, 音楽室, 口が重い, 悲しげ, 答え合わせ, 長風呂. Field consumption: がぶ飲み, 食べ残し, 食べ残す, お冷, 断食, 飲ん兵衛, 食べかけ, 飲みかけ. Most proposals (334 of 383) were already entries. 15 rejected (spellings of existing entries, a derived form, a transparent compound). Model spend about $0.22.
@@ -68,8 +73,3 @@ Self-check: 2 flags from gpt-6.1-sol, both applied (短パン etymology; 発火�
 
 33862–33881. Closure: わけではない, 基軸, キロワット, アンペア, 消費電力, ライフワーク, 橋梁, 引火点 (石榴 dropped: a spelling of the existing 柘榴). Brainstorm: アマゾン, ディズニー (field brand-name), 渡り廊下, 縁の下, 間仕切り (field building), 〜巻 (related to 〜冊), 卯月 (四月), 海の日 (七月), 綿飴 (飴), 一番乗り (一). ezFurigana: トトロ, れる. New kanji 卯 (02878). 4 candidates added (綿菓子, 発火点, 引火, 宮崎駿).
 Self-check: 1 flag from gpt-6.1-sol (アマゾン explanation), applied; 1 link unlinked (縁 'fate' where the note means the veranda).
-
-### 2026-11-21 (20 new entries, third cycle of the 00:15 UTC run)
-
-33842–33861. Closure: 隠し撮り, 烙印, 袖の下, 御霊, 枢軸, 頭字語, 点鼻薬, 榴弾. Brainstorm: 北国 (compound of 北), 梁, スロープ, フロア, プレハブ, ユニットバス (field building). ezFurigana: ライフ, 歴訪, 連綿, わけがない, ワット, リーチ. New kanji 烙 (02877). 8 candidates added from the new notes (わけではない, 基軸, キロワット, …).
-Self-check: 3 flags from gpt-6.1-sol on 隠し撮り and 御霊, all applied; 1 kana link unlinked (ことがある in そんなことがあるわけがない).
