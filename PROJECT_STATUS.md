@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-22 (20 new entries, first cycle of the 00:15 UTC run)
+
+33900–33919. Closure: 平賀源内, 長針, 短針, 背番号, 気付け (named in the last run's entries). Brainstorm: 手広い (related to 広い), 添え状 (手紙), 被り物 (帽子), 門扉 (field building), 社内報, 御用納め, 寿退社 (field business), サスペンダー, キャミソール, ショートパンツ, パンプス, スパッツ, ローファー, 丸首, 半纏 (field clothing). No ezFurigana candidates were queued. No new kanji. 4 candidates added (永久欠番, 御用始め, エレキテル, クルーネック).
+Self-check: 3 flags from gpt-6.1-sol, all applied (送り状 can mean a covering note; 御用納め date not fixed by law; スパッツ 'never gaiters' softened); 9 kana links judged, 0 flagged.
+
 ### 2026-11-21 (18 new entries, fifth cycle of the 12:15 UTC run)
 
 33882–33899. Closure: 綿菓子, 発火点, 引火, 宮崎駿 (named in the first cycle's entries). Brainstorm: 土用の丑の日 (related to 七月), 駄目押し (だめ), ニット帽 (帽子), 文字盤 (時計), 社員旅行 (field business), ペイペイ (field brand-name), 毛玉, 裾上げ, ほつれる, 腹巻き, ユニフォーム, ジャージ, 短パン, 着付け (field clothing). No ezFurigana candidates were queued. New kanji 駿 (02879). 5 candidates added (平賀源内, 長針, 短針, 背番号, 気付け).
@@ -68,9 +73,4 @@ Self-check: 3 flags from gpt-6.1-sol on 隠し撮り and 御霊, all applied; 1 
 ### 2026-11-20 (16 candidates added, eighth cycle of the 12:15 UTC run)
 
 Brainstorm, seeds 300–320 (撮る … 階段; 177 proposals: 60 own, 107 gpt-6.1-sol, 91 gemini-3.8-flash after merging; 164 already entries; 13 new, 9 added, 4 rejected): 危なっかしい, 授業参観, 記念撮影, 百発百中, 隠し撮り, 危ぶむ, 猛勉強, 病み上がり, ご飯粒. Closure (words used in today's entries): 烙印, 袖の下, 御霊, 枢軸, 頭字語, 点鼻薬, 榴弾. Queue: 208.
-
-### 2026-11-20 (12 new entries, sixth cycle of the 12:15 UTC run)
-
-33830–33841. Brainstorm: プリクラ, マジックテープ, バンドエイド, エクセル (field brand-name), 秋分の日 (same category as 九月), 関西国際空港 (related to 空港). ezFurigana: レイアウト, レッテル, 連呼, 連名, 沸き返る, 訳あり (shows 訳アリ). No closure candidates queued.
-Self-check: clean (0 flags from gpt-6.1-sol; 8 kana links judged, 0 flagged).
 
