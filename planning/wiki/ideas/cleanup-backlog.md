@@ -578,7 +578,7 @@ So four members of one tight semantic cluster carry four different (mostly wrong
 
 `time-general` for トレンド is the same failure shape as the 朱肉→`animal-mammal` case that named this priority: **a tag picked from a category that sounds adjacent to some word in the gloss**, rather than from the word's domain. Finding it three times in four entries at 06694 means this priority's range estimate should extend well above the 5700–6340 block it was originally scoped to — the frontier band carries it too, at a rate high enough that a run touching four entries expects three hits.
 
-Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-a-verb-2085-entries) and [P13](#priority-13-overuse-of-general-as-sole-semantic-tag): all three are *sole-tag* defects on the same cohorts, and only this one (wrong category) is potentially detectable without a model. A single frontier pass that re-reads `semantic` on every entry it opens clears all three cheaper than three sweeps.
+Note the interaction with [P34](cleanup-backlog-resolved.md#priority-34-action-as-the-sole-semantic-tag-on-a-verb-2085-entries-resolved-2026-11-22) and [P13](#priority-13-overuse-of-general-as-sole-semantic-tag): all three are *sole-tag* defects on the same cohorts, and only this one (wrong category) is potentially detectable without a model. A single frontier pass that re-reads `semantic` on every entry it opens clears all three cheaper than three sweeps.
 
 ## Priority 13: Overuse of "general" as sole semantic tag
 
@@ -1653,145 +1653,6 @@ that `descriptive` is retained alongside rather than replaced.
 
 **Related**: [Tooling 44](tooling-backlog-resolved.md#44-consistency-check-non-neutral-formality-with-no-register-statement-in-the-notes) proposes the mirror check — an `onomatopoeia` entry tagged `formality: formal` is almost certainly wrong, since mimetics are characteristically colloquial. The two run over overlapping populations and would compose well in one pass. See also [research/onomatopoeia-mimetics.md](../research/onomatopoeia-mimetics.md) for why the tag matters to a learner: mimetics are a category learners systematically under-produce, and the tag is what makes them findable as a class.
 
-## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
-
-**Update 2026-11-21 (12:15 run, systemic-fix, seventh cycle):** forty-fourth batch, 26966–27887: 32 read, 29 retagged by meaning (似せる→appearance+creation, 命中する→sports+military, 設置する→building+technology, 発掘する→history+science, インストールする→technology+electronics, 脅す→communication+emotion, 轢く→transportation, 埋め立てる→geography+building, 巣立つ→animal-bird+education, 患う→health, 害する→health+emotion, …); 3 read and left as action (継続する, 休止する, 続行する: no tag fits better). The self-check corrected a note in 居残る (残る, not 居残る, pairs with 残す). Detector 276 → 247. Next batch after 27887.
-
-**Update 2026-11-22 (00:**15 run, systemic-fix, fourth cycle): forty-fifth batch, 27994–29469: 36 read, 32 retagged by meaning (更新する→technology+change, 入力する→technology+electronics, とかす→appearance+daily-life, 量る→quantity, 張り替える→building+daily-life, 歪める→change+appearance, 切り倒す→plant-tree, 取り押さえる→law, 捕る→animal-general+law, 尖らせる→appearance+emotion, 斬る→military+communication, 臨む→action+geography, 喫する→sports, 鎮める→emotion+military, 噴き出す→nature+emotion, …); 4 read and left as action (着火する, and after the self-check 縛り付ける, 交ぜる, 切り落とす, where tool or person tags were rejected: the reviewer holds that a tool used in the act does not make the verb a tool word). The self-check also corrected a note in 出動 (people, not only vehicles, can be its subject). Detector 247 → 215. Next batch after 29469.
-
-**Update 2026-11-21 (12:15 run, systemic-fix, third cycle):** forty-third batch, 25392–26963: 34 read, 31 retagged by meaning (熟睡する→daily-life+health, 退治する→animal-insect+culture, 削減する→quantity+economics, 誘致→business+politics, 溶く→cooking, 噴く→nature+movement, 解除する→law+technology, 対戦する→sports+entertainment, 設計する→building+technology, 抗議する→communication+politics, 発見する→cognition+science, …; the self-check moved 切断する from tool+technology to technology+health); 3 read and left as action (そのままにする, やり出す, 開始する: no tag fits better). Detector 307 → 276. Next batch after 26963.
-
-**Update 2026-11-21 (00:15 run, systemic-fix, fifth cycle):** forty-second batch, 22365–25386: 32 retagged by meaning (分離する→science+change, 掌握→politics+cognition, 取り分ける→food+cooking, 待ち伏せる→military+movement, 振り付ける→music+entertainment, 辞去する→greeting+movement, 大あくび→body-internal+daily-life, 復興する→society+change, 正座する→culture+daily-life, …); マーキング keeps action beside animal-general. The self-check removed body-part from ウィンク and 愛撫. 307 remain by the raw detector; the next batch starts after 25386.
-
-**Update 2026-11-20 (12:15 run, systemic-fix, ninth cycle):** forty-first batch, 21338–22363: 26 of 30 retagged by meaning (取り逃す→law, 挑戦する→sports+work, 発送する→shopping+business, 適用する/禁止する→law, 貫き通す→personality, …); 敢行, 敢行する, 続行, 中止する left as action. 339 remain by the raw detector; the next batch starts after 22363.
-
-**Update 2026-11-20 (12:15 run, systemic-fix, fourth cycle):** fortieth batch, 19421–21323: 66 retagged by meaning (静める→emotion, 投降→military, 模写→art, 侵す→military+law, 実施する→work, 執り行う→religion+culture, 点灯する→electronics+technology, なりすます→law, 停止する→transportation+technology, 撤去する→building+law, …); the self-check moved 退避 to movement alone. 365 remain by the raw detector; the next batch starts after 21323.
-
-**Update 2026-11-20 (00:15 run, systemic-fix, sixth cycle):** thirty-ninth batch, 17942–19379: 68 retagged by meaning (調節→technology+quantity, 口ずさむ→music, 没収→law, 給油→transportation, 引率→education+travel, 占拠→military+politics, 解凍→cooking+technology, 治す→health, …); 3 left as action (被る, 放っておく, 締まる). The self-check moved しなる to movement. The raw detector counts 431. The next batch starts after 19379.
-
-**Update 2026-11-20 (00:15 run, systemic-fix, first cycle):** thirty-eighth batch, 15621–17849: 66 retagged by meaning (取り壊す→building, 点呼→education+military, 巻き戻す→technology+media, 駆除→animal-insect+daily-life, 払い戻す→money+shopping, 精進する→religion+work, 来襲→military+weather, 身籠る→family+health, 起動する→technology+electronics, 継承する→family+culture, 差す→weather+daily-life, …); 4 left as action (切り抜ける, 回避する, 維持する, 組み合わさる). The self-check moved three `tool` tags that named an object rather than the word (点火, 代用, 結び付ける; 兼用 likewise) and set 仕損じる to formal. The raw detector counts 503. The next batch starts after 17849.
-
-**Update 2026-11-19 (00:15 run, systemic-fix, third cycle):** thirty-sixth batch, 13632–14409: 57 retagged by meaning (破壊→change+building, 直撃/襲来→weather+military, 競う→sports+society, 紡ぐ→clothing+creation, 脱帽→clothing+evaluation, 興す/設立→business+creation, 行使→law+politics, 見舞う→health+society, 転嫁→society+money, 要する→quantity+time-general, 配置→place+work, …); 3 left as `action` (確保, 痛めつける, 遂げる); one reviewer correction to a notes claim in 薄れる (消える can be gradual); the raw detector counts 635. The next batch starts after 14409.
-
-**Update 2026-11-18 (16:15 run, systemic-fix, fourth cycle):** thirty-fifth batch, 12806–13616: 43 retagged by meaning (抑える→emotion+quantity, 拡張→size+change, 放棄→law+politics, 捕獲→animal-general+law, 投与→health, 映す/映る→sense+technology, 換える→change+money, 撃破/激闘→military+sports, 無視→communication+society, 癒す→health+emotion, …; reviewer corrections: 押し込める→movement+place, 振り絞る→emotion); 1 left as `action` (施す); the raw detector counts 693. The next batch starts after 13616.
-
-**Update 2026-11-17 (16:15 run, systemic-fix, ninth cycle):** thirty-third batch, 12001–12482: 26 retagged by meaning (入隊→military, 壊滅→change+military, 失踪→existence+law, 奨励→communication+education, 寝かせる→daily-life+cooking, 対決/対抗→sports+society, 廃棄→daily-life+business, …); 3 left as action (取り去る, 妨げる, 封じる). The raw detector counts 770. The next batch starts after 12482.
-
-**Update 2026-11-17 (16:15 run, systemic-fix, fifth cycle):** thirty-second batch, 11053–12000: 53 retagged by meaning (スタート→time-general, 繕う→clothing+appearance, ばらす→communication+change, 主催→society+leisure, 修復→building+change, 供える→religion+culture, 共有→society+technology, 分裂→politics+science, 制御→technology+science, 勃発→military+existence, 呪う→religion+emotion, 司る→politics+work, …); 7 read and left as action (チャレンジ, 反復, 乗り切る, 併用, 兼ねる, 包み込む, 取りやめる). The raw detector counts 797, including entries earlier batches left as action. The next batch starts after 12000.
-
-**Update 2026-11-17 (08:15 run, systemic-fix, seventh cycle):** thirty-first batch, 10416–10996: 52 retagged by meaning (生み出す→creation, 費やす→time-general+money, 開催→society+leisure, 取得する→law+work, 泊まる→travel+daily-life, 発送→business+transportation, 纏う→clothing+appearance, インプット/アウトプット→technology+education, 償う→law+money, …); 3 left as action (活かす, 交える, ゲット). Detector 775 → 723. Next batch after 10996.
-
-**Update 2026-11-17 (08:15 run, systemic-fix, third cycle):** thirtieth batch, 09682–10407: 52 retagged by meaning (改装→building+change, 追跡→movement+law, 設置→building+technology, 練る→cooking+cognition, 送金→money+finance, 賭ける→money+leisure, 起訴する/犯す→law, 開拓→geography+business, 締める/留める→clothing, 傷む→change+food, 庇う→society+emotion, こだわる→cognition+personality, 育む→family+education, 出来上がる→creation+change, …); 3 left as action (立てかける, 差し置く, 保つ). Detector 832 → 780. Next batch after 10407.
-
-**Update 2026-11-17 (00:15 run, systemic-fix, seventh cycle):** twenty-ninth batch, 07423–09681: 57 retagged by meaning (妥協→communication+society, 介入→politics+society, 取り締まり→law, 蒸発→science+existence, 鳴り響く→sense+music, 装う→appearance+clothing, サボる→work+education, 発令→law+politics, 洗濯する→daily-life+clothing, 改良→change+technology, …); 3 left as action (まねっこ, いじる, 遭う). Detector 1,015 → 958. Next batch starts after 09681.
-
-**Update 2026-11-17 (00:15 run, systemic-fix, first cycle):** twenty-eighth batch, 06721–07418: 67 retagged by meaning (ばれる→communication, 押し寄せる→movement+quantity, 打ち出す→communication+politics, 居住→daily-life+place, 貼り付ける→technology+daily-life, 吸い込む→health+body-internal, 見極める→cognition+evaluation, 手入れ→daily-life+law, ひるむ→emotion, 滞る→time-general+money, …); 3 left as action (持ち堪える, 繰り広げる, 凌ぐ). Detector 1,082 → 1,015. Next batch starts after 07418.
-
-**Update 2026-11-16 (16:15 run, systemic-fix, third cycle):** twenty-seventh batch, 06136–06703: 57 retagged by meaning (デバッグ→technology, 在宅勤務→work+daily-life, テイクアウト→food+shopping, 捏ねる→cooking+communication, 解体→building+change, 切り詰める→money+quantity, 踏み切る→cognition+sports, 見分ける→sense+cognition, 灌漑/脱穀/耕作→plant-general+work, 退去→movement+law, …); 3 left as `action` (取り外す, 食い止める, 嵌め込む); 1,082 remain. The next batch starts after 06703.
-
-**Update 2026-11-16 (08:15 run, systemic-fix, sixth cycle):** twenty-sixth batch 2026-11-16 (08:15 run, sixth cycle, 05908–06135): 43 retagged by meaning (却下→law+communication, 起伏→geography+emotion, お宮参り→religion+family, アンコール→music+entertainment, 稲刈り→plant-general+work, 執着/躊躇う/戸惑う→emotion+cognition, 監査→business+finance, 通院/処方→health, 離陸/着陸→transportation+travel, マウント→communication+society, 陶酔→emotion, 絞り込む→cognition+quantity, 提案する→communication+work, 考慮する→cognition, 否定する→communication+cognition, 予想する→cognition+time-general, 認定→law+evaluation, 駆け上がる/駆け下りる→movement+direction, 問い合わせ→communication+business, the 抜け出す/押し倒す/踏みつける/突き飛ばす motion verbs→movement, …); 4 read and left as action (頂戴する, 差し支える, 拝借する, 取り返す: no tag fits better); the detector counts 1,139 remaining. The next batch starts after 06135.
-
-**Update 2026-11-16 (08:15 run, systemic-fix):** twenty-fifth batch 2026-11-16 (08:15 run, 05347–05907): 60 retagged by meaning (寝惚ける→daily-life+cognition, しゃぶる→consumption+sense, 欠伸する/くしゃみする→body-internal, 入金→money+finance, しゃがむ/跪く/屈む/跨ぐ/押し出す→movement, 見回す→sense+direction, 質問する→communication+education, 説明する/忠告→communication, 賛成する/反対する→communication+cognition, お見合い→family+culture, 邪魔する→society+greeting, 試行錯誤→cognition+science, 受け持つ→work+education, 生き返る→existence+health, 乗りこなす→transportation+sports, 解除→law+change, 免除→law+money, 早退→time-general+work, 加盟/脱退→society+politics, 初詣→religion+culture, 煮込む→cooking, リプライ→media+communication, 判決→law, 仲裁→law+society, …); none left as action; the detector counts 1,182 remaining. The next batch starts after 05907.
-
-**Update 2026-11-16 (00:15 run, systemic-fix, sixth cycle):** twenty-fourth batch (04734–05346): 44 retagged by meaning (バズる→media+communication, 返済→finance+money, 買収→business+law, 介護→health+family, 同盟→politics+military, 微分/積分→science+number, 焦げる→cooking+change, …); 手放す left as action. Detector 1,286 → 1,242. Next batch after 05346.
-
-**Update 2026-11-15 (16:17 run, systemic-fix, seventh cycle):** twenty-third batch (04590–04669): 39 retagged by meaning (思い切る→cognition+emotion, 芽生える→plant-general+change, 着替える→clothing+daily-life, 暴く→communication+law, 排出→science+health, 目覚める→daily-life+cognition, 組み立てる→creation+building, motion compounds→movement, …); 括る, 漁る, 晒す, 逃す, 挟まる left as action. Detector 1,325 → 1,286. Next batch after 04669.
-
-**Update 2026-11-15 (16:17 run, systemic-fix, third cycle):** twenty-second batch (04326–04588): 44 retagged by meaning (漂う→movement+sense, 散らかる→daily-life, 鳴く→animal-general+sense, 測定→science+quantity, 編集→media+creation, 購読→media+shopping, 見逃す/見落とす→sense+cognition, 衰える→change+health, 早まる/早める→time-general+change, …); 絡む read and left as action. Detector 1,371 → 1,327. Next batch after 04588.
-
-**Update 2026-11-15 (00:15 run, systemic-fix, sixth cycle):** twenty-first batch (04006–04322): 39 retagged (略す→language, 整備→technology+building, 低下→change+quantity, 輸血→health, 往復→travel+movement, 解散→society+politics, 開通→transportation, 作成/作製/執筆/制作/製作→creation, 失恋→emotion, 消化→health+body-internal, 振る舞う→personality+society, 見送る→travel+time-general, 潰れる→change+business, 掃く/拭く/濯ぐ→daily-life, 発売→business+shopping, …); 6 left as action (取り入れる, 取り除く, 打ち込む, 切り取る, 仕掛ける, 嵌まる); 1,272 remain. Next batch after 04322.
-
-**Update 2026-11-13 (16:15 run, systemic-fix, fifth cycle):** fifteenth batch (02376–02420): 32 retagged (悩む→emotion+cognition, 煮える→cooking, 怠ける→personality+work, 慣らす→change+education, 映える→appearance+sense, 話し合う→communication, 罰する→law, 冷やす→change+cooking, 広まる/広める→communication, 深まる/深める→change, 含める/省く→quantity, 増やす/減らす→quantity+change, 震える→sense+emotion, 吠える→animal-general+sense, 微笑む→emotion, 任せる→work+society, 蒔く→plant-general, 退く/殴る/離れる/引っ張る/ぶつかる/ぶつける→movement, …); 8 read and left as action (握る, 抜く, 抜ける, 除く, 外す, 外れる, 防ぐ, 巻く: no tag fits better); 1,593 remain. The next batch starts after 02420.
-
-**Update 2026-11-13 (run started 2026-11-12 23:36 UTC, systemic-fix, second cycle):** fourteenth batch 2026-11-13 (run started 2026-11-12 23:36 UTC, 02299–02374): 27 retagged (問う→communication+law, 解く→cognition, 溶ける/破れる/汚す/弱まる/弱める→change, 剥く/茹でる→cooking, 向ける→direction, 持ち上げる/寄せる→movement+communication, 基づく→abstract, 求める→communication, 訳す→language, 雇う→work+business, 破る→change+law, 譲る→society, 許す→society+emotion, 分ける→quantity, 割る→number+change, 通す/戻す/横切る/通り過ぎる/飛ばす/飛び出す→movement); 5 read and left as action (閉じる, 結ぶ, 捲る, 用いる, よす: no tag fits better); 1,625 remain. The next batch starts after 02374.
-
-**Update 2026-11-13 (run started 2026-11-12 23:36 UTC, systemic-fix):** thirteenth batch 2026-11-13 (run started 2026-11-12 23:36 UTC, 02101–02296): 39 retagged (異なる/優れる→evaluation, 好む→emotion, こぼす→movement+communication, 叫ぶ/勧める/黙る/騙す→communication, 裁く→law, 冷ます→cooking+change, 冷める→change+emotion, 去る→movement+time-general, 支払う→money+shopping, 生じる→existence+change, 攻める→military+sports, 炊く→cooking, 達する→movement+quantity, 試す→cognition, 睨む→sense+cognition, 著す→creation+media, 責める→communication+emotion, 通じる→communication+movement, 継ぐ→family+work, 積む→quantity+transportation, 強まる/強める/裂く/裂ける→change, …); 6 read and left as action (刺さる, 刺す, 済ませる, 備える, 対する, 繋げる: no tag fits better); the detector now counts 1,661 (new entries since the last count added some). The next batch starts after 02296.
-
-**Update 2026-11-11 (16:15 run, systemic-fix, second cycle):** eleventh batch 2026-11-11 (16:15 run, 01984–02050): 28 retagged (触れる/見せる→sense+communication, 減る→quantity+change, 守る→law+society, 学ぶ/教わる→education, 至る→movement+change, 裏切る→society+emotion, 追う/追い付く/帰す→movement, 応じる→communication, 恐れる→emotion, 劣る→evaluation, 溺れる→health+emotion, 思い付く→cognition, 輝く→sense+appearance, 隠す/隠れる→existence, 囲む→direction, 重なる→quantity+time-general, 稼ぐ→money+work, 片付く→daily-life+change, 刈る→plant-general+appearance, 組む→creation+society, …); 6 read and left as action (得る, 負う, 覆う, 押さえる, 収める, 抱える); 1,686 remain. The next batch starts after 02050.
-
-**Update 2026-11-12 (00:15 run, systemic-fix, third cycle):**twelfth batch 2026-11-12 (00:15 run, 02051–02100): 33 retagged (蹴る→movement+sports, 指す→direction+communication, 覚ます/覚める→daily-life+cognition, 従う/頼る→society, 過ごす→time-general+daily-life, 高める/高まる/溜まる→change+quantity, 溜める→quantity+money, 戦う→military+sports, 叩く→movement+communication, 畳む→daily-life+business, 散る→nature+movement, 拝見→sense+communication, 出発→travel+movement, 入院/退院→health, 輸出→economics+business, 温める→cooking+change, 現す→existence+appearance, 凍る→weather+change, …); 7 read and left as action (繰り返す, 咥える, 捧げる, 救う, 済ます, 尽くす, 連ねる; 咥える was tagged body-part and reverted on the reviewer's flag: body-part names parts, not what the mouth does); 1,647 remain. The next batch starts after 02100.
-
-**Update 2026-11-11 (16:15 run, systemic-fix):** tenth batch 2026-11-11 (16:15 run, 01932–01983): 31 retagged (効く→health+evaluation, 気付く/確かめる→cognition, 傷つく/傷つける→health+emotion, 暮らす→daily-life, 加わる→society+quantity, 加える→quantity+number, 誘う→communication+leisure, 育つ→family+change, 倒す→sports+movement, 捕まる→law+movement, 積もる→weather+quantity, 流れる→movement+time-general, 煮る→cooking, 乗せる→transportation, 伸ばす/広がる/広げる→size+change, 残す→existence, 含む/揃える→quantity, …); 9 read and left as action (試みる, 殺す, 込める, 支える, 済む, 付く, 繋ぐ, 繋がる, 開く: no tag fits better); 1,725 remain. The next batch starts after 01983.
-
-**Update 2026-11-11 (08:15 run, systemic-fix, second cycle):** ninth batch, 01874–01931: 22 retagged by meaning (慌てる/恐る/驚かす → emotion, 炒める → cooking, 疑う → cognition, 訴える → law + communication, 演奏 → music, 占う → religion + culture, 起こる → existence + change, 降ろす → movement + transportation + money, …); 6 left as `action` (受け取る, 失う, 奪う, 埋まる, 埋める, 襲う); 1,801 remain; the next batch starts after 01931.
-
-**Update 2026-11-11 (08:15 run, systemic-fix):** eighth batch, 01636–01872: 32 retagged by meaning (失敗→evaluation, 注射/退院する→health, 暗記→education+cognition, 貿易→economics+business, 移動→movement, 諦める→cognition+emotion, 飽きる→emotion, 違反→law, 出発する→travel+movement, 相談する→communication, 放送する→media, 現れる→existence, …); 8 read and left as action (使用, 徹底, 用意, 利用, 与える, 当たる, 当てる, 合わせる); 1,826 remain. The next batch starts after 01872.
-
-**Update 2026-11-11 (00:15 run, systemic-fix):** seventh batch, 01237–01634: 34 retagged by meaning (比べる → cognition + evaluation, 驚く → emotion, 壊す/折る/折れる → change, おっしゃる/申す → communication, 故障 → technology + change, 戦争 → military + politics, けがする → health, …); 6 left as `action` (行う, くださる, なさる, いたす, 準備, 差し上げる). Detector 1,893 → 1,859. Next batch starts after 01634.
-
-**Source**: 2026-07-30 routine polish run (00684 歌う, 00711 かかる, 06701 差し引く, 06704 飛び付く — four of the six verbs the run touched); sized by the 2026-07-30 wiki harvest
-
-Four of six verbs in one polish slot carried `semantic: ["action"]` where a specific in-list tag
-was available and obvious:
-
-| Entry | Was | Should be | Note |
-|---|---|---|---|
-| 00684 歌う | `action` | `music` | its own noun 歌 is already tagged `music` |
-| 00711 かかる | `action` | `time-general` + `money` | the entry's own notes are about time and cost |
-| 06701 差し引く | `action` | `finance` | |
-| 06704 飛び付く | `action` | `movement` | |
-
-**Scope**: **2,085 entries** dictionary-wide have `semantic == ["action"]` and a `verb*` POS tag
-(measured 2026-07-30, all 30,049 entries). That is ~7% of the dictionary and by a wide margin the
-largest single tag-drift family on this page after `tag-sole-general`.
-
-**Why no existing instrument sees it.** `action` **is** in `VALID_SEMANTIC`, so the off-vocabulary
-detector (`check_tag_drift.py --check unknown-semantic`, [P20](cleanup-backlog-resolved.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration))
-is blind to it by construction, and the semantic-mismatch heuristic has no reason to fire. The
-defect is not that the tag is wrong — a verb *is* an action — but that **it carries no information
-the POS field did not already carry**. `pos: ["verb-godan"], semantic: ["action"]` is a tautology
-occupying the slot that should tell a learner what domain the word belongs to. This is the same
-failure as sole-`general` ([P13](#priority-13-overuse-of-general-as-sole-semantic-tag)), one
-category over: a placeholder that survives review because it is never *false*.
-
-**Detect** (deterministic, exact):
-
-```bash
-python3 - <<'PY'
-import json, pathlib
-for f in sorted(pathlib.Path("entries").rglob("*.json")):
-    d = json.loads(f.read_text(encoding="utf-8"))
-    t = (d.get("metadata") or {}).get("tags") or {}
-    if t.get("semantic") == ["action"] and any(str(p).startswith("verb") for p in (t.get("pos") or [])):
-        print(f.name[:5], d.get("headword"), "|", d.get("gloss"))
-PY
-```
-
-**Fix requires a model, per entry.** Unlike the off-vocabulary families there is no migration
-table — the destination depends on what the verb *means*, and the right answer is often two tags
-(かかる → `time-general` + `money`). The detector's job is to produce the queue and the gloss;
-the judgment cannot be batched away. Sequence it behind the off-vocabulary drain (P20), which is
-mechanisable, and consider capping it per run: at 2,085 entries this is a standing lane, not a
-sweep. A reasonable first cut is verbs whose gloss already names a domain the taxonomy has a tag
-for.
-
-**Related**: [P13](#priority-13-overuse-of-general-as-sole-semantic-tag) (the sole-`general`
-analogue — same shape, different placeholder),
-[P11](#priority-11-batch-creation-semantic-tag-transportation-misapplied) (wrong-category tags,
-which a detector *can* see).
-
-**Update 2026-11-09**: Routine systemic-fix batches of 25 (00001–00173) and 25 (00178–00330) retagged by meaning; 2,031 remain. Next batch starts after 00330.
-
-**Update 2026-11-10**: third batch of 28 (00355–00615) retagged; six left as `action` because no tag fits better (指定, する, 掘る, 探す, もらう, あげる). 2,001 remain. Next batch starts after 00615.
-
-**Update 2026-11-10 (08:15 run)**: fourth batch of 30 (00649–00898) retagged; four left as `action` (くれる, 付ける, かける, 助ける). 1,961 remain. Next batch starts after 00898.
-
-**Update 2026-11-10 (16:15 run)**: fifth batch (00899–01180) read: 33 retagged, seven left as `action` (やめる, 出す, 並べる, 置く, 入れる, 別れる, 塗る). 1,923 remain. Next batch starts after 01180.
-
-**Update 2026-11-10 (16:15 run, cycle 6)**: sixth batch (01182–01235) read: 32 retagged, three left as `action` (立てる, 受ける, 起こす). 1,891 remain. Next batch starts after 01235.
-
-**Update 2026-11-14 (00:15 run)**: sixteenth batch (02421–02480) read: 28 retagged, two left as `action` (注す, 具える). 1,565 remain. Next batch starts after 02480 (batches seven to fifteen are logged in the backlog item's notes).
-
-**Update 2026-11-14 (08:15 run)**: seventeenth batch (02510–02709) read: 40 retagged, one left as `action` (切る). 1,525 remain. Next batch starts after 02709.
-
-**Update 2026-11-14 (12:15 run)**: eighteenth batch (02710–03168) read: 40 retagged, five left as `action` (行動, 享受, 決行, 克服, やる). 1,485 remain. Next batch starts after 03168.
-
-**Update 2026-11-14 (12:15 run, cycle 5)**: nineteenth batch (03172–03782) read: 41 retagged, four left as `action` (実行, 実施, 挑戦, 真似). 1,441 remain. Next batch starts after 03782.
-
-**Update 2026-11-14 (12:15 run, cycle 9)**: twentieth batch (03785–04005) read: 27 retagged, three left as `action` (為す, 配る, 縛る). 1,411 remain. Next batch starts after 04005.
-
-**Update 2026-11-19 (12:15 run, cycle 2)**: thirty-seventh batch (14410–15618) read: 66 retagged, four left as `action` (阻む, 閉じ込める, 除去, 切り裂く). The raw detector counts 569. Next batch starts after 15618. (Batches 21–36 are recorded in the item's `notes` in backlog-queue.json.)
-
 ## Priority 38: Semantic tags disagree *within a closed lexical family* (tableware: 32 entries, 12 tag-sets)
 
 **Source**: 2026-08-02 routine polish run, which standardised the four 皿 entries to `["tool"]`
@@ -1851,7 +1712,7 @@ correct tags (`number`, `time-general`) are already in `VALID_SEMANTIC` and alre
 majority of the family. Closed paradigms that the dictionary can enumerate (counters, days of the
 month, weekdays, months, seasons) are therefore the place to start: the plurality answer is
 computable and the fix needs no curator sign-off. It also overlaps
-[P34](#priority-34-action-as-the-sole-semantic-tag-on-a-verb-2085-entries) and the sole-`general`
+[P34](cleanup-backlog-resolved.md#priority-34-action-as-the-sole-semantic-tag-on-a-verb-2085-entries-resolved-2026-11-22) and the sole-`general`
 queue item, so a family-aware pass would drain part of those too.
 
 The practical rule for polish runs, until an instrument exists: **when you touch one member of an
