@@ -428,6 +428,8 @@ This is the same category of stale-auto-label error as the `furniture` tag in th
 
 **Suggested action**: Spot-check entries in the 01800–02100 range for `semantic: ["transportation"]` tags that don't match entry content. If widespread, a targeted batch fix is warranted.
 
+**Update 2026-11-23** (standing check `proverb-idiom-mismatch`): 3 flags, no true positives. 朝食付き and 回転寿司 are rightly `food` (the detector's food keywords now include breakfast, lunch, dinner, sushi); 計画停電 lost a wrong `electronics` tag (now society, daily-life). Detector at 0.
+
 **Update 2026-05-19**: Two more entries with wrong semantic tags surfaced in the 02251–02273 range (02268 和紙, 02269 りんご), suggesting the pattern extends beyond the 02011 boundary identified above. Tag assignment quality appears inconsistent across multiple creation batches, not just a single cohort.
 
 **Update 2026-05-25**: Entry 03218 手術 had `semantic: ["body-part", "time-general"]` — neither tag fits a surgical procedure (should be "medical" or "action"). This confirms the wrong-specific-tag pattern extends into the 03200+ range with novel tag combinations, not just the `transportation`/`furniture`/`electronics` labels seen in earlier ranges.
