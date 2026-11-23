@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-23 (candidates: 12 added, seventh cycle of the 00:15 UTC run)
+
+Brainstorm only (no noentry markers unresolved; the six "seen in entry" candidates were queued earlier today; no ezFurigana rows pending). Seeds 00806–00828: 背中を押す, 背を向ける, すぐさま, 嬉し涙, 溜飲を下げる, 触らぬ神に祟りなし, おばあちゃん子, 多分に, お楽しみ, 楽しげ, 味をしめる, 翌々日. 156 of 179 proposals were already entries; 10 rejected (spellings of existing entries, a transparent phrase, a dated word). Model spend about $0.09.
+
 ### 2026-11-23 (22 new entries, first cycle of the 00:15 UTC run)
 
 33935–33956, all brainstorm candidates (no closure or ezFurigana candidates were waiting), chosen for everyday use: お腹が空く, お腹を壊す, 気が変わる, 食べ残し, 食べ残す, 紙コップ, 紙皿, 雨靴, 長椅子, 変わり, 頭に入れる, 物知り, 声変わり, 知ったかぶり, 白っぽい, 赤っぽい, 黒っぽい, 念を押す, 話が弾む, 答え合わせ, 食べかけ, 飲みかけ. お冷 dropped: 冷や (28141) already covers it. Five closure candidates added (腹が減る, 変声期, 念押し, 話が合う, 飲み残し).
@@ -68,9 +72,4 @@ Brainstorm only (no closure markers or noted words were waiting; no ezFurigana r
 
 33900–33919. Closure: 平賀源内, 長針, 短針, 背番号, 気付け (named in the last run's entries). Brainstorm: 手広い (related to 広い), 添え状 (手紙), 被り物 (帽子), 門扉 (field building), 社内報, 御用納め, 寿退社 (field business), サスペンダー, キャミソール, ショートパンツ, パンプス, スパッツ, ローファー, 丸首, 半纏 (field clothing). No ezFurigana candidates were queued. No new kanji. 4 candidates added (永久欠番, 御用始め, エレキテル, クルーネック).
 Self-check: 3 flags from gpt-6.1-sol, all applied (送り状 can mean a covering note; 御用納め date not fixed by law; スパッツ 'never gaiters' softened); 9 kana links judged, 0 flagged.
-
-### 2026-11-21 (18 new entries, fifth cycle of the 12:15 UTC run)
-
-33882–33899. Closure: 綿菓子, 発火点, 引火, 宮崎駿 (named in the first cycle's entries). Brainstorm: 土用の丑の日 (related to 七月), 駄目押し (だめ), ニット帽 (帽子), 文字盤 (時計), 社員旅行 (field business), ペイペイ (field brand-name), 毛玉, 裾上げ, ほつれる, 腹巻き, ユニフォーム, ジャージ, 短パン, 着付け (field clothing). No ezFurigana candidates were queued. New kanji 駿 (02879). 5 candidates added (平賀源内, 長針, 短針, 背番号, 気付け).
-Self-check: 2 flags from gpt-6.1-sol, both applied (短パン etymology; 発火点 note softened); 21 kana links judged, 0 flagged.
 
