@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -6113,6 +6113,20 @@
     "date": "2026-09-08"
    }
   },
+  "くびれ": {
+   "target": "32832_kubire",
+   "tier": "verify",
+   "competitors": [
+    "くびれる (to be constricted; stem in くびれた/くびれて/くびれている)"
+   ],
+   "screen": {
+    "verdict": "ambiguous",
+    "risk": "rare",
+    "note": "Usually the noun, but the string also occurs as the stem of the verb くびれる, which the context itself mentions.",
+    "model": "claude:opus",
+    "date": "2026-11-23"
+   }
+  },
   "くまなく": {
    "target": "10332_kumanaku",
    "tier": "unique",
@@ -7086,6 +7100,18 @@
     "reviewed": 8,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "こそばゆい": {
+   "target": "33661_kosobayui",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "This string has no common homophone or alternative parse.",
+    "model": "claude:opus",
+    "date": "2026-11-23"
    }
   },
   "こだま": {
@@ -23263,6 +23289,21 @@
     "reviewed": 11,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "やら": {
+   "target": "33771_yara",
+   "tier": "verify",
+   "competitors": [
+    "やる (to do/give; negative stem in やらない/やられる/やらせる)",
+    "どうやら/なにやら (fixed adverbs containing やら)"
+   ],
+   "screen": {
+    "verdict": "ambiguous",
+    "risk": "common",
+    "note": "やら is very frequently the negative stem of the verb やる rather than the listing or uncertainty particle.",
+    "model": "claude:opus",
+    "date": "2026-11-23"
    }
   },
   "やらかす": {

@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-23 (22 new entries, first cycle of the 00:15 UTC run)
+
+33935–33956, all brainstorm candidates (no closure or ezFurigana candidates were waiting), chosen for everyday use: お腹が空く, お腹を壊す, 気が変わる, 食べ残し, 食べ残す, 紙コップ, 紙皿, 雨靴, 長椅子, 変わり, 頭に入れる, 物知り, 声変わり, 知ったかぶり, 白っぽい, 赤っぽい, 黒っぽい, 念を押す, 話が弾む, 答え合わせ, 食べかけ, 飲みかけ. お冷 dropped: 冷や (28141) already covers it. Five closure candidates added (腹が減る, 変声期, 念押し, 話が合う, 飲み残し).
+Self-check: gpt-6.1-sol reviewed 22, 0 flags; 12 kana links judged, 0 flagged.
+
 ### 2026-11-22 (15 new entries, third cycle of the 12:15 UTC run)
 
 33920–33934. Closure: 永久欠番, 御用始め, エレキテル, クルーネック, 笑い転げる (named in recent entries and in 27884's corrected notes). Brainstorm (field clothing): 洋装, 着丈, 蝶ネクタイ, ウエスト, トップス, ボトムス, Vネック, 七分袖, 伸縮性, ノーネクタイ. No ezFurigana candidates were waiting.
@@ -69,7 +74,3 @@ Self-check: 3 flags from gpt-6.1-sol, all applied (送り状 can mean a covering
 33882–33899. Closure: 綿菓子, 発火点, 引火, 宮崎駿 (named in the first cycle's entries). Brainstorm: 土用の丑の日 (related to 七月), 駄目押し (だめ), ニット帽 (帽子), 文字盤 (時計), 社員旅行 (field business), ペイペイ (field brand-name), 毛玉, 裾上げ, ほつれる, 腹巻き, ユニフォーム, ジャージ, 短パン, 着付け (field clothing). No ezFurigana candidates were queued. New kanji 駿 (02879). 5 candidates added (平賀源内, 長針, 短針, 背番号, 気付け).
 Self-check: 2 flags from gpt-6.1-sol, both applied (短パン etymology; 発火点 note softened); 21 kana links judged, 0 flagged.
 
-### 2026-11-21 (20 new entries, first cycle of the 12:15 UTC run)
-
-33862–33881. Closure: わけではない, 基軸, キロワット, アンペア, 消費電力, ライフワーク, 橋梁, 引火点 (石榴 dropped: a spelling of the existing 柘榴). Brainstorm: アマゾン, ディズニー (field brand-name), 渡り廊下, 縁の下, 間仕切り (field building), 〜巻 (related to 〜冊), 卯月 (四月), 海の日 (七月), 綿飴 (飴), 一番乗り (一). ezFurigana: トトロ, れる. New kanji 卯 (02878). 4 candidates added (綿菓子, 発火点, 引火, 宮崎駿).
-Self-check: 1 flag from gpt-6.1-sol (アマゾン explanation), applied; 1 link unlinked (縁 'fate' where the note means the veranda).
