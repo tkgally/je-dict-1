@@ -1,0 +1,698 @@
+{
+  "tag": "building",
+  "groups": [
+    {
+      "id": "schools-labs",
+      "ja": "{学校|がっこう}と{教室|きょうしつ}",
+      "en": "Schools, classrooms, labs",
+      "members": [
+        "00794_kyoushitsu",
+        "00055_gakkou",
+        "03111_taiikukan",
+        "00608_daigaku",
+        "01586_koudou",
+        "16241_kougishitsu",
+        "29871_shoukouguchi",
+        "01397_kenkyuushitsu",
+        "25411_jikkenshitsu",
+        "03054_kenkyuusho",
+        "19075_kenkyuujo"
+      ]
+    },
+    {
+      "id": "rooms",
+      "ja": "{部屋|へや}",
+      "en": "Rooms in a house",
+      "members": [
+        "00507_heya",
+        "01745_ima",
+        "00257_kyakuma",
+        "03760_shosai",
+        "05300_shinshitsu",
+        "00433_zashiki",
+        "10437_washitsu",
+        "05797_tokonoma",
+        "15741_youshitsu",
+        "16339_youma",
+        "24258_beddoruumu",
+        "08530_ousetsuma"
+      ]
+    },
+    {
+      "id": "attics-basements",
+      "ja": "{屋根裏|やねうら}と{地下室|ちかしつ}",
+      "en": "Attics and basements",
+      "members": [
+        "15854_yaneura",
+        "06771_rofuto",
+        "12047_chikashitsu",
+        "23106_tenjouura",
+        "24566_chikai",
+        "24969_yukashita"
+      ]
+    },
+    {
+      "id": "hotels-dorms",
+      "ja": "{宿|やど}",
+      "en": "Hotels, inns and dorms",
+      "members": [
+        "01027_hoteru",
+        "01049_ryokan",
+        "03641_yado",
+        "31310_hoyoujo",
+        "32747_kokuminshukusha",
+        "03800_ryou",
+        "20478_kishukusha",
+        "31464_shataku",
+        "32454_shukusha"
+      ]
+    },
+    {
+      "id": "stairs-floors",
+      "ja": "{階段|かいだん}",
+      "en": "Stairs, floors, lifts",
+      "members": [
+        "00782_kaidan",
+        "01338_esukareetaa",
+        "01340_erebeetaa",
+        "12754_tesuri",
+        "33853_furoa",
+        "29226_kaidate",
+        "07096_fukinuke",
+        "04062_tsuuro"
+      ]
+    },
+    {
+      "id": "offices",
+      "ja": "{事務所|じむしょ}",
+      "en": "Offices and lounges",
+      "members": [
+        "00327_ofisu",
+        "01032_jimusho",
+        "03079_jimushitsu",
+        "01265_kaigishitsu",
+        "17258_hikaeshitsu",
+        "20242_ousetsushitsu",
+        "23410_kyuukeishitsu",
+        "21832_danwashitsu",
+        "07042_kouishitsu",
+        "29249_jimutou",
+        "07373_machiaishitsu",
+        "07044_kyuukeijo",
+        "10952_saron",
+        "29687_raunji",
+        "26995_robii"
+      ]
+    },
+    {
+      "id": "renting-buying",
+      "ja": "{賃貸|ちんたい}",
+      "en": "Renting and buying a home",
+      "members": [
+        "00193_kashima",
+        "00195_kashiya",
+        "06081_chintai",
+        "06577_bunjou",
+        "09716_shuugoujuutaku",
+        "19997_shakka",
+        "29494_shakuya",
+        "20779_chintaijuutaku",
+        "23884_bunjoujuutaku",
+        "15623_kodate",
+        "03007_akiya",
+        "01035_manshon"
+      ]
+    },
+    {
+      "id": "homes",
+      "ja": "{家|いえ}",
+      "en": "Houses and homes",
+      "members": [
+        "00612_ie",
+        "00188_kaoku",
+        "03280_juutaku",
+        "11612_juukyo",
+        "13217_minka",
+        "11555_sumai",
+        "30723_kataku",
+        "25478_sumika",
+        "31347_kyotaku",
+        "02768_koya",
+        "33538_omoya",
+        "33496_hanare",
+        "25808_bettaku",
+        "28950_hontaku"
+      ]
+    },
+    {
+      "id": "mansions-palaces",
+      "ja": "{屋敷|やしき}と{宮殿|きゅうでん}",
+      "en": "Mansions and palaces",
+      "members": [
+        "14434_teitaku",
+        "12395_yashiki",
+        "18158_goutei",
+        "24076_goten",
+        "24134_yakata",
+        "25716_bettei",
+        "30145_shitei",
+        "30736_youkan",
+        "12285_kyuuden",
+        "11786_bessou",
+        "20230_rikyuu",
+        "30126_koutei",
+        "30716_ijinkan",
+        "12847_gosho",
+        "13538_oukyuu",
+        "12305_kantei",
+        "13607_koukyo"
+      ]
+    },
+    {
+      "id": "buildings",
+      "ja": "{建物|たてもの}",
+      "en": "Buildings and facilities",
+      "members": [
+        "01458_tatemono",
+        "01500_biru",
+        "02503_shisetsu",
+        "21292_kenchikubutsu",
+        "24301_kenzoubutsu",
+        "03301_setsubi",
+        "33540_shougyoushisetsu",
+        "22561_fukugoushisetsu",
+        "17308_kan",
+        "03854_sentaa",
+        "21133_honkan",
+        "21134_bekkan"
+      ]
+    },
+    {
+      "id": "high-rises",
+      "ja": "{高層|こうそう}ビル",
+      "en": "High-rises and towers",
+      "members": [
+        "21449_choukousoubiru",
+        "23887_kousoukenchiku",
+        "16994_kousoubiru",
+        "28655_kousoudate",
+        "28914_tawaamanshon",
+        "26197_choukousou",
+        "21924_teisou",
+        "11035_tawaa",
+        "18278_tenboudai",
+        "26300_kanshitou",
+        "27130_tenboujo",
+        "29421_tenboutou",
+        "04560_toudai"
+      ]
+    },
+    {
+      "id": "stations-parking",
+      "ja": "{駅|えき}と{駐車場|ちゅうしゃじょう}",
+      "en": "Stations, garages, parking",
+      "members": [
+        "00648_kuukou",
+        "02180_eki",
+        "00361_shako",
+        "01667_chuushajou"
+      ]
+    },
+    {
+      "id": "entrances",
+      "ja": "{玄関|げんかん}",
+      "en": "Doors, gates, entrances",
+      "members": [
+        "00676_to",
+        "00773_doa",
+        "02507_iriguchi",
+        "02508_deguchi",
+        "05003_genkan",
+        "07849_doma",
+        "07880_omoteguchi",
+        "19491_katteguchi",
+        "10765_tataki",
+        "10774_agarigamachi",
+        "04101_uraguchi",
+        "24623_tsuuyoumon",
+        "08938_entoransu",
+        "20472_tsuuyouguchi",
+        "04350_seimon",
+        "18644_uramon",
+        "21070_deiriguchi",
+        "06937_shikii",
+        "14603_mon",
+        "10851_geeto",
+        "33906_monpi"
+      ]
+    },
+    {
+      "id": "windows-shoji",
+      "ja": "{窓|まど}と{障子|しょうじ}",
+      "en": "Windows, shoji, fusuma",
+      "members": [
+        "02254_mado",
+        "04201_shouji",
+        "08107_kamoi",
+        "16594_shoujigami",
+        "19985_tategu",
+        "24367_koushimado",
+        "27509_hikido",
+        "29362_tobusuma",
+        "24962_fusumagami",
+        "07067_demado",
+        "23423_sasshi",
+        "27051_shoujido",
+        "31360_hirakido",
+        "07066_tenmado",
+        "03996_amado",
+        "06995_amido",
+        "15667_madowaku",
+        "01777_garasu",
+        "18407_saikou"
+      ]
+    },
+    {
+      "id": "walls-fences",
+      "ja": "{壁|かべ}と{塀|へい}",
+      "en": "Walls and fences",
+      "members": [
+        "03613_hei",
+        "00149_kakine",
+        "01290_kabe",
+        "12039_kakoi",
+        "13103_saku",
+        "26996_fensu",
+        "27630_itagaki",
+        "30202_anzensaku",
+        "27396_takegaki",
+        "12145_hekimen",
+        "28374_ishibei",
+        "24431_bouheki",
+        "23296_bougoheki",
+        "26465_bouhei",
+        "25941_bouhatei"
+      ]
+    },
+    {
+      "id": "interiors",
+      "ja": "{内装|ないそう}と{外装|がいそう}",
+      "en": "Floors, walls and finishes",
+      "members": [
+        "03652_yuka",
+        "05008_tenjou",
+        "16077_kabegami",
+        "06425_naisou",
+        "06426_gaiheki",
+        "18662_gaisou",
+        "25463_yukazai",
+        "26745_gaisouzai",
+        "29716_naiheki",
+        "11125_furooringu",
+        "25464_yukaita",
+        "29285_kabezai",
+        "29250_naisouzai",
+        "29717_saidingu"
+      ]
+    },
+    {
+      "id": "soundproofing",
+      "ja": "{防音|ぼうおん}と{断熱|だんねつ}",
+      "en": "Soundproofing, insulation",
+      "members": [
+        "06427_dannetsu",
+        "14565_bouon",
+        "19182_shaon",
+        "19206_kyuuon",
+        "19237_bouonshitsu"
+      ]
+    },
+    {
+      "id": "materials",
+      "ja": "{建材|けんざい}",
+      "en": "Building materials",
+      "members": [
+        "12646_kenzai",
+        "24308_sekizai",
+        "24616_buzai",
+        "13017_mokuzai",
+        "20505_dairiseki",
+        "28391_kakuzai",
+        "04190_zaimoku",
+        "10858_konkuriito",
+        "19401_semento",
+        "29718_morutaru",
+        "30101_kotsuzai",
+        "10736_asufaruto"
+      ]
+    },
+    {
+      "id": "halls-theaters",
+      "ja": "{劇場|げきじょう}とホール",
+      "en": "Halls and theaters",
+      "members": [
+        "11169_hooru",
+        "02714_gekijou",
+        "04119_kaikan",
+        "27738_koukaidou",
+        "28878_shikijou",
+        "30140_shuukaijou",
+        "33552_hiroma",
+        "01024_eigakan",
+        "31161_kabukiza",
+        "07879_shuukaijo",
+        "18183_kouminkan",
+        "10959_shinema",
+        "10708_ariina",
+        "27103_jidoukan"
+      ]
+    },
+    {
+      "id": "museums",
+      "ja": "{博物館|はくぶつかん}",
+      "en": "Museums, libraries, zoos",
+      "members": [
+        "00580_toshokan",
+        "01717_bijutsukan",
+        "09220_suizokukan",
+        "01494_hakubutsukan",
+        "27917_kagakukan",
+        "01686_doubutsuen"
+      ]
+    },
+    {
+      "id": "shrines-temples",
+      "ja": "{神社|じんじゃ}と{寺|てら}",
+      "en": "Shrines and temples",
+      "members": [
+        "01620_jinja",
+        "01676_tera",
+        "17736_jinguu",
+        "13837_hokora",
+        "00122_jiin",
+        "13090_honden",
+        "26627_saiden",
+        "23515_otera",
+        "20755_shaden",
+        "24252_haiden",
+        "25003_butsuden",
+        "15935_hondou",
+        "24707_kuri",
+        "12615_sanmon"
+      ]
+    },
+    {
+      "id": "churches",
+      "ja": "{教会|きょうかい}",
+      "en": "Churches and cathedrals",
+      "members": [
+        "01387_kyoukai",
+        "18663_seidou",
+        "18822_shinden",
+        "20731_daiseidou",
+        "22105_reihaidou",
+        "33268_sutendogurasu"
+      ]
+    },
+    {
+      "id": "shops",
+      "ja": "{店|みせ}",
+      "en": "Shops, banks, cafes, bars",
+      "members": [
+        "00578_ginkou",
+        "00497_mise",
+        "01061_suupaa",
+        "01069_yakkyoku",
+        "01079_kissaten",
+        "01493_baiten",
+        "03034_honya",
+        "04205_shoten",
+        "01022_depaato",
+        "27389_shoppingumooru",
+        "28951_shoppingusentaa",
+        "12488_tentou",
+        "20728_misesaki",
+        "32558_misegamae",
+        "00356_sakaba",
+        "07060_baa",
+        "09635_izakaya"
+      ]
+    },
+    {
+      "id": "hospitals",
+      "ja": "{病院|びょういん}",
+      "en": "Hospitals and clinics",
+      "members": [
+        "00577_byouin",
+        "14205_shinryoujo",
+        "01778_iin",
+        "08941_kurinikku",
+        "20980_chiryouin",
+        "26065_sougoubyouin",
+        "20981_sekkotsuin",
+        "18136_seikotsuin"
+      ]
+    },
+    {
+      "id": "barbers",
+      "ja": "{床屋|とこや}",
+      "en": "Barbers and salons",
+      "members": [
+        "01682_tokoya",
+        "06319_biyouin",
+        "06320_rihatsuten",
+        "18078_riyoushitsu",
+        "27288_riyouin",
+        "29567_riyouten"
+      ]
+    },
+    {
+      "id": "public-offices",
+      "ja": "{役所|やくしょ}",
+      "en": "Government offices",
+      "members": [
+        "03067_shiyakusho",
+        "06455_yakusho",
+        "13579_machiyakuba",
+        "21563_kuyakusho",
+        "22701_chousha",
+        "27822_kenchou",
+        "02879_kouban",
+        "01457_taishikan",
+        "14757_ryoujikan",
+        "32718_zaigaikoukan"
+      ]
+    },
+    {
+      "id": "sports-venues",
+      "ja": "{競技場|きょうぎじょう}",
+      "en": "Stadiums and dojos",
+      "members": [
+        "04735_jimu",
+        "23351_renshuujou",
+        "14326_doujou",
+        "15763_kyougijou",
+        "27151_keikoba",
+        "28638_uchippanashi",
+        "29865_shagekijou",
+        "15511_kyuujou",
+        "23905_sutajiamu",
+        "25737_sukeetojou",
+        "24058_doomu",
+        "23770_yakyuujou"
+      ]
+    },
+    {
+      "id": "studios",
+      "ja": "スタジオ",
+      "en": "Studios and ateliers",
+      "members": [
+        "11583_sutajio",
+        "22667_satsueijo",
+        "23824_shashinshitsu",
+        "15514_anshitsu",
+        "25862_shashinkan",
+        "24568_gashitsu",
+        "10698_atorie"
+      ]
+    },
+    {
+      "id": "factories",
+      "ja": "{工場|こうじょう}",
+      "en": "Factories and warehouses",
+      "members": [
+        "12418_koubou",
+        "01082_koujou",
+        "07878_sagyouba",
+        "26008_machikouba",
+        "32370_kouba",
+        "25282_seitetsujo",
+        "04044_souko",
+        "07372_monooki",
+        "09653_shorijou",
+        "24890_shoukyakujou",
+        "23880_shoukyakuro"
+      ]
+    },
+    {
+      "id": "prisons",
+      "ja": "{刑務所|けいむしょ}",
+      "en": "Prisons and jails",
+      "members": [
+        "19074_keimusho",
+        "13598_rou",
+        "22753_shuuyoujo",
+        "25940_rougoku",
+        "30444_ryuuchijou",
+        "30455_kouchisho"
+      ]
+    },
+    {
+      "id": "structure",
+      "ja": "{耐震|たいしん}",
+      "en": "Structure and quake safety",
+      "members": [
+        "08328_mokuzou",
+        "17904_tekkinkonkuriito",
+        "24552_tekkotsu",
+        "25152_rengazukuri",
+        "29248_tekkotsuzou",
+        "15407_ishizukuri",
+        "06222_taishin",
+        "20985_menshin",
+        "24940_taishinsekkei",
+        "24959_taishinkyoudo"
+      ]
+    },
+    {
+      "id": "roofs-gardens",
+      "ja": "{軒|のき}と{庭|にわ}",
+      "en": "Eaves, rooftops, gardens",
+      "members": [
+        "03912_noki",
+        "08402_nokisaki",
+        "16002_hisashi",
+        "32540_niwasaki",
+        "02239_niwa",
+        "01341_okujou",
+        "04495_engawa",
+        "04116_onshitsu",
+        "02271_entotsu"
+      ]
+    },
+    {
+      "id": "castles",
+      "ja": "{城|しろ}",
+      "en": "Castles",
+      "members": [
+        "03255_shiro",
+        "03725_hori",
+        "17449_tenshukaku",
+        "21582_jouheki",
+        "17496_monomiyagura",
+        "19673_ishigaki"
+      ]
+    },
+    {
+      "id": "construction",
+      "ja": "{新築|しんちく}とリフォーム",
+      "en": "Building and renovating",
+      "members": [
+        "06567_shinchiku",
+        "06568_zouchiku",
+        "19739_tatekae",
+        "26611_shinzou",
+        "08821_rifoomu",
+        "30018_tatemashi",
+        "11211_rinobeeshon",
+        "26948_rifoomusuru",
+        "09625_koujichuu",
+        "22326_kensetsuchuu",
+        "26158_kenchikuchuu",
+        "26202_koujigenba",
+        "33558_koumuten",
+        "16491_shunkou",
+        "11101_chakkou",
+        "24161_rakusei",
+        "24392_kikou",
+        "31099_shunkoushiki",
+        "23578_kikoushiki",
+        "25608_rakuseishiki",
+        "31098_joutoushiki"
+      ]
+    },
+    {
+      "id": "evacuation",
+      "ja": "{避難所|ひなんじょ}",
+      "en": "Fire exits and shelters",
+      "members": [
+        "07138_hinankeiro",
+        "07374_hinanjo",
+        "23857_yuudoutou",
+        "27196_boukatobira"
+      ]
+    },
+    {
+      "id": "pipes-wiring",
+      "ja": "{配管|はいかん}と{配線|はいせん}",
+      "en": "Pipes, wiring and drains",
+      "members": [
+        "07862_haisen",
+        "07965_rouden",
+        "23851_denkikouji",
+        "24629_dousen",
+        "08094_suidoukan",
+        "07495_haikan",
+        "23157_haisuikan",
+        "26588_suidoukouji",
+        "16250_haisuikou",
+        "27276_kankikou",
+        "07335_haisuikou",
+        "09632_gesuidou",
+        "16651_jousuidou",
+        "20884_joukasou",
+        "18459_suisentoire"
+      ]
+    },
+    {
+      "id": "bridges-paving",
+      "ja": "{橋|はし}と{石畳|いしだたみ}",
+      "en": "Bridges and paving",
+      "members": [
+        "02163_hashi",
+        "06494_hodoukyou",
+        "15430_tekkyou",
+        "31233_ishibashi",
+        "31410_tsuribashi",
+        "33868_kyouryou",
+        "08398_ishidatami",
+        "08397_hosou",
+        "19168_shikiishi",
+        "29881_tobiishi"
+      ]
+    },
+    {
+      "id": "plans-drawings",
+      "ja": "{間取|まど}り",
+      "en": "Floor plans and drawings",
+      "members": [
+        "06078_madori",
+        "23670_heimenzu",
+        "14836_mitorizu",
+        "23671_ritsumenzu",
+        "23885_sokumenzu",
+        "14805_sekkeizu"
+      ]
+    },
+    {
+      "id": "sites",
+      "ja": "{敷地|しきち}",
+      "en": "Sites and land",
+      "members": [
+        "00365_shikichi",
+        "21589_takuchi",
+        "30897_youchi"
+      ]
+    }
+  ]
+}
