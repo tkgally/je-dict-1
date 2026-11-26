@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-26 (20 new entries, first cycle of the 00:15 UTC run)
+
+33957–33976. Closure (all six waiting): 腹が減る, 変声期, 念押し, 話が合う, 飲み残し, 降壇. Brainstorm, everyday words first: ポカリスエット, ポッキー (field brand-name), スカーフ, バッジ, フリース, 型崩れ, 腕まくり, 耳当て, ハイソックス (field clothing), 襲いかかる (compound of かかる), 当月 (register counterpart of 今月), 耳を疑う, 頭が切れる, 思い悩む (field cognition). 九死に一生を得る dropped: 九死に一生 (18016) already covers it. Three closure candidates added (飲み残す, 切れ者, ワッペン).
+Self-check: gpt-6.1-sol reviewed 21, 0 flags; 17 kana links judged, 1 flagged (そんなに, kept as in earlier rulings).
+
 ### 2026-11-23 (candidates: 12 added, seventh cycle of the 00:15 UTC run)
 
 Brainstorm only (no noentry markers unresolved; the six "seen in entry" candidates were queued earlier today; no ezFurigana rows pending). Seeds 00806–00828: 背中を押す, 背を向ける, すぐさま, 嬉し涙, 溜飲を下げる, 触らぬ神に祟りなし, おばあちゃん子, 多分に, お楽しみ, 楽しげ, 味をしめる, 翌々日. 156 of 179 proposals were already entries; 10 rejected (spellings of existing entries, a transparent phrase, a dated word). Model spend about $0.09.
@@ -67,9 +72,3 @@ Self-check: 1 flag from gpt-6.1-sol, applied (ウエストマーク names the st
 ### 2026-11-22 (candidates: 30 added, seventh cycle of the 00:15 UTC run)
 
 Brainstorm only (no closure markers or noted words were waiting; no ezFurigana rows pending). Field communication: 手話, 歓談, 誤訳, 念を押す, 言いふらす, 話が弾む, 釘を刺す. Seeds 00783–00805: インスタントコーヒー, ブラックコーヒー, 缶コーヒー, エスプレッソ (コーヒー), おじちゃん, おじさま, おばさま, お腹が空く, お腹を壊す, 薄汚い, 音楽室, 口が重い, 悲しげ, 答え合わせ, 長風呂. Field consumption: がぶ飲み, 食べ残し, 食べ残す, お冷, 断食, 飲ん兵衛, 食べかけ, 飲みかけ. Most proposals (334 of 383) were already entries. 15 rejected (spellings of existing entries, a derived form, a transparent compound). Model spend about $0.22.
-
-### 2026-11-22 (20 new entries, first cycle of the 00:15 UTC run)
-
-33900–33919. Closure: 平賀源内, 長針, 短針, 背番号, 気付け (named in the last run's entries). Brainstorm: 手広い (related to 広い), 添え状 (手紙), 被り物 (帽子), 門扉 (field building), 社内報, 御用納め, 寿退社 (field business), サスペンダー, キャミソール, ショートパンツ, パンプス, スパッツ, ローファー, 丸首, 半纏 (field clothing). No ezFurigana candidates were queued. No new kanji. 4 candidates added (永久欠番, 御用始め, エレキテル, クルーネック).
-Self-check: 3 flags from gpt-6.1-sol, all applied (送り状 can mean a covering note; 御用納め date not fixed by law; スパッツ 'never gaiters' softened); 9 kana links judged, 0 flagged.
-

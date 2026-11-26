@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-23",
+ "updated": "2026-11-26",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -10388,6 +10388,21 @@
     "reviewed": 4,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "すね": {
+   "target": "19778_sune",
+   "tier": "verify",
+   "competitors": [
+    "拗ねる (to sulk; stem in すねて / すねた / すねない)",
+    "っすね (colloquial contraction of ですね)"
+   ],
+   "screen": {
+    "verdict": "ambiguous",
+    "risk": "common",
+    "note": "Kana すね often comes from the verb 拗ねる or casual っすね rather than 脛, so context is needed before linking it to \"shin.\"",
+    "model": "claude:opus",
+    "date": "2026-11-26"
    }
   },
   "すねる": {
