@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-26 (8 new entries, ninth cycle of the 00:15 UTC run)
+
+33977–33984. Closure (all three waiting, queued in the first cycle): 飲み残す, 切れ者, ワッペン. Brainstorm (field clothing, oldest first): ウインドブレーカー, オーバーオール, チノパン, ハーフパンツ, ポンチョ. A small batch because the run clock was near its end.
+Self-check: gpt-6.1-sol reviewed 8, 0 flags; 4 kana links judged, 0 flagged.
+
 ### 2026-11-26 (20 new entries, first cycle of the 00:15 UTC run)
 
 33957–33976. Closure (all six waiting): 腹が減る, 変声期, 念押し, 話が合う, 飲み残し, 降壇. Brainstorm, everyday words first: ポカリスエット, ポッキー (field brand-name), スカーフ, バッジ, フリース, 型崩れ, 腕まくり, 耳当て, ハイソックス (field clothing), 襲いかかる (compound of かかる), 当月 (register counterpart of 今月), 耳を疑う, 頭が切れる, 思い悩む (field cognition). 九死に一生を得る dropped: 九死に一生 (18016) already covers it. Three closure candidates added (飲み残す, 切れ者, ワッペン).
@@ -68,7 +73,3 @@ Self-check: gpt-6.1-sol reviewed 22, 0 flags; 12 kana links judged, 0 flagged.
 
 33920–33934. Closure: 永久欠番, 御用始め, エレキテル, クルーネック, 笑い転げる (named in recent entries and in 27884's corrected notes). Brainstorm (field clothing): 洋装, 着丈, 蝶ネクタイ, ウエスト, トップス, ボトムス, Vネック, 七分袖, 伸縮性, ノーネクタイ. No ezFurigana candidates were waiting.
 Self-check: 1 flag from gpt-6.1-sol, applied (ウエストマーク names the styling, not the belt); 11 kana links judged, 0 flagged.
-
-### 2026-11-22 (candidates: 30 added, seventh cycle of the 00:15 UTC run)
-
-Brainstorm only (no closure markers or noted words were waiting; no ezFurigana rows pending). Field communication: 手話, 歓談, 誤訳, 念を押す, 言いふらす, 話が弾む, 釘を刺す. Seeds 00783–00805: インスタントコーヒー, ブラックコーヒー, 缶コーヒー, エスプレッソ (コーヒー), おじちゃん, おじさま, おばさま, お腹が空く, お腹を壊す, 薄汚い, 音楽室, 口が重い, 悲しげ, 答え合わせ, 長風呂. Field consumption: がぶ飲み, 食べ残し, 食べ残す, お冷, 断食, 飲ん兵衛, 食べかけ, 飲みかけ. Most proposals (334 of 383) were already entries. 15 rejected (spellings of existing entries, a derived form, a transparent compound). Model spend about $0.22.
