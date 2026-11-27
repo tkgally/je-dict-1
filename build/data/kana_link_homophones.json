@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -721,6 +721,18 @@
     "reviewed": 10,
     "wrong": 0,
     "date": "2026-09-08"
+   }
+  },
+  "ありあり": {
+   "target": "32954_ariari",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "Outside the adverb 'vividly', the kana string mostly turns up in slang reduplication of あり ('acceptable'), usually written in katakana, which is too marginal for a learner's dictionary to need context.",
+    "model": "claude:opus",
+    "date": "2026-11-27"
    }
   },
   "ありえない": {
