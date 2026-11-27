@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-27 (6 new entries, seventh cycle of the 00:15 UTC run)
+
+33985–33990. Brainstorm (fields clothing, cognition, building; no closure or ezFurigana candidates were waiting): 襷, 頭巾, 会得, モデルハウス, 雨合羽, 雪駄. A small batch because the run clock was near its end. New kanji 襷 added to the kanji index (02880). Three closure candidates added (防災頭巾, 住宅展示場, モデルルーム).
+Self-check: gpt-6.1-sol reviewed 6, 0 flags; 6 kana links judged, 0 flagged; 3 wrong kana links in my own notes unlinked by hand decision (が, か, モデル in モデルルーム).
+
 ### 2026-11-26 (8 new entries, ninth cycle of the 00:15 UTC run)
 
 33977–33984. Closure (all three waiting, queued in the first cycle): 飲み残す, 切れ者, ワッペン. Brainstorm (field clothing, oldest first): ウインドブレーカー, オーバーオール, チノパン, ハーフパンツ, ポンチョ. A small batch because the run clock was near its end.
@@ -69,7 +74,3 @@ Brainstorm only (no noentry markers unresolved; the six "seen in entry" candidat
 33935–33956, all brainstorm candidates (no closure or ezFurigana candidates were waiting), chosen for everyday use: お腹が空く, お腹を壊す, 気が変わる, 食べ残し, 食べ残す, 紙コップ, 紙皿, 雨靴, 長椅子, 変わり, 頭に入れる, 物知り, 声変わり, 知ったかぶり, 白っぽい, 赤っぽい, 黒っぽい, 念を押す, 話が弾む, 答え合わせ, 食べかけ, 飲みかけ. お冷 dropped: 冷や (28141) already covers it. Five closure candidates added (腹が減る, 変声期, 念押し, 話が合う, 飲み残し).
 Self-check: gpt-6.1-sol reviewed 22, 0 flags; 12 kana links judged, 0 flagged.
 
-### 2026-11-22 (15 new entries, third cycle of the 12:15 UTC run)
-
-33920–33934. Closure: 永久欠番, 御用始め, エレキテル, クルーネック, 笑い転げる (named in recent entries and in 27884's corrected notes). Brainstorm (field clothing): 洋装, 着丈, 蝶ネクタイ, ウエスト, トップス, ボトムス, Vネック, 七分袖, 伸縮性, ノーネクタイ. No ezFurigana candidates were waiting.
-Self-check: 1 flag from gpt-6.1-sol, applied (ウエストマーク names the styling, not the belt); 11 kana links judged, 0 flagged.
