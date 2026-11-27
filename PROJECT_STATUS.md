@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-27 (16 new entries, fifth cycle of the 06:15 UTC run)
+
+33991–34006. Closure: 腸内環境. Brainstorm (cognition and color fields, and seeds 七, 二, 三, 美味しい, 写真): 感づく, 物心がつく, 思い詰める, 頭をひねる, 七味唐辛子, ほっぺたが落ちる, 三流, 二の次, 二の舞, 三度目の正直, 写真写り, ベージュ, 黄ばむ, ねずみ色, 既視感. The first entries in directory entries/34000/. The harvester added reciprocal cross-references in 6 existing entries.
+Self-check: gpt-6.1-sol reviewed 22 (16 new + 6 neighbours), 3 flags, all applied (思い詰める is transitive; a grammar slip in ほっぺたが落ちる's notes; 黄ばむ is also used of leaves). 13 kana links judged, 0 flagged.
+
 ### 2026-11-27 (43 candidates queued, second cycle of the 06:15 UTC run)
 
 Candidates mode. Brainstorm, field cooking: 22 queued (ピーラー, 粗熱, 塩もみ, ひと煮立ち, 火が通る, 火を通す, 目分量, 焼き色, …), 10 rejected (5 spellings of existing entries, 5 too specialized). Brainstorm, seeds 場所 to 値段 (basic tier): 20 queued (場所取り, 困り果てる, 昨日今日, 一枚岩, 客足, よりどりみどり, …), 5 rejected as spellings of existing entries. Closure: 1 (腸内環境); the noentry list is empty and the unlinked words in examples are almost all other spellings of existing entries. Queue 133 → 176. Model spend $0.15.
@@ -68,8 +73,3 @@ Self-check: gpt-6.1-sol reviewed 8, 0 flags; 4 kana links judged, 0 flagged.
 
 33957–33976. Closure (all six waiting): 腹が減る, 変声期, 念押し, 話が合う, 飲み残し, 降壇. Brainstorm, everyday words first: ポカリスエット, ポッキー (field brand-name), スカーフ, バッジ, フリース, 型崩れ, 腕まくり, 耳当て, ハイソックス (field clothing), 襲いかかる (compound of かかる), 当月 (register counterpart of 今月), 耳を疑う, 頭が切れる, 思い悩む (field cognition). 九死に一生を得る dropped: 九死に一生 (18016) already covers it. Three closure candidates added (飲み残す, 切れ者, ワッペン).
 Self-check: gpt-6.1-sol reviewed 21, 0 flags; 17 kana links judged, 1 flagged (そんなに, kept as in earlier rulings).
-
-### 2026-11-23 (candidates: 12 added, seventh cycle of the 00:15 UTC run)
-
-Brainstorm only (no noentry markers unresolved; the six "seen in entry" candidates were queued earlier today; no ezFurigana rows pending). Seeds 00806–00828: 背中を押す, 背を向ける, すぐさま, 嬉し涙, 溜飲を下げる, 触らぬ神に祟りなし, おばあちゃん子, 多分に, お楽しみ, 楽しげ, 味をしめる, 翌々日. 156 of 179 proposals were already entries; 10 rejected (spellings of existing entries, a transparent phrase, a dated word). Model spend about $0.09.
-
