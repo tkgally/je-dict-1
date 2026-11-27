@@ -3,7 +3,7 @@
   "id": "16735_yakitate",
   "headword": "{焼|や}きたて",
   "reading": "やきたて",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "freshly baked; freshly grilled",
   "definitions": [
     {
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\nFormed from ⟦{焼|や}く→焼く：01123_yaku⟧ (to bake/grill) + たて (just done). The suffix たて attaches to the conjunctive form of verbs to mean \"just [verb]ed\" or \"freshly [verb]ed.\"\n\nCOMMON COLLOCATIONS:\n- {焼|や}きたて⟦の→の：09472_no⟧⟦パン→パン：00553_pan⟧ (freshly baked bread)\n- {焼|や}きたて⟦の→の：09472_no⟧⟦クッキー→クッキー：10798_kukkii⟧ (freshly baked cookies)\n- {焼|や}きたて⟦の→の：09472_no⟧⟦{魚|さかな}→魚：00499_sakana⟧ (freshly grilled fish)\n\nRELATED WORDS:\n- ⟦{揚|あ}げたて→揚げたて：16736_agetate⟧: freshly fried\n- {炊|た}きたて: freshly cooked (rice)\n- {出来|でき}たて: freshly made",
+  "notes": "FORMS:\nFormed from ⟦{焼|や}く→焼く：01123_yaku⟧ (to bake/grill) + たて (just done). The suffix たて attaches to the conjunctive form of verbs to mean \"just [verb]ed\" or \"freshly [verb]ed.\"\n\nCOMMON COLLOCATIONS:\n- {焼|や}きたて⟦の→の：09472_no⟧⟦パン→パン：00553_pan⟧ (freshly baked bread)\n- {焼|や}きたて⟦の→の：09472_no⟧⟦クッキー→クッキー：10798_kukkii⟧ (freshly baked cookies)\n- {焼|や}きたて⟦の→の：09472_no⟧⟦{魚|さかな}→魚：00499_sakana⟧ (freshly grilled fish)\n\nRELATED WORDS:\n- ⟦{揚|あ}げたて→揚げたて：16736_agetate⟧: freshly fried\n- {炊|た}きたて: freshly cooked (rice)\n- {出来|でき}たて: freshly made\n\nWRITING:\nAlso written {焼|や}き{立|た}て; the kana たて is the usual modern spelling, as on bakery signs ({焼|や}きたて⟦パン→パン：00553_pan⟧).",
   "cross_references": [
     {
       "type": "related",
@@ -87,30 +87,38 @@
       "reading": "ひきたて",
       "headword": "{挽|ひ}きたて",
       "label": "freshly ground"
+    },
+    {
+      "type": "related",
+      "target_id": "09260_iretate",
+      "reading": "いれたて",
+      "headword": "{淹|い}れ{立|た}て",
+      "label": "freshly made (tea, coffee)"
+    },
+    {
+      "type": "related",
+      "target_id": "08483_yudetate",
+      "reading": "ゆでたて",
+      "headword": "{茹|ゆ}で{立|た}て",
+      "label": "freshly boiled"
     }
   ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-10-20T12:26:11Z",
+    "modified": "2026-11-27T07:52:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "adjective-no"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "food"
+        "food",
+        "cooking"
       ]
     }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "08344_yakitate",
-      "reading": "やきたて",
-      "headword": "{焼|や}き{立|た}て",
-      "note": "freshly baked (variant)"
-    }
-  ]
+  }
 }

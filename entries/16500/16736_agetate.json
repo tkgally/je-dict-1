@@ -3,7 +3,7 @@
   "id": "16736_agetate",
   "headword": "{揚|あ}げたて",
   "reading": "あげたて",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "freshly fried; just fried",
   "definitions": [
     {
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\nFormed from ⟦{揚|あ}げる→揚げる：16879_ageru⟧ (to deep-fry) + たて (just done). The suffix たて attaches to the conjunctive form of verbs to mean \"just [verb]ed.\"\n\nCOMMON COLLOCATIONS:\n- {揚|あ}げたて⟦の→の：09472_no⟧⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧ (freshly fried tempura)\n- {揚|あ}げたて⟦の→の：09472_no⟧⟦コロッケ→コロッケ：10857_korokke⟧ (freshly fried croquette)\n- {揚|あ}げたて⟦の→の：09472_no⟧⟦{唐揚|からあ}げ→唐揚げ：04949_karaage⟧ (freshly fried karaage)\n\nRELATED WORDS:\n- ⟦{焼|や}きたて→焼きたて：16735_yakitate⟧: freshly baked/grilled\n- {炊|た}きたて: freshly cooked (rice)\n- {出来|でき}たて: freshly made",
+  "notes": "FORMS:\nFormed from ⟦{揚|あ}げる→揚げる：16879_ageru⟧ (to deep-fry) + たて (just done). The suffix たて attaches to the conjunctive form of verbs to mean \"just [verb]ed.\"\n\nCOMMON COLLOCATIONS:\n- {揚|あ}げたて⟦の→の：09472_no⟧⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧ (freshly fried tempura)\n- {揚|あ}げたて⟦の→の：09472_no⟧⟦コロッケ→コロッケ：10857_korokke⟧ (freshly fried croquette)\n- {揚|あ}げたて⟦の→の：09472_no⟧⟦{唐揚|からあ}げ→唐揚げ：04949_karaage⟧ (freshly fried karaage)\n\nRELATED WORDS:\n- ⟦{焼|や}きたて→焼きたて：16735_yakitate⟧: freshly baked/grilled\n- {炊|た}きたて: freshly cooked (rice)\n- {出来|でき}たて: freshly made\n- ⟦{揚|あ}げ{物|もの}→揚げ物：04975_agemono⟧: fried food\n\nWRITING:\nAlso written {揚|あ}げ{立|た}て; the kana たて is the usual modern spelling.",
   "cross_references": [
     {
       "type": "related",
@@ -87,30 +87,59 @@
       "reading": "ひきたて",
       "headword": "{挽|ひ}きたて",
       "label": "freshly ground"
+    },
+    {
+      "type": "related",
+      "target_id": "05887_sakusaku",
+      "reading": "さくさく",
+      "headword": "さくさく",
+      "label": "crispy"
+    },
+    {
+      "type": "related",
+      "target_id": "04975_agemono",
+      "reading": "あげもの",
+      "headword": "{揚|あ}げ{物|もの}",
+      "label": "fried food"
+    },
+    {
+      "type": "related",
+      "target_id": "01693_abura",
+      "reading": "あぶら",
+      "headword": "{油|あぶら}",
+      "label": "oil"
+    },
+    {
+      "type": "related",
+      "target_id": "09260_iretate",
+      "reading": "いれたて",
+      "headword": "{淹|い}れ{立|た}て",
+      "label": "freshly brewed, just made"
+    },
+    {
+      "type": "related",
+      "target_id": "08483_yudetate",
+      "reading": "ゆでたて",
+      "headword": "{茹|ゆ}で{立|た}て",
+      "label": "freshly boiled"
     }
   ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-10-20T12:26:11Z",
+    "modified": "2026-11-27T07:52:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "adjective-no"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "food"
+        "food",
+        "cooking"
       ]
     }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "08482_agetate",
-      "reading": "あげたて",
-      "headword": "{揚|あ}げ{立|た}て",
-      "note": "freshly fried (variant)"
-    }
-  ]
+  }
 }
