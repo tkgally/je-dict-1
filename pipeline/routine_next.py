@@ -181,13 +181,36 @@ def load_backlog_queue():
     return load_json(BACKLOG_QUEUE, {"items": []})
 
 
-def select_backlog_item(queue):
-    """Return the highest-priority open, batch-ready backlog item, or None."""
+EXHAUSTED_RECHECK_DAYS = 7
+
+
+def _recently_exhausted(item, today):
+    """True for a standing check whose detector found nothing in the last
+    EXHAUSTED_RECHECK_DAYS days (scope_estimate 0, scope_measured_at recent).
+    Without this, an exhausted item that sorts first wins every systemic-fix
+    cycle and each cycle only re-measures it (2026-11-26/27: five times)."""
+    if item.get("scope_estimate") != 0:
+        return False
+    try:
+        measured = datetime.strptime(str(item.get("scope_measured_at"))[:10],
+                                     "%Y-%m-%d").date()
+    except ValueError:
+        return False
+    return (today - measured).days < EXHAUSTED_RECHECK_DAYS
+
+
+def select_backlog_item(queue, today=None):
+    """Return the highest-priority open, batch-ready backlog item, or None.
+
+    Items recently measured at zero scope are passed over while any other
+    item is available."""
     items = [it for it in queue.get("items", [])
              if it.get("status") == "open" and it.get("batch_ready")]
     if not items:
         return None
-    return sorted(items, key=lambda it: it.get("priority", 9999))[0]
+    today = today or datetime.now(timezone.utc).date()
+    live = [it for it in items if not _recently_exhausted(it, today)]
+    return sorted(live or items, key=lambda it: it.get("priority", 9999))[0]
 
 
 # --------------------------------------------------------------------------- #

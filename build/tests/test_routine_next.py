@@ -143,6 +143,21 @@ class TestScheduler(unittest.TestCase):
             {"id": "x", "priority": 1, "status": "detector-experimental", "batch_ready": False},
         ]}))
 
+    def test_select_backlog_item_skips_recently_exhausted(self):
+        from datetime import date
+        queue = {"items": [
+            {"id": "exhausted", "priority": 1, "status": "open", "batch_ready": True,
+             "scope_estimate": 0, "scope_measured_at": "2026-11-27"},
+            {"id": "work", "priority": 5, "status": "open", "batch_ready": True,
+             "scope_estimate": 9, "scope_measured_at": "2026-08-07"},
+        ]}
+        self.assertEqual(rn.select_backlog_item(queue, today=date(2026, 11, 28))["id"], "work")
+        # After the recheck window the standing check is due again.
+        self.assertEqual(rn.select_backlog_item(queue, today=date(2026, 12, 10))["id"], "exhausted")
+        # When only exhausted items remain, still return one.
+        only = {"items": [queue["items"][0]]}
+        self.assertEqual(rn.select_backlog_item(only, today=date(2026, 11, 28))["id"], "exhausted")
+
     def test_budget_suppression_blocks_accuracy_review(self):
         cfg = base_config()
         tally, _ = simulate(cfg, neutral_signals(), remaining=0.0, n=2000)
