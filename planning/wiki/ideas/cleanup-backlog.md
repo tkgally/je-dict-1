@@ -3337,6 +3337,8 @@ swallows the okurigana ち into the ruby — a [P64](#p64-okurigana-swallowed-in
 instance sitting on the entry that 187 links point at. Added to the `entry-pair-consolidation`
 item (now 10 pairs).
 
+**Update 2026-11-27.** All pairs but one are now merged under the §E spelling-duplicate rule (捻る/捩じる, 翳む/霞む and 時/とき on this date; 気持ち, 見積もり, 焼きたて, 揚げたて, 控えめ, 巨大 earlier). Left: 04628 追い掛ける (core) / 16734 追いかける (general), which needs the curator because core headwords are closed.
+
 ### For the curator: `formality` cannot express register that differs by sense
 
 The 2026-08-22 run hit this on **12766 {念\|ねん}**, whose own notes say sense 1 (感謝の念, 畏敬の念)
