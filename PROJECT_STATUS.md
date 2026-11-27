@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-27 (11 candidates queued, fifth cycle of the 10:44 UTC run)
+
+Candidates mode. Brainstorm, field creation (147 member entries): 110 proposals (45 mine, 50 each from gpt-6.1-sol and gemini-3.8-flash), of which 94 were already entries; 11 queued (合作, 遺作, プロデュース, プロトタイプ, リメイク, 生みの親, 縫い合わせる, 縫製, 匠, 練り直す, 習作), 5 rejected (ろくろ is a spelling of 轆轤; 著作者, 鍛造, 製図 too specialized; 手先が器用 a free phrase). Closure: nothing new (no unresolved noentry markers; four closure words were queued by this run's first cycle). Queue 144 → 155. Model spend $0.06.
+
 ### 2026-11-27 (20 new entries, first cycle of the 10:44 UTC run)
 
 34007–34026. Closure: 防災頭巾, 住宅展示場, モデルルーム. Brainstorm (clothing, cognition and color fields, and seeds 先週, 飛ぶ, 七): ショーツ, ボーダー, 襦袢, よそ行き, 袂, 内省, 勘案, 探究, 前週, 飛ぶ鳥を落とす勢い, 七不思議, パステルカラー, 三原色, 蛍光色, 黄土色, クリーム色, ゴールド. New kanji 袂, 襦, 袢 added to the kanji index. Candidates queued from the new notes: 加味, 破竹の勢い, 日の出の勢い, からし色.
@@ -68,9 +72,4 @@ Candidates mode. Brainstorm, field cooking: 22 queued (ピーラー, 粗熱, 塩
 
 33985–33990. Brainstorm (fields clothing, cognition, building; no closure or ezFurigana candidates were waiting): 襷, 頭巾, 会得, モデルハウス, 雨合羽, 雪駄. A small batch because the run clock was near its end. New kanji 襷 added to the kanji index (02880). Three closure candidates added (防災頭巾, 住宅展示場, モデルルーム).
 Self-check: gpt-6.1-sol reviewed 6, 0 flags; 6 kana links judged, 0 flagged; 3 wrong kana links in my own notes unlinked by hand decision (が, か, モデル in モデルルーム).
-
-### 2026-11-26 (8 new entries, ninth cycle of the 00:15 UTC run)
-
-33977–33984. Closure (all three waiting, queued in the first cycle): 飲み残す, 切れ者, ワッペン. Brainstorm (field clothing, oldest first): ウインドブレーカー, オーバーオール, チノパン, ハーフパンツ, ポンチョ. A small batch because the run clock was near its end.
-Self-check: gpt-6.1-sol reviewed 8, 0 flags; 4 kana links judged, 0 flagged.
 
