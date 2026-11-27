@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-27 (43 candidates queued, second cycle of the 06:15 UTC run)
+
+Candidates mode. Brainstorm, field cooking: 22 queued (ピーラー, 粗熱, 塩もみ, ひと煮立ち, 火が通る, 火を通す, 目分量, 焼き色, …), 10 rejected (5 spellings of existing entries, 5 too specialized). Brainstorm, seeds 場所 to 値段 (basic tier): 20 queued (場所取り, 困り果てる, 昨日今日, 一枚岩, 客足, よりどりみどり, …), 5 rejected as spellings of existing entries. Closure: 1 (腸内環境); the noentry list is empty and the unlinked words in examples are almost all other spellings of existing entries. Queue 133 → 176. Model spend $0.15.
+
 ### 2026-11-27 (6 new entries, seventh cycle of the 00:15 UTC run)
 
 33985–33990. Brainstorm (fields clothing, cognition, building; no closure or ezFurigana candidates were waiting): 襷, 頭巾, 会得, モデルハウス, 雨合羽, 雪駄. A small batch because the run clock was near its end. New kanji 襷 added to the kanji index (02880). Three closure candidates added (防災頭巾, 住宅展示場, モデルルーム).
@@ -68,9 +72,4 @@ Self-check: gpt-6.1-sol reviewed 21, 0 flags; 17 kana links judged, 1 flagged (�
 ### 2026-11-23 (candidates: 12 added, seventh cycle of the 00:15 UTC run)
 
 Brainstorm only (no noentry markers unresolved; the six "seen in entry" candidates were queued earlier today; no ezFurigana rows pending). Seeds 00806–00828: 背中を押す, 背を向ける, すぐさま, 嬉し涙, 溜飲を下げる, 触らぬ神に祟りなし, おばあちゃん子, 多分に, お楽しみ, 楽しげ, 味をしめる, 翌々日. 156 of 179 proposals were already entries; 10 rejected (spellings of existing entries, a transparent phrase, a dated word). Model spend about $0.09.
-
-### 2026-11-23 (22 new entries, first cycle of the 00:15 UTC run)
-
-33935–33956, all brainstorm candidates (no closure or ezFurigana candidates were waiting), chosen for everyday use: お腹が空く, お腹を壊す, 気が変わる, 食べ残し, 食べ残す, 紙コップ, 紙皿, 雨靴, 長椅子, 変わり, 頭に入れる, 物知り, 声変わり, 知ったかぶり, 白っぽい, 赤っぽい, 黒っぽい, 念を押す, 話が弾む, 答え合わせ, 食べかけ, 飲みかけ. お冷 dropped: 冷や (28141) already covers it. Five closure candidates added (腹が減る, 変声期, 念押し, 話が合う, 飲み残し).
-Self-check: gpt-6.1-sol reviewed 22, 0 flags; 12 kana links judged, 0 flagged.
 
