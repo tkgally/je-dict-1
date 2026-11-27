@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-27 (20 new entries, first cycle of the 10:44 UTC run)
+
+34007–34026. Closure: 防災頭巾, 住宅展示場, モデルルーム. Brainstorm (clothing, cognition and color fields, and seeds 先週, 飛ぶ, 七): ショーツ, ボーダー, 襦袢, よそ行き, 袂, 内省, 勘案, 探究, 前週, 飛ぶ鳥を落とす勢い, 七不思議, パステルカラー, 三原色, 蛍光色, 黄土色, クリーム色, ゴールド. New kanji 袂, 襦, 袢 added to the kanji index. Candidates queued from the new notes: 加味, 破竹の勢い, 日の出の勢い, からし色.
+Self-check: gpt-6.1-sol reviewed 20, 1 flag, applied (a gold card is a premium tier, not the top one). 17 kana links judged, 1 removed (というのは in 七不思議 is a topicalizer, not the "the reason is" entry).
+
 ### 2026-11-27 (16 new entries, fifth cycle of the 06:15 UTC run)
 
 33991–34006. Closure: 腸内環境. Brainstorm (cognition and color fields, and seeds 七, 二, 三, 美味しい, 写真): 感づく, 物心がつく, 思い詰める, 頭をひねる, 七味唐辛子, ほっぺたが落ちる, 三流, 二の次, 二の舞, 三度目の正直, 写真写り, ベージュ, 黄ばむ, ねずみ色, 既視感. The first entries in directory entries/34000/. The harvester added reciprocal cross-references in 6 existing entries.
@@ -69,7 +74,3 @@ Self-check: gpt-6.1-sol reviewed 6, 0 flags; 6 kana links judged, 0 flagged; 3 w
 33977–33984. Closure (all three waiting, queued in the first cycle): 飲み残す, 切れ者, ワッペン. Brainstorm (field clothing, oldest first): ウインドブレーカー, オーバーオール, チノパン, ハーフパンツ, ポンチョ. A small batch because the run clock was near its end.
 Self-check: gpt-6.1-sol reviewed 8, 0 flags; 4 kana links judged, 0 flagged.
 
-### 2026-11-26 (20 new entries, first cycle of the 00:15 UTC run)
-
-33957–33976. Closure (all six waiting): 腹が減る, 変声期, 念押し, 話が合う, 飲み残し, 降壇. Brainstorm, everyday words first: ポカリスエット, ポッキー (field brand-name), スカーフ, バッジ, フリース, 型崩れ, 腕まくり, 耳当て, ハイソックス (field clothing), 襲いかかる (compound of かかる), 当月 (register counterpart of 今月), 耳を疑う, 頭が切れる, 思い悩む (field cognition). 九死に一生を得る dropped: 九死に一生 (18016) already covers it. Three closure candidates added (飲み残す, 切れ者, ワッペン).
-Self-check: gpt-6.1-sol reviewed 21, 0 flags; 17 kana links judged, 1 flagged (そんなに, kept as in earlier rulings).
