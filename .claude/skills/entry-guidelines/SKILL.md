@@ -444,6 +444,7 @@ flagged by cross-model review:
 **Fallback categories** (when no specific category fits):
 - `general`: For nouns without a specific semantic category
   (Ruling 2026-11-08: materials such as steel, rubber and acrylic take `science`, as 鉄 and 金属 do; lists, page margins and "the above" words take `communication`, as 上記 and 欄 do; fakes take `evaluation`, as 本物 does.)
+  (Ruling 2026-11-27: a shop noun (〜屋, 〜店) takes a content tag plus `building`, never `building` alone: `shopping` for shops that sell goods (店, 専門店, 百貨店), `food` for places to eat or drink (喫茶店, 居酒屋), `daily-life` for services (理髪店).)
 - `action`: For verbs not fitting other action categories
 - `descriptive`: For adjectives, adverbs, and mimetic manner/quality words
 - `grammatical`: For function words and patterns: particles, conjunctions, auxiliaries, question words (何, 誰, どこ, なぜ). Grammar and writing terms (名詞, 助詞, 送り仮名, 部首, 敬語) take `language` only
