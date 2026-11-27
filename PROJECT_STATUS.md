@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-27 (14 new entries, sixth cycle of the 10:44 UTC run)
+
+34027–34040. Closure (from the notes of this run's first cycle): 加味, 破竹の勢い, 日の出の勢い, からし色. Brainstorm (seeds 危ない, 授業, 撮る, 百, 勉強, 病気, ご飯; field communication): 危なっかしい, 授業参観, 記念撮影, 百発百中, 危ぶむ, 猛勉強, 病み上がり, ご飯粒, 手話, 釘を刺す. The harvester added reciprocal cross-references in 6 existing entries.
+Self-check: gpt-6.1-sol reviewed 20 (14 new + 6 neighbours), clean. 9 kana links judged, 0 flagged.
+
 ### 2026-11-27 (11 candidates queued, fifth cycle of the 10:44 UTC run)
 
 Candidates mode. Brainstorm, field creation (147 member entries): 110 proposals (45 mine, 50 each from gpt-6.1-sol and gemini-3.8-flash), of which 94 were already entries; 11 queued (合作, 遺作, プロデュース, プロトタイプ, リメイク, 生みの親, 縫い合わせる, 縫製, 匠, 練り直す, 習作), 5 rejected (ろくろ is a spelling of 轆轤; 著作者, 鍛造, 製図 too specialized; 手先が器用 a free phrase). Closure: nothing new (no unresolved noentry markers; four closure words were queued by this run's first cycle). Queue 144 → 155. Model spend $0.06.
@@ -67,9 +72,4 @@ Self-check: gpt-6.1-sol reviewed 22 (16 new + 6 neighbours), 3 flags, all applie
 ### 2026-11-27 (43 candidates queued, second cycle of the 06:15 UTC run)
 
 Candidates mode. Brainstorm, field cooking: 22 queued (ピーラー, 粗熱, 塩もみ, ひと煮立ち, 火が通る, 火を通す, 目分量, 焼き色, …), 10 rejected (5 spellings of existing entries, 5 too specialized). Brainstorm, seeds 場所 to 値段 (basic tier): 20 queued (場所取り, 困り果てる, 昨日今日, 一枚岩, 客足, よりどりみどり, …), 5 rejected as spellings of existing entries. Closure: 1 (腸内環境); the noentry list is empty and the unlinked words in examples are almost all other spellings of existing entries. Queue 133 → 176. Model spend $0.15.
-
-### 2026-11-27 (6 new entries, seventh cycle of the 00:15 UTC run)
-
-33985–33990. Brainstorm (fields clothing, cognition, building; no closure or ezFurigana candidates were waiting): 襷, 頭巾, 会得, モデルハウス, 雨合羽, 雪駄. A small batch because the run clock was near its end. New kanji 襷 added to the kanji index (02880). Three closure candidates added (防災頭巾, 住宅展示場, モデルルーム).
-Self-check: gpt-6.1-sol reviewed 6, 0 flags; 6 kana links judged, 0 flagged; 3 wrong kana links in my own notes unlinked by hand decision (が, か, モデル in モデルルーム).
 
