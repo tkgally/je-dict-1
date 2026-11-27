@@ -2310,3 +2310,24 @@ distinct is that the mismatch is provable from the entry's own `pos` tag — no 
 no family enumeration. **Generalisable check**: any semantic tag naming a concrete *thing*
 (`body-part`, `body-internal`, `tool`, `furniture`, `clothing`, `animal-*`, `plant-*`) on an entry
 whose `pos` is verb-only is a type error. Queue item: `tag-bodypart-non-denotational`.
+
+### P70. Shop nouns tagged `building` alone — 22 entries
+
+A 2026-08-29 polish run found 酒屋 (14436) carrying only `building`, while its peers 弁当屋
+(28445) and 総菜屋 (21648) use `shopping` plus a domain tag and 百貨店 (18639) uses
+`building` + `shopping`. It reported "fifteen shop entries" in that state.
+
+Measured: **115 entries have a shop-shaped headword** (ending 屋 or 店), and **22 of them carry
+`semantic: ["building"]` and nothing else** — the run's estimate, slightly low. 00497 店 and
+29495 散髪屋 are in the set.
+
+The fix is a judgment the entries themselves settle: a shop is a business first and a structure
+second, so `shopping` belongs on all of them, with `building` retained where the word really does
+name a structure (百貨店 does; 酒屋 arguably does not). Twenty-two entries is one bounded batch,
+and unlike the sole-`general` family it has a definite destination tag, so it is a legitimate
+`systemic-fix` item rather than a polish-lane side task. Verify per entry — the 屋 suffix also
+forms non-shop words (問屋, 長屋, 部屋 are excluded by the sole-`building` filter but a wider
+predicate would catch them).
+
+**RESOLVED 2026-11-27.** The measured family had shrunk to 9 shops by this date (the rest of the 19 sole-`building` 屋/店 headwords are not shops: 部屋, 小屋, 納屋, 平屋, 母屋, 家屋, 廃屋, 空き部屋, 風車小屋, 飼育小屋, left as they are). Tagged by the most common convention among shop entries, a content tag plus `building`: 店 and 専門店 `shopping`; 喫茶店, 居酒屋, 茶屋 `food`; 理髪店, 理容店 `daily-life` (as 散髪屋); お茶屋 `culture`; 遊女屋 `history`. 理髪店 also lost a wrong `colloquial` domain tag.
+

@@ -1510,19 +1510,19 @@
     {
       "id": "tag-shop-nouns-building-only",
       "title": "Shop nouns tagged semantic ['building'] alone -- 22 entries",
-      "source": "ideas/cleanup-backlog.md#p70-shop-nouns-tagged-building-alone--22-entries",
+      "source": "ideas/cleanup-backlog-resolved.md#p70-shop-nouns-tagged-building-alone--22-entries",
       "detect": "headword ends in 屋 or 店 AND semantic == ['building']",
       "filter": "exclude non-shop 屋 compounds (問屋, 長屋, 部屋) by inspection",
       "fix_type": "tags",
       "verify": "per-entry",
       "priority": 12,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 22,
+      "status": "resolved",
+      "scope_estimate": 0,
       "scope_unit": "entries",
       "scope_measured_at": "2026-08-31",
       "severity": "warn",
-      "notes": "115 shop-shaped headwords exist; 22 carry sole-`building` (00497 mise and 29495 sanpatsuya among them). Peers use `shopping` plus a domain tag (28445, 21648) or `building`+`shopping` (18639). Unlike sole-`general` this family has a definite destination tag, so it is a legitimate systemic-fix batch rather than a polish-lane side task. 14436 sakaya fixed 2026-08-29."
+      "notes": "115 shop-shaped headwords exist; 22 carry sole-`building` (00497 mise and 29495 sanpatsuya among them). Peers use `shopping` plus a domain tag (28445, 21648) or `building`+`shopping` (18639). Unlike sole-`general` this family has a definite destination tag, so it is a legitimate systemic-fix batch rather than a polish-lane side task. 14436 sakaya fixed 2026-08-29. | 2026-11-27: resolved. 9 shop entries retagged (content tag + building); the other sole-building 屋/店 headwords are not shops."
     },
     {
       "id": "tag-existence-undefined-denotation",

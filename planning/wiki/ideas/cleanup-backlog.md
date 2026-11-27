@@ -3442,24 +3442,6 @@ with the entries open.
 
 ## Updates 2026-08-31 (wiki harvest)
 
-### P70. Shop nouns tagged `building` alone — 22 entries
-
-A 2026-08-29 polish run found 酒屋 (14436) carrying only `building`, while its peers 弁当屋
-(28445) and 総菜屋 (21648) use `shopping` plus a domain tag and 百貨店 (18639) uses
-`building` + `shopping`. It reported "fifteen shop entries" in that state.
-
-Measured: **115 entries have a shop-shaped headword** (ending 屋 or 店), and **22 of them carry
-`semantic: ["building"]` and nothing else** — the run's estimate, slightly low. 00497 店 and
-29495 散髪屋 are in the set.
-
-The fix is a judgment the entries themselves settle: a shop is a business first and a structure
-second, so `shopping` belongs on all of them, with `building` retained where the word really does
-name a structure (百貨店 does; 酒屋 arguably does not). Twenty-two entries is one bounded batch,
-and unlike the sole-`general` family it has a definite destination tag, so it is a legitimate
-`systemic-fix` item rather than a polish-lane side task. Verify per entry — the 屋 suffix also
-forms non-shop words (問屋, 長屋, 部屋 are excluded by the sole-`building` filter but a wider
-predicate would catch them).
-
 ### The katakana-in-furigana-braces population is filed twice, once open and once blocked
 
 Two queue items describe the same instances from different sides:
