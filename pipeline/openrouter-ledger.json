@@ -1,50 +1,29 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "daily_cap_usd": 15.0,
-  "spent_usd": 2.3446,
+  "spent_usd": 0.55,
   "calls": [
     {
-      "ts": "2026-11-26T01:27:18Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 21,
-      "est_usd": 0.1356
-    },
-    {
-      "ts": "2026-11-26T01:53:24Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 16,
-      "est_usd": 0.1074
-    },
-    {
-      "ts": "2026-11-26T02:29:54Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 300,
-      "est_usd": 1.9596
-    },
-    {
-      "ts": "2026-11-26T02:40:10Z",
-      "mode": "conjugation-check",
-      "phase": "conjugation-check",
-      "entries": 15,
-      "est_usd": 0.0
-    },
-    {
-      "ts": "2026-11-26T02:51:53Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 14,
-      "est_usd": 0.0914
-    },
-    {
-      "ts": "2026-11-26T03:13:11Z",
-      "mode": "self-check",
-      "phase": "self-check",
+      "ts": "2026-11-27T01:18:21Z",
+      "mode": "audio",
+      "phase": "digit-readings generate",
       "entries": 8,
-      "est_usd": 0.0506
+      "est_usd": 0.0137
+    },
+    {
+      "ts": "2026-11-27T01:18:32Z",
+      "mode": "audio",
+      "phase": "digit-readings confirm",
+      "entries": 7,
+      "est_usd": 0.0049
+    },
+    {
+      "ts": "2026-11-27T01:21:03Z",
+      "mode": "audio",
+      "phase": "production",
+      "entries": 200,
+      "est_usd": 0.5314
     }
   ]
 }
