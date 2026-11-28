@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-28 (20 new entries, second cycle of the 01:16 UTC run)
+
+34041–34060. Closure (from cycle 1's notes on 知的財産): 知財, 意匠権. Brainstorm (seeds 背中, すぐ, 嬉しい, だんだん, 楽しい, 悲しい, 困る, 味, 場所, 出かける; fields color, cooking, communication): 背中を押す, すぐさま, 嬉し涙, 日に日に, お楽しみ, 悲しげ, 楽しげ, 困り果てる, 味をしめる, くすむ, 色分け, 火が通る, 火を通す (paired in prominent see-also), ひとつまみ, 粗熱, お出かけ, 置き場所, 言いふらす. The harvester added reciprocal cross-references in 14 existing entries. Candidates queued from the new notes: 悔し涙, 感涙, 日増しに, 触れ回る.
+Self-check: gpt-6.1-sol reviewed the 20 new entries, clean. 19 kana links judged, 1 removed (として in 意匠権 is quotative とする, "on the grounds that").
+
 ### 2026-11-27 (14 new entries, sixth cycle of the 10:44 UTC run)
 
 34027–34040. Closure (from the notes of this run's first cycle): 加味, 破竹の勢い, 日の出の勢い, からし色. Brainstorm (seeds 危ない, 授業, 撮る, 百, 勉強, 病気, ご飯; field communication): 危なっかしい, 授業参観, 記念撮影, 百発百中, 危ぶむ, 猛勉強, 病み上がり, ご飯粒, 手話, 釘を刺す. The harvester added reciprocal cross-references in 6 existing entries.
@@ -68,8 +73,4 @@ Self-check: gpt-6.1-sol reviewed 20, 1 flag, applied (a gold card is a premium t
 
 33991–34006. Closure: 腸内環境. Brainstorm (cognition and color fields, and seeds 七, 二, 三, 美味しい, 写真): 感づく, 物心がつく, 思い詰める, 頭をひねる, 七味唐辛子, ほっぺたが落ちる, 三流, 二の次, 二の舞, 三度目の正直, 写真写り, ベージュ, 黄ばむ, ねずみ色, 既視感. The first entries in directory entries/34000/. The harvester added reciprocal cross-references in 6 existing entries.
 Self-check: gpt-6.1-sol reviewed 22 (16 new + 6 neighbours), 3 flags, all applied (思い詰める is transitive; a grammar slip in ほっぺたが落ちる's notes; 黄ばむ is also used of leaves). 13 kana links judged, 0 flagged.
-
-### 2026-11-27 (43 candidates queued, second cycle of the 06:15 UTC run)
-
-Candidates mode. Brainstorm, field cooking: 22 queued (ピーラー, 粗熱, 塩もみ, ひと煮立ち, 火が通る, 火を通す, 目分量, 焼き色, …), 10 rejected (5 spellings of existing entries, 5 too specialized). Brainstorm, seeds 場所 to 値段 (basic tier): 20 queued (場所取り, 困り果てる, 昨日今日, 一枚岩, 客足, よりどりみどり, …), 5 rejected as spellings of existing entries. Closure: 1 (腸内環境); the noentry list is empty and the unlinked words in examples are almost all other spellings of existing entries. Queue 133 → 176. Model spend $0.15.
 
