@@ -50,6 +50,10 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-28 (17 candidates queued, fourth cycle of the 07:12 UTC run)
+
+Candidates mode. Brainstorm, seeds 380–400 (眠い, おかしい, 怒る, おととい, お釣り, レジ, 最近, 最初, 皿, 砂糖, 島, 塩, 質問, 正しい, 助ける, 店員, 手伝う, 生まれる, 売る, 悪い): 330 proposals (124 mine, 111 from gpt-6.1-sol, 95 from gemini-3.8-flash), of which 166 were already entries and 11 were other spellings of entries (眠たい, 売上, 欠伸, 寝惚ける, ムカつく, 頭に来る …); 17 queued (目が冴える, 眠気覚まし, おかしな, お釣りが来る, レジ係, レジ打ち, このところ, 受け皿, 粉砂糖, 岩塩, 塩対応, 質問攻め, 助け舟, 生まれ故郷, 喧嘩を売る, 売り物, 売り込む), 5 rejected as free phrases or transparent compounds (塩を振る, 砂糖水, 質問票, お釣りを渡す, キャッシュレジスター). Closure: nothing new. Queue 111 → 128. Model spend $0.09.
+
 ### 2026-11-28 (16 new entries, third cycle of the 07:12 UTC run)
 
 34061–34076. Closure (queued from the previous new-entries cycle's notes): 悔し涙, 感涙, 日増しに, 触れ回る. Brainstorm (fields brand-name, color): ヤフー, サントリー, シーチキン, ホワイト, レッド, シルバー (with its "for the elderly" sense: シルバー人材センター, シルバーシート), カーキ, モノトーン (a false friend: not English "monotone"), 真っ黄色, 乳白色, 色むら, 色移り. The harvester added reciprocal cross-references in ツナ缶 and ベージュ.
@@ -68,9 +72,4 @@ Self-check: gpt-6.1-sol reviewed 20 (14 new + 6 neighbours), clean. 9 kana links
 ### 2026-11-27 (11 candidates queued, fifth cycle of the 10:44 UTC run)
 
 Candidates mode. Brainstorm, field creation (147 member entries): 110 proposals (45 mine, 50 each from gpt-6.1-sol and gemini-3.8-flash), of which 94 were already entries; 11 queued (合作, 遺作, プロデュース, プロトタイプ, リメイク, 生みの親, 縫い合わせる, 縫製, 匠, 練り直す, 習作), 5 rejected (ろくろ is a spelling of 轆轤; 著作者, 鍛造, 製図 too specialized; 手先が器用 a free phrase). Closure: nothing new (no unresolved noentry markers; four closure words were queued by this run's first cycle). Queue 144 → 155. Model spend $0.06.
-
-### 2026-11-27 (20 new entries, first cycle of the 10:44 UTC run)
-
-34007–34026. Closure: 防災頭巾, 住宅展示場, モデルルーム. Brainstorm (clothing, cognition and color fields, and seeds 先週, 飛ぶ, 七): ショーツ, ボーダー, 襦袢, よそ行き, 袂, 内省, 勘案, 探究, 前週, 飛ぶ鳥を落とす勢い, 七不思議, パステルカラー, 三原色, 蛍光色, 黄土色, クリーム色, ゴールド. New kanji 袂, 襦, 袢 added to the kanji index. Candidates queued from the new notes: 加味, 破竹の勢い, 日の出の勢い, からし色.
-Self-check: gpt-6.1-sol reviewed 20, 1 flag, applied (a gold card is a premium tier, not the top one). 17 kana links judged, 1 removed (というのは in 七不思議 is a topicalizer, not the "the reason is" entry).
 
