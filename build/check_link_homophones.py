@@ -121,16 +121,25 @@ def superseded_removed(decisions: list[dict]) -> list[dict]:
     editing: a ``keep`` for the same entry, base and target, written after an
     ``unlink`` (for example once the target entry gains the missing sense),
     cancels it for the tools that apply unlinks.
+
+    A keep and an unlink that both pin an occurrence (``field`` and ``context``)
+    interact only when they pin the same one: a keep for one occurrence of a
+    word must not cancel the retarget of another occurrence in the same entry
+    (2026-11-28: むしろ歩いたほうがいい stayed on 方 because the entry's
+    comparative ほう was kept later in the same batch).
     """
-    last_keep: dict[tuple[str, str, str], int] = {}
+    keeps: dict[tuple[str, str, str], list[tuple[int, str, str]]] = {}
     for i, rec in enumerate(decisions):
         if rec.get("decision") == "keep" and rec.get("entry"):
-            last_keep[(entry_num(rec["entry"]), norm_base(rec.get("base", "")), rec.get("target", ""))] = i
+            key = (entry_num(rec["entry"]), norm_base(rec.get("base", "")), rec.get("target", ""))
+            keeps.setdefault(key, []).append((i, rec.get("field") or "", rec.get("context") or ""))
     out = []
     for i, rec in enumerate(decisions):
         if rec.get("decision") in ("unlink", "retarget") and rec.get("entry"):
             key = (entry_num(rec["entry"]), norm_base(rec.get("base", "")), rec.get("target", ""))
-            if last_keep.get(key, -1) > i:
+            ctx, fld = rec.get("context") or "", rec.get("field") or ""
+            if any(j > i and (not kctx or not ctx or (kctx == ctx and kfld == fld))
+                   for j, kfld, kctx in keeps.get(key, ())):
                 continue
         out.append(rec)
     return out
