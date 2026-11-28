@@ -3575,3 +3575,11 @@ Progress 2026-11-28 (routine 2026-11-28_003), `kana-surface-kanji-base-links`: �
 they were retargeted there. Both link reviewers had passed the sampled ones as right, so for each
 large base, check by hand that the target entry carries the sense being linked (置く, 見る, 行く and
 来る do). 来る, 達, 所: 40 sampled each, all right. 7,136 links remain (3,521 ください→下さい).
+
+Progress 2026-11-28 (routine 2026-11-28_009), `kana-surface-kanji-base-links`: 物, 付く, 付ける, 方
+and 頃 read in full (567 links). The same lesson held: the wrong links were set phrases and grammar
+whose word has its own entry. 85 retargeted: ものだ of what is natural (早いものだ) to 10988 もの;
+嘘をつく, 嘘つき, 眠りにつく, 気をつける to their phrase entries; 火/電気がつく to 点く, 膝をつく to 突く,
+火をつける to つける 00562; advice ほうがいい after a verb (37) to 10078. One unlink (何十通もの = も+の).
+A ledger bug surfaced and was fixed: a `keep` for one occurrence cancelled an occurrence-pinned
+unlink or retarget elsewhere in the same entry (`superseded_removed`). 6,569 links remain.

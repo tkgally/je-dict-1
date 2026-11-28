@@ -29,6 +29,18 @@ class SupersedeTest(unittest.TestCase):
         out = clh.superseded_removed([_rec("unlink"), _rec("keep", target="99999_x")])
         self.assertEqual(len(out), 2)
 
+    def test_keep_of_another_occurrence_does_not(self):
+        a = dict(_rec("retarget"), context="むしろ歩いた【ほう】がいい。", field="examples[1]")
+        b = dict(_rec("keep"), context="寒い【ほう】が好きだ。", field="examples[2]")
+        out = clh.superseded_removed([a, b])
+        self.assertEqual(len(out), 2)
+
+    def test_keep_of_same_occurrence_does(self):
+        a = dict(_rec("unlink"), context="寒い【ほう】が好きだ。", field="examples[2]")
+        b = dict(_rec("keep"), context="寒い【ほう】が好きだ。", field="examples[2]")
+        out = clh.superseded_removed([a, b])
+        self.assertEqual([r["decision"] for r in out], ["keep"])
+
     def test_load_unlink_decisions_honours_later_keep(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "d.jsonl"
