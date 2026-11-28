@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "COMPOUNDS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{議長|ぎちょう} (meeting chairman)\n- ⟦{衆議院|しゅうぎいん}→衆議院：14153_shuugiin⟧{議長|ぎちょう} (House of Representatives speaker)\n- ⟦{参議院|さんぎいん}→参議院：15158_sangiin⟧{議長|ぎちょう} (House of Councillors speaker)\n\nCOMMON PATTERNS:\n- {議長|ぎちょう}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧ (to serve as chairman)\n- {議長|ぎちょう}⟦に→に：00314_ni⟧⟦{選出|せんしゅつ}→選出：14448_senshutsu⟧⟦される→する：00392_suru⟧ (to be elected chairman)\n- {議長|ぎちょう}⟦が→が：00051_ga⟧⟦{指名|しめい}→指名：12868_shimei⟧⟦する→する：00392_suru⟧ (the chairman designates)",
+  "notes": "COMPOUNDS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{議長|ぎちょう} (meeting chairman)\n- ⟦{衆議院|しゅうぎいん}→衆議院：14153_shuugiin⟧{議長|ぎちょう} (House of Representatives speaker)\n- ⟦{参議院|さんぎいん}→参議院：15158_sangiin⟧{議長|ぎちょう} (House of Councillors speaker)\n\nCOMMON PATTERNS:\n- {議長|ぎちょう}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧ (to serve as chairman)\n- {議長|ぎちょう}⟦に→に：00314_ni⟧⟦{選出|せんしゅつ}→選出：14448_senshutsu⟧⟦される→する：00392_suru⟧ (to be elected chairman)\n- {議長|ぎちょう}⟦が→が：00051_ga⟧⟦{指名|しめい}→指名：12868_shimei⟧⟦する→する：00392_suru⟧ (the chairman designates)\n\nSIMILAR WORDS:\n- ⟦{司会|しかい}→司会：00364_shikai⟧: the host or moderator who runs the program of a meeting or event; {議長|ぎちょう} presides over a deliberating body and rules on its proceedings\n- ⟦{委員長|いいんちょう}→委員長：19385_iinchou⟧: chair of a committee",
   "cross_references": [
     {
       "type": "related",
@@ -140,11 +140,18 @@
       "reading": "りじちょう",
       "headword": "{理事長|りじちょう}",
       "label": "chairperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00364_shikai",
+      "reading": "しかい",
+      "headword": "{司会|しかい}",
+      "label": "the host or moderator who runs…"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:04:35Z",
-    "modified": "2026-10-09T13:59:50Z",
+    "modified": "2026-11-28T08:53:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -154,7 +161,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "occupation"
+        "occupation",
+        "politics"
       ]
     }
   }
