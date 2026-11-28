@@ -11,7 +11,7 @@
   "screen": "the model's type-level verdict (unique | ambiguous), risk (none | rare | common), model and date",
   "review": "adjudicated occurrences from the ledger: reviewed, wrong, date (written by --retier)"
  },
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "bases": {
   "あ": {
    "target": "01572_a",
@@ -16728,6 +16728,18 @@
     "note": "This is the common name for the mushroom and has no common homophones.",
     "model": "google/gemini-2.5-flash",
     "date": "2026-10-01"
+   }
+  },
+  "なめす": {
+   "target": "31817_namesu",
+   "tier": "unique",
+   "competitors": [],
+   "screen": {
+    "verdict": "unique",
+    "risk": "none",
+    "note": "なめす (鞣す) is the only common word with this reading, and it is not an inflected form of 舐める.",
+    "model": "claude:opus",
+    "date": "2026-11-28"
    }
   },
   "なら": {

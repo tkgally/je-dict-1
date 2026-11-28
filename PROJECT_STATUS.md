@@ -50,6 +50,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-11-28 (16 new entries, third cycle of the 07:12 UTC run)
+
+34061–34076. Closure (queued from the previous new-entries cycle's notes): 悔し涙, 感涙, 日増しに, 触れ回る. Brainstorm (fields brand-name, color): ヤフー, サントリー, シーチキン, ホワイト, レッド, シルバー (with its "for the elderly" sense: シルバー人材センター, シルバーシート), カーキ, モノトーン (a false friend: not English "monotone"), 真っ黄色, 乳白色, 色むら, 色移り. The harvester added reciprocal cross-references in ツナ缶 and ベージュ.
+Self-check: gpt-6.1-sol reviewed 18 (16 new + 2 neighbours), 2 applied: 日増しに also describes a deepening decline; モノトーン's rare "monotonous" sense is now acknowledged. 8 kana links judged, 0 flagged.
+
 ### 2026-11-28 (20 new entries, second cycle of the 01:16 UTC run)
 
 34041–34060. Closure (from cycle 1's notes on 知的財産): 知財, 意匠権. Brainstorm (seeds 背中, すぐ, 嬉しい, だんだん, 楽しい, 悲しい, 困る, 味, 場所, 出かける; fields color, cooking, communication): 背中を押す, すぐさま, 嬉し涙, 日に日に, お楽しみ, 悲しげ, 楽しげ, 困り果てる, 味をしめる, くすむ, 色分け, 火が通る, 火を通す (paired in prominent see-also), ひとつまみ, 粗熱, お出かけ, 置き場所, 言いふらす. The harvester added reciprocal cross-references in 14 existing entries. Candidates queued from the new notes: 悔し涙, 感涙, 日増しに, 触れ回る.
@@ -68,9 +73,4 @@ Candidates mode. Brainstorm, field creation (147 member entries): 110 proposals 
 
 34007–34026. Closure: 防災頭巾, 住宅展示場, モデルルーム. Brainstorm (clothing, cognition and color fields, and seeds 先週, 飛ぶ, 七): ショーツ, ボーダー, 襦袢, よそ行き, 袂, 内省, 勘案, 探究, 前週, 飛ぶ鳥を落とす勢い, 七不思議, パステルカラー, 三原色, 蛍光色, 黄土色, クリーム色, ゴールド. New kanji 袂, 襦, 袢 added to the kanji index. Candidates queued from the new notes: 加味, 破竹の勢い, 日の出の勢い, からし色.
 Self-check: gpt-6.1-sol reviewed 20, 1 flag, applied (a gold card is a premium tier, not the top one). 17 kana links judged, 1 removed (というのは in 七不思議 is a topicalizer, not the "the reason is" entry).
-
-### 2026-11-27 (16 new entries, fifth cycle of the 06:15 UTC run)
-
-33991–34006. Closure: 腸内環境. Brainstorm (cognition and color fields, and seeds 七, 二, 三, 美味しい, 写真): 感づく, 物心がつく, 思い詰める, 頭をひねる, 七味唐辛子, ほっぺたが落ちる, 三流, 二の次, 二の舞, 三度目の正直, 写真写り, ベージュ, 黄ばむ, ねずみ色, 既視感. The first entries in directory entries/34000/. The harvester added reciprocal cross-references in 6 existing entries.
-Self-check: gpt-6.1-sol reviewed 22 (16 new + 6 neighbours), 3 flags, all applied (思い詰める is transitive; a grammar slip in ほっぺたが落ちる's notes; 黄ばむ is also used of leaves). 13 kana links judged, 0 flagged.
 
