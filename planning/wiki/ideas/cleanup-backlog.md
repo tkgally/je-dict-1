@@ -3583,3 +3583,7 @@ whose word has its own entry. 85 retargeted: ものだ of what is natural (早�
 火をつける to つける 00562; advice ほうがいい after a verb (37) to 10078. One unlink (何十通もの = も+の).
 A ledger bug surfaced and was fixed: a `keep` for one occurrence cancelled an occurrence-pinned
 unlink or retarget elsewhere in the same entry (`superseded_removed`). 6,569 links remain.
+
+Progress 2026-11-28 (routine 2026-11-28_016), `kana-surface-kanji-base-links`: 欲しい, 程, 過ぎる read in full
+(186 links); 8 retargeted to entries of their own (後ほど → 後程, 山ほど, noun すぎ in 言いすぎ / 入れすぎ).
+にすぎない queued as a candidate. 6,383 links remain.
