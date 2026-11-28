@@ -1631,11 +1631,11 @@
       "priority": 12,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 7414,
+      "scope_estimate": 7136,
       "severity": "warn",
       "scope_unit": "links",
-      "scope_measured_at": "2026-09-08",
-      "notes": "Opened 2026-09-08 with the kana-homophone link workflow (build/check_link_homophones.py, build/review_links.py). The deterministic linker never writes a link from a kana surface to a kanji-headed entry, so all 7,414 of these are hand links from the old semantic passes: 3,596 are ください→下さい (harmless: the table word's older spelling); the other ~3,800 over ~400 bases (来る, 達, 所, 仕舞う, 物, 美味しい, 付く, 時, 行く, 置く …) were verified by the session that placed them but have never had an independent check. Same review path as the kana-base class: `python3 build/review_links.py --queue <json from the detector> --budget 0.30` flags occurrences whose marked word is not the entry's word; adjudicate each with a keep/unlink line in reviews/link_decisions.jsonl and apply with `review_links.py --apply-decisions`. No tiering applies (the ledger key is the kanji base). Batch by base, largest first; expect a low error rate."
+      "scope_measured_at": "2026-11-28",
+      "notes": "Opened 2026-09-08 with the kana-homophone link workflow (build/check_link_homophones.py, build/review_links.py). The deterministic linker never writes a link from a kana surface to a kanji-headed entry, so all 7,414 of these are hand links from the old semantic passes: 3,596 are ください→下さい (harmless: the table word's older spelling); the other ~3,800 over ~400 bases (来る, 達, 所, 仕舞う, 物, 美味しい, 付く, 時, 行く, 置く …) were verified by the session that placed them but have never had an independent check. Same review path as the kana-base class: `python3 build/review_links.py --queue <json from the detector> --budget 0.30` flags occurrences whose marked word is not the entry's word; adjudicate each with a keep/unlink line in reviews/link_decisions.jsonl and apply with `review_links.py --apply-decisions`. No tiering applies (the ledger key is the kanji base). Batch by base, largest first; expect a low error rate. Progress 2026-11-28 (routine 2026-11-28_003): 来る, 達, 所 sampled 40 each (120 links), all judged right and logged as model keeps; 仕舞う done in full: all 239 links read, 229 were the auxiliary てしまう after a te-form and were retargeted to 03102_teshimau (the 仕舞う entry has no auxiliary sense and names that entry), 10 are the main verb (keep). The two reviewers (Opus, then gpt-6.1-sol) judged all 40 sampled しまう links 'entry', so a per-base check of whether the target entry has the sense is worth doing by hand: 置く, 見る, 行く and 来る do cover their auxiliary uses; check the rest of the large bases the same way. Remaining 7,136 links (3,521 ください→下さい)."
     },
     {
       "id": "noentry-marker-legacy",

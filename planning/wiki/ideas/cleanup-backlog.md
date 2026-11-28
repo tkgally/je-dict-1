@@ -3568,3 +3568,10 @@ for お話しした, {新|あら}しい for 新しい. 密の会議 and 鬱と�
 - [Entry Consistency](../topics/entry-consistency.md) — consistency standards
 - [Schema Tag Reliability](../topics/schema-tag-reliability.md) — analysis of recurring tag-drift patterns (covers P6–P8 above)
 - [Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md) — analysis of malformed wrapper patterns (covers P9 above)
+
+Progress 2026-11-28 (routine 2026-11-28_003), `kana-surface-kanji-base-links`: 仕舞う done in full.
+229 of its 239 links were the auxiliary てしまう (ミスをしてしまった) pointing at the main verb
+"to put away", whose entry has no auxiliary sense and names 03102 〜てしまう as the separate entry;
+they were retargeted there. Both link reviewers had passed the sampled ones as right, so for each
+large base, check by hand that the target entry carries the sense being linked (置く, 見る, 行く and
+来る do). 来る, 達, 所: 40 sampled each, all right. 7,136 links remain (3,521 ください→下さい).
